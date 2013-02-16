@@ -1,0 +1,331 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01006
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/primary-immunodeficiency/DS01006
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-28
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="2617" Title="Immunodeficiency" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			20EA134D-E7FF-0DBD-1FD2F9F7AF5DB7A5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Primary immunodeficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				primary immune disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				PID
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary immunodeficiency disorders &amp;mdash; also called primary immune disorders or primary immunodeficiency &amp;mdash; weaken the immune system, allowing repeated infections and other health problems to occur more easily.
+&lt;/p&gt;
+&lt;p&gt;
+Many people with primary immunodeficiency are born missing some of the body&apos;s immune defenses, which leaves them more susceptible to germs that can cause infections.
+&lt;/p&gt;
+&lt;p&gt;
+Some forms of primary immunodeficiency are so mild they may go unnoticed for years. Other types of primary immunodeficiency are severe enough that they are discovered almost as soon as an affected baby is born.
+&lt;/p&gt;
+&lt;p&gt;
+Treatments can boost the immune system for many types of primary immunodeficiency disorders. Most children with primary immunodeficiency disorders lead relatively normal lives, and are able to go to school and play with friends.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the most common signs of primary immunodeficiency is an increased susceptibility to infections. You may have infections that are more frequent, longer lasting or harder to treat than are the infections of someone with a normal immune system. You may also get infections that a person with a healthy immune system likely wouldn&apos;t get (called opportunistic infections). There are more than 70 types of primary immunodeficiency disorders, and signs and symptoms differ depending on the particular type of disorder you have. Signs and symptoms also vary from person to person.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of primary immunodeficiency can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent and recurrent ear infections, pneumonia, meningitis, bronchitis, sinus infections or skin infections&lt;/li&gt;
+	&lt;li&gt;Blood infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to frequent infections, other problems that may occur include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation and infection of internal organs, such as the liver&lt;/li&gt;
+	&lt;li&gt;Autoimmune disorders, such as lupus, rheumatoid arthritis or type 1 diabetes&lt;/li&gt;
+	&lt;li&gt;Blood disorders, such as low platelet counts or anemia&lt;/li&gt;
+	&lt;li&gt;Digestive problems, such as cramping, loss of appetite, nausea and diarrhea&lt;/li&gt;
+	&lt;li&gt;Delayed growth and development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you or your child has frequent, recurrent or severe infections, or infections that don&apos;t respond to usual treatments, talk to your doctor. While primary immune deficiencies are rare, early diagnosis and treatment can prevent infections that can cause long-term problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many primary immunodeficiency disorders are inherited &amp;mdash; passed down from one or both parents. Problems in the DNA &amp;mdash; the genetic code that acts as a blueprint for producing the cells that make up the human body &amp;mdash; cause many of the immune system defects in primary immunodeficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+There are numerous types of primary immunodeficiency disorders. They can be broadly classified into six groups based on the part of the immune system that&apos;s affected:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;B cell (antibody) deficiencies&lt;/li&gt;
+	&lt;li&gt;T cell deficiencies&lt;/li&gt;
+	&lt;li&gt;Combination B and T cell deficiencies&lt;/li&gt;
+	&lt;li&gt;Defective phagocytes&lt;/li&gt;
+	&lt;li&gt;Complement deficiencies&lt;/li&gt;
+	&lt;li&gt;Unknown (idiopathic)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+B cell deficiencies are the most common type of primary immunodeficiency disorder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Currently, the only known risk factor is having a family history of a primary immune deficiency disorder, which increases your risk of having primary immunodeficiency. Unlike other acquired immune system disorders you can catch &amp;mdash; such as HIV/AIDS &amp;mdash; a primary immunodeficiency disorder is often inherited. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications caused by a primary immunodeficiency disorder vary, depending on what particular disorder you have. They can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurrent infections&lt;/li&gt;
+	&lt;li&gt;Autoimmune disorders&lt;/li&gt;
+	&lt;li&gt;Damage to heart, lungs, nervous system or digestive tract&lt;/li&gt;
+	&lt;li&gt;Slowed growth&lt;/li&gt;
+	&lt;li&gt;Increased risk of cancer&lt;/li&gt;
+	&lt;li&gt;Death from serious infection, such as meningitis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in disorders of the immune system (immunologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep copies of records from hospitalizations and medical test results,&lt;/strong&gt; including X-rays, blood test results and culture findings, and bring them with you to your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask family members about the family medical history,&lt;/strong&gt; including whether or not anyone was ever diagnosed with primary immunodeficiency, or if any babies or children died inexplicably in the past.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you or your child is taking. If possible, write down all of the antibiotic prescriptions and the dosage that you or your child has taken for the past several months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time can help you make the most of the time with your doctor or your child&apos;s doctor. For primary immunodeficiency, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my or my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed to confirm the diagnosis? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my or my child&apos;s prognosis?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can be expected from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor or your child&apos;s doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your child first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How many infections have you or your child had during the past year?&lt;/li&gt;
+	&lt;li&gt;How long do these infections usually last?&lt;/li&gt;
+	&lt;li&gt;Do antibiotics usually clear up the infection?&lt;/li&gt;
+	&lt;li&gt;How many times has your child taken antibiotics in the last year?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your or your child&apos;s family have primary immunodeficiency?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help decide whether recurrent infections could be due to primary immunodeficiency, your doctor will begin by asking a number of questions, such as what health problems you have, how long infections last, how severe they are and whether they respond to treatment. Your doctor will also want to know whether any close relatives have an inherited immune system disorder. Your doctor will perform a physical examination to look for clues that may indicate the cause of your illness. Primary immune disorders are rare, so your doctor will want to be sure your signs and symptoms aren&apos;t caused by a more common health problem. 
+&lt;/p&gt;
+&lt;p&gt;
+There are several tests used to diagnose an immune disorder. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; In most cases, blood tests can reveal abnormalities in the immune system that indicate an immune deficiency disorder. Tests can determine if you have normal levels of infection fighting proteins (immunoglobulin) in your blood. Tests can measure the levels of different blood cells and immune system cells. Abnormal numbers of certain cells can indicate an immune system defect. Other blood tests can determine if your immune system is responding properly and producing antibodies &amp;mdash; proteins that identify and kill foreign invaders such as bacteria or viruses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identifying infections.&lt;/strong&gt; If you have an infection that&apos;s not responding to standard treatment, your doctor may do tests to try to identify exactly what germs are causing it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prenatal testing.&lt;/strong&gt; Parents who&apos;ve already had a child with a primary immunodeficiency disorder may want to have testing done for certain immunodeficiency disorders during future pregnancies. Samples of the amniotic fluid, blood or cells from the tissue that will become the placenta (chorion) are tested for abnormalities. In some cases, DNA testing is done to test for a genetic defect. Test results make it possible to prepare for treatment soon after birth, if necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for primary immunodeficiency involve preventing and treating infections, boosting the immune system and treating the underlying cause of the immune problem. In some cases, primary immune disorders are linked to a serious illness, such as an autoimmune disorder or cancer, which also needs to be treated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Managing infections&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Infections are typically treated with antibiotics. In cases where infections don&apos;t respond to standard medications, hospitalization and treatment with intravenous (IV) antibiotics may be necessary. Some people need to take antibiotics long term to prevent infections from occurring and to prevent permanent damage to the lungs and ears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treating symptoms.&lt;/strong&gt; You may need medications to relieve symptoms caused by infections, such as ibuprofen for pain and fever, decongestants for sinus congestion, and expectorants to help clear your airways.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment to boost the immune system&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immunoglobulin therapy.&lt;/strong&gt; Also called gamma globulin therapy, this treatment can be a lifesaver for people who have an antibody deficiency. Immunoglobulin consists of antibody proteins needed for the immune system to fight infections. It can be either injected into a vein through an IV line, or inserted underneath the skin (subcutaneous infusion). Treatment with intravenous gamma globulin is needed every few weeks to maintain sufficient levels of immunoglobulins. Subcutaneous infusion is needed once or twice a week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gamma interferon therapy.&lt;/strong&gt; Interferons are naturally occurring substances that fight viruses and stimulate immune system cells. Gamma interferon is a man-made (synthetic) substance given as an injection in the thigh or arm three times a week. It&apos;s used to treat chronic granulomatous disease, one form of primary immunodeficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth factors.&lt;/strong&gt; When immune deficiency is caused by a lack of certain white blood cells, growth factor therapy &amp;mdash; such as granulocyte-macrophage colony-stimulating factor (Leukine) and granulocyte colony-stimulating factor (Neupogen, Neulasta) &amp;mdash; can help increase the levels of immune-strengthening white blood cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment to cure primary immunodeficiency&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cell transplantation.&lt;/strong&gt; Stem cell transplantation offers a permanent cure for several forms of life-threatening immunodeficiency. With this treatment, normal stem cells are transferred to the person with immunodeficiency, giving them a normally functioning immune system. Stem cells can be harvested through bone marrow, or they can be obtained from the placenta at birth (cord blood banking). For stem cell transplantation to work, the donor &amp;mdash; usually a parent or other close relative &amp;mdash; must have body tissues that are a close biological match to those of the person with primary immunodeficiency. Stem cells that aren&apos;t a good match may be rejected by the immune system. But even with a good match, stem cell transplants don&apos;t always work. Additionally, the treatment often requires that any functioning immune cells be destroyed using chemotherapy or radiation prior to the transplants, leaving the transplant recipient even more vulnerable to infection temporarily.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Future treatments&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gene therapy.&lt;/strong&gt; Researchers hope this treatment will one day be a cure for primary immune disorders and many other conditions. Gene therapy actually replaces defective genes with genes that work correctly. A harmless virus is used to carry the genes into the body&apos;s cells. In turn, the newly introduced genes trigger the production of healthy immune system enzymes and proteins. Experts have identified many of the genes that cause primary immune deficiencies &amp;mdash; but they still need to work out many problems. For example, some of the missing or defective genes are only activated during the early development of the immune system, so even if scientists can figure out how to get that gene where it needs to be, it would also have to trigger the development of the missing functions. Although the technique has shown promise in some initial trials, gene therapy is still experimental.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because treatment options have improved, most people with primary immunodeficiency can go to school and work like everyone else. Still, you may feel as if no one understands what it&apos;s like to live with this chronic illness and the threat of serious infections. Talking to someone else who faces the same daily challenges may be helpful. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor if there are support groups in the area for people with primary immunodeficiency, or for parents of children with the disease. The Primary Immunodeficiency Resource Center of the Jeffrey Modell Foundation offers online message boards on its website where you can connect with others coping with primary immunodeficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+The Immune Deficiency Foundation (IDF) has a peer support program, as well as information on day-to-day living with primary immunodeficiency. For example, the IDF has a guide that you can download for school personnel so that they can better understand your child&apos;s condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because primary immune disorders are caused by genetic defects, there&apos;s no way to prevent them. But when you or your child has a weakened immune system, you can take steps to prevent infections: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use proper hygiene.&lt;/strong&gt; Wash your hands and skin with mild soap whenever using the toilet and before eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your teeth.&lt;/strong&gt; Brush your teeth at least two times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat right.&lt;/strong&gt; A healthy, balanced diet can help prevent infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid exposure.&lt;/strong&gt; Stay away from people with colds or other infections and avoid crowds of people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medications.&lt;/strong&gt; You may need to take regular medications to prevent infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check with your doctor&lt;/strong&gt; about which vaccinations you should have. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Primary immunodeficiency
+	</Title>
+	<Abstract>
+		Primary immunodeficiency &amp;mdash; Comprehensive overview covers symptoms, treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00155" LinkType="Internal" ObjectID="E4636F2E-E7FF-0DBD-19D23492870EE783" Title="Amniocentesis" Url="http://www.mayoclinic.com/health/amniocentesis/MY00155" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00154" LinkType="Internal" ObjectID="E457E151-E7FF-0DBD-1ACADCF6AE70EE0B" Title="Chorionic villus sampling" Url="http://www.mayoclinic.com/health/chorionic-villus-sampling/MY00154" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00105" LinkType="Internal" ObjectID="C0133EF8-E7FF-0DBD-169C6332C6D45953" Title="Gene therapy" Url="http://www.mayoclinic.com/health/gene-therapy/MY00105" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+		<LinkItem ContentType="Disease" DocID="DS00232" LinkType="Internal" ObjectID="A2BE5F0B-0600-4C43-BE1191EFF704F5F4" Title="Chronic sinusitis" Url="http://www.mayoclinic.com/health/chronic-sinusitis/DS00232" />
+		<LinkItem ContentType="Disease" DocID="DS00691" LinkType="Internal" ObjectID="694C3120-2A5D-9994-E603EEB0CB3F9B14" Title="Thrombocytopenia (low platelet count)" Url="http://www.mayoclinic.com/health/thrombocytopenia/DS00691" />
+		<LinkItem ContentType="Disease" DocID="DS01122" LinkType="Internal" ObjectID="62AB3DE2-E7FF-0DBD-1A7467616FA82C1D" Title="Arthritis" Url="http://www.mayoclinic.com/health/arthritis/DS01122" />
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+		<LinkItem ContentType="Disease" DocID="DS00135" LinkType="Internal" ObjectID="101586DD-4780-4B53-9AA9C9010C842DAA" Title="Pneumonia" Url="http://www.mayoclinic.com/health/pneumonia/DS00135" />
+	</RelatedLinksBox>
+</Disease>

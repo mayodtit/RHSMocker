@@ -1,0 +1,137 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01434
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/crohns-disease/AN01434
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-22
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1452" Title="Intestines">
+						<Keyword MCVID="1852" Title="Inflammatory bowel disease">
+							<Keyword MCVID="2642" Title="Crohn&apos;s disease" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CCAAB0DD-E7FF-0DBD-1B5B7D749E09AFD9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Crohn&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				crohns disease
+			</MetaKeyword>
+			<MetaKeyword>
+				fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				crohn&apos;s disease symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				irritable bowel disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Fatigue is an all too common symptom of Crohn&apos;s disease. In one study, about three-quarters of people with active disease reported high levels of fatigue. Other studies of people whose disease was in remission found that fatigue continued to be a problem for 30 to 40 percent of them. 
+&lt;/p&gt;
+&lt;p&gt;
+Fatigue can have a major impact on people who have Crohn&apos;s disease and ulcerative colitis, affecting their work, daily life and quality of life. 
+&lt;/p&gt;
+&lt;p&gt;
+Besides direct effects from the disease, other factors that frequently affect people with Crohn&apos;s disease &amp;mdash; pain, anxiety, depression, difficulty sleeping &amp;mdash; also contribute to feelings of fatigue. 
+&lt;/p&gt;
+&lt;p&gt;
+What can be done about it? Fatigue is a knotty problem with no easy answer. Here are a few ideas: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get your disease under control.&lt;/strong&gt; People whose disease is in remission have fewer complaints about fatigue. Medications that target inflammation, such as biologic therapies (adalimumab, certolizumab, infliximab) and immunomodulators (azathioprine, mercaptopurine, methotrexate), help many people feel better, with less fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat anemia.&lt;/strong&gt; A shortage of red blood cells is a common problem among people with Crohn&apos;s disease. It can contribute to low energy and fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about your medications.&lt;/strong&gt; Certain medications used to treat Crohn&apos;s disease, such as corticosteroids (prednisone), can lead to fatigue &amp;mdash; either directly or by interfering with sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek psychological therapy.&lt;/strong&gt; Consider talking to a doctor or a counselor about ways to manage fatigue and other psychological factors that can impact fatigue, including stress, anxiety and depression.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To fight fatigue, it&apos;s also helpful to include physical activity in your daily routine, eat healthy foods and get adequate sleep. Be sure to share your concerns about fatigue with your doctor so that he or she can help find ways to address this issue. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Crohn&apos;s disease symptom: Is fatigue common?
+	</Title>
+	<Abstract>
+		Fatigue is a common Crohn&apos;s disease symptom. Learn some ways to fight it.
+	</Abstract>
+	<Question>
+		Is fatigue a common Crohn&apos;s disease symptom? What can be done about it?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00141" LinkType="Internal" ObjectID="DF5EAE47-E7FF-0DBD-14C2E4C1FE5519D4" Title="Colectomy" Url="http://www.mayoclinic.com/health/colectomy/MY00141" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00139" LinkType="Internal" ObjectID="DF5B6DD3-E7FF-0DBD-18A888DA7E767449" Title="Capsule endoscopy" Url="http://www.mayoclinic.com/health/capsule-endoscopy/MY00139" />
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00620" LinkType="Internal" ObjectID="110F9DAB-BB0A-C261-8FB120FA054D7EE7" Title="Fecal occult blood test" Url="http://www.mayoclinic.com/health/fecal-occult-blood-test/MY00620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+		<LinkItem ContentType="Article" DocID="HQ01676" LinkType="Internal" ObjectID="FA456B47-2492-4C72-A385E24D70911BD6" Title="Exercise: 7 benefits of regular physical activity" Url="http://www.mayoclinic.com/health/exercise/HQ01676" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="MY01399" LinkType="Internal" ObjectID="3D87B0CA-A921-9012-710286C6AC6C6B3C" Title="Bone health: Tips to keep your bones healthy" Url="http://www.mayoclinic.com/health/bone-health/MY01399" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+		<LinkItem ContentType="Disease" DocID="DS00762" LinkType="Internal" ObjectID="D138708C-E7FF-0DBD-1D5B585B0D950BCA" Title="Anal fissure" Url="http://www.mayoclinic.com/health/anal-fissure/DS00762" />
+		<LinkItem ContentType="Disease" DocID="DS00104" LinkType="Internal" ObjectID="908E0EEE-98DF-4A18-8E426B22F7133F21" Title="Crohn&apos;s disease" Url="http://www.mayoclinic.com/health/crohns-disease/DS00104" />
+	</RelatedLinksBox>
+</Answer>

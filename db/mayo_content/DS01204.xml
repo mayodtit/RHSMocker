@@ -1,0 +1,348 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01204
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pulmonary-atresia/DS01204
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-24
+		</UpdateDate>
+		<PublicationDate>
+			2013-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="5350" Title="Pulmonary atresia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			12CD3ABD-0320-0A1F-98A97D7D7E27B5E2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pulmonary atresia
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary valve
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary atresia (uh-TREE-zhuh) is a heart defect present at birth (congenital) that&apos;s normally diagnosed within the first few hours or days of life. In pulmonary atresia, the valve that lets blood out of the heart to go to your baby&apos;s lungs (pulmonary valve) doesn&apos;t form correctly. Instead of opening and closing to allow blood to travel from your heart to your lungs, a solid sheet of tissue forms. Blood from the right side of your baby&apos;s heart can&apos;t go back to the lungs to pick up oxygen.
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary atresia is a life-threatening situation. Procedures to correct your baby&apos;s heart condition and medications to help your baby&apos;s heart work more effectively are the first steps to treat pulmonary atresia. Depending on your child&apos;s condition, more surgeries will often be necessary in childhood. Ongoing medical care through adulthood can improve your child&apos;s prognosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pulmonary atresia 
+" Caption="In pulmonary atresia, the valve that lets blood flow from the heart to the lungs isn&apos;t formed properly. Instead of having leaflets of tissue that open and close, the valve is a solid sheet of tissue in pulmonary atresia, preventing the blood from passing through the valve to the lungs. Babies born with pulmonary atresia also often have a small (hypoplastic) right ventricle. 
+" Height="60" Title="Pulmonary atresia" URI="/images/image_popup/thumbs/mcdc7_pulmonaryatresiathu.jpg" Width="60" />
+				<Image Alt="Illustration showing pulmonary atresia 
+" Caption="In pulmonary atresia, the valve that lets blood flow from the heart to the lungs isn&apos;t formed properly. Instead of having leaflets of tissue that open and close, the valve is a solid sheet of tissue in pulmonary atresia, preventing the blood from passing through the valve to the lungs. Babies born with pulmonary atresia also often have a small (hypoplastic) right ventricle. 
+" Height="401" Title="Pulmonary atresia" URI="/images/image_popup/mcdc7_pulmonaryatresia.jpg" Width="400" />
+				<HTML>
+					In pulmonary atresia, the valve that lets blood flow from the heart to the lungs isn&apos;t formed properly. Instead of having leaflets of tissue that open and close, the valve is a solid sheet of tissue ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your baby is born with pulmonary atresia, symptoms will be noticeable soon after birth. Pulmonary atresia symptoms may show up within hours to several days. Your baby&apos;s signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blue- or gray-toned skin (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Fast breathing or shortness of breath&lt;/li&gt;
+	&lt;li&gt;Easily tiring or being fatigued&lt;/li&gt;
+	&lt;li&gt;Feeding problems, such as tiring or sweating while eating&lt;/li&gt;
+	&lt;li&gt;Pale, clammy skin that may feel cool to the touch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Your baby will most likely be diagnosed with pulmonary atresia within the first few hours to the first few days of life. However, if your baby has any symptoms of pulmonary atresia after you&apos;ve returned home, seek emergency medical attention. Symptoms like cyanosis in babies should be examined by a doctor as soon as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no known cause of pulmonary atresia. It&apos;s thought that the problems that cause pulmonary atresia begin early in the pregnancy. To understand the problems pulmonary atresia causes, it&apos;s helpful to know how the heart works. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the heart works&lt;br /&gt;
+&lt;/strong&gt;The heart is divided into four hollow chambers, two on the right and two on the left. In performing its basic job &amp;mdash; pumping blood throughout the body &amp;mdash; the heart uses its left and right sides for different tasks. The right side of the heart moves blood to the lungs through vessels called pulmonary arteries. In the lungs, blood picks up oxygen then returns to the heart&apos;s left side through the pulmonary veins. The left side of the heart then pumps the blood through the aorta and out to the rest of the body to supply your baby&apos;s body with oxygen. Blood moves through your baby&apos;s heart in one direction through valves that open and close as the heart beats. The valve that allows blood out of your baby&apos;s heart and into the lungs to pick up oxygen is called the pulmonary valve. 
+&lt;/p&gt;
+&lt;p&gt;
+In pulmonary atresia, the pulmonary valve doesn&apos;t develop properly, preventing it from opening. Blood can&apos;t flow from the right ventricle to the lungs. Before birth, the improperly formed valve isn&apos;t life-threatening, because the placenta provides oxygen for your baby instead of the lungs. Blood entering the right side of your baby&apos;s heart passes through a foramen ovale &amp;mdash; a hole between the top chambers of your baby&apos;s heart (atria) that lets oxygen-rich blood move to the left side of the heart and be pumped on to the rest of your baby&apos;s body. 
+&lt;/p&gt;
+&lt;p&gt;
+After birth, your baby&apos;s lungs must provide oxygen for his or her body. In pulmonary atresia, without a working pulmonary valve, blood must find another route to reach your baby&apos;s lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+The foramen ovale often shuts soon after birth, but may stay open in pulmonary atresia, allowing oxygen-poor blood to pass through the upper chambers of the heart. From there, it goes to the left ventricle, out the aorta (the body&apos;s main artery), on to the rest of the body. However, this blood flow can&apos;t adequately supply your baby&apos;s body with oxygen. 
+&lt;/p&gt;
+&lt;p&gt;
+Newborn babies also have a temporary connection between the body&apos;s aorta and the pulmonary artery, called the ductus arteriosus. This allows some of the oxygen-poor blood to pass into the lungs where it can pick up oxygen to supply your baby&apos;s body. The ductus arteriosus normally closes within a few hours or days after birth, but can be kept open with medications. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, there may be a second hole in the tissue that separates the main pumping chambers of your baby&apos;s heart, called a ventricular septal defect (VSD). The VSD allows a pathway out for blood to enter the left ventricle. If there&apos;s no VSD, the right ventricle receives little blood flow before birth and often doesn&apos;t develop fully. This is a condition called pulmonary atresia with intact ventricular septum (PA/IVS). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pulmonary atresia 
+" Caption="In pulmonary atresia, the valve that lets blood flow from the heart to the lungs isn&apos;t formed properly. Instead of having leaflets of tissue that open and close, the valve is a solid sheet of tissue in pulmonary atresia, preventing the blood from passing through the valve to the lungs. Babies born with pulmonary atresia also often have a small (hypoplastic) right ventricle. 
+" Height="60" Title="Pulmonary atresia" URI="/images/image_popup/thumbs/mcdc7_pulmonaryatresiathu.jpg" Width="60" />
+				<Image Alt="Illustration showing pulmonary atresia 
+" Caption="In pulmonary atresia, the valve that lets blood flow from the heart to the lungs isn&apos;t formed properly. Instead of having leaflets of tissue that open and close, the valve is a solid sheet of tissue in pulmonary atresia, preventing the blood from passing through the valve to the lungs. Babies born with pulmonary atresia also often have a small (hypoplastic) right ventricle. 
+" Height="401" Title="Pulmonary atresia" URI="/images/image_popup/mcdc7_pulmonaryatresia.jpg" Width="400" />
+				<HTML>
+					In pulmonary atresia, the valve that lets blood flow from the heart to the lungs isn&apos;t formed properly. Instead of having leaflets of tissue that open and close, the valve is a solid sheet of tissue ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t sure why some babies develop pulmonary atresia. However, certain environmental and genetic risk factors may play a role. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rubella (German measles).&lt;/strong&gt; Having rubella during pregnancy can cause problems in your baby&apos;s heart development. Your doctor can test you for immunity to this viral disease before pregnancy and vaccinate you against it if you aren&apos;t immune.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Having this chronic condition may interfere with the development of your baby&apos;s heart. You can reduce the risk by carefully controlling your diabetes before attempting to conceive and during pregnancy. Gestational diabetes generally doesn&apos;t increase your baby&apos;s risk of developing pulmonary atresia or other heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Taking certain medications while pregnant is known to cause birth defects. Give your doctor a complete list of the medications you take before attempting to become pregnant. Medications that increase risk include thalidomide (Thalomid) and some anti-seizure medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol during pregnancy.&lt;/strong&gt; Avoid alcohol during pregnancy because babies with fetal alcohol syndrome may also develop congenital heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Congenital heart defects appear to run in families and are associated with many genetic syndromes. If you already have a child with a congenital heart defect, a genetic counselor can predict the approximate odds that your next child will have one.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even with treatment, you&apos;ll need to carefully monitor your child&apos;s health for any changes that could signal a problem. As your child grows, his or her heart changes size and shape, which can make more treatments necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications of pulmonary atresia can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental delays.&lt;/strong&gt; Children with congenital heart defects often develop and grow more slowly than do children who don&apos;t have heart defects. Your child may be smaller than other children of the same age and, if the nervous system has been affected, may learn to walk and talk later than other children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart infections (endocarditis).&lt;/strong&gt; People with structural heart problems, such as pulmonary atresia, are at a higher risk of infectious endocarditis than is the general population. Infectious endocarditis is an inflammation of the inner lining of the heart caused by a bacterial infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; Although uncommon, children with pulmonary atresia and a ventricular septal defect are at increased risk of stroke due the possibility of a blood clot traveling through the heart to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; This serious complication, which makes it difficult for the heart to pump blood to the body, usually develops in the first six months after birth in babies who have a significant heart defect. Signs of congestive heart failure include rapid breathing, often with gasping breaths, and poor weight gain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s most likely that your child would be diagnosed with pulmonary atresia soon after birth while still in the hospital. However, if your baby begins to show symptoms of pulmonary atresia, such as blue- or gray-toned skin, you should seek emergency medical attention. While it&apos;s unlikely your baby would be diagnosed with pulmonary atresia outside of the first few days of life, symptoms such as cyanosis or shortness of breath should be examined by a doctor right away. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is diagnosed with pulmonary atresia, you&apos;ll be referred to a heart specialist (cardiologist) for ongoing care. It&apos;s important for you to find a cardiologist who has experience treating people who have congenital heart defects, including pulmonary atresia.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as fill out forms or restrict your child&apos;s diet. For some imaging tests, for example, your child may need to fast for a period of time beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child has,&lt;/strong&gt; including any that may seem unrelated to pulmonary atresia. Try to recall when they began. Be specific, such as days, weeks, months, and avoid vague terms such as &quot;some time ago.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart defects, pulmonary hypertension, lung disease, heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that your child is taking. Also, be sure to tell your doctor if you&apos;ve recently stopped taking any medications, of if you took any medications during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For pulmonary atresia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are other possible causes for my child&apos;s symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will my child need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any activities my child should avoid as he or she grows up?&lt;/li&gt;
+	&lt;li&gt;How often should my child be screened for changes in his or her condition?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Could you recommend a specialist who has experience treating congenital heart defects?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your child&apos;s doctor, don&apos;t hesitate to ask other questions during your appointment if you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your child&apos;s doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your child&apos;s doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has anyone else in your family been diagnosed with pulmonary atresia or another heart defect?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to diagnose pulmonary atresia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; An X-ray shows the size and shape of your child&apos;s internal tissues, bones and organs. This can help your baby&apos;s doctor see the extent of your baby&apos;s pulmonary atresia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this test, sensor patches with wires attached (electrodes) measure the electrical impulses given off by your child&apos;s heart. This test detects any abnormal heart rhythms (arrhythmias or dysrhythmias) and may show heart muscle stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; In an echocardiogram sound waves&lt;strong&gt; &lt;/strong&gt;create detailed images of your child&apos;s heart. An echocardiogram shows the size of your child&apos;s pumping chamber (right ventricle), tricuspid valve and other heart functions. Your child&apos;s doctor usually uses an echocardiogram to diagnose pulmonary atresia. Your doctor may diagnose your baby&apos;s pulmonary atresia through an echocardiogram of your abdomen before you deliver your baby (fetal echocardiogram).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, your child&apos;s doctor inserts a thin, flexible tube (catheter) into a blood vessel in your child&apos;s groin and guides it to your child&apos;s heart using X-ray imaging. This test provides detailed information about your child&apos;s heart structure and your child&apos;s blood pressure and oxygen levels in the heart, pulmonary (lung) artery and aorta. Your child&apos;s doctor may inject a special dye into the catheter to make the arteries visible under X-ray. Some medical procedures to correct pulmonary atresia are done through catheterization. It&apos;s possible that if your baby&apos;s doctor sees a problem during the catheterization, he or she will correct it immediately.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your baby will need urgent medical attention once pulmonary atresia symptoms develop. Treatment of pulmonary atresia depends on the severity of your child&apos;s condition. After diagnosis, a pediatric cardiologist can help you to manage your child&apos;s condition as you decide about treatment. Initial treatments after diagnosis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Giving your baby a drug called prostaglandin E1 to prevent closure of the connection between the left and right side of the heart (ductus arteriosus)&lt;/li&gt;
+	&lt;li&gt;Connecting your baby to a ventilator to assist with breathing&lt;/li&gt;
+	&lt;li&gt;Giving your baby intravenous (IV) fluids and drugs to help his or her heart beat stronger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to medications, your baby will need medical procedures using catheters and possibly surgery to correct pulmonary atresia.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cardiac catheterization&lt;br /&gt;
+&lt;/strong&gt;In cardiac catheterization, a doctor inserts a long, thin tube (catheter) in your baby&apos;s groin and guides it to the heart using X-ray imaging. Cardiac catheterization usually is performed to check for any further heart defects or abnormalities, and to see whether natural connections between the upper heart chambers and blood vessels (foramen ovale or ductus arteriosus) are still open. Your baby&apos;s doctor can also check the amount of oxygen-rich (red) and oxygen-poor (blue) blood flowing through your child&apos;s heart. Additional procedures that can be done via catheterization include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiofrequency ablation and balloon valvotomy.&lt;/strong&gt; Your baby&apos;s doctor may apply a small amount of energy (radiofrequency ablation) through a catheter or use a small wire to create a small hole to open the valve that allows your baby&apos;s blood to flow from the right ventricle of the heart to the lungs (pulmonary valve). Your baby&apos;s doctor may then insert a catheter with a balloon in the tip and inflate the balloon to open the valve (balloon valvotomy), allowing blood to flow through the valve to the lungs. Your child may still need open-heart surgery, which your doctor sometimes can perform at the same time as the catheterization (hybrid surgery).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Balloon atrial septostomy.&lt;/strong&gt; In this procedure, your baby&apos;s doctor inserts a tube (catheter) with a balloon in the tip through the connection (foramen ovale) in the wall between the left and right atria (atrial septum) and inflates the balloon. Your baby&apos;s doctor may perform this procedure to improve the proportion of oxygenated blood and oxygen-poor blood between the upper chambers of your child&apos;s heart (right and left atria). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stent placement.&lt;/strong&gt; Your baby&apos;s doctor may place a tube (stent) in the natural connection between the aorta and pulmonary artery (ductus arteriosus) to keep the connection open and allow blood to pass through into the lungs. If your baby&apos;s condition is severe, the doctor may place a stent between the right ventricle and pulmonary artery to help blood flow to the lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart surgery&lt;br /&gt;
+&lt;/strong&gt;Your baby may need heart (cardiac) surgery within his or her first week of life, depending on the size and condition of your child&apos;s lower right heart chamber (right ventricle) and the artery that delivers blood to the lungs (pulmonary artery). Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shunt placement.&lt;/strong&gt; If your baby&apos;s heart&apos;s right ventricle is smaller than it should be, your baby&apos;s doctor may place a tube (shunt) between the large artery that exits the heart (aorta) and the pulmonary artery to keep blood flowing to the lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional heart surgery&lt;br /&gt;
+&lt;/strong&gt;Your baby may need additional surgery later on in life, particularly if he or she has an underdeveloped right ventricle. The type of surgery depends on the size and condition of your child&apos;s right ventricle and pulmonary artery. Later surgeries may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bidirectional Glenn procedure or hemi-Fontan procedure.&lt;/strong&gt; In this procedure, your doctor connects some of the blood vessel carrying blue blood from the body to blood vessels carrying blood to the lungs. This surgery allows most of the blue blood to flow directly from the body into the lungs. The heart pumps blood containing more oxygen through the aorta to supply oxygen to organs and tissues. This approach reduces the work of the right ventricle by allowing it to pump blood only to the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fontan procedure.&lt;/strong&gt; If the right ventricle is small and unable to pump, doctors may perform the Fontan procedure. In this surgery, doctors connect the remaining blood vessels carrying blue blood from the body to the blood vessels carrying blood to the lungs. This approach helps blood coming from the body to flow to the lungs and further reduces the work of the right ventricle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Right ventricular outflow tract reconstruction.&lt;/strong&gt; Some children may need reconstruction of the area of the right ventricle where blood exits to the pulmonary valve (right ventricular outflow tract), depending on their condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valve repair or replacement.&lt;/strong&gt; Some children may need a pulmonary valve repair or replacement later in life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up care&lt;br /&gt;
+&lt;/strong&gt;Your child will need monitoring and testing before and after surgery. Your child will also need long-term monitoring by a congenital heart specialist, including throughout adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have had surgery for pulmonary atresia may require antibiotics before dental work and certain surgeries to prevent endocarditis, a bacterial infection of the heart&apos;s walls or valves. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s natural for many parents to feel worried about their child&apos;s health, even after treatment of a congenital heart defect. Although many children who have congenital heart defects can do the same things children without heart defects can, here are a few things to keep in mind if your child has had a congenital heart defect: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental difficulties.&lt;/strong&gt; Because some children who have congenital heart defects may have had a long recovery time from surgeries or procedures, they may developmentally lag behind other children their age. Some children&apos;s difficulties may last into their school years, and they may have difficulties learning to read or write, as well. Talk to your child&apos;s doctor about ways to help your child through his or her developmental difficulties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional difficulties.&lt;/strong&gt; Many children who have developmental difficulties may feel insecure about their abilities and may have emotional difficulties as they reach school age. Talk to your child&apos;s doctor about ways you can help your child cope with these problems, which may include support groups for parents, or a visit to a therapist or psychologist for your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; Having a child with a serious medical problem isn&apos;t easy and, depending on the severity of the defect, may be very difficult and frightening. You may find that talking with other parents who&apos;ve been through the same situation brings you comfort and encouragement. Ask your child&apos;s doctor if there are any local support groups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the exact cause of pulmonary atresia is unknown, it may not be possible to prevent it. However, there are some things you can do that might reduce your child&apos;s overall risk of birth defects and pulmonary atresia, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get a German measles (Rubella) vaccine.&lt;/strong&gt; If you develop German measles during pregnancy, it may affect your baby&apos;s heart development. Being vaccinated before you try to conceive likely eliminates this risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control chronic medical conditions.&lt;/strong&gt; If you have diabetes, keeping your blood sugar in check can reduce the risk of heart defects. If you have other chronic conditions, such as epilepsy, that require the use of medications, discuss the risks and benefits of these drugs with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harmful substances.&lt;/strong&gt; During pregnancy, leave painting and cleaning with strong-smelling products to someone else. Also, don&apos;t take any herbs, dietary supplements or drugs without consulting your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a multivitamin with folic acid.&lt;/strong&gt; Daily consumption of 800 micrograms of folic acid has been shown to reduce birth defects in the brain and spinal cord, and may help reduce the risk of heart defects as well.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pulmonary atresia
+	</Title>
+	<Abstract>
+		Pulmonary atresia &amp;mdash; Comprehensive overview covers the diagnosis and treatment of this congenital heart defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+	</RelatedLinksBox>
+</Disease>

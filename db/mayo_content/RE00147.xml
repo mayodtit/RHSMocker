@@ -1,0 +1,199 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00147
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00147
+		</OriginalURL>
+		<UpdateDate>
+			2009-03-24
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-24
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F5B977E3-A4C6-C8B4-27A023123F018178
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fix-it and enjoy-it healthy cookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 400 recipes collected in the &quot;Fix-It and Enjoy-It! Healthy Cookbook&quot; published by Good Books and available at the MayoClinic.com Bookstore.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Beet walnut salad
+	</Title>
+	<Abstract>
+		Beet walnut salad &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip" />
+	<Directions Label="Directions">
+		&lt;p&gt;
+Steam raw beets in water in saucepan until tender. Slip off skins. Rinse to cool. Slice in 1/2-inch rounds. In a medium bowl, toss with red wine vinegar. Add apples and celery. Toss together. In a large bowl, combine balsamic vinegar, olive oil and water. Add salad greens and toss. Put greens onto individual salad plates. Top with sliced beet mixture. Sprinkle with pepper, walnuts and cheese. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+1 small bunch beets, or enough canned beets (no salt added) to make 3 cups, drained&lt;br /&gt;
+1/4 cup red wine vinegar&lt;br /&gt;
+1/4 cup chopped apple&lt;br /&gt;
+1/4 cup chopped celery&lt;br /&gt;
+3 tablespoons balsamic vinegar&lt;br /&gt;
+1 tablespoon olive oil&lt;br /&gt;
+1 tablespoon water&lt;br /&gt;
+8 cups fresh salad greens&lt;br /&gt;
+Freshly ground pepper&lt;br /&gt;
+3 tablespoons chopped walnuts&lt;br /&gt;
+1/4 cup Gorgonzola cheese, crumbled 
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1.5
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1.5
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1.5
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				89
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				8 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				5 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2.5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1.6 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				115 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

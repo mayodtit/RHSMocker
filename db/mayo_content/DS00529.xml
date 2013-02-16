@@ -1,0 +1,334 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00529
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/epiglottitis/DS00529
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-02
+		</UpdateDate>
+		<PublicationDate>
+			2004-05-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1784" Title="Throat">
+						<Keyword MCVID="1938" Title="Epiglottitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			32566435-9104-10DC-DCB8C219AF352311
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				epiglottitis
+			</MetaKeyword>
+			<MetaKeyword>
+				epiglottis
+			</MetaKeyword>
+			<MetaKeyword>
+				windpipe
+			</MetaKeyword>
+			<MetaKeyword>
+				hib
+			</MetaKeyword>
+			<MetaKeyword>
+				epiglotitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epiglottitis is a potentially life-threatening condition that occurs when the epiglottis &amp;mdash; a small cartilage &quot;lid&quot; that covers your windpipe &amp;mdash; swells, blocking the flow of air into your lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of factors can cause the epiglottis to swell &amp;mdash; burns from hot liquids, direct injury to your throat and various infections. The most common cause of epiglottitis in children in the past was infection with Haemophilus influenzae type b (Hib), the same bacterium that causes pneumonia, meningitis and infections in the bloodstream. Epiglottitis can occur at any age. 
+&lt;/p&gt;
+&lt;p&gt;
+Routine Hib vaccination for infants has made epiglottitis rare, but epiglottitis remains a concern. If you suspect that you or someone in your family has epiglottitis, seek emergency help immediately. Prompt treatment can prevent life-threatening complications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Symptoms in children&lt;/strong&gt;&lt;br /&gt;
+In children, signs and symptoms of epiglottitis may develop within a matter of hours, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Severe sore throat&lt;/li&gt;
+	&lt;li&gt;Abnormal, high-pitched sound when breathing in (stridor)&lt;/li&gt;
+	&lt;li&gt;Difficult and painful swallowing&lt;/li&gt;
+	&lt;li&gt;Drooling&lt;/li&gt;
+	&lt;li&gt;Anxious, restless behavior&lt;/li&gt;
+	&lt;li&gt;Greater comfort when sitting up or leaning forward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in adults&lt;/strong&gt;&lt;br /&gt;
+For adults, signs and symptoms may develop more slowly, over days rather than hours. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe sore throat&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;A muffled or hoarse voice&lt;/li&gt;
+	&lt;li&gt;Abnormal, high-pitched sound when breathing in (stridor)&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Epiglottitis is a medical emergency. If you or someone you know suddenly has trouble breathing and swallowing, call your local emergency number or go to the nearest hospital emergency department. Try to keep the person quiet and upright, because this position may make it easier to breathe. Don&apos;t try to examine the person&apos;s throat yourself. This can make matters worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epiglottitis is caused by an infection or an injury. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infection&lt;/strong&gt;&lt;br /&gt;
+A common cause of swelling and inflammation of the epiglottis and surrounding tissues is infection with Haemophilus influenzae type b (Hib) bacteria. Hib is responsible for a number of serious conditions, the most common of which is meningitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Hib spreads through infected droplets coughed or sneezed into the air. It&apos;s possible to harbor Hib in your nose and throat without becoming sick &amp;mdash; though you still have the potential to spread the bacteria to others. 
+&lt;/p&gt;
+&lt;p&gt;
+Other bacteria and viruses also can cause inflammation of the epiglottis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Streptococcus pneumoniae (pneumococcus),&lt;/strong&gt; another bacterium that can cause meningitis, pneumonia, ear infections and blood infection (septicemia)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Streptococcus A, B and C,&lt;/strong&gt; a group of bacteria that also can cause diseases ranging from strep throat to blood infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Injury&lt;/strong&gt;&lt;br /&gt;
+Physical injury, such as a direct blow to the throat, can cause epiglottitis. So can burns from drinking very hot liquids. 
+&lt;/p&gt;
+&lt;p&gt;
+You also may develop signs and symptoms similar to those of epiglottitis if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swallow a chemical that burns your throat&lt;/li&gt;
+	&lt;li&gt;Swallow a foreign object&lt;/li&gt;
+	&lt;li&gt;Smoke drugs, such as crack cocaine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors increase the risk of developing epiglottitis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Epiglottitis affects more males than females.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a weakened immune system.&lt;/strong&gt; If your immune system has been weakened by illness or medication, you&apos;re more susceptible to the bacterial infections that may cause epiglottitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lacking adequate vaccination.&lt;/strong&gt; Delayed or skipped immunizations can leave a child vulnerable to Hib and increases the risk of epiglottitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epiglottis can cause a number of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory failure.&lt;/strong&gt; The epiglottis is a small, movable &quot;lid&quot; just above the larynx that prevents food and drink from entering your windpipe. But if the epiglottis becomes swollen &amp;mdash; either from infection or from injury &amp;mdash; the airway narrows and may become completely blocked. This can lead to respiratory failure &amp;mdash; a life-threatening condition in which the level of oxygen in the blood drops dangerously low or the level of carbon dioxide becomes excessively high.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spreading infection.&lt;/strong&gt; Sometimes the bacteria that cause epiglottitis cause infections elsewhere in the body, such as pneumonia, meningitis or a blood infection (sepsis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epiglottitis is a medical emergency; you won&apos;t have time to prepare for your appointment. The first doctor you&apos;ll see will probably be an emergency room physician. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If the medical team suspects epiglottitis, the first priority is to ensure that your or your child&apos;s airway is open and that enough oxygen is getting through. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial test&lt;/strong&gt;&lt;br /&gt;
+A pulse oximeter is a device that estimates blood oxygen levels. This device: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clips onto a finger&lt;/li&gt;
+	&lt;li&gt;Measures an estimation of the saturation of oxygen in your blood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If oxygen saturation levels drop too low, you or your child may need help breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests after stabilizing breathing&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Throat examination.&lt;/strong&gt; Using a flexible fiber-optic-lighted tube, the doctor may look down your or your child&apos;s throat to see what&apos;s causing the symptoms. A local anesthetic can help relieve any discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest or neck X-ray.&lt;/strong&gt; Because of the danger of sudden breathing problems, children may have X-rays taken at their bedside rather than in the radiology department &amp;mdash; but only after the airway is protected. With epiglottitis, the X-ray may reveal what looks like a thumbprint in the neck, an indication of an enlarged epiglottis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Throat culture and blood tests.&lt;/strong&gt; For the culture, the epiglottis is wiped with a cotton swab and the tissue sample is checked for Hib. Blood cultures are usually taken because bacteremia &amp;mdash; a severe bloodstream infection &amp;mdash; may accompany epiglottitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of epiglottis involves first making sure you or your child can breathe, and then treating any identified infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Helping you breathe&lt;/strong&gt;&lt;br /&gt;
+The first priority in treating epiglottitis is ensuring that you or your child is receiving enough air. This may mean: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wearing a mask.&lt;/strong&gt; The mask delivers oxygen to the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a breathing tube placed into the windpipe through the nose or mouth (intubation).&lt;/strong&gt; The tube must remain in place until the swelling in your or your child&apos;s throat has decreased &amp;mdash; sometimes for several days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inserting a needle into the trachea (needle tracheostomy).&lt;/strong&gt; In extreme cases or if more conservative measures fail, the doctor may need to create an emergency airway by inserting a needle directly into an area of cartilage in your or your child&apos;s trachea. This procedure allows air into your lungs while bypassing the larynx.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating infection&lt;/strong&gt;&lt;br /&gt;
+If your epiglottitis is related to an infection, intravenous antibiotics will be given once you or your child is getting enough air. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Broad-spectrum antibiotic.&lt;/strong&gt; Because of the need for quick treatment, rather than wait for the results of the blood and tissue cultures, you or your child is likely to be treated with a broad-spectrum drug.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;More targeted antibiotic.&lt;/strong&gt; The drug may be changed later, depending on what&apos;s causing the epiglottitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Hib vaccine&lt;/strong&gt;&lt;br /&gt;
+Immunization with the Hib vaccine is an effective way to prevent epiglottitis caused by Hib. In the United States, children usually receive the vaccine in three or four doses: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;At 2 months&lt;/li&gt;
+	&lt;li&gt;At 4 months&lt;/li&gt;
+	&lt;li&gt;At 6 months if your child is being given the four-dose vaccine&lt;/li&gt;
+	&lt;li&gt;At 12 to 15 months&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The Hib vaccine is generally not given to children older than age 5 or to adults because they&apos;re less likely to develop Hib infection. But the Centers for Disease Control and Prevention recommends the vaccine for older children and adults whose immune systems have been weakened by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sickle cell disease&lt;/li&gt;
+	&lt;li&gt;HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Spleen removal&lt;/li&gt;
+	&lt;li&gt;Chemotherapy&lt;/li&gt;
+	&lt;li&gt;Medications to prevent rejection of organ or bone marrow transplants&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccine side effects&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic reaction.&lt;/strong&gt; Seek immediate medical help if you have an allergic reaction. Though rare, an allergic reaction may cause difficulty breathing, wheezing, hives, weakness, a rapid heartbeat or dizziness within minutes or a few hours after the shot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Possible mild side effects.&lt;/strong&gt; These include redness, warmth or swelling at the injection site, and a fever.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Common-sense precautions&lt;/strong&gt;&lt;br /&gt;
+Of course, the Hib vaccine doesn&apos;t offer guarantees. Immunized children have been known to develop epiglottitis &amp;mdash; and other germs can cause epiglottitis, too. That&apos;s where common-sense precautions come in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t share personal items.&lt;/li&gt;
+	&lt;li&gt;Wash your hands frequently.&lt;/li&gt;
+	&lt;li&gt;Use an alcohol-based hand sanitizer if soap and water aren&apos;t available.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Epiglottitis
+	</Title>
+	<Abstract>
+		Epiglottitis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of swelling of the windpipe&apos;s &quot;lid.&quot;
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+	</RelatedLinksBox>
+</Disease>

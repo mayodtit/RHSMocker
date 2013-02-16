@@ -1,0 +1,193 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00511
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mashed-potatoes/NU00511
+		</OriginalURL>
+		<UpdateDate>
+			2010-05-29
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			698999D1-1F8F-41C4-92DDCE2A6630ABBE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Garlic mashed potatoes
+	</Title>
+	<Abstract>
+		Garlic mashed potatoes &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Russet potatoes, with their low moisture and high starch content, are excellent potatoes for mashing. But other types of potatoes work well too, including Yukon gold potatoes and round white or round red potatoes. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a large stockpot, cover the potatoes with water. Bring to a boil. Reduce heat and simmer until tender, about 15 minutes. Drain the potatoes thoroughly and return to the stockpot. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small saucepan, cover the garlic with water. Bring to a boil. Reduce heat and simmer until tender, about 10 minutes. Drain the garlic. 
+&lt;/p&gt;
+&lt;p&gt;
+In a food processor or blender, combine the garlic and milk. Puree until smooth. Add the pureed garlic and the margarine to the potatoes. Mash to desired consistency. Season with black pepper to taste. Garnish with parsley and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 pounds russet potatoes, peeled and cubed &lt;/li&gt;
+	&lt;li&gt;6 garlic cloves, separated and peeled &lt;/li&gt;
+	&lt;li&gt;1/2 cup fat-free milk &lt;/li&gt;
+	&lt;li&gt;1 tablespoon trans fat-free margarine &lt;/li&gt;
+	&lt;li&gt;Ground black pepper, to taste &lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped fresh parsley &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1 1/2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1 1/2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				157
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				24 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				trace
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				2 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				90 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Side dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

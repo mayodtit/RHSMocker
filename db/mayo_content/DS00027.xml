@@ -1,0 +1,489 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00027
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prostate-gland-enlargement/DS00027
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2057" Title="Prostate gland">
+						<Keyword MCVID="2390" Title="Enlarged prostate" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E569D2C1-B4F8-4E5E-B7D8534A26D35B37
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate gland
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate gland enlargement
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged prostate gland
+			</MetaKeyword>
+			<MetaKeyword>
+				BPH
+			</MetaKeyword>
+			<MetaKeyword>
+				benign prostatic hyperplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				testosterone
+			</MetaKeyword>
+			<MetaKeyword>
+				difficulty urinating
+			</MetaKeyword>
+			<MetaKeyword>
+				trouble urinating
+			</MetaKeyword>
+			<MetaKeyword>
+				prostrate
+			</MetaKeyword>
+			<MetaKeyword>
+				prostrate gland
+			</MetaKeyword>
+			<MetaKeyword>
+				prostrate gland enlargement
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged prostrate gland
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostate gland enlargement is a common condition as men get older. Also called benign prostatic hyperplasia (BPH) and prostatic hypertrophy, prostate gland enlargement can cause bothersome urinary symptoms. Untreated prostate gland enlargement can block the flow of urine out of the bladder and can cause bladder, urinary tract or kidney problems.
+&lt;/p&gt;
+&lt;p&gt;
+There are several effective treatments for prostate gland enlargement. In deciding the best option for you, you and your doctor will consider your particular symptoms, the size of your prostate, other health problems you may have and your preferences. Your choices may also depend on what treatments are available in your area. Treatments for prostate gland enlargement include medications, lifestyle changes and surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostate gland enlargement varies in severity among men and tends to gradually worsen over time. Prostate gland enlargement symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weak urine stream&lt;/li&gt;
+	&lt;li&gt;Difficulty starting urination&lt;/li&gt;
+	&lt;li&gt;Stopping and starting while urinating&lt;/li&gt;
+	&lt;li&gt;Dribbling at the end of urination&lt;/li&gt;
+	&lt;li&gt;Frequent or urgent need to urinate&lt;/li&gt;
+	&lt;li&gt;Increased frequency of urination at night (nocturia)&lt;/li&gt;
+	&lt;li&gt;Straining while urinating&lt;/li&gt;
+	&lt;li&gt;Not being able to completely empty the bladder&lt;/li&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Formation of stones in the bladder&lt;/li&gt;
+	&lt;li&gt;Reduced kidney function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The size of your prostate doesn&apos;t necessarily mean your symptoms will be worse. Some men with only slightly enlarged prostates have significant symptoms. On the other hand, some men with very enlarged prostates have only minor urinary symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+Only about half the men with prostate gland enlargement have symptoms that become noticeable or bothersome enough for them to seek medical treatment. In some men, symptoms eventually stabilize and may even improve over time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re having urinary problems, see your doctor to check whether your symptoms are caused by an enlarged prostate and find out what tests or treatment you may need. If you&apos;re unable to pass urine at all, seek immediate medical attention.
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t find urinary symptoms too bothersome and they don&apos;t pose a health threat, you may not need treatment. But you should still have your symptoms checked out by a doctor to make sure they aren&apos;t caused by another problem such as prostate cancer.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The prostate gland is the male organ that produces most of the fluid in semen, the milky-colored fluid that nourishes and transports sperm out of the penis during ejaculation (orgasm). It sits beneath your bladder. The tube that transports urine from the bladder out of your penis (urethra) passes through the center of the prostate. So, when the prostate enlarges, it begins to block (obstruct) urine flow.
+&lt;/p&gt;
+&lt;p&gt;
+Most men have continued prostate growth throughout life. In many men, this continued growth enlarges the prostate enough to cause urinary symptoms or to significantly block urine flow. Doctors aren&apos;t sure exactly what causes the prostate to enlarge. It may be due to changes in the balance of sex hormones as men grow older.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing prostate gland
+" Caption="At normal size, the prostate gland is about the size and shape of a walnut or golf ball. When enlarged, the prostate may obstruct urine flow from the bladder and out the urethra.
+" Height="60" Title="Comparing normal and enlarged prostate glands" URI="/images/image_popup/thumbs/hdg7_prostatecomparisonthu.jpg" Width="60" />
+				<Image Alt="Illustration showing prostate gland
+" Caption="At normal size, the prostate gland is about the size and shape of a walnut or golf ball. When enlarged, the prostate may obstruct urine flow from the bladder and out the urethra.
+" Height="390" Title="Comparing normal and enlarged prostate glands" URI="/images/image_popup/hdg7_prostatecomparison.jpg" Width="400" />
+				<HTML>
+					At normal size, the prostate gland is about the size and shape of a walnut or golf ball. When enlarged, the prostate may obstruct urine flow from the bladder and out the urethra.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main risk factors for prostate gland enlargement include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; Prostate gland enlargement rarely causes signs and symptoms in men younger than 40. By 55, about 1 in 4 men have some signs and symptoms. By 75, about half of men report some symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Having a blood relative such as a father or brother with prostate problems means you&apos;re more likely to have problems as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Where you&apos;re from.&lt;/strong&gt; Prostate enlargement is more common in American and Australian men. It&apos;s less common in Chinese, Indian and Japanese men.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostate gland enlargement becomes a serious problem when it severely interferes with your ability to empty your bladder. If this is the case, you&apos;ll probably need surgery. Complications of enlarged prostate include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute urinary retention.&lt;/strong&gt; Acute urinary retention is a sudden, painful inability to urinate. This may occur after you&apos;ve taken an over-the-counter decongestant medication for allergies or a cold. When you are unable to urinate at all, your doctor may thread a tube (catheter) through your urethra into your bladder. Or, your doctor may put in a suprapubic tube &amp;mdash; a catheter that drains your bladder through the lower abdomen. The type of catheter you need will depend on your particular circumstances. Some men with an enlarged prostate require surgery or other procedures to relieve urinary retention.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract infections (UTIs).&lt;/strong&gt; Some men with an enlarged prostate end up having surgery to remove part of the prostate to prevent frequent urinary tract infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder stones.&lt;/strong&gt; These are mineral deposits that can cause infection, bladder irritation, blood in the urine and obstruction of urine flow and are generally caused by the inability to completely empty the bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder damage.&lt;/strong&gt; This occurs when the bladder hasn&apos;t emptied completely over a long period of time. The muscular wall of the bladder stretches and weakens and no longer contracts properly. Often, symptoms of bladder damage improve after prostate surgery or other treatment, but not always.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage.&lt;/strong&gt; This is caused by high pressure in the bladder due to urinary retention. This high pressure can directly damage the kidneys or allow bladder infections to reach the kidneys. When an enlarged prostate causes obstruction of the kidneys, a condition called hydronephrosis &amp;mdash; a swelling of the urine-collecting structures in one or both kidneys &amp;mdash; may result.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most men with an enlarged prostate don&apos;t develop these complications. However, acute urinary retention and kidney damage in particular can be serious health threats when they do occur. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor for urinary symptoms caused by an enlarged prostate. However, in some cases when you call to set up an appointment, you may be referred directly to a doctor who specializes in urinary issues (urologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep track&lt;/strong&gt; of how often and when you urinate, how much liquid you drink, and if you feel you&apos;re completely emptying the bladder when you urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know what tests and treatments you&apos;ve had for enlarged prostate or urinary problems.&lt;/strong&gt; For example, if you&apos;ve had infections, how often have you had them and what medications worked in the past?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring your prostate-specific antigen (PSA) test results&lt;/strong&gt; if you&apos;ve ever had your PSA checked.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For an enlarged prostate evaluation, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is an enlarged prostate or something else likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need? Are there risks to any of these tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the risks with each type of treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on sexual activity that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a urologist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any additional questions that come up during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin noticing urinary symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your urinary symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gradually worsened over time, or did they come on suddenly?&lt;/li&gt;
+	&lt;li&gt;How bothersome are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you urinate during the day?&lt;/li&gt;
+	&lt;li&gt;How often do you need to get up at night to urinate?&lt;/li&gt;
+	&lt;li&gt;Do you start and stop when urinating, or feel like you have to strain to urinate?&lt;/li&gt;
+	&lt;li&gt;Is it difficult for you to begin urinating?&lt;/li&gt;
+	&lt;li&gt;Have you ever leaked urine? If so, when?&lt;/li&gt;
+	&lt;li&gt;Do you have a frequent or urgent need to urinate?&lt;/li&gt;
+	&lt;li&gt;Does it ever feel like you haven&apos;t completely emptied your bladder?&lt;/li&gt;
+	&lt;li&gt;Do you ever have blood in your urine?&lt;/li&gt;
+	&lt;li&gt;Have you had urinary tract infections?&lt;/li&gt;
+	&lt;li&gt;Is there any burning when you urinate?&lt;/li&gt;
+	&lt;li&gt;How do you know when you have a urinary tract infection?&lt;/li&gt;
+	&lt;li&gt;Do you have type 2 diabetes?&lt;/li&gt;
+	&lt;li&gt;Have you ever had any trouble getting and maintaining an erection (erectile dysfunction), or other sexual problems?&lt;/li&gt;
+	&lt;li&gt;Do you feel pain in your bladder area?&lt;/li&gt;
+	&lt;li&gt;Have you ever had surgery or another procedure that involved insertion of an instrument through the tip of your penis into your urethra?&lt;/li&gt;
+	&lt;li&gt;Do any of your blood relatives (such as your father or brother) have a history of enlarged prostate, or prostate cancer, or kidney stones?&lt;/li&gt;
+	&lt;li&gt;What medications do you take, including any over-the-counter medications or herbal remedies?&lt;/li&gt;
+	&lt;li&gt;Are you on any blood thinners such as aspirin, warfarin (Coumadin) or clopidogrel (Plavix)?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An initial evaluation for enlarged prostate will likely include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Detailed questions about your symptoms.&lt;/strong&gt; Your doctor will want to know about other health problems you may have, what medications you&apos;re taking and whether there&apos;s a history of prostate problems in your family. Your doctor may have you complete a questionnaire such as the American Urological Association (AUA) Symptom Index for BPH.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digital rectal exam.&lt;/strong&gt; This exam can allow your doctor to check your prostate by inserting a finger into your rectum. With this simple test, your doctor can determine whether your prostate is enlarged and check for signs of prostate cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological exam.&lt;/strong&gt; This is a brief evaluation of your mental functioning and nervous system. It can help identify causes of urinary problems other than enlarged prostate. What this exam involves will depend on your specific condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test (urinalysis).&lt;/strong&gt; Analyzing a sample of your urine in the laboratory can help rule out an infection or other conditions that can cause similar symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may use additional tests to rule out other problems and help confirm enlarged prostate is causing your urinary symptoms. These can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate-specific antigen (PSA) blood test.&lt;/strong&gt; It&apos;s normal for your prostate gland to produce PSA, which helps liquefy semen. When you have an enlarged prostate, PSA levels increase. However, PSA levels can also be elevated due to prostate cancer, recent tests, surgery or infection (prostatitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary flow test.&lt;/strong&gt; This test measures the strength and amount of your urine flow. You urinate into a receptacle attached to a special machine. The results of this test over time help determine if your condition is getting better or worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Postvoid residual volume test.&lt;/strong&gt; This test measures whether you can empty your bladder completely. This is often done by using an ultrasound test to measure urine left in your bladder. Or, it may be done by inserting a tube (catheter) into your bladder after you urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transrectal ultrasound.&lt;/strong&gt; An ultrasound test provides measurements of your prostate and also reveals the particular anatomy of your prostate. With this procedure, an ultrasound probe about the size and shape of a large cigar is inserted into your rectum. Ultrasound waves bouncing off your prostate create an image of your prostate gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate biopsy.&lt;/strong&gt; With this procedure, a transrectal ultrasound guides needles used to take tissue samples of the prostate. Examining tissues from a biopsy under a microscope can be help diagnose or rule out prostate cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urodynamic studies and pressure flow studies.&lt;/strong&gt; With these procedures, a catheter is threaded through your urethra into your bladder. Water (or less commonly air) is slowly injected into your bladder. This allows your doctor to measure bladder pressures and to determine how well your bladder muscles are working.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystoscopy.&lt;/strong&gt; Also called urethrocystoscopy, this procedure allows your doctor to see inside your urethra and bladder. After you receive a local anesthetic, a lighted flexible telescope (cystoscope) is inserted into your urethra to look for signs of problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous pyelogram or CT urogram.&lt;/strong&gt; These tests can help detect urinary tract stones, tumors or blockages above the bladder. First, dye is injected into a vein, and X-rays or CT scans are taken of your kidneys, bladder and the tubes that connect your kidneys to your bladder (ureters). The dye helps outline the drainage systems of the kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other possible causes of urinary symptoms&lt;/strong&gt;&lt;br /&gt;
+Your doctor will use these tests to make sure there isn&apos;t something else causing your problem, or if an enlarged prostate has caused or worsened another problem. Problems that can cause urinary symptoms similar to those caused by enlarged prostate include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bladder stones&lt;/li&gt;
+	&lt;li&gt;Bladder and urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Neurological problems&lt;/li&gt;
+	&lt;li&gt;Inflammation of the prostate (prostatitis)&lt;/li&gt;
+	&lt;li&gt;Prostate cancer&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Muscle and nerve (neuromuscular) disorders&lt;/li&gt;
+	&lt;li&gt;Scarring or narrowing of the urethra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prostate cancer is entirely different than prostate gland enlargement, even though they can cause some similar symptoms and may be detected by some of the same tests. Having an enlarged prostate doesn&apos;t reduce or increase the risk of prostate cancer. Even if you&apos;re being treated for an enlarged prostate gland, you still need to continue regular prostate exams to screen for cancer. Surgery for prostate gland enlargement may identify cancer in its early stages.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A wide variety of treatments are available for enlarged prostate. They include medications, surgery and minimally invasive surgery. The best treatment choice for you depends on several factors, including how much your symptoms bother you, the size of your prostate, other health conditions you may have, your age and your preference. If your symptoms aren&apos;t too bad, you may decide not to have treatment and wait to see whether your symptoms become more bothersome over time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications are the most common treatment for moderate symptoms of prostate enlargement. Medications used to relieve symptoms of enlarged prostate include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha blockers.&lt;/strong&gt; These medications relax bladder neck muscles and muscle fibers in the prostate itself and make it easier to urinate. These medications include terazosin, doxazosin (Cardura), tamsulosin (Flomax), alfuzosin (Uroxatral) and silodosin (Rapaflo). Alpha blockers work quickly. Within a day or two, you&apos;ll probably have increased urinary flow and need to urinate less often. These may cause a harmless condition called retrograde ejaculation &amp;mdash; semen going back into the bladder rather than out the tip of the penis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;5 alpha reductase inhibitors.&lt;/strong&gt; These medications shrink your prostate by preventing hormonal changes that cause prostate growth. They include finasteride (Proscar) and dutasteride (Avodart). They generally work best for very enlarged prostates. It may be several weeks or even months before you notice improvement. While you&apos;re taking them, these medications may cause sexual side effects including impotence (erectile dysfunction), decreased sexual desire or retrograde ejaculation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination drug therapy.&lt;/strong&gt; Taking an alpha blocker and a 5 alpha reductase inhibitor at the same time is generally more effective than taking just one or the other by itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tadalafil (Cialis).&lt;/strong&gt; This medication, from a class of drugs called phosphodiesterase inhibitors, is often used to treat impotence (erectile dysfunction). It also can be used as a treatment for prostate enlargement. Tadalafil can&apos;t be used in combination with alpha blockers. It also can&apos;t be taken with medications called nitrates, such as nitroglycerin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend surgery if medication isn&apos;t effective or if you have severe symptoms. There are several types of surgery for an enlarged prostate. They all reduce the size of the prostate gland and open the urethra by treating the enlarged prostate tissue that blocks the flow of urine. The decision about which type of surgery may be an option is based on a number of factors, including the size of your prostate, the severity of your symptoms, and what treatments are available in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+Any type of prostate surgery can cause side effects, such as semen flowing backward into the bladder instead of out through the penis during ejaculation (retrograde ejaculation), loss of bladder control (incontinence) and impotence (erectile dysfunction). Ask your doctor about the specific risks of each treatment you&apos;re considering. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Standard surgeries&lt;/strong&gt;&lt;br /&gt;
+Standard surgeries for an enlarged prostate include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Transurethral resection of the prostate (TURP)&lt;/strong&gt;&lt;br /&gt;
+TURP has been a common procedure for enlarged prostate for many years, and it is the surgery with which other treatments are compared. With TURP, a surgeon places a special lighted scope (resectoscope) into your urethra and uses small cutting tools to remove all but the outer part of the prostate (prostate resection). TURP generally relieves symptoms quickly, and most men have a stronger urine flow soon after the procedure. Following TURP, there is risk of bleeding and infection, and you may temporarily require a catheter to drain your bladder after the procedure. You&apos;ll be able to do only light activity until you&apos;re healed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Transurethral incision of the prostate (TUIP or TIP)&lt;/strong&gt;&lt;br /&gt;
+This surgery is an option if you have a moderately enlarged or small prostate gland, especially if you have health problems that make other surgeries too risky. Like TURP, TUIP involves special instruments that are inserted through the urethra. But instead of removing prostate tissue, the surgeon makes one or two small cuts in the prostate gland to open up a channel in the urethra &amp;mdash; making it easier for urine to pass through. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Open prostatectomy&lt;/strong&gt;&lt;br /&gt;
+This type of surgery is generally done if you have a very large prostate, bladder damage or other complicating factors, such as bladder stones. It&apos;s called open because the surgeon makes an incision in your lower abdomen to reach the prostate. Open prostatectomy is the most effective treatment for men with severe prostate enlargement, but it has a high risk of side effects and complications. It generally requires a short stay in the hospital and is associated with a higher risk of needing a blood transfusion. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Minimally invasive surgery&lt;/strong&gt;&lt;br /&gt;
+Minimally invasive treatments are less likely to cause blood loss during surgery and require a shorter, if any, hospital stay. These treatments also typically require less pain medication. Depending on the procedure &amp;mdash; and how well it works for you &amp;mdash; you may need follow-up treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Minimally invasive treatments include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laser surgery&lt;/strong&gt;&lt;br /&gt;
+Laser surgeries (also called laser therapies) use high-energy lasers to destroy or remove overgrown prostate tissue. Laser surgeries generally relieve symptoms right away and have a lower risk of side effects than does TURP. Some laser surgeries can be used in men who shouldn&apos;t have other prostate procedures because they take blood-thinning medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Laser surgery can be done with different types of lasers and in different ways. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ablative procedures&lt;/strong&gt; (including vaporization) remove prostate tissue pressing on the urethra by burning it away, easing urine flow. Ablative procedures may cause irritating urinary symptoms after surgery and may need to be repeated at some point.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enucleative procedures&lt;/strong&gt; are similar to open prostatectomy, but with fewer risks. These procedures generally remove all the prostate tissue blocking urine flow and prevent regrowth of tissue. One benefit of enucleative procedures over ablative procedures is that removed prostate tissue can be examined for prostate cancer and other conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Types of laser surgery include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Holmium laser ablation of the prostate (HoLAP)&lt;/li&gt;
+	&lt;li&gt;Visual laser ablation of the prostate (VLAP)&lt;/li&gt;
+	&lt;li&gt;Holmium laser enucleation of the prostate (HoLEP)&lt;/li&gt;
+	&lt;li&gt;Photoselective vaporization of the prostate (PVP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Options for laser therapy depend on prostate size, the location of the overgrown areas, your doctor&apos;s recommendation and your preferences. Choices available also depend on where you seek treatment. Not all facilities have lasers to perform prostate surgery or doctors who have the specialized skills and training to do the procedures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Transurethral microwave thermotherapy (TUMT)&lt;/strong&gt;&lt;br /&gt;
+With this procedure, your doctor inserts a special electrode through your urethra into your prostate area. Microwave energy from the electrode generates heat and destroys the inner portion of the enlarged prostate gland causing it to shrink and ease urine flow. This surgery has a lower risk of complications than does TURP, but is generally only used on small prostates in special circumstances, because re-treatment may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Transurethral needle ablation (TUNA)&lt;/strong&gt;&lt;br /&gt;
+With this outpatient procedure, a lighted scope (cystoscope) is passed into your urethra. Your doctor uses the scope to place needles into your prostate gland. When the needles are in place, radio waves pass through them, heating and destroying excess prostate tissue that&apos;s blocking urine flow. TUNA basically scars the prostate tissue, which causes it to shrink and open up, easing urine flow. This type of surgery may be a good choice if you bleed easily or you have certain other health problems. Like TUMT, TUNA may only partially relieve your symptoms and it may take some time before you notice results. The risk of erectile dysfunction with the procedure is very low. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prostatic stents&lt;/strong&gt;&lt;br /&gt;
+A prostatic stent is a tiny metal or plastic device that&apos;s inserted into your urethra to keep it open. Tissue grows over the metallic stent to hold it in place. The plastic stent needs to be changed every four to six weeks but keeps you from having to undergo any surgical procedure. In most cases, doctors don&apos;t consider stents a viable long-term treatment because they can cause side effects including painful urination or frequent urinary tract infections. The metal stents can be difficult to remove and are used only in special circumstances, such as for someone who can&apos;t have surgery. Sometimes, plastic stents may be used temporarily before surgery to make sure you&apos;ll be able to urinate after your surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Making some lifestyle changes can often help control the symptoms of an enlarged prostate and prevent your condition from worsening. Try these measures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit beverages in the evening.&lt;/strong&gt; Don&apos;t drink anything for an hour or two before bedtime to help you avoid wake-up trips to the bathroom at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink too much caffeine or alcohol.&lt;/strong&gt; These can increase urine production, irritate your bladder and worsen your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you take water pills (diuretics), talk to your doctor.&lt;/strong&gt; Maybe a lower dose, taking them only in the morning, or a milder diuretic or change in the time you take your medication will help ease urinary symptoms. Don&apos;t stop taking diuretics without first talking to your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit decongestants or antihistamines.&lt;/strong&gt; These drugs tighten the band of muscles around your urethra that control urine flow, which makes it harder to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go when you feel the urge.&lt;/strong&gt; Try to urinate when you first feel the urge. Waiting too long to urinate may overstretch the bladder muscle and cause damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schedule bathroom visits.&lt;/strong&gt; Try to urinate at regular times to &quot;retrain&quot; the bladder. This can be done every four to six hours during the day and can be especially useful if you have severe frequency and urgency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Inactivity causes you to retain urine. Even a small amount of exercise can help reduce urinary problems caused by an enlarged prostate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinate &amp;mdash; and then urinate again a few moments later.&lt;/strong&gt; This is known as double voiding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep warm.&lt;/strong&gt; Colder temperatures can cause urine retention and increase your urgency to urinate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Studies on alternative therapy for an enlarged prostate have had mixed results. Sometimes these treatments appear to help, while other times, they don&apos;t. Saw palmetto extract, which is made from the ripe berries of the saw palmetto shrub, were believed to help reduce the symptoms of an enlarged prostate. But, research has found that the herbal treatment is no more effective than a placebo.
+&lt;/p&gt;
+&lt;p&gt;
+Because there&apos;s no strong evidence that any herbal treatment can relieve urinary symptoms caused by an enlarged prostate, the American Urological Association doesn&apos;t recommend any herbal treatments. In addition, certain herbal products may increase your risk of bleeding or interfere with other medications you&apos;re taking.
+&lt;/p&gt;
+&lt;p&gt;
+Some of the herbal treatments that have been suggested as helpful for reducing enlarged prostate symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Saw palmetto extract,&lt;/strong&gt; made from the ripe berries of the saw palmetto shrub&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta-sitosterol extracts,&lt;/strong&gt; made from several plants, such as certain grasses and trees&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pygeum,&lt;/strong&gt; an oil made from the bark of an African prune tree&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ryegrass extract,&lt;/strong&gt; made from ryegrass pollen&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stinging nettle extract,&lt;/strong&gt; made from the root of the stinging nettle plant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you take any herbal remedies, be sure to tell your doctor. These may help treat some of your symptoms but are generally less effective than are prescription medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prostate gland enlargement
+	</Title>
+	<Abstract>
+		Prostate gland enlargement &amp;mdash; Comprehensive overview covers symptoms, treatment of this common condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00611" LinkType="Internal" ObjectID="FB3923E4-A732-0551-3553E365E746303C" Title="Prostate laser surgery" Url="http://www.mayoclinic.com/health/prostate-laser-surgery/MY00611" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00610" LinkType="Internal" ObjectID="FB37098C-BC1F-9E5F-977BC89FA93DDE5A" Title="Open prostatectomy" Url="http://www.mayoclinic.com/health/open-prostatectomy/MY00610" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00608" LinkType="Internal" ObjectID="FB34541C-0501-B132-828D6AA2CEE464A9" Title="Transurethral needle ablation (TUNA)" Url="http://www.mayoclinic.com/health/tuna/MY00608" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00607" LinkType="Internal" ObjectID="FB323B0C-F123-9612-1305FD0629CCE602" Title="Transurethral microwave therapy (TUMT)" Url="http://www.mayoclinic.com/health/tumt/MY00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00599" LinkType="Internal" ObjectID="F10E3BD6-C739-9F3C-4686273187719962" Title="Transurethral incision of the prostate (TUIP)" Url="http://www.mayoclinic.com/health/tuip/MY00599" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01204" LinkType="Internal" ObjectID="D8F4FDF3-CBB9-4DD5-5B7930AE202EFF56" Title="Intravenous pyelogram" Url="http://www.mayoclinic.com/health/intravenous-pyelogram/MY01204" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00633" LinkType="Internal" ObjectID="3F02BCEA-AC9F-38A9-2997AE24488AE998" Title="Transurethral resection of the prostate (TURP)" Url="http://www.mayoclinic.com/health/turp/MY00633" />
+		<LinkItem ContentType="Answer" DocID="HO00023" LinkType="Internal" ObjectID="44EAE764-6778-495A-B98417CE2151BAB0" Title="Bladder outlet obstruction: Causes in men?" Url="http://www.mayoclinic.com/health/bladder-outlet-obstruction/HO00023" />
+		<LinkItem ContentType="SelfAssessment" DocID="MC00046_D" LinkType="Internal" ObjectID="15EF7117-C181-4DC3-9F502A00A61385B3" Title="Prostate symptoms self-assessment" Url="http://www.mayoclinic.com/health/prostate-health/MC00046_D" />
+		<LinkItem ContentType="Answer" DocID="HO00032" LinkType="Internal" ObjectID="15A8E0E2-87F2-45DB-981184952BF9094A" Title="PSA levels: Can they rise after prostate removal?" Url="http://www.mayoclinic.com/health/prostate-cancer/HO00032" />
+	</RelatedLinksBox>
+</Disease>

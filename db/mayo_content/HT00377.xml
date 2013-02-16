@@ -1,0 +1,72 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00377
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00377
+		</OriginalURL>
+		<UpdateDate>
+			2010-02-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1990" Title="Sprains and strains" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid" />
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA731D35-E7FF-0DBD-17E585C44F0E68FE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				sprains
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Have a sprain? Pay the P.R.I.C.E.
+	</Title>
+	<Body>
+		&lt;p&gt;If you have a minor sprain, you can probably treat it at home. Remember P.R.I.C.E.: Protect, rest, ice, compress and elevate. Protect the injured area from further injury. You may need splints or crutches. Rest the injured area, but don&apos;t avoid all activity. Ice the area as soon as possible after the injury. Compress the area with an elastic wrap or bandage. Elevate the injured area whenever possible to help prevent or limit swelling. After the first two days, gradually begin to use the injured area. You should feel a gradual, progressive improvement.&lt;/p&gt;
+	</Body>
+</HealthTip>

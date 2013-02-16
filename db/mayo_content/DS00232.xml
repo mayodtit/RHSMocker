@@ -1,0 +1,402 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00232
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chronic-sinusitis/DS00232
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-20
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1786" Title="Nose and sinuses">
+						<Keyword MCVID="1788" Title="Sinusitis">
+							<Keyword MCVID="1877" Title="Chronic sinusitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A2BE5F0B-0600-4C43-BE1191EFF704F5F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sinusitis
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic sinusitus
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus
+			</MetaKeyword>
+			<MetaKeyword>
+				acute sinusitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus cavities
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				deviated septum
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal polyps
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic sinusitis is a common condition in which the cavities around nasal passages (sinuses) become inflamed and swollen. Chronic sinusitis lasts 12 weeks or longer despite treatment attempts. 
+&lt;/p&gt;
+&lt;p&gt;
+Also known as chronic rhinosinusitis, this condition interferes with drainage and causes mucus to build up. If you have chronic sinusitis, it may be difficult to breathe through your nose. The area around your eyes and face may feel swollen, and you may have throbbing facial pain or a headache. 
+&lt;/p&gt;
+&lt;p&gt;
+Chronic sinusitis may be caused by an infection, but it can also be caused by growths in the sinuses (nasal polyps) or by a deviated nasal septum. Chronic sinusitis most commonly affects young and middle-aged adults, but it also can affect children. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal and infected sinuses 
+" Caption="Sinusitis occurs when respiratory tract infections or anatomical problems &amp;mdash; such as a deviated nasal septum &amp;mdash; block your sinuses, preventing drainage and allowing viruses or bacteria to multiply in backed-up mucus. You may feel pain on your face in the area of your affected sinuses. 
+" Height="60" Title="Sinusitis" URI="/images/image_popup/thumbs/sinusitis_small.jpg" Width="60" />
+				<Image Alt="Illustration showing normal and infected sinuses 
+" Caption="Sinusitis occurs when respiratory tract infections or anatomical problems &amp;mdash; such as a deviated nasal septum &amp;mdash; block your sinuses, preventing drainage and allowing viruses or bacteria to multiply in backed-up mucus. You may feel pain on your face in the area of your affected sinuses. 
+" Height="276" Title="Sinusitis" URI="/images/image_popup/sinusitis_big.jpg" Width="400" />
+				<HTML>
+					Sinusitis occurs when respiratory tract infections or anatomical problems &amp;mdash; such as a deviated nasal septum &amp;mdash; block your sinuses, preventing drainage and allowing viruses or bacteria to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic sinusitis and acute sinusitis have similar signs and symptoms, but acute sinusitis is a temporary infection of the sinuses often associated with a cold. At least two of the following signs and symptoms must be present for a diagnosis of chronic sinusitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drainage of a thick, yellow or greenish discharge from the nose or down the back of the throat&lt;/li&gt;
+	&lt;li&gt;Nasal obstruction or congestion, causing difficulty breathing through your nose&lt;/li&gt;
+	&lt;li&gt;Pain, tenderness and swelling around your eyes, cheeks, nose or forehead&lt;/li&gt;
+	&lt;li&gt;Reduced sense of smell and taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ear pain&lt;/li&gt;
+	&lt;li&gt;Aching in your upper jaw and teeth&lt;/li&gt;
+	&lt;li&gt;Cough, which may be worse at night&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Bad breath (halitosis)&lt;/li&gt;
+	&lt;li&gt;Fatigue or irritability&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The signs and symptoms of chronic sinusitis are similar to acute sinusitis, except they last longer and often cause more significant fatigue. Fever isn&apos;t a common sign of chronic sinusitis, as it may be with acute sinusitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+You may have several episodes of acute sinusitis, lasting less than four weeks, before developing chronic sinusitis. You may be referred to an allergist or an ear, nose and throat specialist for evaluation and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Schedule an appointment with your doctor if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve had sinusitis a number of times and the condition fails to respond to treatment&lt;/li&gt;
+	&lt;li&gt;You have sinusitis symptoms that last more than seven days&lt;/li&gt;
+	&lt;li&gt;Your symptoms don&apos;t get better after you see your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;See a doctor immediately if&lt;/strong&gt; you have symptoms that may be a sign of a serious infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain or swelling around your eyes&lt;/li&gt;
+	&lt;li&gt;A swollen forehead&lt;/li&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Double vision or other vision changes&lt;/li&gt;
+	&lt;li&gt;Stiff neck&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common causes of chronic sinusitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal polyps or tumors.&lt;/strong&gt; These tissue growths may block the nasal passages or sinuses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic reactions.&lt;/strong&gt; Allergic triggers include fungal infection of the sinuses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deviated nasal septum.&lt;/strong&gt; A crooked septum &amp;mdash; the wall between the nostrils &amp;mdash; may restrict or block sinus passages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma to the face.&lt;/strong&gt; A fractured or broken facial bone may cause obstruction of the sinus passages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medical conditions.&lt;/strong&gt; The complications of cystic fibrosis, gastroesophageal reflux, or HIV and other immune system-related diseases may result in nasal blockage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory tract infections.&lt;/strong&gt; Infections in your respiratory tract &amp;mdash; most commonly, colds &amp;mdash; can inflame and thicken your sinus membranes, blocking mucus drainage and creating conditions ripe for growth of bacteria. These infections can be viral, bacterial or fungal in nature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergies such as hay fever.&lt;/strong&gt; Inflammation that occurs with allergies may block your sinuses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system cells.&lt;/strong&gt; With certain health conditions, immune cells called eosinophils can cause sinus inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal and infected sinuses 
+" Caption="Sinusitis occurs when respiratory tract infections or anatomical problems &amp;mdash; such as a deviated nasal septum &amp;mdash; block your sinuses, preventing drainage and allowing viruses or bacteria to multiply in backed-up mucus. You may feel pain on your face in the area of your affected sinuses. 
+" Height="60" Title="Sinusitis" URI="/images/image_popup/thumbs/sinusitis_small.jpg" Width="60" />
+				<Image Alt="Illustration showing normal and infected sinuses 
+" Caption="Sinusitis occurs when respiratory tract infections or anatomical problems &amp;mdash; such as a deviated nasal septum &amp;mdash; block your sinuses, preventing drainage and allowing viruses or bacteria to multiply in backed-up mucus. You may feel pain on your face in the area of your affected sinuses. 
+" Height="276" Title="Sinusitis" URI="/images/image_popup/sinusitis_big.jpg" Width="400" />
+				<HTML>
+					Sinusitis occurs when respiratory tract infections or anatomical problems &amp;mdash; such as a deviated nasal septum &amp;mdash; block your sinuses, preventing drainage and allowing viruses or bacteria to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re at increased risk of getting chronic or recurrent sinusitis if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A nasal passage abnormality,&lt;/strong&gt; such as a deviated nasal septum or nasal polyps&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin sensitivity&lt;/strong&gt; that causes respiratory symptoms&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A medical condition,&lt;/strong&gt; such as cystic fibrosis or chronic obstructive pulmonary disease (COPD)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An immune system disorder,&lt;/strong&gt; such as HIV/AIDS or cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hay fever or another allergic condition&lt;/strong&gt; that affects your sinuses&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma&lt;/strong&gt; &amp;mdash; about 1 in 5 people with chronic sinusitis have asthma&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Regular exposure to pollutants&lt;/strong&gt; such as cigarette smoke&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic sinusitis complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma flare-ups.&lt;/strong&gt; Chronic sinusitis can trigger an asthma attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meningitis,&lt;/strong&gt; an infection that causes inflammation of the membranes and fluid surrounding your brain and spinal cord.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision problems.&lt;/strong&gt; If infection spreads to your eye socket, it can cause reduced vision or even blindness that can be permanent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aneurysms or blood clots.&lt;/strong&gt; Infection can cause problems in the veins surrounding the sinuses, interfering with blood supply to your brain and putting you at risk of a stroke.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you see your doctor, expect a thorough examination of your sinuses. Your doctor may also examine your eyes, ears, nose and throat. Be prepared to answer detailed questions about your symptoms. Your doctor may want to know: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms you have&lt;/li&gt;
+	&lt;li&gt;When your symptoms started&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve or worsen your symptoms&lt;/li&gt;
+	&lt;li&gt;Whether you currently have a cold or other respiratory infection, or you&apos;ve had one recently&lt;/li&gt;
+	&lt;li&gt;If you have allergies&lt;/li&gt;
+	&lt;li&gt;If you smoke, are exposed to secondhand smoke or are regularly exposed to other airborne pollutants&lt;/li&gt;
+	&lt;li&gt;What medications you take, including herbal remedies and supplements&lt;/li&gt;
+	&lt;li&gt;Any other health problems you have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For chronic sinusitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;I have other conditions, how can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To look for the cause of your symptoms, your doctor will feel for tenderness in your nose or throat. To make it easier to see inside your nasal passages, he or she may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use a tool to hold your nose open&lt;/li&gt;
+	&lt;li&gt;Apply medication that constricts blood vessels in your nasal passages&lt;/li&gt;
+	&lt;li&gt;Shine a light into your nasal passages to look for inflammation or fluid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+This visual inspection will also help rule out physical conditions that trigger sinusitis, such as nasal polyps or other abnormalities. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor also may use several other methods to help screen for chronic sinusitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal endoscopy.&lt;/strong&gt; A thin, flexible tube (endoscope) with a fiber-optic light inserted through your nose allows your doctor to visually inspect the inside of your sinuses. This also is known as rhinoscopy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging studies.&lt;/strong&gt; Images taken using computerized tomography (CT) or magnetic resonance imaging (MRI) can show details of your sinuses and nasal area. These may identify a deep inflammation or physical obstruction that&apos;s difficult to detect using an endoscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal and sinus cultures.&lt;/strong&gt; Cultures are generally unnecessary for diagnosing chronic sinusitis. However, in cases in which the condition fails to respond to treatment or is progressing, tissue cultures may help pinpoint the cause, such as identifying a bacterial or fungal pathogen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An allergy test.&lt;/strong&gt; If your doctor suspects that the condition may be brought on by allergies, an allergy skin test may be recommended. A skin test is safe and quick and can help pinpoint the allergen that&apos;s responsible for your nasal flare-ups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treating chronic sinusitis is to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reduce sinus inflammation&lt;/li&gt;
+	&lt;li&gt;Keep your nasal passages draining&lt;/li&gt;
+	&lt;li&gt;Eliminate the underlying cause&lt;/li&gt;
+	&lt;li&gt;Reduce the number of sinusitis flare-ups you have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments to relieve symptoms&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend treatments to help relieve sinusitis symptoms. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Saline nasal spray,&lt;/strong&gt; which you spray into your nose several times a day to rinse your nasal passages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal corticosteroids.&lt;/strong&gt; These nasal sprays help prevent and treat inflammation. Examples include fluticasone (Flonase), budesonide (Rhinocort Aqua), triamcinolone (Nasacort AQ), mometasone (Nasonex) and beclomethasone (Beconase AQ).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral or injected corticosteroids.&lt;/strong&gt; These medications are used to relieve inflammation from severe sinusitis, especially if you also have nasal polyps. Examples include prednisone and methylprednisolone. Oral corticosteroids can cause serious side effects when used long term, so they&apos;re used only to treat severe asthma symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decongestants.&lt;/strong&gt; These medications are available in over-the-counter (OTC) and prescription liquids, tablets and nasal sprays. Examples of OTC oral decongestants include Sudafed and Actifed. An example of an OTC nasal spray is oxymetazoline (Afrin). These medications are generally taken for a few days at most; otherwise they can cause the return of more severe congestion (rebound congestion).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter pain relievers&lt;/strong&gt; such as aspirin, acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others). Because of the risk of Reye&apos;s syndrome &amp;mdash; a potentially life-threatening illness &amp;mdash; never give aspirin to anyone younger than age 18.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin desensitization treatment&lt;/strong&gt; if you have reactions to aspirin that cause sinusitis. However, this treatment can have serious complications such as intestinal bleeding or severe asthma attacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt; &lt;br /&gt;
+Antibiotics are sometimes necessary for sinusitis if you have a bacterial infection. However, chronic sinusitis is usually caused by something other than bacteria, so antibiotics usually won&apos;t help. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics used to treat chronic sinusitis caused by a bacterial infection include amoxicillin (Amoxil, others), doxycycline (Doryx, Monodox, others) or the combination drug trimethoprim-sulfamethoxazole (Bactrim, Septra, others). If the infection doesn&apos;t subside or if the sinusitis comes back, your doctor may try a different antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor does prescribe antibiotics, it&apos;s critical to take the entire course of medication. Generally, this means you&apos;ll need to take them for 10 to 14 days or even longer &amp;mdash; even after your symptoms get better. If you stop taking them early, your symptoms may come back. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immunotherapy&lt;/strong&gt; &lt;br /&gt;
+If allergies are contributing to your sinusitis, allergy shots (immunotherapy) that help reduce the body&apos;s reaction to specific allergens may help treat the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+In cases that continue to resist treatment or medication, endoscopic sinus surgery may be an option. For this procedure, the doctor uses an endoscope, a thin, flexible tube with an attached light, to explore your sinus passages. Then, depending on the source of obstruction, the doctor may use various instruments to remove tissue or shave away a polyp that&apos;s causing nasal blockage. Enlarging a narrow sinus opening also may be an option to promote drainage. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of endoscopic sinus surgery 
+" Caption="The upper left illustration shows the frontal (A) and maxillary (B) sinuses, as well as the ostiomeatal complex (C). In endoscopic sinus surgery (middle illustration), your doctor uses an endoscope and tiny cutting tools to open the blocked passage and restore natural drainage (D). 
+" Height="60" Title="Endoscopic sinus surgery" URI="/images/image_popup/thumbs/ww5r243t.jpg" Width="60" />
+				<Image Alt="Illustration of endoscopic sinus surgery 
+" Caption="The upper left illustration shows the frontal (A) and maxillary (B) sinuses, as well as the ostiomeatal complex (C). In endoscopic sinus surgery (middle illustration), your doctor uses an endoscope and tiny cutting tools to open the blocked passage and restore natural drainage (D). 
+" Height="415" Title="Endoscopic sinus surgery" URI="/images/image_popup/ww5r243s.jpg" Width="400" />
+				<HTML>
+					The upper left illustration shows the frontal (A) and maxillary (B) sinuses, as well as the ostiomeatal complex (C). In endoscopic sinus surgery (middle illustration), your doctor uses an endoscope ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These self-help steps can help relieve sinusitis symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; This will help your body fight inflammation and speed recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink fluids,&lt;/strong&gt; such as water or juice. This will help dilute mucous secretions and promote drainage. Avoid beverages that contain caffeine or alcohol, as they can be dehydrating. Drinking alcohol can also worsen the swelling of the lining of the sinuses and nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your sinus cavities.&lt;/strong&gt; Drape a towel over your head as you breathe in the vapor from a bowl of medium-hot water. Keep the vapor directed toward your face. Or take a hot shower, breathing in the warm, moist air. This will help ease pain and help mucus drain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply warm compresses to your face.&lt;/strong&gt; Place warm, damp towels around your nose, cheeks and eyes to ease facial pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse out your nasal passages.&lt;/strong&gt; Use a specially designed squeeze bottle (Sinus Rinse, others), bulb syringe or neti pot to rinse your nasal passages. This home remedy, called nasal lavage, can help clear your sinuses. If you make your own rinse, use water that&apos;s distilled, sterile, previously boiled and cooled, or filtered using a filter with an absolute pore size of 1 micron or smaller to make up the irrigation solution. Also be sure to rinse the irrigation device after each use with similarly distilled, sterile, previously boiled and cooled, or filtered water and leave open to air dry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep with your head elevated.&lt;/strong&gt; This will help your sinuses drain, reducing congestion.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take these steps to reduce your risk of getting chronic sinusitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid upper respiratory infections.&lt;/strong&gt; Minimize contact with people who have colds. Wash your hands frequently with soap and water, especially before your meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carefully manage your allergies.&lt;/strong&gt; Work with your doctor to keep symptoms under control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid cigarette smoke and polluted air.&lt;/strong&gt; Tobacco smoke and air contaminants can irritate and inflame your lungs and nasal passages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; If the air in your home is dry, such as it is if you have forced hot air heat, adding moisture to the air may help prevent sinusitis. Be sure the humidifier stays clean and free of mold with regular, thorough cleaning.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chronic sinusitis
+	</Title>
+	<Abstract>
+		Chronic sinusitis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this painful respiratory condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01241" LinkType="Internal" ObjectID="B0F40A94-2A5D-9994-E46A807D9C5DB928" Title="Nasal spray addiction: Is it real?" Url="http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241" />
+		<LinkItem ContentType="Disease" DocID="DS00287" LinkType="Internal" ObjectID="2CEBF76F-D36A-4D15-B937BFF91AB51438" Title="Cystic fibrosis" Url="http://www.mayoclinic.com/health/cystic-fibrosis/DS00287" />
+		<LinkItem ContentType="Disease" DocID="DS01006" LinkType="Internal" ObjectID="20EA134D-E7FF-0DBD-1FD2F9F7AF5DB7A5" Title="Primary immunodeficiency" Url="http://www.mayoclinic.com/health/primary-immunodeficiency/DS01006" />
+	</RelatedLinksBox>
+</Disease>

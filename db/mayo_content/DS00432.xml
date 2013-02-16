@@ -1,0 +1,371 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00432
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/radiation-sickness/DS00432
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-06
+		</UpdateDate>
+		<PublicationDate>
+			2002-08-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="3045" Title="Radiation sickness" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1B032CE8-CC84-448C-99E45014638A72CE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				radiation sickness
+			</MetaKeyword>
+			<MetaKeyword>
+				acute radiation sickness
+			</MetaKeyword>
+			<MetaKeyword>
+				acute radiation syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation
+			</MetaKeyword>
+			<MetaKeyword>
+				nuclear weapon
+			</MetaKeyword>
+			<MetaKeyword>
+				nuclear accident
+			</MetaKeyword>
+			<MetaKeyword>
+				radioactive device
+			</MetaKeyword>
+			<MetaKeyword>
+				dirty bomb
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation emergency
+			</MetaKeyword>
+			<MetaKeyword>
+				radioactivity
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Radiation sickness is damage to your body caused by a large dose of radiation often received over a short period of time (acute). The amount of radiation absorbed by the body &amp;mdash; the absorbed dose &amp;mdash; determines how sick you&apos;ll be. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation sickness is also called acute radiation sickness, acute radiation syndrome or radiation poisoning. Common exposures to low-dose radiation, such as X-ray or CT examinations, don&apos;t cause radiation sickness. 
+&lt;/p&gt;
+&lt;p&gt;
+Although radiation sickness is serious and often fatal, it&apos;s rare. Since the atomic bombings of Hiroshima and Nagasaki, Japan, during World War II, most cases of radiation sickness have occurred after nuclear industrial accidents such as the 1986 fire that damaged the nuclear power plant at Chernobyl or the 2011 earthquake that damaged the nuclear power plant on the east coast of Japan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The severity of signs and symptoms of radiation sickness depends on how much radiation you&apos;ve absorbed. How much you absorb depends on the strength of the radiated energy and the distance between you and the source of radiation. Signs and symptoms also are affected by the type of exposure &amp;mdash; such as total or partial body and whether contamination is internal or external &amp;mdash; and how sensitive to radiation the affected tissue is. For instance, the gastrointestinal system and bone marrow are highly sensitive to radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Absorbed dose and duration of exposure&lt;/strong&gt; &lt;br /&gt;
+The absorbed dose of radiation is measured in a unit called a gray (Gy). Diagnostic tests that use radiation, such as an X-ray, result in a small dose of radiation &amp;mdash; typically well below 0.1 Gy, focused on a few organs or small amount of tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of radiation sickness usually appear when the entire body receives an absorbed dose of at least 1 Gy. Doses greater than 6 Gy to the whole body are generally not treatable and usually lead to death within two days to two weeks, depending on the dose and duration of the exposure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+The initial signs and symptoms of treatable radiation sickness are usually nausea and vomiting. The amount of time between exposure and when these symptoms develop is an indicator of how much radiation a person has absorbed. 
+&lt;/p&gt;
+&lt;p&gt;
+After the first round of signs and symptoms, a person with radiation sickness may have a brief period with no apparent illness, followed by the onset of new, more serious symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, the greater your radiation exposure, the more rapid and more severe your symptoms will be. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;5&quot;&gt;Early symptoms of radiation sickness*&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowg&quot;&gt;
+			&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td width=&quot;20%&quot;&gt;&lt;strong&gt;Mild exposure (1-2 Gy)&lt;/strong&gt; &lt;/td&gt;
+			&lt;td width=&quot;20%&quot;&gt;&lt;strong&gt;Moderate exposure (2-6 Gy) &lt;/strong&gt;&lt;/td&gt;
+			&lt;td width=&quot;20%&quot;&gt;&lt;strong&gt;Severe exposure (6-8 Gy) &lt;/strong&gt;&lt;/td&gt;
+			&lt;td width=&quot;20%&quot;&gt;&lt;strong&gt;Very severe exposure (8-10 Gy or higher) &lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Nausea and vomiting &lt;/td&gt;
+			&lt;td&gt;Within 6 hours &lt;/td&gt;
+			&lt;td&gt;Within 2 hours &lt;/td&gt;
+			&lt;td&gt;Within 1 hour &lt;/td&gt;
+			&lt;td&gt;Within 10 minutes &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Diarrhea &lt;/td&gt;
+			&lt;td&gt;-- &lt;/td&gt;
+			&lt;td&gt;Within 8 hours &lt;/td&gt;
+			&lt;td&gt;Within 3 hours &lt;/td&gt;
+			&lt;td&gt;Within 1 hour &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Headache &lt;/td&gt;
+			&lt;td&gt;-- &lt;/td&gt;
+			&lt;td&gt;Within 24 hours &lt;/td&gt;
+			&lt;td&gt;Within 4 hours &lt;/td&gt;
+			&lt;td&gt;Within 2 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Fever &lt;/td&gt;
+			&lt;td&gt;-- &lt;/td&gt;
+			&lt;td&gt;Within 3 hours &lt;/td&gt;
+			&lt;td&gt;Within 1 hour &lt;/td&gt;
+			&lt;td&gt;Within 1 hour &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;5&quot;&gt;Later symptoms of radiation sickness* &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Dizziness and disorientation&lt;/td&gt;
+			&lt;td&gt;--&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;--&lt;/td&gt;
+			&lt;td&gt;Within 1 week&lt;/td&gt;
+			&lt;td&gt;Immediate&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Weakness, fatigue&amp;nbsp;&lt;/td&gt;
+			&lt;td&gt;Within 4 weeks&lt;/td&gt;
+			&lt;td&gt;Within 1-4 weeks&lt;/td&gt;
+			&lt;td&gt;Within&amp;nbsp;1 week&lt;/td&gt;
+			&lt;td&gt;Immediate&amp;nbsp;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Hair loss, bloody vomit and stools, infections, poor wound healing, low blood pressure &lt;/td&gt;
+			&lt;td&gt;-- &lt;/td&gt;
+			&lt;td&gt;Within 1-4 weeks &lt;/td&gt;
+			&lt;td&gt;Within 1 week &lt;/td&gt;
+			&lt;td&gt;Immediate&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;span class=&quot;fineprint&quot;&gt;
+&lt;p&gt;
+* Adapted from Radiation exposure and contamination. The Merck Manuals: The Merck Manual for Healthcare Professionals. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+An accident or attack that causes radiation sickness would no doubt cause a lot of attention and public concern. If such an event occurs, monitor radio, television or online reports to learn about emergency instructions for your area. 
+&lt;/p&gt;
+&lt;p&gt;
+If you know you&apos;ve been exposed to radiation, seek emergency medical care. 
+&lt;/p&gt;
+&lt;/span&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Radiation is the energy released from atoms as either a wave or a tiny particle of matter. Radiation sickness is caused by exposure to a high dose of radiation, such as a high dose of radiation received during an industrial accident. Common exposures to low-dose radiation, such as X-ray examinations, don&apos;t cause radiation sickness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sources of high-dose radiation&lt;/strong&gt; &lt;br /&gt;
+Possible sources of high-dose radiation include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An accident at a nuclear industrial facility&lt;/li&gt;
+	&lt;li&gt;An attack on a nuclear industrial facility&lt;/li&gt;
+	&lt;li&gt;Detonation of a small radioactive device&lt;/li&gt;
+	&lt;li&gt;Detonation of a conventional explosive device that disperses radioactive material (dirty bomb)&lt;/li&gt;
+	&lt;li&gt;Detonation of a standard nuclear weapon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Radiation sickness occurs when high-energy radiation damages or destroys certain cells in your body. Regions of the body most vulnerable to high-energy radiation are cells in the lining of your intestinal tract, including your stomach, and the blood cell-producing cells of bone marrow. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When a person has experienced known or probable exposure to a high dose of radiation from an accident or attack, medical personnel take a number of steps to determine the absorbed radiation dose. This information is essential for determining how severe the illness is likely to be, which treatments to use and whether a person is likely to survive.
+&lt;/p&gt;
+&lt;p&gt;
+Information important for determining an absorbed dose includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Known exposure.&lt;/strong&gt; Details about distance from the source of radiation and duration of exposure can help provide a rough estimate of the severity of radiation sickness. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vomiting and other symptoms.&lt;/strong&gt; The time between radiation exposure and the onset of vomiting is a fairly accurate screening tool to estimate absorbed radiation dose. The shorter the time before the onset of this sign, the higher the dose. The severity and timing of other signs and symptoms may also help medical personnel determine the absorbed dose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Frequent blood tests over several days enable medical personnel to look for drops in disease-fighting white blood cells and abnormal changes in the DNA of blood cells. These factors indicate the degree of bone marrow damage, which is determined by the level of an absorbed dose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dosimeter.&lt;/strong&gt; A device called a dosimeter can measure the absorbed dose of radiation but only if it was exposed to the same radiation event as the affected person. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Survey meter.&lt;/strong&gt; A device such as a Geiger counter can be used to survey people to determine the body location of radioactive particles. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type of radiation.&lt;/strong&gt; A part of the larger emergency response to a radioactive accident or attack would include identifying the type of radiation exposure. This information would guide some decisions for treating people with radiation sickness. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Radiation exposure that causes immediate radiation sickness significantly increases a person&apos;s risk of developing leukemia or cancer later in life. 
+&lt;/p&gt;
+&lt;p&gt;
+Having radiation sickness could also contribute to both short-term and long-term mental health problems, such as grief, fear and anxiety about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Experiencing a radioactive accident or attack&lt;/li&gt;
+	&lt;li&gt;Mourning friends or family who haven&apos;t survived&lt;/li&gt;
+	&lt;li&gt;Dealing with the uncertainty of a mysterious and potentially fatal illness&lt;/li&gt;
+	&lt;li&gt;Worrying about the eventual risk of cancer due to radiation exposure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment goals for radiation sickness are to prevent further radioactive contamination; treat life-threatening injuries, such as from burns and trauma; reduce symptoms; and manage pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Decontamination&lt;/strong&gt; &lt;br /&gt;
+Decontamination is the removal of as much external radioactive particles as possible. Removing clothing and shoes eliminates about 90 percent of external contamination. Gently washing with water and soap removes additional radiation particles from the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Decontamination prevents further distribution of radioactive materials and lowers the risk of internal contamination from inhalation, ingestion or open wounds. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for damaged bone marrow&lt;/strong&gt; &lt;br /&gt;
+A protein called granulocyte colony-stimulating factor, which promotes the growth of white blood cells, may counter the effect of radiation sickness on bone marrow. Treatment with this protein-based medication, which includes filgrastim (Neupogen) and pegfilgrastim (Neulasta), may increase white blood cell production and help prevent subsequent infections. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe damage to bone marrow, you may also receive transfusions of red blood cells or blood platelets. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for internal contamination&lt;/strong&gt; &lt;br /&gt;
+Some treatments may reduce damage to internal organs caused by radioactive particles. Medical personnel would use these treatments only if you&apos;ve been exposed to a specific type of radiation. These treatments include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Potassium iodide.&lt;/strong&gt; This is a nonradioactive form of iodine. Because iodine is essential for proper thyroid function, the thyroid becomes a &quot;destination&quot; for iodine in the body. If you have internal contamination with radioactive iodine (radioiodine), your thyroid will absorb radioiodine just as it would other forms of iodine. Treatment with potassium iodide may fill &quot;vacancies&quot; in the thyroid and prevent absorption of radioiodine. The radioiodine is eventually cleared from the body in urine. Potassium iodide isn&apos;t a cure-all and is most effective if taken within a day of exposure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prussian blue.&lt;/strong&gt; This type of dye binds to particles of radioactive elements known as cesium and thallium. The radioactive particles are then excreted in feces. This treatment speeds up the elimination of the radioactive particles and reduces the amount of radiation cells may absorb. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diethylenetriamine pentaacetic acid (DTPA).&lt;/strong&gt; This substance binds to metals. DTPA binds to particles of the radioactive elements plutonium, americium and curium. The radioactive particles pass out of the body in urine, thereby reducing the amount of radiation absorbed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive treatment&lt;/strong&gt; &lt;br /&gt;
+If you have radiation sickness, you may receive additional medications or interventions to treat: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bacterial infections&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Burns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;End-of-life care&lt;/strong&gt; &lt;br /&gt;
+A person who has absorbed large doses of radiation (6 Gy or greater) has little chance of recovery. Depending on the severity of illness, death can occur within two days or two weeks. People with a lethal radiation dose will receive medications to control pain, nausea, vomiting and diarrhea. They may also benefit from psychological or pastoral care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the event of a radiation emergency, there are precautions you can take. In the event of a radiation emergency, stay tuned to your radio or television to hear what protective actions local, state and federal authorities recommend. Recommended actions will depend on the situation, but you will be told either to stay in place or evacuate your area. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Shelter in place&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re advised to stay where you are, whether you&apos;re at home or work or elsewhere, do the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Close and lock all doors and windows.&lt;/li&gt;
+	&lt;li&gt;Turn off fans, air conditioners and heating units that bring air in from outside.&lt;/li&gt;
+	&lt;li&gt;Close fireplace dampers.&lt;/li&gt;
+	&lt;li&gt;Bring pets indoors.&lt;/li&gt;
+	&lt;li&gt;Move to an inner room or basement.&lt;/li&gt;
+	&lt;li&gt;Stay tuned to your emergency response network or local news.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Evacuate&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re advised to evacuate, follow the instructions provided by your local authorities. Try to stay calm and move quickly and in an orderly manner. In addition, travel lightly, but take supplies, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flashlight&lt;/li&gt;
+	&lt;li&gt;Portable radio&lt;/li&gt;
+	&lt;li&gt;Batteries&lt;/li&gt;
+	&lt;li&gt;First-aid kit&lt;/li&gt;
+	&lt;li&gt;Necessary medicines&lt;/li&gt;
+	&lt;li&gt;Sealed food, such as canned, and bottled water&lt;/li&gt;
+	&lt;li&gt;Manual can opener&lt;/li&gt;
+	&lt;li&gt;Cash and credit cards&lt;/li&gt;
+	&lt;li&gt;Extra clothes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Be aware that most emergency vehicles and shelters won&apos;t accept pets. Take them only if you&apos;re driving your own vehicle and going someplace other than a shelter. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Radiation sickness
+	</Title>
+	<Abstract>
+		Radiation sickness &amp;mdash; Comprehensive overview covers symptoms and treatment of high-dose radiation exposure.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

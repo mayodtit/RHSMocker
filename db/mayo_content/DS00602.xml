@@ -1,0 +1,325 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00602
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/orchitis/DS00602
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-07
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2054" Title="Testes">
+						<Keyword MCVID="2406" Title="Orchitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			94E86048-5647-4FDE-B62722B798B82940
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				orchitis
+			</MetaKeyword>
+			<MetaKeyword>
+				epididymo-orchitis
+			</MetaKeyword>
+			<MetaKeyword>
+				mumps
+			</MetaKeyword>
+			<MetaKeyword>
+				testis infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Orchitis (or-KIE-tis) is an inflammation of one or both testicles, most commonly associated with the virus that causes mumps. At least one-third of males who contract mumps after puberty develop orchitis.
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of orchitis usually are bacterial, including sexually transmitted infections (STIs), such as gonorrhea or chlamydia. Bacterial orchitis often results from epididymitis, an inflammation of the coiled tube (epididymis) at the back of the testicle that stores and carries sperm. In that case, it&apos;s called epididymo-orchitis.
+&lt;/p&gt;
+&lt;p&gt;
+Swelling and pain are the most common signs and symptoms of orchitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Orchitis symptoms usually develop suddenly. Orchitis symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling in one or both testicles&lt;/li&gt;
+	&lt;li&gt;Pain ranging from mild to severe&lt;/li&gt;
+	&lt;li&gt;Discomfort when sitting&lt;/li&gt;
+	&lt;li&gt;Tenderness in one or both testicles, which may last for weeks&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Discharge from penis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The terms &quot;testicle pain&quot; and &quot;groin pain&quot; are sometimes used interchangeably. But groin pain occurs in the fold of skin between the thigh and abdomen &amp;mdash; not in the testicle. The causes of groin pain are different from the causes of testicle pain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience pain or swelling in your scrotum, especially if the pain comes on suddenly, see your doctor right away.
+&lt;/p&gt;
+&lt;p&gt;
+A number of conditions can cause testicle pain, and some of the conditions require immediate treatment. One such condition involves twisting of the spermatic cord (testicular torsion), which may cause pain similar to that caused by orchitis. Your doctor can perform tests to determine which condition is causing your pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Orchitis can be caused by either a bacterial or viral infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bacterial orchitis&lt;/strong&gt;&lt;br /&gt;
+Most often, bacterial orchitis is the result of epididymitis, an inflammation of the coiled tube that connects the vas deferens and the testicle. The vas deferens carries sperm from your testicles. When inflammation in the epididymis spreads to the testicle, the resulting condition is known as epididymo-orchitis.
+&lt;/p&gt;
+&lt;p&gt;
+Epididymitis usually is caused by an infection of the urethra or bladder that spreads to the epididymis. Often the cause of the infection is a sexually transmitted infection (STI), particularly gonorrhea or chlamydia. Other causes of infection may be related to having been born with abnormalities in your urinary tract or having had a catheter or medical instruments inserted into your penis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Viral orchitis&lt;/strong&gt;&lt;br /&gt;
+Most cases of viral orchitis are the result of the mumps virus. About one-third of males who contract the mumps after puberty develop orchitis during their course of the mumps, usually four to seven days after onset.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="60" Title="Male reproductive system" URI="/images/image_popup/thumbs/r7_malereprothu.jpg" Width="60" />
+				<Image Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="283" Title="Male reproductive system" URI="/images/image_popup/r7_malerepro.jpg" Width="400" />
+				<HTML>
+					The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may contribute to developing orchitis. For nonsexually transmitted orchitis, they include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Not being immunized against mumps&lt;/li&gt;
+	&lt;li&gt;Having recurring urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Having surgery that involves the genitals or urinary tract, because of the risk of infection&lt;/li&gt;
+	&lt;li&gt;Being born with an abnormality in the urinary tract (congenital)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+High-risk sexual behaviors that can lead to STIs also put you at risk of sexually transmitted orchitis. They include having:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiple sexual partners&lt;/li&gt;
+	&lt;li&gt;Sex with a partner who has an STI&lt;/li&gt;
+	&lt;li&gt;Sex without a condom&lt;/li&gt;
+	&lt;li&gt;A personal history of an STI&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of orchitis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Testicular atrophy.&lt;/strong&gt; Orchitis may eventually cause the affected testicle to shrink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scrotal abscess.&lt;/strong&gt; The infected tissue fills with pus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repeated epididymitis.&lt;/strong&gt; Orchitis can lead to recurrent episodes of epididymitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility.&lt;/strong&gt; In a small number of cases, orchitis may cause infertility; however, if orchitis affects only one testicle, infertility is less likely.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment you may be referred immediately to a doctor who specializes in urinary issues (urologist).
+&lt;/p&gt;
+&lt;p&gt;
+To get all the information you need from your doctor, it helps to be well prepared for your appointment. Here&apos;s how.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your symptoms,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Give your doctor a history of your childhood illnesses and immunizations.&lt;/strong&gt; Also, be sure to let your doctor know about any recent illnesses, especially if you&apos;ve had any STIs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re currently taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing questions ahead of time will help you make the most of your time with your doctor. List your questions from most important to least important. For orchitis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? What&apos;s involved in those tests?&lt;/li&gt;
+	&lt;li&gt;What treatments are available for orchitis?&lt;/li&gt;
+	&lt;li&gt;How long will it take before I start to feel better?&lt;/li&gt;
+	&lt;li&gt;Will this affect my ability to have children?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on sexual activity that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that arise during your appointment, or at any time you need clarification.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried on your own?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had mumps or mumps vaccine? If so, when?&lt;/li&gt;
+	&lt;li&gt;Have you had an STI?&lt;/li&gt;
+	&lt;li&gt;Do you practice safe sex, such as using a condom or having only one partner?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests that your doctor may use to diagnose orchitis and to rule out other causes of your testicle pain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A physical exam.&lt;/strong&gt; A physical exam may reveal enlarged lymph nodes in your groin and an enlarged testicle on the affected side; both may be tender to the touch. Your doctor also may do a rectal examination to check for prostate enlargement or tenderness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;STI screening.&lt;/strong&gt; This involves obtaining a sample of discharge from your urethra. Your doctor may insert a narrow swab into the end of your penis to obtain the sample, which will be viewed under a microscope or cultured to check for gonorrhea and chlamydia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis.&lt;/strong&gt; A sample of your urine, collected either at home first thing in the morning or at your doctor&apos;s office, is analyzed in a lab for abnormalities in appearance, concentration or content.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound imaging.&lt;/strong&gt; This test, which uses high-frequency sound waves to create precise images of structures inside your body, may be used to rule out twisting of the spermatic cord (testicular torsion). Ultrasound with color Doppler can determine if the blood flow to your testicle is reduced or increased, which helps confirm the diagnosis of orchitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nuclear scan of the testicles.&lt;/strong&gt; Also used to rule out testicular torsion, this test involves injecting tiny amounts of radioactive material into your bloodstream. Special cameras can then detect areas in your testicles that receive less blood flow, indicating torsion, or more blood flow, confirming the diagnosis of orchitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the cause of orchitis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating bacterial orchitis&lt;/strong&gt;&lt;br /&gt;
+In addition to steps to relieve discomfort, such as resting and applying ice packs, bacterial orchitis and epididymo-orchitis require antibiotic treatment. If the cause of the infection is an STI, your sexual partner also needs treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotic drugs most commonly used to treat bacterial orchitis include ceftriaxone (Rocephin), ciprofloxacin (Cipro), doxycycline (Vibramycin, Doryx), azithromycin (Zithromax), and trimethoprim and sulfamethoxazole combined (Bactrim, Septra). Make sure your doctor is aware of any other medications you&apos;re taking or any allergies you have. This information, as well as whether your infection is sexually transmitted and what type of STI you have, will help your doctor select the best treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to take the entire course of antibiotics recommended by your doctor. Even if your symptoms clear up sooner, take all your antibiotics to ensure that the infection is gone. It may take several weeks for the tenderness to disappear.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating viral orchitis&lt;/strong&gt;&lt;br /&gt;
+If your doctor has determined that a bacterial infection isn&apos;t the cause of your orchitis, you won&apos;t need antibiotic treatment. Instead, treatment for viral orchitis, the type associated with mumps, is aimed at relieving symptoms. Your doctor may prescribe pain medication, nonsteroidal anti-inflammatory drugs, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others), and recommend bed rest, elevating your scrotum and applying cold packs. If you have viral orchitis, you&apos;ll usually start to feel better within three to 10 days, though it may take several weeks for the scrotal tenderness to go away.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To ease your discomfort, try these suggestions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rest in bed.&lt;/li&gt;
+	&lt;li&gt;Lie down so that your scrotum is elevated.&lt;/li&gt;
+	&lt;li&gt;Apply cold packs to your scrotum as tolerated.&lt;/li&gt;
+	&lt;li&gt;Avoid lifting heavy objects.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Practicing safer sex, such as having just one sex partner and using a condom, helps protect against STIs, which helps prevent STI-related bacterial orchitis.
+&lt;/p&gt;
+&lt;p&gt;
+Getting immunized against mumps is your best protection against viral, mumps-related orchitis. The vaccine is recommended for children older than 1 year, with a booster shot recommended when your child is between 4 and 6 years old.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Orchitis
+	</Title>
+	<Abstract>
+		Orchitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this painful testicular inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+	</RelatedLinksBox>
+</Disease>

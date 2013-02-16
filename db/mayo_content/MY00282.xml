@@ -1,0 +1,264 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00282
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peritoneal-dialysis/MY00282
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-11
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3783" Title="Blood and lymphatic system">
+						<Keyword MCVID="3890" Title="Peritoneal dialysis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			90F4FC04-E7FF-0DBD-1DA402BBECCF3BAF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peritoneal dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				renal dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				end stage renal disease
+			</MetaKeyword>
+			<MetaKeyword>
+				ESRD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peritoneal dialysis (per-ih-tuh-NEE-ul di-AL-uh-sis) is a way to remove waste products from your blood when your kidneys can no longer do the job adequately. During peritoneal dialysis, blood vessels in your abdominal lining (peritoneum) fill in for your kidneys, with the help of a fluid (dialysate) that flows into and out of the peritoneal space. 
+&lt;/p&gt;
+&lt;p&gt;
+Peritoneal dialysis differs from hemodialysis, a more commonly used blood-filtering procedure. With peritoneal dialysis, you can give yourself treatments at home, at work or while traveling. You may be able to use fewer medications and eat a less restrictive diet than you can with hemodialysis. 
+&lt;/p&gt;
+&lt;p&gt;
+Peritoneal dialysis isn&apos;t an option for everyone with kidney failure. You need manual dexterity (or a reliable caregiver) and the ability to care for yourself at home. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing peritoneal dialysis 
+" Caption="During peritoneal dialysis, a cleansing fluid (dialysate) is circulated through a tube (catheter) inside part of your abdominal cavity (peritoneal cavity). The dialysate absorbs waste products from blood vessels in your abdominal lining (peritoneum) and then is drawn back out of your body and discarded. 
+" Height="60" Title="Peritoneal dialysis" URI="/images/image_popup/thumbs/mcdc7_peritoneal_dialysisthu.jpg" Width="60" />
+				<Image Alt="Image showing peritoneal dialysis 
+" Caption="During peritoneal dialysis, a cleansing fluid (dialysate) is circulated through a tube (catheter) inside part of your abdominal cavity (peritoneal cavity). The dialysate absorbs waste products from blood vessels in your abdominal lining (peritoneum) and then is drawn back out of your body and discarded. 
+" Height="302" Title="Peritoneal dialysis" URI="/images/image_popup/mcdc7_peritoneal_dialysis.jpg" Width="400" />
+				<HTML>
+					During peritoneal dialysis, a cleansing fluid (dialysate) is circulated through a tube (catheter) inside part of your abdominal cavity (peritoneal cavity). The dialysate absorbs waste products from ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peritoneal dialysis is often done to manage kidney failure until a kidney transplant is possible. Kidney failure itself usually results from a long-term (chronic) disease that causes kidney damage over a number of years. Common causes of kidney failure include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Kidney inflammation (glomerulonephritis)&lt;/li&gt;
+	&lt;li&gt;Blood vessel inflammation (vasculitis)&lt;/li&gt;
+	&lt;li&gt;Multiple cysts in the kidneys (polycystic kidney disease)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can help you decide which type of dialysis will work best for you and when you should start, based on several factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your overall health&lt;/li&gt;
+	&lt;li&gt;Your kidney function (as measured by blood and urine tests)&lt;/li&gt;
+	&lt;li&gt;Your personal preferences&lt;/li&gt;
+	&lt;li&gt;Your home situation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Peritoneal dialysis may be the better option if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You can&apos;t tolerate the rapid changes of fluid balance associated with hemodialysis. During hemodialysis, your blood is pumped into a machine to be filtered and then returned to your body.&lt;/li&gt;
+	&lt;li&gt;You want to minimize the disruption of your daily activities and work or travel more easily.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Peritoneal dialysis might not work for you if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have extensive surgical scars in your abdomen&lt;/li&gt;
+	&lt;li&gt;You have a limited ability to care for yourself or lack caregiving support at home&lt;/li&gt;
+	&lt;li&gt;You have inflammatory bowel disease or frequent bouts of diverticulitis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who require dialysis face a variety of serious health problems, including diseases that cause kidney failure as well as kidney failure itself. Dialysis prolongs life for many people, but life expectancy for those who need the procedure is still lower than that of the general population. 
+&lt;/p&gt;
+&lt;p&gt;
+The main complications of peritoneal dialysis are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; The most common problem for people receiving peritoneal dialysis is peritonitis, an infection of the lining of the abdominal cavity (peritoneum). An infection can also develop at the site where the tube (catheter) is inserted to carry the cleansing fluid into and out of your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight gain.&lt;/strong&gt; The fluid used to clean your blood in peritoneal dialysis contains sugar (dextrose). You may take in several hundred calories each day by absorbing some of this fluid, known as dialysate. The extra calories can also lead to high blood sugar if you have diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakening of the abdominal muscles (hernia).&lt;/strong&gt; Holding fluid in your abdomen for long periods may strain your belly muscles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you start peritoneal dialysis, you will receive training on what the procedure involves and how to use the equipment. You will need an operation to insert the catheter &amp;mdash; the thin, soft plastic tube that carries the dialysis solution in and out of your abdomen. You may receive local or general anesthetics for the insertion procedure. Usually the surgeon places the tube near your bellybutton. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will probably recommend waiting at least two weeks before starting treatment so that the catheter site has time to heal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In peritoneal dialysis, a sterile cleansing solution (dialysate) flows through the catheter into your abdomen. The solution stays in your abdomen for a prescribed period of time, known as dwell time. During this dwell time, waste, chemicals and extra fluid in your blood pass from tiny blood vessels (capillaries) in the lining of your abdominal cavity (peritoneum) into the dialysis solution. The solution contains a sugar that draws wastes and extra fluid through the capillaries in your peritoneum into your abdomen. Your belly may feel fuller than usual while the dialysis solution is there, but it&apos;s generally not uncomfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+When the dwell time is over, the solution, along with waste products drawn from your blood and any excess fluid, drain into a sterile collection bag. The process of filling and draining your abdomen is called an exchange. 
+&lt;/p&gt;
+&lt;p&gt;
+Different methods of peritoneal dialysis have different schedules of daily exchanges. The two main schedules are continuous ambulatory peritoneal dialysis (CAPD) and continuous cycling peritoneal dialysis (CCPD). Some people use a combination of both methods. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Continuous ambulatory peritoneal dialysis (CAPD)&lt;/strong&gt; &lt;br /&gt;
+With this form of peritoneal dialysis, you fill your abdomen with dialysis solution and later drain the fluid. Gravity moves the fluid through the tube and into and out of your belly. 
+&lt;/p&gt;
+&lt;p&gt;
+Each exchange includes filling your abdomen with dialysate fluid, letting the fluid dwell in your abdomen, then draining the fluid. You may need three to four exchanges during the day and one with a longer dwell time while you sleep. You can do the exchanges at home, work or any clean place. You&apos;re free to go about your normal activities while the dialysis solution dwells in your abdomen between exchanges. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Continuous cycling peritoneal dialysis (CCPD) &lt;/strong&gt;&lt;br /&gt;
+With CCPD, a machine called an automated cycler performs three to five exchanges at night while you sleep. The cycler automatically fills your abdomen with dialysis solution, allows it to dwell there, and then drains it to a sterile drainage bag that you empty in the morning. This gives you more flexibility during the day, but you must remain attached to the machine for 10 to 12 hours at night. In the morning, you begin one exchange with a dwell time that lasts the entire day. You&apos;re not connected to the machine during the day. 
+&lt;/p&gt;
+&lt;p&gt;
+Which form of peritoneal dialysis is best for you depends on your lifestyle, personal preferences and medical condition. You may also customize your program by combining the two forms. For instance, if you are using CCPD, you may do one extra exchange in the afternoon to remove more waste and prevent absorption of too much fluid. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing peritoneal dialysis 
+" Caption="During peritoneal dialysis, a cleansing fluid (dialysate) is circulated through a tube (catheter) inside part of your abdominal cavity (peritoneal cavity). The dialysate absorbs waste products from blood vessels in your abdominal lining (peritoneum) and then is drawn back out of your body and discarded. 
+" Height="60" Title="Peritoneal dialysis" URI="/images/image_popup/thumbs/mcdc7_peritoneal_dialysisthu.jpg" Width="60" />
+				<Image Alt="Image showing peritoneal dialysis 
+" Caption="During peritoneal dialysis, a cleansing fluid (dialysate) is circulated through a tube (catheter) inside part of your abdominal cavity (peritoneal cavity). The dialysate absorbs waste products from blood vessels in your abdominal lining (peritoneum) and then is drawn back out of your body and discarded. 
+" Height="302" Title="Peritoneal dialysis" URI="/images/image_popup/mcdc7_peritoneal_dialysis.jpg" Width="400" />
+				<HTML>
+					During peritoneal dialysis, a cleansing fluid (dialysate) is circulated through a tube (catheter) inside part of your abdominal cavity (peritoneal cavity). The dialysate absorbs waste products from ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many factors affect how well peritoneal dialysis works in removing wastes and extra fluid from your blood. These factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your size&lt;/li&gt;
+	&lt;li&gt;How quickly your peritoneum filters waste (peritoneal transport rate)&lt;/li&gt;
+	&lt;li&gt;How much dialysis solution you use (fill volume)&lt;/li&gt;
+	&lt;li&gt;The number of daily exchanges&lt;/li&gt;
+	&lt;li&gt;Length of dwell times&lt;/li&gt;
+	&lt;li&gt;The concentration of sugar (dextrose) in the dialysis solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care team will perform several tests to check if your dialysis is removing enough waste products. These tests are especially important during the first weeks of dialysis to determine whether you&apos;re receiving an adequate amount, or dose. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Peritoneal equilibration test (PET).&lt;/strong&gt; This test measures how much sugar has been absorbed from a bag of used dialysis solution and how much of two waste products &amp;mdash; urea and creatinine &amp;mdash; have entered into the solution during a four-hour exchange.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clearance test.&lt;/strong&gt; Samples of used dialysis solution and venous blood are collected to compare the amount of urea in the used solution with the amount in the blood. If you still produce urine, your doctor may take a urine sample at the same time to measure its urea concentration. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the test results show that your dialysis schedule is not removing enough wastes, your doctor may change your dialysis routine. This might involve changing the number of exchanges, increasing the amount of solution you use for each exchange or using a dialysis solution with a higher concentration of dextrose. 
+&lt;/p&gt;
+&lt;p&gt;
+You can improve your dialysis results and your overall health by eating the right foods, including foods low in sodium and phosphorus. A dietitian can help you develop an individualized meal plan based on your weight, your personal preferences, your remaining kidney function and other medical conditions, such as diabetes or high blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Taking your medications as prescribed also is important for achieving the best possible results. While you&apos;re receiving peritoneal dialysis, you&apos;ll likely need various medications to control your blood pressure, stimulate production of red blood cells, control the levels of certain nutrients in your blood and prevent the buildup of phosphorus in your blood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peritoneal dialysis
+	</Title>
+	<Abstract>
+		Peritoneal dialysis &amp;mdash; Overview covers definition, risks and results of this procedure to treat kidney failure.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

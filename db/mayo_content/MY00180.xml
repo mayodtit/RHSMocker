@@ -1,0 +1,236 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00180
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/psa-test/MY00180
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-19
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4114" Title="Prostate-specific antigen" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			31D8273B-E7FF-0DBD-1016DC7889CC529A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				PSA test
+			</MetaKeyword>
+			<MetaKeyword>
+				PSA levels
+			</MetaKeyword>
+			<MetaKeyword>
+				elevated PSA
+			</MetaKeyword>
+			<MetaKeyword>
+				PSA blood tests
+			</MetaKeyword>
+			<MetaKeyword>
+				PSA tests
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate-specific antigen
+			</MetaKeyword>
+			<MetaKeyword>
+				digital rectal exam
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The PSA test is used primarily to screen for prostate cancer. A PSA test measures the amount of prostate-specific antigen (PSA) in your blood. PSA is a protein produced in the prostate, a small gland that sits below a man&apos;s bladder. PSA is mostly found in semen, which also is produced in the prostate. Small amounts of PSA ordinarily circulate in the blood. 
+&lt;/p&gt;
+&lt;p&gt;
+The PSA test can detect high levels of PSA that may indicate the presence of prostate cancer. However, many other conditions, such as an enlarged or inflamed prostate, can also increase PSA levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Use of the PSA test is controversial. It&apos;s important to discuss with your doctor whether you should get a PSA test and what the results may mean. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostate cancer is the most common nonskin cancer in men, and it&apos;s the leading cause of cancer-related death in men. Early detection may be an important tool in getting appropriate and timely treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Men with prostate cancer may have elevated levels of PSA. But many noncancerous conditions can also increase a man&apos;s PSA level. Although the PSA test can detect high levels of PSA in the blood, the test doesn&apos;t provide precise diagnostic information about the condition of the prostate. 
+&lt;/p&gt;
+&lt;p&gt;
+The PSA test is only one tool used to screen for early signs of prostate cancer. Another common screening test, usually done in addition to a PSA test, is a digital rectal exam. In this test, your doctor inserts a lubricated, gloved finger into your rectum to reach the prostate. By feeling or pressing on the prostate, the doctor may be able to judge whether it has abnormal lumps or hard areas. 
+&lt;/p&gt;
+&lt;p&gt;
+Neither the PSA test nor the digital rectal exam provides enough information for your doctor to diagnose prostate cancer. Abnormal results in these tests may lead your doctor to order a prostate biopsy. During this procedure, samples of tissue are removed for laboratory examination. A diagnosis of cancer is based on the biopsy results. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other reasons for PSA tests&lt;/strong&gt; &lt;br /&gt;
+For men who have already been diagnosed with prostate cancer, the PSA test may be used to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Help decide if and when to begin treatment&lt;/li&gt;
+	&lt;li&gt;Judge the effectiveness of a treatment&lt;/li&gt;
+	&lt;li&gt;Check for recurring cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A PSA test is done by examining a blood sample in a laboratory. A nurse or medical technician will use a needle to draw blood from a vein, most likely in your arm. The site may be tender for a few hours, but you&apos;ll be able to resume most normal activities. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risks associated with a PSA test are related to what&apos;s done in response to the information you get from the test. In other words, does the expected benefit of knowing the results of a PSA test outweigh the potential risks of knowing? 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Expected benefit&lt;/strong&gt; &lt;br /&gt;
+You might think that any test indicating whether you might have cancer would be beneficial. Indeed, a PSA test can often detect prostate cancer at an early stage. 
+&lt;/p&gt;
+&lt;p&gt;
+But to judge the benefit of the test, it&apos;s important to know if early detection and early treatment will improve treatment outcomes and decrease the number of deaths from prostate cancer. Most experts argue that there isn&apos;t enough evidence to answer this question. 
+&lt;/p&gt;
+&lt;p&gt;
+A key issue is the typical course of prostate cancer. If all cases of prostate cancer progressed rapidly and caused poor health and death, then early detection clearly would be a good thing. However, prostate cancer usually progresses slowly over many years, and the majority of cases are diagnosed in men older than age 65. Therefore, a man may have prostate cancer that never causes symptoms or becomes a medical problem during his lifetime. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Limitations of the test&lt;/strong&gt; &lt;br /&gt;
+The limitations of the PSA test make it difficult to judge its benefits and risks. These limitations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;PSA-raising factors.&lt;/strong&gt; Besides cancer, other conditions that can raise PSA levels include an enlarged prostate (benign prostatic hyperplasia, or BPH) and an inflamed or infected prostate (prostatitis). Also, PSA levels normally increase with age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;PSA-lowering factors.&lt;/strong&gt; Medications to treat BPH and some dietary supplements taken for prostate health can lower PSA levels. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Misleading results.&lt;/strong&gt; The test doesn&apos;t always provide an accurate result. A positive result on a PSA test &amp;mdash; a PSA level high enough to suggest you may have cancer &amp;mdash; doesn&apos;t necessarily mean you have cancer. And some men with negative results are later diagnosed with prostate cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overdiagnosis.&lt;/strong&gt; Studies have estimated that between 29 and 44 percent of men with prostate cancer detected by PSA tests have tumors that wouldn&apos;t result in symptoms during their lifetimes. These symptom-free tumors are considered overdiagnoses &amp;mdash; identification of cancer not likely to cause poor health or to present a risk to the person&apos;s life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Potential risks&lt;/strong&gt; &lt;br /&gt;
+The potential risks of the PSA test relate to the choices you make based on the test results, such as the decision to undergo further testing and treatment for prostate cancer. The risks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy issues.&lt;/strong&gt; A biopsy is an expensive, invasive procedure that carries its own risks, including pain, bleeding and infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological effects.&lt;/strong&gt; False-positive test results &amp;mdash; high PSA levels but no cancer found with biopsy &amp;mdash; can produce a significant amount of anxiety or distress. You may be inclined to worry about whether the PSA test or the biopsy was correct. If you are diagnosed with prostate cancer, but it appears to be a slow-growing tumor that doesn&apos;t result in illness, you may experience significant anxiety just knowing it&apos;s there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Recommendations&lt;/strong&gt; &lt;br /&gt;
+A number of major professional organizations and government agencies have weighed in on the benefits and risks of PSA testing. The American Cancer Society, the American Urological Association, the American College of Preventive Medicine, the Centers for Disease Control and Prevention, and the U.S. Preventive Services Task Force all recognize the controversy surrounding screening with the PSA test and the lack of firm evidence that screening can prevent deaths from prostate cancer. Other points of agreement include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Screening needs to be an individualized decision.&lt;/strong&gt; All of the organizations recommend that doctors discuss the benefits and risks of PSA testing with men at a certain age or in high-risk groups. Doctors should help men make their own decisions about screening, based on age, risk factors, life expectancy and personal preferences.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older men generally don&apos;t need to be screened.&lt;/strong&gt; Most organizations recommend that screening isn&apos;t necessary for men age 75 and older or those who aren&apos;t expected to live more than 10 years. The American Urological Association advises that this decision should be made on an individual basis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Men at high risk should discuss screening at an earlier age.&lt;/strong&gt; Some groups recommend earlier discussions for men in high-risk groups &amp;mdash; those with a family history of prostate cancer and African-American men.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The American Cancer Society and the American College of Preventive Medicine recommend that doctors provide information about prostate cancer screening to men starting at age 50. These organizations also suggest that men in high-risk groups could benefit from this information at age 45 or 40, depending on their level of risk. 
+&lt;/p&gt;
+&lt;p&gt;
+The U.S. Preventive Services Task Force recommends against PSA-based screening for men who do not have symptoms that are highly suspicious for prostate cancer. The USPSTF states that PSA testing in healthy men, regardless of age, offers no net benefit or that the harms outweigh the benefits. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Urological Association recommends that men talk to their doctors about getting a baseline PSA test at age 40. This could help them determine when to screen in the future and to understand possible future risk and test results. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of PSA tests are reported as nanograms of PSA per milliliter of blood (ng/mL). There&apos;s no specific cutoff point between a normal and abnormal PSA level. Your doctor might recommend a prostate biopsy based on results of your PSA test and a digital rectal exam, along with other factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Variations of the PSA test&lt;/strong&gt; &lt;br /&gt;
+Your doctor may use other ways of interpreting PSA results before making decisions about ordering a biopsy to test for cancerous tissue. These other methods are intended to improve the accuracy of the PSA test as a screening tool. 
+&lt;/p&gt;
+&lt;p&gt;
+As with the standard PSA test, there&apos;s little clinical evidence that these variations on the PSA screening test improve treatment outcomes or decrease the number of deaths. Researchers continue investigating these strategies to determine whether they provide a measurable benefit. Variations of the PSA test include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;PSA velocity.&lt;/strong&gt; PSA velocity is the change in PSA levels over time. A rapid rise in PSA may indicate the presence of cancer or an aggressive form of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Percentage of free PSA.&lt;/strong&gt; PSA circulates in the blood in two forms &amp;mdash; either attached to certain blood proteins or unattached (free). If you have a high PSA level but a low percentage of free PSA, it may be more likely that you have prostate cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Talk to your doctor&lt;/strong&gt; &lt;br /&gt;
+Before getting a PSA test, talk to your doctor about the benefits and risks. If you decide that a PSA test is right for you, ask your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When you will discuss the results&lt;/li&gt;
+	&lt;li&gt;What kinds of recommendations he or she might make if the results are positive&lt;/li&gt;
+	&lt;li&gt;How often you should repeat the test if the results are negative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discussing these issues beforehand may make it easier for you to learn the results of your test and make appropriate decisions afterward. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		PSA test
+	</Title>
+	<Abstract>
+		PSA test &amp;mdash; Overview covers definition, risks, results of this test for signs of prostate cancer.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

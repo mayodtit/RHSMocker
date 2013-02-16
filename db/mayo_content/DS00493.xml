@@ -1,0 +1,306 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00493
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/plague/DS00493
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-28
+		</UpdateDate>
+		<PublicationDate>
+			2003-02-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2529" Title="Plague" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A20E533-E04E-4319-8398D78C67E606D7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				plague
+			</MetaKeyword>
+			<MetaKeyword>
+				bioterror
+			</MetaKeyword>
+			<MetaKeyword>
+				biological weapon
+			</MetaKeyword>
+			<MetaKeyword>
+				flea
+			</MetaKeyword>
+			<MetaKeyword>
+				bubonic
+			</MetaKeyword>
+			<MetaKeyword>
+				septicemic
+			</MetaKeyword>
+			<MetaKeyword>
+				pneumonic
+			</MetaKeyword>
+			<MetaKeyword>
+				bubo
+			</MetaKeyword>
+			<MetaKeyword>
+				Black Death
+			</MetaKeyword>
+			<MetaKeyword>
+				pestilence
+			</MetaKeyword>
+			<MetaKeyword>
+				Yersinia pestis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Plague was known as the Black Death during medieval times, when it killed up to a third of the population of Europe. Currently, plague occurs in fewer than 3,000 people per year worldwide. It can be deadly if not treated promptly with antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+The organism that causes plague, Yersinia pestis, lives in a variety of small rodents on every continent except Australia. The organism is transmitted to humans when they are bitten by fleas that have previously fed on infected rodents. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common form of plague results in swollen and tender lymph nodes &amp;mdash; called buboes &amp;mdash; in the groin, armpits or neck. The rarest and deadliest form of plague affects the lungs, and it can be spread from person to person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Plague is divided into three main types &amp;mdash; bubonic, septicemic and pneumonic &amp;mdash; depending on which part of your body is involved. Signs and symptoms vary depending on the type of plague. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bubonic plague&lt;/strong&gt; &lt;br /&gt;
+Bubonic plague is the most common variety of the disease. It&apos;s named after the buboes &amp;mdash; swollen lymph nodes &amp;mdash; which typically develop within a week after an infected flea bites you. Buboes may be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Located in the groin, armpit or neck&lt;/li&gt;
+	&lt;li&gt;About the size of a chicken egg&lt;/li&gt;
+	&lt;li&gt;Tender and warm to the touch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden onset of fever and chills&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fatigue or malaise&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Septicemic plague&lt;/strong&gt; &lt;br /&gt;
+Septicemic plague occurs when plague bacteria multiply in your bloodstream.&lt;em&gt; &lt;/em&gt;Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;Abdominal pain, diarrhea and vomiting&lt;/li&gt;
+	&lt;li&gt;Bleeding from your mouth, nose or rectum, or under your skin&lt;/li&gt;
+	&lt;li&gt;Shock&lt;/li&gt;
+	&lt;li&gt;Blackening and death of tissue (gangrene) in your extremities, most commonly your fingers, toes and nose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pneumonic plague&lt;/strong&gt; &lt;br /&gt;
+Pneumonic plague affects the lungs. It&apos;s the least common variety of plague but the most dangerous, because it can be spread from person to person via cough droplets. Signs and symptoms can begin within a few hours after infection, and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cough, with bloody sputum&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pneumonic plague progresses rapidly and may cause respiratory failure and shock within two days of infection. If antibiotic treatment isn&apos;t initiated within a day after signs and symptoms first appear, the infection is likely to be fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek immediate medical attention if you begin to feel ill and have been in an area where plague has been known to occur. This includes parts of several states in the western portion of the United States &amp;mdash; primarily New Mexico, Arizona and Colorado. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The plague bacteria, Yersinia pestis, is transmitted to humans when they are bitten by fleas that have previously fed on infected animals, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rats&lt;/li&gt;
+	&lt;li&gt;Squirrels&lt;/li&gt;
+	&lt;li&gt;Rabbits&lt;/li&gt;
+	&lt;li&gt;Prairie dogs&lt;/li&gt;
+	&lt;li&gt;Chipmunks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The bacteria can also enter your body if you have a break in your skin that comes into contact with an infected animal&apos;s blood. Domestic cats can become infected with plague from flea bites or from eating infected rodents. 
+&lt;/p&gt;
+&lt;p&gt;
+Pneumonic plague, which affects the lungs, is spread by inhaling infectious droplets coughed into the air by a sick animal or person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk of developing plaque is very low. Worldwide, only a few thousand people develop plague each year. However, your risk of plague can be increased by where you live and travel, your occupation, and even by some of your hobbies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Location&lt;/strong&gt; &lt;br /&gt;
+Plague outbreaks are most common in rural areas and in urban areas characterized by overcrowding, poor sanitation and a high rat population. 
+&lt;/p&gt;
+&lt;p&gt;
+The greatest number of human plague infections occurs in Africa. But the largest concentration of infected animals is in the United States &amp;mdash; particularly in New Mexico, Arizona and Colorado &amp;mdash; and in the former Soviet Union. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Occupation&lt;/strong&gt; &lt;br /&gt;
+Veterinarians and their assistants have a higher risk of coming into contact with domestic cats that may have become infected with plague. Also at higher risk are people who work outdoors in areas where plague-infested animals are common. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hobbies&lt;/strong&gt; &lt;br /&gt;
+Camping, hunting or hiking in areas where plague-infected animals reside can increase your risk of being bitten by an infected flea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of plague may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; Most people who receive prompt antibiotic treatment survive plague. Untreated plague has a fatality rate over 50 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gangrene.&lt;/strong&gt; Blood clots in the tiny blood vessels of your fingers and toes can disrupt the flow of blood and cause that tissue to die. The portions of your fingers and toes that have died may need to be amputated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meningitis.&lt;/strong&gt; Rarely, plague may cause meningitis, an inflammation of the membranes surrounding your brain and spinal cord. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by going to an emergency room. You may eventually need to see a doctor specializing in infectious disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+If you have respiratory symptoms, you may need to wear a surgical mask to your appointment to help prevent spreading the disease to others. You also might want to write a list answering the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms do you have and when did they begin?&lt;/li&gt;
+	&lt;li&gt;Does any activity make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently to a locale where plague is common?&lt;/li&gt;
+	&lt;li&gt;What drugs and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects plague, he or she may look for the Yersinia pestis bacteria in samples taken from your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Buboes.&lt;/strong&gt; If you have the swollen lymph nodes (buboes) characteristic of bubonic plague, a fluid sample can be taken from them with a needle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood.&lt;/strong&gt; Yersinia pestis bacteria generally are present in your bloodstream only if you have septicemic plague.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lungs.&lt;/strong&gt; To check for pneumonic plague, fluid is extracted from your airways using endoscopy &amp;mdash; a thin, flexible tube inserted through your nose or mouth and down your throat.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+As soon as your doctor suspects that you have plague, you&apos;ll need to be admitted to an isolation room in a hospital. There, you&apos;ll receive powerful antibiotics, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Streptomycin&lt;/li&gt;
+	&lt;li&gt;Gentamicin&lt;/li&gt;
+	&lt;li&gt;Doxycycline (Vibramycin)&lt;/li&gt;
+	&lt;li&gt;Ciprofloxacin (Cipro)&lt;/li&gt;
+	&lt;li&gt;Chloramphenicol&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although no effective vaccine is available, antibiotics can help prevent infection if you&apos;re at risk of or have been exposed to plague. Take the following precautions if you live or spend time in regions where plague outbreaks occur: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rodent-proof your home.&lt;/strong&gt; Remove potential nesting areas, such as piles of brush, rock, firewood and junk. Don&apos;t leave pet food in areas that rodents can easily access.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your pets free of fleas. &lt;/strong&gt;Ask your veterinarian which flea-control products will work best.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use insect repellent.&lt;/strong&gt; Closely supervise your children and pets when spending time outside in areas with large rodent populations. Use insect repellent.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Plague
+	</Title>
+	<Abstract>
+		Plague &amp;mdash; Comprehensive overview covers symptoms, treatment of this extremely rare, potentially fatal infectious disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00422" LinkType="Internal" ObjectID="8C309507-1B2A-455D-8E0C16E2A63EF3A4" Title="Anthrax" Url="http://www.mayoclinic.com/health/anthrax/DS00422" />
+	</RelatedLinksBox>
+</Disease>

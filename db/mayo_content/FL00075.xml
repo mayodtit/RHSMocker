@@ -1,0 +1,198 @@
+<Article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Article.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Article
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FL00075
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/antibiotics/FL00075
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-04
+		</UpdateDate>
+		<PublicationDate>
+			2002-02-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="2291" Title="Medications" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3277" Title="Fall" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			64AA7229-F0B8-4A77-9693F821552DF9D9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				antibiotic
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic resistance
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic resistant bacteria
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic misuse
+			</MetaKeyword>
+			<MetaKeyword>
+				superbug
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+If you think antibiotic resistance isn&apos;t a problem or doesn&apos;t affect you, think again. A prominent example of the dangers of antibiotic resistance is the spread of methicillin-resistant Staphylococcus aureus (MRSA). MRSA was once a concern only for people in the hospital, but a newer form of MRSA is causing infections in healthy people in the community.
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotic resistance occurs when antibiotics no longer work against disease-causing bacteria. These infections are difficult to treat and can mean longer lasting illnesses, more doctor visits or extended hospital stays, and the need for more expensive and toxic medications. Some resistant infections can even cause death.
+&lt;/p&gt;
+&lt;p&gt;
+Although experts are working to develop new antibiotics and other treatments to keep pace with antibiotic-resistant strains of bacteria, infectious organisms can adapt quickly. Antibiotic-resistant bacteria will continue to be a global health concern &amp;mdash; and using antibiotics wisely is important for preventing their spread.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				When is it appropriate to use antibiotics?
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antibiotics are effective against bacterial infections, certain fungal infections and some kinds of parasites. Antibiotics don&apos;t work against viruses. The chart shows common illnesses and whether they&apos;re caused by bacteria or viruses. Taking an antibiotic when you have a viral infection won&apos;t make you feel better &amp;mdash; and can contribute to antibiotic resistance.
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;50%&quot;&gt;Bacterial infections&lt;/th&gt;&lt;th width=&quot;50%&quot;&gt;Viral infections&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Bladder infections&lt;/li&gt;
+				&lt;li&gt;Many wound and skin infections, such as staph infections&lt;/li&gt;
+				&lt;li&gt;Severe sinus infections that last longer than 2 weeks&lt;/li&gt;
+				&lt;li&gt;Some ear infections&lt;/li&gt;
+				&lt;li&gt;Strep throat&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Bronchitis&lt;/li&gt;
+				&lt;li&gt;Colds&lt;/li&gt;
+				&lt;li&gt;Flu (influenza)&lt;/li&gt;
+				&lt;li&gt;Most coughs&lt;/li&gt;
+				&lt;li&gt;Most ear infections&lt;/li&gt;
+				&lt;li&gt;Most sore throats&lt;/li&gt;
+				&lt;li&gt;Stomach flu (viral gastroenteritis)&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Consequences of antibiotic misuse
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If antibiotics are used too often for things they can&apos;t treat &amp;mdash; like colds, flu or other viral infections &amp;mdash; not only are they of no benefit, they become less effective against the bacteria they&apos;re intended to treat.
+&lt;/p&gt;
+&lt;p&gt;
+Not taking antibiotics exactly as prescribed also leads to problems. For example, if you take an antibiotic for only a few days &amp;mdash; instead of the full course &amp;mdash; the antibiotic may wipe out some, but not all, of the bacteria. The surviving bacteria become more resistant and can be spread to other people. When bacteria become resistant to first line treatments, the risk of complications and death is increased.
+&lt;/p&gt;
+&lt;p&gt;
+The failure of first line antibiotics also means that doctors have to resort to less conventional medications, many of which are more costly and associated with more-serious side effects. For instance, the drugs needed to treat drug-resistant forms of tuberculosis (TB) are much more expensive than are the drugs used to treat nonresistant TB. The course of treatment is long &amp;mdash; up to two years &amp;mdash; and the side effects can be severe.
+&lt;/p&gt;
+&lt;p&gt;
+Other consequences are the increased costs associated with prolonged illnesses, including expenses for additional tests, treatments and hospitalization, and indirect costs, such as lost income.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can do to safeguard antibiotic effectiveness
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Repeated and improper use of antibiotics is the primary cause of the increase in the number of drug-resistant bacteria. Here&apos;s what you can do to promote proper use of antibiotics:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Understand when antibiotics should be used.&lt;/strong&gt; Don&apos;t expect to take antibiotics every time you&apos;re sick. Antibiotics are effective in treating most bacterial infections, but they&apos;re not useful against viral infections, such as colds, acute bronchitis or the flu. And even some common bacterial ailments, such as mild ear infections, don&apos;t benefit much from antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t pressure your doctor for antibiotics if you have a viral illness.&lt;/strong&gt; Instead, talk with your doctor about ways to relieve your symptoms &amp;mdash; for instance, a saline nasal spray to clear a stuffy nose or a mixture of warm water, lemon and honey to temporarily soothe a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take antibiotics exactly as prescribed.&lt;/strong&gt; Follow your doctor&apos;s instructions when taking medication. Don&apos;t stop treatment a few days early because you&apos;re feeling better. Taking the full course of antibiotics is the only way to kill all of the harmful bacteria. A shortened course of antibiotics, on the other hand, often wipes out only the most vulnerable bacteria while allowing relatively resistant bacteria to survive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Never take antibiotics without a prescription.&lt;/strong&gt; If you didn&apos;t complete a full course of antibiotics, you might be tempted to use the leftover medication the next time you get sick or to pass it along to someone else. But this isn&apos;t a good idea. For one thing, the antibiotic might not be appropriate for another illness. And even if it is, you&apos;re not likely to have enough pills to combat the germs making you sick, which can lead to more resistant bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent the spread of germs.&lt;/strong&gt; Good hygiene goes a long way in preventing infection. Wash your hands thoroughly with soap and water, especially after using the toilet, changing a diaper, or handling raw meat or poultry. Keep food preparation areas clean. Although special antibacterial cleaners and soap are widely available, they aren&apos;t necessary. Plain soap and water work fine to kill germs in most settings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get recommended vaccinations.&lt;/strong&gt; Ask your doctor if you have all of the vaccinations you need to protect yourself from illness. Getting vaccinated will help prevent having to take more medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Protect yourself and others
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antibiotic resistance is a global health problem. Nearly all significant bacterial infections in the world are becoming resistant to commonly used antibiotics. When you misuse antibiotics, you help create resistant microorganisms that can cause new and hard-to-treat infections. That&apos;s why the decisions you make about using antibiotics &amp;mdash; unlike almost any other medicine you take &amp;mdash; have far-reaching consequences. Be responsible in how you use antibiotics to protect your health and that of your family, neighbors and community.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Antibiotics: Misuse puts you and others at risk
+	</Title>
+	<Abstract>
+		Antibiotic misuse creates antibiotic-resistant germs. Protect yourself and others by using antibiotics wisely.
+	</Abstract>
+	<BenefitSummary>
+		Antibiotics can be lifesavers, but misuse has increased the number of drug-resistant germs. See how this affects you and what you can do to help prevent antibiotic resistance.
+	</BenefitSummary>
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02074" LinkType="Internal" ObjectID="DCF0D3E1-00D4-D3D6-A2BDDFE05BBEA4C2" Title="Mild depression: Are antidepressants effective?" Url="http://www.mayoclinic.com/health/mild-depression/AN02074" />
+		<LinkItem ContentType="Answer" DocID="AN01133" LinkType="Internal" ObjectID="6E39FA1F-FE8B-42DA-A77BBE5A0A8CF2EE" Title="Bioidentical hormones: Are they safer?" Url="http://www.mayoclinic.com/health/bioidentical-hormones/AN01133" />
+		<LinkItem ContentType="Answer" DocID="AN01467" LinkType="Internal" ObjectID="52A9B9F4-E7FF-0DBD-15D383AF16C11258" Title="Aspirin allergy: What are the symptoms?" Url="http://www.mayoclinic.com/health/aspirin-allergy/AN01467" />
+		<LinkItem ContentType="Answer" DocID="AN01802" LinkType="Internal" ObjectID="E64123F9-E7FF-0DBD-1247D84BB1F8E00B" Title="Antibiotics and alcohol: Should I avoid mixing them?" Url="http://www.mayoclinic.com/health/antibiotics-and-alcohol/AN01802" />
+		<LinkItem ContentType="Answer" DocID="AN00413" LinkType="Internal" ObjectID="030B3A25-E0B9-450A-BE55A9860E9889A9" Title="Grapefruit juice: Beware of dangerous medication interactions" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN00413" />
+		<LinkItem ContentType="Article" DocID="MY00815" LinkType="Internal" ObjectID="E0FA8565-E838-D404-52F31954617F14D0" Title="Medication errors: Cut your risk with these tips" Url="http://www.mayoclinic.com/health/medication-errors/MY00815" />
+		<LinkItem ContentType="Article" DocID="GA00042" LinkType="Internal" ObjectID="742D94B4-5542-4838-9BEDE54E3B724547" Title="Buying prescription drugs online: The do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/buying-prescription-drugs-online/GA00042" />
+		<LinkItem ContentType="Article" DocID="CA00078" LinkType="Internal" ObjectID="15DD2F80-E7FF-0DBD-1316BAAC79E66563" Title="Personalized medicine and pharmacogenomics" Url="http://www.mayoclinic.com/health/personalized-medicine/CA00078" />
+	</RelatedLinksBox>
+</Article>

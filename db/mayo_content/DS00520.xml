@@ -1,0 +1,357 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00520
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bone-cancer/DS00520
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-10
+		</UpdateDate>
+		<PublicationDate>
+			2004-01-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2292" Title="Bone cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5F5CBD5A-1B96-4D75-B96779927D91894E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bone cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				sarcoma
+			</MetaKeyword>
+			<MetaKeyword>
+				osteosarcoma
+			</MetaKeyword>
+			<MetaKeyword>
+				chondrosarcoma
+			</MetaKeyword>
+			<MetaKeyword>
+				Ewing&apos;s sarcoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone cancer is an uncommon cancer that begins in a bone. Bone cancer can begin in any bone in the body, but it most commonly affects the long bones that make up the arms and legs. 
+&lt;/p&gt;
+&lt;p&gt;
+Several types of bone cancer exist. Some types of bone cancer occur primarily in children, while others affect mostly adults. 
+&lt;/p&gt;
+&lt;p&gt;
+The term &quot;bone cancer&quot; doesn&apos;t include cancers that begin elsewhere in the body and spread (metastasize) to the bone. Instead, those cancers are named for where they began, such as breast cancer that has metastasized to the bone. Bone cancer also doesn&apos;t include blood cell cancers, such as multiple myeloma and leukemia, that begin in the bone marrow &amp;mdash; the jelly-like material inside the bone where blood cells are made. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing osteosarcoma 
+" Caption="Osteosarcoma is a type of bone cancer that begins in the cells that form the bone. Osteosarcoma occurs most often in the long bones of the arms and legs. 
+" Height="60" Title="Osteosarcoma" URI="/images/image_popup/thumbs/mcdc7_osteosarcomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing osteosarcoma 
+" Caption="Osteosarcoma is a type of bone cancer that begins in the cells that form the bone. Osteosarcoma occurs most often in the long bones of the arms and legs. 
+" Height="338" Title="Osteosarcoma" URI="/images/image_popup/mcdc7_osteosarcoma.jpg" Width="400" />
+				<HTML>
+					Osteosarcoma is a type of bone cancer that begins in the cells that form the bone. Osteosarcoma occurs most often in the long bones of the arms and legs. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Ewing&apos;s sarcoma 
+" Caption="Ewing&apos;s sarcoma is a type of bone cancer that most commonly affects children and young adults. 
+" Height="60" Title="Ewing&apos;s sarcoma" URI="/images/image_popup/thumbs/mcdc7_ewings_sarcomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing Ewing&apos;s sarcoma 
+" Caption="Ewing&apos;s sarcoma is a type of bone cancer that most commonly affects children and young adults. 
+" Height="339" Title="Ewing&apos;s sarcoma" URI="/images/image_popup/mcdc7_ewings_sarcoma.jpg" Width="400" />
+				<HTML>
+					Ewing&apos;s sarcoma is a type of bone cancer that most commonly affects children and young adults. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of bone cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone pain&lt;/li&gt;
+	&lt;li&gt;Swelling and tenderness near the affected area&lt;/li&gt;
+	&lt;li&gt;Broken bone&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Unintended weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you or your child develops signs and symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes most bone cancers. Doctors know bone cancer begins as an error in a cell&apos;s DNA. The error tells the cell to grow and divide in an uncontrolled way. These cells go on living, rather than dying at a set time. The accumulating mutated cells form a mass (tumor) that can invade nearby structures or spread to other areas of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of bone cancer&lt;/strong&gt; &lt;br /&gt;
+Bone cancers are broken down into separate types based on the type of cell where the cancer began. The most common types of bone cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteosarcoma.&lt;/strong&gt; Osteosarcoma begins in the bone cells. Osteosarcoma occurs most often in children and young adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chondrosarcoma.&lt;/strong&gt; Chondrosarcoma begins in cartilage cells that are commonly found on the ends of bones. Chondrosarcoma most commonly affects older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ewing&lt;/strong&gt;&lt;strong&gt;&apos;s sarcoma.&lt;/strong&gt; It&apos;s not clear where in bone Ewing&apos;s sarcoma begins. Scientists believe Ewing&apos;s sarcoma may begin in nerve tissue within the bone. Ewing&apos;s sarcoma occurs most often in children and young adults.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing osteosarcoma 
+" Caption="Osteosarcoma is a type of bone cancer that begins in the cells that form the bone. Osteosarcoma occurs most often in the long bones of the arms and legs. 
+" Height="60" Title="Osteosarcoma" URI="/images/image_popup/thumbs/mcdc7_osteosarcomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing osteosarcoma 
+" Caption="Osteosarcoma is a type of bone cancer that begins in the cells that form the bone. Osteosarcoma occurs most often in the long bones of the arms and legs. 
+" Height="338" Title="Osteosarcoma" URI="/images/image_popup/mcdc7_osteosarcoma.jpg" Width="400" />
+				<HTML>
+					Osteosarcoma is a type of bone cancer that begins in the cells that form the bone. Osteosarcoma occurs most often in the long bones of the arms and legs. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Ewing&apos;s sarcoma 
+" Caption="Ewing&apos;s sarcoma is a type of bone cancer that most commonly affects children and young adults. 
+" Height="60" Title="Ewing&apos;s sarcoma" URI="/images/image_popup/thumbs/mcdc7_ewings_sarcomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing Ewing&apos;s sarcoma 
+" Caption="Ewing&apos;s sarcoma is a type of bone cancer that most commonly affects children and young adults. 
+" Height="339" Title="Ewing&apos;s sarcoma" URI="/images/image_popup/mcdc7_ewings_sarcoma.jpg" Width="400" />
+				<HTML>
+					Ewing&apos;s sarcoma is a type of bone cancer that most commonly affects children and young adults. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes bone cancer, but doctors have found certain factors are associated with an increased risk, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited genetic syndromes.&lt;/strong&gt; Certain rare genetic syndromes passed through families increase the risk of bone cancer, including Li-Fraumeni syndrome and hereditary retinoblastoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Paget&apos;s disease of bone.&lt;/strong&gt; This precancerous condition that affects older adults increases the risk of bone cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy for cancer.&lt;/strong&gt; Exposure to large doses of radiation, such as those given during radiation therapy for cancer, increases the risk of bone cancer in the future.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have any signs and symptoms that worry you, start by making an appointment with your family doctor or a general practitioner. If your doctor suspects you may have bone cancer, you may be referred to a specialist. Bone cancer is often treated by a team of specialists that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Orthopedic surgeons who specialize in operating on cancers that affect the bones (orthopedic oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who specialize in treating cancer, often with chemotherapy (oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who use radiation to treat cancer (radiation oncologists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For bone cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of bone cancer do I have?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my bone cancer?&lt;/li&gt;
+	&lt;li&gt;What is the grade of my bone cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need any additional tests?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for my bone cancer?&lt;/li&gt;
+	&lt;li&gt;What are the chances that treatment will cure my bone cancer?&lt;/li&gt;
+	&lt;li&gt;What are the side effects and risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Will treatment make it impossible for me to have children?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How will cancer treatments affect my other conditions?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment that you think is best for me?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;If I would like a second opinion, can you recommend a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; &lt;br /&gt;
+What imaging tests you undergo depends on your situation. Your doctor may recommend one or more imaging tests to evaluate the area of concern, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone scan&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT)&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+	&lt;li&gt;Positron emission tomography (PET)&lt;/li&gt;
+	&lt;li&gt;X-ray&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Removing a sample of tissue for laboratory testing&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend a procedure to remove (biopsy) a sample of tissue from the tumor for laboratory testing. Testing can tell your doctor whether the tissue is cancerous and, if so, what type of cancer you have. Testing may also reveal the cancer&apos;s grade, which helps doctors understand how aggressive the cancer may be. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of biopsy procedures used to diagnose bone cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inserting a needle through your skin and into a tumor.&lt;/strong&gt; During a needle biopsy, your doctor inserts a thin needle through your skin and guides it into the tumor. The needle is used to remove small pieces of tissue from the tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove a tissue sample for testing.&lt;/strong&gt; During a surgical biopsy, your doctor makes an incision through your skin and removes either the entire tumor (excisional biopsy) or a portion of the tumor (incisional biopsy).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Determining the type of biopsy you need and the particulars of how it should be performed requires careful planning by your medical team. Doctors need to perform the biopsy in a way that won&apos;t interfere with future surgery to remove bone cancer. For this reason, ask your doctor for a referral to an appropriate surgeon before your biopsy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to determine the extent (stage) of the bone cancer&lt;/strong&gt; &lt;br /&gt;
+Once your doctor diagnoses your bone cancer, he or she works to determine the extent (stage) of your cancer. The cancer&apos;s stage guides your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+Stages of bone cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; At this stage, bone cancer is limited to the bone and hasn&apos;t spread to other areas of the body. After biopsy testing, cancer at this stage is considered low grade and not aggressive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; This stage of bone cancer is limited to the bone and hasn&apos;t spread to other areas of the body. But biopsy testing reveals the bone cancer is high grade and considered aggressive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; At this stage, bone cancer occurs in two or more places on the same bone. Biopsy testing shows this bone cancer is high grade and considered aggressive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; This stage of bone cancer indicates that cancer has spread beyond the bone to other areas of the body, such as the brain, liver or lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment options for your bone cancer are based on the type of cancer you have, the stage of the cancer, your overall health and your preferences. Bone cancer treatment typically involves surgery, chemotherapy, radiation or a combination of treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+The goal of surgery is to remove the entire bone cancer. To accomplish this, doctors remove the tumor and a small portion of healthy tissue that surrounds it. Types of surgery used to treat bone cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove a limb.&lt;/strong&gt; Bone cancers that are large or located in a complicated point on the bone may require surgery to remove all or part of a limb (amputation). As other treatments have been developed, this procedure is becoming less common. You&apos;ll likely be fitted with an artificial limb after surgery and will go through training to learn to do everyday tasks using your new limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the cancer, but spare the limb.&lt;/strong&gt; If a bone cancer can be separated from nerves and other tissue, the surgeon may be able to remove the bone cancer and spare the limb. Since some of the bone is removed with the cancer, the surgeon replaces the lost bone with some bone from another area of your body or with a special metal prosthesis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery for cancer that doesn&apos;t affect the limbs.&lt;/strong&gt; If bone cancer occurs in bones other than those of the arms and legs, surgeons may remove the bone and some surrounding tissue, such as in cancer that affects a rib, or may remove the cancer while preserving as much of the bone as possible, such as in cancer that affects the spine. Bone removed during surgery can be replaced with a piece of bone from another area of the body or with a special metal prosthesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt;&lt;br /&gt;
+Radiation therapy uses high-powered beams of energy, such as X-rays, to kill cancer cells. During radiation therapy, you lie on a table while a special machine moves around you and aims the energy beams at precise points on your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy may be used in people with bone cancer that can&apos;t be removed with surgery. Radiation therapy may also be used after surgery to kill any cancer cells that may be left behind. For people with advanced bone cancer, radiation therapy may help control signs and symptoms, such as pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy is a drug treatment that uses chemicals to kill cancer cells. Chemotherapy is most often given through a vein (intravenously). The chemotherapy medications travel throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy alone or combined with radiation therapy is often used before surgery to shrink a bone cancer to a more manageable size that allows the surgeon to perform a limb-sparing surgery. Chemotherapy may also be used in people with bone cancer that has spread beyond the bone to other areas of the body. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of cancer, whether yours or your child&apos;s, presents big challenges. Remember that no matter what your concerns or the prognosis, there are resources and strategies that may make dealing with cancer easier. Here are some suggestions for coping: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough to make decisions about your treatment.&lt;/strong&gt; Find out more about bone cancer so that you can feel more comfortable as you make decisions about your treatment. Ask your doctor to write down the type and stage of your cancer, as well as the names of the treatments being recommended. Ask your health care team to recommend reliable sources of information. The National Cancer Institute answers questions from the public over the phone at 800-4-CANCER (800-422-6237). Or contact the American Cancer Society at 800-ACS-2345 (800-227-2345).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other people in your situation.&lt;/strong&gt; The concern and understanding of a formal support group or of others coping with their own cancer or that of their child can be helpful. Support groups can be good sources for practical information. You may also develop deep and lasting bonds with people who are going through the same things you are. Ask your doctor about support groups in your area. Or try online message boards, such as those run by the American Cancer Society&apos;s Cancer Survivors Network or the National Childhood Cancer Foundation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help you manage the stress and fatigue of cancer. Also, plan ahead for the times when you may need to rest more or limit what you do. If your child has cancer, one of the most important things you can do is take care of yourself. As a caregiver, you need to have the strength and emotional reserves to meet your child&apos;s needs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Having cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. It&apos;s important to stay involved as much as you can. If your child has cancer, try to keep his or her life as normal as possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Look for a connection to something beyond yourself.&lt;/strong&gt; Having a strong faith or a sense of something greater than yourself may help you successfully cope with cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bone cancer
+	</Title>
+	<Abstract>
+		Bone cancer &amp;mdash; Comprehensive overview covers signs, symptoms, causes, treatment of primary bone cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01550" LinkType="Internal" ObjectID="5AC3F0F4-E7FF-0DBD-13037F09246895B5" Title="Hip resurfacing: An alternative to conventional hip replacement?" Url="http://www.mayoclinic.com/health/hip-resurfacing/AN01550" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+	</RelatedLinksBox>
+</Disease>

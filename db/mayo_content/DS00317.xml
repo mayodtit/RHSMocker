@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00317
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/athletes-foot/DS00317
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-23
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2982" Title="Fungal skin infections">
+							<Keyword MCVID="2984" Title="Athlete&apos;s foot" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7469E5E7-F7D5-424F-A2552E60CC67C2FF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				athlete&apos;s foot
+			</MetaKeyword>
+			<MetaKeyword>
+				athletes foot
+			</MetaKeyword>
+			<MetaKeyword>
+				athelete&apos;s foot
+			</MetaKeyword>
+			<MetaKeyword>
+				atheletes foot
+			</MetaKeyword>
+			<MetaKeyword>
+				athlete foot
+			</MetaKeyword>
+			<MetaKeyword>
+				tinea pedis
+			</MetaKeyword>
+			<MetaKeyword>
+				toe fungus
+			</MetaKeyword>
+			<MetaKeyword>
+				foot fungus
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal skin infection
+			</MetaKeyword>
+			<MetaKeyword>
+				ringworm of the foot
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy feet
+			</MetaKeyword>
+			<MetaKeyword>
+				itching feet
+			</MetaKeyword>
+			<MetaKeyword>
+				foot rash
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Athlete&apos;s foot is a fungal infection that develops in the moist areas between your toes and sometimes on other parts of your foot. Athlete&apos;s foot usually causes itching, stinging and burning. 
+&lt;/p&gt;
+&lt;p&gt;
+Athlete&apos;s foot, also called tinea pedis, is the most common type of fungal infection. It&apos;s closely related to other fungal infections such as ringworm and jock itch. Although contagious, athlete&apos;s foot often can be treated with over-the-counter antifungal medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of athlete&apos;s foot
+" Caption="Athlete&apos;s foot can cause itching, stinging and burning between your toes. It may also cause cracking, peeling skin. 
+" Height="60" Title="Athlete&apos;s foot (toes)" URI="/images/image_popup/thumbs/sn7_athletesfootthu.jpg" Width="60" />
+				<Image Alt="Image of athlete&apos;s foot
+" Caption="Athlete&apos;s foot can cause itching, stinging and burning between your toes. It may also cause cracking, peeling skin. 
+" Height="226" Title="Athlete&apos;s foot (toes)" URI="/images/image_popup/sn7_athletesfoot.jpg" Width="400" />
+				<HTML>
+					Athlete&apos;s foot can cause itching, stinging and burning between your toes. It may also cause cracking, peeling skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of athlete&apos;s foot 
+" Caption="Athlete&apos;s foot can cause cracking, peeling or excessive dryness on the bottoms or sides of the feet. 
+" Height="60" Title="Athlete&apos;s foot (side of foot)" URI="/images/image_popup/thumbs/sn7_athletes_foot_2thu.jpg" Width="60" />
+				<Image Alt="Image of athlete&apos;s foot 
+" Caption="Athlete&apos;s foot can cause cracking, peeling or excessive dryness on the bottoms or sides of the feet. 
+" Height="264" Title="Athlete&apos;s foot (side of foot)" URI="/images/image_popup/sn7_athletes_foot_2.jpg" Width="400" />
+				<HTML>
+					Athlete&apos;s foot can cause cracking, peeling or excessive dryness on the bottoms or sides of the feet. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of athlete&apos;s foot can be numerous, although you probably won&apos;t have all of them. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching, stinging and burning between your toes&lt;/li&gt;
+	&lt;li&gt;Itching, stinging and burning on the soles of your feet&lt;/li&gt;
+	&lt;li&gt;Itchy blisters&lt;/li&gt;
+	&lt;li&gt;Cracking and peeling skin, especially between your toes and on the soles of your feet&lt;/li&gt;
+	&lt;li&gt;Excessive dryness of the skin on the bottoms or sides of the feet&lt;/li&gt;
+	&lt;li&gt;Toenails that are thick, crumbly, ragged, discolored or pulling away from the nail bed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Onychomycosis &amp;mdash; a fungal infection of the nail &amp;mdash; may develop with or without other signs and symptoms of athlete&apos;s foot.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have a rash on your foot that doesn&apos;t improve or worsens after you&apos;ve followed home and lifestyle remedies, see your doctor. See your doctor sooner if you notice excessive redness, swelling, drainage or fever, or if you have diabetes and suspect you have athlete&apos;s foot.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of athlete&apos;s foot
+" Caption="Athlete&apos;s foot can cause itching, stinging and burning between your toes. It may also cause cracking, peeling skin. 
+" Height="60" Title="Athlete&apos;s foot (toes)" URI="/images/image_popup/thumbs/sn7_athletesfootthu.jpg" Width="60" />
+				<Image Alt="Image of athlete&apos;s foot
+" Caption="Athlete&apos;s foot can cause itching, stinging and burning between your toes. It may also cause cracking, peeling skin. 
+" Height="226" Title="Athlete&apos;s foot (toes)" URI="/images/image_popup/sn7_athletesfoot.jpg" Width="400" />
+				<HTML>
+					Athlete&apos;s foot can cause itching, stinging and burning between your toes. It may also cause cracking, peeling skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of athlete&apos;s foot 
+" Caption="Athlete&apos;s foot can cause cracking, peeling or excessive dryness on the bottoms or sides of the feet. 
+" Height="60" Title="Athlete&apos;s foot (side of foot)" URI="/images/image_popup/thumbs/sn7_athletes_foot_2thu.jpg" Width="60" />
+				<Image Alt="Image of athlete&apos;s foot 
+" Caption="Athlete&apos;s foot can cause cracking, peeling or excessive dryness on the bottoms or sides of the feet. 
+" Height="264" Title="Athlete&apos;s foot (side of foot)" URI="/images/image_popup/sn7_athletes_foot_2.jpg" Width="400" />
+				<HTML>
+					Athlete&apos;s foot can cause cracking, peeling or excessive dryness on the bottoms or sides of the feet. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Athlete&apos;s foot is closely related to other fungal infections, including ringworm and jock itch. A group of mold-like fungi called dermatophytes causes these infections. These microscopic organisms are normal inhabitants of your skin, and their growth stays in check as long as your skin is clean and dry. However, dematophytes thrive in damp, close environments.
+&lt;/p&gt;
+&lt;p&gt;
+Athlete&apos;s foot thrives in thick, tight shoes that squeeze the toes together and create warm, moist areas between them. Damp socks and shoes and warm, humid conditions also favor the organisms&apos; growth. Plastic shoes, in particular, provide a welcoming environment for fungal growth and infection.
+&lt;/p&gt;
+&lt;p&gt;
+Athlete&apos;s foot is contagious and can be spread by contact with an infected person or with contact with contaminated surfaces, such as towels, floors and shoes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You are at higher risk of athlete&apos;s foot if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are a man&lt;/li&gt;
+	&lt;li&gt;Frequently wear damp socks or tightfitting shoes&lt;/li&gt;
+	&lt;li&gt;Share mats, rugs, bed linens, clothes or shoes with someone who has a fungal infection&lt;/li&gt;
+	&lt;li&gt;Walk barefoot in public areas where the infection can spread, such as locker rooms, saunas, swimming pools, communal baths and showers&lt;/li&gt;
+	&lt;li&gt;Have a weakened immune system&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Athlete&apos;s foot can lead to complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary infections.&lt;/strong&gt; Athlete&apos;s foot, a fungal infection, can create an environment that invites a secondary bacterial infection. By producing an antibiotic substance, the fungus can kill off vulnerable bacteria and favor the overgrowth of hardier, resistant bacteria. In turn, the bacteria release substances that can cause tissue breakdown &amp;mdash; soggy skin and painful eroded areas between the toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An allergic response.&lt;/strong&gt; After an episode of athlete&apos;s foot, proteins might enter your bloodstream, leading to an allergic reaction that may cause an eruption of blisters on your fingers, toes or hands (dermatophytid or &quot;id&quot; reaction).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or a skin specialist (dermatologist) can diagnose athlete&apos;s foot. You don&apos;t need any special preparations for an appointment to diagnose athlete&apos;s foot. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Preparing a list of questions will help you make the most of your appointment. For athlete&apos;s foot, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing the signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent the infection from spreading?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend while the condition heals?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;What did the rash look like when it first started?&lt;/li&gt;
+	&lt;li&gt;Is the rash painful or itchy?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes it better?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes it worse?&lt;/li&gt;
+	&lt;li&gt;Does a family member also have athlete&apos;s foot?&lt;/li&gt;
+	&lt;li&gt;Have you spent time at swimming pools, locker rooms, saunas or other places where athlete&apos;s foot might be spread?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will want to determine if your signs and symptoms are caused by athlete&apos;s foot or another skin disorder, such as dermatitis, psoriasis or a low-grade infection of the skin between the toes that causes the skin to split and peel (erythrasma).
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may take skin scrapings or samples from the infected area and view them under a microscope. This is called a potassium hydroxide (KOH) test. If a sample shows fungi, treatment may include an antifungal medication. If the test is negative, your doctor may examine the area with a Wood&apos;s lamp (black light) to see if there is a reddish fluorescence caused by erythrasma bacteria. If both tests are negative, a sample may be sent to a lab to determine whether it will grow fungi under the right conditions. This test is known as a culture. Your doctor may also order a culture if your condition doesn&apos;t respond to treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your athlete&apos;s foot is mild, your doctor may suggest using an over-the-counter antifungal ointment, lotion, powder or spray. If your athlete&apos;s foot doesn&apos;t respond, you may need a prescription-strength topical medication or an oral (systemic) medication.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Over-the-counter medications&lt;/strong&gt;&lt;br /&gt;
+There are numerous over-the-counter (OTC) medications on the market. Medicated powders also will help keep your feet dry. OTC medications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Butenafine (Lotrimin Ultra)&lt;/li&gt;
+	&lt;li&gt;Clotrimazole (Lotrimin AF)&lt;/li&gt;
+	&lt;li&gt;Miconazole (Desenex, Zeasorb, others)&lt;/li&gt;
+	&lt;li&gt;Terbinafine (Lamisil AT)&lt;/li&gt;
+	&lt;li&gt;Tolnaftate (Tinactin, Ting, others)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prescription medications&lt;/strong&gt;&lt;br /&gt;
+If athlete&apos;s foot is severe or doesn&apos;t respond to over-the-counter medicine, you may need a prescription-strength topical or oral medication.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical medications.&lt;/strong&gt; These include clotrimazole and miconazole.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral medications.&lt;/strong&gt; These include itraconazole (Sporanox), fluconazole (Diflucan) and terbinafine (Lamisil). Side effects from oral medications include gastrointestinal upset, rash and abnormal liver function. Taking other medications, such as antacid therapies for ulcer disease or gastroesophageal reflux disease (GERD), may interfere with the absorption of these drugs. Oral medications for athlete&apos;s foot may alter the effectiveness of warfarin, an anticoagulant drug that decreases the clotting ability of your blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may prescribe an oral antibiotic if you have an accompanying bacterial infection. In addition, your doctor may recommend wet dressings, steroid ointments, compresses or vinegar soaks to help clear up blisters or soggy skin.
+&lt;/p&gt;
+&lt;p&gt;
+Wash and dry the affected area. Then, apply a thin layer of the topical agent once or twice a day for at least two weeks, or according to package directions. If you don&apos;t see an improvement after four weeks, see your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+If your athlete&apos;s foot recurs frequently, your doctor may recommend that you use a medication continuously.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These tips can help you avoid athlete&apos;s foot or ease the symptoms if infection occurs:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your feet dry, especially between your toes.&lt;/strong&gt; Go barefoot to let your feet air out as much as possible when you&apos;re home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go with natural materials.&lt;/strong&gt; Wear socks that are made of natural material, such as cotton or wool, or a synthetic fiber designed to draw moisture away from your feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change socks and stockings regularly.&lt;/strong&gt; If your feet sweat a lot, change your socks twice a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear light, well-ventilated shoes.&lt;/strong&gt; Avoid shoes made of synthetic material, such as vinyl or rubber.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alternate pairs of shoes.&lt;/strong&gt; Don&apos;t wear the same pair every day so that you give your shoes time to dry between wearings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your feet in public places.&lt;/strong&gt; Wear waterproof sandals or shower shoes in communal showers, pools, fitness centers and other public areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat your feet.&lt;/strong&gt; Use powder, preferably antifungal, on your feet daily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share shoes.&lt;/strong&gt; Sharing risks spreading a fungal infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Athlete&apos;s foot
+	</Title>
+	<Abstract>
+		Athlete&apos;s foot &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this common fungal infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

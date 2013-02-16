@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00901
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/meningioma/DS00901
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="4704" Title="Tumor">
+						<Keyword MCVID="2869" Title="Meningioma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			108C07BD-E7FF-0DBD-13D49C2A3EAAB8A6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				meningioma
+			</MetaKeyword>
+			<MetaKeyword>
+				brain tumor
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A meningioma is a tumor that arises from the meninges &amp;mdash; the membranes that surround your brain and spinal cord. Most meningiomas are noncancerous (benign), though, rarely, a meningioma may be cancerous (malignant). Some meningiomas are classified as atypical, meaning they&apos;re neither benign nor malignant, but rather something in between. 
+&lt;/p&gt;
+&lt;p&gt;
+Meningiomas occur most commonly in older women. But a meningioma can occur in males and at any age, including childhood. 
+&lt;/p&gt;
+&lt;p&gt;
+A meningioma doesn&apos;t always require immediate treatment. A meningioma that causes no significant signs and symptoms may be monitored over time.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing meninges 
+" Caption="Three layers of membranes known as meninges protect the brain and spinal cord. The delicate inner layer is the pia mater. The middle layer is the arachnoid, a web-like structure filled with fluid that cushions the brain. The tough outer layer is called the dura mater. 
+" Height="60" Title="Meninges" URI="/images/image_popup/thumbs/r7_meningesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing meninges 
+" Caption="Three layers of membranes known as meninges protect the brain and spinal cord. The delicate inner layer is the pia mater. The middle layer is the arachnoid, a web-like structure filled with fluid that cushions the brain. The tough outer layer is called the dura mater. 
+" Height="320" Title="Meninges" URI="/images/image_popup/r7_meninges.jpg" Width="320" />
+				<HTML>
+					Three layers of membranes known as meninges protect the brain and spinal cord. The delicate inner layer is the pia mater. The middle layer is the arachnoid, a web-like structure filled with fluid ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a meningioma typically begin gradually and may be very subtle at first. Depending on where in the brain or, rarely, spine the tumor is situated, signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Changes in vision, such as seeing double or blurriness&lt;/li&gt;
+	&lt;li&gt;Headaches that worsen with time&lt;/li&gt;
+	&lt;li&gt;Hearing loss&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Weakness in your arms or legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Most signs and symptoms of a meningioma evolve slowly, but sometimes a meningioma requires emergency care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care&lt;/strong&gt; if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden onset of seizures&lt;/li&gt;
+	&lt;li&gt;Sudden changes in your vision or memory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Make an appointment to see your doctor &lt;/strong&gt;if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent signs and symptoms that concern you, such as headaches that worsen over time&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It isn&apos;t clear what causes a meningioma. Doctors know that something alters some cells in your meninges &amp;mdash; the membranes that form a protective barrier around your brain and spinal cord &amp;mdash; to make them multiply out of control, leading to a meningioma tumor. But whether this occurs because of genes you inherit, things you&apos;re exposed to in your environment or a combination of both remains unknown. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing meninges 
+" Caption="Three layers of membranes known as meninges protect the brain and spinal cord. The delicate inner layer is the pia mater. The middle layer is the arachnoid, a web-like structure filled with fluid that cushions the brain. The tough outer layer is called the dura mater. 
+" Height="60" Title="Meninges" URI="/images/image_popup/thumbs/r7_meningesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing meninges 
+" Caption="Three layers of membranes known as meninges protect the brain and spinal cord. The delicate inner layer is the pia mater. The middle layer is the arachnoid, a web-like structure filled with fluid that cushions the brain. The tough outer layer is called the dura mater. 
+" Height="320" Title="Meninges" URI="/images/image_popup/r7_meninges.jpg" Width="320" />
+				<HTML>
+					Three layers of membranes known as meninges protect the brain and spinal cord. The delicate inner layer is the pia mater. The middle layer is the arachnoid, a web-like structure filled with fluid ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for a meningioma include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation treatment.&lt;/strong&gt; Radiation therapy that involves radiation to the head may increase the risk of a meningioma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Female hormones.&lt;/strong&gt; Meningiomas are more common in women, leading doctors to believe that female hormones may play a role.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An inherited nervous system disorder.&lt;/strong&gt; The rare disorder neurofibromatosis type 2 increases the risk of meningioma and other brain tumors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A meningioma and its treatment, typically surgery and radiation therapy, can cause long-term complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+	&lt;li&gt;Personality changes&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can treat some complications and refer you to specialists to help you cope with other complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. If your doctor suspects you may have a brain tumor, such as a meningioma, you may be referred to specialists who treat brain disorders (neurologist and neurosurgeon). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something you missed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For a meningioma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my meningioma cancerous?&lt;/li&gt;
+	&lt;li&gt;How large is my meningioma?&lt;/li&gt;
+	&lt;li&gt;Is my meningioma growing? How quickly?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment now, or is it better to take a wait-and-see approach?&lt;/li&gt;
+	&lt;li&gt;What are the potential complications of each treatment?&lt;/li&gt;
+	&lt;li&gt;Are there long-term complications I should know about?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion? Can you recommend another doctor or hospital that has experience in treating meningiomas?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to make a decision about treatment right away? How long can I wait?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A meningioma may be detected on an imaging test, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; CT scans take X-rays that create cross-sectional images (like slices) of your brain and head. These images are combined together by a computer to create a full picture of your brain. Sometimes an iodine-based dye is used to augment the picture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; With this imaging study, a magnetic field and radio waves are used to create cross-sectional images of the structures within your brain. MRI scans provide a more detailed picture of the brain and meningiomas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Magnetic resonance imaging (MRI) scan showing meningioma 
+" Caption="This magnetic resonance imaging (MRI) scan of a person&apos;s head shows a meningioma. This meningioma has grown large enough to push down into the brain tissue. 
+" Height="60" Title="Meningioma" URI="/images/image_popup/thumbs/ans7_meningiomathu.jpg" Width="60" />
+				<Image Alt="Magnetic resonance imaging (MRI) scan showing meningioma 
+" Caption="This magnetic resonance imaging (MRI) scan of a person&apos;s head shows a meningioma. This meningioma has grown large enough to push down into the brain tissue. 
+" Height="300" Title="Meningioma" URI="/images/image_popup/ans7_meningioma.jpg" Width="400" />
+				<HTML>
+					This magnetic resonance imaging (MRI) scan of a person&apos;s head shows a meningioma. This meningioma has grown large enough to push down into the brain tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment you receive for a meningioma depends on many factors, including the size of your meningioma, where it&apos;s situated and how aggressive it&apos;s believed to be. Your doctor will also take into consideration your overall health and your goals for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wait-and-see approach&lt;br /&gt;
+&lt;/strong&gt;Immediate treatment isn&apos;t necessary for everyone with a meningioma. A small, slow-growing meningioma that isn&apos;t causing signs or symptoms may not require treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If the plan is not to undergo treatment for your meningioma, you&apos;ll likely have brain scans periodically to evaluate your meningioma and look for signs that it&apos;s growing. Your doctor creates a personalized follow-up schedule for you. For instance, you might undergo brain scans every few months at first and then have scans done annually. If your doctor determines your meningioma is growing and needs to be treated, you have several treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your meningioma causes signs and symptoms or shows signs that it&apos;s growing, your doctor may recommend surgery. Surgeons work to remove the meningioma completely. But because a meningioma may occur near many delicate structures in the brain or spinal cord, it isn&apos;t always possible to remove the entire tumor. In those cases, surgeons remove as much of the meningioma as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+The type of treatment, if any, you need after surgery depends on several factors. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If no visible tumor remains,&lt;/strong&gt; then no further treatment may be necessary. However, you will have periodic follow-up scans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If the tumor is benign and only a small piece remained,&lt;/strong&gt; then your doctor may recommend periodic follow-up scans only. In some cases, small, leftover tumors may be treated with a form of radiation treatment called stereotactic radiosurgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If the tumor is atypical or malignant,&lt;/strong&gt; you&apos;ll likely need radiation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery may pose risks including infection and bleeding. The specific risks of your surgery will depend on where your meningioma is located. For instance, surgery to remove a meningioma that occurs around the optic nerve can lead to vision loss. Ask your surgeon about the specific risks of your surgery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;br /&gt;
+&lt;/strong&gt;If your meningioma can&apos;t be completely removed, your doctor may recommend radiation therapy following surgery. The goal of radiation therapy is to destroy any remaining meningioma cells and reduce the chance that your meningioma may recur. Radiation therapy uses a large machine to aim high-powered energy beams at the tumor cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Advances in radiation therapy increase the dose of radiation to the meningioma while reducing radiation to healthy tissue. These include fractionated stereotactic radiotherapy (SRT) and intensity-modulated radiotherapy (IMRT).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiosurgery&lt;br /&gt;
+&lt;/strong&gt;Radiosurgery is a type of radiation treatment that aims several beams of powerful radiation at a precise point. Contrary to its name, radiosurgery doesn&apos;t involve scalpels or incisions. Radiosurgery typically is done in an outpatient setting in a few hours. Radiosurgery may be an option for people with meningiomas that can&apos;t be removed with conventional surgery or for meningiomas that recur despite treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fractionated radiation&lt;br /&gt;
+&lt;/strong&gt;For tumors too large for radiosurgery or those in an area that can&apos;t tolerate the high intensity of radiosurgery &amp;mdash; such as near the optic nerve &amp;mdash; a possible option is fractionated radiation. This involves delivering the radiation in small fractions over time. For example, this approach might require one treatment a day for 30 days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drugs&lt;br /&gt;
+&lt;/strong&gt;For people with meningiomas that recur or don&apos;t respond to surgery and radiation, doctors are trying different system treatments. Unfortunately, most chemotherapy has not proved valuable, but some drugs, such as hydroxyurea (Droxia, Hydrea), are sometimes used. Other drugs are being tested as well, such as those that inhibit the formation of blood vessels (angiogenesis inhibitors). Much more study is needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative medicine treatments can&apos;t treat meningiomas, but some may help provide relief from treatment side effects or help you cope with the stress of having a meningioma. 
+&lt;/p&gt;
+&lt;p&gt;
+Alternative medicine therapies that may be helpful include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Hypnosis&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Music therapy&lt;/li&gt;
+	&lt;li&gt;Relaxation exercises&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss options with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Being diagnosed with a meningioma can be overwhelming. As you come to terms with your diagnosis, your life can be turned upside down with visits to doctors and surgeons as you prepare for your treatment. To help you cope, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn everything you can about meningiomas.&lt;/strong&gt; Ask your health care team where you can get more information about meningioma and your treatment options. Visit your local library and ask a librarian to help you track down reliable resources for more information, including online sources. Write down your questions so that you&apos;ll remember to ask them at your next appointment with your doctor. The more you know about your condition, the better prepared you&apos;ll be to make decisions about your treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Build a support network.&lt;/strong&gt; Having friends and family supporting you can be valuable. You may find it helps to have someone to talk to about your emotions. Other people who may provide support include social workers and psychologists &amp;mdash; ask your doctor for a referral if you feel that you need someone else to talk to. Talk with your pastor, rabbi or other spiritual leader. Other people with meningiomas can offer a unique perspective, so consider joining a support group - whether it&apos;s in your community or online. Ask your health care team about brain tumor or meningioma support groups in your area, or contact the American Brain Tumor Association.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Try to stay healthy during your treatment for a meningioma by taking care of yourself. Eat a diet rich in fruits and vegetables, and get moderate exercise daily if your doctor allows it. Get enough sleep so that you wake feeling rested. Reduce stress in your life by focusing on what&apos;s important to you. These measures won&apos;t cure your meningioma, but they may help you feel better as you recover from surgery or help you to cope during radiation therapy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Meningioma
+	</Title>
+	<Abstract>
+		Meningioma &amp;mdash; Comprehensive overview covers symptoms and treatment of this usually benign brain tumor.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Disease" DocID="DS01185" LinkType="Internal" ObjectID="170853E6-E80F-052F-F7A72E59744B46CF" Title="Neurofibromatosis" Url="http://www.mayoclinic.com/health/neurofibromatosis/DS01185" />
+	</RelatedLinksBox>
+</Disease>

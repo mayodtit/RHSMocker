@@ -1,0 +1,413 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01067
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bee-stings/DS01067
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3276" Title="Summer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4312" Title="Bee stings" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			14BAE5B2-E7FF-0DBD-19B0428FCE8BCE3B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bee stings
+			</MetaKeyword>
+			<MetaKeyword>
+				bees
+			</MetaKeyword>
+			<MetaKeyword>
+				insect bite
+			</MetaKeyword>
+			<MetaKeyword>
+				insect sting
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bee stings are a common outdoor nuisance. In most cases, bee stings are just annoying and home treatment is all that&apos;s necessary to ease the pain of bee stings. But if you&apos;re allergic to bee stings or you get stung numerous times, you may have a more serious reaction that requires emergency treatment. You can take several steps to avoid bee stings &amp;mdash; as well as hornet and wasp stings &amp;mdash; and find out how to treat them if you do get stung. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bee stings can produce different reactions, ranging from temporary pain and discomfort to a severe allergic reaction. Having one type of reaction doesn&apos;t mean you&apos;ll always have the same reaction every time you&apos;re stung. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Minor reaction&lt;/strong&gt;&lt;br /&gt;
+Most of the time, signs and symptoms of a bee sting are minor and include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Instant, sharp burning pain at the sting site&lt;/li&gt;
+	&lt;li&gt;A red welt at the sting area&lt;/li&gt;
+	&lt;li&gt;A small, white spot where the stinger punctured the skin&lt;/li&gt;
+	&lt;li&gt;Slight swelling around the sting area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In most people, swelling and pain go away within a few hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Large local reaction&lt;/strong&gt;&lt;br /&gt;
+About 10 percent of people who get stung by a bee or other insect have a bit stronger reaction (large local reaction), with signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme redness&lt;/li&gt;
+	&lt;li&gt;Swelling at the site of the sting that gradually enlarges over the next day or two&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Large local reactions tend to resolve over five to 10 days. Having a large local reaction doesn&apos;t mean you&apos;ll have a severe allergic reaction the next time you&apos;re stung. But some people develop similar large local reactions each time they&apos;re stung. If this happens to you, talk to your doctor about treatment and prevention. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe allergic reaction (anaphylaxis)&lt;/strong&gt;&lt;br /&gt;
+A severe allergic reaction (anaphylaxis) to bee stings is potentially life-threatening and requires emergency treatment. About 3 percent of people who are stung by a bee or other insect quickly develop anaphylaxis. Signs and symptoms of anaphylaxis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin reactions in parts of the body other than the sting area, including hives and itching and flushed or pale skin (almost always present with anaphylaxis)&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Swelling of the throat and tongue&lt;/li&gt;
+	&lt;li&gt;A weak and rapid pulse&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or diarrhea&lt;/li&gt;
+	&lt;li&gt;Dizziness or fainting&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People who have a severe allergic reaction to a bee sting have a 30 to 60 percent chance of anaphylaxis the next time they&apos;re stung. Talk to your doctor or an allergy specialist about prevention measures such as immunotherapy to avoid a similar reaction in case you get stung again. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Multiple bee stings&lt;/strong&gt;&lt;br /&gt;
+Generally, insects such as bees and wasps aren&apos;t aggressive and only sting in self-defense. In most cases, this results in one or perhaps a few stings. However, in some cases a person will disrupt a hive or swarm of bees and get stung multiple times. Some types of bees &amp;mdash; such as Africanized honeybees &amp;mdash; are more likely than are other bees to swarm, stinging in a group. 
+&lt;/p&gt;
+&lt;p&gt;
+If you get stung more than a dozen times, the accumulation of venom may induce a toxic reaction and make you feel quite sick. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea, vomiting or diarrhea&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Vertigo&lt;/li&gt;
+	&lt;li&gt;Feeling faint or fainting&lt;/li&gt;
+	&lt;li&gt;Convulsions&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Multiple stings can be a medical emergency in children, older adults, and people who have heart or breathing problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+In most cases, bee stings don&apos;t require a visit to your doctor. In more-severe cases: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Call 911 or other emergency services if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	You&apos;re having a serious reaction to a bee sting that suggests anaphylaxis, even if it&apos;s just one or two signs or symptoms. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you were prescribed an emergency epinephrine autoinjector (EpiPen, Twinject), use it right away as your doctor directed. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek prompt medical care if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve been swarmed by bees and have multiple stings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Make an appointment to see your doctor if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bee sting symptoms don&apos;t go away within a few days.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had other symptoms of an allergic response to a bee sting.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bee sting venom contains proteins that affect skin cells and the immune system, causing pain and swelling around the sting area. In people with a bee sting allergy, bee venom can trigger a more serious immune system reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re at increased risk of bee stings if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You live in an area where bees are especially active or with beehives nearby&lt;/li&gt;
+	&lt;li&gt;Your work or hobbies require spending time outside&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;re more likely to have an allergic reaction to bee stings if you&apos;ve had an allergic reaction to a bee sting in the past, even if it was minor.
+&lt;/p&gt;
+&lt;p&gt;
+Adults tend to have more-severe reactions than children and are more likely to die of anaphylaxis than are children. Your reaction may also be more severe if you&apos;re taking certain medications, such as a beta blocker.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible, though uncommon, complications of bee and other insect stings include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylaxis.&lt;/strong&gt; A severe allergic reaction is the most dangerous complication of a bee or other insect sting. A rapid fall in blood pressure can lead to loss of consciousness, and can sometimes be fatal. Anaphylaxis requires an emergency shot of epinephrine and a trip to the emergency room.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxic reaction to multiple stings&lt;/strong&gt; can be dangerous, especially in children. Because children are smaller than adults, fewer stings can create high levels of venom in the bloodstream. Complications of massive poisoning by venom (envenomation) include heart problems, rapid muscle tissue damage (rhabdomyolysis) and kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection at the site of a sting.&lt;/strong&gt; As with other cases when the skin is broken, a sting site may become infected. Scratching a sting site can increase your risk of infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bee and other insect stings are a common cause of anaphylaxis. If you&apos;ve had a serious reaction to a bee sting but did not seek emergency treatment, consult your doctor. He or she may refer you to an allergy specialist (allergist) who can determine whether you&apos;re allergic to bee or other insect venom and can help you find ways to prevent future allergic reactions.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor or allergist will do a thorough physical examination and will want to know:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long ago you got stung&lt;/li&gt;
+	&lt;li&gt;Where you were stung&lt;/li&gt;
+	&lt;li&gt;Exactly what symptoms you had after getting stung&lt;/li&gt;
+	&lt;li&gt;Whether you&apos;ve had an allergic reaction to an insect sting in the past, even if it was minor&lt;/li&gt;
+	&lt;li&gt;Whether you have any other allergies, such as hay fever&lt;/li&gt;
+	&lt;li&gt;What medications you take, including herbal remedies&lt;/li&gt;
+	&lt;li&gt;Any health problems you have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You also might want to ask the following questions of your doctor:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do I do if I get stung in the future?&lt;/li&gt;
+	&lt;li&gt;If I have an allergic reaction, do I need to use emergency medication such as an epinephrine autoinjector (EpiPen, Twinject)?&lt;/li&gt;
+	&lt;li&gt;How can I prevent this from happening again?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve had a reaction to bee stings that suggests you might be allergic to bee venom, your doctor may suggest one or both of the following tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; During skin testing, a small amount of purified allergen extract (in this case, bee venom) is injected into the skin of your arm or upper back. This test is safe and won&apos;t cause any serious reactions. If you&apos;re allergic to bee stings, you develop a raised bump (hive) at the test location on your skin. Allergy specialists usually are best equipped to perform allergy skin tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy blood test.&lt;/strong&gt; A blood test (sometimes called the radioallergosorbent test, or RAST) can measure your immune system&apos;s response to bee venom by measuring the amount of allergy-causing antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. A blood sample is sent to a medical laboratory, where it can be tested for evidence of sensitivity to possible allergens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Allergy skin tests are the most accurate tests for insect allergies. But if the allergy skin test is negative &amp;mdash; and your doctor still thinks you might have a stinging insect allergy &amp;mdash; you may need an allergy blood test to double-check. Your doctor may also want to test you for allergies to yellow jackets, hornets and wasps &amp;mdash; which can cause allergic reactions similar to those of bee stings.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of skin surface showing a positive reaction to allergy test 
+" Caption="A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+" Height="60" Title="Positive reaction to allergy test" URI="/images/image_popup/thumbs/aa7_dimethu.jpg" Width="60" />
+				<Image Alt="Photo of skin surface showing a positive reaction to allergy test 
+" Caption="A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+" Height="286" Title="Positive reaction to allergy test" URI="/images/image_popup/aa7_dime.jpg" Width="400" />
+				<HTML>
+					A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most bee stings, home treatment is enough. Multiple stings or an allergic reaction, on the other hand, can be a medical emergency that requires immediate treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for minor reactions&lt;/strong&gt;&lt;br /&gt;
+When a bee stings, it jabs a barbed stinger into the skin. Removing the stinger and its attached venom sac right away will keep more venom from being released. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Remove the stinger as soon as you can, as it takes only seconds for all of the venom to enter your body. Scrape the stinger out with the edge of a credit card or a fingernail, or use a pair of tweezers. Avoid squeezing the attached venom sac, which can release more venom.&lt;/li&gt;
+	&lt;li&gt;Wash the sting area with soap and water.&lt;/li&gt;
+	&lt;li&gt;Apply cold compresses to relieve pain and ease swelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for large local reactions&lt;/strong&gt;&lt;br /&gt;
+The following steps may help ease the swelling and itching often associated with large local reactions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Remove the stinger as soon as possible.&lt;/li&gt;
+	&lt;li&gt;Wash the area with soap and water.&lt;/li&gt;
+	&lt;li&gt;Apply cold compresses.&lt;/li&gt;
+	&lt;li&gt;Apply hydrocortisone cream or calamine lotion to ease redness, itching or swelling.&lt;/li&gt;
+	&lt;li&gt;If itching or swelling is bothersome, take an oral antihistamine that contains diphenhydramine (Benadryl) or chlorpheniramine (Chlor-Trimeton).&lt;/li&gt;
+	&lt;li&gt;Avoid scratching the sting area. This will worsen itching and swelling &amp;mdash; and increase your risk of infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency treatment for allergic reactions&lt;/strong&gt;&lt;br /&gt;
+During an anaphylactic attack, an emergency medical team may perform cardiopulmonary resuscitation (CPR) if you stop breathing or your heart stops beating. You may be given medications including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Epinephrine (adrenaline)&lt;/strong&gt; to reduce your body&apos;s allergic response&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen,&lt;/strong&gt; to help compensate for restricted breathing&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous (IV) antihistamines and cortisone&lt;/strong&gt; to reduce inflammation of your air passages and improve breathing&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A beta agonist (such as albuterol)&lt;/strong&gt; to relieve breathing symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Epinephrine autoinjector&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re allergic to bee stings, your doctor will likely prescribe an emergency epinephrine autoinjector (EpiPen, Twinject). You&apos;ll need to carry it with you at all times. An autoinjector is a combined syringe and concealed needle that injects a single dose of medication when pressed against your thigh. Always be sure to replace epinephrine before its expiration date, or it may not work properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure you know how to use the autoinjector. Also, make sure the people closest to you know how to administer the drug &amp;mdash; if they&apos;re with you in an anaphylactic emergency, they could save your life. Medical personnel called in to respond to a severe anaphylactic reaction also may give you an epinephrine injection or another medication. 
+&lt;/p&gt;
+&lt;p&gt;
+You might also consider wearing an alert bracelet that identifies your allergy to bee or other insect stings. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergy shots&lt;/strong&gt;&lt;br /&gt;
+Bee and other insect stings are a common cause of anaphylaxis. If you&apos;ve had a serious reaction to a bee sting or you&apos;ve been swarmed by bees, your doctor will likely refer you to an allergy specialist (allergist) for allergy shots (immunotherapy). These shots are generally given on a regular basis for a few years and can reduce or completely eliminate your allergic response to bee venom. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing removal of a bee&apos;s stinger 
+" Caption="Be careful not to squeeze the attached venom sac when removing a stinger. 
+" Height="60" Title="Removing a bee&apos;s stinger" URI="/images/image_popup/thumbs/aa7_beestingthu.jpg" Width="60" />
+				<Image Alt="Image showing removal of a bee&apos;s stinger 
+" Caption="Be careful not to squeeze the attached venom sac when removing a stinger. 
+" Height="293" Title="Removing a bee&apos;s stinger" URI="/images/image_popup/aa7_beesting.jpg" Width="400" />
+				<HTML>
+					Be careful not to squeeze the attached venom sac when removing a stinger. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although they haven&apos;t been tested by research studies, common home remedies are sometimes used:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rub a wet aspirin on the sting area.&lt;/li&gt;
+	&lt;li&gt;Make a paste with baking soda or meat tenderizer and water. Leave it on the sting area for a few minutes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of prevention strategies can help you minimize your chance of getting stung by bees.
+&lt;/p&gt;
+&lt;p&gt;
+Minimize your exposure:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take care when drinking beverages outside. Wide, open cups may be your best option because you can readily see what&apos;s in them.&lt;/li&gt;
+	&lt;li&gt;Avoid eating sweet foods outside.&lt;/li&gt;
+	&lt;li&gt;Tightly cover food containers and trash cans.&lt;/li&gt;
+	&lt;li&gt;Clear away garbage, fallen fruit, and dog or other animal feces (flies can attract wasps).&lt;/li&gt;
+	&lt;li&gt;Wear a long-sleeved shirt, gloves and a hat.&lt;/li&gt;
+	&lt;li&gt;Wear shoes when walking outside.&lt;/li&gt;
+	&lt;li&gt;When driving, keep your windows rolled up.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re concerned about being stung, avoid activities that might arouse insects in a beehive or wasp nest, such as mowing the lawn or trimming vegetation. Have hives and nests near your home removed by a professional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Know what to do when you&apos;re exposed to bees:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If a few bees are flying around you, stay calm and slowly walk away from the area. Swatting at an insect may cause it to sting.&lt;/li&gt;
+	&lt;li&gt;If a bee or wasp stings you, or many insects start to fly around, cover your mouth and nose and quickly leave the area. When a bee stings, it releases a chemical that attracts other bees. If you can, get into a building or closed vehicle.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bee stings
+	</Title>
+	<Abstract>
+		Bee stings &amp;mdash; Comprehensive overview covers prevention, treatment of bee stings.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00046" LinkType="Internal" ObjectID="0DBA09BB-826A-41F7-9AC55B351B6BBAAA" Title="Insect bites and stings: First aid" Url="http://www.mayoclinic.com/health/first-aid-insect-bites/FA00046" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+	</RelatedLinksBox>
+</Disease>

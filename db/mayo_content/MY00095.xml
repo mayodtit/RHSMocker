@@ -1,0 +1,208 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00095
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/echocardiogram/MY00095
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-06
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3086" Title="Echocardiogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BAF12946-E7FF-0DBD-179DCBB51F6B464B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart tests
+			</MetaKeyword>
+			<MetaKeyword>
+				echocardiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				echocardiography
+			</MetaKeyword>
+			<MetaKeyword>
+				ultrasound
+			</MetaKeyword>
+			<MetaKeyword>
+				echo cardiogram
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An echocardiogram uses sound waves to produce images of your heart. This commonly used test allows your doctor to see how your heart is beating and pumping blood. Your doctor can use the images from an echocardiogram to identify various abnormalities in the heart muscle and valves. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on what information your doctor needs, you may have one of several types of echocardiograms. Each type of echocardiogram has few risks involved. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of an echocardiogram being performed 
+" Caption="An echocardiogram checks how your heart&apos;s chambers and valves are pumping blood through your heart. An echocardiogram uses electrodes to check your heart rhythm and ultrasound technology to see how blood moves through your heart. An echocardiogram can help your doctor diagnose heart conditions. 
+" Height="60" Title="Echocardiogram" URI="/images/image_popup/thumbs/mcdc7_echocardiogramthu.jpg" Width="60" />
+				<Image Alt="Illustration of an echocardiogram being performed 
+" Caption="An echocardiogram checks how your heart&apos;s chambers and valves are pumping blood through your heart. An echocardiogram uses electrodes to check your heart rhythm and ultrasound technology to see how blood moves through your heart. An echocardiogram can help your doctor diagnose heart conditions. 
+" Height="422" Title="Echocardiogram" URI="/images/image_popup/mcdc7_echocardiogram.jpg" Width="400" />
+				<HTML>
+					An echocardiogram checks how your heart&apos;s chambers and valves are pumping blood through your heart. An echocardiogram uses electrodes to check your heart rhythm and ultrasound technology to see how ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suggest an echocardiogram if he or she suspects problems with the valves or chambers of your heart or your heart&apos;s ability to pump. An echocardiogram can also be used to detect congenital heart defects in unborn babies. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on what information your doctor needs, you may have one of the following kinds of echocardiograms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Transthoracic echocardiogram.&lt;/strong&gt; This is a standard, noninvasive echocardiogram. A technician (sonographer) spreads gel on your chest and then presses a device known as a transducer firmly against your skin, aiming an ultrasound beam through your chest to your heart. The transducer records the sound wave echoes your heart produces. A computer converts the echoes into moving images on a monitor. If your lungs or ribs block the view, a small amount of intravenous dye may be used to improve the images.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transesophageal echocardiogram.&lt;/strong&gt; If it&apos;s difficult to get a clear picture of your heart with a standard echocardiogram, your doctor may recommend a transesophageal echocardiogram. In this procedure, a flexible tube containing a transducer is guided down your throat and into your esophagus, which connects your mouth to your stomach. From there, the transducer can obtain more-detailed images of your heart. Your throat will be numbed, and you&apos;ll have medications to help you relax during a transesophageal echocardiogram.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doppler echocardiogram.&lt;/strong&gt; When sound waves bounce off blood cells moving through your heart and blood vessels, they change pitch. These changes (Doppler signals) can help your doctor measure the speed and direction of the blood flow in your heart. Doppler techniques are used in most transthoracic and transesophageal echocardiograms, and they can check blood flow problems and blood pressures in the arteries of your heart that traditional ultrasound might not detect. Sometimes, the blood flow shown on the monitor is colorized to help your doctor pinpoint any problems (color flow echocardiogram).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress echocardiogram.&lt;/strong&gt; Some heart problems &amp;mdash; particularly those involving the coronary arteries that supply blood to your heart muscle &amp;mdash; occur only during physical activity. For a stress echocardiogram, ultrasound images of your heart are taken before and immediately after walking on a treadmill or riding a stationary bike. If you&apos;re unable to exercise, you may get an injection of a medication to make your heart work as hard as if you were exercising.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are few risks involved in a standard transthoracic echocardiogram. You may feel some discomfort similar to pulling off an adhesive bandage when the technician removes the electrodes placed on your chest during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a transesophageal echocardiogram, your throat may be sore for a few hours afterward. Rarely, the tube may scrape the inside of your throat. Your oxygen level will be monitored during the exam to check for any breathing problems caused by sedation medication. 
+&lt;/p&gt;
+&lt;p&gt;
+During a stress echocardiogram, exercise or medication &amp;mdash; not the echocardiogram itself &amp;mdash; may temporarily cause an irregular heartbeat. Serious complications, such as a heart attack, are rare. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparations are necessary for a standard transthoracic echocardiogram. Your doctor will ask you not to eat for a few hours beforehand if you&apos;re having a transesophageal or stress echocardiogram. If you&apos;ll be walking on a treadmill during a stress echocardiogram, wear comfortable shoes. If you&apos;re having a transesophageal echocardiogram, you won&apos;t be able to drive afterward because of the sedating medication you&apos;ll likely receive. Before your have your transesophageal echocardiogram, be sure to make arrangements to get home. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+An echocardiogram can be done in the doctor&apos;s office or a hospital. After undressing from the waist up, you&apos;ll lie on an examining table or bed. The technician will attach sticky patches (electrodes) to your body to help detect and conduct the electrical currents of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ll have a transesophageal echocardiogram, your throat will be numbed with a numbing spray or gel. You&apos;ll likely be given a sedative to help you relax. 
+&lt;/p&gt;
+&lt;p&gt;
+During the echocardiogram, the technician will dim the lights to better view the image on the monitor. You may hear a pulsing &quot;whoosh,&quot; which is the machine recording the blood flowing through your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Most echocardiograms take less than an hour, but the timing may vary depending on your condition. During a transthoracic echocardiogram, you may be asked to breathe in a certain way or to roll onto your left side. Sometimes the transducer must be held very firmly against your chest. This can be uncomfortable &amp;mdash; but it helps the technician produce the best images of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+If your echocardiogram is normal, no further testing may be needed. If the results are concerning, you may be referred to a heart specialist (cardiologist) for more tests. Treatment depends on what&apos;s found during the exam and your specific signs and symptoms. You may need a repeat echocardiogram in several months or other diagnostic tests, such as a cardiac computerized tomography (CT) scan or coronary angiogram. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of an echocardiogram being performed 
+" Caption="An echocardiogram checks how your heart&apos;s chambers and valves are pumping blood through your heart. An echocardiogram uses electrodes to check your heart rhythm and ultrasound technology to see how blood moves through your heart. An echocardiogram can help your doctor diagnose heart conditions. 
+" Height="60" Title="Echocardiogram" URI="/images/image_popup/thumbs/mcdc7_echocardiogramthu.jpg" Width="60" />
+				<Image Alt="Illustration of an echocardiogram being performed 
+" Caption="An echocardiogram checks how your heart&apos;s chambers and valves are pumping blood through your heart. An echocardiogram uses electrodes to check your heart rhythm and ultrasound technology to see how blood moves through your heart. An echocardiogram can help your doctor diagnose heart conditions. 
+" Height="422" Title="Echocardiogram" URI="/images/image_popup/mcdc7_echocardiogram.jpg" Width="400" />
+				<HTML>
+					An echocardiogram checks how your heart&apos;s chambers and valves are pumping blood through your heart. An echocardiogram uses electrodes to check your heart rhythm and ultrasound technology to see how ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will look for healthy heart valves and chambers, as well as normal heartbeats. Information from the echocardiogram may show: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart size.&lt;/strong&gt; Weakened or damaged heart valves, high blood pressure or other diseases can cause the chambers of your heart to enlarge. Your doctor can use an echocardiogram to evaluate the need for treatment or monitor treatment effectiveness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pumping strength.&lt;/strong&gt; An echocardiogram can help your doctor determine your heart&apos;s pumping strength. Specific measurements may include the percentage of blood that&apos;s pumped out of a filled ventricle with each heartbeat (ejection fraction) or the volume of blood pumped by the heart in one minute (cardiac output). If your heart isn&apos;t pumping enough blood to meet your body&apos;s needs, heart failure may be a concern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to the heart muscle.&lt;/strong&gt; During an echocardiogram, your doctor can determine whether all parts of the heart wall are contributing normally to your heart&apos;s pumping activity. Parts that move weakly may have been damaged during a heart attack or be receiving too little oxygen. This may indicate coronary artery disease or various other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valve problems.&lt;/strong&gt; An echocardiogram shows how your heart valves move as your heart beats. Your doctor can determine if the valves open wide enough for adequate blood flow or close fully to prevent blood leakage. Abnormal blood flow patterns and certain conditions, such as aortic valve stenosis &amp;mdash; when the heart&apos;s aortic valve is narrowed &amp;mdash; can be detected as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart defects.&lt;/strong&gt; Many heart defects can be detected with an echocardiogram, including problems with the heart chambers, abnormal connections between the heart and major blood vessels, and complex heart defects that are present at birth. Echocardiograms can even be used to monitor a baby&apos;s heart development before birth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Echocardiogram
+	</Title>
+	<Abstract>
+		Echocardiogram &amp;mdash; Overview covers definition, risks and results of this heart-imaging test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS00505" LinkType="Internal" ObjectID="CE3BC2CF-B4C1-4401-8F0F9E0B7C284538" Title="Pericarditis" Url="http://www.mayoclinic.com/health/pericarditis/DS00505" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+	</RelatedLinksBox>
+</TestProcedure>

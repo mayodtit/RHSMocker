@@ -1,0 +1,312 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01047
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nephrotic-syndrome/DS01047
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="3295" Title="Nephrotic syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8B11282A-E7FF-0DBD-168C2EA8C1F3E11A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nephrotic syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				glomeruli damage
+			</MetaKeyword>
+			<MetaKeyword>
+				glomerular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nephrotic syndrome is a kidney disorder that causes your body to excrete too much protein in your urine.
+&lt;/p&gt;
+&lt;p&gt;
+Nephrotic syndrome is usually caused by damage to the clusters of small blood vessels in your kidneys that filter waste and excess water from your blood. Nephrotic syndrome causes swelling (edema), particularly in your feet and ankles, and increases the risk of other health problems.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for nephrotic syndrome includes treating the underlying condition that&apos;s causing it and taking medications. Nephrotic syndrome can increase your risk of infections and blood clots. Your doctor may recommend steps to prevent these and other complications of nephrotic syndrome.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of nephrotic syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling (edema), particularly around your eyes and in your ankles and feet&lt;/li&gt;
+	&lt;li&gt;Foamy urine, which may be caused by excess protein in your urine&lt;/li&gt;
+	&lt;li&gt;Weight gain due to excess fluid retention&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nephrotic syndrome is usually caused by damage to the clusters of tiny blood vessels (glomeruli) of your kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+The glomeruli filter your blood as it passes through your kidneys, separating things your body needs from those it doesn&apos;t. Healthy glomeruli keep blood protein (mainly albumin) &amp;mdash; which is needed to maintain the right amount of fluid in your body &amp;mdash; from seeping into your urine. When damaged, glomeruli allow too much blood protein to leave your body, leading to nephrotic syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Many possible causes&lt;/strong&gt;&lt;br /&gt;
+Many diseases and conditions can cause glomerular damage and lead to nephrotic syndrome, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Minimal change disease.&lt;/strong&gt; The most common cause of nephrotic syndrome in children, this disorder results in abnormal kidney function, but when the kidney tissue is examined under a microscope, it appears normal or nearly normal. The cause of the abnormal function typically can&apos;t be determined.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Focal segmental glomerulosclerosis.&lt;/strong&gt; Characterized by scattered scarring of some of the glomeruli, this condition may result from another disease or a genetic defect or occur for no known reason.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Membranous nephropathy.&lt;/strong&gt; This kidney disorder is the result of thickening membranes within the glomeruli. The exact cause of the thickening isn&apos;t known, but it&apos;s sometimes associated with other medical conditions, such as hepatitis B, malaria, lupus and cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetic kidney disease.&lt;/strong&gt; Diabetes can lead to kidney damage (diabetic nephropathy) that affects the glomeruli.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Systemic lupus erythematosus.&lt;/strong&gt; This chronic inflammatory disease can lead to serious kidney damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amyloidosis.&lt;/strong&gt; This disorder occurs when substances called amyloid proteins accumulate in your organs. Amyloid buildup often affects the kidneys, damaging their filtering system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clot in a kidney vein.&lt;/strong&gt; Renal vein thrombosis, which occurs when a blood clot blocks a vein connected to the kidney, can cause nephrotic syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Some forms of heart failure, such as constrictive pericarditis and severe right heart failure, can cause nephrotic syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of nephrotic syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions that can damage your kidneys.&lt;/strong&gt; Certain diseases and conditions increase your risk of developing nephrotic syndrome, such as diabetes, lupus, amyloidosis, minimal change disease and other kidney diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Examples of medications that can cause nephrotic syndrome include nonsteroidal anti-inflammatory drugs and drugs used to fight infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain infections.&lt;/strong&gt; Examples of infections that increase the risk of nephrotic syndrome include HIV, hepatitis B, hepatitis C and malaria.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of nephrotic syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; The inability of the glomeruli to filter blood properly can lead to loss of blood proteins that help prevent clotting. This increases your risk of developing a blood clot (thrombus) in your veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood cholesterol and elevated blood triglycerides.&lt;/strong&gt; When the level of the protein albumin in your blood falls, your liver makes more albumin. At the same time, your liver releases more cholesterol and triglycerides.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor nutrition.&lt;/strong&gt; Loss of too much blood protein can result in malnutrition. This can lead to weight loss, but it may be masked by swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Damage to your glomeruli and the resulting buildup of wastes in your bloodstream (uremia) can raise your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute kidney failure.&lt;/strong&gt; If your kidneys lose their ability to filter blood due to damage to the glomeruli, waste products may build up quickly in your blood. If this happens, you may need emergency dialysis &amp;mdash; an artificial means of removing extra fluids and waste from your blood &amp;mdash; typically with an artificial kidney machine (dialyzer).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; Nephrotic syndrome may cause your kidneys to gradually lose their function over time. If kidney function falls low enough, you may require dialysis or a kidney transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; People with nephrotic syndrome have an increased risk of infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms that cause concern, start by seeing your family doctor or a general practitioner. If your doctor suspects you may have a kidney problem, such as nephrotic syndrome, you may be referred to a doctor who specializes in the kidneys (nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For nephrotic syndrome, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my nephrotic syndrome?&lt;/li&gt;
+	&lt;li&gt;What tests will I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Can my nephrotic syndrome be cured?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the risks and benefits of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment that you think is best for me?&lt;/li&gt;
+	&lt;li&gt;Are there changes I can make to my diet to help me feel better?&lt;/li&gt;
+	&lt;li&gt;Should I meet with a dietitian to learn more about changing my diet?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that come up.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose nephrotic syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; A urinalysis can reveal abnormalities in your urine, such as large amounts of protein, if you have nephrotic syndrome. You may be asked to collect urine samples over 24 hours for an accurate measure of the protein in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; If you have nephrotic syndrome, a blood test may show low levels of the protein albumin (hypoalbuminemia) specifically and, often, decreased levels of blood protein overall. Loss of albumin is often associated with an increase in blood cholesterol and blood triglycerides. Serum creatinine and blood urea also may be measured to assess your overall kidney function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of kidney tissue for testing.&lt;/strong&gt; Your doctor may recommend a procedure called a kidney biopsy to remove a small sample of kidney tissue for testing. During a kidney biopsy, a special needle is inserted through your skin and into your kidney. Kidney tissue is collected and sent to a laboratory for testing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for nephrotic syndrome involves treating any underlying medical condition that may be causing your nephrotic syndrome. Your doctor may also recommend medications that may help control your signs and symptoms or treat complications of nephrotic syndrome. Medications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure medications.&lt;/strong&gt; Drugs called angiotensin-converting enzyme inhibitors reduce blood pressure and also reduce the amount of protein released in urine. Medications in this category include benazepril (Lotensin), captopril (Capoten) and enalapril (Vasotec). Another group of drugs that works in a similar way is called angiotensin II receptor blockers and includes losartan (Cozaar) and valsartan (Diovan).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Water pills.&lt;/strong&gt; Water pills (diuretics) help control swelling by increasing your kidneys&apos; fluid output. Diuretic medications include furosemide (Lasix) or spironolactone (Aldactone).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cholesterol-reducing medications.&lt;/strong&gt; Medications called statins can help lower cholesterol levels. Statins include atorvastatin (Lipitor), fluvastatin (Lescol), lovastatin (Altoprev, Mevacor), pravastatin (Pravachol), rosuvastatin (Crestor) and simvastatin (Zocor).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood thinners.&lt;/strong&gt; Medications called anticoagulants help decrease your blood&apos;s ability to clot and reduce your risk of developing blood clots. Anticoagulants include heparin or warfarin (Coumadin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune-system-suppressing medications.&lt;/strong&gt; Medications to control the immune system, such as corticosteroids, may decrease the inflammation that accompanies certain kidney disorders, such as membranous nephropathy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Changes to your diet may help you cope with nephrotic syndrome. Your doctor may refer you to a dietitian to discuss how what you eat can help you cope with the complications of nephrotic syndrome. A dietitian may recommend that you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Choose lean sources of protein&lt;/li&gt;
+	&lt;li&gt;Reduce the amount of fat and cholesterol in your diet to help control your blood cholesterol levels&lt;/li&gt;
+	&lt;li&gt;Eat a low-salt diet to help control the swelling (edema) you experience&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nephrotic syndrome
+	</Title>
+	<Abstract>
+		Nephrotic syndrome &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this kidney disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ01212" LinkType="Internal" ObjectID="3900044F-0479-4EE7-B69ABBDC41E64B93" Title="Low-phosphorus diet: Best for kidney disease?" Url="http://www.mayoclinic.com/health/food-and-nutrition/HQ01212" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01223" LinkType="Internal" ObjectID="24BD87C1-066C-AE2F-22170FA021843FD4" Title="Kidney biopsy" Url="http://www.mayoclinic.com/health/kidney-biopsy/MY01223" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+	</RelatedLinksBox>
+</Disease>

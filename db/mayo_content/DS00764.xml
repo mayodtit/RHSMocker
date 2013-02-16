@@ -1,0 +1,406 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00764
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sudden-cardiac-arrest/DS00764
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-15
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1469" Title="Sudden cardiac arrest" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4565CA37-E7FF-0DBD-156F88FD6C6ED0B7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cardiac arrest
+			</MetaKeyword>
+			<MetaKeyword>
+				sudden cardiac arrest
+			</MetaKeyword>
+			<MetaKeyword>
+				sudden cardiac death
+			</MetaKeyword>
+			<MetaKeyword>
+				sudden death
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac death
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricular fibrillation
+			</MetaKeyword>
+			<MetaKeyword>
+				fatal heart arrhythmias
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sudden cardiac arrest is the sudden, unexpected loss of heart function, breathing and consciousness. Sudden cardiac arrest usually results from an electrical disturbance in your heart that disrupts its pumping action, stopping blood flow to the rest of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Sudden cardiac arrest is different from a heart attack, which occurs when blood flow to a portion of the heart is blocked. However, a heart attack can sometimes trigger an electrical disturbance that leads to sudden cardiac arrest. 
+&lt;/p&gt;
+&lt;p&gt;
+Sudden cardiac arrest is a medical emergency. If not treated immediately, it causes sudden cardiac death. With fast, appropriate medical care, survival is possible. Administering cardiopulmonary resuscitation (CPR) &amp;mdash; or even just compressions to the chest &amp;mdash; can improve the chances of survival until emergency personnel arrive. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sudden cardiac arrest symptoms are immediate and drastic. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden collapse&lt;/li&gt;
+	&lt;li&gt;No pulse&lt;/li&gt;
+	&lt;li&gt;No breathing&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes other signs and symptoms precede sudden cardiac arrest. These may include fatigue, fainting, blackouts, dizziness, chest pain, shortness of breath, weakness, palpitations or vomiting. But sudden cardiac arrest often occurs with no warning. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have frequent episodes of chest pain or discomfort, heart palpitations, irregular or rapid heartbeats, unexplained wheezing or shortness of breath, or fainting or near fainting or you&apos;re feeling lightheaded or dizzy, see your doctor promptly. If these symptoms are ongoing, you should call 911 or emergency medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+When the heart stops, the lack of oxygenated blood can cause brain damage in only a few minutes. Death or permanent brain damage can occur within four to six minutes. Time is critical when you&apos;re helping an unconscious person who isn&apos;t breathing. Take immediate action. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Call 911,&lt;/strong&gt; or the emergency number in your area, if you encounter someone who has collapsed or is found unresponsive. If the unconscious person is a child and you&apos;re alone, administer CPR, or chest compressions only, for two minutes before calling 911 or emergency medical help or before using a portable defibrillator.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perform CPR.&lt;/strong&gt; Quickly check the unconscious person&apos;s breathing. If he or she isn&apos;t breathing normally, begin CPR. Push hard and fast on the person&apos;s chest &amp;mdash; about 100 compressions a minute. If you&apos;ve been trained in CPR, check the person&apos;s airway and deliver rescue breaths after every 30 compressions. If you haven&apos;t been trained, just continue chest compressions. Allow the chest to rise completely between compressions. Keep doing this until a portable defibrillator is available or emergency personnel arrive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a portable defibrillator,&lt;/strong&gt; if one is available. If you&apos;re not trained to use a portable defibrillator, a 911 or emergency medical help operator may be able to guide you in its use. Deliver one shock if advised by the device and then immediately begin CPR starting with chest compressions, or give chest compressions only, for about two minutes. Using the defibrillator, check the person&apos;s heart rhythm. If necessary, the defibrillator will administer a shock. Repeat this cycle until the person recovers consciousness or emergency personnel take over.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Portable automated external defibrillators (AEDs) are available in an increasing number of places, including airports, casinos and shopping malls. You can also purchase them for your home. AEDs come with built-in instructions for their use. They&apos;re programmed to allow a shock only when appropriate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The immediate cause of sudden cardiac arrest is usually an abnormality in your heart rhythm (arrhythmia), the result of a problem with your heart&apos;s electrical system. 
+&lt;/p&gt;
+&lt;p&gt;
+Unlike other muscles in your body, which rely on nerve connections to receive the electrical stimulation they need to function, your heart has its own electrical stimulator &amp;mdash; a specialized group of cells called the sinus node located in the upper right chamber (right atrium) of your heart. The sinus node generates electrical impulses that flow in an orderly manner through your heart to synchronize the heart rate and coordinate the pumping of blood from your heart to the rest of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+If something goes wrong with the sinus node or the flow of electric impulses through your heart, an arrhythmia can result, causing your heart to beat too fast, too slow or in an irregular fashion. Often these interruptions in rhythm are momentary and harmless. But some types of arrhythmia can be serious and lead to a sudden stop in heart function (sudden cardiac arrest). 
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of cardiac arrest is an arrhythmia called ventricular fibrillation &amp;mdash; when rapid, erratic electrical impulses cause your ventricles to quiver uselessly instead of pumping blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Most of the time, cardiac-arrest-inducing arrhythmias don&apos;t occur on their own. In a person with a normal, healthy heart, a lasting irregular heart rhythm isn&apos;t likely to develop without an outside trigger, such as an electrical shock, the use of illegal drugs or trauma to the chest at just the wrong time of the heart&apos;s cycle (commotio cordis). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart conditions that can lead to sudden cardiac arrest&lt;/strong&gt;&lt;br /&gt;
+A life-threatening arrhythmia usually develops in a person with a pre-existing heart condition, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary artery disease.&lt;/strong&gt; Most cases of sudden cardiac arrest occur in people who have coronary artery disease. In coronary artery disease, your arteries become clogged with cholesterol and other deposits, reducing blood flow to your heart. This can make it harder for your heart to conduct electrical impulses smoothly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; If a heart attack occurs, often as a result of severe coronary artery disease, it can trigger ventricular fibrillation and sudden cardiac arrest. In addition, a heart attack can leave behind areas of scar tissue. Electrical short circuits around the scar tissue can lead to abnormalities in your heart rhythm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged heart (cardiomyopathy).&lt;/strong&gt; This occurs primarily when your heart&apos;s muscular walls stretch and enlarge or thicken. In both cases, your heart&apos;s muscle is abnormal, a condition that often leads to heart tissue damage and potential arrhythmias.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valvular heart disease.&lt;/strong&gt; Leaking or narrowing of your heart valves can lead to stretching or thickening of your heart muscle or both. When the chambers become enlarged or weakened because of stress caused by a tight or leaking valve, there&apos;s an increased risk of developing arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital heart disease.&lt;/strong&gt; When sudden cardiac arrest occurs in children or adolescents, it may be due to a heart condition that was present at birth (congenital heart disease). Even adults who&apos;ve had corrective surgery for a congenital heart defect still have a higher risk of sudden cardiac arrest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrical problems in the heart.&lt;/strong&gt; In some people, the problem is in the heart&apos;s electrical system itself instead of a problem with the heart muscle or valves. These are called primary heart rhythm abnormalities and include conditions such as Brugada&apos;s syndrome and long QT syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because sudden cardiac arrest is so often linked with coronary artery disease, the same factors that put you at risk of coronary artery disease may also put you at risk of sudden cardiac arrest. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A family history of coronary artery disease&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High blood cholesterol&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;A sedentary lifestyle&lt;/li&gt;
+	&lt;li&gt;Drinking too much alcohol (more than one to two drinks a day)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other factors that may increase your risk of sudden cardiac arrest include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A previous episode of cardiac arrest or a family history of cardiac arrest&lt;/li&gt;
+	&lt;li&gt;A previous heart attack&lt;/li&gt;
+	&lt;li&gt;A personal or family history of other forms of heart disease, such as heart rhythm disorders, congenital heart defects, heart failure and cardiomyopathy&lt;/li&gt;
+	&lt;li&gt;Age &amp;mdash; the incidence of sudden cardiac arrest increases with age, especially after age 45 for men and age 55 for women&lt;/li&gt;
+	&lt;li&gt;Being male &amp;mdash; men are two to three times more likely to experience sudden cardiac arrest&lt;/li&gt;
+	&lt;li&gt;Using illegal drugs, such as cocaine or amphetamines&lt;/li&gt;
+	&lt;li&gt;Nutritional imbalance, such as low potassium or magnesium levels&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When sudden cardiac arrest occurs, your brain is the first part of your body to suffer because, unlike other organs, it doesn&apos;t have a reserve of oxygen-rich blood. It&apos;s completely dependent on an uninterrupted supply of blood. Reduced blood flow to your brain causes unconsciousness. 
+&lt;/p&gt;
+&lt;p&gt;
+If your heart rhythm doesn&apos;t rapidly return to its normal rhythm, brain damage occurs and death results. If sudden cardiac arrest lasts more than 10 minutes, survival is rare. Survivors of cardiac arrest may show signs of brain damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience an episode of sudden cardiac arrest without warning and survive, your doctor will want to investigate what caused the cardiac arrest. Identifying the underlying problem may help prevent future episodes of cardiac arrest. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests your doctor may recommend include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram &lt;/strong&gt;&lt;br /&gt;
+A test commonly given after cardiac arrest is an electrocardiogram (ECG). During an ECG, sensors (electrodes) that can detect the electrical activity of your heart are attached to your chest and sometimes to your limbs. An ECG measures the timing and duration of each electrical phase in your heartbeat and can reveal disturbances in heart rhythm. Because injured heart muscle doesn&apos;t conduct electrical impulses normally, the ECG may show that a heart attack has occurred. An ECG can detect abnormal electrical patterns, such as a prolonged QT interval, that increase your risk of sudden death. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt;&lt;br /&gt;
+Blood tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac enzyme test.&lt;/strong&gt; Certain heart enzymes leak into your blood if your heart has been damaged by a heart attack. Because a heart attack can trigger sudden cardiac arrest, it&apos;s important to know whether you&apos;ve had a heart attack. Testing a blood sample for these enzymes may help indicate whether a heart attack has indeed occurred.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrolyte test.&lt;/strong&gt; A sample of your blood may also be tested for levels of electrolytes, such as potassium, calcium and magnesium. Electrolytes are minerals in your blood and body fluids that help create electrical impulses. An imbalance in the levels of these substances can increase your risk of arrhythmia and sudden cardiac arrest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug test.&lt;/strong&gt; Your doctor may check your blood for evidence of drugs that have the potential to induce arrhythmia, including certain prescription and over-the-counter drugs and illegal drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone test.&lt;/strong&gt; Testing for hyperthyroidism may indicate this condition as the trigger for your cardiac arrest.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt;&lt;br /&gt;
+These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray image of your chest allows your doctor to check the size and shape of your heart and its blood vessels. It may also indicate whether you have heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses sound waves to produce an image of your heart. An echocardiogram can help identify whether an area of your heart has been damaged by a heart attack and isn&apos;t pumping normally or at peak capacity (ejection fraction) or whether there are valvular abnormalities.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ejection fraction testing.&lt;/strong&gt; One of the most important predictors of your risk of sudden cardiac arrest is how well your heart is able to pump blood. Your doctor can determine your heart&apos;s pumping capacity by measuring what&apos;s called the ejection fraction. This refers to the percentage of blood that&apos;s pumped out of a filled ventricle with each heartbeat. A normal ejection fraction is 50 to 70 percent. An ejection fraction of less than 40 percent increases your risk of sudden cardiac arrest.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor can measure ejection fraction in several ways, such as with an echocardiogram, magnetic resonance imaging (MRI), a nuclear medicine scan (multiple gated acquisition, or MUGA), a computerized tomography (CT) scan or a cardiac catheterization 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nuclear scan.&lt;/strong&gt; This test, usually done along with a stress test, helps identify blood flow problems to your heart. Tiny amounts of radioactive material, such as thallium, are injected into your bloodstream. Special cameras can detect the radioactive material as it flows through your heart and lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other tests&lt;/strong&gt;&lt;br /&gt;
+Other tests that are often done include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Electrical system (electrophysiological) testing and mapping.&lt;/strong&gt; This test, if needed, is usually done later, after you&apos;ve recovered and if an underlying explanation for your cardiac arrest hasn&apos;t been found. With this type of test, your doctor may try to cause an arrhythmia while closely monitoring your heart. The test can help locate where in the heart the arrhythmia starts.
+	&lt;/p&gt;
+	&lt;p&gt;
+	During the test, thin, flexible tubes (catheters) tipped with electrodes are threaded through your blood vessels to a variety of spots within your heart. Once in place, the electrodes can precisely map the spread of electrical impulses through your heart. In addition, your cardiologist can use the electrodes to stimulate your heart to beat at rates that may trigger &amp;mdash; or halt &amp;mdash; an arrhythmia. This allows your doctor to observe the location of the arrhythmia. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Coronary catheterization (angiogram).&lt;/strong&gt; This test can show if your coronary arteries are narrowed or blocked. Along with ejection fraction, the number of obstructed blood vessels is another important predictor of sudden cardiac arrest.
+	&lt;/p&gt;
+	&lt;p&gt;
+	During the procedure, a liquid dye is injected into the arteries of your heart through a long, thin tube (catheter) that&apos;s advanced through an artery, usually in your leg, to arteries in your heart. As the dye fills your arteries, the arteries become visible on X-ray and videotape, revealing areas of blockage. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Also, while the catheter is in position, your doctor may treat a blockage by performing angioplasty and inserting a stent to hold the artery open. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sudden cardiac arrest requires immediate action for survival. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;CPR&lt;/strong&gt;&lt;br /&gt;
+Immediate cardiopulmonary resuscitation (CPR) is critical to treating sudden cardiac arrest. By maintaining a flow of oxygen-rich blood to the body&apos;s vital organs, CPR can provide a vital link until more advanced emergency care is available. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you don&apos;t know CPR but someone collapses unconscious near you, call 911 or emergency medical help. Then, if the person isn&apos;t breathing normally, immediately begin pushing hard and fast on the person&apos;s chest &amp;mdash; about 100 compressions a minute, allowing the chest to fully rise between compressions. Do this until an automated external defibrillator (AED) becomes available or emergency personnel arrive.&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;To perform CPR:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is the person conscious or unconscious?&lt;/li&gt;
+	&lt;li&gt;If the person appears unconscious, tap or shake his or her shoulder and ask loudly, &quot;Are you OK?&quot;&lt;/li&gt;
+	&lt;li&gt;If the person doesn&apos;t respond and two people are available, have one person call 911 or the local emergency number and one begin CPR.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re alone and have immediate access to a telephone, call 911 or the local emergency number before beginning CPR &amp;mdash; unless you think the person has become unresponsive because of suffocation (such as from drowning); in this special case, begin CPR for one minute and then call 911 or emergency medical help.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re alone and rescuing a child, perform CPR for two minutes before calling 911 or emergency help or using an AED.&lt;/li&gt;
+	&lt;li&gt;If an AED is immediately available, deliver one shock if advised by the device, then begin CPR.&lt;/li&gt;
+	&lt;li&gt;Start chest compressions by putting the heel of one hand in the center of the person&apos;s chest and covering the first hand with the other hand. Keeping your elbows straight, use your upper body weight to push down hard and fast on the person&apos;s chest at a rate of about 100 compressions a minute. For a child, you may need to use only one hand.&lt;/li&gt;
+	&lt;li&gt;If you haven&apos;t been trained in CPR, continue chest compressions until emergency medical help arrives.&lt;/li&gt;
+	&lt;li&gt;If you have been trained in CPR, after every 30 compressions, gently tilt the head back and lift the chin up to open the airway. Quickly check for normal breathing, taking no more than 10 seconds. If the person isn&apos;t breathing, give two rescue breaths, making sure the chest rises after a breath. Pinch the nostrils shut and give the first rescue breath &amp;mdash; lasting one second &amp;mdash; and watch to see if the chest rises. If it does rise, give the second breath. If the chest doesn&apos;t rise, repeat the head-tilt, chin-lift maneuver and then give the second breath.&lt;/li&gt;
+	&lt;li&gt;If a child has not begun moving after five cycles (about two minutes) and an AED is available, apply it and follow the prompts. Administer one shock if so advised, then resume CPR &amp;mdash; starting with chest compressions &amp;mdash; for two more minutes before administering a second shock. If you&apos;re not trained to use an AED, a 911 or emergency medical help operator may be able to guide you in its use.&lt;/li&gt;
+	&lt;li&gt;Continue CPR or chest compressions until the person recovers consciousness and is breathing normally or until emergency medical personnel take over.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Defibrillation&lt;/strong&gt;&lt;br /&gt;
+Advanced care for ventricular fibrillation, a type of arrhythmia that can cause sudden cardiac arrest, typically includes delivery of an electrical shock through the chest wall to the heart. The procedure, called defibrillation, momentarily stops the heart and the chaotic rhythm. This often allows the normal heart rhythm to resume. 
+&lt;/p&gt;
+&lt;p&gt;
+The shock may be administered by emergency personnel or by a citizen if a public-use defibrillator, the device used to administer the shock, is available. 
+&lt;/p&gt;
+&lt;p&gt;
+Defibrillators are available in a small, portable form and come with built-in automated instructions to ensure proper use. They&apos;re programmed to recognize ventricular fibrillation and send a shock only when it&apos;s appropriate. These portable defibrillators are available in an increasing number of public places, including airports, shopping malls, casinos, health clubs, and community and senior citizen centers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;At the emergency room&lt;/strong&gt;&lt;br /&gt;
+Once you arrive in the emergency room, the medical staff will work to stabilize your condition and treat a possible heart attack, heart failure or electrolyte imbalances. You may be given medications to stabilize your heart rhythm. 
+&lt;/p&gt;
+&lt;p&gt;
+The prognosis after sudden cardiac arrest varies. Some people may be in a coma for days, weeks or indefinitely. Others may recover only partial function. After you recover, your doctor will discuss with you or your family what additional tests you may need to determine the cause of the cardiac arrest. Your doctor will also discuss preventive treatment options with you to reduce your risk of another cardiac arrest. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Drugs.&lt;/strong&gt; Doctors use various anti-arrhythmic drugs for emergency or long-term treatment of arrhythmias or potential arrhythmia complications. A class of medications called beta blockers is commonly used in people at risk of sudden cardiac arrest. Other possible drugs include angiotensin-converting enzyme (ACE) inhibitors, calcium channel blockers or a drug called amiodarone (Cordarone). 
+	&lt;/p&gt;
+	&lt;p&gt;
+	As with any medication, anti-arrhythmic drugs may have potential side effects. For example, an anti-arrhythmic drug may cause your particular arrhythmia to occur more frequently &amp;mdash; or even cause a new arrhythmia to appear that&apos;s as bad as or worse than your pre-existing condition. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Implantable cardioverter-defibrillator (ICD).&lt;/strong&gt; After your condition stabilizes, your doctor is likely to recommend implantation of an ICD. An ICD is a battery-powered unit that&apos;s implanted near your left collarbone. One or more electrode-tipped wires from the ICD run through veins to your heart. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The ICD constantly monitors your heart rhythm. If it detects a rhythm that&apos;s too slow, it paces your heart as a pacemaker would. If it detects a dangerous heart rhythm change, it sends out low- or high-energy shocks to reset your heart to a normal rhythm. An ICD may be more effective than preventive drug treatment at reducing your chance of having a fatal arrhythmia. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary angioplasty.&lt;/strong&gt; This procedure opens blocked coronary arteries, letting blood flow more freely to your heart, which may reduce your risk of serious arrhythmia. Doctors insert a long, thin tube (catheter) that&apos;s passed through an artery, usually in your leg, to a blocked artery in your heart. This catheter is equipped with a special balloon tip that briefly inflates to open up a blocked coronary artery. At the same time, a metal mesh stent may be inserted into the artery to keep it open long term, restoring blood flow to your heart. Coronary angioplasty may be done at the same time as a coronary catheterization (angiogram), a procedure that doctors do first to locate narrowed arteries to the heart. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary bypass surgery.&lt;/strong&gt; Another procedure to improve blood flow is coronary bypass surgery. Bypass surgery involves sewing veins or arteries in place at a site beyond a blocked or narrowed coronary artery (bypassing the narrowed section), restoring blood flow to your heart. This may improve the blood supply to your heart and reduce the frequency of racing heartbeats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiofrequency catheter ablation.&lt;/strong&gt; This procedure may be used to block a single abnormal electrical pathway. In this procedure, one or more catheters are threaded through your blood vessels to your inner heart. They&apos;re positioned along electrical pathways identified by your doctor as causing your arrhythmia. Electrodes at the catheter tips are heated with radiofrequency energy. This destroys (ablates) a small spot of heart tissue and creates an electrical block along the pathway that&apos;s causing your arrhythmia. Usually this stops your arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corrective heart surgery.&lt;/strong&gt; If you have a congenital heart deformity, a faulty valve or diseased heart muscle tissue due to cardiomyopathy, surgery to correct the abnormality may improve your heart rate and blood flow, reducing your risk of fatal arrhythmias.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart transplantation.&lt;/strong&gt; Some people with severe heart failure who&apos;ve experienced cardiac arrest may be eligible for a heart transplant. But given the lack of donor hearts, availability is limited.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to know your risk of sudden cardiac arrest, so reducing your risk is the best strategy. Steps to take include regular checkups, screening for heart disease and living a heart-healthy lifestyle with the following approaches: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t smoke, and use alcohol in moderation (no more than one to two drinks a day).&lt;/li&gt;
+	&lt;li&gt;Eat a nutritious, balanced diet.&lt;/li&gt;
+	&lt;li&gt;Stay physically active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you know you have heart disease or conditions that make you more vulnerable to an unhealthy heart, your doctor may recommend that you take appropriate steps to improve your health, such as taking medications for high cholesterol or carefully managing diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+In some people with a known high risk of sudden cardiac arrest &amp;mdash; such as those with a heart condition &amp;mdash; doctors may recommend anti-arrhythmic drugs or an implantable cardioverter-defibrillator (ICD) as primary prevention. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a high risk of sudden cardiac arrest, you may also wish to consider purchasing an automated external defibrillator (AED) for home use. Before purchasing one, discuss the decision with your doctor. AEDs can be expensive and aren&apos;t always covered by health insurance. 
+&lt;/p&gt;
+&lt;p&gt;
+If you live with someone who is vulnerable to sudden cardiac arrest, it&apos;s important that you be trained in CPR. The American Red Cross and other organizations offer courses in CPR and defibrillator use to the public. Being trained will help not only your loved one but also those in your community. The more people who know how to respond to a cardiac emergency, the more the survival rate for sudden cardiac arrest can be improved. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sudden cardiac arrest
+	</Title>
+	<Abstract>
+		Sudden cardiac arrest &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this medical emergency.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00706" LinkType="Internal" ObjectID="3A7B8711-9791-52F2-E2B504985C2BCD1D" Title="Cardiac ablation" Url="http://www.mayoclinic.com/health/cardiac-ablation/MY00706" />
+		<LinkItem ContentType="FirstAid" DocID="FA00061" LinkType="Internal" ObjectID="103C3F3D-1A3B-4549-A2B5DF1D25D31BB5" Title="Cardiopulmonary resuscitation (CPR): First aid" Url="http://www.mayoclinic.com/health/first-aid-cpr/FA00061" />
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="Article" DocID="HB00092" LinkType="Internal" ObjectID="C7A5BBC2-E7FF-0DBD-1E13DE1C190A4C95" Title="Sudden death in young people &amp;mdash; Heart problems often blamed" Url="http://www.mayoclinic.com/health/sudden-death/HB00092" />
+	</RelatedLinksBox>
+</Disease>

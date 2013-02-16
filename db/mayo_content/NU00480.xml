@@ -1,0 +1,193 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00480
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00480
+		</OriginalURL>
+		<UpdateDate>
+			2007-07-12
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			972ED7A4-CBF3-4EE3-89B2A7EF5F7F873D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Chicken and asparagus tossed with penne
+	</Title>
+	<Abstract>
+		Chicken and asparagus tossed with penne &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Goat cheese, such as Montrachet, has a soft, creamy texture and a slightly tangy flavor. If you prefer, you can use other cheeses in this recipe, such as feta or Romano.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly. Set aside.&lt;/p&gt;
+
+&lt;p&gt;In a pot fitted with a steamer basket, bring 1 inch of water to a boil. Add the asparagus. Cover and steam until tender-crisp, about 2 to 3 minutes.&lt;/p&gt;
+
+&lt;p&gt;Spray a large nonstick frying pan with cooking spray. Add the chicken and garlic and saute over medium-high heat. Cook until the chicken is golden brown, about 5 to 7 minutes. Add the tomatoes, including their juice, and simmer 1 minute more.&lt;/p&gt;
+
+&lt;p&gt;In a large bowl, add the cooked pasta, steamed asparagus, chicken mixture and goat cheese. Toss gently to mix evenly.&lt;/p&gt;
+
+&lt;p&gt;To serve, divide the pasta mixture between 2 plates. Sprinkle each serving with 1/2 tablespoon Parmesan cheese. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 1/2 cups uncooked penne pasta&lt;br /&gt;
+1 cup chopped asparagus&lt;br /&gt;
+6 ounces boneless, skinless chicken breasts, cut into 1-inch cubes&lt;br /&gt;
+2 cloves garlic, minced&lt;br /&gt;
+1 can (14.5 ounces) diced tomatoes with herbs, including juice&lt;br /&gt;
+1 ounce soft goat cheese, crumbled&lt;br /&gt;
+1 tablespoon Parmesan cheese&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				3
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				4
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				3
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				455
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				55 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				81 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6.5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				41 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				3.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				240 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				8 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Pasta
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

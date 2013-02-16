@@ -1,0 +1,296 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01128
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/iritis/DS01128
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="3141" Title="Iritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FEC76C21-E7FF-0DBD-154DAA50C025EAED
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				iritis
+			</MetaKeyword>
+			<MetaKeyword>
+				iritis symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				iritis causes
+			</MetaKeyword>
+			<MetaKeyword>
+				causes of iritis
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of iritis
+			</MetaKeyword>
+			<MetaKeyword>
+				eye inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				red eye
+			</MetaKeyword>
+			<MetaKeyword>
+				eye pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Iritis (i-RYE-tis) is inflammation that affects a part of your eye called the iris. The iris is the colored ring of tissue surrounding your pupil. It&apos;s part of the middle layer of the eye known as the uvea, which is why this condition is considered a type of uveitis (u-ve-I-tis), or inflammation of the uvea. Because the iris is located at the front of the uvea, iritis is sometimes called anterior uveitis.
+&lt;/p&gt;
+&lt;p&gt;
+The cause of iritis is often unknown. But sometimes, iritis results from an underlying condition or genetic factor.
+&lt;/p&gt;
+&lt;p&gt;
+Iritis is a serious condition that, if left untreated, could lead to glaucoma or blindness. If you have symptoms of iritis, see your doctor as soon as possible for evaluation and treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of iritis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye redness, often seen as a bluish-pink color in the white of your eye (sclera) around the iris&lt;/li&gt;
+	&lt;li&gt;Discomfort or achiness in the affected eye&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light (photophobia)&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Floating spots in your vision (eye floaters)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Iritis usually isn&apos;t associated with discharge from the eyes.
+&lt;/p&gt;
+&lt;p&gt;
+When symptoms of iritis develop suddenly, over hours or days, this is referred to as acute iritis. Symptoms that develop gradually or last longer than six weeks indicate chronic iritis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See an eye specialist as soon as possible if you have symptoms of iritis. Prompt treatment helps prevent serious complications of the condition. If you&apos;re experiencing eye pain and vision problems, along with other signs and symptoms, you may need urgent medical care.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, the cause of iritis can&apos;t be determined. In some cases, however, iritis can be linked to eye trauma, genetic factors or certain diseases. Known causes of iritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to the eye.&lt;/strong&gt; Blunt force trauma, a penetrating injury or burn (chemical or thermal) to your eye can cause acute iritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Herpes zoster &amp;mdash; commonly known as shingles &amp;mdash; can cause iritis if you have a skin eruption on your face. Other infectious diseases, such as toxoplasmosis, histoplasmosis, tuberculosis and syphilis, may be linked to other types of uveitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic predisposition.&lt;/strong&gt; People with HLA-B27, a specific alteration of a gene that&apos;s essential to immune system function, are more likely to develop certain autoimmune diseases, such as ankylosing spondylitis, Reiter&apos;s syndrome, inflammatory bowel disease and psoriatic arthritis. Acute iritis may occur in people with these diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Behcet&apos;s disease.&lt;/strong&gt; An uncommon cause of acute iritis in Western countries, this condition is also characterized by joint problems, mouth sores and genital lesions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Juvenile rheumatoid arthritis.&lt;/strong&gt; Chronic iritis can develop in children with juvenile rheumatoid arthritis.In cases where the condition is mild and affects only a few joints, iritis may be one of the first indications of the condition. Because the two conditions are so commonly associated with each other, doctors often routinely screen for iritis or other types of uveitis in children with juvenile rheumatoid arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some drugs, such as the antibiotic rifabutin (Mycobutin) and the antiviral medication cidofovir (Vistide) that are used to treat HIV infections, may cause iritis. Stopping these medications usually stops the iritis symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Posterior uveitis.&lt;/strong&gt; Inflammation starting in the back part of your eye (posterior uveitis) can have a spillover effect on the parts of the uvea at the front of your eye.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the uvea where uveitis occurs 
+" Caption="The uvea consists of the layer and structures of the eye beneath the white of the eye (sclera). It has three parts: (1) the iris, which is the colored part of the eye; (2) the choroid layer, which is the layer of blood vessels and connective tissue between the sclera and the retina; and (3) the ciliary body, which is the structure in the eye that secretes the transparent liquid within the eye. 
+" Height="60" Title="Eye with uvea" URI="/images/image_popup/thumbs/ans7_uveitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of the uvea where uveitis occurs 
+" Caption="The uvea consists of the layer and structures of the eye beneath the white of the eye (sclera). It has three parts: (1) the iris, which is the colored part of the eye; (2) the choroid layer, which is the layer of blood vessels and connective tissue between the sclera and the retina; and (3) the ciliary body, which is the structure in the eye that secretes the transparent liquid within the eye. 
+" Height="400" Title="Eye with uvea" URI="/images/image_popup/ans7_uveitis2.jpg" Width="400" />
+				<HTML>
+					The uvea consists of the layer and structures of the eye beneath the white of the eye (sclera). It has three parts: (1) the iris, which is the colored part of the eye; (2) the choroid layer, which is ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of developing iritis increases if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a specific genetic alteration. People with HLA-B27, a specific change in a gene that&apos;s essential for healthy immune system function, are more likely to develop iritis.&lt;/li&gt;
+	&lt;li&gt;Develop a sexually transmitted infection (STI), because infections such as syphilis or human immunodeficiency virus (HIV) are linked with a significantly increased risk of iritis.&lt;/li&gt;
+	&lt;li&gt;Live in certain geographic locations where infectious causes are more prevalent, for instance, in the U.S. in the Ohio or Mississippi river valleys where histoplasmosis &amp;mdash; a fungal infection &amp;mdash; occurs more frequently.&lt;/li&gt;
+	&lt;li&gt;Have a compromised immune system or autoimmune disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If not treated properly, iritis could lead to complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cataracts.&lt;/strong&gt; Development of a clouding of the lens of your eye (cataract) is a possible complication, especially if you&apos;ve experienced a long period of inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An irregular pupil.&lt;/strong&gt; Scar tissue can cause the iris to stick to the underlying lens or the peripheral cornea, making the pupil irregular in shape and the iris sluggish in it&amp;rsquo;s reaction to light.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glaucoma.&lt;/strong&gt; Recurrent iritis can result in glaucoma, a serious eye condition characterized by increased pressure inside the eye (intraocular) and possible vision loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium deposits on the cornea (band keratopathy).&lt;/strong&gt; This condition results in degeneration of your cornea and could decrease your vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling within the retina (cystoid macular edema).&lt;/strong&gt; Swelling and fluid-filled cysts that develop in the retina at the back of the eye (macular retina) can blur or decrease your central vision.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with a doctor who specializes in eye care &amp;mdash; an optometrist or an ophthalmologist &amp;mdash; who can evaluate iritis and perform a complete eye exam. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Make the best use of limited time with your doctor by preparing beforehand. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that may seem unrelated to your vision problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to accompany you.&lt;/strong&gt; Having your pupils dilated for the eye exam will affect your vision for a time afterward. You may need someone to drive or accompany you after your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your eye doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can iritis permanently affect my vision?&lt;/li&gt;
+	&lt;li&gt;Do I need to come back for any follow-up exams? When?&lt;/li&gt;
+	&lt;li&gt;What should I do if my symptoms don&apos;t go away or seem to worsen?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions your eye doctor may ask&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice symptoms?&lt;/li&gt;
+	&lt;li&gt;Are symptoms present in one or both eyes?&lt;/li&gt;
+	&lt;li&gt;Do you feel pain in your eye after touching your eyelid?&lt;/li&gt;
+	&lt;li&gt;Do you have headaches?&lt;/li&gt;
+	&lt;li&gt;Does bright light worsen your eye pain?&lt;/li&gt;
+	&lt;li&gt;Do you have blurred vision?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble seeing things near you, at a distance or both?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced an injury or other trauma to your eye?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a viral-like illness?&lt;/li&gt;
+	&lt;li&gt;Do you have symptoms of arthritis, such as joint pain?&lt;/li&gt;
+	&lt;li&gt;Do you have any sores in your mouth or on your genitals?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for iritis before?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other eye condition?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before diagnosing iritis, your eye doctor will conduct a complete eye exam, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;External examination.&lt;/strong&gt; During an external exam, your doctor may use a penlight to look at your pupils, observe the pattern of redness in your eye or eyes, and check for signs of discharge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visual acuity.&lt;/strong&gt; Your doctor will note your visual acuity using an eye chart and other standard tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slit-lamp examination.&lt;/strong&gt; Using a special microscope with a light on it, your eye doctor views the inside of your eye looking for signs of iritis, including the presence of white blood cells or hazy protein deposits (flare). To better view your eye&apos;s interior, your doctor may give you eyedrops to dilate your pupil.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glaucoma testing.&lt;/strong&gt; During a glaucoma test, the pressure in your eyes (intraocular pressure) is measured. Elevated intraocular pressure indicates that you may have glaucoma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your eye doctor suspects that a disease or condition is causing your iritis, he or she may work closely with your primary care provider to pinpoint the underlying cause. In that case, further testing may include blood tests or X-rays to identify or rule out specific causes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main goals in treating iritis are to preserve vision and relieve any pain associated with the condition.
+&lt;/p&gt;
+&lt;p&gt;
+Most often, treatment for iritis involves:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid eyedrops.&lt;/strong&gt; Glucocorticoid medications, given as eyedrops, reduce inflammation associated with iritis. They work by stabilizing cell membranes in your eye and minimizing the circulation of white blood cells and other byproducts of the inflammatory process.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dilating eyedrops.&lt;/strong&gt; Cycloplegics are medicines that dilate your pupil. Given as eyedrops, they can reduce pain associated with iritis. Dilating eyedrops also protect you from developing adhesions underneath your iris, which can lead to potential complications, including glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic eyedrops.&lt;/strong&gt; If your iritis is caused by a bacterial infection, your doctor will prescribe antibiotic eyedrops.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your symptoms don&apos;t clear up, or seem to get worse, your eye doctor might prescribe oral medications that may include steroids or other anti-inflammatory agents. However, taking the medicine orally has the potential to affect not only your eyes, but other parts of your body as well. Your doctor will consider your overall condition before prescribing oral medications to treat your iritis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Iritis
+	</Title>
+	<Abstract>
+		Iritis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this inflammation of the eye&apos;s iris.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00476" LinkType="Internal" ObjectID="91BACD0E-0792-44DD-9005DD8966E2754B" Title="Psoriatic arthritis" Url="http://www.mayoclinic.com/health/psoriatic-arthritis/DS00476" />
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+	</RelatedLinksBox>
+</Disease>

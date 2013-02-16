@@ -1,0 +1,322 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00907
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cryptosporidium/DS00907
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-04
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3210" Title="Cryptosporidium infection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A4C6625-E7FF-0DBD-1990CD2605E84781
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cryptosporidium infection
+			</MetaKeyword>
+			<MetaKeyword>
+				crypto
+			</MetaKeyword>
+			<MetaKeyword>
+				cryptosporidiosis
+			</MetaKeyword>
+			<MetaKeyword>
+				waterborne illness
+			</MetaKeyword>
+			<MetaKeyword>
+				parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				outbreak
+			</MetaKeyword>
+			<MetaKeyword>
+				Milwaukee
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cryptosporidium infection (cryptosporidiosis) is a gastrointestinal disease whose primary symptom is diarrhea. The illness begins when the tiny cryptosporidium parasites enter your body and travel to your small intestine. Cryptosporidium (krip-toe-spo-RID-ee-um) then begins its life cycle inside your body &amp;mdash; burrowing into the walls of your intestines and then later being shed in your feces. 
+&lt;/p&gt;
+&lt;p&gt;
+In most healthy people, a cryptosporidium infection produces a bout of watery diarrhea and the infection usually goes away within a week or two. If you have a compromised immune system, a cryptosporidium infection can become life-threatening without proper treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+You can help prevent cryptosporidium by practicing good hygiene and by avoiding drinking water that hasn&apos;t been boiled or filtered. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first signs and symptoms usually appear two to seven days after infection with cryptosporidium and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery diarrhea&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Stomach cramps or pain&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms may last for up to two weeks, though they may come and go sporadically for up to a month, even in people with healthy immune systems. Some people with cryptosporidium infection may have no symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek medical attention if you develop watery diarrhea that does not get better within several days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cryptosporidium infection begins when you ingest the cells of one of nearly a dozen species of the one-celled cryptosporidium parasite. The Cryptosporidium parvum (C. parvum) species is responsible for the majority of infections in humans. 
+&lt;/p&gt;
+&lt;p&gt;
+These parasites then travel to your intestinal tract, where they settle into the walls of your intestines. Eventually, more cells are produced and shed in massive quantities into your feces, where they are highly contagious. 
+&lt;/p&gt;
+&lt;p&gt;
+You can become infected with cryptosporidium by touching anything that has come in contact with contaminated feces. Methods of infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowing&lt;/strong&gt; or putting something contaminated with cryptosporidium into your mouth&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking&lt;/strong&gt; water contaminated with cryptosporidium&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swimming&lt;/strong&gt; in water contaminated with cryptosporidium and accidentally swallowing some of it&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating&lt;/strong&gt; uncooked food contaminated with cryptosporidium&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Touching&lt;/strong&gt; your hand to your mouth if your hand has been in contact with a contaminated surface or object&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having close contact&lt;/strong&gt; with other infected people or animals &amp;mdash; especially their feces &amp;mdash; which can allow the parasite to be transmitted from your hands to your mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a compromised immune system from HIV/AIDS, you&apos;re more susceptible to illness from cryptosporidium than is a person with a healthy immune system. People with HIV/AIDS can develop severe symptoms and a chronic, persistent form of disease that may be difficult to treat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hardy parasites&lt;/strong&gt; &lt;br /&gt;
+Cryptosporidium is one of the most common causes of diarrhea in humans. This parasite is difficult to eradicate because it&apos;s resistant to many chlorine-based disinfectants and can&apos;t be effectively removed by many filters. Cryptosporidium can also survive in the environment for many months at varying temperatures, though the parasite can be destroyed by freezing or boiling. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who are at increased risk of developing cryptosporidiosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Those who are exposed to contaminated water&lt;/li&gt;
+	&lt;li&gt;Children, particularly those wearing diapers, who attend child care centers&lt;/li&gt;
+	&lt;li&gt;Parents of infected children&lt;/li&gt;
+	&lt;li&gt;Child care workers&lt;/li&gt;
+	&lt;li&gt;Animal handlers&lt;/li&gt;
+	&lt;li&gt;Those who engage in oral-to-anal sexual activity&lt;/li&gt;
+	&lt;li&gt;International travelers, especially those traveling to developing countries&lt;/li&gt;
+	&lt;li&gt;Backpackers, hikers and campers who drink untreated, unfiltered water&lt;/li&gt;
+	&lt;li&gt;Swimmers who swallow water in pools, lakes and rivers&lt;/li&gt;
+	&lt;li&gt;People who drink water from shallow, unprotected wells&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of cryptosporidium infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Malnutrition resulting from poor absorption of nutrients from your intestinal tract (malabsorption)&lt;/li&gt;
+	&lt;li&gt;Severe dehydration&lt;/li&gt;
+	&lt;li&gt;Significant weight loss (wasting)&lt;/li&gt;
+	&lt;li&gt;Inflammation of a bile duct &amp;mdash; the passage between your liver, gallbladder and small intestine&lt;/li&gt;
+	&lt;li&gt;Inflammation of your gallbladder, liver or pancreas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cryptosporidium infection itself isn&apos;t life-threatening. However, if you&apos;ve had a transplant or if you have a weakened immune system, developing complications can be dangerous. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary physician. However, in some cases, he or she may refer you to a doctor who specializes in infectious diseases or a doctor who specializes in disorders of the gastrointestinal tract (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent travel, especially to other countries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For cryptosporidiosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need, if any?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Have you been swimming recently?&lt;/li&gt;
+	&lt;li&gt;Have you traveled out of the country recently?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you&apos;re waiting to see your doctor, make sure to stay well hydrated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may undergo the following tests to diagnose cryptosporidium infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acid-staining test.&lt;/strong&gt; The simplest way to diagnose cryptosporidium infection is a method called an acid-staining test, which identifies cryptosporidium under a microscope. To obtain cells for the analysis, your doctor might ask for a stool sample, or in more extreme cases, take a tissue sample (biopsy) from your intestine for the test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool culture.&lt;/strong&gt; Your doctor might also order a standard stool culture. Although this test cannot detect the presence of cryptosporidium, it may help rule out other bacterial pathogens.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Other tests.&lt;/strong&gt; Once it&apos;s clear that your infection is cryptosporidium, you may need further testing to check for development of serious complications. For example, checking liver and gallbladder function may determine whether the infection has spread.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you have both AIDS and cryptosporidiosis, a T cell count &amp;mdash; which measures the level of a certain white blood cell that&apos;s part of your immune system &amp;mdash; can help predict the duration of the cryptosporidiosis. A high T cell count means you&apos;re more likely to recover quickly, while a low count means you may need to be monitored for further complications. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no commonly advised specific treatment for cryptosporidiosis, and recovery usually depends on the health of your immune system. Most healthy people recover within two weeks without medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a compromised immune system, the illness can last and lead to significant malnutrition and wasting. The goal of treatment is to alleviate symptoms and improve your immune response. Cryptosporidium treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-parasitic drugs.&lt;/strong&gt; Medications such as nitazoxanide (Alinia) can help alleviate diarrhea by attacking the metabolic processes of the cryptosporidium organisms. Azithromycin (Zithromax) may be given along with one of these medications in people with compromised immune systems. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-motility agents.&lt;/strong&gt; These medications slow down the movements of your intestines and increase fluid absorption to relieve diarrhea and restore normal stools. Anti-motility drugs include loperamide and its derivatives (Imodium A-D, others). Talk with your doctor before taking any of these medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid replacement.&lt;/strong&gt; You&apos;ll need oral or intravenous replacement of fluids and electrolytes &amp;mdash; minerals such as sodium, potassium and calcium that maintain the balance of fluids in your body &amp;mdash; lost to persistent diarrhea. These precautions will help keep your body hydrated and functioning properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-retroviral therapies.&lt;/strong&gt; If you have HIV/AIDS, highly active anti-retroviral therapy (HAART) can reduce the viral load in your body and boost your immune response. Restoring your immune system to a certain level may completely resolve symptoms of cryptosporidiosis. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cryptosporidium infection is contagious, so take precautions to avoid spreading the parasite to other people. 
+&lt;/p&gt;
+&lt;p&gt;
+All preventive methods aim to reduce or prevent the transmission of the cryptosporidium germs that are shed in human and animal feces. Precautions are especially important for people with compromised immune systems. Follow these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good hygiene.&lt;/strong&gt; Wash your hands with soap and water after using the toilet, changing diapers, and before and after eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thoroughly wash&lt;/strong&gt; all fruits and vegetables that you will eat raw, and avoid eating any food you suspect might be contaminated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Purify drinking water&lt;/strong&gt; if you have a weakened immune system or are traveling in an area with a high risk of infection. Methods include boiling &amp;mdash; at least one minute at a rolling boil &amp;mdash; or filtering, although filtering may not be as effective as boiling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit swimming activities&lt;/strong&gt; in lakes, streams and public swimming pools, especially if the water is likely to be contaminated or if you have a compromised immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid fecal exposure&lt;/strong&gt; during sexual activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Handle newborn farm and domestic animals with care.&lt;/strong&gt; Be sure to wash your hands after handling the animals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Always refrain from swimming anytime you&apos;re experiencing diarrhea. If you know you&apos;ve had a cryptosporidium infection, don&apos;t go swimming for at least two weeks after your symptoms subside because you may still be contagious. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cryptosporidium infection
+	</Title>
+	<Abstract>
+		Cryptosporidium infection &amp;mdash; Comprehensive overview covers signs, symptoms, diagnosis and treatment of this diarrheal disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01153" LinkType="Internal" ObjectID="A92F4CA9-AD91-E292-96BC7171EF5BABC2" Title="Cholecystitis" Url="http://www.mayoclinic.com/health/cholecystitis/DS01153" />
+	</RelatedLinksBox>
+</Disease>

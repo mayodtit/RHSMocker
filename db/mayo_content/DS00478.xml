@@ -1,0 +1,372 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00478
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/acromegaly/DS00478
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-05
+		</UpdateDate>
+		<PublicationDate>
+			2003-01-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1461" Title="Pituitary">
+						<Keyword MCVID="2467" Title="Acromegaly" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1EC8F4C0-4627-4349-A3C7F1DE85AE7702
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acromegaly
+			</MetaKeyword>
+			<MetaKeyword>
+				gigantism
+			</MetaKeyword>
+			<MetaKeyword>
+				growth hormone
+			</MetaKeyword>
+			<MetaKeyword>
+				GH
+			</MetaKeyword>
+			<MetaKeyword>
+				insulin-like growth factor
+			</MetaKeyword>
+			<MetaKeyword>
+				IGF-I
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary gland
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary adenoma
+			</MetaKeyword>
+			<MetaKeyword>
+				growth hormone producing pituitary adenoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acromegaly is a hormonal disorder that develops when your pituitary gland produces too much growth hormone during adulthood. When this happens, your bones increase in size, including those of your hands, feet and face. Acromegaly usually affects middle-aged adults. 
+&lt;/p&gt;
+&lt;p&gt;
+In children who are still growing, too much growth hormone can cause a condition called gigantism. These children have exaggerated bone growth and an abnormal increase in height. 
+&lt;/p&gt;
+&lt;p&gt;
+Because acromegaly is uncommon and physical changes occur gradually, the condition often isn&apos;t recognized immediately; sometimes not for years. If not treated promptly, acromegaly can lead to serious illness and even become life-threatening. However, available treatments for acromegaly can reduce your risk of complications and significantly improve your symptoms, including the enlargement of your features. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing person with acromegaly 
+" Caption="Acromegaly is a disorder characterized by an enlarged face and hands. As the face changes shape, the jaw may protrude, the nose may enlarge, and the lips may thicken. 
+" Height="60" Title="Acromegaly" URI="/images/image_popup/thumbs/ha7_acromegalythu.jpg" Width="60" />
+				<Image Alt="Illustration showing person with acromegaly 
+" Caption="Acromegaly is a disorder characterized by an enlarged face and hands. As the face changes shape, the jaw may protrude, the nose may enlarge, and the lips may thicken. 
+" Height="518" Title="Acromegaly" URI="/images/image_popup/ha7_acromegaly.jpg" Width="400" />
+				<HTML>
+					Acromegaly is a disorder characterized by an enlarged face and hands. As the face changes shape, the jaw may protrude, the nose may enlarge, and the lips may thicken. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the most common signs of acromegaly is enlarged hands and feet. People with this disorder often notice that they can no longer put on rings that used to fit and that their shoe size has progressively increased.
+&lt;/p&gt;
+&lt;p&gt;
+Acromegaly may also cause you to experience gradual changes in the shape of your face, such as a protruding lower jaw and brow, an enlarged nose, thickened lips, and wider spacing between your teeth.
+&lt;/p&gt;
+&lt;p&gt;
+Because acromegaly tends to progress slowly, early signs may not be readily apparent for several years. Sometimes, people notice the condition only by comparing old photographs. 
+&lt;/p&gt;
+&lt;p&gt;
+Acromegaly may produce the following signs and symptoms, which can vary from one person to another:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Enlarged hands and feet&lt;/li&gt;
+	&lt;li&gt;Coarsened, enlarged facial features&lt;/li&gt;
+	&lt;li&gt;Coarse, oily, thickened skin&lt;/li&gt;
+	&lt;li&gt;Excessive sweating and body odor&lt;/li&gt;
+	&lt;li&gt;Small outgrowths of skin tissue (skin tags)&lt;/li&gt;
+	&lt;li&gt;Fatigue and muscle weakness&lt;/li&gt;
+	&lt;li&gt;A deepened, husky voice due to enlarged vocal cords and sinuses&lt;/li&gt;
+	&lt;li&gt;Severe snoring due to obstruction of the upper airway&lt;/li&gt;
+	&lt;li&gt;Impaired vision&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Enlarged tongue&lt;/li&gt;
+	&lt;li&gt;Pain and limited joint mobility&lt;/li&gt;
+	&lt;li&gt;Menstrual cycle irregularities in women&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction in men&lt;/li&gt;
+	&lt;li&gt;Enlarged liver, heart, kidneys, spleen and other organs&lt;/li&gt;
+	&lt;li&gt;Increased chest size (barrel chest)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have signs and symptoms associated with acromegaly, contact your doctor for an evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+Acromegaly usually develops slowly, and even your family members may not initially notice the gradual physical changes that occur with this disorder. Early diagnosis is important, however, so that you can receive proper care. Acromegaly can lead to serious complications if it&apos;s not treated.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing person with acromegaly 
+" Caption="Acromegaly is a disorder characterized by an enlarged face and hands. As the face changes shape, the jaw may protrude, the nose may enlarge, and the lips may thicken. 
+" Height="60" Title="Acromegaly" URI="/images/image_popup/thumbs/ha7_acromegalythu.jpg" Width="60" />
+				<Image Alt="Illustration showing person with acromegaly 
+" Caption="Acromegaly is a disorder characterized by an enlarged face and hands. As the face changes shape, the jaw may protrude, the nose may enlarge, and the lips may thicken. 
+" Height="518" Title="Acromegaly" URI="/images/image_popup/ha7_acromegaly.jpg" Width="400" />
+				<HTML>
+					Acromegaly is a disorder characterized by an enlarged face and hands. As the face changes shape, the jaw may protrude, the nose may enlarge, and the lips may thicken. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acromegaly is caused by the pituitary gland overproducing growth hormone (GH) over time. The pituitary, a small gland situated at the base of your brain behind the bridge of your nose, produces a number of hormones. GH plays an important role in managing your physical growth. 
+&lt;/p&gt;
+&lt;p&gt;
+When GH is secreted into your bloodstream, it triggers your liver to produce a hormone called insulin-like growth factor-I (IGF-I). In turn, IGF-I stimulates the growth of bones and other tissues. If your pituitary gland makes too much GH, excessive amounts of IGF-I can result. Too much IGF-I can cause abnormal growth of your soft tissues and skeleton and other signs and symptoms characteristic of acromegaly and gigantism. 
+&lt;/p&gt;
+&lt;p&gt;
+In adults, a tumor is the most common cause of too much GH production: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pituitary tumors&lt;/strong&gt;. Most cases of acromegaly are caused by a noncancerous (benign) tumor (adenoma) of the pituitary gland. The tumor secretes excessive amounts of growth hormone, causing many of the signs and symptoms of acromegaly. Some of the symptoms of acromegaly, such as headaches and impaired vision, are due to the tumor mass pressing on nearby brain tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonpituitary tumors&lt;/strong&gt;. In a few people with acromegaly, tumors in other parts of the body, such as the lungs, pancreas or adrenal glands, cause the disorder. Sometimes, these tumors actually secrete GH. In other cases, the tumors produce a hormone called growth hormone-releasing hormone (GH-RH), which stimulates the pituitary to make more GH.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="60" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/thumbs/m7_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="344" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/m7_glands.jpg" Width="400" />
+				<HTML>
+					The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Progression of acromegaly can result in major health problems. Complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Cardiovascular disease, particularly enlargement of the heart (cardiomyopathy)&lt;/li&gt;
+	&lt;li&gt;Osteoarthritis&lt;/li&gt;
+	&lt;li&gt;Diabetes mellitus&lt;/li&gt;
+	&lt;li&gt;Precancerous growths (polyps) on the lining of your colon&lt;/li&gt;
+	&lt;li&gt;Sleep apnea, a condition in which breathing repeatedly stops and starts during sleep&lt;/li&gt;
+	&lt;li&gt;Carpal tunnel syndrome&lt;/li&gt;
+	&lt;li&gt;Reduced secretion of other pituitary hormones (hypopituitarism)&lt;/li&gt;
+	&lt;li&gt;Uterine fibroids, benign tumors in the uterus&lt;/li&gt;
+	&lt;li&gt;Spinal cord compression&lt;/li&gt;
+	&lt;li&gt;Vision loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Early treatment of acromegaly can prevent these complications from developing or becoming worse. If untreated, acromegaly and its complications can lead to premature death.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases, you may be referred immediately to a doctor who specializes in hormonal disorders (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s good to prepare for your appointment. Here&apos;s some information to help you get ready for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+What you can do 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions&lt;/strong&gt;. When you make the appointment, ask if there&apos;s anything you need to do to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the symptoms you&apos;re experiencing&lt;/strong&gt;. Your doctor will want to know about anything that is causing you discomfort or concern, such as headaches, vision changes or discomfort in your hands, even if those symptoms seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any changes in your sex life or, if you&apos;re a woman, in your menstrual cycle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications&lt;/strong&gt;, vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along old photographs&lt;/strong&gt; that your doctor can use to compare against your appearance today. Your doctor will likely be interested in photos from 10 years ago through the present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along a family member or friend, if possible&lt;/strong&gt;. Someone who accompanies you may remember something that you miss or forget.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For acromegaly, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available for this condition? Which approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How long will I need treatment before my symptoms improve?&lt;/li&gt;
+	&lt;li&gt;With treatment, will I go back to looking and feeling as I did before I developed symptoms of acromegaly?&lt;/li&gt;
+	&lt;li&gt;Will I have long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing, and when did they appear?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in how you feel or how you look? Has your sex life changed? How are you sleeping? Do you have headaches or joint pain, or has your vision changed? Have you noticed excessive sweating?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;How much would you say your features have changed over time? Do you have old pictures I can use for comparison?&lt;/li&gt;
+	&lt;li&gt;Do your old shoes and rings still fit? If not, how much has their fit changed over time?&lt;/li&gt;
+	&lt;li&gt;Have you had colon cancer screening?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To begin the diagnostic process, your doctor will take a medical history and conduct a physical exam. Then he or she may recommend the following steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;GH and IGF-I measurement&lt;/strong&gt;. After you&apos;ve fasted overnight, your doctor will take a blood sample to measure your levels of GH and IGF-I. Elevated levels of these hormones suggest acromegaly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth hormone suppression test&lt;/strong&gt;. This is the definitive method for verifying acromegaly. In this test, your blood levels of GH are measured before and after you drink a preparation of sugar (glucose). Normally, glucose ingestion depresses levels of GH. If you have acromegaly, your GH level will tend to stay high.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging&lt;/strong&gt;. Your doctor may recommend that you undergo an imaging procedure, such as magnetic resonance imaging (MRI), to help pinpoint the location and size of a tumor of your pituitary gland. If radiologists, who usually perform the procedures, see no tumor of your pituitary, they may look for nonpituitary tumors that might be responsible for high levels of GH.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment focuses on lowering your production of GH, as well as reducing the negative effects of the tumor on the pituitary and surrounding tissues. You may need more than one type of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Doctors can remove most pituitary tumors using a method called transsphenoidal surgery. In this procedure, your surgeon works through your nose to extract the pituitary tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+Removing the tumor can normalize GH production and eliminate the pressure on the tissues surrounding your pituitary to relieve associated signs and symptoms. In some cases, your surgeon may not be able to remove the entire tumor. This may result in persistently elevated GH levels after surgery, requiring further medical or radiation treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the complex nature of the procedure, it&apos;s important to choose a surgeon experienced in performing this type of surgery. Usually, the more experienced the surgeon, the better the final outcome.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Drugs used to lower the production or block the action of GH include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Somatostatin analogues&lt;/strong&gt;. The drugs octreotide (Sandostatin) and lanreotide (Somatuline Depot) are synthetic versions of the brain hormone somatostatin. They can interfere with the excessive secretion of GH by the pituitary, and thus can produce rapid declines in GH levels. When starting octreotide treatment, you initially inject yourself with a short-acting preparation under your skin (subcutaneously) three times a day to determine if you have any side effects from the medication and if it&apos;s effective. Then, if it&apos;s tolerated and effective, you can take a long-acting form that requires an injection into the muscles of your buttocks (gluteal muscles) by a health care professional, administered once a month. Lanreotide is administered as a subcutaneous injection once a month.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dopamine agonists&lt;/strong&gt;. The medications cabergoline and bromocriptine (Parlodel) are taken as pills. In some people, these drugs can lower levels of GH and IGF-I. The tumor may decrease in size in some people taking a dopamine agonist or somatostatin analogues. Some people may develop compulsive behaviors, such as gambling, while taking these medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth hormone antagonist&lt;/strong&gt;. The medication pegvisomant (Somavert), a growth hormone antagonist, acts to block the effect of GH on body tissues. Pegvisomant may be particularly helpful for people who haven&apos;t had good success with other forms of treatment. You administer this medication yourself daily by subcutaneous injection. This medication can normalize IGF-I levels and relieve symptoms in most people with acromegaly, but doesn&apos;t lower GH levels or reduce the tumor size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend radiation treatment when tumor cells remain after surgery. Radiation therapy destroys any lingering tumor cells and slowly reduces GH levels. It may take years for this treatment to noticeably improve acromegaly symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+You receive radiation treatment in one of two ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Conventional radiation therapy&lt;/strong&gt;. This type of radiation therapy is usually given every weekday over a period of four to six weeks. You may not realize the full effect of conventional radiation therapy for 10 or more years after treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stereotactic radiosurgery&lt;/strong&gt;. Also known as Gamma Knife radiosurgery, stereotactic radiosurgery can deliver a high dose of radiation to the tumor cells in a single dose while limiting the amount of radiation to the normal surrounding tissues. This type of radiation may bring GH levels back to normal within three to five years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stereotactic radiosurgery is available at only a few U.S. medical centers and is not recommended for all people undergoing radiation for acromegaly. Your doctor will determine which type of radiation therapy is right for you based on:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The size and location of your remaining tumor cells&lt;/li&gt;
+	&lt;li&gt;Your levels of insulin-like growth factor-I (IGF-I)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even after initial treatment, acromegaly requires periodic monitoring by your doctor to make sure that your pituitary is functioning properly. This follow-up care may last for the rest of your life.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing transnasal transsphenoidal surgery 
+" Caption="In transnasal transsphenoidal endoscopic surgery, a surgical instrument is placed through the nostril and alongside the nasal septum to access a pituitary tumor. 
+" Height="60" Title="Endoscopic transnasal transsphenoidal surgery" URI="/images/image_popup/thumbs/mcdc7_transsphenoidalsurgthu.jpg" Width="60" />
+				<Image Alt="Illustration showing transnasal transsphenoidal surgery 
+" Caption="In transnasal transsphenoidal endoscopic surgery, a surgical instrument is placed through the nostril and alongside the nasal septum to access a pituitary tumor. 
+" Height="401" Title="Endoscopic transnasal transsphenoidal surgery" URI="/images/image_popup/mcdc7_transsphenoidalsurg.jpg" Width="400" />
+				<HTML>
+					In transnasal transsphenoidal endoscopic surgery, a surgical instrument is placed through the nostril and alongside the nasal septum to access a pituitary tumor. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Acromegaly
+	</Title>
+	<Abstract>
+		Acromegaly &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this hormonal disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

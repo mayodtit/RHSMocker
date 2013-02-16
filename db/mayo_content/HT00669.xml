@@ -1,0 +1,63 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00669
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00669
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-04
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1100" Title="Aerobic exercise" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8395D9F0-9A1C-D111-069F0E9615623C3A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				walking
+			</MetaKeyword>
+			<MetaKeyword>
+				fitness
+			</MetaKeyword>
+			<MetaKeyword>
+				walk
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Walking for fitness: Getting started
+	</Title>
+	<Body>
+		&lt;p&gt;If you&apos;re new to exercise, start slow and easy. At first, walk only as far or as fast as you find comfortable. If you can walk for only a few minutes, let that be your starting point. For example, you might try short daily sessions of five to 10 minutes and slowly build up to 15 minutes twice a week. Then, over several weeks, you can gradually work your way up to 30 to 60 minutes of walking most days of the week.&lt;/p&gt;
+	</Body>
+</HealthTip>

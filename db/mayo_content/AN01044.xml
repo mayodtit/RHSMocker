@@ -1,0 +1,95 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01044
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gallbladder-polyps/AN01044
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-22
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1857" Title="Gallbladder and bile duct">
+						<Keyword MCVID="2242" Title="Gallbladder polyps" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7780C4D4-D2D2-4008-B66A00E24B2303DA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gallbladder polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder polyps
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Gallbladder polyps are growths that protrude from the lining of the inside of the gallbladder. Polyps can be cancerous, but they rarely are. 
+&lt;/p&gt;
+&lt;p&gt;
+The size of a gallbladder polyp can be a useful predictor of whether it&apos;s cancerous (malignant) or noncancerous (benign). Gallbladder polyps that are less than 1/2 inch (about 10 millimeters) in diameter are unlikely to be cancerous and generally don&apos;t require treatment. However, your doctor may suggest follow-up examinations to look for changes in gallbladder polyps that may be an indication of cancer. This can be done using standard abdominal ultrasound or endoscopic ultrasound. 
+&lt;/p&gt;
+&lt;p&gt;
+Gallbladder polyps larger than 10 millimeters (mm) in diameter are more likely to be cancerous. Treatment of larger gallbladder polyps may include surgical removal of the gallbladder (cholecystectomy). Polyps larger than 18 mm in diameter may pose a significant risk of being malignant. Your doctor may also recommend cholecystectomy if you have a gallbladder polyp of any size accompanied with gallstones. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gallbladder polyps: Can they be cancerous?
+	</Title>
+	<Abstract>
+		The size of gallbladder polyps can be a useful predictor of whether they&apos;re cancerous.
+	</Abstract>
+	<Question>
+		Are gallbladder polyps associated with gallbladder cancer?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

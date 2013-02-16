@@ -1,0 +1,220 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00562
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/strawberry-shortcake/NU00562
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			30020DFD-F167-4FC7-A053529BBB7BF5A4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Strawberry shortcake
+	</Title>
+	<Abstract>
+		Strawberry shortcake &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Shortcake is a rich, salty biscuit or yellow cake usually topped with sliced fruit and whipped cream. The biscuit in this healthier version is made with whole-wheat pastry flour and low-sodium baking powder. It&apos;s topped with fresh strawberries and plain low-fat yogurt. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a large mixing bowl, re-sift the flours, baking powder and sugar together. Using a fork, cut the chilled margarine into the dry ingredients until the mixture resembles coarse crumbs. Add the chilled milk and stir just until a moist dough forms. 
+&lt;/p&gt;
+&lt;p&gt;
+Turn the dough onto a generously floured work surface and, with floured hands, knead gently 6 to 8 times until the dough is smooth and manageable. Using a rolling pin, roll the dough into a rectangle 1/4-inch thick. Cut into 8 squares. Place the squares onto the prepared baking pan and bake until golden, 10 to 12 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Transfer the biscuits onto individual plates. Top each with 1 cup strawberries and 1 1/2 tablespoons yogurt. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 3/4 cups whole-wheat pastry flour, sifted&lt;/li&gt;
+	&lt;li&gt;1/4 cup all-purpose (plain) flour, sifted&lt;/li&gt;
+	&lt;li&gt;2 1/2 teaspoons low-sodium baking powder&lt;/li&gt;
+	&lt;li&gt;1 tablespoon sugar&lt;/li&gt;
+	&lt;li&gt;1/4 cup trans-free margarine (chilled)&lt;/li&gt;
+	&lt;li&gt;3/4 cup fat-free milk (chilled) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For the topping 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;6 cups fresh strawberries, hulled and sliced&lt;/li&gt;
+	&lt;li&gt;3/4 cup (6 ounces) plain fat-free yogurt &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				0.5
+			</Dairy>
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products">
+				0.5
+			</Milk>
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy">
+				0.5
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				225
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				38 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				2 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				7 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 shortcake
+			</Servingsize>
+			<Sodium Label="Sodium">
+				87 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Dairy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

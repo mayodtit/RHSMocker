@@ -1,0 +1,404 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01040
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/exercise-induced-asthma/DS01040
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-08
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="4319" Title="Asthma attack">
+						<Keyword MCVID="3585" Title="Exercise-induced asthma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2949DF65-E7FF-0DBD-1DB069687A6BC955
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				exercise-induced asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise-induced bronchoconstriction
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise-induced asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise-induced bronchoconstriction
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma trigger
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma sports
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma diagnosois
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you cough, wheeze or feel out of breath during or after exercise, it may be more than exertion causing your symptoms. You might have exercise-induced asthma. As with asthma triggered by other things, exercise-induced asthma symptoms occur when your airways tighten and produce extra mucus. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have exercise-induced asthma &amp;mdash; also called exercise-induced bronchospasm (BRONG-ko-spaz-um) &amp;mdash; physical exertion may be the only thing that triggers your symptoms. Or, exercise may be just one of several things that trigger your asthma. But having exercise-induced asthma doesn&apos;t mean you shouldn&apos;t exercise. Proper treatment of exercise-induced asthma and precautions can keep you active &amp;mdash; whether you&apos;re strolling through the park or running a race. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exercise-induced asthma symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coughing&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest tightness or pain&lt;/li&gt;
+	&lt;li&gt;Fatigue during exercise&lt;/li&gt;
+	&lt;li&gt;Poor athletic performance &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Exercise-induced asthma symptoms may start a few minutes after you begin exercising, and they may continue to worsen for another 10 minutes or so after you&apos;ve finished a workout. It&apos;s possible to have symptoms both during and after exercise. 
+&lt;/p&gt;
+&lt;p&gt;
+Feeling a little short of breath or fatigued when you work out is normal, especially if you aren&apos;t in great shape. But with exercise-induced asthma, these symptoms can be more severe. 
+&lt;/p&gt;
+&lt;p&gt;
+For many people, exercise is just one of a few asthma triggers. Others can include pollen, pet dander and other airborne allergens. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you cough, wheeze, or have chest pain or tightness during or after exercise. Many people don&apos;t realize they have exercise-induced asthma because they think these are their body&apos;s normal responses to working out. Don&apos;t assume your symptoms are caused by being out of shape or short on endurance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek immediate medical treatment&lt;/strong&gt; if you have worsening symptoms. Severe asthma attacks can be life-threatening. Signs of an asthma attack that needs emergency treatment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath or wheezing that is quickly getting worse&lt;/li&gt;
+	&lt;li&gt;No improvement even after using a rescue inhaler, such as an albuterol inhaler&lt;/li&gt;
+	&lt;li&gt;Shortness of breath that continues even after you&apos;ve recovered from your workout&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="60" Title="Asthma attack" URI="/images/image_popup/thumbs/ww5r370t.jpg" Width="60" />
+				<Image Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="475" Title="Asthma attack" URI="/images/image_popup/ww5r370.jpg" Width="400" />
+				<HTML>
+					If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It isn&apos;t clear exactly what causes exercise-induced asthma, and why some people get it and others don&apos;t. In susceptible individuals, symptoms may be triggered by drying or cooling of the airways during heavy breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+Factors that can trigger or worsen exercise-induced asthma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cold air&lt;/li&gt;
+	&lt;li&gt;Dry air&lt;/li&gt;
+	&lt;li&gt;Air pollution such as smoke or smog&lt;/li&gt;
+	&lt;li&gt;High pollen counts&lt;/li&gt;
+	&lt;li&gt;Having a respiratory infection such as a cold&lt;/li&gt;
+	&lt;li&gt;Chemicals, such as chlorine in swimming pools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There&apos;s no particular exercise you must avoid when you have exercise-induced asthma, but activities that make you breathe hard are more likely to trigger symptoms. For example, aerobic exercise, such as running or playing basketball, hockey or soccer, is more likely to trigger symptoms than is weightlifting, golfing or moderate-paced walking. Likewise, exercising in cold weather also can increase asthma symptoms because you&apos;re breathing in a lot of cold, dry air. 
+&lt;/p&gt;
+&lt;p&gt;
+But don&apos;t let that discourage you. With proper treatment, you can do intense aerobic activities &amp;mdash; and cold-weather workouts &amp;mdash; without asthma symptoms slowing you down. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exercise-induced asthma can occur in people of any age and activity level, even in people who don&apos;t normally have asthma symptoms. But, certain people are more likely to be diagnosed with the condition than are others. Factors that increase your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Already having asthma triggered by other things&lt;/li&gt;
+	&lt;li&gt;Having poorly controlled asthma&lt;/li&gt;
+	&lt;li&gt;Having hay fever or other allergies&lt;/li&gt;
+	&lt;li&gt;Having a blood relative, such as a parent or sibling, with asthma&lt;/li&gt;
+	&lt;li&gt;Exposure to air pollution or pollen&lt;/li&gt;
+	&lt;li&gt;Smoking or exposure to secondhand smoke&lt;/li&gt;
+	&lt;li&gt;Exposure to chemical triggers, such as chlorine in swimming pools or gases used to resurface ice for skating&lt;/li&gt;
+	&lt;li&gt;Participating in winter sports, such as figure skating, ice hockey or cross-country skiing&lt;/li&gt;
+	&lt;li&gt;Participating in sports that make you breathe harder and faster, such as running or playing soccer&lt;/li&gt;
+	&lt;li&gt;Being a child &amp;mdash; children are generally more active than adults&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asthma of any kind &amp;mdash; including exercise-induced asthma &amp;mdash; may cause a number of complications. Proper treatment can help you avoid them. Possible asthma complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor athletic performance&lt;/li&gt;
+	&lt;li&gt;Permanent narrowing of the airways (bronchial tubes), which causes difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Emergency room visits and hospitalizations for severe asthma attacks&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor. He or she may refer you to a doctor who specializes in asthma (an allergist-immunologist or pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note when your symptoms are most likely to bother you&lt;/strong&gt; &amp;mdash; for example, if your symptoms are worse when the air is cold or dry, or when you do certain kinds of exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major life events and any changes in your job or workplace.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time can help you make the most of your time together. Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is exercise-induced asthma the most likely cause of my breathing problems?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;What steps can I take on my own to help reduce my symptoms?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activity in any way?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any additional questions that may come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have breathing problems only when exercising, or at other times as well?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with allergies or asthma?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do allergies or asthma run in your family?&lt;/li&gt;
+	&lt;li&gt;What medications do you take, including herbal remedies?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic health problems, such as heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will probably start by doing a physical exam that includes your ears, nose, throat and chest and may ask you a number of questions. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need one or more tests to see what&apos;s going on and to make sure your symptoms aren&apos;t caused by something other than exercise-induced asthma. If you do have asthma, your doctor may want to do tests to determine how well your lungs are working and if something other than exercise also triggers your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+However, extensive testing isn&apos;t always needed to diagnose exercise-induced asthma. Your doctor may give you an inhaler to try before exercise. If it works, you probably do have asthma. For many people with exercise-induced asthma, taking one or two puffs of albuterol or another inhaled medication before exercise is enough to ease symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ruling out other conditions&lt;/strong&gt;&lt;br /&gt;
+If it isn&apos;t clear whether asthma&apos;s causing your symptoms, your doctor may do tests to see whether your symptoms may be caused by something else. Other health problems that can mimic exercise-induced asthma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being out of shape&lt;/li&gt;
+	&lt;li&gt;Heart disease or heart failure&lt;/li&gt;
+	&lt;li&gt;Lung disorders&lt;/li&gt;
+	&lt;li&gt;Central airway obstruction&lt;/li&gt;
+	&lt;li&gt;Vocal cord problems&lt;/li&gt;
+	&lt;li&gt;Hay fever or other allergies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung function tests&lt;/strong&gt;&lt;br /&gt;
+To see how well your lungs are working, and to see whether you show signs of asthma, you may need lung function tests that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lung function test (spirometry).&lt;/strong&gt; This test, which measures how well you breathe, is the preferred test for diagnosing asthma. During this 10- to 15-minute test, you take deep breaths and forcefully exhale into a tube connected to a machine called a spirometer. If certain key measurements are below normal for a person your age and sex, your airways may be blocked by inflammation (obstructed). This is a key sign of asthma. Your doctor may ask you to inhale a bronchodilator drug used in asthma treatment to open your airways. Then you retake the spirometry test. If your breathing improves significantly, it&apos;s likely you have asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise challenge.&lt;/strong&gt; Because spirometry that&apos;s done while you&apos;re at rest won&apos;t always pick up exercise-induced asthma, this test is used to see how exercise affects your lung function. With this test, your doctor may have you do a lung function test before and after you exercise. Exercise is usually done for six to eight minutes on a treadmill or other stationary workout machine. For competitive athletes, exercise challenge tests are sometimes done in the sporting environment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peak flow measurement.&lt;/strong&gt; To determine if you have asthma, and how well your lungs work, your doctor may ask you to carry a peak flow meter. This small, hand-held device measures how fast you can force air out of your lungs. The slower you exhale, the worse your asthma. You&apos;ll likely be asked to use your peak flow meter at certain times, such as during or following exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Methacholine (Provocholine) challenge.&lt;/strong&gt; During a methacholine (meth-uh-KOH-leen) challenge test, you inhale a small amount of methacholine mist to see if it causes asthma symptoms. Your lung function is tested before and after the methacholine is given to see how much it affects your ability to breathe. Challenge testing may also be done using cold air, mannitol or histamine. These tests are done only at specialized clinics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy skin tests.&lt;/strong&gt; During a skin test, your skin is pricked with purified allergy extracts and observed for signs of an allergic reaction. These tests may be useful to see whether you have a reaction to things other than exercise, such as animal dander, mold, dust mites or latex.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
+				<Image Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
+				<HTML>
+					A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For many people, a few puffs from a quick-relief inhaler right before exercise is enough to control asthma symptoms. These bronchodilator (brong-koh-DIE-lay-tur) medications &amp;mdash; albuterol, for example &amp;mdash; quickly open the airways and can help control symptoms for several hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Quick-relief medications&lt;/strong&gt;&lt;br /&gt;
+Also called rescue medications, quick-relief medications are used as needed for rapid, short-term symptom relief during an asthma attack &amp;mdash; or before exercise if your doctor recommends it. Types of quick-relief medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Short-acting beta agonists.&lt;/strong&gt; These inhaled bronchodilator medications include albuterol (ProAir HFA, Ventolin HFA, others), levalbuterol (Xopenex HFA) and pirbuterol (Maxair Autohaler). For most people, one to two puffs of albuterol or another inhaled short-acting beta agonist 10 to 15 minutes before exercise is enough to prevent symptoms for up to four hours. These inhaled bronchodilator medications can rapidly ease symptoms during an asthma attack. However, it is possible to develop a tolerance to these medications if they&apos;re used frequently.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ipratropium (Atrovent).&lt;/strong&gt; Your doctor might prescribe this inhaled medication for immediate relief of your symptoms. Like other bronchodilators, ipratropium relaxes the airways, making it easier to breathe. Ipratropium is mostly used for emphysema and chronic bronchitis, but it&apos;s sometimes used to treat asthma attacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, some people also need to take additional medications to control asthma symptoms. You may need daily long-term control medications if you have frequent asthma symptoms when you&apos;re not exercising, or if using a medication before exercise doesn&apos;t keep your symptoms under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term control medications&lt;/strong&gt;&lt;br /&gt;
+In most cases, these medications need to be taken every day. Types of long-term control medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inhaled corticosteroids.&lt;/strong&gt; These medications include fluticasone (Flovent Diskus, Flovent HFA), budesonide (Pulmicort Flexhaler), mometasone (Asmanex Twisthaler), triamcinolone (Azmacort), flunisolide (Aerobid), beclomethasone (Qvar) and others. They are the most commonly prescribed type of long-term asthma medication. You may need to use these medications for several days to weeks before they reach their maximum benefit. Unlike oral corticosteroids, these corticosteroid medications have a relatively low risk of side effects and are generally safe for long-term use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leukotriene modifiers.&lt;/strong&gt; These oral medications include montelukast (Singulair), zafirlukast (Accolate) and zileuton (Zyflo, Zyflo CR). They help prevent asthma symptoms for up to 24 hours. In rare cases, these medications have been linked to psychological reactions, such as agitation, aggression, hallucinations, depression and suicidal thinking. Seek medical advice right away for any unusual reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Theophylline.&lt;/strong&gt; This is a daily pill that helps keep the airways open (bronchodilator). Theophylline (Theo-24, Elixophyllin, others) relaxes the muscles around the airways to make breathing easier. It&apos;s not used as often now as in past years because more-effective medications are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-acting beta agonists (LABAs).&lt;/strong&gt; These inhaled medications include salmeterol (Serevent Diskus) and formoterol (Foradil Aerolizer). Taken 30 minutes before exercise, long-acting beta agonists can prevent symptoms of exercise-induced asthma for up to 12 hours. However, they&apos;ve been linked to severe asthma attacks. LABAs should always be taken only in combination with an inhaled corticosteroid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination inhalers. &lt;/strong&gt;Fluticasone and salmeterol (Advair Diskus), budesonide and formoterol (Symbicort), and mometasone and formoterol (Dulera) are examples of combination inhalers. These medications contain a LABA along with a corticosteroid. Like other LABA medications, these medications may increase your risk of a severe asthma attack and need to be used with caution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for allergy-induced asthma&lt;/strong&gt;&lt;br /&gt;
+If your asthma is triggered or worsened by allergies, you may benefit from allergy treatment as well. Allergy treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Omalizumab (Xolair)&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; This medication is specifically for people who have allergies and asthma. It reduces the immune system&apos;s reaction to allergy-causing substances, such as pollen, dust mites or pet dander. Xolair is delivered by injection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy medications.&lt;/strong&gt; These include oral and nasal spray antihistamines and decongestants as well as corticosteroid, cromolyn and ipratropium nasal sprays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy shots (immunotherapy).&lt;/strong&gt; Over time, immunotherapy injections gradually reduce your immune system reaction to specific allergens. This may help relieve your symptoms if certain allergens, such as pollen, trigger your asthma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t rely only on quick-relief medications&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve been prescribed long-term asthma control medications &amp;mdash; such as inhaled corticosteroids &amp;mdash; you shouldn&apos;t need to use your quick-relief inhaler more often than your doctor recommends. Keep a record of how many puffs you use each week. If you frequently need to use your quick-relief inhaler, see your doctor. You probably need to adjust your long-term control medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you can&apos;t prevent the development of exercise-induced asthma, you can take steps to prevent flare-ups of the condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Warm up&lt;/strong&gt; for about 10 minutes before strenuous exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do your best to avoid colds&lt;/strong&gt; and other respiratory infections. Don&apos;t do strenuous exercise when you have a cold.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid allergens when exercising&lt;/strong&gt; if they worsen your symptoms. Examples include air pollution, pollen or pet dander.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn to breathe through your nose&lt;/strong&gt; to warm air before it goes into your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your mouth and nose covered&lt;/strong&gt; during exercise in cold weather.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t avoid exercise&lt;/strong&gt; because you have asthma. Staying in good shape can ease asthma symptoms in the long run.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;At school&lt;/strong&gt;&lt;br /&gt;
+Most schools will ask you to develop a written asthma action plan in conjunction with your child&apos;s doctor. This document provides step by step instructions for schoolteachers, nurses and coaches that explain what to do to prevent your child&apos;s exercise-induced asthma, such as using a rescue inhaler before exercising. It also gives school personnel instructions on what to do if your child has an asthma flare-up. Ask your child&apos;s doctor or school nurse for an asthma action plan form. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Exercise-induced asthma
+	</Title>
+	<Abstract>
+		Exercise-induced asthma &amp;mdash; Comprehensive overview covers treatment, symptoms of this type of asthma.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00001" LinkType="Internal" ObjectID="E27C2AE8-3D69-4BB9-A282F7B9B3A1CDCD" Title="Video: An asthma attack" Url="http://www.mayoclinic.com/health/asthma/MM00001" />
+		<LinkItem ContentType="Answer" DocID="AN01065" LinkType="Internal" ObjectID="03D89E58-E09D-40DE-9E738FAA7BA17B0F" Title="Albuterol side effects: What&apos;s normal?" Url="http://www.mayoclinic.com/health/albuterol-side-effects/AN01065" />
+		<LinkItem ContentType="Article" DocID="AS00024" LinkType="Internal" ObjectID="0683DC75-2A5D-9994-E2AC997ACA8FF1D7" Title="Asthma: Limit asthma attacks caused by colds or flu" Url="http://www.mayoclinic.com/health/asthma/AS00024" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01116" LinkType="Internal" ObjectID="99522BB0-EE31-5EFB-3A28FB65E94DFB17" Title="Peak flow meter" Url="http://www.mayoclinic.com/health/peak-flow-meter/MY01116" />
+		<LinkItem ContentType="Answer" DocID="AN02105" LinkType="Internal" ObjectID="45FE4809-9A56-BAD2-2EC847EFB5C6F1B3" Title="LABAs for asthma &amp;mdash; Should I stop taking them?" Url="http://www.mayoclinic.com/health/laba-asthma/AN02105" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Disease" DocID="DS01068" LinkType="Internal" ObjectID="18D5EF86-E7FF-0DBD-16B27CEA551E5776" Title="Asthma attack" Url="http://www.mayoclinic.com/health/asthma-attack/DS01068" />
+	</RelatedLinksBox>
+</Disease>

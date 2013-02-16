@@ -1,0 +1,388 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00965
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/munchausen-syndrome/DS00965
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-13
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2440" Title="Factitious disorders">
+						<Keyword MCVID="2441" Title="Munchausen syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			372962AC-E7FF-0DBD-181C7C3A3280AFFD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				munchausen syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				munchausen&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				munchhausen syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				munchhausen&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				professional patient
+			</MetaKeyword>
+			<MetaKeyword>
+				factitious disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				baron munchausen
+			</MetaKeyword>
+			<MetaKeyword>
+				factitious
+			</MetaKeyword>
+			<MetaKeyword>
+				munchausen disease
+			</MetaKeyword>
+			<MetaKeyword>
+				baron von munchausen
+			</MetaKeyword>
+			<MetaKeyword>
+				hospital addicts
+			</MetaKeyword>
+			<MetaKeyword>
+				self-harm
+			</MetaKeyword>
+			<MetaKeyword>
+				self-injury
+			</MetaKeyword>
+			<MetaKeyword>
+				feigned illness
+			</MetaKeyword>
+			<MetaKeyword>
+				faking symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				pathomimes
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic factitious disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				sympathy seekers
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Munchausen (MOON-chow-zun) syndrome is a serious mental disorder in which someone with a deep need for attention pretends to be sick or gets sick or injured on purpose. People with Munchausen syndrome may make up symptoms, push for risky operations, or try to rig laboratory test results to try to win sympathy and concern. 
+&lt;/p&gt;
+&lt;p&gt;
+Munchausen syndrome belongs to a group of conditions, called factitious disorders, that are either made up or self-inflicted. Factitious disorders can be psychological or physical. Munchausen syndrome refers to the most severe and chronic physical form of factitious disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Munchausen syndrome is a mysterious and hard to treat disorder. However, medical help is critical for preventing serious injury and even death caused by the self-harm typical of Munchausen syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Munchausen syndrome symptoms revolve around faking or producing illness or injury in order to meet deep emotional needs. People with Munchausen syndrome go to great lengths to avoid discovery of their deception, so it may be difficult to notice that their symptoms are actually part of a serious mental disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Munchausen syndrome is not the same as inventing medical problems for practical benefit, such as getting out of work or winning a lawsuit. It also isn&apos;t the same as hypochondria. People with hypochondria truly believe they are sick, whereas people with Munchausen syndrome aren&apos;t sick, but they want to be. 
+&lt;/p&gt;
+&lt;p&gt;
+In Munchausen syndrome by proxy, someone makes another person ill in order to win sympathy. Usually, Munchausen syndrome by proxy involves a parent harming a child.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Munchausen syndrome symptoms may include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dramatic stories about numerous medical problems&lt;/li&gt;
+	&lt;li&gt;Frequent hospitalizations&lt;/li&gt;
+	&lt;li&gt;Vague or inconsistent symptoms&lt;/li&gt;
+	&lt;li&gt;Conditions that get worse for no apparent reason&lt;/li&gt;
+	&lt;li&gt;Eagerness to undergo frequent testing or risky operations&lt;/li&gt;
+	&lt;li&gt;Extensive knowledge of medical terminology and diseases&lt;/li&gt;
+	&lt;li&gt;Seeking treatment from many different doctors or hospitals&lt;/li&gt;
+	&lt;li&gt;Having few visitors when hospitalized&lt;/li&gt;
+	&lt;li&gt;Reluctance to allow health professionals to talk to family or friends&lt;/li&gt;
+	&lt;li&gt;Arguing with hospital staff&lt;/li&gt;
+	&lt;li&gt;Frequent requests for pain relievers or other medications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How those with Munchausen syndrome fake illness&lt;br /&gt;
+&lt;/strong&gt;Because people with Munchausen syndrome become experts at faking symptoms and diseases or inflicting real injuries upon themselves, it&apos;s sometimes hard for medical professionals and loved ones to know if illnesses are real or not. 
+&lt;/p&gt;
+&lt;p&gt;
+People with Munchausen syndrome make up symptoms or cause illness in several ways, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Made-up histories.&lt;/strong&gt; They may give loved ones, health care providers or even Internet support groups a false medical history, such as claiming to have had cancer or HIV.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Faking symptoms.&lt;/strong&gt; They may fake symptoms, such as abdominal pain, seizures or passing out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Self-harm.&lt;/strong&gt; They may injure or make themselves sick, such as injecting themselves with bacteria, milk, gasoline or feces. They may cut or burn themselves. They may take medications to mimic diseases, such as blood thinners, chemotherapy medications and diabetes medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventing healing.&lt;/strong&gt; They may interfere with wounds, such as reopening cuts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tampering.&lt;/strong&gt; They may manipulate medical instruments to skew results, such as heating up thermometers. Or they may tamper with laboratory tests, such as contaminating their urine samples with blood or other substances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;People with Munchausen syndrome may be well aware of the risk of injury or even death as a result of the self-harm they seek. Still, they are unable to control their compulsive behavior and are unlikely to seek help.
+&lt;/p&gt;
+&lt;p&gt;
+If you think a loved one may be exaggerating or faking his or her health problems, it may help to attempt a gentle conversation about your concerns. Try to avoid anger, judgment or confrontation. Offer support and caring and, if possible, help in finding treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of Munchausen syndrome is unknown. However, people with this disorder may have experienced a severe illness when they were young, or may have been emotionally or physically abused.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may put someone at higher risk of developing Munchausen syndrome, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Childhood trauma, such as emotional, physical or sexual abuse&lt;/li&gt;
+	&lt;li&gt;A serious illness during childhood that allowed them to be cared for and nurtured&lt;/li&gt;
+	&lt;li&gt;A relative with a serious illness&lt;/li&gt;
+	&lt;li&gt;A poor sense of identity or self-esteem&lt;/li&gt;
+	&lt;li&gt;Loss of a loved one through death, illness or abandonment early in life&lt;/li&gt;
+	&lt;li&gt;Unfulfilled desire to be a doctor or other health professional&lt;/li&gt;
+	&lt;li&gt;Work in the health care field&lt;/li&gt;
+	&lt;li&gt;Personality disorders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Munchausen syndrome is considered rare, but it&apos;s not known how many people have the disorder. Some people use fake names to avoid detection, some visit many different hospitals and doctors, and some are never found out &amp;mdash; all of which make it difficult to make a reliable estimate. 
+&lt;/p&gt;
+&lt;p&gt;
+More males are diagnosed with Munchausen, and it seems to be more common among young or middle-aged adults.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with Munchausen syndrome have such deep emotional needs that they&apos;re willing to risk their lives to be seen as sick. They frequently have other mental disorders, as well. As a result, they face many possible complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Injury or death from self-inflicted medical conditions&lt;/li&gt;
+	&lt;li&gt;Severe health problems from surgery or other procedures&lt;/li&gt;
+	&lt;li&gt;Loss of organs or limbs from unnecessary surgery&lt;/li&gt;
+	&lt;li&gt;Alcohol or substance abuse&lt;/li&gt;
+	&lt;li&gt;Financial problems&lt;/li&gt;
+	&lt;li&gt;Significant problems in daily life, relationships and work&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A person with Munchausen syndrome is likely to first receive care for this condition when a doctor raises concerns that psychological problems may be a factor in his or her illness. If your loved one has symptoms that suggest Munchausen syndrome, his or her doctor may contact you in advance to talk about your loved one&apos;s health history. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think a loved one may have Munchausen syndrome, contact his or her doctor and start the conversation yourself. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for that talk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your loved one&apos;s health history&lt;/strong&gt; in as much detail as possible. Try to include as much as you can remember about the health complaints, diagnoses, medical treatments and procedures your loved one has had. If you have the names and contact information for the doctors or facilities that have provided care, have those on hand for your conversation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key points from your loved one&apos;s personal history,&lt;/strong&gt; including major illness, abuse or other trauma that occurred during childhood and any significant, recent losses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List the medications your loved one is currently taking, &lt;/strong&gt;including over-the-counter and prescription drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your questions for the doctor&lt;/strong&gt; in advance so that you can make the most of your conversation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For Munchausen syndrome, some questions to ask the doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my loved one&apos;s symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;How will you determine the diagnosis?&lt;/li&gt;
+	&lt;li&gt;Is this condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are recommended for this disorder?&lt;/li&gt;
+	&lt;li&gt;How much do you expect treatment could improve the symptoms of Munchausen syndrome?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my loved one&apos;s well-being over time?&lt;/li&gt;
+	&lt;li&gt;Do you think family therapy will be helpful in this case?&lt;/li&gt;
+	&lt;li&gt;What next steps should we take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What injuries or illness has your loved one recently complained of?&lt;/li&gt;
+	&lt;li&gt;What injuries or illnesses has he or she been treated for in the past?&lt;/li&gt;
+	&lt;li&gt;Has your loved one been diagnosed with any specific medical problem?&lt;/li&gt;
+	&lt;li&gt;What treatments has he or she had, including drugs and surgery?&lt;/li&gt;
+	&lt;li&gt;How often has your loved one switched doctors or hospitals in the past?&lt;/li&gt;
+	&lt;li&gt;How have your loved one&apos;s symptoms affected his or her career and your personal relationships?&lt;/li&gt;
+	&lt;li&gt;Do you know if he or she has ever caused self-inflicted injury or attempted suicide?&lt;/li&gt;
+	&lt;li&gt;Do you know if your loved one was abused or neglected as a child?&lt;/li&gt;
+	&lt;li&gt;Did he or she suffer any other trauma, such as serious illness or loss of a parent, during childhood?&lt;/li&gt;
+	&lt;li&gt;What else makes you suspect that your loved one may have Munchausen syndrome?&lt;/li&gt;
+	&lt;li&gt;Have you talked to your loved one about your concerns?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Confronting your loved one directly about Munchausen syndrome is not likely to help, but it may help to simply express your desire to help find an explanation for his or her health problems. It may also help go with your loved one to the first appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+If your loved one causes self-inflicted injury or tries to commit suicide, call 911 or emergency medical help, or take him or her to an emergency room immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing Munchausen syndrome is often extremely difficult. People with Munchausen are experts at faking many different diseases and conditions. And often they do have real and even life-threatening medical conditions, even though these conditions may be self-inflicted.
+&lt;/p&gt;
+&lt;p&gt;
+A health care professional who suspects Munchausen syndrome may check medical records, try to talk to family or friends, or even search the person&apos;s hospital room for injected materials or hidden medications, although this raises ethical concerns. 
+&lt;/p&gt;
+&lt;p&gt;
+Direct accusations of Munchausen syndrome are likely to make the affected person angry and defensive, causing him or her to abruptly end a relationship with a doctor or hospital and seek treatment elsewhere. So your loved one&apos;s doctor is likely to try to create an &quot;out&quot; that spares your loved one the humiliation of admitting to faking symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+For example, the doctor may reassure your loved one that not having an explanation for medical symptoms is legitimately stressful and suggest that the stress may in fact be responsible for some physical complaints. Or, the doctor may ask your loved one to agree that, if the next one or two medical treatments don&apos;t work, they will explore together the idea that there may be a psychological cause for the illness. Either way, the doctor will try to steer your loved one toward care with a mental health provider. 
+&lt;/p&gt;
+&lt;p&gt;
+Munchausen syndrome is diagnosed as a type of factitious disorder. To help determine if someone has Munchausen syndrome, mental health providers conduct a detailed interview and also run tests for possible physical problems.
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with factitious disorder, someone must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association.
+&lt;/p&gt;
+&lt;p&gt;
+For factitious disorder to be diagnosed, three criteria must be met, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Intentionally faking or producing symptoms&lt;/li&gt;
+	&lt;li&gt;A motivation to be seen as sick&lt;/li&gt;
+	&lt;li&gt;The motivation isn&apos;t for financial or legal reasons, such as collecting a settlement&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of Munchausen syndrome is often difficult, and there are no standard therapies for the condition. Because people with Munchausen want to be in the sick role, they&apos;re often unwilling to seek treatment. However, if approached in a gentle, face-saving way, a person with Munchausen syndrome may agree to be treated by a mental health provider.
+&lt;/p&gt;
+&lt;p&gt;
+Although there are no standard treatments for Munchausen syndrome, treatment often focuses on managing the condition, rather than trying to cure it. Treatment generally includes psychotherapy and behavior counseling. If possible, family therapy also may be suggested. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications may be used to treat other mental disorders that also are present, such as depression or anxiety. In severe cases, temporary psychiatric hospitalization may be necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Overcoming Munchausen syndrome can be difficult. For those who are able to begin taking steps toward managing this condition, these tips may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Attend therapy appointments and take any medications as directed. If you feel an urge to harm yourself or cause yourself to become ill, talk honestly to your therapist or primary care doctor for better ways to cope with your emotions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a medical gatekeeper.&lt;/strong&gt; Have one trusted primary care doctor to manage your medical care, rather than visiting numerous doctors, specialists and surgeons.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remember the risks.&lt;/strong&gt; Remind yourself that you could face permanent injury or even death each time you hurt yourself or undergo a risky test or operation needlessly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t run.&lt;/strong&gt; Resist urges to find a new doctor or to flee to a new town where medical professionals aren&apos;t aware of your background. Your therapist can help you overcome these powerful urges.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with someone.&lt;/strong&gt; Many people with Munchausen syndrome lack friendships and other relationships. Try to find someone you&apos;re able to confide in, share fun times with and offer your own support to.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the cause of Munchausen syndrome is unknown, there&apos;s currently no known way to prevent the disorder. However, if your child is being treated for a serious illness, be careful not to overemphasize his or her role as a sick person or your role as a caretaker. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your child&apos;s doctor about setting reasonable expectations for what your child can accomplish, both mentally and physically, and support your child in succeeding at these tasks independently. Taking this approach may help foster your child&apos;s long-term mental health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Munchausen syndrome
+	</Title>
+	<Abstract>
+		Munchausen syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment and more for this serious mental disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01062" LinkType="Internal" ObjectID="C22F27E8-E7FF-0DBD-18D04660F2EA2EBE" Title="Suicide and suicidal thoughts" Url="http://www.mayoclinic.com/health/suicide/DS01062" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,440 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00417
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spina-bifida/DS00417
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-04
+		</UpdateDate>
+		<PublicationDate>
+			2002-02-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1434" Title="Spinal cord">
+						<Keyword MCVID="2303" Title="Spina bifida" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB5F085A-6152-42FC-8CFC55380EF705A2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spina bifida
+			</MetaKeyword>
+			<MetaKeyword>
+				spina bifida occulta
+			</MetaKeyword>
+			<MetaKeyword>
+				spinabifida
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal bifida
+			</MetaKeyword>
+			<MetaKeyword>
+				myelomeningocele
+			</MetaKeyword>
+			<MetaKeyword>
+				meningocele
+			</MetaKeyword>
+			<MetaKeyword>
+				meninges
+			</MetaKeyword>
+			<MetaKeyword>
+				neural tube disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				neural tube defect
+			</MetaKeyword>
+			<MetaKeyword>
+				birth defect
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord
+			</MetaKeyword>
+			<MetaKeyword>
+				folic acid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spina bifida is part of a group of birth defects called neural tube defects. The neural tube is the embryonic structure that eventually develops into the baby&apos;s brain and spinal cord and the tissues that enclose them. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, the neural tube forms early in the pregnancy and closes by the 28th day after conception. In babies with spina bifida, a portion of the neural tube fails to develop or close properly, causing defects in the spinal cord and in the bones of the backbone. 
+&lt;/p&gt;
+&lt;p&gt;
+Spina bifida occurs in various forms of severity. When treatment for spina bifida is necessary, it&apos;s done through surgery, although such treatment doesn&apos;t always completely resolve the problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spina bifida occurs in three forms, each varying in severity: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Spina bifida occulta&lt;br /&gt;
+&lt;/strong&gt;This mildest form results in a small separation or gap in one or more of the bones (vertebrae) of the spine. Because the spinal nerves usually aren&apos;t involved, most children with this form of spina bifida have no signs or symptoms and experience no neurological problems. Visible indications of spina bifida occulta can sometimes be seen on the newborn&apos;s skin above the spinal defect, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An abnormal tuft of hair&lt;/li&gt;
+	&lt;li&gt;A collection of fat&lt;/li&gt;
+	&lt;li&gt;A small dimple or a birthmark&lt;/li&gt;
+	&lt;li&gt;Skin discoloration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people who have spina bifida occulta don&apos;t even know it, unless the condition is discovered during an X-ray or other imaging test done for unrelated reasons. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Meningocele&lt;br /&gt;
+&lt;/strong&gt;In this rare form, the protective membranes around the spinal cord (meninges) push out through the opening in the vertebrae. Because the spinal cord develops normally, these membranes can be removed by surgery with little or no damage to nerve pathways. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Myelomeningocele&lt;br /&gt;
+&lt;/strong&gt;Also known as open spina bifida, myelomeningocele is the most severe form &amp;mdash; and the form people usually mean when they use the term &quot;spina bifida.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+In myelomeningocele, the baby&apos;s spinal canal remains open along several vertebrae in the lower or middle back. Because of this opening, both the membranes and the spinal cord protrude at birth, forming a sac on the baby&apos;s back. In some cases, skin covers the sac. Usually, however, tissues and nerves are exposed, making the baby prone to life-threatening infections. 
+&lt;/p&gt;
+&lt;p&gt;
+Neurological impairment is common, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle weakness, sometimes involving paralysis&lt;/li&gt;
+	&lt;li&gt;Bowel and bladder problems&lt;/li&gt;
+	&lt;li&gt;Seizures, especially if the child requires a shunt&lt;/li&gt;
+	&lt;li&gt;Orthopedic problems &amp;mdash; such as deformed feet, uneven hips and a curved spine (scoliosis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of myelomeningocele 
+" Caption="Myelomeningocele is a severe form of spina bifida, in which the membranes and the spinal cord protrude at birth, forming a sac on the baby&apos;s back. Exposed nerves and muscles may become infected, so prompt surgery is needed after birth. 
+" Height="60" Title="Myelomeningocele" URI="/images/image_popup/thumbs/r7_spinabifidababythu.jpg" Width="60" />
+				<Image Alt="Image of myelomeningocele 
+" Caption="Myelomeningocele is a severe form of spina bifida, in which the membranes and the spinal cord protrude at birth, forming a sac on the baby&apos;s back. Exposed nerves and muscles may become infected, so prompt surgery is needed after birth. 
+" Height="469" Title="Myelomeningocele" URI="/images/image_popup/r7_spinabifidababy.jpg" Width="400" />
+				<HTML>
+					Myelomeningocele is a severe form of spina bifida, in which the membranes and the spinal cord protrude at birth, forming a sac on the baby&apos;s back. Exposed nerves and muscles may become infected, so ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t certain what causes spina bifida. As with many other problems, it appears to result from a combination of genetic and environmental risk factors, such as a family history of neural tube defects and folic acid deficiency.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of spina bifida 
+" Caption="At 21 days after conception (left drawing), folds of tissue on the back of a developing embryo are rapidly growing together (see lines) to form the neural tube. Just a day later (center drawing), the growth is almost complete. If the tissue fails to close completely (right drawing), development of the spine, muscle and skin in this region is affected and the baby will be born with spina bifida. 
+" Height="60" Title="Spina bifida" URI="/images/image_popup/thumbs/r7_spinabifidathu.jpg" Width="60" />
+				<Image Alt="Illustration of spina bifida 
+" Caption="At 21 days after conception (left drawing), folds of tissue on the back of a developing embryo are rapidly growing together (see lines) to form the neural tube. Just a day later (center drawing), the growth is almost complete. If the tissue fails to close completely (right drawing), development of the spine, muscle and skin in this region is affected and the baby will be born with spina bifida. 
+" Height="399" Title="Spina bifida" URI="/images/image_popup/r7_spinabifida.jpg" Width="400" />
+				<HTML>
+					At 21 days after conception (left drawing), folds of tissue on the back of a developing embryo are rapidly growing together (see lines) to form the neural tube. Just a day later (center drawing), the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although doctors and researchers don&apos;t know for sure why spina bifida occurs, they have identified a few risk factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Spina bifida is more common among whites and Hispanics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of neural tube defects.&lt;/strong&gt; Couples who&apos;ve had one child with a neural tube defect have a slightly higher chance of having another baby with the same defect. That risk increases if two previous children have been affected by the condition. In addition, a woman who was born with a neural tube defect, or who has a close relative with one, has a greater chance of giving birth to a child with spina bifida. However, most babies with spina bifida are born to parents with no known family history of the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Folate deficiency.&lt;/strong&gt; Folate (vitamin B-9) is important to the healthy development of a baby. Folate is the natural form of vitamin B-9. The synthetic form, found in supplements and fortified foods, is called folic acid. A folate deficiency increases the risk of spina bifida and other neural tube defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some medications.&lt;/strong&gt; Anti-seizure medications, such as valproic acid (Depakene, Stavzor), seem to cause neural tube defects when taken during pregnancy, perhaps because they interfere with the body&apos;s ability to use folate and folic acid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Women with diabetes who don&apos;t control their blood sugar well have a higher risk of having a baby with spina bifida.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Pre-pregnancy obesity is associated with an increased risk of neural tube birth defects, including spina bifida.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased body temperature.&lt;/strong&gt; Some evidence suggests that increased body temperature (hyperthermia) in the early weeks of pregnancy may increase the risk of spina bifida. Elevating your core body temperature due to fever or the use of saunas or hot tubs, has been associated with increased risk of spina bifida.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have known risk factors for spina bifida, talk with your doctor to determine if you need a larger dose or prescription dose of folic acid, even before a pregnancy begins. If you take medications, tell your doctor. Some medications can be adjusted to diminish the potential risk of spina bifida, if plans are made ahead of time.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spina bifida may cause no symptoms or only minor physical disabilities. Frequently, it leads to severe physical and mental disabilities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Factors that affect severity&lt;br /&gt;
+&lt;/strong&gt;The severity of the condition is affected by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The size and location of the neural tube defect&lt;/li&gt;
+	&lt;li&gt;Whether skin covers the affected area&lt;/li&gt;
+	&lt;li&gt;Which spinal nerves come out of the affected area of the spinal cord&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Range of complications&lt;br /&gt;
+&lt;/strong&gt;Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical and neurological problems.&lt;/strong&gt; This may include lack of normal bowel and bladder control and partial or complete paralysis of the legs. Children and adults with this form of spina bifida might need crutches, braces or wheelchairs to help them get around, depending on the size of the opening in the spine and the care received after birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accumulation of fluid in the brain (hydrocephalus).&lt;/strong&gt; Babies born with myelomeningocele also commonly experience accumulation of fluid in the brain, a condition known as hydrocephalus. Most babies with myelomeningocele will need a ventricular shunt &amp;mdash; a surgically placed tube that allows fluid in the brain to drain as needed into the abdomen. This tube might be placed just after birth, during the surgery to close the sac on the lower back, or later as fluid accumulates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection in the tissues surrounding the brain (meningitis).&lt;/strong&gt; Some babies with myelomeningocele may develop meningitis, an infection in the tissues surrounding the brain, which may cause brain injury and can be life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other complications&lt;/strong&gt;. Additional problems may arise as children with spina bifida get older. Children with myelomeningocele may develop learning disabilities, including difficulty paying attention, problems with language and reading comprehension, and trouble learning math. Children with spina bifida may also experience latex allergies, skin problems, urinary tract infections, gastrointestinal disorders and depression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider will likely suspect or diagnose your baby&apos;s condition during your pregnancy. In addition to the health care provider you&apos;ve selected to care for you during your pregnancy, you&apos;ll also likely consult with a multidisciplinary team of physicians, surgeons and physical therapists at a center that specializes in spina bifida treatment. Children with myelomeningocele require ongoing medical attention throughout their lives to monitor their condition and treat complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your health care providers if there are suspicions that your baby may have spina bifida. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment instructions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as drinking extra water before an ultrasound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you took before and during your pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing questions ahead of time will help you make the most of your time with your health care providers. List your questions from most important to least important in case time runs out. For spina bifida, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is spina bifida present and how severe is it?&lt;/li&gt;
+	&lt;li&gt;Is there evidence of water on the brain (hydrocephalus)?&lt;/li&gt;
+	&lt;li&gt;Can my baby be treated during pregnancy?&lt;/li&gt;
+	&lt;li&gt;What will be done for my baby immediately after birth?&lt;/li&gt;
+	&lt;li&gt;Will the treatment cure my child?&lt;/li&gt;
+	&lt;li&gt;Will there be any lasting effects?&lt;/li&gt;
+	&lt;li&gt;Who can I contact to find out about community resources that may be able to help my child?&lt;/li&gt;
+	&lt;li&gt;What are the odds of this happening again in future pregnancies?&lt;/li&gt;
+	&lt;li&gt;How can I keep this from happening again in the future?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you ever had a child with spina bifida or other birth defects?&lt;/li&gt;
+	&lt;li&gt;Is there a family history of spina bifida?&lt;/li&gt;
+	&lt;li&gt;Are you on any anti-seizure medications, or were you taking them at the beginning of your pregnancy?&lt;/li&gt;
+	&lt;li&gt;Are you aware of the resources in your community that are available to support you and your child in dealing with spina bifida?&lt;/li&gt;
+	&lt;li&gt;If necessary, are you able to travel to a facility that offers specialized care?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re pregnant, you&apos;ll be offered prenatal screening tests to check for spina bifida and other birth defects. The tests aren&apos;t perfect. Most mothers who have positive blood tests have normal babies. Also, even if the results are negative, there&apos;s still a small chance that spina bifida is present. Talk to your doctor about prenatal testing, its risks and how you might handle the results. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt;&lt;br /&gt;
+Your doctor will most likely check for spina bifida by first performing the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Maternal serum alpha-fetoprotein (MSAFP) test.&lt;/strong&gt; A common test used to check for myelomeningocele is the maternal serum alpha-fetoprotein (MSAFP) test. To perform this test, your doctor draws a blood sample and sends it to a laboratory, where it&apos;s tested for alpha-fetoprotein (AFP) &amp;mdash; a protein that&apos;s produced by the baby. It&apos;s normal for a small amount of AFP to cross the placenta and enter the mother&apos;s bloodstream, but abnormally high levels of AFP suggest that the baby has a neural tube defect, most commonly spina bifida or anencephaly, a condition characterized by an underdeveloped brain and an incomplete skull.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some spina bifida cases don&apos;t produce a high level of AFP. On the other hand, when a high level of AFP is found, a neural tube defect is present only a small percentage of the time. Varying levels of AFP can be caused by other factors &amp;mdash; including a miscalculation in fetal age or multiple babies &amp;mdash; so your doctor may order a follow-up blood test for confirmation. If the results are still high, you&apos;ll need further evaluation, including an ultrasound examination. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other blood tests.&lt;/strong&gt; Your doctor may perform the MSAFP test with two or three other blood tests, which may detect other hormones, such as human chorionic gonadotropin (HCG), inhibin A and estriol. Depending on the number of tests, the combination is called a triple screen or quadruple screen (quad screen). These tests are commonly done with the MSAFP test, but their objective is to screen for trisomy 21 (Down syndrome), not neural tube defects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ultrasound&lt;br /&gt;
+&lt;/strong&gt;Many obstetricians rely on ultrasonography to screen for spina bifida. If blood tests indicate high AFP levels, your doctor will suggest an ultrasound exam to help determine why. The most common ultrasound exams bounce high-frequency sound waves off tissues in your body to form black-and-white images on a video monitor. 
+&lt;/p&gt;
+&lt;p&gt;
+The information these images provide can help establish whether there&apos;s more than one baby and can help confirm gestational age, two factors that can affect AFP levels. An advanced ultrasound can also detect signs of spina bifida, such as an open spine or particular features in your baby&apos;s brain that indicate spina bifida. 
+&lt;/p&gt;
+&lt;p&gt;
+In expert hands, ultrasound today is quite effective in detecting spina bifida and assessing its severity. Ultrasound is safe for both mother and baby. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Amniocentesis&lt;br /&gt;
+&lt;/strong&gt;If a blood test shows high levels of AFP in your blood but the ultrasound is normal, your doctor may offer amniocentesis. During amniocentesis, your doctor uses a needle to remove a sample of fluid from the amniotic sac that surrounds the baby. An analysis indicates the level of AFP present in the amniotic fluid. 
+&lt;/p&gt;
+&lt;p&gt;
+A small amount of AFP is normally found in amniotic fluid. However, when an open neural tube defect is present, the amniotic fluid contains an elevated amount of AFP because the skin surrounding the baby&apos;s spine is gone and AFP leaks into the amniotic sac. A second test can be done on the same sample to reliably confirm that a neural tube defect is present. 
+&lt;/p&gt;
+&lt;p&gt;
+Discuss the risks of this test, including a slight risk of loss of the pregnancy, with your doctor.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of amniocentesis 
+" Caption="During amniocentesis, samples of amniotic fluid are removed using a needle and then tested for genetic abnormalities in the laboratory. 
+" Height="60" Title="Amniocentesis" URI="/images/image_popup/thumbs/pr7_amniothu.jpg" Width="60" />
+				<Image Alt="Illustration of amniocentesis 
+" Caption="During amniocentesis, samples of amniotic fluid are removed using a needle and then tested for genetic abnormalities in the laboratory. 
+" Height="347" Title="Amniocentesis" URI="/images/image_popup/pr7_amnio.jpg" Width="400" />
+				<HTML>
+					During amniocentesis, samples of amniotic fluid are removed using a needle and then tested for genetic abnormalities in the laboratory. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spina bifida treatment depends on the severity of the condition. Spina bifida occulta often doesn&apos;t require treatment at all, but other types of spina bifida do.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Meningocele involves surgery to put the meninges back in place and close the opening in the vertebrae. Myelomeningocele also requires surgery, usually within 24 to 48 hours after birth. Performing the surgery early can help minimize risk of infection that&apos;s associated with the exposed nerves and may also help protect the spinal cord from additional trauma. During the procedure, a neurosurgeon places the spinal cord and exposed tissue inside the baby&apos;s body and covers them with muscle and skin. Sometimes a shunt to control hydrocephalus in the baby&apos;s brain is placed during the operation on the spinal cord.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prenatal surgery&lt;br /&gt;
+&lt;/strong&gt;In this procedure &amp;mdash; which takes place before the 26th week of pregnancy &amp;mdash; surgeons expose a pregnant mother&apos;s uterus surgically, open the uterus and repair the baby&apos;s spinal cord. 
+&lt;/p&gt;
+&lt;p&gt;
+Proponents of fetal surgery believe that nerve function in babies with spina bifida seems to worsen rapidly after birth, so it may be better to repair spina bifida defects while you&apos;re still pregnant and the baby is still in your uterus (in utero). So far, children who received the fetal surgery need fewer shunts, and are less likely to need crutches or other walking devices. But the operation poses risks to the mother and greatly increases the risk of premature delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+Discuss with your doctor whether this procedure may be right for you.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ongoing care&lt;br /&gt;
+&lt;/strong&gt;Treatment doesn&apos;t end with the initial surgery, though. In babies with myelomeningocele, irreparable nerve damage has already occurred, and ongoing care from a multidisciplinary team of surgeons, physicians and therapists is usually needed. Paralysis and bladder and bowel problems often remain, and treatment for these conditions typically begins soon after birth. Babies with myelomeningocele may also start exercises that will prepare their legs for walking with braces or crutches when they&apos;re older.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, babies with myelomeningocele may need further operations for a variety of complications. Many have a tethered spinal cord &amp;mdash; a condition in which the spinal cord is bound to the scar of the closure and is less able to properly grow in length as the child grows. This progressive &quot;tethering&quot; can cause loss of muscle function to the legs, bowel or bladder. Surgery can limit the degree of disability and may also restore some function.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cesarean birth&lt;br /&gt;
+&lt;/strong&gt;Cesarean birth also may be part of the treatment for spina bifida. Many babies with myelomeningocele tend to be in a feet-first (breech) position. If your baby is in this position or if your doctor has detected a large cyst, cesarean birth may be a safer way to deliver your baby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+News that your newborn child has a condition such as spina bifida can naturally cause you as a parent to feel grief, anger, frustration, fear and sadness. There&apos;s good reason to hope, however, because most people with spina bifida live active, productive and full lives &amp;mdash; especially with encouragement and support from loved ones. 
+&lt;/p&gt;
+&lt;p&gt;
+Even with severe spina bifida, most children can walk for at least short distances, usually with the assistance of braces, canes or crutches, although they may require wheelchairs for longer distances. Using these devices can help a child compensate for his or her condition and gain more independence. 
+&lt;/p&gt;
+&lt;p&gt;
+Many children with spina bifida have normal intelligence, but they may need early educational intervention for learning problems. They may also need extra help from teachers and counselors to adapt to school. A physical disability like spina bifida can also cause emotional and social problems. Children with spina bifida need encouragement to participate in activities with their peers and to lead independent lives, within their physical limitations and capabilities. It may be helpful to remember that these children have never known what&apos;s accepted as normal function and often adapt to their condition in remarkable ways. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has spina bifida, you may benefit from finding a support group of other parents who are dealing with the condition. Talking with others who understand the challenges &amp;mdash; and rewards &amp;mdash; of living with spina bifida can be helpful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Folic acid, taken in supplement form at least one month before conception and during the first trimester of pregnancy, greatly reduces the risk of spina bifida and other neural tube defects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Get folic acid first&lt;br /&gt;
+&lt;/strong&gt;It&apos;s critical to have enough folic acid in your system by the early weeks of pregnancy to prevent spina bifida. Because many women don&apos;t discover that they&apos;re pregnant until this time, experts recommend that all women of childbearing age take a daily supplement of 400 micrograms (mcg) of folic acid. Several foods, including bread, pasta, rice and breakfast cereals, are fortified with 400 mcg of folic acid per serving. Folic acid may be listed on food packages as folate, which is the natural form of folic acid found in food. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Planning pregnancy&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re actively trying to conceive, most pregnancy experts believe supplementation of at least 400 mcg of folic acid a day is the best approach for women planning pregnancy. Your body doesn&apos;t absorb folate as easily as it absorbs synthetic folic acid, and most people don&apos;t get the recommended amount of folate through diet alone, so vitamin supplements are necessary to prevent spina bifida. And, it&apos;s possible that folic acid will also help reduce the risk of other birth defects, including cleft lip, cleft palate and some congenital heart defects. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also a good idea to eat a healthy diet, including foods rich in folate or enriched with folic acid. This vitamin is present naturally in many foods, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Beans&lt;/li&gt;
+	&lt;li&gt;Citrus fruits and juices&lt;/li&gt;
+	&lt;li&gt;Egg yolks&lt;/li&gt;
+	&lt;li&gt;Dark green vegetables, such as broccoli and spinach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When higher doses are needed&lt;br /&gt;
+&lt;/strong&gt;If you have spina bifida or if you&apos;ve given birth to a child with spina bifida, you&apos;ll need extra folic acid before you become pregnant. If you&apos;re taking anti-seizure medications or you have diabetes, you may also benefit from a higher dose of this B vitamin. In these cases, the recommended dose of folic acid may be up to 4,000 mcg (4 mg) beginning one month prior to conception and during the first few months of pregnancy. However, check with your doctor before taking additional folic acid supplements.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Spina bifida
+	</Title>
+	<Abstract>
+		Spina bifida &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this serious birth defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+	</RelatedLinksBox>
+</Disease>

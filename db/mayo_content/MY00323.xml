@@ -1,0 +1,272 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00323
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brachytherapy/MY00323
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-29
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3980" Title="Brachytherapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D75DEB67-E7FF-0DBD-1C702656593F0B3F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				brachytherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				mammosite
+			</MetaKeyword>
+			<MetaKeyword>
+				gliasite
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brachytherapy (brak-e-THER-uh-pee) is a procedure that involves placing radioactive material inside your body. Brachytherapy is one type of radiation therapy that&apos;s used to treat cancer. Brachytherapy is sometimes called internal radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+Brachytherapy allows doctors to deliver higher doses of radiation to more-specific areas of the body, compared with the conventional form of radiation therapy (external beam radiation) that projects radiation from a machine outside of your body. Brachytherapy may cause fewer side effects than does external beam radiation, and the overall treatment time is usually shorter with brachytherapy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intracavity brachytherapy
+" Caption="During intracavity brachytherapy, an applicator containing a radioactive substance is placed within the body, at or near the site where the tumor is located or was removed. One treatment for cervical cancer is intracavity brachytherapy. 
+" Height="60" Title="Intracavity brachytherapy" URI="/images/image_popup/thumbs/c7_brachytherapythu.jpg" Width="60" />
+				<Image Alt="Illustration showing intracavity brachytherapy
+" Caption="During intracavity brachytherapy, an applicator containing a radioactive substance is placed within the body, at or near the site where the tumor is located or was removed. One treatment for cervical cancer is intracavity brachytherapy. 
+" Height="338" Title="Intracavity brachytherapy" URI="/images/image_popup/c7_brachytherapy.jpg" Width="400" />
+				<HTML>
+					During intracavity brachytherapy, an applicator containing a radioactive substance is placed within the body, at or near the site where the tumor is located or was removed. One treatment for cervical ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing permanent prostate brachytherapy 
+" Caption="Permanent prostate brachytherapy involves placing many radioactive seeds within the prostate to treat prostate cancer. During the procedure, an ultrasound probe is placed in the rectum to help guide the placement of seeds. The seeds, which are typically permanent, emit radiation that dissipates over a few months. 
+" Height="60" Title="Permanent prostate brachytherapy" URI="/images/image_popup/thumbs/hdg7_seedthu.jpg" Width="60" />
+				<Image Alt="Illustration showing permanent prostate brachytherapy 
+" Caption="Permanent prostate brachytherapy involves placing many radioactive seeds within the prostate to treat prostate cancer. During the procedure, an ultrasound probe is placed in the rectum to help guide the placement of seeds. The seeds, which are typically permanent, emit radiation that dissipates over a few months. 
+" Height="488" Title="Permanent prostate brachytherapy" URI="/images/image_popup/hdg7_seed.jpg" Width="400" />
+				<HTML>
+					Permanent prostate brachytherapy involves placing many radioactive seeds within the prostate to treat prostate cancer. During the procedure, an ultrasound probe is placed in the rectum to help guide ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brachytherapy is used to treat several types of cancer, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bile duct cancer&lt;/li&gt;
+	&lt;li&gt;Breast cancer&lt;/li&gt;
+	&lt;li&gt;Cervical cancer&lt;/li&gt;
+	&lt;li&gt;Endometrial cancer&lt;/li&gt;
+	&lt;li&gt;Eye cancer&lt;/li&gt;
+	&lt;li&gt;Head and neck cancers&lt;/li&gt;
+	&lt;li&gt;Lung cancer&lt;/li&gt;
+	&lt;li&gt;Prostate cancer&lt;/li&gt;
+	&lt;li&gt;Rectal cancer&lt;/li&gt;
+	&lt;li&gt;Skin cancer&lt;/li&gt;
+	&lt;li&gt;Soft tissue cancers&lt;/li&gt;
+	&lt;li&gt;Vaginal cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Brachytherapy can be used alone or in conjunction with other cancer treatments. For instance, brachytherapy is sometimes used after surgery to destroy any cancer cells that may remain. Brachytherapy can also be used along with external beam radiation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Side effects of brachytherapy are specific to the area being treated. Because brachytherapy focuses radiation in a small treatment area, only that area is affected. You may experience tenderness and swelling in the treatment area. Ask your doctor what other side effects can be expected from your treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you begin brachytherapy, you may meet with a doctor who specializes in treating cancer with radiation (radiation oncologist). You may also undergo scans to help your doctor determine your treatment plan. Procedures such as X-rays or computerized tomography (CT) may be performed before brachytherapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brachytherapy treatment involves inserting radioactive material into your body near the cancer. How your doctor places that radioactive material into your body depends on many factors, including the location and extent of the cancer, your overall health, and your treatment goals. Placement may be inside a body cavity or into body tissue: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Radiation placed inside a body cavity.&lt;/strong&gt; During intracavity brachytherapy, a device containing radioactive material is placed in a body opening, such as the windpipe or the vagina. The device may be a tube or cylinder made to fit the specific body opening. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your radiation therapy team may place the brachytherapy device by hand or may use a computerized machine to help place the device. Imaging equipment, such as a CT scanner or ultrasound machine, may be used to ensure the device is placed in the most effective location. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Radiation inserted into body tissue.&lt;/strong&gt; During interstitial brachytherapy, devices containing radioactive material are placed within body tissue, such as within the breast or prostate. Devices that deliver interstitial radiation into the treatment area include wires, balloons and tiny seeds the size of grains of rice. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A number of techniques are used for inserting the brachytherapy devices into body tissue. Your radiation therapy team may use needles or special applicators. These long, hollow tubes are loaded with the brachytherapy devices, such as seeds, and inserted into the tissue where the seeds are released. In some cases, narrow tubes (catheters) may be placed during surgery and later filled with radioactive material during brachytherapy sessions. CT scans, ultrasound or other imaging techniques may be used to guide the devices into place and to ensure they&apos;re positioned in the most effective locations. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;High-dose rate vs. low-dose rate brachytherapy&lt;/strong&gt; &lt;br /&gt;
+What you&apos;ll experience during brachytherapy depends on your specific treatment. Radiation can be given in a brief treatment session, as with high-dose rate brachytherapy, or it can be left in place over a period of time, as with low-dose rate brachytherapy. Sometimes the radiation source is placed in your body permanently: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;High-dose rate brachytherapy.&lt;/strong&gt; High-dose rate brachytherapy is often an outpatient procedure, which means each treatment session is brief and doesn&apos;t require that you be admitted to the hospital. During high-dose rate brachytherapy, radioactive material is placed in your body for a short period &amp;mdash; from a few minutes up to 20 minutes. You may undergo one or two sessions a day over a number of days or weeks. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	You&apos;ll lie in a comfortable position during high-dose rate brachytherapy. Your radiation therapy team will position the radiation device, in the case of intracavity brachytherapy, or the radiation-holding device may already be in place if you&apos;re having interstitial brachytherapy. The radioactive material is inserted into the brachytherapy device with the help of a computerized machine. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your radiation therapy team will leave the room during your brachytherapy session. They&apos;ll observe from a nearby room where they can see and hear you. You shouldn&apos;t feel any pain during brachytherapy, but if you feel uncomfortable or have any concerns, be sure to tell your caregivers. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Once the radioactive material is removed from your body, you won&apos;t give off radiation or be radioactive. You aren&apos;t a danger to other people, and you can go on with your usual activities. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Low-dose rate brachytherapy.&lt;/strong&gt; During low-dose rate brachytherapy, a continuous low dose of radiation is released over time &amp;mdash; from several hours to several days. You&apos;ll stay in the hospital while the radiation is in place. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Radioactive material is placed in your body by hand or by machine. Brachytherapy devices may be positioned during surgery, which may require anesthesia or sedation to help you remain still during the procedure and to reduce discomfort. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	You&apos;ll likely stay in a private room in the hospital during low-dose rate brachytherapy. Because the radioactive material stays inside your body, there is a small chance it could harm other people. For this reason, visitors will be restricted. Children and pregnant women shouldn&apos;t visit you in the hospital. Others may visit briefly once a day or so. Your health care team will still give you the care you need, but may restrict the amount of time they spend in your room. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	You shouldn&apos;t feel pain during low-dose rate brachytherapy. Keeping still and remaining in your hospital room for days may be uncomfortable. If you feel any discomfort, tell your health care team. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	After a designated amount of time, the radioactive material is removed from your body. Once brachytherapy treatment is complete, you&apos;re free to have visitors without restrictions. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Permanent brachytherapy.&lt;/strong&gt; In some cases, such as with prostate cancer brachytherapy, radioactive material is placed in your body permanently. The radioactive material is typically placed by hand with the guidance of an imaging test, such as ultrasound or CT. You may feel pain during the placement of radioactive material, but you shouldn&apos;t feel any discomfort once it&apos;s in place. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your body will emit low doses of radiation from the area being treated at first. Usually the risk to others is minimal and may not require any restrictions about who can be near you. In some cases, for a short period of time you may be asked to limit the length and frequency of visits with pregnant women or with children. The amount of radiation in your body will diminish with time, and restrictions will be discontinued. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intracavity brachytherapy
+" Caption="During intracavity brachytherapy, an applicator containing a radioactive substance is placed within the body, at or near the site where the tumor is located or was removed. One treatment for cervical cancer is intracavity brachytherapy. 
+" Height="60" Title="Intracavity brachytherapy" URI="/images/image_popup/thumbs/c7_brachytherapythu.jpg" Width="60" />
+				<Image Alt="Illustration showing intracavity brachytherapy
+" Caption="During intracavity brachytherapy, an applicator containing a radioactive substance is placed within the body, at or near the site where the tumor is located or was removed. One treatment for cervical cancer is intracavity brachytherapy. 
+" Height="338" Title="Intracavity brachytherapy" URI="/images/image_popup/c7_brachytherapy.jpg" Width="400" />
+				<HTML>
+					During intracavity brachytherapy, an applicator containing a radioactive substance is placed within the body, at or near the site where the tumor is located or was removed. One treatment for cervical ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing permanent prostate brachytherapy 
+" Caption="Permanent prostate brachytherapy involves placing many radioactive seeds within the prostate to treat prostate cancer. During the procedure, an ultrasound probe is placed in the rectum to help guide the placement of seeds. The seeds, which are typically permanent, emit radiation that dissipates over a few months. 
+" Height="60" Title="Permanent prostate brachytherapy" URI="/images/image_popup/thumbs/hdg7_seedthu.jpg" Width="60" />
+				<Image Alt="Illustration showing permanent prostate brachytherapy 
+" Caption="Permanent prostate brachytherapy involves placing many radioactive seeds within the prostate to treat prostate cancer. During the procedure, an ultrasound probe is placed in the rectum to help guide the placement of seeds. The seeds, which are typically permanent, emit radiation that dissipates over a few months. 
+" Height="488" Title="Permanent prostate brachytherapy" URI="/images/image_popup/hdg7_seed.jpg" Width="400" />
+				<HTML>
+					Permanent prostate brachytherapy involves placing many radioactive seeds within the prostate to treat prostate cancer. During the procedure, an ultrasound probe is placed in the rectum to help guide ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend scans after brachytherapy to determine whether treatment was successful. What types of scans you undergo will depend on the type and location of your cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Brachytherapy
+	</Title>
+	<Abstract>
+		Brachytherapy &amp;mdash; Overview covers definition, risks, results of this type of radiation therapy for cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01635" LinkType="Internal" ObjectID="F07B7D72-DEC9-EED5-B17F3FB080800B19" Title="Prostate brachytherapy" Url="http://www.mayoclinic.com/health/prostate-brachytherapy/MY01635" />
+		<LinkItem ContentType="Answer" DocID="AN01629" LinkType="Internal" ObjectID="637C00AF-E7FF-0DBD-141EEB57C003F0C9" Title="Prostate cancer brachytherapy: Can I pass radiation to others?" Url="http://www.mayoclinic.com/health/prostate-cancer-brachytherapy/AN01629" />
+	</RelatedLinksBox>
+</TestProcedure>

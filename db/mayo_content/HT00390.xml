@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00390
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00390
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="2291" Title="Medications" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AD859BF-E7FF-0DBD-19EBA0CE74CF8648
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				antibiotic
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotics
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic resistance
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic resistant bacteria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		What&apos;s your antibiotics IQ?
+	</Title>
+	<Body>
+		&lt;p&gt;To fight the spread of antibiotic-resistant infections, everyone needs to be smart about using antibiotics. Keep these tips in mind: 1. Antibiotics are effective only for bacterial infections. They don&apos;t work for viral illnesses, such as the common cold. 2. If your doctor prescribes antibiotics, take them exactly as directed. Don&apos;t stop treatment early, even if you start feeling better. 3. Never take antibiotics that were prescribed for someone else.&lt;/p&gt;
+	</Body>
+</HealthTip>

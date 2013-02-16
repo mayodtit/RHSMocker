@@ -1,0 +1,257 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00942
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/norovirus/DS00942
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-05
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3115" Title="Gastroenteritis">
+							<Keyword MCVID="4299" Title="Norovirus infection" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5110957F-E7FF-0DBD-1118AB40C328C978
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				norovirus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				noro virus
+			</MetaKeyword>
+			<MetaKeyword>
+				norovirus
+			</MetaKeyword>
+			<MetaKeyword>
+				nora virus
+			</MetaKeyword>
+			<MetaKeyword>
+				noravirus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Norovirus infection can cause severe diarrhea and vomiting. Noroviruses are a major cause of gastrointestinal illness in closed and crowded environments, such as hospitals, nursing homes and cruise ships. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, people with norovirus infection develop diarrhea and abdominal pain and begin to vomit within 24 to 48 hours of exposure. Norovirus symptoms may last a few days, but most people recover completely without treatment. However, in some people &amp;mdash; especially infants, older adults and people with underlying disease &amp;mdash; vomiting and diarrhea can be severely dehydrating and require medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+Norovirus infection is highly contagious. Noroviruses commonly spread through food or water contaminated by fecal matter during preparation. You can also acquire norovirus infection through close contact with an infected person &amp;mdash; for instance, if you live in a nursing home or work in a day care facility. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of norovirus infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+	&lt;li&gt;Watery or loose diarrhea&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Malaise&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The incubation period for norovirus infection is usually 24 to 48 hours after first exposure to the virus, and signs and symptoms usually last one to three days. You may continue to shed virus in your feces for up to three days after recovery. Some people with norovirus infection may show no signs or symptoms. However, they are still contagious and may unwittingly spread the virus to others. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek medical attention if you develop diarrhea that doesn&apos;t go away within several days. Also call your doctor if you experience severe vomiting, bloody stools, abdominal pain or dehydration. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Noroviruses are highly contagious and are shed in the feces of infected humans and animals. Oysters, salads and raspberries are among foods that have been responsible for outbreaks. Infected food handlers can transfer the virus to any food product just before it is served. 
+&lt;/p&gt;
+&lt;p&gt;
+Methods of transmission include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating contaminated food&lt;/li&gt;
+	&lt;li&gt;Drinking contaminated water &lt;/li&gt;
+	&lt;li&gt;Touching your hand to your mouth after your hand has been in contact with a contaminated surface or object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Noroviruses are difficult to eradicate, because they can withstand hot and cold temperatures, as well as most disinfectants. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for becoming infected with norovirus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having an impaired immune system, such as people with AIDS and transplant recipients&lt;/li&gt;
+	&lt;li&gt;Living in a household with improper or unsanitary food-handling procedures&lt;/li&gt;
+	&lt;li&gt;Living with a child who attends preschool or a child care center&lt;/li&gt;
+	&lt;li&gt;Traveling to or staying in hotels, vacation resorts, cruise ships or other destinations with many people in close quarters&lt;/li&gt;
+	&lt;li&gt;Living in close quarters, such as in nursing homes and retirement centers &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, norovirus infection clears up within a few days and isn&apos;t life-threatening. In some cases, however, severe dehydration, malnutrition and even death can result from norovirus infection, especially among children and among older and immunocompromised adults in hospitals or nursing homes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people don&apos;t need to seek medical attention for a norovirus infection, because it clears up on its own in a day or two. However, in cases involving infants, young children and older or immunocompromised adults, you may want to call your doctor if the illness lasts more than a few days or if it appears to be causing dehydration. 
+&lt;/p&gt;
+&lt;p&gt;
+Warning signs of dehydration include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sunken eyes&lt;/li&gt;
+	&lt;li&gt;Dry mouth and tongue&lt;/li&gt;
+	&lt;li&gt;Reduced production of tears&lt;/li&gt;
+	&lt;li&gt;Decreased urine output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will need to know: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When the illness began&lt;/li&gt;
+	&lt;li&gt;The frequency of the vomiting or diarrhea&lt;/li&gt;
+	&lt;li&gt;Whether the vomit or diarrhea contains bile, mucus or blood&lt;/li&gt;
+	&lt;li&gt;If you have a fever&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Norovirus can be identified by testing a sample of your stool, but diagnosis is usually based on your symptoms alone. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific treatment for norovirus infection, and recovery generally depends on the health of your immune system. In most otherwise-healthy people, the illness usually resolves within a few days. 
+&lt;/p&gt;
+&lt;p&gt;
+The key factor is to replace lost fluids. If you&apos;re unable to drink enough fluids to prevent dehydration, you may need to receive fluids intravenously. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your family includes young children, it&apos;s a good idea to have commercially prepared oral hydration solution, such as Pedialyte, on hand. Drinking liquids that contain a lot of sugar, such as soft drinks and many sports drinks, can make diarrhea worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Norovirus infection is highly contagious. Follow these suggestions to help prevent norovirus infection from spreading: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Thorough hand-washing, especially after using the toilet or changing a diaper, can reduce the risk of transmission.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid contaminated food and water.&lt;/strong&gt; Don&apos;t eat shellfish that may have come from contaminated waters. Throw out any food that may have been prepared by someone who was sick.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disinfect virus-contaminated areas.&lt;/strong&gt; Use a chlorine bleach solution. Where possible, allow bleach to stay on surfaces longer than 10 minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay home from work.&lt;/strong&gt; This is especially important if you work in a food-handling job. You may be contagious as long as three days after your symptoms end. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Norovirus infection
+	</Title>
+	<Abstract>
+		Norovirus infection &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this highly contagious viral illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01778" LinkType="Internal" ObjectID="B65EC8CB-E7FF-0DBD-18D7DBC69F998382" Title="Flu shot: Will it prevent the stomach flu?" Url="http://www.mayoclinic.com/health/flu-shot/AN01778" />
+		<LinkItem ContentType="Answer" DocID="AN01758" LinkType="Internal" ObjectID="ABCF63F3-E7FF-0DBD-176D82683714609A" Title="Stomach flu: How long am I contagious?" Url="http://www.mayoclinic.com/health/stomach-flu/AN01758" />
+		<LinkItem ContentType="Disease" DocID="DS00085" LinkType="Internal" ObjectID="E31CB1FE-4C04-4B05-A67DF0EEF09823B7" Title="Viral gastroenteritis (stomach flu)" Url="http://www.mayoclinic.com/health/viral-gastroenteritis/DS00085" />
+	</RelatedLinksBox>
+</Disease>

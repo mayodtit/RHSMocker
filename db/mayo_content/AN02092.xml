@@ -1,0 +1,119 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02092
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pseudoaneurysm/AN02092
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-17
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3999" Title="Cardiac catheterization" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4AD5E62D-E4B6-4FEB-4E1217FA86838168
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pseudoaneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				psuedoaneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				false aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac catheterization
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary angiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				catheterization
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A pseudoaneurysm, sometimes called a false aneurysm, is a dilated artery or blood vessel. A pseudoaneurysm can form after an artery or heart chamber is injured causing blood to leak and pool outside the artery&apos;s wall. In a true aneurysm, the artery or vessel is enlarged, but the enlargement doesn&apos;t result from an injury and blood flows normally through the aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+A pseudoaneurysm may be a complication of cardiac catheterization, a procedure in which a catheter is inserted in an artery in your groin (femoral artery) and is threaded through your blood vessels to your heart. Cardiac catheterization is used to capture images of your heart to diagnose heart disease and to treat certain types of heart disease. A pseudoaneurysm can occur if blood leaks and pools outside your femoral artery where it was punctured when the catheter was inserted. Pseudoaneurysms can also occur in other arteries throughout the body related to either surgery or trauma, or from the rupture of an aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+Pseudoaneurysms can also occur in the heart chambers, such as the left ventricle, after damage from a heart attack causes blood to leak and pool outside the injured heart muscle. 
+&lt;/p&gt;
+&lt;p&gt;
+If a pseudoaneurysm of a femoral artery related to cardiac catheterization is small, it may go undetected and not cause any complications. But if a small pseudoaneurysm is detected, your doctor may recommend a watchful-waiting approach to see if it resolves on its own. However, most often, when a femoral artery pseudoaneurysm is detected, your doctor will recommend one of these treatments: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound-guided compression repair.&lt;/strong&gt; In this treatment, your doctor will look for your pseudoaneurysm using ultrasound imaging. Once the pseudoaneurysm is found, your doctor presses on it to release the built-up blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound-guided medications.&lt;/strong&gt; Your doctor may recommend having a dose of blood clot-forming medication (thrombin) injected into your pseudoaneurysm to treat it by causing the pooled blood to clot. The medication is injected into the pseudoaneurysm after it&apos;s found using ultrasound imaging.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If your doctor doesn&apos;t think either ultrasound-guided treatment will work, he or she may recommend surgery to correct it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pseudoaneurysm: What causes it?
+	</Title>
+	<Abstract>
+		Pseudoaneurysm may be a complication of cardiac catheterization.
+	</Abstract>
+	<Question>
+		What causes a pseudoaneurysm? Should a pseudoaneurysm always be treated?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00218" LinkType="Internal" ObjectID="E0258087-E7FF-0DBD-1285B4E6EDD43AD9" Title="Cardiac catheterization" Url="http://www.mayoclinic.com/health/cardiac-catheterization/MY00218" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+	</RelatedLinksBox>
+</Answer>

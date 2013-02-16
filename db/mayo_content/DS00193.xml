@@ -1,0 +1,596 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00193
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/psoriasis/DS00193
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-25
+		</UpdateDate>
+		<PublicationDate>
+			2000-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2818" Title="Psoriasis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			314A4C2A-D3AD-46E8-8730C1905D41C7CF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				psoriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				psorisis
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				psorasis
+			</MetaKeyword>
+			<MetaKeyword>
+				gutate psoriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				types of psoriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+			<MetaKeyword>
+				psoratic arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasitic arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				scalp psorasis
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis causes
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis complications
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis medications
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis triggers
+			</MetaKeyword>
+			<MetaKeyword>
+				coping with psoriasis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psoriasis is a common skin disease that affects the life cycle of skin cells. Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+&lt;/p&gt;
+&lt;p&gt;
+Psoriasis is a persistent, long-lasting (chronic) disease. You may have periods when your psoriasis symptoms improve or go into remission alternating with times your psoriasis worsens. 
+&lt;/p&gt;
+&lt;p&gt;
+For some people, psoriasis is just a nuisance. For others, it&apos;s disabling, especially when associated with arthritis. There&apos;s no cure, but psoriasis treatments may offer significant relief. Lifestyle measures, such as using a nonprescription cortisone cream and exposing your skin to small amounts of natural sunlight, can improve your psoriasis symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how psoriasis develops 
+" Caption="In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+" Height="60" Title="How psoriasis develops" URI="/images/image_popup/thumbs/sn7_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how psoriasis develops 
+" Caption="In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+" Height="215" Title="How psoriasis develops" URI="/images/image_popup/sn7_psoriasis.jpg" Width="400" />
+				<HTML>
+					In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psoriasis signs and symptoms can vary from person to person but may include one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red patches of skin covered with silvery scales&lt;/li&gt;
+	&lt;li&gt;Small scaling spots (commonly seen in children)&lt;/li&gt;
+	&lt;li&gt;Dry, cracked skin that may bleed&lt;/li&gt;
+	&lt;li&gt;Itching, burning or soreness&lt;/li&gt;
+	&lt;li&gt;Thickened, pitted or ridged nails&lt;/li&gt;
+	&lt;li&gt;Swollen and stiff joints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Psoriasis patches can range from a few spots of dandruff-like scaling to major eruptions that cover large areas. Mild cases of psoriasis may be a nuisance; more-severe cases can be painful, disfiguring and disabling. 
+&lt;/p&gt;
+&lt;p&gt;
+Most types of psoriasis go through cycles, flaring for a few weeks or months, then subsiding for a time or even going into complete remission. In most cases, however, the disease eventually returns. 
+&lt;/p&gt;
+&lt;p&gt;
+Several types of psoriasis exist. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plaque psoriasis.&lt;/strong&gt; The most common form, plaque psoriasis causes dry, raised, red skin lesions (plaques) covered with silvery scales. The plaques itch or may be painful and can occur anywhere on your body, including your genitals and the soft tissue inside your mouth. You may have just a few plaques or many, and in severe cases, the skin around your joints may crack and bleed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nail psoriasis.&lt;/strong&gt; Psoriasis can affect fingernails and toenails, causing pitting, abnormal nail growth and discoloration. Psoriatic nails may become loose and separate from the nail bed (onycholysis). Severe cases may cause the nail to crumble.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scalp psoriasis.&lt;/strong&gt; Psoriasis on the scalp appears as red, itchy areas with silvery-white scales. You may notice flakes of dead skin in your hair or on your shoulders, especially after scratching your scalp.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Guttate psoriasis.&lt;/strong&gt; This primarily affects people younger than 30 and is usually triggered by a bacterial infection such as strep throat. It&apos;s marked by small, water-drop-shaped sores on your trunk, arms, legs and scalp. The sores are covered by a fine scale and aren&apos;t as thick as typical plaques are. You may have a single outbreak that goes away on its own, or you may have repeated episodes, especially if you have ongoing respiratory infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inverse psoriasis.&lt;/strong&gt; Mainly affecting the skin in the armpits, in the groin, under the breasts and around the genitals, inverse psoriasis causes smooth patches of red, inflamed skin. It&apos;s more common in overweight people and is worsened by friction and sweating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pustular psoriasis.&lt;/strong&gt; This uncommon form of psoriasis can occur in widespread patches (generalized pustular psoriasis) or in smaller areas on your hands, feet or fingertips. It generally develops quickly, with pus-filled blisters appearing just hours after your skin becomes red and tender. The blisters dry within a day or two, but may reappear every few days or weeks. Generalized pustular psoriasis can also cause fever, chills, severe itching and fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Erythrodermic psoriasis.&lt;/strong&gt; The least common type of psoriasis, erythrodermic psoriasis can cover your entire body with a red, peeling rash that can itch or burn intensely. It may be triggered by severe sunburn, by corticosteroids and other medications, or by another type of psoriasis that&apos;s poorly controlled.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriatic arthritis.&lt;/strong&gt; In addition to inflamed, scaly skin, psoriatic arthritis causes pitted, discolored nails and the swollen, painful joints that are typical of arthritis. It can also lead to inflammatory eye conditions, such as conjunctivitis. Symptoms range from mild to severe, and psoriatic arthritis can affect any joint. Although the disease usually isn&apos;t as crippling as other forms of arthritis, it can cause stiffness and progressive joint damage that in the most serious cases may lead to permanent deformity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you suspect that you may have psoriasis, see your doctor for an examination. Also, talk to your doctor if your psoriasis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Progresses beyond the nuisance stage, causing you discomfort and pain&lt;/li&gt;
+	&lt;li&gt;Makes performing routine tasks difficult&lt;/li&gt;
+	&lt;li&gt;Causes you concern about the appearance of your skin&lt;/li&gt;
+	&lt;li&gt;Leads to joints problems, such as pain, swelling or inability to perform daily tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seek medical advice if your signs and symptoms worsen or don&apos;t improve with treatment. You may need a different medication or a combination of treatments to manage the psoriasis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of plaque psoriasis 
+" Caption="Plaque psoriasis is the most common type of psoriasis. It usually causes dry, red skin lesions (plaques) covered with silvery scales. 
+" Height="60" Title="Plaque psoriasis" URI="/images/image_popup/thumbs/sn7_plaquepsoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of plaque psoriasis 
+" Caption="Plaque psoriasis is the most common type of psoriasis. It usually causes dry, red skin lesions (plaques) covered with silvery scales. 
+" Height="400" Title="Plaque psoriasis" URI="/images/image_popup/sn7_plaquepsoriasis.jpg" Width="400" />
+				<HTML>
+					Plaque psoriasis is the most common type of psoriasis. It usually causes dry, red skin lesions (plaques) covered with silvery scales. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of guttate psoriasis 
+" Caption="Guttate psoriasis, more common in children and adults younger than 30, appears as small, water-drop-shaped sores on the trunk, arms, legs and scalp. The sores are typically covered by a fine scale. 
+" Height="60" Title="Guttate psoriasis" URI="/images/image_popup/thumbs/sn7_guttatepsoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of guttate psoriasis 
+" Caption="Guttate psoriasis, more common in children and adults younger than 30, appears as small, water-drop-shaped sores on the trunk, arms, legs and scalp. The sores are typically covered by a fine scale. 
+" Height="400" Title="Guttate psoriasis" URI="/images/image_popup/sn7_guttatepsoriasis.jpg" Width="400" />
+				<HTML>
+					Guttate psoriasis, more common in children and adults younger than 30, appears as small, water-drop-shaped sores on the trunk, arms, legs and scalp. The sores are typically covered by a fine scale. ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of scalp psoriasis 
+" Caption="Psoriasis causes red patches of skin covered with silvery scales and a thick crust on the scalp that may bleed when removed. 
+" Height="60" Title="Scalp psoriasis" URI="/images/image_popup/thumbs/sn7_scalppsoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of scalp psoriasis 
+" Caption="Psoriasis causes red patches of skin covered with silvery scales and a thick crust on the scalp that may bleed when removed. 
+" Height="400" Title="Scalp psoriasis" URI="/images/image_popup/sn7_scalppsoriasis.jpg" Width="400" />
+				<HTML>
+					Psoriasis causes red patches of skin covered with silvery scales and a thick crust on the scalp that may bleed when removed. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of inverse psoriasis
+" Caption="Inverse psoriasis causes smooth patches of red, inflamed skin. It&apos;s more common in overweight people and is worsened by friction and sweating. 
+" Height="60" Title="Inverse psoriasis" URI="/images/image_popup/thumbs/mcdc7_inverse_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of inverse psoriasis
+" Caption="Inverse psoriasis causes smooth patches of red, inflamed skin. It&apos;s more common in overweight people and is worsened by friction and sweating. 
+" Height="280" Title="Inverse psoriasis" URI="/images/image_popup/mcdc7_inverse_psoriasis.jpg" Width="400" />
+				<HTML>
+					Inverse psoriasis causes smooth patches of red, inflamed skin. It&apos;s more common in overweight people and is worsened by friction and sweating. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of nail psoriasis
+" Caption="Psoriasis can affect fingernails and toenails, causing pitting, abnormal nail growth and discoloration.
+" Height="60" Title="Nail psoriasis" URI="/images/image_popup/thumbs/mcdc7_nail_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of nail psoriasis
+" Caption="Psoriasis can affect fingernails and toenails, causing pitting, abnormal nail growth and discoloration.
+" Height="280" Title="Nail psoriasis" URI="/images/image_popup/mcdc7_nail_psoriasis.jpg" Width="400" />
+				<HTML>
+					Psoriasis can affect fingernails and toenails, causing pitting, abnormal nail growth and discoloration.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of pustular psoriasis 
+" Caption="Pustular psoriasis generally develops quickly, with pus-filled blisters appearing just hours after your skin becomes red and tender. It can occur in widespread patches or in smaller areas on your hands, feet or fingertips. 
+" Height="60" Title="Pustular psoriasis" URI="/images/image_popup/thumbs/mcdc7_pustular_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of pustular psoriasis 
+" Caption="Pustular psoriasis generally develops quickly, with pus-filled blisters appearing just hours after your skin becomes red and tender. It can occur in widespread patches or in smaller areas on your hands, feet or fingertips. 
+" Height="550" Title="Pustular psoriasis" URI="/images/image_popup/mcdc7_pustular_psoriasis.jpg" Width="400" />
+				<HTML>
+					Pustular psoriasis generally develops quickly, with pus-filled blisters appearing just hours after your skin becomes red and tender. It can occur in widespread patches or in smaller areas on your ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of erythrodermic psoriasis
+" Caption="The least common type of psoriasis, erythrodermic psoriasis can cover your entire body with a red, peeling rash that can itch or burn intensely. 
+" Height="60" Title="Erythrodermic psoriasis" URI="/images/image_popup/thumbs/mcdc7_erythrodermic_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Image of erythrodermic psoriasis
+" Caption="The least common type of psoriasis, erythrodermic psoriasis can cover your entire body with a red, peeling rash that can itch or burn intensely. 
+" Height="280" Title="Erythrodermic psoriasis" URI="/images/image_popup/mcdc7_erythrodermic_psoriasis.jpg" Width="400" />
+				<HTML>
+					The least common type of psoriasis, erythrodermic psoriasis can cover your entire body with a red, peeling rash that can itch or burn intensely. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of psoriasis isn&amp;rsquo;t fully known, but it&apos;s thought to be related to the immune system and its interaction with the environment in people who have the genetic susceptibility. More specifically, one key cell is a type of white blood cell called a T lymphocyte or T cell. Normally, T cells travel throughout the body to detect and fight off foreign substances, such as viruses or bacteria. If you have psoriasis, however, the T cells attack healthy skin cells by mistake, as if to heal a wound or to fight an infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Overactive T cells trigger other immune responses. The effects include dilation of blood vessels in the skin around the plaques and an increase in other white blood cells that can enter the outer layer of skin. These changes result in an increased production of both healthy skin cells and more T cells and other white blood cells. This causes an ongoing cycle in which new skin cells move to the outermost layer of skin too quickly &amp;mdash; in days rather than weeks. Dead skin and white blood cells can&apos;t slough off quickly enough and build up in thick, scaly patches on the skin&apos;s surface. This usually doesn&apos;t stop unless treatment interrupts the cycle. 
+&lt;/p&gt;
+&lt;p&gt;
+Just what causes T cells to malfunction in people with psoriasis isn&apos;t entirely clear, although researchers think genetic and environmental factors both play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psoriasis triggers&lt;/strong&gt;&lt;br /&gt;
+Psoriasis typically starts or worsens because of a trigger that you may be able to identify and avoid. Factors that may trigger psoriasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infections, such as strep throat or thrush&lt;/li&gt;
+	&lt;li&gt;Injury to the skin, such as a cut or scrape, bug bite, or a severe sunburn&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Cold weather&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Heavy alcohol consumption&lt;/li&gt;
+	&lt;li&gt;Certain medications &amp;mdash; including lithium, which is prescribed for bipolar disorder; high blood pressure medications such as beta blockers; antimalarial drugs; and iodides&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how psoriasis develops 
+" Caption="In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+" Height="60" Title="How psoriasis develops" URI="/images/image_popup/thumbs/sn7_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how psoriasis develops 
+" Caption="In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+" Height="215" Title="How psoriasis develops" URI="/images/image_popup/sn7_psoriasis.jpg" Width="400" />
+				<HTML>
+					In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop psoriasis, but these factors can increase your risk of developing the disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Perhaps the most significant risk factor for psoriasis is having a family history of the disease. About 40 percent of people with psoriasis have a family member with the disease, although this may be an underestimate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viral and bacterial infections.&lt;/strong&gt; People with HIV are more likely to develop psoriasis than people with healthy immune systems are. Children and young adults with recurring infections, particularly strep throat, also may be at increased risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Because stress can impact your immune system, high stress levels may increase your risk of psoriasis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Excess weight increases your risk of inverse psoriasis. In addition, plaques associated with all types of psoriasis often develop in skin creases and folds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking tobacco not only increases your risk of psoriasis but also may increase the severity of the disease. Smoking may also play a role in the initial development of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the type and location of the psoriasis and how widespread the disease is, psoriasis can cause complications. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thickened skin and bacterial skin infections caused by scratching in an attempt to relieve severe itching&lt;/li&gt;
+	&lt;li&gt;Fluid and electrolyte imbalance in the case of severe pustular psoriasis&lt;/li&gt;
+	&lt;li&gt;Low self-esteem&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Social isolation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have psoriasis, you&amp;rsquo;re at greater risk of developing certain diseases, such as metabolic syndrome, a cluster of conditions that include high blood pressure and elevated insulin levels; inflammatory bowel disease; cardiovascular disease; and, possibly, cancer.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, psoriatic arthritis can be debilitating and painful, making it difficult to go about your daily routine. Despite medications, psoriatic arthritis can cause joint damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely first see your family doctor or a general practitioner. In some cases, you may be referred directly to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including vitamins, herbs and over-the-counter drugs, that you&apos;re taking, including dosages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For psoriasis, some basic questions you might ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need diagnostic tests?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What skin care routines and products do you recommend to improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;Can you recommend brochures or websites about psoriasis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you several questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you have these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, diagnosis of psoriasis is fairly straightforward. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam and medical history.&lt;/strong&gt; Your doctor usually can diagnose psoriasis by taking your medical history and examining your skin, scalp and nails.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; Rarely, your doctor may take a small sample of skin (biopsy) that&apos;s examined under a microscope to determine the exact type of psoriasis and to rule out other disorders. A skin biopsy is usually done in a doctor&apos;s office using a local anesthetic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Conditions that can look like psoriasis&lt;/strong&gt;&lt;br /&gt;
+Other conditions that may look like psoriasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seborrheic dermatitis.&lt;/strong&gt; This type of dermatitis is characterized by greasy, scaly, itchy, red skin. It&apos;s often found on oily areas of the body, such as the face, upper chest and back. Seborrheic dermatitis can also appear on the scalp as stubborn, itchy dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lichen planus.&lt;/strong&gt; This is an inflammatory, itchy skin condition that appears as rows of itchy, flat-topped bumps (lesions) on the arms and legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ringworm of the body (tinea corporis).&lt;/strong&gt; Ringworm is caused by a fungal infection on the top layer of your skin. The infection often causes a red, scaly ring or circle of rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pityriasis rosea.&lt;/strong&gt; This common skin condition usually begins as one large spot (herald patch) on your chest, abdomen or back, which then spreads. The rash of pityriasis rosea often extends from the middle of the body, and its shape resembles drooping pine-tree branches. This condition usually clears within six to eight weeks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psoriasis treatments aim to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Interrupt the cycle that causes an increased production of skin cells, thereby reducing inflammation and plaque formation.&lt;/li&gt;
+	&lt;li&gt;Remove scales and smooth the skin, which is particularly true of topical treatments that you apply to your skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Psoriasis treatments can be divided into three main types: topical treatments, light therapy and systemic medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Topical treatments&lt;/strong&gt;&lt;br /&gt;
+Used alone, creams and ointments that you apply to your skin can effectively treat mild to moderate psoriasis. When the disease is more severe, creams are likely to be combined with oral medications or light therapy. Topical psoriasis treatments include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical corticosteroids.&lt;/strong&gt; These powerful anti-inflammatory drugs are the most frequently prescribed medications for treating mild to moderate psoriasis. They slow cell turnover by suppressing the immune system, which reduces inflammation and relieves associated itching. Topical corticosteroids range in strength, from mild to very strong. Low-potency corticosteroid ointments are usually recommended for sensitive areas, such as your face or skinfolds, and for treating widespread patches of damaged skin. Your doctor may prescribe stronger corticosteroid ointment for small areas of your skin, for persistent plaques on your hands or feet, or when other treatments have failed. Medicated foams and scalp solutions are available to treat psoriasis patches on the scalp. Long-term use or overuse of strong corticosteroids can cause thinning of the skin and resistance to the treatment&apos;s benefits. To minimize side effects and to increase effectiveness, topical corticosteroids are generally used on active outbreaks until they&apos;re under control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin D analogues.&lt;/strong&gt; These synthetic forms of vitamin D slow down the growth of skin cells. Calcipotriene (Dovonex) is a prescription cream or solution containing a vitamin D analogue that may be used alone to treat mild to moderate psoriasis or in combination with other topical medications or phototherapy. This treatment can irritate the skin. Calcitriol (Rocaltrol) is expensive, but may be equally effective and possibly less irritating than calcipotriene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anthralin.&lt;/strong&gt; This medication is believed to normalize DNA activity in skin cells. Anthralin (Dritho-Scalp) can also remove scale, making the skin smoother. However, anthralin can irritate skin, and it stains virtually anything it touches, including skin, clothing, countertops and bedding. For that reason doctors often recommend short-contact treatment &amp;mdash; allowing the cream to stay on your skin for a brief time before washing it off. Anthralin is sometimes used in combination with ultraviolet light.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical retinoids.&lt;/strong&gt; These are commonly used to treat acne and sun-damaged skin, but tazarotene (Tazorac, Avage) was developed specifically for the treatment of psoriasis. Like other vitamin A derivatives, it normalizes DNA activity in skin cells and may decrease inflammation. The most common side effect is skin irritation. It may also increase sensitivity to sunlight, so sunscreen should be applied while using the medication. Although the risk of birth defects is far lower for topical retinoids than for oral retinoids, your doctor needs to know if you&apos;re pregnant or intend to become pregnant if you&apos;re using tazarotene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcineurin inhibitors.&lt;/strong&gt; Currently, calcineurin inhibitors &amp;mdash; tacrolimus (Prograf) and pimecrolimus (Elidel) &amp;mdash; are approved only for the treatment of atopic dermatitis, but studies have shown them to be effective at times in the treatment of psoriasis. Calcineurin inhibitors are thought to disrupt the activation of T cells, which in turn reduces inflammation and plaque buildup. The most common side effect is skin irritation. Calcineurin inhibitors are not recommended for long-term or continuous use because of a potential increased risk of skin cancer and lymphoma. Calcineurin inhibitors are used only with your doctor&apos;s input and approval. They may be especially helpful in areas of thin skin, such as around the eyes, where steroid creams or retinoids are too irritating or may cause harmful effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Salicylic acid.&lt;/strong&gt; Available over-the-counter (nonprescription) and by prescription, salicylic acid promotes sloughing of dead skin cells and reduces scaling. Sometimes it&apos;s combined with other medications, such as topical corticosteroids or coal tar, to increase its effectiveness. Salicylic acid is available in medicated shampoos and scalp solutions to treat scalp psoriasis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coal tar.&lt;/strong&gt; A thick, black byproduct of the manufacture of petroleum products and coal, coal tar is probably the oldest treatment for psoriasis. It reduces scaling, itching and inflammation. Exactly how it works isn&apos;t known. Coal tar has few known side effects, but it&apos;s messy, stains clothing and bedding, and has a strong odor. Coal tar is available in over-the-counter shampoos, creams and oils. It&apos;s also available in higher concentrations by prescription.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturizers.&lt;/strong&gt; By themselves, moisturizing creams won&apos;t heal psoriasis, but they can reduce itching and scaling and can help combat the dryness that results from other therapies. Moisturizers in an ointment base are usually more effective than are lighter creams and lotions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Light therapy (phototherapy)&lt;/strong&gt;&lt;br /&gt;
+As the name suggests, this psoriasis treatment uses natural or artificial ultraviolet light. The simplest and easiest form of phototherapy involves exposing your skin to controlled amounts of natural sunlight. Other forms of light therapy include the use of artificial ultraviolet A (UVA) or ultraviolet B (UVB) light either alone or in combination with medications.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sunlight.&lt;/strong&gt; Ultraviolet (UV) light is a wavelength of light in a range too short for the human eye to see. When exposed to UV rays in sunlight or artificial light, the activated T cells in the skin die. This slows skin cell turnover and reduces scaling and inflammation. Brief, daily exposures to small amounts of sunlight may improve psoriasis, but intense sun exposure can worsen symptoms and cause skin damage. Before beginning a sunlight regimen, ask your doctor about the safest way to use natural sunlight for psoriasis treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;UVB phototherapy.&lt;/strong&gt; Controlled doses of UVB light from an artificial light source may improve mild to moderate psoriasis symptoms. UVB phototherapy, also called broadband UVB, can be used to treat single patches, widespread psoriasis and psoriasis that resists topical treatments. Short-term side effects may include redness, itching and dry skin. Using a moisturizer may help decrease these side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowband UVB therapy.&lt;/strong&gt; A newer type of psoriasis treatment, narrowband UVB therapy may be more effective than broadband UVB treatment. It&apos;s usually administered two or three times a week until the skin improves, then maintenance may require only weekly sessions. Narrowband UVB therapy may cause more severe and longer lasting burns, however.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Goeckerman therapy.&lt;/strong&gt; Some doctors combine UVB treatment and coal tar treatment, which is known as Goeckerman treatment. The two therapies together are more effective than either alone because coal tar makes skin more receptive to UVB light. Once requiring a three-week hospital stay, a modification of the original treatment can be performed in a doctor&apos;s office. Another method, the Ingram regimen, combines UVB therapy with a coal tar bath and an anthralin-salicylic acid paste that&apos;s left on your skin for several hours or overnight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Photochemotherapy, or psoralen plus ultraviolet A (PUVA).&lt;/strong&gt; Photochemotherapy involves taking a light-sensitizing medication (psoralen) before exposure to UVA light. UVA light penetrates deeper into the skin than does UVB light, and psoralen makes the skin more responsive to UVA exposure. This more aggressive treatment consistently improves skin and is often used for more-severe cases of psoriasis. PUVA involves two or three treatments a week for a prescribed number of weeks. Short-term side effects include nausea, headache, burning and itching. Long-term side effects include dry and wrinkled skin, freckles, and increased risk of skin cancer, including melanoma, the most serious form of skin cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excimer laser.&lt;/strong&gt; This form of light therapy, used for mild to moderate psoriasis, treats only the involved skin. A controlled beam of UVB light of a specific wavelength is directed to the psoriasis plaques to control scaling and inflammation. Healthy skin surrounding the patches isn&apos;t harmed. Excimer laser therapy requires fewer sessions than does traditional phototherapy because more powerful UVB light is used. Side effects can include redness and blistering.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulsed dye laser.&lt;/strong&gt; Similar to the excimer laser, the pulsed dye laser uses a different form of light to destroy the tiny blood vessels that contribute to psoriasis plaques. Side effects can include bruising for up to 10 days after treatment. There is a slight risk of scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination light therapy.&lt;/strong&gt; Combining UV light with other treatments such as retinoids frequently improves phototherapy&apos;s effectiveness. Combination therapies are often used after other phototherapy options are ineffective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Oral or injected medications&lt;/strong&gt;&lt;br /&gt;
+If you have severe psoriasis or it&apos;s resistant to other types of treatment, your doctor may prescribe oral or injected drugs. Because of severe side effects, some of these medications are used for only brief periods and may be alternated with other forms of treatment.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Retinoids.&lt;/strong&gt; Related to vitamin A, this group of drugs may reduce the production of skin cells if you have severe psoriasis that doesn&apos;t respond to other therapies. Signs and symptoms usually return once therapy is discontinued, however. Side effects may include dryness of the skin and mucous membranes, itching, and hair loss. And because retinoids such as acitretin (Soriatane) can cause severe birth defects, women must avoid pregnancy for at least three years after taking the medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Methotrexate.&lt;/strong&gt; Taken orally, methotrexate helps psoriasis by decreasing the production of skin cells and suppressing inflammation. It may also slow the progression of psoriatic arthritis in some people. Methotrexate is generally well tolerated in low doses, but may cause upset stomach, loss of appetite and fatigue. When used for long periods it can cause a number of serious side effects, including severe liver damage and decreased production of red and white blood cells and platelets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclosporine.&lt;/strong&gt; Cyclosporine suppresses the immune system and is similar to methotrexate in effectiveness. Like other immunosuppressant drugs, cyclosporine increases your risk of infection and other health problems, including cancer. Cyclosporine also makes you more susceptible to kidney problems and high blood pressure &amp;mdash; the risk increases with higher dosages and long-term therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hydroxyurea.&lt;/strong&gt; This medication isn&apos;t as effective as cyclosporine or methotrexate, but unlike the stronger drugs it can be combined with phototherapy. Possible side effects include a decrease in red blood cells (anemia) and a decrease in white blood cells and platelets. It should not be taken by women who are pregnant or planning to become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunomodulator drugs (biologics).&lt;/strong&gt; Several immunomodulator drugs are approved for the treatment of moderate to severe psoriasis. They include alefacept (Amevive), etanercept (Enbrel), infliximab (Remicade) and ustekinumab (Stelara). These drugs are given by intravenous infusion, intramuscular injection or subcutaneous injection and are usually used for people who have failed to respond to traditional therapy or who have associated psoriatic arthritis. Biologics work by blocking interactions between certain immune system cells and particular inflammatory pathways. Although they&apos;re derived from natural sources rather than chemical ones, they must be used with caution because they have strong effects on the immune system and may permit life-threatening infections. In particular, people taking these treatments must be screened for tuberculosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thioguanine.&lt;/strong&gt; Nearly as effective as methotrexate and cyclosporine, this drug has fewer side effects. However, this drug is more likely to cause anemia, and women who are pregnant or planning to become pregnant must avoid it because it may cause birth defects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment considerations&lt;/strong&gt;&lt;br /&gt;
+Although doctors choose treatments based on the type and severity of psoriasis and the areas of skin affected, the traditional approach is to start with the mildest treatments &amp;mdash; topical creams and ultraviolet light therapy (phototherapy) &amp;mdash; and then progress to stronger ones only if necessary. The goal is to find the most effective way to slow cell turnover with the fewest possible side effects.
+&lt;/p&gt;
+&lt;p&gt;
+In spite of a range of options, effective treatment of psoriasis can be challenging. The disease is unpredictable, going through cycles of improvement and worsening, seemingly at random. Effects of psoriasis treatments also can be unpredictable; what works well for one person might be ineffective for someone else. Your skin also can become resistant to various treatments over time, and the most potent psoriasis treatments can have serious side effects.
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about your options, especially if you&apos;re not improving after using a particular treatment or if you&apos;re having uncomfortable side effects. He or she can adjust your treatment plan or modify your approach to ensure the best possible control of your symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although self-help measures won&apos;t cure psoriasis, they may help improve the appearance and feel of damaged skin. These measures may benefit you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take daily baths.&lt;/strong&gt; Bathing daily helps remove scales and calm inflamed skin. Add bath oil, colloidal oatmeal, Epsom salts or Dead Sea salts to the water and soak for at least 15 minutes. Avoid hot water and harsh soaps, which can worsen symptoms; use lukewarm water and mild soaps that have added oils and fats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use moisturizer.&lt;/strong&gt; Blot your skin after bathing, then immediately apply a heavy, ointment-based moisturizer while your skin is still moist. For very dry skin, oils may be preferable &amp;mdash; they have more staying power than creams or lotions do and are more effective at preventing water from evaporating from your skin. During cold, dry weather, you may need to apply a moisturizer several times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the affected areas overnight.&lt;/strong&gt; To help improve redness and scaling, apply an ointment-based moisturizer to your skin and wrap with plastic wrap overnight. In the morning, remove the covering and wash away the scales with a bath or a shower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Expose your skin to small amounts of sunlight.&lt;/strong&gt; A controlled amount of sunlight can significantly improve lesions, but too much sun can trigger or worsen outbreaks and increase the risk of skin cancer. If you sunbathe, it&apos;s best to try short sessions three or more times a week. Keep a record of when and how long you&apos;re in the sun to help avoid overexposure. And be sure to protect healthy skin with a broad-spectrum sunscreen with an SPF of at least 15. Apply sunscreen generously, and reapply every two hours &amp;mdash; or more often if you&apos;re swimming or perspiring. Before beginning any sunbathing program, ask your doctor about the best way to use natural sunlight to treat your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply medicated cream or ointment.&lt;/strong&gt; Apply an over-the-counter cream or ointment containing hydrocortisone or salicylic acid to reduce itching and scaling. If you have scalp psoriasis, try a medicated shampoo that contains coal tar. For best results, follow label directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid psoriasis triggers, if possible.&lt;/strong&gt; Find out what triggers, if any, worsen your psoriasis and take steps to prevent or avoid them. Infections, injuries to your skin, stress, smoking and intense sun exposure can all worsen psoriasis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid drinking alcohol.&lt;/strong&gt; Alcohol consumption may decrease the effectiveness of some psoriasis treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Although there&apos;s no evidence that certain foods will either improve or aggravate psoriasis, it&apos;s important to eat a healthy diet, particularly when you have a chronic disease. A healthy diet includes eating a variety fruits and vegetables of all colors and whole grains. If you eat meat, focus on lean cuts and fish. If you think certain foods make your symptoms better or worse, keep a food diary to see what effect different foods have.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many alternative therapies are available to ease the symptoms of psoriasis, including special diets, creams, dietary supplements and herbs. Some alternative therapies are deemed generally safe, and they may be helpful to some people in reducing signs and symptoms, such as itching and scaling.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aloe vera.&lt;/strong&gt; Taken from the leaves of the aloe vera plant, aloe extract cream may reduce redness, scaling, itching and inflammation. You may need to use the cream several times a day for a month or more to see any improvements in your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fish oil.&lt;/strong&gt; Omega-3 fatty acids found in fish oil supplements may reduce inflammation associated with psoriasis, although results from studies are mixed. Taking 3 grams or less of fish oil daily is generally recognized as safe, and you may find it beneficial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re considering dietary supplements or other alternative therapy to ease the symptoms of psoriasis, consult your doctor. He or she can help you weigh the pros and cons of specific alternative therapies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with psoriasis can be a challenge, especially if the disease covers large areas of your body or is in places readily seen by other people, such as your face or hands. The ongoing, persistent nature of the disease and the treatment challenges only add to the burden.
+&lt;/p&gt;
+&lt;p&gt;
+Here are some ways to help you cope and to feel more in control:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get educated.&lt;/strong&gt; Find out as much as you can about the disease and research your treatment options. Understand possible triggers of the disease, so you can better prevent flare-ups. Educate those around you &amp;mdash; including family and friends &amp;mdash; so they can recognize, acknowledge and support your efforts in dealing with the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your doctor&apos;s recommendations.&lt;/strong&gt; If your doctor recommends certain treatments and lifestyle changes, be sure to follow them. Ask questions if anything is unclear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a support group.&lt;/strong&gt; Consider joining a support group with other members who have the disease and know what you&apos;re going through. You may find comfort in sharing your experience and struggles and meeting people who face similar challenges. Ask your doctor for information on psoriasis support groups in your area or online.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use cover-ups when you feel it necessary.&lt;/strong&gt; On those days when you feel particularly self-conscious, cover the psoriasis with clothing or use cosmetic cover-up products, such as body makeup or a concealer. These products can mask redness and psoriasis plaques. They can irritate the skin, however, and shouldn&apos;t be used on open sores, cuts or unhealed lesions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Psoriasis
+	</Title>
+	<Abstract>
+		Psoriasis &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this chronic skin disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01258" LinkType="Internal" ObjectID="DF292251-2A5D-9994-E47E27D6641BDACA" Title="Ground flaxseed: Better than whole?" Url="http://www.mayoclinic.com/health/flaxseed/AN01258" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00195" LinkType="Internal" ObjectID="6A97E98C-E7FF-0DBD-1330B836BF02893D" Title="Light therapy" Url="http://www.mayoclinic.com/health/light-therapy/MY00195" />
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+		<LinkItem ContentType="Article" DocID="SN00003" LinkType="Internal" ObjectID="EFC4004C-25CE-4C77-925237045078807F" Title="Skin care: 5 tips for healthy skin" Url="http://www.mayoclinic.com/health/skin-care/SN00003" />
+		<LinkItem ContentType="Article" DocID="MH00128" LinkType="Internal" ObjectID="DD16A110-E7FF-0DBD-17F1DEE10436C1E1" Title="Self-esteem check: Too low, too high or just right?" Url="http://www.mayoclinic.com/health/self-esteem/MH00128" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Article" DocID="SR00032" LinkType="Internal" ObjectID="15AC47CB-E7FF-0DBD-1E403F470F686D23" Title="Stress management: Re-examine your stress reactions" Url="http://www.mayoclinic.com/health/stress-management/SR00032" />
+		<LinkItem ContentType="Answer" DocID="AN01960" LinkType="Internal" ObjectID="D49DE997-E7FF-0DBD-109ED93E27208C89" Title="Psoriasis diet: Can changing your diet treat psoriasis?" Url="http://www.mayoclinic.com/health/psoriasis-diet/AN01960" />
+		<LinkItem ContentType="Answer" DocID="AN02043" LinkType="Internal" ObjectID="CB4567AC-9E38-28F1-3C59E3CD63258E60" Title="Psoriasis treatment: Can fish oil supplements reduce symptoms?" Url="http://www.mayoclinic.com/health/psoriasis-treatment/AN02043" />
+		<LinkItem ContentType="Answer" DocID="AN01177" LinkType="Internal" ObjectID="ADF356CE-EB54-4DD1-9B441BDE38A74555" Title="Scalp psoriasis vs. seborrheic dermatitis: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/scalp-psoriasis/AN01177" />
+		<LinkItem ContentType="SlideShow" DocID="MY00784" LinkType="Internal" ObjectID="65E00968-CD15-A25D-990761AB57DD9092" Title="Slide show: Types of psoriasis" Url="http://www.mayoclinic.com/health/psoriasis-pictures/MY00784" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00560" LinkType="Internal" ObjectID="E5B1B6E3-7EA4-4120-95D00FA32831AE44" Title="Dry skin" Url="http://www.mayoclinic.com/health/dry-skin/DS00560" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+		<LinkItem ContentType="Disease" DocID="DS00847" LinkType="Internal" ObjectID="A39429AD-E7FF-0DBD-176D22A50ECCFE59" Title="Itchy skin (pruritus)" Url="http://www.mayoclinic.com/health/itchy-skin/DS00847" />
+		<LinkItem ContentType="Disease" DocID="DS00476" LinkType="Internal" ObjectID="91BACD0E-0792-44DD-9005DD8966E2754B" Title="Psoriatic arthritis" Url="http://www.mayoclinic.com/health/psoriatic-arthritis/DS00476" />
+		<LinkItem ContentType="Disease" DocID="DS00260" LinkType="Internal" ObjectID="7A8C6CBF-246F-423C-9D9F889E25F2EE05" Title="Strep throat" Url="http://www.mayoclinic.com/health/strep-throat/DS00260" />
+		<LinkItem ContentType="Disease" DocID="DS00964" LinkType="Internal" ObjectID="2C9B4EAD-E7FF-0DBD-11FE616BB5B7F712" Title="Sunburn" Url="http://www.mayoclinic.com/health/sunburn/DS00964" />
+	</RelatedLinksBox>
+</Disease>

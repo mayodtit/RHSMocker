@@ -1,0 +1,545 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00537
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peripheral-arterial-disease/DS00537
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-22
+		</UpdateDate>
+		<PublicationDate>
+			2004-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3246" Title="Peripheral arterial disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			492164BE-7E9E-468B-8D170DD04296B1A8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peripheral arterial disease
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				PAD
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral vascular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				PVD
+			</MetaKeyword>
+			<MetaKeyword>
+				occlusive arterial disease
+			</MetaKeyword>
+			<MetaKeyword>
+				obstructive arterial disease
+			</MetaKeyword>
+			<MetaKeyword>
+				critical limb ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				CLI
+			</MetaKeyword>
+			<MetaKeyword>
+				atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				intermittent claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				intermittant claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				leg cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiovascular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				circulatory
+			</MetaKeyword>
+			<MetaKeyword>
+				poor circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				blood circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				circulatory system
+			</MetaKeyword>
+			<MetaKeyword>
+				circulatory problems
+			</MetaKeyword>
+			<MetaKeyword>
+				circulation problems
+			</MetaKeyword>
+			<MetaKeyword>
+				leg circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				leg cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				leg cramp
+			</MetaKeyword>
+			<MetaKeyword>
+				pain in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot in leg
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clots in leg
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clots in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				bloodclot
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot leg
+			</MetaKeyword>
+			<MetaKeyword>
+				leg numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				numb leg
+			</MetaKeyword>
+			<MetaKeyword>
+				leg aches
+			</MetaKeyword>
+			<MetaKeyword>
+				doppler test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peripheral artery disease (also called peripheral arterial disease) is a common circulatory problem in which narrowed arteries reduce blood flow to your limbs. 
+&lt;/p&gt;
+&lt;p&gt;
+When you develop peripheral artery disease (PAD), your extremities &amp;mdash; usually your legs &amp;mdash; don&apos;t receive enough blood flow to keep up with demand. This causes symptoms, most notably leg pain when walking (intermittent claudication). 
+&lt;/p&gt;
+&lt;p&gt;
+Peripheral artery disease is also likely to be a sign of a more widespread accumulation of fatty deposits in your arteries (atherosclerosis). This condition may be reducing blood flow to your heart and brain, as well as your legs. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, you can successfully treat peripheral artery disease by quitting tobacco, exercising and eating a healthy diet. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of intermittent claudication 
+" Caption="In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With proper treatment, new, collateral blood vessels may form, allowing blood to circulate around the damaged areas.
+" Height="60" Title="Intermittent claudication" URI="/images/image_popup/thumbs/hb7_interclaudicationthu.jpg" Width="60" />
+				<Image Alt="Illustration of intermittent claudication 
+" Caption="In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With proper treatment, new, collateral blood vessels may form, allowing blood to circulate around the damaged areas.
+" Height="397" Title="Intermittent claudication" URI="/images/image_popup/hb7_interclaudication.jpg" Width="397" />
+				<HTML>
+					In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While many people with peripheral artery disease have mild or no symptoms, some people have leg pain when walking (intermittent claudication). 
+&lt;/p&gt;
+&lt;p&gt;
+Intermittent claudication symptoms include muscle pain or cramping in your legs or arms that&apos;s triggered by activity, such as walking, but disappears after a few minutes of rest. The location of the pain depends on the location of the clogged or narrowed artery. Calf pain is the most common location. 
+&lt;/p&gt;
+&lt;p&gt;
+The severity of intermittent claudication varies widely, from mild discomfort to debilitating pain. Severe intermittent claudication can make it hard for you to walk or do other types of physical activity. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Peripheral artery disease symptoms include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Painful cramping in your hip, thigh or calf muscles after activity, such as walking or climbing stairs (intermittent claudication)&lt;/li&gt;
+	&lt;li&gt;Leg numbness or weakness&lt;/li&gt;
+	&lt;li&gt;Coldness in your lower leg or foot, especially when compared with the other side&lt;/li&gt;
+	&lt;li&gt;Sores on your toes, feet or legs that won&apos;t heal&lt;/li&gt;
+	&lt;li&gt;A change in the color of your legs&lt;/li&gt;
+	&lt;li&gt;Hair loss or slower hair growth on your feet and legs&lt;/li&gt;
+	&lt;li&gt;Slower growth of your toenails&lt;/li&gt;
+	&lt;li&gt;Shiny skin on your legs&lt;/li&gt;
+	&lt;li&gt;No pulse or a weak pulse in your legs or feet&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction in men&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If peripheral artery disease progresses, pain may even occur when you&apos;re at rest or when you&apos;re lying down (ischemic rest pain). It may be intense enough to disrupt sleep. Hanging your legs over the edge of your bed or walking around your room may temporarily relieve the pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have leg pain, numbness or other symptoms, don&apos;t dismiss them as a normal part of aging. Call your doctor and make an appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if you don&apos;t have symptoms of peripheral artery disease, you may need to be screened if you are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Over age 70&lt;/li&gt;
+	&lt;li&gt;Over age 50 and have a history of diabetes or smoking&lt;/li&gt;
+	&lt;li&gt;Under age 50, but have diabetes and other peripheral artery disease risk factors, such as obesity or high blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of intermittent claudication 
+" Caption="In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With proper treatment, new, collateral blood vessels may form, allowing blood to circulate around the damaged areas.
+" Height="60" Title="Intermittent claudication" URI="/images/image_popup/thumbs/hb7_interclaudicationthu.jpg" Width="60" />
+				<Image Alt="Illustration of intermittent claudication 
+" Caption="In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With proper treatment, new, collateral blood vessels may form, allowing blood to circulate around the damaged areas.
+" Height="397" Title="Intermittent claudication" URI="/images/image_popup/hb7_interclaudication.jpg" Width="397" />
+				<HTML>
+					In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peripheral artery disease is often caused by atherosclerosis. In atherosclerosis, fatty deposits (plaques) build up in your artery walls and reduce blood flow. 
+&lt;/p&gt;
+&lt;p&gt;
+Although the heart is usually the focus of discussion of atherosclerosis, this disease can and usually does affect arteries throughout your body. When it occurs in the arteries supplying blood to your limbs, it causes peripheral artery disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Less commonly, the cause of peripheral artery disease may be blood vessel inflammation, injury to your limbs, unusual anatomy of your ligaments or muscles, or radiation exposure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="60" Title="Development of atherosclerosis" URI="/images/image_popup/thumbs/mcdc7_atherosclerosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="479" Title="Development of atherosclerosis" URI="/images/image_popup/mcdc7_atherosclerosis.jpg" Width="400" />
+				<HTML>
+					Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of developing peripheral artery disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Obesity (a body mass index over 30)&lt;/li&gt;
+	&lt;li&gt;High blood pressure (140/90 millimeters of mercury or higher)&lt;/li&gt;
+	&lt;li&gt;High cholesterol (total blood cholesterol over 240 milligrams per deciliter, or 6.2 millimoles per liter)&lt;/li&gt;
+	&lt;li&gt;Increasing age, especially after reaching 50 years of age&lt;/li&gt;
+	&lt;li&gt;A family history of peripheral artery disease, heart disease or stroke&lt;/li&gt;
+	&lt;li&gt;High levels of homocysteine, a protein component that helps build and maintain tissue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People who smoke or have diabetes have the greatest risk of developing peripheral artery disease due to reduced blood flow. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your peripheral artery disease is caused by a buildup of plaques in your blood vessels (atherosclerosis), you&apos;re also at risk of developing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Critical limb ischemia.&lt;/strong&gt; This condition begins as open sores that don&apos;t heal, an injury, or an infection of your feet or legs. Critical limb ischemia occurs when such injuries or infections progress and can cause tissue death (gangrene), sometimes requiring amputation of the affected limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke and heart attack.&lt;/strong&gt; The atherosclerosis that causes the signs and symptoms of peripheral artery disease isn&apos;t limited to your legs. Fat deposits also build up in arteries supplying your heart and brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in disorders of blood vessels (vascular specialist) or a doctor who specializes in the heart and circulatory system (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking, and include dosage information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. For peripheral artery disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is peripheral artery disease temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What can I do on my own that might help me get better?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms get worse when you exercise?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms get better when you&apos;re resting?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco products? If yes, how much?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re a smoker, it&apos;s never too soon to quit smoking. Smoking increases the risk of peripheral artery disease and can make existing PAD worse. Other healthy lifestyle habits you can immediately adopt are eating less saturated fat and adding more fruits and vegetables to your diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some of the tests your doctor may rely on to diagnose peripheral artery disease are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor may find signs of PAD during a physical examination, such as a weak or absent pulse below a narrowed area of your artery, whooshing sounds (bruits) over your arteries that can be heard with a stethoscope, evidence of poor wound healing in the area where your blood flow is restricted, and decreased blood pressure in your affected limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ankle-brachial index (ABI).&lt;/strong&gt; This is a common test used to diagnose PAD. It compares the blood pressure in your ankle with the blood pressure in your arm. To get a blood pressure reading, your doctor uses a regular blood pressure cuff and a special ultrasound device to evaluate blood pressure and flow. You may walk on a treadmill and have readings taken before and immediately after exercising to capture the severity of the narrowed arteries during walking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Special ultrasound imaging techniques, such as Doppler ultrasound, can help your doctor evaluate blood flow through your blood vessels and identify blocked or narrowed arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiography.&lt;/strong&gt; By injecting a dye (contrast material) into your blood vessels, this test allows your doctor to view blood flow through your arteries as it happens. Your doctor is able to trace the flow of the contrast material using imaging techniques, such as X-ray imaging or procedures called magnetic resonance angiography (MRA) or computerized tomography angiography (CTA). Catheter angiography is a more invasive procedure that involves guiding a catheter through an artery in your groin to the affected area and injecting the dye that way. Although invasive, this type of angiography allows for simultaneous diagnosis and treatment &amp;mdash; finding the narrowed area of a blood vessel and then widening it with an angioplasty procedure or administering medication to improve blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A sample of your blood can be used to measure your cholesterol and triglycerides and to check for diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for peripheral artery disease has two major goals. The first is to manage symptoms, such as leg pain, so that you can resume physical activities. The second is to stop the progression of atherosclerosis throughout your body to reduce your risk of heart attack and stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+You may be able to accomplish these goals with lifestyle changes. If you smoke, quitting is the single most important thing you can do to reduce your risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+If lifestyle changes are not enough, you need additional medical treatment. Your doctor may prescribe medicine to prevent blood clots, lower blood pressure and cholesterol, and control pain and other symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholesterol-lowering medications.&lt;/strong&gt; You may take a cholesterol-lowering drug called a statin to reduce your risk factor of heart attack and stroke. The goal for people who have peripheral artery disease is to reduce low-density lipoprotein (LDL) cholesterol, the &quot;bad&quot; cholesterol, to less than 100 milligrams per deciliter (mg/dL), or 2.6 millimoles per liter (mmol/L). The goal is even lower if you have additional major risk factors for heart attack and stroke, especially diabetes or continued smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure medications.&lt;/strong&gt; If you also have high blood pressure, your doctor may prescribe medications to lower it. The goal of this therapy is to reduce your systolic blood pressure (the top number of the two numbers) to 140 millimeters of mercury (mm Hg) or lower and your diastolic blood pressure (the bottom number) to 90 mm Hg or lower. If you have diabetes, your blood pressure target is under 130/80 mm Hg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication to control blood sugar.&lt;/strong&gt; If you also have diabetes, it becomes even more important to control your blood sugar (glucose) levels. Talk with your doctor about what your blood sugar goals are and what steps you need to take to achieve these goals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to prevent blood clots.&lt;/strong&gt; Because peripheral artery disease is related to reduced blood flow to your limbs, it&apos;s important to reduce your risk of blood clots. A blood clot can completely block an already narrowed blood vessel and cause tissue death. Your doctor may prescribe daily aspirin therapy or another medication that helps prevent blood clots, such as clopidogrel (Plavix).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom-relief medications.&lt;/strong&gt; The drug cilostazol (Pletal) increases blood flow to the limbs both by preventing blood clots and by widening the blood vessels. It specifically helps treat symptoms of claudication, such as leg pain, for people who have peripheral artery disease. Common side effects of this medication include headache and diarrhea. An alternative to cilostazol is pentoxifylline (Trental); however, it&apos;s generally less effective. But, side effects are rare with this medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Angioplasty and surgery&lt;/strong&gt;&lt;br /&gt;
+In some cases, angioplasty or surgery may be necessary to treat peripheral artery disease that&apos;s causing intermittent claudication: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Angioplasty.&lt;/strong&gt; In this procedure, a small hollow tube (catheter) is threaded through a blood vessel to the affected artery. There, a small balloon on the tip of the catheter is inflated to reopen the artery and flatten the blockage into the artery wall, while at the same time stretching the artery open to increase blood flow. Your doctor may also insert a mesh framework called a stent in the artery to help keep it open. This is the same procedure doctors use to open heart arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bypass surgery.&lt;/strong&gt; Your doctor may create a graft bypass using a vessel from another part of your body or a blood vessel made of synthetic fabric. This technique allows blood to flow around &amp;mdash; or bypass &amp;mdash; the blocked or narrowed artery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thrombolytic therapy.&lt;/strong&gt; If you have a blood clot blocking an artery, your doctor may inject a clot-dissolving drug into your artery at the point of the clot to break it up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Supervised exercise program&lt;/strong&gt;&lt;br /&gt;
+In addition to medications or surgery, your doctor may prescribe a supervised exercise training program to increase the distance you can walk pain-free. Regular exercise improves symptoms of PAD by a number of methods, including helping your body use oxygen more efficiently. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing graft bypass for peripheral arterial disease
+" Caption="A graft is used to redirect blood flow around a blocked or narrowed artery. A graft can be a blood vessel from another part of the body or a man-made substitute.
+" Height="60" Title="Graft bypass" URI="/images/image_popup/thumbs/r7_graftbypassthu.jpg" Width="60" />
+				<Image Alt="Illustration showing graft bypass for peripheral arterial disease
+" Caption="A graft is used to redirect blood flow around a blocked or narrowed artery. A graft can be a blood vessel from another part of the body or a man-made substitute.
+" Height="297" Title="Graft bypass" URI="/images/image_popup/r7_graftbypass.jpg" Width="400" />
+				<HTML>
+					A graft is used to redirect blood flow around a blocked or narrowed artery. A graft can be a blood vessel from another part of the body or a man-made substitute.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people can manage the symptoms of peripheral artery disease and stop the progression of the disease through lifestyle changes, especially quitting smoking. To stabilize or improve PAD: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking contributes to constriction and damage of your arteries and is a significant risk factor for the development and worsening of PAD. If you smoke, quitting is the most important thing you can do to reduce your risk of complications. If you&apos;re having trouble quitting on your own, ask your doctor about smoking cessation options, including medications to help you quit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; This is a key component. Success in treatment of PAD is often measured by how far you can walk without pain. Proper exercise helps condition your muscles to use oxygen more efficiently. Your doctor can help you develop an appropriate exercise plan. He or she may refer you to a claudication exercise rehabilitation program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; A heart-healthy diet low in saturated fat can help control your blood pressure and cholesterol levels, which contribute to atherosclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain cold medications.&lt;/strong&gt; Over-the-counter cold remedies that contain pseudoephedrine (Advil Cold &amp; Sinus, Aleve Sinus &amp; Headache, Claritin-D, Sudafed, Tylenol Cold, Zyrtec-D, others) constrict your blood vessels and may increase your PAD symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Careful foot care&lt;/strong&gt;&lt;br /&gt;
+In addition to the above suggestions, take good care of your feet. People with peripheral artery disease, especially those who also have diabetes, are at risk of poor healing of sores on the lower legs and feet. Poor blood circulation can postpone or prevent proper healing and increases the risk of infection. Follow this advice to care for your feet: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash your feet daily, dry them thoroughly and moisturize often to prevent cracks that can lead to infection. Don&apos;t moisturize between the toes, however, as this can encourage fungal growth.&lt;/li&gt;
+	&lt;li&gt;Wear well-fitting shoes and thick, dry socks.&lt;/li&gt;
+	&lt;li&gt;Promptly treat any fungal infections of the feet, such as athlete&apos;s foot.&lt;/li&gt;
+	&lt;li&gt;Take care when trimming your nails.&lt;/li&gt;
+	&lt;li&gt;Avoid walking barefoot.&lt;/li&gt;
+	&lt;li&gt;Have a foot doctor (podiatrist) treat bunions, corns or calluses.&lt;/li&gt;
+	&lt;li&gt;See your doctor at the first sign of a sore or injury to your skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The blood-thinning effects of ginkgo may allow people with intermittent claudication to walk longer distances with less pain. However, this herbal remedy can cause bleeding when taken in high doses, and it could be dangerous if paired with anti-platelet medications, including aspirin, which are commonly prescribed to people with PAD. Talk to your doctor before you consider taking ginkgo for relief from leg pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peripheral artery disease can be very frustrating, especially when the exercise that will help you get better causes you pain. Don&apos;t get discouraged, however. As you continue exercising, you&apos;ll increase the distance you can walk without pain. 
+&lt;/p&gt;
+&lt;p&gt;
+You may find it helpful to raise the head of your bed by four to six inches (10 to 15 centimeters), because keeping your legs below the level of your heart usually lessens pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Another tip for reducing your symptoms is to avoid cold temperatures as much as possible. If you can&apos;t avoid the cold, be sure to dress in warm layers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent claudication is to maintain a healthy lifestyle. That means: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quit smoking if you&apos;re a smoker.&lt;/li&gt;
+	&lt;li&gt;If you have diabetes, keep your blood sugar in good control.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly. Aim for 30 minutes at least three times a week after you&apos;ve gotten your doctor&apos;s OK.&lt;/li&gt;
+	&lt;li&gt;Lower your cholesterol and blood pressure levels, if applicable.&lt;/li&gt;
+	&lt;li&gt;Eat foods that are low in saturated fat.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peripheral artery disease (PAD)
+	</Title>
+	<Abstract>
+		Peripheral artery disease (PAD) &amp;mdash; Comprehensive overview covers symptoms, treatment of this common circulation problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01052" LinkType="Internal" ObjectID="16EF83CB-E7FF-0DBD-10AEF9D64E0AAB80" Title="Claudication" Url="http://www.mayoclinic.com/health/claudication/DS01052" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00500" LinkType="Internal" ObjectID="ACA5E069-DFEE-9A46-E42C13E5816BAE0D" Title="Cholesterol test" Url="http://www.mayoclinic.com/health/cholesterol-test/MY00500" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00074" LinkType="Internal" ObjectID="A66FF3E4-E7FF-0DBD-121494A9D0674EB7" Title="Ankle-brachial index" Url="http://www.mayoclinic.com/health/ankle-brachial-index/MY00074" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01018" LinkType="Internal" ObjectID="54EAD155-D909-7FE2-44C4EB2D320BB269" Title="C-reactive protein test" Url="http://www.mayoclinic.com/health/c-reactive-protein/MY01018" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+	</RelatedLinksBox>
+</Disease>

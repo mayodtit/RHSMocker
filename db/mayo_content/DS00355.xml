@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00355
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tmj-disorders/DS00355
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-13
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="2273" Title="TMJ disorders" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E6A33D9C-270D-4C8E-8EB4E85B6828E96E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				TMJ disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				temporomandibular joint disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				temporomandibular
+			</MetaKeyword>
+			<MetaKeyword>
+				temporomandibular disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				temporomandibular joint
+			</MetaKeyword>
+			<MetaKeyword>
+				TMD
+			</MetaKeyword>
+			<MetaKeyword>
+				TMDs
+			</MetaKeyword>
+			<MetaKeyword>
+				TMJ
+			</MetaKeyword>
+			<MetaKeyword>
+				jaw
+			</MetaKeyword>
+			<MetaKeyword>
+				jaws
+			</MetaKeyword>
+			<MetaKeyword>
+				jawbone
+			</MetaKeyword>
+			<MetaKeyword>
+				mandible
+			</MetaKeyword>
+			<MetaKeyword>
+				temporal bone
+			</MetaKeyword>
+			<MetaKeyword>
+				jaw pain
+			</MetaKeyword>
+			<MetaKeyword>
+				jaw joint pain
+			</MetaKeyword>
+			<MetaKeyword>
+				bruxism
+			</MetaKeyword>
+			<MetaKeyword>
+				teeth grinding
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The temporomandibular (tem-puh-roe-mun-DIB-u-lur) joint (TMJ) acts like a sliding hinge, connecting your jawbone to your skull. TMJ disorders can cause pain in your jaw joint and in the muscles that control jaw movement.
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause of a person&apos;s TMJ disorder is often difficult to determine. Your pain may be due to a combination of problems, such as arthritis or jaw injury. Some people who have jaw pain also tend to clench or grind their teeth, but many people habitually clench their teeth and never develop TMJ disorders.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, the pain and discomfort associated with TMJ disorders can be alleviated with self-managed care or nonsurgical treatments. Severe TMJ disorders may require surgical repair.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of TMJ 
+" Caption="TMJ disorders affect the temporomandibular joint, located on each side of your head in front of your ears. A soft disk acts as a cushion between the bones of the joint, so the joint can move smoothly. 
+" Height="60" Title="Temporomandibular joint" URI="/images/image_popup/thumbs/mcdc7_tmjthu.jpg" Width="60" />
+				<Image Alt="Image of TMJ 
+" Caption="TMJ disorders affect the temporomandibular joint, located on each side of your head in front of your ears. A soft disk acts as a cushion between the bones of the joint, so the joint can move smoothly. 
+" Height="540" Title="Temporomandibular joint" URI="/images/image_popup/mcdc7_tmj.jpg" Width="400" />
+				<HTML>
+					TMJ disorders affect the temporomandibular joint, located on each side of your head in front of your ears. A soft disk acts as a cushion between the bones of the joint, so the joint can move smoothly....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of TMJ disorders may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain or tenderness of your jaw&lt;/li&gt;
+	&lt;li&gt;Aching pain in and around your ear&lt;/li&gt;
+	&lt;li&gt;Difficulty chewing or discomfort while chewing&lt;/li&gt;
+	&lt;li&gt;Aching facial pain&lt;/li&gt;
+	&lt;li&gt;Locking of the joint, making it difficult to open or close your mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+TMJ disorders can also cause a clicking sound or grating sensation when you open your mouth or chew. But if there&apos;s no pain or limitation of movement associated with your jaw clicking, you probably don&apos;t need treatment for a TMJ disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical attention if you have persistent pain or tenderness in your jaw, or if you can&apos;t open or close your jaw completely. Your doctor, your dentist or a TMJ specialist can discuss possible causes and treatments of your problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The temporomandibular joint (TMJ) combines a hinge action with sliding motions. The parts of the bones that interact in the joint are covered with cartilage and are separated by a small shock-absorbing disk, which normally keeps the movement smooth.
+&lt;/p&gt;
+&lt;p&gt;
+Painful TMJ disorders can occur if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The disk erodes or moves out of its proper alignment&lt;/li&gt;
+	&lt;li&gt;The joint&apos;s cartilage is damaged by arthritis&lt;/li&gt;
+	&lt;li&gt;The joint is damaged by a blow or other impact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In many cases, however, the cause of TMJ disorders isn&apos;t clear.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+TMJ disorders most commonly occur in women between the ages of 20 and 40, but may occur at any age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first talk about your TMJ symptoms with your family doctor or dentist. If their suggested treatments don&apos;t provide enough relief, you may eventually be referred to a doctor who specializes in TMJ disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to prepare a list that answers the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have you ever had this occur in the past?&lt;/li&gt;
+	&lt;li&gt;Has your level of stress increased recently?&lt;/li&gt;
+	&lt;li&gt;Do you have frequent headaches, neck aches or toothaches?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor or dentist&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is your pain constant or do your symptoms come and go?&lt;/li&gt;
+	&lt;li&gt;Does any activity seem to trigger the pain?&lt;/li&gt;
+	&lt;li&gt;Does your jaw click or pop when you move it? Is that clicking painful?&lt;/li&gt;
+	&lt;li&gt;Is it difficult to open your mouth normally?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor or dentist will probably:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Listen to and feel your jaw when you open and close your mouth&lt;/li&gt;
+	&lt;li&gt;Observe the range of motion in your jaw&lt;/li&gt;
+	&lt;li&gt;Press on areas around your jaw to identify sites of pain or discomfort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor or dentist suspects a problem with your teeth, you may need X-rays. A CT scan can provide detailed images of the bones involved in the joint, and MRIs can reveal problems with the joint&apos;s disk.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, the symptoms of TMJ disorders may go away without treatment. If your symptoms persist, your doctor may recommend a variety of treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;In conjunction with other nonsurgical treatments, medications that may help relieve the pain associated with TMJ disorders may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; If over-the-counter pain medications aren&apos;t enough to relieve TMJ pain, your doctor or dentist may prescribe stronger pain relievers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants.&lt;/strong&gt; These medications, such as amitriptyline, used to be used mostly for depression, but now are also used for pain relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle relaxants.&lt;/strong&gt; These types of drugs are sometimes used for a few days or weeks to help relieve pain caused by TMJ disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedatives.&lt;/strong&gt; If nighttime teeth clenching is aggravating your pain, your doctor might prescribe a sedative such as clonazepam (Klonopin).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;Nonpharmaceutical treatments for TMJ disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bite guards (oral splints).&lt;/strong&gt; Often, people with jaw pain will benefit from wearing a soft or firm device inserted over their teeth, but the reasons why these devices are beneficial are not well understood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Treatments might include ultrasound, moist heat and ice &amp;mdash; along with exercises to stretch and strengthen jaw muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Counseling.&lt;/strong&gt; Education and counseling can help you understand the factors and behaviors that may aggravate your pain, so you can avoid them. Examples include teeth clenching or grinding, leaning on your chin, or biting fingernails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical or other procedures&lt;br /&gt;
+&lt;/strong&gt;When other methods don&apos;t help, your doctor might suggest procedures such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Arthrocentesis.&lt;/strong&gt; This procedure involves the insertion of needles into the joint so that fluid can be irrigated through the joint to remove debris and inflammatory byproducts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; In some people, corticosteroid injections into the joint may be helpful. Infrequently, injecting botulinum toxin (Botox, others) into the jaw muscles used for chewing may relieve pain associated with TMJ disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If your jaw pain does not resolve with more-conservative treatments and if it appears to be caused by a structural problem within the joint, your doctor or dentist may suggest surgery to repair or replace the joint. The National Institute of Dental and Craniofacial Research considers TMJ surgery to be controversial and recommends that it be avoided whenever possible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Becoming more aware of tension-related habits &amp;mdash; clenching your jaw, grinding your teeth or chewing pencils &amp;mdash; will help you reduce their frequency. The following tips may help you alleviate symptoms of TMJ disorders: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid overuse of jaw muscles.&lt;/strong&gt; Eat soft foods. Cut food into small pieces. Steer clear of sticky or chewy food. Avoid chewing gum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretching and massage.&lt;/strong&gt; Your doctor, dentist or physical therapist may show you how to do exercises that stretch and strengthen your jaw muscles and how to massage the muscles yourself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat or cold.&lt;/strong&gt; Applying warm, moist heat or ice to the side of your face may help alleviate pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complementary and alternative medicine techniques can sometimes help control the chronic pain often associated with TMJ disorders. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; A specialist trained in acupuncture treats chronic pain by inserting hair-thin needles at specific locations on your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques.&lt;/strong&gt; Consciously slowing your breathing and taking deep, regular breaths can help relax tense muscles, which can reduce pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; Electronic devices that monitor the tightness of specific muscles can help you practice effective relaxation techniques.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		TMJ disorders
+	</Title>
+	<Abstract>
+		TMJ disorders &amp;mdash; Comprehensive overview covers symptoms and treatment, including surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Disease" DocID="DS00337" LinkType="Internal" ObjectID="306B2CFF-DB88-4A91-9EF8A73732B1F0BD" Title="Bruxism/teeth grinding" Url="http://www.mayoclinic.com/health/bruxism/DS00337" />
+	</RelatedLinksBox>
+</Disease>

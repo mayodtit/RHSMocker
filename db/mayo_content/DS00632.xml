@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00632
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/inflammatory-breast-cancer/DS00632
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="4050" Title="Inflammatory breast cancer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			273CAB18-2A5D-9994-E7302A26D91E98CC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammatory breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				IBC
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Inflammatory breast cancer is a rare type of breast cancer that develops rapidly, making the affected breast red, swollen and tender. Inflammatory breast cancer occurs when cancer cells block the lymphatic vessels in skin covering the breast, causing the characteristic red, swollen appearance of the breast. 
+&lt;/p&gt;
+&lt;p&gt;
+Inflammatory breast cancer is considered a locally advanced cancer &amp;mdash; meaning it has spread from its point of origin to nearby tissue and possibly to nearby lymph nodes. 
+&lt;/p&gt;
+&lt;p&gt;
+Inflammatory breast cancer can easily be confused with a breast infection. Seek medical attention promptly if you notice skin changes on your breast, to help distinguish a breast infection from other breast disorders, such as inflammatory breast cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of inflammatory breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid change in the appearance of one breast, over the course of several weeks&lt;/li&gt;
+	&lt;li&gt;Thickness, heaviness or visible enlargement of one breast&lt;/li&gt;
+	&lt;li&gt;Discoloration, giving the breast a red, purple, pink or bruised appearance&lt;/li&gt;
+	&lt;li&gt;Unusual warmth of the affected breast&lt;/li&gt;
+	&lt;li&gt;Dimpling or ridges on the skin of the affected breast, similar to an orange peel&lt;/li&gt;
+	&lt;li&gt;Tenderness, pain or aching&lt;/li&gt;
+	&lt;li&gt;Enlarged lymph nodes under the arm, above the collarbone or below the collarbone&lt;/li&gt;
+	&lt;li&gt;Flattening or turning inward of the nipple&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Inflammatory breast cancer doesn&apos;t commonly form a lump, as occurs with other forms of breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Other more common conditions have signs and symptoms resembling those of inflammatory breast cancer. A breast injury or breast infection (mastitis) may cause redness, swelling and pain. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been treated for a breast infection but your signs and symptoms persist, contact your doctor. Your doctor may recommend a mammogram or other test to evaluate your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of woman with inflammatory breast cancer 
+" Caption="Inflammatory breast cancer often appears as an enlarged breast with red, thickened skin. 
+" Height="60" Title="Inflammatory breast cancer" URI="/images/image_popup/thumbs/br7_inflammatorythu.jpg" Width="60" />
+				<Image Alt="Photograph of woman with inflammatory breast cancer 
+" Caption="Inflammatory breast cancer often appears as an enlarged breast with red, thickened skin. 
+" Height="313" Title="Inflammatory breast cancer" URI="/images/image_popup/br7_inflammatory.jpg" Width="400" />
+				<HTML>
+					Inflammatory breast cancer often appears as an enlarged breast with red, thickened skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes inflammatory breast cancer. Doctors know that inflammatory breast cancer begins with an abnormal cell in one of the breast&apos;s ducts. Mutations within the abnormal cell&apos;s DNA instruct it to grow and divide rapidly. The accumulating abnormal cells infiltrate and clog the lymphatic vessels in the skin of your breast. The blockage in the lymphatic vessels causes red, swollen and dimpled skin &amp;mdash; a classic sign of inflammatory breast cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of inflammatory breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being a woman.&lt;/strong&gt; Women are more likely to be diagnosed with inflammatory breast cancer than are men. But men can develop inflammatory breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being black.&lt;/strong&gt; Black women have a higher risk of inflammatory breast cancer than do white women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; The risk of inflammatory breast cancer increases with age.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by first seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If you&apos;re diagnosed with inflammatory breast cancer, you&apos;ll be referred to a doctor who specializes in treating cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For inflammatory breast cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have inflammatory breast cancer?&lt;/li&gt;
+	&lt;li&gt;Has my inflammatory breast cancer spread beyond my breast?&lt;/li&gt;
+	&lt;li&gt;Do I need more tests?&lt;/li&gt;
+	&lt;li&gt;Can I have a copy of my pathology report?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Can any treatments cure my inflammatory breast cancer?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;If you had a friend or family member in my situation, what would you recommend?&lt;/li&gt;
+	&lt;li&gt;How much time can I take to choose a treatment?&lt;/li&gt;
+	&lt;li&gt;How will cancer treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing inflammatory breast cancer&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose inflammatory breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A physical exam.&lt;/strong&gt; Your doctor examines your breast to look for redness and other signs of inflammatory breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of tissue for testing.&lt;/strong&gt; A biopsy is a procedure to remove a small sample of suspicious breast tissue for testing. The tissue is analyzed in a laboratory to look for signs of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may recommend a breast X-ray (mammogram) or a breast ultrasound to look for signs of cancer in your breast, such as thickened skin. Additional imaging tests, such as magnetic resonance imaging and molecular breast imaging, may be recommended in certain situations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging inflammatory breast cancer&lt;/strong&gt; &lt;br /&gt;
+If you have inflammatory breast cancer, your doctor will work to determine the extent (stage) of your cancer. This process is called staging. Additional tests that may be used to stage your cancer include computerized tomography (CT) scan and bone scan. 
+&lt;/p&gt;
+&lt;p&gt;
+The stages of inflammatory breast cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; At this stage, cancer is considered to be locally advanced cancer &amp;mdash; meaning it has spread to nearby lymph nodes and to the fibrous connective tissue inside the breast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; At this stage, cancer has spread to other parts of your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for inflammatory breast cancer often begins with chemotherapy, followed by surgery and radiation therapy. After these treatments, other treatments may be used if tests of your cancer cells reveal that you may benefit from additional treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses chemicals to kill cancer cells. You receive chemotherapy drugs through a vein (intravenously), in pill form or both. Chemotherapy is often used prior to surgery for inflammatory breast cancer. This presurgical treatment, referred to as neoadjuvant therapy, aims to shrink the cancer before the operation and increase the chance that surgery will be successful. Chemotherapy can also be used after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+After chemotherapy, women with inflammatory breast cancer usually have an operation to remove the affected breast (mastectomy). Most women with inflammatory breast cancer undergo a modified radical mastectomy, which involves removing the entire breast and several nearby lymph nodes. The lymph nodes are tested for signs of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. During radiation therapy, you lie on a table while a large machine moves around you, directing the energy beams to your cancer. Radiation therapy can be used after chemotherapy and surgery to kill any cancer cells that might remain around your breast and under your arm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone therapy&lt;/strong&gt; &lt;br /&gt;
+If your inflammatory breast cancer is sensitive to hormones, your doctor may recommend hormone therapy. Hormone therapy treatments can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A medication that blocks hormones from attaching to cancer cells.&lt;/strong&gt; Tamoxifen is a type of drug called a selective estrogen receptor modulator (SERM). SERMs act by blocking any estrogen present in the body from attaching to the estrogen receptor on the cancer cells, slowing the growth of tumors and killing tumor cells. Tamoxifen can be used in both pre- and postmenopausal women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that stop the body from making estrogen after menopause.&lt;/strong&gt; Called aromatase inhibitors, these drugs block the action of an enzyme that converts androgens in the body into estrogen. These drugs are effective only in postmenopausal women. Aromatase inhibitors include anastrozole (Arimidex), letrozole (Femara) and exemestane (Aromasin).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted therapy&lt;/strong&gt; &lt;br /&gt;
+Targeted therapies kill cancer by focusing on the cancer cells&apos; particular vulnerabilities. For inflammatory breast cancer cells with a certain genetic mutation, the medication trastuzumab (Herceptin) may be a treatment option. Trastuzumab targets a protein called HER2 that helps some inflammatory breast cancer cells grow and survive. If your inflammatory breast cancer cells make too much HER2, trastuzumab may help block that protein and cause the cancer cells to die. Trastuzumab can be combined with chemotherapy and used before and after surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Inflammatory breast cancer progresses rapidly. Sometimes this means you may need to start treatment before you&apos;ve had time to think everything through. This can feel overwhelming. To cope, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about inflammatory breast cancer to make treatment decisions.&lt;/strong&gt; Ask your doctor for the facts about your cancer and treatment. Ask what stage your cancer is and what treatment options you have. Also ask your doctor about good sources of information where you can learn more. Examples of good organizations for cancer information include the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support.&lt;/strong&gt; It might comfort you to talk about your feelings as you begin cancer treatment. You might have a close friend or family member who is a good listener. Or ask your doctor to refer you to a counselor who works with cancer survivors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; Other people with cancer can provide a unique source of support. Cancer survivors can offer practical advice on what to expect and how to cope during your treatment. Ask your doctor about support groups in your community. Or try the online message boards run by organizations such as the American Cancer Society or Breastcancer.org.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Inflammatory breast cancer
+	</Title>
+	<Abstract>
+		Inflammatory breast cancer &amp;mdash; Comprehensive overview includes signs and symptoms, screening, diagnosis and treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

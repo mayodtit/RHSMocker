@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00274
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/appendicitis/DS00274
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-13
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="2957" Title="Appendicitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F909CDF2-59D8-4D4C-B9997DCE90855957
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				appendicitis
+			</MetaKeyword>
+			<MetaKeyword>
+				appendix
+			</MetaKeyword>
+			<MetaKeyword>
+				appendix
+			</MetaKeyword>
+			<MetaKeyword>
+				appendectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				peritonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				McBurney&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				McBurney&apos;s point
+			</MetaKeyword>
+			<MetaKeyword>
+				apendicitis
+			</MetaKeyword>
+			<MetaKeyword>
+				appendisitis
+			</MetaKeyword>
+			<MetaKeyword>
+				apendix
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Appendicitis is a condition in which your appendix becomes inflamed and fills with pus. Your appendix is a finger-shaped pouch that projects out from your colon on the lower right side of your abdomen. This small structure has no known essential purpose, but that doesn&apos;t mean it can&apos;t cause problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Appendicitis causes pain that typically begins around your navel and then shifts to your lower right abdomen. Appendicitis pain typically increases over a period of 12 to 18 hours and eventually becomes very severe. 
+&lt;/p&gt;
+&lt;p&gt;
+Appendicitis can affect anyone, but it most often occurs in people between the ages of 10 and 30. The standard appendicitis treatment is surgical removal of the appendix. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inflamed appendix 
+" Caption="The appendix is a narrow, finger-shaped pouch that projects out from the colon. Appendicitis occurs when the appendix becomes inflamed and filled with pus. 
+" Height="60" Title="Appendicitis" URI="/images/image_popup/thumbs/r7_appendicitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing inflamed appendix 
+" Caption="The appendix is a narrow, finger-shaped pouch that projects out from the colon. Appendicitis occurs when the appendix becomes inflamed and filled with pus. 
+" Height="487" Title="Appendicitis" URI="/images/image_popup/r7_appendicitis.jpg" Width="400" />
+				<HTML>
+					The appendix is a narrow, finger-shaped pouch that projects out from the colon. Appendicitis occurs when the appendix becomes inflamed and filled with pus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of appendicitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aching pain that begins around your navel and often shifts to your lower right abdomen&lt;/li&gt;
+	&lt;li&gt;Pain that becomes sharper over several hours&lt;/li&gt;
+	&lt;li&gt;Tenderness that occurs when you apply pressure to your lower right abdomen&lt;/li&gt;
+	&lt;li&gt;Sharp pain in your lower right abdomen that occurs when the area is pressed on and then the pressure is quickly released (rebound tenderness)&lt;/li&gt;
+	&lt;li&gt;Pain that worsens if you cough, walk or make other jarring movements&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Inability to pass gas&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal swelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The location of your pain may vary, depending on your age and the position of your appendix. Young children or pregnant women, especially, may have appendicitis pain in different places. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with a doctor if you or your child experiences signs or symptoms that worry you. Abdominal pain so severe that you are unable to sit still or find a comfortable position requires immediate medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of appendicitis isn&apos;t always clear. Sometimes appendicitis can occur as a result of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An obstruction.&lt;/strong&gt; Food waste or a hard piece of stool (fecal stone) can block the opening of the cavity that runs the length of your appendix. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An infection.&lt;/strong&gt; Appendicitis may also follow an infection, such as a gastrointestinal viral infection, or it may result from other types of inflammation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In both cases, bacteria inside the appendix multiply rapidly, causing the appendix to become inflamed, swollen and filled with pus. If not treated promptly, the appendix can rupture. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inflamed appendix 
+" Caption="The appendix is a narrow, finger-shaped pouch that projects out from the colon. Appendicitis occurs when the appendix becomes inflamed and filled with pus. 
+" Height="60" Title="Appendicitis" URI="/images/image_popup/thumbs/r7_appendicitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing inflamed appendix 
+" Caption="The appendix is a narrow, finger-shaped pouch that projects out from the colon. Appendicitis occurs when the appendix becomes inflamed and filled with pus. 
+" Height="487" Title="Appendicitis" URI="/images/image_popup/r7_appendicitis.jpg" Width="400" />
+				<HTML>
+					The appendix is a narrow, finger-shaped pouch that projects out from the colon. Appendicitis occurs when the appendix becomes inflamed and filled with pus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Appendicitis can cause serious complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A ruptured appendix.&lt;/strong&gt; If your appendix ruptures, the contents of your intestines and infectious organisms can leak into your abdominal cavity. This can cause an infection of your abdominal cavity (peritonitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A pocket of pus that forms in the abdomen.&lt;/strong&gt; If your appendix has burst, infection and the seepage of intestinal contents may form an abscess &amp;mdash; a pocket of infection (appendiceal abscess) around the appendix. Appendiceal abscess requires treatment before the abscess tears, causing a more widespread infection of the abdominal cavity. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor or a general practitioner if you experience abdominal pain. If your doctor determines you have appendicitis, you&apos;ll likely be hospitalized and referred to a surgeon who can remove your appendix. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions your doctor may ask you&lt;/strong&gt; &lt;br /&gt;
+To help in diagnosing your condition, your doctor is likely to ask you a number of questions about your signs and symptoms, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing abdominal pain?&lt;/li&gt;
+	&lt;li&gt;What part of your abdomen hurts?&lt;/li&gt;
+	&lt;li&gt;Has the pain moved from one part of your abdomen to another part?&lt;/li&gt;
+	&lt;li&gt;How severe is your pain?&lt;/li&gt;
+	&lt;li&gt;What makes your pain more severe?&lt;/li&gt;
+	&lt;li&gt;What helps relieve your pain?&lt;/li&gt;
+	&lt;li&gt;Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;Do you feel nauseous?&lt;/li&gt;
+	&lt;li&gt;What other signs and symptoms do you have?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions you can ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have appendicitis?&lt;/li&gt;
+	&lt;li&gt;Will I need any more tests to determine whether I have appendicitis?&lt;/li&gt;
+	&lt;li&gt;Do I need surgery for my appendicitis?&lt;/li&gt;
+	&lt;li&gt;How soon do I need surgery?&lt;/li&gt;
+	&lt;li&gt;What are the risks of appendix surgery?&lt;/li&gt;
+	&lt;li&gt;How long will I need to stay in the hospital after surgery?&lt;/li&gt;
+	&lt;li&gt;How long will it take to recover after surgery?&lt;/li&gt;
+	&lt;li&gt;How soon after surgery can I go back to work?&lt;/li&gt;
+	&lt;li&gt;Can you tell by my signs and symptoms whether my appendix has burst?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The pain from appendicitis may change over time, so establishing a diagnosis can sometimes be difficult. In addition, abdominal pain can arise from a number of health problems other than appendicitis. To help diagnose appendicitis, your doctor will likely take a history of your signs and symptoms and perform a thorough physical examination of your abdomen. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests and procedures used to diagnose appendicitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam to assess your pain.&lt;/strong&gt; Your doctor may apply gentle pressure on the painful area. When the pressure is suddenly released, appendicitis pain will often feel worse, signaling that the adjacent peritoneum is inflamed. Other signs your doctor may watch for include abdominal rigidity and a tendency to stiffen your abdominal muscles in response to pressure over the inflamed appendix (guarding).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; This allows your doctor to check for a high white blood cell count, which may indicate an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; Your doctor may want you to have a urinalysis to make sure that a urinary tract infection or a kidney stone isn&apos;t causing your pain. If it is a kidney stone, red blood cells are usually seen during microscopic examination of the urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may also recommend an abdominal X-ray, an ultrasound scan or a computerized tomography (CT) scan to help confirm appendicitis or find other causes for your pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Appendicitis treatment usually involves surgery to remove the inflamed appendix. Other treatments may be necessary depending on your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to remove the appendix (appendectomy)&lt;/strong&gt; &lt;br /&gt;
+Appendectomy can be performed as open surgery using one abdominal incision that&apos;s about 2 to 4 inches (5 to 10 centimeters) long. Or appendicitis surgery can be done as a laparoscopic operation, which involves a few small abdominal incisions. During a laparoscopic appendectomy, the surgeon inserts special surgical tools and a video camera into your abdomen to remove your appendix. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, laparoscopic surgery allows you to recover faster and heal with less scarring. But laparoscopic surgery isn&apos;t appropriate for everyone. If your appendix has ruptured and infection has spread beyond the appendix or if an abscess is present, you may require an open appendectomy. An open appendectomy allows your surgeon to clean the abdominal cavity. 
+&lt;/p&gt;
+&lt;p&gt;
+Expect to spend one or two days in the hospital after your appendectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Draining an abscess before appendix surgery&lt;/strong&gt; &lt;br /&gt;
+If your appendix has burst and an abscess has formed around it, the abscess may be drained by placing a tube through your skin and into the abscess. Appendectomy can be performed several weeks later after the infection is under control. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Expect a few weeks of recovery from an appendectomy. If your appendix burst, it may take longer to recover. During this recovery time, you can take steps to help your body heal, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid strenuous activity at first.&lt;/strong&gt; If your appendectomy was done laparoscopically, limit your activity for the first three to five days after surgery. If you had an open appendectomy, limit your activity for the first 10 to 14 days after surgery. Ask your doctor when you can go back to your normal activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support your abdomen when you cough.&lt;/strong&gt; You may feel abdominal pain when you cough, laugh or make other movements. Place a pillow over your abdomen and apply pressure before these movements to brace yourself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Call your doctor if your pain medications aren&apos;t helping.&lt;/strong&gt; Being in pain puts extra stress on your body and slows the healing process. If you&apos;re still in pain despite your pain medications, call your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get up and move when you&apos;re ready.&lt;/strong&gt; Start slowly and increase your activity as you feel up to it. Start with short walks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep when you feel tired.&lt;/strong&gt; As your body heals, you may find you feel sleepier than usual. Take it easy and rest when you need to.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss returning to work or school with your doctor.&lt;/strong&gt; You can return to work when you feel up to it. Children may be able to return to school less than a week after surgery, though strenuous activity, such as gym class or sports, should be limited for two to four weeks after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will prescribe medications to help you control your pain after your appendectomy. Some complementary and alternative treatments, when used along with your medications, can help control your pain. Ask your doctor about safe options, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Distracting activities, such as listening to music and talking with friends, that take your mind off your pain&lt;/li&gt;
+	&lt;li&gt;Guided imagery, such as closing your eyes and thinking about a favorite place&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Appendicitis
+	</Title>
+	<Abstract>
+		Appendicitis &amp;mdash; Comprehensive overview covers signs, symptoms, causes, treatment of this painful appendix inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00343" LinkType="Internal" ObjectID="024DEA4A-E7FF-0DBD-1C830476D58B8DFA" Title="Sed rate (erythrocyte sedimentation rate)" Url="http://www.mayoclinic.com/health/sed-rate/MY00343" />
+	</RelatedLinksBox>
+</Disease>

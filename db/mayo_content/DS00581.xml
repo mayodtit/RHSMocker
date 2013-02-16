@@ -1,0 +1,344 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00581
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/amenorrhea/DS00581
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-17
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="4423" Title="Female reproductive stage">
+						<Keyword MCVID="2046" Title="Menstrual cycle">
+							<Keyword MCVID="2172" Title="Amenorrhea" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A1BEB836-698F-4C05-B88D158D673829AB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				amenorrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				menstruation
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				period
+			</MetaKeyword>
+			<MetaKeyword>
+				menses
+			</MetaKeyword>
+			<MetaKeyword>
+				no period
+			</MetaKeyword>
+			<MetaKeyword>
+				missed period
+			</MetaKeyword>
+			<MetaKeyword>
+				menstrual cycle
+			</MetaKeyword>
+			<MetaKeyword>
+				ovulation
+			</MetaKeyword>
+			<MetaKeyword>
+				absent menstruation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amenorrhea (uh-men-o-REE-uh) is the absence of menstruation &amp;mdash; one or more missed menstrual periods. Women who have missed at least three menstrual periods in a row have amenorrhea, as do girls who haven&apos;t begun menstruation by the age of 16.
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of amenorrhea is pregnancy. Other causes of amenorrhea include problems with the reproductive organs or with the glands that help regulate hormone levels. Treatment of the underlying condition often resolves amenorrhea.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main indication of amenorrhea is that you don&apos;t have menstrual periods. Depending on the cause of amenorrhea, you might experience other signs or symptoms along with the absence of periods, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Milky nipple discharge&lt;/li&gt;
+	&lt;li&gt;Hair loss&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Vision changes&lt;/li&gt;
+	&lt;li&gt;Excess facial hair&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Consult your doctor if you&apos;ve missed at least three menstrual periods in a row, or if you&apos;ve never had a menstrual period and you&apos;re age 16 or older.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amenorrhea can occur for a variety of reasons. Some are part of the normal course of a woman&apos;s life, while others may be a side effect of medications or a sign of a medical problem.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Natural amenorrhea&lt;/strong&gt;&lt;br /&gt;
+During the normal course of her life, a woman may experience amenorrhea for natural reasons, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Breast-feeding&lt;/li&gt;
+	&lt;li&gt;Menopause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Contraceptives&lt;/strong&gt;&lt;br /&gt;
+Some women who take birth control pills may not have periods. When oral contraceptives are stopped, it may take three to six months to resume regular ovulation and menstruation. Contraceptives that are injected or implanted also may cause amenorrhea, as can some types of intrauterine devices.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Certain medications can cause menstrual periods to stop, including some types of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Antipsychotics&lt;/li&gt;
+	&lt;li&gt;Cancer chemotherapy&lt;/li&gt;
+	&lt;li&gt;Antidepressants&lt;/li&gt;
+	&lt;li&gt;Blood pressure drugs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle factors&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Mental stress can temporarily alter the functioning of your hypothalamus &amp;mdash; an area of your brain that controls the hormones that regulate your menstrual cycle. Ovulation and menstruation may stop as a result. Regular menstrual periods usually resume after your stress decreases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low body weight.&lt;/strong&gt; Excessively low body weight interrupts many hormonal functions in your body, potentially halting ovulation. Women who have an eating disorder, such as anorexia or bulimia, often stop having periods because of these abnormal hormonal changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive exercise.&lt;/strong&gt; Women who participate in sports that require rigorous training, such as ballet, long-distance running or gymnastics, may find their menstrual cycle interrupted. Several factors combine to contribute to the loss of periods in athletes, including low body fat, stress and high energy expenditure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormonal imbalance&lt;/strong&gt;&lt;br /&gt;
+Many types of medical problems can cause hormonal imbalance, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Polycystic ovary syndrome (PCOS).&lt;/strong&gt; PCOS causes relatively high and sustained levels of hormones, rather than the fluctuating levels seen in the normal menstrual cycle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid malfunction.&lt;/strong&gt; An overactive (hyperthyroidism) or underactive (hypothyroidism) thyroid gland can cause menstrual irregularities, including amenorrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pituitary tumor.&lt;/strong&gt; A noncancerous (benign) tumor in your pituitary gland can interfere with the hormonal regulation of menstruation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature menopause.&lt;/strong&gt; Menopause usually occurs between ages 45 and 55. In some women, the ovarian supply of eggs diminishes before age 40, and menstruation stops.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Structural problems&lt;/strong&gt;&lt;br /&gt;
+Problems with the sexual organs themselves also can cause amenorrhea. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine scarring.&lt;/strong&gt; Asherman&apos;s syndrome, a condition in which scar tissue builds up in the lining of the uterus, can sometimes occur after a dilation and curettage (D&amp;C), cesarean section or treatment for uterine fibroids. Uterine scarring prevents the normal buildup and shedding of the uterine lining.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of reproductive organs.&lt;/strong&gt; Sometimes problems arise during fetal development that lead to a girl being born without some major part of her reproductive system, such as her uterus, cervix or vagina. Because her reproductive system didn&apos;t develop normally, she won&apos;t have menstrual cycles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Structural abnormality of the vagina.&lt;/strong&gt; An obstruction of the vagina may prevent visible menstrual bleeding. A membrane or wall may be present in the vagina that blocks the outflow of blood from the uterus and cervix.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of amenorrhea may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If other women in your family have experienced amenorrhea, you may have inherited a predisposition for the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating disorders.&lt;/strong&gt; If you have an eating disorder, such as anorexia or bulimia, you are at higher risk of developing amenorrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Athletic training.&lt;/strong&gt; Rigorous athletic training can increase your risk of amenorrhea.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of amenorrhea may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility.&lt;/strong&gt; If you don&apos;t ovulate and have menstrual periods, you can&apos;t become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; If your amenorrhea is caused by low estrogen levels, you may also be at risk of osteoporosis &amp;mdash; a weakening of your bones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your first appointment will likely be with your primary care physician or a gynecologist.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and it can be difficult to remember everything you want to discuss, it&apos;s a good idea to prepare in advance of your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you might want to write a list answering the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your signs and symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Do you have occasional menstrual periods or no periods at all?&lt;/li&gt;
+	&lt;li&gt;Have any other women in your family had this problem?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+	&lt;li&gt;Have you ever had an abdominal or pelvic surgery?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions you might ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing my problem?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Do you have any informational brochures on this topic?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Questions your doctor may ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Could you be pregnant?&lt;/li&gt;
+	&lt;li&gt;How much distress do your symptoms cause you?&lt;/li&gt;
+	&lt;li&gt;Have you experienced unexplained weight gain or weight loss?&lt;/li&gt;
+	&lt;li&gt;How often and how intensely do you exercise?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During your appointment, speak up if you don&apos;t understand something. It&apos;s important that you understand the reason for any tests or treatments that are recommended.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During your appointment, your doctor will perform a pelvic exam to check for any problems with your reproductive organs. If you&apos;ve never had a period, your doctor may examine your breasts and genitals to see if you&apos;re experiencing the normal changes of puberty. Amenorrhea can encompass a complex set of hormonal problems. Finding the underlying cause can take time and may require more than one kind of testing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;/strong&gt;&lt;br /&gt;
+A variety of blood tests may be necessary, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy test.&lt;/strong&gt; This will probably be the first test your doctor suggests, to rule out or confirm a possible pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid function test.&lt;/strong&gt; Measuring the amount of thyroid-stimulating hormone (TSH) in your blood can determine if your thyroid is working properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ovary function test.&lt;/strong&gt; Measuring the amount of follicle-stimulating hormone (FSH) in your blood can determine if your ovaries are working properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Male hormone test.&lt;/strong&gt; If you&apos;re experiencing increased facial hair and a lowered voice, your doctor may want to check the level of male hormones in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone challenge test&lt;/strong&gt;&lt;br /&gt;
+For this test, you take a hormonal medication for seven to 10 days to trigger menstrual bleeding. Results from this test can tell your doctor whether your periods have stopped due to a lack of estrogen.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt;&lt;br /&gt;
+Depending on your signs and symptoms &amp;mdash; and the result of any blood tests you&apos;ve had &amp;mdash; your doctor might recommend one or more imaging tests, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This painless test uses sound waves to produce images of internal organs. If you have never had a period, your doctor may suggest an ultrasound test to see if all your reproductive organs are present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans combine many X-ray images taken from different directions to create cross-sectional views of internal structures. A CT scan can indicate whether your uterus, ovaries and kidneys look normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI utilizes radio waves with a strong magnetic field to produce exceptionally detailed images of soft tissues within the body. Your doctor may order an MRI to check for a pituitary tumor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Scope tests&lt;/strong&gt;&lt;br /&gt;
+If other testing reveals no specific cause, your doctor may recommend a hysteroscopy &amp;mdash; a test in which a thin, lighted camera is passed through your vagina and cervix to look at the inside of your uterus.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the underlying cause of your amenorrhea. In some cases, contraceptive pills can restart your menstrual cycles. Amenorrhea caused by thyroid or pituitary disorders may be treated with medications. If a tumor or structural blockage is causing the problem, surgery may be necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some lifestyle factors can cause amenorrhea, so strive for balance in work, recreation and rest. Assess areas of stress and conflict in your life. If you can&apos;t decrease stress on your own, ask for help from family, friends or your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Be aware of changes in your menstrual cycle and check with your doctor if you have concerns. Keep a record of when your periods occur. Note the date your period starts, how long it lasts and any troublesome symptoms you experience.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Amenorrhea
+	</Title>
+	<Abstract>
+		Amenorrhea &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of absent menstruation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01541" LinkType="Internal" ObjectID="B0E6EDFF-F3AC-D8DF-2131098AE401EA43" Title="Menstrual cycle: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/menstrual-cycle/MY01541" />
+		<LinkItem ContentType="Disease" DocID="DS00533" LinkType="Internal" ObjectID="EF3D3564-9BB7-472A-9983C780054CCF0F" Title="Pituitary tumors" Url="http://www.mayoclinic.com/health/pituitary-tumors/DS00533" />
+		<LinkItem ContentType="Disease" DocID="DS00606" LinkType="Internal" ObjectID="E86EC710-2A5D-9994-EE864ECCE60AB5A2" Title="Anorexia nervosa" Url="http://www.mayoclinic.com/health/anorexia/DS00606" />
+		<LinkItem ContentType="Disease" DocID="DS00607" LinkType="Internal" ObjectID="DAE125A5-2A5D-9994-E0984B6339C5EFF6" Title="Bulimia nervosa" Url="http://www.mayoclinic.com/health/bulimia/DS00607" />
+		<LinkItem ContentType="Disease" DocID="DS00423" LinkType="Internal" ObjectID="6AF557AF-44E0-4DDD-A998ADE4B75EAB04" Title="Polycystic ovary syndrome" Url="http://www.mayoclinic.com/health/polycystic-ovary-syndrome/DS00423" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Disease>

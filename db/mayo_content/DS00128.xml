@@ -1,0 +1,460 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00128
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/osteoporosis/DS00128
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-13
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1413" Title="Osteoporosis" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			74832633-C5B7-4681-A614980804652C1A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				osteoporosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bone loss
+			</MetaKeyword>
+			<MetaKeyword>
+				thin bones
+			</MetaKeyword>
+			<MetaKeyword>
+				thinning bones
+			</MetaKeyword>
+			<MetaKeyword>
+				bone thinning
+			</MetaKeyword>
+			<MetaKeyword>
+				fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium
+			</MetaKeyword>
+			<MetaKeyword>
+				low bone density
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoperosis
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoporsis
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoprosis
+			</MetaKeyword>
+			<MetaKeyword>
+				height loss
+			</MetaKeyword>
+			<MetaKeyword>
+				osteopenia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteoporosis causes bones to become weak and brittle &amp;mdash; so brittle that a fall or even mild stresses like bending over or coughing can cause a fracture. Osteoporosis-related fractures most commonly occur in the hip, wrist or spine.
+&lt;/p&gt;
+&lt;p&gt;
+Bone is living tissue, which is constantly being absorbed and replaced. Osteoporosis occurs when the creation of new bone doesn&apos;t keep up with the removal of old bone.
+&lt;/p&gt;
+&lt;p&gt;
+Osteoporosis affects men and women of all races. But white and Asian women &amp;mdash; especially those who are past menopause &amp;mdash; are at highest risk. Medications, dietary supplements and weight-bearing exercise can help strengthen your bones.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the early stages of bone loss, you usually have no pain or other symptoms. But once bones have been weakened by osteoporosis, you may have osteoporosis signs and symptoms that include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Back pain, caused by a fractured or collapsed vertebra&lt;/li&gt;
+	&lt;li&gt;Loss of height over time&lt;/li&gt;
+	&lt;li&gt;A stooped posture&lt;/li&gt;
+	&lt;li&gt;A bone fracture that occurs much more easily than expected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;You may want to talk to your doctor about osteoporosis if you&apos;ve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gone through early menopause&lt;/li&gt;
+	&lt;li&gt;Experienced a loss of height&lt;/li&gt;
+	&lt;li&gt;Had a bone break much more easily than expected&lt;/li&gt;
+	&lt;li&gt;Taken corticosteroids for a lengthy period of time&lt;/li&gt;
+	&lt;li&gt;Got a family history of osteoporosis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your bones are in a constant state of renewal &amp;mdash; new bone is made and old bone is broken down. When you&apos;re young, your body makes new bone faster than it breaks down old bone and your bone mass increases. Most people reach their peak bone mass by their early 20s. As people age, bone mass is lost faster than it&apos;s created. 
+&lt;/p&gt;
+&lt;p&gt;
+How likely you are to develop osteoporosis depends partly on how much bone mass you attained in your youth. The higher your peak bone mass, the more bone you have &quot;in the bank&quot; and the less likely you are to develop osteoporosis as you age. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images comparing the interior of a healthy bone with one that has become porous from osteoporosis 
+" Caption="Normal bone has the appearance of a honeycomb matrix (top). Under a microscope, osteoporotic bone (bottom) looks more porous.
+" Height="60" Title="Osteoporosis" URI="/images/image_popup/thumbs/mcdc7_osteoporosis_comparethu.jpg" Width="60" />
+				<Image Alt="Images comparing the interior of a healthy bone with one that has become porous from osteoporosis 
+" Caption="Normal bone has the appearance of a honeycomb matrix (top). Under a microscope, osteoporotic bone (bottom) looks more porous.
+" Height="411" Title="Osteoporosis weakens bone" URI="/images/image_popup/mcdc7_osteoporosis_compare.jpg" Width="400" />
+				<HTML>
+					Normal bone has the appearance of a honeycomb matrix (top). Under a microscope, osteoporotic bone (bottom) looks more porous.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors can increase the likelihood that you&apos;ll develop osteoporosis &amp;mdash; including your age, race, lifestyle choices, and medical conditions and treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Unchangeable risks&lt;br /&gt;
+&lt;/strong&gt;Some risk factors for osteoporosis are out of your control, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Women are much more likely to develop osteoporosis than are men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The older you get, the greater your risk of osteoporosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; You&apos;re at greatest risk of osteoporosis if you&apos;re white or of Asian descent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Having a parent or sibling with osteoporosis puts you at greater risk, especially if you also have a family history of fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frame size.&lt;/strong&gt; Men and women who have small body frames tend to have a higher risk because they may have less bone mass to draw from as they age.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone levels&lt;br /&gt;
+&lt;/strong&gt;Osteoporosis is more common in people who have too much or too little of certain hormones in their bodies. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex hormones.&lt;/strong&gt; The reduction of estrogen levels at menopause is one of the strongest risk factors for developing osteoporosis. Women may also experience a drop in estrogen during certain cancer treatments. Men experience a gradual reduction in testosterone levels as they age. And some treatments for prostate cancer reduce testosterone levels in men. Lowered sex hormone levels tend to weaken bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid problems.&lt;/strong&gt; Too much thyroid hormone can cause bone loss. This can occur if your thyroid is overactive or if you take too much thyroid hormone medication to treat an underactive thyroid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other glands.&lt;/strong&gt; Osteoporosis has also been associated with overactive parathyroid and adrenal glands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dietary factors&lt;br /&gt;
+&lt;/strong&gt;Osteoporosis is more likely to occur in people who have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low calcium intake.&lt;/strong&gt; A lifelong lack of calcium plays a major role in the development of osteoporosis. Low calcium intake contributes to diminished bone density, early bone loss and an increased risk of fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating disorders.&lt;/strong&gt; People who have anorexia are at higher risk of osteoporosis. Low food intake can reduce the amount of calcium ingested. In women, anorexia can stop menstruation, which also weakens bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight-loss surgery.&lt;/strong&gt; A reduction in the size of your stomach or a bypass of part of the intestine limits the amount of surface area available to absorb nutrients, including calcium.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Steroids and other medications&lt;br /&gt;
+&lt;/strong&gt;Long-term use of corticosteroid medications, such as prednisone and cortisone, interferes with the bone-rebuilding process. Osteoporosis has also been associated with medications used to combat or prevent:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Gastric reflux&lt;/li&gt;
+	&lt;li&gt;Cancer&lt;/li&gt;
+	&lt;li&gt;Transplant rejection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle choices&lt;br /&gt;
+&lt;/strong&gt;Some bad habits can increase your risk of osteoporosis. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sedentary lifestyle.&lt;/strong&gt; People who spend a lot of time sitting have a higher risk of osteoporosis than do their more-active counterparts. Any weight-bearing exercise is beneficial for your bones, but walking, running, jumping, dancing and weightlifting seem particularly helpful for creating healthy bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol consumption.&lt;/strong&gt; Regular consumption of more than two alcoholic drinks a day increases your risk of osteoporosis, possibly because alcohol can interfere with the body&apos;s ability to absorb calcium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco use.&lt;/strong&gt; The exact role tobacco plays in osteoporosis isn&apos;t clearly understood, but researchers do know that tobacco use contributes to weak bones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone fractures, particularly in the spine or hip, are the most serious complication of osteoporosis. Hip fractures often result from a fall and can result in disability and even death from postoperative complications, especially in older adults. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, spinal fractures can occur even if you haven&apos;t fallen. The bones that make up your spine (vertebrae) can weaken to the point that they may crumple, which can result in back pain, lost height and a hunched forward posture. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how osteoporosis can cause vertebrae to crumple and collapse. 
+" Caption="The bones that make up your spine (vertebrae) can weaken to the point that they crumple, which may result in back pain, lost height and a hunched forward posture. 
+" Height="60" Title="Compression fractures" URI="/images/image_popup/thumbs/mcdc7_osteoporosis_vertebrathu.jpg" Width="60" />
+				<Image Alt="Illustration showing how osteoporosis can cause vertebrae to crumple and collapse. 
+" Caption="The bones that make up your spine (vertebrae) can weaken to the point that they crumple, which may result in back pain, lost height and a hunched forward posture. 
+" Height="376" Title="Compression fractures" URI="/images/image_popup/mcdc7_osteoporosis_vertebra.jpg" Width="400" />
+				<HTML>
+					The bones that make up your spine (vertebrae) can weaken to the point that they crumple, which may result in back pain, lost height and a hunched forward posture. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or general practitioner may be the first doctor to bring up bone density testing. However, you may then be referred to a doctor who specializes in metabolic disorders (endocrinologist) or a doctor who specializes in diseases of the joints, muscles or bones (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve noticed,&lt;/strong&gt; though it&apos;s possible you may not have any.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re currently taking or have taken in the past. It&apos;s especially helpful if you record the type and dose of calcium and vitamin D supplements, because there are many different preparations available. If you&apos;re not sure what information your doctor might need, you can bring the bottles with you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For osteoporosis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have osteoporosis?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to make changes in my diet?&lt;/li&gt;
+	&lt;li&gt;Do I need to take supplements?&lt;/li&gt;
+	&lt;li&gt;Is there a physical therapy program that would benefit me?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent falls?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced any fractures or broken bones?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a loss of height?&lt;/li&gt;
+	&lt;li&gt;How is your diet? Do you think you get enough calcium? Vitamin D?&lt;/li&gt;
+	&lt;li&gt;Do you take any vitamins or supplements?&lt;/li&gt;
+	&lt;li&gt;How often do you exercise?&lt;/li&gt;
+	&lt;li&gt;Did you exercise more or less in the past?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have osteoporosis?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had bone fractures?&lt;/li&gt;
+	&lt;li&gt;Have you ever had stomach or intestinal surgery?&lt;/li&gt;
+	&lt;li&gt;Do you have chronic diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you taken corticosteroid medications (prednisone, cortisone) as pills, injections, suppositories or creams?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common test to measure bone density is dual energy X-ray absorptiometry (DXA). This procedure is quick, simple and gives accurate results. It painlessly measures the density of bones in your spine, hip and wrist &amp;mdash; the areas most likely to be affected by osteoporosis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Bisphosphonates&lt;br /&gt;
+&lt;/strong&gt;For both men and women, the most widely prescribed osteoporosis medications are bisphosphonates. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alendronate (Fosamax)&lt;/li&gt;
+	&lt;li&gt;Risedronate (Actonel, Atelvia)&lt;/li&gt;
+	&lt;li&gt;Ibandronate (Boniva)&lt;/li&gt;
+	&lt;li&gt;Zoledronic acid (Reclast, Zometa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Side effects include nausea, abdominal pain, difficulty swallowing, and the risk of an inflamed esophagus or esophageal ulcers. Injected forms of bisphosphonates don&apos;t cause stomach upset. And it may be easier to schedule a quarterly or yearly injection than to remember to take a weekly or monthly pill.
+&lt;/p&gt;
+&lt;p&gt;
+Long-term bisphosphonate therapy has been linked to a rare problem in which the upper thighbone cracks, but doesn&apos;t usually break completely. Bisphosphonates also have the potential to affect the jawbone. Osteonecrosis of the jaw is a rare condition occurring after a tooth extraction in which a section of jawbone dies and deteriorates.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone-related therapy&lt;br /&gt;
+&lt;/strong&gt;Estrogen, especially when started soon after menopause, can help maintain bone density. However, estrogen therapy can increase a woman&apos;s risk of blood clots, endometrial cancer, breast cancer and possibly heart disease.
+&lt;/p&gt;
+&lt;p&gt;
+Raloxifene (Evista) mimics estrogen&apos;s beneficial effects on bone density in postmenopausal women, without some of the risks associated with estrogen. Taking this drug may also reduce the risk of some types of breast cancer. Hot flashes are a common side effect. Raloxifene also may increase your risk of blood clots.
+&lt;/p&gt;
+&lt;p&gt;
+In men, osteoporosis may be linked with a gradual age-related decline in testosterone levels. Testosterone replacement therapy can help increase bone density.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Less common osteoporosis medications&lt;br /&gt;
+&lt;/strong&gt;If you can&apos;t tolerate the more common treatments for osteoporosis &amp;mdash; or if they don&apos;t work well enough &amp;mdash; your doctor might suggest trying: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Teriparatide (Forteo).&lt;/strong&gt; This powerful drug uses parathyroid hormone to stimulate new bone growth. It&apos;s given by injection under the skin. Long-term effects are still being studied, so therapy is recommended for two years or less.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Denosumab &lt;/strong&gt;&lt;strong&gt;(Prolia, Xgeva)&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Compared to bisphosphonates, denosumab produces similar or better results while targeting a different step in the bone remodeling process. Denosumab is delivered via a shot under the skin every six months. The most common side effects are back and muscle pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcitonin, salmon (Fortical, Miacalcin).&lt;/strong&gt; A substance produced by the thyroid gland, calcitonin reduces bone resorption and may slow bone loss. It&apos;s usually administered as a nasal spray and may cause nasal irritation in some people. It is the least effective of the available therapies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These suggestions may help reduce your risk of developing osteoporosis or experiencing broken bones: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking increases bone loss, perhaps by decreasing the amount of estrogen a woman&apos;s body makes and by reducing the absorption of calcium in your intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid excessive alcohol.&lt;/strong&gt; Consuming more than one alcoholic drink a day may decrease bone formation and reduce your body&apos;s ability to absorb calcium. Being under the influence also can increase your risk of falling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent falls.&lt;/strong&gt; Wear low-heeled shoes with nonslip soles and check your house for electrical cords, area rugs and slippery surfaces that might cause you to trip or fall. Keep rooms brightly lit, install grab bars just inside and outside your shower door, and make sure you can get in and out of your bed easily.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The idea that your bones aren&apos;t as strong as they used to be can be frightening. You may find that talking to other people who also have osteoporosis can be encouraging and helpful. Ask your doctor if he or she knows of any support groups in your area. Or contact the National Osteoporosis Foundation (NOF) at 800-231-4222 for a list of local support groups. If there isn&apos;t a group in your area, the NOF support group coordinator can give you information on starting a support group.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Three factors essential for keeping your bones healthy throughout your life are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Adequate amounts of calcium&lt;/li&gt;
+	&lt;li&gt;Adequate amounts of vitamin D&lt;/li&gt;
+	&lt;li&gt;Regular exercise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Calcium&lt;br /&gt;
+&lt;/strong&gt;Men and women between the ages of 18 and 50 need 1,000 milligrams of calcium a day. This daily amount increases to 1,200 milligrams when women turn 50 and men turn 70. Good sources of calcium include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low-fat dairy products&lt;/li&gt;
+	&lt;li&gt;Dark green leafy vegetables&lt;/li&gt;
+	&lt;li&gt;Canned salmon or sardines with bones&lt;/li&gt;
+	&lt;li&gt;Soy products, such as tofu&lt;/li&gt;
+	&lt;li&gt;Calcium-fortified cereals and orange juice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you find it difficult to get enough calcium from your diet, consider taking calcium supplements. The Institute of Medicine recommends taking no more than 2,000 to 2,500 milligrams of calcium daily.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vitamin D&lt;br /&gt;
+&lt;/strong&gt;Vitamin D is necessary for your body to absorb calcium. Many people get adequate amounts of vitamin D from sunlight, but this may not be a good source if you live in high latitudes, if you&apos;re housebound, or if you regularly use sunscreen or you avoid the sun entirely because of the risk of skin cancer.
+&lt;/p&gt;
+&lt;p&gt;
+Scientists don&apos;t yet know the optimal daily dose of vitamin D. A good starting point for adults is 600 to 800 international units (IU) a day, through food or supplements. If your blood levels of vitamin D are low, your doctor may suggest higher doses. Teens and adults can safely take up to 4,000 international units (IU) a day.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Exercise&lt;br /&gt;
+&lt;/strong&gt;Exercise can help you build strong bones and slow bone loss. Exercise will benefit your bones no matter when you start, but you&apos;ll gain the most benefits if you start exercising regularly when you&apos;re young and continue to exercise throughout your life.
+&lt;/p&gt;
+&lt;p&gt;
+Combine strength training exercises with weight-bearing exercises. Strength training helps strengthen muscles and bones in your arms and upper spine, and weight-bearing exercises &amp;mdash; such as walking, jogging, running, stair climbing, skipping rope, skiing and impact-producing sports &amp;mdash; mainly affect the bones in your legs, hips and lower spine.
+&lt;/p&gt;
+&lt;p&gt;
+Swimming, cycling and exercising on machines such as elliptical trainers can provide a good cardiovascular workout, but because such exercises are low impact, they&apos;re not as helpful for improving bone health as weight-bearing exercises are.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Osteoporosis
+	</Title>
+	<Abstract>
+		Osteoporosis &amp;mdash; Comprehensive overview covers risk factors, treatment, prevention of this condition of weakened bones.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00847" LinkType="Internal" ObjectID="FC2A0D14-5B75-441D-A69CEA2C6F1A42E2" Title="High-protein diets: Are they safe?" Url="http://www.mayoclinic.com/health/high-protein-diets/AN00847" />
+		<LinkItem ContentType="Answer" DocID="AN01972" LinkType="Internal" ObjectID="FB245463-EC31-A827-2386FFF380442C09" Title="Osteoporosis and long-term prednisone: What is the risk?" Url="http://www.mayoclinic.com/health/osteoporosis-prednisone/AN01972" />
+		<LinkItem ContentType="Answer" DocID="AN01294" LinkType="Internal" ObjectID="DAF2D3B5-2A5D-9994-E4E251AC16ECC18F" Title="Chocolate: Does it impair calcium absorption?" Url="http://www.mayoclinic.com/health/calcium/AN01294" />
+		<LinkItem ContentType="Answer" DocID="AN01428" LinkType="Internal" ObjectID="AD96291C-E7FF-0DBD-10D7DC5F32F10A89" Title="Calcium supplements: When should they be taken?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01428" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00304" LinkType="Internal" ObjectID="9ADB3E04-E7FF-0DBD-15CED708B69B3071" Title="Bone density test" Url="http://www.mayoclinic.com/health/bone-density-test/MY00304" />
+		<LinkItem ContentType="Answer" DocID="AN01620" LinkType="Internal" ObjectID="7CD469B3-E7FF-0DBD-1ACA3D6BF71125B0" Title="Elliptical machines: Better than treadmills?" Url="http://www.mayoclinic.com/health/elliptical-machines/AN01620" />
+		<LinkItem ContentType="Article" DocID="MY01540" LinkType="Internal" ObjectID="ABBC3E86-96D9-BBB8-5F6BC9998E0AF0F6" Title="Calcium and calcium supplements: Achieving the right balance" Url="http://www.mayoclinic.com/health/calcium-supplements/MY01540" />
+		<LinkItem ContentType="Article" DocID="MY01399" LinkType="Internal" ObjectID="3D87B0CA-A921-9012-710286C6AC6C6B3C" Title="Bone health: Tips to keep your bones healthy" Url="http://www.mayoclinic.com/health/bone-health/MY01399" />
+		<LinkItem ContentType="Answer" DocID="AN01379" LinkType="Internal" ObjectID="8661F8CD-E7FF-0DBD-1900940D601158AF" Title="Fosamax and other bisphosphonates: Unusual risks?" Url="http://www.mayoclinic.com/health/fosamax/AN01379" />
+		<LinkItem ContentType="Answer" DocID="AN01854" LinkType="Internal" ObjectID="10E598D4-E7FF-0DBD-1753D41BE116A053" Title="Osteoporosis medications: Must they be taken indefinitely?" Url="http://www.mayoclinic.com/health/osteoporosis-medications/AN01854" />
+		<LinkItem ContentType="Disease" DocID="DS00396" LinkType="Internal" ObjectID="0487CA33-EE6D-4E87-93CB56C658CA5FB5" Title="Hyperparathyroidism" Url="http://www.mayoclinic.com/health/hyperparathyroidism/DS00396" />
+		<LinkItem ContentType="Article" DocID="WO00127" LinkType="Internal" ObjectID="A0475D5C-E7FF-0DBD-13F4AB3B5588ED1B" Title="Osteoporosis treatment: Medications can help" Url="http://www.mayoclinic.com/health/osteoporosis-treatment/WO00127" />
+		<LinkItem ContentType="Article" DocID="HQ00643" LinkType="Internal" ObjectID="39187AB8-CEFC-43C0-808D367B7CD35305" Title="Exercising with osteoporosis: Stay active the safe way" Url="http://www.mayoclinic.com/health/osteoporosis/HQ00643" />
+	</RelatedLinksBox>
+</Disease>

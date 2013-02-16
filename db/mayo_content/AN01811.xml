@@ -1,0 +1,117 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01811
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/multiple-sclerosis/AN01811
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-22
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2947" Title="Noninfectious inflammatory">
+						<Keyword MCVID="2952" Title="Demyelinating disease">
+							<Keyword MCVID="2955" Title="Multiple sclerosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E644F0FD-E7FF-0DBD-10A8A923CD123979
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				multiple sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				seizures
+			</MetaKeyword>
+			<MetaKeyword>
+				MS
+			</MetaKeyword>
+			<MetaKeyword>
+				ms
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Epileptic seizures appear to be three to six times more prevalent in those who have multiple sclerosis (MS) than in the general population (those who don&apos;t have MS). 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of seizures in people with multiple sclerosis isn&apos;t completely understood. In these individuals, seizures most likely result from lesions present in the cerebral cortex and adjacent white matter. However, other factors may play a role &amp;mdash; especially since such lesions are very common and seizures are unusual in multiple sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Seizures have been observed before and presumably marking the clinical onset of multiple sclerosis, and during acute bouts of MS. In some cases, seizures appear to be the only sign of a flare of MS, but the majority of seizures occur unrelated to such MS relapses. Currently there isn&apos;t general acceptance of seizures as the first and only sign of MS. 
+&lt;/p&gt;
+&lt;p&gt;
+Most seizures can be controlled with anti-seizure medication.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Multiple sclerosis: Can it cause seizures?
+	</Title>
+	<Abstract>
+		Seizures occur more often in people with multiple sclerosis than in the general population.
+	</Abstract>
+	<Question>
+		Is there any connection between multiple sclerosis and epilepsy?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00564" LinkType="Internal" ObjectID="D2402B6B-5C7C-484F-8D1FD5DB29D11345" Title="Demyelinating disease: What causes it?" Url="http://www.mayoclinic.com/health/demyelinating-disease/AN00564" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Answer" DocID="AN01894" LinkType="Internal" ObjectID="550D9F81-E7FF-0DBD-168904A516DF6B56" Title="Vitamin D and MS: Is there any connection?" Url="http://www.mayoclinic.com/health/vitamin-d-and-ms/AN01894" />
+		<LinkItem ContentType="Answer" DocID="AN01838" LinkType="Internal" ObjectID="10D40E65-E7FF-0DBD-1989C1E8EE4F9741" Title="Acetyl-L-carnitine: Can it relieve MS fatigue?" Url="http://www.mayoclinic.com/health/acetyl-l-carnitine/AN01838" />
+		<LinkItem ContentType="Disease" DocID="DS00188" LinkType="Internal" ObjectID="CEC491ED-C3B3-4B39-9E747386136032B4" Title="Multiple sclerosis" Url="http://www.mayoclinic.com/health/multiple-sclerosis/DS00188" />
+	</RelatedLinksBox>
+</Answer>

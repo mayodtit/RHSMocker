@@ -1,0 +1,199 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00093
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-function-tests/MY00093
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3652" Title="Digestive system">
+						<Keyword MCVID="3058" Title="Liver function tests" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B727321E-E7FF-0DBD-1CADFEB8D4A46579
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				liver function tests
+			</MetaKeyword>
+			<MetaKeyword>
+				elevated liver enzymes
+			</MetaKeyword>
+			<MetaKeyword>
+				high liver enzymes
+			</MetaKeyword>
+			<MetaKeyword>
+				liver panel
+			</MetaKeyword>
+			<MetaKeyword>
+				blood test liver function
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Liver function tests are blood tests used to help diagnose and monitor liver disease or damage. The tests measure the levels of certain enzymes and proteins in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Some of these tests measure how well the liver is performing its normal functions of producing protein and clearing bilirubin, a blood waste product. Other liver function tests measure enzymes that liver cells release in response to damage or disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Conditions other than liver disease or damage can lead to abnormal liver function test results. Test results can be normal in people who have liver disease or damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Liver function tests can be used to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Screen for liver infections, such as hepatitis&lt;/li&gt;
+	&lt;li&gt;Monitor the progression of a disease, such as viral or alcoholic hepatitis, and determine how well a treatment is working&lt;/li&gt;
+	&lt;li&gt;Measure the severity of a disease, particularly scarring of the liver (cirrhosis)&lt;/li&gt;
+	&lt;li&gt;Monitor possible side effects of medications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Liver function tests check the levels of certain enzymes and proteins in your blood. Levels that are higher or lower than normal can indicate liver problems. Some common liver function tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alanine transaminase&lt;/strong&gt;&lt;strong&gt; (ALT).&lt;/strong&gt; ALT is an enzyme found in the liver that helps your body metabolize protein. When the liver is damaged, ALT is released into the bloodstream and levels increase.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspartate transaminase&lt;/strong&gt;&lt;strong&gt; (AST).&lt;/strong&gt; AST is an enzyme that helps metabolize alanine, an amino acid. Like ALT, AST is normally present in blood at low levels. An increase in AST levels may indicate liver damage or disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alkaline phosphatase &lt;/strong&gt;&lt;strong&gt;(ALP).&lt;/strong&gt; ALP is an enzyme in the liver, bile ducts and bone. Higher than normal levels of ALP may indicate liver damage or disease, such as a blocked bile duct, or certain bone diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Albumin and total protein.&lt;/strong&gt; Albumin is one of several proteins made in the liver. Your body needs these proteins to fight infections and to perform other functions. Lower than normal levels of albumin and total protein may indicate liver damage or disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bilirubin.&lt;/strong&gt; Bilirubin is a substance produced during the normal breakdown of red blood cells. Bilirubin passes through the liver and is excreted in stool. Elevated levels of bilirubin (jaundice) may indicate liver damage or disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gamma-glutamyltransferase (GGT).&lt;/strong&gt; GGT is&lt;strong&gt; &lt;/strong&gt;an&lt;strong&gt; &lt;/strong&gt;enzyme in the blood. Higher than normal levels may indicate liver or bile duct damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;L-lactate dehydrogenase (LD).&lt;/strong&gt; LD is an enzyme found in the liver. Elevated levels may indicate liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prothrombin time (PT).&lt;/strong&gt; PT is the time it takes your blood to clot. Increased PT may indicate liver damage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The blood sample for liver function tests is usually taken from a vein in your arm. The main risk associated with blood tests is soreness or bruising at the site of the blood draw. Most people don&apos;t have serious reactions to having blood drawn. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain foods and medications may affect the results of your liver function tests. Your doctor will probably ask you to avoid eating food and taking some medications before your blood is drawn. The length of your fast and the medications you avoid depend on which liver function tests are being done. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the test&lt;/strong&gt; &lt;br /&gt;
+The blood sample for liver function tests is usually drawn through a small needle inserted into a vein in the bend of your arm. The needle is attached to a small tube, to collect your blood. You may feel a quick pain as the needle is inserted into your arm and experience some short-term discomfort at the site after the needle is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;/strong&gt; &lt;br /&gt;
+Your blood will be sent to a laboratory for analysis. If the lab analysis is done on-site, you could have your test results within hours. If your doctor sends your blood to an off-site laboratory, you may receive the results within several days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Normal blood test results for typical liver function tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;ALT.&lt;/strong&gt; 7 to 55 units per liter (U/L) &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;AST.&lt;/strong&gt; 8 to 48 U/L &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;ALP.&lt;/strong&gt; 45 to 115 U/L&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Albumin.&lt;/strong&gt; 3.5 to 5.0 grams per deciliter (g/dL)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Total protein.&lt;/strong&gt; 6.3 to 7.9 g/dL&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bilirubin.&lt;/strong&gt; 0.1 to 1.0 mg/dL &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;GGT.&lt;/strong&gt; 9 to 48 U/L &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;LD.&lt;/strong&gt; 122 to 222 U/L &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;PT.&lt;/strong&gt; 9.5 to 13.8 seconds &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These results are typical for adult men. Normal results may vary slightly from laboratory to laboratory, and be slightly different for women and children. Results may also be affected by certain foods or medications. Be sure to mention any foods or medications you&apos;ve eaten or taken so that your doctor can correctly interpret your results.
+&lt;/p&gt;
+&lt;p&gt;
+The farther from normal the test results are, the more likely you are to have significant liver disease. Your doctor will use these results to help determine any treatment that may be needed. If you already have liver disease, liver function tests can help determine how your disease is progressing and if you&apos;re responding to treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Liver function tests
+	</Title>
+	<Abstract>
+		Liver function tests &amp;mdash; Overview covers definition, results of these tests for liver disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00785" LinkType="Internal" ObjectID="FA6472B2-E7FF-0DBD-1DA99DD872473B71" Title="Alcoholic hepatitis" Url="http://www.mayoclinic.com/health/alcoholic-hepatitis/DS00785" />
+		<LinkItem ContentType="Disease" DocID="DS00604" LinkType="Internal" ObjectID="A4AFF83C-2A5D-9994-E3C9FA721C933D2B" Title="Primary biliary cirrhosis" Url="http://www.mayoclinic.com/health/primary-biliary-cirrhosis/DS00604" />
+		<LinkItem ContentType="Disease" DocID="DS00097" LinkType="Internal" ObjectID="7235BE2E-BEC1-40BE-971C851E75A0FDC5" Title="Hepatitis C" Url="http://www.mayoclinic.com/health/hepatitis-c/DS00097" />
+		<LinkItem ContentType="Disease" DocID="DS00397" LinkType="Internal" ObjectID="42A3E93F-CA58-4F25-AC0AA1B6D1E79A7E" Title="Hepatitis A" Url="http://www.mayoclinic.com/health/hepatitis-a/DS00397" />
+		<LinkItem ContentType="Disease" DocID="DS00398" LinkType="Internal" ObjectID="3D667EE6-C73C-4933-8C06F75454372E96" Title="Hepatitis B" Url="http://www.mayoclinic.com/health/hepatitis-b/DS00398" />
+		<LinkItem ContentType="Disease" DocID="DS00811" LinkType="Internal" ObjectID="0F04D08F-E7FF-0DBD-139CD14901A21D92" Title="Toxic hepatitis" Url="http://www.mayoclinic.com/health/toxic-hepatitis/DS00811" />
+	</RelatedLinksBox>
+</TestProcedure>

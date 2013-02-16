@@ -1,0 +1,357 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00350
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/non-hodgkins-lymphoma/DS00350
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-12
+		</UpdateDate>
+		<PublicationDate>
+			1999-06-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2146" Title="Lymphoma">
+						<Keyword MCVID="3740" Title="Non-hodgkin&apos;s lymphoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			70E97E5E-A99F-4E7F-B0F3C703097D591A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				non-hodgkins lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				non-Hodgkin&apos;s lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				non hodgkin
+			</MetaKeyword>
+			<MetaKeyword>
+				non hodgkins
+			</MetaKeyword>
+			<MetaKeyword>
+				non hodgkin&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				non-Hodgkin&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				non-Hodgkin
+			</MetaKeyword>
+			<MetaKeyword>
+				non-Hodgkins
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphatic cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphatic system
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphatic vessels
+			</MetaKeyword>
+			<MetaKeyword>
+				white blood cells
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphocytes
+			</MetaKeyword>
+			<MetaKeyword>
+				B cells
+			</MetaKeyword>
+			<MetaKeyword>
+				T cells
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph nodes
+			</MetaKeyword>
+			<MetaKeyword>
+				non hodgkin&apos;s lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphomia
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphoma symptoms
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Non-Hodgkin&apos;s lymphoma, also called non-Hodgkin lymphoma, is cancer that originates in your lymphatic system, the disease-fighting network spread throughout your body. In non-Hodgkin&apos;s lymphoma, tumors develop from lymphocytes &amp;mdash; a type of white blood cell. 
+&lt;/p&gt;
+&lt;p&gt;
+Non-Hodgkin&apos;s lymphoma is more common than the other general type of lymphoma &amp;mdash; Hodgkin lymphoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Many different subtypes of non-Hodgkin&apos;s lymphoma exist. The most common non-Hodgkin&apos;s lymphoma subtypes include diffuse large B-cell lymphoma and follicular lymphoma. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Non-Hodgkin&apos;s lymphoma symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swollen lymph nodes in your neck, armpits or groin&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or swelling&lt;/li&gt;
+	&lt;li&gt;Chest pain, coughing or trouble breathing&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs and symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t sure what causes non-Hodgkin&apos;s lymphoma. Non-Hodgkin&apos;s lymphoma occurs when your body produces too many abnormal lymphocytes &amp;mdash; a type of white blood cell. Normally, lymphocytes go through a predictable life cycle. Old lymphocytes die, and your body creates new ones to replace them. In non-Hodgkin&apos;s lymphoma, your lymphocytes don&apos;t die, but continue to grow and divide. This oversupply of lymphocytes crowds into your lymph nodes, causing them to swell. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;B cells and T cells&lt;/strong&gt; &lt;br /&gt;
+There are two types of lymphocytes, and non-Hodgkin&apos;s lymphoma usually involves one or the other. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;B cells.&lt;/strong&gt; B cells fight infection by producing antibodies that neutralize foreign invaders. Most non-Hodgkin&apos;s lymphoma arises from B cells. Subtypes of non-Hodgkin&apos;s lymphoma that involve B cells include diffuse large B-cell lymphoma, follicular lymphoma, mantle cell lymphoma and Burkitt lymphoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;T cells.&lt;/strong&gt; T cells are involved in killing foreign invaders directly. Non-Hodgkin&apos;s lymphoma occurs less often in T cells. Subtypes of non-Hodgkin&apos;s lymphoma that involve T cells include cutaneous T-cell lymphoma and anaplastic large cell lymphoma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Whether your non-Hodgkin&apos;s lymphoma arises from your B cells or T cells helps to determine your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Where non-Hodgkin&apos;s lymphoma occurs&lt;/strong&gt; &lt;br /&gt;
+Non-Hodgkin&apos;s lymphoma generally involves the presence of cancerous lymphocytes in your lymph nodes, but the disease can also spread to other parts of your lymphatic system. These include the lymphatic vessels, tonsils, adenoids, spleen, thymus and bone marrow. Occasionally, non-Hodgkin&apos;s lymphoma involves organs outside of your lymphatic system. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, people diagnosed with non-Hodgkin&apos;s lymphoma don&apos;t have any obvious risk factors, and many people who have risk factors for the disease never develop it. Some factors that may increase the risk of non-Hodgkin&apos;s lymphoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that suppress your immune system.&lt;/strong&gt; If you&apos;ve had an organ transplant, you&apos;re more susceptible because immunosuppressive therapy has reduced your body&apos;s ability to fight off new illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection with certain viruses and bacteria.&lt;/strong&gt; Certain viral and bacterial infections appear to increase the risk of non-Hodgkin&apos;s lymphoma. Viruses linked to increased non-Hodgkin&apos;s lymphoma risk include HIV and Epstein-Barr virus. Bacteria linked to an increased risk of non-Hodgkin&apos;s lymphoma include the ulcer-causing Helicobacter pylori.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemicals.&lt;/strong&gt; Certain chemicals, such as those used to kill insects and weeds, may increase your risk of developing non-Hodgkin&apos;s lymphoma. More research is needed to understand the possible link between pesticides and the development of non-Hodgkin&apos;s lymphoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Non-Hodgkin&apos;s lymphoma can occur at any age, but the risk increases with age. It&apos;s most common in people in their 60s or older.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or a general practitioner if you have any signs or symptoms that worry you. If your doctor suspects you have non-Hodgkin&apos;s lymphoma, you may be referred to a doctor who specializes in diseases that affect the blood cells (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For non-Hodgkin&apos;s lymphoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have non-Hodgkin&apos;s lymphoma?&lt;/li&gt;
+	&lt;li&gt;What type of non-Hodgkin&apos;s lymphoma do I have?&lt;/li&gt;
+	&lt;li&gt;What stage is my non-Hodgkin&apos;s lymphoma?&lt;/li&gt;
+	&lt;li&gt;Is my non-Hodgkin&apos;s lymphoma aggressive or slow growing?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my daily life? Can I continue working?&lt;/li&gt;
+	&lt;li&gt;How long will treatment last?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;If you had a friend or loved one in my situation, what advice would you give that person?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions as they come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose non-Hodgkin&apos;s lymphoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor may conduct a physical exam to determine the size and condition of your lymph nodes and to find out whether your liver and spleen are enlarged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; Swollen lymph nodes are common and most often signal that your body is fighting an infection. Blood and urine tests may help rule out an infection or other disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; An X-ray or computerized tomography (CT) scan of your chest, neck, abdomen and pelvis may detect the presence and size of tumors. Magnetic resonance imaging (MRI) scans can help your doctor determine whether your brain and spinal cord are affected. Doctors also use positron emission tomography (PET) scanning to detect non-Hodgkin&apos;s lymphoma. Imaging tests can help determine the stage of your lymphoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of lymph node tissue for testing.&lt;/strong&gt; Your doctor may recommend a biopsy procedure to sample or remove a lymph node for testing. Analyzing lymph node tissue in a laboratory may reveal whether you have non-Hodgkin&apos;s lymphoma and, if so, which type. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Looking for cancer cells in your bone marrow.&lt;/strong&gt; To find out whether the disease has spread, your doctor may request a biopsy of your bone marrow. This involves inserting a needle into your pelvic bone to obtain a sample of bone marrow.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor determines your treatment options based on the type and stage of your lymphoma, your age, and your overall health. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment isn&apos;t always necessary&lt;/strong&gt; &lt;br /&gt;
+If your lymphoma appears to be slow growing (indolent), a wait-and-see approach may be an option. Indolent lymphomas that don&apos;t cause signs and symptoms may not require treatment for years. 
+&lt;/p&gt;
+&lt;p&gt;
+Delaying treatment doesn&apos;t mean you&apos;ll be on your own. Your doctor will likely schedule regular checkups every few months to monitor your condition and ensure that your cancer isn&apos;t advancing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for lymphoma that causes signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If your non-Hodgkin&apos;s lymphoma is aggressive or causes signs and symptoms, your doctor may recommend treatment. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy is drug treatment &amp;mdash; given orally or by injection &amp;mdash; that kills cancer cells. Chemotherapy drugs can be given alone, in combination with other chemotherapy drugs or combined with other treatments. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancerous cells and shrink tumors. During radiation therapy, you&apos;re positioned on a table and a large machine directs radiation at precise points on your body. Radiation therapy can be used alone or in combination with other cancer treatments. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cell transplant.&lt;/strong&gt; A stem cell transplant is a procedure that allows you to receive higher doses of chemotherapy or radiation with the goal of killing the lymphoma cells that may not be killed with standard doses. Before a stem cell transplant, healthy stem cells &amp;mdash; those capable of producing new blood cells &amp;mdash; are taken from your blood or bone marrow and frozen. These healthy stem cells can also come from a related or unrelated donor. After you undergo very high doses of chemotherapy to kill the lymphoma, the healthy stem cells are thawed and injected into your body, where they can form healthy new blood cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that enhance your immune system&apos;s ability to fight cancer.&lt;/strong&gt; Biological drugs help your body&apos;s immune system fight cancer. Rituximab (Rituxan) is approved by the Food and Drug Administration (FDA) for the treatment of B-cell lymphoma. Rituximab is a type of monoclonal antibody that attaches to B cells and makes them more visible to the immune system, which can then attack. Rituximab lowers the number of B cells, including your healthy B cells, but your body produces new healthy B cells to replace these. The cancerous B cells are less likely to recur. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that deliver radiation directly to cancer cells.&lt;/strong&gt; Radioimmunotherapy drugs are made of monoclonal antibodies that carry radioactive isotopes. This allows the antibody to attach to cancer cells and deliver radiation directly to the cells. Two radioimmunotherapy drugs &amp;mdash; ibritumomab (Zevalin) and tositumomab (Bexxar) &amp;mdash; are FDA approved for use in people with lymphoma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of cancer can be overwhelming. With time you&apos;ll find ways to cope with the distress and uncertainty of cancer. Until then, you may find it helps to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about your cancer to make decisions about your care.&lt;/strong&gt; Find out more about your cancer in order to help you make treatment decisions. Ask your doctor for the type and stage of your cancer, as well as your treatment options and their side effects. Ask your doctor where you can go for more information. Good places to start include the National Cancer Institute and the Leukemia &amp; Lymphoma Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Build a strong support system.&lt;/strong&gt; Having a support system of close friends and family may help you cope. Though you may feel tempted to keep to yourself, be open with your loved ones. Friends will ask you if there&apos;s anything they can do to help you. Think of requests ahead of time, such as preparing meals or just being there to talk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; Sometimes you&apos;ll feel as if your friends and family can&apos;t understand what you&apos;re going through. In these cases, other cancer survivors can offer support and practical information. You may also find you develop deep and lasting bonds with people who are going through the same things you are. Ask your doctor about support groups in your area. Or go to online message boards, such as those offered by the Leukemia &amp; Lymphoma Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work at least part time. In fact, many people find that continuing to work can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan ahead for when you may need to rest more or limit what you do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Receiving a diagnosis of cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. Stay involved as much as you can.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Look for a connection to something beyond yourself.&lt;/strong&gt; Having a strong faith or a sense of something greater than yourself may help you cope with having cancer. It may also help you maintain a more positive attitude as you face the challenge of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Non-Hodgkin&apos;s lymphoma
+	</Title>
+	<Abstract>
+		Non-Hodgkin&apos;s lymphoma &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this lymphatic system cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01209" LinkType="Internal" ObjectID="80D3200A-46A0-4CB0-B66A8313EAD4E447" Title="Hodgkin&apos;s vs. non-Hodgkin&apos;s lymphoma" Url="http://www.mayoclinic.com/health/lymphoma/AN01209" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00381" LinkType="Internal" ObjectID="6E26FB6E-E7FF-0DBD-19857255671C715E" Title="Hematocrit test" Url="http://www.mayoclinic.com/health/hematocrit/MY00381" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,279 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00536
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chemotherapy/MY00536
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-05
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3719" Title="Chemotherapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			001C048C-C6B3-471D-CEDCB0E94EC18648
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chemotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				chemo
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				chemotherapy treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				chemotherapy drugs
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer chemotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				chemotherapy side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				chemotherapy effects
+			</MetaKeyword>
+			<MetaKeyword>
+				chemo therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				chemo side effects
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chemotherapy is a drug treatment that uses powerful chemicals to kill fast-growing cells in your body. Chemotherapy is most often used to treat cancer, since cancer cells grow and multiply much more quickly than most cells in the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Many different chemotherapy drugs are available. Chemotherapy drugs can be used alone or in combination to treat a wide variety of cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+Though chemotherapy is an effective way to treat many types of cancer, chemotherapy treatment also carries a risk of side effects. Some chemotherapy side effects are mild and treatable, while others can cause serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In people with cancer, chemotherapy may be used: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;To kill cancer cells.&lt;/strong&gt; Chemotherapy can be used as the primary or sole treatment for cancer. In some cases, chemotherapy is used with the goal of curing your cancer. In other cases, chemotherapy may be used with the aim of slowing the cancer&apos;s growth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;After other treatments to kill hidden cancer cells.&lt;/strong&gt; Chemotherapy can be used after other treatments, such as surgery, to kill any cancer cells that might remain in the body. Doctors call this adjuvant therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To prepare you for other treatments.&lt;/strong&gt; Chemotherapy can be used to shrink a tumor so that other treatments, such as radiation and surgery, are possible. Doctors call this neoadjuvant therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To ease signs and symptoms.&lt;/strong&gt; Chemotherapy may help relieve signs and symptoms of advanced cancer, such as pain. This is called palliative chemotherapy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy for conditions other than cancer&lt;/strong&gt; &lt;br /&gt;
+Some chemotherapy drugs have proved useful in treating other conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow diseases.&lt;/strong&gt; Diseases that affect the bone marrow and blood cells may be treated with a bone marrow stem cell transplant. Chemotherapy is often used to prepare for a bone marrow stem cell transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system disorders.&lt;/strong&gt; Lower doses of chemotherapy drugs can help control the immune system in certain diseases, such as lupus and rheumatoid arthritis. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Side effects of chemotherapy drugs can be significant. Each drug has different side effects. Ask your doctor about the side effects of the particular drugs you&apos;ll receive. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Side effects that occur during chemotherapy treatment&lt;/strong&gt; &lt;br /&gt;
+More common side effects of chemotherapy drugs that can occur during treatment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Hair loss&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Mouth sores&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Easy bruising&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many of these side effects can be prevented or treated. Most side effects subside after treatment ends. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-lasting and late-developing side effects&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy drugs can also cause side effects that don&apos;t become evident until months or years after treatment. Late side effects vary depending on the chemotherapy drug, but can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Damage to lung tissue&lt;/li&gt;
+	&lt;li&gt;Heart problems&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;Kidney problems&lt;/li&gt;
+	&lt;li&gt;Nerve damage (peripheral neuropathy)&lt;/li&gt;
+	&lt;li&gt;Risk of a second cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your doctor if you have a risk of any late side effects. Ask what signs and symptoms you should be alert for that may signal a problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How you prepare for chemotherapy depends on which drugs you&apos;ll receive and how they&apos;ll be administered. Your doctor will give you specific instructions to prepare for your chemotherapy treatments. You may need to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have a device surgically inserted before intravenous chemotherapy.&lt;/strong&gt; If you&apos;ll be receiving your chemotherapy intravenously &amp;mdash; into a vein &amp;mdash; your doctor may recommend a device, such as a catheter, port or pump. The catheter or other device is surgically implanted into a large vein, usually in your chest. Chemotherapy drugs can be given through the device.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have your blood tested for certain genes.&lt;/strong&gt; People with certain genes in their cells may process some chemotherapy drugs differently from people without these genes. This can cause additional side effects. For this reason, your doctor may recommend a blood test to look for genes that indicate certain drugs should be avoided or given in altered doses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Undergo tests and procedures to make sure you&apos;re healthy enough for chemotherapy.&lt;/strong&gt; Blood tests to check liver function and heart tests to check for heart health can determine whether you&apos;re healthy enough to begin chemotherapy. If there&apos;s a problem, your doctor may delay your treatment or select a chemotherapy drug and dosage that&apos;s safer for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;See your dentist.&lt;/strong&gt; Your doctor may recommend that a dentist check your teeth for signs of infection. Treating existing infections may reduce the risk of complications during chemotherapy treatment, since chemotherapy reduces your body&apos;s ability to fight infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan ahead for side effects.&lt;/strong&gt; Ask your doctor what side effects you can expect during and after chemotherapy and make appropriate arrangements. For instance, if your chemotherapy treatment will cause infertility, you may wish to store sperm or fertilized eggs for future use. If your chemotherapy will cause hair loss, consider planning for a head covering.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make arrangements for help at home and at work.&lt;/strong&gt; Most chemotherapy treatments are given in an outpatient clinic, which means most people are able to continue working and doing their usual activities during chemotherapy. Your doctor can tell you in general how much the chemotherapy will affect your usual activities, but it&apos;s difficult to predict exactly how you&apos;ll feel. Plan ahead by asking for time off work or help around the house for the first few days after treatment. If you&apos;ll be in the hospital during chemotherapy treatment, make arrangements to take time off work and find a friend or family member to take care of your children, pets or home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare for your first treatment.&lt;/strong&gt; Arrive for your first chemotherapy treatment well rested. Eat a light meal beforehand in case your chemotherapy medications cause nausea. Have a friend or family member drive you to your first treatment. Most people can drive themselves to and from chemotherapy sessions. But the first time you may find that the medications make you sleepy or cause other side effects that make driving difficult.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Determining which chemotherapy drugs you&apos;ll receive&lt;/strong&gt; &lt;br /&gt;
+Your doctor chooses which chemotherapy drugs you&apos;ll receive based on several factors, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Type of cancer&lt;/li&gt;
+	&lt;li&gt;Stage of cancer&lt;/li&gt;
+	&lt;li&gt;Overall health&lt;/li&gt;
+	&lt;li&gt;Previous cancer treatments&lt;/li&gt;
+	&lt;li&gt;Your goals and preferences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss your treatment options with your doctor. Together you can decide what&apos;s right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How chemotherapy drugs are given&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy drugs can be given in different ways, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy creams.&lt;/strong&gt; Creams or gels containing chemotherapy drugs can be applied to the skin to treat certain types of skin cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy drugs used to treat one area of the body.&lt;/strong&gt; Chemotherapy drugs can be given directly to one area of the body. For instance, chemotherapy drugs can be given directly in the abdomen (intraperitoneal chemotherapy), chest cavity (intrapleural chemotherapy) or central nervous system (intrathecal chemotherapy). Chemotherapy can also be given through the urethra into the bladder (intravesical chemotherapy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy given directly to the cancer.&lt;/strong&gt; Chemotherapy can be given directly to the cancer or, after surgery, where the cancer once was. For instance, chemotherapy drugs can be injected into a tumor. Or thin disk-shaped wafers containing chemotherapy drugs can be placed near a tumor during surgery. The wafers break down over time, releasing chemotherapy drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy infusions.&lt;/strong&gt; Chemotherapy is most often given as an infusion into a vein (intravenously). The drugs can be given by inserting a tube with a needle into a vein in your arm or into a device in a vein in your chest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy pills.&lt;/strong&gt; Some chemotherapy drugs can be taken in pill or capsule form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy shots.&lt;/strong&gt; Chemotherapy drugs can be injected with a needle, just as you would receive a shot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How often you receive chemotherapy treatments&lt;/strong&gt; &lt;br /&gt;
+Your doctor determines how often you&apos;ll receive chemotherapy treatments based on what drugs you&apos;ll receive, the characteristics of your cancer and how well your body recovers after each treatment. Chemotherapy treatment schedules vary. Chemotherapy treatment can be continuous or it may alternate between periods of treatment and periods of rest to let you recover. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Where you receive chemotherapy treatments&lt;/strong&gt; &lt;br /&gt;
+Where you&apos;ll receive your chemotherapy treatments depends on your situation. Chemotherapy treatments can be given: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;At home&lt;/li&gt;
+	&lt;li&gt;In a doctor&apos;s office&lt;/li&gt;
+	&lt;li&gt;In the hospital&lt;/li&gt;
+	&lt;li&gt;In an outpatient chemotherapy unit&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll meet with your cancer doctor (oncologist) regularly during chemotherapy treatment. Your oncologist will ask about any side effects you&apos;re experiencing, since many can be controlled. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your situation, you may also undergo scans and other tests to monitor your cancer during chemotherapy treatment. These tests can give your doctor an idea of how your cancer is responding to treatment, and your treatment may be adjusted accordingly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chemotherapy
+	</Title>
+	<Abstract>
+		Chemotherapy &amp;mdash; Overview covers definition, risks, what to expect during cancer chemotherapy treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="Answer" DocID="AN01407" LinkType="Internal" ObjectID="D02CD117-E7FF-0DBD-1B172C8988F7AFB1" Title="Chemotherapy side effects: A cause of heart disease?" Url="http://www.mayoclinic.com/health/chemotherapy-side-effects/AN01407" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="Video" DocID="MM00781" LinkType="Internal" ObjectID="326F4A39-AAE6-1726-5451D1A058D6D11F" Title="Video: PICC line placement" Url="http://www.mayoclinic.com/health/picc-line-placement/MM00781" />
+		<LinkItem ContentType="Article" DocID="HQ01135" LinkType="Internal" ObjectID="C596EDA8-DEBC-444F-B01153A818A2C304" Title="Eating during cancer treatment: Tips to make food tastier" Url="http://www.mayoclinic.com/health/cancer/HQ01135" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="SA00070" LinkType="Internal" ObjectID="50A88AAB-332D-4808-88247DA44ACE9849" Title="Cancer treatment for men: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00070" />
+		<LinkItem ContentType="Answer" DocID="AN01936" LinkType="Internal" ObjectID="90EEBF57-E7FF-0DBD-1FBAF84824FE39B1" Title="Chemotherapy and sex: Is sexual activity OK during treatment?" Url="http://www.mayoclinic.com/health/chemotherapy-and-sex/AN01936" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="Answer" DocID="AN02024" LinkType="Internal" ObjectID="144C8942-FC9E-A9FD-0C8694428EDF9B0B" Title="Magic mouthwash: Effective for chemotherapy mouth sores?" Url="http://www.mayoclinic.com/health/magic-mouthwash/AN02024" />
+		<LinkItem ContentType="Disease" DocID="DS01109" LinkType="Internal" ObjectID="EAE2DEEA-E7FF-0DBD-1057144038EA6323" Title="Chemo brain" Url="http://www.mayoclinic.com/health/chemo-brain/DS01109" />
+		<LinkItem ContentType="Disease" DocID="DS01076" LinkType="Internal" ObjectID="63426615-E7FF-0DBD-1994B85EEA8B6116" Title="Cancer" Url="http://www.mayoclinic.com/health/cancer/DS01076" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Article" DocID="CA00030" LinkType="Internal" ObjectID="C2D1AB8B-565E-4B0B-9C34BEF4FE8ECA63" Title="Chemotherapy nausea and vomiting: Prevention is best defense" Url="http://www.mayoclinic.com/health/cancer/CA00030" />
+		<LinkItem ContentType="Article" DocID="CA00037" LinkType="Internal" ObjectID="A1678D65-8474-4028-85679F53CFE96FD5" Title="Chemotherapy and hair loss: What to expect during treatment" Url="http://www.mayoclinic.com/health/hair-loss/CA00037" />
+	</RelatedLinksBox>
+</TestProcedure>

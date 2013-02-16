@@ -1,0 +1,193 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00518
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00518
+		</OriginalURL>
+		<UpdateDate>
+			2010-07-31
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			C0141E33-00F6-43C2-B6E137DD02FC1A5D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Hot ham and cheese sandwiches with mushrooms
+	</Title>
+	<Abstract>
+		Hot ham and cheese sandwiches with mushrooms &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; These broiled, open-faced sandwiches are great options for a quick lunch or light dinner. Instead of ham, substitute thinly sliced roasted turkey or beef for a lower-sodium alternative. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the broiler. Position the rack 4 inches from the heat source. Lightly coat a baking sheet with cooking spray. In a small bowl, mix together the mayonnaise and mustard. Place the slices of bread on the prepared baking sheet. Spread half of the mayonnaise mixture on each slice. Top each with 2 ounces ham, 1 slice onion, 1/2 of the mushrooms and 1 ounce cheese. Broil the open-faced sandwiches until the cheese is melted and slightly browned, about 3 minutes. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 tablespoons fat-free mayonnaise&lt;/li&gt;
+	&lt;li&gt;2 teaspoons Dijon mustard&lt;/li&gt;
+	&lt;li&gt;2 slices rye bread&lt;/li&gt;
+	&lt;li&gt;4 ounces thinly sliced ham&lt;/li&gt;
+	&lt;li&gt;2 slices red onion&lt;/li&gt;
+	&lt;li&gt;1 can (4 ounces) sliced mushrooms, drained and patted dry&lt;/li&gt;
+	&lt;li&gt;2 ounces low-fat Swiss cheese, thinly sliced&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				1/2
+			</Dairy>
+			<Fats Label="Fats and oils">
+				1/2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1/2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1 1/2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				247
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				24 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				37 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				24 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 open-faced sandwich
+			</Servingsize>
+			<Sodium Label="Sodium">
+				1,553 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Course">
+			Sandwiches
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

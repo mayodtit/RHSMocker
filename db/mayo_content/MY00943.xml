@@ -1,0 +1,334 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00943
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mastectomy/MY00943
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-26
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="3720" Title="Mastectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A9F2265B-9D76-DEAE-00E62CDCACE080A8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				breast removal
+			</MetaKeyword>
+			<MetaKeyword>
+				modified radical mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				bilateral mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				simple mastecomy
+			</MetaKeyword>
+			<MetaKeyword>
+				total mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				skin-sparing mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				nipple-sparing mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				subcutaneous mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				double mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				preventive mastectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mastectomy is surgery to remove all breast tissue from a breast as a way to treat or prevent breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+For those with early-stage breast cancer, mastectomy may be one treatment option. Breast-conserving surgery (lumpectomy), in which only the tumor is removed from the breast, may be another option. Deciding between mastectomy and lumpectomy can be difficult. Both procedures are equally effective. But lumpectomy isn&apos;t an option for everyone with breast cancer, and others prefer to undergo a mastectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+Newer mastectomy techniques can preserve breast skin and allow for a more natural breast appearance following the procedure. Surgery to restore shape to your breast &amp;mdash; called breast reconstruction &amp;mdash; may be done at the same time as your mastectomy or during a second operation at a later date. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="60" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/thumbs/hdg7_simplemastectomythu.jpg" Width="60" />
+				<Image Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="281" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/hdg7_simplemastectomy.jpg" Width="400" />
+				<HTML>
+					A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mastectomy is used to remove all breast tissue if you have breast cancer or are at especially high risk of developing it. You may have a mastectomy to remove one breast (unilateral mastectomy) or both breasts (bilateral mastectomy). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mastectomy for breast cancer treatment&lt;/strong&gt; &lt;br /&gt;
+Mastectomy may be a treatment option for many types of breast cancer, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ductal carcinoma in situ (DCIS), or noninvasive breast cancer&lt;/li&gt;
+	&lt;li&gt;Stages 1 and 2 (early-stage) breast cancer&lt;/li&gt;
+	&lt;li&gt;Stage 3 (locally advanced) breast cancer &amp;mdash; most often after chemotherapy to shrink the tumor&lt;/li&gt;
+	&lt;li&gt;Inflammatory breast cancer &amp;mdash; most often after chemotherapy&lt;/li&gt;
+	&lt;li&gt;Paget&apos;s disease of the breast&lt;/li&gt;
+	&lt;li&gt;Locally recurrent breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may recommend mastectomy instead of lumpectomy plus radiation if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have two or more tumors in separate areas of the breast.&lt;/li&gt;
+	&lt;li&gt;You have widespread or malignant-appearing calcium deposits (microcalcifications) throughout the breast that have been determined to be cancer after a breast biopsy.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve previously had radiation treatment to the breast region and the breast cancer has recurred in the breast.&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant and radiation creates an unacceptable risk to your unborn child.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had lumpectomy, but cancer is still present at the edges (margin) of the operated area and there is concern about cancer elsewhere in the breast.&lt;/li&gt;
+	&lt;li&gt;You carry a gene mutation that gives you a high risk of developing a second cancer in your breast.&lt;/li&gt;
+	&lt;li&gt;You have a large tumor relative to the overall size of your breast. You may not have enough healthy tissue left after lumpectomy to achieve an acceptable cosmetic result.&lt;/li&gt;
+	&lt;li&gt;You have a connective tissue disease, such as scleroderma or lupus, and may not tolerate the side effects of radiation to the skin.&lt;/li&gt;
+	&lt;li&gt;You live a long distance from a radiation facility and it would be very difficult to be there for treatment over an extended period of time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Mastectomy to prevent breast cancer&lt;/strong&gt; &lt;br /&gt;
+You might also consider mastectomy if you don&apos;t have breast cancer, but have a very high risk of developing the disease. Preventive (prophylactic) or risk-reducing mastectomy involves removing both of your breasts and significantly reduces your risk of developing breast cancer in the future. Prophylactic mastectomy is reserved for women with a very high risk of breast cancer, which is determined by a strong family history of breast cancer or the presence of certain genetic mutations that increase the risk of breast cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risks of mastectomy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Swelling (lymphedema) in your arm&lt;/li&gt;
+	&lt;li&gt;Formation of hard scar tissue at the surgical site&lt;/li&gt;
+	&lt;li&gt;Shoulder pain and stiffness&lt;/li&gt;
+	&lt;li&gt;Numbness, particularly under your arm, from lymph node removal&lt;/li&gt;
+	&lt;li&gt;Buildup of blood in the surgical site (hematoma)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Meet with your surgeon to discuss your options&lt;/strong&gt; &lt;br /&gt;
+Before your surgery, you&apos;ll meet with a surgeon and an anesthesiologist to discuss your operation, review your medical history and determine the plan for your anesthesia. This is a good time to ask questions and to make sure you understand the procedure, including the reasons for and risks of the surgery. One issue to discuss is whether you&apos;ll have breast reconstruction and when. One option may be to have the reconstruction done immediately after your mastectomy, while you&apos;re still anesthetized. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast reconstruction may involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using breast expanders or gel or silicone implants&lt;/li&gt;
+	&lt;li&gt;Using your body&apos;s own tissue (autologous tissue reconstruction)&lt;/li&gt;
+	&lt;li&gt;Using a combination of tissue reconstruction and implants&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Breast reconstruction is a complex procedure performed by a plastic surgeon, also called a reconstructive surgeon. If you&apos;re planning breast reconstruction at the same time as mastectomy, you&apos;ll meet with the plastic surgeon before the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for your surgery&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll be given instructions about any restrictions before surgery and other things you need to know, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tell your doctor about any medications, vitamins or supplements you&apos;re taking.&lt;/strong&gt; Some substances could interfere with the surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking aspirin or other blood-thinning medication.&lt;/strong&gt; A week or longer before your surgery, avoid medications that can increase your risk of excessive bleeding. These include aspirin, ibuprofen (Advil, Motrin, others) and other pain relievers, and blood-thinning medications (anticoagulants), such as warfarin (Coumadin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t eat or drink 8 to 12 hours before surgery.&lt;/strong&gt; You&apos;ll receive specific instructions from your health care team.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare for a hospital stay.&lt;/strong&gt; Ask your doctor how long to expect to stay in the hospital. Bring a robe and slippers to help make you more comfortable in the hospital. Pack a bag with your toothbrush and something to help you pass the time, such as a book.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mastectomy is an umbrella term used for several different procedures. In addition to removing one or both breasts, mastectomy may also include removing lymph nodes in the armpit area to determine whether the cancer has spread. For an axillary node dissection, the surgeon removes a number of nodes from your armpit on the side of the tumor. In a sentinel lymph node biopsy, your surgeon removes only the first one or two nodes into which a tumor drains (sentinel nodes). These are then tested for cancer. If no cancer is present, no further lymph nodes need be removed. If cancer is present, the surgeon will remove more lymph nodes in the armpit. 
+&lt;/p&gt;
+&lt;p&gt;
+The different types of mastectomy are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Modified radical mastectomy.&lt;/strong&gt; A modified radical mastectomy involves removal of the entire breast, including the breast tissue, skin, areola and nipple. The lining over the chest muscles and sometimes part of the chest wall is also removed, as well as most of the underarm lymph nodes (complete axillary node dissection). This procedure may be recommended for large tumors or if the cancer has spread to the lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Simple (total) mastectomy.&lt;/strong&gt; A simple mastectomy involves removal of the entire breast, including the breast tissue, skin, areola and nipple. A sentinel lymph node biopsy may be done at the time of a simple mastectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin-sparing mastectomy.&lt;/strong&gt; A skin-sparing mastectomy involves removal of all the breast tissue, nipple and areola, but not the breast skin. Breast reconstruction is performed immediately after the mastectomy. Skin-sparing mastectomy may not be suitable for larger tumors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nipple-sparing (subcutaneous) mastectomy.&lt;/strong&gt; A nipple-sparing mastectomy involves removal of only breast tissue, sparing the skin, nipple, areola and chest wall muscles. A sentinel lymph node biopsy also may be done. Breast reconstruction is performed immediately afterward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Before the procedure&lt;/strong&gt; &lt;br /&gt;
+Your doctor or nurse will tell you when to arrive at the hospital. Mastectomy without reconstruction usually takes one to three hours. It usually requires a one- to two-day hospital stay, although more and more people are going home on the same day as the operation. If you&apos;re having both breasts removed (double mastectomy), expect to spend more time in surgery and possibly more time in the hospital. If you&apos;re having breast reconstruction following mastectomy, the procedure also takes longer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having sentinel node biopsy, before your surgery a radioactive substance or blue dye or both will be injected into the area around the tumor or the skin above the tumor. The dye will travel to the sentinel node or nodes, allowing your doctor to see where they are and remove them during surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+Mastectomy is usually performed under general anesthesia, so you&apos;re not aware during the surgery. Your surgeon starts by making an elliptical incision around your breast. The breast tissue is removed and, depending on your procedure, other parts of the breast may also be removed. Regardless of the type of mastectomy you have, some breast tissue and lymph nodes will be sent to a laboratory for analysis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having breast reconstruction at the same time as mastectomy, the plastic surgeon will coordinate with the breast surgeon to be available at the time of surgery. One option for breast reconstruction involves placing temporary tissue expanders behind the chest wall muscle. These temporary expanders will form the new breast mound. 
+&lt;/p&gt;
+&lt;p&gt;
+For women who will have radiation therapy after surgery, one option is to place temporary tissue expanders in the chest to hold the breast skin in place. This allows you to delay final breast reconstruction until after radiation therapy. If you&apos;re planning to have radiation therapy after surgery, meet with a radiation oncologist before surgery to discuss benefits and risks, as well as how radiation will impact your breast reconstruction options. 
+&lt;/p&gt;
+&lt;p&gt;
+As the surgery is completed, the incision is closed with sutures (stitches), which either dissolve or are removed later. You might also have one or two small plastic tubes placed where your breast was removed. The tubes will drain any fluids that accumulate after surgery. The tubes are sewn into place, and the ends are attached to a small drainage bag. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After your surgery, you can expect to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be taken to a recovery room where your blood pressure, pulse and breathing are monitored &lt;/li&gt;
+	&lt;li&gt;Have a dressing (bandage) over the surgery site&lt;/li&gt;
+	&lt;li&gt;Feel some pain, numbness and a pinching sensation in your underarm area&lt;/li&gt;
+	&lt;li&gt;Receive instructions on how to care for yourself at home, including taking care of your incision and drains, recognizing signs of infection and understanding activity restrictions&lt;/li&gt;
+	&lt;li&gt;Talk with your health care team about when to resume wearing a bra or wearing a breast prosthesis&lt;/li&gt;
+	&lt;li&gt;Be given prescriptions for pain medication and possibly an antibiotic&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="60" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/thumbs/hdg7_simplemastectomythu.jpg" Width="60" />
+				<Image Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="281" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/hdg7_simplemastectomy.jpg" Width="400" />
+				<HTML>
+					A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The results of your pathology report should be available within a week or two after your mastectomy. At your follow-up visit, your doctor can explain the report. 
+&lt;/p&gt;
+&lt;p&gt;
+If you need more treatment, your doctor may refer you to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A radiation oncologist&lt;/strong&gt; to discuss radiation treatments, which may be recommended if you had a large tumor, many lymph nodes that tested positive for cancer, cancer that had spread into the skin or nipple, or cancer remaining after mastectomy&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A medical oncologist&lt;/strong&gt; to discuss other forms of treatment after the operation, such as hormone therapy if your cancer is sensitive to hormones or chemotherapy or both &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A plastic surgeon,&lt;/strong&gt; if you&apos;re considering breast reconstruction&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A counselor or support group&lt;/strong&gt; to help you cope with having breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mastectomy
+	</Title>
+	<Abstract>
+		Mastectomy &amp;mdash; Overview covers definition, preparation, risks of this breast cancer surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00207" LinkType="Internal" ObjectID="8E7092D1-E7FF-0DBD-1B3F9BA46D4D8023" Title="Breast reconstruction with breast implants" Url="http://www.mayoclinic.com/health/breast-reconstruction/MY00207" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00173" LinkType="Internal" ObjectID="26F83C24-E7FF-0DBD-16C012E1561E8DE5" Title="Breast reconstruction with flap surgery" Url="http://www.mayoclinic.com/health/breast-reconstruction/MY00173" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Answer" DocID="AN02096" LinkType="Internal" ObjectID="D116CDBC-EB60-DD52-8AD17BCE9056CC2D" Title="Coping with pain after breast surgery" Url="http://www.mayoclinic.com/health/pain-after-breast-surgery/AN02096" />
+		<LinkItem ContentType="Disease" DocID="DS00609" LinkType="Internal" ObjectID="DD007BDD-2A5D-9994-E86567A80A01CB2D" Title="Lymphedema" Url="http://www.mayoclinic.com/health/lymphedema/DS00609" />
+		<LinkItem ContentType="Disease" DocID="DS00983" LinkType="Internal" ObjectID="DCA93907-E7FF-0DBD-1EDD50CA078CDD6B" Title="Ductal carcinoma in situ (DCIS)" Url="http://www.mayoclinic.com/health/dcis/DS00983" />
+		<LinkItem ContentType="Disease" DocID="DS00982" LinkType="Internal" ObjectID="DCA83D82-E7FF-0DBD-1CFB8E2FE5F7F28A" Title="Lobular carcinoma in situ (LCIS)" Url="http://www.mayoclinic.com/health/lobular-carcinoma-in-situ/DS00982" />
+		<LinkItem ContentType="Disease" DocID="DS00661" LinkType="Internal" ObjectID="D3C03709-2A5D-9994-EA5C9810D4BCB23B" Title="Male breast cancer" Url="http://www.mayoclinic.com/health/male-breast-cancer/DS00661" />
+		<LinkItem ContentType="Disease" DocID="DS01063" LinkType="Internal" ObjectID="C6FAE4FF-E7FF-0DBD-17689854551C4D1F" Title="Invasive lobular carcinoma" Url="http://www.mayoclinic.com/health/invasive-lobular-carcinoma/DS01063" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS01078" LinkType="Internal" ObjectID="7C12DB3F-E7FF-0DBD-1CCC1AAA05FF4A5D" Title="Recurrent breast cancer" Url="http://www.mayoclinic.com/health/recurrent-breast-cancer/DS01078" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+		<LinkItem ContentType="Disease" DocID="DS00771" LinkType="Internal" ObjectID="31E48157-E7FF-0DBD-11978FEF0B3988C2" Title="Paget&apos;s disease of the breast" Url="http://www.mayoclinic.com/health/pagets-disease-of-the-breast/DS00771" />
+		<LinkItem ContentType="Disease" DocID="DS00632" LinkType="Internal" ObjectID="273CAB18-2A5D-9994-E7302A26D91E98CC" Title="Inflammatory breast cancer" Url="http://www.mayoclinic.com/health/inflammatory-breast-cancer/DS00632" />
+		<LinkItem ContentType="Article" DocID="WO00060" LinkType="Internal" ObjectID="B2E76DB3-D768-469E-84656E6820A13E9E" Title="Prophylactic mastectomy: Surgery to reduce breast cancer risk" Url="http://www.mayoclinic.com/health/prophylactic-mastectomy/WO00060" />
+	</RelatedLinksBox>
+</TestProcedure>

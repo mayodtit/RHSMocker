@@ -1,0 +1,202 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00454
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00454
+		</OriginalURL>
+		<UpdateDate>
+			2009-04-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			B439DA66-509A-4268-AD696A3E84B3609C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Vegetarian kebabs
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Traditionally, kebabs are marinated pieces of meat, fish or shellfish threaded onto skewers and then grilled or broiled. This vegetarian version uses marinated vegetables instead. Serve these kebabs with coleslaw and low-fat chocolate ice cream with fresh raspberries for dessert.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Place the tomatoes, mushrooms, zucchini, onion and peppers in a sealed plastic bag. Add the Italian dressing and shake to coat the vegetables evenly. Marinate the vegetables for at least 10 minutes.&lt;/p&gt;
+
+&lt;p&gt;In a saucepan over high heat, combine the rice and water. Bring to a boil. Reduce heat to low, cover and simmer until the water is absorbed and the rice is tender, about 30 minutes. Transfer to a small bowl to keep warm.&lt;/p&gt;
+
+&lt;p&gt;Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.&lt;/p&gt;
+
+&lt;p&gt;Thread 2 tomatoes, 2 mushrooms, 2 zucchini slices, 1 onion wedge, and 1 green and red pepper slice onto each skewer. Place the kebabs on the grill rack or broiler pan. Baste with leftover marinade. Grill or broil the kebabs, turning as needed, until the vegetables are tender, about 5 to 8 minutes.&lt;/p&gt;
+
+&lt;p&gt;Divide the rice onto 2 plates. Top with 2 kebabs and serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;8 cherry tomatoes&lt;br /&gt;
+8 button mushrooms&lt;br /&gt;
+1 small zucchini, sliced into 8 pieces&lt;br /&gt;
+1 red onion, cut into 4 wedges&lt;br /&gt;
+1 green bell pepper, seeded and cut into 4 pieces&lt;br /&gt;
+1 red bell pepper, seeded and cut into 4 pieces&lt;br /&gt;
+1/2 cup fat-free Italian dressing&lt;br /&gt;
+1/2 cup brown rice&lt;br /&gt;
+1 cup water&lt;br /&gt;
+4 wooden skewers, soaked in water for 30 minutes, or metal skewers&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				3
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				3
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				3
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				3
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				285
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				60 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				9 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				390 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				3 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

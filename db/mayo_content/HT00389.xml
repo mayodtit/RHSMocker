@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00389
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00389
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="2291" Title="Medications" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AD5CB78-E7FF-0DBD-104A8451457793D9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				antibiotic
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotics
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic resistance
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic resistant bacteria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Antibiotics: Not a magic bullet
+	</Title>
+	<Body>
+		&lt;p&gt;Your head throbs, your nose is stuffy and you&apos;re exhausted. You&apos;re probably coming down with a cold or the flu. But if you think that antibiotics will help you feel better, think again. Antibiotics won&apos;t do a thing for viral illnesses such as colds, flu and most sore throats. And overusing or misusing antibiotics can do more harm than good by leading to antibiotic resistance. If you have a viral illness, don&apos;t pressure your doctor for antibiotics. Instead, talk with your doctor about ways to relieve your symptoms.&lt;/p&gt;
+	</Body>
+</HealthTip>

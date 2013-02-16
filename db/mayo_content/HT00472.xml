@@ -1,0 +1,71 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00472
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00472
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2796" Title="Viral skin infection">
+							<Keyword MCVID="2995" Title="Cold sore" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			863ED8AB-E7FF-0DBD-1D8986235D372E31
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cold sore
+			</MetaKeyword>
+			<MetaKeyword>
+				cold sores
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Have cold sores? Keep them to yourself
+	</Title>
+	<Body>
+		&lt;p&gt;If you have cold sores, do your part to avoid spreading them to others: 1. Avoid skin-to-skin contact. This includes kissing. 2. Don&apos;t share utensils, towels, lip balm or other personal items. 3. Wash your hands before touching your eyes or genital area. 4. Wash your hands before touching another person.&lt;/p&gt;
+	</Body>
+</HealthTip>

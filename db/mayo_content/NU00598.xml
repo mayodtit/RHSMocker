@@ -1,0 +1,111 @@
+<Calculator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Calculator.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Calculator
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00598
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/calorie-calculator/NU00598
+		</OriginalURL>
+		<UpdateDate>
+			2010-04-17
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="4022" Title="Nutrition basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4C466CA1-0148-4A4B-87781B6DE512E057
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				calorie calculator
+			</MetaKeyword>
+			<MetaKeyword>
+				calorie needs calculator
+			</MetaKeyword>
+			<MetaKeyword>
+				calories
+			</MetaKeyword>
+			<MetaKeyword>
+				daily calorie needs
+			</MetaKeyword>
+			<MetaKeyword>
+				calorie needs
+			</MetaKeyword>
+			<MetaKeyword>
+				calorie counter
+			</MetaKeyword>
+			<MetaKeyword>
+				caloriecounter
+			</MetaKeyword>
+			<MetaKeyword>
+				calorie intake
+			</MetaKeyword>
+			<MetaKeyword>
+				daily calorie calculator
+			</MetaKeyword>
+			<MetaKeyword>
+				counting calories
+			</MetaKeyword>
+			<MetaKeyword>
+				calorie counting
+			</MetaKeyword>
+			<MetaKeyword>
+				calorie count
+			</MetaKeyword>
+			<MetaKeyword>
+				bmr calculator
+			</MetaKeyword>
+			<MetaKeyword>
+				caloriecalculator
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Flash Height="540" ObjectID="F6E791C1-E7FF-0DBD-1818F95FCDCBC3E2" URI="/flash/agg/calories_calc.swf" Width="410">
+		<Title>
+			NU00598_calories_calc.swf
+		</Title>
+		<Alt />
+		<Caption />
+	</Flash>
+	<Title>
+		Calorie calculator
+	</Title>
+	<Abstract>
+		Calorie calculator &amp;mdash; calculate how many daily calories you need to maintain your weight.
+	</Abstract>
+	<Description />
+</Calculator>

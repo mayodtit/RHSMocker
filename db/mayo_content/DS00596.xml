@@ -1,0 +1,326 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00596
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/myelodysplastic-syndromes/DS00596
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-04
+		</UpdateDate>
+		<PublicationDate>
+			2005-10-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2463" Title="Myelodysplastic syndromes" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C2D6225F-C483-449E-B31AC887BDE382BD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				myelodysplastic syndromes
+			</MetaKeyword>
+			<MetaKeyword>
+				myelodysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				blood cells
+			</MetaKeyword>
+			<MetaKeyword>
+				acute myloid leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				preleukemia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myelodysplastic syndromes are a group of disorders caused by poorly formed or dysfunctional blood cells. Myelodysplastic syndromes occur when something goes wrong in your bone marrow &amp;mdash; the spongy material inside your bones where blood cells are made. 
+&lt;/p&gt;
+&lt;p&gt;
+There is no cure for myelodysplastic syndromes. Treatment for myelodysplastic syndromes usually focuses on reducing or preventing complications of the disease and its treatments. In certain cases, myelodysplastic syndromes are treated with a bone marrow transplant, which may help prolong life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myelodysplastic syndromes rarely cause signs or symptoms in the early stages of the disease. In time, myelodysplastic syndromes may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Unusual paleness (pallor) due to anemia&lt;/li&gt;
+	&lt;li&gt;Easy or unusual bruising or bleeding&lt;/li&gt;
+	&lt;li&gt;Pinpoint-sized red spots just beneath your skin caused by bleeding (petechiae)&lt;/li&gt;
+	&lt;li&gt;Frequent infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="60" Title="Photograph of petechiae on leg and abdomen" URI="/images/image_popup/thumbs/ans7_petechiaethu.jpg" Width="60" />
+				<Image Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="317" Title="Petechiae" URI="/images/image_popup/ans7_petechiae.jpg" Width="400" />
+				<HTML>
+					Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myelodysplastic syndromes occur when something happens to disrupt the orderly and controlled production of blood cells. People with myelodysplastic syndromes have blood cells that are immature and defective, and instead of developing normally, they die in the bone marrow or just after entering the bloodstream. Over time, the number of immature, defective cells begins to surpass that of healthy blood cells, leading to problems such as anemia, infections and excess bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors divide myelodysplastic syndromes into two categories based on their cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Myelodysplastic syndromes with no known cause.&lt;/strong&gt; Called de novo myelodysplastic syndromes, doctors don&apos;t know what causes these. De novo myelodysplastic syndromes are often more easily treated than are myelodysplastic syndromes with a known cause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelodysplastic syndromes caused by chemicals and radiation.&lt;/strong&gt; Myelodysplastic syndromes that occur in response to cancer treatments, such as chemotherapy and radiation, or in response to chemical exposure are called secondary myelodysplastic syndromes. Secondary myelodysplastic syndromes are often more difficult to treat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of myelodysplastic syndromes&lt;/strong&gt; &lt;br /&gt;
+The World Health Organization divides myelodysplastic syndromes into subtypes based on the type of blood cells &amp;mdash; red cells, white cells and platelets &amp;mdash; involved. Myelodysplastic syndrome subtypes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Refractory cytopenia with unilineage dysplasia.&lt;/strong&gt; In this type, one blood cell type is low in number. This type of blood cell appears abnormal under the microscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refractory anemia with ringed sideroblasts.&lt;/strong&gt; This type involves a low number of red blood cells. The existing red blood cells contain excess amounts of iron (ringed sideroblasts).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refractory cytopenia with multilineage dysplasia.&lt;/strong&gt; In this myelodysplastic syndrome, two of the three types of blood cells are abnormal, and less than 1 percent of the cells in the bloodstream are immature cells (blasts).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refractory anemia with excess blasts &amp;mdash; types 1 and 2.&lt;/strong&gt; In both these syndromes, any of the three types of blood cells &amp;mdash; red blood cells, white blood cells or platelets &amp;mdash; may be low in number and appear abnormal under a microscope. Very immature blood cells (blasts) are found in the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelodysplastic syndrome, unclassified.&lt;/strong&gt; In this uncommon syndrome, there are reduced numbers of one of the three types of mature blood cells, and either the white blood cells or platelets look abnormal under a microscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelodysplastic syndrome associated with isolated del(5q) chromosome abnormality.&lt;/strong&gt; People with this syndrome have low numbers of red blood cells, and the cells have a specific defect in their DNA.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of myelodysplastic syndromes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Most people with myelodysplastic syndromes are adults older than 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Myelodysplastic syndromes occur more frequently in men than in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment with chemotherapy or radiation.&lt;/strong&gt; Your risk of myelodysplastic syndromes is increased if you received chemotherapy or radiation, both of which are commonly used to treat cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain chemicals.&lt;/strong&gt; Chemicals linked to myelodysplastic syndromes include tobacco smoke, pesticides and industrial chemicals, such as benzene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to heavy metals.&lt;/strong&gt; Heavy metals linked to myelodysplastic syndromes include lead and mercury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of myelodysplastic syndromes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; Reduced numbers of red blood cells can cause anemia, which can make you feel tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurrent infections.&lt;/strong&gt; Having too few white blood cells increases your risk of serious infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding that won&apos;t stop.&lt;/strong&gt; Lacking platelets in your blood to stop bleeding can lead to excessive bleeding that won&apos;t stop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased risk of cancer.&lt;/strong&gt; Some people with myelodysplastic syndromes may eventually develop leukemia, a cancer of the blood cells.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Whom to see&lt;/strong&gt; &lt;br /&gt;
+If you have signs and symptoms of myelodysplastic syndrome, you&apos;re likely to start by seeing your family doctor or a general practitioner. If your doctor suspects you have a myelodysplastic syndrome, you may be referred you to a doctor who specializes in blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, be prepared. To prepare, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For myelodysplastic syndromes, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a myelodysplastic syndrome?&lt;/li&gt;
+	&lt;li&gt;What type of myelodysplastic syndrome do I have?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;What is my prognosis?&lt;/li&gt;
+	&lt;li&gt;What is my risk of leukemia?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment for my myelodysplastic syndrome?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can any treatments cure my myelodysplastic syndrome?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If abnormal numbers of blood cells have been detected in your blood, your doctor may begin with tests and procedures to rule out diseases and conditions other than myelodysplastic syndromes that have similar signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, your doctor may recommend tests and procedures used to diagnose myelodysplastic syndromes, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may recommend blood tests to count the number of blood cells in a sample of your blood (complete blood count) and examine your blood for unusual changes in the size, shape and appearance of various blood cells (peripheral blood smear).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing bone marrow for testing.&lt;/strong&gt; During a bone marrow biopsy and aspiration, a doctor or nurse uses a thin needle to withdraw (aspirate) a small amount of liquid bone marrow, usually from a spot on the back of your hipbone. Then a small piece of bone and the enclosed marrow also is removed (biopsy). The samples are examined in a laboratory to look for abnormalities.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="60" Title="Bone marrow biopsy" URI="/images/image_popup/thumbs/r7_bonemarrowaspirationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="400" Title="Bone marrow biopsy" URI="/images/image_popup/r7_bonemarrowaspiration.jpg" Width="400" />
+				<HTML>
+					In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No definitive cure or treatment for myelodysplastic syndromes exists. Instead, most people receive supportive care to help manage symptoms such as fatigue and to prevent bleeding and infections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood transfusions&lt;/strong&gt; &lt;br /&gt;
+Blood transfusions can be used to replace red blood cells, white blood cells or platelets in people with myelodysplastic syndromes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Medications used to increase the number of healthy blood cells your body produces include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that increase the number of blood cells your body makes.&lt;/strong&gt; Called growth factors, these medications are artificial versions of substances found naturally in your bone marrow. Some growth factors, such as erythropoietin alfa (Epogen) or darbepoetin alfa (Aranesp), can reduce the need for blood transfusions by increasing red blood cells. Others may help prevent infections by increasing white blood cells in people with certain myelodysplastic syndromes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that stimulate blood cells to mature, rather than remain immature.&lt;/strong&gt; Medications such as azacitidine (Vidaza) and decitabine (Dacogen) may improve the quality of life of people with certain myelodysplastic syndromes and help delay progression to acute myelogenous leukemia. But these drugs aren&apos;t effective in all people, and some can cause further blood cell problems. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that suppress your immune system.&lt;/strong&gt; Medications used to suppress the immune system may be used in certain myelodysplastic syndromes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication for people with a certain genetic abnormality.&lt;/strong&gt; If your myelodysplastic syndrome is associated with a genetic abnormality called isolated del(5q), your doctor may recommend lenalidomide (Revlimid). Lenalidomide may reduce the need for blood transfusions in people with this abnormality. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bone marrow stem cell transplant&lt;/strong&gt; &lt;br /&gt;
+During a bone marrow stem cell transplant, your defective blood cells are destroyed using powerful chemotherapy drugs. Then the abnormal bone marrow stem cells are replaced with healthy, donated cells (allogeneic transplant). Unfortunately, few people are candidates for this procedure because of the high risks involved in transplanting in older adults &amp;mdash; those most likely to have myelodysplastic syndromes. Even among young, relatively healthy people, the risk of transplant-related complications is high. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because people with certain myelodysplastic syndromes have low white blood cell counts, they&apos;re subject to recurrent, and often serious, infections. To reduce your risk of infections, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Frequent hand-washing is the best way to control infection. Wash your hands thoroughly with warm, soapy water, especially before eating or preparing food. Carry an alcohol-based hand rub for times when water isn&apos;t available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with food.&lt;/strong&gt; Thoroughly cook all meat and fish. Avoid fruits and vegetables that you can&apos;t peel, especially lettuce, and wash all produce you do use before peeling. To be absolutely safe, you may want to avoid raw foods entirely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid people who are ill.&lt;/strong&gt; Because myelodysplastic syndromes can affect your immune system, try to avoid close contact with anyone who is sick, including family members and co-workers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Myelodysplastic syndromes
+	</Title>
+	<Abstract>
+		Myelodysplastic syndromes &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of these serious blood cell disorders.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="Video" DocID="MM00787" LinkType="Internal" ObjectID="255D3C99-F208-37DF-CDFEAEEC6D81B5A7" Title="Video: How a stem cell transplant works" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MM00787" />
+		<LinkItem ContentType="Article" DocID="CA00081" LinkType="Internal" ObjectID="E5B1AC99-E7FF-0DBD-1BD6F6EB61E7886E" Title="Stem cells: What they are and what they do" Url="http://www.mayoclinic.com/health/stem-cells/CA00081" />
+	</RelatedLinksBox>
+</Disease>

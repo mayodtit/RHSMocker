@@ -1,0 +1,354 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00032
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bursitis/DS00032
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-24
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1373" Title="Bursitis" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			155B4438-0D8A-42D8-AE93C08753CBE114
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bursitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bursa
+			</MetaKeyword>
+			<MetaKeyword>
+				bursae
+			</MetaKeyword>
+			<MetaKeyword>
+				joint pain
+			</MetaKeyword>
+			<MetaKeyword>
+				hip bursitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bursitus
+			</MetaKeyword>
+			<MetaKeyword>
+				trochanteric bursitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bursitis (bur-SY-tis) is a painful condition that affects the small fluid-filled pads &amp;mdash; called bursae (bur-SEE) &amp;mdash; that act as cushions among your bones and the tendons and muscles near your joints. Bursitis occurs when bursae become inflamed.
+&lt;/p&gt;
+&lt;p&gt;
+The most common locations for bursitis are in the shoulder, elbow and hip. But you can also have bursitis by your knee, heel and the base of your big toe. Bursitis often occurs near joints that perform frequent repetitive motion.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment typically involves resting the affected joint and protecting it from further trauma. In most cases, bursitis pain goes away within a few weeks with proper treatment, but recurrent flare-ups of bursitis are common.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="60" Title="Knee bursae" URI="/images/image_popup/thumbs/mcdc7_knee_bursaethu.jpg" Width="60" />
+				<Image Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="376" Title="Knee bursae" URI="/images/image_popup/mcdc7_knee_bursae.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have bursitis, the affected joint may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feel achy or stiff&lt;/li&gt;
+	&lt;li&gt;Hurt more when you move it or press on it&lt;/li&gt;
+	&lt;li&gt;Look swollen and red&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult your doctor if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Disabling joint pain&lt;/li&gt;
+	&lt;li&gt;Pain for more than one to two weeks&lt;/li&gt;
+	&lt;li&gt;Excessive swelling, redness, bruising or a rash in the affected area&lt;/li&gt;
+	&lt;li&gt;Sharp or shooting pain, especially when you exercise or exert yourself&lt;/li&gt;
+	&lt;li&gt;A fever&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common causes of bursitis are repetitive motions or positions that irritate the bursae around a joint. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Throwing a baseball or lifting something over your head repeatedly&lt;/li&gt;
+	&lt;li&gt;Leaning on your elbows for long periods of time&lt;/li&gt;
+	&lt;li&gt;Extensive kneeling, for tasks such as laying carpet or scrubbing floors&lt;/li&gt;
+	&lt;li&gt;Prolonged sitting, particularly on hard surfaces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some bursae at the knee and elbow lie just below the skin, so they are at higher risk of puncture injuries that can lead to infection of the bursae (septic bursitis).
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="60" Title="Knee bursae" URI="/images/image_popup/thumbs/mcdc7_knee_bursaethu.jpg" Width="60" />
+				<Image Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="376" Title="Knee bursae" URI="/images/image_popup/mcdc7_knee_bursae.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bursitis of the shoulder 
+" Caption="Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Shoulder bursitis is inflammation or irritation of a bursa (shown in blue) in your shoulder. 
+" Height="60" Title="Bursitis of the shoulder" URI="/images/image_popup/thumbs/mcdc7_shoulder_bursitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing bursitis of the shoulder 
+" Caption="Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Shoulder bursitis is inflammation or irritation of a bursa (shown in blue) in your shoulder. 
+" Height="397" Title="Bursitis of the shoulder" URI="/images/image_popup/mcdc7_shoulder_bursitis.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Shoulder bursitis is inflammation or irritation of a bursa (shown in blue) in your shoulder. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bursitis of the hip 
+" Caption="Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Hip bursitis is inflammation or irritation of the bursae (shown in blue) in your hip. 
+" Height="60" Title="Bursitis of the hip" URI="/images/image_popup/thumbs/mcdc7_hip_bursitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing bursitis of the hip 
+" Caption="Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Hip bursitis is inflammation or irritation of the bursae (shown in blue) in your hip. 
+" Height="397" Title="Bursitis of the hip" URI="/images/image_popup/mcdc7_hip_bursitis.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Hip bursitis is inflammation or irritation of the bursae (shown in blue) in your hip. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bursitis of the elbow 
+" Caption="Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Elbow bursitis is inflammation or irritation of the bursa (shown in blue) in your elbow. 
+" Height="60" Title="Bursitis of the elbow" URI="/images/image_popup/thumbs/mcdc7_elbow_bursitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing bursitis of the elbow 
+" Caption="Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Elbow bursitis is inflammation or irritation of the bursa (shown in blue) in your elbow. 
+" Height="376" Title="Bursitis of the elbow" URI="/images/image_popup/mcdc7_elbow_bursitis.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs that reduce friction between moving parts in your body&apos;s joints. Elbow bursitis is inflammation or irritation of the bursa (shown in blue) in your elbow. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop bursitis, but certain factors may increase your risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The occurrence of bursitis becomes more common with aging.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupations or hobbies.&lt;/strong&gt; If you work in a profession or have a hobby that requires repetitive motion or pressure on particular bursae, you&apos;re at an increased risk of developing bursitis. Examples include carpet laying, tile setting, gardening, painting and playing a musical instrument.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medical conditions.&lt;/strong&gt; Certain systemic diseases and conditions &amp;mdash; such as rheumatoid arthritis, gout and diabetes &amp;mdash; increase your risk of developing bursitis. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially bring your concerns to your family physician, he or she may refer you to a doctor who specializes in joint disorders (rheumatologist).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For bursitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will I need to have any tests done?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems. How best can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Will I need to limit my activities?&lt;/li&gt;
+	&lt;li&gt;Are there any self-care measures I can try?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material I can take with me? What websites do you recommend for information about my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor will press on various spots around your affected joint to try to determine whether a specific bursa is causing your pain.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also have a number of questions for you, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your pain begin?&lt;/li&gt;
+	&lt;li&gt;Did it begin suddenly or occur gradually?&lt;/li&gt;
+	&lt;li&gt;What kind of work do you do?&lt;/li&gt;
+	&lt;li&gt;What hobbies or recreational activities do you participate in?&lt;/li&gt;
+	&lt;li&gt;Does your pain occur or worsen during certain activities, such as kneeling or climbing stairs?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced a fall or any other kind of injury?&lt;/li&gt;
+	&lt;li&gt;What kind of treatments have you tried at home?&lt;/li&gt;
+	&lt;li&gt;What effect did those treatments have?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors can often diagnose bursitis based on a medical history and physical exam. If further testing is needed, you might undergo: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; X-ray images can&apos;t positively establish the diagnosis of bursitis, but they can help to exclude other causes of your discomfort. Ultrasound or magnetic resonance imaging (MRI) may be used if your bursitis can&apos;t easily be diagnosed by a physical exam alone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lab tests.&lt;/strong&gt; Your doctor may perform blood tests or an analysis of fluid from the inflamed bursa to pinpoint the cause of your joint inflammation and pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bursitis treatment usually involves conservative measures, such as rest, ice and taking a pain reliever, as a first step. If conservative measures don&apos;t work, treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; If the inflammation in your bursa is caused by an infection, your doctor will prescribe an antibiotic medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Therapy.&lt;/strong&gt; Your doctor may recommend physical therapy or exercises to strengthen the muscles in the affected area to ease pain and prevent recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; Your doctor may inject a corticosteroid drug into the bursa to relieve inflammation. This treatment generally brings rapid pain relief and, in many cases, one injection is all you&apos;ll need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Sometimes an inflamed bursa must be surgically drained, but only rarely is surgical removal of the affected bursa necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing injection into shoulder bursa 
+" Caption="Injection of a corticosteroid medication into your bursa can relieve the pain and inflammation of bursitis. In some cases, your doctor might use ultrasound to guide the injection into the affected bursa. The ultrasound&apos;s hand-held transducer provides a live-action display your doctor can view on a monitor during the procedure. 
+" Height="60" Title="Shoulder injection" URI="/images/image_popup/thumbs/mcdc7_shoulder_injectionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing injection into shoulder bursa 
+" Caption="Injection of a corticosteroid medication into your bursa can relieve the pain and inflammation of bursitis. In some cases, your doctor might use ultrasound to guide the injection into the affected bursa. The ultrasound&apos;s hand-held transducer provides a live-action display your doctor can view on a monitor during the procedure. 
+" Height="368" Title="Shoulder injection" URI="/images/image_popup/mcdc7_shoulder_injection.jpg" Width="400" />
+				<HTML>
+					Injection of a corticosteroid medication into your bursa can relieve the pain and inflammation of bursitis. In some cases, your doctor might use ultrasound to guide the injection into the affected ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Measures you can take at home to relieve the pain of bursitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rest and immobilize the affected area&lt;/li&gt;
+	&lt;li&gt;Apply ice to reduce swelling&lt;/li&gt;
+	&lt;li&gt;Take an over-the-counter medication, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others), to relieve pain and reduce inflammation&lt;/li&gt;
+	&lt;li&gt;Cushion your knees if you sleep on your side, by placing a small pillow between your legs&lt;/li&gt;
+	&lt;li&gt;Avoid elbow pressure, by not leaning or placing your weight on your elbows to rise from a lying position&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While not all types of bursitis can be prevented, you can reduce your risk and reduce the severity of flare-ups by changing the way you perform certain tasks. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use kneeling pads.&lt;/strong&gt; Use some type of padding to reduce the pressure on your knees if your job or hobby requires a lot of kneeling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lift properly.&lt;/strong&gt; Bend your knees when you lift. Failing to do so puts extra stress on the bursae in your hips.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wheel heavy loads.&lt;/strong&gt; Carrying heavy loads puts stress on the bursae in your shoulders. Use a dolly or a wheeled cart instead.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take frequent breaks.&lt;/strong&gt; Alternate repetitive tasks with rest or other activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Walk around.&lt;/strong&gt; Try not to sit in one position for too long, especially on hard surfaces, because that puts pressure on the bursae in your hips and buttocks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight places more stress on your joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Strengthening your muscles can help protect your affected joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Warm up and stretch&lt;/strong&gt; before strenuous activities to protect your joints from injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bursitis
+	</Title>
+	<Abstract>
+		Bursitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this painful joint area inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00954" LinkType="Internal" ObjectID="EFE7744C-E7FF-0DBD-13F236C2C9F03613" Title="Knee bursitis" Url="http://www.mayoclinic.com/health/knee-bursitis/DS00954" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+	</RelatedLinksBox>
+</Disease>

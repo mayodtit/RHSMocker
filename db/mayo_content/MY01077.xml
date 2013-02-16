@@ -1,0 +1,279 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01077
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lvad/MY01077
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-13
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4171" Title="Surgery">
+							<Keyword MCVID="4661" Title="Left ventricular assist device" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4A804FBC-A707-ED3A-B6B6239DC746B325
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lvad
+			</MetaKeyword>
+			<MetaKeyword>
+				left ventricular assist device
+			</MetaKeyword>
+			<MetaKeyword>
+				heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				heart failure treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				heart transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				vad
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricular assist device
+			</MetaKeyword>
+			<MetaKeyword>
+				rvad
+			</MetaKeyword>
+			<MetaKeyword>
+				right ventricular assist device
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A ventricular assist device (VAD) is an implantable mechanical pump that helps pump blood from the lower chambers of your heart (the ventricles) to the rest of your body. VADs are used in people who have weakened hearts or heart failure. Although VADs can be placed in the left, right or both ventricles of your heart, they are most frequently used in the left ventricle. When placed in the left ventricle they are called left ventricular assist devices (LVADs). 
+&lt;/p&gt;
+&lt;p&gt;
+You may have a VAD implanted while you wait for a heart transplant or for your heart to become strong enough to effectively pump blood on its own. Your doctor may also recommend having a VAD implanted as a long-term treatment if you have heart failure and you&apos;re not a good candidate for a heart transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+The procedure to implant a VAD requires open-heart surgery and has serious risks. However, a VAD can be lifesaving if you have severe heart failure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a left ventricular assist device (LVAD) 
+" Caption="A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are worn outside your body and are connected to the LVAD through a port in your skin. 
+" Height="60" Title="Left ventricular assist device (LVAD)" URI="/images/image_popup/thumbs/mcdc7_lvadthu.jpg" Width="60" />
+				<Image Alt="Illustration of a left ventricular assist device (LVAD) 
+" Caption="A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are worn outside your body and are connected to the LVAD through a port in your skin. 
+" Height="414" Title="Left ventricular assist device (LVAD)" URI="/images/image_popup/mcdc7_lvad.jpg" Width="400" />
+				<HTML>
+					A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+VADs are mechanical devices that support the lower left heart chamber (left ventricular assist devices, or LVADs), the lower right heart chamber (right ventricular assist devices, or RVADs) or both lower heart chambers (biventricular assist devices, or BIVADs). 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend you have a VAD implanted if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re waiting for a heart transplant.&lt;/strong&gt; You may have a VAD implanted temporarily while you wait for a donor heart to become available. A VAD can keep blood pumping despite a diseased heart and will be removed when your new heart is implanted. When a VAD is implanted while you&apos;re waiting for a heart transplant, it&apos;s referred to as a &quot;bridge to transplant.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your heart&apos;s function can become normal again.&lt;/strong&gt; If your heart failure is temporary, your doctor may recommend implanting a VAD until your heart is healthy enough to pump blood on its own again. It&apos;s also possible you&apos;ll have a VAD implanted for a short time if you&apos;re recovering from heart surgery. You may have a VAD implanted for only a few weeks or months. RVADs are often temporarily implanted after some heart surgeries. An RVAD can help keep blood flowing from the right ventricle to your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re not a good candidate for a heart transplant.&lt;/strong&gt; VADs are increasingly being used as a long-term treatment for people who have heart failure, but aren&apos;t good candidates for a heart transplant. A VAD can improve your quality of life. When a VAD is implanted as a permanent treatment for heart failure, it&apos;s referred to as destination therapy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If VADs can&apos;t help your heart, another treatment option your doctor may consider is a total artificial heart (TAH). This device replaces the two ventricles of your heart. Because a total artificial heart is difficult to implant and can cause serious complications, it&apos;s only used in a small number of people. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a left ventricular assist device (LVAD) 
+" Caption="A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are worn outside your body and are connected to the LVAD through a port in your skin. 
+" Height="60" Title="Left ventricular assist device (LVAD)" URI="/images/image_popup/thumbs/mcdc7_lvadthu.jpg" Width="60" />
+				<Image Alt="Illustration of a left ventricular assist device (LVAD) 
+" Caption="A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are worn outside your body and are connected to the LVAD through a port in your skin. 
+" Height="414" Title="Left ventricular assist device (LVAD)" URI="/images/image_popup/mcdc7_lvad.jpg" Width="400" />
+				<HTML>
+					A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Implanting and using a VAD has some rare but serious risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Blood clots.&lt;/strong&gt; As your blood moves through your VAD, blood clots may form. Blood clots can slow or block normal blood flow through your heart, which can lead to stroke or heart attack, or cause your VAD to stop working. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may prescribe a blood-thinning medication such as aspirin or warfarin (Coumadin, Jantoven) to help prevent blood clots after your VAD is implanted. It&apos;s very important to follow the instructions for taking warfarin carefully to reduce the risk of life-threatening blood clots. Warfarin is a medication that can have dangerous side effects if not taken exactly as instructed, so talk to your doctor about any special instructions you&apos;ll need to follow. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Implanting a VAD requires open-heart surgery. Having open-heart surgery can increase your risk of bleeding after your operation. Taking blood-thinning medications to reduce your risk of clotting also increases your risk of dangerous bleeding into the gastrointestinal track and the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Because the power source and control unit for your VAD are outside your body and connected through a port in your skin, there&apos;s an increased risk of germs getting in the port and causing a serious infection. You and your medical team should watch for signs of infection, such as soreness or redness near the port, fluid draining from the site, or a fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Device malfunctions.&lt;/strong&gt; It&apos;s possible that your VAD may stop working properly after it&apos;s implanted. The pumping action of the device might not work exactly right, making it so not enough blood pumps through your heart. The power supply to the device could also fail, or other parts of the device may stop working properly. Each of these problems requires immediate medical attention.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Right heart failure.&lt;/strong&gt; If you have an LVAD implanted, it will pump more blood from the left ventricle of your heart than what your heart might have been used to. Your right ventricle may be too weak to pump the increased amount of blood.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you develop right heart failure, medications may help improve the pumping ability of the right ventricle. An RVAD might also be implanted to support the right ventricle if you develop this complication. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before your VAD is implanted, it&apos;s likely you&apos;ll stay in the hospital for some time preparing for surgery. While you&apos;re in the hospital, you may have other treatments for your weakened heart or heart failure. Your doctors will make sure you&apos;re healthy enough to have surgery to implant a VAD. You may need many tests or other procedures before the surgery, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram, which is an imaging test, helps your doctor determine the pumping function of your heart, check your heart valves and help determine the cause of your heart failure. This can help your doctor decide if you&apos;re a candidate for a VAD and if there are any other treatment options available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Your doctor uses a chest X-ray to see the size and shape of your heart and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor will order blood tests to see if your liver and kidneys are working properly before the surgery to implant your VAD. Your doctor might also check for other chemicals in your blood that show how well your heart is working. Blood tests are commonly used to check for diabetes, thyroid problems or symptoms of infection, which will need to be treated before you can have surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (EKG).&lt;/strong&gt; An electrocardiogram can help your doctor check your heart rhythm before surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, a short tube (sheath) is inserted into a vein or artery in your upper leg (groin) or arm. A hollow, flexible and longer tube (guide catheter) is then inserted into the sheath. Aided by X-ray images on a monitor, your doctor threads the guide catheter through that artery until it reaches your heart. This test checks the pressures in your heart and may be used to determine if you are a candidate for a VAD and if you may need additional devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While you&apos;re in the hospital, you&apos;ll also learn how your VAD works. You&apos;ll be given special instructions on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Safety precautions&lt;/li&gt;
+	&lt;li&gt;What to do if your control unit signals a problem with your VAD&lt;/li&gt;
+	&lt;li&gt;How to respond to emergencies, such as a failed battery or other loss of power to your VAD&lt;/li&gt;
+	&lt;li&gt;How to care for your VAD&lt;/li&gt;
+	&lt;li&gt;How to bathe without damaging your device&lt;/li&gt;
+	&lt;li&gt;How to travel with your VAD&lt;/li&gt;
+	&lt;li&gt;How you and your family can manage stress and anxiety regarding your device, and adjust to your new lifestyle&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure &lt;/strong&gt;&lt;br /&gt;
+The procedure to implant a VAD is an open-heart surgery that usually takes four to six hours. You&apos;ll be asleep during the procedure, so you shouldn&apos;t feel any pain during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be connected to a machine that helps you breathe (ventilator) during your surgery. A tube will be run down your throat to your lungs and connected to the ventilator. You may need to remain connected to the ventilator for several days after your surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+A cut will be made down the center of your chest. Your chest bone (sternum) is separated and your rib cage is opened so that your doctors can operate on your heart. Your heart is stopped during the surgery. You will be connected to a heart-lung bypass machine that keeps oxygenated blood flowing through your body during surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Once your VAD is implanted and working properly, your doctors will take you off the heart-lung bypass machine so that the VAD can begin pumping blood through your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Some VADs pump blood similar to the way your heart does, with a pumping action. Other VADs allow a continuous stream of blood to flow through your heart. If you have a continuous stream of blood flowing through your LVAD, you may not have a normal pulse, even though your body is getting the blood it needs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+When you wake up from your surgery, you&apos;ll be in the intensive care unit (ICU). You&apos;ll stay in the ICU for several days, where you&apos;ll be fed and given fluids and medications through an intravenous (IV) line. You&apos;ll have a tube in your bladder to drain your urine and other tubes in your chest to drain fluid and blood. Your lungs may not work properly immediately after your surgery, so you may need to remain connected to a ventilator for a few more days until you&apos;re able to breathe on your own. 
+&lt;/p&gt;
+&lt;p&gt;
+After a few days in the ICU, you&apos;ll likely be moved to a regular hospital room. As you recover, nurses will help you become increasingly active. They may help you get out of bed, sit up and walk around the hallways of the hospital. You may also have visits with a physical therapist to help you continue to gain strength and get used to performing daily activities. The amount of time you&apos;ll spend in the ICU and in the hospital can vary, depending on your condition before the procedure and how well you recover after your VAD is placed. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll likely be prescribed antibiotics and blood-thinning medications to prevent infection and other complications while you&apos;re in the hospital. Your doctor will order blood tests periodically to check your kidney function and to make sure your medications are effective. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re recovering in the hospital, it can be helpful to have friends and family visit. Visitors can help you perform some physical activities, and they can learn to help you care for your VAD when you go home. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After you&apos;re released from the hospital, you may be able to return to most of your daily activities. Depending on your condition, you may be able to return to work, be sexually active and drive. Your doctor should tell you what activities are appropriate for you. 
+&lt;/p&gt;
+&lt;p&gt;
+You will likely have weekly appointments at a specialized clinic or hospital to check how well your VAD is working. Your doctor may also recommend a cardiac rehabilitation program (cardiac rehab). Cardiac rehab is a customized program of exercise and education, designed to help you recover after a heart attack, from other forms of heart disease or after surgery to treat heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Living with a VAD can seem stressful. You may worry that your VAD will stop working or that you&apos;ll get an infection. If you&apos;re waiting for a heart transplant, you may worry that your VAD won&apos;t keep you alive long enough to receive a donor heart. Tell your medical team and family if you feel this way. It may help to discuss how you&apos;re feeling, join a support group or talk with a professional counselor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;VADs and heart transplants&lt;/strong&gt;&lt;br /&gt;
+If you have a VAD implanted to help your heart pump blood while you wait for a heart transplant, you&apos;ll remain in close contact with your doctor and transplant center while you remain on the waiting list. It&apos;s likely you won&apos;t be allowed to travel farther than two hours driving time of your hospital in case a donor heart becomes available. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ventricular assist devices (VADs)
+	</Title>
+	<Abstract>
+		Ventricular assist devices (VADs) &amp;mdash; Overview covers risks and results of these life-saving heart devices.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00771" LinkType="Internal" ObjectID="501AEB1F-0C51-8CCA-8F66232AC95B25F3" Title="Cardiac rehabilitation" Url="http://www.mayoclinic.com/health/cardiac-rehabilitation/MY00771" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00361" LinkType="Internal" ObjectID="3FDA96F4-E7FF-0DBD-16E85B989BB8D9C5" Title="Heart transplant" Url="http://www.mayoclinic.com/health/heart-transplant/MY00361" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+	</RelatedLinksBox>
+</TestProcedure>

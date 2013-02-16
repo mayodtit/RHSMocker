@@ -1,0 +1,497 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00005
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hiv-aids/DS00005
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-11
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1752" Title="HIV/AIDS" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			32278E96-F109-4807-8738841CD620091B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				HIV
+			</MetaKeyword>
+			<MetaKeyword>
+				AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV-AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV/AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				human immunodeficiency virus
+			</MetaKeyword>
+			<MetaKeyword>
+				acquired immunodeficiency syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				human immunodeficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				immunodeficiency
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+AIDS is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body&apos;s ability to fight the organisms that cause disease. 
+&lt;/p&gt;
+&lt;p&gt;
+HIV is a sexually transmitted infection. It can also be spread by contact with infected blood, or from mother to child during pregnancy, childbirth or breast-feeding. It can take years before HIV weakens your immune system to the point that you have AIDS. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for HIV/AIDS, but there are medications that can dramatically slow the progression of the disease. These drugs have reduced AIDS deaths in many developed nations. But HIV continues to decimate populations in Africa, Haiti and parts of Asia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The symptoms of HIV and AIDS vary, depending on the phase of infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary infection&lt;/strong&gt; &lt;br /&gt;
+The majority of people infected by HIV develop a flu-like illness within a month or two after the virus enters the body. This illness, known as primary or acute HIV infection, may last for a few weeks. Possible symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Muscle soreness&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Mouth or genital ulcers&lt;/li&gt;
+	&lt;li&gt;Swollen lymph glands, mainly on the neck&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although the symptoms of primary HIV infection may be mild enough to go unnoticed, the amount of virus in the blood stream (viral load) is particularly high at this time. As a result, HIV infection spreads more efficiently during primary infection than during the next stage of infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical latent infection&lt;/strong&gt; &lt;br /&gt;
+In some people, persistent swelling of lymph nodes occurs during clinical latent HIV. Otherwise, there are no specific signs and symptoms. HIV remains in the body, however, as free virus and in infected white blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Clinical latent infection typically lasts eight to 10 years. A few people stay in this stage even longer, but others progress to more-severe disease much sooner. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early symptomatic HIV infection&lt;/strong&gt; &lt;br /&gt;
+As the virus continues to multiply and destroy immune cells, you may develop mild infections or chronic symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes &amp;mdash; often one of the first signs of HIV infection&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Cough and shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Progression to AIDS &lt;br /&gt;
+&lt;/strong&gt;If you receive no treatment for your HIV infection, the disease typically progresses to AIDS in about 10 years. By the time AIDS develops, your immune system has been severely damaged, making you susceptible to opportunistic infections &amp;mdash; diseases that wouldn&apos;t trouble a person with a healthy immune system. The signs and symptoms of some of these infections may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soaking night sweats&lt;/li&gt;
+	&lt;li&gt;Shaking chills or fever higher than 100 F (38 C) for several weeks&lt;/li&gt;
+	&lt;li&gt;Cough and shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chronic diarrhea&lt;/li&gt;
+	&lt;li&gt;Persistent white spots or unusual lesions on your tongue or in your mouth&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Persistent, unexplained fatigue&lt;/li&gt;
+	&lt;li&gt;Blurred and distorted vision&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Skin rashes or bumps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you think you may have been infected with HIV or are at risk of contracting the virus, see a health care provider as soon as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scientists believe a virus similar to HIV first occurred in some populations of chimps and monkeys in Africa, where they&apos;re hunted for food. Contact with an infected monkey&apos;s blood during butchering or cooking may have allowed the virus to cross into humans and become HIV. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How does HIV become AIDS?&lt;/strong&gt; &lt;br /&gt;
+HIV destroys CD4 cells &amp;mdash; a specific type of white blood cell that plays a large role in helping your body fight disease. Your immune system weakens as more CD4 cells are killed. You can have an HIV infection for years before it progresses to AIDS. 
+&lt;/p&gt;
+&lt;p&gt;
+People infected with HIV progress to AIDS when their CD4 count falls below 200 or they experience an AIDS-defining complication, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pneumocystis pneumonia&lt;/li&gt;
+	&lt;li&gt;Cytomegalovirus&lt;/li&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Toxoplasmosis&lt;/li&gt;
+	&lt;li&gt;Cryptosporidiosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How HIV is transmitted&lt;/strong&gt;&lt;br /&gt;
+To become infected with HIV, infected blood, semen or vaginal secretions must enter your body. You can&apos;t become infected through ordinary contact &amp;mdash; hugging, kissing, dancing or shaking hands &amp;mdash; with someone who has HIV or AIDS. HIV can&apos;t be transmitted through the air, water or via insect bites. 
+&lt;/p&gt;
+&lt;p&gt;
+You can become infected with HIV in several ways, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;During sex.&lt;/strong&gt; You may become infected if you have vaginal, anal or oral sex with an infected partner whose blood, semen or vaginal secretions enter your body. The virus can enter your body through mouth sores or small tears that sometimes develop in the rectum or vagina during sexual activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood transfusions.&lt;/strong&gt; In some cases, the virus may be transmitted through blood transfusions. American hospitals and blood banks now screen the blood supply for HIV antibodies, so this risk is very small.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sharing needles.&lt;/strong&gt; HIV can be transmitted through needles and syringes contaminated with infected blood. Sharing intravenous drug paraphernalia puts you at high risk of HIV and other infectious diseases such as hepatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;From mother to child.&lt;/strong&gt; Infected mothers can infect their babies during pregnancy or delivery, or through breast-feeding. But if women receive treatment for HIV infection during pregnancy, the risk to their babies is significantly reduced.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When HIV/AIDS first surfaced in the United States, it predominantly affected homosexual men. However, now it is clear that HIV is also spread through heterosexual sex. Anyone of any age, race, sex or sexual orientation can be infected, but you&apos;re at greatest risk of HIV/AIDS if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have unprotected sex.&lt;/strong&gt; Unprotected sex means having sex without using a new latex or polyurethane condom every time. Anal sex is more risky than is vaginal sex. The risk increases if you have multiple sexual partners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have another STI.&lt;/strong&gt; Many sexually transmitted infections (STIs) produce open sores on your genitals. These sores act as doorways for HIV to enter your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use intravenous drugs.&lt;/strong&gt; People who use intravenous drugs often share needles and syringes. This exposes them to droplets of other people&apos;s blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Are an uncircumcised man.&lt;/strong&gt; Studies indicate that lack of circumcision increases the risk for heterosexual transmission of HIV.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HIV infection weakens your immune system, making you highly susceptible to all sorts of infections and certain types of cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infections common to HIV/AIDS&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tuberculosis (TB).&lt;/strong&gt; In resource-poor nations, TB is the most common opportunistic infection associated with HIV and a leading cause of death among people living with AIDS. Millions of people are currently infected with both HIV and tuberculosis, and many experts consider the two diseases twin epidemics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Salmonellosis.&lt;/strong&gt; You contract this bacterial infection from contaminated food or water. Symptoms include severe diarrhea, fever, chills, abdominal pain and, occasionally, vomiting. Although anyone exposed to salmonella bacteria can become sick, salmonellosis is far more common in people who are HIV-positive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cytomegalovirus (CMV).&lt;/strong&gt; This common herpes virus is transmitted in body fluids such as saliva, blood, urine, semen and breast milk. A healthy immune system inactivates the virus, and it remains dormant in your body. If your immune system weakens, the virus resurfaces &amp;mdash; causing damage to your eyes, digestive tract, lungs or other organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Candidiasis.&lt;/strong&gt; Candidiasis is a common HIV-related infection. It causes inflammation and a thick white coating on the mucous membranes of your mouth, tongue, esophagus or vagina. Children may have especially severe symptoms in the mouth or esophagus, which can make eating painful and difficult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cryptococcal meningitis.&lt;/strong&gt; Meningitis is an inflammation of the membranes and fluid surrounding your brain and spinal cord (meninges). Cryptococcal meningitis is a common central nervous system infection associated with HIV, caused by a fungus that is present in soil. It may also be associated with bird or bat droppings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxoplasmosis.&lt;/strong&gt; This potentially deadly infection is caused by Toxoplasma gondii, a parasite spread primarily by cats. Infected cats pass the parasites in their stools, and the parasites may then spread to other animals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cryptosporidiosis.&lt;/strong&gt; This infection is caused by an intestinal parasite that&apos;s commonly found in animals. You contract cryptosporidiosis when you ingest contaminated food or water. The parasite grows in your intestines and bile ducts, leading to severe, chronic diarrhea in people with AIDS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancers common to HIV/AIDS&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kaposi&apos;s sarcoma.&lt;/strong&gt; Kaposi&apos;s sarcoma is a tumor of the blood vessel walls. Although rare in people not infected with HIV, it&apos;s common in HIV-positive people. Kaposi&apos;s sarcoma usually appears as pink, red or purple lesions on the skin and mouth. In people with darker skin, the lesions may look dark brown or black. Kaposi&apos;s sarcoma can also affect the internal organs, including the digestive tract and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lymphomas.&lt;/strong&gt; This type of cancer originates in your white blood cells. Lymphomas usually begin in your lymph nodes. The most common early sign is painless swelling of the lymph nodes in your neck, armpit or groin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other complications &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wasting syndrome.&lt;/strong&gt; Aggressive treatment regimens have reduced the number of cases of wasting syndrome, but it does still affect many people with AIDS. It is defined as a loss of at least 10 percent of body weight and is often accompanied by diarrhea, chronic weakness and fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological complications.&lt;/strong&gt; Although AIDS doesn&apos;t appear to infect the nerve cells, it can still cause neurological symptoms such as confusion, forgetfulness, depression, anxiety and trouble walking. One of the most common neurological complications is AIDS dementia complex, which leads to behavioral changes and diminished mental functioning. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney disease.&lt;/strong&gt; HIV-associated nephropathy (HIV AN) is an inflammation of the tiny filters in your kidneys that remove excess fluid and wastes from your bloodstream and pass them to your urine. Because of a genetic predisposition, the risk of developing HIV AN is much higher in African Americans. Regardless of CD4 count, anti-retroviral therapy should be started in people diagnosed with HIV AN who are not already being treated. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you might have HIV infection, you&apos;re likely to start by seeing your family doctor. You may be referred to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list answering the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How do you believe you might have been exposed to HIV?&lt;/li&gt;
+	&lt;li&gt;What types of symptoms do you have?&lt;/li&gt;
+	&lt;li&gt;Do you have any risk factors, such as participating in unprotected anal sex or using intravenous drugs?&lt;/li&gt;
+	&lt;li&gt;What types of prescription drugs or supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will ask you questions about your health and lifestyle. He or she will also conduct a thorough physical exam, checking you for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swollen lymph nodes&lt;/li&gt;
+	&lt;li&gt;Lesions on your skin or in your mouth&lt;/li&gt;
+	&lt;li&gt;Neurological problems&lt;/li&gt;
+	&lt;li&gt;Abnormal sounds in your lungs&lt;/li&gt;
+	&lt;li&gt;Enlarged organs in your abdomen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you think you might have HIV infection, there are some precautions you can take to protect yourself and others before your appointment. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have only protected sexual intercourse.&lt;/li&gt;
+	&lt;li&gt;Inject drugs with a clean needle only, and don&apos;t share it with others.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HIV is most commonly diagnosed by testing your blood or saliva for the presence of antibodies to the virus. Unfortunately, these types of HIV tests aren&apos;t accurate immediately after infection because it takes time for your body to develop these antibodies &amp;mdash; usually up to 12 weeks. In rare cases, it can take up to six months for an HIV antibody test to become positive. 
+&lt;/p&gt;
+&lt;p&gt;
+A newer type of test checks for HIV antigen, a protein produced by the virus immediately after infection. This test can confirm a diagnosis within days of infection. An earlier diagnosis may prompt people to take extra precautions to prevent transmission of the virus to others. There is also increasing evidence that early treatment may be of benefit. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to tailor treatment&lt;/strong&gt; &lt;br /&gt;
+If you receive a diagnosis of HIV/AIDS, several types of tests can help your doctor determine what stage of the disease you have. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;CD4 count.&lt;/strong&gt; CD4 cells are a type of white blood cell that&apos;s specifically targeted and destroyed by HIV. A healthy person&apos;s CD4 count can vary from 500 to more than 1,000. Even if a person has no symptoms, HIV infection progresses to AIDS when his or her CD4 count becomes less than 200.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viral load.&lt;/strong&gt; This test measures the amount of virus in your blood. Studies have shown that people with higher viral loads generally fare more poorly than do those with a lower viral load.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug resistance.&lt;/strong&gt; This blood test determines whether the strain of HIV you have will be resistant to certain anti-HIV medications and the ones that may work better.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for complications&lt;/strong&gt; &lt;br /&gt;
+Your doctor might also order lab tests to check for other infections or complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Hepatitis&lt;/li&gt;
+	&lt;li&gt;Toxoplasmosis&lt;/li&gt;
+	&lt;li&gt;Sexually transmitted infections&lt;/li&gt;
+	&lt;li&gt;Liver or kidney damage&lt;/li&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for HIV/AIDS, but a variety of drugs can be used in combination to control the virus. Each of the classes of anti-HIV drugs blocks the virus in different ways. It&apos;s best to combine at least three drugs from two different classes to avoid creating strains of HIV that are immune to single drugs. The classes of anti-HIV drugs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Non-nucleoside reverse transcriptase inhibitors (NNRTIs).&lt;/strong&gt; NNRTIs disable a protein needed by HIV to make copies of itself. Examples include efavirenz (Sustiva), etravirine (Intelence) and nevirapine (Viramune).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nucleoside reverse transcriptase inhibitors (NRTIs).&lt;/strong&gt; NRTIs are faulty versions of building blocks that HIV needs to make copies of itself. Examples include Abacavir (Ziagen), and the combination drugs emtricitabine and tenofovir (Truvada), and lamivudine and zidovudine (Combivir).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protease inhibitors (PIs).&lt;/strong&gt; PIs disable protease, another protein that HIV needs to make copies of itself. Examples include atazanavir (Reyataz), darunavir (Prezista), fosamprenavir (Lexiva) and ritonavir (Norvir).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Entry or fusion inhibitors.&lt;/strong&gt; These drugs block HIV&apos;s entry into CD4 cells. Examples include enfuvirtide (Fuzeon) and maraviroc (Selzentry).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Integrase inhibitors.&lt;/strong&gt; Raltegravir (Isentress) works by disabling integrase, a protein that HIV uses to insert its genetic material into CD4 cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to start treatment&lt;/strong&gt; &lt;br /&gt;
+Current guidelines indicate that treatment should begin if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have severe symptoms&lt;/li&gt;
+	&lt;li&gt;Your CD4 count is under 500&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant&lt;/li&gt;
+	&lt;li&gt;You have HIV-related kidney disease&lt;/li&gt;
+	&lt;li&gt;You&apos;re being treated for hepatitis B&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment can be difficult&lt;/strong&gt; &lt;br /&gt;
+HIV treatment regimens may involve taking multiple pills at specific times every day for the rest of your life. Side effects can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea, vomiting or diarrhea&lt;/li&gt;
+	&lt;li&gt;Abnormal heartbeats&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Skin rash&lt;/li&gt;
+	&lt;li&gt;Weakened bones&lt;/li&gt;
+	&lt;li&gt;Bone death, particularly in the hip joints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Co-diseases and co-treatments&lt;/strong&gt; &lt;br /&gt;
+Some health issues that are a natural part of aging may be more difficult to manage if you have HIV. Some medications that are common for age-related cardiovascular, metabolic and bone conditions, for example, may not interact well with anti-HIV medications. Talk to your doctor about other conditions you&apos;re receiving medication for. There are also known interactions between anti-HIV drugs and: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Contraceptives and hormones for women&lt;/li&gt;
+	&lt;li&gt;Medications for the treatment of tuberculosis&lt;/li&gt;
+	&lt;li&gt;Drugs to treat hepatitis C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment response&lt;/strong&gt; &lt;br /&gt;
+Your response to any treatment is measured by your viral load and CD4 counts. Viral load should be tested at the start of treatment and then every three to four months during therapy. CD4 counts should be checked every three to six months. 
+&lt;/p&gt;
+&lt;p&gt;
+HIV treatment should reduce your viral load to the point that it&apos;s undetectable. That doesn&apos;t mean your HIV is gone. It just means that the test isn&apos;t sensitive enough to detect it. You can still transmit HIV to others when your viral load is undetectable. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s important to receive medical treatment for HIV/AIDS, it&apos;s also essential to take an active role in your own care. The following suggestions may help you stay healthy longer:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Emphasize fresh fruits and vegetables, whole grains and lean protein. Healthy foods help keep you strong, give you more energy and support your immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain foods.&lt;/strong&gt; Foodborne illnesses can be especially severe in people who are infected with HIV. Avoid unpasteurized dairy products, raw eggs and raw seafood such as oysters, sushi or sashimi. Cook meat until it&apos;s well-done or until there&apos;s no trace of pink color. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get immunizations.&lt;/strong&gt; These may prevent infections such as pneumonia and the flu. Make sure the vaccines don&apos;t contain live viruses, which can be dangerous for people with weakened immune systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with companion animals.&lt;/strong&gt; Some animals may carry parasites that can cause infections in people who are HIV-positive. Cat feces can cause toxoplasmosis, while pet reptiles can carry salmonella.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who are infected with HIV sometimes try dietary supplements that claim to boost the immune system or counteract side effects of anti-HIV drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supplements that may be helpful&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fish oil.&lt;/strong&gt; Some anti-HIV drugs can cause increases in cholesterol levels. Studies indicate that fish oil supplements can help bring those numbers down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Whey protein.&lt;/strong&gt; Preliminary evidence indicates that whey protein, a cheese by-product, can help some people with HIV gain weight. Whey protein also appears to reduce diarrhea and increase CD4 counts. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Supplements that may be dangerous&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;St. John&apos;s&lt;/strong&gt;&lt;strong&gt; wort.&lt;/strong&gt; Commonly used to combat depression, St. John&apos;s wort can reduce the effectiveness of several types of anti-HIV drugs by more than 50 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Garlic supplements.&lt;/strong&gt; Although garlic may help strengthen the immune system, it also interacts with several anti-HIV drugs &amp;mdash; reducing their effectiveness by 50 percent. Occasionally eating garlic in food appears to be safe.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Receiving a diagnosis of any life-threatening illness is devastating. But the emotional, social and financial consequences of HIV/AIDS can make coping with this illness especially difficult &amp;mdash; not only for you but also for those closest to you. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, a wide range of services and resources are available to people with HIV. Most HIV/AIDS clinics have social workers, counselors or nurses who can help you with problems directly or put you in touch with people who can. They can arrange for transportation to and from doctor appointments, help with housing and child care, deal with employment and legal issues, and see you through financial emergencies. 
+&lt;/p&gt;
+&lt;p&gt;
+Coming to terms with your illness may be the hardest thing you&apos;ve ever done. For some people, having a strong faith or a sense of something greater than themselves makes this process easier. Others seek counseling from someone who understands HIV/AIDS. Still others make a conscious decision to experience their lives as fully and intensely as they can or to help other people who have the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no vaccine to prevent HIV infection and no cure for AIDS. But it&apos;s possible to protect yourself and others from infection. That means educating yourself about HIV and avoiding any behavior that allows HIV-infected fluids &amp;mdash; blood, semen, vaginal secretions and breast milk &amp;mdash; into your body. 
+&lt;/p&gt;
+&lt;p&gt;
+To help prevent the spread of HIV: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use a new condom every time you have sex.&lt;/strong&gt; If you don&apos;t know the HIV status of your partner, use a new condom every time you have anal or vaginal sex. Women can use a female condom. Use only water-based lubricants. Oil-based lubricants can weaken condoms and cause them to break. During oral sex use a condom, dental dam &amp;mdash; a piece of medical-grade latex &amp;mdash; or plastic wrap.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Consider the drug Truvada.&lt;/strong&gt; In July 2012, the Food and Drug Administration (FDA) approved the use of the drug Truvada to reduce the risk of sexually transmitted HIV infection in those who are at high risk. Truvada is also used as an HIV treatment along with other medications.
+	&lt;/p&gt;
+	&lt;p&gt;
+	When used to help prevent HIV infection, Truvada is only appropriate if your doctor is certain you don&apos;t already have an HIV or hepatitis B infection. The drug must also be taken daily, exactly as prescribed. And it should only be used along with other prevention strategies such as condom use every time you have sex. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Truvada isn&apos;t for everyone. If you&apos;re interested in Truvada, talk with your doctor about the potential risks and benefits and whether it&apos;s right for you. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tell your sexual partners if you have HIV.&lt;/strong&gt; It&apos;s important to tell anyone with whom you&apos;ve had sex that you&apos;re HIV-positive. Your partners need to be tested and to receive medical care if they have the virus. They also need to know their HIV status so that they don&apos;t infect others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a clean needle.&lt;/strong&gt; If you use a needle to inject drugs, make sure it&apos;s sterile and don&apos;t share it. Take advantage of needle-exchange programs in your community and consider seeking help for your drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re pregnant, get medical care right away.&lt;/strong&gt; If you&apos;re HIV-positive, you may pass the infection to your baby. But if you receive treatment during pregnancy, you can cut your baby&apos;s risk by as much as two-thirds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider male circumcision.&lt;/strong&gt; There&apos;s evidence that male circumcision can help reduce a man&apos;s risk of acquiring HIV. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		HIV/AIDS
+	</Title>
+	<Abstract>
+		HIV/AIDS &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this deadly infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00954" LinkType="Internal" ObjectID="CE78E7BE-D2EB-3481-3D713406990CDFC6" Title="HIV testing" Url="http://www.mayoclinic.com/health/hiv-testing/MY00954" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00105" LinkType="Internal" ObjectID="C0133EF8-E7FF-0DBD-169C6332C6D45953" Title="Gene therapy" Url="http://www.mayoclinic.com/health/gene-therapy/MY00105" />
+		<LinkItem ContentType="Answer" DocID="AN02167" LinkType="Internal" ObjectID="32B9B057-9C29-709B-E357C00DB7D0C704" Title="Tap water or bottled water: Which is better?" Url="http://www.mayoclinic.com/health/tap-water/AN02167" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00985" LinkType="Internal" ObjectID="2B713E81-BB64-E856-EAA775C6C758BE4A" Title="Female condom" Url="http://www.mayoclinic.com/health/female-condom/MY00985" />
+		<LinkItem ContentType="Article" DocID="MY00739" LinkType="Internal" ObjectID="B21A5496-E01C-E832-A465884F1A017A21" Title="Health issues for lesbians: Prevention first" Url="http://www.mayoclinic.com/health/health-issues-for-lesbians/MY00739" />
+		<LinkItem ContentType="Article" DocID="MY00738" LinkType="Internal" ObjectID="AD1268B7-FCC3-1F5A-1B94F46DDDE62ECC" Title="Health issues for gay men: Prevention first" Url="http://www.mayoclinic.com/health/health-issues-for-gay-men/MY00738" />
+		<LinkItem ContentType="Article" DocID="HQ01507" LinkType="Internal" ObjectID="8DFF08EE-3CD0-429C-BF5E145C5669616D" Title="Thalidomide: Research advances in cancer and other conditions" Url="http://www.mayoclinic.com/health/thalidomide/HQ01507" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="Answer" DocID="AN01726" LinkType="Internal" ObjectID="04C666AE-E7FF-0DBD-1A8336DFF308E04C" Title="Early HIV symptoms: What are they?" Url="http://www.mayoclinic.com/health/early-hiv-symptoms/AN01726" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+		<LinkItem ContentType="Disease" DocID="DS00183" LinkType="Internal" ObjectID="23246C2F-131D-4391-BB2A6B3E819A126F" Title="Drug addiction" Url="http://www.mayoclinic.com/health/drug-addiction/DS00183" />
+	</RelatedLinksBox>
+</Disease>

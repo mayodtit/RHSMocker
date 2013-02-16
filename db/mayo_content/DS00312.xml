@@ -1,0 +1,268 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00312
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/croup/DS00312
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-30
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="1152" Title="Respiratory infection">
+						<Keyword MCVID="4341" Title="Croup" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9C985421-4F29-466A-8E944043FEA82738
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				croup
+			</MetaKeyword>
+			<MetaKeyword>
+				cough
+			</MetaKeyword>
+			<MetaKeyword>
+				breathing
+			</MetaKeyword>
+			<MetaKeyword>
+				cold
+			</MetaKeyword>
+			<MetaKeyword>
+				flu
+			</MetaKeyword>
+			<MetaKeyword>
+				barking
+			</MetaKeyword>
+			<MetaKeyword>
+				spasmodic croup
+			</MetaKeyword>
+			<MetaKeyword>
+				stridor
+			</MetaKeyword>
+			<MetaKeyword>
+				croop
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Croup refers to an infection of the upper airway, generally in children, which obstructs breathing and causes a characteristic barking cough. 
+&lt;/p&gt;
+&lt;p&gt;
+The cough and other symptoms of croup are the result of inflammation around the vocal cords (larynx), windpipe (trachea) and bronchial tubes (bronchi). When a cough forces air through this narrowed passage, the swollen vocal cords produce a noise similar to a seal barking. Likewise, taking a breath often produces a high-pitched whistling sound (stridor). 
+&lt;/p&gt;
+&lt;p&gt;
+Croup usually isn&apos;t serious and most cases can be treated at home.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Croup often begins as a typical cold.&amp;nbsp; If there is enough inflammation and coughing, a child will develop a loud barking cough. This often is worse at night, and is further aggravated by crying and coughing, as well as anxiety and agitation, setting up a cycle of worsening symptoms. Fever and a hoarse voice are common, too. Your child&apos;s breathing may be noisy or labored. 
+&lt;/p&gt;
+&lt;p&gt;
+Because children have small airways, they are most susceptible to having more marked symptoms with croup, particularly children younger than three years old. 
+&lt;/p&gt;
+&lt;p&gt;
+Nighttime croup symptoms of labored breathing can often lead concerned parents to bring their child to the emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of croup usually last for three to five days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Less than 5 percent of children develop airway obstruction serious enough to require hospitalization. You should seek immediate medical attention if your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Makes noisy, high-pitched breathing sounds (stridor) both when inhaling and exhaling&lt;/li&gt;
+	&lt;li&gt;Begins drooling or has difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Seems anxious, agitated or fatigued&lt;/li&gt;
+	&lt;li&gt;Breathes at a faster rate than usual&lt;/li&gt;
+	&lt;li&gt;Struggles to breathe&lt;/li&gt;
+	&lt;li&gt;Develops blue or grayish skin around the nose, mouth or fingernails (cyanosis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Croup is usually caused by a virus infection, most often a parainfluenza virus. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child may contract a virus by breathing infected respiratory droplets coughed or sneezed into the air. Virus particles in these droplets may also survive on toys and other surfaces. If your child touches a contaminated surface and then touches his or her eyes, nose or mouth, an infection may follow. 
+&lt;/p&gt;
+&lt;p&gt;
+The infection usually starts in the nasal membranes and then spreads to the vocal cords (larynx) and windpipe (trachea). Only a small percentage of exposed children actually develop croup.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most at risk of getting croup are children between 6 months and 3 years of age. The peak incidence of the condition is 18 to 24 months of age.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of croup are mild. In a small percentage of cases, the airway swells enough to interfere with breathing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases of croup, your child won&apos;t need to see a doctor. However, if your child&apos;s symptoms are severe or aren&apos;t responding to home treatment, you should make an appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child&apos;s doctor will likely ask a number of questions to help determine the best course of treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your child&apos;s symptoms? Has your child had a fever or difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;How long has your child been experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child&apos;s cough become progressively worse? If so, how rapidly?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a pattern to your child&apos;s cough? For instance, does it get worse at night?&lt;/li&gt;
+	&lt;li&gt;Has your child had croup in the past?&lt;/li&gt;
+	&lt;li&gt;Has your child recently been exposed to other sick children?&lt;/li&gt;
+	&lt;li&gt;Does your child have any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Is your child fully vaccinated?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Croup is typically diagnosed by the doctor observing your child&apos;s breathing, listening to your child&apos;s chest with a stethoscope and examining your child&apos;s throat. Sometimes X-rays or other tests are used to rule out other possible illnesses.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-care measures at home are effective for the vast majority of cases of croup. Aggressive treatment is rarely needed. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child&apos;s symptoms persist beyond three to five days or worsen, your child&apos;s doctor may prescribe a type of steroid (glucocorticoid) to reduce inflammation in the airway. Benefits will usually be felt within six hours. Dexamethasone is usually recommended because of its long-lasting effects (up to 72 hours). 
+&lt;/p&gt;
+&lt;p&gt;
+Epinephrine is also effective in reducing airway inflammation. It&apos;s fast-acting, but its effects wear off quickly. 
+&lt;/p&gt;
+&lt;p&gt;
+For severe croup, your child may need to spend time in a hospital. In rare instances, a temporary breathing tube may need to be placed in the child&apos;s windpipe. 
+&lt;/p&gt;
+&lt;p&gt;
+Croup can be scary &amp;mdash; especially if it lands your child in the doctor&apos;s office, emergency room or hospital. Comforting your child and keeping him or her calm are important, because crying and agitation worsen airway obstruction. Hold your child, sing lullabies or read quiet stories. Offer a favorite blanket or toy. Speak in a soothing voice. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Croup often runs its course within three to five days. In the meantime, keep your child comfortable with a few simple measures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay calm.&lt;/strong&gt; Comfort or distract your child &amp;mdash; cuddle, read a book or play a quiet game. Crying makes breathing more difficult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisten the air.&lt;/strong&gt; Although there&apos;s no evidence of benefit from this practice, many parents believe that humid air helps a child&apos;s breathing. You can use a humidifier or sit with the child in a bathroom filled with steam generated by running hot water from the shower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hold your child in an upright position.&lt;/strong&gt; Sitting upright can make breathing easier. Hold your child on your lap, or place your child in a favorite chair or infant seat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Offer fluids.&lt;/strong&gt; For babies, water, breast milk or formula is fine. For older children, soup or frozen fruit pops may be soothing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage rest.&lt;/strong&gt; Sleep can help your child fight the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try an over-the-counter pain reliever.&lt;/strong&gt; If your child has a fever, acetaminophen (Tylenol, others) may help. Cough syrup, which doesn&apos;t affect the larynx or trachea, isn&apos;t likely to relieve your child&apos;s cough. Over-the-counter cold preparations are not recommended for children younger than age 5.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your child&apos;s cough may improve during the day, but don&apos;t be surprised if it returns at night. You may want to sleep near your child or even in the same room so that you can take quick action if your child&apos;s symptoms become severe. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent croup, take the same steps you use to prevent colds and flu. Frequent hand-washing is most important. Also keep your child away from anyone who&apos;s sick, and encourage your child to cough or sneeze into his or her elbow. 
+&lt;/p&gt;
+&lt;p&gt;
+To stave off more-serious infections, keep your child&apos;s vaccinations current. The diphtheria and Haemophilus influenza type b vaccines offer protection from some of the rarest &amp;mdash; but most dangerous &amp;mdash; forms of upper airway infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Croup
+	</Title>
+	<Abstract>
+		Croup &amp;mdash; Comprehensive overview covers symptoms, treatment of this common childhood condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01480" LinkType="Internal" ObjectID="52B12574-E7FF-0DBD-1694E3FC1B92E43B" Title="Croup treatment: Does high humidity relieve symptoms?" Url="http://www.mayoclinic.com/health/croup/AN01480" />
+	</RelatedLinksBox>
+</Disease>

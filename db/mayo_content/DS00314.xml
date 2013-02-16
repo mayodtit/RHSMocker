@@ -1,0 +1,621 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00314
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/obesity/DS00314
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-03
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1672" Title="Obesity" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6DA0F41C-F55D-430B-A0B267A41E791B57
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				obese
+			</MetaKeyword>
+			<MetaKeyword>
+				overweight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				fat
+			</MetaKeyword>
+			<MetaKeyword>
+				body mass index
+			</MetaKeyword>
+			<MetaKeyword>
+				BMI
+			</MetaKeyword>
+			<MetaKeyword>
+				weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				weight control
+			</MetaKeyword>
+			<MetaKeyword>
+				diet
+			</MetaKeyword>
+			<MetaKeyword>
+				morbid obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment for obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment of obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity causes
+			</MetaKeyword>
+			<MetaKeyword>
+				causes of obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				prevention of obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss drugs
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss medications
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				bariatric surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric bypass surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-obesity medications
+			</MetaKeyword>
+			<MetaKeyword>
+				LAP-BAND
+			</MetaKeyword>
+			<MetaKeyword>
+				severe obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				extreme obesity
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Obesity is defined as having an excessive amount of body fat. Obesity is more than just a cosmetic concern, though. It increases your risk of diseases and health problems such as heart disease, diabetes and high blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Being extremely obese means you are especially likely to have health problems related to your weight. 
+&lt;/p&gt;
+&lt;p&gt;
+The good news is that even modest weight loss can improve or prevent the health problems associated with obesity. You can usually lose weight through dietary changes, increased physical activity and behavior changes. In some cases, prescription medications or weight-loss surgery may be options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Obesity is diagnosed when an individual&apos;s body mass index (BMI) is 30 or higher. Your body mass index is calculated by dividing your weight in kilograms (kg) by your height in meters (m) squared. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;50%&quot;&gt;BMI&lt;/th&gt;&lt;th width=&quot;50%&quot;&gt;Weight status&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 18.5&lt;/td&gt;
+			&lt;td&gt;Underweight&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;18.5 &amp;mdash; 24.9&lt;/td&gt;
+			&lt;td&gt;Normal&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;25.0 &amp;mdash; 29.9&lt;/td&gt;
+			&lt;td&gt;Overweight&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;30.0 and higher&lt;/td&gt;
+			&lt;td&gt;Obese&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;40.0 and higher&lt;/td&gt;
+			&lt;td&gt;Extreme obesity&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Because BMI doesn&apos;t directly measure body fat, some people, such as muscular athletes, may have a BMI in the obese category even though they don&apos;t have excess body fat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you think you may be obese, and especially if you&apos;re concerned about weight-related health problems, see your doctor or health care provider. You and your doctor can evaluate your health risks and discuss your weight-loss options. Even modest weight loss can lessen or prevent problems related to obesity. Weight loss is usually possible through dietary changes, increased physical activity and behavior changes. In some cases, prescription medications or weight-loss surgery may be options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there are genetic and hormonal influences on body weight, obesity occurs when you take in more calories than you burn through exercise and normal daily activities. Your body stores these excess calories as fat. Obesity usually results from a combination of causes and contributing factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inactivity.&lt;/strong&gt; If you&apos;re not very active, you don&apos;t burn as many calories. With a sedentary lifestyle, you can easily take in more calories every day than you use through exercise and normal daily activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unhealthy diet and eating habits.&lt;/strong&gt; Having a diet that&apos;s high in calories, eating fast food, skipping breakfast, eating most of your calories at night, drinking high-calorie beverages and eating oversized portions all contribute to weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; During pregnancy, a woman&apos;s weight necessarily increases. Some women find this weight difficult to lose after the baby is born. This weight gain may contribute to the development of obesity in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of sleep.&lt;/strong&gt; Getting less than seven hours of sleep a night can cause changes in hormones that increase your appetite. You may also crave foods high in calories and carbohydrates, which can contribute to weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medications can lead to weight gain if you don&apos;t compensate through diet or activity. These medications include some antidepressants, anti-seizure medications, diabetes medications, antipsychotic medications, steroids and beta blockers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical problems.&lt;/strong&gt; Obesity can sometimes be traced to a medical cause, such as Prader-Willi syndrome, Cushing&apos;s syndrome, polycystic ovary syndrome, and other diseases and conditions. Some medical problems, such as arthritis, can lead to decreased activity, which may result in weight gain. A low metabolism is unlikely to cause obesity, as is having low thyroid function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Obesity occurs when you eat and drink more calories than you burn through exercise and normal daily activities. Your body stores these extra calories as fat. Obesity usually results from a combination of causes and contributing factors, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Your genes may affect the amount of body fat you store and where that fat is distributed. Genetics may also play a role in how efficiently your body converts food into energy and how your body burns calories during exercise. Even when someone has a genetic predisposition, environmental factors ultimately make you gain more weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inactivity.&lt;/strong&gt; If you&apos;re not very active, you don&apos;t burn as many calories. With a sedentary lifestyle, you can easily take in more calories every day than you burn off through exercise and normal daily activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unhealthy diet and eating habits.&lt;/strong&gt; Having a diet that&apos;s high in calories, eating fast food, skipping breakfast, consuming high-calorie drinks and eating oversized portions all contribute to weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family lifestyle.&lt;/strong&gt; Obesity tends to run in families. That&apos;s not just because of genetics. Family members tend to have similar eating, lifestyle and activity habits. If one or both of your parents are obese, your risk of being obese is increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quitting smoking.&lt;/strong&gt; Quitting smoking is often associated with weight gain. And for some, it can lead to a weight gain of as much as several pounds a week for several months, which can result in obesity. In the long run, however, quitting smoking is still a greater benefit to your health than continuing to smoke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; During pregnancy a woman&apos;s weight necessarily increases. Some women find this weight difficult to lose after the baby is born. This weight gain may contribute to the development of obesity in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of sleep.&lt;/strong&gt; Not getting enough sleep at night can cause changes in hormones that increase your appetite. You may also crave foods high in calories and carbohydrates, which can contribute to weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medications can lead to weight gain if you don&apos;t compensate through diet or activity. These medications include some antidepressants, anti-seizure medications, diabetes medications, antipsychotic medications, steroids and beta blockers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Obesity can occur at any age, even in young children. But as you age, hormonal changes and a less active lifestyle increase your risk of obesity. In addition, the amount of muscle in your body tends to decrease with age. This lower muscle mass leads to a decrease in metabolism. These changes also reduce calorie needs and can make it harder to keep off excess weight. If you don&apos;t control what you eat as you age, you&apos;ll likely gain weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social and economic issues.&lt;/strong&gt; Certain social and economic issues may be linked to obesity. You may not have safe areas to exercise, you may not have been taught healthy ways of cooking, or you may not have money to buy healthier foods. In addition, the people you spend time with may influence your weight &amp;mdash; you&apos;re more likely to become obese if you have obese friends or relatives.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical problems.&lt;/strong&gt; Obesity can rarely be traced to a medical cause, such as Prader-Willi syndrome, Cushing&apos;s syndrome, polycystic ovary syndrome, and other diseases and conditions. Some medical problems, such as arthritis, can lead to decreased activity, which may result in weight gain. A low metabolism is unlikely to cause obesity, as is having low thyroid function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even if you have one or more of these risk factors, it doesn&apos;t mean that you&apos;re destined to become obese. You can counteract most risk factors through diet, physical activity and exercise, and behavior changes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re obese, you&apos;re more likely to develop a number of potentially serious health problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High cholesterol and triglycerides&lt;/li&gt;
+	&lt;li&gt;Type 2 diabetes&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Metabolic syndrome &amp;mdash; a combination of high blood sugar, high blood pressure, high triglycerides and high cholesterol&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Cancer, including cancer of the uterus, cervix, ovaries, breast, colon, rectum and prostate&lt;/li&gt;
+	&lt;li&gt;Sleep apnea, a potentially serious sleep disorder in which breathing repeatedly stops and starts&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Gallbladder disease&lt;/li&gt;
+	&lt;li&gt;Gynecologic problems, such as infertility and irregular periods&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction and sexual health issues, due to deposits of fat blocking or narrowing the arteries to the genitals&lt;/li&gt;
+	&lt;li&gt;Nonalcoholic fatty liver disease, a condition in which fat builds up in the liver and can cause inflammation or scarring&lt;/li&gt;
+	&lt;li&gt;Osteoarthritis&lt;/li&gt;
+	&lt;li&gt;Skin problems, such as poor wound healing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Quality of life&lt;/strong&gt; &lt;br /&gt;
+When you&apos;re obese, your overall quality of life may be lower, too. You may not be able to do things you&apos;d normally enjoy as easily as you&apos;d like. You may have trouble participating in family activities. You may avoid public places. You may even encounter discrimination. 
+&lt;/p&gt;
+&lt;p&gt;
+Other weight-related issues that may affect your quality of life include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Disability&lt;/li&gt;
+	&lt;li&gt;Physical discomfort&lt;/li&gt;
+	&lt;li&gt;Sexual problems&lt;/li&gt;
+	&lt;li&gt;Shame&lt;/li&gt;
+	&lt;li&gt;Social isolation&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Talking to your doctor openly and honestly about your weight is one of the best things you can do for your health. You&apos;re likely to start by seeing your primary care doctor. In some cases, you may be referred to an obesity specialist &amp;mdash; if one is available in your area. You may also be referred to a mental health provider, dietitian or nutrition specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Being an active participant in your care is important. One way to do this is by preparing for your appointment. Think about your needs and goals for treatment. Also, write down a list of questions to ask. These questions may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why can&apos;t I manage my weight on my own?&lt;/li&gt;
+	&lt;li&gt;What other health problems might I have?&lt;/li&gt;
+	&lt;li&gt;Should I see a dietitian?&lt;/li&gt;
+	&lt;li&gt;How can I overcome obstacles that keep me from being more physically active?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for obesity and my other health problems?&lt;/li&gt;
+	&lt;li&gt;Is weight-loss surgery an option for me?&lt;/li&gt;
+	&lt;li&gt;Will counseling help?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to your prepared questions, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During your appointment, your doctor or other health care provider is likely to ask you a number of questions about your eating, activity, mood and thoughts, and any symptoms you might have. You may be asked such questions as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What and how much do you eat in a typical day?&lt;/li&gt;
+	&lt;li&gt;How much activity do you get in a typical day?&lt;/li&gt;
+	&lt;li&gt;During what periods of your life did you gain weight?&lt;/li&gt;
+	&lt;li&gt;What are the factors that you believe affect your weight?&lt;/li&gt;
+	&lt;li&gt;How is your daily life affected by your weight?&lt;/li&gt;
+	&lt;li&gt;How is your mood affected by your weight?&lt;/li&gt;
+	&lt;li&gt;What diets or treatments have you tried to lose weight?&lt;/li&gt;
+	&lt;li&gt;What other medical conditions, if any, do you have?&lt;/li&gt;
+	&lt;li&gt;Do you have any family members with weight problems?&lt;/li&gt;
+	&lt;li&gt;What are your weight-loss goals?&lt;/li&gt;
+	&lt;li&gt;Are you ready to make changes in your lifestyle to lose weight?&lt;/li&gt;
+	&lt;li&gt;What do you think might prevent you from losing weight?&lt;/li&gt;
+	&lt;li&gt;How committed are you to losing weight?&lt;/li&gt;
+	&lt;li&gt;What medications or over-the-counter herbs and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you have several days or weeks before your scheduled appointment, you can start making some changes on your own to your eating and activity levels as you begin the journey to lose weight. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Start making healthy changes in your diet,&lt;/strong&gt; such as eating more fruits, vegetables and whole grains and reducing portion sizes. Eat breakfast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Track how much you&apos;re eating or drinking each day&lt;/strong&gt; so that you get a sense of how many calories you&apos;re taking in. It&apos;s easy to underestimate how many calories you actually take in every day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Begin increasing your activity level.&lt;/strong&gt; Try to get up and move around your home more frequently. Start gradually if you aren&apos;t in good shape or aren&apos;t used to exercising. Even a 10-minute daily walk can help. If you have any health conditions, or if you&apos;re a man over age 40 or a woman over age 50, talk to your doctor before you start a new exercise program.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor believes you are overweight or obese, he or she will typically review your health history in detail, perform a physical exam and recommend some tests. 
+&lt;/p&gt;
+&lt;p&gt;
+These exams and tests generally include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Taking your health history.&lt;/strong&gt; Your doctor may review your weight history, weight-loss efforts, exercise habits, eating patterns, what other conditions you&apos;ve had, medications, stress levels and other issues about your health. Your doctor may also review your family&apos;s health history to see if you may be predisposed to certain conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Checking for other health problems.&lt;/strong&gt; If you have known health problems, your doctor will evaluate them. Your doctor will also check for other possible health problems in the examination and laboratory tests, such as high blood pressure and diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calculating your BMI.&lt;/strong&gt; Your doctor will check your body mass index (BMI) to determine your level of obesity. Your BMI also helps determine your overall health risk and what treatment may be appropriate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Measuring your waist circumference.&lt;/strong&gt; Fat stored around your waist, sometimes called visceral fat or abdominal fat, may further increase your risk of diseases such as diabetes and heart disease. Women with a waist measurement (circumference) of more than 35 inches and men with a waist measurement of more than 40 inches may have more health risks than do people with smaller waist measurements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A general physical exam.&lt;/strong&gt; This includes measuring your height, checking vital signs, such as heart rate, blood pressure and temperature, listening to your heart and lungs, and examining your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; What tests you have depend on your health and risk factors. They may include a cholesterol test, liver function tests, fasting glucose, a thyroid test and others, depending on your health situation. Your doctor may also recommend certain heart tests, such as an electrocardiogram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Gathering all this information helps you and your doctor determine how much weight you need to lose and what health conditions or risks you have. And this will shape what treatment options are right for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of obesity treatment is to reach and stay at a healthy weight. You may need to work with a team of health professionals, including a nutritionist, dietitian, therapist or an obesity specialist, to help you understand and make changes in your eating and activity habits. 
+&lt;/p&gt;
+&lt;p&gt;
+You can start feeling better and seeing improvements in your health by just introducing better eating and activity habits. The initial goal is a modest weight loss &amp;mdash; 5 to 10 percent of your total weight. That means that if you weigh 200 pounds (91 kg) and are obese by BMI standards, you would need to lose only about 10 to 20 pounds (4.5 to 9.1 kg) to start seeing benefits. 
+&lt;/p&gt;
+&lt;p&gt;
+All weight-loss programs require changes in your eating habits and increased physical activity. The treatment methods that are right for you depend on your level of obesity, your overall health and your willingness to participate in your weight-loss plan. Other treatment tools include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dietary changes&lt;/li&gt;
+	&lt;li&gt;Exercise and activity&lt;/li&gt;
+	&lt;li&gt;Behavior change&lt;/li&gt;
+	&lt;li&gt;Prescription weight-loss medications&lt;/li&gt;
+	&lt;li&gt;Weight-loss surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dietary changes&lt;/strong&gt; &lt;br /&gt;
+Reducing calories and eating healthier are vital to overcoming obesity. Although you may lose weight quickly at first, slow and steady weight loss of 1 or 2 pounds (1/2 to 1 kilogram) a week over the long term is considered the safest way to lose weight and the best way to keep it off permanently. Avoid drastic and unrealistic diet changes, such as crash diets, because they&apos;re unlikely to help you keep excess weight off for the long term. 
+&lt;/p&gt;
+&lt;p&gt;
+Dietary ways to overcome obesity include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A low-calorie diet.&lt;/strong&gt; The key to weight loss is reducing how many calories you take in. You and your health care providers can review your typical eating and drinking habits to see how many calories you normally consume and where you can cut back. You and your doctor can decide how many calories you need to take in each day to lose weight, but a typical amount is 1,000 to 1,600 calories.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Feeling full on less.&lt;/strong&gt; The concept of energy density can help you satisfy your hunger with fewer calories. All foods have a certain number of calories within a given amount (volume). Some foods, such as desserts, candies, fats and processed foods, are high in energy density. This means that a small volume of that food has a large number of calories. In contrast, other foods, such as fruits and vegetables, have low energy density. These foods provide a larger portion size with a fewer number of calories. By eating larger portions of foods less packed with calories, you reduce hunger pangs, take in fewer calories and feel better about your meal, which contributes to how satisfied you feel overall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adopting a healthy-eating plan.&lt;/strong&gt; To make your overall diet healthier, eat more plant-based foods, such as fruits, vegetables and whole-grain carbohydrates. Also emphasize lean sources of protein, such as beans, lentils and soy, and lean meats. Try to include fish twice a week. Limit salt and added sugar. Stick with low-fat dairy products. Eat small amounts of fats, and make sure they come from heart-healthy sources, such as nuts and olive, canola and nut oils. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meal replacements.&lt;/strong&gt; These plans suggest that you replace one or two meals with their products &amp;mdash; such as low-calorie shakes or meal bars &amp;mdash; and eat healthy snacks and a healthy, balanced third meal that&apos;s low in fat and calories. In the short term, this type of diet can help you lose weight. Keep in mind that these diets likely won&apos;t teach you how to change your overall lifestyle, though, so you may have to keep this up if you want to keep your weight off.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be wary of quick fixes.&lt;/strong&gt; You may be tempted by fad diets that promise fast and easy weight loss. The reality, however, is that there are no magic foods or quick fixes. Fad diets may help in the short term, but the long-term results don&apos;t appear to be any better than other diets. Similarly, you may lose weight on a crash diet, but you&apos;re likely to regain it when you stop the diet. To lose weight &amp;mdash; and keep it off &amp;mdash; you have to adopt healthy-eating habits that you can maintain over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Exercise and activity&lt;/strong&gt; &lt;br /&gt;
+Increased physical activity or exercise also is an essential part of obesity treatment. Most people who are able to maintain their weight loss for more than a year get regular exercise, even simply walking. 
+&lt;/p&gt;
+&lt;p&gt;
+To boost your activity level: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; The American College of Sports Medicine recommends that people who are overweight or obese get at least 150 minutes a week of moderate-intensity physical activity to prevent further weight gain or to lose a modest amount of weight. But to achieve significant weight loss, you may need to get as much as 250 to 300 minutes of exercise a week. You probably will need to gradually increase the amount you exercise as your endurance and fitness improve. To make your own exercise goal more doable, break it up into several sessions throughout the day, doing just five or six minutes at a time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase your daily activity.&lt;/strong&gt; Even though regular aerobic exercise is the most efficient way to burn calories and shed excess weight, any extra movement helps burn calories. Making simple changes throughout your day can add up to big benefits. Park farther from store entrances, rev up your household chores, garden, get up and move around periodically, and wear a pedometer to track how many steps you actually take over the course of a day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior changes&lt;/strong&gt; &lt;br /&gt;
+A behavior modification program can help you make lifestyle changes, lose weight and keep it off. Steps to take include examining your current habits to find out what factors, stresses or situations may have contributed to your obesity. 
+&lt;/p&gt;
+&lt;p&gt;
+Behavior modification, sometimes called behavior therapy, can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Counseling.&lt;/strong&gt; Therapy or interventions with trained mental health or other professionals can help you address emotional and behavioral issues related to eating. Therapy can help you understand why you overeat and learn healthy ways to cope with anxiety. You can also learn how to monitor your diet and activity, understand eating triggers, and cope with food cravings. Counseling may be available by telephone, email or Internet-based programs if travel is difficult. Therapy can take place on both an individual and group basis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; You can find camaraderie and understanding in support groups where others share similar challenges with obesity. Check with your doctor, local hospitals or commercial weight-loss programs for support groups in your area, such as Weight Watchers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prescription weight-loss medication &lt;/strong&gt;&lt;br /&gt;
+Losing weight requires a healthy diet and regular exercise. But in certain situations, prescription weight-loss medication may help. Keep in mind, though, that weight-loss medication is meant to be used along with diet, exercise and behavior changes, not instead of them. If you don&apos;t make these other changes in your life, medication is unlikely to work. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend weight-loss medication if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Other methods of weight loss haven&apos;t worked for you&lt;/li&gt;
+	&lt;li&gt;Your body mass index (BMI) is 30 or greater&lt;/li&gt;
+	&lt;li&gt;Your body mass index (BMI) is greater than 27 and you also have medical complications of obesity, such as diabetes, high blood pressure or sleep apnea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prescription weight-loss medications your doctor may prescribe include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Orlistat (Xenical).&lt;/strong&gt; Orlistat is a weight-loss medication that has been approved by the Food and Drug Administration (FDA) for long-term use in adults and children 12 and older. This medication blocks the digestion and absorption of fat in your stomach and intestines. Unabsorbed fat is eliminated in the stool. Average weight loss with orlistat is about 5 to 7 pounds (2.3 to 3.2 kilograms) more than you can get from diet and exercise after one or two years of taking the medication.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Side effects associated with orlistat include oily and frequent bowel movements, bowel urgency, and gas. These side effects can be minimized as you reduce fat in your diet. Because orlistat blocks absorption of some nutrients, take a multivitamin while taking orlistat to prevent nutritional deficiencies.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The FDA has also approved a reduced-strength version of orlistat (Alli) that&apos;s sold over-the-counter, without a prescription. Alli is not approved for children. This medication works the same as prescription-strength orlistat and is meant only to supplement &amp;mdash; not replace &amp;mdash; a healthy diet and regular exercise.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Lorcaserin (Belviq).&lt;/strong&gt; Lorcaserin is a long-term weight-loss drug approved by the FDA for adults. It works by affecting chemicals in your brain that help decrease your appetite and make you feel full, so you eat less. Your doctor will carefully monitor your weight loss while taking lorcaserin. If you don&apos;t lose about 5 percent of your total body weight within 12 weeks of taking lorcaserin, it&apos;s unlikely the drug will work for you and the medication should be stopped.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Side effects of lorcaserin include headaches, dizziness, fatigue, nausea, dry mouth and constipation. Rare but serious side effects include a chemical imbalance (serotonin syndrome), suicidal thoughts, psychiatric problems, and problems with memory or comprehension. Pregnant women shouldn&apos;t take lorcaserin.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Phentermine-topiramate (Qsymia).&lt;/strong&gt; This weight-loss medication is a combination drug approved by the FDA for long-term use in adults. Qsymia combines phentermine, a weight-loss drug prescribed for short-term use, with topiramate, a medication that&apos;s used to control seizures. Your doctor will monitor your weight loss while taking the drug. If you don&apos;t lose at least 3 percent of your body weight within 12 weeks of starting treatment, your doctor may suggest either stopping use of Qsymia or increasing your dose, depending on your condition.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Side effects include increased heart rate, tingling of hands and feet, insomnia, dizziness, dry mouth and constipation. Serious but rare side effects include suicidal thoughts, problems with memory or comprehension, sleep disorders and changes to your vision. Pregnant women shouldn&apos;t take Qsymia. Qsymia increases the risk of birth defects.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Phentermine (Adipex-P, Suprenza).&lt;/strong&gt; Phentermine is a weight-loss medication for short-term use (three months) in adults. Using weight-loss medications short-term doesn&apos;t usually lead to long-term weight loss. While some health care providers prescribe phentermine for long-term use, few studies have evaluated its safety and weight-loss results long term.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You need close medical monitoring while taking a prescription weight-loss medication. Also, keep in mind that a weight-loss medication may not work for everyone. If the medication does work, its effects tend to level off after six months of use like any other method of weight loss. You may need to take a weight-loss medication indefinitely. When you stop taking a weight-loss medication, you&apos;re likely to regain much or all of the weight you lost.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Weight-loss surgery&lt;/strong&gt; &lt;br /&gt;
+In some cases, weight-loss surgery, also called bariatric surgery, is an option. Weight-loss surgery offers the best chance of losing the most weight, but it can pose serious risks. Weight-loss surgery limits the amount of food you&apos;re able to comfortably eat or decreases the absorption of food and calories, or both. 
+&lt;/p&gt;
+&lt;p&gt;
+Weight-loss surgery for obesity may be considered if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have extreme obesity, with a body mass index (BMI) of 40 or higher&lt;/li&gt;
+	&lt;li&gt;Your BMI is 35 to 39.9, and you also have a serious weight-related health problem, such as diabetes or high blood pressure&lt;/li&gt;
+	&lt;li&gt;You&apos;re committed to making the lifestyle changes that are necessary for surgery to work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Weight-loss surgery can often help you lose as much as 50 percent or more of your excess body weight. But weight-loss surgery isn&apos;t a miracle obesity cure. It doesn&apos;t guarantee that you&apos;ll lose all of your excess weight or that you&apos;ll keep it off long term. Weight-loss success after surgery depends on your commitment to making lifelong changes in your eating and exercise habits. 
+&lt;/p&gt;
+&lt;p&gt;
+Common weight-loss surgeries include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gastric bypass surgery.&lt;/strong&gt; This is the favored weight-loss surgery in the United States because it has shown relatively good long-term results. In gastric bypass (Roux-en-Y gastric bypass), the surgeon creates a small pouch at the top of your stomach. The small intestine is then cut a short distance below the main stomach and connected to the new pouch. Food and liquid flow directly from the pouch into this part of the intestine, bypassing most of your stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopic adjustable gastric banding (LAGB).&lt;/strong&gt; In this procedure, your stomach is separated into two pouches with an inflatable band. Pulling the band tight, like a belt, the surgeon creates a tiny channel between the two pouches. The band keeps the opening from expanding and is generally designed to stay in place permanently. LAGB is popular because it is less invasive, generally causes slow, steady weight loss and the band can be adjusted if needed. However, as with other procedures, this won&apos;t work without changes in your behavior. Results are usually not as good as with other procedures. The LAP-BAND gastric banding device has also been approved for use in people who have a BMI of 30 to 34 and have an additional health condition related to their obesity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastric sleeve.&lt;/strong&gt; In this procedure, part of the stomach is removed, creating a smaller reservoir for food. There are ongoing studies evaluating this procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biliopancreatic diversion with duodenal switch.&lt;/strong&gt; In this procedure, most of your stomach is surgically removed. This weight-loss surgery offers sustained weight loss, but it poses a greater risk of malnutrition and vitamin deficiencies, and you require close monitoring for health problems. It&apos;s generally used for people who have a body mass index of 50 or more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing weight regain after obesity treatment&lt;/strong&gt; &lt;br /&gt;
+Unfortunately, it&apos;s common to regain weight no matter what obesity treatment methods you try. But that doesn&apos;t mean your weight-loss efforts are futile. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the best ways to prevent regaining the weight you&apos;ve lost is getting regular physical activity. Keep track of your physical activity if it helps you stay motivated and on course. As you lose weight and gain better health, talk to your doctor about what additional activities you might be able to do and, if appropriate, how to give your activity and exercise a boost. 
+&lt;/p&gt;
+&lt;p&gt;
+You may always have to remain vigilant about your weight. Combining a healthier diet and more activity is the best way to lose weight and keep it off for the long term. If you take weight-loss medications, you&apos;ll probably regain weight when you stop taking them. You might even regain weight after weight-loss surgery if you continue to overeat or eat foods laden with fat and calories. 
+&lt;/p&gt;
+&lt;p&gt;
+Take your weight loss and weight maintenance one day at a time and surround yourself with supportive resources to help ensure your success. Find a healthier way of living that you can stick with for the long term. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your effort to overcome obesity is more likely to be successful it you follow strategies at home in addition to your formal treatment plan. These can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Changing a lifestyle you may have lived with for many years can be difficult. Be honest with your doctor, therapist or other health care providers if you find your activity or eating goals slipping. You can work together to come up with new ideas or new approaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medications as directed.&lt;/strong&gt; If you take weight-loss medications or medications to treat obesity-related conditions, such as high blood pressure or diabetes, take them exactly as prescribed. If you have a problem sticking with your medication regimen or have unpleasant side effects, talk to your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about your condition.&lt;/strong&gt; Education about obesity can help you learn more about why you became obese and what you can do about it. You may feel more empowered to take control and stick to your treatment plan. Read reputable self-help books and consider talking about them with your doctor or therapist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlist support.&lt;/strong&gt; Get your family and friends on board with your weight-loss goals. Surround yourself with people who will support you and help you, not sabotage your efforts. Make sure they understand how important weight loss is to your health. You might also want to join a weight-loss support group.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set realistic goals.&lt;/strong&gt; When you have to lose a significant amount of weight, you may set goals that are unrealistic, such as trying to lose too much too fast. Don&apos;t set yourself up for failure. Set daily or weekly goals for exercise and weight loss. Make small changes in your diet instead of attempting drastic changes that you&apos;re not likely to stick with for the long haul.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identify and avoid food triggers.&lt;/strong&gt; Distract yourself from your desire to eat with something positive, such as calling a friend. Practice saying no to unhealthy foods and big portions. Eat when you&apos;re actually hungry &amp;mdash; not simply when the clock says it&apos;s time to eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a record.&lt;/strong&gt; Keep a food and activity journal. This journal can help you remain accountable for your eating and exercise habits. You can discover behavior that may be holding you back and, conversely, what works well for you. You can also use the journal to track other important health parameters such as blood pressure and cholesterol levels and overall fitness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Numerous dietary supplements that promise to help you shed weight quickly are available. But in almost all cases, the effectiveness and safety of these products are questionable. Talk to your doctor before taking any dietary supplements. 
+&lt;/p&gt;
+&lt;p&gt;
+Herbal remedies, vitamins and minerals, all considered dietary supplements by the Food and Drug Administration, don&apos;t have the same rigorous testing and labeling process as over-the-counter and prescription medications. Yet some of these substances, including products labeled as &quot;natural,&quot; have drug-like effects that can be dangerous. Even some vitamins and minerals can cause problems when taken in excessive amounts. Ingredients may not be standard, and they can cause unpredictable and harmful side effects. Dietary supplements can also cause dangerous interactions with prescription medications you take. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s thought that acupuncture and hypnosis may complement other obesity treatments. Talk to your doctor if you&apos;re interested in adding acupuncture or hypnosis to your treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Talk to your doctor or therapist about improving your coping skills and consider these tips to cope with obesity and your weight-loss efforts: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Journal.&lt;/strong&gt; Write in a journal to express pain, anger, fear or other emotions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect.&lt;/strong&gt; Don&apos;t become isolated. Try to participate in regular activities and get together with family or friends periodically.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join.&lt;/strong&gt; Join a support group so that you can connect with others facing similar challenges.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Focus.&lt;/strong&gt; Stay focused on your goals. Overcoming obesity is an ongoing process. Stay motivated by keeping your goals in mind. Remind yourself that you&apos;re responsible for managing your condition and working toward your goals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relax.&lt;/strong&gt; Learn relaxation and stress management. Learning to recognize stress and developing stress management and relaxation skills can help you gain control of unhealthy eating habits.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether you&apos;re at risk of becoming obese, currently overweight or at a healthy weight, you can take steps to prevent unhealthy weight gain and related health problems. Not surprisingly, the steps to prevent weight gain are the same as the steps to lose weight: daily exercise, a healthy diet, and a long-term commitment to watch what you eat and drink.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; According to the American College of Sports Medicine, you need to get 150 to 250 minutes of moderate-intensity activity a week to prevent weight gain. Moderately intense physical activities include fast walking and swimming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy meals and snacks.&lt;/strong&gt; Focus on low-calorie, nutrient-dense foods, such as fruits, vegetables and whole grains. Avoid saturated fat and limit sweets and alcohol. You can still enjoy small amounts of high-fat, high-calorie foods as an infrequent treat. Just be sure to choose foods that promote a healthy weight and good health more often than you choose foods that don&apos;t.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know and avoid the food traps that cause you to eat.&lt;/strong&gt; Identify situations that trigger out-of-control eating. Try keeping a journal and write down what you eat, how much you eat, when you eat, how you&apos;re feeling and how hungry you are. After a while, you should see patterns emerge. You can plan ahead and develop strategies for handling these types of situations and stay in control of your eating behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your weight regularly.&lt;/strong&gt; People who weigh themselves at least once a week are more successful in keeping off excess pounds. Monitoring your weight can tell you whether your efforts are working and can help you detect small weight gains before they become big problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be consistent.&lt;/strong&gt; Sticking to your healthy-weight plan during the week, on the weekends, and amidst vacation and holidays as much as possible increases your chances of long-term success.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Obesity
+	</Title>
+	<Abstract>
+		Obesity &amp;mdash; Comprehensive overview covers causes, treatment and prevention of this serious health risk.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01715" LinkType="Internal" ObjectID="FA6BEB6E-E7FF-0DBD-146013DA12A2C9C6" Title="Phentermine for weight loss: Can it help?" Url="http://www.mayoclinic.com/health/phentermine/AN01715" />
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Calculator" DocID="SM00083" LinkType="Internal" ObjectID="A2A6A209-EAAF-4B18-AEF17503DC91698C" Title="Tool: Target heart rate calculator" Url="http://www.mayoclinic.com/health/target-heart-rate/SM00083" />
+		<LinkItem ContentType="Answer" DocID="AN02178" LinkType="Internal" ObjectID="A1139DD7-CDCB-DC39-3CA5A55B5497F085" Title="Sleep and weight gain: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/sleep-and-weight-gain/AN02178" />
+		<LinkItem ContentType="Answer" DocID="AN02189" LinkType="Internal" ObjectID="9BCE7986-0EA7-D614-E957237B3A9B2751" Title="How is brown fat different from other fat?" Url="http://www.mayoclinic.com/health/brown-fat/AN02189" />
+		<LinkItem ContentType="Answer" DocID="AN02193" LinkType="Internal" ObjectID="97CB9112-EF63-303D-A8892F7C9A02FEB4" Title="Does prickly pear cactus have health benefits?" Url="http://www.mayoclinic.com/health/prickly-pear-cactus/AN02193" />
+		<LinkItem ContentType="Answer" DocID="AN01621" LinkType="Internal" ObjectID="7CD4E80A-E7FF-0DBD-1C2A5D79F07E0BE1" Title="Fast weight loss: What&apos;s wrong with it?" Url="http://www.mayoclinic.com/health/fast-weight-loss/AN01621" />
+		<LinkItem ContentType="Answer" DocID="AN01619" LinkType="Internal" ObjectID="7CD3EB4E-E7FF-0DBD-1A0CA768270F5259" Title="Weight loss: Better to cut calories or exercise more?" Url="http://www.mayoclinic.com/health/weight-loss/AN01619" />
+		<LinkItem ContentType="Answer" DocID="AN01617" LinkType="Internal" ObjectID="7CD2DFFB-E7FF-0DBD-153B865BEBB7058B" Title="Weight-loss hypnosis: Does it work?" Url="http://www.mayoclinic.com/health/weight-loss-hypnosis/AN01617" />
+		<LinkItem ContentType="Answer" DocID="AN02187" LinkType="Internal" ObjectID="77CE84E7-09D1-7F6C-62A5E6E07D5009FF" Title="Low milk supply: What causes it?" Url="http://www.mayoclinic.com/health/low-milk-supply/AN02187" />
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="Answer" DocID="AN01119" LinkType="Internal" ObjectID="607F7A98-A79D-4A5F-ABED87EE6910E475" Title="Breakfast: How does it help weight control?" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN01119" />
+		<LinkItem ContentType="SlideShow" DocID="MY01153" LinkType="Internal" ObjectID="2309EF97-9AD9-2973-5604FE777654FB88" Title="Slide show: Low-calorie foods for weight control" Url="http://www.mayoclinic.com/health/low-calorie-foods/MY01153" />
+		<LinkItem ContentType="Answer" DocID="AN01378" LinkType="Internal" ObjectID="1C24032F-E7FF-0DBD-13439B7B6010D45C" Title="Gastric bypass surgery: What happens if I regain the weight?" Url="http://www.mayoclinic.com/health/gastric-bypass-surgery/AN01378" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00825" LinkType="Internal" ObjectID="063B6ABC-F842-575D-3C0FD980BF2360EA" Title="Gastric bypass surgery" Url="http://www.mayoclinic.com/health/gastric-bypass/MY00825" />
+		<LinkItem ContentType="Article" DocID="WT00030" LinkType="Internal" ObjectID="D8A48C83-E7FF-0DBD-192F9C010830E30B" Title="Alli weight-loss pill: Does it work?" Url="http://www.mayoclinic.com/health/alli/WT00030" />
+		<LinkItem ContentType="Article" DocID="MY02089" LinkType="Internal" ObjectID="CC778A22-B2D6-6E96-E37A7C52DBF5B7AD" Title="Healthy chicken recipes" Url="http://www.mayoclinic.com/health/healthy-chicken-recipes/MY02089" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="MY00731" LinkType="Internal" ObjectID="888784EA-0CA6-7CD9-0882E8A19A6B8E6D" Title="Couponing and other frugal food shopping tips" Url="http://www.mayoclinic.com/health/frugal-food/MY00731" />
+		<LinkItem ContentType="Article" DocID="WT00031" LinkType="Internal" ObjectID="84A6FD3C-E7FF-0DBD-13771DE6F11A352E" Title="Gastric bypass surgery: Who is it for?" Url="http://www.mayoclinic.com/health/gastric-bypass-surgery/WT00031" />
+		<LinkItem ContentType="Article" DocID="MY01594" LinkType="Internal" ObjectID="5B9DDB57-07FE-9503-B6566FF90ACCE59C" Title="Boiling down the dietary guidelines" Url="http://www.mayoclinic.com/health/dietary-guidelines/MY01594" />
+		<LinkItem ContentType="Article" DocID="MY00845" LinkType="Internal" ObjectID="4D35344B-DB3F-BFEF-E798D79A7289158D" Title="Added sugar: Don&apos;t get sabotaged by sweeteners" Url="http://www.mayoclinic.com/health/added-sugar/MY00845" />
+		<LinkItem ContentType="Calculator" DocID="NU00597" LinkType="Internal" ObjectID="D961CE75-9A59-42F0-B248EFA4B67765DB" Title="BMI calculator" Url="http://www.mayoclinic.com/health/bmi-calculator/NU00597" />
+		<LinkItem ContentType="Answer" DocID="AN02007" LinkType="Internal" ObjectID="8D083B5C-A8A9-A497-97B837A7B6548EEB" Title="Normal weight obesity: A hidden health risk?" Url="http://www.mayoclinic.com/health/normal-weight-obesity/AN02007" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Disease" DocID="DS00470" LinkType="Internal" ObjectID="375268B4-E673-4ADA-908E8B7EE2E4026A" Title="Cushing&apos;s syndrome" Url="http://www.mayoclinic.com/health/cushings-syndrome/DS00470" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+	</RelatedLinksBox>
+</Disease>

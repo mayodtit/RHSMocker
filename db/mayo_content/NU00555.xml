@@ -1,0 +1,183 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00555
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00555
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			54697D35-A240-43C0-86E8FC5AD590E555
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Spicy Oriental snow peas
+	</Title>
+	<Abstract>
+		Spicy Oriental snow peas &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Snow peas are long and flat and contain tiny lentil-sized peas. Sugar snap peas look like shelling peas but are smaller and have completely edible pods. Use either of these spring favorites in this quick side dish. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Bring a large saucepan 3/4 full of water to a boil. Add the peas, reduce heat and simmer for 2 minutes. Drain the peas then plunge them into a bowl of ice water to stop the cooking. Drain again thoroughly and set aside. To prepare the sauce, combine the soy sauce, rice vinegar, brown sugar, cornstarch and five-spice powder in a small bowl. Stir until the cornstarch and seasonings have dissolved. In a large skillet, heat the sesame oil over medium heat. Stir in the garlic and peas. Increase the heat to high, stirring frequently. Pour in the soy sauce mixture and cook until thickened, 1 to 2 minutes. Sprinkle with crushed red pepper, if desired. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 pound snow peas, washed and trimmed of stems and strings (about 7 cups)&lt;/li&gt;
+	&lt;li&gt;3 tablespoons reduced-sodium soy sauce&lt;/li&gt;
+	&lt;li&gt;4 tablespoons rice vinegar&lt;/li&gt;
+	&lt;li&gt;2 tablespoons brown sugar&lt;/li&gt;
+	&lt;li&gt;1 tablespoon cornstarch&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon Chinese five-spice powder&lt;/li&gt;
+	&lt;li&gt;1 teaspoon sesame oil&lt;/li&gt;
+	&lt;li&gt;1 garlic clove, chopped&lt;/li&gt;
+	&lt;li&gt;Crushed red pepper, optional &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1/2
+			</Sweets>
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1/2
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets">
+				1/2
+			</Sweets>
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				70
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				12 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				34 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				292 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				1 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Side dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Stir-fry
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

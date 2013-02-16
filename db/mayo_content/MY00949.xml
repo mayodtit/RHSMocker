@@ -1,0 +1,314 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00949
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-biopsy/MY00949
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3652" Title="Digestive system">
+						<Keyword MCVID="4099" Title="Liver biopsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BF094DD4-EB8C-F3AC-12068A1EC5AE889B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				liver biopsy procedure
+			</MetaKeyword>
+			<MetaKeyword>
+				liver biopsy complications
+			</MetaKeyword>
+			<MetaKeyword>
+				liver damage
+			</MetaKeyword>
+			<MetaKeyword>
+				liver cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				nonalcoholic fatty liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				percutaneous liver biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				transjugular liver biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				laparoscopic liver biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				transvenous liver biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				needle biopsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A liver biopsy is a procedure to remove a small piece of liver tissue, so it can be examined under a microscope for signs of damage or disease. Your doctor may recommend a liver biopsy if blood tests or imaging techniques suggest you might have a liver problem. A liver biopsy also is used to determine the severity of liver disease. This information helps guide treatment decisions. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common type of liver biopsy is called percutaneous liver biopsy. It involves inserting a thin needle through your abdomen into the liver and removing a small piece of tissue. Two other types of liver biopsy &amp;mdash; one using a vein in the neck (transjugular) and the other using a small abdominal incision (laparoscopic) &amp;mdash; also remove liver tissue with a needle. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A liver biopsy may be done to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diagnose a liver problem that can&apos;t be otherwise identified&lt;/li&gt;
+	&lt;li&gt;Obtain a sample of tissue from an abnormality found by an imaging study&lt;/li&gt;
+	&lt;li&gt;Determine the severity of liver disease &amp;mdash; a process called staging&lt;/li&gt;
+	&lt;li&gt;Help develop treatment plans based on the liver&apos;s condition&lt;/li&gt;
+	&lt;li&gt;Determine how well treatment for liver disease is working&lt;/li&gt;
+	&lt;li&gt;Monitor the liver after a liver transplant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may recommend a liver biopsy if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abnormal liver test results that can&apos;t be explained&lt;/li&gt;
+	&lt;li&gt;A mass (tumor) or other abnormalities on your liver as seen on imaging tests&lt;/li&gt;
+	&lt;li&gt;Ongoing, unexplained fevers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A liver biopsy also is commonly performed to help diagnose and stage certain liver diseases, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nonalcoholic fatty liver disease&lt;/li&gt;
+	&lt;li&gt;Chronic hepatitis B or C&lt;/li&gt;
+	&lt;li&gt;Autoimmune hepatitis&lt;/li&gt;
+	&lt;li&gt;Alcoholic liver disease&lt;/li&gt;
+	&lt;li&gt;Primary biliary cirrhosis&lt;/li&gt;
+	&lt;li&gt;Primary sclerosing cholangitis&lt;/li&gt;
+	&lt;li&gt;Hemochromatosis&lt;/li&gt;
+	&lt;li&gt;Wilson&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A liver biopsy is a safe procedure when performed by an experienced doctor. Possible risks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Pain at the biopsy site is the most common complication after a liver biopsy. Pain after a liver biopsy is usually a mild discomfort. If pain makes you uncomfortable, you may be given a narcotic pain medication, such as acetaminophen with codeine (Tylenol with Codeine).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Bleeding can occur after a liver biopsy. Excessive bleeding may require you to be hospitalized for a blood transfusion or surgery to stop the bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, bacteria may enter the abdominal cavity or bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accidental injury to a nearby organ.&lt;/strong&gt; In rare instances, the needle may stick another internal organ, such as the gallbladder or a lung, during a liver biopsy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In a transjugular procedure, a thin tube is inserted through a large vein in your neck and passed down into the vein that runs through your liver. If you have a transjugular liver biopsy, other infrequent risks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Collection of blood (hematoma) in the neck.&lt;/strong&gt; Blood may pool around the site where the catheter was inserted, potentially causing pain and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Temporary problems with the facial nerves.&lt;/strong&gt; Rarely, the transjugular procedure can injure nerves that affect the face and eyes, causing short-term problems such as a drooping eyelid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Temporary voice problems.&lt;/strong&gt; You may be hoarse, have a weak voice or lose your voice for a short time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Puncture of the lung.&lt;/strong&gt; If the needle accidentally sticks your lung, the result may be a collapsed lung (pneumothorax).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before your liver biopsy, you&apos;ll meet with your doctor to talk about what to expect during the biopsy. This is a good time to ask questions about the procedure and make sure you understand the risks and benefits. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stop taking certain medications&lt;/strong&gt; &lt;br /&gt;
+When you meet with your doctor, bring a list of all medications you take, including over-the-counter medications, vitamins and herbal supplements. Before your liver biopsy, you&apos;ll likely be asked to stop taking medications and supplements that can increase the risk of bleeding, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aspirin, ibuprofen (Advil, Motrin, others) and certain other pain relievers&lt;/li&gt;
+	&lt;li&gt;Blood-thinning medications (anticoagulants), such as warfarin (Coumadin)&lt;/li&gt;
+	&lt;li&gt;Certain dietary supplements that may increase risk of uncontrolled bleeding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor or nurse will let you know if you need to temporarily avoid any of your other medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Undergo blood tests&lt;/strong&gt; &lt;br /&gt;
+Before your biopsy, you&apos;ll have a blood test to check your blood&apos;s ability to clot. If you have blood-clotting problems, you may be given a medication before your biopsy to reduce the risk of bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stop eating and drinking before the procedure&lt;/strong&gt; &lt;br /&gt;
+You may be asked not to drink or eat for six to eight hours before the liver biopsy. Some people can eat a light breakfast. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare for your recovery&lt;/strong&gt; &lt;br /&gt;
+You may receive a sedative before your liver biopsy. If this is the case, arrange for someone to drive you home after the procedure. Have someone stay with you during the first night or to check on you. Many doctors recommend that people spend the first evening within an hour&apos;s driving distance of the hospital where the biopsy is done, in case a complication develops. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What you can expect during your liver biopsy will depend on the type of procedure you&apos;ll undergo. A percutaneous liver biopsy is the most common type of liver biopsy, but it isn&apos;t an option for everyone. Your doctor may recommend a different form of liver biopsy if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Could have trouble holding still during the procedure&lt;/li&gt;
+	&lt;li&gt;Have a history of or likelihood of bleeding problems or blood-clotting disorders&lt;/li&gt;
+	&lt;li&gt;Might have a tumor involving blood vessels in your liver&lt;/li&gt;
+	&lt;li&gt;Have an abnormal amount of fluid in your abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Are very obese&lt;/li&gt;
+	&lt;li&gt;Have a liver infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Before the procedure&lt;/strong&gt; &lt;br /&gt;
+A liver biopsy is done at a hospital or outpatient center. You&apos;ll likely arrive early in the morning. Your health care team will review your medical history, including the medications you take. 
+&lt;/p&gt;
+&lt;p&gt;
+Just before your biopsy you will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have an IV line placed, usually into a vein in your arm, so that you can be given medications if you need them&lt;/li&gt;
+	&lt;li&gt;Possibly be given a sedative to help you relax during the procedure&lt;/li&gt;
+	&lt;li&gt;Use the toilet if needed, because you&apos;ll need to remain in bed for a few hours after the procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+The steps involved in liver biopsy vary according to the type: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Percutaneous biopsy.&lt;/strong&gt; To begin your procedure, your doctor will locate your liver by tapping on your abdomen or using ultrasound images. In certain situations, ultrasound might be used during the biopsy to guide the needle into your liver. You&apos;ll lie on your back and position your right hand above your head on the table. Your doctor will apply a numbing medication to the area where the needle will be inserted. The doctor then makes a small incision near the bottom of your rib cage on your right side and inserts the biopsy needle. The biopsy itself takes just a few seconds. As the needle passes quickly in and out of your liver, you&apos;ll be asked to exhale and hold your breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transjugular biopsy.&lt;/strong&gt; You&apos;ll lie on your back on an X-ray table. Your doctor applies a numbing medication to one side of your neck, makes a small incision and inserts a flexible plastic tube into your jugular vein. The tube is threaded down the jugular vein and into the large vein in your liver (hepatic vein). Your doctor then injects a contrast dye into the tube and makes a series of X-ray images. The dye shows up on the images, allowing the doctor to see the hepatic vein. A biopsy needle is then threaded through the tube, and one or more liver samples are removed. The catheter is carefully removed, and the incision on your neck is covered with a bandage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopic biopsy.&lt;/strong&gt; During a laparoscopic biopsy, you&apos;ll likely receive general anesthetics, so you won&apos;t be aware during the procedure. You&apos;ll be positioned on your back on an operating table and your doctor will make one or more small incisions in your abdomen. Special tools are inserted through the incisions, including a tiny video camera that projects images on a monitor in the operating room. The doctor uses the video images to guide the tools to the liver to remove tissue samples. The tools are removed and the incisions are closed with stitches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After the biopsy, you can expect to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be taken to a recovery room, where a nurse will monitor your blood pressure, pulse and breathing&lt;/li&gt;
+	&lt;li&gt;Rest quietly for two to four hours, or longer if you had a transjugular procedure&lt;/li&gt;
+	&lt;li&gt;Feel some soreness where the needle was inserted, which may last as long as a week&lt;/li&gt;
+	&lt;li&gt;Have someone drive you home, since you won&apos;t be able to drive until the sedative wares off&lt;/li&gt;
+	&lt;li&gt;Avoid lifting more than 10 to 15 pounds for 24 hours&lt;/li&gt;
+	&lt;li&gt;Be able to get back to your usual activities in a day or two&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your liver tissue goes to a laboratory to be examined by a doctor who specializes in diagnosing disease (pathologist). The pathologist will look for signs of disease and damage to the liver. Your biopsy report should come back from the pathology lab within a few days to a week. 
+&lt;/p&gt;
+&lt;p&gt;
+At a follow-up visit, your doctor will explain the results. You may be diagnosed with a liver disease, or your liver disease may be given a stage or grade number based on the severity &amp;mdash; mild, moderate or severe. Your doctor will discuss what treatment, if any, you need. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Liver biopsy
+	</Title>
+	<Abstract>
+		Liver biopsy &amp;mdash; Overview covers definition, risks, preparation, results for this procedure to examine liver tissue.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="Disease" DocID="DS00785" LinkType="Internal" ObjectID="FA6472B2-E7FF-0DBD-1DA99DD872473B71" Title="Alcoholic hepatitis" Url="http://www.mayoclinic.com/health/alcoholic-hepatitis/DS00785" />
+		<LinkItem ContentType="Disease" DocID="DS00604" LinkType="Internal" ObjectID="A4AFF83C-2A5D-9994-E3C9FA721C933D2B" Title="Primary biliary cirrhosis" Url="http://www.mayoclinic.com/health/primary-biliary-cirrhosis/DS00604" />
+		<LinkItem ContentType="Disease" DocID="DS00411" LinkType="Internal" ObjectID="9D97C9C2-C25F-44D4-BB016D5D76CFB144" Title="Wilson&apos;s disease" Url="http://www.mayoclinic.com/health/wilsons-disease/DS00411" />
+		<LinkItem ContentType="Disease" DocID="DS00455" LinkType="Internal" ObjectID="992CA155-2D99-4C3E-BDBF4F4470FE5B8F" Title="Hemochromatosis" Url="http://www.mayoclinic.com/health/hemochromatosis/DS00455" />
+		<LinkItem ContentType="Disease" DocID="DS00676" LinkType="Internal" ObjectID="8E70A4E0-2A5D-9994-EAEB313F986D15CD" Title="Autoimmune hepatitis" Url="http://www.mayoclinic.com/health/autoimmune-hepatitis/DS00676" />
+		<LinkItem ContentType="Disease" DocID="DS00577" LinkType="Internal" ObjectID="8903EB68-8F95-4135-87D24C6EFF964A6E" Title="Nonalcoholic fatty liver disease" Url="http://www.mayoclinic.com/health/nonalcoholic-fatty-liver-disease/DS00577" />
+		<LinkItem ContentType="Disease" DocID="DS00918" LinkType="Internal" ObjectID="87E122FE-E7FF-0DBD-115C3E28106DCB54" Title="Primary sclerosing cholangitis" Url="http://www.mayoclinic.com/health/primary-sclerosing-cholangitis/DS00918" />
+		<LinkItem ContentType="Disease" DocID="DS00943" LinkType="Internal" ObjectID="5110F542-E7FF-0DBD-1DF0D8C718C40E83" Title="Pneumothorax" Url="http://www.mayoclinic.com/health/pneumothorax/DS00943" />
+		<LinkItem ContentType="Disease" DocID="DS00398" LinkType="Internal" ObjectID="3D667EE6-C73C-4933-8C06F75454372E96" Title="Hepatitis B" Url="http://www.mayoclinic.com/health/hepatitis-b/DS00398" />
+	</RelatedLinksBox>
+</TestProcedure>

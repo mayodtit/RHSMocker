@@ -1,0 +1,348 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00976
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hypercalcemia/DS00976
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="3138" Title="Hypercalcemia" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6E26DA-E7FF-0DBD-175E46B753BBA497
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypercalcemia
+			</MetaKeyword>
+			<MetaKeyword>
+				high calcium
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium in blood
+			</MetaKeyword>
+			<MetaKeyword>
+				too much calcium
+			</MetaKeyword>
+			<MetaKeyword>
+				high calcium count
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypercalcemia is a condition in which the calcium level in your blood is above normal. You need calcium to maintain your bones. It also plays an important role in contracting muscles, releasing hormones and ensuring that your nerves and brain function properly. High calcium levels, however, can interfere with these processes.
+&lt;/p&gt;
+&lt;p&gt;
+The main cause of hypercalcemia is overactivity in one or more of your parathyroid glands, which regulate blood calcium levels. Other causes of hypercalcemia include cancer, certain other medical disorders, some medications and excessive use of calcium and vitamin D supplements.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of hypercalcemia may range from nonexistent to severe. Treatment depends on the underlying cause.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have hypercalcemia, you may have few or no signs and symptoms, particularly if your hypercalcemia is mild. More severe hypercalcemia symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Excessive thirst&lt;/li&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Muscle and joint aches&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Lethargy and fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The amount of excess calcium in your blood isn&apos;t necessarily related to the severity of your signs and symptoms. For example, older people are more likely to have pain and weakness in their muscles.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you develop signs and symptoms that may indicate hypercalcemia, such as being extremely thirsty, urinating frequently and having abdominal pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Causes of hypercalcemia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Overactivity of parathyroid glands.&lt;/strong&gt; The primary cause of hypercalcemia is overactivity in one or more of your four parathyroid glands (primary hyperparathyroidism), which lie behind your thyroid gland in your neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Certain types of cancer, particularly lung cancer and breast cancer, as well as some cancers of the blood, such as multiple myeloma, increase your risk of hypercalcemia. Some cancerous (malignant) tumors produce a protein that acts like parathyroid hormone, stimulating the release of calcium from your bones into your blood. This is considered a paraneoplastic syndrome, your body&apos;s response to the presence of cancer or a substance the cancer produces. Spread of cancer (metastasis) to your bones also increases your risk of hypercalcemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; Some diseases that produce areas of inflammation due to tissue injury (granulomas) may raise blood levels of vitamin D (calcitriol). Granulomatous diseases include tuberculosis, an infectious lung disease, and sarcoidosis, an inflammatory disease that usually begins in your lungs. Elevated levels of calcitriol stimulate your digestive tract to absorb more calcium, which raises the level of calcium in your blood. Also, a rare genetic disorder known as familial hypocalciuric hypercalcemia causes an increase of calcium in your blood because of faulty calcium receptors in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease effects.&lt;/strong&gt; People with cancer or other diseases that cause them to spend a great deal of time sitting or lying down may develop hypercalcemia. Over time, bones that don&apos;t bear weight release calcium into the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Certain drugs &amp;mdash; such as lithium, which is used to treat bipolar disorder &amp;mdash; may increase the release of parathyroid hormone and cause hypercalcemia. Thiazide diuretics can cause elevated calcium levels in your blood by decreasing the amount of calcium you excrete in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supplements.&lt;/strong&gt; Eating or drinking too much calcium or vitamin D supplements over time can raise calcium levels in your blood above normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; A common cause of mild or transient hypercalcemia is dehydration, because when there is less fluid in your blood, calcium concentrations rise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How calcium affects your body&lt;/strong&gt;&lt;br /&gt;
+Your body stores calcium mainly in your bones, but also in certain cells, particularly in your muscles and your blood. When you eat calcium-rich foods such as milk, cheese and leafy green vegetables, your body usually rids itself of any excess when you urinate, which maintains a normal level of calcium in your blood.
+&lt;/p&gt;
+&lt;p&gt;
+Two hormones serve as primary regulators of the calcium in your blood: parathyroid hormone and calcitonin.
+&lt;/p&gt;
+&lt;p&gt;
+When the calcium in your blood falls, your body produces more parathyroid hormone; when your calcium blood level rises, your body produces less of the hormone. In a finely tuned system of checks and balances, parathyroid hormone causes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your bones to release calcium into your blood&lt;/li&gt;
+	&lt;li&gt;Your digestive tract to absorb more calcium&lt;/li&gt;
+	&lt;li&gt;Your kidneys to excrete less calcium and activate more vitamin D, which plays a vital role in calcium absorption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Normally, if the calcium level in your blood rises too high, your thyroid gland produces calcitonin, a hormone that slows the release of calcium from your bones. The balance is thrown off in hypercalcemia, and your body can&apos;t counter the effects of too much calcium as it usually does.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypercalcemia complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; If your bones continue to release calcium into your blood, you may develop the bone-thinning disease osteoporosis, which could lead to bone fractures, spinal column curvature and loss of height.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney stones.&lt;/strong&gt; If your urine contains too much calcium, crystals may form in your kidneys. Over time, the crystals may combine to form kidney stones (renal lithiasis). Blockage from a stone can lead to kidney damage, and passing a stone can be extremely painful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; Severe hypercalcemia can damage your kidneys, limiting their ability to cleanse the blood and eliminate fluid. If kidney damage is severe, you may lose kidney function permanently, resulting in end-stage renal disease. People with end-stage renal disease require either permanent dialysis &amp;mdash; a mechanical filtration system for removing toxins and waste from your body &amp;mdash; or a kidney transplant to survive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nervous system problems.&lt;/strong&gt; Because calcium helps regulate your nervous system, severe hypercalcemia can lead to confusion, dementia and coma, which can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal heart rhythm (arrhythmia).&lt;/strong&gt; Hypercalcemia can affect the electrical impulses that regulate your heartbeat, causing your heart to beat irregularly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you&apos;ll probably then be referred to a doctor who specializes in treating hormonal disorders (endocrinologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time may help you make the most of your time with your doctor. For hypercalcemia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had kidney stones, bone fractures or osteoporosis?&lt;/li&gt;
+	&lt;li&gt;Do you have bone pain?&lt;/li&gt;
+	&lt;li&gt;Do you have unexplained weight loss?&lt;/li&gt;
+	&lt;li&gt;Have family members had hypercalcemia or kidney stones?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you&apos;re waiting to see your doctor, drinking plenty of fluids may help prevent kidney stones and dehydration. If you have to undergo a medical test that requires you to fast for a set time, follow your doctor&apos;s instructions closely. To lessen your risk of dehydration, ask if it&apos;s okay to drink water during the fast, and don&apos;t fast longer than necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because hypercalcemia may cause few, if any, signs or symptoms, you may not know you have the disorder until routine blood tests show a high level of blood calcium. Blood tests also can reveal whether your parathyroid hormone level is high, indicating that you have hyperparathyroidism. If your parathyroid hormone level is suppressed, your doctor will order other tests to determine the underlying cause of your hypercalcemia. These tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest X-ray&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT) scan&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI) scan&lt;/li&gt;
+	&lt;li&gt;Mammogram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These tests may help determine whether you have lung cancer, breast cancer, other malignancies, or granulomatous diseases of the lung, such as sarcoidosis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have severe hypercalcemia, you may need to be hospitalized to reduce calcium to a safe level and protect your kidneys and bones. If so, hypercalcemia treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous fluids&lt;/strong&gt; to rehydrate you&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loop diuretic medications&lt;/strong&gt; (such as furosemide) to help flush excess calcium from your system and keep your kidneys functioning&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous bisphosphonates,&lt;/strong&gt; a group of drugs that includes pamidronate (Aredia) and zolendronate (Zometa), to prevent bone breakdown&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcitonin,&lt;/strong&gt; a hormone produced by your thyroid gland, to reduce bone reabsorption and slow bone loss&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glucocorticoids&lt;/strong&gt; (corticosteroids) to help counter the effects of too much vitamin D in your blood caused by hypercalcemia&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemodialysis or peritoneal dialysis&lt;/strong&gt; to remove excess waste and calcium from your blood if your kidneys are damaged and you don&apos;t respond to other treatments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once your blood calcium returns to a safe level, treatment for hypercalcemia depends on the underlying cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary hyperparathyroidism&lt;/strong&gt;&lt;br /&gt;
+If your hypercalcemia is mild, you and your doctor may choose to watch and wait, monitoring your bones and kidneys over time to be sure they remain healthy. If you&apos;ve already lost bone mass or developed kidney stones, your doctor may recommend surgery to remove the affected parathyroid gland or glands (parathyroidectomy), which cures the condition in most cases. If you&apos;re not a good candidate for surgery, your doctor may recommend medication. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; Traditionally, surgery has involved a noticeable incision, exploration on both sides of the neck and general anesthesia. But a newer technique, known as minimally invasive radioguided parathyroidectomy, may offer a less-invasive option for some people. In this procedure, doctors use a radioisotope scan (sestamibi scan) to help locate the abnormal parathyroid gland before surgery. For the scan, you&apos;re given a small dose of a radioactive material that&apos;s absorbed only by the overactive parathyroid gland &amp;mdash; not by healthy ones. During the operation, the surgeon uses the sestamibi scan results as a map to locate the abnormal gland. In some cases, a probe that detects radioactivity is used to confirm the location. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	All surgery poses some risks. A small number of people undergoing parathyroid surgery experience damage to the nerves controlling their vocal cords, and some develop chronically low calcium levels, requiring treatment with calcium and vitamin D. In addition, although usually very effective, parathyroid surgery won&apos;t cure the problem in every case. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; The drug cinacalcet (Sensipar), which has been shown to lower calcium levels in the blood by reducing production of parathyroid hormone, may be effective for some people with hyperparathyroidism. If you&apos;ve developed osteoporosis, taking medications called bisphosphonates &amp;mdash; such as alendronate (Fosamax), risedronate (Actonel) or ibandronate (Boniva) &amp;mdash; may preserve bone mass in your spine and hip, reducing your risk of fractures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer&lt;/strong&gt;&lt;br /&gt;
+The decision of whether and how to treat hypercalcemia caused by cancer depends on the overall cancer treatment goals you&apos;ve established with your doctor. Relieving the signs and symptoms of hypercalcemia may involve intravenous fluids to treat dehydration and medications, such as bisphosphonates or other drugs, to stop the breakdown of bone. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of hypercalcemia may reduce pain, improve quality of life, and enable you to remain active and undergo specific cancer treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you develop hypercalcemia, it may be possible to prevent bone and kidney damage by doing the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids, especially water.&lt;/strong&gt; Drinking fluids can help keep you from dehydration and help prevent kidney stones from forming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Once your calcium levels return to normal, and if you&apos;re otherwise healthy, it&apos;s important to remain active to help maintain bone density. Try to combine strength training with weight-bearing exercises. Strength training builds muscles and bones in your arms and upper spine. Weight-bearing exercises, such as walking, mainly affect the bones in your legs, hips and lower spine. If you&apos;re new to exercise, start out slowly and build up gradually. If your hypercalcemia is the result of cancer that has spread to your bones, talk to your doctor before engaging in any exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking has been shown to increase bone loss as well as dramatically increase your risk of a number of serious health problems. Talk to your doctor about the best ways to quit.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hypercalcemia
+	</Title>
+	<Abstract>
+		Hypercalcemia &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of high calcium level in your blood.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00281" LinkType="Internal" ObjectID="90F35D04-E7FF-0DBD-1585584111C6DB49" Title="Hemodialysis" Url="http://www.mayoclinic.com/health/hemodialysis/MY00281" />
+		<LinkItem ContentType="Answer" DocID="AN02008" LinkType="Internal" ObjectID="8D0BF205-EDEB-2856-28782D437EBDB4EE" Title="Vitamin D toxicity: What if you get too much?" Url="http://www.mayoclinic.com/health/vitamin-d-toxicity/AN02008" />
+		<LinkItem ContentType="Article" DocID="EP00002" LinkType="Internal" ObjectID="581C52DA-A6DF-450B-9059119DF2BAA55C" Title="Aerobic exercise: Top 10 reasons to get physical" Url="http://www.mayoclinic.com/health/aerobic-exercise/EP00002" />
+		<LinkItem ContentType="Article" DocID="SK00055" LinkType="Internal" ObjectID="51BA1EDE-E7FF-0DBD-19CC1904A7709D9E" Title="Smoking cessation: Creating a quit-smoking plan" Url="http://www.mayoclinic.com/health/smoking-cessation/SK00055" />
+		<LinkItem ContentType="Article" DocID="NU00283" LinkType="Internal" ObjectID="1488D60D-E694-4EE6-A0DFA79E4CEF5FD3" Title="Water: How much should you drink every day?" Url="http://www.mayoclinic.com/health/water/NU00283" />
+		<LinkItem ContentType="Disease" DocID="DS01076" LinkType="Internal" ObjectID="63426615-E7FF-0DBD-1994B85EEA8B6116" Title="Cancer" Url="http://www.mayoclinic.com/health/cancer/DS01076" />
+		<LinkItem ContentType="Disease" DocID="DS01026" LinkType="Internal" ObjectID="4CA2D903-E7FF-0DBD-1095505812D72AE9" Title="Urine color" Url="http://www.mayoclinic.com/health/urine-color/DS01026" />
+		<LinkItem ContentType="Disease" DocID="DS00063" LinkType="Internal" ObjectID="2D434692-F005-495C-A5EB2AFBD98CA2A5" Title="Constipation" Url="http://www.mayoclinic.com/health/constipation/DS00063" />
+	</RelatedLinksBox>
+</Disease>

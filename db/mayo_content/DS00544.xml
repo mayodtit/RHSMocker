@@ -1,0 +1,383 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00544
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/autonomic-neuropathy/DS00544
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-12
+		</UpdateDate>
+		<PublicationDate>
+			2004-06-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2325" Title="Autonomic">
+						<Keyword MCVID="2326" Title="Autonomic neuropathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C25985F9-4C49-4BF2-9CF5413B2FE796AD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				autonomic neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				nerve damage
+			</MetaKeyword>
+			<MetaKeyword>
+				neuropothy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autonomic neuropathy is a nerve disorder that affects involuntary body functions, including heart rate, blood pressure, perspiration and digestion. 
+&lt;/p&gt;
+&lt;p&gt;
+It isn&apos;t a specific disease. Autonomic neuropathy refers to damage to the autonomic nerves. This damage disrupts signals between the brain and portions of the autonomic nervous system, such as the heart, blood vessels and sweat glands. This can cause decreased or abnormal performance of one or more involuntary body functions.
+&lt;/p&gt;
+&lt;p&gt;
+Autonomic neuropathy can be a complication of a number of diseases and conditions. And some medications can cause autonomic neuropathy as a side effect. Signs, symptoms and treatment of autonomic neuropathy vary depending on the cause, and on which nerves are affected.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of autonomic neuropathy vary, depending on which parts of your autonomic nervous system are affected. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dizziness and fainting&lt;/strong&gt; upon standing caused by a drop in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary problems,&lt;/strong&gt; including difficulty starting urination, urinary incontinence and an inability to completely empty your bladder, which can lead to urinary tract infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual difficulties,&lt;/strong&gt; including problems achieving or maintaining an erection (erectile dysfunction) or ejaculation problems in men, and vaginal dryness and difficulties with arousal and orgasm in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty digesting food,&lt;/strong&gt; due to abnormal digestive function and slow emptying of the stomach (gastroparesis). This can cause a feeling of fullness after eating little, loss of appetite, diarrhea, constipation, abdominal bloating, nausea, vomiting, difficulty swallowing and heartburn.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sweating abnormalities,&lt;/strong&gt; such as excessive or decreased sweating, which affects the ability to regulate body temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sluggish pupil reaction,&lt;/strong&gt; making it difficult to adjust from light to dark and causing problems with driving at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise intolerance,&lt;/strong&gt; which may occur if your heart rate remains unchanged instead of appropriately increasing and decreasing in response to your activity level.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical care promptly if you begin experiencing any of the signs and symptoms of autonomic neuropathy. If you have diabetes, a compromised immune system or another chronic medical condition, see your doctor regularly to be checked for nerve damage.
+&lt;/p&gt;
+&lt;p&gt;
+The American Diabetes Association (ADA) recommends that people with type 2 diabetes be screened every year for autonomic neuropathy starting as soon as they receive their diabetes diagnosis. For people with type 1 diabetes, the ADA advises annual screening beginning five years after being diagnosed with diabetes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autonomic neuropathy can be caused by a large number of diseases and conditions or can be a side effect of treatment for diseases unrelated to the nervous system. Some common causes of autonomic neuropathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal protein buildup&lt;/strong&gt; in organs (amyloidosis), which affects the organs and the nervous system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune diseases,&lt;/strong&gt; in which your immune system attacks and damages parts of your body, including your nerves. Examples include Sjogren&apos;s syndrome and systemic lupus erythematosus. Autonomic neuropathy may also be caused by an abnormal attack by the immune system that occurs as a result of some cancers (paraneoplastic syndrome).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes,&lt;/strong&gt; which is the most common cause of autonomic neuropathy, can gradually cause nerve damage throughout the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to nerves&lt;/strong&gt; caused by surgery or radiation to the neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment with certain medications,&lt;/strong&gt; including some drugs used in cancer chemotherapy, some antidepressants and some heart medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other chronic illnesses,&lt;/strong&gt; such as Parkinson&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain infectious diseases.&lt;/strong&gt; Some viruses and bacteria, such as botulism, leprosy and diphtheria, can cause autonomic neuropathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited disorders.&lt;/strong&gt; Certain hereditary disorders can cause autonomic neuropathy. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of autonomic neuropathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Diabetes, especially poorly controlled diabetes, increases your risk of developing nerve damage, including autonomic neuropathy. The risk is greatest for people who have had the disease for more than 25 years and have difficulty controlling their blood sugar. Additionally, people with diabetes who are overweight or have high blood pressure or high cholesterol have a higher risk of autonomic neuropathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; A number of other diseases also increase your risk of autonomic neuropathy, including amyloidosis, cancer, systemic lupus erythematosus and other autoimmune diseases, HIV/AIDS, Parkinson&apos;s disease, and botulism.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care physician, or if you have diabetes, your diabetes specialist (endocrinologist). However, you may be referred to a doctor who specializes in disorders of the nerves (neurologist). In addition, depending on the part of your body that&apos;s affected by autonomic neuropathy, you may need to see other specialists, such as a cardiologist for problems with your blood pressure or heart rate, or a gastroenterologist for digestive difficulties. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet for certain tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember details that you missed or forgot. Additionally, family members may need education about your illness. For example, if you don&apos;t know when your blood sugar levels are dropping rapidly (hypoglycemia unawareness), you may pass out from low blood sugar levels. Your family members will need to know what action to take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For autonomic neuropathy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why did I develop autonomic neuropathy?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is autonomic neuropathy temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do on my own that will help?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow a special diet?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that may come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autonomic neuropathy is a possible complication of a number of diseases, and the tests you&apos;ll need often depend on whether or not you have known risk factors for autonomic neuropathy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When you have known risk factors for autonomic neuropathy&lt;br /&gt;
+&lt;/strong&gt;If you have conditions that increase your risk of autonomic neuropathy, such as diabetes, your doctor can often make the diagnosis based on your signs and symptoms. Similarly, if you have cancer and it&apos;s being treated with a drug known to cause nerve damage, your doctor will be on the lookout for signs of neuropathy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When you don&apos;t have risk factors for autonomic neuropathy&lt;br /&gt;
+&lt;/strong&gt;If your symptoms point to autonomic neuropathy and you&apos;re unaware of an underlying cause, the diagnosis is more difficult. Your doctor is likely to review your medical history, ask for a thorough description of your symptoms and do a physical exam. Tests that your doctor may use to help with diagnosis will evaluate the reaction of several body functions controlled by the autonomic nervous system. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing tests.&lt;/strong&gt; These tests measure how your heart rate and blood pressure respond to breathing exercises such as the Valsalva maneuver, in which you exhale forcibly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tilt-table test.&lt;/strong&gt; This test monitors how your blood pressure and heart rate respond to changes in posture and position, simulating what occurs when you stand up after lying down. You lie flat on a table, which is then tilted to raise the upper part of your body. Normally, your body compensates for the drop in blood pressure that occurs when you stand up by narrowing your blood vessels and increasing your heart rate. This response may be slowed or abnormal if you have autonomic neuropathy. A simpler way to test for postural changes in blood pressure involves standing for a minute, then squatting for a minute and then standing again. Blood pressure and heart rate are monitored throughout this test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastrointestinal tests.&lt;/strong&gt; Gastric-emptying tests are the most common tests to check for slowed movement of food through your system, delayed emptying of the stomach and other abnormalities. These tests are usually done by a doctor who specializes in digestive disorders (gastroenterologist).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quantitative sudomotor axon reflex test (QSART).&lt;/strong&gt; This test evaluates how the nerves that regulate your sweat glands respond to stimulation. A small electrical current passes through four capsules placed on your forearm, foot and leg, while a computer analyzes how your nerves and sweat glands react. You may feel warmth or a tingling sensation during the test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thermoregulatory sweat test.&lt;/strong&gt; During this test, you&apos;re coated with a powder that changes color when you sweat. You then enter a chamber with slowly increasing temperature, which will eventually make you perspire. Digital photos document the results. Your sweat pattern may help confirm a diagnosis of autonomic neuropathy or other causes for decreased or increased sweating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis and bladder function (urodynamic) tests.&lt;/strong&gt; If you have bladder or urinary symptoms, a series of urine tests can evaluate bladder function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; If you have bladder symptoms, your doctor may do an ultrasound, in which high-frequency sound waves create an image of the bladder and other parts of the urinary tract.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of autonomic neuropathy includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treating the underlying disease.&lt;/strong&gt; The first goal of treating autonomic neuropathy is to manage the disease or condition damaging your nerves. For example, if the underlying cause is diabetes, you&apos;ll need to control your blood sugar to keep it as close to normal as possible. Treating the underlying disease can help stop autonomic neuropathy from progressing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Managing specific symptoms.&lt;/strong&gt; Some treatments can relieve the symptoms of autonomic neuropathy. Treatment is based on what part of your body is most affected by nerve damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Digestive (gastrointestinal) symptoms&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Modifying your diet.&lt;/strong&gt; This could include increasing the amount of fiber you eat and fluids you drink. Supplements containing fiber, such as Metamucil or Citrucel, also may help. Be sure to increase the fiber in your diet slowly to avoid gas and bloating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication to help your stomach empty.&lt;/strong&gt; A prescription drug called metoclopramide (Reglan) helps your stomach empty faster by increasing the contractions of the digestive tract. This medication may cause drowsiness, and its effectiveness wears off over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to ease constipation.&lt;/strong&gt; Over-the-counter laxatives may help ease constipation. Ask your doctor how often you should use these medications. In addition, increasing the amount of fiber in your diet may help relieve constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Tricyclic antidepressants, such as imipramine (Tofranil) or nortriptyline (Pamelor), can help treat diarrhea and abdominal pain. Dry mouth and urine retention are possible side effects of these medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Urinary symptoms&lt;br /&gt;
+&lt;/strong&gt;Your doctor may suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Retraining your bladder.&lt;/strong&gt; Following a schedule of when to drink fluids and when to urinate can help increase your bladder&apos;s capacity and retrain your bladder to empty completely at the appropriate times.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication to help empty the bladder.&lt;/strong&gt; Bethanechol is a medication that helps ensure complete emptying of the bladder. Possible side effects include headache, abdominal cramping, bloating, nausea and flushing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary assistance (catheterization).&lt;/strong&gt; During this procedure, a tube is threaded through your urethra to empty your bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that decrease overactive bladder.&lt;/strong&gt; These include tolterodine (Detrol) or oxybutynin (Ditropan XL). Possible side effects include dry mouth, headache, fatigue, constipation and abdominal pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sexual dysfunction&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;For men&lt;/strong&gt; with erectile dysfunction, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that enable erections.&lt;/strong&gt; Drugs such as sildenafil (Viagra), vardenafil (Levitra) or tadalafil (Cialis) can help you achieve and maintain an erection. Possible side effects include mild headache, flushing, upset stomach and altered color vision. Men with a history of heart disease, stroke or high blood pressure need to use these medications with caution and medical supervision. Seek immediate medical assistance if you have an erection that lasts longer than four hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An external vacuum pump.&lt;/strong&gt; This device helps pull blood into the penis using a hand pump. A tension ring helps keep the blood in place, maintaining the erection for up to 30 minutes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For women&lt;/strong&gt; with sexual symptoms, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal lubricants.&lt;/strong&gt; If vaginal dryness is a problem, vaginal lubricants may make sexual intercourse more comfortable and enjoyable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart rhythm and blood pressure symptoms&lt;br /&gt;
+&lt;/strong&gt;Autonomic neuropathy can cause a number of heart rate and blood pressure problems. Your doctor may prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that help raise your blood pressure.&lt;/strong&gt; If you get dizzy or feel faint when you stand up, your doctor may suggest a drug called fludrocortisone acetate. This medication helps your body retain salt, which helps regulate your blood pressure. Other drugs that can help raise your blood pressure include midodrine (ProAmatine) and pyridostigmine (Mestinon). High blood pressure when lying down is a possible side effect of midodrine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication that helps regulate your heart rate.&lt;/strong&gt; A class of medications called beta blockers helps to regulate your heart rate if your heart rate doesn&apos;t respond normally to changes in activity level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A high-salt, high-fluid diet.&lt;/strong&gt; If your blood pressure drops when you stand up, a high-salt, high fluid diet may help maintain your blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sweating&lt;br /&gt;
+&lt;/strong&gt;If you experience excessive sweating, your doctor may prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A medication that decreases perspiration.&lt;/strong&gt; The drug glycopyrrolate (Robinul, Robinul Forte) can decrease sweating. Side effects may include dry mouth, urinary retention, blurred vision, changes in heart rate, loss of taste and drowsiness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There is no medication to increase sweating if you have lost the ability to sweat. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Posture changes.&lt;/strong&gt; To decrease dizziness when standing, try standing slowly, in stages. It may also help to flex your feet and grip your hands for a few seconds before standing up, to increase blood flow. After you stand up, try tensing your leg muscles while crossing one leg over the other a few times to increase blood pressure. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	It also may help to raise the head of your bed by about 12 inches (30 centimeters) and sit with your legs dangling over the side of the bed for a few minutes before getting out of bed. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digestion.&lt;/strong&gt; If you have gastrointestinal symptoms, try eating small, frequent meals. Increase the amount of fluid you drink, and choose foods that are low in fat and high in fiber, which typically improves digestion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes management.&lt;/strong&gt; Try to keep your blood sugar as close to normal as possible if you have diabetes. Not only will tight blood sugar control lessen symptoms, but also it may prevent or delay new problems from developing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several alternative medicine treatments may help people with autonomic neuropathy. However, because autonomic neuropathy is a serious condition, discuss any new treatments with your doctor to ensure that they won&apos;t interfere with treatments you&apos;re already receiving or cause you any harm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alpha-lipoic acid&lt;br /&gt;
+&lt;/strong&gt;Preliminary research suggests this antioxidant may be helpful in slowing or even reversing neuropathy that&apos;s causing blood pressure or heart rate problems. However, more study is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acupuncture&lt;br /&gt;
+&lt;/strong&gt;This therapy, which uses numerous thin needles placed on specific points in the body, may help treat slow stomach emptying. More studies are needed to confirm what acupuncture&apos;s role is in treating autonomic neuropathy, however. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic condition presents daily challenges. Some of these suggestions may make it easier for you to cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Set priorities.&lt;/strong&gt; Decide which tasks you need to do on a given day, such as paying bills or shopping for groceries, and which can wait until another time. Stay active, but don&apos;t overdo.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek and accept help from friends and family.&lt;/strong&gt; Having a support system and a positive attitude can help you cope with the challenges you face. Ask for or accept help when you need it. Don&apos;t shut yourself off from family and friends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to a counselor or therapist.&lt;/strong&gt; Depression and impotence are possible complications of autonomic neuropathy. If you experience either, you may find it helpful to talk to a counselor or therapist in addition to your primary care doctor. There are treatments that can help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider joining a support group.&lt;/strong&gt; Ask your doctor about support groups in your area. If there isn&apos;t a specific group for people with neuropathies, you may find that there&apos;s a support group for your underlying condition, such as diabetes. Some people find it helpful to talk to other people who truly understand what they&apos;re going through. In addition to offering camaraderie, support group members may also have tips or tricks to make living with autonomic neuropathy easier.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While certain inherited diseases that put you at risk of developing autonomic neuropathy can&apos;t be prevented, you can slow the onset or progression of symptoms by taking good care of your health in general and managing your medical conditions. Follow your doctor&apos;s advice on healthy living to control diseases and conditions, which may include these recommendations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Control your blood sugar if you have diabetes.&lt;/li&gt;
+	&lt;li&gt;Seek treatment for alcoholism.&lt;/li&gt;
+	&lt;li&gt;Get appropriate treatment for any autoimmune disease.&lt;/li&gt;
+	&lt;li&gt;Take steps to prevent or control high blood pressure.&lt;/li&gt;
+	&lt;li&gt;Achieve and maintain a healthy weight.&lt;/li&gt;
+	&lt;li&gt;Stop smoking.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Autonomic neuropathy
+	</Title>
+	<Abstract>
+		Autonomic neuropathy &amp;mdash; Comprehensive overview covers symptoms, diagnosis of this nervous system condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+	</RelatedLinksBox>
+</Disease>

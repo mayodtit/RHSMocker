@@ -1,0 +1,386 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00278
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hair-loss/DS00278
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-29
+		</UpdateDate>
+		<PublicationDate>
+			2001-01-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2157" Title="Hair">
+						<Keyword MCVID="2641" Title="Hair loss" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E60F7B8B-E3EB-45BA-85143C064C4E9E41
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hair loss
+			</MetaKeyword>
+			<MetaKeyword>
+				baldness
+			</MetaKeyword>
+			<MetaKeyword>
+				alopecia areata
+			</MetaKeyword>
+			<MetaKeyword>
+				alopecia
+			</MetaKeyword>
+			<MetaKeyword>
+				scalp
+			</MetaKeyword>
+			<MetaKeyword>
+				alopecia ariata
+			</MetaKeyword>
+			<MetaKeyword>
+				areata
+			</MetaKeyword>
+			<MetaKeyword>
+				hair
+			</MetaKeyword>
+			<MetaKeyword>
+				hair loss in women
+			</MetaKeyword>
+			<MetaKeyword>
+				thinning hair
+			</MetaKeyword>
+			<MetaKeyword>
+				female hair loss
+			</MetaKeyword>
+			<MetaKeyword>
+				hairloss
+			</MetaKeyword>
+			<MetaKeyword>
+				hair loss treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				thin hair
+			</MetaKeyword>
+			<MetaKeyword>
+				hair replacement
+			</MetaKeyword>
+			<MetaKeyword>
+				hair thinning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hair loss (alopecia) can affect just your scalp or your entire body. It can be the result of heredity, certain medications or an underlying medical condition. Anyone &amp;mdash; men, women and children &amp;mdash; can experience hair loss. 
+&lt;/p&gt;
+&lt;p&gt;
+Baldness typically refers to excessive hair loss from your scalp. Some people prefer to let their baldness run its course untreated and unhidden. Others may cover it up with hairstyles, makeup, hats or scarves. And still others choose one of the medications or surgical procedures that are available to treat hair loss.
+&lt;/p&gt;
+&lt;p&gt;
+Before pursuing any treatment option, talk with your doctor about the cause of and best possible treatments for your particular type of hair loss. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hair loss can appear in many different ways, depending on the problem that&apos;s causing it. It can come on suddenly or gradually and affect just your scalp or your whole body. Some types of hair loss are temporary, while others are permanent. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of hair loss may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gradual thinning on top of head.&lt;/strong&gt; This is the most common type of hair loss, affecting both men and women. In men, hair often begins to recede from the forehead in a line that resembles the letter M. Women typically retain a line of hair at the forehead but experience a broadening of the part in their hair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Circular or patchy bald spots.&lt;/strong&gt; Some people experience smooth bald spots, often about an inch (2.6 centimeters) across. This type of hair loss usually affects just the scalp, but it sometimes also occurs in beards or eyebrows. In some cases, your skin may become itchy or painful before the hair falls out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden loosening of hair.&lt;/strong&gt; A physical or emotional shock can cause hair to loosen. Handfuls of hair may come out when combing or washing your hair or even after gentle tugging. This type of hair loss usually causes overall hair thinning and not bald patches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Full-body hair loss.&lt;/strong&gt; Some conditions and medical treatments, such as chemotherapy for cancer, can result in the loss of hair all over your body. The hair usually grows back after treatment ends.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if you notice sudden or patchy hair loss or more than usual hair loss when combing or washing your hair. Sudden hair loss can signal an underlying medical condition and may require medical treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing male-pattern baldness (androgenetic alopecia) 
+" Caption="Male-pattern baldness typically appears first at the hairline or top of the head. It can progress to partial or complete baldness. 
+" Height="60" Title="Male-pattern baldness" URI="/images/image_popup/thumbs/r7_malebaldnessthu.jpg" Width="60" />
+				<Image Alt="Photograph showing male-pattern baldness (androgenetic alopecia) 
+" Caption="Male-pattern baldness typically appears first at the hairline or top of the head. It can progress to partial or complete baldness. 
+" Height="433" Title="Male-pattern baldness" URI="/images/image_popup/r7_malebaldness.jpg" Width="400" />
+				<HTML>
+					Male-pattern baldness typically appears first at the hairline or top of the head. It can progress to partial or complete baldness. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing female-pattern baldness 
+" Caption="Female-pattern baldness typically starts with scalp hairs becoming progressively finer and shorter as you age. Many women first experience hair thinning and hair loss where they part their hair and on the top-central portion of the head. 
+" Height="60" Title="Female-pattern baldness" URI="/images/image_popup/thumbs/r7_femalebaldnessthu.jpg" Width="60" />
+				<Image Alt="Photograph showing female-pattern baldness 
+" Caption="Female-pattern baldness typically starts with scalp hairs becoming progressively finer and shorter as you age. Many women first experience hair thinning and hair loss where they part their hair and on the top-central portion of the head. 
+" Height="323" Title="Female-pattern baldness" URI="/images/image_popup/r7_femalebaldness.jpg" Width="400" />
+				<HTML>
+					Female-pattern baldness typically starts with scalp hairs becoming progressively finer and shorter as you age. Many women first experience hair thinning and hair loss where they part their hair and ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing patchy hair loss (alopecia areata) 
+" Caption="In the type of patchy hair loss known as alopecia areata, hair loss occurs suddenly and usually starts with one or more circular bald patches that may overlap. 
+" Height="60" Title="Patchy hair loss (alopecia areata)" URI="/images/image_popup/thumbs/sn7_alopeciaareatathu.jpg" Width="60" />
+				<Image Alt="Photograph showing patchy hair loss (alopecia areata) 
+" Caption="In the type of patchy hair loss known as alopecia areata, hair loss occurs suddenly and usually starts with one or more circular bald patches that may overlap. 
+" Height="320" Title="Patchy hair loss (alopecia areata)" URI="/images/image_popup/sn7_alopeciaareata.jpg" Width="400" />
+				<HTML>
+					In the type of patchy hair loss known as alopecia areata, hair loss occurs suddenly and usually starts with one or more circular bald patches that may overlap. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing traction alopecia 
+" Caption="Hair loss can occur if you wear pigtails, braids or cornrows or use tight hair rollers. This is called traction alopecia. 
+" Height="60" Title="Traction alopecia" URI="/images/image_popup/thumbs/sn7_tractionalopeciathu.jpg" Width="60" />
+				<Image Alt="Photograph showing traction alopecia 
+" Caption="Hair loss can occur if you wear pigtails, braids or cornrows or use tight hair rollers. This is called traction alopecia. 
+" Height="266" Title="Traction alopecia" URI="/images/image_popup/sn7_tractionalopecia.jpg" Width="400" />
+				<HTML>
+					Hair loss can occur if you wear pigtails, braids or cornrows or use tight hair rollers. This is called traction alopecia. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people normally shed 50 to 100 hairs a day. But with about 100,000 hairs in the scalp, this amount of hair loss shouldn&apos;t cause noticeable thinning of the scalp hair. As people age, hair tends to gradually thin. Other causes of hair loss include hormonal factors, medical conditions and medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormonal factors&lt;br /&gt;
+&lt;/strong&gt;The most common cause of hair loss is a hereditary condition called male-pattern baldness or female-pattern baldness. In genetically susceptible people, certain sex hormones trigger a particular pattern of permanent hair loss. Most common in men, this type of hair thinning can begin as early as puberty. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormonal changes and imbalances can also cause temporary hair loss. This could be due to pregnancy, childbirth, discontinuation of birth control pills or the onset of menopause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical conditions&lt;br /&gt;
+&lt;/strong&gt;A variety of medical conditions can cause hair loss, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid problems.&lt;/strong&gt; The thyroid gland helps regulate hormone levels in your body. If the gland isn&apos;t working properly, hair loss may result.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alopecia areata.&lt;/strong&gt; This disease occurs when the body&apos;s immune system attacks hair follicles &amp;mdash; causing smooth, roundish patches of hair loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scalp infections.&lt;/strong&gt; Infections, such&lt;strong&gt; &lt;/strong&gt;as&lt;strong&gt; &lt;/strong&gt;ringworm, can invade the hair and skin of your scalp, leading to hair loss. Once infections are treated, hair generally grows back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other skin disorders.&lt;/strong&gt; Diseases that can cause scarring, such as lichen planus and some types of lupus, can result in permanent hair loss where the scars occur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Hair loss can be caused by drugs used to treat: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancer&lt;/li&gt;
+	&lt;li&gt;Arthritis&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Heart problems&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes of hair loss&lt;br /&gt;
+&lt;/strong&gt;Hair loss can also result from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A physical or emotional shock.&lt;/strong&gt; Many people experience a general thinning of hair several months after a physical or emotional shock. Examples include sudden or excessive weight loss, a high fever, or a death in the family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hair-pulling disorder.&lt;/strong&gt; This mental illness causes people to have an irresistible urge to pull out their hair, whether it&apos;s from the scalp, their eyebrows or other areas of the body. Hair pulling from the scalp often leaves patchy bald spots on the head. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain hairstyles.&lt;/strong&gt; Traction hair loss can occur if the hair is pulled too tightly into hairstyles such as pigtails or cornrows.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Your risk of hair loss increases if relatives on either side of your family have experienced hair loss. Heredity also affects the age at which you begin to lose hair and the developmental speed, pattern and extent of your baldness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hair treatments.&lt;/strong&gt; Overuse or improper use of hair-coloring products, hair straighteners and permanent waves can leave your hair brittle and prone to breaking off at the scalp. Excessive hairstyling or hairstyles that pull your hair too tightly cause traction alopecia. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor nutrition.&lt;/strong&gt; Your hair may thin out if you skimp on good dietary sources of iron and protein, such as red meat, nonfat dairy products and iron-fortified cereal. Hair loss related to poor nutrition often accompanies eating disorders and crash dieting.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first bring your concerns to the attention of your family doctor. He or she may refer you to a dermatologist &amp;mdash; a doctor who specializes in the treatment of skin problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For hair loss, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing hair loss?&lt;/li&gt;
+	&lt;li&gt;Has your hair loss been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you had a similar problem in the past?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your immediate family experienced hair loss?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you take regularly?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your hair loss?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your hair loss?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A complete medical history, family history and physical examination can help in a diagnosis. The pattern and rate of hair loss, the appearance of nearby hairs, and accompanying symptoms are considered when making the diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor may perform blood tests to determine if you have a medical condition that causes hair loss, such as thyroid disease, diabetes or lupus.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Biopsies and samples&lt;br /&gt;
+&lt;/strong&gt;During a pull test, several dozen hairs are gently pulled to see how many come out. This helps determine the stage of the shedding process. Scraping samples taken from the skin or from a few hairs plucked from the scalp can help verify whether an infection is causing hair loss. When a diagnosis is difficult to confirm, your doctor may perform a punch biopsy. During this test, the doctor uses a circular tool to remove a small section of your skin&apos;s deeper layers.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For some types of hair loss, hair may resume growth without any treatment. In other situations, treatments may help promote hair growth or hide hair loss.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;br /&gt;
+&lt;/strong&gt;If your hair loss is caused by an underlying disease, treatment for that disease will be necessary. This may include drugs to reduce inflammation and suppress your immune system, such as prednisone.
+&lt;/p&gt;
+&lt;p&gt;
+Medications approved by the Food and Drug Administration (FDA) to treat hair loss include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Minoxidil (Rogaine).&lt;/strong&gt; Minoxidil is an over-the-counter liquid or foam that you rub into your scalp twice daily to grow hair and to prevent further loss. Some people experience some hair regrowth or a slower rate of hair loss or both. It may take 12 weeks for new hair to start growing. Minoxidil is available in a 2 percent solution and in a 5 percent solution. Side effects can include scalp irritation and occasionally unwanted hair growth on the adjacent skin of the forehead or face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Finasteride (Propecia).&lt;/strong&gt; This prescription medication to treat male-pattern baldness is taken daily in pill form. Many men taking finasteride experience a slowing of hair loss, and some may show some new hair growth. Rare side effects of finasteride include diminished sex drive and sexual function. The FDA has also warned that in some men there&apos;s an increased risk, though low, of getting a fast-growing type of prostate cancer. Finasteride should be avoided by women of childbearing age.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;In the most common type of permanent hair loss, only the top of the head is affected. Surgical procedures can make the most of the hair you have left.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hair transplants.&lt;/strong&gt; This type of procedure removes tiny plugs of skin, each containing a few hairs, from the back or sides of your scalp. The plugs are then implanted into the bald sections of your scalp. Several transplant sessions may be needed, as hereditary hair loss progresses with time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scalp reduction.&lt;/strong&gt; This procedure surgically removes some of the bald skin on your head. After hairless scalp is removed, the space is closed with hair-covered scalp. Doctors can also fold hair-bearing skin over an area of bald skin in a scalp reduction technique called a flap.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgical procedures to treat baldness are expensive and can be painful. Possible risks include infection and scarring. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wigs and hairpieces&lt;br /&gt;
+&lt;/strong&gt;If you would like an alternative to medical treatment for your baldness or if you don&apos;t respond to treatment, you may want to consider wearing a wig or hairpiece. They can be used to cover either permanent or temporary hair loss. Quality, natural-looking wigs and hairpieces are available.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These tips may help you avoid preventable types of hair loss: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat a nutritionally balanced diet.&lt;/li&gt;
+	&lt;li&gt;Avoid tight hairstyles, such as braids, buns or ponytails.&lt;/li&gt;
+	&lt;li&gt;Avoid compulsively twisting, rubbing or pulling your hair.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you are otherwise well nourished, taking nutritional supplements has not been shown to be helpful.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hair loss
+	</Title>
+	<Abstract>
+		Hair loss &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="PR00142" LinkType="Internal" ObjectID="B2F4745C-2A5D-9994-E1172BF0FCD32365" Title="Postpartum care: What to expect after a vaginal delivery" Url="http://www.mayoclinic.com/health/postpartum-care/PR00142" />
+	</RelatedLinksBox>
+</Disease>

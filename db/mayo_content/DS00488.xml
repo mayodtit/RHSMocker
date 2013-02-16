@@ -1,0 +1,335 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00488
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gastritis/DS00488
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-09
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="1849" Title="Gastritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			342EF017-2230-45E3-9B6C9D069CEFA6DE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gastritis
+			</MetaKeyword>
+			<MetaKeyword>
+				nausea
+			</MetaKeyword>
+			<MetaKeyword>
+				indigestion
+			</MetaKeyword>
+			<MetaKeyword>
+				ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				digestive
+			</MetaKeyword>
+			<MetaKeyword>
+				H. pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h.pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h pylori
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gastritis describes a group of conditions with one thing in common: inflammation of the lining of the stomach. The inflammation of gastritis is often the result of infection with the same bacterium that causes most stomach ulcers. However, other factors &amp;mdash; such as injury, regular use of certain pain relievers or drinking too much alcohol &amp;mdash; also can contribute to gastritis. 
+&lt;/p&gt;
+&lt;p&gt;
+Gastritis may occur suddenly (acute gastritis) or it can occur slowly over time (chronic gastritis). In some cases, gastritis can lead to ulcers and an increased risk of stomach cancer. For most people, however, gastritis isn&apos;t serious and improves quickly with treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="60" Title="Stomach and pyloric valve" URI="/images/image_popup/thumbs/r7_pyloricvalvethu.jpg" Width="60" />
+				<Image Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="300" Title="Stomach and pyloric valve" URI="/images/image_popup/r7_pyloricvalve.jpg" Width="400" />
+				<HTML>
+					Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of gastritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A gnawing or burning ache or pain (indigestion) in your upper abdomen that may become either worse or better with eating&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;A feeling of fullness in your upper abdomen after eating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Gastritis doesn&apos;t always cause signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Nearly everyone has experienced a bout of indigestion and stomach irritation. Most cases of indigestion are short-lived and don&apos;t require medical care. But if you experience signs and symptoms of gastritis consistently for a week or longer, see your doctor. And be sure to tell your doctor if you experience stomach problems after taking any prescription or over-the-counter drugs, especially aspirin or other pain relievers. 
+&lt;/p&gt;
+&lt;p&gt;
+If you are vomiting blood, you have blood in your stools or your stool appears black, see your doctor right away to determine the cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gastritis usually develops when your stomach&apos;s protective layer becomes weakened or damaged. A mucus-lined barrier protects the wall of your stomach from the acids that help digest your food. Weaknesses in the barrier allow your digestive juices to damage and inflame your stomach lining. A number of diseases and conditions can make your stomach&apos;s protective layer vulnerable to damage and increase your risk of gastritis. 
+&lt;/p&gt;
+&lt;p&gt;
+Gastritis can occur suddenly or develop over weeks and months: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute gastritis&lt;/strong&gt; is stomach inflammation that develops quickly and lasts for a short period of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic gastritis&lt;/strong&gt; develops gradually and may last for an extended period of time.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of gastritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial infection.&lt;/strong&gt; People infected with Helicobacter pylori can experience gastritis &amp;mdash; most commonly chronic gastritis. Half the world&apos;s population is thought to be infected with this bacterium, which is thought to pass from person to person. But the majority of those infected don&apos;t experience any complications of H. pylori infection. In some people, H. pylori may break down the stomach&apos;s inner protective coating, causing changes in the stomach&apos;s lining. The reason why some people experience complications from H. pylori infection, such as gastritis and ulcers, and others don&apos;t isn&apos;t clear. However, doctors believe vulnerability to the bacterium could be inherited or it could be caused by lifestyle choices, such as smoking and high stress levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Regular use of pain relievers.&lt;/strong&gt; Common pain relievers, such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen (Aleve, Anaprox), can cause both acute gastritis and chronic gastritis. Using these pain relievers regularly or taking too much of these drugs may reduce a key substance that helps preserve the protective lining of your stomach. Stomach problems are less likely to develop if you take pain relievers only occasionally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Older adults have an increased risk of gastritis because the stomach lining tends to thin with age and because older adults are more likely to have H. pylori infection or autoimmune disorders than younger people are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol use.&lt;/strong&gt; Alcohol can irritate and erode your stomach lining, which makes your stomach more vulnerable to digestive juices. Excessive alcohol use is more likely to cause acute gastritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Severe stress due to major surgery, injury, burns or severe infections can cause acute gastritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bile reflux disease.&lt;/strong&gt; Bile &amp;mdash; a substance that helps you digest fats &amp;mdash; is produced in your liver and stored in your gallbladder. When it&apos;s released from the gallbladder, bile travels to your small intestine through a series of thin tubes. Normally, a ring-like sphincter muscle (pyloric valve) prevents bile from flowing into your stomach from your small intestine. But if this valve doesn&apos;t work properly, or if it has been surgically removed, bile can flow into your stomach, leading to gastritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your own body attacking cells in your stomach.&lt;/strong&gt; Called autoimmune gastritis, this type of gastritis occurs when your body attacks the cells that make up your stomach lining. This produces a reaction by your immune system that can wear away at your stomach&apos;s protective barrier. Autoimmune gastritis is more common in people with other autoimmune disorders, including Hashimoto&apos;s disease and type 1 diabetes. Autoimmune gastritis can also be associated with vitamin B-12 deficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases and conditions&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Gastritis may be associated with other medical conditions, including HIV/AIDS, Crohn&apos;s disease and parasitic infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, gastritis may lead to stomach ulcers and stomach bleeding. Some forms of chronic gastritis may increase your risk of stomach cancer, especially if you have extensive thinning of the stomach lining and changes in the lining&apos;s cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Tell your doctor if your signs and symptoms aren&apos;t improving despite treatment for gastritis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor or a general practitioner if you have signs or symptoms of gastritis. If your doctor suspects you may have gastritis, you may be referred to a specialist in digestive disorders (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For gastritis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, as well. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? For instance, would you describe your stomach pain as &quot;mildly uncomfortable&quot; or &quot;burning&quot;?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to worsen your symptoms? For instance, does eating certain foods increase your discomfort?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms? For instance, does eating certain foods or taking antacids or over-the-counter remedies decrease your discomfort?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any recent weight loss?&lt;/li&gt;
+	&lt;li&gt;How often do you take pain relievers, such as aspirin, ibuprofen or naproxen?&lt;/li&gt;
+	&lt;li&gt;How often do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;How would you rate your stress level?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any black stools or blood in your stool?&lt;/li&gt;
+	&lt;li&gt;Have you ever had an ulcer?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, avoid drinking alcohol and eating any foods that seem to irritate your stomach, such as those that are spicy, acidic, fried or fatty. But talk to your doctor before stopping any prescription medications you&apos;re taking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although your doctor is likely to suspect gastritis after talking to you about your medical history and performing a thorough exam, you may also have tests to pinpoint the exact cause. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tests for H. pylori.&lt;/strong&gt; Your doctor may recommend tests to determine whether the bacterium H. pylori is present in your body. Which type of test you undergo depends on your situation. H. pylori may be detected in a blood test, a stool test or a breath test. For the breath test, you drink a small glass of clear, tasteless liquid that contains radioactive carbon. H. pylori breaks down the test liquid in your stomach. Later, you blow into a bag, which is then sealed. If you&apos;re infected with H. pylori, your breath sample will contain the radioactive carbon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine your upper digestive system (endoscopy). &lt;/strong&gt;During endoscopy, your doctor passes a hollow tube equipped with a lens (endoscope) down your throat and into your esophagus, stomach and small intestine. Using the endoscope, your doctor looks for signs of inflammation. If a suspicious area is found, your doctor may remove small tissue samples (biopsy) for laboratory examination. A biopsy can also identify the presence of H. pylori in your stomach lining.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray of your upper digestive system.&lt;/strong&gt; Sometimes called a barium swallow or upper gastrointestinal series, this series of X-rays creates images of your esophagus, stomach and small intestine to look for abnormalities. During the X-ray, you swallow a white, metallic liquid (containing barium) that coats your digestive tract and makes an ulcer more visible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of gastritis depends on the specific cause. Acute gastritis caused by NSAIDs or alcohol may be relieved by stopping use of those substances. Chronic gastritis caused by H. pylori infection is treated by eradicating the bacteria. Most gastritis treatment plans also incorporate medications that treat stomach acid in order to reduce signs and symptoms you&apos;re experiencing and promote healing in your stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to treat gastritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic medications to kill H. pylori.&lt;/strong&gt; If H. pylori is found in your digestive tract, your doctor may recommend a combination of antibiotics to kill the bacterium. Antibiotic regimens are different throughout the world. In the United States, antibiotics prescribed for treatment of H. pylori include amoxicillin, clarithromycin (Biaxin), metronidazole (Flagyl) and tetracycline. You&apos;ll likely need to take antibiotics for two weeks, depending on their type and number.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block acid production and promote healing.&lt;/strong&gt; Proton pump inhibitors reduce acid by blocking the action of the parts of cells that produce acid. These drugs include the prescription and over-the-counter medications omeprazole (Prilosec), lansoprazole (Prevacid), rabeprazole (Aciphex), esomeprazole (Nexium), dexlansoprazole (Dexilant) and pantoprazole (Protonix). Long-term use of proton pump inhibitors, particularly at high doses, may increase your risk of hip, wrist and spine fractures. Ask your doctor whether a calcium supplement may reduce this risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce acid production.&lt;/strong&gt; Acid blockers &amp;mdash; also called histamine (H-2) blockers &amp;mdash; reduce the amount of acid released into your digestive tract, which relieves gastritis pain and encourages healing. Available by prescription or over-the-counter, acid blockers include ranitidine (Zantac), famotidine (Pepcid), cimetidine (Tagamet) and nizatidine (Axid).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids that neutralize stomach acid.&lt;/strong&gt; Your doctor may include an antacid in your drug regimen. Antacids neutralize existing stomach acid and can provide rapid pain relief. Side effects can include constipation or diarrhea, depending on the main ingredients.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find some relief from signs and symptoms if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller, more frequent meals.&lt;/strong&gt; If you experience frequent indigestion, eat smaller, more frequent meals to help ease the effects of stomach acid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritating foods.&lt;/strong&gt; Avoid foods that irritate your stomach, especially those that are spicy, acidic, fried or fatty.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Excessive use of alcohol can irritate the mucous lining of your stomach. Limit yourself to one drink per day if you&apos;re a woman or two drinks per day if you&apos;re a man.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider switching pain relievers.&lt;/strong&gt; If you use pain relievers regularly, ask your doctor whether acetaminophen (Tylenol, others) may be an option for you. This medication is less likely to aggravate your stomach problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Stress may make your gastritis symptoms worse. Stress may be unavoidable, but you can learn to cope with it. If you have trouble relaxing, consider trying calming activities, such as meditation, yoga or tai chi.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Preventing H. pylori infection&lt;/strong&gt; &lt;br /&gt;
+It&apos;s not clear just how H. pylori spreads, but there&apos;s some evidence that it could be transmitted from person to person or through food and water. You can take steps to protect yourself from infections, such as H. pylori, by frequently washing your hands with soap and water and by eating foods that have been cooked completely. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gastritis
+	</Title>
+	<Abstract>
+		Gastritis &amp;mdash; Comprehensive overview covers symptoms and treatment of both acute gastritis and chronic gastritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00958" LinkType="Internal" ObjectID="EFE8F24E-E7FF-0DBD-16E3807063685CFC" Title="H. pylori infection" Url="http://www.mayoclinic.com/health/h-pylori/DS00958" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+	</RelatedLinksBox>
+</Disease>

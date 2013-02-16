@@ -1,0 +1,266 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00147
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/percutaneous-umbilical-blood-sampling/MY00147
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="3728" Title="Percutaneous umbilical blood sampling" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF9E0BE8-E7FF-0DBD-15BB97EE22BD0C3D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				percutaneous umbilical blood sampling
+			</MetaKeyword>
+			<MetaKeyword>
+				percutaneous blood sampling
+			</MetaKeyword>
+			<MetaKeyword>
+				PUBS
+			</MetaKeyword>
+			<MetaKeyword>
+				cordocentesis
+			</MetaKeyword>
+			<MetaKeyword>
+				fetal blood sampling
+			</MetaKeyword>
+			<MetaKeyword>
+				umbilical vein sampling
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal test
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cordocentesis &amp;mdash; also known as percutaneous umbilical blood sampling &amp;mdash; is a highly specialized prenatal test in which a sample of the baby&apos;s blood is removed from the umbilical cord for testing. 
+&lt;/p&gt;
+&lt;p&gt;
+Cordocentesis can be used to detect certain blood conditions and infections. Cordocentesis can also be used to deliver blood transfusions and medication to a baby through the umbilical cord. 
+&lt;/p&gt;
+&lt;p&gt;
+Use of cordocentesis is decreasing, however, since newer forms of technology can sometimes provide the same information from tests that pose a smaller risk of miscarriage &amp;mdash; such as amniocentesis or chorionic villus sampling. 
+&lt;/p&gt;
+&lt;p&gt;
+Cordocentesis might be offered when: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The desired information can&apos;t be obtained any other way&lt;/li&gt;
+	&lt;li&gt;Results from other prenatal tests are unclear&lt;/li&gt;
+	&lt;li&gt;Test results might have a significant impact on the immediate management of the pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cordocentesis 
+" Caption="Cordocentesis, also known as percutaneous umbilical blood sampling, is a highly specialized prenatal test. During cordocentesis, an ultrasound transducer is used to show the position of the fetus on a monitor. Then a fetal blood sample is withdrawn from the umbilical cord for testing.
+" Height="60" Title="Cordocentesis" URI="/images/image_popup/thumbs/pr11_percutaneous_umbilical_blood_samplingthu.jpg" Width="60" />
+				<Image Alt="Illustration of cordocentesis 
+" Caption="Cordocentesis, also known as percutaneous umbilical blood sampling, is a highly specialized prenatal test. During cordocentesis, an ultrasound transducer is used to show the position of the fetus on a monitor. Then a fetal blood sample is withdrawn from the umbilical cord for testing.
+" Height="343" Title="Cordocentesis" URI="/images/image_popup/pr11_percutaneous_umbilical_blood_sampling.jpg" Width="400" />
+				<HTML>
+					Cordocentesis, also known as percutaneous umbilical blood sampling, is a highly specialized prenatal test. During cordocentesis, an ultrasound transducer is used to show the position of the fetus on ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cordocentesis is used primarily to detect and treat blood conditions, such as fetal anemia &amp;mdash; a lack of healthy red blood cells in a developing baby. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have an infection, cordocentesis might be used to determine whether the baby has the infection, too. 
+&lt;/p&gt;
+&lt;p&gt;
+If necessary, cordocentesis can be used to deliver blood transfusions and medication to the baby through the umbilical cord.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cordocentesis carries potentially serious risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy loss.&lt;/strong&gt; Cordocentesis carries a higher risk of miscarriage than other prenatal diagnostic tests, such as chorionic villus sampling and amniocentesis. Some research estimates the risk as high as 3 percent for the general population. Since many babies are quite ill when the test is done, it&apos;s often difficult to determine whether fetal loss is related to the procedure itself or to the baby&apos;s health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Bleeding from the area where the needle was inserted is possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slowing of the baby&apos;s heart rate.&lt;/strong&gt; The baby&apos;s heart rate might slow temporarily after cordocentesis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, cordocentesis can lead to a uterine infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ultimately, the decision to have cordocentesis is up to you. Your health care provider or genetic counselor can help you weigh all the factors in the decision. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before cordocentesis, you can eat and drink as usual. 
+&lt;/p&gt;
+&lt;p&gt;
+You might want to ask your partner or another close contact to accompany you to the appointment for emotional support or to drive you home afterward.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cordocentesis is usually done in an outpatient facility or the health care provider&apos;s office, but in some cases it might be done in the hospital. At least one assistant will likely help your health care provider during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+About 30 to 60 minutes before the procedure, you might be given antibiotics to reduce the risk of a uterine infection. 
+&lt;/p&gt;
+&lt;p&gt;
+When the procedure begins, your health care provider will use ultrasound to determine the baby&apos;s exact location in your uterus. You&apos;ll lie on your back on an exam table, and your health care provider will apply a special gel to your abdomen. He or she will then use a small device known as an ultrasound transducer to show your baby&apos;s position on a monitor. 
+&lt;/p&gt;
+&lt;p&gt;
+Next, your health care provider will clean your abdomen with an antiseptic. Sometimes local anesthetic is used to ease discomfort during the procedure, but often it isn&apos;t needed. 
+&lt;/p&gt;
+&lt;p&gt;
+Guided by ultrasound, your health care provider will insert a thin, hollow needle through your abdominal wall and into your uterus. A small amount of blood from the vein in the umbilical cord will be withdrawn into a syringe, and the needle will be removed. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll need to lie still while the needle is inserted and the blood is withdrawn. You might notice a stinging sensation when the needle enters your skin, and you might feel cramping when the needle enters your uterus. 
+&lt;/p&gt;
+&lt;p&gt;
+The entire procedure usually takes about an hour, although most of that time is devoted to the ultrasound exam. 
+&lt;/p&gt;
+&lt;p&gt;
+Your baby will naturally replace the small amount of blood that&apos;s removed. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, a blood sample can&apos;t be taken from the umbilical cord. In these cases, a blood sample might be taken from a vein in the baby&apos;s liver. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After the blood sample is taken, you might experience cramping or a small amount of vaginal bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might use ultrasound or an external labor monitor to track your baby&apos;s heart rate for an hour or two after the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re allowed to go home, your health care provider might suggest resting for the remainder of the day. You&apos;ll likely be able to resume normal activities the next day. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience fever, chills or vaginal bleeding, contact your health care provider right away. 
+&lt;/p&gt;
+&lt;p&gt;
+Meanwhile, the blood sample will be analyzed in a lab. Test results are typically available within a matter of days &amp;mdash; or in some cases, within a matter of hours. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cordocentesis 
+" Caption="Cordocentesis, also known as percutaneous umbilical blood sampling, is a highly specialized prenatal test. During cordocentesis, an ultrasound transducer is used to show the position of the fetus on a monitor. Then a fetal blood sample is withdrawn from the umbilical cord for testing.
+" Height="60" Title="Cordocentesis" URI="/images/image_popup/thumbs/pr11_percutaneous_umbilical_blood_samplingthu.jpg" Width="60" />
+				<Image Alt="Illustration of cordocentesis 
+" Caption="Cordocentesis, also known as percutaneous umbilical blood sampling, is a highly specialized prenatal test. During cordocentesis, an ultrasound transducer is used to show the position of the fetus on a monitor. Then a fetal blood sample is withdrawn from the umbilical cord for testing.
+" Height="343" Title="Cordocentesis" URI="/images/image_popup/pr11_percutaneous_umbilical_blood_sampling.jpg" Width="400" />
+				<HTML>
+					Cordocentesis, also known as percutaneous umbilical blood sampling, is a highly specialized prenatal test. During cordocentesis, an ultrasound transducer is used to show the position of the fetus on ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider or a genetic counselor will help you understand the results of your cordocentesis. 
+&lt;/p&gt;
+&lt;p&gt;
+If your test results are normal, follow-up testing isn&apos;t usually necessary. However, the circumstances that lead to cordocentesis often need continued intervention. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby has an infection, for example, your health care provider will help you understand the treatment options. If your baby has severe anemia, he or she might need a blood transfusion through the umbilical cord. In some cases, early delivery is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+If your test results indicate that your baby has a condition that can&apos;t be treated, you might be faced with wrenching decisions &amp;mdash; such as whether to continue the pregnancy. Seek support from your health care team, your loved ones and other close contacts during this difficult time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cordocentesis
+	</Title>
+	<Abstract>
+		Cordocentesis &amp;mdash; Overview covers definition, risks, results of this prenatal diagnostic test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01403" LinkType="Internal" ObjectID="480AFA5C-FC69-E2EB-186342987BB11520" Title="Prenatal testing: Quick guide to common tests" Url="http://www.mayoclinic.com/health/prenatal-testing/MY01403" />
+		<LinkItem ContentType="Disease" DocID="DS00218" LinkType="Internal" ObjectID="F06A4B68-94D1-418C-827D409C656EC798" Title="Hemophilia" Url="http://www.mayoclinic.com/health/hemophilia/DS00218" />
+	</RelatedLinksBox>
+</TestProcedure>

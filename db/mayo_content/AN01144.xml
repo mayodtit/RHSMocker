@@ -1,0 +1,131 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01144
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nail-biting/AN01144
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-30
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="4643" Title="Nail care" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8939986C-F327-4271-AD67610FD1B68D19
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nails
+			</MetaKeyword>
+			<MetaKeyword>
+				nail biting
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				finger nails
+			</MetaKeyword>
+			<MetaKeyword>
+				finger nail
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernail
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Although unsanitary, nail biting isn&apos;t likely to cause long-term nail damage. Nails are formed at the nail bed &amp;mdash; where the U-shaped cuticles begin. As long as the nail bed remains intact, nail biting isn&apos;t likely to interfere with fingernail growth. In fact, some research suggests that nail biting might even promote faster nail growth. 
+&lt;/p&gt;
+&lt;p&gt;
+Nail biting isn&apos;t without risks, however. For example, nail biting can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Contribute to skin infections&lt;/li&gt;
+	&lt;li&gt;Aggravate existing conditions of the nail bed&lt;/li&gt;
+	&lt;li&gt;Increase the risk of colds and other infections by encouraging the spread of germs from the nails and fingers to the lips and mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, compulsive nail biting is sometimes a sign of an underlying mental health condition, such as anxiety or an impulse control disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re concerned about nail biting, consult your doctor or a mental health provider. To stop you from nail biting, he or she might suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoiding factors that trigger nail biting, such as boredom&lt;/li&gt;
+	&lt;li&gt;Finding healthy ways to manage stress and anxiety&lt;/li&gt;
+	&lt;li&gt;Keeping your nails neatly trimmed or manicured&lt;/li&gt;
+	&lt;li&gt;Occupying your hands or mouth with alternate activities, such as playing a musical instrument or chewing gum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, behavior therapy to stop nail biting might be warranted.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nail biting: Does it cause long-term damage?
+	</Title>
+	<Abstract>
+		Nail biting can contribute to skin infections and other problems. Consider treatment options.
+	</Abstract>
+	<Question>
+		Does nail biting cause any long-term nail damage?
+	</Question>
+	<QuestionFirstName>
+		Sarah
+	</QuestionFirstName>
+	<QuestionState>
+		Minnesota
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01861" LinkType="Internal" ObjectID="9A786991-E7FF-0DBD-1CD8F68A7EFECB55" Title="Split fingernails: Can they be prevented?" Url="http://www.mayoclinic.com/health/split-fingernails/AN01861" />
+		<LinkItem ContentType="Answer" DocID="AN00591" LinkType="Internal" ObjectID="6253888A-D4BF-4D48-9F90EF0376680538" Title="Nail ridges: Cause for concern?" Url="http://www.mayoclinic.com/health/nails/AN00591" />
+		<LinkItem ContentType="Answer" DocID="AN01261" LinkType="Internal" ObjectID="1CDD8F4D-2A5D-9994-E5016BDFB41429DF" Title="Acrylic nails: Can they harm natural nails?" Url="http://www.mayoclinic.com/health/acrylic-nails/AN01261" />
+		<LinkItem ContentType="SlideShow" DocID="WO00055" LinkType="Internal" ObjectID="154FD1E8-20E3-4CCF-BE8FC6EDF5A89942" Title="Slide show: 7 fingernail problems not to ignore" Url="http://www.mayoclinic.com/health/nails/WO00055" />
+		<LinkItem ContentType="Article" DocID="WO00020" LinkType="Internal" ObjectID="3803FB95-7CEC-4B8E-B69A53A210F01BE8" Title="Fingernails: Do&apos;s and don&apos;ts for healthy nails" Url="http://www.mayoclinic.com/health/nails/WO00020" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,70 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00541
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00541
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			162F063A-E7FF-0DBD-12178217192DE39F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Blood pressure tip: Stress out no more
+	</Title>
+	<Body>
+		&lt;p&gt;Stress can temporarily increase blood pressure. To reduce your stress, think about what causes it in the first place. Work? Family? Finances? Illness? Once you know what&apos;s causing your stress, consider ways to reduce or manage it. Take breaks for deep-breathing exercises. Get a massage. Take up yoga or meditation. If self-help doesn&apos;t work, seek out a professional for counseling.&lt;/p&gt;
+	</Body>
+</HealthTip>

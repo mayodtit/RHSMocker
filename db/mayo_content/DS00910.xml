@@ -1,0 +1,360 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00910
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ataxia/DS00910
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2968" Title="Movement">
+						<Keyword MCVID="2985" Title="Ataxia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4EE138FE-E7FF-0DBD-1DAD91780FF99E8D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ataxia
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebellum
+			</MetaKeyword>
+			<MetaKeyword>
+				coordination problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ataxia describes a lack of muscle coordination during voluntary movements, such as walking or picking up objects. A sign of an underlying condition, ataxia can affect your movements, your speech, your eye movements and your ability to swallow. 
+&lt;/p&gt;
+&lt;p&gt;
+Persistent ataxia usually results from damage to your cerebellum &amp;mdash; the part of your brain that controls muscle coordination. Many conditions may cause ataxia, including alcohol abuse, stroke, tumor, cerebral palsy and multiple sclerosis. It&apos;s also possible to inherit a defective gene that may cause one of many ataxia variants. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for ataxia depends on the underlying cause. Adaptive devices, such as walkers or canes, might help you maintain your independence despite your ataxia. You may also benefit from physical therapy, occupational therapy and speech therapy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cerebellum and brainstem 
+" Caption="Persistent ataxia usually results from damage to your cerebellum, the part of your brain that controls muscle coordination. 
+" Height="60" Title="Cerebellum and brainstem" URI="/images/image_popup/thumbs/r7_cerebellumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cerebellum and brainstem 
+" Caption="Persistent ataxia usually results from damage to your cerebellum, the part of your brain that controls muscle coordination. 
+" Height="320" Title="Cerebellum and brainstem" URI="/images/image_popup/r7_cerebellum.jpg" Width="320" />
+				<HTML>
+					Persistent ataxia usually results from damage to your cerebellum, the part of your brain that controls muscle coordination. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ataxia can develop over time or come on suddenly, depending on the cause. Ataxia, actually a symptom of a number of neurological disorders, may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor coordination&lt;/li&gt;
+	&lt;li&gt;Unsteady walk and a tendency to stumble&lt;/li&gt;
+	&lt;li&gt;Difficulty with fine-motor tasks, such as eating, writing or buttoning a shirt&lt;/li&gt;
+	&lt;li&gt;Change in speech&lt;/li&gt;
+	&lt;li&gt;Involuntary back-and-forth eye movements (nystagmus)&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you aren&apos;t aware of having a condition that causes ataxia, such as multiple sclerosis, see your doctor if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lose balance&lt;/li&gt;
+	&lt;li&gt;Lose muscle coordination in a hand, arm or leg&lt;/li&gt;
+	&lt;li&gt;Have difficulty walking&lt;/li&gt;
+	&lt;li&gt;Slur your speech&lt;/li&gt;
+	&lt;li&gt;Have difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Damage, degeneration or loss of nerve cells in the part of your brain that controls muscle coordination (cerebellum), results in loss of coordination or ataxia. Your cerebellum comprises two pingpong-ball-sized portions of folded tissue situated at the base of your brain near your brainstem. The right side of your cerebellum controls coordination on the right side of your body; the left side of your cerebellum controls coordination on the left side of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Diseases that damage the spinal cord and peripheral nerves that connect your cerebellum to your muscles also may cause ataxia. Ataxia causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Head trauma.&lt;/strong&gt; Damage to your brain or spinal cord from a blow to your head, such as might occur in a car accident, can cause sudden-onset ataxia, also known as acute cerebellar ataxia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; When the blood supply to a part of your brain is interrupted or severely reduced, depriving brain tissue of oxygen and nutrients, brain cells begin to die.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transient ischemic attack (TIA).&lt;/strong&gt; Caused by a temporary decrease in blood supply to part of your brain, most TIAs last only a few minutes. Loss of coordination and other signs and symptoms of a TIA are temporary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral palsy.&lt;/strong&gt; This is a general term for a group of disorders caused by damage to a child&apos;s brain during early development &amp;mdash; before, during or shortly after birth &amp;mdash; that affects the child&apos;s ability to coordinate body movements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple sclerosis (MS).&lt;/strong&gt; MS is a chronic, potentially debilitating disease that affects your central nervous system, which comprises your brain and spinal cord.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chickenpox.&lt;/strong&gt; Ataxia can be an uncommon complication of chickenpox and other viral infections. It may appear in the healing stages of the infection and last for days or weeks. Normally, the ataxia resolves completely over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Paraneoplastic syndromes.&lt;/strong&gt; These are rare, degenerative disorders triggered by your immune system&apos;s response to a cancerous tumor (neoplasm), most commonly from lung, ovarian, breast or lymphatic cancer. Ataxia may appear months or years before the cancer is diagnosed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor.&lt;/strong&gt; A growth on the brain, cancerous or noncancerous (benign), can damage the cerebellum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxic reaction.&lt;/strong&gt; Ataxia is a potential side effect of certain medications, such as barbiturates, such as phenobarbital, and sedatives, such as benzodiazepines. Alcohol and drug intoxication; heavy metal poisoning &amp;mdash; from lead or mercury, for example &amp;mdash; and solvent poisoning &amp;mdash; from paint thinner, for example &amp;mdash; also can cause ataxia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some adults who develop sporadic ataxia, no specific acquired or genetic cause can be found. This is known as sporadic degenerative ataxia, which can take a number of forms, including multiple system atrophy (MSA), a progressive, degenerative disorder.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hereditary ataxias&lt;br /&gt;
+&lt;/strong&gt;Some types of ataxia and some conditions that cause ataxia are hereditary. If you have one of these conditions, you were born with a defect in a certain gene that makes abnormal proteins. The abnormal proteins hamper the ability of nerve cells, primarily in your cerebellum and spinal cord, to function properly and cause them to degenerate over time. As the disease progresses, coordination problems worsen.
+&lt;/p&gt;
+&lt;p&gt;
+You can inherit a genetic ataxia from either a dominant gene from one parent (autosomal dominant disorder) or a recessive gene from each parent (autosomal recessive disorder). In the latter case, it&apos;s possible neither parent has the disorder (silent mutation), so there may be no obvious family history.
+&lt;/p&gt;
+&lt;p&gt;
+Different gene defects cause different types of ataxia, most of which are progressive. Each type causes poor coordination, but each has specific signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Autosomal dominant ataxias&lt;br /&gt;
+&lt;/strong&gt;These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spinocerebellar ataxias.&lt;/strong&gt; Researchers have labeled 28 autosomal dominant ataxia genes with the designation SCA1 through SCA28, generally numbered according to their order of discovery, and the number continues to grow. Cerebellar ataxia and cerebellar degeneration are common to all types, but other signs and symptoms, as well as age of onset, differ depending on the specific gene mutation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Episodic ataxia.&lt;/strong&gt; There are six recognized types of ataxia that are episodic rather than progressive &amp;mdash; EA1 through EA6. All but the first two are rare. EA1 involves brief ataxic episodes that may last seconds or minutes; are triggered by stress, being startled or sudden movement; and often are associated with muscle twitching. EA2 involves longer episodes, usually lasting from 30 minutes to six hours, that also are triggered by stress. If you have this type of ataxia, you also may experience dizziness (vertigo), fatigue and muscle weakness during your episodes. In some cases of episodic ataxia, symptoms resolve in later life. Episodic ataxia doesn&apos;t shorten life span, and symptoms may respond to medication, such as acetazolamide (Diamox), which also is used to treat seizures, or the anticonvulsant phenytoin (Dilantin).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Autosomal recessive ataxias&lt;br /&gt;
+&lt;/strong&gt;These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Friedreich&apos;s ataxia.&lt;/strong&gt; This neurological disorder involves damage to your cerebellum, spinal cord and peripheral nerves. Peripheral nerves carry signals from your brain and spinal cord to your muscles. In most cases, signs and symptoms appear between the ages of 5 and 15, but may occur as early as 18 months or as late as 30 years of age. The rate of disease progression varies. If you have Friedreich&apos;s ataxia, however, you&apos;re likely to rely on a wheelchair within 15 years of the appearance of symptoms, and your life span may be affected if the disorder includes significant heart disease.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The first indication generally is difficulty walking (gait ataxia). The condition typically progresses to the arms and trunk. Muscles weaken and waste away over time, causing deformities, particularly in your feet, lower legs and hands. Other signs and symptoms that may develop as the disease progresses include slow, slurred speech (dysarthria); fatigue; rapid, involuntary eye movements (nystagmus); spinal curvature (scoliosis); and heart disease, including heart enlargement (cardiomyopathy) and heart failure. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ataxia-telangiectasia.&lt;/strong&gt; This rare, progressive childhood disease causes degeneration in the brain and other body systems. Signs and symptoms usually appear by age 10. The disease causes immune system breakdown (immunodeficiency disease), which increases susceptibility to other diseases. It affects various organs.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Telangiectasias are tiny red &quot;spider&quot; veins that may appear in the corners of your child&apos;s eyes or on the ears and cheeks. Although they&apos;re characteristic of the disease, your child may or may not develop them. Delayed development of motor skills, poor balance and slurred speech are typically the first indications of the disease. Recurrent sinus and respiratory infections are common. About 1 in 5 children with ataxia-telangiectasia develops leukemia or lymphoma because of dysfunction in the immune system. Most people with the disease need a wheelchair by their teens and die in their teens or early 20s. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital cerebellar ataxia.&lt;/strong&gt; This type refers to ataxia that results from damage to the cerebellum that&apos;s present at birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wilson&apos;s disease.&lt;/strong&gt; People with this condition accumulate copper in their brains, livers and other organs, which can cause neurological problems, including ataxia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cerebellum and brainstem 
+" Caption="Persistent ataxia usually results from damage to your cerebellum, the part of your brain that controls muscle coordination. 
+" Height="60" Title="Cerebellum and brainstem" URI="/images/image_popup/thumbs/r7_cerebellumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cerebellum and brainstem 
+" Caption="Persistent ataxia usually results from damage to your cerebellum, the part of your brain that controls muscle coordination. 
+" Height="320" Title="Cerebellum and brainstem" URI="/images/image_popup/r7_cerebellum.jpg" Width="320" />
+				<HTML>
+					Persistent ataxia usually results from damage to your cerebellum, the part of your brain that controls muscle coordination. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a neurologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because there may be a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For ataxia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Are there any devices that can help me with coordination?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Can I participate in any research studies related to ataxia?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any family members who have had these types of symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or drugs?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to any toxins?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent viruses?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Don&apos;t drink alcohol or take recreational drugs, which can make your ataxia worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Besides conducting a physical exam and a neurological exam, including checking your memory and concentration, vision, hearing, balance, coordination and reflexes, your doctor may request these laboratory tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Certain blood tests can confirm or exclude the suspected condition. A sample of your blood will be drawn from your arm through a needle. You may be required to fast from midnight the night before your appointment until after your blood is drawn. The specific tests will depend on the suspected cause, but most likely will include a complete blood count (CBC), which helps evaluate your overall health and detect a range of disorders, including infection and heavy metal poisoning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; Examining a sample of your urine under a microscope (urinalysis) may suggest certain systemic abnormalities that can be related to some forms of ataxia. If your doctor suspects Wilson&apos;s disease, you may be asked for a 24-hour urine collection to help determine the amount of copper in your system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging studies.&lt;/strong&gt; A computerized tomography (CT) scan or magnetic resonance imaging (MRI) of your brain may help determine potential causes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lumbar puncture (spinal tap).&lt;/strong&gt; A needle is inserted into your lower back (lumbar region) between two lumbar bones (vertebrae) to remove a sample of cerebrospinal fluid. The fluid, which surrounds and protects your brain and spinal cord, is sent to a laboratory for testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; Your doctor may recommend genetic testing to determine whether you or your child has the gene mutation that causes one of the hereditary ataxic conditions. Gene tests are available for many but not all of the hereditary ataxias.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no treatment specifically for ataxia. In some cases, treating the underlying cause resolves the ataxia. In other cases, such as ataxia that results from chickenpox or other viral infection, it&apos;s likely to resolve on its own over time. Your doctor may recommend adaptive devices or therapies to help with your ataxia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adaptive devices&lt;br /&gt;
+&lt;/strong&gt;For ataxia caused by conditions such as multiple sclerosis or cerebral palsy, ataxia might not be treatable. In that case, your doctor may be able to recommend adaptive devices. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Canes or walkers for walking&lt;/li&gt;
+	&lt;li&gt;Modified utensils for eating&lt;/li&gt;
+	&lt;li&gt;Communication aids for speaking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;You might benefit from certain therapies, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical therapy to help you build strength and enhance your mobility&lt;/li&gt;
+	&lt;li&gt;Occupational therapy to help you with daily living tasks, such as feeding yourself&lt;/li&gt;
+	&lt;li&gt;Speech therapy to improve speech and aid swallowing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The challenges you face when living with ataxia, such as loss of independence, or having a child with the condition, may make you feel alone or lead to depression and anxiety. Talking to a counselor or therapist may lessen your sense of isolation and help you cope. Or you may find encouragement and understanding in a support group, either for ataxia or for your underlying condition, such as cancer or multiple sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about the latest treatments and tend to share their own experiences. If you&apos;re interested, your doctor may be able to recommend a group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ataxia
+	</Title>
+	<Abstract>
+		Ataxia &amp;mdash; Comprehensive overview covers causes and treatments for this lack of muscle coordination.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+	</RelatedLinksBox>
+</Disease>

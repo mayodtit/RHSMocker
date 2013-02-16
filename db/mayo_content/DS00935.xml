@@ -1,0 +1,255 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00935
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/osteomalacia/DS00935
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="1732" Title="Soft bones">
+							<Keyword MCVID="3836" Title="Osteomalacia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			510D219E-E7FF-0DBD-1AEBE4514A7F8DD8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				osteomalacia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteomalacia refers to a softening of your bones, often caused by a vitamin D deficiency. In children, this condition is called rickets. Soft bones are more likely to bow and fracture than are harder, healthy bones. 
+&lt;/p&gt;
+&lt;p&gt;
+Osteomalacia is not the same as osteoporosis, another bone disorder that can also lead to bone fractures. Osteomalacia results from a defect in the bone-building process, while osteoporosis develops due to a weakening of previously constructed bone.
+&lt;/p&gt;
+&lt;p&gt;
+Muscle weakness and achy bone pain are the major sign and symptom of osteomalacia. Treatment for osteomalacia involves replenishing low levels of vitamin D and calcium, and treating any underlying disorders that may be causing the deficiencies. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the early stages, you may have no osteomalacia symptoms, although signs of osteomalacia may be apparent on X-ray pictures or other diagnostic tests. As osteomalacia worsens, you may experience bone pain and muscle weakness.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bone pain&lt;br /&gt;
+&lt;/strong&gt;The dull, aching pain associated with osteomalacia most commonly affects the:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lower spine&lt;/li&gt;
+	&lt;li&gt;Pelvis&lt;/li&gt;
+	&lt;li&gt;Hips&lt;/li&gt;
+	&lt;li&gt;Legs&lt;/li&gt;
+	&lt;li&gt;Ribs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Muscle weakness&lt;br /&gt;
+&lt;/strong&gt;Osteomalacia may result in:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Decreased muscle tone&lt;/li&gt;
+	&lt;li&gt;Weakness in your arms and legs&lt;/li&gt;
+	&lt;li&gt;Reduced ability to get around&lt;/li&gt;
+	&lt;li&gt;A waddling gait&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your body uses calcium and phosphate to build strong bones. Osteomalacia may occur if you don&apos;t get enough of these minerals in your diet or if your body doesn&apos;t absorb them properly. These problems may be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin D deficiency.&lt;/strong&gt; Sunlight produces vitamin D in your skin. Your body needs vitamin D to process calcium. Osteomalacia can develop in people who spend little time in sunlight, wear very strong sunscreen, remain covered while outside, or live in areas where sunlight hours are short or the air is smoggy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain surgeries.&lt;/strong&gt; Removing part or all of your stomach (gastrectomy) can cause osteomalacia because your stomach breaks down foods to release vitamin D and other minerals, which are absorbed in your intestines. Surgery to remove or bypass your small intestine also can lead to osteomalacia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Celiac disease.&lt;/strong&gt; In this autoimmune disorder, the lining of your small intestine is damaged by consuming foods containing gluten, a protein found in wheat, barley and rye. A damaged intestinal lining doesn&apos;t absorb nutrients, such as vitamin D, as well as a healthy one does.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney or liver disorders.&lt;/strong&gt; Problems with your kidneys or liver can interfere with your ability to process vitamin D.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs.&lt;/strong&gt; Some drugs used to treat seizures, including phenytoin (Dilantin, Phenytek) and phenobarbital, can cause osteomalacia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk of developing osteomalacia is highest in people who have both inadequate dietary intake of vitamin D and little exposure to sunlight, such as older adults and those who are housebound or hospitalized. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have osteomalacia, you&apos;re more likely to experience broken bones, particularly in your ribs, spine and legs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a rheumatologist &amp;mdash; a doctor who specializes in arthritis and other diseases of the joints, muscles and bones &amp;mdash; or an endocrinologist, a doctor who specializes in metabolic disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For osteomalacia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to make any changes to my diet or lifestyle?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to go over additional questions you may have. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did you first notice them?&lt;/li&gt;
+	&lt;li&gt;Where is your pain located?&lt;/li&gt;
+	&lt;li&gt;Are any areas tender to the touch?&lt;/li&gt;
+	&lt;li&gt;Is your pain constant or does it come and go?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;What medications, vitamins and supplements do you use?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you ever had gastric bypass surgery?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried so far, if any? Has anything helped?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In order to pinpoint the underlying cause of osteomalacia and to rule out other bone disorders, such as osteoporosis, you may undergo one or more of the following tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; In cases of osteomalacia caused by vitamin D deficiency or by phosphorus loss, abnormal levels of vitamin D and the minerals calcium and phosphorus are often detected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; Slight cracks in your bones that are visible on X-rays, referred to as Looser transformation zones, are a characteristic feature of people with osteomalacia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone biopsy.&lt;/strong&gt; During a bone biopsy, your doctor inserts a slender needle through your skin and into your bone to withdraw a small sample for viewing under a microscope. Although a bone biopsy is very accurate in detecting osteomalacia, it&apos;s not often needed to make the diagnosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When osteomalacia arises from a dietary or sunlight deficiency, replenishing low levels of vitamin D in your body usually cures the condition.
+&lt;/p&gt;
+&lt;p&gt;
+Generally, people with osteomalacia take vitamin D supplements by mouth for a period of several weeks to several months. Less commonly, vitamin D is given as an injection or through a vein in your arm.
+&lt;/p&gt;
+&lt;p&gt;
+If your blood levels of calcium or phosphorus are low, you may take supplements of those minerals as well. In addition, treating any condition affecting vitamin D metabolism, such as kidney failure or primary biliary cirrhosis, often helps improve the signs and symptoms of osteomalacia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteomalacia caused by inadequate sun exposure or a diet low in vitamin D often can be prevented. Here are a few suggestions to help reduce your risk of developing osteomalacia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spend a few minutes in the sun.&lt;/strong&gt; Sun is a natural source of vitamin D. Although it&apos;s important to limit your unprotected time in the sun, brief periods of direct sun exposure will help with vitamin D production. Ask your doctor for guidance on a safe amount of sun exposure for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat foods high in vitamin D.&lt;/strong&gt; These include foods that are naturally rich in vitamin D, including oily fish (salmon, mackerel, sardines) and egg yolks. Also look for foods that are fortified with vitamin D, such as cereal, bread, milk and yogurt.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take supplements, if needed.&lt;/strong&gt; If you don&apos;t get enough vitamins and minerals in your diet or if you have a medical condition affecting the ability of your digestive system to absorb nutrients properly, ask your doctor about taking a vitamin D supplement and a calcium supplement.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Osteomalacia
+	</Title>
+	<Abstract>
+		Osteomalacia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this disorder resulting in soft bones.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02182" LinkType="Internal" ObjectID="CC7E53F6-98D8-CA08-60C91AF082F28449" Title="Vitamin D deficiency" Url="http://www.mayoclinic.com/health/vitamin-d-deficiency/AN02182" />
+	</RelatedLinksBox>
+</Disease>

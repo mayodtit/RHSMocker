@@ -1,0 +1,371 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00565
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chronic-lymphocytic-leukemia/DS00565
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-24
+		</UpdateDate>
+		<PublicationDate>
+			2004-11-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2145" Title="Leukemia">
+						<Keyword MCVID="3100" Title="Chronic lymphocytic leukemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CCA7A9A1-ABB6-4E7B-BE47CD881F53F105
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic lymphocytic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic lymphoid leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				CLL
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph nodes
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph system
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph
+			</MetaKeyword>
+			<MetaKeyword>
+				blood
+			</MetaKeyword>
+			<MetaKeyword>
+				blood cell
+			</MetaKeyword>
+			<MetaKeyword>
+				luekemia
+			</MetaKeyword>
+			<MetaKeyword>
+				leukaemia
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow disease
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic lymphocytic leukemia (CLL) is a type of cancer of the blood and bone marrow &amp;mdash; the spongy tissue inside bones where blood cells are made. 
+&lt;/p&gt;
+&lt;p&gt;
+The term &quot;chronic&quot; in chronic lymphocytic leukemia comes from the fact that it typically progresses more slowly than other types of leukemia. The term &quot;lymphocytic&quot; in chronic lymphocytic leukemia comes from the cells affected by the disease &amp;mdash; a group of white blood cells called lymphocytes, which help your body fight infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Chronic lymphocytic leukemia most commonly affects older adults. Chronic lymphocytic leukemia treatments can help control the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with chronic lymphocytic leukemia have no symptoms. Those who do develop signs and symptoms may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Enlarged, but painless, lymph nodes&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Pain in the upper left portion of the abdomen, which may be caused by an enlarged spleen&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Frequent infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you&apos;re concerned about any of your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t certain what starts the process that causes chronic lymphocytic leukemia. Doctors know that something happens in order to cause a genetic mutation in the DNA of blood-producing cells. This mutation causes the blood cells to produce abnormal, ineffective lymphocytes &amp;mdash; one type of white blood cell that helps your body fight infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Beyond being ineffective, these abnormal lymphocytes continue to live and multiply, when normal lymphocytes would die. The abnormal lymphocytes accumulate in the blood and certain organs, where they cause complications. They may crowd healthy cells out of the bone marrow and interfere with normal blood cell production. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors and researchers are working to understand the exact mechanism that causes chronic lymphocytic leukemia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of chronic lymphocytic leukemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Most people diagnosed with chronic lymphocytic leukemia are over 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are more likely than are women to develop chronic lymphocytic leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your race.&lt;/strong&gt; Whites are more likely to develop chronic lymphocytic leukemia than are people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of blood and bone marrow cancers.&lt;/strong&gt; A family history of chronic lymphocytic leukemia or other blood and bone marrow cancers may increase your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to chemicals.&lt;/strong&gt; Certain herbicides and insecticides, including Agent Orange used during the Vietnam War, have been linked to an increased risk of chronic lymphocytic leukemia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic lymphocytic leukemia may cause complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent infections.&lt;/strong&gt; People with chronic lymphocytic leukemia may experience frequent infections. In most cases, these infections are common infections of the upper and lower respiratory tract. But sometimes more-serious infections can develop. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A switch to a more aggressive form of cancer.&lt;/strong&gt; A small number of people with chronic lymphocytic leukemia may develop a more aggressive form of cancer called diffuse large B-cell lymphoma. Doctors sometimes refer to this switch as Richter&apos;s syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased risk of other cancers.&lt;/strong&gt; People with chronic lymphocytic leukemia have an increased risk of other types of cancer, including skin cancer, such as melanoma, and cancers of the lung and the digestive tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system problems.&lt;/strong&gt; A small number of people with chronic lymphocytic leukemia may develop an immune system problem that causes the disease-fighting cells of the immune system to mistakenly attack the red blood cells or the platelets. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have any signs or symptoms that worry you, start by making an appointment with your family doctor or a general practitioner. If your doctor determines you may have chronic lymphocytic leukemia, you may be referred to a doctor who specializes in diseases of the blood and bone marrow (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For chronic lymphocytic leukemia, some basic questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do my test results mean?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment right away?&lt;/li&gt;
+	&lt;li&gt;If I don&apos;t begin treatment right now, will that limit my treatment options in the future?&lt;/li&gt;
+	&lt;li&gt;Should I undergo additional tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the side effects associated with each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment that&apos;s strongly recommended for someone with my diagnosis?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose chronic lymphocytic leukemia include blood tests designed to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Count the number of cells in a blood sample.&lt;/strong&gt; A complete blood count may be used to count the number of lymphocytes in a blood sample. A high number of B cells, one type of lymphocyte, may indicate chronic lymphocytic leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Determine the type of lymphocytes involved.&lt;/strong&gt; A test called flow cytometry or immunophenotyping helps determine whether an increased number of lymphocytes is due to chronic lymphocytic leukemia, a different blood disorder or your body&apos;s reaction to another process, such as infection. If chronic lymphocytic leukemia is present, flow cytometry may also help analyze the leukemia cells for characteristics that help predict how aggressive the cells are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Analyze lymphocytes for genetic abnormalities.&lt;/strong&gt; A test called fluorescence in situ hybridization (FISH) examines the chromosomes inside the abnormal lymphocytes to look for abnormalities. Doctors sometimes use this information to determine your prognosis and help choose a treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other tests&lt;/strong&gt; &lt;br /&gt;
+In some cases your doctor may order additional tests and procedures to aid in diagnosis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone marrow biopsy and aspiration&lt;/li&gt;
+	&lt;li&gt;Computerized tomography &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging&lt;/strong&gt; &lt;br /&gt;
+Once a diagnosis is confirmed, your doctor determines the extent (stage) of your chronic lymphocytic leukemia. Two different staging systems are used. Each assigns a stage &amp;mdash; early, intermediate or advanced &amp;mdash; that indicates the progression of a person&apos;s chronic lymphocytic leukemia. These levels are used to determine your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, people with early-stage disease don&apos;t require immediate treatment. Those with intermediate-stage disease and advanced-stage disease may be given the option to begin treatment right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options for chronic lymphocytic leukemia depend on several factors, such as the stage of your cancer, whether you&apos;re experiencing signs and symptoms, your overall health, and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment may not be necessary in early stages&lt;/strong&gt; &lt;br /&gt;
+People with early-stage chronic lymphocytic leukemia typically don&apos;t receive treatment, though clinical trials are evaluating whether early treatment may be helpful. Studies have shown that early treatment doesn&apos;t extend lives for people with early-stage chronic lymphocytic leukemia. Rather than put you through the potential side effects and complications of treatment before you need it, doctors carefully monitor your condition and reserve treatment for when your leukemia progresses. Doctors call this watchful waiting. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will plan a checkup schedule for you. You may meet with your doctor and have your blood tested every few months to monitor your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for intermediate and advanced stages&lt;/strong&gt; &lt;br /&gt;
+If your doctor determines your chronic lymphocytic leukemia is progressing or is in the intermediate or advanced stages, your treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy is a drug treatment that kills cancer cells. Chemotherapy treatments can be given through a vein in your arm or taken in pill form. Depending on your situation, your doctor may use a single chemotherapy drug or you may receive a combination of drugs. Side effects depend on what chemotherapy drugs are used. Common side effects include fatigue, low blood cell counts and a risk of frequent infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Targeted drug therapy.&lt;/strong&gt; Targeted drugs are designed to take advantage of the specific vulnerabilities of your cancer cells. Chronic lymphocytic leukemia cells have a variety of proteins on their surfaces. Targeted therapy drugs are designed to bind to a specific protein as a way to target and kill leukemia cells. Targeted therapy drugs used in treating chronic lymphocytic leukemia include rituximab (Rituxan), alemtuzumab (Campath) and ofatumumab (Arzerra). Side effects of these drugs include fever, chills and infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow stem cell transplant.&lt;/strong&gt; Bone marrow stem cell transplants use strong chemotherapy drugs to kill the stem cells in your bone marrow that are creating diseased lymphocytes. Then healthy adult blood stem cells from a donor are infused into your blood, where they travel to your bone marrow and begin making healthy blood cells. A reduced intensity, or &quot;mini,&quot; bone marrow stem cell transplant is similar to a standard stem cell transplant, but it uses lower doses of chemotherapy drugs. Bone marrow stem cells may be a treatment option for people who aren&apos;t helped by other treatments or for certain people with very aggressive chronic lymphocytic leukemia. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps to keep your body healthy if you&apos;ve been diagnosed with chronic lymphocytic leukemia. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Do what you can to avoid infections.&lt;/strong&gt; People with chronic lymphocytic leukemia are prone to frequent infections. Take steps to keep yourself healthy. Eat a healthy diet with plenty of fruits and vegetables. Get enough sleep so that you wake feeling rested. Exercise most days of the week. Do your best to avoid people who are sick. Wash your hands frequently and thoroughly to help keep germs away. Keep up to date on your immunizations, including an annual flu shot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your risk of second cancers.&lt;/strong&gt; People with chronic lymphocytic leukemia have a risk of second cancers. Lifestyle changes may help reduce your risk, such as not smoking, and drinking alcohol in moderation, eating a healthy plant-based diet and using sunscreen when you&apos;re outside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go to all of your appointments.&lt;/strong&gt; Frequent blood tests to see if your cancer has progressed can wear on you. Each time you go for your test, you may worry that your cancer is worsening. Don&apos;t let this stop you from going to your appointments. Instead, expect that you&apos;ll have some concern and plan for it. Find relaxing activities while waiting for test results. For instance, exercise, read, or spend time with friends and family.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative treatments have been proved to cure chronic lymphocytic leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alternative treatments for coping with fatigue&lt;/strong&gt; &lt;br /&gt;
+Some alternative medicine therapies may help you cope with fatigue, which is commonly experienced by people with chronic lymphocytic leukemia. Your doctor can treat fatigue by controlling the underlying causes, but often medications alone aren&apos;t enough. You may find relief through alternative therapies, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques&lt;/li&gt;
+	&lt;li&gt;Yoga&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor about your options. Together you can devise a plan to help you cope with fatigue. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Green tea extracts for people with early-stage leukemia&lt;/strong&gt; &lt;br /&gt;
+A green tea extract has shown some promise in treating chronic lymphocytic leukemia (CLL). Laboratory research determined that a compound in green tea extract, called EGCG, can kill CLL cells. In a study of people with early-stage chronic lymphocytic leukemia, taking EGCG in pill form reduced some signs of the disease in a portion of the participants. For instance, some participants noticed that their enlarged lymph nodes decreased in size and blood tests revealed some participants had fewer leukemia cells in their blood. Research into EGCG and green tea is ongoing. 
+&lt;/p&gt;
+&lt;p&gt;
+EGCG is generally considered safe, though, at high doses, it can cause complications, such as liver problems, and it may interfere with some medications. Side effects can include nausea, abdominal pain and indigestion. If you&apos;re interested in trying EGCG, talk with your doctor about the risks and benefits. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic lymphocytic leukemia is typically a slow-growing cancer that may not require treatment. While some people may refer to this as a &quot;good&quot; type of cancer, it doesn&apos;t really make receiving a cancer diagnosis any easier. While you may initially be shocked and anxious about your diagnosis, you&apos;ll eventually find your own way of coping with chronic lymphocytic leukemia. Until then, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about chronic lymphocytic leukemia.&lt;/strong&gt; Write down questions to ask your doctor before each appointment and look for information in your local library and on the Internet. Good sources include the National Cancer Institute, the American Cancer Society and The Leukemia &amp; Lymphoma Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; A support group of people with the same diagnosis can be a source of useful information, practical tips and genuine encouragement. Ask your health care team about support groups in your area. Or go online. The American Cancer Society and The Leukemia &amp; Lymphoma Society both host online message boards for cancer survivors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lean on friends and family.&lt;/strong&gt; It can be tough to talk about your diagnosis, and you&apos;ll likely get a range of reactions when you share the news. But talking about your diagnosis can be helpful. So can the practical help that often results. You&apos;ll likely get many offers to help. Plan ahead and think of ways you&apos;d like your friends and family to help. For instance, ask someone to drive you to an appointment, help with chores or just listen when you want to talk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Explore ways to cope with the nagging, chronic nature of the disease.&lt;/strong&gt; If you have chronic lymphocytic leukemia, you&apos;ll likely face ongoing tests and ongoing worries about your white blood cell count. Try to find some activities that help you relax, whether it&apos;s yoga, exercise or gardening. Talk to a counselor, therapist or oncology social worker if you need help dealing with the emotional challenge of this chronic disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chronic lymphocytic leukemia
+	</Title>
+	<Abstract>
+		Chronic lymphocytic leukemia &amp;mdash; Comprehensive overview covers symptoms and treatment of this cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00673" LinkType="Internal" ObjectID="1C911879-2A5D-9994-E350527C9298EE65" Title="Hairy cell leukemia" Url="http://www.mayoclinic.com/health/hairy-cell-leukemia/DS00673" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="Video" DocID="MM00787" LinkType="Internal" ObjectID="255D3C99-F208-37DF-CDFEAEEC6D81B5A7" Title="Video: How a stem cell transplant works" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MM00787" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00351" LinkType="Internal" ObjectID="97C21193-86CD-4C2D-A18052CFD8125EBF" Title="Leukemia" Url="http://www.mayoclinic.com/health/leukemia/DS00351" />
+	</RelatedLinksBox>
+</Disease>

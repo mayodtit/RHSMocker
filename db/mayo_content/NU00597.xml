@@ -1,0 +1,168 @@
+<Calculator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Calculator.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Calculator
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00597
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bmi-calculator/NU00597
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2003-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1672" Title="Obesity" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D961CE75-9A59-42F0-B248EFA4B67765DB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				BMI
+			</MetaKeyword>
+			<MetaKeyword>
+				BMI calculator
+			</MetaKeyword>
+			<MetaKeyword>
+				body mass index
+			</MetaKeyword>
+			<MetaKeyword>
+				overweight
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				obecity
+			</MetaKeyword>
+			<MetaKeyword>
+				calculators
+			</MetaKeyword>
+			<MetaKeyword>
+				obese
+			</MetaKeyword>
+			<MetaKeyword>
+				weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				height and weight chart
+			</MetaKeyword>
+			<MetaKeyword>
+				BMI index
+			</MetaKeyword>
+			<MetaKeyword>
+				bmi chart
+			</MetaKeyword>
+			<MetaKeyword>
+				ideal weight
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy weight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight charts
+			</MetaKeyword>
+			<MetaKeyword>
+				body weight
+			</MetaKeyword>
+			<MetaKeyword>
+				ideal body weight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				losing weight
+			</MetaKeyword>
+			<MetaKeyword>
+				lose weight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight control
+			</MetaKeyword>
+			<MetaKeyword>
+				weightloss
+			</MetaKeyword>
+			<MetaKeyword>
+				weight calculator
+			</MetaKeyword>
+			<MetaKeyword>
+				loose weight
+			</MetaKeyword>
+			<MetaKeyword>
+				loosing weight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight table
+			</MetaKeyword>
+			<MetaKeyword>
+				children&apos;s weight
+			</MetaKeyword>
+			<MetaKeyword>
+				childhood obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				child obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				children and snacks
+			</MetaKeyword>
+			<MetaKeyword>
+				tools
+			</MetaKeyword>
+			<MetaKeyword>
+				fat
+			</MetaKeyword>
+			<MetaKeyword>
+				calculator
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Flash Height="590" ObjectID="A8DF30EE-E7FF-0DBD-1051097A391A11DE" URI="/flash/agg/bmi.swf" Width="410">
+		<Title>
+			NU00597_bmi.swf
+		</Title>
+		<Alt />
+		<Caption />
+	</Flash>
+	<Title>
+		BMI calculator
+	</Title>
+	<Abstract>
+		BMI calculator &amp;mdash; Use this tool to calculate adult or child BMI.
+	</Abstract>
+	<Description />
+</Calculator>

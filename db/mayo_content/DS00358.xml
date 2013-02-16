@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00358
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cold-sore/DS00358
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-23
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2796" Title="Viral skin infection">
+							<Keyword MCVID="2995" Title="Cold sore" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C612A144-1638-4662-A60047FF9FFD9B06
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cold sore
+			</MetaKeyword>
+			<MetaKeyword>
+				cold sores
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes simplex
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes virus
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes simplex virus
+			</MetaKeyword>
+			<MetaKeyword>
+				oral herpes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cold sores &amp;mdash; also called fever blisters &amp;mdash; are tiny, fluid-filled lesions that occur on and around your lips. These blisters are often grouped together in patches. After the blisters break, a crust forms over the resulting sore. Cold sores usually heal within two weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Cold sores spread from person to person by close personal contact, such as kissing. Cold sores are caused by a herpes simplex virus (HSV-1) closely related to the one that causes genital herpes (HSV-2). Both of these herpes simplex viruses can affect your mouth or your genitals, and can be spread via oral sex. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for HSV infection and the blisters may recur sporadically &amp;mdash; often in response to stress or a weakened immune system. Antiviral medications can help cold sores heal more quickly and may reduce the frequency of recurrences.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cold sores 
+" Caption="Cold sores, often called fever blisters, are clustered, small, fluid-filled blisters. You may feel a tingling on your lip before a small, hard, painful spot appears (top). In a day or two, blisters form, which later break and ooze (bottom). Healing usually occurs within two weeks. 
+" Height="60" Title="Cold sore " URI="/images/image_popup/thumbs/r7_coldsorethu.jpg" Width="60" />
+				<Image Alt="Image of cold sores 
+" Caption="Cold sores, often called fever blisters, are clustered, small, fluid-filled blisters. You may feel a tingling on your lip before a small, hard, painful spot appears (top). In a day or two, blisters form, which later break and ooze (bottom). Healing usually occurs within two weeks. 
+" Height="305" Title="Cold sore" URI="/images/image_popup/r7_coldsore.jpg" Width="400" />
+				<HTML>
+					Cold sores, often called fever blisters, are clustered, small, fluid-filled blisters. You may feel a tingling on your lip before a small, hard, painful spot appears (top). In a day or two, blisters ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who become infected with the virus that causes cold sores never develop symptoms. However, they still may be contagious to others, even without blisters. 
+&lt;/p&gt;
+&lt;p&gt;
+For people who do develop signs and symptoms, a cold sore usually passes through several stages, which include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tingling and itching.&lt;/strong&gt; Many people feel an itching, burning or tingling sensation around their lips for a day or two before cold sore blisters erupt.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blisters.&lt;/strong&gt; Small fluid-filled blisters typically break out along the border where the outside edge of the lips meets the skin of the face, although the blisters can also occur around the nose or on the cheeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oozing and crusting.&lt;/strong&gt; The small blisters may merge and then burst, leaving shallow open sores that will ooze fluid and then crust over.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms can vary, depending on whether this is your first outbreak or a recurrence. During first-time outbreaks, some people also experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children under 5 years old may have cold sores inside their mouths and the lesions are commonly mistaken for canker sores. Young children are also more likely to spread the virus to other locations on their bodies, such as their fingers or around their eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Cold sores generally clear up without treatment. However, see your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a weakened immune system&lt;/li&gt;
+	&lt;li&gt;The cold sores don&apos;t heal within two weeks&lt;/li&gt;
+	&lt;li&gt;Symptoms are severe&lt;/li&gt;
+	&lt;li&gt;You have frequent recurrences of cold sores&lt;/li&gt;
+	&lt;li&gt;You experience irritation in your eyes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cold sores 
+" Caption="Cold sores, often called fever blisters, are clustered, small, fluid-filled blisters. You may feel a tingling on your lip before a small, hard, painful spot appears (top). In a day or two, blisters form, which later break and ooze (bottom). Healing usually occurs within two weeks. 
+" Height="60" Title="Cold sore " URI="/images/image_popup/thumbs/r7_coldsorethu.jpg" Width="60" />
+				<Image Alt="Image of cold sores 
+" Caption="Cold sores, often called fever blisters, are clustered, small, fluid-filled blisters. You may feel a tingling on your lip before a small, hard, painful spot appears (top). In a day or two, blisters form, which later break and ooze (bottom). Healing usually occurs within two weeks. 
+" Height="305" Title="Cold sore" URI="/images/image_popup/r7_coldsore.jpg" Width="400" />
+				<HTML>
+					Cold sores, often called fever blisters, are clustered, small, fluid-filled blisters. You may feel a tingling on your lip before a small, hard, painful spot appears (top). In a day or two, blisters ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cold sores are caused by certain strains of the herpes simplex virus (HSV). HSV-1 usually causes cold sores. HSV-2 is usually responsible for genital herpes. However, either type can cause sores in the facial area or on the genitals.
+&lt;/p&gt;
+&lt;p&gt;
+You get the first episode of herpes infection from another person who has an active lesion. Shared eating utensils, razors and towels, as well as kissing, may spread HSV-1. Oral sex can spread HSV-1 to the genitals and HSV-2 to the lips.
+&lt;/p&gt;
+&lt;p&gt;
+While cold sores are most contagious when they are oozing fluid, the virus can be transmitted to others even during times when you have no blisters.
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;ve had an episode of herpes infection, the virus lies dormant in nerve cells in your skin and may emerge again as an active infection at or near the original site. Recurrence may be triggered by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Menstruation&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Exposure to the sun&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About 90 percent of adults worldwide &amp;mdash; even those who&apos;ve never had symptoms of an infection &amp;mdash; test positive for evidence of the virus that causes cold sores. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have weakened immune systems are at higher risk of complications from the virus. Medical conditions and treatments that increase your risk of complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Eczema&lt;/li&gt;
+	&lt;li&gt;Severe burns&lt;/li&gt;
+	&lt;li&gt;Cancer chemotherapy&lt;/li&gt;
+	&lt;li&gt;Anti-rejection drugs for organ transplants&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some people, the virus that causes cold sores can cause problems in other areas of the body, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fingertip.&lt;/strong&gt; Both HSV-1 and HSV-2 can be spread to the fingers. Children who suck their thumbs may transfer the infection from their mouths to their thumbs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyes.&lt;/strong&gt; The virus can sometimes cause pinkeye (conjunctivitis). If ulcers develop on the eye itself, it can result in vision problems and even blindness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Widespread areas of skin.&lt;/strong&gt; People who have a skin condition called eczema are at higher risk of cold sores spreading all across their bodies. This can become a medical emergency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other organs.&lt;/strong&gt; In people with weakened immune systems, the virus can also affect organs such as the lungs, liver and brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cold sores generally clear up without treatment within two weeks. However, if you have lasting or severe sores, have frequent recurrences, or develop eye discomfort along with a cold sore, make an appointment with your family doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you ever had these symptoms before?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of skin problems?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about cold sores. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a cold sore?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;What self-care steps can I follow to ease my symptoms?&lt;/li&gt;
+	&lt;li&gt;Am I contagious? For how long?&lt;/li&gt;
+	&lt;li&gt;How do I reduce the risk of spreading this condition to others?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms will improve?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to help prevent a recurrence?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Could you sense a cold sore coming before the sore became visible?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include eye irritation?&lt;/li&gt;
+	&lt;li&gt;Have you noticed if anything in particular seems to trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for cold sores in the past? If so, what treatment was most effective?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced significant stress or major life changes?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;Does your work or home life bring you into contact with infants or with people who have major illness?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose cold sores just by looking at them. If there is doubt, he or she may want to take a sample from a lesion for testing in a laboratory. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cold sores generally clear up without treatment within two weeks. Several types of prescription antiviral drugs may speed the healing process. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acyclovir (Xerese, Zovirax)&lt;/li&gt;
+	&lt;li&gt;Valacyclovir (Valtrex)&lt;/li&gt;
+	&lt;li&gt;Famciclovir (Famvir)&lt;/li&gt;
+	&lt;li&gt;Penciclovir (Denavir)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some of these products are packaged as pills to be swallowed, while others are creams to be applied to the sores. In general, the pills work better than the creams. Some antiviral drugs can be administered intravenously for severe infections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To ease cold sore symptoms, you may want to try: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Docosanol (Abreva).&lt;/strong&gt; An over-the-counter cream, docosanol is approved by the Food and Drug Administration for use on cold sores. It must be applied frequently and may shorten an outbreak by a few hours or a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other cold sore remedies.&lt;/strong&gt; Some over-the-counter preparations contain a drying agent, such as alcohol, that may speed healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice or cold water.&lt;/strong&gt; Applying ice or washcloths soaked in cold water to the blisters may help ease symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although study results have been mixed, alternative medicine treatments for cold sores include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lemon balm.&lt;/strong&gt; Lip balms containing 1 percent lemon extract seem to shorten healing time and prevent recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lysine.&lt;/strong&gt; An amino acid, lysine is available as an oral supplement and as a cream. Foods rich in lysine include vegetables, beans, fish, turkey and chicken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress reduction.&lt;/strong&gt; If your cold sores are triggered by stress, you might want to try relaxation techniques such as deep-breathing exercises or meditation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may prescribe an antiviral medication for you to take on a regular basis, if you develop cold sores frequently or if you&apos;re at high risk of serious complications. 
+&lt;/p&gt;
+&lt;p&gt;
+To help avoid spreading cold sores to other people or to other parts of your body, you might try some of the following precautions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid skin contact with others while blisters are present.&lt;/strong&gt; The virus spreads most easily when there are moist secretions from the blisters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be careful about touching other parts of your body.&lt;/strong&gt; Your eyes and genital area may be particularly susceptible to spread of the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sharing items.&lt;/strong&gt; Utensils, towels, lip balm and other items can spread the virus when blisters are present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your hands clean.&lt;/strong&gt; Wash your hands carefully before touching another person when you have a cold sore.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cold sore
+	</Title>
+	<Abstract>
+		Cold sore &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this common lip sore.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

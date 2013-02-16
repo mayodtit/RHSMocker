@@ -1,0 +1,324 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00111
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ingrown-toenails/DS00111
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-17
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2158" Title="Nail">
+						<Keyword MCVID="2826" Title="Ingrown toenails" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F1C3E7F2-7F3F-4875-98B3BC007D166C43
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ingrown toenails
+			</MetaKeyword>
+			<MetaKeyword>
+				tonail
+			</MetaKeyword>
+			<MetaKeyword>
+				to nail
+			</MetaKeyword>
+			<MetaKeyword>
+				tonails
+			</MetaKeyword>
+			<MetaKeyword>
+				to nails
+			</MetaKeyword>
+			<MetaKeyword>
+				toe
+			</MetaKeyword>
+			<MetaKeyword>
+				toe nail
+			</MetaKeyword>
+			<MetaKeyword>
+				toe nails
+			</MetaKeyword>
+			<MetaKeyword>
+				shoes
+			</MetaKeyword>
+			<MetaKeyword>
+				nail
+			</MetaKeyword>
+			<MetaKeyword>
+				toenail
+			</MetaKeyword>
+			<MetaKeyword>
+				ingrown toe nail
+			</MetaKeyword>
+			<MetaKeyword>
+				ingrown toe nails
+			</MetaKeyword>
+			<MetaKeyword>
+				ingrown nail
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An ingrown toenail is a common condition in which the corner or side of one of your toenails grows into the soft flesh of that toe. The result is pain, redness, swelling and, sometimes, an infection. An ingrown toenail usually affects your big toe.
+&lt;/p&gt;
+&lt;p&gt;
+Often you can take care of ingrown toenails on your own. If the pain is severe or spreading, however, your doctor can take steps to relieve your discomfort and help you avoid complications of an ingrown toenail.
+&lt;/p&gt;
+&lt;p&gt;
+If you have diabetes or another condition that causes poor circulation to your feet, you&apos;re at greater risk of complications from an ingrown toenail.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing an ingrown toenail 
+" Caption="An ingrown toenail may cause pain, redness, swelling and, sometimes, infection around the toenail. 
+" Height="60" Title="Ingrown toenail" URI="/images/image_popup/thumbs/sn7_ingrown_toenailthu.jpg" Width="60" />
+				<Image Alt="Photo showing an ingrown toenail 
+" Caption="An ingrown toenail may cause pain, redness, swelling and, sometimes, infection around the toenail. 
+" Height="300" Title="Ingrown toenail" URI="/images/image_popup/sn7_ingrown_toenail.jpg" Width="400" />
+				<HTML>
+					An ingrown toenail may cause pain, redness, swelling and, sometimes, infection around the toenail. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of an ingrown toenail include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain and tenderness in your toe along one or both sides of the nail&lt;/li&gt;
+	&lt;li&gt;Redness around your toenail&lt;/li&gt;
+	&lt;li&gt;Swelling of your toe around the nail&lt;/li&gt;
+	&lt;li&gt;Infection of the tissue around your toenail&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Experience severe discomfort in your toe or pus or redness that seems to be spreading&lt;/li&gt;
+	&lt;li&gt;Have diabetes or any circulation impairment to your lower extremities and experience any foot sore or infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing an ingrown toenail 
+" Caption="An ingrown toenail may cause pain, redness, swelling and, sometimes, infection around the toenail. 
+" Height="60" Title="Ingrown toenail" URI="/images/image_popup/thumbs/sn7_ingrown_toenailthu.jpg" Width="60" />
+				<Image Alt="Photo showing an ingrown toenail 
+" Caption="An ingrown toenail may cause pain, redness, swelling and, sometimes, infection around the toenail. 
+" Height="300" Title="Ingrown toenail" URI="/images/image_popup/sn7_ingrown_toenail.jpg" Width="400" />
+				<HTML>
+					An ingrown toenail may cause pain, redness, swelling and, sometimes, infection around the toenail. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ingrown toenails result when the nail grows into the flesh of your toe, often the big toe. Common causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wearing shoes that crowd your toenails&lt;/li&gt;
+	&lt;li&gt;Cutting your toenails too short or not straight across&lt;/li&gt;
+	&lt;li&gt;Injury to your toenail&lt;/li&gt;
+	&lt;li&gt;Unusually curved toenails&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated or undetected, an ingrown toenail can infect the underlying bone and lead to a serious bone infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications can be especially severe if you have diabetes, because the circulation and nerve supply to your feet can be impaired. So, any relatively minor injury to your foot &amp;mdash; cut, scrape, corn, callus or ingrown toenail &amp;mdash; may not heal properly and may lead to infection. A difficult-to-heal open sore (foot ulcer) may require surgery to prevent gangrene &amp;mdash; the decay and death of tissue resulting from an interruption in blood flow to a certain area of your body.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or a foot doctor (podiatrist) can diagnose an ingrown toenail. Because appointments can be brief and there&apos;s often a lot of ground to cover, it can help to be well prepared. Here are some tips to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your appointment. List your questions from most important to least important, in case time runs out. For an ingrown toenail, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What nail-care routines do you recommend while the condition heals?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What at-home treatments have you used?&lt;/li&gt;
+	&lt;li&gt;Do you have diabetes or any circulation impairment to your legs or feet?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose an ingrown toenail based on your symptoms and a physical examination of your nail and the surrounding skin.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can typically treat ingrown toenails through lifestyle and home remedies, such as soaking your foot regularly in warm water and applying an antibiotic cream. If pain continues or there&apos;s pus or redness that seems to be spreading, see your doctor. You may need to have part of the nail removed and antibiotics prescribed for infection.
+&lt;/p&gt;
+&lt;p&gt;
+Ingrown toenail treatments include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifting the nail.&lt;/strong&gt; For a slightly ingrown nail (redness and pain but no discharge), your doctor may place cotton, dental floss or a splint under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partially removing your nail.&lt;/strong&gt; For a more severe ingrown toenail (redness, pain and pus), your doctor may trim or remove the ingrown portion of the nail. Before this procedure, your doctor may temporarily numb your toe by injecting it with an anesthetic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing nail and tissue.&lt;/strong&gt; For a recurrent ingrown toenail, your doctor may suggest removing a portion of your toenail along with the underlying tissue (nail bed) to prevent that part of your nail from growing back. This procedure can be done with a chemical, a laser or other methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also recommend using topical or oral antibiotics for ingrown toenail treatment, especially if the toe is infected or at risk of becoming infected.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ingrown toenail treatment
+" Caption="Ingrown toenail treatment may include placing cotton under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.
+" Height="60" Title="Ingrown toenail treatment" URI="/images/image_popup/thumbs/sn7_ingrown_toenail_treatmentthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ingrown toenail treatment
+" Caption="Ingrown toenail treatment may include placing cotton under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.
+" Height="283" Title="Ingrown toenail treatment" URI="/images/image_popup/sn7_ingrown_toenail_treatment.jpg" Width="400" />
+				<HTML>
+					Ingrown toenail treatment may include placing cotton under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can treat most ingrown toenails at home. Here&apos;s how:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Soak your feet.&lt;/strong&gt; Do this for 15 to 20 minutes two or three times a day in warm water. Soaking reduces swelling and relieves tenderness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Place cotton or dental floss under your toenail.&lt;/strong&gt; Put fresh bits of cotton or waxed dental floss under the ingrown edge after each soaking. This will help the nail eventually grow above the skin edge. Change the cotton or the floss daily until the pain and redness subside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a topical antibiotic.&lt;/strong&gt; Apply an antibiotic ointment and bandage the tender area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose sensible footwear.&lt;/strong&gt; Consider wearing open-toed shoes or sandals until your toe feels better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take pain relievers.&lt;/strong&gt; If there&apos;s severe pain, take over-the-counter pain relievers, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others) to relieve the pain until you can see your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your feet.&lt;/strong&gt; If you have diabetes, check your feet daily for signs of ingrown toenails or other foot problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ingrown toenail treatment
+" Caption="Ingrown toenail treatment may include placing cotton under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.
+" Height="60" Title="Ingrown toenail treatment" URI="/images/image_popup/thumbs/sn7_ingrown_toenail_treatmentthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ingrown toenail treatment
+" Caption="Ingrown toenail treatment may include placing cotton under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.
+" Height="283" Title="Ingrown toenail treatment" URI="/images/image_popup/sn7_ingrown_toenail_treatment.jpg" Width="400" />
+				<HTML>
+					Ingrown toenail treatment may include placing cotton under the edge of the nail to separate the nail from the overlying skin. This helps the nail eventually grow above the skin edge.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent an ingrown toenail:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trim your toenails straight across.&lt;/strong&gt; Don&apos;t curve your nails to match the shape of the front of your toe. If you have your toenails done at a nail salon, be sure to tell your pedicurist to trim your nails straight across. If you have circulation problems in your feet from disorders such as diabetes or peripheral vascular disease, see a podiatrist regularly to have your nails professionally trimmed if you can&apos;t trim them yourself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep toenails at a moderate length.&lt;/strong&gt; Trim toenails so they&apos;re even with the tips of your toes. If you trim your toenails too short, the pressure from your shoes on your toes&apos; tissue may direct your nails to grow into the tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear shoes that fit properly.&lt;/strong&gt; Shoes that place excessive pressure on your toes or pinch your toes may cause your nails to grow into surrounding tissue. If you have nerve impairment to your feet, you may not be able to sense if your shoes fit too tightly. Take care to buy and wear properly fitted shoes, preferably from a shoe store specializing in fitting shoes for people with foot problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective footwear.&lt;/strong&gt; If your work puts you at risk of injuring your toes, buy footwear such as steel-toed shoes, which protect your toes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ingrown toenails
+	</Title>
+	<Abstract>
+		Ingrown toenails &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this common condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="HA00052" LinkType="Internal" ObjectID="AF172FC2-830C-4621-92FC5AD8CE6973BD" Title="Slide show: How to trim thickened toenails" Url="http://www.mayoclinic.com/health/nails/HA00052" />
+	</RelatedLinksBox>
+</Disease>

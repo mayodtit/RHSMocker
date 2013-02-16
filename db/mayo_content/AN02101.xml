@@ -1,0 +1,132 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02101
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/endometriosis/AN02101
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-07
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2050" Title="Endometrium">
+						<Keyword MCVID="2663" Title="Endometriosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2310C9E3-D8DF-F50E-FE85245CAE9C8595
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				endometriosis
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				salpingo-oophorectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It sounds like your mother jumped to the wrong conclusion after hearing about a connection between endometriosis and ovarian cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Ovarian cancer does occur at higher than expected rates in women with endometriosis. But the overall lifetime risk of ovarian cancer is low to begin with. Some studies suggest that endometriosis increases that risk, but it&apos;s still relatively low. Although rare, another type of cancer &amp;mdash; endometriosis-associated adenocarcinoma &amp;mdash; can develop later in life in women who have had endometriosis. 
+&lt;/p&gt;
+&lt;p&gt;
+By contrast, for women who have certain genetic mutations &amp;mdash; most commonly, the BRCA1 or BRCA2 mutation, which is also associated with increased risk of breast cancer &amp;mdash; the lifetime risk of ovarian cancer is as high as 46 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+Endometriosis isn&apos;t a reason to have a hysterectomy unless you have significant symptoms that are unresponsive to less invasive therapies. But endometriosis can be painful in premenopausal women and should be treated. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the severity of your endometriosis, treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hormonal therapies,&lt;/strong&gt; such as birth control pills, which help control the hormones that cause a buildup of endometrial tissue &amp;mdash; and birth control pills are associated with a decrease in ovarian cancer risk. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conservative surgery&lt;/strong&gt; to remove endometrial growths from pelvic organs without removing your reproductive organs &amp;mdash; either with laparoscopic (lap-uh-row-SKOP-ik) surgery, making only a few small incisions in your abdomen, or traditional abdominal surgery in more extensive cases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Total hysterectomy&lt;/strong&gt; with salpingo-oophorectomy (sal-ping-go-oof-uh-REK-tuh-me), which removes the uterus and cervix along with both ovaries and fallopian tubes &amp;mdash; reserved for women at high risk of ovarian cancer, such as those who have the BRCA1 or BRCA2 mutation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re worried about how endometriosis might affect your fertility, that&apos;s a different matter. Endometriosis does cause fertility problems for some women. Normal conception, pregnancy and delivery is possible after conservative endometriosis treatment. But if you&apos;re having trouble conceiving, you may need to see a fertility specialist to explore your options for becoming pregnant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Endometriosis: Risk factor for ovarian cancer?
+	</Title>
+	<Abstract>
+		Endometriosis and ovarian cancer are linked, but the relationship isn&apos;t straight cause and effect.
+	</Abstract>
+	<Question>
+		I just found out I have endometriosis, which my mother also has. She says endometriosis raises our risk of ovarian cancer, so I should have children early and then get a total hysterectomy. What&apos;s the real story?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01008" LinkType="Internal" ObjectID="304B9C37-AA38-5EDA-C217CCCA0C2BEF2D" Title="NuvaRing (vaginal ring)" Url="http://www.mayoclinic.com/health/nuvaring/MY01008" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01006" LinkType="Internal" ObjectID="30457935-E800-7211-0CCCDE453D3AD193" Title="Ortho Evra (contraceptive patch)" Url="http://www.mayoclinic.com/health/ortho-evra/MY01006" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00995" LinkType="Internal" ObjectID="2FDE3776-B3D1-665B-B86327C22115AA07" Title="Depo-Provera (contraceptive injection)" Url="http://www.mayoclinic.com/health/depo-provera/MY00995" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="Article" DocID="MY01541" LinkType="Internal" ObjectID="B0E6EDFF-F3AC-D8DF-2131098AE401EA43" Title="Menstrual cycle: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/menstrual-cycle/MY01541" />
+		<LinkItem ContentType="Video" DocID="MM00807" LinkType="Internal" ObjectID="E711535B-DE8A-B15E-A0233CCEE43B209D" Title="Video: Causes of endometriosis" Url="http://www.mayoclinic.com/health/cause-of-endometriosis/MM00807" />
+		<LinkItem ContentType="Disease" DocID="DS00289" LinkType="Internal" ObjectID="BCA261E0-0FFD-4933-87C852CF94968FE2" Title="Endometriosis" Url="http://www.mayoclinic.com/health/endometriosis/DS00289" />
+	</RelatedLinksBox>
+</Answer>

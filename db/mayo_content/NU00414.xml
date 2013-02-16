@@ -1,0 +1,173 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00414
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00414
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			ED6B251B-C531-4A3C-8388402653B64DF0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Orange rosemary roasted chicken
+	</Title>
+	<Abstract>
+		Orange-rosemary roasted chicken &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Rosemary &amp;mdash; an herb with a piney flavor &amp;mdash; can season a variety of foods including roasted potatoes, mushrooms, stuffing, ripe melon, poultry and meats. Use the herb with care, however. Too much can be overpowering. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 450 F. Lightly coat a baking pan with cooking spray. Rub each piece of chicken with garlic. Dab fingers in oil and rub with oil, and sprinkle with rosemary and pepper. Place the chicken pieces in the baking dish. Pour the orange juice over the chicken. Cover and bake for 30 minutes. Using tongs, turn the chicken and return to the oven until browned, about 10 to 15 minutes longer. Baste the chicken with the orange juice from the pan as needed to prevent it from drying out. Transfer the chicken to individual serving plates. Spoon orange juice from the pan over the top of the chicken and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 skinless, bone-in chicken breast halves, each 8 ounces&lt;/li&gt;
+	&lt;li&gt;3 skinless, bone-in chicken legs with thigh pieces, each 8 ounces&lt;/li&gt;
+	&lt;li&gt;2 garlic cloves, minced&lt;/li&gt;
+	&lt;li&gt;1 1/2 teaspoons extra-virgin olive oil&lt;/li&gt;
+	&lt;li&gt;3 teaspoons fresh rosemary or 1 teaspoon dried rosemary, minced&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon freshly ground black pepper&lt;/li&gt;
+	&lt;li&gt;1/3 cup orange juice&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				204
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				2 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				99 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				0 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				31 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				134 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				8 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

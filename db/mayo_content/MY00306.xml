@@ -1,0 +1,200 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00306
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bone-scan/MY00306
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-26
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3834" Title="Bones joints and muscles">
+						<Keyword MCVID="3082" Title="Bone scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9AE16992-E7FF-0DBD-188029DE09392BC4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bone cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				bone scan
+			</MetaKeyword>
+			<MetaKeyword>
+				radionuclide bone scan
+			</MetaKeyword>
+			<MetaKeyword>
+				bone scintigraphy
+			</MetaKeyword>
+			<MetaKeyword>
+				bone tumor
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A bone scan is a nuclear imaging test that helps diagnose and track several types of bone disease. Your doctor may order a bone scan if you have unexplained skeletal pain suggesting bone loss, bone infection or a bone injury undetectable on a standard X-ray.
+&lt;/p&gt;
+&lt;p&gt;
+A bone scan is also an important tool for detecting cancer that has spread (metastasized) to the bone from a tumor that started in a different organ, such as the breast or prostate. Similarly, a bone scan can detect some abnormalities related to leukemia and lymphoma.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have unexplained bone pain, a bone scan may help determine the cause. Images from bone scans can reveal bone abnormalities related to these conditions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fractures&lt;/li&gt;
+	&lt;li&gt;Arthritis&lt;/li&gt;
+	&lt;li&gt;Paget&apos;s disease of bone&lt;/li&gt;
+	&lt;li&gt;Cancer originating in bone&lt;/li&gt;
+	&lt;li&gt;Cancer that has spread (metastasized) to bone from a different primary site, such as the prostate, lung or breast&lt;/li&gt;
+	&lt;li&gt;Infection of the joints, joint replacements or bones (osteomyelitis)&lt;/li&gt;
+	&lt;li&gt;Fibrous dysplasia&lt;/li&gt;
+	&lt;li&gt;Impaired blood supply to bones or death of bone tissue (avascular necrosis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images of bone scans depicting hot spots 
+" Caption="Scan A shows hot spots (dark areas) in both knees, a sign of arthritis in this case, and a possible fracture in the second toe of the right foot. Otherwise it shows normal bone metabolism. Scan B shows numerous bone hot spots; a result of cancer that has spread to multiple locations. 
+" Height="60" Title="Hot spots" URI="/images/image_popup/thumbs/c7_bonescanthu.jpg" Width="60" />
+				<Image Alt="Images of bone scans depicting hot spots 
+" Caption="Scan A shows hot spots (dark areas) in both knees, a sign of arthritis in this case, and a possible fracture in the second toe of the right foot. Otherwise it shows normal bone metabolism. Scan B shows numerous bone hot spots; a result of cancer that has spread to multiple locations. 
+" Height="366" Title="Hot spots" URI="/images/image_popup/c7_bonescan.jpg" Width="400" />
+				<HTML>
+					Scan A shows hot spots (dark areas) in both knees, a sign of arthritis in this case, and a possible fracture in the second toe of the right foot. Otherwise it shows normal bone metabolism. Scan B ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A bone scan&apos;s sensitivity to variation in bone metabolism and its ability to scan the entire skeleton make it very helpful in diagnosing a wide range of bone disorders. The test poses no greater risk than do conventional X-ray procedures. The tracers used in a bone scan produce very little radiation exposure.
+&lt;/p&gt;
+&lt;p&gt;
+You might find the injection and the need to lie still during the scanning procedure mildly uncomfortable. The risk of an allergic reaction to the tracers is low.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need to restrict your diet or avoid particular activities in preparation for a bone scan. Immediately before the test, though, you may be asked to remove jewelry or other metal objects.
+&lt;/p&gt;
+&lt;p&gt;
+Bone scans aren&apos;t usually performed on pregnant women or nursing mothers because of concerns about radiation exposure to the baby. Tell your doctor if you&apos;re pregnant &amp;mdash; or think you might be pregnant &amp;mdash; or if you&apos;re nursing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A bone scan is a nuclear imaging procedure. In nuclear imaging, tiny amounts of radioactive materials (tracers) are injected into a vein and taken up in varying amounts at different sites in the body. Areas of the body where cells and tissues are repairing themselves most actively take up the largest amounts of tracer. Nuclear images highlight these areas, suggesting the presence of abnormalities characteristic of disease or injury.
+&lt;/p&gt;
+&lt;p&gt;
+A bone scan can be divided into two basic parts:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The injection.&lt;/strong&gt; You will receive an injection of tracers into a vein in your arm. Depending on the reason your doctor has ordered the scan, images of the injection may be taken immediately or after enough time has passed to allow the tracers to circulate and be absorbed by your bones &amp;mdash; generally two to four hours. You may be allowed to leave the radiology department during this time. Your doctor will ask you to drink extra water to remove unabsorbed radioactive material from your system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The scan.&lt;/strong&gt; During the scan, you&apos;ll be asked to lie still on a table while an arm-like device supporting a tracer-sensitive camera passes back and forth over your body. This is painless. A scan of your entire skeleton takes as long as 60 minutes. Scanning a limited area of your body takes less time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, your doctor might order a three-phase bone scan, which includes a series of images taken at different times. A number of images are taken as the tracer is injected, then shortly after the injection, and again three to four hours later.
+&lt;/p&gt;
+&lt;p&gt;
+To better see some bones in your body, your doctor might order additional imaging called single-photon emission computerized tomography (SPECT). This can help analyze conditions that are especially deep in your bone or in places that are difficult to see with static or 2-D (planar) images. For a SPECT scan, the camera rotates around your body, taking images as it rotates. The additional SPECT images take approximately 30 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;br /&gt;
+&lt;/strong&gt;Once inside your body, the tracers don&apos;t remain active for long. The radioactivity is mostly removed after one day and completely eliminated by two days. You should feel no side effects after the procedure, and no aftercare is necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The radiologist looks for evidence of abnormal bone metabolism on the scans. These show up as darker &quot;hot spots&quot; and lighter &quot;cold spots&quot; where the tracers have or haven&apos;t accumulated.
+&lt;/p&gt;
+&lt;p&gt;
+Although a bone scan is very sensitive to abnormalities in bone metabolism, it&apos;s less helpful in determining the exact cause of the abnormality. If you have a bone scan that shows hot spots, more testing may be needed to determine the cause.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bone scan
+	</Title>
+	<Abstract>
+		Bone scan &amp;mdash; Overview covers definition, risks, results of this diagnostic test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00520" LinkType="Internal" ObjectID="5F5CBD5A-1B96-4D75-B96779927D91894E" Title="Bone cancer" Url="http://www.mayoclinic.com/health/bone-cancer/DS00520" />
+		<LinkItem ContentType="Disease" DocID="DS00991" LinkType="Internal" ObjectID="3478CF2A-E7FF-0DBD-1C0BB90FB33A7C20" Title="Fibrous dysplasia" Url="http://www.mayoclinic.com/health/fibrous-dysplasia/DS00991" />
+	</RelatedLinksBox>
+</TestProcedure>

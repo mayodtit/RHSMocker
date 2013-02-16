@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01267
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lupus/AN01267
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="1737" Title="Lupus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E434A0DE-2A5D-9994-E7E971447FB71A4D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lupus
+			</MetaKeyword>
+			<MetaKeyword>
+				lupus nephritis
+			</MetaKeyword>
+			<MetaKeyword>
+				SLE
+			</MetaKeyword>
+			<MetaKeyword>
+				systemic lupus erythematosus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+About half the people who have systemic lupus erythematosus develop some form of kidney inflammation, called lupus nephritis. This inflammation can lead to kidney failure, but the course of the lupus and the pattern of its effects on the kidneys is quite variable and hard to predict.
+&lt;/p&gt;
+&lt;p&gt;
+Initially, lupus nephritis may cause no signs or symptoms. But if inflammation is widespread and persistent, it leads to impaired kidney function, indicated by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased protein in the urine&lt;/li&gt;
+	&lt;li&gt;Elevated creatinine in the blood&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Swelling (edema) of the feet and lower legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with lupus, your doctor will likely recommend tests to evaluate your kidney function. If a problem is detected, your doctor may recommend a kidney biopsy &amp;mdash; to help determine the severity of the kidney disease and appropriate treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lupus: How does it affect the kidneys?
+	</Title>
+	<Abstract>
+		Lupus can cause inflammation of the kidneys, which can impair their function.
+	</Abstract>
+	<Question>
+		How does lupus affect my kidneys?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No start given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00787" LinkType="Internal" ObjectID="74664E72-D011-7D0D-FAFA7BCB2AED1DD4" Title="ANA test" Url="http://www.mayoclinic.com/health/ana-test/MY00787" />
+		<LinkItem ContentType="Answer" DocID="AN01622" LinkType="Internal" ObjectID="21B4B8AD-E7FF-0DBD-184184B15FD73F74" Title="Livedo reticularis: When is it a concern?" Url="http://www.mayoclinic.com/health/livedo-reticularis/AN01622" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Answer" DocID="AN01876" LinkType="Internal" ObjectID="ED21D1CA-E7FF-0DBD-132BE14E77330FCB" Title="Lupus: Can it cause hair loss?" Url="http://www.mayoclinic.com/health/lupus/AN01876" />
+		<LinkItem ContentType="Answer" DocID="AN01280" LinkType="Internal" ObjectID="6149219E-2A5D-9994-E09E7A063B0CE604" Title="Lupus: Can it cause hives?" Url="http://www.mayoclinic.com/health/lupus/AN01280" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+	</RelatedLinksBox>
+</Answer>

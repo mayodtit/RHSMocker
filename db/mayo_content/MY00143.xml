@@ -1,0 +1,221 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00143
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/microalbumin/MY00143
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3849" Title="Microalbumin test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF97963B-E7FF-0DBD-11424887D8C55C79
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				microalbumin
+			</MetaKeyword>
+			<MetaKeyword>
+				microalbumin test
+			</MetaKeyword>
+			<MetaKeyword>
+				urine microalbumin
+			</MetaKeyword>
+			<MetaKeyword>
+				urine microalbumin test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes complications
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes care
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A urine microalbumin test is a test to detect very small levels of a blood protein (albumin) in your urine. A microalbumin test is used to detect early signs of kidney damage in people who have a risk of kidney disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Healthy kidneys filter waste from your blood and keep the healthy components, such as proteins like albumin. Kidney damage can cause proteins to leak through your kidneys and leave your body in your urine. Albumin (al-BYOO-min) is one of the first proteins to leak when kidneys become damaged. 
+&lt;/p&gt;
+&lt;p&gt;
+Microalbumin tests are recommended for people with an increased risk of kidney disease, such as those with type 1 diabetes, type 2 diabetes or high blood pressure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend a urine microalbumin test to detect early signs of kidney damage. Treatment for early kidney damage may prevent or delay more advanced kidney disease. 
+&lt;/p&gt;
+&lt;p&gt;
+How often you need microalbumin tests depends on any underlying conditions and your risk of kidney damage. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type 1 diabetes.&lt;/strong&gt; If you have type 1 diabetes, your doctor may recommend a microalbumin test once a year beginning five years after your diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2 diabetes.&lt;/strong&gt; If you have type 2 diabetes, your doctor may recommend a microalbumin test once a year beginning immediately after your diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; If you have high blood pressure, your doctor may recommend regular microalbumin tests. Discuss with your doctor how often to repeat this test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your urinary microalbumin level is elevated, your doctor may recommend more frequent testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The microalbumin test is a simple urine test. You can eat and drink normally before the test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the microalbumin test, you simply need to provide a fresh urine sample. This may be done in several ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;24-hour urine test.&lt;/strong&gt; Your doctor may ask you to collect all of your urine in a special container over a 24-hour period and submit it for analysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Timed urine test.&lt;/strong&gt; Your doctor may ask you to provide a urine sample first thing in the morning or after a four-hour period of not urinating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Random urine test.&lt;/strong&gt; A random urine test can be taken at any time. But to improve accuracy of the results, it&apos;s often combined with a urine test for creatinine &amp;mdash; a waste product usually filtered by the kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The urine sample is sent to a lab for analysis. After you provide the urine sample, you can return to your usual activities immediately.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of the microalbumin test are measured as milligrams (mg) of protein leakage over 24 hours. Generally: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Less than 30 mg is normal&lt;/li&gt;
+	&lt;li&gt;Thirty to 300 mg indicates early kidney disease (microalbuminuria)&lt;/li&gt;
+	&lt;li&gt;More than 300 mg indicates more advanced kidney disease (macroalbuminuria)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss your test result with your doctor and what it means for your health. If your urinary microalbumin level is higher than normal, your doctor may recommend repeating the test. 
+&lt;/p&gt;
+&lt;p&gt;
+Several factors can cause higher than expected urinary microalbumin results, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood in your urine (hematuria)&lt;/li&gt;
+	&lt;li&gt;Certain medications&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Recent vigorous exercise&lt;/li&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Other kidney diseases&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Microalbumin test
+	</Title>
+	<Abstract>
+		Microalbumin test &amp;mdash; Overview covers definition, preparation and results of this urine test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

@@ -1,0 +1,289 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00376
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lasik-eye-surgery/MY00376
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3860" Title="Eyes">
+						<Keyword MCVID="4360" Title="Surgery">
+							<Keyword MCVID="3864" Title="LASIK eye surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			68778E64-E7FF-0DBD-162052263753DD62
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eyesight
+			</MetaKeyword>
+			<MetaKeyword>
+				LASIK
+			</MetaKeyword>
+			<MetaKeyword>
+				LASIK eye surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				vision correction
+			</MetaKeyword>
+			<MetaKeyword>
+				eye
+			</MetaKeyword>
+			<MetaKeyword>
+				eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				vision
+			</MetaKeyword>
+			<MetaKeyword>
+				eye surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				laser eye surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				laser surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				lasik surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+LASIK eye surgery is a procedure that corrects certain vision problems, reducing or eliminating the need for eyeglasses or corrective lenses. LASIK is short for laser-assisted in-situ keratomileusis, the technical term for the surgical procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+LASIK eye surgery is the most common type of refractive surgery. Refractive surgery changes the shape of your cornea &amp;mdash; the dome-shaped transparent tissue at the front of your eye. The desired result of LASIK eye surgery is to bend (refract) light rays to focus more precisely on your retina rather than at some point beyond or short of your retina. 
+&lt;/p&gt;
+&lt;p&gt;
+The goal of LASIK eye surgery is to produce clearer, sharper vision. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of LASIK eye surgery 
+" Caption="During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) &amp;mdash; the transparent, dome-shaped surface of the eye that accounts for a large part of the eye&apos;s focusing power. Then the surgeon uses a laser (B) to reshape the cornea and correct focusing problems in the eye (C).
+" Height="60" Title="Illustration of LASIK eye surgery" URI="/images/image_popup/thumbs/mcdc7_lasikthu.jpg" Width="60" />
+				<Image Alt="Illustration of LASIK eye surgery 
+" Caption="During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) &amp;mdash; the transparent, dome-shaped surface of the eye that accounts for a large part of the eye&apos;s focusing power. Then the surgeon uses a laser (B) to reshape the cornea and correct focusing problems in the eye (C).
+" Height="286" Title="LASIK surgery" URI="/images/image_popup/mcdc7_lasik.jpg" Width="393" />
+				<HTML>
+					During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) &amp;mdash; the transparent, dome-shaped surface of the eye that accounts for a large part of the eye&apos;s focusing power. Then the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+LASIK eye surgery may be an option for you if you have one of these vision problems:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nearsightedness (myopia).&lt;/strong&gt; When your eyeball is slightly longer than normal or when the cornea curves too sharply, light rays focus in front of the retina and blur distant vision. You can see objects that are close more clearly, but not those that are far away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Farsightedness (hyperopia).&lt;/strong&gt; When you have a shorter than average eyeball or a cornea that is too flat, light focuses behind the retina instead of on it. This makes near vision and sometimes distant vision blurry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Astigmatism.&lt;/strong&gt; When the cornea curves or flattens unevenly, the result is astigmatism, which disrupts focus of near and distant vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Presbyopia.&lt;/strong&gt; Age-related eye changes result in the gradual loss of your eyes&apos; ability to actively change focus on nearby objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your eye doctor will likely recommend that you try other ways of correcting your vision &amp;mdash; such as by using glasses or contact lenses &amp;mdash; before you turn to LASIK eye surgery or another similar refractive procedure.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing nearsightedness (myopia)
+" Caption="With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+" Height="60" Title="Nearsightedness (myopia)" URI="/images/image_popup/thumbs/r7_myopiathu.jpg" Width="60" />
+				<Image Alt="Image showing nearsightedness (myopia)
+" Caption="With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+" Height="321" Title="Nearsightedness (myopia)" URI="/images/image_popup/r7_myopia.jpg" Width="400" />
+				<HTML>
+					With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing farsightedness (hyperopia) 
+" Caption="With normal vision, an image is sharply focused onto the retina. But, if you&apos;re farsighted, your cornea doesn&apos;t refract light properly, so the point of focus falls behind the retina. This makes close-up objects appear blurry.
+" Height="60" Title="Farsightedness (hyperopia)" URI="/images/image_popup/thumbs/r7_hyperopiathu.jpg" Width="60" />
+				<Image Alt="Illustration showing farsightedness (hyperopia) 
+" Caption="With normal vision, an image is sharply focused onto the retina. But, if you&apos;re farsighted, your cornea doesn&apos;t refract light properly, so the point of focus falls behind the retina. This makes close-up objects appear blurry.
+" Height="320" Title="Farsightedness (hyperopia)" URI="/images/image_popup/r7_hyperopia.jpg" Width="400" />
+				<HTML>
+					With normal vision, an image is sharply focused onto the retina. But, if you&apos;re farsighted, your cornea doesn&apos;t refract light properly, so the point of focus falls behind the retina. This makes close-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with any surgery, LASIK eye surgery carries risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Undercorrections.&lt;/strong&gt; If the laser removes too little tissue from your eye, you won&apos;t get the clearer vision results you were hoping for. Undercorrections are more common for people who are nearsighted. You may need another refractive surgery (enhancement surgery) within a year to remove more tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overcorrections.&lt;/strong&gt; It&apos;s also possible that the laser will remove too much tissue from your eye. Overcorrections may be more difficult to fix than undercorrections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Astigmatism.&lt;/strong&gt; Astigmatism can be caused by uneven tissue removal. It may require additional surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glare, halos and double vision.&lt;/strong&gt; After surgery you may have difficulty seeing at night. You might notice glare, halos around bright lights or double vision. Sometimes these problems can be treated with eyedrops that contain a type of corticosteroid, but a second surgery may be required. Even when a good visual result is measured under standard testing conditions, your vision in dim light (such as at dusk or in fog) may be reduced to a greater degree after the surgery than before the surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry eyes.&lt;/strong&gt; LASIK causes a temporary decrease in tear production. For the first six months or so after your surgery, as your eyes heal they might feel unusually dry. Dry eyes can reduce the quality of your vision. Your eye doctor might recommend that you use eyedrops during this time. If you experience severe dry eye, you could opt for another procedure to get special plugs put in your tear ducts to prevent your tears from draining away from the surface of your eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flap problems.&lt;/strong&gt; Folding back or removing the flap from the front of your eye during surgery can cause complications, including infection, excess tears and swelling. The outermost corneal tissue layer (epithelium) may grow abnormally underneath the flap during the healing process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain health conditions can increase the risks associated with LASIK surgery or make the outcome less predictable. These include autoimmune disorders, such as rheumatoid arthritis, immunodeficiency conditions caused by immunosuppressive medications or HIV, persistent dry eyes, pregnancy, unstable vision, and a condition of the cornea called keratoconus. For some people who are farsighted, an initial satisfactory result may decrease with age. If you have fairly good overall vision, severe nearsightedness, very large pupils, or you participate in contact sports that may be associated with blows to the face, LASIK may not be advisable.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re considering LASIK eye surgery, talk to your doctor about your questions and concerns. He or she can explain how the surgery might benefit you and help put the risks in perspective. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for LASIK eye surgery:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop wearing your contact lenses.&lt;/strong&gt; If you wear contact lenses, you&apos;ll need to switch to glasses full time for at least a few weeks before your surgery. Contact lenses can distort the shape of your cornea, which could lead to inaccurate measurements and a poor surgical outcome. Your doctor will provide specific guidelines depending on your personal circumstances and how long you&apos;ve been a contact lens wearer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skip the eye makeup.&lt;/strong&gt; Don&apos;t use eye makeup or eye cream on the day before and the day of your surgery. Your doctor may also instruct you to clean your eyelashes daily or more often in the days leading up to surgery, to remove debris and minimize your risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for a ride home.&lt;/strong&gt; You&apos;ll need to have someone drive you to and from your surgery. Immediately after surgery, you might still feel the affects of medicine given to you before surgery, and your vision may be blurry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know what surgery may cost you.&lt;/strong&gt; LASIK eye surgery is usually considered elective surgery &amp;mdash; not vital to your health and well-being &amp;mdash; so Medicare and most insurance companies won&apos;t cover the cost of the surgery. Be prepared to pay out-of-pocket for your expenses.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+LASIK eye surgery is performed using a laser programmed to remove a defined amount of tissue from your cornea. With each pulse of the laser beam, a tiny amount of corneal tissue is removed. The laser allows your eye surgeon to flatten the curve of your cornea or make it steeper. Often, LASIK is performed on both eyes on the same day. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Before surgery&lt;/strong&gt;&lt;br /&gt;
+During a pre-surgical eye exam, your eye doctor takes a detailed medical history and uses specialized equipment to carefully measure your cornea, noting the shape and any irregularities. 
+&lt;/p&gt;
+&lt;p&gt;
+To complete the assessment, your eye doctor uses highly specialized instruments to determine which areas of your cornea need reshaping. This allows your eye doctor to chart your eye and remove tissue from your cornea very precisely. LASIK eye surgery using wavefront-guided technology &amp;mdash; a newer type of LASIK procedure &amp;mdash; employs a scanner (aberrometer) that creates a highly detailed chart, similar to a topographical map, of your eye. Theoretically, the more detailed the measurements, the more accurate your eye doctor can be in removing corneal tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During surgery&lt;/strong&gt;&lt;br /&gt;
+LASIK eye surgery is usually completed in 30 minutes or less. During the procedure, you lie on your back in a reclining chair. You may be given medicine to help you relax. After numbing drops are placed in your eye, your doctor uses a special instrument to hold your eyelids open. A suction ring placed on your eye just before cutting the corneal flap may cause a feeling of pressure, and your vision may dim a little. 
+&lt;/p&gt;
+&lt;p&gt;
+Your eye surgeon uses a special blade or cutting laser to cut a hinged flap about the size of a contact lens away from the front of your eye. Folding back the flap allows your doctor to access the part of your cornea that needs reshaping. Using a laser, your eye surgeon then adjusts specific parts of your cornea. After reshaping is complete, the flap is folded back into place and usually heals without stitches. 
+&lt;/p&gt;
+&lt;p&gt;
+During the surgery, you&apos;ll be asked to focus on a point of light. Staring at this light helps you keep your eye fixed while the laser reshapes your cornea. You may detect a distinct odor as the laser removes your corneal tissue; some people describe smelling an odor similar to that of burning hair. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After surgery&lt;/strong&gt;&lt;br /&gt;
+Immediately after surgery, your eye may burn or itch and be watery. You&apos;ll probably have blurred vision. You may be given pain medication or eyedrops to keep you comfortable for several hours after the procedure. Your eye doctor might also ask you to wear a shield over your eye at night until your eye heals. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be able to see after surgery, but your vision won&apos;t be crystal clear right away. It takes about two to three months after your surgery before your eye heals and your vision stabilizes. Your chances for improved vision are based, in part, on how good your vision was before surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll have a follow-up appointment with your eye doctor one to two days after surgery to see how your eye is healing and so that your doctor can check for any complications. Plan for other follow-up appointments periodically during the first six months after surgery as your doctor recommends. 
+&lt;/p&gt;
+&lt;p&gt;
+It may be a few weeks before you can start to use cosmetics around your eyes again. You might also have to wait several weeks before resuming strenuous contact sports and swimming or using hot tubs. Follow your doctor&apos;s specific recommendations about how soon you can resume your normal activities. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of LASIK eye surgery 
+" Caption="During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) &amp;mdash; the transparent, dome-shaped surface of the eye that accounts for a large part of the eye&apos;s focusing power. Then the surgeon uses a laser (B) to reshape the cornea and correct focusing problems in the eye (C).
+" Height="60" Title="Illustration of LASIK eye surgery" URI="/images/image_popup/thumbs/mcdc7_lasikthu.jpg" Width="60" />
+				<Image Alt="Illustration of LASIK eye surgery 
+" Caption="During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) &amp;mdash; the transparent, dome-shaped surface of the eye that accounts for a large part of the eye&apos;s focusing power. Then the surgeon uses a laser (B) to reshape the cornea and correct focusing problems in the eye (C).
+" Height="286" Title="LASIK surgery" URI="/images/image_popup/mcdc7_lasik.jpg" Width="393" />
+				<HTML>
+					During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) &amp;mdash; the transparent, dome-shaped surface of the eye that accounts for a large part of the eye&apos;s focusing power. Then the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Refractive surgery often offers improved vision without the hassle of glasses or contact lenses. In general, you have a very good chance of achieving 20/25 vision or better after refractive surgery. More than 8 out of every 10 people who&apos;ve undergone refractive surgery no longer need to use their glasses or contact lenses for the majority of their activities.
+&lt;/p&gt;
+&lt;p&gt;
+Your results depend on your specific refractive error and other factors. People with a low grade of nearsightedness tend to have the most success with refractive surgery. People with a high degree of nearsightedness or farsightedness along with astigmatism have less predictable results.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		LASIK eye surgery
+	</Title>
+	<Abstract>
+		LASIK eye surgery &amp;mdash; Overview covers definition, risks, what to expect from vision correction surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00607" LinkType="Internal" ObjectID="3F706153-C6A9-4A52-B0F4B679D8D3DD99" Title="Video: LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MM00607" />
+		<LinkItem ContentType="Article" DocID="MY00375" LinkType="Internal" ObjectID="68747F17-E7FF-0DBD-125DF468D0116EB5" Title="LASIK surgery: Is it right for you?" Url="http://www.mayoclinic.com/health/lasik-surgery/MY00375" />
+	</RelatedLinksBox>
+</TestProcedure>

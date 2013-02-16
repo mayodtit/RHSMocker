@@ -1,0 +1,187 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00548
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00548
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			BCF9EBD5-4D1A-41A8-B0E5E95AFA043CA5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Shrimp marinated in lime juice and Dijon mustard
+	</Title>
+	<Abstract>
+		Shrimp marinated in lime juice and Dijon mustard &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; In this recipe, the shrimp is marinated rather than served with a heavy sauce. Serve the shrimp cold with water crackers or melba toast. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a shallow baking dish, combine the onion, lime juice, capers, mustard and hot sauce. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large saucepan, add the water, vinegar, cloves and bay leaf. Bring to a boil and add the shrimp. Cook for 1 minute, stirring constantly. Drain and transfer the shrimp to the shallow dish containing the onion mixture, making sure to discard the cloves and bay leaf. Stir to combine. Cover and refrigerate until well chilled, about 1 hour. 
+&lt;/p&gt;
+&lt;p&gt;
+To serve, divide the shrimp mixture among individual small bowls and garnish each with lime zest. Serve cold. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 medium red onion, chopped &lt;/li&gt;
+	&lt;li&gt;1/2 cup fresh lime juice, plus lime zest as garnish &lt;/li&gt;
+	&lt;li&gt;2 tablespoons capers &lt;/li&gt;
+	&lt;li&gt;2 tablespoons Dijon mustard &lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon hot sauce &lt;/li&gt;
+	&lt;li&gt;1 cup water &lt;/li&gt;
+	&lt;li&gt;1/2 cup rice vinegar &lt;/li&gt;
+	&lt;li&gt;3 whole cloves &lt;/li&gt;
+	&lt;li&gt;1 bay leaf &lt;/li&gt;
+	&lt;li&gt;1 pound uncooked shrimp, peeled and deveined &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				1
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				69
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				3 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				86 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				0 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				trace g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				12 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 8 shrimp
+			</Servingsize>
+			<Sodium Label="Sodium">
+				200 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				1 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fish and shellfish
+		</Category>
+		<Category CategoryLabel="Course">
+			Appetizers
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

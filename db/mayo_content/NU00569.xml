@@ -1,0 +1,220 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00569
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00569
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			342B4D83-E58C-4153-8B982F838644D591
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Tossed greens with pasta, fruit and balsamic vinaigrette
+	</Title>
+	<Abstract>
+		Tossed greens with pasta, fruit and vinaigrette &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This salad has both a unique blend of flavors &amp;mdash; spicy, sweet and sour &amp;mdash; and textures &amp;mdash; crispy, chewy and crunchy. It&apos;s also an excellent source of fiber and folate. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+To make the dressing, add the rosemary, cinnamon, salt, balsamic vinegar and olive oil in a small bowl. Whisk thoroughly to blend. 
+&lt;/p&gt;
+&lt;p&gt;
+Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly and rinse under cold water. 
+&lt;/p&gt;
+&lt;p&gt;
+In large bowl, combine the cooked pasta, mixed greens, pears, water chestnuts and raisins. Whisk the dressing again briefly and add to the salad. Toss to coat evenly. Divide the salad onto individual plates and top with soy nuts. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;4 ounces uncooked whole-wheat spiral pasta&lt;/li&gt;
+	&lt;li&gt;6 cups mixed greens&lt;/li&gt;
+	&lt;li&gt;2 large fresh pears, cored and sliced&lt;/li&gt;
+	&lt;li&gt;1/2 cup sliced water chestnuts&lt;/li&gt;
+	&lt;li&gt;1/2 cup golden raisins&lt;/li&gt;
+	&lt;li&gt;3 tablespoons roasted unsalted soy nuts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For the dressing 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1 teaspoon dried rosemary or 1 tablespoon fresh rosemary&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground cinnamon&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;3 tablespoons balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1/4 cup olive oil &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1.5
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1.5
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1.5
+			</Carbs>
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				282
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				42 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				7 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				7 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				117 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				10 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

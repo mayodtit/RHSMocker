@@ -1,0 +1,282 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01088
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thrombocytosis/DS01088
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-25
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="2261" Title="Thrombocythemia">
+							<Keyword MCVID="3333" Title="Thrombocytosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A7E981C-E7FF-0DBD-1B2F4F3E852E09A2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thrombocytosis
+			</MetaKeyword>
+			<MetaKeyword>
+				reactive thrombocytosis
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary thrombocytosis
+			</MetaKeyword>
+			<MetaKeyword>
+				essential thrombocytosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thrombocytosis (throm-boe-sie-TOE-sis) is a disorder in which your body produces too many platelets (thrombocytes), which play an important role in blood clotting. The disorder is called reactive thrombocytosis when it&apos;s caused by an underlying condition, such as an infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Thrombocytosis may also be caused by a blood and bone marrow disease. When caused by a bone marrow disorder, thrombocytosis is called autonomous, primary or essential thrombocytosis or essential thrombocythemia. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may detect thrombocytosis in routine blood test results that show a high platelet level. If your blood test indicates thrombocytosis, it&apos;s important for your doctor to determine whether it&apos;s reactive thrombocytosis or if you have thrombocythemia, which is more likely to cause blood clots. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reactive thrombocytosis rarely causes symptoms. More often, signs and symptoms relate to the underlying condition. If symptoms of reactive thrombocytosis do occur, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Temporary vision changes&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling of the hands and feet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Because thrombocytosis isn&apos;t likely to cause symptoms, you probably won&apos;t know you have the condition unless a routine blood test reveals a higher than normal number of platelets. If your blood test results show a high platelet count, your doctor will try to determine the reason. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone marrow &amp;mdash; spongy tissue inside your bones &amp;mdash; contains stem cells that can become red blood cells, white blood cells or platelets. Platelets travel through your blood vessels. They stick together to form clots that stop the bleeding when you damage a blood vessel, such as when you get a cut. A normal platelet count ranges from 150,000 to 450,000 platelets per microliter of blood. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have thrombocytosis caused by a bone marrow disorder (essential thrombocythemia), your bone marrow overproduces the cells that form platelets (megakaryocytes), releasing too many platelets into your blood. If your blood test results reveal a high platelet count, it&apos;s important for your doctor to determine whether you have essential thrombocythemia or reactive thrombocytosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Reactive thrombocytosis causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acute bleeding and blood loss&lt;/li&gt;
+	&lt;li&gt;Allergic reactions&lt;/li&gt;
+	&lt;li&gt;Cancer&lt;/li&gt;
+	&lt;li&gt;Chronic kidney failure or another kidney disorder&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Infections&lt;/li&gt;
+	&lt;li&gt;Iron deficiency anemia&lt;/li&gt;
+	&lt;li&gt;Removal of your spleen&lt;/li&gt;
+	&lt;li&gt;Hemolytic anemia &amp;mdash; a type of anemia in which your body destroys red blood cells faster than it produces them, often due to certain blood diseases or autoimmune disorders&lt;/li&gt;
+	&lt;li&gt;Inflammation, such as from rheumatoid arthritis, celiac disease, connective tissue disorders or inflammatory bowel disease&lt;/li&gt;
+	&lt;li&gt;Major surgery&lt;/li&gt;
+	&lt;li&gt;Pancreatitis&lt;/li&gt;
+	&lt;li&gt;Trauma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Medications that can cause reactive thrombocytosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Epinephrine (Adrenalin Chloride, EpiPen)&lt;/li&gt;
+	&lt;li&gt;Tretinoin&lt;/li&gt;
+	&lt;li&gt;Vincristine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at risk of thrombocytosis if you have a medical condition such as iron deficiency anemia or you&apos;ve had surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your high platelet count results from a bone marrow disease (essential thrombocythemia), rather than reactive thrombocytosis, you may be at risk of developing blood clots, some of which can be life-threatening.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s likely that a routine blood test showing a high platelet count will be your first indication that you have thrombocytosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Besides taking your medical history, examining you physically and running tests, your doctor may ask you about factors that could affect your platelets, such as any recent surgical procedures, blood transfusions or infections you&apos;ve had. You may be referred to a doctor who specializes in blood diseases (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will look for what&apos;s causing your high platelet count, including determining whether it&apos;s reactive thrombocytosis due to an underlying condition or whether there&apos;s no apparent cause, which could indicate essential thrombocythemia or another bone marrow disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your health history,&lt;/strong&gt; including recent infections, surgical procedures, bleeding and anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to take in all the information you hear during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For thrombocytosis, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that arise during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find out you have thrombocytosis through one of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A routine blood test that shows a higher than normal platelet count.&lt;/li&gt;
+	&lt;li&gt;During a physical exam, when your doctor finds that your spleen is enlarged or you have signs or symptoms of an infection or another condition, your doctor orders a complete blood count (CBC) to determine your platelet count.&lt;/li&gt;
+	&lt;li&gt;A blood smear &amp;mdash; a test in which a small amount of your blood is examined under a microscope &amp;mdash; helps determine the condition of your platelets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because a number of conditions can cause a temporary rise in your platelet count, your doctor likely will repeat the blood tests to see if your platelet count remains high over time. 
+&lt;/p&gt;
+&lt;p&gt;
+A normal range for platelets is 150,000 to 450,000 platelets per microliter of blood. If your blood count is above 500,000, your doctor will likely look for an underlying condition. In most cases, signs and symptoms of the underlying condition help guide the diagnosis. Your doctor may also: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Check the level of iron in your blood&lt;/li&gt;
+	&lt;li&gt;Test for markers of inflammation&lt;/li&gt;
+	&lt;li&gt;Order genetic testing to help determine if you have a blood and bone marrow disorder&lt;/li&gt;
+	&lt;li&gt;Conduct a bone marrow aspiration and biopsy to collect and examine bone marrow tissue&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for reactive thrombocytosis is directed at the underlying cause. If a recent surgery or an injury that caused significant blood loss is the cause, your elevated platelet count may not last long. If the cause is a chronic infection or an inflammatory disease, your platelet count may remain high until the condition is brought under control. In most cases, your platelet count will return to normal after the underlying cause is resolved. 
+&lt;/p&gt;
+&lt;p&gt;
+Removal of your spleen may cause lifelong thrombocytosis. In that case, your doctor may prescribe low-dose aspirin to help prevent bleeding or blood-clotting incidents, although these occur rarely in reactive thrombocytosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have thrombocytosis, making healthy lifestyle choices can help reduce your risk of complications. These choices include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you smoke or use other tobacco products, quit.&lt;/li&gt;
+	&lt;li&gt;Avoid secondhand smoke.&lt;/li&gt;
+	&lt;li&gt;Manage other health conditions you might have, including high blood pressure, high cholesterol and diabetes.&lt;/li&gt;
+	&lt;li&gt;Avoid over-the-counter pain medications, with the exception of acetaminophen (Tylenol, others). Keep in mind that some cold medications may also contain pain medications, so read the labels carefully and talk to your doctor before taking any over-the-counter pain medications.&lt;/li&gt;
+	&lt;li&gt;If you take blood-thinning medications to manage thrombocytosis, tell your doctor or dentist before having any procedures done. These medications can increase your risk of bleeding during the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thrombocytosis
+	</Title>
+	<Abstract>
+		Thrombocytosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this blood clotting disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00476" LinkType="Internal" ObjectID="1D9EDDDF-95B4-602A-031B9C87EEDF18B0" Title="Complete blood count (CBC)" Url="http://www.mayoclinic.com/health/complete-blood-count/MY00476" />
+		<LinkItem ContentType="Disease" DocID="DS01087" LinkType="Internal" ObjectID="3A7BC57D-E7FF-0DBD-14C878BFF61E649A" Title="Essential thrombocythemia" Url="http://www.mayoclinic.com/health/thrombocythemia/DS01087" />
+	</RelatedLinksBox>
+</Disease>

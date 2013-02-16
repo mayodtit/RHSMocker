@@ -1,0 +1,185 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00432
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00432
+		</OriginalURL>
+		<UpdateDate>
+			2008-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			DEEA4E37-AE20-4A02-A091F49222C55815
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Roasted turkey with balsamic brown sugar sauce
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		10
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Instead of adding fat during cooking and serving the turkey covered with gravy, this roasted bird is complemented with a refreshing, aged Italian vinegar-brown sugar sauce.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 325 F.&lt;/p&gt;
+
+&lt;p&gt;Rinse the turkey inside and out. Pat dry with paper towels. Place the turkey breast-side up on a rack in a roasting pan. Rub the turkey with the oil, a sprig of rosemary and garlic cloves. Place all of the rosemary and garlic inside the bird. Loosely tie the legs together. Place into the middle of the oven.&lt;/p&gt;
+
+&lt;p&gt;When the skin is light (after about 1 1/2 hours) cover the breast with a tent of foil to prevent overcooking the breast. Check the doneness after the bird has roasted about 3 to 3 1/2 hours. Turkey is done when the thigh is pierced deeply and juices run clear (180 to 185 F) or when the breast muscle reaches 170 to 175 F.&lt;/p&gt;
+
+&lt;p&gt;Remove the turkey from the oven. Let it stand about 20 minutes to allow juices to settle in the meat. Deglaze the pan by adding 1/2 cup water. Stir to scrape up browned bits. Pour pan drippings into a gravy separator. Reserve 1 cup of defatted pan drippings for sauce.&lt;/p&gt;
+
+&lt;p&gt;To make the sauce, in a pan or microwave dish, stir together the vinegar, defatted pan drippings and brown sugar. Warm the sauce until the flavor is just released, about 15 seconds in the microwave, or over low heat on the stove until steam &quot;escapes.&quot; Don&apos;t boil.&lt;/p&gt;
+
+&lt;p&gt;Carve the turkey and drizzle turkey slices with the warmed brown sugar sauce. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 whole turkey (about 15 pounds), thawed&lt;br /&gt;
+1 tablespoon olive oil&lt;br /&gt;
+4 sprigs of fresh rosemary&lt;br /&gt;
+3 to 4 cloves garlic&lt;br /&gt;
+1/2 cup water&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For the sauce&lt;br /&gt;
+1 cup balsamic vinegar&lt;br /&gt;
+1 cup defatted pan drippings&lt;br /&gt;
+3 tablespoons brown sugar&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				247
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				10 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				79 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				trace
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				34 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				5 ounces light and dark meat
+			</Servingsize>
+			<Sodium Label="Sodium">
+				78 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				6 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 10
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

@@ -1,0 +1,229 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01592
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/proton-therapy/MY01592
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-07
+		</UpdateDate>
+		<PublicationDate>
+			2011-01-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3723" Title="Radiation therapy">
+							<Keyword MCVID="4787" Title="Proton therapy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			55797FDC-074D-9B36-20B33F4BB665690D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				proton therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				proton beam therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				proton radiation
+			</MetaKeyword>
+			<MetaKeyword>
+				proton beam radiation
+			</MetaKeyword>
+			<MetaKeyword>
+				charged particle radiation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Proton therapy is a type of radiation therapy &amp;mdash; a treatment that uses high energy beams to treat tumors. Radiation therapy using X-rays has long been used to treat cancers and noncancerous (benign) tumors. Proton therapy is a newer type of radiation therapy that uses energy from positively charged particles called protons. 
+&lt;/p&gt;
+&lt;p&gt;
+Proton therapy has shown promise in treating several kinds of cancer. Studies have suggested that proton therapy may cause fewer side effects than traditional radiation, since doctors can better control where the proton beams deposit their energy. But few studies have directly compared proton therapy radiation and X-ray radiation, so it&apos;s not clear whether proton therapy is more effective in prolonging lives. 
+&lt;/p&gt;
+&lt;p&gt;
+Proton therapy isn&apos;t widely available in the United States. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Proton therapy is used as a treatment for cancer and some noncancerous tumors. Proton therapy may be used as the only treatment for your condition. Or it may be used in conjunction with other treatments, such as surgery and chemotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Proton therapy is sometimes used to treat certain conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brain tumors&lt;/li&gt;
+	&lt;li&gt;Cancer in children&lt;/li&gt;
+	&lt;li&gt;Eye melanoma&lt;/li&gt;
+	&lt;li&gt;Head and neck cancers&lt;/li&gt;
+	&lt;li&gt;Liver cancer&lt;/li&gt;
+	&lt;li&gt;Lung cancer&lt;/li&gt;
+	&lt;li&gt;Pituitary gland cancer&lt;/li&gt;
+	&lt;li&gt;Prostate cancer&lt;/li&gt;
+	&lt;li&gt;Tumors affecting the spine&lt;/li&gt;
+	&lt;li&gt;Tumors in the base of the skull&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Clinical trials are investigating proton therapy as a treatment for other cancers, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bladder cancer&lt;/li&gt;
+	&lt;li&gt;Breast cancer&lt;/li&gt;
+	&lt;li&gt;Cervical cancer&lt;/li&gt;
+	&lt;li&gt;Esophageal cancer&lt;/li&gt;
+	&lt;li&gt;Lymphoma&lt;/li&gt;
+	&lt;li&gt;Pancreatic cancer&lt;/li&gt;
+	&lt;li&gt;Soft tissue sarcoma&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Proton therapy can cause side effects as the cancer cells die or when the energy from the proton beam damages healthy tissue. Because doctors can better control where proton therapy releases its highest concentration of energy, proton therapy is believed to affect less healthy tissue and have fewer side effects than traditional radiation therapy. Still, proton therapy does release some of its energy in healthy tissue. What side effects you experience will depend on what part of your body is being treated and the dose of proton therapy you receive. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, common side effects of proton therapy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Hair loss around the part of your body being treated&lt;/li&gt;
+	&lt;li&gt;Skin redness around the part of your body being treated&lt;/li&gt;
+	&lt;li&gt;Soreness around the part of your body being treated&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you undergo proton therapy, your health care team guides you through a planning process to ensure that the proton beam reaches the precise spot in your body where it&apos;s needed. Planning typically includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Determining the best position for you during treatment.&lt;/strong&gt; During radiation simulation, your radiation therapy team works to find a comfortable position for you during treatment. It&apos;s imperative that you lie or sit still during treatment, so finding a comfortable position is vital. To do this, you&apos;ll be positioned on a table or in a chair that will be used during your treatment. Cushions and restraints are used to place you in the right way and to help you hold still. Your radiation therapy team will mark the area of your body that will receive the radiation. Depending on your situation, you may receive temporary marking with a marker or you may receive permanent tattoos.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Planning the path of the protons with imaging tests.&lt;/strong&gt; Your radiation therapy team may have you undergo magnetic resonance imaging (MRI) or computerized tomography (CT) scans to determine the area of your body to be treated and how best to reach it with the proton beams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Consider the cost&lt;/strong&gt;&lt;br /&gt;
+Proton therapy is a newer and more expensive form of radiation therapy. Not all insurance policies cover proton therapy. When considering your treatment options, work with your health insurance provider to understand what costs are covered by insurance and which costs you&apos;ll be expected to pay. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During proton therapy&lt;/strong&gt; &lt;br /&gt;
+You typically undergo proton therapy five days a week for several weeks. However, in some cases, you may undergo only one or only a few treatments, depending on your condition. The actual proton therapy treatment may take only a minute or so, but expect to spend about 20 minutes preparing before each treatment session. 
+&lt;/p&gt;
+&lt;p&gt;
+To prepare, you&apos;ll be positioned on a table or in a chair. Cushions and restraints will be used to hold your body still. Then you&apos;ll undergo an imaging test, such as an X-ray or CT scan, to make sure your body is in the same precise position before each treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Your radiation therapy team will then leave the room and go to an area where they can monitor you. They can still see and hear you. 
+&lt;/p&gt;
+&lt;p&gt;
+What you experience next depends on the type of proton therapy machine your treatment team uses: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A proton therapy machine that rotates around you.&lt;/strong&gt; If you&apos;re undergoing proton therapy with a machine called a gantry, you&apos;ll be placed on a table that is slowly slid into the circular opening of the machine. The machine rotates around you to direct proton beams at precise points on your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A proton therapy machine that doesn&apos;t move.&lt;/strong&gt; If you&apos;re undergoing proton therapy with a fixed-beam machine, the chair or table you&apos;re positioned on will move and the proton therapy machine will remain still. The movement of your chair or table during treatment is controlled remotely by your radiation therapy team. How often your chair or table moves during treatment depends on your situation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You won&apos;t be able to feel the radiation during your proton therapy treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After proton therapy&lt;/strong&gt; &lt;br /&gt;
+Once your treatment session is complete, you can go about your day. You won&apos;t be radioactive or give off radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of radiation usually develop over time. You may experience few side effects at first. But after several treatments you may experience fatigue, which can make it feel like your usual activities take more energy or that you have little energy for everyday tasks. You may also notice a sunburn-like skin redness in the area where the proton beams are directed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend periodic imaging tests during and after your proton therapy to determine whether your cancer is responding to the treatments. How often you&apos;ll undergo scans depends on your situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Proton therapy
+	</Title>
+	<Abstract>
+		Proton therapy &amp;mdash; Comprehensive overview covers definition, risks, results of proton radiation therapy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="Disease" DocID="DS00349" LinkType="Internal" ObjectID="F4D66AB7-A46B-46EF-BC71F844B12232A0" Title="Throat cancer" Url="http://www.mayoclinic.com/health/oral-and-throat-cancer/DS00349" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+		<LinkItem ContentType="Disease" DocID="DS00399" LinkType="Internal" ObjectID="C2850661-4805-4AD6-905AD30E9FC79DB2" Title="Liver cancer" Url="http://www.mayoclinic.com/health/liver-cancer/DS00399" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS00707" LinkType="Internal" ObjectID="916B1528-E7FF-0DBD-197112A360E0E453" Title="Eye melanoma" Url="http://www.mayoclinic.com/health/eye-melanoma/DS00707" />
+		<LinkItem ContentType="Disease" DocID="DS00357" LinkType="Internal" ObjectID="606A404B-8078-4164-A5C4C829B75A978B" Title="Pancreatic cancer" Url="http://www.mayoclinic.com/health/pancreatic-cancer/DS00357" />
+		<LinkItem ContentType="Disease" DocID="DS00281" LinkType="Internal" ObjectID="451633E9-4EE0-472F-AF180974A8E009E9" Title="Brain tumor" Url="http://www.mayoclinic.com/health/brain-tumor/DS00281" />
+		<LinkItem ContentType="Disease" DocID="DS00043" LinkType="Internal" ObjectID="19DD7485-629A-44DE-A9B65BAC360EF5B3" Title="Prostate cancer" Url="http://www.mayoclinic.com/health/prostate-cancer/DS00043" />
+		<LinkItem ContentType="Disease" DocID="DS00038" LinkType="Internal" ObjectID="06A75328-0BC3-47E7-A00ADDC9B0E319C4" Title="Lung cancer" Url="http://www.mayoclinic.com/health/lung-cancer/DS00038" />
+	</RelatedLinksBox>
+</TestProcedure>

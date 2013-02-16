@@ -1,0 +1,71 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00402
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00402
+		</OriginalURL>
+		<UpdateDate>
+			2010-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8ADDF33A-E7FF-0DBD-111945E9F5436F03
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fitness strategies
+			</MetaKeyword>
+			<MetaKeyword>
+				fitness
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+			<MetaKeyword>
+				motivation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Workout blahs? Don&apos;t go it alone!
+	</Title>
+	<Body>
+		&lt;p&gt;Sure, you can exercise on your own. But if you&apos;re not jazzed by solitary workouts, branch out. Invite a friend, neighbor or co-worker to join you. Work out with your spouse or your kids. Take a class at a local fitness center. Maintain your motivation with social support.&lt;/p&gt;
+	</Body>
+</HealthTip>

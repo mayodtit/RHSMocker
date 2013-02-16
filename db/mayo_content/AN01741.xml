@@ -1,0 +1,179 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01741
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/curcumin/AN01741
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-17
+		</UpdateDate>
+		<PublicationDate>
+			2007-12-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2082" Title="General" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B48F4362-E7FF-0DBD-1E1B9FD0D1788369
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				curcumin
+			</MetaKeyword>
+			<MetaKeyword>
+				turmeric
+			</MetaKeyword>
+			<MetaKeyword>
+				cucurmin
+			</MetaKeyword>
+			<MetaKeyword>
+				tumeric
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+At this time, there isn&apos;t enough evidence to recommend curcumin for preventing or treating cancer, but research is ongoing. 
+&lt;/p&gt;
+&lt;p&gt;
+Curcumin, a substance found in the spice turmeric, has long been used in Asian medicine to treat a variety of maladies. Now some research suggests that curcumin may help prevent or treat cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Curcumin is thought to have antioxidant properties, which means it may decrease swelling and inflammation. It&apos;s being explored as a cancer treatment in part because inflammation appears to play a role in cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Laboratory and animal research suggests that curcumin may prevent cancer, slow the spread of cancer, make chemotherapy more effective and protect healthy cells from damage by radiation therapy. Curcumin is being studied for use in many types of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Studies of curcumin in people are still in the early stages. Clinical trials are under way to investigate curcumin as a way to prevent cancer in people with precancerous conditions, as a cancer treatment, and as a remedy for signs and symptoms caused by cancer treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Research is ongoing, and there isn&apos;t enough evidence to recommend curcumin at this time. As always, talk with your doctor before using any herbal supplement. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Curcumin: Can it slow cancer growth?
+	</Title>
+	<Abstract>
+		Some research suggests that curcumin may help prevent or treat cancer.
+	</Abstract>
+	<Question>
+		Can curcumin slow cancer growth?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01109" LinkType="Internal" ObjectID="EAE2DEEA-E7FF-0DBD-1057144038EA6323" Title="Chemo brain" Url="http://www.mayoclinic.com/health/chemo-brain/DS01109" />
+		<LinkItem ContentType="SlideShow" DocID="MY01725" LinkType="Internal" ObjectID="EDC3EC1D-9A14-AB08-31DFB1E3ABE329BB" Title="Slide show: The Mediterranean diet" Url="http://www.mayoclinic.com/health/mediterranean-diet/MY01725" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00105" LinkType="Internal" ObjectID="C0133EF8-E7FF-0DBD-169C6332C6D45953" Title="Gene therapy" Url="http://www.mayoclinic.com/health/gene-therapy/MY00105" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00088" LinkType="Internal" ObjectID="B5C04D78-E7FF-0DBD-1FF66760E140CC1D" Title="Needle biopsy" Url="http://www.mayoclinic.com/health/needle-biopsy/MY00088" />
+		<LinkItem ContentType="Answer" DocID="AN01905" LinkType="Internal" ObjectID="9DFF414F-E7FF-0DBD-1BCD03C52D197B8E" Title="Cellphones and cancer: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/cell-phones-and-cancer/AN01905" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="Answer" DocID="AN02061" LinkType="Internal" ObjectID="9422D774-DB28-24E4-42201CE2CF20A016" Title="What is compassionate use of experimental drugs?" Url="http://www.mayoclinic.com/health/compassionate-use/AN02061" />
+		<LinkItem ContentType="Answer" DocID="AN01936" LinkType="Internal" ObjectID="90EEBF57-E7FF-0DBD-1FBAF84824FE39B1" Title="Chemotherapy and sex: Is sexual activity OK during treatment?" Url="http://www.mayoclinic.com/health/chemotherapy-and-sex/AN01936" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="Answer" DocID="AN02024" LinkType="Internal" ObjectID="144C8942-FC9E-A9FD-0C8694428EDF9B0B" Title="Magic mouthwash: Effective for chemotherapy mouth sores?" Url="http://www.mayoclinic.com/health/magic-mouthwash/AN02024" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Article" DocID="CA00030" LinkType="Internal" ObjectID="C2D1AB8B-565E-4B0B-9C34BEF4FE8ECA63" Title="Chemotherapy nausea and vomiting: Prevention is best defense" Url="http://www.mayoclinic.com/health/cancer/CA00030" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="CA00037" LinkType="Internal" ObjectID="A1678D65-8474-4028-85679F53CFE96FD5" Title="Chemotherapy and hair loss: What to expect during treatment" Url="http://www.mayoclinic.com/health/hair-loss/CA00037" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="DI00033" LinkType="Internal" ObjectID="96C0287B-B8F7-4A9C-824C84551D5E4F6D" Title="Clinical trials: A chance to try new therapies" Url="http://www.mayoclinic.com/health/clinical-trials/DI00033" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="CA00024" LinkType="Internal" ObjectID="2FEC5C54-5C57-48E2-A445C46DCF50C26C" Title="Cancer prevention: 7 tips to reduce your risk" Url="http://www.mayoclinic.com/health/cancer-prevention/CA00024" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN01407" LinkType="Internal" ObjectID="D02CD117-E7FF-0DBD-1B172C8988F7AFB1" Title="Chemotherapy side effects: A cause of heart disease?" Url="http://www.mayoclinic.com/health/chemotherapy-side-effects/AN01407" />
+		<LinkItem ContentType="Answer" DocID="AN01572" LinkType="Internal" ObjectID="C68DEC56-E7FF-0DBD-1941747CC18DBFD1" Title="High-dose vitamin C: Can it kill cancer cells?" Url="http://www.mayoclinic.com/health/alternative-cancer-treatment/AN01572" />
+		<LinkItem ContentType="Answer" DocID="AN00463" LinkType="Internal" ObjectID="C2D4FA32-ED4B-4789-9CB4AED6DF757672" Title="Tumor vs. cyst: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/tumor/AN00463" />
+		<LinkItem ContentType="Video" DocID="MM00638" LinkType="Internal" ObjectID="B3684D67-2A5D-9994-E3BD8051DE32E1D8" Title="Video: How cancer spreads" Url="http://www.mayoclinic.com/health/cancer/MM00638" />
+		<LinkItem ContentType="Answer" DocID="AN00654" LinkType="Internal" ObjectID="8022D52A-A7C9-4E25-A903FCD7053AB998" Title="Small cell, large cell cancer: What this means" Url="http://www.mayoclinic.com/health/cancer/AN00654" />
+		<LinkItem ContentType="Answer" DocID="AN01111" LinkType="Internal" ObjectID="6B497AE4-CE04-4860-9C20CAF35CFD35FE" Title="Atypical cells: Are they cancer?" Url="http://www.mayoclinic.com/health/atypical-cells/AN01111" />
+		<LinkItem ContentType="SlideShow" DocID="CA00075" LinkType="Internal" ObjectID="491544AC-2A5D-9994-EBE274EA4E6F431B" Title="Slide show: Radiation therapy treatment planning" Url="http://www.mayoclinic.com/health/radiation-therapy/CA00075" />
+		<LinkItem ContentType="Video" DocID="MM00781" LinkType="Internal" ObjectID="326F4A39-AAE6-1726-5451D1A058D6D11F" Title="Video: PICC line placement" Url="http://www.mayoclinic.com/health/picc-line-placement/MM00781" />
+		<LinkItem ContentType="Disease" DocID="DS00840" LinkType="Internal" ObjectID="6A1153F1-E7FF-0DBD-1061638F0F39E31D" Title="Paraneoplastic syndromes of the nervous system" Url="http://www.mayoclinic.com/health/paraneoplastic-syndromes/DS00840" />
+		<LinkItem ContentType="Article" DocID="CA00082" LinkType="Internal" ObjectID="D40A35C4-E7FF-0DBD-1DF17BA0656E9D5C" Title="Monoclonal antibody drugs for cancer treatment: How they work" Url="http://www.mayoclinic.com/health/monoclonal-antibody/CA00082" />
+		<LinkItem ContentType="Article" DocID="CA00032" LinkType="Internal" ObjectID="CF461BE7-A93A-431C-A5C6BE169724D763" Title="Cancer fatigue: Why it occurs and how to cope" Url="http://www.mayoclinic.com/health/cancer-fatigue/CA00032" />
+		<LinkItem ContentType="Article" DocID="HQ01135" LinkType="Internal" ObjectID="C596EDA8-DEBC-444F-B01153A818A2C304" Title="Eating during cancer treatment: Tips to make food tastier" Url="http://www.mayoclinic.com/health/cancer/HQ01135" />
+		<LinkItem ContentType="Article" DocID="CA00027" LinkType="Internal" ObjectID="B6D4F8E1-4012-435D-899FEE1C9F28DDE1" Title="Cancer treatment decisions: 5 steps to help you decide" Url="http://www.mayoclinic.com/health/cancer-treatment/CA00027" />
+		<LinkItem ContentType="Article" DocID="CM00002" LinkType="Internal" ObjectID="B3599E9F-4C7B-4CA3-86132BAA54B5B549" Title="Alternative cancer treatments: 11 options to consider" Url="http://www.mayoclinic.com/health/cancer-treatment/CM00002" />
+		<LinkItem ContentType="Article" DocID="SA00071" LinkType="Internal" ObjectID="B2DAA3D8-7A1F-411A-A37EF20E6550B858" Title="Cancer treatment for women: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00071" />
+		<LinkItem ContentType="Article" DocID="CA00071" LinkType="Internal" ObjectID="AE7710F9-DC59-4055-AE4FFE4DE8279DE3" Title="Cancer survivors: Managing your emotions after cancer treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00071" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+		<LinkItem ContentType="Article" DocID="CA00012" LinkType="Internal" ObjectID="987C514C-6756-4FF5-8B85CDD6F07F4227" Title="Adjuvant therapy: Treatment to keep cancer from returning" Url="http://www.mayoclinic.com/health/adjuvant-therapy/CA00012" />
+		<LinkItem ContentType="Article" DocID="HQ01507" LinkType="Internal" ObjectID="8DFF08EE-3CD0-429C-BF5E145C5669616D" Title="Thalidomide: Research advances in cancer and other conditions" Url="http://www.mayoclinic.com/health/thalidomide/HQ01507" />
+		<LinkItem ContentType="Article" DocID="HQ00379" LinkType="Internal" ObjectID="8DDBC22A-9DEB-49E4-B2DBFDCF6DA2411C" Title="Cancer diagnosis? Advice for dealing with what comes next" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ00379" />
+		<LinkItem ContentType="Article" DocID="CA00028" LinkType="Internal" ObjectID="8B47B93F-CC17-45BA-800A98CABFB05DD9" Title="Cancer blood tests: Lab tests used in cancer diagnosis" Url="http://www.mayoclinic.com/health/cancer-diagnosis/CA00028" />
+		<LinkItem ContentType="Article" DocID="CA00066" LinkType="Internal" ObjectID="7E5CD33E-822C-42B8-B199DEEF17241AA7" Title="Low blood cell counts: Side effect of cancer treatment" Url="http://www.mayoclinic.com/health/cancer-treatment/CA00066" />
+		<LinkItem ContentType="Article" DocID="CA00073" LinkType="Internal" ObjectID="5641F40F-D5E8-4D05-8D40E46BE23F8137" Title="Cancer survivors: Late effects of cancer treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00073" />
+		<LinkItem ContentType="Article" DocID="CA00054" LinkType="Internal" ObjectID="541725B4-E0E9-4E51-B6F11C30D8E481F0" Title="Mouth sores caused by cancer treatment: How to cope" Url="http://www.mayoclinic.com/health/mouth-sores/CA00054" />
+		<LinkItem ContentType="Article" DocID="SA00070" LinkType="Internal" ObjectID="50A88AAB-332D-4808-88247DA44ACE9849" Title="Cancer treatment for men: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00070" />
+		<LinkItem ContentType="Article" DocID="CA00072" LinkType="Internal" ObjectID="4F532516-442A-4E9C-81344F818612FFC0" Title="Cancer survivors: Reconnecting with loved ones after treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00072" />
+		<LinkItem ContentType="Article" DocID="CA00021" LinkType="Internal" ObjectID="41AA58E8-49DF-4BD4-A186762D5AA2A009" Title="Cancer pain: Relief is possible" Url="http://www.mayoclinic.com/health/cancer-pain/CA00021" />
+		<LinkItem ContentType="Article" DocID="HQ01134" LinkType="Internal" ObjectID="3CD37714-A615-4D4A-BA2448B558BD4212" Title="No appetite? How to get nutrition during cancer treatment" Url="http://www.mayoclinic.com/health/cancer/HQ01134" />
+		<LinkItem ContentType="Article" DocID="CA00040" LinkType="Internal" ObjectID="2F9D923E-FABA-4607-97D0814475A93176" Title="Diarrhea: Cancer-related causes and how to cope" Url="http://www.mayoclinic.com/health/diarrhea/CA00040" />
+		<LinkItem ContentType="Article" DocID="CA00085" LinkType="Internal" ObjectID="27E0CC33-E7FF-0DBD-19A935FF90056FA0" Title="Cancer causes: Popular myths about the causes of cancer" Url="http://www.mayoclinic.com/health/cancer-causes/CA00085" />
+		<LinkItem ContentType="Article" DocID="CA00050" LinkType="Internal" ObjectID="20364489-D7FF-47AF-8865618B4A679A74" Title="When cancer returns: How to cope with cancer recurrence" Url="http://www.mayoclinic.com/health/cancer/CA00050" />
+		<LinkItem ContentType="Article" DocID="HQ01306" LinkType="Internal" ObjectID="1D66B64D-F30C-436E-ABFFEC8971616F07" Title="Cancer diagnosis: 11 tips for coping" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ01306" />
+		<LinkItem ContentType="Article" DocID="CA00049" LinkType="Internal" ObjectID="1CB388B3-2A33-495C-8A9BBFD0FE28FB03" Title="Cancer survival rate: What it means for your prognosis" Url="http://www.mayoclinic.com/health/cancer/CA00049" />
+		<LinkItem ContentType="Article" DocID="CA00033" LinkType="Internal" ObjectID="11596689-42CD-4CD1-9FA79B307C030A01" Title="Cancer surgery: Physically removing cancer" Url="http://www.mayoclinic.com/health/cancer-surgery/CA00033" />
+		<LinkItem ContentType="Article" DocID="CA00053" LinkType="Internal" ObjectID="0D7A3614-9863-437D-BFAEFD1407AC82FA" Title="Cancer risk: What the numbers mean" Url="http://www.mayoclinic.com/health/cancer/CA00053" />
+		<LinkItem ContentType="Article" DocID="CA00070" LinkType="Internal" ObjectID="0A0DD8B4-F849-4271-A37B87F6CC511AB4" Title="Cancer survivors: Care for your body after treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00070" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Disease" DocID="DS01076" LinkType="Internal" ObjectID="63426615-E7FF-0DBD-1994B85EEA8B6116" Title="Cancer" Url="http://www.mayoclinic.com/health/cancer/DS01076" />
+	</RelatedLinksBox>
+</Answer>

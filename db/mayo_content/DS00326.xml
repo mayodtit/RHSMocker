@@ -1,0 +1,279 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00326
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/carpal-tunnel-syndrome/DS00326
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="4278" Title="Pinched nerve">
+							<Keyword MCVID="2334" Title="Carpal tunnel syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CFBC3BC6-FBFF-43DF-85951B77F5A3F8C0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				carpal tunnel syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				CTS
+			</MetaKeyword>
+			<MetaKeyword>
+				median nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				carpel tunnel syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carpal tunnel syndrome is a progressively painful hand and arm condition caused by a pinched nerve in your wrist. A number of factors can contribute to carpal tunnel syndrome, including the anatomy of your wrist, certain underlying health problems and possibly patterns of hand use. 
+&lt;/p&gt;
+&lt;p&gt;
+Bound by bones and ligaments, the carpal tunnel is a narrow passageway &amp;mdash; about as big around as your thumb &amp;mdash; located on the palm side of your wrist. This tunnel protects a main nerve to your hand and nine tendons that bend your fingers. Compression of the nerve produces the numbness, pain and, eventually, hand weakness that characterize carpal tunnel syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, for most people who develop carpal tunnel syndrome, proper treatment usually can relieve the pain and numbness and restore normal use of their wrists and hands. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carpal tunnel syndrome typically starts gradually with a vague aching in your wrist that can extend to your hand or forearm. Common carpal tunnel syndrome symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tingling or numbness&lt;/strong&gt; in your fingers or hand, especially your thumb and index, middle or ring fingers, but not your little finger. This sensation often occurs while holding a steering wheel, phone or newspaper or upon awakening. Many people &quot;shake out&quot; their hands to try to relieve their symptoms. As the disorder progresses, the numb feeling may become constant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain radiating or extending&lt;/strong&gt; from your wrist up your arm to your shoulder or down into your palm or fingers, especially after forceful or repetitive use. This usually occurs on the palm side of your forearm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A sense of weakness&lt;/strong&gt; in your hands and a tendency to drop objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have persistent signs and symptoms suggestive of carpal tunnel syndrome, especially if they interfere with your normal activities and sleep patterns, see your doctor. If you leave the condition untreated, nerve and muscle damage can occur. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carpal tunnel syndrome occurs as a result of compression of the median nerve. The median nerve runs from your forearm through a passageway in your wrist (carpal tunnel) to your hand. It provides sensation to the palm side of your thumb and fingers, with the exception of your little finger. It also provides nerve signals to move the muscles around the base of your thumb (motor function). 
+&lt;/p&gt;
+&lt;p&gt;
+In general, anything that crowds, irritates or compresses the median nerve in the carpal tunnel space can lead to carpal tunnel syndrome. For example, a wrist fracture can narrow the carpal tunnel and irritate the nerve, as can the swelling and inflammation resulting from rheumatoid arthritis. 
+&lt;/p&gt;
+&lt;p&gt;
+In many cases, no single cause can be identified. It may be that a combination of risk factors contributes to the development of the condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors have been associated with carpal tunnel syndrome. Although by themselves they don&apos;t cause carpal tunnel syndrome, they may increase your chances of developing or aggravating median nerve damage. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anatomic factors.&lt;/strong&gt; A wrist fracture or dislocation that alters the space within the carpal tunnel can create extraneous pressure on the median nerve. Also, carpal tunnel syndrome is generally more common in women. This may be because the carpal tunnel area is relatively smaller than in men and there&apos;s less room for error. Women who have carpal tunnel syndrome may also have smaller carpal tunnels than women who don&apos;t have the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve-damaging conditions.&lt;/strong&gt; Some chronic illnesses, such as diabetes and alcoholism, increase your risk of nerve damage, including damage to your median nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory conditions.&lt;/strong&gt; Illnesses that are characterized by inflammation, such as rheumatoid arthritis or an infection, can affect the tendons in your wrist, exerting pressure on your median nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alterations in the balance of body fluids.&lt;/strong&gt; Certain conditions &amp;mdash; such as pregnancy, menopause, obesity, thyroid disorders and kidney failure, among others &amp;mdash; can affect the level of fluids in your body. Fluid retention &amp;mdash; common during pregnancy, for example &amp;mdash; may increase the pressure within your carpal tunnel, irritating the median nerve. Carpal tunnel syndrome associated with pregnancy generally resolves on its own after the pregnancy is over.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Workplace factors.&lt;/strong&gt; It&apos;s possible that working with vibrating tools or on an assembly line that requires prolonged or repetitive flexing of the wrist may create harmful pressure on the median nerve, or worsen existing nerve damage. But the scientific evidence is conflicting and these factors haven&apos;t been established as direct causes of carpal tunnel syndrome. There is little evidence to support extensive computer use as a risk factor for carpal tunnel syndrome, although it may cause a different form of hand pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may conduct one or more of the following tests to determine whether you have carpal tunnel syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;History of symptoms.&lt;/strong&gt; The pattern of your signs and symptoms may offer clues to their cause. For example, since the median nerve doesn&apos;t provide sensation to your little finger, symptoms in that finger may indicate a problem other than carpal tunnel syndrome. Another clue is the timing of the symptoms. Typical times when you might experience symptoms due to carpal tunnel syndrome include while holding a phone or a newspaper, gripping a steering wheel, or waking up during the night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will want to test the feeling in your fingers and the strength of the muscles in your hand, because these can be affected by carpal tunnel syndrome. Pressure on the median nerve at the wrist, produced by bending the wrist, tapping on the nerve or simply pressing on the nerve, can bring on the symptoms in many people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; Some doctors may recommend an X-ray of the affected wrist to exclude other causes of wrist pain, such as arthritis or a fracture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyogram.&lt;/strong&gt; Electromyography measures the tiny electrical discharges produced in muscles. A thin-needle electrode is inserted into the muscles your doctor wants to study. An instrument records the electrical activity in your muscle at rest and as you contract the muscle. This test can help determine if muscle damage has occurred.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction study.&lt;/strong&gt; In a variation of electromyography, two electrodes are taped to your skin. A small shock is passed through the median nerve to see if electrical impulses are slowed in the carpal tunnel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The electromyogram and nerve conduction study tests are also useful in checking for other conditions that might mimic carpal tunnel syndrome, such as a pinched nerve in your neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend that you see a rheumatologist, neurologist, hand surgeon or neurosurgeon if your signs or symptoms indicate other medical disorders or a need for specialized treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with mild symptoms of carpal tunnel syndrome can ease their discomfort by taking more-frequent breaks to rest their hands and applying cold packs to reduce occasional swelling. If these techniques don&apos;t offer relief within a few weeks, additional treatment options include wrist splinting, medications and surgery. Splinting and other conservative treatments are more likely to help you if you&apos;ve had only mild to moderate symptoms for less than 10 months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonsurgical therapy&lt;br /&gt;
+&lt;/strong&gt;If the condition is diagnosed early, nonsurgical methods may help improve carpal tunnel syndrome. Methods may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wrist splinting.&lt;/strong&gt; A splint that holds your wrist still while you sleep can help relieve nighttime symptoms of tingling and numbness. Nocturnal splinting may be a good option if you are pregnant and have carpal tunnel syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; NSAIDs may help relieve pain from carpal tunnel syndrome in the short term. There&apos;s no evidence, though, that these drugs can actually improve the carpal tunnel syndrome itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Your doctor may inject your carpal tunnel with a corticosteroid, such as cortisone, to relieve your pain. Corticosteroids decrease inflammation and swelling, which relieves pressure on the median nerve. Oral corticosteroids aren&apos;t considered as effective as corticosteroid injections for treating carpal tunnel syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If carpal tunnel syndrome results from an inflammatory arthritis, such as rheumatoid arthritis, then treating the underlying condition may reduce symptoms of carpal tunnel syndrome, but this hasn&apos;t been proved.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your symptoms are severe or persist after trying nonsurgical therapy, surgery may be the best option.
+&lt;/p&gt;
+&lt;p&gt;
+The goal of carpal tunnel surgery is to relieve pressure on your median nerve by cutting the ligament pressing on the nerve. During the healing process after the surgery, the ligament tissues gradually grow back together while allowing more room for the nerve than existed before. The surgery may be done a couple of different ways. Either technique has risks and benefits that are important to discuss with your surgeon before surgery.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic surgery.&lt;/strong&gt; Carpal tunnel surgery can be done using an endoscope, a telescope-like device with a tiny camera attached to it that allows your doctor to see inside your carpal tunnel and perform the surgery through small incisions in your hand or wrist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open surgery.&lt;/strong&gt; In other cases, surgery involves making a larger incision in the palm of your hand over the carpal tunnel and cutting through the ligament to free the nerve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In general, your doctor will encourage you to use your hand after surgery, gradually working back to normal use of your hand while avoiding forceful hand motions or extreme positions of your wrist. Soreness or weakness may take from several weeks to as long as a few months to resolve after surgery. If your symptoms were very severe before surgery, symptoms may not go away completely after surgery.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing carpal tunnel release procedure 
+" Caption="During carpal tunnel release, the transverse carpal tunnel ligament is severed to relieve pressure on the median nerve. The surgery may be done by making one incision on the palm side of the wrist, or by making several small incisions. 
+" Height="60" Title="Carpal tunnel release" URI="/images/image_popup/thumbs/r7_carpaltunnelreleasethu.jpg" Width="60" />
+				<Image Alt="Illustration showing carpal tunnel release procedure 
+" Caption="During carpal tunnel release, the transverse carpal tunnel ligament is severed to relieve pressure on the median nerve. The surgery may be done by making one incision on the palm side of the wrist, or by making several small incisions. 
+" Height="353" Title="Carpal tunnel release" URI="/images/image_popup/r7_carpaltunnelrelease.jpg" Width="400" />
+				<HTML>
+					During carpal tunnel release, the transverse carpal tunnel ligament is severed to relieve pressure on the median nerve. The surgery may be done by making one incision on the palm side of the wrist, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help you gain at least temporary relief from your symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take quick breaks from repetitive activities involving the use of your hands.&lt;/li&gt;
+	&lt;li&gt;Rotate your wrists and stretch your palms and fingers.&lt;/li&gt;
+	&lt;li&gt;Take a pain reliever, such as aspirin, ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others).&lt;/li&gt;
+	&lt;li&gt;Try wearing a wrist splint at night. Wrist splints are generally available over-the-counter at most drugstores or pharmacies. The splint should be snug but not tight. &lt;/li&gt;
+	&lt;li&gt;Avoid sleeping on your hands to help ease the pain or numbness in your wrists and hands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If pain, numbness or weakness recurs and persists, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative forms of therapy can be integrated into your regular health plan to help you deal with the signs and symptoms of carpal tunnel syndrome. You may have to experiment to find a treatment that works for you. Still, always check with your doctor before trying any complementary or alternative treatment. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; Yoga postures designed for strengthening, stretching and balancing each joint in the upper body, as well as the upper body itself, may help reduce the pain and improve the grip strength of people with carpal tunnel syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hand therapy.&lt;/strong&gt; Preliminary evidence suggests that certain physical and occupational hand therapy techniques may help improve symptoms of carpal tunnel syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound therapy.&lt;/strong&gt; High-intensity ultrasound can be used to raise the temperature of a targeted area of body tissue to reduce pain and promote healing. A course of ultrasound therapy over several weeks may help improve the symptoms of carpal tunnel syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no proven strategies to prevent carpal tunnel syndrome, but you can minimize stress on your hands and wrists by taking the following precautions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your force and relax your grip.&lt;/strong&gt; Most people use more force than needed to perform many tasks involving their hands. If your work involves a cash register, for instance, hit the keys softly. For prolonged handwriting, use a big pen with an oversized, soft grip adapter and free-flowing ink. This way you won&apos;t have to grip the pen tightly or press as hard on the paper.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take frequent breaks.&lt;/strong&gt; Give your hands and wrists a break by gently stretching and bending them periodically. Alternate tasks when possible. If you use equipment that vibrates or that requires you to exert a great amount of force, taking breaks is even more important.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch your form.&lt;/strong&gt; Avoid bending your wrist all the way up or down. A relaxed middle position is best. If you use a keyboard, keep it at elbow height or slightly lower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improve your posture.&lt;/strong&gt; Incorrect posture can cause your shoulders to roll forward. When your shoulders are in this position, your neck and shoulder muscles are shortened, compressing nerves in your neck. This can affect your wrists, fingers and hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your hands warm.&lt;/strong&gt; You&apos;re more likely to develop hand pain and stiffness if you work in a cold environment. If you can&apos;t control the temperature at work, put on fingerless gloves that keep your hands and wrists warm.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Carpal tunnel syndrome
+	</Title>
+	<Abstract>
+		Carpal tunnel syndrome &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this painful condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01107" LinkType="Internal" ObjectID="8DA2A369-EC32-C687-93EBBF23812A26E0" Title="Chiropractic adjustment" Url="http://www.mayoclinic.com/health/chiropractic-adjustment/MY01107" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Disease" DocID="DS00879" LinkType="Internal" ObjectID="8A396035-E7FF-0DBD-1E84AAE196E3D14D" Title="Pinched nerve" Url="http://www.mayoclinic.com/health/pinched-nerve/DS00879" />
+		<LinkItem ContentType="Article" DocID="MY01460" LinkType="Internal" ObjectID="7DEADDB7-9346-1B83-C3BCBD0CAE439BA3" Title="Office ergonomics: Your how-to guide" Url="http://www.mayoclinic.com/health/office-ergonomics/MY01460" />
+		<LinkItem ContentType="Answer" DocID="AN01984" LinkType="Internal" ObjectID="F5D2615A-9378-7EFD-4CA769AF4362A83A" Title="Carpal tunnel exercises: Can they relieve symptoms?" Url="http://www.mayoclinic.com/health/carpal-tunnel-exercises/AN01984" />
+		<LinkItem ContentType="Video" DocID="MM00584" LinkType="Internal" ObjectID="472957B4-823F-4252-9C196B697717D761" Title="Video: Carpal tunnel syndrome &amp;mdash; results of surgery" Url="http://www.mayoclinic.com/health/carpal-tunnel-syndrome/MM00584" />
+		<LinkItem ContentType="Video" DocID="MM00586" LinkType="Internal" ObjectID="0E08A0B1-7228-485C-BC5B78908FB352C6" Title="Video: Carpal tunnel symptoms &amp;mdash; nonsurgical treatment" Url="http://www.mayoclinic.com/health/carpal-tunnel-syndrome-treatments/MM00586" />
+	</RelatedLinksBox>
+</Disease>

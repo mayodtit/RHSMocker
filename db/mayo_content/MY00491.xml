@@ -1,0 +1,275 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00491
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cornea-transplant/MY00491
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-05
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3860" Title="Eyes">
+						<Keyword MCVID="4360" Title="Surgery">
+							<Keyword MCVID="3862" Title="Cornea transplant" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4FCF8B80-D02D-9931-B511BA7D54FA64D1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cornea transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				cornea transplants
+			</MetaKeyword>
+			<MetaKeyword>
+				keratoplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				cornea surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				cornea diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				cornea damage
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A cornea transplant is a surgical procedure to replace part of your cornea with corneal tissue from a donor. Your cornea is the transparent, dome-shaped surface of your eye that accounts for a large part of your eye&apos;s focusing power.
+&lt;/p&gt;
+&lt;p&gt;
+A cornea transplant can restore vision, reduce pain and improve the appearance of a damaged or diseased cornea. A cornea transplant, also called keratoplasty, is typically performed as an outpatient procedure.
+&lt;/p&gt;
+&lt;p&gt;
+Most cornea transplant procedures are successful. But cornea transplant carries a small risk of complications, such as rejection of the donor cornea.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cornea transplant 
+" Caption="During a full-thickness cornea transplant (penetrating keratoplasty), a circular disc-shaped portion of your cornea is removed and replaced with a similarly sized portion of cornea from a donor. For the purpose of illustration, only the lower portions of the eyes are shown in this picture. 
+" Height="60" Title="Full-thickness cornea transplant" URI="/images/image_popup/thumbs/vi7_corneatransplantthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cornea transplant 
+" Caption="During a full-thickness cornea transplant (penetrating keratoplasty), a circular disc-shaped portion of your cornea is removed and replaced with a similarly sized portion of cornea from a donor. For the purpose of illustration, only the lower portions of the eyes are shown in this picture. 
+" Height="290" Title="Full-thickness cornea transplant" URI="/images/image_popup/vi7_cornea_transplant.jpg" Width="400" />
+				<HTML>
+					During a full-thickness cornea transplant (penetrating keratoplasty), a circular disc-shaped portion of your cornea is removed and replaced with a similarly sized portion of cornea from a donor. For ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A cornea transplant is most often used to restore vision to a person who has a damaged cornea. A cornea transplant may also relieve pain or other signs and symptoms associated with diseases of the cornea.
+&lt;/p&gt;
+&lt;p&gt;
+A number of conditions can be treated with a cornea transplant, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cornea that bulges outward (keratoconus)&lt;/li&gt;
+	&lt;li&gt;Thinning of the cornea&lt;/li&gt;
+	&lt;li&gt;Cornea scarring, caused by infection or injury&lt;/li&gt;
+	&lt;li&gt;Clouding of the cornea&lt;/li&gt;
+	&lt;li&gt;Swelling of the cornea&lt;/li&gt;
+	&lt;li&gt;Corneal ulcers, including those caused by infection&lt;/li&gt;
+	&lt;li&gt;Complications caused by previous eye surgery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cornea transplant is a relatively safe procedure. Still, a cornea transplant does carry a small risk of serious complications, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye infection&lt;/li&gt;
+	&lt;li&gt;Increased risk of clouding of the eye&apos;s lens (cataracts)&lt;/li&gt;
+	&lt;li&gt;Pressure increase within the eyeball (glaucoma)&lt;/li&gt;
+	&lt;li&gt;Problems with the stitches used to secure the donor cornea&lt;/li&gt;
+	&lt;li&gt;Rejection of the donor cornea&lt;/li&gt;
+	&lt;li&gt;Swelling of the cornea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of cornea rejection&lt;/strong&gt;&lt;br /&gt;
+In some cases, your body&apos;s immune system may mistakenly attack the donor cornea. This is called rejection, and it may require treatment or another cornea transplant.
+&lt;/p&gt;
+&lt;p&gt;
+Make an appointment with your eye doctor if you notice any signs and symptoms of rejection, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of vision&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rejection occurs in about 20 percent of cornea transplants. Put another way, for every 10 people receiving cornea transplants, two people can expect to experience rejection of the donor cornea.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before cornea transplant surgery, you will undergo:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A thorough eye exam.&lt;/strong&gt; Your eye doctor looks for conditions that may cause complications after surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Measurements of your eye.&lt;/strong&gt; Your eye doctor determines what size donor cornea you need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A review of all medications and supplements you&apos;re taking.&lt;/strong&gt; You may need to stop taking certain medications or supplements before or after your cornea transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment for other eye problems.&lt;/strong&gt; Unrelated eye problems, such as infection or inflammation, may reduce your chances of successful cornea transplant, so your eye doctor will work to treat those problems before your surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Finding a donor cornea&lt;/strong&gt;&lt;br /&gt;
+Most corneas used in cornea transplants come from deceased donors. Unlike with other organs, such as livers and kidneys, people needing cornea transplants generally don&apos;t have to endure long waits. That&apos;s because nearly all people can donate their corneas after they die, so more corneas are available for transplant compared with other organs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your cornea transplant&lt;/strong&gt;&lt;br /&gt;
+On the day of your cornea transplant, you&apos;ll be given a sedative to help you relax and a local anesthetic to numb your eye. You won&apos;t be asleep during the surgery, but you shouldn&apos;t feel any pain.
+&lt;/p&gt;
+&lt;p&gt;
+During the most common type of cornea transplant (penetrating keratoplasty), your surgeon cuts through the entire thickness of the abnormal or diseased cornea to remove a small button-sized disc of corneal tissue. An instrument that acts like a cookie cutter (trephine) is used to make this precise circular cut.
+&lt;/p&gt;
+&lt;p&gt;
+The donor cornea, cut to fit, is placed in the opening. Your surgeon then uses a fine thread to stitch the new cornea into place. The stitches may be removed at a later visit when you see your eye doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Procedures to transplant a portion of the cornea&lt;/strong&gt;&lt;br /&gt;
+With some types of cornea problems, a full-thickness cornea transplant isn&apos;t always the best treatment. Partial-thickness (lamellar) transplants may be used in certain situations. These types of procedures include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Replacing the inner layer of the cornea.&lt;/strong&gt; This procedure, called a deep lamellar transplant, replaces only the innermost layer of your cornea&apos;s five layers. A small incision is made in the side of your eyeball to allow for removal of your cornea&apos;s inner layer without damaging the outer layers. A donor graft replaces the removed portion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replacing the surface layers of the cornea.&lt;/strong&gt; The outer layers of the cornea that have been damaged by certain diseases and conditions can be replaced using a procedure called surface lamellar transplant. These surface layers, too, can be removed and replaced with a donor graft.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After your cornea transplant&lt;/strong&gt;&lt;br /&gt;
+Once your cornea transplant is completed, you can expect to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Receive several medications.&lt;/strong&gt; Eyedrops and, occasionally, oral medications immediately after cornea transplant and continuing during your recovery will help control infection, swelling and pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a protective metal eye shield and a gauze patch.&lt;/strong&gt; The shield protects your eye, and the gauze applies pressure to minimize eye swelling in the time just after your surgery. You&apos;ll wear your eye shield continuously for the first day or two and then only at night for the next several days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your eye from injury.&lt;/strong&gt; Plan to take it easy after your cornea transplant, and slowly work your way up to your normal activities, including exercise. For the rest of your life, you&apos;ll need to take extra precautions to avoid hurting your eye. For instance, wear safety glasses or eye protectors in situations that carry even a small risk of eye injury, such as sports.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Return for frequent follow-up exams.&lt;/strong&gt; Expect frequent eye exams to check for complications in the first year after your surgery. How often you&apos;ll return to the eye doctor depends on your situation. Eye exams are usually weekly at first, followed by monthly exams and then you may see your eye doctor every few months.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cornea transplant 
+" Caption="During a full-thickness cornea transplant (penetrating keratoplasty), a circular disc-shaped portion of your cornea is removed and replaced with a similarly sized portion of cornea from a donor. For the purpose of illustration, only the lower portions of the eyes are shown in this picture. 
+" Height="60" Title="Full-thickness cornea transplant" URI="/images/image_popup/thumbs/vi7_corneatransplantthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cornea transplant 
+" Caption="During a full-thickness cornea transplant (penetrating keratoplasty), a circular disc-shaped portion of your cornea is removed and replaced with a similarly sized portion of cornea from a donor. For the purpose of illustration, only the lower portions of the eyes are shown in this picture. 
+" Height="290" Title="Full-thickness cornea transplant" URI="/images/image_popup/vi7_cornea_transplant.jpg" Width="400" />
+				<HTML>
+					During a full-thickness cornea transplant (penetrating keratoplasty), a circular disc-shaped portion of your cornea is removed and replaced with a similarly sized portion of cornea from a donor. For ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who receive a cornea transplant will have their vision at least partially restored. But what you can expect after your cornea transplant depends on the reason for your surgery and your health conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Your risk of complications and cornea rejection continues for years after your cornea transplant. For this reason, expect to see your eye doctor annually. Cornea rejection can often be managed with medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vision correction after surgery&lt;/strong&gt;&lt;br /&gt;
+Your vision may initially be worse than before your surgery as your eye adjusts to the new cornea. It may take several months for your vision to improve.
+&lt;/p&gt;
+&lt;p&gt;
+Once the outer layer of your cornea has healed &amp;mdash; several weeks to several months after surgery &amp;mdash; your eye doctor will work to make adjustments that can improve your vision, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Correcting unevenness in your cornea (astigmatism).&lt;/strong&gt; The stitches that hold the donor cornea in place on your eye may cause dips and bumps in your cornea, making your vision blurry in spots. Your doctor may correct some of this by releasing some stitches and tightening others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Correcting vision problems.&lt;/strong&gt; Refractive errors, such as nearsightedness and farsightedness, can be corrected with glasses, contact lenses or, in some cases, laser eye surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cornea transplant
+	</Title>
+	<Abstract>
+		Cornea transplant &amp;mdash; Overview covers what to expect during and after cornea transplant.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00770" LinkType="Internal" ObjectID="8E447825-94B3-4A8C-0D8D60898FE4D790" Title="Video: Cornea transplant" Url="http://www.mayoclinic.com/health/cornea-transplant/MM00770" />
+		<LinkItem ContentType="Disease" DocID="DS01147" LinkType="Internal" ObjectID="CB020D4C-0648-6A19-35B79AB107CD3409" Title="Fuchs&apos; dystrophy" Url="http://www.mayoclinic.com/health/fuchs-dystrophy/DS01147" />
+		<LinkItem ContentType="Disease" DocID="DS01190" LinkType="Internal" ObjectID="B7B1F4FE-E555-615E-AF0853EC9490354C" Title="Keratitis" Url="http://www.mayoclinic.com/health/keratitis/DS01190" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,250 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01074
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cradle-cap/DS01074
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2637" Title="Cradle cap" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			39D9BB25-E7FF-0DBD-1347CA57BB3B9586
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				infant care
+			</MetaKeyword>
+			<MetaKeyword>
+				cradle cap
+			</MetaKeyword>
+			<MetaKeyword>
+				baby dandruff
+			</MetaKeyword>
+			<MetaKeyword>
+				infant dandruff
+			</MetaKeyword>
+			<MetaKeyword>
+				baby rash
+			</MetaKeyword>
+			<MetaKeyword>
+				infant rash
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				infant dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				baby dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrea
+			</MetaKeyword>
+			<MetaKeyword>
+				infantile seborrheic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				infant seborrheic dermatitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cradle cap, the common term for infantile seborrheic dermatitis, causes scaly patches on a baby&apos;s scalp. Though cradle cap isn&apos;t serious, it can cause thick crusting and white or yellow scales.
+&lt;/p&gt;
+&lt;p&gt;
+Cradle cap usually resolves on its own within a few months. Self-care measures, such as washing your baby&apos;s scalp daily with a mild shampoo, can help loosen and remove the cradle cap scales. If cradle cap persists or seems severe, your doctor may suggest a medicated shampoo, lotion or other treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cradle cap on light skin 
+" Caption="Cradle cap is characterized by scaly patches on a baby&apos;s scalp. You may notice thick, yellow patches of skin. The patches may be crusty or greasy. 
+" Height="60" Title="Cradle cap on light skin" URI="/images/image_popup/thumbs/sn7_cradlecapthu.jpg" Width="60" />
+				<Image Alt="Image of cradle cap on light skin 
+" Caption="Cradle cap is characterized by scaly patches on a baby&apos;s scalp. You may notice thick, yellow patches of skin. The patches may be crusty or greasy. 
+" Height="338" Title="Cradle cap on light skin" URI="/images/image_popup/sn7_cradlecap.jpg" Width="400" />
+				<HTML>
+					Cradle cap is characterized by scaly patches on a baby&apos;s scalp. You may notice thick, yellow patches of skin. The patches may be crusty or greasy. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cradle cap on dark skin 
+" Caption="Cradle cap appears as patchy scaling or thick crusts on the scalp and greasy skin covered with flaky white or yellow scales. Cradle cap usually doesn&apos;t bother the infant. 
+" Height="60" Title="Cradle cap on dark skin" URI="/images/image_popup/thumbs/sn7_cradlecap2thu.jpg" Width="60" />
+				<Image Alt="Image of cradle cap on dark skin 
+" Caption="Cradle cap appears as patchy scaling or thick crusts on the scalp and greasy skin covered with flaky white or yellow scales. Cradle cap usually doesn&apos;t bother the infant. 
+" Height="280" Title="Cradle cap on dark skin" URI="/images/image_popup/sn7_cradlecap2.jpg" Width="400" />
+				<HTML>
+					Cradle cap appears as patchy scaling or thick crusts on the scalp and greasy skin covered with flaky white or yellow scales. Cradle cap usually doesn&apos;t bother the infant. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs of cradle cap include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Patchy scaling or thick crusts on the scalp&lt;/li&gt;
+	&lt;li&gt;Greasy skin covered with flaky white or yellow scales&lt;/li&gt;
+	&lt;li&gt;Skin flakes&lt;/li&gt;
+	&lt;li&gt;Possibly mild redness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Similar scales may also be present on the ears, eyelids, nose and groin.
+&lt;/p&gt;
+&lt;p&gt;
+Cradle cap is most common in newborns. It isn&apos;t contagious and probably won&apos;t bother your baby. Cradle cap generally isn&apos;t itchy for infants.
+&lt;/p&gt;
+&lt;p&gt;
+Cradle cap is sometimes confused with another skin condition, infantile eczema. One major difference between these conditions, however, is that eczema usually causes significant itching. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your baby&apos;s doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve tried self-care steps without success&lt;/li&gt;
+	&lt;li&gt;The patches spread to your baby&apos;s face or body&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Though the exact cause of cradle cap isn&apos;t known, one contributing factor may be hormones that pass from the mother to the baby before birth. These hormones can cause an abnormal production of oil (sebum) in the oil glands and hair follicles.
+&lt;/p&gt;
+&lt;p&gt;
+Another factor may be a yeast (fungus) called malassezia (mal-uh-SEE-zhuh) that grows in the sebum along with bacteria. Antifungal treatments, such as ketoconazole, are often effective, supporting the idea that yeast is a contributing factor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your baby&apos;s cradle cap doesn&apos;t improve with self-care measures or starts to spread, make an appointment with your baby&apos;s pediatrician. Here&apos;s some information to help you prepare for your visit. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Your baby&apos;s doctor will want to know: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long your baby has had cradle cap&lt;/li&gt;
+	&lt;li&gt;What you&apos;ve done to treat it&lt;/li&gt;
+	&lt;li&gt;How often you shampoo your baby&apos;s hair&lt;/li&gt;
+	&lt;li&gt;What products you&apos;ve tried&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cradle cap usually doesn&apos;t require medical treatment. It clears up on its own within a few weeks to months. In the meantime, wash your baby&apos;s hair once a day with mild baby shampoo and brush the scalp lightly with a soft brush to loosen the scales.
+&lt;/p&gt;
+&lt;p&gt;
+If frequent shampooing doesn&apos;t help, consult your baby&apos;s doctor. He or she may recommend a stronger shampoo &amp;mdash; such as an adult dandruff shampoo containing tar, 2 percent of the antifungal medication ketoconazole or 1 percent selenium sulfide &amp;mdash; to help dissolve the scales. Be sure these shampoos don&apos;t get in your baby&apos;s eyes, as they may cause irritation. Hydrocortisone cream is sometimes helpful to reduce redness and inflammation.
+&lt;/p&gt;
+&lt;p&gt;
+Don&apos;t use over-the-counter cortisone or antifungal creams without talking to your baby&apos;s doctor, because some of these products can be toxic when absorbed through a baby&apos;s skin. Dandruff shampoos that contain salicylic acid aren&apos;t recommended for use in babies either, because they can be absorbed through the skin.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following over-the-counter treatments and self-care tips can help you control and manage cradle cap.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gently rub your baby&apos;s scalp with your fingers or washcloth to loosen the scales.&lt;/li&gt;
+	&lt;li&gt;Wash your baby&apos;s hair once a day with mild baby shampoo. Loosen the scales with a small, soft-bristled brush before rinsing off the shampoo.&lt;/li&gt;
+	&lt;li&gt;If the scales don&apos;t loosen easily, rub petroleum jelly or a few drops of mineral oil onto your baby&apos;s scalp. Let it soak into the scales for a few minutes, and then brush and shampoo your baby&apos;s hair as usual. If you leave the oil in your baby&apos;s hair, the scales may accumulate and worsen the cradle cap.&lt;/li&gt;
+	&lt;li&gt;Once the scales are gone, wash your baby&apos;s hair every few days with a mild shampoo to prevent scale buildup.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shampooing your baby&apos;s hair every few days can help prevent cradle cap. Stick with a mild baby shampoo unless your baby&apos;s doctor recommends something stronger.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cradle cap
+	</Title>
+	<Abstract>
+		Cradle cap &amp;mdash; Comprehensive overview covers symptoms, treatments and home care tips.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="FL00090" LinkType="Internal" ObjectID="9551D007-6FE6-4BCF-A7347E2AD77CBCE7" Title="Slide show: Common baby rashes" Url="http://www.mayoclinic.com/health/baby-rashes/FL00090" />
+	</RelatedLinksBox>
+</Disease>

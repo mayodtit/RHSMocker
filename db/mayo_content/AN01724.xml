@@ -1,0 +1,111 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01724
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/white-stool/AN01724
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2943" Title="Stool" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			04C580B6-E7FF-0DBD-183D26AD84072141
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				white stool
+			</MetaKeyword>
+			<MetaKeyword>
+				white poop
+			</MetaKeyword>
+			<MetaKeyword>
+				baby poop
+			</MetaKeyword>
+			<MetaKeyword>
+				pale stool
+			</MetaKeyword>
+			<MetaKeyword>
+				white stools
+			</MetaKeyword>
+			<MetaKeyword>
+				pale stools
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+White stool is not normal and should be evaluated promptly by a doctor. White stool is caused by a lack of bile, which may indicate a serious underlying problem.
+&lt;/p&gt;
+&lt;p&gt;
+Bile is a digestive fluid produced by the liver and stored in the gallbladder. Stool gets its normal brownish color from bile, which is excreted from the liver into the small intestine during the digestive process. If the liver doesn&apos;t produce bile or if bile is obstructed from leaving the liver, stool will be light colored or white.
+&lt;/p&gt;
+&lt;p&gt;
+Liver diseases, such as hepatitis and cirrhosis, can cause white stool. In some cases, the problem lies not in the liver but in the tube (duct) that delivers the bile to the intestines. This tube can be squeezed shut or blocked &amp;mdash; for example, by a tumor or a gallstone &amp;mdash; which prevents the bile from entering the intestines. Some babies are born with constricted bile ducts.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		White stool: Should I be concerned?
+	</Title>
+	<Abstract>
+		White stool isn&apos;t normal and may indicate a serious liver problem. Learn about causes.
+	</Abstract>
+	<Question>
+		What would cause a person to have white stool? Should I be concerned?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01567" LinkType="Internal" ObjectID="C6843084-E7FF-0DBD-17542C9B76BE5D60" Title="Narrow stools: Should I be concerned?" Url="http://www.mayoclinic.com/health/narrow-stools/AN01567" />
+		<LinkItem ContentType="Answer" DocID="AN01296" LinkType="Internal" ObjectID="B7AECCC0-2A5D-9994-E3D5080CF3F200E1" Title="Mucus in stool: Is it a concern?" Url="http://www.mayoclinic.com/health/mucus-in-stool/AN01296" />
+		<LinkItem ContentType="Answer" DocID="AN01743" LinkType="Internal" ObjectID="B490776B-E7FF-0DBD-1D7D124026B6B89D" Title="Undigested food in stool: What does it mean?" Url="http://www.mayoclinic.com/health/undigested-food-in-stool/AN01743" />
+		<LinkItem ContentType="Answer" DocID="AN00772" LinkType="Internal" ObjectID="5343C57D-AC65-4B53-96F2E342B10D5383" Title="Stool color: When to worry" Url="http://www.mayoclinic.com/health/stool-color/AN00772" />
+	</RelatedLinksBox>
+</Answer>

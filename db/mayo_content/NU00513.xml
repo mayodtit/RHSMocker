@@ -1,0 +1,227 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00513
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00513
+		</OriginalURL>
+		<UpdateDate>
+			2010-05-29
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F6EDF915-1FBA-439E-ACFB4FBD0129F96F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Grilled chicken salad with olives and oranges
+	</Title>
+	<Abstract>
+		Grilled chicken salad with olives and oranges &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The garlic-rubbed grilled chicken is a perfect complement to the tangy dressing on this salad. If you prefer, grill the chicken in advance, cut into strips and refrigerate up to several days. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+To make the dressing, in a small bowl combine the vinegar, garlic, olive oil, onion, celery and pepper. Stir to mix evenly. Cover and refrigerate until needed. 
+&lt;/p&gt;
+&lt;p&gt;
+Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source. 
+&lt;/p&gt;
+&lt;p&gt;
+Rub the chicken breasts with garlic, then discard the cloves. Grill or broil the chicken until browned and just cooked through, about 5 minutes each side. Transfer the chicken to a cutting board and let rest 5 minutes before slicing into strips. 
+&lt;/p&gt;
+&lt;p&gt;
+Arrange 2 cups lettuce, 4 olives and 1/4 of the sliced oranges onto 4 plates. Top with 1/4 of the chicken strips and drizzle with dressing. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+For the dressing 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1/2 cup red wine vinegar&lt;/li&gt;
+	&lt;li&gt;4 garlic cloves, minced&lt;/li&gt;
+	&lt;li&gt;1 tablespoon extra-virgin olive oil&lt;/li&gt;
+	&lt;li&gt;1 tablespoon finely chopped red onion&lt;/li&gt;
+	&lt;li&gt;1 tablespoon finely chopped celery&lt;/li&gt;
+	&lt;li&gt;Cracked black pepper, to taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;4 boneless, skinless chicken breasts, each 4 ounces&lt;/li&gt;
+	&lt;li&gt;2 garlic cloves&lt;/li&gt;
+	&lt;li&gt;8 cups leaf lettuce, washed and dried&lt;/li&gt;
+	&lt;li&gt;16 large ripe (black) olives&lt;/li&gt;
+	&lt;li&gt;2 navel oranges, peeled and sliced&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				250
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				14 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				65 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				29 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				264 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				7 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

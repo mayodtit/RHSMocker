@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01215
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/laryngospasm/AN01215
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-16
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="1845" Title="Heartburn">
+							<Keyword MCVID="4024" Title="GERD" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B9DE0148-2A5D-9994-E899E87E02FC4A31
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				laryngospasm
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Laryngospasm (luh-RING-go-spaz-um) is a brief spasm of the vocal cords that temporarily makes it difficult to speak or breathe. Often the cause can&apos;t be determined. But laryngospasm can be associated with gastroesophageal reflux disease (GERD). Laryngospasm due to GERD occurs when stomach juices are pushed up your throat and make contact with your vocal cords, causing them to spasm. 
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms of laryngospasm are often confused with those of asthma &amp;mdash; a lung condition that can make breathing difficult. 
+&lt;/p&gt;
+&lt;p&gt;
+Laryngospasm happens suddenly and causes great difficulty breathing through the upper airways in your voice box (larynx). Laryngospasm also makes it difficult to speak. Though laryngospasm can be frightening, your vocal cords eventually relax without causing serious problems. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no effective medication to relax the vocal cords more quickly. However, sitting down and trying to relax your whole body during an episode may speed recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+If GERD is the cause of laryngospasm, treatment of GERD may reduce the number and severity of episodes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Laryngospasm: What causes it?
+	</Title>
+	<Abstract>
+		Laryngospasm is a brief spasm of the vocal cords, which temporarily interrupts breathing.
+	</Abstract>
+	<Question>
+		What causes laryngospasm?
+	</Question>
+	<QuestionFirstName>
+		Penny
+	</QuestionFirstName>
+	<QuestionState>
+		Minnesota
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00998" LinkType="Internal" ObjectID="5D2988BC-4BCF-44BF-A6C481D95C10544F" Title="Acid reflux and GERD: The same thing?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00998" />
+		<LinkItem ContentType="Video" DocID="MM00008" LinkType="Internal" ObjectID="17D3D2D2-C98C-48AC-ADD54701217AD720" Title="Video: Heartburn and hiatal hernia" Url="http://www.mayoclinic.com/health/heartburn-gerd/MM00008" />
+		<LinkItem ContentType="Article" DocID="DG00016" LinkType="Internal" ObjectID="8CCC8FCD-BF2B-46E2-82B5C018EF3B1796" Title="Heartburn or chest pain: When is it heart attack?" Url="http://www.mayoclinic.com/health/heartburn-gerd/DG00016" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01208" LinkType="Internal" ObjectID="FCC5AED0-BABC-909A-06AABAF8B6297351" Title="Esophageal manometry" Url="http://www.mayoclinic.com/health/esophageal-manometry/MY01208" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00307" LinkType="Internal" ObjectID="9AE53C6F-E7FF-0DBD-17468FABB8482EEF" Title="X-ray" Url="http://www.mayoclinic.com/health/x-ray/MY00307" />
+		<LinkItem ContentType="Video" DocID="MM00791" LinkType="Internal" ObjectID="70EE2D3B-C827-3CD6-8BF1B00BDCA16B47" Title="Video: Fundoplication" Url="http://www.mayoclinic.com/health/fundoplication/MM00791" />
+		<LinkItem ContentType="Answer" DocID="AN02116" LinkType="Internal" ObjectID="1E03EEC8-EFF4-3C10-42CBB4D0FA8BBC64" Title="Asthma and acid reflux: Are they linked?" Url="http://www.mayoclinic.com/health/asthma-and-acid-reflux/AN02116" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+		<LinkItem ContentType="Article" DocID="WT00011" LinkType="Internal" ObjectID="E246F1FA-2A5D-9994-EE72B9B700C582EF" Title="Counting calories: Get back to weight-loss basics" Url="http://www.mayoclinic.com/health/calories/WT00011" />
+		<LinkItem ContentType="Article" DocID="HQ01625" LinkType="Internal" ObjectID="CFD9CF34-F700-4F2F-B9572D428BA62671" Title="Weight loss: 6 strategies for success" Url="http://www.mayoclinic.com/health/weight-loss/HQ01625" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Answer" DocID="AN00720" LinkType="Internal" ObjectID="E9E50A71-F3A9-4864-B9906E0681988412" Title="GERD: Can certain medications increase severity?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00720" />
+		<LinkItem ContentType="Disease" DocID="DS00523" LinkType="Internal" ObjectID="7F63DE3D-2EC2-4360-AF54FB7E1C39A350" Title="Difficulty swallowing" Url="http://www.mayoclinic.com/health/difficulty-swallowing/DS00523" />
+		<LinkItem ContentType="Disease" DocID="DS00362" LinkType="Internal" ObjectID="3830E935-0B28-4EE9-85E99C261470826D" Title="Scleroderma" Url="http://www.mayoclinic.com/health/scleroderma/DS00362" />
+		<LinkItem ContentType="Disease" DocID="HQ00312" LinkType="Internal" ObjectID="0F626CE4-7682-4C3C-801AC8E07B01F30C" Title="Barrett&apos;s esophagus" Url="http://www.mayoclinic.com/health/barretts-esophagus/HQ00312" />
+		<LinkItem ContentType="Disease" DocID="DS00099" LinkType="Internal" ObjectID="07CE2FE3-AAA0-46EE-94377590C1EF581C" Title="Hiatal hernia" Url="http://www.mayoclinic.com/health/hiatal-hernia/DS00099" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+	</RelatedLinksBox>
+</Answer>

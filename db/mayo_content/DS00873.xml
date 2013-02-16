@@ -1,0 +1,372 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00873
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/priapism/DS00873
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2044" Title="Sexual dysfunction">
+						<Keyword MCVID="3195" Title="Priapism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen">
+						<Keyword MCVID="3535" Title="06 to 10 years elementary" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			52A19C8A-E7FF-0DBD-17B36A20D749ED86
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				priapism
+			</MetaKeyword>
+			<MetaKeyword>
+				erection
+			</MetaKeyword>
+			<MetaKeyword>
+				ischemic priapism
+			</MetaKeyword>
+			<MetaKeyword>
+				nonischemic priapism
+			</MetaKeyword>
+			<MetaKeyword>
+				stuttering priapism
+			</MetaKeyword>
+			<MetaKeyword>
+				erectile dysfunction
+			</MetaKeyword>
+			<MetaKeyword>
+				low-flow priapism
+			</MetaKeyword>
+			<MetaKeyword>
+				high-flow priapism
+			</MetaKeyword>
+			<MetaKeyword>
+				intracavernous injection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Priapism is a prolonged erection of the penis. The unwanted, persistent erection isn&apos;t caused by sexual stimulation or arousal, and priapism is usually painful.
+&lt;/p&gt;
+&lt;p&gt;
+Priapism is an uncommon condition that needs immediate medical attention. Prompt treatment for priapism is usually needed to prevent tissue damage that could result in the inability to get or maintain an erection (erectile dysfunction).
+&lt;/p&gt;
+&lt;p&gt;
+Priapism is most common in boys between ages 5 and 10 years old and in men from ages 20 to 50 years.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Priapism causes abnormally persistent erections. Priapism symptoms vary somewhat depending on the type of priapism. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ischemic priapism&lt;/strong&gt;&lt;br /&gt;
+Ischemic, or low-flow, priapism is the result of blood not being able to leave the penis. It&apos;s the most common type of priapism. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unwanted erection lasting more than four hours&lt;/li&gt;
+	&lt;li&gt;Rigid penile shaft, but usually soft tip of penis (glans)&lt;/li&gt;
+	&lt;li&gt;Erection not related to sexual stimulation or persistent after stimulation&lt;/li&gt;
+	&lt;li&gt;Usually painful or tender penis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonischemic priapism&lt;/strong&gt;&lt;br /&gt;
+Nonischemic, or high-flow, priapism occurs when too much blood flows into the penis. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unwanted erection lasting at least four hours&lt;/li&gt;
+	&lt;li&gt;Erect but not rigid penile shaft&lt;/li&gt;
+	&lt;li&gt;Erection not related to sexual stimulation or persistent after stimulation&lt;/li&gt;
+	&lt;li&gt;Usually painless&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stuttering priapism&lt;/strong&gt;&lt;br /&gt;
+Another type of ischemic priapism, stuttering, or recurring, priapism occurs off and on. A stuttering erection is usually painful and generally lasts several hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Go to the emergency room if you have an erection lasting longer than four hours. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience a painful, persistent erection that resolves on its own in less than four hours, see your doctor, because you may need treatment to prevent further episodes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An erection normally occurs in response to physical or psychological stimulation. This stimulation causes certain blood vessels to relax and expand, increasing blood flow to spongy tissues in the penis. Consequently, the blood-filled penis becomes erect.
+&lt;/p&gt;
+&lt;p&gt;
+After stimulation ends, the blood flows out, and the penis returns to its nonrigid (flaccid) state.
+&lt;/p&gt;
+&lt;p&gt;
+Priapism occurs when some part of this system &amp;mdash; the blood, blood vessels or nerves &amp;mdash; changes normal blood flow. Subsequently, an unwanted erection persists. Factors that can contribute to priapism include the following.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood disorders&lt;/strong&gt;&lt;br /&gt;
+Blood-related diseases may contribute to priapism &amp;mdash; usually ischemic priapism, a persistent erection caused by blood not being able to flow from the penis. These disorders include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sickle cell anemia&lt;/li&gt;
+	&lt;li&gt;Leukemia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sickle cell anemia, a common cause of priapism, is an inherited disorder characterized by abnormally shaped red blood cells. These abnormally shaped cells can block the flow of blood. Sickle cell anemia is the most common cause of priapism in boys.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prescription medications&lt;/strong&gt;&lt;br /&gt;
+Priapism, usually ischemic priapism, is a known side effect of a number of drugs. The following drugs can sometimes cause priapism:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Oral medications used to manage erectile dysfunction, such as sildenafil (Viagra), tadalafil (Cialis) and vardenafil (Levitra)&lt;/li&gt;
+	&lt;li&gt;Drugs injected directly into the penis to treat erectile dysfunction, such as papaverine&lt;/li&gt;
+	&lt;li&gt;Antidepressants, such as fluoxetine (Prozac) and bupropion (Wellbutrin)&lt;/li&gt;
+	&lt;li&gt;Drugs used to treat psychotic disorders, such as risperidone (Risperdal) and olanzapine (Zyprexa)&lt;/li&gt;
+	&lt;li&gt;Blood thinners, such as warfarin (Coumadin) and heparin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Illegal drug use&lt;/strong&gt;&lt;br /&gt;
+Some illegal drugs or the abuse of drugs can cause priapism, particularly ischemic priapism. Possible causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recreational use of erectile dysfunction drugs&lt;/li&gt;
+	&lt;li&gt;Drinking too much alcohol&lt;/li&gt;
+	&lt;li&gt;Use of illegal drugs such as marijuana or cocaine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Injury&lt;/strong&gt;&lt;br /&gt;
+A common cause of nonischemic priapism &amp;mdash; a persistent erection caused by excessive blood flow into the penis &amp;mdash; is trauma or injury to your genitals, pelvis or the perineum, the region between the base of the penis and the anus.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other factors&lt;/strong&gt;&lt;br /&gt;
+Other causes of priapism include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spinal cord injury&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Poisonous venom, such as venom from scorpions or black widow spiders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, doctors are unable to identify the specific cause for priapism.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ischemic priapism can cause serious complications. The blood trapped in the penis is deprived of its oxygen supply and becomes toxic to tissues. When the erection lasts for longer than fours hours, the oxygen-poor blood can begin to damage or destroy tissues in the penis. As a result, untreated priapism may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Erectile dysfunction, the inability of the penis to become or stay erect with sexual arousal&lt;/li&gt;
+	&lt;li&gt;Disfiguring of the penis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve had an erection lasting more than four hours, go to the emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve experienced a painful, persistent erection that lasted less than four hours, or if you&apos;ve experienced multiple unwanted, persistent erections (stuttering priapism), see a doctor. You&apos;re likely to see your family doctor or general practitioner first, although you may be advised to make an appointment with a specialist in reproductive and urinary organs (urologist). 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time before you see your doctor, it&apos;s a good idea to be prepared for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to your persistent erections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking. And, let your doctor know if you&apos;ve taken any illegal drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make sure you cover everything that&apos;s important to you. For priapism, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing the persistent erections?&lt;/li&gt;
+	&lt;li&gt;What kind of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of developing erectile dysfunction?&lt;/li&gt;
+	&lt;li&gt;How can I prevent unwanted, persistent erections?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Is it safe for me to have sex again?&lt;/li&gt;
+	&lt;li&gt;How long do I need to wait before I have sex again?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions regarding recurring episodes of persistent erections. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How long have the erections lasted?&lt;/li&gt;
+	&lt;li&gt;Were the erections painful?&lt;/li&gt;
+	&lt;li&gt;Have you used drugs for treating erectile dysfunction?&lt;/li&gt;
+	&lt;li&gt;Have you used cocaine, marijuana, ethanol or other recreational drugs? &lt;/li&gt;
+	&lt;li&gt;How much do you drink?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;Did the unwanted erections occur after consuming or using a particular substance?&lt;/li&gt;
+	&lt;li&gt;Have you had an injury to your genitals or groin?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also order laboratory tests to determine if you have a disease or condition that is causing priapism. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Don&apos;t use any recreational substance that could cause persistent erections. Don&apos;t stop your prescription medications without consulting your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have an erection lasting more than four hours, you need emergency care. The emergency room doctor will determine first whether you have ischemic priapism or nonischemic priapism. This is necessary because the treatment for each is different, and treatment for ischemic priapism needs to be done as soon as possible.
+&lt;/p&gt;
+&lt;p&gt;
+Your answers to questions, a physical examination and a blood test are usually enough to determine what type of priapism you have. You will have additional tests to determine the underlying cause of priapism, which may need to be treated, usually in a nonemergency setting.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical history and exam&lt;/strong&gt;&lt;br /&gt;
+In order to determine what type of priapism you have, your doctor will likely ask numerous questions and examine your genitals, abdomen, groin and perineum. He or she may be able to determine what type of priapism you have based on the rigidity and sensitivity of the penis. This exam may also reveal signs of injury or tumors that could be causing priapism. An injury, for example, would suggest that nonischemic priapism is more likely.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+Diagnostic tests may be necessary to determine what type of priapism you have. Additional tests may identify the cause of priapism. In an emergency room setting, your treatment may begin before all test results are received if the doctor is confident about what kind of priapism you have. Diagnostic tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood gas measurement.&lt;/strong&gt; In this test, a tiny needle is inserted into your penis to remove a sample of blood. If the blood is dark &amp;mdash; deprived of oxygen &amp;mdash; the condition is most likely ischemic priapism. If it&apos;s bright red, the priapism is most likely nonischemic. A laboratory test measuring the amounts of certain gases in the blood can confirm the type of priapism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your blood can be tested to measure the amount of red blood cells and platelets present. Results may provide evidence of diseases, such as sickle cell anemia, other blood disorders or certain cancers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; You may have a color duplex ultrasonography, which uses sound waves to create an image of internal organs. This test can be used to measure blood flow within your penis that would suggest ischemic or nonischemic priapism. The exam may also reveal an injury, tumor or abnormality that may be an underlying cause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxicology test.&lt;/strong&gt; Your doctor may order a toxicology test to screen for illegal or prescription drugs that may be the cause of priapism. This may be done with blood or urine samples.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Ischemic priapism&lt;/strong&gt;&lt;br /&gt;
+Ischemic priapism &amp;mdash; the result of blood not being able to exit the penis &amp;mdash; is an emergency situation that requires immediate treatment. This treatment usually begins with a combination of draining blood from the penis and using medications.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aspiration.&lt;/strong&gt; After your penis is numbed with local anesthetic, excess blood is drained from it, using a small needle and syringe. As part of this procedure, the penile veins may also be flushed with a saline solution. This treatment relieves pain, clears the tissues of oxygen-poor blood and may stop the erection. This treatment may be repeated until the erection ends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Injection of a drug called an alpha-adrenergic sympathomimetic, such as phenylephrine, may be injected into the spongy tissue of the penis. This drug constricts blood vessels transporting blood into the penis, thereby limiting blood flow in. This action allows blood vessels transporting blood out of the penis to open up, allowing increased blood flow out. This treatment may be repeated frequently over several hours if necessary. There is some risk of side effects, such as headache, dizziness and high blood pressure, particularly if you have high blood pressure or heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If other treatments aren&apos;t successful, a surgeon may implant a shunt, a device that reroutes blood flow so that it moves through your penis normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Additional treatments.&lt;/strong&gt; If you have sickle cell anemia, you may receive additional treatments that are used to treat disease-related episodes, such as supplemental oxygen or an intravenous solution to keep you well hydrated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonischemic priapism&lt;/strong&gt;&lt;br /&gt;
+Nonischemic priapism often goes away with no treatment. Because there isn&apos;t a risk of damage to the penis, your doctor may suggest a watch-and-wait approach. Putting ice and pressure on the perineum &amp;mdash; the region between the base of the penis and the anus &amp;mdash; may help end the erection.
+&lt;/p&gt;
+&lt;p&gt;
+Surgery may be necessary in some cases to insert material that temporarily blocks blood flow to the penis. The body eventually absorbs the material. Surgery may also be necessary to repair arteries or tissue damage resulting from an injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the probable cause of the priapism, steps to prevent priapism may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Treating the disease that may have caused priapism&lt;/li&gt;
+	&lt;li&gt;Changing medications if a prescription medication was the probable cause&lt;/li&gt;
+	&lt;li&gt;Avoiding triggers, such as alcohol or illegal drugs&lt;/li&gt;
+	&lt;li&gt;Self-injection of phenylephrine to stop prolonged erections&lt;/li&gt;
+	&lt;li&gt;Hormone treatment &amp;mdash; only for adult men&lt;/li&gt;
+	&lt;li&gt;Prescription muscle relaxant, such as baclofen (Lioresal)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Priapism
+	</Title>
+	<Abstract>
+		Priapism &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this disorder of the penis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01461" LinkType="Internal" ObjectID="7DFAFB7A-B673-E127-1965CDA24CB44BC6" Title="Penis health: Identify and prevent problems" Url="http://www.mayoclinic.com/health/penis-health/MY01461" />
+		<LinkItem ContentType="Disease" DocID="DS00324" LinkType="Internal" ObjectID="193554B1-F187-461C-9041DDD189B031A6" Title="Sickle cell anemia" Url="http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324" />
+	</RelatedLinksBox>
+</Disease>

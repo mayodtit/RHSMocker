@@ -1,0 +1,362 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00673
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hairy-cell-leukemia/DS00673
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2145" Title="Leukemia">
+						<Keyword MCVID="3100" Title="Chronic lymphocytic leukemia">
+							<Keyword MCVID="3101" Title="Hairy cell leukemia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1C911879-2A5D-9994-E350527C9298EE65
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hairy cell leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				hairy cell leukemia treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				blood cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood counts
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer in blood
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hairy cell leukemia is a rare, slow-growing cancer of the blood in which your bone marrow makes too many B cells (lymphocytes), a type of white blood cell that fights infection. These excess B cells are abnormal and look &quot;hairy&quot; under a microscope. As the number of leukemia cells increases, fewer healthy white blood cells, red blood cells and platelets are produced. 
+&lt;/p&gt;
+&lt;p&gt;
+Hairy cell leukemia affects more men than women, and it occurs most commonly in middle-aged or older adults. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors aren&apos;t sure what causes hairy cell leukemia, and there is no cure. Hairy cell leukemia is considered a chronic disease because it may never completely disappear, although treatment can lead to a remission for years. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of hairy cell leukemia cells under a microscope 
+" Caption="Hairy cell leukemia cells, which appear as the darker cells in this photo, are surrounded by a halo of fine projections (villi). To diagnose hairy cell leukemia, your doctor may take a sample of bone marrow from your body and examine it under a microscope to look for hairy cells.
+" Height="60" Title="Hairy cell leukemia" URI="/images/image_popup/thumbs/c7_hairycellthu.jpg" Width="60" />
+				<Image Alt="Photo of hairy cell leukemia cells under a microscope 
+" Caption="Hairy cell leukemia cells, which appear as the darker cells in this photo, are surrounded by a halo of fine projections (villi). To diagnose hairy cell leukemia, your doctor may take a sample of bone marrow from your body and examine it under a microscope to look for hairy cells.
+" Height="270" Title="Hairy cell leukemia" URI="/images/image_popup/c7_hairycell.jpg" Width="400" />
+				<HTML>
+					Hairy cell leukemia cells, which appear as the darker cells in this photo, are surrounded by a halo of fine projections (villi). To diagnose hairy cell leukemia, your doctor may take a sample of bone ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people have no signs or symptoms of hairy cell leukemia, but a blood test for another disease or condition may inadvertently reveal hairy cell leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+Other times people with hairy cell leukemia experience signs and symptoms common to a number of diseases and conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling of fullness in your abdomen that may make it uncomfortable to eat more than a little at a time&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Easy bruising&lt;/li&gt;
+	&lt;li&gt;Recurring infections&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs and symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes hairy cell leukemia. Doctors know that cancer occurs when cells develop errors in their DNA. In the case of hairy cell leukemia, mutations in the DNA cause your bone marrow stem cells to create too many white blood cells that don&apos;t work properly. Doctors don&apos;t know what causes the DNA mutations that lead to hairy cell leukemia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may increase your risk of developing hairy cell leukemia. Not all research studies agree on what factors increase your risk of the disease. Some research indicates that your risk of hairy cell leukemia increases based on your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to radiation.&lt;/strong&gt; People exposed to radiation, such as those who work around X-ray machines or those who received radiation treatment for cancer, may have a higher risk of developing hairy cell leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to chemicals.&lt;/strong&gt; Industrial and agricultural chemicals could play a role in hairy cell leukemia development. However, some studies have found this not to be the case.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to sawdust.&lt;/strong&gt; Some studies have found a link between working with wood and sawdust and an increased risk of hairy cell leukemia. But this connection hasn&apos;t been proved conclusively. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hairy cell leukemia progresses very slowly and sometimes remains stable for many years. For this reason, few complications of the disease occur. However, untreated hairy cell leukemia that progresses may crowd out healthy blood cells, leading to serious complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Low white blood cell counts put you at risk of infections that your body might otherwise fight off.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Low platelet counts make it hard for your body to stop bleeding once it starts. If you have a mildly low platelet count, you might notice that you bruise more easily. Very low platelet counts can cause spontaneous bleeding from the nose or gums.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; A low red blood cell count means fewer cells are available to carry oxygen throughout your body. This is called anemia. Anemia causes fatigue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Increased risk of second cancers&lt;/strong&gt; &lt;br /&gt;
+Some studies have found that people with hairy cell leukemia may have an increased risk of developing a second type of cancer. It isn&apos;t clear whether this risk is due to hairy cell leukemia&apos;s effect on the body or if the risk comes from the medications used to treat hairy cell leukemia. Second cancers found in people treated for hairy cell leukemia include Hodgkin lymphoma and non-Hodgkin lymphoma, among others. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. If your doctor suspects you may have hairy cell leukemia, you may be referred to a doctor who treats diseases of the blood and bone marrow (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared. Here&apos;s some information to help you get ready and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For hairy cell leukemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have hairy cell leukemia?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Will I require treatment for my hairy cell leukemia?&lt;/li&gt;
+	&lt;li&gt;If I don&apos;t have treatment, will my leukemia worsen?&lt;/li&gt;
+	&lt;li&gt;If I require treatment, what are my options?&lt;/li&gt;
+	&lt;li&gt;Will treatment cure my hairy cell leukemia?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;How will cancer treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose hairy cell leukemia, your doctor may recommend tests and procedures that include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; By feeling your spleen &amp;mdash; an oval-shaped organ on the left side of your upper abdomen &amp;mdash; your doctor can determine if it&apos;s enlarged. An enlarged spleen may cause a sensation of fullness in your abdomen that makes it uncomfortable to eat. Your doctor may also check for enlarged lymph nodes that may contain leukemia cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor uses blood tests, such as the complete blood count, to monitor the levels of blood cells in your blood. People with hairy cell leukemia have low levels of all three types of blood cells &amp;mdash; red blood cells, white blood cells and platelets. Another blood test called a peripheral blood smear looks for hairy cell leukemia cells in a sample of your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow biopsy.&lt;/strong&gt; During a bone marrow biopsy, a small amount of bone marrow is removed from your hip area. This sample is used to look for hairy cell leukemia cells and to monitor your healthy blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan shows detailed images of the inside of your body. Your doctor may order a CT scan to detect enlargement of your spleen and your lymph nodes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of enlarged spleen 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Height="60" Title="Enlarged spleen" URI="/images/image_popup/thumbs/r7_enlargedspleenthu.jpg" Width="60" />
+				<Image Alt="Image of enlarged spleen 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Height="366" Title="Enlarged spleen" URI="/images/image_popup/r7_enlargedspleen.jpg" Width="400" />
+				<HTML>
+					The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="60" Title="Bone marrow biopsy" URI="/images/image_popup/thumbs/r7_bonemarrowaspirationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="400" Title="Bone marrow biopsy" URI="/images/image_popup/r7_bonemarrowaspiration.jpg" Width="400" />
+				<HTML>
+					In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of hairy cell leukemia cells under a microscope 
+" Caption="Hairy cell leukemia cells, which appear as the darker cells in this photo, are surrounded by a halo of fine projections (villi). To diagnose hairy cell leukemia, your doctor may take a sample of bone marrow from your body and examine it under a microscope to look for hairy cells.
+" Height="60" Title="Hairy cell leukemia" URI="/images/image_popup/thumbs/c7_hairycellthu.jpg" Width="60" />
+				<Image Alt="Photo of hairy cell leukemia cells under a microscope 
+" Caption="Hairy cell leukemia cells, which appear as the darker cells in this photo, are surrounded by a halo of fine projections (villi). To diagnose hairy cell leukemia, your doctor may take a sample of bone marrow from your body and examine it under a microscope to look for hairy cells.
+" Height="270" Title="Hairy cell leukemia" URI="/images/image_popup/c7_hairycell.jpg" Width="400" />
+				<HTML>
+					Hairy cell leukemia cells, which appear as the darker cells in this photo, are surrounded by a halo of fine projections (villi). To diagnose hairy cell leukemia, your doctor may take a sample of bone ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment isn&apos;t always necessary for people with hairy cell leukemia. Because this cancer progresses very slowly and sometimes doesn&apos;t progress at all, some people prefer to wait to treat their cancer only if it causes signs and symptoms. The majority of people with hairy cell leukemia eventually need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Though you may be eager to rid your body of cancer if you&apos;ve been diagnosed with hairy cell leukemia, there&apos;s no advantage to early treatment. Unlike some other types of cancer, hairy cell leukemia is quite treatable at all stages, meaning that waiting to treat your cancer won&apos;t make remission any less likely. 
+&lt;/p&gt;
+&lt;p&gt;
+If your hairy cell leukemia causes signs and symptoms, you may decide to undergo treatment. There is no cure for hairy cell leukemia. But treatments are effective at putting hairy cell leukemia in remission for years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Doctors consider chemotherapy drugs the first line of treatment for hairy cell leukemia. The great majority of people will experience complete or partial remission through the use of chemotherapy. Two chemotherapy drugs are used in hairy cell leukemia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cladribine (Leustatin).&lt;/strong&gt; Treatment for hairy cell leukemia typically begins with cladribine. You receive a continuous infusion of the drug into a vein over several days. Most people who receive cladribine experience a complete remission that can last for several years. If your hairy cell leukemia returns, you can be treated with cladribine again. Side effects of cladribine may include infection and fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pentostatin (Nipent).&lt;/strong&gt; Pentostatin causes remission rates similar to cladribine, but it&apos;s given on a different schedule. People who take pentostatin receive infusions every other week for three to six months. Side effects of pentostatin may include fever, nausea and infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biological treatments&lt;/strong&gt; &lt;br /&gt;
+Biological therapy attempts to make cancer cells more recognizable to your immune system. Once your immune system identifies cancer cells as intruders, it can set about destroying your cancer. Two types of biological treatments are used in hairy cell leukemia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Interferon.&lt;/strong&gt; You might receive interferon if chemotherapy hasn&apos;t been effective or if you can&apos;t take chemotherapy. Most people experience partial remission with interferon, which is taken for a year. Side effects include flu-like symptoms, such as fever and fatigue. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rituximab (Rituxan).&lt;/strong&gt; Rituximab is a monoclonal antibody approved to treat non-Hodgkin lymphoma and chronic lymphocytic leukemia, though it&apos;s sometimes used in hairy cell leukemia. If chemotherapy drugs haven&apos;t worked for you or you can&apos;t take chemotherapy, your doctor might consider rituximab. Side effects of rituximab include fever and infection. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery to remove your spleen (splenectomy) might be an option if your spleen ruptures or if it&apos;s enlarged and causing pain. Though removing your spleen can&apos;t cure hairy cell leukemia, it can usually restore normal blood counts. Splenectomy isn&apos;t commonly used to treat hairy cell leukemia, but it may be helpful in certain situations. All surgery carries a risk of bleeding and infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with cancer find that complementary and alternative treatments can help them cope with side effects of cancer treatment. Complementary and alternative medicine can&apos;t cure your hairy cell leukemia, but it may offer helpful ways to cope during and after treatment. Talk to your doctor if you&apos;re interested in trying: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; A practitioner inserts tiny needles into your skin at precise points during an acupuncture session. Acupuncture may help relieve nausea and vomiting caused by chemotherapy. Acupuncture can be safe when done by a certified practitioner. Your doctor may be able to recommend a practitioner in your community. Acupuncture isn&apos;t safe if you have low blood counts or if you&apos;re taking blood thinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aromatherapy.&lt;/strong&gt; Aromatherapy uses fragrant oils that give off pleasant scents, such as lavender. Oils can be massaged into your skin, added to bath water or heated to release their scents. Aromatherapy may help improve your mood and relieve stress. Aromatherapy is safe, but oils applied to your skin can cause allergic reactions, so check the ingredients first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; A massage therapist uses his or her hands to knead your muscles and soft tissues. Massage may help relieve anxiety and fatigue. Many cancer centers have massage therapists who work with people who have cancer. People with cancer shouldn&apos;t have a massage if their blood counts are low. Ask the massage therapist to avoid using deep pressure. A massage shouldn&apos;t hurt, so speak up if you feel pain during a massage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mind-body therapies.&lt;/strong&gt; Mind-body therapies may help you relax, and they may help reduce pain. Mind-body therapies include meditation and relaxation techniques, such as guided imagery. Mind-body therapies are generally safe. A therapist can help you with these therapies or you can do them on your own.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors consider hairy cell leukemia a chronic form of cancer because it never completely goes away. Even if you achieve remission, you&apos;ll likely require follow-up visits with your doctor to monitor your cancer and your blood counts. Knowing that your cancer could come back at any time can be stressful. To help you cope, you might consider trying to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find enough to feel comfortable making decisions about your care.&lt;/strong&gt; Learn about your hairy cell leukemia and its treatment so that you can feel more confident about making decisions about your treatment. Having a better idea of what to expect from treatment and life after treatment can make you feel more in control of your cancer. Ask your doctor, nurse or other health care professional to recommend some reliable sources of information to get you started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; While friends and family provide an important support network during your cancer experience, they can&apos;t always understand what it&apos;s like to face cancer. Other cancer survivors provide a unique network of support. Ask your doctor or other member of your health care team about support groups or organizations in your community that can connect you with other cancer survivors. Organizations such as the American Cancer Society and the Leukemia &amp; Lymphoma Society offer online chat rooms and discussion boards.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; You can&apos;t control whether your hairy cell leukemia comes back, but you can control other aspects of your health. Take care of yourself by eating a balanced diet with plenty of fruits and vegetables and by exercising regularly. A healthy body can more easily fend off infections, and should you ever need to be treated for cancer again, you&apos;ll be better able to cope with the side effects of treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hairy cell leukemia
+	</Title>
+	<Abstract>
+		Hairy cell leukemia &amp;mdash; Comprehensive overview covers treatment, diagnosis, symptoms, complications of this rare blood cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01271" LinkType="Internal" ObjectID="D870A127-09C3-EB7A-05D2BDC60612CD97" Title="Splenectomy" Url="http://www.mayoclinic.com/health/splenectomy/MY01271" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00565" LinkType="Internal" ObjectID="CCA7A9A1-ABB6-4E7B-BE47CD881F53F105" Title="Chronic lymphocytic leukemia" Url="http://www.mayoclinic.com/health/chronic-lymphocytic-leukemia/DS00565" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+	</RelatedLinksBox>
+</Disease>

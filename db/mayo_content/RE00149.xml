@@ -1,0 +1,205 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00149
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00149
+		</OriginalURL>
+		<UpdateDate>
+			2009-03-24
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-24
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F5CAD3C0-F598-2C7D-9424B5F35F97C3A7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fix-it and enjoy-it healthy cookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 400 recipes collected in the &quot;Fix-It and Enjoy-It! Healthy Cookbook&quot; published by Good Books and available at the MayoClinic.com Bookstore.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Baked oatmeal
+	</Title>
+	<Abstract>
+		Bakes oatmeal &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; You can mix this in the evening and refrigerate it overnight. Just pop it in the oven first thing when you get up. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a good-sized bowl, stir together oil, applesauce, sugar and eggs. Add dry ingredients and milk. Mix well. Spray a 9-by-13 baking pan generously with cooking spray. Spoon oatmeal mixture into pan. Bake uncovered at 350 F for 30 minutes.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+1 tablespoon canola oil&lt;br /&gt;
+1/2 cup unsweetened applesauce&lt;br /&gt;
+1/3 cup brown sugar&lt;br /&gt;
+Egg substitute equivalent to 2 eggs, or 4 egg whites&lt;br /&gt;
+3 cups uncooked rolled oats&lt;br /&gt;
+2 teaspoons baking powder&lt;br /&gt;
+1 teaspoon cinnamon&lt;br /&gt;
+1 cup skim milk 
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				0.5
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				0.5
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets">
+				0.5
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				204
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				34 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0.5 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1.9 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				8 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0.7 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				105 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

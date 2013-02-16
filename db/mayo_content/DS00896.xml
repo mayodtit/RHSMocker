@@ -1,0 +1,384 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00896
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cavities/DS00896
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1614" Title="Teeth">
+						<Keyword MCVID="2239" Title="Cavities" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CD2AE532-E7FF-0DBD-123D71121E1B9589
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cavities
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth decay
+			</MetaKeyword>
+			<MetaKeyword>
+				dental
+			</MetaKeyword>
+			<MetaKeyword>
+				caries
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth pain
+			</MetaKeyword>
+			<MetaKeyword>
+				toothache
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth ache
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth loss
+			</MetaKeyword>
+			<MetaKeyword>
+				oral health
+			</MetaKeyword>
+			<MetaKeyword>
+				plaque
+			</MetaKeyword>
+			<MetaKeyword>
+				dental plaque
+			</MetaKeyword>
+			<MetaKeyword>
+				sore teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				cavity symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				toothache remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				brushing
+			</MetaKeyword>
+			<MetaKeyword>
+				flossing
+			</MetaKeyword>
+			<MetaKeyword>
+				fluoride
+			</MetaKeyword>
+			<MetaKeyword>
+				sealants
+			</MetaKeyword>
+			<MetaKeyword>
+				dental sealants
+			</MetaKeyword>
+			<MetaKeyword>
+				cavity picture
+			</MetaKeyword>
+			<MetaKeyword>
+				cavity filling
+			</MetaKeyword>
+			<MetaKeyword>
+				toothache relief
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cavities are permanently damaged areas in the hard surface of your teeth that develop into tiny openings or holes. Cavities, also called tooth decay or caries, are caused by a combination of factors, including bacteria in your mouth, not cleaning your teeth well, frequent snacking and sipping sugary drinks.
+&lt;/p&gt;
+&lt;p&gt;
+Cavities and tooth decay are among the world&apos;s most common health problems. They&apos;re especially common in children, teenagers and older adults. But anyone who has teeth can get cavities, including infants.
+&lt;/p&gt;
+&lt;p&gt;
+If cavities aren&apos;t treated, they get larger and affect deeper layers of your teeth. They can lead to severe toothache, infection and tooth loss. Regular dental visits and good brushing and flossing habits go a long way toward preventing cavities and tooth decay.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing types of cavities
+" Caption="Cavities are decayed areas of your teeth that develop into tiny openings or holes. The three types of cavities are shown here. Smooth surface cavities occur on the smooth sides of your teeth, while root cavities develop on the surface over the roots. Pit and fissure cavities occur on the chewing surface of your teeth. Not cleaning your teeth well, frequent snacking and sipping sugary drinks are the main culprits behind cavities. 
+" Height="60" Title="Types of cavities" URI="/images/image_popup/thumbs/de7_cavitiesthu.jpg" Width="60" />
+				<Image Alt="Image showing types of cavities
+" Caption="Cavities are decayed areas of your teeth that develop into tiny openings or holes. The three types of cavities are shown here. Smooth surface cavities occur on the smooth sides of your teeth, while root cavities develop on the surface over the roots. Pit and fissure cavities occur on the chewing surface of your teeth. Not cleaning your teeth well, frequent snacking and sipping sugary drinks are the main culprits behind cavities. 
+" Height="409" Title="Types of cavities" URI="/images/image_popup/de7_cavities.jpg" Width="400" />
+				<HTML>
+					Cavities are decayed areas of your teeth that develop into tiny openings or holes. The three types of cavities are shown here. Smooth surface cavities occur on the smooth sides of your teeth, while ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of cavities and tooth decay vary depending on their extent and location. When a cavity is just beginning, you may not have any symptoms at all. But your dentist may be able to see that decay is starting and recommend steps to keep it from getting worse.
+&lt;/p&gt;
+&lt;p&gt;
+As the decay gets larger, it may cause such signs and symptoms as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Toothache&lt;/li&gt;
+	&lt;li&gt;Tooth sensitivity&lt;/li&gt;
+	&lt;li&gt;Mild to sharp pain when eating or drinking something sweet, hot or cold&lt;/li&gt;
+	&lt;li&gt;Visible holes or pits in your teeth&lt;/li&gt;
+	&lt;li&gt;Pain when you bite down&lt;/li&gt;
+	&lt;li&gt;Pus around a tooth, especially when you press on your gums&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a dentist&lt;/strong&gt;&lt;br /&gt;
+You may not be aware that a cavity is forming, so visiting your dentist regularly is your best protection against cavities and tooth decay. If you experience toothache or mouth pain &amp;mdash; common telltale signs of cavities &amp;mdash; see your dentist as soon as possible.
+&lt;/p&gt;
+&lt;p&gt;
+If a cavity is treated before it starts causing pain, you probably won&apos;t need extensive treatment. That&apos;s why it&apos;s important to have regular dental checkups and cleanings even when your mouth feels fine. By the time you notice symptoms, the damage is getting worse.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cavities are caused by tooth decay &amp;mdash; a process that occurs over time. It begins as the action of bacteria damages the hard surface (enamel) of your teeth, a process that can occur without any noticeable discomfort. Decay can then progress to the deeper layers of your teeth in the following steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plaque forms.&lt;/strong&gt; Your mouth, like many other parts of your body, naturally contains many types of bacteria. Some of these bacteria thrive on food and drinks that contain certain forms of sugar, also known as fermentable carbohydrates. When these sugars aren&apos;t cleaned off your teeth, the bacteria quickly begin feeding on them and producing acids. The bacteria, acids, food particles and saliva then form into dental plaque &amp;mdash; a sticky film that coats your teeth. If you run your tongue along your teeth, you may be able to feel this plaque forming several hours after you&apos;ve brushed. The plaque is slightly rough and is more noticeable on your back teeth, especially close to your gums. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plaque attacks.&lt;/strong&gt; The acids in plaque remove minerals in your tooth&apos;s hard, outer enamel. This erosion causes tiny openings or holes in the enamel &amp;mdash; the first stage of cavities. Once areas of enamel are worn away, the bacteria and acid can reach the next layer of your teeth, called dentin. This layer is softer and less resistant to acid than is enamel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Destruction continues.&lt;/strong&gt; As tooth decay continues, the bacteria and acid continue their march through your teeth, moving next to the inner tooth material (pulp) that contains nerves and blood vessels. The pulp becomes swollen and irritated from the bacteria. The bone supporting your tooth also may be affected. When decay advances to this extent, you may have severe toothache, sensitivity, pain when biting or other symptoms. Your body also may respond to these bacterial invaders by sending white blood cells to fight the infection. This may result in a tooth abscess.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cavities are one of our most common worldwide health problems. Everyone who has teeth is at risk of getting them, but the following factors can increase risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tooth location.&lt;/strong&gt; Decay most frequently occurs in your back teeth (molars and premolars). These teeth have lots of grooves, pits and crannies that are great for grinding food &amp;mdash; but they can also collect food particles. As a result, they&apos;re harder to keep clean than your smoother and more accessible front teeth. Between your hard-to-reach back teeth, plaque can build and bacteria can thrive, producing the acid that destroys tooth enamel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain foods and drinks.&lt;/strong&gt; Some foods and drinks are more likely than others to cause decay. Foods that cling to your teeth for a long time, such as milk, ice cream, honey, table sugar, soda, raisins and other dried fruit, cake, cookies, hard candy, breath mints, dry cereal and chips, are more likely to cause decay than are foods that are easily washed away by saliva.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent snacking or sipping.&lt;/strong&gt; When you steadily snack or sip sodas, you give mouth bacteria more fuel to produce acids that attack your teeth and wear them down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bedtime infant feeding.&lt;/strong&gt; Parents and caregivers are encouraged not to give babies bedtime bottles filled with milk, formula, juice or other sugar-containing liquids. These beverages will remain on teeth for hours while your baby sleeps, providing food for decay-causing bacteria. This damage is often called baby bottle tooth decay. Letting a toddler who&apos;s transitioning from a bottle wander around drinking from a &quot;sippy&quot; cup can cause similar damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inadequate brushing.&lt;/strong&gt; If you don&apos;t clean your teeth soon after eating and drinking, plaque forms quickly and the first stages of decay can begin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Not getting enough fluoride.&lt;/strong&gt; Fluoride is a naturally occurring mineral that helps avoid cavities &amp;mdash; and can even reverse the earliest stages of tooth damage &amp;mdash; by helping teeth repair themselves. Because of its benefits for teeth, fluoride is now added to many public water supplies. It&apos;s also a common ingredient in toothpaste and mouth rinses. If you drink bottled or filtered water that doesn&apos;t contain fluoride, you may miss out on its protective benefits. On the other hand, some bottled water may contain added fluoride. If your drinking water and tooth care products also contain fluoride, it&apos;s possible that babies and children could get too much. Talk to your dentist &amp;mdash; and your child&apos;s dentist &amp;mdash; about the total amount of fluoride you may be getting from your local water supply and other sources.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Younger or older age.&lt;/strong&gt; In the United States, cavities are the most common chronic disease among children and teenagers. Older adults are also at higher risk as more of us keep our teeth as we age. Over time, teeth can wear down and gums may recede, making teeth more vulnerable to root decay. Tooth roots are naturally covered with a coating called cementum, but cementum is quickly lost when the root surface is exposed. The underlying dentin is softer than enamel and more susceptible to decay. Older adults also may use more medications that can reduce saliva flow, increasing the risk of tooth decay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry mouth.&lt;/strong&gt; Dry mouth is caused by a lack of saliva, which helps prevent tooth decay by washing away food and plaque from your teeth. Substances found in saliva also help counter the acid produced by decay-producing bacteria and can even help repair early tooth decay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Worn fillings or dental devices.&lt;/strong&gt; Over the years, dental fillings can weaken, begin to break down or develop rough edges. These developments can allow plaque to build up more easily and make it harder to remove. Fillings and dental devices can also leak or stop fitting well, allowing decay to begin underneath them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating disorders.&lt;/strong&gt; Anorexia and bulimia can lead to significant tooth erosion and cavities. Stomach acid from repeated purging (vomiting) washes over the teeth and begins dissolving the enamel. In addition, people with eating disorders may sip soda or other acidic drinks throughout the day, which also helps create a continual acid bath over the teeth. Eating disorders can also interfere with saliva production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heartburn.&lt;/strong&gt; Gastroesophageal reflux disease (GERD), acid reflux and heartburn can cause stomach acid to flow into your mouth, wearing away the enamel of your teeth. If your dentist notices enamel loss and doesn&apos;t think this loss is caused by grinding your teeth, consult your physician to see if gastric reflux is the cause. Untreated reflux can cause significant tooth damage that is costly to correct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain cancer treatments.&lt;/strong&gt; Having radiation to your head or neck can increase your risk of cavities by reducing saliva production, which prevents cavity-producing bacteria from being washed away. Certain chemotherapy drugs also tend to cause dry mouth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cavities and tooth decay are so common that you may not take them seriously. And you may think that it doesn&apos;t matter if children get cavities in their baby teeth. However, cavities and tooth decay can have serious and lasting complications, even for children who haven&apos;t yet gotten their permanent teeth.
+&lt;/p&gt;
+&lt;p&gt;
+Complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Tooth abscess&lt;/li&gt;
+	&lt;li&gt;Tooth loss&lt;/li&gt;
+	&lt;li&gt;Broken teeth&lt;/li&gt;
+	&lt;li&gt;Chewing problems&lt;/li&gt;
+	&lt;li&gt;Serious infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, when cavities and decay become severe and very painful, they can interfere with daily living. The pain may prevent you from going to school or work, for instance. If it&apos;s too painful or difficult to chew or eat, you may lose weight or develop nutrition problems. Cavities that affect your appearance or result in tooth loss may affect your confidence and self-esteem. In rare cases, an abscess from a cavity can cause serious or even life-threatening infections when not properly treated.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most dentists recommend regular checkups to identify cavities and other dental conditions before they cause troubling symptoms and lead to more-serious problems. The sooner you seek care, the better your chances of reversing the earliest stages of tooth decay and preventing its progression.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re experiencing pain or sensitivity in your teeth, make an appointment with your dentist as soon as possible. Here&apos;s some information to help you get ready for your appointment, and what to expect from your dentist.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking. Be sure to let your dentist know if you have any allergies to medications or if you&apos;ve ever had a bad reaction to local anesthetics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your dentist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your dentist include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a simple cavity, or do I need a crown or a root canal?&lt;/li&gt;
+	&lt;li&gt;How many visits will it take to treat this tooth?&lt;/li&gt;
+	&lt;li&gt;Will the pain go away after today?&lt;/li&gt;
+	&lt;li&gt;What can I take for the pain?&lt;/li&gt;
+	&lt;li&gt;How long should I wait before I eat or drink after this procedure?&lt;/li&gt;
+	&lt;li&gt;Are there additional steps I can take to prevent future cavities or to keep early tooth decay from getting worse?&lt;/li&gt;
+	&lt;li&gt;Does my local water supply contain added fluoride?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your dentist&lt;/strong&gt;&lt;br /&gt;
+Your dentist may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do extremes in food temperature or sweet foods cause you pain?&lt;/li&gt;
+	&lt;li&gt;Does biting down make your pain worse?&lt;/li&gt;
+	&lt;li&gt;How often do you brush your teeth? Do you use a toothpaste with fluoride?&lt;/li&gt;
+	&lt;li&gt;Do you floss regularly?&lt;/li&gt;
+	&lt;li&gt;Do you eat a lot of sweets or drink sugary beverages or sodas?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any dryness in your mouth?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If cavities and tooth decay are causing pain, sensitivity or discomfort, the first thing to do is make an appointment with your dentist. While you&apos;re waiting for your appointment, you can take some steps to control your pain. For example:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take over-the-counter pain relievers, if your doctor has said it&apos;s OK for you&lt;/li&gt;
+	&lt;li&gt;Use an over-the-counter anesthetic specifically designed to soothe painful teeth&lt;/li&gt;
+	&lt;li&gt;Thoroughly clean all parts of your mouth and teeth &amp;mdash; don&apos;t avoid painful areas&lt;/li&gt;
+	&lt;li&gt;Use warm water to brush your teeth&lt;/li&gt;
+	&lt;li&gt;Use a toothpaste designed for sensitive teeth&lt;/li&gt;
+	&lt;li&gt;Avoid foods or beverages that are hot, cold or sweet enough to trigger pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your dentist can usually detect tooth decay easily. He or she will ask about tooth pain and sensitivity. Your dentist will examine your mouth and teeth and may probe with dental instruments to check for soft areas. You may also have dental X-rays, which can show the extent of cavities and decay. Your dentist will also be able to tell you specifically which of the three types of cavities you have &amp;mdash; smooth surface, pit and fissure, or root.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing types of cavities
+" Caption="Cavities are decayed areas of your teeth that develop into tiny openings or holes. The three types of cavities are shown here. Smooth surface cavities occur on the smooth sides of your teeth, while root cavities develop on the surface over the roots. Pit and fissure cavities occur on the chewing surface of your teeth. Not cleaning your teeth well, frequent snacking and sipping sugary drinks are the main culprits behind cavities. 
+" Height="60" Title="Types of cavities" URI="/images/image_popup/thumbs/de7_cavitiesthu.jpg" Width="60" />
+				<Image Alt="Image showing types of cavities
+" Caption="Cavities are decayed areas of your teeth that develop into tiny openings or holes. The three types of cavities are shown here. Smooth surface cavities occur on the smooth sides of your teeth, while root cavities develop on the surface over the roots. Pit and fissure cavities occur on the chewing surface of your teeth. Not cleaning your teeth well, frequent snacking and sipping sugary drinks are the main culprits behind cavities. 
+" Height="409" Title="Types of cavities" URI="/images/image_popup/de7_cavities.jpg" Width="400" />
+				<HTML>
+					Cavities are decayed areas of your teeth that develop into tiny openings or holes. The three types of cavities are shown here. Smooth surface cavities occur on the smooth sides of your teeth, while ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of cavities depends on how severe they are and your particular situation. Treatment options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fluoride treatments.&lt;/strong&gt; Fluoride is a mineral that helps teeth repair themselves at the earliest stage of damage. If your cavity is just getting started, a fluoride treatment may be able to help restore your tooth&apos;s enamel. Professional fluoride treatments contain more fluoride than the amount found in over-the-counter toothpaste and mouth rinses. Fluoride treatments may be in a liquid solution, gel, foam or varnish that&apos;s brushed onto your teeth or placed in a small tray that fits over your teeth. Each treatment takes a few minutes. Your dentist may suggest having periodic fluoride treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fillings.&lt;/strong&gt; A filling is material that replaces decayed areas of your teeth once damage becomes permanent. Fillings, sometimes called restorations, are the main treatment option when decay has progressed beyond the earliest enamel-erosion stage. Your dentist drills away the decayed part of your tooth, then fills the gap to restore your tooth&apos;s shape. Fillings are made of various materials, such as tooth-colored composite resins, porcelain, or combinations of several materials. Silver amalgam fillings contain a variety of materials, including small amounts of mercury. Some people don&apos;t like using amalgam fillings because they fear possible adverse health effects from the mercury. While medical studies have shown these fillings to be safe and long-lasting, they remain controversial.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crowns.&lt;/strong&gt; If you have extensive decay or weakened teeth, you may need a crown rather than a filling to treat your cavity and restore your tooth. A crown is a custom-fitted covering that replaces your tooth&apos;s entire natural crown. Your dentist will drill away all the decayed area and enough of the rest of your tooth to ensure a good fit for the crown. Crowns may be made of gold, porcelain or porcelain fused to metal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Root canals.&lt;/strong&gt; When decay reaches the inner material of your tooth (pulp), you may need a root canal. In this procedure, the tooth pulp is removed and replaced with a filling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tooth extractions.&lt;/strong&gt; Some teeth become so severely decayed that they can&apos;t be restored &amp;mdash; they must be removed. Having a tooth extracted can leave a gap that allows your other teeth to shift. If possible, consider getting a bridge or a dental implant to replace the missing tooth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although dental restoration technology has made great strides, any type of filling or device is more likely to need additional work in the future than is an intact tooth. Good oral and dental hygiene can help keep your teeth intact by avoiding cavities and tooth decay. Follow these tips to help prevent cavities:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brush after eating or drinking.&lt;/strong&gt; Brush your teeth at least twice a day and ideally after every meal, using fluoride-containing toothpaste. To clean between your teeth, floss or use an interdental cleaner. If you can&apos;t brush after eating, at least try to rinse your mouth with water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse your mouth.&lt;/strong&gt; If your dentist feels you have a high risk of developing cavities, he or she may recommend that you use a mouth rinse with fluoride.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visit your dentist regularly.&lt;/strong&gt; Get professional tooth cleanings and regular oral exams, which can help prevent problems or spot them early. Your dentist can recommend a schedule that&apos;s best for your situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider dental sealants.&lt;/strong&gt; A sealant is a protective plastic coating that&apos;s applied to the chewing surface of back teeth &amp;mdash; sealing off the grooves and crannies that tend to collect food in the teeth most likely to get cavities. The sealant protects tooth enamel from plaque and acid. Sealants can help both children and adults. The Centers for Disease Control and Prevention strongly recommends sealants for all school-age children. Sealants last up to 10 years before they need to be replaced, though they need to be checked regularly to ensure they&apos;re still intact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink some tap water.&lt;/strong&gt; Adding fluoride to public water supplies has helped decrease tooth decay significantly. If you drink only bottled water that doesn&amp;rsquo;t contain fluoride, you&apos;ll miss out on its benefits. Be sure to drink some tap water, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid frequent snacking and sipping.&lt;/strong&gt; Whenever you eat or drink something other than water, you help your mouth bacteria create acids that can destroy your tooth enamel. If you snack or drink throughout the day, your teeth are under constant attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat tooth-healthy foods.&lt;/strong&gt; Some foods and beverages are better for your teeth than others. Avoid foods that get stuck in grooves and pits of your teeth for long periods, such as chips, candy or cookies. Instead, eat food that protects your teeth, such as cheese, which some research shows may help prevent cavities, as well as fresh fruits and vegetables, which increase saliva flow, and unsweetened coffee, tea and sugar-free gum, which help wash away food particles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider fluoride treatments.&lt;/strong&gt; Your dentist may recommend a fluoride treatment, especially if you aren&apos;t getting enough fluoride through fluoridated drinking water and other sources. In a fluoride treatment, your dentist applies concentrated fluoride to your teeth for several minutes. You can also use fluoridated toothpaste or mouthwash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about antibacterial treatments.&lt;/strong&gt; If you&apos;re especially vulnerable to tooth decay &amp;mdash; for example, because of a medical condition &amp;mdash; your dentist may recommend special antibacterial mouth rinses or other treatments to help cut down on harmful bacteria in your mouth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Check with your dentist to see which methods are best for you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cavities/tooth decay
+	</Title>
+	<Abstract>
+		Cavities &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of toothache pain and tooth decay.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00084" LinkType="Internal" ObjectID="A7CC3554-E7FF-0DBD-134D94C04D992BD1" Title="Dental implant surgery" Url="http://www.mayoclinic.com/health/dental-implant-surgery/MY00084" />
+		<LinkItem ContentType="Answer" DocID="AN02028" LinkType="Internal" ObjectID="85BE556D-98E2-9A88-EC5FE30D93191375" Title="Denture care: How do I clean dentures?" Url="http://www.mayoclinic.com/health/denture-care/AN02028" />
+		<LinkItem ContentType="Answer" DocID="AN01705" LinkType="Internal" ObjectID="842D6CED-E7FF-0DBD-1719F03272E7454C" Title="Electric toothbrush: Better than a manual toothbrush?" Url="http://www.mayoclinic.com/health/electric-toothbrush/AN01705" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01097" LinkType="Internal" ObjectID="704D13FE-0829-BF22-0E4891FBD68ED7B1" Title="Dental exam" Url="http://www.mayoclinic.com/health/dental-exam/MY01097" />
+		<LinkItem ContentType="Answer" DocID="AN01782" LinkType="Internal" ObjectID="59D547E7-E7FF-0DBD-154F0B6D3D602583" Title="Dental floss vs. water pick: Which is better?" Url="http://www.mayoclinic.com/health/dental-floss/AN01782" />
+		<LinkItem ContentType="FirstAid" DocID="FA00013" LinkType="Internal" ObjectID="4D361950-7364-4E13-9743FF129A64E44C" Title="Toothache: First aid" Url="http://www.mayoclinic.com/health/first-aid-toothache/FA00013" />
+		<LinkItem ContentType="Answer" DocID="AN02098" LinkType="Internal" ObjectID="131966DC-BA5C-3DD5-69F8D82D1AB660A8" Title="When to brush your teeth" Url="http://www.mayoclinic.com/health/brushing-your-teeth/AN02098" />
+		<LinkItem ContentType="Answer" DocID="AN02164" LinkType="Internal" ObjectID="04267C9E-FB3F-1681-DFC000796A08EAE0" Title="Sensitive teeth: What treatments are available?" Url="http://www.mayoclinic.com/health/sensitive-teeth/AN02164" />
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+		<LinkItem ContentType="Answer" DocID="AN01508" LinkType="Internal" ObjectID="CEC9B85D-E7FF-0DBD-149D98D6ED7A8DE1" Title="Dental fillings: Should metal fillings be replaced with composite?" Url="http://www.mayoclinic.com/health/dental-fillings/AN01508" />
+		<LinkItem ContentType="Answer" DocID="AN02002" LinkType="Internal" ObjectID="360DBB28-EB73-6C19-32C01938DDB2F6DF" Title="OraVerse: Reversing dental numbness" Url="http://www.mayoclinic.com/health/oraverse/AN02002" />
+		<LinkItem ContentType="Disease" DocID="DS01189" LinkType="Internal" ObjectID="507651FE-F8EB-F058-3F436BCF01072504" Title="Tooth abscess" Url="http://www.mayoclinic.com/health/tooth-abscess/DS01189" />
+	</RelatedLinksBox>
+</Disease>

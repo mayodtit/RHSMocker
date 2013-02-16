@@ -1,0 +1,463 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00929
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tachycardia/DS00929
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-25
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4268" Title="Tachycardia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			37186D72-E7FF-0DBD-1D9B3443C6D48BD1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tachycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid heartbeat
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid heart beat
+			</MetaKeyword>
+			<MetaKeyword>
+				irregular heart beat
+			</MetaKeyword>
+			<MetaKeyword>
+				fast pulse
+			</MetaKeyword>
+			<MetaKeyword>
+				fast heart rate
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid heart rate
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tachycardia is a faster than normal heart rate. A healthy adult heart normally beats 60 to 100 times a minute when a person is at rest. If you have tachycardia (tak-ih-KAHR-de-uh), the rate in the upper chambers or lower chambers of the heart, or both, are increased significantly. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart rate is controlled by electrical signals sent across heart tissues. Tachycardia occurs when an abnormality in the heart produces rapid electrical signals. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, tachycardias may cause no symptoms or complications. However, tachycardias can seriously disrupt normal heart function, increase the risk of stroke, or cause sudden cardiac arrest or death. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments may help control a rapid heartbeat or manage diseases contributing to tachycardia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your heart&apos;s rate is too rapid, it may not effectively pump blood to the rest of your body, depriving your organs and tissues of oxygen. This can cause these tachycardia symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Rapid pulse rate&lt;/li&gt;
+	&lt;li&gt;Heart palpitations &amp;mdash; a racing, uncomfortable or irregular heartbeat or a sensation of &quot;flopping&quot; in the chest&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people with tachycardia have no symptoms, and the condition is only discovered during a physical examination or with a heart-monitoring test called an electrocardiogram. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+A number of conditions can cause a rapid heart rate and tachycardia symptoms. It&apos;s important to get a prompt, accurate diagnosis and appropriate care. See your doctor if you or your child experiences any tachycardia symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If you faint, have difficulty breathing or have chest pain lasting more than a few minutes, get emergency care, or call 911 or your local emergency number. Seek emergency care for anyone experiencing these symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tachycardia is caused by something that disrupts the normal electrical impulses that control the rhythm of your heart&apos;s pumping action. Many things can cause or contribute to problems with the heart&apos;s electrical system. These factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Damage to heart tissues from heart disease&lt;/li&gt;
+	&lt;li&gt;Abnormal electrical pathways in the heart present at birth (congenital)&lt;/li&gt;
+	&lt;li&gt;Disease or congenital abnormality of the heart&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Drinking too much alcohol&lt;/li&gt;
+	&lt;li&gt;Drinking too many caffeinated beverages&lt;/li&gt;
+	&lt;li&gt;A side effect of medications&lt;/li&gt;
+	&lt;li&gt;Abuse of recreational drugs, such as cocaine&lt;/li&gt;
+	&lt;li&gt;Imbalance of electrolytes, mineral-related substances necessary for conducting electrical impulses&lt;/li&gt;
+	&lt;li&gt;Overactive thyroid (hyperthyroidism)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, the exact cause of tachycardia can&apos;t be determined. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrical circuitry of the heart&lt;/strong&gt;&lt;br /&gt;
+Your heart is made up of four chambers &amp;mdash; two upper chambers (atria) and two lower chambers (ventricles). The rhythm of your heart is normally controlled by a natural pacemaker &amp;mdash; the sinus node &amp;mdash; located in the right atrium. The sinus node produces electrical impulses that normally start each heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+From the sinus node, electrical impulses travel across the atria, causing the atria muscles to contract and pump blood into the ventricles. The electrical impulses then arrive at a cluster of cells called the atrioventricular node (AV node) &amp;mdash; usually the only pathway for signals to travel from the atria to the ventricles. 
+&lt;/p&gt;
+&lt;p&gt;
+The AV node slows down the electrical signal before sending it to the ventricles. This slight delay allows the ventricles to fill with blood. When electrical impulses reach the muscles of the ventricles, they contract, causing them to pump blood either to the lungs or to the rest of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of tachycardias&lt;/strong&gt;&lt;br /&gt;
+Tachycardia occurs when a problem in electrical signals produces a heartbeat that is faster than normal. Common types of tachycardia include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Atrial fibrillation&lt;/strong&gt; is a rapid heart rate caused by chaotic electrical impulses in the atria. These signals result in rapid, uncoordinated, weak contractions of the atria. The chaotic electrical signals bombard the AV node, usually resulting in an irregular, rapid rhythm of the ventricles. Atrial fibrillation may be temporary, but some episodes won&apos;t end unless treated. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Most people with atrial fibrillation have some structural abnormalities of the heart related to such conditions as heart disease or high blood pressure. Other factors that may contribute to atrial fibrillation include a heart valve disorder, hyperthyroidism or heavy alcohol use. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Atrial flutter&lt;/strong&gt; is a very fast, but regular rate of the atria caused by irregular circuitry within the atria. The fast rate results in weak contractions of the atria. The rapid signals entering the AV node cause a rapid and sometimes irregular ventricular rate. Episodes of atrial flutter may get better on their own, or the condition may persist unless treated. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	People who experience atrial flutter often experience atrial fibrillation at other times. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Supraventricular tachycardias (SVTs),&lt;/strong&gt; which originate somewhere above the ventricles, are caused by abnormal circuitry in the heart, usually present at birth, that creates a loop of overlapping signals. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In one form of SVT, an abnormality in the AV node may &quot;split&quot; an electrical signal into two, sending one signal to the ventricles and another back to the atria. Another common abnormality is the presence of an extra electrical pathway from the atria to the ventricles that bypasses the AV node. This may result in a signal going down one pathway and up the other. Wolff-Parkinson-White syndrome is one disorder featuring an extra pathway. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular tachycardia&lt;/strong&gt; is a rapid rate that originates with abnormal electrical signals in the ventricles. The rapid beat doesn&apos;t allow the ventricles to fill and contract efficiently to pump enough blood to the body. Ventricular tachycardia is often a life-threatening medical emergency.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ventricular fibrillation&lt;/strong&gt; occurs when rapid, chaotic electrical impulses cause the ventricles to quiver ineffectively instead of pumping necessary blood to the body. This serious problem is fatal if the heart isn&apos;t restored to a normal rhythm within minutes. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Most people who experience ventricular fibrillation have an underlying heart disease or have experienced serious trauma, such as being struck by lightning. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="60" Title="Normal heartbeat" URI="/images/image_popup/thumbs/hb7_heartelectricalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="330" Title="Normal heartbeat" URI="/images/image_popup/hb7_heartelectrical.jpg" Width="400" />
+				<HTML>
+					A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Any condition that puts a strain on the heart or damages heart tissue can increase your risk of tachycardia. Lifestyle changes or medical treatment may decrease the risk associated with the following factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Heavy alcohol use&lt;/li&gt;
+	&lt;li&gt;Heavy caffeine use&lt;/li&gt;
+	&lt;li&gt;Use of recreational drugs&lt;/li&gt;
+	&lt;li&gt;Psychological stress or anxiety&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other risk factors&lt;/strong&gt;&lt;br /&gt;
+Other factors that may increase the risk of tachycardia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Aging-related wear on the heart makes you more likely to develop tachycardia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family.&lt;/strong&gt; If you have a family history of tachycardia or other heart rhythm disorders, you may have an increased risk of tachycardia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of tachycardias vary in severity depending on such factors as the type of tachycardia, the rate and duration of a rapid heart rate, and the existence of other heart conditions. Possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots that can cause a stroke or heart attack&lt;/li&gt;
+	&lt;li&gt;Inability of the heart to pump enough blood (heart failure)&lt;/li&gt;
+	&lt;li&gt;Frequent fainting spells&lt;/li&gt;
+	&lt;li&gt;Sudden death, usually only associated with ventricular tachycardia or ventricular fibrillation&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether you first see your family doctor or get emergency care, you&apos;ll likely be referred to a heart specialist (cardiologist) for one or more appointments for a complete diagnostic assessment. 
+&lt;/p&gt;
+&lt;p&gt;
+If possible, bring along a family member or friend who can give some moral support and help you keep track of new information. Because there may be a lot of ground to cover, it will be helpful to prepare as much as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Make a list ahead of time that you can share with your doctor. Your list should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms you&apos;ve experienced,&lt;/strong&gt; including any that may seem unrelated to your heart&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key personal information,&lt;/strong&gt; including any major stresses or recent life changes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; including vitamins or supplements&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask&lt;/strong&gt; your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important in case time runs out. Basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my fast heart rate?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What kind of risks does my heart condition create?&lt;/li&gt;
+	&lt;li&gt;How will we monitor my heart?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up appointments?&lt;/li&gt;
+	&lt;li&gt;How will other conditions I have or medications I take affect my heart problem?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activities?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often have you had episodes of a fast heartbeat?&lt;/li&gt;
+	&lt;li&gt;How long have the episodes lasted?&lt;/li&gt;
+	&lt;li&gt;Does anything &amp;mdash; exercise, stress, caffeine &amp;mdash; seem to trigger or worsen episodes?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;How much alcohol or caffeine do you use?&lt;/li&gt;
+	&lt;li&gt;Do you use recreational drugs?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for high blood pressure, high cholesterol or other conditions that may affect your circulatory system?&lt;/li&gt;
+	&lt;li&gt;What medications do you take for these conditions, and do you take them as prescribed?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can make a diagnosis of a specific tachycardia based on your answers to questions about symptoms, a physical exam and heart tests. Common tests include the following. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram (ECG)&lt;/strong&gt;&lt;br /&gt;
+An electrocardiogram &amp;mdash; also called an ECG or EKG &amp;mdash; is a primary tool for diagnosing tachycardia. An ECG uses small sensors (electrodes) attached to your chest and arms to record electrical signals as they travel through your heart. Your doctor can look for patterns among these signals to determine what kind of tachycardia you have and how abnormalities in the heart may be contributing to a fast heart rate. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also ask you to use portable ECG devices at home to provide more information about your heart rate. These devices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; This portable ECG device is carried in your pocket or worn on a belt or shoulder strap. It records your heart&apos;s activity for an entire 24-hour period, which provides your doctor with a prolonged look at your heart rhythms. Your doctor will likely ask you to keep a diary during the same 24 hours. You&apos;ll describe any symptoms you experience and record the time they occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; This portable ECG device is intended to monitor your heart activity over a few weeks to a few months. You activate it only when you experience symptoms of a fast heart rate. When you feel symptoms, you push a button, and an ECG strip of the preceding few minutes and following few minutes is recorded. This permits your doctor to determine your heart rhythm at the time of your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrophysiological test&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend an electrophysiological test to confirm the diagnosis or to pinpoint the location of problems in your heart&apos;s circuitry. During this test, thin, flexible tubes (catheters) tipped with electrodes are threaded through your blood vessels to various spots in your heart. Once in place, the electrodes can precisely map the spread of electrical impulses during each beat and identify abnormalities in your circuitry. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tilt table test&lt;/strong&gt;&lt;br /&gt;
+This test helps your doctor better understand how your tachycardia contributes to fainting spells. Under careful monitoring, you&apos;ll receive a medication that causes a tachycardia episode. You lie flat on a special table, and then the table is tilted as if you were standing up. Your doctor observes how your heart and nervous system respond to these changes in position. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt;&lt;br /&gt;
+Your cardiologist may order additional tests to diagnose an underlying condition that is contributing to tachycardia and judge the condition of your heart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment goals for tachycardias are to slow a fast heart rate when it occurs, prevent future episodes and minimize complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stopping a fast heart rate&lt;/strong&gt;&lt;br /&gt;
+A fast heartbeat may correct itself, and you may be able to slow your heart rate using simple physical movements. However, you may need medication or other medical treatment to slow down your heartbeat. Ways to slow your heartbeat include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vagal maneuvers.&lt;/strong&gt; Your doctor may ask you to perform an action, called a vagal maneuver, during an episode of a fast heartbeat. Vagal maneuvers affect the vagus nerve, which helps regulate your heartbeat. The maneuvers include coughing, bearing down as if you&apos;re having a bowel movement, and putting an icepack on your face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; If vagal maneuvers don&apos;t stop the fast heartbeat, you may need an injection of an anti-arrhythmic medication to restore a normal heart rate. An injection of this drug is administered at a hospital. Your doctor may also prescribe a pill version of an anti-arrhythmic drug, such as flecainide (Tambocor) or propafenone (Rythmol), to take if you have an episode of a fast heartbeat that doesn&apos;t respond to vagal maneuvers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardioversion.&lt;/strong&gt; In this procedure, a shock is delivered to your heart through paddles or patches on your chest. The current affects the electrical impulses in your heart and restores a normal rhythm. It&apos;s typically used when emergency care is needed or when maneuvers and medications aren&apos;t effective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing episodes of a fast heart rate&lt;/strong&gt;&lt;br /&gt;
+With the following treatments, it may be possible to prevent or manage episodes of tachycardia. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Catheter ablation.&lt;/strong&gt; This procedure is used most often when an extra electrical pathway is responsible for an increased heart rate. In this procedure, catheters are threaded through the blood vessels to your heart. Electrodes at the catheter tips can use heat, extreme cold, or radiofrequency energy to damage (ablate) the extra electrical pathway and prevent it from sending electrical signals. This procedure is highly effective, especially for supraventricular tachycardia. Catheter ablation can also be used to treat atrial fibrillation and atrial flutter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Anti-arrhythmic medications may prevent a fast heart rate when taken regularly. Other medications that may be prescribed &amp;mdash; either as an alternative or in combination with anti-arrhythmic medications &amp;mdash; are calcium channel blockers, such as diltiazem (Cardizem) and verapamil (Calan) or beta blockers, such as metoprolol (Lopressor, Toprol) and esmolol (Brevibloc).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pacemaker.&lt;/strong&gt; A pacemaker is a small device that&apos;s surgically implanted under your skin. When the device senses an abnormal heartbeat, it emits an electrical pulse that helps the heart resume a normal beat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Implantable cardioverter-defibrillator.&lt;/strong&gt; If you&apos;re at risk of having a life-threatening tachycardia episode, your doctor may recommend an implantable cardioverter-defibrillator (ICD). The device, about the size of a cell phone, is surgically implanted in your chest. The ICD continuously monitors your heartbeat, detects an increase in heart rate and delivers precisely calibrated electrical shocks to restore a normal heart rhythm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Open-heart surgery may be needed in some cases to destroy an extra electrical pathway. In another type of surgery, called the maze procedure, a surgeon makes small incisions in heart tissue to create a pattern or maze of scar tissue. Because scar tissue doesn&apos;t conduct electricity, it interferes with stray electrical impulses that cause some types of tachycardia. Surgery is usually used only when other treatment options don&apos;t work or when surgery is needed to treat another heart disorder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing blood clots&lt;/strong&gt;&lt;br /&gt;
+Some people with tachycardias have an increased risk of developing a blood clot that could cause a stroke or heart attack. Your doctor may prescribe a drug-thinning medication, such as dabigatran (Pradaxa) and warfarin (Coumadin) to help lower your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating an underlying disease&lt;/strong&gt;&lt;br /&gt;
+If another medical condition is contributing to tachycardia &amp;mdash; for example, some form of heart disease or hyperthyroidism &amp;mdash; treating the underlying problem may prevent or minimize tachycardia episodes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a plan in place to deal with an episode of a fast heartbeat, you may feel calmer and more in control when one occurs. Talk to your doctor about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When and how to use vagal maneuvers&lt;/li&gt;
+	&lt;li&gt;When to call your doctor&lt;/li&gt;
+	&lt;li&gt;When to seek emergency care&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most effective way to prevent tachycardias is to reduce your risk of developing heart disease. If you already have heart disease, monitor it and follow your treatment plan to lower your tachycardia risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevent heart disease&lt;/strong&gt;&lt;br /&gt;
+Treat or eliminate risk factors that may lead to heart disease. Take the following steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise and eat a healthy diet.&lt;/strong&gt; Live a heart-healthy lifestyle by exercising regularly and eating a healthy, low-fat diet that&apos;s rich in fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight increases your risk of developing heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep blood pressure and cholesterol levels under control.&lt;/strong&gt; Make lifestyle changes and take medications as prescribed to correct high blood pressure (hypertension) or high cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you smoke and can&apos;t quit on your own, talk to your doctor about strategies or programs to help you break a smoking habit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink in moderation.&lt;/strong&gt; If you drink alcohol, drink in moderation. For some conditions it&apos;s recommended that you completely avoid alcohol. Ask your doctor for advice specific to your condition. If you can&apos;t control your alcohol consumption, talk to your doctor about a program to quit drinking and manage other behaviors related to alcohol abuse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use recreational drugs.&lt;/strong&gt; Don&apos;t use stimulants, such as cocaine. Talk to your doctor about an appropriate program for you if you need help ending recreational drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use over-the-counter medications with caution.&lt;/strong&gt; Some cold and cough medications contain stimulants that may trigger a rapid heartbeat. Ask your doctor which medications you need to avoid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit caffeine.&lt;/strong&gt; If you drink caffeinated beverages, do so in moderation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control stress.&lt;/strong&gt; Avoid unnecessary stress and learn coping techniques to handle normal stress in a healthy way.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go to scheduled checkups.&lt;/strong&gt; Have regular physical exams and report any signs or symptoms to your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitor and treat existing heart disease&lt;/strong&gt;&lt;br /&gt;
+If you already have heart disease, there are steps you can take to lower your risk of developing a tachycardia or other arrhythmia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow the plan.&lt;/strong&gt; Be sure you understand your treatment plan, and take all medications as prescribed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Report changes immediately.&lt;/strong&gt; If your symptoms change, get worse or you develop new symptoms, tell your doctor immediately.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tachycardia
+	</Title>
+	<Abstract>
+		Tachycardia &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of a rapid heartbeat.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00336" LinkType="Internal" ObjectID="F7E31C25-E7FF-0DBD-1BF7D5EEFB17EB69" Title="Implantable cardioverter-defibrillators (ICDs)" Url="http://www.mayoclinic.com/health/implantable-cardioverter-defibrillator/MY00336" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00577" LinkType="Internal" ObjectID="A4969FF4-0BA0-85FA-2A7436104DFFF946" Title="Holter monitor" Url="http://www.mayoclinic.com/health/holter-monitor/MY00577" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00706" LinkType="Internal" ObjectID="3A7B8711-9791-52F2-E2B504985C2BCD1D" Title="Cardiac ablation" Url="http://www.mayoclinic.com/health/cardiac-ablation/MY00706" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00705" LinkType="Internal" ObjectID="3A4EC13D-AF61-2E66-739550564BA315F4" Title="Cardioversion" Url="http://www.mayoclinic.com/health/cardioversion/MY00705" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Article" DocID="NU00585" LinkType="Internal" ObjectID="B20BD1C9-15FF-4DAF-A736C80FA0592CA4" Title="Healthy recipes: A guide to ingredient substitutions" Url="http://www.mayoclinic.com/health/healthy-recipes/NU00585" />
+		<LinkItem ContentType="Article" DocID="NU00600" LinkType="Internal" ObjectID="62AE248C-7395-4CF6-9ADD5159CDA5A865" Title="Caffeine: How much is too much?" Url="http://www.mayoclinic.com/health/caffeine/NU00600" />
+		<LinkItem ContentType="Article" DocID="SC00024" LinkType="Internal" ObjectID="1DAD3B4B-8B1C-4D0C-A40BEC54E580B94A" Title="Alcohol use: If you drink, keep it moderate" Url="http://www.mayoclinic.com/health/alcohol/SC00024" />
+		<LinkItem ContentType="Article" DocID="HQ01217_D" LinkType="Internal" ObjectID="1D57DF72-3521-4A30-A70EAC25C8E03D63" Title="Fitting in fitness: Finding time for physical activity" Url="http://www.mayoclinic.com/health/fitness/HQ01217_D" />
+		<LinkItem ContentType="Article" DocID="SR00039" LinkType="Internal" ObjectID="1B25B2C7-E7FF-0DBD-11E2B9C20F8767B3" Title="Stress relief: When and how to say no" Url="http://www.mayoclinic.com/health/stress-relief/SR00039" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Disease" DocID="DS00183" LinkType="Internal" ObjectID="23246C2F-131D-4391-BB2A6B3E819A126F" Title="Drug addiction" Url="http://www.mayoclinic.com/health/drug-addiction/DS00183" />
+		<LinkItem ContentType="Disease" DocID="DS01158" LinkType="Internal" ObjectID="0F4A255E-9C7E-F680-E610EF8AADF137EC" Title="Ventricular fibrillation" Url="http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158" />
+	</RelatedLinksBox>
+</Disease>

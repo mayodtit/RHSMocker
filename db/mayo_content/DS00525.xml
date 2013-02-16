@@ -1,0 +1,456 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00525
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-27
+		</UpdateDate>
+		<PublicationDate>
+			2004-07-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="1480" Title="Arteriosclerosis/atherosclerosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6C45F5A5-0892-48A6-8CE681D77B4CCCCE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hardening of the arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				hardening of arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				clogged arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				blocked arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				blocked artery
+			</MetaKeyword>
+			<MetaKeyword>
+				artery blockage
+			</MetaKeyword>
+			<MetaKeyword>
+				arterial sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				plaque buildup
+			</MetaKeyword>
+			<MetaKeyword>
+				plaques
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral arterial disease
+			</MetaKeyword>
+			<MetaKeyword>
+				intermittent claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiovascular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				circulatory
+			</MetaKeyword>
+			<MetaKeyword>
+				poor circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				blood circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				circulatory system
+			</MetaKeyword>
+			<MetaKeyword>
+				circulatory problems
+			</MetaKeyword>
+			<MetaKeyword>
+				circulation problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Arteries are blood vessels that carry oxygen and nutrients from your heart to the rest of your body. Healthy arteries are flexible and elastic. Over time, however, too much pressure in your arteries can make the walls thick and stiff &amp;mdash; sometimes restricting blood flow to your organs and tissues. This process is called arteriosclerosis, or hardening of the arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+Atherosclerosis is a specific type of arteriosclerosis, but the terms are sometimes used interchangeably. Atherosclerosis refers to the buildup of fats and cholesterol in and on your artery walls (plaques), which can restrict blood flow. 
+&lt;/p&gt;
+&lt;p&gt;
+These plaques can also burst, triggering a blood clot. Although atherosclerosis is often considered a heart problem, it can affect arteries anywhere in your body. Atherosclerosis is a preventable and treatable condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atherosclerosis develops gradually. Mild atherosclerosis usually doesn&apos;t have any symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+You usually won&apos;t have atherosclerosis symptoms until an artery is so narrowed or clogged that it can&apos;t supply adequate blood to your organs and tissues. Sometimes a blood clot completely blocks blood flow, or even breaks apart and can trigger a heart attack or stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of moderate to severe atherosclerosis depend on which arteries are affected. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you have atherosclerosis in your heart arteries,&lt;/strong&gt; you may have such symptoms as chest pain or pressure (angina).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have atherosclerosis in the arteries leading to your brain,&lt;/strong&gt; you may have such signs and symptoms as sudden numbness or weakness in your arms or legs, difficulty speaking or slurred speech, or drooping muscles in your face. These are signs of a transient ischemic attack (TIA) &amp;mdash; which, if left untreated &amp;mdash; may progress to a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have atherosclerosis in the arteries in your arms and legs,&lt;/strong&gt; you may have symptoms of peripheral artery disease, such as leg pain when walking (intermittent claudication).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have atherosclerosis in the arteries leading to your kidneys,&lt;/strong&gt; you develop high blood pressure or kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have atherosclerosis in the arteries leading to your genitals,&lt;/strong&gt; you may have difficulties having sex. Sometimes, atherosclerosis can cause erectile dysfunction in men. In women, high blood pressure can reduce blood flow to the vagina, making sex less pleasurable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you think you have atherosclerosis, talk to your doctor. Also pay attention to early symptoms of inadequate blood flow, such as chest pain (angina), leg pain or numbness. Early diagnosis and treatment can stop atherosclerosis from worsening and prevent a heart attack, stroke or another medical emergency. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atherosclerosis is a slow, progressive disease that may begin as early as childhood. Although the exact cause is unknown, atherosclerosis may start with damage or injury to the inner layer of an artery. The damage may be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol, often from getting too much cholesterol or saturated fats in your diet&lt;/li&gt;
+	&lt;li&gt;Smoking and other sources of nicotine&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once the inner wall of an artery is damaged, blood cells and other substances often clump at the injury site and build up in the inner lining of the artery. Over time, fatty deposits (plaques) made of cholesterol and other cellular waste products also build up at the injury site and harden, narrowing your arteries. The organs and tissues connected to the blocked arteries then don&apos;t receive enough blood to function properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Eventually pieces of the fatty deposits may break off and enter your bloodstream. In addition, the smooth lining of a plaque may rupture, spilling cholesterol and other substances into your bloodstream. This may cause a blood clot to form which can completely block the blood flow to a specific part of your body, such as in a heart attack. A blood clot can also travel to other parts of your body and partially or totally block blood flow to another organ. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="60" Title="Development of atherosclerosis" URI="/images/image_popup/thumbs/mcdc7_atherosclerosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="479" Title="Development of atherosclerosis" URI="/images/image_popup/mcdc7_atherosclerosis.jpg" Width="400" />
+				<HTML>
+					Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hardening of the arteries occurs over time. In addition to simply getting older, factors that increase the risk of atherosclerosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;A family history of early heart disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The complications of atherosclerosis depend on the location of the blocked arteries. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary artery disease.&lt;/strong&gt; When atherosclerosis narrows the arteries close to your heart, you may develop coronary artery disease, which can cause chest pain (angina), a heart attack or heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid artery disease.&lt;/strong&gt; When atherosclerosis narrows the arteries close to your brain, you may develop carotid artery disease, which can cause a transient ischemic attack (TIA) or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peripheral artery disease.&lt;/strong&gt; When atherosclerosis narrows the arteries in your arms or legs, you may develop circulation problems in your arms and legs called peripheral artery disease. This can make you less sensitive to heat and cold, increasing your risk of burns or frostbite. In rare cases, poor circulation in your arms or legs can cause tissue death (gangrene).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aneurysms.&lt;/strong&gt; Atherosclerosis can also cause aneurysms, a serious complication that can occur anywhere in your body. An aneurysm is a bulge in the wall of your artery. Most people with aneurysms have no symptoms. Pain and throbbing in the area of an aneurysm may occur and is a medical emergency. If an aneurysm bursts, you may face life-threatening internal bleeding. Although this is usually a sudden, catastrophic event, a slow leak is possible. If a blood clot within an aneurysm dislodges, it may block an artery at some distant point.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have atherosclerosis or are worried about having atherosclerosis because of a strong family history of heart disease, make an appointment with your family doctor to have your cholesterol level checked. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. Many blood tests, including cholesterol, other blood fat and blood sugar tests, require that you fast beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; Atherosclerosis seldom has symptoms, but it is a risk factor for heart disease. Letting your doctor know if you have specific symptoms, like chest pains or shortness of breath, can help your doctor decide how aggressively your atherosclerosis needs to be treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of high cholesterol, heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For atherosclerosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often do I need a cholesterol test?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a family history of high cholesterol, high blood pressure or heart disease?&lt;/li&gt;
+	&lt;li&gt;What are your diet and exercise habits like?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Have you had a cholesterol test before? If so, when was your last test? What were your cholesterol levels?&lt;/li&gt;
+	&lt;li&gt;Do you have any discomfort in your chest or pain in your legs with walking or at rest?&lt;/li&gt;
+	&lt;li&gt;Have you had a stroke or any unexplained numbness, tingling, or weakness of one side of your body or difficulty speaking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+It&apos;s never too early to make healthy lifestyle changes, such as quitting smoking, eating healthy foods and becoming more physically active. These are primary lines of defense against atherosclerosis and its complications, including heart attack and stroke. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may find signs of narrowed, enlarged or hardened arteries during a physical exam. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A weak or absent pulse below the narrowed area of your artery&lt;/li&gt;
+	&lt;li&gt;Decreased blood pressure in an affected limb&lt;/li&gt;
+	&lt;li&gt;Whooshing sounds (bruits) over your arteries, heard using a stethoscope &lt;/li&gt;
+	&lt;li&gt;Signs of a pulsating bulge (aneurysm) in your abdomen or behind your knee&lt;/li&gt;
+	&lt;li&gt;Evidence of poor wound healing in the area where your blood flow is restricted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the results of the physical exam, your doctor may suggest one or more diagnostic tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Lab tests can detect increased levels of cholesterol and blood sugar that may increase the risk of atherosclerosis. You&apos;ll need to go without eating or drinking anything but water for nine to 12 hours before your blood test. Your doctor should tell you ahead of time if this test will be performed during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doppler ultrasound.&lt;/strong&gt; Your doctor may use a special ultrasound device (Doppler ultrasound) to measure your blood pressure at various points along your arm or leg. These measurements can help your doctor gauge the degree of any blockages, as well as the speed of blood flow in your arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ankle-brachial index.&lt;/strong&gt; This test can tell if you have atherosclerosis in the arteries in your legs and feet. Your doctor may compare the blood pressure in your ankle with the blood pressure in your arm. This is known as the ankle-brachial index. An abnormal difference may indicate peripheral vascular disease, which is usually caused by atherosclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; An electrocardiogram records electrical signals as they travel through your heart. An ECG can often reveal evidence of a previous heart attack. If your signs and symptoms occur most often during exercise, your doctor may ask you to walk on a treadmill or ride a stationary bike during an ECG.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; A stress test, also called an exercise stress test, is used to gather information about how well your heart works during physical activity. Because exercise makes your heart pump harder and faster than it does during most daily activities, an exercise stress test can reveal problems within your heart that might not be noticeable otherwise. An exercise stress test usually involves walking on a treadmill or riding a stationary bike while your heart rhythm and blood pressure and breathing are monitored. In some types of stress tests, pictures will be taken of your heart, such as during a stress echocardiogram (ultrasound) or nuclear stress test. If you&apos;re unable to exercise, you may receive a medication that mimics the effect of exercise on your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization and angiogram.&lt;/strong&gt; This test can show if your coronary arteries are narrowed or blocked. A liquid dye is injected into the arteries of your heart through a long, thin tube (catheter) that&apos;s fed through an artery, usually in your leg, to the arteries in your heart. As the dye fills your arteries, the arteries become visible on X-ray, revealing areas of blockage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other imaging tests.&lt;/strong&gt; Your doctor may use ultrasound, a computerized tomography (CT) scan or magnetic resonance angiography (MRA) to study your arteries. These tests can often show hardening and narrowing of large arteries, as well as aneurysms and calcium deposits in the artery walls.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes, such as eating a healthy diet and exercising, are often the best treatment for atherosclerosis. But sometimes, medication or surgical procedures may be recommended as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Various drugs can slow &amp;mdash; or sometimes even reverse &amp;mdash; the effects of atherosclerosis. Here are some common choices: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholesterol medications.&lt;/strong&gt; Aggressively lowering your low-density lipoprotein (LDL) cholesterol, the &quot;bad&quot; cholesterol, can slow, stop or even reverse the buildup of fatty deposits in your arteries. Boosting your high-density lipoprotein (HDL) cholesterol, the &quot;good&quot; cholesterol, may help, too. Your doctor can choose from a range of cholesterol medications, including drugs known as statins and fibrates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-platelet medications.&lt;/strong&gt; Your doctor may prescribe anti-platelet medications, such as aspirin, to reduce the likelihood that platelets will clump in narrowed arteries, form a blood clot and cause further blockage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blocker medications.&lt;/strong&gt; These medications are commonly used for coronary artery disease. They lower your heart rate and blood pressure, reducing the demand on your heart and often relieve symptoms of chest pain. Beta blockers reduce the risk of heart attacks and heart rhythm problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors.&lt;/strong&gt; These medications may help slow the progression of atherosclerosis by lowering blood pressure and producing other beneficial effects on the heart arteries. ACE inhibitors can also reduce the risk of recurrent heart attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers.&lt;/strong&gt; These medications lower blood pressure and are sometimes used to treat angina.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Water pills (diuretics).&lt;/strong&gt; High blood pressure is a major risk factor for atherosclerosis. Diuretics lower blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications.&lt;/strong&gt; Your doctor may suggest certain medications to control specific risk factors for atherosclerosis, such as diabetes. Sometimes specific medications to treat symptoms of atherosclerosis, such as leg pain during exercise, are prescribed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes more aggressive treatment is needed. If you have severe symptoms or a blockage that threatens muscle or skin tissue survival, you may be a candidate for one of the following surgical procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Angioplasty and stent placement.&lt;/strong&gt; In this procedure, your doctor inserts a long, thin tube (catheter) into the blocked or narrowed part of your artery. A second catheter with a deflated balloon on its tip is then passed through the catheter to the narrowed area. The balloon is then inflated, compressing the deposits against your artery walls. A mesh tube (stent) is usually left in the artery to help keep the artery open.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endarterectomy.&lt;/strong&gt; In some cases, fatty deposits must be surgically removed from the walls of a narrowed artery. When the procedure is done on arteries in the neck (the carotid arteries), it&apos;s called a carotid endarterectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thrombolytic therapy.&lt;/strong&gt; If you have an artery that&apos;s blocked by a blood clot, your doctor may use a clot-dissolving drug to break it apart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bypass surgery.&lt;/strong&gt; Your doctor may create a graft bypass using a vessel from another part of your body or a tube made of synthetic fabric. This allows blood to flow around the blocked or narrowed artery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes can help you prevent or slow the progression of atherosclerosis. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking damages your arteries. If you smoke, quitting is the best way to halt the progression of atherosclerosis and reduce your risk of complications.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Regular exercise can condition your muscles to use oxygen more efficiently. Physical activity can also improve circulation and promote development of new blood vessels that form a natural bypass around obstructions (collateral vessels). Exercise helps lower blood pressure and reduce your risk of diabetes.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Ideally, you should exercise 30 to 60 minutes most days of the week. If you can&apos;t fit it all into one session, try breaking it up into 10-minute intervals. You can take the stairs instead of the elevator, walk around the block during your lunch hour, or do some situps or pushups while watching television. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; A heart-healthy diet based on fruits, vegetables and whole grains &amp;mdash; and low in saturated fat, cholesterol and sodium &amp;mdash; can help you control your weight, blood pressure, cholesterol and blood sugar. Try substituting whole-grain bread in place of white bread, grabbing an apple, a banana or carrot sticks as a snack, and reading nutrition labels to control the amount of salt and fat you eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose extra pounds and maintain a healthy weight.&lt;/strong&gt; If you&apos;re overweight, losing as few as 5 to 10 pounds &amp;nbsp;(about 2.3 to 4.5 kilograms) can help reduce your risk of high blood pressure and high cholesterol, two of the major risk factors for developing atherosclerosis. Losing weight helps reduce your risk of diabetes or control your condition if you already have diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Reduce stress as much as possible. Practice healthy techniques for managing stress, such as muscle relaxation and deep breathing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have high cholesterol, high blood pressure, diabetes or another chronic disease, work with your doctor to manage the condition and promote overall health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s thought that some foods and herbal supplements can help reduce your high cholesterol level and high blood pressure, two major risk factors for developing atherosclerosis. With your doctor&apos;s OK, consider these supplements and products: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alpha-linolenic acid (ALA)&lt;/li&gt;
+	&lt;li&gt;Artichoke&lt;/li&gt;
+	&lt;li&gt;Barley&lt;/li&gt;
+	&lt;li&gt;Beta-sitosterol (found in oral supplements and some margarines, such as Promise Activ)&lt;/li&gt;
+	&lt;li&gt;Blond psyllium (found in seed husk and products such as Metamucil)&lt;/li&gt;
+	&lt;li&gt;Calcium&lt;/li&gt;
+	&lt;li&gt;Cocoa&lt;/li&gt;
+	&lt;li&gt;Cod liver oil&lt;/li&gt;
+	&lt;li&gt;Coenzyme Q10&lt;/li&gt;
+	&lt;li&gt;Garlic&lt;/li&gt;
+	&lt;li&gt;Oat bran (found in oatmeal and whole oats)&lt;/li&gt;
+	&lt;li&gt;Omega-3 fatty acids&lt;/li&gt;
+	&lt;li&gt;Sitostanol (found in oral supplements and some margarines, such as Benecol)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor before adding any of these supplements to your atherosclerosis treatment. Some supplements can interact with medications, causing harmful side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+You can also practice relaxation techniques, such as yoga or deep breathing, to help you relax and reduce your stress level. These practices can temporarily reduce your blood pressure, reducing your risk of developing atherosclerosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The same healthy lifestyle changes recommended to treat atherosclerosis also help prevent it. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quitting smoking&lt;/li&gt;
+	&lt;li&gt;Eating healthy foods&lt;/li&gt;
+	&lt;li&gt;Exercising regularly&lt;/li&gt;
+	&lt;li&gt;Maintaining a healthy weight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Just remember to make changes one step at a time, and keep in mind what lifestyle changes are manageable for you in the long run. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Arteriosclerosis / atherosclerosis
+	</Title>
+	<Abstract>
+		Arteriosclerosis and atherosclerosis &amp;mdash; Comprehensive overview covers symptoms, treatment for hardening of the arteries.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00087" LinkType="Internal" ObjectID="A7E80DE5-E7FF-0DBD-1BA2159547DC1918" Title="Coronary bypass surgery" Url="http://www.mayoclinic.com/health/coronary-bypass-surgery/MY00087" />
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00352" LinkType="Internal" ObjectID="29D3FABC-E7FF-0DBD-179ECD77A3838F48" Title="Coronary angioplasty and stents" Url="http://www.mayoclinic.com/health/angioplasty/MY00352" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Article" DocID="HQ01676" LinkType="Internal" ObjectID="FA456B47-2492-4C72-A385E24D70911BD6" Title="Exercise: 7 benefits of regular physical activity" Url="http://www.mayoclinic.com/health/exercise/HQ01676" />
+		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
+		<LinkItem ContentType="Article" DocID="SR00001" LinkType="Internal" ObjectID="76F75B48-39C9-42CE-AC10563A6FFB68E8" Title="Stress: Constant stress puts your health at risk" Url="http://www.mayoclinic.com/health/stress/SR00001" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+		<LinkItem ContentType="Disease" DocID="DS00017" LinkType="Internal" ObjectID="FE3FE459-7D1E-405F-95E9339CD2E974B8" Title="Thoracic aortic aneurysm" Url="http://www.mayoclinic.com/health/aortic-aneurysm/DS00017" />
+		<LinkItem ContentType="Disease" DocID="DS01194" LinkType="Internal" ObjectID="A79FE318-0945-8020-C0195BB597B9EC18" Title="Abdominal aortic aneurysm" Url="http://www.mayoclinic.com/health/abdominal-aortic-aneurysm/DS01194" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,292 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00769
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/keratosis-pilaris/DS00769
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2162" Title="Keratosis pilaris" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1B11B247-E7FF-0DBD-193DF1EB6B3C9EF0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				keratosis pilaris
+			</MetaKeyword>
+			<MetaKeyword>
+				keratosis
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin
+			</MetaKeyword>
+			<MetaKeyword>
+				bumpy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin bumps
+			</MetaKeyword>
+			<MetaKeyword>
+				red bumps
+			</MetaKeyword>
+			<MetaKeyword>
+				bumps on skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keratosis pilaris (ker-uh-TOE-sis pih-LAIR-is) is a common skin condition that causes rough patches and small, acne-like bumps, usually on the arms, thighs, cheeks and buttocks. Keratosis pilaris bumps are usually white, sometimes red, and generally don&apos;t hurt or itch. Keratosis pilaris can be frustrating because it&apos;s difficult to treat. However, keratosis pilaris isn&apos;t often serious and usually disappears by age 30. In the meantime, prescription medications and self-care measures can improve the appearance of keratosis pilaris.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of keratosis pilaris 
+" Caption="Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. 
+" Height="60" Title="Keratosis pilaris" URI="/images/image_popup/thumbs/sn7_keratosispilaristhu.jpg" Width="60" />
+				<Image Alt="Image of keratosis pilaris 
+" Caption="Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. 
+" Height="319" Title="Keratosis pilaris" URI="/images/image_popup/sn7_keratosispilaris.jpg" Width="400" />
+				<HTML>
+					Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keratosis pilaris can occur at any age, although it&apos;s particularly common in young children. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small white or red bumps, typically on the upper arms, legs, buttocks or cheeks&lt;/li&gt;
+	&lt;li&gt;Dry, rough and sometimes itchy skin in the areas with bumps&lt;/li&gt;
+	&lt;li&gt;Worsening in winter, when humidity is low and skin tends to be drier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keratosis pilaris may be limited to individual, sandpaper-like bumps resembling goose flesh. In some cases, the bumps may become inflamed and cause scarring, especially on the face. 
+&lt;/p&gt;
+&lt;p&gt;
+Gradually, keratosis pilaris usually resolves on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Keratosis pilaris isn&apos;t often a serious medical condition, and treatment usually isn&apos;t necessary. However, if you&apos;re concerned about the appearance of your skin, consult your family doctor or a specialist in skin diseases (dermatologist). He or she can often make a diagnosis by examining your skin and the characteristic scaly plugs.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of keratosis pilaris 
+" Caption="Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. 
+" Height="60" Title="Keratosis pilaris" URI="/images/image_popup/thumbs/sn7_keratosispilaristhu.jpg" Width="60" />
+				<Image Alt="Image of keratosis pilaris 
+" Caption="Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. 
+" Height="319" Title="Keratosis pilaris" URI="/images/image_popup/sn7_keratosispilaris.jpg" Width="400" />
+				<HTML>
+					Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Close-up image showing keratosis pilaris 
+" Caption="Keratosis pilaris gives skin a goose-flesh or sandpaper-like appearance. Typically patches are skin colored, but they can appear red and inflamed, as shown here. 
+" Height="60" Title="Close-up of keratosis pilaris" URI="/images/image_popup/thumbs/sn7_keratosispilaris2thu.jpg" Width="60" />
+				<Image Alt="Close-up image showing keratosis pilaris 
+" Caption="Keratosis pilaris gives skin a goose-flesh or sandpaper-like appearance. Typically patches are skin colored, but they can appear red and inflamed, as shown here. 
+" Height="290" Title="Close-up of keratosis pilaris" URI="/images/image_popup/sn7_keratosispilaris2.jpg" Width="400" />
+				<HTML>
+					Keratosis pilaris gives skin a goose-flesh or sandpaper-like appearance. Typically patches are skin colored, but they can appear red and inflamed, as shown here. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keratosis pilaris results from the buildup of keratin &amp;mdash; a hard protein that protects your skin from harmful substances and infection. The keratin forms a scaly plug that blocks the opening of the hair follicle. Usually many plugs form, causing patches of rough, bumpy skin.
+&lt;/p&gt;
+&lt;p&gt;
+Why keratin builds up is unknown. But it may occur in association with genetic diseases or with other skin conditions, such atopic dermatitis. Keratosis pilaris also occurs in otherwise healthy people. Dry skin tends to worsen this condition.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the keratin plug 
+" Caption="Keratosis pilaris develops when keratin forms a scaly plug that blocks the opening of the hair follicle. Usually plugs form in many hair follicles, causing patches of rough, bumpy skin. 
+" Height="60" Title="Keratin plug" URI="/images/image_popup/thumbs/sn7_keratinplugthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the keratin plug 
+" Caption="Keratosis pilaris develops when keratin forms a scaly plug that blocks the opening of the hair follicle. Usually plugs form in many hair follicles, causing patches of rough, bumpy skin. 
+" Height="467" Title="Keratin plug" URI="/images/image_popup/sn7_keratinplug.jpg" Width="400" />
+				<HTML>
+					Keratosis pilaris develops when keratin forms a scaly plug that blocks the opening of the hair follicle. Usually plugs form in many hair follicles, causing patches of rough, bumpy skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred to a specialist in skin diseases (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Your time with your doctor is limited, so preparing a list of questions beforehand will help you make the most of your appointment. List your questions from most important to least important in case time runs out. For keratosis pilaris, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you several questions. Being ready to answer them may reserve time to go over any points you want to discuss more. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do other family members have similar skin changes?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of asthma or hay fever or other allergies?&lt;/li&gt;
+	&lt;li&gt;Do you have eczema now, or have you had it in the past?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no laboratory test or skin test commonly used to diagnose keratosis pilaris. Instead, it&apos;s typically diagnosed based on an examination of your skin and a review of your medical history. Your doctor will ask questions about your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No single treatment universally improves keratosis pilaris. Most options, including self-care measures and medicated creams, focus on softening the keratin deposits in the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of keratosis pilaris can include the following medications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical exfoliants.&lt;/strong&gt; Medicated creams containing alpha-hydroxy acid, lactic acid, salicylic acid or urea moisturize and soften dry skin while helping to loosen and remove dead skin cells. Depending on their strength, certain creams are available over-the-counter and others require a prescription. Your doctor can advise you on the best option for your skin. The acids in these creams may cause redness, stinging or skin irritation. For that reason, topical exfoliants aren&apos;t recommended for young children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical retinoids.&lt;/strong&gt; Derived from vitamin A, retinoids work by promoting cell turnover and preventing the plugging of the hair follicle. Retinoids may be an effective treatment, but they can cause bothersome skin irritations, such as severe dryness, redness and peeling. Tretinoin (Retin-A, Renova, Avita) and tazarotene (Avage, Tazorac) are examples of topical retinoids. If you&apos;re pregnant or nursing, your doctor may opt to delay topical retinoid therapy or choose an alternative treatment. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser therapy.&lt;/strong&gt; Certain types of keratosis pilaris involving severe redness and inflammation have been successfully treated with laser therapy. Laser treatment involves passing intense bursts of light into targeted areas of skin. This type of treatment may require repeat sessions over the course of a few months, depending on your response.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Using a medication regularly may improve the appearance of your skin. But if you stop, the condition returns. And even with medical treatment, keratosis pilaris tends to persist for years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-help measures won&apos;t cure keratosis pilaris, but they can help improve the appearance of your skin. You may find these measures beneficial: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Go easy on your skin.&lt;/strong&gt; Vigorous scrubbing or removal of the plugs may irritate your skin and aggravate the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently dry off.&lt;/strong&gt; After washing or bathing, gently pat or blot your skin dry with a towel so that some moisture remains on the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a moisturizing lotion or lubricating cream.&lt;/strong&gt; While your skin is still moist from bathing, apply a moisturizer that contains lanolin (Lansinoh, Medela), petroleum jelly (Vaseline) or glycerin (Glysolid), ingredients that soothe dry skin and help trap moisture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try urea or lactic acid.&lt;/strong&gt; Apply an over-the-counter product that contains urea (Nutraplus, Eucerin) or lactic acid (AmLactin, Lac-hydrin) twice daily. Both help remove extra keratin from the surface of the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; A portable home humidifier or one attached to your furnace will add moisture to the air inside your home.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no way to prevent keratosis pilaris, you can take steps to keep your skin moist and healthy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your skin.&lt;/strong&gt; Moisturizers provide a seal over your skin to keep water from escaping. Thicker moisturizers work best, such as the over-the-counter brands Eucerin and Cetaphil.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use warm water and limit bath time.&lt;/strong&gt; Hot water and long showers or baths remove oils from your skin. Limit your bath or shower time to about 10 minutes or less, and use warm, rather than hot, water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harsh, drying soaps.&lt;/strong&gt; Choose mild soaps that have added oils and fats, such as Neutrogena, Basis or Dove. Avoid deodorant and antibacterial detergents, which are especially harsh. You might want to experiment with several brands until you find one that works particularly well for you. A good rule of thumb is that your skin should feel soft and smooth after cleansing, never tight or dry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pat dry.&lt;/strong&gt; After washing or bathing, gently pat or blot your skin dry with a towel so that some moisture remains on the skin. Immediately moisturize your skin with an oil or cream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Low humidity dries out your skin. A portable home humidifier or one attached to your furnace adds moisture to the air inside your home. Portable humidifiers come in many varieties. Choose one that meets your budget and any special needs. And be sure to keep your humidifier clean to ward off bacteria and fungi.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Keratosis pilaris
+	</Title>
+	<Abstract>
+		Keratosis pilaris &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this bumpy skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

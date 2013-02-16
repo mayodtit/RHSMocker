@@ -1,0 +1,64 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00508
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00508
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="1233" Title="Relaxation techniques" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A6AAA08-E7FF-0DBD-1D3E12C2E2F04030
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tai chi
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Tai chi: Can you put meditation in motion?
+	</Title>
+	<Body>
+		&lt;p&gt;Tai chi is an ancient Chinese exercise that uses slow, gentle, dance-like movements to encourage relaxation, improve balance, and strengthen muscles and joints. You don&apos;t need special clothing or equipment to do tai chi. To gain full benefits, however, it may be best to seek guidance from a qualified tai chi instructor. Look for tai chi classes at your local community education center, senior center or health club.&lt;/p&gt;
+	</Body>
+</HealthTip>

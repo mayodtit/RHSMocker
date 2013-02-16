@@ -1,0 +1,392 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00273
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tonsillitis/DS00273
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-04
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1784" Title="Throat">
+						<Keyword MCVID="1939" Title="Tonsillitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EBE60EF6-1998-46AE-8CC5C3F3357E6F8F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sore throat
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsillitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsils
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsillectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen glands
+			</MetaKeyword>
+			<MetaKeyword>
+				strep
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsilitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsilectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsilitus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tonsillitis is inflammation of the tonsils, two oval-shaped pads of tissue at the back of the throat &amp;mdash; one tonsil on each side. Signs and symptoms of tonsillitis include swollen tonsils, sore throat, difficulty swallowing and tender lymph nodes on the sides of the neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of tonsillitis are caused by infection with a common virus, but bacterial infections also may cause tonsillitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appropriate treatment for tonsillitis depends on the cause, it&apos;s important to get a prompt and accurate diagnosis. Surgery to remove tonsils, once a common procedure to treat tonsillitis, is usually performed only when tonsillitis occurs frequently, doesn&apos;t respond to other treatments or causes serious complications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="60" Title="Inflamed tonsils" URI="/images/image_popup/thumbs/r7_tonsillitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="281" Title="Inflamed tonsils" URI="/images/image_popup/r7_tonsillitis2.jpg" Width="400" />
+				<HTML>
+					Tonsils are fleshy pads located at each side of the back of the throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tonsillitis most commonly affects children between preschool ages and the mid-teenage years. Common signs and symptoms of tonsillitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red, swollen tonsils&lt;/li&gt;
+	&lt;li&gt;White or yellow coating or patches on the tonsils&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Difficult or painful swallowing&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Enlarged, tender glands (lymph nodes) in the neck&lt;/li&gt;
+	&lt;li&gt;A scratchy, muffled or throaty voice&lt;/li&gt;
+	&lt;li&gt;Bad breath&lt;/li&gt;
+	&lt;li&gt;Stomachache, particularly in younger children&lt;/li&gt;
+	&lt;li&gt;Stiff neck&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In young children who are unable to describe how they feel, signs of tonsillitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drooling due to difficult or painful swallowing&lt;/li&gt;
+	&lt;li&gt;Refusal to eat&lt;/li&gt;
+	&lt;li&gt;Unusual fussiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+It&apos;s important to get an accurate diagnosis if your child has symptoms that may indicate tonsillitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Call your doctor&lt;/strong&gt; &lt;strong&gt;if&lt;/strong&gt; your child is experiencing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sore throat that doesn&apos;t go away within 24 hours&lt;/li&gt;
+	&lt;li&gt;Painful or difficult swallowing&lt;/li&gt;
+	&lt;li&gt;Extreme weakness, fatigue or fussiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Get immediate care&lt;/strong&gt; &lt;strong&gt;if&lt;/strong&gt; your child has any of these symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Extreme difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Drooling&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tonsillitis is most often caused by common viruses, but bacterial infections can also be the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common bacterium causing tonsillitis is Streptococcus pyogenes (group A streptococcus), the bacterium that causes strep throat. Other strains of strep and other bacteria also may cause tonsillitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Why do tonsils get infected?&lt;/strong&gt;&lt;br /&gt;
+The tonsils are the immune system&apos;s first line of defense against bacteria and viruses that enter your mouth. This function may make the tonsils particularly vulnerable to infection and inflammation. However, the tonsil&apos;s immune system function declines after puberty &amp;mdash; a factor that may account for the rare cases of tonsillitis in adults. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="60" Title="Inflamed tonsils" URI="/images/image_popup/thumbs/r7_tonsillitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="281" Title="Inflamed tonsils" URI="/images/image_popup/r7_tonsillitis2.jpg" Width="400" />
+				<HTML>
+					Tonsils are fleshy pads located at each side of the back of the throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for tonsillitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young age.&lt;/strong&gt; Tonsillitis is most common from the preschool years to the mid-teenage years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent exposure to germs.&lt;/strong&gt; School-age children are in close contact with their peers and frequently exposed to viruses or bacteria that can cause tonsillitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Inflammation or swelling of the tonsils from frequent or ongoing (chronic) tonsillitis can cause complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Disrupted breathing during sleep (obstructive sleep apnea)&lt;/li&gt;
+	&lt;li&gt;Infection that spreads deep into surrounding tissue (tonsillar cellulitis)&lt;/li&gt;
+	&lt;li&gt;Infection that results in a collection of pus behind a tonsil (tonsillar abscess)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Strep infection&lt;/strong&gt;&lt;br /&gt;
+If tonsillitis caused by group A streptococcus or another strain of streptococcal bacteria isn&apos;t treated, or if antibiotic treatment is incomplete, your child has an increased risk of rare disorders such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatic fever,&lt;/strong&gt; an inflammatory disorder that affects the heart, joints and other tissues&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Post-streptococcal glomerulonephritis,&lt;/strong&gt; an inflammatory disorder of the kidneys that results in inadequate removal of waste and excess fluids from blood&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child is experiencing a sore throat, difficulty swallowing or other symptoms that may indicate tonsillitis, you&apos;ll likely start with a visit to your family doctor or your child&apos;s pediatrician. You may be referred to a specialist in ear, nose and throat (ENT) disorders (otolaryngologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to ask you a number of questions about your child&apos;s condition. Be prepared to answer the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the symptoms begin?&lt;/li&gt;
+	&lt;li&gt;If your child has had a fever, what was his or her temperature?&lt;/li&gt;
+	&lt;li&gt;Does he or she have difficulty swallowing foods, or does it hurt to swallow?&lt;/li&gt;
+	&lt;li&gt;Does anything improve symptoms, such as an over-the-counter pain reliever or warm liquids?&lt;/li&gt;
+	&lt;li&gt;Has your child been diagnosed with tonsillitis or strep throat before? If so, when?&lt;/li&gt;
+	&lt;li&gt;Do symptoms seem to affect his or her sleep?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions you may want to ask your doctor include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long will it take to get test results?&lt;/li&gt;
+	&lt;li&gt;What is the best course of treatment?&lt;/li&gt;
+	&lt;li&gt;Should I be concerned with how frequently my child is getting tonsillitis?&lt;/li&gt;
+	&lt;li&gt;When can my child go back to school or resume other activities?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor will start with a physical exam that will include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using a lighted instrument to look at your child&apos;s throat and likely his or her ears and nose, which may also be sites of infection&lt;/li&gt;
+	&lt;li&gt;Checking for a rash known as scarlatina, which is associated with some cases of strep throat&lt;/li&gt;
+	&lt;li&gt;Gently feeling (palpating) your child&apos;s neck to check for swollen glands (lymph nodes)&lt;/li&gt;
+	&lt;li&gt;Listening to his or her breathing with a stethoscope&lt;/li&gt;
+	&lt;li&gt;Checking for enlargement of the spleen (for consideration of mononucleosis which also inflames the tonsils)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Throat swab&lt;/strong&gt;&lt;br /&gt;
+With this simple test, the doctor rubs a sterile swab over the back of your child&apos;s throat to get a sample of secretions. The sample will be checked in a lab for streptococcal bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+Many clinics are equipped with a lab that can get a test result within a few minutes. However, a second more reliable test is usually sent out to a lab that can return results within 24 to 48 hours. 
+&lt;/p&gt;
+&lt;p&gt;
+If the rapid in-clinic test comes back positive, then your child almost certainly has a bacterial infection. If the test comes back negative, then your child likely has a viral infection. Your doctor will wait, however, for the more reliable out-of-clinic lab test to determine the cause of the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complete blood cell count (CBC)&lt;/strong&gt;&lt;br /&gt;
+Your doctor may order a CBC with a small sample of your child&apos;s blood. The result of this test, which can often be completed in a clinic, produces a count of the different types of blood cells. The profile of what&apos;s elevated, what&apos;s normal or what&apos;s below normal can indicate whether an infection is more likely caused by a bacterial or viral agent. A CBC is not often needed to diagnose strep throat. However, if the strep throat lab test is negative, the CBC may be needed to help determine the cause of tonsillitis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;At-home care&lt;/strong&gt;&lt;br /&gt;
+Whether tonsillitis is caused by a viral or bacterial infection, at-home care strategies can make your child more comfortable and promote better recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+If a virus is the expected cause of tonsillitis, these strategies are the only treatment. Your doctor won&apos;t prescribe antibiotics. Your child will likely be better within seven to 10 days. 
+&lt;/p&gt;
+&lt;p&gt;
+At-home care strategies to use during the recovery time include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage rest.&lt;/strong&gt; Encourage your child to get plenty of sleep and to rest his or her voice. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide adequate fluids.&lt;/strong&gt; Give your child plenty of water to keep the throat moist and prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide comforting foods and beverage.&lt;/strong&gt; Warm liquids &amp;mdash; broth, caffeine-free tea or warm water with honey &amp;mdash; and cold treats like ice pops can soothe a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare a saltwater gargle.&lt;/strong&gt; If your child can gargle, a saltwater gargle of 1 teaspoon (5 milliliters) of table salt to 8 ounces (237 milliliters) of warm water can help soothe a sore throat. Have your child gargle the solution and then spit it out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Humidify the air.&lt;/strong&gt; Use a cool-air humidifier to eliminate dry air that may further irritate a sore throat, or sit with your child for several minutes in a steamy bathroom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Offer lozenges.&lt;/strong&gt; Children older than age 4 can suck on lozenges to relieve a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; Keep your home free from cigarette smoke and cleaning products that can irritate the throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat pain and fever.&lt;/strong&gt; Talk to your doctor about using ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) to minimize throat pain and control a fever. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt;&lt;br /&gt;
+If tonsillitis is caused by a bacterial infection, your doctor will prescribe a course of antibiotics. Penicillin taken by mouth for 10 days is the most common antibiotic treatment prescribed for tonsillitis caused by group A streptococcus. If your child is allergic to penicillin, your doctor will prescribe an alternative antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child must take the full course of antibiotics as prescribed even if the symptoms go away completely. Failure to take all of the medication as directed may result in the infection worsening or spreading to other parts of the body. Not completing the full course of antibiotics can, in particular, increase your child&apos;s risk of rheumatic fever and serious kidney inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor or pharmacist about what to do if you forget to give your child a dose. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Surgery to remove tonsils (tonsillectomy) may be used to treat frequently recurring tonsillitis, chronic tonsillitis or bacterial tonsillitis that doesn&apos;t respond to antibiotic treatment. Frequent tonsillitis is generally defined as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;More than seven episodes in one year&lt;/li&gt;
+	&lt;li&gt;More than five episodes a year in each of the preceding two years&lt;/li&gt;
+	&lt;li&gt;More than three episodes a year in each of the preceding three years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A tonsillectomy may also be performed if tonsillitis results in difficult-to-manage complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Obstructive sleep apnea&lt;/li&gt;
+	&lt;li&gt;Breathing difficulty&lt;/li&gt;
+	&lt;li&gt;Swallowing difficulty, especially meats and other chunky foods&lt;/li&gt;
+	&lt;li&gt;An abscess that doesn&apos;t improve with antibiotic treatment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tonsillectomy is usually done as a one-day surgery, unless your child is very young. That means your child should be able to go home the day of the surgery. A complete recovery usually takes seven to 14 days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The germs that cause viral and bacterial tonsillitis are contagious. Therefore, the best prevention is to practice good hygiene. Teach your child to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash his or her hands thoroughly and frequently, especially after using the toilet and before eating&lt;/li&gt;
+	&lt;li&gt;Avoid sharing food, drinking glasses or utensils&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To help your child prevent the spread of a bacterial or viral infection to others: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Keep your child at home when he or she is ill&lt;/li&gt;
+	&lt;li&gt;Ask your doctor when it&apos;s all right for your child to return to school&lt;/li&gt;
+	&lt;li&gt;Teach your child to cough or sneeze into a tissue or, when necessary, into his or her elbow&lt;/li&gt;
+	&lt;li&gt;Teach your child to wash his or her hands after sneezing or coughing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tonsillitis
+	</Title>
+	<Abstract>
+		Tonsillitis &amp;mdash; Comprehensive overview covers symptoms, treatment for this common cause of sore throat in children.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+	</RelatedLinksBox>
+</Disease>

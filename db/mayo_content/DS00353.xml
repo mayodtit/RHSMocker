@@ -1,0 +1,423 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00353
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hypothyroidism/DS00353
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-01
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="1495" Title="Hypothyroidism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			021FF7E0-FECE-4FE8-B7EBF6632546B116
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypothyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				underactive thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid gland
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroxine
+			</MetaKeyword>
+			<MetaKeyword>
+				goiter
+			</MetaKeyword>
+			<MetaKeyword>
+				Hashimoto&apos;s thyroiditis
+			</MetaKeyword>
+			<MetaKeyword>
+				Synthroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				hypothroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				hypothyrodism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypothyroidism (underactive thyroid) is a condition in which your thyroid gland doesn&apos;t produce enough of certain important hormones. 
+&lt;/p&gt;
+&lt;p&gt;
+Women, especially those older than age 60, are more likely to have hypothyroidism. Hypothyroidism upsets the normal balance of chemical reactions in your body. It seldom causes symptoms in the early stages, but, over time, untreated hypothyroidism can cause a number of health problems, such as obesity, joint pain, infertility and heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+The good news is that accurate thyroid function tests are available to diagnose hypothyroidism, and treatment of hypothyroidism with synthetic thyroid hormone is usually simple, safe and effective once you and your doctor find the right dose for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of hypothyroidism vary, depending on the severity of the hormone deficiency. But in general, any problems you have tend to develop slowly, often over a number of years. 
+&lt;/p&gt;
+&lt;p&gt;
+At first, you may barely notice the symptoms of hypothyroidism, such as fatigue and weight gain, or you may simply attribute them to getting older. But as your metabolism continues to slow, you may develop more obvious signs and symptoms. Hypothyroidism signs and symptom may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Increased sensitivity to cold&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Dry skin&lt;/li&gt;
+	&lt;li&gt;Unexplained weight gain&lt;/li&gt;
+	&lt;li&gt;Puffy face&lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Elevated blood cholesterol level&lt;/li&gt;
+	&lt;li&gt;Muscle aches, tenderness and stiffness&lt;/li&gt;
+	&lt;li&gt;Pain, stiffness or swelling in your joints&lt;/li&gt;
+	&lt;li&gt;Heavier than normal or irregular menstrual periods&lt;/li&gt;
+	&lt;li&gt;Thinning hair&lt;/li&gt;
+	&lt;li&gt;Slowed heart rate&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Impaired memory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When hypothyroidism isn&apos;t treated, signs and symptoms can gradually become more severe. Constant stimulation of your thyroid gland to release more hormones may lead to an enlarged thyroid (goiter). In addition, you may become more forgetful, your thought processes may slow, or you may feel depressed. 
+&lt;/p&gt;
+&lt;p&gt;
+Advanced hypothyroidism, known as myxedema, is rare, but when it occurs it can be life-threatening. Signs and symptoms include low blood pressure, decreased breathing, decreased body temperature, unresponsiveness and even coma. In extreme cases, myxedema can be fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypothyroidism in infants&lt;/strong&gt; &lt;br /&gt;
+Although hypothyroidism most often affects middle-aged and older women, anyone can develop the condition, including infants. Initially, babies born without a thyroid gland or with a gland that doesn&apos;t work properly may have few signs and symptoms. When newborns do have problems with hypothyroidism, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Yellowing of the skin and whites of the eyes (jaundice). In most cases, this occurs when a baby&apos;s liver can&apos;t metabolize a substance called bilirubin, which normally forms when the body recycles old or damaged red blood cells.&lt;/li&gt;
+	&lt;li&gt;Frequent choking.&lt;/li&gt;
+	&lt;li&gt;A large, protruding tongue.&lt;/li&gt;
+	&lt;li&gt;A puffy appearance to the face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As the disease progresses, infants are likely to have trouble feeding and may fail to grow and develop normally. They may also have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Poor muscle tone&lt;/li&gt;
+	&lt;li&gt;Excessive sleepiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When hypothyroidism in infants isn&apos;t treated, even mild cases can lead to severe physical and mental retardation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypothyroidism in children and teens&lt;/strong&gt; &lt;br /&gt;
+In general, children and teens who develop hypothyroidism have the same signs and symptoms as adults do, but they may also experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor growth, resulting in short stature&lt;/li&gt;
+	&lt;li&gt;Delayed development of permanent teeth&lt;/li&gt;
+	&lt;li&gt;Delayed puberty&lt;/li&gt;
+	&lt;li&gt;Poor mental development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you&apos;re feeling tired for no reason or have any of the other signs or symptoms of hypothyroidism, such as dry skin, a pale, puffy face, constipation or a hoarse voice. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll also need to see your doctor for periodic testing of your thyroid function if you&apos;ve had previous thyroid surgery; treatment with radioactive iodine or anti-thyroid medications; or radiation therapy to your head, neck or upper chest. However, it may take years or even decades before any of these therapies or procedures result in hypothyroidism. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have high blood cholesterol, talk to your doctor about whether hypothyroidism may be a cause. And if you&apos;re receiving hormone therapy for hypothyroidism, schedule follow-up visits as often as your doctor recommends. Initially, it&apos;s important to make sure you&apos;re receiving the correct dose of medicine. And over time, the dose you need may change. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your thyroid doesn&apos;t produce enough hormones, the balance of chemical reactions in your body can be upset. There can be a number of causes, including autoimmune disease, treatment for hyperthyroidism, radiation therapy, thyroid surgery and certain medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Your thyroid is a small, butterfly-shaped gland situated at the base of the front of your neck, just below your Adam&apos;s apple. Hormones produced by the thyroid gland &amp;mdash; triiodothyronine (T3) and thyroxine (T4) &amp;mdash; have an enormous impact on your health, affecting all aspects of your metabolism. &amp;nbsp;They maintain the rate at which your body uses fats and carbohydrates, help control your body temperature, influence your heart rate, and help regulate the production of proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+Hypothyroidism results when the thyroid gland fails to produce enough hormones. Hypothyroidism may be due to a number of factors, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune disease.&lt;/strong&gt; People who develop a particular inflammatory disorder known as Hashimoto&apos;s thyroiditis suffer from the most common cause of hypothyroidism. Autoimmune disorders occur when your immune system produces antibodies that attack your own tissues. Sometimes this process involves your thyroid gland. Scientists aren&apos;t sure why the body produces antibodies against itself. Some think a virus or bacterium might trigger the response, while others believe a genetic flaw may be involved. Most likely, autoimmune diseases result from more than one factor. But however it happens, these antibodies affect the thyroid&apos;s ability to produce hormones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment for hyperthyroidism.&lt;/strong&gt; People who produce too much thyroid hormone (hyperthyroidism) are often treated with radioactive iodine or anti-thyroid medications to reduce and normalize their thyroid function. However, in some cases, treatment of hyperthyroidism can result in permanent hypothyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid surgery.&lt;/strong&gt; Removing all or a large portion of your thyroid gland can diminish or halt hormone production. In that case, you&apos;ll need to take thyroid hormone for life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation used to treat cancers of the head and neck can affect your thyroid gland and may lead to hypothyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; A number of medications can contribute to hypothyroidism. One such medication is lithium, which is used to treat certain psychiatric disorders. If you&apos;re taking medication, ask your doctor about its effect on your thyroid gland.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less often, hypothyroidism may result from one of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital disease.&lt;/strong&gt; Some babies are born with a defective thyroid gland or no thyroid gland. In most cases, the thyroid gland didn&apos;t develop normally for unknown reasons, but some children have an inherited form of the disorder. Often, infants with congenital hypothyroidism appear normal at birth. That&apos;s one reason why most states now require newborn thyroid screening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pituitary disorder.&lt;/strong&gt; A relatively rare cause of hypothyroidism is the failure of the pituitary gland to produce enough thyroid-stimulating hormone (TSH) &amp;mdash; usually because of a benign tumor of the pituitary gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Some women develop hypothyroidism during or after pregnancy (postpartum hypothyroidism), often because they produce antibodies to their own thyroid gland. Left untreated, hypothyroidism increases the risk of miscarriage, premature delivery and preeclampsia &amp;mdash; a condition that causes a significant rise in a woman&apos;s blood pressure during the last three months of pregnancy. It can also seriously affect the developing fetus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Iodine deficiency.&lt;/strong&gt; The trace mineral iodine &amp;mdash; found primarily in seafood, seaweed, plants grown in iodine-rich soil and iodized salt &amp;mdash; is essential for the production of thyroid hormones. In some parts of the world, iodine deficiency is common, but the addition of iodine to table salt has virtually eliminated this problem in the United States. Conversely, taking in too much iodine can cause hypothyroidism. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop hypothyroidism, you&apos;re at an increased risk if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are a woman older than age 60&lt;/li&gt;
+	&lt;li&gt;Have an autoimmune disease&lt;/li&gt;
+	&lt;li&gt;Have a close relative, such as a parent or grandparent, with an autoimmune disease&lt;/li&gt;
+	&lt;li&gt;Have been treated with radioactive iodine or anti-thyroid medications&lt;/li&gt;
+	&lt;li&gt;Received radiation to your neck or upper chest&lt;/li&gt;
+	&lt;li&gt;Have had thyroid surgery (partial thyroidectomy)&lt;/li&gt;
+	&lt;li&gt;Have been pregnant or delivered a baby within the past six months&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated hypothyroidism can lead to a number of health problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Goiter.&lt;/strong&gt; Constant stimulation of your thyroid to release more hormones may cause the gland to become larger &amp;mdash; a condition known as a goiter. Hashimoto thyroiditis is one of the most common causes of a goiter. Although generally not uncomfortable, a large goiter can affect your appearance and may interfere with swallowing or breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Hypothyroidism may also be associated with an increased risk of heart disease, primarily because high levels of low-density lipoprotein (LDL) cholesterol &amp;mdash; the &quot;bad&quot; cholesterol &amp;mdash; can occur in people with an underactive thyroid. Even subclinical hypothyroidism, a more benign condition than true hypothyroidism, can cause an increase in total cholesterol levels and impair the pumping ability of your heart. Hypothyroidism can also lead to an enlarged heart and heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mental health issues.&lt;/strong&gt; Depression may occur early in hypothyroidism and may become more severe over time. Hypothyroidism can also cause slowed mental functioning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peripheral neuropathy.&lt;/strong&gt; Long-term uncontrolled hypothyroidism can cause damage to your peripheral nerves &amp;mdash; the nerves that carry information from your brain and spinal cord to the rest of your body, for example your arms and legs. Signs and symptoms of peripheral neuropathy may include pain, numbness and tingling in the area affected by the nerve damage. It may also cause muscle weakness or loss of muscle control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myxedema.&lt;/strong&gt; This rare, life-threatening condition is the result of long-term, undiagnosed hypothyroidism. Its signs and symptoms include intense cold intolerance and drowsiness followed by profound lethargy and unconsciousness. A myxedema coma may be triggered by sedatives, infection or other stress on your body. If you have signs or symptoms of myxedema, you need immediate emergency medical treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility.&lt;/strong&gt; Low levels of thyroid hormone can interfere with ovulation, which impairs fertility. In addition, some of the causes of hypothyroidism &amp;mdash; such as autoimmune disorder &amp;mdash; also impair fertility. Treating hypothyroidism with thyroid hormone replacement therapy may not fully restore fertility. Other interventions may be needed, as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth defects.&lt;/strong&gt; Babies born to women with untreated thyroid disease may have a higher risk of birth defects than may babies born to healthy mothers. These children are also more prone to serious intellectual and developmental problems. Infants with untreated hypothyroidism present at birth are at risk of serious problems with both physical and mental development. But if this condition is diagnosed within the first few months of life, the chances of normal development are excellent.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor or a general practitioner. In some cases, you may be referred to a doctor who specializes in the body&apos;s hormone-secreting glands (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For hypothyroidism, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other relevant questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because hypothyroidism is more prevalent in older women, some doctors recommend that older women be screened for the disorder during routine annual physical examinations. Some doctors also recommend that pregnant women or women thinking about becoming pregnant be tested for hypothyroidism. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, your doctor may test for an underactive thyroid if you&apos;re feeling increasingly tired, have dry skin, constipation and weight gain, or have had previous thyroid problems or goiter. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+Diagnosis of hypothyroidism is based on your symptoms and the results of blood tests that measure the level of TSH and sometimes the level of the thyroid hormone thyroxine. A low level of thyroxine and high level of TSH indicate an underactive thyroid. That&apos;s because your pituitary produces more TSH in an effort to stimulate your thyroid gland into producing more thyroid hormone. 
+&lt;/p&gt;
+&lt;p&gt;
+In the past, doctors weren&apos;t able to detect hypothyroidism until symptoms were fairly advanced. But by using the sensitive TSH test, doctors are able to diagnose thyroid disorders much earlier &amp;mdash; often before you experience symptoms. Because the TSH test is the best screening test, your doctor will likely check TSH first and follow with a thyroid hormone test if needed. TSH tests also play an important role in managing hypothyroidism. They help your doctor determine the right dosage of medication, both initially and over time. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, TSH tests are used to help diagnose a condition called subclinical hypothyroidism, which usually causes no outward signs or symptoms. In this condition, you have normal blood levels of triiodothyronine and thyroxine, but higher than normal levels of TSH. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Standard treatment for hypothyroidism involves daily use of the synthetic thyroid hormone levothyroxine (Levothroid, Synthroid, others). This oral medication restores adequate hormone levels, reversing the signs and symptoms of hypothyroidism. 
+&lt;/p&gt;
+&lt;p&gt;
+One to two weeks after starting treatment, you&apos;ll notice that you&apos;re feeling less fatigued. The medication also gradually lowers cholesterol levels elevated by the disease and may reverse any weight gain. Treatment with levothyroxine is usually lifelong, but because the dosage you need may change, your doctor is likely to check your TSH level every year. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining proper dosage may take time&lt;/strong&gt;&lt;br /&gt;
+To determine the right dosage of levothyroxine initially, your doctor generally checks your level of TSH after two to three months. Excessive amounts of the hormone can cause side effects, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased appetite&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Heart palpitations&lt;/li&gt;
+	&lt;li&gt;Shakiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have coronary artery disease or severe hypothyroidism, your doctor may start treatment with a smaller amount of medication and gradually increase the dosage. Progressive hormone replacement allows your heart to adjust to the increase in metabolism. 
+&lt;/p&gt;
+&lt;p&gt;
+Levothyroxine causes virtually no side effects when used in the appropriate dose and is relatively inexpensive. If you change brands, let your doctor know to ensure you&apos;re still receiving the right dosage. Also, don&apos;t skip doses or stop taking the drug because you&apos;re feeling better. If you do, the symptoms of hypothyroidism will gradually return. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Proper absorption of levothyroxine&lt;/strong&gt; &lt;br /&gt;
+Certain medications, supplements and even some foods may affect your ability to absorb levothyroxine. Talk to your doctor if you eat large amounts of soy products or a high-fiber diet or you take other medications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Iron supplements&lt;/li&gt;
+	&lt;li&gt;Cholestyramine&lt;/li&gt;
+	&lt;li&gt;Aluminum hydroxide, which is found in some antacids&lt;/li&gt;
+	&lt;li&gt;Calcium supplements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have subclinical hypothyroidism, discuss treatment with your doctor. For a relatively mild increase in TSH, you probably won&apos;t benefit from thyroid hormone therapy, and treatment could even be harmful. On the other hand, for a higher TSH level, thyroid hormones may improve your cholesterol level, the pumping ability of your heart and your energy level. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although most doctors recommend synthetic thyroxine, natural extracts containing thyroid hormone derived from the thyroid glands of pigs are available. These products contain both thyroxine and triiodothyronine. Synthetic thyroid medications contain thyroxine only, and the triiodothyronine your body needs is derived from the thyroxine. 
+&lt;/p&gt;
+&lt;p&gt;
+Extracts are available by prescription only and shouldn&apos;t be confused with the glandular concentrates sold in natural foods stores. These products aren&apos;t regulated by the Food and Drug Administration, and their potency and purity isn&apos;t guaranteed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hypothyroidism (underactive thyroid)
+	</Title>
+	<Abstract>
+		Hypothyroidism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of an underactive thyroid gland.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="Answer" DocID="AN01436" LinkType="Internal" ObjectID="CC205413-E7FF-0DBD-10675C5AABA84691" Title="Hypothyroidism and infertility: Any connection?" Url="http://www.mayoclinic.com/health/hypothyroidism-and-infertility/AN01436" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Answer" DocID="AN00069" LinkType="Internal" ObjectID="DCDC450F-B900-45AB-9CB724CB57A18105" Title="Hypothyroidism: Does it cause joint pain?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN00069" />
+		<LinkItem ContentType="Answer" DocID="AN01829" LinkType="Internal" ObjectID="BDEAE1F3-E7FF-0DBD-12F52C3F46A4B3B6" Title="Hypothyroidism: Should I take iodine supplements?" Url="http://www.mayoclinic.com/health/hypothyroidism-iodine/AN01829" />
+		<LinkItem ContentType="Answer" DocID="AN01367" LinkType="Internal" ObjectID="B0294326-E7FF-0DBD-1FF7944B49652A59" Title="Coconut oil: Can it cure hypothyroidism?" Url="http://www.mayoclinic.com/health/coconut-oil-thyroid/AN01367" />
+		<LinkItem ContentType="Answer" DocID="AN01942" LinkType="Internal" ObjectID="9F0C1E6F-E7FF-0DBD-12DF6CEF0C1E1EE4" Title="Hypothyroidism symptoms: Can hypothyroidism cause eye problems?" Url="http://www.mayoclinic.com/health/hypothyroidism-symptoms/AN01942" />
+		<LinkItem ContentType="Answer" DocID="AN01478" LinkType="Internal" ObjectID="52B04093-E7FF-0DBD-1A7AEB7E8BE436FC" Title="Hypothyroidism diet: Can certain foods increase thyroid function?" Url="http://www.mayoclinic.com/health/hypothyroidism-diet/AN01478" />
+		<LinkItem ContentType="Answer" DocID="AN00454" LinkType="Internal" ObjectID="3B8150D7-69CD-4FD7-9C06C34B5B7A0FFD" Title="Soy: Does it worsen hypothyroidism?" Url="http://www.mayoclinic.com/health/hyperthyroidism/AN00454" />
+		<LinkItem ContentType="Answer" DocID="AN01181" LinkType="Internal" ObjectID="31EFF038-31C4-40C8-89F40F5D41E852C8" Title="Hypothyroidism: Can calcium supplements interfere with treatment?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN01181" />
+		<LinkItem ContentType="Answer" DocID="AN01728" LinkType="Internal" ObjectID="04C74DCF-E7FF-0DBD-12218CAA16C82C96" Title="Wilson&apos;s syndrome: An accepted medical diagnosis?" Url="http://www.mayoclinic.com/health/wilsons-syndrome/AN01728" />
+		<LinkItem ContentType="Disease" DocID="DS00581" LinkType="Internal" ObjectID="A1BEB836-698F-4C05-B88D158D673829AB" Title="Amenorrhea" Url="http://www.mayoclinic.com/health/amenorrhea/DS00581" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+	</RelatedLinksBox>
+</Disease>

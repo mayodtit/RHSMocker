@@ -1,0 +1,149 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01541
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coenzyme-q10/AN01541
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-04
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1744" Title="High blood cholesterol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5ABF7900-E7FF-0DBD-13D33E4F58453DE5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				coenzyme Q10
+			</MetaKeyword>
+			<MetaKeyword>
+				enzyme Q10
+			</MetaKeyword>
+			<MetaKeyword>
+				statin side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				coq10
+			</MetaKeyword>
+			<MetaKeyword>
+				statins
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+At this time, coenzyme Q10 is not universally recommended for preventing statin side effects.
+&lt;/p&gt;
+&lt;p&gt;
+Coenzyme Q10 is a substance made naturally by your body. As a supplement, it&apos;s usually sold as a capsule and is marketed under brand names such as Co-Q10, Coenzyme Q10, LiQsorb, Liquid Co-Q10 and Q-Gel.
+&lt;/p&gt;
+&lt;p&gt;
+Some researchers think that taking a coenzyme Q10 supplement may reduce the risk of serious muscle damage (rhabdomyolysis). And some small reports suggest that troubling side effects &amp;mdash; muscle and joint aches &amp;mdash; from statins might be reduced if you take coenzyme Q10 along with a statin. However, no large studies have confirmed this theory, so current guidelines don&apos;t recommend routine use of coenzyme Q10 in people taking statins.
+&lt;/p&gt;
+&lt;p&gt;
+Coenzyme Q10 doesn&apos;t cause side effects for most people. However, as with other herbal and dietary supplements, it&apos;s not regulated by the Food and Drug Administration.
+&lt;/p&gt;
+&lt;p&gt;
+If you have muscle aches or other troubling symptoms after starting statin medications, talk to your doctor as soon as possible. Statins are effective cholesterol-lowering medications for many people, and it&apos;s important to do everything possible to continue taking them as directed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coenzyme Q10: Can it prevent statin side effects?
+	</Title>
+	<Abstract>
+		The use of coenzyme Q10 to prevent statin side effects is controversial.
+	</Abstract>
+	<Question>
+		Can coenzyme Q10 reduce the risk of serious side effects from statin medications?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00500" LinkType="Internal" ObjectID="ACA5E069-DFEE-9A46-E42C13E5816BAE0D" Title="Cholesterol test" Url="http://www.mayoclinic.com/health/cholesterol-test/MY00500" />
+		<LinkItem ContentType="Calculator" DocID="SM00083" LinkType="Internal" ObjectID="A2A6A209-EAAF-4B18-AEF17503DC91698C" Title="Tool: Target heart rate calculator" Url="http://www.mayoclinic.com/health/target-heart-rate/SM00083" />
+		<LinkItem ContentType="Answer" DocID="AN02193" LinkType="Internal" ObjectID="97CB9112-EF63-303D-A8892F7C9A02FEB4" Title="Does prickly pear cactus have health benefits?" Url="http://www.mayoclinic.com/health/prickly-pear-cactus/AN02193" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="Answer" DocID="AN02120" LinkType="Internal" ObjectID="66D95C41-0BD7-834E-D7AD6EC2D70B150B" Title="MUFAs: Why should my diet include these fats?" Url="http://www.mayoclinic.com/health/mufas/AN02120" />
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Article" DocID="MY02089" LinkType="Internal" ObjectID="CC778A22-B2D6-6E96-E37A7C52DBF5B7AD" Title="Healthy chicken recipes" Url="http://www.mayoclinic.com/health/healthy-chicken-recipes/MY02089" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="HB00085" LinkType="Internal" ObjectID="92DF9319-E7FF-0DBD-1F4D49DAC4DFC1AE" Title="Nuts and your heart: Eating nuts for heart health" Url="http://www.mayoclinic.com/health/nuts/HB00085" />
+		<LinkItem ContentType="Article" DocID="MY01874" LinkType="Internal" ObjectID="8CFB62FE-E33C-7457-779E0B9DE4B51EC3" Title="Herbal supplements may not mix with heart medicines" Url="http://www.mayoclinic.com/health/herbal-supplements/MY01874" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Answer" DocID="AN01227" LinkType="Internal" ObjectID="FC844FBC-2A5D-9994-E610287712676177" Title="Pomegranate juice: Can it lower cholesterol?" Url="http://www.mayoclinic.com/health/pomegranate-juice/AN01227" />
+		<LinkItem ContentType="Answer" DocID="AN01461" LinkType="Internal" ObjectID="F0DD1317-E7FF-0DBD-18939809A59672AE" Title="Cholesterol test kits: Are they accurate?" Url="http://www.mayoclinic.com/health/cholesterol-test-kits/AN01461" />
+		<LinkItem ContentType="Answer" DocID="AN01438" LinkType="Internal" ObjectID="CCAC41D9-E7FF-0DBD-1C2316005227744F" Title="High cholesterol treatment: Does cinnamon lower cholesterol?" Url="http://www.mayoclinic.com/health/cinnamon-lower-cholesterol/AN01438" />
+		<LinkItem ContentType="Answer" DocID="AN01335" LinkType="Internal" ObjectID="BDADAF2C-2A5D-9994-EF7BC1FEF527EF7F" Title="VLDL cholesterol: Is it harmful?" Url="http://www.mayoclinic.com/health/vldl-cholesterol/AN01335" />
+		<LinkItem ContentType="Answer" DocID="AN01761" LinkType="Internal" ObjectID="ABD1629F-E7FF-0DBD-15145D08E22D2C58" Title="Cholesterol ratio: Is it important?" Url="http://www.mayoclinic.com/health/cholesterol-ratio/AN01761" />
+		<LinkItem ContentType="Answer" DocID="AN01360" LinkType="Internal" ObjectID="8C1B2E8F-E7FF-0DBD-1F2BBD9DDA8A526D" Title="Statins: Do they cause ALS?" Url="http://www.mayoclinic.com/health/statins/AN01360" />
+		<LinkItem ContentType="Table" DocID="CL00013" LinkType="Internal" ObjectID="883F6CC1-E7FF-0DBD-1ACE6FB5C4900E52" Title="Cholesterol-lowering supplements: Lower your numbers without prescription medication" Url="http://www.mayoclinic.com/health/cholesterol-lowering-supplements/CL00013" />
+		<LinkItem ContentType="Answer" DocID="AN01394" LinkType="Internal" ObjectID="456F42B4-E7FF-0DBD-1C37C66F318B235B" Title="Cholesterol level: Can it be too low?" Url="http://www.mayoclinic.com/health/cholesterol-level/AN01394" />
+		<LinkItem ContentType="Answer" DocID="AN01644" LinkType="Internal" ObjectID="44D04790-E7FF-0DBD-13A069E721DE1F7C" Title="Niacin overdose: What are the symptoms?" Url="http://www.mayoclinic.com/health/niacin-overdose/AN01644" />
+		<LinkItem ContentType="Answer" DocID="HQ00608" LinkType="Internal" ObjectID="3EEB43C6-DB46-4EE4-B847A9005BDE94FB" Title="Eggs: Are they good or bad for my cholesterol?" Url="http://www.mayoclinic.com/health/cholesterol/HQ00608" />
+		<LinkItem ContentType="Table" DocID="HB00042" LinkType="Internal" ObjectID="3A470847-6B37-4990-B801483EE9993BEE" Title="Cholesterol medications: Consider the options" Url="http://www.mayoclinic.com/health/cholesterol-medications/HB00042" />
+		<LinkItem ContentType="Answer" DocID="AN01493" LinkType="Internal" ObjectID="30A6CFA4-E7FF-0DBD-1EF8BB48DA072920" Title="Arcus senilis: A sign of high cholesterol?" Url="http://www.mayoclinic.com/health/arcus-senilis/AN01493" />
+		<LinkItem ContentType="Answer" DocID="AN01413" LinkType="Internal" ObjectID="135EE4B9-E7FF-0DBD-141236526A600DB4" Title="Rhabdomyolysis from statins: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/rhabdomyolysis/AN01413" />
+		<LinkItem ContentType="Answer" DocID="AN01289" LinkType="Internal" ObjectID="03721906-2A5D-9994-E4D37100397DF581" Title="Soy: Does it reduce cholesterol?" Url="http://www.mayoclinic.com/health/soy/AN01289" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+		<LinkItem ContentType="Article" DocID="CL00001" LinkType="Internal" ObjectID="F008A4A7-A5A7-4BB5-B04222F223CD6AE1" Title="Cholesterol levels: What numbers should you aim for?" Url="http://www.mayoclinic.com/health/cholesterol-levels/CL00001" />
+		<LinkItem ContentType="Article" DocID="CL00015" LinkType="Internal" ObjectID="EE0D7DF0-E7FF-0DBD-169AC2820B289B32" Title="Triglycerides: Why do they matter?" Url="http://www.mayoclinic.com/health/triglycerides/CL00015" />
+		<LinkItem ContentType="Article" DocID="CL00030" LinkType="Internal" ObjectID="8806CE9F-E7FF-0DBD-152027FE481870F9" Title="HDL cholesterol: How to boost your &apos;good&apos; cholesterol" Url="http://www.mayoclinic.com/health/hdl-cholesterol/CL00030" />
+		<LinkItem ContentType="Article" DocID="CL00036" LinkType="Internal" ObjectID="7FD30B1C-E7FF-0DBD-1A4BD415229049AF" Title="Niacin to boost your HDL, &apos;good,&apos; cholesterol" Url="http://www.mayoclinic.com/health/niacin/CL00036" />
+		<LinkItem ContentType="Article" DocID="CL00032" LinkType="Internal" ObjectID="7A7C3A5D-E7FF-0DBD-17264FB5ECB54E78" Title="Trans fat is double trouble for your heart health" Url="http://www.mayoclinic.com/health/trans-fat/CL00032" />
+		<LinkItem ContentType="Article" DocID="MY00205" LinkType="Internal" ObjectID="749BB19A-E7FF-0DBD-1D5E87B2590271F3" Title="Statin side effects: Weigh the benefits and risks" Url="http://www.mayoclinic.com/health/statin-side-effects/MY00205" />
+		<LinkItem ContentType="Article" DocID="CL00012" LinkType="Internal" ObjectID="70E100F5-E7FF-0DBD-15A4B529F9E16744" Title="Top 5 lifestyle changes to reduce cholesterol" Url="http://www.mayoclinic.com/health/reduce-cholesterol/CL00012" />
+		<LinkItem ContentType="Article" DocID="CL00010" LinkType="Internal" ObjectID="69427ED3-2A5D-9994-E87FDBC7AE0819DE" Title="Statins: Are these cholesterol-lowering drugs right for you?" Url="http://www.mayoclinic.com/health/statins/CL00010" />
+		<LinkItem ContentType="Article" DocID="CL00002" LinkType="Internal" ObjectID="44BE5EA7-E8B5-427E-AD42AB3F49DE11D1" Title="Cholesterol: Top 5 foods to lower your numbers" Url="http://www.mayoclinic.com/health/cholesterol/CL00002" />
+		<LinkItem ContentType="Disease" DocID="DS00178" LinkType="Internal" ObjectID="BF6A0C4C-585D-48D0-9E5A06D9FB07644A" Title="High cholesterol" Url="http://www.mayoclinic.com/health/high-blood-cholesterol/DS00178" />
+	</RelatedLinksBox>
+</Answer>

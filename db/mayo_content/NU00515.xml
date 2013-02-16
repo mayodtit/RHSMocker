@@ -1,0 +1,210 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00515
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00515
+		</OriginalURL>
+		<UpdateDate>
+			2010-07-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			61AE8853-F2C2-4689-A29444F3B212052A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Hawaiian calzone
+	</Title>
+	<Abstract>
+		Hawaiian calzone &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Instead of topping the calzone with pizza sauce, make your own tomato relish with fresh tomatoes, garlic, basil and oregano. Serve with a fresh green salad and assorted sliced fresh fruit. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 400 F. Lightly coat a baking sheet with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, add the Canadian bacon, onion, tomato, roasted red pepper, pineapple and salad dressing. Mix well. 
+&lt;/p&gt;
+&lt;p&gt;
+On a floured surface, cut the dough into quarters. Press each piece into a circle. Using a rolling pin, roll the dough into an oval. On each oval, add the Canadian bacon mixture and 1 tablespoon cheese. Fold the dough over the filling, pressing the edges together. Crimp with a fork and place on the prepared baking sheet. 
+&lt;/p&gt;
+&lt;p&gt;
+Brush the calzones with the olive oil. Bake until golden brown, about 10 minutes. Top each with 1/4 cup warmed pizza sauce and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;4 ounces Canadian bacon, diced &lt;/li&gt;
+	&lt;li&gt;1 green onion, chopped &lt;/li&gt;
+	&lt;li&gt;1 medium tomato, chopped &lt;/li&gt;
+	&lt;li&gt;1/4 red bell pepper, roasted and chopped &lt;/li&gt;
+	&lt;li&gt;1 1/2 tablespoons crushed pineapple, drained well &lt;/li&gt;
+	&lt;li&gt;1 tablespoon fat-free honey Dijon salad dressing &lt;/li&gt;
+	&lt;li&gt;1 can (10 ounces) whole-wheat bread dough, refrigerated or frozen &lt;/li&gt;
+	&lt;li&gt;1/4 cup shredded mixed cheese, such as provolone, Parmesan, Romano and mozzarella &lt;/li&gt;
+	&lt;li&gt;1 teaspoon olive oil &lt;/li&gt;
+	&lt;li&gt;1 cup pizza sauce &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				1
+			</Dairy>
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				1
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1/2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				285
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				42 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				17 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				17 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 calzone
+			</Servingsize>
+			<Sodium Label="Sodium">
+				990 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				7 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

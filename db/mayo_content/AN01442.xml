@@ -1,0 +1,135 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01442
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stress-and-hair-loss/AN01442
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-02
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="3290" Title="Stress basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D602A979-E7FF-0DBD-1437879F210D33EB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hair loss
+			</MetaKeyword>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+			<MetaKeyword>
+				stress and hair loss
+			</MetaKeyword>
+			<MetaKeyword>
+				alopecia areata
+			</MetaKeyword>
+			<MetaKeyword>
+				telogen effluvium
+			</MetaKeyword>
+			<MetaKeyword>
+				trichotillomania
+			</MetaKeyword>
+			<MetaKeyword>
+				trich
+			</MetaKeyword>
+			<MetaKeyword>
+				hair pulling
+			</MetaKeyword>
+			<MetaKeyword>
+				baldness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes, stress and hair loss can be related. 
+&lt;/p&gt;
+&lt;p&gt;
+Three types of hair loss that can be associated with high stress levels are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alopecia areata.&lt;/strong&gt; A variety of factors are thought to cause alopecia areata, possibly including severe stress. With alopecia areata, white blood cells attack the hair follicle, stopping hair growth and making hair fall out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Telogen effluvium.&lt;/strong&gt; In this condition, emotional or physical stress pushes large numbers of growing hairs into a resting phase. Within a few months, the affected hairs may fall out suddenly when simply combing or washing your hair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trichotillomania.&lt;/strong&gt; Trichotillomania (trik-oh-til-oh-MAY-nee-uh) is an irresistible urge to pull out hair from your scalp, eyebrows or other areas of your body. Hair pulling can be a way of dealing with negative or uncomfortable feelings, such as stress, anxiety, tension, loneliness, fatigue or frustration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stress and hair loss don&apos;t have to be permanent. If you get your stress under control, your hair may grow back. Be sure to talk to your doctor if you notice sudden or patchy hair loss or more than usual hair loss when combing or washing your hair. Sudden hair loss can signal an underlying medical condition that requires treatment. If needed, your doctor may suggest treatment options for the hair loss as well. And if efforts to manage your stress on your own don&apos;t work, talk to your doctor about stress management techniques.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stress and hair loss: Are they related?
+	</Title>
+	<Abstract>
+		Stress and hair loss &amp;mdash; Learn how they can be related.
+	</Abstract>
+	<Question>
+		Can stress cause hair loss?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02168" LinkType="Internal" ObjectID="42BFA803-BAEE-25AB-8E0670108F7BF416" Title="Stop multitasking and learn how to focus" Url="http://www.mayoclinic.com/health/how-to-focus/AN02168" />
+		<LinkItem ContentType="Article" DocID="MY01976" LinkType="Internal" ObjectID="AFDA76C9-F998-E928-3C4546E31A6A9DBD" Title="Empty nest syndrome: Tips for coping" Url="http://www.mayoclinic.com/health/empty-nest-syndrome/MY01976" />
+		<LinkItem ContentType="Article" DocID="HE00002" LinkType="Internal" ObjectID="99AA7BEE-2A5D-9994-E3CB19C93755C16D" Title="Headaches: Reduce stress to prevent the pain" Url="http://www.mayoclinic.com/health/headaches/HE00002" />
+		<LinkItem ContentType="Answer" DocID="AN01128" LinkType="Internal" ObjectID="D647C373-9E9F-43D1-BFB5BE1408F55891" Title="Stress and weight gain" Url="http://www.mayoclinic.com/health/stress/AN01128" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN01286" LinkType="Internal" ObjectID="ACA4A132-2A5D-9994-E6C4E01A48F09A7D" Title="Chronic stress: Can it cause depression?" Url="http://www.mayoclinic.com/health/stress/AN01286" />
+		<LinkItem ContentType="Answer" DocID="AN01768" LinkType="Internal" ObjectID="ABD85560-E7FF-0DBD-10C087AC4FA6D796" Title="Normal stress or adjustment disorder?" Url="http://www.mayoclinic.com/health/adjustment-disorder/AN01768" />
+		<LinkItem ContentType="SelfAssessment" DocID="SR00029" LinkType="Internal" ObjectID="47D87EFD-2A5D-9994-E3522C6D5B4F1A58" Title="Stress assessment: Rate your stress level" Url="http://www.mayoclinic.com/health/stress-assessment/SR00029" />
+		<LinkItem ContentType="Disease" DocID="DS00584" LinkType="Internal" ObjectID="2D2E338B-DCF4-45FD-ADD551D9C8804E96" Title="Adjustment disorders" Url="http://www.mayoclinic.com/health/adjustment-disorders/DS00584" />
+		<LinkItem ContentType="Disease" DocID="DS00246" LinkType="Internal" ObjectID="181CCBB4-A467-4D76-A3488529DC3DBEE9" Title="Post-traumatic stress disorder (PTSD)" Url="http://www.mayoclinic.com/health/post-traumatic-stress-disorder/DS00246" />
+		<LinkItem ContentType="Article" DocID="SR00001" LinkType="Internal" ObjectID="76F75B48-39C9-42CE-AC10563A6FFB68E8" Title="Stress: Constant stress puts your health at risk" Url="http://www.mayoclinic.com/health/stress/SR00001" />
+		<LinkItem ContentType="Article" DocID="MY01357" LinkType="Internal" ObjectID="649C0F2F-E1B2-CA0A-604800B622E13A00" Title="How to be happy: Tips for cultivating contentment" Url="http://www.mayoclinic.com/health/how-to-be-happy/MY01357" />
+		<LinkItem ContentType="Article" DocID="SR00032" LinkType="Internal" ObjectID="15AC47CB-E7FF-0DBD-1E403F470F686D23" Title="Stress management: Re-examine your stress reactions" Url="http://www.mayoclinic.com/health/stress-management/SR00032" />
+		<LinkItem ContentType="Article" DocID="SR00031" LinkType="Internal" ObjectID="11188EF9-E7FF-0DBD-1F000BF4D482945B" Title="Stress management: Identify your sources of stress" Url="http://www.mayoclinic.com/health/stress-management/SR00031" />
+	</RelatedLinksBox>
+</Answer>

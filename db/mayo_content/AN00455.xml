@@ -1,0 +1,137 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00455
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/warfarin/AN00455
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-07
+		</UpdateDate>
+		<PublicationDate>
+			2002-12-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3140" Title="Blood clot">
+							<Keyword MCVID="1483" Title="Thrombophlebitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			56E57F1F-14D3-4F5D-99755C0AC15D4BCE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				warfarin
+			</MetaKeyword>
+			<MetaKeyword>
+				coumadin
+			</MetaKeyword>
+			<MetaKeyword>
+				warfarin diet
+			</MetaKeyword>
+			<MetaKeyword>
+				coumadin diet
+			</MetaKeyword>
+			<MetaKeyword>
+				blood thinner
+			</MetaKeyword>
+			<MetaKeyword>
+				blood thinners
+			</MetaKeyword>
+			<MetaKeyword>
+				Coumadin diet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Warfarin is a blood-thinning medication that helps treat and prevent blood clots. There is no specific warfarin (Coumadin) diet. However, certain foods and beverages can make it so warfarin doesn&apos;t effectively prevent blood clots. It&apos;s important to pay attention to what you eat while taking warfarin. 
+&lt;/p&gt;
+&lt;p&gt;
+One nutrient that can lessen warfarin&apos;s effectiveness is vitamin K. It&apos;s important to be consistent in how much vitamin K you get daily. The average daily allowance of vitamin K for adult men is 120 micrograms (mcg). For adult women, it&apos;s 90 mcg. While eating small amounts of foods that are rich in vitamin K shouldn&apos;t cause a problem, avoid eating or drinking large amounts of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Kale&lt;/li&gt;
+	&lt;li&gt;Spinach&lt;/li&gt;
+	&lt;li&gt;Brussels sprouts&lt;/li&gt;
+	&lt;li&gt;Parsley&lt;/li&gt;
+	&lt;li&gt;Collard greens&lt;/li&gt;
+	&lt;li&gt;Mustard greens&lt;/li&gt;
+	&lt;li&gt;Chard&lt;/li&gt;
+	&lt;li&gt;Green tea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain drinks can increase the effect of warfarin, leading to bleeding problems. Avoid or drink only small amounts of these drinks when taking warfarin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cranberry juice&lt;/li&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor before making any major changes in your diet and before starting any over-the-counter medications, vitamins or herbal supplements. If you are unable to eat for several days or have ongoing stomach upset, diarrhea or fever, consult your doctor. These signs and symptoms may mean you need a different dose of warfarin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Warfarin diet: What foods should I avoid?
+	</Title>
+	<Abstract>
+		Certain foods and beverages may interact with warfarin. Find out more.
+	</Abstract>
+	<Question>
+		Can you tell me what I should eat while I am taking warfarin (Coumadin)? What foods should I avoid?
+	</Question>
+	<QuestionFirstName>
+		Beth
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01304" LinkType="Internal" ObjectID="B7924F4B-2A5D-9994-E93851E2A0E09BD3" Title="Blood thinners: Can I still get blood clots?" Url="http://www.mayoclinic.com/health/blood-thinners/AN01304" />
+		<LinkItem ContentType="Answer" DocID="HQ01614" LinkType="Internal" ObjectID="70B2F4BD-5FD9-4435-8BE419B346DFAC2A" Title="Warfarin: Any harm in long-term use?" Url="http://www.mayoclinic.com/health/warfarin/HQ01614" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Article" DocID="HB00101" LinkType="Internal" ObjectID="CA0F97CB-E7FF-0DBD-16198A51C9A1D2DE" Title="Warfarin side effects: Watch for interactions" Url="http://www.mayoclinic.com/health/warfarin-side-effects/HB00101" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="Disease" DocID="DS00223" LinkType="Internal" ObjectID="D27523B0-5309-466F-B6560F1319E7EB2D" Title="Thrombophlebitis" Url="http://www.mayoclinic.com/health/thrombophlebitis/DS00223" />
+	</RelatedLinksBox>
+</Answer>

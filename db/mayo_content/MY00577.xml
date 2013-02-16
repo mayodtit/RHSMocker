@@ -1,0 +1,201 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00577
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/holter-monitor/MY00577
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="4088" Title="Holter monitoring" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A4969FF4-0BA0-85FA-2A7436104DFFF946
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				holter monitor
+			</MetaKeyword>
+			<MetaKeyword>
+				holter monitoring
+			</MetaKeyword>
+			<MetaKeyword>
+				holter heart monitor
+			</MetaKeyword>
+			<MetaKeyword>
+				electrocardiogram
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A Holter monitor is a small, wearable device that records your heart rhythm. You usually wear a Holter monitor for one to three days. During that time, the device will record all of your heartbeats. A Holter monitor test is usually performed after a traditional test to check your heart rhythm (electrocardiogram) isn&apos;t able to give your doctor enough information about your heart&apos;s condition. 
+&lt;/p&gt;
+&lt;p&gt;
+A Holter monitor has electrodes that are attached to your chest with adhesive and then are connected to a recording device. Your doctor uses information captured on the Holter monitor&apos;s recording device to figure out if you have a heart rhythm problem. 
+&lt;/p&gt;
+&lt;p&gt;
+While wearing a Holter monitor may be a little inconvenient, it&apos;s an important test that may help your doctor diagnose your condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a man wearing a Holter monitor 
+" Caption="A Holter monitor uses electrodes and a recording device to track your heart&apos;s rhythm for 24 to 72 hours. Your doctor can print an electrocardiogram strip using the data on the recording device to see your heart&apos;s rhythm during the period you wore the monitor. 
+" Height="60" Title="Holter monitor" URI="/images/image_popup/thumbs/mcdc7_holtermonitorthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a man wearing a Holter monitor 
+" Caption="A Holter monitor uses electrodes and a recording device to track your heart&apos;s rhythm for 24 to 72 hours. Your doctor can print an electrocardiogram strip using the data on the recording device to see your heart&apos;s rhythm during the period you wore the monitor. 
+" Height="406" Title="Holter monitor" URI="/images/image_popup/mcdc7_holtermonitor.jpg" Width="400" />
+				<HTML>
+					A Holter monitor uses electrodes and a recording device to track your heart&apos;s rhythm for 24 to 72 hours. Your doctor can print an electrocardiogram strip using the data on the recording device to see ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs or symptoms of a heart problem, such as an irregular heartbeat (arrhythmia), your doctor may order a test called an electrocardiogram. An electrocardiogram is a brief, noninvasive test that uses electrodes taped to your chest to check your heart&apos;s rhythm.
+&lt;/p&gt;
+&lt;p&gt;
+However, sometimes an electrocardiogram doesn&apos;t detect any irregularities in your heart rhythm. If your signs and symptoms suggest that an occasionally irregular heart rhythm may be causing your condition, your doctor may recommend that you wear a Holter monitor for a day or so. The Holter monitor may be able to detect irregularities in your heart rhythm that an electrocardiogram couldn&apos;t, since an electrocardiogram usually takes only a few minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also order a Holter monitor if you have a heart condition that increases your risk of an abnormal heart rhythm, such as hypertrophic cardiomyopathy. Your doctor may suggest you wear a Holter monitor for a day or two, even if you haven&apos;t had any symptoms of an abnormal heartbeat. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no significant risks involved in wearing a Holter monitor. The device doesn&apos;t transmit electricity, so there&apos;s no risk of electric shock. 
+&lt;/p&gt;
+&lt;p&gt;
+However, the Holter monitor can&apos;t get wet, or it will be damaged. Don&apos;t swim or bathe for the entire time you&apos;re wearing your Holter monitor. While Holter monitors aren&apos;t usually affected by other electrical appliances, you shouldn&apos;t walk through a metal detector while wearing one. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Just before your Holter monitor test, you&apos;ll have a doctor&apos;s appointment to have your monitor fitted. You should bathe before this appointment, because once your monitoring begins, you can&apos;t get the monitor wet or remove the monitor to bathe. 
+&lt;/p&gt;
+&lt;p&gt;
+A technician will place the electrodes that sense your heartbeat on your chest. For men, a small amount of hair may be shaved to make sure the electrodes stick. The technician will then connect the electrode to a recording device with several wires, and will instruct you on how to properly wear the recording device, so it can record data transmitted from the electrodes. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be instructed to keep a diary of all the activities you do while wearing the monitor. It&apos;s particularly important to record in the diary any symptoms of palpitations, skipped heartbeats, shortness of breath, chest pain or lightheadedness. You&apos;ll usually be given a form to help you record your activities and any symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Once your monitor is fitted and you&apos;ve received instructions on how to wear it, you can leave your doctor&apos;s office and resume your normal activities. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+Holter monitoring is painless and noninvasive. You can hide the electrodes and wires under your clothes, and you can wear the recording device on your belt or attached to a strap. Once your monitoring begins, don&apos;t take the Holter monitor off &amp;mdash; you must wear it at all times, even while you sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+While you wear a Holter monitor, you can carry out your usual daily activities. Your doctor will tell you how long you&apos;ll need to wear the monitor. It may vary from 12 hours to three days, depending on what condition your doctor suspects you have, or how frequently you have symptoms of a heart problem. 
+&lt;/p&gt;
+&lt;p&gt;
+While you wear a Holter monitor, you&apos;ll need to keep a diary of all your daily activities. You&apos;ll need to write down what activities you do and exactly what time you do them. You should also write down any symptoms you have while you&apos;re wearing the monitor, such as chest pain, shortness of breath or skipped heartbeats. Your doctor can compare data from the Holter monitor recorder with your diary, which can help diagnose your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+Once your monitoring period is over, you&apos;ll go back to your doctor&apos;s office to return the Holter monitor. A nurse or technician will remove the electrodes from your chest, which may cause some discomfort, similar to a bandage being pulled off your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll turn in the diary you kept while you wore the Holter monitor. When the Holter monitor is interpreted, your doctor will compare the data from the recorder and the activities and symptoms you wrote down. If your heart rhythm changed and you had symptoms while you did strenuous activities, knowing that information can help your doctor diagnose your condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your doctor has looked at the results of the Holter monitor recorder and what you&apos;ve written in your activity diary, he or she will talk to you about your results. The information from the Holter monitor may reveal that you have a heart condition, or your doctor may need more tests to find out what may be causing your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your doctor may not be able to diagnose your condition based on the results of the Holter monitor test, especially if you didn&apos;t have any irregular heart rhythms while you wore the monitor. Your doctor may then recommend an event recorder. You wear an event monitor as much as possible throughout the day, and push a button on a recording device you wear on your belt to record your heartbeat when you experience symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Holter monitor
+	</Title>
+	<Abstract>
+		Holter monitor &amp;mdash; Overview covers what to expect during this test of your heart rhythm.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="Disease" DocID="DS00930" LinkType="Internal" ObjectID="3720EF76-E7FF-0DBD-1BBAC5E30AECE271" Title="Sick sinus syndrome" Url="http://www.mayoclinic.com/health/sick-sinus-syndrome/DS00930" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+	</RelatedLinksBox>
+</TestProcedure>

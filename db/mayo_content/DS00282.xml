@@ -1,0 +1,342 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00282
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-stones/DS00282
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-17
+		</UpdateDate>
+		<PublicationDate>
+			2001-01-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="2216" Title="Kidney stone" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0959D967-FE3F-4C28-86A3C27E79B17903
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney stones
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneystones
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+			<MetaKeyword>
+				stones
+			</MetaKeyword>
+			<MetaKeyword>
+				oxalate
+			</MetaKeyword>
+			<MetaKeyword>
+				oxalic aid
+			</MetaKeyword>
+			<MetaKeyword>
+				uric acid
+			</MetaKeyword>
+			<MetaKeyword>
+				allopurinal
+			</MetaKeyword>
+			<MetaKeyword>
+				nephrolithiasis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney stones (renal lithiasis) are small, hard deposits that form inside your kidneys. The stones are made of mineral and acid salts. Kidney stones have many causes and can affect any part of your urinary tract &amp;mdash; from your kidneys to your bladder. Often, stones form when the urine becomes concentrated, allowing minerals to crystallize and stick together.
+&lt;/p&gt;
+&lt;p&gt;
+Passing kidney stones can be quite painful, but the stones usually cause no permanent damage. Depending on your situation, you may need nothing more than to take pain medication and drink lots of water to pass a kidney stone. In other instances, surgery may be needed. Your doctor may recommend preventive treatment to reduce your risk of recurrent kidney stones if you&apos;re at increased risk of developing them again.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney stones 
+" Caption="Kidney stones form in your kidneys. As stones move into your ureters &amp;mdash; the thin tubes that allow urine to pass from your kidneys to your bladder &amp;mdash; signs and symptoms can result. Signs and symptoms of kidney stones can include severe pain, nausea, vomiting, fever, chills and blood in your urine. 
+" Height="60" Title="Kidney stones" URI="/images/image_popup/thumbs/mcdc7_kidney_stonesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney stones 
+" Caption="Kidney stones form in your kidneys. As stones move into your ureters &amp;mdash; the thin tubes that allow urine to pass from your kidneys to your bladder &amp;mdash; signs and symptoms can result. Signs and symptoms of kidney stones can include severe pain, nausea, vomiting, fever, chills and blood in your urine. 
+" Height="270" Title="Kidney stones" URI="/images/image_popup/mcdc7_kidney_stones.jpg" Width="400" />
+				<HTML>
+					Kidney stones form in your kidneys. As stones move into your ureters &amp;mdash; the thin tubes that allow urine to pass from your kidneys to your bladder &amp;mdash; signs and symptoms can result. Signs and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A kidney stone may not cause symptoms until it moves around within your kidney or passes into your ureter &amp;mdash; the tube connecting the kidney and bladder. At that point, these signs and symptoms may occur:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain in the side and back, below the ribs&lt;/li&gt;
+	&lt;li&gt;Pain that spreads to the lower abdomen and groin&lt;/li&gt;
+	&lt;li&gt;Pain that comes in waves and fluctuates in intensity&lt;/li&gt;
+	&lt;li&gt;Pain on urination&lt;/li&gt;
+	&lt;li&gt;Pink, red or brown urine&lt;/li&gt;
+	&lt;li&gt;Cloudy or foul-smelling urine&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Persistent urge to urinate&lt;/li&gt;
+	&lt;li&gt;Urinating more often than usual&lt;/li&gt;
+	&lt;li&gt;Fever and chills if an infection is present&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pain caused by a kidney stone may change &amp;mdash; for instance, shifting to a different location or increasing in intensity &amp;mdash; as the stone moves through your urinary tract.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you have any signs and symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek immediate medical attention if you experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain so severe that you can&apos;t sit still or find a comfortable position&lt;/li&gt;
+	&lt;li&gt;Pain accompanied by nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Pain accompanied by fever and chills&lt;/li&gt;
+	&lt;li&gt;Blood in your urine&lt;/li&gt;
+	&lt;li&gt;Difficulty passing urine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney stones often have no definite, single cause, although several factors may increase your risk.
+&lt;/p&gt;
+&lt;p&gt;
+Kidney stones form when your urine contains more crystal-forming substances &amp;mdash; such as calcium, oxalate and uric acid &amp;mdash; than the fluid in your urine can dilute. At the same time, your urine may lack substances that keep crystals from sticking together, creating an ideal environment for kidney stones to form. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of kidney stones&lt;br /&gt;
+&lt;/strong&gt;Knowing the type of kidney stone helps determine the cause and may give clues on how to reduce your risk of getting more kidney stones. Types of kidney stones include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium stones.&lt;/strong&gt; Most kidney stones are calcium stones, usually in the form of calcium oxalate. Oxalate is a naturally occurring substance found in food. Some fruits and vegetables, as well as nuts and chocolate, have high oxalate levels. Your liver also produces oxalate. Dietary factors, high doses of vitamin D, intestinal bypass surgery and several metabolic disorders can increase the concentration of calcium or oxalate in urine. Calcium stones may also occur in the form of calcium phosphate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Struvite stones.&lt;/strong&gt; Struvite stones form in response to an infection, such as a urinary tract infection. These stones can grow quickly and become quite large, sometimes with few symptoms or little warning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uric acid stones.&lt;/strong&gt; Uric acid stones can form in people who don&apos;t drink enough fluids or who lose too much fluid, those who eat a high-protein diet, and those who have gout. Certain genetic factors also may increase your risk of uric acid stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystine stones.&lt;/strong&gt; These stones form in people with a hereditary disorder that causes the kidneys to excrete too much of certain amino acids (cystinuria).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other stones.&lt;/strong&gt; Other, rarer types of kidney stones can occur.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney stones 
+" Caption="Kidney stones form in your kidneys. As stones move into your ureters &amp;mdash; the thin tubes that allow urine to pass from your kidneys to your bladder &amp;mdash; signs and symptoms can result. Signs and symptoms of kidney stones can include severe pain, nausea, vomiting, fever, chills and blood in your urine. 
+" Height="60" Title="Kidney stones" URI="/images/image_popup/thumbs/mcdc7_kidney_stonesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney stones 
+" Caption="Kidney stones form in your kidneys. As stones move into your ureters &amp;mdash; the thin tubes that allow urine to pass from your kidneys to your bladder &amp;mdash; signs and symptoms can result. Signs and symptoms of kidney stones can include severe pain, nausea, vomiting, fever, chills and blood in your urine. 
+" Height="270" Title="Kidney stones" URI="/images/image_popup/mcdc7_kidney_stones.jpg" Width="400" />
+				<HTML>
+					Kidney stones form in your kidneys. As stones move into your ureters &amp;mdash; the thin tubes that allow urine to pass from your kidneys to your bladder &amp;mdash; signs and symptoms can result. Signs and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of developing kidney stones include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family or personal history.&lt;/strong&gt; If someone in your family has kidney stones, you&apos;re more likely to develop stones, too. And if you&apos;ve already had one or more kidney stones, you&apos;re at increased risk of developing another.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being an adult.&lt;/strong&gt; Kidney stones are most common in adults age 40 and older, though kidney stones may occur at any age. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being a man.&lt;/strong&gt; Men are more likely to develop kidney stones, although an increasing number of women are developing kidney stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Not drinking enough water each day can increase your risk of kidney stones. People who live in warm climates and those who sweat a lot may be at higher risk than others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain diets.&lt;/strong&gt; Eating a diet that&apos;s high in protein, sodium and sugar may increase your risk of some types of kidney stones. This is especially true with a high-sodium diet. Too much sodium in your diet increases the amount of calcium your kidneys must filter and significantly increases your risk of kidney stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being obese.&lt;/strong&gt; High body mass index (BMI), large waist size and weight gain have been linked to an increased risk of kidney stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive diseases and surgery.&lt;/strong&gt; Gastric bypass surgery, inflammatory bowel disease or chronic diarrhea can cause changes in the digestive process that affect your absorption of calcium and water, increasing the levels of stone-forming substances in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medical conditions.&lt;/strong&gt; Diseases and conditions that may increase your risk of kidney stones include renal tubular acidosis, cystinuria, hyperparathyroidism, certain medications and some urinary tract infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Small kidney stones that don&apos;t block your kidney or cause other problems can be treated by your family doctor. But if you have a large kidney stone and experience severe pain or kidney problems, your doctor may refer you to a doctor who treats problems in the urinary tract (urologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot to cover, it&apos;s a good idea to be well prepared. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask if there&apos;s anything you need to do before your appointment,&lt;/strong&gt; such as limit your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that seem unrelated to kidney stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; as well as any vitamins or other supplements that you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be hard to remember all the information, and a relative or friend may hear something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For kidney stones, some basic questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a kidney stone?&lt;/li&gt;
+	&lt;li&gt;What size is my kidney stone?&lt;/li&gt;
+	&lt;li&gt;Where is my kidney stone located?&lt;/li&gt;
+	&lt;li&gt;What type of kidney stone do I have?&lt;/li&gt;
+	&lt;li&gt;Will I need medication to treat my kidney stone?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery or another procedure to treat my kidney stone?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the chance that I&apos;ll develop another kidney stone?&lt;/li&gt;
+	&lt;li&gt;How can I prevent kidney stones in the future?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? If so, does insurance typically cover the services of a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Do you have any educational material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment when you don&apos;t understand something. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects you have a kidney stone, you may have diagnostic tests and procedures, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests may reveal too much calcium or uric acid in your blood. Blood test results help monitor the health of your kidneys and may lead your doctor to check for other medical conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; Tests of your urine, such as the 24-hour urine collection, may show that you&apos;re excreting too many stone-forming minerals or too few stone-preventing substances.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests may show kidney stones in your urinary tract. Options range from simple abdominal X-rays, which can miss small kidney stones, to high-speed computerized tomography (CT) that may reveal even tiny stones. Other imaging options include an ultrasound, a noninvasive test, and intravenous pyelography, which involves injecting dye into your arm vein and taking X-rays as the dye travels through your kidneys and bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Analysis of passed stones.&lt;/strong&gt; You may be asked to urinate through a strainer to catch stones that you pass. Lab analysis will reveal the makeup of your kidney stones. Your doctor uses this information to determine what&apos;s causing your kidney stones and to form a plan to prevent more kidney stones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for kidney stones varies, depending on the type of stone and the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Small stones with minimal symptoms&lt;br /&gt;
+&lt;/strong&gt;Most kidney stones won&apos;t require invasive treatment. You may be able to pass a small stone by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking water.&lt;/strong&gt; Drinking as much as 2 to 3 quarts (1.9 to 2.8 liters) a day may help flush out your urinary system. Unless your doctor tells you otherwise, drink enough fluid &amp;mdash; mostly water &amp;mdash; to produce clear or nearly clear urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Passing a small stone can cause some discomfort. To relieve mild pain, your doctor may recommend pain relievers such as ibuprofen (Advil, Motrin, others), acetaminophen (Tylenol, others) or naproxen sodium (Aleve).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical therapy.&lt;/strong&gt; Your doctor may give you a medication to help pass your kidney stone. This type of medication, known as an alpha blocker, relaxes the muscles in your ureter, helping you pass the kidney stone more quickly and with less pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Large stones and those that cause symptoms&lt;br /&gt;
+&lt;/strong&gt;Kidney stones that can&apos;t be treated with conservative measures &amp;mdash; either because they&apos;re too large to pass on their own or because they cause bleeding, kidney damage or ongoing urinary tract infections &amp;mdash; may require more invasive treatment. Procedures may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using sound waves to break up stones.&lt;/strong&gt; For certain kidney stones &amp;mdash; depending on size and location &amp;mdash; your doctor may recommend a procedure called extracorporeal shock wave lithotripsy (SWL). SWL uses sound waves to create strong vibrations (shock waves) that break the stones into tiny pieces that can be passed in your urine. The procedure lasts about 45 to 60 minutes and can cause moderate pain, so you may be under sedation or light anesthesia to make you comfortable. SWL can cause blood in the urine, bruising on the back or abdomen, bleeding around the kidney and other adjacent organs, and discomfort as the stone fragments pass through the urinary tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove very large stones in the kidney.&lt;/strong&gt; A procedure called percutaneous nephrolithotomy (nef-row-lih-THOT-uh-me) involves surgically removing a kidney stone using small telescopes and instruments inserted through a small incision in your back. You&apos;ll receive general anesthesia during the surgery and be in the hospital for one to two days while you recover. Your doctor may recommend this surgery if SWL was unsuccessful or if your stone is very large.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to remove stones.&lt;/strong&gt; To remove a smaller stone in your ureter or kidney, your doctor may pass a thin lighted tube (ureteroscope) equipped with a camera through your urethra and bladder to your ureter. Once the stone is located, special tools can snare the stone or break it into pieces that will pass in your urine. Your doctor may then place a small tube (stent) in the ureter to relieve swelling and promote healing. You may need general or local anesthesia during this procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parathyroid gland surgery.&lt;/strong&gt; Some calcium stones are caused by overactive parathyroid glands, which are located on the four corners of your thyroid gland, just below your Adam&apos;s apple. When these glands produce too much parathyroid hormone (hyperparathyroidism), your calcium levels can become too high and kidney stones may form as a result. Hyperparathyroidism sometimes occurs when a small, benign tumor forms in one of your parathyroid glands or you develop another condition that leads these glands to produce more parathyroid hormone. Removing the growth from the gland stops the formation of kidney stones. Or your doctor may recommend treatment of the condition that&apos;s causing your parathyroid gland to overproduce the hormone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prevention of kidney stones may include a combination of lifestyle changes and medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle changes&lt;br /&gt;
+&lt;/strong&gt;You may reduce your risk of kidney stones if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink water throughout the day.&lt;/strong&gt; For people with a history of kidney stones, doctors usually recommend passing about 2.6 quarts (2.5 liters) of urine a day. Your doctor may ask that you measure your urine output to make sure that you&apos;re drinking enough water. If you live in a hot, dry climate or you exercise frequently, you may need to drink even more water to produce enough urine. If your urine is light and clear, you&apos;re likely drinking enough water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat fewer oxalate-rich foods.&lt;/strong&gt; If you tend to form calcium oxalate stones, your doctor may recommend restricting foods rich in oxalates. These include rhubarb, beets, okra, spinach, Swiss chard, sweet potatoes, nuts, tea, chocolate and soy products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a diet low in salt and animal protein.&lt;/strong&gt; Reduce the amount of salt you eat and choose nonanimal protein sources, such as legumes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continue eating calcium-rich foods, but use caution with calcium supplements.&lt;/strong&gt; Calcium in food doesn&apos;t have an effect on your risk of kidney stones. Continue eating calcium-rich foods unless your doctor advises otherwise. Ask your doctor before taking calcium supplements, as these have been linked to increased risk of kidney stones. You may reduce the risk by taking supplements with meals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your doctor for a referral to a dietitian who can help you develop an eating plan that reduces your risk of kidney stones.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications can control the amount of minerals and acid in your urine and may be helpful in people who form certain kinds of stones. The type of medication your doctor prescribes will depend on the kind of kidney stones you have. Here are some examples: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium stones.&lt;/strong&gt; To help prevent calcium stones from forming, your doctor may prescribe a thiazide diuretic or a phosphate-containing preparation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uric acid stones.&lt;/strong&gt; Your doctor may prescribe allopurinol (Zyloprim, Aloprim) to reduce uric acid levels in your blood and urine and a medicine to keep your urine alkaline. In some cases, allopurinol and an alkalinizing agent may dissolve the uric acid stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Struvite stones.&lt;/strong&gt; To prevent struvite stones, your doctor may recommend strategies to keep your urine free of bacteria that cause infection. Long-term use of antibiotics in small doses may help achieve this goal. For instance, your doctor may recommend an antibiotic before and for a while after surgery to treat your kidney stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystine stones.&lt;/strong&gt; Cystine stones can be difficult to treat. Your doctor may recommend that you drink more fluids so that you produce a lot more urine. If that alone doesn&apos;t help, your doctor may also prescribe a medication that decreases the amount of cystine in your urine.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kidney stones
+	</Title>
+	<Abstract>
+		Kidney stones &amp;mdash; Comprehensive overview covers symptoms, risks, causes, treatment of this often intensely painful condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ01212" LinkType="Internal" ObjectID="3900044F-0479-4EE7-B69ABBDC41E64B93" Title="Low-phosphorus diet: Best for kidney disease?" Url="http://www.mayoclinic.com/health/food-and-nutrition/HQ01212" />
+		<LinkItem ContentType="Answer" DocID="AN00847" LinkType="Internal" ObjectID="FC2A0D14-5B75-441D-A69CEA2C6F1A42E2" Title="High-protein diets: Are they safe?" Url="http://www.mayoclinic.com/health/high-protein-diets/AN00847" />
+		<LinkItem ContentType="Disease" DocID="DS00396" LinkType="Internal" ObjectID="0487CA33-EE6D-4E87-93CB56C658CA5FB5" Title="Hyperparathyroidism" Url="http://www.mayoclinic.com/health/hyperparathyroidism/DS00396" />
+	</RelatedLinksBox>
+</Disease>

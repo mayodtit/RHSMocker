@@ -1,0 +1,396 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00351
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/leukemia/DS00351
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-03
+		</UpdateDate>
+		<PublicationDate>
+			1999-06-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2145" Title="Leukemia" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			97C21193-86CD-4C2D-A18052CFD8125EBF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				acute myelogenous leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				acute myeloid leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				AML
+			</MetaKeyword>
+			<MetaKeyword>
+				acute lymphocytic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				acute lymphoblastic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				ALL
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myelogenous leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myeloid leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				CML
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic lymphocytic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic lymphoblastic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				CLL
+			</MetaKeyword>
+			<MetaKeyword>
+				acute leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myelomonocytic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				lukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				luekemia
+			</MetaKeyword>
+			<MetaKeyword>
+				leukimia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Leukemia is cancer of the body&apos;s blood-forming tissues, including the bone marrow and the lymphatic system. 
+&lt;/p&gt;
+&lt;p&gt;
+Many types of leukemia exist. Some forms of leukemia are more common in children. Other forms of leukemia occur mostly in adults. 
+&lt;/p&gt;
+&lt;p&gt;
+Leukemia usually starts in the white blood cells. Your white blood cells are potent infection fighters &amp;mdash; they normally grow and divide in an orderly way, as your body needs them. But in people with leukemia, the bone marrow produces abnormal white blood cells, which don&apos;t function properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for leukemia can be complex &amp;mdash; depending on the type of leukemia and other factors. But there are strategies and resources that can help to make your treatment successful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Leukemia symptoms vary, depending on the type of leukemia. Common leukemia signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever or chills&lt;/li&gt;
+	&lt;li&gt;Persistent fatigue, weakness&lt;/li&gt;
+	&lt;li&gt;Frequent infections&lt;/li&gt;
+	&lt;li&gt;Losing weight without trying&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes, enlarged liver or spleen&lt;/li&gt;
+	&lt;li&gt;Easy bleeding or bruising&lt;/li&gt;
+	&lt;li&gt;Tiny red spots in your skin (petechiae)&lt;/li&gt;
+	&lt;li&gt;Excessive sweating, especially at night&lt;/li&gt;
+	&lt;li&gt;Bone pain or tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Leukemia symptoms are often vague and not specific. You may overlook early leukemia symptoms because they may resemble symptoms of the flu and other common illnesses. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, leukemia may be discovered during blood tests for some other condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="60" Title="Photograph of petechiae on leg and abdomen" URI="/images/image_popup/thumbs/ans7_petechiaethu.jpg" Width="60" />
+				<Image Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="317" Title="Petechiae" URI="/images/image_popup/ans7_petechiae.jpg" Width="400" />
+				<HTML>
+					Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scientists don&apos;t understand the exact causes of leukemia. It seems to develop from a combination of genetic and environmental factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How leukemia forms&lt;/strong&gt; &lt;br /&gt;
+In general, leukemia is thought to occur when some blood cells acquire mutations in their DNA &amp;mdash; the instructions inside each cell that guide its action. Or other changes in the cells that have yet to be fully understood could contribute to causing leukemia. The abnormalities cause the cell to grow and divide more rapidly and to continue living when normal cells would die. Over time, these abnormal cells can crowd out healthy blood cells in the bone marrow, leading to fewer healthy blood cells and causing the signs and symptoms of leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How leukemia is classified&lt;/strong&gt; &lt;br /&gt;
+Doctors classify leukemia based on its speed of progression and the type of cells involved. 
+&lt;/p&gt;
+&lt;p&gt;
+The first type of classification is by how fast the leukemia progresses: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute leukemia.&lt;/strong&gt; In acute leukemia, the abnormal blood cells are immature blood cells (blasts). They can&apos;t carry out their normal work, and they multiply rapidly, so the disease worsens quickly. Acute leukemia requires aggressive, timely treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic leukemia.&lt;/strong&gt; This type of leukemia involves more mature blood cells. These blood cells replicate or accumulate more slowly and can function normally for a period of time. Some forms of chronic leukemia initially produce no symptoms and can go unnoticed or undiagnosed for years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The second type of classification is by type of white blood cell affected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lymphocytic leukemia.&lt;/strong&gt; This type of leukemia affects the lymphoid cells (lymphocytes), which form lymphoid or lymphatic tissue. Lymphatic tissue makes up your immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelogenous (MI-uh-loj-uh-nus) leukemia.&lt;/strong&gt; This type of leukemia affects the myeloid cells. Myeloid cells give rise to red blood cells, white blood cells and platelet-producing cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of leukemia&lt;/strong&gt; &lt;br /&gt;
+The major types of leukemia are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute lymphocytic leukemia (ALL).&lt;/strong&gt; This is the most common type of leukemia in young children. ALL can also occur in adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute myelogenous leukemia (AML).&lt;/strong&gt; AML is a common type of leukemia. It occurs in children and adults. AML is the most common type of acute leukemia in adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic lymphocytic leukemia (CLL).&lt;/strong&gt; With CLL, the most common chronic adult leukemia, you may feel well for years without needing treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic myelogenous leukemia (CML).&lt;/strong&gt; This type of leukemia mainly affects adults. A person with CML may have few or no symptoms for months or years before entering a phase in which the leukemia cells grow more quickly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other, rarer types of leukemia exist, including hairy cell leukemia. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing some types of leukemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Previous cancer treatment.&lt;/strong&gt; People who&apos;ve had certain types of chemotherapy and radiation therapy for other cancers have an increased risk of developing certain types of leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic disorders.&lt;/strong&gt; Genetic abnormalities seem to play a role in the development of leukemia. Certain genetic disorders, such as Down syndrome, are associated with increased risk of leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain blood disorders.&lt;/strong&gt; People who have been diagnosed with certain blood disorders, such as myelodysplastic syndromes, may have an increased risk of leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to high levels of radiation.&lt;/strong&gt; People exposed to very high levels of radiation, such as survivors of a nuclear reactor accident, have an increased risk of developing leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain chemicals.&lt;/strong&gt; Exposure to certain chemicals, such as benzene &amp;mdash; which is found in gasoline and is used by the chemical industry &amp;mdash; also is linked to increased risk of some kinds of leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking cigarettes increases the risk of acute myelogenous leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of leukemia.&lt;/strong&gt; If members of your family have been diagnosed with leukemia, your risk of the disease may be increased.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, most people with known risk factors don&apos;t get leukemia. And many people with leukemia have none of these risk factors. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have signs or symptoms that suggest leukemia. If your doctor suspects you have leukemia, you may be referred to a doctor who treats diseases of the blood and bone marrow (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For leukemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have leukemia?&lt;/li&gt;
+	&lt;li&gt;What type of leukemia do I have?&lt;/li&gt;
+	&lt;li&gt;Do I need more tests?&lt;/li&gt;
+	&lt;li&gt;Does my leukemia need immediate treatment?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for my leukemia?&lt;/li&gt;
+	&lt;li&gt;Can any treatments cure my leukemia?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my daily life? Can I continue working or going to school?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had abnormal blood test results? If so, when?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors may find chronic leukemia in a routine blood test, before symptoms begin. If this happens, or if you have signs or symptoms that suggest leukemia, you may undergo the following diagnostic exams: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will look for physical signs of leukemia, such as pale skin from anemia and swelling of your lymph nodes, liver and spleen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; By looking at a sample of your blood, your doctor can determine if you have abnormal levels of white blood cells or platelets &amp;mdash; which may suggest leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow test.&lt;/strong&gt; Your doctor may recommend a procedure to remove a sample of bone marrow from your hipbone. The bone marrow is removed using a long, thin needle. The sample is sent to a laboratory to look for leukemia cells. Specialized tests of your leukemia cells may reveal certain characteristics that are used to determine your treatment options.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may undergo additional tests to confirm the diagnosis and to determine the type of leukemia and its extent in your body. Certain types of leukemia are classified into stages, indicating the severity of the disease. Your leukemia&apos;s stage helps your doctor determine a treatment plan. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="60" Title="Bone marrow biopsy" URI="/images/image_popup/thumbs/r7_bonemarrowaspirationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="400" Title="Bone marrow biopsy" URI="/images/image_popup/r7_bonemarrowaspiration.jpg" Width="400" />
+				<HTML>
+					In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for your leukemia depends on many factors. Your doctor determines your leukemia treatment options based on your age and overall health, the type of leukemia you have, and whether it has spread to other parts of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Common treatments used to fight leukemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy is the major form of treatment for leukemia. This drug treatment uses chemicals to kill leukemia cells. Depending on the type of leukemia you have, you may receive a single drug or a combination of drugs. These drugs may come in a pill form, or they may be injected directly into a vein.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biological therapy.&lt;/strong&gt; Biological therapy works by helping your immune system recognize and attack leukemia cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Targeted therapy.&lt;/strong&gt; Targeted therapy uses drugs that attack specific vulnerabilities within your cancer cells. For example, the drug imatinib (Gleevec) stops the action of a protein within the leukemia cells of people with chronic myelogenous leukemia. This can help control the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy uses X-rays or other high-energy beams to damage leukemia cells and stop their growth. During radiation therapy, you lie on a table while a large machine moves around you, directing the radiation to precise points on your body. You may receive radiation in one specific area of your body where there is a collection of leukemia cells, or you may receive radiation over your whole body. Radiation therapy may be used to prepare for a stem cell transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cell transplant.&lt;/strong&gt; A stem cell transplant is a procedure to replace your diseased bone marrow with healthy bone marrow. Before a stem cell transplant, you receive high doses of chemotherapy or radiation therapy to destroy your diseased bone marrow. Then you receive an infusion of blood-forming stem cells that help to rebuild your bone marrow. You may receive stem cells from a donor, or in some cases you may be able to use your own stem cells. A stem cell transplant is very similar to a bone marrow transplant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of leukemia may be devastating &amp;mdash; especially for the family of a newly diagnosed child. Remember that no matter what your concerns or prognosis, you&apos;re not alone. The road ahead may not be easy, but these strategies and resources may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what to expect.&lt;/strong&gt; If you or your child is diagnosed with leukemia, find out everything you can about the type, the stage, the treatment options and their side effects. The more you know, the more confidence you&apos;ll have when making treatment decisions. In addition to talking with your doctor, seek out information from reliable sources such as the National Cancer Institute and the Leukemia &amp; Lymphoma Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be proactive.&lt;/strong&gt; Although you may feel tired and discouraged, don&apos;t let others &amp;mdash; including your family or your doctor &amp;mdash; make important decisions for you. Take an active role in your treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Having a support system can help you cope with the issues, pain and anxieties that might occur. The concern and understanding of a formal support group or others coping with cancer can be especially helpful. Although support groups aren&apos;t for everyone, they can be a good source for practical information. You may also find you develop deep and lasting bonds with people who are going through the same things you are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work at least part time. In fact, many people find that continuing to work can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan ahead for the downtimes when you may need to rest more or limit what you do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Having cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. It&apos;s important to stay involved as much as you can.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Leukemia
+	</Title>
+	<Abstract>
+		Leukemia &amp;mdash; Comprehensive overview covers symptoms, causes, risk factors, treatment of this blood-related cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00558" LinkType="Internal" ObjectID="D5C558D8-ED3A-41BE-9456EA795F1974A3" Title="Acute lymphocytic leukemia" Url="http://www.mayoclinic.com/health/acute-lymphocytic-leukemia/DS00558" />
+		<LinkItem ContentType="Disease" DocID="DS00565" LinkType="Internal" ObjectID="CCA7A9A1-ABB6-4E7B-BE47CD881F53F105" Title="Chronic lymphocytic leukemia" Url="http://www.mayoclinic.com/health/chronic-lymphocytic-leukemia/DS00565" />
+		<LinkItem ContentType="Disease" DocID="DS00886" LinkType="Internal" ObjectID="99A09587-E7FF-0DBD-19E67F95AB34B286" Title="Myelofibrosis" Url="http://www.mayoclinic.com/health/myelofibrosis/DS00886" />
+		<LinkItem ContentType="Disease" DocID="DS00564" LinkType="Internal" ObjectID="1B94EDA3-2C4E-482D-812F882282E2B16D" Title="Chronic myelogenous leukemia" Url="http://www.mayoclinic.com/health/chronic-myelogenous-leukemia/DS00564" />
+		<LinkItem ContentType="Disease" DocID="DS00548" LinkType="Internal" ObjectID="1925E88D-25C3-48BF-91744907F00C6FDC" Title="Acute myelogenous leukemia (AML)" Url="http://www.mayoclinic.com/health/acute-myelogenous-leukemia/DS00548" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00381" LinkType="Internal" ObjectID="6E26FB6E-E7FF-0DBD-19857255671C715E" Title="Hematocrit test" Url="http://www.mayoclinic.com/health/hematocrit/MY00381" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00476" LinkType="Internal" ObjectID="1D9EDDDF-95B4-602A-031B9C87EEDF18B0" Title="Complete blood count (CBC)" Url="http://www.mayoclinic.com/health/complete-blood-count/MY00476" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00081" LinkType="Internal" ObjectID="E5B1AC99-E7FF-0DBD-1BD6F6EB61E7886E" Title="Stem cells: What they are and what they do" Url="http://www.mayoclinic.com/health/stem-cells/CA00081" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+	</RelatedLinksBox>
+</Disease>

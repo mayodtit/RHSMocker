@@ -1,0 +1,356 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00620
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/penicillin-allergy/DS00620
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-15
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="4456" Title="Drug allergy">
+							<Keyword MCVID="1871" Title="Penicillin allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2A278994-2A5D-9994-E175B9F8963C2D6F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				penicillin allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				penicillin
+			</MetaKeyword>
+			<MetaKeyword>
+				amoxicillin
+			</MetaKeyword>
+			<MetaKeyword>
+				allergies and drugs
+			</MetaKeyword>
+			<MetaKeyword>
+				medication
+			</MetaKeyword>
+			<MetaKeyword>
+				medicines
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotics
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				group B streptococcus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Penicillin allergy is an overreaction by your immune system to penicillin and related antibiotics. If you have a penicillin allergy, your reaction to taking the antibiotic may range from a rash to anaphylaxis, a potentially life-threatening condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Penicillin antibiotics are widely prescribed for bacterial infections, such as strep throat. However, not all unfavorable reactions to penicillin are a true penicillin allergy. 
+&lt;/p&gt;
+&lt;p&gt;
+It isn&apos;t clear why some people develop penicillin allergy. Once you&apos;ve had an allergic reaction to penicillin, the simplest way to prevent penicillin allergy is to avoid penicillin and related antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people who report having a penicillin allergy don&apos;t have a true allergy. They may have had a reaction to penicillin, such as certain types of rash, but not all reactions are allergies. Penicillin allergy symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Itchy skin&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Swollen lips, tongue or face (angioedema)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anaphylactic reactions&lt;/strong&gt;&lt;br /&gt;
+The most serious allergic reaction to penicillin is an anaphylactic (an-uh-fuh-LAK-tik) response, which can be life-threatening. Anaphylactic reactions develop immediately after penicillin exposure in highly sensitive people. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Drop in blood pressure&lt;/li&gt;
+	&lt;li&gt;Swelling of the throat or tongue&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Rapid or weak pulse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek emergency medical care if you think you or someone else is having an anaphylactic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have less severe reactions after taking penicillin, talk to your doctor. If possible, see your doctor when the allergic reaction is occurring. This will aid in making a diagnosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of rash caused by drug allergy
+" Caption="A drug rash usually starts within two weeks of taking a new medication and begins as discrete red spots that spread, covering large areas of the body.
+" Height="60" Title="Drug rash" URI="/images/image_popup/thumbs/r7_drugrashthu.jpg" Width="60" />
+				<Image Alt="Image of rash caused by drug allergy
+" Caption="A drug rash usually starts within two weeks of taking a new medication and begins as discrete red spots that spread, covering large areas of the body.
+" Height="400" Title="Drug rash" URI="/images/image_popup/r7_drugrash.jpg" Width="400" />
+				<HTML>
+					A drug rash usually starts within two weeks of taking a new medication and begins as discrete red spots that spread, covering large areas of the body.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Penicillin allergy occurs when your immune system responds to the drug as if it were a harmful substance instead of a helpful remedy. Your immune system triggers certain cells to produce immunoglobulin E (IgE) antibodies to fight the component of penicillin to which you&apos;re allergic (allergen). Chemicals released by your immune cells can cause the signs and symptoms associated with an allergic reaction. Exactly why this happens isn&apos;t clear. 
+&lt;/p&gt;
+&lt;p&gt;
+Penicillin belongs to a family of drugs called beta-lactam antibiotics. These drugs include penicillin and amoxicillin, which are relatively inexpensive and effective at treating many common bacterial infections. Such infections include skin, ear, sinus and upper respiratory infections. 
+&lt;/p&gt;
+&lt;p&gt;
+Taken orally or injected, penicillin works by stopping the growth of bacteria in your body. Several varieties of penicillin exist, and each targets a different infection in a different part of your body. You may have heard of some of the other drugs in the penicillin family, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Amoxicillin&lt;/li&gt;
+	&lt;li&gt;Ampicillin&lt;/li&gt;
+	&lt;li&gt;Dicloxacillin&lt;/li&gt;
+	&lt;li&gt;Oxacillin&lt;/li&gt;
+	&lt;li&gt;Penicillin V&lt;/li&gt;
+	&lt;li&gt;Piperacillin&lt;/li&gt;
+	&lt;li&gt;Piperacillin and tazobactam combined (Zosyn)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re allergic to one type of penicillin, you&apos;re at risk of being allergic to all penicillin-related antibiotics. Some people allergic to penicillin may also be allergic to cephalosporins, a class of antibiotics related to penicillin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It isn&apos;t clear why some people develop penicillin allergies, while others don&apos;t. However, certain people seem to be at greater risk of developing a penicillin allergy than others are. 
+&lt;/p&gt;
+&lt;p&gt;
+You may be at higher risk if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re between the ages of 20 and 49&lt;/li&gt;
+	&lt;li&gt;You&apos;ve taken penicillin frequently&lt;/li&gt;
+	&lt;li&gt;You have HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;You have cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had allergic reactions to penicillin or another drug in the past&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to an allergist, a doctor who specializes in allergies. 
+&lt;/p&gt;
+&lt;p&gt;
+To be sure you get the information you need, it&apos;s good to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Document any exposure to penicillin,&lt;/strong&gt; when it occurred and what type of reaction you had.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you develop a rash after taking penicillin,&lt;/strong&gt; take a photograph of the rash to show your doctor. A photo can be helpful in making a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications you&apos;re taking,&lt;/strong&gt; including vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions before your appointment will help you make the most of your time with your doctor. List your questions from most important to least important. For penicillin allergy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How is a penicillin allergy treated?&lt;/li&gt;
+	&lt;li&gt;How can I avoid penicillin and what alternatives are there?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask additional questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What was your dose of penicillin and how did you take it (by mouth or by injection)?&lt;/li&gt;
+	&lt;li&gt;Do you have any allergies, including hay fever or allergies to certain foods?&lt;/li&gt;
+	&lt;li&gt;Is there a history of allergies in your family?&lt;/li&gt;
+	&lt;li&gt;If you had symptoms after taking penicillin, how long did it take for the symptoms to develop?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you suspect you have a penicillin allergy, don&apos;t take penicillin or related antibiotics. Your doctor can determine whether it&apos;s safe for you to take penicillin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will want to know about your past reactions to penicillin and may examine you to identify or exclude other medical problems. Unless you require penicillin &amp;mdash; either because it&apos;s the only effective antibiotic for a life-threatening condition or because you&apos;re allergic to other antibiotics and have few treatment options &amp;mdash; your doctor may prescribe another antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend you be tested for penicillin allergy if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You were allergic to penicillin in the past, but possibly are no longer sensitive to the drug&lt;/li&gt;
+	&lt;li&gt;You require penicillin for treatment&lt;/li&gt;
+	&lt;li&gt;Your doctor wants to keep you from taking a stronger antibiotic than your condition requires&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because of the risk of anaphylaxis, testing for penicillin allergy should only be done by an allergist in a hospital or doctor&apos;s office. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin test&lt;/strong&gt;&lt;br /&gt;
+This test, which can determine your sensitivity to the drug, involves the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A small amount of penicillin is injected into the skin of your forearm or back.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re allergic to the particular substance being tested, you develop a red, raised bump or reaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the skin tests to penicillin are negative, your doctor may recommend penicillin or a related antibiotic. If the skin test to penicillin is positive, most likely your doctor will recommend that you continue to avoid penicillin and related antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood test&lt;/strong&gt;&lt;br /&gt;
+Although blood tests are available for some types of allergic reaction, there aren&apos;t currently any reliable blood tests to diagnose a penicillin allergy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have an allergic reaction after taking an antibiotic in the penicillin family, you should: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stop taking the medication and ask your doctor about another antibiotic&lt;/li&gt;
+	&lt;li&gt;Avoid using penicillin in the future&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment for signs and symptoms you develop during an allergic reaction to penicillin depends on what kind of reaction you have. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylaxis&lt;/strong&gt; is the most rare and serious allergic drug reaction. It can be life-threatening and requires an injection of epinephrine (adrenaline) and emergency care to maintain blood pressure and support breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rashes or hives&lt;/strong&gt; may improve when treated with an antihistamine, such as diphenhydramine (Benadryl, others). More severe reactions may require treatment with oral or injected corticosteroids.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you&apos;ve had reactions to penicillin in the past, be sure to tell your doctor and other medical professionals, including your dentist. Let your doctor know about any new reactions you notice when taking your medication. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor determines that you&apos;re allergic to penicillin, it&apos;s a good idea to wear a medical alert bracelet that describes your allergy. You might also want to carry an alert card in your wallet or purse. These items are available over-the-counter at most drugstores or can be purchased on the Internet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to avoid an allergic reaction to penicillin is to avoid penicillin and similar antibiotics altogether. If you require an antibiotic, your doctor will work with you to find one you can tolerate. When a doctor or other medical professional prescribes an antibiotic, be sure to double-check that it&apos;s not in the penicillin family. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Penicillin desensitization&lt;/strong&gt;&lt;br /&gt;
+For some infections, it may be necessary for you to take penicillin. In these cases, and if you previously experienced a reaction to penicillin, an allergy skin test may be important. If the skin test reveals that you&apos;re sensitive to penicillin, your doctor may recommend desensitization. 
+&lt;/p&gt;
+&lt;p&gt;
+During the desensitization process, you receive small but gradually increasing doses of penicillin orally or intravenously. Because desensitization can trigger an allergic reaction, it&apos;s attempted only in a controlled setting, usually a hospital, by a doctor trained in the technique, and only when penicillin is absolutely necessary. Your desensitization lasts only as long as you continue taking penicillin. If you stop and then need to take penicillin again later, you&apos;ll need to go through the desensitization process again. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Penicillin allergy
+	</Title>
+	<Abstract>
+		Penicillin allergy &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this allergic reaction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Answer" DocID="AN01467" LinkType="Internal" ObjectID="52A9B9F4-E7FF-0DBD-15D383AF16C11258" Title="Aspirin allergy: What are the symptoms?" Url="http://www.mayoclinic.com/health/aspirin-allergy/AN01467" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="Disease" DocID="DS01148" LinkType="Internal" ObjectID="D083DF11-E543-F247-8C0C76E81FA6E12B" Title="Drug allergy" Url="http://www.mayoclinic.com/health/drug-allergy/DS01148" />
+	</RelatedLinksBox>
+</Disease>

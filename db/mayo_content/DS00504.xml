@@ -1,0 +1,386 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00504
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mitral-valve-prolapse/DS00504
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2003-08-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1488" Title="Heart valve disease">
+						<Keyword MCVID="1489" Title="Mitral valve">
+							<Keyword MCVID="4272" Title="Mitral valve prolapse" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7BC670D0-DACB-4F9C-B6E0601DFEE46B09
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mitral valve prolapse
+			</MetaKeyword>
+			<MetaKeyword>
+				mitral valve
+			</MetaKeyword>
+			<MetaKeyword>
+				heart valve
+			</MetaKeyword>
+			<MetaKeyword>
+				heart valves
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial septal defect
+			</MetaKeyword>
+			<MetaKeyword>
+				click murmur syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mitral valve prolapse (MVP) occurs when the valve between your heart&apos;s left upper chamber (left atrium) and the left lower chamber (left ventricle) doesn&apos;t close properly. During mitral valve prolapse, that valve bulges (prolapses) upward, or back into the atrium. Mitral (MIE-truhl) valve prolapse sometimes leads to blood leaking backward into the left atrium, a condition called mitral valve regurgitation. 
+&lt;/p&gt;
+&lt;p&gt;
+In most people, mitral valve prolapse isn&apos;t life-threatening and doesn&apos;t require treatment or changes in lifestyle. Some people with mitral valve prolapse, however, require treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of heart showing mitral valve prolapse 
+" Caption="The mitral valve separates the two chambers (atrium and ventricle) of the left side of the heart. In mitral valve prolapse, the leaflets of the mitral valve bulge (prolapse) into the left atrium like a parachute during the heart&apos;s contraction. 
+" Height="60" Title="Mitral valve prolapse" URI="/images/image_popup/thumbs/hb7_mitralprolapsethu.jpg" Width="60" />
+				<Image Alt="Illustration of heart showing mitral valve prolapse 
+" Caption="The mitral valve separates the two chambers (atrium and ventricle) of the left side of the heart. In mitral valve prolapse, the leaflets of the mitral valve bulge (prolapse) into the left atrium like a parachute during the heart&apos;s contraction. 
+" Height="411" Title="Mitral valve prolapse" URI="/images/image_popup/hb7_mitralprolapse.jpg" Width="400" />
+				<HTML>
+					The mitral valve separates the two chambers (atrium and ventricle) of the left side of the heart. In mitral valve prolapse, the leaflets of the mitral valve bulge (prolapse) into the left atrium like ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although mitral valve prolapse is a lifelong disorder, many people with this condition never have symptoms. When diagnosed, people may be surprised to learn that they have a heart condition. 
+&lt;/p&gt;
+&lt;p&gt;
+When signs and symptoms do occur, it&apos;s typically because blood is leaking backward through the valve (regurgitation). Mitral valve prolapse symptoms can vary widely from one person to another. They tend to be mild, develop gradually and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A racing or irregular heartbeat (arrhythmia)&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or shortness of breath, often when lying flat or during physical activity&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Chest pain that&apos;s not caused by a heart attack or coronary artery disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you think you have any of the above symptoms, make an appointment with your doctor. Many other conditions cause the same symptoms as mitral valve prolapse, so only a visit to your doctor can determine the cause of your symptoms. If you&apos;re having chest pain and you&apos;re unsure if it could be a heart attack, seek emergency medical care immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve already been diagnosed with mitral valve prolapse, see your doctor if your symptoms worsen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your heart is working properly, the mitral valve closes completely during contraction of the left ventricle and prevents blood from flowing back into your heart&apos;s upper left chamber (left atrium). But in some people with mitral valve prolapse, the mitral valve&apos;s flaps (leaflets) have extra tissue, bulging (prolapsing) like a parachute into their left atrium each time the heart contracts. 
+&lt;/p&gt;
+&lt;p&gt;
+The bulging may keep the valve from closing tightly. When blood leaks backward through the valve, it&apos;s called mitral valve regurgitation. This may not cause problems if only a small amount of blood leaks back into the atrium. More severe mitral valve regurgitation can cause symptoms such as shortness of breath, fatigue, lightheadedness or a cough. 
+&lt;/p&gt;
+&lt;p&gt;
+Another name for mitral valve prolapse is click-murmur syndrome. When a doctor listens to your heart using a stethoscope, he or she may hear a clicking sound as the valve&apos;s leaflets billow out, followed by a murmur resulting from blood flowing back into the atrium. Other names to describe mitral valve prolapse include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Barlow&apos;s syndrome&lt;/li&gt;
+	&lt;li&gt;Floppy valve syndrome&lt;/li&gt;
+	&lt;li&gt;Ballooning mitral valve syndrome&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of heart showing mitral valve prolapse 
+" Caption="The mitral valve separates the two chambers (atrium and ventricle) of the left side of the heart. In mitral valve prolapse, the leaflets of the mitral valve bulge (prolapse) into the left atrium like a parachute during the heart&apos;s contraction. 
+" Height="60" Title="Mitral valve prolapse" URI="/images/image_popup/thumbs/hb7_mitralprolapsethu.jpg" Width="60" />
+				<Image Alt="Illustration of heart showing mitral valve prolapse 
+" Caption="The mitral valve separates the two chambers (atrium and ventricle) of the left side of the heart. In mitral valve prolapse, the leaflets of the mitral valve bulge (prolapse) into the left atrium like a parachute during the heart&apos;s contraction. 
+" Height="411" Title="Mitral valve prolapse" URI="/images/image_popup/hb7_mitralprolapse.jpg" Width="400" />
+				<HTML>
+					The mitral valve separates the two chambers (atrium and ventricle) of the left side of the heart. In mitral valve prolapse, the leaflets of the mitral valve bulge (prolapse) into the left atrium like ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although mitral valve prolapse can develop in any person at any age, it&apos;s found most often in men older than 50. 
+&lt;/p&gt;
+&lt;p&gt;
+Mitral valve prolapse often runs in families and may be linked to other conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Marfan syndrome&lt;/li&gt;
+	&lt;li&gt;Ehlers-Danlos syndrome&lt;/li&gt;
+	&lt;li&gt;Adult polycystic kidney disease&lt;/li&gt;
+	&lt;li&gt;Ebstein&apos;s anomaly&lt;/li&gt;
+	&lt;li&gt;Scoliosis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although most people with mitral valve prolapse never have problems, complications can occur. Complications tend to occur in middle-aged or older adults. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mitral valve regurgitation.&lt;/strong&gt; The most common complication is mitral valve regurgitation (mitral insufficiency) &amp;mdash; a condition in which the valve leaks blood back into the left atrium. Having high blood pressure or being overweight increases your risk of mitral valve regurgitation. If the regurgitation is severe, you may need surgery to repair or even replace the valve in order to prevent the development of complications, such as heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart rhythm problems (arrhythmias).&lt;/strong&gt; Irregular heart rhythms can occur in people with mitral valve prolapse. These most commonly occur in the upper chambers of the heart, and while they may be bothersome, they aren&apos;t usually life-threatening. People with severe mitral valve regurgitation, or severe deformity of their mitral valve, are most susceptible to serious rhythm problems, which affect blood flow through the heart.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Heart valve infection (endocarditis).&lt;/strong&gt; The inside of your heart contains four chambers and four valves lined by a thin membrane called the endocardium. Endocarditis is an infection of this inner lining. An abnormal mitral valve increases your chance of getting endocarditis from bacteria, which can further damage the mitral valve. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Doctors used to recommend that some people with mitral valve prolapse take antibiotics before certain dental or medical procedures to prevent endocarditis, but not anymore. The American Heart Association advises that antibiotics aren&apos;t necessary in most cases for someone with mitral valve regurgitation or mitral valve prolapse. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of heart showing mitral valve regurgitation 
+" Caption="Sometimes mitral valve prolapse causes blood to leak back into the atrium from the ventricle, which is called mitral valve regurgitation. 
+" Height="60" Title="Mitral valve regurgitation" URI="/images/image_popup/thumbs/hb7_mitralregurgthu.jpg" Width="60" />
+				<Image Alt="Illustration of heart showing mitral valve regurgitation 
+" Caption="Sometimes mitral valve prolapse causes blood to leak back into the atrium from the ventricle, which is called mitral valve regurgitation. 
+" Height="411" Title="Mitral valve regurgitation" URI="/images/image_popup/hb7_mitralregurg.jpg" Width="400" />
+				<HTML>
+					Sometimes mitral valve prolapse causes blood to leak back into the atrium from the ventricle, which is called mitral valve regurgitation. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you have mitral valve prolapse, make an appointment to see your doctor. Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to mitral valve prolapse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, heart defects, genetic disorders, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For mitral valve prolapse, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment? What kind?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;If I need surgery, which surgeon do you recommend for mitral valve repair?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors may diagnose mitral valve prolapse at any age. Your doctor is most likely to detect mitral valve prolapse by listening to your heart using a stethoscope. If you have mitral valve prolapse, your doctor may hear clicking sounds, which are common in mitral valve prolapse. Your doctor may also hear a heart murmur if you have blood leaking backward through your mitral valve (mitral valve regurgitation). 
+&lt;/p&gt;
+&lt;p&gt;
+Other tests to diagnose mitral valve prolapse include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram is usually done to confirm the diagnosis. An echocardiogram is a noninvasive, ultrasound evaluation of your heart. This test uses high-frequency sound waves to create images of your heart and its structures, including the mitral valve itself, and the flow of blood through it. The amount of leakage (regurgitation) can be measured.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An image is created by directing X-rays at your chest and positioning a large piece of photographic film or a digital recording plate against your back. The X-ray machine produces a small burst of radiation that passes through your body and produces an image on the film or digital plate. A chest X-ray shows a picture of your heart, lungs and blood vessels, and can help your doctor make a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, a technician will place probes on your chest that record the electrical impulses that make your heart beat. An ECG records these electrical signals and can help your doctor detect irregularities in your heart&apos;s rhythm and structure, including mitral valve prolapse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; Your doctor may order a stress test, usually a treadmill exercise test, to see if mitral valve regurgitation limits your ability to exercise. You may also have a stress test if you have chest pain and your doctor is trying to see if this is due to mitral valve prolapse or coronary artery disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; If your doctor thinks you have a mitral valve prolapse so severe that you might need surgery, he or she may recommend cardiac catheterization and coronary angiograms before surgery. During a cardiac catheterization, a long, thin, flexible plastic tube (catheter) is inserted into your body. Dye is injected into the blood vessels of your heart. The dye is visible by X-ray machine. The machine rapidly takes a series of X-ray images (angiograms), offering a detailed look at your heart arteries to determine if you need coronary artery bypass at the same time as your valve surgery. Pressures in the heart&apos;s chambers may be measured, particularly if there is any concern about high blood pressure in the lung arteries (pulmonary hypertension) that might influence the decision to proceed with surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have mitral valve regurgitation but don&apos;t have symptoms, your doctor may suggest you return every three to five years for examinations to monitor your condition, depending on how serious your condition is. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with mitral valve prolapse, particularly people without symptoms, don&apos;t require treatment. However, if you have symptoms, your doctor may recommend medications or surgery, depending on the severity of your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+If you develop symptoms, your doctor might prescribe certain medications to treat mitral valve prolapse-related chest pain, heart rhythm abnormalities or other complications. Some medications you might be prescribed include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These drugs help prevent irregular heartbeats by making your heart beat more slowly and with less force, which reduces your blood pressure. Beta blockers also help blood vessels relax and open up to improve blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin.&lt;/strong&gt; If you have mitral valve prolapse and a personal or family history of strokes, your doctor might prescribe aspirin to reduce the risk of blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prescription anticoagulants (blood thinners).&lt;/strong&gt; These medications &amp;mdash; warfarin (Coumadin) is commonly used &amp;mdash; prevent your blood from clotting. If you have atrial fibrillation, a history of heart failure or a history of strokes, your doctor may suggest these drugs. They can have dangerous side effects, however, and must be taken exactly as prescribed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Though most people with mitral valve prolapse don&apos;t need surgery, your doctor may suggest surgical treatment if you have severe mitral valve regurgitation with or without symptoms. Severe mitral valve regurgitation can eventually cause heart failure, preventing your heart from effectively pumping blood. If regurgitation goes on too long, your heart may be too weak for surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suggests surgery, there are two main options &amp;mdash; repair or replacement of the mitral valve. Both valve repair and replacement require open heart surgery. Both procedures require significant recovery time. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Valve repair.&lt;/strong&gt; Mitral valve repair is a surgery that preserves your own valve. For most people with mitral valve prolapse, this is the preferred surgical treatment to correct your condition. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your mitral valve consists of two triangular-shaped flaps of tissue called leaflets. The leaflets of the mitral valve connect to the heart muscle through a ring called the annulus. The surgeon can modify the original valve (valvuloplasty) to eliminate backward blood flow. Surgeons also can repair the valve by reconnecting valve leaflets or by removing excess valve tissue so that the leaflets can close tightly. Sometimes repairing the valve includes tightening or replacing the ring around the valve (annulus). This is called an annuloplasty. It is important to ensure that your surgeon is experienced in performing mitral valve repair. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Valve replacement.&lt;/strong&gt; Valve replacement is done when valve repair isn&apos;t possible. In valve replacement surgery, the damaged mitral valve is replaced by an artificial (prosthetic) valve. The two types of artificial valves are mechanical and tissue. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Mechanical valves may last a long time. However, if you have a mechanical valve, you must use an anticoagulant medication, such as warfarin (Coumadin), for the rest of your life to prevent blood clots from forming on the valve. If a blood clot forms on the valve and breaks free, it could travel to your brain and cause a stroke. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Tissue valves are made from animal tissue such as a pig&apos;s heart valve. These kinds of valves are called bioprostheses. They may wear out over time and need replacement. However, an advantage of the tissue valve is that you don&apos;t have to use long-term anticoagulant medication. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics seldom recommended&lt;/strong&gt;&lt;br /&gt;
+Doctors used to recommend that some people with mitral valve prolapse take antibiotics before certain dental or medical procedures to prevent endocarditis, but not anymore. According to the American Heart Association, antibiotics are no longer necessary in most cases for someone with mitral valve regurgitation or mitral valve prolapse. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, if you&apos;ve been told to take antibiotics before any procedures in the past, check with your doctor whether that&apos;s still necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Precautions during pregnancy&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re pregnant and have mitral valve prolapse, your chances of a successful, uncomplicated pregnancy are good. Even so, doctors sometimes recommend antibiotics during childbirth if there&apos;s a risk of an infection that could affect the mitral valve. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with mitral valve prolapse lead normal, productive and symptom-free lives. Doctors generally won&apos;t recommend restrictions on your lifestyle or any limitations on your personal exercise or dietary program. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can&apos;t prevent mitral valve prolapse. However, you can lower your chances of developing the complications associated with it by making sure you take your medications, if any, as directed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mitral valve prolapse
+	</Title>
+	<Abstract>
+		Mitral valve prolapse &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this heart disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01949" LinkType="Internal" ObjectID="D3AA86BF-E7FF-0DBD-13D207CC31E82376" Title="Mitral valve prolapse: Can it thicken the aorta?" Url="http://www.mayoclinic.com/health/mitral-valve-prolapse/AN01949" />
+		<LinkItem ContentType="Video" DocID="MM00714" LinkType="Internal" ObjectID="94AA8EC0-E7FF-0DBD-1BF1E3F57AA153FF" Title="Video: Mitral valve regurgitation" Url="http://www.mayoclinic.com/health/mitral-valve-regurgitation/MM00714" />
+		<LinkItem ContentType="Video" DocID="MM00713" LinkType="Internal" ObjectID="94A99003-E7FF-0DBD-1B65EB60FA8123D1" Title="Video: Mitral valve repair surgery" Url="http://www.mayoclinic.com/health/heart-valve-repair/MM00713" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+	</RelatedLinksBox>
+</Disease>

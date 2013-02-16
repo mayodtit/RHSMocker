@@ -1,0 +1,301 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01018
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/atypical-hyperplasia/DS01018
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="4052" Title="Atypical hyperplasia of the breast" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B0F3548B-E7FF-0DBD-156DBB6771EDEB4C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				atypical hyperplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				atypia
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal cells
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer risk
+			</MetaKeyword>
+			<MetaKeyword>
+				atypical ductal hyperplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				atypical lobular hyperplasia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atypical hyperplasia is a precancerous condition that affects cells in the breast. Atypical hyperplasia describes an accumulation of abnormal cells in a breast duct (atypical ductal hyperplasia) or lobule (atypical lobular hyperplasia). 
+&lt;/p&gt;
+&lt;p&gt;
+Atypical hyperplasia isn&apos;t cancer, but it can be a forerunner to the development of breast cancer. Over the course of your lifetime, if the atypical hyperplasia cells keep dividing and become more abnormal, your condition may be reclassified as noninvasive breast cancer (carcinoma in situ) or breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been diagnosed with atypical hyperplasia, you have an increased risk of developing breast cancer in the future. For this reason, doctors sometimes recommend more frequent breast cancer screening and careful consideration of medications and other strategies to reduce breast cancer risk. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how cancer develops 
+" Caption="Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The abnormal cells may continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer or, eventually, invasive cancer. Invasive cancer can spread to other areas of the body through the bloodstream or the lymphatic system. 
+" Height="60" Title="How cancer develops" URI="/images/image_popup/thumbs/br7_cancerdevelopmentthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how cancer develops 
+" Caption="Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The abnormal cells may continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer or, eventually, invasive cancer. Invasive cancer can spread to other areas of the body through the bloodstream or the lymphatic system. 
+" Height="214" Title="How cancer develops" URI="/images/image_popup/br7_cancerdevelopment.jpg" Width="400" />
+				<HTML>
+					Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atypical hyperplasia doesn&apos;t cause any specific signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Atypical hyperplasia doesn&apos;t cause signs and symptoms, but it&apos;s usually discovered during a breast biopsy to investigate breast signs and symptoms caused by another condition or an abnormality found on a mammogram. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes atypical hyperplasia. Atypical hyperplasia forms when breast cells become abnormal in number, size, shape, growth pattern and appearance. Location of the abnormal cells within the breast tissue &amp;mdash; the lobules or the milk ducts &amp;mdash; determines whether the cells are atypical lobular hyperplasia or atypical ductal hyperplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+Atypical hyperplasia is thought to be part of the complex, multistep process by which breast cancer develops. The process begins when normal cell development and growth become disrupted, causing an overproduction of normal-looking cells (hyperplasia). Atypical hyperplasia occurs when the excess cells stack upon one another and begin to take on an abnormal appearance. The abnormal cells can continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer, in which cancer cells remain confined to the area where they start growing. Left untreated, the cancer cells may eventually become invasive cancer, invading surrounding tissue, blood vessels or lymph channels. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how cancer develops 
+" Caption="Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The abnormal cells may continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer or, eventually, invasive cancer. Invasive cancer can spread to other areas of the body through the bloodstream or the lymphatic system. 
+" Height="60" Title="How cancer develops" URI="/images/image_popup/thumbs/br7_cancerdevelopmentthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how cancer develops 
+" Caption="Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The abnormal cells may continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer or, eventually, invasive cancer. Invasive cancer can spread to other areas of the body through the bloodstream or the lymphatic system. 
+" Height="214" Title="How cancer develops" URI="/images/image_popup/br7_cancerdevelopment.jpg" Width="400" />
+				<HTML>
+					Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Increased risk of breast cancer&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve been diagnosed with atypical hyperplasia, you have an increased risk of breast cancer in the future. Women with atypical hyperplasia have a risk of breast cancer that is about four times higher than that of women who don&apos;t have atypical hyperplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+Being diagnosed with atypical hyperplasia at a younger age may increase the risk of breast cancer even more. Women diagnosed with atypical hyperplasia before age 45 have a greater risk of developing invasive breast cancer during their lifetimes, compared with older women, especially those older than 55. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If a mammogram reveals a suspicious area in your breast, your doctor may refer you to a breast health specialist or a specialized breast center. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. To prepare for your appointment, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so prepare a list of questions ahead of time. List your questions from most important to least important in case time runs out. For atypical hyperplasia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can you explain my pathology report to me?&lt;/li&gt;
+	&lt;li&gt;Do I need more tests?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery for atypical hyperplasia?&lt;/li&gt;
+	&lt;li&gt;What treatments do you suggest?&lt;/li&gt;
+	&lt;li&gt;What can I do to reduce my risk of breast cancer?&lt;/li&gt;
+	&lt;li&gt;What signs or symptoms of breast cancer should I watch for?&lt;/li&gt;
+	&lt;li&gt;How often should I have a mammogram to screen for breast cancer?&lt;/li&gt;
+	&lt;li&gt;Should I also have an MRI to screen for breast cancer?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a breast health specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Should I consider genetic counseling?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask other questions that come to mind during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a family history of breast cancer?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of other types of cancer?&lt;/li&gt;
+	&lt;li&gt;Have you had a breast biopsy before? Do you know the results of previous breast biopsies?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atypical hyperplasia is usually discovered after a biopsy to evaluate a suspicious area found on a mammogram or during a clinical breast exam. During the biopsy, tissue samples are removed and sent for analysis by a specially trained doctor (pathologist). The tissue samples are examined under a microscope, and the pathologist identifies atypical hyperplasia, if it&apos;s present. 
+&lt;/p&gt;
+&lt;p&gt;
+To further evaluate atypical hyperplasia, your doctor may recommend surgery to remove a larger sample of tissue to look for breast cancer. A diagnosis of atypical hyperplasia may lead to a surgical biopsy (wide local excision or lumpectomy) to remove all of the affected tissue. The pathologist looks at the larger specimen for evidence of in situ or invasive cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atypical hyperplasia is generally treated with surgery to remove the abnormal cells and to make sure no in situ or invasive cancer also is present in the area. Doctors often recommend more frequent screening for breast cancer and strategies to reduce your breast cancer risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up tests to monitor for breast cancer&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend you undergo follow-up tests to screen for breast cancer. This may increase the chance that breast cancer is detected early, when a cure is more likely. Talk about your breast cancer screening options with your doctor. Your options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Self-exams of your breasts to develop breast familiarity and to detect any unusual breast changes&lt;/li&gt;
+	&lt;li&gt;Clinical breast exams by your health care provider once or twice a year&lt;/li&gt;
+	&lt;li&gt;Screening mammograms every year&lt;/li&gt;
+	&lt;li&gt;Screening breast magnetic resonance imaging (MRI), depending on other risk factors, such as a strong family history or a genetic predisposition to breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ways to reduce your risk of breast cancer&lt;/strong&gt; &lt;br /&gt;
+To reduce your risk of developing breast cancer, your doctor may recommend that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take preventive medications.&lt;/strong&gt; Treatment with a selective estrogen receptor modulator (SERM), such as tamoxifen or raloxifene (Evista), for five years may reduce the risk of breast cancer. These drugs work by blocking estrogen from binding to estrogen receptors in breast tissue. Estrogen is thought to fuel the growth of some breast cancers. Another option for certain women may be exemestane (Aromasin), which decreases production of estrogen in the body. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid menopausal hormone therapy.&lt;/strong&gt; Researchers have concluded that combination hormone therapy to treat symptoms of menopause &amp;mdash; estrogen plus progestin &amp;mdash; increases breast cancer risk in postmenopausal women. Many breast cancers depend on hormones for growth. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Participate in a clinical trial.&lt;/strong&gt; Clinical trials test new treatments not yet available to the public at large that may prove helpful in reducing breast cancer risk associated with atypical hyperplasia. Ask your doctor if you&apos;re a candidate for any clinical trials. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider risk-reducing (prophylactic) mastectomy.&lt;/strong&gt; For women at very high risk of breast cancer, risk-reducing mastectomy &amp;mdash; surgery to remove one or both breasts &amp;mdash; reduces the risk of developing breast cancer in the future. You might be considered at very high risk of breast cancer if you have a genetic mutation in one of the breast cancer genes or you have a very strong family history of breast cancer that suggests a likelihood of having such a genetic mutation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+But this surgery isn&apos;t right for everyone. Discuss with your doctor the risks, benefits and limitations of this risk-reducing surgery in light of your personal circumstances. If you have a strong family history of breast cancer, you might benefit from also meeting with a genetic counselor to evaluate your risk of carrying a genetic mutation and the role of genetic testing in your situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An atypical hyperplasia diagnosis can be stressful, since it increases your risk of breast cancer. Not knowing what the future holds may make you fearful for your health. With time, every woman develops her own way of coping with atypical hyperplasia and her increased risk of breast cancer. Until you find your way of coping, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Understand your individual risk of breast cancer.&lt;/strong&gt; Breast cancer risk statistics can be overwhelming and frightening. Breast cancer risk statistics are developed by following thousands of women and can give you an idea of your prognosis, but the statistics can&apos;t tell you about your own risk of breast cancer. Ask your doctor to explain your individual risk of breast cancer. Once you understand your personal risk of breast cancer, you can feel more comfortable making decisions about your treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go to all of your follow-up appointments.&lt;/strong&gt; If you&apos;ve been diagnosed with atypical hyperplasia, your doctor may recommend more frequent breast cancer screening exams and tests. You may find yourself distracted with worry before each exam because you&apos;re afraid that your doctor will find breast cancer. Don&apos;t let your fear stop you from going to your appointments. Instead, accept that fear is normal and find ways to cope. Relax, write your feelings in a journal or spend time with a close friend who can lift your spirits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain your health.&lt;/strong&gt; Make healthy lifestyle choices to keep yourself healthy. For instance, maintain a healthy weight, eat a healthy diet full of fruits and vegetables, get enough sleep so that you wake feeling rested, and limit the amount of alcohol you drink, if you choose to drink alcohol. You can&apos;t control whether or not you get breast cancer, but you can keep healthy so that you&apos;re well enough for breast cancer treatment, should you need it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with other women in your situation.&lt;/strong&gt; Talk to other women who have been diagnosed with atypical hyperplasia. Ask your doctor about support groups in your community. Another option is online message boards. Breast cancer organizations, such as BreastCancer.org, offer message boards for women with a high risk of breast cancer to connect with each other.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Atypical hyperplasia of the breast
+	</Title>
+	<Abstract>
+		Atypical hyperplasia &amp;mdash; Comprehensive overview covers treatment of atypical ductal hyperplasia and atypical lobular hyperplasia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

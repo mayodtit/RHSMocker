@@ -1,0 +1,332 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00272
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/phobias/DS00272
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-07
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1561" Title="Phobias" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9F0FCD22-ACCC-4A8F-AB69AB12F4E8FB07
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				phobia
+			</MetaKeyword>
+			<MetaKeyword>
+				phobias
+			</MetaKeyword>
+			<MetaKeyword>
+				social phobia
+			</MetaKeyword>
+			<MetaKeyword>
+				fear
+			</MetaKeyword>
+			<MetaKeyword>
+				mental health
+			</MetaKeyword>
+			<MetaKeyword>
+				simple phobia
+			</MetaKeyword>
+			<MetaKeyword>
+				agoraphobia
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				behavioral therapy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A phobia is an overwhelming and unreasonable fear of an object or situation that poses little real danger. Unlike the brief anxiety most people feel when they give a speech or take a test, a phobia is long-lasting, causes intense physical and psychological reactions, and can affect your ability to function normally at work or in social settings.
+&lt;/p&gt;
+&lt;p&gt;
+Several types of phobias exist. Some people fear large, open spaces. Others are unable to tolerate certain social situations. And still others have a specific phobia, such as a fear of snakes, elevators or flying.
+&lt;/p&gt;
+&lt;p&gt;
+Not all phobias need treatment, but if a phobia affects your daily life, a number of therapies are available that can help you overcome your fears &amp;mdash; often permanently.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Phobias are divided into three main categories: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Specific phobias.&lt;/strong&gt; These include a fear of enclosed spaces (claustrophobia); animals (zoophobia), particularly spiders, snakes or mice; heights (acrophobia); flying (aviophobia); water (hydrophobia); storms; dentists; injections; tunnels; bridges; and not being able to get off public transportation quickly enough. There are many other specific phobias.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social phobia.&lt;/strong&gt; More than just shyness, social phobia involves a combination of excessive self-consciousness, a fear of public scrutiny or humiliation in common social situations, and a fear of negative evaluation by others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fear of open spaces (agoraphobia).&lt;/strong&gt; Most people who have agoraphobia develop it after having one or more panic attacks. Agoraphobia is a fear of a place &amp;mdash; such as a mall, an elevator or a room full of people &amp;mdash; with no easy means of escape if a panic attack should occur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+No matter what type of phobia you have, it&apos;s likely to produce the following reactions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling of uncontrollable anxiety when you&apos;re exposed to the source of your fear &amp;mdash; sitting on an airplane, for instance, or walking into a large party&lt;/li&gt;
+	&lt;li&gt;The feeling that you must do everything possible to avoid what you fear&lt;/li&gt;
+	&lt;li&gt;The inability to function normally because of your anxiety&lt;/li&gt;
+	&lt;li&gt;Often, the knowledge that your fears are unreasonable or exaggerated, but feeling powerless to control them&lt;/li&gt;
+	&lt;li&gt;Physical as well as psychological reactions, including sweating, rapid heartbeat, difficulty breathing, a feeling of panic and intense anxiety&lt;/li&gt;
+	&lt;li&gt;In some cases, anxiety just thinking about what you fear&lt;/li&gt;
+	&lt;li&gt;In children, possibly tantrums, clinging or crying&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;An unreasonable fear can be an annoyance &amp;mdash; having to take the stairs instead of an elevator, for instance &amp;mdash; but it isn&apos;t considered a phobia unless it seriously disrupts your life. If anxiety affects your ability to function at work or socially, consider seeking medical or psychological treatment. Most people can be helped with the right therapy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Much is still unknown about the actual cause of phobias. There does appear to be a link between your own phobias and the phobias of your parents, however. Children may learn phobias by observing a family member&apos;s phobic reaction to an object or a situation &amp;mdash; for example, a fear of snakes or spiders.
+&lt;/p&gt;
+&lt;p&gt;
+Brain chemicals, genetics and traumatic experiences also appear to influence the development of phobias.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may increase your risk of phobias: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Social phobia usually develops early in life, often before age 25. Specific phobias having to do with the environment or personal injury also first appear in childhood &amp;mdash; as early as age 5. Fear of tunnels, elevators, bridges, flying, driving and other situational phobias usually develop by the mid-20s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Phobias affect both sexes, but women and girls are more likely to have specific or social phobias than are men and boys. Women are also more likely to be diagnosed with agoraphobia, but this may be because men tend to hide anxiety or mask it with alcohol. Men and boys may be less likely to seek help for emotional problems than women and girls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your family.&lt;/strong&gt; If someone in your immediate family has a specific phobia, such as a fear of spiders or snakes, you&apos;re more likely to develop it also.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A traumatic event.&lt;/strong&gt; Experiencing a traumatic event, such as being trapped in an elevator or attacked by an animal, may trigger the development of a phobia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although phobias may seem silly to others, they can be devastating to the people who have them, causing problems that extend into and affect many aspects of life. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Social isolation.&lt;/strong&gt; People with socially isolating disorders, such as social phobia and agoraphobia, can experience a range of serious consequences. Many have academic, &amp;nbsp;professional and relationship problems. Children with these disorders are at risk of academic difficulties and loneliness and often fail to develop basic social skills.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; Many of those with phobias have depression as well as other anxiety disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Substance abuse.&lt;/strong&gt; The stress of living with a severe phobia often leads to substance abuse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve made the choice to seek help for a phobia, you&apos;ve taken a huge first step. Start by talking to your primary care doctor. If it seems that you have a genuine phobia, you&apos;ll likely be referred to a mental health provider for further evaluation and treatment. These suggestions can help you get the most from your appointment. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all the symptoms you&apos;re experiencing,&lt;/strong&gt; even if they seem unrelated to your anxiety. Phobias generally cause both physical and psychological distress. Be sure to note what triggers your anxiety, how you have tried to deal with it, and factors that make it better or worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking. Better yet, take the original bottles and a written list of the dosages and directions. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although your doctor is likely to ask you a lot of questions about your symptoms and concerns, you should be prepared to ask questions, too. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might have caused me to develop this fear?&lt;/li&gt;
+	&lt;li&gt;Is this something that will go away on its own? Or, is there anything I can do on my own to improve my symptoms? For instance, if I&apos;m afraid to fly, should I force myself to fly anyway?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend for this disorder?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of medications commonly used for this condition?&lt;/li&gt;
+	&lt;li&gt;If I decide to take medications, how long will it take for my symptoms to improve?&lt;/li&gt;
+	&lt;li&gt;If the first medication I try isn&apos;t effective, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;Would talk therapy help me?&lt;/li&gt;
+	&lt;li&gt;How much improvement can I expect if I follow your recommended treatment plan?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to your prepared questions, don&apos;t hesitate to ask questions at any time during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no laboratory tests for phobias. Instead, the diagnosis is based on a thorough clinical interview and diagnostic guidelines. Your doctor will ask questions about your symptoms and take a medical, psychiatric and social history. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with a phobia, you must meet certain criteria detailed in a book called the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to help them diagnose conditions and by insurance companies to reimburse for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Specific phobias&lt;br /&gt;
+&lt;/strong&gt;The diagnostic criteria for specific phobias include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A persistent and intense fear triggered by an object or situation, such as snakes, spiders or storms.&lt;/li&gt;
+	&lt;li&gt;An immediate anxiety response when you confront the source of your fear.&lt;/li&gt;
+	&lt;li&gt;Knowing that your fear is irrational or exaggerated, but feeling powerless to control it. This doesn&apos;t apply to children, who often don&apos;t have the maturity to recognize that their fear is unreasonable.&lt;/li&gt;
+	&lt;li&gt;Avoiding what you fear at all costs or enduring it with extreme distress.&lt;/li&gt;
+	&lt;li&gt;No other explainable reason for your symptoms, including medical conditions and other anxiety disorders.&lt;/li&gt;
+	&lt;li&gt;In children and teens, symptoms lasting at least six months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Social phobia&lt;br /&gt;
+&lt;/strong&gt;The diagnostic criteria for social phobia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A persistent and intense fear of humiliating or embarrassing yourself in one or more social situations &amp;mdash; usually with unfamiliar people or when you&apos;re under close scrutiny&lt;/li&gt;
+	&lt;li&gt;Exposure to the situations you fear creates intense anxiety, which may take the form of a panic attack&lt;/li&gt;
+	&lt;li&gt;Knowing that your fear is unreasonable or exaggerated, but feeling powerless to control it&lt;/li&gt;
+	&lt;li&gt;Avoiding the social or performance situations that you fear or enduring them with extreme distress&lt;/li&gt;
+	&lt;li&gt;Problems caused by the phobia severely affect your life, including your job, social activities and relationships&lt;/li&gt;
+	&lt;li&gt;No other explainable reason for your symptoms, including health problems, medication or other psychological disorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In children, additional diagnostic criteria for social phobia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety expressed by crying, tantrums, freezing or shrinking from social situations with unfamiliar people&lt;/li&gt;
+	&lt;li&gt;Often, an inability to realize that their fears are unreasonable&lt;/li&gt;
+	&lt;li&gt;Phobia lasting at least six months&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Agoraphobia&lt;br /&gt;
+&lt;/strong&gt;The criteria for a diagnosis of agoraphobia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An irrational fear of being alone in a place or situation where you would be unable to find help or to escape easily if you were to have a panic attack. People with agoraphobia might fear being in a large crowd, standing in line, or traveling on a bus, train or automobile. In the most severe cases, they may never leave the house.&lt;/li&gt;
+	&lt;li&gt;The avoidance of anxiety-provoking situations whenever possible. Having to face these situations causes extreme distress.&lt;/li&gt;
+	&lt;li&gt;No other explainable reason for your symptoms, such as a medical condition, medication or other psychological disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor or a mental health provider may suggest medications or behavior therapy or both to treat phobias. Most adults don&apos;t get better on their own and may require some type of treatment. The goal of phobia treatment is to reduce your anxiety and fear and to help you better manage your reactions to the object or situation that causes them. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These medications work by blocking the stimulating effects of adrenaline on your body, such as increased heart rate, elevated blood pressure, pounding heart, and shaking voice and limbs. Beta blockers can be very effective for people who have severe stage fright.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Antidepressants called selective serotonin reuptake inhibitors (SSRIs) are commonly used in the treatment of phobias. These medications&lt;strong&gt; &lt;/strong&gt;act on the chemical serotonin, a neurotransmitter in your brain that&apos;s believed to influence mood. SSRIs include citalopram (Celexa), escitalopram (Lexapro), fluoxetine (Prozac), paroxetine (Paxil) and sertraline (Zoloft). If SSRIs aren&apos;t effective or cause intolerable side effects, such as restlessness, insomnia, headache, diarrhea or sexual problems, your doctor may prescribe another type of antidepressant, such as a monoamine oxidase inhibitor (MAOI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedatives.&lt;/strong&gt; Medications called benzodiazepines help you relax by reducing the amount of anxiety that you feel. They include lorazepam (Ativan), diazepam (Valium), alprazolam (Niravam, Xanax) and chlordiazepoxide (Librium). Sedatives need to be used with caution because they can be addictive and should be avoided if you have a history of alcohol or drug dependence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior therapy&lt;br /&gt;
+&lt;/strong&gt;Desensitization or exposure therapy focuses on changing your response to the object or situation that you fear, and may be helpful for specific phobias. Gradual, repeated exposure to the cause of your phobia may help you learn to conquer your anxiety. For example, if you&apos;re afraid of flying, your therapy may progress from simply thinking about flying to looking at pictures of airplanes, to going to an airport, to sitting in an airplane, and finally to taking a flight. 
+&lt;/p&gt;
+&lt;p&gt;
+Cognitive behavioral therapy is a more comprehensive form of therapy. It involves working with a therapist to learn ways to view and cope with the feared object or situation differently. You learn alternative beliefs about your fears and the impact they have on your life. There&apos;s special emphasis on learning to develop a sense of mastery and control of your thoughts and feelings. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment choices&lt;br /&gt;
+&lt;/strong&gt;Specific phobias usually are treated with behavioral therapy. Social phobias may be treated with antidepressants or beta blockers, along with behavior therapy. Agoraphobia, especially when it&apos;s accompanied by a panic disorder, is usually treated with SSRIs and behavior therapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Childhood fears, such as fear of the dark, of monsters or of being left alone, are common, and most children outgrow them. But if your child has a persistent, excessive fear that&apos;s limiting his or her ability to function in daily life, talk to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+To help your child cope with fears: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Talk openly about fears.&lt;/strong&gt; Don&apos;t trivialize the problem or belittle your child for being afraid. Instead, let your child know that you&apos;re there to listen, and to help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t reinforce phobias.&lt;/strong&gt; Instead, take advantage of opportunities to help children overcome their fears. If your child is afraid of the neighbor&apos;s friendly dog, for example, don&apos;t go out of your way to avoid the animal. Instead, help your child cope when confronted with the dog. For example, you might offer to be your child&apos;s home base, waiting and offering support while your child steps a little closer to the dog and then returns to you for safety. Over time, encourage your child to keep closing the distance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pursue positive approaches.&lt;/strong&gt; Help your child learn to breathe deeply and repeat positive statements such as &quot;I can do this&quot; when facing something scary. Your child also may benefit from rating the fear on a scale of 1 to 10. Recognizing that the fear rates only a 5 on the scale, for example, may help your child see the feeling as being less overwhelming.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have unreasonable fears, consider getting psychological help, especially if you have children. Although genetics probably play a role in the development of phobias, repeatedly seeing someone else&apos;s phobic reaction can trigger a phobia in children. By dealing with your own fears, you might not pass them on to your children.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Phobias
+	</Title>
+	<Abstract>
+		Phobias &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, types of persistent irrational fears.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00894" LinkType="Internal" ObjectID="CD0B6496-E7FF-0DBD-111E90D5A27FB024" Title="Agoraphobia" Url="http://www.mayoclinic.com/health/agoraphobia/DS00894" />
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Answer" DocID="AN01979" LinkType="Internal" ObjectID="61568FB7-9023-DC3D-5E51F4E5D1F6829F" Title="Fear of public speaking: How can I overcome it?" Url="http://www.mayoclinic.com/health/fear-of-public-speaking/AN01979" />
+	</RelatedLinksBox>
+</Disease>

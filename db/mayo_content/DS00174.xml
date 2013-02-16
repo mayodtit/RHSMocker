@@ -1,0 +1,457 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00174
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hay-fever/DS00174
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-17
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="3571" Title="Environmental allergy">
+							<Keyword MCVID="2223" Title="Hay fever" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C2A35B55-EA1F-41EF-92ADF2386BF8EF8A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hay fever
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic rhinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				rhinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				seasonal allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				hayfever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hay fever, also called allergic rhinitis, causes cold-like signs and symptoms, such as a runny nose, itchy eyes, congestion, sneezing and sinus pressure. But unlike a cold, hay fever isn&apos;t caused by a virus. Hay fever is caused by an allergic response to outdoor or indoor allergens, such as pollen, dust mites or pet dander. 
+&lt;/p&gt;
+&lt;p&gt;
+Hay fever can make you miserable and affect your performance at work or school and interfere with leisure activities. But you don&apos;t have to put up with annoying symptoms. Learning how to avoid triggers and finding the right treatment can make a big difference. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hay fever signs and symptoms usually start immediately after you&apos;re exposed to a specific allergy-causing substance (allergen) and can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Runny nose and nasal congestion&lt;/li&gt;
+	&lt;li&gt;Watery or itchy eyes&lt;/li&gt;
+	&lt;li&gt;Sneezing&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Itchy nose, roof of mouth or throat&lt;/li&gt;
+	&lt;li&gt;Sinus pressure and facial pain&lt;/li&gt;
+	&lt;li&gt;Swollen, blue-colored skin under the eyes (allergic shiners)&lt;/li&gt;
+	&lt;li&gt;Decreased sense of smell or taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Time of year can be a factor&lt;/strong&gt;&lt;br /&gt;
+Your hay fever symptoms may start or worsen at a particular time of year, triggered by tree pollen, grasses or weeds, which all bloom at different times. If you&apos;re sensitive to indoor allergens, such as dust mites, cockroaches, mold or pet dander, you may have year-round symptoms. Many people have allergy symptoms all year long, but their symptoms get worse during certain times of the year. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The effects of age&lt;/strong&gt;&lt;br /&gt;
+Although hay fever can begin at any age, you&apos;re most likely to develop it during childhood or early adulthood. It&apos;s common for the severity of hay fever reactions to change over the years. For most people, hay fever symptoms tend to diminish slowly, often over decades. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Is it hay fever? Or is it a cold?&lt;/strong&gt;&lt;br /&gt;
+Signs and symptoms can be different. Here&apos;s how to tell which one&apos;s causing your symptoms: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&amp;nbsp; &lt;/th&gt;&lt;th&gt;Hay fever &lt;/th&gt;&lt;th&gt;Colds &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Signs and symptoms&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Runny nose with thin, watery discharge; no fever &lt;/td&gt;
+			&lt;td&gt;Runny nose with watery or thick yellow discharge; body aches; low-grade fever &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Onset&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Immediately after exposure to allergens &lt;/td&gt;
+			&lt;td&gt;1-3 days after exposure to a cold virus &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;As long as you&apos;re exposed to allergens &lt;/td&gt;
+			&lt;td&gt;3-7 days &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You think you may have hay fever&lt;/li&gt;
+	&lt;li&gt;Your symptoms are ongoing and bothersome&lt;/li&gt;
+	&lt;li&gt;Allergy medications aren&apos;t working for you&lt;/li&gt;
+	&lt;li&gt;Allergy medications work, but side effects are a problem&lt;/li&gt;
+	&lt;li&gt;You have another condition that can worsen hay fever symptoms, such as nasal polyps, asthma or frequent sinus infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people &amp;mdash; especially children &amp;mdash; get used to hay fever symptoms. But getting the right treatment can reduce irritating symptoms. In some cases, treatment may help prevent more-serious allergic conditions, such as asthma or eczema. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;You may want to see an allergy specialist (allergist) if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your symptoms are severe&lt;/li&gt;
+	&lt;li&gt;Hay fever is a year-round nuisance&lt;/li&gt;
+	&lt;li&gt;Allergy medications aren&apos;t controlling your symptoms&lt;/li&gt;
+	&lt;li&gt;Your allergy medications are causing troublesome side effects&lt;/li&gt;
+	&lt;li&gt;You want to find out whether allergy shots (immunotherapy) might be an option for you&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During a process called sensitization, your immune system mistakenly identifies a harmless airborne substance as something harmful. Your immune system then starts producing antibodies to this harmless substance. The next time you come in contact with the substance, these antibodies recognize it and signal your immune system to release chemicals, such as histamine, into your bloodstream. These immune system chemicals cause a reaction that leads to the irritating signs and symptoms of hay fever. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seasonal hay fever triggers include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tree pollen, common in the spring&lt;/li&gt;
+	&lt;li&gt;Grass pollen, common in the late spring and summer&lt;/li&gt;
+	&lt;li&gt;Ragweed pollen, common in the fall&lt;/li&gt;
+	&lt;li&gt;Spores from fungi and molds, which can be worse during warm-weather months&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Year-round hay fever triggers include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dust mites or cockroaches&lt;/li&gt;
+	&lt;li&gt;Dander (dried skin flakes and saliva) from pets, such as cats, dogs or birds&lt;/li&gt;
+	&lt;li&gt;Spores from indoor and outdoor fungi and molds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hay fever doesn&apos;t mean you&apos;re allergic to hay. Despite its name, hay fever is almost never triggered by hay, and it doesn&apos;t cause a fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of developing hay fever: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having other allergies or asthma&lt;/li&gt;
+	&lt;li&gt;Having a blood relative (such as a parent or sibling) with allergies or asthma&lt;/li&gt;
+	&lt;li&gt;Living or working in an environment that constantly exposes you to allergens &amp;mdash; such as animal dander&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Problems that may be associated with hay fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced quality of life.&lt;/strong&gt; Hay fever can interfere with your enjoyment of activities and cause you to be less productive. For many people, hay fever symptoms lead to absences from work or school.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor sleep.&lt;/strong&gt; Hay fever symptoms can keep you awake or make it hard to stay asleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Worsening asthma.&lt;/strong&gt; If you have asthma, hay fever can worsen signs and symptoms, such as coughing and wheezing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sinusitis.&lt;/strong&gt; Prolonged sinus congestion due to hay fever may increase your susceptibility to sinusitis &amp;mdash; an infection or inflammation of the membrane that lines the sinuses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear infection.&lt;/strong&gt; In children, hay fever often is a factor in middle ear infection (otitis media).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a primary care provider. However, in some cases when you call to set up an appointment, you may be referred to an allergist or other specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. Also write down when the symptoms occur, and what seems to trigger them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications that you&apos;re taking,&lt;/strong&gt; including any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange to take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to recall all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. For hay fever, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are some alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? &lt;/li&gt;
+	&lt;li&gt;Are there any over-the-counter medications you recommend?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin noticing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do any of your first-degree relatives (such as a parent or sibling) have hay fever of other types of allergies?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been interfering with your daily activity, such as work, school or hobbies?&lt;/li&gt;
+	&lt;li&gt;Do you get headaches?&lt;/li&gt;
+	&lt;li&gt;Have you had a loss of smell or taste?&lt;/li&gt;
+	&lt;li&gt;Have you been coughing or wheezing? If so, do you cough anything up?&lt;/li&gt;
+	&lt;li&gt;Do you snore or have trouble sleeping?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you don&apos;t see your doctor right away, over-the-counter remedies may help ease symptoms. A number of medications are available that may help relieve your hay fever symptoms. They include pills, liquids, nasal sprays and eyedrops. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask detailed questions about your personal and family medical history, your signs and symptoms, and your usual way of treating them. Your doctor will also perform a physical examination to look for additional clues about the causes of your signs and symptoms. He or she may also recommend one or both of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin prick test.&lt;/strong&gt; During skin testing, small amounts of material that can trigger allergies are pricked into the skin of your arm or upper back and you&apos;re observed for signs of an allergic reaction. If you&apos;re allergic, you develop a raised bump (hive) at the test location on your skin. Allergy specialists usually are best equipped to perform allergy skin tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy blood test.&lt;/strong&gt; A blood test, sometimes called the radioallergosorbent test (RAST), can measure your immune system&apos;s response to a specific allergen. The test measures the amount of allergy-causing antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. A blood sample is sent to a medical laboratory, where it can be tested for evidence of sensitivity to possible allergens.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of skin surface showing a positive reaction to allergy test 
+" Caption="A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+" Height="60" Title="Positive reaction to allergy test" URI="/images/image_popup/thumbs/aa7_dimethu.jpg" Width="60" />
+				<Image Alt="Photo of skin surface showing a positive reaction to allergy test 
+" Caption="A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+" Height="286" Title="Positive reaction to allergy test" URI="/images/image_popup/aa7_dime.jpg" Width="400" />
+				<HTML>
+					A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best hay fever treatment is to avoid the substances that cause your reaction. However, this isn&apos;t always possible, and you may need additional treatments along with strategies to prevent exposure. 
+&lt;/p&gt;
+&lt;p&gt;
+If your hay fever isn&apos;t too severe, over-the-counter medications may be enough to ease your symptoms. For more bothersome symptoms, you may need to take prescription medications. Many people get the best relief from a combination of allergy medications. It may take trying a few before you figure out what works best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has hay fever, talk with your doctor about the best treatment. Some medications are approved for use in children, while others are approved only for adults. If you want to try an over-the-counter medication for your child, be sure to read the labels carefully. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for hay fever include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal corticosteroids.&lt;/strong&gt; These prescription nasal sprays help prevent and treat the nasal inflammation, nasal itching and runny nose caused by hay fever. For many people they&apos;re the most effective hay fever medications, and they&apos;re often the first type of medication prescribed. Examples include fluticasone propionate (Flonase), triamcinolone (Nasacort AQ), mometasone (Nasonex) and budesonide (Rhinocort). Nasal corticosteroids are a safe long-term treatment for most people. Side effects can include an unpleasant smell or taste and nose irritation. Steroid side effects are rare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines.&lt;/strong&gt; These preparations are usually given as pills. However, there are also antihistamine nasal sprays and eyedrops. Antihistamines can help with itching, sneezing and runny nose but have less effect on congestion. They work by blocking histamine, a symptom-causing chemical released by your immune system during an allergic reaction. Older over-the-counter antihistamines such as diphenhydramine (Benadryl) work as well as newer ones, but some types can make you drowsy. Newer oral antihistamines are less likely to make you drowsy. Over-the-counter examples include loratadine (Claritin, Alavert), cetirizine (Zyrtec Allergy) and fexofenadine (Allegra). The&lt;strong&gt; &lt;/strong&gt;prescription antihistamine nasal sprays azelastine (Astelin, Astepro) and olopatadine (Patanase) can relieve nasal symptoms. Antihistamine eyedrops help relieve eye itchiness and eye irritation caused by hay fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decongestants.&lt;/strong&gt; These medications are available in over-the-counter and prescription liquids, tablets and nasal sprays. Over-the-counter oral decongestants include Sudafed and Drixoral. Nasal sprays include phenylephrine (Neo-Synephrine) and oxymetazoline (Afrin). Oral decongestants can cause a number of side effects, including increased blood pressure, insomnia, irritability and headache. Don&apos;t use a decongestant nasal spray for more than two or three days at a time because it can actually worsen symptoms when used continuously (rebound congestion).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cromolyn sodium.&lt;/strong&gt; This medication is available as an over-the-counter nasal spray that must be used several times a day. It&apos;s also available in eyedrop form with a prescription (Crolom). It helps relieve hay fever symptoms by preventing the release of histamine. Cromolyn sodium doesn&apos;t have serious side effects, and it&apos;s most effective when you begin using it before your symptoms start.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leukotriene modifier.&lt;/strong&gt; Montelukast (Singulair) is a prescription tablet taken to block the action of leukotrienes &amp;mdash; immune system chemicals that cause allergy symptoms such as excess mucus production. It&apos;s especially effective in treating allergy-induced asthma. It&apos;s often used when nasal sprays can&apos;t be tolerated, or when you have mild asthma. It can cause headaches. In rare cases, montelukast has been linked to psychological reactions such as agitation, aggression, hallucinations, depression and suicidal thinking. Seek medical advice right away for any unusual psychological reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal ipratropium.&lt;/strong&gt; Available in a prescription nasal spray, ipratropium (Atrovent) helps relieve a severe runny nose by preventing the glands in your nose from producing excess fluid. It&apos;s not effective for treating congestion, sneezing or postnasal drip. Mild side effects include nasal dryness, nosebleeds and sore throat. Rarely, it can cause more-severe side effects, such as blurred vision, dizziness and difficult urination. The drug is not recommended for people with glaucoma or men with an enlarged prostate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral corticosteroids.&lt;/strong&gt; Corticosteroid medications in pill form, such as prednisone, are sometimes used to relieve severe allergy symptoms. Because the long-term use of corticosteroids can cause serious side effects such as cataracts, osteoporosis and muscle weakness, they&apos;re usually prescribed for only short periods of time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments&lt;/strong&gt; &lt;strong&gt;for hay fever include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy shots (immunotherapy).&lt;/strong&gt; If medications don&apos;t relieve your hay fever symptoms or cause too many side effects, your doctor may recommend allergy shots (immunotherapy or desensitization therapy). Over a period of three to five years, you&apos;ll receive regular injections containing tiny amounts of allergens. The goal is to get your body used to the allergens that cause your symptoms, and decrease your need for medications. Immunotherapy may be especially effective if you&apos;re allergic to cat dander, dust mites, or pollen produced by trees, grass or weeds. In children, immunotherapy may help prevent the development of asthma. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinsing your sinuses.&lt;/strong&gt; Rinsing your nasal passages with distilled, sterile saline (nasal irrigation) is a quick, inexpensive and very effective way to relieve nasal congestion. Rinsing directly flushes out mucus and allergens from your nose. Look for a squeeze bottle or a neti pot &amp;mdash; a small container with a spout designed for nose rinsing &amp;mdash; at your pharmacy or health food store. Use water that&apos;s distilled, sterile, previously boiled and cooled, or filtered using a filter with an absolute pore size of 1 micron or smaller to make up the saline irrigation solution. Also be sure to rinse the irrigation device after each use with similarly distilled, sterile, previously boiled and cooled, or filtered water and leave open to air-dry.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not possible to completely avoid allergens, but you can reduce your symptoms by taking some steps to limit your exposure to them. It helps to know exactly what you&apos;re allergic to so that you can avoid your specific triggers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pollen or molds&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Close doors and windows during pollen season.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t hang laundry outside &amp;mdash; pollen can stick to sheets and towels.&lt;/li&gt;
+	&lt;li&gt;Use air conditioning in your house and car.&lt;/li&gt;
+	&lt;li&gt;Use an allergy-grade filter in the ventilation system.&lt;/li&gt;
+	&lt;li&gt;Avoid outdoor activity in the early morning when pollen counts are highest.&lt;/li&gt;
+	&lt;li&gt;Stay indoors on dry, windy days.&lt;/li&gt;
+	&lt;li&gt;Use a dehumidifier to reduce indoor humidity.&lt;/li&gt;
+	&lt;li&gt;Use a high-efficiency particulate air (HEPA) filter in your bedroom.&lt;/li&gt;
+	&lt;li&gt;Avoid mowing the lawn or raking leaves, which stirs up pollen and molds.&lt;/li&gt;
+	&lt;li&gt;Wear a dust mask when doing outdoor activities such as gardening.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dust mites&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use allergy-proof covers on mattresses, box springs and pillows.&lt;/li&gt;
+	&lt;li&gt;Wash sheets and blankets in water heated to at least 130 F (54 C).&lt;/li&gt;
+	&lt;li&gt;Use a dehumidifier or air conditioner to reduce indoor humidity.&lt;/li&gt;
+	&lt;li&gt;Vacuum carpets weekly with a vacuum cleaner equipped with a small-particle or HEPA filter.&lt;/li&gt;
+	&lt;li&gt;Consider removing carpeting, especially where you sleep, if you&apos;re highly sensitive to dust mites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cockroaches &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Block cracks and crevices where roaches can enter.&lt;/li&gt;
+	&lt;li&gt;Fix leaky faucets and pipes.&lt;/li&gt;
+	&lt;li&gt;Wash dishes and empty garbage daily.&lt;/li&gt;
+	&lt;li&gt;Sweep food crumbs from counters and floors.&lt;/li&gt;
+	&lt;li&gt;Store food, including pet food, in sealed containers.&lt;/li&gt;
+	&lt;li&gt;Consider professional pest extermination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pet dander &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Remove pets from the house, if possible.&lt;/li&gt;
+	&lt;li&gt;Bathe your pets on a weekly basis, if possible. Using wipes designed to reduce dander also may help.&lt;/li&gt;
+	&lt;li&gt;Keep your pets out of the bedroom.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While there isn&apos;t much evidence about how well they work, a number of people try alternative treatments for hay fever. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies and supplements.&lt;/strong&gt; Extracts of the shrub butterbur may help prevent seasonal allergy symptoms. If you do try butterbur, be sure to use a product that&apos;s labeled &quot;PA-free,&quot; which indicates it&apos;s had potentially toxic substances removed. There&apos;s some limited evidence that spirulina and Tinospora cordifolia also may be effective. Though their benefits are unclear, other herbal remedies for seasonal allergies include capsicum, honey, vitamin C and fish oil.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alternative therapies.&lt;/strong&gt; Some people claim that therapies such as acupuncture and homeopathy may help with seasonal allergy symptoms. However, there&apos;s no clear evidence showing that these treatments work. Limited research suggests the use of intranasal phototherapy may be helpful in reducing nasal symptoms. However, the long-term effects of this recent therapy are unknown.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no proven way to avoid getting hay fever in the first place. Doctors think reducing a child&apos;s exposure to allergy-causing substances, such as dust mites and animal dander, may help delay or prevent hay fever &amp;mdash; but the evidence isn&apos;t clear yet. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have hay fever, the best thing you can do is to take steps to lessen your exposure to the allergens that cause your symptoms. Take allergy medications before you&apos;re exposed to allergens, as directed by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hay fever
+	</Title>
+	<Abstract>
+		Hay fever &amp;mdash; Comprehensive overview covers treatment and prevention of this common allergic condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01755" LinkType="Internal" ObjectID="FCC83C08-E7FF-0DBD-16839B0D2043FFCB" Title="Neti pot: Can it clear your nose?" Url="http://www.mayoclinic.com/health/neti-pot/AN01755" />
+		<LinkItem ContentType="Answer" DocID="AN01879" LinkType="Internal" ObjectID="ED283AA7-E7FF-0DBD-153DE0C4079002D2" Title="Neti pot solution: Can I make my own?" Url="http://www.mayoclinic.com/health/neti-pot-solution/AN01879" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="Answer" DocID="AN01241" LinkType="Internal" ObjectID="B0F40A94-2A5D-9994-E46A807D9C5DB928" Title="Nasal spray addiction: Is it real?" Url="http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241" />
+		<LinkItem ContentType="Article" DocID="AA00060" LinkType="Internal" ObjectID="F69737B8-2A5D-9994-EEB32FA508077612" Title="Seasonal allergies: Nip them in the bud" Url="http://www.mayoclinic.com/health/seasonal-allergies/AA00060" />
+	</RelatedLinksBox>
+</Disease>

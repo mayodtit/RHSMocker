@@ -1,0 +1,300 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00866
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/schizoaffective-disorder/DS00866
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1572" Title="Psychotic disorders">
+						<Keyword MCVID="2856" Title="Schizophrenia">
+							<Keyword MCVID="4308" Title="Schizoaffective disorder" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0EF3F391-E7FF-0DBD-149AE727779F5BFF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				schizoaffective disorder
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Schizoaffective disorder is a condition in which a person experiences a combination of schizophrenia symptoms &amp;mdash; such as hallucinations or delusions &amp;mdash; and of mood disorder symptoms, such as mania or depression. 
+&lt;/p&gt;
+&lt;p&gt;
+Schizoaffective disorder is not as well understood, or defined, as are other mental health conditions. This is largely because schizoaffective disorder is a mix of multiple mental health conditions that may run a unique course in each affected person. 
+&lt;/p&gt;
+&lt;p&gt;
+Untreated, people with schizoaffective disorder may lead lonely lives and have trouble holding down a job or attending school. Or, they may rely heavily on family or live in psychiatric group homes. Treatment can help manage symptoms and improve the quality of life for people with schizoaffective disorder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Schizoaffective disorder symptoms vary from person to person. Generally, people who have the condition experience psychotic symptoms &amp;mdash; such as hallucinations, disorganized thinking and paranoid thoughts &amp;mdash; as well as a mood disturbance, such as depressed or manic mood. They tend to be isolated and avoided. 
+&lt;/p&gt;
+&lt;p&gt;
+Psychotic features and mood disturbances may occur at the same time or may appear on and off interchangeably. The course of the schizoaffective disorder usually features cycles of severe symptoms followed by an improved outlook. To establish a diagnosis, a person must have demonstrated, at some point, delusions or hallucinations for at least two weeks even when mood disorder symptoms are under control.
+&lt;/p&gt;
+&lt;p&gt;
+Most commonly, the mood disorder accompanying the schizophrenic features is either bipolar disorder (bipolar-type schizoaffective) or depression (depressive-type schizoaffective). 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of schizoaffective disorder may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Strange or unusual thoughts or perceptions&lt;/li&gt;
+	&lt;li&gt;Paranoid thoughts and ideas&lt;/li&gt;
+	&lt;li&gt;Delusions &amp;mdash; having false, fixed beliefs&lt;/li&gt;
+	&lt;li&gt;Hallucinations, such as hearing voices&lt;/li&gt;
+	&lt;li&gt;Unclear or confused thoughts (disorganized thinking)&lt;/li&gt;
+	&lt;li&gt;Bouts of depression&lt;/li&gt;
+	&lt;li&gt;Manic mood or a sudden increase in energy and behavioral displays that are out of character&lt;/li&gt;
+	&lt;li&gt;Irritability and poor temper control&lt;/li&gt;
+	&lt;li&gt;Thoughts of suicide or homicide&lt;/li&gt;
+	&lt;li&gt;A speaking style that others sometimes can&apos;t follow or understand&lt;/li&gt;
+	&lt;li&gt;Behavior at extreme ends of the normal spectrum (catatonic behavior) &amp;mdash; either appearing to be in a coma-like daze, or talking and behaving in a bizarre, hyperactive way&lt;/li&gt;
+	&lt;li&gt;Problems with attention and memory&lt;/li&gt;
+	&lt;li&gt;Lack of concern about hygiene and physical appearance&lt;/li&gt;
+	&lt;li&gt;Changes in energy and appetite&lt;/li&gt;
+	&lt;li&gt;Sleep disturbances, such as difficulty falling asleep or staying asleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you think someone you know may have schizoaffective disorder symptoms, talk to him or her about your concerns. Although you can&apos;t force someone to seek professional help, you can offer encouragement and support and help your loved one find a qualified doctor or mental health provider. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Suicidal thoughts&lt;br /&gt;
+&lt;/strong&gt;Suicidal thoughts and behavior are common when one has schizoaffective disorder. If you suspect or know that your loved one is considering suicide, seek immediate help. Contact a doctor, mental health provider or other health care professional.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Schizoaffective disorder, like schizophrenia, appears to have distinct genetic links. It&apos;s unknown exactly what causes the disorder, but it may involve brain chemistry, such as an imbalance of serotonin and dopamine in the brain. Serotonin and dopamine are neurotransmitters &amp;mdash; chemicals that help relay electronic signals in the brain &amp;mdash; and help regulate mood. 
+&lt;/p&gt;
+&lt;p&gt;
+Exposure in the womb to toxins or viral illness, or even birth complications, also may play a role. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Schizoaffective disorder is thought to involve delays or variations in the way a child&apos;s brain develops &amp;mdash; like in schizophrenia. Genetics plays a role in development of the disorder, and people with relatives who have schizoaffective disorder are more likely to develop this condition. Environmental factors also may be involved.
+&lt;/p&gt;
+&lt;p&gt;
+Factors that increase the risk of developing the schizoaffective disorder include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a relative who has schizophrenia&lt;/li&gt;
+	&lt;li&gt;Having a relative who has a mood disorder&lt;/li&gt;
+	&lt;li&gt;Having a relative who has schizoaffective disorder&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with schizoaffective disorder are at an increased risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Developing schizophrenia&lt;/li&gt;
+	&lt;li&gt;Having major depression&lt;/li&gt;
+	&lt;li&gt;Having bipolar disorder&lt;/li&gt;
+	&lt;li&gt;Developing alcohol or other substance abuse problems&lt;/li&gt;
+	&lt;li&gt;Suicide&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re seeking help for someone with mental illness, you may start by seeing his or her family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a psychiatrist. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to prepare for the appointment. Here&apos;s some information to help you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your loved one is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of medications,&lt;/strong&gt; vitamins and supplements that he or she is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go with your loved one to the appointment.&lt;/strong&gt; Getting the information firsthand will help you know what you&apos;re facing and what you need to do for your loved one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time will help you make the most of your time with the doctor. For schizoaffective disorder, some basic questions to ask include.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing the symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;How will you determine the diagnosis?&lt;/li&gt;
+	&lt;li&gt;Is this condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend for this condition?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of medications commonly used for this condition?&lt;/li&gt;
+	&lt;li&gt;If the treatment approach isn&apos;t effective, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;What kinds of counseling might help?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your loved one first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Has your loved one talked about suicide?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;How is your loved one functioning in daily life &amp;mdash; is he or she eating regularly, going to work or school, bathing regularly?&lt;/li&gt;
+	&lt;li&gt;Have other family members or friends expressed concern about your loved one&apos;s behavior?&lt;/li&gt;
+	&lt;li&gt;Have any of your loved one&apos;s close relatives been diagnosed or treated for mental illness?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If your loved one talks of suicide; isn&apos;t attending to basic needs, such as eating, bathing and so on; or becomes violent, seek immediate help. If your loved one is violent, don&apos;t try to subdue him or her yourself. Call 911 or your local emergency number for the police.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of schizoaffective disorder usually comes after an in-depth interview with a doctor. As part of this interview, the doctor will likely take a medical, psychiatric and social history and also ask about symptoms and mental well-being. A physical examination can help rule out other conditions, and a mental health professional will likely be consulted. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with schizoaffective disorder, a person must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association.
+&lt;/p&gt;
+&lt;p&gt;
+DSM criteria for the diagnosis of schizoaffective disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Schizophrenia along with mood symptoms&lt;/li&gt;
+	&lt;li&gt;A mood disorder along with symptoms of schizophrenia&lt;/li&gt;
+	&lt;li&gt;Both a mood disorder and schizophrenia&lt;/li&gt;
+	&lt;li&gt;A psychotic condition other than schizophrenia, plus a mood disorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diagnosis requires that the condition is not due to the direct effects of a substance &amp;mdash; such as a recreational drug or medication &amp;mdash; or due to a general medical condition. In addition, the person must never have met the criteria for any other schizophrenic disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with schizoaffective disorder generally respond best to a combination of medications and counseling. Treatment varies depending on the type and severity of symptoms, and whether the disorder is depressive-type or bipolar-type. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, doctors prescribe medications to relieve psychotic symptoms, stabilize mood and treat depression. The only medication approved by the Food and Drug Administration (FDA) for the treatment of schizoaffective disorder is the antipsychotic drug paliperidone (Invega). However, a number of medications approved for the treatment of other mental health conditions also may be helpful for schizoaffective disorder.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, psychotherapy can help normalize thought patterns, teach social skills and reduce social isolation. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to treat schizoaffective disorder may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antipsychotics.&lt;/strong&gt; Also called neuroleptics, doctors prescribe these medications to treat psychotic symptoms, such as delusions, paranoia and hallucinations. In addition to paliperidone (Invega), other antipsychotic medications that may be prescribed include clozapine (Clozaril, FazaClo), risperidone (Risperdal) and olanzapine (Zyprexa).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mood-stabilizing medications.&lt;/strong&gt; When the schizoaffective disorder is bipolar-type, mood stabilizers can level out the highs and lows of bipolar disorder, also known as manic depression. People with bipolar disorder have episodes of mania and depressed mood. Examples of mood stabilizers include lithium (Eskalith, Lithobid) and divalproex (Depakote). Anticonvulsants such as carbamazepine (Carbatrol, Tegretol, others) and valproate (Depacon) also may be used for their mood-stabilizing properties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; When depression is the underlying mood disorder, antidepressants can treat feelings of sadness, hopelessness, or difficulty with sleep and concentration. Common medications include citalopram (Celexa), fluoxetine (Prozac) and escitalopram (Lexapro).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Nonmedication therapy may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotherapy and counseling.&lt;/strong&gt; Building a trusting relationship in therapy can help people with schizoaffective disorder better understand their condition and feel hopeful about their future. Effective sessions focus on real-life plans, problems and relationships. New skills and behaviors specific to settings such as the home or workplace also may be introduced.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family or group therapy.&lt;/strong&gt; Treatment can be more effective when people with schizoaffective disorder are able to discuss their real-life problems with others. Supportive group settings can also help decrease social isolation and provide a reality check during periods of psychosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In general, people with schizoaffective disorder have a better prognosis than people with schizophrenia, but not as good as people with mood disorders only. Long-term treatment is necessary, and the prognosis varies from person to person.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Schizoaffective disorder
+	</Title>
+	<Abstract>
+		Schizoaffective disorder &amp;mdash; Comprehensive overview covers symptoms, treatment of combination of psychosis and mood changes.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00196" LinkType="Internal" ObjectID="5D4E015A-B256-4F25-B5AFBC00F1B4E886" Title="Schizophrenia" Url="http://www.mayoclinic.com/health/schizophrenia/DS00196" />
+	</RelatedLinksBox>
+</Disease>

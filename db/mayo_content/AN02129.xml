@@ -1,0 +1,111 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02129
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/artificial-tears/AN02129
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-29
+		</UpdateDate>
+		<PublicationDate>
+			2010-10-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2480" Title="Dry eyes" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8D468FE6-D13B-E63D-C5EF8EF1CC09D7AD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				artificial tears
+			</MetaKeyword>
+			<MetaKeyword>
+				eyedrops
+			</MetaKeyword>
+			<MetaKeyword>
+				dry eye
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Artificial tears are eyedrops used to lubricate dry eyes and help maintain moisture on the outer surface of your eyes. Artificial tears may be used to treat dry eyes that result from aging, certain medications, a medical condition, eye surgery or environmental factors, such as smoky or windy conditions. Artificial tears are available without a prescription. There isn&apos;t a single brand of artificial tears that works best for every form of dry eyes.
+&lt;/p&gt;
+&lt;p&gt;
+In addition to providing lubricating moisture, some artificial tears contain electrolytes, such as potassium and bicarbonate. These additives may promote healing of the surface of the eyes. Artificial tears may also contain thickening agents, which keep the solution on the surface of your eyes longer.
+&lt;/p&gt;
+&lt;p&gt;
+There are two basic types of artificial tears:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyedrops with preservatives.&lt;/strong&gt; These artificial tears often come in multidose bottles and contain chemicals that discourage bacterial growth once the container is opened. The preservatives may irritate your eyes, especially if you have moderate or severe dry eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preservative-free eyedrops.&lt;/strong&gt; These artificial tears contain fewer additives and are generally recommended if you apply artificial tears more than four times a day. Preservative-free products may come in single-dose vials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to over-the-counter artificial tears, you may also get relief from gels, gel inserts and ointments. Artificial tear ointments may offer longer lasting relief but may cause blurred vision and, as such, may work best just before bedtime.
+&lt;/p&gt;
+&lt;p&gt;
+If artificial tears don&apos;t help in relieving your dry eyes, make an appointment with an eye doctor (ophthalmologist or optometrist). He or she may be able to offer another treatment for your dry eyes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Artificial tears: How to select eyedrops for dry eyes
+	</Title>
+	<Abstract>
+		Artificial tears can relieve dry eyes &amp;mdash; what to consider when choosing eyedrops for dry eyes.
+	</Abstract>
+	<Question>
+		I have dry eyes. What should I look for when selecting artificial tears?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00463" LinkType="Internal" ObjectID="C1437648-D55B-4D9D-B6D902D1A5378D58" Title="Dry eyes" Url="http://www.mayoclinic.com/health/dry-eyes/DS00463" />
+	</RelatedLinksBox>
+</Answer>

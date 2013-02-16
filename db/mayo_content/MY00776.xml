@@ -1,0 +1,210 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00776
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/testicular-exam/MY00776
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-02
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4425" Title="Testicular exam" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			55D65447-F6C3-138B-3A6219B085521B70
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				testicular exam
+			</MetaKeyword>
+			<MetaKeyword>
+				testicular examination
+			</MetaKeyword>
+			<MetaKeyword>
+				testicle exam
+			</MetaKeyword>
+			<MetaKeyword>
+				testicle examination
+			</MetaKeyword>
+			<MetaKeyword>
+				testicular cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				testicle cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				testicular self-exam
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A testicular exam is an inspection of the appearance and feel of your testicles. You can do a testicular exam yourself, typically standing in front of a mirror. 
+&lt;/p&gt;
+&lt;p&gt;
+Routine testicular exams may give you a greater awareness of the condition of your testicles and help you detect when changes occur. Testicular exams may also help you identify potential testicular problems. 
+&lt;/p&gt;
+&lt;p&gt;
+If you detect lumps or other changes during a testicular exam, make an appointment with your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="60" Title="Testicular self-examination" URI="/images/image_popup/thumbs/testicular.gif" Width="60" />
+				<Image Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="298" Title="Testicular self-examination" URI="/images/image_popup/testicular.jpg" Width="400" />
+				<HTML>
+					To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicular self-exams help you learn the normal feel and appearance of your testicles. That may make it more likely that you&apos;ll notice subtle changes, should they occur. Changes in your testicles could be a sign of a common benign condition, such as an infection or a cyst, or a less common condition, such as testicular cancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Who should consider regular testicular exams?&lt;br /&gt;
+&lt;/strong&gt;It&apos;s not clear which men should consider regular testicular exams. Though often promoted as a way to detect testicular cancer, testicular exams aren&apos;t proven to reduce the risk of dying of the disease. Testicular cancer is a relatively uncommon type of cancer. It&apos;s also highly treatable at all stages, so finding testicular cancer early doesn&apos;t make a cure more likely.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors and medical organizations differ on their recommendations for testicular exams. The U.S. Preventive Services Task Force doesn&apos;t recommend testicular exams because a benefit has never been proven. The American Cancer Society recommends discussing cancer-related health issues, such as testicular self-exams, with your doctor during routine checkups. If you&apos;re concerned about your risk of testicular cancer, discuss the issue with your doctor. Together you can decide whether regular testicular self-exams are right for you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Performing a testicular exam doesn&apos;t pose any direct risks. However, if you notice something unusual that concerns you, the follow-up exams might lead to unnecessary worry and medical tests. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, if you discover a suspicious lump, you may undergo tests to determine its cause. This could involve blood tests, ultrasound exams or a procedure to remove testicle tissue for examination (biopsy). If the lump turns out to be noncancerous (benign), you might feel that you&apos;ve undergone an invasive procedure unnecessarily. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparation is necessary to do a testicular exam. You may find a testicular exam is easier during or after a warm bath or shower. Heat relaxes the scrotum, making it easier for you to check for anything unusual.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To do a testicular exam, stand unclothed in front of a mirror. Then:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Look for swelling.&lt;/strong&gt; Hold your penis out of the way and examine the skin of the scrotum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examine each testicle.&lt;/strong&gt; Using both hands, place your index and middle fingers under the testicle and your thumbs on top.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently roll the testicle between your thumbs and fingers.&lt;/strong&gt; Look and feel for any changes to your testicle. These could include hard lumps, smooth rounded bumps, or new changes in the size, shape or consistency of the testicle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While you&apos;re doing the testicular exam, you may notice a few things about your testicles that seem unusual &amp;mdash; but aren&apos;t signs of cancer. For example, bumps on the skin of your scrotum can be caused by ingrown hairs, a rash or other skin problems. You may also feel a soft, ropy cord, which is a normal part of the scrotum called the epididymis. It leads upward from the top of the back part of each testicle.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="60" Title="Testicular self-examination" URI="/images/image_popup/thumbs/testicular.gif" Width="60" />
+				<Image Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="298" Title="Testicular self-examination" URI="/images/image_popup/testicular.jpg" Width="400" />
+				<HTML>
+					To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you find a lump or other change during a testicular self-exam. Depending on the circumstances, your doctor may do a testicular exam followed by a blood test, ultrasound or biopsy. 
+&lt;/p&gt;
+&lt;p&gt;
+Most changes in your testicles aren&apos;t caused by testicular cancer. A number of noncancerous conditions can cause changes in your testicles, such as a cyst, injury, infection, hernia and collection of fluid around the testicles (hydrocele).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Testicular exam
+	</Title>
+	<Abstract>
+		Testicular exam &amp;mdash; Overview covers definition, benefits and step-by-step instructions for examining the testicles.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00410" LinkType="Internal" ObjectID="B864A0C5-C048-44A0-A061B69E34C63E5D" Title="Scrotal masses" Url="http://www.mayoclinic.com/health/scrotal-masses/DS00410" />
+		<LinkItem ContentType="Disease" DocID="DS00046" LinkType="Internal" ObjectID="91B1CB36-2B25-4B93-8FB60CFCAC19B62D" Title="Testicular cancer" Url="http://www.mayoclinic.com/health/testicular-cancer/DS00046" />
+	</RelatedLinksBox>
+</TestProcedure>

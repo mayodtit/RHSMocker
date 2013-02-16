@@ -1,0 +1,286 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00961
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-failure/DS00961
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="2249" Title="Liver failure" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFEA613D-E7FF-0DBD-137A6EA9AB492248
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acute liver failure
+			</MetaKeyword>
+			<MetaKeyword>
+				liver failure
+			</MetaKeyword>
+			<MetaKeyword>
+				liver problems
+			</MetaKeyword>
+			<MetaKeyword>
+				liver diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				liver damage
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute liver failure occurs when your liver rapidly loses its ability to function. More commonly, liver failure develops slowly over the course of years. But in acute liver failure, liver failure develops in a matter of days. 
+&lt;/p&gt;
+&lt;p&gt;
+Acute liver failure can cause many complications, including excessive bleeding and increasing pressure in the brain. Another term for acute liver failure is fulminant hepatic failure. 
+&lt;/p&gt;
+&lt;p&gt;
+Acute liver failure is a medical emergency that requires hospitalization. Some causes of acute liver failure can be reversed with treatment. But in other situations, a liver transplant may be the only cure for acute liver failure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of acute liver failure may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A yellowing of your skin and eyeballs (jaundice)&lt;/li&gt;
+	&lt;li&gt;Pain in the upper right area of your abdomen&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;A general sense of not feeling well&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Disorientation or confusion&lt;/li&gt;
+	&lt;li&gt;Sleepiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Acute liver failure can develop quickly in an otherwise healthy person, and it is life-threatening. If you or someone you know suddenly develops a yellowing of the eyes or skin, tenderness in the upper abdomen or any unusual changes in mental state, personality or behavior, seek medical attention right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute liver failure occurs when liver cells are damaged significantly and no longer able to function. Acute liver failure has many potential causes, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acetaminophen overdose.&lt;/strong&gt; Taking too much acetaminophen (Tylenol, others) is the most common cause of acute liver failure in the United States. Acute liver failure can occur if you take a very large dose of acetaminophen all at once, or it can occur if you take higher-than-recommended doses every day for several days, especially in people with chronic liver disease. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prescription medications.&lt;/strong&gt; Some prescription medications, including antibiotics, nonsteroidal anti-inflammatory drugs and anticonvulsants, can cause acute liver failure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal supplements.&lt;/strong&gt; Herbal drugs and supplements, including kava, ephedra, skullcap and pennyroyal, have been linked to acute liver failure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis and other viruses.&lt;/strong&gt; Hepatitis A, hepatitis B and hepatitis E can cause acute liver failure. Other viruses that can cause acute liver failure include Epstein-Barr virus, cytomegalovirus and herpes simplex virus. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxins.&lt;/strong&gt; Toxins that can cause acute liver failure include the poisonous wild mushroom Amanita phalloides, which is sometimes mistaken for edible species. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune disease.&lt;/strong&gt; Liver failure can be caused by autoimmune hepatitis &amp;mdash; a disease in which your immune system attacks liver cells, causing inflammation and injury. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases of the veins in the liver.&lt;/strong&gt; Vascular diseases, such as Budd-Chiari syndrome, can cause blockages to form in the veins of the liver and lead to acute liver failure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metabolic disease.&lt;/strong&gt; Rare metabolic diseases, such as Wilson&apos;s disease and acute fatty liver of pregnancy, infrequently cause acute liver failure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Cancer that begins in your liver or cancer that spreads to your liver from other places in your body can cause your liver to fail. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many cases of acute liver failure have no apparent cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute liver failure often causes complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive fluid in the brain (cerebral edema).&lt;/strong&gt; Excessive fluid causes pressure to build in your brain, which can displace brain tissue outside of the space it normally occupies (herniation). Cerebral edema can also deprive your brain of oxygen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding disorders.&lt;/strong&gt; A failing liver isn&apos;t able to produce sufficient amounts of clotting factors, which help blood to clot. Bleeding from ulcers in the gastrointestinal tract or other locations is difficult to control because blood doesn&apos;t clot quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; People with acute liver failure are at an increased risk of developing a variety of infections, particularly in the blood and in the respiratory and urinary tracts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; Kidney failure often occurs following liver failure, especially in cases of acetaminophen overdose, which damages both your liver and your kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects you may be experiencing acute liver failure, you&apos;ll likely be admitted to a hospital for treatment. Most people with acute liver failure are treated in an&amp;nbsp;&amp;nbsp; intensive care unit. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will ask you or your family members a number of questions to try to determine what may have caused your acute liver failure. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What prescription medications do you take?&lt;/li&gt;
+	&lt;li&gt;What over-the-counter medications do you take?&lt;/li&gt;
+	&lt;li&gt;What herbal supplements do you take?&lt;/li&gt;
+	&lt;li&gt;Do you use illegal drugs?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with hepatitis?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of depression or suicidal thoughts?&lt;/li&gt;
+	&lt;li&gt;How much alcohol do you drink?&lt;/li&gt;
+	&lt;li&gt;Have you recently started taking any new medications?&lt;/li&gt;
+	&lt;li&gt;Do you take acetaminophen? How much?&lt;/li&gt;
+	&lt;li&gt;Do liver problems run in your family?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+If you have been diagnosed with acute liver failure, here are some questions to ask the doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused my acute liver failure?&lt;/li&gt;
+	&lt;li&gt;What are the chances that my acute liver failure can be reversed?&lt;/li&gt;
+	&lt;li&gt;What are the treatments for acute liver failure?&lt;/li&gt;
+	&lt;li&gt;Will I need a liver transplant?&lt;/li&gt;
+	&lt;li&gt;Does this hospital have a liver transplant unit?&lt;/li&gt;
+	&lt;li&gt;Should I be transferred to a hospital that performs liver transplants?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose acute liver failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests to determine how well your liver is functioning may include the prothrombin time test, which measures how long it takes for your blood to clot. If you have acute liver failure, your blood doesn&apos;t clot as quickly as it should.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may recommend imaging tests, such as ultrasound, to evaluate your liver. Imaging tests may show liver damage and may help your doctor determine the cause of your liver problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examination of liver tissue.&lt;/strong&gt; Your doctor may recommend a procedure to remove a small piece of liver tissue (liver biopsy). Tests of the liver tissue may help your doctor understand why your liver is failing. For people with a risk of bleeding during biopsy, such as those with acute liver failure, the doctor may perform a transjugular liver biopsy. To do this, a tiny incision is made on the right side of your neck and a thin tube (catheter) is passed into a large vein in your neck, through your heart and down into a vein exiting your liver. Your doctor then inserts a needle down through the catheter and retrieves a sample of liver tissue. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with acute liver failure are treated in the intensive care unit of a hospital. When it&apos;s possible, your doctor will work to treat your acute liver failure. But in many cases, the treatment involves controlling complications and giving your liver time to heal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for acute liver failure&lt;/strong&gt; &lt;br /&gt;
+Acute liver failure treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reverse poisoning.&lt;/strong&gt; Acute liver failure caused by acetaminophen overdose or mushroom poisoning is treated with drugs that can reverse the effects of the toxin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver transplant.&lt;/strong&gt; Acute liver failure can&apos;t be reversed in many cases. In these situations, the only treatment may be a liver transplant. During a liver transplant, a surgeon removes your damaged liver and replaces it with a healthy liver from a donor. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for complications&lt;/strong&gt; &lt;br /&gt;
+Your doctor will work to control signs and symptoms you&apos;re experiencing and try to prevent complications caused by acute liver failure. This care may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Relieving excess fluid in the brain.&lt;/strong&gt; Cerebral edema caused by acute liver failure can increase pressure on your brain. Medications can help reduce the fluid buildup in your brain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Screening for infections.&lt;/strong&gt; Your medical team will take periodic samples of your blood and urine to be tested for signs of infection. If your doctor suspects that you have an infection, you&apos;ll receive medications to treat the infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventing severe bleeding.&lt;/strong&gt; People with acute liver failure often develop bleeding ulcers in the gastrointestinal tract. Your doctor can give you medications to reduce the risk of bleeding. If you lose a lot of blood, you may require blood transfusions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reduce your risk of acute liver failure by taking care of your liver. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow instructions on medications.&lt;/strong&gt; If you take acetaminophen or other medications, check the package insert for instructions on the recommended dosage and don&apos;t exceed that dosage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tell your doctor about all your medicines.&lt;/strong&gt; Tell your doctor about over-the-counter and herbal medicines that you&apos;re taking. These can interfere with prescription drugs you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Limit the amount of alcohol you drink to no more than one drink a day for women and no more than two drinks a day for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid risky behavior.&lt;/strong&gt; Get help if you use illicit intravenous drugs. Don&apos;t share needles used to inject drugs. If you choose to have sex, use condoms. If you choose to have tattoos or body piercings, be careful about cleanliness and safety when it comes to selecting a shop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; If you&apos;re at increased risk of contracting hepatitis, if you&apos;ve already been infected with any form of the hepatitis virus or if you have chronic liver disease, talk to your doctor about getting the hepatitis B vaccine. A vaccine is also available for hepatitis A.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid contact with other people&apos;s blood and body fluids.&lt;/strong&gt; Hepatitis viruses can be spread by accidental needle sticks or improper cleanup of blood or body fluids. It&apos;s also possible to become infected by sharing razor blades or toothbrushes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t eat wild mushrooms.&lt;/strong&gt; It can be difficult to distinguish an edible mushroom from a poisonous one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with aerosol sprays.&lt;/strong&gt; When you use an aerosol cleaner, make sure the room is ventilated, or wear a mask. Take similar protective measures when spraying insecticides, fungicides, paint and other toxic chemicals. Always follow the manufacturer&apos;s instructions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what gets on your skin.&lt;/strong&gt; When using insecticides and other toxic chemicals, cover your skin with gloves, long sleeves, a hat and a mask.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Choose a plant-based diet with a variety of fruits and vegetables. Limit high-fat foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Obesity can cause a condition called nonalcoholic fatty liver disease, which may include fatty liver, hepatitis and cirrhosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acute liver failure
+	</Title>
+	<Abstract>
+		Acute liver failure &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this medical emergency.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00150" LinkType="Internal" ObjectID="DFC44F61-E7FF-0DBD-1203A137D5584040" Title="Prothrombin time test" Url="http://www.mayoclinic.com/health/prothrombin-time/MY00150" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00373" LinkType="Internal" ObjectID="6398C697-E7FF-0DBD-132E3127078F78BF" Title="Blood urea nitrogen (BUN) test" Url="http://www.mayoclinic.com/health/blood-urea-nitrogen/MY00373" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00349" LinkType="Internal" ObjectID="21329E51-E7FF-0DBD-1B9E2B7D0F8B83AE" Title="Liver transplant" Url="http://www.mayoclinic.com/health/liver-transplant/MY00349" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+	</RelatedLinksBox>
+</Disease>

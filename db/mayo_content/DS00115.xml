@@ -1,0 +1,372 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00115
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lupus/DS00115
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-26
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="1737" Title="Lupus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			36ADBDB2-D8AB-47D6-83E44F52A4908F76
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lupus
+			</MetaKeyword>
+			<MetaKeyword>
+				systemic lupus erythematosus
+			</MetaKeyword>
+			<MetaKeyword>
+				SLE
+			</MetaKeyword>
+			<MetaKeyword>
+				discoid
+			</MetaKeyword>
+			<MetaKeyword>
+				discoid lupus erythematosus
+			</MetaKeyword>
+			<MetaKeyword>
+				malar rash
+			</MetaKeyword>
+			<MetaKeyword>
+				discoid rash
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal lupus erythematosis
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal lupus
+			</MetaKeyword>
+			<MetaKeyword>
+				serositis
+			</MetaKeyword>
+			<MetaKeyword>
+				lupis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lupus is a chronic inflammatory disease that occurs when your body&apos;s immune system attacks your own tissues and organs. Inflammation caused by lupus can affect many different body systems &amp;mdash; including your joints, skin, kidneys, blood cells, brain, heart and lungs.
+&lt;/p&gt;
+&lt;p&gt;
+Lupus can be difficult to diagnose because its signs and symptoms often mimic those of other ailments. The most distinctive sign of lupus &amp;mdash; a facial rash that resembles the wings of a butterfly unfolding across both cheeks &amp;mdash; occurs in many but not all cases of lupus.
+&lt;/p&gt;
+&lt;p&gt;
+Some people are born with a tendency toward developing lupus, which may be triggered by infections, certain drugs or even sunlight. While there&apos;s no cure for lupus, treatments can help control symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No two cases of lupus are exactly alike. Signs and symptoms may come on suddenly or develop slowly, may be mild or severe, and may be temporary or permanent. Most people with lupus have mild disease characterized by episodes &amp;mdash; called flares &amp;mdash; when signs and symptoms get worse for a while, then improve or even disappear completely for a time. 
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of lupus that you experience will depend on which body systems are affected by the disease. The most common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue and fever&lt;/li&gt;
+	&lt;li&gt;Joint pain, stiffness and swelling&lt;/li&gt;
+	&lt;li&gt;Butterfly-shaped rash on the face that covers the cheeks and bridge of the nose&lt;/li&gt;
+	&lt;li&gt;Skin lesions that appear or worsen with sun exposure&lt;/li&gt;
+	&lt;li&gt;Fingers and toes that turn white or blue when exposed to cold or during stressful periods (Raynaud&apos;s phenomenon)&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Dry eyes&lt;/li&gt;
+	&lt;li&gt;Headaches, confusion, memory loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you develop an unexplained rash, ongoing fever, persistent aching or fatigue. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing red, butterfly-shaped rash on nose and cheeks 
+" Caption="A typical sign of lupus is a red, butterfly-shaped rash over your cheeks and nose, often following exposure to sunlight. 
+" Height="60" Title="Lupus facial rash" URI="/images/image_popup/thumbs/r7_lupusthu.jpg" Width="60" />
+				<Image Alt="Photograph showing red, butterfly-shaped rash on nose and cheeks 
+" Caption="A typical sign of lupus is a red, butterfly-shaped rash over your cheeks and nose, often following exposure to sunlight. 
+" Height="400" Title="Lupus facial rash" URI="/images/image_popup/r7_lupus.jpg" Width="381" />
+				<HTML>
+					A typical sign of lupus is a red, butterfly-shaped rash over your cheeks and nose, often following exposure to sunlight. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lupus occurs when your immune system attacks healthy tissue in your body. It&apos;s likely that lupus results from a combination of your genetics and your environment. It appears that people with an inherited predisposition for lupus may develop the disease when they come into contact with something in the environment that can trigger lupus. The cause for lupus in most cases, however, is unknown. Some potential triggers include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sunlight.&lt;/strong&gt; Exposure to the sun may bring on lupus skin lesions or trigger an internal response in susceptible people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Lupus can be triggered by certain types of anti-seizure medications, blood pressure medications and antibiotics. People who have drug-induced lupus usually see their symptoms go away when they stop taking the medication.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of lupus include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Lupus is more common in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Although lupus affects people of all ages, it&apos;s most often diagnosed between the ages of 15 and 40.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Lupus is more common in African Americans, Hispanics and Asians.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Inflammation caused by lupus can affect many areas of your body, including your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kidneys.&lt;/strong&gt; Lupus can cause serious kidney damage, and kidney failure is one of the leading causes of death among people with lupus. Signs and symptoms of kidney problems may include generalized itching, chest pain, nausea, vomiting and leg swelling (edema).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain.&lt;/strong&gt; If your brain is affected by lupus, you may experience headaches, dizziness, behavior changes, hallucinations, and even strokes or seizures. Many people with lupus experience memory problems and may have difficulty expressing their thoughts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and blood vessels.&lt;/strong&gt; Lupus may lead to blood problems, including anemia and increased risk of bleeding or blood clotting. It can also cause inflammation of the blood vessels (vasculitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lungs.&lt;/strong&gt; Having lupus increases your chances of developing an inflammation of the chest cavity lining (pleurisy), which can make breathing painful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart.&lt;/strong&gt; Lupus can cause inflammation of your heart muscle, your arteries or heart membrane (pericarditis). The risk of cardiovascular disease and heart attacks increases greatly as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of complications&lt;br /&gt;
+&lt;/strong&gt;Having lupus also increase your risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; People with lupus are more vulnerable to infection because both the disease and its treatments weaken the immune system. Infections that most commonly affect people with lupus include urinary tract infections, respiratory infections, yeast infections, salmonella, herpes and shingles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Having lupus appears to increase your risk of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone tissue death (avascular necrosis).&lt;/strong&gt; This occurs when the blood supply to a bone diminishes, often leading to tiny breaks in the bone and eventually to the bone&apos;s collapse. The hip joint is most commonly affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Women with lupus have an increased risk of miscarriage. Lupus increases the risk of high blood pressure during pregnancy (preeclampsia) and preterm birth. To reduce the risk of these complications, doctors recommend delaying pregnancy until your disease has been under control for at least 6 months.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care provider, but he or she may refer you to specialist in the diagnosis and treatment of arthritis and other inflammatory joint conditions (rheumatologist). Because the symptoms of lupus can mimic so many other health problems, you may need patience while waiting for a diagnosis. Your doctor must rule out a number of other illnesses before diagnosing lupus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin? Do they come and go?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your parents or siblings had lupus or other autoimmune disorders?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also want to write down questions to ask your doctor, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the possible causes of my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;If these tests don&apos;t pinpoint the cause of my symptoms, what additional tests might I need?&lt;/li&gt;
+	&lt;li&gt;Are there any treatments or lifestyle changes that might help my symptoms now?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions while we&apos;re seeking a diagnosis?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may leave time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does sun exposure cause you to develop skin rashes?&lt;/li&gt;
+	&lt;li&gt;Do your fingers become pale, numb or uncomfortable in the cold?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include any problems with memory or concentration?&lt;/li&gt;
+	&lt;li&gt;How much do your symptoms limit your ability to function at school, work or in personal relationships?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant or do you plan to become pregnant?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing lupus is difficult because signs and symptoms vary considerably from person to person. Signs and symptoms of lupus may vary over time and overlap with those of many other disorders. No one test can diagnose lupus. The combination of blood and urine tests, signs and symptoms, and physical examination findings leads to the diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;br /&gt;
+&lt;/strong&gt;Blood and urine tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Complete blood count.&lt;/strong&gt; This test measures the number of red blood cells, white blood cells and platelets as well as the amount of hemoglobin, a protein in red blood cells. Results may indicate you have anemia, which commonly occurs in lupus. A low white blood cell or platelet count may occur in lupus as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Erythrocyte sedimentation rate.&lt;/strong&gt; This blood test determines the rate at which red blood cells settle to the bottom of a tube in an hour. A faster than normal rate may indicate a systemic disease, such as lupus. The sedimentation rate isn&apos;t specific for any one disease. It may be elevated if you have lupus, another inflammatory condition, cancer or an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney and liver assessment.&lt;/strong&gt; Blood tests can assess how well your kidneys and liver are functioning. Lupus can affect these organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis.&lt;/strong&gt; An examination of a sample of your urine may show an increased protein level or red blood cells in the urine, which may occur if lupus has affected your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antinuclear antibody (ANA) test.&lt;/strong&gt; A positive test for the presence of these antibodies &amp;mdash; produced by your immune system &amp;mdash; indicates a stimulated immune system. While most people with lupus have a positive ANA test, most people with a positive ANA do not have lupus. If you test positive for ANA, your doctor may advise more-specific antibody testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;If your doctor suspects that lupus is affecting your lungs or heart, he or she may suggest:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An image of your chest may reveal abnormal shadows that suggest fluid or inflammation in your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses sound waves to produce real-time images of your beating heart. It can check for problems with your valves and other portions of your heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biopsy&lt;br /&gt;
+&lt;/strong&gt;Lupus can harm your kidneys in many different ways and treatments can vary, depending on the type of damage that occurs. In some cases, it&apos;s necessary to test a small sample of kidney tissue to determine what the best treatment might be. The sample can be obtained with a needle, or through a small incision.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for lupus depends on your signs and symptoms. Determining whether your signs and symptoms should be treated and what medications to use requires a careful discussion of the benefits and risks with your doctor. As your signs and symptoms flare and subside, you and your doctor may find that you&apos;ll need to change medications or dosages. The medications most commonly used to control lupus include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; Over-the-counter NSAIDs, such as naproxen (Aleve) and ibuprofen (Advil, Motrin, others), may be used to treat pain, swelling and fever associated with lupus. Stronger NSAIDs are available by prescription. Side effects of NSAIDs include stomach bleeding, kidney problems and an increased risk of heart problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antimalarial drugs.&lt;/strong&gt; Medications commonly used to treat malaria, such as hydroxychloroquine (Plaquenil), also can help control lupus. Side effects can include stomach upset and, very rarely, damage to the retina of the eye.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Prednisone and other types of corticosteroids can counter the inflammation of lupus, but often produce long-term side effects &amp;mdash; including weight gain, easy bruising, thinning bones (osteoporosis), high blood pressure, diabetes and increased risk of infection. The risk of side effects increases with higher doses and longer term therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune suppressants.&lt;/strong&gt; Drugs that suppress the immune system may be helpful in serious cases of lupus. Examples include cyclophosphamide (Cytoxan), azathioprine (Imuran, Azasan), mycophenolate (Cellcept), leflunomide (Arava) and methotrexate (Trexall). Potential side effects may include an increased risk of infection, liver damage, decreased fertility and an increased risk of cancer. A newer medication, belimumab (Benlysta) also reduces lupus symptoms in some people. Side effects include nausea, diarrhea and fever.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take steps to care for your body if you have lupus. Simple measures can help you prevent lupus flares and, should they occur, better cope with the signs and symptoms you experience. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get adequate rest.&lt;/strong&gt; People with lupus often experience persistent fatigue that&apos;s different from normal tiredness and that isn&apos;t necessarily relieved by rest. For that reason, it can be hard to judge when you need to slow down. Get plenty of sleep a night and naps or breaks during the day as needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be sun smart.&lt;/strong&gt; Because ultraviolet light can trigger a flare, wear protective clothing, such as a hat, long-sleeved shirt and long pants, and use sunscreens with a sun protection factor (SPF) of at least 55 every time you go outside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Exercise can help you recover from a flare, reduce your risk of heart attack, help fight depression and promote general well-being.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking increases your risk of cardiovascular disease and can worsen the effects of lupus on your heart and blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; A healthy diet emphasizes fruits, vegetables and whole grains. Sometimes you may have dietary restrictions, especially if you have high blood pressure, kidney damage or gastrointestinal problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes alternative or complementary medicine may benefit people with lupus. However, these therapies are usually used with conventional medications. Discuss these treatments with your doctor before initiating them on your own. He or she can help you weigh the benefits and risks and tell you if the treatments will interfere with your current lupus medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Complementary and alternative treatments for lupus include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydroepiandrosterone (DHEA).&lt;/strong&gt; Supplements containing this hormone have been shown to reduce the dose of steroids needed to stabilize symptoms in some people who have lupus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flaxseed.&lt;/strong&gt; Flaxseed contains a fatty acid called alpha-linolenic acid, which may decrease inflammation in the body. Some studies have found that flaxseed may improve kidney function in people who have lupus that affects the kidneys. Side effects of flaxseed include bloating and abdominal pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fish oil.&lt;/strong&gt; Fish oil supplements contain omega-3 fatty acids that may be beneficial for people with lupus. Preliminary studies have found some promise, though more study is needed. Side effects of fish oil supplements can include nausea, belching and a fishy taste in the mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin D.&lt;/strong&gt; There is some evidence to suggest that people with lupus may benefit from supplemental vitamin D.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have lupus, you&apos;re likely to have a range of painful feelings about your condition, from fear to extreme frustration. The challenges of living with lupus increase your risk of depression and related mental health problems, such as anxiety, stress and low self-esteem. To help you cope with lupus, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn all you can about lupus.&lt;/strong&gt; Write down all the questions you have about lupus and ask them at your next appointment. Ask your doctor or nurse for reputable sources of further information. The more you know about lupus, the more confident you&apos;ll feel in your treatment choices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gather support among your friends and family.&lt;/strong&gt; Talk about lupus with your friends and family and explain ways they can help out when you&apos;re having flares. Lupus can be frustrating for your loved ones because they usually can&apos;t see it and you may not appear sick. They can&apos;t tell if you&apos;re having a good day or a bad day unless you tell them. Be open about what you&apos;re feeling so that your friends and family know what to expect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Cope with stress in your life by taking time for yourself. Use that time to read, meditate, listen to music or write in a journal. Find activities that calm and renew you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with others who have lupus.&lt;/strong&gt; Talk to other people who have lupus. You can connect with other people who have lupus through support groups in your community or through online message boards. Other people with lupus can offer unique support because they&apos;re facing many of the same obstacles and frustrations that you&apos;re facing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lupus
+	</Title>
+	<Abstract>
+		Lupus &amp;mdash; Comprehensive overview covers symptoms and treatment of lupus, including systemic lupus erythematosus.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00787" LinkType="Internal" ObjectID="74664E72-D011-7D0D-FAFA7BCB2AED1DD4" Title="ANA test" Url="http://www.mayoclinic.com/health/ana-test/MY00787" />
+		<LinkItem ContentType="Answer" DocID="AN01622" LinkType="Internal" ObjectID="21B4B8AD-E7FF-0DBD-184184B15FD73F74" Title="Livedo reticularis: When is it a concern?" Url="http://www.mayoclinic.com/health/livedo-reticularis/AN01622" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Answer" DocID="AN01876" LinkType="Internal" ObjectID="ED21D1CA-E7FF-0DBD-132BE14E77330FCB" Title="Lupus: Can it cause hair loss?" Url="http://www.mayoclinic.com/health/lupus/AN01876" />
+		<LinkItem ContentType="Answer" DocID="AN01267" LinkType="Internal" ObjectID="E434A0DE-2A5D-9994-E7E971447FB71A4D" Title="Lupus: How does it affect the kidneys?" Url="http://www.mayoclinic.com/health/lupus/AN01267" />
+		<LinkItem ContentType="Answer" DocID="AN01280" LinkType="Internal" ObjectID="6149219E-2A5D-9994-E09E7A063B0CE604" Title="Lupus: Can it cause hives?" Url="http://www.mayoclinic.com/health/lupus/AN01280" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+	</RelatedLinksBox>
+</Disease>

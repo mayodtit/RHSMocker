@@ -1,0 +1,299 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00998
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mirena/MY00998
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-21
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4129" Title="Lifestyle">
+						<Keyword MCVID="4624" Title="Hormonal IUD" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2FE93BB0-B736-D7BE-E8480D69D878499E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hormonal iud
+			</MetaKeyword>
+			<MetaKeyword>
+				mirena
+			</MetaKeyword>
+			<MetaKeyword>
+				mirena iud
+			</MetaKeyword>
+			<MetaKeyword>
+				mirena coil
+			</MetaKeyword>
+			<MetaKeyword>
+				mirena side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				marena
+			</MetaKeyword>
+			<MetaKeyword>
+				iud mirena
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus for long-term birth control (contraception). A T-shaped plastic frame that releases a type of progestin, Mirena thickens the cervical mucus to prevent sperm from reaching or fertilizing an egg. Mirena also thins the lining of the uterus and partially suppresses ovulation.
+&lt;/p&gt;
+&lt;p&gt;
+Mirena is the only hormonal IUD that has Food and Drug Administration (FDA) approval. Mirena prevents pregnancy for up to five years after insertion.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of Mirena 
+" Caption="Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus for long-term contraception. Mirena prevents pregnancy for up to five years.
+" Height="60" Title="Mirena" URI="/images/image_popup/thumbs/mcdc7_mirenaiudphotothu.jpg" Width="60" />
+				<Image Alt="Photo of Mirena 
+" Caption="Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus for long-term contraception. Mirena prevents pregnancy for up to five years.
+" Height="400" Title="Mirena" URI="/images/image_popup/mcdc7_mirenaiudphoto.jpg" Width="400" />
+				<HTML>
+					Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus for long-term contraception. Mirena prevents pregnancy for up to five years.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mirena offers effective, long-term contraception. Among various benefits, Mirena:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eliminates the need to interrupt sex for contraception or seek partner compliance&lt;/li&gt;
+	&lt;li&gt;Can remain in place for up to five years&lt;/li&gt;
+	&lt;li&gt;Can be removed at any time, followed by a quick return to baseline fertility&lt;/li&gt;
+	&lt;li&gt;Decreases menstrual bleeding after three to six months of use&lt;/li&gt;
+	&lt;li&gt;Decreases severe menstrual pain and pain related to endometriosis&lt;/li&gt;
+	&lt;li&gt;Decreases the risk of pelvic inflammatory disease caused by sexually transmitted infections (STIs)&lt;/li&gt;
+	&lt;li&gt;Decreases the risk of endometrial cancer and possibly cervical cancer&lt;/li&gt;
+	&lt;li&gt;Can be used while breast-feeding &amp;mdash; though there may be an increased risk of uterine perforation if inserted immediately after childbirth&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t carry the risk of side effects related to birth control methods containing estrogen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Mirena isn&apos;t appropriate for everyone, however. Your health care provider may discourage use of Mirena if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Had or have breast cancer&lt;/li&gt;
+	&lt;li&gt;Have uterine or cervical cancer&lt;/li&gt;
+	&lt;li&gt;Have liver disease&lt;/li&gt;
+	&lt;li&gt;Have uterine abnormalities, such as fibroids, that interfere with the placement or retention of Mirena&lt;/li&gt;
+	&lt;li&gt;Have a pelvic infection or have a history of pelvic inflammatory disease&lt;/li&gt;
+	&lt;li&gt;Have unexplained vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Have inflammation of the vagina or cervix or a lower genital tract infection&lt;/li&gt;
+	&lt;li&gt;Are allergic to any component of Mirena&lt;/li&gt;
+	&lt;li&gt;Have or are at high risk of a sexually transmitted infection&lt;/li&gt;
+	&lt;li&gt;Had previous problems with an IUD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, tell your health care provider if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take any medications, including nonprescription and herbal products&lt;/li&gt;
+	&lt;li&gt;Have diabetes or high blood pressure&lt;/li&gt;
+	&lt;li&gt;Have a heart condition or have had a heart attack&lt;/li&gt;
+	&lt;li&gt;Have migraines&lt;/li&gt;
+	&lt;li&gt;Have blood-clotting problems or have had a stroke&lt;/li&gt;
+	&lt;li&gt;Recently gave birth or are breast-feeding&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Less than 1 percent of women who use Mirena will get pregnant in the first year of typical use. If you do conceive while using Mirena, you&apos;re at higher risk of an ectopic pregnancy &amp;mdash; when the fertilized egg implants outside the uterus, usually in a fallopian tube. However, because Mirena prevents most pregnancies, women who use it are at lower risk of having an ectopic pregnancy than are other sexually active women who are not using contraception.
+&lt;/p&gt;
+&lt;p&gt;
+Mirena doesn&apos;t offer protection from sexually transmitted infections (STIs).
+&lt;/p&gt;
+&lt;p&gt;
+Side effects associated with Mirena include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Acne&lt;/li&gt;
+	&lt;li&gt;Breast tenderness&lt;/li&gt;
+	&lt;li&gt;Breakthrough bleeding&lt;/li&gt;
+	&lt;li&gt;Absence of periods (amenorrhea), especially after one year of use&lt;/li&gt;
+	&lt;li&gt;Mood changes&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+	&lt;li&gt;Ovarian cysts&lt;/li&gt;
+	&lt;li&gt;Abdominal or pelvic pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s also possible to expel Mirena from your uterus. You may be more likely to expel Mirena if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have never been pregnant&lt;/li&gt;
+	&lt;li&gt;Have heavy or prolonged periods&lt;/li&gt;
+	&lt;li&gt;Have severe menstrual pain&lt;/li&gt;
+	&lt;li&gt;Previously expelled an IUD&lt;/li&gt;
+	&lt;li&gt;Are younger than age 20&lt;/li&gt;
+	&lt;li&gt;Had Mirena inserted immediately after childbirth or an abortion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your health care provider may recommend removal of Mirena if you develop:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A pelvic infection&lt;/li&gt;
+	&lt;li&gt;Inflammation of the endometrium (endometritis)&lt;/li&gt;
+	&lt;li&gt;Endometrial or cervical cancer&lt;/li&gt;
+	&lt;li&gt;Uterine or cervical perforation&lt;/li&gt;
+	&lt;li&gt;A significant increase in blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider will evaluate your overall health and do a pelvic exam before inserting Mirena. He or she may also recommend screening for STIs. You can have Mirena inserted anytime during your menstrual cycle if you&apos;ve been consistently using another birth control method or you haven&apos;t had sex since your last period. If you are breast-feeding, have irregular periods or haven&apos;t been consistently using birth control, you may need to take a pregnancy test before Mirena is inserted or have it inserted during a period. If you have Mirena inserted more than seven days after the start of your period, you should be prepared to use backup contraception for one week.
+&lt;/p&gt;
+&lt;p&gt;
+Taking a nonsteroidal anti-inflammatory drug, such as ibuprofen (Advil, Motrin, others), one to two hours before the procedure can help reduce cramping.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mirena is typically inserted in a health care provider&apos;s office.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+Your health care provider will insert a speculum into your vagina and cleanse your vagina and cervix with an antiseptic solution. Then he or she will use a special instrument to gently align your cervical canal and uterine cavity and another tool to measure the depth of your uterine cavity. Next your health care provider will fold Mirena&apos;s horizontal arms and place the device inside an applicator tube. He or she will insert the tube into your cervical canal and carefully place Mirena in your uterus. When the applicator tube is removed, Mirena will remain in place. Your health care provider will trim Mirena&apos;s strings so that they don&apos;t protrude too far into the vagina and may record the length of the strings.
+&lt;/p&gt;
+&lt;p&gt;
+During Mirena insertion, you may experience dizziness, fainting, nausea, low blood pressure or a slower than normal heart rate (bradycardia). It&apos;s also possible for the IUD to perforate the uterine wall or cervix.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After every period, or every two months if you&apos;re not having flow, check to feel that Mirena&apos;s strings are protruding from your cervix. Don&apos;t pull on the strings. Four to six weeks after Mirena is inserted, your health care provider may re-examine you to make sure Mirena hasn&apos;t moved and check for signs and symptoms of pelvic inflammatory disease, which can cause tubal damage or infertility.
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re using Mirena, contact your health care provider immediately if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have signs or symptoms of a heart attack or stroke&lt;/li&gt;
+	&lt;li&gt;Think you may be pregnant&lt;/li&gt;
+	&lt;li&gt;Have unusually heavy vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Have abdominal pain or pain during sex&lt;/li&gt;
+	&lt;li&gt;Have an unexplained fever&lt;/li&gt;
+	&lt;li&gt;Have unusual or foul-smelling vaginal discharge, lesions or sores&lt;/li&gt;
+	&lt;li&gt;Develop very severe headaches or migraines&lt;/li&gt;
+	&lt;li&gt;Have yellowing of the skin or eyes (signs of jaundice)&lt;/li&gt;
+	&lt;li&gt;Were exposed to a sexually transmitted infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s also important to contact your health care provider immediately if you think Mirena is no longer in place. Call you doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sex is painful for you or your partner&lt;/li&gt;
+	&lt;li&gt;The IUD strings are missing or suddenly seem longer&lt;/li&gt;
+	&lt;li&gt;You feel part of the device&apos;s hard plastic at your cervix or in your vagina&lt;/li&gt;
+	&lt;li&gt;Your normal periods return&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider will check the location of Mirena, and if it&apos;s displaced, remove it if necessary.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Removal&lt;/strong&gt;&lt;br /&gt;
+Mirena can remain in place for up to five years. To remove Mirena, your health care provider will likely use forceps to grasp the device&apos;s strings and gently pull. The device&apos;s arms will fold upward as it&apos;s withdrawn from the uterus. Light bleeding and cramping is common during removal. In some cases, removal may be more complicated. For example, Mirena may become embedded in your uterine wall. If this happens, you may need local anesthesia and cervical dilation or hysteroscopy to have the device removed.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing insertion of Mirena 
+" Caption="Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus by a health care provider. Mirena prevents pregnancy for up to five years.
+" Height="60" Title="Insertion of Mirena" URI="/images/image_popup/thumbs/mcdc7_mirenathu.jpg" Width="60" />
+				<Image Alt="Illustration showing insertion of Mirena 
+" Caption="Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus by a health care provider. Mirena prevents pregnancy for up to five years.
+" Height="400" Title="Insertion of Mirena" URI="/images/image_popup/mcdc7_mirena.jpg" Width="400" />
+				<HTML>
+					Mirena is a hormonal intrauterine device (IUD) that&apos;s inserted into the uterus by a health care provider. Mirena prevents pregnancy for up to five years.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Mirena (hormonal IUD)
+	</Title>
+	<Abstract>
+		Mirena (hormonal IUD) &amp;mdash; Overview covers definition, risks, instructions for using this type of contraception.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00997" LinkType="Internal" ObjectID="2FE5F442-DA5D-A3FC-B14B631D1FFAB056" Title="ParaGard (copper IUD)" Url="http://www.mayoclinic.com/health/paragard/MY00997" />
+		<LinkItem ContentType="Disease" DocID="DS00402" LinkType="Internal" ObjectID="FBA965E8-A8A8-4135-B6C0D91B152E2CF5" Title="Pelvic inflammatory disease (PID)" Url="http://www.mayoclinic.com/health/pelvic-inflammatory-disease/DS00402" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+		<LinkItem ContentType="Disease" DocID="DS00306" LinkType="Internal" ObjectID="CC957764-574A-4BA2-8AD311918F4E894F" Title="Endometrial cancer" Url="http://www.mayoclinic.com/health/endometrial-cancer/DS00306" />
+		<LinkItem ContentType="Disease" DocID="DS00255" LinkType="Internal" ObjectID="B5642F87-B29F-4065-A60FC82B39C4CD8B" Title="Vaginitis" Url="http://www.mayoclinic.com/health/vaginitis/DS00255" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+	</RelatedLinksBox>
+</TestProcedure>

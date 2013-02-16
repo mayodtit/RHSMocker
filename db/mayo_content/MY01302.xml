@@ -1,0 +1,261 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01302
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sclerotherapy/MY01302
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-22
+		</UpdateDate>
+		<PublicationDate>
+			2010-09-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4701" Title="Sclerotherapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5073DC55-B11F-BC6D-89214315B39C113C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sclerotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				varicose veins
+			</MetaKeyword>
+			<MetaKeyword>
+				spider veins
+			</MetaKeyword>
+			<MetaKeyword>
+				varicose veins treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				varicose vein treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				spider vein removal
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sclerotherapy effectively treats varicose and spider veins. It&apos;s often considered the treatment of choice for small varicose veins. Sclerotherapy involves injecting a solution directly into the vein. The sclerotherapy solution causes the vein to scar and collapse, forcing blood to reroute through healthier veins. The collapsed vein is reabsorbed into local tissue and eventually fades. 
+&lt;/p&gt;
+&lt;p&gt;
+After sclerotherapy, treated veins tend to fade within a few weeks, although occasionally it may take up to a month to see the full results. In some instances, several sclerotherapy treatments may be needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sclerotherapy is often done for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cosmetic purposes &amp;mdash; to improve the appearance of varicose and spider veins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The procedure also can improve related symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aching&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Burning&lt;/li&gt;
+	&lt;li&gt;Night cramps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re pregnant, doctors recommend waiting until after your delivery to have sclerotherapy done. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing varicose veins 
+" Caption="Normally, veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Varicose veins may be caused by weakened valves (incompetent valves) within the veins that allow blood to pool in your veins instead of traveling to your heart. 
+" Height="60" Title="Varicose veins" URI="/images/image_popup/thumbs/ww5rp30t.jpg" Width="60" />
+				<Image Alt="Illustration showing varicose veins 
+" Caption="Normally, veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Varicose veins may be caused by weakened valves (incompetent valves) within the veins that allow blood to pool in your veins instead of traveling to your heart. 
+" Height="331" Title="Varicose veins" URI="/images/image_popup/ww5rp30.jpg" Width="400" />
+				<HTML>
+					Normally, veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Varicose ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sclerotherapy is a fairly safe procedure with few complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Temporary side effects&lt;br /&gt;
+&lt;/strong&gt;Some side effects that may occur at the site of the injection include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Raised red areas&lt;/li&gt;
+	&lt;li&gt;Small skin sores&lt;/li&gt;
+	&lt;li&gt;Darkened skin in the form of lines or spots&lt;/li&gt;
+	&lt;li&gt;Multiple tiny red blood vessels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These side effects usually go away within a few days to several weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Side effects that may require treatment&lt;br /&gt;
+&lt;/strong&gt;Other complications are less common but may require treatment. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation.&lt;/strong&gt; This is usually mild but may cause swelling, warmth and discomfort around the injection site. Your doctor may suggest aspirin or antibiotics to reduce the inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clot.&lt;/strong&gt; A lump of clotted blood may form in a treated vein that may require drainage. Rarely, a blood clot may travel to a deeper vein in your leg (deep vein thrombosis). Deep vein thrombosis carries a risk of pulmonary embolism, an emergency situation where the clot travels from your leg to your lungs and blocks a vital artery. Seek immediate medical care if you experience difficulty breathing, chest pain or dizziness, or you cough up blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Air bubbles.&lt;/strong&gt; Tiny air bubbles may rise in your bloodstream. These don&apos;t always cause symptoms, but if they do, symptoms include visual disturbances, headache, coughing and nausea. These symptoms generally go away, but call your doctor if you experience problems with limb movement or sensation after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic reaction.&lt;/strong&gt; It&apos;s possible that you may have an allergic reaction to the solution used for treatment, but this is uncommon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before the procedure, your doctor performs a physical exam and gathers your medical history. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical examination&lt;br /&gt;
+&lt;/strong&gt;Your doctor will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evaluate your involved veins&lt;/li&gt;
+	&lt;li&gt;Check for any underlying blood vessel disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical history&lt;br /&gt;
+&lt;/strong&gt;Your doctor will want to know your medical history, including asking about any: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recent illnesses or existing medical conditions, such as a heart condition&lt;/li&gt;
+	&lt;li&gt;Medications or supplements you take, especially aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs), blood thinners or antibiotics&lt;/li&gt;
+	&lt;li&gt;Allergies&lt;/li&gt;
+	&lt;li&gt;Smoking or oral contraceptive use, as these can increase your risk of blood clots&lt;/li&gt;
+	&lt;li&gt;Previous treatment for varicose veins and the results of the treatment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you take aspirin, NSAIDs or blood thinners, your doctor may instruct you on how to stop taking the medication for a certain amount of time before the procedure, to reduce the chances of bleeding. Your doctor may also advise you on your use of antibiotics and oral contraceptives. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The day before&lt;br /&gt;
+&lt;/strong&gt;For 24 hours before the procedure, avoid shaving or applying any lotion to your legs. Wear loose, comfortable clothing to your appointment. You might even consider wearing a pair of shorts so that your legs are exposed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sclerotherapy is typically done in your doctor&apos;s office and doesn&apos;t require anesthesia. It generally takes less than an hour to complete. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;For the procedure, you&apos;ll lie on your back with your legs slightly elevated. After cleansing the area to be treated with alcohol, your doctor will use a fine needle to slowly insert a solution into the appropriate vein. The solution, usually in liquid form, works by irritating the lining of the vein, causing it to swell shut and block the flow of blood. Eventually, the vein will become scar tissue and disappear. Some doctors may use a foam version of the solution, particularly when a larger vein is involved. Foam tends to cover more surface area than liquid.
+&lt;/p&gt;
+&lt;p&gt;
+Some people experience minor stinging or cramps when the needle is inserted into the vein. If you have a lot of pain, tell your doctor; it may be because the solution has leaked from the vein into surrounding tissue.
+&lt;/p&gt;
+&lt;p&gt;
+Once the needle is withdrawn, your doctor applies compression and massages the area to keep blood out of the injected vessel and disperse the solution. A compression pad may be taped onto the injection site to keep the area compressed while your doctor moves on to the next vein. 
+&lt;/p&gt;
+&lt;p&gt;
+The number of injections depends on the number and size of veins being treated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;After the procedure, you rest on your back for 15 to 20 minutes. Your doctor checks your injection sites for any immediate side effects. You can then get up and walk around. Walking and moving your legs is important to prevent the formation of blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be asked to wear compression stockings or bandages &amp;mdash; usually for about three weeks &amp;mdash; to maintain compression on the treated veins. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people return to their normal activities on the same day, but it may be wise to have someone drive you home after the procedure. Your doctor will probably advise you to avoid strenuous exercise for two weeks after the procedure. You&apos;ll also want to avoid sun exposure to the treated areas during that time. The inflammation caused by the injections combined with sun exposure can lead to dark spots on your skin, especially if you already have a dark skin tone. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you were treated for small varicose veins or spider veins, you can usually expect to see definitive results in three to six weeks. Larger veins may require three to four months. Treated veins generally don&apos;t come back, but new veins may appear.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will likely schedule a follow-up visit about a month after the procedure to check the procedure&apos;s success and decide whether further sessions are needed. Generally, you need to wait four to six weeks before undergoing another sclerotherapy session.
+&lt;/p&gt;
+&lt;p&gt;
+Studies of sclerotherapy as a treatment for varicose and spider veins indicate that it has an overall success rate of 50 to 80 percent in eliminating treated veins.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sclerotherapy
+	</Title>
+	<Abstract>
+		Sclerotherapy &amp;mdash; Comprehensive overview covers definition, risks, results of this procedure to treat varicose veins.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02027" LinkType="Internal" ObjectID="85A23D4D-AFC4-2E92-1BDC2D57231B3D54" Title="Spider veins: How are they removed?" Url="http://www.mayoclinic.com/health/spider-veins/AN02027" />
+		<LinkItem ContentType="Disease" DocID="DS00256" LinkType="Internal" ObjectID="A319313A-D75E-4E61-AC71435EC2C152BD" Title="Varicose veins" Url="http://www.mayoclinic.com/health/varicose-veins/DS00256" />
+	</RelatedLinksBox>
+</TestProcedure>

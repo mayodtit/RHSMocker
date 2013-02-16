@@ -1,0 +1,384 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00495
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diphtheria/DS00495
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-12
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2556" Title="Diphtheria" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			24A70B78-CCFF-40A2-A057EF6F98D05BF1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diphtheria
+			</MetaKeyword>
+			<MetaKeyword>
+				diptheria
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen neck glands
+			</MetaKeyword>
+			<MetaKeyword>
+				diphtheria symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				diphtheria picture
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diphtheria (dif-THEER-e-uh) is a serious bacterial infection usually affecting the mucous membranes of your nose and throat. Diphtheria typically causes a sore throat, fever, swollen glands and weakness. But the hallmark sign is a sheet of thick, gray material covering the back of your throat. This material can block your windpipe so that you have to struggle for breath. 
+&lt;/p&gt;
+&lt;p&gt;
+Today, diphtheria is extremely rare in the United States and other developed countries thanks to widespread vaccination against the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications are available to treat diphtheria. However, in advanced stages, diphtheria can cause damage to your heart, kidneys and nervous system. Even with treatment, diphtheria can be deadly &amp;mdash; as many as 10 percent of people who get diphtheria die of it. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing swollen glands of child with diphtheria 
+" Caption="One sign of diphtheria is swollen glands (enlarged lymph nodes) in the neck.
+" Height="60" Title="Diphtheria" URI="/images/image_popup/thumbs/r7_cdcdiphtheriathu.jpg" Width="60" />
+				<Image Alt="Photograph showing swollen glands of child with diphtheria 
+" Caption="One sign of diphtheria is swollen glands (enlarged lymph nodes) in the neck.
+" Height="400" Title="Diphtheria" URI="/images/image_popup/r7_cdcdiphtheria.jpg" Width="400" />
+				<HTML>
+					One sign of diphtheria is swollen glands (enlarged lymph nodes) in the neck.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of diphtheria may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sore throat and hoarseness&lt;/li&gt;
+	&lt;li&gt;Painful swallowing&lt;/li&gt;
+	&lt;li&gt;Swollen glands (enlarged lymph nodes) in your neck&lt;/li&gt;
+	&lt;li&gt;A thick, gray membrane covering your throat and tonsils&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or rapid breathing&lt;/li&gt;
+	&lt;li&gt;Nasal discharge&lt;/li&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;Malaise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms usually begin two to five days after a person becomes infected. 
+&lt;/p&gt;
+&lt;p&gt;
+In some people, infection with diphtheria-causing bacteria causes only a mild case of the illness &amp;mdash; or no obvious signs and symptoms at all. Infected people who remain unaware of their illness are known as carriers of diphtheria, because they can spread the infection without being sick themselves. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin (cutaneous) diphtheria&lt;/strong&gt; &lt;br /&gt;
+A second type of diphtheria can affect the skin, causing the typical pain, redness and swelling associated with other bacterial skin infections. Ulcers covered by a gray membrane also may develop in cutaneous diphtheria. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s more common in tropical climates, cutaneous diphtheria also occurs in the United States, particularly among people with poor hygiene who live in crowded conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+In rare instances, diphtheria affects the eye. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Call your family doctor immediately if you or your child has been exposed to someone with diphtheria. If you&apos;re not sure whether your child has been vaccinated against diphtheria, schedule an appointment. Make sure your own immunizations are current. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The bacterium Corynebacterium diphtheriae causes diphtheria. Usually C. diphtheriae multiply on or near the surface of the mucous membranes of the throat. C. diphtheriae spreads via three routes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Airborne droplets.&lt;/strong&gt; When an infected person&apos;s sneeze or cough releases a mist of contaminated droplets, people nearby may inhale C. diphtheriae. Diphtheria spreads efficiently this way, particularly in crowded conditions. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contaminated personal items.&lt;/strong&gt; People occasionally catch diphtheria from handling an infected person&apos;s used tissues, drinking from the person&apos;s unwashed glass, or coming into similarly close contact with other items on which bacteria-laden secretions may be deposited. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contaminated household items.&lt;/strong&gt; In rare cases, diphtheria spreads on shared household items, such as towels or toys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can also come in contact with diphtheria-causing bacteria by touching an infected wound. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have been infected by the diphtheria bacteria and who haven&apos;t been treated can infect nonimmunized people for up to six weeks &amp;mdash; even if they don&apos;t show any symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who are at increased risk of contracting diphtheria include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Children and adults who don&apos;t have up-to-date immunizations&lt;/li&gt;
+	&lt;li&gt;People living in crowded or unsanitary conditions&lt;/li&gt;
+	&lt;li&gt;People who have a compromised immune system&lt;/li&gt;
+	&lt;li&gt;Anyone who travels to an area where diphtheria is endemic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diphtheria rarely occurs in the United States and Europe, where health officials have been immunizing children against the condition for decades. However, diphtheria is still common in developing countries where immunization rates are low. 
+&lt;/p&gt;
+&lt;p&gt;
+In areas where diphtheria is a standard vaccination, the disease is mainly a threat to unvaccinated or inadequately vaccinated people who travel internationally or have contact with people from less-developed countries. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, diphtheria can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; Diphtheria-causing bacteria may produce a toxin. This toxin damages tissue in the immediate area of infection &amp;mdash; usually, the nose and throat. At that site, the infection produces a tough, gray-colored membrane composed of dead cells, bacteria and other substances. This membrane can obstruct breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart damage.&lt;/strong&gt; The diphtheria toxin may spread through your bloodstream and damage other tissues in your body, such as your heart muscle, causing such complications as inflammation of the heart muscle (myocarditis). Heart damage from myocarditis may be slight, showing up as minor abnormalities on an electrocardiogram, or severe, leading to congestive heart failure and sudden death. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage.&lt;/strong&gt; The toxin can also cause nerve damage. Typical targets are nerves to the throat, where poor nerve conduction may cause difficulty swallowing. Nerves to the arms and legs also may become inflamed, causing muscle weakness. If C. diphtheria toxin damages the nerves that help control muscles used in breathing, these muscles may become paralyzed. Respiration may then become impossible without a respirator or another device to assist with breathing. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With treatment, most people with diphtheria survive these complications, but recovery is often slow. Diphtheria is fatal in as many as one in 10 cases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have symptoms of diphtheria or have come into contact with someone who has diphtheria, call your doctor right away. Depending on the severity of your symptoms and on your vaccination history, you may be told to go to the emergency room or call 911 for emergency medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor determines that he or she should see you first, it&apos;s critical to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Info&lt;/strong&gt;&lt;strong&gt;rmation to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pre-appointment restrictions.&lt;/strong&gt; At the time you make your appointment, ask if there are any restrictions you need to follow in the time leading up to your visit, including whether you should be isolated to avoid spreading infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Office visit instructions.&lt;/strong&gt; Ask your doctor whether you should be isolated when you come to the office for your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom history.&lt;/strong&gt; Write down any symptoms you&apos;ve been experiencing, and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent exposure to possible sources of infection.&lt;/strong&gt; Your doctor will be especially interested to know if you have recently traveled abroad and where.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccination record.&lt;/strong&gt; Find out before your appointment whether your vaccinations are up to date. Bring a copy of your immunization record, if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Make a list of your key medical information, including other conditions for which you&apos;re being treated and any medications, vitamins or supplements you&apos;re currently taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Write down your questions in advance so that you can make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The list below suggests questions to raise with your doctor about diphtheria. Don&apos;t hesitate to ask more questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Could I have diphtheria?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any possible side effects from the medications I&apos;ll be taking?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment will I begin to feel better?&lt;/li&gt;
+	&lt;li&gt;How long do you expect a full recovery to take?&lt;/li&gt;
+	&lt;li&gt;When do you expect I will be able to return to school or work?&lt;/li&gt;
+	&lt;li&gt;When do you expect I will be able to resume a normal activity level?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term complications from diphtheria?&lt;/li&gt;
+	&lt;li&gt;Am I contagious? How can I reduce my risk of passing my illness to others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had a sore throat or difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;Have you had any trouble breathing?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever? How high was the fever at its peak, and how long did it last?&lt;/li&gt;
+	&lt;li&gt;Have you recently been exposed to anyone with diphtheria?&lt;/li&gt;
+	&lt;li&gt;Is anyone close to you having similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled abroad? Where?&lt;/li&gt;
+	&lt;li&gt;Did you update your immunizations before traveling?&lt;/li&gt;
+	&lt;li&gt;Are all of your immunizations current?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors may suspect diphtheria in a sick child who has a sore throat with a gray membrane covering the tonsils and throat. Growth of C. diphtheriae in a laboratory culture of material from the throat membrane pins down the diagnosis. Your doctor should notify the laboratory that diphtheria is suspected because special media are needed for the growth of C. diphtheriae cultures. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors can also take a sample of tissue from an infected wound and have it tested in a laboratory, to check for the type of diphtheria that affects the skin (cutaneous diphtheria). 
+&lt;/p&gt;
+&lt;p&gt;
+If a doctor suspects diphtheria, treatment begins immediately, even before the results of bacterial tests are available. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diphtheria is a serious illness. Doctors treat it immediately and aggressively with these medications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An antitoxin.&lt;/strong&gt; After doctors confirm a preliminary diagnosis of diphtheria, the infected child or adult receives an antitoxin. The antitoxin, injected into a vein or muscle, neutralizes the diphtheria toxin already circulating in the body. Before giving antitoxin, doctors may perform skin allergy tests to make sure that the infected person doesn&apos;t have an allergy to the antitoxin. People who are allergic must first be desensitized to the antitoxin. Doctors accomplish this by initially giving small doses of the antitoxin and then gradually increasing the dosage. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Diphtheria is also treated with antibiotics, such as penicillin or erythromycin. Antibiotics help kill bacteria in the body, clearing up infections. Antibiotics reduce to just a few days the length of time that a person with diphtheria is contagious.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children and adults who have diphtheria often need to be in the hospital for treatment. They may be isolated in an intensive care unit because diphtheria can spread easily to anyone not immunized against the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors may remove some of the thick, gray covering in the throat if the covering is obstructing breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive treatments&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve been exposed to a person infected with diphtheria, see a doctor for testing and possible treatment. Your doctor may give you a prescription for antibiotics to help prevent you from developing the disease. You may also need a booster dose of the diphtheria vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors treat people who are found to be carriers of diphtheria with antibiotics to clear their systems of the bacteria, as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before antibiotics were available, diphtheria was a common illness in young children. Today, the disease is not only treatable but is also preventable with a vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+The diphtheria vaccine is usually combined with vaccines for tetanus and whooping cough (pertussis). The three-in-one vaccine is known as the diphtheria, tetanus and pertussis vaccine. The latest version of this vaccine is known as the DTaP vaccine for children and the Tdap vaccine for adolescents and adults. 
+&lt;/p&gt;
+&lt;p&gt;
+The diphtheria, tetanus and pertussis vaccine is one of the childhood immunizations that doctors in the United States recommend during infancy. Vaccination consists of a series of five shots, typically administered in the arm or thigh, given to children at these ages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;2 months&lt;/li&gt;
+	&lt;li&gt;4 months&lt;/li&gt;
+	&lt;li&gt;6 months&lt;/li&gt;
+	&lt;li&gt;12 to 18 months&lt;/li&gt;
+	&lt;li&gt;4 to 6 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The diphtheria vaccine is effective at preventing diphtheria. But there may be some side effects. Some children may experience a mild fever, fussiness, drowsiness or tenderness at the injection site after a DTaP shot. Ask your doctor what you can do for your child to minimize or relieve these effects. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, the DTaP vaccine causes serious complications in a child, such as an allergic reaction (hives or a rash develops within minutes of the injection), seizures or shock &amp;mdash; complications which are treatable. 
+&lt;/p&gt;
+&lt;p&gt;
+Some children &amp;mdash; such as those with progressive brain disorders &amp;mdash; may not be candidates for the DTaP vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+You can&apos;t get diphtheria from the vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Booster shots&lt;/strong&gt; &lt;br /&gt;
+After the initial series of immunizations in childhood, you need booster shots of the diphtheria vaccine to help you maintain immunity. That&apos;s because immunity to diphtheria fades with time. 
+&lt;/p&gt;
+&lt;p&gt;
+Children need their first booster shot at around age 12. The next booster shot is recommended 10 years later, then repeated at 10-year intervals. Booster shots are particularly important if you travel to an area where diphtheria is common. 
+&lt;/p&gt;
+&lt;p&gt;
+The diphtheria booster is combined with the tetanus booster in one vaccine &amp;mdash; the tetanus-diphtheria (Td) vaccine. This combination vaccine is given by injection, usually into the arm or thigh. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors recommend that anyone older than age 7 who has never been vaccinated against diphtheria receive three doses of the Td vaccine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Recovering from diphtheria requires lots of bed rest. Avoiding any physical exertion is particularly important if your heart has been affected. You may need to stay in bed for a few weeks or until you make a full recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+Strict isolation while you&apos;re contagious also is important to prevent spread of the infection. Careful hand-washing by everyone in your house helps prevent spread of the infection. Because of pain and difficulty swallowing, you may need to get your nutrition through liquids and soft foods for a while. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you recover from diphtheria, you&apos;ll need a full course of diphtheria vaccine to prevent a recurrence. Having diphtheria doesn&apos;t guarantee you lifetime immunity. You can get diphtheria more than once if you&apos;re not fully immunized against it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diphtheria
+	</Title>
+	<Abstract>
+		Diphtheria &amp;mdash; Comprehensive overview covers symptoms of this infection that&apos;s preventable with a vaccine.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+	</RelatedLinksBox>
+</Disease>

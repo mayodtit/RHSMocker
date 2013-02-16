@@ -1,0 +1,79 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00617
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00617
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-18
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1238" Title="Healthy diets" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AFC5AEE7-E7FF-0DBD-1A116489D4CB9B46
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy diet
+			</MetaKeyword>
+			<MetaKeyword>
+				nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetable
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetables
+			</MetaKeyword>
+			<MetaKeyword>
+				veggies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Tips for healthy eating out
+	</Title>
+	<Body>
+		&lt;p&gt;Dining out can be fun and healthy. Just keep these tips in mind. 1. Pick the smaller size sandwich, not the supersized version. 2. Skip the fries and choose fruit or yogurt for a side dish. 3. Select grilled or roasted lean meats instead of breaded, fried options. 4. Make salads healthier by using fat-free dressing and skipping extras like cheese and bacon.&lt;/p&gt;
+	</Body>
+</HealthTip>

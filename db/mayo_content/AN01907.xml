@@ -1,0 +1,120 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01907
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sleep-apnea/AN01907
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="1935" Title="Sleep apnea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BCCD80B2-E7FF-0DBD-1280152BEC2FBF6E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sleep apnea
+			</MetaKeyword>
+			<MetaKeyword>
+				caffeine
+			</MetaKeyword>
+			<MetaKeyword>
+				obstructive sleep apnea
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Researchers haven&apos;t implicated caffeine as a factor that causes or aggravates obstructive sleep apnea. In one study, however, caffeine seemed to improve mental alertness in people who have obstructive sleep apnea. In addition, caffeine is sometimes prescribed for premature infants to reduce episodes of interrupted breathing during sleep.
+&lt;/p&gt;
+&lt;p&gt;
+These lifestyle changes may help manage some cases of obstructive sleep apnea:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lose excess weight.&lt;/li&gt;
+	&lt;li&gt;Avoid alcohol.&lt;/li&gt;
+	&lt;li&gt;Quit smoking.&lt;/li&gt;
+	&lt;li&gt;Avoid medications that relax the muscles in the back of the throat.&lt;/li&gt;
+	&lt;li&gt;Sleep on your side or stomach rather than on your back.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, however, devices are needed to keep the airway open. In other cases, surgery is recommended.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sleep apnea and caffeine: Any connection?
+	</Title>
+	<Abstract>
+		Caffeine doesn&apos;t seem to cause or aggravate obstructive sleep apnea.
+	</Abstract>
+	<Question>
+		My husband decided to stop drinking soda. Since then, his obstructive sleep apnea has improved. Is there research to support a connection between sleep apnea and caffeine?
+	</Question>
+	<QuestionFirstName>
+		Caryl
+	</QuestionFirstName>
+	<QuestionState>
+		Canada
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00995" LinkType="Internal" ObjectID="527F2C24-E7FF-0DBD-179189C48F92AC84" Title="Central sleep apnea" Url="http://www.mayoclinic.com/health/central-sleep-apnea/DS00995" />
+		<LinkItem ContentType="Disease" DocID="DS00297" LinkType="Internal" ObjectID="48D50376-6042-4011-A627317A9C08F538" Title="Snoring" Url="http://www.mayoclinic.com/health/snoring/DS00297" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00516" LinkType="Internal" ObjectID="D1740644-D893-0B62-2AFBC53A14632E39" Title="Pillar procedure" Url="http://www.mayoclinic.com/health/pillar-procedure/MY00516" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+		<LinkItem ContentType="SlideShow" DocID="SL00018" LinkType="Internal" ObjectID="D9D278B9-E7FF-0DBD-1AECC7BB36F93030" Title="Slide show: Which CPAP masks are best for you?" Url="http://www.mayoclinic.com/health/cpap-masks/SL00018" />
+		<LinkItem ContentType="Video" DocID="MM00716" LinkType="Internal" ObjectID="84A0D09E-E7FF-0DBD-1613202322835EE6" Title="Video: How CPAP controls sleep apnea" Url="http://www.mayoclinic.com/health/cpap/MM00716" />
+		<LinkItem ContentType="Video" DocID="MM00715" LinkType="Internal" ObjectID="84A00292-E7FF-0DBD-1558C73C92018919" Title="Video: What happens during obstructive sleep apnea?" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/MM00715" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Article" DocID="SL00017" LinkType="Internal" ObjectID="113C1058-E7FF-0DBD-14B892FF2F58C60B" Title="CPAP machines: Tips for avoiding 10 common problems" Url="http://www.mayoclinic.com/health/cpap/SL00017" />
+		<LinkItem ContentType="Disease" DocID="DS00148" LinkType="Internal" ObjectID="46007B8E-E80F-4754-ADF482B2CB33E645" Title="Sleep apnea" Url="http://www.mayoclinic.com/health/sleep-apnea/DS00148" />
+	</RelatedLinksBox>
+</Answer>

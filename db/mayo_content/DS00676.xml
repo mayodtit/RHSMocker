@@ -1,0 +1,353 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00676
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/autoimmune-hepatitis/DS00676
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-18
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1858" Title="Hepatitis">
+							<Keyword MCVID="2424" Title="Autoimmune hepatitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8E70A4E0-2A5D-9994-EAEB313F986D15CD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				autoimmune hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				auto immune hepatitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autoimmune hepatitis is inflammation in your liver that occurs when your body&apos;s immune system attacks your liver. Although the cause of autoimmune hepatitis isn&apos;t entirely clear, some diseases, toxins and drugs may trigger autoimmune hepatitis in susceptible people, especially women. 
+&lt;/p&gt;
+&lt;p&gt;
+Untreated autoimmune hepatitis can lead to scarring of the liver (cirrhosis) and eventually to liver failure. When diagnosed and treated early, however, autoimmune hepatitis often can be controlled with drugs that suppress the immune system. 
+&lt;/p&gt;
+&lt;p&gt;
+A liver transplant may be an option when autoimmune hepatitis doesn&apos;t respond to drug treatments or when liver disease is advanced. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of autoimmune hepatitis can range from minor to severe and may come on suddenly or develop over time. Some people have few, if any, recognized problems in the early stages of the disease, whereas others experience signs and symptoms that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Abdominal discomfort&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Itching (pruritus)&lt;/li&gt;
+	&lt;li&gt;Yellowing of the skin and whites of the eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;An enlarged liver&lt;/li&gt;
+	&lt;li&gt;Abnormal blood vessels on the skin (spider angiomas)&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Skin rashes&lt;/li&gt;
+	&lt;li&gt;Dark-colored urine&lt;/li&gt;
+	&lt;li&gt;In women, loss of menstruation &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autoimmune hepatitis occurs when the body&apos;s immune system, which ordinarily attacks viruses, bacteria and other pathogens, instead targets the liver. This attack on your liver can lead to chronic inflammation and serious damage to liver cells. Just why the body turns against itself is unclear, but researchers think autoimmune hepatitis could be caused by an interaction between several risk factors, such as infections, medications and a genetic predisposition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of autoimmune hepatitis&lt;/strong&gt; &lt;br /&gt;
+Doctors have identified two main forms of autoimmune hepatitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type 1 (classic) autoimmune hepatitis.&lt;/strong&gt; This is the most common type of the disease. It can occur at any age. About half the people with type 1 autoimmune hepatitis have other autoimmune disorders, such as thyroiditis, rheumatoid arthritis or ulcerative colitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2 autoimmune hepatitis.&lt;/strong&gt; Although adults can develop type 2 autoimmune hepatitis, it&apos;s most common in young girls and often occurs with other autoimmune problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of autoimmune hepatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Although both men and women can develop autoimmune hepatitis, the disease is far more common in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Type 1 autoimmune hepatitis can occur at any age. Type 2 primarily affects young girls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of certain infections.&lt;/strong&gt; Autoimmune hepatitis may develop after a bacterial or viral infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of certain medications.&lt;/strong&gt; Certain medications, such as the antibiotic minocycline (Dynacin, Minocin, others) and the cholesterol medication atorvastatin (Lipitor), have been linked to autoimmune hepatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Evidence suggests that a predisposition to autoimmune hepatitis may run in families.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having an autoimmune disease.&lt;/strong&gt; People who already have an autoimmune disease may be more likely to develop autoimmune hepatitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autoimmune hepatitis may be associated with a variety of other autoimmune diseases, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pernicious anemia.&lt;/strong&gt; Associated with a number of autoimmune disorders, pernicious anemia occurs when a lack of vitamin B-12 interferes with your body&apos;s ability to form red blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemolytic anemia.&lt;/strong&gt; In this type of anemia, your immune system attacks and breaks down red blood cells faster than your bone marrow can replace them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcerative colitis.&lt;/strong&gt; This inflammatory bowel disease can cause severe bouts of watery or bloody diarrhea and abdominal pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune thyroiditis (Hashimoto&apos;s thyroiditis).&lt;/strong&gt; In this condition, the immune system attacks the thyroid gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatoid arthritis.&lt;/strong&gt; Rheumatoid arthritis occurs when the immune system attacks the lining of your joints, leading to stiffness, pain, swelling, and sometimes deformity and disability.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Celiac disease.&lt;/strong&gt; This disease causes an abnormal reaction to gluten, a protein found in many grains. Eating gluten sets off an immune response that damages the small intestine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of liver damage&lt;/strong&gt; &lt;br /&gt;
+Autoimmune hepatitis that goes untreated can cause permanent scarring of the liver tissue (cirrhosis). Complications of cirrhosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increased blood pressure in the portal vein.&lt;/strong&gt; Blood from your intestine, spleen and pancreas enters your liver through a large blood vessel called the portal vein. If scar tissue blocks normal circulation through your liver, this blood backs up, leading to increased pressure within the portal vein (portal hypertension).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged veins in your esophagus (esophageal varices).&lt;/strong&gt; When circulation through the portal vein is blocked, blood may back up into other blood vessels &amp;mdash; mainly those in your stomach and esophagus. The blood vessels are thin walled, and because they&apos;re filled with more blood than they&apos;re meant to carry, they&apos;re likely to bleed. Massive bleeding in the esophagus from these blood vessels is a life-threatening emergency that requires immediate medical care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid in your abdomen (ascites).&lt;/strong&gt; Liver disease can cause large amounts of fluid to accumulate in your abdomen. Ascites can be uncomfortable and may interfere with breathing and is usually a sign of advanced cirrhosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver failure.&lt;/strong&gt; This occurs when extensive damage to liver cells makes it impossible for your liver to function adequately. At this point, a liver transplant is the only option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver cancer.&lt;/strong&gt; People with cirrhosis have an increased risk of liver cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="60" Title="Esophageal varices" URI="/images/image_popup/thumbs/ans7_esphogeal_varicesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="375" Title="Esophageal varices" URI="/images/image_popup/ans7_esphogeal_varices.jpg" Width="400" />
+				<HTML>
+					Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have any signs or symptoms that worry you, start by making an appointment with your primary care doctor. If your doctor suspects you may have a liver problem, such as autoimmune hepatitis, you may be referred to a specialist in liver diseases (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along &lt;/strong&gt;to help you remember everything that was discussed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your appointment. For autoimmune hepatitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What tests do I need to confirm that I have autoimmune hepatitis?&lt;/li&gt;
+	&lt;li&gt;How severe is the damage to my liver?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can treatment cure my autoimmune hepatitis?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Could any of my medications or habits cause my liver problems or make my liver problems worse?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need follow-up visits? If so, when?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you taking any medicines or treatments for your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of liver disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose autoimmune hepatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Testing a sample of your blood for antibodies can distinguish autoimmune hepatitis from viral hepatitis and other disorders with similar symptoms. Antibody tests also help pinpoint the type of autoimmune hepatitis you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver biopsy.&lt;/strong&gt; Doctors perform a liver biopsy to confirm the diagnosis and to determine the degree and type of liver damage. During the procedure, a small amount of liver tissue is removed, using a thin needle that&apos;s passed into your liver through a small incision in your skin. The sample is then sent to a laboratory for analysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whatever type of autoimmune hepatitis you have, the goal of treatment is to slow or stop your body&apos;s immune system from attacking your liver. This may help slow the progression of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications to control your immune system (immunosuppressants)&lt;/strong&gt; &lt;br /&gt;
+Medications used to treat autoimmune hepatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Prednisone.&lt;/strong&gt; Doctors usually recommend an initial high dose of the corticosteroid drug prednisone for people with autoimmune hepatitis. The medication is reduced to the lowest possible dose that controls the disease over a few weeks. Most people need to continue taking the prednisone for at least 18 to 24 months, and some people remain on it for life. Although you may experience remission a few years after starting treatment, the disease often returns if the drug is discontinued. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Prednisone, especially when taken long term, can cause a wide range of serious side effects, including diabetes, thinning bones (osteoporosis), broken bones (osteonecrosis), high blood pressure, cataracts, glaucoma and weight gain. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Azathioprine (Azasan, Imuran).&lt;/strong&gt; Azathioprine, another immunosuppressant medication, is sometimes used along with prednisone. Using both medications may allow you to take a smaller dose of prednisone, reducing its side effects. Side effects of azathioprine may include difficulty fighting infections and nausea. Rare side effects include liver damage, pancreas inflammation (pancreatitis) and cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other immunosuppressants.&lt;/strong&gt; If you don&apos;t respond to prednisone or azathioprine, your doctor may prescribe stronger immunosuppressants, such as mycophenolate (CellCept), cyclosporine (Neoral, Sandimmune, others) or tacrolimus (Prograf).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver transplant&lt;/strong&gt;&lt;br /&gt;
+When medications don&apos;t halt the progress of the disease, or you develop irreversible scarring (cirrhosis) or liver failure, the remaining option is a liver transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+During a liver transplant, your diseased liver is removed and replaced by a healthy liver from a donor. Liver transplants most often use livers from deceased organ donors. In some cases, a living-donor liver transplant can be used. During a living-donor liver transplant, you receive only a portion of a healthy liver from a living donor. Both livers begin regenerating new cells almost immediately. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="60" Title="Living liver transplant" URI="/images/image_popup/thumbs/d7_livinglivertransplantthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="230" Title="Living liver transplant" URI="/images/image_popup/d7_living_liver_transplant.jpg" Width="400" />
+				<HTML>
+					A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic liver disease can be frustrating. Each person finds ways to cope with the stress of a chronic disease. In time, you&apos;ll find what works for you. Until then, consider trying to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about your condition.&lt;/strong&gt; Find out everything you want to know about autoimmune hepatitis. The more you understand about what&apos;s going on in your body, the more active you can be in your own care. In addition to talking with your doctor, look for information at your local library and on websites affiliated with reputable organizations, such as the American Liver Foundation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Eating well, exercising and getting enough rest can help you feel better. Avoid drinking alcohol, and check with your doctor before taking any new medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get help.&lt;/strong&gt; If you have friends or family who want to help, take them up on their offers and let them know what would be most useful to you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support.&lt;/strong&gt; Strong relationships can play an important role in helping you maintain a positive attitude. You may find that a support group can be helpful. Ask your doctor about local support groups for people with autoimmune hepatitis, or call the American Liver Foundation at 800-465-4837.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Autoimmune hepatitis
+	</Title>
+	<Abstract>
+		Autoimmune hepatitis &amp;mdash; Comprehensive overview covers symptoms, complications, treatment and risk factors of this liver disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+	</RelatedLinksBox>
+</Disease>

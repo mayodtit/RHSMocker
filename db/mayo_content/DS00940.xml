@@ -1,0 +1,327 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00940
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stevens-johnson-syndrome/DS00940
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-09
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2887" Title="Stevens-Johnson syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			511033E7-E7FF-0DBD-1A68684B99D0CD4D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Stevens-Johnson syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				erythema multiforme major
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stevens-Johnson syndrome is a rare, serious disorder in which your skin and mucous membranes react severely to a medication or infection. Often, Stevens-Johnson syndrome begins with flu-like symptoms, followed by a painful red or purplish rash that spreads and blisters, eventually causing the top layer of your skin to die and shed.
+&lt;/p&gt;
+&lt;p&gt;
+Stevens-Johnson syndrome presents a medical emergency that usually requires hospitalization. Treatment focuses on eliminating the underlying cause, controlling symptoms and minimizing complications.
+&lt;/p&gt;
+&lt;p&gt;
+Recovery after Stevens-Johnson syndrome can take weeks to months, depending on the severity of your condition. If your doctor determines that your case of Stevens-Johnson syndrome was caused by medication, you&apos;ll need to permanently avoid the medication and all others related to it.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of Stevens-Johnson syndrome" Caption="Stevens-Johnson syndrome is a serious allergic or hypersensitivity reaction. Signs and symptoms include blistering and erosion of the skin and mucous membranes." Height="60" Title="Stevens-Johnson syndrome" URI="/images/image_popup/thumbs/ans7_stevensjohnsonthu.jpg" Width="60" />
+				<Image Alt="Image of Stevens-Johnson syndrome" Caption="Stevens-Johnson syndrome is a serious allergic or hypersensitivity reaction. Signs and symptoms include blistering and erosion of the skin and mucous membranes." Height="400" Title="Stevens-Johnson syndrome" URI="/images/image_popup/ans7_stevensjohnson.jpg" Width="400" />
+				<HTML>
+					Stevens-Johnson syndrome is a serious allergic or hypersensitivity reaction. Signs and symptoms include blistering and erosion of the skin and mucous membranes....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of Stevens-Johnson syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Facial swelling&lt;/li&gt;
+	&lt;li&gt;Tongue swelling&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Skin pain&lt;/li&gt;
+	&lt;li&gt;A red or purple skin rash that spreads within hours to days&lt;/li&gt;
+	&lt;li&gt;Blisters on your skin and mucous membranes, especially in your mouth, nose and eyes&lt;/li&gt;
+	&lt;li&gt;Shedding (sloughing) of your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have Stevens-Johnson syndrome, several days before the rash develops you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Burning eyes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Stevens-Johnson syndrome requires immediate medical attention. Seek emergency medical care if you experience any of the following signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unexplained widespread skin pain&lt;/li&gt;
+	&lt;li&gt;Facial swelling&lt;/li&gt;
+	&lt;li&gt;Blisters on your skin and mucous membranes&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Tongue swelling&lt;/li&gt;
+	&lt;li&gt;A red or purple skin rash that spreads&lt;/li&gt;
+	&lt;li&gt;Shedding of your skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of Stevens-Johnson syndrome" Caption="Stevens-Johnson syndrome is a serious allergic or hypersensitivity reaction. Signs and symptoms include blistering and erosion of the skin and mucous membranes." Height="60" Title="Stevens-Johnson syndrome" URI="/images/image_popup/thumbs/ans7_stevensjohnsonthu.jpg" Width="60" />
+				<Image Alt="Image of Stevens-Johnson syndrome" Caption="Stevens-Johnson syndrome is a serious allergic or hypersensitivity reaction. Signs and symptoms include blistering and erosion of the skin and mucous membranes." Height="400" Title="Stevens-Johnson syndrome" URI="/images/image_popup/ans7_stevensjohnson.jpg" Width="400" />
+				<HTML>
+					Stevens-Johnson syndrome is a serious allergic or hypersensitivity reaction. Signs and symptoms include blistering and erosion of the skin and mucous membranes....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of Stevens-Johnson syndrome can&apos;t always be identified. Usually, the condition is an allergic reaction in response to medication, infection or illness.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication causes&lt;/strong&gt;&lt;br /&gt;
+Medications are most often the cause of Stevens-Johnson syndrome. Drugs commonly associated with Stevens-Johnson syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anti-gout medications, such as allopurinol&lt;/li&gt;
+	&lt;li&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs), often used to treat pain&lt;/li&gt;
+	&lt;li&gt;Penicillins, which are used to treat infections&lt;/li&gt;
+	&lt;li&gt;Anticonvulsants, which are used to treat seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infectious causes&lt;/strong&gt;&lt;br /&gt;
+Infections that can cause Stevens-Johnson syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Herpes (herpes simplex or herpes zoster)&lt;/li&gt;
+	&lt;li&gt;Influenza&lt;/li&gt;
+	&lt;li&gt;HIV&lt;/li&gt;
+	&lt;li&gt;Diphtheria&lt;/li&gt;
+	&lt;li&gt;Typhoid&lt;/li&gt;
+	&lt;li&gt;Hepatitis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;/strong&gt;&lt;br /&gt;
+In some cases, Stevens-Johnson syndrome may be caused by physical stimuli, such as radiation therapy or ultraviolet light.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stevens-Johnson syndrome is a rare and unpredictable reaction. No test is available to help predict who is at risk. Some factors, however, may increase your risk of developing Stevens-Johnson syndrome, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Existing medical conditions.&lt;/strong&gt; Viral infections, diseases that decrease your immunity, human immunodeficiency virus (HIV) and systemic lupus erythematosus &amp;mdash; a chronic inflammatory disease &amp;mdash; increase your risk of developing Stevens-Johnson syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Carrying a gene called HLA-B12 may make you more susceptible to Stevens-Johnson syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of Stevens-Johnson syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary skin infection (cellulitis).&lt;/strong&gt; This acute infection of your skin can lead to life-threatening complications, including meningitis &amp;mdash; an infection of the membranes and fluid surrounding your brain and spinal cord &amp;mdash; and sepsis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sepsis.&lt;/strong&gt; Sepsis occurs when bacteria from a massive infection enter your bloodstream and spread throughout your body. Sepsis is a rapidly progressing, life-threatening condition that can cause shock and organ failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye problems.&lt;/strong&gt; The rash caused by Stevens-Johnson syndrome can lead to inflammation in your eyes. In mild cases, this may cause irritation and dry eyes. In severe cases, it can lead to extensive tissue damage and scarring within your eyes that can result in blindness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to internal organs.&lt;/strong&gt; Stevens-Johnson syndrome can cause lesions on your internal organs, which can result in inflammation of your lungs (pneumonitis), heart (myocarditis), kidney (nephritis) and liver (hepatitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Permanent skin damage.&lt;/strong&gt; When your skin grows back following Stevens-Johnson syndrome, it may have abnormal bumps and coloring (pigmentation). Scars may remain on your skin, as well. Lasting skin problems may cause your hair to fall out, and your fingernails and toenails may not grow normally.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stevens-Johnson syndrome is an emergency medical condition. If you have signs and symptoms, call 911 or emergency medical help, or go to an emergency room immediately. If you have time before you go: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Put all the medications you&apos;re taking in a plastic bag,&lt;/strong&gt; including prescription and over-the-counter drugs. This may help your doctor figure out what triggered Stevens-Johnson syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come along,&lt;/strong&gt; if they&apos;re available immediately. Someone who knows you well can help inform the medical staff of your medical history and can help take in information about your current illness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The emergency room doctor is likely to ask you about your other medical conditions and whether you&apos;ve experienced a flu-like illness recently. If possible, give that some thought on your way to the hospital, and share important information with anyone who is accompanying you to the emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re in the hospital, you&apos;ll likely have questions for your doctor. It might help to keep a running list of questions about Stevens-Johnson syndrome, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;How do I keep from having this reaction again?&lt;/li&gt;
+	&lt;li&gt;What restrictions do I need to follow?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How do I manage them together?&lt;/li&gt;
+	&lt;li&gt;How long will it take my skin to heal?&lt;/li&gt;
+	&lt;li&gt;Am I likely to have any permanent damage?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors often can identify Stevens-Johnson syndrome based on your medical history, a physical exam and the disorder&apos;s distinctive signs and symptoms. To confirm the diagnosis, your doctor may take a tissue sample of your skin (biopsy) for examination under a microscope.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stevens-Johnson syndrome requires hospitalization, often in an intensive care unit or burn unit.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stopping medication causes&lt;/strong&gt;&lt;br /&gt;
+The first and most important step in treating Stevens-Johnson syndrome is to discontinue any medications that may be causing it. Because it&apos;s difficult to determine exactly which drug may be causing the problem, your doctor may recommend that you stop taking all nonessential medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive care&lt;/strong&gt;&lt;br /&gt;
+Currently there are no standard recommendations for treating Stevens-Johnson syndrome. Supportive care you&apos;re likely to receive while hospitalized includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid replacement and nutrition.&lt;/strong&gt; Because skin loss can result in significant loss of fluid from your body, replacing fluids is an important part of treatment. You may receive fluids and nutrients through a tube placed through your nose and advanced into your stomach (nasogastric tube).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wound care.&lt;/strong&gt; Cool, wet compresses will help soothe blisters while they heal. Your health care team may gently remove any dead skin, and then place a dressing with a topical anesthetic over the affected areas, if needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye care.&lt;/strong&gt; Because of the risk of eye damage, your treatment should include consultation with an eye specialist (ophthalmologist).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications commonly used in the treatment of Stevens-Johnson syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain medication to reduce discomfort&lt;/li&gt;
+	&lt;li&gt;Antihistamines to relieve itching&lt;/li&gt;
+	&lt;li&gt;Antibiotics to control infection, when needed&lt;/li&gt;
+	&lt;li&gt;Topical steroids to reduce skin inflammation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, you may receive one of the following types of medications that are currently being studied in the treatment of Stevens-Johnson syndrome:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous corticosteroids.&lt;/strong&gt; For adults, these drugs may lessen the severity of symptoms and shorten recovery time if started within a day or two of when symptoms first appear. For children, they may increase risk of complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunoglobulin intravenous (IVIG).&lt;/strong&gt; This medication contains antibodies that may help your immune system halt the process of Stevens-Johnson syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin grafting&lt;/strong&gt;&lt;br /&gt;
+If a large area of your body is affected, skin grafting &amp;mdash; removing skin from one area of your body and attaching it to another or using a synthetic skin substitute &amp;mdash; may be necessary to help you heal. This treatment is only rarely required.
+&lt;/p&gt;
+&lt;p&gt;
+If the underlying cause of Stevens-Johnson syndrome can be eliminated and the skin reaction stopped, your skin may begin to grow again within several days. In severe cases, full recovery may take several months.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have had Stevens-Johnson syndrome, be sure to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what caused your reaction.&lt;/strong&gt; If your case of Stevens-Johnson syndrome was caused by a medication, learn the name of that medication and any other closely related medications that may cause the same reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inform your health care providers.&lt;/strong&gt; Tell all your health care providers that you have a history of Stevens-Johnson syndrome. If the reaction was caused by medication, provide your caregivers with the name of that medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a medical information bracelet or necklace.&lt;/strong&gt; Have information about your condition and what caused it inscribed on a medical information bracelet or necklace, and wear it at all times.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s difficult to prevent an initial attack of Stevens-Johnson syndrome because you don&apos;t know what will trigger it. However, if you had Stevens-Johnson syndrome once, and your doctor determined that it was caused by medication, be sure to avoid that medication and others in the same class to prevent another attack. If the herpes virus caused your reaction, you may need to take daily antiviral medications to prevent a recurrence.
+&lt;/p&gt;
+&lt;p&gt;
+A recurrence of Stevens-Johnson syndrome is usually more severe than the first episode and, in many cases, it can be fatal.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stevens-Johnson syndrome
+	</Title>
+	<Abstract>
+		Stevens-Johnson syndrome &amp;mdash; Comprehensive overview covers signs, symptoms, diagnosis, treatment of this severe skin disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00962" LinkType="Internal" ObjectID="EFF335C9-E7FF-0DBD-14873928B7E35AC6" Title="Pneumonitis" Url="http://www.mayoclinic.com/health/pneumonitis/DS00962" />
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

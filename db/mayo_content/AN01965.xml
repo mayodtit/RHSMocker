@@ -1,0 +1,125 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01965
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vaginal-infection/AN01965
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-14
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2410" Title="Vaginitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AD43D04E-E18E-81A2-9D97364A89639E83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vaginal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bacterial vaginosis
+			</MetaKeyword>
+			<MetaKeyword>
+				yeast infection
+			</MetaKeyword>
+			<MetaKeyword>
+				trichomonasis
+			</MetaKeyword>
+			<MetaKeyword>
+				STD
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+That depends on the cause of your vaginal infection. Medically speaking, it&apos;s OK to have sex when you have a vaginal infection (vaginitis) if the cause isn&apos;t sexually transmitted. But what it really comes down to is a matter of your comfort &amp;mdash; intercourse might be quite uncomfortable or even painful if you have an active vaginal infection.
+&lt;/p&gt;
+&lt;p&gt;
+The most common causes of vaginal infection are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Yeast infection (candidiasis)&lt;/li&gt;
+	&lt;li&gt;Bacterial vaginosis&lt;/li&gt;
+	&lt;li&gt;Trichomoniasis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Yeast infections and bacterial vaginosis aren&apos;t sexually transmitted. Avoiding intercourse won&apos;t help your infection clear any sooner. However, trichomoniasis is usually sexually transmitted. In that case, it&apos;s a good idea to avoid intercourse until you and your partner have completed treatment and your symptoms have cleared to minimize your risk of reinfection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sex during vaginal infection: Is it harmful?
+	</Title>
+	<Abstract>
+		Vaginal infection makes intercourse painful and weakens resistance to sexually transmitted infections. Consider waiting.
+	</Abstract>
+	<Question>
+		Is it harmful to have sex if I have a vaginal infection?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01182" LinkType="Internal" ObjectID="CEDDE35C-0B46-0928-1C127105C3D6DC38" Title="Yeast infection (vaginal)" Url="http://www.mayoclinic.com/health/yeast-infection/DS01182" />
+		<LinkItem ContentType="Disease" DocID="DS01193" LinkType="Internal" ObjectID="950F8BC6-AC69-9B2C-C09ED47E7E5114A9" Title="Bacterial vaginosis" Url="http://www.mayoclinic.com/health/bacterial-vaginosis/DS01193" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Answer" DocID="AN02076" LinkType="Internal" ObjectID="24B6696E-E700-EF65-D742567522069836" Title="Yeast infection during pregnancy: Are over-the-counter treatments OK?" Url="http://www.mayoclinic.com/health/yeast-infection-during-pregnancy/AN02076" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS01163" LinkType="Internal" ObjectID="4DF1863D-D03A-D120-F228BD1BA867370C" Title="Trichomoniasis" Url="http://www.mayoclinic.com/health/trichomoniasis/DS01163" />
+		<LinkItem ContentType="Disease" DocID="DS00255" LinkType="Internal" ObjectID="B5642F87-B29F-4065-A60FC82B39C4CD8B" Title="Vaginitis" Url="http://www.mayoclinic.com/health/vaginitis/DS00255" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,321 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01011
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/yellow-fever/DS01011
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-27
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2547" Title="Viral hemorrhagic fevers">
+							<Keyword MCVID="4347" Title="Yellow fever" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			758C4EB2-E7FF-0DBD-124ED8BC6C2F46A8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				yellow fever
+			</MetaKeyword>
+			<MetaKeyword>
+				yellow fever virus
+			</MetaKeyword>
+			<MetaKeyword>
+				yellow fever vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				yellow fever symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				hemorrhagic fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Yellow fever is a viral infection spread by a particular species of mosquito. It&apos;s most common in areas of Africa and South America, affecting travelers to and residents of those areas. 
+&lt;/p&gt;
+&lt;p&gt;
+In mild cases, yellow fever causes fever, headache, nausea and vomiting. But yellow fever can become more serious, causing heart, liver and kidney problems along with bleeding (hemorrhaging). Up to 50 percent of people with the more severe form of yellow fever die of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no specific treatment for yellow fever. But getting a yellow fever vaccine before traveling to an area in which the virus is known to exist can protect you from the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the first three to six days after you&apos;ve contracted yellow fever &amp;mdash; the incubation period &amp;mdash; you won&apos;t experience any signs or symptoms. After this, the virus enters an acute phase and then, in some cases, a toxic phase that can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute phase&lt;/strong&gt; &lt;br /&gt;
+Once the yellow fever virus enters the acute phase, you may experience signs and symptoms including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Muscle aches, particularly in your back and knees&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or both&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Red eyes, face or tongue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms usually improve and are gone within several days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Toxic phase&lt;/strong&gt; &lt;br /&gt;
+Although signs and symptoms may disappear for a day or two following the acute phase, some people with acute yellow fever then enter a toxic phase. During the toxic phase, acute signs and symptoms return and more-severe and life-threatening ones also appear. These can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Yellowing of your skin and the whites of your eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Abdominal pain and vomiting, sometimes of blood&lt;/li&gt;
+	&lt;li&gt;Decreased urination&lt;/li&gt;
+	&lt;li&gt;Bleeding from your nose, mouth and eyes&lt;/li&gt;
+	&lt;li&gt;Heart dysfunction (arrhythmia)&lt;/li&gt;
+	&lt;li&gt;Liver and kidney failure&lt;/li&gt;
+	&lt;li&gt;Brain dysfunction, including delirium, seizures and coma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The toxic phase of yellow fever can be fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment to see your doctor four to six weeks before traveling to an area in which yellow fever is known to occur. If you don&apos;t have that much time to prepare, call your doctor anyway. Your doctor will help you determine whether you need vaccinations and can provide general guidance on protecting your health while abroad. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency medical care if you&apos;ve recently traveled to a region where yellow fever is known to occur and you develop severe signs or symptoms of the disease. If you develop mild symptoms, call your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Yellow fever is caused by a virus that is spread by the Aedes aegypti mosquito. These mosquitoes thrive in and near human habitations where they breed in even the cleanest water. Most cases of yellow fever occur in sub-Saharan Africa and tropical South America. 
+&lt;/p&gt;
+&lt;p&gt;
+Humans and monkeys are most commonly infected with the yellow fever virus. Mosquitoes transmit the virus back and forth between monkeys, humans or both. When a mosquito bites a human or monkey infected with yellow fever, the virus enters the mosquito&apos;s bloodstream and circulates before settling in the salivary glands. When the infected mosquito bites another monkey or human, the virus then enters the host&apos;s bloodstream, where it may cause illness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at risk of the disease if you travel to an area where mosquitoes continue to carry the yellow fever virus. These areas include sub-Saharan Africa and tropical South America. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if there aren&apos;t current reports of infected humans in these areas, it doesn&apos;t mean you&apos;re risk-free. It&apos;s possible that local populations have been vaccinated and are protected from the disease, or that cases of yellow fever just haven&apos;t been detected and officially reported. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re planning on traveling to these areas, you can protect yourself by getting a yellow fever vaccine at least 10 to 14 days before traveling. 
+&lt;/p&gt;
+&lt;p&gt;
+Anyone can be infected with the yellow fever virus, but older adults are at greater risk of getting seriously ill. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Yellow fever results in death for 20 to 50 percent of those who develop severe disease. Death usually occurs within two weeks from the start of infection. Complications during the toxic phase of a yellow fever infection include kidney and liver failure, jaundice, delirium and coma. 
+&lt;/p&gt;
+&lt;p&gt;
+People who survive the infection recover gradually over a period of several weeks to months, usually without significant organ damage. During this time a person may experience fatigue and jaundice. Other complications include secondary bacterial infections, such as pneumonia or blood infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your doctor if you&apos;ve recently returned from travel abroad and develop mild symptoms similar to those that occur with yellow fever. If your symptoms are severe, go to an emergency room or call 911 or your local emergency number. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pre-appointment restrictions.&lt;/strong&gt; At the time you make your appointment, ask if there are any restrictions you need to follow in the time leading up to your visit. Your doctor will not be able to confirm yellow fever without a blood test, and may recommend taking steps to reduce the risk of passing a possible contagious illness to others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom history.&lt;/strong&gt; Write down any symptoms you&apos;ve been experiencing, and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent exposure to possible sources of infection.&lt;/strong&gt; Be sure to describe international trips in detail, including the countries you visited and the dates, as well as any contact you may have had with mosquitoes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Make a list of your key medical information, including other conditions for which you&apos;re being treated and any medications, vitamins or supplements you&apos;re currently taking. Your doctor will also need to know your vaccination history.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Write down your questions in advance so that you can make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The list below suggests questions to raise with your doctor about yellow fever. Don&apos;t hesitate to ask more questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have yellow fever?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Are treatments available to help me recover?&lt;/li&gt;
+	&lt;li&gt;How long do you expect a full recovery will take?&lt;/li&gt;
+	&lt;li&gt;When can I return to work or school?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term complications from yellow fever?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms seemed to be getting better or worse?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms briefly get better and then come back?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled abroad? Where?&lt;/li&gt;
+	&lt;li&gt;Were you exposed to mosquitoes while traveling?&lt;/li&gt;
+	&lt;li&gt;Did you update your vaccinations before traveling?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing yellow fever based on signs and symptoms can be difficult because early in its course, the infection can be easily confused with malaria, typhoid, dengue fever and other viral hemorrhagic fevers. 
+&lt;/p&gt;
+&lt;p&gt;
+To diagnose your condition, your doctor will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask questions about your medical and travel history&lt;/li&gt;
+	&lt;li&gt;Collect a blood sample for testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have yellow fever, your blood may reveal the virus itself. If not, blood tests known as enzyme-linked immunosorbent assay (ELISA) and polymerase chain reaction (PCR) also can detect antigens and antibodies specific to the virus. Results of these tests may not be available for several days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No antiviral medications have proved helpful in treating yellow fever. As a result, treatment consists primarily of supportive care in a hospital. This includes providing fluids and oxygen, maintaining adequate blood pressure, replacing blood loss, providing dialysis for kidney failure, and treating any other infections that develop. Some people receive transfusions of plasma to replace blood proteins that improve clotting. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have yellow fever, you may also be kept away from mosquitoes, to avoid transmitting the disease to others. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Vaccine&lt;/strong&gt; &lt;br /&gt;
+A safe and highly effective vaccine prevents yellow fever. Yellow fever is known to be present in sub-Saharan Africa and parts of South America. Talk to your doctor about whether you need the yellow fever vaccine at least 10 to 14 days before traveling to these areas or if you are a resident of one of them. Some of these countries require a valid certificate of immunization in order to enter the country. 
+&lt;/p&gt;
+&lt;p&gt;
+A single dose of the vaccine provides protection for at least 10 years. Side effects of the yellow fever vaccine are usually mild, lasting five to 10 days, and may include headaches, low-grade fevers, muscle pain, fatigue and soreness at the site of injection. More-significant reactions &amp;mdash; such as developing a syndrome similar to actual yellow fever, inflammation of the brain (encephalitis) or death &amp;mdash; can occur, most often in infants and older adults. The vaccine is considered safest for those between the ages of 9 months and 60 years. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about whether the yellow fever vaccine is appropriate if your child is younger than 9 months, if you have a weakened immune system (immunocompromised), or if you&apos;re older than 60 years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mosquito protection&lt;/strong&gt; &lt;br /&gt;
+In addition to getting the vaccine, you can help protect yourself against yellow fever by protecting yourself against mosquitoes. 
+&lt;/p&gt;
+&lt;p&gt;
+To reduce your exposure to mosquitoes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid unnecessary outdoor activity when mosquitoes are most active.&lt;/li&gt;
+	&lt;li&gt;Wear long-sleeved shirts and long pants when you go into mosquito-infested areas.&lt;/li&gt;
+	&lt;li&gt;Stay in air-conditioned or well-screened housing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To ward off mosquitoes with repellent, use both of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonskin repellent.&lt;/strong&gt; Apply permethrin-containing mosquito repellent to your clothing, shoes, camping gear and bed netting. You can buy some articles of clothing and gear pre-treated with permethrin. Permethrin is not intended for use on your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin repellent.&lt;/strong&gt; Products with the active ingredients DEET or picaridin provide the longest lasting skin protection. Choose the concentration based on the hours of protection you need. In general, higher concentrations last longer. Keep in mind that chemical repellents can be toxic, and use only the amount needed for the time you&apos;ll be outdoors. Don&apos;t use DEET on the hands of young children or on infants under 2 months of age. Instead, cover your infant&apos;s stroller or playpen with mosquito netting when outside.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+According to the Centers for Disease Control and Prevention, oil of lemon eucalyptus, a more natural product, offers the same protection as DEET when used in similar concentrations. However, these products should not be used on children younger than age 3. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Yellow fever
+	</Title>
+	<Abstract>
+		Yellow fever &amp;mdash; Comprehensive overview covers symptoms, vaccine for this sometimes deadly mosquito-borne disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00539" LinkType="Internal" ObjectID="C65023FF-F803-4E0C-AB468CB9127EB3C9" Title="Viral hemorrhagic fevers" Url="http://www.mayoclinic.com/health/viral-hemorrhagic-fevers/DS00539" />
+	</RelatedLinksBox>
+</Disease>

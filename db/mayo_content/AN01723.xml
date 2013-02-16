@@ -1,0 +1,126 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01723
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/glucosamine/AN01723
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-22
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="1721" Title="Osteoarthritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			04C5153C-E7FF-0DBD-114DEF772F0DCB6E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				glucosamine
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 2 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoarthritis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Even though glucosamine is technically a type of sugar, it doesn&apos;t appear to affect blood glucose levels or insulin sensitivity. Some preliminary research had suggested that glucosamine might worsen insulin resistance, which can contribute to increases in blood sugar in people with type 2 diabetes. But subsequent studies refuted these findings.
+&lt;/p&gt;
+&lt;p&gt;
+Glucosamine is one of the most popular dietary supplements sold in the United States, although study results have been mixed regarding its ability to reduce osteoarthritis pain. While glucosamine doesn&apos;t appear to affect glucose levels or insulin sensitivity, the supplement can interact with other medications you might be taking &amp;mdash; such as warfarin (Coumadin), a blood thinner. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Glucosamine: Does it affect blood sugar?
+	</Title>
+	<Abstract>
+		Does glucosamine affect blood sugar in people with type 2 diabetes?
+	</Abstract>
+	<Question>
+		Is it safe to take glucosamine supplements if I have diabetes?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="AR00030" LinkType="Internal" ObjectID="D1D4A737-62B3-4E7F-84CAE1AD9FD4EA1F" Title="Slide show: Hand exercises for people with arthritis" Url="http://www.mayoclinic.com/health/arthritis/AR00030" />
+		<LinkItem ContentType="Answer" DocID="AN01520" LinkType="Internal" ObjectID="CED45E72-E7FF-0DBD-1E04A939982EBF1F" Title="Botox injections: Can they relieve arthritis pain?" Url="http://www.mayoclinic.com/health/botox-injections/AN01520" />
+		<LinkItem ContentType="Answer" DocID="AN00560" LinkType="Internal" ObjectID="C2BFC2FA-4AF6-426F-AD78C67CF11D02D6" Title="MSM for arthritis pain: Is it safe?" Url="http://www.mayoclinic.com/health/msm/AN00560" />
+		<LinkItem ContentType="Answer" DocID="AN01830" LinkType="Internal" ObjectID="BDEB97A3-E7FF-0DBD-120CA74B1165F79B" Title="Water exercise: Does pool temperature matter?" Url="http://www.mayoclinic.com/health/water-exercise/AN01830" />
+		<LinkItem ContentType="Answer" DocID="AN01585" LinkType="Internal" ObjectID="BDB43F9B-E7FF-0DBD-1AA1144D6F65930B" Title="Arthritis pain medications: Do they raise blood pressure?" Url="http://www.mayoclinic.com/health/arthritis-pain-medications/AN01585" />
+		<LinkItem ContentType="Answer" DocID="AN01107" LinkType="Internal" ObjectID="6040C9B2-9775-4602-9C0B499B36B6AC47" Title="Yucca: Can it relieve arthritis pain?" Url="http://www.mayoclinic.com/health/arthritis/AN01107" />
+		<LinkItem ContentType="SlideShow" DocID="AR00027" LinkType="Internal" ObjectID="55609D76-3CDE-46D9-86B8AE68C63EE763" Title="Slide show: Joint protection for people with hand arthritis" Url="http://www.mayoclinic.com/health/joint-protection/AR00027" />
+		<LinkItem ContentType="Article" DocID="AR00009" LinkType="Internal" ObjectID="DC1428F9-E845-42FD-BED154040E37FACC" Title="Exercise helps ease arthritis pain and stiffness" Url="http://www.mayoclinic.com/health/arthritis/AR00009" />
+		<LinkItem ContentType="Article" DocID="AR00029" LinkType="Internal" ObjectID="89A0E006-944C-4663-8C310E426EA052EF" Title="Arthritis pain: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/arthritis/AR00029" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00137" LinkType="Internal" ObjectID="DF5307F2-E7FF-0DBD-11FAD3C8281FD280" Title="Knee braces for osteoarthritis" Url="http://www.mayoclinic.com/health/knee-braces/MY00137" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00091" LinkType="Internal" ObjectID="B5C83436-E7FF-0DBD-15E514D08949DD27" Title="Knee replacement" Url="http://www.mayoclinic.com/health/knee-replacement/MY00091" />
+		<LinkItem ContentType="Answer" DocID="AN02170" LinkType="Internal" ObjectID="AFDE34DE-0FCA-7609-870E96CD6F96AEF9" Title="Tailbone pain: How can I relieve it?" Url="http://www.mayoclinic.com/health/tailbone-pain/AN02170" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Answer" DocID="AN01550" LinkType="Internal" ObjectID="5AC3F0F4-E7FF-0DBD-13037F09246895B5" Title="Hip resurfacing: An alternative to conventional hip replacement?" Url="http://www.mayoclinic.com/health/hip-resurfacing/AN01550" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00710" LinkType="Internal" ObjectID="401527C4-92D2-4BC2-0177DE8A3AEDDF9D" Title="Knee osteotomy" Url="http://www.mayoclinic.com/health/knee-osteotomy/MY00710" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00235" LinkType="Internal" ObjectID="05C3B4B8-E7FF-0DBD-1702D00A82E8F548" Title="Hip replacement" Url="http://www.mayoclinic.com/health/hip-replacement/MY00235" />
+		<LinkItem ContentType="Disease" DocID="DS01122" LinkType="Internal" ObjectID="62AB3DE2-E7FF-0DBD-1A7467616FA82C1D" Title="Arthritis" Url="http://www.mayoclinic.com/health/arthritis/DS01122" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Answer" DocID="AN00619" LinkType="Internal" ObjectID="7E7334DE-3DB7-4425-AF6021DFD9733C8B" Title="Glucosamine: Does it protect cartilage in osteoarthritis?" Url="http://www.mayoclinic.com/health/glucosamine/AN00619" />
+		<LinkItem ContentType="Answer" DocID="AN00124" LinkType="Internal" ObjectID="08F89ABA-6E61-41E1-B526FF9AAC5BCFE0" Title="&apos;Degenerative changes&apos; in the spine: Is this arthritis?" Url="http://www.mayoclinic.com/health/arthritis/AN00124" />
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Article" DocID="PN00041" LinkType="Internal" ObjectID="6FD00550-05BE-4813-9D4B41564D8A04F4" Title="Arthritis pain: Creams and gels for aching joints" Url="http://www.mayoclinic.com/health/pain-medications/PN00041" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+	</RelatedLinksBox>
+</Answer>

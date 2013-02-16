@@ -1,0 +1,319 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00402
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pelvic-inflammatory-disease/DS00402
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2051" Title="Pelvis">
+						<Keyword MCVID="2925" Title="Pelvic inflammatory disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FBA965E8-A8A8-4135-B6C0D91B152E2CF5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pelvic inflammatory disease
+			</MetaKeyword>
+			<MetaKeyword>
+				PID
+			</MetaKeyword>
+			<MetaKeyword>
+				pelvic pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pelvic inflammatory disease (PID) is an infection of the female reproductive organs. It usually occurs when sexually transmitted bacteria spread from your vagina to your uterus and upper genital tract.
+&lt;/p&gt;
+&lt;p&gt;
+Many women who develop pelvic inflammatory disease either experience no signs or symptoms or don&apos;t seek treatment. Pelvic inflammatory disease may be detected only later when you have trouble getting pregnant or if you develop chronic pelvic pain.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pelvic inflammatory disease inflamed fallopian tube 
+" Caption="Pelvic inflammatory disease is an infection of the fallopian tubes, ovaries, uterus and cervix. Untreated pelvic inflammatory disease may cause scar tissue and collections of infected fluid (abscesses) to develop in your fallopian tubes and damage your reproductive organs. 
+" Height="60" Title="Pelvic inflammatory disease" URI="/images/image_popup/thumbs/mcdc7_pidthu.jpg" Width="60" />
+				<Image Alt="Illustration of pelvic inflammatory disease inflamed fallopian tube 
+" Caption="Pelvic inflammatory disease is an infection of the fallopian tubes, ovaries, uterus and cervix. Untreated pelvic inflammatory disease may cause scar tissue and collections of infected fluid (abscesses) to develop in your fallopian tubes and damage your reproductive organs. 
+" Height="300" Title="Pelvic inflammatory disease" URI="/images/image_popup/mcdc7_pelvic_inflammatory_disease.jpg" Width="400" />
+				<HTML>
+					Pelvic inflammatory disease is an infection of the fallopian tubes, ovaries, uterus and cervix. Untreated pelvic inflammatory disease may cause scar tissue and collections of infected fluid (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of pelvic inflammatory disease may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in your lower abdomen and pelvis&lt;/li&gt;
+	&lt;li&gt;Heavy vaginal discharge with an unpleasant odor&lt;/li&gt;
+	&lt;li&gt;Irregular menstrual bleeding&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+	&lt;li&gt;Low back pain&lt;/li&gt;
+	&lt;li&gt;Fever, fatigue, diarrhea or vomiting&lt;/li&gt;
+	&lt;li&gt;Painful or difficult urination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+PID may cause only minor signs and symptoms or none at all. Asymptomatic PID is especially common when the infection is due to chlamydia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Go to the emergency room if you experience the following severe signs and symptoms of PID: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain low in your abdomen&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Signs of shock, such as fainting&lt;/li&gt;
+	&lt;li&gt;Fever, with a temperature higher than 101 F (38.3 C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your signs and symptoms aren&apos;t severe, but they&apos;re persistent, see your doctor as soon as possible. Vaginal discharge with an odor, painful urination or bleeding between menstrual cycles can be associated with a sexually transmitted infection (STI). If these signs and symptoms appear, stop having sex and see your doctor soon. Prompt treatment of an STI can help prevent PID. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unsafe sexual practices that increase your likelihood of acquiring a sexually transmitted infection (STI) &amp;mdash; such as unprotected sex with one or more partners &amp;mdash; increase your risk of pelvic inflammatory disease.
+&lt;/p&gt;
+&lt;p&gt;
+Some forms of contraception may affect your risk of developing pelvic inflammatory disease. A contraceptive intrauterine device (IUD) may increase your risk of PID, but a barrier method, such as a condom, reduces your risk. Use of the birth control pill alone offers no protection against acquiring STIs. But the pill may offer some protection against the development of PID by causing your body to create thicker cervical mucus, making it more difficult for bacteria to reach your upper genital tract.
+&lt;/p&gt;
+&lt;p&gt;
+Bacteria may also enter your reproductive tract as a result of an IUD insertion, childbirth, miscarriage, abortion or endometrial biopsy &amp;mdash; a procedure to remove a small piece of tissue from your uterine lining for laboratory analysis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors may increase your risk of pelvic inflammatory disease, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being a sexually active woman younger than 25 years old&lt;/li&gt;
+	&lt;li&gt;Having multiple sexual partners&lt;/li&gt;
+	&lt;li&gt;Being in a sexual relationship with a person who has more than one sex partner&lt;/li&gt;
+	&lt;li&gt;Having unprotected sex&lt;/li&gt;
+	&lt;li&gt;Having had an IUD inserted recently&lt;/li&gt;
+	&lt;li&gt;Douching regularly, which upsets the balance of good versus harmful bacteria in the vagina and may mask symptoms that might otherwise cause you to seek early treatment&lt;/li&gt;
+	&lt;li&gt;Having a history of pelvic inflammatory disease or any sexually transmitted infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated pelvic inflammatory disease may cause scar tissue and collections of infected fluid (abscesses) to develop in your fallopian tubes and damage your reproductive organs. Complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ectopic pregnancy.&lt;/strong&gt; PID is a major cause of tubal (ectopic) pregnancy. In an ectopic pregnancy, the fertilized egg can&apos;t make its way through the fallopian tube to implant in the uterus. Ectopic pregnancies can cause massive, life-threatening bleeding and require emergency surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility.&lt;/strong&gt; PID may damage your reproductive organs and cause infertility &amp;mdash; the inability to become pregnant after one year of unprotected sex. The more times you&apos;ve had PID, the greater your risk of infertility. Delaying treatment for PID also dramatically increases your risk of infertility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic pelvic pain.&lt;/strong&gt; Many women with symptomatic pelvic inflammatory disease develop chronic pelvic pain that may last for months or years. Scarring in your fallopian tubes and other pelvic organs can cause pain during intercourse, exercise and ovulation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs or symptoms of pelvic inflammatory disease, make an appointment to see your doctor or other health care provider.
+&lt;/p&gt;
+&lt;p&gt;
+Appointments can be brief and there&apos;s often a lot of ground to cover, so be well prepared for your appointment. Here&apos;s some information on what you can do to get ready and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I have a sexually transmitted infection?&lt;/li&gt;
+	&lt;li&gt;Should my partner be tested or treated?&lt;/li&gt;
+	&lt;li&gt;Should I abstain from sexual activity during treatment? How long should I wait?&lt;/li&gt;
+	&lt;li&gt;How can I prevent future episodes of pelvic inflammatory disease?&lt;/li&gt;
+	&lt;li&gt;Will this affect my ability to become pregnant?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Can I be treated at home? Or will I need to go to a hospital?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Under what circumstances should I plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a new sexual partner or multiple partners?&lt;/li&gt;
+	&lt;li&gt;Do you always use condoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any pelvic pain?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors diagnose pelvic inflammatory disease based on signs and symptoms, a pelvic exam, an analysis of vaginal discharge and cervical cultures, or urine tests.
+&lt;/p&gt;
+&lt;p&gt;
+During the pelvic exam, your doctor uses a cotton swab to take samples from your vagina and cervix. The samples are sent to a laboratory for analysis to determine the organism that&apos;s causing the infection.
+&lt;/p&gt;
+&lt;p&gt;
+To confirm the diagnosis or to determine how widespread the infection is, your doctor may recommend other tests, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic ultrasound.&lt;/strong&gt; This test uses sound waves to create images of your reproductive organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometrial biopsy.&lt;/strong&gt; During this procedure, a small piece of your uterine lining (endometrium) is removed and tested.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopy.&lt;/strong&gt; During this procedure, your doctor inserts a thin, lighted instrument through a small incision in your abdomen to view your pelvic organs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antibiotics are the standard treatment for pelvic inflammatory disease. Your doctor may prescribe a combination of antibiotics before receiving the results of your laboratory tests. The antibiotics may be adjusted once your results are known. Your doctor may also prescribe a medication to relieve your pain and recommend bed rest.
+&lt;/p&gt;
+&lt;p&gt;
+To prevent reinfection with an STI, advise your sexual partner to be examined and treated. Avoid sexual intercourse until treatment is completed and tests indicate that the infection has cleared in all partners.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;More-serious cases&lt;/strong&gt;&lt;br /&gt;
+Outpatient treatment is adequate for treating most women with pelvic inflammatory disease. However, if you&apos;re seriously ill, pregnant or HIV-positive, or have not responded to oral medications, you may need hospitalization. At the hospital, you may receive intravenous (IV) antibiotics, followed by oral antibiotics.
+&lt;/p&gt;
+&lt;p&gt;
+Surgery is rarely necessary. However, if an abscess ruptures or threatens to rupture, your doctor may drain it. In addition, surgery may be performed on women who don&apos;t respond to treatment or who have a questionable diagnosis, such as when one or more of the signs or symptoms of PID are absent. In these cases, doctors often try antibiotic treatment before surgery, because of the risks of surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often a diagnosis of pelvic inflammatory disease accompanies infection with a sexually transmitted infection. Finding out that you have an STI can be traumatic. Put your initial shock on hold so that you can take the steps immediately necessary to get treated and to prevent reinfection.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve experienced more than one episode of pelvic inflammatory disease, you&apos;re at greater risk of infertility. If you&apos;ve been trying to become pregnant, without success, make an appointment with your doctor for an infertility evaluation. Your doctor or a reproductive health specialist may perform tests to determine whether or not your history of pelvic inflammatory disease is causing the problem &amp;mdash; and if so, outline your options.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of pelvic inflammatory disease:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice safe sex.&lt;/strong&gt; Use condoms every time you have sex, limit your number of partners and ask about a potential partner&apos;s sexual history.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get tested.&lt;/strong&gt; If you&apos;re at risk of an STI, such as chlamydia, make an appointment with your doctor for testing. Set up a regular screening schedule with your doctor, if necessary. Investigating and treating an STI early gives you the best chances of avoiding pelvic inflammatory disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Request that your partner be tested.&lt;/strong&gt; If you have pelvic inflammatory disease or an STI, advise your partner to be tested and, if necessary, treated. This can prevent the spread of STIs and possible recurrence of PID.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t douche.&lt;/strong&gt; Douching upsets the delicate balance of bacteria in your vagina.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to hygiene habits.&lt;/strong&gt; Wipe from front to back after urinating or having a bowel movement to avoid introducing bacteria from your colon into the vagina.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pelvic inflammatory disease (PID)
+	</Title>
+	<Abstract>
+		Pelvic inflammatory disease &amp;mdash; Comprehensive overview covers symptoms, causes of this female reproductive organ infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Article" DocID="MY01541" LinkType="Internal" ObjectID="B0E6EDFF-F3AC-D8DF-2131098AE401EA43" Title="Menstrual cycle: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/menstrual-cycle/MY01541" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS00622" LinkType="Internal" ObjectID="43A7C2A1-2A5D-9994-EB6FFC1D0D8C4628" Title="Ectopic pregnancy" Url="http://www.mayoclinic.com/health/ectopic-pregnancy/DS00622" />
+		<LinkItem ContentType="Disease" DocID="DS00571" LinkType="Internal" ObjectID="3E18A0CD-1F0E-46A6-86E54A3A67083910" Title="Chronic pelvic pain" Url="http://www.mayoclinic.com/health/chronic-pelvic-pain/DS00571" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,331 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00611
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prostate-laser-surgery/MY00611
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-22
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4388" Title="Prostate laser surgery" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FB3923E4-A732-0551-3553E365E746303C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prostate laser therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate laser surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				laser surgery for enlarged prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				interstitial lasertherapy for enlarged prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				interstitial laser coagulation
+			</MetaKeyword>
+			<MetaKeyword>
+				ilc
+			</MetaKeyword>
+			<MetaKeyword>
+				holmium resection
+			</MetaKeyword>
+			<MetaKeyword>
+				holrp
+			</MetaKeyword>
+			<MetaKeyword>
+				holmium laser enucleation
+			</MetaKeyword>
+			<MetaKeyword>
+				holep
+			</MetaKeyword>
+			<MetaKeyword>
+				holmium laser ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				holap
+			</MetaKeyword>
+			<MetaKeyword>
+				holmium laser vaporization
+			</MetaKeyword>
+			<MetaKeyword>
+				photosensitive vaporization
+			</MetaKeyword>
+			<MetaKeyword>
+				pvp
+			</MetaKeyword>
+			<MetaKeyword>
+				ktp laser
+			</MetaKeyword>
+			<MetaKeyword>
+				greenlight laser
+			</MetaKeyword>
+			<MetaKeyword>
+				visual laser ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				vlap
+			</MetaKeyword>
+			<MetaKeyword>
+				transurethral evaporation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostate laser surgery is a procedure to ease urinary symptoms caused by an enlarged prostate, a condition known as benign prostatic hyperplasia (BPH). During prostate laser surgery, a combined visual scope and laser is inserted through the tip of your penis into the tube that carries urine from your bladder (urethra). The urethra is surrounded by the prostate. Using the laser, your doctor removes prostate tissue that&apos;s squeezing the urethra and blocking urine flow, thus making a new larger tube for urine to pass through.
+&lt;/p&gt;
+&lt;p&gt;
+All lasers use concentrated light to generate precise and intense heat. There are two basic types of prostate laser surgery:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laser ablation&lt;/strong&gt; melts away tissue to enlarge the urinary channel through your prostate. Photosensitive vaporization of the prostate (PVP), sometimes called green light therapy, and HoLAP (holmium laser ablation of the prostate) are examples of this type of procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser enucleation&lt;/strong&gt; uses a laser to cut away prostate tissue, as with traditional open prostate surgery. Holmium laser enucleation of the prostate (HoLEP) is an example of this technique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of prostate laser surgery your doctor will use depends on several factors, including the size of your prostate, your health, the type of laser equipment available and your doctor&apos;s training.
+&lt;/p&gt;
+&lt;p&gt;
+Some types of laser surgery are also used to treat prostate cancer (which is unrelated to BPH).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostate laser surgery helps reduce urinary symptoms in most men with BPH. BPH symptoms can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A frequent, urgent need to urinate&lt;/li&gt;
+	&lt;li&gt;Difficulty starting urination&lt;/li&gt;
+	&lt;li&gt;Slow (prolonged) urination&lt;/li&gt;
+	&lt;li&gt;Increased frequency of urination at night (nocturia)&lt;/li&gt;
+	&lt;li&gt;Stopping and starting again while urinating&lt;/li&gt;
+	&lt;li&gt;The feeling you can&apos;t completely empty your bladder&lt;/li&gt;
+	&lt;li&gt;Urinary tract infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Laser surgery may be done to treat or prevent complications due to blocked urine flow, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurring urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Kidney malfunction or kidney damage&lt;/li&gt;
+	&lt;li&gt;Bladder damage, which can result in an inability to control urination (incontinence) or an inability to urinate at all (urinary retention)&lt;/li&gt;
+	&lt;li&gt;Blood in your urine&lt;/li&gt;
+	&lt;li&gt;Bladder stones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Nonlaser enlarged prostate treatments include transurethral needle ablation (TUNA), transurethral microwave therapy (TUMT), transurethral incision of the prostate (TUIP), transurethral resection of the prostate (TURP) and open prostate surgery (open prostatectomy).
+&lt;/p&gt;
+&lt;p&gt;
+Prostate laser surgery has several potential advantages over transurethral resection of the prostate (TURP) and open prostatectomy, the enlarged prostate procedures to which others are generally compared. The advantages generally include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lower risk of bleeding.&lt;/strong&gt; Because there is a low risk of bleeding with laser surgery, it can be a good option for men who take medication to thin their blood or who have a bleeding disorder that doesn&apos;t allow their blood to clot normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shorter or no hospital stay.&lt;/strong&gt; Laser surgery can generally be done without an overnight hospital stay (as an outpatient procedure) or with only one night in the hospital. Other prostate treatments such as TURP or open prostatectomy may require a longer hospital stay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quick recovery.&lt;/strong&gt; Recovery from laser surgery generally takes less time than recovery from TURP or open surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Less need for a catheter.&lt;/strong&gt; Enlarged prostate procedures generally require the use of a tube (catheter) to drain urine from your bladder after surgery. With laser surgery, a catheter is generally needed for less than 24 hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;More immediate results.&lt;/strong&gt; Urinary results from laser surgery are noticeable right away, while it can take several weeks to months to see noticeable improvement with other enlarged prostate procedures or with medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Transurethral needle ablation (TUNA), transurethral microwave therapy (TUMT) and transurethral incision of the prostate (TUIP) share some of the advantages of laser surgery. They&apos;re less involved (less invasive) than traditional surgery, so healing is generally faster and there is typically less of a risk of complications. However they generally do not work as well as tissue-removing options and often have to be repeated in three to five years. These procedures are only done in men with certain types of prostates.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Serious long-term complications are less likely with prostate laser surgery than with traditional surgery. Risks of laser surgery include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Temporary difficulty urinating.&lt;/strong&gt; You may have trouble urinating for a few days after the procedure. Until you can urinate on your own, you will need to have a tube (catheter) inserted into your penis to carry urine out of your bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract infection.&lt;/strong&gt; Urinary tract infections are a possible complication after any enlarged prostate procedure. An infection is increasingly likely to occur the longer you have a catheter in place, and may require antibiotics or other treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowing (stricture) of the urethra.&lt;/strong&gt; Just as you can form scars on the outside of your body, you can form scars on the inside after prostate surgery. These scars can block urine flow, requiring additional treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry orgasm.&lt;/strong&gt; Laser surgery can cause retrograde ejaculation, which means semen released during sexual climax (ejaculation) enters your bladder rather than exiting the penis. Retrograde ejaculation isn&apos;t harmful, and generally doesn&apos;t affect sexual pleasure. But it can interfere with your ability to father a child. This is a common long-term side effect of enlarged prostate procedures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Need for re-treatment.&lt;/strong&gt; Some men who have laser surgery later require more treatment. When laser surgery doesn&apos;t provide symptom relief, or symptoms return over time, transurethral resection of the prostate (TURP), open prostatectomy or HoLEP may be needed to reopen the urinary channel. The need for re-treatment is most common with laser procedures that only remove part of the prostate (ablative procedures). Men who have HoLEP generally don&apos;t require re-treatment, because the entire part of the prostate that can block urine flow is removed and can&apos;t grow back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Erection problems.&lt;/strong&gt; There is a small risk that laser surgery could cause erectile dysfunction &amp;mdash; the inability to maintain an erection firm enough to have sex. This is generally less of a risk than it is with traditional surgery. It occurs less often with HoLEP than with other laser procedures.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow your doctor&apos;s instructions on what to do before your treatment.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about blood-thinning medications.&lt;/strong&gt; Your doctor may ask you to stop taking medications that increase your risk of bleeding several days prior to the procedure. These include warfarin (Coumadin), clopidogrel (Plavix) and nonprescription pain relievers such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others). Talk to the doctor who prescribed you medication before you make any changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t eat before your procedure.&lt;/strong&gt; Your doctor will likely tell you not to eat or drink anything after midnight. On the morning of your procedure, take only the medications your doctor tells you to with a small sip of water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange a ride home ahead of time.&lt;/strong&gt; You won&apos;t be able to drive yourself home after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for time off work.&lt;/strong&gt; You may not be able to work or do strenuous activity for about two weeks after surgery, but depending on the type of laser procedure you have, you may need more or less recovery time. Ask your doctor how much time you may need.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also give you other steps to follow.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laser surgery techniques for enlarged prostate are all done by inserting viewing scopes and instruments through the tip of the penis into the urethra. This makes surgery possible without making any cuts (incisions) on the outside of your body. Exactly what you can expect during and after the procedure can vary somewhat depending on your surgeon and the particular type of laser and technique used.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Holmium laser enucleation of the prostate (HoLEP)&lt;/strong&gt;&lt;br /&gt;
+During HoLEP, a laser is used to cut prostate tissue into small pieces. An instrument called a morcellator is used to grind tissue into easily removable fragments. HoLEP cuts out the entire portion of the prostate gland that can block urine flow. Because the entire prostate is removed, you won&apos;t need re-treatment, as you might with some other BPH procedures.
+&lt;/p&gt;
+&lt;p&gt;
+HoLEP results are similar to those achieved with the most effective nonlaser prostate removal surgeries and open prostatectomy. HoLEP generally has a lower risk of complications than open surgery or TURP.
+&lt;/p&gt;
+&lt;p&gt;
+One advantage of HoLEP over other laser treatments is that removed prostate tissue can be examined for signs of prostate cancer.
+&lt;/p&gt;
+&lt;p&gt;
+The HoLEP technique is difficult for surgeons to learn and is only done at a few advanced medical centers.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Photosensitive vaporization of the prostate (PVP)&lt;/strong&gt;&lt;br /&gt;
+This type of surgery heats and melts away (vaporizes) enlarged prostate with extremely hot laser energy. It&apos;s done with a potassium titanyl phosphate (KTP) laser or a lithium triborate (LBO) laser. The newer, higher powered LBO system allows for a shorter operation time than older KTP lasers.
+&lt;/p&gt;
+&lt;p&gt;
+PVP is also called green light laser therapy, because the wavelength that the laser emits appears as green light.
+&lt;/p&gt;
+&lt;p&gt;
+More research is needed to better understand the safety and long-term results of PVP, particularly in men who need to continue taking blood-thinning medications during the procedure and in men who have large prostates. The depth of tissue penetration by the green light or KTP laser is much deeper than that with the holmium laser.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Holmium laser ablation of the prostate (HoLAP)&lt;/strong&gt;&lt;br /&gt;
+HoLAP is similar to PVP except that the laser energy source is different. The laser energy used is absorbed by water, making it precise and keeping it from penetrating deep into tissues. The same type of laser is also used to treat bladder or kidney tumors, open up scars that can block the urinary system, and break apart kidney or ureteral stones. HoLAP and other laser ablation procedures are generally well suited for smaller prostates that still cause significant urinary symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prior to surgery&lt;/strong&gt;&lt;br /&gt;
+Before laser surgery, your doctor will give you one of two kinds of anesthesia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;General anesthesia&lt;/strong&gt;, which means you&apos;ll be unconscious during the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal anesthesia&lt;/strong&gt;, which means you&apos;ll have an anesthetic injected into your spine to prevent pain. With spinal anesthesia, you&apos;ll remain conscious during the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+During laser surgery, a narrow fiber-optic scope is inserted through the tip of your penis into the urethra. The instrument is used to focus a high-energy laser beam into prostate tissue blocking urine flow. Depending on the procedure, the laser will come out of the fiber at an angle (side-firing laser fiber) for ablative procedures or the end (end-firing laser fiber) for enucleative procedures. Depending on the procedure, your doctor will also use instruments to remove pieces of prostate tissue from the prostate area and your bladder.
+&lt;/p&gt;
+&lt;p&gt;
+Laser procedures for enlarged prostate generally take from 30 minutes to an hour.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+Ask your doctor about any specific restrictions or steps you need to take after the procedure.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t take blood-thinning medications&lt;/strong&gt; until your doctor says it&apos;s OK.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t do any strenuous activity&lt;/strong&gt;, such as heavy lifting, until your doctor says it&apos;s OK. This can be up to two weeks after HoLEP, but as short as a few days with other procedures such as PVP.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t have sex until your doctor says it&apos;s OK&lt;/strong&gt;. For most men, this is a week or two after the procedure. Having an orgasm (ejaculating) too soon may cause pain and bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to blood in your urine&lt;/strong&gt;. Drink plenty of fluids and avoid strenuous activity unless your urine is clear (and not pink), and the suggested time has passed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take antibiotics as prescribed&lt;/strong&gt;. If your doctor prescribed antibiotics, make sure to take the full course of antibiotics exactly as your doctor says.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may need to have a urinary catheter in place after the procedure because urine flow is blocked by swelling. If you&apos;re unable to urinate after the tube is removed, your doctor may give you catheters that you can insert on your own a few times a day until swelling goes down and you can urinate again normally.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It can take some time to recover fully from laser surgery. After the procedure, you may notice:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood in your urine (hematuria)&lt;/strong&gt; for a few days to weeks after the procedure. See your doctor if the blood in your urine is thick like ketchup, bleeding appears to be worsening or if blood clots block your urine flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritating urinary symptoms&lt;/strong&gt;, such as painful urination, difficulty urinating, an urgent or frequent need to urinate, or having to get up more often during the night to urinate. With some types of laser surgery, these symptoms can last up to a few weeks after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty holding urine&lt;/strong&gt;. This can occur because your bladder is used to having to push urine through a urethra narrowed by enlarged prostate tissue. For most men, this issue improves with time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prostate laser surgery improves urinary flow in most men. Often, results are quickly apparent. In some cases, laser surgery doesn&apos;t completely remove all of the prostate tissue blocking urine flow, or tissue grows back, and further treatment is needed.
+&lt;/p&gt;
+&lt;p&gt;
+Laser surgery techniques are still being developed, and more studies are needed to determine which ones work best and their long-term effectiveness.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prostate laser surgery
+	</Title>
+	<Abstract>
+		Prostate laser surgery &amp;mdash; Overview covers definition, risks, results of procedure to treat enlarged prostate.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00610" LinkType="Internal" ObjectID="FB37098C-BC1F-9E5F-977BC89FA93DDE5A" Title="Open prostatectomy" Url="http://www.mayoclinic.com/health/open-prostatectomy/MY00610" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00608" LinkType="Internal" ObjectID="FB34541C-0501-B132-828D6AA2CEE464A9" Title="Transurethral needle ablation (TUNA)" Url="http://www.mayoclinic.com/health/tuna/MY00608" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00607" LinkType="Internal" ObjectID="FB323B0C-F123-9612-1305FD0629CCE602" Title="Transurethral microwave therapy (TUMT)" Url="http://www.mayoclinic.com/health/tumt/MY00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00633" LinkType="Internal" ObjectID="3F02BCEA-AC9F-38A9-2997AE24488AE998" Title="Transurethral resection of the prostate (TURP)" Url="http://www.mayoclinic.com/health/turp/MY00633" />
+		<LinkItem ContentType="Disease" DocID="DS00027" LinkType="Internal" ObjectID="E569D2C1-B4F8-4E5E-B7D8534A26D35B37" Title="Prostate gland enlargement" Url="http://www.mayoclinic.com/health/prostate-gland-enlargement/DS00027" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01107
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/group-b-strep/DS01107
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="3624" Title="Group B strep" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C2C01557-E7FF-0DBD-14196DF5D12B8DD4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				group b strep
+			</MetaKeyword>
+			<MetaKeyword>
+				strep b
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcal disease
+			</MetaKeyword>
+			<MetaKeyword>
+				strep b in pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				strep infection
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				gbs
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				strep
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Group B streptococcus (strep) is a common bacterium often carried in your intestines or lower genital tract. Group B strep is usually harmless in adults. In newborns, however, it can cause a serious illness known as group B strep disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Group B strep can also cause dangerous infections in adults with certain chronic medical conditions, such as diabetes or liver disease. Older adults are at increased risk of illness due to group B strep, too. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re a healthy adult, there&apos;s nothing you need to do about group B strep. If you&apos;re pregnant, get a group B strep screening test during your third trimester. If you have group B strep, antibiotic treatment during labor can protect your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Infants&lt;/strong&gt; &lt;br /&gt;
+Most babies born to women carrying group B strep are healthy. But the few who are infected by group B strep during labor can become critically ill. 
+&lt;/p&gt;
+&lt;p&gt;
+In infants, illness caused by group B strep can take two forms: early-onset or late-onset. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early-onset group B strep disease.&lt;/strong&gt; This is the more common and serious form of group B strep disease in infants. A baby with early-onset group B strep disease typically becomes sick within 12 hours after birth. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Difficulty feeding&lt;/li&gt;
+	&lt;li&gt;Lethargy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Late-onset group B strep disease.&lt;/strong&gt; Late-onset group B strep disease develops within a week to a few months after birth. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coughing and congestion, as with a cold&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Difficulty feeding&lt;/li&gt;
+	&lt;li&gt;Lethargy&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re like many adults, you may carry group B strep in your body, usually in your bowel, vagina, rectum, bladder or throat. Most adults simply carry the bacterium and have no signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, group B strep may cause a urinary tract infection or other more serious infections such as blood infections (bacteremia) or pneumonia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+As an adult, if you experience any signs or symptoms of group B strep infection &amp;mdash; particularly if you&apos;re pregnant, you have a chronic medical condition or you&apos;re older than 65 &amp;mdash; contact your doctor right away. 
+&lt;/p&gt;
+&lt;p&gt;
+If you notice your infant has any of the signs or symptoms of group B strep disease, tell your baby&apos;s doctor immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many healthy people carry group B strep bacteria in their bodies. Group B strep bacteria aren&apos;t sexually transmitted, and they&apos;re not spread through food or water. You may carry group B strep in your body for just a short period of time, it may come and go, or you may always have it. 
+&lt;/p&gt;
+&lt;p&gt;
+Group B strep can spread to a baby during a vaginal delivery if the baby is exposed to &amp;mdash; or swallows &amp;mdash; fluids containing group B strep. 
+&lt;/p&gt;
+&lt;p&gt;
+Some individuals, such as older adults and those with chronic health conditions, can develop a more serious infection from group B strep. However, the reason this occurs in some people but not others isn&apos;t known. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Infants&lt;/strong&gt; &lt;br /&gt;
+Your infant is at increased risk of developing group B strep disease if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You carry group B strep in your body&lt;/li&gt;
+	&lt;li&gt;Your baby is born prematurely (earlier than 37 weeks)&lt;/li&gt;
+	&lt;li&gt;Your water breaks 18 hours or more before delivery&lt;/li&gt;
+	&lt;li&gt;You have an infection of the placental tissues and amniotic fluid (chorioamnionitis)&lt;/li&gt;
+	&lt;li&gt;Group B strep bacteria have been detected in your urine (bacteriuria) during pregnancy (either your current pregnancy or previous pregnancies)&lt;/li&gt;
+	&lt;li&gt;Your temperature is greater than 100 F (38 C) during labor&lt;/li&gt;
+	&lt;li&gt;Your baby has a sustained rapid heartbeat during labor&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had prior delivery of an infant with group B strep disease&lt;/li&gt;
+	&lt;li&gt;You&apos;re carrying twins or other multiples&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+You&apos;re at increased risk of a group B strep infection if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a medical condition that impairs your immune system, such as diabetes, HIV infection, cancer or liver disease&lt;/li&gt;
+	&lt;li&gt;You&apos;re older than 65, particularly if you live in a nursing home&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Group B strep infection can lead to life-threatening complications in infants, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation of the lungs (pneumonia)&lt;/li&gt;
+	&lt;li&gt;Inflammation of the membranes and fluid surrounding the brain and spinal cord (meningitis)&lt;/li&gt;
+	&lt;li&gt;Infection in the bloodstream (bacteremia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re a pregnant woman, group B strep can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Infection of the placenta and amniotic fluid (chorioamnionitis)&lt;/li&gt;
+	&lt;li&gt;Inflammation and infection of the membrane lining the uterus (endometritis)&lt;/li&gt;
+	&lt;li&gt;Infection of the bloodstream (sepsis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re an older adult or you have a chronic health condition, group B strep bacteria may cause complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin infection (cellulitis)&lt;/li&gt;
+	&lt;li&gt;Infection of the bloodstream (sepsis)&lt;/li&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Inflammation of the lungs (pneumonia)&lt;/li&gt;
+	&lt;li&gt;Bone and joint infections&lt;/li&gt;
+	&lt;li&gt;Infection of the heart valves (endocarditis)&lt;/li&gt;
+	&lt;li&gt;Inflammation of the membranes and fluid surrounding the brain and spinal cord (meningitis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re pregnant, the Centers for Disease Control and Prevention recommends a group B strep screening between weeks 35 and 37 of pregnancy. Your doctor will take a swab sample from your vagina and rectum and send it to a lab for testing. A positive test indicates that you carry group B strep. It doesn&apos;t mean that you&apos;re ill or that your baby will be affected. It simply means the potential for newborn infection exists, and you can take steps to protect your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve already given birth and your doctor suspects your baby has group B strep disease, a sample of your baby&apos;s blood or spinal fluid will be sent to a lab for evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+Group B strep infection and group B strep disease are diagnosed when the bacteria are grown from cultures of the fluid samples. The cultures take several days to grow, so it may be two to three days before you receive the results of the lab analysis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Infants&lt;/strong&gt; &lt;br /&gt;
+If your baby tests positive for group B strep, he or she will be given intravenous (IV) antibiotics to destroy the bacteria. In some cases, IV fluids, oxygen or other medications, depending on your baby&apos;s condition, may be needed as well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+Antibiotics are effective treatment for group B strep infection in adults. The choice of antibiotic depends on the location and extent of the infection and your specific circumstances. If you&apos;re pregnant and develop complications due to group B strep, you&apos;ll be given oral antibiotics, usually penicillin or cephalexin, which are safe to take during pregnancy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent group B bacteria from spreading to your baby during labor, your doctor can give you an IV antibiotic &amp;mdash; usually penicillin or a related drug &amp;mdash; when labor begins. If you&apos;re allergic to penicillin and related drugs, you may receive clindamycin or a similar alternative. Taking oral antibiotics ahead of time won&apos;t help because the bacterium can return before labor begins. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotic treatment during labor is also recommended if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Delivered a previous baby with group B strep disease&lt;/li&gt;
+	&lt;li&gt;Develop a fever during labor&lt;/li&gt;
+	&lt;li&gt;Haven&apos;t delivered your baby within 18 hours of your water breaking&lt;/li&gt;
+	&lt;li&gt;Go into labor before 37 weeks and haven&apos;t been tested for group B strep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Antibiotic therapy isn&apos;t usually needed if you have a C-section delivery, unless your water breaks or labor has already begun before surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+If you test positive for group B strep, remind your health care team during labor. Your reminders will help your health care team provide the best possible care during labor and delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+Group B strep typically doesn&apos;t affect the length of time you and your baby spend in the hospital, and it doesn&apos;t affect your ability to breast-feed safely. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccine in development&lt;/strong&gt; &lt;br /&gt;
+Although it&apos;s not available yet, researchers are working on a group B strep vaccine that could, in the future, help prevent group B strep infections among adults. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Group B strep disease
+	</Title>
+	<Abstract>
+		Group B strep &amp;mdash; Comprehensive overview covers causes, risk factors, complications.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01161" LinkType="Internal" ObjectID="33A66E80-C751-1C08-FF53855EF508EB52" Title="Group B strep test" Url="http://www.mayoclinic.com/health/group-b-strep-test/MY01161" />
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,346 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00824
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/microscopic-colitis/DS00824
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-30
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5337" Title="Patient stories">
+					<Keyword MCVID="5338" Title="Diseases and conditions">
+						<Keyword MCVID="5361" Title="Microscopic colitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EC27D066-E7FF-0DBD-1AB8980523A25E16
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				collagenous colitis
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphocytic colitis
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				microscopic colitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Microscopic colitis is an inflammation of the large intestine (colon) that causes persistent watery diarrhea. The disorder gets its name from the fact that it&apos;s necessary to examine colon tissue under a microscope to identify it. 
+&lt;/p&gt;
+&lt;p&gt;
+There are two types of microscopic colitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Collagenous colitis,&lt;/strong&gt; in which a thick layer of protein (collagen) develops in colon tissue&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lymphocytic colitis,&lt;/strong&gt; in which white blood cells (lymphocytes) increase in colon tissue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It isn&apos;t known whether collagenous (kuh-LAYJ-uh-nus) colitis and lymphocytic colitis are two separate disorders or represent different phases of the same condition. However, symptoms of collagenous colitis and lymphocytic colitis are similar, as are testing and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms of microscopic colitis can come and go frequently. Sometimes the symptoms resolve on their own. If not, your doctor can suggest a number of effective medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of microscopic colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic watery diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or cramps&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Fecal incontinence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have watery diarrhea that lasts more than a few days, contact your doctor so that your condition can be diagnosed and properly treated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes the inflammation of the colon found in microscopic colitis. Researchers believe that the causes may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications&lt;/strong&gt; that can irritate the lining of the colon&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria&lt;/strong&gt; that produce toxins that irritate the lining of the colon&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viruses&lt;/strong&gt; that trigger inflammation&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system problems,&lt;/strong&gt; such as rheumatoid arthritis or celiac disease, that occur when your body&apos;s immune system attacks healthy tissues&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for microscopic colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age and gender.&lt;/strong&gt; Microscopic colitis is most common in people ages 50 to 70 and more common in women than men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system problems.&lt;/strong&gt; People with microscopic colitis sometimes also have an autoimmune disorder, such as celiac disease, thyroid disease or rheumatoid arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Recent research studies have shown an association between tobacco smoking and microscopic colitis, especially in people ages 16 to 44.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some research studies indicate that using certain medications may increase your risk of microscopic colitis. But not all studies agree. Medications linked to the condition include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aspirin, acetaminophen (Tylenol, others), and ibuprofen (Advil, Motrin IB, others)&lt;/li&gt;
+	&lt;li&gt;Proton pump inhibitors, including lansoprazole&lt;/li&gt;
+	&lt;li&gt;Acarbose (Precose)&lt;/li&gt;
+	&lt;li&gt;Flutamide&lt;/li&gt;
+	&lt;li&gt;Ranitidine (Zantac)&lt;/li&gt;
+	&lt;li&gt;Selective serotonin reuptake inhibitors, such as sertraline (Zoloft)&lt;/li&gt;
+	&lt;li&gt;Carbamazepine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s not clear why some people who use these medications develop microscopic colitis while others don&apos;t. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; such as not eating solid food on the day before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all your medications,&lt;/strong&gt; vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other diagnosed conditions. Also mention if you have been hospitalized in the last few months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life, as well as a detailed description of your typical daily diet, including whether you usually use caffeine and alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;br /&gt;
+&lt;/strong&gt;Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;Do you think my condition is temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments can help?&lt;/li&gt;
+	&lt;li&gt;If I need surgery, what will my recovery be like?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow? Would changing my diet help?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions any time you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be ready to answer questions your doctor is likely to ask you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How many loose bowel movements are you having each day?&lt;/li&gt;
+	&lt;li&gt;How severe are your other symptoms, such as abdominal cramping and nausea?&lt;/li&gt;
+	&lt;li&gt;Has there been blood in your stools?&lt;/li&gt;
+	&lt;li&gt;Have you lost any weight?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently?&lt;/li&gt;
+	&lt;li&gt;Is anyone else sick at home with diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you been hospitalized or taken antibiotics in the last few months?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, and were any started in the weeks before your diarrhea began?&lt;/li&gt;
+	&lt;li&gt;What do you eat in a typical day?&lt;/li&gt;
+	&lt;li&gt;Do you use caffeine or alcohol? How much?&lt;/li&gt;
+	&lt;li&gt;Do you have celiac disease? If so, are you following a gluten-free diet?&lt;/li&gt;
+	&lt;li&gt;Do you have diabetes or thyroid disease?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+You may find some relief from persistent diarrhea by making changes to your diet: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat bland, low-fat foods.&lt;/li&gt;
+	&lt;li&gt;Avoid dairy products, spicy foods, caffeine and alcohol.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A complete medical history and physical examination can help determine whether other conditions may be contributing to your diarrhea, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Celiac disease&lt;/li&gt;
+	&lt;li&gt;Autoimmune disorders&lt;strong&gt;,&lt;/strong&gt; such as rheumatoid arthritis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will ask about any medications you are taking, particularly aspirin and ibuprofen, which may increase your risk of microscopic colitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests used to diagnose microscopic colitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stool sample analysis&lt;/strong&gt; to help rule out infection as the cause of persistent diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test or upper endoscopy with biopsy&lt;/strong&gt; to rule out celiac disease. In endoscopy, a long, thin tube with a camera on the end is used to examine the upper part of your digestive tract. A tissue sample (biopsy) may be removed for analysis in the laboratory.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy or flexible sigmoidoscopy with biopsy&lt;/strong&gt; to help rule out other intestinal disorders. Both tests use a long, thin tube with a camera on the end to examine the inside of your colon. The colons of people with microscopic colitis appear normal. A biopsy can be obtained during colonoscopy or flexible sigmoidoscopy and analyzed for signs of microscopic colitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of flexible sigmoidoscopy exam 
+" Caption="During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+" Height="60" Title="Sigmoidoscopy exam" URI="/images/image_popup/thumbs/hdg7_sigmoidoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of flexible sigmoidoscopy exam 
+" Caption="During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+" Height="362" Title="Sigmoidoscopy exam" URI="/images/image_popup/hdg7_sigmoidoscopy.jpg" Width="400" />
+				<HTML>
+					During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Microscopic colitis may get better on its own without treatment. But when symptoms persist or are severe, treatment may be necessary to relieve them. Doctors usually try a stepwise approach, starting with the simplest, most easily tolerated treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diet and medication changes&lt;/strong&gt; &lt;br /&gt;
+Treatment usually begins with changes to your diet and medications that may help relieve persistent diarrhea. Your doctor may recommend that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a low-fat, low-fiber diet.&lt;/strong&gt; Foods that contain less fat and are low in fiber may help relieve diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discontinue any medication&lt;/strong&gt; that might be a cause of your symptoms. Your doctor may recommend a different medication to treat an underlying condition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+If signs and symptoms persist, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-diarrhea medications&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block bile acids,&lt;/strong&gt; which can contribute to diarrhea&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid or anti-inflammatory medications&lt;/strong&gt; to help control colon inflammation&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that suppress the immune system&lt;/strong&gt; to help reduce inflammation in the colon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+When the symptoms of microscopic colitis are severe, and medications aren&apos;t effective, your doctor may recommend surgery to remove all or part of your colon. Surgery is a rare treatment for microscopic colitis. It is imperative that other causes of diarrhea be excluded before surgery is considered. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Changes to your diet may help relieve diarrhea that you experience with microscopic colitis. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Water is best, but fluids with added sodium and potassium (electrolytes) may help as well. Try drinking broth or watered-down fruit juice. Avoid beverages that are high in sugar or contain alcohol or caffeine, such as coffee, tea and colas, which may aggravate your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose soft, easy-to-digest foods.&lt;/strong&gt; These include applesauce, bananas and rice. Avoid high-fiber foods such as beans, nuts and vegetables. If you feel as though your symptoms are improving, slowly add high-fiber foods back to your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat several small meals rather than a few large meals.&lt;/strong&gt; Spacing meals throughout the day may ease diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritating foods.&lt;/strong&gt; Stay away from spicy, fatty or fried foods and any other foods that make your symptoms worse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Microscopic colitis
+	</Title>
+	<Abstract>
+		Learn about Mayo Clinic&apos;s approach to diagnosis and treatment of microscopic colitis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

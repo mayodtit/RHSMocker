@@ -1,0 +1,380 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01052
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/claudication/DS01052
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-20
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3246" Title="Peripheral arterial disease">
+							<Keyword MCVID="3300" Title="Claudication" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			16EF83CB-E7FF-0DBD-10AEF9D64E0AAB80
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				intermittent claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral arterial disease
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pains
+			</MetaKeyword>
+			<MetaKeyword>
+				lower leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				pain in legs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Claudication is pain caused by too little blood flow during exercise. Sometimes called intermittent claudication, this condition generally affects the blood vessels in the legs, but claudication can affect the arms, too. 
+&lt;/p&gt;
+&lt;p&gt;
+At first, you&apos;ll probably notice the pain only when you&apos;re exercising, but as claudication worsens, the pain may affect you even when you&apos;re at rest. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s sometimes considered a disease, claudication is technically a symptom of a disease. Most often, claudication is a symptom of peripheral artery disease, a potentially serious, but treatable circulation problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, with treatment, you may be able to maintain an active lifestyle without pain. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of intermittent claudication 
+" Caption="In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With proper treatment, new, collateral blood vessels may form, allowing blood to circulate around the damaged areas.
+" Height="60" Title="Intermittent claudication" URI="/images/image_popup/thumbs/hb7_interclaudicationthu.jpg" Width="60" />
+				<Image Alt="Illustration of intermittent claudication 
+" Caption="In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With proper treatment, new, collateral blood vessels may form, allowing blood to circulate around the damaged areas.
+" Height="397" Title="Intermittent claudication" URI="/images/image_popup/hb7_interclaudication.jpg" Width="397" />
+				<HTML>
+					In peripheral artery disease, the arteries that supply blood to the legs are narrowed, typically because of atherosclerosis, causing a cluster of pain symptoms called intermittent claudication. With ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Claudication symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain when exercising.&lt;/strong&gt; You may feel pain or discomfort in your feet, calves, thighs, hips or buttocks depending on where you might have artery narrowing or damage. Claudication can also occur in your arms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intermittent pain.&lt;/strong&gt; Your pain may come and go as you do less-strenuous activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain when at rest.&lt;/strong&gt; As your condition progresses, you may feel pain in your legs even when you&apos;re sitting or lying down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discolored skin or ulcerations.&lt;/strong&gt; If blood flow is severely reduced, your toes or fingers may look bluish or feel cold to the touch. You may also develop sores on your lower legs, feet, toes, arms or fingers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other possible symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An aching or burning feeling&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Talk to your doctor if you have pain in your legs or arms when you exercise. If left untreated, claudication and peripheral artery disease can reduce the quality of your life and lead to potentially life-threatening complications. Claudication may limit your ability to participate in social and leisure activities, interfere with work, and make exercise intolerable. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Claudication is most often a symptom of peripheral artery disease. In peripheral artery disease, the arteries that supply blood to your limbs are damaged, usually as a result of atherosclerosis. Atherosclerosis can develop in any of your arteries, especially those in your heart. When atherosclerosis affects your arms and legs, it&apos;s called peripheral artery disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Atherosclerosis makes arteries hard and narrow. That&apos;s because the arteries get clogged with clumps of fat, cholesterol and other material, called atherosclerotic plaques. These plaques can make arteries so narrow that less blood can flow through them. You feel pain because your leg muscles are not getting enough oxygenated blood. Oxygen is the fuel that muscles need to contract. 
+&lt;/p&gt;
+&lt;p&gt;
+Claudication isn&apos;t the only possible cause of your symptoms. Other conditions associated with similar symptoms that need to be considered include spinal stenosis, peripheral neuropathy, certain musculoskeletal conditions and deep venous thrombosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="60" Title="Development of atherosclerosis" URI="/images/image_popup/thumbs/mcdc7_atherosclerosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="479" Title="Development of atherosclerosis" URI="/images/image_popup/mcdc7_atherosclerosis.jpg" Width="400" />
+				<HTML>
+					Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk factors for claudication are the same as those for developing atherosclerosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Obesity (a body mass index over 30)&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Age older than 70 years&lt;/li&gt;
+	&lt;li&gt;Age older than 50 years if you also smoke or have diabetes&lt;/li&gt;
+	&lt;li&gt;A family history of atherosclerosis, peripheral artery disease or claudication&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In extreme cases, the circulation in your legs or arms can be so limited that you feel pain even when you aren&apos;t exercising, and your legs or arms might feel cool to the touch. Severe peripheral artery disease can lead to poor healing of skin injuries and ulcers. These cuts and ulcers can develop gangrene and require limb amputation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in disorders of the cardiovascular system (cardiologist) or a vascular surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing&lt;/strong&gt;, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking, as well as the dose that you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For claudication, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What lifestyle changes can help me?&lt;/li&gt;
+	&lt;li&gt;If medication is needed, what side effects might I experience?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have pain when you&apos;re exercising, when you&apos;re at rest, or both?&lt;/li&gt;
+	&lt;li&gt;On a scale of one to 10, how would you rate the pain?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms, such as stopping exercise?&lt;/li&gt;
+	&lt;li&gt;Do you need to sit down to get symptom relief, or does stopping and standing in one place relieve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Claudication may go undiagnosed because many people consider the pain an unwelcome but inevitable consequence of aging, and some people just reduce their activity level to avoid the pain. But the tests your doctor may use to diagnose your condition are often noninvasive and can get you back on your way to resuming an active life. 
+&lt;/p&gt;
+&lt;p&gt;
+Some common tests used to diagnose claudication include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Checking the pulses&lt;/strong&gt; in your feet&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ankle-brachial index&lt;/strong&gt; to compare the blood pressure in your ankles to the blood pressure in your arms&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doppler ultrasound,&lt;/strong&gt; which monitors blood flow in the area affected&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) or computed tomography (CT) angiography&lt;/strong&gt; to show damage to blood vessels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The pain in your legs could be due to another condition, such as spine, joint or muscle problems. Your doctor can make a diagnosis based on your symptoms and a medical history, physical exam and appropriate tests. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of claudication and peripheral artery disease can help prevent your disease from getting worse and reduce your symptoms. Lifestyle changes, such as quitting smoking and participating in a regular exercise regimen, are often the first steps in treating claudication. 
+&lt;/p&gt;
+&lt;p&gt;
+If your claudication symptoms don&apos;t improve after adopting a healthier lifestyle, your doctor may suggest other treatment options, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Your doctor might recommend you take aspirin to reduce the chance of blood clots. He or she might also prescribe other medications that help keep your blood from clotting, such as clopidogrel (Plavix), dipyridamole (Persantine) and ticlopidine. The medication cilostazol (Pletal) may help improve blood flow and reduce your symptoms. If you can&apos;t take cilostazol, or if it doesn&apos;t improve your symptoms, your doctor may recommend that you try pentoxifylline (Trental). Additionally, if necessary, your doctor will also prescribe a cholesterol-lowering drug (statin) to lower your cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angioplasty.&lt;/strong&gt; Cases of claudication and peripheral artery disease that are more serious may require angioplasty. This is a procedure that widens damaged arteries using a narrow tube that travels through your blood vessels and has an inflatable balloon on the end that can help improve circulation. A stent is often implanted at the same time to keep the artery propped open. Once an artery is open, your doctor may place a small metal or plastic mesh tube (stent) in the artery to keep it open.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vascular surgery.&lt;/strong&gt; Your doctor may recommend surgery that takes a healthy blood vessel from another part of your body to replace the vessel that&apos;s causing your claudication. This allows blood to flow around the blocked or narrowed artery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also suggest a combination of treatments, such as medications and angioplasty. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The plaques that have damaged your arteries are often the result of unhealthy lifestyle habits. So a key part of treatment is stopping any unhealthy habits and adopting healthy ones. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have claudication or peripheral artery disease, make sure you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking is the most significant risk factor for the development and worsening of peripheral artery disease. Smoking increases the chance that you&apos;ll eventually require an amputation or even die of the disease. Avoid secondhand smoke, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; You may wonder how exercise can be helpful if that&apos;s what brings on the claudication pain. Actually, exercise helps condition your muscles so that they use oxygen more efficiently. So even if your muscles are getting less oxygen, they can use what they do get more effectively. That can eventually mean less pain during exertion. Your health care team can help develop a supervised exercise program that will enable you to gradually increase the distance you&apos;re able to walk without pain and increase your overall mobility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know and control your cholesterol levels.&lt;/strong&gt; If your cholesterol levels aren&apos;t what they need to be, your doctor may recommend medication to get them to the proper levels. A meal plan that includes a variety of low-fat foods, emphasizing fruits, vegetables, grains and legumes, can help, too. Combined with exercise, a healthy diet can help control your blood pressure and cholesterol levels, both of which can contribute to atherosclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain medications.&lt;/strong&gt; Don&apos;t use drugs that cause your blood vessels to constrict. Many sinus and cold medications sold over-the-counter contain pseudoephedrine, which is known to constrict blood vessels. Ask your doctor if there are any other medications you need to avoid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid injury to your feet and legs.&lt;/strong&gt; Reduced blood flow increases your risk of complications from injuries. Choose well-fitting shoes that will protect your feet if you are participating in activities or work that might lead to injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your legs below your heart.&lt;/strong&gt; Doing so can help improve the circulation to your feet. To keep the blood flowing well to your legs and feet at night, it helps to raise the head of your bed by 4 to 6 inches.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t any alternative medicine treatments that have been proved effective for claudication. 
+&lt;/p&gt;
+&lt;p&gt;
+Several treatments have had mixed results, proving beneficial in some studies, but then showing no benefit in others. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ginkgo &lt;/li&gt;
+	&lt;li&gt;Propionyl-L-carnitine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another treatment, L-arginine, appeared to help relieve symptoms of claudication, but it may be harmful. 
+&lt;/p&gt;
+&lt;p&gt;
+Vitamin E and omega-3 fatty acids have also been suggested as treatments for claudication, but when studied in clinical trials, these treatments didn&apos;t help relieve symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It can be frightening to learn that the reason you&apos;re having pain is that your blood vessels are narrowing. Learning all you can about what&apos;s causing your claudication can put you in control, and you&apos;ll know exactly what steps to take to ease your pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people also find it helpful to talk with other people who are going through the same thing that they are. In a support group, you may find encouragement, advice and maybe even an exercise partner or two. Ask your doctor if there are any support groups in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent claudication is to maintain a healthy lifestyle. That means: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quit smoking if you&apos;re a smoker.&lt;/li&gt;
+	&lt;li&gt;If you have diabetes, keep your blood sugar in good control.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly.&lt;/li&gt;
+	&lt;li&gt;Lower your cholesterol and blood pressure levels, if necessary.&lt;/li&gt;
+	&lt;li&gt;Eat foods that are low in saturated fat.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Claudication
+	</Title>
+	<Abstract>
+		Claudication &amp;mdash; Comprehensive overview covers symptoms and treatment of this painful circulatory condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00074" LinkType="Internal" ObjectID="A66FF3E4-E7FF-0DBD-121494A9D0674EB7" Title="Ankle-brachial index" Url="http://www.mayoclinic.com/health/ankle-brachial-index/MY00074" />
+		<LinkItem ContentType="Answer" DocID="HQ01278" LinkType="Internal" ObjectID="23508468-4BBF-4913-B661F11F96440452" Title="Pseudoclaudication: Is it related to claudication?" Url="http://www.mayoclinic.com/health/pseudoclaudication/HQ01278" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00829" LinkType="Internal" ObjectID="0642C9A9-9B43-1C8D-B8C747F7A330D396" Title="Hyperbaric oxygen therapy" Url="http://www.mayoclinic.com/health/hyperbaric-oxygen-therapy/MY00829" />
+		<LinkItem ContentType="Disease" DocID="DS00537" LinkType="Internal" ObjectID="492164BE-7E9E-468B-8D170DD04296B1A8" Title="Peripheral artery disease (PAD)" Url="http://www.mayoclinic.com/health/peripheral-arterial-disease/DS00537" />
+	</RelatedLinksBox>
+</Disease>

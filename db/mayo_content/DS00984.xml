@@ -1,0 +1,489 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00984
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/seborrheic-dermatitis/DS00984
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2815" Title="Dermatitis/eczema">
+							<Keyword MCVID="3092" Title="Seborrheic dermatitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			062B23A0-E7FF-0DBD-198C952AD9A8A894
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				seborrheic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				seborheic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitus
+			</MetaKeyword>
+			<MetaKeyword>
+				rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				red rash
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				face rash
+			</MetaKeyword>
+			<MetaKeyword>
+				facial rash
+			</MetaKeyword>
+			<MetaKeyword>
+				body rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rash on face
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				scaly skin
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy scalp
+			</MetaKeyword>
+			<MetaKeyword>
+				dandruff
+			</MetaKeyword>
+			<MetaKeyword>
+				flaky scalp
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problem
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+			<MetaKeyword>
+				red skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin irritation
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itching
+			</MetaKeyword>
+			<MetaKeyword>
+				skin eruptions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin sores
+			</MetaKeyword>
+			<MetaKeyword>
+				severe itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itchiness
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itch
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seborrheic dermatitis (seb-o-REE-ik der-muh-TI-tis) is a common skin disorder that mainly affects your scalp, causing scaly, itchy, red skin and stubborn dandruff. In infants, seborrheic dermatitis of the scalp is known as cradle cap. Seborrheic dermatitis can also affect your face, upper chest, back and other areas of your body that have many oil (sebaceous) glands.
+&lt;/p&gt;
+&lt;p&gt;
+Seborrheic dermatitis doesn&apos;t affect your overall health, but it can be uncomfortable and cause embarrassment when it develops on visible parts of your body. It isn&apos;t contagious, and it&apos;s not a sign of poor personal hygiene. Seborrheic dermatitis tends to recur, but you may be able to manage flare-ups by recognizing its signs and symptoms and by using a combination of self-care steps and over-the-counter (nonprescription) medications.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing seborrheic dermatitis on the face 
+" Caption="Seborrheic dermatitis causes red, scaly, itchy skin. It can occur on the sides of the nose, in and between the eyebrows, and in other oil-rich areas. 
+" Height="60" Title="Seborrheic dermatitis on the face" URI="/images/image_popup/thumbs/sn7_seborrheicdermatitisthu.jpg" Width="60" />
+				<Image Alt="Image showing seborrheic dermatitis on the face 
+" Caption="Seborrheic dermatitis causes red, scaly, itchy skin. It can occur on the sides of the nose, in and between the eyebrows, and in other oil-rich areas. 
+" Height="190" Title="Seborrheic dermatitis on the face" URI="/images/image_popup/sn7_seborrheicdermatitis.jpg" Width="400" />
+				<HTML>
+					Seborrheic dermatitis causes red, scaly, itchy skin. It can occur on the sides of the nose, in and between the eyebrows, and in other oil-rich areas. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs and symptoms of seborrheic dermatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation (redness) of the skin&lt;/li&gt;
+	&lt;li&gt;Patchy scaling or thick crusts on your scalp&lt;/li&gt;
+	&lt;li&gt;Yellow or white flakes (dandruff) on your scalp or your hair, eyebrows, beard or mustache&lt;/li&gt;
+	&lt;li&gt;Red, greasy skin covered with flaky white or yellow scales on other areas of your body, including your chest, armpits, the area where your thigh meets your abdomen (groin) or the male scrotum&lt;/li&gt;
+	&lt;li&gt;Itching or soreness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seborrheic dermatitis most often affects your scalp, but it can occur between skin folds and on skin rich in oil glands. It can develop in and between your eyebrows, on the sides of your nose and behind your ears, over your breastbone, in your groin area, and sometimes in your armpits. In most people, it&apos;s a chronic condition. You&apos;ll likely experience periods when your signs and symptoms improve alternating with times when they worsen.
+&lt;/p&gt;
+&lt;p&gt;
+In infants, seborrheic dermatitis of the scalp is known as cradle cap. The patches may be thick, yellow, crusty or greasy. In babies with cradle cap, the face and diaper area may also be affected. In most babies, seborrheic dermatitis clears up by age 1.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re so uncomfortable that you&apos;re losing sleep or are distracted from your daily routines&lt;/li&gt;
+	&lt;li&gt;Your condition is causing embarrassment and anxiety&lt;/li&gt;
+	&lt;li&gt;You suspect your skin is infected&lt;/li&gt;
+	&lt;li&gt;You&apos;ve tried self-care steps without success&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing seborrheic dermatitis of the scalp 
+" Caption="Seborrheic dermatitis is a common skin disorder that mainly affects the scalp, causing itchy, yellow or white patchy scales or thick crusts that may attach to the hair shaft, as seen in the lower left side of the image. 
+" Height="60" Title="Seborrheic dermatitis of the scalp" URI="/images/image_popup/thumbs/mcdc7_seborrheic_dermatitisthu.jpg" Width="60" />
+				<Image Alt="Image showing seborrheic dermatitis of the scalp 
+" Caption="Seborrheic dermatitis is a common skin disorder that mainly affects the scalp, causing itchy, yellow or white patchy scales or thick crusts that may attach to the hair shaft, as seen in the lower left side of the image. 
+" Height="360" Title="Seborrheic dermatitis of the scalp" URI="/images/image_popup/mcdc7_seborrheic_dermatitis.jpg" Width="400" />
+				<HTML>
+					Seborrheic dermatitis is a common skin disorder that mainly affects the scalp, causing itchy, yellow or white patchy scales or thick crusts that may attach to the hair shaft, as seen in the lower ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cradle cap on light skin 
+" Caption="Cradle cap is characterized by scaly patches on a baby&apos;s scalp. You may notice thick, yellow patches of skin. The patches may be crusty or greasy. 
+" Height="60" Title="Cradle cap on light skin" URI="/images/image_popup/thumbs/sn7_cradlecapthu.jpg" Width="60" />
+				<Image Alt="Image of cradle cap on light skin 
+" Caption="Cradle cap is characterized by scaly patches on a baby&apos;s scalp. You may notice thick, yellow patches of skin. The patches may be crusty or greasy. 
+" Height="338" Title="Cradle cap on light skin" URI="/images/image_popup/sn7_cradlecap.jpg" Width="400" />
+				<HTML>
+					Cradle cap is characterized by scaly patches on a baby&apos;s scalp. You may notice thick, yellow patches of skin. The patches may be crusty or greasy. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t yet know the cause of seborrheic dermatitis. Factors that may play a role include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A yeast (fungus) called Malassezia.&lt;/strong&gt; This fungus is one of the normal microscopic life forms that grow, along with certain bacteria, in your skin&apos;s oily secretion (sebum). Creams, foams or lotions containing an antifungal agent, such as ketoconazole (Ketozole, Extina), often help reduce flare-ups, supporting the idea that this yeast is a contributing factor. But seborrheic dermatitis itself isn&apos;t considered an infection, and it&apos;s not contagious.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change of season.&lt;/strong&gt; Episodes are often worse in winter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological conditions.&lt;/strong&gt; Seborrheic dermatitis may occur more frequently in people who have Parkinson&apos;s disease and certain other neurological disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress and fatigue.&lt;/strong&gt; Stressful life events and situations may help trigger an episode or make it worse through mechanisms that aren&apos;t yet understood. The role of neurological disorders and stress may be related through effects on the nervous system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;HIV/AIDS.&lt;/strong&gt; Seborrheic dermatitis may occur more commonly and tend to be more severe in those with HIV/AIDS.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first visit your primary care doctor. He or she may refer you to a doctor who specializes in skin disorders (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to your scheduled appointment for seborrheic dermatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time may help you make the most of your time together. For seborrheic dermatitis, some basic questions you might want to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which ones do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any side effects from treatment?&lt;/li&gt;
+	&lt;li&gt;How long does treatment take to clear up this condition?&lt;/li&gt;
+	&lt;li&gt;Will the treatment need to be repeated and, if so, how often?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may free up time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Is this the first time you&apos;ve had these symptoms, or have you had them before?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Are they about the same all the time, getting worse, or sometimes better and sometimes worse?&lt;/li&gt;
+	&lt;li&gt;Have you tried any at-home treatments? Any creams or gels or shampoos?&lt;/li&gt;
+	&lt;li&gt;How often do you use these treatments?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to help?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms worse?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+An over-the-counter antifungal cream or anti-itch cream can be helpful. If your scalp is affected, an over-the-counter antifungal shampoo may ease your symptoms. Try not to scratch or pick at the affected area, because if you irritate your skin or scratch it open, you increase your risk of infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors usually diagnose seborrheic dermatitis by taking a thorough medical history, listening carefully to what you say about your symptoms and examining the skin areas that are troubling you.
+&lt;/p&gt;
+&lt;p&gt;
+Steps to diagnosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Your doctor will ask about your symptoms, all the prescription and over-the-counter medications you&apos;re taking, and your other health conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor will examine your scalp and areas of your face or body where you have symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; Your doctor may scrape cells off your skin and examine them under a microscope or take a skin sample (biopsy) for detailed analysis in a laboratory. These tests may help confirm your diagnosis by ruling out other skin conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Conditions with some symptoms similar to seborrheic dermatitis include:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriasis.&lt;/strong&gt; This disorder also causes red skin covered with flakes and scales. The flakes tend to look more silvery and usually extend beyond the hairline of your scalp. Patches can range from a few spots of scaling to major eruptions that cover large areas of the body. The parts of your body affected may differ from the typical pattern of seborrheic dermatitis. Like seborrheic dermatitis, psoriasis can cause dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis (eczema).&lt;/strong&gt; This skin reaction causes itchy, inflamed skin. It often occurs in the folds of the elbows, on the backs of the knees or on the front of the neck. It tends to flare periodically and then subside for a time, even up to several years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ringworm of the scalp (tinea capitis).&lt;/strong&gt; This fungal infection is most common in toddlers and school-age children. It causes red, itchy, bald-looking patches on the scalp.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seborrheic dermatitis tends to be chronic, and there&apos;s usually no strategy that stops it permanently. But treatments &amp;mdash; including many you can try at home &amp;mdash; may control your signs and symptoms during a flare-up. The best approach for you depends on your skin type, the severity of your condition, and whether your symptoms affect your scalp or other areas of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Creams and lotions that you apply to affected body areas and medicated shampoos are all mainstays of treatment. In very severe cases, physicians may prescribe oral medications with whole-body effects. Products are available with several kinds of active ingredients. Some preparations include active ingredients from more than one category. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antifungal agents&lt;/strong&gt;&lt;br /&gt;
+These agents seem to work by reducing numbers of Malassezia yeast in affected areas of your body. Antifungal agents commonly used to treat seborrheic dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ketoconazole&lt;/strong&gt; is found in shampoos, foams, gels and creams. It&apos;s available in over-the-counter products in a 1 percent concentration and prescription products at a 2 percent strength. Some studies show that the 2 percent strength may be more effective. In a small percentage of people, ketoconazole can cause irritation, itching and burning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ciclopirox&lt;/strong&gt; is found in prescription shampoos and skin products. It may cause irritation, itching and burning in a small number of people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Terbinafine (Lamisil)&lt;/strong&gt; is sometimes prescribed in tablet form to treat severe episodes, but studies of its effectiveness are limited. Most doctors are cautious about prescribing oral antifungal agents for seborrheic dermatitis because these drugs can have serious side effects, and seborrheic dermatitis tends to be a chronic condition. Side effects of terbinafine include severe allergic reactions and liver problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;/strong&gt;&lt;br /&gt;
+These agents help symptoms by reducing inflammation, itching and discomfort. They&apos;re generally recommended for short-term, occasional use because long-term use over large areas of your body can cause significant side effects. These include local effects, such as skin damage and excessive hair growth, and whole-body effects such as increased susceptibility to infection, high blood sugar and suppression of certain hormones. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of corticosteroids include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hydrocortisone&lt;/strong&gt; is available over the counter in a 1 percent strength cream that can be used on body areas other than your scalp. It&apos;s available in higher strength creams by prescription.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Desonide (Desowen, Desonate)&lt;/strong&gt; is available by prescription as a gel or ointment for application to your scalp and other body areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Betamethasone&lt;/strong&gt; (Beta-Val) is also available by prescription as a cream or lotion for use on your scalp and other parts of your body. It&apos;s a stronger category of steroid, and its use is usually limited to a few weeks at a time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Calcineurin inhibitors&lt;/strong&gt;&lt;br /&gt;
+These prescription creams are derived whole-body medications that lower the activity of your immune system. Research and clinical experience suggest they&apos;re about as effective as antifungal and corticosteroid creams and lotions. Because more extensive exposure to the whole-body drugs may increase risk of skin cancer or lymphoma, the Food and Drug Administration (FDA) recommends that these creams be used only after other treatments haven&apos;t helped you, or if you can&apos;t tolerate other treatments. The FDA also advises against long-term use of these medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Calcineurin inhibitors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tacrolimus (Protopic)&lt;/li&gt;
+	&lt;li&gt;Pimecrolimus (Elidel)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other shampoo ingredients&lt;/strong&gt;&lt;br /&gt;
+Additional active ingredients in some shampoos include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Selenium sulfide&lt;/strong&gt; is found in products available by prescription. Some people who use selenium sulfide experience scalp irritation or lightening of their hair color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Zinc pyrithione&lt;/strong&gt; is available in over-the-counter products. It may cause irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coal tar&lt;/strong&gt; is the active ingredient in Neutrogena T/Gel and products marketed by other manufacturers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Salacylic acid&lt;/strong&gt; is a mild compound that loosens up scale in the scalp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s important to use treatments for seborrheic dermatitis exactly as the package directs or as your physician prescribes. If one type of shampoo works for a time and then seems to lose its effectiveness, try alternating between two types. Be sure to leave your shampoo on for the full recommended time &amp;mdash; this allows its ingredients time to work. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve shampooed faithfully for several weeks and you&apos;re still experiencing an itchy, flaky scalp, talk to your doctor. You may need a prescription-strength shampoo or lotion. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following over-the-counter treatments and self-care tips can help you control and manage seborrheic dermatitis.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hair with a medicated anti-dandruff shampoo&lt;/strong&gt; according to the recommended schedule. If you don&apos;t see results, try a shampoo with a different active ingredient.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use an over-the-counter antifungal cream.&lt;/strong&gt; Application of nonprescription-strength ketoconazole may be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an anti-itch cream or lotion to the affected area.&lt;/strong&gt; A short course of a nonprescription hydrocortisone cream containing at least 1 percent hydrocortisone can temporarily relieve itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harsh soaps and detergents.&lt;/strong&gt; Be sure to rinse soap completely off your body and scalp.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear smooth-textured cotton clothing.&lt;/strong&gt; This will help keep air circulating around your skin and avoid irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shave off your beard or mustache.&lt;/strong&gt; Seborrheic dermatitis can be worse under mustaches and beards. If this is the case for you, shaving might ease your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid scratching whenever possible.&lt;/strong&gt; Scratching can increase irritation, making you more uncomfortable and increasing your risk of infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cradle cap&lt;/strong&gt;&lt;br /&gt;
+Cradle cap usually clears up on its own within a few months. In the meantime, wash your baby&apos;s hair once a day with mild baby shampoo. Loosen the scales with a small, soft-bristled brush before rinsing off the shampoo.
+&lt;/p&gt;
+&lt;p&gt;
+If the scales don&apos;t loosen easily, rub a few drops of mineral oil or olive oil onto your baby&apos;s scalp. Let the oil soak into the scales for a few minutes, and then brush and shampoo your baby&apos;s hair as usual.
+&lt;/p&gt;
+&lt;p&gt;
+If cradle cap persists or seems severe, your doctor may suggest a medicated shampoo, lotion or other treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One theory about why Malassezia yeast may be a factor in seborrheic dermatitis is that the yeast&apos;s own life processes change the balance of oils on your skin. In susceptible people, this may trigger a reaction. There&apos;s some evidence &amp;mdash; although nothing&apos;s been proved &amp;mdash; that applying certain oils that make your skin softer and more supple (emollients) may offer some relief.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tea tree oil&lt;/strong&gt;&lt;br /&gt;
+Tea tree oil was found to be more effective against seborrheic dermatitis of the scalp than a look-alike inactive treatment (placebo) in one small study. But seborrheic dermatitis went away completely in only one person using tea tree oil and one person using the placebo. No one in this study experienced side effects from using tea tree oil, but other studies suggest that tea tree oil can sometimes trigger an allergic reaction. Tea tree oil may also have a whole-body effect on certain hormones.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fish oil supplements&lt;/strong&gt;&lt;br /&gt;
+There&apos;s also some evidence that taking fish oil supplements, which contain omega-3 fatty acids, may help seborrheic dermatitis. Although taking up to 3 grams of fish oil per day is generally considered safe, fish oil can cause &quot;fishy&quot; burps, nausea and diarrhea. At high doses, it may slow your blood&apos;s ability to clot and increase your risk of internal bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s always a good idea to check with your doctor before adding any alternative treatment to your health management strategies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Seborrheic dermatitis
+	</Title>
+	<Abstract>
+		Seborrheic dermatitis &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this itchy scalp condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+		<LinkItem ContentType="SlideShow" DocID="DS00543" LinkType="Internal" ObjectID="24EEAE39-2697-4971-95705ABC4DBBE485" Title="Slide show: Types of dermatitis" Url="http://www.mayoclinic.com/health/dermatitis/DS00543" />
+		<LinkItem ContentType="Answer" DocID="AN01177" LinkType="Internal" ObjectID="ADF356CE-EB54-4DD1-9B441BDE38A74555" Title="Scalp psoriasis vs. seborrheic dermatitis: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/scalp-psoriasis/AN01177" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+		<LinkItem ContentType="Disease" DocID="DS00339" LinkType="Internal" ObjectID="A3B79A20-A765-4E1C-90C2A26187EF01E7" Title="Dermatitis" Url="http://www.mayoclinic.com/health/dermatitis-eczema/DS00339" />
+		<LinkItem ContentType="Disease" DocID="DS00456" LinkType="Internal" ObjectID="F8F56A90-7CF0-4E06-A079CA10DE146B1E" Title="Dandruff" Url="http://www.mayoclinic.com/health/dandruff/DS00456" />
+		<LinkItem ContentType="Disease" DocID="DS00847" LinkType="Internal" ObjectID="A39429AD-E7FF-0DBD-176D22A50ECCFE59" Title="Itchy skin (pruritus)" Url="http://www.mayoclinic.com/health/itchy-skin/DS00847" />
+	</RelatedLinksBox>
+</Disease>

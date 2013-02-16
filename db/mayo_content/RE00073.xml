@@ -1,0 +1,204 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00073
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00073
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-30
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-30
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F7C5AE0E-E7FF-0DBD-1F533189615AD85B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				salmon
+			</MetaKeyword>
+			<MetaKeyword>
+				grilled recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				fish
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &quot;The New Mayo Clinic Cookbook,&quot; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Grilled miso salmon
+	</Title>
+	<Abstract>
+		Grilled miso salmon gets a boost of flavor from a dab of creamy miso paste.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; A dab of creamy miso paste adds flavor to this easy dish. Mirin is a sweet rice cooking wine, available in some supermarkets and in most Asian markets. Try the marinade with grilled chicken or pork. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a shallow baking dish, whisk together the mirin, chives, miso, soy sauce, tahini and ginger. Add the fish to the marinade and turn to coat. Cover and marinate in the refrigerator for 1 to 2 hours, turning the fish occasionally. 
+&lt;/p&gt;
+&lt;p&gt;
+Prepare a fire in a charcoal grill or place a grill pan over high heat. Remove the fish from the marinade and pat dry. Discard the marinade. When the grill or pan is very hot, place the fillets on it and cook, turning carefully with a spatula, until grill-marked, firm to the touch and opaque in the center, about 4 minutes on each side. 
+&lt;/p&gt;
+&lt;p&gt;
+Transfer the fillets to a serving platter. Garnish with the cilantro and sesame seeds and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1/2 cup mirin&lt;/li&gt;
+	&lt;li&gt;2 tablespoons minced fresh chives or green (spring) onion tops&lt;/li&gt;
+	&lt;li&gt;1 tablespoon yellow miso&lt;/li&gt;
+	&lt;li&gt;1 tablespoon low-sodium soy sauce&lt;/li&gt;
+	&lt;li&gt;1 teaspoon tahini&lt;/li&gt;
+	&lt;li&gt;1 teaspoon peeled and minced fresh ginger&lt;/li&gt;
+	&lt;li&gt;4 salmon fillets, 5 ounces each, skinned&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped fresh cilantro (fresh coriander)&lt;/li&gt;
+	&lt;li&gt;1 teaspoon sesame seeds, toasted&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				270
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				16 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				78 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				trace
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				29 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 fillet
+			</Servingsize>
+			<Sodium Label="Sodium">
+				634 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				8 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				10 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fish and shellfish
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+	</Categorization>
+</Recipe>

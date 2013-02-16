@@ -1,0 +1,184 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00476
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00476
+		</OriginalURL>
+		<UpdateDate>
+			2009-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			6DB5859E-F4CA-41FF-BD99B150B2C90375
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Broiled scallops with sweet lime sauce
+	</Title>
+	<Abstract>
+		Broiled scallops with sweet lime sauce &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Rather than creating a fatty lime sauce, this modified recipe coats the scallops in honey and lime juice and gently broils them.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the broiler. Position the rack 4 inches from the heat source. Cover a broiler pan or cookie sheet with aluminum foil. Spray generously with cooking spray.&lt;/p&gt;
+
+&lt;p&gt;In a large bowl, whisk together the honey, lime juice and oil. Add the scallops and toss gently to coat with the honey mixture.&lt;/p&gt;
+
+&lt;p&gt;Arrange the scallops in a single layer on the prepared broiler pan or baking sheet. Broil until opaque throughout when tested with a tip of a knife, about 5 minutes. Turn the scallops over and broil for another minute.&lt;/p&gt;
+
+&lt;p&gt;Divide the scallops onto 4 warmed plates. Pour any juices from the broiler pan or baking sheet over the scallops. Sprinkle with grated lime peel and serve with a lime wedge.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;4 tablespoons honey&lt;br /&gt;
+2 tablespoons lime juice&lt;br /&gt;
+1 tablespoon olive or canola oil&lt;br /&gt;
+1 pound bay or sea scallops, rinsed and patted dry&lt;br /&gt;
+2 teaspoons grated lime peel&lt;br /&gt;
+1 lime, cut into 4 wedges&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1 1/2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				199
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				22 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				37 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				19 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				184 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fish and shellfish
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="Broiled scallops with sweet lime sauce
+" height="100" uri="/images/billboardsmall/re1_broiledscallops.jpg" width="100" />
+</Recipe>

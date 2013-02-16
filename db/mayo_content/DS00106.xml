@@ -1,0 +1,454 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00106
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/irritable-bowel-syndrome/DS00106
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-29
+		</UpdateDate>
+		<PublicationDate>
+			2000-11-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="1853" Title="Irritable bowel syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F32C84B7-11F3-4E9D-80A5AD5354F27F4E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				irritable bowel syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				IBS
+			</MetaKeyword>
+			<MetaKeyword>
+				gas
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				constipation
+			</MetaKeyword>
+			<MetaKeyword>
+				Lotronex
+			</MetaKeyword>
+			<MetaKeyword>
+				lactose intolerance
+			</MetaKeyword>
+			<MetaKeyword>
+				mucus in stool
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Irritable bowel syndrome (IBS) is a common disorder that affects your large intestine (colon). Irritable bowel syndrome commonly causes cramping, abdominal pain, bloating gas, diarrhea and constipation. Despite these uncomfortable signs and symptoms, IBS doesn&apos;t cause permanent damage to your colon. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people with IBS find that symptoms improve as they learn to control their condition. Only a small number of people with irritable bowel syndrome have disabling signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, unlike more-serious intestinal diseases such as ulcerative colitis and Crohn&apos;s disease, irritable bowel syndrome doesn&apos;t cause inflammation or changes in bowel tissue or increase your risk of colorectal cancer. In many cases, you can control irritable bowel syndrome by managing your diet, lifestyle and stress. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of irritable bowel syndrome can vary widely from person to person and often resemble those of other diseases. Among the most common are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain or cramping&lt;/li&gt;
+	&lt;li&gt;A bloated feeling&lt;/li&gt;
+	&lt;li&gt;Gas (flatulence)&lt;/li&gt;
+	&lt;li&gt;Diarrhea or constipation &amp;mdash; sometimes even alternating bouts of constipation and diarrhea&lt;/li&gt;
+	&lt;li&gt;Mucus in the stool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Like many people, you may have only mild signs and symptoms of irritable bowel syndrome. However, sometimes these problems can be disabling. In some cases, you may have severe signs and symptoms that don&apos;t respond well to medical treatment. Because symptoms of irritable bowel syndrome can occur with other more serious diseases, it&apos;s best to discuss these symptoms with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+For most people, IBS is a chronic condition, although there will likely be times when the signs and symptoms are worse and times when they improve or even disappear completely. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+It&apos;s important to see your doctor if you have a persistent change in bowel habits or if you have any other signs or symptoms of IBS. These may indicate a more serious condition, such as an infection or colon cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may be able to help you find ways to relieve symptoms as well as rule out other more-serious colon conditions, such as ulcerative colitis and Crohn&apos;s disease, which are forms of inflammatory bowel disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not known exactly what causes irritable bowel syndrome. The walls of the intestines are lined with layers of muscle that contract and relax in a coordinated rhythm as they move food from your stomach through your intestinal tract to your rectum. If you have irritable bowel syndrome, the contractions may be stronger and last longer than normal. Food is forced through your intestines more quickly, causing gas, bloating and diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, the opposite occurs. Food passage slows, and stools become hard and dry. Abnormalities in your nervous system or colon also may play a role, causing you to experience greater than normal discomfort when your intestinal wall stretches from gas. 
+&lt;/p&gt;
+&lt;p&gt;
+There are a number of other factors that may play a role in IBS. For example, people with IBS may have abnormal serotonin levels. Serotonin is a chemical messenger that&apos;s normally associated with brain function, but it also plays a role in normal digestive system function. It&apos;s also possible that people with IBS don&apos;t have the right balance of good bacteria in the intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Triggers affect some people, not others&lt;/strong&gt; &lt;br /&gt;
+For reasons that still aren&apos;t clear, if you have IBS you probably react strongly to stimuli that don&apos;t bother other people. Triggers for IBS can range from gas or pressure on your intestines to certain foods, medications or emotions. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Foods.&lt;/strong&gt; Many people find that their signs and symptoms worsen when they eat certain foods. For instance, chocolate, milk and alcohol might cause constipation or diarrhea. Carbonated beverages and some fruits and vegetables may lead to bloating and discomfort in some people with IBS. The role of food allergy or intolerance in irritable bowel syndrome has yet to be clearly understood. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you experience cramping and bloating mainly after eating dairy products, food with caffeine, or sugar-free gum or candies, the problem may not be irritable bowel syndrome. Instead, your body may not be able to tolerate the sugar (lactose) in dairy products, caffeine or the artificial sweetener sorbitol. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; If you&apos;re like most people with IBS, you probably find that your signs and symptoms are worse or more frequent during stressful events, such as a change in your daily routine. But while stress may aggravate symptoms, it doesn&apos;t cause them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormones.&lt;/strong&gt; Because women are more likely to have IBS, researchers believe that hormonal changes play a role in this condition. Many women find that signs and symptoms are worse during or around their menstrual periods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people have occasional signs and symptoms of irritable bowel syndrome. However, you&apos;re more likely to have IBS if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Are young.&lt;/strong&gt; IBS symptoms first appear before the age of 35 for about half of those with the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Are female. &lt;/strong&gt;More women than men are diagnosed with this condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a family history of IBS.&lt;/strong&gt; Studies have shown that people who have a first-degree relative &amp;mdash; such as a parent or sibling &amp;mdash; with IBS are at increased risk of the condition. It&apos;s not clear whether the influence of family history on IBS risk is related to genes, to shared factors in a family&apos;s environment, or both.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+IBS isn&apos;t associated with any serious conditions, such as colon cancer. But, diarrhea and constipation, both signs of irritable bowel syndrome, can aggravate or even cause hemorrhoids.
+&lt;/p&gt;
+&lt;p&gt;
+The impact of IBS on your overall quality of life may be its most significant complication. IBS might limit your ability to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make or keep plans with friends and family.&lt;/strong&gt; If you have IBS, the difficulty of coping with symptoms away from home may cause you to avoid social engagements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enjoy a healthy sex life.&lt;/strong&gt; The physical discomfort of IBS may make sexual activity unappealing or even painful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These effects of IBS may cause you to feel you&apos;re not living life to the fullest, leading to discouragement or even depression.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have symptoms of IBS. After an initial evaluation, your doctor may refer you to a specialist in digestive disorders (gastroenterologist) for more extensive testing. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. In addition, it may be helpful to keep a food diary and make note if a food seems to make your symptoms worse. It will help your doctor to know whether your symptoms come and go and what foods, if any, seem to trigger their occurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life. These factors can play a key role in the frequency and severity of IBS symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking. If you&apos;ve been medically evaluated for your symptoms in the past, bring records of those tests to your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For IBS, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my condition?&lt;/li&gt;
+	&lt;li&gt;What diagnostic tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend trying first?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will we try next?&lt;/li&gt;
+	&lt;li&gt;Are there any side effects associated with these treatments?&lt;/li&gt;
+	&lt;li&gt;Do you suspect that dietary factors are playing a role in my symptoms?&lt;/li&gt;
+	&lt;li&gt;What dietary changes are most likely to reduce my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any lifestyle changes I can make to help reduce or manage my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition chronic?&lt;/li&gt;
+	&lt;li&gt;How much do you expect my condition may improve with treatment, including self-care?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. You may be asked: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms come and go or stay about the same?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to trigger your symptoms, including certain foods, stress or &amp;mdash; in women &amp;mdash; your menstrual period?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any blood in your stools?&lt;/li&gt;
+	&lt;li&gt;Have your signs and symptoms included vomiting?&lt;/li&gt;
+	&lt;li&gt;Have your signs and symptoms included fever?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced significant stress, emotional difficulty or loss?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with a food allergy or with lactose intolerance?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking, including prescription and over-the-counter medications, vitamins, herbs, and supplements?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of bowel disorders?&lt;/li&gt;
+	&lt;li&gt;How much would you say your symptoms are affecting your quality of life, including your personal relationships and your ability to function at school or work?&lt;/li&gt;
+	&lt;li&gt;Do you have persistent abdominal pain or is your pain relieved by a bowel movement?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with inflammatory bowel disease or colon cancer. In addition, start jotting down notes about how often your symptoms occur and any factors that seem to trigger their occurrence. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of irritable bowel syndrome depends largely on a complete medical history and physical exam. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for making a diagnosis&lt;/strong&gt; &lt;br /&gt;
+Because there are usually no physical signs to definitively diagnose irritable bowel syndrome, diagnosis is often a process of elimination. To help in this process, researchers have developed diagnostic criteria, known as Rome criteria, for IBS and other functional gastrointestinal disorders. These are conditions in which the bowel appears normal, but doesn&apos;t function normally. According to these criteria, you must have certain signs and symptoms before a doctor diagnoses irritable bowel syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+The most important symptom is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain and discomfort lasting at least 12 weeks, though the weeks don&apos;t have to occur consecutively&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You also must have at least two of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A change in the frequency or consistency of your stool &amp;mdash; for example, you may change from having one normal, formed stool every day to three or more loose stools daily, or you may have only one hard stool every few days&lt;/li&gt;
+	&lt;li&gt;Straining, urgency or a feeling that you can&apos;t empty your bowels completely&lt;/li&gt;
+	&lt;li&gt;Mucus in your stool&lt;/li&gt;
+	&lt;li&gt;Bloating or abdominal distension&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will likely assess how you fit these criteria, as well as whether you have any other signs or symptoms that might suggest another, more-serious condition. Some red flag signs and symptoms that might prompt your doctor to do additional testing include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;New onset after age 50&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Rectal bleeding&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea or recurrent vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain, especially if it&apos;s not completely relieved by a bowel movement&lt;/li&gt;
+	&lt;li&gt;Diarrhea that is persistent or awakens you from sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have these red flag signs or symptoms, you&apos;ll need additional testing to further assess your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If you fit the IBS criteria and don&apos;t have any red flag signs or symptoms, your doctor may suggest a course of treatment without doing additional testing. But if you don&apos;t respond to that treatment, you&apos;ll likely require more tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend several tests, including stool studies to check for infection or malabsorption problems. Among the tests that you may undergo to rule out other causes for your symptoms are the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Flexible sigmoidoscopy.&lt;/strong&gt; This test examines the lower part of the colon (sigmoid) with a flexible, lighted tube (sigmoidoscope).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy.&lt;/strong&gt; In some cases, your doctor may perform this diagnostic test, in which a small, flexible tube is used to examine the entire length of the colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; CT scans produce cross-sectional X-ray images of internal organs. CT scans of your abdomen and pelvis may help your doctor rule out other causes of your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lactose intolerance tests.&lt;/strong&gt; Lactase is an enzyme you need to digest the sugar (lactose) found in dairy products. If you don&apos;t produce this enzyme, you may have problems similar to those caused by irritable bowel syndrome, including abdominal pain, gas and diarrhea. To find out if this is the cause of your symptoms, your doctor may order a breath test or ask you to exclude milk and milk products from your diet for several weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Celiac disease (nontropical sprue) is sensitivity to wheat protein that also may cause signs and symptoms like those of irritable bowel syndrome. Blood tests may help rule out that disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it&apos;s not clear what causes irritable bowel syndrome, treatment focuses on the relief of symptoms so that you can live as normally as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, you can successfully control mild signs and symptoms of irritable bowel syndrome by learning to manage stress and making changes in your diet and lifestyle. But if your problems are moderate or severe, you may need to do more. Your doctor may suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fiber supplements.&lt;/strong&gt; Taking fiber supplements, such as psyllium (Metamucil) or methylcellulose (Citrucel), with fluids may help control constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-diarrheal medications.&lt;/strong&gt; Over-the-counter medications, such as loperamide (Imodium), can help control diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eliminating high-gas foods.&lt;/strong&gt; If you have bothersome bloating or are passing considerable amounts of gas, your doctor may suggest that you avoid such items as carbonated beverages, salads, raw fruits and vegetables &amp;mdash; especially cabbage, broccoli and cauliflower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticholinergic medications.&lt;/strong&gt; Some people need medications that affect certain activities of the autonomic nervous system (anticholinergics) to relieve painful bowel spasms. These may be helpful for people who have bouts of diarrhea, but can worsen constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressant medications.&lt;/strong&gt; If your symptoms include pain or depression, your doctor may recommend a tricyclic antidepressant or a selective serotonin reuptake inhibitor (SSRI). These medications help relieve depression as well as inhibit the activity of neurons that control the intestines. If you have diarrhea and abdominal pain without depression, your doctor may suggest a lower than usual dose of tricyclic antidepressants, such as imipramine (Tofranil) and amitriptyline. Side effects of these drugs include drowsiness and constipation. SSRIs, such as fluoxetine (Prozac, Sarafem) or paroxetine (Paxil), may be helpful if you&apos;re depressed and have pain and constipation. These medications can worsen diarrhea, however.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; It&apos;s unclear what role, if any, antibiotics might play in treating IBS. Some people whose symptoms are due to an overgrowth of bacteria in their intestines may benefit from antibiotic treatment. But more research is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Counseling.&lt;/strong&gt; If antidepressant medications don&apos;t work, you may have better results from counseling if stress tends to worsen your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication specifically for IBS&lt;/strong&gt; &lt;br /&gt;
+Two medications are currently approved for specific cases of IBS: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Alosetron (Lotronex).&lt;/strong&gt; Alosetron is a nerve receptor antagonist that&apos;s designed to relax the colon and slow the movement of waste through the lower bowel. The drug was removed from the market soon after its original approval because it was linked to serious complications. The Food and Drug Administration (FDA) has since allowed alosetron to be used again &amp;mdash; with restrictions. The drug can be prescribed only by doctors enrolled in a special program and is intended for severe cases of diarrhea-predominant IBS in women who haven&apos;t responded to other treatments. Alosetron is not approved for use by men.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Generally, alosetron should only be used if usual therapy for IBS has failed. Additionally, it should only be prescribed by a gastroenterologist with expertise in IBS because of the potential side effects. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lubiprostone (Amitiza).&lt;/strong&gt; Lubiprostone is approved for adult women and men who have IBS with constipation. Lubiprostone is a chloride channel activator that you take twice a day. It works by increasing fluid secretion in your small intestine to help with the passage of stool. Common side effects include nausea, diarrhea and abdominal pain. More research is needed to fully understand the effectiveness and safety of lubiprostone. Currently, the drug is generally prescribed only for those with IBS and severe constipation for whom other treatments have failed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, simple changes in your diet and lifestyle can provide relief from irritable bowel syndrome. Although your body may not respond immediately to these changes, your goal is to find long-term, not temporary, solutions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Incorporate fiber into your diet, if possible.&lt;/strong&gt; When you have irritable bowel syndrome, dietary fiber can have mixed results. Although it helps reduce constipation, it can also make gas and cramping worse. The best approach is to gradually increase the amount of fiber in your diet over a period of weeks. Examples of foods that contain fiber are whole grains, fruits, vegetables and beans. If your signs and symptoms remain the same or worse, tell your doctor. You may also want to talk to a dietitian.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some people do better limiting dietary fiber and instead take a fiber supplement that causes less gas and bloating. If you take a fiber supplement, such as Metamucil or Citrucel, be sure to introduce it gradually and drink plenty of water every day to minimize gas, bloating and constipation. If you find that taking fiber helps your IBS, use it on a regular basis for best results.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid problem foods.&lt;/strong&gt; If certain foods make your signs and symptoms worse, don&apos;t eat them. Common culprits include alcohol, chocolate, caffeinated beverages such as coffee and sodas, medications that contain caffeine, dairy products, and sugar-free sweeteners such as sorbitol or mannitol. If gas is a problem for you, foods that might make symptoms worse include beans, cabbage, cauliflower and broccoli. Fatty foods may also be a problem for some people. Chewing gum or drinking through a straw can both lead to swallowing air, causing more gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller meals.&lt;/strong&gt; If you have diarrhea, you may find that eating small, frequent meals makes you feel better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with dairy products.&lt;/strong&gt; If you&apos;re lactose intolerant, try substituting yogurt for milk. Or use an enzyme product to help break down lactose. Consuming small amounts of milk products or combining them with other foods also may help. In some cases, though, you may need to eliminate dairy foods completely. If so, be sure to get enough protein and calcium from other sources. A dietitian can help you analyze what you&apos;re eating to make sure you&apos;re getting adequate nutrition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids.&lt;/strong&gt; Try to drink plenty of fluids every day. Water is best. Alcohol and beverages that contain caffeine stimulate your intestines and can make diarrhea worse, and carbonated drinks can produce gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercise helps relieve depression and stress, stimulates normal contractions of your intestines and can help you feel better about yourself. If you&apos;ve been inactive, start slowly and gradually increase the amount of time you exercise. If you have other medical problems, check with your doctor before starting an exercise program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use anti-diarrheal medications and laxatives with caution.&lt;/strong&gt; If you try over-the-counter anti-diarrheal medications, such as Imodium or Kaopectate, use the lowest dose that helps. Imodium may be helpful if taken 20 to 30 minutes before eating, especially if the food planned for your meal is likely to cause diarrhea. In the long run, these medications can cause problems if you don&apos;t use them appropriately. The same is true of laxatives. If you have any questions about them, check with your doctor or pharmacist.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following nontraditional therapies may help relieve symptoms of irritable bowel syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Although study results on the effects of acupuncture on symptoms of irritable bowel syndrome have been mixed, some people use acupuncture to help relax muscle spasms and improve bowel function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbs.&lt;/strong&gt; Peppermint is a natural antispasmodic that relaxes smooth muscles in the intestines. Peppermint may provide short-term relief of IBS symptoms, but study results have been inconsistent. If you&apos;d like to try peppermint, be sure to use enteric-coated capsules. Peppermint may aggravate heartburn. Before taking any herbs, check with your doctor to be sure they won&apos;t interact or interfere with other medications you may be taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; Hypnosis may reduce abdominal pain and bloating. A trained professional teaches you how to enter a relaxed state and then guides you in relaxing your abdominal muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Probiotics.&lt;/strong&gt; Probiotics are &quot;good&quot; bacteria that normally live in your intestines and are found in certain foods, such as yogurt, and in dietary supplements. It&apos;s been suggested that people with irritable bowel syndrome may not have enough good bacteria, and that adding probiotics to the diet may help ease symptoms. Some studies have found that probiotics may relieve symptoms of IBS, such as abdominal pain and bloating, but more research is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Regular exercise, yoga, massage or meditation.&lt;/strong&gt; These can all be effective ways to relieve stress. You can take classes in yoga and meditation or practice at home using books or videos.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with irritable bowel syndrome presents daily challenges. IBS may be painful or embarrassing and can seriously affect the quality of your life. These suggestions may help you cope more easily: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn as much about IBS as you can.&lt;/strong&gt; Talk to your doctor, look for information on the Internet from reputable sources such as the National Institutes of Health, and read books and pamphlets. Being informed about your condition can help you take better charge of it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identify the factors that trigger IBS.&lt;/strong&gt; This is a key step both in managing your condition and in helping you feel you have control of your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out others with IBS.&lt;/strong&gt; Talking to people who know what you&apos;re going through can be reassuring. Try IBS support groups on the Internet or in your community.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone may experience digestive upset from worry or anxiety. But if you have irritable bowel syndrome, stress-related problems such as abdominal pain and diarrhea tend to occur with greater frequency and intensity. Finding ways to deal with stress may be helpful in preventing or alleviating symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Counseling.&lt;/strong&gt; In some cases, a psychologist or psychiatrist may help you learn to reduce stress by looking at how you respond to events and then working with you to modify or change your response.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; This stress-reduction technique helps you reduce muscle tension and slow your heart rate with the feedback help of a machine. You&apos;re then taught how to produce these changes yourself. The goal is to help you enter a relaxed state so that you can cope more easily with stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Progressive relaxation exercises.&lt;/strong&gt; These help you relax muscles in your body, one by one. Start by tightening the muscles in your feet, then concentrate on slowly letting all of the tension go. Next, tighten and relax your calves. Continue until the muscles in your body, including those in your face and scalp, are relaxed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deep breathing.&lt;/strong&gt; Most adults breathe from their chests. But you become calmer when you breathe from your diaphragm, the muscle that separates your chest from your abdomen. When you inhale, allow your belly to expand. When you exhale, your belly naturally contracts. Deep breathing can also help relax your abdominal muscles, which may lead to more-normal bowel activity.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Irritable bowel syndrome
+	</Title>
+	<Abstract>
+		Irritable bowel syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment of this chronic bowel disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02185" LinkType="Internal" ObjectID="E6A32369-F6BA-086B-83800B2E9798545F" Title="What is hot yoga?" Url="http://www.mayoclinic.com/health/hot-yoga/AN02185" />
+		<LinkItem ContentType="Answer" DocID="AN00130" LinkType="Internal" ObjectID="BFE54BCA-6E22-4924-A0551D75254C4CD8" Title="Fiber supplements: Safe to take every day?" Url="http://www.mayoclinic.com/health/fiber-supplements/AN00130" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="Answer" DocID="AN01679" LinkType="Internal" ObjectID="1E26541F-E7FF-0DBD-1CD540E561EE18C2" Title="Candida cleanse diet: What does it treat?" Url="http://www.mayoclinic.com/health/candida-cleanse/AN01679" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="HQ00088" LinkType="Internal" ObjectID="701D9D6A-2877-4596-B7CBB9C8BF8B6DD7" Title="Over-the-counter laxatives for constipation: Use with caution" Url="http://www.mayoclinic.com/health/laxatives/HQ00088" />
+		<LinkItem ContentType="Video" DocID="MM00461" LinkType="Internal" ObjectID="596142CF-A8C0-40BA-8198295DE5686A44" Title="Video: How irritable bowel syndrome affects you" Url="http://www.mayoclinic.com/health/irritable-bowel-syndrome/MM00461" />
+		<LinkItem ContentType="Answer" DocID="AN01929" LinkType="Internal" ObjectID="4DE099AF-E7FF-0DBD-1A07416BC907B483" Title="Fructose intolerance: Can it cause IBS?" Url="http://www.mayoclinic.com/health/fructose-intolerance/AN01929" />
+		<LinkItem ContentType="Answer" DocID="AN00498" LinkType="Internal" ObjectID="4A09FB41-75F8-44C7-93B44386D7FC7A7A" Title="Spastic colon: What does it mean?" Url="http://www.mayoclinic.com/health/spastic-colon/AN00498" />
+	</RelatedLinksBox>
+</Disease>

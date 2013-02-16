@@ -1,0 +1,302 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00958
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/h-pylori/DS00958
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="4243" Title="H. pylori infection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE8F24E-E7FF-0DBD-16E3807063685CFC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				H. pylori infection
+			</MetaKeyword>
+			<MetaKeyword>
+				H. pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h-pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				Helicobacter pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				duodenal ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				Helicobacter pylori infection
+			</MetaKeyword>
+			<MetaKeyword>
+				gastritis
+			</MetaKeyword>
+			<MetaKeyword>
+				MALT lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				h.pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hpylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h pyloric
+			</MetaKeyword>
+			<MetaKeyword>
+				ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				pyloric bacteria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+H. pylori infection occurs when a type of bacteria called Helicobacter pylori (H. pylori) infects your stomach, usually during childhood. A common cause of peptic ulcers, H. pylori infection is present in about half the people in the world. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people don&apos;t realize they have H. pylori infection, because they never get sick from it. If you develop signs and symptoms of a peptic ulcer, your doctor will probably test you for H. pylori infection, because it can be treated with antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with H. pylori infection will never have any signs or symptoms. It&apos;s not clear why this is, but scientists believe some people may be born with more resistance to the harmful effects of H. pylori. 
+&lt;/p&gt;
+&lt;p&gt;
+When signs or symptoms do occur with H. pylori infection, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An ache or burning pain in your abdomen&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Frequent burping&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice any persistent signs and symptoms that worry you. Seek immediate medical help if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe or persistent abdominal pain&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Bloody or black tarry stools&lt;/li&gt;
+	&lt;li&gt;Bloody or black vomit or vomit that looks like coffee grounds&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+H. pylori bacteria can be passed from person to person through direct contact with saliva, vomit or fecal matter. H. pylori can also be spread through contaminated food or water. The infection is usually acquired during childhood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people contract H. pylori as children. Contracting H. pylori in adulthood is much less common. Risk factors for H. pylori infection are related to living conditions in your childhood, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Living in crowded conditions.&lt;/strong&gt; You have a greater risk of H. pylori infection if you live in a home with many other people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living without a reliable supply of hot water.&lt;/strong&gt; Having a reliable hot water supply can help you keep your living area clean and reduce your risk of H. pylori.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in a developing country.&lt;/strong&gt; People living in developing countries, where crowded and unsanitary living conditions may be more common, have a higher risk of H. pylori infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living with someone who has an H. pylori infection.&lt;/strong&gt; If someone you live with has H. pylori, you&apos;re more likely to also have H. pylori.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications associated with H. pylori infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcers.&lt;/strong&gt; H. pylori can damage the protective lining of your stomach and small intestine. This can allow stomach acid to create an open sore (ulcer).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of the stomach lining.&lt;/strong&gt; H. pylori infection can irritate your stomach, causing inflammation (gastritis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stomach cancer.&lt;/strong&gt; H. pylori infection is a strong risk factor for certain types of stomach cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ulcers 
+" Caption="A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the first part of the small intestine (duodenum). An esophageal ulcer occurs in the lower part of your esophagus. 
+" Height="60" Title="Ulcers" URI="/images/image_popup/thumbs/r7_ulcersthhu.jpg" Width="60" />
+				<Image Alt="Illustration showing ulcers 
+" Caption="A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the first part of the small intestine (duodenum). An esophageal ulcer occurs in the lower part of your esophagus. 
+" Height="300" Title="Ulcers" URI="/images/image_popup/r7_ulcers.jpg" Width="400" />
+				<HTML>
+					A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your family doctor or a general practitioner if you have signs or symptoms that indicate a complication of H. pylori infection. Your doctor may refer you to a specialist who treats diseases of the digestive system (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. Before your appointment, you might want to write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin? Does anything make them better or worse?&lt;/li&gt;
+	&lt;li&gt;Have your parents or siblings ever experienced similar problems?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For H. pylori infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did H. pylori infection cause the complications I&apos;m experiencing?&lt;/li&gt;
+	&lt;li&gt;Can H. pylori cause other complications?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures on this topic?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you regularly take medications such as aspirin or ibuprofen (Advil, Motrin, others)?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to determine whether you have an H. pylori infection include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Analysis of a blood sample may reveal evidence of an active or previous H. pylori infection in your body. A blood sample is usually collected by pricking your finger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breath test.&lt;/strong&gt; During a breath test, you swallow a pill, liquid or pudding that contains radioactive carbon molecules. If you have an H. pylori infection, the radioactive carbon is released when the solution is broken down in your stomach. Your body absorbs the radioactive carbon and expels it when you exhale. You exhale into a bag and your doctor uses a special device to detect the radioactive carbon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool test.&lt;/strong&gt; A laboratory test called a stool antigen test looks for foreign proteins (antigens) associated with H. pylori infection in your stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scope test.&lt;/strong&gt; During an endoscopy exam, your doctor threads a long flexible tube equipped with a tiny camera (endoscope) down your throat and esophagus and into your stomach and duodenum. Using this instrument, your doctor can view any irregularities in your upper digestive tract and remove tissue samples (biopsy). These samples are analyzed for H. pylori infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+H. pylori infections are usually treated with two varieties of antibiotics at once, to help prevent the bacteria from developing a resistance to one particular antibiotic. Your doctor also will prescribe an acid suppression drug, to help your stomach lining heal. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend that you undergo testing for H. pylori several weeks after your treatment. If the tests show the treatment was unsuccessful, you may undergo another round of treatment with a different combination of antibiotic medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In areas of the world where H. pylori infection and its complications are common, doctors sometimes test healthy people for H. pylori. Whether there is a benefit to treating H. pylori when you have no signs or symptoms of infection is controversial among doctors. If you&apos;re concerned about H. pylori infection or think you may have a high risk of stomach cancer, talk to your doctor. Together you can decide whether you may benefit from H. pylori screening. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		H. pylori infection
+	</Title>
+	<Abstract>
+		H. pylori infection &amp;mdash; Comprehensive overview covers symptoms, treatment of infection with Helicobacter pylori bacteria.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="Disease" DocID="DS00301" LinkType="Internal" ObjectID="4545F9D7-17A0-4275-9C296401969A8E11" Title="Stomach cancer" Url="http://www.mayoclinic.com/health/stomach-cancer/DS00301" />
+	</RelatedLinksBox>
+</Disease>

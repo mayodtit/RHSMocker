@@ -1,0 +1,209 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00517
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00517
+		</OriginalURL>
+		<UpdateDate>
+			2008-06-27
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D839835E-A0C4-45AE-8530F827E5D072C3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				chicken recipe
+			</MetaKeyword>
+			<MetaKeyword>
+				baked chicken
+			</MetaKeyword>
+			<MetaKeyword>
+				baked chicken recipe
+			</MetaKeyword>
+			<MetaKeyword>
+				easy chicken recipe
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Honey crusted chicken
+	</Title>
+	<Abstract>
+		Honey crusted chicken &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Never give honey to children younger than 1 year. Honey is a known source of bacterial spores that produce the bacterium &lt;em&gt;Clostridium botulinum.&lt;/em&gt; This bacterium makes a toxin that can cause infant botulism &amp;mdash; a form of food poisoning that affects a baby&apos;s nervous system and can result in death.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 375 F. Lightly coat a baking dish with cooking spray.&lt;/p&gt;&lt;p&gt;Crush the crackers on a cutting board, using the back of a knife. Place crackers in a small bowl and add paprika. Stir to mix well.&lt;/p&gt;&lt;p&gt;In a separate bowl, add the chicken and honey. Toss to coat evenly. Add the cracker mixture. Mix and press the chicken into the cracker mixture until it&apos;s evenly coated on both sides.&lt;/p&gt;&lt;p&gt;Place the chicken in the prepared baking dish. Bake until lightly browned and cooked through, about 20 to 25 minutes. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;8 saltine crackers, each about 2 inches square&lt;br /&gt;1 teaspoon paprika&lt;br /&gt;2 boneless, skinless chicken breasts, each 4 ounces&lt;br /&gt;4 teaspoons honey&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1/2
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1/2
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				1/2
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				224
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				21 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				66 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				27 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 chicken breast
+			</Servingsize>
+			<Sodium Label="Sodium">
+				231 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				3 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="" height="100" uri="/images/billboardsmall/re1_honeycrustedchx.jpg" width="100" />
+</Recipe>

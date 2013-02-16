@@ -1,0 +1,630 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00275
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/adhd/DS00275
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="3271" Title="Attention-deficit and disruptive behavior disorders">
+							<Keyword MCVID="2305" Title="ADHD in children" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FA1B63E9-643F-486E-B1B10D857F434410
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ADHD
+			</MetaKeyword>
+			<MetaKeyword>
+				ADD
+			</MetaKeyword>
+			<MetaKeyword>
+				attention deficit hyperactivity disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				attention deficit disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				stratera
+			</MetaKeyword>
+			<MetaKeyword>
+				adult ADD
+			</MetaKeyword>
+			<MetaKeyword>
+				adult ADHD
+			</MetaKeyword>
+			<MetaKeyword>
+				straterra
+			</MetaKeyword>
+			<MetaKeyword>
+				ADHD treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				ADHD symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				adult attention deficit disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				adderal
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Attention-deficit/hyperactivity disorder (ADHD) is a chronic condition that affects millions of children and often persists into adulthood. ADHD includes some combination of problems, such as difficulty sustaining attention, hyperactivity and impulsive behavior. Children with ADHD also may struggle with low self-esteem, troubled relationships and poor performance in school.
+&lt;/p&gt;
+&lt;p&gt;
+While treatment won&apos;t cure ADHD, it can help a great deal with symptoms. Treatment typically involves medications and behavioral interventions.
+&lt;/p&gt;
+&lt;p&gt;
+A diagnosis of ADHD can be scary, and symptoms can be a challenge for parents and children alike. However, treatment can make a big difference, and most children with ADHD grow up to be normal adults.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+ADHD has been called attention-deficit disorder (ADD) in the past. But, ADHD is now the preferred term because it describes both primary aspects of the condition: inattention and hyperactive-impulsive behavior. 
+&lt;/p&gt;
+&lt;p&gt;
+While many children who have ADHD tend more toward one category than the other, most children have some combination of inattention and hyperactive-impulsive behavior. ADHD symptoms become more apparent during activities that require focused mental effort. 
+&lt;/p&gt;
+&lt;p&gt;
+In order to be diagnosed with ADHD, signs and symptoms of the disorder must appear before the age of 7. In some children, signs of ADHD are noticeable as early as 2 or 3 years of age. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of inattention may include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Often fails to pay close attention to details or makes careless mistakes in schoolwork or other activities&lt;/li&gt;
+	&lt;li&gt;Often has trouble sustaining attention during tasks or play&lt;/li&gt;
+	&lt;li&gt;Seems not to listen even when spoken to directly&lt;/li&gt;
+	&lt;li&gt;Has difficulty following through on instructions and often fails to finish schoolwork, chores or other tasks&lt;/li&gt;
+	&lt;li&gt;Often has problems organizing tasks or activities&lt;/li&gt;
+	&lt;li&gt;Avoids or dislikes tasks that require sustained mental effort, such as schoolwork or homework&lt;/li&gt;
+	&lt;li&gt;Frequently loses needed items, such as books, pencils, toys or tools&lt;/li&gt;
+	&lt;li&gt;Can be easily distracted&lt;/li&gt;
+	&lt;li&gt;Often forgetful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of hyperactive and impulsive behavior may include: &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fidgets or squirms frequently&lt;/li&gt;
+	&lt;li&gt;Often leaves his or her seat in the classroom or in other situations when remaining seated is expected&lt;/li&gt;
+	&lt;li&gt;Often runs or climbs excessively when it&apos;s not appropriate or, if an adolescent, might constantly feel restless&lt;/li&gt;
+	&lt;li&gt;Frequently has difficulty playing quietly&lt;/li&gt;
+	&lt;li&gt;Always seems on the go&lt;/li&gt;
+	&lt;li&gt;Talks excessively&lt;/li&gt;
+	&lt;li&gt;Blurts out the answers before questions have been completely asked&lt;/li&gt;
+	&lt;li&gt;Frequently has difficulty waiting for his or her turn&lt;/li&gt;
+	&lt;li&gt;Often interrupts or intrudes on others&apos; conversations or games&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+ADHD behaviors can be different in boys and girls: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Boys are more likely to be primarily hyperactive, whereas girls are more frequently undiagnosed as they tend to be quietly inattentive.&lt;/li&gt;
+	&lt;li&gt;Girls who have trouble paying attention often daydream, but inattentive boys are more likely to play or fiddle aimlessly.&lt;/li&gt;
+	&lt;li&gt;Boys tend to be less compliant with teachers and other adults, so their behavior is often more conspicuous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;You may suspect your child&apos;s behavior is caused by ADHD&lt;/strong&gt; if you notice consistently inattentive or hyperactive, impulsive behavior that: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lasts more than six months&lt;/li&gt;
+	&lt;li&gt;Occurs in more than just one setting (typically at home and at school)&lt;/li&gt;
+	&lt;li&gt;Regularly disrupts school, play and other daily activities&lt;/li&gt;
+	&lt;li&gt;Causes problems in relationships with adults and other children&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal behavior vs. ADHD&lt;br /&gt;
+&lt;/strong&gt;Most healthy children are inattentive, hyperactive or impulsive at one time or another. For instance, parents may worry that a 3-year-old who can&apos;t listen to a story from beginning to end may have ADHD. But it&apos;s normal for preschoolers to have short attention spans and be unable to stick with one activity for long. Even in older children and adolescents, attention span often depends on the level of interest. Most teenagers can listen to music or talk to their friends for hours but may be a lot less focused about homework. 
+&lt;/p&gt;
+&lt;p&gt;
+The same is true of hyperactivity. Young children are naturally energetic &amp;mdash; they often wear their parents out long before they&apos;re tired. And they may become even more active when they&apos;re tired, hungry, anxious or in a new environment. In addition, some children just naturally have a higher activity level than do others. Children should never be classified as having ADHD just because they&apos;re different from their friends or siblings. 
+&lt;/p&gt;
+&lt;p&gt;
+Children who have problems in school but get along well at home or with friends are likely struggling with something other than ADHD. The same is true of children who are hyperactive or inattentive at home, but whose schoolwork and friendships remain unaffected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re concerned that your child is displaying signs of ADHD, such as trouble concentrating, difficulty sitting still, or an inability to control his or her behavior, see your pediatrician or family doctor. Your doctor may refer you to a specialist, but it&apos;s important to have a medical evaluation first to check for other causes of your child&apos;s difficulties. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is already being treated for ADHD, he or she should see the doctor regularly &amp;mdash; at least every six months if his or her symptoms are stable. Be sure to discuss how often your child should be seen for appointments with his or her doctor. Call the doctor if your child has any medication side effects, such as loss of appetite, trouble sleeping or increased irritability. Some children taking stimulant medications may lose their appetite and have difficulty maintaining the same height and weight growth rate. However, they will most likely reach their full growth potential by adulthood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Parents may blame themselves when a child is diagnosed with ADHD, but the causes likely have more to do with inherited traits than parenting choices. At the same time, certain environmental factors may contribute to or worsen a child&apos;s behavior. Although there&apos;s still a lot that isn&apos;t known about ADHD, several factors may cause it: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Altered brain function and anatomy.&lt;/strong&gt; While the exact cause of ADHD remains a mystery, brain scans have revealed important differences in the structure and brain activity of people with ADHD. For example, there appears to be less activity in the areas of the brain that control activity levels and attention.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; ADHD tends to run in families. Several genes that may be associated with ADHD are currently being studied.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maternal smoking, drug use and exposure to toxins.&lt;/strong&gt; Pregnant women who smoke are at increased risk of having children with ADHD. Alcohol or drug abuse during pregnancy may reduce activity of the nerve cells (neurons) that produce neurotransmitters. Pregnant women who are exposed to environmental poisons also may be more likely to have children with symptoms of ADHD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Childhood exposure to environmental toxins.&lt;/strong&gt; Preschool children exposed to certain toxins are at increased risk of developmental and behavioral problems. Exposure to lead, which is found mainly in paint and pipes in older buildings, has been linked to disruptive and even violent behavior and to a short attention span.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food additives.&lt;/strong&gt; Substances added to food, such as artificial coloring or food preservatives, may contribute to hyperactive behavior. Although sugar is a popular suspect in causing hyperactivity, there&apos;s no reliable proof of this.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for ADHD include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maternal exposure to toxins&lt;/li&gt;
+	&lt;li&gt;Smoking, drinking alcohol or using drugs during pregnancy&lt;/li&gt;
+	&lt;li&gt;A family history of ADHD or certain other behavioral and mood disorders&lt;/li&gt;
+	&lt;li&gt;Low birth weight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+ADHD frequently occurs along with certain other conditions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a learning disability&lt;/li&gt;
+	&lt;li&gt;Oppositional defiant disorder (ODD)&lt;/li&gt;
+	&lt;li&gt;Anxiety and depression&lt;/li&gt;
+	&lt;li&gt;Drug use&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+ADHD can make life difficult for children. Children with ADHD: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Often struggle in the classroom, which can lead to academic failure and judgment by other children and adults&lt;/li&gt;
+	&lt;li&gt;Tend to have more accidents and injuries of all kinds than do children who don&apos;t have the disorder&lt;/li&gt;
+	&lt;li&gt;Are more likely to have trouble interacting with peers and adults&lt;/li&gt;
+	&lt;li&gt;Are at increased risk of alcohol and drug abuse and other delinquent behavior&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Coexisting conditions&lt;br /&gt;
+&lt;/strong&gt;ADHD doesn&apos;t cause other psychological or developmental problems. However, children with ADHD are more likely than are other children to also have conditions such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oppositional defiant disorder (ODD).&lt;/strong&gt; This condition is generally defined as a pattern of negative, defiant and hostile behavior toward authority figures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conduct disorder.&lt;/strong&gt; A more serious condition than ODD, conduct disorder is marked by antisocial behavior such as stealing, fighting, destroying property and harming people or animals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression and bipolar disorder.&lt;/strong&gt; Depression frequently occurs in children with ADHD. Some children may have bipolar disorder, which includes depression as well as manic behavior.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorders.&lt;/strong&gt; Anxiety disorders tend to occur fairly often in children with ADHD and may cause overwhelming worry, nervousness and worsening of ADHD symptoms. Once anxiety is treated and under control, children are better able to deal with the symptoms of ADHD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learning disabilities.&lt;/strong&gt; Learning disabilities are common in children with ADHD. However, gifted learners also may have ADHD. Children with both ADHD and learning disabilities may need extra attention in the classroom or special education services.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tourette syndrome.&lt;/strong&gt; Many children with ADHD also have Tourette syndrome, a neurological disorder characterized by compulsive muscle or vocal tics.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by taking your child to a family doctor or a pediatrician. Depending on the results of the initial evaluation, your doctor may refer you to a specialist, such as a developmental-behavioral pediatrician, psychologist, psychiatrist or pediatric neurologist. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to be well prepared for your child&apos;s appointment so that you can be sure you have time to cover all of the points that are important to you. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any difficulties your child has at home or at school,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with the doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For ADHD, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Other than ADHD, what are other possible causes for my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend for my child?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;My child has these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Should my child see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for my child?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can we expect from the medication?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions anytime you don&apos;t understand something during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, and being ready with answers will leave you more time to spend on other issues of concern to you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your child&apos;s behavior issues?&lt;/li&gt;
+	&lt;li&gt;Do the troubling behaviors occur everywhere or only in certain situations?&lt;/li&gt;
+	&lt;li&gt;How severe are your child&apos;s difficulties?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s behavior?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s behavior?&lt;/li&gt;
+	&lt;li&gt;In what settings have you noticed your child having difficulties: at home, at school or in other situations?&lt;/li&gt;
+	&lt;li&gt;Does your child consume caffeine? How much?&lt;/li&gt;
+	&lt;li&gt;What are your child&apos;s sleep hours and patterns?&lt;/li&gt;
+	&lt;li&gt;How is your child&apos;s current and past academic performance? If you have them, bring any past evaluations and results of formal testing with you.&lt;/li&gt;
+	&lt;li&gt;Does your child read at home? Does he or she have trouble reading?&lt;/li&gt;
+	&lt;li&gt;What discipline methods have you used at home? Which ones are effective?&lt;/li&gt;
+	&lt;li&gt;Describe who lives at home and a typical daily routine.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific test for ADHD. Gathering as much information as possible about your child is the best way to get an accurate diagnosis and rule out other possible causes of your child&apos;s symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+An appointment to check for ADHD usually begins with a complete medical exam and a number of questions about your child&apos;s health, medical problems, difficulties, and issues that occur at school and at home.
+&lt;/p&gt;
+&lt;p&gt;
+Children diagnosed with ADHD have symptoms over a long period of time and have particular trouble in stressful, demanding situations or in activities that require sustained attention, such as reading, doing math problems or playing board games.
+&lt;/p&gt;
+&lt;p&gt;
+In general, a child shouldn&apos;t receive a diagnosis of ADHD unless the core symptoms of ADHD start early in life and create significant problems at home and at school on an ongoing basis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria for attention-deficit/hyperactivity disorder&lt;br /&gt;
+&lt;/strong&gt;To be diagnosed with ADHD, your child must meet the criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders IV (DSM-IV). This manual is published by the American Psychiatric Association. For a diagnosis of ADHD, a child must have six or more signs and symptoms from one of the two categories below (or, six or more signs and symptoms from each of the two categories).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inattention&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Often fails to give close attention to details or makes careless mistakes in schoolwork and other activities&lt;/li&gt;
+	&lt;li&gt;Often has difficulty sustaining attention in tasks or play activities&lt;/li&gt;
+	&lt;li&gt;Often does not seem to listen when spoken to directly&lt;/li&gt;
+	&lt;li&gt;Often does not follow through on instructions and fails to finish schoolwork or chores (not due to oppositional behavior or failure to understand instructions)&lt;/li&gt;
+	&lt;li&gt;Often has difficulty organizing tasks and activities&lt;/li&gt;
+	&lt;li&gt;Often avoids, dislikes or is reluctant to engage in tasks that require sustained mental effort (such as schoolwork or homework)&lt;/li&gt;
+	&lt;li&gt;Often loses things necessary for tasks or activities (for example, toys, school assignments, pencils, books)&lt;/li&gt;
+	&lt;li&gt;Is often easily distracted&lt;/li&gt;
+	&lt;li&gt;Is often forgetful in daily activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hyperactivity and impulsivity&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Often fidgets with hands or feet or squirms in seat&lt;/li&gt;
+	&lt;li&gt;Often leaves seat in classroom or in other situations in which remaining seated is expected&lt;/li&gt;
+	&lt;li&gt;Often runs about or climbs excessively in situations in which it is inappropriate&lt;/li&gt;
+	&lt;li&gt;Often has difficulty playing or engaging in leisure activities quietly&lt;/li&gt;
+	&lt;li&gt;Is often &quot;on the go&quot; or often acts as if &quot;driven by a motor&quot;&lt;/li&gt;
+	&lt;li&gt;Often talks excessively&lt;/li&gt;
+	&lt;li&gt;Often blurts out answers before questions have been completed&lt;/li&gt;
+	&lt;li&gt;Often has difficulty awaiting turn&lt;/li&gt;
+	&lt;li&gt;Often interrupts or intrudes on others (for example, butts into conversations or games)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to having at least six signs or symptoms from one of the two categories, a child with ADHD:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has inattentive or hyperactive-impulsive signs and symptoms that caused impairment and were present before age 7&lt;/li&gt;
+	&lt;li&gt;Has behaviors that aren&apos;t normal for children the same age who don&apos;t have ADHD&lt;/li&gt;
+	&lt;li&gt;Has symptoms for at least six months&lt;/li&gt;
+	&lt;li&gt;Has symptoms that affect school, home life or relationships in more than one setting (such as at home and at school)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A child diagnosed with ADHD is often given a more specific diagnosis, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Predominantly inattentive-type ADHD&lt;/strong&gt; &amp;mdash; a child has at least six signs and symptoms from the inattention list above.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Predominantly hyperactive-impulsive-type ADHD&lt;/strong&gt; &amp;mdash; a child&lt;strong&gt; &lt;/strong&gt;has at least six signs and symptoms from the hyperactivity and impulsivity list above.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combined type ADHD &lt;/strong&gt;&amp;mdash; a child has six or more signs and symptoms from each of the two lists above.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other conditions that resemble ADHD&lt;br /&gt;
+&lt;/strong&gt;Your child&apos;s doctor will want to check for all possible causes of your child&apos;s behavior. A number of medical conditions or their treatments may cause signs and symptoms similar to those of ADHD, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Learning or language problems&lt;/li&gt;
+	&lt;li&gt;Mood disorders (such depression) &lt;/li&gt;
+	&lt;li&gt;Anxiety disorders&lt;/li&gt;
+	&lt;li&gt;Seizure disorders&lt;/li&gt;
+	&lt;li&gt;Vision or hearing problems&lt;/li&gt;
+	&lt;li&gt;Tourette syndrome&lt;/li&gt;
+	&lt;li&gt;Sleep disorders&lt;/li&gt;
+	&lt;li&gt;Thyroid medication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Not only can some of these conditions cause symptoms that mimic ADHD, but these and other coexisting conditions also are found in children with ADHD.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnosing ADHD in young children&lt;br /&gt;
+&lt;/strong&gt;Although signs of ADHD can sometimes appear in preschoolers or children even younger, diagnosing the disorder in very young children is difficult. That&apos;s because developmental problems such as language delays can be mistaken for ADHD. For that reason, children preschool age or younger suspected of having ADHD are more likely to need evaluation by a specialist such as a psychologist or psychiatrist, speech pathologist or developmental pediatrician.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questionnaires and interviews&lt;br /&gt;
+&lt;/strong&gt;Because ADHD symptoms may not be obvious in a medical office, the doctor is likely to use questionnaires and interviews to learn more about your child&apos;s behavior. Your child&apos;s doctor may want to interview or send questionnaires to your child&apos;s teachers or other people who know your child well, such as baby sitters and coaches. Your child&apos;s doctor may also use ADHD rating scales to help collect and evaluate information about your child.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Standard treatments for ADHD in children include medications and counseling. Other treatments to ease the effects of ADHD symptoms include special accommodations in the classroom, and family and community support. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Currently, stimulant drugs (psychostimulants) and the nonstimulant medication atomoxetine (Strattera) are the most commonly prescribed medications for treating ADHD. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stimulant medications&lt;/strong&gt; for ADHD include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Methylphenidate (Ritalin, Concerta, Daytrana)&lt;/li&gt;
+	&lt;li&gt;Dextroamphetamine-amphetamine (Adderall)&lt;/li&gt;
+	&lt;li&gt;Dextroamphetamine (Dexedrine, Dextrostat)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stimulants appear to boost and balance levels of brain chemicals called neurotransmitters. These ADHD medications help improve the core signs and symptoms of inattention, impulsivity and hyperactivity &amp;mdash; sometimes dramatically. However, these medications only work for a limited time. Additionally, the right dose varies from child to child, so it may take some time in the beginning to find the correct dose. 
+&lt;/p&gt;
+&lt;p&gt;
+Stimulant drugs are available in short-acting and long-acting forms. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The short-acting forms last about four hours, while the long-acting preparations usually last between six and 12 hours.&lt;/li&gt;
+	&lt;li&gt;Methylphenidate is available in a long-acting patch that can be worn on the hip (Daytrana). It delivers medication for about nine hours. While the long-lasting effects mean your child won&apos;t need to take medication as often, it can take up to three hours to start working. For it to work in the morning, the patch may need to be put in place early while your child is still asleep.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stimulant medication side effects&lt;br /&gt;
+&lt;/strong&gt;The most common side effects of stimulant medications in children include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Decreased appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Problems sleeping&lt;/li&gt;
+	&lt;li&gt;Irritability as the effect of the medication tapers off&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A few children may develop jerky muscle movements, such as grimaces or twitches (tics), but these usually disappear when the dose of medication is lowered. Stimulant medications may also be associated with a slightly reduced growth rate in children, although in most cases growth isn&apos;t permanently affected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;ADHD medications and heart problems&lt;br /&gt;
+&lt;/strong&gt;Although rare, several heart-related deaths occurred in children and adolescents taking stimulant medications. The increased risk of sudden death is believed to be in people who already have underlying heart disease or a heart defect. Your child&apos;s doctor will make sure your child doesn&apos;t have any signs of a heart condition, and will ask about family risk factors for heart disease before prescribing a stimulant medication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonstimulant medication&lt;br /&gt;
+&lt;/strong&gt;Atomoxetine is generally given to children with ADHD when stimulant medications aren&apos;t effective or cause side effects. In addition to reducing ADHD symptoms, atomoxetine may also reduce anxiety. Given one or two times a day, atomoxetine side effects can include nausea and sedation. It can also cause reduced appetite and weight loss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonstimulant medication side effects&lt;br /&gt;
+&lt;/strong&gt;Atomoxetine has been linked to rare side effects that include liver problems. If your child is taking atomoxetine and develops yellow skin (jaundice), dark-colored urine or unexplained flu symptoms, contact the doctor right away. 
+&lt;/p&gt;
+&lt;p&gt;
+There may also be a slightly increased risk of suicidal thinking in children and adolescents taking atomoxetine. Contact your child&apos;s doctor if you notice any signs of suicidal thinking or other signs of depression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other medications&lt;/strong&gt; used to treat ADHD include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; These medications are generally used in children who don&apos;t respond to stimulants or atomoxetine, or who have a mood disorder as well as ADHD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clonidine (Catapres) and guanfacine (Intuniv, Tenex).&lt;/strong&gt; These are high blood pressure medications shown to help with ADHD symptoms. They may be prescribed to reduce tics or insomnia caused by other ADHD medications, or to treat aggression caused by ADHD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Giving medications safely&lt;br /&gt;
+&lt;/strong&gt;Making sure your child takes the right amount of the prescribed medication is very important. Parents may be concerned about stimulants and the risk of abuse and addiction. Dependence hasn&apos;t been shown in children who take these drugs for appropriate reasons and at the proper dose. That&apos;s because medication levels in the brain rise too slowly to produce a &quot;high.&quot; On the other hand, there&apos;s concern that siblings and classmates of children and teenagers with ADHD might abuse stimulant medications. To keep your child&apos;s medications safe and to make sure your child is getting the right dose of medication at the right time: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Administer medications carefully.&lt;/strong&gt; Children and teens shouldn&apos;t be in charge of their own ADHD medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;At home, keep medication locked in a childproof container.&lt;/strong&gt; An overdose of stimulant drugs is serious and potentially fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t send supplies of medication to school with your child.&lt;/strong&gt; Deliver any medicine yourself to the school nurse or health office.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;ADHD counseling and therapy&lt;br /&gt;
+&lt;/strong&gt;Children with ADHD often benefit from behavior therapy or counseling, which may be provided by a psychiatrist, psychologist, social worker or other mental health care professional. Some children with ADHD may also have other conditions such as anxiety disorder or depression. In these cases, counseling may help both ADHD and the coexisting problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Counseling types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Behavior therapy.&lt;/strong&gt; Teachers and parents can learn behavior-changing strategies for dealing with difficult situations. These strategies may include token reward systems and timeouts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotherapy.&lt;/strong&gt; This allows older children with ADHD to talk about issues that bother them, explore negative behavioral patterns and learn ways to deal with their symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parenting skills training.&lt;/strong&gt; This can help parents develop ways to understand and guide their child&apos;s behavior&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family therapy.&lt;/strong&gt; Family therapy can help parents and siblings deal with the stress of living with someone who has ADHD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social skills training.&lt;/strong&gt; This can help children learn appropriate social behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; Support groups can offer children with ADHD and their parents a network of social support, information and education.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The best results usually occur when a team approach is used, with teachers, parents, and therapists or physicians working together. You can help by making every effort to work with your child&apos;s teachers and by referring them to reliable sources of information to support their efforts in the classroom. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms often lessen with age. However, most people never completely outgrow their ADHD symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because ADHD is a complex disorder and each person with ADHD is unique, it&apos;s hard to make recommendations that are right for every child. But some of the following suggestions may help:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children at home&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Show your child lots of affection.&lt;/strong&gt; Children need to hear that they&apos;re loved and appreciated. Focusing only on the negative aspects of your child&apos;s behavior can harm your relationship with him or her and affect self-confidence and self-esteem. If your child has a hard time accepting verbal signs of affection, a smile, a pat on the shoulder or a hug can show you care. Look for behaviors for which you can compliment your child regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be patient.&lt;/strong&gt; Try to remain patient and calm when dealing with your child, even when your child is out of control. If you&apos;re calm, your child is more likely to calm down, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep things in perspective.&lt;/strong&gt; Be realistic in your expectations for improvement &amp;mdash; both your own and your child&apos;s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time to enjoy your child.&lt;/strong&gt; Make an effort to accept and appreciate the parts of your child&apos;s personality that aren&apos;t so difficult. One of the best ways to do this is simply to spend time together. This should be a private time when no other children or adults interfere. Try to give your child more positive than negative attention every day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try to keep a regular schedule for meals, naps and bedtime.&lt;/strong&gt; Use a big calendar to mark special activities that will be coming up. Children with ADHD have a hard time accepting and adjusting to change. Avoid sudden transitions from one activity to another.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure your child is rested.&lt;/strong&gt; Try to keep your child from becoming overtired, because fatigue often makes symptoms of ADHD worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identify difficult situations.&lt;/strong&gt; Try to avoid situations that are difficult for your child, such as sitting through long presentations or shopping in malls and supermarkets where the array of merchandise can be overwhelming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use timeouts or the loss of a privilege to discipline your child.&lt;/strong&gt; For children with ADHD, a timeout from social stimulation can be very effective. Timeouts should be relatively brief, but long enough for your child to regain control. The idea is to interrupt and defuse out-of-control behavior. A timeout doesn&apos;t work for everything, but many parents have found that it&apos;s one of the best tools for managing the behavior of an overactive or impulsive child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work on organization.&lt;/strong&gt; Help your child organize and maintain a daily assignment notebook and be sure your child has a quiet place to study. Group objects in the child&apos;s room and store in clearly marked spaces. Try to keep his or her environment organized and uncluttered.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to improve your child&apos;s self-esteem and sense of discipline.&lt;/strong&gt; Children with ADHD often do very well with art projects, music or dance lessons, or martial arts classes, especially karate or tae kwon do. But don&apos;t force children into activities that are beyond their abilities. A series of small frequent successes, rather than large infrequent ones, help to build self-esteem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use simple words and demonstrate when giving your child directions.&lt;/strong&gt; Speak slowly and quietly and be very specific and concrete. Give one direction at a time. Stop and make eye contact with the child before and while you&apos;re giving directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a break yourself.&lt;/strong&gt; If you&apos;re exhausted and stressed, you&apos;re a much less effective parent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Children in school&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about school programs.&lt;/strong&gt; Take advantage of any special programs your school may have for children with ADHD. As with other disabilities, schools are required by law to have a program in place to make sure children who have a disability that interferes with learning are getting the support they need. Your child may be eligible for additional services offered under the federal laws Section 504 or the Individuals With Disabilities Education Act (IDEA). These can include curriculum adjustments, changes in classroom setup, modified teaching techniques, study skills instruction, and increased collaboration between parents and teachers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your child&apos;s teachers.&lt;/strong&gt; Stay in close communication with your child&apos;s teachers, and support their efforts to help your child in the classroom. Be sure teachers closely monitor your child&apos;s work, provide positive feedback, and are flexible and patient. Ask that they be very clear about their instructions and expectations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about having your child use a computer in the classroom.&lt;/strong&gt; Children with ADHD often have trouble with handwriting and can greatly benefit from using a computer or a typewriter.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s little research that indicates that alternative medicine treatments can significantly reduce ADHD symptoms. Some alternative medicine treatments that have been tried include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga and meditation.&lt;/strong&gt; While it might seem to make sense that two calming activities, such as yoga and meditation, would help reduce symptoms of ADHD, there&apos;s no conclusive evidence that either therapy does so.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Special diets.&lt;/strong&gt; Most diets for ADHD involve eliminating foods thought to increase hyperactivity, such as sugar and caffeine, and common allergens such as wheat, milk and eggs. Some diets recommend eliminating artificial food colorings and additives. So far, studies haven&apos;t found a consistent link between diet and improved symptoms of ADHD, though a limited number of studies suggest diet changes might make a difference. Limiting sugar, however, doesn&apos;t seem to help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin or mineral supplements.&lt;/strong&gt; While certain vitamins and minerals are necessary for good health, there&apos;s no evidence that supplemental vitamins or minerals can reduce symptoms of ADHD. &quot;Megadoses&quot; of vitamins &amp;mdash; doses that far exceed the Recommended Dietary Allowance (RDA) &amp;mdash; can be harmful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal supplements.&lt;/strong&gt; There is no evidence to suggest that herbal remedies, such as St. John&apos;s wort, help with ADHD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Essential fatty acids.&lt;/strong&gt; These fats, which include omega-3 oils, are necessary for the brain to function properly. Researchers are still investigating whether these may improve ADHD symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurofeedback training.&lt;/strong&gt; Also called electroencephalographic biofeedback, this treatment involves regular sessions in which a child focuses on certain tasks while using a machine that shows brain wave patterns. Theoretically, a child can learn to keep brain wave patterns active in the front of the brain &amp;mdash; improving symptoms of ADHD. While this treatment looks promising, more research is needed to see whether this treatment works.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Caring for a child with ADHD can be challenging for the whole family. Parents may be hurt by their child&apos;s behavior as well as by the way other people respond to it. The stress of dealing with ADHD can lead to marital stress. These problems may be compounded by the financial burden that ADHD can place on families. 
+&lt;/p&gt;
+&lt;p&gt;
+Siblings of a child with ADHD also may have special difficulties. They can be affected by a brother or sister who is demanding or aggressive, and they may also receive less attention because the child with ADHD requires so much of a parent&apos;s time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Resources&lt;br /&gt;
+&lt;/strong&gt;There are no easy answers for struggling families, but many resources are available that may help. Parents can get advice on raising a child with ADHD from a social worker or other mental health care professional or from a support group. Support groups don&apos;t appeal to everyone, but they often can provide excellent information about coping with ADHD from people who know. Ask your child&apos;s doctor if he or she knows of any support groups in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+There also are excellent books and guides for both parents and teachers, and Internet sites dealing exclusively with ADHD. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Techniques for coping&lt;br /&gt;
+&lt;/strong&gt;Many parents notice patterns in their child&apos;s behavior as well as in their own responses to that behavior. For instance, your child might throw a tantrum every night before dinner, and you might routinely give him or her a snack so that you can finish preparing the meal in peace. Although you don&apos;t mean to, you end up encouraging your child&apos;s behavior. Both you and your child need to act differently. But substituting new habits for old ones isn&apos;t easy &amp;mdash; it takes real awareness and a lot of hard work. It&apos;s important to have realistic expectations and not ask more of your child than is physically or mentally possible. Set small goals for both yourself and your child and don&apos;t try to make a lot of changes all at once. 
+&lt;/p&gt;
+&lt;p&gt;
+Here are a few things that can help you and your child manage ADHD: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Structure your child&apos;s life.&lt;/strong&gt; You can help make change easier by ensuring that your child has the right kind of structure. For children with ADHD, structure doesn&apos;t mean rigidity or iron discipline. Instead, it means arranging things so that a child&apos;s life is as predictable, calm and organized as possible. Children with ADHD don&apos;t handle change well, and having predictable routines can make them feel safe as well as help improve behavior. Give your child a few minutes warning &amp;mdash; with a countdown &amp;mdash; when it&apos;s necessary to change from one activity or location to another.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide positive discipline.&lt;/strong&gt; One of the best ways to instill new habits is to provide firm, loving discipline that rewards good behavior and discourages destructive actions. Children with ADHD usually respond well to positive reinforcement, as long as it&apos;s genuinely earned. It&apos;s best to start by rewarding or reinforcing a new behavior every time it occurs. After a short time, this probably won&apos;t be necessary, but you need to continue to let your child know that you&apos;re serious about encouraging new habits. Some parents object to rewards because they seem like bribery. But changing old habits is extremely hard, and rewards are simply a concrete way of recognizing your child&apos;s efforts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay calm and set a good example.&lt;/strong&gt; You also need to set a good example by acting the way you want your child to act. Try to remain patient and in control &amp;mdash; even when your child is out of control. If you speak quietly and calmly, your child is more likely to calm down, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strive for healthy family relationships.&lt;/strong&gt; Finally, the relationship among all the family members plays a large part in managing or changing the behavior of a child with ADHD. Couples who have a strong bond often find it easier to face the challenges of parenting than do those whose bond isn&apos;t as strong. That&apos;s one reason it&apos;s important for partners to take time to nurture their own relationship.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Give yourself a break.&lt;/strong&gt; If you&apos;re the parent of a child with ADHD, be sure to give yourself a break now and then. Don&apos;t feel guilty for spending a few hours apart from your child. You&apos;ll be a better parent if you&apos;re rested and relaxed. And don&apos;t hesitate to ask friends, grandparents and other relatives for help. Make certain baby sitters or alternative caretakers are knowledgeable about ADHD and mature enough to be prepared for the task.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to prevent ADHD from occurring. However, there are a few steps that could help prevent problems caused by ADHD and assure your child is as physically, mentally and emotionally healthy as possible:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;During pregnancy,&lt;/strong&gt; avoid anything that could harm fetal development. Don&apos;t drink alcohol, smoke cigarettes or use drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your child from exposure to pollutants and toxins,&lt;/strong&gt; including cigarette smoke, agricultural or industrial chemicals, and lead paint (found in some old buildings).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be consistent, set limits and have clear consequences&lt;/strong&gt; for your child&apos;s behavior.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Put together a daily routine for your child with clear expectations&lt;/strong&gt; that include such things as bedtime, morning time, mealtime, simple chores and television.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid multitasking yourself when talking with your child,&lt;/strong&gt; make eye contact when giving instructions, and set aside a few minutes every day to praise your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work with teachers and caregivers to identify problems early.&lt;/strong&gt; If your child does have ADHD or another condition that interferes with learning or social interaction, early treatment can reduce the impact of the condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Attention-deficit/hyperactivity disorder (ADHD) in children
+	</Title>
+	<Abstract>
+		Attention-deficit/hyperactivity disorder (ADHD) &amp;mdash; Comprehensive overview covers symptoms, treatment for ADHD in children and teens.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01437" LinkType="Internal" ObjectID="FCA8E901-CD56-7236-C1675211DF363CB2" Title="Kindergarten readiness: Is your child ready for school?" Url="http://www.mayoclinic.com/health/kindergarten-readiness/MY01437" />
+		<LinkItem ContentType="Article" DocID="MY01915" LinkType="Internal" ObjectID="8EE9A534-D4B8-1F37-C266EFBF4EEE2F29" Title="Mental illness in children: Know the signs" Url="http://www.mayoclinic.com/health/mental-illness-in-children/MY01915" />
+		<LinkItem ContentType="Answer" DocID="AN01721" LinkType="Internal" ObjectID="04C42E98-E7FF-0DBD-15C7B4753BB7FE01" Title="ADHD diet: Do food additives cause hyperactivity?" Url="http://www.mayoclinic.com/health/adhd/AN01721" />
+	</RelatedLinksBox>
+</Disease>

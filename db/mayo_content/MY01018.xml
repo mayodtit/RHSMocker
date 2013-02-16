@@ -1,0 +1,218 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01018
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/c-reactive-protein/MY01018
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="4074" Title="C-reactive protein" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			54EAD155-D909-7FE2-44C4EB2D320BB269
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				c-reactive protein
+			</MetaKeyword>
+			<MetaKeyword>
+				c-reactive protein test
+			</MetaKeyword>
+			<MetaKeyword>
+				CRP test
+			</MetaKeyword>
+			<MetaKeyword>
+				heart attack risk
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				CRP
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+C-reactive protein (CRP) is a protein that can be measured in your blood. It appears in higher amounts when there&apos;s swelling (inflammation) somewhere in your body. Your doctor may check your C-reactive protein level after surgery or treatment for infections or other medical conditions. A C-reactive protein test can also be used to evaluate your risk of developing coronary artery disease, a condition in which the arteries of your heart are narrowed. Coronary artery disease can eventually lead to a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+A C-reactive protein test to check for heart disease is not right for everyone. According to the American Heart Association, having a C-reactive protein test isn&apos;t recommended for the general population to screen for heart disease risk. And it might not be helpful in determining your heart attack risk, depending on your health and lifestyle choices. 
+&lt;/p&gt;
+&lt;p&gt;
+Your C-reactive protein level can be checked with a simple blood test. Some researchers think that by treating people with high C-reactive protein levels, it&apos;s less likely they might have a heart attack or stroke. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A C-reactive protein (CRP) test checks for inflammation. Your doctor may order a CRP test to monitor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coronary artery disease risk&lt;/li&gt;
+	&lt;li&gt;Damage from a heart attack&lt;/li&gt;
+	&lt;li&gt;Inflammatory bowel disease&lt;/li&gt;
+	&lt;li&gt;Some forms of arthritis&lt;/li&gt;
+	&lt;li&gt;Pelvic inflammatory disease&lt;/li&gt;
+	&lt;li&gt;Lupus&lt;/li&gt;
+	&lt;li&gt;Infection after surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;CRP tests for heart disease&lt;/strong&gt;&lt;br /&gt;
+CRP may be a risk factor for heart disease. It&apos;s thought that as coronary arteries narrow, you&apos;ll have more CRP in your blood. A CRP test can&apos;t tell your doctor exactly where the inflammation is, though, so it&apos;s possible that a high CRP level could mean there&apos;s inflammation somewhere in your body other than your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+According to the American Heart Association, a CRP test is most useful for people who have an intermediate risk (a 10 to 20 percent chance) of having a heart attack within the next 10 years. This risk level, called the global risk assessment, is based on lifestyle choices, family history and current health status. People who have a low risk of having a heart attack are less likely to benefit from having a CRP test, and people who have a high risk of having a heart attack should seek treatment and preventive measures regardless of how high their CRP level is. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s little risk in getting a CRP test. You may have some soreness or tenderness around the site where your blood is drawn. Rarely, the site where your blood is drawn may become infected. These risks aren&apos;t any different from those of other times that you have your blood drawn. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no special preparations for a CRP test. However, if your doctor is checking your CRP level to find out your heart attack risk, you may need other blood tests that would require you to fast or follow other instructions. Talk to your doctor to see if you&apos;ll need any additional blood tests that will be done at the same time as your CRP test. 
+&lt;/p&gt;
+&lt;p&gt;
+Some medications &amp;mdash; such as birth control pills; statins; nonsteroidal anti-inflammatory drugs (NSAIDs), including ibuprofen (Advil, Motrin, others); and acetaminophen (Tylenol, others) &amp;mdash; can affect your CRP level. Tell your doctor if you take these medications regularly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure &lt;/strong&gt;&lt;br /&gt;
+A CRP test is a blood test. If you&apos;re having a CRP test along with other blood tests, such as a blood cholesterol test (lipid panel or lipid profile), you may have your blood tests performed early in the morning, since you&apos;ll have to fast for the cholesterol test. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood is drawn from a vein, usually from your arm. Before the needle is inserted, the puncture site is cleaned with antiseptic and an elastic band is wrapped around your upper arm. This causes the veins in your arm to fill with blood. 
+&lt;/p&gt;
+&lt;p&gt;
+After the needle is inserted, a small amount of blood is collected into a vial or syringe. The band is then removed to restore circulation, and blood continues to flow into the vial. Once enough blood is collected, the needle is removed and the puncture site is covered with a pressure wrap. 
+&lt;/p&gt;
+&lt;p&gt;
+The entire procedure will likely last a couple of minutes. It&apos;s relatively painless. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+There are no special precautions you need to take after your CRP test. You should be able to drive yourself home and do all your normal activities. 
+&lt;/p&gt;
+&lt;p&gt;
+It may take a few days for you to get your results back. Your doctor should explain to you what the results of your test mean. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having a CRP test to help find out your heart disease risk, keep in mind that your CRP level is only one risk factor for coronary artery disease. If your test result shows you have a high CRP level, it doesn&apos;t necessarily mean you&apos;re at a higher risk of developing heart disease. Talk to your doctor about your other risk factors and ways you can try to prevent coronary artery disease and a heart attack. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will discuss what your CRP test result means. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having a CRP test to evaluate your risk of heart disease, these are the current risk levels used: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low risk.&lt;/strong&gt; You have a CRP level of less than 1.0 milligrams per deciliter (mg/dL).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Average risk.&lt;/strong&gt; You have a CRP level between 1.0 and 3.0 mg/dL.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High risk.&lt;/strong&gt; You have a CRP level greater than 3.0 mg/dL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind that these risk levels aren&apos;t a definitive measure of your risk because there&apos;s disagreement on whether a high CRP level is a true risk factor for heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+A test result showing a CRP level greater than 8 mg/dL is a sign of serious inflammation or infection, and you should talk to your doctor about your test result to check for other medical problems. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s possible your doctor will suggest more tests, such as a cholesterol test, a stress test or a coronary angiogram, to further look into your coronary artery disease risk. He or she may also recommend lifestyle changes or medications to decrease your risk of a heart attack. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		C-reactive protein test
+	</Title>
+	<Abstract>
+		C-reactive protein test &amp;mdash; Overview covers what to expect and results from this blood test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00402" LinkType="Internal" ObjectID="FBA965E8-A8A8-4135-B6C0D91B152E2CF5" Title="Pelvic inflammatory disease (PID)" Url="http://www.mayoclinic.com/health/pelvic-inflammatory-disease/DS00402" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+		<LinkItem ContentType="Disease" DocID="DS00094" LinkType="Internal" ObjectID="335BD208-F892-4D6A-A14CBCB0FBF85238" Title="Heart attack" Url="http://www.mayoclinic.com/health/heart-attack/DS00094" />
+	</RelatedLinksBox>
+</TestProcedure>

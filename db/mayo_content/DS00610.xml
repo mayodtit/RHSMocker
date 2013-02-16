@@ -1,0 +1,332 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00610
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pulmonary-valve-stenosis/DS00610
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="2066" Title="Pulmonary valve stenosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			011B2F23-2A5D-9994-E4F95F92025CFA22
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pulmonary valve stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary valve
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary artery
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary valve stenosis is a condition in which the flow of blood from your heart to your lungs is slowed by a deformity on or near your pulmonary valve, the tissue that controls the blood flow from your heart to your lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+Adults occasionally have the condition as a complication of another illness, but most of the time, pulmonary valve stenosis develops before birth as a congenital heart defect. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary valve stenosis ranges from mild and without symptoms to severe. Mild pulmonary stenosis doesn&apos;t usually worsen over time, but moderate and severe cases may get worse and require surgery. Fortunately, treatment is highly successful, and most people with pulmonary valve stenosis can expect to lead normal lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary valve stenosis symptoms vary, depending on the extent to which the valve is obstructed. People with mild pulmonary stenosis will usually not have any symptoms. Those with more significant stenosis often first notice symptoms while exercising. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary valve stenosis signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart murmur &amp;mdash; an abnormal whooshing sound heard using a stethoscope, caused by turbulent blood flow&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, especially during exertion&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness (fainting)&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Palpitations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Talk to your doctor if you or your child experiences the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have pulmonary stenosis or another heart problem, prompt evaluation and treatment can help reduce your risk of complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary valve stenosis usually occurs when the pulmonary valve doesn&apos;t grow properly during fetal development. Other heart abnormalities also are often present at birth (congenital) in babies who have pulmonary valve stenosis. It&apos;s not known what causes the valve to develop abnormally. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal pulmonary valve anatomy&lt;/strong&gt;&lt;br /&gt;
+The pulmonary valve is made up of three thin pieces of tissue called leaflets that are arranged in a circle. With each heartbeat, the valve opens in the direction of blood flow &amp;mdash; into the pulmonary artery and continuing to the lungs &amp;mdash; and then closes to prevent blood from flowing backward into the right ventricle of the heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What happens in pulmonary valve stenosis&lt;/strong&gt;&lt;br /&gt;
+In pulmonary valve stenosis, one or more of the leaflets may be defective or too thick, or the leaflets may not separate from each other properly. If this happens, the valve doesn&apos;t open correctly, restricting blood flow. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other contributing conditions&lt;/strong&gt;&lt;br /&gt;
+Sometimes other medical conditions or having an artificial valve can cause the condition in older people. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carcinoid syndrome.&lt;/strong&gt; This syndrome is a combination of signs and symptoms, including flushing of the skin and diarrhea. Carcinoid syndrome results from the release of a chemical, serotonin, from growths called carcinoid tumors located in the digestive system. People with carcinoid syndrome may develop problems with their heart valves from the serotonin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatic fever.&lt;/strong&gt; This is a complication of an infection caused by streptococcus bacteria, such as strep throat or scarlet fever. Rheumatic fever may injure the heart valves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pulmonary stenosis" Caption="In pulmonary stenosis, the flow of blood from the right ventricle to the pulmonary artery is obstructed by narrowing at the pulmonary valve. The greater the constriction, the harder the right ventricle must pump to get blood into the pulmonary artery." Height="60" Title="Pulmonary stenosis" URI="/images/image_popup/thumbs/r7_pulmonarystenosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pulmonary stenosis" Caption="In pulmonary stenosis, the flow of blood from the right ventricle to the pulmonary artery is obstructed by narrowing at the pulmonary valve. The greater the constriction, the harder the right ventricle must pump to get blood into the pulmonary artery." Height="400" Title="Pulmonary stenosis" URI="/images/image_popup/r7_pulmonarystenosis.jpg" Width="400" />
+				<HTML>
+					In pulmonary stenosis, the flow of blood from the right ventricle to the pulmonary artery is obstructed by narrowing at the pulmonary valve. The greater the constriction, the harder the right ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because most causes of pulmonary valve stenosis develop before birth, there aren&apos;t many known risk factors. However, certain conditions can increase your risk of developing pulmonary valve stenosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Carcinoid syndrome&lt;/li&gt;
+	&lt;li&gt;Rheumatic fever&lt;/li&gt;
+	&lt;li&gt;Noonan&apos;s syndrome&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cases of mild to moderate pulmonary stenosis generally don&apos;t cause complications. However, severe pulmonary stenosis may be associated with the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; People with structural heart problems, such as pulmonary stenosis, have a higher risk of developing bacterial infections in the inner lining of the heart (infectious endocarditis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart-pumping problems.&lt;/strong&gt; In severe pulmonary stenosis, the heart&apos;s right ventricle must pump harder to force blood into the pulmonary artery. Pumping of the right ventricle against increased pressure causes the muscular wall of the ventricle to thicken and the chamber within the ventricle to enlarge (right ventricular hypertrophy). Eventually, the heart becomes stiff and may become weakened.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; If the right ventricle becomes weak and unable to pump efficiently, heart failure develops. This results in swelling of the legs and abdomen and can also cause fatigue and shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irregular heartbeat (arrhythmia).&lt;/strong&gt; People with pulmonary stenosis are more likely to have an irregular heartbeat. Unless the stenosis is severe, irregular heartbeats associated with pulmonary stenosis usually aren&apos;t life-threatening.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor, a general practitioner or your child&apos;s physician. However, you&apos;ll probably then be referred to a doctor who specializes in heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms that you or your child has noticed,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your or your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For pulmonary valve stenosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my or my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is pulmonary valve stenosis temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the risks of balloon valvuloplasty or open-heart surgery?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activity in any way?&lt;/li&gt;
+	&lt;li&gt;What symptoms might mean that my condition is getting worse?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse when you exercise? What about when you&apos;re lying down?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary stenosis is often diagnosed in childhood, but sometimes it isn&apos;t detected until later in life. Your doctor may suspect pulmonary stenosis if he or she hears a heart murmur in the upper left area of your chest during a routine checkup. Your doctor may then use a variety of tests to confirm the diagnosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram.&lt;/strong&gt; An electrocardiogram records the electrical activity in your heart each time it contracts. During this procedure, patches with wires (electrodes) are placed on your chest, wrists and ankles. The electrodes measure electrical activity, which is recorded on paper. This test helps determine if the muscular wall of your right ventricle is thickened (ventricular hypertrophy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiography.&lt;/strong&gt; Echocardiograms use high-pitched sound waves to produce an image of the heart. Sound waves bounce off your heart and produce moving images that can be viewed on a video screen. This test is useful for checking the structure of the pulmonary valve, the location and severity of the narrowing (stenosis), and the function of the right ventricle of your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other imaging tests.&lt;/strong&gt; Magnetic resonance imaging and CT scans are sometimes used to confirm the diagnosis of pulmonary valve stenosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; During this procedure, your doctor inserts a thin, flexible tube (catheter) into an artery or vein in your groin and weaves it up to your heart or blood vessels. A dye is injected through the catheter to make your blood vessels visible on X-ray pictures. Doctors also use cardiac catheterization to measure the blood pressure in the heart chambers and blood vessels. This test is generally only done when doctors suspect that you or your child will need balloon valvuloplasty to treat your pulmonary valve stenosis because that procedure can be done at the same time as cardiac catheterization.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some cases of pulmonary stenosis are mild and don&apos;t require treatment except for routine checkups. However, if your case is more serious, you may need either balloon valvuloplasty or open-heart surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+The decision to perform a balloon valvuloplasty or open-heart surgery depends on the extent to which the pulmonary valve is obstructed. Pulmonary stenosis is classified as mild, moderate or severe, depending on a measurement of the blood pressure difference between the right ventricle and pulmonary artery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Balloon valvuloplasty&lt;/strong&gt;&lt;br /&gt;
+This technique, which tends to be the first choice for treatment, uses cardiac catheterization to treat pulmonary valve stenosis. During this procedure, your doctor threads a small tube through a vein in your leg and up to your heart. An uninflated balloon is placed through the opening of the narrowed pulmonary valve. Your doctor then inflates the balloon, opening up the narrowed pulmonary valve and increasing the area available for blood flow. The balloon is then removed. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common side effect of a balloon valvuloplasty is valve regurgitation, in which some blood leaks backward through the pulmonary valve after the balloon is in place. But the benefits associated with the procedure usually outweigh the risk of valve regurgitation. As with most procedures, there is a risk of bleeding, infection or blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Open-heart surgery&lt;/strong&gt;&lt;br /&gt;
+Balloon valvuloplasty can&apos;t be used for cases of pulmonary stenosis that occur above the pulmonary valve (supravalvular) or below the valve (subvalvular). Open-heart surgery is required for these types of stenoses and occasionally for valvular stenosis. 
+&lt;/p&gt;
+&lt;p&gt;
+During the surgery, your doctor repairs the pulmonary artery or the valve to allow blood to pass through more easily. In certain cases, your doctor may replace the pulmonary valve with an artificial valve. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with pulmonary stenosis have other congenital heart defects, and these may be repaired at the time of surgery. As with balloon valvuloplasty, there is a slight risk of bleeding, infection or blood clots associated with the surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While there&apos;s little you can do to prevent pulmonary valve stenosis, you can take measures to ensure you won&apos;t develop complications of your condition and stop it from worsening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive antibiotics&lt;/strong&gt;&lt;br /&gt;
+In the past, people with heart valve problems were advised to take antibiotics before certain dental and surgical procedures to prevent bacteria from causing an infection of the inner lining of the heart (infective endocarditis). 
+&lt;/p&gt;
+&lt;p&gt;
+However, the American College of Cardiology and the American Heart Association advise that antibiotics are no longer necessary for people who have only pulmonary stenosis. Instead, antibiotics are reserved for people at high risk of serious complications of infective endocarditis, such as those who have other heart conditions or artificial valves or who&apos;ve had repair with prosthetic material. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had your pulmonary valve replaced, you will still need preventive antibiotics before dental and other procedures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart-healthy lifestyle&lt;/strong&gt;&lt;br /&gt;
+Adopting a heart-healthy lifestyle decreases your risk of developing other types of heart disease, such as heart attack. Lifestyle changes to talk to your doctor about include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Quitting smoking.&lt;/strong&gt; Smoking and other tobacco use is a significant risk factor for heart disease. Try to avoid secondhand smoke, as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating a heart-healthy diet.&lt;/strong&gt; Focus on eating a diet that&apos;s low in sodium, cholesterol and saturated fat. Try to eat more fruits and vegetables, fish, low-fat dairy products, whole grains, and lean meat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintaining a healthy weight.&lt;/strong&gt; Excess weight may make you short of breath and may complicate heart surgery if you ever need it. Keep your weight within a range recommended by your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercising.&lt;/strong&gt; Physical activity may help to keep your body fit and may help you to recover faster if you ever need heart surgery. How long and hard you&apos;re able to exercise may depend on what level of activity triggers your symptoms, if any. Ask your doctor for guidance before starting any exercise program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seeing your doctor regularly.&lt;/strong&gt; Establish a regular appointment schedule with your cardiologist or primary care provider. Even if you had treatment for pulmonary valve stenosis as a child, you should still let your doctors know you&apos;ve had the condition even if it hasn&apos;t caused any problems for you as an adult. Your doctors will likely want to continue to monitor your heart&apos;s condition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy&lt;/strong&gt;&lt;br /&gt;
+Pregnancy generally isn&apos;t a problem for women who have mild to moderate pulmonary valve stenosis. If you have severe pulmonary valve stenosis, the risks of complications during labor and delivery are higher than those for women without the condition. If necessary, it is possible to undergo balloon valvuloplasty during pregnancy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pulmonary valve stenosis
+	</Title>
+	<Abstract>
+		Pulmonary valve stenosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS00727" LinkType="Internal" ObjectID="934C1A15-2A5D-9994-E62A0AD369FFE1FF" Title="Heart murmurs" Url="http://www.mayoclinic.com/health/heart-murmurs/DS00727" />
+	</RelatedLinksBox>
+</Disease>

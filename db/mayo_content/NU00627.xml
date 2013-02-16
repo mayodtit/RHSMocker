@@ -1,0 +1,190 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00627
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00627
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-09-08
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			3DDC75B1-B855-46A1-8077906C8445C651
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				high-calorie smoothie
+			</MetaKeyword>
+			<MetaKeyword>
+				high-protein smoothie
+			</MetaKeyword>
+			<MetaKeyword>
+				sports nutrition
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: High-calorie, high-protein smoothie
+	</Title>
+	<Abstract>
+		High-calorie, high-protein smoothie &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		1
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To make the recipe higher in calories, add 1 tablespoon of flaxseed oil for an additional 120 calories, 14 grams of fat, and no additional sodium or cholesterol per serving. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a blender, combine the yogurt, milk, banana chunks, wheat germ and protein powder. Blend until smooth. Pour into a tall frost-chilled glass and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 cup vanilla yogurt&lt;/li&gt;
+	&lt;li&gt;1 cup 2 percent milk&lt;/li&gt;
+	&lt;li&gt;1 medium banana, cut into chunks&lt;/li&gt;
+	&lt;li&gt;2 tablespoons wheat germ&lt;/li&gt;
+	&lt;li&gt;2 tablespoons protein powder &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				2
+			</Dairy>
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				1
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products">
+				4
+			</Milk>
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Fruits Label="Fruits">
+				2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy">
+				3
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				542
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				82 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				35 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				32 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				2 1/2 to 3 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				269 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				10 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Course">
+			Beverages
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Dairy
+		</Category>
+	</Categorization>
+</Recipe>

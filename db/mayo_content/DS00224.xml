@@ -1,0 +1,319 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00224
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dyslexia/DS00224
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="3264" Title="Learning disorders">
+							<Keyword MCVID="3265" Title="Dyslexia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0FF39FE3-C8C5-42F0-941DDA29D38E21D7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dyslexia
+			</MetaKeyword>
+			<MetaKeyword>
+				specific reading disability
+			</MetaKeyword>
+			<MetaKeyword>
+				learning disability
+			</MetaKeyword>
+			<MetaKeyword>
+				learning disorder
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dyslexia is a learning disorder characterized by difficulty reading. Also called specific reading disability, dyslexia is a common learning disability in children. Dyslexia occurs in children with normal vision and intelligence. Sometimes, dyslexia goes undiagnosed for years and isn&apos;t recognized until adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for dyslexia. It&apos;s a lifelong condition caused by inherited traits that affect how your brain works. However, most children with dyslexia can succeed in school with tutoring or a specialized education program. Emotional support also plays an important role. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dyslexia symptoms can be difficult to recognize before your child enters school, but some early clues may indicate a problem. Once your child reaches school age, your child&apos;s teacher may be first to notice a problem. The condition often becomes apparent as a child begins learning to read.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Before school&lt;br /&gt;
+&lt;/strong&gt;Signs and symptoms that a young child may be at risk of dyslexia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Late talking&lt;/li&gt;
+	&lt;li&gt;Learning new words slowly&lt;/li&gt;
+	&lt;li&gt;Difficulty rhyming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;School age&lt;br /&gt;
+&lt;/strong&gt;Once your child is in school, dyslexia signs and symptoms may become more apparent, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reading at a level well below the expected level for the age of your child&lt;/li&gt;
+	&lt;li&gt;Problems processing and understanding what he or she hears&lt;/li&gt;
+	&lt;li&gt;Difficulty comprehending rapid instructions&lt;/li&gt;
+	&lt;li&gt;Trouble following more than one command at a time&lt;/li&gt;
+	&lt;li&gt;Problems remembering the sequence of things&lt;/li&gt;
+	&lt;li&gt;Difficulty seeing (and occasionally hearing) similarities and differences in letters and words&lt;/li&gt;
+	&lt;li&gt;An inability to sound out the pronunciation of an unfamiliar word&lt;/li&gt;
+	&lt;li&gt;Seeing letters or words in reverse (&quot;b&quot; for &quot;d&quot; or &quot;saw&quot; for &quot;was,&quot; for example) &amp;mdash; this is common in young children, but may be more pronounced in children with dyslexia&lt;/li&gt;
+	&lt;li&gt;Difficulty spelling&lt;/li&gt;
+	&lt;li&gt;Trouble learning a foreign language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Teens and adults&lt;br /&gt;
+&lt;/strong&gt;Dyslexia symptoms in teens and adults are similar to those in children. Though early intervention is beneficial for dyslexia treatment, it&apos;s never too late to seek help for dyslexia. Some common dyslexia symptoms in teens and adults include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty reading&lt;/li&gt;
+	&lt;li&gt;Trouble understanding jokes or idioms&lt;/li&gt;
+	&lt;li&gt;Reading aloud&lt;/li&gt;
+	&lt;li&gt;Difficulty with time management&lt;/li&gt;
+	&lt;li&gt;Difficulty summarizing a story&lt;/li&gt;
+	&lt;li&gt;Difficulty learning a foreign language&lt;/li&gt;
+	&lt;li&gt;Difficulty memorizing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Dyslexia is characterized by a delay in the age at which a child begins to read. Most children are ready to learn reading by kindergarten or first grade, but children with dyslexia often can&apos;t grasp the basics of reading by that time. Talk with your doctor if your child&apos;s reading level is below what&apos;s expected for his or her age or if you notice other signs or symptoms of dyslexia.
+&lt;/p&gt;
+&lt;p&gt;
+When dyslexia goes undiagnosed and untreated, childhood reading difficulties continue into adulthood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dyslexia has been linked to certain genes that control how the brain develops. It appears to be an inherited condition &amp;mdash; it tends to run in families. 
+&lt;/p&gt;
+&lt;p&gt;
+These inherited traits appear to affect parts of the brain concerned with language. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dyslexia risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A family history of dyslexia&lt;/li&gt;
+	&lt;li&gt;Individual differences in the parts of the brain that enable reading&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dyslexia can lead to a number of problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble learning.&lt;/strong&gt; Because reading is a skill basic to most other school subjects, a child who has dyslexia is at a disadvantage in most classes and may have trouble keeping up with peers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social problems.&lt;/strong&gt; Left untreated, dyslexia may lead to low self-esteem, behavior problems, anxiety, aggression, and withdrawal from friends, parents and teachers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems as adults.&lt;/strong&gt; The inability to read and comprehend can prevent a child from reaching his or her potential as the child grows up. This can have long-term educational, social and economic consequences.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children who have dyslexia are at increased risk of having attention-deficit/hyperactivity disorder (ADHD), and vice versa. ADHD can cause difficulty sustaining attention, hyperactivity and impulsive behavior, which can make dyslexia harder to treat.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may first bring up your concerns with your child&apos;s pediatrician or family doctor. The doctor may refer your child to a specialist, such as an eye doctor (ophthalmologist) or a doctor who specializes in brain and nervous system disorders (neurologist) to ensure that another problem isn&apos;t at the root of your child&apos;s reading difficulties. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms that your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications,&lt;/strong&gt; as well as any vitamins or supplements that your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time can help you make the most of your appointment. For dyslexia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why is my child having difficulty reading and understanding?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does he or she need?&lt;/li&gt;
+	&lt;li&gt;Can dyslexia be treated?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;How quickly will we see progress?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? Can you recommend any websites?&lt;/li&gt;
+	&lt;li&gt;Will my other children have dyslexia, too?&lt;/li&gt;
+	&lt;li&gt;What kind of help can I expect from my child&apos;s school for dyslexia?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will likely have a number of questions for you as well, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice that your child was having trouble reading? Did a teacher bring it to your attention?&lt;/li&gt;
+	&lt;li&gt;At what age did your child start talking?&lt;/li&gt;
+	&lt;li&gt;Have you noticed if your child writes any letters or words in reverse?&lt;/li&gt;
+	&lt;li&gt;Have you tried any reading interventions? If so, which ones?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any behavior problems or social difficulties you suspect may be linked to your child&apos;s trouble reading?&lt;/li&gt;
+	&lt;li&gt;Has your child had any vision problems?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no one test that can diagnose dyslexia. Your child&apos;s doctor will consider a number of things, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Answers to a number of questions.&lt;/strong&gt; These will likely include questions about your child&apos;s development, education and medical history. The doctor may also want to know about any conditions that run in your child&apos;s family, and may ask if any family members have a learning disability.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questionnaires.&lt;/strong&gt; Your child&apos;s doctor may have your child, family members or teachers answer written questions. Your child may be asked to take tests to identify his or her reading and language abilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision, hearing and brain (neurological) tests.&lt;/strong&gt; These can help determine whether another disorder may be causing or adding to your child&apos;s poor reading ability.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological testing.&lt;/strong&gt; The doctor may ask you or your child questions to better understand your child&apos;s psychological state. This can help determine whether social problems, anxiety or depression may be limiting your child&apos;s abilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Testing reading and other academic skills.&lt;/strong&gt; Your child may take a set of educational tests and have the process and quality of his or her reading skills analyzed by a reading expert.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to correct the underlying brain abnormality that causes dyslexia. 
+&lt;/p&gt;
+&lt;p&gt;
+Dyslexia is not generally treated with drugs. However, if your child has another condition that occurs along with dyslexia, such attention-deficit/hyperactivity disorder (ADHD), he or she may be prescribed medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Dyslexia is treated through education, and the sooner intervention begins, the better. Psychological testing will help your child&apos;s teachers develop a suitable teaching program. 
+&lt;/p&gt;
+&lt;p&gt;
+Teachers may use techniques involving hearing, vision and touch to improve reading skills. Helping a child use several senses to learn &amp;mdash; for example, by listening to a taped lesson and tracing with a finger the shape of the letters used and the words spoken &amp;mdash; can help him or her process the information.
+&lt;/p&gt;
+&lt;p&gt;
+A reading specialist will focus on helping your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Learn to recognize the smallest sounds that make up words (phonemes)&lt;/li&gt;
+	&lt;li&gt;Understand that letters and strings of letters represent these sounds&lt;/li&gt;
+	&lt;li&gt;Comprehend what he or she is reading&lt;/li&gt;
+	&lt;li&gt;Read aloud&lt;/li&gt;
+	&lt;li&gt;Build a vocabulary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child has a severe reading disability, tutoring may need to occur more frequently, and progress may be slower. A child with severe dyslexia may never be able to read well. However, academic problems don&apos;t necessarily mean a person with dyslexia will be unable to succeed. Students with dyslexia can be highly capable, given the right resources. Many people with dyslexia are creative and bright, and may be gifted in mathematics, science or the arts. Some even have successful writing careers.
+&lt;/p&gt;
+&lt;p&gt;
+You play a key role in helping your child succeed. Take these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Address the problem early.&lt;/strong&gt; If you suspect your child has dyslexia, talk to your child&apos;s doctor. Children with dyslexia who get extra help in kindergarten or first grade often improve their reading skills enough to succeed in elementary school and high school. Children who don&apos;t get help until later grades may have more difficulty learning the skills needed to read well. They&apos;re likely to lag behind academically and may never be able to catch up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Read aloud to your child.&lt;/strong&gt; It&apos;s best if you start when your child is 6 months old or even younger. Try listening to recorded books with your child. When your child is old enough, read the stories in written form together after your child hears them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work with your child&apos;s school.&lt;/strong&gt; Create a written, individualized education plan. In the United States, schools have a legal obligation to take steps to help children diagnosed with dyslexia learn. Talk to your child&apos;s teacher about setting up a meeting to create a plan that outlines your child&apos;s particular needs and how the school will help him or her succeed. If available, tutoring sessions with a reading specialist can be very helpful for many children with dyslexia. Your child may not get needed help without a structured, written plan.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Emotional support and opportunities for achievement in activities that don&apos;t involve reading are important for children with dyslexia. If your child has dyslexia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be supportive.&lt;/strong&gt; Trouble learning to read may affect your child&apos;s self-esteem. Be sure to express your love and support. Encourage your child by praising his or her talents and strengths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your child.&lt;/strong&gt; Explain to your child what dyslexia is and that it&apos;s not a failure on his or her part. The better your child understands this, the better he or she will be able to cope with having a learning disability.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take steps to help your child learn at home.&lt;/strong&gt; Provide a clean, quiet, organized place for your child to study, and designate a study time. Also, make sure your child gets enough rest and eats regular, healthy meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay in contact with your child&apos;s teachers.&lt;/strong&gt; Talk with teachers frequently to make sure your child is able to stay on track. Be sure he or she gets extra time for tests that require reading, if needed. Ask your child&apos;s teacher if it would help your child to record the day&apos;s lessons to play back later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; This can help you stay in contact with parents who face similar learning disabilities in their children. Support groups can provide useful information and emotional support. Check with your doctor or your child&apos;s reading specialist to find out if there are any support groups in your area. Or, search on the Internet for dyslexia or reading disability support groups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dyslexia
+	</Title>
+	<Abstract>
+		Dyslexia &amp;mdash; Comprehensive overview covers signs, symptoms, causes, treatment of this common reading disability.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

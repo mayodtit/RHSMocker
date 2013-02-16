@@ -1,0 +1,70 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00540
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00540
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			162EAF24-E7FF-0DBD-1E46D0BEA070BF32
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				caffeine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Blood pressure tip: Watch the caffeine
+	</Title>
+	<Body>
+		&lt;p&gt;Drinking caffeinated beverages can temporarily cause a spike in your blood pressure. And some studies show that people who drink caffeine regularly have a higher average blood pressure, suggesting that caffeine might have a long-term effect. But other studies suggest that you can develop a tolerance to caffeine so that it doesn&apos;t affect your blood pressure. The bottom line? Be sensible. Don&apos;t drink more than 200 milligrams of caffeine a day. That&apos;s about the amount in two cups of coffee.&lt;/p&gt;
+	</Body>
+</HealthTip>

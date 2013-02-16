@@ -1,0 +1,400 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00774
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/poison-ivy/DS00774
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-29
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2815" Title="Dermatitis/eczema">
+							<Keyword MCVID="4290" Title="Poison ivy rash" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5DA4A50F-2A5D-9994-E6FB8EFEF460135B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				poison ivy
+			</MetaKeyword>
+			<MetaKeyword>
+				poison ivy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				poison oak
+			</MetaKeyword>
+			<MetaKeyword>
+				poison sumac
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				poison ivy dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				rhus dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				urushiol
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Poison ivy rash is caused by a sensitivity to an oily resin called urushiol (u-ROO-she-ol), which is found in the leaves, stems and roots of poison ivy, poison oak and poison sumac.
+&lt;/p&gt;
+&lt;p&gt;
+At least 50 percent of the people who come into contact with these plants develop an itchy rash. The most dangerous type of exposure occurs when the plant is burned and the smoke is inhaled, which can affect your lungs.
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases of poison ivy rash require no medical treatment. For more severe or widespread rashes &amp;mdash; especially if it&apos;s on your face or genitals &amp;mdash; your doctor may suggest taking corticosteroid pills, such as prednisone, for a few weeks.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing poison ivy rash 
+" Caption="Brushing against a poison ivy plant can cause a red, itchy rash with swelling, bumps and blisters. Frequently, the rash takes a linear form (as in the top-left corner of the photo) due to the way the plant sweeps across the skin. 
+" Height="60" Title="Poison ivy rash" URI="/images/image_popup/thumbs/ans7_poison_ivythu.jpg" Width="60" />
+				<Image Alt="Photograph showing poison ivy rash 
+" Caption="Brushing against a poison ivy plant can cause a red, itchy rash with swelling, bumps and blisters. Frequently, the rash takes a linear form (as in the top-left corner of the photo) due to the way the plant sweeps across the skin. 
+" Height="280" Title="Poison ivy rash" URI="/images/image_popup/ans7_poison_ivy.jpg" Width="400" />
+				<HTML>
+					Brushing against a poison ivy plant can cause a red, itchy rash with swelling, bumps and blisters. Frequently, the rash takes a linear form (as in the top-left corner of the photo) due to the way the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a poison ivy rash include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Blisters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, the rash looks like a straight line because of the way the plant brushes against the skin. But if you come into contact with a piece of clothing or pet fur that has urushiol on it, the rash may be more spread out. The reaction usually develops 12 to 48 hours after exposure and typically lasts two or three weeks.
+&lt;/p&gt;
+&lt;p&gt;
+The severity of the rash depends on the amount of urushiol that gets on your skin. A section of skin with more urushiol on it may develop a rash sooner. You can also transfer the oil to other parts of your body with your fingers. 
+&lt;/p&gt;
+&lt;p&gt;
+Your skin must come in direct contact with the plant&apos;s oil to be affected. Blister fluid doesn&apos;t spread the rash.
+&lt;/p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if: 
+&lt;ul&gt;
+	&lt;li&gt;The reaction is severe or widespread&lt;/li&gt;
+	&lt;li&gt;The rash affects your face or genitals&lt;/li&gt;
+	&lt;li&gt;Blisters are oozing pus&lt;/li&gt;
+	&lt;li&gt;You develop a fever greater than 100 F (37.8 C)&lt;/li&gt;
+	&lt;li&gt;The rash doesn&apos;t get better within a few weeks&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing poison ivy rash 
+" Caption="Brushing against a poison ivy plant can cause a red, itchy rash with swelling, bumps and blisters. Frequently, the rash takes a linear form (as in the top-left corner of the photo) due to the way the plant sweeps across the skin. 
+" Height="60" Title="Poison ivy rash" URI="/images/image_popup/thumbs/ans7_poison_ivythu.jpg" Width="60" />
+				<Image Alt="Photograph showing poison ivy rash 
+" Caption="Brushing against a poison ivy plant can cause a red, itchy rash with swelling, bumps and blisters. Frequently, the rash takes a linear form (as in the top-left corner of the photo) due to the way the plant sweeps across the skin. 
+" Height="280" Title="Poison ivy rash" URI="/images/image_popup/ans7_poison_ivy.jpg" Width="400" />
+				<HTML>
+					Brushing against a poison ivy plant can cause a red, itchy rash with swelling, bumps and blisters. Frequently, the rash takes a linear form (as in the top-left corner of the photo) due to the way the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing poison ivy blisters 
+" Caption="Blisters such as these are common in a skin reaction to urushiol, the highly allergenic oily substance in poison ivy. 
+" Height="60" Title="Poison ivy blisters" URI="/images/image_popup/thumbs/r7_poisonivythu.jpg" Width="60" />
+				<Image Alt="Photograph showing poison ivy blisters 
+" Caption="Blisters such as these are common in a skin reaction to urushiol, the highly allergenic oily substance in poison ivy. 
+" Height="470" Title="Poison ivy blisters" URI="/images/image_popup/r7_poisonivy.jpg" Width="400" />
+				<HTML>
+					Blisters such as these are common in a skin reaction to urushiol, the highly allergenic oily substance in poison ivy. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Poison ivy rash is caused by an oily resin called urushiol &amp;mdash; found in the leaves, stems and roots of poison ivy, poison oak and poison sumac. Urushiol is very sticky, so it easily attaches to your skin, clothing, tools, equipment or pet&apos;s fur. You can get a poison ivy reaction from:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Direct touch.&lt;/strong&gt; If you directly touch the leaves, stem, roots or berries of the plant, you may have a reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Touching contaminated objects.&lt;/strong&gt; If you walk through some poison ivy and then later touch your shoes, you may get some urushiol on your hands, which you may then transfer to your face by touching or rubbing. If the contaminated object isn&apos;t cleaned, the urushiol on it can still cause a skin reaction years later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inhaling smoke from the burning plants.&lt;/strong&gt; Even the smoke from burning poison ivy, poison oak and poison sumac contains the oil and can irritate or harm your nasal passages or lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A poison ivy rash itself isn&apos;t contagious. Blister fluid doesn&apos;t contain urushiol and won&apos;t spread the rash. In addition, you can&apos;t get poison ivy from another person unless you&apos;ve had contact with urushiol that&apos;s still on that person or on his or her clothing.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing poison ivy plant 
+" Caption="A poison ivy plant typically has three leaflets branching off a single stem. It may grow as a low plant or bush or as a vine. Low-lying poison ivy plants are usually found among groups of weeds and other plants. 
+" Height="60" Title="Poison ivy plant" URI="/images/image_popup/thumbs/r7_poisonivyplantthu.jpg" Width="60" />
+				<Image Alt="Photograph showing poison ivy plant 
+" Caption="A poison ivy plant typically has three leaflets branching off a single stem. It may grow as a low plant or bush or as a vine. Low-lying poison ivy plants are usually found among groups of weeds and other plants. 
+" Height="400" Title="Poison ivy plant" URI="/images/image_popup/r7_poisonivyplant.jpg" Width="400" />
+				<HTML>
+					A poison ivy plant typically has three leaflets branching off a single stem. It may grow as a low plant or bush or as a vine. Low-lying poison ivy plants are usually found among groups of weeds and ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing poison ivy plant with berries 
+" Caption="Poison ivy leaves vary greatly in their shape, color and texture. Some leaves have smooth edges, while others have a jagged, tooth-like appearance. In the fall, the leaves may turn yellow, orange or red. Poison ivy can produce small, greenish flowers and green or off-white berries. 
+" Height="60" Title="Poison ivy plant with berries" URI="/images/image_popup/thumbs/sn7_poisonivyplant2thu.jpg" Width="60" />
+				<Image Alt="Photograph showing poison ivy plant with berries 
+" Caption="Poison ivy leaves vary greatly in their shape, color and texture. Some leaves have smooth edges, while others have a jagged, tooth-like appearance. In the fall, the leaves may turn yellow, orange or red. Poison ivy can produce small, greenish flowers and green or off-white berries. 
+" Height="320" Title="Poison ivy plant with berries" URI="/images/image_popup/sn7_poisonivyplant2.jpg" Width="400" />
+				<HTML>
+					Poison ivy leaves vary greatly in their shape, color and texture. Some leaves have smooth edges, while others have a jagged, tooth-like appearance. In the fall, the leaves may turn yellow, orange or ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of poison oak plant 
+" Caption="Like poison ivy, poison oak usually grows three leaves per stem. The leaves resemble those of an oak tree. 
+" Height="60" Title="Poison oak plant" URI="/images/image_popup/thumbs/mcdc7_poisonoakthu.jpg" Width="60" />
+				<Image Alt="Illustration of poison oak plant 
+" Caption="Like poison ivy, poison oak usually grows three leaves per stem. The leaves resemble those of an oak tree. 
+" Height="300" Title="Poison oak plant" URI="/images/image_popup/mcdc7_poisonoak.jpg" Width="400" />
+				<HTML>
+					Like poison ivy, poison oak usually grows three leaves per stem. The leaves resemble those of an oak tree. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of poison sumac plant 
+" Caption="The poison sumac plant has smooth-edged leaves and can grow as a bush or tree. Unlike poison ivy and poison oak, it doesn&apos;t grow in a three-leaf-per-stem pattern. 
+" Height="60" Title="Poison sumac plant" URI="/images/image_popup/thumbs/mcdc7_poisonsumacthu.jpg" Width="60" />
+				<Image Alt="Illustration of poison sumac plant 
+" Caption="The poison sumac plant has smooth-edged leaves and can grow as a bush or tree. Unlike poison ivy and poison oak, it doesn&apos;t grow in a three-leaf-per-stem pattern. 
+" Height="300" Title="Poison sumac plant" URI="/images/image_popup/mcdc7_poisonsumac.jpg" Width="400" />
+				<HTML>
+					The poison sumac plant has smooth-edged leaves and can grow as a bush or tree. Unlike poison ivy and poison oak, it doesn&apos;t grow in a three-leaf-per-stem pattern. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people are extra-sensitive to the oil that causes poison ivy rash, and this tendency appears to run in families.
+&lt;/p&gt;
+&lt;p&gt;
+Outdoor occupations and hobbies can put you at higher risk for exposure to poison ivy, poison oak or poison sumac. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Farmers&lt;/li&gt;
+	&lt;li&gt;Foresters&lt;/li&gt;
+	&lt;li&gt;Landscapers&lt;/li&gt;
+	&lt;li&gt;Gardeners&lt;/li&gt;
+	&lt;li&gt;Firefighters&lt;/li&gt;
+	&lt;li&gt;Construction workers&lt;/li&gt;
+	&lt;li&gt;Cable or telephone line installers&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you scratch a poison ivy rash, bacteria under your fingernails may cause the skin to become infected. See your doctor if pus starts oozing from the blisters. Treatment generally includes antibiotics.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You probably won&apos;t need medical treatment for a poison ivy rash unless the rash persists for more than a few weeks or if you think you the rash has become infected. If you&apos;re concerned, you&apos;ll probably first see your primary care physician. However, he or she might refer you to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of all the medications and supplements you take and a list of questions for your doctor. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long will this rash last?&lt;/li&gt;
+	&lt;li&gt;Is it OK to scratch?&lt;/li&gt;
+	&lt;li&gt;Will scratching spread the rash?&lt;/li&gt;
+	&lt;li&gt;Will popping the blisters spread the rash?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What can I do to help control the itching?&lt;/li&gt;
+	&lt;li&gt;How can I prevent this in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had a similar rash in the past?&lt;/li&gt;
+	&lt;li&gt;Have you spent time outdoors recently?&lt;/li&gt;
+	&lt;li&gt;What treatment steps have you already tried?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You generally won&apos;t need to see your doctor for a poison ivy rash. However, if you do visit your doctor, he or she will be able to diagnose your rash by looking at it. No further testing is needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Poison ivy treatments are usually limited to self-care methods, and the rash typically goes away on its own within two or three weeks.
+&lt;/p&gt;
+&lt;p&gt;
+If the rash is widespread or results in a large number of blisters, your doctor may prescribe an oral corticosteroid, such as prednisone, for poison ivy treatment. If a bacterial infection has developed at the rash site, your doctor will likely give you a prescription for an oral antibiotic.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A poison ivy rash will eventually go away on its own. But the itching can be difficult to deal with. Here are some steps you can take to help control the itching: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apply an over-the-counter corticosteroid cream for the first few days.&lt;/li&gt;
+	&lt;li&gt;Apply calamine lotion.&lt;/li&gt;
+	&lt;li&gt;Take oral antihistamines, such as diphenhydramine (Benadryl, others), which may also help you sleep better.&lt;/li&gt;
+	&lt;li&gt;Soak in a cool-water bath containing an oatmeal-based bath product (Aveeno).&lt;/li&gt;
+	&lt;li&gt;Place cool, wet compresses on the affected area for 15 to 30 minutes several times a day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent poison ivy rashes, follow these tips:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoid the plants&lt;br /&gt;
+&lt;/strong&gt;Learn how to identify poison ivy, poison oak and poison sumac. When hiking or engaging in other activities that might expose you to these plants, try to stay on cleared pathways. If camping, make sure you pitch your tent in an area free of these plants. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep pets from running through wooded areas so that urushiol doesn&apos;t accidentally stick to their fur, which you then may touch. If you think your pet may be contaminated with urushiol, put on some long rubber gloves and give your pet a bath. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Remove or kill the plants&lt;br /&gt;
+&lt;/strong&gt;In your backyard, you can use an herbicide to get rid of poison ivy or use heavy gloves to carefully pull it out of the ground. Afterward, remove and wash your gloves and hands thoroughly. Don&apos;t burn poison ivy or related plants because the urushiol can be carried by the smoke. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wash your skin&lt;br /&gt;
+&lt;/strong&gt;Gently washing off the harmful resin from your skin, using any type of soap, within five to 10 minutes after exposure may help avert a reaction. After an hour or so, however, the urushiol has usually penetrated the skin, and washing won&apos;t necessarily prevent a reaction, but it may help reduce its severity. Be sure to wash under your fingernails too. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clean contaminated objects&lt;br /&gt;
+&lt;/strong&gt;Wearing long pants, socks, shoes and gloves will help protect your skin, but be sure to wash your clothing promptly with detergent &amp;mdash; ideally in a washing machine &amp;mdash; if you think you&apos;ve come into contact with poison ivy. Handle contaminated clothes carefully so that you don&apos;t transfer the urushiol to furniture, rugs or appliances. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, wash any other contaminated items &amp;mdash; such as outdoor gear, garden tools, jewelry, shoes and even shoelaces &amp;mdash; as soon as possible. Urushiol can remain potent for years. So if you put away a contaminated jacket without washing it and take it out a year later, the oil on the jacket may still cause a reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Apply a barrier cream&lt;br /&gt;
+&lt;/strong&gt;Before potential exposure to poison ivy, you might want to try an over-the-counter skin cream containing bentoquatam (IvyBlock). Bentoquatam absorbs urushiol and prevents or lessens your skin&apos;s reaction to the oil. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Poison ivy rash
+	</Title>
+	<Abstract>
+		Poison ivy rash &amp;mdash; Comprehensive overview covers symptoms, treatment of this itchy skin rash.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+		<LinkItem ContentType="SlideShow" DocID="DS00543" LinkType="Internal" ObjectID="24EEAE39-2697-4971-95705ABC4DBBE485" Title="Slide show: Types of dermatitis" Url="http://www.mayoclinic.com/health/dermatitis/DS00543" />
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+		<LinkItem ContentType="Disease" DocID="DS00339" LinkType="Internal" ObjectID="A3B79A20-A765-4E1C-90C2A26187EF01E7" Title="Dermatitis" Url="http://www.mayoclinic.com/health/dermatitis-eczema/DS00339" />
+		<LinkItem ContentType="Disease" DocID="DS00985" LinkType="Internal" ObjectID="062BE2D7-E7FF-0DBD-158724048E8ABF04" Title="Contact dermatitis" Url="http://www.mayoclinic.com/health/contact-dermatitis/DS00985" />
+	</RelatedLinksBox>
+</Disease>

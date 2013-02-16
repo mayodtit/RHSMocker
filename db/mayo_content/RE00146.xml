@@ -1,0 +1,186 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00146
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00146
+		</OriginalURL>
+		<UpdateDate>
+			2009-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-10
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			D159571E-9809-2F3B-42CE404AD094F2DE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 400 recipes collected in the &quot;Fix-It and Enjoy-It! Healthy Cookbook&quot; published by Good Books and available at the MayoClinic.com Bookstore.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Cheesecake
+	</Title>
+	<Abstract>
+		Cheesecake &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip: &lt;/strong&gt;The colorful outermost layer of the lemon, called the &quot;zest,&quot; is full of essential oils that contribute lively flavor and aroma to this recipe. Remove the zest by grating it with the fine rasps of a hand-held grater to form fine particles.
+	</DietitianTip>
+	<Directions Label="Directions">
+		Combine water, gelatin and lemon juice in blender container. Process on low speed 1 to 2 minutes to soften gelatin. Add hot milk, processing until gelatin is dissolved. Add egg substitute, sugar, vanilla and cheese to blender container. Process on high speed until smooth. Pour into 9&quot; pie plate or round flat dish. Refrigerate 2 to 3 hours. If you wish, top with grated lemon zest just before serving.
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+2 tablespoons cold water&lt;br /&gt;
+1 envelope unflavored gelatin&lt;br /&gt;
+2 tablespoons lemon juice&lt;br /&gt;
+1/2 cup skim milk, heated almost to boiling&lt;br /&gt;
+Egg substitute equivalent to 1 egg, or 2 egg whites&lt;br /&gt;
+1/4 cup sugar&lt;br /&gt;
+1 teaspoon vanilla&lt;br /&gt;
+2 cups low-fat cottage cheese&lt;br /&gt;
+Lemon zest (optional) 
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				0.5
+			</Dairy>
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				0.5
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products">
+				1 (skim)
+			</Milk>
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				0.5
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				0.5
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				80
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				10 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				3 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				trace
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				trace
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				9 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				200 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				trace
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Dairy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

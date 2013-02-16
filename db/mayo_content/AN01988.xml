@@ -1,0 +1,117 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01988
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-donation/AN01988
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-21
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3785" Title="Kidneys and urinary system">
+						<Keyword MCVID="4196" Title="Surgery">
+							<Keyword MCVID="4684" Title="Nephrectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			62753420-E4EE-8CC0-C2436287C82698EA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney donation
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney donor
+			</MetaKeyword>
+			<MetaKeyword>
+				donating a kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney transplantation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Research has shown that there&apos;s little long-term risk for kidney donation, provided you&apos;re carefully screened before becoming a donor. As a potential kidney donor, you&apos;ll receive a thorough medical exam to determine whether you&apos;re a good match for the potential recipient. And you&apos;ll be carefully checked to make sure you don&apos;t have any health problems that might be made worse by donating a kidney.
+&lt;/p&gt;
+&lt;p&gt;
+Kidney donation involves major surgery, and there are risks including bleeding and infection. After your kidney is removed (nephrectomy), you&apos;ll spend time recovering in the hospital and at home. With time, your remaining kidney will enlarge as it takes on additional blood flow and filtration of wastes.
+&lt;/p&gt;
+&lt;p&gt;
+Your long-term survival rate, quality of life, general health status and risk of kidney failure are about the same as that for people in the general population who aren&apos;t kidney donors. Regular checkups, including monitoring of your kidney function and blood pressure, generally are recommended to evaluate your health after kidney donation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kidney donation: Are there long-term risks?
+	</Title>
+	<Abstract>
+		Kidney donation can save a life, but it&apos;s important to understand the risks.
+	</Abstract>
+	<Question>
+		I&apos;m considering kidney donation. Are there long-term risks?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01181" LinkType="Internal" ObjectID="8FB497A9-F180-223A-3DDCFCD843F087A6" Title="Nephrectomy (kidney removal)" Url="http://www.mayoclinic.com/health/nephrectomy/MY01181" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00682" LinkType="Internal" ObjectID="1EAAF4B2-2A5D-9994-E30C5CBDE21DAAD4" Title="Chronic kidney failure" Url="http://www.mayoclinic.com/health/kidney-failure/DS00682" />
+		<LinkItem ContentType="Disease" DocID="DS00360" LinkType="Internal" ObjectID="162FE2ED-4D6F-4BB4-9DF39A9952A1A2EA" Title="Kidney cancer" Url="http://www.mayoclinic.com/health/kidney-cancer/DS00360" />
+	</RelatedLinksBox>
+</Answer>

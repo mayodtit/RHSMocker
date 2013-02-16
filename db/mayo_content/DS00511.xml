@@ -1,0 +1,419 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00511
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colon-polyps/DS00511
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2003-10-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="1854" Title="Colon polyps" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C9BB1E4C-12DB-4916-86E2CE5E70BDB744
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colon polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				colon
+			</MetaKeyword>
+			<MetaKeyword>
+				sigmoidoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				fiber
+			</MetaKeyword>
+			<MetaKeyword>
+				adenomatous polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperplastic polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammatory polyps
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A colon polyp is a small clump of cells that forms on the lining of the colon. Although most colon polyps are harmless, some become cancerous over time. 
+&lt;/p&gt;
+&lt;p&gt;
+Anyone can develop colon polyps. But you&apos;re at higher risk if you&apos;re 50 or older, are overweight or a smoker, eat a high-fat, low-fiber diet, or have a personal or family history of colon polyps or colon cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Usually colon polyps don&apos;t cause symptoms. That&apos;s why experts recommend regular screening. Colon polyps that are found in the early stages usually can be removed safely and completely. Screening helps prevent colon cancer, a common disease that&apos;s often fatal when it&apos;s found in its later stages. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colon polyps often cause no symptoms. You might not even know you have a polyp until your doctor finds it during an examination of your bowel. Sometimes, however, you may have signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rectal bleeding.&lt;/strong&gt; You might notice bright red blood on toilet paper after you&apos;ve had a bowel movement. Although this may be a sign of colon polyps or colon cancer, rectal bleeding can indicate other conditions, such as hemorrhoids or minor tears (fissures) in your anus. You should discuss any rectal bleeding with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood in your stool.&lt;/strong&gt; Blood can show up as red streaks in your stool or make bowel movements appear black. Still, a change in color doesn&apos;t always indicate a problem &amp;mdash; iron supplements and some anti-diarrhea medications can make stools black, whereas beets and red licorice can turn stools red. Always discuss any rectal bleeding with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Constipation, diarrhea or narrowing of the stool.&lt;/strong&gt; Although a change in bowel habits that lasts longer than a week may indicate the presence of a large colon polyp, it can also result from a number of other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain or obstruction.&lt;/strong&gt; Sometimes a large colon polyp may partially obstruct your bowel, leading to crampy abdominal pain, nausea, vomiting and severe constipation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you notice the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Blood in your stool&lt;/li&gt;
+	&lt;li&gt;A change in your bowel habits that lasts longer than a week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You should be screened regularly for polyps if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re age 50 or older&lt;/li&gt;
+	&lt;li&gt;You have risk factors, such as a family history of colon cancer &amp;mdash; in some cases, high-risk individuals should begin regular screening much earlier than age 50&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The last part of your digestive tract is a long muscular tube called the large intestine. The colon makes up most of the large intestine. The rectum and anus make up the end of the large intestine. The colon&apos;s main function is to absorb water, salt and other minerals from colon contents. Your rectum stores waste until it&apos;s eliminated from your body as stool. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Why polyps form&lt;/strong&gt; &lt;br /&gt;
+The majority of polyps aren&apos;t cancerous (malignant). Yet like most cancers, polyps are the result of abnormal cell growth. Healthy cells grow and divide in an orderly way &amp;mdash; a process that&apos;s controlled by two broad groups of genes. Mutations in any of these genes can cause cells to continue dividing even when new cells aren&apos;t needed. In the colon and rectum, this unregulated growth can cause polyps to form. Over a long period of time, some of these polyps may become malignant. 
+&lt;/p&gt;
+&lt;p&gt;
+Polyps can develop anywhere in your large intestine. They can be small or large and flat (sessile) or mushroom shaped and attached to a stalk (pedunculated). In general, the larger a polyp, the greater the likelihood of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+There are three main types of colon polyps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adenomatous.&lt;/strong&gt; About two-thirds of all polyps fall into this category. Although only a small percentage of these polyps actually become cancerous, nearly all malignant polyps are adenomatous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperplastic.&lt;/strong&gt; Most of the remaining polyps are hyperplastic. These polyps occur most often in your left (descending) colon and rectum. Usually less than a quarter of an inch (5 millimeters) in size, they&apos;re very rarely malignant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory.&lt;/strong&gt; These polyps may follow a bout of ulcerative colitis or Crohn&apos;s disease of the colon. Although the polyps themselves are not a significant threat, having ulcerative colitis or Crohn&apos;s disease of the colon increases your overall risk of colon cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing small colon polyps 
+" Caption="This image of the inside of the colon shows two small polyps whose diameters are about the size of a pencil eraser (about 6 to 7 millimeters). 
+" Height="60" Title="Small colon polyps" URI="/images/image_popup/thumbs/d7_smpolypsthu.jpg" Width="60" />
+				<Image Alt="Image showing small colon polyps 
+" Caption="This image of the inside of the colon shows two small polyps whose diameters are about the size of a pencil eraser (about 6 to 7 millimeters). 
+" Height="399" Title="Small colon polyps" URI="/images/image_popup/d7_smpolyps.jpg" Width="400" />
+				<HTML>
+					This image of the inside of the colon shows two small polyps whose diameters are about the size of a pencil eraser (about 6 to 7 millimeters). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of large colon polyp 
+" Caption="This image of the inside of the colon shows a large polyp. Large polyps are 10 millimeters (mm) or larger in diameter (25 mm equals about 1 inch). 
+" Height="60" Title="Large colon polyp" URI="/images/image_popup/thumbs/d7_lgpolypthu.jpg" Width="60" />
+				<Image Alt="Image of large colon polyp 
+" Caption="This image of the inside of the colon shows a large polyp. Large polyps are 10 millimeters (mm) or larger in diameter (25 mm equals about 1 inch). 
+" Height="400" Title="Large colon polyp" URI="/images/image_popup/d7_lgpolyp.jpg" Width="400" />
+				<HTML>
+					This image of the inside of the colon shows a large polyp. Large polyps are 10 millimeters (mm) or larger in diameter (25 mm equals about 1 inch). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing colon cancer
+" Caption="This image of the inside of the colon shows colon cancer.
+" Height="60" Title="Colon cancer" URI="/images/image_popup/thumbs/d7_lgcancerthu.jpg" Width="60" />
+				<Image Alt="Image showing colon cancer
+" Caption="This image of the inside of the colon shows colon cancer.
+" Height="399" Title="Colon cancer" URI="/images/image_popup/d7_lgcancer.jpg" Width="400" />
+				<HTML>
+					This image of the inside of the colon shows colon cancer.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors may contribute to the formation of colon polyps and colon cancer. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Most people with colon polyps are 50 or older.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory intestinal conditions.&lt;/strong&gt; Long-standing inflammatory diseases of the colon, such as ulcerative colitis and Crohn&apos;s disease, can increase your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; You&apos;re more likely to develop colon polyps or cancer if you have a parent, sibling or child with them. If many family members have them, your risk is even greater. In some cases this connection isn&apos;t hereditary or genetic. For example, cancers within the same family may result from shared exposure to a cancer-causing substance (carcinogen) in the environment or from similar diet or lifestyle factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco and alcohol use.&lt;/strong&gt; Smoking significantly increases your risk of colon polyps and colon cancer. Drinking alcohol, especially beer, in excess also makes it more likely that you&apos;ll develop colon polyps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A sedentary lifestyle.&lt;/strong&gt; If you&apos;re inactive, you&apos;re more likely to develop colon cancer. This may be because when you&apos;re inactive, waste stays in your colon longer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight.&lt;/strong&gt; Being overweight or obese has been linked to an increased risk of several types of cancer, including colon cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; If you are black or an Ashkenazi Jew of Eastern European descent, you are at higher risk of developing colon cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Inherited gene mutations&lt;/strong&gt; &lt;br /&gt;
+Another risk factor for colon polyps is genetic mutations. A small percentage of colon cancers result from gene mutations. Some of these cancers are autosomal dominant, meaning you need to inherit only one defective gene from either one of your parents. If one parent has the mutated gene, you have a 50 percent chance of inheriting the mutation. Although inheriting a defective gene greatly increases your risk, not everyone with a mutated gene develops cancer. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Familial adenomatous polyposis (FAP).&lt;/strong&gt; This is a rare, hereditary disorder that causes you to develop hundreds, even thousands, of polyps in the lining of your colon beginning during your teenage years. If these go untreated, your risk of developing colon cancer is nearly 100 percent, usually before age 40. The encouraging news about FAP is that in some cases, genetic testing can help determine whether you&apos;re at risk of the disease. People with FAP are also at risk of cancers of the small intestine, particularly in the duodenum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gardner&lt;/strong&gt;&lt;strong&gt;&apos;s syndrome.&lt;/strong&gt; This less common syndrome is a variant of FAP. This condition causes polyps to develop throughout your colon and small intestine. You may also develop noncancerous tumors in other parts of your body, including your skin (sebaceous cysts and lipomas), bone (osteomas) and abdomen (desmoids).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MYH-associated polyposis (MAP).&lt;/strong&gt; This inherited condition is similar to FAP. People with MAP often develop multiple adenomatous polyps and colon cancer at a young age. Genetic testing can help determine whether you&apos;re at risk of MAP, which is caused by mutations in the MYH gene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lynch syndrome.&lt;/strong&gt; This condition, also called hereditary nonpolyposis colorectal cancer (HNPCC) is the most common form of inherited colon cancer. People with Lynch syndrome tend to develop relatively few colon polyps, but those polyps can quickly become malignant. Or, people with Lynch syndrome may have tumors in other organs, including the breast, stomach, small intestine, urinary tract and ovary, as well as in the colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peutz-Jeghers syndrome (PJS).&lt;/strong&gt; This genetic condition usually begins with freckles developing all over the body, including the lips, gums and feet. Then benign polyps develop throughout the intestines. These polyps may become malignant, so people with this condition have an increased risk of colon cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some colon polyps may become cancerous (malignant). The earlier polyps are removed, the less likely it is that they will become malignant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If it&apos;s suspected that you have colon polyps, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a gastroenterologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including over-the-counter medications, as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. For colon polyps, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Why did I develop polyps?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparations?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the chances these polyps are malignant?&lt;/li&gt;
+	&lt;li&gt;If you find a polyp, how safe is it to remove during colonoscopy?&lt;/li&gt;
+	&lt;li&gt;If you find a polyp, when will I need another colonoscopy?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that may come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you or has anyone in your family had colon cancer or colon polyps?&lt;/li&gt;
+	&lt;li&gt;How much do you smoke and drink?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nearly all colon cancers develop from polyps, but the polyps grow slowly, usually over a period of years. Screening tests play a key role in detecting polyps before they become cancerous. These tests can also help find colorectal cancer in its early stages, when you have a good chance of recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+Several screening methods exist &amp;mdash; each with its own benefits and risks. Be sure to discuss these with your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Colonoscopy.&lt;/strong&gt; Colonoscopy is performed with a long, slender, flexible tube attached to a video camera and monitor. During colonoscopy, your doctor typically views your entire colon and rectum.
+	&lt;/p&gt;
+	&lt;p&gt;
+	This procedure is the most sensitive test for colorectal polyps and colorectal cancer. If any polyps are found during the exam, your doctor may remove them immediately or take tissue samples (biopsies) for analysis. In order to prepare for the exam, you follow your doctor&apos;s instructions on restricting your diet and taking laxatives to cleanse your bowel. You&apos;re likely to receive a mild sedative to make you more comfortable. The risks of diagnostic colonoscopy include hemorrhage and perforation of the colon wall. Complications are more likely to occur when polyps are removed. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Computerized tomographic colonography (CTC).&lt;/strong&gt; Also referred to as virtual colonoscopy, this test involves a computerized tomography scan, a highly sensitive X-ray of your colon. Using computer imaging, your doctor rotates this X-ray in order to view every part of your colon and rectum without actually going inside your body. Before the scan, your large intestine is cleared of any stool, but researchers are looking into whether the scan can be done successfully without the usual bowel preparation.
+	&lt;/p&gt;
+	&lt;p&gt;
+	This newer technology may make colon screening safer, more comfortable and less invasive. It can be done more quickly and doesn&apos;t require sedation. However, it may not be as accurate as regular colonoscopy. Also, this method doesn&apos;t allow your doctor to remove polyps or take tissue samples during the procedure. If your doctor finds polyps or wants to sample tissue, you will need a colonoscopy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Flexible sigmoidoscopy.&lt;/strong&gt; In this test, your doctor uses a slender, lighted tube to examine your rectum and sigmoid &amp;mdash; approximately the last two feet (61 centimeters) of your colon. Nearly half of all colon cancers are found in this area. If your doctor finds a polyp during this test, you&apos;ll need a colonoscopy so that your doctor can see your entire colon and remove any polyps.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A sigmoidoscopy looks at only the last third of your colon, and this test doesn&apos;t detect polyps elsewhere in the large intestine. A sigmoidoscopy can be somewhat uncomfortable. Also, there&apos;s a slight risk of perforating the colon, but the risks are less than they are for colonoscopy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Barium enema.&lt;/strong&gt; This diagnostic test allows your doctor to evaluate your entire large intestine with an X-ray. A contrast solution containing barium is placed into your bowel in enema form. The barium fills and coats the lining of the bowel, creating a silhouette of your rectum, colon and sometimes a small portion of your small intestine. Air also may be added to provide better contrast on the X-ray.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The image produced with the barium enema test isn&apos;t as detailed as other screening methods and polyps may be missed on this exam. It also doesn&apos;t allow your doctor to take a biopsy during the procedure to determine whether a polyp is cancerous. This test can be somewhat uncomfortable because the barium and air stretch your bowel. There&apos;s also a slight risk of perforating the colon wall. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Fecal blood tests.&lt;/strong&gt; There are two types of noninvasive tests that check a sample of your stool for blood. One is called fecal occult blood test (FOBT), and the other is known as fecal immunohistochemical test (FIT). Each test can be performed in your doctor&apos;s office, but you&apos;re usually given a kit that explains how to perform the test at home. It&apos;s important to follow the instructions carefully, because your diet and other factors can affect the results. You return the test kit to a lab or your doctor&apos;s office to be checked.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although relatively easy, these tests are designed to screen for cancer, not for polyps. One problem is that most polyps don&apos;t bleed, nor do all cancers. This can result in a negative test result, even though you may have a polyp or cancer. On the other hand, if blood shows up in your stool, it may be the result of hemorrhoids or an intestinal condition other than cancer. For these reasons, many doctors recommend other screening methods instead of, or in addition to, fecal blood tests. Also, even if a test doesn&apos;t show blood in your stool, if you have seen blood in the toilet, on toilet paper or in your stool, you will need to go through further testing. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool DNA testing.&lt;/strong&gt; This new colon cancer screening approach can detect cancer cells that have shed into your stool. The malignant cells have altered DNA, and this test can detect DNA mutations (markers) for some types of cancerous tumors and precancerous polyps. Research is ongoing to increase the test&apos;s accuracy and determine how often it should be done. However, this test is designed primarily to detect colon cancer and not to screen for colon polyps.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Genetic testing.&lt;/strong&gt; If you have a family history of colorectal cancer, you may be a candidate for genetic testing. This blood test may help determine if you&apos;re at increased risk of colon or rectal cancer.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Genetic testing is not without drawbacks. The results can be ambiguous, and the presence of a defective gene doesn&apos;t necessarily mean you&apos;ll develop cancer. Knowing you have a genetic predisposition can alert you to the need for regular screening. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although some types of colon polyps are far more likely to become malignant than are others, a pathologist usually must examine polyp tissue under a microscope to determine whether it&apos;s potentially cancerous. For that reason, your doctor is likely to remove all polyps discovered during a bowel examination. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Snare&lt;/strong&gt; &lt;br /&gt;
+The great majority of polyps can be removed during colonoscopy or sigmoidoscopy by snaring them with a wire loop that simultaneously cuts the stalk of the polyp and cauterizes it to prevent bleeding. Some small polyps may be cauterized or burned with an electrical current. Risks of polyp removal (polypectomy) include bleeding and perforation of the colon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Polyps that are too large to snare or that can&apos;t be reached safely are usually surgically removed &amp;mdash; often using laparoscopic techniques. This means your surgeon performs the operation through several small incisions in your abdominal wall, using instruments with attached cameras that display your colon on a video monitor. Laparoscopic surgery may result in a faster and less painful recovery than does traditional surgery using a single large incision. Once the section of your colon that contains the polyp is removed, the polyp can&apos;t recur, but you have a moderate chance of developing new polyps in other areas of your colon in the future. For that reason, follow-up care is extremely important. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Endoscopic mucosal resection&lt;/strong&gt; &lt;br /&gt;
+Some specialized medical centers perform endoscopic mucosal resection (EMR) to remove larger polyps with a colonoscope. For this newer technique a liquid, such as saline, is injected under the polyp to elevate and isolate the polyp from surrounding tissue. This makes it easier to remove a larger polyp. With this procedure, you can avoid surgery, but it&apos;s not yet clear how the complication rates may compare. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Colon&lt;/strong&gt;&lt;strong&gt; and rectum removal&lt;/strong&gt; &lt;br /&gt;
+In cases of rare, inherited syndromes, such as familial adenomatous polyposis (FAP), your surgeon may perform an operation to remove your entire colon and rectum (total proctocolectomy). Then, in a procedure known as ileal pouch-anal anastomosis, a pouch is constructed from the end of your small intestine (ileum) that attaches directly to your anus. This allows you to expel waste normally, although you may have watery and more frequent bowel movements. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can greatly reduce your risk of colon polyps and colorectal cancer by having regular screenings and by making certain changes in your diet and lifestyle. The following suggestions may help lower your risk of colon polyps and colon cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to calcium.&lt;/strong&gt; Calcium can significantly protect against colon polyps and cancers, even if you&apos;ve had them before. Good food sources of calcium include skim or low-fat milk and other dairy products, broccoli, kale and canned salmon with the bones. Vitamin D, which aids in the absorption of calcium, also appears to help reduce the risk of colorectal cancer. You get vitamin D from foods such as vitamin D-fortified milk products, liver, egg yolks and fish. Sunlight also converts a chemical in your skin into a usable form of the vitamin. If you don&apos;t drink milk or you avoid the sun, you may want to consider taking both a vitamin D and a calcium supplement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Include plenty of fruits, vegetables and whole grains in your diet.&lt;/strong&gt; These foods are high in fiber, which may cut your risk of developing colon polyps. Fruits and vegetables also contain antioxidants, which may help prevent cancer. The American Cancer Society recommends eating at least five servings of fruits and vegetables every day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch your fat intake.&lt;/strong&gt; Certain types of fat can increase your risk of colon cancer. It&apos;s important to limit saturated fats from red meat as well as processed meat such as hot dogs, sausage or brats. Limit saturated fat to no more than 10 percent of your daily calorie intake.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol consumption.&lt;/strong&gt; Consuming moderate to heavy amounts of alcohol &amp;mdash; more than one drink a day for women and two for men &amp;mdash; may increase your risk of colon polyps and cancer. A drink is considered to be 4 to 5 ounces (118 to 148 milliliters) of wine, 12 ounces (355 milliliters) of beer, or 1.5 ounces (44 milliliters) of 80-proof liquor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use tobacco products.&lt;/strong&gt; Smoking and other forms of tobacco use can increase your risk of colon cancer and a wide range of other diseases. Talk to your doctor about ways to quit that might work for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay physically active and maintain a healthy body weight.&lt;/strong&gt; Controlling your weight alone can reduce your risk of colorectal cancer. And staying physically active may significantly cut your colon cancer risk. The American Cancer Society recommends at least 30 minutes of physical activity five or more days a week. Forty-five minutes or more is even better. If you&apos;re overweight, lose weight until you&apos;re at a healthy level and maintain it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about aspirin.&lt;/strong&gt; Regular aspirin use may reduce your risk of polyps. But, aspirin use can increase your risk of gastrointestinal bleeding. So check with your doctor before starting any aspirin regimen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about hormone therapy (HT).&lt;/strong&gt; If you&apos;re a woman past menopause, hormone therapy may reduce your risk of colorectal cancer. But not all effects of HT are positive. Taking HT as a combination therapy &amp;mdash; estrogen plus progestin &amp;mdash; can increase your risk of breast cancer, dementia, heart disease, stroke and blood clots, so it&apos;s not usually used for preventing colon polyps. Discuss your options with your doctor. Together you can decide what&apos;s best for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re at high risk, consider your options.&lt;/strong&gt; If you&apos;re at risk of familial adenomatous polyposis (FAP) because of a family history of the disease, consider having genetic counseling. And if you&apos;ve been diagnosed with FAP, start having regular colonoscopy tests in your early teens and discuss your options with your doctor. Your doctor may recommend having surgery to remove your entire colon. Doctors recommend that people at risk of Lynch syndrome begin having regular colonoscopies around age 20. If you have a genetic cancer syndrome, make sure your family members are tested.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Colon polyps
+	</Title>
+	<Abstract>
+		Colon polyps &amp;mdash; Comprehensive overview covers symptoms, treatment of a condition that sometimes becomes cancerous.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00813" LinkType="Internal" ObjectID="E0ECEF1C-EA18-B9C4-D798ED6EB7326F16" Title="Endoscopic mucosal resection" Url="http://www.mayoclinic.com/health/endoscopic-mucosal-resection/MY00813" />
+		<LinkItem ContentType="Video" DocID="MM00366" LinkType="Internal" ObjectID="88F9108D-88B4-462F-B88A06C6BEEE24B9" Title="Video: Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MM00366" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00624" LinkType="Internal" ObjectID="11107B89-D997-313D-42FD1089A3E98AC3" Title="Virtual colonoscopy" Url="http://www.mayoclinic.com/health/virtual-colonoscopy/MY00624" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00620" LinkType="Internal" ObjectID="110F9DAB-BB0A-C261-8FB120FA054D7EE7" Title="Fecal occult blood test" Url="http://www.mayoclinic.com/health/fecal-occult-blood-test/MY00620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+	</RelatedLinksBox>
+</Disease>

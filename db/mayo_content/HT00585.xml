@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00585
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00585
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-18
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3B9C3503-E7FF-0DBD-13C23A2B1D68F563
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy diet
+			</MetaKeyword>
+			<MetaKeyword>
+				nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				fruit
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Fruit how to: Grilled fruit slices
+	</Title>
+	<Body>
+		&lt;p&gt;Want a new way to enjoy fresh fruit? Grill it! Cut apples, pears or peaches into chunks, brush lightly with canola oil and sprinkle with cinnamon. Place on skewers or wrap in foil. Grill on low heat for 3 to 5 minutes.&lt;/p&gt;
+	</Body>
+</HealthTip>

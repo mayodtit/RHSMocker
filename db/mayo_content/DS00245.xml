@@ -1,0 +1,370 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00245
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polycystic-kidney-disease/DS00245
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-18
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="2209" Title="Kidney cyst">
+							<Keyword MCVID="2211" Title="Polycystic kidney disease" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			821423B5-5A42-4E3D-B75593AEA91D1DD2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				polycystic kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+			<MetaKeyword>
+				PKD
+			</MetaKeyword>
+			<MetaKeyword>
+				ADPKD
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				dialysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polycystic kidney disease (PKD) is a disorder in which clusters of cysts develop primarily within your kidneys. Cysts are noncancerous round sacs containing water-like fluid. 
+&lt;/p&gt;
+&lt;p&gt;
+Polycystic kidney disease isn&apos;t limited to your kidneys, although the kidneys usually are the most severely affected organs. The disease can cause cysts to develop in your liver and elsewhere in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+A common complication of polycystic kidney disease is high blood pressure. Kidney failure is another common problem for people with polycystic kidney disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Polycystic kidney disease varies greatly in its severity, and some complications are preventable. Lifestyle changes and medical treatments may help reduce damage to your kidneys from complications, such as high blood pressure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal and polycystic kidneys 
+" Caption="A healthy kidney (left) eliminates waste from the blood and maintains the body&apos;s normal chemical balance. Fluid-filled sacs (right), called cysts, characterize polycystic kidney disease. 
+" Height="60" Title="Normal and polycystic kidneys" URI="/images/image_popup/thumbs/r7_kidneyscomparedthu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal and polycystic kidneys 
+" Caption="A healthy kidney (left) eliminates waste from the blood and maintains the body&apos;s normal chemical balance. Fluid-filled sacs (right), called cysts, characterize polycystic kidney disease. 
+" Height="306" Title="Normal and polycystic kidneys" URI="/images/image_popup/r7_kidneyscompared.jpg" Width="400" />
+				<HTML>
+					A healthy kidney (left) eliminates waste from the blood and maintains the body&apos;s normal chemical balance. Fluid-filled sacs (right), called cysts, characterize polycystic kidney disease. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polycystic kidney disease symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Back or side pain&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Increase in the size of your abdomen&lt;/li&gt;
+	&lt;li&gt;Blood in your urine&lt;/li&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Kidney stones&lt;/li&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+	&lt;li&gt;Urinary tract or kidney infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+It&apos;s not uncommon for people to have polycystic kidney disease for years without developing signs or symptoms and without knowing they have the disease.
+&lt;/p&gt;
+&lt;p&gt;
+If you have some of the signs and symptoms of polycystic kidney disease, which include high blood pressure, an increase in the size of your abdomen, blood in your urine, back or side pain, or kidney stones, see your doctor to determine what might be causing them. If you have a first-degree relative &amp;mdash; parent, sibling or child &amp;mdash; with polycystic kidney disease, see your doctor to discuss the pros and cons of screening for this disorder.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal and polycystic kidneys 
+" Caption="A healthy kidney (left) eliminates waste from the blood and maintains the body&apos;s normal chemical balance. Fluid-filled sacs (right), called cysts, characterize polycystic kidney disease. 
+" Height="60" Title="Normal and polycystic kidneys" URI="/images/image_popup/thumbs/r7_kidneyscomparedthu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal and polycystic kidneys 
+" Caption="A healthy kidney (left) eliminates waste from the blood and maintains the body&apos;s normal chemical balance. Fluid-filled sacs (right), called cysts, characterize polycystic kidney disease. 
+" Height="306" Title="Normal and polycystic kidneys" URI="/images/image_popup/r7_kidneyscompared.jpg" Width="400" />
+				<HTML>
+					A healthy kidney (left) eliminates waste from the blood and maintains the body&apos;s normal chemical balance. Fluid-filled sacs (right), called cysts, characterize polycystic kidney disease. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cysts are noncancerous (benign) sacs that contain water-like fluid. They vary in size and as they accumulate more fluid can grow extremely large. Normally, a kidney weighs less than one-third of a pound (approximately three-quarters of a kilogram), while a kidney containing numerous cysts can weigh as much as 20 to 30 pounds (9.1 to 13.6 kilograms). 
+&lt;/p&gt;
+&lt;p&gt;
+Abnormal genes cause polycystic kidney disease, and the genetic defects mean the disease runs in families. Rarely, a genetic mutation can be the cause of polycystic kidney disease. There are two types of polycystic kidney disease, caused by different genetic flaws: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Autosomal dominant polycystic kidney disease (ADPKD).&lt;/strong&gt; Signs and symptoms of ADPKD often develop between the ages of 30 and 40. In the past, this type was called adult polycystic kidney disease, but children can develop the disorder. Only one parent needs to have the disease in order for it to pass along to the children. If one parent has ADPKD, each child has a 50 percent chance of getting the disease. This form accounts for about 90 percent of cases of polycystic kidney disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autosomal recessive polycystic kidney disease (ARPKD).&lt;/strong&gt; This type is far less common than is ADPKD. The signs and symptoms often appear shortly after birth. Sometimes, symptoms don&apos;t appear until later in childhood or during adolescence. Both parents must have abnormal genes to pass on this form of the disease. If both parents carry a gene for this disorder, each child has a 25 percent chance of getting the disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Researchers have identified two genes associated with ADPKD and one associated with ARPKD. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, a person with ADPKD has no known family history of the disease. However, it&apos;s possible that someone in the affected person&apos;s family actually did have the disease, but didn&apos;t show signs or symptoms before dying of other causes. In a smaller percentage of cases where no family history is present, ADPKD results from a spontaneous gene mutation. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are numerous complications associated with polycystic kidney disease including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Elevated blood pressure is a common complication of polycystic kidney disease. Untreated, high blood pressure can cause further damage to your kidneys and increase your risk of heart disease and stroke.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Loss of kidney function.&lt;/strong&gt; Progressive loss of kidney function is one of the most serious complications of polycystic kidney disease. Nearly half of those with the disease have kidney failure by age 60. If you have high blood pressure or blood or protein in your urine, you have a greater risk of kidney failure.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Polycystic kidney disease causes your kidneys to gradually lose their ability to eliminate wastes from your blood and maintain your body&apos;s balance of fluids and chemicals. As the cysts enlarge, they produce pressure and promote scarring in the normal, unaffected areas of your kidneys. These effects result in high blood pressure and interfere with the ability of your kidneys to keep wastes from building to toxic levels, a condition called uremia. As the disease worsens, end-stage kidney (renal) failure may result. When end-stage renal failure occurs, you&apos;ll need ongoing kidney dialysis or a transplant to prolong your life.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Pregnancy is successful for most women with polycystic kidney disease. In some cases, however, women may develop a life-threatening disorder called preeclampsia. Those most at risk are women who have high blood pressure before they become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth of cysts in the liver.&lt;/strong&gt; The likelihood of developing liver cysts for someone with polycystic kidney disease increases with age. While both men and women develop cysts, women often develop larger cysts. Cyst growth may be aided by female hormones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Development of an aneurysm in the brain.&lt;/strong&gt; Localized enlargement of an artery in your brain can cause bleeding (hemorrhage) if it ruptures. People with polycystic kidney disease have a higher risk of aneurysm, especially those younger than age 50. The risk is higher if you have a family history of aneurysm or if you have uncontrolled high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart valve abnormalities.&lt;/strong&gt; As many as one-quarter of adults with polycystic kidney disease develop mitral valve prolapse. When this happens, the valve no longer closes properly, which allows blood to leak backward.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colon problems.&lt;/strong&gt; Weaknesses and pouches or sacs in the wall of the colon (diverticulosis) may develop in people with polycystic kidney disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic pain.&lt;/strong&gt; Pain is a common symptom for people with polycystic kidney disease. It often occurs in your side or back. The pain can also be associated with a urinary tract infection or a kidney stone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of polycystic kidney disease, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in kidney health (nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come along.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For polycystic kidney disease, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any dietary restrictions? What about activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the appropriate level for my blood pressure? What can I do to help bring it down?&lt;/li&gt;
+	&lt;li&gt;Besides kidney cysts, what other complications might I have?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that come up during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have a history of polycystic kidney disease or other kidney disease?&lt;/li&gt;
+	&lt;li&gt;Do you know your average blood pressure values?&lt;/li&gt;
+	&lt;li&gt;Has your kidney function been measured?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several diagnostic methods are available to detect the size and number of kidney cysts as well as to evaluate the amount of healthy kidney tissue.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound examination.&lt;/strong&gt; In this common diagnostic method, a wand-like device called a transducer is placed on your body. It emits inaudible sound waves that are reflected back to the transducer &amp;mdash; like sonar. A computer translates the reflected sound waves into images of your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; As you lie on a movable table, you&apos;re guided into a big doughnut-shaped device that projects very thin X-ray beams through your body. Your doctor is able to see cross-sectional images of your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) scan.&lt;/strong&gt; As you lie inside a large cylinder, magnetic fields and radio waves generate cross-sectional views of your kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treating polycystic kidney disease involves dealing with the following signs, symptoms and complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;High blood pressure.&lt;/strong&gt; Controlling high blood pressure may delay the progression of the disease and slow further kidney damage. Combining a low-sodium, low-fat diet that&apos;s moderate in protein and calorie content with not smoking, increasing exercise and reducing stress may help control high blood pressure.
+	&lt;/p&gt;
+	&lt;p&gt;
+	However, medications are usually needed to control high blood pressure. Medications called angiotensin-converting enzyme (ACE) inhibitors may be used to control high blood pressure in people with polycystic kidney disease, though more than one drug may be necessary for good blood pressure control. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Chronic pain, usually located in your back or your side, is a common symptom of polycystic kidney disease. Often, the pain is mild and you can control it with over-the-counter medications containing acetaminophen. For some people, however, the pain is more severe and constant. In rare cases, your doctor may recommend surgery to remove cysts if they&apos;re large enough to cause pressure and pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complications of cysts.&lt;/strong&gt; Rarely, when kidney cysts are causing severe pain or obstructing other organs or blood vessels, you may need to undergo surgery to drain the cysts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder or kidney infections.&lt;/strong&gt; Prompt treatment of infections with antibiotics is necessary to prevent kidney damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood in the urine.&lt;/strong&gt; You&apos;ll need to drink lots of fluids as soon as you notice blood in your urine, in order to dilute the urine. Dilution may help prevent obstructive clots from forming in your urinary tract. Bed rest also may help decrease the bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; If your kidneys lose their ability to remove wastes and extra fluids from your blood, you&apos;ll eventually need either dialysis or a kidney transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver cysts.&lt;/strong&gt; Nonsurgical management of liver cysts includes avoidance of hormone replacement therapy. Other options in rare cases include drainage of symptomatic cysts if they&apos;re not too numerous, partial removal of the liver or even liver transplantation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aneurysms.&lt;/strong&gt; If you have polycystic kidney disease and a family history of ruptured brain (intracranial) aneurysms, your doctor may recommend regular screening for intracranial aneurysms. If an aneurysm is discovered, surgical clipping of the aneurysm to reduce the risk of bleeding may be an option, depending on its size. Nonsurgical treatment of small aneurysms may involve controlling high blood pressure and high blood cholesterol, as well as quitting smoking.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As is the case with other chronic illnesses, having polycystic kidney disease may make you feel overwhelmed. But you don&apos;t have to deal with your illness alone. The support of friends and family is important in dealing with a chronic illness. In addition, a counselor, psychologist, psychiatrist or clergy member may be able to help.
+&lt;/p&gt;
+&lt;p&gt;
+You may also want to consider joining a support group. Although support groups aren&apos;t for everyone, they can provide helpful information about treatments and coping. And being with people who understand what you&apos;re going through may make you feel less alone. Ask your doctor about support groups in your community or contact the PKD Foundation at 800-PKD-CURE (800-753-2873) to find out if there&apos;s a chapter in your area.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have polycystic kidney disease and you&apos;re considering having children, a genetic counselor can help you assess your risk of passing the disease to your offspring.
+&lt;/p&gt;
+&lt;p&gt;
+Keeping your kidneys as healthy as possible may help prevent some of the complications of this disease. One of the most important ways you can protect your kidneys is by managing your blood pressure. Here are some tips for keeping your blood pressure in check:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take the blood pressure medications prescribed by your doctor as directed.&lt;/li&gt;
+	&lt;li&gt;Eat a low-salt diet containing plenty of fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight. Ask your doctor what the right weight is for you.&lt;/li&gt;
+	&lt;li&gt;Quit smoking, if you&apos;re a smoker.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly. Aim for at least 30 minutes of moderate physical activity most days of the week.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polycystic kidney disease
+	</Title>
+	<Abstract>
+		Polycystic kidney disease &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this kidney condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="Answer" DocID="AN01988" LinkType="Internal" ObjectID="62753420-E4EE-8CC0-C2436287C82698EA" Title="Kidney donation: Are there long-term risks?" Url="http://www.mayoclinic.com/health/kidney-donation/AN01988" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Disease" DocID="DS00582" LinkType="Internal" ObjectID="27C87FA4-C560-4F97-B5B680BD5D09F585" Title="Brain aneurysm" Url="http://www.mayoclinic.com/health/brain-aneurysm/DS00582" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,117 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00708
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/emphysema/AN00708
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-02
+		</UpdateDate>
+		<PublicationDate>
+			2003-12-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2195" Title="Chronic lung">
+						<Keyword MCVID="2430" Title="COPD">
+							<Keyword MCVID="2431" Title="Emphysema" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			32BEFE18-8A7A-4254-9C275CBCEF11735A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				emphysema
+			</MetaKeyword>
+			<MetaKeyword>
+				COPD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It may. Breathing cold, dry air causes narrowing (constriction) of the airways in some people with chronic bronchitis and emphysema. This restricts airflow into and out of the lungs and makes breathing more difficult. But breathing cold air doesn&apos;t permanently worsen emphysema. The effects are only temporary, making you short of breath for a brief period. Cold air can also have the same effect on people with asthma. 
+&lt;/p&gt;
+&lt;p&gt;
+To reduce the effects of cold air on your breathing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wear a cold-air face mask when you&apos;re outside. You should put the mask on before going out. Cold-air face masks are available at many drugstores and medical supply stores. If you don&apos;t have a mask, wear a soft scarf pulled over your nose and mouth.&lt;/li&gt;
+	&lt;li&gt;Breathe in through your nose instead of your mouth when you&apos;re outside. The large, moist surface area in the nose and sinuses helps warm and humidify the air before it enters your lungs.&lt;/li&gt;
+	&lt;li&gt;Use your bronchodilator about 30 minutes before going outside. A bronchodilator helps open constricted airways.&lt;/li&gt;
+	&lt;li&gt;Use a home humidifier to moisturize indoor air when it&apos;s cold and dry outside.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before making a permanent move from a warm climate, your doctor may suggest that you spend some time in a cold climate to see how it affects your emphysema. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Emphysema: Does cold weather make it worse?
+	</Title>
+	<Abstract>
+		In some people with emphysema, breathing cold air can cause narrowing of the airways.
+	</Abstract>
+	<Question>
+		Does cold weather worsen emphysema symptoms? I&apos;m thinking about moving from Florida to Indiana.
+	</Question>
+	<QuestionFirstName>
+		Fran
+	</QuestionFirstName>
+	<QuestionState>
+		Florida
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00359" LinkType="Internal" ObjectID="47717326-86A6-4154-9079FE8BC353B270" Title="Barrel chest: What causes it?" Url="http://www.mayoclinic.com/health/barrel-chest/AN00359" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00106" LinkType="Internal" ObjectID="C016ACE8-E7FF-0DBD-1F1C3E530B8ACD1B" Title="Lung transplant" Url="http://www.mayoclinic.com/health/lung-transplant/MY00106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="Answer" DocID="AN01974" LinkType="Internal" ObjectID="432B7FD2-A2A2-2EA0-8B6FA7F6B151F721" Title="Air pollution and exercise: Is outdoor exercise risky?" Url="http://www.mayoclinic.com/health/air-pollution-and-exercise/AN01974" />
+		<LinkItem ContentType="Disease" DocID="DS00916" LinkType="Internal" ObjectID="87E06ADB-E7FF-0DBD-12B87DD57BBF25D9" Title="COPD" Url="http://www.mayoclinic.com/health/copd/DS00916" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN00684" LinkType="Internal" ObjectID="02CE1B11-68EE-4669-AC55DBA8788E9C46" Title="Hyperinflated lungs: What does it mean?" Url="http://www.mayoclinic.com/health/hyperinflated-lungs/AN00684" />
+		<LinkItem ContentType="Disease" DocID="DS00957" LinkType="Internal" ObjectID="EFE89F8B-E7FF-0DBD-1AFD5B761ED9CE9C" Title="Chronic cough" Url="http://www.mayoclinic.com/health/chronic-cough/DS00957" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00296" LinkType="Internal" ObjectID="C585E4B1-9390-48CE-8A709FFA1BF33DF7" Title="Emphysema" Url="http://www.mayoclinic.com/health/emphysema/DS00296" />
+	</RelatedLinksBox>
+</Answer>

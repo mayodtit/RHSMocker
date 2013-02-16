@@ -1,0 +1,309 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00361
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-transplant/MY00361
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4171" Title="Surgery">
+							<Keyword MCVID="3782" Title="Heart transplant" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FDA96F4-E7FF-0DBD-16E85B989BB8D9C5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				heart transplantation
+			</MetaKeyword>
+			<MetaKeyword>
+				heart transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				heart transplants
+			</MetaKeyword>
+			<MetaKeyword>
+				heart transplant surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment for heart failure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A heart transplant is an operation in which a failing, diseased heart is replaced with a healthier, donor heart. Heart transplant is a treatment that&apos;s usually reserved for people who have tried medications or other surgeries, but their conditions haven&apos;t improved sufficiently. 
+&lt;/p&gt;
+&lt;p&gt;
+While a heart transplant is a major operation, your chance of survival is good, with appropriate follow-up care. 
+&lt;/p&gt;
+&lt;p&gt;
+When faced with a decision about having a heart transplant, know what to expect of the heart transplant process, the surgery itself, potential risks and follow-up care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart transplants are performed when other treatments for heart problems haven&apos;t worked, leading to heart failure. In adults, heart failure can be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coronary artery disease&lt;/li&gt;
+	&lt;li&gt;A weakening of the heart muscle (cardiomyopathy)&lt;/li&gt;
+	&lt;li&gt;Valvular heart disease&lt;/li&gt;
+	&lt;li&gt;Congenital heart defect &amp;mdash; a heart problem you&apos;re born with&lt;/li&gt;
+	&lt;li&gt;Failure of a previous heart transplant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In children, heart failure is most often caused by either a congenital heart defect or a cardiomyopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+A heart transplant isn&apos;t the right treatment for everyone, however. Certain factors may mean you&apos;re not a good candidate for a heart transplant. While each case is considered individually by a transplant center, you could be prevented from having a heart transplant if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are age 65 or older&lt;/li&gt;
+	&lt;li&gt;Have another medical condition that could shorten your life, regardless of receiving a donor heart&lt;/li&gt;
+	&lt;li&gt;Have serious blockages in the arteries in your arms or legs (peripheral artery disease)&lt;/li&gt;
+	&lt;li&gt;Have a personal medical history of cancer&lt;/li&gt;
+	&lt;li&gt;Are unwilling or unable to make lifestyle changes necessary to keep your donor heart healthy, such as not drinking alcohol or not smoking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people who can&apos;t have a heart transplant, another option may be a ventricular assist device (VAD). A ventricular assist device is a miniature pump implanted in your chest that helps pump blood through your body. VADs are commonly used as a temporary treatment for people waiting for a heart transplant, but are increasingly being used as a permanent treatment for heart failure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although receiving a donor heart can save your life, having a heart transplant has many risks. The most significant risk is your body rejecting the donor heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rejection of the donor heart&lt;br /&gt;
+&lt;/strong&gt;Your immune system will see your donor heart as a foreign object that&apos;s not supposed to be in your body. Your immune system will try to attack your donor heart. Although all people who receive a heart transplant receive immunosuppressants &amp;mdash; medications that reduce the activity of the immune system &amp;mdash; nearly 25 percent of heart transplant recipients still have some signs of rejection during the first year after transplantation. Usually the rejection is without any symptoms and requires only an adjustment of medications. If you miss doses of medications, however, the rejection can be severe and very serious. It&apos;s important that transplant recipients follow the instructions outlined by their doctors. 
+&lt;/p&gt;
+&lt;p&gt;
+To determine whether your body is rejecting the new heart, you&apos;ll have frequent biopsies of the new heart for several months after your transplant. During the biopsy, a tube is inserted into a vein in your neck or groin and directed to your heart. A biopsy device is run through the tube to extract a tiny sample of heart tissue, which is examined in a lab. Because rejection is most likely to occur in the first few months after heart transplantation, the frequency of heart biopsies is greatest during this early period. It&apos;s possible you&apos;d have signs or symptoms that your body is rejecting your donor heart. These signs and symptoms could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Weight gain due to water retention&lt;/li&gt;
+	&lt;li&gt;Not urinating as much as usual&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional risks&lt;br /&gt;
+&lt;/strong&gt;Other risks after your heart transplant include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Problems with your arteries.&lt;/strong&gt; After your transplant, it&apos;s possible the walls of the arteries in your heart could thicken and harden, leading to cardiac allograft vasculopathy (CAV). This can make blood circulation through your heart difficult and can cause a heart attack, heart failure, heart arrhythmias or sudden cardiac death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication side effects.&lt;/strong&gt; The immunosuppressants you&apos;ll need to take for the rest of your life can cause serious kidney damage and other problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Immunosuppressants can also increase your cancer risk. Taking these medications can put you at a greater risk of skin and lip tumors and non-Hodgkin&apos;s lymphoma, among others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Immunosuppressants decrease your body&apos;s ability to fight infection. Many people who have heart transplants have an infection that requires them to be admitted to the hospital the first year after their transplant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preparations for a heart transplant often begin long before the surgery to place a transplanted heart. You may begin preparing for a heart transplant weeks or months before you receive a donor heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Taking the first steps&lt;br /&gt;
+&lt;/strong&gt;If your doctor recommends that you consider a heart transplant, he or she will likely refer you to a heart transplant center for an evaluation. You&apos;re also free to select a transplant center on your own. Check with your health insurance provider to see which transplant centers are covered under your insurance plan. 
+&lt;/p&gt;
+&lt;p&gt;
+When looking at heart transplant centers, consider the number of heart transplants a center performs each year and transplant recipient survival rates. You can compare transplant center statistics on the Web through a database maintained by the Scientific Registry of Transplant Recipients. 
+&lt;/p&gt;
+&lt;p&gt;
+Also consider additional services provided by a transplant center. Many centers coordinate support groups, assist you with travel arrangements, help you find local housing for your recovery period, or direct you to organizations that can help with these concerns. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you decide where you would like to have your heart transplant, you&apos;ll need to have an evaluation to see if you&apos;re eligible for a transplant. The evaluation will check to see if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a heart condition that would benefit from transplantation&lt;/li&gt;
+	&lt;li&gt;Might benefit from other less aggressive treatment options&lt;/li&gt;
+	&lt;li&gt;Are healthy enough to undergo surgery and post-transplant treatments&lt;/li&gt;
+	&lt;li&gt;Will agree to quit smoking, if you smoke&lt;/li&gt;
+	&lt;li&gt;Are willing and able to follow the medical program outlined by the transplant team&lt;/li&gt;
+	&lt;li&gt;Can emotionally handle the wait for a donor heart&lt;/li&gt;
+	&lt;li&gt;Have a supportive network of family and friends to help you during this stressful time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Waiting for a donor organ&lt;br /&gt;
+&lt;/strong&gt;If the transplant center medical team finds that you&apos;re a good candidate for a heart transplant, the center will register you on a waiting list. Unfortunately, there aren&apos;t enough hearts for every person in need, and some people die while waiting for a transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re on the waiting list, your medical team will monitor the condition of your heart and other organs and alter your treatment as necessary. Your transplant team may temporarily remove your name from the waiting list if you develop a significant medical condition, such as a severe infection or stroke, which makes you temporarily unable to have a transplant while you recover. 
+&lt;/p&gt;
+&lt;p&gt;
+If medical therapy fails to support your vital organs as you wait for a donor heart, your doctors may recommend you have a device implanted to support your heart while you wait for a donor organ. These devices are known as ventricular assist devices (VADs). The devices are also referred to as a bridge to transplantation because they gain some time until a donor heart is available. 
+&lt;/p&gt;
+&lt;p&gt;
+When a donor heart becomes available, the donor-recipient matching system considers these factors to make a match: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medical urgency of potential recipients&lt;/li&gt;
+	&lt;li&gt;Blood type (A, B, AB or O)&lt;/li&gt;
+	&lt;li&gt;Antibodies the recipients may have developed&lt;/li&gt;
+	&lt;li&gt;Size of the donor organ&lt;/li&gt;
+	&lt;li&gt;Time spent on the waiting list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Immediately before your transplant surgery&lt;br /&gt;
+&lt;/strong&gt;A heart transplant usually needs to occur within four hours of organ removal for the donor organ to remain usable. Because of this, hearts are offered first to a transplant center close by, then to centers within certain distances of the donor hospital. The transplant center will provide you with a pager or cell phone to notify you when a potential donor organ is available. You must keep your cell phone or pager charged and turned on at all times. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re notified, you and your transplant team have a limited amount of time to consider whether to accept the donation, and you&apos;ll be expected to make your way to the transplant hospital immediately after being notified of the potential donation. 
+&lt;/p&gt;
+&lt;p&gt;
+As much as possible, you should make travel plans ahead of time. Some heart transplant centers provide private air transportation or other travel arrangements. Have a suitcase packed with everything you&apos;ll need for your hospital stay, as well as an extra 24-hour supply of your medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a left ventricular assist device (LVAD) 
+" Caption="A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are worn outside your body and are connected to the LVAD through a port in your skin. 
+" Height="60" Title="Left ventricular assist device (LVAD)" URI="/images/image_popup/thumbs/mcdc7_lvadthu.jpg" Width="60" />
+				<Image Alt="Illustration of a left ventricular assist device (LVAD) 
+" Caption="A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are worn outside your body and are connected to the LVAD through a port in your skin. 
+" Height="414" Title="Left ventricular assist device (LVAD)" URI="/images/image_popup/mcdc7_lvad.jpg" Width="400" />
+				<HTML>
+					A left ventricular assist device (LVAD) is implanted under your skin. It helps pump blood from the left ventricle of your heart and on to the rest of your body. A control unit and battery pack are ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;Heart transplant surgery usually takes about four hours &amp;mdash; longer if you&apos;ve had previous heart surgeries or if there are complications during the procedure. The surgeon will open your chest and connect you to a heart-lung machine to keep oxygen-rich blood flowing throughout your body. The diseased heart is removed, and the donor heart is sewn into place. The new heart often starts beating when blood flow is restored. Sometimes an electric shock is needed to make the donor heart beat properly. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be in pain after the surgery, which will be treated with medications. You&apos;ll also have a ventilator to help you breathe and tubes in your chest to drain fluids from around your lungs and heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;After you&apos;ve had surgery to place your donor heart, you&apos;ll likely remain in the hospital for a week or two, and then you&apos;ll be closely monitored at your outpatient transplant center for about three months. While at the transplant center, you&apos;ll have regular tests on your donor heart, including blood work, echocardiograms, electrocardiograms and heart biopsies.
+&lt;/p&gt;
+&lt;p&gt;
+There are also several long-term adjustments you&apos;ll need to make after you&apos;ve had your heart transplant. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Taking immunosuppressants.&lt;/strong&gt; These medications decrease the activity of your immune system to prevent it from attacking your donated heart. Because your immune system will most likely never get used to the new organ, you&apos;ll take some of these medications for the rest of your life. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	These medications may cause noticeable side effects. With taking some post-transplant drugs, such as corticosteroids, your face may become round and full, and you may gain weight, develop acne or facial hair, or experience stomach problems. Some of the effects are more noticeable when you first start the drug regimen, but decrease in severity later on. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Because immunosuppressants make your body more vulnerable to infection, your doctor may also prescribe antibacterial, antiviral and antifungal medications. Some drugs could worsen &amp;mdash; or raise your risk of developing &amp;mdash; conditions such as high blood pressure, high cholesterol, cancer or diabetes. Over time as the risk of rejection is reduced, the doses and number of anti-rejection drugs can be reduced, but you will need some immunosuppressant medications indefinitely. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Managing medications and therapies.&lt;/strong&gt; After a heart transplant, taking all your medications as your doctor instructs is important. It&apos;s a good idea to set up a daily routine for taking your medications so that you won&apos;t forget. Keep a list of all your medications with you at all times in case you need emergency medical attention, and tell all your doctors each time you&apos;re prescribed a new medicine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac rehabilitation.&lt;/strong&gt; After your transplant, you may find it difficult to adjust to new lifestyle changes, such as diet and exercise. Cardiac rehabilitation programs can help you adjust to these changes so that you can regain your strength and improve your quality of life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional support.&lt;/strong&gt; Your new medical therapies and the stress of having a heart transplant may make you feel overwhelmed. Many people who have had a heart transplant feel this way. Talk to your doctor if you&apos;re feeling stressed or overwhelmed. Transplant centers often have support groups and other resources to help you manage your condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who receive a heart transplant enjoy a high quality of life. They can return to work within three to six months of a heart transplant and have few activity restrictions. 
+&lt;/p&gt;
+&lt;p&gt;
+Recipient survival rates vary based on a number of factors. For example, in the U.S. the overall survival rate is nearly 90 percent after one year and 74 percent after five years.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What if your new heart fails?&lt;br /&gt;
+&lt;/strong&gt;Heart transplants aren&apos;t successful for everyone. Your new heart may fail because of organ rejection or because of the development of valvular heart disease or coronary artery disease. Should this happen, your doctor may recommend adjusting your medications or in more extreme cases, another heart transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, additional treatment options are limited and you may choose to stop treatment. Discussions with your heart transplant team, physician and family should address your expectations and preferences for treatment, emergency care and end-of-life care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart transplant
+	</Title>
+	<Abstract>
+		Heart transplant &amp;mdash; Overview covers risks and results of this potentially lifesaving operation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00771" LinkType="Internal" ObjectID="501AEB1F-0C51-8CCA-8F66232AC95B25F3" Title="Cardiac rehabilitation" Url="http://www.mayoclinic.com/health/cardiac-rehabilitation/MY00771" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01077" LinkType="Internal" ObjectID="4A804FBC-A707-ED3A-B6B6239DC746B325" Title="Ventricular assist devices (VADs)" Url="http://www.mayoclinic.com/health/lvad/MY01077" />
+		<LinkItem ContentType="Answer" DocID="AN02167" LinkType="Internal" ObjectID="32B9B057-9C29-709B-E357C00DB7D0C704" Title="Tap water or bottled water: Which is better?" Url="http://www.mayoclinic.com/health/tap-water/AN02167" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS00519" LinkType="Internal" ObjectID="409898DA-8C14-4EAB-975D5E4217CEDB49" Title="Cardiomyopathy" Url="http://www.mayoclinic.com/health/cardiomyopathy/DS00519" />
+	</RelatedLinksBox>
+</TestProcedure>

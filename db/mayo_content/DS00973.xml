@@ -1,0 +1,366 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00973
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/staph-infections/DS00973
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-09
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="3248" Title="Staph infections" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6D054F-E7FF-0DBD-131A3975EF067747
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				staph infection
+			</MetaKeyword>
+			<MetaKeyword>
+				staph bacteria
+			</MetaKeyword>
+			<MetaKeyword>
+				staph
+			</MetaKeyword>
+			<MetaKeyword>
+				staphylococcus aureus
+			</MetaKeyword>
+			<MetaKeyword>
+				staff infections
+			</MetaKeyword>
+			<MetaKeyword>
+				staph infections
+			</MetaKeyword>
+			<MetaKeyword>
+				staphylococcal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				staf infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Staph infections are caused by staphylococcus bacteria, a type of germ commonly found on the skin or in the nose of even healthy individuals. Most of the time, these bacteria cause no problems or result in relatively minor skin infections. 
+&lt;/p&gt;
+&lt;p&gt;
+But staph infections can turn deadly if the bacteria invade deeper into your body, entering your bloodstream, joints, bones, lungs or heart. 
+&lt;/p&gt;
+&lt;p&gt;
+In the past, a lethal staph infection might have occurred in a person who was hospitalized or had a chronic illness or weakened immune system. Now, a growing number of otherwise healthy people are developing life-threatening staph infections. And many staph infections no longer respond to common antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Staph infections can range from minor skin problems to endocarditis, a life-threatening infection of your heart valve lining. As a result, signs and symptoms of staph infections vary widely, depending on the location and severity of the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin infections&lt;/strong&gt; &lt;br /&gt;
+Skin infections caused by staph bacteria include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Boils.&lt;/strong&gt; The most common type of staph infection is the boil, a pocket of pus that develops in a hair follicle or oil gland. The skin over the infected area usually becomes red and swollen. If a boil breaks open, it may drain pus, blood or an amber-colored liquid. Boils occur most often under the arms or around the groin or buttocks. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impetigo.&lt;/strong&gt; This contagious, often painful rash can occur in all ages, but it&apos;s most common in young children and infants. The types of impetigo caused by staph bacteria usually feature large blisters that may ooze fluid and develop a honey-colored crust. These sores occur most commonly around the nose and mouth. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cellulitis.&lt;/strong&gt; Cellulitis &amp;mdash; an infection of the deeper layers of skin &amp;mdash; causes skin redness and swelling on the surface of your skin. Sores (ulcers) or areas of oozing discharge may develop, too. Cellulitis occurs most often in the lower legs and feet of older persons. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Staphylococcal scalded skin syndrome.&lt;/strong&gt; Toxins produced as a result of a staph infection may lead to staphylococcal scalded skin syndrome. Affecting mostly newborns, this condition features fever, a rash and sometimes blisters. When the blisters break, the top layer of skin comes off &amp;mdash; leaving a red, raw surface that looks like a burn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bacteremia&lt;/strong&gt; &lt;br /&gt;
+Also known as blood poisoning, bacteremia occurs when staph bacteria enter a person&apos;s bloodstream. A persistent fever is one sign of bacteremia. The bacteria can travel to locations deep within your body, to produce infections affecting: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Internal organs, such as your brain, heart or lungs&lt;/li&gt;
+	&lt;li&gt;Bones and muscles&lt;/li&gt;
+	&lt;li&gt;Surgically implanted devices, such as artificial joints or cardiac pacemakers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Toxic shock syndrome&lt;/strong&gt; &lt;br /&gt;
+This life-threatening condition results from toxins produced by some strains of staph bacteria and has been linked to the use of certain types of tampons, skin wounds and surgery. It usually develops suddenly, with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;A rash on your palms and soles that resembles sunburn&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Septic arthritis&lt;/strong&gt; &lt;br /&gt;
+Septic arthritis is often caused by a staph infection. The bacteria usually target the knees, but other joints can be affected, including your ankle, hip, wrist, elbow or shoulder. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Joint swelling&lt;/li&gt;
+	&lt;li&gt;Severe pain in the affected joint&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Shaking or chills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Go to the doctor if you or your child has: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An area of red, irritated or painful skin&lt;/li&gt;
+	&lt;li&gt;Pus-filled blisters&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also want to consult your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin infections are being passed from one family member to another&lt;/li&gt;
+	&lt;li&gt;Two or more family members have skin infections at the same time&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos of two staph infections: one minor, and one serious 
+" Caption="MRSA infections start out as small red bumps that can quickly turn into deep, painful abscesses. 
+" Height="60" Title="Staph infection" URI="/images/image_popup/thumbs/ans7_staph_skinthu.jpg" Width="60" />
+				<Image Alt="Photos of two staph infections: one minor, and one serious 
+" Caption="MRSA infections start out as small red bumps that can quickly turn into deep, painful abscesses. 
+" Height="260" Title="Staph infection" URI="/images/image_popup/ans7_staph_skin.jpg" Width="400" />
+				<HTML>
+					MRSA infections start out as small red bumps that can quickly turn into deep, painful abscesses. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people carry staph bacteria and never develop staph infections. If you have a staph infection, there&apos;s a good chance that it stemmed from bacteria you&apos;ve been carrying around for some time. 
+&lt;/p&gt;
+&lt;p&gt;
+These bacteria can also be transmitted from person to person. Because staph bacteria are so hardy, they can live on inanimate objects such as pillowcases or towels long enough to transfer to the next person who touches them. 
+&lt;/p&gt;
+&lt;p&gt;
+Staph bacteria are able to survive: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drying&lt;/li&gt;
+	&lt;li&gt;Extremes of temperature&lt;/li&gt;
+	&lt;li&gt;High levels of salt&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A variety of factors &amp;mdash; ranging from the status of your immune system to the types of sports you play &amp;mdash; can increase your risk of developing staph infections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Current or recent hospitalization&lt;/strong&gt; &lt;br /&gt;
+Despite vigorous attempts to eradicate them, staph bacteria remain present in hospitals, where they attack the most vulnerable, including people with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weakened immune systems&lt;/li&gt;
+	&lt;li&gt;Burns&lt;/li&gt;
+	&lt;li&gt;Surgical wounds&lt;/li&gt;
+	&lt;li&gt;Serious underlying health problems, such as diabetes mellitus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Invasive devices&lt;/strong&gt; &lt;br /&gt;
+Staph bacteria can travel along the medical tubing that connects the outside world with your internal organs. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dialysis&lt;/li&gt;
+	&lt;li&gt;Urinary catheters&lt;/li&gt;
+	&lt;li&gt;Feeding tubes&lt;/li&gt;
+	&lt;li&gt;Breathing intubation&lt;/li&gt;
+	&lt;li&gt;Intravascular catheters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Contact sports&lt;/strong&gt; &lt;br /&gt;
+Staph bacteria can spread easily through cuts, abrasions and skin-to-skin contact. Amateur and professional athletes have spread staph infections by sharing razors, towels, uniforms or equipment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If staph bacteria invade your bloodstream, you may develop a type of infection that affects your entire body. Called sepsis, this infection can lead to septic shock &amp;mdash; a life-threatening episode with extremely low blood pressure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a specialist, depending on which of your organ systems is affected by the infection. For example, a dermatologist specializes in skin conditions, while a cardiologist treats heart disorders. Or you may be referred to a doctor who specializes in infectious diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For staph infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kind of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best course of action?&lt;/li&gt;
+	&lt;li&gt;Will I infect others?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms? Could you describe them to me?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been around anyone with a staph infection?&lt;/li&gt;
+	&lt;li&gt;Do you have any implanted medical devices, such as an artificial joint or a pacemaker?&lt;/li&gt;
+	&lt;li&gt;Do you have any ongoing medical conditions, including an impaired immune system?&lt;/li&gt;
+	&lt;li&gt;Have you recently been in the hospital?&lt;/li&gt;
+	&lt;li&gt;Do you play contact sports?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose a staph infection, your doctor will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Perform a physical exam.&lt;/strong&gt; During the exam, your doctor will closely examine any skin lesions you may have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collect a sample for testing. &lt;/strong&gt;Most often, doctors diagnose staph infections by checking a tissue sample or nasal secretions for signs of the bacteria. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of a staph infection may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Your doctor may perform tests to identify what type of staph bacteria is behind your infection, to help choose the antibiotic that will work best. Antibiotics sometimes prescribed to treat staph infections include cephalosporins, nafcillin or related antibiotics, sulfa drugs or intravenous vancomycin. Vancomycin increasingly is required to treat serious staph infections because so many strains of staph bacteria have become resistant to other traditional medicines. But vancomycin is effective for staph infections only when it&apos;s given intravenously. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wound drainage.&lt;/strong&gt; If you have a skin infection, your doctor may make an incision into the sore to drain fluid that has collected there. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Device removal.&lt;/strong&gt; If your infection involves a device or prosthetic, prompt removal of the device is needed. For some devices, removal might require surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotic resistance&lt;/strong&gt; &lt;br /&gt;
+Staph bacteria are very adaptable, and many varieties have become resistant to one or more antibiotics. For example, less than 10 percent of today&apos;s staph infections can be cured with penicillin. Up to half the staph bacteria found in hospitals are resistant to cephalosporins and nafcillin, other common antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+The emergence of antibiotic-resistant strains of staph bacteria &amp;mdash; often described as methicillin-resistant Staphylococcus aureus (MRSA) strains &amp;mdash; has led to the use of stronger and more-toxic antibiotics, such as vancomycin. A few strains of staph bacteria have become resistant to vancomycin, too. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These common-sense precautions can help lower your risk of developing staph infections: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Careful hand-washing is your best defense against germs. Wash your hands briskly for at least 15 to 30 seconds, then dry them with a disposable towel and use another towel to turn off the faucet. If your hands aren&apos;t visibly dirty, you can use a hand sanitizer containing at least 62 percent alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep wounds covered.&lt;/strong&gt; Keep cuts and abrasions clean and covered with sterile, dry bandages until they heal. The pus from infected sores often contains staph bacteria, and keeping wounds covered will help keep the bacteria from spreading.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce tampon risks.&lt;/strong&gt; You can reduce your chances of getting toxic shock syndrome by changing your tampon frequently, at least every four to eight hours. Use the lowest absorbency tampon you can, and try to alternate using tampons and sanitary napkins whenever possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep personal items personal.&lt;/strong&gt; Avoid sharing personal items such as towels, sheets, razors, clothing and athletic equipment. Staph infections can spread on objects, as well as from person to person. If you have a cut or sore, wash your towels and linens using detergent and hot water with bleach, and dry them in a hot dryer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Staph infections
+	</Title>
+	<Abstract>
+		Staph infections &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of these potentially lethal infections.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="ID00049" LinkType="Internal" ObjectID="D7A62184-E7FF-0DBD-1B7A498A1D99D327" Title="MRSA: Protecting student athletes" Url="http://www.mayoclinic.com/health/mrsa/ID00049" />
+		<LinkItem ContentType="Disease" DocID="DS00735" LinkType="Internal" ObjectID="62232E78-2A5D-9994-E02734CDF6291B3B" Title="MRSA infection" Url="http://www.mayoclinic.com/health/mrsa/DS00735" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Disease" DocID="DS00545" LinkType="Internal" ObjectID="FD59F887-9E24-4A0D-883E01D48DC117C8" Title="Septic arthritis" Url="http://www.mayoclinic.com/health/bone-and-joint-infections/DS00545" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+		<LinkItem ContentType="Disease" DocID="DS00221" LinkType="Internal" ObjectID="8D17EAE9-4A6B-4802-B812557A34C30154" Title="Toxic shock syndrome" Url="http://www.mayoclinic.com/health/toxic-shock-syndrome/DS00221" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+		<LinkItem ContentType="Disease" DocID="DS00005" LinkType="Internal" ObjectID="32278E96-F109-4807-8738841CD620091B" Title="HIV/AIDS" Url="http://www.mayoclinic.com/health/hiv-aids/DS00005" />
+	</RelatedLinksBox>
+</Disease>

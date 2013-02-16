@@ -1,0 +1,338 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00343
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sprains-and-strains/DS00343
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-25
+		</UpdateDate>
+		<PublicationDate>
+			1999-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1990" Title="Sprains and strains" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F0138FF8-9AB3-4C66-A1FA2F6EFD7759F7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sprains and strains
+			</MetaKeyword>
+			<MetaKeyword>
+				sprains
+			</MetaKeyword>
+			<MetaKeyword>
+				strains
+			</MetaKeyword>
+			<MetaKeyword>
+				sprains strains
+			</MetaKeyword>
+			<MetaKeyword>
+				sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				strain
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle strain
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle strains
+			</MetaKeyword>
+			<MetaKeyword>
+				joint sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				joint sprains
+			</MetaKeyword>
+			<MetaKeyword>
+				sprained ankle
+			</MetaKeyword>
+			<MetaKeyword>
+				ankle sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				knee sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				sprained knee
+			</MetaKeyword>
+			<MetaKeyword>
+				ligament sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				ligament sprains
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle injury
+			</MetaKeyword>
+			<MetaKeyword>
+				groin pull
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sprains and strains are common injuries that share similar signs and symptoms, but involve different parts of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+A sprain is a stretching or tearing of ligaments &amp;mdash; the tough bands of fibrous tissue that connect one bone to another in your joints. The most common location for a sprain is in your ankle. 
+&lt;/p&gt;
+&lt;p&gt;
+A strain is a stretching or tearing of muscle or tendon. A tendon is a fibrous cord of tissue that connects muscles to bones. Strains often occur in the lower back and in the hamstring muscle in the back of your thigh. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms will vary, depending on the severity of the injury.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sprains&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Limited ability to move the affected joint&lt;/li&gt;
+	&lt;li&gt;At the time of injury, you may hear or feel a &quot;pop&quot; in your joint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Strains&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Muscle spasms&lt;/li&gt;
+	&lt;li&gt;Limited ability to move the affected muscle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Mild sprains and strains can be treated at home. But you should see a doctor if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can&apos;t walk more than four steps without significant pain&lt;/li&gt;
+	&lt;li&gt;Can&apos;t move the affected joint&lt;/li&gt;
+	&lt;li&gt;Have numbness in any part of the injured area&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a sprained ankle 
+" Caption="A sprained ankle is the stretching or tearing of ankle ligaments, which support the joint by connecting bones to each other. 
+" Height="60" Title="Sprained ankle" URI="/images/image_popup/thumbs/mcdc7_anklesprainthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a sprained ankle 
+" Caption="A sprained ankle is the stretching or tearing of ankle ligaments, which support the joint by connecting bones to each other. 
+" Height="490" Title="Sprained ankle" URI="/images/image_popup/mcdc7_anklesprain.jpg" Width="400" />
+				<HTML>
+					A sprained ankle is the stretching or tearing of ankle ligaments, which support the joint by connecting bones to each other. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Sprains&lt;br /&gt;
+&lt;/strong&gt;A sprain occurs when you overextend or tear a ligament while severely stressing a joint. Sprains often occur in the following circumstances:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ankle.&lt;/strong&gt; Walking or exercising on an uneven surface&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Knee.&lt;/strong&gt; Pivoting during an athletic activity&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wrist.&lt;/strong&gt; Landing on an outstretched hand during a fall&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thumb.&lt;/strong&gt; Skiing or playing racquet sports, such as tennis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Strains&lt;br /&gt;
+&lt;/strong&gt;There are two types of strains: acute and chronic. An acute strain occurs when a muscle becomes strained or pulled &amp;mdash; or may even tear &amp;mdash; when it stretches unusually far or abruptly. Acute strains often occur in the following ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slipping on ice&lt;/li&gt;
+	&lt;li&gt;Running, jumping or throwing&lt;/li&gt;
+	&lt;li&gt;Lifting a heavy object or lifting in an awkward position&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A chronic strain results from prolonged, repetitive movement of a muscle. This may occur on the job or during sports, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gymnastics&lt;/li&gt;
+	&lt;li&gt;Tennis&lt;/li&gt;
+	&lt;li&gt;Rowing&lt;/li&gt;
+	&lt;li&gt;Golf&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors contributing to sprains and strains include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor conditioning.&lt;/strong&gt; Lack of conditioning can leave your muscles weak and more likely to sustain injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; Tired muscles are less likely to provide good support for your joints. When you&apos;re tired, you&apos;re also more likely to succumb to forces that could stress a joint or overextend a muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improper warm-up.&lt;/strong&gt; Properly warming up before vigorous physical activity loosens your muscles and increases joint range of motion, making the muscles less tight and less prone to trauma and tears.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a doctor who specializes in sports medicine or orthopedic surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How exactly were you moving when the injury occurred?&lt;/li&gt;
+	&lt;li&gt;Did you hear or feel a pop or snap?&lt;/li&gt;
+	&lt;li&gt;When did it happen?&lt;/li&gt;
+	&lt;li&gt;What types of home treatments have you tried?&lt;/li&gt;
+	&lt;li&gt;Have you ever injured this part of your body before?&lt;/li&gt;
+	&lt;li&gt;If so, how did that injury occur?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check for swelling and points of tenderness in your affected limb. The location and intensity of your pain can help determine the extent and nature of the damage. Your doctor might also move your joints and limbs into a variety of positions, to help pinpoint which ligament, tendon or muscle has been injured.
+&lt;/p&gt;
+&lt;p&gt;
+X-rays can help rule out a fracture or other bone injury as the source of the problem. Magnetic resonance imaging (MRI) also may be used to help diagnose the extent of the injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treating sprains and strains depends on the joint involved and the severity of the injury. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications. &lt;/strong&gt;For mild sprains and strains, your doctor likely will recommend basic self-care measures and an over-the-counter pain reliever such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Therapy. &lt;/strong&gt;In cases of a mild or moderate sprain or strain, apply ice to the area as soon as possible to minimize swelling. In cases of severe sprain or strain, your doctor may immobilize the area with a brace or splint. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery. &lt;/strong&gt;If you have a torn ligament or ruptured muscle, surgery may be an option. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For immediate self-care of a sprain or strain, try the R.I.C.E. approach &amp;mdash; rest, ice, compression, elevation. In most cases beyond a minor strain or sprain, you&apos;ll want your doctor and physical therapist to help you with this process: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Avoid activities that cause pain or swelling, but don&apos;t avoid all physical activity. If it hurts to bear weight on a sprained ankle, for example, you can peddle an exercise bicycle with one leg while resting the injured ankle on a footrest peg. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; Immediately place an ice pack on the injury. Keep the area iced for 15 to 20 minutes, and repeat several times a day for the first few days. Cold reduces pain, swelling and, possibly, bleeding. If the area turns white, stop treatment immediately. If you have vascular disease, diabetes or decreased sensation, talk with your doctor before applying ice. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; To help stop swelling, compress the area with an elastic bandage until the swelling stops. Don&apos;t wrap the bandage too tightly or it may reduce circulation. Begin wrapping at the end farthest from your heart. Loosen the wrap if the pain increases, the area becomes numb or swelling is occurring below the wrapped area. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; To reduce swelling, elevate the injured area above the level of your heart, especially at night. Gravity helps reduce swelling by draining excess fluid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Over-the-counter pain medications such as ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others) also can be helpful. 
+&lt;/p&gt;
+&lt;p&gt;
+After the first two days, gently begin to use the injured area. You should see a gradual, progressive improvement in the joint&apos;s ability to support your weight or your ability to move without pain. Mild and moderate sprains usually heal in three to six weeks. A physical therapist can help you to maximize stability and strength of the injured joint or limb. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Regular stretching and strengthening exercises for your sport, fitness or work activity, as part of an overall physical conditioning program, can help to minimize your risk of sprains and strains. Try to be in shape to play your sport; don&apos;t play your sport to get in shape. If you have a physically demanding occupation, regular conditioning can help prevent injuries.
+&lt;/p&gt;
+&lt;p&gt;
+You can protect your joints in the long term by working to strengthen and condition the muscles around the joint that has been injured. The best brace you can give yourself is your own &quot;muscle brace.&quot; Ask your doctor about appropriate conditioning and stability exercises. Also, use footwear that offers support and protection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sprains and strains
+	</Title>
+	<Abstract>
+		Sprains and strains &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of ligament and muscle damage.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00717" LinkType="Internal" ObjectID="4CA061F9-E7FF-0DBD-19189A4ACCA06D58" Title="Video: Ankle sprain" Url="http://www.mayoclinic.com/health/ankle-sprain/MM00717" />
+		<LinkItem ContentType="Disease" DocID="DS01183" LinkType="Internal" ObjectID="D8445A70-CB2F-4B67-8ED222599BE9D0E1" Title="Hamstring injury" Url="http://www.mayoclinic.com/health/hamstring-injury/DS01183" />
+		<LinkItem ContentType="Disease" DocID="DS01014" LinkType="Internal" ObjectID="8D693DEB-E7FF-0DBD-118C768551685534" Title="Sprained ankle" Url="http://www.mayoclinic.com/health/sprained-ankle/DS01014" />
+		<LinkItem ContentType="FirstAid" DocID="FA00016" LinkType="Internal" ObjectID="3B8D4BC4-D392-4BE6-B365F04D565A7261" Title="Sprain: First aid" Url="http://www.mayoclinic.com/health/first-aid-sprain/FA00016" />
+	</RelatedLinksBox>
+</Disease>

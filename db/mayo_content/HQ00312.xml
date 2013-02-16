@@ -1,0 +1,464 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HQ00312
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/barretts-esophagus/HQ00312
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-25
+		</UpdateDate>
+		<PublicationDate>
+			2001-12-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="2927" Title="Barrett&apos;s esophagus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0F626CE4-7682-4C3C-801AC8E07B01F30C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Barrett&apos;s esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				barett
+			</MetaKeyword>
+			<MetaKeyword>
+				barrett
+			</MetaKeyword>
+			<MetaKeyword>
+				barretts
+			</MetaKeyword>
+			<MetaKeyword>
+				barets
+			</MetaKeyword>
+			<MetaKeyword>
+				barrets
+			</MetaKeyword>
+			<MetaKeyword>
+				barret
+			</MetaKeyword>
+			<MetaKeyword>
+				baret
+			</MetaKeyword>
+			<MetaKeyword>
+				baretts
+			</MetaKeyword>
+			<MetaKeyword>
+				baret&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				barett&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				barret&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				metaplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach acid
+			</MetaKeyword>
+			<MetaKeyword>
+				esophageal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				difficulty swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				trouble swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				swallowingdifficulties
+			</MetaKeyword>
+			<MetaKeyword>
+				esophageal stricture
+			</MetaKeyword>
+			<MetaKeyword>
+				esophogus
+			</MetaKeyword>
+			<MetaKeyword>
+				swallowing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Barrett&apos;s esophagus is a condition in which the cells of your lower esophagus become damaged, usually from repeated exposure to stomach acid. The damage causes changes to the color and composition of the esophagus cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Barrett&apos;s esophagus is most often diagnosed in people who have long-term gastroesophageal reflux disease (GERD) &amp;mdash; a chronic regurgitation of acid from the stomach into the lower esophagus. Only a small percentage of people with GERD will develop Barrett&apos;s esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+A diagnosis of Barrett&apos;s esophagus can be concerning because it increases the risk of developing esophageal cancer. Although the risk of esophageal cancer is small, monitoring of Barrett&apos;s esophagus focuses on periodic exams to find precancerous esophagus cells. If precancerous cells are discovered, they can be treated to prevent esophageal cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Barrett&apos;s esophagus
+" Caption="In Barrett&apos;s esophagus, normal esophageal cells are replaced with abnormal cells. Barrett&apos;s esophagus is thought to be caused by long-standing gastroesophageal reflux disease (GERD), which causes stomach contents to back up into the esophagus.
+" Height="60" Title="Barrett&apos;s esophagus" URI="/images/image_popup/thumbs/mcdc7_barretts_esophagusthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Barrett&apos;s esophagus
+" Caption="In Barrett&apos;s esophagus, normal esophageal cells are replaced with abnormal cells. Barrett&apos;s esophagus is thought to be caused by long-standing gastroesophageal reflux disease (GERD), which causes stomach contents to back up into the esophagus.
+" Height="418" Title="Barrett&apos;s esophagus" URI="/images/image_popup/mcdc7_barretts_esophagus.jpg" Width="400" />
+				<HTML>
+					In Barrett&apos;s esophagus, normal esophageal cells are replaced with abnormal cells. Barrett&apos;s esophagus is thought to be caused by long-standing gastroesophageal reflux disease (GERD), which causes ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Barrett&apos;s esophagus signs and symptoms are usually related to acid reflux and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent heartburn&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing food&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Upper abdominal pain&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people with Barrett&apos;s esophagus have no signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve had long-term trouble with heartburn and acid reflux, discuss this with your doctor and ask about your risk of Barrett&apos;s esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek immediate medical attention if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have chest pain&lt;/li&gt;
+	&lt;li&gt;Have difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Are vomiting red blood or blood that looks like coffee grounds&lt;/li&gt;
+	&lt;li&gt;Are passing black, tarry or bloody stools&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of Barrett&apos;s esophagus isn&apos;t known. Most people with Barrett&apos;s esophagus have long-standing GERD. It&apos;s thought that GERD causes stomach contents to wash back into the esophagus, causing damage to the esophagus. As the esophagus tries to heal itself, the cells can change to the type of cells found in Barrett&apos;s esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, some people diagnosed with Barrett&apos;s esophagus have never experienced heartburn or acid reflux. It&apos;s not clear what causes Barrett&apos;s esophagus in these cases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of Barrett&apos;s esophagus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic heartburn and acid reflux.&lt;/strong&gt; Having these symptoms of gastroesophageal reflux disease (GERD) for more than 10 years can increase the risk of Barrett&apos;s esophagus. Stomach acid that backs up into your esophagus if you have GERD can damage the esophageal tissue, causing the changes that signal Barrett&apos;s esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being a man.&lt;/strong&gt; Men are more likely to develop Barrett&apos;s esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being white.&lt;/strong&gt; White people have a greater risk of the disease than do people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being an older adult.&lt;/strong&gt; Barrett&apos;s esophagus is more common in older adults, but it can occur at any age.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Increased risk of esophageal cancer&lt;/strong&gt;&lt;br /&gt;
+People with Barrett&apos;s esophagus have an increased risk of esophageal cancer. Still, the risk is small, especially in people whose lab test results show no precancerous changes (dysplasia) in their esophagus cells. The overwhelming majority of people with Barrett&apos;s esophagus will never develop esophageal cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Studies of people with Barrett&apos;s esophagus show most think their risk of esophageal cancer is much higher than it really is. This causes needless worry and anxiety. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re worried about your risk of esophageal cancer, ask your doctor to explain your chances of developing the disease. Also ask what you can do to reduce your risk. This may help you feel more in control of your health. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of esophageal cancer 
+" Caption="Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+" Height="60" Title="Esophageal cancer" URI="/images/image_popup/thumbs/c7_esophageal_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of esophageal cancer 
+" Caption="Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+" Height="491" Title="Esophageal cancer" URI="/images/image_popup/c7_esophageal_cancer.jpg" Width="400" />
+				<HTML>
+					Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Barrett&apos;s esophagus is most often diagnosed in people with GERD who undergo endoscopy exams to look for GERD complications. If your doctor has discovered Barrett&apos;s esophagus on an endoscopy exam, you may be referred to a doctor who treats digestive diseases (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For Barrett&apos;s esophagus, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my lab report show dysplasia? If so, what is the grade of my dysplasia?&lt;/li&gt;
+	&lt;li&gt;Were my biopsy samples examined by a gastroenterological pathologist? If I have dysplasia, did two or more pathologists agree on the diagnosis?&lt;/li&gt;
+	&lt;li&gt;How much of my esophagus is affected by Barrett&apos;s dysplasia?&lt;/li&gt;
+	&lt;li&gt;Will I need to undergo another endoscopy exam to confirm my diagnosis?&lt;/li&gt;
+	&lt;li&gt;If my diagnosis is certain, how often should I undergo endoscopy to screen for changes?&lt;/li&gt;
+	&lt;li&gt;What is my risk of esophageal cancer?&lt;/li&gt;
+	&lt;li&gt;What are my options for reducing my risk of esophageal cancer?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options for Barrett&apos;s esophagus?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I have to have Barrett&apos;s esophagus treatment? What happens if I choose not to have treatment?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions that come to mind during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you experience acid reflux symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing Barrett&apos;s esophagus&lt;/strong&gt; &lt;br /&gt;
+Your doctor determines whether you have Barrett&apos;s esophagus using a procedure called upper endoscopy to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examine your esophagus.&lt;/strong&gt; Your doctor will pass a lighted tube (endoscope) down your throat. The tube carries a tiny camera that allows your doctor to examine your esophagus. Your doctor looks for signs that the esophageal tissue is changing. Normal esophagus tissue appears pale and glossy. A person with Barrett&apos;s esophagus has tissue that appears red and velvety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove tissue samples.&lt;/strong&gt; If the lining of your esophagus appears abnormal, your doctor may pass special tools through the endoscope to remove several small tissue samples. The samples are tested in a laboratory to determine what types of changes are taking place and how advanced the changes are.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the degree of tissue changes&lt;/strong&gt; &lt;br /&gt;
+A doctor who specializes in examining tissue in a laboratory (pathologist) will examine your esophageal biopsy samples under a microscope. The pathologist determines the degree of changes (dysplasia) in your cells. Grades of dysplasia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;No dysplasia.&lt;/strong&gt; If no changes are found in the cells, the pathologist determines there is no dysplasia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low-grade dysplasia.&lt;/strong&gt; Cells with low-grade dysplasia may show small signs of changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High-grade dysplasia.&lt;/strong&gt; Cells with high-grade dysplasia show many changes. High-grade dysplasia is thought to be the final step before cells change into esophageal cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of dysplasia detected in your esophageal tissue determines your treatment options. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Endoscopy view of Barrett&apos;s esophagus
+" Caption="Barrett&apos;s esophagus has a distinct appearance when viewed during an endoscopy exam. During endoscopy, the doctor passes a lighted tube with a camera down your throat and into your esophagus. The camera may reveal abnormalities, such as the damaged tissue that signals Barrett&apos;s esophagus.
+" Height="60" Title="Barrett&apos;s esophagus diagnosis" URI="/images/image_popup/thumbs/mcdc7_barretts_diagnosisthu.jpg" Width="60" />
+				<Image Alt="Endoscopy view of Barrett&apos;s esophagus
+" Caption="Barrett&apos;s esophagus has a distinct appearance when viewed during an endoscopy exam. During endoscopy, the doctor passes a lighted tube with a camera down your throat and into your esophagus. The camera may reveal abnormalities, such as the damaged tissue that signals Barrett&apos;s esophagus.
+" Height="255" Title="Barrett&apos;s esophagus diagnosis" URI="/images/image_popup/mcdc7_barretts_diagnosis.jpg" Width="400" />
+				<HTML>
+					Barrett&apos;s esophagus has a distinct appearance when viewed during an endoscopy exam. During endoscopy, the doctor passes a lighted tube with a camera down your throat and into your esophagus. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options for Barrett&apos;s esophagus depend on whether high-grade or low-grade dysplasia is found in the cells of your esophagus, your overall health and your own preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for people with no dysplasia or low-grade dysplasia&lt;/strong&gt; &lt;br /&gt;
+If a biopsy reveals that your cells have no dysplasia or that your cells have low-grade dysplasia, your doctor may suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Periodic endoscopy exams to monitor the cells in your esophagus.&lt;/strong&gt; How often you undergo endoscopy exams will depend on your situation. Typically, if your biopsies show no dysplasia, you&apos;ll have a follow-up endoscopy one year later. If your doctor again detects no dysplasia, your doctor will likely recommend endoscopy exams every three years. If low-grade dysplasia is detected, your doctor may recommend GERD treatments and another endoscopy in six months or a year. If you&apos;re determined to have high-grade dysplasia, then your doctor may offer other treatment options. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Sometimes when endoscopy is repeated, no evidence of Barrett&apos;s esophagus is detected. This may not mean that the condition has gone away. The affected portion of the esophagus could be very small, and it may have been missed during the endoscopy. For this reason, your doctor will still recommend follow-up endoscopy exams. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continued treatment for GERD.&lt;/strong&gt; If you&apos;re still struggling with chronic heartburn and acid reflux, your doctor will work to find prescription medications that help you control your signs and symptoms. Surgery to tighten the sphincter that controls the flow of stomach acid may be an option to treat GERD. One such procedure is called Nissen fundoplication. Treating acid reflux can reduce your signs and symptoms, but it doesn&apos;t treat the underlying Barrett&apos;s esophagus. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for people with high-grade dysplasia&lt;/strong&gt; &lt;br /&gt;
+High-grade dysplasia is thought to be a precursor to esophageal cancer. For this reason, doctors sometimes recommend more-invasive treatments, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the esophagus.&lt;/strong&gt; During an esophagectomy, the surgeon removes most of your esophagus and attaches your stomach to the remaining portion. Surgery carries a risk of significant complications, such as bleeding, infection and leaking from the area where the esophagus and stomach are joined. When esophagectomy is performed by an experienced surgeon, there&apos;s a reduced risk of complications. Still, because of the potential complications of this major operation, other treatments are usually preferred over surgery. One advantage to surgery is that it reduces the need for periodic endoscopy exams in the future. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing damaged cells with an endoscope.&lt;/strong&gt; Endoscopic mucosal resection is used to remove areas of damaged cells using an endoscope. Your doctor guides the endoscope down your throat and into your esophagus. Special surgical tools are passed through the tube. The tools allow your doctor to cut away the superficial layers of the esophagus and remove damaged cells. Endoscopic mucosal resection carries a risk of complications, such as bleeding, rupture and narrowing of the esophagus. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using heat to remove abnormal esophageal tissue.&lt;/strong&gt; Radiofrequency ablation involves inserting a balloon filled with electrodes in the esophagus. The balloon emits a short burst of energy that destroys the damaged esophageal tissue. Radiofrequency ablation carries a risk of narrowing of the esophagus, bleeding and chest pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using cold to destroy abnormal esophagus cells.&lt;/strong&gt; Cryotherapy involves using an endoscope to apply a cold liquid or gas to the abnormal cells in the esophagus. The cells are allowed to warm up and then are frozen again. The cycle of freezing and thawing damages the cells. Cryotherapy carries a risk of chest pain, narrowing of the esophagus and tearing of the esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Destroying damaged cells by making them sensitive to light.&lt;/strong&gt; Before this procedure, called photodynamic therapy (PDT), you receive a special medication through a vein in your arm. The medication makes certain cells, including the damaged cells in your esophagus, sensitive to light. During PDT, your doctor uses an endoscope to guide a special light down your throat and into your esophagus. The light reacts with medication in the cells and causes the damaged cells to die. PDT makes you sensitive to sunlight and requires diligent avoidance of sunlight after the procedure. Complications of PDT can include narrowing of the esophagus, chest pain and nausea. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you undergo treatment other than surgery to remove your esophagus, there&apos;s a chance that Barrett&apos;s esophagus can recur. For this reason, your doctor may recommend continuing to take acid-reducing medications and having periodic endoscopy exams. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Nissen fundoplication 
+" Caption="Surgery for GERD may involve a procedure to reinforce the lower esophageal sphincter called Nissen fundoplication. In this procedure, the surgeon wraps the top of the stomach around the lower esophagus. This reinforces the lower esophageal sphincter, making it less likely that acid will back up in the esophagus.
+" Height="60" Title="GERD surgery" URI="/images/image_popup/thumbs/mcdc7_fundoplicationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Nissen fundoplication 
+" Caption="Surgery for GERD may involve a procedure to reinforce the lower esophageal sphincter called Nissen fundoplication. In this procedure, the surgeon wraps the top of the stomach around the lower esophagus. This reinforces the lower esophageal sphincter, making it less likely that acid will back up in the esophagus.
+" Height="227" Title="GERD surgery" URI="/images/image_popup/mcdc7_fundoplication.jpg" Width="400" />
+				<HTML>
+					Surgery for GERD may involve a procedure to reinforce the lower esophageal sphincter called Nissen fundoplication. In this procedure, the surgeon wraps the top of the stomach around the lower ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people diagnosed with Barrett&apos;s esophagus experience frequent heartburn and acid reflux. Medications can control these signs and symptoms, but changes to your daily life also may help. Consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your weight is healthy, work to maintain that weight. If you&apos;re overweight or obese, ask your doctor about healthy ways to lose weight. Excess pounds put pressure on your abdomen, pushing up your stomach and causing acid to back up into your esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller, more frequent meals.&lt;/strong&gt; Three meals a day, with small snacks in between, may help you stop overeating. Continual overeating leads to excess weight, which aggravates heartburn.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tightfitting clothes.&lt;/strong&gt; Clothes that fit tightly around your waist put pressure on your abdomen, aggravating reflux.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eliminate heartburn triggers.&lt;/strong&gt; Everyone has specific triggers. Common triggers such as fatty or fried foods, alcohol, chocolate, peppermint, garlic, onion, caffeine, and nicotine may make heartburn worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid stooping or bending.&lt;/strong&gt; Tying your shoes is OK. Bending over for a long time to weed your garden may not be, especially soon after eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t lie down after eating.&lt;/strong&gt; Wait at least three hours after eating to lie down or go to bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Raise the head of your bed.&lt;/strong&gt; Place wooden blocks under your bed to elevate your head. Aim for an elevation of six to eight inches. Raising your head by using only pillows isn&apos;t a good alternative.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking may increase stomach acid. If you smoke, ask your doctor about strategies for stopping.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with Barrett&apos;s esophagus, you may worry about your risk of esophageal cancer. You may experience anxiety and worry with each new sign or symptom. With time, you&apos;ll discover ways of coping with a Barrett&apos;s esophagus diagnosis. Until then, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Go to all of your appointments.&lt;/strong&gt; Your doctor may recommend follow-up endoscopy exams to monitor your condition. Before each exam, you may worry about whether your Barrett&apos;s esophagus has worsened. Don&apos;t let this stop you from going to your appointments. Instead, expect to have some anxiety, and find ways to cope with your feelings. Try relaxing activities, such as exercise, listening to music and writing in a journal to express your feelings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make healthy lifestyle choices.&lt;/strong&gt; Stay healthy by making healthy lifestyle choices each day. For instance, choose a diet full of fruits, vegetables and whole grains. Maintain a healthy weight. Exercise most days of the week. Get enough sleep so that you wake feeling rested. Making healthy changes increases the chance that you&apos;ll be healthy enough for Barrett&apos;s esophagus treatment should you need it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be alert to new symptoms.&lt;/strong&gt; Ask your doctor what signs and symptoms should prompt you to make an appointment. This way you may spend less time worrying that your condition is worsening.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Barrett&apos;s esophagus
+	</Title>
+	<Abstract>
+		Barrett&apos;s esophagus &amp;mdash; Comprehensive overview covers symptoms, treatment of disorder caused by stomach acid reflux.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00813" LinkType="Internal" ObjectID="E0ECEF1C-EA18-B9C4-D798ED6EB7326F16" Title="Endoscopic mucosal resection" Url="http://www.mayoclinic.com/health/endoscopic-mucosal-resection/MY00813" />
+		<LinkItem ContentType="Video" DocID="MM00796" LinkType="Internal" ObjectID="70FCA52B-ECD0-86BB-292793A8F4FA546A" Title="Video: Cryotherapy of the esophagus" Url="http://www.mayoclinic.com/health/cryotherapy/MM00796" />
+		<LinkItem ContentType="Video" DocID="MM00795" LinkType="Internal" ObjectID="70F8A7B4-B4C9-A531-73CAD5DBDE17A464" Title="Video: Radiofrequency ablation of the esophagus" Url="http://www.mayoclinic.com/health/radiofrequency-ablation/MM00795" />
+		<LinkItem ContentType="Video" DocID="MM00793" LinkType="Internal" ObjectID="70F60FFC-E010-6F6F-B4B067D861FD753B" Title="Video: Photodynamic therapy of the esophagus" Url="http://www.mayoclinic.com/health/photodynamic-therapy/MM00793" />
+		<LinkItem ContentType="Video" DocID="MM00792" LinkType="Internal" ObjectID="70F0DF52-DC57-0EF6-715136A338AA7A28" Title="Video: Esophagectomy" Url="http://www.mayoclinic.com/health/esophagectomy/MM00792" />
+		<LinkItem ContentType="Video" DocID="MM00782" LinkType="Internal" ObjectID="2A2C6CCE-9CF2-FA36-CF2B4AF01D254DCE" Title="Video: Endoscopic mucosal resection" Url="http://www.mayoclinic.com/health/endoscopic-mucosal-resection/MM00782" />
+		<LinkItem ContentType="Video" DocID="MM00796" LinkType="Internal" ObjectID="70FCA52B-ECD0-86BB-292793A8F4FA546A" Title="Video: Cryotherapy of the esophagus" Url="http://www.mayoclinic.com/health/cryotherapy/MM00796" />
+		<LinkItem ContentType="Video" DocID="MM00795" LinkType="Internal" ObjectID="70F8A7B4-B4C9-A531-73CAD5DBDE17A464" Title="Video: Radiofrequency ablation of the esophagus" Url="http://www.mayoclinic.com/health/radiofrequency-ablation/MM00795" />
+		<LinkItem ContentType="Video" DocID="MM00793" LinkType="Internal" ObjectID="70F60FFC-E010-6F6F-B4B067D861FD753B" Title="Video: Photodynamic therapy of the esophagus" Url="http://www.mayoclinic.com/health/photodynamic-therapy/MM00793" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+		<LinkItem ContentType="Disease" DocID="DS00500" LinkType="Internal" ObjectID="823E0F62-2792-45B8-8BF61D7EC1077F47" Title="Esophageal cancer" Url="http://www.mayoclinic.com/health/esophageal-cancer/DS00500" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+	</RelatedLinksBox>
+</Disease>

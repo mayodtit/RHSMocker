@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00657
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/botulism/DS00657
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-19
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2564" Title="Botulism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			27E5B0BF-2A5D-9994-E44678B317D856AE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				botulism
+			</MetaKeyword>
+			<MetaKeyword>
+				botulinum toxin
+			</MetaKeyword>
+			<MetaKeyword>
+				food poisoning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Botulism is a rare but serious condition caused by toxins from bacteria called Clostridium botulinum. 
+&lt;/p&gt;
+&lt;p&gt;
+Botulism comes in several forms, with the three main forms being: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infant botulism.&lt;/strong&gt; This most common form of botulism begins after Clostridium botulinum bacterial spores grow in a baby&apos;s intestinal tract. It typically occurs between the ages of 2 and 6 months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foodborne botulism.&lt;/strong&gt; The harmful bacteria thrive and produce the toxin in environments with little oxygen, such as in canned food.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wound botulism.&lt;/strong&gt; If these bacteria get into a cut, they can cause a dangerous infection that produces the toxin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All types of botulism can be fatal and are considered medical emergencies. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Foodborne botulism&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of foodborne botulism typically begin between 18 and 36 hours after the toxin gets into your body, but can range from a few hours to several days, depending on the amount of toxin ingested. Signs and symptoms of foodborne botulism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty swallowing or speaking &lt;/li&gt;
+	&lt;li&gt;Dry mouth &lt;/li&gt;
+	&lt;li&gt;Facial weakness on both sides of the face &lt;/li&gt;
+	&lt;li&gt;Blurred or double vision&lt;/li&gt;
+	&lt;li&gt;Drooping eyelids &lt;/li&gt;
+	&lt;li&gt;Trouble breathing &lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting and abdominal cramps &lt;/li&gt;
+	&lt;li&gt;Paralysis &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Wound botulism&lt;/strong&gt; &lt;br /&gt;
+Most people who develop wound botulism inject drugs several times a day, so it&apos;s difficult to determine how long it takes for signs and symptoms to develop after the toxin enters the body. Most common in people who inject black tar heroin, wound botulism signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty swallowing or speaking &lt;/li&gt;
+	&lt;li&gt;Facial weakness on both sides of the face&lt;/li&gt;
+	&lt;li&gt;Blurred or double vision &lt;/li&gt;
+	&lt;li&gt;Drooping eyelids &lt;/li&gt;
+	&lt;li&gt;Trouble breathing &lt;/li&gt;
+	&lt;li&gt;Paralysis &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infant botulism&lt;/strong&gt; &lt;br /&gt;
+If infant botulism is related to food, such as honey, problems generally will begin within 18 to 36 hours after the toxin enters the baby&apos;s body. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constipation (often the first sign)&lt;/li&gt;
+	&lt;li&gt;Floppy movements due to muscle weakness and trouble controlling the head&lt;/li&gt;
+	&lt;li&gt;Weak cry &lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Drooling &lt;/li&gt;
+	&lt;li&gt;Drooping eyelids &lt;/li&gt;
+	&lt;li&gt;Tiredness&lt;/li&gt;
+	&lt;li&gt;Difficulty sucking or feeding&lt;/li&gt;
+	&lt;li&gt;Paralysis &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain signs and symptoms usually are absent with botulism, including no elevation in blood pressure or heart rate, no confusion, and no fever. However, fever is sometimes present with wound botulism. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek urgent medical care if you suspect that you have botulism. Early treatment increases your chances of survival. Seeking medical care promptly may also serve to alert public health authorities. They can keep other people from eating contaminated food. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Infant botulism&lt;/strong&gt; &lt;br /&gt;
+Babies get infant botulism after consuming spores of the bacteria, which then grow and multiply in their intestinal tracts and make toxins. The source of infant botulism may be honey, but it&apos;s more likely to be exposure to soil contaminated with the bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Foodborne botulism&lt;/strong&gt; &lt;br /&gt;
+The source of foodborne botulism is often home-canned foods that are low in acid, such as green beans, corn and beets. A common source of the illness in Alaska is fermented seafood. However, the disease has also occurred from chili peppers, baked potatoes and oil infused with garlic. When you eat food containing the toxin, it disrupts nerve function, causing paralysis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wound botulism&lt;/strong&gt; &lt;br /&gt;
+When C. botulinum bacteria get into a wound &amp;mdash; possibly caused by an injury you might not notice &amp;mdash; they can multiply and produce toxin. Wound botulism has increased in recent decades in people who inject heroin, which can contain spores of the bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Are there benefits to botulinum toxin?&lt;/strong&gt; &lt;br /&gt;
+You might wonder how something so toxic could ever be beneficial, but scientists have found that the paralyzing effect of botulinum toxin makes it useful in certain circumstances. 
+&lt;/p&gt;
+&lt;p&gt;
+Botulinum toxin has been used to reduce facial wrinkles by preventing contraction of muscles beneath the skin and for medical conditions, such as eyelid spasms and severe underarm sweating. However, there have been rare occurrences of serious side effects, such as muscle paralysis extending beyond the treated area, with the use of botulinum toxin for medical reasons. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it affects muscle control throughout your body, botulinum toxin can cause many complications. The most immediate danger is that you won&apos;t be able to breathe, which is the most common cause of death in botulism. Other complications, which may require rehabilitation, may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing &lt;/li&gt;
+	&lt;li&gt;Long-lasting weakness &lt;/li&gt;
+	&lt;li&gt;Fatigue &lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may first see your primary care doctor. However, you&apos;ll likely be sent to the hospital for immediate treatment. At the hospital, you&apos;ll probably also see a doctor who specializes in neurology (neurologist) or infectious diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bring any medications you take with you,&lt;/strong&gt; and let your doctor know about any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Although you may not have time to write down questions before your first appointment, write down any questions you want to ask at your follow-up appointments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For botulism, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did I get botulism?&lt;/li&gt;
+	&lt;li&gt;Will I have any lasting problems?&lt;/li&gt;
+	&lt;li&gt;What side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there dietary restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;How can I prevent this from happening again?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor any other appropriate questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you or your child eaten any canned food recently?&lt;/li&gt;
+	&lt;li&gt;If your infant is ill, has he or she consumed honey?&lt;/li&gt;
+	&lt;li&gt;Did anyone else eat the food suspected of making you ill?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose botulism, your doctor will check you for signs of muscle weakness or paralysis, such as drooping eyelids and a weak voice. Your doctor will also ask about the foods you&apos;ve eaten in the past few days, and ask if you may have been exposed to the bacteria through a wound. 
+&lt;/p&gt;
+&lt;p&gt;
+In cases of possible infant botulism, the doctor may ask if the child has eaten honey recently and has had constipation or sluggishness. 
+&lt;/p&gt;
+&lt;p&gt;
+Analysis of blood, stool or vomit for evidence of the toxin may help confirm an infant or foodborne botulism diagnosis, but because these tests may take days, your doctor&apos;s clinical examination is the primary means of diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For cases of foodborne botulism, doctors sometimes clear out the digestive system by inducing vomiting and giving medications to induce bowel movements. If you have botulism in a wound, a doctor may need to remove infected tissue surgically. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antitoxin&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re diagnosed early with foodborne or wound botulism, injected antitoxin reduces the risk of complications. The antitoxin attaches itself to toxin that&apos;s still circulating in your bloodstream and keeps it from harming your nerves. The antitoxin cannot, however, reverse the damage that&apos;s been done. Fortunately, nerves do regenerate. Many people recover fully, but it may take months and extended rehabilitation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+A different type of medication, known as botulism immune globulin, is used to treat infants. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Breathing assistance&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re having trouble breathing, you will probably need a mechanical ventilator for up to several weeks as the effects of the toxin gradually lessen. The ventilator forces air into your lungs through a tube inserted in your airway through your nose or mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rehabilitation&lt;/strong&gt; &lt;br /&gt;
+As you recover, you may also need therapy to improve your speech, swallowing and other functions affected by the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Use proper canning techniques&lt;/strong&gt; &lt;br /&gt;
+Be sure to use proper techniques when canning foods at home to ensure that any botulism germs in the food are destroyed: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pressure cook these foods at 250 F (121 C) for at least 30 minutes.&lt;/li&gt;
+	&lt;li&gt;Consider boiling these foods for 10 minutes before serving them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare and store food safely&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t eat preserved food if its container is bulging or if the food smells spoiled. However, taste and smell won&apos;t always give away the presence of C. botulinum. Some strains don&apos;t make food smell bad or taste unusual.&lt;/li&gt;
+	&lt;li&gt;If you wrap potatoes in foil before baking them, eat them hot or store them in the refrigerator &amp;mdash; not at room temperature. &lt;/li&gt;
+	&lt;li&gt;Store oils infused with garlic or herbs in the refrigerator.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infant botulism&lt;/strong&gt; &lt;br /&gt;
+To reduce the risk of infant botulism, avoid giving honey &amp;mdash; even a tiny taste &amp;mdash; to babies under the age of 1 year. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wound botulism&lt;/strong&gt; &lt;br /&gt;
+To prevent wound botulism and other serious bloodborne diseases, never inject or inhale street drugs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Botulism
+	</Title>
+	<Abstract>
+		Botulism &amp;mdash; Comprehensive overview covers causes, symptoms, treatments in adults and infants.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+	</RelatedLinksBox>
+</Disease>

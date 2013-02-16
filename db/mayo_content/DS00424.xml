@@ -1,0 +1,205 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00424
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/smallpox/DS00424
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-10
+		</UpdateDate>
+		<PublicationDate>
+			2001-12-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2563" Title="Smallpox" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			07875ABC-B89D-4A02-B794025BE72FCA90
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				smallpox
+			</MetaKeyword>
+			<MetaKeyword>
+				variola
+			</MetaKeyword>
+			<MetaKeyword>
+				cowpox
+			</MetaKeyword>
+			<MetaKeyword>
+				biological warfare
+			</MetaKeyword>
+			<MetaKeyword>
+				biological weapon
+			</MetaKeyword>
+			<MetaKeyword>
+				bioterrorism
+			</MetaKeyword>
+			<MetaKeyword>
+				small pox
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Smallpox is a contagious, disfiguring and often deadly disease that has affected humans for thousands of years. Naturally occurring smallpox was eradicated worldwide by 1980 &amp;mdash; the result of an unprecedented global immunization campaign. 
+&lt;/p&gt;
+&lt;p&gt;
+Stockpiles of smallpox virus have been kept for research purposes. This has led to concerns that smallpox could someday be used as a biological warfare agent. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no treatment or cure for smallpox. A vaccine can prevent smallpox, but the risk of the vaccine&apos;s side effects is too high to currently justify routine vaccination for people at low risk of exposure to the smallpox virus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first symptoms of smallpox usually appear 12 to 14 days after you&apos;re infected. During the incubation period of seven to 17 days, you look and feel healthy and can&apos;t infect others. 
+&lt;/p&gt;
+&lt;p&gt;
+Following the incubation period, a sudden onset of flu-like signs and symptoms occurs. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Overall discomfort&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Severe fatigue&lt;/li&gt;
+	&lt;li&gt;Severe back pain &lt;/li&gt;
+	&lt;li&gt;Sometimes vomiting, diarrhea or both&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A few days later, flat, red spots appear first on your face, hands and forearms, and later on your trunk. Within a day or two, many of these lesions turn into small blisters filled with clear fluid, which then turns into pus. Scabs begin to form eight to nine days later and eventually fall off, leaving deep, pitted scars. 
+&lt;/p&gt;
+&lt;p&gt;
+The rash is usually most noticeable on the palms of your hands and the soles of your feet. Lesions also develop in the mucous membranes of your nose and mouth and quickly turn into sores that break open, spreading the virus into your saliva. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing smallpox pustules covering the trunk of the body
+" Caption="These are smallpox lesions on the skin of the trunk. This photograph was taken in Bangladesh in 1973. 
+" Height="60" Title="Smallpox" URI="/images/image_popup/thumbs/r7_cdcsmallpox2thu.jpg" Width="60" />
+				<Image Alt="Photograph showing smallpox pustules covering the trunk of the body
+" Caption="These are smallpox lesions on the skin of the trunk. This photograph was taken in Bangladesh in 1973. 
+" Height="262" Title="Smallpox" URI="/images/image_popup/r7_cdcsmallpox2.jpg" Width="387" />
+				<HTML>
+					These are smallpox lesions on the skin of the trunk. This photograph was taken in Bangladesh in 1973. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Smallpox usually requires fairly prolonged face-to-face contact to spread. It&apos;s most often transmitted through the air by droplets that escape when an infected person coughs, sneezes or talks. In rare instances, airborne virus may spread farther, possibly through the ventilation system in a building, infecting people in other rooms or on other floors. Smallpox can also spread through contact with contaminated clothing and bedding, although the risk of infection from these sources is slight. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who get smallpox survive. However, there are a few rare varieties of smallpox that are almost always fatal. These more severe forms of smallpox most commonly affect pregnant women and people with impaired immune systems. 
+&lt;/p&gt;
+&lt;p&gt;
+People who recover from smallpox usually have severe scars, especially on the face, arms and legs. In some cases, smallpox may cause blindness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even a single confirmed case of smallpox would be considered an international health emergency. The Centers for Disease Control and Prevention (CDC) can do definitive testing using a tissue sample taken from one of the lesions on the skin of the infected person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No cure for smallpox exists. Treatment would focus on relieving symptoms and keeping the person from becoming dehydrated. Antibiotics may be prescribed if the person also develops a bacterial infection in the lungs or on the skin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To control the spread of the virus, people who have smallpox would be kept in isolation at a hospital. All the people they&apos;ve had contact with would receive the smallpox vaccine, which can prevent or lessen the severity of the disease if given within three days of exposure to the smallpox virus. 
+&lt;/p&gt;
+&lt;p&gt;
+The vaccine uses a live virus that&apos;s related to smallpox, and it can occasionally cause serious complications, such as infections affecting the heart or brain. That&apos;s why a general vaccination program for everyone isn&apos;t recommended at this time. The potential risks of the vaccine outweigh the benefits, in the absence of an actual smallpox outbreak. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you were vaccinated as a child&lt;/strong&gt; &lt;br /&gt;
+It&apos;s not known how long immunity lasts after a smallpox vaccine. Studies to answer that question have had conflicting results. The duration of protection can be affected by the type of vaccine used and how it was administered. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s likely that vaccination is most effective for about three to five years, with immunity decreasing after that. Partial immunity may last much longer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Smallpox
+	</Title>
+	<Abstract>
+		Smallpox &amp;mdash; Comprehensive overview covers symptoms, causes, vaccine prevention of this devastating disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00332
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rubella/DS00332
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2566" Title="Rubella" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D3A99F0C-70D6-49AF-B64709EE1ACD37CD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rubella
+			</MetaKeyword>
+			<MetaKeyword>
+				German measles
+			</MetaKeyword>
+			<MetaKeyword>
+				three day measles
+			</MetaKeyword>
+			<MetaKeyword>
+				three-day measles
+			</MetaKeyword>
+			<MetaKeyword>
+				3 day measles
+			</MetaKeyword>
+			<MetaKeyword>
+				MMR
+			</MetaKeyword>
+			<MetaKeyword>
+				MMR vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				mmr vaccine and autism
+			</MetaKeyword>
+			<MetaKeyword>
+				rubela
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rubella, also called German measles or three-day measles, is a contagious viral infection best known by its distinctive red rash. 
+&lt;/p&gt;
+&lt;p&gt;
+Rubella is not the same as measles (rubeola), though the two illnesses do share some characteristics, including the red rash. However, rubella is caused by a different virus than measles and is neither as infectious nor usually as severe as measles. 
+&lt;/p&gt;
+&lt;p&gt;
+The measles-mumps-rubella (MMR) vaccine, usually given to children in the United States twice before they reach school age, is highly effective in preventing rubella. Because of widespread use of the vaccine, the Centers for Disease Control and Prevention (CDC) has declared rubella eliminated in the United States, but cautions parents to make sure their children are vaccinated to prevent its reemergence. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of rubella rash
+" Caption="Rubella results in a fine, pink rash that appears on the face, the trunk (shown in image), and then the arms and legs.
+" Height="60" Title="Rubella" URI="/images/image_popup/thumbs/r7_rubella2007thu.jpg" Width="60" />
+				<Image Alt="Photograph of rubella rash
+" Caption="Rubella results in a fine, pink rash that appears on the face, the trunk (shown in image), and then the arms and legs.
+" Height="400" Title="Rubella" URI="/images/image_popup/r7_rubella2007.jpg" Width="400" />
+				<HTML>
+					Rubella results in a fine, pink rash that appears on the face, the trunk (shown in image), and then the arms and legs.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of rubella are often so mild that they&apos;re difficult to notice, especially in children. If signs and symptoms do occur, they generally appear between two and three weeks after exposure to the virus. They typically last about two to three days and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild fever of 102 F (38.9 C) or lower&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Stuffy or runny nose&lt;/li&gt;
+	&lt;li&gt;Inflamed, red eyes&lt;/li&gt;
+	&lt;li&gt;Enlarged, tender lymph nodes at the base of the skull, the back of the neck and behind the ears&lt;/li&gt;
+	&lt;li&gt;A fine, pink rash that begins on the face and quickly spreads to the trunk and then the arms and legs, before disappearing in the same sequence&lt;/li&gt;
+	&lt;li&gt;Aching joints, especially in young women&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you think you or your child may have been exposed to rubella or if you have the symptoms listed above. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re contemplating getting pregnant, check your vaccination record to make sure you&apos;ve received your MMR inoculations. If a pregnant woman contracts rubella, especially during her first trimester, the virus can cause death or serious birth defects in her developing fetus. Rubella during pregnancy is the most common cause of congenital deafness. It&apos;s best for women to be protected against rubella before pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant, you&apos;ll likely undergo a routine screening for immunity to rubella. But if you&apos;ve never received the vaccine and think you might have been exposed to rubella, contact your doctor immediately. A blood test might confirm that you&apos;re already immune and unlikely to develop rubella. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of rubella rash
+" Caption="Rubella results in a fine, pink rash that appears on the face, the trunk (shown in image), and then the arms and legs.
+" Height="60" Title="Rubella" URI="/images/image_popup/thumbs/r7_rubella2007thu.jpg" Width="60" />
+				<Image Alt="Photograph of rubella rash
+" Caption="Rubella results in a fine, pink rash that appears on the face, the trunk (shown in image), and then the arms and legs.
+" Height="400" Title="Rubella" URI="/images/image_popup/r7_rubella2007.jpg" Width="400" />
+				<HTML>
+					Rubella results in a fine, pink rash that appears on the face, the trunk (shown in image), and then the arms and legs.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of rubella is a virus that&apos;s passed from person to person. It can spread when an infected person coughs or sneezes, or it can spread by direct contact with an infected person&apos;s respiratory secretions, such as mucus. It can also be transmitted from a pregnant woman to her unborn child via the bloodstream. A person with rubella is contagious from 10 days before the onset of the rash until about one or two weeks after the rash disappears. An infected person can spread the illness before the person realizes he or she has it. 
+&lt;/p&gt;
+&lt;p&gt;
+Rubella is rare in the United States because most children receive a vaccination against the infection at an early age. However, cases of rubella do occur, mostly in unvaccinated foreign-born adults. 
+&lt;/p&gt;
+&lt;p&gt;
+The disease is still common in many parts of the world. The prevalence of rubella in other countries is something to consider before going abroad, especially if you&apos;re pregnant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rubella is a mild infection. Once you&apos;ve had the disease, you&apos;re usually permanently immune. Some women with rubella experience arthritis in the fingers, wrists and knees, which generally lasts for about one month. In rare cases, rubella can cause an ear infection (otitis media) or inflammation of the brain (encephalitis). 
+&lt;/p&gt;
+&lt;p&gt;
+However, if you&apos;re pregnant when you contract rubella, the consequences for your unborn child may be severe. Up to 90 percent of infants born to mothers who had rubella during the first 11 weeks of pregnancy develop congenital rubella syndrome. This can cause one or more problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Growth retardation&lt;/li&gt;
+	&lt;li&gt;Cataracts&lt;/li&gt;
+	&lt;li&gt;Deafness&lt;/li&gt;
+	&lt;li&gt;Congenital heart defects&lt;/li&gt;
+	&lt;li&gt;Defects in other organs&lt;/li&gt;
+	&lt;li&gt;Mental retardation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The highest risk to the fetus is during the first trimester, but exposure later in pregnancy also is dangerous. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As you prepare for your appointment, it&apos;s a good idea to write down any questions you have. Your doctor is likely to ask you a number of questions as well. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you been vaccinated for rubella?&lt;/li&gt;
+	&lt;li&gt;How long have you had symptoms, such as a rash or aching joints?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to anyone with rubella?&lt;/li&gt;
+	&lt;li&gt;Have you traveled to other countries in recent weeks? Which countries?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When you check in for the appointment, be sure to tell the check-in desk that you suspect an infectious disease. They may choose to give you a face mask or show you to your room immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The rubella rash can look like many other viral rashes. So doctors usually confirm rubella with the help of laboratory tests. You may have a virus culture or a blood test, which can detect the presence of different types of rubella antibodies in your blood. These antibodies indicate whether you&apos;ve had a recent or past infection or a rubella vaccine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatment will shorten the course of rubella infection, and symptoms are so mild that treatment usually isn&apos;t necessary. However, doctors often recommend isolation from others &amp;mdash; especially pregnant women &amp;mdash; during the infectious period. 
+&lt;/p&gt;
+&lt;p&gt;
+If you contract rubella while you&apos;re pregnant, discuss the risks to your baby with your doctor. If you wish to continue your pregnancy, you may be given antibodies called hyperimmune globulin that can fight off the infection. This can reduce your symptoms but doesn&apos;t eliminate the possibility of your baby developing congenital rubella syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Support of an infant born with congenital rubella syndrome varies depending on the extent of the infant&apos;s problems. Children with multiple complications may require early treatment from a team of specialists. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In rare instances when a child or adult is infected with rubella, simple self-care measures are required: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rest in bed as necessary.&lt;/li&gt;
+	&lt;li&gt;Take acetaminophen (Tylenol, others) to relieve discomfort from fever and aches.&lt;/li&gt;
+	&lt;li&gt;Tell friends, family and co-workers &amp;mdash; especially pregnant women &amp;mdash; about your diagnosis if they may have been exposed to the disease.&lt;/li&gt;
+	&lt;li&gt;Avoid people who have conditions that cause deficient or suppressed immune systems.&lt;/li&gt;
+	&lt;li&gt;Tell your child&apos;s school or child care provider that your child has rubella.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The rubella vaccine is usually given as a combined measles-mumps-rubella inoculation, which contains the safest and most effective form of each vaccine. Doctors recommend that children receive the MMR vaccine between 12 and 15 months of age, and again between 4 and 6 years of age &amp;mdash; before entering school. It&apos;s particularly important that girls receive the vaccine to prevent rubella during future pregnancies. 
+&lt;/p&gt;
+&lt;p&gt;
+Usually babies are protected from rubella for six to eight months after birth because of the immunity passed on from their mothers. If a child requires protection from rubella before 12 months of age &amp;mdash; for example, for certain foreign travel &amp;mdash; the vaccine can be given as early as 6 months of age. But children who are vaccinated early still need to be vaccinated at the recommended ages later. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Do you need the MMR vaccine?&lt;/strong&gt;&lt;br /&gt;
+You &lt;strong&gt;don&apos;t&lt;/strong&gt; need a vaccine if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Had two doses of the MMR vaccine after 12 months of age or one dose of the MMR vaccine plus a second dose of measles vaccine&lt;/li&gt;
+	&lt;li&gt;Have blood tests that indicate you&apos;re immune to measles, mumps and rubella&lt;/li&gt;
+	&lt;li&gt;Are a man who was born before 1957&lt;/li&gt;
+	&lt;li&gt;Are a woman who was born before 1957 and you don&apos;t plan to have any more children, you already had the rubella vaccine, or you have a positive rubella immunity test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You should get a vaccine if you &lt;strong&gt;don&apos;t&lt;/strong&gt; fit the criteria listed above &lt;strong&gt;and&lt;/strong&gt; you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are a nonpregnant woman of childbearing age&lt;/li&gt;
+	&lt;li&gt;Attend college, trade school or postsecondary school&lt;/li&gt;
+	&lt;li&gt;Work in a hospital, medical facility, child care center or school&lt;/li&gt;
+	&lt;li&gt;Plan to travel overseas or take a cruise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The vaccine is &lt;strong&gt;not&lt;/strong&gt; recommended for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pregnant women or women who plan to get pregnant within the next four weeks &lt;/li&gt;
+	&lt;li&gt;People who have had a life-threatening allergic reaction to gelatin, the antibiotic neomycin, or a previous dose of MMR vaccine &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have cancer, a blood disorder or another disease, or take medication that affects your immune system, talk to your doctor before getting an MMR vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Side effects of the vaccine&lt;/strong&gt; &lt;br /&gt;
+Most people experience no side effects from the vaccine. About 15 percent of people develop a fever between seven and 12 days after the vaccination, and about 5 percent of people develop a mild rash. Some teens and adult women experience temporary joint pain or stiffness after receiving the vaccine. Fewer than one out of a million doses causes a serious allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+In recent years, as the number of children diagnosed with autism has risen &amp;mdash; without a clear explanation &amp;mdash; widespread concerns have been raised about a possible link between the MMR vaccine and autism. However, extensive reports from the American Academy of Pediatrics, the Institute of Medicine, and the Centers for Disease Control and Prevention (CDC) conclude that there is no scientifically proven link between the MMR vaccine and autism. In addition, there is no scientific benefit to separating the vaccines. These organizations note that autism is often identified in toddlers between the ages of 18 months and 30 months, which happens to be about the time children are given their first MMR vaccine. But this coincidence in timing shouldn&apos;t be mistaken for a cause-and-effect relationship. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rubella
+	</Title>
+	<Abstract>
+		Rubella &amp;mdash; Comprehensive overview covers symptoms, prevention of this viral infection during pregnancy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00147" LinkType="Internal" ObjectID="DF9E0BE8-E7FF-0DBD-15BB97EE22BD0C3D" Title="Cordocentesis" Url="http://www.mayoclinic.com/health/percutaneous-umbilical-blood-sampling/MY00147" />
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+	</RelatedLinksBox>
+</Disease>

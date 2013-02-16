@@ -1,0 +1,116 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01760
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/panic-attacks/AN01760
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1560" Title="Panic attacks" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ABD0AE49-E7FF-0DBD-169274B10856735F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				nocturnal panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				panic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				sleeping panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				nighttime panic attacks
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Nighttime (nocturnal) panic attacks occur with no obvious trigger and awaken you from sleep. As with a daytime panic attack, you may experience sweating, rapid heart rate, trembling, shortness of breath, heavy breathing (hyperventilation), flushing or chills, and a sense of impending doom. These signs and symptoms are quite alarming and can mimic those of a heart attack or other serious medical condition. Although nocturnal panic attacks usually last less than 10 minutes, it may take a while to calm down and go back to sleep after you have one. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not known what causes panic attacks. Underlying factors may include genetics, stress and certain changes in the way parts of your brain work. In some cases, an underlying condition, such as a sleep disorder, can cause panic-like signs and symptoms. Talk with your doctor about your symptoms and whether you should have any tests for a possible underlying condition.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment including medications and mental health counseling (cognitive behavioral therapy) can help prevent panic attacks &amp;mdash; and reduce their intensity when they do occur.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nocturnal panic attacks: What causes them?
+	</Title>
+	<Abstract>
+		Nighttime (nocturnal) panic attacks can be very frightening. Learn about causes and treatments.
+	</Abstract>
+	<Question>
+		Can someone have a panic attack while sleeping?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01615" LinkType="Internal" ObjectID="4960C13D-E7FF-0DBD-1866BEED9AD896BE" Title="Depression and anxiety: Can I have both?" Url="http://www.mayoclinic.com/health/depression-and-anxiety/AN01615" />
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="MH00042" LinkType="Internal" ObjectID="0D9E914C-486D-425E-A823B1FC0A2EB794" Title="Mental health: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/mental-health/MH00042" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+		<LinkItem ContentType="Disease" DocID="DS00338" LinkType="Internal" ObjectID="18624942-2759-4F0E-9A5532BE9C89B904" Title="Panic attacks and panic disorder" Url="http://www.mayoclinic.com/health/panic-attacks/DS00338" />
+	</RelatedLinksBox>
+</Answer>

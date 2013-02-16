@@ -1,0 +1,362 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00345
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/narcolepsy/DS00345
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-24
+		</UpdateDate>
+		<PublicationDate>
+			1999-03-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="2672" Title="Narcolepsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9F7EDDDB-5C6D-4605-9C8DAD116CBF30E6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				narcolepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				excessive daytime sleepiness
+			</MetaKeyword>
+			<MetaKeyword>
+				daytime sleepiness
+			</MetaKeyword>
+			<MetaKeyword>
+				EDS
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				sleepiness
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				cataplexy
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep paralysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Narcolepsy is a chronic sleep disorder characterized by overwhelming daytime drowsiness and sudden attacks of sleep. People with narcolepsy often find it difficult to stay awake for long periods of time, regardless of the circumstances. Narcolepsy can cause serious disruptions in your daily routine.
+&lt;/p&gt;
+&lt;p&gt;
+Contrary to what some people believe, narcolepsy isn&apos;t related to depression, seizure disorders, fainting, simple lack of sleep or other conditions that may cause abnormal sleep patterns.
+&lt;/p&gt;
+&lt;p&gt;
+Narcolepsy is a chronic condition for which there&apos;s no cure. However, medications and lifestyle changes can help you manage the symptoms. Support from others &amp;mdash; family, friends, employer, teachers &amp;mdash; can help you cope with narcolepsy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The symptoms of narcolepsy most commonly begin between the ages of 10 and 25. They may worsen for the first few years, and then continue for life. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Excessive daytime sleepiness.&lt;/strong&gt; People with narcolepsy fall asleep without warning, anywhere, anytime. For example, you may suddenly nod off while working or talking with friends. You may sleep for a few minutes or up to a half-hour before awakening and feeling refreshed, but eventually you fall asleep again.
+	&lt;/p&gt;
+	&lt;p&gt;
+	You also may experience decreased alertness throughout the day. Excessive daytime sleepiness usually is the first symptom to appear and is often the most troublesome, making it difficult for you to concentrate and fully function. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Sudden loss of muscle tone.&lt;/strong&gt; This condition, called cataplexy (KAT-uh-plek-see), can cause a number of physical changes, from slurred speech to complete weakness of most muscles, and may last for a few seconds to a few minutes.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Cataplexy is uncontrollable and is triggered by intense emotions, usually positive ones such as laughter or excitement, but sometimes fear, surprise or anger. For example, your head may droop uncontrollably or your knees may suddenly buckle when you laugh. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some people with narcolepsy experience only one or two episodes of cataplexy a year, while others have numerous episodes daily. Not everyone with narcolepsy experiences cataplexy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Sleep paralysis.&lt;/strong&gt; People with narcolepsy often experience a temporary inability to move or speak while falling asleep or upon waking. These episodes are usually brief &amp;mdash; lasting one or two minutes &amp;mdash; but can be frightening. You may be aware of the condition and have no difficulty recalling it afterward, even if you had no control over what was happening to you.
+	&lt;/p&gt;
+	&lt;p&gt;
+	This sleep paralysis mimics the type of temporary paralysis that normally occurs during rapid eye movement (REM) sleep, the period of sleep during which most dreaming occurs. This temporary immobility during REM sleep may prevent your body from acting out dream activity. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Not everyone with sleep paralysis has narcolepsy, however. Many people without narcolepsy experience some episodes of sleep paralysis, especially in young adulthood. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hallucinations.&lt;/strong&gt; These hallucinations are called hypnagogic hallucinations if occurring as you fall asleep and hypnopompic hallucinations if occurring upon waking. Because you may be semi-awake when you begin dreaming, you experience your dreams as reality, and they may be particularly vivid and frightening.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other characteristics&lt;br /&gt;
+&lt;/strong&gt;People with narcolepsy may have other sleep disorders, such as obstructive sleep apnea, a condition in which breathing starts and stops throughout the night, restless legs syndrome and even insomnia. People with narcolepsy may also act out their dreams at night by flailing their arms or kicking and screaming. 
+&lt;/p&gt;
+&lt;p&gt;
+Some episodes of sleep attacks are brief, lasting seconds. Some people with narcolepsy experience automatic behavior during these brief episodes. For example, you may fall asleep while performing a task you normally perform, such as writing, typing or driving, and you continue to function while asleep. When you awaken, you can&apos;t remember what you did, and you probably didn&apos;t do it well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you experience excessive daytime sleepiness that disrupts your personal or professional life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of narcolepsy isn&apos;t known. Genetics may play a role. Other factors, such as infection, may contribute to the development of narcolepsy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal sleep pattern vs. narcolepsy&lt;br /&gt;
+&lt;/strong&gt;The normal process of falling asleep begins with a phase called non-rapid eye movement (NREM) sleep. During this phase, your brain waves slow considerably. After an hour or so of NREM sleep, your brain activity changes, and REM sleep begins. Most dreaming occurs during REM sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+In narcolepsy, however, you may suddenly enter into REM sleep without first experiencing NREM sleep, both at night and during the day. Some of the characteristics of REM sleep, such as sudden lack of muscle tone, sleep paralysis and vivid dreams, occur during other sleep stages in people with narcolepsy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The role of brain chemicals&lt;br /&gt;
+&lt;/strong&gt;Hypocretin (hi-po-KREE-tin) is an important chemical in your brain that helps regulate wakefulness and REM sleep. People with narcolepsy have low levels of this neurochemical in their spinal fluid. It&apos;s particularly low in those who experience cataplexy. Exactly what causes the loss of hypocretin-producing cells in the brain isn&apos;t known, but experts suspect it&apos;s due to an autoimmune reaction.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Public misunderstanding of the condition&lt;br /&gt;
+&lt;/strong&gt;Narcolepsy may cause serious problems for you professionally and personally. Others might see you as lazy, lethargic or rude. Your performance may suffer at school or work. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Interference with intimate relationships&lt;br /&gt;
+&lt;/strong&gt;Extreme sleepiness may cause low sex drive or impotence, and people with narcolepsy may even fall asleep while having sex. The problems caused by sexual dysfunction can be further complicated by emotional difficulties. Intense feelings, such as anger or joy, can trigger some signs of narcolepsy such as cataplexy, causing affected people to withdraw from emotional interactions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical harm&lt;br /&gt;
+&lt;/strong&gt;Sleep attacks may result in physical harm to people with narcolepsy. You&apos;re at increased risk of a car accident if you have an attack while driving. Your risk of cuts and burns is greater if you fall asleep while preparing food.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Obesity&lt;br /&gt;
+&lt;/strong&gt;People with narcolepsy are twice as likely to be overweight. The weight gain may be related to inactivity, binge eating, hypocretin deficiency or a combination of factors.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred to a sleep specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to go with you.&lt;/strong&gt; Sometimes it can be difficult to recall all the information you get during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. List your questions from most important to least important. For narcolepsy, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need a sleep study?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions anytime during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How often do you fall asleep during the day?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have similar symptons?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may make a preliminary diagnosis of narcolepsy based on your excessive daytime sleepiness and sudden loss of muscle tone (cataplexy). After an initial diagnosis, your doctor may refer you to a sleep specialist for more evaluation.
+&lt;/p&gt;
+&lt;p&gt;
+Formal diagnosis may require staying overnight at a sleep center, where you undergo an in-depth analysis of your sleep by a team of specialists. Methods of diagnosing narcolepsy and determining its severity include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep history.&lt;/strong&gt; Your doctor will ask you for a detailed sleep history. A part of the history involves filling out the Epworth Sleepiness Scale, which uses a series of short questions to gauge your degree of sleepiness. For instance, you indicate on a numbered scale how likely it is that you would doze off in certain situations, such as sitting down after lunch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep records.&lt;/strong&gt; You may be asked to keep a detailed diary of your sleep pattern for a week or two, so your doctor can compare how your sleep pattern and alertness are related. Often, in addition to this sleep log, the doctor will ask you to wear an actigraph. This device has the look and feel of a wristwatch. It measures periods of activity and rest and provides an indirect measure of how and when you sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polysomnogram.&lt;/strong&gt; This test measures a variety of signals during sleep using electrodes placed on your scalp. For this test, you must spend a night at a medical facility. The test measures the electrical activity of your brain (electroencephalogram) and heart (electrocardiogram) and the movement of your muscles (electromyogram) and eyes (electro-oculogram). It also monitors your breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple sleep latency test.&lt;/strong&gt; This examination measures how long it takes you to fall asleep during the day. You&apos;ll be asked to take four or five naps, each nap two hours apart. Specialists will observe your sleep patterns. People who have narcolepsy fall asleep easily and enter into rapid eye movement (REM) sleep quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypocretin test.&lt;/strong&gt; Most people with narcolepsy have low levels of this brain chemical that regulates REM sleep. This test measures the levels of hypocretin in the fluid that surrounds your spinal cord. A sample of your spinal fluid is obtained with a lumbar puncture (spinal tap), during which a needle is inserted into your lower spine to withdraw spinal fluid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These tests can also help doctors rule out other possible causes of your signs and symptoms. Other sleep disorders, such as sleep apnea, can cause excessive daytime sleepiness.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no cure for narcolepsy, but medications and lifestyle modifications can help you manage the symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications for narcolepsy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Stimulants.&lt;/strong&gt; Drugs that stimulate the central nervous system are the primary treatment to help people with narcolepsy stay awake during the day. Doctors often try modafinil (Provigil) or armodafinil (Nuvigil) first for narcolepsy because it isn&apos;t as addictive as older stimulants and doesn&apos;t produce the highs and lows often associated with older stimulants. Side effects of modafinil are uncommon, but they may include headache, nausea or dry mouth.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some people need treatment with methylphenidate (Concerta, Ritalin, others) or various amphetamines. These medications are very effective but may sometimes cause side effects such as nervousness and heart palpitations and can be addictive.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Selective serotonin reuptake inhibitors (SSRIs) or serotonin and norepinephrine reuptake inhibitors (SNRIs).&lt;/strong&gt; Doctors often prescribe these medications, which suppress REM sleep, to help alleviate the symptoms of cataplexy, hypnagogic hallucinations and sleep paralysis. They include fluoxetine (Prozac, Sarafem, others) and venlafaxine (Effexor XR). Side effects can include sexual dysfunction and digestive problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants.&lt;/strong&gt; These older antidepressants, such as protriptyline (Vivactil), imipramine (Tofranil) and clomipramine (Anafranil), are effective for cataplexy, but many people complain of side effects, such as dry mouth and lightheadedness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sodium oxybate (Xyrem).&lt;/strong&gt; This medication is highly effective for cataplexy. Sodium oxybate helps to improve nighttime sleep, which is often poor in narcolepsy. In high doses it may also help control daytime sleepiness. It must be taken in two doses, one at bedtime and one up to four hours later. Xyrem can have serious side effects, such as nausea, bed-wetting and worsening of sleepwalking. Taking sodium oxybate together with other sleeping medications, narcotic pain relievers or alcohol can lead to difficulty breathing, coma and death.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have other health problems, such as high blood pressure or diabetes, ask your doctor how the medications you take for your other conditions may interact with those taken for narcolepsy. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain over-the-counter drugs, such as allergy and cold medications, can cause drowsiness. If you have narcolepsy, your doctor will likely recommend that you avoid taking these medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Emerging treatments being investigated for narcolepsy include hypocretin replacement, hypocretin gene therapy, stem cell transplant, skin temperature manipulation and immunotherapy, but further research is needed to confirm their effectiveness.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle modifications are important in managing the symptoms of narcolepsy. You may benefit from these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to a schedule.&lt;/strong&gt; Go to sleep and wake up at the same time every day, including weekends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take naps.&lt;/strong&gt; Schedule short naps at regular intervals during the day. Naps of 20 minutes at strategic times during the day may be refreshing and reduce sleepiness for one to three hours. Some people may need longer naps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid nicotine and alcohol.&lt;/strong&gt; Using these substances, especially at night, can worsen your signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Moderate, regular exercise at least four to five hours before bedtime may help you feel more awake during the day and sleep better at night. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dealing with narcolepsy can be challenging. Making adjustments in your daily schedule may help. Consider these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Talk about it.&lt;/strong&gt; Tell your employer or teachers about your condition and work with them to find ways to accommodate your needs. This may include taking naps during the day, breaking up monotonous tasks, recording meetings or classes, standing during meetings or lectures, and taking brisk walks at various times throughout the day. The Americans With Disabilities Act prohibits discrimination against workers with narcolepsy and requires employers to provide reasonable accommodation to qualified employees.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be safe.&lt;/strong&gt; If you must drive a long distance, work with your doctor to establish a medication schedule that ensures the greatest likelihood of wakefulness during your drive. Stop for naps and exercise breaks whenever you feel drowsy. Don&apos;t drive if you feel your sleepiness is not well controlled.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Support groups and counseling can help you and your loved ones cope with narcolepsy. Ask your doctor to help you locate a group or qualified counselor in your area.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Narcolepsy
+	</Title>
+	<Abstract>
+		Narcolepsy &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of overwhelming daytime sleepiness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00296" LinkType="Internal" ObjectID="9602CBD0-E7FF-0DBD-17FC8BE1A811B9FC" Title="EEG (electroencephalogram)" Url="http://www.mayoclinic.com/health/eeg/MY00296" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+	</RelatedLinksBox>
+</Disease>

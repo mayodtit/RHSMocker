@@ -1,0 +1,386 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01164
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/frostbite/DS01164
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-07
+		</UpdateDate>
+		<PublicationDate>
+			2010-02-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3278" Title="Winter" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="3006" Title="Skin injury">
+						<Keyword MCVID="4632" Title="Frostbite" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB3E5653-B483-A7AE-847923075E5FE2FC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				frostbite
+			</MetaKeyword>
+			<MetaKeyword>
+				frostbit
+			</MetaKeyword>
+			<MetaKeyword>
+				frost bite
+			</MetaKeyword>
+			<MetaKeyword>
+				frostbite treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				frostbite symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				cold injury
+			</MetaKeyword>
+			<MetaKeyword>
+				frostnip
+			</MetaKeyword>
+			<MetaKeyword>
+				freezing
+			</MetaKeyword>
+			<MetaKeyword>
+				freezing injury
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frostbite occurs when the skin and body tissue just underneath it freezes. Your skin becomes very cold, then numb, hard and pale. Frostbite typically affects smaller, more exposed areas of your body, such as your fingers, toes, nose, ears, cheeks and chin. 
+&lt;/p&gt;
+&lt;p&gt;
+Frostnip, the first stage of frostbite, irritates the skin but doesn&apos;t cause permanent damage. You can treat mild forms of frostbite with first-aid measures, including slowly warming your skin with warm water. Severe frostbite, however, requires medical attention, as it can damage skin, tissues, muscle and bones and lead to complications, such as infection and nerve damage. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of frostbite 
+" Caption="Superficial frostbite, as seen here on the tip of a finger, typically affects smaller, more exposed areas of the body, such as the fingers, feet, nose, ears and face. 
+" Height="60" Title="Frostbite" URI="/images/image_popup/thumbs/mcdc7_frostbitethu.jpg" Width="60" />
+				<Image Alt="Picture of frostbite 
+" Caption="Superficial frostbite, as seen here on the tip of a finger, typically affects smaller, more exposed areas of the body, such as the fingers, feet, nose, ears and face. 
+" Height="229" Title="Frostbite" URI="/images/image_popup/mcdc7_frostbite.jpg" Width="400" />
+				<HTML>
+					Superficial frostbite, as seen here on the tip of a finger, typically affects smaller, more exposed areas of the body, such as the fingers, feet, nose, ears and face. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of frostbite include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A slightly painful, prickly or itching sensation&lt;/li&gt;
+	&lt;li&gt;Red, white, pale or grayish-yellow skin&lt;/li&gt;
+	&lt;li&gt;Hard or waxy-looking skin&lt;/li&gt;
+	&lt;li&gt;A cold or burning feeling&lt;/li&gt;
+	&lt;li&gt;Numbness&lt;/li&gt;
+	&lt;li&gt;Clumsiness due to joint and muscle stiffness&lt;/li&gt;
+	&lt;li&gt;Blistering, in severe cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Frostbite typically affects smaller, more exposed areas of the body, such as your fingers, toes, nose, ears, cheeks and chin. Because of area numbness, you may not realize you have frostbite until someone else points it out. 
+&lt;/p&gt;
+&lt;p&gt;
+Frostbite occurs in several stages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Frostnip.&lt;/strong&gt; The first stage of frostbite is frostnip &amp;mdash; a mild form of frostbite in which your skin turns red and feels very cold. Continued exposure leads to prickling and numbness in the affected area. As your skin warms, you may feel pain and tingling. Frostnip doesn&apos;t permanently damage the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Superficial frostbite.&lt;/strong&gt; The second stage of frostbite appears as reddened skin that turns white or very pale. The skin may remain soft, but some ice crystals may form in the tissue. Your skin may begin to feel deceptively warm &amp;mdash; a sign of serious skin involvement. If you treat frostbite at this stage, the surface of your skin may appear mottled, blue or purple as it&apos;s warmed or thawed. With warming, you may notice stinging, burning and swelling. A fluid-filled blister may appear 24 to 36 hours after rewarming the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe or deep frostbite.&lt;/strong&gt; As frostbite progresses, it affects all layers of the skin, including the tissues that lie below. You may experience deceptive numbness in which you lose all sensation of cold, pain or discomfort. Joints or muscles may no longer work. Large blisters form 24 to 48 hours after rewarming. Afterward, the area turns black and hard as the tissue dies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical attention for frostbite if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Signs and symptoms of superficial or severe frostbite &amp;mdash; such as white or pale skin, loss of all sensation in the affected area, or blisters&lt;/li&gt;
+	&lt;li&gt;Increased pain, swelling, redness or discharge in the area that was frostbitten&lt;/li&gt;
+	&lt;li&gt;Fever of more than 100.4 degrees Fahrenheit (38 degrees Celsius)&lt;/li&gt;
+	&lt;li&gt;Dizziness, aching or feeling generally ill&lt;/li&gt;
+	&lt;li&gt;New, unexplained symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of frostnip 
+" Caption="Frostnip, a mild form of frostbite, irritates the skin, causing redness and a cold feeling followed by numbness. Frostnip doesn&apos;t permanently damage the skin. 
+" Height="60" Title="Frostnip" URI="/images/image_popup/thumbs/mcdc7_frostnipthu.jpg" Width="60" />
+				<Image Alt="Picture of frostnip 
+" Caption="Frostnip, a mild form of frostbite, irritates the skin, causing redness and a cold feeling followed by numbness. Frostnip doesn&apos;t permanently damage the skin. 
+" Height="509" Title="Frostnip" URI="/images/image_popup/mcdc7_frostnip.jpg" Width="400" />
+				<HTML>
+					Frostnip, a mild form of frostbite, irritates the skin, causing redness and a cold feeling followed by numbness. Frostnip doesn&apos;t permanently damage the skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of frostbite 
+" Caption="Superficial frostbite, as seen here on the tip of a finger, typically affects smaller, more exposed areas of the body, such as the fingers, feet, nose, ears and face. 
+" Height="60" Title="Frostbite" URI="/images/image_popup/thumbs/mcdc7_frostbitethu.jpg" Width="60" />
+				<Image Alt="Picture of frostbite 
+" Caption="Superficial frostbite, as seen here on the tip of a finger, typically affects smaller, more exposed areas of the body, such as the fingers, feet, nose, ears and face. 
+" Height="229" Title="Frostbite" URI="/images/image_popup/mcdc7_frostbite.jpg" Width="400" />
+				<HTML>
+					Superficial frostbite, as seen here on the tip of a finger, typically affects smaller, more exposed areas of the body, such as the fingers, feet, nose, ears and face. 
+...
+				</HTML>
+			</PopupMedia>
+			<Flash Height="510" ObjectID="6A5A6F8D-FD75-DFAC-49DE2D14782A5A07" URI="/flash/popup/mcdc6_frostbite.swf" Width="410">
+				<Title>
+					Stages of frostbite
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frostbite occurs when skin and underlying tissues freeze. The most common cause of frostbite is exposure to cold-weather conditions, but direct exposure to freezing materials, such as ice, also can cause frostbite.
+&lt;/p&gt;
+&lt;p&gt;
+Specific conditions that lead to frostbite include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wearing clothes that aren&apos;t warm enough or don&apos;t protect against cold, windy or wet weather&lt;/li&gt;
+	&lt;li&gt;Not covering skin while exposed to cold temperatures&lt;/li&gt;
+	&lt;li&gt;Staying out in the cold too long&lt;/li&gt;
+	&lt;li&gt;Touching freezing materials, such as ice, cold packs or metal that&apos;s been exposed to freezing temperatures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Frostbite occurs in two ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Losing body heat.&lt;/strong&gt; Frostbite can occur in conjunction with hypothermia &amp;mdash; a condition in which your body loses heat faster than it produces heat, causing dangerously low body temperature. When core body temperature lowers, it decreases circulation and threatens vital organs. This triggers a &quot;life over limb&quot; response, meaning your body protects vital organs, sometimes at the expense of extremities. With decreased circulation to the skin, your body temperature lowers and the tissue freezes &amp;mdash; at about 28 F (-2 C).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Direct contact.&lt;/strong&gt; If you&apos;re in direct contact with something very cold, such as ice or metal, heat is conducted away from your body. Such exposure lowers the temperature of the skin and freezes the tissue.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors increase your risk of frostbite:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medical conditions that affect your ability to feel or respond to cold, such as dehydration, exhaustion, diabetes, peripheral neuropathy or circulatory problems&lt;/li&gt;
+	&lt;li&gt;Alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Mental illness, if it inhibits good judgment or hampers your ability to respond to cold&lt;/li&gt;
+	&lt;li&gt;Previous frostbite or cold injury&lt;/li&gt;
+	&lt;li&gt;Being an infant or older adult, both of whom may have a harder time producing and retaining body heat&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of frostbite can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased sensitivity to cold&lt;/li&gt;
+	&lt;li&gt;Increased risk of developing frostbite again&lt;/li&gt;
+	&lt;li&gt;Permanent numbness or nerve abnormalities in the affected area&lt;/li&gt;
+	&lt;li&gt;Changes in the cartilage between the joints (frostbite arthritis)&lt;/li&gt;
+	&lt;li&gt;Growth defects in children, if frostbite damages a bone&apos;s growth plate&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Gangrene &amp;mdash; decay and death of tissue resulting from an interruption of blood flow to a certain area of your body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cold exposure that&apos;s severe enough to cause frostbite can also cause hypothermia. When your body temperature drops, your heart, nervous system and other organs don&apos;t work correctly. Left untreated, hypothermia eventually leads to complete failure of your heart and respiratory system and to death.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your doctor if you suspect you have frostbite. Depending on the severity of your symptoms, you may be told to go to an emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time before your appointment, use the information below to get ready for your medical evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms you&apos;re experiencing and for how long.&lt;/strong&gt; It will help your doctor to have as many details as possible about your cold exposure and to know if your signs and symptoms have changed or progressed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information, including any other conditions with which you&apos;ve been diagnosed.&lt;/strong&gt; Also write down all medications you&apos;re taking, including over-the-counter medications and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the date of your last tetanus shot.&lt;/strong&gt; Frostbite increases risk of tetanus, so if you haven&apos;t been vaccinated or if your last shot was more than 10 years ago, your doctor may recommend that you be vaccinated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask &lt;/strong&gt;your doctor. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions so that you can make the most of your time with your doctor. For frostbite, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend while the frostbite heals?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+	&lt;li&gt;What changes in my skin should I look for?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that occur to you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The diagnosis of frostbite is usually apparent based on your signs and symptoms, appearance of your skin, and recent exposure to cold. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may conduct tests, such as an X-ray, bone scan or magnetic resonance imaging (MRI) test, to determine the severity of the frostbite and to check if bone or muscle is damaged. Your doctor may also run tests if he or she suspects you have hypothermia, a condition that often occurs with frostbite.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for frostbite includes first-aid care and medical treatment, depending on the severity of the frostbite. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;First-aid care&lt;br /&gt;
+&lt;/strong&gt;Gradually warming the affected skin is key to treating frostbite. To do so:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your skin from further exposure.&lt;/strong&gt; If you&apos;re outside, warm frostbitten hands by tucking them into your armpits. Protect your face, nose or ears by covering the area with dry, gloved hands. Don&apos;t rub the affected area and never rub snow on frostbitten skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get out of the cold.&lt;/strong&gt; Once you&apos;re indoors, remove wet clothes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gradually warm frostbitten areas.&lt;/strong&gt; Put frostbitten hands or feet in warm water &amp;mdash; 104 to 107.6 F (40 to 42 C). Wrap or cover other areas in a warm blanket. Don&apos;t use direct heat, such as a stove, heat lamp, fireplace or heating pad, because these can cause burns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t walk on frostbitten feet or toes if possible.&lt;/strong&gt; This further damages the tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If there&apos;s any chance the affected areas will freeze again, don&apos;t thaw them.&lt;/strong&gt; If they&apos;re already thawed, wrap them up so that they don&apos;t become frozen again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know what to expect as skin thaws.&lt;/strong&gt; If the skin turns red and there&apos;s a tingling and burning sensation as it warms, circulation is returning. But if numbness or sustained pain remains during warming or if blisters develop, seek medical attention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical treatment&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rewarm the skin.&lt;/strong&gt; If it hasn&apos;t been done already, your doctor rewarms the area using a warm-water bath with the affected area immersed for 15 to 30 minutes. The skin may turn soft and look red or purple. Because the rewarming process can be painful, your doctor will likely give you pain medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dressings.&lt;/strong&gt; Once your skin thaws, your doctor wraps the area with thick dressings or bandages to protect the skin. A brace or splint may be necessary if the bone or muscle is involved. The limb is elevated to reduce swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removal of damaged tissue (debridement).&lt;/strong&gt; To heal properly, frostbitten skin needs to be free of damaged, dead or infected tissue. To better distinguish between healthy and dead tissue, your doctor may wait one to three months before removing damaged tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hydrotherapy.&lt;/strong&gt; Whirlpool baths can aid healing by keeping skin clean and naturally removing dead tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral antibiotics.&lt;/strong&gt; If your skin or blisters appear infected, your doctor may prescribe oral antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thrombolytics.&lt;/strong&gt; These drugs, such as tissue plasminogen activator (TPA), are given through an intravenous (IV) line to try to lower the necessity of amputation. These drugs can cause serious bleeding and are typically used only in the most serious situations and within 24 hours of exposure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In severe cases, surgery or amputation may be necessary to remove the dead or decaying tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperbaric oxygen therapy.&lt;/strong&gt; Hyperbaric oxygen involves breathing pure oxygen in a pressurized room. Although older studies showed no benefit of this treatment, some newer ones indicate a possible improvement in symptoms. More study is needed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To care for your skin after frostbite:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take all medications &amp;mdash; antibiotics or pain medicine &amp;mdash; as prescribed by your doctor. For milder cases of frostbite, take over-the-counter ibuprofen (Advil, Motrin IB, others) to reduce pain and inflammation.&lt;/li&gt;
+	&lt;li&gt;Apply aloe vera gel or lotion to the affected area several times a day to reduce inflammation.&lt;/li&gt;
+	&lt;li&gt;Avoid further exposure to cold and wind.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t walk on frostbitten feet.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t apply direct heat or rub the area.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t break blisters that may develop. Blisters act like a bandage. Allow blisters to break on their own.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frostbite can be prevented. Here are tips to help you stay safe and warm.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit time you&apos;re outdoors in cold, wet or windy weather.&lt;/strong&gt; Pay attention to weather forecasts and wind chill readings. In very cold, windy weather, exposed skin can develop frostbite in a matter of minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dress in several layers of loose, warm clothing rather than a single layer.&lt;/strong&gt; Air trapped between the layers of clothing acts as insulation against the cold. Wear windproof and waterproof outer garments to protect against wind, snow and rain. Choose undergarments that wick moisture away from your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a hat that fully covers your ears.&lt;/strong&gt; Heavy woolen or windproof materials make the best headwear for cold protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear mittens rather than gloves,&lt;/strong&gt; which provide better protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch for signals of frostbite.&lt;/strong&gt; Early signs of frostbite include redness, prickling and numbness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan to protect yourself.&lt;/strong&gt; When traveling in cold weather, carry emergency supplies and warm clothing in case you become stranded.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink alcohol if you plan to be outdoors in cold weather.&lt;/strong&gt; Alcoholic beverages cause your body to lose heat faster. Eating well-balanced meals and drinking warm, sweet drinks, such as hot chocolate, will help you stay warmer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Frostbite
+	</Title>
+	<Abstract>
+		Frostbite &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this cold injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00017" LinkType="Internal" ObjectID="422ECD4F-6649-46BA-9037B015AA702F74" Title="Hypothermia: First aid" Url="http://www.mayoclinic.com/health/first-aid-hypothermia/FA00017" />
+		<LinkItem ContentType="Disease" DocID="DS00333" LinkType="Internal" ObjectID="F36A8118-1869-44E4-A26686F54C4F5524" Title="Hypothermia" Url="http://www.mayoclinic.com/health/hypothermia/DS00333" />
+	</RelatedLinksBox>
+</Disease>

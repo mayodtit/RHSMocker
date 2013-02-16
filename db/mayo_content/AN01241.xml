@@ -1,0 +1,122 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01241
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="3571" Title="Environmental allergy">
+							<Keyword MCVID="2223" Title="Hay fever" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B0F40A94-2A5D-9994-E46A807D9C5DB928
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nasal congestion
+			</MetaKeyword>
+			<MetaKeyword>
+				stuffy nose
+			</MetaKeyword>
+			<MetaKeyword>
+				decongestant nasal sprays
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal sprays
+			</MetaKeyword>
+			<MetaKeyword>
+				decongestants
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal decongestants
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+What you may be referring to is a rebound effect that can occur if you use over-the-counter nasal decongestant sprays regularly. After a few days of using this type of nasal spray, your nose may become less responsive to the effects of the medication. 
+&lt;/p&gt;
+&lt;p&gt;
+As a result, you may need to use more and more of the medication to control congestion or your congestion may worsen if you stop using the medication. Some people may mistake this rebound effect for &quot;addiction,&quot; but it isn&apos;t. 
+&lt;/p&gt;
+&lt;p&gt;
+True addiction is a compulsive physiological need for and use of a habit-forming substance known to be physically, psychologically or socially harmful. Over-the-counter nasal sprays don&apos;t cause the physiological cravings that mark an addiction. 
+&lt;/p&gt;
+&lt;p&gt;
+To prevent rebound congestion, use over-the-counter decongestant nasal sprays for no more than five days in a row, with as few doses as possible each day. Prescription nasal sprays containing steroids don&apos;t cause this rebound effect, so they can be used on a daily basis for years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nasal spray addiction: Is it real?
+	</Title>
+	<Abstract>
+		Nasal spray &quot;addiction&quot; isn&apos;t really an addiction at all. Learn more.
+	</Abstract>
+	<Question>
+		I use an over-the-counter nasal spray for congestion associated with allergies. Should I be concerned about nasal spray addiction?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01755" LinkType="Internal" ObjectID="FCC83C08-E7FF-0DBD-16839B0D2043FFCB" Title="Neti pot: Can it clear your nose?" Url="http://www.mayoclinic.com/health/neti-pot/AN01755" />
+		<LinkItem ContentType="Answer" DocID="AN01879" LinkType="Internal" ObjectID="ED283AA7-E7FF-0DBD-153DE0C4079002D2" Title="Neti pot solution: Can I make my own?" Url="http://www.mayoclinic.com/health/neti-pot-solution/AN01879" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="Article" DocID="AA00060" LinkType="Internal" ObjectID="F69737B8-2A5D-9994-EEB32FA508077612" Title="Seasonal allergies: Nip them in the bud" Url="http://www.mayoclinic.com/health/seasonal-allergies/AA00060" />
+		<LinkItem ContentType="Disease" DocID="DS00174" LinkType="Internal" ObjectID="C2A35B55-EA1F-41EF-92ADF2386BF8EF8A" Title="Hay fever" Url="http://www.mayoclinic.com/health/hay-fever/DS00174" />
+	</RelatedLinksBox>
+</Answer>

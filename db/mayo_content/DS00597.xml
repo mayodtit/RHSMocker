@@ -1,0 +1,308 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00597
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dislocated-shoulder/DS00597
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-31
+		</UpdateDate>
+		<PublicationDate>
+			2005-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1979" Title="Dislocation">
+							<Keyword MCVID="2349" Title="Dislocated shoulder" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DAB3E98C-4CAE-45DA-93CBD8FE22A74B73
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dislocated shoulder
+			</MetaKeyword>
+			<MetaKeyword>
+				dislocation
+			</MetaKeyword>
+			<MetaKeyword>
+				shoulder dislocation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A dislocated shoulder is an injury in which your upper arm bone pops out of the cup-shaped socket that&apos;s part of your shoulder blade. A dislocated shoulder is a more extensive injury than a separated shoulder, which involves damage to ligaments of the joint where the top of your shoulder blade meets the end of your collarbone.
+&lt;/p&gt;
+&lt;p&gt;
+If you suspect a dislocated shoulder, seek prompt medical attention. Most people regain full shoulder function within a few weeks after experiencing a dislocated shoulder. However, once you&apos;ve had a dislocated shoulder your joint may become unstable and be prone to repeat dislocations.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dislocated shoulder signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A visibly deformed or out of place shoulder&lt;/li&gt;
+	&lt;li&gt;Swelling or discoloration (bruising)&lt;/li&gt;
+	&lt;li&gt;Intense pain&lt;/li&gt;
+	&lt;li&gt;Inability to move the joint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Shoulder dislocation may also cause numbness, weakness or tingling near the injury, such as in your neck or down your arm. The muscles in your shoulder may spasm from the disruption, often increasing the intensity of your pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It can be difficult to tell a broken bone from a dislocated bone. If you or your child appears to have a dislocated shoulder, get medical help right away. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re waiting for medical attention:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t move the joint.&lt;/strong&gt; Splint or sling the shoulder joint in its current position. Don&apos;t try to move the shoulder or force it back into place. This can damage the shoulder joint and its surrounding muscles, ligaments, nerves or blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice the injured joint.&lt;/strong&gt; Applying ice to your shoulder can help reduce pain and swelling by controlling internal bleeding and the buildup of fluids in and around your shoulder joint.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a dislocated shoulder 
+" Caption="A dislocation is an injury to your joint in which the ends of your bones are forced from their normal positions. Your shoulder, which is a ball-and-socket joint, is a common site for dislocation. The ball is your upper arm bone (humerus), and the socket is part of your shoulder blade (scapula). In a shoulder dislocation, these two bones are forced from their normal positions.
+" Height="60" Title="Shoulder dislocation" URI="/images/image_popup/thumbs/r7_shoulderdislocationthu.jpg" Width="60" />
+				<Image Alt="Illustration of a dislocated shoulder 
+" Caption="A dislocation is an injury to your joint in which the ends of your bones are forced from their normal positions. Your shoulder, which is a ball-and-socket joint, is a common site for dislocation. The ball is your upper arm bone (humerus), and the socket is part of your shoulder blade (scapula). In a shoulder dislocation, these two bones are forced from their normal positions.
+" Height="387" Title="Shoulder dislocation" URI="/images/image_popup/r7_shoulderdislocation.jpg" Width="400" />
+				<HTML>
+					A dislocation is an injury to your joint in which the ends of your bones are forced from their normal positions. Your shoulder, which is a ball-and-socket joint, is a common site for dislocation. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The shoulder joint is the most frequently dislocated joint of the body. Because it can move in many directions, your shoulder can dislocate forward, backward or downward, completely or partially. In addition, fibrous tissue that joins the bones of your shoulder (ligaments) can be stretched or torn, often complicating the dislocation.
+&lt;/p&gt;
+&lt;p&gt;
+When your shoulder dislocates, a strong force, such as a sudden blow to your shoulder, pulls the bones in your shoulder out of place (dislocation). Extreme rotation of your shoulder joint can pop the ball of your upper arm bone (humerus) out of your shoulder socket (glenoid), which is part of your shoulder blade (scapula). Partial dislocation (subluxation) &amp;mdash; in which your upper arm bone is partially in and partially out of your shoulder socket &amp;mdash; also may occur. 
+&lt;/p&gt;
+&lt;p&gt;
+A dislocated shoulder may be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sports injuries.&lt;/strong&gt; Shoulder dislocation is a common injury in contact sports, such as football and hockey, and in sports that may involve falls, such as downhill skiing, gymnastics and volleyball.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma not related to sports.&lt;/strong&gt; A hard blow to your shoulder during a motor vehicle accident is a common source of dislocation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; You may dislocate your shoulder during a fall, such as from a ladder or from tripping on a loose rug.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors play a role in your chances of experiencing a shoulder dislocation. You&apos;re more likely to dislocate your shoulder if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re male.&lt;/strong&gt; More men experience shoulder dislocation than do women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re in your teens or 20s.&lt;/strong&gt; People in this age group tend to have a high level of physical activity, which can possibly increase your risk of injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a dislocated shoulder may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tearing of the muscles, ligaments and tendons that reinforce your shoulder joint&lt;/li&gt;
+	&lt;li&gt;Nerve or blood vessel damage in or around your shoulder joint&lt;/li&gt;
+	&lt;li&gt;Susceptibility to re-injury (shoulder instability) if you have a severe dislocation or repeated dislocations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If ligaments or tendons in your shoulder have been stretched or torn, or if nerves or blood vessels surrounding your shoulder joint have been damaged, you may need surgery to repair these tissues.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the severity of the injury, your family doctor or the emergency room physician may recommend that you or your child be examined by an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of the symptoms and the precipitating event&lt;/li&gt;
+	&lt;li&gt;Information about past medical problems&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you or your child takes&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For a dislocated shoulder, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a dislocated shoulder?&lt;/li&gt;
+	&lt;li&gt;What kind of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend? Are there any alternatives?&lt;/li&gt;
+	&lt;li&gt;How long will it take for my shoulder to heal?&lt;/li&gt;
+	&lt;li&gt;Will I have to give up participating in sports activities?&lt;/li&gt;
+	&lt;li&gt;How can I protect myself from re-injuring my shoulder in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor will inspect the affected area for tenderness, swelling or deformity. He or she will probably want to see X-rays of the injury.
+&lt;/p&gt;
+&lt;p&gt;
+The doctor may also ask you several questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did you injure your shoulder?&lt;/li&gt;
+	&lt;li&gt;How severe is your pain?&lt;/li&gt;
+	&lt;li&gt;What other symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Can you move your arm at all?&lt;/li&gt;
+	&lt;li&gt;Do you feel numbness or tingling in your arm?&lt;/li&gt;
+	&lt;li&gt;Have you had a dislocated shoulder in the past?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Besides physically examining your shoulder, your doctor may order the following tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; An X-ray of your shoulder joint will show the dislocation and may reveal broken bones or other damage to your shoulder joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI.&lt;/strong&gt; Magnetic resonance imaging (MRI) uses a magnetic field to create cross-sectional images of the body. These images help your doctor assess damage to the soft tissue structures around your shoulder joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; An EMG is a procedure that measures the electrical discharges produced in your muscles. An instrument records the electrical activity in your muscle at rest and as you contract the muscle. Analyzing the electrical signals may help your doctor evaluate nerve damage caused by severe or repeated shoulder dislocation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dislocated shoulder treatment may involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Closed reduction.&lt;/strong&gt; Your doctor may try some gentle maneuvers to help your shoulder bones back into their proper positions &amp;mdash; a process called closed reduction. Depending on the amount of pain and swelling, you may need a muscle relaxant or sedative or, rarely, a general anesthetic before manipulation of your shoulder bones. When your shoulder bones are back in place, any severe pain should improve almost immediately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; You may need surgery if you have a weak shoulder joint or ligaments and tend to have recurring shoulder dislocations (shoulder instability) despite proper strengthening and rehabilitation. In rare cases, you may need surgery if your nerves or blood vessels are damaged due to the dislocation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immobilization.&lt;/strong&gt; Your doctor may immobilize your shoulder with a special splint or sling for a period of time ranging from a few days to three weeks. How long you wear the splint or sling depends on the nature of your shoulder dislocation and how soon the splint is applied after your dislocation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Your doctor may also prescribe a pain reliever or a muscle relaxant to keep you comfortable while your shoulder heals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rehabilitation.&lt;/strong&gt; After your shoulder splint or sling is removed, you&apos;ll begin a gradual rehabilitation program designed to restore range of motion and strength to your shoulder joint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve experienced a fairly simple shoulder dislocation without major nerve or tissue damage, your shoulder joint likely will return to a near-normal or fully normal condition. But trying to resume activity too soon after shoulder dislocation may cause you to injure your shoulder joint or to dislocate it again.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Try these steps to help ease discomfort and encourage healing after being treated for a dislocated shoulder: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest your shoulder.&lt;/strong&gt; Don&apos;t repeat the specific action that caused your shoulder to dislocate, and try to avoid painful movements. Limit heavy lifting or overhead activity until your shoulder starts to feel better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply ice and heat.&lt;/strong&gt; Putting ice on your shoulder helps reduce inflammation and pain. Use a cold pack, a bag of frozen vegetables or a towel filled with ice cubes for 15 to 20 minutes at a time. Do this every couple of hours the first day or two. After about two or three days, when the pain and inflammation have improved, hot packs or a heating pad may help relax tight and sore muscles. Limit heat applications to 20 minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take pain relievers.&lt;/strong&gt; Over-the-counter (OTC) medications, such as aspirin, ibuprofen (Advil, Motrin, others), naproxen (Aleve) or acetaminophen (Tylenol, others), may help relieve pain. Follow label directions and stop taking the drugs when the pain improves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain the range of motion of your shoulder.&lt;/strong&gt; After one or two days, do some gentle exercises as directed by your doctor or physical therapist to help maintain your shoulder&apos;s range of motion. Total inactivity can cause stiff joints. In addition, favoring your shoulder for a long period of time can lead to frozen shoulder, a condition in which your shoulder becomes so stiff you can barely move it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once your injury heals and you have good range of motion in your shoulder, continue exercising. Daily shoulder stretches and a balanced shoulder-strengthening program can help prevent a recurrence of dislocation. Your doctor or a physical therapist can help you plan an appropriate exercise routine.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent a dislocated shoulder: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take precautions&lt;/strong&gt; to avoid falls&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective gear&lt;/strong&gt; when you play contact sports&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly&lt;/strong&gt; to maintain strength and flexibility in your joints and muscles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once you&apos;ve dislocated your shoulder joint, you may be more susceptible to future shoulder dislocations. To avoid a recurrence, follow the specific strength and stability exercises that you and your doctor have discussed for your injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dislocated shoulder
+	</Title>
+	<Abstract>
+		Dislocated shoulder &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this shoulder injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00009" LinkType="Internal" ObjectID="E539B15B-A3E8-416A-A183C202B68B6BBF" Title="Dislocation: First aid" Url="http://www.mayoclinic.com/health/first-aid-dislocation/FA00009" />
+		<LinkItem ContentType="Disease" DocID="DS00239" LinkType="Internal" ObjectID="0842878A-8A8B-44C0-B17D678FE2727164" Title="Dislocation" Url="http://www.mayoclinic.com/health/dislocation/DS00239" />
+	</RelatedLinksBox>
+</Disease>

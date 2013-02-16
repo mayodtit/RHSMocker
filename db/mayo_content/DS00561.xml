@@ -1,0 +1,366 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00561
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dehydration/DS00561
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-07
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2282" Title="Fluid and electrolyte imbalance">
+						<Keyword MCVID="2283" Title="Dehydration" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5C302784-080C-4278-B4953F801900B4F2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dehydration
+			</MetaKeyword>
+			<MetaKeyword>
+				water loss
+			</MetaKeyword>
+			<MetaKeyword>
+				water
+			</MetaKeyword>
+			<MetaKeyword>
+				fluid loss
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				hypohydration
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dehydration occurs when you lose more fluid than you take in, and your body doesn&apos;t have enough water and other fluids to carry out its normal functions. If you don&apos;t replace lost fluids, you may get dehydrated.
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of dehydration include intense diarrhea, vomiting, fever or excessive sweating. Not drinking enough water during hot weather or exercise also may cause dehydration. Anyone may become dehydrated, but young children, older adults and people with chronic illnesses are most at risk.
+&lt;/p&gt;
+&lt;p&gt;
+You can usually reverse mild to moderate dehydration by drinking more fluids, but severe dehydration needs immediate medical treatment. The safest approach is prevention of dehydration. Monitor your fluid loss during hot weather, illness or exercise, and drink enough liquids to replace what you lose.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Mild to moderate dehydration is likely to cause:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dry, sticky mouth&lt;/li&gt;
+	&lt;li&gt;Sleepiness or tiredness &amp;mdash; children are likely to be less active than usual&lt;/li&gt;
+	&lt;li&gt;Thirst&lt;/li&gt;
+	&lt;li&gt;Decreased urine output &amp;mdash; no wet diapers for three hours for infants and eight hours or more without urination for older children and teens&lt;/li&gt;
+	&lt;li&gt;Few or no tears when crying&lt;/li&gt;
+	&lt;li&gt;Dry skin&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe dehydration, a medical emergency, can cause:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme thirst&lt;/li&gt;
+	&lt;li&gt;Extreme fussiness or sleepiness in infants and children; irritability and confusion in adults&lt;/li&gt;
+	&lt;li&gt;Very dry mouth, skin and mucous membranes&lt;/li&gt;
+	&lt;li&gt;Lack of sweating&lt;/li&gt;
+	&lt;li&gt;Little or no urination &amp;mdash; any urine that is produced will be dark yellow or amber&lt;/li&gt;
+	&lt;li&gt;Sunken eyes&lt;/li&gt;
+	&lt;li&gt;Shriveled and dry skin that lacks elasticity and doesn&apos;t &quot;bounce back&quot; when pinched into a fold&lt;/li&gt;
+	&lt;li&gt;In infants, sunken fontanels &amp;mdash; the soft spots on the top of a baby&apos;s head&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid heartbeat&lt;/li&gt;
+	&lt;li&gt;Rapid breathing&lt;/li&gt;
+	&lt;li&gt;No tears when crying&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;In the most serious cases, delirium or unconsciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unfortunately, thirst isn&apos;t always a reliable gauge of the body&apos;s need for water, especially in children and older adults. A better indicator is the color of your urine: Clear or light-colored urine means you&apos;re well hydrated, whereas a dark yellow or amber color usually signals dehydration. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re a healthy adult, you can usually treat mild to moderate dehydration by drinking more fluids, such as water or a sports drink (Gatorade, Powerade, others). 
+&lt;/p&gt;
+&lt;p&gt;
+Get immediate medical care if you develop severe signs and symptoms such as extreme thirst, a lack of urination, shriveled skin, dizziness and confusion.
+&lt;/p&gt;
+&lt;p&gt;
+Treat children and older adults with greater caution. Call your family doctor right away if your loved one: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Develops severe diarrhea, with or without vomiting or fever&lt;/li&gt;
+	&lt;li&gt;Has bloody stool&lt;/li&gt;
+	&lt;li&gt;Has had moderate diarrhea for three days or more&lt;/li&gt;
+	&lt;li&gt;Can&apos;t keep down fluids&lt;/li&gt;
+	&lt;li&gt;Is irritable or disoriented and much sleepier or less active than usual&lt;/li&gt;
+	&lt;li&gt;Has any of the signs or symptoms of mild or moderate dehydration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Go to the nearest hospital emergency room or call 911 or your emergency medical number if you think a child or older adult is severely dehydrated. You can help prevent dehydration from becoming severe by carefully monitoring someone who is sick and giving fluids, such as an oral rehydration solution (Pedialyte, others) at the first sign of diarrhea, vomiting or fever and by encouraging children to drink plenty of water before, during and after exercise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dehydration occurs when there isn&apos;t enough water to replace what&apos;s lost throughout the day. Your system literally dries out. Sometimes dehydration occurs for simple reasons: You don&apos;t drink enough because you&apos;re sick or busy, or because you lack access to safe drinking water when you&apos;re traveling, hiking or camping.
+&lt;/p&gt;
+&lt;p&gt;
+Other dehydration causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diarrhea, vomiting.&lt;/strong&gt; Severe, acute diarrhea &amp;mdash; that is, diarrhea that comes on suddenly and violently &amp;mdash; can cause a tremendous loss of water and electrolytes in a short amount of time. If you have vomiting along with diarrhea, you lose even more fluids and minerals. Children and infants are especially at risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fever.&lt;/strong&gt; In general, the higher your fever, the more dehydrated you may become. If you have a fever in addition to diarrhea and vomiting, you lose even more fluids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive sweating.&lt;/strong&gt; You lose water when you sweat. If you do vigorous activity and don&apos;t replace fluids as you go along, you can become dehydrated. Hot, humid weather increases the amount you sweat and the amount of fluid you lose. But you can also become dehydrated in winter if you don&apos;t replace lost fluids. Preteens and teens who participate in sports may be especially susceptible, both because of their body weight, which is generally lower than that of adults, and because they may not be experienced enough to know the warning signs of dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased urination.&lt;/strong&gt; This is most often the result of undiagnosed or uncontrolled diabetes mellitus, a disease that affects the way your body uses blood sugar. This type of diabetes often causes increased thirst and more frequent urination. Another type of diabetes, diabetes insipidus, also is characterized by excessive thirst and urination, but in this case the cause is a hormonal disorder that makes your kidneys unable to conserve water. Certain medications &amp;mdash; diuretics, antihistamines, blood pressure medications and some psychiatric drugs &amp;mdash; as well as alcohol also can lead to dehydration, generally because they cause you to urinate or perspire more than normal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can become dehydrated if they lose too many fluids. But certain people are at greater risk, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infants and children.&lt;/strong&gt; Infants and children are especially vulnerable because of their relatively small body weights and high turnover of water and electrolytes. They&apos;re also the group most likely to experience diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older adults.&lt;/strong&gt; As you age, you become more susceptible to dehydration for several reasons: Your body&apos;s ability to conserve water is reduced, your thirst sense becomes less acute and you&apos;re less able to respond to changes in temperature. What&apos;s more, older adults, especially people in nursing homes or living alone, tend to eat less than younger people do and sometimes may forget to eat or drink altogether. Disability or neglect also may prevent them from being well nourished. These problems are compounded by chronic illnesses such as diabetes, by hormonal changes associated with menopause and by the use of certain medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;People with chronic illnesses.&lt;/strong&gt; Having uncontrolled or untreated diabetes puts you at high risk of dehydration. But other chronic illnesses also make you more likely to become dehydrated. These include kidney disease, alcoholism and adrenal gland disorders. Even having a cold or sore throat makes you more susceptible to dehydration because you&apos;re less likely to feel like eating or drinking when you&apos;re sick. A fever increases dehydration even more.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endurance athletes.&lt;/strong&gt; Anyone who exercises can become dehydrated, especially in hot, humid conditions or at high altitudes. But athletes who train for and participate in ultramarathons, triathlons, mountain climbing expeditions and cycling tournaments are at particularly high risk. That&apos;s because the longer you exercise, the more difficult it is to stay hydrated. During exercise, your body may lose more water than it can absorb. With every hour you exercise, your fluid debt increases. Dehydration is also cumulative over a period of days, which means you can become dehydrated with even a moderate exercise routine if you don&apos;t drink enough to replace what you lose on a daily basis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;People living at high altitudes.&lt;/strong&gt; Living, working and exercising at high altitudes (generally defined as above 8,200 feet, or about 2,500 meters) can cause a number of health problems. One is dehydration, which commonly occurs when your body tries to adjust to high elevations through increased urination and more rapid breathing &amp;mdash; the faster you breathe to maintain adequate oxygen levels in your blood, the more water vapor you exhale.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;People working or exercising outside in hot, humid weather.&lt;/strong&gt; When it&apos;s hot and humid, your risk of dehydration and heat illness increases. That&apos;s because when the air is humid, sweat can&apos;t evaporate and cool you as quickly as it normally does, and this can lead to an increased body temperature and the need for more fluids.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dehydration can lead to serious complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heat injury.&lt;/strong&gt; If you don&apos;t drink enough fluids when you&apos;re exercising vigorously and perspiring heavily, you may end up with a heat injury, ranging in severity from mild heat cramps to heat exhaustion to potentially life-threatening heatstroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling of the brain (cerebral edema).&lt;/strong&gt; Sometimes, when you&apos;re getting fluids again after being dehydrated, the body tries to pull too much water back into your cells. This can cause some cells to swell and rupture. The consequences are especially grave when brain cells are affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seizures.&lt;/strong&gt; Electrolytes &amp;mdash; such as potassium and sodium &amp;mdash; help carry electrical signals from cell to cell. If your electrolytes are out of balance, the normal electrical messages can become mixed up, which can lead to involuntary muscle contractions and sometimes to a loss of consciousness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood volume shock (hypovolemic shock).&lt;/strong&gt; This is one of the most serious, and sometimes life-threatening, complications of dehydration. It occurs when low blood volume causes a drop in blood pressure and a drop in the amount of oxygen in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; This potentially life-threatening problem occurs when your kidneys are no longer able to remove excess fluids and waste from your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coma and death.&lt;/strong&gt; When not treated promptly and appropriately, severe dehydration can be fatal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your, or your child&apos;s, doctor. However, in some cases when you call to set up an appointment, the doctor may recommend urgent medical care. If your child or an adult who you care for is showing signs of severe dehydration, such as lethargy or reduced responsiveness, seek immediate care at a hospital.
+&lt;/p&gt;
+&lt;p&gt;
+If you have time to prepare for your appointment, here&apos;s some information to help you get ready, and what to expect from the doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re (or the person you&apos;re caring for) is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. If you, or the person you&apos;re caring for, have been vomiting or have had diarrhea, the doctor will want to know when it began and how frequently it&apos;s been occurring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent trips you&apos;ve taken or life changes you&apos;ve made. Also include a description of your typical daily diet and any foods you&apos;ve recently eaten that you suspect may have caused illness. In addition, your doctor will want to know if you, or the person you&apos;re caring for, have recently been exposed to anyone with diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of key medical information,&lt;/strong&gt; including other conditions you or the person you&apos;re caring for is being treated for and the names of the medications being taken. Include on your list prescription and over-the-counter drugs, as well as any vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For dehydration, some basic questions to ask the doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What treatment(s) do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon after treatment will there be improvement?&lt;/li&gt;
+	&lt;li&gt;Are there any activity or dietary restrictions?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to prevent a recurrence of dehydration?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. Do I need to change the treatments I&apos;ve been using?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the symptoms begin?&lt;/li&gt;
+	&lt;li&gt;How frequently have you been experiencing loose bowel movements or vomiting?&lt;/li&gt;
+	&lt;li&gt;How recently have you urinated?&lt;/li&gt;
+	&lt;li&gt;Are you able to keep down any food or drink?&lt;/li&gt;
+	&lt;li&gt;Do you also have other symptoms, such as abdominal cramping, fever, headache or muscle aches? How severe are these symptoms?&lt;/li&gt;
+	&lt;li&gt;Has there been blood in your stools?&lt;/li&gt;
+	&lt;li&gt;Have you recently eaten any food that you suspect was spoiled?&lt;/li&gt;
+	&lt;li&gt;Has anyone gotten sick after eating the same food that you did?&lt;/li&gt;
+	&lt;li&gt;Have you recently been exposed to someone who you know was experiencing diarrhea?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled to another country?&lt;/li&gt;
+	&lt;li&gt;Do you know what your weight was before you were ill?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If your child is sick, continue offering him or her small amounts of an oral rehydration solution containing electrolytes (Pedialyte, others) while you wait for your appointment. Ask your doctor to recommend the amount and frequency. Don&apos;t try to replenish fluids in a child with only water, which doesn&apos;t treat the electrolyte imbalance associated with dehydration in children, and may make symptoms worse. If you or another adult is sick, try to replenish fluids with water, an oral rehydration solution or a sports drink (Gatorade, Powerade, others).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can often diagnose dehydration on the basis of physical signs and signs and symptoms such as little or no urination, sunken eyes, and skin that lacks its normal elasticity and resilience when pinched. If you&apos;re dehydrated, you&apos;re also likely to have low blood pressure, especially when moving from a lying to a standing position, a faster than normal heart rate and reduced blood flow to your extremities.
+&lt;/p&gt;
+&lt;p&gt;
+To help confirm the diagnosis and pinpoint the degree of dehydration, you may have other tests, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood samples may be used to check for a number of factors, such as the levels of your electrolytes &amp;mdash; especially sodium and potassium &amp;mdash; and how well your kidneys are working.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis.&lt;/strong&gt; Tests done on your urine can help show whether you&apos;re dehydrated and to what degree.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If it&apos;s not obvious why you&apos;re dehydrated, your doctor may order additional tests to check for diabetes and for liver or kidney problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only effective treatment for dehydration is to replace lost fluids and lost electrolytes. The best approach to dehydration treatment depends on age, the severity of dehydration and its cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating dehydration in sick children&lt;/strong&gt;&lt;br /&gt;
+Your doctor can offer specific suggestions for treating dehydration in your child, but some general guidelines include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Use an oral rehydration solution.&lt;/strong&gt; Unless your doctor advises otherwise, use an oral rehydration solution such as Pedialyte for infants and children who have diarrhea, vomiting or fever. These solutions contain water and salts in specific proportions to replenish both fluids and electrolytes. They&apos;re also designed for easier digestion. Oral rehydration products are readily available in most drugstores, and many pharmacies carry their own brands. Begin giving fluids early in the course of an illness instead of waiting until the situation becomes urgent.
+	&lt;/p&gt;
+	&lt;p&gt;
+	In an emergency situation where a pre-formulated solution is unavailable, you can make your own oral rehydration solution by mixing 1/2 teaspoon salt, 6 level teaspoons of sugar and 1 liter (about 1 quart) of safe drinking water. Be sure to measure accurately because incorrect amounts can make the solution less effective or even harmful. If possible, have someone else check your measurements for accuracy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Whatever alternative you chose, be sure to give enough solution. Your doctor may suggest specific amounts, depending on your child&apos;s age and degree of dehydration, but a general rule of thumb is to keep giving liquids slowly until your child&apos;s urine becomes clear in color. When your child is vomiting, try giving small amounts of solution at frequent intervals &amp;mdash; try a spoonful or so every few minutes, for instance. If your child can&apos;t keep this down, wait 30 to 60 minutes and try again. Room temperature fluids are best. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continue to breast-feed.&lt;/strong&gt; Don&apos;t stop breast-feeding when your baby is sick, but offer your baby an oral rehydration solution in a bottle as well. If you give your baby formula, try switching to one that&apos;s lactose-free until diarrhea improves &amp;mdash; lactose can be difficult to digest during diarrhea, making diarrhea worse. Never dilute formula more than the instructions advise. Your doctor also may suggest substituting an oral rehydration solution for the formula for 12 to 24 hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain foods and drinks.&lt;/strong&gt; The best liquid for a sick child is an oral rehydration solution &amp;mdash; plain water doesn&apos;t provide essential electrolytes, and although sports drinks replenish electrolytes, they replace those lost through sweating, not through diarrhea or vomiting. Avoid giving your child milk, sodas, caffeinated beverages, fruit juices or gelatins, which don&apos;t relieve dehydration and which may make symptoms worse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating dehydration in sick adults&lt;/strong&gt;&lt;br /&gt;
+Most adults with mild to moderate dehydration from diarrhea, vomiting or fever can improve their condition by drinking more water. Water is best because other liquids, such as fruit juices, carbonated beverages or coffee, can make diarrhea worse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating dehydration in athletes of all ages&lt;/strong&gt;&lt;br /&gt;
+For exercise-related dehydration, cool water is your best bet. Sports drinks containing electrolytes and a carbohydrate solution also may be helpful. There&apos;s no need for salt tablets &amp;mdash; too much salt can lead to hypernatremic dehydration, a condition in which your body not only is short of water but also carries an excess of sodium. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating severe dehydration&lt;/strong&gt;&lt;br /&gt;
+Children and adults who are severely dehydrated should be treated by emergency personnel arriving in an ambulance or in a hospital emergency room, where they can receive salts and fluids through a vein (intravenously) rather than by mouth. Intravenous hydration provides the body with water and essential nutrients much more quickly than oral solutions do &amp;mdash; something that&apos;s essential in life-threatening situations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent dehydration, drink plenty of fluids and eat foods high in water such as fruits and vegetables. Letting thirst be your guide is an adequate daily guideline for most healthy people. Fluids can be obtained not just from water but also from other beverages and foods. But, if you&apos;re exercising, don&apos;t wait for thirst to keep up with your fluids.
+&lt;/p&gt;
+&lt;p&gt;
+Under certain circumstances, you may need to take in more fluids than usual:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Illness.&lt;/strong&gt; Start giving extra water or an oral rehydration solution at the first signs of illness &amp;mdash; don&apos;t wait until dehydration occurs. And although they might sound appealing, traditional &quot;clear fluids&quot; such as ginger ale or other sodas contain too much sugar and too little sodium to replenish lost electrolytes.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Exercise.&lt;/strong&gt; In general, it&apos;s best to start hydrating the day before strenuous exercise. Producing lots of clear, dilute urine is a good indication that you&apos;re well hydrated. Before exercising, drink 1 to 3 cups (0.24 to 0.70 liters) of water. During the activity, replenish fluids at regular intervals, and continue drinking water or other fluids after you&apos;re finished.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Keep in mind that drinking too much not only can cause bloating and discomfort, but may lead to a potentially fatal condition in which your blood sodium becomes too low (hyponatremia). This occurs when you drink more fluids than you lose through sweating.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Environment.&lt;/strong&gt; You need to drink additional water in hot or humid weather to help lower your body temperature and to replace what you lose through sweating. You may also need extra water in cold weather if you sweat while wearing insulated clothing. Heated, indoor air can cause your skin to lose moisture, increasing your daily fluid requirements. And altitudes greater than 8,200 feet (2,500 meters) also can affect how much water your body needs. If dehydration occurs when you&apos;re exercising in hot weather, get into a shady area, recline, and start drinking water or a sports drink. Young athletes should be encouraged to let their coaches know if they are having symptoms of dehydration.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dehydration
+	</Title>
+	<Abstract>
+		Dehydration &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of significant loss of your body&apos;s fluids.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HQ00316" LinkType="Internal" ObjectID="ECAFE3E7-C215-41DA-9F75A2087398E84C" Title="Heat and exercise: Keeping cool in hot weather" Url="http://www.mayoclinic.com/health/exercise/HQ00316" />
+		<LinkItem ContentType="Disease" DocID="DS00287" LinkType="Internal" ObjectID="2CEBF76F-D36A-4D15-B937BFF91AB51438" Title="Cystic fibrosis" Url="http://www.mayoclinic.com/health/cystic-fibrosis/DS00287" />
+	</RelatedLinksBox>
+</Disease>

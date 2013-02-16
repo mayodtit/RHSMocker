@@ -1,0 +1,417 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00492
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thyroid-cancer/DS00492
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2298" Title="Thyroid cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F7CF6A7B-63EA-49E6-88C057D7C9F6AA1C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thyroid cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid gland
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid nodules
+			</MetaKeyword>
+			<MetaKeyword>
+				radioactive fallout
+			</MetaKeyword>
+			<MetaKeyword>
+				cea blood test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thyroid cancer occurs in the cells of the thyroid &amp;mdash; a butterfly-shaped gland located at the base of your neck, just below your Adam&apos;s apple. Your thyroid produces hormones that regulate your heart rate, blood pressure, body temperature and weight. 
+&lt;/p&gt;
+&lt;p&gt;
+Although thyroid cancer isn&apos;t common in the United States, rates seem to be increasing. Doctors think this is because new technology is allowing them to find small thyroid cancers that may not have been found in the past. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of thyroid cancer can be cured with treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of thyroid cancer 
+" Caption="Thyroid cancer occurs in the cells of the thyroid. 
+" Height="60" Title="Thyroid cancer" URI="/images/image_popup/thumbs/c7_thyroidcancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of thyroid cancer 
+" Caption="Thyroid cancer occurs in the cells of the thyroid. 
+" Height="373" Title="Thyroid cancer" URI="/images/image_popup/c7_thyroid_cancer.jpg" Width="400" />
+				<HTML>
+					Thyroid cancer occurs in the cells of the thyroid. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thyroid cancer typically doesn&apos;t cause any signs or symptoms early in the disease. As thyroid cancer grows, it may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A lump that can be felt through the skin on your neck&lt;/li&gt;
+	&lt;li&gt;Changes to your voice, including increasing hoarseness&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Pain in your neck and throat&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes in your neck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you experience any these signs or symptoms, make an appointment with your doctor. Thyroid cancer isn&apos;t common, so your doctor may investigate other causes of your signs and symptoms first. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes thyroid cancer. Thyroid cancer occurs when cells in your thyroid undergo genetic changes (mutations). The mutations allow the cells to grow and multiply rapidly. The cells also lose the ability to die, as normal cells would. The accumulating abnormal thyroid cells form a tumor. The abnormal cells can invade nearby tissue and can spread throughout the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of thyroid cancer&lt;/strong&gt; &lt;br /&gt;
+The type of thyroid cancer determines treatment and prognosis. Types of thyroid cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Papillary thyroid cancer.&lt;/strong&gt; The papillary type of thyroid cancer is the most common, making up about 80 percent of all thyroid cancer diagnoses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follicular thyroid cancer.&lt;/strong&gt; Follicular thyroid cancer also includes Hurthle cell cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medullary thyroid cancer.&lt;/strong&gt; Medullary thyroid cancer may be associated with inherited genetic syndromes that include tumors in other glands. However, most medullary thyroid cancers are sporadic, meaning they aren&apos;t associated with inherited genetic syndromes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anaplastic thyroid cancer.&lt;/strong&gt; The anaplastic type of thyroid cancer is very rare, aggressive and very difficult to treat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid lymphoma.&lt;/strong&gt; Thyroid lymphoma begins in the immune system cells in the thyroid. Thyroid lymphoma is very rare.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of thyroid cancer 
+" Caption="Thyroid cancer occurs in the cells of the thyroid. 
+" Height="60" Title="Thyroid cancer" URI="/images/image_popup/thumbs/c7_thyroidcancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of thyroid cancer 
+" Caption="Thyroid cancer occurs in the cells of the thyroid. 
+" Height="373" Title="Thyroid cancer" URI="/images/image_popup/c7_thyroid_cancer.jpg" Width="400" />
+				<HTML>
+					Thyroid cancer occurs in the cells of the thyroid. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of thyroid cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to high levels of radiation.&lt;/strong&gt; Examples of high levels of radiation include those that come from radiation treatment to the head and neck and from fallout from such sources as nuclear power plant accidents or weapons testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Personal or family history of goiter.&lt;/strong&gt; Goiter is a noncancerous enlargement of the thyroid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain inherited genetic syndromes.&lt;/strong&gt; Genetic syndromes that increase the risk of thyroid cancer include familial medullary thyroid cancer, multiple endocrine neoplasia and familial adenomatous polyposis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Thyroid cancer that comes back&lt;/strong&gt; &lt;br /&gt;
+Despite treatment, thyroid cancer can return, even if you&apos;ve had your thyroid removed. This could happen if microscopic cancer cells spread beyond the thyroid before it&apos;s removed. Thyroid cancer recurrence can occur decades after thyroid cancer treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Thyroid cancer may recur in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lymph nodes in the neck&lt;/li&gt;
+	&lt;li&gt;Small pieces of thyroid tissue left behind during surgery&lt;/li&gt;
+	&lt;li&gt;Other areas of the body &amp;mdash; most often the lungs or the bones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Thyroid cancer that recurs can be treated. Your doctor may recommend periodic blood tests or thyroid scans to check for signs of a thyroid cancer recurrence. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect thyroid cancer, you&apos;re likely to start by first seeing your family doctor or a general practitioner. If your doctor suspects you may have a thyroid problem, you may be referred to a doctor who specializes in diseases of the endocrine system (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to recall all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For thyroid cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of thyroid cancer do I have?&lt;/li&gt;
+	&lt;li&gt;What stage is my thyroid cancer?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;I have other health problems. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Will I be able to work and do my usual activities during thyroid cancer treatment?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion?&lt;/li&gt;
+	&lt;li&gt;Should I see a doctor who specializes in thyroid diseases?&lt;/li&gt;
+	&lt;li&gt;How quickly do I need to make a decision about thyroid cancer treatment? Can I take some time to consider my options?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms occasional or continuous?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Have you ever been treated with radiation therapy?&lt;/li&gt;
+	&lt;li&gt;Have you ever been exposed to fallout from a nuclear accident?&lt;/li&gt;
+	&lt;li&gt;Does anyone else in your family have a history of goiter or thyroid or other endocrine cancers?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose thyroid cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A physical exam&lt;/strong&gt; to feel your neck for thyroid lumps and lymph node swelling&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests,&lt;/strong&gt; including a test to measure the level of thyroid-stimulating hormone (TSH) in your body&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests,&lt;/strong&gt; such as ultrasound of the neck to help determine the nature of the nodule and to look for enlarged lymph nodes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound-guided needle biopsy&lt;/strong&gt; to remove cells from your thyroid and examine them using a microscope to look for cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of needle biopsy of thyroid cancer 
+" Caption="During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+" Height="60" Title="Needle biopsy" URI="/images/image_popup/thumbs/c7_needlebiopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of needle biopsy of thyroid cancer 
+" Caption="During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+" Height="400" Title="Needle biopsy" URI="/images/image_popup/c7_needlebiopsy.jpg" Width="400" />
+				<HTML>
+					During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your thyroid cancer treatment options depend on the type and stage of your thyroid cancer, your overall health and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of thyroid cancer can be cured with treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Most people with thyroid cancer undergo surgery to remove all or most of the thyroid. Operations used to treat thyroid cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing all or most of the thyroid (thyroidectomy).&lt;/strong&gt; Surgery to remove the entire thyroid is the most common treatment for thyroid cancer. In most cases, the surgeon leaves small rims of thyroid tissue around the parathyroid glands to reduce the risk of parathyroid damage. Sometimes surgeons refer to this as a near-total thyroidectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing lymph nodes in the neck.&lt;/strong&gt; When removing your thyroid, the surgeon may also remove enlarged lymph nodes from your neck and test them for cancer cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Thyroid surgery is performed by making an incision in the skin at the base of your neck. Thyroid surgery carries a risk of bleeding and infection. Damage can also occur to your parathyroid glands during surgery, later leading to low calcium levels in your body. There&apos;s also a risk of accidental damage to the nerves connected to your vocal cords, which can cause vocal cord paralysis, hoarseness, soft voice or difficulty breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Thyroid hormone therapy&lt;/strong&gt; &lt;br /&gt;
+After thyroid cancer surgery, you&apos;ll take the thyroid hormone medication levothyroxine (Levothroid, Synthroid, others) for life. This pill has two benefits: It supplies the missing hormone your thyroid would normally produce, and it suppresses the production of thyroid-stimulating hormone (TSH) from your pituitary gland. High TSH levels could conceivably stimulate any remaining cancer cells to grow. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll likely have blood tests to check your thyroid hormone levels every few months until your doctor finds the proper dosage for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radioactive iodine&lt;/strong&gt; &lt;br /&gt;
+Radioactive iodine treatment uses large doses of a form of iodine that&apos;s radioactive. Radioactive iodine treatment is often used after thyroidectomy to destroy any remaining healthy thyroid tissue, as well as microscopic areas of thyroid cancer that weren&apos;t removed during surgery. Radioactive iodine treatment may also be used to treat thyroid cancer that recurs after treatment or that spreads to other areas of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Radioactive iodine treatment comes as a capsule or liquid that you swallow. The radioactive iodine is taken up primarily by thyroid cells and thyroid cancer cells, so there&apos;s a low risk of harming other cells in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Dry eyes&lt;/li&gt;
+	&lt;li&gt;Altered sense of taste or smell&lt;/li&gt;
+	&lt;li&gt;Pain where thyroid cancer cells have spread, such as the neck or chest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most of the radioactive iodine leaves your body in your urine in the first few days after treatment. During that time you&apos;ll be given instructions for precautions you need to take to protect other people from the radiation. For instance, you may be asked to temporarily avoid close contact with other people, especially children and pregnant women. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;External radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy can also be given externally using a machine that aims high-energy beams at precise points on your body. Called external beam radiation therapy, this treatment is typically administered a few minutes at a time, five days a week, for about six weeks. During treatment, you lie still on a table while a machine moves around you. External radiation therapy is generally used to treat thyroid cancer that has spread to the bones. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy is a drug treatment that uses chemicals to kill cancer cells. Chemotherapy is typically given as an infusion through a vein. The chemicals travel throughout your body, killing quickly growing cells, including cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy is not commonly used in the treatment of thyroid cancer, but it may benefit some people who don&apos;t respond to other, more standard therapies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are studies of new cancer treatments or new ways of using existing treatments. Enrolling in a clinical trial gives you the chance to try out the latest in cancer treatment options, but clinical trials can&apos;t guarantee a cure. Ask your doctor whether you might be eligible to enroll in a clinical trial. Together you can discuss the benefits and risks of a trial and decide whether participating in a clinical trial is right for you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of thyroid cancer can be frightening. You might feel as if you aren&apos;t sure what to do next. 
+&lt;/p&gt;
+&lt;p&gt;
+Everyone eventually finds his or her own way of coping with a cancer diagnosis. Until you find what works for you, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about thyroid cancer.&lt;/strong&gt; Write down the details of your thyroid cancer, such as the type, stage and treatment options. Ask your doctor where you can go for more information. Good sources of information to get you started include the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other thyroid cancer survivors.&lt;/strong&gt; You might find comfort in talking with people in your same situation. Ask your doctor about support groups in your area. Or connect with thyroid cancer survivors online through the American Cancer Society Cancer Survivors Network or the Thyroid Cancer Survivors&apos; Association.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control what you can about your health.&lt;/strong&gt; You can&apos;t control whether or not you develop thyroid cancer, but you can take steps to keep your body healthy during and after treatment. For instance, eat a healthy diet full of a variety of fruits and vegetables, get enough sleep each night so that you wake feeling rested, and try to incorporate physical activity into most days of your week.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t sure what causes most cases of thyroid cancer, so there&apos;s no way to prevent thyroid cancer in people who have an average risk of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevention for people with a high risk&lt;/strong&gt; &lt;br /&gt;
+People with an inherited gene mutation that increases the risk of medullary thyroid cancer may opt to have thyroid surgery to prevent cancer (prophylactic thyroidectomy). Discuss your options with a genetic counselor who can explain your risk of thyroid cancer and your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevention for people near nuclear power plants&lt;/strong&gt; &lt;br /&gt;
+Fallout from an accident at a nuclear power plant could cause thyroid cancer in people living nearby. If you live within 10 miles of a nuclear power plant in the United States, you may be eligible to receive a medication (potassium iodide) that blocks the effects of radiation on the thyroid. If an emergency were to occur, you and your family could take the potassium iodide tablets to help prevent thyroid cancer. Contact your state or local emergency management department for more information. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thyroid cancer
+	</Title>
+	<Abstract>
+		Thyroid cancer &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of cancer of the thyroid gland.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00660" LinkType="Internal" ObjectID="53702C74-2A5D-9994-E2870922F71E81C9" Title="Hurthle cell cancer" Url="http://www.mayoclinic.com/health/hurthle-cell-cancer/DS00660" />
+		<LinkItem ContentType="Answer" DocID="AN02196" LinkType="Internal" ObjectID="5661182E-EE32-C2FA-42793E130F959800" Title="Thyroid guard: Do I need one during a mammogram?" Url="http://www.mayoclinic.com/health/thyroid-guard/AN02196" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00709" LinkType="Internal" ObjectID="3B7E2908-9788-8F9C-79689BBDDE8A5263" Title="Thyroidectomy" Url="http://www.mayoclinic.com/health/thyroidectomy/MY00709" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

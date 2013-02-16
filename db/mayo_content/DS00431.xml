@@ -1,0 +1,371 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00431
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/amyloidosis/DS00431
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-06
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1714" Title="Plasma cell">
+						<Keyword MCVID="2272" Title="Amyloidosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			951A673E-F094-4A0E-B793BA81C9BE90FC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				amyloidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				monoclonal gammopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				primary amyloidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary amyloidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hereditary amyloidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				amyloid
+			</MetaKeyword>
+			<MetaKeyword>
+				MGUS
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple myeloma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amyloidosis (am-uh-loi-DO-sis) is a disease that occurs when substances called amyloid proteins build up in your organs. Amyloid is an abnormal protein usually produced by cells in your bone marrow that can be deposited in any tissue or organ. 
+&lt;/p&gt;
+&lt;p&gt;
+Amyloidosis can affect different organs in different people, and there are different types of amyloid. Amyloidosis frequently affects the heart, kidneys, liver, spleen, nervous system and gastrointestinal tract. 
+&lt;/p&gt;
+&lt;p&gt;
+Amyloidosis is rare, and the exact cause is often unknown. Treatments are available to help you manage your symptoms of amyloidosis and limit the production of amyloid protein. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of amyloidosis depend on which of your organs are affected. When signs and symptoms are evident, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling of your ankles and legs&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Significant weight loss&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling in your hands or feet&lt;/li&gt;
+	&lt;li&gt;Diarrhea or constipation&lt;/li&gt;
+	&lt;li&gt;Feeling full quickly&lt;/li&gt;
+	&lt;li&gt;Severe fatigue&lt;/li&gt;
+	&lt;li&gt;An enlarged tongue (macroglossia)&lt;/li&gt;
+	&lt;li&gt;Skin changes, such as thickening or easy bruising&lt;/li&gt;
+	&lt;li&gt;Purplish patches (purpura) around the eyes&lt;/li&gt;
+	&lt;li&gt;An irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Protein in the urine (detected by urine tests)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you persistently experience any of the signs or symptoms that may be associated with amyloidosis, see your doctor to determine whether the underlying cause may be amyloidosis or another problem. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing purpura around the eyes, a sign of amyloidosis
+" Caption="Some people with amyloidosis experience purpura &amp;mdash; a condition where small blood vessels leak into the skin, causing purplish patches.
+" Height="60" Title="Purpura around the eyes" URI="/images/image_popup/thumbs/r7_purpurathu.jpg" Width="60" />
+				<Image Alt="Photograph showing purpura around the eyes, a sign of amyloidosis
+" Caption="Some people with amyloidosis experience purpura &amp;mdash; a condition where small blood vessels leak into the skin, causing purplish patches.
+" Height="200" Title="Purpura around the eyes" URI="/images/image_popup/r7_purpura.jpg" Width="400" />
+				<HTML>
+					Some people with amyloidosis experience purpura &amp;mdash; a condition where small blood vessels leak into the skin, causing purplish patches.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing enlarged tongue, a sign of amyloidosis
+" Caption="An enlarged tongue (macroglossia) can be a sign of amyloidosis. 
+" Height="60" Title="Enlarged tongue" URI="/images/image_popup/thumbs/r7_swtonguethu.jpg" Width="60" />
+				<Image Alt="Photograph showing enlarged tongue, a sign of amyloidosis
+" Caption="An enlarged tongue (macroglossia) can be a sign of amyloidosis. 
+" Height="359" Title="Enlarged tongue" URI="/images/image_popup/r7_swtongue.jpg" Width="300" />
+				<HTML>
+					An enlarged tongue (macroglossia) can be a sign of amyloidosis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors classify amyloidosis into three major forms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Primary amyloidosis.&lt;/strong&gt; This most common form of amyloidosis can affect many areas, including your heart, kidneys, liver, spleen, nerves, intestines, skin, tongue and blood vessels. Primary amyloidosis isn&apos;t associated with other diseases &amp;mdash; except for multiple myeloma, a form of bone marrow cancer. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The exact cause of primary amyloidosis is unknown, but doctors do know that the disease begins in your bone marrow. In addition to producing red and white blood cells and platelets, your bone marrow makes antibodies &amp;mdash; proteins that protect you against infection and disease. After antibodies serve their function, your body breaks them down and recycles them. Amyloidosis occurs when cells in the bone marrow produce antibodies that can&apos;t be broken down. These antibodies then build up in your bloodstream. Ultimately, they leave your bloodstream and can deposit in your tissues as amyloid, interfering with normal function. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary amyloidosis.&lt;/strong&gt; This form occurs in association with chronic infectious or inflammatory diseases, such as tuberculosis, inflammatory arthritis or osteomyelitis, a bone infection. It primarily affects your kidneys, spleen, liver and lymph nodes, though other organs may be involved. Treatment of the underlying disease may help stop progression of this form of amyloidosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hereditary (familial) amyloidosis.&lt;/strong&gt; As the name implies, this form of amyloidosis is inherited. This type often affects the liver, nerves, heart and kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dialysis-related amyloidosis (DRA).&lt;/strong&gt; This form of amyloidosis develops when proteins in blood are deposited in joints and tendons, causing pain, stiffness and fluid in the joints, as well as carpal tunnel syndrome. The condition is most likely to affect people on long-term hemodialysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop primary amyloidosis, but certain factors place you at greater risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The majority of people who develop amyloidosis are older than 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; You may be at increased risk if you have a chronic infectious or inflammatory disease. People who have multiple myeloma &amp;mdash; a form of bone marrow cancer &amp;mdash; are also at increased risk of amyloidosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Some cases of amyloidosis are inherited.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney dialysis.&lt;/strong&gt; If you have kidney disease requiring kidney dialysis, you have an increased risk of dialysis-associated amyloidosis. This is because dialysis can&apos;t remove large proteins from the blood, so large, abnormal proteins may build up and deposit in surrounding tissues. This condition is less common with modern dialysis techniques.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The severity of amyloidosis depends on which organs the amyloid deposits affect. Potentially life-threatening situations include kidney failure and congestive heart failure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage.&lt;/strong&gt; When amyloidosis affects your kidneys, their filtering system is damaged, sometimes causing protein to leak from your blood into your urine. Ultimately, damage to the kidneys&apos; filtering system inhibits your kidneys&apos; ability to remove waste products from your body, which may progress to kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart damage.&lt;/strong&gt; When amyloidosis affects your heart, a common symptom is shortness of breath, even with slight exertion. You may find it difficult to climb a flight of stairs or walk long distances without stopping to rest. When amyloid protein builds up in your heart, it reduces your heart&apos;s ability to fill with blood in between heartbeats. This means less blood is pumped with each beat. Your heart will have difficulty keeping up with your body&apos;s demand for blood during exertion. And when amyloidosis affects the electrical system of your heart, this may disturb your heart&apos;s rhythm.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Nervous system damage.&lt;/strong&gt; Another potential complication of amyloidosis is disruption of your nervous system function. This may include carpal tunnel syndrome &amp;mdash; characterized by pain, numbness or tingling of the fingers. Disruption of another area of your nervous system might cause numbness or a lack of feeling in your toes or soles of your feet, or a burning sensation in these areas.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If amyloid deposits affect the nerves that control your bowel function, you may experience periods of alternating constipation and diarrhea. Sometimes the condition affects nerves that control blood pressure, and you may experience dizziness or near fainting when standing too quickly as a result of a drop in your blood pressure. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of amyloidosis are often vague and mimic those of other conditions, so it can be difficult to diagnose amyloidosis. Your symptoms may first prompt you to see your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what you might expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to join you.&lt;/strong&gt; Sometimes it can be difficult to take in all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For amyloidosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely reason I&apos;m having these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis with each treatment?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How is your appetite? Have you recently lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any shortness of breath?&lt;/li&gt;
+	&lt;li&gt;Are you often tired?&lt;/li&gt;
+	&lt;li&gt;Have you noticed that you bruise easily?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any leg swelling?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you able to work and perform normal daily tasks?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with amyloidosis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In order to rule out other conditions, your doctor may start by conducting: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A physical exam&lt;/li&gt;
+	&lt;li&gt;Blood tests&lt;/li&gt;
+	&lt;li&gt;Urine tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If blood or urine tests detect an abnormal protein &amp;mdash; which could indicate amyloidosis &amp;mdash; your doctor may order a tissue biopsy to make a definitive diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Biopsy may involve several samples&lt;/strong&gt; &lt;br /&gt;
+In a tissue biopsy, your doctor uses a needle to remove a small sample of tissue. If your doctor suspects that you have systemic amyloidosis &amp;mdash; meaning it affects several parts of your body rather than just one organ &amp;mdash; the biopsy may be taken from your abdominal fat, bone marrow, gums, salivary glands, skin or rectum. The sample is then examined under a microscope in a laboratory to check for signs of amyloid. These biopsies are conducted in an outpatient setting with a numbing medication (local anesthetic). 
+&lt;/p&gt;
+&lt;p&gt;
+Occasionally, tissue samples may be taken from other parts of your body, such as your heart, liver or kidney, to help diagnose the specific organ affected by amyloidosis. These procedures may require hospitalization. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Though there&apos;s no cure for amyloidosis, treatment may help manage signs and symptoms and limit further production of amyloid protein. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating primary systemic amyloidosis&lt;/strong&gt; &lt;br /&gt;
+Researchers are studying several therapies to determine their place in the treatment of amyloidosis. Ask your doctor whether these treatments are appropriate for you. For primary systemic amyloidosis, some of these include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medicines.&lt;/strong&gt; Therapies include melphalan (Alkeran) or cyclophosphamide (Cytoxan) &amp;mdash; chemotherapy agents that are also used to treat certain types of cancer &amp;mdash; and dexamethasone, a corticosteroid used for its anti-inflammatory effects. These drugs interrupt the growth of the abnormal cells that produce amyloid protein.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Researchers are investigating other types of chemotherapy regimens for amyloidosis. Several medications that are used in the treatment of multiple myeloma are being tested to see if they&apos;re effective in treating amyloidosis. These include bortezomib (Velcade), thalidomide (Thalomid) and a thalidomide derivative called lenalidomide (Revlimid). These drugs may be used alone or in combination with dexamethasone. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Ask your doctor what clinical trials may be available to you. Undergoing chemotherapy for amyloidosis may cause side effects similar to those of chemotherapy for cancer treatment, such as nausea, vomiting, hair loss, infection and extreme fatigue. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peripheral blood stem cell transplantation.&lt;/strong&gt; Peripheral blood stem cell transplantation involves using high-dose chemotherapy and transfusion of previously collected immature blood cells (stem cells) to replace diseased or damaged marrow. These cells are your own (autologous transplant). Autologous transplant is the preferred approach. Not everyone is a candidate for this aggressive treatment, and it has serious risks, including death. In some research, results from stem cell transplants have been promising, although it&apos;s unclear yet whether overall survival rates are better for those given chemotherapy alone compared with those given chemotherapy and stem cell transplantation. Discuss the potential risks and benefits of this treatment with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating secondary amyloidosis&lt;/strong&gt; &lt;br /&gt;
+If you have secondary amyloidosis, the goal of therapy is to treat the underlying condition &amp;mdash; for example, taking an anti-inflammatory medication for inflammatory arthritis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating hereditary amyloidosis&lt;/strong&gt; &lt;br /&gt;
+For hereditary amyloidosis, one possible therapy may be liver transplantation because the protein that causes this form of amyloidosis is made in the liver. In addition, researchers are investigating new drugs to stop the progression of inherited amyloidosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating complications&lt;/strong&gt; &lt;br /&gt;
+Because amyloidosis can cause a number of complications, you may also need treatment for those specific conditions, based on your signs and symptoms and affected organs. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, if amyloidosis affects your heart or kidneys, you may be asked to follow a low-salt diet to control fluid retention. Or your doctor may prescribe diuretics and other medications. In some cases, your doctor might prescribe medication for pain control. 
+&lt;/p&gt;
+&lt;p&gt;
+If any of your organs are severely damaged from amyloid deposits, you may need an organ transplant. Although such a transplant won&apos;t cure you because amyloid deposits could potentially collect in the new organ as well, a transplant could prolong your life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pace yourself.&lt;/strong&gt; If you feel short of breath, take a break. Although you&apos;ll need to avoid strenuous activities, you may be able to continue normal daily activities, such as going to work. Talk to your doctor about what&apos;s an appropriate level of activity for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a balanced diet.&lt;/strong&gt; Balanced nutrition is important to provide your body with an adequate energy supply.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When faced with a serious chronic illness, such as amyloidosis, many people turn to family and friends. However, others may find support and encouragement from groups that share the same illness. Ask your doctor about local support groups, or contact Amyloidosis Support Groups toll-free at 866-404-7539 or through its website. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Amyloidosis
+	</Title>
+	<Abstract>
+		Amyloidosis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of abnormal protein buildup in tissues.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

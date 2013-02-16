@@ -1,0 +1,132 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02065
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lack-of-sleep/AN02065
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-10
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3971" Title="Sleep conditions">
+						<Keyword MCVID="2624" Title="Insomnia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1F2E1E54-B359-94D3-98363938BE4FAB06
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lack of sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep deprivation
+			</MetaKeyword>
+			<MetaKeyword>
+				poor sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				immunity
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes, lack of sleep can affect your immune system. Studies show that people who don&apos;t get quality sleep or enough sleep are more likely to get sick after being exposed to a virus, such as the common cold. Lack of sleep can also affect how fast you recover if you do get sick.
+&lt;/p&gt;
+&lt;p&gt;
+During sleep, your immune system releases proteins called cytokines, some of which help promote sleep. Certain cytokines need to increase when you have an infection or inflammation, or when you&apos;re under stress. Sleep deprivation may decrease production of these protective cytokines. In addition, infection-fighting antibodies and cells are reduced during periods when you don&apos;t get enough sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+So, your body needs sleep to fight infectious diseases. Long-term lack of sleep also increases your risk of obesity, diabetes, and heart and blood vessel (cardiovascular) disease.
+&lt;/p&gt;
+&lt;p&gt;
+How much sleep do you need to bolster your immune system? The optimal amount of sleep for most adults is seven to eight hours of good sleep each night. Teenagers need nine to 10 hours of sleep. School-aged children may need 10 or more hours of sleep.
+&lt;/p&gt;
+&lt;p&gt;
+But more sleep isn&apos;t always better. For adults, sleeping more than nine to 10 hours a night may result in poor quality of sleep, such as difficulty falling or staying asleep.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lack of sleep: Can it make you sick?
+	</Title>
+	<Abstract>
+		Lack of sleep can affect your immune system. Here&apos;s what you need to know.
+	</Abstract>
+	<Question>
+		I&apos;m having trouble sleeping lately. Does this increase my chances of getting sick?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01717" LinkType="Internal" ObjectID="FA6D0680-E7FF-0DBD-1462408DE3F8E30A" Title="Melatonin side effects: What are the risks?" Url="http://www.mayoclinic.com/health/melatonin-side-effects/AN01717" />
+		<LinkItem ContentType="Answer" DocID="AN01820" LinkType="Internal" ObjectID="BDE6863C-E7FF-0DBD-1DBE52F748F513E2" Title="Sleep aids: Could antihistamines help me sleep?" Url="http://www.mayoclinic.com/health/sleep-aids/AN01820" />
+		<LinkItem ContentType="Answer" DocID="AN01907" LinkType="Internal" ObjectID="BCCD80B2-E7FF-0DBD-1280152BEC2FBF6E" Title="Sleep apnea and caffeine: Any connection?" Url="http://www.mayoclinic.com/health/sleep-apnea/AN01907" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN02178" LinkType="Internal" ObjectID="A1139DD7-CDCB-DC39-3CA5A55B5497F085" Title="Sleep and weight gain: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/sleep-and-weight-gain/AN02178" />
+		<LinkItem ContentType="Answer" DocID="AN02194" LinkType="Internal" ObjectID="97DB1E66-C0DF-846A-EDC3AE6812E0E8C9" Title="What is reflexology?" Url="http://www.mayoclinic.com/health/what-is-reflexology/AN02194" />
+		<LinkItem ContentType="Answer" DocID="AN01616" LinkType="Internal" ObjectID="53B682D2-E7FF-0DBD-12D1D4C82FF59AEF" Title="Shift work: Improving daytime sleep" Url="http://www.mayoclinic.com/health/shift-work/AN01616" />
+		<LinkItem ContentType="Answer" DocID="AN01487" LinkType="Internal" ObjectID="30924DB7-E7FF-0DBD-1BC041B62E795285" Title="How many hours of sleep are enough?" Url="http://www.mayoclinic.com/health/how-many-hours-of-sleep-are-enough/AN01487" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="MY01383" LinkType="Internal" ObjectID="F5587968-F989-5DEA-6D643BE3E70B80C7" Title="Napping: Do&apos;s and don&apos;ts for healthy adults" Url="http://www.mayoclinic.com/health/napping/MY01383" />
+		<LinkItem ContentType="Article" DocID="SL00016" LinkType="Internal" ObjectID="D7932614-E7FF-0DBD-16A8B83124F7C06A" Title="Sleep aids: Understand over-the-counter options" Url="http://www.mayoclinic.com/health/sleep-aids/SL00016" />
+		<LinkItem ContentType="Answer" DocID="AN01812" LinkType="Internal" ObjectID="E6454D92-E7FF-0DBD-122239E1FF344B56" Title="Ambien: Is dependence a concern?" Url="http://www.mayoclinic.com/health/ambien/AN01812" />
+		<LinkItem ContentType="Answer" DocID="AN02046" LinkType="Internal" ObjectID="DF38D9CC-D8A8-EA00-1E9CD78272EA0F90" Title="Valerian: A safe and effective herbal sleep aid?" Url="http://www.mayoclinic.com/health/valerian/AN02046" />
+		<LinkItem ContentType="Answer" DocID="AN01582" LinkType="Internal" ObjectID="BDB0B9E5-E7FF-0DBD-13FB7A7B1D825386" Title="Foods that help you sleep" Url="http://www.mayoclinic.com/health/foods-that-help-you-sleep/AN01582" />
+		<LinkItem ContentType="Answer" DocID="AN01611" LinkType="Internal" ObjectID="482F4021-E7FF-0DBD-177C2DFD59CC06EC" Title="Insomnia: How do I stay asleep?" Url="http://www.mayoclinic.com/health/insomnia/AN01611" />
+		<LinkItem ContentType="Answer" DocID="AN01063" LinkType="Internal" ObjectID="45B08CDE-593C-43FE-801E1AFAF8A999FA" Title="Late-day exercise: Can it cause insomnia?" Url="http://www.mayoclinic.com/health/exercise/AN01063" />
+		<LinkItem ContentType="Disease" DocID="DS00175" LinkType="Internal" ObjectID="F61D92BD-C12C-4C1E-98CE1DDC09196EA2" Title="Depression (major depression)" Url="http://www.mayoclinic.com/health/depression/DS00175" />
+		<LinkItem ContentType="Disease" DocID="DS01143" LinkType="Internal" ObjectID="CEA12AC8-CF7E-9CEF-0A257B252A1FE734" Title="Hot flashes" Url="http://www.mayoclinic.com/health/hot-flashes/DS01143" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+		<LinkItem ContentType="Article" DocID="SL00013" LinkType="Internal" ObjectID="9751446F-E7FF-0DBD-1ABA710B17A6AACF" Title="Insomnia treatment: Cognitive behavioral therapy instead of sleeping pills" Url="http://www.mayoclinic.com/health/insomnia-treatment/SL00013" />
+		<LinkItem ContentType="Article" DocID="SL00010" LinkType="Internal" ObjectID="075A19C3-2A5D-9994-EA19247B55DD4BC8" Title="Prescription sleeping pills: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/sleeping-pills/SL00010" />
+		<LinkItem ContentType="Disease" DocID="DS00187" LinkType="Internal" ObjectID="4A51681C-E903-48E6-9339EFF42FD2E52C" Title="Insomnia" Url="http://www.mayoclinic.com/health/insomnia/DS00187" />
+	</RelatedLinksBox>
+</Answer>

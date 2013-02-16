@@ -1,0 +1,227 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00872
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ruptured-spleen/DS00872
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="4338" Title="Ruptured spleen" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			43509E63-E7FF-0DBD-18B58D9B2745F792
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				ruptured spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				splenomegaly
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				spleen pain
+			</MetaKeyword>
+			<MetaKeyword>
+				splenectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A ruptured spleen describes an emergency situation in which your spleen develops a break in its surface. Your spleen, located just under your rib cage on your left side, helps your body fight infection and filter old blood cells from your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+A ruptured spleen is a serious condition that can occur when your spleen experiences a trauma. With enough force, a blow to your abdomen &amp;mdash; during a sporting mishap, a fistfight or a car crash, for example &amp;mdash; might lead to a ruptured spleen. Without emergency treatment, a ruptured spleen can cause life-threatening internal bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Though some ruptured spleens require emergency surgery, others with ruptured spleens can be treated with several days of hospital care. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of ruptured spleen 
+" Caption="The spleen is located just under your rib cage on your left side. A ruptured spleen may pour a large amount of blood into the abdominal cavity. 
+" Height="60" Title="Ruptured spleen" URI="/images/image_popup/thumbs/r7_rupturedspleenthu.jpg" Width="60" />
+				<Image Alt="Image of ruptured spleen 
+" Caption="The spleen is located just under your rib cage on your left side. A ruptured spleen may pour a large amount of blood into the abdominal cavity. 
+" Height="299" Title="Ruptured spleen" URI="/images/image_popup/r7_rupturedspleen.jpg" Width="400" />
+				<HTML>
+					The spleen is located just under your rib cage on your left side. A ruptured spleen may pour a large amount of blood into the abdominal cavity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a ruptured spleen include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in the upper left portion of the abdomen&lt;/li&gt;
+	&lt;li&gt;Tenderness when you touch the upper left portion of the abdomen&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+A ruptured spleen is a medical emergency. If you have pain in the left upper abdomen or signs and symptoms that indicate internal bleeding &amp;mdash; such as lightheadedness, confusion, blurred vision or fainting &amp;mdash; after an injury, seek emergency medical care. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of ruptured spleen 
+" Caption="The spleen is located just under your rib cage on your left side. A ruptured spleen may pour a large amount of blood into the abdominal cavity. 
+" Height="60" Title="Ruptured spleen" URI="/images/image_popup/thumbs/r7_rupturedspleenthu.jpg" Width="60" />
+				<Image Alt="Image of ruptured spleen 
+" Caption="The spleen is located just under your rib cage on your left side. A ruptured spleen may pour a large amount of blood into the abdominal cavity. 
+" Height="299" Title="Ruptured spleen" URI="/images/image_popup/r7_rupturedspleen.jpg" Width="400" />
+				<HTML>
+					The spleen is located just under your rib cage on your left side. A ruptured spleen may pour a large amount of blood into the abdominal cavity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A spleen may rupture due to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to the left side of the body.&lt;/strong&gt; A ruptured spleen is typically caused by a blow to the left upper abdomen or the left lower chest, such as might happen during sporting mishaps, fistfights and car crashes. An injured spleen may rupture soon after the abdominal trauma or, in some cases, days or even weeks after the injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An enlarged spleen.&lt;/strong&gt; Your spleen can become enlarged when blood cells accumulate in the spleen. An enlarged spleen can be caused by various underlying problems, such as mononucleosis and other infections, liver disease and blood cancers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A ruptured spleen can cause life-threatening bleeding into your abdominal cavity. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose a ruptured spleen include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A physical exam.&lt;/strong&gt; During a physical exam your doctor will use his or her hands to place pressure on your abdomen to determine the size of your spleen and whether you&apos;re experiencing any abdominal tenderness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drawing fluid from your abdomen.&lt;/strong&gt; Your doctor may use a needle to draw a sample of fluid from your abdomen. If the sample reveals blood in your abdomen, you may be referred for emergency treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests of your abdomen.&lt;/strong&gt; If your diagnosis isn&apos;t clear, your doctor may recommend an abdominal computerized tomography (CT) scan or another imaging test to identify or rule out other possible causes of your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for a ruptured spleen will depend on your situation. Some situations are emergencies requiring immediate surgery. In other situations, a ruptured spleen may heal with rest and time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization while the spleen heals&lt;/strong&gt; &lt;br /&gt;
+Many small and many moderate-sized injuries to the spleen can heal without surgery. You&apos;re likely to stay in the hospital while doctors observe your condition and provide nonsurgical care, such as blood transfusions, if necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend periodic follow-up CT scans to ensure that your spleen has healed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to repair or remove the spleen&lt;/strong&gt; &lt;br /&gt;
+Surgery for a ruptured spleen can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to repair the spleen.&lt;/strong&gt; Your surgeon may be able to repair the rupture in your spleen with sutures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove part of the spleen.&lt;/strong&gt; If your spleen is ruptured in a way that makes it possible to remove only a portion of the spleen, your surgeon may perform a procedure called a partial (subtotal) splenectomy. A portion of your spleen is removed and sutures are used to close the wound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the spleen.&lt;/strong&gt; A splenectomy is a procedure to remove the entire spleen. Though you don&apos;t need a spleen to survive, being without your spleen increases your risk of serious infections. Your doctor may recommend ways to reduce your risk of infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery to repair or remove the spleen is usually done through several small incisions in your abdomen in a procedure called laparoscopic surgery. Special surgical tools and a camera lens with a light are inserted through the incisions. The camera sends images to a monitor, which the surgeon watches in order to guide the surgical tools. In certain situations, the surgeon may use a large incision to access the spleen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with an enlarged spleen, ask your doctor whether you should avoid activities that could cause a ruptured spleen. For instance, people with mononucleosis &amp;mdash; a viral infection that can cause an enlarged spleen &amp;mdash; may be asked to avoid contact sports and other activities that increase the risk of abdominal trauma for several weeks. Protecting the spleen from bumps and blows may reduce the risk of a ruptured spleen.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ruptured spleen
+	</Title>
+	<Abstract>
+		Ruptured spleen &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of this source of life-threatening bleeding.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01271" LinkType="Internal" ObjectID="D870A127-09C3-EB7A-05D2BDC60612CD97" Title="Splenectomy" Url="http://www.mayoclinic.com/health/splenectomy/MY01271" />
+	</RelatedLinksBox>
+</Disease>

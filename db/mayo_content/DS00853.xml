@@ -1,0 +1,317 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00853
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/legionnaires-disease/DS00853
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2573" Title="Legionnaires&apos; disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			53735F07-E7FF-0DBD-1F25A1176C48BEC6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				legionnaires&apos; disease
+			</MetaKeyword>
+			<MetaKeyword>
+				legionnaire&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				legionaire&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Pontiac fever
+			</MetaKeyword>
+			<MetaKeyword>
+				pneumonia
+			</MetaKeyword>
+			<MetaKeyword>
+				legionella
+			</MetaKeyword>
+			<MetaKeyword>
+				legionella bacteria
+			</MetaKeyword>
+			<MetaKeyword>
+				legionellosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Legionnaires&apos; disease is a severe form of pneumonia &amp;mdash; lung inflammation usually caused by infection. Legionnaires&apos; disease is caused by a bacterium known as legionella. 
+&lt;/p&gt;
+&lt;p&gt;
+You can&apos;t catch Legionnaires&apos; disease from person-to-person contact. Instead, most people get Legionnaires&apos; disease from inhaling the bacteria. Older adults, smokers and people with weakened immune systems are particularly susceptible to Legionnaires&apos; disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Legionella bacterium also causes Pontiac fever, a milder illness resembling the flu. Separately or together, the two illnesses are sometimes called legionellosis. Pontiac fever usually clears on its own. But untreated Legionnaires&apos; disease can be fatal. Although prompt treatment with antibiotics usually cures Legionnaires&apos; disease, some people continue to experience problems after treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Legionnaires&apos; disease usually develops two to 14 days after exposure to legionella bacteria. It frequently begins with the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Muscle pain&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Fever that may be 104 F (40 C) or higher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+By the second or third day, you&apos;ll develop other signs and symptoms that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cough, which may bring up mucus and sometimes blood&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Gastrointestinal symptoms, such as nausea, vomiting and diarrhea&lt;/li&gt;
+	&lt;li&gt;Confusion or other mental changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although Legionnaires&apos; disease primarily affects the lungs, it occasionally can cause infections in wounds and in other parts of the body, including the heart. 
+&lt;/p&gt;
+&lt;p&gt;
+A mild form of Legionnaires&apos; disease &amp;mdash; known as Pontiac fever &amp;mdash; may produce symptoms including fever, chills, headache and muscle aches. Pontiac fever doesn&apos;t infect your lungs, and symptoms usually clear within two to five days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you think you&apos;ve been exposed to legionella bacteria. Be sure to mention any trips you&apos;ve taken in the past two weeks and where you stayed. Diagnosing and treating Legionnaires&apos; disease as soon as possible can help shorten the recovery period and prevent serious complications. For people at high risk, prompt treatment is critical. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The bacterium Legionella pneumophila is responsible for most cases of Legionnaires&apos; disease. Outdoors, Legionella bacteria survive in soil and water, but rarely cause infections. Indoors, though, Legionella bacteria can multiply in all kinds of water systems &amp;mdash; hot tubs, air conditioners and mist sprayers in grocery store produce departments. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s possible to contract Legionnaires&apos; disease from home plumbing systems, most outbreaks have occurred in large buildings, perhaps because complex systems allow the bacteria to grow and spread more easily. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the infection spreads&lt;/strong&gt;&lt;br /&gt;
+Most people become infected when they inhale microscopic water droplets containing legionella bacteria. This might be the spray from a shower, faucet or whirlpool, or water dispersed through the ventilation system in a large building. Outbreaks have been linked to a range of sources, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hot tubs and whirlpools on cruise ships&lt;/li&gt;
+	&lt;li&gt;Cooling towers in air conditioning systems&lt;/li&gt;
+	&lt;li&gt;Decorative fountains&lt;/li&gt;
+	&lt;li&gt;Swimming pools&lt;/li&gt;
+	&lt;li&gt;Physical therapy equipment&lt;/li&gt;
+	&lt;li&gt;Water systems in hotels, hospitals and nursing homes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Scientists aren&apos;t certain how much exposure to the bacteria is needed to cause disease, but some people have developed infections after inhaling contaminated droplets for just a few minutes. And unlike many bacteria, which spread within a small radius, legionella bacteria may be capable of traveling as far as four miles through the air. 
+&lt;/p&gt;
+&lt;p&gt;
+Although legionella bacteria primarily spread through aerosolized water droplets, the infection can be transmitted in other ways, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aspiration.&lt;/strong&gt; This occurs when liquids accidentally enter your lungs, usually because you cough or choke while drinking. If you aspirate water containing legionella bacteria, you may develop Legionnaires&apos; disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soil.&lt;/strong&gt; A few people have contracted Legionnaires&apos; disease after working in the garden or using contaminated potting soil. It&apos;s also possible that the disease may spread when earth containing the bacteria is stirred up at large construction sites.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Not everyone exposed to legionella bacteria becomes sick. You&apos;re more likely to develop the infection if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smoke. Smoking damages the lungs, making you more susceptible to all types of lung infections.&lt;/li&gt;
+	&lt;li&gt;Have a weakened immune system as a result of HIV/AIDS or certain medications, especially corticosteroids and drugs taken to prevent organ rejection after a transplant.&lt;/li&gt;
+	&lt;li&gt;Have a chronic lung disease such as emphysema or another serious condition such as diabetes, kidney disease or cancer.&lt;/li&gt;
+	&lt;li&gt;Are 65 years of age or older.&lt;/li&gt;
+	&lt;li&gt;Have a job maintaining the cooling towers in air conditioning systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Legionnaires&apos; disease is a sporadic and local problem in hospitals and nursing homes, where germs may spread easily and people are vulnerable to infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Legionnaires&apos; disease can lead to a number of life-threatening complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory failure.&lt;/strong&gt; This occurs when the lungs are no longer able to provide the body with enough oxygen or can&apos;t remove enough carbon dioxide from the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Septic shock.&lt;/strong&gt; This occurs when a severe, sudden drop in blood pressure reduces blood flow to vital organs, especially the kidneys and brain. The heart tries to compensate by increasing the volume of blood pumped, but the extra workload eventually weakens the heart and reduces blood flow even further.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute kidney failure.&lt;/strong&gt; This is the sudden loss of your kidneys&apos; ability to perform their main function &amp;mdash; filtering waste material from your blood. When your kidneys fail, dangerous levels of fluid and waste accumulate in your body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When not treated effectively and promptly, Legionnaires&apos; disease may be fatal, especially if your immune system is weakened by disease or medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a primary care provider. However, in some cases, you may be referred immediately to a doctor who specializes in treating lung disease (pulmonologist) or an infectious diseases doctor, or advised to go to an emergency department. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key information about your illness,&lt;/strong&gt; including all the symptoms you&apos;re experiencing. Record your temperature. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tell your doctor if you&apos;ve recently been away from home, &lt;/strong&gt;and where you stayed. If anyone you regularly associate with has an illness similar to yours, mention that to your doctor as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down personal information,&lt;/strong&gt; including recent hospitalizations. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along,&lt;/strong&gt; if possible. It may be difficult to soak up all the information provided to you during an appointment. Someone who goes with you may help you remember. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions you might ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition? &lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes? &lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? &lt;/li&gt;
+	&lt;li&gt;What is the best course of action? &lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting? &lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How will this illness affect them? &lt;/li&gt;
+	&lt;li&gt;Is it possible to avoid hospitalization? If not, how many days will I be hospitalized?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment any time that you don&apos;t understand or need information clarified. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms? &lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous? &lt;/li&gt;
+	&lt;li&gt;Have your symptoms been worsening since their onset? &lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms? &lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+To keep from making your condition worse: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t smoke or be around smoke. &lt;/li&gt;
+	&lt;li&gt;Don&apos;t drink alcohol. &lt;/li&gt;
+	&lt;li&gt;Stay out of work or school, and rest as much as you can. &lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids. &lt;/li&gt;
+	&lt;li&gt;If you get sicker before you see a doctor, go to an emergency room. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Legionnaires&apos; disease is similar to other types of pneumonia. To help identify the presence of legionella bacteria quickly, your doctor may use a test that checks your urine for legionella antigens &amp;mdash; foreign substances that trigger an immune system response. You may also have one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood tests&lt;/li&gt;
+	&lt;li&gt;A chest X-ray, which doesn&apos;t confirm Legionnaires&apos; disease but can show the extent of infection in your lungs&lt;/li&gt;
+	&lt;li&gt;Tests on a sample of your sputum or lung tissue&lt;/li&gt;
+	&lt;li&gt;A CT scan of your brain or a spinal tap (lumbar puncture) if you have neurological symptoms such as confusion or trouble concentrating&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Legionnaires&apos; disease is treated with antibiotics. The sooner therapy is started, the less likely the chance of serious complications or death. Pontiac fever goes away on its own without treatment and causes no lingering problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Outbreaks of Legionnaire&apos;s disease are preventable, but it requires meticulous cleaning and disinfection of water systems, pools and spas. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoiding smoking is the single most important thing you can do to lower your risk of infection. Smoking increases the chances that you&apos;ll develop Legionnaires&apos; disease if you&apos;re exposed to legionella bacteria. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Legionnaires&apos; disease
+	</Title>
+	<Abstract>
+		Legionnaires&apos; disease &amp;mdash; Comprehensive overview covers causes, symptoms and treatment of this infectious disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+	</RelatedLinksBox>
+</Disease>

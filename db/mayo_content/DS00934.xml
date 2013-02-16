@@ -1,0 +1,380 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00934
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vascular-dementia/DS00934
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="2307" Title="Dementia">
+							<Keyword MCVID="2308" Title="Vascular" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4FD21B50-E7FF-0DBD-15C7C821AF3A7F72
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vascular dementia
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				mini strokes
+			</MetaKeyword>
+			<MetaKeyword>
+				dimentia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vascular dementia is a general term describing problems with reasoning, planning, judgment, memory and other thought processes caused by brain damage from impaired blood flow to your brain. 
+&lt;/p&gt;
+&lt;p&gt;
+You can develop vascular dementia after a stroke blocks an artery in your brain, but strokes don&apos;t always cause vascular dementia. Whether a stroke affects your thinking and reasoning depends on your stroke&apos;s severity and location. Vascular dementia also can result from other conditions that damage blood vessels and reduce circulation, depriving your brain of vital oxygen and nutrients. 
+&lt;/p&gt;
+&lt;p&gt;
+Factors that increase your risk of heart disease and stroke &amp;mdash; including high blood pressure, high cholesterol and smoking &amp;mdash; also raise your vascular dementia risk. Controlling these factors can help lower your chances of developing vascular dementia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vascular dementia symptoms vary, depending on the part of your brain where blood flow is impaired. Symptoms often overlap with those of other types of dementia, especially Alzheimer&apos;s disease. Vascular dementia symptoms may be most clear-cut when they occur suddenly following a stroke. When changes in your thinking and reasoning seem clearly linked to a stroke, this condition is sometimes called &quot;post-stroke dementia.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Another characteristic pattern of vascular dementia symptoms sometimes follows a series of strokes or mini strokes. In this pattern, changes in your thought processes occur in noticeable &quot;steps&quot; downward from your previous level of function, unlike the gradual, steady decline that typically occurs in Alzheimer&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+But vascular dementia can also develop very gradually, just like Alzheimer&apos;s disease. What&apos;s more, vascular dementia and Alzheimer&apos;s often occur together. Studies show that people with dementia symptoms usually have brain changes typical of more than one type. Some doctors call this condition &quot;mixed dementia.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Vascular dementia symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Trouble paying attention and concentrating&lt;/li&gt;
+	&lt;li&gt;Reduced ability to organize thoughts or actions&lt;/li&gt;
+	&lt;li&gt;Decline in ability to analyze a situation, develop an effective plan, and communicate plan to others&lt;/li&gt;
+	&lt;li&gt;Difficulty deciding what to do next&lt;/li&gt;
+	&lt;li&gt;Problems with memory&lt;/li&gt;
+	&lt;li&gt;Restlessness and agitation&lt;/li&gt;
+	&lt;li&gt;Unsteady gait&lt;/li&gt;
+	&lt;li&gt;Sudden or frequent urge to urinate, or inability to control passing urine&lt;/li&gt;
+	&lt;li&gt;Wandering at night&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vascular dementia results from conditions that damage your brain&apos;s blood vessels, reducing their ability to supply your brain with the large amounts of nutrition and oxygen it needs to perform thought processes effectively. 
+&lt;/p&gt;
+&lt;p&gt;
+Common conditions that may lead to vascular dementia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke (infarction) blocking a brain artery.&lt;/strong&gt; Strokes that block a brain artery usually cause a range of symptoms that may include vascular dementia. But some strokes don&apos;t cause any noticeable symptoms. These &quot;silent brain infarctions&quot; still increase dementia risk. With both silent and apparent strokes, the risk of vascular dementia increases with the number of infarctions that occur over time. One type of vascular dementia involving many strokes is called multi-infarct dementia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowed or chronically damaged brain blood vessels.&lt;/strong&gt; Conditions that narrow or inflict long-term damage on your brain blood vessels can also lead to vascular dementia. These conditions include the wear and tear associated with aging; high blood pressure; hardening of the arteries; diabetes; lupus erythematosus; brain hemorrhage; and temporal arteritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, the risk factors for vascular dementia are the same as those for heart disease and stroke. Risk factors for vascular dementia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; Your risk for vascular dementia rises as you grow older. The disorder is rare before age 65, and risk rises substantially as you reach your 80s and 90s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of heart attack, strokes or mini strokes.&lt;/strong&gt; If you&apos;ve had a heart attack, you may be at increased risk of having blood vessel problems in your brain. The brain damage that occurs with a stroke or a mini stroke (transient ischemic attack) may increase your risk of developing dementia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atherosclerosis.&lt;/strong&gt; This condition occurs when deposits of cholesterol and other substances (plaques) build up in your arteries and narrow your blood vessels. Atherosclerosis can increase your risk of vascular dementia &amp;mdash; and possibly your risk of Alzheimer&apos;s disease &amp;mdash; by reducing the flow of blood that nourishes your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High cholesterol.&lt;/strong&gt; Elevated levels of low-density lipoprotein (LDL), the so-called &quot;bad&quot; cholesterol, are associated with an increased risk of vascular dementia, and possibly with a higher risk of Alzheimer&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; When your blood pressure&apos;s too high, it puts extra stress on blood vessels everywhere in your body, including your brain. This increases the risk of vascular problems in the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; High glucose levels damage blood vessels throughout your body. Damage in brain blood vessels can increase your risk of stroke and vascular dementia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking directly damages your blood vessels, increasing your risk of atherosclerosis and other circulatory diseases, including vascular dementia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial fibrillation.&lt;/strong&gt; In this abnormal heart rhythm, the upper chambers of your heart begin to beat rapidly and irregularly, out of coordination with your heart&apos;s lower chambers. Atrial fibrillation increases your risk of stroke by leading to poor blood flow to your brain and elsewhere in your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve had a stroke, your first conversations about your symptoms and recovery will likely take place in the hospital. If you&apos;re noticing milder symptoms, you may decide you want to talk to your doctor about changes in your thought processes, or you may seek care at the urging of a family member who arranges your appointment and goes with you. 
+&lt;/p&gt;
+&lt;p&gt;
+You may start by seeing your primary care doctor, but he or she is likely to refer you to a doctor who specializes in disorders of the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, ask if you need to fast for blood tests or if you need to do anything else to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all of your symptoms.&lt;/strong&gt; Your doctor will want to know details about what&apos;s causing your concern about your memory or mental function. Make notes about some of the most important examples of forgetfulness, poor judgment or other lapses you want to mention. Try to remember when you first started to suspect that something might be wrong. If you think your difficulties are getting worse, be ready to explain why.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along a family member or friend, if possible.&lt;/strong&gt; Corroboration from a relative or trusted friend can play a key role in confirming that your difficulties are apparent to others. Having someone along can also help you soak up all the information provided during your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your other medical conditions.&lt;/strong&gt; Your doctor will want to know if you&apos;re currently being treated for diabetes, high blood pressure, heart disease, past strokes or any other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; including over-the-counter drugs and vitamins or supplements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because time with your doctor is limited, writing down a list of questions will help you make the most of your appointment. If you&apos;re seeing your doctor regarding concerns about vascular dementia, some questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have problems with thinking, planning or memory?&lt;/li&gt;
+	&lt;li&gt;Do you think my symptoms are due to circulation problems in my brain?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist? What will that cost? Will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;If my diagnosis is vascular dementia, will you or another doctor manage my ongoing care? Can you help me get a plan in place to work with all my doctors?&lt;/li&gt;
+	&lt;li&gt;Are treatments available?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to any medicine you may prescribe?&lt;/li&gt;
+	&lt;li&gt;Are there any clinical trials of experimental treatments I should consider?&lt;/li&gt;
+	&lt;li&gt;What should I expect to happen over the long term?&lt;/li&gt;
+	&lt;li&gt;Will my symptoms affect how I manage my other health conditions?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material I can take home with me? What websites and support resources do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared ahead of time, don&apos;t hesitate to ask your doctor to clarify anything you don&apos;t understand. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is also likely to have questions for you. Being ready to respond may free up time to focus on any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of thinking problems and mental lapses are you having? When did you first notice them?&lt;/li&gt;
+	&lt;li&gt;Are they steadily getting worse, or are they sometimes better and sometimes worse? Have they suddenly gotten worse?&lt;/li&gt;
+	&lt;li&gt;Has anyone close to you expressed concern about your thinking and reasoning?&lt;/li&gt;
+	&lt;li&gt;Have you started having problems with any long-standing activities or hobbies?&lt;/li&gt;
+	&lt;li&gt;Do you feel any sadder or more anxious than usual?&lt;/li&gt;
+	&lt;li&gt;Have you gotten lost lately on a driving route or in a situation that&apos;s usually familiar to you?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in the way you react to people or events?&lt;/li&gt;
+	&lt;li&gt;Do you have any change in your energy level?&lt;/li&gt;
+	&lt;li&gt;Are you currently being treated for high blood pressure, high cholesterol, diabetes, heart disease or stroke? Have you been treated for any of these in the past?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+	&lt;li&gt;Are you taking any vitamins or supplements?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? How much?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any trembling or trouble walking?&lt;/li&gt;
+	&lt;li&gt;Are you having any trouble remembering your medical appointments or when to take your medication?&lt;/li&gt;
+	&lt;li&gt;Have you had your hearing and vision tested recently?&lt;/li&gt;
+	&lt;li&gt;Did anyone else in your family ever have trouble with thinking or remembering things as they got older? Was anyone ever diagnosed with Alzheimer&apos;s disease or dementia?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors can nearly always determine that you have dementia, but there&apos;s no specific test that confirms you have vascular dementia. Your doctor will make a judgment about whether vascular dementia is the most likely cause of your symptoms based on the information you provide, your medical history for stroke or disorders of the heart and blood vessels, and results of tests that may help clarify your diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;br /&gt;
+&lt;/strong&gt;If your medical record doesn&apos;t include recent values for key indicators of the health of your heart and blood vessels, your doctor will test your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood pressure&lt;/li&gt;
+	&lt;li&gt;Cholesterol&lt;/li&gt;
+	&lt;li&gt;Blood sugar &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+He or she may also order tests to rule out other potential causes of memory loss and confusion, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thyroid disorders&lt;/li&gt;
+	&lt;li&gt;Vitamin deficiencies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological exam&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to check your overall neurological health by testing your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle tone and strength, and how strength on one side of your body compares with the other side &lt;/li&gt;
+	&lt;li&gt;Ability to get up from a chair and walk across the room&lt;/li&gt;
+	&lt;li&gt;Sense of touch and sight&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain imaging&lt;br /&gt;
+&lt;/strong&gt;Images of your brain can pinpoint visible abnormalities caused by strokes, blood vessel diseases, tumors or trauma that may cause changes in thinking and reasoning. A brain-imaging study can help your doctor zero in on more likely causes for your symptoms and rule out other causes.
+&lt;/p&gt;
+&lt;p&gt;
+Brain-imaging procedures your doctor may recommend to help diagnose vascular dementia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; For a CT scan, you&apos;ll lie on a narrow table that slides into a small chamber. X-rays pass through your body from various angles, and a computer uses this information to create detailed cross-sectional images (slices) of your brain. This test is painless and takes about 20 minutes. A CT scan can provide information about your brain&apos;s structure; tell whether any regions show shrinkage; and detect evidence of strokes, mini strokes (transient ischemic attacks, blood vessel changes or tumors. Sometimes you&apos;ll receive an intravenous (IV) injection of a contrast agent that will help highlight certain brain tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses radio waves and a strong magnetic field to produce detailed images of your brain. You lie on a narrow table that slides into a tube-shaped MRI machine, which makes loud banging noises while it produces images. The entire procedure can take an hour or more. MRIs are painless, but some people feel claustrophobic inside the machine and are disturbed by the noise. MRIs can provide even more detail than CTs about strokes, mini strokes and blood vessel abnormalities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Carotid ultrasound&lt;br /&gt;
+&lt;/strong&gt;This procedure uses high-frequency sound waves to determine whether your carotid arteries &amp;mdash; which run up through either side of your neck to supply blood to brain &amp;mdash; show signs of narrowing as a result of plaque deposits or structural problems. Your test may include a Doppler ultrasound, which shows the movement of blood through your arteries in addition to structural features.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neuropsychological tests&lt;br /&gt;
+&lt;/strong&gt;This type of exam assesses your ability to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Speak, write and understand language&lt;/li&gt;
+	&lt;li&gt;Work with numbers&lt;/li&gt;
+	&lt;li&gt;Learn and remember information&lt;/li&gt;
+	&lt;li&gt;Develop a plan of attack and solve a problem&lt;/li&gt;
+	&lt;li&gt;Respond effectively to hypothetical situations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Neurospychological tests sometimes show characteristic results for people with different types of dementia. People with vascular dementia may have an exceptionally hard time analyzing a problem and developing an effective solution. They may be less likely to have trouble learning new information and remembering than are people with Alzheimer&apos;s unless their blood vessel problems affect specific brain regions important for memory. However, there&apos;s often a lot of overlap in exam results for people with vascular dementia and people who have Alzheimer&apos;s disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Controlling underlying conditions and risk factors&lt;br /&gt;
+&lt;/strong&gt;Controlling conditions that affect the underlying health of your heart and blood vessels can sometimes slow the rate at which vascular dementia gets worse, and may also sometimes prevent further decline. Depending on your individual situation, your doctor may prescribe medications to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lower your blood pressure&lt;/li&gt;
+	&lt;li&gt;Reduce your cholesterol level&lt;/li&gt;
+	&lt;li&gt;Prevent your blood from clotting and keep your arteries clear&lt;/li&gt;
+	&lt;li&gt;Help control your blood sugar if you have diabetes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Alzheimer&apos;s medications&lt;br /&gt;
+&lt;/strong&gt;The Food and Drug Administration (FDA) has not approved any drugs specifically to treat changes in judgment, planning, memory and other thought processes caused by vascular dementia. However, certain medications approved by the FDA to treat these symptoms in Alzheimer&apos;s disease may also help people with vascular dementia to the same modest extent they help those with Alzheimer&apos;s.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors may prescribe one or both types of the following Alzheimer&apos;s drugs:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholinesterase inhibitors&lt;/strong&gt; &amp;mdash; including donepezil (Aricept), galantamine (Razadyne) and rivastigmine (Exelon) &amp;mdash; work by boosting levels of a brain cell chemical messenger involved in memory and judgment. Side effects can include nausea, vomiting, muscle cramps and diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Memantine (Namenda)&lt;/strong&gt; regulates another brain cell chemical messenger important for information processing, storage and retrieval. Side effects can include headache, constipation, confusion and dizziness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with any type of dementia and their caregivers &amp;mdash; whether it&apos;s vascular dementia or Alzheimer&apos;s disease &amp;mdash; experience a mixture of emotions, including confusion, frustration, anger, fear, uncertainty, grief and depression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Caring for someone with dementia&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out support.&lt;/strong&gt; Many people with dementia and their families benefit from counseling or local support services. Contact your local Alzheimer&apos;s Association affiliate to connect with support groups, resources and referrals, home care agencies, residential care facilities, a telephone help line, and educational seminars.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Give encouragement.&lt;/strong&gt; Caregivers can help a person cope with vascular dementia by being there to listen, reassuring the person that life can still be enjoyed, providing encouragement, and doing their best to help the person retain dignity and self-respect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide a calm environment.&lt;/strong&gt; A calm and predictable environment can help reduce worry and agitation. Establish a daily routine that includes enjoyable activities well within the comfort zone of the person with vascular dementia. New situations, excess noise, large groups of people, being rushed or pressed to remember, or being asked to do complicated tasks can cause anxiety. As a person with dementia becomes upset, the ability to think clearly declines even more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Caring for the caregiver&lt;br /&gt;
+&lt;/strong&gt;Providing care for a person with dementia is physically and emotionally demanding. Feelings of anger and guilt, frustration and discouragement, worry and grief, and social isolation are common. But paying attention to your own needs and well-being is one of the most important things you can do for yourself and for the person in your care. If you&apos;re a caregiver: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn as much about the disease as you can.&lt;/strong&gt; Ask your primary care doctor or neurologist about good sources of information. Your local librarian can also help you find good resources.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask questions&lt;/strong&gt; of doctors, social workers and others involved in the care of your loved one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Call on friends and family&lt;/strong&gt; members for help when you need it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a break&lt;/strong&gt; every day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your health&lt;/strong&gt; by seeing your own doctors on schedule, eating healthy meals and getting exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make time for friends,&lt;/strong&gt; and consider joining a support group.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The health of your brain&apos;s blood vessels is closely linked to your overall heart health. Taking these steps to keep your heart healthy may also help reduce your risk of vascular dementia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy blood pressure.&lt;/strong&gt; Keeping your blood pressure in the normal range may help prevent both vascular dementia and Alzheimer&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your cholesterol in check.&lt;/strong&gt; A healthy, low-fat diet and cholesterol-lowering medications if you need them may reduce your risk of vascular dementia, probably by reducing the amount of plaque deposits building up inside your brain&apos;s arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent or control diabetes.&lt;/strong&gt; Avoiding the onset of diabetes, with diet and exercise, is another possible way to decrease your risk of dementia. If you already have diabetes, controlling your glucose levels can help protect your brain blood vessels from damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; Smoking tobacco damages blood vessels everywhere in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get physical exercise.&lt;/strong&gt; Regular physical activity should be a key part of everyone&apos;s wellness plan. In addition to all of its other benefits, exercise may help you avoid vascular dementia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vascular dementia
+	</Title>
+	<Abstract>
+		Vascular dementia &amp;mdash; Comprehensive overview covers symptoms, treatment of this stroke-related disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01709" LinkType="Internal" ObjectID="B8B48599-E7FF-0DBD-14F2FAC2EB12A6C0" Title="Oophorectomy (ovary removal): A risk factor for dementia?" Url="http://www.mayoclinic.com/health/oophorectomy/AN01709" />
+		<LinkItem ContentType="Article" DocID="MY01231" LinkType="Internal" ObjectID="2F3ED231-0C00-8975-4818600153B102AE" Title="Caregiver stress: Tips for taking care of yourself" Url="http://www.mayoclinic.com/health/caregiver-stress/MY01231" />
+	</RelatedLinksBox>
+</Disease>

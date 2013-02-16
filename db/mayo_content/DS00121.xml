@@ -1,0 +1,349 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00121
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/moles/DS00121
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2166" Title="Skin tumor">
+						<Keyword MCVID="3034" Title="Moles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			14EF1463-74E9-4D67-AD11ED273797156C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				moles
+			</MetaKeyword>
+			<MetaKeyword>
+				mole
+			</MetaKeyword>
+			<MetaKeyword>
+				skin cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				freckles
+			</MetaKeyword>
+			<MetaKeyword>
+				melanoma
+			</MetaKeyword>
+			<MetaKeyword>
+				nevus
+			</MetaKeyword>
+			<MetaKeyword>
+				nevi
+			</MetaKeyword>
+			<MetaKeyword>
+				dysplastic
+			</MetaKeyword>
+			<MetaKeyword>
+				red moles
+			</MetaKeyword>
+			<MetaKeyword>
+				mole removal
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Moles, known medically as nevi, are clusters of pigmented cells that often appear as small, dark brown spots. However, moles can come in a range of colors and can develop virtually anywhere on your body.
+&lt;/p&gt;
+&lt;p&gt;
+Most moles are harmless, but in rare cases, moles may become cancerous. Monitoring moles and other pigmented patches is an important step in detecting skin cancer, especially malignant melanoma. Not all melanomas develop from pre-existing moles, however. Some moles may begin as a new growth on the skin.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing moles 
+" Caption="Moles are usually harmless. They may contain hairs or become raised or wrinkled. Talk to your doctor about any change in the color or size of a mole or if itching, pain, bleeding or inflammation develops. 
+" Height="60" Title="Moles" URI="/images/image_popup/thumbs/r7_molethu.jpg" Width="60" />
+				<Image Alt="Photograph showing moles 
+" Caption="Moles are usually harmless. They may contain hairs or become raised or wrinkled. Talk to your doctor about any change in the color or size of a mole or if itching, pain, bleeding or inflammation develops. 
+" Height="285" Title="Moles" URI="/images/image_popup/r7_mole.jpg" Width="400" />
+				<HTML>
+					Moles are usually harmless. They may contain hairs or become raised or wrinkled. Talk to your doctor about any change in the color or size of a mole or if itching, pain, bleeding or inflammation ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the typical mole is a brown spot, moles come in a wide variety of colors, shapes and sizes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Color.&lt;/strong&gt; They&apos;re often brown, but moles can be tan, black, red, blue, pink, or flesh-colored.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shape.&lt;/strong&gt; They can vary in shape from oval to round.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Size.&lt;/strong&gt; They can be as small as a pinhead or large enough to cover an entire limb. Generally, moles are less than 1/4 inch (about 6 millimeters) long &amp;mdash; or smaller than the diameter of a pencil eraser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Moles can develop virtually anywhere on your body, including your scalp, armpits, under your nails, and between your fingers and toes. Most people have between 10 and 40 moles, although the number you have may change throughout life. New moles can appear into midadulthood, and some moles may disappear as you age.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Varied surfaces&lt;br /&gt;
+&lt;/strong&gt;The surface of a mole can be smooth or wrinkled, flat or raised. Sometimes a mole may start out flat and brown and later become slightly raised and lighter in color. Some may become raised enough that they form a small stalk, which eventually may wear away. Others may simply disappear.
+&lt;/p&gt;
+&lt;p&gt;
+Although most moles appear during childhood and adolescence, they can continue to appear until midlife. There are also certain times in your life when moles are more apt to change; for example, they&apos;re likely to become darker, larger and more numerous because of hormonal changes that occur during adolescence or pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re over 30 years old and a new mole appears, see your doctor. These signs and symptoms may indicate a medical concern: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Painful&lt;/li&gt;
+	&lt;li&gt;Itching or burning&lt;/li&gt;
+	&lt;li&gt;Oozing or bleeding&lt;/li&gt;
+	&lt;li&gt;Asymmetry, when one half of the mole looks different&lt;/li&gt;
+	&lt;li&gt;Suddenly different in size, shape, color or elevation, especially if part or all of the mole turns black&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re concerned about any mole, see your doctor or ask for a referral to a dermatologist. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing moles 
+" Caption="Moles are usually harmless. They may contain hairs or become raised or wrinkled. Talk to your doctor about any change in the color or size of a mole or if itching, pain, bleeding or inflammation develops. 
+" Height="60" Title="Moles" URI="/images/image_popup/thumbs/r7_molethu.jpg" Width="60" />
+				<Image Alt="Photograph showing moles 
+" Caption="Moles are usually harmless. They may contain hairs or become raised or wrinkled. Talk to your doctor about any change in the color or size of a mole or if itching, pain, bleeding or inflammation develops. 
+" Height="285" Title="Moles" URI="/images/image_popup/r7_mole.jpg" Width="400" />
+				<HTML>
+					Moles are usually harmless. They may contain hairs or become raised or wrinkled. Talk to your doctor about any change in the color or size of a mole or if itching, pain, bleeding or inflammation ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Moles are caused when cells in the skin, called melanocytes, grow in clusters or clumps with tissue surrounding them. Melanocyte cells produce melanin, the natural pigment that gives your skin its color. Normally, melanocytes are distributed evenly throughout your skin.
+&lt;/p&gt;
+&lt;p&gt;
+Most moles are harmless and don&apos;t require special care, but some people have unusual-looking moles, called dysplastic nevi, which are more likely to turn cancerous than ordinary moles are. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the layers of your skin 
+" Caption="Melanin is a natural pigment that gives your skin its color. It&apos;s produced in cells called melanocytes. 
+" Height="60" Title="Skin layers and melanin" URI="/images/image_popup/thumbs/sn7_skinlayersthu.jpg" Width="60" />
+				<Image Alt="Illustration of the layers of your skin 
+" Caption="Melanin is a natural pigment that gives your skin its color. It&apos;s produced in cells called melanocytes. 
+" Height="424" Title="Skin layers and melanin" URI="/images/image_popup/sn7_skinlayers.jpg" Width="400" />
+				<HTML>
+					Melanin is a natural pigment that gives your skin its color. It&apos;s produced in cells called melanocytes. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most adults have a few common moles, but some types of moles have a higher than average risk of becoming cancerous and developing into malignant melanoma.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Melanoma&lt;br /&gt;
+&lt;/strong&gt;Moles at greater risk of becoming cancerous include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Large moles present at birth.&lt;/strong&gt; Large moles that are present at birth are called congenital nevi. These moles may increase your risk of malignant melanoma, a deadly form of skin cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atypical moles (dysplastic nevi).&lt;/strong&gt; Moles that are larger than 1/4 inch (about 6 millimeters) &amp;mdash; or larger than the diameter of a pencil eraser &amp;mdash; and irregular in shape are known as atypical (dysplastic) nevi. These moles tend to be hereditary. They&apos;re frequently described as looking like fried eggs because they usually have dark brown centers and lighter, uneven borders. If you have dysplastic nevi, you have a greater risk of developing malignant melanoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Numerous moles.&lt;/strong&gt; If you have many moles &amp;mdash; 20 or more &amp;mdash; you&apos;re at a greater risk of developing melanoma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a mole that concerns you, your family doctor can usually let you know if it&apos;s normal or needs further investigation. He or she may then refer you to a doctor who specializes in skin disorders (dermatologist) for diagnosis and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to arrive for your appointment well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any changes you&apos;ve noticed or any new symptoms you&apos;re experiencing.&lt;/strong&gt; Include any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;ve had a melanoma or an atypical mole removed in the past,&lt;/strong&gt; note the location of the lesion and also the date of removal. If you have the biopsy report, bring it with you to the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t wear makeup or opaque nail polish to your appointment.&lt;/strong&gt; These products make it difficult for your doctor to perform a thorough skin exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For moles, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you think this mole might be cancerous?&lt;/li&gt;
+	&lt;li&gt;How can I tell if a mole needs to be looked at?&lt;/li&gt;
+	&lt;li&gt;Can I prevent more moles from developing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice this mole?&lt;/li&gt;
+	&lt;li&gt;Have you always had it, or is it new?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in this mole, such as color or shape changes?&lt;/li&gt;
+	&lt;li&gt;Have you had other moles surgically removed in the past? If so, were they found to be atypical or malignant?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of atypical moles or melanoma?&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can identify moles by visually inspecting your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Melanoma&lt;br /&gt;
+&lt;/strong&gt;Because melanoma typically develops on the skin&apos;s surface, it can often be detected at an early stage using these methods:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin examination.&lt;/strong&gt; You may choose to make a skin examination a regular part of your preventive medical care. Talk to your doctor about a schedule that&apos;s appropriate for you. Your doctor will examine your skin from head to toe, including your scalp, your palms, the soles of your feet and the skin between your buttocks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; If your doctor suspects that a mole may be cancerous, he or she may take a sample of the tissue (biopsy) and submit the biopsy for microscopic examination.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of most moles usually isn&apos;t necessary. If your doctor determines that your mole is suspicious for any reason, he or she will take a tissue sample of the mole to determine if it&apos;s cancerous. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mole removal&lt;br /&gt;
+&lt;/strong&gt;If your doctor finds a mole to be cancerous, the entire mole and a margin of normal tissue around it needs to be removed surgically. These procedures are usually performed in the office of your doctor or dermatologist and take only a short time. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical excision.&lt;/strong&gt; In this method, your doctor cuts out the mole and a surrounding margin of healthy skin with a scalpel or a sharp punch device. Sutures are used to close the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical shave&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; In this method, your doctor numbs the area around a mole and then uses a small blade to cut around and beneath the mole. This technique is often used for smaller moles and doesn&apos;t require sutures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If a mole that&apos;s been removed grows back, see your doctor promptly. If you have a mole in a beard, you may want to have it removed by your doctor because shaving over it repeatedly may cause irritation. You may also want to have moles removed from other parts of your body that are vulnerable to trauma and friction.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cosmetic care&lt;br /&gt;
+&lt;/strong&gt;These methods may help conceal moles if you&apos;re self-conscious: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Makeup.&lt;/strong&gt; If you have a mole that&apos;s unattractive, you may choose to cover it up using makeup designed to conceal blemishes and moles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hair removal.&lt;/strong&gt; If you have a hair growing from a mole, it may be possible to clip it close to the skin&apos;s surface. Dermatologists also can permanently remove the hair and the mole.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Anytime you cut or irritate a mole, keep the area clean. See your doctor if the mole doesn&apos;t heal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Watch for changes&lt;br /&gt;
+&lt;/strong&gt;The best way to catch potential problems at an early stage is to become familiar with the location and pattern of your moles. Examine your skin carefully on a regular basis &amp;mdash; ideally once a month, especially if you have a family history of melanoma &amp;mdash; to detect early skin changes that may signal melanoma.
+&lt;/p&gt;
+&lt;p&gt;
+Remember to check areas that aren&apos;t exposed to sunlight, including your scalp, armpits, feet (the soles, toenails and between the toes), palms and fingernails, genital area and, if you&apos;re a woman, the skin underneath your breasts. If necessary, use a hand-held mirror along with a wall mirror to scan hard-to-see places, such as your back. People with dysplastic nevi are at greater risk of developing malignant melanoma and may want to consider having a dermatologist check their moles on a regular basis.
+&lt;/p&gt;
+&lt;p&gt;
+To detect melanomas or other skin cancers, use this A to E skin self-examination guide: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; &lt;strong&gt;is for asymmetrical shape.&lt;/strong&gt; Look for moles with irregular shapes, such as two very different-looking halves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;B&lt;/strong&gt; &lt;strong&gt;is for irregular border.&lt;/strong&gt; Look for moles with irregular, notched or scalloped borders &amp;mdash; the characteristics of melanomas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt; &lt;strong&gt;is for changes in color.&lt;/strong&gt; Look for growths that have many colors or an uneven distribution of color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;D&lt;/strong&gt; &lt;strong&gt;is for diameter.&lt;/strong&gt; Look for&lt;em&gt; &lt;/em&gt;growths that are larger than about 1/4 inch (6 millimeters).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;E is for evolving.&lt;/strong&gt; Look for changes over time, such as a mole that grows in size or that changes color or shape. Moles may also evolve to develop new signs and symptoms, such as new itchiness or bleeding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevent skin cancer&lt;br /&gt;
+&lt;/strong&gt;In addition to periodically checking your moles, you can take measures to protect yourself from cancerous changes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid peak sun times.&lt;/strong&gt; It&apos;s best to avoid overexposure to the sun, but if you must be outdoors, try to stay out of the sun from 10 a.m. to 4 p.m., when ultraviolet (UV) rays are most intense.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen.&lt;/strong&gt; Thirty minutes before going outdoors, apply sunscreen with a sun protection factor (SPF) of at least 15. Reapply every two hours, especially if you&apos;re swimming or involved in vigorous activities. And keep in mind that sunscreen is just one part of a total sun protection program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up.&lt;/strong&gt; Broad-brimmed hats, long sleeves and other protective clothing also can help you avoid damaging UV rays. You might also want to consider clothing that&apos;s made with fabric specially treated to block UV radiation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Moles
+	</Title>
+	<Abstract>
+		Moles &amp;mdash; Comprehensive overview covers causes and treatment, including how to remove skin moles.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00657" LinkType="Internal" ObjectID="B384DE16-2A5D-9994-E670963F50D3A098" Title="Video: Skin cancer &amp;mdash; How skin cancer develops" Url="http://www.mayoclinic.com/health/melanoma/MM00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+	</RelatedLinksBox>
+</Disease>

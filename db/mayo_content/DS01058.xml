@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01058
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heat-rash/DS01058
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-07
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2285" Title="Skin rashes">
+							<Keyword MCVID="4294" Title="Heat rash" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5574C4D8-E7FF-0DBD-171E018B2C64C6B4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heat rash
+			</MetaKeyword>
+			<MetaKeyword>
+				prickly heat
+			</MetaKeyword>
+			<MetaKeyword>
+				miliaria
+			</MetaKeyword>
+			<MetaKeyword>
+				miliaria crystalline
+			</MetaKeyword>
+			<MetaKeyword>
+				miliaria rubra
+			</MetaKeyword>
+			<MetaKeyword>
+				miliaria profunda
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heat rash &amp;mdash; also known as prickly heat and miliaria &amp;mdash; isn&apos;t just for babies. Though it&apos;s common in infants, heat rash can affect adults, too, especially during hot, humid weather.
+&lt;/p&gt;
+&lt;p&gt;
+Heat rash develops when your sweat ducts &amp;mdash; commonly referred to as pores &amp;mdash; become blocked and perspiration is trapped under your skin. Symptoms range from superficial blisters to deep, red lumps. Some forms of heat rash can be intensely itchy or cause a prickly feeling.
+&lt;/p&gt;
+&lt;p&gt;
+Heat rash usually goes away on its own. Severe forms of heat rash may need medical care, but the best way to relieve symptoms is to cool your skin and prevent sweating.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos of heat rash 
+" Caption="Miliaria rubra (A), one type of heat rash, appears as red clusters of small blister-like bumps that can produce intense itching. Miliaria crystallina (B), another type of heat rash, appears as clear, fluid-filled bumps that produce no other signs or symptoms. 
+" Height="60" Title="Heat rash" URI="/images/image_popup/thumbs/sn7_heatrashexamples1thu.jpg" Width="60" />
+				<Image Alt="Photos of heat rash 
+" Caption="Miliaria rubra (A), one type of heat rash, appears as red clusters of small blister-like bumps that can produce intense itching. Miliaria crystallina (B), another type of heat rash, appears as clear, fluid-filled bumps that produce no other signs or symptoms. 
+" Height="317" Title="Heat rash" URI="/images/image_popup/sn7_heatrashexamples1.jpg" Width="400" />
+				<HTML>
+					Miliaria rubra (A), one type of heat rash, appears as red clusters of small blister-like bumps that can produce intense itching. Miliaria crystallina (B), another type of heat rash, appears as clear, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adults usually develop heat rash in folds of skin and wherever clothing causes friction. In infants, the rash is mainly found on the neck, shoulders and chest, but it can also occur in the armpits, elbow creases and groin.
+&lt;/p&gt;
+&lt;p&gt;
+There are three types of miliaria, which are classified according to where the sweat ducts are blocked. Signs and symptoms for each type vary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Miliaria crystallina&lt;br /&gt;
+&lt;/strong&gt;The mildest form of heat rash affects the sweat ducts in the topmost layer of skin. Miliaria crystallina is marked by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clear, fluid-filled blisters and bumps (papules) that break easily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The blisters that occur with miliaria crystallina aren&apos;t itchy or painful. This type of heat rash usually clears on its own but can come back if hot, humid weather persists. And though it&apos;s common in newborns, adults can develop it, too.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Miliaria rubra&lt;br /&gt;
+&lt;/strong&gt;Occurring deeper in the outer layer of skin (epidermis), miliaria rubra is sometimes called prickly heat. Adults usually develop miliaria rubra after they&apos;re exposed to hot, humid weather or if they&apos;re confined to bed rest. Infants usually develop this type of heat rash between the first and third weeks of life. Signs and symptoms typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red bumps&lt;/li&gt;
+	&lt;li&gt;Itchy or prickly feeling in the affected area&lt;/li&gt;
+	&lt;li&gt;Little or no sweating in the affected areas (anhidrosis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Occasionally, miliaria rubra vesicles become pustular and then are called miliaria pustulosa. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Miliaria profunda&lt;br /&gt;
+&lt;/strong&gt;A less common form of heat rash, miliaria profunda occurs mainly in adults who have had repeat bouts of miliaria rubra. It affects the dermis, a deeper layer of skin, and appears soon after exercise or any activity that causes sweating. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Firm, flesh-colored lesions that resemble goose bumps&lt;/li&gt;
+	&lt;li&gt;A lack of perspiration, which may lead to symptoms of heat exhaustion, such as dizziness, nausea and a rapid pulse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Heat rash usually heals on its own and doesn&apos;t require medical care. See your doctor if you or your child has symptoms that last longer than a few days, the rash seems to be getting worse, or there are signs of infection, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased pain, swelling, redness or warmth around the affected area&lt;/li&gt;
+	&lt;li&gt;Pus draining from the lesions&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes in the armpit, neck or groin&lt;/li&gt;
+	&lt;li&gt;A fever or chills&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos of heat rash 
+" Caption="Miliaria rubra (A), one type of heat rash, appears as red clusters of small blister-like bumps that can produce intense itching. Miliaria crystallina (B), another type of heat rash, appears as clear, fluid-filled bumps that produce no other signs or symptoms. 
+" Height="60" Title="Heat rash" URI="/images/image_popup/thumbs/sn7_heatrashexamples1thu.jpg" Width="60" />
+				<Image Alt="Photos of heat rash 
+" Caption="Miliaria rubra (A), one type of heat rash, appears as red clusters of small blister-like bumps that can produce intense itching. Miliaria crystallina (B), another type of heat rash, appears as clear, fluid-filled bumps that produce no other signs or symptoms. 
+" Height="317" Title="Heat rash" URI="/images/image_popup/sn7_heatrashexamples1.jpg" Width="400" />
+				<HTML>
+					Miliaria rubra (A), one type of heat rash, appears as red clusters of small blister-like bumps that can produce intense itching. Miliaria crystallina (B), another type of heat rash, appears as clear, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heat rash develops when some of your sweat ducts become clogged. Instead of evaporating, perspiration remains trapped beneath the skin, causing inflammation and rash.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not always clear why the sweat ducts become blocked, but certain factors seem to play a role, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immature sweat ducts.&lt;/strong&gt; Because a newborn&apos;s sweat ducts aren&apos;t fully developed, they can rupture more easily, trapping perspiration beneath the skin. This usually happens in hot weather, but can occur anytime infants are dressed too warmly. Newborns who have high fevers or are in incubators can also develop blocked sweat ducts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tropical climates.&lt;/strong&gt; Hot, humid weather is particularly conducive to miliaria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt; Intense exercise, hard work or any activity that causes you to perspire extensively can lead to heat rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain fabrics.&lt;/strong&gt; You may develop heat rash if you consistently wear clothing that doesn&apos;t allow perspiration to evaporate normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Certain prescription medications that enhance sweat gland function may contribute to heat rash, including clonidine (Catapres, Duraclon, others), beta blockers and opiates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overheating.&lt;/strong&gt; Overheating in general &amp;mdash; bundling up too much in winter, sleeping under an electric blanket &amp;mdash; can lead to heat rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heavy creams and ointments.&lt;/strong&gt; These products can block the sweat ducts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Heat rash can also occur in people who are confined to a hospital bed for long periods, especially if they have a fever.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that make you more prone to heat rash include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Though heat rash can affect anyone, newborns are most susceptible. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tropical climates.&lt;/strong&gt; People living in the tropics are far more likely to have heat rash than are people in temperate climates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt; Anything that makes you sweat profusely, especially if you&apos;re not wearing moisture-wicking clothing, can trigger heat rash.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heat rash usually heals without problems, but complications sometimes occur, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Occasionally, heat rash becomes infected with bacteria, causing inflamed and itchy pustules. This can occur in children in diapers but shouldn&apos;t be confused with diaper rash, which results from irritation to tender skin, not from blocked pores. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat exhaustion.&lt;/strong&gt; In hot weather, people with miliaria profunda are at risk of heat exhaustion, because their sweat ducts are blocked. Heat exhaustion can cause low blood pressure, dizziness, nausea, headache and a rapid pulse. Untreated heat exhaustion can lead to heatstroke, a life-threatening condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor&apos;s appointment usually isn&apos;t necessary for heat rash, because the rash generally clears up on its own. If your rash is more severe, you may want to see your primary care doctor or a doctor who specializes in skin disorders (dermatologist) to be sure it&apos;s heat rash and not another skin disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Before you go, it&apos;s a good idea to write down any questions you might have so that you&apos;re sure to cover all of the points that are important to you. For heat rash, some questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What could have caused this rash to develop?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;How do I need to treat it?&lt;/li&gt;
+	&lt;li&gt;Do I need to limit physical activity until the rash clears up?&lt;/li&gt;
+	&lt;li&gt;What steps can I take to prevent it in the future?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No tests are needed to diagnose heat rash; your doctor can determine the problem with a visual exam.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Reduce sweating&lt;br /&gt;
+&lt;/strong&gt;The best treatment for any form of heat rash is to reduce sweating by staying in air-conditioned buildings or, when that&apos;s not possible, using fans to circulate the air, wearing lightweight clothing made of fabrics that &quot;breathe&quot; and limiting physical activity. Once skin is cool, heat rash tends to clear quickly.
+&lt;/p&gt;
+&lt;p&gt;
+Mild heat rash doesn&apos;t require any other treatment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Topical therapies&lt;br /&gt;
+&lt;/strong&gt;More-severe forms of heat rash may require topical therapies to relieve discomfort and prevent complications. Topical treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calamine lotion&lt;/strong&gt; to soothe itching&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anhydrous lanolin,&lt;/strong&gt; which may help prevent duct blockage and stop new lesions from forming&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical steroids&lt;/strong&gt; in the most serious cases&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;In hot weather, dress in loose, lightweight clothing that wicks moisture away from your skin.&lt;/li&gt;
+	&lt;li&gt;Spend as much time as possible in air-conditioned buildings.&lt;/li&gt;
+	&lt;li&gt;After bathing, let your skin air-dry, instead of toweling off.&lt;/li&gt;
+	&lt;li&gt;Use calamine lotion or cool compresses to calm itchy, irritated skin.&lt;/li&gt;
+	&lt;li&gt;Avoid using creams and ointments, which can block pores further.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help protect yourself or your child from heat rash: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;In summer, dress in soft, lightweight, cotton clothing.&lt;/strong&gt; Also, avoid overdressing in winter &amp;mdash; children should wear the same amount of clothing that an adult would wear to stay comfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tightfitting clothes&lt;/strong&gt; that can irritate tender skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When it&apos;s hot, stay in the shade or in an air-conditioned building&lt;/strong&gt; or place a fan at a safe distance to gently circulate the air.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your sleeping area cool&lt;/strong&gt; and well ventilated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bathe in cool water with a nondrying soap&lt;/strong&gt; that doesn&apos;t contain fragrances or dyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid using creams or ointments&lt;/strong&gt; &amp;mdash; they don&apos;t prevent heat rash and can block pores.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heat rash
+	</Title>
+	<Abstract>
+		Heat rash &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this heat-related problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00016" LinkType="Internal" ObjectID="E49A64C0-6CB9-4A43-BB89CFCB990AA485" Title="Slide show: Common skin rashes" Url="http://www.mayoclinic.com/health/skin-rash/SN00016" />
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+	</RelatedLinksBox>
+</Disease>

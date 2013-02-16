@@ -1,0 +1,200 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01091
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tilt-table-test/MY01091
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-18
+		</UpdateDate>
+		<PublicationDate>
+			2010-02-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3096" Title="Tilt table test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6B0B219F-90ED-A90E-9386B255B2370CB8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tilt table test
+			</MetaKeyword>
+			<MetaKeyword>
+				tilt-table test
+			</MetaKeyword>
+			<MetaKeyword>
+				fainting
+			</MetaKeyword>
+			<MetaKeyword>
+				syncope
+			</MetaKeyword>
+			<MetaKeyword>
+				loss of consciousness
+			</MetaKeyword>
+			<MetaKeyword>
+				vasovagal syncope
+			</MetaKeyword>
+			<MetaKeyword>
+				neurocardiogenic syncope
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tilt table test is used to evaluate the cause of unexplained fainting (syncope). During a tilt table test, you lie on a table that moves from a horizontal to a vertical position. Your heart rate and blood pressure are monitored throughout the tilt table test. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend a tilt table test if you&apos;ve had repeated, unexplained episodes of fainting. A tilt table test may also be appropriate to investigate the cause of fainting if you&apos;ve fainted only once, but another episode would put you at high risk of injury due to your work environment, medical history, age or other factors. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors use a tilt table test to help diagnose the cause of fainting. During the test, your blood pressure and heart rate are monitored. You begin by lying flat on a table. Straps are put around your body to hold you in place. Then, the table is tilted to raise your body to a head-up position &amp;mdash; simulating a change in position from lying down to standing up. This test allows doctors to evaluate your body&apos;s cardiovascular response to the change in position. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend a tilt table test if he or she suspects that neurocardiogenic syncope is responsible for your fainting and needs additional testing to confirm the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Neurocardiogenic syncope happens when the part of your nervous system that controls blood flow changes your heart rate and lowers your blood pressure for a short time. Then, less blood flows to your brain and you may faint. This kind of syncope is also called vasovagal syncope, reflex syncope, and the common faint. 
+&lt;/p&gt;
+&lt;p&gt;
+With neurocardiogenic syncope, you may or may not have warning signs, such as skin paleness, weakness, sweating, blurred vision or nausea. Neurocardiogenic syncope often is a response to something like the sight of blood or an upsetting situation. But it can happen with no clear trigger. This kind of syncope happens when you are standing or sitting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tilt table test is generally safe, and complications are rare. But, as with any medical procedure, it does carry a risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prolonged low blood pressure&lt;/li&gt;
+	&lt;li&gt;Prolonged pause between heartbeats (asystole)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These complications usually go away when the table that you&apos;re lying on during the test is returned to a horizontal position. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be asked not to eat or drink for two hours or more before a tilt table test. You can take your medications as usual, unless your doctor tells you otherwise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you start the tilt table test, a member of your health care team will do the following to prepare you for the test: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Place sticky patches (electrodes) on your chest, legs and arms.&lt;/strong&gt; The electrodes are connected by wires to an electrocardiogram (ECG or EKG) machine that monitors your heart rate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Place a blood pressure cuff on your finger, on your arm or on both&lt;/strong&gt; to check your blood pressure during the tilt table test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If needed, place an intravenous (IV) line into a vein in your arm&lt;/strong&gt; for delivering medication during the second part of the test, if needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;During a tilt table test&lt;/strong&gt;&lt;br /&gt;
+For the test, you lie down on a table that can be moved from a horizontal to a vertical position. The table has a footrest and safety belts. The belts are placed around your body during the test to help ensure that you don&apos;t slip off the table. Once you&apos;re positioned on the table, the test progresses this way: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your heart rate and blood pressure are monitored for about five minutes while you&apos;re lying flat (horizontal).&lt;/li&gt;
+	&lt;li&gt;The bed is then moved to a vertical position (about a 60- to 90-degree angle).&lt;/li&gt;
+	&lt;li&gt;Depending on the reason for the tilt table test, you may stay in the vertical position for about five to 10 minutes, or you may remain in the vertical position for up to 45 minutes.&lt;/li&gt;
+	&lt;li&gt;While you are in the vertical position, you remain as still as possible. During the test, if you feel symptoms such as nausea, sweating, lightheadedness or irregular heartbeats, tell a member of your health care team.&lt;/li&gt;
+	&lt;li&gt;If you don&apos;t faint or experience any other symptoms after 45 minutes, the medication isoproterenol (Isuprel) may be given through an IV line. This medication lowers your diastolic blood pressure (the bottom number in a blood pressure reading), lowers peripheral vascular resistance, increases your heart rate and may prompt the abnormal nervous system reflex that causes vasovagal or neurocardiogenic syncope.&lt;/li&gt;
+	&lt;li&gt;You then remain in the upright position and are monitored for another 15 to 20 minutes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After a tilt table test&lt;/strong&gt;&lt;br /&gt;
+If you faint at any time during the test while you&apos;re in the vertical position, the table is returned to a horizontal position immediately, and you&apos;re monitored closely. Most people regain consciousness almost immediately. In some cases, if blood pressure and heart rate changes indicate you are about to faint, the table is returned to a horizontal position, and you may not actually lose consciousness. 
+&lt;/p&gt;
+&lt;p&gt;
+When your tilt table test is complete, you may return to your normal activities for the remainder of the day. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The results of a tilt table test are based on whether or not you faint during the test and what happens to your blood pressure and heart rate. Depending on the results, your doctor may recommend additional tests to exclude other causes of fainting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tilt table test
+	</Title>
+	<Abstract>
+		Tilt table test &amp;mdash; Overview covers definition, what to expect and results of this test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00806" LinkType="Internal" ObjectID="CA70DA97-E7FF-0DBD-13B4BC169AB87B67" Title="Vasovagal syncope" Url="http://www.mayoclinic.com/health/vasovagal-syncope/DS00806" />
+		<LinkItem ContentType="Disease" DocID="DS00948" LinkType="Internal" ObjectID="C6CCE300-E7FF-0DBD-1C54D32E162A9FE3" Title="Hypertrophic cardiomyopathy" Url="http://www.mayoclinic.com/health/hypertrophic-cardiomyopathy/DS00948" />
+		<LinkItem ContentType="Disease" DocID="DS00997" LinkType="Internal" ObjectID="9141CD50-E7FF-0DBD-1B36A508CCBCA2CE" Title="Orthostatic hypotension (postural hypotension)" Url="http://www.mayoclinic.com/health/orthostatic-hypotension/DS00997" />
+		<LinkItem ContentType="Disease" DocID="DS00590" LinkType="Internal" ObjectID="771E6FEC-FBF4-4B5E-90D2E1AA9BA37D13" Title="Low blood pressure (hypotension)" Url="http://www.mayoclinic.com/health/low-blood-pressure/DS00590" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+	</RelatedLinksBox>
+</TestProcedure>

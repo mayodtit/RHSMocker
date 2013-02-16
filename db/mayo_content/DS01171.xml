@@ -1,0 +1,266 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01171
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/arteriovenous-fistula/DS01171
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-27
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="2905" Title="Arteriovenous fistula" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2DF614EE-BA86-90EF-169FE9CC88B19595
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				arteriovenous fistula
+			</MetaKeyword>
+			<MetaKeyword>
+				AV fistula
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriovenous malformation
+			</MetaKeyword>
+			<MetaKeyword>
+				fistula
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac embolization
+			</MetaKeyword>
+			<MetaKeyword>
+				ROWD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An arteriovenous (AV) fistula is an abnormal connection between an artery and a vein. Normally, blood flows from your arteries to your capillaries to your veins. Nutrients and oxygen in your blood travel from your capillaries to tissues in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+With an arteriovenous fistula, blood flows directly from an artery into a vein, bypassing some capillaries. When this happens, tissues below the bypassed capillaries receive less blood supply. 
+&lt;/p&gt;
+&lt;p&gt;
+Arteriovenous fistulas usually occur in the legs, but can develop anywhere in the body. Arteriovenous fistulas are often surgically created for use in dialysis in people with severe kidney disease. 
+&lt;/p&gt;
+&lt;p&gt;
+A large untreated arteriovenous fistula can lead to serious complications. If you&apos;ve had an arteriovenous fistula created for dialysis, your doctors will monitor you for complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Small arteriovenous fistulas in your legs, arms, lungs, kidneys or brain often won&apos;t have any symptoms and usually don&apos;t need treatment other than monitoring by your doctor. Larger arteriovenous fistulas may cause symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+Arteriovenous fistula symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling and reddish appearance on the skin surface&lt;/li&gt;
+	&lt;li&gt;Purplish, bulging veins that you can see through your skin, similar to varicose veins&lt;/li&gt;
+	&lt;li&gt;Swelling in the arms or legs&lt;/li&gt;
+	&lt;li&gt;Decreased blood pressure&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An arteriovenous fistula in your lungs (pulmonary arteriovenous fistula) is a serious condition and can cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing, especially when exercising&lt;/li&gt;
+	&lt;li&gt;Blueness of the skin &lt;/li&gt;
+	&lt;li&gt;Clubbing of fingers&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have any of these signs and symptoms, and think you might have an arteriovenous fistula, make an appointment to see your doctor. Early detection of an arteriovenous fistula may make your condition easier to treat and may reduce your risk of developing complications, such as blood clots or, in severe cases, heart failure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Causes of arteriovenous fistulas include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; An arteriovenous fistula may develop as a complication of a procedure called cardiac catheterization. During cardiac catheterization, a long thin tube called a catheter is inserted in an artery or vein in your groin, neck or arm and threaded through your blood vessels to your heart. If the needle used in the catheterization crosses an artery and vein during your procedure, and the artery is widened (dilated), this can create an arteriovenous fistula. Although this is a common way an arteriovenous fistula may develop, it&apos;s still rare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injuries that pierce the skin.&lt;/strong&gt; It&apos;s also possible to develop an arteriovenous fistula after a piercing injury, such as a gunshot or stab wound. This may happen if your wound is on a part of your body where a vein and artery are side by side.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being born with an arteriovenous fistula.&lt;/strong&gt; Some people are born with an arteriovenous fistula (congenital). Although the exact reason why isn&apos;t clear, in congenital arteriovenous fistulas the arteries and veins don&apos;t develop properly in the womb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic conditions.&lt;/strong&gt; Arteriovenous fistulas in the lungs (pulmonary arteriovenous fistulas) can be caused by a genetic disease (Rendu-Osler-Weber disease) that causes blood vessels to develop abnormally throughout your body, but especially in the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical creation (AV fistula procedure).&lt;/strong&gt; People who have late-stage kidney failure may also have an arteriovenous fistula surgically created to make it easier to perform dialysis. If a dialysis needle is inserted into a vein too many times, the vein may scar and be destroyed. Creating an arteriovenous fistula widens the vein by connecting it to a nearby artery, making it easier to insert a needle for dialysis and causing blood to flow faster. This AV fistula is usually created in the forearm.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, an arteriovenous fistula can cause complications, some of which can be serious. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; This is the most serious complication of large arteriovenous fistulas. Since your blood flows more quickly through an arteriovenous fistula than it would if your blood flowed through a normal course of arteries, capillaries and veins, your heart pumps harder to compensate for the drop in blood pressure. Over time, the increased intensity of your heart&apos;s pumping can weaken your heart muscle, leading to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; An arteriovenous fistula in your legs can cause blood clots to form, potentially leading to deep vein thrombosis, a painful and potentially life-threatening condition if the clot travels to your lungs (pulmonary embolism). Depending on where your fistula is, it can lead to a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leg pain.&lt;/strong&gt; An arteriovenous fistula in your leg can also cause you to develop pain in your legs (claudication), or can worsen pain you already have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; An arteriovenous fistula in your lungs may allow small blood clots to pass through to the arteries in your brain, which may cause a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Arteriovenous malformations may lead to bleeding, including into your gastrointestinal system or into your brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have an arteriovenous fistula, make an appointment with your family doctor. If an arteriovenous fistula is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a vascular or heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. Since tests for an arteriovenous fistula usually include an ultrasound, it&apos;s possible you&apos;ll need to fast for several hours before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to arteriovenous fistula.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including previous piercing injuries or a family history of arteriovenous fistula or other blood vessel diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; &lt;strong&gt;vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to recall all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For arteriovenous fistula, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Should my children or other blood-related relatives be screened for this condition?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose an arteriovenous fistula, your doctor will use a stethoscope to listen to the blood flow through the area where he or she thinks you may have a fistula. The blood flow through an arteriovenous fistula makes a sound similar to clicking or humming machinery (machinery murmur).
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor hears a machinery murmur, you&apos;ll have other tests to confirm that the murmur is caused by an arteriovenous fistula. These can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Duplex ultrasound.&lt;/strong&gt; Duplex ultrasound is the most effective and common way to check for an arteriovenous fistula in the blood vessels of the legs or arms. In duplex ultrasound, an instrument called a transducer is pressed to your skin. The transducer produces high-frequency sound waves, which bounce off red blood cells. A duplex ultrasound can estimate how fast blood flows by measuring the rate of change in its pitch (frequency).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) angiogram.&lt;/strong&gt; A CT angiogram allows your doctor to check your arteries to see if blood flow is bypassing the capillaries. You&apos;ll receive an injection of a dye that shows up on CT images, and the doughnut-shaped CT scanner will be moved to take images of the artery your doctor believes is narrowed. The images are then sent to a computer screen for your doctor to view.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiography (MRA).&lt;/strong&gt; Your doctor may use MRA if he or she thinks you may have an arteriovenous fistula in an artery that&apos;s deep under your skin. This test allows your doctor to see the soft tissues in your body. It uses the same technique as magnetic resonance imaging (MRI), but also includes the use of a special dye that helps create images of your blood vessels. During an MRI or MRA, you lie on a table inside a long tube-like machine that produces a magnetic field. An MRI machine uses the magnetic field and radio waves to create pictures of your body&apos;s tissues. Using the images from the test, your doctor may be able to see an arteriovenous fistula.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s possible your doctor may suggest only monitoring your arteriovenous fistula, especially if it&apos;s small and doesn&apos;t cause any other health problems. Some small arteriovenous fistulas close without treatment.
+&lt;/p&gt;
+&lt;p&gt;
+If your arteriovenous fistula requires treatment, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound-guided compression.&lt;/strong&gt; If you have an arteriovenous fistula in your legs and it&apos;s easily visible on ultrasound, treatment with ultrasound-guided compression may be an option for you. In this treatment, an ultrasound probe is used to compress the fistula and block blood flow&lt;strong&gt; &lt;/strong&gt;to the damaged blood vessels. This procedure only takes about 10 minutes. But, it only works for about one in three people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Catheter embolization.&lt;/strong&gt; In this procedure, a catheter is inserted in an artery near the site of your arteriovenous fistula. Doctors use X-ray and other imaging techniques to guide the catheter to your fistula, and a small coil or stent is placed at the site of your fistula to reroute your blood flow. Many people who have catheter embolization stay in the hospital for 24 hours or less and can resume all their daily activities within a week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Large arteriovenous fistulas that can&apos;t be treated with catheter embolization may require surgery. The type of surgery you&apos;ll need depends on the size and location of your arteriovenous fistula.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Arteriovenous fistula
+	</Title>
+	<Abstract>
+		Arteriovenous fistula &amp;mdash; Comprehensive overview covers the causes and treatment of this blood vessel condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Disease" DocID="DS01005" LinkType="Internal" ObjectID="F7CDC42F-E7FF-0DBD-1377DA69658CAFBB" Title="Deep vein thrombosis (DVT)" Url="http://www.mayoclinic.com/health/deep-vein-thrombosis/DS01005" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00682" LinkType="Internal" ObjectID="1EAAF4B2-2A5D-9994-E30C5CBDE21DAAD4" Title="Chronic kidney failure" Url="http://www.mayoclinic.com/health/kidney-failure/DS00682" />
+		<LinkItem ContentType="Disease" DocID="DS01052" LinkType="Internal" ObjectID="16EF83CB-E7FF-0DBD-10AEF9D64E0AAB80" Title="Claudication" Url="http://www.mayoclinic.com/health/claudication/DS01052" />
+	</RelatedLinksBox>
+</Disease>

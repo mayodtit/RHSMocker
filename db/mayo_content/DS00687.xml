@@ -1,0 +1,271 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00687
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pinworm/DS00687
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-09
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="2542" Title="Pinworm" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87EA81F3-2A5D-9994-E6966BD05BC1DE50
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				roundworms
+			</MetaKeyword>
+			<MetaKeyword>
+				pinworms
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				nematode infection
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal worms
+			</MetaKeyword>
+			<MetaKeyword>
+				pinworm
+			</MetaKeyword>
+			<MetaKeyword>
+				dientamoeba fragilis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pinworm infection is the most common type of intestinal worm infection in the United States. Pinworms are thin and white, measuring about 1/4 to 1/2 inch (about 5 to 13 millimeters) in length. 
+&lt;/p&gt;
+&lt;p&gt;
+While the infected person sleeps, female pinworms lay thousands of eggs in the folds of skin surrounding the anus. Most people infected with pinworms have no symptoms, but some people experience anal itching and restless sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+Pinworm infection occurs most often in school-age children, and the microscopic eggs are easily spread from child to child. Treatment involves oral drugs that kill the pinworms and thorough washing of bedclothes, bed linens and underwear. For best results, the entire family should be treated. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pinworm
+" Caption="An adult pinworm generally is 1/4 inch to 1/2 inch (5 to 13 millimeters) in length. The most common symptom of infection is anal itching, particularly at night, as worms migrate to the host&apos;s anal area to lay their eggs. 
+" Height="60" Title="Pinworm" URI="/images/image_popup/thumbs/id7_pinwormthu.jpg" Width="60" />
+				<Image Alt="Illustration of pinworm
+" Caption="An adult pinworm generally is 1/4 inch to 1/2 inch (5 to 13 millimeters) in length. The most common symptom of infection is anal itching, particularly at night, as worms migrate to the host&apos;s anal area to lay their eggs. 
+" Height="300" Title="Pinworm" URI="/images/image_popup/id7_pinworm.jpg" Width="400" />
+				<HTML>
+					An adult pinworm generally is 1/4 inch to 1/2 inch (5 to 13 millimeters) in length. The most common symptom of infection is anal itching, particularly at night, as worms migrate to the host&apos;s anal ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of pinworm infection may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching of the anal or vaginal area &lt;/li&gt;
+	&lt;li&gt;Insomnia, irritability and restlessness &lt;/li&gt;
+	&lt;li&gt;Intermittent abdominal pain and nausea &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people with pinworms have no symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Consult your doctor if you have mild abdominal pain along with insomnia or irritability, or if you&apos;re experiencing consistent or severe anal or vaginal itching. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pinworm infection occurs when you accidentally swallow pinworm eggs. The microscopic eggs can be carried to your mouth by contaminated food, drink or your fingers. Once swallowed, the eggs hatch in the intestines and mature into adult worms within a few weeks.
+&lt;/p&gt;
+&lt;p&gt;
+Female pinworms crawl to the anal area to lay their eggs, which often results in anal itching. When you scratch the itchy area, the eggs cling to your fingers and get under the fingernails. The eggs then get transferred to other surfaces, such as toys or bedclothes. The eggs can also be transferred from contaminated fingers to food, liquids, bed linens, clothes or other people. 
+&lt;/p&gt;
+&lt;p&gt;
+Pinworm eggs can survive for two to three weeks on surfaces. You can become infected with pinworms if you consume contaminated food or drink or if you touch a contaminated surface and then touch your mouth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for pinworm infection include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being of young age.&lt;/strong&gt; Pinworm infections are most likely to occur in children between the ages of 5 and 14. The microscopic eggs are easily spread to family members, caregivers, or other children at school or child care centers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in crowded spaces.&lt;/strong&gt; People who live in institutions are at higher risk of developing pinworm infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in a temperate climate.&lt;/strong&gt; While pinworms occur worldwide, they&apos;re more common in countries that don&apos;t have tropical climates. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Typical pinworm infections don&apos;t cause serious problems. In rare circumstances, heavy infestations may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection of female genitals.&lt;/strong&gt; In women or girls, the parasite may travel from the anal area up the vagina to the uterus, fallopian tubes and the area around the pelvic organs. This can cause problems such as inflammation of the vagina (vaginitis) and inflammation of the inner lining of the uterus (endometritis). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; When a large number of adult pinworms are living in your intestines, they can cause abdominal pain and take enough nutrients that you&apos;ll lose weight. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+When you call to make an appointment, ask about performing the tape test. The test involves pressing the adhesive side of a piece of transparent tape to the skin around the anus of the person you suspect has pinworms when the person awakens. The eggs stick to the tape. 
+&lt;/p&gt;
+&lt;p&gt;
+You then take the tape to your appointment so the doctor can look for pinworms or eggs under a microscope. 
+&lt;/p&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For pinworm infection, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If I don&apos;t have pinworm infection, what are other possible causes of my symptoms?&lt;/li&gt;
+	&lt;li&gt;If one family member has pinworms, does the whole family need to be treated?&lt;/li&gt;
+	&lt;li&gt;How do I get rid of pinworms in my home?&lt;/li&gt;
+	&lt;li&gt;How do I prevent reinfection?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask a number of questions during your appointment, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the itching start?&lt;/li&gt;
+	&lt;li&gt;Does it occur mostly at night?&lt;/li&gt;
+	&lt;li&gt;Is there anything that makes the symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Do other family members have similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you know if you or your child has had contact with someone who has pinworms?&lt;/li&gt;
+	&lt;li&gt;Have you found any dead worms in bedclothes, underwear or in the toilet?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you have anal itching, try your best not to scratch. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can confirm the presence of pinworms by identifying the worms or eggs. 
+&lt;/p&gt;
+&lt;p&gt;
+To help your doctor make a diagnosis, you can perform the tape test. As soon as the person you suspect has pinworms wakes up and before he or she uses the toilet, washes or gets dressed, press the adhesive side of a piece of transparent tape to the skin around the anus. The eggs stick to the tape. 
+&lt;/p&gt;
+&lt;p&gt;
+For best results, perform the tape test three days in a row, and then take the tapes to your doctor. Your doctor can look at the tape under a microscope to see if there are any pinworm eggs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild pinworm infection, or an infection with no symptoms, may not need treatment. If treatment is needed, your doctor may prescribe medication to all members of your household to prevent infection and reinfection. The most common prescription anti-parasite medications for pinworms are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mebendazole&lt;/li&gt;
+	&lt;li&gt;Albendazole (Albenza)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may have mild gastrointestinal side effects during the course of treatment, and you often need to take at least two doses to get rid of the pinworms completely. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Methods to help prevent the spread of pinworm eggs or to prevent reinfection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash in the morning.&lt;/strong&gt; Because pinworms lay their eggs at night, washing the anal area in the morning can help reduce the number of pinworm eggs on your body. Showering may help avoid possible recontamination in bath water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change underwear and bed linen daily.&lt;/strong&gt; This helps remove eggs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Launder in hot water.&lt;/strong&gt; Wash bedsheets, nightclothes, underwear, washcloths and towels in hot water to help kill pinworm eggs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t scratch.&lt;/strong&gt; Avoid scratching the anal area. Trim your child&apos;s fingernails so there&apos;s less space for eggs to collect. Discourage nail biting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean toilet seats daily.&lt;/strong&gt; This helps remove eggs. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; To reduce your risk of getting or spreading an infection, wash your hands thoroughly after a bowel movement or changing a diaper and before eating.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pinworm infection
+	</Title>
+	<Abstract>
+		Pinworms &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of pinworm infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

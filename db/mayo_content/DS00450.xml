@@ -1,0 +1,343 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00450
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cellulitis/DS00450
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2002-07-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2777" Title="Bacterial skin infections">
+							<Keyword MCVID="2971" Title="Cellulitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2875823B-229A-4555-9C0FC8019E4254BC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cellulitis
+			</MetaKeyword>
+			<MetaKeyword>
+				skin infection
+			</MetaKeyword>
+			<MetaKeyword>
+				skin break
+			</MetaKeyword>
+			<MetaKeyword>
+				skin crack
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				staphylococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				red skin
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen skin
+			</MetaKeyword>
+			<MetaKeyword>
+				tender skin
+			</MetaKeyword>
+			<MetaKeyword>
+				warm skin
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				cellulites
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cellulitis (sel-u-LI-tis) is a common, potentially serious bacterial skin infection. Cellulitis appears as a swollen, red area of skin that feels hot and tender, and it may spread rapidly. 
+&lt;/p&gt;
+&lt;p&gt;
+Skin on lower legs is most commonly affected, though cellulitis can occur anywhere on your body or face. Cellulitis may affect only your skin&apos;s surface, or cellulitis may also affect tissues underlying your skin and can spread to your lymph nodes and bloodstream.
+&lt;/p&gt;
+&lt;p&gt;
+Left untreated, the spreading infection may rapidly turn life-threatening. That&apos;s why it&apos;s important to seek immediate medical attention if cellulitis symptoms occur. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos of cellulitis 
+" Caption="Cellulitis is usually a superficial infection of the skin. But if severe or if left untreated, it can spread into your lymph nodes and bloodstream. Pictured here is mild cellulitis (left) and severe cellulitis (right). 
+" Height="60" Title="Cellulitis" URI="/images/image_popup/thumbs/r7_cellulitisthu.jpg" Width="60" />
+				<Image Alt="Photos of cellulitis 
+" Caption="Cellulitis is usually a superficial infection of the skin. But if severe or if left untreated, it can spread into your lymph nodes and bloodstream. Pictured here is mild cellulitis (left) and severe cellulitis (right). 
+" Height="300" Title="Cellulitis" URI="/images/image_popup/r7_cellulitis.jpg" Width="400" />
+				<HTML>
+					Cellulitis is usually a superficial infection of the skin. But if severe or if left untreated, it can spread into your lymph nodes and bloodstream. Pictured here is mild cellulitis (left) and severe ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible signs and symptoms of cellulitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Warmth&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The changes in your skin may be accompanied by a fever. Over time, the area of redness tends to expand. Small red spots may appear on top of the reddened skin, and less commonly, small blisters may form and burst.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It&apos;s important to identify and treat cellulitis early because the condition can cause a serious infection by spreading rapidly throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care&lt;/strong&gt; &lt;strong&gt;if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a red, swollen, tender rash or a rash that&apos;s changing rapidly&lt;/li&gt;
+	&lt;li&gt;You have a fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor, preferably that day, if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a rash that&apos;s red, swollen, tender and warm &amp;mdash; and it&apos;s expanding &amp;mdash; but without fever&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos of cellulitis 
+" Caption="Cellulitis is usually a superficial infection of the skin. But if severe or if left untreated, it can spread into your lymph nodes and bloodstream. Pictured here is mild cellulitis (left) and severe cellulitis (right). 
+" Height="60" Title="Cellulitis" URI="/images/image_popup/thumbs/r7_cellulitisthu.jpg" Width="60" />
+				<Image Alt="Photos of cellulitis 
+" Caption="Cellulitis is usually a superficial infection of the skin. But if severe or if left untreated, it can spread into your lymph nodes and bloodstream. Pictured here is mild cellulitis (left) and severe cellulitis (right). 
+" Height="300" Title="Cellulitis" URI="/images/image_popup/r7_cellulitis.jpg" Width="400" />
+				<HTML>
+					Cellulitis is usually a superficial infection of the skin. But if severe or if left untreated, it can spread into your lymph nodes and bloodstream. Pictured here is mild cellulitis (left) and severe ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cellulitis occurs when one or more types of bacteria enter through a crack or break in your skin. The two most common types of bacteria that are causes of cellulitis are streptococcus and staphylococcus. The incidence of a more serious staphylococcus infection called methicillin-resistant Staphylococcus aureus (MRSA) is increasing.
+&lt;/p&gt;
+&lt;p&gt;
+Although cellulitis can occur anywhere on your body, the most common location is the lower leg. Bacteria is most likely to enter disrupted areas of skin, such as where you&apos;ve had recent surgery, cuts, puncture wounds, an ulcer, athlete&apos;s foot or dermatitis.
+&lt;/p&gt;
+&lt;p&gt;
+Certain types of insect or spider bites also can transmit the bacteria that start the infection. Areas of dry, flaky skin also can be an entry point for bacteria, as can swollen skin.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors can place you at greater risk of developing cellulitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Known injury.&lt;/strong&gt; Any cut, fracture, burn or even a scrape increases your risk of cellulitis because the injury gives bacteria an entry point.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; Conditions that weaken your immune system leave you more susceptible to infections, such as cellulitis. Conditions that can weaken your immune system include diabetes, chronic leukemias, HIV/AIDS, chronic kidney disease, liver disease and circulation disorders. The use of certain medications, such as corticosteroids, also can weaken your immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin conditions.&lt;/strong&gt; Certain skin disorders, such as eczema, athlete&apos;s foot, chickenpox and shingles, cause breaks in the skin and increase your risk of cellulitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic swelling of your arms or legs (lymphedema).&lt;/strong&gt; Swollen tissue may crack, leaving your skin vulnerable to bacterial infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of cellulitis.&lt;/strong&gt; People who previously have had cellulitis, especially of the lower leg, may be more prone to develop it again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous drug use.&lt;/strong&gt; People who inject illegal drugs have a higher risk of developing cellulitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being overweight or obese increases your risk not only of developing cellulitis but also of having recurring episodes. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+This reddened skin or rash may signal a deeper, more serious infection of the inner layers of skin. Once below your skin, the bacteria can spread rapidly throughout your body, entering your lymph nodes and your bloodstream. Recurrent episodes of cellulitis may actually damage the lymphatic drainage system and cause chronic swelling of the affected extremity.
+&lt;/p&gt;
+&lt;p&gt;
+In rare cases, the infection can spread to the deep layer of tissue called the fascial lining. Flesh-eating strep, also called necrotizing fasciitis, is an example of a deep-layer infection. It represents an extreme emergency.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in skin disorders (dermatologist). If you have a severe infection, you may first be seen by an emergency room doctor. You may also be seen by an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; such as if you&apos;ve had any recent surgeries, injuries, animal bites or insect bites.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking, along with the dosage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make sure that you cover the points that are important to you. For cellulitis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How might I have gotten this infection?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How is this treated?&lt;/li&gt;
+	&lt;li&gt;How long before the treatment starts working?&lt;/li&gt;
+	&lt;li&gt;What side effects are possible with this medication?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How do I manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to antibiotics?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How can I prevent this type of infection in the future?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you remember any injuries to that area or insect bites?&lt;/li&gt;
+	&lt;li&gt;How severe is the pain?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you allergic to or intolerant of any antibiotics?&lt;/li&gt;
+	&lt;li&gt;Have you had this type of infection before?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;You may need a prescription antibiotic to clear your infection. However, until you see your doctor, you can wash the injured area with soap and water and then apply an over-the-counter cream or ointment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The appearance of your skin will help your doctor make a diagnosis. Your doctor may also suggest blood tests, a wound culture or other tests to help rule out a blood clot deep in the veins of your legs. Cellulitis in the lower leg is characterized by signs and symptoms that may be similar to those of a clot occurring deep in the veins, such as warmth, pain and swelling.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cellulitis treatment usually is a prescription oral antibiotic. Within three days of starting an antibiotic, let your doctor know whether the infection is responding to treatment. You&apos;ll need to take the antibiotic for up to 14 days. In most cases, signs and symptoms of cellulitis disappear after a few days. If they don&apos;t clear up, if they&apos;re extensive or if you have a high fever, you may need to be hospitalized and receive antibiotics through your veins (intravenously).
+&lt;/p&gt;
+&lt;p&gt;
+Usually, doctors prescribe a drug that&apos;s effective against both streptococci and staphylococci. Your doctor will choose an antibiotic based on your circumstances. 
+&lt;/p&gt;
+&lt;p&gt;
+No matter what type of antibiotic your doctor prescribes, it&apos;s important that you take the medication as directed and that you finish the entire course of medication, even if you start feeling better. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor also might recommend elevating the affected area, which may speed recovery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent cellulitis and other infections, take these precautions when you have a skin wound: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your wound daily with soap and water.&lt;/strong&gt; Do this gently as part of your normal bathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an antibiotic cream or ointment.&lt;/strong&gt; For most surface wounds, a single- or double-antibiotic ointment provides adequate protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch for signs of infection.&lt;/strong&gt; Redness, pain and drainage all signal possible infection and the need for medical evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People with diabetes and those with poor circulation need to take extra precautions to prevent skin wounds and treat any cuts or cracks in the skin promptly. Good skin-care measures include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inspect your feet daily.&lt;/strong&gt; Regularly check your feet for signs of injury so you can catch any infections early.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your skin regularly.&lt;/strong&gt; Lubricating your skin helps prevent cracking and peeling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trim your fingernails and toenails carefully.&lt;/strong&gt; Take care not to injure the surrounding skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your hands and feet.&lt;/strong&gt; Wear appropriate footwear and gloves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Promptly treat any superficial skin infections, such as athlete&apos;s foot.&lt;/strong&gt; Infections on the surface of the skin (superficial) can easily spread from person to person. Don&apos;t wait to start treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cellulitis
+	</Title>
+	<Abstract>
+		Cellulitis &amp;mdash; Comprehensive overview covers causes, treatment and prevention of this potentially serious skin infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01418" LinkType="Internal" ObjectID="899EC794-E7FF-0DBD-139D789C2C09D14E" Title="Cellulitis: How to treat recurrent episodes" Url="http://www.mayoclinic.com/health/cellulitis/AN01418" />
+		<LinkItem ContentType="Answer" DocID="AN00745" LinkType="Internal" ObjectID="1A34E36A-E89B-46A4-ABDA7D9ABCAD5C0A" Title="Cellulitis infection: Is it contagious?" Url="http://www.mayoclinic.com/health/cellulitis/AN00745" />
+		<LinkItem ContentType="Disease" DocID="DS01191" LinkType="Internal" ObjectID="22F740D5-BF9D-1B61-C3528ACC3BC2F6E3" Title="Spider bites" Url="http://www.mayoclinic.com/health/spider-bites/DS01191" />
+	</RelatedLinksBox>
+</Disease>

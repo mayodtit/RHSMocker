@@ -1,0 +1,317 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00214
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/c-section/MY00214
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-12
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3428" Title="Week 37" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5201" Title="You and your baby">
+							<Keyword MCVID="3452" Title="Labor and delivery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3967" Title="Life stage">
+						<Keyword MCVID="3990" Title="Pregnancy">
+							<Keyword MCVID="3991" Title="C-section" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C2CFE268-E7FF-0DBD-18FA5858F40AF065
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				c-section
+			</MetaKeyword>
+			<MetaKeyword>
+				c section
+			</MetaKeyword>
+			<MetaKeyword>
+				caesarean section
+			</MetaKeyword>
+			<MetaKeyword>
+				c-section recovery
+			</MetaKeyword>
+			<MetaKeyword>
+				c-section pictures
+			</MetaKeyword>
+			<MetaKeyword>
+				cesarean
+			</MetaKeyword>
+			<MetaKeyword>
+				birth
+			</MetaKeyword>
+			<MetaKeyword>
+				labor
+			</MetaKeyword>
+			<MetaKeyword>
+				delivery
+			</MetaKeyword>
+			<MetaKeyword>
+				childbirth
+			</MetaKeyword>
+			<MetaKeyword>
+				vbac
+			</MetaKeyword>
+			<MetaKeyword>
+				caesarean
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cesarean delivery &amp;mdash; also known as a C-section &amp;mdash; is a surgical procedure used to deliver a baby through an incision in the mother&apos;s abdomen and a second incision in the mother&apos;s uterus.
+&lt;/p&gt;
+&lt;p&gt;
+A C-section might be planned ahead of time if you develop pregnancy complications or you&apos;ve had a previous C-section and aren&apos;t considering vaginal birth after cesarean (VBAC). Often, however, the need for a first-time C-section doesn&apos;t become obvious until labor is under way.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant, knowing what to expect during a C-section &amp;mdash; both during the procedure and afterward &amp;mdash; can help you prepare.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes a C-section is safer for you or your baby than is a vaginal delivery. Your health care provider might recommend a C-section if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your labor isn&apos;t progressing.&lt;/strong&gt; Stalled labor is one of the most common reasons for a C-section. Perhaps your cervix isn&apos;t opening enough despite strong contractions over several hours &amp;mdash; or the baby&apos;s head is simply too big to pass through your birth canal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your baby isn&apos;t getting enough oxygen.&lt;/strong&gt; If your health care provider is concerned about your baby&apos;s oxygen supply or changes in your baby&apos;s heartbeat, a C-section might be the best option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your baby is in an abnormal position.&lt;/strong&gt; A C-section might be the safest way to deliver the baby if his or her feet or buttocks enter the birth canal first (breech) or the baby is positioned side or shoulder first (transverse).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re carrying twins, triplets or other multiples.&lt;/strong&gt; When you&apos;re carrying multiple babies, it&apos;s common for one or more of the babies to be in an abnormal position. In this case, a C-section is often safer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;There&apos;s a problem with your placenta.&lt;/strong&gt; If the placenta detaches from your uterus before labor begins (placental abruption) or the placenta covers the opening of your cervix (placenta previa), C-section might be the safest way to deliver the baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;There&apos;s a problem with the umbilical cord.&lt;/strong&gt; A C-section might be recommended if a loop of umbilical cord slips through your cervix ahead of your baby or if the cord is compressed by the uterus during contractions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have a health concern.&lt;/strong&gt; Your health care provider might suggest a C-section if you have a medical condition that could make labor dangerous, such as unstable heart disease or high blood pressure. In other cases, a C-section might be recommended if you have an infection that could be passed to your baby during vaginal delivery &amp;mdash; such as genital herpes or HIV.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your baby has a health concern.&lt;/strong&gt; A C-section is sometimes safer for babies who have certain developmental conditions, such as excess fluid in the brain (hydrocephalus).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ve had a previous C-section.&lt;/strong&gt; Depending on the type of uterine incision and other factors, it&apos;s often possible to attempt a vaginal delivery after a previous C-section. In some cases, however, your health care provider might recommend a repeat C-section.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, some women request C-sections with their first babies &amp;mdash; sometimes to avoid labor or the possible complications of vaginal birth, or to take advantage of the convenience of a planned delivery. If you&apos;re considering a planned C-section for your first delivery, work with your health care provider to make the best decision for you and your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Recovery from a C-section takes longer than does recovery from a vaginal birth. And like other types of major surgery, C-sections also carry a higher risk of complications.
+&lt;/p&gt;
+&lt;p&gt;
+Risks to your baby include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; Babies born by C-section are more likely to develop transient tachypnea &amp;mdash; a breathing problem marked by abnormally fast breathing during the first few days after birth. C-sections done before 39 weeks of pregnancy or without proof of the baby&apos;s lung maturity might increase the risk of other breathing problems, including respiratory distress syndrome &amp;mdash; a condition that makes it difficult for the baby to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical injury.&lt;/strong&gt; Although rare, accidental nicks to the baby&apos;s skin can occur during surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Risks to you include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation and infection of the membrane lining the uterus.&lt;/strong&gt; This condition &amp;mdash; known as endometritis &amp;mdash; can cause fever, foul-smelling vaginal discharge and uterine pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased bleeding.&lt;/strong&gt; You&apos;re likely to lose more blood with a C-section than with a vaginal birth. Transfusions are rarely needed, however.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reactions to anesthesia.&lt;/strong&gt; Adverse reactions to any type of anesthesia are possible. After an epidural or spinal block &amp;mdash; common types of anesthesia for C-sections &amp;mdash; it&apos;s rare, but possible, to experience a severe headache when you&apos;re upright in the days after delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; The risk of developing a blood clot inside a vein &amp;mdash; especially in the legs or pelvic organs &amp;mdash; is greater after a C-section than after a vaginal delivery. If a blood clot travels to your lungs (pulmonary embolism), the damage can be life-threatening. Your health care team will take steps to prevent blood clots. You can help, too, by walking frequently soon after surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wound infection.&lt;/strong&gt; An infection at or around the incision site is possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical injury.&lt;/strong&gt; Although rare, surgical injuries to nearby organs &amp;mdash; such as the bladder &amp;mdash; can occur during a C-section. If this happens, additional surgery might be needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased risks during future pregnancies.&lt;/strong&gt; After a C-section, you face a higher risk of potentially serious complications in a subsequent pregnancy &amp;mdash; including bleeding and problems with the placenta &amp;mdash; than you would after a vaginal delivery. The risk of uterine rupture is also higher. With uterine rupture, the uterus tears open along the scar line from the prior C-section. Uterine rupture is a life-threatening emergency.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your C-section is scheduled in advance, your health care provider might suggest talking with an anesthesiologist about options for anesthesia during delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might also recommend certain blood tests before your C-section. These tests will provide information about your blood type and your level of hemoglobin &amp;mdash; the main component of red blood cells. These details will be helpful to your health care team in the unlikely event that you need a blood transfusion during the C-section. 
+&lt;/p&gt;
+&lt;p&gt;
+If complications with your health or the baby&apos;s health prompt a C-section before 39 weeks of pregnancy, your baby&apos;s lung maturity might be tested before the C-section. This is done with amniocentesis &amp;mdash; a procedure in which a sample of the fluid that surrounds and protects the baby in the uterus (amniotic fluid) is removed from the uterus for testing. Maturity amniocentesis can offer assurance that the baby is ready for birth.
+&lt;/p&gt;
+&lt;p&gt;
+Even if you&apos;re planning a vaginal birth, it&apos;s important to prepare for the unexpected. Discuss the possibility of a C-section with your health care provider well before your due date. Ask questions, share your concerns and review the circumstances that might make a C-section the best option. In an emergency, your health care provider might not have time to explain the procedure or answer your questions in detail. 
+&lt;/p&gt;
+&lt;p&gt;
+After a C-section, you&apos;ll need time to rest and recover. Consider recruiting help ahead of time for the weeks following the birth of your baby. This might include household help or child care for other children. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+An average C-section can usually be done in less than an hour. In most cases, your spouse or partner can stay with you in the operating room during the procedure. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;At home.&lt;/strong&gt; You might be asked to shower or bathe with an antibacterial soap the night before and the morning of the C-section. This helps reduce the risk of infection. If you regularly shave your public hair, don&apos;t do it the day before your operation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;At the hospital.&lt;/strong&gt; Before your C-section, a member of your health care team will cleanse your abdomen. A tube (catheter) will likely be placed into your bladder to collect urine. Intravenous (IV) lines will be placed in a vein in your hand or arm to provide fluid and medication. A member of your health care team might also give you an antacid to reduce the risk of an upset stomach during the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anesthesia.&lt;/strong&gt; Most C-sections are done under regional anesthesia, which numbs only the lower part of your body &amp;mdash; allowing you to remain awake during the procedure. A common choice is a spinal block, in which pain medication is injected directly into the sac surrounding your spinal cord. Another option might be epidural anesthesia, in which pain medication is injected into your lower back just outside the sac that surrounds your spinal cord. In an emergency, general anesthesia is sometimes needed. With general anesthesia, you won&apos;t be able to see, feel or hear anything during the birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal incision.&lt;/strong&gt; The doctor will make an incision through your abdominal wall. It&apos;s usually done horizontally near the pubic hairline (bikini incision). If a large incision is needed or your baby must be delivered very quickly, the doctor might make a vertical incision from just below the navel to just above the pubic bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine incision.&lt;/strong&gt; After the abdominal incision, the doctor will make an incision in your uterus. The uterine incision is usually horizontal across the lower part of the uterus (low transverse incision). Other types of uterine incisions might be used depending on the baby&apos;s position within your uterus and whether you have complications, such as placenta previa &amp;mdash; when the placenta partially or completely blocks the uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Delivery.&lt;/strong&gt; If you have epidural or spinal anesthesia, you&apos;ll likely feel some movement as the doctor gently removes the baby from your uterus &amp;mdash; but you shouldn&apos;t feel pain. The doctor will clear your baby&apos;s mouth and nose of fluids, then clamp and cut the umbilical cord. The placenta will be removed from your uterus, and the incisions will be closed with sutures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have regional anesthesia, you&apos;ll be able to hear and see the baby right after delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After a C-section, most mothers and babies stay in the hospital for about three days. To control pain as the anesthesia wears off, you might use a pump that allows you to adjust the dose of intravenous (IV) pain medication.
+&lt;/p&gt;
+&lt;p&gt;
+Soon after your C-section, you&apos;ll be encouraged to get up and walk. Moving around can speed your recovery and help prevent constipation and potentially dangerous blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re in the hospital, your health care team will monitor your incision for signs of infection. They&apos;ll also monitor your movement, how much fluid you&apos;re drinking, and bladder and bowel function. 
+&lt;/p&gt;
+&lt;p&gt;
+Discomfort near the C-section incision can make breast-feeding somewhat awkward. With help, however, you&apos;ll be able to start breast-feeding soon after the C-section. Ask your nurse or the hospital&apos;s lactation consultant to teach you how to position yourself and support your baby so that you&apos;re comfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember that trying to breast-feed when you&apos;re in pain might make the process more difficult. Your health care team will select medications for your post-surgical pain with breast-feeding in mind. Continuing to take the medication shouldn&apos;t interfere with breast-feeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Before you leave the hospital, talk with your health care provider about any preventive care you might need, including vaccinations. Making sure your vaccinations are current can help protect your health and your baby&apos;s health.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When you go home&lt;/strong&gt;&lt;br /&gt;
+It takes about four to six weeks for a C-section incision to heal. Fatigue and discomfort are common. While you&apos;re recovering: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take it easy.&lt;/strong&gt; Rest when possible. Try to keep everything that you and your baby might need within reach. For the first few weeks, avoid lifting from a squatting position or lifting anything heavier than your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support your abdomen.&lt;/strong&gt; Use good posture when you stand and walk. Hold your abdomen near the incision during sudden movements, such as coughing, sneezing or laughing. Use pillows or rolled up towels for extra support while breast-feeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Drinking water and other fluids can help replace the fluid lost during delivery and breast-feeding, as well as prevent constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medication as needed.&lt;/strong&gt; Your health care provider might recommend acetaminophen (Tylenol, others) or other medications to relieve pain. Most pain relief medications are safe for women who are breast-feeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sex.&lt;/strong&gt; Don&apos;t have sex until your health care provider gives you the green light &amp;mdash; often four to six weeks after surgery. You don&apos;t have to give up on intimacy in the meantime, though. Spend time with your partner, even if it&apos;s just a few minutes in the morning or after the baby goes to sleep at night.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s also important to know when to contact your health care provider. Make the call if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Any signs of infection &amp;mdash; such as a fever higher than 100.4 F (38 C), severe pain in your abdomen, or redness, swelling and discharge at your incision site&lt;/li&gt;
+	&lt;li&gt;Breast pain accompanied by redness or fever&lt;/li&gt;
+	&lt;li&gt;Foul-smelling vaginal discharge&lt;/li&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Bleeding that soaks a sanitary napkin within an hour or contains large clots&lt;/li&gt;
+	&lt;li&gt;Leg pain or swelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Postpartum depression &amp;mdash; which can cause severe mood swings, loss of appetite, overwhelming fatigue and lack of joy in life &amp;mdash; is sometimes a concern as well. Contact your health care provider if you suspect that you&apos;re depressed. It&apos;s especially important to seek help if your signs and symptoms don&apos;t fade on their own, you have trouble caring for your baby or completing daily tasks, or you have thoughts of harming yourself or your baby. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of abdominal incisions used during C-sections
+" Caption="A C-section includes an abdominal incision and a uterine incision. The abdominal incision is made first. It&apos;s either a vertical incision between your navel and pubic hair (left) or, more commonly, a horizontal incision lower on your abdomen (right).
+" Height="60" Title="Abdominal incisions used during C-sections" URI="/images/image_popup/thumbs/pr7_csection_skinthu.jpg" Width="60" />
+				<Image Alt="Illustration of abdominal incisions used during C-sections
+" Caption="A C-section includes an abdominal incision and a uterine incision. The abdominal incision is made first. It&apos;s either a vertical incision between your navel and pubic hair (left) or, more commonly, a horizontal incision lower on your abdomen (right).
+" Height="389" Title="Abdominal incisions used during C-sections" URI="/images/image_popup/pr7_csection_skin.jpg" Width="400" />
+				<HTML>
+					A C-section includes an abdominal incision and a uterine incision. The abdominal incision is made first. It&apos;s either a vertical incision between your navel and pubic hair (left) or, more commonly, a ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of uterine incisions used during C-sections 
+" Caption="A C-section includes an abdominal incision and a uterine incision. After the abdominal incision, the doctor will make an incision in your uterus. Low transverse incisions are the most common (top left). Classical incisions are usually reserved for rapid delivery or for pregnancies with complications, such as placenta previa (top right). A low vertical incision might be used if your baby is in an awkward position (bottom).
+" Height="60" Title="Uterine incisions used during C-sections" URI="/images/image_popup/thumbs/pr7_csection_uterthu.jpg" Width="60" />
+				<Image Alt="Illustration of uterine incisions used during C-sections 
+" Caption="A C-section includes an abdominal incision and a uterine incision. After the abdominal incision, the doctor will make an incision in your uterus. Low transverse incisions are the most common (top left). Classical incisions are usually reserved for rapid delivery or for pregnancies with complications, such as placenta previa (top right). A low vertical incision might be used if your baby is in an awkward position (bottom).
+" Height="544" Title="Uterine incisions used during C-sections" URI="/images/image_popup/pr7_csection_uter.jpg" Width="400" />
+				<HTML>
+					A C-section includes an abdominal incision and a uterine incision. After the abdominal incision, the doctor will make an incision in your uterus. Low transverse incisions are the most common (top ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		C-section
+	</Title>
+	<Abstract>
+		C-section &amp;mdash; Overview covers why it&apos;s done, risks, what you can expect and tips for recovery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02085" LinkType="Internal" ObjectID="CBD3C5F1-0716-23D7-B42C094311F7CB5B" Title="Forceps delivery" Url="http://www.mayoclinic.com/health/forceps-delivery/MY02085" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01143" LinkType="Internal" ObjectID="0027ADD5-A779-9845-6C1AF50DE22CFC07" Title="Vaginal birth after cesarean (VBAC)" Url="http://www.mayoclinic.com/health/vbac/MY01143" />
+		<LinkItem ContentType="Article" DocID="MY01978" LinkType="Internal" ObjectID="B51BEA1F-C099-B0B1-7581BAADD4C4EBED" Title="C-section recovery: What to expect" Url="http://www.mayoclinic.com/health/c-section-recovery/MY01978" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY01945" LinkType="Internal" ObjectID="1A1EE92E-FB0A-795B-CEB7BDD5607624A1" Title="Placenta: How it works, what&apos;s normal" Url="http://www.mayoclinic.com/health/placenta/MY01945" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="Answer" DocID="AN02070" LinkType="Internal" ObjectID="33B0B547-D63E-0522-6D9C547533765BDD" Title="Repeat C-sections: Is there a limit?" Url="http://www.mayoclinic.com/health/c-sections/AN02070" />
+		<LinkItem ContentType="Disease" DocID="DS01207" LinkType="Internal" ObjectID="A43C6661-B9F9-3BE6-3A41FE6D24724FDD" Title="Amniotic fluid embolism" Url="http://www.mayoclinic.com/health/amniotic-fluid-embolism/DS01207" />
+		<LinkItem ContentType="Disease" DocID="DS01203" LinkType="Internal" ObjectID="A0B15BA1-0800-BC0A-49A143C3527F367B" Title="Placenta accreta" Url="http://www.mayoclinic.com/health/placenta-accreta/DS01203" />
+		<LinkItem ContentType="Disease" DocID="DS00588" LinkType="Internal" ObjectID="827D77E5-9B63-44BA-A298CD99329BB784" Title="Placenta previa" Url="http://www.mayoclinic.com/health/placenta-previa/DS00588" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+	</RelatedLinksBox>
+</TestProcedure>

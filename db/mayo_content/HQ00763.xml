@@ -1,0 +1,129 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HQ00763
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/head-injury/HQ00763
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-23
+		</UpdateDate>
+		<PublicationDate>
+			1998-03-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="3009" Title="Intracranial hematoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6636B3B9-E11F-4473-81FFAB8729500ECD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				head injury
+			</MetaKeyword>
+			<MetaKeyword>
+				head injuries
+			</MetaKeyword>
+			<MetaKeyword>
+				bump on head
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Probably not. Head trauma resulting from play or sporting events is a common concern for parents, but few bumps on the head of this nature result in serious injury.
+&lt;/p&gt;
+&lt;p&gt;
+The forehead and scalp have an abundant blood supply and injury to these areas often results in bleeding under the skin. When the bleeding is restricted to one area, it causes bruising and swelling. Doctors refer to this as a hematoma.
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that even a minor head bump can cause a large swelling. And the mechanism of injury &amp;mdash; speed, momentum and size of the people (full-grown adolescents versus children), and the forces involved (such as a concrete floor or other hard surface) &amp;mdash; may increase the possibility of serious injury.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Occasionally, a blow to the head may be severe enough to cause bleeding in or around the brain. This type of bleeding can cause an intracranial hematoma, a serious condition that puts pressure on the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;See a doctor within one to two days&lt;/strong&gt; of a head injury, even if emergency care isn&apos;t required. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency medical attention&lt;/strong&gt; if your child experiences: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unconsciousness, confusion or disorientation immediately after a head injury or after some time has passed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also seek emergency attention if your child exhibits the following signs or symptoms following a head injury:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent or worsening headache&lt;/li&gt;
+	&lt;li&gt;Imbalance&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+	&lt;li&gt;Mood changes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bump on the head: When is it a serious head injury?
+	</Title>
+	<Abstract>
+		Even a minor injury to the scalp or forehead can cause a large lump.
+	</Abstract>
+	<Question>
+		Recently, my daughter got kicked in the head during a soccer game. She seemed fine at the time but later developed a sizable lump on her forehead. Is this a concern?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Disease" DocID="DS00218" LinkType="Internal" ObjectID="F06A4B68-94D1-418C-827D409C656EC798" Title="Hemophilia" Url="http://www.mayoclinic.com/health/hemophilia/DS00218" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+		<LinkItem ContentType="Disease" DocID="DS00324" LinkType="Internal" ObjectID="193554B1-F187-461C-9041DDD189B031A6" Title="Sickle cell anemia" Url="http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324" />
+		<LinkItem ContentType="Disease" DocID="DS00330" LinkType="Internal" ObjectID="2EB0291C-BD7D-43EC-9ED188AACC63AD44" Title="Intracranial hematoma" Url="http://www.mayoclinic.com/health/intracranial-hematoma/DS00330" />
+	</RelatedLinksBox>
+</Answer>

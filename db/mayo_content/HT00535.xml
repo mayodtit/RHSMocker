@@ -1,0 +1,67 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00535
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00535
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			162D27B7-E7FF-0DBD-1239750974CFB705
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Blood pressure tip: Watch your weight
+	</Title>
+	<Body>
+		&lt;p&gt;Blood pressure often increases as weight increases. In general, the more weight you lose, the lower your blood pressure. If you&apos;re overweight, losing even 10 pounds can make a big difference. Work with your doctor to determine your target weight and the best way to achieve it.&lt;/p&gt;
+	</Body>
+</HealthTip>

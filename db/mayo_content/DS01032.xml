@@ -1,0 +1,313 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01032
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tuberous-sclerosis/DS01032
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="3149" Title="Genetic disorders">
+						<Keyword MCVID="3287" Title="Tuberous sclerosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B28477A0-E7FF-0DBD-19DCDF08FE93EE70
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tuberous sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				tuberous sclerosis complex
+			</MetaKeyword>
+			<MetaKeyword>
+				TSC
+			</MetaKeyword>
+			<MetaKeyword>
+				tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				tumors
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tuberous sclerosis (TWO-bur-uhs skluh-ROW-sis) complex is a rare genetic disease that causes noncancerous (benign) lesions to grow in many parts of the body, such as the skin, brain and kidneys. The signs and symptoms of tuberous sclerosis vary &amp;mdash; from patches of light-colored skin to seizures or behavior problems &amp;mdash; depending on where the lesions develop. 
+&lt;/p&gt;
+&lt;p&gt;
+Tuberous sclerosis is often detected during infancy or childhood. Some people with tuberous sclerosis have such mild signs and symptoms that the condition isn&apos;t diagnosed until adulthood, or it goes undiagnosed. Others experience serious disabilities. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for tuberous sclerosis, and there&apos;s no way to predict the course or severity of the disease. With appropriate treatment, however, many people who have tuberous sclerosis lead full, productive lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tuberous sclerosis symptoms include noncancerous lesions that grow in many parts of the body, such as in the skin, brain and kidneys. Lesions may be referred to as hamartias or hamartomas. Sometimes lesions grow in other parts of the nervous system or in the heart, lungs or the light-sensitive tissue at the back of the eye (retina). Tuberous sclerosis signs and symptoms vary, depending on where the lesions develop: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin abnormalities.&lt;/strong&gt; Many people who have tuberous sclerosis develop patches of light-colored skin, areas of thickened skin, or growths under or around the nails. Facial lesions that resemble acne also are common.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological symptoms.&lt;/strong&gt; Lesions in the brain can be associated with seizures, intellectual disability, learning disabilities or developmental delays. Behavior problems, such as hyperactivity and aggression, may occur. Some children who have tuberous sclerosis have trouble with communication and social interaction, and in some cases may be autistic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney problems.&lt;/strong&gt; If lesions develop in the kidneys, potentially serious &amp;mdash; even life-threatening &amp;mdash; kidney problems are possible. Rarely, kidney lesions may become cancerous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung problems.&lt;/strong&gt; Lesions that develop in the lungs (pulmonary leiomyomas) may cause coughing or shortness of breath. Progression to lung failure during adulthood is possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, the signs and symptoms of tuberous sclerosis are noticed at birth. For others, the first signs and symptoms of tuberous sclerosis become evident during childhood or even years later. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your child&apos;s doctor if you&apos;re concerned about your child&apos;s development or you notice any signs of tuberous sclerosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Patches of light-colored skin&lt;/li&gt;
+	&lt;li&gt;Facial lesions&lt;/li&gt;
+	&lt;li&gt;Seizures, including those in which your baby repeatedly brings his or her legs up to the chest (infantile spasms)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tuberous sclerosis is a genetic disease caused by mutations in the TSC1 or TSC2 gene. Normally, these genes are thought to prevent cells from growing too fast or in an uncontrolled manner. Mutations in either of these genes can cause cells to divide excessively, which leads to numerous lesions throughout the body. Researchers don&apos;t know what causes these genetic mutations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About one-third of people who have tuberous sclerosis inherit an altered TSC1 or TSC2 gene &amp;mdash; the genes associated with tuberous sclerosis &amp;mdash; from a parent who has the disease. About two-thirds of people who have tuberous sclerosis have a new mutation in either the TSC1 or TSC2 gene. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have tuberous sclerosis, you have a 50 percent chance of passing the condition to your biological children. Severity of the condition may vary. A parent who has mild tuberous sclerosis may have a child who has a more severe form of the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of tuberous sclerosis vary, depending on where the lesions develop.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lesions in the brain known as subependymal giant cell astrocytomas (SEGA) can block the flow of cerebral spinal fluid within the brain. This blockage can cause various signs and symptoms, including nausea, headaches and behavior changes.&lt;/li&gt;
+	&lt;li&gt;Lesions in the heart can block blood flow or cause problems with heart rhythm (dysrhythmia). These lesions are usually largest at birth and shrink as the child gets older.&lt;/li&gt;
+	&lt;li&gt;Lesions in the eye can interfere with vision if they block too much of the light-sensitive tissue at the back of the eye (retina), though this is rare.&lt;/li&gt;
+	&lt;li&gt;Lesions in the kidney can lead to kidney failure. Rarely, lesions in the kidney can become cancerous.&lt;/li&gt;
+	&lt;li&gt;Lesions in the lungs can lead to lung failure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably initially bring up your concerns with your child&apos;s doctor. But after an exam, your child may be referred to one or more medical and genetics specialists for further testing and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your first appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms your child has been experiencing,&lt;/strong&gt; and for how long. If your child has had one or more seizures, take notes for the doctor about what happened before, during and after the seizure, and how long it lasted.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your child&apos;s key medical information,&lt;/strong&gt; including&lt;strong&gt; &lt;/strong&gt;other recent health problems and the names of all prescription and over-the-counter medications that your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a trusted family member or friend to join you for the appointment.&lt;/strong&gt; If your child&apos;s doctor mentions the possibility of tuberous sclerosis, you may have difficulty focusing on anything the doctor says next. Take someone along who can offer emotional support and can help you remember all of the information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your child&apos;s doctor at the initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;Should my child see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you&apos;re referred to a specialist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my child have tuberous sclerosis?&lt;/li&gt;
+	&lt;li&gt;What treatment options are available for this condition?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend for my child?&lt;/li&gt;
+	&lt;li&gt;What are the possible complications of this condition?&lt;/li&gt;
+	&lt;li&gt;How often will you want to evaluate my child&apos;s health and development?&lt;/li&gt;
+	&lt;li&gt;Are my other children or family members at increased risk of this condition?&lt;/li&gt;
+	&lt;li&gt;Should I or my child be tested for the genetic mutations associated with this condition?&lt;/li&gt;
+	&lt;li&gt;What other types of specialists should my child see?&lt;/li&gt;
+	&lt;li&gt;Are there clinical trials under way for which my child may be eligible?&lt;/li&gt;
+	&lt;li&gt;How can I find other families who are coping with tuberous sclerosis?&lt;/li&gt;
+	&lt;li&gt;How can I help my child cope with this disorder?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+A doctor who sees your child for possible tuberous sclerosis is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. The doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child had any seizures?&lt;/li&gt;
+	&lt;li&gt;If your child has had one or more seizures, what had he or she been doing right before the seizure? &lt;/li&gt;
+	&lt;li&gt;What happens to your child during a seizure?&lt;/li&gt;
+	&lt;li&gt;How long have your child&apos;s seizures lasted, and how has your child felt and acted afterward?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms included nausea and vomiting?&lt;/li&gt;
+	&lt;li&gt;Has your child had any behavior problems, such as hyperactivity, aggression, rage or self-injury? &lt;/li&gt;
+	&lt;li&gt;Does your child have difficulty paying attention?&lt;/li&gt;
+	&lt;li&gt;Has your child seemed to withdraw or become less socially and emotionally engaged?&lt;/li&gt;
+	&lt;li&gt;Does your child seem developmentally delayed compared with his or her peers?&lt;/li&gt;
+	&lt;li&gt;Have any of your child&apos;s first-degree relatives &amp;mdash; such as a parent or sibling &amp;mdash; been diagnosed with tuberous sclerosis, or had symptoms without ever being diagnosed?&lt;/li&gt;
+	&lt;li&gt;Do you plan on having more children?&lt;/li&gt;
+	&lt;li&gt;What else concerns you?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child will likely be evaluated by several different specialists, including those trained to diagnose and treat problems of the brain (neurologist), heart (cardiologist), eyes (ophthalmologist), skin (dermatologist) and kidneys (nephrologist). These doctors will likely order a number of tests to diagnose tuberous sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has had seizures, diagnostic testing will likely include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electroencephalogram (EEG).&lt;/strong&gt; This test records electrical activity in the brain and can help pinpoint what&apos;s causing your child&apos;s seizures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To detect abnormal growths on the brain and kidneys, diagnostic testing will likely include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This test uses a magnetic field and radio waves to create cross-sectional images of the brain or other parts of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; This is an X-ray technique that produces images of the brain or other parts of the body. CT images are more detailed than those produced by conventional X-ray exams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This test uses high-frequency sound waves to create images of certain body parts, such as the kidneys, on a monitor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To determine whether your child&apos;s heart is affected, diagnostic testing will likely include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses sound waves to produce images of the heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This test records the electrical activity of the heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your child&apos;s eyes and skin will be thoroughly examined for lesions commonly associated with tuberous sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If a child is diagnosed with tuberous sclerosis without a family history of the condition, both parents may consider screening for tuberous sclerosis as well. Follow-up care and monitoring is important, even for mild cases of tuberous sclerosis that were previously undiagnosed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for tuberous sclerosis, but treatment can help manage specific signs and symptoms. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Anti-epileptic drugs may be prescribed to control seizures, and other medications may be prescribed to help manage behavior problems. A medication called everolimus (Afinitor, Zortress) is used to treat certain types of brain growths that can&apos;t be surgically removed in people with tuberous sclerosis. Another medication that may prove helpful for brain growths and other problems caused by tuberous sclerosis is an immune-suppressing drug called sirolimus (Rapamune). The topical form of this drug may help treat the acne-like skin lesions that can occur in tuberous sclerosis. However, sirolimus is still in clinical trials and considered experimental as a treatment for tuberous sclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Educational therapy.&lt;/strong&gt; Early intervention can help children overcome developmental delays and meet their full potential in the classroom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy.&lt;/strong&gt; Through occupational therapy, a person who has tuberous sclerosis can improve his or her ability to handle daily tasks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological therapy.&lt;/strong&gt; Talking with a mental health therapist may help you or your child accept and adjust to living with this disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If a lesion affects the ability of a specific organ &amp;mdash; such as the kidney &amp;mdash; to function, the lesion may be surgically removed. Sometimes surgery can help control seizures caused by brain lesions that don&apos;t respond to medication. Surgical procedures such as dermabrasion or laser treatment may improve the appearance of skin lesions. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tuberous sclerosis is a lifelong condition that requires careful monitoring and follow-up. With appropriate treatment, however, many people who have tuberous sclerosis lead full, productive lives and enjoy a normal life expectancy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has been diagnosed with tuberous sclerosis, you and your family will face a number of challenges and uncertainties. One of the most difficult things about this condition is that it&apos;s impossible to predict how your child&apos;s health and development will unfold over time. Your child may have only mild problems and track closely with his or her peers in terms of academic, social and physical abilities. Or your child may have more-serious health and developmental problems and lead a life that&apos;s less independent or mainstream than you may have expected. 
+&lt;/p&gt;
+&lt;p&gt;
+For parents, the behavior issues that can accompany tuberous sclerosis may be the most challenging. Common problems such as raging outbursts, aggression, repetitive behaviors, or social and emotional withdrawal can be extremely hard to cope with. Remember that the behavior is not your fault &amp;mdash; and it&apos;s not your child&apos;s fault, either. Let your child&apos;s doctor know if these problems develop. The earlier you and your child get help learning skills to manage these problems, the more likely your child is to do well in the long term. 
+&lt;/p&gt;
+&lt;p&gt;
+Your love and support are essential to helping your child reach his or her full potential. Learn all you can about tuberous sclerosis, and work closely with your child&apos;s doctor to establish a frequent screening schedule for health and developmental problems. Discovering and treating problems early will maximize your child&apos;s chances of a good outcome. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also find it helpful to connect with other families who are coping with tuberous sclerosis. Ask your child&apos;s health care team to recommend a support group in your area, or contact the Tuberous Sclerosis Association to find out about support. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tuberous sclerosis
+	</Title>
+	<Abstract>
+		Tuberous sclerosis &amp;mdash; Comprehensive overview covers symptoms, treatment of this rare tumor-causing genetic disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00296" LinkType="Internal" ObjectID="9602CBD0-E7FF-0DBD-17FC8BE1A811B9FC" Title="EEG (electroencephalogram)" Url="http://www.mayoclinic.com/health/eeg/MY00296" />
+	</RelatedLinksBox>
+</Disease>

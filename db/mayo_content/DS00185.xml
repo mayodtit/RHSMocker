@@ -1,0 +1,313 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00185
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hip-fracture/DS00185
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-22
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="2351" Title="Hip fracture" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			419A8D9F-47F1-465B-827E9C0EAAE02467
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hip fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				broken hip
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoporosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density
+			</MetaKeyword>
+			<MetaKeyword>
+				bone loss
+			</MetaKeyword>
+			<MetaKeyword>
+				femoral neck
+			</MetaKeyword>
+			<MetaKeyword>
+				intertrochanteric region
+			</MetaKeyword>
+			<MetaKeyword>
+				femur
+			</MetaKeyword>
+			<MetaKeyword>
+				hip replacement
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hip fracture is a serious injury, particularly if you&apos;re older, and complications can be life-threatening. Most hip fractures occur in people older than 65, with the risk increasing most rapidly after age 80. 
+&lt;/p&gt;
+&lt;p&gt;
+Older people are at higher risk of hip fracture because bones tend to weaken with age. This bone weakening is called osteoporosis. Multiple medications, poor vision and balance problems also make older people more likely to trip and fall &amp;mdash; one of the most common causes of hip fracture. 
+&lt;/p&gt;
+&lt;p&gt;
+A hip fracture almost always requires surgical repair or replacement, followed by months of physical therapy. Taking steps to maintain bone density and prevent falls can help prevent hip fracture. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a hip fracture may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inability to move immediately after a fall&lt;/li&gt;
+	&lt;li&gt;Severe pain in your hip or groin&lt;/li&gt;
+	&lt;li&gt;Inability to put weight on your leg on the side of your injured hip&lt;/li&gt;
+	&lt;li&gt;Stiffness, bruising and swelling in and around your hip area&lt;/li&gt;
+	&lt;li&gt;Shorter leg on the side of your injured hip&lt;/li&gt;
+	&lt;li&gt;Turning outward of your leg on the side of your injured hip&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A severe impact &amp;mdash; in a car crash, for example &amp;mdash; can cause hip fractures in people of all ages. In older adults, a hip fracture is most often a result of a fall from a standing height. In people with very weak bones, a hip fracture can occur simply by standing on the leg and twisting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A combination of factors may increase your risk of a hip fracture, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The rate of hip fractures increases substantially with age. As you age, your bone density and muscle mass both decrease. Older age may also bring vision and balance problems, along with slower reaction time to avoid falling when you feel unsteady. If you&apos;re inactive, your muscles tend to weaken even more as you age. All of these factors combined can increase your risk of a hip fracture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex. &lt;/strong&gt;Women lose bone density at a faster rate than men do. The drop in estrogen levels that occurs with menopause accelerates bone loss, increasing the risk of hip fractures. However, men also can develop dangerously low levels of bone density. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic medical conditions.&lt;/strong&gt; Osteoporosis is the most powerful risk factor for hip fracture, but other medical conditions may lead to fragile bones. These include endocrine disorders, such as an overactive thyroid, and intestinal disorders, which may reduce your absorption of vitamin D and calcium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Cortisone medications, such as prednisone, can weaken bone if you take them long term. In some cases, certain drugs or the combination of medications can make you dizzy and more prone to falling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nutritional problems. &lt;/strong&gt;Lack of calcium and vitamin D in your diet when you&apos;re young lowers your peak bone mass and increases your risk of fracture later in life. Serious eating disorders, such as anorexia nervosa and bulimia, can damage your skeleton by depriving your body of essential nutrients needed for bone building.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical inactivity.&lt;/strong&gt; Weight-bearing exercises, such as walking, help strengthen bones and muscles, making falls and fractures less likely. If you don&apos;t regularly participate in weight-bearing exercise, you may have lower bone density and weaker bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco and alcohol use.&lt;/strong&gt; Smoking and drinking alcohol can interfere with the normal processes of bone building and remodeling, resulting in bone loss.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hip fracture is a serious injury that can reduce your future independence and sometimes even shorten your life. Many adults who lived independently prior to their hip fracture are still in a nursing home more than a year after their injury. 
+&lt;/p&gt;
+&lt;p&gt;
+If a hip fracture keeps you immobile for a long time, you may develop one or more of the following complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots in your legs or lungs&lt;/li&gt;
+	&lt;li&gt;Bedsores&lt;/li&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, people who&apos;ve had one hip fracture have a significantly increased risk of having another one. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call for an ambulance if you&apos;ve fallen or otherwise injured your hip. Wait for paramedics to move you safely. If possible, have a family member or friend come with you to the hospital. He or she can help you answer questions and consider treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect&lt;br /&gt;
+&lt;/strong&gt;Rescue and hospital staff are likely to ask these and similar questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you recently fallen or had another injury to your hip?&lt;/li&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe is your pain?&lt;/li&gt;
+	&lt;li&gt;Can you put weight on your leg on the side of your injured hip?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you had a bone density test?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Have you had surgery in the past? Were there any problems?&lt;/li&gt;
+	&lt;li&gt;Do any of your first-degree relatives &amp;mdash; such as a parent or sibling &amp;mdash; have a history of bone fractures or osteoporosis?&lt;/li&gt;
+	&lt;li&gt;Are you currently living independently?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often your doctor can determine that you have a hip fracture based on your symptoms and by observing the abnormal position of your hip and leg. An X-ray usually will confirm that you have a fracture and show exactly where the fracture is on your bone.
+&lt;/p&gt;
+&lt;p&gt;
+If your X-ray doesn&apos;t show a fracture but you still have hip pain, your doctor may order a CT or an MRI scan to look for a small hairline fracture.
+&lt;/p&gt;
+&lt;p&gt;
+Most hip fractures occur in one of two locations along your femur, the long bone that extends from your pelvis to your knee:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The femoral neck. The femoral neck is located in the upper portion of your femur, just below its head, which is the ball part of the ball-and-socket joint.&lt;/li&gt;
+	&lt;li&gt;The intertrochanteric region. This region is a little farther down from the actual hip joint, in the portion of your upper femur that juts outward.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the two most common types of hip fractures
+" Caption="Most hip fractures occur in one of two locations &amp;mdash; at the femoral neck or in the intertrochanteric region. The location of the fracture helps determine the best treatment options. 
+" Height="60" Title="Hip fractures" URI="/images/image_popup/thumbs/mcdc7_hip_fracturethu.jpg" Width="60" />
+				<Image Alt="Illustration showing the two most common types of hip fractures
+" Caption="Most hip fractures occur in one of two locations &amp;mdash; at the femoral neck or in the intertrochanteric region. The location of the fracture helps determine the best treatment options. 
+" Height="305" Title="Hip fractures" URI="/images/image_popup/mcdc7_hip_fracture.jpg" Width="400" />
+				<HTML>
+					Most hip fractures occur in one of two locations &amp;mdash; at the femoral neck or in the intertrochanteric region. The location of the fracture helps determine the best treatment options. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for hip fracture often involves a combination of surgery, rehabilitation and medication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;The type of surgery you have generally depends on the location of the fracture in the bone, the severity of the fracture and your age. Surgical options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Repair with hardware.&lt;/strong&gt; Surgeons may insert metal screws into the bone to hold it together while the fracture heals. In some cases, screws are attached to a metal plate that runs down alongside the femur. Another option is to insert a rod, known as a nail, into the marrow part of the thigh bone. A screw then passes through the upper part of the rod, through the femoral neck and into the ball portion of the hip joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replace part of the femur.&lt;/strong&gt; If the ends of the broken bone aren&apos;t properly aligned or they&apos;ve been damaged, your doctor may remove the head and neck of the femur and install a metal replacement (prosthesis). This procedure is called a partial hip replacement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replace the entire hip joint.&lt;/strong&gt; A total hip replacement involves replacing your upper femur and the socket in your pelvic bone with artificial parts called prostheses. Total hip replacement may be a good option if arthritis or a prior injury has damaged your joint, affecting its function even before the fracture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the blood supply to the ball part of your hip joint is damaged during a hip fracture, the bone is less likely to heal properly. This occurs most often in older people who have femoral neck fractures, so doctors may recommend partial or total hip replacement for these types of injuries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rehabilitation&lt;br /&gt;
+&lt;/strong&gt;Your care team will probably get you out of bed and moving on the first day after surgery. Physical therapy will initially focus on range of motion and strengthening exercises. Depending on the type of surgery you had and whether you have assistance at home, you may need to go from the hospital to an extended care facility. 
+&lt;/p&gt;
+&lt;p&gt;
+In extended care and at home, you may work with an occupational therapist to learn techniques for independence in daily life, such as using the toilet, bathing, dressing and cooking. Your occupational therapist will determine if a walker or wheelchair may help you regain mobility and independence. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;br /&gt;
+&lt;/strong&gt;Bone density-enhancing medications called bisphosphonates may help reduce the risk of a second hip fracture. Most of these drugs are taken orally and are associated with side effects that may be difficult to tolerate, including nausea, abdominal pain and inflammation of the esophagus. If this is a problem, you may want to take a type of bisphosphonate delivered via intravenous (IV) tubing. 
+&lt;/p&gt;
+&lt;p&gt;
+Long-term bisphosphonate therapy has been linked to a rare problem in which the upper thighbone cracks, but doesn&apos;t usually break completely. Bisphosphonates also have the potential to affect the jawbone. Osteonecrosis of the jaw is a rare condition occurring after a tooth extraction in which a section of jawbone dies and deteriorates. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a variety of hip repair techniques 
+" Caption="A hip fracture can be repaired with the help of metal screws, plates and rods. In some cases, artificial replacements (prostheses) of parts of the hip joint may be necessary. 
+" Height="60" Title="Hip fractures" URI="/images/image_popup/thumbs/mcdc7_hip_repairthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a variety of hip repair techniques 
+" Caption="A hip fracture can be repaired with the help of metal screws, plates and rods. In some cases, artificial replacements (prostheses) of parts of the hip joint may be necessary. 
+" Height="435" Title="Hip fractures" URI="/images/image_popup/mcdc7_hip_repair.jpg" Width="400" />
+				<HTML>
+					A hip fracture can be repaired with the help of metal screws, plates and rods. In some cases, artificial replacements (prostheses) of parts of the hip joint may be necessary. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Healthy lifestyle choices in early adulthood build a higher peak bone mass and reduce your risk of osteoporosis in later years. The same measures may lower your risk of falls and improve your overall health if you adopt them at any age. Tips include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough calcium and vitamin D.&lt;/strong&gt; As a general rule, experts recommend that men and women age 50 and older consume 1,200 milligrams of calcium a day, and 400 to 600 international units (IU) of vitamin D a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise to strengthen bones and improve balance.&lt;/strong&gt; Weight-bearing exercises, such as walking, encourage your body to increase bone density. Exercise also increases your overall strength, making you less likely to fall. Try to exercise for 30 minutes a day on most days of the week. Balance training is also key to reducing your risk of falls, since balance tends to deteriorate with age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink excessively or smoke.&lt;/strong&gt; Preserve your bone density by avoiding the excessive use of alcohol and by not smoking. Drinking too much alcohol also can impair your balance and make you more likely to fall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Assess your home for fall hazards. &lt;/strong&gt;Remove throw rugs, keep electrical cords against the wall, and clear excess furniture and anything else that could trip you. Make sure every room and passageway is well lit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check you eyes.&lt;/strong&gt; Go to your eye doctor for an exam every other year, or more often if you have diabetes or an eye disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch your medications.&lt;/strong&gt; Feeling weak and dizzy, which are possible side effects of many medications, can increase your risk of falling. Talk to your doctor about side effects caused by your medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hip fracture
+	</Title>
+	<Abstract>
+		Hip fracture &amp;mdash; Comprehensive overview covers symptoms, complications, treatment, prevention of a broken hip.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02182" LinkType="Internal" ObjectID="CC7E53F6-98D8-CA08-60C91AF082F28449" Title="Vitamin D deficiency" Url="http://www.mayoclinic.com/health/vitamin-d-deficiency/AN02182" />
+		<LinkItem ContentType="FirstAid" DocID="FA00058" LinkType="Internal" ObjectID="5B479591-E2C6-4544-A910E7A9CC2B2765" Title="Fractures (broken bones): First aid" Url="http://www.mayoclinic.com/health/first-aid-fractures/FA00058" />
+		<LinkItem ContentType="Article" DocID="MY01540" LinkType="Internal" ObjectID="ABBC3E86-96D9-BBB8-5F6BC9998E0AF0F6" Title="Calcium and calcium supplements: Achieving the right balance" Url="http://www.mayoclinic.com/health/calcium-supplements/MY01540" />
+		<LinkItem ContentType="Article" DocID="MY01710" LinkType="Internal" ObjectID="9C1A59DE-FE10-7036-DA60A2D4C43C5905" Title="Home safety tips: Preparing for Alzheimer&apos;s caregiving" Url="http://www.mayoclinic.com/health/home-safety-tips/MY01710" />
+		<LinkItem ContentType="Disease" DocID="DS00570" LinkType="Internal" ObjectID="2F39B719-D2A6-4146-9E498948F7F9CB61" Title="Bedsores (pressure sores)" Url="http://www.mayoclinic.com/health/bedsores/DS00570" />
+	</RelatedLinksBox>
+</Disease>

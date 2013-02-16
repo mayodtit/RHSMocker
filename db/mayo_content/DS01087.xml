@@ -1,0 +1,299 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01087
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thrombocythemia/DS01087
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-22
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="2261" Title="Thrombocythemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A7BC57D-E7FF-0DBD-14C878BFF61E649A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thrombocythemia
+			</MetaKeyword>
+			<MetaKeyword>
+				essential thrombocythemia
+			</MetaKeyword>
+			<MetaKeyword>
+				primary thrombocythemia
+			</MetaKeyword>
+			<MetaKeyword>
+				et
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Essential thrombocythemia is an uncommon disorder in which your body produces too many blood platelets (thrombocytes). It&apos;s also known as primary thrombocythemia (throm-boe-sigh-THEE-me-uh). 
+&lt;/p&gt;
+&lt;p&gt;
+The most common symptoms of essential thrombocythemia include headache, lightheadedness, vision changes, and tingling, numbness or burning pain in the hands and feet. Essential thrombocythemia most often occurs in people over age 50 and is more common in women. 
+&lt;/p&gt;
+&lt;p&gt;
+You may not need treatment for essential thrombocythemia if you don&apos;t have symptoms. If you have abnormal blood clotting or bleeding, however, medications can help you avoid potentially serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with essential thrombocythemia have no signs or symptoms. The first indication you have the disorder may be the development of a blood clot (thrombus). Although clots can develop anywhere in your body, with essential thrombocythemia, they occur most often in your brain, hands and feet. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms depend on where the clot forms. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Temporary vision changes&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling of the hands and feet&lt;/li&gt;
+	&lt;li&gt;Redness, throbbing and burning pain in the hands and feet (erythromelalgia)&lt;/li&gt;
+	&lt;li&gt;Mildly enlarged spleen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less commonly, essential thrombocythemia may cause bleeding, especially if your platelet count is extremely high (more than 1 million platelets per microliter of blood). Bleeding may take the form of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nosebleeds&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Bleeding from your mouth or gums&lt;/li&gt;
+	&lt;li&gt;Bloody stool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A blood clot may cause a transient ischemic attack (TIA) &amp;mdash; a temporary interruption of blood flow to part of the brain &amp;mdash; or stroke. Signs and symptoms develop suddenly and include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weakness or numbness of your face, arm or leg, usually on one side of your body&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking or understanding speech (aphasia)&lt;/li&gt;
+	&lt;li&gt;Blurred, double or decreased vision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have any signs or symptoms of abnormal blood clotting or bleeding, see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If you develop signs or symptoms of a TIA or stroke, such as numbness or paralysis on one side of your body, seek medical attention immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone marrow &amp;mdash; spongy tissue inside your bones &amp;mdash; contains stem cells that can become red blood cells, white blood cells or platelets. Platelets travel through your blood vessels. They stick together to form clots that stop the bleeding when you damage a blood vessel, such as when you get a cut. A normal platelet count ranges from 150,000 to 450,000 platelets per microliter of blood. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have essential thrombocythemia, your bone marrow makes too many platelet-forming cells (megakaryocytes), which release too many platelets into your blood. The excess platelets may not function normally, leading to abnormal clotting or bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause of essential thrombocythemia and similar conditions, known as myeloproliferative neoplasms, isn&apos;t known. About half the people with the disorder have a mutation of the Janus kinase 2 (JAK2) gene. Other gene mutations also have been linked to essential thrombocythemia. 
+&lt;/p&gt;
+&lt;p&gt;
+A high platelet count that&apos;s caused by an underlying condition such as an infection or iron deficiency is called reactive or secondary thrombocytosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The abnormal blood clotting of essential thrombocythemia can lead to a variety of potentially serious complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; While many women who have thrombocythemia have normal, healthy pregnancies, be sure to have your doctor regularly monitor your condition. Uncontrolled thrombocythemia can cause miscarriage, premature delivery, high blood pressure (preeclampsia), early separation of the placenta from the uterine wall (placental abruption) and slow fetal growth. Your risk of complications may be reduced with regular checkups and medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; A clot that blocks blood flow to your brain can cause a stroke. If you develop signs and symptoms of a stroke, get immediate medical attention. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; A clot that obstructs blood flow to your heart can cause a heart attack. If you develop signs and symptoms of a heart attack, such as pressure, fullness or a squeezing pain in the center of your chest lasting more than a few minutes; pain extending to your shoulder, arm, back, teeth or jaw; shortness of breath; and sweating or clammy skin, get immediate medical attention. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Essential thrombocythemia can also cause bleeding (hemorrhage) with significant blood loss. A small minority of people with essential thrombocythemia may later develop acute leukemia or myelofibrosis, both of which can be life-threatening: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute leukemia.&lt;/strong&gt; Acute myelogenous leukemia is a type of blood and bone marrow cancer that progresses rapidly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelofibrosis&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; This progressive bone marrow disorder results in bone marrow scarring, severe anemia, and enlargement of your liver and spleen.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find out you have essential thrombocythemia after a routine blood test shows a high number of platelets. Or you may see your doctor because of symptoms related to blood clotting or bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Besides taking your medical history, examining you physically and running tests, your doctor may ask you about factors that could affect your platelets, such as recent medical procedures, blood transfusions or infections. Your doctor may refer you to a doctor who specializes in blood diseases (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your health history,&lt;/strong&gt; including your history of blood clots or bleeding incidents. Also include any family history of high platelet counts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking. Some medications, such as oral contraceptives, can increase the risk of blood clots in women with essential thrombocythemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to take in all the information you hear during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For essential thrombocythemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that arise during your appointment if you don&apos;t understand something or need more information. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood tests that can help confirm a diagnosis of essential thrombocythemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Complete blood count (CBC).&lt;/strong&gt; This test determines the number of platelets in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood smear.&lt;/strong&gt; A small amount of your blood is examined under a microscope to view the condition of your platelets, such as whether they&apos;re abnormally large or clumped together.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; Special tests can determine whether you have chromosomal abnormalities that can cause a high platelet count and whether you have a JAK2 gene mutation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other blood tests.&lt;/strong&gt; Your doctor may check the level of iron in your blood or test for markers of inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your blood count is above 450,000 platelets per microliter of blood, your doctor will look for an underlying condition. If there&apos;s no evident cause of your high platelet count, and it remains high over time, your doctor may suggest a bone marrow test. The two types of bone marrow tests provide different but complementary information about your blood cells. Often they&apos;re done together. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow aspiration.&lt;/strong&gt; Your doctor extracts a small amount of your liquid bone marrow through a needle and examines it under a microscope, looking for abnormal cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow biopsy.&lt;/strong&gt; Your doctor takes a sample of solid bone marrow tissue through a needle for examination under a microscope. If you have essential thrombocythemia, your bone marrow has a higher than normal number of the large cells that make platelets (megakaryocytes). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of essential thrombocythemia depends on your risk of blood-clotting or bleeding episodes. If you&apos;re younger than 60, have had no signs or symptoms, and have no other risk factors for developing blood clots, such as smoking, you may simply need periodic medical checkups. If you&apos;re older than 60 and have had previous signs and symptoms of blood clots, your doctor likely will prescribe medication or a medical procedure to lower your platelet count. Your doctor may also recommend treatment if you have cardiovascular risk factors, such as high cholesterol, high blood pressure or diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re at risk of blood clots, your doctor may recommend low-dose aspirin, particularly if you&apos;re pregnant. Aspirin makes the platelets less sticky and your blood less likely to form clots. If you take aspirin during pregnancy, stop taking it at least one week before delivery to lower your risk of bleeding complications during delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+Drugs that reduce the platelet count and are commonly used to treat essential thrombocythemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hydroxyurea (Droxia, Hydrea).&lt;/strong&gt; This drug suppresses bone marrow production of blood cells, including platelets. Also used to treat cancers, it&apos;s the most commonly prescribed platelet-lowering drug for essential thrombocythemia. It&apos;s often used in combination with low-dose aspirin. If you take hydroxyurea, your doctor will monitor your blood counts closely. There&apos;s some concern that long-term use may increase the risk of developing acute myelogenous leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anagrelide (Agrylin).&lt;/strong&gt; Unlike hydroxyurea, anagrelide isn&apos;t associated with an increased risk of leukemia. But it&apos;s not considered as effective as hydroxyurea. Side effects may include fluid retention, heart problems, headaches, dizziness, nausea and diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Interferon alfa-2B (Intron A).&lt;/strong&gt; Given by injection, this drug is less convenient to administer than hydroxyurea or anagrelide, may be more expensive and may cause less tolerable side effects. Side effects may include flu-like symptoms, confusion, nausea, depression, diarrhea, seizures, irritability and sleepiness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency plateletpheresis&lt;/strong&gt; &lt;br /&gt;
+Used only in emergencies, such as after a stroke or other dangerous blood clotting, a medical procedure known as plateletpheresis can be used to rapidly lower platelet count. During the procedure, an intravenous (IV) needle connected to a tube is inserted into one of your blood vessels. Your blood flows through the tube and into a device that removes platelets from your blood. The remaining portion of your blood (plasma) and your red cells are then returned to you through an IV line. The effect is temporary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take extra care to reduce your risk of developing blood clots if you have essential thrombocythemia. Healthy lifestyle habits can lower your risk of developing conditions that may contribute to blood clotting. These conditions include diabetes, high blood pressure and high blood cholesterol. Take steps to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Choose a varied diet rich in whole grains, vegetables and fruits and low in saturated fats. Try to avoid trans fats. Learn about portion control to maintain a normal weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase your physical activity.&lt;/strong&gt; Aim for at least 30 minutes of moderate physical activity a day. Take a brisk daily walk. Ride your bike. Swim laps. If you can&apos;t fit in a long workout, break it up into smaller sessions spread throughout the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Achieve or maintain normal weight.&lt;/strong&gt; Being overweight or obese increases the pressure in the veins in your pelvis and legs and is a risk factor for conditions such as high blood pressure, which increases your risk of blood clotting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking affects blood clotting and circulation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your essential thrombocythemia increases your tendency to bleed, take extra precautions to keep from injuring yourself. Follow these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid playing contact sports&lt;/strong&gt; or doing other activities that could be dangerous or could cause you to fall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a softer toothbrush&lt;/strong&gt; and waxed floss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid shaving cuts.&lt;/strong&gt; Shave with an electric razor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious with household tasks&lt;/strong&gt; involving knives, scissors and other sharp tools.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Essential thrombocythemia
+	</Title>
+	<Abstract>
+		Essential thrombocythemia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this blood clotting disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01088" LinkType="Internal" ObjectID="3A7E981C-E7FF-0DBD-1B2F4F3E852E09A2" Title="Thrombocytosis" Url="http://www.mayoclinic.com/health/thrombocytosis/DS01088" />
+	</RelatedLinksBox>
+</Disease>

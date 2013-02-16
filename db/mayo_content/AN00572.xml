@@ -1,0 +1,98 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00572
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polymyositis/AN00572
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-07
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="3112" Title="Polymyositis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2C7914A0-B0BC-494F-99E635E574CA1CCE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polymyositis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Polymyositis (pol-e-mi-o-SI-tis) is a rare muscle disease that usually affects adults. A few studies that looked at small numbers of people with polymyositis over a number of years found that a gluten-free diet was linked to symptom reduction.
+&lt;/p&gt;
+&lt;p&gt;
+Without stronger evidence, though, having polymyositis doesn&apos;t mean you need to eliminate gluten from your diet &amp;mdash; unless you also have celiac disease, which may be more common in people with polymyositis than in the general population. 
+&lt;/p&gt;
+&lt;p&gt;
+In celiac disease, an abnormal immune system reaction keeps your small intestine from absorbing gluten, which is a protein in wheat, rye and barley. Eating these grains invariably causes digestive distress, as does eating processed foods containing gluten. A gluten-free diet is the basic requirement for living with celiac disease.
+&lt;/p&gt;
+&lt;p&gt;
+If you have polymyositis and you develop persistent iron deficiency anemia with weight loss and frequent bouts of diarrhea, your doctor may recommend testing for celiac disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polymyositis: Can a gluten-free diet reduce symptoms?
+	</Title>
+	<Abstract>
+		Polymyositis is associated with celiac disease, but the treatments differ.
+	</Abstract>
+	<Question>
+		Can a gluten-free diet help reduce signs and symptoms of polymyositis?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00334" LinkType="Internal" ObjectID="99113EB3-F398-4CFD-A285ECEC082DDD9E" Title="Polymyositis" Url="http://www.mayoclinic.com/health/polymyositis/DS00334" />
+	</RelatedLinksBox>
+</Answer>

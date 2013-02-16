@@ -1,0 +1,275 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00305
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sweating-and-body-odor/DS00305
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-09
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2168" Title="Sweating and body odor" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			43CB5F79-2B33-4F96-B7D06EC696826071
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				body odor
+			</MetaKeyword>
+			<MetaKeyword>
+				sweating
+			</MetaKeyword>
+			<MetaKeyword>
+				sweating and body odor
+			</MetaKeyword>
+			<MetaKeyword>
+				sweat glands
+			</MetaKeyword>
+			<MetaKeyword>
+				body odor causes
+			</MetaKeyword>
+			<MetaKeyword>
+				body odor control
+			</MetaKeyword>
+			<MetaKeyword>
+				body odor cure
+			</MetaKeyword>
+			<MetaKeyword>
+				excessive sweating
+			</MetaKeyword>
+			<MetaKeyword>
+				perspiration
+			</MetaKeyword>
+			<MetaKeyword>
+				problem perspiration
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperhidrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperhydrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				foot odor
+			</MetaKeyword>
+			<MetaKeyword>
+				smelly feet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sweating and body odor can occur when you exercise or exert yourself, you&apos;re in a hot environment, or are nervous, anxious or under stress. This type of sweating and body odor is natural and healthy.
+&lt;/p&gt;
+&lt;p&gt;
+Sweating is usually only a minor nuisance. The odor probably is more troublesome. Although perspiration is practically odorless, perspiration can sometimes cause an unpleasant smell when it comes into contact with bacteria on your skin.
+&lt;/p&gt;
+&lt;p&gt;
+Unusual changes in sweating &amp;mdash; either excessive perspiration (hyperhidrosis) or little or no perspiration (anhidrosis) &amp;mdash; can be cause for concern. Likewise, changes in body odor may be a sign of a medical problem.
+&lt;/p&gt;
+&lt;p&gt;
+For normal sweating and body odor, however, lifestyle and home treatments can effectively manage your symptoms. In some cases, a prescription antiperspirant or deodorant may be needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Healthy people sweat, but when, where and how much varies. Factors that cause most people to sweat include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exercise, especially strenuous exercise&lt;/li&gt;
+	&lt;li&gt;Hot weather&lt;/li&gt;
+	&lt;li&gt;Nervousness, anxiety or stress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Perspiration that&apos;s triggered by emotion is most likely to occur on your face, in your armpits, on your palms and on the soles of your feet. But how much you sweat and even the way your sweat smells can be influenced by your mood, your diet, some drugs and medical conditions, and even your hormone levels. What&apos;s more &amp;mdash; unfair as it seems &amp;mdash; some people inherit a tendency to sweat heavily, especially on their soles and palms.
+&lt;/p&gt;
+&lt;p&gt;
+Because it&apos;s almost impossible to define normal sweating and body odor, try to learn what&apos;s normal for you. That will help you pinpoint any unusual changes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you experience any of the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You suddenly begin to sweat much more or less than usual.&lt;/li&gt;
+	&lt;li&gt;Sweating disrupts your daily routine.&lt;/li&gt;
+	&lt;li&gt;You experience night sweats for no apparent reason.&lt;/li&gt;
+	&lt;li&gt;You notice a change in body odor &amp;mdash; a change in body odor may be a sign of certain medical conditions, such as diabetic ketoacidosis or kidney failure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of sweating and body odor stems from your body&apos;s temperature regulation system, specifically your sweat glands. Sweating helps maintain your body temperature, hydrates your skin and balances your body fluids and electrolytes, chemicals in your body such as sodium and calcium. 
+&lt;/p&gt;
+&lt;p&gt;
+Your skin has two types of sweat glands: eccrine glands and apocrine glands. Eccrine glands occur over most of your body and open directly onto the surface of the skin. Apocrine glands develop in areas abundant in hair follicles, such as on your scalp, armpits and groin and open into the hair follicle just before it opens onto the skin surface. 
+&lt;/p&gt;
+&lt;p&gt;
+When your body temperature rises, your autonomic nervous system stimulates the eccrine glands to secrete fluid onto the surface of your skin, where it cools your body as it evaporates. This fluid (perspiration) is composed mainly of water and salt (sodium chloride) and contains trace amounts of other electrolytes &amp;mdash; substances that help regulate the balance of fluids in your body &amp;mdash; as well as substances such as urea. 
+&lt;/p&gt;
+&lt;p&gt;
+Apocrine glands, on the other hand, secrete a fatty sweat directly into the tubule of the gland. When you&apos;re under emotional stress, the wall of the tubule contracts and the sweat is pushed to the surface of your skin where bacteria begin breaking it down. Most often, it&apos;s the bacterial breakdown of apocrine sweat that causes an odor. 
+&lt;/p&gt;
+			</HTML>
+			<Flash Height="510" ObjectID="79875A0F-0BFD-2D1C-B80151D8F2EF6B14" URI="/flash/popup/fs00034_sweatandbo.swf" Width="410">
+				<Title>
+					How sweating and body odor occur
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care doctor. In some cases when you call to set up an appointment, you may be referred to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Preparing a list of questions will help you make the most of your appointment. For sweating and body odor, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you several questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you experience these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or intermittent?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During your appointment, your doctor will ask about your medical history and conduct a physical exam. He or she may order blood or urine tests to determine if the sweating is caused by another medical condition, such as an overactive thyroid (hyperthyroidism) or low blood sugar (hypoglycemia).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re concerned about sweating and body odor, the solution may be simple: an over-the-counter (OTC) antiperspirant and deodorant.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antiperspirant.&lt;/strong&gt; Antiperspirants contain aluminium-based compounds that temporarily block the sweat pore, thereby reducing the amount of perspiration that reaches your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deodorant.&lt;/strong&gt; Deodorants can eliminate odor but not perspiration. They&apos;re usually alcohol-based and turn your skin acidic, making it less attractive to bacteria. Deodorants often contain perfume fragrances intended to mask the odor of perspiration and are used on the hands and feet as well as the underarms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If over-the-counter antiperspirants don&apos;t help control your sweating, your doctor may prescribe aluminum chloride (Drysol, Xerac Ac). For best results, apply the antiperspirant at night to the areas most prone to sweating. Prescription antiperspirants are strong solutions that can cause red, swollen and itchy skin in some people. If irritation develops, wash the medication off in the morning.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can do a number of things on your own to reduce sweating and body odor. The following suggestions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bathe daily.&lt;/strong&gt; Regular bathing, especially with an antibacterial detergent or soap, helps keep the number of bacteria on your skin in check.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry your feet thoroughly after you bathe.&lt;/strong&gt; Microorganisms thrive in the damp spaces between your toes. Use over-the-counter foot powders to help absorb sweat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose shoes and socks made of natural materials.&lt;/strong&gt; Shoes made of natural materials, such as leather, can help prevent sweaty feet by allowing your feet to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rotate your shoes.&lt;/strong&gt; Shoes won&apos;t completely dry overnight, so try not to wear the same pair two days in a row if you have trouble with sweaty feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear the right socks.&lt;/strong&gt; Some cotton blends and wool socks help keep your feet dry because they absorb moisture. When you&apos;re active, moisture-wicking athletic socks are a good choice, as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change your socks often.&lt;/strong&gt; Change socks or hose once or twice a day, drying your feet thoroughly each time. Women may prefer pantyhose with cotton soles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Air your feet.&lt;/strong&gt; Go barefoot when you can, or at least slip out of your shoes now and then. Sandals may be an option for casual wear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose natural-fiber clothing.&lt;/strong&gt; Wear natural fabrics, such as cotton, wool and silk, which allow your skin to breathe. When you exercise, you might prefer high-tech fabrics that wick moisture away from your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply antiperspirants nightly.&lt;/strong&gt; At bedtime, apply antiperspirants to palms or soles of the feet. Try perfume-free antiperspirants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try relaxation techniques.&lt;/strong&gt; Consider relaxation techniques such as yoga, meditation or biofeedback. These can help you learn to control the stress that triggers perspiration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change your diet.&lt;/strong&gt; If foods or beverages cause you to sweat more than usual or your perspiration to smell, consider eliminating caffeinated drinks from your diet as well as foods with strong odors, such as garlic and onions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sweating and body odor
+	</Title>
+	<Abstract>
+		Sweating and body odor &amp;mdash; Comprehensive overview covers causes, treatment and self-care.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01050" LinkType="Internal" ObjectID="D8F4DB1E-E7FF-0DBD-115C46F3A1453403" Title="Anhidrosis" Url="http://www.mayoclinic.com/health/anhidrosis/DS01050" />
+		<LinkItem ContentType="Disease" DocID="DS01082" LinkType="Internal" ObjectID="9A9073F7-E7FF-0DBD-176C06FE1AA89CF7" Title="Hyperhidrosis (excessive sweating)" Url="http://www.mayoclinic.com/health/hyperhidrosis/DS01082" />
+	</RelatedLinksBox>
+</Disease>

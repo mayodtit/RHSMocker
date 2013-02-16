@@ -1,0 +1,222 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00482
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00482
+		</OriginalURL>
+		<UpdateDate>
+			2009-10-31
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B12BE20E-CF8A-487D-B8B69D581C4C3C85
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				caesar salad
+			</MetaKeyword>
+			<MetaKeyword>
+				chicken salad
+			</MetaKeyword>
+			<MetaKeyword>
+				salad recipe
+			</MetaKeyword>
+			<MetaKeyword>
+				ceasar salad
+			</MetaKeyword>
+			<MetaKeyword>
+				tossed salad
+			</MetaKeyword>
+			<MetaKeyword>
+				salad
+			</MetaKeyword>
+			<MetaKeyword>
+				chicken recipe
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Caesar salad with grilled chicken
+	</Title>
+	<Abstract>
+		Caesar salad with grilled chicken &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Romaine lettuce is flavorful and has more vitamin A, vitamin C, folate and calcium than does iceberg lettuce.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;In a sealable plastic bag, add the chicken and Italian dressing. Put in the refrigerator for 30 minutes, turning the chicken over after 15 minutes.&lt;/p&gt;&lt;p&gt;Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.&lt;/p&gt;&lt;p&gt;Grill or broil the chicken breasts until browned and cooked through, about 5 minutes on each side (internal temperature should be 165 F for 15 seconds). Transfer the chicken to a cutting board and let rest 5 minutes before slicing into strips.&lt;/p&gt;&lt;p&gt;To make the Caesar dressing, add mayonnaise, olive oil, red wine vinegar, Worcestershire sauce, lemon juice, garlic and water. Whip together until smooth. Season to taste with freshly ground black pepper.&lt;/p&gt;&lt;p&gt;In a large bowl, combine the lettuce, croutons and the Caesar dressing. Toss thoroughly until the lettuce is coated with the dressing.&amp;nbsp; Transfer the salad to individual plates. Top each salad with the grilled chicken and Parmigiano-Reggiano cheese. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;2 boneless, skinless chicken breasts, each 3 ounces&lt;br /&gt;3 tablespoons fat-free Italian dressing&lt;/p&gt;&lt;p&gt;For the dressing:&lt;br /&gt;1 1/2 tablespoons fat-free mayonnaise&lt;br /&gt;1/4 teaspoon extra-virgin olive oil&lt;br /&gt;1/2 teaspoon red wine vinegar&lt;br /&gt;1/4 teaspoon Worcestershire sauce&lt;br /&gt;1 teaspoon fresh lemon juice&lt;br /&gt;1/2 clove garlic, minced&lt;br /&gt;1 1/2 teaspoons water&lt;br /&gt;Freshly ground black pepper, to taste&lt;/p&gt;&lt;p&gt;4 cups romaine lettuce&lt;br /&gt;1/2 ounce (about 3 tablespoons) Parmigiano-Reggiano cheese, freshly grated&lt;br /&gt;1/2 cup whole-wheat croutons&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1/2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				1
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1/2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1/2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				201
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				13 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				57 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				1.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				25 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				565 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="" height="100" uri="/images/billboardsmall/re1_grilledcaesarsalad.jpg" width="100" />
+</Recipe>

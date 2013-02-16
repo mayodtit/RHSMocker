@@ -1,0 +1,350 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00330
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/intracranial-hematoma/DS00330
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-25
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="3009" Title="Intracranial hematoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2EB0291C-BD7D-43EC-9ED188AACC63AD44
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				head injury
+			</MetaKeyword>
+			<MetaKeyword>
+				intracranial hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				subdural hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				subdural hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				epidural hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				extradural hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				extradural hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				intraparenchymal hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				intracerebral hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				intracerebral hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				acute hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				intraparenchymal hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				traumatic brain injury
+			</MetaKeyword>
+			<MetaKeyword>
+				craniotomy
+			</MetaKeyword>
+			<MetaKeyword>
+				hemotoma
+			</MetaKeyword>
+			<MetaKeyword>
+				subacute hematoma
+			</MetaKeyword>
+			<MetaKeyword>
+				epidural hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				intracranial hemorrhage
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An intracranial hematoma occurs when a blood vessel ruptures within your brain or between your skull and your brain. The collection of blood (hematoma) compresses your brain tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+An intracranial hematoma may occur because the fluid that surrounds your brain can&apos;t absorb the force of a sudden blow or a quick stop. Then your brain may slide forcefully against the inner wall of your skull and become bruised. 
+&lt;/p&gt;
+&lt;p&gt;
+Although some head injuries &amp;mdash; such as one that causes only a brief lapse of consciousness (concussion) &amp;mdash; can be minor, an intracranial hematoma is potentially life-threatening and often requires immediate treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+An intracranial hematoma often requires surgery to remove the blood. However, a smaller intracranial hematoma may not require surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of an intracranial hematoma may be evident immediately after a blow to your head, or they may take several weeks or longer to appear. You may seem fine after a head injury, a period called the lucid interval. However, with time, pressure on your brain increases, producing some or all of the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increasing headache&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Drowsiness and progressive loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Unequal pupil size&lt;/li&gt;
+	&lt;li&gt;Weak limbs on one side of your body&lt;/li&gt;
+	&lt;li&gt;Increased blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As more and more blood fills your brain or the narrow space between your brain and skull, other signs and symptoms may become apparent, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lethargy&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Unconsciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;An intracranial hematoma can be life-threatening. Emergency medical treatment often is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek immediate medical attention&lt;/strong&gt; after any significant blow to the head in which: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You lose consciousness&lt;/li&gt;
+	&lt;li&gt;You experience any of the signs and symptoms that may indicate an intracranial hematoma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although symptoms of intracranial hematoma may not be immediately apparent, watch closely for subsequent physical, mental and emotional changes. For example, if someone seemed fine after a blow to the head and could talk, but then lapsed into unconsciousness, seek immediate medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, even if you feel fine, tell someone you&apos;ve experienced head trauma and ask him or her to keep an eye on you. Memory loss often is associated with head trauma, so you may forget that you had a blow to the head. An alerted friend, family member or work colleague may be more likely to recognize the warning signs and arrange for prompt medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of intracranial bleeding (hemorrhage) is an injury to the head, often as a result of an automobile or motorcycle accident or even a seemingly trivial event, such as bumping your head. Mild head trauma is more likely to cause a hematoma if you&apos;re an older adult, especially if you&apos;re taking an anticoagulant or anti-platelet drugs, such as aspirin. A serious injury may have occurred even if there&apos;s no open wound, bruise or other outward sign of damage. 
+&lt;/p&gt;
+&lt;p&gt;
+If a hematoma results from the injury to your head, it may occur as a subdural hematoma, an epidural hematoma or an intraparenchymal hematoma.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Subdural hematoma&lt;/strong&gt;&lt;br /&gt;
+This occurs when blood vessels &amp;mdash; usually veins &amp;mdash; rupture between your brain and the outermost of three membrane layers that cover your brain (dura mater). The leaking blood forms a hematoma that compresses the brain tissue. If the hematoma keeps enlarging, a progressive decline in consciousness occurs, possibly even resulting in death.
+&lt;/p&gt;
+&lt;p&gt;
+The three types of subdural hematomas include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute.&lt;/strong&gt; This type is the most dangerous. It&apos;s generally caused by a severe head injury, and signs and symptoms usually appear immediately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Subacute.&lt;/strong&gt; In subacute subdural hematoma, signs and symptoms take longer to appear, sometimes days or weeks after your injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic.&lt;/strong&gt; Less severe head injuries may cause a chronic subdural hematoma. Bleeding from a chronic subdural hematoma may be much slower, and symptoms can take weeks to appear. You may not even recall injuring your head.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All three types require medical attention as soon as signs and symptoms are apparent, or permanent brain damage may result. 
+&lt;/p&gt;
+&lt;p&gt;
+The risk of subdural hematoma is greater for people who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take aspirin or anticoagulants daily&lt;/li&gt;
+	&lt;li&gt;Abuse alcohol&lt;/li&gt;
+	&lt;li&gt;Are elderly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Epidural hematoma&lt;br /&gt;
+&lt;/strong&gt;Also called an extradural hematoma, this type occurs when a blood vessel &amp;mdash; usually an artery &amp;mdash; ruptures between the outer surface of the dura mater and the skull. Blood then leaks between the dura mater and the skull to form a mass that compresses the brain tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with this type of injury may remain conscious, but most become drowsy or comatose from the moment of trauma. An epidural hematoma that affects an artery in your brain can be deadly unless you get prompt treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Intraparenchymal hematoma&lt;br /&gt;
+&lt;/strong&gt;This type of hematoma, also known as intracerebral hematoma, occurs when blood pools in the brain. After a head trauma, there may be multiple severe intraparenchymal hematomas. 
+&lt;/p&gt;
+&lt;p&gt;
+The trauma that causes intraparenchymal hematomas often is responsible for so-called white matter shear injuries &amp;mdash; torn axons in the brain&apos;s white matter. Axons are connections that carry electrical impulses, or messages, from the neurons in the brain to the rest of the body. When this connection is sheared, serious brain damage can result because the neurons can no longer communicate. 
+&lt;/p&gt;
+&lt;p&gt;
+Trauma isn&apos;t the only cause of intraparenchymal hematoma. Nontraumatic causes, which are rare, may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood vessel disorders, such as arteriovenous malformation (AVM) or aneurysm&lt;/li&gt;
+	&lt;li&gt;Long-term hypertension&lt;/li&gt;
+	&lt;li&gt;Neurological conditions, such as cerebral amyloid angiopathy&lt;/li&gt;
+	&lt;li&gt;Brain tumors&lt;/li&gt;
+	&lt;li&gt;Use of blood thinners&lt;/li&gt;
+	&lt;li&gt;Certain autoimmune diseases&lt;/li&gt;
+	&lt;li&gt;Bleeding disorders, such as hemophilia, leukemia and sickle cell anemia&lt;/li&gt;
+	&lt;li&gt;Central nervous system infection, such as encephalitis&lt;/li&gt;
+	&lt;li&gt;Drugs, such as cocaine or amphetamines&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intracranial hematoma 
+" Caption="A blow to the head can lead to an intracranial hematoma. If the injury occurs between your brain and the outermost of three membrane layers that cover your brain (dura mater), it&apos;s known as a subdural hematoma. If blood vessels rupture between the outer surface of the dura mater and the skull, it&apos;s known as an epidural hematoma. 
+" Height="60" Title="Intracranial hematoma" URI="/images/image_popup/thumbs/bn7_subduralhematomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing intracranial hematoma 
+" Caption="A blow to the head can lead to an intracranial hematoma. If the injury occurs between your brain and the outermost of three membrane layers that cover your brain (dura mater), it&apos;s known as a subdural hematoma. If blood vessels rupture between the outer surface of the dura mater and the skull, it&apos;s known as an epidural hematoma. 
+" Height="282" Title="Intracranial hematoma" URI="/images/image_popup/bn7_subduralhematoma.jpg" Width="400" />
+				<HTML>
+					A blow to the head can lead to an intracranial hematoma. If the injury occurs between your brain and the outermost of three membrane layers that cover your brain (dura mater), it&apos;s known as a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing an intracranial hematoma can be difficult because individuals may seem fine after an injury. However, doctors generally presume that the progressive loss of consciousness after a head injury is caused by a hemorrhage inside the skull until proved otherwise. 
+&lt;/p&gt;
+&lt;p&gt;
+Imaging techniques are the best ways to define the position and size of a hematoma. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan uses a sophisticated X-ray machine linked to a computer to produce detailed images of your brain. You lie still on a movable table that&apos;s guided into what looks like a large doughnut where the images are taken. CT is the most commonly used imaging scan to diagnose intracranial hematomas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) scan. &lt;/strong&gt;An MRI scan is done using a large magnet and radio waves to make computerized images. During an MRI scan, you lie on a movable table that&apos;s guided into a tube, or tunnel. MRIs generally aren&apos;t used as often as CT scans in the diagnoses of intracranial hematomas because MRIs take longer to perform and aren&apos;t as widely available.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some subdural hematomas don&apos;t need to be removed because they&apos;re small and produce no signs or symptoms. Diuretic medications may help control brain swelling (edema) after a head injury. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Hematoma treatment often requires surgery. The type of surgery depends on the characteristics of your hematoma. Options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical drainage.&lt;/strong&gt; If the blood is localized and isn&apos;t clotting excessively, your doctor may create a burr hole through your skull and use suction to remove the liquid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Craniotomy.&lt;/strong&gt; Large hematomas may require that a section of your skull be opened (craniotomy) to remove the blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Recovery&lt;br /&gt;
+&lt;/strong&gt;After surgery, your doctor may prescribe anticonvulsant drugs to control or prevent post-traumatic seizures. These medications are continued up to a year after the trauma. Long-term anticonvulsant therapy may be needed if seizures continue. Amnesia, attention difficulties, anxiety, sleep problems and headaches may occur and continue for some time. 
+&lt;/p&gt;
+&lt;p&gt;
+Recovery after an intracranial hematoma can be prolonged and may be incomplete. In adults, most recovery takes place within the first six months after the injury. Children usually recover faster and more completely than adults do. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Patience is the key to coping with brain injuries. Adults will experience the majority of their recovery during the first six months. You may continue to experience smaller, more gradual improvements for up to two years after the hematoma. 
+&lt;/p&gt;
+&lt;p&gt;
+The following tips may help make for a smoother recovery: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get adequate sleep at night,&lt;/strong&gt; and rest in the daytime whenever you feel tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ease back into your normal activities&lt;/strong&gt; when you&apos;re feeling stronger. Don&apos;t try to do everything at once.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t participate in contact and recreational sports&lt;/strong&gt; until you get your doctor&apos;s OK. Avoiding a second injury is crucial.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check with your doctor&lt;/strong&gt; before you begin driving, playing sports, riding a bicycle or operating heavy machinery. Your reaction times likely will have slowed as a result of your brain injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check with your doctor&lt;/strong&gt; before taking medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink alcohol until you&apos;ve recovered fully.&lt;/strong&gt; Alcohol may hinder the recovery process. Excess alcohol consumption can increase your risk of a second injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down things&lt;/strong&gt; you have trouble recalling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with family or trusted friends&lt;/strong&gt; before making any important decisions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help to prevent or minimize head injury:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a helmet and make sure your kids wear helmets.&lt;/strong&gt; Make sure to wear an appropriate and properly fitted helmet when playing contact sports, bicycling, motorcycling, skiing, horseback riding, skating, skateboarding, snowboarding or doing any activity that could result in head injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buckle your seat belt and make sure your kids are buckled in.&lt;/strong&gt; Doing so anytime you drive or ride in a motor vehicle may prevent or minimize head damage in an accident.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect young children.&lt;/strong&gt; Always use properly fitted car seats, pad countertops and edges of tables, block stairways, tether heavy furniture or appliances to the wall to prevent tipping, and keep children from climbing on unsafe or unsteady objects.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Intracranial hematoma
+	</Title>
+	<Abstract>
+		Intracranial hematoma &amp;mdash; Comprehensive overview covers symptoms, treatment of this serious complication of head trauma.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Answer" DocID="HQ00763" LinkType="Internal" ObjectID="6636B3B9-E11F-4473-81FFAB8729500ECD" Title="Bump on the head: When is it a serious head injury?" Url="http://www.mayoclinic.com/health/head-injury/HQ00763" />
+		<LinkItem ContentType="Disease" DocID="DS00218" LinkType="Internal" ObjectID="F06A4B68-94D1-418C-827D409C656EC798" Title="Hemophilia" Url="http://www.mayoclinic.com/health/hemophilia/DS00218" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+		<LinkItem ContentType="Disease" DocID="DS00324" LinkType="Internal" ObjectID="193554B1-F187-461C-9041DDD189B031A6" Title="Sickle cell anemia" Url="http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324" />
+	</RelatedLinksBox>
+</Disease>

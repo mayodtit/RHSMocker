@@ -1,0 +1,320 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00141
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colectomy/MY00141
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="3642" Title="Colectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF5EAE47-E7FF-0DBD-14C2E4C1FE5519D4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				total colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				hemicolectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				subtotal colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				partial colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				segmental colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				sigmoidectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				colon surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colectomy is a surgical procedure to remove all or part of your colon. Your colon, also called your large intestine, is a long tube-like organ at the end of your digestive system. Colectomy may be necessary to treat or prevent diseases and conditions that affect your colon. 
+&lt;/p&gt;
+&lt;p&gt;
+There are various types of colectomy operations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Total colectomy&lt;/strong&gt; involves removing the entire colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partial colectomy&lt;/strong&gt; involves removing part of the colon and may also be called subtotal colectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemicolectomy&lt;/strong&gt; involves removing the right or left portion of the colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proctocolectomy&lt;/strong&gt; involves removing both the colon and rectum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Colectomy surgery usually requires other procedures to reattach the remaining portions of your digestive system and permit waste to leave your body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of partial colectomy surgery for colon cancer 
+" Caption="During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+" Height="60" Title="Partial colectomy" URI="/images/image_popup/thumbs/c7_colectomythu.jpg" Width="60" />
+				<Image Alt="Illustration of partial colectomy surgery for colon cancer 
+" Caption="During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+" Height="439" Title="Partial colectomy" URI="/images/image_popup/c7_colectomy.jpg" Width="400" />
+				<HTML>
+					During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colectomy is used to treat and prevent diseases and conditions that affect the colon, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding that can&apos;t be controlled.&lt;/strong&gt; Severe bleeding from the colon may require surgery to remove the affected portion of the colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bowel obstruction.&lt;/strong&gt; A blocked colon is an emergency that may require total or partial colectomy, depending on the situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colon&lt;/strong&gt;&lt;strong&gt; cancer.&lt;/strong&gt; Early-stage cancers may require only a small section of the colon to be removed during colectomy. Cancers at a later stage may require more of the colon to be removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crohn&apos;s disease.&lt;/strong&gt; If medications aren&apos;t helping you, removing the affected part of your colon may offer temporary relief from signs and symptoms. Colectomy may also be an option if precancerous changes are found during a test to examine the colon (colonoscopy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcerative colitis.&lt;/strong&gt; Your doctor may recommend total colectomy if medications aren&apos;t helping to control your signs and symptoms. Colectomy may also be an option if precancerous changes are found during a colonoscopy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diverticulitis.&lt;/strong&gt; Your doctor may recommend surgery to remove the affected portion of the colon if your diverticulitis recurs or if you experience complications of diverticulitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventive surgery.&lt;/strong&gt; If you have a very high risk of colon cancer due to the formation of multiple precancerous colon polyps, you may choose to undergo total colectomy to prevent cancer in the future. Colectomy may be an option for people with inherited genetic conditions that increase colon cancer risk, such as familial adenomatous polyposis or Lynch syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss your treatment options with your doctor. In some situations, you may have a choice between various types of colectomy operations. Your doctor can discuss the benefits and risks of each. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colectomy carries a risk of serious complications. Your risk of complications is based on your general health, the type of colectomy you undergo and the approach your surgeon uses to perform the operation. In general, complications of colectomy can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Blood clots in the legs (deep vein thrombosis) and the lungs (pulmonary embolism)&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Injury to organs near your colon, such as the bladder and small intestines&lt;/li&gt;
+	&lt;li&gt;Tears in the sutures that reconnect the remaining parts of your digestive system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll spend time in the hospital after your colectomy to allow your digestive system to heal. Your health care team will also monitor you for signs of complications from your surgery. You may spend a few days to a week in the hospital, depending on your condition and your situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the days leading up to your colon surgery, your doctor may ask that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking certain medications.&lt;/strong&gt; Certain medications can increase your risk of complications during surgery, so your doctor may ask that you stop taking those medications before your surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fast before your surgery.&lt;/strong&gt; Your doctor will give you specific instructions. You may be asked to stop eating and drinking several hours to a day before your procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink a solution that clears your bowels.&lt;/strong&gt; Your doctor may prescribe a laxative solution that you mix with water at home. You drink the solution over several hours, following the directions. The solution causes diarrhea to help empty your colon. Your doctor may also recommend enemas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take antibiotics.&lt;/strong&gt; In some cases, your doctor may prescribe antibiotics to suppress the bacteria found naturally in your colon and to help prevent infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing for colectomy isn&apos;t always possible. For instance, if you need an emergency colectomy due to bowel obstruction or bowel perforation, there may not be time to prepare. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Plan for your hospital stay&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll spend at least a few days in the hospital after your colectomy, depending on your situation. Make arrangements for someone to take care of your responsibilities at home and at work. 
+&lt;/p&gt;
+&lt;p&gt;
+Think ahead to what you might like to have with you while you&apos;re recovering in the hospital. Things you might pack include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A robe and slippers&lt;/li&gt;
+	&lt;li&gt;Toiletries, such as your toothbrush and toothpaste or, if needed, your shaving supplies&lt;/li&gt;
+	&lt;li&gt;Comfortable clothes to wear home&lt;/li&gt;
+	&lt;li&gt;Activities to pass the time, such as a book, magazine or games&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your colectomy&lt;/strong&gt; &lt;br /&gt;
+On the day of your surgery, your health care team will take you to a preparation room. Your blood pressure and breathing will be monitored. You may receive an antibiotic medication through a vein in your arm. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;re then taken to an operating room and positioned on a table. You&apos;ll be given a general anesthesia medication to put you in a sleep-like state so that you won&apos;t be aware during your operation. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgical team then proceeds with your colectomy. Colon surgery may be performed in two ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open colectomy.&lt;/strong&gt; Open surgery involves making a longer incision in your abdomen to access your colon. Your surgeon uses surgical tools to free your colon from the surrounding tissue and cuts out either a portion of the colon or the entire colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopic colectomy.&lt;/strong&gt; Laparoscopic colectomy, also called minimally invasive colectomy, involves several small incisions in your abdomen. Your surgeon passes a tiny video camera through one incision and special surgical tools through the other incisions. The surgeon watches a video screen in the operating room as the tools are used to free the colon from the surrounding tissue. The colon is then brought out through a small incision in your abdomen. This allows the surgeon to operate on the colon outside of your body. Once repairs are made to the colon, the surgeon reinserts the colon through the incision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of operation you undergo depends on your situation and your surgeon&apos;s expertise. Laparoscopic colectomy may reduce the pain and recovery time after surgery. But not everyone is a candidate for this procedure. Also, in some situations your operation may begin as a laparoscopic colectomy, but circumstances may force your surgical team to convert to an open colectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+Once the colon has been repaired or removed, your surgeon will reconnect your digestive system to allow your body to expel waste. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rejoining the remaining portions of your colon.&lt;/strong&gt; The surgeon may stitch the remaining portions of your colon together, creating what is called an anastomosis. Stool then leaves your body as before.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connecting your intestine to an opening created in your abdomen.&lt;/strong&gt; The surgeon may attach your colon (colostomy) or small intestine (ileostomy) to an opening created in your abdomen. This allows waste to leave your body through the opening (stoma). You may wear a bag on the outside of the stoma to collect stool. This can be permanent or temporary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connecting your small intestine to your anus.&lt;/strong&gt; After removing both the colon and the rectum (proctocolectomy), the surgeon may use a portion of your small intestine to create a pouch that is attached to your anus (ileoanal anastomosis). This allows you to expel waste normally, though you may have several watery bowel movements each day. As part of this procedure, you may undergo a temporary ileostomy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your surgeon will discuss your options with you before your operation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After your colectomy&lt;/strong&gt; &lt;br /&gt;
+After surgery you&apos;ll be taken to a recovery room to be monitored as the anesthesia wears off. Then your health care team will take you to your hospital room to continue your recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll stay in the hospital until you regain bowel function. This may take a couple of days to a week. You may not be able to eat solid foods at first. You might receive liquid nutrition through a vein in your arm and then transition to drinking clear liquids. As your intestines recover, you can eventually add solid foods. 
+&lt;/p&gt;
+&lt;p&gt;
+If your surgery involved a colostomy or ileostomy to attach your intestine to the outside of your abdomen, you&apos;ll meet with an ostomy nurse who will show you how to care for your stoma. The nurse will explain how to change the ostomy bag that will collect waste. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you leave the hospital, expect a couple of weeks of recovery at home. You may feel weak at first, but eventually your strength will return. Ask your doctor when you can expect to get back to your normal routine. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of partial colectomy surgery for colon cancer 
+" Caption="During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+" Height="60" Title="Partial colectomy" URI="/images/image_popup/thumbs/c7_colectomythu.jpg" Width="60" />
+				<Image Alt="Illustration of partial colectomy surgery for colon cancer 
+" Caption="During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+" Height="439" Title="Partial colectomy" URI="/images/image_popup/c7_colectomy.jpg" Width="400" />
+				<HTML>
+					During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing right hemicolectomy
+" Caption="A colectomy procedure to remove one side of the colon is called hemicolectomy. A right hemicolectomy, as shown here, involves removing the right side of the colon and attaching the small intestine to the remaining portion of the colon.
+" Height="60" Title="Right hemicolectomy" URI="/images/image_popup/thumbs/c7_right_hemicolectomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing right hemicolectomy
+" Caption="A colectomy procedure to remove one side of the colon is called hemicolectomy. A right hemicolectomy, as shown here, involves removing the right side of the colon and attaching the small intestine to the remaining portion of the colon.
+" Height="280" Title="Right hemicolectomy" URI="/images/image_popup/c7_right_hemicolectomy.jpg" Width="400" />
+				<HTML>
+					A colectomy procedure to remove one side of the colon is called hemicolectomy. A right hemicolectomy, as shown here, involves removing the right side of the colon and attaching the small intestine to ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing left hemicolectomy
+" Caption="A colectomy procedure to remove one side of the colon is called hemicolectomy. A left hemicolectomy, as shown here, involves removing the left side of the colon and attaching the remaining parts of the colon.
+" Height="60" Title="Left hemicolectomy" URI="/images/image_popup/thumbs/c7_left_hemicolectomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing left hemicolectomy
+" Caption="A colectomy procedure to remove one side of the colon is called hemicolectomy. A left hemicolectomy, as shown here, involves removing the left side of the colon and attaching the remaining parts of the colon.
+" Height="280" Title="Left hemicolectomy" URI="/images/image_popup/c7_left_hemicolectomy.jpg" Width="400" />
+				<HTML>
+					A colectomy procedure to remove one side of the colon is called hemicolectomy. A left hemicolectomy, as shown here, involves removing the left side of the colon and attaching the remaining parts of ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of colostomy surgery for colon cancer 
+" Caption="In some cases, after the surgeon removes a portion of the colon, it may be necessary to attach the remaining colon to the outside of the body in a procedure called colostomy. Creating a hole (stoma) in the abdominal wall allows waste to leave the body. A colostomy bag attaches to the stoma to collect the waste. 
+" Height="60" Title="Colostomy" URI="/images/image_popup/thumbs/c7_colostomythu.jpg" Width="60" />
+				<Image Alt="Illustration of colostomy surgery for colon cancer 
+" Caption="In some cases, after the surgeon removes a portion of the colon, it may be necessary to attach the remaining colon to the outside of the body in a procedure called colostomy. Creating a hole (stoma) in the abdominal wall allows waste to leave the body. A colostomy bag attaches to the stoma to collect the waste. 
+" Height="400" Title="Colostomy" URI="/images/image_popup/c7_colostomy.jpg" Width="400" />
+				<HTML>
+					In some cases, after the surgeon removes a portion of the colon, it may be necessary to attach the remaining colon to the outside of the body in a procedure called colostomy. Creating a hole (stoma) ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ileoanal anastomosis 
+" Caption="After proctocolectomy to remove your colon and your rectum, your surgeon may connect your small intestine to your anus (ileoanal anastomosis). This allows you to expel waste normally, though you&apos;ll likely have several watery bowel movements daily. 
+" Height="60" Title="Ileoanal anastomosis" URI="/images/image_popup/thumbs/c7_ileoanal_anastomosisthu.jpg" Width="60" />
+				<Image Alt="Illustration of ileoanal anastomosis 
+" Caption="After proctocolectomy to remove your colon and your rectum, your surgeon may connect your small intestine to your anus (ileoanal anastomosis). This allows you to expel waste normally, though you&apos;ll likely have several watery bowel movements daily. 
+" Height="377" Title="Ileoanal anastomosis" URI="/images/image_popup/c7_ileoanal_anastomosis.jpg" Width="400" />
+				<HTML>
+					After proctocolectomy to remove your colon and your rectum, your surgeon may connect your small intestine to your anus (ileoanal anastomosis). This allows you to expel waste normally, though you&apos;ll ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Colectomy
+	</Title>
+	<Abstract>
+		Colectomy &amp;mdash; Overview covers what to expect, risks, preparation for colon surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS00035" LinkType="Internal" ObjectID="13D504C5-40A0-40DA-9F61138EEAAE162F" Title="Colon cancer" Url="http://www.mayoclinic.com/health/colon-cancer/DS00035" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,124 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00013
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pap-smear/AN00013
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-31
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3068" Title="Pap smear" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFB4CA42-F703-485A-84BA5D87FF5886B7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pap smear
+			</MetaKeyword>
+			<MetaKeyword>
+				pap test
+			</MetaKeyword>
+			<MetaKeyword>
+				hysterectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It depends. 
+&lt;/p&gt;
+&lt;p&gt;
+A Pap smear, also called a Pap test, is an important screening test for early diagnosis of cervical cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you had a partial hysterectomy &amp;mdash; when the uterus is removed but the neck of the uterus (cervix) remains &amp;mdash; your health care provider will likely recommend continued Pap smears. 
+&lt;/p&gt;
+&lt;p&gt;
+Similarly, if you had a partial hysterectomy or a total hysterectomy &amp;mdash; when both the uterus and cervix are removed &amp;mdash; for a cancerous or precancerous condition, regular Pap smears remain important. 
+&lt;/p&gt;
+&lt;p&gt;
+You can stop having Pap smears, however, if you had a total hysterectomy for a noncancerous condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Your age matters, too. 
+&lt;/p&gt;
+&lt;p&gt;
+According to guidelines from the American Cancer Society, the U.S. Preventive Services Task Force and the American College of Obstetricians and Gynecologists, you can stop routine Pap smear screening after age 65 &amp;mdash; whether you&apos;ve had a hysterectomy or not &amp;mdash; if you have a history of regular screenings with normal results and you&apos;re not at high risk of cervical cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re unsure whether you still need Pap smears, ask your doctor what&apos;s best for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pap smear: Still needed after hysterectomy?
+	</Title>
+	<Abstract>
+		Many women who&apos;ve had hysterectomies no longer need routine Pap smears.
+	</Abstract>
+	<Question>
+		Are Pap smears still needed after removal of the uterus (hysterectomy)?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01110" LinkType="Internal" ObjectID="93072ECE-B9C8-8ECC-D1B88893A75B44F0" Title="HPV test" Url="http://www.mayoclinic.com/health/hpv-test/MY01110" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00236" LinkType="Internal" ObjectID="05C62021-E7FF-0DBD-160B90F970B63F5E" Title="Colposcopy" Url="http://www.mayoclinic.com/health/colposcopy/MY00236" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00090" LinkType="Internal" ObjectID="B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76" Title="Pap smear" Url="http://www.mayoclinic.com/health/pap-smear/MY00090" />
+		<LinkItem ContentType="Answer" DocID="AN01635" LinkType="Internal" ObjectID="0BD1E6A4-E7FF-0DBD-1064D59C7B26AAB3" Title="Pap smear: Do I need one if I&apos;m a virgin?" Url="http://www.mayoclinic.com/health/pap-smear/AN01635" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+	</RelatedLinksBox>
+</Answer>

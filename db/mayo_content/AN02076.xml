@@ -1,0 +1,110 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02076
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/yeast-infection-during-pregnancy/AN02076
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-16
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2410" Title="Vaginitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			24B6696E-E700-EF65-D742567522069836
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				yeast infection during pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				yeast infections during pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				treating yeast infection during pregnancy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+You can safely treat a yeast infection during pregnancy with various over-the-counter antifungal creams or suppositories, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Miconazole (Monistat)&lt;/li&gt;
+	&lt;li&gt;Clotrimazole (Gyne-Lotrimin)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These products can be used at any point during pregnancy and don&apos;t pose a risk of birth defects or other pregnancy complications. For best results, choose a seven-day formula. Home remedies or natural treatments generally aren&apos;t recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+Yeast infections, a type of vaginitis, occur when certain internal or external factors change the normal environment of the vagina and trigger an overgrowth of a microscopic fungus &amp;mdash; often Candida albicans. Yeast infections are especially common during pregnancy due to hormonal changes. Signs and symptoms of a yeast infection typically include vaginal itching and a white, thick discharge that resembles cottage cheese. 
+&lt;/p&gt;
+&lt;p&gt;
+If you haven&apos;t been previously diagnosed with a yeast infection and develop symptoms for the first time during pregnancy, consult your health care provider before using an over-the-counter yeast infection treatment. What appears to be a yeast infection could actually be another type of vaginitis or other condition that needs different treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Yeast infection during pregnancy: Are over-the-counter treatments OK?
+	</Title>
+	<Abstract>
+		Yeast infection during pregnancy &amp;mdash; A Mayo Clinic specialist offers advice on safe treatments.
+	</Abstract>
+	<Question>
+		What&apos;s the best way to treat a yeast infection during pregnancy?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01182" LinkType="Internal" ObjectID="CEDDE35C-0B46-0928-1C127105C3D6DC38" Title="Yeast infection (vaginal)" Url="http://www.mayoclinic.com/health/yeast-infection/DS01182" />
+		<LinkItem ContentType="Disease" DocID="DS01193" LinkType="Internal" ObjectID="950F8BC6-AC69-9B2C-C09ED47E7E5114A9" Title="Bacterial vaginosis" Url="http://www.mayoclinic.com/health/bacterial-vaginosis/DS01193" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS00255" LinkType="Internal" ObjectID="B5642F87-B29F-4065-A60FC82B39C4CD8B" Title="Vaginitis" Url="http://www.mayoclinic.com/health/vaginitis/DS00255" />
+	</RelatedLinksBox>
+</Answer>

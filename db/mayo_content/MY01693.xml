@@ -1,0 +1,216 @@
+<Article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Article.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Article
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01693
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/telehealth/MY01693
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-13
+		</UpdateDate>
+		<PublicationDate>
+			2011-05-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="1831" Title="Consumer health basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			340F9B53-DFF4-5D97-94859C23127237A9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				telehealth
+			</MetaKeyword>
+			<MetaKeyword>
+				evisits
+			</MetaKeyword>
+			<MetaKeyword>
+				ehealth
+			</MetaKeyword>
+			<MetaKeyword>
+				telemedicine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+How many times have you heard it said that the Internet has transformed modern life? Indeed it&apos;s probably changed how you stay in touch with family and friends, purchase goods and services, and even search for information about health problems. But are you using the array of telehealth tools available to improve your health and wellness? If not, you may be falling behind the times.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What is telehealth? Why should you care?
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Telehealth is simply using technology, such as computers and mobile devices, to manage your health and well-being. Telehealth, also called e-health or m-health (mobile health), includes a variety of health care services, including but not limited to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Online support groups&lt;/li&gt;
+	&lt;li&gt;Online health information and self-management tools&lt;/li&gt;
+	&lt;li&gt;Email and online communication with health care providers&lt;/li&gt;
+	&lt;li&gt;Electronic health records&lt;/li&gt;
+	&lt;li&gt;Remote monitoring of vital signs&lt;/li&gt;
+	&lt;li&gt;Video or online doctor visits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Consider how people with diabetes could use telehealth to manage their health &amp;mdash; all without having to leave home:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use a mobile phone or other device to upload food logs, medications, dosing, and blood sugar levels for review by a nurse who responds electronically.&lt;/li&gt;
+	&lt;li&gt;Watch a how-to video on carbohydrate counting and download an application (app) for it to your mobile phone.&lt;/li&gt;
+	&lt;li&gt;Use the same app to estimate, based on your diet and exercise level, how much insulin you need.&lt;/li&gt;
+	&lt;li&gt;Send an email or text message to a nurse or diabetes educator when you have questions.&lt;/li&gt;
+	&lt;li&gt;Order testing supplies and medications online.&lt;/li&gt;
+	&lt;li&gt;Research the pros and cons of alternate treatments, such as insulin pumps.&lt;/li&gt;
+	&lt;li&gt;Get email, text or phone reminders when you need a flu shot, foot exam or other preventive care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Does that pique your interest? If so, check out the following ways technology can help you better manage your health.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				E-visits
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An e-visit is a doctor&apos;s appointment you do online instead of in person. You type in your question or problem, usually through a progression of questions. Your message is sent to your health care provider, who reviews it and sends a response. You may receive a prescription for medication, a recommendation for a follow-up appointment or other advice. Your messages are secure &amp;mdash; meaning no one else can see or read them. Visits can also take place in real time via videoconference.
+&lt;/p&gt;
+&lt;p&gt;
+E-visits can save you &amp;mdash; and your doctor &amp;mdash; time compared with office visits. They can be especially helpful for people in rural areas or those who don&apos;t have access to transportation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Personal health records
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A personal health record is simply a collection of information about your health that you control and maintain. If you have a shot record or a box of medical papers, you already have a basic personal health record. And you&apos;ve probably encountered the big drawback of paper records: You rarely have them with you when you need them.
+&lt;/p&gt;
+&lt;p&gt;
+Electronic personal health record systems &amp;mdash; often called PHR systems &amp;mdash; remedy that problem by making your personal health record accessible to you anytime via a Web-enabled device, such as your computer, phone or PDA.
+&lt;/p&gt;
+&lt;p&gt;
+Having a personal health record can be a lifesaver, literally. In an emergency, you can quickly give emergency personnel vital information, such as a disease you&apos;re being treated for, medications you take, drugs you&apos;re allergic to, and how to contact your family doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Personal health apps
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Websites and digital apps can be used for more than making dinner reservations. A multitude of products have been created to help consumers better organize their medical information, and that of their family members, in one secure, online space. These digital tools allow you to store health records, upload information from devices such as a blood glucose monitor or blood pressure cuff, and share information with your health care providers. Some even offer personalized reminders and recommendations.
+&lt;/p&gt;
+&lt;p&gt;
+A number of future-thinking companies provide their employees with access to a portal &amp;mdash; or suite &amp;mdash; of health care apps as a workplace benefit. These websites allow employees to complete health assessments, get medical advice, find a plan-approved health care provider, and get advice and information on staying healthy. Some companies are even experimenting with e-visits so that employees can &quot;see&quot; the doctor without having to take time away from work.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Home health monitoring
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Do you check your blood pressure at home? How do you get your results to your doctor? Home health monitoring makes that easy. Devices such as blood pressure monitors can be connected to the Internet or to video equipment that allows real-time, face-to-face interaction with health care providers. Home health monitoring can be particularly useful for people with chronic diseases, such as heart disease, as well as those who live in rural or remote areas. The benefits are greater convenience, fewer office visits, and easier access to medical care and advice.
+&lt;/p&gt;
+&lt;p&gt;
+Even more exciting is the advent of wearable monitoring systems. These devices are connected through wired or wireless networks to a clinic or monitoring center. These devices can assess sounds, images, body motion, and vital signs such as blood pressure, body temperature, heart rate and pulse, body weight, and blood oxygenation. Devices can also monitor sleep patterns and physical activity.
+&lt;/p&gt;
+&lt;p&gt;
+&quot;Smart homes&quot; take home monitoring one step further. A smart home is equipped with sensors and automated devices designed for remote monitoring, early detection of problems or emergencies, and promotion of safety and quality of life. Such a home might include a sensor system that assesses vital signs and activity and provides security monitoring and response. Smart homes and wearable monitoring devices offer the potential of enabling older adults to live independently, if they prefer, rather than in assisted living facilities.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Doctors talking to doctors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors can also take advantage of technology to provide better care to their patients. One example is virtual consultations that allow primary care doctors to get input from specialists when they have questions about a particular diagnosis or treatment. The primary care doctor sends test results, X-rays or other images to the specialist to review. The specialist can respond electronically or request a face-to-face meeting if needed. In some cases, the specialist may even &quot;see&quot; the patient via video.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				The potential of telehealth
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While technology undoubtedly has a cool factor, it isn&apos;t just fun and games. Technology has the potential to improve the quality of health care and to make it accessible to more people. Indeed, the U.S. Department of Health and Human Services has included greater use of technology as one of its &quot;Healthy People 2020&quot; objectives for improving the health of all Americans. Isn&apos;t it time to make telehealth work for you?
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Telehealth: When health care meets cyberspace
+	</Title>
+	<Abstract>
+		Telehealth &amp;mdash; See how technology can help you better manage your health.
+	</Abstract>
+	<BenefitSummary>
+		From researching treatment options to emailing with your doctor, telehealth gives you the tools to better manage your health.
+	</BenefitSummary>
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00526" LinkType="Internal" ObjectID="E0061978-F189-705A-27A1E85ABC9707E3" Title="Blood donation" Url="http://www.mayoclinic.com/health/blood-donation/MY00526" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00525" LinkType="Internal" ObjectID="E003A9DA-9C87-BC0E-4128259FA51BE356" Title="Blood and bone marrow donation" Url="http://www.mayoclinic.com/health/bone-marrow/MY00525" />
+		<LinkItem ContentType="Answer" DocID="AN01988" LinkType="Internal" ObjectID="62753420-E4EE-8CC0-C2436287C82698EA" Title="Kidney donation: Are there long-term risks?" Url="http://www.mayoclinic.com/health/kidney-donation/AN01988" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Answer" DocID="AN02141" LinkType="Internal" ObjectID="004ECC47-FB06-5471-6CD408B2AEE139FD" Title="Triclosan: Is it safe?" Url="http://www.mayoclinic.com/health/triclosan/AN02141" />
+		<LinkItem ContentType="Article" DocID="SN00006" LinkType="Internal" ObjectID="F506CE4C-3C14-4BC9-A8C48340F7950C75" Title="Cosmetic surgery: What to know beforehand" Url="http://www.mayoclinic.com/health/cosmetic-surgery/SN00006" />
+		<LinkItem ContentType="Article" DocID="CA00085" LinkType="Internal" ObjectID="27E0CC33-E7FF-0DBD-19A935FF90056FA0" Title="Cancer causes: Popular myths about the causes of cancer" Url="http://www.mayoclinic.com/health/cancer-causes/CA00085" />
+		<LinkItem ContentType="Answer" DocID="AN02061" LinkType="Internal" ObjectID="9422D774-DB28-24E4-42201CE2CF20A016" Title="What is compassionate use of experimental drugs?" Url="http://www.mayoclinic.com/health/compassionate-use/AN02061" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="Answer" DocID="AN02093" LinkType="Internal" ObjectID="4F856C2B-94A9-8642-744C18AA73D2FD36" Title="Osteopathic medicine: What kind of doctor is a D.O.?" Url="http://www.mayoclinic.com/health/osteopath/AN02093" />
+		<LinkItem ContentType="Article" DocID="MY01055" LinkType="Internal" ObjectID="E00E73CD-C0D4-CB17-537CCD535D6CEA27" Title="Health news: Going beyond the headlines" Url="http://www.mayoclinic.com/health/health-news/MY01055" />
+		<LinkItem ContentType="Article" DocID="FL00077" LinkType="Internal" ObjectID="C57D6832-F754-4669-99C99A04900E8278" Title="Organ donation: Don&apos;t let these myths confuse you" Url="http://www.mayoclinic.com/health/organ-donation/FL00077" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Article" DocID="MY00665" LinkType="Internal" ObjectID="B42E4F1C-B1D4-295C-124B65C891D16A50" Title="Personal health record: A tool for managing your health" Url="http://www.mayoclinic.com/health/personal-health-record/MY00665" />
+		<LinkItem ContentType="Article" DocID="DI00033" LinkType="Internal" ObjectID="96C0287B-B8F7-4A9C-824C84551D5E4F6D" Title="Clinical trials: A chance to try new therapies" Url="http://www.mayoclinic.com/health/clinical-trials/DI00033" />
+		<LinkItem ContentType="Article" DocID="HA00014" LinkType="Internal" ObjectID="83E7580F-6506-4D06-B9424AC6ED1CA79A" Title="Living wills and advance directives for medical decisions" Url="http://www.mayoclinic.com/health/living-wills/HA00014" />
+		<LinkItem ContentType="Article" DocID="GA00053" LinkType="Internal" ObjectID="0B76E88E-E7FF-0DBD-1B2E5E0D8A51B250" Title="Health savings accounts: Is an HSA right for you?" Url="http://www.mayoclinic.com/health/health-savings-accounts/GA00053" />
+	</RelatedLinksBox>
+</Article>

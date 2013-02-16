@@ -1,0 +1,426 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00017
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/aortic-aneurysm/DS00017
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-17
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="1482" Title="Aortic aneurysm">
+							<Keyword MCVID="3964" Title="Thoracic aortic aneurysm" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FE3FE459-7D1E-405F-95E9339CD2E974B8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aortic aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				artery
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal
+			</MetaKeyword>
+			<MetaKeyword>
+				thoracic
+			</MetaKeyword>
+			<MetaKeyword>
+				anurism
+			</MetaKeyword>
+			<MetaKeyword>
+				anurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				thoracic aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				anuerism
+			</MetaKeyword>
+			<MetaKeyword>
+				anuerysm
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A thoracic aortic aneurysm is a weakened and bulging area in the upper part of the aorta, the major blood vessel that feeds blood to the body. The aorta, about the thickness of a garden hose, runs from your heart through the center of your chest and abdomen. Because the aorta is the body&apos;s main supplier of blood, a ruptured thoracic aortic aneurysm can cause life-threatening bleeding. Although you may never have symptoms, finding out you have a thoracic aortic aneurysm can be frightening. 
+&lt;/p&gt;
+&lt;p&gt;
+Most small and slow-growing thoracic aortic aneurysms don&apos;t rupture, but large, fast-growing aneurysms may. Depending on the size and rate at which the thoracic aortic aneurysm is growing, treatment may vary from watchful waiting to emergency surgery. Once a thoracic aortic aneurysm is found, doctors will closely monitor it so that surgery can be planned if it&apos;s necessary. Emergency surgery for a ruptured thoracic aortic aneurysm can be risky. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a thoracic aortic aneurysm 
+" Caption="A thoracic aortic aneurysm occurs when an upper portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="60" Title="Thoracic aortic aneurysm" URI="/images/image_popup/thumbs/mcdc7_thoracicaneurysmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a thoracic aortic aneurysm 
+" Caption="A thoracic aortic aneurysm occurs when an upper portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="590" Title="Thoracic aortic aneurysm" URI="/images/image_popup/mcdc7_thoracicaneurysm.jpg" Width="400" />
+				<HTML>
+					A thoracic aortic aneurysm occurs when an upper portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic aneurysms often grow slowly and usually without symptoms, making them difficult to detect. Some aneurysms will never rupture. Many start small and stay small, although many expand over time. Some aortic aneurysms enlarge slowly, increasing less than half an inch (1.2 centimeters) a year. Others expand at a faster rate, which increases the risk of rupture. How quickly an aortic aneurysm may grow is difficult to predict. 
+&lt;/p&gt;
+&lt;p&gt;
+As an aortic aneurysm grows, some people may notice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tenderness or pain in the abdomen or chest&lt;/li&gt;
+	&lt;li&gt;Back pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aneurysms can develop anywhere along the aorta, which runs from your heart through your abdomen. When they occur in the upper part of the aorta, they are called thoracic aortic aneurysms. More commonly, aneurysms form in the lower part of your aorta and are called abdominal aortic aneurysms. Rarely, an aneurysm can occur in between the upper and lower parts of your aorta. This type of aneurysm is called a thoracoabdominal aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;/strong&gt;&lt;br /&gt;
+You should see your doctor if you have symptoms of a thoracic aortic aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a family history of aortic aneurysm, Marfan syndrome or other connective tissue disease, or bicuspid aortic valve, your doctor may recommend regular ultrasound exams to screen for aortic aneurysm. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact causes of thoracic aortic aneurysms are unknown, but factors that can contribute to an aneurysm&apos;s development include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Marfan syndrome.&lt;/strong&gt; People who are born with Marfan syndrome, a genetic condition that affects the connective tissue in the body, are particularly at risk of a thoracic aortic aneurysm. Those with Marfan syndrome may have a weakness in the aortic wall that makes them more susceptible to aneurysm. People with Marfan syndrome often have distinct physical traits, including tall stature, very long arms, a deformed breastbone and eye problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other connective tissue diseases.&lt;/strong&gt; Besides Marfan syndrome, other connective tissue diseases, such as Ehlers-Danlos syndrome, can contribute to a thoracic aortic aneurysm. Ehlers-Danlos syndrome causes your skin, joints and connective tissue to be fragile and makes your skin stretch easily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems with your heart&apos;s valves.&lt;/strong&gt; Sometimes, people who have problems with their aortic valve, the valve that blood flows through as it leaves your heart, have an increased risk of thoracic aortic aneurysm. This is especially true for people who have a bicuspid aortic valve, meaning their aortic valve has only two leaflets instead of three.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous injury to the aorta.&lt;/strong&gt; You&apos;re more likely to have a thoracic aortic aneurysm if you&apos;ve had previous problems with your aorta, such as a tear in the wall of the aorta (aortic dissection).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Traumatic injury.&lt;/strong&gt; Some people who are injured in falls or motor vehicle crashes develop thoracic aortic aneurysms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An aortic aneurysm is different from a condition called aortic dissection. Aortic dissection often occurs in the same place many aneurysms occur. In aortic dissection, a tear occurs in the wall of the aorta. This causes bleeding into and along the aortic wall and, in some cases, completely outside the aorta (rupture). Aortic dissection is a life-threatening emergency. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a thoracic aortic aneurysm 
+" Caption="A thoracic aortic aneurysm occurs when an upper portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="60" Title="Thoracic aortic aneurysm" URI="/images/image_popup/thumbs/mcdc7_thoracicaneurysmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a thoracic aortic aneurysm 
+" Caption="A thoracic aortic aneurysm occurs when an upper portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="590" Title="Thoracic aortic aneurysm" URI="/images/image_popup/mcdc7_thoracicaneurysm.jpg" Width="400" />
+				<HTML>
+					A thoracic aortic aneurysm occurs when an upper portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thoracic aortic aneurysm risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Thoracic aortic aneurysms occur most often in people age 60 and older.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco use.&lt;/strong&gt; Tobacco use is a strong risk factor for the development of an aortic aneurysm. The longer you&apos;ve smoked or chewed tobacco, the greater your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Increased blood pressure damages the blood vessels in the body, raising your chances of developing an aneurysm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buildup of plaques in your arteries (atherosclerosis).&lt;/strong&gt; Atherosclerosis, the buildup of fat and other substances that can damage the lining of a blood vessel, increases your risk of an aneurysm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Men develop aortic aneurysms more often than women do. However, women with aortic aneurysms have a higher risk of rupture than do men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Aortic aneurysms occur more commonly in whites than in people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; People who have a family history of aortic aneurysm are at increased risk of having one. People who have a family history of aneurysms tend to develop aneurysms at a younger age and are at higher risk of rupture.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tears in the wall of the aorta (dissection) and rupture of the aorta are the main complications of thoracic aortic aneurysm. A ruptured aortic aneurysm can lead to life-threatening internal bleeding. In general, the larger the aneurysm, the greater the risk of rupture. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms that your aortic aneurysm has burst include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, intense and persistent abdominal, chest or back pain&lt;/li&gt;
+	&lt;li&gt;Pain that radiates to your back or legs&lt;/li&gt;
+	&lt;li&gt;Sweatiness&lt;/li&gt;
+	&lt;li&gt;Clamminess&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Fast pulse&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Weakness or paralysis of one side of the body, difficulty speaking or other signs of stroke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood clot risk&lt;/strong&gt; &lt;br /&gt;
+Another complication of aortic aneurysms is the risk of blood clots. Small blood clots can develop in the area of the aortic aneurysm. If a blood clot breaks loose from the inside wall of an aneurysm and blocks a blood vessel elsewhere in your body, it can cause pain or block the blood flow to the brain, legs, toes or abdominal organs. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a dissecting aneurysm 
+" Caption="When an aneurysm ruptures (dissects), blood begins to leak out of the affected artery. A dissected aneurysm is a medical emergency. 
+" Height="60" Title="Dissecting aneurysm" URI="/images/image_popup/thumbs/mcdc7_dissectionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a dissecting aneurysm 
+" Caption="When an aneurysm ruptures (dissects), blood begins to leak out of the affected artery. A dissected aneurysm is a medical emergency. 
+" Height="520" Title="Dissecting aneurysm" URI="/images/image_popup/mcdc7_dissection.jpg" Width="400" />
+				<HTML>
+					When an aneurysm ruptures (dissects), blood begins to leak out of the affected artery. A dissected aneurysm is a medical emergency. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have a thoracic aortic aneurysm, or are worried about your aneurysm risk because of a strong family history, make an appointment with your family doctor. If an aneurysm is found early, your treatment may be easier and more effective. 
+&lt;/p&gt;
+&lt;p&gt;
+Because many thoracic aortic aneurysms are found during a routine physical exam, or while your doctor is looking for another condition, there are no special preparations necessary. If you&apos;re being screened for an aortic aneurysm, your doctor will likely ask if anyone in your family has ever had an aortic aneurysm, so have that information ready. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. For an ultrasound or echocardiogram, for example, you may need to fast for a period of time beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to a thoracic aortic aneurysm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, aneurysms or connective tissue disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet, exercise habits and tobacco use. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started. Be sure to tell your doctor if you&apos;re a current or former smoker.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For an aortic aneurysm, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for an aneurysm?&lt;/li&gt;
+	&lt;li&gt;Should I tell other family members to be screened for an aneurysm?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of aneurysms or other hereditary diseases, such as Marfan syndrome?&lt;/li&gt;
+	&lt;li&gt;Have you ever smoked?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+It&apos;s never too early to make healthy lifestyle changes, such as quitting smoking, eating healthy foods and becoming more physically active. These are primary lines of defense against thoracic aortic aneurysm and its complications. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with a thoracic aortic aneurysm, you should ask about the size of your aneurysm, whether your doctor has noticed any changes, and how frequently you should visit your doctor for follow-up appointments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thoracic aortic aneurysms are often found during routine medical tests, such as a chest X-ray or ultrasound of the heart or abdomen, sometimes ordered for a different reason. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects that you have an aortic aneurysm, specialized tests can confirm it. These tests might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Your doctor may first notice you have a thoracic aortic aneurysm by looking at chest X-ray images. Your doctor may order a chest X-ray as a first test to check for problems with the upper part of your aorta, or your doctor may discover a thoracic aortic aneurysm on X-ray images ordered to check for another condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; Thoracic aortic aneurysms may be diagnosed by echocardiogram, and this technique is often used to screen family members of those with thoracic aortic aneurysm. An echocardiogram is often used to check for aneurysms in someone with Marfan syndrome. An echocardiogram uses sound waves to capture real-time images of your heart in motion. Echocardiograms show how well your heart chambers and valves are working. Occasionally, to better see your aorta, your doctor may recommend a transesophageal echocardiogram &amp;mdash; in which the sound waves are generated from within your body by a device threaded down your esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; This painless test can provide your doctor with clear images of your aorta. During a CT scan, you lie on a table inside a doughnut-shaped machine called a gantry. Detectors inside the gantry measure the radiation that has passed through your body and converts it into electrical signals. One downside of the use of CT in detecting and following aortic aneurysms is the exposure to radiation, particularly for patients who require frequent monitoring, such as those with Marfan syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiography (MRA).&lt;/strong&gt; MRA is another painless imaging test. Most MRA machines contain a large magnet shaped like a doughnut or tunnel. You lie on a movable table that slides into the tunnel. The magnet produces signals that vary according to the type of tissue the magnet scans. Your doctor can use the images produced by the signals to see if you have an aneurysm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening for thoracic aortic aneurysms &lt;/strong&gt;&lt;br /&gt;
+Conditions that cause a thoracic aortic aneurysm may run in families. Because of this, your doctor may recommend you have tests to check for thoracic aortic conditions if a first-degree blood relative, such as a sibling, son or daughter, has Marfan syndrome or another condition that could cause a thoracic aortic aneurysm. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may recommend that your first-degree relatives have an echocardiogram or another type of imaging test to check for Marfan syndrome or another thoracic aortic condition. If your doctor finds you have an enlarged aorta or an aneurysm, you&apos;ll likely need another imaging test within six months to make sure your aorta hasn&apos;t grown larger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; Marfan syndrome is a hereditary condition that increases your risk of developing a thoracic aortic aneurysm. Genetic testing can help diagnose Marfan syndrome, although there&apos;s no genetic test that can confirm whether you have the condition. If you have a family history of Marfan syndrome, you may want to consider genetic testing and genetic counseling before starting a family, to see what your chances are of passing on Marfan syndrome to your children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to prevent your aneurysm from rupturing. Generally, your treatment options are medical monitoring or surgery. Your decision depends on the size of the aortic aneurysm and how fast it&apos;s growing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical monitoring&lt;/strong&gt; &lt;br /&gt;
+If your thoracic aortic aneurysm is small, your doctor may recommend medical monitoring, which includes regular appointments to make sure your aneurysm isn&apos;t growing, and management of other medical conditions that could worsen your aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s likely your doctor will order regular imaging tests to check on the size of your aneurysm. Expect to have an echocardiogram at least six months after your aneurysm is diagnosed and regular exams and imaging tests after that. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have high blood pressure or blockages in your arteries, it&apos;s likely that your doctor will prescribe medications to lower your blood pressure and reduce your risk of complications from your aneurysm. These medications could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; Beta blockers lower your blood pressure by slowing your heart rate. Examples of beta blockers include metoprolol (Lopressor, Toprol-XL), atenolol (Tenormin) and bisoprolol (Zebeta).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers.&lt;/strong&gt; Your doctor may also prescribe these medications if beta blockers aren&apos;t enough to control your blood pressure. These medications are recommended for people who have Marfan syndrome, even if they don&apos;t have high blood pressure. Examples of angiotensin II receptor blockers include losartan (Cozaar), valsartan (Diovan) and olmesartan (Benicar).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Statins.&lt;/strong&gt; These medications can help lower your cholesterol, which can help reduce blockages in your arteries and reduce your risk of aneurysm complications. Examples of statins include atorvastatin (Lipitor), lovastatin (Mevacor), simvastatin (Zocor) and others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you smoke or chew tobacco, it&apos;s important that you quit. Using tobacco can worsen your aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to prevent rupture&lt;/strong&gt; &lt;br /&gt;
+If you have a thoracic aortic aneurysm, surgery is generally recommended if your aneurysm is 2.2 inches (5.6cm) and larger. If you have Marfan syndrome, another connective tissue disease or a family history of aortic dissection, your doctor may recommend surgery for smaller aneurysms as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your condition and the location of your thoracic aortic aneurysm, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open-chest surgery.&lt;/strong&gt; Open-chest surgery to repair a thoracic aortic aneurysm involves removing the damaged section of the aorta and replacing it with a synthetic tube (graft), which is sewn into place. This procedure requires open-abdominal or open-chest surgery, and it will take you several months to fully recover.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endovascular surgery.&lt;/strong&gt; Doctors attach a synthetic graft to the end of a thin tube (catheter) that&apos;s inserted through an artery in your leg and threaded up into your aorta. The graft &amp;mdash; a woven tube covered by a metal mesh support &amp;mdash; is placed at the site of the aneurysm and fastened in place with small hooks or pins. The graft reinforces the weakened section of the aorta to prevent rupture of the aneurysm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other heart surgeries.&lt;/strong&gt; If another condition is contributing to your aneurysm&apos;s development, such as a problem with your heart&apos;s valves, your doctor may recommend additional surgeries to repair or replace the damaged valves to stop your aneurysm from worsening.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency surgery&lt;/strong&gt; &lt;br /&gt;
+Although it&apos;s possible to repair a ruptured aortic aneurysm with emergency surgery, the risk is much higher and there is less chance of survival. Many people who have a ruptured aortic aneurysm die before they reach the hospital. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no medications you can take to prevent an aortic aneurysm, although taking medications to control your blood pressure and cholesterol level may reduce your risk of having complications from a thoracic aortic aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+For now the best approach to prevent an aortic aneurysm or keep an aneurysm from worsening is to keep your blood vessels as healthy as possible. That means taking these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t use tobacco products.&lt;/li&gt;
+	&lt;li&gt;Keep your blood pressure under control.&lt;/li&gt;
+	&lt;li&gt;Get regular exercise.&lt;/li&gt;
+	&lt;li&gt;Reduce cholesterol and fat in your diet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have some risk factors for aortic aneurysm, talk to your doctor. If you are at risk, your doctor may recommend additional measures, including medications to lower your blood pressure and relieve stress on weakened arteries. You may also want to consider screening echocardiograms every few years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thoracic aortic aneurysm
+	</Title>
+	<Abstract>
+		Thoracic aortic aneurysm &amp;mdash; Comprehensive overview covers symptoms, screening and treatment of this serious condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Article" DocID="NU00204" LinkType="Internal" ObjectID="D56B9CBF-9BD4-4FF7-A7EC0D78F3EEFA7B" Title="Whole grains: Hearty options for a healthy diet" Url="http://www.mayoclinic.com/health/whole-grains/NU00204" />
+		<LinkItem ContentType="Article" DocID="CL00010" LinkType="Internal" ObjectID="69427ED3-2A5D-9994-E87FDBC7AE0819DE" Title="Statins: Are these cholesterol-lowering drugs right for you?" Url="http://www.mayoclinic.com/health/statins/CL00010" />
+		<LinkItem ContentType="Article" DocID="EP00002" LinkType="Internal" ObjectID="581C52DA-A6DF-450B-9059119DF2BAA55C" Title="Aerobic exercise: Top 10 reasons to get physical" Url="http://www.mayoclinic.com/health/aerobic-exercise/EP00002" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Article" DocID="HI00054" LinkType="Internal" ObjectID="3AF3E6F5-A43E-43DE-9E5E1707B87E8A58" Title="Angiotensin II receptor blockers" Url="http://www.mayoclinic.com/health/angiotensin-II-receptor-blockers/HI00054" />
+		<LinkItem ContentType="Article" DocID="HI00059" LinkType="Internal" ObjectID="1D095753-6FDD-4079-AF6DA015DA2BD68F" Title="Beta blockers" Url="http://www.mayoclinic.com/health/beta-blockers/HI00059" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+		<LinkItem ContentType="Disease" DocID="DS00540" LinkType="Internal" ObjectID="58565513-DD50-442D-BB431A1AF892A492" Title="Marfan syndrome" Url="http://www.mayoclinic.com/health/marfan-syndrome/DS00540" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,76 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00053
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00053
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			729B1651-E7FF-0DBD-1F1E7C59238D0D46
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy eating tips
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy cooking
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy diet
+			</MetaKeyword>
+			<MetaKeyword>
+				cooking
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		One-pot meals for healthy eating
+	</Title>
+	<Body>
+		&lt;p&gt;Short on time but still want to stick to your healthy eating plan? For quick and simple cooking, choose a dish that serves as a full meal. Four healthy examples: 1. Beef, barley and vegetable stew. 2. Chicken, vegetable and rice casserole. 3. Turkey and bean casserole with tomatoes. 4. Vegetarian chili with beans and diced vegetables.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,383 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01050
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/anhidrosis/DS01050
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2168" Title="Sweating and body odor">
+						<Keyword MCVID="3303" Title="Anhidrosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D8F4DB1E-E7FF-0DBD-115C46F3A1453403
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anhidrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hypohidrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				sweating
+			</MetaKeyword>
+			<MetaKeyword>
+				sweating disorders
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anhidrosis is the inability to sweat normally. When you don&apos;t perspire, your body can&apos;t cool itself, which can lead to overheating and sometimes to heatstroke &amp;mdash; a potentially fatal condition.
+&lt;/p&gt;
+&lt;p&gt;
+Anhidrosis &amp;mdash; sometimes called hypohidrosis &amp;mdash; can be difficult to diagnose. Mild anhidrosis often goes unrecognized, and dozens of factors can cause the condition, including skin trauma and certain diseases and medications. You can inherit anhidrosis or develop it later in life.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of anhidrosis involves addressing the underlying cause, if one can be found. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of anhidrosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Little or no perspiration&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Muscle cramps or weakness&lt;/li&gt;
+	&lt;li&gt;Flushing&lt;/li&gt;
+	&lt;li&gt;Feeling hot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A lack of perspiration can occur:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Over most of your body&lt;/li&gt;
+	&lt;li&gt;In a single area&lt;/li&gt;
+	&lt;li&gt;In scattered patches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unaffected areas may try to compensate by producing more perspiration, so it&apos;s possible to sweat profusely on one part of your body and very little or not at all on another. Anhidrosis that affects a large portion of your body prevents proper cooling, so vigorous exercise, hard physical work and hot weather can cause heat cramps, heat exhaustion or even heatstroke.
+&lt;/p&gt;
+&lt;p&gt;
+Anhidrosis can develop on its own or as one of several signs and symptoms of another disorder, such as diabetes, neuropathy or psoriasis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you barely sweat, even when it&apos;s hot or you&apos;re working or exercising strenuously, talk to your doctor. Talk to your doctor if you notice you&apos;re sweating less than usual. Because anhidrosis increases your risk of heatstroke, seek medical care if you develop any signs or symptoms of a heat-related illness, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Rapid heartbeat&lt;/li&gt;
+	&lt;li&gt;Goose pimples on the skin, despite warm temperatures&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anhidrosis occurs when your sweat glands stop working, and this can happen for a number of reasons.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve damage&lt;br /&gt;
+&lt;/strong&gt;Your autonomic nervous system regulates involuntary actions, such as digestion, heartbeat, blood pressure and body temperature. Injuries to your nerves that control this system can affect the functioning of your sweat glands.
+&lt;/p&gt;
+&lt;p&gt;
+Many illnesses can damage your autonomic nerves, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ross syndrome, a peripheral nerve disorder&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Alcoholism&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Multiple system atrophy, a progressive, neurodegenerative disorder&lt;/li&gt;
+	&lt;li&gt;Amyloidosis, caused by a buildup of substances called amyloid proteins in your organs&lt;/li&gt;
+	&lt;li&gt;Sjogren&apos;s syndrome, which causes dry eyes and mouth&lt;/li&gt;
+	&lt;li&gt;Small cell lung cancer&lt;/li&gt;
+	&lt;li&gt;Rare metabolic disorders, such as Fabry disease&lt;/li&gt;
+	&lt;li&gt;Horner syndrome, which damages nerves in your face and eye&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin damage&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clogged ducts.&lt;/strong&gt; Skin diseases or conditions that block sweat ducts (poral occlusion) are the most common cause of anhidrosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin injuries.&lt;/strong&gt; Physical injury to your skin, especially from severe burns, can permanently damage your sweat glands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Certain medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Many prescription medications &amp;mdash; including some for heart and blood pressure, bladder control, nausea and psychiatric conditions &amp;mdash; can reduce sweating.&lt;/li&gt;
+	&lt;li&gt;Perspiration usually returns to normal when the medications are stopped.&lt;/li&gt;
+	&lt;li&gt;If you develop anhidrosis after starting a new medication, let your doctor know.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic factors&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Some genetic disorders cause sweat glands to malfunction.&lt;/li&gt;
+	&lt;li&gt;Hypohidrotic ectodermal dysplasia, an inherited disorder, causes the body to develop with few, if any, sweat glands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dehydration&lt;br /&gt;
+&lt;/strong&gt;This occurs when your body doesn&apos;t have enough fluids to carry out its normal functions. In the most serious cases, dehydration can interfere with your ability to sweat.
+&lt;/p&gt;
+&lt;p&gt;
+Dehydration may be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An intense bout of diarrhea and vomiting&lt;/li&gt;
+	&lt;li&gt;A very high fever&lt;/li&gt;
+	&lt;li&gt;Excessive sweating without replacing lost fluids&lt;/li&gt;
+	&lt;li&gt;Increased urination &amp;mdash; often as a result of undiagnosed or uncontrolled diabetes mellitus or diabetes insipidus&lt;/li&gt;
+	&lt;li&gt;Alcohol and certain medications, such as diuretics, antihistamines, blood pressure medications and some psychiatric drugs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors make anhidrosis more likely, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; As you grow older, your ability to sweat normally may diminish, usually because your body has more trouble regulating its temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain health problems.&lt;/strong&gt; Any medical condition that damages your autonomic nerves makes sweat gland problems more likely. Diabetes is a common condition that can cause nerve damage, but a number of other diseases can injure both nerves and sweat glands, often in a specific area, such as your legs or face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin disorders.&lt;/strong&gt; Many diseases that irritate or inflame the skin also affect the sweat glands. Anhidrosis can occur with a number of skin disorders, including psoriasis; exfoliative dermatitis, which is marked by severe skin scaling; heat rash; scleroderma, which causes hard, tight skin; and ichthyosis &amp;mdash; extremely dry, scaly skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic abnormalities.&lt;/strong&gt; Mutations in certain genes can lead to disorders that affect the sweat glands.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heat-related illnesses are the most serious complications of anhidrosis. Children are especially vulnerable because their core temperatures rise faster than adults, and they dissipate heat less efficiently. All children should be monitored closely for overheating, but extra precautions should be taken when a child has anhidrosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Heat-related problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heat cramps.&lt;/strong&gt; These muscle spasms, which can tighten muscles in your legs, arms, abdomen and back, are generally more painful and prolonged than are typical nighttime leg cramps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat exhaustion&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Symptoms, such as weakness, nausea and a rapid heartbeat, usually begin after strenuous exercise. Anyone with heat exhaustion should be monitored carefully because symptoms can quickly become worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heatstroke.&lt;/strong&gt; This life-threatening condition occurs when your body temperature reaches 104 F (40 C) or higher. If not treated immediately, heatstroke can cause hallucinations, loss of consciousness, coma and even death.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do to prepare, such as modifying your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; It can be difficult to remember all the information during an appointment. Someone who accompanies you may remember something you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For anhidrosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why don&apos;t certain parts of my body sweat?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What caused this condition?&lt;/li&gt;
+	&lt;li&gt;Will I always have this condition?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;How can I best manage this condition with my other health conditions?&lt;/li&gt;
+	&lt;li&gt;Should I restrict any activities?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice you weren&apos;t sweating?&lt;/li&gt;
+	&lt;li&gt;What parts of your body don&apos;t perspire?&lt;/li&gt;
+	&lt;li&gt;Are you aware of others in your family with similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any other symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Did you first notice symptoms when you changed a medication or were diagnosed with another illness?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor is likely to suspect anhidrosis based on your signs and symptoms, a thorough medical history, and physical exam, but you may need certain tests to confirm the diagnosis. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Axon reflex test.&lt;/strong&gt; In a test called a quantitative sudomotor axon reflex test (QSART or QSWEAT), small electrodes placed on your forearm, leg and foot activate the nerves that supply your sweat glands. The volume of sweat produced by this stimulation is then measured. You may feel a mild tingling or slight burning sensation during the test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Silastic sweat imprint.&lt;/strong&gt; This test measures the size distribution of perspiration by taking an imprint of drops of sweat in a rubbery material (Silastic). As in the axon reflex test, small electrodes are used on the hand and foot to stimulate sweating. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thermoregulatory sweat test.&lt;/strong&gt; During this test, you&apos;re coated with a powder that changes color when and where you sweat. You then enter a chamber that causes your body temperature to increase to a level that makes most people perspire. Digital photos document the results, and the whole body surface can be tested at once. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; In some cases, your doctor might request a biopsy of the area suspected of anhidrosis. For this test, skin cells and sometimes sweat glands are removed for examination under a microscope. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes the cause of anhidrosis or hypohidrosis can&apos;t be found. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of thermoregulatory sweat test 
+" Caption="Moisture-sensitive powder indicates the presence of excessive sweating (top) compared with normal-appearing hands (bottom) after hyperhidrosis surgery. 
+" Height="60" Title="Thermoregulatory sweat test" URI="/images/image_popup/thumbs/mcdc7_thermoregthu.jpg" Width="60" />
+				<Image Alt="Image of thermoregulatory sweat test 
+" Caption="Moisture-sensitive powder indicates the presence of excessive sweating (top) compared with normal-appearing hands (bottom) after hyperhidrosis surgery. 
+" Height="500" Title="Thermoregulatory sweat test" URI="/images/image_popup/mcdc7_thermoreg.jpg" Width="400" />
+				<HTML>
+					Moisture-sensitive powder indicates the presence of excessive sweating (top) compared with normal-appearing hands (bottom) after hyperhidrosis surgery. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment isn&apos;t always necessary&lt;br /&gt;
+&lt;/strong&gt;Anhidrosis that affects a small part of your body usually isn&apos;t a problem and doesn&apos;t need treatment. But large areas of decreased perspiration can be life-threatening. Treatments may be available for the condition that&apos;s causing the anhidrosis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating heat-related problems&lt;br /&gt;
+&lt;/strong&gt;Overheating needs prompt treatment to prevent symptoms from becoming worse.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heat cramps&lt;br /&gt;
+&lt;/strong&gt;To relieve cramping:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rest and cool down.&lt;/li&gt;
+	&lt;li&gt;Drink cool fruit juice or a sports drink that contains electrolytes.&lt;/li&gt;
+	&lt;li&gt;Get medical care if cramps become worse or don&apos;t go away in about an hour.&lt;/li&gt;
+	&lt;li&gt;Wait at least several hours before returning to strenuous activity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heat exhaustion&lt;br /&gt;
+&lt;/strong&gt;When someone develops symptoms of heat exhaustion, such as nausea, dizziness and a rapid heartbeat, act quickly:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Move the person into a shady or air-conditioned space, and elevate his or her legs slightly.&lt;/li&gt;
+	&lt;li&gt;Loosen the person&apos;s clothing, and remove any heavy pieces of clothing.&lt;/li&gt;
+	&lt;li&gt;Have the person drink cool, not iced, water or a sports drink that contains electrolytes.&lt;/li&gt;
+	&lt;li&gt;Spray or sponge the person with cool water.&lt;/li&gt;
+	&lt;li&gt;If symptoms don&apos;t improve quickly, call 911 or emergency medical help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heatstroke&lt;br /&gt;
+&lt;/strong&gt;Heatstroke requires immediate medical care. This condition can be fatal if left untreated. Until help arrives:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Move the person into the shade or an air-conditioned space.&lt;/li&gt;
+	&lt;li&gt;Start the cooling process by spraying the skin with water or wrapping the person in wet towels or sheets, and use a fan or newspaper to increase air circulation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anhidrosis often can&apos;t be prevented, but serious heat-related illnesses can. To stay safe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear loose, light clothing&lt;/strong&gt; when it&apos;s warm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t overdress.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay indoors&lt;/strong&gt; on hot days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t overdo.&lt;/strong&gt; Monitor your activity level closely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn more.&lt;/strong&gt; Know the signs of heat-related illness and how to treat them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Anhidrosis
+	</Title>
+	<Abstract>
+		Anhidrosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this inability to sweat normally.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00305" LinkType="Internal" ObjectID="43CB5F79-2B33-4F96-B7D06EC696826071" Title="Sweating and body odor" Url="http://www.mayoclinic.com/health/sweating-and-body-odor/DS00305" />
+	</RelatedLinksBox>
+</Disease>

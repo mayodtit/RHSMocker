@@ -1,0 +1,185 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00428
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00428
+		</OriginalURL>
+		<UpdateDate>
+			2008-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			41100B45-A99B-471C-80B9BC385F22F4F0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Grilled mango chutney
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Chutney is a relish of fruit simmered with vinegar and spices. Serve this version at room temperature over chicken or rice or chill and spread over English muffins.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.&lt;/p&gt;
+
+&lt;p&gt;Arrange the mango on the grill rack or broiler pan. Grill or broil on medium heat, turning often, until slightly browned and softened, about 2 to 3 minutes on each side.&lt;/p&gt;
+
+&lt;p&gt;Remove from the mango from the grill and let cool for a few minutes. Transfer the mango to a cutting board and chop into small chunks.&lt;/p&gt;
+
+&lt;p&gt;Place the mango in a large saucepan. Add the sugar, onion, vinegar, bell pepper and spices. Bring the mixture to a boil. Reduce heat to low and simmer, uncovered. Cook, stirring occasionally, until the pepper and onion are soft, about 5 to 7 minutes. Remove from heat and let cool to room temperature. Serve immediately or cover and refrigerate for up to 1 week.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 mango, peeled and pitted&lt;br /&gt;
+1/4 cup sugar&lt;br /&gt;
+1/4 cup chopped red onion&lt;br /&gt;
+2 tablespoons cider vinegar&lt;br /&gt;
+2 tablespoons finely chopped green bell pepper&lt;br /&gt;
+1 tablespoon grated fresh ginger&lt;br /&gt;
+1/2 teaspoon ground ginger&lt;br /&gt;
+1/8 teaspoon ground cloves&lt;br /&gt;
+1/4 teaspoon chopped fresh rosemary&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				44
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				11 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				trace
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				2 tablespoons
+			</Servingsize>
+			<Sodium Label="Sodium">
+				1 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				0 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Course">
+			Sauces and dressings
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

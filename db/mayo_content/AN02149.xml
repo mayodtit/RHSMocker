@@ -1,0 +1,113 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02149
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fluzone/AN02149
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-29
+		</UpdateDate>
+		<PublicationDate>
+			2011-07-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1594" Title="Influenza" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7EA8FEFA-0BD9-FA88-25F60FD3C7098E38
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fluzone
+			</MetaKeyword>
+			<MetaKeyword>
+				fluzone high-dose
+			</MetaKeyword>
+			<MetaKeyword>
+				flu vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				older people
+			</MetaKeyword>
+			<MetaKeyword>
+				elderly
+			</MetaKeyword>
+			<MetaKeyword>
+				flu shot
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Fluzone High-Dose is an injected flu vaccine formulated for people age 65 years and older. Like other flu vaccines, Fluzone High-Dose is made up of the three flu strains most likely to cause the flu during the upcoming season. The high-dose vaccine, however, contains four times as much flu virus antigen &amp;mdash; the part of the vaccine that stimulates the immune system &amp;mdash; as regular Fluzone and other standard flu vaccines. 
+&lt;/p&gt;
+&lt;p&gt;
+In response to a regular flu shot, older people produce 50 to 75 percent fewer antibodies, which protect against the vaccine antigens, than do younger adults. Evidence that a high-dose flu vaccine can compensate for this difference comes from studies that found higher post-vaccine antibody levels in older people who received high-dose flu vaccine than in those who received standard flu vaccine. But whether higher antibody levels actually translate into fewer cases of the flu in this age group is unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+In the largest of three clinical studies comparing high-dose and standard-dose flu vaccine, those who received the high-dose vaccine were more likely to develop side effects, such as fever and soreness at the injection site, during the week after vaccination. 
+&lt;/p&gt;
+&lt;p&gt;
+The risks of flu complications are highest for people age 65 years and older, so protecting older people from the flu is particularly important. The Food and Drug Administration accelerated its approval of Fluzone High-Dose on the condition that studies will continue to evaluate the new vaccine&apos;s effect on seasonal flu outcomes, such as cases of flu and flu complications, in older people. If, over the next few years, Fluzone High-Dose turns out to be superior to regular flu vaccine by these measures, high-dose vaccine may become the vaccine of choice for older people. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fluzone High-Dose: What distinguishes it from other flu vaccines?
+	</Title>
+	<Abstract>
+		Fluzone High-Dose is a flu vaccine for older people.
+	</Abstract>
+	<Question>
+		How does Fluzone High-Dose differ from other flu vaccines?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
+	</RelatedLinksBox>
+</Answer>

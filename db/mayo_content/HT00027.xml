@@ -1,0 +1,67 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00027
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00027
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7269BF1C-E7FF-0DBD-1E68C8085A5966A5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				food safety
+			</MetaKeyword>
+			<MetaKeyword>
+				leftovers
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		How long can you keep leftovers?
+	</Title>
+	<Body>
+		&lt;p&gt;Keep leftovers in the fridge no more than four days to prevent food poisoning. If you won&apos;t eat leftovers that quickly, freeze them immediately. For best food safety, refrigerate perishable foods, such as meat, poultry, fish, dairy, eggs and casseroles, within two hours, or within one hour in temperatures above 90 F (32 C). Then reheat thoroughly before eating. Uncooked foods, such as cold salads or sandwiches, also should be eaten or refrigerated promptly.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,332 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00414
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/respiratory-syncytial-virus/DS00414
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-29
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="1152" Title="Respiratory infection">
+						<Keyword MCVID="4282" Title="Respiratory syncytial virus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4F4E09D8-30A8-493C-9D703AEE3DF47DEC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				respiratory syncytial virus
+			</MetaKeyword>
+			<MetaKeyword>
+				respiratory syncytial virus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				respiratory infection
+			</MetaKeyword>
+			<MetaKeyword>
+				RSV
+			</MetaKeyword>
+			<MetaKeyword>
+				RSV virus
+			</MetaKeyword>
+			<MetaKeyword>
+				RS virus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Respiratory syncytial virus (RSV) is a virus that causes infections of the lungs and respiratory tract. It&apos;s so common that most children have been infected with the virus by age 2. Respiratory syncytial (sin-SISH-ul) virus can also infect adults. 
+&lt;/p&gt;
+&lt;p&gt;
+In adults and older, healthy children, the symptoms of respiratory syncytial virus are mild and typically mimic the common cold. Self-care measures are usually all that&apos;s needed to relieve any discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+Infection with respiratory syncytial virus can be severe in some cases, especially in premature babies and infants with underlying health conditions. RSV can also become serious in older adults, adults with heart and lung diseases, or anyone with a very weak immune system (immunocompromised). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of respiratory syncytial virus infection typically appear about four to six days after exposure to the virus. In adults and older children, RSV usually causes mild cold-like signs and symptoms. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Congested or runny nose&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Mild headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;In severe cases&lt;/strong&gt; &lt;br /&gt;
+Respiratory syncytial virus can lead to a lower respiratory tract illness such as pneumonia or bronchiolitis &amp;mdash; an inflammation of the small airway passages entering the lungs. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Severe cough&lt;/li&gt;
+	&lt;li&gt;Wheezing &amp;mdash; a high-pitched noise that&apos;s usually heard on breathing out (exhaling) &lt;/li&gt;
+	&lt;li&gt;Rapid breathing or difficulty breathing, which may make the child prefer to sit up rather than lie down&lt;/li&gt;
+	&lt;li&gt;Bluish color of the skin due to lack of oxygen (cyanosis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Infants are most severely affected by RSV. They may markedly draw in their chest muscles and the skin between their ribs, indicating that they&apos;re having trouble breathing, and their breathing may be short, shallow and rapid. They may cough. Or they may show few, if any, signs of a respiratory tract infection, but will eat poorly and be unusually lethargic and irritable. 
+&lt;/p&gt;
+&lt;p&gt;
+Most children and adults recover from the illness in one to two weeks. But in young babies, infants born prematurely, or infants or adults who have chronic heart or lung problems, the virus may cause a more severe &amp;mdash; occasionally life-threatening &amp;mdash; infection that requires hospitalization. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Most cases of respiratory syncytial virus infection aren&apos;t life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek immediate medical attention if your child &amp;mdash; or anyone at risk of severe disease &amp;mdash; experiences difficulty breathing, runs a high fever or turns blue, particularly on the lips and in the nail beds. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Respiratory syncytial virus enters your body through your eyes, nose or mouth. It spreads easily when infectious respiratory secretions &amp;mdash; such as those from coughing or sneezing &amp;mdash; are inhaled or passed to others through direct contact, such as shaking hands. The virus can also live for hours on objects such as countertops and toys. Touch your mouth, nose or eyes after touching a contaminated object, and you&apos;re likely to acquire the virus. 
+&lt;/p&gt;
+&lt;p&gt;
+An infected person is most contagious in the first few days after infection, but respiratory syncytial virus may spread for up to a few weeks after the start of infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+By age 2, most children will have been infected with respiratory syncytial virus. Children who attend child care centers or who have siblings who attend school are at a higher risk of exposure. So are infants who are exposed to high levels of air pollution or cigarette smoke. Susceptibility is also greater during the peak RSV season, which typically begins in the fall and ends in the spring. 
+&lt;/p&gt;
+&lt;p&gt;
+People at increased risk of severe &amp;mdash; sometimes life-threatening &amp;mdash; infections include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infants younger than 6 months of age&lt;/li&gt;
+	&lt;li&gt;Younger children, especially under 1 year of age, who were born prematurely or who have an underlying condition, such as congenital heart or lung disease&lt;/li&gt;
+	&lt;li&gt;Children with weakened immune systems, such as those undergoing chemotherapy or transplantation&lt;/li&gt;
+	&lt;li&gt;Older adults&lt;/li&gt;
+	&lt;li&gt;Adults with asthma, congestive heart failure or chronic obstructive pulmonary disease&lt;/li&gt;
+	&lt;li&gt;People with immunodeficiency, including those with certain transplanted organs, leukemia or HIV/AIDS&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of respiratory syncytial virus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hospitalization.&lt;/strong&gt; When respiratory syncytial virus infection causes severe illness, hospitalization may be required so that doctors can monitor and treat breathing problems and give intravenous (IV) fluids. Most at risk of hospitalization are babies younger than 6 months old, babies who are born prematurely, and babies with congenital heart or lung disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonia or bronchiolitis.&lt;/strong&gt; When the respiratory syncytial virus moves from your upper respiratory tract to your lower respiratory tract, inflammation of the lungs (pneumonia) or the lungs&apos; airways (bronchiolitis) can result. This complication can be quite serious in infants, young children, immunocompromised individuals, or people with chronic heart or lung disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Middle ear infection.&lt;/strong&gt; When microorganisms infiltrate the space behind the eardrum, a middle ear infection (otitis media) can result. This happens most frequently in infants and young children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma.&lt;/strong&gt; There may be a link between severe respiratory syncytial virus and the chance of developing asthma later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurring infections.&lt;/strong&gt; Once you&apos;ve been infected with the virus, it&apos;s common to have an occasional recurrence of RSV, usually in the form of a common cold. Although subsequent infections typically aren&apos;t as severe as the first, they can be serious in older adults or people with chronic heart or lung disease. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or your child&apos;s doctor. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you or your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to an upper respiratory infection, and when they started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; such as if your child was born prematurely or if he or she has a heart or lung problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down details about child care&lt;/strong&gt; or other potential exposures to respiratory infections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For respiratory syncytial virus, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing these symptoms? Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What tests might be needed?&lt;/li&gt;
+	&lt;li&gt;How long do symptoms usually last?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Will I or my child need to take medication? If you&apos;re prescribing a brand-name medication, is there a generic alternative?&lt;/li&gt;
+	&lt;li&gt;What can I do to make my child feel better?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;To what extent should I isolate my child while infected?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice symptoms?&lt;/li&gt;
+	&lt;li&gt;Have symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your or your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen symptoms?&lt;/li&gt;
+	&lt;li&gt;Is anyone else in the family ill? What symptoms does he or she have?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If your child has a fever, you can give him or her acetaminophen (Tylenol, others). Have your child drink plenty of fluids to prevent dehydration. Keeping your child upright and the air moist with a humidifier also may help ease congestion. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect respiratory syncytial virus based on a physical exam and the time of year of the infection. During the exam, he or she may listen to the lungs with a stethoscope to check for wheezing or other abnormal sounds. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also use: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Painless skin monitoring (pulse oximetry) to check whether the level of oxygen available in the bloodstream is lower than usual&lt;/li&gt;
+	&lt;li&gt;Blood tests to check white cell counts or to look for the presence of viruses, bacteria or other organisms&lt;/li&gt;
+	&lt;li&gt;Chest X-rays to check for pneumonia&lt;/li&gt;
+	&lt;li&gt;Lab tests of respiratory secretions from your nose that check for the virus&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for respiratory syncytial virus generally involves self-care measures to make your child more comfortable (supportive care). But in severe cases, hospital care may be needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive care&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend an over-the-counter medication such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) to reduce fever. He or she may also prescribe an antibiotic if there&apos;s a bacterial complication, such as bacterial pneumonia. 
+&lt;/p&gt;
+&lt;p&gt;
+Otherwise, keep your child as comfortable as possible. Offer plenty of fluids and watch for signs of dehydration, such as dry mouth, little to no urine output, sunken eyes and extreme fussiness or sleepiness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospital care&lt;/strong&gt; &lt;br /&gt;
+Hospital care for RSV in severe cases may be necessary to provide intravenous (IV) fluids and humidified oxygen. Hospitalized infants and children may also be hooked up to mechanical ventilation &amp;mdash; a breathing machine &amp;mdash; to ease breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+In some severe cases, a nebulized bronchodilator such as albuterol (Proventil, Ventolin) may be used to relieve wheezing. This medication opens air passages in the lungs. Nebulized means it&apos;s administered as a fine mist that you breathe in. Occasionally, a nebulized form of ribavirin (Rebetol), an antiviral agent, may be used. Your doctor may also recommend an injection of epinephrine or a form of epinephrine that can be inhaled through a nebulizer (racemic epinephrine) to relieve symptoms of RSV infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may not be able to shorten the duration of a respiratory syncytial virus infection, but you can try to relieve some signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has the infection, do your best to comfort or distract him or her &amp;mdash; cuddle, read a book or play a quiet game. Other tips for relieving symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Create moist air to breathe.&lt;/strong&gt; Keep your room or your child&apos;s room warm but not overheated. If the air is dry, a cool-mist humidifier or vaporizer can moisten the air and help ease congestion and coughing. Be sure to keep the humidifier clean, to prevent the growth of bacteria and molds. An ideal indoor humidity is around 50 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sit in an upright position.&lt;/strong&gt; Sitting upright makes breathing easier. Placing your infant in a car seat may help. When sleeping, place your infant on his or her back on a firm mattress as usual, but elevate the head of the mattress about 3 inches (7.6 centimeters) with an object underneath the mattress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink fluids.&lt;/strong&gt; Keep a steady supply of cool water at the bedside, and offer warm fluids, such as soup, which may help loosen thickened secretions. Ice pops may be soothing as well. Continue breast-feeding or bottle-feeding your infant as you would normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try saline nasal drops.&lt;/strong&gt; Over-the-counter (OTC) drops are a safe, effective way to ease congestion, even for young children. Drip several drops into one nostril to loosen hardened mucus, then immediately suction that nostril, using a bulb syringe. Repeat the process in the other nostril. Do this before feedings and before putting your baby down to sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use over-the-counter pain relievers.&lt;/strong&gt; OTC pain relievers such as acetaminophen (Tylenol, others) may help reduce fever, relieve a sore throat and improve ability to drink fluids. Check with your doctor about age-appropriate use and doses of such medications. Don&apos;t use them to suppress low-grade fevers under 100.9 F (38.3 C).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eliminate exposure to cigarette smoke.&lt;/strong&gt; Stay away from cigarette smoke because it can aggravate symptoms. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No vaccine exists for respiratory syncytial virus. But common-sense precautions can help prevent the spread of this infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands frequently.&lt;/strong&gt; Do so particularly before touching your baby, and teach your children the importance of hand-washing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid exposure.&lt;/strong&gt; Limit your infant&apos;s contact with people who have fevers or colds. This is especially important in premature babies and all infants in the first 2 months of life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep things clean.&lt;/strong&gt; Make sure countertops are clean in the kitchen and bathrooms, especially when someone in your family has a cold. Discard used tissues right away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share drinking glasses with others.&lt;/strong&gt; Use your own glass or disposable cups when you or someone else is sick. Label each person&apos;s cup.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Infants who are exposed to tobacco smoke have a higher risk of contracting RSV and potentially more severe symptoms. If you do smoke, never do so inside the house or car.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash toys regularly.&lt;/strong&gt; Do this especially when your child or a playmate is sick.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Protective medication&lt;/strong&gt; &lt;br /&gt;
+The medication palivizumab (Synagis) can help protect children under age 2 who are at high risk of serious complications when they get RSV, such as those born prematurely or with congenital heart or lung disease. The medicine is given monthly for five months during the peak season. The medication isn&apos;t helpful in treating respiratory syncytial virus infection once it has developed. 
+&lt;/p&gt;
+&lt;p&gt;
+Scientists are working to find a vaccine against the respiratory syncytial virus not only in infants but also in older adults and high-risk adults. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Respiratory syncytial virus (RSV)
+	</Title>
+	<Abstract>
+		Respiratory syncytial virus &amp;mdash; Comprehensive overview covers symptoms, treatment, self-care of this common respiratory infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

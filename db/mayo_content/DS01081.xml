@@ -1,0 +1,313 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01081
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stretch-marks/DS01081
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="3176" Title="Stretch marks" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A8DD0CE-E7FF-0DBD-1AF936C2F78F0689
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stretch marks
+			</MetaKeyword>
+			<MetaKeyword>
+				stretch mark
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy stretch marks
+			</MetaKeyword>
+			<MetaKeyword>
+				striae
+			</MetaKeyword>
+			<MetaKeyword>
+				stria
+			</MetaKeyword>
+			<MetaKeyword>
+				striae gravidarum
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stretch marks (striae) are pink, red or purple indented streaks that often appear on the abdomen, breasts, upper arms, buttocks and thighs and eventually fade to white or gray. Stretch marks are particularly common in pregnant women, especially during the latter half of pregnancy. Treatment can make stretch marks fade, but it won&apos;t completely remove them.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing stretch marks on arm 
+" Caption="Some men and women are prone to develop stretch marks on the upper arms, abdomen, buttocks and thighs. These changes tend to occur during puberty but also can be seen with weight loss. New stretch marks are bright red or purple, while older stretch marks appear white or gray. 
+" Height="60" Title="Stretch marks on arm" URI="/images/image_popup/thumbs/sn7_stretchmarks2thu.jpg" Width="60" />
+				<Image Alt="Image showing stretch marks on arm 
+" Caption="Some men and women are prone to develop stretch marks on the upper arms, abdomen, buttocks and thighs. These changes tend to occur during puberty but also can be seen with weight loss. New stretch marks are bright red or purple, while older stretch marks appear white or gray. 
+" Height="280" Title="Stretch marks on arm" URI="/images/image_popup/sn7_stretchmarks2.jpg" Width="400" />
+				<HTML>
+					Some men and women are prone to develop stretch marks on the upper arms, abdomen, buttocks and thighs. These changes tend to occur during puberty but also can be seen with weight loss. New stretch ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stretch marks don&apos;t all look alike. They vary depending on how long you&apos;ve had them, what caused them and where they are on your body, as well as on the type of skin you have. Common variations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Indented streaks or lines in the skin&lt;/li&gt;
+	&lt;li&gt;Multiple pink, red or purple streaks&lt;/li&gt;
+	&lt;li&gt;Bright streaks that fade to a light pink, white or grayish color&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stretch marks are common on the abdomen, breasts, upper arms, buttocks and thighs. Sometimes they can cover large areas of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you&apos;re concerned about the appearance of your skin or if the stretch marks cover large areas of your body. Your doctor can help determine the cause of the stretch marks and can discuss possible treatment options. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing stretch marks in pregnancy 
+" Caption="Stretch marks are common in pregnant women, especially during the last half of pregnancy. They often fade to light pink to grayish stripes, but they don&apos;t usually disappear. 
+" Height="60" Title="Stretch marks in pregnancy" URI="/images/image_popup/thumbs/sn7_stretchmarks1thu.jpg" Width="60" />
+				<Image Alt="Image showing stretch marks in pregnancy 
+" Caption="Stretch marks are common in pregnant women, especially during the last half of pregnancy. They often fade to light pink to grayish stripes, but they don&apos;t usually disappear. 
+" Height="280" Title="Stretch marks in pregnancy" URI="/images/image_popup/sn7_stretchmarks1.jpg" Width="400" />
+				<HTML>
+					Stretch marks are common in pregnant women, especially during the last half of pregnancy. They often fade to light pink to grayish stripes, but they don&apos;t usually disappear. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing stretch marks on arm 
+" Caption="Some men and women are prone to develop stretch marks on the upper arms, abdomen, buttocks and thighs. These changes tend to occur during puberty but also can be seen with weight loss. New stretch marks are bright red or purple, while older stretch marks appear white or gray. 
+" Height="60" Title="Stretch marks on arm" URI="/images/image_popup/thumbs/sn7_stretchmarks2thu.jpg" Width="60" />
+				<Image Alt="Image showing stretch marks on arm 
+" Caption="Some men and women are prone to develop stretch marks on the upper arms, abdomen, buttocks and thighs. These changes tend to occur during puberty but also can be seen with weight loss. New stretch marks are bright red or purple, while older stretch marks appear white or gray. 
+" Height="280" Title="Stretch marks on arm" URI="/images/image_popup/sn7_stretchmarks2.jpg" Width="400" />
+				<HTML>
+					Some men and women are prone to develop stretch marks on the upper arms, abdomen, buttocks and thighs. These changes tend to occur during puberty but also can be seen with weight loss. New stretch ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing widespread stretch marks 
+" Caption="Stretch marks can cover large areas of the body, but it happens rarely. This can result from corticosteroid medication use or a disease such as Cushing&apos;s syndrome. 
+" Height="60" Title="Widespread stretch marks" URI="/images/image_popup/thumbs/sn7_stretchmarks3thu.jpg" Width="60" />
+				<Image Alt="Image showing widespread stretch marks 
+" Caption="Stretch marks can cover large areas of the body, but it happens rarely. This can result from corticosteroid medication use or a disease such as Cushing&apos;s syndrome. 
+" Height="280" Title="Widespread stretch marks" URI="/images/image_popup/sn7_stretchmarks3.jpg" Width="400" />
+				<HTML>
+					Stretch marks can cover large areas of the body, but it happens rarely. This can result from corticosteroid medication use or a disease such as Cushing&apos;s syndrome. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stretch marks seem to be caused, literally, by a stretching of the skin. Stretch marks are more extreme when coupled with an increase in cortisone, a hormone produced by the adrenal glands. Cortisone weakens elastic fibers in the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Stretch marks develop in a variety of circumstances, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Most pregnant women develop stretch marks by the end of their pregnancy. The physical stretching of the skin, along with hormonal factors, likely plays a role. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight gain.&lt;/strong&gt; Stretch marks sometimes occur during substantial weight gain. Weightlifters can develop stretch marks, particularly on the arms. Adolescents may notice stretch marks during growth spurts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication use.&lt;/strong&gt; Corticosteroid creams, lotions and pills and chronic use of oral or systemic steroids can cause stretch marks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conditions or diseases.&lt;/strong&gt; Cushing&apos;s syndrome and adrenal gland diseases can cause widespread stretch marks, as can Marfan syndrome, Ehlers-Danlos syndrome and other hereditary (genetic) disorders.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can get stretch marks, but some factors increase your likelihood of getting them, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being female &lt;/li&gt;
+	&lt;li&gt;Having a family history of stretch marks &lt;/li&gt;
+	&lt;li&gt;Having been pregnant, especially for younger women&lt;/li&gt;
+	&lt;li&gt;Being overweight or obese &lt;/li&gt;
+	&lt;li&gt;Rapidly gaining or losing weight, as in the case of pregnancy&lt;/li&gt;
+	&lt;li&gt;Using corticosteroid medication&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Jotting down a list of questions will help you make the most of your appointment time. List your questions from most important to least important. For stretch marks, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my stretch marks?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions at any time during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you several questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the stretch marks?&lt;/li&gt;
+	&lt;li&gt;Do you have other symptoms?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+	&lt;li&gt;Do you regularly use cortisone skin creams?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stretch marks are typically diagnosed based on an examination of your skin and a review of your medical history. Your doctor will ask questions about your signs and symptoms, medications you&apos;re taking, and any known medical conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects there is an increase in your cortisol production, he or she may recommend additional tests. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although they may be a cosmetic concern, stretch marks are harmless and often fade over time. They don&apos;t require medical treatment. If you do seek treatment for stretch marks, know that treatments are only partially effective and won&apos;t remove the stretch marks completely.
+&lt;/p&gt;
+&lt;p&gt;
+The following treatments are among those available to help improve the appearance of stretch marks. None has been proved to be more consistently successful than the others. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tretinoin cream.&lt;/strong&gt; Some research has shown that tretinoin cream (Retin-A, Renova, Avita) may improve the appearance of recent stretch marks &amp;mdash; those that are less than a few months old and still pink or red in color. If you&apos;re pregnant or nursing, your doctor may opt to delay topical retinoid therapy or choose an alternative treatment. Tretinoin, when it works, helps to rebuild collagen, making the stretch mark look more like your normal skin. Tretinoin can irritate your skin. This treatment isn&apos;t effective on older stretch marks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser therapy.&lt;/strong&gt; Laser therapies use intense wavelengths of light to stimulate the growth of collagen, elastin or melanin production in your skin. Your doctor can help you determine which type of laser technology is appropriate for you, depending on the age and location of your stretch marks and your skin color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Microdermabrasion.&lt;/strong&gt; This type of treatment involves a hand-held device that blows crystals onto skin. These crystals gently abrade, or &quot;polish,&quot; the skin&apos;s surface. Then, a vacuum tube removes the crystals and skin cells. Microdermabrasion gently removes the skin&apos;s topmost layer, prompting the growth of new, more-elastic skin. This therapy is an option for older stretch marks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Work with your doctor to choose the most appropriate treatment. Factors to consider include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Age of the stretch marks&lt;/li&gt;
+	&lt;li&gt;Convenience of treatment &amp;mdash; therapies differ in length and frequency of sessions&lt;/li&gt;
+	&lt;li&gt;Cost &amp;mdash; these options are cosmetic and usually not covered by medical insurance&lt;/li&gt;
+	&lt;li&gt;Your expectations &amp;mdash; most treatments, at best, are only partially effective&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ve likely seen creams, ointments and other products that claim to prevent or treat stretch marks. These products, often containing cocoa butter, vitamin E or glycolic acid, aren&apos;t harmful, but they probably won&apos;t help much, either.
+&lt;/p&gt;
+&lt;p&gt;
+Stretch marks usually fade and become less noticeable over time and don&apos;t require any specific self-care or home therapy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many alternative therapies claim to treat stretch marks, including the plant extract gotu kola, olive oil, or combinations of botanicals, vitamins and fruit acids. There&apos;s no evidence that these products work. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant, check with your doctor before using alternative products that claim to treat or prevent stretch marks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to prevent stretch marks, even if you rub plenty of creams, oils and lotions on your skin. The best way to reduce the likelihood of getting stretch marks is to maintain a healthy weight. During pregnancy, you&apos;ll gain weight over a relatively brief period. Work with your doctor to avoid excessive weight gain &amp;mdash; not just to minimize stretch marks, but to provide good health to you and your baby &amp;mdash; by eating well and exercising. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stretch marks
+	</Title>
+	<Abstract>
+		Stretch marks &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="PR00142" LinkType="Internal" ObjectID="B2F4745C-2A5D-9994-E1172BF0FCD32365" Title="Postpartum care: What to expect after a vaginal delivery" Url="http://www.mayoclinic.com/health/postpartum-care/PR00142" />
+		<LinkItem ContentType="Disease" DocID="DS00470" LinkType="Internal" ObjectID="375268B4-E673-4ADA-908E8B7EE2E4026A" Title="Cushing&apos;s syndrome" Url="http://www.mayoclinic.com/health/cushings-syndrome/DS00470" />
+	</RelatedLinksBox>
+</Disease>

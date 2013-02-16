@@ -1,0 +1,276 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00833
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lumpectomy/MY00833
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-28
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="4163" Title="Lumpectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2A37C4C4-D0D0-9255-149F5ED8E369DADB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lumpectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				breast lumpectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				lumpectomy surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				lumpectomy pictures
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer lumpectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				breast-conserving surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				breast-sparing surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				partial mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				excisional biopsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lumpectomy (lum-PEK-tuh-me) is surgery to remove cancer or other abnormal tissue from your breast. Lumpectomy is also called breast-conserving or breast-sparing surgery because &amp;mdash; unlike a mastectomy &amp;mdash; only a portion of the breast is removed. Doctors may also refer to lumpectomy as a wide local excision. During lumpectomy, a small amount of normal tissue around the lump (clean margins) also is taken to help ensure that all the cancer or other abnormal tissue is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+Lumpectomy helps confirm a diagnosis of cancer or rule it out. Lumpectomy is also a first treatment option for some women with early-stage breast cancer. In cases where cancer is found, lumpectomy usually is followed by radiation therapy to reduce the chances of cancer returning. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="60" Title="Lumpectomy" URI="/images/image_popup/thumbs/hdg7_lumpectomyincisionthu.jpg" Width="60" />
+				<Image Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="204" Title="Lumpectomy" URI="/images/image_popup/hdg7_lumpectomyincision.jpg" Width="400" />
+				<HTML>
+					During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of lumpectomy is to remove cancer or other abnormal tissue while maintaining the appearance of your breast. Studies indicate that lumpectomy is as effective a treatment as removal of the entire breast (mastectomy) for women with early-stage breast cancer. Your doctor may recommend lumpectomy if a biopsy has shown that you have cancer and that the cancer is believed to be small and early stage. Lumpectomy may also be used to remove certain noncancerous or precancerous breast abnormalities.
+&lt;/p&gt;
+&lt;p&gt;
+You may not be a candidate for lumpectomy for breast cancer if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a history of scleroderma, a group of diseases that harden skin and other tissues&lt;/li&gt;
+	&lt;li&gt;Have a history of systemic lupus erythematosus, a chronic inflammatory disease&lt;/li&gt;
+	&lt;li&gt;Have two or more tumors in different quadrants of your breast&lt;/li&gt;
+	&lt;li&gt;Have previously had radiation treatment to the breast region&lt;/li&gt;
+	&lt;li&gt;Have cancer spread throughout your breast&lt;/li&gt;
+	&lt;li&gt;Have a large tumor and small breasts, which may cause a poor cosmetic result&lt;/li&gt;
+	&lt;li&gt;Don&apos;t have access to radiation therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lumpectomy is a surgical procedure that carries a risk of side effects, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Temporary swelling&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Formation of hard scar tissue at the surgical site&lt;/li&gt;
+	&lt;li&gt;Numbness, particularly under your arm from lymph node removal, that may be lasting&lt;/li&gt;
+	&lt;li&gt;Change in the shape of the breast, particularly if a large portion is removed&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll meet with your surgeon a few days before your lumpectomy. Bring a list of questions to remind you to cover everything you want to know. Make sure you understand the procedure and its risks. You&apos;ll be given instructions about presurgical restrictions and other things you need to know. In most cases, the surgery will be done as an outpatient procedure, so you can go home the same day.
+&lt;/p&gt;
+&lt;p&gt;
+Tell your doctor about any medications, vitamins or supplements you&apos;re taking in case something could interfere with the surgery. In general, to prepare for your lumpectomy, it&apos;s recommended that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking aspirin or other blood-thinning medication.&lt;/strong&gt; Your doctor may ask you to stop taking it a week or longer before the surgery to reduce your risk of bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check with your insurance company&lt;/strong&gt; to determine whether the procedure is covered and if there are restrictions on where you can have it done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t eat or drink 8 to 12 hours before surgery,&lt;/strong&gt; especially if you&apos;re going to have general anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring someone with you.&lt;/strong&gt; Besides offering support, another person is needed to drive you home and listen to postoperative instructions because it may take several hours for the effects of the anesthesia to wear off.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Locating the area to be removed&lt;/strong&gt; &lt;br /&gt;
+Your lumpectomy procedure begins with locating the area of your breast that contains the abnormality. If your breast abnormality was detected on a mammogram and confirmed with a biopsy, your radiologist may have placed a tiny marker or clip in your breast during the biopsy. If this is the case, a thin wire may be inserted in your breast and passed down to the marker or clip. Your surgeon can use the wire as a guide to the precise area that needs to be removed during surgery. If you have a lump or mass in your breast that can be easily felt through the skin, the wire procedure isn&apos;t necessary because the surgeon can more easily find the abnormal area to be removed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for lymph node removal&lt;/strong&gt; &lt;br /&gt;
+Lymph nodes are often removed during surgery to determine whether cancer has spread beyond the breast. In one lymph node procedure called an axillary node dissection, the surgeon removes a number of nodes from your armpit on the side of the tumor. In another lymph node procedure called a sentinel lymph node biopsy, your surgeon removes only the first one or two nodes into which a tumor drains (sentinel nodes). These are then tested for cancer. If no cancer is present, no further lymph nodes need to be removed. If cancer is present, the surgeon will remove more lymph nodes in the armpit. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having sentinel node biopsy, before your surgery a radioactive substance or blue dye or both will be injected into the area around the tumor or the skin above the tumor. The dye will travel to the sentinel node or nodes, allowing your doctor to see where they are and remove them during surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+A lumpectomy is usually performed using anesthesia, which will make you unaware during the procedure. Your surgeon will make an incision over the tumor or over the area that contains the wire, remove the tumor and some surrounding tissue, and send it to the lab for analysis. He or she will do the same for the sentinel lymph node or nodes if you&apos;re having a sentinel node biopsy or the axillary lymph nodes if you&apos;re having an axillary node dissection. The surgeon will then close the incisions with attention to preserving the appearance of your breast, using stitches (sutures) that will either dissolve on their own or be removed later by your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After your surgery, you&apos;ll be taken to a recovery room. During this time, your blood pressure, pulse and breathing will be monitored. If you&apos;ve had outpatient surgery &amp;mdash; usually lumpectomy and sentinel node biopsy &amp;mdash; you&apos;ll be released when your condition is stable. If you&apos;ve had axillary node biopsy, you may need to stay in the hospital a day or two so the medical staff can monitor your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Expect to have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A dressing (bandage) over the surgery site&lt;/li&gt;
+	&lt;li&gt;Some pain, numbness and a pinching sensation in your underarm area&lt;/li&gt;
+	&lt;li&gt;Written instructions about post-surgical care, including caring for the incision and dressing, recognizing signs of infection&lt;/li&gt;
+	&lt;li&gt;Prescriptions for pain medication and possibly an antibiotic&lt;/li&gt;
+	&lt;li&gt;Some restrictions of activity&lt;/li&gt;
+	&lt;li&gt;A follow-up appointment with your doctor, usually seven to 14 days after surgery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="60" Title="Lumpectomy" URI="/images/image_popup/thumbs/hdg7_lumpectomyincisionthu.jpg" Width="60" />
+				<Image Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="204" Title="Lumpectomy" URI="/images/image_popup/hdg7_lumpectomyincision.jpg" Width="400" />
+				<HTML>
+					During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The results of your pathology report should be available in a week or two. At the follow-up visit after your surgery, your doctor will explain the report. If you need more treatment, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;More surgery&lt;/strong&gt; if the margins around your tumor weren&apos;t cancer-free&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A medical oncologist&lt;/strong&gt; to discuss other forms of treatment after the operation, such as hormone therapy if your cancer is sensitive to hormones or chemotherapy or both&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A radiation oncologist&lt;/strong&gt; to discuss radiation treatments, which are typically recommended after lumpectomy&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A counselor or support group&lt;/strong&gt; to help you cope with having breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lumpectomy
+	</Title>
+	<Abstract>
+		Lumpectomy &amp;mdash; Overview covers definition, preparation, risks, results of this breast-conserving surgical procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00828" LinkType="Internal" ObjectID="063EDA79-9298-E2E5-B0F939A318F7037E" Title="Sentinel node biopsy" Url="http://www.mayoclinic.com/health/sentinel-node-biopsy/MY00828" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS01078" LinkType="Internal" ObjectID="7C12DB3F-E7FF-0DBD-1CCC1AAA05FF4A5D" Title="Recurrent breast cancer" Url="http://www.mayoclinic.com/health/recurrent-breast-cancer/DS01078" />
+		<LinkItem ContentType="Disease" DocID="DS00362" LinkType="Internal" ObjectID="3830E935-0B28-4EE9-85E99C261470826D" Title="Scleroderma" Url="http://www.mayoclinic.com/health/scleroderma/DS00362" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+	</RelatedLinksBox>
+</TestProcedure>

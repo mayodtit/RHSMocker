@@ -1,0 +1,70 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00595
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00595
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1744" Title="High blood cholesterol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			23692F91-E7FF-0DBD-11B2251A1D204586
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				reduce cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				lower cholesterol
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Cholesterol concerns? Lose excess pounds
+	</Title>
+	<Body>
+		&lt;p&gt;Carrying extra pounds contributes to high cholesterol. On the flip side, losing as little as 5 to 10 pounds (about 2 to 5 kilograms) can help reduce your cholesterol level. Start by taking an honest look at your eating habits. If you eat when you&apos;re bored or frustrated, take a walk instead. If you pick up fast food for lunch every day, pack something healthier from home. If you munch while sitting in front of the television, trade potato chips for carrot sticks.&lt;/p&gt;
+	</Body>
+</HealthTip>

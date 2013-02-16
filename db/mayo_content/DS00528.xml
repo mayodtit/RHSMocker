@@ -1,0 +1,422 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00528
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nearsightedness/DS00528
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2004-03-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="2224" Title="Refractive error">
+						<Keyword MCVID="2367" Title="Nearsightedness" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			13CAE512-516E-4B1D-B09B6D6C7C00215D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nearsightedness
+			</MetaKeyword>
+			<MetaKeyword>
+				nearsighted
+			</MetaKeyword>
+			<MetaKeyword>
+				myopia
+			</MetaKeyword>
+			<MetaKeyword>
+				vision
+			</MetaKeyword>
+			<MetaKeyword>
+				cornea
+			</MetaKeyword>
+			<MetaKeyword>
+				lens
+			</MetaKeyword>
+			<MetaKeyword>
+				retina
+			</MetaKeyword>
+			<MetaKeyword>
+				squint
+			</MetaKeyword>
+			<MetaKeyword>
+				refractive
+			</MetaKeyword>
+			<MetaKeyword>
+				laser surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				laser-assisted in-situ keratomileusis
+			</MetaKeyword>
+			<MetaKeyword>
+				LASIK
+			</MetaKeyword>
+			<MetaKeyword>
+				photorefractive keratectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				PRK
+			</MetaKeyword>
+			<MetaKeyword>
+				retinal tear
+			</MetaKeyword>
+			<MetaKeyword>
+				detachment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nearsightedness (myopia) is a common vision condition in which you can see objects near to you clearly, but objects farther away are blurry.
+&lt;/p&gt;
+&lt;p&gt;
+The degree of your nearsightedness affects your ability to focus on distant objects. People with severe nearsightedness can see clearly only objects just a few inches away, while those with mild nearsightedness may clearly see objects up to several yards away.
+&lt;/p&gt;
+&lt;p&gt;
+Nearsightedness may develop gradually or rapidly, often worsening during childhood and adolescence. Nearsightedness tends to run in families.
+&lt;/p&gt;
+&lt;p&gt;
+A basic eye exam can confirm nearsightedness. You can easily correct the condition with eyeglasses or contact lenses. Another treatment option for nearsightedness is surgery.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing nearsightedness (myopia)
+" Caption="With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+" Height="60" Title="Nearsightedness (myopia)" URI="/images/image_popup/thumbs/r7_myopiathu.jpg" Width="60" />
+				<Image Alt="Image showing nearsightedness (myopia)
+" Caption="With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+" Height="321" Title="Nearsightedness (myopia)" URI="/images/image_popup/r7_myopia.jpg" Width="400" />
+				<HTML>
+					With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nearsightedness symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blurry vision when looking at distant objects&lt;/li&gt;
+	&lt;li&gt;The need to squint or partially close the eyelids to see clearly&lt;/li&gt;
+	&lt;li&gt;Headaches caused by excessive eyestrain&lt;/li&gt;
+	&lt;li&gt;Difficulty seeing while driving a vehicle, especially at night (night myopia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Nearsightedness is often first detected during childhood and is commonly diagnosed between the early school years through the teens. A child with nearsightedness may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistently squint&lt;/li&gt;
+	&lt;li&gt;Need to sit closer to the television, movie screen or the front of the classroom&lt;/li&gt;
+	&lt;li&gt;Hold books very close while reading&lt;/li&gt;
+	&lt;li&gt;Seem to be unaware of distant objects&lt;/li&gt;
+	&lt;li&gt;Blink excessively&lt;/li&gt;
+	&lt;li&gt;Rub his or her eyes frequently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If your difficulty clearly seeing things that are far away is pronounced enough that you can&apos;t perform a task as well as you wish, or if the quality of your vision detracts from your enjoyment of activities, see an eye doctor. He or she can determine the degree of your nearsightedness and advise you of your options to correct your vision.
+&lt;/p&gt;
+&lt;p&gt;
+Since it may not always be readily apparent that you&apos;re having trouble with your vision, the American Academy of Ophthalmology recommends the following intervals for regular eye exams:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re at high risk of certain eye diseases, such as glaucoma, get an eye exam every two to four years up to age 40, then every one to three years between 40 and 54, and finally every one to two years at age 55 and older.
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t wear glasses or contacts, have no symptoms of eye trouble, and are at a low risk of developing eye diseases, such as glaucoma, it&apos;s recommended that you have an eye exam at the following intervals.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An initial exam at 40&lt;/li&gt;
+	&lt;li&gt;Between ages 40 and 54 &amp;mdash; every two to four years&lt;/li&gt;
+	&lt;li&gt;Between ages 55 and 64 &amp;mdash; every one to three years&lt;/li&gt;
+	&lt;li&gt;Age 65 and older &amp;mdash; every one to two years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you wear glasses or contacts, you&apos;ll likely need to have your eyes checked regularly. Ask your eye doctor how frequently you need to schedule your appointments. But, if you notice any problems with your vision, schedule an appointment with your eye doctor as soon as possible, even if you&apos;ve recently had an eye exam. Blurred vision, for example, may suggest you need a prescription change, or it could be a sign of another problem.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children and adolescents&lt;/strong&gt;&lt;br /&gt;
+Children need to be screened for eye disease and have their vision tested by a pediatrician, an ophthalmologist or another trained screener at the following ages and intervals.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;During the newborn period&lt;/li&gt;
+	&lt;li&gt;At well-child visits until school age&lt;/li&gt;
+	&lt;li&gt;During school years, every one to two years at well-child visits, or through school or public screenings&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re nearsighted, the light rays that enter each eye are focused in front of the retina, instead of on the retina. This causes blurry images.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal vision&lt;/strong&gt;&lt;br /&gt;
+To focus the images it sees, your eye relies on two critical parts:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The cornea, the clear front surface of your eye&lt;/li&gt;
+	&lt;li&gt;The crystalline lens, a clear structure inside your eye that changes shape to help focus objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In a normally shaped eye, each of these focusing elements has a perfectly smooth curvature like the surface of a smooth rubber ball. A cornea and lens with such curvature bend (refract) all incoming light in such a way as to make a sharply focused image on the retina, at the back of your eye.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;A refractive error&lt;/strong&gt;&lt;br /&gt;
+However, if your cornea or lens isn&apos;t evenly and smoothly curved, light rays aren&apos;t refracted properly, and you have a refractive error. Nearsightedness is one type of refractive error. Nearsightedness can occur when your cornea is curved too much or, more commonly, when your eye is longer than normal. Instead of being focused precisely on your retina, light is focused in front of your retina, resulting in a blurry appearance of distant objects.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other refractive errors&lt;/strong&gt;&lt;br /&gt;
+In addition to nearsightedness, other refractive errors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Farsightedness (hyperopia).&lt;/strong&gt; This occurs when your cornea is curved too little or your eye is shorter from front to back than normal. The effect is the opposite of nearsightedness. When the eye is in a relaxed state, light will be focused beyond the back of your eye, making objects blurry. With a little effort, the eye can focus on distant objects making them clear. With greater effort, the eye can focus on near objects to allow them to be seen clearly. Problems with blurring occur when the crystalline lens begins to age and it loses its flexibility and focusing ability. You&apos;re usually able to see faraway objects clearly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Astigmatism.&lt;/strong&gt; This occurs when your cornea is curved more steeply in one direction than in another. Uncorrected astigmatism blurs your vision. Typically, the images you see will be blurred more in one direction than another. For example, horizontal images may be more out of focus than are vertical or diagonal images.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing nearsightedness (myopia)
+" Caption="With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+" Height="60" Title="Nearsightedness (myopia)" URI="/images/image_popup/thumbs/r7_myopiathu.jpg" Width="60" />
+				<Image Alt="Image showing nearsightedness (myopia)
+" Caption="With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+" Height="321" Title="Nearsightedness (myopia)" URI="/images/image_popup/r7_myopia.jpg" Width="400" />
+				<HTML>
+					With normal vision, an image is sharply focused onto the retina. In nearsightedness (myopia), the point of focus is in front of the retina, making distant objects appear blurry.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain risk factors increase the likelihood of developing nearsightedness, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Nearsightedness tends to run in families. If one of your parents is nearsighted, your risk of developing nearsightedness is increased. The risk is even higher if both parents are nearsighted.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Close work.&lt;/strong&gt; There may be an increased incidence of nearsightedness among people who do a lot of reading or other close work.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nearsightedness may be associated with several complications, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced quality of life.&lt;/strong&gt; Uncorrected nearsightedness can affect your quality of life. You might not be able to perform a task as well as you wish, and your limited vision may detract from your enjoyment of day-to-day activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyestrain.&lt;/strong&gt; Squinting to see in the distance can cause eyestrain and headaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired safety.&lt;/strong&gt; Your own safety and that of others may be jeopardized if you have an uncorrected vision problem. This could be especially serious if you are driving a car or operating heavy equipment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glaucoma.&lt;/strong&gt; Severe nearsightedness increases your risk of developing glaucoma, a potentially serious eye disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Retinal tear and detachment.&lt;/strong&gt; If you&apos;re significantly nearsighted, it&apos;s possible that the retina of your eye is thin. The thinner your retina, the higher your risk of developing a retinal hole, tear or retinal detachment. If you experience a sudden onset of flashes, floaters, or a dark curtain or shadow across part of your eye, seek medical assistance immediately. Retinal detachment is a medical emergency, and time is critical. Unless the detached retina is promptly surgically reattached, this condition can cause permanent loss of vision in the affected eye.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Three kinds of eye specialists, each with different training and experience, can provide routine eye care:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ophthalmologists.&lt;/strong&gt; An ophthalmologist is an eye specialist with a doctor of medicine (M.D.) or doctor of osteopathy (D.O.) degree who provides full eye care. This care includes performing complete eye evaluations, prescribing corrective lenses, diagnosing and treating common and complex eye disorders, and performing eye surgery when it&apos;s necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Optometrists.&lt;/strong&gt; An optometrist has a doctor of optometry (O.D.) degree. Optometrists are trained to evaluate vision, prescribe corrective lenses and diagnose common eye conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opticians.&lt;/strong&gt; An optician is an eye specialist who fills prescriptions for eyeglasses &amp;mdash; assembling, fitting and selling them. In some states, opticians are also allowed to sell and fit contact lenses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+No matter which type of eye specialist you choose, here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you already have glasses, bring them with you to your appointment.&lt;/strong&gt; Your doctor has a special device that helps to determine what type of prescription you already have. If you wear contacts, bring an empty contact lens box &amp;mdash; or a box from each type of contact you use if you wear a different strength contact lens in each eye &amp;mdash; to your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; such as trouble reading up close or difficulty with night driving.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your visit. For nearsightedness, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When do I need to use corrective lenses?&lt;/li&gt;
+	&lt;li&gt;What are benefits and drawbacks to glasses?&lt;/li&gt;
+	&lt;li&gt;What are benefits and drawbacks to contacts?&lt;/li&gt;
+	&lt;li&gt;How often do you recommend that I have my eyes examined?&lt;/li&gt;
+	&lt;li&gt;Are more permanent treatments, such as eye surgery, an option for me?&lt;/li&gt;
+	&lt;li&gt;If so, which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects are possible from these treatments?&lt;/li&gt;
+	&lt;li&gt;Will my insurance company pay for surgical procedures or a contact lens fitting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Does your vision improve if you squint or move objects closer (or farther) away?&lt;/li&gt;
+	&lt;li&gt;Do others in your family use corrective lenses? Do you know how old they were when they first began having trouble with their vision?&lt;/li&gt;
+	&lt;li&gt;When did you first begin wearing glasses or contacts?&lt;/li&gt;
+	&lt;li&gt;Do you have any medical problems, such as diabetes?&lt;/li&gt;
+	&lt;li&gt;Have you started to take any new medications, supplements or herbal preparations?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nearsightedness is diagnosed by a basic eye exam. A complete eye examination involves a series of tests. Your eye doctor may use various instruments, aim bright lights directly at your eyes and request that you look through an array of lenses. Each test allows your doctor to examine a different aspect of your vision.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treating nearsightedness is to help focus light on your retina through the use of corrective lenses or refractive surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corrective lenses&lt;/strong&gt;&lt;br /&gt;
+Wearing corrective lenses treats nearsightedness by counteracting the increased curvature of your cornea or the increased length of your eye. Types of corrective lenses include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyeglasses.&lt;/strong&gt; Eyeglasses come in a wide variety of styles and are easy to use. Eyeglasses can correct a number of vision problems at once, such as myopia and astigmatism. Eyeglasses may be the easiest and most economical correction solution.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contact lenses.&lt;/strong&gt; A wide variety of contact lenses are available &amp;mdash; hard, soft, extended wear, disposable, rigid gas permeable (RGP) and bifocal. Ask your eye doctor about their pros and cons and what might be best for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Refractive surgery&lt;/strong&gt;&lt;br /&gt;
+This treatment corrects nearsightedness by reshaping the curvature of your cornea. Refractive surgery methods include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laser-assisted in-situ keratomileusis (LASIK).&lt;/strong&gt; LASIK is a procedure in which an ophthalmologist makes a thin, circular hinged cut that extends partly into your cornea. Your eye surgeon then removes layers from the center of your cornea to flatten its domed shape.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser-assisted subepithelial keratomileusis (LASEK).&lt;/strong&gt; Instead of creating a flap in the cornea, the surgeon creates a flap only in the cornea&apos;s thin protective cover (epithelium). Your surgeon will use a laser to reshape the cornea&apos;s outer layers and flatten its curvature and then reposition the epithelial flap. To encourage healing, a bandage contact lens is worn for several days after this procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Photorefractive keratectomy (PRK).&lt;/strong&gt; This procedure is similar to LASEK, except the surgeon removes the epithelium. It will grow back naturally, conforming to your cornea&apos;s new shape. Like LASEK, PRK requires the use of a bandage contact lens following the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intraocular lens (IOL) implant.&lt;/strong&gt; These lenses are surgically implanted into the eye, in front of the eye&apos;s natural lens. They may be an option for people with moderate to severe myopia. IOL implants are not currently considered a mainstream treatment option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All eye surgeries have some degree of risk; possible complications from these eye procedures include infection, corneal scarring, blurred distance vision, vision loss and visual aberrations, such as seeing halos around lights at night. Discuss the potential risks with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you can&apos;t prevent nearsightedness, you can help protect your eyes and your vision. Follow these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have your eyes checked.&lt;/strong&gt; Regardless of how well you see, have your eyes checked regularly for problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control chronic health conditions.&lt;/strong&gt; Certain conditions, such as diabetes and high blood pressure, can affect your vision if you don&apos;t receive proper treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recognize symptoms.&lt;/strong&gt; Sudden loss of vision in one eye, sudden hazy or blurred vision, flashes of light, black spots, or halos or rainbows around lights may signal a serious eye problem, such as a retinal tear or detachment, requiring urgent medical attention. Similar symptoms can be caused by other serious medical problems, such as acute glaucoma or a stroke. Talk to your doctor immediately if you experience any of these symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your eyes from the sun.&lt;/strong&gt; Wear sunglasses that block both ultraviolet A (UVA) and ultraviolet B (UVB) radiation. This is especially important if you spend long hours in the sun or are taking a prescription medication that increases your sensitivity to UV radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Maintain a healthy diet that includes plenty of fruits and vegetables, which have shown to enhance eye health. Try foods that contain vitamin A and beta carotene, such as carrots. Dark leafy greens and fish also may be especially helpful for good eye health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Just as smoking isn&apos;t good for the rest of your body, smoking can adversely affect your eye health as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use the right glasses.&lt;/strong&gt; The right glasses optimize your vision. Having regular exams will ensure that your eyeglass prescription is correct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use good lighting.&lt;/strong&gt; Use adequate light for optimal vision.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although a number of scientific attempts have been made to halt or slow the progression of nearsightedness, there are no proven ways to prevent the condition from occurring or progressing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nearsightedness
+	</Title>
+	<Abstract>
+		Nearsightedness &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common eye disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00376" LinkType="Internal" ObjectID="68778E64-E7FF-0DBD-162052263753DD62" Title="LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MY00376" />
+		<LinkItem ContentType="Answer" DocID="AN01632" LinkType="Internal" ObjectID="49513533-E7FF-0DBD-1C1FF04252D708DE" Title="Pink eye treatment: What if I wear contact lenses?" Url="http://www.mayoclinic.com/health/pink-eye-treatment/AN01632" />
+		<LinkItem ContentType="Video" DocID="MM00607" LinkType="Internal" ObjectID="3F706153-C6A9-4A52-B0F4B679D8D3DD99" Title="Video: LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MM00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Article" DocID="WL00010" LinkType="Internal" ObjectID="82C0A0DA-CEAC-417F-88C5AD9CC8FA4765" Title="Contact lenses: What to know before you buy" Url="http://www.mayoclinic.com/health/contact-lenses/WL00010" />
+		<LinkItem ContentType="Article" DocID="MY00375" LinkType="Internal" ObjectID="68747F17-E7FF-0DBD-125DF468D0116EB5" Title="LASIK surgery: Is it right for you?" Url="http://www.mayoclinic.com/health/lasik-surgery/MY00375" />
+	</RelatedLinksBox>
+</Disease>

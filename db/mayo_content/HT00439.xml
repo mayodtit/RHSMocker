@@ -1,0 +1,80 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00439
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00439
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-25
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="1092" Title="Diseases and conditions">
+					<Keyword MCVID="1227" Title="Prevention">
+						<Keyword MCVID="1230" Title="Lifestyle prevention" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5C92138C-E7FF-0DBD-19E0DB7581D712D0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				whole grains
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart-healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Whole grains for a healthy heart
+	</Title>
+	<Body>
+		&lt;p&gt;Whole grains are good sources of fiber. Better yet, nutrients found in whole grains help promote heart health. To increase the amount of whole grains in your diet, make simple substitutions: 1. Choose breads made from 100 percent whole grain instead of those made from refined white flour. 2. Choose whole-wheat pasta over regular pasta. 3. Select brown rice instead of white rice. 4. Trade sugar-sweetened cereals for high-fiber cereals, such as bran flakes, oats or shredded wheat. 5. Bake with whole-wheat flour rather than white flour.&lt;/p&gt;
+	</Body>
+</HealthTip>

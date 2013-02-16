@@ -1,0 +1,395 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00812
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vaginal-cancer/DS00812
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2800" Title="Vaginal cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D3EAD8CC-E7FF-0DBD-1D2C9702BCBD79F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vaginal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal melanoma
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal sarcoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vaginal cancer is a rare cancer that occurs in your vagina &amp;mdash; the muscular tube that connects your uterus with your outer genitals. Vaginal cancer most commonly occurs in the cells that line the surface of your vagina, which is sometimes called the birth canal. 
+&lt;/p&gt;
+&lt;p&gt;
+While several cancers can spread to your vagina from other places in your body, cancer that begins in your vagina (primary vaginal cancer) is rare. 
+&lt;/p&gt;
+&lt;p&gt;
+Women with early-stage vaginal cancer have the best chance for a cure. Vaginal cancer that spreads beyond the vagina is much more difficult to treat. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vaginal cancer 
+" Caption="Vaginal cancer is cancer that occurs in the vagina &amp;mdash; the muscular tube that connects the uterus with the outer genitals. 
+" Height="60" Title="Vaginal cancer" URI="/images/image_popup/thumbs/mcdc7_vaginal_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing vaginal cancer 
+" Caption="Vaginal cancer is cancer that occurs in the vagina &amp;mdash; the muscular tube that connects the uterus with the outer genitals. 
+" Height="372" Title="Vaginal cancer" URI="/images/image_popup/mcdc7_vaginal_cancer.jpg" Width="400" />
+				<HTML>
+					Vaginal cancer is cancer that occurs in the vagina &amp;mdash; the muscular tube that connects the uterus with the outer genitals. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Early vaginal cancer may not cause any signs and symptoms. As it progresses, vaginal cancer may cause signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unusual vaginal bleeding, for example, after intercourse or after menopause&lt;/li&gt;
+	&lt;li&gt;Watery vaginal discharge&lt;/li&gt;
+	&lt;li&gt;A lump or mass in your vagina&lt;/li&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Pelvic pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you have any signs and symptoms related to vaginal cancer, such as abnormal vaginal bleeding. Since vaginal cancer doesn&apos;t always cause signs and symptoms, follow your doctor&apos;s recommendations about when you should have routine pelvic exams. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes vaginal cancer. In general, cancer begins when healthy cells acquire a genetic mutation that turns normal cells into abnormal cells. Healthy cells grow and multiply at a set rate, eventually dying at a set time. Cancer cells grow and multiply out of control, and they don&apos;t die. The accumulating abnormal cells form a mass (tumor). Cancer cells invade nearby tissues and can break off from an initial tumor to spread elsewhere in the body (metastasize). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of vaginal cancer&lt;/strong&gt; &lt;br /&gt;
+Vaginal cancer is divided into different types based on the type of cell where the cancer began. Vaginal cancer types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal squamous cell carcinoma,&lt;/strong&gt; which begins in the squamous cells &amp;mdash; thin, flat cells that line the surface of the vagina &amp;mdash; and is the most common type&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal adenocarcinoma,&lt;/strong&gt; which begins in the glandular cells on the surface of your vagina&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal melanoma,&lt;/strong&gt; which develops in the pigment-producing cells (melanocytes) of your vagina&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal sarcoma,&lt;/strong&gt; which develops in the connective tissue cells or smooth muscles cells in the walls of your vagina&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing layers of vaginal tissue 
+" Caption="Vaginal cancer most commonly begins in the thin, flat squamous cells that line the surface of the vagina. Other types of vaginal cancer may occur in other cells on the surface of the vagina or in the deeper layers of tissue. 
+" Height="60" Title="Layers of vaginal tissue" URI="/images/image_popup/thumbs/c7_vaginaltissuethu.jpg" Width="60" />
+				<Image Alt="Illustration showing layers of vaginal tissue 
+" Caption="Vaginal cancer most commonly begins in the thin, flat squamous cells that line the surface of the vagina. Other types of vaginal cancer may occur in other cells on the surface of the vagina or in the deeper layers of tissue. 
+" Height="366" Title="Layers of vaginal tissue" URI="/images/image_popup/c7_vaginaltissue.jpg" Width="400" />
+				<HTML>
+					Vaginal cancer most commonly begins in the thin, flat squamous cells that line the surface of the vagina. Other types of vaginal cancer may occur in other cells on the surface of the vagina or in the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of vaginal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; Your risk of vaginal cancer increases as you age. Most women who are diagnosed with vaginal cancer are older than 50 years of age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atypical cells in the vagina called vaginal intraepithelial neoplasia.&lt;/strong&gt; Women with vaginal intraepithelial neoplasia (VAIN) have an increased risk of vaginal cancer. In women with VAIN, cells in the vagina appear different from normal cells, but not different enough to be considered cancer. A small number of women with VAIN will eventually develop vaginal cancer, though doctors aren&apos;t sure what causes some cases to develop into cancer and others to remain benign. VAIN is caused by the sexually transmitted human papillomavirus (HPV), which can cause cervical, vaginal and vulvar cancers, among others. Vaccines that prevent some types of HPV infection are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to miscarriage prevention drug.&lt;/strong&gt; Women whose mothers took a drug called diethylstilbestrol (DES) while pregnant in the 1950s have an increased risk of a certain type of vaginal cancer called clear cell adenocarcinoma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other risk factors that have been linked to an increased risk of vaginal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiple sexual partners&lt;/li&gt;
+	&lt;li&gt;Early age at first intercourse&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;HIV infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vaginal cancer may spread (metastasize) to distant areas of your body, such as your lungs, liver and pelvic bones. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor or a gynecologist if you have any signs or symptoms that worry you. If it&apos;s determined that you have vaginal cancer, you&apos;ll likely be referred to a doctor who specializes in cancers of the female reproductive system (gynecologic oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what you can expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time can help you make the most of your time together. List your questions from most important to least important in case time runs out. For vaginal cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What types of treatments are available? What kinds of side effects can I expect from each treatment? How will these treatments affect my sexuality?&lt;/li&gt;
+	&lt;li&gt;What do you think is the best course of action for me?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Has my cancer spread? What stage is it?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely have a number of questions for you. If you&apos;re ready to answer them, it may help reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you know if your mother took DES when she was pregnant with you?&lt;/li&gt;
+	&lt;li&gt;Do you have any personal history of cancer?&lt;/li&gt;
+	&lt;li&gt;Have you ever been told you have HPV?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Screening healthy women for vaginal cancer&lt;/strong&gt; &lt;br /&gt;
+Vaginal cancer is sometimes found during a routine pelvic exam before signs and symptoms become evident. During a pelvic exam, your doctor carefully inspects the outer exposed part of your vagina, and then inserts two fingers of one hand into your vagina and simultaneously presses the other hand on your abdomen to feel your uterus and ovaries. He or she also inserts a device called a speculum into your vagina. The speculum widens your vagina so that your doctor can check your vagina and cervix for abnormalities. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also do a Pap test. Pap tests are usually used to screen for cervical cancer, but sometimes vaginal cancer cells can be detected on a Pap test. Pap tests and pelvic exams are generally recommended every two to three years. How often you undergo these screenings depends on your risk factors for cancer and whether you&apos;ve had abnormal Pap tests in the past. Talk to your doctor about how often you should have these health screenings. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to diagnose vaginal cancer&lt;/strong&gt; &lt;br /&gt;
+Your doctor may conduct a pelvic exam and Pap test to check for abnormalities that may indicate vaginal cancer. Based on those findings, your doctor may conduct other procedures to determine whether you have vaginal cancer, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inspecting the vagina with a microscope.&lt;/strong&gt; Colposcopy is an examination of your vagina with a special lighted microscope called a colposcope. Colposcopy allows your doctor to magnify the surface of your vagina to see any areas of abnormal cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of vaginal tissue for testing.&lt;/strong&gt; Biopsy is a procedure to remove a sample of suspicious tissue to test for cancer cells. Your doctor may take a biopsy of tissue during a colposcopy exam. Your doctor sends the tissue sample to a laboratory for testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging&lt;/strong&gt; &lt;br /&gt;
+Once your doctor diagnoses vaginal cancer, steps will be taken to determine the extent of the cancer &amp;mdash; a process called staging. The stage of your cancer helps your doctor decide what treatments are appropriate for you. In order to determine the stage of your cancer, your doctor may use: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may order imaging tests to determine whether cancer has spread. Imaging tests may include X-rays, computerized tomography (CT) scans, magnetic resonance imaging (MRI) or positron emission tomography (PET).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tiny cameras to see inside your body.&lt;/strong&gt; Procedures that use tiny cameras to see inside your body may help your doctor determine if cancer has spread to certain areas. Cameras help your doctor see inside your bladder (cystoscopy) and your rectum (proctoscopy).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once your doctor determines the extent of your cancer, it is assigned a stage. The stages of vaginal cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Cancer is limited to the vaginal wall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Cancer has spread to tissue next to your vagina.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Cancer has spread to nearby lymph nodes or into the pelvis or both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IVA.&lt;/strong&gt; Cancer has spread to nearby lymph nodes and has also spread to your bladder, rectum or pelvis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IVB.&lt;/strong&gt; Cancer has spread to areas away from your vagina, such as your lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="60" Title="Pelvic examination" URI="/images/image_popup/thumbs/mcdc7_pelvicexamthu.jpg" Width="60" />
+				<Image Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="300" Title="Pelvic examination" URI="/images/image_popup/mcdc7_pelvic_exam.jpg" Width="400" />
+				<HTML>
+					In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options for vaginal cancer depend on several factors, including the type of vaginal cancer you have and its stage. You and your doctor work together to determine what treatments are best for you based on your goals of treatment and the side effects you&apos;re willing to endure. Treatment for vaginal cancer typically includes surgery and radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery to remove the cancer is primarily used for early-stage vaginal cancer that&apos;s limited to the vagina or, in selected cases, nearby tissue. Because many important organs are located in your pelvis, surgery to remove larger tumors would require removal of these organs. For this reason, your doctor may attempt to control your cancer through other treatment methods first. Types of surgery that may be used in women with vaginal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removal of small tumors or lesions.&lt;/strong&gt; Cancer limited to the surface of your vagina may be cut away, along with a small margin of surrounding healthy tissue to ensure that all of the cancer cells have been removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removal of the vagina (vaginectomy).&lt;/strong&gt; Removing part of your vagina (partial vaginectomy) or your entire vagina (radical vaginectomy) may be necessary to remove all of the cancer. Depending on the extent of your cancer, your surgeon may recommend surgery to remove your uterus and ovaries (hysterectomy) and nearby lymph nodes (lymphadenectomy) at the same time as your vaginectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removal of the majority of the pelvic organs (pelvic exenteration).&lt;/strong&gt; This extensive surgery may be an option if cancer has spread throughout your pelvic area or if your vaginal cancer has recurred. During pelvic exenteration, the surgeon removes many of the organs in your pelvic area, including your bladder, ovaries, uterus, vagina, rectum and the lower portion of your colon. Openings are created in your abdomen to allow urine (urostomy) and waste (colostomy) to exit your body and collect in ostomy bags.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your vagina is completely removed, you may choose to undergo surgery to construct a new vagina. Surgeons use pieces of skin, sections of intestine or flaps of muscle from other areas of your body to form a new vagina. With some adjustments, a reconstructed vagina allows you to have vaginal intercourse. However, a reconstructed vagina isn&apos;t the same as your own vagina. For instance, a reconstructed vagina lacks natural lubrication and creates a different sensation when touched due to changes in surrounding nerves. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. Radiation can be delivered two ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;External radiation.&lt;/strong&gt; External beam radiation is directed at your entire abdomen or just your pelvis, depending on the extent of your cancer. During external beam radiation, you&apos;re positioned on a table and a large radiation machine is maneuvered around you in order to target the treatment area. Most women with vaginal cancer receive external beam radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Internal radiation.&lt;/strong&gt; During internal radiation (brachytherapy), radioactive devices &amp;mdash; seeds, wires, cylinders or other materials &amp;mdash; are placed in your vagina or the surrounding tissue. After a set number of days, the devices are removed. Women with very early-stage vaginal cancer may receive internal radiation only. Other women may receive internal radiation after undergoing external radiation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Radiation therapy kills quickly growing cancer cells, but it may also damage nearby healthy cells, causing side effects. Side effects of radiation depend on the radiation&apos;s intensity and where it&apos;s aimed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other options&lt;/strong&gt; &lt;br /&gt;
+If surgery and radiation can&apos;t control your cancer, you may be offered other treatments, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy uses chemicals to kill cancer cells. It isn&apos;t clear whether chemotherapy is useful in women with vaginal cancer. For this reason, chemotherapy generally isn&apos;t used on its own to treat vaginal cancer. Chemotherapy may be used during radiation therapy to enhance the effectiveness of radiation. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clinical trials.&lt;/strong&gt; Clinical trials are experiments to test new treatment methods. While a clinical trial gives you a chance to try the latest treatment advances, a cure isn&apos;t guaranteed. Discuss available clinical trials with your doctor to better understand your options, or contact the National Cancer Institute or the American Cancer Society to find out what clinical trials might be available to you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Each woman with cancer deals with her diagnosis in her own way. You might want to surround yourself with friends and family, or you may ask for time alone to sort through your feelings. The shock and confusion of your diagnosis may leave you feeling lost and unsure of yourself. To help you cope, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about your cancer to make decisions about your care.&lt;/strong&gt; Write down the questions to ask at your next doctor appointment. Get a friend or family member to come to appointments with you to take notes. Ask your health care team for further sources of information. The more you know about your condition, the more comfortable you may feel when it comes time to make decisions about your treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain intimacy with your partner.&lt;/strong&gt; Vaginal cancer treatments are likely to cause side effects that make sexual intimacy more difficult for you and your partner. If treatment makes sex painful or temporarily impossible, try to find new ways of maintaining intimacy. Spending quality time together and having meaningful conversations are ways to build your emotional intimacy. When you&apos;re ready for physical intimacy, take it slowly. If sexual side effects of your cancer treatment are hurting your relationship with your partner, talk to your doctor. He or she may offer ways to cope with sexual side effects and may refer you to a specialist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a support network.&lt;/strong&gt; Having friends and family supporting you can be valuable. You may find it helps to have someone to talk to about your emotions. Other sources of support include social workers and psychologists &amp;mdash; ask your doctor for a referral if you feel like you need someone to talk to. Talk with your pastor, rabbi or other spiritual leader. Other people with cancer can offer a unique perspective, and may better understand what you&apos;re going through, so consider joining a support group &amp;mdash; whether it&apos;s in your community or online. Contact the American Cancer Society for more information on support groups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Let people know when you want to be alone. Quiet time to think or write in a journal can help you sort out emotions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no sure way to prevent vaginal cancer. However you may reduce your risk if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Undergo regular pelvic exams and Pap tests.&lt;/strong&gt; You can increase the chance that vaginal cancer is discovered early by having routine pelvic exams and Pap tests. When discovered in its earliest stages, vaginal cancer is more likely to be cured. Doctors recommend women begin having pelvic exams soon after they&apos;ve begun having sexual intercourse and start Pap tests at age 21. Discuss with your doctor how often you should undergo these tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about the HPV vaccine.&lt;/strong&gt; Receiving a vaccination to prevent HPV infection may reduce your risk of vaginal cancer and other HPV-related cancers. Ask your doctor whether an HPV vaccine is appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you smoke, quit. If you don&apos;t smoke, don&apos;t start. Smoking increases the risk of vaginal cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vaginal cancer
+	</Title>
+	<Abstract>
+		Vaginal cancer &amp;mdash; Comprehensive overview covers symptoms, causes, risk factors of cancer of the vagina.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

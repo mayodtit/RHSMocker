@@ -1,0 +1,407 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00419
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/aortic-valve-regurgitation/DS00419
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-22
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1488" Title="Heart valve disease">
+						<Keyword MCVID="1490" Title="Aortic valve">
+							<Keyword MCVID="4263" Title="Aortic valve regurgitation" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2480F8C1-1365-4434-8096CBBEAD703F39
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aortic valve regurgitation
+			</MetaKeyword>
+			<MetaKeyword>
+				valve replacement
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic valve
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic regurgitation
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic insuffiency
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic incompetence
+			</MetaKeyword>
+			<MetaKeyword>
+				heart valve
+			</MetaKeyword>
+			<MetaKeyword>
+				leaking heart valve
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve regurgitation &amp;mdash; or aortic regurgitation &amp;mdash; is a condition that occurs when your heart&apos;s aortic valve doesn&apos;t close tightly. Aortic valve regurgitation allows some of the blood that was just pumped out of your heart&apos;s main pumping chamber (left ventricle) to leak back into it. 
+&lt;/p&gt;
+&lt;p&gt;
+The leakage of blood may prevent your heart from efficiently pumping blood out to the rest of your body. As a result, you may feel fatigued and short of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+Aortic valve regurgitation can develop suddenly or over decades. Aortic valve regurgitation has a variety of causes, ranging from congenital heart defects to complications of infectious illnesses. Once aortic valve regurgitation becomes severe, surgery is often required to repair or replace the aortic valve. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most often, aortic valve regurgitation develops gradually, and your heart compensates for the problem. You may have no signs or symptoms for many years, and you may even be unaware that you have this condition. 
+&lt;/p&gt;
+&lt;p&gt;
+However, as aortic valve regurgitation gets worse, signs and symptoms usually appear and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue and weakness, especially when you increase your activity level&lt;/li&gt;
+	&lt;li&gt;Shortness of breath with exertion or when you lie flat&lt;/li&gt;
+	&lt;li&gt;Chest pain (angina), discomfort or tightness, often increasing during exercise&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Irregular pulse (arrhythmia)&lt;/li&gt;
+	&lt;li&gt;Heart murmur&lt;/li&gt;
+	&lt;li&gt;Heart palpitations &amp;mdash; sensations of a rapid, fluttering heartbeat&lt;/li&gt;
+	&lt;li&gt;Swollen ankles and feet (edema)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Take the signs and symptoms of aortic valve regurgitation seriously and call or see a doctor right away if they develop. Sometimes the first indications of aortic valve regurgitation are those of its major complication, congestive heart failure. Signs and symptoms of congestive heart failure &amp;mdash; a serious condition &amp;mdash; include fatigue, shortness of breath, and swollen ankles and feet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve regurgitation disrupts the way blood normally flows through your heart and its valves. 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart, the center of your circulatory system, consists of four chambers. The two upper chambers, the atria, receive blood. The two lower chambers, the ventricles, pump blood to your lungs and to the rest of your body. Blood flows through your heart&apos;s chambers, aided by four heart valves. 
+&lt;/p&gt;
+&lt;p&gt;
+The aortic valve consists of three tightly fitting, triangular flaps of tissues called leaflets. These leaflets connect to the aorta through a ring called the annulus. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart valves open like a one-way gate. The leaflets of the aortic valve are forced open as the left ventricle contracts and blood flows into the aorta. When the blood has gone through the valve and the left ventricle has relaxed, the leaflets swing closed to prevent the blood that has just passed into the aorta from flowing back into the left ventricle. 
+&lt;/p&gt;
+&lt;p&gt;
+A defective heart valve is one that fails to either open or close fully. When a valve doesn&apos;t close tightly, blood can leak backward. This backward flow through a valve is called regurgitation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Numerous causes&lt;/strong&gt;&lt;br /&gt;
+Any condition that damages a valve can cause regurgitation. Causes of aortic valve regurgitation may be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A congenital heart defect.&lt;/strong&gt; You may have been born with an aortic valve that has one leaflet (unicuspid valve) or two leaflets (bicuspid valve) rather than the normal three leaflets. This puts you at risk of developing aortic valve regurgitation at some time in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deterioration of the valve with age.&lt;/strong&gt; The aortic valve opens and shuts tens of thousands of times a day, every day of your life. Aortic valve regurgitation may result from age-related wear and tear on the valve, especially if you have high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endocarditis.&lt;/strong&gt; The aortic valve may be damaged by endocarditis &amp;mdash; an infection inside your heart that involves heart valves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatic fever.&lt;/strong&gt; Rheumatic fever &amp;mdash; a complication of strep throat and once a common childhood illness in the United States &amp;mdash; can damage the aortic valve, leading to aortic valve regurgitation later in life. Rheumatic fever may damage more than one heart valve, and in more than one way. A damaged heart valve may not open fully or close completely &amp;mdash; or both. Rheumatic fever is still prevalent in developing countries, and many older adults in the United States were exposed to rheumatic fever as children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease.&lt;/strong&gt; Other, rarer conditions that can damage the aortic valve and lead to regurgitation include Marfan syndrome (a disease of connective tissue), ankylosing spondylitis (a spine disorder) and syphilis (a sexually transmitted infection).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; Damage to the aorta near the site of the aortic valve, such as damage from injury to your chest or from a tear in the aorta, also can cause backward flow of blood through the valve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aortic valve regurgitation &amp;mdash; of any cause &amp;mdash; can weaken your heart. In aortic valve regurgitation, some blood leaks back into the left ventricle instead of flowing onward to the rest of your body after being pumped into the aorta. This forces the left ventricle to hold more blood. In response, this chamber of your heart may enlarge and thicken. At first, these adaptations help the left ventricle pump blood with more force. But eventually these changes weaken the left ventricle &amp;mdash; and your heart overall. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of aortic regurgitation is greater if you&apos;ve been affected by any of the following factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aortic valve damage.&lt;/strong&gt; Inflammation associated with certain conditions, such as endocarditis or rheumatic fever, can damage your aortic valve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure (hypertension).&lt;/strong&gt; High blood pressure causes your heart to work harder, increasing the workload for your aortic valve, which can make it less elastic and prone to leaks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malformed aortic valve.&lt;/strong&gt; If you were born with a unicuspid or bicuspid aortic valve, your chances of having aortic regurgitation increase.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease.&lt;/strong&gt; Certain conditions, including Marfan syndrome, ankylosing spondylitis and syphilis, may cause the aortic root (where the aorta attaches to the ventricle) to widen, resulting in a leaky aortic valve.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve regurgitation &amp;mdash; or any heart valve problem &amp;mdash; puts you at risk of endocarditis. Endocarditis is an infection of the heart&apos;s inner lining &amp;mdash; the endocardium. This membrane lines the four chambers and four valves of your heart. Typically, this infection involves one of the heart valves, especially if it&apos;s already damaged. If the aortic valve is leaky, it&apos;s more prone to infection than is a healthy valve. You can develop endocarditis when bacteria from another part of your body spread through your bloodstream and lodge in your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+When it&apos;s mild, aortic valve regurgitation may never cause a serious threat to your health. But when it&apos;s severe, aortic valve regurgitation may lead to heart failure. Heart failure is a serious condition in which your heart is unable to pump enough blood to meet your body&apos;s needs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor. After your initial appointment, your doctor may refer you to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems you&apos;ve had and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor at your initial appointment include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my signs or symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these signs or symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Should I follow any restrictions in the time leading up to my appointment with a cardiologist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask if you are referred to a cardiologist include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is my diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what procedure is most likely to be successful in my case? Why?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what will my recovery be like?&lt;/li&gt;
+	&lt;li&gt;If you don&apos;t think I need immediate treatment, how will you determine the right time to treat my condition?&lt;/li&gt;
+	&lt;li&gt;How frequently will you see me for follow-up visits?&lt;/li&gt;
+	&lt;li&gt;What is my risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Will physical activity, including sexual activity, increase my risk of complications?&lt;/li&gt;
+	&lt;li&gt;What diet and lifestyle changes should I make?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+A doctor who sees you for possible aortic valve regurgitation may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include rapid, fluttering or pounding heartbeats?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any chest pain or tightness?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include shortness of breath?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Have you ever coughed up blood?&lt;/li&gt;
+	&lt;li&gt;Does exercise or physical exertion make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Does lying down make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Have you ever knowingly had rheumatic fever?&lt;/li&gt;
+	&lt;li&gt;Are you being treated or have you recently been treated for any other health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or caffeine? How much?&lt;/li&gt;
+	&lt;li&gt;Are you planning to become pregnant in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any close relatives have been diagnosed with cardiac disease. The symptoms of aortic valve regurgitation are similar to a number of other heart conditions, including some that tend to run in families. Knowing as much as possible about your family&apos;s health history will help your doctor determine next steps for your diagnosis and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If exercise makes your symptoms worse, avoid intense physical activity until you&apos;ve been seen by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Identifying aortic valve regurgitation early is important because the condition can worsen with time, and you may need surgery to correct it. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may first suspect that you have aortic valve regurgitation during a routine office visit after listening to your heart with a stethoscope and hearing an abnormal heart sound (heart murmur). Blood leaking through the aortic valve often makes a distinct sound. 
+&lt;/p&gt;
+&lt;p&gt;
+To begin the evaluation of your heart, your doctor will ask you questions about your personal and family health history. Next your doctor will perform a physical examination that concentrates on your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+From this information, your doctor decides what tests you may need in order to make a diagnosis and develop a treatment plan. For testing, you may be referred to a cardiologist &amp;mdash; a doctor who specializes in the study of the heart and its function. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+Other heart problems can cause signs and symptoms similar to those of aortic valve regurgitation, and it&apos;s possible to have more than one disorder at the same time. Common tests doctors use to diagnose aortic valve regurgitation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses sound waves to produce an image of your heart. In an echocardiogram, sound waves are directed at your heart from a wand-like device (transducer) held on your chest. The sound waves bounce off your heart and are reflected back through your chest wall and processed electronically to provide video images of your heart. An echocardiogram helps your doctor get a close look at your aortic valve. A specific type of echocardiogram, a Doppler echocardiogram, may be used. It allows measurements of the volume of blood flowing backward through an aortic valve. This volume is expressed in cubic centimeters per beat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; With an X-ray of your chest, your doctor can study the size and shape of your heart to determine whether your left ventricle is enlarged &amp;mdash; a possible sign of damage to the aortic valve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this test, patches with wires (electrodes) are attached to your skin to measure the electrical impulses given off by your heart. Impulses are recorded as waves displayed on a monitor or printed on paper. An ECG can provide clues about whether the left ventricle is enlarged, a problem which can occur with aortic valve regurgitation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transesophageal echocardiogram.&lt;/strong&gt; This type of echocardiogram allows an even closer look at your aortic valve. The esophagus, the tube that runs from your throat to your stomach, lies close to your heart. In a traditional echocardiogram, a device called a transducer is moved across your chest to produce the sound waves necessary to create the image of your beating heart. In a transesophageal echocardiogram, a small transducer attached to the end of a tube is inserted down the esophagus. Because the esophagus lies close to your heart, having the transducer there provides a clearer picture of your aortic valve and blood flow through it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise tests.&lt;/strong&gt; Different types of exercise tests help measure your tolerance for activity and check your heart&apos;s response to exertion (exercise).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; Your doctor may order this procedure if noninvasive tests haven&apos;t provided enough information to firmly diagnosis the type or severity of your heart condition. Your doctor threads a thin tube (catheter) through a blood vessel in your arm or groin, into your heart. Dye is injected through the catheter into your heart, making details visible on an X-ray. Cardiac catheterization can show if blood is leaking back from the aorta into the heart&apos;s left ventricle. Some catheters with special sensors also can measure pressure within heart chambers, such as the left ventricle. Pressure may be increased in the left ventricle with aortic valve regurgitation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These tests help your doctors diagnose aortic valve regurgitation, determine how serious the problem is, and decide whether your aortic valve needs repair or replacement. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of aortic valve regurgitation depends on how severe your regurgitation is, your signs and symptoms, and whether the regurgitation is affecting your heart function. If you have aortic valve regurgitation, your doctor will evaluate your heart with regular echocardiograms to determine whether damage to your heart is getting worse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Observation&lt;/strong&gt;&lt;br /&gt;
+Some people, especially those with mild regurgitation, don&apos;t need treatment. However, even if you don&apos;t have signs and symptoms of aortic valve regurgitation, schedule regular evaluations with your doctor. Observation isn&apos;t the same as ignoring the condition. Actively observing the stability or the progression of the condition is important so that you can receive the right treatment at the right time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medication can&apos;t eliminate aortic valve regurgitation. However, your doctor may prescribe certain medications to reduce the severity of aortic valve regurgitation, control blood pressure, and try to prevent or treat fluid buildup. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Once signs and symptoms of aortic valve regurgitation develop, you&apos;ll usually need surgery. However, if aortic valve regurgitation is weakening your heart, you may need surgery even if you feel well. While the heart is generally good at counteracting problems caused by a leaky aortic valve, the problem is that if the valve isn&apos;t fixed or replaced in time, the strength of your heart may decline so much that it&apos;s permanently weakened. You can avoid that by having surgery at the appropriate time. 
+&lt;/p&gt;
+&lt;p&gt;
+The overall function of your heart and the amount of regurgitation help to determine when surgery is necessary. Surgical procedures include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Valve repair.&lt;/strong&gt; Aortic valve repair is surgery to preserve the valve and to improve its function. Occasionally, surgeons can modify the original valve (valvuloplasty) to eliminate backward blood flow. You don&apos;t need long-term medications to prevent blood clots (anticoagulation therapy) after a valvuloplasty.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Valve replacement.&lt;/strong&gt; In many cases, the aortic valve has to be replaced to correct aortic valve regurgitation. Your surgeon removes your aortic valve and replaces it with a mechanical valve or a tissue valve. Mechanical valves, made from metal, are durable, but they carry the risk of blood clots forming on or near the valve. If you receive a mechanical aortic valve, you&apos;ll need to take an anticoagulant medication, such as warfarin (Coumadin), for life to prevent blood clots. Tissue valves &amp;mdash; which may come from a pig, cow or human cadaver donor &amp;mdash; often need to be replaced. Another type of tissue valve replacement that uses your own pulmonary valve (autograft) is sometimes possible. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Traditionally, aortic valve replacement has been performed with open-heart surgery. A less invasive approach &amp;mdash; transcatheter aortic valve implantation &amp;mdash; delivers the new valve through a catheter via the femoral artery in your leg (transfemoral) or the left ventricular apex of your heart (transapical). For now, this procedure is usually limited to individuals who have a narrowed aortic valve (aortic stenosis) rather than aortic regurgitation and are considered at high-risk for surgical complications. In the future, however, transcatheter aortic valve implantation may be an option for treatment of aortic regurgitation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aortic valve regurgitation can be eliminated with surgery, and you can usually resume normal activities within a few months. The prognosis following surgery is generally good. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To improve your quality of life if you have aortic valve regurgitation, your physician may &amp;mdash; in addition to other treatments &amp;mdash; recommend that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Control high blood pressure.&lt;/strong&gt; Lowering blood pressure reduces the strain on your aortic valve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use less salt.&lt;/strong&gt; Cutting back on how much salt you use helps you maintain your blood pressure within a normal range, which is important if you have aortic valve regurgitation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;See your dentist regularly.&lt;/strong&gt; Follow your recommended schedule for care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Keep your weight within a range recommended by your doctor. Extra weight makes extra work for your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Follow an exercise program within guidelines recommended by your doctor. He or she may recommend a certain intensity level according to the severity of your aortic valve regurgitation. Exercise itself does not fix this condition, but it can help to lower your blood pressure. Exercise also helps maintain your general fitness, which will help with your recovery if you need heart surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;See your doctor regularly.&lt;/strong&gt; Establish a regular evaluation schedule with your cardiologist or primary care provider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re a woman of childbearing age with aortic valve regurgitation, discuss pregnancy and family planning with your doctor because your heart works harder during pregnancy. How a heart with aortic valve regurgitation tolerates this extra work depends on the degree of leakage and how well your heart pumps. If you become pregnant, you&apos;ll need evaluation by your cardiologist and obstetrician throughout your pregnancy, labor and delivery, and after delivery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, aortic valve regurgitation isn&apos;t a preventable condition, though there are steps you can take to protect your aortic valve from damage, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treat your sore throat.&lt;/strong&gt; One possible way to prevent aortic valve regurgitation is to prevent rheumatic fever. You can do this by making sure you see your doctor when you have a sore throat. Untreated strep throat can develop into rheumatic fever. Fortunately, strep throat is usually easily treated with antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take good care of your teeth and gums.&lt;/strong&gt; Practicing good oral hygiene helps prevent bloodstream infections that can damage your heart valves due to endocarditis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your heart healthy.&lt;/strong&gt; You may be able to prevent aortic valve regurgitation from high blood pressure by taking care of your cardiovascular system. Getting your blood pressure under control is important because high blood pressure can lead to aortic valve damage and aortic valve regurgitation. High blood pressure can also cause your aorta to stretch out, which pulls the aortic valve leaflets apart and leads to regurgitation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Aortic valve regurgitation
+	</Title>
+	<Abstract>
+		Aortic valve regurgitation &amp;mdash; Comprehensive overview covers symptoms and treatment of this heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+	</RelatedLinksBox>
+</Disease>

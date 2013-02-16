@@ -1,0 +1,388 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00346
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/febrile-seizure/DS00346
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-24
+		</UpdateDate>
+		<PublicationDate>
+			1999-04-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1761" Title="Seizure disorder">
+						<Keyword MCVID="1764" Title="Febrile" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3C238DA4-7A06-4ED1-AF959E54F6001E4A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				febrile seizure
+			</MetaKeyword>
+			<MetaKeyword>
+				fever
+			</MetaKeyword>
+			<MetaKeyword>
+				febrile
+			</MetaKeyword>
+			<MetaKeyword>
+				fever seizure
+			</MetaKeyword>
+			<MetaKeyword>
+				fever seizures
+			</MetaKeyword>
+			<MetaKeyword>
+				febrile convulsion
+			</MetaKeyword>
+			<MetaKeyword>
+				fever convulsion
+			</MetaKeyword>
+			<MetaKeyword>
+				fever shakes
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				seizure
+			</MetaKeyword>
+			<MetaKeyword>
+				convulsion
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A febrile seizure is a convulsion in young children that may be caused by a spike in body temperature, often from an infection. Watching your child experience a febrile seizure can be alarming. And, although a febrile seizure may last only a few minutes, it may seem like an eternity to you.
+&lt;/p&gt;
+&lt;p&gt;
+Febrile seizures represent a unique response of a young child&apos;s brain to fever. Fortunately, febrile seizures aren&apos;t as dangerous as they may look. They&apos;re usually harmless and typically don&apos;t indicate a long-term or ongoing problem. You can help your child by keeping him or her safe during a febrile seizure and offering comfort afterward. 
+&lt;/p&gt;
+&lt;p&gt;
+After a febrile seizure, call your doctor to have your child evaluated as soon as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Febrile seizure symptoms can range from mild &amp;mdash; rolling of the eyes &amp;mdash; to more severe shaking or tightening of the muscles.
+&lt;/p&gt;
+&lt;p&gt;
+A child having a febrile seizure may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a fever higher than 100.4 F (38.0 C)&lt;/li&gt;
+	&lt;li&gt;Lose consciousness&lt;/li&gt;
+	&lt;li&gt;Shake or jerk the arms and legs on both sides of the body&lt;/li&gt;
+	&lt;li&gt;Roll his or her eyes back in the head&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Febrile seizures are classified as simple or complex: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simple febrile seizures.&lt;/strong&gt; These are the most common type of febrile seizure, and they can last from a few seconds to 15 minutes. Simple febrile seizures do not recur within a 24-hour period. These seizures begin as a generalized tonic-clonic (grand mal) seizure and don&apos;t involve staring or shaking of just one part of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complex febrile seizures.&lt;/strong&gt; A complex febrile seizure lasts longer than 15 minutes, occurs more than once within 24 hours or is confined to one side of your child&apos;s body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Febrile seizures most often occur as the body temperature quickly rises, usually within 24 hours of the onset of a fever, and can be the first sign that a child is ill.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see doctor&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;See your child&apos;s doctor&lt;/strong&gt; as soon as possible if your child has his or her first-time febrile seizure, even if it lasts only a few seconds. If the seizure ends quickly, call your doctor as soon as it&apos;s over and ask when and where your child can be examined. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Call for an ambulance&lt;/strong&gt; to take your child to the emergency room if the seizure lasts longer than 10 minutes or is accompanied by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;A stiff neck&lt;/li&gt;
+	&lt;li&gt;Problems with breathing&lt;/li&gt;
+	&lt;li&gt;Extreme sleepiness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most febrile seizures occur because of a sudden spike in body temperature, and most occur during the first day of a fever.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Viral or bacterial infection&lt;br /&gt;
+&lt;/strong&gt;Usually, the fevers that trigger febrile seizures are caused by a bacterial or viral infection in your child&apos;s body. Typical childhood illnesses, including respiratory illnesses and infections such as roseola &amp;mdash; a viral illness that causes swollen lymph nodes, usually in the neck, and a rash &amp;mdash; are often associated with febrile seizures. A less common but very serious cause of sudden fever with seizures is an infection of a child&apos;s brain and spinal cord (central nervous system), such as meningitis or encephalitis. These illnesses may also cause seizures without a fever. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Post-immunization seizures&lt;br /&gt;
+&lt;/strong&gt;The risk of febrile seizures may increase after some childhood immunizations, such as the diphtheria, tetanus and pertussis (DTP) or measles-mumps-rubella (MMR) vaccinations. Low-grade fevers can sometimes occur after your child receives childhood vaccines. If a febrile seizure occurs, it&apos;s caused by the fever that may accompany the vaccination &amp;mdash; not by the vaccination itself.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several risk factors have been identified that increase your child&apos;s likelihood of experiencing a febrile seizure. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young age.&lt;/strong&gt; Young age is the strongest risk factor, and most febrile seizures are seen in children who are between 6 months and 5 years of age. It&apos;s unusual for children under 6 months old to have a febrile seizure, and it&apos;s rare for these seizures to occur after 3 years of age. About 1 in 25 children experience a febrile seizure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Some children inherit a family&apos;s tendency to have seizures with a fever. Additionally, researchers have linked several genes to a susceptibility to febrile seizures.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although febrile seizures may cause great fear and concern for parents, most febrile seizures produce no lasting effects. Simple febrile seizures don&apos;t cause brain damage, mental retardation or learning disabilities, and they don&apos;t mean your child has a more serious underlying disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Febrile seizures also aren&apos;t an indication of epilepsy, a tendency to have recurrent seizures caused by abnormal electrical signals in the brain. The odds that your child will develop epilepsy after a febrile seizure are small, approximately 1 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Recurrent febrile seizures&lt;br /&gt;
+&lt;/strong&gt;The most common complication of febrile seizures is the possibility of more febrile seizures. About a third of children who have a febrile seizure will have another one with a subsequent fever. 
+&lt;/p&gt;
+&lt;p&gt;
+The risk of recurrence is higher if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your child had a low fever at the time of the first febrile seizure.&lt;/li&gt;
+	&lt;li&gt;The period between the start of the fever and the seizure was short.&lt;/li&gt;
+	&lt;li&gt;Your child has frequent fevers.&lt;/li&gt;
+	&lt;li&gt;An immediate family member has a history of febrile seizures.&lt;/li&gt;
+	&lt;li&gt;Your child was younger than 15 months old at the time of the first febrile seizure. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your child&apos;s family doctor or pediatrician. However, you may then be referred to a doctor who specializes in disorders of the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down everything you remember&lt;/strong&gt; from your child&apos;s seizure, including any signs or symptoms that occurred before the seizure, such as a fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that your child takes, if any.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of the time with your child&apos;s doctor. List your questions from most important to least important in case time runs out. For febrile seizures, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my child&apos;s seizure?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Will this happen again?&lt;/li&gt;
+	&lt;li&gt;Does my child need treatment?&lt;/li&gt;
+	&lt;li&gt;What do I need to do the next time he or she has a fever?&lt;/li&gt;
+	&lt;li&gt;What can I do to help my child if he or she has another febrile seizure?&lt;/li&gt;
+	&lt;li&gt;My child has another health condition. How can we manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will giving my child fever-reducing medications during an illness help prevent febrile seizures?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions about your child&apos;s seizure, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did your child have a fever or illness before having this seizure?&lt;/li&gt;
+	&lt;li&gt;Can you describe your child&apos;s seizure? What were the signs and symptoms? How long did the seizure last?&lt;/li&gt;
+	&lt;li&gt;Has this ever happened before?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your child&apos;s family have a history of febrile seizures or seizure disorders?&lt;/li&gt;
+	&lt;li&gt;Do you know if your child has been exposed to any illnesses?&lt;/li&gt;
+	&lt;li&gt;Does your child have any history of head trauma or a neurological disease?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Here&apos;s what you can do if your child experiences another febrile seizure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t restrain your child, but do place him or her on a safe surface, such as the floor.&lt;/li&gt;
+	&lt;li&gt;Place your child on his or her side, keeping the face to the side and the lower arm extended under the head, to prevent your child from inhaling vomit if vomiting occurs.&lt;/li&gt;
+	&lt;li&gt;If your child had anything in his or her mouth when the seizure began, remove it. And, don&apos;t place anything in your child&apos;s mouth during a seizure because doing so can cause choking.&lt;/li&gt;
+	&lt;li&gt;If a seizure lasts longer than 10 minutes, seek emergency care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests and diagnosis&lt;br /&gt;
+&lt;/strong&gt;Identifying the cause of your child&apos;s fever is the first step after a febrile seizure. Depending on the type of seizure your child had, your doctor may recommend different tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Simple febrile seizures&lt;br /&gt;
+&lt;/strong&gt;To determine the cause of infection, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A blood test&lt;/li&gt;
+	&lt;li&gt;A urine test&lt;/li&gt;
+	&lt;li&gt;A spinal tap (lumbar puncture), to find out if your child has a central nervous system infection, such as meningitis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complex febrile seizures&lt;br /&gt;
+&lt;/strong&gt;If your child had a complex febrile seizure, your doctor may also recommend an electroencephalogram (EEG), a test that measures brain activity.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After experiencing a febrile seizure, your child will likely have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A physical exam&lt;/li&gt;
+	&lt;li&gt;Blood tests&lt;/li&gt;
+	&lt;li&gt;Urine tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These tests can help determine possible causes of the fever and seizure. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects a central nervous system infection, a lumbar puncture (spinal tap) may be necessary. In this procedure, a doctor inserts a needle into your child&apos;s lower back to remove a small amount of spinal fluid. This test can reveal evidence of infection in the fluid that surrounds the brain and spinal cord. 
+&lt;/p&gt;
+&lt;p&gt;
+Further tests such as an electroencephalogram (EEG) &amp;mdash; a test that measures brain activity &amp;mdash; may be necessary if your child had a complex febrile seizure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not necessary to lower your child&apos;s fever to stop a febrile seizure. So don&apos;t try to give your child fever medications during a seizure, due to a risk of choking. For the same reason, don&apos;t place your child in a cooling tub of water. It&apos;s much more practical, more comfortable &amp;mdash; and safer &amp;mdash; for your child to remain lying on the carpet or a bed. 
+&lt;/p&gt;
+&lt;p&gt;
+Most febrile seizures stop on their own within a couple of minutes. If your child has a febrile seizure that lasts more than 10 minutes &amp;mdash; or if your child has repeated seizures &amp;mdash; call for emergency medical attention.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;More-serious episodes&lt;br /&gt;
+&lt;/strong&gt;If the seizure lasts longer than 15 minutes, a doctor may order medication that&apos;s administered either through your child&apos;s rectum or intravenously to stop the seizure.
+&lt;/p&gt;
+&lt;p&gt;
+If the seizure is prolonged or accompanied by a serious infection or if the source of the infection can&apos;t be determined, your doctor may want your child to stay in the hospital for further observation. But a hospital stay isn&apos;t routinely necessary for simple febrile seizures. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has a febrile seizure, stay calm and follow these steps to help your child during the seizure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place your child on his or her side, somewhere where he or she won&apos;t fall.&lt;/li&gt;
+	&lt;li&gt;Stay close to watch and comfort your child.&lt;/li&gt;
+	&lt;li&gt;Remove any hard or sharp objects near your child.&lt;/li&gt;
+	&lt;li&gt;Loosen any tight or restrictive clothing.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t restrain your child or interfere with your child&apos;s movements.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t attempt to put anything in your child&apos;s mouth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If possible, try to time the seizure using your watch or a clock. Because they&apos;re so alarming, seizures often seem to last longer than they really do. Also try to note which part of your child&apos;s body begins to shake first, and look for other signs of illness. This can help your doctor understand the cause of the seizure.
+&lt;/p&gt;
+&lt;p&gt;
+Not long after having a febrile seizure, many children are back on their feet, running around the doctor&apos;s office or playing safely at home. By staying calm, observing your child and knowing when to call the doctor, you&apos;re doing everything that&apos;s needed to take care of your child. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most of the time, a febrile seizure occurs the first few hours of a fever, during the initial rise in body temperature. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Giving your child medications&lt;br /&gt;
+&lt;/strong&gt;Giving your child acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) at the first indication of fever will help reduce the fever, but it won&apos;t necessarily prevent a seizure. And, there are some caveats to giving medications to young children. Medications won&apos;t shorten the course of infection, and low-grade fevers generally don&apos;t need treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, there&apos;s always a question of safety when giving medications to young children. For example, aspirin may trigger a rare but potentially fatal disorder known as Reye&apos;s syndrome. And, while acetaminophen is generally safe, if you give a child too much, it can cause liver failure. Ask your doctor what medications he or she recommends and what the proper dosage is for your child&apos;s age and weight.
+&lt;/p&gt;
+&lt;p&gt;
+Making sure your child drinks plenty of fluids and is appropriately dressed &amp;mdash; not overdressed &amp;mdash; may help control the fever. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prescription prevention medications&lt;br /&gt;
+&lt;/strong&gt;Rarely, prescription medications are used to prevent febrile seizures. Anticonvulsant medications such as phenobarbital and valproic acid (Depakene, Stavzor) can prevent febrile seizures when taken daily. However, the use of preventive medications isn&apos;t generally recommended. The risks of side effects &amp;mdash; including learning difficulties, sleep problems, irritability, hyperactivity and respiratory difficulties &amp;mdash; outweigh any benefit to the child. Doctors rarely prescribe these preventive medications because most febrile seizures are harmless and most children outgrow them without any problems.
+&lt;/p&gt;
+&lt;p&gt;
+Rescue or abortive medications, such as oral diazepam (Valium), lorazepam intensol or clonazepam (Klonopin), are often prescribed. These are administered only with subsequent seizures and generally only if the seizure persists longer than three to five minutes or if there are a cluster of seizures. Rectal diazepam (Diastat) also can reduce the risk of febrile seizures if taken at the time of a fever.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Febrile seizure
+	</Title>
+	<Abstract>
+		Febrile seizures &amp;mdash; Comprehensive overview covers symptoms, causes of these frightening but generally harmless seizures.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

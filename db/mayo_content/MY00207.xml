@@ -1,0 +1,274 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00207
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-reconstruction/MY00207
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-21
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="4014" Title="Breast reconstruction with breast implants" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8E7092D1-E7FF-0DBD-1B3F9BA46D4D8023
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast reconstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				breast implants
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				reconstruction surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				reconstructive surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				breast reconstruction options
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast reconstruction is a surgical procedure that restores shape to your breast after mastectomy &amp;mdash; surgery that removes your breast to treat or prevent breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+One type of breast reconstruction uses breast implants &amp;mdash; silicone devices filled with silicone or salt water (saline) &amp;mdash; to reshape your breasts. Breast reconstruction with breast implants is a complex procedure performed by a plastic surgeon. The breast reconstruction process can start at the time of your mastectomy or it can be done as a delayed procedure. The breast reconstruction process usually requires two or more operations &amp;mdash; and several visits to your doctor &amp;mdash; to insert, position and fill the breast implants. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast reconstruction won&apos;t re-create the exact look and feel of your natural breast. However, the contour of your new breast may restore a silhouette similar to what you had before mastectomy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nipple reconstruction 
+" Caption="After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and then adds a tattoo to shade in the new areola. 
+" Height="60" Title="Nipple reconstruction" URI="/images/image_popup/thumbs/w7_nipplereconthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nipple reconstruction 
+" Caption="After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and then adds a tattoo to shade in the new areola. 
+" Height="400" Title="Nipple reconstruction" URI="/images/image_popup/w7_nipplerecon.jpg" Width="400" />
+				<HTML>
+					After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast reconstruction with a breast implant carries the possibility of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor wound healing &lt;/li&gt;
+	&lt;li&gt;Implant rupture or deflation&lt;/li&gt;
+	&lt;li&gt;Protrusion of the implant through the skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased risk of future breast surgery to replace or remove the breast implant &lt;/li&gt;
+	&lt;li&gt;Changes in breast sensation &lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Bleeding &lt;/li&gt;
+	&lt;li&gt;Scar tissue that forms and compresses the implant and breast tissue into a hard, unnatural shape (capsular contracture)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Correcting any of these complications may require additional surgery. If you need adjuvant radiation therapy, you might not be an ideal candidate for breast implant reconstruction. Radiation therapy often leaves the skin and underlying tissue discolored or damaged. In such cases, doctors tend to recommend breast reconstruction with a tissue flap instead. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before a mastectomy, your doctor may recommend that you meet with a plastic surgeon. Consult a plastic surgeon who&apos;s board certified and experienced in breast reconstruction following mastectomy. Ideally, your breast surgeon and the plastic surgeon will work together to develop the best surgical treatment and breast reconstruction strategy in your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+Your plastic surgeon will describe your surgical options and may show you photos of women who have had different types of breast reconstruction. Your body type, health status and cancer treatment factor into which type of reconstruction will provide the best result. The plastic surgeon provides information on the anesthesia, the location of the operation and what kind of follow-up procedures may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Your plastic surgeon may recommend surgery on your opposite breast, even if it&apos;s healthy, so that it more closely matches the shape and size of your reconstructed breast. 
+&lt;/p&gt;
+&lt;p&gt;
+In advance of your surgery, follow your doctor&apos;s specific instructions on preparing for the procedure. This may include guidelines on eating and drinking, adjusting current medications and quitting smoking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The breast reconstruction process begins with the placement of a breast implant or tissue expander, either at the time of your mastectomy surgery (immediate reconstruction) or during a later procedure (delayed reconstruction). Breast reconstruction often requires multiple operations &amp;mdash; even if you choose immediate reconstruction &amp;mdash; so you&apos;ll likely face follow-up procedures later on. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Breast implants&lt;/strong&gt; &lt;br /&gt;
+A breast implant is a round or teardrop-shaped silicone shell, filled with salt water (saline) or silicone gel. A plastic surgeon places the implant behind the muscle in your chest (pectoral muscle) in a manner similar to what occurs during breast augmentation surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Some women are able to have the permanent breast implant placed at the time of the mastectomy in a one-stage process. However, most women require a two-stage process, using a tissue expander before the permanent implant is placed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tissue expanders&lt;/strong&gt; &lt;br /&gt;
+Tissue expansion is a process that stretches your remaining chest skin and soft tissues to make room for the breast implant. The process takes place gradually, typically over several months. 
+&lt;/p&gt;
+&lt;p&gt;
+Your surgeon places a tissue expander, similar to a balloon, under your pectoral muscle at the time of your mastectomy. The tissue expander has a small valve that your doctor can access by inserting a needle through your skin. Over the next few months your doctor or nurse injects saline into the valve, filling the balloon in stages. This gradual process allows the skin to stretch over time. You may experience moderate discomfort or a sensation of pressure as the implant expands. 
+&lt;/p&gt;
+&lt;p&gt;
+After the tissue expansion process is complete, your surgeon performs a second surgery to remove the tissue expander and replace it with a permanent implant. Some tissue expanders are designed to be left in place permanently, so the second operation may be less extensive and require only local anesthesia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Recovery&lt;/strong&gt; &lt;br /&gt;
+You may be tired and sore for a few weeks after your surgery. Your doctor can prescribe medication to control your pain. You may have drainage tubes in place for a short time after your surgery to remove excess fluids that collect in the surgical site. The drainage tubes remain in place until the amount of fluid draining substantially decreases. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll also have stitches (sutures) in place after your surgery. They&apos;ll probably be absorbable sutures, though, so you won&apos;t need to have them removed. Scarring is permanent, but the scars generally fade over time. 
+&lt;/p&gt;
+&lt;p&gt;
+Getting back to normal activities may take up to six weeks or more. Take it easy during this period. Your doctor will let you know of any restrictions to your activities, such as avoiding overhead lifting or strenuous physical activities. Don&apos;t be surprised if it seems to take a long time to bounce back from surgery &amp;mdash; some women report that it took as long as a year or two before they felt completely healed and back to normal. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, you&apos;ll follow up with your plastic surgeon on a yearly basis to monitor your reconstructed breast. Make an appointment sooner than that, however, if you have any concerns about your reconstruction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nipple reconstruction&lt;/strong&gt; &lt;br /&gt;
+Breast reconstruction may also entail reconstruction of your nipple, if you choose, including tattooing to define the dark area of skin surrounding your nipple (areola). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Future breast cancer screening&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve only had one breast reconstructed, you&apos;ll need to have screening mammography done regularly on your other breast. Mammography isn&apos;t usually necessary on breasts that have been reconstructed, as the mastectomy removes most of your breast tissue. You may opt to perform breast self-exams on your natural breast and the skin and surrounding area of your reconstructed breast. This may help you become familiar with the changes to your breast after surgery, so that you can be alert to any new changes and report those to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend that you have a magnetic resonance imaging (MRI) test done every few years on your reconstructed breast to check for signs of implant rupture. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tissue expansion 
+" Caption="During tissue expansion, a balloon inserted under your chest muscle is gradually filled with saline over a period of several weeks or months. The gradual inflation of the balloon stretches the skin and tissue over your chest to make room for an implant. 
+" Height="60" Title="Tissue expansion" URI="/images/image_popup/thumbs/w7_expanderthu.jpg" Width="60" />
+				<Image Alt="Illustration showing tissue expansion 
+" Caption="During tissue expansion, a balloon inserted under your chest muscle is gradually filled with saline over a period of several weeks or months. The gradual inflation of the balloon stretches the skin and tissue over your chest to make room for an implant. 
+" Height="250" Title="Tissue expansion" URI="/images/image_popup/w7_expander.jpg" Width="400" />
+				<HTML>
+					During tissue expansion, a balloon inserted under your chest muscle is gradually filled with saline over a period of several weeks or months. The gradual inflation of the balloon stretches the skin ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nipple reconstruction 
+" Caption="After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and then adds a tattoo to shade in the new areola. 
+" Height="60" Title="Nipple reconstruction" URI="/images/image_popup/thumbs/w7_nipplereconthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nipple reconstruction 
+" Caption="After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and then adds a tattoo to shade in the new areola. 
+" Height="400" Title="Nipple reconstruction" URI="/images/image_popup/w7_nipplerecon.jpg" Width="400" />
+				<HTML>
+					After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keep your expectations realistic when anticipating the outcome of your surgery. Breast reconstruction surgery offers many benefits, but it won&apos;t make you look or feel exactly like you did before your mastectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+What breast reconstruction can do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Give you a breast contour&lt;/li&gt;
+	&lt;li&gt;Provide improved symmetry to your breasts so that they look similar under clothing or a bathing suit&lt;/li&gt;
+	&lt;li&gt;Help you avoid the need for an external prosthesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+What breast reconstruction may do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Improve your self-esteem and body image&lt;/li&gt;
+	&lt;li&gt;Partially erase the physical reminders of your disease&lt;/li&gt;
+	&lt;li&gt;Require additional surgery to correct reconstructive problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+What breast reconstruction won&apos;t do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Make you look exactly the same as before&lt;/li&gt;
+	&lt;li&gt;Give your reconstructed breast the same sensations as your normal breast&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Breast reconstruction with breast implants
+	</Title>
+	<Abstract>
+		Breast reconstruction with breast implants &amp;mdash; Overview covers definition, risks, results of breast reconstruction surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</TestProcedure>

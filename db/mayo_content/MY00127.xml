@@ -1,0 +1,252 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00127
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/quad-screen/MY00127
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3405" Title="Week 14" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="4005" Title="Quad screening" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5210" Title="Prenatal care">
+							<Keyword MCVID="5211" Title="Medical tests" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C589091B-E7FF-0DBD-11CCE1487765D8C8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				quad screen
+			</MetaKeyword>
+			<MetaKeyword>
+				quad screen test
+			</MetaKeyword>
+			<MetaKeyword>
+				quad marker screen
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy quad screen
+			</MetaKeyword>
+			<MetaKeyword>
+				quad screening
+			</MetaKeyword>
+			<MetaKeyword>
+				quad marker screening
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal test
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The quad screen &amp;mdash; also known as the quadruple marker test or simply the quad test &amp;mdash; is a prenatal test that measures levels of four substances in a pregnant woman&apos;s blood: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alpha-fetoprotein (AFP), a protein made by the developing baby&lt;/li&gt;
+	&lt;li&gt;Human chorionic gonadotropin (HCG), a hormone made by the placenta&lt;/li&gt;
+	&lt;li&gt;Estriol, a hormone made by the placenta and the baby&apos;s liver&lt;/li&gt;
+	&lt;li&gt;Inhibin A, another hormone made by the placenta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Typically, the quad screen is done between weeks 15 and 20 of pregnancy &amp;mdash; the second trimester. 
+&lt;/p&gt;
+&lt;p&gt;
+Results of the quad screen indicate your risk of carrying a baby who has certain chromosomal conditions, such as Down syndrome. The alpha-fetoprotein part of the test can help detect neural tube defects, such as spina bifida. 
+&lt;/p&gt;
+&lt;p&gt;
+If your risk level is low, the quad screen can offer reassurance of a healthy pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+If your risk level is moderate or high, you might choose to follow the quad screen with another test that&apos;s more definitive. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The quad screen is done to evaluate your risk of carrying a baby who has any of the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Down syndrome (trisomy 21).&lt;/strong&gt; Down syndrome is a genetic condition that causes lifelong impairments in mental and social development, as well as various physical concerns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Edwards syndrome (trisomy 18).&lt;/strong&gt; Edwards syndrome is a genetic condition that causes severe developmental delays. Edwards syndrome is often fatal by age 1.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spina bifida.&lt;/strong&gt; Spina bifida is a serious birth defect that occurs when the tissue surrounding a baby&apos;s developing spinal cord doesn&apos;t close properly. Spina bifida can lead to severe physical and mental disabilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anencephaly.&lt;/strong&gt; Anencephaly is an underdeveloped brain and an incomplete skull. A baby born with anencephaly might be stillborn or survive only a few hours to days after birth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the timing, your health care provider might recommend other prenatal screening tests &amp;mdash; such as first trimester screening, which involves a blood test and an ultrasound exam &amp;mdash; in addition to the quad screen or in place of the quad screen. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, the quad screen is optional. Test results only indicate whether you have an increased risk of carrying a baby who has Down syndrome, for example, not whether your baby actually has the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Before the screening, think about what the results mean to you. Consider whether the screening will be worth any anxiety it might cause, or whether you&apos;ll handle your pregnancy differently depending on the results. 
+&lt;/p&gt;
+&lt;p&gt;
+You might also consider what level of risk would be enough for you to choose a more invasive follow-up test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The quad screen is a routine prenatal screening test. The test poses no risk of miscarriage or other pregnancy complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need to do anything special to prepare for the quad screen. You can eat and drink normally before the blood test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the quad screen, a member of your health care team takes a sample of blood by inserting a needle into a vein in your arm. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+Test results are typically available within a week.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider will use your age, race and the results of the quad screen to gauge your risk of carrying a baby who has certain chromosomal conditions or neural tube defects. Other factors &amp;mdash; such as your personal or family health history &amp;mdash; also might affect your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+Quad screen results are given as a probability, such as a 1 in 5,000 risk of carrying a baby who has Down syndrome. Generally, the test is considered positive if the risk is 1 in 250 to 1 in 300. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that a positive quad screen simply means that levels of some or all of the substances measured in your blood were outside the normal range. This can happen for various reasons, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A miscalculation of how long you&apos;ve been pregnant&lt;/li&gt;
+	&lt;li&gt;A multiple pregnancy&lt;/li&gt;
+	&lt;li&gt;In vitro fertilization&lt;/li&gt;
+	&lt;li&gt;The presence of other medical conditions, such as diabetes&lt;/li&gt;
+	&lt;li&gt;Smoking during pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your test results are positive, your health care provider might recommend an ultrasound to verify the baby&apos;s gestational age and confirm the number of babies. During the ultrasound, your health care provider will also evaluate your baby&apos;s growth, study the placenta and identify possible abnormalities. 
+&lt;/p&gt;
+&lt;p&gt;
+The quad screen correctly identifies about 80 percent of women who are carrying a baby who has Down syndrome. About 5 percent of women have a false-positive result, meaning that the test result is positive but the baby doesn&apos;t actually have Down syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+When you consider your test results, remember that the quad screen only indicates your overall risk of carrying a baby who has certain chromosomal conditions or neural tube defects. A low-risk result doesn&apos;t guarantee that your baby won&apos;t have one of these conditions. Likewise, a high-risk result doesn&apos;t guarantee that your baby will be born with one of these conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, positive test results are an invitation to consider secondary testing. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Noninvasive prenatal testing.&lt;/strong&gt; If you&apos;re at high risk of a chromosomal condition, you might consider a new prenatal screening test that analyzes fetal DNA circulating within your blood. This blood test evaluates your risk of carrying a baby who has Down syndrome, as well as various other chromosomal conditions &amp;mdash; perhaps helping you avoid testing that&apos;s more invasive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Targeted ultrasound.&lt;/strong&gt; If you&apos;re at high risk of a neural tube defect, your health care provider might suggest a targeted ultrasound &amp;mdash; perhaps accompanied by amniocentesis. Ultrasound isn&apos;t an effective screening tool for Down syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chorionic villus sampling (CVS).&lt;/strong&gt; CVS can be used to diagnose chromosomal conditions, such as Down syndrome. During CVS, which is usually done during the first trimester, a sample of tissue from the placenta is removed for testing. CVS poses a slight risk of miscarriage and isn&apos;t useful in detecting neural tube defects, such as spina bifida.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amniocentesis.&lt;/strong&gt; Amniocentesis can be used to diagnose both chromosomal conditions, such as Down syndrome, and neural tube defects, such as spina bifida. During amniocentesis, which is usually done during the second trimester, a sample of amniotic fluid is removed from the uterus for testing. Like CVS, amniocentesis poses a slight risk of miscarriage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider or a genetic counselor will help you understand your test results and what the results mean for your pregnancy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Quad screen
+	</Title>
+	<Abstract>
+		What can a quad screen tell you about your baby? Get the facts.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01403" LinkType="Internal" ObjectID="480AFA5C-FC69-E2EB-186342987BB11520" Title="Prenatal testing: Quick guide to common tests" Url="http://www.mayoclinic.com/health/prenatal-testing/MY01403" />
+	</RelatedLinksBox>
+</TestProcedure>

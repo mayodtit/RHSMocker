@@ -1,0 +1,301 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01175
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dysarthria/DS01175
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="4683" Title="Dysarthria" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			706CA04C-B12E-8FDD-EE0ACE20B7C86597
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dysarthria
+			</MetaKeyword>
+			<MetaKeyword>
+				slurred speech
+			</MetaKeyword>
+			<MetaKeyword>
+				motor speech disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				neurological motor speech impairment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dysarthria is a condition in which you have difficulty controlling or coordinating the muscles you use when you speak, or weakness of those muscles. Dysarthria often is characterized by slurred or slow speech that can be difficult to understand. 
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of dysarthria include nervous system (neurological) disorders such as stroke, brain injury, brain tumors, and conditions that cause facial paralysis or tongue or throat muscle weakness. Dysarthria may also be caused by certain medications.
+&lt;/p&gt;
+&lt;p&gt;
+Dysarthria treatment is directed at treating the underlying cause of your condition when possible, which may improve your speech. You may have speech therapy, which often helps people with dysarthria improve their speech. If dysarthria is caused by prescription medications, changing or discontinuing your medications may help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of dysarthria vary, depending on the underlying cause, and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slurred speech&lt;/li&gt;
+	&lt;li&gt;Slow rate of speech&lt;/li&gt;
+	&lt;li&gt;Inability to speak louder than a whisper&lt;/li&gt;
+	&lt;li&gt;Rapid rate of speech that is difficult to understand&lt;/li&gt;
+	&lt;li&gt;Nasal, raspy or strained voice quality&lt;/li&gt;
+	&lt;li&gt;Uneven or abnormal rhythm of speech&lt;/li&gt;
+	&lt;li&gt;Uneven volume of speech&lt;/li&gt;
+	&lt;li&gt;Monotone speech&lt;/li&gt;
+	&lt;li&gt;Difficulty moving your tongue or facial muscles&lt;/li&gt;
+	&lt;li&gt;Drooling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Dysarthria can be sign of a serious underlying condition. See your doctor if you experience sudden or unexplained changes in your ability to speak clearly.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In dysarthria, you may experience difficulties moving the muscles in your mouth, face or upper respiratory system that control speech. Many conditions may result in dysarthria, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Amyotrophic lateral sclerosis (ALS, or Lou Gehrig&apos;s disease)&lt;/li&gt;
+	&lt;li&gt;Brain injury&lt;/li&gt;
+	&lt;li&gt;Brain tumor&lt;/li&gt;
+	&lt;li&gt;Cerebral palsy&lt;/li&gt;
+	&lt;li&gt;Guillain-Barre syndrome&lt;/li&gt;
+	&lt;li&gt;Head injury&lt;/li&gt;
+	&lt;li&gt;Huntington&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Lyme disease&lt;/li&gt;
+	&lt;li&gt;Multiple sclerosis&lt;/li&gt;
+	&lt;li&gt;Muscular dystrophy&lt;/li&gt;
+	&lt;li&gt;Myasthenia gravis&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Wilson&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some medications, such as narcotics or sedatives, also may cause dysarthria.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dysarthria can lead to a number of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Communication problems.&lt;/strong&gt; Dysarthria may make it difficult for others to understand you when you speak, decreasing your ability to communicate effectively.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social difficulty.&lt;/strong&gt; The communication problems caused by dysarthria may affect your relationships with family and friends and can make social situations challenging.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; In some people, dysarthria may lead to social isolation and depression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dysarthria requires prompt medical attention. See a doctor right away if you experience sudden or unexplained changes in your ability to speak clearly. You&apos;re likely to start by seeing your family doctor or a general practitioner who will ask about your symptoms, do an initial physical examination and review the medications you&apos;re taking. If your doctor suspects that an underlying medical condition is causing your symptoms, he or she will likely refer you to a nervous system specialist (neurologist) for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s what you can do to get ready for your appointment, as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For dysarthria, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is dysarthria the likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your speaking difficulty may be evaluated by a speech-language pathologist to diagnose the type of dysarthria you may have. This can be helpful to the neurologist who will be responsible for finding the underlying cause.
+&lt;/p&gt;
+&lt;p&gt;
+To diagnose your condition, your doctor may review your medical history and conduct a thorough physical exam. Your doctor may also order several tests to investigate possible underlying causes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests, including magnetic resonance imaging or a computerized tomography scan, create detailed images of your brain, head and neck that may help identify the cause of your speech problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain and nerve studies.&lt;/strong&gt; You may have brain and nerve studies to pinpoint the source of your symptoms and help diagnose the underlying cause of your condition. An electroencephalogram measures electrical activity in your brain. An electromyogram evaluates electrical activity in your nerves as they transmit messages to your muscles. Nerve conduction studies measure the strength and speed of the electrical signals as they travel through your nerves to your muscles. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Blood and urine tests can help determine if an infectious or inflammatory disease may be causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lumbar puncture (spinal tap).&lt;/strong&gt; In this procedure, a doctor or nurse inserts a needle in your lower back to remove a small sample of cerebrospinal fluid for testing in the laboratory. A lumbar puncture can help diagnose serious infections, disorders of the central nervous system, and cancers of the brain or spinal cord.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain biopsy.&lt;/strong&gt; If a brain tumor is suspected, your doctor may remove a small sample of your brain tissue to test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neuropsychological tests.&lt;/strong&gt; You may have neuropsychological tests to measure your thinking (cognitive) skills, your ability to understand speech, your ability to understand reading and writing, and other skills. Your cognitive skills and understanding of speech and writing often aren&apos;t affected by dysarthria, although you have difficulty speaking. However, underlying conditions can affect your cognitive skills. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment will depend on the cause and severity of your symptoms, and the type of dysarthria you have.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will treat the underlying cause of your dysarthria when possible, which may improve your speech. If your dysarthria is caused by prescription medications, talk to your doctor about the possibility of changing or discontinuing such medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Speech and language therapy&lt;br /&gt;
+&lt;/strong&gt;You may have speech and language therapy to help you regain normal speech and improve your communication. A speech-language pathologist can determine the severity of your speech difficulties, develop a treatment plan to improve your speech and work with you to put that plan into action. Your speech therapy goals may include adjusting your speech rate, strengthening your muscles, increasing your breath support, increasing your speech articulation and helping your family members understand how to effectively communicate with you.
+&lt;/p&gt;
+&lt;p&gt;
+Your speech-language pathologist may recommend other communication methods (augmentative and alternative communication systems) to help you communicate, if speech and language therapy isn&apos;t effective. These communication methods could include visual cues, gestures, an alphabet board or computer-based technology.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have significant dysarthria that makes your speech difficult to understand, these suggestions may help you communicate more effectively with others:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Start small.&lt;/strong&gt; Introduce your topic with one word or a short phrase before speaking in longer sentences.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gauge understanding.&lt;/strong&gt; Ask your listeners to confirm that they know what you&apos;re saying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re tired, keep it short.&lt;/strong&gt; Fatigue can make your speech more difficult to understand, so keep conversations short if you feel tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a backup.&lt;/strong&gt; Carry a pencil and small pad of paper with you, so you can write your message if necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use shortcuts.&lt;/strong&gt; Create drawings and diagrams or use photos during conversations, so you don&apos;t have to say everything. Gesturing or pointing to an object also can help convey your message.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Family and friends&lt;br /&gt;
+&lt;/strong&gt;If you have a family member or friend with dysarthria, the following suggestions may help you better communicate with that person:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allow the person time to talk.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t finish sentences or correct errors.&lt;/li&gt;
+	&lt;li&gt;Look at the person as he or she is speaking.&lt;/li&gt;
+	&lt;li&gt;Reduce distracting noises in the environment.&lt;/li&gt;
+	&lt;li&gt;Tell the person if you&apos;re having trouble understanding him or her.&lt;/li&gt;
+	&lt;li&gt;Keep paper and pencils or pens readily available.&lt;/li&gt;
+	&lt;li&gt;Help the person with dysarthria create a book of words, pictures and photos to assist with conversations.&lt;/li&gt;
+	&lt;li&gt;Involve the person with dysarthria in conversations as much as possible.&lt;/li&gt;
+	&lt;li&gt;Talk normally. Many people with dysarthria can understand others without difficulty. If that&apos;s the case for your loved one, there&apos;s no need to slow down or speak loudly when you talk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dysarthria
+	</Title>
+	<Abstract>
+		Dysarthria &amp;mdash; Comprehensive overview covers causes, symptoms and treatment of this speech disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00107" LinkType="Internal" ObjectID="C019023D-E7FF-0DBD-10F82974DF8D3D59" Title="Electromyography (EMG)" Url="http://www.mayoclinic.com/health/emg/MY00107" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00296" LinkType="Internal" ObjectID="9602CBD0-E7FF-0DBD-17FC8BE1A811B9FC" Title="EEG (electroencephalogram)" Url="http://www.mayoclinic.com/health/eeg/MY00296" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Disease" DocID="DS00188" LinkType="Internal" ObjectID="CEC491ED-C3B3-4B39-9E747386136032B4" Title="Multiple sclerosis" Url="http://www.mayoclinic.com/health/multiple-sclerosis/DS00188" />
+		<LinkItem ContentType="Disease" DocID="DS00411" LinkType="Internal" ObjectID="9D97C9C2-C25F-44D4-BB016D5D76CFB144" Title="Wilson&apos;s disease" Url="http://www.mayoclinic.com/health/wilsons-disease/DS00411" />
+		<LinkItem ContentType="Disease" DocID="DS00401" LinkType="Internal" ObjectID="8192A61D-3736-4628-ADA18203095D5B77" Title="Huntington&apos;s disease" Url="http://www.mayoclinic.com/health/huntingtons-disease/DS00401" />
+		<LinkItem ContentType="Disease" DocID="DS00552" LinkType="Internal" ObjectID="471B9BC7-F9A0-43BC-A7736A45B7871721" Title="Traumatic brain injury" Url="http://www.mayoclinic.com/health/traumatic-brain-injury/DS00552" />
+		<LinkItem ContentType="Disease" DocID="DS00281" LinkType="Internal" ObjectID="451633E9-4EE0-472F-AF180974A8E009E9" Title="Brain tumor" Url="http://www.mayoclinic.com/health/brain-tumor/DS00281" />
+		<LinkItem ContentType="Disease" DocID="DS00359" LinkType="Internal" ObjectID="4131EB35-D406-425D-88A4EFEDC1A8D543" Title="Amyotrophic lateral sclerosis" Url="http://www.mayoclinic.com/health/amyotrophic-lateral-sclerosis/DS00359" />
+		<LinkItem ContentType="Disease" DocID="DS00375" LinkType="Internal" ObjectID="19970762-1121-4EA0-8559BA6A27BAB8AB" Title="Myasthenia gravis" Url="http://www.mayoclinic.com/health/myasthenia-gravis/DS00375" />
+		<LinkItem ContentType="Disease" DocID="DS00116" LinkType="Internal" ObjectID="0C0D0DE5-C2B4-4DCE-A15451078402A989" Title="Lyme disease" Url="http://www.mayoclinic.com/health/lyme-disease/DS00116" />
+	</RelatedLinksBox>
+</Disease>

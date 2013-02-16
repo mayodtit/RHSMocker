@@ -1,0 +1,372 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00352
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mononucleosis/DS00352
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-19
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2569" Title="Mononucleosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5C599D1E-4331-44F9-A48CE7EB9F7F2759
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mononucleosis
+			</MetaKeyword>
+			<MetaKeyword>
+				mono
+			</MetaKeyword>
+			<MetaKeyword>
+				Epstein
+			</MetaKeyword>
+			<MetaKeyword>
+				epstein
+			</MetaKeyword>
+			<MetaKeyword>
+				kissing disease
+			</MetaKeyword>
+			<MetaKeyword>
+				glandular fever
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen lymph glands
+			</MetaKeyword>
+			<MetaKeyword>
+				Epstein-Barr
+			</MetaKeyword>
+			<MetaKeyword>
+				Epstein-Barr virus
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of mono
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infectious mononucleosis (mono) is often called the kissing disease. The virus that causes mono is transmitted through saliva, so you can get it through kissing, but you can also be exposed through a cough or sneeze, or by sharing a glass or food utensils with someone who has mono. However, mononucleosis isn&apos;t as contagious as some infections, such as the common cold. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;re most likely to get mononucleosis with all the signs and symptoms if you&apos;re an adolescent or young adult. Young children usually have few symptoms, and the infection often goes unrecognized. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have mononucleosis, it&apos;s important to be careful of certain complications such as an enlarged spleen. Rest and adequate fluids are key to recovery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of mononucleosis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;General feeling of unwellness (malaise)&lt;/li&gt;
+	&lt;li&gt;Sore throat, perhaps a strep throat that doesn&apos;t get better with antibiotic use&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes in your neck and armpits&lt;/li&gt;
+	&lt;li&gt;Swollen tonsils&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Skin rash&lt;/li&gt;
+	&lt;li&gt;Soft, swollen spleen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The virus has an incubation period of approximately four to six weeks, although in young children this period may be shorter. Signs and symptoms such as fever and sore throat usually lessen within a couple of weeks, although fatigue, enlarged lymph nodes and a swollen spleen may last for a few weeks longer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see your doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve been experiencing the above symptoms, you may have mononucleosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If rest and a healthy diet don&apos;t ease your symptoms within a week or two or if your symptoms recur, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of mononucleosis is the Epstein-Barr virus. 
+&lt;/p&gt;
+&lt;p&gt;
+Mononucleosis usually isn&apos;t very serious. Most adults have been exposed to the Epstein-Barr virus and have built up antibodies. They&apos;re immune and won&apos;t get mononucleosis again. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of mononucleosis may be more serious than the disease itself. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Enlargement of the spleen&lt;/strong&gt; &lt;br /&gt;
+Mononucleosis may cause enlargement of the spleen. &amp;nbsp;In extreme cases, your spleen may rupture, causing sharp, sudden pain in the left side of your upper abdomen. &amp;nbsp;If such pain occurs, seek medical attention immediately &amp;mdash; you may need surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver issues&lt;/strong&gt; &lt;br /&gt;
+Problems with your liver also may occur: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis.&lt;/strong&gt; You may experience mild liver inflammation (hepatitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaundice.&lt;/strong&gt; A yellowing of your skin and the whites of your eyes (jaundice) also occurs occasionally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Less common complications&lt;/strong&gt; &lt;br /&gt;
+Mononucleosis can also result in the following less common complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia&lt;/strong&gt; &amp;mdash; a decrease in red blood cells and in hemoglobin, an iron-rich protein in red blood cells&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thrombocytopenia&lt;/strong&gt; &amp;mdash; low count of platelets, which are blood cells involved in clotting&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems &amp;mdash; &lt;/strong&gt;an inflammation of the heart muscle (myocarditis) &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complications involving the nervous system&lt;/strong&gt; &amp;mdash; meningitis, encephalitis and Guillain-Barre syndrome &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swollen tonsils&lt;/strong&gt; &amp;mdash; which can block breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The Epstein-Barr virus can cause much more serious illness in people who have impaired immune systems, such as people with HIV/AIDS or people taking drugs to suppress immunity after an organ transplant. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of enlarged spleen 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Height="60" Title="Enlarged spleen" URI="/images/image_popup/thumbs/r7_enlargedspleenthu.jpg" Width="60" />
+				<Image Alt="Image of enlarged spleen 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Height="366" Title="Enlarged spleen" URI="/images/image_popup/r7_enlargedspleen.jpg" Width="400" />
+				<HTML>
+					The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect you have mononucleosis, see your family doctor. Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; noting any major stresses,&amp;mdash; recent life changes, your daily routine rincluding sleep habits &amp;mdash; or exposure to anyone with mononucleosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For mononucleosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the likeliest causes of my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to stay home from work or school? How long should I stay home?&lt;/li&gt;
+	&lt;li&gt;When can I return to strenuous activities and contact sports?&lt;/li&gt;
+	&lt;li&gt;Are there any medications I need to avoid with mononucleosis?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other relevant questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you develop symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to anyone with mononucleosis?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect mononucleosis based on your signs and symptoms, how long they&apos;ve lasted and a physical examination. He or she will look for signs like swollen lymph nodes, tonsils, liver or spleen, and consider how these signs relate to the symptoms you describe. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibody tests.&lt;/strong&gt; If there&apos;s a need for additional confirmation, a monospot test may be done to check your blood for antibodies to the Epstein-Barr virus. This screening test gives results within a day. But it may not detect the infection during the first week of the illness. A different antibody test requires a longer result time, but can detect the disease even within the first week of symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;White blood cell count.&lt;/strong&gt; Your doctor may use other blood tests to look for an elevated number of white blood cells (lymphocytes) or abnormal-looking lymphocytes. These blood tests won&apos;t confirm mononucleosis, but they may suggest it as a possibility.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific therapy available to treat infectious mononucleosis. Antibiotics don&apos;t work against viral infections such as mono. Treatment mainly involves bed rest and drinking plenty of fluids. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treating secondary infections.&lt;/strong&gt; Occasionally, a streptococcal (strep) infection accompanies the sore throat of mononucleosis. You may also develop a sinus infection or an infection of your tonsils (tonsillitis). If so, you may need treatment with antibiotics for these accompanying bacterial infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Risk of rash with some medications.&lt;/strong&gt; Amoxicillin and other penicillin derivatives aren&apos;t recommended for people with mononucleosis. In fact, some people with mononucleosis who take one of these drugs may develop a rash. The rash, however, doesn&apos;t necessarily mean that they&apos;re allergic to the antibiotic. If needed, other antibiotics that are less likely to cause a rash are available to treat infections that may accompany mononucleosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; To ease some of your symptoms, such as severe swelling of your throat and tonsils, your doctor may prescribe a corticosteroid medication such as prednisone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Besides getting plenty of bed rest, these steps can help relieve symptoms of mononucleosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water&lt;/strong&gt; &lt;strong&gt;and fruit juices.&lt;/strong&gt; Fluids help relieve fever and sore throat and prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Take an over-the-counter pain reliever.&lt;/strong&gt; Use pain relievers such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others) as needed. These medicines have no antiviral properties. Take them only to relieve pain or a fever. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gargle with salt water.&lt;/strong&gt; Do this several times a day to relieve sore throat. Mix 1/2 teaspoon salt in 8 ounces (237 milliliters) of warm water.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Wait to return to sports and some other activities&lt;/strong&gt; &lt;br /&gt;
+Most signs and symptoms of mononucleosis ease within a few weeks, but it may be two to three months before you feel completely normal. The more rest you get, the sooner you should recover. Returning to your usual schedule too soon can increase the risk of a relapse. 
+&lt;/p&gt;
+&lt;p&gt;
+To avoid risk of rupturing your spleen, wait at least one month before returning to vigorous activities, heavy lifting, roughhousing or contact sports. Rupture of the spleen results in severe bleeding and is a medical emergency. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor when it&apos;s safe for you to resume your normal level of activity. Your doctor may recommend a gradual exercise program to help you rebuild your strength as you recover. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mononucleosis can last weeks, keeping you at home as you recover. Be patient with your body as it fights the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+For young people, having mononucleosis will mean some missed activities &amp;mdash; classes, team practices and parties. Without doubt, you&apos;ll need to take it easy for a while. Students need to let their schools know they are recovering from mononucleosis and may need special considerations to keep up with their work. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have mononucleosis, you don&apos;t necessarily need to be quarantined. Many people are already immune to the Epstein-Barr virus because of exposure as children. But plan on staying home from school and other activities until you&apos;re feeling better. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek the help of friends and family as you recover from mononucleosis. College students should also contact the campus student health center staff for assistance or treatment, if necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mononucleosis is spread through saliva. If you&apos;re infected, you can help prevent spreading the virus to others by not kissing them and by not sharing food, dishes, glasses and utensils until several days after your fever has subsided and even longer, if possible. 
+&lt;/p&gt;
+&lt;p&gt;
+The Epstein-Barr virus may persist in your saliva for months after the infection. No vaccine exists to prevent mononucleosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mononucleosis
+	</Title>
+	<Abstract>
+		Mononucleosis &amp;mdash; Comprehensive overview covers symptoms and treatment of kissing disease in adults and children.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01375" LinkType="Internal" ObjectID="FDA0EF27-E7FF-0DBD-1A75C7F2358C0846" Title="Mononucleosis: Can it recur?" Url="http://www.mayoclinic.com/health/mononucleosis/AN01375" />
+		<LinkItem ContentType="Answer" DocID="AN00661" LinkType="Internal" ObjectID="47213948-AFD2-4A44-82709BDB0E16CF5C" Title="Mononucleosis and Epstein-Barr: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/mononucleosis/AN00661" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Disease" DocID="DS00413" LinkType="Internal" ObjectID="8510BDEE-6A0E-41B5-822E98B643884C0E" Title="Guillain-Barre syndrome" Url="http://www.mayoclinic.com/health/guillain-barre-syndrome/DS00413" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,213 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00327
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00327
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-30
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			1AA7F8E8-508B-D3DD-1701934B22627AB6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &quot;The New Mayo Clinic Cookbook,&quot; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Muesli breakfast bars
+	</Title>
+	<Abstract>
+		Muesli breakfast bars &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		MAKES 24 BARS
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The original breakfast cereal called muesli &amp;mdash; a German word meaning &quot;mixture&quot; &amp;mdash; combined rolled oats with nuts and fruit. The bars here are perfect for breakfast on the go or for a healthy snack anytime. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 325 F. Lightly coat a 9-by-13-inch baking pan with olive oil cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, combine the oats, flour, dry milk, wheat germ, almonds, apples, raisins and salt. Stir well to blend and set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small saucepan, stir together the honey, peanut butter and olive oil over medium-low heat until well blended. Don&apos;t let the mixture boil. Stir in the vanilla. Add the warm honey mixture to the dry ingredients and stir quickly until well combined. The mixture should be sticky but not wet. 
+&lt;/p&gt;
+&lt;p&gt;
+Pat the mixture evenly into the prepared baking pan. Press firmly to remove any air pockets. Bake just until the edges begin to brown, about 25 minutes. Let cool in the pan on a wire rack for 10 minutes, and then cut into 24 bars. When just cool enough to handle, remove the bars from the pan and place them on the rack to cool completely. Store the bars in airtight containers in the refrigerator.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 1/2 cups old-fashioned rolled oats&lt;/li&gt;
+	&lt;li&gt;1/2 cup soy flour&lt;/li&gt;
+	&lt;li&gt;1/2 cup fat-free dry milk&lt;/li&gt;
+	&lt;li&gt;1/2 cup toasted wheat germ&lt;/li&gt;
+	&lt;li&gt;1/2 cup sliced (flaked) almonds or chopped pecans, toasted&lt;/li&gt;
+	&lt;li&gt;1/2 cup dried apples, chopped&lt;/li&gt;
+	&lt;li&gt;1/2 cup raisins&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;1 cup dark honey&lt;/li&gt;
+	&lt;li&gt;1/2 cup natural unsalted peanut butter&lt;/li&gt;
+	&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
+	&lt;li&gt;2 teaspoons vanilla extract&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				177
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				27 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				1 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 bar
+			</Servingsize>
+			<Sodium Label="Sodium">
+				75 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				11 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 24
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Breads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

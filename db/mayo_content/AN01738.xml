@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01738
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shingles-vaccine/AN01738
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-12-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2370" Title="Shingles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B48D8752-E7FF-0DBD-122DC8DD080D9C86
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shingles
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				zostavax
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes zoster
+			</MetaKeyword>
+			<MetaKeyword>
+				postherpetic neuralgia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Whether they&apos;ve had shingles or not, adults age 60 and older should get the shingles vaccine (Zostavax), according to the Centers for Disease Control and Prevention (CDC). Although the vaccine is also approved for use in people ages 50 to 59 years, the CDC isn&apos;t recommending the shingles vaccine until you reach age 60. 
+&lt;/p&gt;
+&lt;p&gt;
+The shingles vaccine protects your body from reactivation of a virus &amp;mdash; the chickenpox (varicella-zoster) virus &amp;mdash; that most people are exposed to during childhood. When you recover from chickenpox, the virus stays latent in your body. For unknown reasons, though, the latent virus sometimes gets reactivated years later, causing shingles. The shingles vaccine prevents this reactivation. 
+&lt;/p&gt;
+&lt;p&gt;
+The shingles vaccine isn&apos;t fail-safe; some people develop shingles despite vaccination. Even when it fails to suppress the virus completely, however, the shingles vaccine may reduce the severity and duration of shingles. Although there&apos;s hope that the vaccine will reduce your risk of severe, lingering pain after shingles (postherpetic neuralgia), studies haven&apos;t yet found strong evidence of that effect. 
+&lt;/p&gt;
+&lt;p&gt;
+The shingles vaccine is a live vaccine given as a single injection, usually in the upper arm. The most common side effects of the shingles vaccine are redness, pain, tenderness and swelling at the injection site, and headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+The shingles vaccine isn&apos;t recommended if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have ever had a life-threatening allergic reaction to gelatin, the antibiotic neomycin or any other component of the shingles vaccine&lt;/li&gt;
+	&lt;li&gt;Have a weakened immune system due to HIV/AIDS, lymphoma or leukemia&lt;/li&gt;
+	&lt;li&gt;Are receiving immune system-suppressing drugs, such as steroids, adalimumab (Humira), infliximab (Remicade), etanercept (Enbrel), radiation or chemotherapy&lt;/li&gt;
+	&lt;li&gt;Have active, untreated tuberculosis&lt;/li&gt;
+	&lt;li&gt;Are pregnant or trying to become pregnant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, the cost of the shingles vaccine may not be covered by Medicare or insurance. Check your plan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shingles vaccine: Should I get it?
+	</Title>
+	<Abstract>
+		The shingles vaccine is recommended for all adults older than age 60.
+	</Abstract>
+	<Question>
+		Who should get the shingles vaccine? If I&apos;ve already had shingles, should I get the vaccine so I don&apos;t get shingles again?
+	</Question>
+	<QuestionFirstName>
+		Doris
+	</QuestionFirstName>
+	<QuestionState>
+		New Jersey
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00878" LinkType="Internal" ObjectID="8A3A9C5C-E7FF-0DBD-1636E971D3607AFD" Title="Ramsay Hunt syndrome" Url="http://www.mayoclinic.com/health/ramsay-hunt-syndrome/DS00878" />
+		<LinkItem ContentType="Disease" DocID="DS00277" LinkType="Internal" ObjectID="65A60A8A-0189-4BF0-BECFCC731699401B" Title="Postherpetic neuralgia" Url="http://www.mayoclinic.com/health/postherpetic-neuralgia/DS00277" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Answer" DocID="AN01806" LinkType="Internal" ObjectID="E642BDDB-E7FF-0DBD-1CFC3EA0A653AB8C" Title="Shingles vaccine: Can I transmit the vaccine virus to others?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01806" />
+		<LinkItem ContentType="Answer" DocID="AN01944" LinkType="Internal" ObjectID="A0758334-E7FF-0DBD-118EB9FDD2AC05AC" Title="Shingles treatment: Does alcohol use affect therapy?" Url="http://www.mayoclinic.com/health/shingles-treatment/AN01944" />
+		<LinkItem ContentType="Disease" DocID="DS00098" LinkType="Internal" ObjectID="0B91C597-DAAE-4416-9ED6314A6B5F5A20" Title="Shingles" Url="http://www.mayoclinic.com/health/shingles/DS00098" />
+	</RelatedLinksBox>
+</Answer>

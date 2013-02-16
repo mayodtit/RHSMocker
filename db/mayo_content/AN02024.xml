@@ -1,0 +1,136 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02024
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/magic-mouthwash/AN02024
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-03
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3719" Title="Chemotherapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			144C8942-FC9E-A9FD-0C8694428EDF9B0B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				magic mouthwash
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth sores
+			</MetaKeyword>
+			<MetaKeyword>
+				oral mucositis
+			</MetaKeyword>
+			<MetaKeyword>
+				mucositis
+			</MetaKeyword>
+			<MetaKeyword>
+				mouthwash
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Magic mouthwash is the term given to a solution used to treat mouth sores (oral mucositis). Oral mucositis can be extremely painful and can result in an inability to eat, speak or swallow. Magic mouthwash may be used to treat mouth sores that result from some forms of chemotherapy and radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+There are several versions of magic mouthwash. Some are available pre-mixed (First-Mouthwash BLM, First-BXN Mouthwash, others), while others are prepared to order by pharmacists. If it&apos;s determined that magic mouthwash might be helpful, your doctor will likely write a prescription listing the ingredients and the amount of each. Magic mouthwash usually contains at least three of these basic ingredients: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An antibiotic to kill bacteria around the sore&lt;/li&gt;
+	&lt;li&gt;An antihistamine or local anesthetic to reduce pain and discomfort&lt;/li&gt;
+	&lt;li&gt;An antifungal to reduce fungal growth&lt;/li&gt;
+	&lt;li&gt;A corticosteroid to treat inflammation&lt;/li&gt;
+	&lt;li&gt;An antacid to enhance coating of the other ingredients inside the mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most formulations of magic mouthwash are intended to be used every four to six hours, and to be held in your mouth for one to two minutes before being either spit out or swallowed. It&apos;s recommended that you don&apos;t eat or drink for 30 minutes after using magic mouthwash so that the medicine has time to produce an effect. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s unclear how effective magic mouthwash is in treating oral mucositis. That&apos;s because of the lack of standardization in the formulations of mouthwash, and poorly designed studies done to gather data. If you have mouth sores that cause you pain and discomfort, talk with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of magic mouthwash may include problems with taste, a burning or tingling sensation in the mouth, drowsiness, constipation, diarrhea, and nausea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Magic mouthwash: Effective for chemotherapy mouth sores?
+	</Title>
+	<Abstract>
+		Magic mouthwash used while receiving chemotherapy may ease painful mouth sores.
+	</Abstract>
+	<Question>
+		I have mouth sores from receiving chemotherapy. I&apos;ve heard that something called &quot;magic mouthwash&quot; might help. What is it?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="Answer" DocID="AN01407" LinkType="Internal" ObjectID="D02CD117-E7FF-0DBD-1B172C8988F7AFB1" Title="Chemotherapy side effects: A cause of heart disease?" Url="http://www.mayoclinic.com/health/chemotherapy-side-effects/AN01407" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="Video" DocID="MM00781" LinkType="Internal" ObjectID="326F4A39-AAE6-1726-5451D1A058D6D11F" Title="Video: PICC line placement" Url="http://www.mayoclinic.com/health/picc-line-placement/MM00781" />
+		<LinkItem ContentType="Article" DocID="HQ01135" LinkType="Internal" ObjectID="C596EDA8-DEBC-444F-B01153A818A2C304" Title="Eating during cancer treatment: Tips to make food tastier" Url="http://www.mayoclinic.com/health/cancer/HQ01135" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="SA00070" LinkType="Internal" ObjectID="50A88AAB-332D-4808-88247DA44ACE9849" Title="Cancer treatment for men: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00070" />
+		<LinkItem ContentType="Answer" DocID="AN01936" LinkType="Internal" ObjectID="90EEBF57-E7FF-0DBD-1FBAF84824FE39B1" Title="Chemotherapy and sex: Is sexual activity OK during treatment?" Url="http://www.mayoclinic.com/health/chemotherapy-and-sex/AN01936" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS01109" LinkType="Internal" ObjectID="EAE2DEEA-E7FF-0DBD-1057144038EA6323" Title="Chemo brain" Url="http://www.mayoclinic.com/health/chemo-brain/DS01109" />
+		<LinkItem ContentType="Disease" DocID="DS01076" LinkType="Internal" ObjectID="63426615-E7FF-0DBD-1994B85EEA8B6116" Title="Cancer" Url="http://www.mayoclinic.com/health/cancer/DS01076" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Article" DocID="CA00030" LinkType="Internal" ObjectID="C2D1AB8B-565E-4B0B-9C34BEF4FE8ECA63" Title="Chemotherapy nausea and vomiting: Prevention is best defense" Url="http://www.mayoclinic.com/health/cancer/CA00030" />
+		<LinkItem ContentType="Article" DocID="CA00037" LinkType="Internal" ObjectID="A1678D65-8474-4028-85679F53CFE96FD5" Title="Chemotherapy and hair loss: What to expect during treatment" Url="http://www.mayoclinic.com/health/hair-loss/CA00037" />
+	</RelatedLinksBox>
+</Answer>

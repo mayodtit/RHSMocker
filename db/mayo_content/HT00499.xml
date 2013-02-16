@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00499
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00499
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="1759" Title="Tension" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A68115F-E7FF-0DBD-1B71A6B8772CE5D8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headache
+			</MetaKeyword>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Take headache relief into your own hands
+	</Title>
+	<Body>
+		&lt;p&gt;Nearly everyone experiences occasional tension headaches. But frequent tension headaches can interfere with your daily life. Aside from medication, do you wonder what you can do to stop the pain? The answer may be as simple as taking good care of yourself: 1. Eat healthy foods. 2. Exercise regularly. 3. Get enough sleep. 4. Avoid excess caffeine. 5. Reduce stress. 6. Relax. 7. Massage tense muscles. 8. Take a break when you feel overwhelmed.&lt;/p&gt;
+	</Body>
+</HealthTip>

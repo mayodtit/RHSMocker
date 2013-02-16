@@ -1,0 +1,277 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00491
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thyroid-nodules/DS00491
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="2453" Title="Thyroid nodules" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6014E6CA-8B4E-49B0-ACA1FC378D888DAE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thyroid nodules
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid gland
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroxine
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid stimulating hormone
+			</MetaKeyword>
+			<MetaKeyword>
+				TSH
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thyroid nodules are solid or fluid-filled lumps that form within your thyroid, a small gland located at the base of your neck, just above your breastbone. 
+&lt;/p&gt;
+&lt;p&gt;
+The great majority of thyroid nodules aren&apos;t serious and don&apos;t cause symptoms. Thyroid cancer accounts for a small percentage of thyroid nodules. 
+&lt;/p&gt;
+&lt;p&gt;
+You often won&apos;t know you have a thyroid nodule until your doctor discovers it during a routine medical exam. Some thyroid nodules, however, may become large enough to press on your windpipe, making it uncomfortable or difficult to swallow. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options depend on the type of thyroid nodule that you have. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most thyroid nodules don&apos;t cause signs or symptoms. Occasionally, however, some nodules become so large that they can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be felt&lt;/li&gt;
+	&lt;li&gt;Be seen, often as a swelling at the base of your neck&lt;/li&gt;
+	&lt;li&gt;Press on your windpipe or esophagus, causing shortness of breath or difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, thyroid nodules produce additional thyroxine, a hormone secreted by your thyroid gland. The extra thyroxine can cause problems such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Nervousness&lt;/li&gt;
+	&lt;li&gt;Rapid or irregular heartbeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A few thyroid nodules are cancerous (malignant) but it&apos;s difficult to tell which nodules are malignant by symptoms alone. Although size isn&apos;t a predictor of whether a nodule is malignant or not, cancerous thyroid tumors are more likely to be large fixed masses that grow quickly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although most thyroid nodules are noncancerous (benign) and don&apos;t cause problems, ask your doctor to evaluate any unusual swelling in your neck, especially if you have trouble breathing or swallowing. It&apos;s important to eliminate the possibility of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Also seek medical care if you develop signs and symptoms of hyperthyroidism, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden weight loss even though your appetite is normal or has increased&lt;/li&gt;
+	&lt;li&gt;A pounding heart&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Nervousness or irritability&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several conditions can cause one or more nodules to develop in your thyroid gland: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Iodine deficiency.&lt;/strong&gt; Lack of iodine in your diet can sometimes cause your thyroid gland to produce thyroid nodules. But iodine deficiency is uncommon in the United States, where iodine is routinely added to table salt and other foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overgrowth of normal thyroid tissue.&lt;/strong&gt; Why this occurs isn&apos;t clear but such growth &amp;mdash; which is sometimes referred to as a thyroid adenoma &amp;mdash; is generally noncancerous (benign) and isn&apos;t considered serious unless it&apos;s bothersome or causes complications. Some thyroid adenomas (autonomous or hyperfunctioning thyroid nodules) produce thyroid hormones outside of your pituitary gland&apos;s normal regulatory influence, leading to an overproduction of thyroid hormones (hyperthyroidism).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid cyst.&lt;/strong&gt; Fluid-filled cavities (cysts) in the thyroid most commonly result from degenerating thyroid adenomas. Often, solid components are mixed with fluid in thyroid cysts. Cysts are usually benign, but they occasionally contain malignant solid components.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic inflammation of the thyroid (thyroiditis).&lt;/strong&gt; Hashimoto&apos;s disease, a thyroid disorder, can cause thyroid inflammation and enlargement, and reduce thyroid gland activity (hypothyroidism).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multinodular goiter.&lt;/strong&gt; &quot;Goiter&quot; is a term used to describe any enlargement of the thyroid gland, which can be caused by iodine deficiency or a thyroid disorder. A multinodular goiter contains multiple distinct nodules within the goiter but its cause is less clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid cancer.&lt;/strong&gt; Although the chances that a nodule is malignant are small, you&apos;re at higher risk if you have a family history of thyroid or other endocrine cancers, are younger than 30 or older than 60, are a man, or have a history of radiation exposure, particularly to the head and neck. A nodule that is large and hard or causes pain or discomfort is more worrisome in terms of malignancy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications associated with thyroid nodules include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Problems swallowing or breathing.&lt;/strong&gt; Large nodules or a multinodular goiter &amp;mdash; an enlargement of the thyroid gland containing several distinct nodules &amp;mdash; can interfere with swallowing or breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperthryoidism.&lt;/strong&gt; Problems can occur when a nodule or goiter produces thyroid hormone, leading to hyperthyroidism. Hyperthyroidism in turn can result in unintended weight loss, muscle weakness, heat intolerance, and anxiousness or irritability. Potential complications of hyperthyroidism include heart-related complications; weak bones (osteoporosis); and thyrotoxic crisis, a sudden and potentially life-threatening intensification of your signs and symptoms that requires immediate medical care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems associated with thyroid cancer.&lt;/strong&gt; If a thyroid nodule is cancerous, surgery is usually required. Generally, most or all of your thyroid gland is removed, after which you&apos;ll need to take thyroid hormone replacement therapy for the rest of your life. Most thyroid cancers are found early, though, and have a good prognosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you see or feel a thyroid nodule yourself &amp;mdash; usually in the middle of your lower neck, just above your breastbone &amp;mdash; call your primary care doctor for an appointment to evaluate the lump. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, thyroid nodules are discovered when you&apos;re already at your doctor&apos;s office during a routine medical exam. Sometimes a thyroid nodule is detected when you have an imaging test, such as an ultrasound, CT or MRI scan, to evaluate another condition in your head or neck. Nodules detected this way are usually smaller than those found during a physical exam. 
+&lt;/p&gt;
+&lt;p&gt;
+Once a thyroid nodule has been detected, you&apos;re likely to be referred to an endocrinologist &amp;mdash; a doctor who specializes in endocrine disorders. To help you get the most from your appointment, try these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make your appointment, be sure to ask if there&apos;s anything you need to do in advance to prepare for diagnostic tests you might have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all symptoms and changes you&apos;re experiencing,&lt;/strong&gt; even if they seem unrelated to your current problem. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of important medical information,&lt;/strong&gt; including recent surgical procedures, the names of all medications you&apos;re taking and any other conditions for which you&apos;ve been treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make note of your personal and family medical history,&lt;/strong&gt; including any history of thyroid disorders or thyroid cancer. Your doctor will also want to know of any exposure to radiation you may have had, whether as a child or an adult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor. For instance, you&apos;re likely to want to know whether nodules that don&apos;t cause problems need treatment and what treatment options are available.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In assessing a lump or nodule in your neck, one of your doctor&apos;s main goals is to rule out the possibility of cancer. But your doctor will also want to know if your thyroid is functioning properly. Tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; You&apos;ll likely be asked to swallow while your doctor examines your thyroid because a nodule in the thyroid gland will usually move up and down during swallowing, whereas a nodule that forms in other parts of your neck won&apos;t.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid function tests.&lt;/strong&gt; Tests that measure blood levels of thyroxine and triiodothyronine, hormones produced by your thyroid gland, and thyroid-stimulating hormone (TSH), which is released by your pituitary gland, can indicate whether your thyroid is producing too much thyroxine (hyperthyroidism) or too little (hypothyroidism).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasonography.&lt;/strong&gt; This imaging technique uses high-frequency sound waves rather than radiation to produce images. It provides the best information about the shape and structure of nodules and may be used to distinguish cysts from solid nodules, to determine if multiple nodules are present and as a guide in performing a fine-needle aspiration biopsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fine-needle aspiration (FNA) biopsy.&lt;/strong&gt; Nodules are often biopsied to make sure no cancer is present. FNA biopsy helps to distinguish between benign and malignant thyroid nodules. During the procedure, your doctor inserts a very thin needle in the nodule and removes a sample of cells. The procedure, which is carried out in your doctor&apos;s office, takes about 20 minutes and has few risks. Your doctor is likely to take several samples from a single nodule. If you have more than one nodule, your doctor will usually take samples from these as well. Often, your doctor will use ultrasound to help guide the placement of the needle. The samples are then sent to a laboratory and analyzed under a microscope.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Thyroid scan.&lt;/strong&gt; In some cases, your doctor may recommend a thyroid scan to help evaluate thyroid nodules. During this test, an isotope of radioactive iodine is injected into a vein in your arm. You then lie on a table while a special camera produces an image of your thyroid on a computer screen.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Nodules that produce excess thyroid hormone &amp;mdash; called hot nodules &amp;mdash; show up on the scan because they take up more of the isotope than normal thyroid tissue does. Cold nodules are nonfunctioning and appear as defects or holes in the scan. Hot nodules are almost always noncancerous, but a few cold nodules are cancerous. The disadvantage of a thyroid scan is that it can&apos;t distinguish between benign and malignant cold nodules. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The length of a thyroid scan varies, depending on how long it takes the isotope to reach your thyroid gland. You may have some neck discomfort because your neck is stretched back during the scan, and you&apos;ll be exposed to a small amount of radiation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the type of thyroid nodule you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating benign nodules&lt;/strong&gt; &lt;br /&gt;
+If a thyroid nodule isn&apos;t cancerous, there are several treatment options: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Watchful waiting.&lt;/strong&gt; If a biopsy shows that you have a benign thyroid nodule, your doctor may suggest simply watching your condition, which usually means having a physical exam and thyroid function tests at regular intervals. You&apos;re also likely to have another biopsy if the nodule grows larger. If a benign thyroid nodule remains unchanged, you may never need treatment beyond careful monitoring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid hormone suppression therapy.&lt;/strong&gt; This involves treating a benign nodule with levothyroxine (Levoxyl, Synthroid, others), a synthetic form of thyroxine that you take in pill form. The idea is that supplying additional thyroid hormone will signal the pituitary to produce less TSH, the hormone that stimulates the growth of thyroid tissue. Although this sounds good in theory, levothyroxine therapy is a matter of some debate. There&apos;s no clear evidence that the treatment consistently shrinks nodules or even that shrinking small, benign nodules is necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Occasionally, a nodule that&apos;s clearly benign may require surgery, especially if it&apos;s so large that it makes it hard to breathe or swallow. Surgery is also considered the best option for people with large multinodular goiters, particularly when the goiters constrict airways, the esophagus or blood vessels. Nodules diagnosed as indeterminate or suspicious by a biopsy also need surgical removal, so they can be examined more thoroughly for signs of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating nodules that cause hyperthyroidism&lt;/strong&gt; &lt;br /&gt;
+If a thyroid nodule is producing thyroid hormones, overloading your thyroid gland&apos;s normal hormone production levels, your doctor may recommend treating you for hyperthyroidism. This may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radioactive iodine.&lt;/strong&gt; Doctors often use radioactive iodine to treat hyperfunctioning adenomas or multinodular goiters. Taken as a capsule or in liquid form, radioactive iodine is absorbed by your thyroid gland, causing the nodules to shrink and signs and symptoms of hyperthyroidism to subside, usually within two to three months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-thyroid medications.&lt;/strong&gt; In some cases, your doctor may recommend an anti-thyroid medication such as methimazole (Tapazole) to reduce symptoms of hyperthyroidism. Treatment is generally long-term and can have serious side effects on your liver, so it&apos;s important to discuss the treatment&apos;s risks and benefits with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If treatment with radioactive iodine or anti-thyroid medications isn&apos;t an option, you may be a candidate for surgery to remove your thyroid gland. Surgery also carries certain risks that should be thoroughly discussed beforehand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating cancerous nodules&lt;/strong&gt; &lt;br /&gt;
+Treatment for a nodule that&apos;s cancerous usually involves surgery. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; The usual treatment for malignant nodules is surgical removal, often along with the majority of thyroid tissue &amp;mdash; a procedure called near-total thyroidectomy. Risks of thyroid surgery include damage to the nerve that controls your vocal cords and damage to your parathyroid glands &amp;mdash; four tiny glands located on the back of your thyroid gland that help control the level of calcium in your blood. After thyroidectomy, you&apos;ll need lifelong treatment with levothyroxine to supply your body with normal amounts of thyroid hormone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thyroid nodules
+	</Title>
+	<Abstract>
+		Thyroid nodules &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of lumps in the thyroid gland.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00709" LinkType="Internal" ObjectID="3B7E2908-9788-8F9C-79689BBDDE8A5263" Title="Thyroidectomy" Url="http://www.mayoclinic.com/health/thyroidectomy/MY00709" />
+	</RelatedLinksBox>
+</Disease>

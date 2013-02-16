@@ -1,0 +1,306 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00374
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/syphilis/DS00374
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-14
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1590" Title="Sexually transmitted">
+						<Keyword MCVID="2541" Title="Syphilis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7A071D36-0044-43D3-BF62F1558C7745C0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				syphilis
+			</MetaKeyword>
+			<MetaKeyword>
+				syphillis
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				STD
+			</MetaKeyword>
+			<MetaKeyword>
+				STD&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				STDs
+			</MetaKeyword>
+			<MetaKeyword>
+				sexual transmitted diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				sexual diseases
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Syphilis is a bacterial infection usually spread by sexual contact. The disease starts as a painless sore &amp;mdash; typically on your genitals, rectum or mouth. Syphilis spreads from person to person via skin or mucous membrane contact with these sores. 
+&lt;/p&gt;
+&lt;p&gt;
+After the initial infection, the syphilis bacteria can lie dormant in your body for decades before becoming active again. Early syphilis can be cured, sometimes with a single injection of penicillin. Without treatment, syphilis can severely damage your heart, brain or other organs, and can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Syphilis rates in the United States have been rising since 2000, particularly among men who have sex with men. The genital sores associated with syphilis can make it easier to become infected with HIV, the virus that causes AIDS. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing primary syphilis 
+" Caption="Primary syphilis causes painless sores (chancres) on your genitals, rectum, tongue or lips. The disease can be present with the appearance of a single chancre (shown here on penis) or many. 
+" Height="60" Title="Primary syphilis" URI="/images/image_popup/thumbs/r7_primarysyphilisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing primary syphilis 
+" Caption="Primary syphilis causes painless sores (chancres) on your genitals, rectum, tongue or lips. The disease can be present with the appearance of a single chancre (shown here on penis) or many. 
+" Height="307" Title="Primary syphilis" URI="/images/image_popup/r7_primarysyphilis.jpg" Width="400" />
+				<HTML>
+					Primary syphilis causes painless sores (chancres) on your genitals, rectum, tongue or lips. The disease can be present with the appearance of a single chancre (shown here on penis) or many. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Syphilis develops in stages, and symptoms vary with each stage. But the stages may overlap, and symptoms don&apos;t always occur in the same order. You may be infected with syphilis and not notice any symptoms for years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary syphilis&lt;/strong&gt; &lt;br /&gt;
+The first sign of syphilis is a small sore, called a chancre (SHANG-kur). The sore appears at the spot where the bacteria entered your body. While most people infected with syphilis develop only one chancre, some people develop several of them. The chancre usually develops about three weeks after exposure. Many people who have syphilis don&apos;t notice the chancre because it&apos;s usually painless and it may be hidden within the vagina or rectum. The chancre will heal on its own within six weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary syphilis&lt;/strong&gt; &lt;br /&gt;
+Within a few weeks of the original chancre healing, you may experience a rash that begins on your trunk but eventually covers your entire body &amp;mdash; even the palms of your hands and the soles of your feet. This rash is usually not itchy and may be accompanied by wart-like sores in the mouth or genital area. Some people also experience muscle aches, fever, sore throat and swollen lymph nodes. These signs and symptoms may disappear within a few weeks or repeatedly come and go for as long as a year. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Latent syphilis&lt;/strong&gt;&lt;br /&gt;
+If you aren&apos;t treated for syphilis, the disease moves from the secondary to the latent (hidden) stage, when you have no symptoms. The latent stage can last for years. Signs and symptoms may never return, or the disease may progress to the tertiary (third) stage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tertiary or late syphilis&lt;/strong&gt;&lt;br /&gt;
+About 15 to 30 percent of people infected with syphilis who don&apos;t get treatment will develop complications known as tertiary, or late, syphilis. In the late stages, the disease may damage your brain, nerves, eyes, heart, blood vessels, liver, bones and joints. These problems may occur many years after the original, untreated infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Congenital syphilis&lt;/strong&gt; &lt;br /&gt;
+Babies born to women who have syphilis can become infected through the placenta or during birth. Most newborns with congenital syphilis have no symptoms, although some experience a rash on the palms of their hands and the soles of their feet. Later symptoms may include deafness, teeth deformities and saddle nose &amp;mdash; where the bridge of the nose collapses. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Call your doctor if you or your child experiences any unusual discharge, sore or rash &amp;mdash; particularly if it occurs in the groin area. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing primary syphilis 
+" Caption="Primary syphilis causes painless sores (chancres) on your genitals, rectum, tongue or lips. The disease can be present with the appearance of a single chancre (shown here on penis) or many. 
+" Height="60" Title="Primary syphilis" URI="/images/image_popup/thumbs/r7_primarysyphilisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing primary syphilis 
+" Caption="Primary syphilis causes painless sores (chancres) on your genitals, rectum, tongue or lips. The disease can be present with the appearance of a single chancre (shown here on penis) or many. 
+" Height="307" Title="Primary syphilis" URI="/images/image_popup/r7_primarysyphilis.jpg" Width="400" />
+				<HTML>
+					Primary syphilis causes painless sores (chancres) on your genitals, rectum, tongue or lips. The disease can be present with the appearance of a single chancre (shown here on penis) or many. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of syphilis is a bacterium called Treponema pallidum. The most common route of transmission is through contact with an infected person&apos;s sore during sexual activity. The bacteria enter your body through minor cuts or abrasions in your skin or mucous membranes. Syphilis is contagious during its primary and secondary stages, and sometimes in the early latent period.
+&lt;/p&gt;
+&lt;p&gt;
+Less commonly, syphilis may spread through direct unprotected close contact with an active lesion (such as during kissing) or through an infected mother to her baby during pregnancy or childbirth (congenital syphilis).
+&lt;/p&gt;
+&lt;p&gt;
+Syphilis can&apos;t be spread by using the same toilet, bathtub, clothing or eating utensils, or from doorknobs, swimming pools or hot tubs.
+&lt;/p&gt;
+&lt;p&gt;
+Even if you&apos;ve been cured of syphilis, you can become re-infected if you have contact with someone&apos;s syphilis sore. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You face an increased risk of acquiring syphilis if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Engage in unprotected sex&lt;/li&gt;
+	&lt;li&gt;Have sex with multiple partners&lt;/li&gt;
+	&lt;li&gt;Are a man who has sex with men&lt;/li&gt;
+	&lt;li&gt;Are infected with HIV, the virus that causes AIDS&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Without treatment, syphilis can lead to damage throughout your body. Syphilis also increases the risk of HIV infection and, for women, can cause problems during pregnancy. Treatment can help prevent future damage but can&apos;t repair or reverse damage that&apos;s already occurred. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Small bumps or tumors&lt;/strong&gt; &lt;br /&gt;
+Called gummas, these bumps can develop on your skin, bones, liver or any other organ in the late stage of syphilis. Gummas usually disappear after treatment with antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological problems&lt;/strong&gt; &lt;br /&gt;
+Syphilis can cause a number of problems with your nervous system, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Meningitis&lt;/li&gt;
+	&lt;li&gt;Deafness&lt;/li&gt;
+	&lt;li&gt;Visual problems&lt;/li&gt;
+	&lt;li&gt;Dementia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cardiovascular problems&lt;/strong&gt; &lt;br /&gt;
+These may include bulging (aneurysm) and inflammation of the aorta &amp;mdash; your body&apos;s major artery &amp;mdash; and of other blood vessels. Syphilis may also damage heart valves. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;HIV infection&lt;/strong&gt; &lt;br /&gt;
+Adults with sexually transmitted syphilis or other genital ulcers have an estimated two- to fivefold increased risk of contracting HIV. A syphilis sore can bleed easily, providing an easy way for HIV to enter your bloodstream during sexual activity. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy and childbirth complications&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re pregnant, you may pass syphilis to your unborn baby. Congenital syphilis greatly increases the risk of miscarriage, stillbirth or your newborn&apos;s death within a few days after birth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Syphilis can be diagnosed by testing samples of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood.&lt;/strong&gt; Blood tests can confirm the presence of antibodies that the body produces to fight infection. The antibodies to the bacteria that cause syphilis remain in your body for years, so the test can be used to determine a current or past infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid from sores.&lt;/strong&gt; Your doctor may scrape a small sample of cells from a sore to be analyzed by microscope in a lab. This test can be done only during primary or secondary syphilis, when sores are present. The scraping can reveal the presence of bacteria that cause syphilis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral spinal fluid.&lt;/strong&gt; If it&apos;s suspected that you have nervous system complications of syphilis, your doctor may also suggest collecting a sample of cerebrospinal fluid through a procedure called a lumbar puncture (spinal tap). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When diagnosed and treated in its early stages, syphilis is easy to cure. The preferred treatment at all stages is penicillin, an antibiotic medication that can kill the organism that causes syphilis. If you&apos;re allergic to penicillin, your doctor will suggest another antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+A single injection of penicillin can stop the disease from progressing if you&apos;ve been infected for less than a year. If you&apos;ve had syphilis for longer than a year, you may need additional doses. 
+&lt;/p&gt;
+&lt;p&gt;
+Penicillin is the only recommended treatment for pregnant women with syphilis. Women who are allergic to penicillin can undergo a desensitization process that may allow them to take penicillin. Even if you&apos;re treated for syphilis during your pregnancy, your newborn child should also receive antibiotic treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+The first day you receive treatment you may experience what&apos;s known as the Jarisch-Herxheimer reaction. Signs and symptoms include fever, chills, nausea, achy pain and headache. This reaction usually doesn&apos;t last more than one day. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment follow-up&lt;/strong&gt; &lt;br /&gt;
+After you&apos;re treated for syphilis, your doctor will ask you to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have periodic blood tests and exams to make sure you&apos;re responding to the usual dosage of penicillin.&lt;/li&gt;
+	&lt;li&gt;Avoid sexual contact until the treatment is completed and blood tests indicate the infection has been cured.&lt;/li&gt;
+	&lt;li&gt;Notify your sex partners so that they can be tested and get treatment if necessary.&lt;/li&gt;
+	&lt;li&gt;Be tested for HIV infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent the spread of syphilis, follow these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abstain or be monogamous.&lt;/strong&gt; The only certain way to avoid syphilis is to forgo having sex. The next-best option is to have mutually monogamous sex with one partner who is uninfected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a latex condom.&lt;/strong&gt; Condoms can reduce your risk of contracting syphilis, but only if the condom covers the syphilis sores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid recreational drugs.&lt;/strong&gt; Excessive use of alcohol or other drugs can cloud your judgment and lead to unsafe sexual practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening for pregnant women&lt;/strong&gt; &lt;br /&gt;
+People can be infected with syphilis and not know it. In light of the often deadly effects syphilis can have on unborn children, health officials recommend that all pregnant women be screened for the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Syphilis
+	</Title>
+	<Abstract>
+		Syphilis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this potentially serious sexually transmitted infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="ID00053" LinkType="Internal" ObjectID="AB2D594E-E7FF-0DBD-1159C5056649527A" Title="STD symptoms: Common STDs and their symptoms" Url="http://www.mayoclinic.com/health/std-symptoms/ID00053" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+	</RelatedLinksBox>
+</Disease>

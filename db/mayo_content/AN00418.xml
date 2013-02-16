@@ -1,0 +1,122 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00418
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blighted-ovum/AN00418
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-07
+		</UpdateDate>
+		<PublicationDate>
+			2002-11-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="3559" Title="Miscarriage" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			84A2C65F-7AE9-48AD-AB05BCB05CD04C29
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blighted ovum
+			</MetaKeyword>
+			<MetaKeyword>
+				miscarriage
+			</MetaKeyword>
+			<MetaKeyword>
+				early pregnancy loss
+			</MetaKeyword>
+			<MetaKeyword>
+				anembryonic pregnancy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A blighted ovum, also called an anembryonic pregnancy, occurs when a fertilized egg develops a placenta and membrane but no embryo &amp;mdash; often due to chromosomal abnormalities in the fertilized egg. A blighted ovum usually occurs in the first few weeks of pregnancy, often before a woman even knows she&apos;s pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+With a blighted ovum, a woman may miss a period and have a positive pregnancy test. This is because the placenta secretes human chorionic gonadotropin (HCG), a pregnancy hormone. Symptoms of early pregnancy &amp;mdash; such as fatigue and breast tenderness &amp;mdash; are possible as well. But when the placenta stops growing and hormone levels decrease, the pregnancy symptoms subside. At this point, minor abdominal cramping and light spotting or bleeding are possible. An ultrasound will show an empty gestational sac. 
+&lt;/p&gt;
+&lt;p&gt;
+A blighted ovum eventually results in miscarriage. Some women choose to wait for the miscarriage to happen naturally, while others take medication to trigger the miscarriage. In some cases, a procedure called dilation and curettage (D&amp;C) is used to remove the placental tissues. 
+&lt;/p&gt;
+&lt;p&gt;
+Most women who&apos;ve had a blighted ovum go on to have successful pregnancies. If you experience multiple consecutive miscarriages, you might consider testing to identify any underlying causes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blighted ovum: What causes it?
+	</Title>
+	<Abstract>
+		A blighted ovum is a cause of early pregnancy loss.
+	</Abstract>
+	<Question>
+		What causes a blighted ovum?
+	</Question>
+	<QuestionFirstName>
+		Amber
+	</QuestionFirstName>
+	<QuestionState>
+		Arkansas
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02109" LinkType="Internal" ObjectID="D793BB0F-FCD4-9948-B1AB31E3FD647B7D" Title="Pregnancy and hot tubs: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/pregnancy-and-hot-tubs/AN02109" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01919" LinkType="Internal" ObjectID="8F721657-ED13-7D11-6153103214893F79" Title="Biophysical profile" Url="http://www.mayoclinic.com/health/biophysical-profile/MY01919" />
+		<LinkItem ContentType="Answer" DocID="AN02180" LinkType="Internal" ObjectID="129379DE-0D72-DE46-E1934E38D7FC825C" Title="Paternal age: How does it affect a baby?" Url="http://www.mayoclinic.com/health/paternal-age/AN02180" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00345" LinkType="Internal" ObjectID="06AC3953-E7FF-0DBD-195336DCB709FF7B" Title="Dilation and curettage (D&amp;amp;C)" Url="http://www.mayoclinic.com/health/dilation-and-curettage/MY00345" />
+		<LinkItem ContentType="Answer" DocID="AN01727" LinkType="Internal" ObjectID="04C6CE8F-E7FF-0DBD-14F2385022B27E4A" Title="Early miscarriage: Is stress a factor?" Url="http://www.mayoclinic.com/health/early-miscarriage/AN01727" />
+		<LinkItem ContentType="Article" DocID="MY01924" LinkType="Internal" ObjectID="A936A6CB-EBE3-75E1-8149D2118AC8AA6F" Title="Smoking and pregnancy: Understand the risks" Url="http://www.mayoclinic.com/health/smoking-and-pregnancy/MY01924" />
+		<LinkItem ContentType="Article" DocID="MY01945" LinkType="Internal" ObjectID="1A1EE92E-FB0A-795B-CEB7BDD5607624A1" Title="Placenta: How it works, what&apos;s normal" Url="http://www.mayoclinic.com/health/placenta/MY01945" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="Article" DocID="MY01441" LinkType="Internal" ObjectID="10DBE569-C51A-8BB5-26C7D152F131E982" Title="Pregnancy after miscarriage: What you need to know" Url="http://www.mayoclinic.com/health/pregnancy-after-miscarriage/MY01441" />
+		<LinkItem ContentType="Disease" DocID="DS01155" LinkType="Internal" ObjectID="E21DC5D6-B5CC-F0F6-3C309D4718AC34F1" Title="Molar pregnancy" Url="http://www.mayoclinic.com/health/molar-pregnancy/DS01155" />
+		<LinkItem ContentType="Disease" DocID="DS01198" LinkType="Internal" ObjectID="1A2F7204-9495-DCE4-A898AADA3C791575" Title="Incompetent cervix" Url="http://www.mayoclinic.com/health/incompetent-cervix/DS01198" />
+		<LinkItem ContentType="Article" DocID="PR00098" LinkType="Internal" ObjectID="DE7A40B9-5056-4DB3-A41F7BA528851BBF" Title="Pregnancy loss: How to cope" Url="http://www.mayoclinic.com/health/pregnancy-loss/PR00098" />
+		<LinkItem ContentType="Disease" DocID="DS01105" LinkType="Internal" ObjectID="6B11E6BD-E7FF-0DBD-1332ED03983B3A84" Title="Miscarriage" Url="http://www.mayoclinic.com/health/pregnancy-loss-miscarriage/DS01105" />
+	</RelatedLinksBox>
+</Answer>

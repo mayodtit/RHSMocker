@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00691
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thrombocytopenia/DS00691
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-06
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="2258" Title="Low platelet count" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			694C3120-2A5D-9994-E603EEB0CB3F9B14
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thrombocytopenia
+			</MetaKeyword>
+			<MetaKeyword>
+				platelet disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				low platelet count
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				petechiae
+			</MetaKeyword>
+			<MetaKeyword>
+				purpura
+			</MetaKeyword>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				lupus
+			</MetaKeyword>
+			<MetaKeyword>
+				AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic thrombocytopenic purpura
+			</MetaKeyword>
+			<MetaKeyword>
+				thrombotic thrombocytopenic purpura
+			</MetaKeyword>
+			<MetaKeyword>
+				hemolytic uremic syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				low platelets
+			</MetaKeyword>
+			<MetaKeyword>
+				blood platlets
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thrombocytopenia is the medical term for a low blood platelet count. Platelets (thrombocytes) are colorless blood cells that play an important role in blood clotting. Platelets stop blood loss by clumping and forming plugs in blood vessel holes. 
+&lt;/p&gt;
+&lt;p&gt;
+Thrombocytopenia often occurs as a result of a separate disorder, such as leukemia or an immune system problem, or as a medication side effect. Thrombocytopenia may be mild and cause few signs or symptoms. In rare cases, the number of platelets may be so low that dangerous internal bleeding can occur. 
+&lt;/p&gt;
+&lt;p&gt;
+Thrombocytopenia usually improves when the underlying cause is treated. Sometimes medications, surgery or a blood transfusion can help treat chronic thrombocytopenia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thrombocytopenia symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Easy or excessive bruising&lt;/li&gt;
+	&lt;li&gt;Superficial bleeding into the skin that appears as a rash of pinpoint-sized reddish-purple spots (petechiae), usually on the lower legs&lt;/li&gt;
+	&lt;li&gt;Prolonged bleeding from cuts&lt;/li&gt;
+	&lt;li&gt;Spontaneous bleeding from your gums or nose&lt;/li&gt;
+	&lt;li&gt;Blood in urine or stools&lt;/li&gt;
+	&lt;li&gt;Unusually heavy menstrual flows&lt;/li&gt;
+	&lt;li&gt;Profuse bleeding during surgery or after dental work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Bleeding that won&apos;t stop is a medical emergency. Seek immediate help if you experience bleeding that can&apos;t be controlled by usual first-aid techniques, such as applying pressure to the area. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="60" Title="Photograph of petechiae on leg and abdomen" URI="/images/image_popup/thumbs/ans7_petechiaethu.jpg" Width="60" />
+				<Image Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="317" Title="Petechiae" URI="/images/image_popup/ans7_petechiae.jpg" Width="400" />
+				<HTML>
+					Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If for any reason your blood platelet count falls below normal, the condition is called thrombocytopenia. Normally, you have anywhere from 150,000 to 450,000 platelets per microliter of circulating blood. Because each platelet lives only about 10 days, your body continually renews your platelet supply by producing new platelets in your bone marrow. 
+&lt;/p&gt;
+&lt;p&gt;
+Thrombocytopenia has many possible causes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Trapping of platelets in the spleen&lt;/strong&gt; &lt;br /&gt;
+The spleen is a small organ about the size of your fist located just below your rib cage on the left side of your abdomen. Normally, your spleen works to fight infection and filter unwanted material from your blood. An enlarged spleen &amp;mdash; which can be caused by a number of disorders &amp;mdash; may harbor too many platelets, causing a decrease in the number of platelets in circulation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reduced production of platelets&lt;/strong&gt; &lt;br /&gt;
+Platelets are produced in your bone marrow. A disease or condition that involves your bone marrow, such as leukemia and some types of anemia, could lead to a reduction in the number of new platelets produced. Viral infections, including HIV infection, may reduce your bone marrow&apos;s ability to make platelets. Toxic chemicals, chemotherapy drugs and heavy alcohol consumption also can reduce platelet production. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Increased breakdown of platelets&lt;/strong&gt; &lt;br /&gt;
+A number of conditions can cause your body to use up or destroy platelets more rapidly than they are produced, leading to a shortage of platelets in your bloodstream. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Being pregnant may cause mild thrombocytopenia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Idiopathic thrombocytopenic purpura (ITP&lt;/strong&gt;)&lt;strong&gt;.&lt;/strong&gt; In ITP, your body&apos;s immune system mistakenly identifies platelets as a threat and forms antibodies that attack them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune diseases.&lt;/strong&gt; Other diseases in which your body&apos;s immune system attacks healthy tissue may cause thrombocytopenia. Examples include lupus and rheumatoid arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria in the blood.&lt;/strong&gt; Severe bacterial infections involving the blood (bacteremia) may lead to destruction of platelets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thrombotic thrombocytopenic purpura (TTP).&lt;/strong&gt; TTP is a rare condition that occurs when small blood clots suddenly form throughout your body, using up large numbers of platelets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemolytic uremic syndrome.&lt;/strong&gt; This rare disorder causes a sharp drop in platelets, destruction of red blood cells and impairment of kidney function. Sometimes it can occur in association with a bacterial Escherichia coli (E. coli) infection, such as may be acquired from eating raw or undercooked meat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Certain medications can reduce the number of platelets in your blood by confusing the immune system and causing it to destroy platelets. Examples include heparin, quinidine, quinine, sulfa-containing antibiotics, interferon, anticonvulsants and gold salts.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of enlarged spleen 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Height="60" Title="Enlarged spleen" URI="/images/image_popup/thumbs/r7_enlargedspleenthu.jpg" Width="60" />
+				<Image Alt="Image of enlarged spleen 
+" Caption="The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+" Height="366" Title="Enlarged spleen" URI="/images/image_popup/r7_enlargedspleen.jpg" Width="400" />
+				<HTML>
+					The spleen is a small organ normally about the size of your fist. But a number of conditions, including liver disease and some cancers, can cause your spleen to become enlarged. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dangerous internal bleeding can occur when your platelet count falls below 10,000 platelets per microliter. Though rare, severe thrombocytopenia can cause bleeding into the brain or intestines, which can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. Most cases of thrombocytopenia can be managed by your family doctor. In certain situations, your doctor may recommend that you see a doctor who treats blood diseases (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs or symptoms you&apos;re experiencing,&lt;/strong&gt; such as any unusual bruising or bleeding or any rashes. Include any symptoms that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent illnesses, major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important, in case time runs out. For thrombocytopenia, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How many platelets do I have in my blood?&lt;/li&gt;
+	&lt;li&gt;Is my platelet count dangerously low?&lt;/li&gt;
+	&lt;li&gt;What is causing my thrombocytopenia?&lt;/li&gt;
+	&lt;li&gt;Do I need more tests?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for my thrombocytopenia?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Tests to diagnose thrombocytopenia&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose thrombocytopenia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A complete blood count determines the number of blood cells, including platelets, in a sample of your blood. Normal blood contains 150,000 to 450,000 platelets per microliter. If the complete blood count finds you have fewer than 150,000 platelets, you have thrombocytopenia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor may do a physical exam to look for signs of bleeding, such as excessive bruising or petechiae. Your doctor may also feel your abdomen to see if your spleen is enlarged.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other tests to determine the cause of thrombocytopenia&lt;/strong&gt; &lt;br /&gt;
+Once your doctor diagnoses your thrombocytopenia, you may undergo other tests and procedures to determine the cause. The tests and procedures you undergo depend on your other signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Mild thrombocytopenia&lt;/strong&gt; &lt;br /&gt;
+Many cases of mild thrombocytopenia may not require treatment. The condition may resolve on its own. For instance, mild thrombocytopenia in pregnant women usually improves soon after childbirth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for more severe thrombocytopenia&lt;/strong&gt; &lt;br /&gt;
+Treating thrombocytopenia may involve several options: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treating the underlying cause of thrombocytopenia.&lt;/strong&gt; If your doctor can identify a disease or condition that&apos;s causing your thrombocytopenia, treating that cause may improve your signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood transfusions.&lt;/strong&gt; If your platelet level becomes too low, your doctor can replace lost blood with transfusions of packed red blood cells or platelets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment for idiopathic thrombocytopenic purpura.&lt;/strong&gt; Treatment for this disease may include medications that block the antibodies that attack platelets, such as corticosteroids. If corticosteroids don&apos;t help, your doctor may recommend surgery to remove your spleen (splenectomy) or stronger medications to suppress your immune system. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have thrombocytopenia, try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid activities that could cause injury.&lt;/strong&gt; Ask your doctor which activities are safe for you. Contact sports, such as boxing and football, carry a high risk of injury. Other sports that your doctor may ask you to refrain from include horseback riding and downhill skiing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Alcohol slows the production of platelets in your body. Ask your doctor whether it&apos;s OK for you to drink alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution with over-the-counter medications.&lt;/strong&gt; Over-the-counter pain medications that can affect your platelet function include aspirin and ibuprofen (Advil, Motrin, others).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thrombocytopenia (low platelet count)
+	</Title>
+	<Abstract>
+		Thrombocytopenia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of a low platelet count.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01271" LinkType="Internal" ObjectID="D870A127-09C3-EB7A-05D2BDC60612CD97" Title="Splenectomy" Url="http://www.mayoclinic.com/health/splenectomy/MY01271" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00476" LinkType="Internal" ObjectID="1D9EDDDF-95B4-602A-031B9C87EEDF18B0" Title="Complete blood count (CBC)" Url="http://www.mayoclinic.com/health/complete-blood-count/MY00476" />
+		<LinkItem ContentType="Article" DocID="HQ00355" LinkType="Internal" ObjectID="693511F3-4A05-4A4F-AAA101D6FA26EAB2" Title="Easy bruising: Common as you age" Url="http://www.mayoclinic.com/health/easy-bruising/HQ00355" />
+	</RelatedLinksBox>
+</Disease>

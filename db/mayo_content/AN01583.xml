@@ -1,0 +1,122 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01583
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/adrenal-fatigue/AN01583
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1496" Title="Adrenal">
+						<Keyword MCVID="2474" Title="Addison&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BDB2CE4B-E7FF-0DBD-1F614641F3A1FE11
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				adrenal fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal exhaustion
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal insufficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				hypoadrenia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Adrenal fatigue is a term applied to a collection of nonspecific symptoms, such as body aches, fatigue, nervousness, sleep disturbances and digestive problems. The term often shows up in popular health books and on alternative medicine websites, but it isn&apos;t an accepted medical diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Your adrenal glands produce a variety of hormones that are essential to life. The medical term adrenal insufficiency, or Addison&apos;s disease, refers to inadequate production of one or more of these hormones as a result of an underlying disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of adrenal insufficiency include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Body aches&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Loss of body hair&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Adrenal insufficiency can be diagnosed by blood tests and special stimulation tests that show inadequate levels of adrenal hormones. 
+&lt;/p&gt;
+&lt;p&gt;
+Proponents of the adrenal fatigue diagnosis claim this is a mild form of adrenal insufficiency caused by chronic stress. The unproven theory behind adrenal fatigue is that your adrenal glands are unable to keep pace with the demands of perpetual fight-or-flight arousal. As a result, they can&apos;t produce quite enough of the hormones you need to feel good. Existing blood tests, according to this theory, aren&apos;t sensitive enough to detect such a small decline in adrenal function &amp;mdash; but your body is. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s frustrating to have persistent symptoms your doctor can&apos;t readily explain. But accepting a medically unrecognized diagnosis from an unqualified practitioner could be worse. Unproven remedies for so-called adrenal fatigue may leave you feeling sicker, while the real cause &amp;mdash; such as depression or fibromyalgia &amp;mdash; continues to take its toll. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Adrenal fatigue: What causes it?
+	</Title>
+	<Abstract>
+		Adrenal fatigue is supposedly a mild form of adrenal insufficiency caused by chronic stress.
+	</Abstract>
+	<Question>
+		Is there such a thing as adrenal fatigue?
+	</Question>
+	<QuestionFirstName>
+		Sharron
+	</QuestionFirstName>
+	<QuestionState>
+		Georgia
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01597" LinkType="Internal" ObjectID="48294F0F-E7FF-0DBD-1904E6786940CBC7" Title="Salt craving: A symptom of Addison&apos;s disease?" Url="http://www.mayoclinic.com/health/salt-craving/AN01597" />
+		<LinkItem ContentType="Disease" DocID="DS00361" LinkType="Internal" ObjectID="9C76354B-0F14-4ED1-A2A3358550A16E76" Title="Addison&apos;s disease" Url="http://www.mayoclinic.com/health/addisons-disease/DS00361" />
+	</RelatedLinksBox>
+</Answer>

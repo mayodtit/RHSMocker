@@ -1,0 +1,325 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00776
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/trachoma/DS00776
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="3152" Title="Trachoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5F467999-E7FF-0DBD-1E033052667F77C1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				trachoma
+			</MetaKeyword>
+			<MetaKeyword>
+				blindness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trachoma (truh-KOH-muh) is a bacterial infection that affects your eyes. The bacterium that causes trachoma spreads through direct contact with the eyes, eyelids, and nose or throat secretions of infected people.
+&lt;/p&gt;
+&lt;p&gt;
+Trachoma is very contagious and almost always affects both eyes. Signs and symptoms of trachoma begin with mild itching and irritation of your eyes and eyelids and lead to blurred vision and eye pain. Untreated trachoma can lead to blindness.
+&lt;/p&gt;
+&lt;p&gt;
+Trachoma is the leading preventable cause of blindness worldwide. The World Health Organization (WHO) estimates that 8 million people worldwide have been visually impaired by trachoma. WHO estimates more than 84 million people need treatment for trachoma, primarily in poor areas of developing countries. In some of the poorest countries in Africa, prevalence among children can reach 40 percent.
+&lt;/p&gt;
+&lt;p&gt;
+If trachoma is treated early, it often may prevent further trachoma complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The principal signs and symptoms in the early stages of trachoma include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild itching and irritation of the eyes and eyelids&lt;/li&gt;
+	&lt;li&gt;Discharge from the eyes containing mucus or pus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As the disease progresses, later trachoma symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Marked light sensitivity (photophobia)&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Eye pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Young children are particularly susceptible to infection, but the disease progresses slowly, and the more painful symptoms may not emerge until adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+The World Health Organization has identified a grading system with five stages in the development of trachoma, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation &amp;mdash; follicular.&lt;/strong&gt; The infection is just beginning in this stage. Five or more follicles &amp;mdash; small bumps that contain lymphocytes, a type of white blood cell &amp;mdash; are visible with magnification on the inner surface of your upper eyelid (conjunctiva).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation &amp;mdash; intense.&lt;/strong&gt; In this stage, your eye is now highly infectious and becomes irritated, with a thickening or swelling of the upper eyelid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyelid scarring.&lt;/strong&gt; Repeated infections lead to scarring of the inner eyelid. The scars often appear as white lines when examined with magnification. Your eyelid may become distorted and may turn in (entropion).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ingrown eyelashes (trichiasis).&lt;/strong&gt; The scarred inner lining of your eyelid continues to deform, causing your lashes to turn in so that they rub on and scratch the transparent outer surface of your eye (cornea).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corneal clouding.&lt;/strong&gt; The cornea becomes affected by an inflammation that is most commonly seen under your upper lid. Continual inflammation compounded by scratching from the in-turned lashes leads to clouding of the cornea. Secondary infection can lead to development of ulcers on your cornea and eventually partial or complete blindness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All the signs of trachoma are more severe in your upper lid than in your lower lid. With advanced scarring, your upper lid may show a thick line. In addition, the lubricating glandular tissue in your lids &amp;mdash; including the tear-producing glands (lacrimal glands) &amp;mdash; can be affected. This can lead to extreme dryness, aggravating the problem even more.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Call your doctor if you or your child has itching, irritation or discharge from the eyes, especially if you recently traveled to an area where trachoma is common. Trachoma is a contagious condition, and it should be treated as soon as possible to prevent further infections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trachoma is caused by certain subtypes of Chlamydia trachomatis, a bacterium that can also cause the sexually transmitted infection chlamydia. 
+&lt;/p&gt;
+&lt;p&gt;
+Trachoma spreads through contact with discharge from the eyes or nose of an infected person. Hands, clothing, towels and insects can all be routes for transmission. In the world&apos;s developing countries, flies are a major means of transmission. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of contracting trachoma include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poverty.&lt;/strong&gt; Trachoma is primarily a disease of extremely poor populations in developing countries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crowded living conditions.&lt;/strong&gt; People living in close contact are at greater risk of spreading infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor sanitation.&lt;/strong&gt; Poor sanitary conditions and lack of hygiene, such as unclean faces or hands, help spread the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; In areas where the disease is active, it&apos;s most common in children ages 4 to 6. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women contract the disease at rates two to six times higher than those for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor access to water.&lt;/strong&gt; Households at greater distances from a water supply are more susceptible to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flies.&lt;/strong&gt; People living in areas with problems controlling the fly population may be more susceptible to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of latrines.&lt;/strong&gt; Populations without access to working latrines &amp;mdash; a type of communal toilet &amp;mdash; have a higher incidence of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One episode of trachoma caused by Chlamydia trachomatis is easily treated with early detection and use of antibiotics. However, repeated infection can lead to complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scarring of the inner eyelid&lt;/li&gt;
+	&lt;li&gt;Eyelid deformities&lt;/li&gt;
+	&lt;li&gt;Inward folding of the eyelid (entropion)&lt;/li&gt;
+	&lt;li&gt;Ingrown eyelashes&lt;/li&gt;
+	&lt;li&gt;Corneal scarring or cloudiness&lt;/li&gt;
+	&lt;li&gt;Partial or complete vision loss&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner if you have symptoms of trachoma. However, in some cases when you call to set up an appointment, you may be referred immediately to an eye specialist (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to talk about, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in the time leading up to your appointment. For example, if your child has signs or symptoms of an eye condition, ask whether you should keep your child home from school or child care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any details about changes in your vision. Are you sensitive to light? Has your vision become blurred? Do your eyes hurt or just itch?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any trips you or someone close to you may have taken abroad. Also include information about any recent changes to corrective lenses, such as new contacts or glasses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications&lt;/strong&gt; and any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For eye irritation, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Will I have any long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow, such as staying home from work or school?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you or someone close to you traveled abroad recently?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a similar problem?&lt;/li&gt;
+	&lt;li&gt;Have you made any changes to your corrective lenses, such as wearing new contacts or using new contact lens solution?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Do they seem to be getting worse?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Is anyone else in your household having similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been treating your symptoms with any medications or drops?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you are waiting for your appointment, practice good hygiene to reduce the possibility of spreading your condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t touch your eyes without first washing your hands.&lt;/li&gt;
+	&lt;li&gt;Wash your hands thoroughly and frequently.&lt;/li&gt;
+	&lt;li&gt;Change your towel and washcloth daily, and don&apos;t share them with others.&lt;/li&gt;
+	&lt;li&gt;Change your pillowcase often.&lt;/li&gt;
+	&lt;li&gt;Discard eye cosmetics, particularly mascara.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use anyone else&apos;s eye cosmetics or personal eye care items.&lt;/li&gt;
+	&lt;li&gt;Discontinue wearing your contact lenses until your eyes have been evaluated; then follow your eye doctor&apos;s instructions on proper contact lens care.&lt;/li&gt;
+	&lt;li&gt;If your child is infected, have him or her avoid close contact with other children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with trachoma in its initial stages display no signs or symptoms. In areas where the disease is common, your doctor can diagnose trachoma through a physical examination or through sending a sample of bacteria from your eyes to be cultured and tested in a laboratory.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trachoma treatment options depend on the stage of the disease.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;In the early stages of trachoma, treatment with antibiotics alone may be enough to eliminate the infection. The two drugs currently in use include a tetracycline eye ointment and oral azithromycin (Zithromax). Although azithromycin appears to be more effective than tetracycline, azithromycin is more expensive. In poor communities, the drug used often depends on which one is available and affordable. 
+&lt;/p&gt;
+&lt;p&gt;
+The World Health Organization (WHO) guidelines recommend giving antibiotics to an entire community when more than 10 percent of children have been affected by trachoma, to treat anyone who has been exposed to trachoma and reduce the spread of trachoma.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Treatment of later stages of trachoma &amp;mdash; including painful eyelid deformities &amp;mdash; may require surgery. WHO guidelines recommend surgery for people with the advanced stage of trachoma. 
+&lt;/p&gt;
+&lt;p&gt;
+In eyelid rotation surgery (bilamellar tarsal rotation), your doctor makes an incision in your scarred lid and rotates your eyelashes away from your cornea. The procedure limits the progression of corneal scarring and can help prevent further loss of vision. Generally, this procedure can be performed on an outpatient basis and often significantly reduces the chances of trachoma returning. 
+&lt;/p&gt;
+&lt;p&gt;
+If your cornea has become clouded enough to seriously impair your vision, corneal transplantation may be an option that may improve vision. Frequently, however, with trachoma, this procedure doesn&apos;t have good results.
+&lt;/p&gt;
+&lt;p&gt;
+You may have a procedure to remove eyelashes (epilation) in some cases. However, this procedure may need to be done repeatedly. Another temporary option, if surgery isn&apos;t an available option, is to place an adhesive bandage over your eyelashes to keep them from touching your eye.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re traveling to parts of the world where trachoma is common, be sure to practice good hygiene to prevent infection.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been treated for trachoma with antibiotics or surgery, reinfection is always a concern. For your protection and for the safety of others, be sure that family members or others you live with are screened and, if necessary, treated for trachoma.
+&lt;/p&gt;
+&lt;p&gt;
+Proper hygiene practices include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Face washing and hand-washing.&lt;/strong&gt; Keeping faces clean, especially children&apos;s, can help break the cycle of reinfection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Controlling flies.&lt;/strong&gt; Reducing fly populations can help eliminate a major source of transmission.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proper waste management.&lt;/strong&gt; Properly disposing of animal and human waste can reduce breeding grounds for flies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improved access to water.&lt;/strong&gt; Having a fresh water source nearby can help improve hygienic conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although no vaccine is available, trachoma prevention is possible. The World Health Organization (WHO) has developed a health strategy to prevent trachoma, with the goal of eliminating trachoma in the world by 2020. The strategy is titled SAFE, which includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;S&lt;/strong&gt;urgery to treat advanced forms of trachoma&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;ntibiotics to treat the infection and prevent further spread of infection&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;F&lt;/strong&gt;acial cleanliness&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;E&lt;/strong&gt;nvironmental improvements, particularly in water, sanitation and fly control, to lower disease transmission&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Trachoma
+	</Title>
+	<Abstract>
+		Trachoma &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this serious eye disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

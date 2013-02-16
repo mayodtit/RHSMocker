@@ -1,0 +1,419 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00594
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spinal-tumor/DS00594
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2005-10-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3008" Title="Spinal tumor" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2FD98E4A-60C4-44F8-8FD03997D304FECE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spinal tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal tumor symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord tumor symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal tumor treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				spine cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A spinal tumor is a cancerous (malignant) or noncancerous (benign) growth that develops within or near your spinal cord or within the bones of your spine. Although back pain is the most common symptom of a spinal tumor, it&apos;s also an extremely common problem in people who don&apos;t have spinal tumors. In fact, most back pain isn&apos;t caused by a tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+A spinal tumor or a growth of any kind can affect nerves in the area of the tumor, leading to pain, neurological problems and sometimes paralysis. Whether cancerous or not, a spinal tumor can threaten life and cause permanent disability. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for a spinal tumor may include surgery, radiation therapy, chemotherapy or other medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tumor in the interior of the spinal cord
+" Caption="Intramedullary tumors are benign or malignant growths that develop in the supporting (glia) cells within the spinal cord. 
+" Height="60" Title="Spinal cord tumor" URI="/images/image_popup/thumbs/r7_spinalcordtumorthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tumor in the interior of the spinal cord
+" Caption="Intramedullary tumors are benign or malignant growths that develop in the supporting (glia) cells within the spinal cord. 
+" Height="385" Title="Spinal cord tumor" URI="/images/image_popup/r7_spinalcordtumor.jpg" Width="400" />
+				<HTML>
+					Intramedullary tumors are benign or malignant growths that develop in the supporting (glia) cells within the spinal cord. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the location and type of spinal tumor, various signs and symptoms can develop, especially as a tumor grows and affects your spinal cord or on the nerve roots, blood vessels or bones of your spine. Spinal tumor symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Back pain, often radiating to other parts of your body&lt;/li&gt;
+	&lt;li&gt;Loss of sensation or muscle weakness, especially in your arms or legs&lt;/li&gt;
+	&lt;li&gt;Difficulty walking, sometimes leading to falls&lt;/li&gt;
+	&lt;li&gt;Decreased sensitivity to pain, heat and cold&lt;/li&gt;
+	&lt;li&gt;Loss of bowel or bladder function&lt;/li&gt;
+	&lt;li&gt;Paralysis that may occur in varying degrees and in different parts of your body, depending on which nerves are compressed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Back pain is a common symptom of both noncancerous and cancerous spinal tumors. Pain may also spread beyond your back to your hips, legs, feet or arms and may become more severe over time in spite of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Spinal tumors progress at different rates. In general, cancerous spinal tumors grow more quickly, whereas noncancerous spinal tumors tend to develop very slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+There are many causes of back pain, and most back pain isn&apos;t caused by a spinal tumor. But because early diagnosis and treatment are important for spinal tumors, see your doctor about your back pain if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;It&apos;s persistent and progressive&lt;/li&gt;
+	&lt;li&gt;It&apos;s not activity related&lt;/li&gt;
+	&lt;li&gt;It gets worse at night&lt;/li&gt;
+	&lt;li&gt;You have a history of cancer and develop new back pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seek immediate medical attention if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Progressive muscle weakness or numbness in your legs&lt;/li&gt;
+	&lt;li&gt;Changes in bowel or bladder function&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear why most spinal tumors develop. Experts suspect that defective genes play a role, although it&apos;s usually not known whether such genetic defects are inherited, occur spontaneously or are caused by something in the environment, such as exposure to certain chemicals. In some cases, however, spinal tumors are linked to known inherited syndromes, such as neurofibromatosis 2 and von Hippel-Lindau disease. 
+&lt;/p&gt;
+&lt;p&gt;
+The parts of your spine that are likely to be affected by a spinal tumor include the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vertebrae.&lt;/strong&gt; Your spine is made up of small bones (vertebrae) stacked on top of one another that enclose and protect the spinal cord and its nerve roots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal cord.&lt;/strong&gt; Your spinal cord is a double-layered, long column of nerve fibers that carries messages to and from your brain. Wrapped around the entire spinal cord are three protective membranes (meninges).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of spinal tumors&lt;/strong&gt; &lt;br /&gt;
+Spinal tumors are classified according to their location in the spine. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Extradural (vertebral) tumors.&lt;/strong&gt; Most tumors that affect the vertebrae have spread (metastasized) to the spine from another site in the body &amp;mdash; often the prostate, breast, lung or kidney. Although the original (primary) cancer is usually diagnosed before back problems develop, back pain may be the first symptom of disease in people with metastatic spinal tumors. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Cancerous tumors that begin in the bones of the spine are far less common. Among these are osteosarcomas (osteogenic sarcomas) and Ewing&apos;s sarcoma, a particularly aggressive tumor that affects young adults. Multiple myeloma is a cancerous disease of the bone marrow &amp;mdash; the spongy inner part of the bone that makes blood cells. Noncancerous tumors, such as osteoid osteomas, osteoblastomas and hemangiomas, also can develop in the bones of the spine. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intradural-extramedullary tumors.&lt;/strong&gt; These tumors develop in the spinal cord&apos;s arachnoid membrane (meningiomas) and in the nerve roots that extend out from the spinal cord (schwannomas and neurofibromas). These tumors may be cancerous or noncancerous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intramedullary tumors.&lt;/strong&gt; These tumors begin in the supporting cells within the spinal cord.&amp;nbsp;Most are either astrocytomas or ependymomas. Intramedullary tumors can be either noncancerous or cancerous. In rare cases, tumors from other parts of the body can metastasize to the spinal cord itself.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="&amp;lt;p&amp;gt;
+Illustration showing spinal anatomy 
+&amp;lt;/p&amp;gt;
+" Caption="The spine (vertebral column) of a typical adult is composed of 32 vertebrae divided into five sections. 
+" Height="60" Title="Spinal anatomy" URI="/images/image_popup/thumbs/r7_spinalanatomythu.jpg" Width="60" />
+				<Image Alt="&amp;lt;p&amp;gt;
+Illustration showing spinal anatomy 
+&amp;lt;/p&amp;gt;
+" Caption="The spine (vertebral column) of a typical adult is composed of 32 vertebrae divided into five sections. 
+" Height="338" Title="Spinal anatomy" URI="/images/image_popup/r7_spinalanatomy.jpg" Width="400" />
+				<HTML>
+					The spine (vertebral column) of a typical adult is composed of 32 vertebrae divided into five sections. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing spinal cord within spinal canal 
+" Caption="The spinal cord is housed within the spinal canal, a hollow chamber within the vertebrae. It extends from the base of the skull to the lower back. 
+" Height="60" Title="Nervous system" URI="/images/image_popup/thumbs/r7_nervoussystemthu.jpg" Width="60" />
+				<Image Alt="Illustration showing spinal cord within spinal canal 
+" Caption="The spinal cord is housed within the spinal canal, a hollow chamber within the vertebrae. It extends from the base of the skull to the lower back. 
+" Height="400" Title="Nervous system" URI="/images/image_popup/r7_nervoussystem.jpg" Width="400" />
+				<HTML>
+					The spinal cord is housed within the spinal canal, a hollow chamber within the vertebrae. It extends from the base of the skull to the lower back. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tumor in the interior of the spinal cord
+" Caption="Intramedullary tumors are benign or malignant growths that develop in the supporting (glia) cells within the spinal cord. 
+" Height="60" Title="Spinal cord tumor" URI="/images/image_popup/thumbs/r7_spinalcordtumorthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tumor in the interior of the spinal cord
+" Caption="Intramedullary tumors are benign or malignant growths that develop in the supporting (glia) cells within the spinal cord. 
+" Height="385" Title="Spinal cord tumor" URI="/images/image_popup/r7_spinalcordtumor.jpg" Width="400" />
+				<HTML>
+					Intramedullary tumors are benign or malignant growths that develop in the supporting (glia) cells within the spinal cord. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spinal cord tumors are more common in people who have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurofibromatosis 2.&lt;/strong&gt; In this hereditary disorder, noncancerous tumors develop on or near the nerves related to hearing, which may lead to progressive hearing loss in one or both ears. Some people with neurofibromatosis 2 also develop tumors in the spinal cord.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Von Hippel-Lindau disease.&lt;/strong&gt; This rare, multisystem disorder is associated with noncancerous blood vessel tumors (hemangioblastomas) in the brain, retina and spinal cord and with other types of tumors in the kidneys or adrenal glands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A compromised immune system.&lt;/strong&gt; Spinal cord lymphomas &amp;mdash; cancers that affect lymphocytes, a type of immune cell &amp;mdash; are more common in people whose immune systems are compromised by medications or disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A prior history of cancer.&lt;/strong&gt; Any type of cancer can travel to the spine, but the cancers that may be more likely to affect the spine include breast, lung, prostate and multiple myeloma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Both noncancerous and cancerous spinal tumors can compress spinal nerves, leading to a loss of movement or sensation below the level of the tumor and sometimes to changes in bowel and bladder function. Nerve damage may be permanent. However, if caught early and treated aggressively, it may be possible to regain nerve function. Depending on its location, a tumor that impinges on the spinal cord itself may be life-threatening. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have symptoms that are common to spinal tumors &amp;mdash; such as persistent, unexplained back pain, weakness or numbness in your legs, or changes in your bowel or bladder function, call your doctor promptly. After your doctor examines you, you may be referred to a doctor who is trained to diagnose and treat cancer (oncologist) or brain and spinal cord conditions (neurologist, neurosurgeon or spine surgeon). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List your key medical information,&lt;/strong&gt; including all conditions you have and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any family history of brain or spinal tumors,&lt;/strong&gt; especially in a first-degree relative, such as a parent or sibling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your doctor at your initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What may be causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What do you recommend for next steps in determining my diagnosis and treatment?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask an oncologist or neurologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a spinal tumor?&lt;/li&gt;
+	&lt;li&gt;What type of tumor do I have?&lt;/li&gt;
+	&lt;li&gt;Is the tumor noncancerous or cancerous?&lt;/li&gt;
+	&lt;li&gt;If the tumor is cancerous, how aggressive is it?&lt;/li&gt;
+	&lt;li&gt;What are the goals of my treatment?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for surgery? What are the risks?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for radiation? What are the risks?&lt;/li&gt;
+	&lt;li&gt;Is there a role for chemotherapy?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If the first treatment isn&apos;t successful, what will we try next?&lt;/li&gt;
+	&lt;li&gt;What is the outlook for my condition?&lt;/li&gt;
+	&lt;li&gt;Do I need a second opinion?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any additional questions that may come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Thinking about your answers ahead of time can help you make the most of your appointment. A doctor who sees you for a possible spinal tumor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;If you have pain, where does the pain seem to start?&lt;/li&gt;
+	&lt;li&gt;Does the pain spread to other parts of your body?&lt;/li&gt;
+	&lt;li&gt;Have you participated in any activities that might explain the pain, such as new exercise or a long stretch of gardening?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any weakness or numbness in your legs?&lt;/li&gt;
+	&lt;li&gt;Have you had any difficulty walking?&lt;/li&gt;
+	&lt;li&gt;Have you had any problems with your bladder or bowel function?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any over-the-counter or prescription medications?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of noncancerous or cancerous spinal tumors?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spinal tumors sometimes may be overlooked because they&apos;re not common and because their symptoms resemble those of more common conditions. For that reason, it&apos;s especially important that your doctor know your complete medical history and perform both general physical and neurological exams. If your doctor suspects a spinal tumor, one or more of the following tests can help confirm the diagnosis and pinpoint the tumor&apos;s location: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Spinal magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses a powerful magnet and radio waves to produce images of your spine. MRI accurately shows the spinal cord and nerves and yields better pictures of bone tumors than computerized tomography (CT) scans do. A contrast agent that helps to highlight certain tissues and structures may be injected into a vein in your hand or forearm during the test. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some people may feel claustrophobic inside the MRI scanner or find the loud thumping sound it makes disturbing. But you&apos;re usually given earplugs to help with the noise, and some scanners are equipped with televisions or headphones. If you&apos;re very anxious, ask your doctor about a mild sedative to help calm you. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; This test uses a narrow beam of radiation to produce detailed images of your spine. Sometimes it may be combined with an injected contrast dye to make abnormal changes in the spinal canal or spinal cord easier to see.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelogram.&lt;/strong&gt; In this test, a contrast dye is injected into your spinal column. The dye then circulates around your spinal cord and spinal nerves, making them easier to see on an X-ray or CT scan. Because the test poses more risks than does an MRI or conventional CT, a myelogram is usually not the first choice for diagnosis. However, it may be used to help identify compressed nerves and for those who can&apos;t have an MRI.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; The only way to determine whether a tumor is noncancerous or cancerous is to examine a small tissue sample (biopsy) under a microscope. If the tumor is cancerous, biopsy also helps determine the cancer&apos;s grade &amp;mdash; information that helps determine treatment options. Grade 1 cancers are generally the least aggressive, and grade 4 cancers, the most aggressive. How the sample is obtained depends on your overall health and the location of the tumor. Your doctor may use a fine needle to withdraw a small amount of tissue, or the sample may be obtained during surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ideally, the goal of spinal tumor treatment is to eliminate the tumor completely, but this goal may be complicated by the risk of permanent damage to the surrounding nerves. Doctors also must take into account your age, overall health, the type of tumor, and whether it is primary or has spread to your spine from elsewhere in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options for most spinal tumors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Monitoring.&lt;/strong&gt; Some spinal tumors may be discovered before they cause symptoms &amp;mdash; often when you&apos;re being evaluated for another condition. If small tumors are noncancerous and aren&apos;t growing or pressing on surrounding tissues, watching them carefully may be all that&apos;s needed. This is especially true in older adults for whom surgery or radiation therapy may pose special risks. If you decide not to receive treatment for a spinal tumor, your doctor will likely recommend periodic scans to monitor the tumor.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; This is often the treatment of choice for tumors that can be removed with an acceptable risk of nerve damage. Newer techniques and instruments allow neurosurgeons to reach tumors that were once considered inaccessible. The high-powered microscopes used in microsurgery make it easier to distinguish tumor from healthy tissue. Doctors also can test different nerves during surgery with electrodes, thus minimizing nerve damage. In some instances, they may use sound waves to break up tumors and remove the fragments. However, even with advances in treatment, not all tumors can be removed completely.
+	&lt;/p&gt;
+	&lt;p&gt;
+	When the tumor can&apos;t be removed completely, surgery may be combined with chemotherapy or radiation therapy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Recovery from spinal surgery may take weeks or longer, depending on the procedure, and you may experience a temporary loss of sensation or other complications, including bleeding and damage to nerve tissue. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Standard radiation therapy.&lt;/strong&gt; This may be used following an operation to eliminate the remnants of tumors that can&apos;t be completely removed or to treat inoperable tumors. It also may be the first line therapy for metastatic tumors. Radiation may also be used to relieve pain or when surgery poses too great a risk.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Medications can help some of the side effects of radiation, such as nausea and vomiting. And depending on the type of tumor, your doctor may be able to modify your therapy to help prevent damage to surrounding tissue and improve the treatment&apos;s effectiveness. Modifications may range from simply changing the dosage of radiation you receive to using sophisticated techniques that offer better protection to healthy tissue, such as 3-D conformal radiation therapy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stereotactic radiosurgery (SRS).&lt;/strong&gt; This newer method of delivering radiation is capable of delivering a high dose of precisely targeted radiation. In SRS, doctors use computers to focus radiation beams on tumors with pinpoint accuracy and from multiple angles. This approach has proved effective in the treatment of brain tumors, and research is now under way to determine the best technique, radiation dose and schedule for SRS in the treatment of spinal tumors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; A standard treatment for many types of cancer, chemotherapy uses medications to destroy cancer cells or stop them from growing. Your doctor can determine whether chemotherapy might be beneficial for you, either alone or in combination with radiation therapy. Side effects may include fatigue, nausea, vomiting, increased risk of infection and hair loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other drugs.&lt;/strong&gt; Because surgery and radiation therapy as well as tumors themselves can cause inflammation inside the spinal cord, doctors sometimes prescribe corticosteroids to reduce the swelling, either following surgery or during radiation treatments. Although corticosteroids reduce inflammation, they are usually used only for short periods to avoid such serious side effects as osteoporosis, high blood pressure, diabetes and an increased susceptibility to infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there aren&apos;t any alternative medicines that have been proved to cure cancer, some alternative or complementary treatments may help relieve some of your symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+One such treatment is acupuncture. During acupuncture treatment, a practitioner inserts tiny needles into your skin at precise points. Research shows that acupuncture may be helpful in relieving nausea and vomiting. Acupuncture may also help relieve certain types of pain in people with cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to discuss the risks and benefits of complementary or alternative treatment that you&apos;re thinking of trying with your doctor. Some treatments, such as herbal remedies, could interfere with medicines you&apos;re taking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning that you have a spinal tumor can be overwhelming. But you can take steps to cope after your diagnosis. Consider trying to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about your specific spinal tumor.&lt;/strong&gt; Write down your questions and bring them to your appointments. As your doctor answers your questions, take notes or ask a friend or family member to come along to take notes. The more you and your family know and understand about your care, the more confident you&apos;ll feel when it comes time to make treatment decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get support.&lt;/strong&gt; Find someone you can share your feelings and concerns with. You may have a close friend or family member who is a good listener. Or speak with a clergy member or counselor. Other people with spinal tumors may be able to offer unique insight. Ask your doctor about support groups in your area. Online discussion boards, such as those offered by the Spinal Cord Tumor Association, are another option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Choose a healthy diet rich in fruits, vegetables and whole grains whenever possible. Exercise when you feel up to it. Get enough sleep so that you feel rested. Reduce stress in your life by taking time for relaxing activities, such as listening to music or writing in a journal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Spinal tumor
+	</Title>
+	<Abstract>
+		Spinal tumor &amp;mdash; Comprehensive overview covers symptoms, treatment of growth in or near spinal cord.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01185" LinkType="Internal" ObjectID="170853E6-E80F-052F-F7A72E59744B46CF" Title="Neurofibromatosis" Url="http://www.mayoclinic.com/health/neurofibromatosis/DS01185" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01209
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lymphoma/AN01209
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-10-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2146" Title="Lymphoma">
+						<Keyword MCVID="3739" Title="Hodgkin lymphoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			80D3200A-46A0-4CB0-B66A8313EAD4E447
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkin&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkin&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				non-Hodgkin&apos;s lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				hodgkins
+			</MetaKeyword>
+			<MetaKeyword>
+				hodgkin&apos;s lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				hodgkins disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hodgkins lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				non-hodgkins lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				non-Hodgkin&apos;s disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Both Hodgkin&apos;s lymphoma (formerly known as Hodgkin&apos;s disease) and non-Hodgkin&apos;s lymphoma are lymphomas, a type of cancer that begins in a subset of white blood cells called lymphocytes. Lymphocytes are an important part of your immune system. The main difference between Hodgkin&apos;s and non-Hodgkin&apos;s lymphoma is in the specific lymphocyte each involves. 
+&lt;/p&gt;
+&lt;p&gt;
+A doctor can tell the difference between Hodgkin&apos;s and non-Hodgkin&apos;s lymphoma by examining the cancer cells under a microscope. If in examining the cells, the doctor detects the presence of a specific type of abnormal cell called a Reed-Sternberg cell, the lymphoma is classified as Hodgkin&apos;s. If the Reed-Sternberg cell is not present, the lymphoma is classified as non-Hodgkin&apos;s. 
+&lt;/p&gt;
+&lt;p&gt;
+The distinction is important because the treatment and outcomes for each type can be very different. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hodgkin&apos;s vs. non-Hodgkin&apos;s lymphoma
+	</Title>
+	<Abstract>
+		The difference between Hodgkin&apos;s and non-Hodgkin&apos;s lymphoma is the type of cell involved.
+	</Abstract>
+	<Question>
+		What&apos;s the difference between Hodgkin&apos;s disease and non-Hodgkin&apos;s lymphoma?
+	</Question>
+	<QuestionFirstName>
+		Hadeel
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00381" LinkType="Internal" ObjectID="6E26FB6E-E7FF-0DBD-19857255671C715E" Title="Hematocrit test" Url="http://www.mayoclinic.com/health/hematocrit/MY00381" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00186" LinkType="Internal" ObjectID="A0FF52F1-F396-4240-BF1993EB72EF4C80" Title="Hodgkin&apos;s lymphoma (Hodgkin&apos;s disease)" Url="http://www.mayoclinic.com/health/hodgkins-disease/DS00186" />
+	</RelatedLinksBox>
+</Answer>

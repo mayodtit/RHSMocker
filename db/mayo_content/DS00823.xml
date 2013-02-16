@@ -1,0 +1,286 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00823
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/intestinal-obstruction/DS00823
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-18
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1452" Title="Intestines">
+						<Keyword MCVID="2100" Title="Obstruction" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AD1785F0-E7FF-0DBD-16824338D16E0CB2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				intestinal obstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				bowel obstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				paralytic ileus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intestinal obstruction is a blockage that keeps food or liquid from passing through your small intestine or large intestine (colon). Intestinal obstruction may be caused by fibrous bands of tissue in the abdomen (adhesions) which form after surgery, inflamed or infected pouches in your intestine (diverticulitis), hernias and tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+Without treatment, the blocked parts of the intestine can die, leading to serious problems. However, with prompt medical care, intestinal obstruction often can be successfully treated. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and small intestine 
+" Caption="The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed by the small intestine and colon continues along the digestive tract and is expelled as stool during a bowel movement. 
+" Height="60" Title="Colon and small intestine" URI="/images/image_popup/thumbs/d7_smintestinecolonthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and small intestine 
+" Caption="The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed by the small intestine and colon continues along the digestive tract and is expelled as stool during a bowel movement. 
+" Height="293" Title="Colon and small intestine" URI="/images/image_popup/d7_smintestinecolon.jpg" Width="400" />
+				<HTML>
+					The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of intestinal obstruction include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Crampy abdominal pain that comes and goes&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Inability to have a bowel movement or pass gas&lt;/li&gt;
+	&lt;li&gt;Swelling of the abdomen (distention)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Because of the serious complications that can develop from intestinal obstruction, seek immediate medical care if you have severe abdominal pain or other symptoms of intestinal obstruction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Mechanical obstruction of the small intestine&lt;/strong&gt; &lt;br /&gt;
+Common causes of mechanical obstruction, in which something physically blocks the small intestine, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Intestinal adhesions &amp;mdash; bands of fibrous tissue in the abdominal cavity that can form after abdominal or pelvic surgery&lt;/li&gt;
+	&lt;li&gt;Hernias &amp;mdash; portions of intestine that protrude into another part of your body&lt;/li&gt;
+	&lt;li&gt;Tumors in the small intestine&lt;/li&gt;
+	&lt;li&gt;Inflammatory bowel diseases, such as Crohn&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Twisting of the intestine (volvulus)&lt;/li&gt;
+	&lt;li&gt;Telescoping of the intestine (intussusception)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Mechanical obstruction of the colon&lt;/strong&gt;&lt;br /&gt;
+Mechanical obstruction is much less common in the colon. Potential causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Colon cancer&lt;/li&gt;
+	&lt;li&gt;Diverticulitis &amp;mdash; a condition in which small, bulging pouches (diverticula) in the digestive tract become inflamed or infected&lt;/li&gt;
+	&lt;li&gt;Twisting of the colon (volvulus)&lt;/li&gt;
+	&lt;li&gt;Impacted feces&lt;/li&gt;
+	&lt;li&gt;Narrowing of the colon caused by inflammation and scarring (stricture)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Paralytic ileus&lt;/strong&gt; &lt;br /&gt;
+Paralytic ileus can cause signs and symptoms of intestinal obstruction, but doesn&apos;t involve a physical blockage. In paralytic ileus, muscle or nerve problems disrupt the normal coordinated muscle contractions of the intestines, slowing or stopping the movement of food and fluid through the digestive system. 
+&lt;/p&gt;
+&lt;p&gt;
+Paralytic ileus can affect any part of the intestine. Causes can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal surgery&lt;/li&gt;
+	&lt;li&gt;Pelvic surgery&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Certain medications, including antidepressants and pain medications that affect muscles and nerves&lt;/li&gt;
+	&lt;li&gt;Muscle and nerve disorders, such as Parkinson&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="60" Title="Intussusception" URI="/images/image_popup/thumbs/ans7_intussusceptionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="369" Title="Intussusception" URI="/images/image_popup/ans7_intussusception.jpg" Width="400" />
+				<HTML>
+					Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diseases and conditions that can increase your risk of intestinal obstruction include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal or pelvic surgery often causes adhesions &amp;mdash; a common intestinal obstruction&lt;/li&gt;
+	&lt;li&gt;Crohn&apos;s disease can cause the intestine&apos;s walls to thicken, narrowing the passageway&lt;/li&gt;
+	&lt;li&gt;Cancer in your abdomen, especially if you&apos;ve had surgery to remove an abdominal tumor or radiation therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated, intestinal obstruction can cause serious, life-threatening complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue death.&lt;/strong&gt; Intestinal obstruction can cut off the blood supply to part of your intestine. Lack of blood causes the intestinal wall to die. Tissue death can result in a tear (perforation) in the intestinal wall, which can lead to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Peritonitis is the medical term for infection in the abdominal cavity. It&apos;s a life-threatening condition that requires immediate medical and often surgical attention.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intestinal obstruction is usually a medical emergency. As a result, you may not have much time to prepare for an appointment. If you have time before your appointment, make a list of your signs and symptoms so that you can better answer your doctor&apos;s questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing abdominal pain or other symptoms?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms come on all of a sudden or have you had symptoms like these before?&lt;/li&gt;
+	&lt;li&gt;Is your pain continuous?&lt;/li&gt;
+	&lt;li&gt;Have you experienced nausea, vomiting, fever, blood in your stool, diarrhea or constipation?&lt;/li&gt;
+	&lt;li&gt;Have you had surgery on your abdomen?&lt;/li&gt;
+	&lt;li&gt;Have you had radiation to your abdomen?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose intestinal obstruction include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will ask about your medical history and your symptoms. He or she will also do a physical exam to assess your situation. The doctor may suspect intestinal obstruction if your abdomen is swollen or tender or if there&apos;s a lump in your abdomen. He or she may listen for bowel sounds with a stethoscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; To confirm a diagnosis of intestinal obstruction, your doctor may recommend an abdominal X-ray or CT scan. These tests also help your doctor determine if the obstruction is paralytic ileus or a mechanical obstruction, and if the obstruction is partial or complete.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for intestinal obstruction depends on the cause of your condition, but generally requires hospitalization. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization to stabilize your condition&lt;/strong&gt; &lt;br /&gt;
+When you arrive at the hospital, the doctors will first work to stabilize you so that you can undergo treatment. This process may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Placing an intravenous (IV) line into a vein in your arm so that fluids can be given&lt;/li&gt;
+	&lt;li&gt;Putting a nasogastric (NG) tube through your nose and into your stomach to suck out air and fluid and relieve abdominal swelling&lt;/li&gt;
+	&lt;li&gt;Placing a thin, flexible tube (catheter) into your bladder to drain urine and collect it for testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for partial mechanical obstruction&lt;/strong&gt; &lt;br /&gt;
+If you have mechanical obstruction in which some food and fluid can still get through (partial obstruction), you may not need further treatment after you&apos;ve been stabilized. Your doctor may recommend a special low-fiber diet that is easier for your partially blocked intestine to process. If the obstruction does not clear on its own, you may need surgery to relieve the obstruction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for complete mechanical obstruction&lt;/strong&gt; &lt;br /&gt;
+If nothing is able to pass through your intestine, you&apos;ll usually need surgery to relieve the blockage. The procedure you have will depend on what&apos;s causing the obstruction and which part of your intestine is affected. Surgery typically involves removing the obstruction, as well as any section of your intestine that has died or is damaged. 
+&lt;/p&gt;
+&lt;p&gt;
+Alternatively, your doctor may recommend treating the obstruction with a self-expanding metal stent. The wire mesh tube is inserted into your colon via an endoscope passed through your mouth or colon. It forces open the colon so the obstruction can clear. Stents are generally used to treat people with colon cancer or to provide temporary relief for people who are at high risk of emergency surgery. You may still need surgery, once your condition is stable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for paralytic ileus&lt;/strong&gt; &lt;br /&gt;
+If your doctor determines that your signs and symptoms are caused by paralytic ileus, he or she may monitor your condition for a day or two in the hospital. Paralytic ileus is often a temporary condition that gets better on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+If paralytic ileus doesn&apos;t improve within several days, your doctor may prescribe medication that causes muscle contractions, which can help move food and fluids through your intestines. If paralytic ileus is caused by an illness or medication, the doctor will treat the underlying illness or stop the medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Intestinal obstruction
+	</Title>
+	<Abstract>
+		Intestinal obstruction &amp;mdash; Comprehensive overview covers causes, symptoms, diagnosis and treatment of this serious disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00798" LinkType="Internal" ObjectID="172F26A1-E7FF-0DBD-1312D481FDFD2213" Title="Intussusception" Url="http://www.mayoclinic.com/health/intussusception/DS00798" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00141" LinkType="Internal" ObjectID="DF5EAE47-E7FF-0DBD-14C2E4C1FE5519D4" Title="Colectomy" Url="http://www.mayoclinic.com/health/colectomy/MY00141" />
+		<LinkItem ContentType="Disease" DocID="DS00070" LinkType="Internal" ObjectID="82C205AC-1DE9-41F7-AE8F092447A0648A" Title="Diverticulitis" Url="http://www.mayoclinic.com/health/diverticulitis/DS00070" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

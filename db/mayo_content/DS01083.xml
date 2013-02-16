@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01083
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/factor-v-leiden/DS01083
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-06
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="2264" Title="Factor V Leiden" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DDB7E2E4-E7FF-0DBD-1EA110F909CF1433
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				factor V Leiden
+			</MetaKeyword>
+			<MetaKeyword>
+				thrombophilia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factor V Leiden (FAK-tur five LIDE-n)&lt;strong&gt; &lt;/strong&gt;is a mutation of one of the clotting factors in the blood called factor V. This mutation can increase your chance of developing abnormal blood clots (thrombophilia), usually in your veins.
+&lt;/p&gt;
+&lt;p&gt;
+Most people with factor V Leiden never develop abnormal clots. However, some people with factor V Leiden develop clots that lead to long-term health problems or become life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Both men and women can have factor V Leiden, but women may have an increased tendency to develop blood clots during pregnancy or when taking the hormone estrogen. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have factor V Leiden and have developed blood clots, medications can lessen your risk of developing additional blood clots and help you avoid potentially serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who have factor V Leiden never develop signs or symptoms. However, the first indication that you have the disorder may be the development of a blood clot (thrombosis). 
+&lt;/p&gt;
+&lt;p&gt;
+Some clots do no damage and disappear on their own. Others can be life-threatening. Symptoms of a blood clot depend on where it forms and whether and where it travels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;A clot developing in a deep vein&lt;/strong&gt; &lt;br /&gt;
+This is known as deep vein thrombosis (DVT). A DVT may not cause any symptoms. If signs and symptoms do occur, they commonly affect your legs, including your ankles and feet, and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Significant swelling&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Warmth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;A clot that forms closer to the surface of your skin&lt;/strong&gt; &lt;br /&gt;
+This is referred to as superficial venous thrombosis, phlebitis or thrombophlebitis. Signs and symptoms usually include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Warmth&lt;/li&gt;
+	&lt;li&gt;Tenderness or pain, often in or around the vein with the blood clot&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;A clot that travels to your lungs&lt;/strong&gt; &lt;br /&gt;
+Known as a pulmonary embolism, this occurs when a deep vein clot breaks free and travels through the right side of your heart to your lung, where it blocks blood flow. Symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain when breathing in&lt;/li&gt;
+	&lt;li&gt;A cough that produces bloody or blood-streaked sputum&lt;/li&gt;
+	&lt;li&gt;Rapid heartbeat (tachycardia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek medical attention immediately if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have signs or symptoms of a pulmonary embolism, such as chest pain or discomfort.&lt;/li&gt;
+	&lt;li&gt;Have signs or symptoms of DVT, such as leg pain and swelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+See a doctor if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a family history of blood clots or if family members have factor V Leiden. Ask your doctor about the risks and benefits of genetic testing for the disorder.&lt;/li&gt;
+	&lt;li&gt;Have had one or more blood-clotting incidents without an apparent cause, especially if you&apos;re under 50.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A blood clot (thrombus) normally forms to stop the bleeding when an artery or vein is damaged, such as when you experience a cut. Clots form as a result of chemical reactions between specialized blood cells (platelets) and proteins in your blood (clotting factors). Substances in the blood known as anti-clotting factors control excessive formation of blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, factor V is a clotting protein. But, people with factor V Leiden have a genetic mutation that causes the factor V protein to respond more slowly to being deactivated by the anti-clotting factors. 
+&lt;/p&gt;
+&lt;p&gt;
+In the normal clotting process, anti-clotting proteins combine to help break up factor V to keep it from being reused and forming clots when clotting isn&apos;t needed. However, the factor V Leiden mutation keeps the anti-clotting proteins from breaking down factor V, which keeps it in the blood longer and increases the chance of clotting. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have factor V Leiden, you either inherited one copy of the defective gene (heterozygous), which slightly increases your risk of developing blood clots, or more rarely you inherited two copies, one from each parent (homozygous), which significantly increases your risk of developing blood clots. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A family history of factor V Leiden increases your risk of inheriting the disorder. The disorder is most common in people who are white and of European descent. 
+&lt;/p&gt;
+&lt;p&gt;
+Risk factors that can increase your risks of developing complications, such as a DVT, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being pregnant&lt;/li&gt;
+	&lt;li&gt;Taking birth control pills or hormone replacement therapy&lt;/li&gt;
+	&lt;li&gt;Taking medications to treat breast cancer or prevent a recurrence of breast cancer, called selective estrogen receptor modulators (SERMS), such as tamoxifen and raloxifene (Evista)&lt;/li&gt;
+	&lt;li&gt;Being over age 60&lt;/li&gt;
+	&lt;li&gt;Being overweight or obese&lt;/li&gt;
+	&lt;li&gt;Getting a leg injury&lt;/li&gt;
+	&lt;li&gt;Having surgery or other invasive medical procedures&lt;/li&gt;
+	&lt;li&gt;Traveling for more than a few hours, especially by airplane&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factor V Leiden can be associated with a variety of serious and potentially serious clotting complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Although most women with factor V Leiden have normal pregnancies, the mutation has been linked with an increased risk of miscarriage and possibly other complications during pregnancy, including pregnancy-induced high blood pressure (preeclampsia), slow fetal growth and early separation of the placenta from the uterine wall (placental abruption). If you&apos;re a woman with factor V Leiden and you get pregnant, be sure your doctor monitors you carefully throughout your pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deep vein thrombosis (DVT).&lt;/strong&gt; People with factor V Leiden have an increased risk of developing DVT compared with someone without the mutation, though the overall risk of developing DVT is still low.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary embolism.&lt;/strong&gt; DVT puts you at risk of a clot breaking off and traveling to your lungs or, rarely, your brain. A pulmonary embolism can be fatal, so it&apos;s important to watch for signs and symptoms of a pulmonary embolism, such as shortness of breath or chest pain, and to seek prompt medical attention.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect you have factor V Leiden if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have your first clotting incidence before age 50&lt;/li&gt;
+	&lt;li&gt;You have a family history of the disorder&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had two or more blood-clotting incidents&lt;/li&gt;
+	&lt;li&gt;You&apos;re a woman who&apos;s had recurrent miscarriages or unexplained pregnancy complications&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had blood clots in unusual areas, such as your liver or brain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may refer you to a specialist in genetic disorders (geneticist) or a specialist in blood disorders (hematologist) for testing to determine whether the cause of your blood clots is genetic, and specifically, whether you have the factor V Leiden mutation. It&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your health history,&lt;/strong&gt; including your history of blood clots. Also include any family history of blood clots or known family members with factor V mutations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking, along with the dose for each.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make sure that you cover everything that&apos;s important to you. For factor V Leiden, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Does my factor V Leiden need to be treated?&lt;/li&gt;
+	&lt;li&gt;Do I need to take medication to prevent additional blood clots?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from the medication?&lt;/li&gt;
+	&lt;li&gt;Do I need to limit my activity in any way?&lt;/li&gt;
+	&lt;li&gt;If I have children, do they need to be tested?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor recommends genetic testing, some questions you might want to ask the genetic specialist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How accurate is this test?&lt;/li&gt;
+	&lt;li&gt;What are the risks of the test?&lt;/li&gt;
+	&lt;li&gt;What information will come out of the test?&lt;/li&gt;
+	&lt;li&gt;What will a positive or negative result tell me?&lt;/li&gt;
+	&lt;li&gt;Can the results of the test affect my ability to obtain health insurance?&lt;/li&gt;
+	&lt;li&gt;Is an uncertain result possible, and what would that mean?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options if a mutation is found?&lt;/li&gt;
+	&lt;li&gt;Could other family members be affected?&lt;/li&gt;
+	&lt;li&gt;Should my children be tested?&lt;/li&gt;
+	&lt;li&gt;What measures are in place to protect my privacy?&lt;/li&gt;
+	&lt;li&gt;How experienced is the lab at performing this test?&lt;/li&gt;
+	&lt;li&gt;How long will it take to get results back?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions anytime you don&apos;t understand something. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely suspect factor V Leiden if you&apos;ve had one or more episodes of thrombosis or pregnancy loss or if you have a strong family history of thrombotic disease. Your doctor can confirm that you have factor V Leiden with a blood test. Two types of tests can be done: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Activated protein C resistance test&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Your blood sample may be tested to determine whether your blood is resistant to activated protein C, one of the anti-clotting proteins that help control factor V. This is known as an activated protein C (APC) resistance assay. If your blood is resistant to activated protein C, you likely have a mutation in the factor V gene.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Genetic test.&lt;/strong&gt; A genetic test either is done as a secondary test to confirm the results of the APC resistance test or is done alone to determine whether you have a factor V gene mutation. If you&apos;re already taking medication for thrombosis, you&apos;re likely to have only the genetic test because blood-thinning (anticoagulant) medications interfere with the activated protein C resistance test. The genetic test also can determine whether you&apos;ve inherited one or two copies of the gene mutation. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Testing babies prenatally or soon after birth isn&apos;t recommended, nor is screening of children who don&apos;t have symptoms of clotting problems. Because blood clots are so unusual, even in children with factor V Leiden, it&apos;s recommended that you wait until your child is an adult who can fully understand the risks and benefits associated with genetic testing. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors generally use blood-thinning (anticoagulant) medications, such as warfarin (Coumadin), heparin or low molecular weight heparin to treat people who develop blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+If genetic tests have confirmed that you have a factor V mutation, but you haven&apos;t had any blood clots, then your doctor probably won&apos;t routinely prescribe blood thinners unless you&apos;re in a high-risk situation, such as being hospitalized for surgery or other medical reasons. In that case, you may receive preventive doses of blood thinners during your hospital stay. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a blood clot, standard initial treatment involves a combination of heparin and warfarin. Your doctor will discontinue the heparin after the initial treatment and continue the warfarin. How long you need to take medication will depend on the circumstances of your thrombosis. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heparin.&lt;/strong&gt; This anticoagulant medication works more quickly than warfarin does, but must be monitored closely due to the risk of excess bleeding. This medication can be administered directly into a vein (intravenously) or under the skin (subcutaneously). Other forms of heparin &amp;mdash; enoxaparin (Lovenox) and dalteparin (Fragmin) &amp;mdash; are known as low molecular weight heparin, which you can inject yourself. Heparin is considered safe to take during pregnancy. Possible risks of heparin include excess bleeding and allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Warfarin (Coumadin).&lt;/strong&gt; This anticoagulant comes in pill form, so it&apos;s easier to take than heparin is. Warfarin may cause birth defects, so it isn&apos;t usually recommended during pregnancy, especially not during the first trimester. Bleeding is the most common side effect of warfarin. This drug interacts with numerous other medications and herbs, so be sure to check with your doctor or pharmacist before taking anything else.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dabigatran (Pradaxa).&lt;/strong&gt; This oral medication, which isn&apos;t specifically approved by the Food and Drug Administration (FDA) for the treatment of blood clots, also thins the blood, but doesn&apos;t require the same monitoring that heparin and warfarin do. Bleeding is the most serious side effect associated with dabigatran. Unlike warfarin, there&apos;s no easy way to reverse excessive bleeding caused by dabigatran. No reliable studies have been conducted on pregnant women, so the drug should be used only if the benefits outweigh the potential risk. Dabigatran interacts with some medications, such as antibiotics or antifungal drugs, especially in people with kidney problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rivaroxaban (Xarelto).&lt;/strong&gt; This is a blood-thinning medication. Like dabigatran, it&apos;s an oral medication that doesn&apos;t require monitoring. It currently FDA approved for the prevention of blood clots in certain people, but is not specifically approved for the treatment of blood clots. Bleeding is the most common side effect, and the effects of this drug can&apos;t be easily reversed. Rivaroxaban hasn&apos;t been well-studied in pregnancy, so it should be used with caution in expectant mothers. This drug can interact with a number of medications, such as some antibiotics, antifungal medications and antiviral drugs. Check with your doctor before combining any medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ongoing monitoring&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re taking anticoagulant medication that can be monitored, your doctor will monitor your dose with blood tests to be sure your blood is capable of clotting enough to stop bleeding if you bruise or cut yourself. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy considerations&lt;/strong&gt; &lt;br /&gt;
+Most women with factor V Leiden have normal pregnancies. However, the risk of blood clots during pregnancy is higher. Pregnant women with factor V Leiden need close medical supervision throughout their pregnancies. There&apos;s currently no evidence that preventive treatment with blood-thinning medications would be effective enough to outweigh the potential risks of using these drugs during pregnancy or delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+When your baby is born, routine testing of newborns isn&apos;t currently recommended because blood clots are rare in children and teens, and chances are good that your child may never have any signs or symptoms related to factor V Leiden. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have factor V Leiden, avoiding certain situations might help to reduce your risk of developing blood clots. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Uninterrupted long car or airline trips.&lt;/strong&gt; When your legs remain still for long periods &amp;mdash; more than two hours &amp;mdash; your calf muscles don&apos;t contract, which normally helps blood circulate. If you can, try to move around whenever possible on a plane. In addition, don&apos;t drink alcohol, but do drink extra water to prevent dehydration. On a car trip, take periodic breaks and walk around. If you sit for long periods of time because you have a desk job, it&apos;s also a good idea to get up periodically and stretch your legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged bed rest, such as during a long illness, or paralysis.&lt;/strong&gt; When your legs remain still for long periods, your calf muscles don&apos;t contract to help blood circulate. Your doctor may suggest the use of compression stockings to keep the blood in your legs moving.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injury or surgery.&lt;/strong&gt; Injury to your veins or surgery can slow blood flow, increasing the risk of blood clots. General anesthetics used during surgery can dilate your veins, which can increase the risk of blood pooling and then clotting. Let your doctor know that you have factor V Leiden.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral contraceptives or estrogen replacement therapy.&lt;/strong&gt; Because these medications can increase the risk of blood clots on their own, be sure to discuss the risks and the benefits of estrogen-containing medications with your doctor if you have factor V Leiden.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being overweight or obese.&lt;/strong&gt; Being overweight increases the pressure in the veins in your pelvis and legs. Losing weight can lower your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking affects blood clotting and circulation. If you&apos;re a smoker, take steps to quit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+One situation you don&apos;t have to avoid if you have factor V Leiden is donating blood. People with factor V Leiden can usually donate blood if interested in doing so. However, if you&apos;re taking blood-thinning medications, you can&apos;t donate blood until those medications are fully out of your system. If you&apos;ve taken blood thinners, check with your doctor before donating blood. 
+&lt;/p&gt;
+&lt;p&gt;
+If your factor V Leiden requires you to take anticoagulant medication, here are some steps that might help prevent injury and avoid excessive bleeding. Consider these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid playing contact sports&lt;/strong&gt; or engaging in other activities that could be result in physical injury. However, regular noncontact exercise, such as walking or swimming, is still recommended for good health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a soft toothbrush&lt;/strong&gt; and waxed floss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid shaving cuts&lt;/strong&gt; by using an electric razor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious with household tasks&lt;/strong&gt; involving knives, scissors and other sharp tools.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Factor V Leiden
+	</Title>
+	<Abstract>
+		Factor V Leiden &amp;mdash; Comprehensive overview covers causes and treatment of this inherited clotting disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

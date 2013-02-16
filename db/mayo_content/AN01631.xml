@@ -1,0 +1,150 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01631
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fruit-juice/AN01631
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-17
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen">
+						<Keyword MCVID="3535" Title="06 to 10 years elementary" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1533" Title="Children">
+					<Keyword MCVID="3752" Title="Preschool and elementary">
+						<Keyword MCVID="3753" Title="Children&apos;s health" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			63940FCF-E7FF-0DBD-107DB8B3E90516DE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fruit juice
+			</MetaKeyword>
+			<MetaKeyword>
+				juice
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+While whole fruit is the best choice, certain types of fruit juice can be a healthy part of your child&apos;s diet. 
+&lt;/p&gt;
+&lt;p&gt;
+Recent studies have confirmed that drinking moderate amounts of 100 percent fruit juice doesn&apos;t affect a child&apos;s weight. However, fruit juice contains calories. Just like any other food or calorie-containing drink, too much fruit juice can contribute to weight gain. 
+&lt;/p&gt;
+&lt;p&gt;
+If you choose to give your child fruit juice, choose 100 percent fruit juice instead of sweetened juice or fruit-juice cocktails. While 100 percent fruit juice and sweetened fruit drinks might have a similar number of calories, your child will get more vitamins and nutrients and fewer additives from 100 percent juice.&amp;nbsp; Serve juice in a cup &amp;mdash; not a bottle &amp;mdash; to avoid tooth decay. In addition, serve fruit juice only with a snack or a meal, rather than allowing your child to sip juice throughout the day. If you&apos;re having trouble getting your child to eat, don&apos;t allow him or her to drink any liquids 30 minutes before meals or snacks. 
+&lt;/p&gt;
+&lt;p&gt;
+To ensure that your child isn&apos;t drinking too much juice, follow these limits from the American Academy of Pediatrics and the American Heart Association: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Birth to 6 months: No fruit juice, unless it&apos;s used to relieve constipation &lt;/li&gt;
+	&lt;li&gt;6 months to 6 years: 4 to 6 ounces (118 to 177 milliliters) a day&lt;/li&gt;
+	&lt;li&gt;7 years and older: 8 to 12 ounces (237 to 355 milliliters) a day&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+About 4 ounces (118 milliliters) of 100 percent fruit juice equals one serving of fruit. Remember, though, juice lacks the fiber and other nutrients of whole fruit. Although a reasonable amount of fruit juice each day is fine for most children, be sure to offer your child whole fruit as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fruit juice: Good or bad for kids?
+	</Title>
+	<Abstract>
+		Fruit juice can be a healthy part of a child&apos;s diet &amp;mdash; if you select carefully.
+	</Abstract>
+	<Question>
+		Is it OK to give my child fruit juice?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02114" LinkType="Internal" ObjectID="F198441F-EB2F-349D-1E086E717D471A58" Title="Hygiene hypothesis: Early germ exposure prevents asthma?" Url="http://www.mayoclinic.com/health/hygiene-hypothesis/AN02114" />
+		<LinkItem ContentType="Answer" DocID="AN02174" LinkType="Internal" ObjectID="ED8A9C78-E24E-B715-A576239249123DBB" Title="Head lice prevention: What works, what doesn&apos;t?" Url="http://www.mayoclinic.com/health/head-lice-prevention/AN02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01098" LinkType="Internal" ObjectID="7063CEDB-E93E-7C70-2153B488EF1FD60D" Title="Dental exam for children" Url="http://www.mayoclinic.com/health/dental-exam-for-children/MY01098" />
+		<LinkItem ContentType="Answer" DocID="HQ00700" LinkType="Internal" ObjectID="5202684B-82B7-4B7B-8B25B9868C2EF333" Title="Flu shots for kids: Does my child need a flu shot?" Url="http://www.mayoclinic.com/health/flu-shots/HQ00700" />
+		<LinkItem ContentType="Article" DocID="MY00816" LinkType="Internal" ObjectID="E19704C8-97C2-8E63-1C5F56B0CFE4F5BB" Title="H1N1 flu (swine flu) vaccine Q &amp; A" Url="http://www.mayoclinic.com/health/swine-flu-vaccine/MY00816" />
+		<LinkItem ContentType="Article" DocID="MY00510" LinkType="Internal" ObjectID="CC3470CA-F7BB-C2AF-097ED286CB9E7795" Title="Ear infection treatment: Do alternative therapies work?" Url="http://www.mayoclinic.com/health/ear-infection-treatment/MY00510" />
+		<LinkItem ContentType="Article" DocID="HQ01481" LinkType="Internal" ObjectID="BC8BF7E5-D95D-4119-A5A8BFEE3C5E48FE" Title="Thermometer basics: Taking your child&apos;s temperature" Url="http://www.mayoclinic.com/health/thermometer/HQ01481" />
+		<LinkItem ContentType="Article" DocID="MY01186" LinkType="Internal" ObjectID="9A19F6EC-9DCC-4429-F240C8477358E08A" Title="Thermometers: Understand the options" Url="http://www.mayoclinic.com/health/thermometers/MY01186" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Article" DocID="MY01155" LinkType="Internal" ObjectID="2442968A-C08C-D462-08E0D9EE86E63733" Title="Lead exposure: Tips to protect your child" Url="http://www.mayoclinic.com/health/lead-exposure/MY01155" />
+		<LinkItem ContentType="Answer" DocID="AN01610" LinkType="Internal" ObjectID="482EE3C9-E7FF-0DBD-121777B96CDE43D9" Title="Child growth: Can you predict adult height?" Url="http://www.mayoclinic.com/health/child-growth/AN01610" />
+		<LinkItem ContentType="InteractiveTable" DocID="NU00606" LinkType="Internal" ObjectID="2825E732-AE5A-4296-A9A6DA77BA7E872E" Title="Nutrition for kids: Guidelines for a healthy diet" Url="http://www.mayoclinic.com/health/nutrition-for-kids/NU00606" />
+		<LinkItem ContentType="Answer" DocID="AN02179" LinkType="Internal" ObjectID="07B0FFAA-E648-2AA1-C32D0FC4D08F939F" Title="Car sickness in children: Can I prevent it?" Url="http://www.mayoclinic.com/health/car-sickness-in-children/AN02179" />
+		<LinkItem ContentType="Disease" DocID="DS00953" LinkType="Internal" ObjectID="EFE712B5-E7FF-0DBD-17579B80A2687C9C" Title="Head lice" Url="http://www.mayoclinic.com/health/head-lice/DS00953" />
+		<LinkItem ContentType="Disease" DocID="DS01099" LinkType="Internal" ObjectID="C58BF536-E7FF-0DBD-16ED14CE714B8D4D" Title="Child abuse" Url="http://www.mayoclinic.com/health/child-abuse/DS01099" />
+		<LinkItem ContentType="Disease" DocID="DS00892" LinkType="Internal" ObjectID="C42BC11D-E7FF-0DBD-1B7A0231D1304090" Title="Ringworm (scalp)" Url="http://www.mayoclinic.com/health/ringworm/DS00892" />
+		<LinkItem ContentType="Disease" DocID="DS00698" LinkType="Internal" ObjectID="C1B16559-2A5D-9994-E50F2B09A6C7AE07" Title="Childhood obesity" Url="http://www.mayoclinic.com/health/childhood-obesity/DS00698" />
+		<LinkItem ContentType="Disease" DocID="DS01200" LinkType="Internal" ObjectID="54F3BDAF-D6C1-FE2B-D711758C89E296D6" Title="Tongue-tie (ankyloglossia)" Url="http://www.mayoclinic.com/health/tongue-tie/DS01200" />
+		<LinkItem ContentType="Disease" DocID="DS01162" LinkType="Internal" ObjectID="3A2FB66F-FE3E-7A0B-F2727D5D4498D6B6" Title="Toe walking in children" Url="http://www.mayoclinic.com/health/toe-walking/DS01162" />
+		<LinkItem ContentType="Disease" DocID="DS00509" LinkType="Internal" ObjectID="1AD3D683-70DA-4AC1-A176A46E69ED888A" Title="Plantar warts" Url="http://www.mayoclinic.com/health/plantar-warts/DS00509" />
+		<LinkItem ContentType="Article" DocID="SM00057" LinkType="Internal" ObjectID="DFB704B6-D075-4974-935DDE630833E6D0" Title="Children and sports: Choices for all ages" Url="http://www.mayoclinic.com/health/fitness/SM00057" />
+		<LinkItem ContentType="Article" DocID="MY00522" LinkType="Internal" ObjectID="DB545634-D392-85C6-1E6A99117A2A88A5" Title="Children and TV: Limiting your child&apos;s screen time" Url="http://www.mayoclinic.com/health/children-and-tv/MY00522" />
+		<LinkItem ContentType="Article" DocID="CC00083" LinkType="Internal" ObjectID="D73C9C67-E7FF-0DBD-1906123BF1D6371C" Title="Cold medicines for kids: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/cold-medicines/CC00083" />
+		<LinkItem ContentType="Article" DocID="MY01974" LinkType="Internal" ObjectID="AFD2ED23-D467-4F73-D5858809F132AB20" Title="Cast care: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/cast-care/MY01974" />
+		<LinkItem ContentType="Article" DocID="MY01263" LinkType="Internal" ObjectID="AA8EFC9A-05B8-663E-BD95ADBE1E5A7ACD" Title="Stepfamilies: How to help your child adjust" Url="http://www.mayoclinic.com/health/stepfamilies/MY01263" />
+		<LinkItem ContentType="Article" DocID="MY02332" LinkType="Internal" ObjectID="A9A0228D-0584-288E-979391F241704AB3" Title="Helping children cope: Tips for talking about tragedy" Url="http://www.mayoclinic.com/health/helping-children-cope/MY02332" />
+		<LinkItem ContentType="Article" DocID="MY01709" LinkType="Internal" ObjectID="9C16DED9-D315-79F8-19ED59E7ABBEE499" Title="Single parent? Tips for raising a child alone" Url="http://www.mayoclinic.com/health/single-parent/MY01709" />
+		<LinkItem ContentType="Article" DocID="HO00002" LinkType="Internal" ObjectID="99E818C7-6EDD-4A1B-8170BAAECEC4B2E8" Title="Acetaminophen and children: Why dose matters" Url="http://www.mayoclinic.com/health/acetaminophen/HO00002" />
+		<LinkItem ContentType="Article" DocID="MY01914" LinkType="Internal" ObjectID="8EE725C6-B3BD-CE7D-BD887C26189CA737" Title="Sibling rivalry: Helping your children get along" Url="http://www.mayoclinic.com/health/sibling-rivalry/MY01914" />
+		<LinkItem ContentType="Article" DocID="MY01654" LinkType="Internal" ObjectID="5D21FBC8-C20D-A6DF-56E39601F360C2B2" Title="Iron deficiency in children: Prevention tips for parents" Url="http://www.mayoclinic.com/health/iron-deficiency/MY01654" />
+		<LinkItem ContentType="Article" DocID="CC00072" LinkType="Internal" ObjectID="38AD6016-E7FF-0DBD-1BE599068EE00FDE" Title="Halloween safety: Tips for trick-or-treaters" Url="http://www.mayoclinic.com/health/halloween-safety/CC00072" />
+		<LinkItem ContentType="Article" DocID="HQ01107" LinkType="Internal" ObjectID="37E8B253-9801-4773-89BC22A7CD3C5E86" Title="Children&apos;s nutrition: 10 tips for picky eaters" Url="http://www.mayoclinic.com/health/childrens-health/HQ01107" />
+		<LinkItem ContentType="Article" DocID="MY01341" LinkType="Internal" ObjectID="191ECC22-A2BA-83CB-D7368252112F6ADB" Title="Recipes for kids: Have fun with healthy eating" Url="http://www.mayoclinic.com/health/recipes-for-kids/MY01341" />
+		<LinkItem ContentType="Article" DocID="HQ00419" LinkType="Internal" ObjectID="179DFA54-BAA7-4B3C-9230E10BFE559737" Title="Healthy snacks for kids: 10 child-friendly tips" Url="http://www.mayoclinic.com/health/childrens-health/HQ00419" />
+		<LinkItem ContentType="Article" DocID="MY01940" LinkType="Internal" ObjectID="14DFFCC1-A3D2-56CB-D63B21FDDC6EA09C" Title="New sibling: Preparing your older child" Url="http://www.mayoclinic.com/health/new-sibling/MY01940" />
+	</RelatedLinksBox>
+</Answer>

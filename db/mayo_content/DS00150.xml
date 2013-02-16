@@ -1,0 +1,484 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00150
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stroke/DS00150
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-03
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="2301" Title="Stroke" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			487C37FA-C927-45BF-84821670F1635148
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				brain attack
+			</MetaKeyword>
+			<MetaKeyword>
+				TIA
+			</MetaKeyword>
+			<MetaKeyword>
+				transient ischemic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding in the brain
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hemorrhagic
+			</MetaKeyword>
+			<MetaKeyword>
+				aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial fibrillation
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery blockage
+			</MetaKeyword>
+			<MetaKeyword>
+				blocked carotid artery
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				anurism
+			</MetaKeyword>
+			<MetaKeyword>
+				CVA
+			</MetaKeyword>
+			<MetaKeyword>
+				strke
+			</MetaKeyword>
+			<MetaKeyword>
+				stoke
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stroke occurs when the blood supply to part of your brain is interrupted or severely reduced, depriving brain tissue of oxygen and food. Within minutes, brain cells begin to die.
+&lt;/p&gt;
+&lt;p&gt;
+A stroke is a medical emergency. Prompt treatment is crucial. Early action can minimize brain damage and potential complications.
+&lt;/p&gt;
+&lt;p&gt;
+The good news is that strokes can be treated and prevented, and many fewer Americans die of stroke now than even 15 years ago. Better control of major stroke risk factors &amp;mdash; high blood pressure, smoking and high cholesterol &amp;mdash; may be responsible for the decline.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Watch for these signs and symptoms if you think you or someone else may be having a stroke. Note when your signs and symptoms begin, because the length of time they have been present may guide your treatment decisions.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble with walking.&lt;/strong&gt; You may stumble or experience sudden dizziness, loss of balance or loss of coordination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble with speaking and understanding.&lt;/strong&gt; You may experience confusion. You may slur your words or have difficulty understanding speech.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Paralysis or numbness of the face, arm or leg.&lt;/strong&gt; You may develop sudden numbness, weakness or paralysis in your face, arm or leg, especially on one side of your body. Try to raise both your arms over your head at the same time. If one arm begins to fall, you may be having a stroke. Similarly, one side of your mouth may droop when you try to smile.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble with seeing in one or both eyes.&lt;/strong&gt; You may suddenly have blurred or blackened vision in one or both eyes, or you may see double.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Headache.&lt;/strong&gt; A sudden, severe headache, which may be accompanied by vomiting, dizziness or altered consciousness, may indicate you&apos;re having a stroke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;Seek immediate medical attention&lt;/strong&gt; if you notice any signs or symptoms of a stroke, even if they seem to fluctuate or disappear. Call 911 or your local emergency number right away. Every minute counts. Don&apos;t wait to see if symptoms go away. The longer a stroke goes untreated, the greater the potential for brain damage and disability. To maximize the effectiveness of evaluation and treatment, you&apos;ll need to be treated at a hospital within three hours after your first symptoms appeared. If you&apos;re with someone you suspect is having a stroke, watch the person carefully while waiting for emergency assistance.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stroke occurs when the blood supply to your brain is interrupted or reduced. This deprives your brain of oxygen and nutrients, which can cause your brain cells to die. A stroke may be caused by a blocked artery (ischemic stroke) or a leaking or burst blood vessel (hemorrhagic stroke). Some people may experience a temporary disruption of blood flow through their brain (transient ischemic attack). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ischemic stroke&lt;br /&gt;
+&lt;/strong&gt;About 85 percent of strokes are ischemic strokes. Ischemic strokes occur when the arteries to your brain become narrowed or blocked, causing severely reduced blood flow (ischemia). The most common ischemic strokes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Thrombotic stroke.&lt;/strong&gt; A thrombotic stroke occurs when a blood clot (thrombus) forms in one of the arteries that supply blood to your brain. A clot often may be caused by fatty deposits (plaque) that build up in arteries and cause reduced blood flow (atherosclerosis) or other artery conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Embolic stroke.&lt;/strong&gt; An embolic stroke occurs when a blood clot or other debris forms away from your brain &amp;mdash; commonly in your heart &amp;mdash; and is swept through your bloodstream to lodge in narrower brain arteries. This type of blood clot is called an embolus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hemorrhagic stroke&lt;br /&gt;
+&lt;/strong&gt;Hemorrhagic stroke occurs when a blood vessel in your brain leaks or ruptures. Brain hemorrhages can result from many conditions that affect your blood vessels, including uncontrolled high blood pressure (hypertension) and weak spots in your blood vessel walls (aneurysms). A less common cause of hemorrhage is the rupture of an arteriovenous malformation (AVM) &amp;mdash; an abnormal tangle of thin-walled blood vessels, present at birth. The types of hemorrhagic stroke include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intracerebral hemorrhage.&lt;/strong&gt; In an intracerebral hemorrhage, a blood vessel in the brain bursts and spills into the surrounding brain tissue, damaging brain cells. Brain cells beyond the leak are deprived of blood and damaged. High blood pressure, trauma, vascular malformations, use of blood-thinning medications and other conditions may cause intracerebral hemorrhage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Subarachnoid hemorrhage.&lt;/strong&gt; In a subarachnoid hemorrhage, an artery on or near the surface of your brain bursts and spills into the space between the surface of your brain and your skull. This bleeding is often signaled by a sudden, severe headache. A subarachnoid hemorrhage is commonly caused by the rupture of an aneurysm, a small sack-shaped or berry-shaped outpouching on an artery in the brain. After the hemorrhage, the blood vessels in your brain may widen and narrow erratically (vasospasm), causing brain cell damage by further limiting blood flow to parts of your brain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Transient ischemic attack (TIA)&lt;br /&gt;
+&lt;/strong&gt;A transient ischemic attack (TIA) &amp;mdash; also called a ministroke &amp;mdash; is a brief episode of symptoms similar to those you&apos;d have in a stroke. A transient ischemic attack is caused by a temporary decrease in blood supply to part of your brain. TIAs often last less than five minutes.
+&lt;/p&gt;
+&lt;p&gt;
+Like an ischemic stroke, a TIA occurs when a clot or debris blocks blood flow to part of your brain. A TIA doesn&apos;t leave lasting symptoms because the blockage is temporary.
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency care even if your symptoms seem to clear up. If you&apos;ve had a TIA, it means there&apos;s likely a partially blocked or narrowed artery leading to your brain, putting you at a greater risk of a full-blown stroke that could cause permanent damage later. It&apos;s not possible to tell if you&apos;re having a stroke or a TIA based only on your symptoms. Up to half of people whose symptoms appear to go away actually have had a stroke causing brain damage.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ischemic stroke 
+" Caption="Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur in the carotid artery of the neck as well as other arteries. 
+" Height="60" Title="Ischemic stroke" URI="/images/image_popup/thumbs/r7_ischemicstrokethu.jpg" Width="60" />
+				<Image Alt="Illustration showing ischemic stroke 
+" Caption="Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur in the carotid artery of the neck as well as other arteries. 
+" Height="340" Title="Ischemic stroke" URI="/images/image_popup/r7_ischemicstroke.jpg" Width="400" />
+				<HTML>
+					Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many factors can increase your risk of a stroke. A number of these factors can also increase your chances of having a heart attack. Stroke risk factors include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Potentially treatable risk factors&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure &amp;mdash; risk of stroke begins to increase at blood pressure readings higher than 120/80 millimeters of mercury (mm Hg). Your doctor will help you decide on a target blood pressure based on your age, whether you have diabetes and other factors.&lt;/li&gt;
+	&lt;li&gt;Cigarette smoking or exposure to secondhand smoke.&lt;/li&gt;
+	&lt;li&gt;High cholesterol &amp;mdash; a total cholesterol level above 200 milligrams per deciliter (mg/dL), or 5.2 millimoles per liter (mmol/L).&lt;/li&gt;
+	&lt;li&gt;Diabetes.&lt;/li&gt;
+	&lt;li&gt;Being overweight or obese.&lt;/li&gt;
+	&lt;li&gt;Physical inactivity.&lt;/li&gt;
+	&lt;li&gt;Obstructive sleep apnea (a sleep disorder in which the oxygen level intermittently drops during the night).&lt;/li&gt;
+	&lt;li&gt;Cardiovascular disease, including heart failure, heart defects, heart infection or abnormal heart rhythm.&lt;/li&gt;
+	&lt;li&gt;Use of some birth control pills or hormone therapies that include estrogen.&lt;/li&gt;
+	&lt;li&gt;Heavy or binge drinking.&lt;/li&gt;
+	&lt;li&gt;Use of illicit drugs such as cocaine and methamphetamines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other risk factors&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Personal or family history of stroke, heart attack or TIA.&lt;/li&gt;
+	&lt;li&gt;Being age 55 or older.&lt;/li&gt;
+	&lt;li&gt;Race &amp;mdash; African-Americans have higher risk of stroke than people of other races.&lt;/li&gt;
+	&lt;li&gt;Gender &amp;mdash; Men have a higher risk of stroke than women. Women are usually older when they have strokes, and they are more likely to die of strokes than men.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stroke can sometimes cause temporary or permanent disabilities, depending on how long the brain suffers a lack of blood flow and which part was affected. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Paralysis or loss of muscle movement.&lt;/strong&gt; Sometimes a lack of blood flow to the brain can cause you to become paralyzed on one side of your body, or lose control of certain muscles, such as those on one side of your face or one arm. This can cause difficulty with several daily activities, including walking, eating and dressing. With physical therapy, you may see improvement in muscle movement or paralysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty talking or swallowing.&lt;/strong&gt; A stroke may cause you to have less control over the way the muscles in your mouth and throat move, making it difficult for you to talk, swallow or eat. For example, some people may experience slurred speech (dysarthria), due to incoordination of muscles in your mouth. You also may have difficulty with language (aphasia), including speaking or understanding speech, reading or writing. Therapy with a speech and language pathologist may help you improve your skills.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Memory loss or thinking difficulties.&lt;/strong&gt; Many people who have had strokes experience some memory loss. Others may have difficulty thinking, making judgments, reasoning and understanding concepts. These complications may improve with rehabilitation therapies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional problems.&lt;/strong&gt; People who have had strokes may have more difficulty controlling their emotions, or they may develop depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Some people who have had strokes may have pain, numbness or other strange sensations in parts of their bodies affected by stroke. For example, if a stroke causes you to lose feeling in your left arm, you may develop an uncomfortable tingling sensation in that arm. Some people may be sensitive to temperature changes, especially extreme cold. This is called central stroke pain or central pain syndrome (CPS). This complication generally develops several weeks after a stroke, and it may improve over time. But because the pain is caused by a problem in your brain, instead of a physical injury, few medications may treat CPS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in behavior and self-care.&lt;/strong&gt; People who have had strokes may become more withdrawn and less social or more impulsive. They may lose the ability to care for themselves and may need a caretaker to help them with their grooming needs and daily chores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As with any brain injury, the success of treating these complications will vary from person to person.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stroke in progress is usually diagnosed in a hospital emergency room. If you&apos;re having a stroke, your care will focus on minimizing brain damage and helping you recover and avoid another stroke in the future. If you haven&apos;t yet had a stroke but you&apos;re worried about your future risk, you can discuss your concerns with your doctor at your next scheduled appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;In the emergency room, you may see an emergency medicine specialist or a doctor trained in brain conditions (neurologist), as well as nurses and medical technicians. Your emergency team&apos;s first priority will be to stabilize your symptoms and overall medical condition. Then you&apos;ll be evaluated to determine if you&apos;re having a stroke, and to find out the cause of your stroke, to determine the most appropriate treatment for your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re seeking your doctor&apos;s advice during a scheduled appointment, your doctor will evaluate your risk factors for stroke and heart disease. Your discussion will focus on avoiding risk factors for stroke, such as not smoking or using illicit drugs. Your doctor also will discuss lifestyle strategies or medications to control high blood pressure, cholesterol and other stroke risk factors. In some cases, your doctor may recommend certain tests and procedures to better understand your risk of stroke or to treat underlying conditions that may increase your risk of stroke. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine the most appropriate treatment for your stroke, your emergency team needs to evaluate the type of stroke you&apos;re having and the areas of your brain affected by the stroke. They also need to rule out other possible causes of your symptoms, such as a brain tumor or a drug reaction. Your doctor may use several tests to determine your risk of stroke, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor will ask you or a family member what symptoms you&apos;ve been having, when they started and what you were doing when they began. Your doctor then will evaluate whether these symptoms are still present. Your doctor will want to know what medications you take and whether you have experienced any head injuries. You&apos;ll be asked about your personal and family history of heart disease, TIA or stroke. Your doctor will check your blood pressure and use a stethoscope to listen to your heart and to listen for a whooshing sound (bruit) over your neck (carotid) arteries, which may indicate atherosclerosis. Your doctor may also use an ophthalmoscope to check for signs of tiny cholesterol crystals or clots in the blood vessels at the back of your eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; You may have several blood tests, which give your care team important information such as how fast your blood clots, whether your blood sugar is abnormally high or low, whether critical blood chemicals are out of balance, or whether you may have an infection. Your blood&apos;s clotting time and levels of sugar and key chemicals must be managed as part of your stroke care. Infections also must be treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; Brain imaging plays a key role in determining if you&apos;re having a stroke and what type of stroke you may be experiencing. A CT scan uses a series of X-rays to create a detailed image of your brain. A CT scan can show a brain hemorrhage, tumors, strokes and other conditions. Doctors may inject a dye into your blood vessels to view your blood vessels in your neck and brain in greater detail (computerized tomography angiography).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses powerful radio waves and magnets to create a detailed view of your brain. An MRI can detect brain tissue damaged by an ischemic stroke and brain hemorrhages. Sometimes your doctor may inject a dye into a blood vessel to view the arteries and veins and highlight blood flow (magnetic resonance angiography, or magnetic resonance venography).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid ultrasound.&lt;/strong&gt; In this test, sound waves create detailed images of the inside of the carotid arteries in your neck. This test shows buildup of fatty deposits (plaques) and blood flow in your carotid arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral angiogram.&lt;/strong&gt; In this test, your doctor inserts a thin, flexible tube (catheter) through a small incision, usually in your groin, and guides it through your major arteries and into your carotid or vertebral artery. Then your doctor injects a dye into your blood vessels to make them visible under X-ray imaging. This procedure gives a detailed view of arteries in your brain and neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram uses sound waves to create detailed images of your heart. An echocardiogram can find a source of clots in your heart that may have traveled from your heart to your brain and caused your stroke. You sometimes may have a transesophageal echocardiogram. In this test, your doctor inserts a flexible tube with a small device (transducer) attached in your throat and down into your esophagus &amp;mdash; the tube that connects the back of your mouth to your stomach. Because your esophagus is directly behind your heart, a transesophageal echocardiogram can create clear, detailed ultrasound images of your heart and any blood clots. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Emergency treatment for stroke depends on whether you&apos;re having an ischemic stroke blocking an artery &amp;mdash; the most common kind &amp;mdash; or a hemorrhagic stroke involving bleeding into the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ischemic stroke&lt;br /&gt;
+&lt;/strong&gt;To treat an ischemic stroke, doctors must quickly restore blood flow to your brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency treatment with medications.&lt;/strong&gt; Therapy with clot-busting drugs (thrombolytics) must start within 4.5 hours if they are given into the vein &amp;mdash; and the sooner, the better. Quick treatment not only improves your chances of survival but also may reduce the complications from your stroke. You may be given:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Aspirin.&lt;/strong&gt; Aspirin, an anti-thrombotic drug, is an immediate treatment after an ischemic stroke to reduce the likelihood of having another stroke. Aspirin prevents blood clots from forming. In the emergency room, you may be given a dose of aspirin. The dose may vary, but if you already take a daily aspirin for its blood-thinning effect, you may want to make a note of that on an emergency medical card so doctors will know if you&apos;ve already taken some aspirin.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Other blood-thinning drugs, such as heparin, also may be given, but this drug isn&apos;t proven to be beneficial in the emergency setting so it&apos;s used infrequently. Clopidogrel (Plavix), warfarin (Coumadin), or aspirin in combination with extended release dipyridamole (Aggrenox) may also be used, but these aren&apos;t usually used in the emergency room setting.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous injection of tissue plasminogen activator (TPA).&lt;/strong&gt; Some people who are having an ischemic stroke can benefit from an injection of a recombinant tissue plasminogen activator (TPA), also called alteplase, usually given through a vein in the arm. This potent clot-busting drug needs to be given within 4.5 hours after stroke symptoms begin if it&apos;s given into the vein. This drug restores blood flow by dissolving the blood clot causing your stroke, and it may help people who have had strokes recover more fully. Your doctor will consider certain risks, such as potential bleeding in the brain, to determine if TPA is the most appropriate treatment for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency procedures.&lt;/strong&gt; Doctors sometimes treat ischemic strokes with procedures that must be performed as soon as possible. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications delivered directly to the brain.&lt;/strong&gt; Doctors may insert a long, thin tube (catheter) through an artery in your groin and thread it to your brain, and then release TPA directly into the area where the stroke is occurring. The time window for this treatment is somewhat longer than for intravenous TPA but still limited.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mechanical clot removal.&lt;/strong&gt; Doctors may use a catheter to maneuver a tiny device into your brain to physically grab and remove the clot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other procedures.&lt;/strong&gt; To decrease your risk of having another stroke or TIA, your doctor may recommend a procedure to open up an artery that&apos;s moderately to severely narrowed by plaque. Doctors sometimes recommend these procedures to prevent a stroke. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid endarterectomy.&lt;/strong&gt; In a carotid endarterectomy, a surgeon removes fatty deposits (plaques) from your carotid arteries that run along each side of your neck to your brain. In this procedure, your surgeon makes an incision along the front of your neck, opens your carotid artery, and removes fatty deposits (plaques) that block the carotid artery. Your surgeon then repairs the artery with stitches or a patch made with a vein or artificial material (graft). The procedure may reduce your risk of ischemic stroke. However, a carotid endarterectomy also involves risks, especially for people with heart disease or other medical conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angioplasty and stents.&lt;/strong&gt; In an angioplasty, a surgeon inserts a catheter with a mesh tube (stent) and balloon on the tip into an artery in your groin and guides it to the blocked carotid artery in your neck. Your surgeon inflates the balloon in the narrowed artery and inserts a mesh tube (stent) into the opening to keep your artery from becoming narrowed after the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hemorrhagic stroke&lt;br /&gt;
+&lt;/strong&gt;Emergency treatment of hemorrhagic stroke focuses on controlling your bleeding and reducing pressure in your brain. Surgery also may be used to help reduce future risk.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency measures.&lt;/strong&gt; If you take warfarin (Coumadin) or anti-platelet drugs such as clopidogrel (Plavix) to prevent blood clots, you may be given drugs or transfusions of blood products to counteract their effects. You may also be given drugs to lower pressure in your brain (intracranial pressure), lower your blood pressure or prevent seizures. People having a hemorrhagic stroke can&apos;t be given clot-busters such as aspirin and TPA, because these drugs may worsen bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+Once the bleeding in your brain stops, treatment usually involves bed rest and supportive medical care while your body absorbs the blood. Healing is similar to what happens while a bad bruise goes away. If the area of bleeding is large, surgery may be used in certain cases to remove the blood and relieve pressure on the brain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical blood vessel repair.&lt;/strong&gt; Surgery may be used to repair certain blood vessel abnormalities associated with hemorrhagic strokes. Your doctor may recommend one of these procedures after a stroke or if you&apos;re at high risk of a spontaneous aneurysm or arteriovenous malformation (AVM) rupture: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical clipping.&lt;/strong&gt; A surgeon places a tiny clamp at the base of the aneurysm, to stop blood flow to it. This can keep the aneurysm from bursting, or it can prevent re-bleeding of an aneurysm that has recently hemorrhaged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coiling (endovascular embolization).&lt;/strong&gt; In this procedure, a surgeon inserts a catheter into an artery in your groin and guides it to your brain using X-ray imaging. Your surgeon then guides tiny detachable coils into the aneurysm (aneurysm coiling). The coils fill the aneurysm, which blocks blood flow into the aneurysm and causes the blood to clot. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical AVM removal.&lt;/strong&gt; Surgeons may remove a smaller AVM if it&apos;s located in an accessible area of your brain, to eliminate the risk of rupture and lower the risk of hemorrhagic stroke. However, it&apos;s not always possible to remove an AVM if it&apos;s too large or if it&apos;s located deep within your brain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stroke recovery and rehabilitation&lt;br /&gt;
+&lt;/strong&gt;Following emergency treatment, stroke care focuses on helping you regain your strength, recover as much function as possible and return to independent living. The impact of your stroke depends on the area of the brain involved and the amount of tissue damaged. If your stroke affected the right side of your brain, your movement and sensation on the left side of your body may be affected. If your stroke damaged the brain tissue on the left side of your brain, your movement and sensation on the right side of your body may be affected. Brain damage to the left side of your brain may cause speech and language disorders. In addition, if you&apos;ve had a stroke, you may have problems with breathing, swallowing, balancing and vision.
+&lt;/p&gt;
+&lt;p&gt;
+Most stroke survivors receive treatment in a rehabilitation program. Your doctor will recommend the most rigorous therapy program you can handle based on your age, overall health and your degree of disability from your stroke. Your doctor will take into consideration your lifestyle, interests and priorities, and availability of family members or other caregivers.
+&lt;/p&gt;
+&lt;p&gt;
+Your rehabilitation program may begin before you leave the hospital. It may continue in a rehabilitation unit of the same hospital, another rehabilitation unit or skilled nursing facility, an outpatient unit, or your home.
+&lt;/p&gt;
+&lt;p&gt;
+Every person&apos;s stroke recovery is different. Depending on your condition, your treatment team may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctor trained in brain conditions (neurologist)&lt;/li&gt;
+	&lt;li&gt;Rehabilitation doctor (physiatrist)&lt;/li&gt;
+	&lt;li&gt;Nurse&lt;/li&gt;
+	&lt;li&gt;Dietitian&lt;/li&gt;
+	&lt;li&gt;Physical therapist&lt;/li&gt;
+	&lt;li&gt;Occupational therapist&lt;/li&gt;
+	&lt;li&gt;Recreational therapist&lt;/li&gt;
+	&lt;li&gt;Speech therapist&lt;/li&gt;
+	&lt;li&gt;Social worker&lt;/li&gt;
+	&lt;li&gt;Case manager&lt;/li&gt;
+	&lt;li&gt;Psychologist or psychiatrist&lt;/li&gt;
+	&lt;li&gt;Chaplain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stroke is a life-changing event that can affect your emotional well-being as much as your physical function. You may experience feelings of helplessness, frustration, depression and apathy. You may also have mood changes and a diminished sex drive. 
+&lt;/p&gt;
+&lt;p&gt;
+Maintaining your self-esteem, connections to others and interest in the world are essential parts of your recovery. Several strategies may help both you and your caregivers, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t be hard on yourself.&lt;/strong&gt; Accept that physical and emotional recovery will involve tough work, and it will take time. Aim for a &quot;new normal,&quot; and celebrate your progress. Allow time for rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get out of the house even if it&apos;s hard.&lt;/strong&gt; Try not to be discouraged or self-conscious if you move slowly and need a cane, walker or wheelchair to get around. Getting out is good for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Meeting with others who are coping with a stroke lets you get out and share experiences, exchange information, and forge new friendships.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let friends and family know what you need.&lt;/strong&gt; People may want to help, but they may not know how to help. Let them know that you would like them to bring over a meal and stay to eat with you and talk, or to go out to lunch with you, or attend social events or church activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know that you are not alone.&lt;/strong&gt; Nearly 800,000 Americans have a stroke every year. Approximately every 40 seconds someone has a stroke in the United States.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Communication challenges&lt;br /&gt;
+&lt;/strong&gt;One of the most frustrating effects of stroke is that it can affect your speech and language. Here are some tips to help both stroke survivors and caregivers cope with communication challenges:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice will help.&lt;/strong&gt; Try to have a conversation at least once a day. It will help you learn what works best for you, feel connected and rebuild your confidence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relax and take your time.&lt;/strong&gt; Talking may be easiest and most enjoyable in a relaxing situation when you have plenty of time. Some stroke survivors find that after dinner is a good time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Say it your way.&lt;/strong&gt; When you&apos;re recovering from a stroke, you may need to use fewer words, rely on gestures or rely on your tone of voice to communicate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use props and communication aids.&lt;/strong&gt; You may find it helpful to use cue cards showing frequently used words, pictures of close friends and family members, or daily activities, such as a favorite television show or the bathroom.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knowing your stroke risk factors, following your doctor&apos;s recommendations and adopting a healthy lifestyle are the best steps you can take to prevent a stroke. If you&apos;ve had a stroke or a TIA, these measures may help you avoid having another stroke. Many stroke prevention strategies are the same as strategies to prevent heart disease. In general, healthy lifestyle recommendations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Controlling high blood pressure (hypertension).&lt;/strong&gt; One of the most important things you can do to reduce your stroke risk is to keep your blood pressure under control. If you&apos;ve had a stroke, lowering your blood pressure can help prevent a subsequent transient ischemic attack or stroke. Exercising, managing stress, maintaining a healthy weight, and limiting the amount of sodium and alcohol you eat and drink are all ways to keep high blood pressure in check. Adding more potassium to your diet also may help. In addition to recommending lifestyle changes, your doctor may prescribe medications to treat high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lowering the amount of cholesterol and saturated fat in your diet.&lt;/strong&gt; Eating less cholesterol and fat, especially saturated fat and trans fats, may reduce the plaque in your arteries. If you can&apos;t control your cholesterol through dietary changes alone, your doctor may prescribe a cholesterol-lowering medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quitting tobacco use.&lt;/strong&gt; Smoking raises the risk of stroke for both the smoker and nonsmokers exposed to secondhand smoke. Quitting tobacco use reduces your risk of stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Controlling diabetes.&lt;/strong&gt; You can manage diabetes with diet, exercise, weight control and medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintaining a healthy weight.&lt;/strong&gt; Being overweight contributes to other stroke risk factors, such as high blood pressure, cardiovascular disease and diabetes. Weight loss of as little as 10 pounds may lower your blood pressure and improve your cholesterol levels. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating a diet rich in fruits and vegetables.&lt;/strong&gt; A diet containing five or more daily servings of fruits or vegetables may reduce your risk of stroke. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercising regularly.&lt;/strong&gt; Aerobic exercise reduces your risk of stroke in many ways. Exercise can lower your blood pressure, increase your level of high-density lipoprotein (HDL, or &quot;good&quot;) cholesterol, and improve the overall health of your blood vessels and heart. It also helps you lose weight, control diabetes and reduce stress. Gradually work up to 30 minutes of activity &amp;mdash; such as walking, jogging, swimming or bicycling &amp;mdash; on most, if not all, days of the week. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol in moderation, if at all.&lt;/strong&gt; Alcohol can be both a risk factor and a preventive measure for stroke. Heavy alcohol consumption increases your risk of high blood pressure, ischemic strokes and hemorrhagic strokes. However, drinking small to moderate amounts of alcohol may help prevent ischemic stroke and decrease your blood&apos;s clotting tendency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat obstructive sleep apnea, if present.&lt;/strong&gt; Your doctor may recommend an overnight oxygen assessment to screen for obstructive sleep apnea (OSA). If OSA is detected, it may be treated by giving you oxygen at night or having you wear a small device in your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoiding illicit drugs.&lt;/strong&gt; Certain street drugs, such as cocaine and methamphetamines, are established risk factors for a TIA or a stroke. Cocaine reduces blood flow and can cause narrowing of arteries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive medications&lt;br /&gt;
+&lt;/strong&gt;If you&apos;ve had an ischemic stroke or TIA, your doctor may recommend medications to help reduce your risk of having another stroke. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Anti-platelet drugs.&lt;/strong&gt; Platelets are cells in your blood that initiate clots. Anti-platelet drugs make these cells less sticky and less likely to clot. The most frequently used anti-platelet medication is aspirin. Your doctor can help you determine the right dose of aspirin for you.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may also consider prescribing Aggrenox, a combination of low-dose aspirin and the anti-platelet drug dipyridamole, to reduce the risk of blood clotting. If aspirin doesn&apos;t prevent your TIA or stroke, or if you can&apos;t take aspirin, your doctor may instead prescribe an anti-platelet drug such as clopidogrel (Plavix).
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Anticoagulants.&lt;/strong&gt; These drugs, which include heparin and warfarin (Coumadin), reduce blood clotting. Heparin is fast acting and may be used over a short period of time in the hospital. Slower acting warfarin may be used over a longer term.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Warfarin is a powerful blood-thinning drug, so you&apos;ll need to take it exactly as directed and watch for side effects. Your doctor may prescribe these drugs if you have certain blood-clotting disorders, certain arterial abnormalities, an abnormal heart rhythm or other heart problems. Other newer blood thinners may be used if your TIA or stroke was caused by an abnormal heart rhythm.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stroke
+	</Title>
+	<Abstract>
+		Stroke &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of interruption of brain&apos;s blood supply.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00159" LinkType="Internal" ObjectID="EAB7998F-E7FF-0DBD-1FABF4CA65486724" Title="Chelation therapy for heart disease" Url="http://www.mayoclinic.com/health/chelation-therapy/MY00159" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00500" LinkType="Internal" ObjectID="ACA5E069-DFEE-9A46-E42C13E5816BAE0D" Title="Cholesterol test" Url="http://www.mayoclinic.com/health/cholesterol-test/MY00500" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00077" LinkType="Internal" ObjectID="A6C8C8FE-E7FF-0DBD-186D2682D7969C48" Title="Carotid ultrasound" Url="http://www.mayoclinic.com/health/carotid-ultrasound/MY00077" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00656" LinkType="Internal" ObjectID="8C49C8F4-9D66-1A1D-2C493D48574FF96B" Title="Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty/MY00656" />
+		<LinkItem ContentType="Video" DocID="MM00772" LinkType="Internal" ObjectID="861FBD26-FE10-2D51-FB4BC9E72067F5DB" Title="Video: Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty-and-stenting/MM00772" />
+		<LinkItem ContentType="Answer" DocID="AN01697" LinkType="Internal" ObjectID="8429BE57-E7FF-0DBD-1F25C943280C0BDD" Title="Hyperbaric oxygen therapy: Can it reduce stroke damage?" Url="http://www.mayoclinic.com/health/stroke-therapy/AN01697" />
+		<LinkItem ContentType="FirstAid" DocID="FA00012" LinkType="Internal" ObjectID="13B5DA8E-73E3-4C11-AC092DE32DCD80D0" Title="Stroke: First aid" Url="http://www.mayoclinic.com/health/first-aid-stroke/FA00012" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Article" DocID="MY01266" LinkType="Internal" ObjectID="AA98CBAB-9E7C-71EE-1C043F7B5C927F02" Title="Caregiving: Tips for long-distance caregivers" Url="http://www.mayoclinic.com/health/caregiving/MY01266" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS01030" LinkType="Internal" ObjectID="A78D30C2-E7FF-0DBD-14D50D2855293A85" Title="Carotid artery disease" Url="http://www.mayoclinic.com/health/carotid-artery-disease/DS01030" />
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+		<LinkItem ContentType="Article" DocID="BN00057" LinkType="Internal" ObjectID="43EBB76D-E7FF-0DBD-17AAFFC04B94ED8C" Title="Stroke rehabilitation: What to expect as you recover" Url="http://www.mayoclinic.com/health/stroke-rehabilitation/BN00057" />
+	</RelatedLinksBox>
+</Disease>

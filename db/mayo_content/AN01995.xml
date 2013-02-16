@@ -1,0 +1,123 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01995
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sagging-breasts/AN01995
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-14
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3625" Title="Women&apos;s health">
+						<Keyword MCVID="3898" Title="Breast health" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D3FF9BC1-B244-1489-F5A2C51CF89A4F5D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sagging breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				breast changes
+			</MetaKeyword>
+			<MetaKeyword>
+				dropping breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				droopy breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				breast-feeding
+			</MetaKeyword>
+			<MetaKeyword>
+				breastfeeding
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It&apos;s normal to wonder how breast-feeding will affect your breasts, but take heart. Research has shown that breast-feeding doesn&apos;t negatively affect breast shape or volume.
+&lt;/p&gt;
+&lt;p&gt;
+Still, sagging breasts are a valid concern. During pregnancy, the ligaments that support your breasts may stretch as your breasts get fuller and heavier. This stretching may contribute to sagging breasts after pregnancy &amp;mdash; whether or not you breast-feed your baby. Sagging breasts may be more noticeable with each subsequent pregnancy, especially if you have large breasts.
+&lt;/p&gt;
+&lt;p&gt;
+Other factors also contribute to sagging breasts, including aging and smoking &amp;mdash; both of which reduce skin elasticity. Being overweight can have a similar effect.
+&lt;/p&gt;
+&lt;p&gt;
+Remember, breast-feeding is best for babies. Don&apos;t let a fear of sagging breasts stop you from breast-feeding. To maintain the appearance of your breasts at any stage of life, make healthy lifestyle choices. Include physical activity in your daily routine. Eat a healthy diet. If you smoke, ask your doctor to help you quit.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sagging breasts: Inevitable after breast-feeding?
+	</Title>
+	<Abstract>
+		Sagging breasts are more likely after pregnancy, but breast-feeding isn&apos;t necessarily a contributing factor.
+	</Abstract>
+	<Question>
+		Are sagging breasts inevitable after breast-feeding?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02076" LinkType="Internal" ObjectID="BD35A4B3-FE58-2257-77E675D1A816CB68" Title="Breast lift" Url="http://www.mayoclinic.com/health/breast-lift/MY02076" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00389" LinkType="Internal" ObjectID="780E8328-E7FF-0DBD-1CA57FC34689D860" Title="Breast augmentation" Url="http://www.mayoclinic.com/health/breast-augmentation/MY00389" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00778" LinkType="Internal" ObjectID="5642F4C9-0243-13D3-91B161F6F03C7D26" Title="Breast reduction surgery" Url="http://www.mayoclinic.com/health/breast-reduction-surgery/MY00778" />
+		<LinkItem ContentType="Answer" DocID="AN02139" LinkType="Internal" ObjectID="F1B18C99-C640-0D96-172ABEC0C29CAFA6" Title="Breast implants and cancer: Any connection?" Url="http://www.mayoclinic.com/health/breast-implants-and-cancer/AN02139" />
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+		<LinkItem ContentType="Answer" DocID="AN01689" LinkType="Internal" ObjectID="60E2AA7A-E7FF-0DBD-14D57CB316636F8E" Title="Natural breast enhancement: Does it work?" Url="http://www.mayoclinic.com/health/natural-breast-enhancement/AN01689" />
+		<LinkItem ContentType="Answer" DocID="AN01212" LinkType="Internal" ObjectID="38D54017-166B-4E0D-909D273FAFEF2FB1" Title="Silicone breast implants: What happens if they rupture?" Url="http://www.mayoclinic.com/health/breast-implants/AN01212" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+		<LinkItem ContentType="Disease" DocID="DS01070" LinkType="Internal" ObjectID="61F2033E-E7FF-0DBD-181B1C8E588D18BB" Title="Fibrocystic breasts" Url="http://www.mayoclinic.com/health/fibrocystic-breasts/DS01070" />
+		<LinkItem ContentType="Disease" DocID="DS00760" LinkType="Internal" ObjectID="3FDF1A83-E7FF-0DBD-158B6205148BC15B" Title="Breast pain" Url="http://www.mayoclinic.com/health/breast-pain/DS00760" />
+		<LinkItem ContentType="Article" DocID="WO00052" LinkType="Internal" ObjectID="72668AB3-9D5F-474C-836C33C4128E598B" Title="Breast implants: Saline vs. silicone" Url="http://www.mayoclinic.com/health/breast-implants/WO00052" />
+		<LinkItem ContentType="Article" DocID="WO00031" LinkType="Internal" ObjectID="32348DF9-B0D5-45B9-82D3247C1178ABA0" Title="Breast lump: Early evaluation is essential" Url="http://www.mayoclinic.com/health/breast-lump/WO00031" />
+		<LinkItem ContentType="Article" DocID="WO00091" LinkType="Internal" ObjectID="2654435A-DBB5-4BE7-B8AA88F47D32EF20" Title="Breast cancer prevention: How to reduce your risk" Url="http://www.mayoclinic.com/health/breast-cancer-prevention/WO00091" />
+	</RelatedLinksBox>
+</Answer>

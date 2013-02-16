@@ -1,0 +1,202 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00468
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/beef-stroganoff/NU00468
+		</OriginalURL>
+		<UpdateDate>
+			2009-08-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			19BF3A4E-7BED-47F6-BBE0D0691F683AB6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Beef stroganoff
+	</Title>
+	<Abstract>
+		Beef stroganoff &amp;mdash; a healthy recipe from Mayo Clinic to help you enjoy a healthy diet.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Instead of egg noodles, serve this beef stroganoff over rice pilaf &amp;mdash; a Middle Eastern dish with sauteed rice or other grains, seasonings and various vegetables.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a nonstick frying pan, saute the onions over medium heat until they&apos;re translucent, about 5 minutes. Add the beef and continue to cook for another 5 minutes or until the beef is tender and browned throughout. Drain well and set aside.
+&lt;/p&gt;
+&lt;p&gt;
+Fill a large pot 3/4 full with water and bring to a boil. Add the noodles and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly.
+&lt;/p&gt;
+&lt;p&gt;
+In a saucepan, whisk together the soup, water and flour over medium heat. Stir until the sauce thickens, about 5 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+Add the soup mixture and paprika to the beef in the frying pan. Over medium heat, stir the mixture until warmed through. Remove from heat and add the sour cream. Stir until combined.
+&lt;/p&gt;
+&lt;p&gt;
+To serve, divide the pasta among the plates. Top with the beef mixture and serve immediately.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+1/2 cup chopped onion&lt;br /&gt;
+1/2 pound boneless beef round steak, cut 3/4-inch thick, all fat removed&lt;br /&gt;
+4 cups uncooked yolkless egg noodles&lt;br /&gt;
+1/2 can fat-free cream of mushroom soup (undiluted)&lt;br /&gt;
+1/2 cup of water&lt;br /&gt;
+1 tablespoon all-purpose (plain) flour&lt;br /&gt;
+1/2 teaspoon paprika&lt;br /&gt;
+1/2 cup fat-free sour cream
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				2
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				2
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				302
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				38 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				83 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				24 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				307 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				6 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Pasta
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="" height="100" uri="/images/billboardsmall/re1_beefstroganoff.jpg" width="100" />
+</Recipe>

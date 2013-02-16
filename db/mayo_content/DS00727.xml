@@ -1,0 +1,372 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00727
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-murmurs/DS00727
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="2527" Title="Heart murmur" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			934C1A15-2A5D-9994-E62A0AD369FFE1FF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart murmurs
+			</MetaKeyword>
+			<MetaKeyword>
+				heart murmur
+			</MetaKeyword>
+			<MetaKeyword>
+				innocent murmur
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal murmur
+			</MetaKeyword>
+			<MetaKeyword>
+				functional murmur
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart murmurs are abnormal sounds during your heartbeat cycle &amp;mdash; such as whooshing or swishing &amp;mdash; made by turbulent blood in or near your heart. These sounds can be heard with a stethoscope. A normal heartbeat makes two sounds like &quot;lubb-dupp&quot; (sometimes described as &quot;lub-DUP&quot;), which are the sounds of your heart valves closing. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart murmurs can be present at birth (congenital) or develop later in life. A heart murmur isn&apos;t a disease &amp;mdash; but murmurs may indicate an underlying heart problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Most heart murmurs are harmless (innocent) and don&apos;t need treatment. Some heart murmurs may require follow-up tests to be sure the murmur isn&apos;t caused by a serious underlying heart condition. Treatment, if needed, is directed at the cause of your heart murmurs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a harmless heart murmur, more commonly known as an innocent heart murmur, you likely won&apos;t have any other signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+An abnormal heart murmur may cause no obvious other signs, aside from the unusual sound your doctor hears when listening to your heart with a stethoscope. But if you have these signs or symptoms, they may indicate a heart problem: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin that appears blue, especially on your fingertips and lips&lt;/li&gt;
+	&lt;li&gt;Swelling or sudden weight gain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chronic cough&lt;/li&gt;
+	&lt;li&gt;Enlarged liver&lt;/li&gt;
+	&lt;li&gt;Enlarged neck veins&lt;/li&gt;
+	&lt;li&gt;Poor appetite and failure to grow normally (in infants)&lt;/li&gt;
+	&lt;li&gt;Heavy sweating with minimal or no exertion&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Most heart murmurs aren&apos;t serious, but if you think you or your child has a heart murmur, make an appointment to see your family doctor. Your doctor can tell you if your heart murmur is innocent and doesn&apos;t require any further treatment or if an underlying heart problem needs to be further examined. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are two types of heart murmurs: innocent murmurs and abnormal murmurs. A person with an innocent murmur has a normal heart. This type of heart murmur is common in newborns and children. 
+&lt;/p&gt;
+&lt;p&gt;
+An abnormal heart murmur is more serious. In children, abnormal murmurs are usually caused by congenital heart disease. In adults, abnormal murmurs are most often due to acquired heart valve problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Innocent heart murmurs&lt;/strong&gt;&lt;br /&gt;
+An innocent murmur can occur when blood flows more rapidly through the heart. Conditions that may cause rapid blood flow through your heart, resulting in an innocent heart murmur, are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical activity or exercise&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Changes in your heart&apos;s structure, such as changes from heart surgery&lt;/li&gt;
+	&lt;li&gt;Not having enough healthy red blood cells to carry adequate oxygen to your body tissues (anemia)&lt;/li&gt;
+	&lt;li&gt;An excessive amount of thyroid hormone in your body (hyperthyroidism)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Changes to the heart due to aging or heart surgery may also cause an innocent heart murmur. Innocent heart murmurs may disappear over time, or they may last your entire life without ever causing further health problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Abnormal heart murmurs&lt;/strong&gt;&lt;br /&gt;
+Although most heart murmurs aren&apos;t serious, some may result from a heart problem. The most common cause of abnormal murmurs in children is when babies are born with structural problems of the heart (congenital heart defect). Common congenital defects that cause heart murmurs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Holes in the heart or cardiac shunts.&lt;/strong&gt; Many heart murmurs in children are the result of holes in the walls between heart chambers, known as septal defects. These may or may not be serious, depending on the size of the hole and its location. Shunts occur when there&apos;s an abnormal blood flow between the heart chambers or blood vessels, which may lead to a heart murmur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart valve abnormalities.&lt;/strong&gt; Congenital heart valve abnormalities are present at birth, but sometimes aren&apos;t discovered until much later in life. Examples include valves that don&apos;t allow enough blood through them (stenosis) or those that don&apos;t close properly and leak (regurgitation).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other causes of abnormal heart murmurs include infections and conditions that damage the structures of the heart and are more common in older children or adults. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatic fever.&lt;/strong&gt; Although rare in the United States, rheumatic fever is a serious condition that can occur when you don&apos;t receive prompt or complete treatment for a strep throat infection. Untreated rheumatic fever can permanently affect the heart valves and interfere with normal blood flow through your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endocarditis.&lt;/strong&gt; This is an infection and inflammation of the inner lining of your heart and valves. Endocarditis typically occurs when bacteria or other germs from another part of your body, such as your mouth, spread through your bloodstream and lodge in your heart. Left untreated, endocarditis can damage or destroy your heart valves. This condition usually occurs in people who already have heart abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valve calcification.&lt;/strong&gt; This hardening or thickening of valves, called mitral or aortic valve stenosis, can occur as you age. These valves may become narrowed (stenotic), making it harder for blood to flow through your heart, resulting in murmurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mitral valve prolapse.&lt;/strong&gt; In this condition, the valve between your heart&apos;s left upper chamber (left atrium) and the left lower chamber (left ventricle) doesn&apos;t close properly. When the left ventricle contracts, the valve&apos;s leaflets bulge (prolapse) upward or back into the atrium, which may cause a murmur.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t any risk factors for developing an innocent heart murmur. 
+&lt;/p&gt;
+&lt;p&gt;
+There are risk factors that increase your chance of having an underlying condition that can cause a heart murmur from birth. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of a heart defect.&lt;/strong&gt; If blood relatives have had a heart defect, that increases the likelihood you or your child may also have a heart defect and heart murmur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Illnesses during pregnancy.&lt;/strong&gt; Having some conditions during pregnancy, such as uncontrolled diabetes or a rubella infection, increases your baby&apos;s risk of developing heart defects and a heart murmur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking certain medications or illegal drugs during pregnancy.&lt;/strong&gt; Use of certain medications, alcohol or drugs can harm a developing baby, leading to heart defects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Factors that can increase your risk of a heart murmurs later in life include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Uncontrolled high blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;A history of rheumatic fever&lt;/li&gt;
+	&lt;li&gt;Past radiation treatment involving the chest&lt;/li&gt;
+	&lt;li&gt;A previous infection of the lining of the heart (endocarditis)&lt;/li&gt;
+	&lt;li&gt;A past heart attack&lt;/li&gt;
+	&lt;li&gt;High blood pressure in the lungs (pulmonary hypertension)&lt;/li&gt;
+	&lt;li&gt;A weakened heart muscle, which is sometimes caused by a condition known as cardiomyopathy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you or your child has a heart murmur, make an appointment to see your family doctor. Although most heart murmurs are harmless, it&apos;s a good idea to rule out any underlying heart problems that could be serious. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there are any advance preparations. For example, if you&apos;re having a certain type of echocardiogram, you may need to fast for several hours before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you or your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to heart murmurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart murmurs, heart rhythm problems, heart defects, coronary artery disease, genetic disorders, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who comes along with you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; diet and exercise habits. If you or your child doesn&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with the doctor is limited, so preparing a list of questions can help you make the most of your time together. For heart murmurs, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of the heart murmur?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for the heart murmur?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are necessary?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment or follow-up care?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;How should health conditions other than the heart murmur be managed?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or exercise restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;If surgery is necessary, which surgeon do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your child first have symptoms?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to make your symptoms better?&lt;/li&gt;
+	&lt;li&gt;Does anything make the symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Have you ever noticed a bluish discoloration of the skin?&lt;/li&gt;
+	&lt;li&gt;Do you have shortness of breath? When does this happen?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Have you had chest pain?&lt;/li&gt;
+	&lt;li&gt;Have you had swelling in your legs?&lt;/li&gt;
+	&lt;li&gt;How do you feel when you exercise?&lt;/li&gt;
+	&lt;li&gt;Have you ever used illicit drugs?&lt;/li&gt;
+	&lt;li&gt;Have you ever had rheumatic fever?&lt;/li&gt;
+	&lt;li&gt;Does anyone else in the family have a heart murmur or a heart valve problem?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart murmurs are usually detected when your doctor listens to your heart using a stethoscope during a physical exam. 
+&lt;/p&gt;
+&lt;p&gt;
+To check whether the murmur is innocent or abnormal, your doctor will consider: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;How loud is it?&lt;/strong&gt; This is rated on a scale from 1 to 6, with 6 being the loudest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Where in your heart is it?&lt;/strong&gt; And can it be heard in your neck or back?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What pitch is it?&lt;/strong&gt; Is it high-, medium- or low-pitched?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What affects the sound?&lt;/strong&gt; If you change your body position or exercise, does it affect the sound?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When does it occur, and for how long?&lt;/strong&gt; If your murmur happens when your heart is filling with blood (diastolic murmur) or throughout the heartbeat (continuous murmur), that may mean you have a heart problem. You or your child will need more tests to find out what the problem is.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will also look for other signs and symptoms of heart problems and ask about your medical history and whether other family members have had heart murmurs or other heart conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt;&lt;br /&gt;
+If the doctor thinks the heart murmur is abnormal, you or your child may need additional tests including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; A chest X-ray shows an image of your heart, lungs and blood vessels. It can reveal if your heart is enlarged, which may mean an underlying condition is causing your heart murmur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, a technician will place probes on your chest that record the electrical impulses that make your heart beat. An ECG records these electrical signals and can help your doctor look for heart rhythm and structure problems.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Transthoracic or transesophageal echocardiogram.&lt;/strong&gt; This exam, which includes an ultrasound of your chest, shows detailed images of your heart&apos;s structure and function. Ultrasound waves are transmitted, and their echoes are recorded with a device called a transducer that&apos;s held outside your body. A computer uses the information from the transducer to create moving images on a video monitor. This test identifies abnormal heart valves, such as those that are hardened (calcified) or leaking, and can also detect most heart defects. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If the images from a transthoracic echocardiogram are unclear, the doctor may recommend a transesophageal ultrasound. During this exam, a flexible tube containing a small transducer about the size of your index finger is guided down your throat. The transducer will transmit images of your heart to a computer monitor. Since the esophagus passes close behind your heart, the transesophageal transducer can produce better images than can sound waves transmitted through your chest. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, a short tube (sheath) is inserted into a vein or artery at the top of your leg (groin) or arm. A hollow, flexible and longer tube (guide catheter) is then inserted into the sheath. Aided by X-ray images on a monitor, your doctor threads the guide catheter through that artery until it reaches your heart. The pressures in your heart chambers can be measured, and dye can be injected. The dye can be seen on an X-ray, which helps your doctor see the blood flow through your heart, blood vessels and valves to check for problems. This test generally isn&apos;t necessary when diagnosing the cause of a heart murmur.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Cardiac computerized tomography (CT) or magnetic resonance imaging (MRI)&lt;strong&gt;.&lt;/strong&gt;&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;These tests can help diagnose heart problems and detect heart murmurs. In a cardiac CT scan, you lie on a table inside a doughnut-shaped machine. An X-ray tube inside the machine rotates around your body and collects images of your heart and chest. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In a cardiac MRI, you lie on a table inside a long tube-like machine that produces a magnetic field. The magnetic field aligns atomic particles in some of your cells. When radio waves are broadcast toward these aligned particles, they produce signals that vary according to the type of tissue they are. Images of your heart are created from these signals, which your doctor will look at to determine the cause of your heart murmur. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An innocent heart murmur generally doesn&apos;t require treatment because the heart is normal. If innocent murmurs are the result of an illness, such as fever or hyperthyroidism, the murmurs will go away once that condition is treated. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child has an abnormal heart murmur, treatment may not be necessary. Your doctor may want to monitor the condition over time. If treatment is necessary, it depends on what heart problem is causing the murmur and may include medications or surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+The medication your doctor prescribes depends on the specific heart problem you have. Some medications your doctor might give you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Digoxin (Lanoxin).&lt;/strong&gt; Digoxin is a medication that helps your heart squeeze harder, which can help if your heart murmur is caused by an underlying condition that weakens your heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that prevent blood clots (anticoagulants).&lt;/strong&gt; Your doctor may also prescribe anticoagulants, such as aspirin, warfarin (Coumadin, Jantoven) or clopidogrel (Plavix). This prevents blood clots from forming in your heart and causing a heart attack or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Water pills (diuretics).&lt;/strong&gt; Diuretics remove excess fluid from your body, which can help treat other conditions that might worsen a heart murmur, such as high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors.&lt;/strong&gt; ACE inhibitors lower your blood pressure. High blood pressure can worsen underlying conditions that cause heart murmurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Statins.&lt;/strong&gt; Statins help lower your cholesterol. Having high cholesterol seems to worsen some heart valve problems, including some heart murmurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These drugs lower your heart rate and blood pressure. They are used for some types of heart valve problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery or catheterization&lt;/strong&gt;&lt;br /&gt;
+Surgical or catheterization options also depend on your specific heart problem. Although open-heart surgery may be needed, sometimes the cause of the heart murmur is treated by inserting a catheter through an artery in your groin and threading the catheter through your veins to your heart to treat your condition (cardiac catheterization). Examples of procedures include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Patching a hole in your heart&lt;/li&gt;
+	&lt;li&gt;Fixing or replacing a valve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Doctors used to recommend that most people with abnormal heart murmurs take antibiotics before visiting the dentist or having surgery. That&apos;s usually not the case anymore. Most people with heart murmurs won&apos;t need antibiotics. If you have questions about whether or not you should take antibiotics, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While there&apos;s not much you can do to prevent a heart murmur, it is reassuring to know that heart murmurs are not a disease and are often harmless. For children, many murmurs go away on their own as they grow. For adults, murmurs may disappear as the underlying condition causing them improves. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart murmurs
+	</Title>
+	<Abstract>
+		Heart murmurs &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of abnormal heart sounds.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+	</RelatedLinksBox>
+</Disease>

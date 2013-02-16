@@ -1,0 +1,341 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00678
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mastitis/DS00678
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-18
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2374" Title="Breast">
+						<Keyword MCVID="2680" Title="Mastitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D14E4C3B-2A5D-9994-E0CFFFE100D585B8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast infection
+			</MetaKeyword>
+			<MetaKeyword>
+				mastitis
+			</MetaKeyword>
+			<MetaKeyword>
+				breastfeeding
+			</MetaKeyword>
+			<MetaKeyword>
+				breast feeding
+			</MetaKeyword>
+			<MetaKeyword>
+				breast pain
+			</MetaKeyword>
+			<MetaKeyword>
+				lactation
+			</MetaKeyword>
+			<MetaKeyword>
+				matitis
+			</MetaKeyword>
+			<MetaKeyword>
+				masitis
+			</MetaKeyword>
+			<MetaKeyword>
+				red breast
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen breast
+			</MetaKeyword>
+			<MetaKeyword>
+				painful breast
+			</MetaKeyword>
+			<MetaKeyword>
+				breast tenderness
+			</MetaKeyword>
+			<MetaKeyword>
+				tender breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				breast soreness
+			</MetaKeyword>
+			<MetaKeyword>
+				sore breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				pain in breast
+			</MetaKeyword>
+			<MetaKeyword>
+				warm breast
+			</MetaKeyword>
+			<MetaKeyword>
+				breast and fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mastitis is an infection of the breast tissue that results in breast pain, swelling, warmth and redness of the breast. If you have mastitis, you might also experience fever and chills. Mastitis most commonly affects women who are breast-feeding (lactation mastitis), although sometimes this condition can occur in women who aren&apos;t breast-feeding.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, lactation mastitis occurs within the first three months after giving birth (postpartum), but it can happen later during breast-feeding. The condition can leave you feeling exhausted and run-down, making it difficult to care for your baby.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes mastitis leads a mother to wean her baby before she intends to. But you can continue breast-feeding while you have mastitis.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a woman with mastitis" Caption="Mastitis, which mainly affects breast-feeding women, causes redness, swelling and pain in one breast." Height="60" Title="Mastitis" URI="/images/image_popup/thumbs/w7_mastitisthu.jpg" Width="60" />
+				<Image Alt="Photo of a woman with mastitis" Caption="Mastitis, which mainly affects breast-feeding women, causes redness, swelling and pain in one breast." Height="400" Title="Mastitis" URI="/images/image_popup/w7_mastitis.jpg" Width="400" />
+				<HTML>
+					Mastitis, which mainly affects breast-feeding women, causes redness, swelling and pain in one breast....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With mastitis, signs and symptoms can appear suddenly and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast tenderness or warmth to the touch&lt;/li&gt;
+	&lt;li&gt;Generally feeling ill (malaise)&lt;/li&gt;
+	&lt;li&gt;Swelling of the breast&lt;/li&gt;
+	&lt;li&gt;Pain or a burning sensation continuously or while breast-feeding&lt;/li&gt;
+	&lt;li&gt;Skin redness, often in a wedge-shaped pattern&lt;/li&gt;
+	&lt;li&gt;Fever of 101 F (38.3 C) or greater&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although mastitis usually occurs in the first several weeks of breast-feeding, it can happen anytime during breast-feeding. Lactation mastitis tends to affect only one breast &amp;mdash; not both breasts.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+In most cases, you&apos;ll feel ill with flu-like symptoms for several hours before you recognize that there&apos;s a sore red area on one of your breasts. As soon as you recognize this combination of signs and symptoms, it&apos;s time to contact your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will probably want to see you to confirm the diagnosis. Oral antibiotics are usually very effective in treating this condition. If you&apos;ve had mastitis before, your doctor may prescribe antibiotics over the phone. If your signs and symptoms don&apos;t improve after the first two days of taking antibiotics, see your doctor right away to make sure your condition isn&apos;t the result of a more serious problem.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mastitis may be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A blocked milk duct.&lt;/strong&gt; If a breast doesn&apos;t completely empty at feedings, one of your milk ducts can become clogged, causing milk to back up, which leads to breast infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria entering your breast.&lt;/strong&gt; Bacteria from your skin&apos;s surface and baby&apos;s mouth can enter the milk ducts through a break or crack in the skin of your nipple or through a milk duct opening. Bacteria can multiply, leading to infection. These germs aren&apos;t harmful to your baby &amp;mdash; everyone has them. They just don&apos;t belong in your breast tissues.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for mastitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast-feeding during the first few weeks after childbirth&lt;/li&gt;
+	&lt;li&gt;Sore or cracked nipples, although mastitis can develop without broken skin&lt;/li&gt;
+	&lt;li&gt;Using only one position to breast-feed, which may not fully drain your breast&lt;/li&gt;
+	&lt;li&gt;Wearing a tightfitting bra, which may restrict milk flow&lt;/li&gt;
+	&lt;li&gt;Becoming overly tired (fatigued)&lt;/li&gt;
+	&lt;li&gt;Previous bout of mastitis while breast-feeding &amp;mdash; if you&apos;ve experienced mastitis in the past, you&apos;re more likely to experience it again&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When mastitis isn&apos;t adequately treated, or it&apos;s related to a blocked duct, a collection of pus (abscess) can develop in your breast. An abscess usually requires surgical drainage. To avoid this complication, talk to your doctor as soon as you develop signs or symptoms of mastitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For mastitis, your first appointment will likely be with your regular health care provider, such as an obstetrician-gynecologist, family doctor or nurse practitioner. For problems related to breast-feeding, you may be referred to a lactation consultant.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+To prepare for your appointment:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take note of all your symptoms,&lt;/strong&gt; even if they seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Review key personal information,&lt;/strong&gt; including major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you regularly take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor,&lt;/strong&gt; listing them from most important to least important in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For mastitis, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Will my infection clear on its own or will I need treatment?&lt;/li&gt;
+	&lt;li&gt;What can I do at home to relieve my symptoms?&lt;/li&gt;
+	&lt;li&gt;How might my condition affect my baby?&lt;/li&gt;
+	&lt;li&gt;Is there any reason why I should stop breast-feeding my baby?&lt;/li&gt;
+	&lt;li&gt;I&apos;m still breast-feeding. Is the medication you&apos;re prescribing safe to take while breast-feeding?&lt;/li&gt;
+	&lt;li&gt;How long will I have to take the medication?&lt;/li&gt;
+	&lt;li&gt;What are the chances that the infection will recur? What can I do to minimize my risk of recurrence?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask you questions about:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long you&apos;ve experienced symptoms&lt;/li&gt;
+	&lt;li&gt;Whether you experience any breast pain and the severity of your pain&lt;/li&gt;
+	&lt;li&gt;Whether symptoms occur in one or both breasts&lt;/li&gt;
+	&lt;li&gt;Your breast-feeding technique&lt;/li&gt;
+	&lt;li&gt;Whether you&apos;ve had previous breast infections&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor diagnoses mastitis based on a physical exam, taking into account signs and symptoms of fever, chills and a painful area in the breast. Another clear sign is a wedge-shaped area on the breast that points toward the nipple and is tender to the touch. As part of the exam, your doctor will make sure you don&apos;t have a breast abscess &amp;mdash; a complication that can occur when mastitis isn&apos;t treated promptly.
+&lt;/p&gt;
+&lt;p&gt;
+A rare form of breast cancer &amp;mdash; inflammatory breast cancer &amp;mdash; also can cause redness and swelling that could initially be confused with mastitis. Your doctor may recommend a diagnostic mammogram, and you may need a biopsy to make sure you don&apos;t have breast cancer.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mastitis treatment usually involves:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Treating mastitis usually requires a 10- to 14-day course of antibiotics. You may feel well again 24 to 48 hours after starting antibiotics, but it&apos;s important to take the entire course of medication to minimize your chance of recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; While waiting for the antibiotic to take effect, your doctor may recommend a mild pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjustments to your breast-feeding technique.&lt;/strong&gt; Make sure that you fully empty your breasts during breast-feeding and that your infant latches on correctly. Your doctor may review your breast-feeding technique with you or may refer you to a lactation consultant for help and ongoing support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Self-care.&lt;/strong&gt; Rest, continue breast-feeding and drink extra fluids to help your body fight the breast infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your mastitis doesn&apos;t clear up after taking antibiotics, check back with your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have mastitis, it&apos;s safe to continue breast-feeding. Continuing breast-feeding offers the added benefit of helping clear the infection in your breast.
+&lt;/p&gt;
+&lt;p&gt;
+To relieve your discomfort:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maintain your breast-feeding routine&lt;/li&gt;
+	&lt;li&gt;Get as much rest as possible&lt;/li&gt;
+	&lt;li&gt;Avoid prolonged overfilling of your breast with milk (engorgement) before breast-feeding&lt;/li&gt;
+	&lt;li&gt;Use varied positions to breast-feed&lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids&lt;/li&gt;
+	&lt;li&gt;If you have trouble emptying a portion of your breast, apply warm compresses to the breast or take a warm shower before breast-feeding or pumping milk&lt;/li&gt;
+	&lt;li&gt;Wear a supportive bra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If breast-feeding on the infected breast is too painful or your infant refuses to nurse on that breast, try pumping or hand-expressing milk.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To get your breast-feeding relationship with your infant off to its best start &amp;mdash; and to avoid complications such as mastitis &amp;mdash; consider making an appointment with a lactation consultant. A lactation consultant can give you tips and provide invaluable advice for proper breast-feeding technique.
+&lt;/p&gt;
+&lt;p&gt;
+Minimize your chances of getting mastitis by following these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fully drain the milk from your breasts while breast-feeding.&lt;/li&gt;
+	&lt;li&gt;Allow your baby to completely empty one breast before switching to the other breast during feeding.&lt;/li&gt;
+	&lt;li&gt;If your baby nurses for only a few minutes on the second breast &amp;mdash; or not at all &amp;mdash; start breast-feeding on that breast the next time you feed your baby.&lt;/li&gt;
+	&lt;li&gt;Alternate the breast you offer first at each feeding.&lt;/li&gt;
+	&lt;li&gt;Change the position you use to breast-feed from one feeding to the next.&lt;/li&gt;
+	&lt;li&gt;Make sure your baby latches on properly during feedings.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t let your baby use your breast as a pacifier. Babies enjoy sucking and often find comfort in suckling at the breast even when they&apos;re not hungry.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mastitis
+	</Title>
+	<Abstract>
+		Mastitis &amp;mdash; Comprehensive overview covers symptoms, self-care and treatment for this common breast-feeding complication.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+	</RelatedLinksBox>
+</Disease>

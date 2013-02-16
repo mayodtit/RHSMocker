@@ -1,0 +1,346 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00989
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shy-drager-syndrome/DS00989
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2325" Title="Autonomic">
+						<Keyword MCVID="2327" Title="Multiple system atrophy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3478256F-E7FF-0DBD-19D5EA9E8F064B90
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Shy-Drager syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple system atrophy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple system atrophy (MSA) is a rare neurological disorder that impairs your body&apos;s involuntary (autonomic) functions, including blood pressure, heart rate, bladder function and digestion. Formerly called Shy-Drager syndrome, the condition shares many Parkinson&apos;s disease-like symptoms, such as slowness of movement, muscle rigidity and poor balance. 
+&lt;/p&gt;
+&lt;p&gt;
+Multiple system atrophy is a degenerative disease that develops in adulthood, usually in the 50s or 60s, and affects more men than women. The condition progresses gradually and eventually leads to death. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for MSA includes medications and lifestyle changes to help manage symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple system atrophy is so named because its signs and symptoms affect multiple parts of your body. Previously called Shy-Drager syndrome, MSA is classified by two types: parkinsonian and cerebellar, depending on which types of symptoms predominate at the time of evaluation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Parkinsonian type&lt;br /&gt;
+&lt;/strong&gt;Predominant signs and symptoms are those of Parkinson&apos;s disease, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rigid muscles and difficulty bending your arms and legs&lt;/li&gt;
+	&lt;li&gt;Slow movement (bradykinesia)&lt;/li&gt;
+	&lt;li&gt;Tremors (rare in MSA compared with classic Parkinson&apos;s disease)&lt;/li&gt;
+	&lt;li&gt;Impaired posture and balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cerebellar type&lt;br /&gt;
+&lt;/strong&gt;Predominant signs and symptoms are lack of muscle coordination (ataxia). Signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Impairment of movement and coordination, such as unsteady gait and loss of balance&lt;/li&gt;
+	&lt;li&gt;Slurred, slow or low-volume speech (dysarthria)&lt;/li&gt;
+	&lt;li&gt;Visual disturbances, such as blurred vision and difficulty focusing your eyes&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing (dysphagia) or chewing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;General signs and symptoms&lt;br /&gt;
+&lt;/strong&gt;In addition, the primary sign of multiple system atrophy is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Postural (orthostatic) hypotension, a form of low blood pressure that makes you feel dizzy or lightheaded, or even faint, when you stand up from sitting or lying down. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You also can develop dangerously high blood pressure levels while lying down.
+&lt;/p&gt;
+&lt;p&gt;
+People with multiple system atrophy may have other difficulties with body functions that occur voluntarily (autonomic), including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Impotence and loss of libido (in men)&lt;/li&gt;
+	&lt;li&gt;Loss of bladder or bowel control (incontinence)&lt;/li&gt;
+	&lt;li&gt;A reduction in the production of perspiration, tears and saliva&lt;/li&gt;
+	&lt;li&gt;Impaired control of body temperature, often causing cold hands or feet as well as heat intolerance due to impaired sweating&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Difficulty controlling emotions&lt;/li&gt;
+	&lt;li&gt;Agitated sleep due to &quot;acting out&quot; one&apos;s dreams&lt;/li&gt;
+	&lt;li&gt;Abnormal breathing at night&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you develop any of the signs and symptoms associated with multiple system atrophy, see your doctor for an evaluation and diagnosis. If you&apos;ve already been diagnosed with the condition, contact your doctor if new symptoms occur or if existing symptoms worsen.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known cause for brain changes in multiple system atrophy. Some researchers are studying whether there&apos;s an inherited component or environmental toxin involved in the disease process, but there&apos;s no substantial evidence to support these theories. 
+&lt;/p&gt;
+&lt;p&gt;
+MSA is associated with deterioration and shrinkage (atrophy) of portions of your brain (cerebellum, basal ganglia and brainstem) that regulate internal body functions, digestion and motor control. 
+&lt;/p&gt;
+&lt;p&gt;
+Evaluation under a microscope of damaged brain tissue of people with MSA reveals nerve cells (neurons) that contain an abnormal amount of a protein called alpha-synuclein. Some research suggests that this protein may be overexpressed in multiple system atrophy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The rate of progression of multiple system atrophy varies from person to person, but the condition does not go into remission. As the disorder progresses, daily activities become increasingly difficult. 
+&lt;/p&gt;
+&lt;p&gt;
+You may experience the following complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breathing abnormalities during sleep&lt;/li&gt;
+	&lt;li&gt;Injuries from falls associated with impaired walking or fainting&lt;/li&gt;
+	&lt;li&gt;Progressive immobility that can lead to secondary problems such as a breakdown of your skin&lt;/li&gt;
+	&lt;li&gt;Loss of ability to care for yourself in day-to-day activities (from bathing to brushing teeth)&lt;/li&gt;
+	&lt;li&gt;Vocal cord paralysis, which makes speech and breathing difficult&lt;/li&gt;
+	&lt;li&gt;Increased difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People typically live about six to 10 years after multiple system atrophy symptoms first appear, although some people with this condition have lived 15 years or longer. Death is often due to respiratory problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor, but you may be referred to a doctor who specializes in the diagnosis and treatment of conditions that affect the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. Include all recent changes you&apos;ve noticed in your physical or emotional well-being, even if they seem secondary to your main concern. For example, if you or your loved ones have noticed your moods shifting more quickly than in the past, share this with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed, and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any changes in your sex life, such as reduced interest in sex or difficulty getting an erection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For multiple system atrophy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms, such as Parkinson&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;How will you make a firm diagnosis?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment options are available for multiple system atrophy?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of those treatment options?&lt;/li&gt;
+	&lt;li&gt;How is my condition likely to progress?&lt;/li&gt;
+	&lt;li&gt;Will treatment slow the progression of my illness or simply relieve symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there self-care steps that could help ease my symptoms?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my health over time?&lt;/li&gt;
+	&lt;li&gt;Do I need to adjust the medications I&apos;m taking for other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you feel lightheaded or dizzy when you stand up?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include any emotional changes, such as swinging between laughter and tears?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your voice?&lt;/li&gt;
+	&lt;li&gt;Have you been told that you snore loudly or have interrupted breathing while sleeping?&lt;/li&gt;
+	&lt;li&gt;Have you had problems with bladder control?&lt;/li&gt;
+	&lt;li&gt;Have you been constipated?&lt;/li&gt;
+	&lt;li&gt;Have you had any sexual problems, such as reduced libido or impotence?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty chewing or swallowing?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Do you have any movement problems, such as slowness or poor coordination?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of Parkinson&apos;s disease or other neurological disease?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with neurological disorders such as Parkinson&apos;s or Huntington&apos;s disease. Multiple system atrophy is not known to be an inherited condition, so a family history of a condition with similar symptoms may help your doctor rule out MSA. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of multiple system atrophy can be challenging because there&apos;s no test that can make or confirm the diagnosis. At the same time, certain signs and symptoms of MSA &amp;mdash; such as muscle rigidity and unsteady gait &amp;mdash; also occur with other disorders, such as Parkinson&apos;s disease, making the diagnosis more difficult. As a result, some people are never properly diagnosed, although doctors are increasingly aware of the disease and, thus, more likely to identify its symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects multiple system atrophy, he or she will obtain a medical history, perform a physical examination, and possibly order blood tests and brain-imagining scans, such as an MRI, to determine whether brain lesions are present that may be triggering symptoms. You may receive a referral to a neurologist or other specialist for specific evaluations that can help in making the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tilt table test&lt;br /&gt;
+&lt;/strong&gt;One procedure that can aid in the diagnostic process is a tilt table test to help determine if you have a problem with blood pressure control. In this procedure, you&apos;re placed on a motorized table and strapped in place. Then the table is tilted upward so that your body is nearly vertical. 
+&lt;/p&gt;
+&lt;p&gt;
+Throughout this maneuver, your blood pressure and heart rate are monitored. The findings can document not only the extent of blood pressure irregularities, but also whether they occur with a change in physical position. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to assess autonomic functions&lt;br /&gt;
+&lt;/strong&gt;Doctors may order certain other tests, to determine how your body is functioning. Tests to assess your body&apos;s involuntary functions may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood pressure measurement, lying down and standing&lt;/li&gt;
+	&lt;li&gt;A sweat test to evaluate perspiration&lt;/li&gt;
+	&lt;li&gt;Eye exam&lt;/li&gt;
+	&lt;li&gt;Tests to assess your bladder and bowel function&lt;/li&gt;
+	&lt;li&gt;Electrocardiogram to track the electrical signals of your heart&lt;/li&gt;
+	&lt;li&gt;Nerve and muscular examination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have sleep irregularities, particularly if they involve interrupted breathing or snoring, your doctor may recommend having you evaluated in a sleep laboratory to determine if you have an underlying and treatable sleep disorder, such as sleep apnea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for multiple system atrophy. Management of the disease involves treating signs and symptoms to make you as comfortable as possible and to maintain your body functions and capabilities. 
+&lt;/p&gt;
+&lt;p&gt;
+To treat specific signs and symptoms, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications to raise blood pressure.&lt;/strong&gt; Medications such as the corticosteroid fludrocortisone can increase your blood pressure by leading to more retention of salt and water. This drug, which is a steroid, is often prescribed on a twice-a-day regimen. The drug pyridostigmine (Mestinon) can raise your standing blood pressure without increasing your blood pressure while you&apos;re lying down.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Other medications to increase standing pressure, such as midodrine (Orvaten, Proamatine), are available and can raise your blood pressure quickly; however, midodrine has been shown to elevate pressure while lying down, which can increase the risk of stroke in some people. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications to reduce Parkinson&apos;s-like signs and symptoms.&lt;/strong&gt; Certain anti-Parkinson&apos;s medications, such as combined levodopa and carbidopa (Sinemet, Parcopa), can be used to reduce Parkinson&apos;s-like signs and symptoms, such as stiffness, balance problems and slowness of movement, as well as improve an overall feeling of well-being.
+	&lt;/p&gt;
+	&lt;p&gt;
+	However, not everyone with multiple system atrophy responds to Parkinson&apos;s drugs, and the effectiveness of these medications may decline after a few years of therapy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pacemaker.&lt;/strong&gt; Your doctor may advise implanting a heart pacemaker to keep your heart beating at a rapid pace, which can increase your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impotence drugs.&lt;/strong&gt; Impotence can be treated with a variety of drugs, such as sildenafil (Revatio, Viagra), designed to manage erectile dysfunction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steps to manage swallowing and breathing difficulties.&lt;/strong&gt; If you have difficulty swallowing, try eating softer foods. If swallowing or breathing becomes increasingly problematic, you may need a feeding tube or breathing tube inserted surgically to manage the problem. Late in the disease process, you may require a tube (gastrostomy tube) that delivers food directly into your stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder care.&lt;/strong&gt; If you&apos;re experiencing bladder control problems, medications can help in the earlier stages. Eventually, when the disease becomes advanced, you may need to have a soft tube (catheter) inserted permanently to allow you to drain your bladder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A physical therapist can help you maintain as much of your motor and muscle capacity as possible as the disorder progresses. A speech-language pathologist can help you learn to improve or maintain your speaking ability. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors often advise using certain self-care measures to help minimize symptoms associated with multiple system atrophy, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take steps to raise your blood pressure.&lt;/strong&gt; Add a little salt to the diet and drink more fluids. Salt and fluids can increase blood volume and thus raise your blood pressure. Drink coffee and other caffeinated fluids to raise your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate the head of your bed.&lt;/strong&gt; Raising the head of your bed to about a 30-degree angle will minimize increases in blood pressure when you sleep. Get up slowly from a reclining position.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make dietary changes.&lt;/strong&gt; Add more fiber to your diet in order to ease constipation. You may also benefit from over-the-counter laxatives. Avoid alcohol, and consume small meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid getting too hot.&lt;/strong&gt; Stay in air-conditioned rooms on very hot days. Avoid excessive amounts of heat in the bathroom when bathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear elastic support stockings up to your waist.&lt;/strong&gt; This can help keep your blood pressure from dropping.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Multiple system atrophy (MSA)
+	</Title>
+	<Abstract>
+		Multiple system atrophy &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this neurological disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+	</RelatedLinksBox>
+</Disease>

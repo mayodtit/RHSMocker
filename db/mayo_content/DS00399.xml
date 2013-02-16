@@ -1,0 +1,419 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00399
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-cancer/DS00399
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-02
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2250" Title="Liver cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C2850661-4805-4AD6-905AD30E9FC79DB2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				primary liver cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary liver cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis B
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis C
+			</MetaKeyword>
+			<MetaKeyword>
+				cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatocellular carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatoblastoma
+			</MetaKeyword>
+			<MetaKeyword>
+				liver hemangioma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Liver cancer is cancer that begins in the cells of your liver. Your liver is a football-sized organ that sits in the upper right portion of your abdomen, beneath your diaphragm and above your stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+Liver cancer is one of the most common forms of cancer in the world, but liver cancer is uncommon in the United States. Rates of liver cancer diagnosis are increasing in the United States. 
+&lt;/p&gt;
+&lt;p&gt;
+Not all cancers that affect the liver are considered liver cancer. Cancer that begins in another area of the body, such as the colon, lung or breast, and then spreads to the liver is called metastatic cancer, rather than liver cancer. And this type of cancer is named after the organ in which it began &amp;mdash; such as metastatic colon cancer to describe cancer that begins in the colon and spreads to the liver. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="60" Title="Liver cancer" URI="/images/image_popup/thumbs/mcdc7_liver_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="320" Title="Liver cancer" URI="/images/image_popup/mcdc7_liver_cancer.jpg" Width="400" />
+				<HTML>
+					Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people don&apos;t have signs and symptoms in the early stages of primary liver cancer. When signs and symptoms do appear, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Losing weight without trying&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Upper abdominal pain&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;General weakness and fatigue&lt;/li&gt;
+	&lt;li&gt;An enlarged liver&lt;/li&gt;
+	&lt;li&gt;Abdominal swelling&lt;/li&gt;
+	&lt;li&gt;Yellow discoloration of your skin and the whites of your eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;White, chalky stools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you experience any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes most cases of liver cancer. But in some cases, the cause is known. For instance, chronic infection with certain hepatitis viruses can cause liver cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Liver cancer occurs when liver cells develop changes (mutations) in their DNA &amp;mdash; the material that provides instructions for every chemical process in your body. DNA mutations cause changes in these instructions. One result is that cells may begin to grow out of control and eventually form a tumor &amp;mdash; a mass of cancerous cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of liver cancer&lt;/strong&gt; &lt;br /&gt;
+Primary liver cancer, which begins in the cells of the liver, is divided into different types based on the kind of cells that become cancerous. Types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatocellular carcinoma.&lt;/strong&gt; This is the most common form of primary liver cancer. It starts in the hepatocytes, the main type of liver cell.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cholangiocarcinoma.&lt;/strong&gt; This type of cancer begins in the small tube-like bile ducts within the liver. This type of cancer is sometimes called bile duct cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatoblastoma.&lt;/strong&gt; This liver cancer affects infants and young children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiosarcoma or hemangiosarcoma.&lt;/strong&gt; These cancers begin in the blood vessels of the liver and grow very quickly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="60" Title="Liver cancer" URI="/images/image_popup/thumbs/mcdc7_liver_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="320" Title="Liver cancer" URI="/images/image_popup/mcdc7_liver_cancer.jpg" Width="400" />
+				<HTML>
+					Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of primary liver cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are more likely to develop liver cancer than are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; In North America, Europe and Australia, liver cancer most commonly affects older adults. In developing countries of Asia and Africa, liver cancer diagnosis tends to occur at a younger age &amp;mdash; between 20 and 50.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic infection with HBV or HCV.&lt;/strong&gt; Chronic infection with hepatitis B virus (HBV) or hepatitis C virus (HCV) increases your risk of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cirrhosis.&lt;/strong&gt; This progressive and irreversible condition causes scar tissue to form in your liver and increases your chances of developing liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain inherited liver diseases.&lt;/strong&gt; Liver diseases that can increase the risk of liver cancer include hemochromatosis and Wilson&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; People with this blood sugar disorder have a greater risk of liver cancer than do people who don&apos;t have diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonalcoholic fatty liver disease.&lt;/strong&gt; An accumulation of fat in the liver increases the risk of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to aflatoxins.&lt;/strong&gt; Consuming foods contaminated with fungi that produce aflatoxins greatly increases the risk of liver cancer. Crops such as corn and peanuts can become contaminated with aflatoxins. In the United States, safety regulations limit aflatoxin contamination. Aflatoxin contamination is more common in certain parts of Africa and Asia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol consumption.&lt;/strong&gt; Consuming more than a moderate amount of alcohol daily over many years can lead to irreversible liver damage and increase your risk of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Having an unhealthy body mass index increases the risk of liver cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have liver cancer, you&apos;re likely to start by seeing your family doctor or a general practitioner. If your doctor suspects you may have liver cancer, you may be referred to a doctor who specializes in diseases of the liver (hepatologist) or to a doctor who specializes in treating cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For liver cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of liver cancer do I have?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my liver cancer?&lt;/li&gt;
+	&lt;li&gt;What does my pathology report say? Can I have a copy of the pathology report?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you recommend over the others?&lt;/li&gt;
+	&lt;li&gt;How will my treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;How much time can I take to make my decision about liver cancer treatment?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion?&lt;/li&gt;
+	&lt;li&gt;Should I see a liver cancer specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing liver cancer&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose liver cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests may reveal liver function abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may recommend imaging tests, such as an ultrasound, computerized tomography (CT) scan and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of liver tissue for testing.&lt;/strong&gt; During a liver biopsy, a sample of tissue is removed from your liver and examined under a microscope. Your doctor may insert a thin needle through your skin and into your liver to obtain a tissue sample. Liver biopsy carries a risk of bleeding, bruising and infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the extent of the liver cancer&lt;/strong&gt; &lt;br /&gt;
+Once liver cancer is diagnosed, your doctor will work to determine the extent (stage) of the cancer. Staging tests help determine the size and location of cancer and whether it has spread. Imaging tests used to stage liver cancer include CT, MRI, chest X-ray and bone scan. 
+&lt;/p&gt;
+&lt;p&gt;
+There are different methods of staging liver cancer. One method uses Roman numerals I through IV, and another uses letters A through D. Your doctor uses your cancer&apos;s stage to determine your treatment options and your prognosis. Stage IV and stage D indicates the most advanced liver cancer with the worst prognosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for primary liver cancer depend on the extent (stage) of the disease as well as your age, overall health and personal preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+The goal of any treatment is to eliminate the cancer completely. When that isn&apos;t possible, the focus may be on preventing the tumor from growing or spreading. In some cases only comfort care is appropriate. In this situation, the goal of treatment is not to remove or slow the disease but to help relieve symptoms, making you as comfortable as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Liver cancer treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove a portion of the liver.&lt;/strong&gt; Your doctor may recommend partial hepatectomy to remove the liver cancer and a small portion of healthy tissue that surrounds it if your tumor is small and your liver function is good. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver transplant surgery.&lt;/strong&gt; During liver transplant surgery, your diseased liver is removed and replaced with a healthy liver from a donor. Liver transplant surgery may be an option for certain people with early-stage liver cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing cancer cells.&lt;/strong&gt; Cryoablation uses extreme cold to destroy cancer cells. During the procedure, your doctor places an instrument (cryoprobe) containing liquid nitrogen directly onto liver tumors. Ultrasound images are used to guide the cryoprobe and monitor the freezing of the cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heating cancer cells.&lt;/strong&gt; In a procedure called radiofrequency ablation, electric current is used to heat and destroy cancer cells. Using an ultrasound or CT scan as a guide, your surgeon inserts one or more thin needles into small incisions in your abdomen. When the needles reach the tumor, they&apos;re heated with an electric current, destroying the cancer cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injecting alcohol into the tumor.&lt;/strong&gt; During alcohol injection, pure alcohol is injected directly into tumors, either through the skin or during an operation. Alcohol causes the tumor cells to die. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injecting chemotherapy drugs into the liver.&lt;/strong&gt; Chemoembolization is a type of chemotherapy treatment that supplies strong anti-cancer drugs directly to the liver. During the procedure, chemotherapy drugs are injected into the hepatic artery &amp;mdash; the artery from which liver cancers derive their blood supply &amp;mdash; and then the artery is blocked. This serves to cut blood flow to the cancer cells and to deliver chemotherapy drugs to the cancer cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; This treatment uses high-powered energy beams to destroy cancer cells and shrink tumors. During radiation therapy treatment, you lie on a table and a machine directs the energy beams at a precise point on your body. Radiation therapy for liver cancer may involve a technique called stereotactic radiosurgery that simultaneously focuses many beams of radiation at one point in the body. Radiation side effects may include fatigue, nausea and vomiting. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Targeted drug therapy.&lt;/strong&gt; Sorafenib (Nexavar) is a targeted drug designed to interfere with a tumor&apos;s ability to generate new blood vessels. Sorafenib has been shown to slow or stop advanced hepatocellular carcinoma from progressing for a few months longer than with no treatment. More studies are needed to understand how this and other targeted therapies may be used to control advanced liver cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative treatments may help control pain in people with advanced liver cancer. Your doctor will work to control pain with treatments and medications. But sometimes your pain may persist or you may want to avoid the side effects of pain medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about alternative treatments that may help you cope with pain, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupressure&lt;/li&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Deep breathing&lt;/li&gt;
+	&lt;li&gt;Listening to music (music therapy)&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning you have any life-threatening illness can be devastating. Each person finds his or her own ways of coping with a diagnosis of liver cancer. Although there are no easy answers for people dealing with liver cancer, some of the following suggestions may be of help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about liver cancer to make decisions about your care.&lt;/strong&gt; Ask your doctor about your liver cancer, including the stage of your cancer, your treatment options and, if you like, your prognosis. Ask your health care team for trusted sources of information so that you can learn more about liver cancer and your treatment options. One good source of information is the National Cancer Institute. As you learn more about liver cancer, you may become more confident in making treatment decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep friends and family close.&lt;/strong&gt; Keeping your close relationships strong will help you deal with your liver cancer. Friends and family can provide the practical support you&apos;ll need, such as helping take care of your house if you&apos;re in the hospital. And they can serve as emotional support when you feel overwhelmed by cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Find a good listener who is willing to listen to you talk about your hopes and fears. This may be a friend or family member. The concern and understanding of a counselor, medical social worker, clergy member or cancer support group also may be helpful. Ask your doctor about support groups in your area. Or check your phone book, library or a cancer organization, such as the National Cancer Institute or the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make plans for the unknown.&lt;/strong&gt; Having a life-threatening illness, such as cancer, requires you to prepare for the possibility that you may die. For some people, having a strong faith or a sense of something greater than themselves makes it easier to come to terms with a life-threatening illness. Ask your doctor about advance directives and living wills to help you plan for end-of-life care, should you need it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Reduce your risk of cirrhosis&lt;/strong&gt; &lt;br /&gt;
+Cirrhosis is scarring of the liver, and it increases the risk of liver cancer. You can reduce your risk of cirrhosis if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; If you choose to drink alcohol, limit the amount you drink. For women, this means no more than one drink a day. For men, this means no more than two drinks a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your current weight is healthy, work to maintain it by choosing a healthy diet and exercising most days of the week. If you need to lose weight, reduce the number of calories you eat each day and increase the amount of exercise you do. Aim to lose weight slowly &amp;mdash; 1 or 2 pounds (0.5-1 kilograms) each week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution with chemicals.&lt;/strong&gt; Follow instructions on chemicals you use at home or at work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Get vaccinated against hepatitis B&lt;/strong&gt; &lt;br /&gt;
+You can reduce your risk of hepatitis B by receiving the hepatitis B vaccine, which provides more than 90 percent protection for both adults and children. The vaccine can be given to almost anyone, including infants, older adults and those with compromised immune systems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Take measures to prevent hepatitis C&lt;/strong&gt; &lt;br /&gt;
+No vaccine for hepatitis C exists, but you can reduce your risk of infection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know the health status of any sexual partner.&lt;/strong&gt; Don&apos;t engage in unprotected sex unless you&apos;re absolutely certain your partner isn&apos;t infected with HBV, HCV or any other sexually transmitted disease. If you don&apos;t know the health status of your partner, use a condom every time you have sexual intercourse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use intravenous (IV) drugs, but if you do, use a clean needle.&lt;/strong&gt; The best way to protect yourself from HCV is to not inject drugs. But if that isn&apos;t an option for you, make sure any needle you use is sterile, and don&apos;t share it. Contaminated drug paraphernalia is a common cause of hepatitis C infection. Take advantage of needle-exchange programs in your community and consider seeking help for your drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek safe, clean shops when getting a piercing or tattoo.&lt;/strong&gt; Needles that may not be properly sterilized can spread the hepatitis C virus. Before getting a piercing or tattoo, check out the shops in your area and ask staff about their safety practices. If employees at a shop refuse to answer your questions or don&apos;t take your questions seriously, take that as a sign that the facility isn&apos;t right for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ask your doctor about liver cancer screening&lt;/strong&gt; &lt;br /&gt;
+For the general population, screening for liver cancer hasn&apos;t been proved to reduce the risk of dying of liver cancer, so it isn&apos;t generally recommended. The American Association for the Study of Liver Diseases recommends liver cancer screening for those thought to have a high risk, including people who have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hepatitis B and one or more of the following apply: are an Asian male older than 40, Asian female older than 50, or African and older than 20; have liver cirrhosis; or have a family history of liver cancer&lt;/li&gt;
+	&lt;li&gt;Liver cirrhosis from other causes, such as an autoimmune disease or excessive alcohol use&lt;/li&gt;
+	&lt;li&gt;Hepatitis C infection&lt;/li&gt;
+	&lt;li&gt;An inherited form of hemochromatosis&lt;/li&gt;
+	&lt;li&gt;Primary biliary cirrhosis&lt;/li&gt;
+	&lt;li&gt;Nonalcoholic fatty liver disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss the pros and cons of screening with your doctor. Together you can decide whether screening is right for you based on your risk. Screening typically involves an ultrasound exam once or twice each year. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Liver cancer
+	</Title>
+	<Abstract>
+		Liver cancer &amp;mdash; Comprehensive overview covers symptoms and treatment of this cancer, including hepatocellular carcinoma.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00349" LinkType="Internal" ObjectID="21329E51-E7FF-0DBD-1B9E2B7D0F8B83AE" Title="Liver transplant" Url="http://www.mayoclinic.com/health/liver-transplant/MY00349" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+	</RelatedLinksBox>
+</Disease>

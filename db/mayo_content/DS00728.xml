@@ -1,0 +1,287 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00728
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/patent-foramen-ovale/DS00728
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="3171" Title="Patent foramen ovale" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			44AE111F-E7FF-0DBD-142B50B65F4F7827
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				patent foramen ovale
+			</MetaKeyword>
+			<MetaKeyword>
+				PFO
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in heart
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				migraine
+			</MetaKeyword>
+			<MetaKeyword>
+				foramen ovale
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial septal aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				migraine headache
+			</MetaKeyword>
+			<MetaKeyword>
+				migraine with aura
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A patent foramen ovale (PFO) is a hole in the heart that didn&apos;t close the way it should after birth. 
+&lt;/p&gt;
+&lt;p&gt;
+During fetal development, a small flap-like opening &amp;mdash; the foramen ovale (foh-RAY-mun oh-VAY-lee) &amp;mdash; is usually present between the right and left upper chambers of the heart. It normally closes during infancy. When the foramen ovale doesn&apos;t close, it&apos;s called a patent foramen ovale. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s common to have a patent formen ovale, most people with the condition never know they have it. A patent foramen ovale is often discovered during tests for other problems. Learning that you have a patent foramen ovale is understandably worrisome, but most people never need treatment for this disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with a patent foramen ovale don&apos;t know they have it, because it&apos;s usually a hidden condition that doesn&apos;t create signs or symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s unclear what causes the foramen ovale to stay open in some people, though genetics may play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+An overview of normal heart function in a child or adult is helpful in understanding the role of the foramen ovale before birth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal heart function&lt;/strong&gt;&lt;br /&gt;
+Your heart has four pumping chambers that circulate your blood: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The right atrium,&lt;/strong&gt; the upper right chamber, receives oxygen-poor blood from your body and pumps it into the right ventricle through the tricuspid valve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The right ventricle,&lt;/strong&gt; the lower right chamber, pumps the blood through a large vessel called the pulmonary artery and into the lungs, where the blood is resupplied with oxygen and carbon dioxide is removed from the blood. The blood is pumped through the pulmonary valve, which closes when the right ventricle relaxes between beats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The left atrium,&lt;/strong&gt; the upper left chamber, receives the oxygen-rich blood from the lungs through the pulmonary veins and pumps it into the left ventricle through the mitral valve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The left ventricle,&lt;/strong&gt; the lower left chamber, pumps the oxygen-rich blood through a large vessel called the aorta and on to the rest of the body. The blood passes through the aortic valve, which also closes when the left ventricle relaxes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Baby&apos;s heart in the womb&lt;/strong&gt;&lt;br /&gt;
+Because a baby in the womb isn&apos;t breathing, the lungs aren&apos;t functioning yet. That means there&apos;s no need to pump blood to the lungs. At this stage, it&apos;s more efficient for blood to bypass the lungs and use a different route to circulate oxygen-rich blood from the mother to the baby&apos;s body. 
+&lt;/p&gt;
+&lt;p&gt;
+The umbilical cord delivers oxygen-rich blood to the baby&apos;s right atrium. Most of this blood travels through the foramen ovale and into the left atrium. From there the blood goes to the left ventricle, which pumps it throughout the body. Blood also travels from the right atrium to the right ventricle, which also pumps blood to the body via another bypass system. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Newborn baby&apos;s heart&lt;/strong&gt;&lt;br /&gt;
+When a baby&apos;s lungs begin functioning, the circulation through the heart changes. Now the oxygen-rich blood comes from the lungs and enters the left atrium. At this point, blood circulation follows the normal circulatory route. 
+&lt;/p&gt;
+&lt;p&gt;
+The pressure of the blood pumping through the heart usually forces the foramen ovale closed. In most people, the opening fuses shut, usually sometime during infancy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing patent foramen ovale 
+" Caption="Patent foramen ovale is a small, flap-like opening in the wall between the right and left upper chambers of the heart. It usually causes no signs or symptoms and rarely requires treatment. 
+" Height="60" Title="Patent foramen ovale" URI="/images/image_popup/thumbs/r7_patentforamenovalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing patent foramen ovale 
+" Caption="Patent foramen ovale is a small, flap-like opening in the wall between the right and left upper chambers of the heart. It usually causes no signs or symptoms and rarely requires treatment. 
+" Height="389" Title="Patent foramen ovale" URI="/images/image_popup/r7_patentforamenovale.jpg" Width="400" />
+				<HTML>
+					Patent foramen ovale is a small, flap-like opening in the wall between the right and left upper chambers of the heart. It usually causes no signs or symptoms and rarely requires treatment. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, a patent foramen ovale doesn&apos;t cause complications. But, some studies have found the disorder is more common in individuals with certain conditions, such as unexplained stroke and migraine with aura. In most cases, there are other reasons for these conditions, and it&apos;s just a coincidence the person also has a patent foramen ovale. However, in some cases, blood clots in the heart may move through a patent foramen ovale, travel to the brain and cause a stroke. When this happens, it&apos;s often in people with conditions that increase the risk of blood clots, such as cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+The possible link between patent foramen ovale and stroke or migraine is controversial and research studies are ongoing. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases a patent foramen ovale can cause a significant amount of blood to bypass the lungs, resulting in low blood oxygen levels (hypoxia). This usually happens when other conditions are present, such as congenital or valvular heart disease or pulmonary hypertension. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A patent foramen ovale is often discovered during imaging tests for other conditions or to look for causes of stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+After a patent foramen ovale has been diagnosed, you&apos;ll likely have numerous questions for your doctor. Some questions you may want to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused this to happen?&lt;/li&gt;
+	&lt;li&gt;How dangerous is this condition?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the risks of a procedure to close the patent foramen ovale?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Do I or my child need to restrict activity in any way?&lt;/li&gt;
+	&lt;li&gt;Could I have passed this condition to my child?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A heart specialist (cardiologist) can detect a patent foramen ovale with one of the following tests: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Echocardiogram&lt;/strong&gt;&lt;br /&gt;
+An echocardiogram shows the structure and function of your heart. The standard form of this test is called a transthoracic echocardiogram. 
+&lt;/p&gt;
+&lt;p&gt;
+With this test, a technician spreads gel on your chest and then presses a device called a transducer against the skin over the heart. The transducer emits high-pitched sound waves and records the sound wave echoes as they reflect off internal structures in the heart. A computer converts the echoes into moving images on a monitor. Variations of this procedure may be used to identify patent foramen ovale: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Color flow Doppler.&lt;/strong&gt; When sound waves bounce off blood cells moving through your heart, they change pitch. These characteristic changes (Doppler signals) and computerized colorization of these signals can help your doctor examine the speed and direction of blood flow in your heart. If you have a patent foramen ovale, a color flow Doppler echocardiogram could detect the flow of blood between the right atrium and left atrium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Saline contrast study (bubble study).&lt;/strong&gt; With this approach, a sterile salt solution is shaken until tiny bubbles form and then is injected into a vein. The bubbles travel to the right side of your heart and appear on the echocardiogram. If there&apos;s no hole between the left atrium and right atrium, the bubbles will simply be filtered out in the lungs. If you have a patent foramen ovale, some bubbles will appear on the left side of the heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Transesophageal echocardiogram&lt;/strong&gt;&lt;br /&gt;
+This test uses a small transducer on a tube inserted down the esophagus, the part of the digestive tract that runs from the throat to the stomach. Because the esophagus lies close to the heart, having the transducer placed there provides a detailed image of the heart and blood flow through the heart. The use of a transesophageal echocardiogram makes it easier to see a patent foramen ovale by either color-flow Doppler or a saline contrast study. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with a patent foramen ovale don&apos;t need treatment. In certain circumstances, however, your doctor may recommend that you or your child have a procedure to close the patent foramen ovale. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reasons for closure&lt;/strong&gt;&lt;br /&gt;
+If a patent foramen ovale is found when an echocardiogram is done for other reasons, a procedure to close the opening usually isn&apos;t performed. Procedures to close the opening in the heart may be used in the following circumstances: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If your child is undergoing surgery to correct a congenital heart defect and your child also has a patent foramen ovale, the surgeon may close the opening when making other repairs to the heart.&lt;/li&gt;
+	&lt;li&gt;In adults having other types of heart surgery, a patent foramen ovale may be closed at the time of the operation.&lt;/li&gt;
+	&lt;li&gt;Closure of a patent foramen ovale may be done to treat low blood oxygen levels linked to the patent foramen ovale.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Closure of a patent foramen ovale to prevent migraines isn&apos;t currently recommended. Closure of a patent formaen ovale to prevent a stroke remains controversial. Closure may be recommended for individuals with recurrent strokes despite medical therapy, when no other cause has been found. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures for closure&lt;/strong&gt; Procedures to close patent foramen ovale include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Device closure.&lt;/strong&gt; Using cardiac catheterization, doctors can insert a device that plugs the patent foramen ovale. In this procedure, the device is on the end of a long flexible tube (catheter). The doctor inserts the device-tipped catheter into a vein in the groin and guides the device into place with the imaging assistance of an echocardiogram. Although complications are uncommon with this procedure, a tear of the heart or blood vessels, dislodgement of the device, or the development of irregular heartbeats may occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical repair.&lt;/strong&gt; A surgeon can close the patent foramen ovale by opening up the heart and stitching shut the flap-like opening. This can sometimes be done with the use of robotic techniques and a very small incision. If you or your child is undergoing surgery to correct another heart problem, your doctor may recommend that you have the patent foramen ovale corrected surgically at the same time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stroke prevention&lt;/strong&gt;&lt;br /&gt;
+Medications can be used to try to reduce the risk of blood clots crossing a patent foramen ovale. Anti-platelet therapy such as aspirin or clopidogrel (Plavix) and other blood thinners, such as warfarin (Coumadin, Jantoven), dabigatran etexilate (Pradaxa) and rivaroxaban (Xarelto), may be helpful for people with a patent foramen ovale who&apos;ve had a stroke. It&apos;s not clear whether medications or invasive procedures to close the defect are best for stroke prevention in people with a patent formen ovale, and studies are ongoing to answer this question. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you know you have a patent foramen ovale, but don&apos;t have symptoms, you probably won&apos;t have any restrictions on your activities. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ll be traveling long distances, it&apos;s important to follow recommendations for preventing blood clots. If you&apos;re traveling by car, stop periodically and go for a short walk. On an airplane, be sure to stay well hydrated and walk around whenever it&apos;s safe to do so. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Patent foramen ovale
+	</Title>
+	<Abstract>
+		Patent foramen ovale &amp;mdash; Comprehensive overview covers causes, complications of this heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+	</RelatedLinksBox>
+</Disease>

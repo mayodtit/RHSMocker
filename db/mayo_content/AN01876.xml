@@ -1,0 +1,115 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01876
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lupus/AN01876
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="1737" Title="Lupus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ED21D1CA-E7FF-0DBD-132BE14E77330FCB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lupus
+			</MetaKeyword>
+			<MetaKeyword>
+				hair loss
+			</MetaKeyword>
+			<MetaKeyword>
+				alopecia
+			</MetaKeyword>
+			<MetaKeyword>
+				lupus and hair loss
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Unfortunately, yes. Lupus causes widespread inflammation that usually involves your skin &amp;mdash; particularly on your face and scalp. Lupus can cause the hair on your scalp to gradually thin out, although a few people lose clumps of hair. Loss of eyebrow, eyelash, beard and body hair also is possible.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, your hair will grow back when your lupus is treated. But some people with lupus develop round (discoid) lesions on the scalp. Because these discoid lesions scar your hair follicles, they do cause permanent hair loss.
+&lt;/p&gt;
+&lt;p&gt;
+Lupus can also cause the scalp hair along your hairline to become fragile and break off easily, leaving you with a ragged appearance known as lupus hair.
+&lt;/p&gt;
+&lt;p&gt;
+Hair loss may be an early sign of lupus, before the disease is diagnosed. But many other disorders can cause hair loss, so consult with your doctor if you notice unusual hair thinning or hair loss. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lupus: Can it cause hair loss?
+	</Title>
+	<Abstract>
+		Hair loss is common in lupus. Although distressing, it is usually temporary.
+	</Abstract>
+	<Question>
+		Can lupus cause hair loss?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00787" LinkType="Internal" ObjectID="74664E72-D011-7D0D-FAFA7BCB2AED1DD4" Title="ANA test" Url="http://www.mayoclinic.com/health/ana-test/MY00787" />
+		<LinkItem ContentType="Answer" DocID="AN01622" LinkType="Internal" ObjectID="21B4B8AD-E7FF-0DBD-184184B15FD73F74" Title="Livedo reticularis: When is it a concern?" Url="http://www.mayoclinic.com/health/livedo-reticularis/AN01622" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Answer" DocID="AN01267" LinkType="Internal" ObjectID="E434A0DE-2A5D-9994-E7E971447FB71A4D" Title="Lupus: How does it affect the kidneys?" Url="http://www.mayoclinic.com/health/lupus/AN01267" />
+		<LinkItem ContentType="Answer" DocID="AN01280" LinkType="Internal" ObjectID="6149219E-2A5D-9994-E09E7A063B0CE604" Title="Lupus: Can it cause hives?" Url="http://www.mayoclinic.com/health/lupus/AN01280" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,286 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00783
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rotavirus/DS00783
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3115" Title="Gastroenteritis">
+							<Keyword MCVID="4300" Title="Rotavirus" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			22F3B224-E7FF-0DBD-1E77C66BE8B8C85F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rotavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroenteritis
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				rotovirus
+			</MetaKeyword>
+			<MetaKeyword>
+				rota virus
+			</MetaKeyword>
+			<MetaKeyword>
+				roto virus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rotavirus is the most common cause of diarrhea in infants and children worldwide, according to the Centers for Disease Control and Prevention. Most children have had at least one bout with rotavirus by age 2 or 3. 
+&lt;/p&gt;
+&lt;p&gt;
+Although rotavirus infections are unpleasant, you can treat most of them at home with extra fluids to prevent dehydration. Occasionally, severe dehydration requires intravenous fluids in the hospital. Dehydration is a serious complication of rotavirus and a major cause of childhood deaths in developing countries. 
+&lt;/p&gt;
+&lt;p&gt;
+Vaccination can help prevent rotavirus infection in your infant. For older children and adults &amp;mdash; who aren&apos;t as likely to develop serious symptoms of rotavirus &amp;mdash; frequent hand washing is the best line of defense. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A rotavirus infection usually starts with a fever, followed by three to eight days of watery diarrhea and vomiting. The infection can cause abdominal pain as well. In adults who are otherwise healthy, a rotavirus infection may cause only mild signs and symptoms &amp;mdash; or none at all. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Call your child&apos;s doctor if your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has severe or bloody diarrhea&lt;/li&gt;
+	&lt;li&gt;Has frequent episodes of vomiting for more than three hours&lt;/li&gt;
+	&lt;li&gt;Has a temperature of 103 F (39.4 C) or higher&lt;/li&gt;
+	&lt;li&gt;Seems lethargic, irritable or in pain&lt;/li&gt;
+	&lt;li&gt;Has signs or symptoms of dehydration &amp;mdash; dry mouth, crying without tears, little or no urination, unusual sleepiness or unresponsiveness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re an adult, call your doctor if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aren&apos;t able to keep liquids down for 24 hours&lt;/li&gt;
+	&lt;li&gt;Have frequent episodes of vomiting for more than one or two days&lt;/li&gt;
+	&lt;li&gt;Vomit blood&lt;/li&gt;
+	&lt;li&gt;Have blood in your bowel movements&lt;/li&gt;
+	&lt;li&gt;Have a temperature higher than 103 F (39.4 C)&lt;/li&gt;
+	&lt;li&gt;Have signs or symptoms of dehydration &amp;mdash; excessive thirst, dry mouth, little or no urination, severe weakness, dizziness or lightheadedness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rotavirus is present in an infected person&apos;s stool several days before symptoms appear and for up to 10 days after symptoms subside. The virus spreads easily through hand-to-mouth contact throughout this time &amp;mdash; even if the infected person doesn&apos;t have symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have rotavirus and you don&apos;t wash your hands after using the toilet &amp;mdash; or your child has rotavirus and you don&apos;t wash your hands after changing your child&apos;s diaper or helping your child use the toilet &amp;mdash; the virus can spread to anything you touch, including food, toys and utensils. If another person touches your unwashed hands or a contaminated object and then touches his or her mouth, an infection may follow. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes rotavirus spreads through contaminated water or infected respiratory droplets coughed or sneezed into the air. 
+&lt;/p&gt;
+&lt;p&gt;
+Because there are many types of rotavirus, it&apos;s possible to be infected more than once. However, repeat infections are typically less severe. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rotavirus infections are most common in children ages 4 months to 24 months &amp;mdash; particularly those who spend time in child care settings. Older adults and adults caring for young children have an increased risk of infection as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Your risk of rotavirus is highest in winter and spring. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Severe diarrhea can lead to dehydration, particularly in young children. Left untreated, dehydration can become a life-threatening condition regardless of its cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child needs to see a doctor, you&apos;ll likely see your primary care provider first. If there are questions about the diagnosis, your doctor may refer you to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is often limited, so preparing a list of questions will help you make the most of your time together. Some questions you might want to ask your doctor or your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the likely cause of the symptoms? Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;Is there a need for any tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment approach? Are there any alternatives?&lt;/li&gt;
+	&lt;li&gt;Is there a need to take any medicine?&lt;/li&gt;
+	&lt;li&gt;How can I ease the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If at any time during your appointment you don&apos;t understand what the doctor is saying, don&apos;t hesitate to ask for clarification. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Some questions the doctor may ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did symptoms first begin?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or intermittent?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve symptoms? &lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Drink plenty of fluids. Stick with bland foods to reduce stress on your digestive system. If your child is sick, follow the same approach &amp;mdash; offer plenty of fluids, and bland food. If you&apos;re breast-feeding or using formula, continue to feed your child as usual. Ask your child&apos;s doctor if giving your child an oral rehydration fluid, such as Pedialyte, is appropriate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rotavirus is often diagnosed based on symptoms and a physical exam. A stool sample may be analyzed in a lab to confirm the diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific treatment for a rotavirus infection. Antibiotics won&apos;t help a rotavirus infection. Usually, the infection resolves within three to eight days. Preventing dehydration is the biggest concern. 
+&lt;/p&gt;
+&lt;p&gt;
+To prevent dehydration while the virus runs it course, drink plenty of fluids. If your child has severe diarrhea, offer an oral rehydration fluid such as Pedialyte &amp;mdash; especially if the diarrhea lasts longer than a few days. For children, a rehydration fluid can replace lost minerals more effectively than can water or other liquids. Severe dehydration may require intravenous fluids in the hospital. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your baby is sick, offer small amounts of liquid. If you&apos;re breast-feeding, let your baby nurse. If your baby drinks formula, offer a small amount of an oral rehydration fluid or regular formula. Don&apos;t dilute your baby&apos;s formula. 
+&lt;/p&gt;
+&lt;p&gt;
+If your older child isn&apos;t feeling well, encourage him or her to rest. Offer bland foods, such as soda crackers and toast. Plenty of liquids are important, too, including an oral rehydration fluid such as Pedialyte. Avoid apple juice, dairy products and sugary foods, which can make a child&apos;s diarrhea worse. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re struggling with diarrhea or vomiting, take it easy. Suck on ice chips or take small sips of water or clear sodas, such as ginger ale, or broths. Eat bland foods. Avoid anything that may irritate your stomach, including dairy products, fatty or highly seasoned foods, caffeine, alcohol, and nicotine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce the spread of rotavirus, wash your hands thoroughly and often &amp;mdash; especially after you use the toilet, change your child&apos;s diaper or help your child use the toilet. But even strict hand washing doesn&apos;t offer any guarantees. 
+&lt;/p&gt;
+&lt;p&gt;
+Currently, there are two vaccines offered against rotavirus: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;RotaTeq.&lt;/strong&gt; This vaccine is given by mouth in three doses, often at ages 2 months, 4 months and 6 months. The vaccine is not approved for use in older children or adults.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although a few cases of intussusception &amp;mdash; a rare but life-threatening form of intestinal blockage &amp;mdash; were reported after vaccination with RotaTeq, the FDA and the Centers for Disease Control and Prevention (CDC) found that the number of cases in vaccinated children was similar to the number of cases in unvaccinated children and concluded that the vaccine didn&apos;t increase a child&apos;s risk of intussusception. A similar anti-rotavirus vaccine (RotaShield) was pulled from the market in 1999 because of an association with intussusception. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If after vaccination, your child has stomach pain, vomiting, diarrhea, blood in his or her stool, or a change in bowel movements, contact your doctor immediately. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rotarix.&lt;/strong&gt; This vaccine is a liquid given in two doses to infants at ages 2 months and 4 months. Clinical trials of the vaccine detected no increased risk of intussusception.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rotavirus
+	</Title>
+	<Abstract>
+		Rotavirus &amp;mdash; Comprehensive overview covers symptoms, treatment of this common childhood infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01778" LinkType="Internal" ObjectID="B65EC8CB-E7FF-0DBD-18D7DBC69F998382" Title="Flu shot: Will it prevent the stomach flu?" Url="http://www.mayoclinic.com/health/flu-shot/AN01778" />
+		<LinkItem ContentType="Answer" DocID="AN01758" LinkType="Internal" ObjectID="ABCF63F3-E7FF-0DBD-176D82683714609A" Title="Stomach flu: How long am I contagious?" Url="http://www.mayoclinic.com/health/stomach-flu/AN01758" />
+		<LinkItem ContentType="Disease" DocID="DS00085" LinkType="Internal" ObjectID="E31CB1FE-4C04-4B05-A67DF0EEF09823B7" Title="Viral gastroenteritis (stomach flu)" Url="http://www.mayoclinic.com/health/viral-gastroenteritis/DS00085" />
+	</RelatedLinksBox>
+</Disease>

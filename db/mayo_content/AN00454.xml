@@ -1,0 +1,117 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00454
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyperthyroidism/AN00454
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-18
+		</UpdateDate>
+		<PublicationDate>
+			2002-12-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="1495" Title="Hypothyroidism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3B8150D7-69CD-4FD7-9C06C34B5B7A0FFD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypothyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				underactive thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				soy
+			</MetaKeyword>
+			<MetaKeyword>
+				soy milk
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Whether people who have hypothyroidism should avoid soy is a topic of considerable debate. 
+&lt;/p&gt;
+&lt;p&gt;
+Hypothyroidism is generally treated with synthetic thyroid hormone &amp;mdash; and soy has long been thought to interfere with the body&apos;s ability to absorb the medication. However, there&apos;s no evidence that people who have hypothyroidism should avoid soy completely.
+&lt;/p&gt;
+&lt;p&gt;
+If you have hypothyroidism, take thyroid hormone replacement as directed by your doctor &amp;mdash; typically on an empty stomach. Generally, it&apos;s best to wait four hours after taking thyroid medication to consume any products that contain soy. The same guidelines apply to other products that may impair the body&apos;s ability to absorb thyroid medication, including high-fiber foods, iron and calcium supplements, and antacids that contain aluminum or magnesium.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Soy: Does it worsen hypothyroidism?
+	</Title>
+	<Abstract>
+		Whether people who have hypothyroidism should avoid soy is a topic of considerable debate.
+	</Abstract>
+	<Question>
+		Is it true that people who have hypothyroidism should avoid soy?
+	</Question>
+	<QuestionFirstName>
+		Mary
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="Answer" DocID="AN01436" LinkType="Internal" ObjectID="CC205413-E7FF-0DBD-10675C5AABA84691" Title="Hypothyroidism and infertility: Any connection?" Url="http://www.mayoclinic.com/health/hypothyroidism-and-infertility/AN01436" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Answer" DocID="AN00069" LinkType="Internal" ObjectID="DCDC450F-B900-45AB-9CB724CB57A18105" Title="Hypothyroidism: Does it cause joint pain?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN00069" />
+		<LinkItem ContentType="Answer" DocID="AN01829" LinkType="Internal" ObjectID="BDEAE1F3-E7FF-0DBD-12F52C3F46A4B3B6" Title="Hypothyroidism: Should I take iodine supplements?" Url="http://www.mayoclinic.com/health/hypothyroidism-iodine/AN01829" />
+		<LinkItem ContentType="Answer" DocID="AN01367" LinkType="Internal" ObjectID="B0294326-E7FF-0DBD-1FF7944B49652A59" Title="Coconut oil: Can it cure hypothyroidism?" Url="http://www.mayoclinic.com/health/coconut-oil-thyroid/AN01367" />
+		<LinkItem ContentType="Answer" DocID="AN01942" LinkType="Internal" ObjectID="9F0C1E6F-E7FF-0DBD-12DF6CEF0C1E1EE4" Title="Hypothyroidism symptoms: Can hypothyroidism cause eye problems?" Url="http://www.mayoclinic.com/health/hypothyroidism-symptoms/AN01942" />
+		<LinkItem ContentType="Answer" DocID="AN01478" LinkType="Internal" ObjectID="52B04093-E7FF-0DBD-1A7AEB7E8BE436FC" Title="Hypothyroidism diet: Can certain foods increase thyroid function?" Url="http://www.mayoclinic.com/health/hypothyroidism-diet/AN01478" />
+		<LinkItem ContentType="Answer" DocID="AN01181" LinkType="Internal" ObjectID="31EFF038-31C4-40C8-89F40F5D41E852C8" Title="Hypothyroidism: Can calcium supplements interfere with treatment?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN01181" />
+		<LinkItem ContentType="Answer" DocID="AN01728" LinkType="Internal" ObjectID="04C74DCF-E7FF-0DBD-12218CAA16C82C96" Title="Wilson&apos;s syndrome: An accepted medical diagnosis?" Url="http://www.mayoclinic.com/health/wilsons-syndrome/AN01728" />
+		<LinkItem ContentType="Disease" DocID="DS00581" LinkType="Internal" ObjectID="A1BEB836-698F-4C05-B88D158D673829AB" Title="Amenorrhea" Url="http://www.mayoclinic.com/health/amenorrhea/DS00581" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Answer>

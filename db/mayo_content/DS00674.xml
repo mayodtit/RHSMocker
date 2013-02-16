@@ -1,0 +1,371 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00674
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diabetic-ketoacidosis/DS00674
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-23
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus">
+						<Keyword MCVID="4280" Title="Diabetic ketoacidosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4B4D9A97-2A5D-9994-E418E1B6A23F03EC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ketoacidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic ketoacidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes complications
+			</MetaKeyword>
+			<MetaKeyword>
+				DKA
+			</MetaKeyword>
+			<MetaKeyword>
+				ketone
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic ketoacidosis is a serious complication of diabetes that occurs when your body produces high levels of blood acids called ketones. 
+&lt;/p&gt;
+&lt;p&gt;
+Diabetic ketoacidosis develops when your body is unable to produce enough insulin. Insulin normally plays a key role in helping sugar (glucose) &amp;mdash; a major source of energy for your muscles and other tissues &amp;mdash; enter your cells. Without enough insulin, your body begins to break down fat as an alternate fuel. This process produces a buildup of toxic acids in the bloodstream called ketones, eventually leading to diabetic ketoacidosis if untreated. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have diabetes or you&apos;re at risk of diabetes, learn the warning signs of diabetic ketoacidosis &amp;mdash; and know when to seek emergency care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic ketoacidosis signs and symptoms often develop quickly, sometimes within 24 hours. For some, these signs and symptoms may be the first indication of having diabetes. You may notice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Excessive thirst&lt;/li&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Weakness or fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fruity-scented breath&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More-specific signs of diabetic ketoacidosis &amp;mdash; which can be detected through home blood and urine testing kits &amp;mdash; include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood sugar level (hyperglycemia)&lt;/li&gt;
+	&lt;li&gt;High ketone levels in your urine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you feel ill or stressed, or you&apos;ve had a recent illness or injury, check your blood sugar level often. You might also try an over-the-counter urine ketones testing kit. 
+&lt;/p&gt;
+&lt;p&gt;
+Contact your doctor immediately if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re vomiting and unable to tolerate any food or liquid&lt;/li&gt;
+	&lt;li&gt;Your blood sugar level is higher than your target range and doesn&apos;t respond to home treatment&lt;/li&gt;
+	&lt;li&gt;Your urine ketone level is moderate or high&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seek emergency care if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your blood sugar level is consistently higher than 300 milligrams per deciliter (mg/dL), or 16.7 millimoles per liter (mmol/L)&lt;/li&gt;
+	&lt;li&gt;You have ketones in your urine and can&apos;t reach your doctor for advice&lt;/li&gt;
+	&lt;li&gt;You have multiple signs and symptoms of diabetic ketoacidosis &amp;mdash; excessive thirst or frequent urination, nausea and vomiting, abdominal pain, shortness of breath, fruity-scented breath, confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember, untreated diabetic ketoacidosis can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sugar is a main source of energy for the cells that make up your muscles and other tissues. Normally, sugar enters your cells with the help of insulin. If you don&apos;t have enough insulin in your body, your body won&apos;t be able to use sugar properly for energy. This prompts the release of hormones that break down fat as an alternate fuel. In turn, this process produces toxic acids known as ketones. Excess ketones accumulate in the blood and eventually &quot;spill over&quot; into the urine. 
+&lt;/p&gt;
+&lt;p&gt;
+Diabetic ketoacidosis is usually triggered by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An illness.&lt;/strong&gt; An infection or other illness can cause your body to produce higher levels of certain hormones, such as adrenaline or cortisol. Unfortunately, these hormones work against insulin &amp;mdash; sometimes triggering an episode of diabetic ketoacidosis. Pneumonia and urinary tract infections are common culprits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A problem with insulin therapy.&lt;/strong&gt; Missed insulin treatments or inadequate insulin therapy can leave you with too little insulin in your system, triggering an episode of diabetic ketoacidosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other possible triggers of diabetic ketoacidosis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Physical or emotional trauma&lt;/li&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Surgery&lt;/li&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Alcohol or drug abuse, particularly cocaine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk of diabetic ketoacidosis is highest if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have type 1 diabetes&lt;/li&gt;
+	&lt;li&gt;Are younger than age 19&lt;/li&gt;
+	&lt;li&gt;Frequently miss insulin doses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, diabetic ketoacidosis can also occur if you have type 2 diabetes, although this is uncommon. In some cases, diabetic ketoacidosis may be the first sign that a person has diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic ketoacidosis is treated with fluids, electrolytes &amp;mdash; such as sodium, potassium and chloride &amp;mdash; and insulin. Perhaps surprisingly, the most common complications of diabetic ketoacidosis are related to this lifesaving treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible complications of the treatments&lt;/strong&gt; &lt;br /&gt;
+Treatment complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; Insulin allows sugar to enter your cells. This causes your blood sugar level to drop. If your blood sugar level drops too quickly, you may develop low blood sugar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low potassium (hypokalemia).&lt;/strong&gt; The fluids and insulin used to treat diabetic ketoacidosis may cause your potassium level to drop too low. A low potassium level can impair the activities of your heart, muscles and nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling in the brain (cerebral edema).&lt;/strong&gt; Adjusting your blood sugar level too quickly can produce swelling in your brain. This complication appears to be more common in children, especially those with newly diagnosed diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Left untreated, the risks are much greater. Diabetic ketoacidosis can lead to loss of consciousness. Eventually, diabetic ketoacidosis can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic ketoacidosis is a life-threatening medical condition. If you develop mild signs and symptoms, contact your doctor immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+Call 911 or your local emergency number if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You can&apos;t reach your doctor&lt;/li&gt;
+	&lt;li&gt;Your symptoms are getting worse&lt;/li&gt;
+	&lt;li&gt;Your symptoms are already severe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A medical provider who sees you for possible diabetic ketoacidosis will need answers to these questions as quickly as possible: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;When did these signs and symptoms develop? Are they getting worse?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with diabetes?&lt;/li&gt;
+	&lt;li&gt;Have you recently checked your blood sugar level?&lt;/li&gt;
+	&lt;li&gt;Have you recently checked your ketone level?&lt;/li&gt;
+	&lt;li&gt;Have you lost your appetite?&lt;/li&gt;
+	&lt;li&gt;Are you able to keep fluids down?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble breathing?&lt;/li&gt;
+	&lt;li&gt;Do you have chest pain?&lt;/li&gt;
+	&lt;li&gt;Have you had illness or infections in the time leading up to these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any stress or trauma in the time leading up to these symptoms?&lt;/li&gt;
+	&lt;li&gt;Did you use alcohol or recreational drugs in the time leading up to these symptoms?&lt;/li&gt;
+	&lt;li&gt;How closely have you been following your diabetes treatment plan?&lt;/li&gt;
+	&lt;li&gt;How well would you say your diabetes has been managed in the time leading up to these symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects diabetic ketoacidosis, he or she will do a physical exam and various blood tests. In some cases, additional tests may be needed to help determine what triggered the episode of diabetic ketoacidosis or what damage the ketoacidosis may have caused. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+Blood tests used in the diagnosis of diabetic ketoacidosis will measure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood sugar level.&lt;/strong&gt; If there isn&apos;t enough insulin in your body to allow sugar to enter your cells, your blood sugar level will rise (hyperglycemia). As your body breaks down fat and protein for energy, your blood sugar level will continue to rise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ketone level.&lt;/strong&gt; When your body breaks down fat and protein for energy, toxic acids known as ketones enter your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood acidity.&lt;/strong&gt; If you have excess ketones in your blood, your blood will become acidic (acidosis). This can alter the normal function of various organs throughout your body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt; &lt;br /&gt;
+Your doctor may order tests to identify underlying health problems that may have contributed to diabetic ketoacidosis and check for complications. Tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood electrolyte tests&lt;/li&gt;
+	&lt;li&gt;Urinalysis&lt;/li&gt;
+	&lt;li&gt;Chest X-ray&lt;/li&gt;
+	&lt;li&gt;A recording of the electrical activity of the heart (electrocardiogram)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re diagnosed with diabetic ketoacidosis, you may be treated in the emergency room or admitted to the hospital. Treatment usually involves a three-pronged approach: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid replacement.&lt;/strong&gt; You&apos;ll receive fluids &amp;mdash; either orally or through a vein (intravenously) &amp;mdash; until you&apos;re rehydrated. The fluids will replace those you&apos;ve lost through excessive urination, as well as help dilute the excess sugar in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrolyte replacement.&lt;/strong&gt; Electrolytes are minerals in your blood that carry an electric charge, such as sodium, potassium and chloride. The absence of insulin can lower the level of several electrolytes in your blood. You&apos;ll receive electrolytes through your veins to help keep your heart, muscles and nerve cells functioning normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin therapy.&lt;/strong&gt; Insulin reverses the processes that cause diabetic ketoacidosis. Along with fluids and electrolytes, you&apos;ll receive insulin therapy &amp;mdash; usually through a vein. When your blood sugar level falls below 240 mg/dL (13.3 mmol/L) and your blood is no longer acidic, you may be able to stop intravenous insulin therapy and resume your normal subcutaneous insulin therapy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As your body chemistry returns to normal, your doctor will consider what may have triggered the episode of diabetic ketoacidosis. Depending on the circumstances, you may need additional treatment. For example, if you have previously undiagnosed diabetes, your doctor will help you create a diabetes treatment plan. If your doctor suspects a bacterial infection, he or she may prescribe antibiotics. If a heart attack seems possible, your doctor may recommend further evaluation of your heart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s much you can do to prevent diabetic ketoacidosis and other diabetes complications. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a commitment to managing your diabetes.&lt;/strong&gt; Make healthy eating and physical activity part of your daily routine. Take oral diabetes medications or insulin as directed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your blood sugar level.&lt;/strong&gt; You may need to check and record your blood sugar level at least three to four times a day &amp;mdash; or more if you&apos;re ill or under stress. Careful monitoring is the only way to make sure that your blood sugar level remains within your target range.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your insulin dosage as needed.&lt;/strong&gt; Talk to your doctor or diabetes educator about how to adjust your insulin dosage depending on your blood sugar level, what you eat, how active you are, whether you&apos;re ill and other factors. If your blood sugar level begins to rise, follow your diabetes treatment plan to return your blood sugar level to your target range.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your ketone level.&lt;/strong&gt; When you&apos;re ill or under stress, test your urine for excess ketones with an over-the-counter urine ketones test kit. If your ketone level is moderate or high, contact your doctor right away or seek emergency care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to act quickly.&lt;/strong&gt; If you suspect that you have diabetic ketoacidosis &amp;mdash; your blood sugar level is high and you have excess ketones in your urine &amp;mdash; seek emergency care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diabetes complications are scary. But don&apos;t let fear keep you from taking good care of yourself. Follow your diabetes treatment plan carefully, and ask your diabetes treatment team for help when you need it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diabetic ketoacidosis
+	</Title>
+	<Abstract>
+		Diabetic ketoacidosis &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this serious diabetes complication.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="DA00070" LinkType="Internal" ObjectID="FFECC864-B509-4016-A95B8B3063E225BD" Title="Exchange list: Fruits" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00070" />
+		<LinkItem ContentType="Table" DocID="DA00074" LinkType="Internal" ObjectID="E8B50501-6C24-4241-A1E8C169A2B950FE" Title="Exchange list: Meat and meat substitutes" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00074" />
+		<LinkItem ContentType="Table" DocID="DA00071" LinkType="Internal" ObjectID="DD69253A-E3DF-4F6A-8AE48AE0986EBA84" Title="Exchange list: Milk and yogurt" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00071" />
+		<LinkItem ContentType="Answer" DocID="AN00939" LinkType="Internal" ObjectID="D0BA0C8B-17C3-4C5E-BABD5DA735C80B61" Title="Diabetes treatment: Can cinnamon lower blood sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00939" />
+		<LinkItem ContentType="Table" DocID="DA00075" LinkType="Internal" ObjectID="CF972E06-29EF-4015-9A1C8613E800A73A" Title="Exchange list: Fats" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00075" />
+		<LinkItem ContentType="Answer" DocID="AN01509" LinkType="Internal" ObjectID="CECA1726-E7FF-0DBD-1DD8DA13038C98D1" Title="Diabetes: Are electric blankets off-limits?" Url="http://www.mayoclinic.com/health/diabetes/AN01509" />
+		<LinkItem ContentType="Answer" DocID="AN02011" LinkType="Internal" ObjectID="C0683904-0C4A-603E-4A007645231D330D" Title="Diabetes and depression: Coping with the two conditions" Url="http://www.mayoclinic.com/health/diabetes-and-depression/AN02011" />
+		<LinkItem ContentType="Answer" DocID="AN00845" LinkType="Internal" ObjectID="BA768AB8-55AC-44BE-B45CD8CE91F12909" Title="Vegetarian diet: Can it help me control my diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00845" />
+		<LinkItem ContentType="Answer" DocID="AN01958" LinkType="Internal" ObjectID="B00158B5-E7FF-0DBD-1534BED2254DFE59" Title="Diabetes management: Does aspirin therapy prevent heart problems?" Url="http://www.mayoclinic.com/health/aspirin-therapy/AN01958" />
+		<LinkItem ContentType="Answer" DocID="AN01213" LinkType="Internal" ObjectID="9AE4F795-2A5D-9994-E655F8F5BCE0FE85" Title="The dawn phenomenon: What can you do?" Url="http://www.mayoclinic.com/health/dawn-effect/AN01213" />
+		<LinkItem ContentType="Table" DocID="DA00069" LinkType="Internal" ObjectID="8CF7446C-571D-4B1F-A057D979AF6E5720" Title="Exchange list: Starches" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00069" />
+		<LinkItem ContentType="Answer" DocID="AN01691" LinkType="Internal" ObjectID="842617FF-E7FF-0DBD-1A64CA34C5DF5D28" Title="Diabetes diet: Should I avoid sweet fruits?" Url="http://www.mayoclinic.com/health/diabetes/AN01691" />
+		<LinkItem ContentType="Answer" DocID="AN00348" LinkType="Internal" ObjectID="72E5EDAD-7EEA-4F0E-88EB83087ACFF95F" Title="Artificial sweeteners: Any effect on blood sugar?" Url="http://www.mayoclinic.com/health/artificial-sweeteners/AN00348" />
+		<LinkItem ContentType="Answer" DocID="AN00193" LinkType="Internal" ObjectID="609C212D-35EF-4EE8-82502B1A9DD06CD5" Title="Diabetes: How do I help protect my liver?" Url="http://www.mayoclinic.com/health/diabetes/AN00193" />
+		<LinkItem ContentType="Table" DocID="DA00091" LinkType="Internal" ObjectID="5EBD4F51-485A-43CC-B9267FF9CF6E49F4" Title="Insulin: Compare common options for insulin therapy" Url="http://www.mayoclinic.com/health/insulin/DA00091" />
+		<LinkItem ContentType="Answer" DocID="AN02125" LinkType="Internal" ObjectID="53B81A0F-F957-5499-DAB3590605B0584D" Title="Avandia safety concerns: What should I do?" Url="http://www.mayoclinic.com/health/avandia/AN02125" />
+		<LinkItem ContentType="Table" DocID="DA00076" LinkType="Internal" ObjectID="50C876BB-9357-4523-98985FA091614048" Title="Exchange list: Free foods" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00076" />
+		<LinkItem ContentType="Table" DocID="DA00072" LinkType="Internal" ObjectID="42043545-A8FA-4F54-9B6A320BDFBEF75B" Title="Exchange list: Sweets, desserts and other carbohydrates" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00072" />
+		<LinkItem ContentType="Answer" DocID="AN00975" LinkType="Internal" ObjectID="3DA7267F-C9A3-43E6-A71669768F406A86" Title="Late-night eating: OK if you have diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00975" />
+		<LinkItem ContentType="Answer" DocID="AN00934" LinkType="Internal" ObjectID="336612B6-E243-4FD8-9AC9D79DDCC1C935" Title="Reactive hypoglycemia: What can I do?" Url="http://www.mayoclinic.com/health/reactive-hypoglycemia/AN00934" />
+		<LinkItem ContentType="Answer" DocID="HQ00384" LinkType="Internal" ObjectID="25FA95EB-E5BE-4749-A010272B67DFCEF4" Title="Managing diabetes: Looking beyond carbs" Url="http://www.mayoclinic.com/health/diabetes/HQ00384" />
+		<LinkItem ContentType="Answer" DocID="AN02037" LinkType="Internal" ObjectID="256FFF50-DE1F-04C7-CCF1C067D4816F2D" Title="Blood glucose monitors: What factors affect accuracy?" Url="http://www.mayoclinic.com/health/blood-glucose-monitors/AN02037" />
+		<LinkItem ContentType="SlideShow" DocID="DA00062" LinkType="Internal" ObjectID="146260D0-9910-47B2-9D58A9BC2C01AA12" Title="Slide show: Blood sugar testing" Url="http://www.mayoclinic.com/health/blood-sugar/DA00062" />
+		<LinkItem ContentType="Answer" DocID="AN00754" LinkType="Internal" ObjectID="0F07D463-CFF5-48B0-8023B589F97745E8" Title="Glycemic index diet: A helpful tool for diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00754" />
+		<LinkItem ContentType="Answer" DocID="AN00425" LinkType="Internal" ObjectID="0D5D69BC-AD00-4EF9-AA583AA7ECCCB5CE" Title="Diabetes foods: Is honey a good substitute for sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00425" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01072" LinkType="Internal" ObjectID="0D045347-D493-491D-87747DC88EF2FAA9" Title="Bone and joint problems associated with diabetes" Url="http://www.mayoclinic.com/health/diabetes/AN01072" />
+		<LinkItem ContentType="Video" DocID="MM00641" LinkType="Internal" ObjectID="0798BB8E-A076-4530-A813B1FE5D082347" Title="Video: How diabetes affects your blood sugar" Url="http://www.mayoclinic.com/health/blood-sugar/MM00641" />
+		<LinkItem ContentType="Article" DocID="DA00140" LinkType="Internal" ObjectID="F137A4D5-E7FF-0DBD-19EFDE501E927526" Title="Amputation and diabetes: How to protect your feet" Url="http://www.mayoclinic.com/health/amputation-and-diabetes/DA00140" />
+		<LinkItem ContentType="Article" DocID="DA00005" LinkType="Internal" ObjectID="DBF746E8-C262-42D5-B930E93CDA7EF2FC" Title="Diabetes management: How lifestyle, daily routine affect blood sugar" Url="http://www.mayoclinic.com/health/diabetes-management/DA00005" />
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+		<LinkItem ContentType="Article" DocID="DA00131" LinkType="Internal" ObjectID="CCD93E60-E7FF-0DBD-16D4DC756C95973A" Title="Diabetes nutrition: Eating out when you have diabetes" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00131" />
+		<LinkItem ContentType="Article" DocID="DA00130" LinkType="Internal" ObjectID="CCD8D0D2-E7FF-0DBD-1147590923E8C5D8" Title="Diabetes nutrition: Including sweets in your meal plan" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00130" />
+		<LinkItem ContentType="Article" DocID="DA00129" LinkType="Internal" ObjectID="CCD8574E-E7FF-0DBD-17D0E039BF826AA0" Title="Reading food labels: Tips if you have diabetes" Url="http://www.mayoclinic.com/health/food-labels/DA00129" />
+		<LinkItem ContentType="Article" DocID="DA00007" LinkType="Internal" ObjectID="92AC67F3-1213-490C-92B735ECBA4127FA" Title="Blood sugar testing: Why, when and how" Url="http://www.mayoclinic.com/health/blood-sugar/DA00007" />
+		<LinkItem ContentType="Article" DocID="MY00924" LinkType="Internal" ObjectID="857E4CB1-9711-9A15-FC482EF2F728CE05" Title="Blood glucose meter: How to choose" Url="http://www.mayoclinic.com/health/blood-glucose-meter/MY00924" />
+		<LinkItem ContentType="Article" DocID="DA00077" LinkType="Internal" ObjectID="77362434-F554-430A-921AFCFD1A1843D6" Title="Your diabetes diet: Exchange lists" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00077" />
+		<LinkItem ContentType="Article" DocID="DA00008" LinkType="Internal" ObjectID="6AEAFB6E-1AD3-4135-895FD14C6101E152" Title="Diabetes care: 10 ways to avoid diabetes complications" Url="http://www.mayoclinic.com/health/diabetes-management/DA00008" />
+		<LinkItem ContentType="Article" DocID="DA00105" LinkType="Internal" ObjectID="636D1AE8-2008-4B4F-97235C8819FC5DCD" Title="Diabetes and exercise: When to monitor your blood sugar" Url="http://www.mayoclinic.com/health/diabetes-and-exercise/DA00105" />
+		<LinkItem ContentType="Article" DocID="DA00073" LinkType="Internal" ObjectID="4C506041-DDCD-48C8-9EC11A94ABDC4AF9" Title="Exchange list: Nonstarchy vegetables" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00073" />
+		<LinkItem ContentType="Article" DocID="DA00038" LinkType="Internal" ObjectID="167CE011-22E6-46C5-BC2634387D8E47AC" Title="Diabetes and menopause: A twin challenge" Url="http://www.mayoclinic.com/health/diabetes/DA00038" />
+		<LinkItem ContentType="Article" DocID="DA00027" LinkType="Internal" ObjectID="15BFEA7A-0FD3-4F24-B4F777100DAF60F1" Title="Diabetes diet: Create your healthy-eating plan" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00027" />
+		<LinkItem ContentType="Article" DocID="DA00125" LinkType="Internal" ObjectID="147B55E4-E7FF-0DBD-1F6F914B34826B5D" Title="Diabetes symptoms: When diabetes symptoms are a concern" Url="http://www.mayoclinic.com/health/diabetes-symptoms/DA00125" />
+		<LinkItem ContentType="Article" DocID="DA00010" LinkType="Internal" ObjectID="0D683502-920C-47E6-AE42F3355B6B8816" Title="Diabetes treatment: Using insulin to manage blood sugar" Url="http://www.mayoclinic.com/health/diabetes-treatment/DA00010" />
+		<LinkItem ContentType="Article" DocID="DA00088" LinkType="Internal" ObjectID="02E539B2-398D-43D8-ABF8B817F1901492" Title="Intensive insulin therapy: Achieving tight blood sugar control" Url="http://www.mayoclinic.com/health/intensive-insulin-therapy/DA00088" />
+		<LinkItem ContentType="Article" DocID="DA00013" LinkType="Internal" ObjectID="019020A5-D8EF-44ED-A1FC275B92B2D1A7" Title="Diabetes and dental care: Guide to a healthy mouth" Url="http://www.mayoclinic.com/health/diabetes/DA00013" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Disease" DocID="DS01168" LinkType="Internal" ObjectID="6A08F32B-C98C-76AC-13E6BEB06378AE2F" Title="Hyperglycemia in diabetes" Url="http://www.mayoclinic.com/health/hyperglycemia/DS01168" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,327 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00802
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/merkel-cell-carcinoma/DS00802
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-11
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3036" Title="Skin cancer">
+						<Keyword MCVID="3039" Title="Merkel cell carcinoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9E6107EE-E7FF-0DBD-1F9AB671F858C362
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				merkel cell carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				merkel cell cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				merkel cell tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				skin cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Merkel cell carcinoma is a rare type of skin cancer that usually appears as a flesh-colored or bluish-red nodule, often on your face, head or neck. Merkel cell carcinoma is also called neuroendocrine carcinoma of the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Merkel cell carcinoma most often develops in older people. Long-term sun exposure or a weak immune system may increase your risk of developing Merkel cell carcinoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Merkel cell carcinoma tends to grow fast and to spread quickly to other parts of your body. Treatment options for Merkel cell carcinoma often depend on whether the cancer has spread beyond the skin. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing Merkel cell carcinoma 
+" Caption="Merkel cell carcinoma is a rare, aggressive skin cancer. It appears as a painless, flesh-colored or bluish-red nodule growing on your skin. 
+" Height="60" Title="Merkel cell carcinoma" URI="/images/image_popup/thumbs/r7_merkelcell_thu.jpg" Width="60" />
+				<Image Alt="Photograph showing Merkel cell carcinoma 
+" Caption="Merkel cell carcinoma is a rare, aggressive skin cancer. It appears as a painless, flesh-colored or bluish-red nodule growing on your skin. 
+" Height="400" Title="Merkel cell carcinoma" URI="/images/image_popup/r7_merkelcell.jpg" Width="400" />
+				<HTML>
+					Merkel cell carcinoma is a rare, aggressive skin cancer. It appears as a painless, flesh-colored or bluish-red nodule growing on your skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first sign of Merkel cell carcinoma is usually a fast-growing, painless nodule (tumor) on your skin. The nodule may be skin colored or may appear in shades of red, blue or purple. Most Merkel cell carcinomas appear on the face, head or neck, but they can develop anywhere on your body, even on areas not exposed to sunlight. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you notice a mole, freckle or bump that is changing in size, shape or color, growing rapidly or bleeding easily after minor trauma, such as washing your skin or shaving, make an appointment with your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing Merkel cell carcinoma 
+" Caption="Merkel cell carcinoma is a rare, aggressive skin cancer. It appears as a painless, flesh-colored or bluish-red nodule growing on your skin. 
+" Height="60" Title="Merkel cell carcinoma" URI="/images/image_popup/thumbs/r7_merkelcell_thu.jpg" Width="60" />
+				<Image Alt="Photograph showing Merkel cell carcinoma 
+" Caption="Merkel cell carcinoma is a rare, aggressive skin cancer. It appears as a painless, flesh-colored or bluish-red nodule growing on your skin. 
+" Height="400" Title="Merkel cell carcinoma" URI="/images/image_popup/r7_merkelcell.jpg" Width="400" />
+				<HTML>
+					Merkel cell carcinoma is a rare, aggressive skin cancer. It appears as a painless, flesh-colored or bluish-red nodule growing on your skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes Merkel cell carcinoma. Merkel cell carcinoma begins in the Merkel cells. Merkel cells are found at the base of the outermost layer of your skin (epidermis). Merkel cells are connected to the nerve endings in the skin that are responsible for the sense of touch. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of Merkel cell carcinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive exposure to natural or artificial sunlight.&lt;/strong&gt; Being exposed to ultraviolet light, such as the light that comes from the sun or from tanning beds, increases your risk of Merkel cell carcinoma. The majority of Merkel cell carcinomas appear on skin surfaces frequently exposed to sun.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A weakened immune system.&lt;/strong&gt; People with weakened immune systems &amp;mdash; including those with HIV infection or those taking drugs that suppress the immune response &amp;mdash; are more likely to develop Merkel cell carcinoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of other skin cancers.&lt;/strong&gt; Merkel cell carcinoma is associated with the development of other skin cancers, such as basal cell or squamous cell carcinoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Your risk of Merkel cell carcinoma increases as you age. This cancer is most common in people older than age 50, though it can occur at any age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Light skin color.&lt;/strong&gt; Merkel cell carcinoma usually arises in people who have light-colored skin. Whites are much more likely to be affected by this skin cancer than are blacks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Cancer that spreads to other parts of the body&lt;/strong&gt; &lt;br /&gt;
+Even with treatment, Merkel cell carcinoma commonly spreads (metastasizes) beyond the skin. Merkel cell carcinoma tends to travel first to nearby lymph nodes. Later it may spread to your brain, bones, liver or lungs, where it can interfere with the functioning of these organs. Cancer that has metastasized is more difficult to treat and can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a mole, freckle or bump on your skin that concerns you, start by making an appointment with your family doctor or a general practitioner. If your doctor suspects you may have skin cancer, you&apos;ll likely be referred to a skin specialist (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For Merkel cell carcinoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of diagnostic tests do I need? How are these tests performed?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;How will you check my response to treatment?&lt;/li&gt;
+	&lt;li&gt;How likely is my condition to recur? What treatment options would be available in that case?&lt;/li&gt;
+	&lt;li&gt;What follow-up tests will I need to monitor for recurrence?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;How have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you spent a lot of time in the sun, or have you used tanning beds?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of other skin conditions, such as skin cancer or psoriasis? What treatments have you received for those conditions?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any immune system disorders? If so, what treatments have you received?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose Merkel cell carcinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will examine your skin for unusual moles, freckles, pigmented spots and other growths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of suspicious skin.&lt;/strong&gt; During a procedure called a skin biopsy, your doctor removes the tumor or a sample of the tumor from your skin. The sample is analyzed in a laboratory to look for signs of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the extent&lt;/strong&gt; &lt;br /&gt;
+Your doctor may use the following tests to help determine whether the cancer has spread beyond your skin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Sentinel node biopsy.&lt;/strong&gt; A sentinel node biopsy is a procedure to determine whether cancer has spread to your lymph nodes. This procedure involves injecting a dye near the cancer. The dye then flows through the lymphatic system to your lymph nodes.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The first lymph node that receives the dye is called the sentinel node. Your doctor removes this lymph node and looks for cancerous cells under a microscope. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may recommend a chest X-ray and a CT scan of your chest and abdomen to help determine whether the cancer has spread to other organs.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may also consider other imaging tests such as a positron emission tomography (PET) scan or an octreotide scan - a test that uses an injection of a radioactive tracer to check for the spread of cancer cells. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for Merkel cell carcinoma can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; During surgery, your doctor removes the tumor along with a border of normal skin surrounding the tumor. If there&apos;s evidence that the cancer has spread to lymph nodes in the area of the skin tumor, those lymph nodes are removed (lymph node dissection).
+	&lt;/p&gt;
+	&lt;p&gt;
+	The surgeon most often uses a scalpel to cut away the cancer. In some cases, your doctor may use a procedure called Mohs surgery. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	During Mohs surgery, thin layers of tissue are methodically removed and analyzed under the microscope to see whether they contain cancer cells. If cancer is found, the surgical process is repeated until cancer cells are no longer visible in the tissue. This type of surgery takes out less normal tissue - thereby reducing scarring - but ensures a tumor-free border of skin. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy involves directing high-energy beams, such as X-rays, at cancer cells. During radiation treatment, you&apos;re positioned on a table and a large machine moves around you, directing the beams to precise points on your body.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Radiation therapy is sometimes used after surgery to destroy any cancer cells that remain after the tumor is removed. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Radiation also may be used as the sole treatment in people who choose not to undergo surgery. Radiation can also be used to treat areas where the cancer has spread. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy uses drugs to kill the cancer cells. Chemotherapy drugs can be administered through a vein in your arm or taken as a pill or both.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may recommend chemotherapy if your Merkel cell carcinoma has spread to your lymph nodes or other organs in your body, or if it has returned despite treatment. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While exposure to sunlight isn&apos;t proved to cause Merkel cell carcinoma, it is considered a risk factor for this cancer. Reducing your sun exposure may reduce your risk of skin cancer. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid the sun during peak hours.&lt;/strong&gt; Avoid sun exposure as much as possible during the strongest sunlight hours of the day &amp;mdash; typically from 10 a.m. to 4 p.m. Move your outdoor activities to a time earlier in the morning or later in the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shield your skin and eyes.&lt;/strong&gt; Wear a wide-brimmed hat, tightly woven clothing and sunglasses with ultraviolet light (UV) protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply sunscreen liberally and often.&lt;/strong&gt; Use a broad-spectrum sunscreen with an SPF of at least 15. Apply sunscreen generously, and reapply every two hours &amp;mdash; or more often if you&apos;re swimming or perspiring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch for changes.&lt;/strong&gt; If you notice a mole, freckle or bump that&apos;s changing in size, shape or color, talk to your doctor. Most skin nodules never become cancer, but catching cancer in its early stages increases the chances that treatment will be successful.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Merkel cell carcinoma
+	</Title>
+	<Abstract>
+		Merkel cell carcinoma &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this aggressive skin cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00657" LinkType="Internal" ObjectID="B384DE16-2A5D-9994-E670963F50D3A098" Title="Video: Skin cancer &amp;mdash; How skin cancer develops" Url="http://www.mayoclinic.com/health/melanoma/MM00657" />
+		<LinkItem ContentType="SlideShow" DocID="DS00575" LinkType="Internal" ObjectID="11287FB2-A504-4685-BD105A052BE13370" Title="Slide show: Melanoma pictures to help identify skin cancer" Url="http://www.mayoclinic.com/health/melanoma/DS00575" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01304" LinkType="Internal" ObjectID="65329962-9362-DEE8-4A2B81FF86331B19" Title="Mohs surgery" Url="http://www.mayoclinic.com/health/mohs-surgery/MY01304" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00828" LinkType="Internal" ObjectID="063EDA79-9298-E2E5-B0F939A318F7037E" Title="Sentinel node biopsy" Url="http://www.mayoclinic.com/health/sentinel-node-biopsy/MY00828" />
+		<LinkItem ContentType="Disease" DocID="DS00190" LinkType="Internal" ObjectID="81E0130C-ACF2-4643-808CF68E16384B08" Title="Skin cancer" Url="http://www.mayoclinic.com/health/skin-cancer/DS00190" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,291 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00186
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/psychotherapy/MY00186
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-05
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3866" Title="Mental health">
+						<Keyword MCVID="3869" Title="Psychotherapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			470A84D0-E7FF-0DBD-14CBD2F07ED3D45E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				psychotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				talk therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				cognitive behavior therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				CBT
+			</MetaKeyword>
+			<MetaKeyword>
+				psychoanalysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psychotherapy is a general term for treating mental health problems by talking with a psychiatrist, psychologist or other mental health provider.
+&lt;/p&gt;
+&lt;p&gt;
+During psychotherapy, you learn about your condition and your moods, feelings, thoughts and behaviors. Psychotherapy helps you learn how to take control of your life and respond to challenging situations with healthy coping skills. 
+&lt;/p&gt;
+&lt;p&gt;
+There are many specific types of psychotherapy, each with its own approach. The type of psychotherapy that&apos;s right for you depends on your individual situation. Psychotherapy is also known as talk therapy, counseling, psychosocial therapy or, simply, therapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psychotherapy can be helpful in treating most mental health problems, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorders,&lt;/strong&gt; such as obsessive-compulsive disorder (OCD), phobias, panic disorder or post-traumatic stress disorder (PTSD)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mood disorders,&lt;/strong&gt; such as depression or bipolar disorder&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Addictions,&lt;/strong&gt; such as alcoholism, drug dependence or compulsive gambling&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating disorders,&lt;/strong&gt; such as anorexia or bulimia&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Personality disorders,&lt;/strong&gt; such as borderline personality disorder or dependent personality disorder&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schizophrenia&lt;/strong&gt; or other disorders that cause detachment from reality (psychotic disorders)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Not everyone who benefits from psychotherapy is diagnosed with a mental illness. Psychotherapy can help with a number of life&apos;s stresses and conflicts that can affect anyone. For example, it may help you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Resolve conflicts&lt;/strong&gt; with your partner or someone else in your life&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relieve anxiety or stress&lt;/strong&gt; due to work or other situations&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cope with major life changes,&lt;/strong&gt; such as divorce, the death of a loved one or the loss of a job&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn to manage unhealthy reactions,&lt;/strong&gt; such as road rage or passive-aggressive behavior&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Come to terms with an ongoing or serious physical health problem,&lt;/strong&gt; such as diabetes, cancer or ongoing (chronic) pain&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recover from physical or sexual abuse&lt;/strong&gt; or witnessing violence&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cope with sexual problems,&lt;/strong&gt; whether they&apos;re due to a physical or psychological cause&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep better,&lt;/strong&gt; if you have trouble getting to sleep or staying asleep (insomnia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, psychotherapy can be as effective as medications, such as antidepressants. However, depending on your specific situation, psychotherapy alone may not be enough to ease the symptoms of a mental health condition. You may also need medications or other treatments.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, there&apos;s little risk in having psychotherapy. But because it can explore painful feelings and experiences, you may feel emotionally uncomfortable at times. However, any risks are minimized by working with a skilled therapist who is able to match the type and intensity of therapy with your needs. The coping skills you learn can help you manage and conquer negative feelings and fears.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might decide on your own that you want to try psychotherapy, or a doctor, relative, friend or someone else may suggest psychotherapy to you. Here&apos;s how to get started: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find a therapist.&lt;/strong&gt; Get a referral from a doctor, health insurance plan, friend or other trusted source. Many employers offer counseling services or referrals through employee assistance programs (EAPs). You can also find a therapist on your own &amp;mdash; for instance, in the phone book or on the Internet, or through a local or state psychological association. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Understand the costs.&lt;/strong&gt; If you have health insurance, find out what coverage it offers for psychotherapy. Some health plans cover only a certain number of psychotherapy sessions a year. Also, talk to your therapist about fees and payment options.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Review your concerns.&lt;/strong&gt; Before your first appointment, think about what issues you&apos;d like to work on. While you also can sort this out with your therapist, having some sense in advance may provide a good starting point.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Check qualifications&lt;br /&gt;
+&lt;/strong&gt;Before seeing a psychotherapist, check his or her background, education, certification, and licensing. Psychotherapist is a general term, rather than a job title or indication of education, training or licensure.
+&lt;/p&gt;
+&lt;p&gt;
+Trained psychotherapists can have a number of different job titles, depending on their education and role. Most have a master&apos;s or doctoral degree with specific training in psychological counseling. Medical doctors who specialize in mental health (psychiatrists) can prescribe medications as well as provide psychotherapy.
+&lt;/p&gt;
+&lt;p&gt;
+Examples of psychotherapists include psychiatrists, psychologists, licensed professional counselors, licensed social workers, licensed marriage and family therapists, psychiatric nurses, or other licensed professionals with mental health training. 
+&lt;/p&gt;
+&lt;p&gt;
+Make sure that the therapist you choose meets state certification and licensing requirements for his or her particular discipline. The key is to find a skilled therapist who can match the type and intensity of therapy with your needs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Your first therapy session&lt;br /&gt;
+&lt;/strong&gt;Your first psychotherapy session is usually a time for the therapist to gather information about you and your needs. The therapist may ask you to fill out forms about your current and past physical and emotional health. It might take a few sessions for your therapist to fully understand your situation and concerns and to determine the best approach or course of action. 
+&lt;/p&gt;
+&lt;p&gt;
+The first session is also an opportunity for you to interview your therapist to see if his or her approach and personality are going to work for you. Make sure you understand:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of therapy will be used&lt;/li&gt;
+	&lt;li&gt;The goals of your treatment&lt;/li&gt;
+	&lt;li&gt;The length of each session&lt;/li&gt;
+	&lt;li&gt;How many therapy sessions you may need&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime during your appointment. If you don&apos;t feel comfortable with the first psychotherapist you see, try someone else. Having a good fit with your therapist is critical for psychotherapy to be effective.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Starting psychotherapy&lt;br /&gt;
+&lt;/strong&gt;A therapist may have an office in a medical clinic or an office building or have a home office. You&apos;ll probably meet with your therapist once a week or every other week for a session that lasts 45 to 60 minutes. Psychotherapy, usually in a group session with a focus on safety and stabilization, also can take place in a hospital if you&apos;ve been admitted for treatment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of psychotherapy&lt;br /&gt;
+&lt;/strong&gt;There are a number of effective types of psychotherapy. Some work better than others in treating certain disorders and conditions. In many cases, therapists use a combination of techniques. Your therapist will consider your particular situation and preferences to determine which approach may be best for you.
+&lt;/p&gt;
+&lt;p&gt;
+Although many subtypes and variations on therapies exist, some psychotherapy techniques proven to be effective include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive behavioral therapy,&lt;/strong&gt; which helps you identify unhealthy, negative beliefs and behaviors and replace them with healthy, positive ones&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dialectical behavior therapy,&lt;/strong&gt; a type of cognitive behavioral therapy that teaches behavioral skills to help you handle stress, manage your emotions and improve your relationships with others&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acceptance and commitment therapy,&lt;/strong&gt; which helps you become aware of and accept your thoughts and feelings and commit to making changes, increasing your ability to cope with and adjust to situations&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychodynamic and psychoanalysis therapies,&lt;/strong&gt; which focus on increasing your awareness of unconscious thoughts and behaviors, developing new insights into your motivations, and resolving conflicts&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Interpersonal psychotherapy,&lt;/strong&gt; which focuses on addressing problems with your current relationships with other people to improve your interpersonal skills &amp;mdash; how you relate to others, such as family, friends and colleagues&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supportive psychotherapy,&lt;/strong&gt; which reinforces your ability to cope with stress and difficult situations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Psychotherapy is offered in different formats, including individual, couple, family or group therapy sessions, and it can be effective for all age groups.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During psychotherapy&lt;br /&gt;
+&lt;/strong&gt;For most types of psychotherapy, your therapist encourages you to talk about your thoughts and feelings and what&apos;s troubling you. Don&apos;t worry if you find it hard to open up about your feelings. Your therapist can help you gain more confidence and comfort as time goes on.
+&lt;/p&gt;
+&lt;p&gt;
+Because psychotherapy sometimes involves intense emotional discussions, you may find yourself crying, upset or even having an angry outburst during a session. Some people may feel physically exhausted after a session. Your therapist is there to help you cope with such feelings and emotions.
+&lt;/p&gt;
+&lt;p&gt;
+Your therapist may ask you to do &quot;homework&quot; &amp;mdash; activities or practices that build on what you learn during your regular therapy sessions. Over time, discussing your concerns can help improve your mood, change the way you think and feel about yourself, and improve your ability to cope with problems.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Confidentiality&lt;br /&gt;
+&lt;/strong&gt;Except in very specific circumstances, conversations with your therapist are confidential. However, a therapist may break confidentiality if there is an immediate threat to safety or when required by state or federal law to report concerns to authorities. These situations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Threatening to immediately or soon (imminently) harm yourself or commit suicide&lt;/li&gt;
+	&lt;li&gt;Threatening to immediately or soon (imminently) harm or take the life of another person&lt;/li&gt;
+	&lt;li&gt;Abusing a child or a vulnerable adult (someone older than age 18 who is hospitalized or made vulnerable by a disability)&lt;/li&gt;
+	&lt;li&gt;Being unable to safely care for yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Length of psychotherapy&lt;br /&gt;
+&lt;/strong&gt;The number of psychotherapy sessions you need &amp;mdash; and how frequently you need to see your therapist &amp;mdash; depends on such factors as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your particular mental illness or situation&lt;/li&gt;
+	&lt;li&gt;Severity of your symptoms&lt;/li&gt;
+	&lt;li&gt;How long you&apos;ve had symptoms or have been dealing with your situation&lt;/li&gt;
+	&lt;li&gt;How quickly you make progress&lt;/li&gt;
+	&lt;li&gt;How much stress you&apos;re experiencing&lt;/li&gt;
+	&lt;li&gt;How much your mental health concerns interfere with day-to-day life&lt;/li&gt;
+	&lt;li&gt;How much support you receive from family members and others&lt;/li&gt;
+	&lt;li&gt;Cost and insurance limitations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It may take only weeks to help you cope with a short-term situation. Or, treatment may last a year or longer if you have a long-term mental illness or other long-term concerns. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psychotherapy may not cure your condition or make an unpleasant situation go away. But it can give you the power to cope in a healthy way and to feel better about yourself and your life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Getting the most out of psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Take steps to get the most out of your therapy and help make it a success. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure you feel comfortable with your therapist.&lt;/strong&gt; If you don&apos;t, look for another therapist with whom you feel more at ease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Approach therapy as a partnership.&lt;/strong&gt; Therapy is most effective when you&apos;re an active participant and share in decision making. Make sure you and your therapist agree about the major issues and how to tackle them. Together, you can set goals and measure progress over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be open and honest.&lt;/strong&gt; Success with psychotherapy depends on your willingness to share your thoughts, feelings and experiences. It also depends on your willingness to consider new insights, ideas and ways of doing things. If you&apos;re reluctant to talk about certain things because of painful emotions, embarrassment or fears about your therapist&apos;s reaction, let your therapist know.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; If you feel down or lack motivation, it may be tempting to skip psychotherapy sessions. Doing so can disrupt your progress. Try to attend all sessions and to give some thought to what you want to discuss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t expect instant results.&lt;/strong&gt; Working on emotional issues can be painful and may require hard work. It&apos;s not uncommon to feel worse during the initial part of therapy as you begin to confront past and current conflicts. You may need several sessions before you begin to see improvement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do your homework between sessions.&lt;/strong&gt; If your therapist asks you to document your thoughts in a journal or do other activities outside of your therapy sessions, follow through. These homework assignments can help you apply what you&apos;ve learned in the therapy sessions to your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If psychotherapy isn&apos;t helping, talk to your therapist.&lt;/strong&gt; If you don&apos;t feel that you&apos;re benefiting from therapy after several sessions, talk to your therapist about it. You and your therapist may decide to make some changes or try a different approach that may be more effective.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Psychotherapy
+	</Title>
+	<Abstract>
+		Psychotherapy &amp;mdash; Overview covers definition, risks and results of this mental health treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00814" LinkType="Internal" ObjectID="E0F45336-B87B-5407-FEA8BFFF3FEB95AD" Title="Family therapy" Url="http://www.mayoclinic.com/health/family-therapy/MY00814" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00194" LinkType="Internal" ObjectID="6A932FE2-E7FF-0DBD-15A1B22BF9201628" Title="Cognitive behavioral therapy" Url="http://www.mayoclinic.com/health/cognitive-behavioral-therapy/MY00194" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01349" LinkType="Internal" ObjectID="411B1F8A-9EF7-00F1-228FEBB642AED83F" Title="Sex therapy" Url="http://www.mayoclinic.com/health/sex-therapy/MY01349" />
+		<LinkItem ContentType="Article" DocID="MY01650" LinkType="Internal" ObjectID="5727E251-F748-A208-60315DF916924E2B" Title="Mental health providers: Tips on finding one" Url="http://www.mayoclinic.com/health/mental-health-providers/MY01650" />
+		<LinkItem ContentType="Disease" DocID="DS00966" LinkType="Internal" ObjectID="3729F9F9-E7FF-0DBD-156250D33BC0E41A" Title="Hoarding" Url="http://www.mayoclinic.com/health/hoarding/DS00966" />
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+	</RelatedLinksBox>
+</TestProcedure>

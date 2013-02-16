@@ -1,0 +1,269 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01010
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nightmares/DS01010
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-12
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3971" Title="Sleep conditions">
+						<Keyword MCVID="3974" Title="Nightmares" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2CFFEEF5-E7FF-0DBD-1D46726E75B99CF3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nightmares
+			</MetaKeyword>
+			<MetaKeyword>
+				nightmare
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nightmares are disturbing dreams associated with negative feelings, such as anxiety or fear. Nightmares are common. They may begin in childhood and tend to decrease after about age 10. However, some people have them as teens or adults, or throughout their lives. 
+&lt;/p&gt;
+&lt;p&gt;
+Until age 13, boys and girls have nightmares in equal numbers. At age 13, nightmares become more prevalent in girls than boys. 
+&lt;/p&gt;
+&lt;p&gt;
+Nightmares seem real, often becoming more disturbing as the dream unfolds. But nightmares usually are nothing to worry about. They may become a problem if you have them frequently and they cause you to fear going to sleep or keep you from sleeping well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nightmares are referred to by doctors as parasomnias &amp;mdash; undesirable experiences that occur during sleep, usually during the stage of sleep known as rapid eye movement (REM). You&apos;ve had a nightmare if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your dream wakes you&lt;/li&gt;
+	&lt;li&gt;You feel scared, anxious, angry, sad or disgusted as a result of your dream&lt;/li&gt;
+	&lt;li&gt;You can think clearly upon awakening, and can recall details of your dream&lt;/li&gt;
+	&lt;li&gt;Your dream occurs near the end of your sleep time&lt;/li&gt;
+	&lt;li&gt;Your dream keeps you from falling back to sleep easily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children&apos;s nightmare content varies with age, typically becoming more complex. While a young child might dream of monsters, an older child might have nightmares about school or difficulties at home.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Occasional nightmares aren&apos;t usually a cause for concern. If your child has nightmares, you can simply mention them at a routine well-child exam. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor earlier if nightmares: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Occur frequently and persist over time&lt;/li&gt;
+	&lt;li&gt;Routinely disrupt sleep&lt;/li&gt;
+	&lt;li&gt;Cause fear of going to sleep&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nightmares can be associated with another sleep disorder. Many other factors can trigger nightmares, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Sometimes the ordinary stresses of daily life, such as a problem at home or school, trigger nightmares. A major change, such as a move or the death of a loved one, can have the same effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; Nightmares are common after an accident, injury or other traumatic event. Nightmares are prominent in post-traumatic stress disorder (PTSD).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scary books and movies.&lt;/strong&gt; Reading scary books or watching scary movies, especially before bed, can cause nightmares.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bedtime snacks.&lt;/strong&gt; For some, eating right before bed &amp;mdash; and the resulting boost in metabolism and brain activity &amp;mdash; leads to nightmares.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Illness.&lt;/strong&gt; Sometimes being sick triggers nightmares, especially if the illness is accompanied by a fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Some drugs &amp;mdash; including certain antidepressants, narcotics, barbiturates, beta blockers and drugs used to treat Parkinson&apos;s disease &amp;mdash; can trigger nightmares.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Substance abuse.&lt;/strong&gt; Alcohol and illegal drugs can trigger nightmares.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most nightmares occur during rapid eye movement (REM) sleep. You normally go through four to six sleep cycles a night, cycling through the sleep stages in about 90 minutes. Your REM stage lengthens with each cycle, from several seconds in the first cycle to up to an hour in the last. You&apos;re more likely to have a nightmare in the last third of your night.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Occasional nightmares usually aren&apos;t a concern, but regularly disrupted sleep can be. It can cause excessive daytime sleepiness, which can lead to difficulties at school or work, or problems with everyday tasks such as driving.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For children, nightmares tend to decrease by the time they&apos;re adolescents. However, if you have concerns about safety or underlying conditions, you may want to see your doctor. Your doctor may refer you to a sleep specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to prepare for your appointment. Here&apos;s some information to help you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a sleep diary.&lt;/strong&gt; Keeping a sleep diary for two weeks before your appointment can help your doctor understand more about your or your child&apos;s sleeping pattern. In the morning, you record as much as you know of your or your child&apos;s bedtime ritual, quality of sleep, and so on. At the end of the day, you record behaviors that may affect your or your child&apos;s sleep, such as caffeine consumption and any medications taken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing&lt;/strong&gt;, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along&lt;/strong&gt;, if possible. Someone who accompanies you can help you remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For nightmares, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do the nightmares occur, and what are they about?&lt;/li&gt;
+	&lt;li&gt;What do you usually do before bedtime?&lt;/li&gt;
+	&lt;li&gt;Have you had sleep problems in the past?&lt;/li&gt;
+	&lt;li&gt;Does anyone else in your family have sleep problems?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no tests routinely done to diagnose nightmares. Occasionally, if your sleep is severely disturbed, your doctor may recommend an overnight sleep study to help determine if the nightmares are connected to another sleep disorder. Nightmares should be distinguished from night terrors, another parasomnia in which you are likely to sit up, scream, talk, thrash and kick, and, for older adults, REM sleep behavior disorder, which involves the acting out of dreams.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sleep studies&lt;br /&gt;
+&lt;/strong&gt;To participate in a sleep study, also known as a polysomnogram, you&apos;ll likely spend the night in a sleep lab. Sensors that send electrical signals will be placed on various parts of your body, and a monitor will be attached to your finger. In some studies, a video camera will record your sleep. Throughout the night, the sensors will record your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heartbeat&lt;/li&gt;
+	&lt;li&gt;Brain waves&lt;/li&gt;
+	&lt;li&gt;Breathing&lt;/li&gt;
+	&lt;li&gt;Eye movements&lt;/li&gt;
+	&lt;li&gt;Leg movements&lt;/li&gt;
+	&lt;li&gt;Muscle tension&lt;/li&gt;
+	&lt;li&gt;Blood oxygen level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will review the information to determine whether you have any sleep disorders. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for nightmares isn&apos;t usually necessary. If the nightmares are associated with an underlying medical or mental health condition, treatment is aimed at the underlying problem. If stress or anxiety seems to be contributing to the nightmares, your doctor may suggest stress-reduction techniques, counseling or therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Medication is rarely used to treat nightmares. However, medications that reduce REM sleep or reduce awakenings during sleep may be recommended if you have severe sleep disturbance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imagery rehearsal therapy&lt;br /&gt;
+&lt;/strong&gt;Often used with people who have nightmares as a result of PTSD, imagery rehearsal therapy involves changing the ending to your remembered nightmare while awake so that it&apos;s no longer threatening. You then rehearse the new ending in your mind. This approach may decrease the frequency of nightmares.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having nightmares, try some relaxation techniques before bedtime. Take a warm bath, meditate or practice deep breathing. If your child is struggling with nightmares, be patient, calm and reassuring. Sometimes a little creativity helps, too.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Talk about the dream.&lt;/strong&gt; Ask your child to describe the nightmare. What happened? Who was in the dream? What made it scary? Then remind your child that nightmares aren&apos;t real and can&apos;t hurt you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Put stress in its place.&lt;/strong&gt; If your child seems anxious or stressed, talk about what&apos;s bothering him or her. Practice some simple stress-relief activities, such as deep breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rewrite the ending.&lt;/strong&gt; As in imagery rehearsal therapy, help your child imagine a happy ending for the nightmare. Encourage your child to draw a picture of the nightmare, &quot;talk&quot; to the characters in the nightmare or write about the nightmare in a journal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide company.&lt;/strong&gt; Your child might feel more secure if he or she sleeps with a favorite stuffed animal, blanket or other comfort object.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlist a guard.&lt;/strong&gt; If your child is very young, you might assign a doll or stuffed animal the job of &quot;staying awake&quot; all night to guard against nightmares.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brighten up.&lt;/strong&gt; Use a night light in your child&apos;s room. If your child wakes up during the night, the light might be reassuring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open the doors.&lt;/strong&gt; Leave your child&apos;s door open at night so that he or she won&apos;t feel alone. Leave your door open, too, in case your child needs comfort during the night.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Safety counts, too. If your child has frequent nightmares, make sure his or her bedroom is safe. Skip the bunk beds, and consider blocking doorways or stairways with a gate in case your child tries to run after he or she wakes up.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nightmares
+	</Title>
+	<Abstract>
+		Nightmares &amp;mdash; Comprehensive overview covers causes and treatment of scary dreams.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

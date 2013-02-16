@@ -1,0 +1,146 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01128
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stress/AN01128
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-23
+		</UpdateDate>
+		<PublicationDate>
+			2005-07-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="3290" Title="Stress basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D647C373-9E9F-43D1-BFB5BE1408F55891
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				weight gain
+			</MetaKeyword>
+			<MetaKeyword>
+				emotional eating
+			</MetaKeyword>
+			<MetaKeyword>
+				relaxation
+			</MetaKeyword>
+			<MetaKeyword>
+				stress eating
+			</MetaKeyword>
+			<MetaKeyword>
+				stress reduction
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+When you&apos;re under stress, you may find it harder to eat healthy. Also, during times of particularly high stress, you may eat in an attempt to fulfill emotional needs &amp;mdash; sometimes called stress eating or emotional eating. And you may be especially likely to eat high-calorie foods during times of stress, even when you&apos;re not hungry.
+&lt;/p&gt;
+&lt;p&gt;
+To prevent weight gain during stress and reduce the risk of obesity, get a handle on your stress. When you feel less stressed and more in control of your life, you may find it easier to stick to healthy eating and exercise habits. 
+&lt;/p&gt;
+&lt;p&gt;
+Try these stress management techniques to combat stress-related weight gain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recognize the warning signs of stress, such as anxiety, irritability and muscle tension.&lt;/li&gt;
+	&lt;li&gt;Before eating, ask yourself why you&apos;re eating &amp;mdash; are you truly hungry or do you feel stressed or anxious?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re tempted to eat when you&apos;re not hungry, find a distraction.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t skip meals, especially breakfast.&lt;/li&gt;
+	&lt;li&gt;Identify comfort foods and keep them out of your home or office.&lt;/li&gt;
+	&lt;li&gt;Keep a record of your behavior and eating habits so that you can look for patterns and connections &amp;mdash; and then figure out how to overcome them.&lt;/li&gt;
+	&lt;li&gt;Learn problem-solving skills so that you can anticipate challenges and cope with setbacks.&lt;/li&gt;
+	&lt;li&gt;Practice relaxation skills, such as yoga, massage or meditation.&lt;/li&gt;
+	&lt;li&gt;Engage in regular physical activity or exercise.&lt;/li&gt;
+	&lt;li&gt;Get adequate sleep.&lt;/li&gt;
+	&lt;li&gt;Get encouragement from supportive friends and family.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you try stress management techniques on your own but they don&apos;t seem to be working, consider seeking professional help through psychotherapy or counseling. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stress and weight gain
+	</Title>
+	<Abstract>
+		Stress management, relaxation skills are key to preventing stress-related weight gain.
+	</Abstract>
+	<Question>
+		How do I control stress-induced weight gain?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02168" LinkType="Internal" ObjectID="42BFA803-BAEE-25AB-8E0670108F7BF416" Title="Stop multitasking and learn how to focus" Url="http://www.mayoclinic.com/health/how-to-focus/AN02168" />
+		<LinkItem ContentType="Article" DocID="MY01976" LinkType="Internal" ObjectID="AFDA76C9-F998-E928-3C4546E31A6A9DBD" Title="Empty nest syndrome: Tips for coping" Url="http://www.mayoclinic.com/health/empty-nest-syndrome/MY01976" />
+		<LinkItem ContentType="Article" DocID="HE00002" LinkType="Internal" ObjectID="99AA7BEE-2A5D-9994-E3CB19C93755C16D" Title="Headaches: Reduce stress to prevent the pain" Url="http://www.mayoclinic.com/health/headaches/HE00002" />
+		<LinkItem ContentType="Answer" DocID="AN01442" LinkType="Internal" ObjectID="D602A979-E7FF-0DBD-1437879F210D33EB" Title="Stress and hair loss: Are they related?" Url="http://www.mayoclinic.com/health/stress-and-hair-loss/AN01442" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN01286" LinkType="Internal" ObjectID="ACA4A132-2A5D-9994-E6C4E01A48F09A7D" Title="Chronic stress: Can it cause depression?" Url="http://www.mayoclinic.com/health/stress/AN01286" />
+		<LinkItem ContentType="Answer" DocID="AN01768" LinkType="Internal" ObjectID="ABD85560-E7FF-0DBD-10C087AC4FA6D796" Title="Normal stress or adjustment disorder?" Url="http://www.mayoclinic.com/health/adjustment-disorder/AN01768" />
+		<LinkItem ContentType="SelfAssessment" DocID="SR00029" LinkType="Internal" ObjectID="47D87EFD-2A5D-9994-E3522C6D5B4F1A58" Title="Stress assessment: Rate your stress level" Url="http://www.mayoclinic.com/health/stress-assessment/SR00029" />
+		<LinkItem ContentType="Disease" DocID="DS00584" LinkType="Internal" ObjectID="2D2E338B-DCF4-45FD-ADD551D9C8804E96" Title="Adjustment disorders" Url="http://www.mayoclinic.com/health/adjustment-disorders/DS00584" />
+		<LinkItem ContentType="Disease" DocID="DS00246" LinkType="Internal" ObjectID="181CCBB4-A467-4D76-A3488529DC3DBEE9" Title="Post-traumatic stress disorder (PTSD)" Url="http://www.mayoclinic.com/health/post-traumatic-stress-disorder/DS00246" />
+		<LinkItem ContentType="Article" DocID="SR00001" LinkType="Internal" ObjectID="76F75B48-39C9-42CE-AC10563A6FFB68E8" Title="Stress: Constant stress puts your health at risk" Url="http://www.mayoclinic.com/health/stress/SR00001" />
+		<LinkItem ContentType="Article" DocID="MY01357" LinkType="Internal" ObjectID="649C0F2F-E1B2-CA0A-604800B622E13A00" Title="How to be happy: Tips for cultivating contentment" Url="http://www.mayoclinic.com/health/how-to-be-happy/MY01357" />
+		<LinkItem ContentType="Article" DocID="SR00032" LinkType="Internal" ObjectID="15AC47CB-E7FF-0DBD-1E403F470F686D23" Title="Stress management: Re-examine your stress reactions" Url="http://www.mayoclinic.com/health/stress-management/SR00032" />
+		<LinkItem ContentType="Article" DocID="SR00031" LinkType="Internal" ObjectID="11188EF9-E7FF-0DBD-1F000BF4D482945B" Title="Stress management: Identify your sources of stress" Url="http://www.mayoclinic.com/health/stress-management/SR00031" />
+	</RelatedLinksBox>
+</Answer>

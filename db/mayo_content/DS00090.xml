@@ -1,0 +1,390 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00090
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gout/DS00090
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="2793" Title="Other">
+							<Keyword MCVID="1725" Title="Gout" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1C6AE49A-1AEF-4703-977D997913B58BD1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gout
+			</MetaKeyword>
+			<MetaKeyword>
+				toe
+			</MetaKeyword>
+			<MetaKeyword>
+				toe pain
+			</MetaKeyword>
+			<MetaKeyword>
+				purines
+			</MetaKeyword>
+			<MetaKeyword>
+				uric acid
+			</MetaKeyword>
+			<MetaKeyword>
+				pseudogout
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gout is characterized by sudden, severe attacks of pain, redness and tenderness in joints, often the joint at the base of the big toe.
+&lt;/p&gt;
+&lt;p&gt;
+Gout &amp;mdash; a complex form of arthritis &amp;mdash; can affect anyone. Men are more likely to get gout, but women become increasingly susceptible to gout after menopause.
+&lt;/p&gt;
+&lt;p&gt;
+An acute attack of gout can wake you up in the middle of the night with the sensation that your big toe is on fire. The affected joint is hot, swollen and so tender that even the weight of the sheet on it may seem intolerable.
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, gout is treatable, and there are ways to reduce the risk that gout will recur.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of gout are almost always acute, occurring suddenly &amp;mdash; often at night &amp;mdash; and without warning. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intense joint pain.&lt;/strong&gt; Gout usually affects the large joint of your big toe, but it can occur in your feet, ankles, knees, hands and wrists. The pain is likely to be most severe within the first 12 to 24 hours after it begins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lingering discomfort.&lt;/strong&gt; After the most severe pain subsides, some joint discomfort may last from a few days to a few weeks. Later attacks are likely to last longer and affect more joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation and redness.&lt;/strong&gt; The affected joint or joints become swollen, tender and red.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience sudden, intense pain in a joint, call your doctor. Gout that goes untreated can lead to worsening pain and joint damage.
+&lt;/p&gt;
+&lt;p&gt;
+Seek medical care immediately if you have a fever and a joint is hot and inflamed, which can be a sign of infection. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing gout in the big toe 
+" Caption="Gout causes intense pain and swelling around one or more joints. Gout most commonly affects the joint at the base of the big toe. 
+" Height="60" Title="Gout" URI="/images/image_popup/thumbs/r7_goutthu.jpg" Width="60" />
+				<Image Alt="Illustration showing gout in the big toe 
+" Caption="Gout causes intense pain and swelling around one or more joints. Gout most commonly affects the joint at the base of the big toe. 
+" Height="384" Title="Gout" URI="/images/image_popup/r7_gout.jpg" Width="400" />
+				<HTML>
+					Gout causes intense pain and swelling around one or more joints. Gout most commonly affects the joint at the base of the big toe. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gout occurs when urate crystals accumulate in your joint, causing the inflammation and intense pain of a gout attack. Urate crystals can form when you have high levels of uric acid in your blood. Your body produces uric acid when it breaks down purines &amp;mdash; substances that are found naturally in your body, as well as in certain foods, such as organ meats, anchovies, herring, asparagus and mushrooms. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, uric acid dissolves in your blood and passes through your kidneys into your urine. But sometimes your body either produces too much uric acid or your kidneys excrete too little uric acid. When this happens, uric acid can build up, forming sharp, needle-like urate crystals in a joint or surrounding tissue that cause pain, inflammation and swelling.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re more likely to develop gout if you have high levels of uric acid in your body. Factors that increase the uric acid level in your body include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifestyle factors.&lt;/strong&gt; Choices you make in your everyday life may increase your risk of gout. Excessive alcohol use &amp;mdash; generally more than two drinks a day for men and more than one for women &amp;mdash; increases the risk of gout.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions.&lt;/strong&gt; Certain diseases and conditions make it more likely that you&apos;ll develop gout. These include untreated high blood pressure (hypertension) and chronic conditions such as diabetes, high levels of fat and cholesterol in the blood (hyperlipidemia), and narrowing of the arteries (arteriosclerosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; The use of thiazide diuretics &amp;mdash; commonly used to treat hypertension &amp;mdash; and low-dose aspirin also can increase uric acid levels. So can the use of anti-rejection drugs prescribed for people who have undergone an organ transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of gout.&lt;/strong&gt; If other members of your family have had gout, you&apos;re more likely to develop the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age and sex.&lt;/strong&gt; Gout occurs more often in men than it does in women, primarily because women tend to have lower uric acid levels than men do. After menopause, however, women&apos;s uric acid levels approach those of men. Men also are more likely to develop gout earlier &amp;mdash; usually between the ages of 40 and 50 &amp;mdash; whereas women generally develop signs and symptoms after menopause.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with gout can develop more-severe conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Recurrent gout.&lt;/strong&gt; Some people may never experience gout signs and symptoms again. But others may experience gout several times each year. Medications may help prevent gout attacks in people with recurrent gout.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Advanced gout.&lt;/strong&gt; Untreated gout may cause deposits of urate crystals to form under the skin in nodules called tophi (TOE-fi). Tophi can develop in several areas such as your fingers, hands, feet, elbows or Achilles tendons along the back of your ankle. Tophi usually aren&apos;t painful, but they can become swollen and tender during gout attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney stones.&lt;/strong&gt; Urate crystals may collect in the urinary tract of people with gout, causing kidney stones. Medications can help reduce the risk of kidney stones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have symptoms that are common to gout. After an initial examination, your doctor may refer you to a specialist in the diagnosis and treatment of arthritis and other inflammatory joint conditions (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how often they occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note important personal information,&lt;/strong&gt; such as any recent changes or major stressors in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking. Your doctor will also want to know if you have any family history of gout.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask the doctor at the initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the possible causes of my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;If these tests don&apos;t pinpoint the cause of my symptoms, what additional tests might I need?&lt;/li&gt;
+	&lt;li&gt;Are there any treatments or lifestyle changes that might help my symptoms now?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions while we&apos;re seeking a diagnosis?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you are referred to a rheumatologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have gout?&lt;/li&gt;
+	&lt;li&gt;What treatments are most likely to help me feel better?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the drugs you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;If these drugs cause serious side effects or fail to work, what will we try next?&lt;/li&gt;
+	&lt;li&gt;How soon after beginning treatment should my symptoms start to improve?&lt;/li&gt;
+	&lt;li&gt;Do I need to take medications long term?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any changes to my diet? &lt;/li&gt;
+	&lt;li&gt;Is it safe for me to drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Are there any handouts or websites that you&apos;d recommend for me to learn more about my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If any additional questions occur to you during your medical appointments, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;In what part of your body do your symptoms occur?&lt;/li&gt;
+	&lt;li&gt;When did you first experience these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms come and go? How often?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger your symptoms, such as certain foods or physical or emotional stress?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including over-the-counter and prescription drugs as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Do any of your first-degree relatives &amp;mdash; such as a parent or sibling &amp;mdash; have a history of gout?&lt;/li&gt;
+	&lt;li&gt;What do you eat in a typical day?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? If so, how much and how often?&lt;/li&gt;
+	&lt;li&gt;What else concerns you?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to help diagnose gout may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joint fluid test.&lt;/strong&gt; Your doctor may use a needle to draw fluid from your affected joint. When examined under the microscope, your joint fluid may reveal urate crystals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Your doctor may recommend a blood test to measure the uric acid level in your blood. Blood test results can be misleading, though. Some people have high uric acid levels, but never experience gout. And some people have signs and symptoms of gout, but don&apos;t have unusual levels of uric acid in their blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for gout usually involves medications. What medications you and your doctor choose will be based on your current health and your own preferences. Gout medications can be used to treat acute attacks and prevent future attacks as well as reduce your risk of complications from gout, such as the development of tophi from urate crystal deposits.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications to treat gout attacks&lt;br /&gt;
+&lt;/strong&gt;Drugs used to treat acute attacks and prevent future attacks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; NSAIDs may control inflammation and pain in people with gout. Your doctor may prescribe a higher dose to stop an acute attack, followed by a lower daily dose to prevent future attacks.
+	&lt;/p&gt;
+	&lt;p&gt;
+	NSAIDs include over-the-counter options such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others), as well as more-powerful prescription NSAIDs such as indomethacin (Indocin). NSAIDs carry risks of stomach pain, bleeding and ulcers.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Colchicine.&lt;/strong&gt; If you&apos;re unable to take NSAIDs, your doctor may recommend colchicine (Colcrys), a type of pain reliever that effectively reduces gout pain &amp;mdash; especially when started soon after symptoms appear. The drug&apos;s effectiveness is offset in most cases, however, by intolerable side effects, such as nausea, vomiting and diarrhea.
+	&lt;/p&gt;
+	&lt;p&gt;
+	After an acute gout attack resolves, your doctor may prescribe a low daily dose of colchicine to prevent future attacks.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Corticosteroid medications, such as the drug prednisone, may control gout inflammation and pain. Corticosteroids may be administered in pill form, or they can be injected into your joint. Your doctor might inject a corticosteroid medication during the same visit as a joint fluid test &amp;mdash; where he or she withdraws (aspirates) fluid from your joint with a needle. Corticosteroids are generally reserved for people who can&apos;t take either NSAIDs or colchicine.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Side effects of corticosteroids may include thinning bones, poor wound healing and a decreased ability to fight infection. To reduce the risk of these serious side effects, your doctor will try to find the lowest dose that controls your symptoms and prescribe steroids for the shortest possible time.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications to prevent gout complications&lt;br /&gt;
+&lt;/strong&gt;If you experience several gout attacks each year or if your gout attacks are less frequent but particularly painful, your doctor may recommend medication to reduce your risk of gout-related complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications that block uric acid production.&lt;/strong&gt; Drugs called xanthine oxidase inhibitors, including allopurinol (Aloprim, Lopurin, Zyloprim) and febuxostat (Uloric), limit the amount of uric acid your body makes. This may lower your blood&apos;s uric acid level and reduce your risk of gout. Side effects of allopurinol include a rash and low blood counts. Febuxostat side effects include rash, nausea and reduced liver function.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Xanthine oxidase inhibitors may trigger a new, acute attack if taken before a recent attack has totally resolved. Taking a short course of low-dose colchicine before starting a xanthine oxidase inhibitor has been found to significantly reduce this risk.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication that improves uric acid removal.&lt;/strong&gt; Probenecid (Probalan) improves your kidneys&apos; ability to remove uric acid from your body. This may lower your uric acid levels and reduce your risk of gout, but the level of uric acid in your urine is increased. Side effects include a rash, stomach pain and kidney stones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medications are the most proven, effective way to treat gout symptoms. However, making certain changes to your diet also may help.
+&lt;/p&gt;
+&lt;p&gt;
+The American Dietetic Association recommends following these guidelines during a gout attack: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drink 8 to 16 cups (about 2 to 4 liters) of fluid each day, with at least half being water.&lt;/li&gt;
+	&lt;li&gt;Avoid alcohol.&lt;/li&gt;
+	&lt;li&gt;Eat a moderate amount of protein, preferably from healthy sources, such as low-fat or fat-free dairy, tofu, eggs, and nut butters.&lt;/li&gt;
+	&lt;li&gt;Limit your daily intake of meat, fish and poultry to 4 to 6 ounces (113 to 170 grams).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If gout treatments aren&apos;t working as well as you&apos;d hoped, you may be interested in trying an alternative approach. Before trying such a treatment on your own, talk with your doctor &amp;mdash; to weigh the benefits and risks and learn whether the treatment might interfere with your gout medication. Because there isn&apos;t a lot of research on alternative therapies for gout, however, in some cases the risks aren&apos;t known.
+&lt;/p&gt;
+&lt;p&gt;
+Certain foods have been studied for their potential to lower uric acid levels, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Coffee.&lt;/strong&gt; Studies have found an association between coffee drinking &amp;mdash; both regular and decaffeinated coffee &amp;mdash; and lower uric acid levels, though no study has demonstrated how or why coffee may have such an effect. The available evidence isn&apos;t enough to encourage noncoffee drinkers to start, but it may give researchers clues to new ways of treating gout in the future.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin C.&lt;/strong&gt; Supplements containing vitamin C may reduce the levels of uric acid in your blood. However, vitamin C hasn&apos;t been studied as a treatment for gout. Don&apos;t assume that if a little vitamin C is good for you, then lots is better. Megadoses of vitamin C may increase your body&apos;s uric acid levels. Talk to your doctor about what a reasonable dose of vitamin C may be. And don&apos;t forget that you can increase your vitamin C intake by eating more fruits and vegetables, especially oranges.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cherries.&lt;/strong&gt; Cherries have been associated with lower levels of uric acid in studies, but it isn&apos;t clear if they have any effect on gout signs and symptoms. Eating more cherries and other dark-colored fruits, such as blackberries, blueberries, purple grapes and raspberries, may be a safe way to supplement your gout treatment, but discuss it with your doctor first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other complementary and alternative medicine treatments may help you cope until your gout pain subsides or your medications take effect. For instance, relaxation techniques, such as deep-breathing exercises and meditation, may help take your mind off your pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During symptom-free periods, these dietary guidelines may help protect against future gout attacks:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your fluid intake high.&lt;/strong&gt; Aim for 8 to 16 cups (about 2 to 4 liters) of fluid each day, with at least half being water. Limit how many sweetened beverages you drink, especially those sweetened with high fructose corn syrup.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit or avoid alcohol.&lt;/strong&gt; Talk with your doctor about whether any amount or type of alcohol is safe for you. Recent evidence suggests that beer may be particularly likely to increase the risk of gout symptoms, especially in men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a balanced diet following the Dietary Guidelines for Americans.&lt;/strong&gt; Your daily diet should emphasize fruits, vegetables, whole grains, and fat-free or low-fat milk products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get your protein from low-fat dairy products.&lt;/strong&gt; Low-fat dairy products may actually have a protective effect against gout, so these are your best-bet protein sources.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your intake of meat, fish and poultry.&lt;/strong&gt; A small amount may be tolerable, but pay close attention to what types &amp;mdash; and how much &amp;mdash; seem to cause problems for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a desirable body weight.&lt;/strong&gt; Choose portions that allow you to maintain a healthy weight. Losing weight may decrease uric acid levels in your body. But avoid fasting or rapid weight loss, since doing so may temporarily raise uric acid levels.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gout
+	</Title>
+	<Abstract>
+		Gout &amp;mdash; Comprehensive overview covers gout symptoms, causes and treatment, including gout diet.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Article" DocID="NU00202" LinkType="Internal" ObjectID="E52A064C-BF17-4596-AF8BAE25C131437C" Title="How meat and poultry fit in your healthy diet" Url="http://www.mayoclinic.com/health/food-and-nutrition/NU00202" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Answer" DocID="AN00983" LinkType="Internal" ObjectID="3466DD8E-7021-4855-930697D1B287661B" Title="Glucosamine: Can it worsen gout symptoms?" Url="http://www.mayoclinic.com/health/gout/AN00983" />
+		<LinkItem ContentType="Answer" DocID="AN02163" LinkType="Internal" ObjectID="02C4202F-9CA4-40A5-82E7C63FD990CC88" Title="Diuretics and gout: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/diuretics-and-gout/AN02163" />
+	</RelatedLinksBox>
+</Disease>

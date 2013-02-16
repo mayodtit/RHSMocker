@@ -1,0 +1,395 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00682
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-failure/DS00682
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-16
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="2212" Title="Kidney failure">
+							<Keyword MCVID="2214" Title="Chronic renal failure" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1EAAF4B2-2A5D-9994-E30C5CBDE21DAAD4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chronic kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+			<MetaKeyword>
+				dialysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic kidney failure, also called chronic kidney disease, describes the gradual loss of kidney function. Your kidneys filter wastes and excess fluids from your blood, which are then excreted in your urine. When chronic kidney failure reaches an advanced stage, dangerous levels of fluid, electrolytes and wastes can accumulate in your body.
+&lt;/p&gt;
+&lt;p&gt;
+In the early stages of chronic kidney failure, you may have few signs or symptoms. Chronic kidney failure may not become apparent until your kidney function is significantly impaired.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for chronic kidney failure focuses on slowing the progression of the kidney damage, usually by controlling the underlying cause. Chronic kidney failure can progress to end-stage kidney disease, which is fatal without artificial filtering (dialysis) or a kidney transplant.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of kidney failure develop slowly over time if kidney damage progresses slowly. Signs and symptoms of kidney failure may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Fatigue and weakness&lt;/li&gt;
+	&lt;li&gt;Sleep problems&lt;/li&gt;
+	&lt;li&gt;Changes in urine output&lt;/li&gt;
+	&lt;li&gt;Decreased mental sharpness&lt;/li&gt;
+	&lt;li&gt;Muscle twitches and cramps&lt;/li&gt;
+	&lt;li&gt;Hiccups&lt;/li&gt;
+	&lt;li&gt;Swelling of the feet and ankles&lt;/li&gt;
+	&lt;li&gt;Persistent itching&lt;/li&gt;
+	&lt;li&gt;Chest pain, if fluid accumulates around the lining of the heart&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, if fluid accumulates in the lungs&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension) that&apos;s difficult to control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of kidney failure are often nonspecific, meaning they can also be caused by other illnesses. In addition, because your kidneys are highly adaptable and able to compensate for lost function, signs and symptoms of kidney failure may not appear until irreversible damage has occurred.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+If you have a medical condition that increases your risk of chronic kidney failure, your doctor is likely to monitor your blood pressure and kidney function with urine and blood tests during regular office visits. Ask your doctor whether these types of tests are right for you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic kidney failure occurs when a disease or condition impairs kidney function, causing kidney damage to worsen over several months or years.
+&lt;/p&gt;
+&lt;p&gt;
+Diseases and conditions that commonly cause chronic kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Type 1 or type 2 diabetes&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Glomerulonephritis (gloe-mer-u-lo-nuh-FRY-tis), an inflammation of the kidney&apos;s filtering units (glomeruli)&lt;/li&gt;
+	&lt;li&gt;Polycystic kidney disease&lt;/li&gt;
+	&lt;li&gt;Prolonged obstruction of the urinary tract, from conditions such as enlarged prostate, kidney stones and some cancers&lt;/li&gt;
+	&lt;li&gt;Vesicoureteral (ves-ih-koe-yoo-REE-ter-ul) reflux, a condition that causes urine to back up into your kidneys&lt;/li&gt;
+	&lt;li&gt;Recurrent kidney infection, also called pyelonephritis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of chronic kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;African-American, Native-American or Asian-American race&lt;/li&gt;
+	&lt;li&gt;Family history of kidney disease&lt;/li&gt;
+	&lt;li&gt;Age 65 or older&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic kidney failure can affect almost every part of your body. Potential complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fluid retention, which could lead to swelling in your arms and legs, high blood pressure, or fluid in your lungs (pulmonary edema)&lt;/li&gt;
+	&lt;li&gt;A sudden rise in potassium levels in your blood (hyperkalemia), which could impair your heart&apos;s ability to function and may be life-threatening&lt;/li&gt;
+	&lt;li&gt;Heart and blood vessel disease (cardiovascular disease)&lt;/li&gt;
+	&lt;li&gt;Weak bones and an increased risk of bone fractures&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+	&lt;li&gt;Decreased sex drive or impotence&lt;/li&gt;
+	&lt;li&gt;Damage to your central nervous system, which can cause difficulty concentrating, personality changes or seizures&lt;/li&gt;
+	&lt;li&gt;Decreased immune response, which makes you more vulnerable to infection&lt;/li&gt;
+	&lt;li&gt;Pericarditis, an inflammation of the sac-like membrane that envelops your heart (pericardium)&lt;/li&gt;
+	&lt;li&gt;Pregnancy complications that carry risks for the mother and the developing fetus&lt;/li&gt;
+	&lt;li&gt;Irreversible damage to your kidneys (end-stage kidney disease), eventually requiring either dialysis or a kidney transplant for survival&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms. If tests reveal you have kidney damage, you may be referred to a doctor who specializes in kidney problems (nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, including what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask if there&apos;s anything you need to do before your appointment,&lt;/strong&gt; such as limit your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that seem unrelated to your kidneys or urinary function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; as well as any vitamins or other supplements that you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical history,&lt;/strong&gt; including any other medical conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be hard to remember all the information, and a relative or friend may hear something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor,&lt;/strong&gt; listing the most important ones first in case time runs short.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For chronic kidney failure, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the level of damage to my kidneys?&lt;/li&gt;
+	&lt;li&gt;Is my kidney function worsening?&lt;/li&gt;
+	&lt;li&gt;Do I need additional tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s causing my condition?&lt;/li&gt;
+	&lt;li&gt;Can the damage to my kidneys be reversed?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to eat a special diet?&lt;/li&gt;
+	&lt;li&gt;Can you refer me to a dietitian who can help me plan my meals?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;How often should I come back to have my kidney function tested?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask additional questions during your appointment as they occur to you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether you have chronic kidney failure, you may need tests and procedures such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Kidney function tests look for the level of waste products, such as creatinine and urea, in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; Analyzing a sample of your urine may reveal abnormalities that point to chronic kidney failure and help identify the cause of chronic kidney disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may use ultrasound to assess your kidneys&apos; structure, size and degree to which they reflect sound waves (echogenicity). Other imaging tests may be used in some cases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of kidney tissue for testing.&lt;/strong&gt; Your doctor may recommend a kidney biopsy to remove a sample of kidney tissue. Kidney biopsy is often done with local anesthesia using a long, thin needle that&apos;s inserted through your skin and into your kidney. The biopsy sample is sent to a lab for testing to help determine what&apos;s causing your kidney problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the underlying cause, some types of chronic kidney failure can be treated. Often, though, chronic kidney failure has no cure. Treatment consists of measures to help control signs and symptoms of chronic kidney failure, reduce complications, and slow the progress of the disease. If your kidneys become severely damaged, you may need treatments for end-stage kidney disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating the cause of kidney failure&lt;/strong&gt;&lt;br /&gt;
+Your doctor will work to slow or control the disease or condition that&apos;s causing your kidney failure. Treatment options vary, depending on the cause. But kidney damage can continue to worsen even when an underlying condition, such as high blood pressure, has been controlled. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating complications of kidney failure&lt;/strong&gt; Kidney failure complications can be controlled to make you more comfortable. Treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure medications.&lt;/strong&gt; People with chronic kidney failure may experience worsening high blood pressure. Your doctor may recommend medications to lower your blood pressure &amp;mdash; commonly angiotensin-converting enzyme (ACE) inhibitors or angiotensin II receptor blockers &amp;mdash; and to preserve kidney function. High blood pressure medications can initially decrease kidney function and change electrolyte levels, so you may have frequent blood tests to monitor your condition. Your doctor will likely also recommend a low-salt diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to lower cholesterol levels.&lt;/strong&gt; Your doctor may recommend medications, called statins, to lower your cholesterol. People with chronic kidney failure often experience high levels of bad cholesterol, which can increase the risk of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to relieve anemia.&lt;/strong&gt; In certain situations, your doctor may recommend supplements of the hormone erythropoietin (uh-rith-row-POY-uh-tin), sometimes with added iron. Erythropoietin supplements can induce production of more red blood cells, which may relieve fatigue and weakness associated with anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to relieve swelling.&lt;/strong&gt; People with chronic kidney failure may retain fluids. This can lead to swelling in the arms and legs, as well as high blood pressure. Medications called diuretics can help maintain the balance of fluids in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to protect your bones.&lt;/strong&gt; Your doctor may prescribe calcium and vitamin D supplements to prevent weak bones and lower your risk of fracture. You may also take medication to lower the amount of phosphate in your blood, which increases the amount of calcium available for your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A lower protein diet to minimize waste products in your blood.&lt;/strong&gt; As your body processes protein from foods, it creates waste products that your kidneys must filter from your blood. To reduce the amount of work your kidneys must do, your doctor may recommend eating less protein. Your doctor may also ask you to meet with a dietitian who can suggest ways to lower your protein intake while still eating a healthy diet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for end-stage kidney disease&lt;/strong&gt;&lt;br /&gt;
+If your kidneys can&apos;t keep up with waste and fluid clearance on their own and you develop complete or near-complete kidney failure, you have end-stage kidney disease. At that point, dialysis or a kidney transplant is needed. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dialysis.&lt;/strong&gt; Dialysis artificially removes waste products and extra fluid from your blood when your kidneys aren&apos;t able to perform these functions. In hemodialysis, a machine filters waste and excess fluids from your blood. In peritoneal dialysis, you use a catheter to fill your abdominal cavity with a dialysis solution that absorbs waste and excess fluids &amp;mdash; then this solution drains out of your body and is replaced with fresh solution.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney transplant.&lt;/strong&gt; If you have no life-threatening medical conditions other than kidney failure, a kidney transplant may be an option for you. Kidney transplant involves surgically placing a healthy kidney from a donor into your body. Transplanted kidneys can come from deceased donors or from living donors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re unwilling to have dialysis or a kidney transplant, a third option is to treat your kidney failure with conservative measures. However, your life expectancy generally would be only a few weeks in the case of complete kidney failure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing peritoneal dialysis
+" Caption="Peritoneal dialysis uses the lining of your abdominal cavity, called the peritoneal membrane, to clean waste from your blood. Your peritoneal cavity is filled with dialysis solution via a catheter. Over several hours, the solution draws waste out of the lining&apos;s blood vessels. The fluid is then drained and replaced, starting the process over again.
+" Height="60" Title="Peritoneal dialysis" URI="/images/image_popup/thumbs/ww5rl64t.jpg" Width="60" />
+				<Image Alt="Illustration showing peritoneal dialysis
+" Caption="Peritoneal dialysis uses the lining of your abdominal cavity, called the peritoneal membrane, to clean waste from your blood. Your peritoneal cavity is filled with dialysis solution via a catheter. Over several hours, the solution draws waste out of the lining&apos;s blood vessels. The fluid is then drained and replaced, starting the process over again.
+" Height="320" Title="Peritoneal dialysis" URI="/images/image_popup/ww5rl64.jpg" Width="400" />
+				<HTML>
+					Peritoneal dialysis uses the lining of your abdominal cavity, called the peritoneal membrane, to clean waste from your blood. Your peritoneal cavity is filled with dialysis solution via a catheter. ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of kidney transplant 
+" Caption="During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs. The new kidney&apos;s ureter is connected to your bladder. Unless they are causing complications, your own kidneys are left in place. 
+" Height="60" Title="Kidney transplant" URI="/images/image_popup/thumbs/mcdc7_kidney_transplantthu.jpg" Width="60" />
+				<Image Alt="Image of kidney transplant 
+" Caption="During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs. The new kidney&apos;s ureter is connected to your bladder. Unless they are causing complications, your own kidneys are left in place. 
+" Height="488" Title="Kidney transplant" URI="/images/image_popup/mcdc7_kidney_transplant.jpg" Width="400" />
+				<HTML>
+					During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As part of your treatment for chronic kidney disease, your doctor may recommend a special diet to help support your kidneys and limit the work they must do. Ask your doctor for a referral to a dietitian who can analyze your current diet and suggest ways to make your diet easier on your kidneys. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your situation, kidney function and overall health, your dietitian may recommend that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid products with added salt.&lt;/strong&gt; Lower the amount of sodium you eat each day by avoiding products with added salt, including many convenience foods, such as frozen dinners, canned soups and fast foods. Other foods with added salt include salty snack foods, canned vegetables, and processed meats and cheeses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose lower potassium foods.&lt;/strong&gt; Your dietitian may recommend that you choose lower potassium foods at each meal. High-potassium foods include bananas, oranges, potatoes, spinach and tomatoes. Examples of low-potassium foods include apples, cabbage, green beans, grapes and strawberries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit the amount of protein you eat.&lt;/strong&gt; Your dietitian will estimate the appropriate number of grams of protein you should eat each day and make recommendations based on that amount. High-protein foods include meats, eggs, milk, cheese and beans. Low-protein foods include vegetables, fruits, most breads and most cereals. Some breads and cereals include ingredients that make them high in protein, so check the label.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Receiving a diagnosis of chronic kidney failure can be worrisome. You may be concerned about what your diagnosis means for your future health. To help you cope with your feelings, consider trying to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other people who have kidney disease.&lt;/strong&gt; Other people with chronic kidney failure understand what you&apos;re feeling and can offer unique support. Ask your doctor about support groups in your area. Or contact organizations, such as the American Association of Kidney Patients, the National Kidney Foundation or the American Kidney Fund for groups in your area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain your normal routine, when possible.&lt;/strong&gt; Try to maintain a normal routine, doing the activities you enjoy and continuing to work, if your condition allows. This may help you cope with feelings of sadness or loss that you may experience after your diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be active most days of the week.&lt;/strong&gt; With your doctor&apos;s permission, aim for at least 30 minutes of physical activity most days of the week. This can help you cope with fatigue and stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with a person you trust.&lt;/strong&gt; Living with chronic kidney failure can be stressful, and it may help to talk about your feelings with someone you trust. You may have a friend or family member who is a good listener. Or you may find it helpful to talk with a clergy member. Ask your doctor for a referral to a social worker or counselor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of chronic kidney failure:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; If you choose to drink alcohol, do so in moderation. For healthy adults, that means no more than one drink a day for women of all ages and men older than age 65, and no more than two drinks a day for men age 65 and younger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow instructions on over-the-counter medications.&lt;/strong&gt; When using nonprescription pain relievers, such as aspirin, ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others), follow the instructions on the packaging. Taking too many pain relievers could lead to kidney damage. If you have a history of kidney problems, ask your doctor whether these drugs are safe for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you&apos;re at a healthy weight, work to maintain it by being physically active most days of the week. If you need to lose weight, talk to your doctor about strategies for healthy weight loss. Often this involves increasing daily physical activity and decreasing calories.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you&apos;re a smoker, talk to your doctor about strategies for quitting smoking. Support groups, counseling and medications can all help you to stop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage your medical conditions with your doctor&apos;s help.&lt;/strong&gt; If you have diseases or conditions that increase your risk of kidney failure, work with your doctor to control them. Ask your doctor about tests to look for signs of kidney damage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chronic kidney failure
+	</Title>
+	<Abstract>
+		Chronic kidney failure &amp;mdash; Comprehensive overview covers symptoms, causes of gradual loss of kidney function
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01564" LinkType="Internal" ObjectID="C68177A2-E7FF-0DBD-19F359B588970530" Title="Kidney dialysis: When is it time to stop?" Url="http://www.mayoclinic.com/health/kidney-dialysis/AN01564" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00282" LinkType="Internal" ObjectID="90F4FC04-E7FF-0DBD-1DA402BBECCF3BAF" Title="Peritoneal dialysis" Url="http://www.mayoclinic.com/health/peritoneal-dialysis/MY00282" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00281" LinkType="Internal" ObjectID="90F35D04-E7FF-0DBD-1585584111C6DB49" Title="Hemodialysis" Url="http://www.mayoclinic.com/health/hemodialysis/MY00281" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="Answer" DocID="AN01988" LinkType="Internal" ObjectID="62753420-E4EE-8CC0-C2436287C82698EA" Title="Kidney donation: Are there long-term risks?" Url="http://www.mayoclinic.com/health/kidney-donation/AN01988" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01223" LinkType="Internal" ObjectID="24BD87C1-066C-AE2F-22170FA021843FD4" Title="Kidney biopsy" Url="http://www.mayoclinic.com/health/kidney-biopsy/MY01223" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Answer" DocID="AN01637" LinkType="Internal" ObjectID="F7EEB789-E7FF-0DBD-16E121319B3EFAD6" Title="MRI: Is gadolinium safe for people with kidney problems?" Url="http://www.mayoclinic.com/health/gadolinium/AN01637" />
+		<LinkItem ContentType="Answer" DocID="AN01465" LinkType="Internal" ObjectID="52A8D811-E7FF-0DBD-164CFE5B57EB09A7" Title="Renal diet for vegetarians: Which protein sources are best?" Url="http://www.mayoclinic.com/health/renal-diet/AN01465" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+	</RelatedLinksBox>
+</Disease>

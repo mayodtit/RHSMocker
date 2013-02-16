@@ -1,0 +1,195 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00498
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00498
+		</OriginalURL>
+		<UpdateDate>
+			2010-03-02
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			2398C708-5BCE-4070-842B77AE38D6ACFA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Creamy asparagus soup
+	</Title>
+	<Abstract>
+		Creamy asparagus soup &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This soup is a good source of potassium, vitamins A and C, iron, folate, magnesium and selenium. If you prefer, you can substitute broccoli for the asparagus.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;In a large soup pot over high heat, combine the potatoes, asparagus, onions, celery and water. Bring to a boil. Reduce heat, cover and simmer until the vegetables are tender, about 15 minutes. Stir in the butter.&lt;/p&gt;
+
+&lt;p&gt;In a small bowl, whisk together the flour and milk. Pour the mixture slowly into the soup pot, stirring constantly. Increase the heat to medium high and continue to stir until the soup thickens, about 5 minutes. Remove from heat. Season with lemon zest and cracked black pepper to taste. Serve in warmed bowls.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;2 cups potatoes, peeled and diced&lt;br /&gt;
+1/2 pound fresh asparagus, cut into 1/4-inch pieces&lt;br /&gt;
+1/2 cup chopped onion&lt;br /&gt;
+2 stalks celery, chopped&lt;br /&gt;
+4 cups water&lt;br /&gt;
+2 tablespoons butter&lt;br /&gt;
+1/2 cup whole-wheat (whole-meal) flour&lt;br /&gt;
+1 1/2 cups fat-free milk&lt;br /&gt;
+Lemon zest, to taste&lt;br /&gt;
+Cracked black pepper, to taste&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				145
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				23 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				12 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 1/2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				71 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Course">
+			Soups
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Slow cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Dairy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+	</Categorization>
+</Recipe>

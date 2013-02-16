@@ -1,0 +1,432 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00569
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pheochromocytoma/DS00569
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-05
+		</UpdateDate>
+		<PublicationDate>
+			2005-04-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1496" Title="Adrenal">
+						<Keyword MCVID="2469" Title="Pheochromocytoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5F679392-14AC-41ED-AE48AE9C82BA1C0E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pheochromocytoma
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal gland tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenaline
+			</MetaKeyword>
+			<MetaKeyword>
+				noradrenaline
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple endocrine neoplasia disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				MEN type 2
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal gland cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				increased heart rate
+			</MetaKeyword>
+			<MetaKeyword>
+				pounding heart
+			</MetaKeyword>
+			<MetaKeyword>
+				paraganglioma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pheochromocytoma (fe-o-kro-mo-si-TOE-muh) is a rare, usually noncancerous (benign) tumor that develops in the core of an adrenal gland. You have two adrenal glands, one just above each of your kidneys. Your adrenal glands produce hormones that give instructions to virtually every organ and tissue in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a pheochromocytoma, your adrenal glands can produce too much of certain hormones, raising your blood pressure and heart rate. A pheochromocytoma may be life-threatening if unrecognized or untreated. 
+&lt;/p&gt;
+&lt;p&gt;
+A pheochromocytoma can develop at any age, but most commonly occurs in middle age. Usually, treatment for pheochromocytoma can return blood pressure to normal. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Graph showing fluctuations in blood pressure caused by a pheochromocytoma 
+" Caption="A pheochromocytoma can cause wild fluctuations in blood pressure with normal blood pressure in between spells. This can make the condition more difficult to detect. The graph shows a nine-day period of short, irregular bursts in blood pressure due to a pheochromocytoma. The lower points represent diastolic pressure (bottom number of reading). The higher points show systolic pressure (top number of reading). For example, the first burst in blood pressure is seen on day two with a reading of 250/110 millimeters of mercury. 
+" Height="60" Title="Pheochromocytoma and irregular blood pressure" URI="/images/image_popup/thumbs/r7_pheobpgraphthu.jpg" Width="60" />
+				<Image Alt="Graph showing fluctuations in blood pressure caused by a pheochromocytoma 
+" Caption="A pheochromocytoma can cause wild fluctuations in blood pressure with normal blood pressure in between spells. This can make the condition more difficult to detect. The graph shows a nine-day period of short, irregular bursts in blood pressure due to a pheochromocytoma. The lower points represent diastolic pressure (bottom number of reading). The higher points show systolic pressure (top number of reading). For example, the first burst in blood pressure is seen on day two with a reading of 250/110 millimeters of mercury. 
+" Height="370" Title="Pheochromocytoma and irregular blood pressure" URI="/images/image_popup/r7_pheobpgraph.jpg" Width="400" />
+				<HTML>
+					A pheochromocytoma can cause wild fluctuations in blood pressure with normal blood pressure in between spells. This can make the condition more difficult to detect. The graph shows a nine-day period ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of pheochromocytomas may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Forceful heartbeat&lt;/li&gt;
+	&lt;li&gt;Profound sweating&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Sudden-onset headaches &amp;mdash; usually severe &amp;mdash; of varying duration&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Feeling of extreme fright&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms develop because this type of tumor produces an excess of chemical compounds called catecholamines. Excessive secretion of catecholamines &amp;mdash; the hormones adrenaline (epinephrine) and noradrenaline (norepinephrine) &amp;mdash; can lead to persistent high blood pressure or wild fluctuations in your blood pressure, depending on whether the catecholamines are released continuously or in shorter bursts. The intermittent release of these hormones can cause other symptoms to occur from time to time as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Although high blood pressure is a common sign of a pheochromocytoma, most people with high blood pressure don&apos;t have a pheochromocytoma. 
+&lt;/p&gt;
+&lt;p&gt;
+For some people, imaging studies, such as CT scans, done for another reason, may catch a pheochromocytoma before it produces symptoms. You may not have signs or symptoms if your pheochromocytoma is associated with a genetic condition, such as multiple endocrine neoplasia, type II (MEN II), because it&apos;s likely to be found on a scan before symptoms start.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk with your doctor if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Experience a sudden, severe increase in blood pressure (hypertensive crisis)&lt;/li&gt;
+	&lt;li&gt;Have difficulty controlling high blood pressure&lt;/li&gt;
+	&lt;li&gt;Are taking more than four medications for high blood pressure&lt;/li&gt;
+	&lt;li&gt;Experience the other signs and symptoms of a pheochromocytoma&lt;/li&gt;
+	&lt;li&gt;Have a family history of pheochromocytoma; multiple endocrine neoplasia, type II (MEN II); von Hippel-Lindau disease; familial paraganglioma; or neurofibromatosis 1 (NF1)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Graph showing fluctuations in blood pressure caused by a pheochromocytoma 
+" Caption="A pheochromocytoma can cause wild fluctuations in blood pressure with normal blood pressure in between spells. This can make the condition more difficult to detect. The graph shows a nine-day period of short, irregular bursts in blood pressure due to a pheochromocytoma. The lower points represent diastolic pressure (bottom number of reading). The higher points show systolic pressure (top number of reading). For example, the first burst in blood pressure is seen on day two with a reading of 250/110 millimeters of mercury. 
+" Height="60" Title="Pheochromocytoma and irregular blood pressure" URI="/images/image_popup/thumbs/r7_pheobpgraphthu.jpg" Width="60" />
+				<Image Alt="Graph showing fluctuations in blood pressure caused by a pheochromocytoma 
+" Caption="A pheochromocytoma can cause wild fluctuations in blood pressure with normal blood pressure in between spells. This can make the condition more difficult to detect. The graph shows a nine-day period of short, irregular bursts in blood pressure due to a pheochromocytoma. The lower points represent diastolic pressure (bottom number of reading). The higher points show systolic pressure (top number of reading). For example, the first burst in blood pressure is seen on day two with a reading of 250/110 millimeters of mercury. 
+" Height="370" Title="Pheochromocytoma and irregular blood pressure" URI="/images/image_popup/r7_pheobpgraph.jpg" Width="400" />
+				<HTML>
+					A pheochromocytoma can cause wild fluctuations in blood pressure with normal blood pressure in between spells. This can make the condition more difficult to detect. The graph shows a nine-day period ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Researchers don&apos;t know exactly what causes cells within the adrenal gland to develop into a tumor. What they do know is that pheochromocytomas begin in special cells called chromaffin cells, which are found in the core of the adrenal gland. Your adrenal glands are part of your endocrine system, which produces hormones that regulate processes throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The role of hormones&lt;br /&gt;
+&lt;/strong&gt;Your adrenal glands are located on top of your kidneys, and they produce hormones, including catecholamines. The most important of these are adrenaline (epinephrine) and noradrenaline (norepinephrine). Your body needs these hormones to maintain blood pressure and to help cope with stressful situations. Physical and emotional stresses usually trigger their release. When secreted into your bloodstream, catecholamines increase your heart rate and blood pressure and affect several other body functions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Multiple tumors possible&lt;br /&gt;
+&lt;/strong&gt;Pheochromocytomas usually affect only one adrenal gland. However, you may have more than one tumor in an adrenal gland or you may develop tumors in both adrenal glands. Because chromaffin cells also are situated in nerve tissue throughout your body, pheochromocytomas occasionally arise outside of the adrenal glands (paraganglioma). Common locations for paraganglioma include the heart, neck, bladder, back wall of the abdomen and along the spine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of hypertensive crisis associated with pheochromocytoma&lt;br /&gt;
+&lt;/strong&gt;An attack of high blood pressure (hypertensive crisis) associated with pheochromocytoma typically lasts less than an hour. Blood pressure may be normal or elevated between the episodic symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Hypertensive crisis and other signs and symptoms may be brought on by emotional distress or anxiety, surgical anesthesia, or physical activities that press on the tumor, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Changes in body position&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Lifting&lt;/li&gt;
+	&lt;li&gt;Having a bowel movement&lt;/li&gt;
+	&lt;li&gt;Urination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, these factors can trigger a high blood pressure episode: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using drugs or stimulants that raise your blood pressure,&lt;/strong&gt; such as decongestants, amphetamines or cocaine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating foods rich in tyramine&lt;/strong&gt; &amp;mdash; an amino acid normally found in your body that helps regulate blood pressure. Tyramine is found in imported beer, some wines, processed meats or fish, fermented cheeses, soy sauce, bananas, avocados, and overripe or spoiled food.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking a monoamine oxidase inhibitor (MAOI)&lt;/strong&gt; to treat depression. Examples of MAOIs include phenelzine (Nardil), tranylcypromine (Parnate) and isocarboxazid (Marplan).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endocrine system 
+" Caption="The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+" Height="60" Title="Endocrine system" URI="/images/image_popup/thumbs/r7_endocrinesystemthu.jpg" Width="60" />
+				<Image Alt="Illustration showing endocrine system 
+" Caption="The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+" Height="500" Title="Endocrine system" URI="/images/image_popup/r7_endocrinesystem.jpg" Width="400" />
+				<HTML>
+					The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, pheochromocytomas run in families or are associated with an inherited condition, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple endocrine neoplasia, type II (MEN II).&lt;/strong&gt; In addition to a pheochromocytoma, people with MEN II also have a rare form of thyroid cancer called medullary thyroid cancer. There are two subsets of MEN II, which include pheochromocytoma with medullary thyroid cancer and hyperparathyroidism (MEN IIA), and pheochromocytoma with medullary thyroid cancer and tumors of nerves in the lips, mouth, eyes and digestive tract (MEN IIB). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Von Hippel-Lindau disease.&lt;/strong&gt; People with this rare multisystem disorder are at high risk of pheochromocytoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurofibromatosis 1 (NF1).&lt;/strong&gt; Pheochromocytomas sometimes occur in people with NF1, a syndrome that includes multiple tumors in the skin (neurofibromas), pigmented skin spots and tumors of the optic nerve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most pheochromocytomas are noncancerous (benign) and don&apos;t spread to other parts of your body. However, cancerous (malignant) pheochromocytomas can spread throughout your body, including your brain, lungs or bone. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of tumors of lip and mouth nerves caused by multiple endocrine neoplasia, type IIB
+" Caption="Pheochromocytoma can occur in the inherited syndrome multiple endocrine neoplasia, type IIB (MEN IIB). In addition to pheochromocytoma, people with MEN IIB also have thyroid cancer and tumors of nerves in the lips, mouth, eyes and digestive tract. 
+" Height="60" Title="Multiple endocrine neoplasia, type IIB (MEN IIB)" URI="/images/image_popup/thumbs/r7_men2thu.jpg" Width="60" />
+				<Image Alt="Photo of tumors of lip and mouth nerves caused by multiple endocrine neoplasia, type IIB
+" Caption="Pheochromocytoma can occur in the inherited syndrome multiple endocrine neoplasia, type IIB (MEN IIB). In addition to pheochromocytoma, people with MEN IIB also have thyroid cancer and tumors of nerves in the lips, mouth, eyes and digestive tract. 
+" Height="400" Title="Multiple endocrine neoplasia, type IIB (MEN IIB)" URI="/images/image_popup/r7_men2.jpg" Width="400" />
+				<HTML>
+					Pheochromocytoma can occur in the inherited syndrome multiple endocrine neoplasia, type IIB (MEN IIB). In addition to pheochromocytoma, people with MEN IIB also have thyroid cancer and tumors of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have high blood pressure caused by a pheochromocytoma, excessive force on your artery walls can seriously damage many of your vital organs. The higher your blood pressure or the longer it goes uncontrolled, the greater the damage. 
+&lt;/p&gt;
+&lt;p&gt;
+Untreated high blood pressure may lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+	&lt;li&gt;Acute respiratory distress&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Psychosis&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Visual impairment&lt;/li&gt;
+	&lt;li&gt;Premature death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A severe increase in blood pressure (hypertensive crisis) may occur with sudden release of a large amount of adrenaline hormones from the tumor. Any reading above 180/110 millimeters of mercury (mm Hg) is considered severe high blood pressure. This can lead to life-threatening conditions, such as stroke or abnormal heart rhythm (heart arrhythmia). 
+&lt;/p&gt;
+&lt;p&gt;
+Long-term exposure to these hormones can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Damage to your heart muscle&lt;/li&gt;
+	&lt;li&gt;Congestive heart failure&lt;/li&gt;
+	&lt;li&gt;An increased risk of diabetes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in hormonal disorders (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as stop taking medications that might interfere with some tests. However, don&apos;t stop taking any of your usual medications without consulting your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all medications,&lt;/strong&gt; as well as any vitamins, supplements or over-the-counter cold medicines, you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compile a family medical history,&lt;/strong&gt; paying particular attention to who in your family has had high blood pressure, pheochromocytoma or another endocrine system disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For pheochromocytoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Do you recommend surgery?&lt;/li&gt;
+	&lt;li&gt;What are the risks associated with surgery?&lt;/li&gt;
+	&lt;li&gt;What is my prognosis if I have the surgery?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on foods or medications that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;Could anyone else in my family be affected?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that come up. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or do they occur sporadically?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to bring on or worsen your symptoms? Are they worse if you&apos;re upset or anxious?&lt;/li&gt;
+	&lt;li&gt;Does anyone else in your family have a history of pheochromocytoma or another endocrine system disorder?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely conduct a number of tests to determine if a pheochromocytoma is the cause of your signs and symptoms. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; These tests can reveal elevated levels of the hormones adrenaline (epinephrine) and noradrenaline (norepinephrine) and their breakdown products (metanephrines). You may need to collect urine samples over a 24-hour period for testing. If the results of these tests indicate a pheochromocytoma, the next step is to determine the location of the tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging scans.&lt;/strong&gt; A computerized tomography (CT) scan of your abdomen can detect the tumor in most cases. However, it may be necessary to scan other areas of your body, such as your neck, chest and pelvis. Scanning with other diagnostic imaging techniques, such as magnetic resonance imaging (MRI), a metaiodobenzylguanidine (MIBG) scan or a positron emission tomography (PET) scan, may be done to detect the tumor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Incidental discovery&lt;br /&gt;
+&lt;/strong&gt;Some adrenal gland tumors are discovered incidentally during imaging studies conducted for other reasons. For example, you might see your doctor because of abdominal pain, and a CT scan may reveal a mass on one of your adrenal glands. A small percentage of adrenal gland tumors found incidentally are pheochromocytomas, even when no signs or symptoms are present. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have an adrenal mass found incidentally, your doctor will obtain blood and urine tests to see if there&apos;s hormone overproduction. Most small adrenal gland tumors are not pheochromocytomas and are noncancerous (benign), requiring only observation and no treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic testing&lt;br /&gt;
+&lt;/strong&gt;Genetic mutations may be responsible for pheochromocytoma and paraganglioma, and your doctor may suggest genetic testing. However, whether you need genetic testing and, if so, which type, depends on the location of your tumor and related medical conditions. If you have a history of pheochromocytoma or an associated disease, seek genetic counseling to help you decide if you should undergo genetic testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best treatment for most pheochromocytomas is surgery to remove the tumor. If you can&apos;t have the surgery or to lower your blood pressure before surgery, your doctor likely will prescribe drugs.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications used to treat high blood pressure associated with pheochromocytomas include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha blockers.&lt;/strong&gt; Alpha blockers, also called alpha-adrenergic blocking agents or alpha-adrenergic antagonists, relax certain muscles that help small blood vessels remain open. They work by keeping the hormone noradrenaline (norepinephrine) from stimulating the muscles in the walls of smaller arteries and veins. This stimulation makes the vessel walls constrict. Blocking that effect causes the vessels to remain open and relaxed. This improves blood flow and lowers blood pressure. Examples of alpha blockers include phenoxybenzamine (Dibenzyline), doxazosin (Cardura), prazosin (Minipress) and terazosin (Hytrin). Side effects may include headache, pounding heartbeat, nausea and weight gain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; Beta blockers, also known as beta-adrenergic blocking agents, make your heart beat more slowly and with less force. They work by blocking the effects of the hormone norepinephrine. This action slows down the nerve impulses that travel through your heart. That means your heart doesn&apos;t pump as hard because it needs less oxygen and blood. Beta blockers also slow down the release of the enzyme renin from your kidneys, helping keep blood vessels dilated. Examples of beta blockers include atenolol (Tenormin), metoprolol (Lopressor, Toprol XL) and propranolol (Inderal LA, Innopran XL). Side effects may include fatigue, headache, upset stomach and dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers.&lt;/strong&gt; Calcium channel blockers, also called calcium antagonists, relax and widen blood vessels in your arteries. They lower your blood pressure by preventing calcium from entering the cells of your heart and blood vessel walls. Examples of calcium channel blockers include amlodipine (Norvasc), diltiazem (Cardizem LA, Tiazac, others) and nicardipine (Cardene SR). Side effects may include constipation, headache, rapid heartbeat (tachycardia) and drowsiness. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metyrosine (Demser).&lt;/strong&gt; This drug lowers blood pressure by inhibiting the production of catecholamines. It may be used when other drugs haven&apos;t worked or with other drugs. Side effects may include drowsiness, depression, anxiety and diarrhea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For a pheochromocytoma, alpha blockers are used first to return your blood pressure back to within normal limits. Once your blood pressure is lowered, beta blockers can help control a rapid or irregular heartbeat. Any of these drugs may be used in preparation for surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to remove an adrenal gland&lt;br /&gt;
+&lt;/strong&gt;The most common treatment for a pheochromocytoma is surgical removal of the entire affected adrenal gland. In most cases, signs and symptoms then disappear. Blood pressure usually returns to normal soon after surgery. Before surgery, your doctor will prescribe medications to block the effects of the adrenal hormones and control blood pressure. If both adrenal glands are affected by pheochromocytoma and are surgically removed, you&apos;ll need to take medication to replace the other hormones once produced by these glands. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laparoscopic surgery an option&lt;br /&gt;
+&lt;/strong&gt;Depending on the size and location of the tumor, laparoscopic surgery may be performed. Laparoscopic surgery involves inserting instruments through several small incisions. This procedure may result in quicker recovery compared with conventional surgery, which requires a larger incision. Although it&apos;s becoming more widely used for pheochromocytoma, laparoscopic surgery isn&apos;t for everyone. Talk to your doctor about this less invasive technique to see if it&apos;s an option for you.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery may not be possible&lt;br /&gt;
+&lt;/strong&gt;Sometimes surgery isn&apos;t an option because of the way the tumor is growing or because the tumor has spread (metastasized) to other parts of your body. If a pheochromocytoma is cancerous (malignant), treatment may go beyond medication and surgery to include radiation, chemotherapy or destroying the function (ablation) of arteries that supply blood to the tumor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pheochromocytoma
+	</Title>
+	<Abstract>
+		Pheochromocytoma &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this rare adrenal gland tumor.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,367 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00364
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/inguinal-hernia/DS00364
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-04
+		</UpdateDate>
+		<PublicationDate>
+			1999-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1836" Title="Hernia">
+						<Keyword MCVID="2244" Title="Inguinal hernia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			773E8C18-160E-4E9C-9D0BB09D6B74B965
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				inguinal hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				groin
+			</MetaKeyword>
+			<MetaKeyword>
+				hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal wall
+			</MetaKeyword>
+			<MetaKeyword>
+				inguinal
+			</MetaKeyword>
+			<MetaKeyword>
+				herniorrhaphy
+			</MetaKeyword>
+			<MetaKeyword>
+				hernioplasty
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An inguinal hernia occurs when soft tissue &amp;mdash; usually part of the intestine &amp;mdash; protrudes through a weak point or tear in your lower abdominal wall. The resulting bulge can be painful &amp;mdash; especially when you cough, bend over or lift a heavy object. 
+&lt;/p&gt;
+&lt;p&gt;
+Not necessarily dangerous by itself, an inguinal hernia doesn&apos;t get better or go away on its own. An inguinal hernia can lead to life-threatening complications. For this reason, your doctor is likely to recommend surgical repair of an inguinal hernia that&apos;s painful or becoming larger. Inguinal hernia repair is a common surgical procedure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inguinal hernia 
+" Caption="Inguinal hernias occur when part of the intestine protrudes through a weak spot in the abdomen &amp;mdash; often along the inguinal canal, which carries the spermatic cord in men. 
+" Height="60" Title="Inguinal hernia" URI="/images/image_popup/thumbs/ww5rk42t.jpg" Width="60" />
+				<Image Alt="Illustration showing inguinal hernia 
+" Caption="Inguinal hernias occur when part of the intestine protrudes through a weak spot in the abdomen &amp;mdash; often along the inguinal canal, which carries the spermatic cord in men. 
+" Height="400" Title="Inguinal hernia" URI="/images/image_popup/ww5rk43.jpg" Width="400" />
+				<HTML>
+					Inguinal hernias occur when part of the intestine protrudes through a weak spot in the abdomen &amp;mdash; often along the inguinal canal, which carries the spermatic cord in men. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some inguinal hernias don&apos;t cause any symptoms, and you may not know you have one until your doctor discovers it during a routine medical exam. Often, however, you can see and feel the bulge created by the protruding intestine. The bulge is usually more obvious when you stand upright, especially if you cough or strain. 
+&lt;/p&gt;
+&lt;p&gt;
+Inguinal hernia signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A bulge in the area on either side of your pubic bone&lt;/li&gt;
+	&lt;li&gt;A burning, gurgling or aching sensation at the bulge&lt;/li&gt;
+	&lt;li&gt;Pain or discomfort in your groin, especially when bending over, coughing or lifting&lt;/li&gt;
+	&lt;li&gt;A heavy or dragging sensation in your groin&lt;/li&gt;
+	&lt;li&gt;Weakness or pressure in your groin&lt;/li&gt;
+	&lt;li&gt;Occasionally, in men, pain and swelling in the scrotum around the testicles when the protruding intestine descends into the scrotum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms in children&lt;/strong&gt; &lt;br /&gt;
+Inguinal hernias in newborns and children result from a weakness in the abdominal wall that&apos;s present at birth. Sometimes the hernia may be visible only when an infant is crying, coughing or straining during a bowel movement. In an older child, a hernia is likely to be more apparent when the child coughs, strains during a bowel movement or stands for a long period of time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you have a painful or noticeable bulge in the area on either side of your pubic bone. The bulge is likely to be more noticeable when you&apos;re standing upright, and you usually can feel it if you put your hand directly over the affected area. 
+&lt;/p&gt;
+&lt;p&gt;
+You should be able to gently and easily push the hernia back into your abdomen when you&apos;re lying down. If not, applying an ice pack to the area may reduce the swelling enough so that the hernia slides in easily. Lying with your pelvis higher than your head also may help. 
+&lt;/p&gt;
+&lt;p&gt;
+If you still aren&apos;t able to push the hernia in, the herniated intestine may have become trapped (incarcerated) in the abdominal wall &amp;mdash; a serious condition that may require immediate medical attention. This condition may be accompanied by nausea, vomiting, fever, rapid heart rate, sudden pain that quickly intensifies, and a hernia bulge that turns red, purple or dark. If any of these signs or symptoms occur, call your doctor right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some inguinal hernias have no apparent cause. But many occur as a result of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased pressure within the abdomen&lt;/li&gt;
+	&lt;li&gt;A pre-existing weak spot in the abdominal wall&lt;/li&gt;
+	&lt;li&gt;A combination of increased pressure within the abdomen and a pre-existing weak spot in the abdominal wall&lt;/li&gt;
+	&lt;li&gt;Straining during bowel movements or urination&lt;/li&gt;
+	&lt;li&gt;Heavy lifting&lt;/li&gt;
+	&lt;li&gt;Fluid in the abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Excess weight&lt;/li&gt;
+	&lt;li&gt;Chronic coughing or sneezing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In many people, the abdominal wall weakness that leads to an inguinal hernia occurs at birth when the abdominal lining (peritoneum) doesn&apos;t close properly. Other inguinal hernias develop later in life when muscles weaken or deteriorate due to factors such as aging, strenuous physical activity or coughing that accompanies smoking. 
+&lt;/p&gt;
+&lt;p&gt;
+In men, the weak spot usually occurs along the inguinal canal. This is the area where the spermatic cord, which contains the vas deferens, the tube that carries sperm, enters the scrotum. 
+&lt;/p&gt;
+&lt;p&gt;
+In women, the inguinal canal carries a ligament that helps hold the uterus in place, and hernias sometimes occur where connective tissue from the uterus attaches to tissue surrounding the pubic bone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;More common in men&lt;/strong&gt; &lt;br /&gt;
+Men are more likely to have an inherent weakness along the inguinal canal because of the way males develop in the womb. In the male fetus, the testicles form within the abdomen and then move down the inguinal canal into the scrotum. Shortly after birth, the inguinal canal closes almost completely, leaving just enough room for the spermatic cord to pass through, but not large enough to allow the testicles to move back into the abdomen. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, however, the canal doesn&apos;t close properly, leaving a weakened area. There&apos;s less chance that the inguinal canal won&apos;t close after birth in female babies. In fact, women are more likely to develop hernias in the femoral canal, an opening near the inguinal canal where the femoral artery, vein and nerve pass through. 
+&lt;/p&gt;
+&lt;p&gt;
+Weaknesses can also occur in the abdominal wall later in life, especially after an injury or certain operations in the abdominal cavity. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether or not you have a pre-existing weakness, extra pressure in your abdomen from straining, heavy lifting, pregnancy or excess weight can cause a hernia. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inguinal hernia 
+" Caption="Inguinal hernias occur when part of the intestine protrudes through a weak spot in the abdomen &amp;mdash; often along the inguinal canal, which carries the spermatic cord in men. 
+" Height="60" Title="Inguinal hernia" URI="/images/image_popup/thumbs/ww5rk42t.jpg" Width="60" />
+				<Image Alt="Illustration showing inguinal hernia 
+" Caption="Inguinal hernias occur when part of the intestine protrudes through a weak spot in the abdomen &amp;mdash; often along the inguinal canal, which carries the spermatic cord in men. 
+" Height="400" Title="Inguinal hernia" URI="/images/image_popup/ww5rk43.jpg" Width="400" />
+				<HTML>
+					Inguinal hernias occur when part of the intestine protrudes through a weak spot in the abdomen &amp;mdash; often along the inguinal canal, which carries the spermatic cord in men. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; You&apos;re far more likely to develop an inguinal hernia if you&apos;re male. Also, the vast majority of newborns and children with inguinal hernias are boys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Your risk of inguinal hernia increases if you have a close relative, such as a parent or sibling, with the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medical conditions.&lt;/strong&gt; Having cystic fibrosis, a life-threatening disorder that causes severe lung damage and often a chronic cough, makes it more likely you&apos;ll develop an inguinal hernia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic cough.&lt;/strong&gt; A chronic cough, such as occurs from smoking, increases your risk of inguinal hernia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic constipation.&lt;/strong&gt; This leads to straining during bowel movements &amp;mdash; a common cause of inguinal hernias.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess weight.&lt;/strong&gt; Being moderately to severely overweight can put extra pressure on your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; This can both weaken the abdominal muscles and cause increased pressure inside your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain occupations.&lt;/strong&gt; Having a job that requires standing for long periods or doing heavy physical labor increases your risk of developing an inguinal hernia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature birth.&lt;/strong&gt; Infants who are born sooner than normal are more likely to have inguinal hernias.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of hernias.&lt;/strong&gt; If you&apos;ve had one inguinal hernia, it&apos;s much more likely that you&apos;ll eventually develop another &amp;mdash; usually on the opposite side.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pressure on surrounding tissues.&lt;/strong&gt; Most inguinal hernias enlarge over time if they&apos;re not repaired surgically. Large hernias can put pressure on surrounding tissues &amp;mdash; in men they may extend into the scrotum, causing pain and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Incarcerated hernia.&lt;/strong&gt; This complication of an inguinal hernia occurs when a loop of intestine becomes trapped in the weak point in the abdominal wall. This may obstruct the bowel, leading to severe pain, nausea, vomiting and the inability to have a bowel movement or pass gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strangulation.&lt;/strong&gt; When part of the intestine is trapped in the abdominal wall (incarcerated hernia), blood flow to this portion of the intestine may be diminished. This condition is called strangulation, and it may lead to the death of the affected bowel tissues. A strangulated hernia is life-threatening and requires immediate surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner if you have an inguinal hernia. However, in some cases when you call to set up an appointment, you may be referred immediately to a digestive disorders specialist called a gastroenterologist or to a general surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready and learn what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses and recent life changes. Also include your diet and exercise habits, including whether your job involves physical labor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions you&apos;re being treated for and the names of the medications that you&apos;re taking. Include on your list every prescription and over-the-counter drug you use, as well as any vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For inguinal hernias, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment?&lt;/li&gt;
+	&lt;li&gt;If you recommend a watch-and-wait approach, how will you monitor my condition?&lt;/li&gt;
+	&lt;li&gt;If you recommend surgery now, what type or procedure is right for me?&lt;/li&gt;
+	&lt;li&gt;What should I expect during my recovery from surgery?&lt;/li&gt;
+	&lt;li&gt;What is the risk of complications from surgery?&lt;/li&gt;
+	&lt;li&gt;What is the risk of my symptoms recurring?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to prevent a recurrence of this problem?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms stayed the same or gotten worse?&lt;/li&gt;
+	&lt;li&gt;Do you have pain in your abdomen or groin? Does anything make the pain feel worse or better?&lt;/li&gt;
+	&lt;li&gt;Do you notice a bulge in your groin when you stand up, cough, strain or lift heavy objects?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other medical conditions? When?&lt;/li&gt;
+	&lt;li&gt;What physical activity do you perform on your job?&lt;/li&gt;
+	&lt;li&gt;What other physical activities do you regularly engage in?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of constipation?&lt;/li&gt;
+	&lt;li&gt;Have you had a previous inguinal hernia?&lt;/li&gt;
+	&lt;li&gt;Have any of your close relatives had an inguinal hernia?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? If so, how much?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you&apos;re waiting for your appointment, get emergency medical care if you develop nausea, vomiting or a fever, or if your hernia bulge turns red, purple or dark. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A physical exam is usually all that&apos;s needed to diagnose an inguinal hernia. Your doctor is likely to ask about your signs and symptoms and to check for a bulge in the groin area. Because standing and coughing can make a hernia more prominent, you may be asked to stand up and cough or strain as part of the exam. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your hernia is small and isn&apos;t bothering you, your doctor may recommend a watch-and-wait approach. But enlarging or painful hernias usually require surgical repair to relieve discomfort and prevent serious complications. There are two general types of hernia operations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Herniorrhaphy.&lt;/strong&gt; In this procedure, also called &quot;open&quot; hernia repair, your surgeon makes an incision in your groin and pushes the protruding intestine back into your abdomen. Then your surgeon repairs the weakened or torn muscle by sewing it together. Often the weak area is also reinforced and supported with a synthetic mesh, a procedure called hernioplasty. After the operation, you&apos;ll be encouraged to move about as soon as possible, but it may be as long as four to six weeks before you&apos;re able to fully resume your normal activities.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Laparoscopy.&lt;/strong&gt; In laparoscopic surgery, your surgeon uses several small incisions rather than one large one. A fiber-optic tube with a tiny camera is inserted into your abdomen through one incision, and miniature instruments are inserted through the other incisions. Your surgeon then performs the operation using the video camera as a guide. In laparoscopic surgery, synthetic mesh is always used to repair the hernia (hernioplasty).
+	&lt;/p&gt;
+	&lt;p&gt;
+	Advantages of laparoscopic repair include less discomfort and scarring after surgery and a quicker return to normal activities &amp;mdash; most people are back to work within a few days. The procedure is a good choice for people whose hernias recur following traditional hernia surgery because laparoscopic methods allow surgeons to work around scar tissue from earlier repair. It&apos;s also good for people who have hernias on both sides of the body (bilateral inguinal hernias). 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Disadvantages of laparoscopic repair include an increased risk of complications and of recurrence following surgery. These risks are reduced if the procedure is performed by a surgeon with extensive experience in these kinds of repairs. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	You may not be a candidate for laparoscopic hernia repair if you have a very large hernia, if your intestine is pushed down into the scrotum or if you&apos;ve had previous pelvic surgery such as a prostatectomy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can&apos;t prevent the congenital defect that may lead to an inguinal hernia, but the following steps can help reduce strain on your abdominal muscles and tissues: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you think you may be overweight, talk to your doctor about the best exercise and diet plan for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emphasize high-fiber foods.&lt;/strong&gt; Fresh fruits and vegetables and whole grains are good for your overall health. They&apos;re also packed with fiber that can help prevent constipation and straining.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lift heavy objects carefully or avoid heavy lifting altogether.&lt;/strong&gt; If you have to lift something heavy, always bend from your knees, not from your waist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; In addition to increasing your risk of serious diseases such as cancer, emphysema and heart disease, smoking often causes a chronic cough that can lead to or aggravate an inguinal hernia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t rely on a truss, a supportive garment designed to keep hernias in place.&lt;/strong&gt; Contrary to what you may have heard, wearing a truss isn&apos;t the best long-term solution for an inguinal hernia. A truss won&apos;t protect against complications or correct the underlying problem, although your doctor may recommend wearing one for a short time before surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Inguinal hernia
+	</Title>
+	<Abstract>
+		Inguinal hernia &amp;mdash; Comprehensive overview covers symptoms and repair of this abdominal hernia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ00491" LinkType="Internal" ObjectID="48F38DCF-441F-4C58-B74ACC8CF2ABCEC6" Title="Hernia exam: Why do I have to cough?" Url="http://www.mayoclinic.com/health/hernia/HQ00491" />
+		<LinkItem ContentType="Disease" DocID="DS00287" LinkType="Internal" ObjectID="2CEBF76F-D36A-4D15-B937BFF91AB51438" Title="Cystic fibrosis" Url="http://www.mayoclinic.com/health/cystic-fibrosis/DS00287" />
+	</RelatedLinksBox>
+</Disease>

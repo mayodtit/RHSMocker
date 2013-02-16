@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00791
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blastocystis-hominis/DS00791
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-25
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="2576" Title="Blastocystosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5FC675B-E7FF-0DBD-13AC484FECE9744E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blastocystis hominis
+			</MetaKeyword>
+			<MetaKeyword>
+				blastocystis hominis infection
+			</MetaKeyword>
+			<MetaKeyword>
+				blastocystis infection
+			</MetaKeyword>
+			<MetaKeyword>
+				blastocystosis
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal parasite
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blastocystis hominis is a microscopic parasite sometimes found in the stools of healthy people as well as in the stools of those who have diarrhea, abdominal pain or other gastrointestinal problems. Infection with blastocystis is called blastocystosis.
+&lt;/p&gt;
+&lt;p&gt;
+Researchers don&apos;t yet fully understand the role that blastocystis plays, if any, in causing an infection. Certain subtypes of blastocystis may be more likely to cause symptomatic infection, or may pose a risk only when combined with other types of infection. In some cases, blastocystis simply resides in the digestive tract without causing harm.
+&lt;/p&gt;
+&lt;p&gt;
+There are no proven treatments for blastocystosis, and the infection usually clears up on its own. However, if signs and symptoms don&apos;t improve, your doctor may recommend trying medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms that might be associated with blastocystosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+	&lt;li&gt;Excessive gas (flatulence)&lt;/li&gt;
+	&lt;li&gt;Anal itching&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you have signs and symptoms, such as diarrhea or cramps, that last longer than three days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once thought to be a harmless yeast, blastocystis is a parasite, a microscopic single-celled organism (protozoan). Many protozoans inhabit your gastrointestinal tract and are harmless or even helpful; others cause disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether blastocystis is the type of protozoa that causes disease is controversial. While many people who carry blastocystis have no signs or symptoms, the organism is also found in others who have diarrhea and other gastrointestinal problems. Because blastocystis often appears with other organisms, experts aren&apos;t sure whether it causes disease on its own or is an innocent bystander in this setting. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible that some people may be carriers of blastocystis and don&apos;t exhibit any signs or symptoms of infection, while other people are more susceptible to infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Many types of protozoans get into the intestinal tract through oral-fecal contact, such as occurs when a person doesn&apos;t wash his or her hands thoroughly after using the toilet before preparing food. No one knows for certain how blastocystis is transmitted, but experts suspect it&apos;s through oral-fecal contact. Experts do know that the prevalence of blastocystis increases in places with inadequate sanitation and poor personal hygiene. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blastocystosis is common, and anyone can get the infection. You may be at higher risk if you travel or live where sanitation is inadequate or where the water may not be safe.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have diarrhea associated with blastocystis, it&apos;s likely to be self-limiting. However, anytime you have diarrhea, you lose vital fluids, salts and minerals, which can lead to dehydration. Children are especially vulnerable to dehydration. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred to an infectious disease specialist or someone who specializes in digestive system disorders (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes. Let your doctor know if you&apos;ve recently traveled out of the country, especially if you traveled to a developing country.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For blastocystis infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you traveled out of the country recently?&lt;/li&gt;
+	&lt;li&gt;Do you have any other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If your symptoms are related to blastocystis, they may go away on their own before you even see your doctor. Be sure to stay well hydrated in the meantime. Oral rehydration solutions &amp;mdash; available through drugstores and health agencies worldwide &amp;mdash; can effectively replace lost fluids and electrolytes. 
+&lt;/p&gt;
+&lt;p&gt;
+If no oral rehydration solutions are available, you can make your own by combining 1 quart (about 1 liter) of bottled or boiled water with 6 level teaspoons (about 30 milliliters) of table sugar and 1/2 level teaspoon (about 2.5 milliliters) of table salt. 
+&lt;/p&gt;
+&lt;p&gt;
+Anti-diarrheal medications aren&apos;t generally recommended, because they can make some diarrheal illnesses worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of your diarrhea may be difficult to diagnose. Even if blastocystis is present on a fecal exam, it may not be causing your symptoms. Your doctor likely will take your medical history, ask you about recent activities, such as traveling, and perform a physical exam. A number of lab tests help diagnose parasitic diseases and other noninfectious causes of gastrointestinal symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Stool (fecal) exam.&lt;/strong&gt; Also called an ova and parasite test, this test looks for parasites or their eggs (ova) that cause signs and symptoms, such as diarrhea and abdominal cramping and bloating. Your doctor may ask you for several stool samples, each from a different day.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may give you a special container with preservative fluid for your stool samples. If not, refrigerate your samples until you take them to your doctor&apos;s office or the lab your doctor designates. Don&apos;t freeze the samples. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopy.&lt;/strong&gt; If you have symptoms, but the fecal exam doesn&apos;t reveal the cause, your doctor may request this test. A doctor, usually a gastroenterologist, inserts a tube into your mouth or rectum to look for the cause of your symptoms. You&apos;ll be sedated for this test, and you&apos;ll need to fast beginning at midnight the night before the test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Although there are no blood tests that can detect blastocystis, your doctor may order blood tests to look for other causes of your signs and symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have blastocystis without signs or symptoms, then you don&apos;t need treatment. Mild signs and symptoms may improve on their own within a few days. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential medications for treating blastocystis infection include the antibiotic metronidazole (Flagyl), the combination medication sulfamethoxazole and trimethoprim (Bactrim, Septra, others), and the antiprotozoal medications iodoquinol (Yodoxin) or nitazoxanide (Alinia). However, keep in mind that response to medication for blastocystis infection varies greatly from person to person. And, because the symptoms you&apos;re having might be unrelated to blastocystis, it&apos;s also possible that any improvement may be due to the medication&apos;s effect on another organism. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be able to prevent blastocystis or other gastrointestinal infection by taking a number of precautions while traveling in high-risk countries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Watch what you eat&lt;/strong&gt; &lt;br /&gt;
+The general rule of thumb is this: If you can&apos;t boil it, cook it or peel it &amp;mdash; forget it. Unfortunately, most travelers don&apos;t stick to these guidelines all of the time. Remember these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid food from street vendors.&lt;/li&gt;
+	&lt;li&gt;Avoid unpasteurized milk and dairy products, including ice cream.&lt;/li&gt;
+	&lt;li&gt;Avoid raw or undercooked meat, fish and shellfish.&lt;/li&gt;
+	&lt;li&gt;Steer clear of moist food at room temperature, such as sauces and buffet offerings.&lt;/li&gt;
+	&lt;li&gt;Eat foods that are well cooked and served hot.&lt;/li&gt;
+	&lt;li&gt;Munch on dry foods &amp;mdash; like breads &amp;mdash; and foods high in sugar, such as jellies and syrups.&lt;/li&gt;
+	&lt;li&gt;Stick to fruits and vegetables that you can peel yourself, such as bananas, oranges and avocados. Stay away from salads and unpeelable fruits, such as grapes and berries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t drink the water&lt;/strong&gt; &lt;br /&gt;
+When visiting high-risk countries, keep the following tips in mind: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid unsterilized water &amp;mdash; from tap, well or stream. If you need to consume local water, boil it for at least three minutes and then let it cool to room temperature.&lt;/li&gt;
+	&lt;li&gt;Avoid ice cubes or fruit juices made with tap water.&lt;/li&gt;
+	&lt;li&gt;Beware of sliced fruit that may have been washed in contaminated water.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t swim in water that may be contaminated.&lt;/li&gt;
+	&lt;li&gt;Keep your mouth closed while showering.&lt;/li&gt;
+	&lt;li&gt;Feel free to drink canned or bottled drinks in their original containers &amp;mdash; including water, carbonated beverages, beer or wine &amp;mdash; as long as you break the seals on the containers yourself. Wipe off any can or bottle before drinking or pouring.&lt;/li&gt;
+	&lt;li&gt;Use bottled water to brush your teeth.&lt;/li&gt;
+	&lt;li&gt;Use bottled or boiled water to mix baby formula.&lt;/li&gt;
+	&lt;li&gt;Make sure hot beverages, such as coffee or tea, are steaming hot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If it&apos;s not possible to buy bottled water or boil your water, bring some means to purify water: Consider a water-filter pump with a microstrainer filter that can filter out small microorganisms. Look in camping stores for a filter that is certified by the National Science Foundation. 
+&lt;/p&gt;
+&lt;p&gt;
+Another approach is to chemically disinfect water with iodine or chlorine. Iodine tends to be more effective, but reserve it for short trips, because too much iodine can be harmful to your body. You can purchase iodine tablets or crystals at camping stores and pharmacies. Be sure to carefully follow the directions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Take precautions against passing a parasite to others&lt;/strong&gt; &lt;br /&gt;
+If you have blastocystis or another gastrointestinal infection, good personal hygiene will help keep you from spreading the infection to others: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash hands with soap and water frequently,&lt;/strong&gt; especially after using the toilet and before handling food. Rub soapy, wet hands together for at least 20 seconds before rinsing. If soap and water aren&apos;t available, use an alcohol-based hand sanitizer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash hands well after changing a diaper,&lt;/strong&gt; especially if you work in a child care center, even if you wear gloves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blastocystis hominis infection
+	</Title>
+	<Abstract>
+		Blastocystis hominis infection &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this parasitic infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

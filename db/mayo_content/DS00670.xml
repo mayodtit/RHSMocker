@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00670
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vocal-cord-paralysis/DS00670
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-15
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2322" Title="Nerve">
+						<Keyword MCVID="2935" Title="Vocal cord paralysis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			03A3A6F5-2A5D-9994-E588C0426CBC5E6A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vocal cord paralysis
+			</MetaKeyword>
+			<MetaKeyword>
+				vocal cords
+			</MetaKeyword>
+			<MetaKeyword>
+				laryngitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hoarseness
+			</MetaKeyword>
+			<MetaKeyword>
+				hoarse voice
+			</MetaKeyword>
+			<MetaKeyword>
+				vocal chords
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vocal cord paralysis occurs when the nerve impulses to your voice box (larynx) are interrupted. This results in paralysis of the muscle of the vocal cords. Vocal cord paralysis can affect your ability to speak and even breathe. That&apos;s because your vocal cords, sometimes called vocal folds, do more than just produce sound. They also protect your airway by preventing food, drink and even your saliva from entering your windpipe (trachea) and causing you to choke. 
+&lt;/p&gt;
+&lt;p&gt;
+There are a number of causes of vocal cord paralysis including damage to nerves during surgery and certain cancers. Vocal cord paralysis can also be caused by a viral infection or a neurological disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for vocal cord paralysis usually includes voice therapy; however, surgery is also sometimes necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your vocal cords are two flexible bands of muscle tissue that sit at the entrance to the windpipe (trachea). When you speak, the bands come together and vibrate to make sound. The rest of the time, the vocal cords are relaxed in an open position, so you can breathe. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases of vocal cord paralysis, only one vocal cord is paralyzed. If both of your vocal cords are affected, you may have vocal difficulties, as well as significant problems with breathing and swallowing. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of vocal cord paralysis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A breathy quality to the voice&lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Noisy breathing&lt;/li&gt;
+	&lt;li&gt;Loss of vocal pitch&lt;/li&gt;
+	&lt;li&gt;Choking or coughing while swallowing food, drink or saliva&lt;/li&gt;
+	&lt;li&gt;The need to take frequent breaths while speaking&lt;/li&gt;
+	&lt;li&gt;Inability to speak loudly&lt;/li&gt;
+	&lt;li&gt;Loss of your gag reflex&lt;/li&gt;
+	&lt;li&gt;Ineffective coughing&lt;/li&gt;
+	&lt;li&gt;Frequent throat clearing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have unexplained, persistent hoarseness for more than three or four weeks, or if you notice any unexplained voice changes or discomfort, contact your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="60" Title="How speech occurs" URI="/images/image_popup/thumbs/r7_vocalcordsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="295" Title="How speech occurs" URI="/images/image_popup/r7_vocalcords.jpg" Width="400" />
+				<HTML>
+					Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords open and closed 
+" Caption="" Height="60" Title="Vocal cords open and closed" URI="/images/image_popup/thumbs/r7_openclosethu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords open and closed 
+" Caption="" Height="353" Title="Vocal cords open and closed" URI="/images/image_popup/r7_openclose.jpg" Width="400" />
+				<HTML>
+					...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In vocal cord paralysis, the nerve impulses to your voice box (larynx) are disrupted, resulting in paralysis of the muscle. Doctors often don&apos;t know the cause of vocal cord paralysis. Known causes may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to the vocal cord during surgery.&lt;/strong&gt; Surgery on or near your neck or upper chest can result in damage to the nerves that serve your voice box. Surgeries that carry a risk of damage include surgeries to the thyroid or parathyroid glands, esophagus, neck, and chest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neck or chest injury.&lt;/strong&gt; Trauma to your neck or chest may injure the nerves that serve your vocal cords or the voice box itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; A stroke interrupts blood flow in your brain and may damage the part of your brain that sends messages to the voice box.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumors.&lt;/strong&gt; Tumors, both cancerous and noncancerous, can grow in or around the muscles, cartilages or nerves of your voice box and can cause vocal cord paralysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation.&lt;/strong&gt; Arthritis or surgery can cause inflammation and scarring of the vocal cord joints or the space between the two vocal cord cartilages, and this inflammation may prevent your vocal cords from opening and closing. The symptoms and signs of this disorder mimic vocal cord paralysis, even though the vocal cord nerves remain normal. In addition, some viral infections can cause inflammation and damage directly to the nerves in the larynx.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological conditions.&lt;/strong&gt; If you have certain neurological conditions, such as multiple sclerosis or Parkinson&apos;s disease, you may experience vocal cord paralysis. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing vocal cord paralysis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women are slightly more likely to develop vocal cord paralysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Undergoing throat or chest surgery.&lt;/strong&gt; People who need surgery on their thyroid, throat or upper chest have an increased risk of vocal cord nerve damage. Sometimes breathing tubes used in surgery or to help you breathe if you&apos;re having serious respiratory trouble can damage the vocal cord nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a neurological condition.&lt;/strong&gt; People with certain neurological conditions &amp;mdash; such as Parkinson&apos;s disease, multiple sclerosis or myasthenia gravis &amp;mdash; are more likely to develop vocal cord weakness or paralysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breathing problems associated with vocal cord paralysis may be so mild that you just have a hoarse-sounding voice, or they can be so serious that they&apos;re life-threatening. Because vocal cord paralysis keeps the opening to the airway from completely opening or closing, other complications may include choking on or actually inhaling (aspirating) food or liquid. Aspiration that leads to severe pneumonia is very serious and requires immediate medical care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your primary care doctor unless both vocal cords are paralyzed. In that case, you&apos;ll probably first be seen in a hospital emergency department. 
+&lt;/p&gt;
+&lt;p&gt;
+After the initial assessment, you&apos;ll likely be referred to a doctor who specializes in ear, nose and throat disorders. You may also be referred to a doctor who treats disorders of nerves (neurologist) and a speech-language pathologist for voice assessment and therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s helpful to arrive well prepared for your appointment. Here&apos;s some information to help you get ready and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent illnesses or life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking, including the dose of each.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. For vocal cord paralysis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my vocal cord paralysis?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary, or will my vocal cords always be paralyzed?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the treatment that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on using my voice after treatment? If so, for how long?&lt;/li&gt;
+	&lt;li&gt;Will I be able to talk or sing after treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any additional questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Were there any special events or circumstances that happened before or at the same time that your symptoms developed?&lt;/li&gt;
+	&lt;li&gt;Have you received any treatment yet?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How are your symptoms affecting your lifestyle?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask about your symptoms and lifestyle, listen to your voice, and ask you how long you&apos;ve had voice problems. To further evaluate your voice problems, the following tests may be performed:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopy.&lt;/strong&gt; Your doctor will look at your vocal cords using a mirror or a thin, flexible tube (endoscope) or both. You may also have a test called videostrobolaryngoscopy that&apos;s done using a special scope that contains a tiny camera at its tip or a larger camera connected to the scope&apos;s viewing piece. These special endoscopes allow your doctor to view your vocal cords directly or on a video monitor to determine the movement and position of the vocal cords and whether one or both vocal cords are affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laryngeal electromyography.&lt;/strong&gt; This test measures the electric currents in your voice box muscles. To obtain these measurements, your doctor typically inserts small needles into your vocal cord muscles through the skin of the neck. This test is only rarely performed because it doesn&apos;t usually provide information that might change the course of treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests and scans.&lt;/strong&gt; Because a number of diseases may cause a nerve to be injured, you may need additional tests to identify the cause of the paralysis. Tests may include blood work, lung function tests, X-rays, MRI or CT scans.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of vocal cord paralysis depends on the cause, the severity of symptoms and the time from the onset of symptoms. Treatment may include voice therapy, bulk injections, surgery or a combination of treatments. In some instances, you may get better without surgical treatment. For this reason, your doctor may delay permanent surgery for six months to a year from the beginning of your vocal cord paralysis. Bulk injections using collagen-like substances are often done within the first month of voice loss, however. During the waiting period for surgery, your doctor may suggest voice therapy to help keep you from using your voice improperly while the nerves heal.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Voice therapy&lt;br /&gt;
+&lt;/strong&gt;Voice therapy sessions involve exercises or other activities to strengthen your vocal cords, improve breath control during speech, prevent abnormal tensions in other muscles around the paralyzed vocal cord and protect your airway during swallowing. Occasionally, voice therapy may be the only treatment you need if your vocal cords were paralyzed in a location that doesn&apos;t require additional bulk or repositioning.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your vocal cord paralysis symptoms don&apos;t fully recover on their own, surgical treatments may be offered to improve your ability to speak and to swallow. Surgical options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bulk injection.&lt;/strong&gt; Paralysis of the nerve to your vocal cord will probably leave the vocal cord muscle thin and weak. To add bulk to a paralyzed vocal cord, a doctor who specializes in disorders of the larynx (laryngologist) may inject your vocal cord with a substance such as body fat, collagen or another approved filler substance. This added bulk brings the affected vocal cord closer to the middle of your voice box so that the opposite functioning and moving vocal cord can make closer contact with the paralyzed cord when you speak, swallow or cough.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Structural implants.&lt;/strong&gt; Instead of using a bulk injection, this procedure &amp;mdash; known as medialization laryngoplasty or laryngeal framework surgery &amp;mdash; relies on the use of an implant in the larynx to reposition the vocal cord. Rarely people who have this surgery may need to have a second surgery to reposition the implant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vocal cord repositioning.&lt;/strong&gt; In this procedure, a surgeon moves a window of your own tissue from the outside of your voice box inward, pushing the paralyzed vocal cord toward the middle of your voice box. This allows your unimpaired vocal cord to better vibrate against its paralyzed partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replacing the damaged nerve (reinnervation).&lt;/strong&gt; In this surgery, a healthy nerve is moved from a different area of the neck to replace the damaged vocal cord. It can take as long as six months before the new nerves start working. Some doctors combine this surgery with a bulk injection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tracheotomy.&lt;/strong&gt; If both of your vocal cords are paralyzed and positioned closely together, your airflow will be decreased. In this situation, you&apos;ll have a lot of trouble breathing and require a surgical procedure called a tracheotomy. In a tracheotomy, an incision is made in the front of your neck and an opening created directly into the windpipe (trachea). A breathing tube is inserted, allowing air to bypass the immobilized vocal cords.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emerging treatments&lt;br /&gt;
+&lt;/strong&gt;Linking the vocal cords to an alternative source of electrical stimulation &amp;mdash; perhaps a nerve from another part of the body or a device similar to a cardiac pacemaker &amp;mdash; may restore opening and closing of the vocal cords. Researchers continue to study this and other options.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vocal cord paralysis can be frustrating and sometimes debilitating, especially because your voice affects your ability to communicate. A speech therapist can help you develop the skills you need to communicate. Even if you&apos;re not able to regain the voice you once had, speech therapy can help you learn effective ways to compensate. In addition, a speech-language pathologist can teach you efficient ways to use your voice without causing further damage to the vocal mechanism.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vocal cord paralysis
+	</Title>
+	<Abstract>
+		Vocal cord paralysis &amp;mdash; Comprehensive overview covers causes, treatments of this sometimes dangerous disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00261" LinkType="Internal" ObjectID="5309DECB-E7FF-0DBD-184F285B0CDD719E" Title="Tracheostomy" Url="http://www.mayoclinic.com/health/tracheostomy/MY00261" />
+	</RelatedLinksBox>
+</Disease>

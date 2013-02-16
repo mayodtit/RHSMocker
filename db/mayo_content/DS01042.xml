@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01042
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/myofascial-pain-syndrome/DS01042
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-05
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="3294" Title="Myofascial pain syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D79DD95D-E7FF-0DBD-1FB545153FAD4CDB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				myofascial pain syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				myofascial pain
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myofascial pain
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic pain
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle aches
+			</MetaKeyword>
+			<MetaKeyword>
+				sore muscles
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle soreness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myofascial pain syndrome is a chronic pain disorder. In myofascial pain syndrome, pressure on sensitive points in your muscles (trigger points) causes pain in seemingly unrelated parts of your body. This is called referred pain.
+&lt;/p&gt;
+&lt;p&gt;
+Myofascial pain syndrome typically occurs after a muscle has been contracted repetitively. This can be caused by repetitive motions used in jobs or hobbies or by stress-related muscle tension. 
+&lt;/p&gt;
+&lt;p&gt;
+While nearly everyone has experienced muscle tension pain, the discomfort associated with myofascial pain syndrome persists or worsens. Treatment options for myofascial pain syndrome include physical therapy and trigger point injections. Pain medications and relaxation techniques also can help.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of myofascial pain syndrome may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Deep, aching pain in a muscle&lt;/li&gt;
+	&lt;li&gt;Pain that persists or worsens&lt;/li&gt;
+	&lt;li&gt;A tender knot in a muscle&lt;/li&gt;
+	&lt;li&gt;Difficulty sleeping due to pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you experience muscle pain that doesn&apos;t go away. Nearly everyone experiences muscle pain from time to time. But if your muscle pain persists despite rest, massage and similar self-care measures, make an appointment with your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sensitive areas of tight muscle fibers can form in your muscles after injuries or overuse. These sensitive areas are called trigger points. A trigger point in a muscle can cause strain and pain throughout the muscle. When this pain persists and worsens, doctors call it myofascial pain syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myofascial pain syndrome is caused by a stimulus, such as pressure, that sets off trigger points in your muscles. Factors that may increase your risk of muscle trigger points include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle injury.&lt;/strong&gt; An acute muscle injury or continual muscle stress may lead to the development of trigger points. For example, a spot within or near a strained muscle may become a trigger point. Repetitive motions and poor posture also may increase your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress and anxiety.&lt;/strong&gt; People who frequently experience stress and anxiety may be more likely to develop trigger points in their muscles. One theory holds that these people may be more likely to clench their muscles, a form of repeated strain that leaves muscles susceptible to trigger points.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications associated with myofascial pain syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep problems.&lt;/strong&gt; Signs and symptoms of myofascial pain syndrome may make it difficult to sleep at night. You may have trouble finding a comfortable sleep position. And if you move at night, you might hit a trigger point and awaken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fibromyalgia.&lt;/strong&gt; Some research suggests that myofascial pain syndrome may develop into fibromyalgia in some people. Fibromyalgia is a chronic condition that features widespread pain. It&apos;s believed that the brains of people with fibromyalgia become more sensitive to pain signals over time. Some doctors believe myofascial pain syndrome may play a role in starting this process.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because many of the signs and symptoms of myofascial pain syndrome are similar to various other disorders, you may see several doctors before receiving a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do &lt;br /&gt;
+&lt;/strong&gt;You&apos;re likely to start with a visit to your primary care doctor, who may refer you to a doctor who specializes in diagnosing and treating muscle and joint conditions (rheumatologist). You may get more from your appointment if you do these things beforehand: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance to prepare for your evaluation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated, and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider questions to ask your doctor&lt;/strong&gt; and write them down. Bring along notepaper and a pen to jot down information as your doctor addresses your questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For myofascial pain syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the possible causes of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition temporary?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take home with me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor or health care provider is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. 
+&lt;/p&gt;
+&lt;p&gt;
+Questions your doctor might ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Where do you feel the most intense area of pain?&lt;/li&gt;
+	&lt;li&gt;How long have you been experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to come and go, or are they persistent?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse in the morning or at any particular time of the day?&lt;/li&gt;
+	&lt;li&gt;Do you perform repetitive tasks on the job or for hobbies?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent injuries?&lt;/li&gt;
+	&lt;li&gt;Does your pain cause you to limit your activities?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may apply gentle finger pressure to the painful area, feeling for tense areas. Certain ways of pressing on (palpating) the trigger point can elicit specific responses. For instance, you may experience a muscle twitch. 
+&lt;/p&gt;
+&lt;p&gt;
+Muscle pain has many possible causes. Your doctor may recommend other tests and procedures to rule out other causes of muscle pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for myofascial pain syndrome typically includes medications, trigger point injections or physical therapy. No conclusive evidence supports using one therapy over another. Discuss your options and treatment preferences with your doctor. You may need to try more than one approach to find pain relief. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications used for myofascial pain syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Over-the-counter pain relievers such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve) may help some people. Or your doctor may prescribe stronger pain relievers. Some are available in patches that you place on your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Many types of antidepressants also can help relieve pain. For some people with myofascial pain syndrome, amitriptyline appears to reduce pain and improve sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedatives.&lt;/strong&gt; Clonazepam (Klonopin) helps relax muscles affected by myofascial pain syndrome. It must be used carefully because it can cause sleepiness and can be habit-forming.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can devise a plan to help relieve your pain based on your signs and symptoms. Physical therapy to relieve myofascial pain syndrome may involve:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stretching.&lt;/strong&gt; A physical therapist may lead you through gentle stretching exercises to help ease the pain in your affected muscle. If you feel trigger point pain when stretching, the physical therapist may spray a numbing solution on your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; A physical therapist may massage your affected muscle to help relieve your pain. The physical therapist may use long hand strokes along your muscle or place pressure on specific areas of your muscle to release tension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat.&lt;/strong&gt; Applying heat, via a hot pack or a hot shower, can help relieve muscle tension and reduce pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This type of therapy uses sound waves to increase blood circulation and warmth, which may promote healing in muscles affected by myofascial pain syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Needle procedures&lt;br /&gt;
+&lt;/strong&gt;Injecting a numbing agent or a steroid into a trigger point can help relieve pain. In some people, just the act of inserting the needle into the trigger point helps break up the muscle tension. Called dry needling, this technique involves inserting a needle into several places in and around the trigger point. Acupuncture also appears to be helpful for some people who have myofascial pain syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take care of yourself if you have myofascial pain syndrome. Self-care measures to keep your body healthy may make it easier for you to concentrate on coping with your pain. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Gentle exercise can help you cope better with pain. When your pain allows, get moving. Ask your doctor or physical therapist about appropriate exercises. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relax.&lt;/strong&gt; If you&apos;re stressed and tense, you may experience more pain. Find ways to relax. Meditating, writing in a journal or talking with friends can all be helpful. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your body.&lt;/strong&gt; Eat a healthy diet full of fruits and vegetables. Get enough sleep so that you wake rested. Take care of your body so that you can put your energy toward coping with your pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be interested in trying complementary and alternative medicine if your pain isn&apos;t controlled with conventional treatments. Discuss the options with your doctor. Though you may be reluctant to bring up herbs, supplements or other complementary therapies when talking with your doctor, you may be surprised to find that many doctors are becoming more willing to discuss these treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Discuss any complementary and alternative treatments you&apos;re considering with your doctor. Some treatments may interfere with your medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Many complementary and alternative treatments are touted as good options for controlling chronic pain. But most claims aren&apos;t supported with studies that show any benefit. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acupuncture&lt;/strong&gt;&lt;br /&gt;
+During an acupuncture session, a practitioner places numerous thin needles in your skin at specific points on your body. According to traditional Chinese medicine, precisely placed acupuncture needles relieve pain and other symptoms by rebalancing the currents of life energy always coursing through your body. Some evidence exists to support the use of acupuncture in people with myofascial pain syndrome. However, studies have been small and limited. 
+&lt;/p&gt;
+&lt;p&gt;
+When administered by a reputable practitioner using sterile needles, acupuncture can be safe. Ask your doctor for names of certified practitioners in your area. Acupuncture isn&apos;t safe if you have a bleeding disorder or take blood thinners. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a chronic pain condition such as myofascial pain syndrome can be frustrating. Treatment may be only moderately successful for you. It may help to talk to a counselor about the challenges you&apos;re facing. Online or in-person support groups also can be helpful by connecting you with people who understand what you&apos;re going through. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Myofascial pain syndrome
+	</Title>
+	<Abstract>
+		Myofascial pain syndrome &amp;mdash; Comprehensive overview covers symptoms and treatment of myofascial pain.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+	</RelatedLinksBox>
+</Disease>

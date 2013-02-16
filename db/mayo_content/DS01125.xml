@@ -1,0 +1,317 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01125
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-hemangioma/DS01125
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-12
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="3206" Title="Liver tumor" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8D8F4802-E7FF-0DBD-1E2D1859EFC7A7DC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver hemangioma
+			</MetaKeyword>
+			<MetaKeyword>
+				cavernous hemangioma
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatic hemangioma
+			</MetaKeyword>
+			<MetaKeyword>
+				liver tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				benign liver tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				liver mass
+			</MetaKeyword>
+			<MetaKeyword>
+				hemangioma liver
+			</MetaKeyword>
+			<MetaKeyword>
+				hemangioma in liver
+			</MetaKeyword>
+			<MetaKeyword>
+				hemangioma of liver
+			</MetaKeyword>
+			<MetaKeyword>
+				hemangioma on liver
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Liver hemangioma (he-man-jee-O-muh) is a noncancerous (benign) mass that occurs in the liver. A liver hemangioma is made up of a tangle of blood vessels. Liver hemangioma is sometimes called hepatic hemangioma or cavernous hemangioma. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of liver hemangioma are discovered during a test or procedure for some other condition. Most people who have a liver hemangioma never experience signs and symptoms and never need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+It may be unsettling to know you have a mass in your liver, even if it&apos;s a benign mass. However, there&apos;s no evidence that an untreated liver hemangioma can lead to liver cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing liver hemangioma
+" Caption="A liver hemangioma is a noncancerous (benign) mass that can occur in the liver. A liver hemangioma is made up of a tangle of blood vessels. 
+" Height="60" Title="Liver hemangioma" URI="/images/image_popup/thumbs/d7_liverhemangiomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing liver hemangioma
+" Caption="A liver hemangioma is a noncancerous (benign) mass that can occur in the liver. A liver hemangioma is made up of a tangle of blood vessels. 
+" Height="285" Title="Liver hemangioma" URI="/images/image_popup/d7_liver_hemangioma.jpg" Width="400" />
+				<HTML>
+					A liver hemangioma is a noncancerous (benign) mass that can occur in the liver. A liver hemangioma is made up of a tangle of blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, liver hemangioma doesn&apos;t cause any signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+When a liver hemangioma causes signs and symptoms, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in the upper right abdomen&lt;/li&gt;
+	&lt;li&gt;Feeling full after eating only a small amount of food&lt;/li&gt;
+	&lt;li&gt;Lack of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you experience any persistent signs and symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes a liver hemangioma to form. Doctors believe liver hemangioma is congenital &amp;mdash; meaning that you&apos;re born with it. 
+&lt;/p&gt;
+&lt;p&gt;
+Liver hemangioma usually occurs as a single abnormal collection of blood vessels that is less than about 1.5 inches (4 centimeters) wide. Occasionally liver hemangiomas can be larger or occur in multiples. 
+&lt;/p&gt;
+&lt;p&gt;
+In most people, liver hemangioma will never grow and never cause any signs and symptoms. But in a small number of people, liver hemangioma will grow to cause complications and require treatment. It&apos;s not clear why this happens. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase the risk that liver hemangioma will cause signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Liver hemangioma can be diagnosed at any age, but it&apos;s most commonly diagnosed in people ages 30 to 50.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Women are more likely to be diagnosed with liver hemangioma than men are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Women who have been pregnant are more likely to be diagnosed with a liver hemangioma than women who have never been pregnant. It&apos;s believed the hormone estrogen, which rises during pregnancy, may play a role in liver hemangioma growth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone replacement therapy.&lt;/strong&gt; Women who used hormone replacement therapy for menopausal symptoms may be more likely to be diagnosed with liver hemangioma than women who did not.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Complications that occur during pregnancy&lt;/strong&gt; &lt;br /&gt;
+Women who have been diagnosed with liver hemangioma face a risk of complications if they become pregnant. The female hormone estrogen, which increases during pregnancy, is believed to cause some liver hemangiomas to grow larger. A growing hemangioma can cause signs and symptoms and may require treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Having a liver hemangioma doesn&apos;t mean you can&apos;t become pregnant. However, discussing the possible complications with your doctor can help you make a more informed choice. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications related to hormone therapy&lt;/strong&gt; &lt;br /&gt;
+Medications that affect hormone levels in your body, such as birth control pills, could cause complications if you have been diagnosed with liver hemangioma. But this is controversial. If you&apos;re considering this type of medication, discuss the benefits and risks with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The majority of liver hemangiomas are discovered during a test or procedure for something else. If it&apos;s thought that you have a liver mass, you may be referred to a doctor who specializes in the digestive system (gastroenterologist) or one who specializes in the liver (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing&lt;/strong&gt;. Most people with liver hemangioma don&apos;t have any signs or symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For liver hemangioma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the size of my liver hemangioma?&lt;/li&gt;
+	&lt;li&gt;Do I have one liver hemangioma or multiple hemangiomas?&lt;/li&gt;
+	&lt;li&gt;Is my liver hemangioma growing?&lt;/li&gt;
+	&lt;li&gt;What additional tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for my liver hemangioma?&lt;/li&gt;
+	&lt;li&gt;What happens if I don&apos;t have treatment?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+	&lt;li&gt;Are there medications that may worsen my hemangioma?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose liver hemangioma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ultrasound&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT) scan&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+	&lt;li&gt;Single-photon emission computerized tomography (SPECT) scan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other tests and procedures may be used depending on your particular situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Most people don&apos;t need treatment&lt;/strong&gt; &lt;br /&gt;
+If your liver hemangioma is small and doesn&apos;t cause any signs or symptoms, you won&apos;t need treatment. While you may be worried about leaving a liver mass untreated, in most cases a liver hemangioma will never grow and will never cause problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may schedule follow-up exams to check your liver hemangioma periodically for growth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for liver hemangioma that causes signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If a liver hemangioma grows large enough to push on nearby structures in your abdomen, it can cause signs and symptoms and may signal that you need treatment. Liver hemangioma treatment depends on your situation, such as the location and size of the hemangioma, whether you have more than one hemangioma, your overall health and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the liver hemangioma.&lt;/strong&gt; If the hemangioma can be easily separated from the liver, your doctor may recommend surgery to remove the mass.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove part of the liver, including the hemangioma.&lt;/strong&gt; In some cases, surgeons may need to remove a portion of your liver along with the hemangioma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Procedures to stop blood flow to the hemangioma.&lt;/strong&gt; Your surgeon may recommend stopping blood flow through the main artery to the hemangioma. Blood flow can be stopped by tying off the artery (hepatic artery ligation) or injecting medication into the artery to block it (arterial embolization). Without a blood supply, the mass may stop growing or shrink. The healthy liver tissue is unharmed, though, because it can draw blood from other nearby vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver transplant surgery.&lt;/strong&gt; In very rare situations, if you have a very large hemangioma or multiple hemangiomas that can&apos;t be treated by other means, your doctor may recommend surgery to remove your liver and replace it with a liver from a donor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy uses powerful energy beams, such as X-rays, to damage the cells of the hemangioma. This treatment is rarely used.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a liver hemangioma, even a small, dormant one, can be unsettling at first. You may be worried about whether your liver hemangioma is growing or whether it will cause complications in the future. With time, you may adjust to living with a liver hemangioma. Until you find your own ways of coping, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about liver hemangioma.&lt;/strong&gt; Write down questions to ask your doctor at your next appointment. Also ask about good sources of information that your doctor recommends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know the signs and symptoms of a growing liver hemangioma.&lt;/strong&gt; Ask your doctor about what signs and symptoms may indicate that your liver hemangioma is growing or causing complications. Signs and symptoms might include persistent pain in the upper right area of your abdomen, nausea and vomiting. Ask your doctor which symptoms should prompt you to make an appointment for a checkup.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your liver.&lt;/strong&gt; A small liver hemangioma won&apos;t interrupt your liver&apos;s ability to function. Still, you can make choices that help keep your liver healthy. Don&apos;t smoke, follow directions when using household chemicals, maintain a healthy weight, drink alcohol in moderation if at all, and avoid risky behaviors, such as unprotected sex and sharing needles. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Liver hemangioma
+	</Title>
+	<Abstract>
+		Liver hemangioma &amp;mdash; Comprehensive overview covers definition, symptoms, treatment of this noncancerous liver mass.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+	</RelatedLinksBox>
+</Disease>

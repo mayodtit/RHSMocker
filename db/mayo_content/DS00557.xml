@@ -1,0 +1,281 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00557
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/charcot-marie-tooth-disease/DS00557
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-07
+		</UpdateDate>
+		<PublicationDate>
+			2004-08-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="2772" Title="Charcot-Marie-Tooth disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			95902DA8-B8EE-4EEE-AD4766CDB2F8FA2F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Charcot-Marie-Tooth disease
+			</MetaKeyword>
+			<MetaKeyword>
+				CMT
+			</MetaKeyword>
+			<MetaKeyword>
+				hereditary motor and sensory neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				HMSN
+			</MetaKeyword>
+			<MetaKeyword>
+				peroneal muscular atrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				PMA
+			</MetaKeyword>
+			<MetaKeyword>
+				Dejerine-Sottas
+			</MetaKeyword>
+			<MetaKeyword>
+				DS
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Charcot (shahr-KOH)-Marie-Tooth disease, also known as hereditary motor and sensory neuropathy, is a group of hereditary disorders that affects the nerves in your arms and legs. The disease predominantly causes muscle weakness and decreased muscle bulk with typically limited decreased sensation. With Charcot-Marie-Tooth disease, symptoms may vary widely in severity, even among family members, but tend to slowly worsen over time. 
+&lt;/p&gt;
+&lt;p&gt;
+Charcot-Marie-Tooth symptoms usually begin in your feet and legs, but may also eventually affect your hands and arms. Foot deformities such as hammertoes and high arches are common in Charcot-Marie-Tooth disease. Muscle weakness and loss of balance can make walking difficult. Symptoms of Charcot-Marie-Tooth disease typically appear in adolescence or early adulthood, but late onset also occurs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of Charcot-Marie-Tooth disease may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weakness in your legs, ankles and feet&lt;/li&gt;
+	&lt;li&gt;Loss of muscle bulk in legs and feet&lt;/li&gt;
+	&lt;li&gt;High foot arches&lt;/li&gt;
+	&lt;li&gt;Curled toes (hammertoes)&lt;/li&gt;
+	&lt;li&gt;Decreased ability to run&lt;/li&gt;
+	&lt;li&gt;Difficulty lifting your foot at the ankle (footdrop)&lt;/li&gt;
+	&lt;li&gt;Awkward or higher than normal step (gait)&lt;/li&gt;
+	&lt;li&gt;Frequent tripping or falling&lt;/li&gt;
+	&lt;li&gt;Decreased sensation in your legs and feet&lt;/li&gt;
+	&lt;li&gt;Numbness in the legs and feet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As Charcot-Marie-Tooth disease progresses, symptoms may not be limited to the feet and legs but may also involve the thighs, hands and arms. Charcot-Marie-Tooth disease generally doesn&apos;t cause pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Charcot-Marie-Tooth disease is a group of related conditions all caused by inherited mutations in genes involved with the structure and function of the nerves that serve your feet, legs, hands and arms. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, these genetic mutations result in damage to the nerve itself. Other mutations damage the myelin sheath, the protective coating that surrounds the nerve. The end result, however, is the same &amp;mdash; weaker messages traveling between your extremities and your brain. 
+&lt;/p&gt;
+&lt;p&gt;
+That means some of the muscles in your feet may not receive your brain&apos;s signal to contract, so you&apos;re more likely to trip and fall. And your brain may not receive pain messages from your feet, so if you&apos;ve rubbed a blister on your toe, for example, it may get infected without your realizing it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Charcot-Marie-Tooth disease is hereditary, so you&apos;re at higher risk of developing the disorder if anyone in your immediate family has had the disease. Other causes of neuropathies, such as diabetes, may cause symptoms of or worsen Charcot-Marie-Tooth disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of Charcot-Marie-Tooth disease vary in severity from person to person, with foot abnormalities and difficulty walking generally being the most serious problems. Muscle weakness may also increase, and injury to areas of the body with decreased sensation may occur. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might first discuss your symptoms with your family doctor, but he or she will probably refer you to a neurologist for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, plan ahead and write lists of important information, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of all your symptoms&lt;/li&gt;
+	&lt;li&gt;All your medications and dosages, including nonprescription drugs and supplements&lt;/li&gt;
+	&lt;li&gt;Questions for the doctor, such as what tests or treatments he or she may recommend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will want a detailed description of your symptoms and will ask if anyone in your family has ever had similar symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+During the physical exam, your doctor may check for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Signs of muscle weakness in your arms, legs, hands and feet&lt;/li&gt;
+	&lt;li&gt;Decreased muscle bulk in your legs, resulting in an &quot;inverted champagne bottle appearance&quot;&lt;/li&gt;
+	&lt;li&gt;Reduced reflexes&lt;/li&gt;
+	&lt;li&gt;Sensory loss in your feet and hands&lt;/li&gt;
+	&lt;li&gt;Foot deformities, such as high arches or hammertoes&lt;/li&gt;
+	&lt;li&gt;Other orthopedic problems, such as mild scoliosis or hip dysplasia&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend the following tests, which can help provide information about the extent of your nerve damage and what may be causing it. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction studies.&lt;/strong&gt; These tests measure the strength and speed of electrical signals transmitted through your nerves. Electrodes are placed on your skin and deliver small electric shocks that stimulate the nerve. Delayed or weak responses may indicate a nerve disorder such as Charcot-Marie-Tooth disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography &lt;/strong&gt;&lt;strong&gt;(EMG).&lt;/strong&gt; A thin needle electrode is inserted through your skin into the muscle to be tested. Electrical activity is measured as you relax and as you gently tighten the muscle. Your doctor may be able to determine the distribution of the disease by testing different muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve biopsy.&lt;/strong&gt; A small piece of peripheral nerve is taken from the calf of your leg through an incision in your skin. Laboratory analysis of the nerve distinguishes Charcot-Marie-Tooth disease from other nerve disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; These tests, which can detect the most common genetic defects known to cause Charcot-Marie-Tooth disease, are done by blood sample. Genetic testing may give people with the disorder more information for family planning.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for Charcot-Marie-Tooth disease. However, some treatments can help you manage its signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Though most people with Charcot-Marie-Tooth disease do not experience pain, some people may experience pain due to muscle cramps or nerve damage. In such cases, prescription pain medication may be required to control it. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Physical therapy for Charcot-Marie-Tooth disease involves muscle strengthening and stretching to prevent muscle tightening and loss. A physical therapy program usually consists of low-impact exercises and stretching techniques guided by a trained physical therapist and approved by your doctor. Started early and followed regularly, physical therapy can play an important part in delaying nerve deterioration and muscle weakness before disability occurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy.&lt;/strong&gt; Some people with Charcot-Marie-Tooth disease may experience weakness in their arms and hands, causing difficulty with gripping and finger movement. Normal daily activities, such as fastening buttons or writing, can become difficult. Occupational therapy can help you deal with such challenges through the use of assistive devices, such as special rubber grips on doorknobs or clothing with snaps instead of buttons.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Orthopedic devices.&lt;/strong&gt; Many people with Charcot-Marie-Tooth disease require the help of certain orthopedic devices to maintain everyday mobility and to prevent injury. Leg and ankle braces or splints can provide stability during walking and climbing stairs. Wearing boots or high-top shoes may provide additional ankle support. Custom-made shoes or shoe inserts may improve your gait. If you have hand weakness and difficulty with gripping and holding things, thumb splints may help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If foot deformities are severe, corrective foot surgery may help alleviate pain and improve your ability to walk. But surgery can&apos;t improve weakness or loss of sensation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain tactics may prevent complications caused by Charcot-Marie-Tooth disease and improve your ability to manage the effects of the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Started early and followed regularly, at-home activities can provide protection and relief: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch regularly.&lt;/strong&gt; The goal of stretching is to improve or maintain the range of motion of your joints. Stretching improves your flexibility, balance and coordination. Stretching may also reduce your risk of injury. If you have Charcot-Marie-Tooth disease, regular stretching can prevent or reduce joint deformities that may result from uneven pulling of muscle on your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise daily.&lt;/strong&gt; Exercising every day keeps your bones and muscles strong. Low-impact exercises, such as biking and swimming, are less stressful on fragile muscles and joints. By strengthening your muscles and bones, you can improve your balance and coordination, reducing your risk of falls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improve your stability.&lt;/strong&gt; Muscle weakness associated with&lt;strong&gt; &lt;/strong&gt;Charcot-Marie-Tooth disease may cause you to be unsteady on your feet, which can lead to falling and serious injury. Walking with a cane or a walker can increase your stability. Good lighting at night can help you avoid stumbling and falling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Foot care is important&lt;/strong&gt; &lt;br /&gt;
+Because of foot deformities and loss of sensation, regular foot care is important to help relieve symptoms and to prevent complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inspect your feet.&lt;/strong&gt; Daily inspection of your feet is important to prevent calluses, ulcers, wounds and infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your nails.&lt;/strong&gt; Cut your nails regularly. To avoid ingrown toenails and infections, cut straight across and avoid cutting into the nailbed edges. Consider regular professional pedicures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear the right shoes.&lt;/strong&gt; Use shoes that fit properly and are roomy and protective. Consider wearing boots or high-top shoes for ankle support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soak and moisturize the skin of your feet.&lt;/strong&gt; Brief, daily cold and warm foot soaks followed by the application of moisturizing lotions keep the skin of the feet moist and pliable. This can be very effective in reducing neuropathic pain and foot discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Support groups, in conjunction with your doctor&apos;s advice, can be valuable in dealing with Charcot-Marie-Tooth disease. Support groups bring together people who are coping with the same kinds of challenges, along with their families and friends, and offer a setting in which people can share their common problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about support groups in your community. Your local health department, public library and telephone book and the Internet also may be good sources to find a support group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Charcot-Marie-Tooth disease
+	</Title>
+	<Abstract>
+		Charcot-Marie-Tooth disease &amp;mdash; Comprehensive overview covers symptoms, treatment of this group of peripheral nerve disorders.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

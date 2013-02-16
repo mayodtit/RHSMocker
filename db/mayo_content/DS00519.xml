@@ -1,0 +1,396 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00519
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cardiomyopathy/DS00519
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-02
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1470" Title="Heart muscle and lining">
+						<Keyword MCVID="1471" Title="Cardiomyopathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			409898DA-8C14-4EAB-975D5E4217CEDB49
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				dilated cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertrophic cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				restrictive cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmogenic right ventricular dysplasia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cardiomyopathy (kahr-dee-oh-my-OP-uh-thee) is a disease that weakens and enlarges your heart muscle. There are three main types of cardiomyopathy &amp;mdash; dilated, hypertrophic and restrictive. Cardiomyopathy makes it harder for your heart to pump blood and deliver it to the rest of your body. Cardiomyopathy can lead to heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+Cardiomyopathy can be treated. The type of treatment you&apos;ll receive depends on which type of cardiomyopathy you have and how serious it is. Your treatment may include medications, surgically implanted devices or, in severe cases, a heart transplant. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing dilated cardiomyopathy 
+" Caption="Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+" Height="60" Title="Dilated cardiomyopathy" URI="/images/image_popup/thumbs/mcdc7_dilatedcardiomyopathythu.jpg" Width="60" />
+				<Image Alt="Illustration showing dilated cardiomyopathy 
+" Caption="Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+" Height="359" Title="Dilated cardiomyopathy" URI="/images/image_popup/mcdc7_dilatedcardiomyopathy.jpg" Width="400" />
+				<HTML>
+					Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hypertrophic cardiomyopathy 
+" Caption="Illustrations of a normal heart (left) and a heart with hypertrophic cardiomyopathy (HCM). Note that the heart walls (muscle) are much thicker (hypertrophied) in the HCM heart. 
+" Height="60" Title="Hypertrophic cardiomyopathy" URI="/images/image_popup/thumbs/hb7_hypertrophicpopupthu.jpg" Width="60" />
+				<Image Alt="Illustration showing hypertrophic cardiomyopathy 
+" Caption="Illustrations of a normal heart (left) and a heart with hypertrophic cardiomyopathy (HCM). Note that the heart walls (muscle) are much thicker (hypertrophied) in the HCM heart. 
+" Height="400" Title="Hypertrophic cardiomyopathy" URI="/images/image_popup/hb7_hypertrophicpopup.jpg" Width="400" />
+				<HTML>
+					Illustrations of a normal heart (left) and a heart with hypertrophic cardiomyopathy (HCM). Note that the heart walls (muscle) are much thicker (hypertrophied) in the HCM heart. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people who develop cardiomyopathy have no signs and symptoms during the early stages of the disease. But as the condition advances, signs and symptoms usually appear. Cardiomyopathy symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breathlessness with exertion or even at rest&lt;/li&gt;
+	&lt;li&gt;Swelling of the legs, ankles and feet&lt;/li&gt;
+	&lt;li&gt;Bloating of the abdomen due to fluid buildup&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeats that feel rapid, pounding or fluttering&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness and fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+No matter what type of cardiomyopathy you have, signs and symptoms tend to get worse unless treated. In certain people, this worsening happens quickly, while in others, cardiomyopathy may not worsen for a long time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;/strong&gt;&lt;br /&gt;
+See your doctor if you have one or more of the signs and symptoms associated with cardiomyopathy. Call 911 or your local emergency number if you experience severe difficulty breathing, fainting or chest pain that lasts for more than a few minutes. Because the condition is sometimes hereditary, your doctor may advise that your family members be examined for cardiomyopathy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most of the time, the cause of the cardiomyopathy is unknown. In some people, however, doctors are able to identify some contributing factors. Possible causes of cardiomyopathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Long-term high blood pressure&lt;/li&gt;
+	&lt;li&gt;Heart valve problems&lt;/li&gt;
+	&lt;li&gt;Heart tissue damage from a previous heart attack&lt;/li&gt;
+	&lt;li&gt;Chronic rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Metabolic disorders, such as thyroid disease or diabetes&lt;/li&gt;
+	&lt;li&gt;Nutritional deficiencies of essential vitamins or minerals, such as thiamin (vitamin B-1), selenium, calcium and magnesium&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Excessive use of alcohol over many years&lt;/li&gt;
+	&lt;li&gt;Abuse of cocaine or antidepressant medications, such as tricyclic antidepressants&lt;/li&gt;
+	&lt;li&gt;Use of some chemotherapy drugs to treat cancer&lt;/li&gt;
+	&lt;li&gt;Certain viral infections, which may injure the heart and trigger cardiomyopathy&lt;/li&gt;
+	&lt;li&gt;Iron buildup in your heart muscle (hemochromatosis)&lt;/li&gt;
+	&lt;li&gt;Genetic conditions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The three types of cardiomyopathy are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dilated cardiomyopathy.&lt;/strong&gt; This is the&lt;strong&gt; &lt;/strong&gt;most common type of cardiomyopathy. In this disorder, the pumping ability of your heart&apos;s main pumping chamber &amp;mdash; the left ventricle &amp;mdash; becomes less forceful. The left ventricle becomes enlarged (dilated) and can&apos;t effectively pump blood out of the heart. Although this type can affect people of all ages, it occurs most often in middle-aged people and is more likely to affect men. Some people with dilated cardiomyopathy have a family history of the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypertrophic cardiomyopathy.&lt;/strong&gt; This type involves abnormal growth or thickening of your heart muscle, particularly affecting the muscle of your heart&apos;s main pumping chamber. As thickening occurs, the heart tends to stiffen and the size of the pumping chamber may shrink, interfering with your heart&apos;s ability to deliver blood to your body. Hypertrophic cardiomyopathy can develop at any age, but the condition tends to be more severe if it becomes apparent during childhood. Most affected people have a family history of the disease, and some genetic mutations have been linked to hypertrophic cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Restrictive cardiomyopathy.&lt;/strong&gt; The heart muscle in people with restrictive cardiomyopathy becomes rigid and less elastic, meaning the heart can&apos;t properly expand and fill with blood between heartbeats. While restrictive cardiomyopathy can occur at any age, it most often tends to affect older people. It&apos;s the least common type of cardiomyopathy and can occur for no known reason (idiopathic). The condition may also be caused by diseases elsewhere in the body that affect the heart.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing dilated cardiomyopathy 
+" Caption="Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+" Height="60" Title="Dilated cardiomyopathy" URI="/images/image_popup/thumbs/mcdc7_dilatedcardiomyopathythu.jpg" Width="60" />
+				<Image Alt="Illustration showing dilated cardiomyopathy 
+" Caption="Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+" Height="359" Title="Dilated cardiomyopathy" URI="/images/image_popup/mcdc7_dilatedcardiomyopathy.jpg" Width="400" />
+				<HTML>
+					Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hypertrophic cardiomyopathy 
+" Caption="Illustrations of a normal heart (left) and a heart with hypertrophic cardiomyopathy (HCM). Note that the heart walls (muscle) are much thicker (hypertrophied) in the HCM heart. 
+" Height="60" Title="Hypertrophic cardiomyopathy" URI="/images/image_popup/thumbs/hb7_hypertrophicpopupthu.jpg" Width="60" />
+				<Image Alt="Illustration showing hypertrophic cardiomyopathy 
+" Caption="Illustrations of a normal heart (left) and a heart with hypertrophic cardiomyopathy (HCM). Note that the heart walls (muscle) are much thicker (hypertrophied) in the HCM heart. 
+" Height="400" Title="Hypertrophic cardiomyopathy" URI="/images/image_popup/hb7_hypertrophicpopup.jpg" Width="400" />
+				<HTML>
+					Illustrations of a normal heart (left) and a heart with hypertrophic cardiomyopathy (HCM). Note that the heart walls (muscle) are much thicker (hypertrophied) in the HCM heart. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having cardiomyopathy may lead to other heart conditions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Heart failure means your heart can&apos;t pump enough blood to meet your body&apos;s needs. The thickened, stiffened or weakened heart muscle due to cardiomyopathy can become unable to pump or can stop blood from flowing out of the heart. Left untreated, heart failure can be life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Because your heart can&apos;t pump effectively, you&apos;re more likely to have blood clots form in your heart if you have cardiomyopathy. If clots are pumped out of the heart and enter your bloodstream, they can block the blood flow to other organs, including your heart and brain. If clots develop on the right side of your heart, they may travel to your lungs (pulmonary embolism). To reduce your risk, your doctor may prescribe a blood thinner (anticoagulant medication), such as aspirin, clopidogrel (Plavix) or warfarin (Coumadin, Jantoven).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valve problems.&lt;/strong&gt; Because people with dilated cardiomyopathy have an enlarged heart, two of the heart&apos;s four valves &amp;mdash; the mitral and tricuspid valves &amp;mdash; may not close properly, leading to a backward flow of blood. This flow creates sounds called heart murmurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac arrest and sudden death.&lt;/strong&gt; All forms of cardiomyopathy can lead to abnormal heart rhythms. Some of these heart rhythms are too slow to keep blood flowing through your heart effectively, and some are too fast to allow the heart to beat properly. In either case, these abnormal heart rhythms can result in fainting or, in some cases, sudden death if your heart stops beating.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of an enlarged heart 
+" Caption="As your heart weakens, such as in heart failure, it begins to enlarge, forcing your heart to work harder to pump blood on to the rest of your body. 
+" Height="60" Title="Enlarged heart, in heart failure" URI="/images/image_popup/thumbs/mcdc7_enlargedheartthu.jpg" Width="60" />
+				<Image Alt="Illustration of an enlarged heart 
+" Caption="As your heart weakens, such as in heart failure, it begins to enlarge, forcing your heart to work harder to pump blood on to the rest of your body. 
+" Height="320" Title="Enlarged heart, in heart failure" URI="/images/image_popup/mcdc7_enlargedheart.jpg" Width="400" />
+				<HTML>
+					As your heart weakens, such as in heart failure, it begins to enlarge, forcing your heart to work harder to pump blood on to the rest of your body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have cardiomyopathy or are worried about your risk because of a family history, make an appointment with your family doctor. If cardiomyopathy is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of cardiomyopathy, heart disease, stroke, high blood pressure or diabetes and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For cardiomyopathy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened?&lt;/li&gt;
+	&lt;li&gt;Should I tell my family members to be screened for cardiomyopathy?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do any of your blood relatives have cardiomyopathy or other types of heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will conduct a physical examination, take a personal and family medical history, and ask when your symptoms occur &amp;mdash; for example, whether exercise brings on your symptoms. If your doctor thinks you have cardiomyopathy, you may need to undergo several tests to confirm the diagnosis. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An image of your heart will show whether it&apos;s enlarged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram uses sound waves to produce images of the heart. Your doctor can use these images to examine the size and function of your heart and its motions as it beats. This test checks your heart valves and helps your doctor determine the cause of your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, electrode patches are attached to your skin to measure electrical impulses from your heart. An ECG can show disturbances in the electrical activity of your heart, which can detect abnormal heart rhythms and areas of injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization and biopsy.&lt;/strong&gt; In this procedure, a thin tube (catheter) is inserted in your groin and threaded through your blood vessels to your heart, where a small sample (biopsy) of your heart can be extracted for analysis in the laboratory. Pressure within the chambers of your heart can be measured to see how forcefully blood pumps through your heart. Pictures of the arteries of the heart can be taken during the procedure (coronary angiogram) to ensure that you do not have any blockage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac magnetic resonance imaging (MRI).&lt;/strong&gt; Cardiac MRI is an imaging technique that uses magnetic fields and radio waves to create images of your heart. Cardiac MRI is often used in addition to echocardiography, particularly if the images from your echocardiogram aren&apos;t helpful in making a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; One blood test can measure B-type natriuretic peptide (BNP), a protein produced in your heart. Your blood level of BNP rises when your heart is subjected to the stress of heart failure, a common complication of cardiomyopathy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A variety of other blood tests may be done, including those to check your kidney function and look for anemia and thyroid problems. Your iron level may be measured. Having too much may indicate an iron overload disorder called hemochromatosis. Accumulating too much iron in your heart muscle can weaken it and cause cardiomyopathy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The overall goals of treatment for cardiomyopathy are to manage your signs and symptoms, prevent your condition from worsening, and reduce your risk of complications. Treatment varies by which of the major types of cardiomyopathy you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dilated cardiomyopathy&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re diagnosed with dilated cardiomyopathy, your doctor may recommend medications, surgically implanted devices or a combination of both. The medications you may be prescribed include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors&lt;/strong&gt; to improve your heart&apos;s pumping capability, such as enalapril (Vasotec), lisinopril (Zestril, Prinivil), ramipril (Altace) and captopril (Capoten).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin receptor blockers (ARBs)&lt;/strong&gt; for those who can&apos;t take ACE inhibitors, such as losartan (Cozaar) and valsartan (Diovan).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers&lt;/strong&gt; to improve heart function, such as carvedilol (Coreg) and metoprolol (Lopressor, Toprol-XL).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digoxin&lt;/strong&gt; (Lanoxin). This drug, also referred to as digitalis, increases the strength of your heart muscle contractions. It also tends to slow the heartbeat. Digoxin reduces heart failure symptoms and improves your ability to live with cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; Often called water pills, diuretics make you urinate more frequently and keep fluid from collecting in your body. Commonly prescribed diuretics for heart failure include bumetanide (Bumex) and furosemide (Lasix). The drugs also decrease fluid in your lungs, so you can breathe more easily. One diuretic, spironolactone (Aldactone), may also be helpful in treating scarring of your heart tissue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another option for some people with dilated cardiomyopathy is a special pacemaker that coordinates the contractions between the left and right ventricles (biventricular pacing). In people who may be at risk of serious arrhythmias, drug therapy or an implantable cardioverter-defibrillator (ICD) may be options. An ICD is a small device &amp;mdash; about the size of a box of matches &amp;mdash; implanted in your chest to continuously monitor your heart rhythm and deliver electrical shocks when needed to control abnormal, rapid heartbeats. The device can also work as a pacemaker. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypertrophic cardiomyopathy&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend beta blockers to relax your heart, slow its pumping action and stabilize its rhythm. These medications include Lopressor or calcium channel blockers, such as verapamil (Calan, Isoptin, others). Medications are often the preferred treatment for hypertrophic cardiomyopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+If medications don&apos;t work, you may need surgery or a medical device to treat your condition. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Septal myectomy.&lt;/strong&gt; This is an open-heart operation in which the surgeon removes part of the thickened, overgrown heart muscle wall (septum) that separates the two bottom heart chambers (ventricles). Removing part of this overgrown muscle improves blood flow and reduces mitral regurgitation. Myectomy is used if medications don&apos;t relieve symptoms. Most people who have symptoms and undergo myectomy have no further symptoms. This type of surgery is available only in medical centers that specialize in the treatment of hypertrophic cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Septal ablation.&lt;/strong&gt; Also called septal alcohol ablation, this is a treatment in which a small portion of the thickened heart muscle is destroyed by injecting alcohol through a catheter into the artery supplying blood to it. There are possible complications with this procedure, including heart block &amp;mdash; a disruption of the heart&apos;s electrical system &amp;mdash; which requires implantation of a pacemaker. The long-term success of this procedure isn&apos;t yet known, but it&apos;s becoming more commonly used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pacemaker implantation.&lt;/strong&gt; A pacemaker is a small electronic device inserted under your skin that sends electrical signals to your heart to monitor and regulate your heartbeat. Surgery to implant the pacemaker is usually performed during local anesthesia and typically takes less than three hours. Pacemaker implantation is generally not as effective as surgical options, but it&apos;s sometimes used in older people who want to avoid more invasive procedures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Implantable cardioverter-defibrillator (ICD).&lt;/strong&gt; This is a pager-sized device implanted in your chest like a pacemaker. An ICD continuously monitors your heartbeat. If a life-threatening arrhythmia occurs, the ICD delivers precisely calibrated electrical shocks to restore a normal heart rhythm. A small number of people with hypertrophic cardiomyopathy are at risk of sudden cardiac death because of abnormal heart rhythms. In these high-risk individuals, many doctors recommend the implantation of an ICD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Restrictive cardiomyopathy&lt;/strong&gt;&lt;br /&gt;
+Treatment for restrictive cardiomyopathy focuses on improving symptoms. Your doctor will recommend you pay careful attention to your salt and water intake and monitor your weight daily. Your doctor may also recommend you take diuretics if sodium and water retention becomes a problem. You may be prescribed medications to lower your blood pressure and control fast or irregular heart rhythms. 
+&lt;/p&gt;
+&lt;p&gt;
+Many of the medications that doctors prescribe for cardiomyopathy may have side effects. Be sure to discuss these possible side effects with your doctor before taking any of these drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart transplant and ventricular assist devices (VADs) &lt;/strong&gt;&lt;br /&gt;
+If you have severe cardiomyopathy and medications can&apos;t control your symptoms, a heart transplant may be an option. Because of the shortage of donor hearts, even people who are critically ill may have a long wait before having a heart transplant. In some cases, a mechanical heart assist device can help critically ill people as they wait for an appropriately matched donor. These devices, known as ventricular assist devices (VADs), can help blood circulate through your heart for months or even years. A VAD may allow you to live outside the hospital while you wait. In some people who aren&apos;t candidates for a heart transplant, VAD therapy could be a long-term treatment option. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend adopting the following lifestyle changes to help you manage cardiomyopathy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quit smoking.&lt;/li&gt;
+	&lt;li&gt;Lose excess weight.&lt;/li&gt;
+	&lt;li&gt;Eat a low-salt diet.&lt;/li&gt;
+	&lt;li&gt;Get modest exercise after discussing with your doctor the most appropriate program of physical activity.&lt;/li&gt;
+	&lt;li&gt;Eliminate or minimize the amount of alcohol you drink. Specific recommendations will depend on the type of cardiomyopathy you have.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, you can&apos;t prevent cardiomyopathy. Let your doctor know if you have a family history of the condition. If cardiomyopathy is diagnosed early, treatments may prevent the disease from worsening. 
+&lt;/p&gt;
+&lt;p&gt;
+You can help reduce your chance of heart failure by avoiding some of the conditions that can contribute to a weak heart, including the abuse of alcohol or cocaine or not getting enough vitamins and minerals. Controlling high blood pressure with diet and exercise also prevents many people from developing heart failure later in life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cardiomyopathy
+	</Title>
+	<Abstract>
+		Cardiomyopathy &amp;mdash; Comprehensive overview covers symptoms and treatment of this heart muscle condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01135" LinkType="Internal" ObjectID="D0DF24ED-09B7-EED7-C11284E830BD16E6" Title="Broken heart syndrome" Url="http://www.mayoclinic.com/health/broken-heart-syndrome/DS01135" />
+		<LinkItem ContentType="Disease" DocID="DS00948" LinkType="Internal" ObjectID="C6CCE300-E7FF-0DBD-1C54D32E162A9FE3" Title="Hypertrophic cardiomyopathy" Url="http://www.mayoclinic.com/health/hypertrophic-cardiomyopathy/DS00948" />
+		<LinkItem ContentType="Disease" DocID="DS01029" LinkType="Internal" ObjectID="74364EB9-E7FF-0DBD-134AB71F5234CD0A" Title="Dilated cardiomyopathy" Url="http://www.mayoclinic.com/health/dilated-cardiomyopathy/DS01029" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00336" LinkType="Internal" ObjectID="F7E31C25-E7FF-0DBD-1BF7D5EEFB17EB69" Title="Implantable cardioverter-defibrillators (ICDs)" Url="http://www.mayoclinic.com/health/implantable-cardioverter-defibrillator/MY00336" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01077" LinkType="Internal" ObjectID="4A804FBC-A707-ED3A-B6B6239DC746B325" Title="Ventricular assist devices (VADs)" Url="http://www.mayoclinic.com/health/lvad/MY01077" />
+		<LinkItem ContentType="Answer" DocID="AN00360" LinkType="Internal" ObjectID="49DC83AF-CC93-4E65-8E3AE20DAC235EF5" Title="Ejection fraction: What does it measure?" Url="http://www.mayoclinic.com/health/ejection-fraction/AN00360" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00361" LinkType="Internal" ObjectID="3FDA96F4-E7FF-0DBD-16E85B989BB8D9C5" Title="Heart transplant" Url="http://www.mayoclinic.com/health/heart-transplant/MY00361" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+		<LinkItem ContentType="Disease" DocID="DS01129" LinkType="Internal" ObjectID="18047987-0FF0-30B7-30826F629576DC5D" Title="Enlarged heart" Url="http://www.mayoclinic.com/health/enlarged-heart/DS01129" />
+	</RelatedLinksBox>
+</Disease>

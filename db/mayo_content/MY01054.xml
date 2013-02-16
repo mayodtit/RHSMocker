@@ -1,0 +1,252 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01054
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blood-transfusion/MY01054
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3783" Title="Blood and lymphatic system">
+						<Keyword MCVID="3784" Title="Blood transfusion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DA787FBE-FC60-A12B-C5024A53DF0C477E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blood transfusion
+			</MetaKeyword>
+			<MetaKeyword>
+				blood transfusions
+			</MetaKeyword>
+			<MetaKeyword>
+				blood transfusions side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				blood transfusion reactions
+			</MetaKeyword>
+			<MetaKeyword>
+				blood disease
+			</MetaKeyword>
+			<MetaKeyword>
+				blood disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				sugery
+			</MetaKeyword>
+			<MetaKeyword>
+				anemia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In a blood transfusion, donated blood is added to your own blood. A blood transfusion may also be done to supplement various components of your blood with donated blood products. In rare cases, a blood transfusion is done with blood that you&apos;ve donated ahead of time before you undergo surgery.
+&lt;/p&gt;
+&lt;p&gt;
+During a typical blood transfusion, certain parts of blood are delivered through an intravenous (IV) line that&apos;s placed in one of the veins in your arm. A blood transfusion usually takes one to two hours, though in an emergency it can be done much faster. 
+&lt;/p&gt;
+&lt;p&gt;
+A blood transfusion boosts blood levels that are low, either because your body isn&apos;t making enough or because blood has been lost during surgery, injury or disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are many reasons people receive blood transfusions, including surgery, injury and disease. Blood has several components, including red cells, white cells, plasma and platelets. You&apos;ll receive a transfusion that provides the part or parts of blood that will be most helpful for you. Whole blood means the blood contains all its parts, but whole blood is rarely used for transfusion. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are working on ways to develop an artificial blood, but so far there&apos;s no universally accepted replacement for human blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery, injury or anemia&lt;/strong&gt; &lt;br /&gt;
+Loss of blood during surgery or as the result of injury may result in decreased red blood cells (anemia) and may require a transfusion of what&apos;s called packed red blood cells, meaning the blood given contains a concentration of mostly red blood cells. In addition, anemia from other causes may require a transfusion of packed red blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer&lt;/strong&gt; &lt;br /&gt;
+Cancer may decrease your body&apos;s production of red blood cells, white blood cells and platelets by impacting the organs that affect blood count, such as the kidneys, bone marrow and spleen. Drugs used in chemotherapy also can decrease components of the blood. Blood transfusions may be used to counter such effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Illness&lt;/strong&gt; &lt;br /&gt;
+Some illnesses cause your body to make too few platelets or clotting factors. You may need plasma or clotting factor transfusions to make up for low levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infection, liver failure or severe burns&lt;/strong&gt; &lt;br /&gt;
+You may need a transfusion of plasma, the liquid part of blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood disorders&lt;/strong&gt; &lt;br /&gt;
+People with blood diseases, and those undergoing stem cell transplants as part of the treatment of such diseases, may receive transfusions of red blood cells and platelets. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe liver malfunction&lt;/strong&gt; &lt;br /&gt;
+A transfusion of albumin, a blood protein, may be given to help treat some severe liver problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood transfusion is a common procedure that usually goes without complications. But there are some risks. Some transfusion reactions happen during the transfusion, while others may take several weeks to develop or become noticeable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergic reaction and hives&lt;/strong&gt; &lt;br /&gt;
+Even though you&apos;ll be given blood that matches your blood type, it&apos;s still possible that you could have an allergic reaction to parts of the transfused blood. Signs and symptoms are usually limited to hives and itching. These types of transfusion reactions are usually treated with antihistamines and are seldom serious. Rarely, a more serious allergic reaction may occur and signs and symptoms may include difficulty breathing, low blood pressure, anxiety, rapid heartbeat and nausea. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fever&lt;/strong&gt; &lt;br /&gt;
+When a fever develops quickly during the transfusion or soon after, it may be what&apos;s called a febrile reaction. Fever usually isn&apos;t serious. But because fevers can be a sign of a serious reaction, if you develop one during a transfusion your doctor will stop the transfusion to do further tests before deciding whether to continue. Fever may be accompanied by chills and shaking. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute immune hemolytic reaction&lt;/strong&gt; &lt;br /&gt;
+This is a very rare but serious transfusion reaction in which your body attacks the transfused red blood cells because the donor blood type is not a proper match. In response to the attack, the transfused red blood cells release a substance into your blood that harms your kidneys. This usually occurs during or right after a transfusion. Signs and symptoms include fever, nausea, chills, lower back or chest pain, and dark urine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung injury&lt;/strong&gt; &lt;br /&gt;
+Transfusion-related acute lung injury (TRALI) is thought to occur due to antibodies or other biologic substances in the blood components. With TRALI, the lungs become damaged, making it difficult to breathe. Usually, TRALI occurs within one to six hours of the transfusion. People usually recover, especially when treated quickly. Most people who die after TRALI were very sick before the transfusion. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bloodborne infections&lt;/strong&gt; &lt;br /&gt;
+Blood banks screen donors for risk factors and test donated blood to reduce the risk of transfusion-related infections, but they occasionally still occur. It can take weeks or months after a blood transfusion to determine that you&apos;ve been infected with a virus, bacterium or parasite. 
+&lt;/p&gt;
+&lt;p&gt;
+Estimated risks of contracting these diseases after you receive a blood transfusion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;HIV &amp;mdash; 1 in 2.3 million transfusions.&lt;/li&gt;
+	&lt;li&gt;Human T-lymphotropic virus &amp;mdash; 1 of every 2 million transfusions.&lt;/li&gt;
+	&lt;li&gt;Hepatitis B &amp;mdash; 1 in 350,000 transfusions.&lt;/li&gt;
+	&lt;li&gt;Hepatitis C affects &amp;mdash; 1 in 2 million transfusions.&lt;/li&gt;
+	&lt;li&gt;West Nile virus &amp;mdash; 1 of every 350,000 units of blood in the United States.&lt;/li&gt;
+	&lt;li&gt;Sepsis (bacterial infection of the blood) &amp;mdash; 1 in 1 million transfusions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Delayed hemolytic reaction&lt;/strong&gt; &lt;br /&gt;
+This is similar to acute immune hemolytic reaction, but it occurs much more slowly. Your body attacks the donor red blood cells, but at such a slow rate that it can take a while &amp;mdash; often one to four weeks &amp;mdash; to notice a decrease in red blood cell levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Iron overload&lt;/strong&gt; &lt;br /&gt;
+Multiple blood transfusions may lead to too much iron in your blood. This can damage parts of your body, including the liver and heart. People with iron overload (hemochromatosis) may be treated with iron chelation therapy, which uses medication to remove excess iron. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Graft-versus-host disease&lt;/strong&gt; &lt;br /&gt;
+When white blood cells in the donor blood attack the cells in your body, it&apos;s called transfusion-associated graft-versus-host disease. This disease is often fatal. It&apos;s also a very rare condition that&apos;s more likely to affect people with severely weakened immune systems, such as those being treated for leukemia or lymphoma. Signs and symptoms include fever, rash, diarrhea and abnormal liver function test results. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your blood will be tested before a transfusion to determine whether your blood type is A, B, AB or O and whether your blood is Rh positive or Rh negative. Donated blood that is compatible with your blood type will be selected for the transfusion. 
+&lt;/p&gt;
+&lt;p&gt;
+You don&apos;t need to change your activity levels or diet before a transfusion. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had a reaction to prior blood transfusions, be sure to tell your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood transfusions are usually done in a hospital, outpatient clinic or doctor&apos;s office. A blood transfusion typically takes one or two hours, depending on which parts of the blood you receive and how much blood you need. You&apos;re usually seated or lying down for the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+Before the transfusion begins, an identification check will be done to ensure you&apos;re being given the correct blood. Then an IV line with a needle is inserted into one of your blood vessels, and the donated blood that&apos;s been stored in a plastic bag enters your bloodstream through the IV. A nurse will monitor you throughout the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+If you develop a fever, shortness of breath, pain at the site of transfusion or chills, or if you feel itchy or uneasy, tell your nurse immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+The needle and IV line will be removed. You may develop a small bruise around the IV site, but this should go away with time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may need further blood testing to see how your body is responding to the donor blood and to check if your blood levels have reached an appropriate level. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, if before the transfusion you were anemic, meaning you had low levels of red blood cells, your doctor will check to see how much the transfusion raised your red blood cell count. 
+&lt;/p&gt;
+&lt;p&gt;
+Or, if you&apos;ve had low platelets because of chemotherapy drugs, your doctor may test your blood to see whether the transfusion sufficiently boosted your platelet count. Some conditions require repeated blood transfusions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blood transfusion
+	</Title>
+	<Abstract>
+		Blood transfusion &amp;mdash; Overview covers benefits, risks and what to expect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ00949" LinkType="Internal" ObjectID="AB16D400-5BEC-4C6E-8DFE285852B1692A" Title="Universal blood donor type: Is there such a thing?" Url="http://www.mayoclinic.com/health/universal-blood-donor-type/HQ00949" />
+	</RelatedLinksBox>
+</TestProcedure>

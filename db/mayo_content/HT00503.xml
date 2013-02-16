@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00503
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00503
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A69799F-E7FF-0DBD-1ABCB414F3882A53
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure machine
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure machines
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Blood pressure machines: Skip the freebies
+	</Title>
+	<Body>
+		&lt;p&gt;The blood pressure machines that you can use free of charge in many grocery stores and drugstores may have been accurate when first installed. But in order to stay accurate, they must be maintained and recalibrated. Generally, no information is available regarding the care of these devices. As a result, the reading you get has limited value because it may be incorrect. It&apos;s best to have your blood pressure checked in a medical facility or in a community screening program with trained staff.&lt;/p&gt;
+	</Body>
+</HealthTip>

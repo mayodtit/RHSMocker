@@ -1,0 +1,307 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00257
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sty/DS00257
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-13
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1796" Title="Eyelid">
+						<Keyword MCVID="2476" Title="Sty" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF60B72E-EDF8-444F-B67ED18A9A5E3EFF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sty
+			</MetaKeyword>
+			<MetaKeyword>
+				hordeolum
+			</MetaKeyword>
+			<MetaKeyword>
+				sties
+			</MetaKeyword>
+			<MetaKeyword>
+				styes
+			</MetaKeyword>
+			<MetaKeyword>
+				stye
+			</MetaKeyword>
+			<MetaKeyword>
+				eye
+			</MetaKeyword>
+			<MetaKeyword>
+				eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				eyelid
+			</MetaKeyword>
+			<MetaKeyword>
+				blepharitis
+			</MetaKeyword>
+			<MetaKeyword>
+				chalazion
+			</MetaKeyword>
+			<MetaKeyword>
+				eye stye
+			</MetaKeyword>
+			<MetaKeyword>
+				eye sty
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sty (hordeolum) is a red, painful lump near the edge of your eyelid that may look like a boil or a pimple. Sties are often filled with pus. A sty usually forms on the outside of your eyelid, but sometimes a sty can form on the inner part of your eyelid.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, a sty will begin to disappear on its own in a few days. In the meantime, you may be able to relieve the pain or discomfort of a sty by applying a warm washcloth to your eyelid.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing a sty
+" Caption="A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+" Height="60" Title="Sty " URI="/images/image_popup/thumbs/r7_styTHU.jpg" Width="60" />
+				<Image Alt="Photograph showing a sty
+" Caption="A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+" Height="270" Title="Sty" URI="/images/image_popup/r7_sty.jpg" Width="400" />
+				<HTML>
+					A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a sty include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A red lump on your eyelid that is similar to a boil or a pimple&lt;/li&gt;
+	&lt;li&gt;Eyelid pain&lt;/li&gt;
+	&lt;li&gt;Eyelid swelling&lt;/li&gt;
+	&lt;li&gt;Tearing&lt;/li&gt;
+	&lt;li&gt;Crusting around the eyelids&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another condition that causes inflammation of the eyelid is a chalazion. A chalazion occurs when there&apos;s a blockage in one of the small oil glands at the margin of the eyelid, just behind the eyelashes. The gland can become infected with bacteria, which may also cause a red, swollen eyelid. Unlike a sty, a chalazion tends to be most prominent on the inner side of the eyelid. Treatment for both conditions is similar.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Most sties are harmless to your eye and won&apos;t affect your ability to see clearly. Try self-care measures first, such as applying a warm washcloth to your closed eyelid for 10 to 15 minutes several times a day. Contact your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The sty doesn&apos;t start to improve after 48 hours&lt;/li&gt;
+	&lt;li&gt;Redness and swelling extend beyond your eyelid and involve your cheek or other parts of your face&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing a sty
+" Caption="A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+" Height="60" Title="Sty " URI="/images/image_popup/thumbs/r7_styTHU.jpg" Width="60" />
+				<Image Alt="Photograph showing a sty
+" Caption="A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+" Height="270" Title="Sty" URI="/images/image_popup/r7_sty.jpg" Width="400" />
+				<HTML>
+					A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sty can be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor hygiene.&lt;/strong&gt; A sty is usually caused by bacteria, especially the bacterium staphylococcus. Touching your eyes with unwashed hands can transfer bacteria to your eyelids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyelid inflammation.&lt;/strong&gt; Chronic inflammation along the edge of the eyelid caused by a condition called blepharitis can cause a sty to form. Blepharitis may be associated with underlying conditions, such as seborrheic dermatitis or rosacea, a skin condition characterized by facial redness. Following your doctor&apos;s instructions for treating your blepharitis can help prevent sties.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing blepharitis 
+" Caption="Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. People with blepharitis sometimes wake with their eyelids stuck together. Others may wake with dried tears around their eyes and a feeling of sand in their eyes. In this picture, the yellow around the eye is from a yellow dye sometimes used in diagnostic tests. 
+" Height="60" Title="Blepharitis" URI="/images/image_popup/thumbs/ans7_blepharitisthu.jpg" Width="60" />
+				<Image Alt="Photograph showing blepharitis 
+" Caption="Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. People with blepharitis sometimes wake with their eyelids stuck together. Others may wake with dried tears around their eyes and a feeling of sand in their eyes. In this picture, the yellow around the eye is from a yellow dye sometimes used in diagnostic tests. 
+" Height="400" Title="Blepharitis" URI="/images/image_popup/ans7_blepharitis.jpg" Width="400" />
+				<HTML>
+					Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You risk exposing your eyelids to infection if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Change your contact lenses without thoroughly washing your hands first&lt;/li&gt;
+	&lt;li&gt;Fail to disinfect your contact lenses before putting them in&lt;/li&gt;
+	&lt;li&gt;Leave eye makeup on overnight&lt;/li&gt;
+	&lt;li&gt;Use old or expired cosmetics&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if your sty is painful or doesn&apos;t start to get better in two days. In some cases, your doctor may refer you to a specialist who treats eye diseases and conditions (ophthalmologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt; you feel may be important for your doctor to know.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For a sty, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the likely cause of my sty?&lt;/li&gt;
+	&lt;li&gt;When can I expect my sty to go away?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Are there any treatments for my sty?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of these treatments?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent future sties?&lt;/li&gt;
+	&lt;li&gt;Can I continue wearing contact lenses?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask additional questions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will usually diagnose a sty just by looking at your eyelid. Your doctor may use a light and a magnifying device to examine your eyelid.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, a sty doesn&apos;t require specific treatment. A sty typically goes away on its own.
+&lt;/p&gt;
+&lt;p&gt;
+For a sty that persists, your doctor may recommend treatments, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Your doctor may prescribe antibiotic eyedrops or a topical antibiotic cream to apply to your eyelid. If your eyelid infection persists or spreads beyond your eyelid, your doctor may recommend antibiotics in tablet or pill form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to relieve pressure.&lt;/strong&gt; To treat a pus-filled sty that won&apos;t rupture or burst on its own, your doctor or ophthalmologist may choose to lance and drain the sty to relieve pain and pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Until your sty goes away on its own, try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Leave the sty alone.&lt;/strong&gt; Don&apos;t try to pop the sty or squeeze the pus from a sty. Doing so can cause the infection to spread.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Place a warm washcloth over your closed eyes.&lt;/strong&gt; To relieve pain, run warm water over a clean washcloth. Wring out the washcloth and place it over your closed eye. Re-wet the washcloth when it loses heat. Continue this for 10 or 15 minutes. Repeating this several times each day may encourage the sty to drain on its own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your eye clean.&lt;/strong&gt; Don&apos;t wear eye makeup until the sty has healed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go without contacts lenses.&lt;/strong&gt; It&apos;s possible for your contact lenses to become contaminated with bacteria associated with your sty, so plan to go without contacts until your sty goes away.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent eye infections:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Wash your hands with soap and warm water or use an alcohol-based hand sanitizer several times each day. Keep your hands away from your eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with cosmetics.&lt;/strong&gt; Reduce your risk of recurrent eye infections by throwing away old cosmetics. Be sure to throw away any eye cosmetics you used when you had a sty. Don&apos;t share your cosmetics with others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure your contact lenses are clean.&lt;/strong&gt; If you wear contact lenses, wash your hands thoroughly before inserting your contacts and follow your doctor&apos;s advice on disinfecting your contacts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage blepharitis.&lt;/strong&gt; If you have blepharitis, follow your doctor&apos;s instructions for caring for your eyes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sty
+	</Title>
+	<Abstract>
+		Sty &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this irritating eyelid infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

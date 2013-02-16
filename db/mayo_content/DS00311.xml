@@ -1,0 +1,258 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00311
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/muscle-cramp/DS00311
+		</OriginalURL>
+		<UpdateDate>
+			2010-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2506" Title="Muscle cramp" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			632C3503-D02D-4CCA-BA75ACFAF5489618
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				muscle cramp
+			</MetaKeyword>
+			<MetaKeyword>
+				cramp
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				dehydration
+			</MetaKeyword>
+			<MetaKeyword>
+				potassium
+			</MetaKeyword>
+			<MetaKeyword>
+				charlie horse
+			</MetaKeyword>
+			<MetaKeyword>
+				charley horse
+			</MetaKeyword>
+			<MetaKeyword>
+				foot cramp
+			</MetaKeyword>
+			<MetaKeyword>
+				foot cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				leg cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				foot cramping
+			</MetaKeyword>
+			<MetaKeyword>
+				cramps
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A muscle cramp is a sudden and involuntary contraction of one or more of your muscles. If you&apos;ve ever been awakened in the night or stopped in your tracks by a sudden charley horse, you know that muscle cramps can cause excruciating pain. Though generally harmless, muscle cramps can make it temporarily impossible to use the affected muscle.
+&lt;/p&gt;
+&lt;p&gt;
+Long periods of exercise or physical labor, particularly in hot weather, may lead to muscle cramps. Some medications and certain medical conditions also may cause muscle cramps. 
+&lt;/p&gt;
+&lt;p&gt;
+You can usually treat muscle cramps at home with self-care measures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a muscle cramp include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden and sharp muscle pain (spasm, contraction), often in your legs&lt;/li&gt;
+	&lt;li&gt;A hard lump of muscle tissue that you can feel or is visible beneath your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Muscle cramps usually disappear on their own and are rarely serious enough to require medical care. However, see your doctor if your cramps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cause severe discomfort&lt;/li&gt;
+	&lt;li&gt;Happen frequently&lt;/li&gt;
+	&lt;li&gt;Don&apos;t improve with self-care&lt;/li&gt;
+	&lt;li&gt;Aren&apos;t associated with an obvious cause, such as strenuous exercise&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Overuse of a muscle, dehydration, muscle strain or simply holding a position for a prolonged period of time may result in a muscle cramp. Athletes who become fatigued and dehydrated while participating in warm-weather sports frequently develop muscle cramps. Another common type of muscle cramp &amp;mdash; nocturnal cramps &amp;mdash; occurs in your calf muscles or toes during sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+In many cases, however, the exact cause of a muscle cramp isn&apos;t known.
+&lt;/p&gt;
+&lt;p&gt;
+Although most muscle cramps are harmless, some may be related to an underlying medical condition, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inadequate blood supply.&lt;/strong&gt; Narrowing of the arteries that deliver blood to your legs (arteriosclerosis of the extremities) can produce cramp-like pain in your legs and feet while you&apos;re exercising. These cramps usually go away soon after you stop exercising.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve compression.&lt;/strong&gt; Compression of nerves in your spine (lumbar stenosis) also can produce cramp-like pain in your legs. The pain usually worsens the longer you walk. Walking in a slightly flexed position &amp;mdash; such as you would employ when pushing a shopping cart ahead of you &amp;mdash; may improve your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mineral depletion.&lt;/strong&gt; Too little potassium, calcium or magnesium in your diet can contribute to leg cramps.&lt;strong&gt; &lt;/strong&gt;Some diuretic medications prescribed for high blood pressure cause loss of potassium.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Muscle cramps are also part of certain conditions such as nerve, kidney, thyroid or hormone disorders; diabetes; hypoglycemia; and anemia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have muscle cramps that are severe, frequent and not getting better with self-care. 
+&lt;/p&gt;
+&lt;p&gt;
+When you see your doctor, bring a list of your key medical information, including any allergies or medical conditions, and the names of all the medications, vitamins and supplements you&apos;re taking.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to ask a number of questions to help determine if you should have any tests or see a specialist. To make the most of your appointment, consider in advance your answers to the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first develop cramps?&lt;/li&gt;
+	&lt;li&gt;How frequent and severe are your cramps?&lt;/li&gt;
+	&lt;li&gt;Does anything typically precede your cramps, such as mild to strenuous exercise?&lt;/li&gt;
+	&lt;li&gt;Do you ever develop cramps while you&apos;re resting?&lt;/li&gt;
+	&lt;li&gt;Does stretching relieve your cramps?&lt;/li&gt;
+	&lt;li&gt;Do you have any other symptoms, including any muscle weakness, pain, or the sensation that a foot, hand or limb has fallen asleep?&lt;/li&gt;
+	&lt;li&gt;Do any of your close blood relatives have a history of muscle cramps?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your urine after exercise?&lt;/li&gt;
+	&lt;li&gt;Do you use any recreational or sports-enhancement drugs?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can usually treat muscle cramps with self-care measures. Your doctor can show you stretching exercises that can help you reduce your chances of getting muscle cramps. Making sure you stay well hydrated also can help. 
+&lt;/p&gt;
+&lt;p&gt;
+For recurrent cramps that disturb your sleep, your doctor may prescribe a medication to relax your muscles. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Taking vitamin B complex supplements may help manage leg cramps. However, more research is needed to confirm this benefit. 
+&lt;/p&gt;
+&lt;p&gt;
+Always talk with your doctor before taking a new dietary supplement. Your doctor can help you understand the risks and benefits of the supplement, alert you to any potential interactions with your current medications, and recommend the right starting dosage for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a cramp, these actions may provide relief: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch and massage.&lt;/strong&gt; Stretch the cramped muscle and gently rub it to help it relax. For a calf cramp, put your weight on your cramped leg and bend your knee slightly. If you&apos;re unable to stand, try pulling the top of your foot on the affected side toward your head while your leg is in a straightened position. This will also help ease a back thigh (hamstring) cramp. For a front thigh (quadriceps) cramp, use a chair to steady yourself and try pulling your foot on the affected side up toward your buttock.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cold or heat.&lt;/strong&gt; Use a cold pack to relax tense muscles. Use a warm towel or heating pad later if you have pain or tenderness, or take a hot bath.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing calf stretch 
+" Caption="While holding on to a chair, keep one leg back with your knee straight and your heel flat on the floor. Slowly bend your elbows and front knee and move your hips forward until you feel a stretch in your calf. Hold this position for 30 to 60 seconds. Switch leg positions and repeat with your other leg. 
+" Height="60" Title="Calf stretch" URI="/images/image_popup/thumbs/mcdc7_calf_stretchthu.jpg" Width="60" />
+				<Image Alt="Illustration showing calf stretch 
+" Caption="While holding on to a chair, keep one leg back with your knee straight and your heel flat on the floor. Slowly bend your elbows and front knee and move your hips forward until you feel a stretch in your calf. Hold this position for 30 to 60 seconds. Switch leg positions and repeat with your other leg. 
+" Height="457" Title="Calf stretch" URI="/images/image_popup/mcdc7_calf_stretch.jpg" Width="400" />
+				<HTML>
+					While holding on to a chair, keep one leg back with your knee straight and your heel flat on the floor. Slowly bend your elbows and front knee and move your hips forward until you feel a stretch in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help prevent cramps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid dehydration.&lt;/strong&gt; Drink plenty of liquids every day. The exact amount depends on what you eat, your sex, your level of activity, the weather, your health, your age and any medications you may be taking. Fluids help your muscles contract and relax and keep muscle cells hydrated and less irritable. During the activity, replenish fluids at regular intervals, and continue drinking water or other fluids after you&apos;re finished.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch your muscles.&lt;/strong&gt; Stretch before and after you use any muscle for an extended period. If you tend to have leg cramps at night, stretch before bedtime. Light exercise, such as riding a stationary bicycle for a few minutes before bedtime, also may help prevent cramps while you&apos;re sleeping.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Muscle cramp
+	</Title>
+	<Abstract>
+		Muscle cramp &amp;mdash; Comprehensive overview covers causes, treatment, prevention of cramped muscles.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

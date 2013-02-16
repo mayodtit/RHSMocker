@@ -1,0 +1,390 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00534
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vertigo/DS00534
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-10
+		</UpdateDate>
+		<PublicationDate>
+			2004-06-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="2992" Title="Vertigo">
+							<Keyword MCVID="2996" Title="BPPV" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E38B290A-341F-424F-B82755D618A355B2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				benign paroxysmal positional vertigo
+			</MetaKeyword>
+			<MetaKeyword>
+				vertigo
+			</MetaKeyword>
+			<MetaKeyword>
+				BPPV
+			</MetaKeyword>
+			<MetaKeyword>
+				dizzy
+			</MetaKeyword>
+			<MetaKeyword>
+				dizziness
+			</MetaKeyword>
+			<MetaKeyword>
+				lightheaded
+			</MetaKeyword>
+			<MetaKeyword>
+				faint
+			</MetaKeyword>
+			<MetaKeyword>
+				woozy
+			</MetaKeyword>
+			<MetaKeyword>
+				dizzyness
+			</MetaKeyword>
+			<MetaKeyword>
+				diziness
+			</MetaKeyword>
+			<MetaKeyword>
+				benign positional vertigo
+			</MetaKeyword>
+			<MetaKeyword>
+				balance problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo &amp;mdash; the sudden sensation that you&apos;re spinning or that the inside of your head is spinning. 
+&lt;/p&gt;
+&lt;p&gt;
+Benign paroxysmal positional vertigo is characterized by brief episodes of mild to intense dizziness. Symptoms of benign paroxysmal positional vertigo are triggered by specific changes in the position of your head, such as tipping your head up or down, and by lying down, turning over or sitting up in bed. You may also feel out of balance when standing or walking. 
+&lt;/p&gt;
+&lt;p&gt;
+Although benign paroxysmal positional vertigo can be a bothersome problem, it&apos;s rarely serious except when it increases the chance of falls. You can receive effective treatment for benign paroxysmal positional vertigo during a doctor&apos;s office visit. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of benign paroxysmal positional vertigo (BPPV) may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;A sense that you or your surroundings are spinning or moving (vertigo)&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Unsteadiness&lt;/li&gt;
+	&lt;li&gt;A loss of balance&lt;/li&gt;
+	&lt;li&gt;Blurred vision associated with the sensation of vertigo&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The signs and symptoms of BPPV can come and go, with symptoms commonly lasting less than one minute. Episodes of benign paroxysmal positional vertigo and other forms of vertigo can disappear for some time and then recur. 
+&lt;/p&gt;
+&lt;p&gt;
+Activities that bring about the signs and symptoms of BPPV can vary from person to person, but are almost always brought on by a change in the position of your head. Abnormal rhythmic eye movements (nystagmus) usually accompany the symptoms of benign paroxysmal positional vertigo. Although rare, it&apos;s possible to have BPPV in both ears (bilateral BPPV). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Generally, see your doctor if you experience any unexplained dizziness or vertigo that recurs periodically for more than one week. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care&lt;/strong&gt;&lt;br /&gt;
+Although it&apos;s uncommon for dizziness to signal a serious illness, see your doctor immediately if you experience dizziness or vertigo along with any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A new, different or severe headache&lt;/li&gt;
+	&lt;li&gt;A fever of 101 F (38 C) or higher&lt;/li&gt;
+	&lt;li&gt;Double vision or loss of vision&lt;/li&gt;
+	&lt;li&gt;Hearing loss&lt;/li&gt;
+	&lt;li&gt;Trouble speaking&lt;/li&gt;
+	&lt;li&gt;Leg or arm weakness&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Falling or difficulty walking&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling&lt;/li&gt;
+	&lt;li&gt;Chest pain, or rapid or slow heart rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The signs and symptoms listed above may signal a more serious problem, such as stroke or a cardiac condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About half the time, doctors can&apos;t find a specific cause for BPPV. 
+&lt;/p&gt;
+&lt;p&gt;
+When a cause can be determined, BPPV is often associated with a minor to severe blow to your head. Less common causes of BPPV include disorders that damage your inner ear or, rarely, damage that occurs during ear surgery or during prolonged positioning on your back. BPPV also has been associated with migraines. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The ear&apos;s role&lt;/strong&gt;&lt;br /&gt;
+Inside your ear is a tiny organ called the vestibular labyrinth. It includes three loop-shaped structures (semicircular canals) that contain fluid and fine, hair-like sensors that monitor the rotation of your head. 
+&lt;/p&gt;
+&lt;p&gt;
+Other structures (otolith organs) in your ear monitor movements of your head &amp;mdash; up and down, right and left, back and forth &amp;mdash; and your head&apos;s position related to gravity. These otolith organs &amp;mdash; the utricle and saccule &amp;mdash; contain crystals that make you sensitive to gravity. 
+&lt;/p&gt;
+&lt;p&gt;
+For a variety of reasons, these crystals can become dislodged. When they become dislodged, they can move into one of the semicircular canals &amp;mdash; especially while you&apos;re lying down. This causes the semicircular canal to become sensitive to head position changes it would normally not respond to. As a result, you feel dizzy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inner ear and balance 
+" Caption="Semicircular canals and otolith organs &amp;mdash; the utricle and saccule &amp;mdash; in your inner ear contain fluid and fine, hair-like sensors that help you keep your eye focused on a target when your head is in motion and assist in helping you maintain your balance.
+" Height="60" Title="Inner ear and balance" URI="/images/image_popup/thumbs/r7_earanatomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing inner ear and balance 
+" Caption="Semicircular canals and otolith organs &amp;mdash; the utricle and saccule &amp;mdash; in your inner ear contain fluid and fine, hair-like sensors that help you keep your eye focused on a target when your head is in motion and assist in helping you maintain your balance.
+" Height="305" Title="Inner ear and balance" URI="/images/image_popup/r7_earanatomy.jpg" Width="400" />
+				<HTML>
+					Semicircular canals and otolith organs &amp;mdash; the utricle and saccule &amp;mdash; in your inner ear contain fluid and fine, hair-like sensors that help you keep your eye focused on a target when your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Benign paroxysmal positional vertigo occurs most often in people age 60 and older, but can occur at any age. Aside from aging, there are no definite factors that may increase your risk of benign paroxysmal positional vertigo. However, a head injury or any other disorder of the balance organs of your ear may make you more susceptible to BPPV. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although benign paroxysmal positional vertigo (BPPV) is uncomfortable, it rarely causes complications. In rare cases, if severe, persistent BPPV causes you to vomit frequently, you may be at risk of dehydration. The dizziness of BPPV can put you at greater risk of falling. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have symptoms common to BPPV. After an initial examination, your doctor may refer you to an ear, nose and throat (ENT) specialist or a doctor who specializes in the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how often they occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any recent blows to your head,&lt;/strong&gt; including even minor accidents or injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Creating your list of questions can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask the doctor at the initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the possible causes of my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;If these tests don&apos;t pinpoint the cause of my symptoms, what additional tests might I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions while we&apos;re seeking a diagnosis?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you are referred to a specialist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is my diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatments are most likely to help me feel better?&lt;/li&gt;
+	&lt;li&gt;How soon after beginning treatment should my symptoms start to improve?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for surgery? Why or why not?&lt;/li&gt;
+	&lt;li&gt;What self-care steps can help me manage this condition?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activities? For how long?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of this problem recurring?&lt;/li&gt;
+	&lt;li&gt;How often will you see me for follow-up visits?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I manage them together?&lt;/li&gt;
+	&lt;li&gt;What handouts or websites do you recommend for learning more about BPPV?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+A doctor who sees you for symptoms common to BPPV may ask a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did you first notice them?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms come and go? How often?&lt;/li&gt;
+	&lt;li&gt;How long do your symptoms last?&lt;/li&gt;
+	&lt;li&gt;Is one or both of your ears affected?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger your symptoms, such as certain types of movement or activity?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include vision problems?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include headache?&lt;/li&gt;
+	&lt;li&gt;Have you lost any hearing?&lt;/li&gt;
+	&lt;li&gt;Have you had any weakness, numbness or tingling in your arms or your legs?&lt;/li&gt;
+	&lt;li&gt;Have you had any difficulty talking or walking?&lt;/li&gt;
+	&lt;li&gt;Have you had chest pain?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including over-the-counter and prescription drugs as well as vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may do a series of tests to determine the cause of your dizziness. During a physical examination, your doctor will likely look for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Signs and symptoms of dizziness that are prompted by eye or head movements and then decrease in less than one minute&lt;/li&gt;
+	&lt;li&gt;Dizziness with specific eye movements that occur when you lie on your back with your head turned to one side and tipped slightly over the edge of the examination bed&lt;/li&gt;
+	&lt;li&gt;Involuntary movements of your eyes from side to side (nystagmus)&lt;/li&gt;
+	&lt;li&gt;Inability to control your eye movements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the cause of your signs and symptoms is difficult to determine, your doctor may order additional testing, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electronystagmography (ENG) or videonystagmography (VNG).&lt;/strong&gt; The purpose of this test is to detect abnormal eye movement. ENG (which uses electrodes) or VNG (which uses small cameras) can help determine if dizziness is due to inner ear disease by measuring involuntary eye movements while your head is placed in different positions or your balance organs are stimulated with water or air. Other tests can assess your ability to maintain an upright position under easy and difficult conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This technique uses a magnetic field and radio waves to create cross-sectional images of your head and body. Your doctor can use these images to identify and diagnose a range of conditions. MRI may be performed to rule out an acoustic neuroma &amp;mdash; a noncancerous brain tumor of the nerve that carries sound and balance information from the inner ear to the brain &amp;mdash; or other lesions that may be the cause of vertigo.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help relieve benign paroxysmal positional vertigo (BPPV), your doctor, audiologist or physical therapist may treat you with a series of movements known as the canalith repositioning procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Canalith repositioning&lt;/strong&gt;&lt;br /&gt;
+Performed in your doctor&apos;s office, the canalith repositioning procedure consists of several simple and slow maneuvers for positioning your head. The goal is to move particles from the fluid-filled semicircular canals of your inner ear into a tiny bag-like open area (vestibule) that houses one of the otolith organs (utricle) in your ear where these particles don&apos;t cause trouble and are more easily resorbed. Each position is held for about 30 seconds after any symptoms or abnormal eye movements stop. This procedure is usually effective after one or two treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+After the procedure, you must avoid lying flat or placing the treated ear below shoulder level for the rest of that day. For the first night following the procedure, elevate your head on a few pillows when you sleep. This allows time for the particles floating in your labyrinth to settle into your vestibule and be resorbed by the fluids in your inner ear. 
+&lt;/p&gt;
+&lt;p&gt;
+On the morning after your in-office procedure, your restrictions will be lifted and you&apos;ll begin self-care as directed by your doctor. Your doctor likely will have taught you how to perform the canalith repositioning procedure on yourself so that you can do it at home before returning to the office for a recheck. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical alternative&lt;/strong&gt;&lt;br /&gt;
+In very rare situations in which the canalith repositioning procedure isn&apos;t effective, your doctor may recommend a surgical procedure in which a bone plug is used to block the portion of your inner ear that&apos;s causing dizziness. The plug prevents the semicircular canal in your ear from being able to respond to particle movements or head movements in general. This success rate for canal plugging surgery is greater than 90 percent. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the inner ear and canalith repositioning 
+" Caption="Vertigo usually results from a problem with the nerves and structures of the balance mechanism in your inner ear (vestibular labyrinth). BPPV occurs when particles called otoconia break loose and fall into the wrong part of the canals of your inner ear, producing an episode of vertigo. The goal of the canalith repositioning procedure is to move the otoconia from your inner ear to the utricle.
+" Height="60" Title="The inner ear and canalith repositioning" URI="/images/image_popup/thumbs/bn7_innerearthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the inner ear and canalith repositioning 
+" Caption="Vertigo usually results from a problem with the nerves and structures of the balance mechanism in your inner ear (vestibular labyrinth). BPPV occurs when particles called otoconia break loose and fall into the wrong part of the canals of your inner ear, producing an episode of vertigo. The goal of the canalith repositioning procedure is to move the otoconia from your inner ear to the utricle.
+" Height="347" Title="The inner ear and canalith repositioning" URI="/images/image_popup/bn7_innerear.jpg" Width="400" />
+				<HTML>
+					Vertigo usually results from a problem with the nerves and structures of the balance mechanism in your inner ear (vestibular labyrinth). BPPV occurs when particles called otoconia break loose and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience dizziness associated with benign paroxysmal positional vertigo (BPPV), consider these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be aware of the possibility of losing your balance, which can lead to falling and serious injury.&lt;/li&gt;
+	&lt;li&gt;Sit down immediately when you feel dizzy.&lt;/li&gt;
+	&lt;li&gt;Use good lighting if you get up at night.&lt;/li&gt;
+	&lt;li&gt;Walk with a cane for stability if you&apos;re at risk of falling.&lt;/li&gt;
+	&lt;li&gt;Work closely with your doctor to manage your symptoms effectively.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+BPPV may recur even after successful therapy. Fortunately, although there&apos;s no cure, the condition can be managed with physical therapy and home treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with benign paroxysmal positional vertigo (BPPV) can be challenging. It may affect your interaction with friends and family, your productivity at work, and the overall quality of your life. You may find encouragement and understanding in a support group. 
+&lt;/p&gt;
+&lt;p&gt;
+Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about unique coping skills and tend to share their own experiences. If you&apos;re interested, your doctor may be able to recommend a group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Benign paroxysmal positional vertigo (BPPV)
+	</Title>
+	<Abstract>
+		Benign paroxysmal positional vertigo &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of intense dizziness episodes.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="MY01322" LinkType="Internal" ObjectID="C9FB646C-DA84-CD9F-EF26177DC57A9F73" Title="Slide show: Canalith repositioning procedure" Url="http://www.mayoclinic.com/health/canalith-repositioning-procedure/MY01322" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00085" LinkType="Internal" ObjectID="A7DD6B03-E7FF-0DBD-1F9BFD8F441B9EEA" Title="Canalith repositioning procedure" Url="http://www.mayoclinic.com/health/canalith-repositioning-procedure/MY00085" />
+	</RelatedLinksBox>
+</Disease>

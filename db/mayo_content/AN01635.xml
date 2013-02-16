@@ -1,0 +1,109 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01635
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pap-smear/AN01635
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3068" Title="Pap smear" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0BD1E6A4-E7FF-0DBD-1064D59C7B26AAB3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pap smear
+			</MetaKeyword>
+			<MetaKeyword>
+				pap test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+If you&apos;re a virgin &amp;mdash; meaning you haven&apos;t had sexual (vaginal) intercourse &amp;mdash; you probably don&apos;t need a Pap smear. And even if you do have a Pap smear, it will not cause you to lose your virginity. Although the instruments used to collect the cervical cells may stretch or even tear your hymen &amp;mdash; the thin tissue covering the vaginal opening, which is present in some women who&apos;ve never had sex &amp;mdash; you will only lose your virginity when you have sexual intercourse. 
+&lt;/p&gt;
+&lt;p&gt;
+The purpose of a Pap smear is to collect cells from your cervix, which is the lower end of your uterus. The cells collected in a Pap smear can detect if you have cervical cancer or suspicious cells that indicate you may develop cervical cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, cervical cancer is caused by a sexually transmitted infection called human papillomavirus (HPV). If you&apos;ve never had any type of sexual intercourse, you&apos;re unlikely to have HPV. However, there are other risk factors for developing cervical cancer, such as family history and smoking, so talk to your doctor if you have concerns. 
+&lt;/p&gt;
+&lt;p&gt;
+For effective cervical cancer screening, the American Cancer Society recommends that all women have an initial Pap smear by the age of 21, regardless of whether or not they&apos;ve had sexual intercourse, or after they&apos;ve been sexually active for three years, whichever comes first. The American College of Obstetricians and Gynecologists recommends that women begin having Pap smears at age 21, regardless of when they become sexually active. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pap smear: Do I need one if I&apos;m a virgin?
+	</Title>
+	<Abstract>
+		If you&apos;re a virgin, you probably don&apos;t need a Pap smear.
+	</Abstract>
+	<Question>
+		Do virgins need Pap smears? Does a Pap smear cause you to lose your virginity?
+	</Question>
+	<QuestionFirstName>
+		Yosun
+	</QuestionFirstName>
+	<QuestionState>
+		Turkey
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01110" LinkType="Internal" ObjectID="93072ECE-B9C8-8ECC-D1B88893A75B44F0" Title="HPV test" Url="http://www.mayoclinic.com/health/hpv-test/MY01110" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00236" LinkType="Internal" ObjectID="05C62021-E7FF-0DBD-160B90F970B63F5E" Title="Colposcopy" Url="http://www.mayoclinic.com/health/colposcopy/MY00236" />
+		<LinkItem ContentType="Answer" DocID="AN00013" LinkType="Internal" ObjectID="EFB4CA42-F703-485A-84BA5D87FF5886B7" Title="Pap smear: Still needed after hysterectomy?" Url="http://www.mayoclinic.com/health/pap-smear/AN00013" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00090" LinkType="Internal" ObjectID="B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76" Title="Pap smear" Url="http://www.mayoclinic.com/health/pap-smear/MY00090" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+	</RelatedLinksBox>
+</Answer>

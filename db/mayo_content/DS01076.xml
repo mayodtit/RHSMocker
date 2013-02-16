@@ -1,0 +1,500 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01076
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cancer/DS01076
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-08
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2082" Title="General" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			63426615-E7FF-0DBD-1994B85EEA8B6116
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cancer basics
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer causes
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer risk
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer symptoms
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cancer refers to any one of a large number of diseases characterized by the development of abnormal cells that divide uncontrollably and have the ability to infiltrate and destroy normal body tissue. Cancer also has the ability to spread throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Cancer is the second leading cause of death in the United States. But survival rates are improving for many types of cancer, thanks to improvements in cancer screening and cancer treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of normal colon tissue alongside cancerous colon tissue 
+" Caption="The image of the normal colon tissue, at left, shows well-formed oval-shaped glands, evenly lined with a single, organized layer of cells, indicated by arrows. The image of the cancerous colon tissue, in contrast, shows highly disorganized cancer cells stacked upon each other in an apparently random fashion. 
+" Height="60" Title="What does cancer look like?" URI="/images/image_popup/thumbs/c7_cellsthu.jpg" Width="60" />
+				<Image Alt="Image of normal colon tissue alongside cancerous colon tissue 
+" Caption="The image of the normal colon tissue, at left, shows well-formed oval-shaped glands, evenly lined with a single, organized layer of cells, indicated by arrows. The image of the cancerous colon tissue, in contrast, shows highly disorganized cancer cells stacked upon each other in an apparently random fashion. 
+" Height="255" Title="What does cancer look like?" URI="/images/image_popup/c7_cells.jpg" Width="400" />
+				<HTML>
+					The image of the normal colon tissue, at left, shows well-formed oval-shaped glands, evenly lined with a single, organized layer of cells, indicated by arrows. The image of the cancerous colon tissue,...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms caused by cancer will vary depending on what part of the body is affected. Some general signs and symptoms associated with, but not specific to, cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Lump or thickening that can be felt under the skin&lt;/li&gt;
+	&lt;li&gt;Weight changes, including unintended loss or gain&lt;/li&gt;
+	&lt;li&gt;Skin changes, such as yellowing, darkening or redness of the skin, sores that won&apos;t heal, or changes to existing moles&lt;/li&gt;
+	&lt;li&gt;Changes in bowel or bladder habits&lt;/li&gt;
+	&lt;li&gt;Persistent cough&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Persistent indigestion or discomfort after eating&lt;/li&gt;
+	&lt;li&gt;Persistent, unexplained muscle or joint pain&lt;/li&gt;
+	&lt;li&gt;Unexplained and persistent fevers or night sweats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs or symptoms that concern you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t have any signs or symptoms, but are worried about your risk of cancer, discuss your concerns with your doctor. Ask about which cancer screening tests and procedures are appropriate for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cancer is caused by changes (mutations) to the DNA within cells. The DNA inside a cell contains a set of instructions telling the cell how to grow and divide. Errors in the instructions may allow a cell to become cancerous. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What do gene mutations do?&lt;/strong&gt; &lt;br /&gt;
+A gene mutation can instruct a healthy cell to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allow rapid growth.&lt;/strong&gt; A gene mutation can tell a cell to grow and divide more rapidly. This creates many new cells that all have that same mutation. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fail to stop uncontrolled cell growth.&lt;/strong&gt; Normal cells contain genes called tumor suppressor genes that recognize out-of-control growth and act to stop it. But if a mutation occurs in a tumor suppressor gene, that gene may become less effective or may be turned off completely. This allows a mutated cell to continue growing and dividing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make mistakes when repairing DNA errors.&lt;/strong&gt; DNA repair genes identify and correct DNA mutations. A mutation in a DNA repair gene means that the gene may miss some DNA errors. This allows more DNA mutations to occur and may lead to cancer. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These mutations are the most common ones found in cancer. But many other gene mutations can contribute to causing cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What causes gene mutations?&lt;/strong&gt; &lt;br /&gt;
+Sometimes you&apos;re born with a genetic mutation. Or a genetic mutation can be caused by forces within your body, such as hormones, viruses and chronic inflammation. Genetic mutations can also be caused by forces outside of your body, such as ultraviolet (UV) light from the sun, cancer-causing chemicals (carcinogens) or radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How do gene mutations interact with each other?&lt;/strong&gt; &lt;br /&gt;
+Researchers believe that more than one gene mutation is necessary to cause most cancers. Some blood cancers may require just one gene mutation to drive their growth. Most cancers that form in the body&apos;s major organs, such as the lungs and the colon, have many gene mutations. It&apos;s not clear just how many mutations must accumulate for cancer to form. It&apos;s likely that this varies among cancer types. 
+&lt;/p&gt;
+&lt;p&gt;
+The gene mutations you&apos;re born with and those that you acquire throughout your life work together to cause cancer. For instance, if you&apos;ve inherited a genetic mutation that predisposes you to cancer, that doesn&apos;t mean you&apos;re certain to get cancer. Instead, you may need one or more other gene mutations to cause cancer. Your inherited gene mutation could make you more likely than other people to develop cancer when exposed to a certain cancer-causing substance. The genetic mutation begins the cancer process, and the cancer-causing substance could play a role in further cancer development. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While doctors have an idea of what may increase your risk of cancer, the majority of cancers occur in people who don&apos;t have any known risk factors. Factors known to increase your risk of cancer include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your age&lt;/strong&gt; &lt;br /&gt;
+Cancer can take decades to develop. That&apos;s why most people diagnosed with cancer are 65 or older. While it&apos;s more common in older adults, cancer isn&apos;t exclusively an adult disease &amp;mdash; cancer can be diagnosed at any age. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your habits&lt;/strong&gt; &lt;br /&gt;
+Certain lifestyle choices are known to increase your risk of cancer. Smoking, drinking more than one drink a day (for women) or two drinks a day (for men), excessive exposure to the sun or frequent blistering sunburns, and having unsafe sex can contribute to cancer. You can change these habits to lower your risk of cancer &amp;mdash; though some habits are easier to change than others. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your family history&lt;/strong&gt; &lt;br /&gt;
+Only a small portion of cancers are due to an inherited condition. If cancer is common in your family, it&apos;s possible that mutations are being passed from one generation to the next. You might be a candidate for genetic testing to see whether you have inherited mutations that might increase your risk of certain cancers. Keep in mind that having an inherited genetic mutation doesn&apos;t necessarily mean you&apos;ll get cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your health conditions&lt;/strong&gt; &lt;br /&gt;
+Some chronic health conditions, such as ulcerative colitis, can markedly increase your risk of developing certain cancers. Talk to your doctor about your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your environment&lt;/strong&gt; &lt;br /&gt;
+The environment around you may contain harmful chemicals that can increase your risk of cancer. Even if you don&apos;t smoke, you might inhale secondhand smoke if you go where people are smoking or you live with someone who smokes. Chemicals in your home or workplace, such as asbestos and benzene, also are associated with an increased risk of cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cancer and its treatment can cause several complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Pain can be caused by cancer or by cancer treatment. Medications and other approaches can effectively treat cancer-related pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; Fatigue in people with cancer has many causes, but it can often be managed. Fatigue associated with chemotherapy or radiation therapy treatments is common, but it&apos;s usually temporary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty breathing.&lt;/strong&gt; Cancer or cancer treatment may cause a feeling of being short of breath. Treatments may bring relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nausea.&lt;/strong&gt; Certain cancers and cancer treatments can cause nausea. Your doctor can sometimes predict if your treatment is likely to cause nausea. Medications and other treatments may help you prevent or cope with nausea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diarrhea or constipation.&lt;/strong&gt; Cancer and cancer treatment can affect your bowels and cause diarrhea or constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; Cancer and cancer treatment may cause weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unusual immune system reactions to cancer.&lt;/strong&gt; In some cases the body&apos;s immune system may react to the presence of cancer by attacking healthy cells. Called paraneoplastic syndromes, these unusual reactions can lead to a variety of signs and symptoms, such as difficulty walking and seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that spreads.&lt;/strong&gt; As cancer advances, it may spread (metastasize) to other parts of the body. Where cancer spreads depends on the type of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that returns.&lt;/strong&gt; Cancer survivors have a risk of cancer recurrence. Some cancers are more likely to recur than others. Ask your doctor about what you can do to reduce your risk of cancer recurrence. Your doctor may devise a follow-up care plan for you after treatment. This plan may include periodic scans and exams in the months and years after your treatment, to look for cancer recurrence.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If your doctor determines you have cancer, you&apos;ll likely be referred to one or more specialists, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctors who treat cancer (oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat cancer with radiation (radiation oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat diseases of the blood and blood-forming tissues (hematologists)&lt;/li&gt;
+	&lt;li&gt;Surgeons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your family&apos;s history of cancer.&lt;/strong&gt; If other members of your family have been diagnosed with cancer, make a note of the types of cancer, how each person is related to you and how old each person was when diagnosed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of cancer do I have?&lt;/li&gt;
+	&lt;li&gt;What stage is my cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need additional tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can treatments cure my cancer?&lt;/li&gt;
+	&lt;li&gt;If my cancer can&apos;t be cured, what can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;How soon do I need to begin treatment?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;Can I continue working during treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any clinical trials or experimental treatments available to me?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I manage them during my cancer treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for follow-up visits?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Cancer screening&lt;/strong&gt; &lt;br /&gt;
+Diagnosing cancer at its earliest stages often provides the best chance for a cure. With this in mind, talk with your doctor about what types of cancer screening may be appropriate for you. 
+&lt;/p&gt;
+&lt;p&gt;
+For a few cancers, studies show screening tests can save lives by diagnosing cancer early. For other cancers, screening tests are recommended only for people with the highest risk. Some cancer screening tests are controversial because there&apos;s no proof they save lives. In these cases, there is concern that tests may harm you or lead to treatment with no clear benefit or gain in life expectancy. 
+&lt;/p&gt;
+&lt;p&gt;
+A variety of medical organizations and patient-advocacy groups have recommendations and guidelines for cancer screening. You and your doctor can review the various guidelines and determine what&apos;s best for you based on your own risk factors for cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer diagnosis&lt;/strong&gt; &lt;br /&gt;
+Your doctor may use one or more approaches to diagnose cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor may feel areas of your body for lumps that may indicate a tumor. During a physical exam he or she may look for abnormalities, such as changes in skin color or enlargement of an organ, that may indicate the presence of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory tests.&lt;/strong&gt; Laboratory tests, such as urine and blood tests, may help your doctor identify abnormalities that can be caused by cancer. For instance, in people with leukemia, a common blood test called complete blood count (CBC) may reveal an unusual number of white blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests allow your doctor to examine your bones and internal organs in a noninvasive way. Imaging tests used in diagnosing cancer may include computerized tomography (CT) scan, bone scan, magnetic resonance imaging (MRI), ultrasound and X-ray, among others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; During a biopsy, your doctor collects a sample of cells for testing in the laboratory. There are several ways of collecting a sample. Which biopsy procedure is right for you depends on your type of cancer and its location. In most cases, a biopsy is the only way to definitively diagnose cancer. In the laboratory, doctors look at cell samples under the microscope. Normal cells look uniform, with similar sizes and orderly organization. Cancer cells look less orderly, with varying sizes and without apparent organization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer stages&lt;/strong&gt; &lt;br /&gt;
+Once cancer is diagnosed, your doctor will work to determine the extent (stage) of your cancer. Your doctor uses your cancer&apos;s stage to determine your treatment options and your chances for a cure. Staging tests and procedures may include imaging tests, such as bone scans or X-rays, to see if cancer has spread to other parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Cancer stages are generally indicated by Roman numerals &amp;mdash; I through IV, with higher numerals indicating more advanced cancer. In some cases, cancer stage is indicated using letters or words. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of normal colon tissue alongside cancerous colon tissue 
+" Caption="The image of the normal colon tissue, at left, shows well-formed oval-shaped glands, evenly lined with a single, organized layer of cells, indicated by arrows. The image of the cancerous colon tissue, in contrast, shows highly disorganized cancer cells stacked upon each other in an apparently random fashion. 
+" Height="60" Title="What does cancer look like?" URI="/images/image_popup/thumbs/c7_cellsthu.jpg" Width="60" />
+				<Image Alt="Image of normal colon tissue alongside cancerous colon tissue 
+" Caption="The image of the normal colon tissue, at left, shows well-formed oval-shaped glands, evenly lined with a single, organized layer of cells, indicated by arrows. The image of the cancerous colon tissue, in contrast, shows highly disorganized cancer cells stacked upon each other in an apparently random fashion. 
+" Height="255" Title="What does cancer look like?" URI="/images/image_popup/c7_cells.jpg" Width="400" />
+				<HTML>
+					The image of the normal colon tissue, at left, shows well-formed oval-shaped glands, evenly lined with a single, organized layer of cells, indicated by arrows. The image of the cancerous colon tissue,...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many cancer treatments are available. Your treatment options will depend on several factors, such as the type and stage of your cancer, your general health and your preferences. Together you and your doctor can weigh the benefits and risks of each cancer treatment to determine which is best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Goals of cancer treatment&lt;/strong&gt; &lt;br /&gt;
+Cancer treatments are used in various ways, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment to kill or remove cancer cells (primary treatment).&lt;/strong&gt; The goal of a primary treatment is to completely remove the cancer from your body or kill the cancer cells. Any cancer treatment can be used as a primary treatment, but the most common primary cancer treatment for the most common cancers is surgery. If your cancer is particularly sensitive to radiation therapy or chemotherapy, you may receive one of those therapies as your primary treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment to kill any remaining cancer cells (adjuvant therapy).&lt;/strong&gt; The goal of adjuvant therapy is to kill any cancer cells that may remain after primary treatment. Any cancer treatment can be used as an adjuvant therapy. Common adjuvant therapies include chemotherapy, radiation therapy and hormone therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment to manage side effects of cancer and its treatment (palliative care).&lt;/strong&gt; The goal of palliative care is to decrease pain or other symptoms and help you maintain quality of life during and after cancer treatment. Palliative treatments may help relieve side effects of treatment or signs and symptoms caused by cancer itself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer treatments&lt;/strong&gt; &lt;br /&gt;
+Doctors have many tools when it comes to treating cancer. Cancer treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; The goal of surgery is to remove the cancer or as much of the cancer as possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy uses drugs to kill cancer cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. Radiation treatment can come from a machine outside your body (external beam radiation) or it can be placed inside your body (brachytherapy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cell transplant.&lt;/strong&gt; Stem cell transplant is also known as bone marrow transplant. Your bone marrow is the material inside your bones that makes blood cells from blood stem cells. A stem cell transplant can use your own stem cells or stem cells from a donor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biological therapy.&lt;/strong&gt; Biological therapy uses your body&apos;s immune system to fight cancer. Cancer can survive unchecked in your body because your immune system doesn&apos;t recognize it as an intruder. Biological therapy can help your immune system &quot;see&quot; the cancer and attack it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone therapy.&lt;/strong&gt; Some types of cancer are fueled by your body&apos;s hormones. Examples include breast cancer and prostate cancer. Removing those hormones from the body or blocking their effects may cause the cancer cells to stop growing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Targeted drug therapy.&lt;/strong&gt; Targeted drug treatment focuses on specific abnormalities within cancer cells that allow them to survive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clinical trials.&lt;/strong&gt; Clinical trials are studies to investigate new ways of treating cancer. Thousands of cancer clinical trials are under way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other treatments may be available to you, depending on your type of cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative cancer treatments have been proved to cure cancer. But alternative medicine options may help you cope with side effects of cancer and cancer treatment, such as fatigue, nausea and pain.
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your doctor about what alternative medicine options may offer some benefit. He or she can also discuss whether these therapies are safe for you or whether they may interfere with your cancer treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Some alternative medicine options found to be helpful for people with cancer include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Hypnosis&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques&lt;/li&gt;
+	&lt;li&gt;Yoga&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A cancer diagnosis can change your life forever. Each person finds his or her own way of coping with the emotional and physical changes cancer brings. But when you&apos;re first diagnosed with cancer, sometimes it&apos;s difficult to know what to do next. Here are some ideas to help you cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about your cancer.&lt;/strong&gt; Write down all the questions you have about your cancer so that you can ask them at your next appointment. Ask your health care team for reliable resources for further information about your diagnosis. The more you know about your cancer and your treatment options, the more confident you&apos;re likely to feel when it comes time to make decisions about your treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk to.&lt;/strong&gt; Find a trusted person you can talk with about how you&apos;re feeling. Perhaps that person is a close friend or family member who is a good listener. Other people who can help include clergy members and counselors. Other people with cancer can offer unique insight. Contact the American Cancer Society for information about cancer support groups in your community. Internet message boards can also work as virtual support groups. Start with the message boards on the American Cancer Society&apos;s website.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay connected to family and friends.&lt;/strong&gt; Your family and friends provide an important support network for you during cancer treatment. Often family and friends want to help, but they aren&apos;t sure how. Think of ways you might like assistance, even if it&apos;s just being there to listen when you have a bad day. Offer these as suggestions when family and friends ask if there&apos;s anything they can do to help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Do what you can to take care of yourself during cancer treatment. Eat a healthy diet full of fruits and vegetables. Get enough sleep so that you wake feeling rested. Find time for activities that can reduce stress, such as relaxation exercises, listening to music and writing your thoughts in a journal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no certain way to prevent cancer. But doctors have identified several ways of reducing your cancer risk, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you smoke, quit. If you don&apos;t smoke, don&apos;t start. Smoking is linked to several types of cancer &amp;mdash; not just lung cancer. Stopping now will reduce your risk of cancer in the future.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid excessive sun exposure.&lt;/strong&gt; Harmful ultraviolet (UV) rays from the sun can increase your risk of skin cancer. Limit your sun exposure by staying in the shade, wearing protective clothing or applying sunscreen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Choose a diet rich in fruits and vegetables. Select whole grains and lean proteins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Regular exercise is linked to a lower risk of cancer. Aim for at least 30 minutes of exercise most days of the week. If you haven&apos;t been exercising regularly, start out slowly and work your way up to 30 minutes or longer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight or obese may increase your risk of cancer. Work to achieve and maintain a healthy weight through a combination of a healthy diet and regular exercise. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if you choose to drink.&lt;/strong&gt; If you choose to drink alcohol, limit yourself to one drink a day if you&apos;re a woman or two drinks a day if you&apos;re a man. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schedule cancer screening exams.&lt;/strong&gt; Talk to your doctor about what types of cancer screening exams are best for you based on your risk factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about immunizations.&lt;/strong&gt; Certain viruses increase your risk of cancer. Immunizations may help prevent those viruses, including hepatitis B, which increases the risk of liver cancer, and human papillomavirus (HPV), which increases the risk of cervical cancer and other cancers. Ask your doctor whether immunization against these viruses is appropriate for you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cancer
+	</Title>
+	<Abstract>
+		Cancer &amp;mdash; Comprehensive overview covers cancer symptoms, causes and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01109" LinkType="Internal" ObjectID="EAE2DEEA-E7FF-0DBD-1057144038EA6323" Title="Chemo brain" Url="http://www.mayoclinic.com/health/chemo-brain/DS01109" />
+		<LinkItem ContentType="SlideShow" DocID="MY01725" LinkType="Internal" ObjectID="EDC3EC1D-9A14-AB08-31DFB1E3ABE329BB" Title="Slide show: The Mediterranean diet" Url="http://www.mayoclinic.com/health/mediterranean-diet/MY01725" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00105" LinkType="Internal" ObjectID="C0133EF8-E7FF-0DBD-169C6332C6D45953" Title="Gene therapy" Url="http://www.mayoclinic.com/health/gene-therapy/MY00105" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00088" LinkType="Internal" ObjectID="B5C04D78-E7FF-0DBD-1FF66760E140CC1D" Title="Needle biopsy" Url="http://www.mayoclinic.com/health/needle-biopsy/MY00088" />
+		<LinkItem ContentType="Answer" DocID="AN01905" LinkType="Internal" ObjectID="9DFF414F-E7FF-0DBD-1BCD03C52D197B8E" Title="Cellphones and cancer: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/cell-phones-and-cancer/AN01905" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="Answer" DocID="AN02061" LinkType="Internal" ObjectID="9422D774-DB28-24E4-42201CE2CF20A016" Title="What is compassionate use of experimental drugs?" Url="http://www.mayoclinic.com/health/compassionate-use/AN02061" />
+		<LinkItem ContentType="Answer" DocID="AN01936" LinkType="Internal" ObjectID="90EEBF57-E7FF-0DBD-1FBAF84824FE39B1" Title="Chemotherapy and sex: Is sexual activity OK during treatment?" Url="http://www.mayoclinic.com/health/chemotherapy-and-sex/AN01936" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="Answer" DocID="AN02024" LinkType="Internal" ObjectID="144C8942-FC9E-A9FD-0C8694428EDF9B0B" Title="Magic mouthwash: Effective for chemotherapy mouth sores?" Url="http://www.mayoclinic.com/health/magic-mouthwash/AN02024" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Article" DocID="CA00030" LinkType="Internal" ObjectID="C2D1AB8B-565E-4B0B-9C34BEF4FE8ECA63" Title="Chemotherapy nausea and vomiting: Prevention is best defense" Url="http://www.mayoclinic.com/health/cancer/CA00030" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="CA00037" LinkType="Internal" ObjectID="A1678D65-8474-4028-85679F53CFE96FD5" Title="Chemotherapy and hair loss: What to expect during treatment" Url="http://www.mayoclinic.com/health/hair-loss/CA00037" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="DI00033" LinkType="Internal" ObjectID="96C0287B-B8F7-4A9C-824C84551D5E4F6D" Title="Clinical trials: A chance to try new therapies" Url="http://www.mayoclinic.com/health/clinical-trials/DI00033" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="CA00024" LinkType="Internal" ObjectID="2FEC5C54-5C57-48E2-A445C46DCF50C26C" Title="Cancer prevention: 7 tips to reduce your risk" Url="http://www.mayoclinic.com/health/cancer-prevention/CA00024" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN01407" LinkType="Internal" ObjectID="D02CD117-E7FF-0DBD-1B172C8988F7AFB1" Title="Chemotherapy side effects: A cause of heart disease?" Url="http://www.mayoclinic.com/health/chemotherapy-side-effects/AN01407" />
+		<LinkItem ContentType="Answer" DocID="AN01572" LinkType="Internal" ObjectID="C68DEC56-E7FF-0DBD-1941747CC18DBFD1" Title="High-dose vitamin C: Can it kill cancer cells?" Url="http://www.mayoclinic.com/health/alternative-cancer-treatment/AN01572" />
+		<LinkItem ContentType="Answer" DocID="AN00463" LinkType="Internal" ObjectID="C2D4FA32-ED4B-4789-9CB4AED6DF757672" Title="Tumor vs. cyst: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/tumor/AN00463" />
+		<LinkItem ContentType="Answer" DocID="AN01741" LinkType="Internal" ObjectID="B48F4362-E7FF-0DBD-1E1B9FD0D1788369" Title="Curcumin: Can it slow cancer growth?" Url="http://www.mayoclinic.com/health/curcumin/AN01741" />
+		<LinkItem ContentType="Video" DocID="MM00638" LinkType="Internal" ObjectID="B3684D67-2A5D-9994-E3BD8051DE32E1D8" Title="Video: How cancer spreads" Url="http://www.mayoclinic.com/health/cancer/MM00638" />
+		<LinkItem ContentType="Answer" DocID="AN00654" LinkType="Internal" ObjectID="8022D52A-A7C9-4E25-A903FCD7053AB998" Title="Small cell, large cell cancer: What this means" Url="http://www.mayoclinic.com/health/cancer/AN00654" />
+		<LinkItem ContentType="Answer" DocID="AN01111" LinkType="Internal" ObjectID="6B497AE4-CE04-4860-9C20CAF35CFD35FE" Title="Atypical cells: Are they cancer?" Url="http://www.mayoclinic.com/health/atypical-cells/AN01111" />
+		<LinkItem ContentType="SlideShow" DocID="CA00075" LinkType="Internal" ObjectID="491544AC-2A5D-9994-EBE274EA4E6F431B" Title="Slide show: Radiation therapy treatment planning" Url="http://www.mayoclinic.com/health/radiation-therapy/CA00075" />
+		<LinkItem ContentType="Video" DocID="MM00781" LinkType="Internal" ObjectID="326F4A39-AAE6-1726-5451D1A058D6D11F" Title="Video: PICC line placement" Url="http://www.mayoclinic.com/health/picc-line-placement/MM00781" />
+		<LinkItem ContentType="Disease" DocID="DS00840" LinkType="Internal" ObjectID="6A1153F1-E7FF-0DBD-1061638F0F39E31D" Title="Paraneoplastic syndromes of the nervous system" Url="http://www.mayoclinic.com/health/paraneoplastic-syndromes/DS00840" />
+		<LinkItem ContentType="Article" DocID="CA00082" LinkType="Internal" ObjectID="D40A35C4-E7FF-0DBD-1DF17BA0656E9D5C" Title="Monoclonal antibody drugs for cancer treatment: How they work" Url="http://www.mayoclinic.com/health/monoclonal-antibody/CA00082" />
+		<LinkItem ContentType="Article" DocID="CA00032" LinkType="Internal" ObjectID="CF461BE7-A93A-431C-A5C6BE169724D763" Title="Cancer fatigue: Why it occurs and how to cope" Url="http://www.mayoclinic.com/health/cancer-fatigue/CA00032" />
+		<LinkItem ContentType="Article" DocID="HQ01135" LinkType="Internal" ObjectID="C596EDA8-DEBC-444F-B01153A818A2C304" Title="Eating during cancer treatment: Tips to make food tastier" Url="http://www.mayoclinic.com/health/cancer/HQ01135" />
+		<LinkItem ContentType="Article" DocID="CA00027" LinkType="Internal" ObjectID="B6D4F8E1-4012-435D-899FEE1C9F28DDE1" Title="Cancer treatment decisions: 5 steps to help you decide" Url="http://www.mayoclinic.com/health/cancer-treatment/CA00027" />
+		<LinkItem ContentType="Article" DocID="CM00002" LinkType="Internal" ObjectID="B3599E9F-4C7B-4CA3-86132BAA54B5B549" Title="Alternative cancer treatments: 11 options to consider" Url="http://www.mayoclinic.com/health/cancer-treatment/CM00002" />
+		<LinkItem ContentType="Article" DocID="SA00071" LinkType="Internal" ObjectID="B2DAA3D8-7A1F-411A-A37EF20E6550B858" Title="Cancer treatment for women: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00071" />
+		<LinkItem ContentType="Article" DocID="CA00071" LinkType="Internal" ObjectID="AE7710F9-DC59-4055-AE4FFE4DE8279DE3" Title="Cancer survivors: Managing your emotions after cancer treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00071" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+		<LinkItem ContentType="Article" DocID="CA00012" LinkType="Internal" ObjectID="987C514C-6756-4FF5-8B85CDD6F07F4227" Title="Adjuvant therapy: Treatment to keep cancer from returning" Url="http://www.mayoclinic.com/health/adjuvant-therapy/CA00012" />
+		<LinkItem ContentType="Article" DocID="HQ01507" LinkType="Internal" ObjectID="8DFF08EE-3CD0-429C-BF5E145C5669616D" Title="Thalidomide: Research advances in cancer and other conditions" Url="http://www.mayoclinic.com/health/thalidomide/HQ01507" />
+		<LinkItem ContentType="Article" DocID="HQ00379" LinkType="Internal" ObjectID="8DDBC22A-9DEB-49E4-B2DBFDCF6DA2411C" Title="Cancer diagnosis? Advice for dealing with what comes next" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ00379" />
+		<LinkItem ContentType="Article" DocID="CA00028" LinkType="Internal" ObjectID="8B47B93F-CC17-45BA-800A98CABFB05DD9" Title="Cancer blood tests: Lab tests used in cancer diagnosis" Url="http://www.mayoclinic.com/health/cancer-diagnosis/CA00028" />
+		<LinkItem ContentType="Article" DocID="CA00066" LinkType="Internal" ObjectID="7E5CD33E-822C-42B8-B199DEEF17241AA7" Title="Low blood cell counts: Side effect of cancer treatment" Url="http://www.mayoclinic.com/health/cancer-treatment/CA00066" />
+		<LinkItem ContentType="Article" DocID="CA00073" LinkType="Internal" ObjectID="5641F40F-D5E8-4D05-8D40E46BE23F8137" Title="Cancer survivors: Late effects of cancer treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00073" />
+		<LinkItem ContentType="Article" DocID="CA00054" LinkType="Internal" ObjectID="541725B4-E0E9-4E51-B6F11C30D8E481F0" Title="Mouth sores caused by cancer treatment: How to cope" Url="http://www.mayoclinic.com/health/mouth-sores/CA00054" />
+		<LinkItem ContentType="Article" DocID="SA00070" LinkType="Internal" ObjectID="50A88AAB-332D-4808-88247DA44ACE9849" Title="Cancer treatment for men: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00070" />
+		<LinkItem ContentType="Article" DocID="CA00072" LinkType="Internal" ObjectID="4F532516-442A-4E9C-81344F818612FFC0" Title="Cancer survivors: Reconnecting with loved ones after treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00072" />
+		<LinkItem ContentType="Article" DocID="CA00021" LinkType="Internal" ObjectID="41AA58E8-49DF-4BD4-A186762D5AA2A009" Title="Cancer pain: Relief is possible" Url="http://www.mayoclinic.com/health/cancer-pain/CA00021" />
+		<LinkItem ContentType="Article" DocID="HQ01134" LinkType="Internal" ObjectID="3CD37714-A615-4D4A-BA2448B558BD4212" Title="No appetite? How to get nutrition during cancer treatment" Url="http://www.mayoclinic.com/health/cancer/HQ01134" />
+		<LinkItem ContentType="Article" DocID="CA00040" LinkType="Internal" ObjectID="2F9D923E-FABA-4607-97D0814475A93176" Title="Diarrhea: Cancer-related causes and how to cope" Url="http://www.mayoclinic.com/health/diarrhea/CA00040" />
+		<LinkItem ContentType="Article" DocID="CA00085" LinkType="Internal" ObjectID="27E0CC33-E7FF-0DBD-19A935FF90056FA0" Title="Cancer causes: Popular myths about the causes of cancer" Url="http://www.mayoclinic.com/health/cancer-causes/CA00085" />
+		<LinkItem ContentType="Article" DocID="CA00050" LinkType="Internal" ObjectID="20364489-D7FF-47AF-8865618B4A679A74" Title="When cancer returns: How to cope with cancer recurrence" Url="http://www.mayoclinic.com/health/cancer/CA00050" />
+		<LinkItem ContentType="Article" DocID="HQ01306" LinkType="Internal" ObjectID="1D66B64D-F30C-436E-ABFFEC8971616F07" Title="Cancer diagnosis: 11 tips for coping" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ01306" />
+		<LinkItem ContentType="Article" DocID="CA00049" LinkType="Internal" ObjectID="1CB388B3-2A33-495C-8A9BBFD0FE28FB03" Title="Cancer survival rate: What it means for your prognosis" Url="http://www.mayoclinic.com/health/cancer/CA00049" />
+		<LinkItem ContentType="Article" DocID="CA00033" LinkType="Internal" ObjectID="11596689-42CD-4CD1-9FA79B307C030A01" Title="Cancer surgery: Physically removing cancer" Url="http://www.mayoclinic.com/health/cancer-surgery/CA00033" />
+		<LinkItem ContentType="Article" DocID="CA00053" LinkType="Internal" ObjectID="0D7A3614-9863-437D-BFAEFD1407AC82FA" Title="Cancer risk: What the numbers mean" Url="http://www.mayoclinic.com/health/cancer/CA00053" />
+		<LinkItem ContentType="Article" DocID="CA00070" LinkType="Internal" ObjectID="0A0DD8B4-F849-4271-A37B87F6CC511AB4" Title="Cancer survivors: Care for your body after treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00070" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+	</RelatedLinksBox>
+</Disease>

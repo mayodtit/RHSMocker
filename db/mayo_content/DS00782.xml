@@ -1,0 +1,488 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00782
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lichen-planus/DS00782
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2821" Title="Lichen planus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A107AC97-E7FF-0DBD-1771561CB5F4244F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lichen planus
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin infection
+			</MetaKeyword>
+			<MetaKeyword>
+				skin infections
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problem
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+			<MetaKeyword>
+				skin lesion
+			</MetaKeyword>
+			<MetaKeyword>
+				skin lesions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				skin irritation
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				skin pain
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itching
+			</MetaKeyword>
+			<MetaKeyword>
+				skin eruptions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin sores
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				severe itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itchiness
+			</MetaKeyword>
+			<MetaKeyword>
+				itch
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy
+			</MetaKeyword>
+			<MetaKeyword>
+				oral lichen planus
+			</MetaKeyword>
+			<MetaKeyword>
+				vulval lichen planus
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal lichen planus
+			</MetaKeyword>
+			<MetaKeyword>
+				lichen planus of the scalp
+			</MetaKeyword>
+			<MetaKeyword>
+				lichen planus of the nails
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen planus (LIE-kun PLAY-nus) is an inflammatory condition that can affect your skin and mucous membranes. 
+&lt;/p&gt;
+&lt;p&gt;
+On the skin, lichen planus usually appears as purplish, often itchy, flat-topped bumps. When mucous membranes are affected &amp;mdash; such as tissues inside the mouth or vagina &amp;mdash; lichen planus appears as lacy white patches or sores that can be painful. 
+&lt;/p&gt;
+&lt;p&gt;
+Lichen planus can&apos;t be passed from one person to another. The disorder occurs when the immune system mounts an attack against cells of the skin or mucous membranes. The reason for this abnormal immune response is unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases of lichen planus may need relatively simple at-home care or no treatment. When symptoms are severe, such as pain or significant itching, treatments may include drugs that suppress the immune system abnormalities. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of lichen planus
+" Caption="Lichen planus is an inflammatory disorder that appears as purplish, flat-topped bumps when it affects the skin. Bumps may appear in clusters or lines.
+" Height="60" Title="Lichen planus" URI="/images/image_popup/thumbs/sn7_lichenplanusthu.jpg" Width="60" />
+				<Image Alt="Photo of lichen planus
+" Caption="Lichen planus is an inflammatory disorder that appears as purplish, flat-topped bumps when it affects the skin. Bumps may appear in clusters or lines.
+" Height="400" Title="Lichen planus" URI="/images/image_popup/sn7_lichenplanus.jpg" Width="400" />
+				<HTML>
+					Lichen planus is an inflammatory disorder that appears as purplish, flat-topped bumps when it affects the skin. Bumps may appear in clusters or lines.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of lichen planus vary depending on what parts of the body are affected. The disorder rarely worsens after the first few months, but the symptoms may persist for months or several years.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin&lt;/strong&gt;&lt;br /&gt;
+If you have lichen planus affecting your skin, you may experience the following signs or symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Purplish, flat-topped bumps may appear anywhere on the body, but they are most often located on the inner forearm and near the wrists or ankles. Other common locations include the lower back, neck and legs.&lt;/li&gt;
+	&lt;li&gt;Bumps may appear in lines along creases in the skin, in clusters, or along the site of a scratch or other injury.&lt;/li&gt;
+	&lt;li&gt;Bumps may appear to be covered with fine, lacy white lines.&lt;/li&gt;
+	&lt;li&gt;The affected skin is often itchy.&lt;/li&gt;
+	&lt;li&gt;Rarely, the bumps become crusty, scabby or blistery.&lt;/li&gt;
+	&lt;li&gt;The lesions rarely scar unless they are scratched deeply.&lt;/li&gt;
+	&lt;li&gt;When the lesions eventually disappear, the skin may have a dark brownish discoloration that may eventually fade away.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Mouth&lt;/strong&gt;&lt;br /&gt;
+When the condition affects the mouth (oral lichen planus), symptoms may include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Patches of lacy white lines or white dots appear most often on the inside of cheeks. The gums, lips and tongue also may be affected.&lt;/li&gt;
+	&lt;li&gt;Sores or ulcers may also appear in the mouth. These tend to cause pain or a burning sensation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Genitals&lt;/strong&gt;&lt;br /&gt;
+Lichen planus affecting the genitals is less common in men.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Men.&lt;/strong&gt; The purplish skin lesions and itching most often affect the tip of the penis (glans).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Women.&lt;/strong&gt; Lichen planus can cause purplish skin lesions and itching on the external genitalia (vulva) or painful, burning sores on the mucous membrane lining the vagina. Scarring is possible, but uncommon, after the skin and mucous membranes heal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Scalp&lt;/strong&gt;&lt;br /&gt;
+Lichen planus affecting the scalp is relatively rare. The name given for this condition is lichen planopilaris. The lesions may result in:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Temporary or permanent hair loss&lt;/li&gt;
+	&lt;li&gt;Scarring or discoloration of the scalp after it has healed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nails&lt;/strong&gt;&lt;br /&gt;
+Although lichen planus rarely affects the nails, it can cause the following problems with one or more nails of the fingers or toes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ridges running the length of the nail&lt;/li&gt;
+	&lt;li&gt;Thinning or splitting of the nail&lt;/li&gt;
+	&lt;li&gt;Temporary or permanent nail loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If tiny bumps or a rash-like condition appears on your skin for no apparent reason, such as a known allergic reaction or contact with poison ivy, see your doctor. Also, see your doctor if you experience any signs or symptoms associated with lichen planus of the mouth, genitals, scalp or nails. Because a number of skin and mucosal conditions can cause lesions and discomfort, it&apos;s best to get a prompt and accurate diagnosis.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of lichen planus
+" Caption="Lichen planus is an inflammatory disorder that appears as purplish, flat-topped bumps when it affects the skin. Bumps may appear in clusters or lines.
+" Height="60" Title="Lichen planus" URI="/images/image_popup/thumbs/sn7_lichenplanusthu.jpg" Width="60" />
+				<Image Alt="Photo of lichen planus
+" Caption="Lichen planus is an inflammatory disorder that appears as purplish, flat-topped bumps when it affects the skin. Bumps may appear in clusters or lines.
+" Height="400" Title="Lichen planus" URI="/images/image_popup/sn7_lichenplanus.jpg" Width="400" />
+				<HTML>
+					Lichen planus is an inflammatory disorder that appears as purplish, flat-topped bumps when it affects the skin. Bumps may appear in clusters or lines.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of lichen planus is unknown. The lesions that appear are the result of inflammation controlled by specific white blood cells called T lymphocytes. Normally, these cells are active at the site of disease or injury. Doctors and researchers don&apos;t know what prompts T lymphocytes to be activated in lichen planus. However, certain diseases, medical conditions or other factors may act as triggers of the inflammatory disorder in some people.
+&lt;/p&gt;
+&lt;p&gt;
+Factors that may act as triggers of lichen planus include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hepatitis C infection&lt;/li&gt;
+	&lt;li&gt;Hepatitis B vaccine&lt;/li&gt;
+	&lt;li&gt;Certain types of flu vaccines&lt;/li&gt;
+	&lt;li&gt;Allergy causing agents (allergens)&lt;/li&gt;
+	&lt;li&gt;Tattoo pigments&lt;/li&gt;
+	&lt;li&gt;Nonsteroidal anti-inflammatory drugs, such as ibuprofen (Motrin, Advil, others) and naproxen (Aleve, others)&lt;/li&gt;
+	&lt;li&gt;Certain medications for heart disease, high blood pressure or arthritis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop lichen planus, but the condition most often affects middle-aged adults.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Cancer risk&lt;/strong&gt;&lt;br /&gt;
+There is some evidence that lichen planus may increase the risk of certain cancers:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Squamous cell carcinoma, a type of skin cancer&lt;/li&gt;
+	&lt;li&gt;Oral cancer&lt;/li&gt;
+	&lt;li&gt;Penile carcinoma&lt;/li&gt;
+	&lt;li&gt;Vulvovaginal cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may recommend routine screening for evidence of cancerous cells in tissues affected by lichen planus.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vulvovaginal complications&lt;/strong&gt;&lt;br /&gt;
+Lichen planus lesions affecting the vulva and vagina often don&apos;t respond well to treatment and are difficult to manage. Therefore, the condition can result in significant sores or permanent changes to vulvovaginal tissues that at times may scar. Because severe itching, pain and burning sensations are common, the condition can cause painful sexual intercourse and subsequent sexual dysfunction.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor or a general practitioner. You may be referred to a specialist in skin diseases (dermatologist). The following tips can help make the best use of your time with your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare a list&lt;/strong&gt;&lt;br /&gt;
+You should make a list to share with your primary doctor or dermatologist. This list should include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The name and contact information of any physician you have seen recently or see regularly&lt;/li&gt;
+	&lt;li&gt;Prescription medications and dosages&lt;/li&gt;
+	&lt;li&gt;Over-the-counter drugs or dietary supplements you take regularly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely ask you a number of questions. Be prepared to answer the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the bumps or other lesions appear?&lt;/li&gt;
+	&lt;li&gt;Where on your body have you found the lesions?&lt;/li&gt;
+	&lt;li&gt;Are the affected areas itchy, painful or uncomfortable?&lt;/li&gt;
+	&lt;li&gt;How would you describe the severity of the pain or discomfort &amp;mdash; mild, moderate or severe?&lt;/li&gt;
+	&lt;li&gt;Have you recently started new medications?&lt;/li&gt;
+	&lt;li&gt;Have you recently had immunizations?&lt;/li&gt;
+	&lt;li&gt;Do you take supplements or vitamins, or do you ingest other nonprescription herbs or medicines?&lt;/li&gt;
+	&lt;li&gt;Do you have any allergies?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor or dermatologist makes a diagnosis of lichen planus or another skin disorder based on the information you provide about symptoms, a careful examination of the skin abnormality and, if necessary, the results of laboratory tests. These tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; A punch biopsy test may be necessary to confirm the diagnosis or to rule out another cause. During a punch biopsy test, the doctor uses a circular tool to remove a small section of your skin&apos;s deeper layers. A punch biopsy extends about 1/4 inch (6 millimeters) deep. You&apos;ll receive a local anesthetic to numb the site and likely receive stitches to close the wound. The skin sample is examined under a microscope to identify a typical pattern of T lymphocytes consistent with a diagnosis of lichen planus. Other more specialized microscopic tests may be needed to identify profiles of immune system proteins commonly associated with the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis C test.&lt;/strong&gt; A nurse or assistant may draw a small sample of blood for a lab test to deteremine if you have hepatitis C, a possible trigger for lichen planus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy tests.&lt;/strong&gt; Your doctor may refer you to an allergy specialist (allergist) for tests to identify agents to which you may be allergic and that may act as triggers for your condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen planus affecting the skin may last from a few months to several years. It usually clears up on its own, but treatment may be necessary to suppress itching and promote healing of the skin.
+&lt;/p&gt;
+&lt;p&gt;
+Lichen planus affecting mucous membranes, genitalia, the scalp or nails generally causes more discomfort. Symptoms affecting these sites are more difficult to manage, often persist for long periods and often recur after initial healing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;/strong&gt;&lt;br /&gt;
+Corticosteroids may reduce inflammation associated with lichen planus. The side effects vary depending on whether it&apos;s used as an ointment applied directly to the skin or mucous membrane (topical), taken as a pill (oral), or administered as an injection. The potential benefit of corticosteroids needs to be balanced with possible side effects, which include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical.&lt;/strong&gt; Long-term use of topical corticosteroids can cause thinning of the skin, suppression of adrenal gland function, lessening of the treatment effect and other skin problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral.&lt;/strong&gt; Long-term use of oral corticosteroids can cause weakening of the bones (osteoporosis), diabetes, high blood pressure, high cholesterol and other serious side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; Injection may be administered directly into lesions or into muscle tissue. Repeated use of corticosteroid injections can cause some of the same side effects as oral corticosteroids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Retinoids&lt;/strong&gt;&lt;br /&gt;
+Retinoids are synthetic versions of vitamin A that can be applied topically or taken orally for treatment. The topical treatment doesn&apos;t cause the side effects associated with corticosteroids, but it may irritate the skin or mucous membranes.
+&lt;/p&gt;
+&lt;p&gt;
+Because both topical and oral retinoids can cause birth defects, the drugs shouldn&apos;t be used by women who are pregnant or planning to become pregnant in the near future. Your doctor can advise you on necessary precautions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonsteroidal creams or ointments&lt;/strong&gt;&lt;br /&gt;
+Several reports have shown the effectiveness of topical medications, called calcineurin inhibitors, which are closely related to or identical to oral medications used to prevent rejection of transplanted organs. These treatments appear to be particularly effective for the treatment of lichen planus of mucous membranes. Examples of these topical medications include tacrolimus (Protopic ointment) and pimecrolimus (Elidel cream).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antihistamine&lt;/strong&gt;&lt;br /&gt;
+Antihistamines act against a protein called histamine that is involved in inflammatory activity. An oral or topical antihistamine may relieve itching or pain associated with lichen planus.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Phototherapy&lt;/strong&gt;&lt;br /&gt;
+Light therapy, or phototherapy, may help clear up lichen planus affecting the skin.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;UVB&lt;/strong&gt;&lt;br /&gt;
+The most common phototherapy for lichen planus uses ultraviolet B (UVB) light, which penetrates only the upper layer of skin (epidermis). There is some risk of &quot;sunburn&quot; with this treatment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;UVA&lt;/strong&gt;&lt;br /&gt;
+Another therapy uses ultraviolet A (UVA) light, which penetrates deep into the skin. This therapy is usually used in combination with oral or topical psoralen, a drug that makes the skin more sensitive to UVA light.
+&lt;/p&gt;
+&lt;p&gt;
+Short-term side effects of this therapy may include nausea, headache and itching. To avoid sunburns, you must be careful to avoid sun exposure for a couple of days after taking psoralen. Also, you must wear special UVA-absorbing sunglasses for a couple of days to protect your eyes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Addressing triggers&lt;/strong&gt;&lt;br /&gt;
+If your doctor suspects that lichen planus may be related to a drug you take, hepatitis C infection or an allergen, he or she will recommend steps to address the trigger. These actions may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs.&lt;/strong&gt; Your doctor may ask you to stop taking a drug or to try an alternative drug to the one that may be acting as a trigger. This action may require consultation with the doctor who originally prescribed your medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis C.&lt;/strong&gt; You&apos;ll likely be referred to a specialist in infectious diseases or a specialist in liver disease (hepatologist) for further diagnostic evaluation and disease management.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergen.&lt;/strong&gt; If tests suggest that an allergen may be a potential trigger, you&apos;ll be advised to avoid the allergen, and you may need to see an allergist for additional treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-care measures can help reduce the itching and inflammation caused by lichen planus. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tub soaks with colloidal oatmeal (Aveeno, others)&lt;/li&gt;
+	&lt;li&gt;Cool compresses&lt;/li&gt;
+	&lt;li&gt;Over-the-counter hydrocortisone cream or ointment, containing at least 1 percent hydrocortisone (if you&apos;re not using a prescription topical corticosteroid)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Lichen planus of the skin&lt;/strong&gt;&lt;br /&gt;
+A number of alternative medicines are promoted as effective treatments for lichen planus of the skin. The claims about these treatments haven&apos;t been substantiated by research. Because lichen planus goes away on its own in most people, it&apos;s difficult to judge the effectiveness of a treatment without carefully designed clinical trials.
+&lt;/p&gt;
+&lt;p&gt;
+Purported alternative treatments for lichen planus of the skin include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aloe vera gel&lt;/li&gt;
+	&lt;li&gt;Lavender oil&lt;/li&gt;
+	&lt;li&gt;Tea tree oil&lt;/li&gt;
+	&lt;li&gt;Sulphur mineral baths&lt;/li&gt;
+	&lt;li&gt;Vitamin supplements&lt;/li&gt;
+	&lt;li&gt;A diet rich in fruit and vegetables&lt;/li&gt;
+	&lt;li&gt;Oral and topical herbal medications&lt;/li&gt;
+	&lt;li&gt;Cod liver oil supplements, a source of vitamins A and D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor before trying an alternative treatment for lichen planus of the skin. Some alternative medicines or vitamin supplements result in serious adverse reactions when combined with prescription medicines.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other forms of lichen planus&lt;/strong&gt;&lt;br /&gt;
+A couple of small clinical trials have suggested the benefit of aloe vera gel for treating lichen planus of the mouth and vulva.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lichen planus
+	</Title>
+	<Abstract>
+		Lichen planus &amp;mdash; Comprehensive overview covers symptoms, treatments of disorder affecting skin or mucous membranes.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

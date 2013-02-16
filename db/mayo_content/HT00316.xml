@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00316
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00316
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3293" Title="Winter holidays" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="4016" Title="Stress relief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FCADD9CB-E7FF-0DBD-19F8F5779AF6D6D0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				holiday stress
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Are your holidays a dietary free-for-all?
+	</Title>
+	<Body>
+		&lt;p&gt;The holidays aren&apos;t an excuse to abandon healthy habits. Some indulgence is OK, but going overboard may leave you feeling depressed and guilty. Plan ahead to manage temptation. Have a healthy snack before holiday parties so that you don&apos;t go overboard on sweets, cheese or drinks. And continue to get plenty of sleep and physical activity.&lt;/p&gt;
+	</Body>
+</HealthTip>

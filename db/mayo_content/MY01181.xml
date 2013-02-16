@@ -1,0 +1,332 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01181
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nephrectomy/MY01181
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-23
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3785" Title="Kidneys and urinary system">
+						<Keyword MCVID="4196" Title="Surgery">
+							<Keyword MCVID="4684" Title="Nephrectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8FB497A9-F180-223A-3DDCFCD843F087A6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nephrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney removal
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney donation
+			</MetaKeyword>
+			<MetaKeyword>
+				partial nephrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				radical nephrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				donor nephrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				laparoscopic nephrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				open nephrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				robotic partial nephrectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nephrectomy (nuh-FREK-tuh-me) is a surgical procedure to remove all or part of a kidney:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Complete nephrectomy.&lt;/strong&gt; During a complete (radical) nephrectomy, the surgeon removes the entire kidney.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partial nephrectomy.&lt;/strong&gt; In a partial nephrectomy, the surgeon removes diseased tissue from a kidney and leaves healthy tissue in place.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A nephrectomy is most often done to treat kidney cancer or to remove a seriously damaged or diseased kidney. The surgeon may perform the procedure through a single large incision in the abdomen or side (open nephrectomy) or through a series of small incisions in the abdomen (laparoscopic nephrectomy).
+&lt;/p&gt;
+&lt;p&gt;
+In a donor nephrectomy, the surgeon removes a healthy kidney for transplant into a person who needs a functioning kidney. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing partial nephrectomy 
+" Caption="During a partial nephrectomy, only the cancerous tumor or diseased tissue is removed (left), leaving in place as much healthy kidney tissue as possible. Partial nephrectomy is also called kidney-sparing surgery. 
+" Height="60" Title="Partial nephrectomy" URI="/images/image_popup/thumbs/mcdc7_partial_nephrectomythu.jpg" Width="60" />
+				<Image Alt="Image showing partial nephrectomy 
+" Caption="During a partial nephrectomy, only the cancerous tumor or diseased tissue is removed (left), leaving in place as much healthy kidney tissue as possible. Partial nephrectomy is also called kidney-sparing surgery. 
+" Height="263" Title="Partial nephrectomy" URI="/images/image_popup/mcdc7_partial_nephrectomy.jpg" Width="400" />
+				<HTML>
+					During a partial nephrectomy, only the cancerous tumor or diseased tissue is removed (left), leaving in place as much healthy kidney tissue as possible. Partial nephrectomy is also called kidney-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A surgeon performs a nephrectomy either to remove a diseased kidney or to harvest a healthy kidney intended for an organ transplant.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Kidney function&lt;br /&gt;
+&lt;/strong&gt;Most people have two kidneys &amp;mdash; fist-sized organs located near the back of the upper abdomen. Your kidneys:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Filter wastes and excess fluid and electrolytes from your blood&lt;/li&gt;
+	&lt;li&gt;Produce urine&lt;/li&gt;
+	&lt;li&gt;Maintain proper levels of minerals in your bloodstream&lt;/li&gt;
+	&lt;li&gt;Produce hormones that help regulate your blood pressure and that influence the number of circulating red blood cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer treatment&lt;br /&gt;
+&lt;/strong&gt;Often, a surgeon performs nephrectomy to remove a cancerous tumor or abnormal tissue growth in a kidney. The most common kidney cancer in adults, renal cell carcinoma, begins in the cells that line the small tubes within your kidneys. Children are more likely to develop a type of kidney cancer called Wilms&apos; tumor, probably caused by the poor development of kidney cells. 
+&lt;/p&gt;
+&lt;p&gt;
+The decision about how much kidney tissue to remove depends on:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Whether a tumor is confined to the kidney&lt;/li&gt;
+	&lt;li&gt;Whether there is more than one tumor&lt;/li&gt;
+	&lt;li&gt;How much of the kidney is affected&lt;/li&gt;
+	&lt;li&gt;Whether the cancer affects nearby tissue&lt;/li&gt;
+	&lt;li&gt;How well the other kidney functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The surgeon makes a decision based on the results of imaging tests, which may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ultrasound, an image of soft tissues produced with the use of sound waves&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT), a specialized X-ray technology that produces images of thin cross-sectional views of soft tissues&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI), which uses a magnetic field and radio waves to produce cross-sectional views or 3-D images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for other conditions&lt;br /&gt;
+&lt;/strong&gt;A partial or radical nephrectomy may be needed to remove severely damaged, scarred or nonfunctioning kidney tissue due to traumatic injury or other diseases.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Donor nephrectomy&lt;br /&gt;
+&lt;/strong&gt;A healthy person with good kidney function and a low risk of certain disorders, such as high blood pressure or diabetes, is a good candidate for donating a kidney to someone who needs a transplant. A transplant recipient who receives a kidney from a living donor has a better chance of survival than a person who receives a kidney from a deceased donor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Long-term complications from a nephrectomy relate to potential problems of living with less than two complete, fully functioning kidneys. Although overall kidney function decreases following a nephrectomy, the remaining kidney tissue usually works well enough for a healthy life.
+&lt;/p&gt;
+&lt;p&gt;
+Problems that may occur with long-term decreased kidney function include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Chronic kidney disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before surgery, you&apos;ll talk with your surgeon about what options are available for you. Questions you might ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Will I need a partial or complete nephrectomy?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for a minimally invasive (laparoscopic) procedure?&lt;/li&gt;
+	&lt;li&gt;What are the chances that I&apos;ll need a complete nephrectomy even if a partial nephrectomy is planned?&lt;/li&gt;
+	&lt;li&gt;If the surgery is for treating cancer, what other related procedures or treatments might I need?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Planning your hospital stay&lt;br /&gt;
+&lt;/strong&gt;Plan to stay in the hospital from one to three days, depending on the type of procedure. Ask your surgeon and health care team about your probable recovery time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for the surgery&lt;br /&gt;
+&lt;/strong&gt;Expect to receive instructions from staff regarding what to do the day before and the day of your surgery. Bring a list of all your questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When do I need to begin fasting?&lt;/li&gt;
+	&lt;li&gt;Can I take my prescription medications?&lt;/li&gt;
+	&lt;li&gt;If so, how soon before the surgery can I take a dose?&lt;/li&gt;
+	&lt;li&gt;What nonprescription drugs should I avoid?&lt;/li&gt;
+	&lt;li&gt;When do I need to arrive at the hospital?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Planning for a donor nephrectomy&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re planning to donate a kidney for a transplant, you&apos;ll have thorough exams to determine if you&apos;re a suitable candidate. Criteria for donating include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;18 years of age or older&lt;/li&gt;
+	&lt;li&gt;Compatible blood type with kidney transplant recipient&lt;/li&gt;
+	&lt;li&gt;Generally good health&lt;/li&gt;
+	&lt;li&gt;Two well-functioning kidneys&lt;/li&gt;
+	&lt;li&gt;No history of high blood pressure, kidney disease, diabetes, certain cancers or major risk factors for heart and blood vessel (cardiovascular) disease&lt;/li&gt;
+	&lt;li&gt;Stable mental health&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll receive general anesthesia before surgery and be unconscious during the entire procedure. You&apos;ll likely have a urinary catheter, a tube used to drain urine from your bladder.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;The nephrectomy procedure varies, depending on how the surgery is performed and how much of the kidney is removed. Variations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open surgery.&lt;/strong&gt; In an open nephrectomy, the surgeon makes an incision about 10 to 20 inches (25 to 50 centimeters) long in either your side or your abdomen &amp;mdash; typically between the lower ribs on the side of the affected kidney. The surgeon may need to remove a lower rib to gain better access to the kidney.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopic surgery.&lt;/strong&gt; In this minimally invasive procedure, the surgeon makes a few small incisions in your abdomen to insert wand-like devices equipped with video cameras and small surgical tools. The surgeon makes a somewhat larger opening if your entire kidney needs to be removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Robot-assisted laparoscopic surgery.&lt;/strong&gt; The surgeon may use a robotic system to perform a laparoscopic nephrectomy. Robotic tools require very small incisions, provide better imaging of the procedure and enable precise removal of diseased tissue. The surgeon controls the surgical instruments from a remote console a short distance from the operating table. The assisting surgical team inserts the instruments through the abdominal incisions and attaches the instruments to the system&apos;s robotic arms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radical nephrectomy.&lt;/strong&gt; In a radical nephrectomy, the surgeon removes the whole kidney, the fatty tissues surrounding the kidney and a portion of the tube connecting the kidney to the bladder (ureter). The surgeon may remove the adrenal gland that sits atop the kidney if a tumor is close to or involves the adrenal gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partial nephrectomy.&lt;/strong&gt; In a partial nephrectomy &amp;mdash; also called kidney-sparing surgery &amp;mdash; the surgeon removes a cancerous tumor or diseased tissue and leaves in as much healthy kidney tissue as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Robotic partial nephrectomy, laparoscopic partial nephrectomy and traditional open surgery yield similar long-term outcomes. However, the much smaller incisions in robotic and laparoscopic surgery usually mean you&apos;ll have less postoperative pain and blood loss and a faster return to your normal activities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;Recovery time and the length of your hospital stay depend on your overall health and the type of nephrectomy performed. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending in part on your ability to get out of bed and the type of procedure performed, the urinary catheter will likely be removed sometime during the first 24 to 48 hours after the surgery.
+&lt;/p&gt;
+&lt;p&gt;
+Expect to receive instructions before leaving the hospital about restrictions to your diet and activity level. In general, you&apos;ll likely be encouraged to begin light, everyday activities as soon as you are able to. You&apos;ll need to avoid strenuous activity or exercise for several weeks. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing partial nephrectomy 
+" Caption="During a partial nephrectomy, only the cancerous tumor or diseased tissue is removed (left), leaving in place as much healthy kidney tissue as possible. Partial nephrectomy is also called kidney-sparing surgery. 
+" Height="60" Title="Partial nephrectomy" URI="/images/image_popup/thumbs/mcdc7_partial_nephrectomythu.jpg" Width="60" />
+				<Image Alt="Image showing partial nephrectomy 
+" Caption="During a partial nephrectomy, only the cancerous tumor or diseased tissue is removed (left), leaving in place as much healthy kidney tissue as possible. Partial nephrectomy is also called kidney-sparing surgery. 
+" Height="263" Title="Partial nephrectomy" URI="/images/image_popup/mcdc7_partial_nephrectomy.jpg" Width="400" />
+				<HTML>
+					During a partial nephrectomy, only the cancerous tumor or diseased tissue is removed (left), leaving in place as much healthy kidney tissue as possible. Partial nephrectomy is also called kidney-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Questions that you may want to discuss with your surgeon, cancer specialist (oncologist) or other members of your health care team following your nephrectomy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Were you able to remove all of the cancerous or diseased tissue?&lt;/li&gt;
+	&lt;li&gt;How much of the kidney was removed?&lt;/li&gt;
+	&lt;li&gt;Will I need to have any treatments if cancer has spread to other organs?&lt;/li&gt;
+	&lt;li&gt;How often will my kidney function need to be monitored?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring kidney function&lt;br /&gt;
+&lt;/strong&gt;Most people can function well with only one kidney or with one whole kidney and part of the second. You&apos;ll likely have annual checkups to monitor the following factors related to kidney function.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure.&lt;/strong&gt; You&apos;ll need careful monitoring of your blood pressure because decreased kidney function can increase blood pressure &amp;mdash; and high blood pressure can, in turn, damage your kidney.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protein urine levels.&lt;/strong&gt; High protein urine levels (proteinuria) may indicate kidney damage and poor kidney function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Waste filtration.&lt;/strong&gt; Glomerular filtration rate is a measure of how efficiently your kidney filters waste. The test is usually performed with a sample of blood. A reduced filtration rate indicates decreased kidney function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Taking care of your remaining kidney&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll need to take care of your remaining kidney or partial kidney. Follow these guidelines to help maintain good kidney function:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If your doctor prescribes medication to lower your blood pressure, take it as directed.&lt;/li&gt;
+	&lt;li&gt;Eat a healthy diet that includes fruits, vegetables, whole grains and low-fat foods.&lt;/li&gt;
+	&lt;li&gt;Limit your daily salt intake. Pay particular attention to how much salt (sodium) is in packaged foods.&lt;/li&gt;
+	&lt;li&gt;Avoid high-protein foods, which can overwork your kidney.&lt;/li&gt;
+	&lt;li&gt;If you drink alcohol or caffeinated beverages, do so in moderation. Your doctor may recommend eliminating alcohol or caffeine from your diet.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nephrectomy (kidney removal)
+	</Title>
+	<Abstract>
+		Nephrectomy &amp;mdash; Overview covers treatment goals, risks, complications of kidney removal.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="Answer" DocID="AN01988" LinkType="Internal" ObjectID="62753420-E4EE-8CC0-C2436287C82698EA" Title="Kidney donation: Are there long-term risks?" Url="http://www.mayoclinic.com/health/kidney-donation/AN01988" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00682" LinkType="Internal" ObjectID="1EAAF4B2-2A5D-9994-E30C5CBDE21DAAD4" Title="Chronic kidney failure" Url="http://www.mayoclinic.com/health/kidney-failure/DS00682" />
+		<LinkItem ContentType="Disease" DocID="DS00360" LinkType="Internal" ObjectID="162FE2ED-4D6F-4BB4-9DF39A9952A1A2EA" Title="Kidney cancer" Url="http://www.mayoclinic.com/health/kidney-cancer/DS00360" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00355
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00355
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2284" Title="Blister" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA588931-E7FF-0DBD-1A5667DBF3F9F55B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blister
+			</MetaKeyword>
+			<MetaKeyword>
+				blisters
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Taking care of a blister? Here&apos;s how
+	</Title>
+	<Body>
+		&lt;p&gt;Need to drain a painful blister? Follow these steps: Wash your hands and the blister with soap and warm water. Swab the blister with rubbing alcohol, and sterilize a clean sharp needle with rubbing alcohol. Puncture the blister at several spots along the edge. Let the blister drain, but leave the overlying skin alone. Apply antibiotic ointment and cover with a bandage. After a few days, remove the dead skin with sterilized tweezers and scissors. Apply more antibiotic and a bandage.&lt;/p&gt;
+	</Body>
+</HealthTip>

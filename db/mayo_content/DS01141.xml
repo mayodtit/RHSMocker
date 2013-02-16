@@ -1,0 +1,338 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01141
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/indigestion/DS01141
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="1847" Title="Indigestion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			112B7460-A031-614A-4CA1C36976E290DD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				indigestion
+			</MetaKeyword>
+			<MetaKeyword>
+				bloating
+			</MetaKeyword>
+			<MetaKeyword>
+				nausea
+			</MetaKeyword>
+			<MetaKeyword>
+				dyspepsia
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+			<MetaKeyword>
+				upset stomach
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Indigestion &amp;mdash; also called dyspepsia or an upset stomach &amp;mdash; is a general term that describes discomfort in your upper abdomen. Indigestion is not a disease, but rather a collection of symptoms you experience, including bloating, belching and nausea. Although indigestion is common, how you experience indigestion may differ from other people. Symptoms of indigestion might be felt occasionally or as often as daily. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, you may be able to prevent or treat the symptoms of indigestion. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with indigestion have one or more of the following symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Early fullness during a meal.&lt;/strong&gt; You haven&apos;t eaten much of your meal, but you already feel full and may not be able to finish eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uncomfortable fullness after a meal.&lt;/strong&gt; Fullness lasts longer than it should. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain in the upper abdomen.&lt;/strong&gt; You feel a mild to severe pain in the area between the bottom of your breastbone (sternum) and your navel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Burning in the upper abdomen.&lt;/strong&gt; You feel an uncomfortable heat or burning sensation between the bottom of the breastbone and navel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less frequent symptoms that may come along with indigestion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nausea.&lt;/strong&gt; You feel like you are about to vomit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bloating.&lt;/strong&gt; Your stomach feels swollen, tight and uncomfortable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes people with indigestion also experience heartburn, but heartburn and indigestion are two separate conditions. Heartburn is a pain or burning feeling in the center of your chest that may radiate into your neck or back after or during eating. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Mild indigestion is usually nothing to worry about. Consult your doctor if discomfort persists for more than two weeks. Contact your doctor right away if pain is severe or accompanied by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unintentional weight loss or loss of appetite&lt;/li&gt;
+	&lt;li&gt;Repeated vomiting or vomiting with blood&lt;/li&gt;
+	&lt;li&gt;Black, tarry stools&lt;/li&gt;
+	&lt;li&gt;Yellow coloring in the skin and eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing that gets progressively worse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seek immediate medical attention if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath, sweating or chest pain radiating to the jaw, neck or arm&lt;/li&gt;
+	&lt;li&gt;Chest pain on exertion or with stress&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are many possible causes of indigestion. Some are related to lifestyle and what you&apos;re eating and drinking. Indigestion can also be caused by other digestive conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Common causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Overeating&lt;/li&gt;
+	&lt;li&gt;Eating too quickly&lt;/li&gt;
+	&lt;li&gt;Fatty or greasy foods&lt;/li&gt;
+	&lt;li&gt;Spicy foods&lt;/li&gt;
+	&lt;li&gt;Too much caffeine&lt;/li&gt;
+	&lt;li&gt;Too much alcohol&lt;/li&gt;
+	&lt;li&gt;Too much chocolate&lt;/li&gt;
+	&lt;li&gt;Too many carbonated beverages&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Nervousness&lt;/li&gt;
+	&lt;li&gt;Emotional trauma&lt;/li&gt;
+	&lt;li&gt;Medications, including antibiotics, and some pain relievers&lt;/li&gt;
+	&lt;li&gt;Pancreas inflammation (pancreatitis)&lt;/li&gt;
+	&lt;li&gt;Peptic ulcers&lt;/li&gt;
+	&lt;li&gt;Gallstones&lt;/li&gt;
+	&lt;li&gt;Stomach cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When a cause for indigestion can&apos;t be found after a thorough evaluation, a person may have functional dyspepsia. Functional dyspepsia is a type of indigestion that occurs because of an impairment in the stomach&apos;s ability to accept and digest food and then pass that food to the small intestine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although indigestion doesn&apos;t usually have serious complications, it can affect your quality of life by making you feel uncomfortable and causing you to eat less. When indigestion is caused by an underlying condition, that condition could come with complications of its own. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have indigestion, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred directly to a gastroenterologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For indigestion, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any side effects to that treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or intermittent?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What do you eat and drink in a typical day?&lt;/li&gt;
+	&lt;li&gt;How have you been feeling emotionally?&lt;/li&gt;
+	&lt;li&gt;How much alcohol do you drink?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco? If so, do you smoke, chew, or both?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms better or worse on an empty stomach?&lt;/li&gt;
+	&lt;li&gt;Have you vomited blood or black material?&lt;/li&gt;
+	&lt;li&gt;Have your stools turned black?&lt;/li&gt;
+	&lt;li&gt;What medications &amp;mdash; including over-the-counter medications &amp;mdash; are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To investigate your signs and symptoms of indigestion, your doctor will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Review your medical history&lt;/li&gt;
+	&lt;li&gt;Perform a physical exam&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&amp;nbsp;To rule out other conditions that can cause indigestion, the doctor might order tests, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood, breath or stool tests.&lt;/strong&gt; These help determine whether inflammation of your stomach from a bacterium called helicobacter pylori (H. pylori) is causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Upper gastrointestinal endoscopy.&lt;/strong&gt; After you&apos;ve been sedated, a long, thin tube with an attached camera is placed in your mouth, then advanced down your esophagus and into your stomach. The doctor looks for abnormalities and may remove some tissue (biopsy) for examination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays of your esophagus, stomach and small intestine.&lt;/strong&gt; Also called an upper gastrointestinal and small bowel series, this exam uses X-rays to make images of the inside of your body. This test is generally only used now if you can&apos;t undergo an endoscopy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal ultrasound.&lt;/strong&gt; Using high-frequency sound waves, an ultrasound makes images that show movement, structure and blood flow. A gel is applied to your abdomen, and then a hand-held device that emits sound waves is pressed against your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal CT scan.&lt;/strong&gt; With this procedure, a dye might be injected into your veins in order to get more-detailed pictures of inside your body. Then, you lie on a table and the CT scanner rotates around you, taking X-ray pictures as it moves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastric emptying study.&lt;/strong&gt; If your doctor doesn&apos;t find an answer from blood tests, endoscopy or imaging tests, a gastric emptying study might be recommended. In this study, you eat some food that has been tagged with a small amount of a radioactive tracing material that allows measurement of the speed that food leaves your stomach. Some people may have a stomach that empties slowly, (gastroparesis), which can lead to symptoms of indigestion.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If lifestyle changes &amp;mdash; especially avoiding offending foods &amp;mdash; don&apos;t help your indigestion, there also are over-the-counter and prescription medications that may help. Most are designed to reduce stomach acid or help move food from the stomach to the small intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of indigestion medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids.&lt;/strong&gt; Alka-Seltzer, Maalox, Mylanta, Tums, and others are available over-the-counter and work by neutralizing stomach acid. Side effects include diarrhea and constipation. These are often the first medications doctors recommend.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;H-2-receptor antagonists (H2RAs).&lt;/strong&gt; These medications don&apos;t begin working as quickly as antacids do, but they work for a longer period of time. Examples of these drugs include Axid, Tagamet, Pepcid and Zantac, which are available over-the-counter or by prescription. Possible side effects that can occur include headache, nausea, vomiting, constipation, diarrhea, and bruising or bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proton pump inhibitors (PPIs).&lt;/strong&gt; Aciphex, Nexium, Prevacid, Prilosec, Protonix and Zegerid are most effective for people who also have gastroesophageal reflux disease (GERD). These medications reduce stomach acid more effectively than H2RAs. They&apos;re available by prescription, although Prilosec and Prevacid also come in over-the-counter strength. Possible side effects include back pain, aching, cough, headache, dizziness, abdominal pain, gas, nausea, vomiting, constipation and diarrhea. Long-term use has, rarely, been associated with bone fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prokinetics.&lt;/strong&gt; Medications, such as Reglan, can be helpful if your stomach empties slowly. People taking this prescription medication frequently experience side effects, such as fatigue, sleepiness, depression, anxiety and involuntary muscle spasms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If the bacteria that causes peptic ulcer disease (Helicobacter pylori) is causing your indigestion, your doctor may prescribe an antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; If a thorough evaluation doesn&apos;t reveal a cause for your symptoms and the conventional treatments listed above don&apos;t work, your doctor may recommend an antidepressant medication. These prescription medications may improve the discomfort from indigestion by decreasing your sensation of pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Healthy lifestyle choices may help prevent mild indigestion. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller, more frequent meals.&lt;/strong&gt; Chew your food slowly and thoroughly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid triggers.&lt;/strong&gt; Fatty and spicy foods, carbonated beverages, caffeine, alcohol and smoking can trigger indigestion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Excess pounds put pressure on your abdomen, pushing up your stomach and causing acid to back up into your esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; With your doctor&apos;s OK, aim for 30 to 60 minutes of physical activity on most days of the week. It can be as simple as a daily walk, though not just after you eat. Exercise helps you keep off extra weight and promotes better digestion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Create a calm environment at mealtime. Practice relaxation techniques, such as deep breathing, meditation or yoga. Spend time doing things you enjoy. Get plenty of sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reconsider your medications.&lt;/strong&gt; With your doctor&apos;s approval, stop or cut back on pain relieving drugs that may irritate your stomach lining. If that&apos;s not an option, be sure to take these medications with food.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people may find relief from indigestion through the following methods, although more research is needed to determine their effectiveness: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drinking herbal tea with peppermint.&lt;/li&gt;
+	&lt;li&gt;Psychological methods, including relaxation techniques, cognitive therapy and hypnotherapy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may see herbal products that promise relief from indigestion. But remember, these products often haven&apos;t been proven effective and there&apos;s a risk that comes with taking herbs because they&apos;re not regulated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Indigestion
+	</Title>
+	<Abstract>
+		Indigestion &amp;mdash; Comprehensive overview covers causes, symptoms, treatment for this common digestive disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00524" LinkType="Internal" ObjectID="9D6AD1E2-C765-4A27-B96F1C5A5C0B18DC" Title="Nonulcer stomach pain" Url="http://www.mayoclinic.com/health/stomach-pain/DS00524" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00076" LinkType="Internal" ObjectID="A6AD965A-E7FF-0DBD-18A94C87B267EB9A" Title="Abdominal ultrasound" Url="http://www.mayoclinic.com/health/abdominal-ultrasound/MY00076" />
+		<LinkItem ContentType="InteractiveTable" DocID="NU00200" LinkType="Internal" ObjectID="03653D0C-535A-4173-B87C8C3E1C28133B" Title="Healthy diet: End the guesswork with these nutrition guidelines" Url="http://www.mayoclinic.com/health/healthy-diet/NU00200" />
+		<LinkItem ContentType="Article" DocID="HQ01676" LinkType="Internal" ObjectID="FA456B47-2492-4C72-A385E24D70911BD6" Title="Exercise: 7 benefits of regular physical activity" Url="http://www.mayoclinic.com/health/exercise/HQ01676" />
+		<LinkItem ContentType="Article" DocID="HQ01625" LinkType="Internal" ObjectID="CFD9CF34-F700-4F2F-B9572D428BA62671" Title="Weight loss: 6 strategies for success" Url="http://www.mayoclinic.com/health/weight-loss/HQ01625" />
+		<LinkItem ContentType="Article" DocID="SR00001" LinkType="Internal" ObjectID="76F75B48-39C9-42CE-AC10563A6FFB68E8" Title="Stress: Constant stress puts your health at risk" Url="http://www.mayoclinic.com/health/stress/SR00001" />
+		<LinkItem ContentType="Disease" DocID="DS00242" LinkType="Internal" ObjectID="F16A6FF2-4069-4473-B642BD6F4AE669C0" Title="Peptic ulcer" Url="http://www.mayoclinic.com/health/peptic-ulcer/DS00242" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+		<LinkItem ContentType="Disease" DocID="DS00371" LinkType="Internal" ObjectID="DCE55FA1-A252-4CAE-82F298767822DB69" Title="Pancreatitis" Url="http://www.mayoclinic.com/health/pancreatitis/DS00371" />
+		<LinkItem ContentType="Disease" DocID="DS00165" LinkType="Internal" ObjectID="7E7F8A87-F164-441E-BB6E7731D06D9B47" Title="Gallstones" Url="http://www.mayoclinic.com/health/gallstones/DS00165" />
+		<LinkItem ContentType="Disease" DocID="DS00488" LinkType="Internal" ObjectID="342EF017-2230-45E3-9B6C9D069CEFA6DE" Title="Gastritis" Url="http://www.mayoclinic.com/health/gastritis/DS00488" />
+	</RelatedLinksBox>
+</Disease>

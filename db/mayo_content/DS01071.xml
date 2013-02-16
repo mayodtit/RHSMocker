@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01071
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-cysts/DS01071
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2374" Title="Breast">
+						<Keyword MCVID="2383" Title="Cysts and lumps" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EC59DB74-E7FF-0DBD-109DDCCB2731C074
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				breast lump
+			</MetaKeyword>
+			<MetaKeyword>
+				breast lumps
+			</MetaKeyword>
+			<MetaKeyword>
+				breast mass
+			</MetaKeyword>
+			<MetaKeyword>
+				breast pain
+			</MetaKeyword>
+			<MetaKeyword>
+				needle drainage
+			</MetaKeyword>
+			<MetaKeyword>
+				needle aspiration
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast cysts are fluid-filled sacs within your breast, which are usually not cancer (benign). You can have one or many breast cysts. They&apos;re often described as round or oval lumps with distinct edges. In texture, a breast cyst usually feels like a grape or a water-filled balloon, but sometimes a breast cyst feels firm. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast cysts don&apos;t require treatment unless a cyst is large and painful or otherwise uncomfortable. In that case, draining the fluid from a breast cyst can ease your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast cysts are common in women before menopause, between ages 35 and 50, but can be found in women of any age. If you have breast cysts, they usually disappear after menopause, unless you&apos;re taking hormone therapy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal breast vs. fibrocystic breast 
+" Caption="Fibrocystic breast changes lead to the development of fluid-filled round or oval sacs (cysts) and more prominent scar-like (fibrous) tissue, which can make breasts feel tender, lumpy or &quot;ropy.&quot; 
+" Height="60" Title="Fibrocystic breast changes" URI="/images/image_popup/thumbs/mcdc7_fibrocystic_breastthu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal breast vs. fibrocystic breast 
+" Caption="Fibrocystic breast changes lead to the development of fluid-filled round or oval sacs (cysts) and more prominent scar-like (fibrous) tissue, which can make breasts feel tender, lumpy or &quot;ropy.&quot; 
+" Height="289" Title="Fibrocystic breast changes" URI="/images/image_popup/mcdc7_fibrocystic_breast.jpg" Width="400" />
+				<HTML>
+					Fibrocystic breast changes lead to the development of fluid-filled round or oval sacs (cysts) and more prominent scar-like (fibrous) tissue, which can make breasts feel tender, lumpy or &quot;ropy.&amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of breast cysts include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A smooth, easily movable round or oval breast lump with distinct edges (which typically, though not always, indicates it&apos;s benign)&lt;/li&gt;
+	&lt;li&gt;Usually found in one breast, but can affect both breasts at the same time&lt;/li&gt;
+	&lt;li&gt;Breast pain or tenderness in the area of the breast lump&lt;/li&gt;
+	&lt;li&gt;Increase in breast lump size and breast tenderness just before your period&lt;/li&gt;
+	&lt;li&gt;Decrease in breast lump size and resolution of other signs and symptoms after your period&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Having one or many simple breast cysts doesn&apos;t increase your risk of breast cancer. But having cysts may interfere with your ability to detect new breast lumps or other abnormal changes that might need to be evaluated by your doctor. It&apos;s important to become familiar with how your breasts normally feel so that you&apos;ll know when something is new or changing or just doesn&apos;t feel right. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Normal breast tissue in healthy women often feels lumpy or nodular. But if you detect the presence of any new breast lumps that don&apos;t go away after a menstrual period, or if a previously evaluated breast lump seems to have grown or otherwise changed, make an appointment with your doctor to get it checked out right away.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Each of your breasts contains lobes of glandular tissue, arranged like petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts move the milk to your nipple. The supporting tissue that gives the breast its shape is made up of fatty tissue and fibrous connective tissue. Breast cysts develop when an overgrowth of glands and connective tissue (fibrocystic changes) block milk ducts, causing them to widen (dilate) and fill with fluid. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Microcysts&lt;/strong&gt; are too small to feel, but may be seen during imaging tests, such as mammography or ultrasound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Macrocysts&lt;/strong&gt; are large enough to be felt and can grow to about 1 to 2 inches (2.5 to 5 centimeters) in diameter. Large breast cysts can put pressure on nearby breast tissue, causing breast pain or discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The cause of breast cysts remains unknown. Some evidence suggests that excess estrogen in your body, which can stimulate the breast tissue, may play a role in breast cyst development. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For evaluation of a new breast lump or changes on your breast exam, you&apos;ll likely start by seeing your primary care provider. In some cases, based on a clinical breast exam or findings on an imaging test, you may be referred to a breast-health specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+The initial evaluation focuses on your medical history. You&apos;ll discuss your symptoms, their relation to your menstrual cycle and any other relevant information. To prepare for this discussion, make lists that include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;All your symptoms,&lt;/strong&gt; even if they seem unrelated to the reason you scheduled the appointment&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key personal information,&lt;/strong&gt; including major stresses or recent life changes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;All medications,&lt;/strong&gt; vitamins, herbal remedies and supplements that you regularly take&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor,&lt;/strong&gt; from most important to least important in case time runs out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Does having cysts increase my risk of breast cancer?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What treatment is likely to work best?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I&apos;ll need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any printed materials that I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Be prepared to answer questions that your doctor may ask, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the cyst or lump?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a change in the size of the cyst or lump?&lt;/li&gt;
+	&lt;li&gt;What symptoms have you experienced, and how long have you had them?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms occur in one or both breasts?&lt;/li&gt;
+	&lt;li&gt;Have any symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any breast pain? If so, how severe is your pain?&lt;/li&gt;
+	&lt;li&gt;Do you have a nipple discharge? If so, in one or both breasts?&lt;/li&gt;
+	&lt;li&gt;How does your menstrual cycle affect the cyst or lump?&lt;/li&gt;
+	&lt;li&gt;When was your last mammogram?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of breast cysts or lumps?&lt;/li&gt;
+	&lt;li&gt;Have you previously had a breast cyst or lump, or a breast biopsy?&lt;/li&gt;
+	&lt;li&gt;Do you have a personal history of precancerous or cancerous breast lumps?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Screening and diagnosis of a breast cyst usually begins after you or your doctor identify a breast lump. In addition to discussing your symptoms and health history, your doctor will do a breast exam and may do a breast ultrasound or fine-needle aspiration, depending on your needs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Breast exam&lt;/strong&gt;&lt;br /&gt;
+Your doctor will physically examine the breast lump and check for any other problem areas in your breasts. Because your doctor can&apos;t tell from a clinical breast exam alone whether a breast lump is a cyst, you&apos;ll need another test, either an imaging test or fine-needle aspiration. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Breast ultrasound&lt;/strong&gt;&lt;br /&gt;
+Breast ultrasound can help your doctor determine whether a breast lump is fluid-filled or solid. A fluid-filled area usually indicates a breast cyst. A solid-appearing mass most likely is a noncancerous lump, such as a fibroadenoma, but solid lumps also could be breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Based on what the doctor sees on the ultrasound, he or she might recommend a biopsy to further evaluate a solid-appearing mass. If your doctor can easily feel a breast lump, he or she may skip breast ultrasound and perform fine-needle aspiration instead. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fine-needle aspiration&lt;/strong&gt;&lt;br /&gt;
+During a fine-needle aspiration, your doctor inserts a thin needle into the breast lump and attempts to withdraw (aspirate) fluid. Often, fine-needle aspiration is done using ultrasound to guide accurate placement of the needle. If fluid comes out and the breast lump goes away, your doctor can make a breast cyst diagnosis immediately. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If the fluid is not bloody and the breast lump disappears,&lt;/strong&gt; you need no further testing or treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If the fluid appears bloody or the breast lump doesn&apos;t disappear,&lt;/strong&gt; your doctor may send a sample of the fluid for lab testing and refer you to a breast surgeon or to a radiologist &amp;mdash; a doctor trained to perform imaging exams and procedures &amp;mdash; for follow-up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If no fluid is withdrawn&lt;/strong&gt;, your doctor will likely recommend an imaging test, such as mammography or ultrasound, to further evaluate the lump. Lack of fluid or a breast lump that doesn&apos;t disappear after aspiration suggests that the breast lump &amp;mdash; or at least a portion of it &amp;mdash; is solid, and a sample of cells may be collected and sent for analysis to check for cancer (fine-needle aspiration biopsy).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing fine-needle aspiration 
+" Caption="During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your breast on a monitor &amp;mdash; might be used to help place the needle. 
+" Height="60" Title="Fine-needle aspiration" URI="/images/image_popup/thumbs/mcdc7_fine_needle_aspirationthu.jpg" Width="60" />
+				<Image Alt="Image showing fine-needle aspiration 
+" Caption="During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your breast on a monitor &amp;mdash; might be used to help place the needle. 
+" Height="468" Title="Fine-needle aspiration" URI="/images/image_popup/mcdc7_fine_needle_aspiration.jpg" Width="400" />
+				<HTML>
+					During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatment is necessary for fluid-filled (simple) breast cysts. If you haven&apos;t reached menopause, your doctor may recommend closely monitoring a breast cyst to see if it resolves on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fine-needle aspiration&lt;/strong&gt;&lt;br /&gt;
+Fine-needle aspiration, the procedure used to diagnose a breast cyst, also may serve as treatment if your doctor removes all the fluid from the cyst at the time of diagnosis, your breast lump disappears and your symptoms resolve. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a breast cyst, you may need to have fluid drained more than once. Recurrent or new cysts are common. However, if the cyst is persistent through two to three menstrual cycles and increasing in size, you should see your doctor for evaluation with an ultrasound. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone use&lt;/strong&gt;&lt;br /&gt;
+Using birth control pills (oral contraceptives) to regulate your menstrual cycles may help reduce the recurrence of breast cysts. But because of possible serious side effects, birth control pills or other hormone therapy, such as tamoxifen, is usually only recommended in women with severe symptoms. Discontinuing hormone replacement therapy during the postmenopausal years may reduce the formation of cysts as well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Surgical removal of a cyst is necessary only in unusual circumstances. Surgery may be considered if an uncomfortable breast cyst recurs month after month or if a breast cyst contains blood-tinged fluid or shows other worrisome signs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To minimize discomfort associated with breast cysts, you might try these measures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a well-fitted, supportive bra.&lt;/strong&gt; If you have breast pain from a breast cyst, good support to surrounding breast tissue may help relieve some discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid caffeine.&lt;/strong&gt; There&apos;s no scientific proof that caffeine consumption is linked to breast cysts. However, some women find relief from their symptoms after eliminating caffeine from their diets. Consider reducing or eliminating caffeine &amp;mdash; in beverages, as well as in foods such as chocolate &amp;mdash; to see if your symptoms improve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce salt in your diet.&lt;/strong&gt; Although studies on salt restriction and cyst formation aren&apos;t conclusive, some experts suggest that reducing salt in your diet may help. Consuming less sodium reduces the amount of excess fluid retained by your body, which in turn may help relieve symptoms associated with a fluid-filled breast cyst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider trying over-the-counter pain medications if your doctor recommends them.&lt;/strong&gt; Some types of breast pain may be eased by the use of acetaminophen (Tylenol) or nonsteroidal anti-inflammatory drugs, such as ibuprofen (Advil, Motrin IB) or naproxen (Aleve, Naprosyn). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Evening primrose oil is a fatty acid (linoleic acid) supplement that&apos;s available over-the-counter. A few small studies suggest that evening primrose oil may help minimize menstrual cycle breast pain, sometimes associated with breast cysts. But evidence isn&apos;t conclusive, and more research is needed. Although the exact mechanism isn&apos;t clear, some experts believe that women deficient in linoleic acid are more sensitive to hormonal fluctuations during the menstrual cycle, resulting in breast pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Your cyst or lump needs medical evaluation to be sure it&apos;s not cancer, so follow your doctor&apos;s recommendations. Let your doctor know if you&apos;re taking any vitamins, herbal remedies or other dietary supplements.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Breast cysts
+	</Title>
+	<Abstract>
+		Breast cysts &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this typically benign breast condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00715" LinkType="Internal" ObjectID="4179A112-50D4-45E5-8D82102ABFB9CF9E" Title="Fibrocystic breast changes: Linked to breast cancer?" Url="http://www.mayoclinic.com/health/fibrocystic-breast-changes/AN00715" />
+		<LinkItem ContentType="Disease" DocID="DS01070" LinkType="Internal" ObjectID="61F2033E-E7FF-0DBD-181B1C8E588D18BB" Title="Fibrocystic breasts" Url="http://www.mayoclinic.com/health/fibrocystic-breasts/DS01070" />
+		<LinkItem ContentType="Disease" DocID="DS01069" LinkType="Internal" ObjectID="61F1691A-E7FF-0DBD-1B4B62E3604053A0" Title="Fibroadenoma" Url="http://www.mayoclinic.com/health/fibroadenoma/DS01069" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00301" LinkType="Internal" ObjectID="9616D5CF-E7FF-0DBD-143ACBF3A0FE16F9" Title="Breast biopsy" Url="http://www.mayoclinic.com/health/breast-biopsy/MY00301" />
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+		<LinkItem ContentType="Article" DocID="WO00031" LinkType="Internal" ObjectID="32348DF9-B0D5-45B9-82D3247C1178ABA0" Title="Breast lump: Early evaluation is essential" Url="http://www.mayoclinic.com/health/breast-lump/WO00031" />
+		<LinkItem ContentType="Answer" DocID="AN00889" LinkType="Internal" ObjectID="4EFD0D16-EED2-4C61-B830D89A1CD5599E" Title="Breast cysts: What role does caffeine play?" Url="http://www.mayoclinic.com/health/breast-cysts/AN00889" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,70 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00604
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00604
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-16
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="4016" Title="Stress relief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			422042AB-E7FF-0DBD-1BF809673B45CD29
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+			<MetaKeyword>
+				stress management
+			</MetaKeyword>
+			<MetaKeyword>
+				learning to say no
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Say no, to say yes to less stress
+	</Title>
+	<Body>
+		&lt;p&gt;Is your plate piled too high with deadlines and obligations? Are you trying to cram too many activities into too little time? If so, you may find stress relief by learning how to say no to others and yes to yourself. Don&apos;t make up reasons to get out of an obligation. The truth is always the best way to turn down a friend, family member or co-worker. But let them down gently. Compliment the person&apos;s or group&apos;s effort while saying that you&apos;re unable to commit at this time. It&apos;ll soften the blow and keep you in good graces.&lt;/p&gt;
+	</Body>
+</HealthTip>

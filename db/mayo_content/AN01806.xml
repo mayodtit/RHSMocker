@@ -1,0 +1,106 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01806
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shingles-vaccine/AN01806
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2370" Title="Shingles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E642BDDB-E7FF-0DBD-1CFC3EA0A653AB8C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shingles
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles vaccine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+The virus that causes shingles &amp;mdash; varicella-zoster virus &amp;mdash; is also the virus that causes chickenpox. Your doctor&apos;s concern about your daughter and grandchildren may stem from reports of rare cases in which people with no immunity to chickenpox &amp;mdash; meaning they&apos;ve never had chickenpox or the chickenpox vaccine &amp;mdash; have caught varicella-zoster virus from children recently vaccinated with the chickenpox vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+However, there are no documented cases of the varicella-zoster virus being transmitted from adults vaccinated with the shingles vaccine, according to the Centers for Disease Control and Prevention (CDC). Varicella-zoster vaccines are recommended for children to prevent chickenpox and for adults age 50 and older to prevent shingles, but the formulations are different, and the vaccines are not interchangeable. 
+&lt;/p&gt;
+&lt;p&gt;
+According to the CDC, in normal circumstances it&apos;s unnecessary to avoid pregnant women and unvaccinated children after you get the shingles vaccine. However, if you develop a rash after you get the shingles vaccine, always take the precaution of keeping the rash covered until all the bumps crust over. 
+&lt;/p&gt;
+&lt;p&gt;
+To develop shingles, you have to catch chickenpox first, which typically happens in childhood. When you get over chickenpox, the varicella-zoster virus stays in your body, but remains dormant, often for many years and possibly for life. As you age, though, there&apos;s an increasing risk that the virus will reactivate, resulting in shingles. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shingles vaccine: Can I transmit the vaccine virus to others?
+	</Title>
+	<Abstract>
+		The shingles vaccine uses live varicella-zoster (chickenpox) virus, but it won&apos;t make you capable of infecting others.
+	</Abstract>
+	<Question>
+		After getting the shingles vaccine, my doctor said to stay away from my pregnant daughter and my grandchildren. Can you tell me why?
+	</Question>
+	<QuestionFirstName>
+		Diane
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00878" LinkType="Internal" ObjectID="8A3A9C5C-E7FF-0DBD-1636E971D3607AFD" Title="Ramsay Hunt syndrome" Url="http://www.mayoclinic.com/health/ramsay-hunt-syndrome/DS00878" />
+		<LinkItem ContentType="Disease" DocID="DS00277" LinkType="Internal" ObjectID="65A60A8A-0189-4BF0-BECFCC731699401B" Title="Postherpetic neuralgia" Url="http://www.mayoclinic.com/health/postherpetic-neuralgia/DS00277" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Answer" DocID="AN01738" LinkType="Internal" ObjectID="B48D8752-E7FF-0DBD-122DC8DD080D9C86" Title="Shingles vaccine: Should I get it?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01738" />
+		<LinkItem ContentType="Answer" DocID="AN01944" LinkType="Internal" ObjectID="A0758334-E7FF-0DBD-118EB9FDD2AC05AC" Title="Shingles treatment: Does alcohol use affect therapy?" Url="http://www.mayoclinic.com/health/shingles-treatment/AN01944" />
+		<LinkItem ContentType="Disease" DocID="DS00098" LinkType="Internal" ObjectID="0B91C597-DAAE-4416-9ED6314A6B5F5A20" Title="Shingles" Url="http://www.mayoclinic.com/health/shingles/DS00098" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,510 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00591
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/occupational-asthma/DS00591
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="4319" Title="Asthma attack">
+						<Keyword MCVID="1872" Title="Occupational asthma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			529C436E-FEDC-4FC4-93054B9FDD7807E8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				occupational asthma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Occupational asthma is asthma that&apos;s caused or worsened by breathing in a workplace substance, such as chemical fumes, gases or dust. Like other types of asthma, occupational asthma can cause symptoms, such as chest tightness, wheezing and shortness of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+When diagnosed and treated early, occupational asthma may be reversible. Long-term exposure to allergy-causing substances can cause worsening symptoms and lifetime asthma. Treatment for occupational asthma is similar to treatment for other types of asthma, and it generally includes taking medications to reduce symptoms. But the only sure way to eliminate your symptoms and prevent lung damage due to occupational asthma is to avoid whatever&apos;s triggering it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Occupational asthma symptoms are similar to those caused by other types of asthma. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wheezing, sometimes just at night&lt;/li&gt;
+	&lt;li&gt;Coughing&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest tightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other possible accompanying signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Runny nose&lt;/li&gt;
+	&lt;li&gt;Nasal congestion&lt;/li&gt;
+	&lt;li&gt;Eye irritation and tearing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Occupational asthma symptoms vary from person to person and depend on the substance you&apos;re exposed to, how long and how often you&apos;re exposed, your body&apos;s individual reaction, and other factors. Your symptoms may vary and can include symptoms that: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Get worse as the workweek progresses, go away during weekends and vacations, and recur when you return to work.&lt;/li&gt;
+	&lt;li&gt;Occur both at work and away from work.&lt;/li&gt;
+	&lt;li&gt;Start right after exposure to an asthma-inducing substance at work.&lt;/li&gt;
+	&lt;li&gt;Start after months or even years of regular exposure to an asthma-inducing substance.&lt;/li&gt;
+	&lt;li&gt;Continue after exposure is stopped. The longer you&apos;re exposed to the asthma-causing substance, the more likely you&apos;ll have long-lasting or permanent asthma symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek immediate medical treatment if you have worsening symptoms. Severe asthma attacks can be life-threatening. Signs of an asthma attack that needs emergency treatment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid worsening of shortness of breath or wheezing&lt;/li&gt;
+	&lt;li&gt;No improvement even after using short-acting bronchodilators&lt;/li&gt;
+	&lt;li&gt;Shortness of breath with minimal activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make an appointment to see a doctor if you have breathing problems, such as coughing, wheezing or shortness of breath. Breathing problems may be a sign of asthma, especially if symptoms seem to be getting worse over time or appear to be aggravated by specific triggers or irritants. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="60" Title="Asthma attack" URI="/images/image_popup/thumbs/ww5r370t.jpg" Width="60" />
+				<Image Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="475" Title="Asthma attack" URI="/images/image_popup/ww5r370.jpg" Width="400" />
+				<HTML>
+					If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear why some people develop occupational asthma from exposure to something at work. It likely has to do with inherited traits (genetics) and exposure to environmental substances over time. 
+&lt;/p&gt;
+&lt;p&gt;
+Asthma symptoms start when your lungs become irritated (inflamed). Inflammation causes several reactions that restrict the airways, making breathing difficult. After you&apos;re exposed to something that triggers an asthma attack, your airways become constricted: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscles around your airways tighten.&lt;/li&gt;
+	&lt;li&gt;The airways themselves become swollen.&lt;/li&gt;
+	&lt;li&gt;You begin to produce too much mucus, which clogs your airways.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With occupational asthma, lung inflammation may be triggered by one of two processes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An allergic response.&lt;/strong&gt; Asthma can occur when the body develops an allergy from continued exposure to a substance. Your body starts to identify the substance as a threat and activates your immune system to react. This is called sensitization. You don&apos;t have symptoms at first because the sensitization process can take months or even years to occur. Symptoms start when your immune system begins to produce specific antibodies against the irritating substance. This, in turn, triggers the release of chemicals, such as histamine, which inflame the lungs and cause asthma symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritant-induced asthma.&lt;/strong&gt; After breathing in a certain workplace irritant one or more times, you may develop asthma symptoms caused by direct irritation of your lungs rather than an allergic reaction. With a condition called reactive airways dysfunction syndrome (RADS), inhaled chemicals make the bronchial tubes more sensitive to irritants. Some irritants that can cause this type of reaction include chlorine, hydrogen sulfide, anhydrous ammonia and phosphoric acid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More than 300 workplace substances have been identified as possible causes of occupational asthma. These substances include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Animal substances,&lt;/strong&gt; such as proteins found in dander, hair, scales, fur, saliva and body wastes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemicals,&lt;/strong&gt; such as anhydrides, diisocyanates and acids used to make paints, varnishes, adhesives, laminates and soldering resin. Other examples include chemicals used to make insulation, packaging materials, and foam mattresses and upholstery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enzymes&lt;/strong&gt; used in detergents and flour conditioners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metals,&lt;/strong&gt; particularly platinum, chromium and nickel sulfate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plant substances,&lt;/strong&gt; including proteins found in natural rubber latex, flour, cereals, cotton, flax, hemp, rye, wheat and papain, a digestive enzyme derived from papaya.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory irritants,&lt;/strong&gt; such as chlorine gas, sulfur dioxide and smoke.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re at increased risk of developing occupational asthma if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You have existing allergies or asthma.&lt;/strong&gt; Although this can increase your risk, many people who have allergies or asthma do jobs that expose them to lung irritants and never have symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergies or asthma run in your family.&lt;/strong&gt; Your parents may pass down a genetic predisposition to occupational asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You work around known asthma triggers.&lt;/strong&gt; Some substances are known to be lung irritants and asthma triggers. A number of workplace substances are known to cause occupational asthma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;High-risk occupations&lt;/strong&gt;&lt;br /&gt;
+It&apos;s possible to develop occupational asthma in almost any workplace. But your risk is higher if you work in certain occupations. Here are some of the riskiest jobs and the asthma-producing substances associated with them: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Jobs&lt;/th&gt;&lt;th&gt;Asthma-producing substances&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;50%&quot;&gt;Adhesive handlers&lt;/td&gt;
+			&lt;td width=&quot;50%&quot;&gt;Chemicals such as acrylate&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Animal handlers, veterinarians&lt;/td&gt;
+			&lt;td&gt;Animal proteins&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Bakers, millers&lt;/td&gt;
+			&lt;td&gt;Cereal grains&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Carpet makers&lt;/td&gt;
+			&lt;td&gt;Gums&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Metal workers&lt;/td&gt;
+			&lt;td&gt;Cobalt, nickel&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Forest workers, carpenters, cabinetmakers&lt;/td&gt;
+			&lt;td&gt;Wood dust&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Hairdressers&lt;/td&gt;
+			&lt;td&gt;Chemicals such as persulfate&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Health care workers&lt;/td&gt;
+			&lt;td&gt;Latex and chemicals such as glutaraldehyde&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Pharmaceutical workers&lt;/td&gt;
+			&lt;td&gt;Drugs, enzymes&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Seafood processors&lt;/td&gt;
+			&lt;td&gt;Seafood&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Shellac handlers&lt;/td&gt;
+			&lt;td&gt;Chemicals such as amines&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Spray painters, insulation installers, plastics and foam industry workers&lt;/td&gt;
+			&lt;td&gt;Chemicals such as diisocyanates&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Textile workers&lt;/td&gt;
+			&lt;td&gt;Dyes&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;Users of plastics, epoxy resins&lt;/td&gt;
+			&lt;td&gt;Chemicals such as anhydrides&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The longer you&apos;re exposed to a substance that causes occupational asthma, the worse your symptoms will become &amp;mdash; and the longer it will take for them to improve once you end your exposure to the irritant. In some cases, exposure to airborne asthma triggers can cause permanent lung changes and lifetime asthma symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. Or, you may start by seeing a doctor who specializes in asthma (allergist/immunologist or pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance. You may need to stop taking antihistamines if you&apos;re likely to have an allergy skin test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note the timing of your asthma symptoms&lt;/strong&gt; &amp;mdash; for example, note if your symptoms are worse at work and get better when you&apos;re away from work.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a sketch of your work area,&lt;/strong&gt; which includes any sources of possible asthma triggers, toxic substances or known lung irritants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all possible workplace lung irritants&lt;/strong&gt; and anything else that seems to trigger your symptoms. You may want to take a look at the material safety data sheet (MSDS) for your work area, if there is one. Usually kept in a binder near your work area, this sheet lists toxic substances and irritants used on your job site. (Keep in mind, not all occupational asthma triggers are listed in the MSDS).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes and any changes in your job or workplace.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For occupational asthma some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is a workplace irritant a likely cause of my breathing problems or asthma flare-ups?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;How do I treat occupational asthma? Do I have to quit my job?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have breathing problems when you&apos;re away from work or only when you&apos;re on the job?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or do they come and go?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with allergies or asthma?&lt;/li&gt;
+	&lt;li&gt;Are you exposed to fumes, gases, smoke, irritants, chemicals, or plant or animal substances at work? If so, how often and for how long?&lt;/li&gt;
+	&lt;li&gt;Do you work in unusual environmental conditions such as extreme heat, cold or dryness?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do allergies and asthma run in your family?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing occupational asthma is similar to diagnosing other types of asthma. But with occupational asthma, your doctor will also try to identify whether a workplace irritant is causing your symptoms, and if so, what it may be. Your doctor will ask you a number of questions about your symptoms, your job and how they may be related. You&apos;ll need to provide a detailed description of working conditions at your present and previous jobs, and any possible asthma triggers you may have been exposed to. 
+&lt;/p&gt;
+&lt;p&gt;
+An asthma diagnosis needs to be confirmed by tests that may include a lung (pulmonary) function test and an allergy skin prick test. Your doctor will want to make sure your symptoms aren&apos;t caused by another condition, such bronchitis. He or she may order blood tests, X-rays or other tests to rule out a cause other than occupational asthma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Testing your lung function&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask you to perform lung function tests. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spirometry.&lt;/strong&gt; This noninvasive test, which measures how well you breathe, is the preferred test for diagnosing asthma. During this 10- to 15-minute test, you take deep breaths and forcefully exhale into a hose connected to a machine called a spirometer. If certain key measurements are below normal for a person your age and sex, your airways may be blocked by inflammation (obstructed). This is a key sign of asthma. Your doctor may ask you to inhale a bronchodilator drug used in asthma treatment to open obstructed air passages. Then you retake the spirometry test. If your measurements improve significantly, it&apos;s likely that you have asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peak flow measurement.&lt;/strong&gt; To determine if you have occupational asthma, your doctor may ask you to carry a peak flow meter, a small, hand-held device that measures how fast you can force air out of your lungs. The slower you are able to exhale, the worse your condition. You&apos;ll likely be asked to use your peak flow meter at selected intervals during working and nonworking hours. If your breathing improves significantly when you&apos;re away from work, you may have occupational asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nitric oxide test.&lt;/strong&gt; This test is used to see how much nitric oxide gas is in your breath. High levels of nitric oxide can be a sign of asthma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for specific lung irritants&lt;/strong&gt;&lt;br /&gt;
+In an effort to identify what&apos;s causing your symptoms, your doctor may do tests to see whether you have a reaction to specific substances. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy skin tests.&lt;/strong&gt; During a skin test, your skin is pricked with purified allergy extracts and observed for signs of an allergic reaction. These tests can&apos;t be used to diagnose chemical sensitivities, but may be useful to evaluate sensitivity to animal dander, mold, dust mites and latex.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Challenge test.&lt;/strong&gt; During a challenge test, you inhale an aerosol containing a small amount of a suspected chemical to see if it triggers a reaction. Your lung function is tested before and after the aerosol is given to see whether it affects your ability to breathe.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
+				<Image Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
+				<HTML>
+					A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Avoiding the workplace irritant that causes your symptoms is critical. But that&apos;s easier said than done. Once you become sensitive to a substance, even tiny amounts of it may trigger asthma symptoms. As long as the substance is used in your workplace, it may still cause asthma symptoms even if you wear a mask or respirator. You may need medications to keep your symptoms under control and to prevent asthma attacks. 
+&lt;/p&gt;
+&lt;p&gt;
+Treating asthma involves both preventing symptoms and treating an asthma attack in progress. Preventive, long-term control medications reduce the inflammation in your airways that leads to symptoms. Quick-relief (rescue) medications quickly open swollen airways that are limiting breathing. In some cases, medications to treat allergies are needed. 
+&lt;/p&gt;
+&lt;p&gt;
+The right medication for you depends on a number of things, including your age, symptoms, asthma triggers and what seems to work best to keep your asthma under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term control medications&lt;/strong&gt;&lt;br /&gt;
+In most cases, these medications need to be taken every day. Types of long-term control medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inhaled corticosteroids.&lt;/strong&gt; These medications include fluticasone (Flovent Diskus, Flovent HFA), budesonide (Pulmicort Flexhaler), mometasone (Asmanex), ciclesonide (Alvesco), beclomethasone (Qvar) and others. They are the most commonly prescribed type of long-term asthma medication. You may need to use these medications for several days to weeks before they reach their maximum benefit. Unlike oral corticosteroids, these corticosteroid medications have a relatively low risk of side effects and are generally safe for long-term use. A fungal infection in your mouth or throat is the most common side effect from these medications. But, you can usually prevent that by rinsing your mouth after inhaling these drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leukotriene modifiers.&lt;/strong&gt; These oral medications include montelukast (Singulair), zafirlukast (Accolate) and zileuton (Zyflo CR). They help prevent asthma symptoms for up to 24 hours. In rare cases, montelukast has been linked to psychological reactions such as agitation, aggression, hallucinations, depression and suicidal thinking. Seek medical advice right away for any unusual reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Theophylline.&lt;/strong&gt; This is a daily pill that helps keep the airways open (bronchodilator). Theophylline (Theo-24, Elixophyllin, others) relaxes the muscles around the airways to make breathing easier. It&apos;s not used as often now as in past years because more-effective medications are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-acting beta agonists (LABAs).&lt;/strong&gt; These inhaled medications include salmeterol (Serevent Diskus) and formoterol (Foradil). LABAs open the airways and reduce inflammation. However, they&apos;ve been linked to severe asthma attacks. LABAs should only be taken only in combination with an inhaled corticosteroid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination inhalers&lt;/strong&gt; such as fluticasone and salmeterol (Advair Diskus, Advair HFA) and budesonide and formoterol (Symbicort) and mometasone and formoterol (Dulera). These medications contain a LABA along with a corticosteroid. Like other LABA medications, these medications may increase your risk of a severe asthma attack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Quick-relief medications&lt;/strong&gt;&lt;br /&gt;
+Also called rescue medications, quick-relief medications are used as needed for rapid, short-term symptom relief during an asthma attack &amp;mdash; or before exercise if your doctor recommends it. Types of quick-relief medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Short-acting beta agonists.&lt;/strong&gt; These inhaled bronchodilator (brong-koh-DIE-lay-tur) medications can rapidly ease symptoms during an asthma attack. They include albuterol (ProAir HFA, Ventolin HFA, others), levalbuterol (Xopenex HFA) and pirbuterol (Maxair Autohaler). These medications act within minutes, and effects last several hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ipratropium (Atrovent).&lt;/strong&gt; Your doctor might prescribe this inhaled mediation for the immediate relief of your symptoms. Like other bronchodilators, ipratropium relaxes the airways, making it easier to breathe. Ipratropium is mostly used for emphysema and chronic bronchitis, but it&apos;s sometimes used to treat asthma attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral and intravenous corticosteroids.&lt;/strong&gt; These medications relieve airway inflammation caused by severe asthma. Examples include prednisone and methylprednisolone (Medrol). They can cause serious side effects, such as high blood pressure, weight gain and an increased risk of infection, when used long term, so they&apos;re only used to treat severe asthma symptoms on a short-term basis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for allergy-induced asthma&lt;/strong&gt;&lt;br /&gt;
+If your asthma is triggered or worsened by allergies, you may benefit from allergy treatment as well. Allergy treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy medications.&lt;/strong&gt; These include oral and nasal spray antihistamines and decongestants as well as corticosteroid, cromolyn (NasalCrom) and ipratropium (Atrovent) nasal sprays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy shots (immunotherapy).&lt;/strong&gt; Immunotherapy injections are generally given once a week for a few months, then once a month for a period of three to five years. Over time, they gradually reduce your immune system reaction to specific allergens.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omalizumab (Xolair).&lt;/strong&gt; This medication, which is given by injection, is specifically for people who have difficult to control allergies and asthma. It reduces the immune system&apos;s reaction to allergy-causing substances, such as pollen, dust mites or pet dander.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t rely only on quick-relief medications&lt;/strong&gt;&lt;br /&gt;
+Long-term asthma control medications &amp;mdash; such as inhaled corticosteroids &amp;mdash; are the cornerstone of asthma treatment. These medications keep asthma under control on a day-to-day basis and make it less likely you&apos;ll have an asthma attack. 
+&lt;/p&gt;
+&lt;p&gt;
+If you do have an asthma flare-up, a quick-relief inhaler can ease your symptoms right away. But if your long-term control medications are working properly, you shouldn&apos;t need to use your quick-relief inhaler very often. Keep a record of how many puffs you use each week. If you need to use your quick-relief inhaler more often than your doctor recommends, see your doctor. You probably need to adjust your long-term control medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While many people claim alternative remedies reduce asthma symptoms, in most cases more research is needed to see if they work and if they have possible side effects, especially in people with allergies and asthma. A number of other alternative treatments have been tried for asthma, but there&apos;s no clear, proven benefit from treatments such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing techniques.&lt;/strong&gt; These include structured breathing programs such as the Buteyko method, the Papworth method, lung-muscle training and yoga breathing exercises (pranayama).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This technique has roots in traditional Chinese medicine. It involves placing very thin needles at strategic points on your body. Acupuncture is safe and generally painless, but evidence for its use in asthma is inconclusive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques.&lt;/strong&gt; Techniques such as meditation, biofeedback, hypnosis and progressive muscle relaxation may help with asthma by reducing tension and stress, though there&apos;s no clear evidence that it improves asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies and dietary supplements.&lt;/strong&gt; A number of herbal remedies and dietary supplements have been tried for asthma, including: bitter orange, omega-3 fatty acids (found in fish oil and flaxseed) and vitamin C. Study results have been mixed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Traditional Chinese medicine.&lt;/strong&gt; Traditional Chinese medicine often combines herbs to treat specific disorders. More research is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Homeopathy.&lt;/strong&gt; Homeopathy aims to stimulate the body&apos;s self-healing response using very small doses of substances that cause symptoms. In the case of asthma, homeopathic remedies are made from substances that generally trigger an asthmatic reaction, such as pollen or weeds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chiropractic.&lt;/strong&gt; Practitioners claim that spinal manipulation that aligns the vertebrae in the spin can improve asthma symptoms. Studies haven&apos;t found chiropractic to be an effect asthma treatment, however.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor before taking any herbs or supplements or trying homeopathy &amp;mdash; some of these treatments may cause potentially dangerous side effects and may interact with other medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Occupational asthma can affect both your health and your career. If you&apos;re feeling overwhelmed, consider seeing a personal or career counselor or joining an asthma support group. Sharing your experiences with others may help you better understand your condition and take control of your treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you may rely on medications to relieve symptoms and control inflammation associated with occupational asthma, you can do several things on your own to maintain overall health and lessen the possibility of attacks: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you smoke, quit.&lt;/strong&gt; In addition to all its other health benefits, being smoke-free may help prevent or lesson symptoms of occupational asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritating gases.&lt;/strong&gt; Occupational asthma may be worsened by exposure to industrial pollution, automobile emissions, natural gas stoves, and chlorine used in swimming pools.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Regular exercise can strengthen your heart and lungs so that they don&apos;t have to work so hard. If you&apos;ve been inactive, start slowly and gradually increase your activity over time. Avoid exercising outdoors during pollution alerts or when the temperature is below zero. Discuss any exercise program with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minimize household allergens.&lt;/strong&gt; Common household substances, such as mold, pollen, dust mites and pet dander, can aggravate symptoms of occupational asthma. Air conditioners, dehumidifiers and thorough cleaning practices, especially in your bedroom, can minimize your exposure to these substances and help you breathe easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a job in a high-risk profession, in the United States your company has legal responsibilities to help protect you from hazardous chemicals. Under guidelines established by the Occupational Safety and Health Administration (OSHA), your employer is required to do the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inform you&lt;/strong&gt; if you&apos;ll be working with any hazardous chemicals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Train you how to safely handle&lt;/strong&gt; these chemicals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Train you how to respond&lt;/strong&gt; to an emergency, such as a chemical spill.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide protective gear,&lt;/strong&gt; such as masks and respirators.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Offer additional training&lt;/strong&gt; if a new chemical is introduced to your workplace.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Under OSHA guidelines, your employer is required to keep a material safety data sheet (MSDS) for each hazardous chemical that&apos;s used in your workplace. This is a document that must be submitted by the chemical&apos;s manufacturer to your employer. You have a legal right to see and copy such documents. If you suspect you&apos;re allergic to a certain substance, show the material safety data sheet to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+While at work, be alert for unsafe and unhealthy working conditions and report them to your supervisor. If necessary, call OSHA at 800-321-OSHA (800-321-6742) and ask for an on-site inspection. You can do this so that your name won&apos;t be revealed to your employer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Occupational asthma
+	</Title>
+	<Abstract>
+		Occupational asthma &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this lung disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00001" LinkType="Internal" ObjectID="E27C2AE8-3D69-4BB9-A282F7B9B3A1CDCD" Title="Video: An asthma attack" Url="http://www.mayoclinic.com/health/asthma/MM00001" />
+		<LinkItem ContentType="Answer" DocID="AN01065" LinkType="Internal" ObjectID="03D89E58-E09D-40DE-9E738FAA7BA17B0F" Title="Albuterol side effects: What&apos;s normal?" Url="http://www.mayoclinic.com/health/albuterol-side-effects/AN01065" />
+		<LinkItem ContentType="Article" DocID="AS00024" LinkType="Internal" ObjectID="0683DC75-2A5D-9994-E2AC997ACA8FF1D7" Title="Asthma: Limit asthma attacks caused by colds or flu" Url="http://www.mayoclinic.com/health/asthma/AS00024" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01116" LinkType="Internal" ObjectID="99522BB0-EE31-5EFB-3A28FB65E94DFB17" Title="Peak flow meter" Url="http://www.mayoclinic.com/health/peak-flow-meter/MY01116" />
+		<LinkItem ContentType="Answer" DocID="AN02105" LinkType="Internal" ObjectID="45FE4809-9A56-BAD2-2EC847EFB5C6F1B3" Title="LABAs for asthma &amp;mdash; Should I stop taking them?" Url="http://www.mayoclinic.com/health/laba-asthma/AN02105" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00179" LinkType="Internal" ObjectID="31CBA70A-E7FF-0DBD-141C42856C499305" Title="Nitric oxide test for asthma" Url="http://www.mayoclinic.com/health/nitric-oxide-test/MY00179" />
+		<LinkItem ContentType="Disease" DocID="DS01068" LinkType="Internal" ObjectID="18D5EF86-E7FF-0DBD-16B27CEA551E5776" Title="Asthma attack" Url="http://www.mayoclinic.com/health/asthma-attack/DS01068" />
+		<LinkItem ContentType="Disease" DocID="DS00621" LinkType="Internal" ObjectID="44D95EBA-2A5D-9994-E4EF9F1BF36A95B1" Title="Latex allergy" Url="http://www.mayoclinic.com/health/latex-allergy/DS00621" />
+	</RelatedLinksBox>
+</Disease>

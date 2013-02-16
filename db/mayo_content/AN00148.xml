@@ -1,0 +1,116 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00148
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-cysts/AN00148
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-30
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D60E4526-FF0F-4B58-8A2D80962D176998
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				cysts on liver
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatic cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				hydatid cyst
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Simple liver cysts &amp;mdash; fluid-filled cavities in the liver &amp;mdash; usually cause no signs or symptoms and need no treatment. However, they may enlarge enough to cause pain or discomfort in the upper right part of the abdomen. 
+&lt;/p&gt;
+&lt;p&gt;
+Most liver cysts can be detected on ultrasound or computerized tomography (CT) scans. When needed, treatment may include drainage or removal of the cyst. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of simple liver cysts isn&apos;t known, but they may be present at birth (congenital). Rarely, liver cysts may indicate a serious, underlying condition such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Polycystic liver disease, an inherited disorder&lt;/li&gt;
+	&lt;li&gt;Echinococcus infection, a parasitic infection&lt;/li&gt;
+	&lt;li&gt;Liver cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Liver cysts: A cause of abdominal pain?
+	</Title>
+	<Abstract>
+		Occasionally, liver cysts can cause pain and discomfort in the upper abdomen.
+	</Abstract>
+	<Question>
+		Can liver cysts cause abdominal pain?
+	</Question>
+	<QuestionFirstName>
+		Lola
+	</QuestionFirstName>
+	<QuestionState>
+		Idaho
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00961" LinkType="Internal" ObjectID="EFEA613D-E7FF-0DBD-137A6EA9AB492248" Title="Acute liver failure" Url="http://www.mayoclinic.com/health/liver-failure/DS00961" />
+		<LinkItem ContentType="Disease" DocID="DS00743" LinkType="Internal" ObjectID="A573D0D5-2A5D-9994-E64633398C62CD9C" Title="Gilbert&apos;s syndrome" Url="http://www.mayoclinic.com/health/gilberts-syndrome/DS00743" />
+		<LinkItem ContentType="Disease" DocID="DS00455" LinkType="Internal" ObjectID="992CA155-2D99-4C3E-BDBF4F4470FE5B8F" Title="Hemochromatosis" Url="http://www.mayoclinic.com/health/hemochromatosis/DS00455" />
+		<LinkItem ContentType="Disease" DocID="DS01125" LinkType="Internal" ObjectID="8D8F4802-E7FF-0DBD-1E2D1859EFC7A7DC" Title="Liver hemangioma" Url="http://www.mayoclinic.com/health/liver-hemangioma/DS01125" />
+		<LinkItem ContentType="Disease" DocID="DS00638" LinkType="Internal" ObjectID="8AC73C2D-2A5D-9994-EFAC339FB6AB515E" Title="Enlarged liver" Url="http://www.mayoclinic.com/health/enlarged-liver/DS00638" />
+		<LinkItem ContentType="Disease" DocID="DS00577" LinkType="Internal" ObjectID="8903EB68-8F95-4135-87D24C6EFF964A6E" Title="Nonalcoholic fatty liver disease" Url="http://www.mayoclinic.com/health/nonalcoholic-fatty-liver-disease/DS00577" />
+		<LinkItem ContentType="Disease" DocID="DS00918" LinkType="Internal" ObjectID="87E122FE-E7FF-0DBD-115C3E28106DCB54" Title="Primary sclerosing cholangitis" Url="http://www.mayoclinic.com/health/primary-sclerosing-cholangitis/DS00918" />
+		<LinkItem ContentType="Disease" DocID="DS00373" LinkType="Internal" ObjectID="810D975F-9E56-4C4C-820C7E031BC945C6" Title="Cirrhosis" Url="http://www.mayoclinic.com/health/cirrhosis/DS00373" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+	</RelatedLinksBox>
+</Answer>

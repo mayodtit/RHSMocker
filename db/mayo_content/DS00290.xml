@@ -1,0 +1,596 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00290
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-arrhythmias/DS00290
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-11
+		</UpdateDate>
+		<PublicationDate>
+			2001-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			21BBE2B0-128D-4AA2-A5CE215065586678
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				heart arrhythmias
+			</MetaKeyword>
+			<MetaKeyword>
+				dysrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				palpitations
+			</MetaKeyword>
+			<MetaKeyword>
+				tachycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				bradycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricular
+			</MetaKeyword>
+			<MetaKeyword>
+				Wolff-Parkinson-White
+			</MetaKeyword>
+			<MetaKeyword>
+				long QT syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				pacemaker
+			</MetaKeyword>
+			<MetaKeyword>
+				defibrillator
+			</MetaKeyword>
+			<MetaKeyword>
+				Coreg
+			</MetaKeyword>
+			<MetaKeyword>
+				pvc
+			</MetaKeyword>
+			<MetaKeyword>
+				arythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				heart palpatations
+			</MetaKeyword>
+			<MetaKeyword>
+				tachacardia
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus bradycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				wolf parkinson white syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				arithmia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart rhythm problems (heart arrhythmias) occur when the electrical impulses in your heart that coordinate your heartbeats don&apos;t work properly, causing your heart to beat too fast, too slow or irregularly. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart arrhythmias (uh-RITH-me-uhs) are often harmless. Most people have occasional, irregular heartbeats that may feel like a fluttering or racing heart. However, some heart arrhythmias may cause bothersome &amp;mdash; sometimes even life-threatening &amp;mdash; signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart arrhythmia treatment can often control or eliminate irregular heartbeats. In addition, because troublesome heart arrhythmias are often made worse &amp;mdash; or are even caused &amp;mdash; by a weak or damaged heart, you may be able to reduce your arrhythmia risk by adopting a heart-healthy lifestyle. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Arrhythmias may not cause any signs or symptoms. In fact, your doctor might find you have an arrhythmia before you do, during a routine examination. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people do have noticeable arrhythmia symptoms, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A fluttering in your chest&lt;/li&gt;
+	&lt;li&gt;A racing heartbeat (tachycardia)&lt;/li&gt;
+	&lt;li&gt;A slow heartbeat (bradycardia)&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope) or near fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Noticeable signs and symptoms don&apos;t always indicate a serious problem. Some people who feel arrhythmias don&apos;t have a serious problem, while others who have life-threatening arrhythmias have no symptoms at all.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Arrhythmias may cause you to feel premature heartbeats, or you may feel that your heart is racing or beating too slowly. Other signs and symptoms may be related to reduced blood output from your heart. These include shortness of breath or wheezing, weakness, dizziness, lightheadedness, fainting or near fainting, and chest pain or discomfort. Seek urgent medical care if you suddenly or frequently experience any of these signs and symptoms at a time when you wouldn&apos;t expect to feel them. 
+&lt;/p&gt;
+&lt;p&gt;
+Ventricular fibrillation (VF) is one type of arrhythmia that is deadly. It occurs when the heart beats with rapid, erratic electrical impulses. This causes pumping chambers in your heart (the ventricles) to quiver uselessly, instead of pumping blood. Without an effective heartbeat, blood pressure plummets, cutting off blood supply to your vital organs. A person with ventricular fibrillation will collapse within seconds and soon won&apos;t be breathing or have a pulse. If this occurs, follow these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call 911 or the emergency number in your area.&lt;/li&gt;
+	&lt;li&gt;If you or someone nearby knows cardiopulmonary resuscitation (CPR), begin providing it if it&apos;s needed. CPR can help maintain blood flow to the organs until an electrical shock (defibrillation) can be given.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Portable defibrillators, which can deliver an electric shock that may restart heartbeats, are available in an increasing number of places, such as in airplanes, police cars and shopping malls. They can even be purchased for your home. Portable defibrillators come with built-in instructions for their use. They&apos;re programmed to allow a shock only when appropriate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many things can lead to, or cause, an arrhythmia, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scarring of heart tissue (such as from a heart attack)&lt;/li&gt;
+	&lt;li&gt;Changes to your heart&apos;s structure, such as from cardiomyopathy&lt;/li&gt;
+	&lt;li&gt;Blocked arteries in your heart (coronary artery disease)&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Overactive thyroid gland (hyperthyroidism)&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Drinking too much alcohol or caffeine&lt;/li&gt;
+	&lt;li&gt;Drug abuse&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Medications&lt;/li&gt;
+	&lt;li&gt;Dietary supplements and herbal treatments&lt;/li&gt;
+	&lt;li&gt;Electrical shock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What&apos;s a normal heartbeat?&lt;/strong&gt;&lt;br /&gt;
+When your heart beats, the electrical impulses that cause it to contract follow a precise pathway through your heart. Any interruption in these impulses can cause an arrhythmia. 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart is divided into four hollow chambers. The chambers on each half of your heart form two adjoining pumps, with an upper chamber (atrium) and a lower chamber (ventricle). 
+&lt;/p&gt;
+&lt;p&gt;
+During a heartbeat, the atria contract and fill the relaxed ventricles with blood. This contraction starts when the sinus node &amp;mdash; a small group of cells in your right atrium &amp;mdash; sends an electrical impulse causing your right and left atria to contract. 
+&lt;/p&gt;
+&lt;p&gt;
+The impulse then travels to the center of your heart, to the atrioventricular node that lies on the pathway between your atria and your ventricles. From here, the impulse exits the atrioventricular node and travels through your ventricles, causing them to contract and pump blood throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+In a healthy heart, this process usually goes smoothly, resulting in a normal resting heart rate of 60 to 100 beats a minute. Athletes at rest commonly have a heart rate less than 60 beats a minute because their hearts are so efficient. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of arrhythmias&lt;/strong&gt;&lt;br /&gt;
+Doctors classify arrhythmias not only by where they originate (atria or ventricles) but also by the speed of heart rate they cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tachycardia (tak-ih-KAHR-de-uh).&lt;/strong&gt; This refers to a fast heartbeat &amp;mdash; a resting heart rate greater than 100 beats a minute.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bradycardia (brad-e-KAHR-de-uh).&lt;/strong&gt; This refers to a slow heartbeat &amp;mdash; a resting heart rate less than 60 beats a minute.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Not all tachycardias or bradycardias mean you have heart disease. For example, during exercise it&apos;s normal to develop tachycardia as the heart speeds up to provide your tissues with more oxygen-rich blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tachycardias in the atria&lt;/strong&gt; &lt;br /&gt;
+Tachycardias originating in the atria include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial fibrillation.&lt;/strong&gt; This fast and chaotic beating of the atrial chambers is a common arrhythmia. It mainly affects older people. Your risk of developing atrial fibrillation increases past age 60, mostly due to wear and tear on your heart, especially if you&apos;ve had high blood pressure or other heart problems. During atrial fibrillation, the electrical signal that causes your heart to beat becomes uncoordinated. The atria beat so rapidly &amp;mdash; as fast as 350 to 600 beats a minute &amp;mdash; that instead of producing a single, forceful contraction, they quiver (fibrillate). One type of atrial fibrillation &amp;mdash; paroxysmal fibrillation &amp;mdash; can last a few minutes to an hour or more before returning to a regular heart rhythm. It can also be an ongoing problem. Atrial fibrillation can be dangerous, for over time it can cause more-serious conditions, such as stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial flutter.&lt;/strong&gt; Atrial flutter is similar to atrial fibrillation. Both can occur, coming and going in an alternating fashion. The heartbeats in atrial flutter are more-organized and more-rhythmic electrical impulses than in atrial fibrillation. Atrial flutter can be life-threatening.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Supraventricular tachycardia (SVT).&lt;/strong&gt; SVT is a broad term that includes many forms of arrhythmia originating above the ventricles (supraventricular). SVTs usually cause a burst of rapid heartbeats that begins and ends suddenly and can last from seconds to hours. These bursts often start when the electrical impulse from a heartbeat begins to circle repeatedly through an extra pathway. SVT may cause your heart to beat 160 to 200 times a minute.
+	&lt;/p&gt;
+	&lt;p&gt;
+	SVT is often caused by an underlying heart condition. Although SVT is generally not life-threatening in an otherwise normal heart, symptoms from the racing heart may feel quite uncomfortable. These arrhythmias are common in young people. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wolff-Parkinson-White syndrome.&lt;/strong&gt; One cause of SVT is known as Wolff-Parkinson-White syndrome. This arrhythmia is caused by an extra electrical pathway between the atria and the ventricles. This pathway may allow electrical current to pass between the atria and the ventricles without passing through the atrioventricular node, leading to short circuits and rapid heartbeats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tachycardias in the ventricles&lt;/strong&gt; &lt;br /&gt;
+Tachycardias occurring in the ventricles include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ventricular tachycardia (VT).&lt;/strong&gt; This fast, regular beating of the heart is caused by abnormal electrical impulses that start in the ventricles. Often these are due to a problem with the electrical impulse traveling around a scar from a previous heart attack. VT can cause the ventricles to contract more than 200 beats a minute.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Most VT occurs in people with some form of heart-related problem, such as scars or damage within the ventricle muscle from coronary artery disease or a heart attack. Sometimes VT can last for 30 seconds or less (unsustained), and it might not cause any symptoms, although it causes inefficient heartbeats. Still, an unsustained VT may put you at risk of more-serious ventricular arrhythmias, such as longer lasting (sustained) VT. An episode of sustained VT is a medical emergency. Without prompt medical treatment, sustained ventricular tachycardia often worsens into ventricular fibrillation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular fibrillation.&lt;/strong&gt; In ventricular fibrillation, rapid, chaotic electrical impulses cause your ventricles to quiver uselessly instead of pumping blood. Without an effective heartbeat, your blood pressure plummets, instantly cutting off blood supply to your vital organs &amp;mdash; including your brain. Most people lose consciousness within seconds and require immediate medical assistance, including cardiopulmonary resuscitation (CPR). Your chances of survival may be better if CPR is delivered until your heart can be shocked back into a normal rhythm with a device called a defibrillator. Without CPR or defibrillation, death results in minutes. Most cases of ventricular fibrillation are linked to some form of heart disease. Ventricular fibrillation is frequently triggered by a heart attack.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Long QT syndrome.&lt;/strong&gt; Long QT syndrome (LQTS) is a heart rhythm disorder that carries an increased risk of fast, chaotic heartbeats. The rapid heartbeats, caused by changes in the part of your heart that causes it to beat, may lead to fainting, which can be life-threatening. In some cases, your heart&apos;s rhythm may be so erratic that it can cause sudden death.
+	&lt;/p&gt;
+	&lt;p&gt;
+	You can be born with a genetic mutation that puts you at risk of long QT syndrome. In addition, more than 50 medications, many of them common, may cause long QT syndrome. Some medical conditions, such as congenital heart defects, also may cause long QT syndrome. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bradycardia &amp;mdash; a slow heartbeat&lt;/strong&gt;&lt;br /&gt;
+Although a heart rate below 60 beats a minute while at rest is considered bradycardia, a low resting heart rate doesn&apos;t always signal a problem. If you&apos;re physically fit, you may have an efficient heart capable of pumping an adequate supply of blood with fewer than 60 beats a minute at rest. However, if you have a slow heart rate and your heart isn&apos;t pumping enough blood, you may have one of several bradycardias, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sick sinus.&lt;/strong&gt; If your sinus node, which is responsible for setting the pace of your heart, isn&apos;t sending impulses properly, your heart rate may be too slow, or it may speed up and slow down intermittently. Sick sinus can also be caused by scarring near the sinus node that&apos;s slowing, disrupting or blocking the travel of impulses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conduction block.&lt;/strong&gt; A block of your heart&apos;s electrical pathways can occur in or near the atrioventricular node, which lies on the pathway between your atria and your ventricles. A block can also occur along other pathways to each ventricle. Depending on the location and type of block, the impulses between the upper and lower halves of your heart may be slowed or blocked. If the signal is completely blocked, certain cells in the AV node or ventricles can make a steady, although usually slower, heartbeat. Some blocks may cause no signs or symptoms, and others may cause skipped beats or bradycardia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Premature heartbeats&lt;/strong&gt; &lt;br /&gt;
+Although it often feels like a skipped heartbeat, a premature heartbeat is actually an extra beat. Premature heartbeats occurring in the ventricles come before the ventricles have had time to fill with blood after a regular heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+Although you may feel an occasional premature beat, it seldom means you have a more serious problem. Still, a premature beat can trigger a longer lasting arrhythmia &amp;mdash; especially in people with heart disease. Premature heartbeats are commonly caused by stimulants, such as caffeine from coffee, tea and soft drinks; over-the-counter cold remedies containing pseudoephedrine; and some asthma medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing atrial fibrillation 
+" Caption="Electrical signals fire from multiple locations in the atria, causing abnormal quivering of the atria (1). The atrioventricular node &amp;mdash; your heart&apos;s natural pacemaker &amp;mdash; is unable to prevent all of these chaotic signals from entering the ventricles (2). Your ventricles respond to these extra, chaotic signals by beating faster than normal (3). 
+" Height="60" Title="Atrial fibrillation" URI="/images/image_popup/thumbs/hb7_afibthu.jpg" Width="60" />
+				<Image Alt="Illustration showing atrial fibrillation 
+" Caption="Electrical signals fire from multiple locations in the atria, causing abnormal quivering of the atria (1). The atrioventricular node &amp;mdash; your heart&apos;s natural pacemaker &amp;mdash; is unable to prevent all of these chaotic signals from entering the ventricles (2). Your ventricles respond to these extra, chaotic signals by beating faster than normal (3). 
+" Height="295" Title="Atrial fibrillation" URI="/images/image_popup/hb7_afib.jpg" Width="400" />
+				<HTML>
+					Electrical signals fire from multiple locations in the atria, causing abnormal quivering of the atria (1). The atrioventricular node &amp;mdash; your heart&apos;s natural pacemaker &amp;mdash; is unable to ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing atrial flutter
+" Caption="Atrial flutter is similar to atrial fibrillation but characterized by more-organized and more-rhythmic electrical impulses. 
+" Height="60" Title="Atrial flutter" URI="/images/image_popup/thumbs/r7_atrialflutterthu.jpg" Width="60" />
+				<Image Alt="Illustration showing atrial flutter
+" Caption="Atrial flutter is similar to atrial fibrillation but characterized by more-organized and more-rhythmic electrical impulses. 
+" Height="400" Title="Atrial flutter" URI="/images/image_popup/r7_atrialflutter.jpg" Width="400" />
+				<HTML>
+					Atrial flutter is similar to atrial fibrillation but characterized by more-organized and more-rhythmic electrical impulses. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Wolff-Parkinson-White syndrome 
+" Caption="Wolff-Parkinson-White syndrome is the name for episodes of fast heart rate caused by an extra electrical pathway between the atria and the ventricles. The fast heart rate often occurs because the electrical impulses go down one pathway from the atria to the ventricles and then return to the atria through the other pathway. 
+" Height="60" Title="Wolff-Parkinson-White syndrome" URI="/images/image_popup/thumbs/r7_wpwthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Wolff-Parkinson-White syndrome 
+" Caption="Wolff-Parkinson-White syndrome is the name for episodes of fast heart rate caused by an extra electrical pathway between the atria and the ventricles. The fast heart rate often occurs because the electrical impulses go down one pathway from the atria to the ventricles and then return to the atria through the other pathway. 
+" Height="390" Title="Wolff-Parkinson-White syndrome" URI="/images/image_popup/r7_wpw.jpg" Width="400" />
+				<HTML>
+					Wolff-Parkinson-White syndrome is the name for episodes of fast heart rate caused by an extra electrical pathway between the atria and the ventricles. The fast heart rate often occurs because the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ventricular tachycardia
+" Caption="Ventricular tachycardia &amp;mdash; caused by abnormal electrical impulses originating in the ventricles &amp;mdash; is a fast, regular beating of the heart.
+" Height="60" Title="Ventricular tachycardia" URI="/images/image_popup/thumbs/r7_ventriculartachthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ventricular tachycardia
+" Caption="Ventricular tachycardia &amp;mdash; caused by abnormal electrical impulses originating in the ventricles &amp;mdash; is a fast, regular beating of the heart.
+" Height="399" Title="Ventricular tachycardia" URI="/images/image_popup/r7_ventriculartach.jpg" Width="400" />
+				<HTML>
+					Ventricular tachycardia &amp;mdash; caused by abnormal electrical impulses originating in the ventricles &amp;mdash; is a fast, regular beating of the heart.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ventricular fibrillation 
+" Caption="During ventricular fibrillation, your ventricles quiver uselessly instead of pumping blood. 
+" Height="60" Title="Ventricular fibrillation" URI="/images/image_popup/thumbs/r7_venticularfibrillationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ventricular fibrillation 
+" Caption="During ventricular fibrillation, your ventricles quiver uselessly instead of pumping blood. 
+" Height="382" Title="Ventricular fibrillation" URI="/images/image_popup/r7_venticularfibrillation.jpg" Width="400" />
+				<HTML>
+					During ventricular fibrillation, your ventricles quiver uselessly instead of pumping blood. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may increase your risk of developing an arrhythmia. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary artery disease, other heart problems and previous heart surgery.&lt;/strong&gt; Narrowed heart arteries, heart attack, abnormal valves, prior heart surgery, cardiomyopathy and other heart damage are risk factors for almost any kind of arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; This increases your risk of developing coronary artery disease. It may also cause the walls of your left ventricle to become stiff and thick, which can change how electrical impulses travel through your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital heart disease.&lt;/strong&gt; Being born with a heart abnormality may affect your heart&apos;s rhythm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid problems.&lt;/strong&gt; Your metabolism speeds up when your thyroid gland releases too much thyroid hormone. This may cause fast or irregular heartbeats and may be linked to atrial fibrillation. Your metabolism slows when your thyroid gland doesn&apos;t release enough thyroid hormone, which may cause a bradycardia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs and supplements.&lt;/strong&gt; Over-the-counter cough and cold medicines containing pseudoephedrine and certain prescription drugs may contribute to arrhythmia development.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Along with being a risk factor for coronary artery disease, obesity may increase your risk of developing an arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Your risk of developing coronary artery disease and high blood pressure greatly increases with uncontrolled diabetes. In addition, episodes of low blood sugar (hypoglycemia) can trigger an arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obstructive sleep apnea.&lt;/strong&gt; This disorder, in which your breathing is interrupted during sleep, can cause bradycardia and bursts of atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrolyte imbalance.&lt;/strong&gt; Substances in your blood called electrolytes, such as potassium, sodium, calcium and magnesium, help trigger and conduct the electrical impulses in your heart. Electrolyte levels that are too high or too low can affect your heart&apos;s electrical impulses and contribute to arrhythmia development.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking too much alcohol.&lt;/strong&gt; Drinking too much alcohol can affect the electrical impulses in your heart or increase the chance of developing atrial fibrillation. In fact, development of atrial fibrillation after an episode of heavy alcohol intake is sometimes called &quot;holiday heart syndrome.&quot; Chronic alcohol abuse may cause your heart to beat less effectively and can lead to cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Caffeine or nicotine use.&lt;/strong&gt; Caffeine, nicotine and other stimulants can cause your heart to beat faster and may contribute to the development of more-serious arrhythmias. Illegal drugs, such as amphetamines and cocaine, may profoundly affect the heart and lead to many types of arrhythmias or to sudden death due to ventricular fibrillation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain arrhythmias may increase your risk of developing conditions such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; When your heart quivers, it&apos;s unable to pump blood effectively, which can cause blood to pool. This can cause blood clots to form. If a clot breaks loose, it can travel to and obstruct a brain artery, causing a stroke. This may damage a portion of your brain or lead to death. For people who have atrial fibrillation, the medications warfarin (Coumadin) or dabigatran (Pradaxa) may help prevent blood clots, which can cause a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; This can result if your heart is pumping ineffectively for a prolonged period due to a bradycardia or tachycardia, such as atrial fibrillation. Sometimes, controlling the rate of an arrhythmia that&apos;s causing heart failure can improve your heart&apos;s function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have a heart arrhythmia, make an appointment with your family doctor. If a heart arrhythmia is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+If your heart arrhythmia persists for more than a few minutes or is accompanied by fainting, shortness of breath, or chest pain, seek emergency medical help immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. You may need to do this if your doctor orders any blood tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to heart arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to understand and remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For heart arrhythmias, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for heart disease or other complications of an arrhythmia?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose a heart arrhythmia, your doctor may ask about &amp;mdash; or test for &amp;mdash; conditions that may trigger your arrhythmia, such as heart disease or a problem with your thyroid gland. Your doctor may also perform heart-monitoring tests specific to arrhythmias. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; During an ECG, sensors (electrodes) that can detect the electrical activity of your heart are attached to your chest and sometimes to your limbs. An ECG measures the timing and duration of each electrical phase in your heartbeat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; This portable ECG device can be worn for a day or more to record your heart&apos;s activity as you go about your routine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event monitor.&lt;/strong&gt; For sporadic arrhythmias, you keep this portable ECG device at home, attaching it to your body and using it only when you have symptoms of an arrhythmia. This lets your doctor check your heart rhythm at the time of your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; In this noninvasive test, a hand-held device (transducer) placed on your chest uses sound waves to produce images of your heart&apos;s size, structure and motion.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Cardiac computerized tomography (CT) or magnetic resonance imaging (MRI).&lt;/strong&gt; Although more commonly used to check for heart failure, these tests can be used to diagnose heart problems that might cause heart arrhythmias. In a cardiac CT scan, you lie on a table inside a doughnut-shaped machine. An X-ray tube inside the machine rotates around your body and collects images of your heart and chest.
+	&lt;/p&gt;
+	&lt;p&gt;
+	In a cardiac MRI, you lie on a table inside a long tube-like machine that produces a magnetic field. The magnetic field aligns atomic particles in some of your cells. When radio waves are broadcast toward these aligned particles, they produce signals that vary according to the type of tissue they are. The signals create images of your heart that can help your doctor determine the cause of your heart arrhythmia. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor doesn&apos;t find an arrhythmia during those tests, he or she may try to trigger your arrhythmia with other tests, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; Some arrhythmias are triggered or worsened by exercise. During a stress test, you&apos;ll be asked to exercise on a treadmill or stationary bicycle while your heart activity is monitored. If you have difficulty exercising, your doctor may use a drug to stimulate your heart in a way that&apos;s similar to exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tilt table test.&lt;/strong&gt; Your doctor may recommend this test if you&apos;ve had fainting spells. Your heart rate and blood pressure are monitored as you lie flat on a table. The table is then tilted as if you were standing up. Your doctor observes how your heart and the nervous system that controls it respond to the change in angle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrophysiological testing and mapping.&lt;/strong&gt; In this test, thin, flexible tubes (catheters) tipped with electrodes are threaded through your blood vessels to a variety of spots within your heart. Once in place, the electrodes can map the spread of electrical impulses through your heart. In addition, your cardiologist can use the electrodes to stimulate your heart to beat at rates that may trigger &amp;mdash; or halt &amp;mdash; an arrhythmia. This allows your doctor to see the location of the arrhythmia and what may be causing it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have an arrhythmia, treatment may or may not be necessary. Usually it&apos;s required only if the arrhythmia is causing significant symptoms or if it&apos;s putting you at risk of a more serious arrhythmia or arrhythmia complication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating slow heartbeats&lt;/strong&gt; &lt;br /&gt;
+If slow heartbeats (bradycardias) don&apos;t have a cause that can be corrected &amp;mdash; such as low thyroid hormone levels or a drug side effect &amp;mdash; doctors often treat them with a pacemaker. A pacemaker is a small, battery-powered device that&apos;s usually implanted near your collarbone. One or more electrode-tipped wires run from the pacemaker through your blood vessels to your inner heart. If your heart rate is too slow or if it stops, the pacemaker sends out electrical impulses that stimulate your heart to beat at a steady, proper rate. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating fast heartbeats&lt;/strong&gt; &lt;br /&gt;
+For fast heartbeats (tachycardias), treatments may include one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vagal maneuvers.&lt;/strong&gt; You may be able to stop an arrhythmia that begins above the lower half of your heart (supraventricular tachycardia, or SVT) by using particular maneuvers that include holding your breath and straining, dunking your face in ice water, or coughing. Your doctor may be able to recommend other maneuvers to halt a fast heartbeat. These maneuvers affect the nervous system that controls your heartbeat (vagus nerves), often causing your heart rate to slow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Many types of tachycardias respond well to anti-arrhythmic medications. Though they don&apos;t cure the problem, they can reduce episodes of tachycardia or slow down the heart when an episode occurs. Some medications can slow down your heart so much that you may need a pacemaker. It&apos;s very important to take any anti-arrhythmic medication exactly as directed by your doctor, in order to avoid complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardioversion.&lt;/strong&gt; If you have a tachycardia that starts in the top half of your heart (atria), including atrial fibrillation, your doctor may use cardioversion, which is an electrical shock used to reset your heart to its regular rhythm. Usually this is done externally in a monitored setting, and you&apos;re given medication to relax you during the procedure, so there&apos;s no pain involved. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ablation therapy.&lt;/strong&gt; In this procedure, one or more catheters are threaded through your blood vessels to your inner heart. They&apos;re positioned on areas of your heart that your doctor believes are the sources of your arrhythmia. Electrodes at the catheter tips are heated with radiofrequency energy. Another method involves cooling the tips of the catheters, which freezes the problem tissue. Either method destroys (ablates) a small spot of heart tissue and creates an electrical block along the pathway that&apos;s causing your arrhythmia. Usually this stops your arrhythmia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Implantable devices&lt;/strong&gt;&lt;br /&gt;
+Treatment for heart arrhythmias also may involve use of an implantable device: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Pacemaker.&lt;/strong&gt; A pacemaker is an implantable device that helps regulate slow heartbeats (bradycardia). A small battery-driven device is placed under the skin near the collarbone in a minor surgical procedure. An insulated wire extends from the device to the right side of the heart, where it&apos;s permanently anchored.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If a pacemaker detects a heart rate that&apos;s too slow or no heartbeat at all, it emits electrical impulses that stimulate your heart to speed up or begin beating again. Most pacemakers have a sensing device that turns them off when your heartbeat is above a certain level. It turns back on when your heartbeat is too slow. Most people stay in the hospital one to two days after a pacemaker is implanted. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Implantable cardioverter-defibrillator (ICD).&lt;/strong&gt; Your doctor may recommend this device if you&apos;re at high risk of developing a dangerously fast or quivering heartbeat in the lower half of your heart (ventricular tachycardia or ventricle fibrillation). Implantable defibrillator units designed to treat quivering in the upper half of your heart (atrial fibrillation) also are available.
+	&lt;/p&gt;
+	&lt;p&gt;
+	An ICD is a battery-powered unit that&apos;s implanted near the left collarbone. One or more electrode-tipped wires from the ICD run through veins to the heart. The ICD continuously monitors your heart rhythm. If it detects a rhythm that&apos;s too slow, it paces the heart as a pacemaker would. If it detects VT or VF, it sends out low- or high-energy shocks to reset the heart to a normal rhythm. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical treatments&lt;/strong&gt; &lt;br /&gt;
+In some cases, surgery may be the recommended treatment for heart arrhythmias: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maze procedure.&lt;/strong&gt; This involves making a series of surgical incisions in the upper half of your heart (atria). These heal into carefully placed scars in the atria that form boundaries that force electrical impulses in your heart to travel properly to cause the heart to beat efficiently. The procedure has a high success rate, but because it requires open-heart surgery, it&apos;s usually reserved for people who don&apos;t respond to other treatments. The surgeon may use a cryoprobe &amp;mdash; an instrument for applying extreme cold to tissue &amp;mdash; or a hand-held radiofrequency probe, rather than a scalpel, to create the scars.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular aneurysm surgery.&lt;/strong&gt; In some cases, a bulge (aneurysm) in a blood vessel leading to the heart is the cause of an arrhythmia. If catheter ablation and implanted ICD don&apos;t work, you may need this surgery. It involves removing the aneurysm that&apos;s causing your arrhythmia. By removing the source of the abnormal impulses, the arrhythmia often can be eliminated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary bypass surgery.&lt;/strong&gt; If you have severe coronary artery disease in addition to frequent ventricular tachycardia, your doctor may recommend coronary bypass surgery. This may improve the blood supply to your heart and reduce the frequency of your ventricular tachycardia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="60" Title="Illustration showing cardiac catheter ablation" URI="/images/image_popup/thumbs/r7_cathablationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="406" Title="Cardiac catheter ablation" URI="/images/image_popup/r7_cathablation.jpg" Width="400" />
+				<HTML>
+					In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pacemakers, defibrillator
+" Caption="A dual chamber pacemaker paces the atrium and ventricle. A biventricular pacemaker paces both ventricles. An implantable cardioverter-defibrillator can function as a pacemaker would. In addition, if it detects ventricular tachycardia or fibrillation, it sends out a shock to reset the heart to a normal rhythm. 
+" Height="60" Title="Pacemakers, defibrillator" URI="/images/image_popup/thumbs/r7_pacemakersdefibrillatorthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pacemakers, defibrillator
+" Caption="A dual chamber pacemaker paces the atrium and ventricle. A biventricular pacemaker paces both ventricles. An implantable cardioverter-defibrillator can function as a pacemaker would. In addition, if it detects ventricular tachycardia or fibrillation, it sends out a shock to reset the heart to a normal rhythm. 
+" Height="278" Title="Pacemakers, defibrillator" URI="/images/image_popup/r7_pacemakersdefibrillator.jpg" Width="399" />
+				<HTML>
+					A dual chamber pacemaker paces the atrium and ventricle. A biventricular pacemaker paces both ventricles. An implantable cardioverter-defibrillator can function as a pacemaker would. In addition, if ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many arrhythmias can be blamed on underlying heart disease, so your doctor may suggest that, in addition to other treatments, you make lifestyle changes that will keep your heart as healthy as possible. Making healthy lifestyle changes can also help prevent heart arrhythmias from developing in the first place. 
+&lt;/p&gt;
+&lt;p&gt;
+These lifestyle changes may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat heart-healthy foods.&lt;/li&gt;
+	&lt;li&gt;Increase your physical activity.&lt;/li&gt;
+	&lt;li&gt;Quit smoking.&lt;/li&gt;
+	&lt;li&gt;Cut back on caffeine and alcohol.&lt;/li&gt;
+	&lt;li&gt;Find ways to reduce the amount of stress in your life.&lt;/li&gt;
+	&lt;li&gt;Avoid stimulant medications, such as medications found in over-the-counter treatments for colds and nasal congestion.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart arrhythmias
+	</Title>
+	<Abstract>
+		Heart arrhythmias &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common heart disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00923" LinkType="Internal" ObjectID="E3378F81-E7FF-0DBD-186727361BBFF2E3" Title="Wolff-Parkinson-White (WPW) syndrome" Url="http://www.mayoclinic.com/health/wolff-parkinson-white-syndrome/DS00923" />
+		<LinkItem ContentType="Disease" DocID="DS00949" LinkType="Internal" ObjectID="E0E5CBB7-E7FF-0DBD-188377A3E7F15819" Title="Premature ventricular contractions (PVCs)" Url="http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949" />
+		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
+		<LinkItem ContentType="Disease" DocID="DS00930" LinkType="Internal" ObjectID="3720EF76-E7FF-0DBD-1BBAC5E30AECE271" Title="Sick sinus syndrome" Url="http://www.mayoclinic.com/health/sick-sinus-syndrome/DS00930" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS01158" LinkType="Internal" ObjectID="0F4A255E-9C7E-F680-E610EF8AADF137EC" Title="Ventricular fibrillation" Url="http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00336" LinkType="Internal" ObjectID="F7E31C25-E7FF-0DBD-1BF7D5EEFB17EB69" Title="Implantable cardioverter-defibrillators (ICDs)" Url="http://www.mayoclinic.com/health/implantable-cardioverter-defibrillator/MY00336" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="Answer" DocID="AN01585" LinkType="Internal" ObjectID="BDB43F9B-E7FF-0DBD-1AA1144D6F65930B" Title="Arthritis pain medications: Do they raise blood pressure?" Url="http://www.mayoclinic.com/health/arthritis-pain-medications/AN01585" />
+		<LinkItem ContentType="Answer" DocID="AN01906" LinkType="Internal" ObjectID="BCA75C74-E7FF-0DBD-154EF6A9D6F5403F" Title="Heart rate: What&apos;s normal?" Url="http://www.mayoclinic.com/health/heart-rate/AN01906" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00577" LinkType="Internal" ObjectID="A4969FF4-0BA0-85FA-2A7436104DFFF946" Title="Holter monitor" Url="http://www.mayoclinic.com/health/holter-monitor/MY00577" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00276" LinkType="Internal" ObjectID="8BCA622A-E7FF-0DBD-1AEBB8A4EC3D83DF" Title="Pacemaker" Url="http://www.mayoclinic.com/health/pacemaker/MY00276" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00706" LinkType="Internal" ObjectID="3A7B8711-9791-52F2-E2B504985C2BCD1D" Title="Cardiac ablation" Url="http://www.mayoclinic.com/health/cardiac-ablation/MY00706" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00705" LinkType="Internal" ObjectID="3A4EC13D-AF61-2E66-739550564BA315F4" Title="Cardioversion" Url="http://www.mayoclinic.com/health/cardioversion/MY00705" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00806" LinkType="Internal" ObjectID="CA70DA97-E7FF-0DBD-13B4BC169AB87B67" Title="Vasovagal syncope" Url="http://www.mayoclinic.com/health/vasovagal-syncope/DS00806" />
+		<LinkItem ContentType="Disease" DocID="DS00434" LinkType="Internal" ObjectID="47C52B5C-DA54-4EF4-864C9B4F3F60A5CB" Title="Long QT syndrome" Url="http://www.mayoclinic.com/health/long-qt-syndrome/DS00434" />
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="Disease" DocID="DS00291" LinkType="Internal" ObjectID="F553CA62-FA20-4C2B-97C29F6EAF1F81EC" Title="Atrial fibrillation" Url="http://www.mayoclinic.com/health/atrial-fibrillation/DS00291" />
+	</RelatedLinksBox>
+</Disease>

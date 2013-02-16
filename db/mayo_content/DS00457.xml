@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00457
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/trench-mouth/DS00457
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-21
+		</UpdateDate>
+		<PublicationDate>
+			2002-11-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="1621" Title="Trench mouth" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8DFF2890-D41B-4AC6-978DFD7879D7C474
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				trench mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				gums
+			</MetaKeyword>
+			<MetaKeyword>
+				gum infection
+			</MetaKeyword>
+			<MetaKeyword>
+				gum disease
+			</MetaKeyword>
+			<MetaKeyword>
+				acute necrotizing ulcerative gingivitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Vincent&apos;s stomatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bad breath
+			</MetaKeyword>
+			<MetaKeyword>
+				periodontal disease
+			</MetaKeyword>
+			<MetaKeyword>
+				gingival
+			</MetaKeyword>
+			<MetaKeyword>
+				oral hygiene
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth ulcers
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding gums
+			</MetaKeyword>
+			<MetaKeyword>
+				anug
+			</MetaKeyword>
+			<MetaKeyword>
+				nug
+			</MetaKeyword>
+			<MetaKeyword>
+				nup
+			</MetaKeyword>
+			<MetaKeyword>
+				necrotizing stomatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				gingivitis
+			</MetaKeyword>
+			<MetaKeyword>
+				necrotizing ulcerative gingivitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trench mouth is a severe form of gingivitis that causes painful, infected, bleeding gums and ulcerations. Although trench mouth is rare today in developed nations, it&apos;s common in developing countries that have poor nutrition and poor living conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Trench mouth is formally known as Vincent&apos;s stomatitis, acute necrotizing ulcerative gingivitis (ANUG) and necrotizing ulcerative gingivitis (NUG). Trench mouth earned its nickname because of its prevalence among soldiers who were stuck in the trenches during World War I without the means to take care of their teeth properly. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a typical case of trench mouth 
+" Caption="A typical case of trench mouth &amp;mdash; a severe form of gingivitis. 
+" Height="60" Title="Trench mouth" URI="/images/image_popup/thumbs/mcdc7_trenchmouththu.jpg" Width="60" />
+				<Image Alt="Photo of a typical case of trench mouth 
+" Caption="A typical case of trench mouth &amp;mdash; a severe form of gingivitis. 
+" Height="291" Title="Trench mouth" URI="/images/image_popup/mcdc7_trenchmouth.jpg" Width="400" />
+				<HTML>
+					A typical case of trench mouth &amp;mdash; a severe form of gingivitis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of trench mouth can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe gum pain&lt;/li&gt;
+	&lt;li&gt;Bleeding from gums when they&apos;re pressed even slightly&lt;/li&gt;
+	&lt;li&gt;Red or swollen gums&lt;/li&gt;
+	&lt;li&gt;Pain when eating or swallowing&lt;/li&gt;
+	&lt;li&gt;A gray film on your gums&lt;/li&gt;
+	&lt;li&gt;Crater-like sores (ulcers) between your teeth and on your gums&lt;/li&gt;
+	&lt;li&gt;A foul taste in your mouth&lt;/li&gt;
+	&lt;li&gt;Bad breath&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes around your head, neck or jaw&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a dentist&lt;/strong&gt;&lt;br /&gt;
+Trench mouth symptoms can develop quickly. See your dentist immediately if you develop any symptoms. Often these may be symptoms of a gum problem other than trench mouth, such as gingivitis or periodontitis. But all forms of gum disease can be serious, and most tend to get worse without treatment. The sooner you seek care, the better your chance of returning your gums to a healthy state and preventing loss of teeth and destruction of bone or other tissue. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a typical case of trench mouth 
+" Caption="A typical case of trench mouth &amp;mdash; a severe form of gingivitis. 
+" Height="60" Title="Trench mouth" URI="/images/image_popup/thumbs/mcdc7_trenchmouththu.jpg" Width="60" />
+				<Image Alt="Photo of a typical case of trench mouth 
+" Caption="A typical case of trench mouth &amp;mdash; a severe form of gingivitis. 
+" Height="291" Title="Trench mouth" URI="/images/image_popup/mcdc7_trenchmouth.jpg" Width="400" />
+				<HTML>
+					A typical case of trench mouth &amp;mdash; a severe form of gingivitis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your mouth naturally contains microorganisms, including fungi, viruses and bacteria. In trench mouth, though, harmful bacteria grow out of control, causing infection of your gums. This infection can damage or destroy the delicate gum tissue (gingiva) that surrounds and supports your teeth. Large ulcers, often filled with bacteria, food debris and decaying tissue, may form on your gums, leading to severe pain, bad breath and a foul taste in your mouth.
+&lt;/p&gt;
+&lt;p&gt;
+Precisely how these bacteria destroy gum tissue isn&apos;t known. But it&apos;s thought that enzymes and toxins produced by the bacteria play a role.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors can increase your risk of developing trench mouth by allowing harmful bacteria to grow out of control, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor oral hygiene.&lt;/strong&gt; Failing to brush and floss regularly can lead to a buildup of plaque and debris that help harmful bacteria thrive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor nutrition.&lt;/strong&gt; Not getting enough nutrients can make it difficult for your body to fight infection. Malnourished children in developing countries are particularly at risk of trench mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking or chewing tobacco.&lt;/strong&gt; These can harm the blood vessels of your gums, making it easier for bacteria to thrive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Throat, tooth or mouth infections.&lt;/strong&gt; If you already have an active infection, such as gingivitis, and don&apos;t treat it effectively, the infection can progress into trench mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional stress.&lt;/strong&gt; Emotional stress can weaken your immune system, making it difficult for your body&apos;s natural defenses to keep harmful bacteria in check.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A compromised immune system.&lt;/strong&gt; People with illnesses that compromise the immune system or who are undergoing treatment that can suppress the immune system are at higher risk, because their bodies may not be able to fight infections well. These may include people with HIV/AIDS, cancer and mononucleosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Trench mouth can occur at any age. But it&apos;s most common in adolescents and adults in their 20s to 40s. In developing countries where malnutrition is common and good oral hygiene is lacking, trench mouth occurs commonly in young children.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications and problems that trench mouth may cause or be associated with include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Trouble swallowing&lt;/li&gt;
+	&lt;li&gt;Trouble eating&lt;/li&gt;
+	&lt;li&gt;Pain when brushing teeth&lt;/li&gt;
+	&lt;li&gt;Destruction of gum tissue&lt;/li&gt;
+	&lt;li&gt;Tooth loss&lt;/li&gt;
+	&lt;li&gt;Progression into advanced oral diseases that can severely damage bone and gum tissue&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your dentist usually can detect trench mouth by examining your teeth and gums. Sometimes you may need dental X-rays to determine whether bone loss has occurred as a result of the infection.
+&lt;/p&gt;
+&lt;p&gt;
+If it&apos;s not known why you developed trench mouth, your dentist will refer you to your primary care doctor for additional examinations or blood tests. This can help determine if you have any undiagnosed medical conditions, particularly HIV, that may have promoted your trench mouth.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of trench mouth is generally highly effective, and complete healing often occurs in just a couple of weeks. However, healing may take longer if your immune system is compromised, such as by HIV/AIDS.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Because trench mouth involves an overgrowth of bacteria, antibiotics are often prescribed to eradicate the bacteria and prevent infection from spreading. You may also need over-the-counter or prescription pain relievers. Getting pain under control is important so that you can eat properly and resume good dental care habits, such as brushing your teeth. Your dentist may also recommend a pain reliever that you can apply directly to your gums (topical anesthetic).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cleaning your teeth and gums&lt;/strong&gt;&lt;br /&gt;
+Treatment also includes a thorough but gentle cleaning of your teeth and gums. Your dentist removes any dead gum tissue (debridement) to help reduce pain. Your mouth may be rinsed with an antiseptic solution. When your gums are less tender, you&apos;ll undergo a type of tooth cleaning called scaling and root planing. This procedure removes plaque and tartar from beneath your gumline and smooths any roughened surfaces of your teeth.
+&lt;/p&gt;
+&lt;p&gt;
+Right after cleaning, your gums will be quite tender. Your dentist will probably advise you to rinse your mouth with a hydrogen peroxide mouthwash, salt water or a prescription mouth rinse, in addition to brushing gently with a soft toothbrush. Once your gums begin to heal, brush and floss at least twice a day &amp;mdash; preferably after every meal and at bedtime &amp;mdash; to prevent future problems.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When surgery is necessary&lt;/strong&gt;&lt;br /&gt;
+Although your gums are likely to heal and return to their normal shape with professional cleaning and proper home care, you may need surgery to help repair them if you have extensive damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trench mouth can be extremely painful. You can take measures to help care for yourself and cope during treatment, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Not smoking or using other tobacco products&lt;/li&gt;
+	&lt;li&gt;Taking pain medications as recommended&lt;/li&gt;
+	&lt;li&gt;Following a liquid diet, if necessary, the first few days of treatment, to minimize pain&lt;/li&gt;
+	&lt;li&gt;Avoiding spicy or very hot foods, which can irritate your tender gums&lt;/li&gt;
+	&lt;li&gt;Staying well hydrated&lt;/li&gt;
+	&lt;li&gt;Not drinking carbonated beverages or alcohol&lt;/li&gt;
+	&lt;li&gt;Keeping all dental appointments&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Good oral health, good nutrition and good overall health habits can help reduce your risk of developing trench mouth.
+&lt;/p&gt;
+&lt;p&gt;
+In particular:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good oral hygiene.&lt;/strong&gt; Brush and floss your teeth at least twice a day or as often as your dentist recommends. Get regular professional dental cleanings. Antiseptic mouthwashes also may be helpful. Some studies show that an electric toothbrush may be more effective than a manual toothbrush.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke or use other tobacco products.&lt;/strong&gt; Tobacco products are a leading factor in the development of trench mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Include plenty of fruits and vegetables, whole grains, lean meats and low-fat dairy foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Because stress takes both a physical and an emotional toll, learning to manage it is essential for your overall well-being. Exercise, relaxation techniques, hobbies and yoga are among the healthy ways to cope with stress.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Trench mouth
+	</Title>
+	<Abstract>
+		Trench mouth &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this severe gum infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+	</RelatedLinksBox>
+</Disease>

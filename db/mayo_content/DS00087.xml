@@ -1,0 +1,343 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00087
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/genital-warts/DS00087
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-20
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1590" Title="Sexually transmitted">
+						<Keyword MCVID="2413" Title="Genital warts" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CAEC99AC-77E1-414C-B0A8ACFA312F2E1E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				genital warts
+			</MetaKeyword>
+			<MetaKeyword>
+				venereal
+			</MetaKeyword>
+			<MetaKeyword>
+				venereal warts
+			</MetaKeyword>
+			<MetaKeyword>
+				condylomata
+			</MetaKeyword>
+			<MetaKeyword>
+				acuminata
+			</MetaKeyword>
+			<MetaKeyword>
+				condylomata acuminata
+			</MetaKeyword>
+			<MetaKeyword>
+				human papillomavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				anal warts
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal warts
+			</MetaKeyword>
+			<MetaKeyword>
+				gential warts
+			</MetaKeyword>
+			<MetaKeyword>
+				HPV
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Genital warts are one of the most common types of sexually transmitted infections. At least half of all sexually active people will become infected with the virus that causes genital warts at some point during their lives. 
+&lt;/p&gt;
+&lt;p&gt;
+As the name suggests, genital warts affect the moist tissues of the genital area. Genital warts may look like small, flesh-colored bumps or have a cauliflower-like appearance. In many cases, the warts are too small to be visible. 
+&lt;/p&gt;
+&lt;p&gt;
+Like warts that appear elsewhere on your body, genital warts are caused by the human papillomavirus (HPV). Some strains of genital HPV can cause genital warts, while others can cause cancer. Vaccines can help protect against certain strains of genital HPV. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In women, genital warts can grow on the vulva, the walls of the vagina, the area between the external genitals and the anus, and the cervix. In men, they may occur on the tip or shaft of the penis, the scrotum, or the anus. Genital warts can also develop in the mouth or throat of a person who has had oral sexual contact with an infected person. 
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of genital warts include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small, flesh-colored or gray swellings in your genital area&lt;/li&gt;
+	&lt;li&gt;Several warts close together that take on a cauliflower shape&lt;/li&gt;
+	&lt;li&gt;Itching or discomfort in your genital area&lt;/li&gt;
+	&lt;li&gt;Bleeding with intercourse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, genital warts may be so small and flat that they can&apos;t be seen with the naked eye. Sometimes, however, genital warts may multiply into large clusters. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See a doctor if you or your partner develops bumps or warts in the genital area. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of genital warts in a woman 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. In women, genital warts can also grow inside the vagina. 
+" Height="60" Title="Female genital warts" URI="/images/image_popup/thumbs/r7_female_genital_wartsthu.jpg" Width="60" />
+				<Image Alt="Photograph of genital warts in a woman 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. In women, genital warts can also grow inside the vagina. 
+" Height="530" Title="Female genital warts" URI="/images/image_popup/r7_female_genital_warts.jpg" Width="400" />
+				<HTML>
+					Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. In women, genital warts can also grow inside the vagina. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of genital warts in a man 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. 
+" Height="60" Title="Male genital warts" URI="/images/image_popup/thumbs/r7_male_genital_wartsthu.jpg" Width="60" />
+				<Image Alt="Photograph of genital warts in a man 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. 
+" Height="280" Title="Male genital warts" URI="/images/image_popup/r7_male_genital_warts.jpg" Width="400" />
+				<HTML>
+					Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The human papillomavirus (HPV) causes warts. There are more than 40 different strains of HPV that specifically affect the genital area. Genital HPV is spread through sexual contact. In most cases, your immune system kills genital HPV and you never develop signs or symptoms of the infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The Centers for Disease Control and Prevention estimates that at least half of all sexually active people will become infected with genital HPV at some point during their lives. Factors that can increase your risk of becoming infected include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having unprotected sex with multiple partners&lt;/li&gt;
+	&lt;li&gt;Having had another sexually transmitted infection&lt;/li&gt;
+	&lt;li&gt;Having sex with a partner whose sexual history you don&apos;t know&lt;/li&gt;
+	&lt;li&gt;Becoming sexually active at a young age&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Cervical cancer has been closely linked with genital HPV infection. Certain types of HPV also are associated with cancer of the vulva, cancer of the anus and cancer of the penis. Human papillomavirus infection doesn&apos;t always lead to cancer, but it&apos;s still important for women, particularly if you&apos;ve been infected with higher risk types of HPV, to have regular Pap tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems during pregnancy.&lt;/strong&gt; Genital warts may cause problems during pregnancy. Warts could enlarge, making it difficult to urinate. Warts on the vaginal wall may reduce the ability of vaginal tissues to stretch during childbirth. Rarely, a baby born to a mother with genital warts may develop warts in his or her throat. The baby may need surgery to prevent airway obstruction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your signs and symptoms to the attention of your family doctor. If you are a woman, you may wish to schedule your initial appointment with your gynecologist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment you may want to write a list that describes your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms.&lt;/strong&gt; Describe your symptoms and note whether your sexual partner has ever had similar symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual history.&lt;/strong&gt; List all recent exposures to possible sources of infection. These may include engaging in unprotected sex or sex with a new partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key medical information.&lt;/strong&gt; Write down any other conditions you&apos;re being treated for and the names of any medications, vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Creating your list of questions in advance can help you make the most of your time with your doctor. For genital warts, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have genital warts?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I also be tested for other sexually transmitted infections?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment can I expect improvement?&lt;/li&gt;
+	&lt;li&gt;Am I contagious? How can I reduce the risk of passing this infection to others?&lt;/li&gt;
+	&lt;li&gt;Should my partner be tested for this condition?&lt;/li&gt;
+	&lt;li&gt;When can I safely resume sexual activity?&lt;/li&gt;
+	&lt;li&gt;How likely am I to experience future outbreaks of genital warts?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications related to genital warts?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for other health conditions related to genital warts?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, if any?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you practice safe sex? Have you done so since you became sexually active?&lt;/li&gt;
+	&lt;li&gt;Have you recently had sex with a new partner?&lt;/li&gt;
+	&lt;li&gt;Has your partner been tested for sexually transmitted infections?&lt;/li&gt;
+	&lt;li&gt;Have you had the HPV vaccine? When?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant or planning to become pregnant?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it&apos;s often difficult to detect genital warts, your doctor may apply a mild acetic acid solution to your genitals to whiten any warts. Then, he or she may view them through a special microscope. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pap tests&lt;/strong&gt; &lt;br /&gt;
+For women, it&apos;s important to have regular pelvic exams and Pap tests, which can help detect vaginal and cervical changes caused by genital warts or the early signs of cervical cancer &amp;mdash; a possible complication of genital HPV infection. 
+&lt;/p&gt;
+&lt;p&gt;
+During a Pap test, your doctor will use a device call a speculum to hold open your vagina. He or she will then use a long-handled tool to collect a small sample of cells from your cervix &amp;mdash; the passage between your vagina and your uterus. The cells are examined with a microscope for abnormalities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;HPV test&lt;/strong&gt; &lt;br /&gt;
+Only a few varieties of genital HPV have been linked to cervical cancer. A sample of cervical cells, taken during a Pap test, can be tested for these cancer-causing HPV strains. This test is generally reserved for women ages 30 and older. It isn&apos;t as useful for younger women because their immune systems usually can kill even cancer-causing varieties of genital HPV without treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="60" Title="Pap test" URI="/images/image_popup/thumbs/mcdc7_paptestthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="463" Title="Pap test" URI="/images/image_popup/mcdc7_pap_test.jpg" Width="400" />
+				<HTML>
+					In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your warts aren&apos;t causing discomfort, you may not need treatment. But if your symptoms include itching, burning and pain or if visible warts are causing emotional distress, your doctor can help you clear an outbreak with medications or surgery. However, the lesions are likely to recur after treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Genital warts treatments that can be applied directly to your skin include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imiquimod (Aldara, Zyclara).&lt;/strong&gt; This cream appears to boost your immune system&apos;s ability to fight genital warts. Avoid sexual contact while the cream is on your skin. It may weaken condoms and diaphragms and may irritate your partner&apos;s skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Podophyllin and podofilox (Condylox).&lt;/strong&gt; Podophyllin is a plant-based resin that destroys genital wart tissue. Your doctor must apply this solution. Podofilox&lt;strong&gt; &lt;/strong&gt;contains the same active compound, but can be safely applied by you at home. Your doctor may want to administer the first application of podofilox, and will recommend precautionary steps to prevent the medication from irritating surrounding skin. Never apply podofilox internally. Additionally, this medication isn&apos;t recommended for use during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trichloroacetic acid (TCA).&lt;/strong&gt; This chemical treatment burns off genital warts. TCA must always be applied by a doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t try to treat genital warts with over-the-counter wart removers. These medications aren&apos;t intended for use in the moist tissues of the genital area. Using over-the-counter medications for this purpose can cause even more pain and irritation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+You may need surgery to remove larger warts, warts that don&apos;t respond to medications, or &amp;mdash; if you&apos;re pregnant &amp;mdash; warts that your baby may be exposed to during delivery. Surgical options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing with liquid nitrogen (cryotherapy).&lt;/strong&gt; Freezing works by causing a blister to form around your wart. As your skin heals, the lesions slough off, allowing new skin to appear. You may need repeated cryotherapy treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocautery.&lt;/strong&gt; This procedure uses an electrical current to burn off warts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical excision.&lt;/strong&gt; Your doctor may use special tools to cut off warts. You&apos;ll need local anesthesia for this treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser treatments.&lt;/strong&gt; This approach, which uses an intense beam of light, can be expensive and is usually reserved for very extensive and tough-to-treat warts.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Using a condom every time you have sex can significantly reduce your risk of contracting genital warts. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccination now available&lt;/strong&gt; &lt;br /&gt;
+A vaccine known as Gardasil protects against the strains of HPV that cause most genital warts. Gardasil also protects against the HPV strains most likely to cause cervical cancer. Another vaccine, called Cervarix, protects against cervical cancer but not genital warts. 
+&lt;/p&gt;
+&lt;p&gt;
+The national Advisory Committee on Immunization Practices recommends routine HPV vaccination for girls and boys ages 11 and 12. If not fully vaccinated at that age, it&amp;rsquo;s recommended that girls and women through age 26 and boys and men through age 21 receive the vaccine. However, men may receive the HPV vaccine through age 26 if desired. These vaccines are most effective if given to children before they become sexually active. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Genital warts
+	</Title>
+	<Abstract>
+		Genital warts &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this common sexually transmitted infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="ID00053" LinkType="Internal" ObjectID="AB2D594E-E7FF-0DBD-1159C5056649527A" Title="STD symptoms: Common STDs and their symptoms" Url="http://www.mayoclinic.com/health/std-symptoms/ID00053" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+	</RelatedLinksBox>
+</Disease>

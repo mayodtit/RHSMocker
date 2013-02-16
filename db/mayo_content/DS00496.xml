@@ -1,0 +1,304 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00496
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/metatarsalgia/DS00496
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-25
+		</UpdateDate>
+		<PublicationDate>
+			2003-05-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2345" Title="Ankle and foot">
+						<Keyword MCVID="2346" Title="Metatarsalgia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A3F67624-17B4-4074-95B772B187DB1C1C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				metatarsalgia
+			</MetaKeyword>
+			<MetaKeyword>
+				Morton&apos;s neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				foot pain
+			</MetaKeyword>
+			<MetaKeyword>
+				sports injury
+			</MetaKeyword>
+			<MetaKeyword>
+				foot problems
+			</MetaKeyword>
+			<MetaKeyword>
+				feet pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Metatarsalgia is a condition marked by pain and inflammation in the ball of your foot.
+&lt;/p&gt;
+&lt;p&gt;
+You may experience metatarsalgia if you&apos;re physically active and you participate in activities that involve running and jumping. Or, you may develop metatarsalgia by wearing ill-fitting shoes. There are other causes as well.
+&lt;/p&gt;
+&lt;p&gt;
+Although generally not serious, metatarsalgia can sideline you. Fortunately, conservative treatments, such as ice and rest, can often relieve metatarsalgia symptoms. And proper footwear, along with shock-absorbing insoles or arch supports, may be all you need to prevent or minimize future problems with metatarsalgia.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of metatarsalgia 
+" Caption="Excess pressure on your forefoot can cause pain and inflammation in your metatarsals &amp;mdash; the long bones in the front of your feet, just below your toes. 
+" Height="60" Title="Metatarsalgia" URI="/images/image_popup/thumbs/r7_metatarsalgiathu.jpg" Width="60" />
+				<Image Alt="Illustration of metatarsalgia 
+" Caption="Excess pressure on your forefoot can cause pain and inflammation in your metatarsals &amp;mdash; the long bones in the front of your feet, just below your toes. 
+" Height="350" Title="Metatarsalgia" URI="/images/image_popup/r7_metatarsalgia.jpg" Width="400" />
+				<HTML>
+					Excess pressure on your forefoot can cause pain and inflammation in your metatarsals &amp;mdash; the long bones in the front of your feet, just below your toes. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of metatarsalgia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sharp, aching or burning pain in the ball of your foot &amp;mdash; the part of the sole just behind your toes&lt;/li&gt;
+	&lt;li&gt;Pain in the area around your second, third or fourth toes &amp;mdash; or, only near your big toe&lt;/li&gt;
+	&lt;li&gt;Pain that gets worse when you stand, walk or run and improves when you rest&lt;/li&gt;
+	&lt;li&gt;Sharp or shooting pain in your toes&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling in your toes&lt;/li&gt;
+	&lt;li&gt;Pain that worsens when you flex your feet&lt;/li&gt;
+	&lt;li&gt;A feeling in your feet as if you&apos;re walking with a pebble in your shoe&lt;/li&gt;
+	&lt;li&gt;Increased pain when you&apos;re walking barefoot, especially on a hard surface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes these symptoms develop suddenly &amp;mdash; especially if you&apos;ve recently increased your usual amount of running, jumping or other high-impact exercise &amp;mdash; but problems usually develop over time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Not all foot problems need medical care. Sometimes your feet simply ache after a long day of standing or a punishing workout. But it&apos;s best not to ignore any foot pain that lasts more than a few days. Talk to your doctor if you experience a burning pain in the ball of your foot that doesn&apos;t improve after changing your shoes and modifying your activities. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In each foot, five metatarsal bones run from your arch to your toe joints. The first metatarsal is shorter and thicker than the other four bones, which are usually similar in size. During the push-off phase when you walk, jump or run, your body weight is transferred to your toes and metatarsals. The first and second metatarsal bones take the brunt of this force. 
+&lt;/p&gt;
+&lt;p&gt;
+Most metatarsal problems develop when something changes in the way your foot normally works (mechanics), affecting how your weight is distributed. This can put excess pressure on the metatarsals, leading to inflammation and pain, especially in the metatarsal heads &amp;mdash; the rounded ends of the bones that connect with your toe bones.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes a single factor can lead to metatarsalgia. More often, several factors are involved, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intense training or activity.&lt;/strong&gt; Runners are at risk of metatarsalgia, primarily because the front of your foot absorbs significant force when you run. But anyone who participates in a high-impact sport is also at risk, especially if your shoes are ill-fitting or are worn out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain foot shapes.&lt;/strong&gt; A high arch can put extra pressure on the metatarsals. So can having a second toe that&apos;s longer than the big toe, which causes more weight than normal to be shifted to the second metatarsal head.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hammertoe.&lt;/strong&gt; This foot problem can develop when high heels or too-small shoes prevent your toes from lying flat. As a result, one of your toes &amp;mdash; usually the second &amp;mdash; curls downward because of a bend in the middle toe joint. This contraction depresses the metatarsal heads.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bunion.&lt;/strong&gt; This is a swollen, painful bump at the base of your big toe. Sometimes the tendency to develop bunions is inherited, but the problem can also result from wearing high heels or too-small shoes. Bunions are much more common in women than in men. A bunion can weaken your big toe, putting extra stress on the ball of your foot. Surgery to correct a bunion can also lead to metatarsalgia if you don&apos;t rest long enough for your foot to heal completely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess weight.&lt;/strong&gt; Because most of your body weight transfers to your forefoot when you move, extra pounds mean more pressure on your metatarsals. Losing weight may reduce or eliminate symptoms of metatarsalgia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poorly fitting shoes.&lt;/strong&gt; High heels, which transfer extra weight to the front of your foot, are a common cause of metatarsalgia in women. Shoes with a narrow toe box or athletic shoes that lack support and padding also can contribute to metatarsal problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress fractures.&lt;/strong&gt; Small breaks in the metatarsals or toe bones can be painful and change the way you put weight on your foot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Morton&apos;s neuroma.&lt;/strong&gt; This noncancerous growth of fibrous tissue around a nerve usually occurs between the third and fourth metatarsal heads. It causes symptoms that are similar to metatarsalgia and can also contribute to metatarsal stress. Morton&apos;s neuroma frequently results from wearing high heels or too-tight shoes that put pressure on your toes. It can also develop after high-impact activities such as jogging and aerobics.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Almost anyone can develop metatarsalgia, but you&apos;re at higher risk if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Participate in high-impact sports.&lt;/strong&gt; Metatarsalgia is more likely to occur if you&apos;re a runner or you participate in sports that involve running or jumping, such as soccer, tennis, baseball, football or basketball. Swimming and cycling, which don&apos;t put pressure on your forefoot, aren&apos;t likely to cause metatarsalgia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear high heels or shoes that don&apos;t fit properly.&lt;/strong&gt; High heels transfer extra weight onto the front of your foot, and shoes that are too tight can compress your toes. Wearing athletic shoes that aren&apos;t well padded or that aren&apos;t appropriate for a particular sport &amp;mdash; for example, playing basketball in tennis shoes &amp;mdash; also can put you at risk of metatarsalgia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Are overweight.&lt;/strong&gt; Extra pounds put more pressure on your metatarsals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have other foot problems.&lt;/strong&gt; Certain foot shapes &amp;mdash; such as high arches, a long second toe or unusually long metatarsals &amp;mdash; can contribute to metatarsalgia. So can conditions such as hammertoe, arthritis and gout. These conditions can cause pain and inflammation that change the way you walk and the distribution of weight in your feet.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, metatarsalgia may lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in other parts of the same or opposite foot&lt;/li&gt;
+	&lt;li&gt;Pain elsewhere in the body, such as the low back or hip, due to limping (altered gait) from foot pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first see your family doctor or general practitioner. However, he or she may refer you to a bone specialist (orthopedist) or a foot specialist (podiatrist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, it&apos;s a good idea to be well prepared for your visit. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of the symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to your foot pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For metatarsalgia, some basic questions you might want to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;How long will it be before I start feeling better?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions as well. Some questions your doctor may ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you&apos;re waiting to see your doctor, rest your foot as much as possible and wear properly fitting shoes. If your pain is severe, ibuprofen (Advil, Motrin, others), naproxen (Aleve) or aspirin may help ease your discomfort.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Various foot problems can cause symptoms similar to those of metatarsalgia. To help pinpoint the source of your pain, your doctor will examine your foot and ask about your lifestyle and activity level. You may need an X-ray to identify or rule out a stress fracture or other foot problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Conservative measures usually relieve the pain of metatarsalgia.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Protect your foot from further injury by not stressing it. You may need to avoid your favorite sport for a while, but you can stay fit with low-impact exercises, such as swimming or cycling. Continue with stretching and lower body strength training as your pain permits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice the affected area.&lt;/strong&gt; Apply ice packs to the affected area for about 20 minutes at a time, several times a day. To protect your skin, wrap the ice packs in a thin towel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an over-the-counter pain reliever.&lt;/strong&gt; Try ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or aspirin to reduce pain and inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear proper shoes.&lt;/strong&gt; Your doctor may recommend a shoe that&apos;s especially suited for your foot type, your stride and your particular sport.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try shock-absorbing insoles.&lt;/strong&gt; These off-the-shelf shoe inserts &amp;mdash; often made of cork, plastic, rubber or a gel-like substance &amp;mdash; fit inside your shoes to help cushion shock.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use metatarsal pads.&lt;/strong&gt; These off-the-shelf pads are placed in your shoes just ahead of the metatarsal bone to help deflect stress away from the painful area.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Consider arch supports.&lt;/strong&gt; If insoles don&apos;t help, your doctor may recommend arch supports to minimize stress on the metatarsal bones and improve foot function. Off-the-shelf arch supports come in various sizes and can be fitted immediately. More durable arch supports can be custom-made from a foam mold or plaster cast of your foot.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Rigid arch supports are made of a firm material such as plastic or carbon fiber. They&apos;re designed to control motion in two major foot joints below your ankles. Semirigid arch supports are made of softer materials such as leather and cork reinforced by silicone. Arch supports designed to treat metatarsalgia may include metatarsal pads, too.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If conservative treatments fail, in rare cases surgery to realign the metatarsal bones may be an option. If you&apos;re considering foot surgery, discuss the benefits and risks with your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you&apos;re serious about sports, your metatarsals may take a beating. But that doesn&apos;t mean you have to live with pain and injuries. To help protect your feet: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose the right shoes.&lt;/strong&gt; Wearing high heels or too-small shoes can set the stage for a host of foot problems, including metatarsalgia. The same is true of shoes that don&apos;t provide enough support and cushioning. Look for shoes with a wide toe box and a rocker sole, which redistribute weight on the bottom of your foot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider cushioned insoles or arch supports.&lt;/strong&gt; These products can help prevent the pain of metatarsalgia &amp;mdash; as well as relieve the pain when it develops.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Keeping your weight within a healthy range can take a load off your feet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re recovering from an injury, don&apos;t try to resume strenuous activity too soon. If you&apos;re not completely healed &amp;mdash; or you train through the pain &amp;mdash; you may develop more severe problems that limit your activity even longer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Metatarsalgia
+	</Title>
+	<Abstract>
+		Metatarsalgia &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this foot injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02159" LinkType="Internal" ObjectID="2A44C27E-F7FE-9781-D7A855BD43C62CF1" Title="Barefoot running shoes: Better than traditional running shoes?" Url="http://www.mayoclinic.com/health/barefoot-running-shoes/AN02159" />
+	</RelatedLinksBox>
+</Disease>

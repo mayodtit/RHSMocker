@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01206
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bone-metastasis/DS01206
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-27
+		</UpdateDate>
+		<PublicationDate>
+			2012-04-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="4950" Title="Bone metastasis" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			74C57B99-F041-4BF5-2E96C23D372F678D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bone metastasis
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer spread to bone
+			</MetaKeyword>
+			<MetaKeyword>
+				stage IV cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				bone metastases
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone metastasis occurs when cancer cells spread from their original site to a bone. Nearly all types of cancer can spread (metastasize) to the bones. But some types of cancer are particularly likely to spread to bone, including breast cancer and prostate cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Bone metastasis can occur in any bone but more commonly occurs in the pelvis and spine. Bone metastasis may be the first sign that you have cancer, or bone metastasis may occur years after cancer treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Bone metastasis can cause pain and broken bones. With rare exceptions, cancer that has spread to the bones can&apos;t be cured. Treatments can help reduce pain and other symptoms of bone metastases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of bone metastasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone pain&lt;/li&gt;
+	&lt;li&gt;Broken bones&lt;/li&gt;
+	&lt;li&gt;Urinary incontinence&lt;/li&gt;
+	&lt;li&gt;Bowel incontinence&lt;/li&gt;
+	&lt;li&gt;Weakness in the legs&lt;/li&gt;
+	&lt;li&gt;High levels of calcium in the blood (hypercalcemia), which can cause nausea, vomiting and confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you experience persistent signs and symptoms that worry you, make an appointment with your doctor. If you&apos;ve been treated for cancer in the past, tell your doctor about your medical history and that you&apos;re concerned about your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone metastasis occurs when cancer cells break away from the original tumor and spread to the bones, where they begin to multiply. It&apos;s believed that cancer cells arrive in the bones by traveling through the blood vessels. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors aren&apos;t sure what causes some cancers to spread. And it&apos;s not clear why some cancers travel to the bones rather than to other common sites for metastasis, such as the liver. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Virtually any type of cancer can spread to the bones, but the cancers most likely to cause bone metastasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast cancer&lt;/li&gt;
+	&lt;li&gt;Kidney cancer&lt;/li&gt;
+	&lt;li&gt;Lung cancer&lt;/li&gt;
+	&lt;li&gt;Lymphoma&lt;/li&gt;
+	&lt;li&gt;Multiple myeloma&lt;/li&gt;
+	&lt;li&gt;Prostate cancer&lt;/li&gt;
+	&lt;li&gt;Thyroid cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. Tell your doctor if you&apos;ve been treated for cancer in the past, even if you received cancer treatment many years ago. If you&apos;re diagnosed with a bone metastasis, you&apos;ll be referred to a cancer specialist (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. Note how long you&apos;ve been experiencing your symptoms and what makes the symptoms worse or better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For bone metastasis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any experimental treatments or clinical trials available to me?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How will those affect my treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Imaging tests are used to investigate signs and symptoms that may indicate bone metastasis. Which tests you undergo depends on your specific situation. Tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;X-ray&lt;/li&gt;
+	&lt;li&gt;Bone scan (bone scintigraphy)&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT)&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+	&lt;li&gt;Positron emission tomography (PET)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for bone metastasis include medications, radiation therapy and surgery. What treatments are best for you will depend on the specifics of your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Medications used in people with bone metastasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone-building medications.&lt;/strong&gt; Drugs commonly used to treat people with thinning bones (osteoporosis) may also help people with bone metastasis. These medications can strengthen bones and reduce the pain caused by bone metastasis, reducing the need for strong pain medications. Bone-building medications may also reduce your risk of developing new bone metastasis. These drugs can be administered every few weeks through a vein in your arm or through an injection. Bone-building medications can cause temporary bone pain and kidney problems. They increase your risk of a rare but serious deterioration of your jawbone (avascular osteonecrosis). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; If cancer has spread to multiple bones, your doctor may recommend chemotherapy. Chemotherapy travels throughout your body to fight cancer cells. Chemotherapy can be taken as a pill, administered through a vein or both. Side effects depend on the specific chemotherapy drugs you are given.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone therapy.&lt;/strong&gt; For cancers that are sensitive to hormones in the body, treatment to suppress those hormones may be an option. Breast cancers and prostate cancers are often sensitive to hormone-blocking treatments. Hormone therapy can involve taking medications to lower natural hormone levels or medications that block the interaction between hormones and cancer cells. Another option is surgery to remove hormone-producing organs &amp;mdash; in women, the ovaries, and in men, the testes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain medications.&lt;/strong&gt; Pain medications may control the pain caused by bone metastasis. Pain medications may include over-the-counter pain relievers, such as ibuprofen (Advil, Motrin, others), or strong prescription pain relievers, such as morphine (Avinza, MS Contin, others). It may take time to determine what combination of pain medications works best for you. If you&apos;re taking medications but still experiencing pain, tell your doctor. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;External radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. Radiation therapy may be an option if your bone metastasis is causing pain that isn&apos;t controlled with pain medications. Depending on your situation, radiation to the bone can be administered in one large dose or several smaller doses over many days. Side effects of radiation depend on the site being treated. In general, radiation therapy causes skin redness and fatigue. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgical procedures can help stabilize a bone that is at risk of breaking or repair a broken bone. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to stabilize the bone.&lt;/strong&gt; If the bone is in danger of breaking due to bone metastasis, surgeons can stabilize the bone using metal plates, screws and nails (orthopedic fixation). Orthopedic fixation can relieve pain and improve function. Often, radiation therapy is given after you have healed from surgery. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to inject a bone with cement.&lt;/strong&gt; Bones that can&apos;t be easily reinforced with metal plates or screws, such as pelvic bones and bones in the spine, may benefit from bone cement. Doctors inject bone cement into a bone that is broken or damaged by bone metastasis. This procedure can reduce pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to repair a broken bone.&lt;/strong&gt; If bone metastasis has caused a bone to break, surgeons may work to repair the bone. This involves using metal plates, screws and nails to stabilize the bone. Joint replacement, such as a hip replacement, may be another option. In general, broken bones caused by bone metastasis aren&apos;t helped by placing a cast on the broken bone. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heating and freezing cancer cells&lt;/strong&gt; &lt;br /&gt;
+Procedures to damage cancer cells with heat or cold may help control pain. These procedures may be an option if you have one or two areas of bone metastasis and aren&apos;t helped by other treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+During a procedure called radiofrequency ablation, a needle containing an electric probe is inserted into the bone tumor. Electricity passes through the probe and heats the surrounding tissue. The tissue is allowed to cool down, and the process is repeated. A similar procedure called cryoablation freezes the tumor and then allows it to thaw. The process is repeated multiple times. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects can include damage to nearby structures, such as nerves, and damage to bones that can increase the risk of a broken bone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Intravenous radiation&lt;/strong&gt; &lt;br /&gt;
+For people with multiple bone metastases, a form of radiation called radiopharmaceuticals can be given through a vein. Radiopharmaceuticals use low levels of radioactive material that has a strong attraction to bones. Once in your body, the particles travel to the areas of bone metastasis and release their radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiopharmaceuticals can help control pain caused by bone metastasis. This treatment doesn&apos;t require a hospital stay, and you won&apos;t be radioactive after treatment. Side effects can include damage to the bone marrow, which can lead to low blood cell counts. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are studies of new treatments and new ways of using existing treatments. Enrolling in a clinical trial gives you the chance to try the latest treatments. But a cure isn&apos;t guaranteed, and the side effects of new treatments may not be known. Discuss the available clinical trials with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;/strong&gt; &lt;br /&gt;
+A physical therapist can work with you to devise a plan that will help you increase your strength and improve your mobility. A physical therapist may suggest assistive devices to help you cope. Examples might include crutches or a walker to take weight off an affected bone while walking, a cane to improve balance, or a brace to stabilize the spine. A physical therapist may also suggest specific exercises to help you keep your strength up and reduce your pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with bone metastasis requires more than enduring bone pain. It also involves coming to terms with the news that your cancer has spread beyond its original site. Cancer that has metastasized can be very difficult to cure, though people can live several years with bone metastasis. Your doctor will work to minimize your pain and to maintain your function so that you can continue your daily activities. 
+&lt;/p&gt;
+&lt;p&gt;
+Each person finds his or her own way to cope with a cancer diagnosis. Until you find what works best for you, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out enough about bone metastasis to make decisions about your care.&lt;/strong&gt; Ask your doctor about the details of your cancer and your treatment options. Ask about trusted sources of further information. If you do research on your own, good places to start include the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Although friends and family can be your best allies, in some cases they may have difficulty coping with the shock of your diagnosis. In these cases, talking with a counselor, medical social worker, or a pastoral or religious counselor can be helpful. Ask your doctor for a referral.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; You may find comfort in talking with other cancer survivors. Cancer survivors can provide unique insight into your situation. Contact your local chapter of the American Cancer Society to find cancer support groups in your area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Come to terms with your illness.&lt;/strong&gt; Coming to terms with the fact that your cancer may no longer be curable can be difficult. For some people, having a strong faith or a sense of something greater than themselves makes this process easier. Others seek counseling from someone who understands life-threatening illnesses, such as a medical social worker, psychologist or chaplain. Many people also take steps to ensure that their end-of-life wishes are known and respected by writing down their wishes and discussing them with their loved ones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bone metastasis
+	</Title>
+	<Abstract>
+		Bone metastasis &amp;mdash; Comprehensive overview covers symptoms and treatment of bone metastasis in people with cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01633" LinkType="Internal" ObjectID="F017285C-C4C6-D533-24361BF6E21B57FB" Title="Hormone therapy for prostate cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-prostate-cancer/MY01633" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00307" LinkType="Internal" ObjectID="9AE53C6F-E7FF-0DBD-17468FABB8482EEF" Title="X-ray" Url="http://www.mayoclinic.com/health/x-ray/MY00307" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00306" LinkType="Internal" ObjectID="9AE16992-E7FF-0DBD-188029DE09392BC4" Title="Bone scan" Url="http://www.mayoclinic.com/health/bone-scan/MY00306" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="HQ01306" LinkType="Internal" ObjectID="1D66B64D-F30C-436E-ABFFEC8971616F07" Title="Cancer diagnosis: 11 tips for coping" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ01306" />
+		<LinkItem ContentType="Disease" DocID="DS00492" LinkType="Internal" ObjectID="F7CF6A7B-63EA-49E6-88C057D7C9F6AA1C" Title="Thyroid cancer" Url="http://www.mayoclinic.com/health/thyroid-cancer/DS00492" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS00186" LinkType="Internal" ObjectID="A0FF52F1-F396-4240-BF1993EB72EF4C80" Title="Hodgkin&apos;s lymphoma (Hodgkin&apos;s disease)" Url="http://www.mayoclinic.com/health/hodgkins-disease/DS00186" />
+		<LinkItem ContentType="Disease" DocID="DS01076" LinkType="Internal" ObjectID="63426615-E7FF-0DBD-1994B85EEA8B6116" Title="Cancer" Url="http://www.mayoclinic.com/health/cancer/DS01076" />
+		<LinkItem ContentType="Disease" DocID="DS00415" LinkType="Internal" ObjectID="214BA123-97CC-4F97-89A1344C33E12F05" Title="Multiple myeloma" Url="http://www.mayoclinic.com/health/multiple-myeloma/DS00415" />
+		<LinkItem ContentType="Disease" DocID="DS00043" LinkType="Internal" ObjectID="19DD7485-629A-44DE-A9B65BAC360EF5B3" Title="Prostate cancer" Url="http://www.mayoclinic.com/health/prostate-cancer/DS00043" />
+		<LinkItem ContentType="Disease" DocID="DS00360" LinkType="Internal" ObjectID="162FE2ED-4D6F-4BB4-9DF39A9952A1A2EA" Title="Kidney cancer" Url="http://www.mayoclinic.com/health/kidney-cancer/DS00360" />
+	</RelatedLinksBox>
+</Disease>

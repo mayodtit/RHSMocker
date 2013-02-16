@@ -1,0 +1,333 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00337
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bruxism/DS00337
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2001-08-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3971" Title="Sleep conditions">
+						<Keyword MCVID="2359" Title="Bruxism/teeth grinding" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			306B2CFF-DB88-4A91-9EF8A73732B1F0BD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bruxism
+			</MetaKeyword>
+			<MetaKeyword>
+				TMD
+			</MetaKeyword>
+			<MetaKeyword>
+				teeth grinding
+			</MetaKeyword>
+			<MetaKeyword>
+				grinding teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				dental compression syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				temporomandibular disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				TMJ
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep bruxism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bruxism (BRUK-siz-um) is a condition in which you grind, gnash or clench your teeth. If you have bruxism, you may unconsciously clench your teeth together during the day or grind them at night, which is called sleep bruxism. 
+&lt;/p&gt;
+&lt;p&gt;
+Bruxism may be mild and may not even require treatment. However, it can be frequent and severe enough to lead to jaw disorders, headaches, damaged teeth and other problems. Because you may have sleep bruxism and be unaware of it until complications develop, it&apos;s important to know the signs and symptoms of bruxism and to seek regular dental care.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of bruxism may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Teeth grinding or clenching, which may be loud enough to awaken your sleep partner &lt;/li&gt;
+	&lt;li&gt;Teeth that are worn down, flattened, fractured or chipped&lt;/li&gt;
+	&lt;li&gt;Worn tooth enamel, exposing deeper layers of your tooth&lt;/li&gt;
+	&lt;li&gt;Increased tooth sensitivity&lt;/li&gt;
+	&lt;li&gt;Jaw pain or tightness in your jaw muscles&lt;/li&gt;
+	&lt;li&gt;Tired jaw muscles&lt;/li&gt;
+	&lt;li&gt;Earache &amp;mdash; because of severe jaw muscle contractions, not a problem with your ear&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Chronic facial pain&lt;/li&gt;
+	&lt;li&gt;Damage from chewing on the inside of your cheek&lt;/li&gt;
+	&lt;li&gt;Indentations on your tongue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor or dentist if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your teeth are worn, damaged or sensitive&lt;/li&gt;
+	&lt;li&gt;You have pain in your jaw, face or ear&lt;/li&gt;
+	&lt;li&gt;Others complain that you make a grinding noise while you sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you notice that your child is grinding his or her teeth &amp;mdash; or has other signs or symptoms of this condition &amp;mdash; be sure to mention it at your child&apos;s next dentist appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t completely understand what causes bruxism. Possible physical or psychological causes may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety, stress or tension&lt;/li&gt;
+	&lt;li&gt;Suppressed anger or frustration&lt;/li&gt;
+	&lt;li&gt;Aggressive, competitive or hyperactive personality type&lt;/li&gt;
+	&lt;li&gt;Abnormal alignment of upper and lower teeth (malocclusion)&lt;/li&gt;
+	&lt;li&gt;Other sleep problems&lt;/li&gt;
+	&lt;li&gt;Response to pain from an earache or teething (in children)&lt;/li&gt;
+	&lt;li&gt;Complication resulting from a disorder, such as Huntington&apos;s disease or Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;An uncommon side effect of some psychiatric medications, including certain antidepressants&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors increase your risk of bruxism: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Increased anxiety or stress can lead to teeth grinding. So can anger and frustration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Bruxism is common in young children, but usually goes away by adolescence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stimulating substances.&lt;/strong&gt; Smoking tobacco, drinking caffeinated beverages or alcohol, or taking illegal drugs such as methamphetamine or ecstasy can increase the risk of bruxism.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, bruxism doesn&apos;t cause serious complications. But severe bruxism may lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Damage to your teeth (including restorations and crowns) or jaw&lt;/li&gt;
+	&lt;li&gt;Tension-type headaches&lt;/li&gt;
+	&lt;li&gt;Facial pain&lt;/li&gt;
+	&lt;li&gt;Temporomandibular disorders &amp;mdash; which occur in the temporomandibular joints (TMJs), located just in front of your ears and felt when opening and closing your mouth&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s usually best to see your dentist first, though you may also see a family doctor or general practitioner if your dentist feels it&apos;s necessary. In some cases when you call to set up an appointment, you may be referred immediately to a sleep specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance. For instance, if you have been seen for bruxism-related problems in the past, records of what was identified and what treatment you received may be helpful to have with you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor or dentist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For bruxism, some basic questions to ask your doctor or dentist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor or dentist&lt;br /&gt;
+&lt;/strong&gt;Your doctor or dentist is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Take steps to reduce stress in your life and avoid the triggers that cause anxiety for you. Even if the cause of your bruxism is unknown, reducing stress is good for your general health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During regular dental exams, your dentist likely will check for physical signs of bruxism, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unusual wear and tear on your teeth&lt;/li&gt;
+	&lt;li&gt;Continued breakdown of dental restorations, including loss of crowns&lt;/li&gt;
+	&lt;li&gt;Tooth fractures&lt;/li&gt;
+	&lt;li&gt;Tooth sensitivity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have any of these signs, your dentist will look for changes in your teeth and mouth over the next several visits to see if the process is progressive and to determine whether you need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If your dentist suspects that you have bruxism, he or she will try to determine its cause by asking questions about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your general dental health&lt;/li&gt;
+	&lt;li&gt;Your daily medications&lt;/li&gt;
+	&lt;li&gt;Whether you routinely drink alcohol or caffeinated beverages, especially during the evening&lt;/li&gt;
+	&lt;li&gt;Your sleep habits, especially about any unusual grinding sounds heard by your sleeping partner during the night&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To evaluate the extent of bruxism, your dentist may check for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tenderness in your jaw muscles&lt;/li&gt;
+	&lt;li&gt;Obvious dental abnormalities, such as broken or missing teeth or poor tooth alignment&lt;/li&gt;
+	&lt;li&gt;Damage to your teeth, the underlying bone and the inside of your cheeks, usually with the help of X-rays&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A dental examination may detect other disorders that can cause similar jaw or ear pain, such as temporomandibular joint (TMJ) disorders, other dental disorders or an ear infection. If your dentist suspects a significant psychological component to your teeth grinding or a sleep-related disorder, you may be referred to a therapist, counselor or sleep specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+A sleep specialist may conduct additional tests, such as video monitoring and measuring how often your jaw muscles contract while you sleep.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, no treatment is necessary. Many kids outgrow bruxism without special treatment, and many adults don&apos;t grind or clench their teeth badly enough to require therapy. However, if the problem is severe, treatment options include certain therapies and medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress management.&lt;/strong&gt; If you grind your teeth because of stress, you may be able to prevent the problem with professional counseling or strategies that promote relaxation, such as exercise and meditation. If your child grinds his or her teeth because of tension or fear, it may help your child to talk about his or her fears just before bed or to relax with a warm bath or a favorite book.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dental approaches.&lt;/strong&gt; If you or your child has bruxism, your doctor may suggest a mouth guard or protective dental appliance (splint) to prevent damage to the teeth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Splints&lt;/strong&gt; are usually constructed of hard acrylic and fit over your upper or lower teeth. Some dentists may make them right in the office, while others may send them to a laboratory to be made.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mouth guards&lt;/strong&gt; are available over-the-counter and from your dentist. Your dentist can make a custom mouth guard to fit your mouth. Mouth guards are less expensive than are splints, they are softer than splints, and over time they may dislodge during teeth grinding. In addition, mouth guards may actually increase bruxism in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Correcting misaligned teeth&lt;/strong&gt; may help if your bruxism seems to be associated with dental problems. In severe cases &amp;mdash; when tooth wear has led to sensitivity or the inability to chew properly &amp;mdash; your dentist may need to use overlays or crowns to entirely reshape the chewing surfaces of your teeth. Reconstructive treatment can be quite extensive and although it will correct the wear, it may not stop the bruxism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Behavior therapy.&lt;/strong&gt; Once you discover that you have bruxism, you may be able to change the behavior by practicing proper mouth and jaw position. Concentrate on resting your tongue upward with your teeth apart and your lips closed. This should keep your teeth from grinding and your jaw from clenching. Ask your dentist to show you the best position for your mouth and jaw.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re having a hard time changing your habits, you may benefit from biofeedback, a form of complementary and alternative medicine that uses a variety of monitoring procedures and equipment to teach you to control involuntary body responses.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;In general, medications aren&apos;t very effective for treatment of bruxism. In some cases, your doctor may suggest taking a muscle relaxant before bedtime. If you develop bruxism as a side effect of an antidepressant medication, your doctor may change your medication or prescribe another medication to counteract your bruxism. OnabotulinumtoxinA (Botox) injections may help some people with severe bruxism who haven&apos;t responded to other treatments. However, more research is needed, as this treatment hasn&apos;t been thoroughly studied.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These self-care steps may prevent or help treat bruxism: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; Listening to music, taking a warm bath or exercising can help relax you and may reduce your risk of developing bruxism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid stimulating substances in the evening.&lt;/strong&gt; Don&apos;t drink coffee or tea after dinner, and avoid alcohol and smoking during the evening as they may worsen bruxism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your sleep partner.&lt;/strong&gt; If you have a sleeping partner, ask him or her to be aware of any grinding or clicking sounds that you might make while sleeping. Your sleep partner can then let you know if he or she notices any teeth-grinding sounds in the night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schedule regular dental exams.&lt;/strong&gt; Dental exams are the best way to screen against bruxism, especially if you live alone or don&apos;t have a sleep partner who can observe bruxism at night. Your dentist can best spot signs of bruxism in your mouth and jaw with regular visits and examinations.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bruxism/teeth grinding
+	</Title>
+	<Abstract>
+		Bruxism/teeth grinding &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this potentially damaging condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Disease" DocID="DS00355" LinkType="Internal" ObjectID="E6A33D9C-270D-4C8E-8EB4E85B6828E96E" Title="TMJ disorders" Url="http://www.mayoclinic.com/health/tmj-disorders/DS00355" />
+	</RelatedLinksBox>
+</Disease>

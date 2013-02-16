@@ -1,0 +1,346 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00515
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spinal-stenosis/DS00515
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-28
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="1730" Title="Spinal stenosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87550A09-A5DC-4475-BFE663DE6EAF63F1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spinal stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				spine
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				myelopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				back
+			</MetaKeyword>
+			<MetaKeyword>
+				vertebrae
+			</MetaKeyword>
+			<MetaKeyword>
+				claudication
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord
+			</MetaKeyword>
+			<MetaKeyword>
+				laminectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				laminotomy
+			</MetaKeyword>
+			<MetaKeyword>
+				fusion
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal fusion
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoarthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				lumbar
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spinal stenosis is a narrowing of the open spaces within your spine, which can put pressure on your spinal cord and the nerves that travel through the spine. Spinal stenosis occurs most often in the neck and lower back.
+&lt;/p&gt;
+&lt;p&gt;
+While some people have no signs or symptoms, spinal stenosis can cause pain, numbness, muscle weakness, and problems with bladder or bowel function. 
+&lt;/p&gt;
+&lt;p&gt;
+Spinal stenosis is most commonly caused by wear-and-tear changes in the spine related to aging. In severe cases of spinal stenosis, doctors may recommend surgery to create additional space for the spinal cord or nerves.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of narrowed spinal canal 
+" Caption="Spinal stenosis occurs when the space within the spinal canal or around the nerve roots becomes narrowed. 
+" Height="60" Title="Spinal stenosis" URI="/images/image_popup/thumbs/mcdc7_spinal_stenosisthu.jpg" Width="60" />
+				<Image Alt="Illustration of narrowed spinal canal 
+" Caption="Spinal stenosis occurs when the space within the spinal canal or around the nerve roots becomes narrowed. 
+" Height="576" Title="Spinal stenosis" URI="/images/image_popup/mcdc7_spinal_stenosis.jpg" Width="400" />
+				<HTML>
+					Spinal stenosis occurs when the space within the spinal canal or around the nerve roots becomes narrowed. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people have evidence of spinal stenosis on X-rays, but have no signs or symptoms. When symptoms do occur, they often start gradually and worsen over time. Symptoms vary, depending on the location of the stenosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;In the neck.&lt;/strong&gt; Narrowing in the upper (cervical) spine can cause numbness, weakness or tingling in a leg, foot, arm or hand. In severe cases, nerves to the bladder or bowel may be affected, leading to incontinence. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;In the lower back&lt;/strong&gt;. Compressed nerves in your lower (lumbar) spine can cause pain or cramping in your legs when you stand for long periods of time or when you walk. The discomfort usually eases when you bend forward or sit down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you have persistent pain, numbness or weakness in your back, legs or arms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While some people are born with a small spinal canal, most spinal stenosis occurs when something happens to reduce the amount of space available within the spine. Causes of spinal stenosis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Overgrowth of bone.&lt;/strong&gt; Wear and tear on your spinal bones can prompt the formation of bone spurs, which can grow into the spinal canal. Paget&apos;s disease, a bone disease that usually affects adults, also can cause bone overgrowth in the spine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herniated disks.&lt;/strong&gt; The soft cushions that act as shock absorbers between your vertebrae tend to dry out with age. Cracks in a disk&apos;s exterior may allow some of the soft inner material to escape and press on the spinal cord or nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thickened ligaments.&lt;/strong&gt; The tough cords that help hold the bones of your spine together can become stiff and thick over time. These thicker ligaments can bulge into the spinal canal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumors.&lt;/strong&gt; Abnormal growths can form inside the spinal cord, within the membranes that cover the spinal cord or in the space between the spinal cord and vertebrae.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal injuries.&lt;/strong&gt; Car accidents and other major trauma can cause dislocations or fractures of one or more vertebrae. Displaced bone from a spinal fracture may damage the contents of the spinal canal. Swelling of adjacent tissue immediately following back surgery also can put pressure on the spinal cord or nerves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bone spurs on spine 
+" Caption="As your spine ages, it&apos;s more likely to experience bone spurs or herniated disks. These problems can reduce the amount of space available for your spinal cord and the nerves that branch off it. 
+" Height="60" Title="Bone spurs on spine" URI="/images/image_popup/thumbs/mcdc7_degenerative_spinethu.jpg" Width="60" />
+				<Image Alt="Illustration showing bone spurs on spine 
+" Caption="As your spine ages, it&apos;s more likely to experience bone spurs or herniated disks. These problems can reduce the amount of space available for your spinal cord and the nerves that branch off it. 
+" Height="300" Title="Bone spurs on spine" URI="/images/image_popup/mcdc7_degenerative_spine.jpg" Width="400" />
+				<HTML>
+					As your spine ages, it&apos;s more likely to experience bone spurs or herniated disks. These problems can reduce the amount of space available for your spinal cord and the nerves that branch off it. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with spinal stenosis have passed the age of 50. When younger people develop spinal stenosis, the cause is typically a genetic disease affecting bone and muscle development throughout the body.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Severe cases of spinal stenosis may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Numbness&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Incontinence&lt;/li&gt;
+	&lt;li&gt;Paralysis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your family doctor suspects that you have spinal stenosis, he or she may refer you to a doctor who specializes in disorders of the nervous system (neurologist). Depending on the severity of your symptoms, you might also be referred to a spinal surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before the appointment, you might want to prepare a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice this problem?&lt;/li&gt;
+	&lt;li&gt;Has it worsened with time?&lt;/li&gt;
+	&lt;li&gt;Have your parents or siblings ever had similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have other medical problems?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have pain? Where is it?&lt;/li&gt;
+	&lt;li&gt;Does any position ease the pain or worsen it?&lt;/li&gt;
+	&lt;li&gt;Do you have any weakness, numbness or tingling?&lt;/li&gt;
+	&lt;li&gt;Do you feel more clumsy lately?&lt;/li&gt;
+	&lt;li&gt;Have you had any difficulty controlling your bowel or bladder?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spinal stenosis can be difficult to diagnose because its signs and symptoms resemble those of many age-related conditions. Imaging tests may be needed to help pinpoint the true cause of your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;These tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Although an X-ray isn&apos;t likely to confirm that you have spinal stenosis, it can help rule out other problems that cause similar symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; In most cases, this is the imaging test of choice for diagnosing spinal stenosis. Instead of X-rays, an MRI uses a powerful magnet and radio waves to produce cross-sectional images of your spine. The test can detect damage to your disks and ligaments, as well as the presence of tumors. Most important, it can show pressure on the spinal cord or spinal nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT myelogram.&lt;/strong&gt; Computerized tomography (CT) combines X-ray images taken from many different angles to produce detailed, cross-sectional images of your body &amp;mdash; including the shape and size of your spinal canal. In a CT myelogram, the CT scan is conducted after a contrast dye is injected. The dye outlines the spinal cord and nerves, and it can reveal herniated disks, bone spurs and tumors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The type of treatment you receive for spinal stenosis may vary, depending on the location of the stenosis and the severity of your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;To control pain associated with spinal stenosis, your doctor may prescribe:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;NSAIDs.&lt;/strong&gt; Nonsteroidal anti-inflammatory drugs (NSAIDs) help relieve pain and reduce inflammation. Some NSAIDs, such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve), are available without prescription.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle relaxants.&lt;/strong&gt; Medications such as cyclobenzaprine (Amrix, Flexeril) can calm the muscle spasms that sometimes occur with spinal stenosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Nightly doses of tricyclic antidepressants, such as amitriptyline, can help ease chronic pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure drugs.&lt;/strong&gt; Some anti-seizure drugs, such as gabapentin (Neurontin, Gralise) and pregabalin (Lyrica), are used to reduce pain caused by damaged nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opioids.&lt;/strong&gt; Drugs such as oxycodone (Oxycontin, Percocet, others) and hydrocodone (Lortab, Vicodin, others) contain substances related to codeine and can be habit-forming.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can teach you exercises that may help:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Build up your strength and endurance&lt;/li&gt;
+	&lt;li&gt;Maintain the flexibility and stability of your spine&lt;/li&gt;
+	&lt;li&gt;Improve your balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Steroid injections&lt;br /&gt;
+&lt;/strong&gt;Your nerve roots may become irritated and swollen at the spots where they are being pinched. Injecting a corticosteroid into the space around that constriction can help reduce the inflammation and relieve some of the pressure. However, repeated steroid injections can weaken nearby bones and connective tissue, so only a few injections a year are allowed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery may be considered if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;More conservative treatments haven&apos;t helped&lt;/li&gt;
+	&lt;li&gt;You&apos;re disabled by your symptoms&lt;/li&gt;
+	&lt;li&gt;You&apos;re in good health otherwise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The goal is to relieve the pressure on your spinal cord or nerve roots. For example, a laminectomy removes the back part (lamina) of the affected vertebra to create more room within the spinal canal. In some cases, vertebrae also may need to be fused together to maintain the spine&apos;s strength. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, surgery helps reduce spinal stenosis symptoms. But some people&apos;s symptoms stay the same or get worse after surgery. Surgical risks include infection, a tear in the membrane that covers the spinal cord, a blood clot in a leg vein and neurological deterioration.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of laminectomy 
+" Caption="Laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves. This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (spinal stenosis) or by a herniated disk. 
+" Height="60" Title="Laminectomy" URI="/images/image_popup/thumbs/mcdc7_lumbar_laminectomythu.jpg" Width="60" />
+				<Image Alt="Illustration of laminectomy 
+" Caption="Laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves. This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (spinal stenosis) or by a herniated disk. 
+" Height="313" Title="Laminectomy" URI="/images/image_popup/mcdc7_lumbar_laminectomy.jpg" Width="400" />
+				<HTML>
+					Laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves. This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following home treatments might help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Over-the-counter medications such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve) can help reduce pain and inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hot or cold packs.&lt;/strong&gt; Some symptoms of cervical spinal stenosis may be relieved by applying heat or ice to your neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Canes or walkers.&lt;/strong&gt; In addition to providing stability, these assistive devices can help relieve pain by allowing you to bend forward while walking.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Spinal stenosis
+	</Title>
+	<Abstract>
+		Spinal stenosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of degenerative condition of the spine.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00674" LinkType="Internal" ObjectID="E8790835-BF32-DE70-BE0F8A0EE6E5510D" Title="Laminectomy" Url="http://www.mayoclinic.com/health/laminectomy/MY00674" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01235" LinkType="Internal" ObjectID="49323B9C-A8F8-538A-C596AED70E8A631B" Title="Spinal fusion" Url="http://www.mayoclinic.com/health/spinal-fusion/MY01235" />
+		<LinkItem ContentType="Answer" DocID="HQ01278" LinkType="Internal" ObjectID="23508468-4BBF-4913-B661F11F96440452" Title="Pseudoclaudication: Is it related to claudication?" Url="http://www.mayoclinic.com/health/pseudoclaudication/HQ01278" />
+	</RelatedLinksBox>
+</Disease>

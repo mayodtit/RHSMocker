@@ -1,0 +1,382 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00955
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/porphyria/DS00955
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="3149" Title="Genetic disorders">
+						<Keyword MCVID="3165" Title="Porphyria" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE7CC9D-E7FF-0DBD-1D631FDFDC47E5AB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				porphyria
+			</MetaKeyword>
+			<MetaKeyword>
+				porphyrins
+			</MetaKeyword>
+			<MetaKeyword>
+				heme
+			</MetaKeyword>
+			<MetaKeyword>
+				acute porphyria
+			</MetaKeyword>
+			<MetaKeyword>
+				cutaneous porphyria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Porphyria (poor-FEAR-ee-uh) refers to a group of disorders that result in a buildup of chemicals called porphyrins in your body. Although porphyrins are normal body chemicals, it&apos;s not normal for them to build up. The cause is usually an inherited mutation. 
+&lt;/p&gt;
+&lt;p&gt;
+Porphyria typically affects your nervous system or skin or both. The specific signs and symptoms of porphyria depend on which of your genes is abnormal. Porphyria is usually inherited, but environmental factors may trigger the development of symptoms in some types of porphyria. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment depends on the type of porphyria you have. Although porphyria usually can&apos;t be cured, certain lifestyle changes may help you manage porphyria. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are two general categories of porphyria &amp;mdash; acute and cutaneous. Signs and symptoms depend on the type of porphyria you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute porphyrias.&lt;/strong&gt; These include forms of the disease that cause predominantly nervous system symptoms and, in some cases, skin symptoms, as well. Acute porphyria attacks are rare before puberty and after menopause in women. Signs and symptoms may last one to two weeks. Possible signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Anxiety or restlessness&lt;/li&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Pain in your arms, legs or back&lt;/li&gt;
+	&lt;li&gt;Muscle pain, tingling, numbness, weakness or paralysis&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Excessive sweating&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Disorientation&lt;/li&gt;
+	&lt;li&gt;Paranoia&lt;/li&gt;
+	&lt;li&gt;Red urine&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cutaneous porphyrias.&lt;/strong&gt; These include forms of the disease that cause skin symptoms as a result of oversensitivity to sunlight, but don&apos;t affect your nervous system. Some forms of cutaneous porphyria begin to show signs and symptoms during infancy or childhood. If you have this form of porphyria, you may experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Painful skin redness (erythema)&lt;/li&gt;
+	&lt;li&gt;Skin swelling (edema)&lt;/li&gt;
+	&lt;li&gt;Blisters&lt;/li&gt;
+	&lt;li&gt;Red urine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Many signs and symptoms of porphyria are similar to those of other, more common conditions. This can make it difficult to know if you&apos;re having an attack of porphyria. Any of the following symptoms should prompt you to seek immediate medical attention: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe abdominal pain, sometimes accompanied by vomiting or constipation&lt;/li&gt;
+	&lt;li&gt;Muscle pain&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Disorientation&lt;/li&gt;
+	&lt;li&gt;Painful skin redness&lt;/li&gt;
+	&lt;li&gt;Skin swelling&lt;/li&gt;
+	&lt;li&gt;Blisters that appear soon after sun exposure&lt;/li&gt;
+	&lt;li&gt;Red urine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Porphyria arises from a disruption in your body&apos;s production of a substance called heme. 
+&lt;/p&gt;
+&lt;p&gt;
+Heme is found in all of your tissues, but the largest amounts are in your red blood cells, bone marrow and liver. Heme is a major component of hemoglobin, an iron-rich protein that gives your blood its red color. Hemoglobin enables red blood cells to carry oxygen from your lungs to all parts of your body, and to carry carbon dioxide from other parts of your body to your lungs so that it can be released when you exhale. 
+&lt;/p&gt;
+&lt;p&gt;
+Eight enzymes convert chemicals called porphyrins into heme. In porphyria, an inherited mutation in one of the genes involved in heme production can cause an enzyme deficiency, which can lead to porphyrins building up in your body. Although porphyrins are normal body chemicals, it&apos;s not normal for them to build up. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Most forms are inherited&lt;/strong&gt;&lt;br /&gt;
+Most of the porphyrias are inherited. Some forms of the disease come from inheriting a defective gene from one of your parents (autosomal dominant pattern). Some other forms come from inheriting defective genes from both parents (autosomal recessive pattern). These gene defects cause one or more of the enzymes involved in the process of converting porphyrins to heme to be abnormal. 
+&lt;/p&gt;
+&lt;p&gt;
+Just because you have inherited a gene or genes that can cause porphyria doesn&apos;t mean that you will exhibit signs and symptoms. You might have what&apos;s called latent porphyria, and never have signs and symptoms. This is the case for most carriers of the abnormal genes. 
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, environmental factors may trigger the development of signs and symptoms in some types of porphyria. When exposed to the trigger, your body&apos;s demand for heme production increases. This overwhelms the deficient enzyme, setting in motion a process that causes your signs and symptoms. Common triggers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drugs (barbiturates and sulfonamide antibiotics are most often cited, but others such as tranquilizers, birth control pills and sedatives also may cause symptoms)&lt;/li&gt;
+	&lt;li&gt;Dieting or fasting&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Infections or other physical stress&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Alcohol use&lt;/li&gt;
+	&lt;li&gt;Menstrual hormones&lt;/li&gt;
+	&lt;li&gt;Sun exposure&lt;/li&gt;
+	&lt;li&gt;Excess iron in your body&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of porphyria include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Vomiting due to an attack of acute porphyria can lead to dehydration, which may require that you receive fluids through a vein (intravenously).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing difficulties.&lt;/strong&gt; Acute porphyrias can cause muscle weakness and paralysis, which can cause breathing problems. If left untreated, they also can lead to respiratory failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low sodium in your blood.&lt;/strong&gt; Called hyponatremia, this is usually linked to problems with sodium and water handling in your body. But, in rare cases, low blood sodium may be a sign that porphyria has damaged your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Porphyrin buildup can damage your kidneys and may result in high blood pressure (hypertension).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; Porphyrin buildup may cause your kidneys to gradually lose their ability to function. Kidney function at less than 10 to 15 percent of normal capacity is considered end-stage kidney disease, which usually requires dialysis or a kidney transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver damage.&lt;/strong&gt; Some forms of porphyria cause excessive porphyrins in your liver, which may lead to severe liver damage that can eventually require a liver transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Permanent skin damage.&lt;/strong&gt; When your skin heals after cutaneous porphyria, it may have abnormal bumps (milia) and coloring (pigmentation). Scars may remain on your skin as well, and lasting skin problems may cause your hair to fall out.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of porphyria, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, because porphyria can be difficult to diagnose, when you call to set up an appointment, you may be referred immediately to a doctor who specializes in blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet or not take any medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions before your appointment will help you make the most of your time together. List your questions from most important to least important. For porphyria, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do I need genetic testing?&lt;/li&gt;
+	&lt;li&gt;How severe is my condition?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. Do I need to make any changes to my medication now that I&apos;ve been diagnosed with porphyria?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;What precautions do I need to take when spending time outdoors?&lt;/li&gt;
+	&lt;li&gt;Do I need to be concerned about taking medications in the future?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should my family members be screened?&lt;/li&gt;
+	&lt;li&gt;Will I need a medical alert bracelet?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do any family members have similar symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Avoid the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sunlight (wear sunscreen and protective clothing when outdoors)&lt;/li&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Any unnecessary drugs, including over-the-counter medications&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Fasting and dehydration&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many signs and symptoms of porphyria are similar to those of other more common diseases. Also, because porphyria is rare, many doctors have not seen cases of the disorder before, making it more difficult to diagnosis. Because porphyria&apos;s signs and symptoms usually aren&apos;t distinctive, laboratory tests are required to make a definitive diagnosis of porphyria and to determine which form of the disease you have. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects porphyria, he or she may recommend the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; If you have a form of acute porphyria, a urine test may reveal elevated levels of two substances: porphobilinogen and delta-aminolevulinic acids, as well as other porphyrins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; If you have a form of cutaneous porphyria, a blood test may show an elevation in the level of porphyrins in your blood plasma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool sample test.&lt;/strong&gt; Analysis of a stool sample may reveal elevated levels of some porphyrins that may not be detected in urine samples. This test may help your doctor determine your specific type of porphyria.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Acute porphyrias&lt;/strong&gt; &lt;br /&gt;
+Treatment of acute porphyrias focuses on eliminating symptoms. This may require hospitalization in severe cases. Treatment may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stopping medications that may have triggered symptoms&lt;/li&gt;
+	&lt;li&gt;Medication to control pain&lt;/li&gt;
+	&lt;li&gt;Prompt treatment of infections or other illness that may have caused symptoms&lt;/li&gt;
+	&lt;li&gt;Intravenous sugar (glucose) to maintain an adequate intake of carbohydrates&lt;/li&gt;
+	&lt;li&gt;Intravenous fluids to combat dehydration&lt;/li&gt;
+	&lt;li&gt;Hemin or hematin (heme arginate) injections, medication that is a form of heme, which can reduce the burden placed on your body to produce heme, thus lowering porphyrin levels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cutaneous porphyrias&lt;/strong&gt; &lt;br /&gt;
+Treatment of cutaneous porphyrias focuses on reducing the amount of porphyrins in your body to help eliminate your symptoms. This may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drawing blood (phlebotomy).&lt;/strong&gt; Phlebotomy involves drawing a certain amount of blood from one of your veins. This reduces the iron in your body, which decreases porphyrins. You may need to undergo phlebotomy several times before cutaneous porphyria goes into remission.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Drugs used to treat malaria &amp;mdash; hydroxychloroquine (Plaquenil) and chloroquine (Aralen) &amp;mdash; can absorb excess porphyrins and help your body get rid of them more quickly than usual. These medications are generally used only in people who can&apos;t tolerate phlebotomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta carotene.&lt;/strong&gt; Long-term treatment of cutaneous porphyrias may include daily doses of beta carotene or other carotenoids, such as canthaxanthin. Your body converts beta carotene to vitamin A, which is necessary for healthy eyes and skin. Beta carotene may increase your skin&apos;s tolerance to sunlight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have porphyria, be sure to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what could trigger symptoms.&lt;/strong&gt; Talk to your doctor about the type of porphyria you have and become familiar with possible symptom triggers and ways to avoid them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inform your health care providers.&lt;/strong&gt; Tell all your health care providers that you have porphyria. This is particularly important if you&apos;re having surgery because, in some cases, surgery can trigger porphyria symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a medical information bracelet or necklace.&lt;/strong&gt; Have information about your condition inscribed on a medical information bracelet or necklace, and always wear it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no way to prevent porphyria, if you have the disease, taking the following steps may help prevent symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid medications known to trigger acute attacks. (Ask your doctor for a list of safe and unsafe drugs.)&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use alcohol or illegal drugs.&lt;/li&gt;
+	&lt;li&gt;Avoid fasting and dieting that involves severe calorie restriction.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t smoke.&lt;/li&gt;
+	&lt;li&gt;Minimize sun exposure.&lt;/li&gt;
+	&lt;li&gt;When you&apos;re outdoors, wear protective clothing and use sunscreen.&lt;/li&gt;
+	&lt;li&gt;Treat infections and other illnesses promptly.&lt;/li&gt;
+	&lt;li&gt;Reduce stress.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because porphyria is an inherited disorder, your siblings and other family members may want to consider undergoing genetic testing to determine if they have the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Porphyria
+	</Title>
+	<Abstract>
+		Porphyria &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of disorders involving the substance heme.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

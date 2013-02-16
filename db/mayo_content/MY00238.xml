@@ -1,0 +1,257 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00238
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pet-scan/MY00238
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-07
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3083" Title="PET scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			05C8BD86-E7FF-0DBD-150059E403970C30
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				PET scan
+			</MetaKeyword>
+			<MetaKeyword>
+				positron emission tomography scan
+			</MetaKeyword>
+			<MetaKeyword>
+				petscan
+			</MetaKeyword>
+			<MetaKeyword>
+				pet test
+			</MetaKeyword>
+			<MetaKeyword>
+				radionuclide
+			</MetaKeyword>
+			<MetaKeyword>
+				radiotracers
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A positron emission tomography (PET) scan is an imaging test that can help reveal how your tissues and organs are functioning. A small amount of radioactive material is necessary to show this activity. 
+&lt;/p&gt;
+&lt;p&gt;
+The precise type of radioactive material and its delivery method depend on which organ or tissue is being studied by the PET scan. The radioactive material may be injected into a vein, inhaled or swallowed. 
+&lt;/p&gt;
+&lt;p&gt;
+More radioactive material accumulates in areas that have higher levels of chemical activity. This often corresponds to areas of disease and shows up as brighter spots on the PET scan. A PET scan is useful in evaluating a variety of conditions &amp;mdash; including neurological problems, heart disease and cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images of PET scans showing normal brain activity (right) and reduced brain activity due to depression (left) 
+" Caption="A PET scan can compare brain activity during periods of depression (left) with normal brain activity (right). An increase of blue and green colors, along with decreased white and yellow areas, shows decreased brain activity due to depression. 
+" Height="60" Title=" PET scan of the brain for depression" URI="/images/image_popup/thumbs/c7_pet_depressionthu.jpg" Width="60" />
+				<Image Alt="Images of PET scans showing normal brain activity (right) and reduced brain activity due to depression (left) 
+" Caption="A PET scan can compare brain activity during periods of depression (left) with normal brain activity (right). An increase of blue and green colors, along with decreased white and yellow areas, shows decreased brain activity due to depression. 
+" Height="400" Title=" PET scan of the brain for depression" URI="/images/image_popup/c7_pet_depression.jpg" Width="400" />
+				<HTML>
+					A PET scan can compare brain activity during periods of depression (left) with normal brain activity (right). An increase of blue and green colors, along with decreased white and yellow areas, shows ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A PET scan is an effective way to examine the chemical activity in certain parts of your body, which may help detect abnormalities in those areas. PET scans are most often used in people who have cancer, heart disease or brain disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer&lt;/strong&gt; &lt;br /&gt;
+Cancer cells show up as brighter spots on PET scans because they have a higher metabolism rate than do normal cells. PET scans may be useful in determining: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The extent or spread of certain cancers&lt;/li&gt;
+	&lt;li&gt;How well the cancer is responding to treatment&lt;/li&gt;
+	&lt;li&gt;If the cancer has recurred&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+PET scans must be interpreted carefully because noncancerous conditions can resemble cancer, and many types of cancer do not appear on PET scans. The types of cancer most likely to show up on PET scans include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brain&lt;/li&gt;
+	&lt;li&gt;Breast&lt;/li&gt;
+	&lt;li&gt;Cervical&lt;/li&gt;
+	&lt;li&gt;Colon&lt;/li&gt;
+	&lt;li&gt;Esophageal&lt;/li&gt;
+	&lt;li&gt;Lung&lt;/li&gt;
+	&lt;li&gt;Lymphoma&lt;/li&gt;
+	&lt;li&gt;Melanoma&lt;/li&gt;
+	&lt;li&gt;Pancreatic&lt;/li&gt;
+	&lt;li&gt;Thyroid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart disease&lt;/strong&gt; &lt;br /&gt;
+Doctors use PET scanning to detect areas of decreased blood flow in the heart. This can help show which areas of the heart might benefit from angioplasty or coronary artery bypass surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain disorders&lt;/strong&gt; &lt;br /&gt;
+A PET scan can show which areas of the brain have the most activity during various tasks. This technology also can evaluate specific brain abnormalities, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tumors&lt;/li&gt;
+	&lt;li&gt;Memory disorders&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="PET scan image of the heart 
+" Caption="This PET image shows an area of reduced blood flow from one of the arteries that feed the heart. This information may help doctors decide whether to suggest bypass surgery or angioplasty to restore that blood flow. 
+" Height="60" Title="PET scan of the heart" URI="/images/image_popup/thumbs/mcdc7_pet_heartthu.jpg" Width="60" />
+				<Image Alt="PET scan image of the heart 
+" Caption="This PET image shows an area of reduced blood flow from one of the arteries that feed the heart. This information may help doctors decide whether to suggest bypass surgery or angioplasty to restore that blood flow. 
+" Height="271" Title="PET scan of the heart" URI="/images/image_popup/mcdc7_pet_heart.jpg" Width="400" />
+				<HTML>
+					This PET image shows an area of reduced blood flow from one of the arteries that feed the heart. This information may help doctors decide whether to suggest bypass surgery or angioplasty to restore ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Images of PET scans showing normal brain activity (right) and reduced brain activity due to depression (left) 
+" Caption="A PET scan can compare brain activity during periods of depression (left) with normal brain activity (right). An increase of blue and green colors, along with decreased white and yellow areas, shows decreased brain activity due to depression. 
+" Height="60" Title=" PET scan of the brain for depression" URI="/images/image_popup/thumbs/c7_pet_depressionthu.jpg" Width="60" />
+				<Image Alt="Images of PET scans showing normal brain activity (right) and reduced brain activity due to depression (left) 
+" Caption="A PET scan can compare brain activity during periods of depression (left) with normal brain activity (right). An increase of blue and green colors, along with decreased white and yellow areas, shows decreased brain activity due to depression. 
+" Height="400" Title=" PET scan of the brain for depression" URI="/images/image_popup/c7_pet_depression.jpg" Width="400" />
+				<HTML>
+					A PET scan can compare brain activity during periods of depression (left) with normal brain activity (right). An increase of blue and green colors, along with decreased white and yellow areas, shows ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although a radioactive substance is used during a PET scan, the amount of radiation that you&apos;re exposed to is too low to affect the normal processes of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+However, this radioactive material might harm the fetus of a pregnant woman. You and your doctor can discuss risk to the fetus or infant versus the reasoning and benefit of having a PET scan performed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A PET scan is usually done on an outpatient basis. Your doctor will give you detailed instructions on how to prepare for your scan. Before undergoing the scan, be sure to tell your doctor about any prescription and over-the-counter medications you&apos;re taking, as well as any vitamins and herbal supplements. If you&apos;re taking certain medications or have certain diseases, such as diabetes, you&apos;ll receive specific instructions before your scan. 
+&lt;/p&gt;
+&lt;p&gt;
+A general rule is to not eat anything for several hours before the scan. Wear comfortable clothes to your appointment. You may be asked to change into a hospital gown for the test. If an area of your body near your bladder needs to be examined, a soft tube (catheter) may be inserted into your urethra to keep urine drained from your bladder during the scan. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant or think you might be pregnant, tell your doctor before undergoing a PET scan. The radioactive substance used during this procedure may expose the fetus to radiation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The PET scanner is a large machine that looks a little like a giant doughnut standing upright, similar to a computerized tomography (CT) machine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the test&lt;/strong&gt; &lt;br /&gt;
+Depending upon the organ being studied, you may inhale or swallow the radioactive substance or receive it intravenously. If the substance is injected intravenously, you might briefly feel a cold sensation moving up your arm. 
+&lt;/p&gt;
+&lt;p&gt;
+You must wait 30 to 60 minutes for the radioactive substance to be absorbed by the organ or tissue to be imaged. After the specified time has passed, you&apos;ll lie on a narrow table that slides into the PET scanner&apos;s opening. The test itself is painless, but you must lie very still or the images will be blurred. It takes about 30 minutes to complete the test, during which time you&apos;ll hear buzzing and clicking sounds. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re claustrophobic, you may feel some anxiety while positioned in the scanner. Be sure to tell the nurse or technologist about any discomfort. Medications can help you feel more relaxed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;/strong&gt; &lt;br /&gt;
+In general, there are no restrictions on your daily routine after the test. However, drink plenty of fluids to help flush the radioactive substance from your body. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Different colors or degrees of brightness on the images from a PET scan represent different levels of tissue and organ function. A radiologist with special training in reading PET scans interprets the images. 
+&lt;/p&gt;
+&lt;p&gt;
+Images from other tests, such as those from recent computerized tomography (CT) or magnetic resonance imaging (MRI), may be compared or even combined with those of your PET scan. Some hospitals have a machine that can take a PET scan and a CT scan at the same time. The resulting images often provide greater clarity. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images of PET scan combined with CT scan 
+" Caption="Combining a PET scan with an MRI or CT scan can help make the images easier to interpret. At left is a CT scan, while the center image is from a PET scanner. The image on the right is a combined CT-PET scan. The bright spot in the chest is lung cancer. 
+" Height="60" Title="PET plus CT" URI="/images/image_popup/thumbs/mcdc7_pet_combinedthu.jpg" Width="60" />
+				<Image Alt="Images of PET scan combined with CT scan 
+" Caption="Combining a PET scan with an MRI or CT scan can help make the images easier to interpret. At left is a CT scan, while the center image is from a PET scanner. The image on the right is a combined CT-PET scan. The bright spot in the chest is lung cancer. 
+" Height="269" Title="PET plus CT" URI="/images/image_popup/mcdc7_pet_combined.jpg" Width="400" />
+				<HTML>
+					Combining a PET scan with an MRI or CT scan can help make the images easier to interpret. At left is a CT scan, while the center image is from a PET scanner. The image on the right is a combined CT-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Positron emission tomography (PET) scan
+	</Title>
+	<Abstract>
+		Positron emission tomography (PET) scan &amp;mdash; Overview covers definition, risks, results of this imaging test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

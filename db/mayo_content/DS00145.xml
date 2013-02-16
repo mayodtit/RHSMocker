@@ -1,0 +1,194 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00145
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sudden-infant-death-syndrome/DS00145
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="1835" Title="Sudden infant death syndrome" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C6E987A2-85CA-4F0E-905EBCEE822950E4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sudden infant death syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				SIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				crib death
+			</MetaKeyword>
+			<MetaKeyword>
+				long QT syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				pacifier
+			</MetaKeyword>
+			<MetaKeyword>
+				pacifiers
+			</MetaKeyword>
+			<MetaKeyword>
+				infant care
+			</MetaKeyword>
+			<MetaKeyword>
+				newborn care
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sudden infant death syndrome (SIDS) is the unexplained death, usually during sleep, of a seemingly healthy baby. Sudden infant death syndrome is sometimes called crib death. 
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause is unknown, but sudden infant death syndrome may be associated with abnormalities in the portion of an infant&apos;s brain that controls breathing and arousal from sleep. Although all babies are vulnerable, certain sleep environments have been linked to increased risk. 
+&lt;/p&gt;
+&lt;p&gt;
+Perhaps the most important way to reduce the risk of sudden infant death syndrome is to place your baby on his or her back to sleep, on a firm crib mattress covered by a fitted sheet. Nothing else should go in the crib with your baby &amp;mdash; no blanket, pillow, bumper pads or toys. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A combination of physical and sleep environmental factors can make an infant more vulnerable to SIDS. These factors may vary from child to child. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical factors&lt;/strong&gt; &lt;br /&gt;
+Physical factors associated with SIDS include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain abnormalities.&lt;/strong&gt; Some infants are born with problems that make them more likely to die of SIDS. In many of these babies, the portion of the brain that controls breathing and arousal from sleep doesn&apos;t work properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low birth weight.&lt;/strong&gt; Premature birth or being part of a multiple birth increases the likelihood that a baby&apos;s brain hasn&apos;t matured completely, so he or she has less reliable control over such automatic processes as breathing and heart rate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory infection.&lt;/strong&gt; Many infants who have died of SIDS have recently experienced a cold, which may contribute to breathing problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sleep environmental factors&lt;/strong&gt; &lt;br /&gt;
+The items in a baby&apos;s crib and his or her sleeping position can combine with a baby&apos;s physical problems to increase the risk of SIDS. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sleeping on the stomach or side.&lt;/strong&gt; Babies who are placed on their stomachs or sides to sleep may have more difficulty breathing than those placed on their backs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleeping on a soft surface.&lt;/strong&gt; Lying face down on a fluffy comforter or a waterbed can block an infant&apos;s airway. Draping a blanket over a baby&apos;s head is also risky.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleeping with parents.&lt;/strong&gt; While the risk of SIDS is lowered if an infant sleeps in the same room as his or her parents, the risk increases if the baby sleeps in the same bed &amp;mdash; partly because there are more soft surfaces to impair breathing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although sudden infant death syndrome can strike any infant, researchers have identified several factors that may increase a baby&apos;s risk. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Boy babies are more likely to die of SIDS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Infants are most vulnerable during the second and third months of life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; For reasons that aren&apos;t well understood, black, American Indian or Eskimo infants are more likely to develop SIDS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Babies who&apos;ve had siblings or cousins die of SIDS are at higher risk of SIDS themselves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Maternal risk factors&lt;/strong&gt; &lt;br /&gt;
+The risk of SIDS is also affected by maternal factors associated with the pregnancy, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mother under the age of 20&lt;/li&gt;
+	&lt;li&gt;Smoking cigarettes&lt;/li&gt;
+	&lt;li&gt;Drug or alcohol use&lt;/li&gt;
+	&lt;li&gt;Inadequate prenatal care&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you lose your baby to SIDS, the emotional support of others is especially important. You may find it comforting to talk to other parents whose lives have been touched by SIDS. If so, your doctor may be able to recommend a support group in your area, or you can visit an online SIDS chat room. Talking to a trusted friend, counselor or member of the clergy may also be helpful. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Communicate your feelings&lt;/strong&gt; &lt;br /&gt;
+If you can, keep an open line of communication with friends and family about how you&apos;re feeling. People want to help, but they may not know how to approach you. The baby&apos;s parents, especially, need to be as open as possible with one another. Losing a child can put a terrible strain on a marriage. Counseling may help some couples understand and express their feelings. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allow time for healing&lt;/strong&gt; &lt;br /&gt;
+Finally, give yourself time to grieve. Don&apos;t worry if you find yourself crying unexpectedly, if holidays and other celebratory times are especially difficult, or if you&apos;re tired and drained much of the time. This is normal. You&apos;re dealing with a devastating loss. Healing takes time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no guaranteed way to prevent SIDS, but the following measures will go a long way toward preventing it. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breast-feed.&lt;/strong&gt; Research shows that any amount of breast-feeding reduces the risk of SIDS. The protective effect is strongest if your baby breast-feeds exclusively for the first six months of life. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Back to sleep.&lt;/strong&gt; Place your baby to sleep resting on his or her back, rather than on the stomach or side. This isn&apos;t necessary when your baby&apos;s awake or able to roll over both ways without your help. Don&apos;t assume that others will place your baby to sleep in the correct position &amp;mdash; insist on it. Advise sitters and child care personnel not to resort to the stomach position to calm an upset baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Select bedding carefully.&lt;/strong&gt; Use a firm mattress and avoid placing your baby on thick, fluffy padding, such as lambskin or a thick quilt. These may interfere with breathing if your baby&apos;s face presses against them. For the same reason, don&apos;t use bumper pads or leave pillows, fluffy toys or stuffed animals in your infant&apos;s crib.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t overheat baby.&lt;/strong&gt; To keep your baby warm, try a sleep sack or other sleep clothing that doesn&apos;t require additional covers. If you use a blanket, make it lightweight. Tuck the blanket securely at the foot of the crib, with just enough length to cover your baby&apos;s shoulders. Then place your baby in the crib, near the foot, covered loosely with the blanket. Don&apos;t cover your baby&apos;s head.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Baby should sleep alone.&lt;/strong&gt; Adult beds aren&apos;t safe for infants. A baby can become trapped and suffocate between the headboard slats, the space between the mattress and the bed frame, or the space between the mattress and the wall. A baby can also suffocate if a sleeping parent accidentally rolls over and covers the baby&apos;s nose and mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Offer a pacifier.&lt;/strong&gt; Sucking on a pacifier at naptime and bedtime may reduce the risk of SIDS. One caveat &amp;mdash; if you&apos;re breast-feeding, wait to offer a pacifier until your baby is 1 month old and you&apos;ve settled into a comfortable nursing routine. If your baby&apos;s not interested in the pacifier, try again later. If the pacifier falls out of your baby&apos;s mouth while he or she is sleeping, don&apos;t pop it back in.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sudden infant death syndrome (SIDS)
+	</Title>
+	<Abstract>
+		Sudden infant death syndrome &amp;mdash; Comprehensive overview covers causes, risks and prevention of SIDS.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02151" LinkType="Internal" ObjectID="047C81C8-9861-6A75-2FD89B9669BF6D3D" Title="Tummy time: How much does your baby need?" Url="http://www.mayoclinic.com/health/tummy-time/AN02151" />
+		<LinkItem ContentType="Article" DocID="PR00067" LinkType="Internal" ObjectID="E8875005-D181-47CD-B16B310946DCAE9A" Title="Pacifiers: Are they good for your baby?" Url="http://www.mayoclinic.com/health/pacifiers/PR00067" />
+		<LinkItem ContentType="Article" DocID="FL00118" LinkType="Internal" ObjectID="3B12D856-F018-4C2D-8E13A4346D0AC729" Title="Baby sleep: Helping baby sleep through the night" Url="http://www.mayoclinic.com/health/baby-sleep/FL00118" />
+	</RelatedLinksBox>
+</Disease>

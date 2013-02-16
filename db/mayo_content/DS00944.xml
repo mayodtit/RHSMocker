@@ -1,0 +1,282 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00944
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ards/DS00944
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2813" Title="Acute lung">
+						<Keyword MCVID="2814" Title="ARDS" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			51114574-E7FF-0DBD-1F3D58126B8526F7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ARDS
+			</MetaKeyword>
+			<MetaKeyword>
+				acute respiratory distress syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				acute lung injury
+			</MetaKeyword>
+			<MetaKeyword>
+				adult respiratory distress syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				increased permeability pulmonary edema
+			</MetaKeyword>
+			<MetaKeyword>
+				noncardiac pulmonary edema
+			</MetaKeyword>
+			<MetaKeyword>
+				shock lung
+			</MetaKeyword>
+			<MetaKeyword>
+				wet lung
+			</MetaKeyword>
+			<MetaKeyword>
+				stiff lung
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute respiratory distress syndrome (ARDS) occurs when fluid builds up in the tiny, elastic air sacs (alveoli) in your lungs. More fluid in your lungs means less oxygen can reach your bloodstream. This deprives your organs of the oxygen they need to function.
+&lt;/p&gt;
+&lt;p&gt;
+ARDS typically occurs in people who are already critically ill or who have significant injuries. Severe shortness of breath &amp;mdash; the main symptom of ARDS &amp;mdash; usually develops within a few hours to a few days after the original disease or trauma.
+&lt;/p&gt;
+&lt;p&gt;
+Many people who develop ARDS don&apos;t survive. The risk of death increases with age and severity of illness. Of the people who do survive ARDS, some recover completely while others experience lasting damage to their lungs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of ARDS can vary in intensity, depending on its cause and severity. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe shortness of breath&lt;/li&gt;
+	&lt;li&gt;Labored and unusually rapid breathing&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Confusion and extreme tiredness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+ARDS usually follows a major illness or injury, and most people who are affected are already hospitalized.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The mechanical cause of ARDS is fluid leaked from the smallest blood vessels in the lungs into the tiny air sacs where blood is oxygenated. Normally, a protective membrane keeps this fluid in the vessels. Severe illness or injury, however, can cause inflammation that undermines the membrane&apos;s integrity, leading to the fluid leakage of ARDS. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common underlying causes of ARDS include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sepsis.&lt;/strong&gt; The most common cause of ARDS is sepsis, a serious and widespread infection of the bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inhalation of harmful substances.&lt;/strong&gt; Breathing high concentrations of smoke or chemical fumes can result in ARDS, as can inhaling (aspirating) vomit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe pneumonia.&lt;/strong&gt; Severe cases of pneumonia usually affect all five lobes of the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Head or chest injury.&lt;/strong&gt; Accidents, such as falls or car crashes, can directly damage the lungs or the portion of the brain that controls breathing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="60" Title="Airways and air sacs of the lungs" URI="/images/image_popup/thumbs/r7_bronchiolesasbestosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="300" Title="Airways and air sacs of the lungs" URI="/images/image_popup/r7_bronchiolesasbestosis.jpg" Width="400" />
+				<HTML>
+					Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who develop ARDS are already hospitalized for another condition, and many are critically ill. You&apos;re especially at risk if you have a widespread infection in your bloodstream (sepsis).
+&lt;/p&gt;
+&lt;p&gt;
+People who have a history of chronic alcoholism are at higher risk of developing ARDS. They&apos;re also more likely to die of ARDS.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+ARDS is extremely serious, but thanks to improved treatments, more people are surviving it. However, many survivors end up with potentially serious &amp;mdash; and sometimes lasting &amp;mdash; complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary fibrosis.&lt;/strong&gt; Scarring and thickening of the tissue between the air sacs can occur within a few weeks of the onset of ARDS. This stiffens your lungs, making it even more difficult for oxygen to flow from the air sacs into your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collapsed lung (pneumothorax).&lt;/strong&gt; In most ARDS cases, a breathing machine called a ventilator is used to increase oxygen in the body and force fluid out of the lungs. However, the pressure and air volume of the ventilator can force gas to go through a small hole in the very outside of a lung and cause that lung to collapse. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Lying still in the hospital while you&apos;re on a ventilator can increase your risk of developing blood clots, particularly in the deep veins in your legs. If a clot forms in your leg, a portion of it can break off and travel to one of your lungs (pulmonary embolism) &amp;mdash; where it blocks blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Because the ventilator is attached directly to a tube inserted in your windpipe, this makes it much easier for germs to infect and further injure your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal lung function.&lt;/strong&gt; Many people with ARDS recover most of their lung function within several months to two years, but others may have breathing problems for the rest of their lives. Even people who do well usually have shortness of breath and fatigue and may need supplemental oxygen at home for a few months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Memory, cognitive and emotional problems.&lt;/strong&gt; Sedatives and low levels of oxygen in the blood can lead to memory loss and cognitive problems after ARDS. In some cases, the effects may lessen over time, but in others, the damage may be permanent. Most ARDS survivors also report going through a period of depression, which is treatable.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific test to identify ARDS. A diagnosis is reached by ruling out other diseases and conditions &amp;mdash; for example, certain heart problems &amp;mdash; that can produce similar symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; A chest X-ray can reveal which parts of your lungs have fluid in them and whether your heart is enlarged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A CT scan combines X-ray images taken from many different directions into cross-sectional views of internal organs. CT scans can provide detailed information about the structures within the heart and lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;/strong&gt; &lt;br /&gt;
+A test using blood from an artery in your wrist can measure your oxygen level. Other types of blood tests can check for signs of infection or anemia. If your doctor suspects that you have a lung infection, secretions from your airway may be tested to determine the cause of the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart tests&lt;/strong&gt; &lt;br /&gt;
+Because the signs and symptoms of ARDS are similar to those of certain heart problems, your doctor may recommend heart tests such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram.&lt;/strong&gt; This painless test tracks the electrical activity in your heart. It involves attaching several wired sensors to your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; A sonogram of the heart, this test can reveal problems with the structures and the function of your heart. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first goal in treating ARDS is to improve the levels of oxygen in your blood. Without oxygen, your organs can&apos;t function properly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oxygen&lt;/strong&gt; &lt;br /&gt;
+To get more oxygen into your bloodstream, your doctor will likely use: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Supplemental&lt;/strong&gt;&lt;strong&gt; oxygen.&lt;/strong&gt; For milder symptoms or as a temporary measure, oxygen may be delivered through a mask that fits tightly over your nose and mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mechanical ventilation.&lt;/strong&gt; Most people with ARDS will need the help of a machine to breathe. A mechanical ventilator pushes air into your lungs and forces some of the fluid out of the air sacs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Fluids&lt;/strong&gt; &lt;br /&gt;
+Carefully managing the amount of intravenous fluids is crucial. Too much fluid can increase fluid buildup in the lungs. Too little fluid can put a strain on your heart and other organs, and lead to shock. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;/strong&gt; &lt;br /&gt;
+People with ARDS usually are given medication to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prevent and treat infections&lt;/li&gt;
+	&lt;li&gt;Relieve pain and discomfort&lt;/li&gt;
+	&lt;li&gt;Prevent clots in the legs and lungs&lt;/li&gt;
+	&lt;li&gt;Minimize gastric reflux&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re recovering from ARDS, the following suggestions can help protect your lungs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; If you smoke, seek help to quit, and avoid secondhand smoke whenever possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit alcohol.&lt;/strong&gt; Alcohol can relax the portion of your upper airway that keeps foreign material from entering your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; The yearly flu (influenza) shot, as well as the pneumonia vaccine every five years, can reduce your risk of lung infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Recovery from ARDS can be a long road, and you&apos;ll need plenty of support. Although everyone&apos;s recovery is different, being aware of common physical and mental difficulties encountered by others with the disorder can help. Consider these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask for help.&lt;/strong&gt; Particularly after you&apos;re released from the hospital, be sure you have help with everyday tasks until you know what you can manage on your own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Attend pulmonary rehabilitation.&lt;/strong&gt; Many medical centers now offer pulmonary rehabilitation programs, which incorporate exercise training, education and counseling to help you learn how to return to your normal activities and achieve your ideal weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; There are support groups for people with chronic lung problems. Discover what&apos;s available in your community or online and consider joining others with similar experiences.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek professional help.&lt;/strong&gt; If you have symptoms of depression, such as hopelessness and loss of interest in your usual activities, tell your doctor or contact a mental health professional. Depression is common in people who have had ARDS, and treatment can help.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		ARDS
+	</Title>
+	<Abstract>
+		ARDS &amp;mdash; Comprehensive overview covers symptoms, treatment of acute respiratory distress syndrome, a serious lung condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,274 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00743
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-exam/MY00743
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-02
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4390" Title="Breast exam" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C6BE6AB7-A985-99D5-9531FBF2726E431F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast exam
+			</MetaKeyword>
+			<MetaKeyword>
+				breast self-exam
+			</MetaKeyword>
+			<MetaKeyword>
+				breast examination
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast awareness
+			</MetaKeyword>
+			<MetaKeyword>
+				breast familiarity
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer screening
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A breast exam is a self-inspection of your breasts. During a breast exam, you use your eyes and hands to observe the appearance and feel of your breasts. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast exams, once thought essential for early breast cancer detection, are now considered optional. While screening mammograms have been proved to save lives, there&apos;s no evidence that breast exams can do this. What&apos;s now stressed is breast awareness &amp;mdash; being familiar with the normal consistency of your breasts and the underlying tissue, as well as inspecting your breasts for new changes that may signify potential breast problems. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of breast self-exam
+" Caption="To perform a breast self-exam, use a methodical approach that ensures you cover your entire breast. For instance, visualize your breasts as divided into pieces of a pie and sweeping your fingers along each piece in toward your nipple. 
+" Height="60" Title="Breast self-exam" URI="/images/image_popup/thumbs/w7_selfexampatternsthu.jpg" Width="60" />
+				<Image Alt="Illustration of breast self-exam
+" Caption="To perform a breast self-exam, use a methodical approach that ensures you cover your entire breast. For instance, visualize your breasts as divided into pieces of a pie and sweeping your fingers along each piece in toward your nipple. 
+" Height="360" Title="Breast self-exam" URI="/images/image_popup/w7_selfexampatterns.jpg" Width="400" />
+				<HTML>
+					To perform a breast self-exam, use a methodical approach that ensures you cover your entire breast. For instance, visualize your breasts as divided into pieces of a pie and sweeping your fingers ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doing breast exams helps you learn the normal feel and appearance of your breasts. That makes it easier to notice subtle changes, should they occur. 
+&lt;/p&gt;
+&lt;p&gt;
+Say, for example, you feel a noticeable area of thickening in the upper area of your breast, next to your arm. If you&apos;ve become familiar with how your breasts look and feel, you know your breast usually feels completely smooth in that area. Without a tactile memory from having done frequent breast exams, though, you might not notice this difference. Detecting such a change should prompt you to see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Finding a breast lump when it&apos;s small increases the chance for a cure, if the lump is determined to be cancer. A smaller cancer may mean you have better surgical and other treatment options, compared with a cancer that is larger. 
+&lt;/p&gt;
+&lt;p&gt;
+A study of women undergoing breast cancer surgery found that despite having had frequent screening mammograms, about 40 percent of breast cancers were discovered as the result of lumps or suspicious changes found during breast exams by the women themselves. 
+&lt;/p&gt;
+&lt;p&gt;
+To gain the greatest benefit from regular breast self-exams, ask your doctor to review your technique at your next checkup. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Performing a breast exam isn&apos;t by itself harmful. However, there are some risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety caused by finding a lump.&lt;/strong&gt; Most of the changes or lumps women find in their breasts aren&apos;t cancerous. Still, finding something suspicious in your breast can make you anxious about what it may mean. You may endure several days of worry until you can see your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests and procedures may be necessary to check out lumps or changes.&lt;/strong&gt; If you discover a suspicious lump, you may end up having a procedure to sample breast tissue for examination (core needle biopsy). If it turns out the lump was noncancerous (benign), you might feel that you&apos;ve undergone an invasive procedure unnecessarily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overestimating the benefits of self-exams.&lt;/strong&gt; Although breast exams don&apos;t reduce the number of deaths from breast cancer, they can still help in earlier detection of a breast abnormality that may be due to cancer. Because of this, breast exams are now considered optional by most organizations, such as the American Cancer Society. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss the benefits and risks of breast exams with your doctor. Screening for breast cancer usually involves a combined approach that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast awareness that you do through breast self-exams&lt;/li&gt;
+	&lt;li&gt;Clinical breast exams by your doctor&lt;/li&gt;
+	&lt;li&gt;Mammography&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Used together, these screening methods can increase your chances of finding breast cancer at an early, more treatable stage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you choose to do breast self-exams, ask your doctor when to begin them. Ask your doctor to show you how to do a breast self-exam. The American Cancer Society recommends that doctors inform women about the benefits and limitations of breast exams when they reach age 20. You can still conduct breast exams if you are pregnant, are breast-feeding, have gone through menopause or have breast implants.
+&lt;/p&gt;
+&lt;p&gt;
+To prepare for your breast exam you can:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose the time during your menstrual cycle when your breasts are the least tender.&lt;/strong&gt; Your hormone levels fluctuate each month during your menstrual cycle, which causes changes in breast tissue. Swelling begins to decrease when your period starts. That&apos;s why the best time to perform a self-exam is a few days after your period ends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you don&apos;t menstruate, pick a certain day of the month.&lt;/strong&gt; If you don&apos;t get your period and would like to do breast self-exams, you could choose a certain day of the month on which to do the exam. But it&apos;s OK if you choose not to perform exams every single month.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a notebook handy.&lt;/strong&gt; Use a notebook to record what you notice in your breasts. Some women may find it helpful to draw a diagram of their breasts after breast exams. For example, you could note that the upper portion of your left breast seems slightly thicker than the lower half. If the area of thickness becomes more prominent on subsequent exams, your drawings could help you note the change. Or you might note that the upper outer quadrant of your right breast is highly sensitive just before your period begins but improves after it starts. If you&apos;ve recorded that sensitivity every month, you and your doctor might determine that the change corresponds with hormonal fluctuations and is nothing to be concerned about. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Begin with a visual examination of your breasts&lt;/strong&gt; &lt;br /&gt;
+Sit or stand shirtless and braless in front of a mirror with your arms at your sides. To inspect your breasts visually, do the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Face forward and look for puckering, dimpling, or changes in size, shape or symmetry.&lt;/li&gt;
+	&lt;li&gt;Check to see if your nipples are turned in (inverted).&lt;/li&gt;
+	&lt;li&gt;Inspect your breasts with your hands pressed down on your hips.&lt;/li&gt;
+	&lt;li&gt;Inspect your breasts with your arms raised overhead and the palms of your hands pressed together.&lt;/li&gt;
+	&lt;li&gt;Lift your breasts to see if ridges along the bottom are symmetrical.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a vision impairment that makes it difficult for you to visually inspect your breasts, ask a close friend or a family member to help you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Next, use your hands to examine your breasts&lt;/strong&gt; &lt;br /&gt;
+Common ways to perform the manual part of the breast exam include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lying down.&lt;/strong&gt; Choose a bed or other flat surface to lie down on your back. When lying down, breast tissue spreads out, making it thinner and easier to feel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;In the shower.&lt;/strong&gt; Lather your fingers and breasts with soap to help your fingers glide more smoothly over your skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When examining your breasts, some general tips to keep in mind include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use the pads of your fingers.&lt;/strong&gt; Use the pads, not the very tips, of your three middle fingers for the exam. If you have difficulty feeling with your finger pads, use another part of your hand that is more sensitive, such as your palm or the backs of your fingers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use different pressure levels.&lt;/strong&gt; Your goal is to feel different depths of the breast by using different levels of pressure to feel all the breast tissue. Use light pressure to feel the tissue closest to the skin, medium pressure to feel a little deeper, and firm pressure to feel the tissue closest to the chest and ribs. Be sure to use each pressure level before moving on to the next spot. If you&apos;re not sure how hard to press, talk with your doctor or nurse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your time.&lt;/strong&gt; Don&apos;t rush. It may take several minutes to carefully examine your breasts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Use a methodical technique to ensure you examine your entire breast: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place your left hand behind your head and examine your left breast with your right hand.&lt;/li&gt;
+	&lt;li&gt;Using the pads of your right three middle fingers, start at your collar bone and move toward your nipple. Be sure to use all three pressure levels &amp;mdash; light, medium and deep &amp;mdash; to feel all of your breast tissue.&lt;/li&gt;
+	&lt;li&gt;Then sweep or move methodically around your breast &amp;mdash; much like it&apos;s the face of a clock &amp;mdash; starting again from your collarbone and moving toward the nipple. Be sure to check the entire breast area.&lt;/li&gt;
+	&lt;li&gt;Place your right hand behind your head and repeat the examination on your right breast using your left hand.&lt;/li&gt;
+	&lt;li&gt;Examine your armpits while sitting or standing with your arm slightly raised.&lt;/li&gt;
+	&lt;li&gt;Examine your nipples and look for discharge. Do this by gently lifting the region (areola) around the nipple with your fingers positioned at 12 o&apos;clock and 6 o&apos;clock and again with your fingers at 3 o&apos;clock and 9 o&apos;clock.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a disability that makes it difficult to examine your breasts using this technique &amp;mdash; for instance, you have use of only one hand or you have trouble steadying your hands &amp;mdash; you likely can still conduct a breast self-exam. Ask your doctor to show you ways you can examine your breasts. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of breast self-exam
+" Caption="To perform a breast self-exam, use a methodical approach that ensures you cover your entire breast. For instance, visualize your breasts as divided into pieces of a pie and sweeping your fingers along each piece in toward your nipple. 
+" Height="60" Title="Breast self-exam" URI="/images/image_popup/thumbs/w7_selfexampatternsthu.jpg" Width="60" />
+				<Image Alt="Illustration of breast self-exam
+" Caption="To perform a breast self-exam, use a methodical approach that ensures you cover your entire breast. For instance, visualize your breasts as divided into pieces of a pie and sweeping your fingers along each piece in toward your nipple. 
+" Height="360" Title="Breast self-exam" URI="/images/image_popup/w7_selfexampatterns.jpg" Width="400" />
+				<HTML>
+					To perform a breast self-exam, use a methodical approach that ensures you cover your entire breast. For instance, visualize your breasts as divided into pieces of a pie and sweeping your fingers ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;What&apos;s normal&lt;/strong&gt; &lt;br /&gt;
+Many women find lumps or changes in their breasts, since some of these are normal changes that occur at various points in the menstrual cycles. Finding a change or lump in your breast is not a reason to panic. Breasts often feel different in different places. A firm ridge along the bottom of each breast is normal, for instance. The look and feel of your breasts will change as you age. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to contact your doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A hard lump or knot near your underarm&lt;/li&gt;
+	&lt;li&gt;Changes in the way your breasts look or feel, including thickening or prominent fullness that is different from the surrounding tissue&lt;/li&gt;
+	&lt;li&gt;Changes in color, size, shape or texture&lt;/li&gt;
+	&lt;li&gt;Dimples, puckers, bulges or ridges on the skin of your breast&lt;/li&gt;
+	&lt;li&gt;A nipple that is pushed in (inverted) instead of sticking out&lt;/li&gt;
+	&lt;li&gt;Redness, warmth, swelling or pain&lt;/li&gt;
+	&lt;li&gt;Itching, scales, sores or rashes&lt;/li&gt;
+	&lt;li&gt;Bloody nipple discharge &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may follow up with a clinical breast exam, mammogram and ultrasound. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Breast exam
+	</Title>
+	<Abstract>
+		Breast exam &amp;mdash; Overview provides benefits and instructions on how to perform a breast self-exam.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00301" LinkType="Internal" ObjectID="9616D5CF-E7FF-0DBD-143ACBF3A0FE16F9" Title="Breast biopsy" Url="http://www.mayoclinic.com/health/breast-biopsy/MY00301" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00300" LinkType="Internal" ObjectID="9613E6D0-E7FF-0DBD-1A0BEDAE3544D7E0" Title="Breast MRI" Url="http://www.mayoclinic.com/health/breast-mri/MY00300" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,240 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01151
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bags-under-eyes/DS01151
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-28
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2773" Title="Bags under eyes" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			65F9774B-FE4A-B138-17166138E899DEF0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bags under eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				puffy eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				under-eye puffiness
+			</MetaKeyword>
+			<MetaKeyword>
+				undereye puffiness
+			</MetaKeyword>
+			<MetaKeyword>
+				bags under the eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				under-eye circles
+			</MetaKeyword>
+			<MetaKeyword>
+				eye swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				eyelid bags
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bags under eyes &amp;mdash; mild swelling or puffiness under the eyes &amp;mdash; are common as you age. With aging, the tissues around your eyes, including some of the muscles supporting your eyelids, weaken. Normal fat that helps support the eyes can then migrate forward into the lower eyelids, causing the lids to appear puffy. Fluid also may accumulate in the space below your eyes, adding to a swollen appearance. 
+&lt;/p&gt;
+&lt;p&gt;
+Bags under eyes are usually a cosmetic concern and rarely a sign of a serious underlying medical condition. At-home remedies, such as cold compresses, can help improve the appearance of bags under eyes. For persistent or bothersome under-eye puffiness, cosmetic treatments are available. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bags under eyes can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild swelling&lt;/li&gt;
+	&lt;li&gt;Saggy or loose skin&lt;/li&gt;
+	&lt;li&gt;Dark circles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;You may not like the way they look, but bags under eyes are usually harmless and don&apos;t require medical care. However, see your doctor if the swelling: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is severe and persistent&lt;/li&gt;
+	&lt;li&gt;Is accompanied by redness, itching or pain&lt;/li&gt;
+	&lt;li&gt;Affects other parts of your body, such as your legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will want to rule out other possible causes that can contribute to the swelling, such as kidney or thyroid problems, infection, or an allergy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As you age, the tissue structures and muscles supporting your eyelids weaken. The skin may start to sag, and fat that is normally confined to the area around the eye (orbit) can migrate forward below your eyes. Also, the space below your eyes can accumulate fluid, making the under-eye area appear puffy or swollen. Several factors can lead to this, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fluid retention due to changes in weather (for example, hot, humid days), hormone levels or eating salty foods&lt;/li&gt;
+	&lt;li&gt;Sleeping flat on your back&lt;/li&gt;
+	&lt;li&gt;Not getting enough sleep&lt;/li&gt;
+	&lt;li&gt;Allergies or dermatitis, especially if puffiness is accompanied by redness and itching&lt;/li&gt;
+	&lt;li&gt;Heredity&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For bags under eyes, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;What will the treatments cost? Does medical insurance cover these costs?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do at home to improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the puffiness under your eyes?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bags under eyes are usually a cosmetic concern and don&apos;t require specific treatment. Depending on the cause of the swelling, home and lifestyle treatments, such as applying cold compresses or sleeping with your head raised, can help reduce or eliminate puffy eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+Medical and surgical treatments are available if you&apos;re concerned about the appearance of under-eye swelling. Treatment may not be covered by medical insurance if it&apos;s done solely to improve your appearance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin treatments&lt;br /&gt;
+&lt;/strong&gt;Skin treatments traditionally done to treat wrinkles, such as laser resurfacing or chemical peels, may improve skin tone and tighten the skin. This may lessen the appearance of under-eye swelling and improve any discoloration. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eyelid surgery&lt;br /&gt;
+&lt;/strong&gt;Eyelid surgery (blepharoplasty) is an option to remove bags under eyes. During blepharoplasty, the surgeon cuts just below the lashes in your eye&apos;s natural crease or inside the lower lid. The surgeon removes excess fat and sagging skin. Depending on where the initial incisions are made, stitches may follow the lower lid&apos;s natural crease or be placed inside the lower eyelid.
+&lt;/p&gt;
+&lt;p&gt;
+In addition to correcting bags under eyes, blepharoplasty can also repair:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Baggy or puffy upper eyelids&lt;/li&gt;
+	&lt;li&gt;Excess skin of the upper eyelid that interferes with your vision&lt;/li&gt;
+	&lt;li&gt;Droopy lower eyelids, which may cause white to show below the iris &amp;mdash; the colored part of the eye&lt;/li&gt;
+	&lt;li&gt;Excess skin on lower eyelids&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of how blepharoplasty is done 
+" Caption="During blepharoplasty, the surgeon cuts inside the creases of your eyelids to trim sagging skin and muscle and remove excess fat. After the excess tissue is removed, your surgeon joins the skin with tiny stitches. 
+" Height="60" Title="How blepharoplasty is done" URI="/images/image_popup/thumbs/sn7_eyelidsurgerythu.jpg" Width="60" />
+				<Image Alt="Illustration of how blepharoplasty is done 
+" Caption="During blepharoplasty, the surgeon cuts inside the creases of your eyelids to trim sagging skin and muscle and remove excess fat. After the excess tissue is removed, your surgeon joins the skin with tiny stitches. 
+" Height="225" Title="How blepharoplasty is done" URI="/images/image_popup/sn7_eyelidsurgery.jpg" Width="400" />
+				<HTML>
+					During blepharoplasty, the surgeon cuts inside the creases of your eyelids to trim sagging skin and muscle and remove excess fat. After the excess tissue is removed, your surgeon joins the skin with ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips can help you reduce or eliminate bags under eyes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use a cool compress.&lt;/strong&gt; Wet a clean washcloth with cool water. While sitting up, apply the damp washcloth to the skin under and around your eyes for a few minutes using mild pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough sleep at night.&lt;/strong&gt; For most adults, seven to eight hours a night appears to be the best amount of sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep with your head slightly raised.&lt;/strong&gt; Add an extra pillow or prop up the head of your mattress. Or, elevate the entire head of the bed a few inches. This helps prevent fluids from accumulating around your eyes as you sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce allergy symptoms.&lt;/strong&gt; Avoid allergens when possible, and ask your doctor about over-the-counter or prescription allergy medications. Talk to your doctor about prevention strategies if you develop under-eye reactions due to hair dyes, soaps, cosmetics or other allergens.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bags under eyes
+	</Title>
+	<Abstract>
+		Bags under eyes &amp;mdash; Comprehensive overview covers causes and treatment of under-eye puffiness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02019" LinkType="Internal" ObjectID="A17FD5F4-0368-EB6D-C682D15494E9D436" Title="Chemical peel" Url="http://www.mayoclinic.com/health/chemical-peel/MY02019" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00298" LinkType="Internal" ObjectID="9608EF6F-E7FF-0DBD-1F64B13BF4F198A0" Title="Blepharoplasty" Url="http://www.mayoclinic.com/health/blepharoplasty/MY00298" />
+	</RelatedLinksBox>
+</Disease>

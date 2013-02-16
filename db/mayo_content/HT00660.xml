@@ -1,0 +1,66 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00660
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00660
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			75032005-998E-A61F-58FD9C1F741F10AA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy diet
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy foods
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy cooking
+			</MetaKeyword>
+			<MetaKeyword>
+				nutrition
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Simple ways to cook healthier
+	</Title>
+	<Body>
+		&lt;p&gt;You can make your cooking healthier with some very simple strategies, without sacrificing taste. 1. Use herbs and spices instead of salt or butter. 2. Depending on the recipe, use low-sodium broth, cooking spray or water instead of oil. 3. When steaming food, use a flavorful liquid or add seasonings to the water to enhance the flavor. 4. Stir-fry a meal, since you need only a small amount of oil or cooking spray for this cooking method.&lt;/p&gt;
+	</Body>
+</HealthTip>

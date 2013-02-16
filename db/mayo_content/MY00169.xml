@@ -1,0 +1,306 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00169
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/skin-biopsy/MY00169
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4000" Title="Skin biopsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2289B540-E7FF-0DBD-16C7FC1910F6D0BD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				skin biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				punch biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				shave biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				excisional biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				skin test
+			</MetaKeyword>
+			<MetaKeyword>
+				biopsy of rash
+			</MetaKeyword>
+			<MetaKeyword>
+				biopsies
+			</MetaKeyword>
+			<MetaKeyword>
+				boipsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A skin biopsy removes cells or skin samples from the surface of your body. The sample taken from a skin biopsy is examined to provide information about your medical condition. A doctor uses a skin biopsy to diagnose or rule out certain skin conditions and diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+Three main types of skin biopsies are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shave biopsy.&lt;/strong&gt; A doctor uses a tool similar to a razor to remove a small section of the top layers of skin (epidermis and a portion of the dermis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Punch biopsy.&lt;/strong&gt; A doctor uses a circular tool to remove a small section of skin including deeper layers (epidermis, dermis and superficial fat).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excisional biopsy.&lt;/strong&gt; A doctor uses a small knife (scalpel) to remove an entire lump or an area of abnormal skin, including a portion of normal skin down to or through the fatty layer of skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing shave biopsy of the skin 
+" Caption="During a shave biopsy, a doctor uses a tool similar to a razor to cut through the surface of the skin. The result is a slightly indented area of your skin. Stitches usually aren&apos;t necessary after this procedure. 
+" Height="60" Title="Shave biopsy" URI="/images/image_popup/thumbs/sn7_shave_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing shave biopsy of the skin 
+" Caption="During a shave biopsy, a doctor uses a tool similar to a razor to cut through the surface of the skin. The result is a slightly indented area of your skin. Stitches usually aren&apos;t necessary after this procedure. 
+" Height="400" Title="Shave biopsy" URI="/images/image_popup/sn7_shave_biopsy.jpg" Width="400" />
+				<HTML>
+					During a shave biopsy, a doctor uses a tool similar to a razor to cut through the surface of the skin. The result is a slightly indented area of your skin. Stitches usually aren&apos;t necessary after ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing punch biopsy of the skin 
+" Caption="During a punch biopsy, a doctor uses a special circular blade to remove deeper layers of skin for testing. Depending on the size, stitches may be necessary to close the wound. 
+" Height="60" Title="Punch biopsy" URI="/images/image_popup/thumbs/c7_punchbiopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing punch biopsy of the skin 
+" Caption="During a punch biopsy, a doctor uses a special circular blade to remove deeper layers of skin for testing. Depending on the size, stitches may be necessary to close the wound. 
+" Height="400" Title="Punch biopsy" URI="/images/image_popup/c7_punchbiopsy.jpg" Width="400" />
+				<HTML>
+					During a punch biopsy, a doctor uses a special circular blade to remove deeper layers of skin for testing. Depending on the size, stitches may be necessary to close the wound. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing excisional biopsy of the skin 
+" Caption="During an excisional biopsy, the doctor removes an entire lump or an entire area of abnormal skin, including a portion of normal skin. You&apos;ll likely receive stitches to close the biopsy site after this procedure. 
+" Height="60" Title="Excisional biopsy" URI="/images/image_popup/thumbs/sn7_excisional_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing excisional biopsy of the skin 
+" Caption="During an excisional biopsy, the doctor removes an entire lump or an entire area of abnormal skin, including a portion of normal skin. You&apos;ll likely receive stitches to close the biopsy site after this procedure. 
+" Height="290" Title="Excisional biopsy" URI="/images/image_popup/sn7_excisional_biopsy.jpg" Width="400" />
+				<HTML>
+					During an excisional biopsy, the doctor removes an entire lump or an entire area of abnormal skin, including a portion of normal skin. You&apos;ll likely receive stitches to close the biopsy site after ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A skin biopsy is used to diagnose or rule out skin conditions and diseases. It may also be used to remove skin lesions. A skin biopsy may be necessary to diagnose or to help treat skin conditions and diseases, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Actinic keratosis&lt;/li&gt;
+	&lt;li&gt;Bullous pemphigoid and other blistering skin disorders&lt;/li&gt;
+	&lt;li&gt;Dermatitis, psoriasis and other inflammatory skin conditions&lt;/li&gt;
+	&lt;li&gt;Skin cancers, including basal cell carcinoma, squamous cell carcinoma and melanoma&lt;/li&gt;
+	&lt;li&gt;Skin infection&lt;/li&gt;
+	&lt;li&gt;Skin tags&lt;/li&gt;
+	&lt;li&gt;Suspicious moles or other growths&lt;/li&gt;
+	&lt;li&gt;Warts&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A skin biopsy is a generally safe procedure, but complications can occur, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Scarring&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Allergic reaction to the topical antibiotic&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before the skin biopsy, tell your doctor if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have been diagnosed with a bleeding disorder&lt;/li&gt;
+	&lt;li&gt;Have experienced excessive bleeding after other medical procedures&lt;/li&gt;
+	&lt;li&gt;Are taking blood-thinning medications, such as aspirin, aspiring-containing medications, warfarin (Coumadin) or heparin&lt;/li&gt;
+	&lt;li&gt;Have a history of skin infections, including impetigo&lt;/li&gt;
+	&lt;li&gt;Are taking medications that suppress the immune system, such as diabetes medications or medications used after an organ transplant&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the location of the skin biopsy, you may be asked to undress and change into a clean gown. A doctor or nurse then cleans the area of the skin to be biopsied. Your skin may be marked with a surgical marker or marking pen to outline the biopsy area. 
+&lt;/p&gt;
+&lt;p&gt;
+You then receive a local anesthetic to numb the biopsy site. This is usually given by injection with a thin needle. The numbing medication can cause a burning sensation in the skin for a few seconds. Afterwards, the biopsy site is numb and you shouldn&apos;t feel any pain or discomfort during the skin biopsy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the skin biopsy&lt;/strong&gt; &lt;br /&gt;
+What you can expect during your skin biopsy depends on the type of biopsy you&apos;ll undergo. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;For a shave biopsy,&lt;/strong&gt; your doctor uses a sharp tool, double-edged razor or scalpel to cut the tissue. The depth of the incision varies depending on the type of biopsy and the part of the body being biopsied. A shave biopsy causes bleeding. Bleeding is stopped by applying pressure to the area or by a combination of pressure and a topical medication applied to the biopsy site. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;For a punch biopsy or an excisional biopsy,&lt;/strong&gt; the procedure involves cutting into the top layer of fat beneath the skin, so stitches may be needed to close the wound. A dressing or adhesive bandage is then placed over the site to protect the wound and prevent bleeding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A skin biopsy typically takes about 15 minutes total, including the preparation time, dressing the wound and instructions for at-home care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the skin biopsy&lt;/strong&gt; &lt;br /&gt;
+Your doctor may instruct you to keep the bandage over the biopsy site until the next day. Occasionally, the biopsy site bleeds after you leave the doctor&apos;s office. This is more likely in people taking blood-thinning medications. If this occurs, apply direct pressure to the wound for 10 to 20 minutes. If bleeding continues, contact your health care provider. 
+&lt;/p&gt;
+&lt;p&gt;
+All biopsies cause a small scar. Some people develop a prominent, raised scar. The risk of this is increased when a biopsy is done on the neck or upper torso, such as the back or chest. Initially, the scar will be pink and then fade to white or sometimes brown. Scars fade gradually. The scar&apos;s permanent color will be evident one or two years after the biopsy. 
+&lt;/p&gt;
+&lt;p&gt;
+Try not to bump the biopsy site area or do activities that might stretch the skin. Stretching the skin could cause the wound to bleed or enlarge the scar. 
+&lt;/p&gt;
+&lt;p&gt;
+Healing of the wound can take several weeks, but is usually complete within two months. Wounds on legs and feet tend to heal slower than those on other areas of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+How to care for the biopsy site while it heals: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands&lt;/strong&gt; with soap and water before touching the biopsy site.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash the biopsy site&lt;/strong&gt; with soap and water. If the biopsy site is on your scalp, use shampoo.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse&lt;/strong&gt; the site well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pat the site dry&lt;/strong&gt; with a clean towel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the site&lt;/strong&gt; with an adhesive bandage that allows the skin to ventilate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Continue caring for the biopsy site until the stitches are removed. For shave biopsies that don&apos;t require stitches, continue wound care until the skin is healed. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing shave biopsy of the skin 
+" Caption="During a shave biopsy, a doctor uses a tool similar to a razor to cut through the surface of the skin. The result is a slightly indented area of your skin. Stitches usually aren&apos;t necessary after this procedure. 
+" Height="60" Title="Shave biopsy" URI="/images/image_popup/thumbs/sn7_shave_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing shave biopsy of the skin 
+" Caption="During a shave biopsy, a doctor uses a tool similar to a razor to cut through the surface of the skin. The result is a slightly indented area of your skin. Stitches usually aren&apos;t necessary after this procedure. 
+" Height="400" Title="Shave biopsy" URI="/images/image_popup/sn7_shave_biopsy.jpg" Width="400" />
+				<HTML>
+					During a shave biopsy, a doctor uses a tool similar to a razor to cut through the surface of the skin. The result is a slightly indented area of your skin. Stitches usually aren&apos;t necessary after ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing punch biopsy of the skin 
+" Caption="During a punch biopsy, a doctor uses a special circular blade to remove deeper layers of skin for testing. Depending on the size, stitches may be necessary to close the wound. 
+" Height="60" Title="Punch biopsy" URI="/images/image_popup/thumbs/c7_punchbiopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing punch biopsy of the skin 
+" Caption="During a punch biopsy, a doctor uses a special circular blade to remove deeper layers of skin for testing. Depending on the size, stitches may be necessary to close the wound. 
+" Height="400" Title="Punch biopsy" URI="/images/image_popup/c7_punchbiopsy.jpg" Width="400" />
+				<HTML>
+					During a punch biopsy, a doctor uses a special circular blade to remove deeper layers of skin for testing. Depending on the size, stitches may be necessary to close the wound. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing excisional biopsy of the skin 
+" Caption="During an excisional biopsy, the doctor removes an entire lump or an entire area of abnormal skin, including a portion of normal skin. You&apos;ll likely receive stitches to close the biopsy site after this procedure. 
+" Height="60" Title="Excisional biopsy" URI="/images/image_popup/thumbs/sn7_excisional_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing excisional biopsy of the skin 
+" Caption="During an excisional biopsy, the doctor removes an entire lump or an entire area of abnormal skin, including a portion of normal skin. You&apos;ll likely receive stitches to close the biopsy site after this procedure. 
+" Height="290" Title="Excisional biopsy" URI="/images/image_popup/sn7_excisional_biopsy.jpg" Width="400" />
+				<HTML>
+					During an excisional biopsy, the doctor removes an entire lump or an entire area of abnormal skin, including a portion of normal skin. You&apos;ll likely receive stitches to close the biopsy site after ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After the biopsy procedure, your doctor sends the sample to a laboratory for testing. Depending on the skin condition, type of biopsy and the laboratory procedures, results may take several days or a couple weeks. Results of biopsies for metabolic or genetic testing can take several months or more. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may schedule an office appointment to discuss the results of the test. If possible, bring along a family member or friend. It can be difficult to absorb all the information provided during an appointment. The person who accompanies you may remember something that you forgot or missed. 
+&lt;/p&gt;
+&lt;p&gt;
+Write down questions that you want to ask your doctor. Don&apos;t be afraid to ask questions or to speak up when you don&apos;t understand something. Questions you may want to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Based on the results, what are my next steps?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+	&lt;li&gt;Are there any factors that might have affected the results of this test, and therefore may have altered the results?&lt;/li&gt;
+	&lt;li&gt;Will I need to repeat the test at some point?&lt;/li&gt;
+	&lt;li&gt;If the skin biopsy showed skin cancer, was all of the cancer removed or will I need additional surgery?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Skin biopsy
+	</Title>
+	<Abstract>
+		Skin biopsy &amp;mdash; Overview covers definition, risks and what to expect during this skin test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00846" LinkType="Internal" ObjectID="A39372C2-E7FF-0DBD-19E34D7AADBC7836" Title="Seborrheic keratosis" Url="http://www.mayoclinic.com/health/seborrheic-keratosis/DS00846" />
+	</RelatedLinksBox>
+</TestProcedure>

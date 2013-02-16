@@ -1,0 +1,250 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00320
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hida-scan/MY00320
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-20
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3652" Title="Digestive system">
+						<Keyword MCVID="3079" Title="HIDA scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BA11D80D-E7FF-0DBD-1D64187B86CF9EB2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				HIDA scan
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatobiliary iminodiacetic acid scan
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatobiliary scintigraphy
+			</MetaKeyword>
+			<MetaKeyword>
+				cholescintigraphy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A HIDA scan is an imaging procedure that helps track the production and flow of bile from your liver to your small intestine. Bile is a fluid produced by your liver that helps your digestive system break down fats in the foods you eat. 
+&lt;/p&gt;
+&lt;p&gt;
+A HIDA scan, which stands for hepatobiliary iminodiacetic acid scan, creates pictures of your liver, gallbladder, bile ducts and small intestine. Cholescintigraphy, hepatobiliary scintigraphy and hepatobiliary scan are alternative names for HIDA scan. 
+&lt;/p&gt;
+&lt;p&gt;
+A HIDA scan is a type of imaging study called a nuclear medicine scan. This means the HIDA scan uses a radioactive chemical, or tracer, that helps highlight certain organs on the scan. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a person undergoing a HIDA scan 
+" Caption="During a HIDA scan you lie on a table while a gamma camera moves above you taking pictures. The gamma camera detects and records radioactive tracer as it moves through your liver, gallbladder and bile ducts. 
+" Height="60" Title="HIDA scan" URI="/images/image_popup/thumbs/c7_nuclear_scanthu.jpg" Width="60" />
+				<Image Alt="Illustration of a person undergoing a HIDA scan 
+" Caption="During a HIDA scan you lie on a table while a gamma camera moves above you taking pictures. The gamma camera detects and records radioactive tracer as it moves through your liver, gallbladder and bile ducts. 
+" Height="345" Title="HIDA scan" URI="/images/image_popup/c7_nuclear_scan.jpg" Width="400" />
+				<HTML>
+					During a HIDA scan you lie on a table while a gamma camera moves above you taking pictures. The gamma camera detects and records radioactive tracer as it moves through your liver, gallbladder and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may order a HIDA scan to track the flow of bile from your liver to your small intestine and to evaluate your gallbladder. This may help in the diagnosis of several diseases and conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bile duct obstruction&lt;/li&gt;
+	&lt;li&gt;Bile leakage&lt;/li&gt;
+	&lt;li&gt;Congenital abnormalities in the bile ducts&lt;/li&gt;
+	&lt;li&gt;Gallbladder inflammation (cholecystitis)&lt;/li&gt;
+	&lt;li&gt;Gallstones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may use a HIDA scan as part of a test to measure the rate at which bile is released from your gallbladder (gallbladder ejection fraction). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="60" Title="Gallbladder and bile duct" URI="/images/image_popup/thumbs/r7_gallbladderbileductthu.jpg" Width="60" />
+				<Image Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="333" Title="Gallbladder and bile duct" URI="/images/image_popup/r7_gallbladderbileduct.jpg" Width="400" />
+				<HTML>
+					The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A HIDA scan carries few risks. Risks may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allergic reaction to medications used to enhance the scan&lt;/li&gt;
+	&lt;li&gt;Bruising at the injection site&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tell your doctor if there&apos;s a chance you could be pregnant or if you&apos;re breast-feeding. In most cases nuclear medicine tests, such as the HIDA scan, aren&apos;t performed in pregnant women because of potential harm to the fetus. Women who are breast-feeding may need to stop for a few days after the HIDA scan. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risks of radiation&lt;/strong&gt; &lt;br /&gt;
+The amount of radioactive tracer injected into your arm during a HIDA scan is very small. The radioactive tracer gives off radiation for several hours and then becomes inactive. The gamma camera that takes pictures of your liver, gallbladder, bile duct and small intestine during a HIDA scan doesn&apos;t give off any radiation. If you&apos;re concerned about the amount of radiation you&apos;ll be exposed to during a HIDA scan, talk with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for your HIDA scan, your doctor may ask you to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fast for a few hours.&lt;/strong&gt; Recommendations vary, but expect to fast for two or more hours before your HIDA scan. You may be allowed to drink clear liquids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Delay taking some medications.&lt;/strong&gt; Certain medications may interfere with your HIDA scan, so your doctor may ask that you delay taking your medications on the day of your scan. Tell your doctor about any medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications that enhance the scan.&lt;/strong&gt; Certain medications may make it easier for your doctor to interpret the results of your HIDA scan. Whether you need to take this type of medication depends on the reason for your scan. In some cases you may start taking this medication a few days before your scan. In other cases you may receive an infusion of a medication in addition to the radioactive tracer that&apos;s injected immediately before or during your HIDA scan.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your HIDA scan&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll be asked to change into a hospital gown before your HIDA scan begins. Your health care team will position you on a table, usually on your back. A medication is then injected into a vein in your arm. 
+&lt;/p&gt;
+&lt;p&gt;
+The medication contains a radioactive tracer that travels through your bloodstream to your liver, where it&apos;s taken up by the bile-producing cells. The radioactive tracer travels with the bile from your liver, into your gallbladder and through your bile ducts to your small intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+You may feel some pressure while the radioactive tracer is injected into your vein. 
+&lt;/p&gt;
+&lt;p&gt;
+As you lie on the table, a special gamma camera passes back and forth over your abdomen taking pictures of the tracer as it moves through your body. Each picture takes about a minute. The gamma camera takes pictures continuously for about an hour. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll need to keep still during the HIDA scan. This can become uncomfortable, but you may find that you can lessen the discomfort by taking deep breaths and thinking about other things. Tell your health care team if you&apos;re uncomfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will watch the scan&apos;s progress on a monitor as the radioactive tracer moves through your body. The HIDA scan is stopped when the radioactive tracer enters your small intestine. This typically takes about an hour. 
+&lt;/p&gt;
+&lt;p&gt;
+If the radioactive tracer isn&apos;t seen in your small intestine, you may receive a medication and undergo more scans later in the day. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After your HIDA scan&lt;/strong&gt; &lt;br /&gt;
+In most cases you can go about your day after your HIDA scan. You&apos;ll likely still have some of the radioactive tracer in your body. The substance will leave your body through your urine over the next day or two. For this reason your doctor may ask that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flush the toilet twice after urinating&lt;/li&gt;
+	&lt;li&gt;Wash your hands thoroughly after you urinate&lt;/li&gt;
+	&lt;li&gt;Drink water throughout the day to help flush the radioactive tracer from your body&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a person undergoing a HIDA scan 
+" Caption="During a HIDA scan you lie on a table while a gamma camera moves above you taking pictures. The gamma camera detects and records radioactive tracer as it moves through your liver, gallbladder and bile ducts. 
+" Height="60" Title="HIDA scan" URI="/images/image_popup/thumbs/c7_nuclear_scanthu.jpg" Width="60" />
+				<Image Alt="Illustration of a person undergoing a HIDA scan 
+" Caption="During a HIDA scan you lie on a table while a gamma camera moves above you taking pictures. The gamma camera detects and records radioactive tracer as it moves through your liver, gallbladder and bile ducts. 
+" Height="345" Title="HIDA scan" URI="/images/image_popup/c7_nuclear_scan.jpg" Width="400" />
+				<HTML>
+					During a HIDA scan you lie on a table while a gamma camera moves above you taking pictures. The gamma camera detects and records radioactive tracer as it moves through your liver, gallbladder and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The doctor who interprets the HIDA scan images (radiologist) may tell you the results of your scan right away. In other cases the radiologist will send the results to your doctor, who will discuss them with you. 
+&lt;/p&gt;
+&lt;p&gt;
+HIDA scan images, as seen on a monitor, appear as regions of dark color and lighter or white areas. The more dark color there is on the image, the greater amount of radioactive tracer was absorbed in that area. Dark color throughout the series of HIDA scan images indicates that the radioactive tracer was able to move freely through your liver, bile ducts, gallbladder and small intestine. If the radioactive tracer wasn&apos;t seen in certain HIDA scan images, there may be a blockage or other problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Results of a HIDA scan might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Normal&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; A normal result means that the radioactive tracer moved freely along with the bile from your liver to your small intestine. No problems were detected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slow movement of radioactive tracer.&lt;/strong&gt; If the radioactive tracer moves through your bile ducts very slowly, this may indicate a blockage or obstruction. Or it may indicate a problem in your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;No radioactive tracer seen in the gallbladder.&lt;/strong&gt; If the radioactive tracer isn&apos;t seen in your gallbladder, this may indicate inflammation (cholecystitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radioactive tracer detected in other areas.&lt;/strong&gt; If the radioactive tracer is found outside of your biliary system, this may indicate a leak.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will discuss your specific results with you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		HIDA scan
+	</Title>
+	<Abstract>
+		HIDA scan &amp;mdash; Overview covers definition, risks, results of hepatobiliary iminodiacetic acid (HIDA) scan.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01153" LinkType="Internal" ObjectID="A92F4CA9-AD91-E292-96BC7171EF5BABC2" Title="Cholecystitis" Url="http://www.mayoclinic.com/health/cholecystitis/DS01153" />
+	</RelatedLinksBox>
+</TestProcedure>

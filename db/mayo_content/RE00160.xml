@@ -1,0 +1,212 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00160
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00160
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-01
+		</UpdateDate>
+		<PublicationDate>
+			2009-06-26
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F604ACA4-D15C-1811-2E7523CC976597AB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fix-it and enjoy-it healthy cookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			&lt;p&gt;
+This recipe is one of 400 recipes collected in the &quot;Fix-It and Enjoy-It! Healthy Cookbook&quot; published by Good Books and available at the MayoClinic.com Bookstore. 
+&lt;/p&gt;
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Rice and beans salad
+	</Title>
+	<Abstract>
+		Rice and beans salad &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		SERVES 10 MAIN-DISH SERVINGS
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip: &lt;/strong&gt;Rinsing and draining canned beans removes approximately 40 percent of the sodium.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Place rice and water in stockpot. Cover and cook over medium heat until rice is tender, about 45 to 50 minutes. Cool to room temperature. Stir in the remaining ingredients. Chill 2 hours or longer. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 1/2 cups uncooked brown rice&lt;/li&gt;
+	&lt;li&gt;3 cups water&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped fresh parsley&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped shallots or spring onions (approximately 2 shallots or several spring onions)&lt;/li&gt;
+	&lt;li&gt;15-ounce can unsalted garbanzo beans, rinsed and drained&lt;/li&gt;
+	&lt;li&gt;15-ounce can unsalted dark kidney beans, rinsed and drained&lt;/li&gt;
+	&lt;li&gt;1/4 cup olive oil&lt;/li&gt;
+	&lt;li&gt;1/3 to 1/2 cup rice vinegar, according to your taste &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				235
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				36 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				7 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 3/4 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				122 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				7 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 10
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

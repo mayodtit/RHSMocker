@@ -1,0 +1,289 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00861
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/alcohol-poisoning/DS00861
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1644" Title="Substance abuse">
+						<Keyword MCVID="4315" Title="Alcohol poisoning" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0EE4C5B7-E7FF-0DBD-1C7A984AFED4CBB2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				alcohol poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				drinking
+			</MetaKeyword>
+			<MetaKeyword>
+				binge drinking
+			</MetaKeyword>
+			<MetaKeyword>
+				ethanol poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol effects
+			</MetaKeyword>
+			<MetaKeyword>
+				blood alcohol
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol abuse
+			</MetaKeyword>
+			<MetaKeyword>
+				alcoholism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol poisoning is a serious &amp;mdash; and sometimes deadly &amp;mdash; consequence of drinking large amounts of alcohol in a short period of time. Drinking too much too quickly can affect your breathing, heart rate and gag reflex and potentially lead to coma and death. 
+&lt;/p&gt;
+&lt;p&gt;
+Binge drinking &amp;mdash; rapidly downing five or more drinks in a row &amp;mdash; is a main cause of alcohol poisoning. Alcohol poisoning can also occur when you accidentally or intentionally drink household products that contain alcohol.
+&lt;/p&gt;
+&lt;p&gt;
+A person with alcohol poisoning needs immediate medical attention. If you suspect someone has alcohol poisoning, call for emergency medical help right away. 
+&lt;/p&gt;
+&lt;p&gt;
+Alcohol poisoning treatment consists of providing breathing support and intravenous fluids and vitamins until the alcohol is completely out of the body.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol poisoning symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Confusion, stupor&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Slow breathing (less than eight breaths a minute)&lt;/li&gt;
+	&lt;li&gt;Irregular breathing (a gap of more than 10 seconds between breaths)&lt;/li&gt;
+	&lt;li&gt;Blue-tinged skin or pale skin&lt;/li&gt;
+	&lt;li&gt;Low body temperature (hypothermia)&lt;/li&gt;
+	&lt;li&gt;Unconsciousness (&quot;passing out&quot;), and can&apos;t be roused&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s not necessary for all of these symptoms to be present before you seek help. A person who is unconscious or can&apos;t be roused is at risk of dying. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you suspect that someone has alcohol poisoning &amp;mdash; even if you don&apos;t see the classic signs and symptoms &amp;mdash; seek immediate medical care. In an emergency, follow these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If the person is unconscious,&lt;/strong&gt; breathing less than eight times a minute or has repeated, uncontrolled vomiting, call 911 or your local emergency number immediately. Keep in mind that even when someone is unconscious or has stopped drinking, alcohol continues to be released into the bloodstream and the level of alcohol in the body continues to rise. Never assume that a person will &quot;sleep off&quot; alcohol poisoning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If the person is conscious,&lt;/strong&gt; call 800-222-1222 (in the U.S.), and you&apos;ll automatically be routed to your local poison control center. The staff at the poison control center or emergency call center can instruct you as to whether you should take the person directly to a hospital. All calls to poison control centers are confidential.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to provide information.&lt;/strong&gt; If you know, be sure to tell hospital or emergency personnel the kind and amount of alcohol the person drank, and when.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t leave an unconscious person alone.&lt;/strong&gt; While waiting for help, don&apos;t try to make the person vomit. Alcohol poisoning affects the way your gag reflex works. That means someone with alcohol poisoning may choke on his or her own vomit or accidentally inhale (aspirate) vomit into the lungs, which could cause a fatal lung injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol comes in several forms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Isopropyl alcohol,&lt;/strong&gt; which is found in rubbing alcohol, lotions and some cleaning products&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Methanol,&lt;/strong&gt; a common ingredient in antifreeze, paints and solvents&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethanol,&lt;/strong&gt; which is found in alcoholic beverages, mouthwash and some medications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although alcohol poisoning can occur when you accidentally &amp;mdash; or even intentionally &amp;mdash; drink household products containing alcohol, alcohol poisoning generally results from drinking too many alcoholic beverages, especially in a short period of time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How much is too much?&lt;br /&gt;
+&lt;/strong&gt;Unlike food, which can take hours to digest, alcohol is absorbed quickly by your body &amp;mdash; long before most other nutrients. But, it takes a lot more time for your body to get rid of the alcohol you&apos;ve consumed.
+&lt;/p&gt;
+&lt;p&gt;
+Most alcohol is processed by your liver, and it takes about one hour for your liver to process (metabolize) the alcohol in one drink. One drink is defined as 12 ounces (355 milliliters) of beer, 5 ounces (148 milliliters) of wine or 1.5 ounce (44 milliliters) of 80-proof distilled spirits. Mixed drinks may contain more than one serving of alcohol and take even longer to metabolize.
+&lt;/p&gt;
+&lt;p&gt;
+The rate at which alcohol is processed can vary considerably from person to person and depends on a number of factors. In general, though, drinking more than one drink an hour gives your liver more than it can handle. Binge drinking &amp;mdash; usually defined as rapidly downing five drinks or more in a row &amp;mdash; is especially dangerous. Drinking large quantities of alcohol so quickly means that you can consume a lethal dose before you pass out.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What happens to your body when you drink?&lt;br /&gt;
+&lt;/strong&gt;Alcohol depresses the nerves that control involuntary actions such as breathing, heartbeat and your gag reflex, which keeps you from choking. Drinking too much alcohol can slow and, in some cases, shut down these functions. Your body temperature can also drop (hypothermia), leading to cardiac arrest. And your blood sugar level can fall low enough to cause seizures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors can increase your risk of alcohol poisoning, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Young teens and college students may be more likely to binge drink, yet contrary to popular belief, the majority of deaths from alcohol poisoning occur in people ages 35 to 54. As you get older, you may not metabolize alcohol as quickly as you once did.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Boys and men are more likely to have alcohol poisoning than girls and women are. But, women and girls aren&apos;t exempt from alcohol poisoning. In fact, drink for drink, women are more vulnerable to the effects of alcohol because they produce less of an enzyme that slows the release of alcohol in the stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your size and weight.&lt;/strong&gt; The smaller and thinner your build, the more quickly your body absorbs alcohol, making you more susceptible to alcohol poisoning. A small child can get a lethal dose of alcohol just from drinking mouthwash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your overall health.&lt;/strong&gt; Having health problems, such as heart disease or diabetes, makes you more vulnerable to the damaging effects of alcohol. People with diabetes may experience dangerously low blood sugar levels while drinking and for up to 12 hours after they stop drinking. Don&apos;t hesitate to call for help if you have a friend or loved one with diabetes who passes out after drinking. Although they may not have alcohol poisoning per se, this can still be a life-threatening situation. When paramedics arrive, let them know immediately that the person has diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your food consumption.&lt;/strong&gt; Having food in your stomach slightly slows &amp;mdash; but doesn&apos;t prevent &amp;mdash; alcohol from entering your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your drug use.&lt;/strong&gt; Combining alcohol with other drugs &amp;mdash; including some prescription medications &amp;mdash; greatly increases your risk of a fatal alcohol overdose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The type of alcohol you&apos;re drinking.&lt;/strong&gt; It takes about one hour for your liver to process (metabolize) the alcohol in 12 ounces (355 milliliters) of beer, 5 ounces (148 milliliters) of wine or 1.5 ounce (44 milliliters) of 80-proof distilled spirits. So, if you have 15 ounces (444 milliliters) of an 80-proof liquor, your body will need much longer to process that amount of alcohol than if you&apos;d had 15 ounces of beer. You may also underestimate how much alcohol is in a mixed drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your tolerance level.&lt;/strong&gt; People who drink regularly may develop more tolerance to alcohol. Although someone with a high tolerance for alcohol may need more alcohol to get alcohol poisoning, they&apos;re still susceptible to the alcohol poisoning and its dangerous complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The rate of alcohol consumption.&lt;/strong&gt; The faster you drink, the more likely you are to develop alcohol poisoning. Even if you stop drinking, if you&apos;ve quickly consumed several drinks, your alcohol levels will still continue to rise.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol is a stomach irritant and may cause vomiting. It also depresses your gag reflex. This increases the risk of choking on vomit if you&apos;ve passed out from excessive drinking. There&apos;s also a risk of accidentally inhaling vomit into your lungs, which can lead to a dangerous or fatal interruption of breathing (asphyxiation). Excessive vomiting can also result in severe dehydration.
+&lt;/p&gt;
+&lt;p&gt;
+Severe alcohol poisoning can be fatal. People who survive may have irreversible brain damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to checking for visible signs and symptoms of alcohol poisoning, your doctor will likely order blood tests to check blood alcohol levels and identify other signs of alcohol toxicity, such as low blood sugar. A urine test also may help to confirm a diagnosis of alcohol poisoning. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol poisoning treatment usually involves supportive care while your body rids itself of the alcohol. This typically includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Careful monitoring.&lt;/li&gt;
+	&lt;li&gt;Prevention of breathing or choking problems.&lt;/li&gt;
+	&lt;li&gt;Oxygen therapy.&lt;/li&gt;
+	&lt;li&gt;Fluids given through a vein (intravenously) to prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;The use of thiamin and glucose, as needed. These nutrients may help prevent a serious complication of alcohol poisoning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Adults and children who have accidentally consumed methanol or isopropyl alcohol may need kidney dialysis &amp;mdash; a mechanical way of filtering waste and toxins from your system &amp;mdash; to speed the removal of alcohol from their bloodstream.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Home remedies for sobering up abound, but most are ineffective, and some can be dangerous. Here&apos;s what doesn&apos;t work:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Black coffee&lt;/li&gt;
+	&lt;li&gt;A cold shower &amp;mdash; the shock of cold can cause a loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Walking it off&lt;/li&gt;
+	&lt;li&gt;Sleeping it off &amp;mdash; you can lose consciousness while asleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you suspect that someone has alcohol poisoning, here&apos;s what to do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay with a person who is vomiting&lt;/strong&gt; and try to keep him or her sitting up. If the person must lie down, make sure to turn his or her head to the side &amp;mdash; this helps prevent choking. Try to keep the person awake to prevent loss of consciousness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t be afraid to get help&lt;/strong&gt; for a friend, even if you think it won&apos;t be appreciated. It can be difficult to decide if you think someone is drunk enough to warrant medical intervention, but it&apos;s best to err on the side of caution. You may worry about the consequences for yourself or your friend or loved one, particularly if you&apos;re underage. But, the consequences of not getting the right help in time can be far more serious.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re with someone who has been drinking a lot of alcohol and you see any of the following signs or symptoms, call 911 or emergency medical help immediately:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unconsciousness, and you can&apos;t rouse the person at all&lt;/li&gt;
+	&lt;li&gt;Slowed breathing (less than 8 breaths per minute)&lt;/li&gt;
+	&lt;li&gt;Irregular breathing (gaps of 10 seconds or more between breaths)&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Very pale or blue-tinged skin&lt;/li&gt;
+	&lt;li&gt;Cold skin temperature without a reason&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are some tips to avoid alcohol poisoning: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation.&lt;/strong&gt; To prevent alcohol poisoning, drink alcoholic beverages in moderation, if at all. Most doctors recommend no more than one drink a day for women and no more than two a day for men. When you do drink, enjoy your drink slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink on an empty stomach.&lt;/strong&gt; Having some food in your stomach may help slow alcohol absorption. People with diabetes should snack while they&apos;re drinking to prevent low blood sugar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Communicate with your teens.&lt;/strong&gt; Talk to your teenage children about the dangers of alcohol. Binge drinking increases during adolescence and usually peaks in the mid-20s and decreases thereafter. Evidence suggests that children who are warned about alcohol by their parents and who report close relationships with their parents are less likely to start drinking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Store products safely.&lt;/strong&gt; If you have small children in the house, store alcohol-containing products, including cosmetics, mouthwashes and medications, out of the reach of your children. Use child-proof bathroom and kitchen cabinets to prevent access to household cleaners and keep potentially toxic items in your garage or storage area safely out of reach. Consider keeping alcoholic beverages under lock and key.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get follow-up care.&lt;/strong&gt; If you or your teen has been treated for alcohol poisoning, be sure to ask about follow-up care. Meeting with a medical social worker or counselor can help you sort through issues that may lead to binge drinking and other risky behavior. This help is available, but often isn&apos;t offered &amp;mdash; don&apos;t be afraid to ask.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Alcohol poisoning
+	</Title>
+	<Abstract>
+		Alcohol poisoning &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of drinking too much alcohol.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

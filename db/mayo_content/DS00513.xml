@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00513
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vasculitis/DS00513
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-08
+		</UpdateDate>
+		<PublicationDate>
+			2004-01-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="2749" Title="Vascular">
+						<Keyword MCVID="2787" Title="Vasculitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			966D4A0F-2EF5-410F-98644B246375992A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vasculitis
+			</MetaKeyword>
+			<MetaKeyword>
+				angiitis
+			</MetaKeyword>
+			<MetaKeyword>
+				blood vessels
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vasculitis is an inflammation of your blood vessels. Vasculitis causes changes in the walls of your blood vessels, including thickening, weakening, narrowing and scarring. 
+&lt;/p&gt;
+&lt;p&gt;
+There are many types of vasculitis. Some forms last only a short time (acute) while others are long lasting (chronic). Vasculitis, which is also known as angiitis and arteritis, can be so severe that the tissues and organs supplied by the affected vessels don&apos;t get enough blood. This shortage of blood can result in organ and tissue damage, even death. 
+&lt;/p&gt;
+&lt;p&gt;
+Vasculitis can affect anyone, though some types of vasculitis are more common among certain groups. Some forms of vasculitis improve on their own, but others require treatment &amp;mdash; often including taking medications for an extended period of time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;General signs and symptoms common to most vasculitis types&lt;/strong&gt; &lt;br /&gt;
+The signs and symptoms of vasculitis vary depending on which blood vessels and, as a result, which organ systems are affected. However, general signs and symptoms that many people with vasculitis experience include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Muscle and joint pain&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nerve problems, such as numbness or weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms for some types of vasculitis&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Behcet&apos;s syndrome.&lt;/strong&gt; This condition causes inflammation of your arteries and veins, and often appears in your 20s and 30s. Signs and symptoms include mouth and genital ulcers, eye inflammation, and acne-like lesions on your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buerger&apos;s disease.&lt;/strong&gt; Also called thromboangiitis obliterans, this condition causes inflammation and clots in the blood vessels in your extremities. Signs and symptoms can include pain in your hands, arms, feet and legs, and ulcers on your fingers and toes. This disorder is strongly associated with cigarette smoking. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Churg-Strauss syndrome.&lt;/strong&gt; This condition, also known as allergic granulomatosis and allergic angiitis, most commonly affects the blood vessels in your lungs. It&apos;s often associated with asthma. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cryoglobulinemia.&lt;/strong&gt; This condition is often associated with hepatitis C infections. Signs and symptoms include&lt;strong&gt; &lt;/strong&gt;a rash called purpura on your lower extremities, arthritis, weakness and nerve damage (neuropathy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Giant cell arteritis.&lt;/strong&gt; This condition, which usually occurs in people older than 50, is an inflammation of the arteries in your head, especially your temples. Giant cell arteritis can cause headaches, scalp tenderness, jaw pain while chewing, blurred or double vision, and even blindness. Giant cell arteritis is often associated with another type of inflammatory condition called polymyalgia rheumatica (PMR). PMR causes pain in and inflammation of the large joints, such as your shoulders and hips. Signs and symptoms include pain and stiffness in the muscles of your hips, thighs, shoulders, upper arms and neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Henoch-Schonlein purpura.&lt;/strong&gt; This condition is caused by inflammation of the blood vessels of your skin, joints, bowel and kidneys. Signs and symptoms can include abdominal pain, blood in the urine, joint pain, and a rash called purpura on your buttocks, legs and feet. Henoch-Schonlein usually affects children, but it can occur at any age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypersensitivity vasculitis.&lt;/strong&gt; The primary sign of hypersensitivity vasculitis is red spots on your skin. It can be triggered by an allergy, most often to a medication or an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kawasaki&lt;/strong&gt;&lt;strong&gt; disease.&lt;/strong&gt; Also known as mucocutaneous lymph node syndrome, this condition most often affects children younger than 5 years of age. Signs and symptoms include fever, skin rash and eye inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Microscopic polyangiitis.&lt;/strong&gt; This form of vasculitis affects small-sized blood vessels in your kidneys, lungs and skin. Signs and symptoms include skin lesions, fever, unintentional weight loss, glomerulonephritis &amp;mdash; inflammation of the small blood vessels in the kidneys &amp;mdash; and nerve damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polyarteritis nodosa.&lt;/strong&gt; This form of vasculitis affects medium-sized blood vessels in many different parts of the body, including your skin, heart, kidneys, peripheral nerves, muscles and intestines. Signs and symptoms include a rash called purpura, skin ulcers, muscle and joint pain, abdominal pain, and kidney problems. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Takayasu&apos;s arteritis.&lt;/strong&gt; This form of vasculitis includes the largest arteries in the body, including the aorta, and typically occurs in young women. Signs and symptoms include a feeling of numbness or cold in the extremities, decreased or absent pulses, high blood pressure, headaches, and visual disturbances.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Granulomatosis with polyangiitis (Wegener&apos;s).&lt;/strong&gt; Formerly known as Wegener&apos;s granulomatosis, granulomatosis with polyangiitis causes inflammation of the blood vessels in your nose, sinuses, throat, lungs and kidneys. Signs and symptoms can include nasal stuffiness, chronic sinus infections and nosebleeds. The kidneys are often affected, though most people won&apos;t have any noticeable symptoms until the damage is more advanced.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing inflamed temple arteries in giant cell arteritis 
+" Caption="Giant cell arteritis causes inflammation of certain arteries, especially those near the temples. 
+" Height="60" Title="Giant cell arteritis" URI="/images/image_popup/thumbs/art_thumb.jpg" Width="60" />
+				<Image Alt="Image showing inflamed temple arteries in giant cell arteritis 
+" Caption="Giant cell arteritis causes inflammation of certain arteries, especially those near the temples. 
+" Height="232" Title="Giant cell arteritis" URI="/images/image_popup/artery_big.jpg" Width="400" />
+				<HTML>
+					Giant cell arteritis causes inflammation of certain arteries, especially those near the temples. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Henoch-Schonlein purpura 
+" Caption="Henoch-Schonlein purpura is an inflammation of the small blood vessels of the skin, joints, intestines and kidneys. When blood vessels get inflamed, they can bleed into the skin, causing a reddish-purple rash (purpura). 
+" Height="60" Title="Henoch-Schonlein purpura" URI="/images/image_popup/thumbs/ans7_hspurpurathu.jpg" Width="60" />
+				<Image Alt="Image showing Henoch-Schonlein purpura 
+" Caption="Henoch-Schonlein purpura is an inflammation of the small blood vessels of the skin, joints, intestines and kidneys. When blood vessels get inflamed, they can bleed into the skin, causing a reddish-purple rash (purpura). 
+" Height="306" Title="Henoch-Schonlein purpura" URI="/images/image_popup/ans7_hspurpura.jpg" Width="400" />
+				<HTML>
+					Henoch-Schonlein purpura is an inflammation of the small blood vessels of the skin, joints, intestines and kidneys. When blood vessels get inflamed, they can bleed into the skin, causing a reddish-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vasculitis occurs when your immune system mistakenly sees blood vessel cells as foreign. The immune system then attacks those cells as if they were an invader, such as a bacteria or virus. It&apos;s not always clear why this happens, but an infection, some cancers, certain immune system disorders or an allergic reaction may serve as the trigger. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood vessels affected by vasculitis become inflamed, which can cause the layers of the blood vessel wall to thicken. This narrows the blood vessels, reducing the amount of blood &amp;mdash; and therefore oxygen and vital nutrients &amp;mdash; that reaches your body&apos;s tissues. In some cases, a blood clot may form in an affected blood vessel, obstructing blood flow. Sometimes instead of becoming narrower, a blood vessel may weaken and form a bulge (aneurysm), a potentially life-threatening condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vasculitis with no known cause (primary vasculitis)&lt;/strong&gt; &lt;br /&gt;
+For many of its forms, the cause of vasculitis is unknown. These forms of vasculitis are called primary vasculitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vasculitis that occurs due to another disease (secondary vasculitis)&lt;/strong&gt; &lt;br /&gt;
+Forms of vasculitis for which an underlying disease is the cause are called secondary vasculitis. Examples of causes of secondary vasculitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Some vasculitis occurs in response to an infection. For instance, most cases of cryoglobulinemia are the result of the hepatitis C virus infection, and the hepatitis B virus infection causes some cases of polyarteritis nodosa.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system diseases.&lt;/strong&gt; Vasculitis can also occur as the result of some diseases of the immune system, such as rheumatoid arthritis, lupus and scleroderma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic reactions.&lt;/strong&gt; Sometimes an allergic reaction to a medication may cause vasculitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood cell cancers.&lt;/strong&gt; Cancer that affects the blood cells, including leukemia and lymphoma, can cause vasculitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of vasculitis depend on the type of vasculitis you have. In general, complications that can occur include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Organ damage.&lt;/strong&gt; Some types of vasculitis can be severe, causing damage to major organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurring episodes of vasculitis.&lt;/strong&gt; Even when treatment for vasculitis is initially successful, the condition may recur and require additional treatment. In other cases, vasculitis may never completely go away and requires ongoing treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Whom to see&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your family doctor or a general practitioner if you have signs or symptoms that worry you. If your doctor suspects that you have vasculitis, you may be referred to a specialist. What specialist you&apos;ll see depends on what type of vasculitis you have. 
+&lt;/p&gt;
+&lt;p&gt;
+Specialists who treat vasculitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brain and nervous system doctors (neurologists)&lt;/li&gt;
+	&lt;li&gt;Eye doctors (ophthalmologists)&lt;/li&gt;
+	&lt;li&gt;Heart doctors (cardiologists)&lt;/li&gt;
+	&lt;li&gt;Infectious diseases doctors&lt;/li&gt;
+	&lt;li&gt;Joint and muscle doctors (rheumatologists)&lt;/li&gt;
+	&lt;li&gt;Kidney doctors (nephrologists)&lt;/li&gt;
+	&lt;li&gt;Lung doctors (pulmonologists)&lt;/li&gt;
+	&lt;li&gt;Skin doctors (dermatologists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For vasculitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of vasculitis do I have?&lt;/li&gt;
+	&lt;li&gt;What&apos;s causing my vasculitis?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;Is my vasculitis acute or chronic?&lt;/li&gt;
+	&lt;li&gt;Will my vasculitis go away on its own?&lt;/li&gt;
+	&lt;li&gt;Is my vasculitis serious?&lt;/li&gt;
+	&lt;li&gt;Has any part of my body been seriously damaged by vasculitis?&lt;/li&gt;
+	&lt;li&gt;Can my vasculitis be cured?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;How long will treatment last?&lt;/li&gt;
+	&lt;li&gt;I have another medical condition. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose vasculitis, your doctor will likely ask about your symptoms and past medical history and conduct a thorough physical exam. Tests and procedures used to diagnose vasculitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests used to help diagnose vasculitis include tests that look for signs of inflammation, such as the erythrocyte sedimentation rate and C-reactive protein tests. A complete blood cell count can tell whether you have enough red blood cells. A test that looks for certain antibodies &amp;mdash; antineutrophil cytoplasmic antibodies test &amp;mdash; that suggest your immune system is fighting healthy cells may also be done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; Testing samples of your urine may reveal abnormalities, such as red blood cells and increased amounts of protein, that often indicate a medical problem. If vasculitis has caused kidney problems, your prognosis tends to be poorer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may be able to determine whether larger arteries, such as the aorta and its branches, are affected through the use of noninvasive imaging techniques. These include X-ray, ultrasound, computerized tomography (CT) and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays of your blood vessels (angiogram).&lt;/strong&gt; During an angiogram, a flexible catheter, resembling a thin straw, is inserted into a large artery or vein. A special dye (contrast medium) is then injected into the catheter, and X-rays are taken as the dye fills these arteries or veins. The outlines of your blood vessels are visible on the resulting X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a piece of the affected blood vessel for testing (biopsy).&lt;/strong&gt; A surgical procedure to remove a small sample (biopsy) of blood vessel or organ that is affected, such as the skin, kidney, lung or nerve, allows your doctor to examine the tissue for signs of vasculitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Specific treatment for vasculitis depends on what kind of vasculitis you have, how serious your condition is and your general health. Though some types of vasculitis are self-limiting and improve on their own, such as Henoch-Schonlein purpura, others require medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to treat vasculitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Steroids to control inflammation.&lt;/strong&gt; Treatment for many types of vasculitis consists of doses of a corticosteroid drug, such as prednisone or methylprednisolone (Medrol), to control inflammation. Side effects of steroids can be severe, especially when taken over a long period of time. Side effects can include weight gain, diabetes and bone thinning (osteoporosis). You&apos;re likely to receive the lowest dose of steroids possible to control your disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control the immune system.&lt;/strong&gt; Severe cases of vasculitis or those that don&apos;t respond adequately to corticosteroids may need treatment with cytotoxic drugs that kill immune system cells responsible for causing inflammation. Cytotoxic drugs include azathioprine (Azasan, Imuran) and cyclophosphamide (Cytoxan). Another drug that helps dampen the immune system response is rituximab (Rituxan). This drug is approved for treating granulomatosis with polyangiitis (Wegener&apos;s) and microscopic polyangiitis along with corticosteroids. Researchers have also had some success using drugs that alter your body&apos;s immune response to treat certain types of vasculitis. Drugs that have been used, but are still being tested include mycophenolate (Cellcept), infliximab (Remicade), adalimumab (Humira) and anakinra (Kineret).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When vasculitis is identified and treated early, the prognosis is usually good. One of your greatest challenges may be coping with side effects of your medication. The following suggestions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Understand your condition.&lt;/strong&gt; Learn everything you can about vasculitis and its treatment. Know the possible side effects of any medications you take, and report any changes in your health to your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Eating well can help prevent potential problems that can result from your medications, such as thinning bones, high blood pressure and diabetes. Choose a diet that emphasizes fresh fruits and vegetables, whole grains, low-fat dairy, and lean meats and fish. Ask your doctor if you need to take a vitamin D or calcium supplement if you&apos;re taking corticosteroid therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Regular aerobic exercise, such as walking, can help prevent bone loss, high blood pressure and diabetes that can be associated with taking corticosteroids. It also benefits your heart and lungs. In addition, many people find that exercise improves their mood and overall sense of well-being. If you&apos;re not used to exercising, start out slowly and build up gradually. Your doctor can help you plan an exercise program that&apos;s right for you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vasculitis
+	</Title>
+	<Abstract>
+		Vasculitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this inflammation of the blood vessels.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00833" LinkType="Internal" ObjectID="C78CC9C6-E7FF-0DBD-1FCA3CE83D7E6292" Title="Wegener&apos;s granulomatosis" Url="http://www.mayoclinic.com/health/wegeners-granulomatosis/DS00833" />
+		<LinkItem ContentType="Disease" DocID="DS00832" LinkType="Internal" ObjectID="7B40E1EF-E7FF-0DBD-13D88BF8E8840612" Title="Takayasu&apos;s arteritis" Url="http://www.mayoclinic.com/health/takayasus-arteritis/DS00832" />
+		<LinkItem ContentType="Disease" DocID="DS00822" LinkType="Internal" ObjectID="7AABF39A-E7FF-0DBD-154FCDE1DC1F9CAC" Title="Behcet&apos;s disease" Url="http://www.mayoclinic.com/health/behcets-disease/DS00822" />
+		<LinkItem ContentType="Disease" DocID="DS00440" LinkType="Internal" ObjectID="64E5B448-475D-4C33-BAA8FE4517560A9A" Title="Giant cell arteritis" Url="http://www.mayoclinic.com/health/giant-cell-arteritis/DS00440" />
+		<LinkItem ContentType="Disease" DocID="DS00855" LinkType="Internal" ObjectID="09A28098-E7FF-0DBD-1579CA6EE0B01CF0" Title="Churg-Strauss syndrome" Url="http://www.mayoclinic.com/health/churg-strauss-syndrome/DS00855" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00787" LinkType="Internal" ObjectID="74664E72-D011-7D0D-FAFA7BCB2AED1DD4" Title="ANA test" Url="http://www.mayoclinic.com/health/ana-test/MY00787" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01018" LinkType="Internal" ObjectID="54EAD155-D909-7FE2-44C4EB2D320BB269" Title="C-reactive protein test" Url="http://www.mayoclinic.com/health/c-reactive-protein/MY01018" />
+	</RelatedLinksBox>
+</Disease>

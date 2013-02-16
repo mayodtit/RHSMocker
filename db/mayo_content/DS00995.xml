@@ -1,0 +1,315 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00995
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/central-sleep-apnea/DS00995
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="1935" Title="Sleep apnea">
+							<Keyword MCVID="3972" Title="Central sleep apnea" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			527F2C24-E7FF-0DBD-179189C48F92AC84
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				central sleep apnea
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apnea
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				CPAP
+			</MetaKeyword>
+			<MetaKeyword>
+				snoring
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apnia
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apena
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Central sleep apnea is a disorder in which your breathing repeatedly stops and starts during sleep. Central sleep apnea occurs because your brain doesn&apos;t send proper signals to the muscles that control your breathing &amp;mdash; unlike obstructive sleep apnea, in which you can&apos;t breathe normally because of upper airway obstruction. Central sleep apnea is less common, accounting for fewer than 5 percent of sleep apnea cases. 
+&lt;/p&gt;
+&lt;p&gt;
+Central sleep apnea may occur as a result of other conditions, such as heart failure and stroke. Sleeping at a high altitude also may cause central sleep apnea. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for central sleep apnea may involve addressing predisposing conditions, using a device to assist breathing or using supplemental oxygen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs and symptoms of central sleep apnea include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Observed episodes of stopped breathing or abnormal breathing patterns during sleep&lt;/li&gt;
+	&lt;li&gt;Abrupt awakenings accompanied by shortness of breath&lt;/li&gt;
+	&lt;li&gt;Shortness of breath that&apos;s relieved by sitting up&lt;/li&gt;
+	&lt;li&gt;Difficulty staying asleep (insomnia)&lt;/li&gt;
+	&lt;li&gt;Excessive daytime sleepiness (hypersomnia)&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Morning headaches&lt;/li&gt;
+	&lt;li&gt;Snoring &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although snoring indicates some degree of increased obstruction to airflow, snoring may also be heard in the presence of central sleep apnea. However, snoring may not be as prominent with central sleep apnea as it is with obstructive sleep apnea. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult a medical professional if you experience, or if your partner observes, any signs or symptoms of central sleep apnea, particularly the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath that awakens you from sleep&lt;/li&gt;
+	&lt;li&gt;Intermittent pauses in your breathing during sleep&lt;/li&gt;
+	&lt;li&gt;Difficulty staying asleep&lt;/li&gt;
+	&lt;li&gt;Excessive daytime drowsiness, which may cause you to fall asleep while you&apos;re working, watching television or even driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your doctor about any sleep problem that leaves you chronically fatigued, sleepy and irritable. Excessive daytime drowsiness (hypersomnia) may be due to other disorders, such as narcolepsy or obstructive sleep apnea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Central sleep apnea occurs when your brain fails to transmit signals to your breathing muscles. Central sleep apnea can be caused by a number of conditions that affect the ability of your brainstem &amp;mdash; which links your brain to your spinal cord and controls many functions such as heart rate and breathing &amp;mdash; to control your breathing. The cause varies with the type of central sleep apnea you have. Types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Idiopathic central sleep apnea.&lt;/strong&gt; The cause of this uncommon type of central sleep apnea isn&apos;t known. It results in repeated pauses in breathing effort and airflow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cheyne-Stokes breathing.&lt;/strong&gt; This type of central sleep apnea is most commonly associated with congestive heart failure or stroke and is characterized by a periodic, rhythmic, gradual increase and then decrease in breathing effort and airflow. During the weakest breathing effort, a total lack of airflow (central sleep apnea) can occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical condition-induced central sleep apnea.&lt;/strong&gt; In addition to congestive heart failure and stroke, several medical conditions may give rise to central sleep apnea. Any damage to the brainstem &amp;mdash; which controls breathing &amp;mdash; may impair the normal breathing process.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug-induced apnea.&lt;/strong&gt; Taking certain medications such as opioids &amp;mdash; for example, morphine, oxycodone or codeine &amp;mdash; may cause your breathing to become irregular, to increase and decrease in a regular pattern, or to stop completely. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High-altitude periodic breathing.&lt;/strong&gt; A Cheyne-Stokes breathing pattern may occur if you&apos;re acutely exposed to a high-enough altitude, such as an altitude greater than 15,000 feet (about 4,500 meters). The change in oxygen at this altitude is the reason for the alternating rapid breathing (hyperventilation) and underbreathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complex sleep apnea.&lt;/strong&gt; Some people with obstructive sleep apnea develop central sleep apnea while on treatment with continuous positive airway pressure (CPAP). This is known as complex sleep apnea because it is a combination of obstructive and central sleep apneas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors put you at increased risk of central sleep apnea: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Males are more likely to develop central sleep apnea than are females.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Central sleep apnea is more common among older adults, possibly because they may have coexisting medical conditions or sleep patterns that are more likely to cause central sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart disorders.&lt;/strong&gt; People with atrial fibrillation or congestive heart failure are at greater risk of central sleep apnea. Central sleep apnea may be present in up to 40 percent of people with congestive heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke or brain tumor.&lt;/strong&gt; These conditions can impair the brain&apos;s ability to regulate breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High altitude.&lt;/strong&gt; Sleeping at an altitude higher than you&apos;re accustomed to may increase your risk of sleep apnea. High-altitude sleep apnea is no longer a problem when you return to a lower altitude.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opioid use.&lt;/strong&gt; Opioids, such as morphine, oxycodone and codeine, increase the risk of central sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CPAP.&lt;/strong&gt; Some people with obstructive sleep apnea develop central sleep apnea while on treatment with CPAP, continuous positive airway pressure. This is known as complex sleep apnea because it is a combination of obstructive and central sleep apneas. For some people, complex sleep apnea goes away with continued use of a CPAP device. Other people may be treated with a different kind of positive airway pressure (PAP) therapy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Central sleep apnea is a serious medical condition. Some complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; The repeated awakenings associated with sleep apnea make normal, restorative sleep impossible. People with central sleep apnea often experience severe daytime drowsiness, fatigue and irritability. You may have difficulty concentrating and find yourself falling asleep at work, while watching TV or even when driving.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular problems.&lt;/strong&gt; In addition, sudden drops in blood oxygen levels that occur during central sleep apnea may adversely affect heart health. If there&apos;s underlying heart disease, these repeated multiple episodes of low blood oxygen (hypoxia or hypoxemia) worsen prognosis and increase the risk of abnormal heart rhythms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in treating sleep disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bring results of prior sleep studies or other tests with you,&lt;/strong&gt; or ask that they be given to your sleep specialist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask someone, such as a spouse or partner, who has seen you sleeping to come with you to your appointment.&lt;/strong&gt; He or she will likely be able to provide your doctor with additional information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses&lt;strong&gt; &lt;/strong&gt;or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. For central sleep apnea, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;How will treating &amp;mdash; or not treating &amp;mdash; my central sleep apnea affect my health now and in the future?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow before bed?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Can you describe your typical sleep schedule?&lt;/li&gt;
+	&lt;li&gt;How long do you sleep, and do you sleep soundly?&lt;/li&gt;
+	&lt;li&gt;Does anything unusual occur while you&apos;re sleeping?&lt;/li&gt;
+	&lt;li&gt;Do you know if you snore?&lt;/li&gt;
+	&lt;li&gt;How do you feel when you wake up?&lt;/li&gt;
+	&lt;li&gt;Do you fall asleep easily during the day?&lt;/li&gt;
+	&lt;li&gt;Has anyone ever told you that you stop breathing while you&apos;re sleeping?&lt;/li&gt;
+	&lt;li&gt;How many times do you wake up at night?&lt;/li&gt;
+	&lt;li&gt;Are you short of breath when you wake up at night?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there anything that seems to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications, if any, are you currently taking?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may make an evaluation based on your signs and symptoms or may refer you to a sleep disorder center. There, a sleep specialist can help you decide on your need for further evaluation. Such an evaluation often involves overnight monitoring of your breathing and other body functions during sleep by polysomnography. 
+&lt;/p&gt;
+&lt;p&gt;
+During a polysomnography test, you will be connected to equipment that monitors your heart, lung and brain activity, breathing patterns, arm and leg movements, and blood oxygen levels while you sleep. This can help your doctor rule out other conditions &amp;mdash; such as periodic limb movements or narcolepsy &amp;mdash; that can cause excessive daytime sleepiness but require different treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+An evaluation by a heart specialist (cardiologist) or a doctor who specializes in the nervous system (neurologist) may also be necessary to look for causes of central sleep apnea.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for central sleep apnea may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Addressing associated medical problems.&lt;/strong&gt; Possible causes of central sleep apnea include other disorders, and treating those conditions may help your central sleep apnea. For example, appropriate therapy for heart failure may eliminate central sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduction of opioid medications.&lt;/strong&gt; If opioid medications are causing your central sleep apnea, your doctor may gradually reduce your dose of those medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continuous positive airway pressure (CPAP).&lt;/strong&gt; This method, also used to treat obstructive sleep apnea, involves wearing a mask over your nose while you sleep. The mask is attached to a small pump that supplies pressurized air to hold open your upper airway. CPAP may prevent the airway closure that can trigger central sleep apnea. As with obstructive sleep apnea, it&apos;s important that you use the device only as directed. If your mask is uncomfortable or the pressure feels too strong, talk with your doctor so that adjustments can be made.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bilevel positive airway pressure (BPAP).&lt;/strong&gt; Unlike CPAP, which supplies steady, constant pressure to your upper airway as you breathe in and out, BPAP builds to a higher pressure when you inhale and decreases to a lower pressure when you exhale. The goal of this treatment is to boost the weak breathing pattern of central sleep apnea. Some BPAP devices can be set to automatically deliver a breath if the device detects you haven&apos;t taken a breath after a certain number of seconds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adaptive servo-ventilation &lt;/strong&gt;&lt;strong&gt;(ASV).&lt;/strong&gt; Some studies have shown this airflow device to be more effective than the CPAP or BPAP for treating central sleep apnea. ASV is designed to treat central sleep apnea and complex sleep apnea by monitoring your normal breathing pattern and storing the information in a built-in computer. After you fall asleep, the machine uses pressure to regulate your breathing pattern and prevent pauses in your breathing. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supplemental oxygen.&lt;/strong&gt; Using supplemental oxygen while you sleep may help if you have central sleep apnea. Various forms of oxygen are available as well as different devices to deliver oxygen to your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Certain medications have been used to stimulate breathing in people with central sleep apnea. For example, some doctors prescribe acetazolamide to prevent central sleep apnea in high altitude.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of continuous positive airway pressure (CPAP) mask 
+" Caption="Your doctor may recommend continuous positive airway pressure (CPAP) to eliminate snoring and prevent sleep apnea. A CPAP machine delivers just enough air pressure to a mask to keep your upper airway passages open. 
+" Height="60" Title="Continuous positive airway pressure (CPAP)" URI="/images/image_popup/thumbs/r7_cpapthu.jpg" Width="60" />
+				<Image Alt="Illustration of continuous positive airway pressure (CPAP) mask 
+" Caption="Your doctor may recommend continuous positive airway pressure (CPAP) to eliminate snoring and prevent sleep apnea. A CPAP machine delivers just enough air pressure to a mask to keep your upper airway passages open. 
+" Height="400" Title="Continuous positive airway pressure (CPAP)" URI="/images/image_popup/r7_cpap.jpg" Width="400" />
+				<HTML>
+					Your doctor may recommend continuous positive airway pressure (CPAP) to eliminate snoring and prevent sleep apnea. A CPAP machine delivers just enough air pressure to a mask to keep your upper airway ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Central sleep apnea
+	</Title>
+	<Abstract>
+		Central sleep apnea &amp;mdash; Comprehensive overview covers symptoms, treatment of this uncommon sleep, breathing disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SL00018" LinkType="Internal" ObjectID="D9D278B9-E7FF-0DBD-1AECC7BB36F93030" Title="Slide show: Which CPAP masks are best for you?" Url="http://www.mayoclinic.com/health/cpap-masks/SL00018" />
+		<LinkItem ContentType="Answer" DocID="AN01907" LinkType="Internal" ObjectID="BCCD80B2-E7FF-0DBD-1280152BEC2FBF6E" Title="Sleep apnea and caffeine: Any connection?" Url="http://www.mayoclinic.com/health/sleep-apnea/AN01907" />
+		<LinkItem ContentType="Video" DocID="MM00716" LinkType="Internal" ObjectID="84A0D09E-E7FF-0DBD-1613202322835EE6" Title="Video: How CPAP controls sleep apnea" Url="http://www.mayoclinic.com/health/cpap/MM00716" />
+		<LinkItem ContentType="Video" DocID="MM00715" LinkType="Internal" ObjectID="84A00292-E7FF-0DBD-1558C73C92018919" Title="Video: What happens during obstructive sleep apnea?" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/MM00715" />
+		<LinkItem ContentType="Article" DocID="SL00017" LinkType="Internal" ObjectID="113C1058-E7FF-0DBD-14B892FF2F58C60B" Title="CPAP machines: Tips for avoiding 10 common problems" Url="http://www.mayoclinic.com/health/cpap/SL00017" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+		<LinkItem ContentType="Disease" DocID="DS00148" LinkType="Internal" ObjectID="46007B8E-E80F-4754-ADF482B2CB33E645" Title="Sleep apnea" Url="http://www.mayoclinic.com/health/sleep-apnea/DS00148" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00297" LinkType="Internal" ObjectID="48D50376-6042-4011-A627317A9C08F538" Title="Snoring" Url="http://www.mayoclinic.com/health/snoring/DS00297" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+	</RelatedLinksBox>
+</Disease>

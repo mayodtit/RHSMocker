@@ -1,0 +1,70 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00227
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00227
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-12
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1100" Title="Aerobic exercise" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9D34E62A-E7FF-0DBD-12BBB288841D7E30
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+			<MetaKeyword>
+				fitness
+			</MetaKeyword>
+			<MetaKeyword>
+				athletic shoes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Buying new workout shoes? Get the right fit
+	</Title>
+	<Body>
+		&lt;p&gt;If you&apos;re shopping for new athletic shoes, be sure to try on both shoes and wiggle your toes. If you don&apos;t have at least a half an inch (1.3 centimeters) between your longest toe and the end of the shoe, go up a size. If you can detect the outline of your toes in the top or on the side of the shoe, try a larger size or wider shoe. Finally, be sure the shoe is wide enough. The side-to-side fit of the shoe should be snug, not tight.&lt;/p&gt;
+	</Body>
+</HealthTip>

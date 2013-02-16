@@ -1,0 +1,476 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00415
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/multiple-myeloma/DS00415
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-16
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2271" Title="Multiple myeloma" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			214BA123-97CC-4F97-89A1344C33E12F05
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				multiple myeloma
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				monoclonal gammopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				monoclonal gammopathy of undetermined significance
+			</MetaKeyword>
+			<MetaKeyword>
+				MGUS
+			</MetaKeyword>
+			<MetaKeyword>
+				bone cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal plasma cells
+			</MetaKeyword>
+			<MetaKeyword>
+				monoclonal protein
+			</MetaKeyword>
+			<MetaKeyword>
+				Bence Jones protein
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple myloma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple myeloma is a cancer of your plasma cells, a type of white blood cell present in your bone marrow. Plasma cells normally make proteins called antibodies to help you fight infections. 
+&lt;/p&gt;
+&lt;p&gt;
+In multiple myeloma, a group of plasma cells (myeloma cells) becomes cancerous and multiplies, raising the number of plasma cells to a higher than normal level. Since these cells normally make proteins (antibodies), the level of abnormal proteins in your blood also may go up. Health problems caused by multiple myeloma can affect your bones, immune system, kidneys and red blood cell count. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have multiple myeloma but don&apos;t have symptoms, your doctor may just monitor your condition. If you&apos;re experiencing symptoms, a number of treatments are available to help control multiple myeloma. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing myeloma cells 
+" Caption="This bone marrow tissue sample shows myeloma cells (bluish-stained cells). These cells crowd out normal bone marrow cells. Your doctor may remove a small sample of bone marrow tissue as one step in diagnosing multiple myeloma. 
+" Height="60" Title="Multiple myeloma" URI="/images/image_popup/thumbs/r7_myelomathu.jpg" Width="60" />
+				<Image Alt="Image showing myeloma cells 
+" Caption="This bone marrow tissue sample shows myeloma cells (bluish-stained cells). These cells crowd out normal bone marrow cells. Your doctor may remove a small sample of bone marrow tissue as one step in diagnosing multiple myeloma. 
+" Height="235" Title="Multiple myeloma" URI="/images/image_popup/r7_myeloma.jpg" Width="320" />
+				<HTML>
+					This bone marrow tissue sample shows myeloma cells (bluish-stained cells). These cells crowd out normal bone marrow cells. Your doctor may remove a small sample of bone marrow tissue as one step in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of multiple myeloma can vary from person to person. Early in the disease, the condition may not cause any symptoms (smoldering multiple myeloma). As the disease progresses, it&apos;s likely that you&apos;ll experience at least one of the four major problems common to multiple myeloma, which include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A high level of calcium in your blood.&lt;/strong&gt; This can occur when calcium from affected bones appears in your blood. High calcium levels cause excessive thirst, nausea, constipation, loss of appetite and confusion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney (renal) failure.&lt;/strong&gt; High levels of certain types of abnormal monoclonal proteins (M proteins), which are called light chains or Bence Jones proteins, damage the kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia-related fatigue.&lt;/strong&gt; This fatigue occurs as myeloma cells replace oxygen-carrying red blood cells in your bone marrow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone damage and fractures.&lt;/strong&gt; The type of bone damage in multiple myeloma is referred to as &quot;osteolytic&quot; or &quot;lytic,&quot; and appears as &quot;punched out&quot; spots on X-rays. Bone pain is a common symptom, particularly in your back, pelvis, ribs and skull.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These four problems are often referred to by the acronym CRAB, which refers to calcium levels, renal failure, anemia and bone damage. 
+&lt;/p&gt;
+&lt;p&gt;
+Other signs and symptoms of multiple myeloma may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Repeated infections &amp;mdash; such as pneumonia, sinusitis, bladder or kidney infections, skin infections, and shingles&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Weakness or numbness in your legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor to determine the underlying cause if you develop symptoms common to multiple myeloma, such as weakness, fatigue and bone pain. If initial tests suggest that you may have multiple myeloma, you will likely be referred to a specialist in blood cancers (hematologist or oncologist). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the exact cause isn&apos;t known, doctors do know that multiple myeloma begins with one abnormal plasma cell in your bone marrow &amp;mdash; the soft, blood-producing tissue that fills in the center of most of your bones. This abnormal cell then starts to multiply. 
+&lt;/p&gt;
+&lt;p&gt;
+Because abnormal cancerous cells don&apos;t mature and then die as normal cells do, they accumulate, eventually overwhelming the production of healthy cells. In healthy bone marrow, less than 5 percent of the cells are plasma cells. But in people with multiple myeloma, more than 10 percent of the cells may be plasma cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Because myeloma cells may circulate in low numbers in your blood, they can populate bone marrow in other parts of your body, even far from where they began. That&apos;s why the disease is called multiple myeloma. Uncontrolled plasma cell growth can damage bones and surrounding tissue. It can also interfere with your immune system&apos;s ability to fight infections by inhibiting your body&apos;s production of normal antibodies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Researchers investigating cause&lt;/strong&gt; &lt;br /&gt;
+Researchers are studying the DNA of plasma cells to try to understand what changes occur that cause these cells to become cancer cells. Though they haven&apos;t yet discovered the cause of these changes, they have found that almost all people with multiple myeloma have genetic abnormalities in their plasma cells that probably contributed to the cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+The genetic abnormalities associated with multiple myeloma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A defect related to chromosome 14 in which a piece of one chromosome moves to a different chromosome (translocation)&lt;/li&gt;
+	&lt;li&gt;Extra copies of certain chromosomes (hyperdiploidy)&lt;/li&gt;
+	&lt;li&gt;An abnormality in which part or all of chromosome 13 is missing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;A connection with MGUS&lt;/strong&gt; &lt;br /&gt;
+Multiple myeloma almost always starts out as a relatively benign condition called monoclonal gammopathy of undetermined significance (MGUS). In the United States, about 3 percent of people older than age 50 have MGUS. Each year, about 1 percent of people with MGUS develop multiple myeloma or a related cancer. MGUS, like multiple myeloma, is marked by the presence of M proteins &amp;mdash; produced by abnormal plasma cells &amp;mdash; in your blood. However, in MGUS, no damage to the body occurs. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing myeloma cells 
+" Caption="This bone marrow tissue sample shows myeloma cells (bluish-stained cells). These cells crowd out normal bone marrow cells. Your doctor may remove a small sample of bone marrow tissue as one step in diagnosing multiple myeloma. 
+" Height="60" Title="Multiple myeloma" URI="/images/image_popup/thumbs/r7_myelomathu.jpg" Width="60" />
+				<Image Alt="Image showing myeloma cells 
+" Caption="This bone marrow tissue sample shows myeloma cells (bluish-stained cells). These cells crowd out normal bone marrow cells. Your doctor may remove a small sample of bone marrow tissue as one step in diagnosing multiple myeloma. 
+" Height="235" Title="Multiple myeloma" URI="/images/image_popup/r7_myeloma.jpg" Width="320" />
+				<HTML>
+					This bone marrow tissue sample shows myeloma cells (bluish-stained cells). These cells crowd out normal bone marrow cells. Your doctor may remove a small sample of bone marrow tissue as one step in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple myeloma isn&apos;t contagious. Most people who develop multiple myeloma have no clearly identifiable risk factors for the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Some factors that may increase your risk of multiple myeloma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The majority of people who develop multiple myeloma are older than 50, with most diagnosed in their mid-60s. Few cases occur in people younger than 40. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Men are more likely to develop the disease than are women. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Blacks are about twice as likely to develop multiple myeloma as are whites. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of a monoclonal gammopathy of undetermined significance (MGUS).&lt;/strong&gt; Every year 1 percent of the people with MGUS in the United States develop multiple myeloma. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Your risk of multiple myeloma is increased if you&apos;re overweight or obese. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other factors that may increase your risk of developing multiple myeloma include exposure to radiation and working in petroleum-related industries. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple myeloma can result in several complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired immunity.&lt;/strong&gt; Myeloma cells inhibit the production of antibodies needed for normal immunity. Having multiple myeloma may make you more likely to develop infections, such as pneumonia, sinusitis, bladder or kidney infections, skin infections, and shingles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone problems.&lt;/strong&gt; Multiple myeloma also can affect your bones, leading to erosion of bone mass and fractures. The condition may cause compression of your spinal cord. Signs of this medical emergency include weakness, or even paralysis, in your legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired kidney function.&lt;/strong&gt; Multiple myeloma may cause problems with kidney function, including kidney failure. Higher calcium levels in the blood related to eroding bones can interfere with your kidneys&apos; ability to filter your blood&apos;s waste. The proteins produced by the myeloma cells can cause similar problems, especially if you become dehydrated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; As cancerous cells crowd out normal blood cells, multiple myeloma can also cause anemia and other blood problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, multiple myeloma is discovered as part of routine blood and urine tests during a medical checkup. To increase the odds of catching this and other serious conditions as early as possible, follow the recommended schedule for general physical examinations for your age and sex. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have symptoms that are common to multiple myeloma &amp;mdash; such as back pain, weakness and fatigue, poor appetite and weight loss, or repeated infections &amp;mdash; call your doctor. After your doctor sees you, you may be referred to a specialist in the diagnosis and treatment of cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Note symptoms you&apos;re experiencing.&lt;/strong&gt; If you have had signs and symptoms of illness or are just not feeling well, write down those details before your appointment. Your doctor will also want to know when you first noticed these symptoms and whether they&apos;ve changed over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List other medical conditions.&lt;/strong&gt; Your doctor will be especially interested to know if you&apos;ve been diagnosed with any other plasma disorders, such as monoclonal gammopathy of undetermined significance (MGUS).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medications.&lt;/strong&gt; Include&lt;strong&gt; &lt;/strong&gt;any prescription or over-the-counter medications you&apos;re taking, as well as all vitamins, supplements and herbal remedies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your doctor at your initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What may be causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What do you recommend for next steps in determining my diagnosis and treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow in the meantime?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to consider if your doctor refers you to an oncologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have multiple myeloma?&lt;/li&gt;
+	&lt;li&gt;What stage of myeloma do I have?&lt;/li&gt;
+	&lt;li&gt;Does my myeloma have any high-risk features?&lt;/li&gt;
+	&lt;li&gt;What are the goals of treatment in my case?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have these other health problems. How can I best treat them together with multiple myeloma?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of treatment?&lt;/li&gt;
+	&lt;li&gt;If the first treatment isn&apos;t successful, what will we try next?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for stem cell transplantation?&lt;/li&gt;
+	&lt;li&gt;Do I need a medicine to strengthen my bones?&lt;/li&gt;
+	&lt;li&gt;What is the outlook for my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Thinking about your answers ahead of time can help you make the most of your appointment. A doctor who sees you for possible multiple myeloma may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, if any?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include bone pain? Where?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include nausea, lost appetite or weight loss?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include weakness or fatigue?&lt;/li&gt;
+	&lt;li&gt;Have you had repeated infections, such as pneumonia, sinusitis, bladder or kidney infections, skin infections, or shingles?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your bowel habits?&lt;/li&gt;
+	&lt;li&gt;Have you been more thirsty or urinated more than usual?&lt;/li&gt;
+	&lt;li&gt;What else concerns you?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of plasma disorders such as MGUS?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of blood clots?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with multiple myeloma or with plasma disorders such as MGUS. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may first detect signs of multiple myeloma before you even have symptoms &amp;mdash; through blood and urine tests conducted during a routine physical exam. If you don&apos;t yet have symptoms, these lab tests may be repeated every few months so that your doctor can track whether your disease is progressing and determine the best time to start treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood and urine tests&lt;/strong&gt; &lt;br /&gt;
+A blood test called serum protein electrophoresis separates your blood proteins and can detect the presence of monoclonal proteins (M proteins) &amp;mdash; referred to as an &quot;M spike&quot; &amp;mdash; in your blood. Parts of M proteins may also be detected in a test of your urine. When M proteins are found in urine, they&apos;re referred to as Bence Jones proteins. Monoclonal proteins may indicate multiple myeloma, but also can indicate other conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor discovers M proteins, you&apos;ll likely need additional blood tests to measure blood cell counts and levels of calcium, uric acid and creatinine. Your doctor may also conduct other blood tests to check for beta-2-microglobulin &amp;mdash; another protein produced by myeloma cells &amp;mdash; or to measure the percent of plasma cells in your bone marrow. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other tests&lt;/strong&gt; &lt;br /&gt;
+You may also need other tests. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging.&lt;/strong&gt; X-rays of your skeleton can show whether your bones have any thinned-out areas, common in multiple myeloma. If a closer view of your bones is necessary, your doctor may use magnetic resonance imaging (MRI), computerized tomography (CT) scanning or positron emission tomography (PET) scanning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow examination.&lt;/strong&gt; Your doctor may also conduct a bone marrow examination by using a needle to remove a small sample of bone marrow tissue. The sample is then examined under a microscope to check for myeloma cells. A portion of the sample is also tested for chromosome abnormalities using tests such as fluorescence in situ hybridization (FISH). Tests are also done to measure the rate at which the plasma cells are dividing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging and risk-stratification&lt;/strong&gt; &lt;br /&gt;
+These tests can help confirm whether you have multiple myeloma or another condition. If tests indicate you have multiple myeloma, the results from these tests allow your doctor to classify your disease as stage 1, stage 2 or stage 3. People with stage 3 myeloma are more likely to have one or more signs of advanced disease, including greater numbers of myeloma cells and kidney failure. 
+&lt;/p&gt;
+&lt;p&gt;
+Although staging is useful in understanding how much myeloma is present in the body, doctors also need to know how aggressive the myeloma is. Your results from specialized bone marrow tests, such as FISH, will help your doctor determine your overall risk profile and develop the best treatment plan for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have multiple myeloma and aren&apos;t experiencing any symptoms, you may not need treatment. However, your doctor will regularly monitor your condition for signs the disease is progressing. If it is, you may need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re experiencing symptoms, treatment can help relieve pain, control complications of the disease, stabilize your condition and slow the progress of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Standard treatments for myeloma&lt;/strong&gt; &lt;br /&gt;
+Though there&apos;s no cure for multiple myeloma, with good treatment results you can usually return to near-normal activity. You may wish to consider approved clinical trials as an option. 
+&lt;/p&gt;
+&lt;p&gt;
+Standard treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bortezomib (Velcade).&lt;/strong&gt; Bortezomib was the first approved drug in a new class of medications called proteasome inhibitors. It is administered intravenously. It causes cancer cells to die by blocking the action of proteasomes. It is approved for people with newly diagnosed and previously treated myeloma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thalidomide (Thalomid).&lt;/strong&gt; Thalidomide, a drug originally used as a sedative and to treat morning sickness during pregnancy in the 1950s, was removed from the market after it was found to cause severe birth defects. However, the drug received approval from the Food and Drug Administration (FDA) again in 1998, first as a treatment for skin lesions caused by leprosy. Today thalidomide is FDA approved for the treatment of newly diagnosed multiple myeloma. This drug is given orally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lenalidomide (Revlimid).&lt;/strong&gt; Lenalidomide is chemically similar to thalidomide, but because it appears to be more potent and cause fewer side effects, it is currently used more often than thalidomide. Lenalidomide is given orally. It is approved for people with previously treated myeloma, but is also often used in people with newly diagnosed disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy involves using medicines &amp;mdash; taken orally as a pill or given through an intravenous (IV) injection &amp;mdash; to kill myeloma cells. Chemotherapy is often given in cycles over a period of months, followed by a rest period. Often chemotherapy is discontinued during what is called a plateau phase or remission, during which your M protein level remains stable. You may need chemotherapy again if your M protein level begins to rise. Common chemotherapy drugs used to treat myeloma are melphalan (Alkeran), cyclophosphamide (Cytoxan), vincristine, doxorubicin (Adriamycin) and liposomal doxorubicin (Doxil).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Corticosteroids, such as prednisone and dexamethasone, have been used for decades to treat multiple myeloma. They are typically given in pill form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cell transplantation.&lt;/strong&gt; This treatment involves using high-dose chemotherapy &amp;mdash; usually high doses of melphalan &amp;mdash; along with transfusion of previously collected immature blood cells (stem cells) to replace diseased or damaged marrow. The stem cells can come from you or from a donor, and they may be from either blood or bone marrow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; This treatment uses high-energy penetrating waves to damage myeloma cells and stop their growth. Radiation therapy may be used to quickly shrink myeloma cells in a specific area &amp;mdash; for instance, when a collection of abnormal plasma cells form a tumor (plasmacytoma) that&apos;s causing pain or destroying a bone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial therapy for myeloma&lt;/strong&gt; &lt;br /&gt;
+The initial chemotherapy used to treat multiple myeloma depends on whether you&apos;re considered a candidate for stem cell transplantation and your individual risk profile. Factors such as the risk of your disease progressing, your age and your general health play a part in determining whether stem cell transplantation may be right for you. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;If you&apos;re considered a candidate for stem cell transplantation,&lt;/strong&gt; your initial therapy will likely exclude melphalan because this drug can have a toxic effect on stem cells, making it impossible to collect enough of them. Your first treatment will typically be lenalidomide or bortezomib combined with low-dose dexamethasone.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your stem cells will likely be collected after you&apos;ve undergone three to four months of treatment with these initial agents. You may undergo the stem cell transplant soon after your cells are collected or the transplant may be delayed until after a relapse, if it occurs. Your age and your personal preference are important factors in determining when to do the transplant. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	After your stem cell transplantation, you&apos;ll likely start a new course of treatment with a drug combination that includes bortezomib and melphalan. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&lt;/strong&gt;&apos;&lt;strong&gt;re not considered a candidate for stem cell transplantation,&lt;/strong&gt; your initial therapy is likely to be a combination of melphalan, prednisone and thalidomide &amp;mdash; often called MPT &amp;mdash; or melphalan, prednisone and bortezomib (Velcade) &amp;mdash; often called MPV. If the side effects are intolerable, melphalan plus prednisone (MP) or lenalidomide plus low-dose dexamethasone are additional options. This type of therapy is typically given for about 12 to 18 months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for relapsed or treatment-resistant multiple myeloma&lt;/strong&gt; &lt;br /&gt;
+Most people who are treated for multiple myeloma eventually experience a relapse of the disease. And in some cases, none of the currently available, first line therapies slow the cancer cells from multiplying. If you experience a relapse of multiple myeloma, your doctor may recommend repeating another course of the treatment that initially helped you. Another option is trying one or more of the other treatments typically used as first line therapy, either alone or in combination. 
+&lt;/p&gt;
+&lt;p&gt;
+Research on a number of new treatment options is ongoing, and these drugs offer important options for those with multiple myeloma. Talk to your doctor about what clinical trials may be available to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating complications&lt;/strong&gt; &lt;br /&gt;
+Because multiple myeloma can cause a number of complications, you may also need treatment for those specific conditions. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Back pain.&lt;/strong&gt; Taking pain medication or wearing a back brace can help relieve the back pain you might experience with multiple myeloma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney complications.&lt;/strong&gt; People with severe kidney damage may need dialysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Antibiotics may be necessary to help treat infections or to help reduce your risk of them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone loss.&lt;/strong&gt; You may take medications called bisphosphonates, such as pamidronate (Aredia) or zoledronic acid (Zometa), which bind to the surface of your bones and help prevent bone loss. Treatment with these drugs is associated with the risk of harm to the jawbone. If you&apos;re taking these medications, avoid dental procedures without consulting your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; If you have persistent anemia, your doctor may prescribe erythropoietin injections. Erythropoietin is a naturally occurring hormone made in the kidneys that stimulates the production of red blood cells. Research suggests that the use of erythropoietin may increase the risk of blood clots in some people with myeloma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips may help you keep multiple myeloma under control:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Exercise helps keep your bones stronger. If pain keeps you from being active, ask your doctor about ways to lessen the pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink fluids.&lt;/strong&gt; Drinking fluids can help keep you from becoming dehydrated. And by drinking plenty of fluids, you help dilute the Bence Jones protein fragments in your urine, which may help prevent kidney damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a balanced diet.&lt;/strong&gt; One way to promote your overall health and cope with any form of cancer is to eat well. The amount of M protein in your system isn&apos;t affected by how much protein you eat, so there&apos;s no need to limit protein intake unless told otherwise by your doctor. Don&apos;t take vitamins, herbs or medications without your doctor&apos;s approval because they may interfere with your treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While no alternative therapies have been specifically approved for the treatment of multiple myeloma, the following approaches have been found useful for cancer-related problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques.&lt;/strong&gt; These approaches refocus your attention to something calming to soothe your mind and relax your body. Practices such as meditation, yoga and tai chi may help you reduce stress and ease the symptoms and side effects of cancer and its symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage therapy.&lt;/strong&gt; Massage may reduce pain, stress and depression, help ease fatigue and anxiety, and reduce nausea related to cancer and its treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Studies have found that acupuncture may relieve nausea and vomiting related to chemotherapy treatment, and may also reduce pain from surgery. This therapy also may improve fatigue related to cancer treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; This mind-body therapy uses monitoring devices that signal when your body is sending cues that pain is on the way. As you recognize these cues, you can train your body to respond differently and decrease the sensation of cancer-related pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aromatherapy.&lt;/strong&gt; Fragrant oils may improve mood and help relieve stress and nausea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk with your doctor before trying any of these techniques to make sure they don&apos;t pose any risks for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of cancer can be extremely challenging. Remember that no matter what your concerns or prognosis, you&apos;re not alone. These strategies and resources may make dealing with cancer easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what to expect.&lt;/strong&gt; Find out everything you can about your cancer &amp;mdash; the type, stage, risks, your treatment options and their side effects. The more you know, the more active you can be in your care. In addition to talking with your doctor, look for information in your local library and on the Internet. The National Cancer Institute will answer questions over the phone at 800-4-CANCER (800-422-6237). Or contact the American Cancer Society at 800-ACS-2345 (800-227-2345). Information is also available on their websites.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be proactive.&lt;/strong&gt; Although you may feel tired and discouraged, try to be an active participant in your treatment decision-making. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Having a support system and a positive attitude can help you cope with any issues, pain and anxieties that might occur. Although friends and family can be your best allies, they sometimes may have trouble dealing with your illness. If so, the concern and understanding of a formal support group or others coping with cancer can be especially helpful. Although support groups aren&apos;t for everyone, they can be a good source for practical information for you and your family. You may also find you develop deep and lasting bonds with people who are going through the same things you are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work at least part time. In fact, many people find that continuing to work during cancer treatment can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan ahead for the downtimes when you may need to rest more or limit what you do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Having cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. It&apos;s important to stay involved as much as you can.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Multiple myeloma
+	</Title>
+	<Abstract>
+		Multiple myeloma &amp;mdash; Comprehensive overview covers symptoms and treatment of cancer of your plasma cells.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00081" LinkType="Internal" ObjectID="E5B1AC99-E7FF-0DBD-1BD6F6EB61E7886E" Title="Stem cells: What they are and what they do" Url="http://www.mayoclinic.com/health/stem-cells/CA00081" />
+		<LinkItem ContentType="Article" DocID="HQ01507" LinkType="Internal" ObjectID="8DFF08EE-3CD0-429C-BF5E145C5669616D" Title="Thalidomide: Research advances in cancer and other conditions" Url="http://www.mayoclinic.com/health/thalidomide/HQ01507" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Disease" DocID="DS00870" LinkType="Internal" ObjectID="43268F43-E7FF-0DBD-19EAD4F32C7528C9" Title="Monoclonal gammopathy of undetermined significance" Url="http://www.mayoclinic.com/health/monoclonal-gammopathy/DS00870" />
+	</RelatedLinksBox>
+</Disease>

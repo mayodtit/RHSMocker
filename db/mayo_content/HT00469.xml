@@ -1,0 +1,82 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00469
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00469
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="4022" Title="Nutrition basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			863CDD1B-E7FF-0DBD-17E4C6AB67320CAD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				water intake
+			</MetaKeyword>
+			<MetaKeyword>
+				water
+			</MetaKeyword>
+			<MetaKeyword>
+				drinking water
+			</MetaKeyword>
+			<MetaKeyword>
+				water consumption
+			</MetaKeyword>
+			<MetaKeyword>
+				hydration
+			</MetaKeyword>
+			<MetaKeyword>
+				fluids
+			</MetaKeyword>
+			<MetaKeyword>
+				H2O
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Do you drink enough water?
+	</Title>
+	<Body>
+		&lt;p&gt;Don&apos;t use thirst alone as a guide for when to drink. By the time you become thirsty, it&apos;s possible you may already be slightly dehydrated. To ward off dehydration and make sure your body has the fluids it needs, make water your beverage of choice. If you&apos;re generally healthy, consider drinking a glass of water with each meal and between each meal, as well as before, during and after exercise.&lt;/p&gt;
+	</Body>
+</HealthTip>

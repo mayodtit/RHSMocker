@@ -1,0 +1,431 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00716
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rett-syndrome/DS00716
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-04
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="2126" Title="Pervasive developmental disorders">
+							<Keyword MCVID="2781" Title="Rett syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3526" Title="16 months to 2 years toddler" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3525" Title="02 to 15 months infant">
+							<Keyword MCVID="3529" Title="6 months" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3525" Title="02 to 15 months infant">
+							<Keyword MCVID="3530" Title="9 months" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3525" Title="02 to 15 months infant">
+							<Keyword MCVID="3531" Title="12 months" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3525" Title="02 to 15 months infant">
+							<Keyword MCVID="3532" Title="15 months" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F203F80F-E7FF-0DBD-186B7F4235132408
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Rett syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				rett
+			</MetaKeyword>
+			<MetaKeyword>
+				autism
+			</MetaKeyword>
+			<MetaKeyword>
+				retts syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				rett&apos;s syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rett syndrome is a rare genetic disorder that affects the way the brain develops. It occurs almost exclusively in girls.
+&lt;/p&gt;
+&lt;p&gt;
+Most babies with Rett syndrome seem to develop normally at first, but symptoms surface after 6 months of age. Over time, children with Rett syndrome have increasing problems with movement, coordination and communication that may affect their ability to use their hands, communicate and walk.
+&lt;/p&gt;
+&lt;p&gt;
+Although there&apos;s no cure for Rett syndrome, potential treatments are being studied. Current Rett syndrome treatment focuses on improving movement and communication and providing care and support for affected children and their families.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Babies with Rett syndrome are generally born after a normal pregnancy and delivery. Most seem to grow and behave normally for the first six months. After that, signs and symptoms start to appear. The most pronounced changes generally occur at 12 to 18 months of age, over a period of weeks or months. 
+&lt;/p&gt;
+&lt;p&gt;
+Rett syndrome signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Slowed growth.&lt;/strong&gt; Brain growth slows after birth. Smaller than normal head size is usually the first sign that a child has Rett syndrome. It generally starts to become apparent after 6 months of age. As children get older, delayed growth in other parts of the body becomes evident.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of normal movement and coordination.&lt;/strong&gt; The most significant loss of movement skills (motor skills) usually starts between 12 and 18 months of age. The first signs often include a decrease of hand control and a decreasing ability to crawl or walk normally. At first, this loss of abilities occurs rapidly and then continues more gradually.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of communication and thinking abilities.&lt;/strong&gt; Children with Rett syndrome typically begin to lose the ability to speak and to communicate in other ways. They may become uninterested in other people, toys and their surroundings. Some children have rapid changes, such as a sudden loss of speech. Over time, most children gradually regain eye contact and develop nonverbal communication skills.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal hand movements.&lt;/strong&gt; As the disease progresses, children with Rett syndrome typically develop their own particular hand patterns, which may include hand wringing, squeezing, clapping, tapping or rubbing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unusual eye movements.&lt;/strong&gt; Children with Rett syndrome tend to have unusual eye movements, such as intense staring, blinking or closing one eye at a time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; These include breath-holding (apnea), abnormally rapid breathing (hyperventilation), and forceful exhalation of air or saliva. These problems tend to occur during waking hours, but not during sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritability.&lt;/strong&gt; Children with Rett syndrome become increasingly agitated and irritable as they get older. Periods of crying or screaming may begin suddenly and last for hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal behaviors.&lt;/strong&gt; These may include sudden, odd facial expressions and long bouts of laughter, screaming that occurs for no apparent reason, hand licking, and grasping of hair or clothing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seizures.&lt;/strong&gt; Most people who have Rett syndrome experience seizures at some time during their lives. Symptoms vary from person to person, and they can range from periodic muscle spasms to full-blown epilepsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal curvature of the spine (scoliosis).&lt;/strong&gt; Scoliosis is common with Rett syndrome. It typically begins between 8 and 11 years of age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irregular heartbeat (dysrhythmia).&lt;/strong&gt; This is a life-threatening problem for many children and adults with Rett syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Constipation.&lt;/strong&gt; This is a common problem in people with Rett syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stages of Rett syndrome&lt;br /&gt;
+&lt;/strong&gt;Rett syndrome is commonly divided into four stages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Signs and symptoms are subtle and easily overlooked during the first stage, which starts between 6 and 18 months of age. Babies in this stage may show less eye contact and start to lose interest in toys. They may also have delays in sitting or crawling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Starting between 1 and 4 years of age, children with Rett syndrome gradually lose the ability to speak and to use their hands purposefully. Repetitive, purposeless hand movements begin during this stage. Some children with Rett syndrome hold their breath or hyperventilate and may scream or cry for no apparent reason. It&apos;s often difficult for them to move on their own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; The third stage is a plateau that usually begins between the ages of 2 and 10 years and can last for years. Although problems with movement continue, behavior may improve. Children in this stage often cry less and become less irritable. Increased eye contact and using the eyes and hands to communicate generally improve during this stage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; The last stage is marked by reduced mobility, muscle weakness and scoliosis. Understanding, communication and hand skills generally don&apos;t decline further during this stage. In fact, repetitive hand movements may decrease. Although sudden death can occur, the average life span of people with Rett syndrome is more than 50 years. They usually need care and assistance throughout their lives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Signs of Rett syndrome can be subtle in the early stages. See your child&apos;s doctor right away if you begin to notice physical problems or changes in behavior such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slowed growth of your child&apos;s head or other parts of the body&lt;/li&gt;
+	&lt;li&gt;Decreased coordination or mobility; repetitive hand movements&lt;/li&gt;
+	&lt;li&gt;Decreasing eye contact or loss of interest in normal play&lt;/li&gt;
+	&lt;li&gt;Delayed speech development or loss of previously acquired speech abilities&lt;/li&gt;
+	&lt;li&gt;Problem behavior or marked mood swings (emotional dysregulation)&lt;/li&gt;
+	&lt;li&gt;Any clear loss of previously gained milestones in gross motor or fine motor skills&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rett syndrome is a genetic disorder, but in only a few cases is it inherited. Instead, the genetic mutation that causes the disease occurs randomly and spontaneously.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rett syndrome in boys&lt;br /&gt;
+&lt;/strong&gt;Because males have a different chromosome combination from females, boys who have the genetic mutation that causes Rett syndrome are affected in devastating ways. Most of them die before birth or in early infancy.
+&lt;/p&gt;
+&lt;p&gt;
+A very small number of boys have a less destructive form of Rett syndrome. Similar to girls with Rett syndrome, these boys will likely live to adulthood, but they&apos;re still at risk of a number of health and behavior problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rett syndrome is rare. It affects children of all races. The only known risk factor is having random genetic mutations known to cause the disease. In rare cases, inherited factors &amp;mdash; for instance, having close family members with Rett syndrome &amp;mdash; may play a role.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of Rett syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Movement problems (motor dysfunction), such as irregular hand movements and difficulty walking&lt;/li&gt;
+	&lt;li&gt;Unusual sleep patterns &amp;mdash; such as falling asleep during the day or waking up at night&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Difficulty eating, leading to poor nutrition and delayed growth&lt;/li&gt;
+	&lt;li&gt;Constipation, which can be a severe and long-term, ongoing problem&lt;/li&gt;
+	&lt;li&gt;Life-threatening heart rhythms (cardiac dysrhythmias)&lt;/li&gt;
+	&lt;li&gt;Thin, fragile bones prone to fractures&lt;/li&gt;
+	&lt;li&gt;Scoliosis (abnormal curvature of the spine), which may require surgery if it&apos;s severe&lt;/li&gt;
+	&lt;li&gt;Shortened life span &amp;mdash; people with Rett syndrome don&apos;t live as long as most people because of heart problems and other health complications&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor will look for developmental problems at regular checkups. If your child shows any symptoms of Rett syndrome, she or he will likely be referred to a pediatric neurologist or developmental pediatrician for testing and diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your child&apos;s appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Take these steps to prepare: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any unusual behavior or other signs&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; The specialist will examine your child carefully and watch for slowed growth and development, but your daily observations are very important.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications that your child takes.&lt;/strong&gt; Include any vitamins, herbs and over-the-counter medicines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If possible, bring a family member or friend with you.&lt;/strong&gt; A trusted companion can help you remember information and provide emotional support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of questions&lt;/strong&gt; to ask your child&apos;s doctor. Don&apos;t be afraid to ask questions when you don&apos;t understand something. If you run out of time, ask to speak with a nurse or physician assistant, or leave a message for the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For Rett syndrome, questions to ask might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why do you think my child does (or doesn&apos;t) have Rett syndrome?&lt;/li&gt;
+	&lt;li&gt;Is there a way to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes of my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;If my child does have Rett syndrome, is there a way to tell how severe it is?&lt;/li&gt;
+	&lt;li&gt;What changes can I expect to see in my child over time?&lt;/li&gt;
+	&lt;li&gt;Can I take care of my child at home or will I need to look for outside care?&lt;/li&gt;
+	&lt;li&gt;What kind of special therapies do children with Rett syndrome need?&lt;/li&gt;
+	&lt;li&gt;How much and what kinds of regular medical care will my child need?&lt;/li&gt;
+	&lt;li&gt;What kind of support is available to families of children with Rett syndrome?&lt;/li&gt;
+	&lt;li&gt;How can I learn more about this disorder?&lt;/li&gt;
+	&lt;li&gt;What are my chances of having other children with Rett syndrome?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask you questions such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your child&apos;s unusual behavior or other signs that something may be wrong?&lt;/li&gt;
+	&lt;li&gt;How severe are your child&apos;s signs and symptoms? Are they getting progressively worse?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What could your child do before that she or he can no longer do?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing Rett syndrome involves careful observation of your child&apos;s growth and development and answering questions about her or his medical and family history. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child may also have certain tests to identify conditions that can cause some of the same symptoms as Rett syndrome. Some of these conditions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Other genetic disorders&lt;/li&gt;
+	&lt;li&gt;Autism&lt;/li&gt;
+	&lt;li&gt;Cerebral palsy&lt;/li&gt;
+	&lt;li&gt;Hearing or vision problems&lt;/li&gt;
+	&lt;li&gt;Epilepsy&lt;/li&gt;
+	&lt;li&gt;Disorders that cause the brain or body to break down (degeneration disorders)&lt;/li&gt;
+	&lt;li&gt;Brain disorders caused by trauma or infection&lt;/li&gt;
+	&lt;li&gt;Prenatal brain damage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+What tests your child needs depends on particular signs and symptoms. Tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood tests&lt;/li&gt;
+	&lt;li&gt;Urine tests&lt;/li&gt;
+	&lt;li&gt;Tests to measure the speed of impulses through a nerve (nerve conduction studies)&lt;/li&gt;
+	&lt;li&gt;Imaging tests such as magnetic resonance imaging (MRI) or computerized tomography (CT) scans&lt;/li&gt;
+	&lt;li&gt;Hearing tests&lt;/li&gt;
+	&lt;li&gt;Eye and vision exams&lt;/li&gt;
+	&lt;li&gt;Brain activity tests (electroencephalograms, also called EEGs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic testing&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend a genetic test (DNA analysis) to confirm a diagnosis of Rett syndrome. The test requires drawing a small amount of blood from a vein in your child&apos;s arm. The blood is then sent to a lab, where technicians examine your child&apos;s DNA for abnormalities and clues as to the cause and severity of your child&apos;s disorder.
+&lt;/p&gt;
+&lt;p&gt;
+If your child&apos;s doctor still suspects Rett syndrome after considering other possibilities, he or she will use specific guidelines for diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Official diagnostic criteria&lt;br /&gt;
+&lt;/strong&gt;Doctors use different criteria to diagnose Rett syndrome, but all include similar signs and symptoms. One common set of criteria is spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association.
+&lt;/p&gt;
+&lt;p&gt;
+The criteria required for a diagnosis of Rett syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apparently normal development for the first five months after birth&lt;/li&gt;
+	&lt;li&gt;Normal head circumference at birth, followed by a slowing of the rate of head growth between the ages of 5 months and 4 years&lt;/li&gt;
+	&lt;li&gt;Severely reduced language skills&lt;/li&gt;
+	&lt;li&gt;Loss of hand skills and development of repetitive hand movements between the ages of 5 months and 30 months&lt;/li&gt;
+	&lt;li&gt;Loss of interaction with others (though this often improves later)&lt;/li&gt;
+	&lt;li&gt;An unsteady walk or poorly controlled torso movements&lt;/li&gt;
+	&lt;li&gt;Severely impaired ability to communicate and move normally&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to these core symptoms, children with Rett syndrome may have other signs and symptoms. In certain cases, children may have many of the signs and symptoms of Rett syndrome but not show all of them. This is known as variant or atypical Rett syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treating Rett syndrome requires a team approach, including regular medical care; physical, occupational and speech therapy; and academic, social and job training services. The need for support doesn&apos;t end as children become older &amp;mdash; it&apos;s usually necessary throughout life.
+&lt;/p&gt;
+&lt;p&gt;
+Treatments that can help children and adults with Rett syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Though medications can&apos;t cure Rett syndrome, they may help control some of the signs and symptoms associated with the disorder, such as seizures and muscle stiffness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical and speech therapy.&lt;/strong&gt; Physical therapy and the use of braces or casts can help children who have scoliosis. In some cases, physical therapy can also help maintain walking skills, balance and flexibility, while occupational therapy may improve purposeful use of the hands. If repetitive arm and hand movement is a problem, splints that restrict elbow or wrist motion may be helpful. Speech therapy can help improve a child&apos;s life by teaching nonverbal ways of communicating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nutritional support.&lt;/strong&gt; Proper nutrition is extremely important for both normal growth and for improved mental and social abilities. Some children with Rett syndrome may need a high-calorie, well-balanced diet. Others may need to be fed through a tube placed in the nose (nasogastric tube) or directly in the stomach (gastrostomy).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because Rett syndrome is a severe and incurable disorder, parents understandably search for treatments that will improve their child&apos;s symptoms and quality of life. Examples of alternative or complementary therapies that have been tried in children with Rett syndrome include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Chiropractic treatment&lt;/li&gt;
+	&lt;li&gt;Myofascial release, a massage therapy that helps loosen stiff muscles and joints&lt;/li&gt;
+	&lt;li&gt;Yoga&lt;/li&gt;
+	&lt;li&gt;Animal-assisted therapy, such as using therapy dogs&lt;/li&gt;
+	&lt;li&gt;Auditory integration training, which uses certain sound frequencies to treat speech and language problems&lt;/li&gt;
+	&lt;li&gt;Music therapy&lt;/li&gt;
+	&lt;li&gt;Hydrotherapy, which involves swimming or moving in water&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There&apos;s not much evidence that these approaches are effective, though some parents who have used them report good results. If you think one (or more) of these therapies might help your child, ask your treatment provider about the possible benefits and how the approach might fit into the medical treatment plan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with Rett syndrome need help with most daily tasks, such as eating, walking and using the bathroom. This constant care can be exhausting and stressful for families. To better cope with the challenge: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to relieve stress.&lt;/strong&gt; It&apos;s natural to feel overwhelmed at times. Talk about your problems with a trusted friend or family member to help relieve your stress. Take some time for yourself doing something you like to recharge your battery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for outside help.&lt;/strong&gt; If you care for your child at home, seek the help of outside caregivers who can give you a break from time to time. Or you may consider residential care at some point, especially when your child becomes an adult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with others.&lt;/strong&gt; Getting to know other families facing problems similar to yours can help you feel less alone. Look for online support and information from organizations such as the International Rett Syndrome Foundation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to prevent Rett syndrome. In most cases, the genetic mutation that causes the disorder occurs spontaneously. Even so, if you have a child or other family member with Rett syndrome, you may want to ask the doctor about genetic testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rett syndrome
+	</Title>
+	<Abstract>
+		Rett syndrome &amp;mdash; Comprehensive overview covers symptoms, causes and diagnosis of this rare genetic disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

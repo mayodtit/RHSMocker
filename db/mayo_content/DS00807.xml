@@ -1,0 +1,311 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00807
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/buergers-disease/DS00807
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-01
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="1487" Title="Buerger&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EB7F18C1-E7FF-0DBD-15446F5927881019
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Buerger&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				buergers disease
+			</MetaKeyword>
+			<MetaKeyword>
+				thromboangiitis obliterans
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Buerger&apos;s disease (thromboangiitis obliterans) is a rare disease of the arteries and veins in the arms and legs. In Buerger&apos;s disease, your blood vessels become inflamed, swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene. Buerger&apos;s disease usually first shows in the hands and feet and may eventually affect larger areas of your arms and legs. 
+&lt;/p&gt;
+&lt;p&gt;
+Buerger&apos;s disease is rare in the United States, but is more common in the Middle East and Far East. Buerger&apos;s disease usually affects men younger than 40 years of age, though it&apos;s becoming more common in women. 
+&lt;/p&gt;
+&lt;p&gt;
+Virtually everyone diagnosed with Buerger&apos;s disease smokes cigarettes or uses other forms of tobacco, such as chewing tobacco. Quitting all forms of tobacco is the only way to stop Buerger&apos;s disease. For those who don&apos;t quit, amputation of all or part of a limb may be necessary. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Buerger&apos;s disease 
+" Caption="In Buerger&apos;s disease, your blood vessels swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene (dark spots on the fingers in the illustration). Buerger&apos;s disease usually first shows in the hands and feet and may expand to affect larger areas of your arms and legs. 
+" Height="60" Title="Buerger&apos;s disease" URI="/images/image_popup/thumbs/mcdc7_buergerthu.jpg" Width="60" />
+				<Image Alt="Image showing Buerger&apos;s disease 
+" Caption="In Buerger&apos;s disease, your blood vessels swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene (dark spots on the fingers in the illustration). Buerger&apos;s disease usually first shows in the hands and feet and may expand to affect larger areas of your arms and legs. 
+" Height="471" Title="Buerger&apos;s disease" URI="/images/image_popup/mcdc7_buerger.jpg" Width="400" />
+				<HTML>
+					In Buerger&apos;s disease, your blood vessels swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene (dark spots ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Buerger&apos;s disease symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain that may come and go in your legs and feet or in your arms and hands. This pain typically occurs when you use your hands or feet and eases when you stop that activity (claudication).&lt;/li&gt;
+	&lt;li&gt;Inflammation along a vein just below the skin&apos;s surface (due to a blood clot in the vein).&lt;/li&gt;
+	&lt;li&gt;Fingers and toes that turn pale when exposed to cold (Raynaud&apos;s phenomenon).&lt;/li&gt;
+	&lt;li&gt;Painful open sores on your fingers and toes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you think you may have signs or symptoms of Buerger&apos;s disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It isn&apos;t clear what triggers Buerger&apos;s disease. It&apos;s possible that some people may have a genetic predisposition to the disease. The condition is characterized by swelling in the arteries and veins of the arms and legs. The cells that cause the inflammation and swelling &amp;mdash; and eventually blood clots &amp;mdash; form in the vessels leading to your hands and feet and block the blood flow to those parts of your body.
+&lt;/p&gt;
+&lt;p&gt;
+Reduced blood flow means that the skin tissue in your hands and feet doesn&apos;t get adequate oxygen and nutrients. This leads to the signs and symptoms of Buerger&apos;s disease, beginning with pain and weakness in your fingers and toes and spreading to other parts of your arms and legs. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Buerger&apos;s disease 
+" Caption="In Buerger&apos;s disease, your blood vessels swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene (dark spots on the fingers in the illustration). Buerger&apos;s disease usually first shows in the hands and feet and may expand to affect larger areas of your arms and legs. 
+" Height="60" Title="Buerger&apos;s disease" URI="/images/image_popup/thumbs/mcdc7_buergerthu.jpg" Width="60" />
+				<Image Alt="Image showing Buerger&apos;s disease 
+" Caption="In Buerger&apos;s disease, your blood vessels swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene (dark spots on the fingers in the illustration). Buerger&apos;s disease usually first shows in the hands and feet and may expand to affect larger areas of your arms and legs. 
+" Height="471" Title="Buerger&apos;s disease" URI="/images/image_popup/mcdc7_buerger.jpg" Width="400" />
+				<HTML>
+					In Buerger&apos;s disease, your blood vessels swell and can become blocked with blood clots (thrombi). This eventually damages or destroys skin tissues and may lead to infection and gangrene (dark spots ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Tobacco use&lt;br /&gt;
+&lt;/strong&gt;Cigarette smoking greatly increases your risk of Buerger&apos;s disease. Heavy cigarette smokers (people who smoke one and a half packs a day or more) are most likely to develop Buerger&apos;s disease, though it can occur in people who use any form of tobacco, including cigars and chewing tobacco. People who smoke hand-rolled cigarettes using raw tobacco may have the greatest risk of Buerger&apos;s disease.
+&lt;/p&gt;
+&lt;p&gt;
+It isn&apos;t clear how tobacco use increases your risk of Buerger&apos;s disease, but virtually everyone diagnosed with Buerger&apos;s disease uses tobacco. It&apos;s thought that chemicals in tobacco may irritate the lining of your blood vessels, causing them to swell. Rates of Buerger&apos;s disease are highest in areas of the Middle East and Far East where heavy smoking is most common. 
+&lt;/p&gt;
+&lt;p&gt;
+Although secondhand smoke isn&apos;t thought to be a major risk factor for Buerger&apos;s disease, if you&apos;re diagnosed, you should stay away from people who are smoking. Secondhand smoke could worsen your condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic gum disease&lt;br /&gt;
+&lt;/strong&gt;Long-term infection of the gums also is linked to the development of Buerger&apos;s disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If Buerger&apos;s disease worsens, blood flow to your arms and legs decreases. This is due to blockages that make it hard for blood to reach the tips of your fingers and toes. Tissues that don&apos;t receive blood don&apos;t get the oxygen and nutrients they need to survive. This can cause the skin and tissue on the ends of your fingers and toes to die (gangrene). Signs and symptoms of gangrene include black or blue skin, a loss of feeling in the affected finger or toe, and a foul smell from the affected area. Gangrene is a serious condition that usually requires amputation of the affected finger or toe. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care provider, who may eventually refer you to someone who specializes in blood vessel diseases (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To make the most of your appointment, come prepared with information and questions for your doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including whether you&apos;ve ever smoked, and how many packs a day, or if you&apos;ve had repetitive trauma to your hands or feet, such as from using a jackhammer or other vibrating tools.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist? (You may need to check with your insurance provider for this information.)&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco in any form now or have you ever used it?&lt;/li&gt;
+	&lt;li&gt;Do your fingers change color in response to cold?&lt;/li&gt;
+	&lt;li&gt;Have you had repetitive trauma to the affected area from tools?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While no tests can confirm whether you have Buerger&apos;s disease, your doctor will likely order tests to rule out other more common conditions or confirm suspicion of Buerger&apos;s disease brought on by your signs and symptoms. Tests may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;Blood tests to look for certain substances can rule out other conditions that may cause similar signs and symptoms. For instance, blood tests can help rule out scleroderma, lupus, blood-clotting disorders and diabetes, along with other diseases and conditions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The Allen&apos;s test&lt;br /&gt;
+&lt;/strong&gt;Your doctor may perform a simple test called the Allen&apos;s test to check blood flow through the arteries carrying blood to your hands. In the Allen&apos;s test, you make a tight fist, which forces the blood out of your hand. Your doctor presses on the arteries at each side of your wrist to slow the flow of blood back into your hand, making your hand lose its normal color. Next, you open your hand and your doctor releases the pressure on one artery, then the other. How quickly the color returns to your hand may give a general indication about the health of your arteries. Slow blood flow into your hand may indicate a problem, such as Buerger&apos;s disease.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Angiogram&lt;br /&gt;
+&lt;/strong&gt;An angiogram, also called an arteriogram, helps to see the condition of your arteries. A special dye is injected into an artery, after which you undergo X-rays or other imaging tests. The dye helps to delineate any artery blockages that show up on the images. Your doctor may order angiograms of both your arms and your legs &amp;mdash; even if you don&apos;t have signs and symptoms of Buerger&apos;s disease in all of your limbs. Buerger&apos;s disease almost always affects more than one limb, so even though you may not have signs and symptoms in your other limbs, this test may detect early signs of vessel damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Smoking cessation&lt;br /&gt;
+&lt;/strong&gt;Although no treatment can cure Buerger&apos;s disease, the most effective way to halt the disease&apos;s progress is to quit using all tobacco products. Even a few cigarettes a day can worsen the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor can counsel you and recommend medications to help you stop smoking and stop the swelling in your blood vessels. You&apos;ll need to avoid nicotine replacement products because they supply nicotine, which activates Buerger&apos;s disease; there are non-nicotine products that you can use. If the disease is still active, your doctor may check your urine for the presence of nicotine to see if you&apos;re still smoking.
+&lt;/p&gt;
+&lt;p&gt;
+Another option is a residential smoking cessation program. In these programs, you stay at a treatment facility, sometimes a hospital, for a set number of days or weeks. During that time you participate in daily counseling sessions and other activities to help you deal with the cravings for cigarettes and to help you learn to live tobacco-free. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments&lt;br /&gt;
+&lt;/strong&gt;Other treatment approaches exist but are less effective. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medications to dilate blood vessels, improve blood flow or dissolve blood clots&lt;/li&gt;
+	&lt;li&gt;Intermittent compression of the arms and legs to increase blood flow to your extremities&lt;/li&gt;
+	&lt;li&gt;Spinal cord stimulation&lt;/li&gt;
+	&lt;li&gt;Surgery to cut the nerves to the affected area (surgical sympathectomy) to control pain and increase blood flow, although this procedure is controversial&lt;/li&gt;
+	&lt;li&gt;Medications to stimulate growth of new blood vessels (therapeutic angiogenesis), an approach that is considered experimental by many&lt;/li&gt;
+	&lt;li&gt;Amputation, if infection or gangrene occurs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take care of your fingers and toes if you have Buerger&apos;s disease. Check the skin on your arms and legs daily for cuts and scrapes, keeping in mind that if you&apos;ve lost feeling to a finger or toe you may not feel, for example, a cut when it happens. Keep your fingers and toes protected and avoid exposing them to cold. 
+&lt;/p&gt;
+&lt;p&gt;
+Low blood flow to your extremities means your body can&apos;t resist infection as easily. Small cuts and scrapes can easily turn into serious infections. Clean any cut with soap and water, apply antibiotic ointment, and cover it with a clean bandage. Keep an eye on any cuts or scrapes to make sure they&apos;re healing. If they get worse or heal slowly, see your doctor promptly. 
+&lt;/p&gt;
+&lt;p&gt;
+Visit your dentist regularly to keep your gums and teeth in good health and avoid gum disease, which in its chronic form is linked to Buerger&apos;s disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Quit using tobacco in any form&lt;br /&gt;
+&lt;/strong&gt;Virtually everyone who has Buerger&apos;s disease has used tobacco in some form, most prominently cigarettes. To prevent Buerger&apos;s disease, it&apos;s important to not use tobacco. 
+&lt;/p&gt;
+&lt;p&gt;
+Quitting smoking can be hard. If you&apos;re like most people who smoke, you&apos;ve probably tried to quit in the past, but haven&apos;t been successful. It&apos;s never too late to try again. Talk to your doctor about strategies to help you quit.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Buerger&apos;s disease
+	</Title>
+	<Abstract>
+		Buerger&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, risk factors of this blood vessel disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

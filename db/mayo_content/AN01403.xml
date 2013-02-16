@@ -1,0 +1,106 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01403
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hand-swelling/AN01403
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-01
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2745" Title="Edema" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5709755-E7FF-0DBD-1B181036D7A5FA93
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fitness
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+			<MetaKeyword>
+				hand swelling
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Hand swelling during exercise is a fairly common problem. The cause isn&apos;t completely clear, but hand swelling appears to be a result of the way your body and blood vessels respond to the increased energy demands of your muscles during exercise. 
+&lt;/p&gt;
+&lt;p&gt;
+Exercise increases blood flow to your heart and lungs, as well as to the muscles you&apos;re working. This reduces blood flow to your hands, making them cooler. In turn, the blood vessels in your hands may overreact by opening wider &amp;mdash; which could lead to hand swelling. 
+&lt;/p&gt;
+&lt;p&gt;
+As you continue to exercise, your muscles generate heat that makes your system push blood to the vessels closest to the surface of your body, to dissipate heat. This response triggers perspiration and may also contribute to hand swelling. 
+&lt;/p&gt;
+&lt;p&gt;
+In rare instances, endurance athletes develop hyponatremia (hi-poe-nuh-TREE-me-uh) &amp;mdash; an abnormally low level of sodium concentration. Swollen fingers and hands may be a sign of hyponatremia, but other signs, such as confusion and vomiting, are more prominent than is swelling. Drinking too much water, particularly during a marathon or similar long, strenuous event, may cause your body&apos;s sodium to become so diluted that you become hyponatremic. Hyponatremia requires immediate medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no proven way to prevent or reduce most exercise-related hand swelling. Before you exercise, you may want to remove your rings and loosen your watchband. During exercise, it may help to do occasional forward and backward arm circles. You might also stretch your fingers and then make fists several times during exercise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hand swelling during exercise: A concern?
+	</Title>
+	<Abstract>
+		Hand swelling during exercise is common, but rarely serious enough to disrupt your routine.
+	</Abstract>
+	<Question>
+		What causes hand swelling during exercise? I walk several times a week, and my fingers get puffy to the point that I can&apos;t get my rings off.
+	</Question>
+	<QuestionFirstName>
+		Cathy
+	</QuestionFirstName>
+	<QuestionState>
+		Kansas
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ00722" LinkType="Internal" ObjectID="0CEA2283-31A5-4223-A11C64BC1ED3227A" Title="Foot swelling during air travel: A concern?" Url="http://www.mayoclinic.com/health/foot-swelling/HQ00722" />
+		<LinkItem ContentType="Disease" DocID="DS01035" LinkType="Internal" ObjectID="BD46D6EC-E7FF-0DBD-18BE8F3FD0A9D154" Title="Edema" Url="http://www.mayoclinic.com/health/edema/DS01035" />
+	</RelatedLinksBox>
+</Answer>

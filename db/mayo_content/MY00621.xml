@@ -1,0 +1,266 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00621
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colonoscopy/MY00621
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-18
+		</UpdateDate>
+		<PublicationDate>
+			2009-06-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="2596" Title="Colonoscopy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3472" Title="Manage wellness clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			110FC74B-F21F-2E01-C42E4F1F2F093C63
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colonoscopy procedure
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cancer screening
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy prep
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy preparation
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy picture
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy video
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy risks
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopies
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscope
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A colonoscopy is an exam used to detect changes or abnormalities in the large intestine (colon) and rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+During a colonoscopy, a long, flexible tube (colonoscope) is inserted into the rectum. A tiny video camera at the tip of the tube allows the doctor to view the inside of the entire colon. 
+&lt;/p&gt;
+&lt;p&gt;
+If necessary, polyps or other types of abnormal tissue can be removed through the scope during a colonoscopy. Tissue samples (biopsies) can be taken during a colonoscopy as well. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend a colonoscopy to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Investigate intestinal signs and symptoms.&lt;/strong&gt; A colonoscopy can help your doctor explore possible causes of abdominal pain, rectal bleeding, chronic constipation, chronic diarrhea and other intestinal problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Screen for colon cancer.&lt;/strong&gt; If you&apos;re age 50 or older and at average risk of colon cancer &amp;mdash; you have no colon cancer risk factors other than age &amp;mdash; your doctor may recommend a colonoscopy every 10 years or sometimes sooner to screen for colon cancer. Colonoscopy is one option for colon cancer screening. Talk with your doctor about your options. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A colonoscopy poses few risks. Rarely, complications of a colonoscopy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Adverse reaction to the sedative used during the exam&lt;/li&gt;
+	&lt;li&gt;Bleeding from the site where a tissue sample (biopsy) was taken or a polyp or other abnormal tissue was removed &lt;/li&gt;
+	&lt;li&gt;A tear in the colon or rectum wall (perforation) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After discussing the risks of colonoscopy with you, your doctor will ask you to sign a consent form authorizing the procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before a colonoscopy, you&apos;ll need to clean out (empty) your colon. Any residue in your colon may obscure the view of your colon and rectum during the exam. 
+&lt;/p&gt;
+&lt;p&gt;
+To empty your colon, your doctor may ask you to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a special diet the day before the exam.&lt;/strong&gt; Typically, you won&apos;t be able to eat solid food the day before the exam. Drinks may be limited to clear liquids &amp;mdash; plain water, tea and coffee without milk or cream, broth, and carbonated beverages. Avoid red liquids, which can be confused with blood during the colonoscopy. You may not be able to eat or drink anything after midnight the night before the exam. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a laxative.&lt;/strong&gt; Your doctor may suggest taking a laxative, in either pill form or liquid form. You may be instructed to take the laxative the night before your colonoscopy, or you may be asked to use the laxative both the night before and the morning of the procedure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use an enema kit.&lt;/strong&gt; In some cases, you may need to use an over-the-counter enema kit &amp;mdash; either the night before the exam or a few hours before the exam &amp;mdash; to empty your colon. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your medications.&lt;/strong&gt; Remind your doctor of your medications at least a week before the exam &amp;mdash; especially if you have diabetes, high blood pressure or heart problems, if you take medications or supplements that contain iron, or if you take aspirin or other medications that thin the blood, such as warfarin (Coumadin) or clopidogrel (Plavix). You may need to adjust your dosages or stop taking the medications temporarily. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the exam&lt;/strong&gt; &lt;br /&gt;
+During a colonoscopy, you&apos;ll wear a gown but likely nothing else. Sedation is usually recommended. Sometimes a mild sedative is given in pill form. In other cases, the sedative is combined with an intravenous pain medication to minimize any discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll begin the exam lying on your side on the exam table, usually with your knees drawn toward your chest. The doctor will insert a colonoscope into your rectum. The scope &amp;mdash; which is long enough to reach the entire length of your colon &amp;mdash; contains a light and a tube (channel) that allows the doctor to pump air into your colon. The air inflates the colon, which provides a better view of the lining of the colon. When the scope is moved or air is introduced, you may feel abdominal cramping or the urge to have a bowel movement. 
+&lt;/p&gt;
+&lt;p&gt;
+The colonoscope also contains a tiny video camera at its tip. The camera sends images to an external monitor so the doctor can study the inside of your colon. The doctor can also insert instruments through the channel to take tissue samples (biopsies) or remove polyps or other areas of abnormal tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+A colonoscopy typically takes about 20 minutes to an hour. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the exam&lt;/strong&gt; &lt;br /&gt;
+After the exam, it takes about an hour to begin to recover from the sedative. You&apos;ll need someone to take you home because it can take up to a day for the full effects of the sedative to wear off. Don&apos;t drive or go back to work for the rest of the day. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor removed a polyp during your colonoscopy, you may be advised to eat a special diet temporarily. 
+&lt;/p&gt;
+&lt;p&gt;
+You may feel bloated or pass gas for a few hours after the exam, as you clear the air from your colon. Walking may help relieve any discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also notice a small amount of blood with your first bowel movement after the exam. Usually this isn&apos;t cause for alarm. Consult your doctor if you continue to pass blood or blood clots or if you have persistent abdominal pain or a fever of 100 F (37.8 C) or higher. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will review the results of the colonoscopy and then share the results with you. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Negative result.&lt;/strong&gt; A colonoscopy is considered negative if the doctor doesn&apos;t find any abnormalities in the colon. If you&apos;re at average risk of colon cancer &amp;mdash; you have no colon cancer risk factors other than age &amp;mdash; your doctor may recommend waiting 10 years and then repeating the exam. &lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Positive result.&lt;/strong&gt; A colonoscopy is considered positive if the doctor finds any polyps or abnormal tissue in the colon. Most polyps aren&apos;t cancerous, but some can be precancerous. Polyps removed during colonoscopy are sent to a laboratory for analysis to determine whether they are cancerous, precancerous or noncancerous.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Depending on the size and number of polyps, you may need to follow a more rigorous screening schedule in the future. If your doctor finds one or two polyps less than 0.4 inches (1 centimeter) in diameter, a repeat colonoscopy in five to 10 years may be adequate, depending on your other risk factors for colon cancer. If you have larger polyps, more polyps or polyps with certain cell characteristics, your doctor may recommend another colonoscopy in three to five years &amp;mdash; again, depending on your other risk factors. If one or more cancerous polyps are removed during your colonoscopy, your doctor may recommend a follow-up colonoscopy in as little as three months, six months or a year. If you have a polyp or other abnormal tissue that couldn&apos;t be removed during the colonoscopy, your doctor may recommend follow-up surgery. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor is concerned about the quality of the view through the scope, he or she may recommend a repeat colonoscopy or a shorter time until your next colonoscopy. If your doctor wasn&apos;t able to advance the scope through your entire colon, a barium enema or virtual colonoscopy may be recommended to examine the rest of your colon. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Colonoscopy
+	</Title>
+	<Abstract>
+		Colonoscopy &amp;mdash; Overview covers definition, risks, results of this exam to detect colon disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01970" LinkType="Internal" ObjectID="D0EE0825-F9C7-F0BA-76C16ED2F52A7591" Title="Colon cancer screening: At what age can you stop?" Url="http://www.mayoclinic.com/health/colon-cancer-screening/AN01970" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00624" LinkType="Internal" ObjectID="11107B89-D997-313D-42FD1089A3E98AC3" Title="Virtual colonoscopy" Url="http://www.mayoclinic.com/health/virtual-colonoscopy/MY00624" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="Disease" DocID="DS00511" LinkType="Internal" ObjectID="C9BB1E4C-12DB-4916-86E2CE5E70BDB744" Title="Colon polyps" Url="http://www.mayoclinic.com/health/colon-polyps/DS00511" />
+		<LinkItem ContentType="Disease" DocID="DS00063" LinkType="Internal" ObjectID="2D434692-F005-495C-A5EB2AFBD98CA2A5" Title="Constipation" Url="http://www.mayoclinic.com/health/constipation/DS00063" />
+		<LinkItem ContentType="Disease" DocID="DS00035" LinkType="Internal" ObjectID="13D504C5-40A0-40DA-9F61138EEAAE162F" Title="Colon cancer" Url="http://www.mayoclinic.com/health/colon-cancer/DS00035" />
+	</RelatedLinksBox>
+</TestProcedure>

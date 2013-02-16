@@ -1,0 +1,408 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00894
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/agoraphobia/DS00894
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1561" Title="Phobias">
+							<Keyword MCVID="4303" Title="Agoraphobia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CD0B6496-E7FF-0DBD-111E90D5A27FB024
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				agoraphobia
+			</MetaKeyword>
+			<MetaKeyword>
+				panic
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				panic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				agoraphobia symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety attack
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+			<MetaKeyword>
+				mental disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				agoraphobia treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				agoraphobia symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				overcome agoraphobia
+			</MetaKeyword>
+			<MetaKeyword>
+				agoraphobia cause
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia is a type of anxiety disorder in which you avoid situations that you&apos;re afraid might cause you to panic. You might avoid being alone, leaving your home or any situation where you could feel trapped, embarrassed or helpless if you do panic. 
+&lt;/p&gt;
+&lt;p&gt;
+People with agoraphobia often have a hard time feeling safe in any public place, especially where crowds gather. The fears can be so overwhelming that you may be essentially trapped in your own home.
+&lt;/p&gt;
+&lt;p&gt;
+Agoraphobia treatment can be tough because it usually means confronting your fears. But with medications and psychotherapy, you can escape the trap of agoraphobia and live a more enjoyable life.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia is a type of phobia. A phobia is the excessive fear of a specific object, circumstance or situation. Agoraphobia is excessive worry about having a panic attack in a public place. Commonly feared places and situations are elevators, sporting events, bridges, public transportation, shopping malls, airplanes, crowds or lines of people. 
+&lt;/p&gt;
+&lt;p&gt;
+Typical agoraphobia symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fear of being alone in any situation&lt;/li&gt;
+	&lt;li&gt;Fear of being in crowded places&lt;/li&gt;
+	&lt;li&gt;Fear of losing control in a public place&lt;/li&gt;
+	&lt;li&gt;Fear of being in places where it may be hard to leave, such as an elevator or train&lt;/li&gt;
+	&lt;li&gt;Inability to leave your house for long periods (housebound)&lt;/li&gt;
+	&lt;li&gt;Sense of helplessness&lt;/li&gt;
+	&lt;li&gt;Overdependence on others&lt;/li&gt;
+	&lt;li&gt;A sense that your body is unreal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, you may also have signs and symptoms similar to a panic attack, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Trouble breathing&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Excessive sweating&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Flushing&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Upset stomach or diarrhea&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Feeling a loss of control&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Agoraphobia can severely limit your ability to socialize, work, attend important events and even manage the details of daily life, such as running errands. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with agoraphobia have &quot;safe zones,&quot; or places they can go without severe worry, especially if accompanied by a trusted friend or relative. Sometimes they may muster up the courage to go somewhere, but they still feel extremely uncomfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, however, agoraphobia can make you feel like a prisoner in your own home. If you believe you&apos;re going to have a panic attack when you go out in public, you may indeed have one &amp;mdash; causing a vicious cycle. The number of places you&apos;re able to go may become fewer and fewer. 
+&lt;/p&gt;
+&lt;p&gt;
+Don&apos;t let agoraphobia make your world smaller. Call your doctor if you have symptoms of agoraphobia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia is usually a complication of panic disorder. Panic disorder is a type of anxiety disorder in which you experience attacks of intense fear (panic attacks) that for no apparent reason trigger intense physical symptoms. Panic attacks can be very frightening. When panic attacks occur, you might think you&apos;re losing control, having a heart attack or even dying. 
+&lt;/p&gt;
+&lt;p&gt;
+You may develop agoraphobia when you begin to make a connection between your panic attacks and one or more situations in which those attacks have occurred. You may avoid similar situations in an attempt to prevent future panic attacks. People with agoraphobia are especially likely to avoid circumstances in which it would be difficult or embarrassing to escape if a panic attack were to occur, such as in a crowded stadium or an airplane. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, fear of having a panic attack may be so great that you may not be able to leave the safety of your home. In other cases, you may be able to overcome your fear and tolerate most situations as long as you&apos;re accompanied by a trusted companion. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, agoraphobia may occur without an accompanying panic disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia usually starts in your late teens or early 20s, but younger children and older adults also can develop agoraphobia. Women are diagnosed with agoraphobia more often than are men.
+&lt;/p&gt;
+&lt;p&gt;
+Possible agoraphobia risk factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having panic disorder&lt;/li&gt;
+	&lt;li&gt;Experiencing stressful life events, including sexual or physical abuse during childhood&lt;/li&gt;
+	&lt;li&gt;Having a tendency to be nervous or anxious&lt;/li&gt;
+	&lt;li&gt;Having an alcohol or substance abuse disorder&lt;/li&gt;
+	&lt;li&gt;Being female&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia can greatly limit your life&apos;s activities. In severe cases, you may not even be able to leave your house. Without treatment, some people become housebound for years. You may not be able to visit with family and friends, go to school or work, walk your dog, run errands or take part in other normal daily activities. You may become dependent on others for help, such as grocery shopping. 
+&lt;/p&gt;
+&lt;p&gt;
+Agoraphobia can also lead to depression and anxiety. And people with agoraphobia may turn to alcohol or substance abuse to help cope with the fear, guilt, hopelessness, isolation and loneliness.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have agoraphobia, you may be too afraid or embarrassed to go to your doctor&apos;s office. Consider starting, instead, with a phone call to your doctor. Some health care professionals, particularly mental health experts who specialize in agoraphobia and anxiety disorders, may be able to start by meeting with you in your own home. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key personal information,&lt;/strong&gt; especially any significant stress or life changes that you experienced around the time your symptoms first developed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medical information,&lt;/strong&gt; including other physical or mental health conditions with which you&apos;ve been diagnosed. Also write down the names of any medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a trusted family member or friend to be present for your appointment,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor in advance so that you can make the most of your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For agoraphobia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you believe is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;How will you determine my diagnosis?&lt;/li&gt;
+	&lt;li&gt;Should I be tested for any underlying medical problems?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Do you recommend treatment? If yes, with what types of therapy?&lt;/li&gt;
+	&lt;li&gt;I have other health problems. How should I manage these together with agoraphobia?&lt;/li&gt;
+	&lt;li&gt;What is the risk of side effects from the drug or drugs you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms to improve?&lt;/li&gt;
+	&lt;li&gt;With treatment, will I eventually be comfortable in the situations that scare me so much now?&lt;/li&gt;
+	&lt;li&gt;Does agoraphobia increase my risk of other mental health problems?&lt;/li&gt;
+	&lt;li&gt;Should I see a mental health specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Being ready to answer your doctor&apos;s questions may help leave time to go over any points you want to talk about in-depth. You should be prepared to answer the following questions from your doctor:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you recently had a spell or an attack when all of a sudden you felt frightened, anxious or very uneasy?&lt;/li&gt;
+	&lt;li&gt;Would you say that you have recently been feeling nervous, anxious or on edge?&lt;/li&gt;
+	&lt;li&gt;During these attacks of fear and anxiety, have you ever felt like you couldn&apos;t breathe or like you were having a heart attack?&lt;/li&gt;
+	&lt;li&gt;What other symptoms do you have?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;When are your symptoms most likely to occur?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Do you avoid any situations or places because you fear they&apos;ll trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;What do you think is causing your symptoms?&lt;/li&gt;
+	&lt;li&gt;How are your symptoms affecting your life and the people closest to you?&lt;/li&gt;
+	&lt;li&gt;What else concerns you that we haven&apos;t yet talked about?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for other psychiatric symptoms or mental illness in the past? If yes, what type of therapy was most beneficial?&lt;/li&gt;
+	&lt;li&gt;Have you ever thought about harming yourself or others?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol or use illegal drugs? How often?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia is diagnosed based on signs and symptoms, as well as an in-depth interview with your doctor. You may also have a physical exam. A physical exam is important because some of the signs and symptoms of a panic attack are similar to those of other conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with agoraphobia, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+For agoraphobia to be diagnosed, you must meet these criteria:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety about being in places or situations that it may be difficult or embarrassing to get out of, or in which you may not be able to get help if you develop panic-like symptoms&lt;/li&gt;
+	&lt;li&gt;Avoiding places or situations where you fear you may have a panic attack, or having great distress and anxiety in those situations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your mental health provider will try to determine if you might have panic disorder, social phobia or another specific type of phobia, rather than agoraphobia, since these conditions have a lot in common.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Agoraphobia treatment usually includes both medication and psychotherapy. It may take some time, but treatments can help you get better. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications &lt;br /&gt;
+&lt;/strong&gt;Antidepressant and anti-anxiety medications are often used to treat agoraphobia and panic symptoms. You may have to try several different medications before you find one that works best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to prescribe one or both of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A selective serotonin reuptake inhibitor (SSRI).&lt;/strong&gt; Drugs in this category that are FDA-approved for the treatment of panic disorder with agoraphobia include paroxetine (Paxil, Paxil CR) and fluoxetine (Prozac, Prozac Weekly, Sarafem).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Another type of antidepressant, such as a tricyclic antidepressant or monoamine oxidase inhibitor.&lt;/strong&gt; While these drugs may effectively treat agoraphobia, they&apos;re associated with more side effects than are SSRIs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An anti-anxiety medication.&lt;/strong&gt; Also called benzodiazepines, these drugs can help control symptoms of anxiety and panic attacks. However, these medications can cause dependence if taken in doses larger than prescribed or over a longer period of time than prescribed. Your doctor will weigh this risk against the potential benefit of this class of drugs. Drugs in this category that are FDA-approved for the treatment of panic disorder with agoraphobia include alprazolam (Xanax) and clonazepam (Klonopin).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Both starting and ending a course of antidepressants can cause side effects that seem just like a panic attack. For this reason, your doctor likely will gradually increase your dose at the beginning of your treatment, and slowly decrease your dose when he or she feels you&apos;re ready to stop taking medication &amp;mdash; often over the course of a year or more after your agoraphobia symptoms are controlled. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;/strong&gt;&lt;br /&gt;
+Several types of psychotherapy or counseling can help agoraphobia. One common therapy that&apos;s used is cognitive behavioral therapy.
+&lt;/p&gt;
+&lt;p&gt;
+Cognitive behavioral therapy has two parts. The cognitive part involves learning more about agoraphobia and panic attacks and how to control them. You learn what factors may trigger a panic attack or panic-like symptoms and what makes them worse. You also learn how to cope with these symptoms, such as using breathing and relaxation techniques.
+&lt;/p&gt;
+&lt;p&gt;
+The behavioral part of cognitive behavioral therapy involves changing unwanted or unhealthy behaviors through desensitization, sometimes called exposure therapy. This technique helps you safely face the places and situations that cause fear and anxiety. A therapist may join you on outings to help you stay safe and comfortable, such as trips to the mall or driving your car. The more you go to feared places and realize you&apos;re okay, the more your anxiety will lessen. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have trouble leaving your home, you may wonder how you can possibly go to a therapist&apos;s office. Therapists who treat agoraphobia will be well aware of this problem. They may offer to see you first in your home, or they may meet you in one of your safe zones. They may also offer some sessions over the phone or through email. Look for a therapist who can help you find alternatives to in-office appointments, at least in the early part of your treatment. You may also try taking a trusted relative or friend to your appointment who can offer comfort and help, if needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain dietary and herbal supplements claim to have calming and anti-anxiety benefits. Before you take any of these for agoraphobia, talk with your health care professional. Although these supplements are available over-the-counter, they still pose possible health risks in some people. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, the herbal treatment called kava is marketed as a treatment for anxiety. Kava may reduce anxiety, but the supplement has been linked to multiple cases of severe liver damage. Several countries have banned the sale of kava due to safety concerns. The Food and Drug Administration has issued warnings about kava but hasn&apos;t banned the sale of kava in the United States.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with fear of panic attacks can make life difficult for anyone with agoraphobia, no matter how severe it is. Professional treatment of agoraphobia can help you overcome this disorder or manage it effectively so that you don&apos;t become a prisoner to your fears. 
+&lt;/p&gt;
+&lt;p&gt;
+You can also take some steps on your own to cope and care for yourself when you have agoraphobia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try not to avoid feared situations.&lt;/strong&gt; It&apos;s hard to go to places or be in situations that make you uncomfortable or that bring on symptoms of anxiety. But practicing going to more and more places does make them less frightening and anxiety-provoking. Family, friends and your therapist can help you work on this.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn calming skills.&lt;/strong&gt; People with agoraphobia are overwhelmed with worry about losing control or having a panic attack. Working with your health care professional, you can learn how to calm and soothe yourself. You can practice these skills on your own, especially at the first hint of anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice relaxation techniques.&lt;/strong&gt; Meditation, yoga and imagery are among the simple relaxation techniques that may help &amp;mdash; and you can do them in the comfort of your own home. Practice these techniques when you aren&apos;t anxious or worried, and then put them into action during stressful situations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reach out.&lt;/strong&gt; Consider joining a self-help or support group, where you can connect with others who understand what you&apos;re going through.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol and illegal drugs.&lt;/strong&gt; These can worsen your panic or anxiety symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications as directed.&lt;/strong&gt; It may take a couple of weeks to start seeing benefits when you first start a medication, but stick it out. Also, don&apos;t stop a medication without first consulting your health care professional, as some medications can cause withdrawal-like symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Get enough rest, eat a balanced diet and try to exercise every day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent agoraphobia. However, anxiety tends to increase the more you avoid situations that you fear. If you start to have mild fears about going places that are safe, try to practice going to those places before your fear becomes overwhelming. If this is too hard to do on your own, ask a family member or friend to go with you or seek professional help. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, if you&apos;ve experienced panic attacks or have panic disorder, get treatment as soon as possible. Because panic disorder and agoraphobia are closely related, getting treatment for panic disorder may prevent the development of agoraphobia.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, if you take medication or are already in therapy or counseling for panic disorder, continue to follow your treatment plan. If you develop any symptoms of agoraphobia, get treatment as soon as possible, which will help prevent symptoms from getting worse over time.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Agoraphobia
+	</Title>
+	<Abstract>
+		Agoraphobia &amp;mdash; Comprehensive overview covers agoraphobia symptoms, treatment and coping techniques for this anxiety disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01979" LinkType="Internal" ObjectID="61568FB7-9023-DC3D-5E51F4E5D1F6829F" Title="Fear of public speaking: How can I overcome it?" Url="http://www.mayoclinic.com/health/fear-of-public-speaking/AN01979" />
+		<LinkItem ContentType="Disease" DocID="DS00272" LinkType="Internal" ObjectID="9F0FCD22-ACCC-4A8F-AB69AB12F4E8FB07" Title="Phobias" Url="http://www.mayoclinic.com/health/phobias/DS00272" />
+	</RelatedLinksBox>
+</Disease>

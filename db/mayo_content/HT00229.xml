@@ -1,0 +1,67 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00229
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00229
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-12
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9D3C5065-E7FF-0DBD-154C010D2AFE502F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fitness ball
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Using a fitness ball? Pick the right size
+	</Title>
+	<Body>
+		&lt;p&gt;Fitness balls come in various sizes. For most exercises, you&apos;ll want a ball that allows your knees to be at a right angle when you sit on the ball with your feet on the floor. The firmer the ball, the more difficult the exercise will be. So if you&apos;re just starting out, you might want to slightly deflate the ball. You can add more air as you gain strength and confidence.&lt;/p&gt;
+	</Body>
+</HealthTip>

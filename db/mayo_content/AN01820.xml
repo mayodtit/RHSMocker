@@ -1,0 +1,140 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01820
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sleep-aids/AN01820
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-12
+		</UpdateDate>
+		<PublicationDate>
+			2008-04-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="4644" Title="Sleep" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BDE6863C-E7FF-0DBD-1DBE52F748F513E2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sleep aids
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				antihistamines
+			</MetaKeyword>
+			<MetaKeyword>
+				antihistamine
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep aid
+			</MetaKeyword>
+			<MetaKeyword>
+				insomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				dyphenhydramine
+			</MetaKeyword>
+			<MetaKeyword>
+				Benadryl
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Antihistamines can cause drowsiness, which might help you fall asleep for a few nights &amp;mdash; but routine use of antihistamines for insomnia isn&apos;t recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+Antihistamines induce drowsiness by working against histamine, a chemical produced by the central nervous system. In fact, most over-the-counter sleep aids contain antihistamines. These products are intended to be used for only two to three nights at a time, however, such as when stress, travel or other disruptions keep you awake. Tolerance to the sedative effects of antihistamines can develop quickly &amp;mdash; so the longer you take them, the less likely they are to make you sleepy. Side effects might include daytime drowsiness, dry mouth, dizziness and memory problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, keep in mind that diphenhydramine and doxylamine &amp;mdash; sedating antihistamines found in various over-the-counter sleep aids &amp;mdash; aren&apos;t recommended for people who have closed-angle glaucoma, asthma, chronic obstructive pulmonary disease, severe liver disease or urinary retention, which can be preceded by a weak urine stream or trouble starting urination. In addition, most sleep aids aren&apos;t recommended for women who are pregnant or breast-feeding. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re struggling with chronic insomnia, don&apos;t rely on antihistamines or other over-the-counter sleep aids for a good night&apos;s sleep. Start with lifestyle changes instead: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Follow a regular sleep schedule. &lt;/li&gt;
+	&lt;li&gt;Avoid caffeine and daytime naps. &lt;/li&gt;
+	&lt;li&gt;Include physical activity in your daily routine. &lt;/li&gt;
+	&lt;li&gt;Manage stress.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you continue to have trouble falling or staying asleep, consult your doctor. In addition to lifestyle changes, your doctor might recommend ways to make your sleeping environment more conducive to sleep or behavior therapy to help you learn new sleep habits. In some cases, short-term use of prescription sleep aids might be recommended as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sleep aids: Could antihistamines help me sleep?
+	</Title>
+	<Abstract>
+		Antihistamines are somewhat effective as sleep aids &amp;mdash; but only for occasional insomnia.
+	</Abstract>
+	<Question>
+		Is it OK to use over-the-counter antihistamines to treat insomnia? I&apos;d like to avoid prescription sleep aids.
+	</Question>
+	<QuestionFirstName>
+		Antoni
+	</QuestionFirstName>
+	<QuestionState>
+		New York
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Answer" DocID="AN02194" LinkType="Internal" ObjectID="97DB1E66-C0DF-846A-EDC3AE6812E0E8C9" Title="What is reflexology?" Url="http://www.mayoclinic.com/health/what-is-reflexology/AN02194" />
+		<LinkItem ContentType="Answer" DocID="AN02065" LinkType="Internal" ObjectID="1F2E1E54-B359-94D3-98363938BE4FAB06" Title="Lack of sleep: Can it make you sick?" Url="http://www.mayoclinic.com/health/lack-of-sleep/AN02065" />
+		<LinkItem ContentType="Article" DocID="SL00010" LinkType="Internal" ObjectID="075A19C3-2A5D-9994-EA19247B55DD4BC8" Title="Prescription sleeping pills: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/sleeping-pills/SL00010" />
+		<LinkItem ContentType="Answer" DocID="AN01717" LinkType="Internal" ObjectID="FA6D0680-E7FF-0DBD-1462408DE3F8E30A" Title="Melatonin side effects: What are the risks?" Url="http://www.mayoclinic.com/health/melatonin-side-effects/AN01717" />
+		<LinkItem ContentType="Answer" DocID="AN02178" LinkType="Internal" ObjectID="A1139DD7-CDCB-DC39-3CA5A55B5497F085" Title="Sleep and weight gain: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/sleep-and-weight-gain/AN02178" />
+		<LinkItem ContentType="Answer" DocID="AN01487" LinkType="Internal" ObjectID="30924DB7-E7FF-0DBD-1BC041B62E795285" Title="How many hours of sleep are enough?" Url="http://www.mayoclinic.com/health/how-many-hours-of-sleep-are-enough/AN01487" />
+		<LinkItem ContentType="Disease" DocID="DS00187" LinkType="Internal" ObjectID="4A51681C-E903-48E6-9339EFF42FD2E52C" Title="Insomnia" Url="http://www.mayoclinic.com/health/insomnia/DS00187" />
+		<LinkItem ContentType="Disease" DocID="DS00297" LinkType="Internal" ObjectID="48D50376-6042-4011-A627317A9C08F538" Title="Snoring" Url="http://www.mayoclinic.com/health/snoring/DS00297" />
+		<LinkItem ContentType="Disease" DocID="DS01009" LinkType="Internal" ObjectID="2CFC20C2-E7FF-0DBD-1091AC04DD85951E" Title="Sleepwalking" Url="http://www.mayoclinic.com/health/sleepwalking/DS01009" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="MY01383" LinkType="Internal" ObjectID="F5587968-F989-5DEA-6D643BE3E70B80C7" Title="Napping: Do&apos;s and don&apos;ts for healthy adults" Url="http://www.mayoclinic.com/health/napping/MY01383" />
+		<LinkItem ContentType="Article" DocID="SL00016" LinkType="Internal" ObjectID="D7932614-E7FF-0DBD-16A8B83124F7C06A" Title="Sleep aids: Understand over-the-counter options" Url="http://www.mayoclinic.com/health/sleep-aids/SL00016" />
+	</RelatedLinksBox>
+</Answer>

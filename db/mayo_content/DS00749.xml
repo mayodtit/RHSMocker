@@ -1,0 +1,342 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00749
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pemphigus/DS00749
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-07
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2284" Title="Blister">
+							<Keyword MCVID="2848" Title="Pemphigus" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1FBDF881-2A5D-9994-E4780B388D3E52D3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pemphigus
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				blisters
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pemphigus is a group of rare skin disorders that cause blisters of your skin or mucous membranes, such as in your mouth or on your genitals.
+&lt;/p&gt;
+&lt;p&gt;
+There are two main types: pemphigus vulgaris and pemphigus foliaceus. Pemphigus vulgaris is the most common form. Pemphigus can occur at any age, but often strikes people in middle age or older.
+&lt;/p&gt;
+&lt;p&gt;
+Usually a chronic condition, pemphigus is best controlled by early diagnosis and treatment, which may include medications or treatments similar to those used for severe burns. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs of pemphigus vulgaris of the mouth and skin 
+" Caption="Pemphigus is a rare skin disorder characterized by blistering of your skin and mucous membranes. The most common type is pemphigus vulgaris, which involves painful sores and blisters on your skin and in your mouth. 
+" Height="60" Title="Pemphigus vulgaris" URI="/images/image_popup/thumbs/ans7_pemphigusthu.jpg" Width="60" />
+				<Image Alt="Photographs of pemphigus vulgaris of the mouth and skin 
+" Caption="Pemphigus is a rare skin disorder characterized by blistering of your skin and mucous membranes. The most common type is pemphigus vulgaris, which involves painful sores and blisters on your skin and in your mouth. 
+" Height="202" Title="Pemphigus vulgaris" URI="/images/image_popup/ans7_pemphigus.jpg" Width="400" />
+				<HTML>
+					Pemphigus is a rare skin disorder characterized by blistering of your skin and mucous membranes. The most common type is pemphigus vulgaris, which involves painful sores and blisters on your skin and ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of pemphigus foliaceus 
+" Caption="Pemphigus foliaceus doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be crusty and itchy. 
+" Height="60" Title="Pemphigus foliaceus" URI="/images/image_popup/thumbs/r7_pemphigusfoliaceusthu.jpg" Width="60" />
+				<Image Alt="Photograph of pemphigus foliaceus 
+" Caption="Pemphigus foliaceus doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be crusty and itchy. 
+" Height="360" Title="Pemphigus foliaceus" URI="/images/image_popup/r7_pemphigusfoliaceus.jpg" Width="400" />
+				<HTML>
+					Pemphigus foliaceus doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pemphigus is characterized by blisters on your skin and mucous membranes. The blisters rupture easily, leaving open sores, which may ooze and become infected. The signs and symptoms of the main types of pemphigus differ depending on the type: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pemphigus vulgaris.&lt;/strong&gt; The most common form, pemphigus vulgaris usually begins with blisters in your mouth, which then erupt on your skin. Blisters can also break out on the mucous membranes of your genitals. The blisters typically are painful, but don&apos;t itch. Blisters in your mouth or throat may make it hard to swallow and to eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pemphigus foliaceus.&lt;/strong&gt; This type doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be crusty and itchy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you develop blisters inside your mouth or on your skin. If you&apos;ve already been diagnosed with pemphigus and are receiving treatment, see your doctor if you develop any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;New blisters or sores&lt;/li&gt;
+	&lt;li&gt;A rapid spread in the number of sores&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Achy muscles or joints&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs of pemphigus vulgaris of the mouth and skin 
+" Caption="Pemphigus is a rare skin disorder characterized by blistering of your skin and mucous membranes. The most common type is pemphigus vulgaris, which involves painful sores and blisters on your skin and in your mouth. 
+" Height="60" Title="Pemphigus vulgaris" URI="/images/image_popup/thumbs/ans7_pemphigusthu.jpg" Width="60" />
+				<Image Alt="Photographs of pemphigus vulgaris of the mouth and skin 
+" Caption="Pemphigus is a rare skin disorder characterized by blistering of your skin and mucous membranes. The most common type is pemphigus vulgaris, which involves painful sores and blisters on your skin and in your mouth. 
+" Height="202" Title="Pemphigus vulgaris" URI="/images/image_popup/ans7_pemphigus.jpg" Width="400" />
+				<HTML>
+					Pemphigus is a rare skin disorder characterized by blistering of your skin and mucous membranes. The most common type is pemphigus vulgaris, which involves painful sores and blisters on your skin and ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of pemphigus foliaceus 
+" Caption="Pemphigus foliaceus doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be crusty and itchy. 
+" Height="60" Title="Pemphigus foliaceus" URI="/images/image_popup/thumbs/r7_pemphigusfoliaceusthu.jpg" Width="60" />
+				<Image Alt="Photograph of pemphigus foliaceus 
+" Caption="Pemphigus foliaceus doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be crusty and itchy. 
+" Height="360" Title="Pemphigus foliaceus" URI="/images/image_popup/r7_pemphigusfoliaceus.jpg" Width="400" />
+				<HTML>
+					Pemphigus foliaceus doesn&apos;t usually affect mucous membranes. The blisters, which usually begin on your face and scalp and later erupt on your chest and back, usually aren&apos;t painful. They tend to be ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pemphigus is an autoimmune disorder, and in most cases, it&apos;s unknown what triggers the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your immune system attacks foreign invaders, such as harmful viruses and bacteria. But in pemphigus, your immune system mistakenly produces antibodies that attack healthy cells in your skin and mucous membranes.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, pemphigus develops as a side effect of certain medications, such as certain blood pressure drugs or chelating agents. This type of pemphigus usually disappears when the medicine is stopped.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pemphigus isn&apos;t contagious, and there&apos;s no way to predict who&apos;ll get it. However, your risk increases if you&apos;re middle-aged or older.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of pemphigus include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infection of your skin&lt;/li&gt;
+	&lt;li&gt;Infection that spreads through your bloodstream (sepsis)&lt;/li&gt;
+	&lt;li&gt;Medication side effects, such as an increased risk of infection&lt;/li&gt;
+	&lt;li&gt;Rarely, death from infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your primary care doctor. However, you may then be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. For pemphigus, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;How long will it take for the blisters to heal?&lt;/li&gt;
+	&lt;li&gt;Will the blisters come back again?&lt;/li&gt;
+	&lt;li&gt;Are there any side effects from this treatment?&lt;/li&gt;
+	&lt;li&gt;What can I do for the pain?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any pain?&lt;/li&gt;
+	&lt;li&gt;Do the sores or blisters itch?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a skin biopsy?&lt;/li&gt;
+	&lt;li&gt;Have you had any prescription treatments for this skin condition? If so, do you remember the name of the medication and the dosage you were prescribed?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it&apos;s uncommon and because blisters occur with a number of conditions, pemphigus can be difficult to diagnose. Your doctor will ask you for a complete medical history and examine your skin and mouth. In addition, he or she may also: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Check for skin peeling.&lt;/strong&gt; Your doctor will lightly rub a patch of normal skin near the blistered area with a cotton swab or finger. If you have pemphigus, the top layers of your skin are likely to shear off. This reaction is called the Nikolsky sign.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do a skin biopsy.&lt;/strong&gt; In this test, a piece of tissue from a blister is removed and examined under a microscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Run blood tests.&lt;/strong&gt; One purpose of these tests is to detect and identify antibodies in your blood known as desmoglein antibodies. These antibodies are often elevated when pemphigus is first diagnosed. The levels of these antibodies usually goes down as symptoms improve.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment, which aims at reducing signs and symptoms and preventing complications, is generally more effective when it begins as early as possible. Treatment includes medications, and sometimes, hospitalization. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications may be used alone or in combination with each other to treat pemphigus. Commonly prescribed drugs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; The mainstay of treatment is usually corticosteroids, such as prednisone. However, using corticosteroids over an extended time or in high doses may cause serious side effects, including increased blood sugar, bone loss, an increased risk of infection, water retention, cataracts, glaucoma and a redistribution of body fat, leading to a round face (moon face).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressants.&lt;/strong&gt; These medications, such as azathioprine (Imuran), methotrexate (Trexall) or mycophenolate mofetil (CellCept), help keep your immune system from attacking healthy tissue. These drugs may have serious side effects, including increased risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biological therapies.&lt;/strong&gt; If other medications don&apos;t help ease your symptoms, or if you have difficulty taking other medications, your doctor may prescribe a newer type of drug called rituximab (Rituxan). Rituximab targets the white blood cells responsible for the production of the pemphigus antibodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics, antivirals and antifungal medications.&lt;/strong&gt; These may be prescribed to control or prevent infections, particularly infection from staphylococcus bacteria or herpes viruses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, other medications that alter the immune system, such as dapsone and &amp;nbsp;intravenous immunoglobulin, may be prescribed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization&lt;br /&gt;
+&lt;/strong&gt;If your pemphigus isn&apos;t too widespread, you can usually stay at home for treatment. But, widespread pemphigus may require you to stay in the hospital. The open sores make you highly vulnerable to infection, which, if it spreads to your bloodstream, can be fatal. Along with the medications listed above, you may be given: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fluids.&lt;/strong&gt; Because you may have lost bodily fluids due to oozing of the sores, you may receive fluids through a vein (intravenously), as well as electrolytes &amp;mdash; minerals such as sodium, potassium and calcium that maintain the balance of fluids in your body &amp;mdash; and proteins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous feeding.&lt;/strong&gt; This may be necessary if mouth sores make it too painful for you to eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anesthetic mouth lozenges.&lt;/strong&gt; These can help control pain of mild to moderate mouth sores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Therapeutic plasmapheresis.&lt;/strong&gt; In this process, the fluid part of your blood, called plasma, is removed from blood cells by a device known as a cell separator. The purpose is to get rid of the antibodies that are attacking your skin. The plasma is replaced with donated plasma or intravenous fluids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In about one-third of cases, treatment makes all of the blisters and sores disappear completely, and treatment can be stopped. Others take a lower dose of the medications indefinitely or their signs and symptoms will return.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are steps you can take to improve your skin and overall health: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Minimize trauma to your skin.&lt;/strong&gt; Avoid situations in which your skin could be touched or bumped, such as contact sports.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor for wound care instructions.&lt;/strong&gt; Taking good care of your wounds can help prevent infection and scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use talcum powder.&lt;/strong&gt; Generously sprinkling talcum powder on your sheets may help keep oozing skin from sticking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use lotions or dressings.&lt;/strong&gt; To ease discomfort, treat sores and blisters with soothing or drying lotions or wet dressings. But, check with your doctor before using lotions or wet dressings for the first time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid spicy or acidic foods, as well as those containing garlic, onions or leeks.&lt;/strong&gt; These foods can irritate or even trigger blisters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minimize sun exposure.&lt;/strong&gt; Ultraviolet light may trigger new blisters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with your dentist about maintaining good oral health.&lt;/strong&gt; If you have blisters in your mouth, it may be difficult to brush your teeth properly. Ask your dentist what you can do to protect your oral health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor if you need calcium and vitamin D supplements.&lt;/strong&gt; Corticosteroids can affect your calcium and vitamin D needs, so ask your doctor if you need a calcium supplement or any other additional nutrients.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help you cope with this debilitating and potentially embarrassing disease, as well as the effects of the drugs used for treatment, you may find it helpful to talk to others with the condition. You can find in-person or virtual support groups. Ask your dermatologist if there are any groups in your area or contact the International Pemphigus &amp; Pemphigoid Foundation (IPPF).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pemphigus
+	</Title>
+	<Abstract>
+		Pemphigus &amp;mdash; Comprehensive overview covers symptoms, treatment of this serious skin or mucous membrane disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

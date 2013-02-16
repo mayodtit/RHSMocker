@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01378
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gastric-bypass-surgery/AN01378
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4129" Title="Lifestyle">
+						<Keyword MCVID="4130" Title="Surgery">
+							<Keyword MCVID="4131" Title="Gastric bypass surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1C24032F-E7FF-0DBD-13439B7B6010D45C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				weight-loss surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric bypass surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				revision obesity surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				bariatric surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+If you begin to regain weight after gastric bypass surgery, talk to your doctor. You may need a thorough evaluation to determine what factors &amp;mdash; medical, psychological, lifestyle &amp;mdash; could be involved in the weight gain.
+&lt;/p&gt;
+&lt;p&gt;
+You may have gained weight after gastric bypass surgery because of unexpected but natural changes in your stomach and intestine that allow you to eat more and absorb more calories. But it&apos;s also possible that your diet and exercise habits have slipped, in which case you must typically lose the regained weight the old-fashioned way &amp;mdash; both by reducing your calorie intake and increasing your physical activity.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, a second surgery to repair &amp;mdash; or redo &amp;mdash; a gastric bypass may be appropriate. However, a second surgery has an increased risk of complications, including infection, bleeding and leaks in the gastrointestinal tract. Because of these risks, gastric bypass surgery usually isn&apos;t redone if you regain weight because of poor diet or exercise habits. 
+&lt;/p&gt;
+&lt;p&gt;
+Gastric bypass surgery can be an effective treatment for obesity, and most people do lose weight after the procedure. But you&apos;ll always be at risk of regaining weight, even years later. To help reach your weight-loss goal and prevent weight regain, it&apos;s crucial to make lifestyle changes along with having gastric bypass surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gastric bypass surgery: What happens if I regain the weight?
+	</Title>
+	<Abstract>
+		After gastric bypass surgery, diet and exercise are crucial for maintaining your weight loss.
+	</Abstract>
+	<Question>
+		What happens if you gain back weight after gastric bypass surgery?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Calculator" DocID="NU00597" LinkType="Internal" ObjectID="D961CE75-9A59-42F0-B248EFA4B67765DB" Title="BMI calculator" Url="http://www.mayoclinic.com/health/bmi-calculator/NU00597" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02108" LinkType="Internal" ObjectID="4D67112B-FC2C-DD46-CD4C15D12597A486" Title="Arm lift" Url="http://www.mayoclinic.com/health/arm-lift/MY02108" />
+		<LinkItem ContentType="Article" DocID="MY02089" LinkType="Internal" ObjectID="CC778A22-B2D6-6E96-E37A7C52DBF5B7AD" Title="Healthy chicken recipes" Url="http://www.mayoclinic.com/health/healthy-chicken-recipes/MY02089" />
+		<LinkItem ContentType="Article" DocID="WT00031" LinkType="Internal" ObjectID="84A6FD3C-E7FF-0DBD-13771DE6F11A352E" Title="Gastric bypass surgery: Who is it for?" Url="http://www.mayoclinic.com/health/gastric-bypass-surgery/WT00031" />
+		<LinkItem ContentType="Article" DocID="MY01399" LinkType="Internal" ObjectID="3D87B0CA-A921-9012-710286C6AC6C6B3C" Title="Bone health: Tips to keep your bones healthy" Url="http://www.mayoclinic.com/health/bone-health/MY01399" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00825" LinkType="Internal" ObjectID="063B6ABC-F842-575D-3C0FD980BF2360EA" Title="Gastric bypass surgery" Url="http://www.mayoclinic.com/health/gastric-bypass/MY00825" />
+		<LinkItem ContentType="Disease" DocID="DS01005" LinkType="Internal" ObjectID="F7CDC42F-E7FF-0DBD-1377DA69658CAFBB" Title="Deep vein thrombosis (DVT)" Url="http://www.mayoclinic.com/health/deep-vein-thrombosis/DS01005" />
+		<LinkItem ContentType="Disease" DocID="DS00165" LinkType="Internal" ObjectID="7E7F8A87-F164-441E-BB6E7731D06D9B47" Title="Gallstones" Url="http://www.mayoclinic.com/health/gallstones/DS00165" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00198" LinkType="Internal" ObjectID="69EA49D2-EA38-4A8A-95DB164A2555B514" Title="Hypoglycemia" Url="http://www.mayoclinic.com/health/hypoglycemia/DS00198" />
+		<LinkItem ContentType="Disease" DocID="DS00715" LinkType="Internal" ObjectID="606E816B-2A5D-9994-EFB0A3B7E59F69E8" Title="Dumping syndrome" Url="http://www.mayoclinic.com/health/dumping-syndrome/DS00715" />
+		<LinkItem ContentType="Disease" DocID="DS00561" LinkType="Internal" ObjectID="5C302784-080C-4278-B4953F801900B4F2" Title="Dehydration" Url="http://www.mayoclinic.com/health/dehydration/DS00561" />
+		<LinkItem ContentType="Disease" DocID="DS00429" LinkType="Internal" ObjectID="17FC3D0E-D6C6-4993-8B2E4BAC64DEF78A" Title="Pulmonary embolism" Url="http://www.mayoclinic.com/health/pulmonary-embolism/DS00429" />
+		<LinkItem ContentType="Disease" DocID="DS00282" LinkType="Internal" ObjectID="0959D967-FE3F-4C28-86A3C27E79B17903" Title="Kidney stones" Url="http://www.mayoclinic.com/health/kidney-stones/DS00282" />
+	</RelatedLinksBox>
+</Answer>

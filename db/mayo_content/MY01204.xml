@@ -1,0 +1,232 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01204
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/intravenous-pyelogram/MY01204
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-25
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3853" Title="Kidneys and urinary system">
+						<Keyword MCVID="4094" Title="Intravenous pyelogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D8F4FDF3-CBB9-4DD5-5B7930AE202EFF56
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				intravenous pyelogram
+			</MetaKeyword>
+			<MetaKeyword>
+				IVP
+			</MetaKeyword>
+			<MetaKeyword>
+				excretory urogram
+			</MetaKeyword>
+			<MetaKeyword>
+				urogram
+			</MetaKeyword>
+			<MetaKeyword>
+				intravenous urography
+			</MetaKeyword>
+			<MetaKeyword>
+				IVU
+			</MetaKeyword>
+			<MetaKeyword>
+				intravenous pyelography
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An intravenous pyelogram (PIE-uh-loh-gram), also called an excretory urogram, is an X-ray exam of your urinary tract. An intravenous pyelogram lets your doctor view your kidneys, your bladder and the tubes that carry urine from your kidneys to your bladder (ureters). An intravenous pyelogram may be used to diagnose disorders that affect the urinary tract, such as kidney stones, bladder stones, enlarged prostate, kidney cysts or urinary tract tumors.
+&lt;/p&gt;
+&lt;p&gt;
+During an intravenous pyelogram, you&apos;ll have an X-ray dye (iodine contrast solution) injected into a vein in your arm. The dye flows into your kidneys, ureters and bladder, outlining each of these structures. X-ray pictures are taken at specific times during the exam, so your doctor can clearly see your urinary tract and assess how well it&apos;s working.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An intravenous pyelogram is used to examine your kidneys, ureters and bladder. It lets your doctor see the size and shape of these structures and determine if they&apos;re working properly. Your doctor may recommend an intravenous pyelogram if you&apos;re experiencing signs and symptoms &amp;mdash; such as pain in your side or back, or blood in your urine &amp;mdash; that may be related to a urinary tract disorder.
+&lt;/p&gt;
+&lt;p&gt;
+An intravenous pyelogram may be used to help diagnose conditions that affect the urinary tract, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Kidney stones&lt;/li&gt;
+	&lt;li&gt;Bladder stones&lt;/li&gt;
+	&lt;li&gt;Enlarged prostate&lt;/li&gt;
+	&lt;li&gt;Kidney cysts&lt;/li&gt;
+	&lt;li&gt;Urinary tract tumors&lt;/li&gt;
+	&lt;li&gt;Structural kidney disorders, such as medullary sponge kidney &amp;mdash; a birth defect of the tiny tubes inside the kidneys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In the past, intravenous pyelogram was the most frequently used imaging test for evaluating possible urinary tract disorders. Since the development of kidney (renal) ultrasound and CT scans &amp;mdash; which take less time and don&apos;t require X-ray dye &amp;mdash; use of intravenous pyelograms has become less common. However, an intravenous pyelogram still can be a helpful diagnostic tool, particularly for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Identifying certain structural urinary tract disorders&lt;/li&gt;
+	&lt;li&gt;Detecting kidney stones&lt;/li&gt;
+	&lt;li&gt;Providing information about urinary tract obstruction&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An intravenous pyelogram is generally safe, and complications are rare. As with any medical procedure, intravenous pyelogram does carry a risk of complications, including allergic reactions.
+&lt;/p&gt;
+&lt;p&gt;
+In some people, the injection of X-ray dye can cause side effects such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling of warmth or flushing&lt;/li&gt;
+	&lt;li&gt;A metallic taste in the mouth&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, severe reactions to the dye occur, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extremely low blood pressure&lt;/li&gt;
+	&lt;li&gt;A sudden, full-body allergic reaction that can cause breathing difficulties and other life-threatening symptoms (anaphylactic shock)&lt;/li&gt;
+	&lt;li&gt;Cardiac arrest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During the X-rays, you&apos;ll be exposed to low levels of radiation. The amount of radiation you&apos;re exposed to during an intravenous pyelogram is small, so the risk of any damage to cells in your body is extremely low.
+&lt;/p&gt;
+&lt;p&gt;
+However, if you&apos;re pregnant or think that you may be pregnant, tell your doctor before having an intravenous pyelogram. Though the risk to an unborn baby associated with radiation is small, your doctor may consider whether it&apos;s better to wait or to use another imaging test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before an intravenous pyelogram, tell your doctor if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have any allergies, particularly to iodine or seafood&lt;/li&gt;
+	&lt;li&gt;Have recently had an exam that included barium or X-ray dye&lt;/li&gt;
+	&lt;li&gt;Are pregnant or think you might be pregnant&lt;/li&gt;
+	&lt;li&gt;Have had a previous severe reaction to X-ray dyes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may need to avoid eating and drinking for a certain amount of time before an intravenous pyelogram. Your doctor may also recommend that you take a laxative the evening before the exam.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before your intravenous pyelogram, a member of your health care team will:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask you questions about your medical history&lt;/li&gt;
+	&lt;li&gt;Check your blood pressure, pulse and body temperature&lt;/li&gt;
+	&lt;li&gt;Ask you to change into a hospital gown and remove jewelry, eyeglasses and any metal objects that may obscure the X-ray images&lt;/li&gt;
+	&lt;li&gt;Place an intravenous (IV) line into a vein in your arm through which the X-ray dye will be injected&lt;/li&gt;
+	&lt;li&gt;Ask you to urinate to ensure your bladder is empty for the exam&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;During intravenous pyelogram&lt;/strong&gt;&lt;br /&gt;
+For an intravenous pyelogram, you lie on your back on an exam table. The X-ray machine usually is either attached to or part of the table. An X-ray image intensifier &amp;mdash; the part of the machine that obtains the images &amp;mdash; is positioned over your abdomen. After you&apos;re positioned comfortably on the table, the exam progresses this way:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;X-rays are taken of your urinary tract before any dye is injected.&lt;/li&gt;
+	&lt;li&gt;X-ray dye is injected through your IV line.&lt;/li&gt;
+	&lt;li&gt;X-ray images are taken at timed intervals as the dye flows through your kidneys to the ureters and into your bladder.&lt;/li&gt;
+	&lt;li&gt;Toward the end of the exam, you may be asked to urinate again.&lt;/li&gt;
+	&lt;li&gt;You then return to the exam table so the health care team can get X-ray images of your empty bladder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After intravenous pyelogram&lt;/strong&gt;&lt;br /&gt;
+When your intravenous pyelogram is complete, the IV line is removed from your arm and you may return to your normal activities.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor who specializes in reading X-rays (radiologist) will review and interpret the X-ray images from your intravenous pyelogram and send a report to your doctor. Plan to discuss the results with your doctor at a follow-up appointment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Intravenous pyelogram
+	</Title>
+	<Abstract>
+		Intravenous pyelogram &amp;mdash; Overview covers definition, what to expect and results of this imaging test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00027" LinkType="Internal" ObjectID="E569D2C1-B4F8-4E5E-B7D8534A26D35B37" Title="Prostate gland enlargement" Url="http://www.mayoclinic.com/health/prostate-gland-enlargement/DS00027" />
+		<LinkItem ContentType="Disease" DocID="DS00245" LinkType="Internal" ObjectID="821423B5-5A42-4E3D-B75593AEA91D1DD2" Title="Polycystic kidney disease" Url="http://www.mayoclinic.com/health/polycystic-kidney-disease/DS00245" />
+		<LinkItem ContentType="Disease" DocID="DS00904" LinkType="Internal" ObjectID="396B8CFF-E7FF-0DBD-1DB2ACC79301EED1" Title="Bladder stones" Url="http://www.mayoclinic.com/health/bladder-stones/DS00904" />
+		<LinkItem ContentType="Disease" DocID="DS01186" LinkType="Internal" ObjectID="174FBA5D-F47B-4779-54DA131FA6706B45" Title="Kidney cysts" Url="http://www.mayoclinic.com/health/kidney-cysts/DS01186" />
+		<LinkItem ContentType="Disease" DocID="DS00282" LinkType="Internal" ObjectID="0959D967-FE3F-4C28-86A3C27E79B17903" Title="Kidney stones" Url="http://www.mayoclinic.com/health/kidney-stones/DS00282" />
+	</RelatedLinksBox>
+</TestProcedure>

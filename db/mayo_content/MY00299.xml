@@ -1,0 +1,243 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00299
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/radiation-therapy/MY00299
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3723" Title="Radiation therapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			960B90AD-E7FF-0DBD-126245CC89D3122A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				radiotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				X-ray therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation side effects
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Radiation therapy is a type of cancer treatment that uses beams of intense energy to kill cancer cells. Radiation therapy most often gets its power from X-rays, but the power can also come from protons or other types of energy. 
+&lt;/p&gt;
+&lt;p&gt;
+The term &quot;radiation therapy&quot; most often refers to external beam radiation therapy. During this type of radiation, the high-energy beams come from a machine outside of your body that aims the beams at a precise point on your body. During a different type of radiation treatment called brachytherapy (brak-e-THER-uh-pee), radiation is placed inside your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy damages cells by destroying the genetic material that controls how cells grow and divide. While both healthy and cancerous cells are damaged by radiation therapy, the goal of radiation therapy is to destroy as few normal, healthy cells as possible. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of radiation therapy for breast cancer 
+" Caption="External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+" Height="60" Title="Radiation therapy" URI="/images/image_popup/thumbs/mcdc7_breast_radiationthu.jpg" Width="60" />
+				<Image Alt="Illustration of radiation therapy for breast cancer 
+" Caption="External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+" Height="296" Title="Radiation therapy" URI="/images/image_popup/mcdc7_breast_radiation.jpg" Width="400" />
+				<HTML>
+					External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About half of all people with cancer receive radiation therapy as part of their cancer treatment. Doctors use radiation therapy to treat just about every type of cancer. Radiation therapy is also useful in treating some noncancerous (benign) tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How radiation therapy is used in people with cancer&lt;/strong&gt; &lt;br /&gt;
+Your doctor may suggest radiation therapy as an option at different times during your cancer treatment and for different reasons, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;As the only (primary) treatment for cancer&lt;/li&gt;
+	&lt;li&gt;Before surgery, to shrink a cancerous tumor (neoadjuvant therapy)&lt;/li&gt;
+	&lt;li&gt;After surgery, to stop the growth of any remaining cancer cells (adjuvant therapy)&lt;/li&gt;
+	&lt;li&gt;In combination with other treatments, such as chemotherapy, to destroy cancer cells&lt;/li&gt;
+	&lt;li&gt;In advanced cancer to alleviate symptoms caused by the cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Side effects of radiation therapy greatly depend on which part of your body is being exposed to radiation and how much radiation is used. You may experience no side effects, or you may experience several. Most side effects are temporary, can be controlled and generally disappear over time once treatment has ended. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Part of body being treated &lt;/th&gt;&lt;th&gt;Common side effects &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Any part &lt;/td&gt;
+			&lt;td&gt;Hair loss at treatment site (sometimes permanent), skin irritation at treatment site, fatigue &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Head and neck &lt;/td&gt;
+			&lt;td&gt;Dry mouth, thickened saliva, difficulty swallowing, sore throat, changes in the way food tastes, earaches, sore jaw, nausea &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Chest &lt;/td&gt;
+			&lt;td&gt;Difficulty swallowing, cough, shortness of breath &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Abdomen &lt;/td&gt;
+			&lt;td&gt;Nausea, vomiting, diarrhea&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Pelvis &lt;/td&gt;
+			&lt;td&gt;Diarrhea, bladder irritation, frequent urination, sexual dysfunction &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Source: National Cancer Institute, 2007 
+&lt;/p&gt;
+&lt;p&gt;
+Some side effects may develop later. For example, in rare circumstances a new cancer (second primary cancer) that&apos;s different from the first one treated with radiation may develop years later. Ask your doctor about potential side effects, both short and long term, that may occur after your treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you undergo external beam radiation therapy, your health care team guides you through a planning process to ensure that radiation reaches the precise spot in your body where it&apos;s needed. Planning typically includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation simulation.&lt;/strong&gt; During simulation, your radiation therapy team works with you to find a comfortable position for you during treatment. It&apos;s imperative that you lie still during treatment, so finding a comfortable position is vital. To do this, you&apos;ll lie on the same type of table that&apos;s used during radiation therapy. Cushions and restraints are used to position you in the right way and to help you hold still. Your radiation therapy team will mark the area of your body that will receive the radiation. Depending on your situation, you may receive temporary marking with a marker or you may receive permanent tattoos.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Planning scans.&lt;/strong&gt; Your radiation therapy team may have you undergo X-rays or computerized tomography (CT) scans to determine the area of your body to be treated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After the planning process, your radiation therapy team decides what type of radiation and what dose you&apos;ll receive based on your type and stage of cancer, your general health, and the goals for your treatment. The precise dose and focus of radiation beams used in your treatment is carefully planned to maximize the radiation to your cancer cells and minimize the harm to surrounding healthy tissue. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+External beam radiation therapy is conducted using a linear accelerator &amp;mdash; a machine that directs high-energy beams of radiation into your body. As you lie on a table, the linear accelerator moves around you to deliver radiation from several angles. The linear accelerator can be adjusted for your particular situation so that it delivers the precise dose of radiation your doctor has ordered. 
+&lt;/p&gt;
+&lt;p&gt;
+You typically receive external beam radiation on an outpatient basis five days a week over a period of at least two to 10 weeks. Treatments are usually spread out over several weeks to allow your healthy cells to recover in between radiation therapy sessions. Expect each treatment session to last approximately 10 to 30 minutes. In some cases, a single treatment may be used to help relieve pain or other symptoms associated with more advanced cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+During a treatment session, you&apos;ll lie down in the position determined during your radiation simulation session. You might be positioned with molds to hold you in place, and shields may be placed to block radiation from reaching certain parts of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+The linear accelerator machine may rotate around your body to reach the target from different directions. The machine makes a buzzing sound. You&apos;ll lie still and breathe normally during the treatment, which takes only a few minutes. Your radiation therapy team stays nearby in a room with video and audio connections so that you can talk to each other. You should speak up if you feel uncomfortable, but you shouldn&apos;t feel any pain during your radiation therapy session. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a person receiving radiation therapy 
+" Caption="During external beam radiation therapy, you&apos;re positioned on a table and a large machine moves around you sending beams of radiation into precise points in your body. 
+" Height="60" Title="External beam radiation therapy" URI="/images/image_popup/thumbs/c7_radiationthu.jpg" Width="60" />
+				<Image Alt="Photo of a person receiving radiation therapy 
+" Caption="During external beam radiation therapy, you&apos;re positioned on a table and a large machine moves around you sending beams of radiation into precise points in your body. 
+" Height="270" Title="External beam radiation therapy" URI="/images/image_popup/c7_radiation.jpg" Width="400" />
+				<HTML>
+					During external beam radiation therapy, you&apos;re positioned on a table and a large machine moves around you sending beams of radiation into precise points in your body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re receiving radiation to a tumor, your doctor may have you undergo periodic scans after your treatment to see how your cancer has responded to radiation therapy. In some cases, your cancer may respond to treatment right away. In other cases, it may take weeks or months for your cancer to respond. Some people aren&apos;t helped by radiation therapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Radiation therapy
+	</Title>
+	<Abstract>
+		Radiation therapy &amp;mdash; Overview covers definition, risks, results of this cancer treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01632" LinkType="Internal" ObjectID="F01483D3-B1A3-9AE1-0509FB09FF62A5B7" Title="External beam radiation for prostate cancer" Url="http://www.mayoclinic.com/health/external-beam-radiation-for-prostate-cancer/MY01632" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="SA00070" LinkType="Internal" ObjectID="50A88AAB-332D-4808-88247DA44ACE9849" Title="Cancer treatment for men: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00070" />
+		<LinkItem ContentType="Disease" DocID="DS01078" LinkType="Internal" ObjectID="7C12DB3F-E7FF-0DBD-1CCC1AAA05FF4A5D" Title="Recurrent breast cancer" Url="http://www.mayoclinic.com/health/recurrent-breast-cancer/DS01078" />
+	</RelatedLinksBox>
+</TestProcedure>

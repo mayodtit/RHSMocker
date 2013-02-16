@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01127
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/syringomyelia/DS01127
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-19
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1434" Title="Spinal cord">
+						<Keyword MCVID="2304" Title="Syringomyelia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D48D7991-E7FF-0DBD-1E69E380D7ABA784
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				syringomyelia
+			</MetaKeyword>
+			<MetaKeyword>
+				syrinx
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				Chiari malformation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Syringomyelia (sih-ring-go-my-E-lee-uh) is the development of a fluid-filled cyst (syrinx) within your spinal cord. Over time, the cyst may enlarge, damaging your spinal cord and causing pain, weakness and stiffness, among other symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Syringomyelia has several possible causes, though the majority of syringomyelia cases are associated with Chiari malformation, a condition in which brain tissue protrudes into your spinal canal. Other causes of syringomyelia include spinal cord tumors, spinal cord injuries and damage caused by inflammation around your spinal cord. 
+&lt;/p&gt;
+&lt;p&gt;
+If syringomyelia isn&apos;t causing any problems, monitoring the condition may be all that&apos;s necessary. But if you&apos;re bothered by symptoms, you may need surgery.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing a syringomyelia cyst (syrinx) in the spinal cord 
+" Caption="Syringomyelia develops when cerebrospinal fluid, which usually flows around the outside of your brain and spinal cord, collects inside your spinal cord and forms a fluid-filled cyst (syrinx). The arrows in this MRI image point to a syrinx within the spinal cord. 
+" Height="60" Title="Syringomyelia cyst (syrinx) in the spinal cord" URI="/images/image_popup/thumbs/r7_syringomyeliathu.jpg" Width="60" />
+				<Image Alt="Image showing a syringomyelia cyst (syrinx) in the spinal cord 
+" Caption="Syringomyelia develops when cerebrospinal fluid, which usually flows around the outside of your brain and spinal cord, collects inside your spinal cord and forms a fluid-filled cyst (syrinx). The arrows in this MRI image point to a syrinx within the spinal cord. 
+" Height="400" Title="Syringomyelia cyst (syrinx) in the spinal cord" URI="/images/image_popup/r7_syringomyelia.jpg" Width="400" />
+				<HTML>
+					Syringomyelia develops when cerebrospinal fluid, which usually flows around the outside of your brain and spinal cord, collects inside your spinal cord and forms a fluid-filled cyst (syrinx). The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of syringomyelia usually develop slowly over time. If your syringomyelia is caused by Chiari malformation &amp;mdash; a condition in which brain tissue protrudes into your spinal canal &amp;mdash; symptoms may begin during your teenage years or early adulthood. In some cases, a fall, minor trauma, coughing or straining may trigger symptoms of syringomyelia, although none of these causes syringomyelia. 
+&lt;/p&gt;
+&lt;p&gt;
+The following early signs and symptoms of syringomyelia may affect the back of your neck, shoulders, arms and hands first: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle weakness and wasting (atrophy)&lt;/li&gt;
+	&lt;li&gt;Loss of reflexes&lt;/li&gt;
+	&lt;li&gt;Loss of sensitivity to pain and temperature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms of syringomyelia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stiffness in your back, shoulders, arms and legs&lt;/li&gt;
+	&lt;li&gt;Pain in your neck, arms and back&lt;/li&gt;
+	&lt;li&gt;Bowel and bladder function problems&lt;/li&gt;
+	&lt;li&gt;Muscle weakness and spasms in your legs&lt;/li&gt;
+	&lt;li&gt;Facial pain or numbness&lt;/li&gt;
+	&lt;li&gt;Spinal curvature (scoliosis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have any of the signs or symptoms associated with syringomyelia, see your doctor. Because many signs and symptoms of syringomyelia can be associated with other disorders, a thorough medical evaluation is important for accurate diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve experienced a spinal injury, watch carefully for signs and symptoms of syringomyelia. Many months to several years may pass after an injury before syringomyelia develops. If you have syringomyelia symptoms, when you go for an evaluation make sure your doctor knows you had a spinal injury. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s unclear exactly how and why it happens, when syringomyelia develops, cerebrospinal fluid &amp;mdash; the fluid that surrounds, cushions and protects your brain and spinal cord &amp;mdash; collects within the spinal cord itself, forming a fluid-filled cyst (syrinx). 
+&lt;/p&gt;
+&lt;p&gt;
+The following conditions and diseases can lead to syringomyelia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chiari malformation &amp;mdash; a condition in which brain tissue protrudes into your spinal canal&lt;/li&gt;
+	&lt;li&gt;Meningitis &amp;mdash; an inflammation of the membranes surrounding your brain and spinal cord&lt;/li&gt;
+	&lt;li&gt;Spinal cord tumor &amp;mdash; which may interfere with the normal circulation of cerebrospinal fluid&lt;/li&gt;
+	&lt;li&gt;Tethered spinal cord syndrome &amp;mdash; a disorder caused when tissue attached to your spinal cord limits its movement&lt;/li&gt;
+	&lt;li&gt;Spinal injury &amp;mdash; which may cause symptoms months or even years after the initial injury&lt;/li&gt;
+	&lt;li&gt;Spinal scar tissue &amp;mdash; which can develop after surgery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing a syringomyelia cyst (syrinx) in the spinal cord 
+" Caption="Syringomyelia develops when cerebrospinal fluid, which usually flows around the outside of your brain and spinal cord, collects inside your spinal cord and forms a fluid-filled cyst (syrinx). The arrows in this MRI image point to a syrinx within the spinal cord. 
+" Height="60" Title="Syringomyelia cyst (syrinx) in the spinal cord" URI="/images/image_popup/thumbs/r7_syringomyeliathu.jpg" Width="60" />
+				<Image Alt="Image showing a syringomyelia cyst (syrinx) in the spinal cord 
+" Caption="Syringomyelia develops when cerebrospinal fluid, which usually flows around the outside of your brain and spinal cord, collects inside your spinal cord and forms a fluid-filled cyst (syrinx). The arrows in this MRI image point to a syrinx within the spinal cord. 
+" Height="400" Title="Syringomyelia cyst (syrinx) in the spinal cord" URI="/images/image_popup/r7_syringomyelia.jpg" Width="400" />
+				<HTML>
+					Syringomyelia develops when cerebrospinal fluid, which usually flows around the outside of your brain and spinal cord, collects inside your spinal cord and forms a fluid-filled cyst (syrinx). The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some people, syringomyelia can become a progressive disorder and lead to serious complications. In others, there may be no associated symptoms and no intervention is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications that may occur as a syrinx enlarges or if it damages nerves within your spinal cord, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scoliosis &amp;mdash; an abnormal curve of your spine&lt;/li&gt;
+	&lt;li&gt;Horner syndrome &amp;mdash; a disorder that can occur when the nerves that run from your brain to your eye and face (sympathetic nerve fibers) are damaged, leading to decreased sweating on the side of your face that&apos;s affected, a drooping eyelid and a small (constricted) pupil&lt;/li&gt;
+	&lt;li&gt;Chronic pain &amp;mdash; damage to the spinal cord can cause severe, chronic pain&lt;/li&gt;
+	&lt;li&gt;Motor difficulties &amp;mdash; weakness and stiffness in your leg muscles can eventually affect your gait&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor. However, in some cases when you call to set up an appointment, you may be referred immediately to a neurologist &amp;mdash; a doctor who specializes in nervous system disorders, including diseases of the brain, spinal cord, nerves and muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes, family history of syringomyelia and any past spinal or back surgeries or injuries you&apos;ve had.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications &lt;/strong&gt;that you&apos;re taking, as well as any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along any related medical information.&lt;/strong&gt; If you have past medical reports, MRI scans or CT scans that might relate to your current problem, bring them to your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For syringomyelia some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Is there a possibility my symptoms will get better on their own?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Is my condition related to my diet or environment?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Can exercise help?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that arise during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Be as specific as you can when answering. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Avoid doing anything that seems to worsen your symptoms. For many people with syringomyelia, straining can trigger symptoms, so try to avoid activities that involve heavy lifting or straining. Also, avoid sharply flexing your neck.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose syringomyelia, your doctor will begin by asking about your medical history and doing a complete physical examination. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects syringomyelia, you&apos;ll likely undergo a magnetic resonance imaging (MRI) scan of your spine and spinal cord. An MRI is the most reliable tool for diagnosing syringomyelia. 
+&lt;/p&gt;
+&lt;p&gt;
+Using magnetic fields and radio waves, an MRI produces 3-D, high-resolution images of your spine and spinal cord. If a syrinx has developed within your spinal cord, your doctor will be able to see it on an MRI. A dye or contrast medium can be injected for the test, and once it travels to your spine, it can enhance the MRI images. Over time, repeat MRIs can be used to monitor the progression of syringomyelia. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, syringomyelia may be discovered incidentally when a spine MRI or computerized tomography (CT) scan is done for other reasons.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for syringomyelia depends on the severity and progression of your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring&lt;br /&gt;
+&lt;/strong&gt;If syringomyelia is discovered on an MRI scan that&apos;s done for an unrelated reason, and it&apos;s not causing signs or symptoms, monitoring with periodic MRI and neurological exams may be all that&apos;s necessary. In rare cases, a syrinx may resolve on its own without treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;em&gt;&lt;br /&gt;
+&lt;/em&gt;If syringomyelia is causing signs and symptoms that interfere with your daily life, or if signs and symptoms rapidly worsen, surgery is usually recommended. The goal of surgery is to remove the pressure the syrinx places on your spinal cord and to restore the normal flow of cerebrospinal fluid. The type of surgery you&apos;ll need depends on the underlying cause of syringomyelia. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, surgery for syringomyelia includes one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treating Chiari malformation.&lt;/strong&gt; If syringomyelia is caused by Chiari malformation, your doctor may recommend surgery that involves enlarging the opening at the base of your skull (suboccipital craniectomy) and expanding the covering of your brain (dura mater). This surgery can reduce pressure on your brain and spinal cord, restore the normal flow of cerebrospinal fluid and, in most cases, resolve syringomyelia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Draining the syrinx.&lt;/strong&gt; To drain the syrinx, your doctor may surgically insert a drainage system, called a shunt. It consists of a flexible tube with a valve that keeps fluid from the syrinx flowing in the desired direction. One end of the tubing is placed in the syrinx, and the other is placed just outside your spinal cord. The shunt remains inside your spine after surgery. In some cases, your doctor may be able to drain the syrinx during surgery with a small tube (catheter), and a shunt is not required.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the obstruction.&lt;/strong&gt; If something within your spinal cord is hindering the normal flow of cerebrospinal fluid, such as a tumor or a bony growth, surgically removing the obstruction may restore the normal flow and allow fluid to drain from the syrinx.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Correcting the abnormality.&lt;/strong&gt; If a spinal abnormality is hindering the normal flow of cerebrospinal fluid, surgery to correct it &amp;mdash; such as releasing a tethered spinal cord &amp;mdash; may restore normal fluid flow and allow the syrinx to drain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery doesn&apos;t always effectively restore the flow of cerebrospinal fluid, and the syrinx may remain, despite efforts to drain the fluid from it.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up care&lt;br /&gt;
+&lt;/strong&gt;Follow-up care after surgery is critical because syringomyelia may recur. You&apos;ll need regular examinations with your doctor, including periodic MRI tests, to assess the outcome of surgery. Other syrinxes may form, requiring additional surgery. Even after treatment, some signs and symptoms of syringomyelia may remain, as a syrinx can cause permanent spinal cord and nerve damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Taking the following steps may help reduce the effects of syringomyelia on your daily living. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoid activities that may make symptoms worse&lt;br /&gt;
+&lt;/strong&gt;If you&apos;ve been diagnosed with syringomyelia, avoid any activity that involves heavy lifting, straining or putting excessive force on your spine. Examples of activities to avoid include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Playing high-impact sports, such as football and Rugby&lt;/li&gt;
+	&lt;li&gt;Riding roller coasters&lt;/li&gt;
+	&lt;li&gt;Sky diving&lt;/li&gt;
+	&lt;li&gt;Straining during a bowel movement&lt;/li&gt;
+	&lt;li&gt;Excessive coughing (talk to your doctor about treatment if coughing persists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Consider physical therapy&lt;br /&gt;
+&lt;/strong&gt;If syringomyelia causes ongoing neurological problems that decrease your mobility and activity &amp;mdash; such as muscle weakness, pain, fatigue or stiffness &amp;mdash; a physical therapist may be able to create an exercise program for you that can help reduce these symptoms. Talk to your doctor about physical therapists in your area who have expertise in neurological conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Manage chronic pain&lt;br /&gt;
+&lt;/strong&gt;Chronic pain can be a problem with syringomyelia. If you&apos;re experiencing chronic pain, talk to your doctor about treatment options. Many medical centers have doctors who specialize in pain management. Often, the best approach for treatment of chronic pain due to syringomyelia is to have a health care team that includes your neurosurgeon, neurologist, a rehabilitation specialist and a pain management physician who can work together to create a plan that will best fit your situation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with syringomyelia and its complications can be extremely difficult. You may feel as if syringomyelia affects every aspect of your life and would love to not think about it for a day, especially if you have constant reminders, such as chronic pain or nerve issues. This may leave you feeling anxious or depressed and may ultimately affect your relationships with friends and family, your work performance and the overall quality of your life. Having someone to talk with or lean on can be invaluable. Whether it&apos;s a trusted friend, counselor or therapist, you may find encouragement and comfort in a good listener. 
+&lt;/p&gt;
+&lt;p&gt;
+Another source of support and information may be a syringomyelia support group. Your doctor may be able to recommend a local group, or you can find groups online. Support groups provide a forum for sharing experiences and can be good sources of information, offering useful or helpful tips for people with syringomyelia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Syringomyelia
+	</Title>
+	<Abstract>
+		Syringomyelia &amp;mdash; Comprehensive overview covers symptoms, causes, complications and treatments.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

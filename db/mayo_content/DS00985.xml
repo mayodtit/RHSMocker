@@ -1,0 +1,491 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00985
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/contact-dermatitis/DS00985
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2815" Title="Dermatitis/eczema">
+							<Keyword MCVID="2822" Title="Contact dermatitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			062BE2D7-E7FF-0DBD-158724048E8ABF04
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				dermitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitus
+			</MetaKeyword>
+			<MetaKeyword>
+				rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				red rash
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				face rash
+			</MetaKeyword>
+			<MetaKeyword>
+				facial rash
+			</MetaKeyword>
+			<MetaKeyword>
+				body rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rash on face
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problem
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+			<MetaKeyword>
+				red skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin irritation
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itching
+			</MetaKeyword>
+			<MetaKeyword>
+				skin eruptions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin sores
+			</MetaKeyword>
+			<MetaKeyword>
+				severe itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itchiness
+			</MetaKeyword>
+			<MetaKeyword>
+				contact dermatitis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				cause of contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				contact dermatitis picture
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itch
+			</MetaKeyword>
+			<MetaKeyword>
+				diagnosis contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				prevent contact dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				contact dermatitis prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Contact dermatitis is a kind of skin inflammation that occurs when substances touching your skin cause irritation or an allergic reaction. The resulting red, itchy rash isn&apos;t contagious or life-threatening, but it can be very uncomfortable.
+&lt;/p&gt;
+&lt;p&gt;
+Culprits in everyday life include soaps, cosmetics, fragrances, jewelry, or plants such as poison ivy or poison oak. Some occupations involve exposure to substances that may cause contact dermatitis.
+&lt;/p&gt;
+&lt;p&gt;
+Successful contact dermatitis treatment consists primarily of identifying what&apos;s causing your reaction. If you can avoid that offending agent, the rash usually resolves in two to four weeks. Self-care measures, such as wet compresses and anti-itch creams, can help soothe your skin and reduce inflammation.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing contact dermatitis on the wrist 
+" Caption="Contact dermatitis can appear as a dry, itchy red rash. Here, the irritation is likely due to a watchband or to soap residue trapped beneath the band. 
+" Height="60" Title="Contact dermatitis on the wrist" URI="/images/image_popup/thumbs/sn7_cdermatitis1thu.jpg" Width="60" />
+				<Image Alt="Image showing contact dermatitis on the wrist 
+" Caption="Contact dermatitis can appear as a dry, itchy red rash. Here, the irritation is likely due to a watchband or to soap residue trapped beneath the band. 
+" Height="347" Title="Contact dermatitis on the wrist" URI="/images/image_popup/sn7_cdermatitis1.jpg" Width="400" />
+				<HTML>
+					Contact dermatitis can appear as a dry, itchy red rash. Here, the irritation is likely due to a watchband or to soap residue trapped beneath the band. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of contact dermatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red rash or bumps&lt;/li&gt;
+	&lt;li&gt;Itching, which may be severe&lt;/li&gt;
+	&lt;li&gt;Dry, cracked, red patches, which may resemble a burn&lt;/li&gt;
+	&lt;li&gt;Blisters, draining fluid and crusting in severe reactions&lt;/li&gt;
+	&lt;li&gt;Skin rash limited to an exposed area &amp;mdash; for example, directly under a watchband&lt;/li&gt;
+	&lt;li&gt;Pain or tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Contact dermatitis usually occurs in areas of your body that have been directly exposed to an offending substance &amp;mdash; for example, under a watchband that triggers an allergy. But some reactions don&apos;t correlate exactly with areas of direct contact. For example, you may apply a lotion over your whole face, but only some areas may react. And if you&apos;ve developed a skin sensitivity to something that later enters your whole body through medicine, foods and flavorings, or medical or dental procedures, you may have another reaction that occurs in the same areas as your original exposure or affects larger areas of your body.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re so uncomfortable that you&apos;re losing sleep or are distracted from your daily routines&lt;/li&gt;
+	&lt;li&gt;Your skin is painful&lt;/li&gt;
+	&lt;li&gt;You&apos;re embarrassed by the way your skin looks&lt;/li&gt;
+	&lt;li&gt;You suspect your skin is infected&lt;/li&gt;
+	&lt;li&gt;You&apos;ve tried self-care steps without success&lt;/li&gt;
+	&lt;li&gt;You suspect that your dermatitis is job-related&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing contact dermatitis on the wrist 
+" Caption="Contact dermatitis can appear as a dry, itchy red rash. Here, the irritation is likely due to a watchband or to soap residue trapped beneath the band. 
+" Height="60" Title="Contact dermatitis on the wrist" URI="/images/image_popup/thumbs/sn7_cdermatitis1thu.jpg" Width="60" />
+				<Image Alt="Image showing contact dermatitis on the wrist 
+" Caption="Contact dermatitis can appear as a dry, itchy red rash. Here, the irritation is likely due to a watchband or to soap residue trapped beneath the band. 
+" Height="347" Title="Contact dermatitis on the wrist" URI="/images/image_popup/sn7_cdermatitis1.jpg" Width="400" />
+				<HTML>
+					Contact dermatitis can appear as a dry, itchy red rash. Here, the irritation is likely due to a watchband or to soap residue trapped beneath the band. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing contact dermatitis on the face 
+" Caption="Contact dermatitis usually affects areas of skin directly exposed to an offending substance. Here, the dry, red rash is likely caused by cosmetics or soap.
+" Height="60" Title="Contact dermatitis on the face" URI="/images/image_popup/thumbs/sn7_cdermatitis2thu.jpg" Width="60" />
+				<Image Alt="Image showing contact dermatitis on the face 
+" Caption="Contact dermatitis usually affects areas of skin directly exposed to an offending substance. Here, the dry, red rash is likely caused by cosmetics or soap.
+" Height="162" Title="Contact dermatitis on the face" URI="/images/image_popup/sn7_cdermatitis2.jpg" Width="400" />
+				<HTML>
+					Contact dermatitis usually affects areas of skin directly exposed to an offending substance. Here, the dry, red rash is likely caused by cosmetics or soap.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing poison ivy blisters 
+" Caption="Blisters such as these are common in a skin reaction to urushiol, the highly allergenic oily substance in poison ivy. 
+" Height="60" Title="Poison ivy blisters" URI="/images/image_popup/thumbs/r7_poisonivythu.jpg" Width="60" />
+				<Image Alt="Photograph showing poison ivy blisters 
+" Caption="Blisters such as these are common in a skin reaction to urushiol, the highly allergenic oily substance in poison ivy. 
+" Height="470" Title="Poison ivy blisters" URI="/images/image_popup/r7_poisonivy.jpg" Width="400" />
+				<HTML>
+					Blisters such as these are common in a skin reaction to urushiol, the highly allergenic oily substance in poison ivy. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Based on the cause, doctors divide contact dermatitis into two overall categories: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Irritant contact dermatitis&lt;/strong&gt; is the most common type. This reaction occurs when a substance damages your skin&apos;s outer protective layer. Common offenders include harsh soaps, chemical solvents, and cosmetics or skin products, including deodorant. Exposure produces red, dry, itchy patches, often on your hands, fingers or face.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The severity of irritant contact dermatitis usually depends on how long you&apos;re exposed and the strength of the irritating substance. Some strong irritants, such as bleach or certain acids, can cause a reaction after a single exposure. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Allergic contact dermatitis&lt;/strong&gt; occurs when a substance to which you&apos;re sensitive (allergen) triggers an immune reaction in your skin. Allergic contact dermatitis produces a red rash, bumps and sometimes blisters when severe. Common allergens include natural rubber, metals such as nickel, costume jewelry, perfume, cosmetics, hair dyes and plants, including poison ivy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	You may become sensitized to a strong allergen like poison ivy after a single exposure. Weaker allergens may require multiple exposures over several years to trigger an allergy. Once you develop an allergy to a specific substance, however, you&apos;ll be allergic for life. Exposure to even a small amount of the allergen will cause a reaction. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some substances cause allergic contact dermatitis only after you&apos;ve applied them and sunlight then strikes your skin (photoallergic contact dermatitis). Common offenders include certain ingredients in sunscreens and some ointments containing nonsteroidal anti-inflammatory drugs (NSAIDs). Some oral drugs &amp;mdash; for example, hydrochlorothiazide, which is prescribed as a water pill (diuretic) or as a blood pressure medication &amp;mdash; may also cause a skin reaction triggered by sunlight. This reaction may look similar to photoallergic contact dermatitis, but it&apos;s usually called &quot;photosensitivity.&quot; It&apos;s caused by a different mechanism than is contact dermatitis. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some airborne substances, such as ragweed and insecticide sprays, can also cause contact dermatitis. 
+&lt;/p&gt;
+&lt;p&gt;
+These overall irritant and allergic categories are not hard and fast. Some substances are both allergens and irritants. Common allergens and irritants implicated in contact dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nickel, a metal widely used in earrings and other costume jewelry, watchbands, zippers and clothing fasteners, hair curlers and eyelash curlers, and coins&lt;/li&gt;
+	&lt;li&gt;Poison ivy, oak or sumac, which contain a strongly allergenic oil (urushiol)&lt;/li&gt;
+	&lt;li&gt;Cashew nuts, which contain a substance chemically similar to the urushiol found in poison ivy&lt;/li&gt;
+	&lt;li&gt;Antibiotics, antihistamines or antiseptics you apply to your skin as lotions or creams (topical medicines)&lt;/li&gt;
+	&lt;li&gt;Fragrances or flavorings, including those that contain balsam of Peru, an oil from a Central and South American tree&lt;/li&gt;
+	&lt;li&gt;Strong detergents or soaps&lt;/li&gt;
+	&lt;li&gt;Skin cleansers&lt;/li&gt;
+	&lt;li&gt;Makeup and other cosmetics&lt;/li&gt;
+	&lt;li&gt;Deodorant&lt;/li&gt;
+	&lt;li&gt;Clothing or shoes&lt;/li&gt;
+	&lt;li&gt;Household cleaning products&lt;/li&gt;
+	&lt;li&gt;Formaldehyde and other chemicals&lt;/li&gt;
+	&lt;li&gt;Natural rubber (latex)&lt;/li&gt;
+	&lt;li&gt;Jewelry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Occupational contact dermatitis can occur when you&apos;re exposed to allergens or irritants on the job. Frequent exposure to water, friction, chemicals, oils, fuels, dyes, cleaning agents, wet cement, industrial solvents or dust (for example, cement dust, sawdust or paper dust) can lead to occupational contact dermatitis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Contact dermatitis can lead to the following complications, especially when itching and irritation are severe or become persistent:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurodermatitis (lichen simplex chronicus).&lt;/strong&gt; This skin condition is characterized by chronic itching and scaling. It starts with a patch of itchy skin similar to the patches that occur in contact dermatitis, but scratching makes the area even itchier, so you keep scratching. Eventually you may scratch simply out of habit. This cycle of chronic itching and scratching can cause the affected skin to become discolored, thick and leathery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial or fungal skin infection.&lt;/strong&gt; Severe itching and prolonged scratching may encourage moistness and oozing, creating a hospitable environment for bacteria or fungi.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a primary care doctor. However, in some cases when you call to set up an appointment, you may be referred directly to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment and understand what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your signs and symptoms,&lt;/strong&gt; including when they began and how long they&apos;ve lasted.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make notes about any new products you&apos;ve started using&lt;/strong&gt; and any substances you can think of that regularly come in contact with your affected skin areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; including vitamins, herbs and over-the-counter drugs you&apos;re taking. Don&apos;t forget any creams or lotions you&apos;re using. Even better, take along the original bottles and a written list of the dosages and directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Don&apos;t be afraid to ask questions or to speak up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important, in case your time with your doctor runs out. For contact dermatitis, some basic questions you might ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary treatment approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend to improve my symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you several questions. Being ready to answer them may reserve time to go over any points you want to discuss. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin noticing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you have symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you started using any new cosmetics or household products?&lt;/li&gt;
+	&lt;li&gt;Does your work involve using any products that often come in contact with your skin?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms ever get better over the weekend or during vacation?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The key to successful treatment of contact dermatitis is identifying what&apos;s causing your symptoms. Doctors rely on two chief strategies to determine the cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A thorough medical history and physical exam.&lt;/strong&gt; Your doctor may be able to diagnose contact dermatitis and identify its cause by talking to you about your signs and symptoms, questioning you to uncover clues about the culprit, and examining your skin to note the pattern and intensity of your reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A patch test (contact delayed hypersensitivity allergy test).&lt;/strong&gt; If the cause of your rash isn&apos;t apparent from your history and symptoms, or if your rash recurs often, your doctor may recommend patch testing. During a patch test, small quantities of potential allergens are applied to adhesive patches, which are then placed on your skin. The patches remain on your skin for two days before your doctor evaluates your response. If you&apos;re allergic to a particular substance, you develop a raised bump or a reaction limited to the skin just beneath the patch.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing patch testing on the back 
+" Caption="Patch testing can be helpful in determining if you&apos;re allergic to a specific substance. Small amounts of different substances are placed on your skin under an adhesive coating. Your doctor then checks for a skin reaction under the patches.
+" Height="60" Title="Patch testing" URI="/images/image_popup/thumbs/sn7_patchtestthu.jpg" Width="60" />
+				<Image Alt="Image showing patch testing on the back 
+" Caption="Patch testing can be helpful in determining if you&apos;re allergic to a specific substance. Small amounts of different substances are placed on your skin under an adhesive coating. Your doctor then checks for a skin reaction under the patches.
+" Height="355" Title="Patch testing" URI="/images/image_popup/sn7_patchtest.jpg" Width="400" />
+				<HTML>
+					Patch testing can be helpful in determining if you&apos;re allergic to a specific substance. Small amounts of different substances are placed on your skin under an adhesive coating. Your doctor then ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Key treatment strategies for contact dermatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoiding the irritant or allergen.&lt;/strong&gt; The key to avoidance involves identifying what&apos;s causing your symptoms and then eliminating your exposure to the culprit. It may take two to four weeks for your skin reaction to clear up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Applying anti-itch creams or wet compresses.&lt;/strong&gt; In mild to moderate cases, self-care measures, such as using over-the-counter creams containing hydrocortisone or applying wet dressings, can help relieve redness and itching. If over-the-counter steroid creams don&apos;t relieve your symptoms, your doctor may prescribe a higher-strength cream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using oral medications.&lt;/strong&gt; In severe cases, your doctor may prescribe oral corticosteroids to reduce inflammation, or recommend antihistamines to relieve intense itching. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help reduce itching and soothe inflamed skin, try these self-care strategies:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an anti-itch cream or calamine lotion to the affected area.&lt;/strong&gt; A nonprescription cream containing at least 1 percent hydrocortisone can temporarily relieve your itch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an over-the-counter antihistamine.&lt;/strong&gt; A nonprescription oral antihistamine, such as diphenhydramine (Benadryl, others), may be helpful if your itching is severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool, wet compresses.&lt;/strong&gt; Moisten soft white washcloths and hold them against affected areas to soothe your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid scratching whenever possible.&lt;/strong&gt; Trim your nails and wear white cotton gloves at night. If you can&apos;t keep from scratching an itchy area, cover it with a dressing and bandages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a comfortably cool bath.&lt;/strong&gt; Sprinkle your bath water with baking soda or colloidal oatmeal &amp;mdash; a finely ground oatmeal that&apos;s made for the bathtub (Aveeno, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear smooth-textured cotton clothing.&lt;/strong&gt; This will help you avoid irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose mild soaps without dyes or perfumes.&lt;/strong&gt; Be sure to rinse soap completely off your body. And after washing, apply a moisturizer to protect your skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preventing contact dermatitis means avoiding contact with substances that trigger a reaction. Because everyone is different, you may react to substances that don&apos;t affect others. General prevention strategies include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to identify and avoid substances that irritate your skin or cause an allergic reaction.&lt;/strong&gt; These can include nickel, jewelry, perfume, cleaning products and cosmetics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash and rinse your skin as soon as possible if you come in contact with an irritating substance.&lt;/strong&gt; Prompt washing can remove many irritants or allergens from your skin. Use a mild, fragrance-free soap and rinse it completely off your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective gloves during household tasks.&lt;/strong&gt; Gloves can help you avoid contact with cleaners and other household products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose mild, unscented detergents to wash clothing, towels and bedding.&lt;/strong&gt; Also try using the extra rinse cycle on your washing machine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective clothing or gloves on the job.&lt;/strong&gt; If your work exposes you to potentially irritating agents, it&apos;s important to shield your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a barrier cream or gel.&lt;/strong&gt; These products can provide a protective layer for your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use moisturizer.&lt;/strong&gt; This can help restore your skin&apos;s outermost layer and keep your skin supple.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an iron-on patch to cover metal fasteners next to your skin.&lt;/strong&gt; Covering clothing fasteners &amp;mdash; such as metal fasteners on jeans &amp;mdash; that come in contact with your skin can help you avoid allergies and irritation from metals.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Contact dermatitis
+	</Title>
+	<Abstract>
+		Contact dermatitis &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this itchy rash.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+		<LinkItem ContentType="SlideShow" DocID="DS00543" LinkType="Internal" ObjectID="24EEAE39-2697-4971-95705ABC4DBBE485" Title="Slide show: Types of dermatitis" Url="http://www.mayoclinic.com/health/dermatitis/DS00543" />
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Disease" DocID="DS00339" LinkType="Internal" ObjectID="A3B79A20-A765-4E1C-90C2A26187EF01E7" Title="Dermatitis" Url="http://www.mayoclinic.com/health/dermatitis-eczema/DS00339" />
+		<LinkItem ContentType="Disease" DocID="DS00774" LinkType="Internal" ObjectID="5DA4A50F-2A5D-9994-E6FB8EFEF460135B" Title="Poison ivy rash" Url="http://www.mayoclinic.com/health/poison-ivy/DS00774" />
+	</RelatedLinksBox>
+</Disease>

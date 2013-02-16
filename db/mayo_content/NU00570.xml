@@ -1,0 +1,193 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00570
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00570
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F6EFE4C9-530E-44FA-90626F2ED98E1CA2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Tuna pasta salad
+	</Title>
+	<Abstract>
+		Tuna pasta salad &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To make a complete and colorful meal, serve this tuna salad with a blend of cubed cantaloupe, red grapes and strawberry halves. For variety, top the salad with fresh dill or chives. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), 10 to 12 minutes, or according to the package directions. Drain the pasta thoroughly and rinse under cold water. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, combine the cooked pasta, tuna, onions, peas, salad dressing and pepper. Toss to mix well. Cover and refrigerate until well chilled, at least 2 hours. 
+&lt;/p&gt;
+&lt;p&gt;
+To serve, place 1 cup of spinach on individual chilled plates. Top each serving with 1/4 of the tuna salad and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 cups uncooked whole-wheat farfalle (bow tie pasta)&lt;/li&gt;
+	&lt;li&gt;2 cans (6 ounces each) unsalted white tuna packed in water, drained&lt;/li&gt;
+	&lt;li&gt;1/4 cup finely chopped onions&lt;/li&gt;
+	&lt;li&gt;2/3 cup frozen peas, thawed&lt;/li&gt;
+	&lt;li&gt;2/3 cup reduced-fat salad dressing&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon ground black pepper, if desired&lt;/li&gt;
+	&lt;li&gt;4 cups fresh spinach &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				2
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				2
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1/2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				285
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				28 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				28 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				23 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				467 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				9 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Pasta
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fish and shellfish
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+	</Categorization>
+</Recipe>

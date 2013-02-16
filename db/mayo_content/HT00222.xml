@@ -1,0 +1,64 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00222
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00222
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1100" Title="Aerobic exercise" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9D076630-E7FF-0DBD-1FE58EA5F8488A5C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				walking
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Tired of walking alone? Team up!
+	</Title>
+	<Body>
+		&lt;p&gt;There&apos;s motivation in numbers. To start a walking group, just spread the word. Talk up your walking group among family, friends and neighbors. You might be surprised to find you&apos;re surrounded by people who are ready to lace up their walking shoes and hold each other accountable for regular exercise. Agree on how often to walk, when and where to meet, what to do in case of bad weather, the speed to walk, and the distance to cover. Then get moving!&lt;/p&gt;
+	</Body>
+</HealthTip>

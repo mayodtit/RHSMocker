@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00695
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/valley-fever/DS00695
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-06
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1584" Title="Fungal">
+						<Keyword MCVID="2552" Title="Valley fever" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F90D726D-2A5D-9994-EB974112E90EA681
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				valley fever
+			</MetaKeyword>
+			<MetaKeyword>
+				fungus
+			</MetaKeyword>
+			<MetaKeyword>
+				fever
+			</MetaKeyword>
+			<MetaKeyword>
+				coccidioidomycosis
+			</MetaKeyword>
+			<MetaKeyword>
+				San Joaquin Valley fever
+			</MetaKeyword>
+			<MetaKeyword>
+				cocci
+			</MetaKeyword>
+			<MetaKeyword>
+				lung infection
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Valley fever is a fungal infection caused by coccidioides (kok-sid-e-OY-deze) organisms. It can cause fever, chest pain and coughing, among other signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Two species of coccidioides fungi cause valley fever. These fungi are commonly found in the soil in specific areas and can be stirred into the air by anything that disrupts the soil, such as farming, construction and wind. The fungi can then be breathed into the lungs and cause valley fever, also known as acute coccidioidomycosis (kok-sid-e-oy-doh-my-KOH-sis). 
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases of valley fever usually resolve on their own. In more severe cases, doctors prescribe antifungal medications that can treat the underlying infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Valley fever is the initial form of coccidioidomycosis infection. This initial, acute illness can develop into more serious disease, including chronic and disseminated coccidioidomycosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute coccidioidomycosis (valley fever)&lt;br /&gt;
+&lt;/strong&gt;The initial, or acute, form of coccidioidomycosis is often mild, with few, if any, symptoms. When signs and symptoms do occur, they appear one to three weeks after exposure. They tend to resemble those of the flu, and can range from minor to severe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever &lt;/li&gt;
+	&lt;li&gt;Cough &lt;/li&gt;
+	&lt;li&gt;Chest pain &amp;mdash; varying from a mild feeling of constriction to intense pressure resembling a heart attack &lt;/li&gt;
+	&lt;li&gt;Chills &lt;/li&gt;
+	&lt;li&gt;Night sweats &lt;/li&gt;
+	&lt;li&gt;Headache &lt;/li&gt;
+	&lt;li&gt;Fatigue &lt;/li&gt;
+	&lt;li&gt;Joint aches &lt;/li&gt;
+	&lt;li&gt;Red, spotty rash &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The rash that sometimes accompanies valley fever is made up of painful red bumps that may later turn brown. The rash mainly appears on your lower legs, but sometimes on your chest, arms and back. Others may have a raised red rash with blisters or eruptions that look like pimples. 
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t become ill from valley fever, you may learn that you&apos;ve been infected only when you later have a positive skin or blood test or when small areas of residual infection (nodules) in the lungs show up on a routine chest X-ray. Although the nodules typically don&apos;t cause problems, they can look like cancer on X-ray. 
+&lt;/p&gt;
+&lt;p&gt;
+If you do develop symptoms, especially severe ones, the course of the disease is highly variable. It can take months to fully recover, and fatigue and joint aches can last even longer. The severity of the disease depends on several factors, including your overall health and the number of fungus spores you inhale. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic coccidioidomycosis&lt;br /&gt;
+&lt;/strong&gt;If the initial coccidioidomycosis infection doesn&apos;t completely resolve, it may progress to a chronic form of pneumonia. This complication is most common in people with weakened immune systems. You&apos;re likely to have periods of worsening symptoms alternating with periods of recovery. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low-grade fever &lt;/li&gt;
+	&lt;li&gt;Weight loss &lt;/li&gt;
+	&lt;li&gt;Cough &lt;/li&gt;
+	&lt;li&gt;Chest pain &lt;/li&gt;
+	&lt;li&gt;Blood-tinged sputum (matter discharged during coughing) &lt;/li&gt;
+	&lt;li&gt;Nodules in the lungs &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Disseminated coccidioidomycosis&lt;br /&gt;
+&lt;/strong&gt;The most serious form of the disease, disseminated coccidioidomycosis, occurs when the infection spreads (disseminates) beyond the lungs to other parts of the body. Most often these parts include the skin, bones, liver, brain, heart, and the membranes that protect the brain and spinal cord (meninges). 
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of disseminated disease depend on which parts of your body are affected and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nodules, ulcers and skin lesions that are more serious than the rash that sometimes occurs with other forms of the disease &lt;/li&gt;
+	&lt;li&gt;Painful lesions in the skull, spine or other bones &lt;/li&gt;
+	&lt;li&gt;Painful, swollen joints, especially in the knees or ankles &lt;/li&gt;
+	&lt;li&gt;Meningitis &amp;mdash; an infection of the membranes and fluid surrounding the brain and spinal cord and the most deadly complication of valley fever &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Valley fever, even when it&apos;s symptomatic, often clears on its own. Yet for older adults and others at high risk, recovery can be slow, and the risk of developing severe disease is high. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek medical care if you are in a high-risk group and develop the signs and symptoms of valley fever, especially if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Live in or have recently traveled to an area where this disease is common&lt;/li&gt;
+	&lt;li&gt;Have symptoms that aren&apos;t improving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Be sure to tell your doctor if you&apos;ve traveled to a place where valley fever is endemic and you have symptoms. More and more, people who spend a few days golfing or hiking in Arizona return home with valley fever but are never tested for the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The fungi that cause valley fever &amp;mdash; Coccidioides immitis or Coccidioides posadasii &amp;mdash; thrive in the arid desert soils of southern Arizona, Nevada, northern Mexico and California&apos;s San Joaquin Valley. They&apos;re also endemic to New Mexico, Texas, and parts of Central and South America &amp;mdash; areas with mild winters and arid summers. 
+&lt;/p&gt;
+&lt;p&gt;
+Like many other fungi, coccidioides species have a complex life cycle. In the soil, they grow as a mold with long filaments that break off into airborne spores when the soil is disturbed. The spores are extremely small, can be carried hundreds of miles by the wind and are highly contagious. Once inside the lungs, the spores reproduce, perpetuating the cycle of the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Environmental exposure.&lt;/strong&gt; Anyone who inhales the spores that cause valley fever is at risk of infection. Some experts estimate that up to half the people living in areas where valley fever is common have been infected. People who have jobs that expose them to dust are most at risk &amp;mdash; construction, road and agricultural workers, ranchers, archeologists, and military personnel on field exercises. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; For reasons that aren&apos;t well understood, Filipinos, Hispanics, blacks, Native Americans and Asians are more susceptible to developing serious infection with coccidioidomycosis than are whites. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Pregnant women are vulnerable to more serious coccidioidomycosis during the third trimester, and new mothers are vulnerable right after their babies are born. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; Anyone with a weakened immune system is at increased risk of serious complications. This includes people living with AIDS or those being treated with steroids, chemotherapy or anti-rejection drugs after transplant surgery. People with cancer and Hodgkin lymphoma also have an increased risk. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;strong&gt;ge.&lt;/strong&gt; Older adults are more likely to develop valley fever. This may be because their immune systems are less robust or because they have other medical conditions that affect their overall health. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+More than half of those who inhale coccidioides fungi have few, if any, problems. But some, especially pregnant women, people with weakened immune systems &amp;mdash; such as those living with HIV/AIDS &amp;mdash; and those of Filipino, Hispanic, African, Native American or Asian descent are at risk of developing a more severe form of coccidioidomycosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications of coccidioidomycosis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Severe pneumonia.&lt;/strong&gt; Most people recover from coccidioidomycosis-related pneumonia without complications. Others, mainly Filipinos, Hispanics, blacks, Native Americans, Asians and those with weakened immune systems, may become seriously ill. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ruptured lung nodules.&lt;/strong&gt; A small percentage of people develop thin-walled nodules (cavities) in their lungs. Many of these eventually disappear without causing any problems, but some may rupture, causing chest pain and difficulty breathing. A ruptured lung nodule might require the placement of a tube into the space around the lungs to remove the air, or surgery to repair the damage. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disseminated disease.&lt;/strong&gt; This is the most serious complication of coccidioidomycosis. If the fungus spreads (disseminates) throughout the body, it can cause problems ranging from skin ulcers and abscesses to bone lesions, severe joint pain, heart inflammation, urinary tract problems and meningitis &amp;mdash; a potentially fatal infection of the membranes and fluid covering the brain and spinal cord. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you develop signs or symptoms of valley fever and are in or have recently returned from a region where this condition is common. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pre-appointment restrictions.&lt;/strong&gt; At the time you make your appointment, ask if there are any restrictions you need to follow in the time leading up to your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom history.&lt;/strong&gt; Write down any symptoms you&apos;ve been experiencing, and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent exposure to possible sources of infection.&lt;/strong&gt; Your doctor will be especially interested to know if you have recently traveled, and where.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Make a list of your key medical information, including other conditions for which you&apos;re being treated and any medications, vitamins or supplements you&apos;re currently taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Write down your questions in advance so that you can make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The list below suggests questions to raise with your doctor about valley fever. Don&apos;t hesitate to ask more questions during your appointment. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have valley fever?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, are there any possible side effects?&lt;/li&gt;
+	&lt;li&gt;When should I schedule a follow-up appointment to make sure I&apos;m recovering as expected?&lt;/li&gt;
+	&lt;li&gt;How long do you expect a full recovery to take?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;Can I return to work or school?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term complications from this condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled? Where and when?&lt;/li&gt;
+	&lt;li&gt;Does your work or recreational activities involve spending time in dusty outdoor environments?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications, including over-the-counter and prescription drugs as well as any vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Valley fever is difficult to diagnose solely on the basis of signs and symptoms, which are usually vague and nonspecific, or on a chest X-ray, which can&apos;t distinguish valley fever from other lung diseases. Instead, a definitive diagnosis depends on finding evidence of coccidioides organisms in tissue, blood or other body secretions. For that reason, you&apos;re likely to have one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sputum smear or culture.&lt;/strong&gt; These tests check a sample of the matter that&apos;s discharged while coughing (sputum) for the presence of coccidioides organisms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Through a blood test, your doctor can check for antibodies against the fungus that causes valley fever. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Rest &lt;/strong&gt;&lt;br /&gt;
+Most people with acute valley fever don&apos;t require treatment. Even when symptoms are severe, the best therapy for otherwise healthy adults is often bed rest and fluids &amp;mdash; the same approach used for colds and the flu. Still, doctors carefully monitor people with valley fever. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antifungal medications&lt;/strong&gt; &lt;br /&gt;
+If symptoms don&apos;t improve or become worse or if you are at increased risk of complications, your doctor may prescribe an antifungal medication, such as fluconazole. Antifungal medications are also used for people with chronic or disseminated disease. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, the antifungal drugs fluconazole (Diflucan) or itraconazole (Sporanox, Onmel) are used for all but the most serious forms of coccidioidomycosis disease. 
+&lt;/p&gt;
+&lt;p&gt;
+All antifungals can have serious side effects. However, these side effects usually go away once the medication is stopped. The most common side effects of fluconazole and itraconazole are nausea, vomiting, abdominal pain and diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+More serious infection may be treated initially with an intravenous antifungal medication such as amphotericin B (Abelcet, Amphotec, others). 
+&lt;/p&gt;
+&lt;p&gt;
+These medications control the fungus, but sometimes don&apos;t destroy it, and relapses may occur. For many people, a single bout of valley fever results in lifelong immunity, but the disease can be reactivated, or you can be reinfected if your immune system is significantly weakened. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you live in or visit areas where valley fever is common, take common-sense precautions, especially during the summer months when the chance of infection is highest. Consider wearing a mask, staying inside during dust storms, wetting the soil before digging, and keeping doors and windows tightly closed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Valley fever
+	</Title>
+	<Abstract>
+		Valley fever &amp;mdash; Comprehensive overview covers symptoms of common fungal infection in America&apos;s desert regions.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

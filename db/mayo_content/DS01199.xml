@@ -1,0 +1,278 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01199
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/postpartum-preeclampsia/DS01199
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2012-04-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4947" Title="Postpartum preeclampsia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5179CE9-9F7B-6B99-151695852B5DAA6E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				postpartum preeclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				postpartum eclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				preeclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				eclampsia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Postpartum preeclampsia is a rare condition that occurs when a woman has high blood pressure and excess protein in her urine soon after childbirth.
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of postpartum preeclampsia develop within 48 hours of childbirth. However, postpartum preeclampsia sometimes develops up to four to six weeks after childbirth. This is known as late postpartum preeclampsia.
+&lt;/p&gt;
+&lt;p&gt;
+Postpartum preeclampsia requires prompt treatment. Left untreated, postpartum preeclampsia can result in seizures and other serious complications.
+&lt;/p&gt;
+&lt;p&gt;
+Preeclampsia is a similar condition that develops during pregnancy and typically resolves with the birth the baby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Postpartum preeclampsia can be difficult to detect on your own. Many women who experience postpartum preeclampsia show no signs or symptoms during pregnancy. Also, you might not suspect that anything is wrong when you&apos;re focused on recovering after childbirth and caring for a newborn.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of postpartum preeclampsia &amp;mdash; which are typically similar to those of preeclampsia that occurs during pregnancy &amp;mdash; might include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure (hypertension) &amp;mdash; 140/90 millimeters of mercury (mm Hg) or greater&lt;/li&gt;
+	&lt;li&gt;Excess protein in your urine (proteinuria)&lt;/li&gt;
+	&lt;li&gt;Severe headaches&lt;/li&gt;
+	&lt;li&gt;Changes in vision, including temporary loss of vision, blurred vision or light sensitivity&lt;/li&gt;
+	&lt;li&gt;Upper abdominal pain, usually under the ribs on the right side&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Decreased urination&lt;/li&gt;
+	&lt;li&gt;Sudden weight gain, typically more than 2 pounds (0.9 kilogram) a week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have signs or symptoms of postpartum preeclampsia shortly after childbirth, contact your health care provider right away. Depending on the circumstances, you might need immediate medical care.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The causes of postpartum preeclampsia and preeclampsia that occurs during pregnancy aren&apos;t well understood. While preeclampsia is typically cured by childbirth, it&apos;s believed that postpartum preeclampsia is set into motion during pregnancy but doesn&apos;t cause symptoms until after delivery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Limited research suggests that risk factors for postpartum preeclampsia might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure during your most recent pregnancy (hypertensive disease).&lt;/strong&gt; You&apos;re at increased risk of postpartum preeclampsia if you developed high blood pressure after 20 weeks of pregnancy (gestational hypertension) or you developed high blood pressure and protein in your urine after 20 weeks of pregnancy (preeclampsia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; The risk of postpartum preeclampsia is higher if you&apos;re obese.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cesarean delivery (C-section).&lt;/strong&gt; If you had a C-section, you&apos;re at increased risk of postpartum preeclampsia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of postpartum preeclampsia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Postpartum eclampsia.&lt;/strong&gt; Postpartum eclampsia is essentially postpartum preeclampsia plus seizures. Postpartum eclampsia can permanently damage vital organs, including your brain, liver and kidneys. Left untreated, postpartum eclampsia can cause coma. In some cases, the condition is fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary edema.&lt;/strong&gt; This life-threatening lung condition occurs when excess fluid develops in the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; A stroke occurs when the blood supply to part of the brain is interrupted or severely reduced, depriving brain tissue of oxygen and food. A stroke is a medical emergency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thromboembolism.&lt;/strong&gt; Thromboembolism is the blockage of a blood vessel by a blood clot that travels from another part of the body. This condition is also a medical emergency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;HELLP syndrome.&lt;/strong&gt; HELLP syndrome &amp;mdash; which stands for hemolysis (the destruction of red blood cells), elevated liver enzymes and low platelet count &amp;mdash; can be life-threatening.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As with preeclampsia, postpartum preeclampsia might also increase your risk of future cardiovascular disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve recently given birth and have any signs or symptoms of postpartum preeclampsia, contact your health care provider right away. Depending on the circumstances, you might need immediate medical care.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, as well as what to expect from your health care provider.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you might want to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about pre-appointment restrictions.&lt;/strong&gt; In most cases you&apos;ll be seen immediately. If that&apos;s not the case, ask whether you should restrict your activities while you wait for your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a loved one or friend who can join you for your appointment.&lt;/strong&gt; Fear and anxiety might make it difficult to focus on what your health care provider says. Take someone along who can help remember all the information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your health care provider.&lt;/strong&gt; That way, you won&apos;t forget anything important that you want to ask, and you can make the most of your time with your health care provider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your health care provider about postpartum preeclampsia.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How serious is my condition?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Can I continue to do my usual activities?&lt;/li&gt;
+	&lt;li&gt;How can I best manage other health conditions along with postpartum preeclampsia?&lt;/li&gt;
+	&lt;li&gt;What signs or symptoms should prompt me to call you or go to the hospital?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared, don&apos;t hesitate to ask other questions during your appointment &amp;mdash; especially if you need clarification or you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your health care provider is likely to ask you a number of questions, too. For example:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you had any unusual symptoms lately, such as blurred vision or headaches?&lt;/li&gt;
+	&lt;li&gt;When did you first notice your signs or symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you normally have high blood pressure?&lt;/li&gt;
+	&lt;li&gt;Did you experience preeclampsia or postpartum preeclampsia with any previous pregnancies?&lt;/li&gt;
+	&lt;li&gt;Have you had any other complications during a previous pregnancy?&lt;/li&gt;
+	&lt;li&gt;Do you have any other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve already been discharged from the hospital after childbirth and your health care provider suspects that you have postpartum preeclampsia, you might need to be readmitted to the hospital. Postpartum preeclampsia is usually diagnosed with lab tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These tests can determine how well your liver and kidneys are functioning and whether your blood has a normal number of platelets &amp;mdash; the cells that help blood clot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis.&lt;/strong&gt; Your health care provider might test a sample of your urine to see if it contains protein.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Postpartum preeclampsia is treated with medication, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medication to prevent seizures.&lt;/strong&gt; An anticonvulsive medication, such as magnesium sulfate, can help prevent seizures. Magnesium sulfate is typically taken for 24 hours. After treatment with magnesium sulfate, your health care provider will closely monitor your blood pressure, urination and other symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication to lower high blood pressure.&lt;/strong&gt; If your blood pressure is dangerously high and an anticonvulsive medication doesn&apos;t lower it, your health care provider might prescribe another medication to lower your blood pressure (antihypertensive medication).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re breast-feeding, ask your health care provider whether it&apos;s safe to continue breast-feeding while taking medication to treat postpartum preeclampsia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The postpartum period often brings physical discomfort as well as emotional ups and downs. If you&apos;re diagnosed with postpartum preeclampsia, you might need to stay in the hospital longer than you planned or be readmitted to the hospital. This can cause additional stress. Lean on loved ones and other close contacts for support. Also, work with your health care provider to determine how you can safely manage your condition and your role as mother of a newborn.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to prevent postpartum preeclampsia. The best way to take care of yourself is to know the signs and symptoms of postpartum preeclampsia. Don&apos;t be afraid to contact your health care provider if you have questions or concerns about your health as you recover from childbirth.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Postpartum preeclampsia
+	</Title>
+	<Abstract>
+		Postpartum preeclampsia &amp;mdash; Comprehensive overview covers symptoms and treatment of this post-pregnancy condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00488" LinkType="Internal" ObjectID="4723B235-F3F0-E282-0063AC485F6995C7" Title="Urinalysis" Url="http://www.mayoclinic.com/health/urinalysis/MY00488" />
+		<LinkItem ContentType="Article" DocID="PR00125" LinkType="Internal" ObjectID="7A28001E-F8AD-4174-AF785E26EEE1A1D5" Title="High blood pressure and pregnancy: Know the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00125" />
+		<LinkItem ContentType="Disease" DocID="DS00583" LinkType="Internal" ObjectID="A19B8D07-BA14-48BD-9427AA9EC15F7BE8" Title="Preeclampsia" Url="http://www.mayoclinic.com/health/preeclampsia/DS00583" />
+		<LinkItem ContentType="Disease" DocID="DS00412" LinkType="Internal" ObjectID="84ACE1DA-C6AC-4399-B2A74420ECDB231A" Title="Pulmonary edema" Url="http://www.mayoclinic.com/health/pulmonary-edema/DS00412" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+	</RelatedLinksBox>
+</Disease>

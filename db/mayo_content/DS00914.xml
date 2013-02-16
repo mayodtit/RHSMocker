@@ -1,0 +1,316 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00914
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/meralgia-paresthetica/DS00914
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1770" Title="Pain">
+						<Keyword MCVID="3125" Title="Meralgia paresthetica" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87DF8474-E7FF-0DBD-1EEBB8F0DE0D3015
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				meralgia paresthetica
+			</MetaKeyword>
+			<MetaKeyword>
+				burning leg
+			</MetaKeyword>
+			<MetaKeyword>
+				burning thigh
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling leg
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling thigh
+			</MetaKeyword>
+			<MetaKeyword>
+				numb leg
+			</MetaKeyword>
+			<MetaKeyword>
+				numb thigh
+			</MetaKeyword>
+			<MetaKeyword>
+				compressed nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				pinched nerve
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The cause of meralgia paresthetica is compression of the nerve that supplies sensation to the skin surface of your thigh. 
+&lt;/p&gt;
+&lt;p&gt;
+Tight clothing, obesity or weight gain, and pregnancy are common causes of meralgia paresthetica. However, meralgia paresthetica can also be due to local trauma or a disease, such as diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, meralgia paresthetica can be relieved with conservative measures, such as wearing looser clothing. In severe cases, treatment may include medications to relieve discomfort or, rarely, surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing meralgia paresthetica 
+" Caption="Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The condition is caused by compression of the lateral femoral cutaneous nerve, which supplies sensation to your upper leg. 
+" Height="60" Title="Meralgia paresthetica" URI="/images/image_popup/thumbs/ans7_lateral_femoralthu.jpg" Width="60" />
+				<Image Alt="Illustration showing meralgia paresthetica 
+" Caption="Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The condition is caused by compression of the lateral femoral cutaneous nerve, which supplies sensation to your upper leg. 
+" Height="413" Title="Meralgia paresthetica" URI="/images/image_popup/ans7_lateral_femoral.jpg" Width="400" />
+				<HTML>
+					Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The condition is caused by compression of the lateral femoral cutaneous ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pressure on the lateral femoral cutaneous nerve, which supplies sensation to your upper thigh, may cause these symptoms of meralgia paresthetica: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling and numbness in the outer (lateral) part of your thigh&lt;/li&gt;
+	&lt;li&gt;Burning pain in or on the surface of the outer part of your thigh&lt;/li&gt;
+	&lt;li&gt;Less commonly, dull pain in your groin area or across your buttocks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These symptoms commonly occur only on one side of your body and may intensify after walking or standing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see your doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you experience any of the symptoms of meralgia paresthetica listed above, including tingling, numbness or burning pain in the outer part of your thigh. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Meralgia paresthetica occurs when the lateral femoral cutaneous nerve &amp;mdash; a nerve that supplies sensation to the surface of your outer thigh &amp;mdash; becomes compressed, or &quot;pinched.&quot; The lateral femoral cutaneous nerve is purely a sensory nerve and does not affect your ability to use your leg muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+In most people, this nerve passes through the groin to the upper thigh without trouble. But in meralgia paresthetica, the lateral femoral cutaneous nerve becomes trapped &amp;mdash; often under the inguinal ligament, which runs along your groin from your abdomen to your upper thigh. 
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of this compression include any condition that increases pressure on the groin, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tight clothing&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Scar tissue near the inguinal ligament, due to injury or past surgery&lt;/li&gt;
+	&lt;li&gt;Walking, cycling or standing for long periods of time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Nerve injury, which can be due to diabetes or seat belt injury after a motor vehicle accident, for example, also can cause meralgia paresthetica. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing meralgia paresthetica 
+" Caption="Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The condition is caused by compression of the lateral femoral cutaneous nerve, which supplies sensation to your upper leg. 
+" Height="60" Title="Meralgia paresthetica" URI="/images/image_popup/thumbs/ans7_lateral_femoralthu.jpg" Width="60" />
+				<Image Alt="Illustration showing meralgia paresthetica 
+" Caption="Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The condition is caused by compression of the lateral femoral cutaneous nerve, which supplies sensation to your upper leg. 
+" Height="413" Title="Meralgia paresthetica" URI="/images/image_popup/ans7_lateral_femoral.jpg" Width="400" />
+				<HTML>
+					Meralgia paresthetica is a condition characterized by tingling, numbness and burning pain in the outer part of your thigh. The condition is caused by compression of the lateral femoral cutaneous ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following conditions may increase your risk of meralgia paresthetica: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Extra weight.&lt;/strong&gt; Being overweight or obese may increase the pressure on your lateral femoral cutaneous nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; A growing belly puts added pressure on your groin, through which the lateral femoral cutaneous nerve passes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Diabetes-related nerve injury can lead to meralgia paresthetica.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; People between the ages of 40 and 60 are at a higher risk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s a good idea to prepare for your appointment. Here&apos;s some information to help you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List the symptoms you&apos;re experiencing&lt;/strong&gt;, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For meralgia paresthetica, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to honor?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor likely will have questions, too, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;On what part of your leg, specifically, are you experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent surgeries?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent injuries to your hip area, such as from a seat belt in a motor vehicle accident?&lt;/li&gt;
+	&lt;li&gt;Do you regularly do repetitive activities that affect your hip area, such as cycling?&lt;/li&gt;
+	&lt;li&gt;Have you gained weight?&lt;/li&gt;
+	&lt;li&gt;Have you recently been pregnant?&lt;/li&gt;
+	&lt;li&gt;Do you have diabetes?&lt;/li&gt;
+	&lt;li&gt;Is the burning or tingling occasional or continuous?&lt;/li&gt;
+	&lt;li&gt;How severe is your discomfort or pain?&lt;/li&gt;
+	&lt;li&gt;Are there any activities that worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there any weakness?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If your pain is bothersome, over-the-counter pain relievers such as acetaminophen (Tylenol, others) ibuprofen (Advil, Motrin, others) or aspirin may be helpful. Also avoid tight clothing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, your doctor can make a diagnosis of meralgia paresthetica based on your medical history and a physical examination. He or she may touch the affected leg, ask you to describe the pain, and ask you to trace out the specific location of the numb or painful area on your leg. 
+&lt;/p&gt;
+&lt;p&gt;
+To rule out other conditions, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray imaging.&lt;/strong&gt; This diagnostic tool uses electromagnetic radiation to make images of your hip and pelvic area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; This test measures the electrical discharges produced in muscles to help evaluate and diagnose muscle and nerve disorders. During the test, a thin needle electrode is placed into the muscle to record electrical activity. Results of this test are normal in meralgia paresthetica, but the test may be needed to exclude other disorders when the diagnosis isn&apos;t clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction study.&lt;/strong&gt; In this test, patch-style electrodes are placed on your skin to stimulate the nerve with a mild electrical impulse. The electrical impulse helps diagnose damaged nerves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for meralgia paresthetica focuses on relieving compression of the nerve. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Conservative measures&lt;br /&gt;
+&lt;/strong&gt;Conservative measures are effective for most people, with pain usually going away within a few months. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wearing looser clothing &lt;/li&gt;
+	&lt;li&gt;Losing weight&lt;/li&gt;
+	&lt;li&gt;Taking OTC pain relievers such as acetaminophen (Tylenol, others) ibruprofen (Advil, Motrin, others), or aspirin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;If symptoms persist for more than two months or your pain is severe, treatment may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid injections.&lt;/strong&gt; Injections can reduce inflammation and temporarily relieve pain. Possible side effects include joint infection, nerve damage, pain and whitening of skin around the injection site.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants.&lt;/strong&gt; These medications may relieve your pain. Side effects include drowsiness, dry mouth, constipation and impaired sexual functioning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gabapentin (Neurontin) or pregabalin (Lyrica).&lt;/strong&gt; These anti-seizure medications may help lessen your painful symptoms. Side effects include constipation, nausea, dizziness, drowsiness and lightheadedness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Rarely, surgery is considered to decompress the nerve. This option is only for people with severe and long-lasting symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following self-care measures can help treat and prevent meralgia paresthetica: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid wearing tight clothing.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight, or lose weight if you&apos;re overweight.&lt;/li&gt;
+	&lt;li&gt;Avoid standing or walking for long periods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Meralgia paresthetica
+	</Title>
+	<Abstract>
+		Meralgia paresthetica &amp;mdash; Comprehensive overview covers symptoms, causes and treatments of this compressed nerve condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,323 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00845
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/undescended-testicle/DS00845
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2054" Title="Testes">
+						<Keyword MCVID="3190" Title="Undescended testicle" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			84936E5A-E7FF-0DBD-16A632EECF943316
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				undescended testicle
+			</MetaKeyword>
+			<MetaKeyword>
+				undescended testes
+			</MetaKeyword>
+			<MetaKeyword>
+				undescended testis
+			</MetaKeyword>
+			<MetaKeyword>
+				cryptorchidism
+			</MetaKeyword>
+			<MetaKeyword>
+				undescended testical
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Undescended testicle (cryptorchidism) is a testicle that hasn&apos;t moved into its proper position in the bag of skin hanging behind the penis (scrotum) prior to the birth of a baby boy. Usually just one testicle is affected, but in some cases both testes may be undescended.
+&lt;/p&gt;
+&lt;p&gt;
+An undescended testicle is more common among baby boys born prematurely or before 37 weeks.
+&lt;/p&gt;
+&lt;p&gt;
+For most boys born with one or two undescended testicles, the problem corrects itself within the first few months of life. If your infant has an undescended testicle that doesn&apos;t correct itself, surgery can usually be used to relocate it into the scrotum.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicles form in the abdomen during fetal development. During the last couple of months of normal fetal development, the testicles gradually leave the abdomen, pass through a tube-like passageway in the groin (inguinal canal) and descend into the scrotum.
+&lt;/p&gt;
+&lt;p&gt;
+If your son has an undescended testicle, that process was stopped or delayed in some stage of development. Therefore, you won&apos;t see or feel a testicle where you would expect it to be in the scrotum.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+An undescended testicle is typically detected when your baby is examined shortly after birth. If your son has an undescended testicle, ask the doctor how often your son will need to be examined. If the testicle hasn&apos;t moved into the scrotum by the time your son is 4 months old, the problem probably won&apos;t correct itself.
+&lt;/p&gt;
+&lt;p&gt;
+Treating undescended testicle when your son is still a baby may lower the risk of complications later in life, such as infertility and testicular cancer.
+&lt;/p&gt;
+&lt;p&gt;
+Older boys &amp;mdash; from infants to pre-adolescent boys &amp;mdash; who have normally descended testicles at birth may appear to be &quot;missing&quot; a testicle later. This condition may indicate:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A retractile testicle, which moves back and forth between the scrotum and the groin and may be easily guided by hand into the scrotum during a physical examination&lt;/li&gt;
+	&lt;li&gt;An ascending testicle, or acquired undescended testicle, which has &quot;returned&quot; to the groin and cannot be easily guided by hand into the scrotum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you notice any changes in your son&apos;s genitals or are concerned about his development, talk to your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of an undescended testicle isn&apos;t known. A combination of genetics, maternal health and other environmental factors may disrupt the hormones, physical changes and nerve activity that influence the development of the testicles.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Low birth weight and premature birth are the best understood risk factors that may increase the likelihood of undescended testicle in a newborn. Other risk factors are not as well understood. Conditions that may increase the risk include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low birth weight&lt;/li&gt;
+	&lt;li&gt;Premature birth&lt;/li&gt;
+	&lt;li&gt;Family history of undescended testicle or other problems of genital development&lt;/li&gt;
+	&lt;li&gt;Conditions of the fetus that can restrict growth, such as Down syndrome or an abdominal wall defect&lt;/li&gt;
+	&lt;li&gt;Alcohol use by the mother during pregnancy&lt;/li&gt;
+	&lt;li&gt;Cigarette smoking by the mother or exposure to secondhand smoke&lt;/li&gt;
+	&lt;li&gt;Obesity in the mother&lt;/li&gt;
+	&lt;li&gt;Diabetes in the mother &amp;mdash; type 1 diabetes, type 2 diabetes or gestational diabetes&lt;/li&gt;
+	&lt;li&gt;Parents&apos; exposure to some pesticides&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In order for testicles to develop and function normally, they need to be slightly cooler than normal body temperature. The scrotum provides this cooler environment. Until a boy is 3 or 4 years old, the testicles continue to undergo changes that affect how well they function later.
+&lt;/p&gt;
+&lt;p&gt;
+An undescended testicle isn&apos;t in a cooler environment. This might increase the risk of complications later in life. These complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Testicular cancer.&lt;/strong&gt; Testicular cancer usually begins in the cells in the testicle that produce immature sperm. What causes these cells to develop into cancer is unknown. Men who&apos;ve had an undescended testicle have an increased risk of testicular cancer. Surgically correcting an undescended testicle before age 15 months may decrease, but not eliminate, the risk of future testicular cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fertility problems.&lt;/strong&gt; Low sperm counts, poor sperm quality and decreased fertility are more likely to occur among men who have had an undescended testicle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other complications related to the abnormal location of the undescended testicle include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Testicular torsion.&lt;/strong&gt; Testicular torsion is the twisting of the spermatic cord, which contains blood vessels, nerves and the tube that carries semen from the testicle to the penis. This painful condition cuts off blood to the testicle. If not treated promptly, it may result in the loss of the testicle. An undescended testicle increases the risk of testicular torsion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; If a testicle is located in the groin, it may be damaged from pressure against the pubic bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inguinal hernia.&lt;/strong&gt; An undescended testicle may be associated with an inguinal hernia. If the opening between the abdomen and the inguinal canal is too loose, a portion of the intestines can push into the groin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An undescended testicle is usually detected at birth. Therefore, your family doctor or pediatrician will continue to monitor the condition during regularly scheduled examinations, or well-baby visits, for your infant son.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there are often a number of questions to address during infant checkups, it&apos;s a good idea to be well prepared for your appointment. Write down a list of questions to discuss with your doctor. Questions regarding an undescended testicle might include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often should we schedule appointments?&lt;/li&gt;
+	&lt;li&gt;How can I safely examine the scrotum at home to monitor any changes in the undescended testicle?&lt;/li&gt;
+	&lt;li&gt;When would you recommend seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will my son need?&lt;/li&gt;
+	&lt;li&gt;What treatment options do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The best time to your ask questions is at the beginning of the appointment, but don&apos;t hesitate to ask additional questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will examine your infant son&apos;s groin. If a testicle isn&apos;t in the scrotum, he or she will try to locate it by lightly pressing against his skin. Your doctor may use a lubricant or warm, soapy water to ensure the comfort of your baby.
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor feels the testicle somewhere in the inguinal canal, he or she will attempt to move it gently into the scrotum. If it moves only partway into the scrotum, if the movement appears to cause pain or discomfort, or if the testicle immediately retreats to its original location, it&apos;s considered an undescended testicle. If the testicle can be moved relatively easily into the scrotum and remain there for a while, it&apos;s most likely a retractile testicle.
+&lt;/p&gt;
+&lt;p&gt;
+If your son&apos;s testicle hasn&apos;t descended or can&apos;t be located by the time your son reaches 3 or 4 months of age, your doctor will likely refer you to a specialist in children&apos;s genital and urinary tract disorders (pediatric urologist) or a pediatric surgeon for further examination.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can easily determine that a testicle hasn&apos;t descended into the scrotum. The goal of further examination is to locate the position of the testicle and monitor changes in its position. If the testicle is in the groin, your doctor may be able locate it by touch. If it can&apos;t be felt (nonpalpable), then he or she will likely refer you to a pediatric urologist for further tests. Some undescended testicles are nonpalpable.
+&lt;/p&gt;
+&lt;p&gt;
+If your son has a nonpalpable testicle, the pediatric urologist may order one or more of the following procedures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; An ultrasound is a noninvasive device that uses sound waves to create images of internal structures of the body. An ultrasound may enable the pediatric urologist to locate a nonpalpable testicle, particularly if it&apos;s located within the groin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) with a contrast agent.&lt;/strong&gt; MRI is a technology that uses a magnetic field and radio waves to create images of soft tissues in the body. A contrast agent injected into the bloodstream can improve the imaging capability of the procedure. This procedure may enable your pediatric urologist to locate a testicle in the groin or abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopy.&lt;/strong&gt; This procedure is generally considered the best choice for locating a nonpalpable undescended testicle. Laparoscopy uses a tiny video device connected to a tube that a surgeon inserts through a small incision in your son&apos;s abdomen. Images appear and can be enlarged on a video screen. Surgical correction of the undescended testicle may be done during the same procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open surgery.&lt;/strong&gt; Direct exploration of the abdomen through a larger incision may be necessary in a small number of more complicated cases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other diagnostic issues&lt;/strong&gt;&lt;br /&gt;
+If your infant has two nonpalpable undescended testicles, your doctor may order tests to determine the sex of your child. The &quot;absent&quot; testicles may, for example, be because your child is genetically a female, but has external male genitals. This condition of unclear biological sex is called ambiguous genitalia, or intersex. Tests to check the possibility of ambiguous genitalia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Measurements of various hormone levels in blood and urine&lt;/li&gt;
+	&lt;li&gt;Analysis of your baby&apos;s sex-related genes&lt;/li&gt;
+	&lt;li&gt;Ultrasound investigation for female sex organs (ovaries)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to move the undescended testicle to its proper location in the scrotum. Early treatment may lower the risk of complications of an undescended testicle, such as the risk of infertility and testicular cancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+An undescended testicle is usually corrected with surgery. The surgeon carefully manipulates the testicle into the scrotum and stitches it into place. This procedure usually requires relatively small incisions and may be performed with laparoscopic devices.
+&lt;/p&gt;
+&lt;p&gt;
+When your son has surgery will depend on a number of factors, such as your son&apos;s health and how difficult the procedure might be. Your surgeon will likely recommend doing the surgery after your son is 3 to 6 months old and before he is 15 months old. Early surgical treatment appears to lower the risk of later complications.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, the testicle may be poorly developed, abnormal or dead tissue. The surgeon will remove this testicular tissue.
+&lt;/p&gt;
+&lt;p&gt;
+If your son also has an inguinal hernia associated with the undescended testicle, the hernia is repaired during the surgery.
+&lt;/p&gt;
+&lt;p&gt;
+After surgery, the surgeon will monitor the testicle to see that it continues to develop, function properly and stay in place. Monitoring may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical exam&lt;/li&gt;
+	&lt;li&gt;Ultrasound examination of the scrotum&lt;/li&gt;
+	&lt;li&gt;Tests of hormone levels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone treatment&lt;/strong&gt;&lt;br /&gt;
+Hormone treatment involves the injection of human chorionic gonadotropin (HCG). This hormone could cause the testicle to move to your son&apos;s scrotum, but hormone treatment is usually less effective than surgery is. There&apos;s some evidence that hormone treatment may contribute to early onset of puberty (precocious puberty).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments&lt;/strong&gt;&lt;br /&gt;
+If your son doesn&apos;t have one or both testicles &amp;mdash; either missing or didn&apos;t survive after surgery &amp;mdash; you may consider saline testicular implants for the scrotum that can be implanted during late childhood or adolescence. These implants &amp;mdash; testicle-shaped nodules filled with a fluid &amp;mdash; result in the &quot;appearance&quot; of two testicles in the scrotum.
+&lt;/p&gt;
+&lt;p&gt;
+If your son doesn&apos;t have at least one healthy testicle, your doctor will refer you to a hormone specialist (endocrinologist) to discuss future hormone treatments that would be necessary to bring about puberty and physical maturity.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even after corrective surgery, it&apos;s important to check the condition of the testicles to ensure they develop normally. You can help your son by being aware of the development of his body and talking to him about it.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Check the position of the testicles regularly during diaper changing or at bath time.&lt;/li&gt;
+	&lt;li&gt;When he&apos;s about to reach puberty and you&apos;re talking about what physical changes to expect, explain how he can check the testicles himself. Self-examination of testicles will be an important skill for early detection of possible tumors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your son doesn&apos;t have one or both testicles, he may be sensitive about his appearance. He may have anxieties about looking different from friends or classmates, especially if he has to undress in front of others in gym class. The following strategies may help him cope:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Teach your son the right words to use when talking about the scrotum and testicles.&lt;/li&gt;
+	&lt;li&gt;Explain that there are usually two testicles in the scrotum. If he is missing one or both, explain in simple terms what that means and that he&apos;s still a healthy boy.&lt;/li&gt;
+	&lt;li&gt;Remind him that he is not ill or in danger of illness.&lt;/li&gt;
+	&lt;li&gt;Talk to him about whether an implant is a good option for him.&lt;/li&gt;
+	&lt;li&gt;Help him practice a response if he&apos;s teased or asked about the condition.&lt;/li&gt;
+	&lt;li&gt;Buy him loosefitting boxer shorts and swim trunks that may make the condition less noticeable when changing clothes and playing sports at school.&lt;/li&gt;
+	&lt;li&gt;Be aware of signs of worry or embarrassment, such as not participating in sports that he would normally enjoy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Undescended testicle (cryptorchidism)
+	</Title>
+	<Abstract>
+		Undescended testicle (cryptorchidism) &amp;mdash; Comprehensive overview covers causes, complications and treatment of this disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

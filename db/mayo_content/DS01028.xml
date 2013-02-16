@@ -1,0 +1,276 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01028
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dengue-fever/DS01028
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2547" Title="Viral hemorrhagic fevers">
+							<Keyword MCVID="4348" Title="Dengue fever" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			849B8EAB-E7FF-0DBD-1CD3D45919A8254F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dengue
+			</MetaKeyword>
+			<MetaKeyword>
+				dengue fever
+			</MetaKeyword>
+			<MetaKeyword>
+				dengue hemorrhagic fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dengue (DENG-gay) fever is a mosquito-borne disease that occurs in tropical and subtropical areas of the world. Mild dengue fever causes high fever, rash, and muscle and joint pain. A severe form of dengue fever, also called dengue hemorrhagic fever, can cause severe bleeding, a sudden drop in blood pressure (shock) and death. 
+&lt;/p&gt;
+&lt;p&gt;
+Millions of cases of dengue infection occur worldwide each year. Dengue fever is most common in Southeast Asia and the western Pacific islands, but the disease has been increasing rapidly in Latin America and the Caribbean. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are working on dengue fever vaccines, but the best prevention for now is to reduce mosquito habitat in areas where dengue fever is common. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people, especially children and teens, may experience no signs or symptoms during a mild case of dengue fever. When symptoms do occur, they usually begin four to 10 days after the person is bitten by an infected mosquito. Signs and symptoms of dengue fever most commonly include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever, up to 106 F (41 C)&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Muscle, bone and joint pain&lt;/li&gt;
+	&lt;li&gt;Pain behind your eyes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might also experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Widespread rash&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Minor bleeding from your gums or nose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people recover within a week or so. In some cases, however, symptoms worsen and can become life-threatening. Blood vessels often become damaged and leaky, and the number of clot-forming cells in your bloodstream falls. This can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding from the nose and mouth&lt;/li&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+	&lt;li&gt;Persistent vomiting&lt;/li&gt;
+	&lt;li&gt;Bleeding under the skin, which may look like bruising&lt;/li&gt;
+	&lt;li&gt;Problems with your lungs, liver and heart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve recently visited a region in which dengue fever is known to occur and you suddenly develop a fever, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dengue fever is caused by any one of four dengue viruses spread by mosquitoes that thrive in and near human lodgings. When a mosquito bites a person infected with a dengue virus, the virus enters the mosquito. When the infected mosquito then bites another person, the virus enters that person&apos;s bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+After you&apos;ve recovered from dengue fever, you have immunity to the virus that infected you &amp;mdash; but not to the other three dengue fever viruses. The risk of developing severe dengue fever, also known as dengue hemorrhagic fever, actually increases if you&apos;re infected a second, third or fourth time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that put you at greater risk of developing dengue fever or a more severe form of the disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Living or traveling in tropical areas.&lt;/strong&gt; Being in tropical and subtropical areas around the world &amp;mdash; especially in high-risk areas, such as Southeast Asia, Latin America and the Caribbean &amp;mdash; increases your risk of exposure to the virus that causes dengue fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prior infection with a dengue fever virus.&lt;/strong&gt; Previous infection with a dengue fever virus increases your risk of having severe symptoms if you&apos;re infected a second time. This is especially true for children. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If severe, dengue fever can damage the lungs, liver or heart. Blood pressure can drop to dangerous levels, causing shock and, in some cases, death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor or primary care provider. But in some cases, when you call to set up an appointment, you might be referred instead to a doctor who specializes in infectious diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information.&lt;/strong&gt; List your international travel history, with dates and countries visited and medications taken while traveling. Bring a record of your immunizations, including pre-travel immunizations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications.&lt;/strong&gt; Include any vitamins or supplements you take regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information conveyed during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For dengue fever, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best course of action?&lt;/li&gt;
+	&lt;li&gt;How long will it be before I&apos;m feeling better?&lt;/li&gt;
+	&lt;li&gt;Are there any long-term effects of this illness?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask for further explanation if you&apos;re confused. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be prepared to answer questions from your doctor, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Where have you traveled in the past month?&lt;/li&gt;
+	&lt;li&gt;Were you bitten by mosquitoes while traveling?&lt;/li&gt;
+	&lt;li&gt;Have you been in contact recently with anyone who was ill?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing dengue fever can be difficult, because its signs and symptoms can be easily confused with those of other diseases &amp;mdash; such as malaria, leptospirosis and typhoid fever. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will likely ask about your medical and travel history. Be sure to describe international trips in detail, including the countries you visited and the dates, as well as any contact you may have had with mosquitoes. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain laboratory tests can detect evidence of the dengue viruses, but test results usually come back too late to help direct treatment decisions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No specific treatment for dengue fever exists. Your doctor may recommend that you drink plenty of fluids to avoid dehydration from vomiting and high fever. Acetaminophen (Tylenol, others) can alleviate pain and reduce fever. Avoid pain relievers that can increase bleeding complications &amp;mdash; such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen sodium (Aleve, others). 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe dengue fever, you may need: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Supportive care in a hospital&lt;/li&gt;
+	&lt;li&gt;Intravenous (IV) fluid and electrolyte replacement&lt;/li&gt;
+	&lt;li&gt;Blood pressure monitoring&lt;/li&gt;
+	&lt;li&gt;Transfusion to replace blood loss&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A dengue fever vaccine is in development, but isn&apos;t generally available. If you&apos;re living or traveling in an area where dengue fever is known to be, the best way to avoid dengue fever is to avoid being bitten by mosquitoes that carry the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+If you are living or traveling in tropical areas where dengue fever is common, these tips may help reduce your risk of mosquito bites: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay in air-conditioned or well-screened housing.&lt;/strong&gt; It&apos;s particularly important to keep mosquitoes out at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reschedule outdoor activities.&lt;/strong&gt; Avoid being outdoors at dawn, dusk and early evening, when more mosquitoes are out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective clothing.&lt;/strong&gt; When you go into mosquito-infested areas, wear a long-sleeved shirt, long pants, socks and shoes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use mosquito repellent.&lt;/strong&gt; Permethrin can be applied to your clothing, shoes, camping gear and bed netting. You can also buy clothing made with permethrin already in it. For your skin, use a repellent containing at least a 10 percent concentration of DEET.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce mosquito habitat.&lt;/strong&gt; The mosquitoes that carry the dengue virus typically live in and around houses, breeding in standing water that can collect in such things as used automobile tires. Reduce the breeding habitat to lower mosquito populations.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dengue fever
+	</Title>
+	<Abstract>
+		Dengue fever &amp;mdash; Comprehensive overview covers treatment, symptoms and risk factors of this mosquito-borne illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00539" LinkType="Internal" ObjectID="C65023FF-F803-4E0C-AB468CB9127EB3C9" Title="Viral hemorrhagic fevers" Url="http://www.mayoclinic.com/health/viral-hemorrhagic-fevers/DS00539" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,196 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00574
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00574
+		</OriginalURL>
+		<UpdateDate>
+			2007-03-28
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			A9E1FEF9-742F-4DCC-AD8858EEC59DF39E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				turkey sandwich
+			</MetaKeyword>
+			<MetaKeyword>
+				turkey club
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				turkey
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Turkey club sandwich
+	</Title>
+	<Abstract>
+		Turkey club sandwich &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Serve this double-decker sandwich with carrot and celery sticks and red and green grapes. If you don&apos;t like Swiss cheese, substitute any other variety, such as Gouda or cheddar cheese.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;In a small bowl, add the mayonnaise and basil. Stir to mix evenly. Spread 1 teaspoon of the mayonnaise mixture on each slice of bread.&lt;/p&gt;
+
+&lt;p&gt;To prepare the sandwiches, place 1 slice of bread on a plate. Top with 1 ounce turkey and 1 1/2 slices bacon. Add another slice of bread, 1 ounce turkey, 1 lettuce leaf, 2 slices tomatoes and 1 ounce cheese. Top with the last slice of bread. Place a toothpick in each half of the sandwich and cut the sandwich in the center. Repeat to make the second sandwich. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;2 tablespoons fat-free mayonnaise&lt;br /&gt;
+2 teaspoons chopped fresh basil&lt;br /&gt;
+6 slices sourdough bread, toasted&lt;br /&gt;
+4 ounces cooked natural turkey breast, sliced&lt;br /&gt;
+3 slices low-sodium bacon&lt;br /&gt;
+2 bibb lettuce leaves&lt;br /&gt;
+4 slices tomato&lt;br /&gt;
+2 ounces Swiss cheese&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				1
+			</Dairy>
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				3
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				3 1/2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				3
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				3
+			</Carbs>
+			<Fats Label="Fats">
+				3 1/2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				475
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				45 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				775 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				6 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				35 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				8 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 sandwich
+			</Servingsize>
+			<Sodium Label="Sodium">
+				797 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				17 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Course">
+			Sandwiches
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

@@ -1,0 +1,364 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00704
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rectocele/DS00704
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-01
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2409" Title="Rectocele" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C0363EEA-2A5D-9994-E8373D7AF4EF2A60
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rectocele
+			</MetaKeyword>
+			<MetaKeyword>
+				posterior prolapse
+			</MetaKeyword>
+			<MetaKeyword>
+				vagina
+			</MetaKeyword>
+			<MetaKeyword>
+				rectum
+			</MetaKeyword>
+			<MetaKeyword>
+				weak fascia
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal bulge
+			</MetaKeyword>
+			<MetaKeyword>
+				rectocele repair
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A posterior prolapse occurs when the thin wall of fibrous tissue (fascia) that separates the rectum from the vagina weakens, allowing the vaginal wall to bulge. Posterior prolapse is also called a rectocele (REK-toe-seel) because typically, though not always, it&apos;s the front wall of the rectum that bulges into the vagina. 
+&lt;/p&gt;
+&lt;p&gt;
+Childbirth and other processes that put pressure on the fascia can lead to posterior prolapse. A small prolapse may cause no signs or symptoms. If a posterior prolapse is large, it may create a noticeable bulge of tissue through the vaginal opening. Though this bulge may be uncomfortable, it&apos;s rarely painful. 
+&lt;/p&gt;
+&lt;p&gt;
+If needed, self-care measures and other nonsurgical options are often effective. In severe cases, you may need surgical repair. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal rectum and rectocele
+" Caption="A rectocele occurs when the wall of fibrous tissue that separates a woman&apos;s rectum from her vagina weakens, allowing the front wall of the rectum to bulge into the vagina.
+" Height="60" Title="Rectocele" URI="/images/image_popup/thumbs/r7_rectocelethu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal rectum and rectocele
+" Caption="A rectocele occurs when the wall of fibrous tissue that separates a woman&apos;s rectum from her vagina weakens, allowing the front wall of the rectum to bulge into the vagina.
+" Height="255" Title="Rectocele" URI="/images/image_popup/r7_rectocele.jpg" Width="400" />
+				<HTML>
+					A rectocele occurs when the wall of fibrous tissue that separates a woman&apos;s rectum from her vagina weakens, allowing the front wall of the rectum to bulge into the vagina.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A small posterior prolapse may cause no signs or symptoms. Otherwise, you may notice:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A soft bulge of tissue in your vagina that may or may not protrude through the vaginal opening&lt;/li&gt;
+	&lt;li&gt;Difficulty having a bowel movement with the need to press your fingers on the bulge in your vagina to help push stool out during a bowel movement (&quot;splinting&quot;)&lt;/li&gt;
+	&lt;li&gt;Sensation of rectal pressure or fullness&lt;/li&gt;
+	&lt;li&gt;A feeling that the rectum has not completely emptied after a bowel movement&lt;/li&gt;
+	&lt;li&gt;Sexual concerns, such as feeling embarrassed or sensing looseness in the tone of your vaginal tissue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many women with posterior prolapse also experience related conditions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anterior prolapse, also known as cystocele,&lt;/strong&gt; when the front part of the vagina bulges &amp;mdash; most commonly it&apos;s the bladder that&apos;s bulging into the vagina&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apical prolapse, also known as enterocele,&lt;/strong&gt; when the top of the vagina is pushed down &amp;mdash; most commonly it&apos;s the small intestine that&apos;s bulging into the vagina&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine prolapse,&lt;/strong&gt; when the uterus pushes down into the vagina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+When a posterior prolapse is small, you don&apos;t need medical care. Posterior prolapse is common, even in women who haven&apos;t had children. In fact, you may not even know you have posterior prolapse.
+&lt;/p&gt;
+&lt;p&gt;
+In moderate or severe cases, however, posterior prolapse can be bothersome or uncomfortable. Make an appointment with your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a bothersome bulge of tissue that protrudes from within your vagina through your vaginal opening when you strain.&lt;/li&gt;
+	&lt;li&gt;Constipation treatment isn&apos;t successful at producing soft and easy-to-pass stool between three times a day to three times a week.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Upright posture&lt;/strong&gt;&lt;br /&gt;
+Animals that walk on four legs only rarely get posterior prolapse. The upright weight placed on a woman&apos;s pelvic floor is the main reason women experience posterior prolapse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Increased pelvic floor pressure&lt;/strong&gt;&lt;br /&gt;
+Other conditions and activities that increase the pressure already on the pelvic floor and can cause or contribute to posterior prolapse include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic constipation or straining with bowel movements&lt;/li&gt;
+	&lt;li&gt;Chronic cough or bronchitis&lt;/li&gt;
+	&lt;li&gt;Repeated heavy lifting&lt;/li&gt;
+	&lt;li&gt;Being overweight or obese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy and childbirth&lt;/strong&gt;&lt;br /&gt;
+Pregnancy and childbirth increase the risk of posterior prolapse. This is because the muscles, ligaments and fascia that hold and support your vagina become stretched and weakened during pregnancy, labor and delivery. As a result, the more pregnancies you have, the greater your chance of developing posterior prolapse. 
+&lt;/p&gt;
+&lt;p&gt;
+Not everyone who has had a baby develops posterior prolapse. Some women have very strong supporting muscles, ligaments and fascia in the pelvis and never have a problem. Women who have only had cesarean deliveries are less likely to develop posterior prolapse. But even if you haven&apos;t had children, you can develop posterior prolapse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of experiencing posterior prolapse:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Some women are born with weaker connective tissues in their pelvic area, making them naturally more likely to develop posterior prolapse. Others are born with stronger connective tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Childbirth.&lt;/strong&gt; If you have vaginally delivered multiple children, you have a higher risk of developing posterior prolapse. If you&apos;ve had tears in the tissue between the vaginal opening and anus (perineal tears) and incisions that extend the opening of the vagina (episiotomies) during childbirth, you may also be at higher risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; Your risk of posterior prolapse increases as you age because you naturally lose muscle mass, elasticity and nerve function as you grow older, causing muscles to stretch or weaken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; A high body mass index is linked to an increased risk of posterior prolapse. This is likely due to the chronic stress that excess body weight places on pelvic floor tissues.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or gynecologist if you have symptoms of posterior prolapse that bother you or interfere with your normal activities.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make note of key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of medications, vitamins or supplements you regularly take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a friend or relative along,&lt;/strong&gt; if possible. Having someone else there may help you remember important information or provide details on something that you missed during the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor,&lt;/strong&gt; listing the most important ones first in case time runs short.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For posterior prolapse, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What can I do at home to ease my symptoms?&lt;/li&gt;
+	&lt;li&gt;Should I follow any activity restrictions?&lt;/li&gt;
+	&lt;li&gt;What are my chances that the bulge will get bigger if I don&apos;t do anything?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the likelihood that the posterior prolapse will recur if I have it surgically treated?&lt;/li&gt;
+	&lt;li&gt;What are the risks of a surgical procedure?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During your appointment, don&apos;t hesitate to ask other questions as they occur to you.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;When did you first notice symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do you also have pelvic pain?&lt;/li&gt;
+	&lt;li&gt;Do you ever leak urine?&lt;/li&gt;
+	&lt;li&gt;Have you had a severe or ongoing cough?&lt;/li&gt;
+	&lt;li&gt;Do you do any heavy lifting in your job or daily activities?&lt;/li&gt;
+	&lt;li&gt;Do you strain during bowel movements?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications, vitamins or supplements do you take?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever had posterior prolapse or any other pelvic problems?&lt;/li&gt;
+	&lt;li&gt;How many children have you given birth to? Were your deliveries vaginal?&lt;/li&gt;
+	&lt;li&gt;Do you plan to have children in the future?&lt;/li&gt;
+	&lt;li&gt;Do you have any other concerns?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, your doctor diagnoses posterior prolapse during a pelvic examination of your vagina and rectum.
+&lt;/p&gt;
+&lt;p&gt;
+Possible tests for rectocele include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic exam.&lt;/strong&gt; During the exam, your doctor may ask you to bear down as if having a bowel movement. This may cause the posterior prolapse to bulge, so your doctor can assess its size and location. To check the strength of your pelvic muscles, you may also be instructed to tighten (contract) them, as if you&apos;re stopping the stream of urine. Your doctor may examine you while lying down and while standing up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questionnaire.&lt;/strong&gt; You may fill out a form that helps your doctor assess how far the bulge extends into your vagina and how much it affects your quality of life. Information gathered also helps guide treatment decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests usually aren&apos;t needed to diagnose posterior prolapse. Rarely, your doctor may identify something during the physical exam that needs further evaluation. In that case, you may have an imaging test, such as magnetic resonance imaging (MRI) or an X-ray exam, to determine the size of the tissue bulge and how efficiently your rectum empties (defecography).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment approaches depend on the severity of the posterior prolapse. Options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Observation.&lt;/strong&gt; If your posterior prolapse causes few or no obvious symptoms, you may not need treatment. Simple self-care measures, such as performing exercises called Kegels to strengthen your pelvic muscles, may provide symptom relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pessary.&lt;/strong&gt; A vaginal pessary is a plastic or rubber ring inserted into your vagina to support the bulging tissues. Several types of pessaries are available, including some you can remove to clean, and others your doctor must remove periodically to clean.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If the posterior prolapse protrudes outside your vagina and is especially bothersome, you may opt for surgery. Surgery to repair posterior prolapse will repair the tissue bulge, but it won&apos;t fix impaired bowel function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will likely suggest surgery if you have anterior, apical or uterine prolapse in addition to posterior prolapse. In these cases, surgical repair for each condition can be completed at the same time.
+&lt;/p&gt;
+&lt;p&gt;
+Using a vaginal approach, surgery usually consists of removing excess, stretched tissue that forms the posterior prolapse. Occasionally, the surgical repair may involve using a mesh patch to support and strengthen the wall between the rectum and vagina.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re thinking about becoming pregnant, delay surgery until after you&apos;re done having children. Using a pessary may help relieve your symptoms in the meantime.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Different types of pessaries 
+" Caption="Pessaries come in many shapes and sizes. The device fits into your vagina and provides support to vaginal tissues displaced by pelvic organ prolapse. Your doctor can fit you for a pessary and help you decide which type would best suit your needs. 
+" Height="60" Title="Pessary use" URI="/images/image_popup/thumbs/w7_pessarythu.jpg" Width="60" />
+				<Image Alt="Different types of pessaries 
+" Caption="Pessaries come in many shapes and sizes. The device fits into your vagina and provides support to vaginal tissues displaced by pelvic organ prolapse. Your doctor can fit you for a pessary and help you decide which type would best suit your needs. 
+" Height="756" Title="Pessary use" URI="/images/image_popup/w7_pessary.jpg" Width="400" />
+				<HTML>
+					Pessaries come in many shapes and sizes. The device fits into your vagina and provides support to vaginal tissues displaced by pelvic organ prolapse. Your doctor can fit you for a pessary and help ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the severity of the condition, these self-care measures may provide the relief you need:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Perform Kegel exercises to strengthen pelvic muscles and support the weakened vaginal wall (fascia).&lt;/li&gt;
+	&lt;li&gt;Avoid constipation by eating high-fiber foods and drinking plenty of fluids.&lt;/li&gt;
+	&lt;li&gt;Avoid bearing down to move your bowels. Rely on your natural colorectal function to empty your lower bowel.&lt;/li&gt;
+	&lt;li&gt;Avoid heavy lifting.&lt;/li&gt;
+	&lt;li&gt;Try to control coughing.&lt;/li&gt;
+	&lt;li&gt;Lose weight if you&apos;re overweight or obese.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Kegel exercises&lt;/strong&gt;&lt;br /&gt;
+Kegel exercises strengthen your pelvic floor muscles, which, in part, support the uterus, bladder and bowel. A strong pelvic floor provides better support for your pelvic organs, prevents prolapse from worsening, and relieves symptoms associated with posterior prolapse.
+&lt;/p&gt;
+&lt;p&gt;
+To perform Kegel exercises, follow these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tighten (contract) your pelvic floor muscles &amp;mdash; the muscles you use to stop urinating.&lt;/li&gt;
+	&lt;li&gt;Hold the contraction for five seconds, then relax for five seconds. (If this is too difficult, start by holding for two seconds and relaxing for three seconds.)&lt;/li&gt;
+	&lt;li&gt;Work up to holding the contractions for 10 seconds at a time.&lt;/li&gt;
+	&lt;li&gt;Aim for at least three sets of 10 repetitions each day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your health care provider for feedback on whether you&apos;re using the right muscles. Kegel exercises may be most successful when they&apos;re taught by a physical therapist and reinforced with biofeedback. Biofeedback involves using monitoring devices that help ensure you&apos;re tightening the proper muscles, with optimal intensity and length of time.
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;ve learned the proper method, you can do Kegel exercises discreetly just about anytime, whether you&apos;re sitting at your desk or relaxing on the couch.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of worsening posterior prolapse, try these self-care measures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Perform Kegel exercises on a regular basis.&lt;/strong&gt; These exercises can strengthen your pelvic floor muscles &amp;mdash; especially important after you have a baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat and prevent constipation.&lt;/strong&gt; Drink plenty of fluids and eat high-fiber foods, such as fruits, vegetables, beans and whole-grain cereals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid heavy lifting and lift correctly.&lt;/strong&gt; When lifting, use your legs instead of your waist or back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control coughing.&lt;/strong&gt; Get treatment for a chronic cough or bronchitis, and don&apos;t smoke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid weight gain.&lt;/strong&gt; Talk with your doctor to determine your ideal weight and get advice on weight-loss strategies, if you need them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Posterior prolapse (rectocele)
+	</Title>
+	<Abstract>
+		Posterior prolapse (rectocele) &amp;mdash; Comprehensive overview covers symptoms, complications and possible treatment, including surgical repair.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+	</RelatedLinksBox>
+</Disease>

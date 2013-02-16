@@ -1,0 +1,218 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00339
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00339
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			20708294-508B-D3DD-17AB94DD710C513C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten free
+			</MetaKeyword>
+			<MetaKeyword>
+				sauteed bananas
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &quot;The New Mayo Clinic Cookbook,&quot; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Sauteed bananas with caramel sauce
+	</Title>
+	<Abstract>
+		Sauteed bananas with a glaze of caramel sauce is a sweet ending to any dinner.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; With a glaze of caramel sauce, this banana dish is a sweet ending to any dinner. Rich-flavored walnut oil lends an exotic accent. Apple juice is a good substitute for the rum in a nonalcoholic version. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+To make the sauce, in a small saucepan melt the butter over medium heat. Whisk in the walnut oil, honey and brown sugar. Cook, stirring continuously until the sugar is dissolved, about 3 minutes. Stir in the milk, 1 tablespoon at a time, and then cook, stirring continuously until the sauce thickens slightly, about 3 minutes. Remove from the heat and stir in the raisins. Set aside and keep warm. 
+&lt;/p&gt;
+&lt;p&gt;
+Peel the bananas, and then cut each crosswise into 3 sections. Cut each section in half lengthwise. Lightly coat a large nonstick frying pan with the canola oil and place over medium-high heat. Add the bananas and saute until they begin to brown, 3 to 4 minutes. Transfer to a plate and keep warm. 
+&lt;/p&gt;
+&lt;p&gt;
+Add the rum to the pan, bring to a boil and deglaze the pan, stirring with a wooden spoon to scrape up any browned bits from the bottom of the pan. Cook until reduced by half, about 30 to 45 seconds. Return the bananas to the pan to rewarm. 
+&lt;/p&gt;
+&lt;p&gt;
+To serve, divide the bananas among individual bowls or plates. Drizzle with the warm sauce and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+For the sauce 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1 tablespoon butter &lt;/li&gt;
+	&lt;li&gt;1 tablespoon walnut oil (or canola oil) &lt;/li&gt;
+	&lt;li&gt;1 tablespoon honey &lt;/li&gt;
+	&lt;li&gt;2 tablespoons firmly packed brown sugar &lt;/li&gt;
+	&lt;li&gt;3 tablespoons 1 percent low-fat milk &lt;/li&gt;
+	&lt;li&gt;1 tablespoon dark raisins or golden raisins (sultanas) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;4 firm bananas, about 1 pound total weight &lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon canola oil &lt;/li&gt;
+	&lt;li&gt;2 tablespoons dark rum or apple juice &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				145
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				24 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				5 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				1 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				4 pieces banana and about 1 1/2 tablespoons sauce
+			</Servingsize>
+			<Sodium Label="Sodium">
+				22 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				1 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				6 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

@@ -1,0 +1,296 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01091
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chilblains/DS01091
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="2749" Title="Vascular">
+						<Keyword MCVID="2783" Title="Chilblains" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5A49F789-E7FF-0DBD-19B5D7E40AAA4C33
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chilblains
+			</MetaKeyword>
+			<MetaKeyword>
+				chilblaines
+			</MetaKeyword>
+			<MetaKeyword>
+				cold allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				pernio
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chilblains (CHILL-blayns) are the painful inflammation of small blood vessels in your skin that occur in response to sudden warming from cold temperatures. Also known as pernio, chilblains can cause itching, red patches, swelling and blistering on extremities, such as on your toes, fingers, ears and nose. 
+&lt;/p&gt;
+&lt;p&gt;
+Chilblains may get better on its own, especially as the weather gets warmer. Chilblains usually clear up within one to three weeks, though they may recur seasonally for years. Treatments typically consist of lotions and medication. While Chilblains don&apos;t usually result in permanent injury, they can lead to infection, which may cause severe damage if left untreated. 
+&lt;/p&gt;
+&lt;p&gt;
+The best approach to chilblains is to avoid developing them by limiting your exposure to cold, dressing warmly and covering exposed skin.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing chilblains 
+" Caption="Chilblains causes red, swollen skin, which appears several hours after exposure to extreme cold. The cause isn&apos;t known. 
+" Height="60" Title="Chilblains" URI="/images/image_popup/thumbs/ans7_chilblainsthu.jpg" Width="60" />
+				<Image Alt="Photograph showing chilblains 
+" Caption="Chilblains causes red, swollen skin, which appears several hours after exposure to extreme cold. The cause isn&apos;t known. 
+" Height="340" Title="Chilblains" URI="/images/image_popup/ans7_chilblains.jpg" Width="400" />
+				<HTML>
+					Chilblains causes red, swollen skin, which appears several hours after exposure to extreme cold. The cause isn&apos;t known. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of chilblains may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small, itchy red areas on your skin, often on your feet or hands&lt;/li&gt;
+	&lt;li&gt;Possible blistering&lt;/li&gt;
+	&lt;li&gt;Swelling of your skin&lt;/li&gt;
+	&lt;li&gt;Burning sensation on your skin&lt;/li&gt;
+	&lt;li&gt;Changes in skin color from red to dark blue, accompanied by pain&lt;/li&gt;
+	&lt;li&gt;Possible ulceration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Some people with chilblains never need to see a doctor &amp;mdash; they simply use lotions to help with the pain and itching. However, if the pain becomes too severe or the affected skin begins to look as if it might be infected, a doctor can help you treat it more effectively. Also, make sure to seek medical attention if your skin doesn&apos;t improve after a week or two. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have poor circulation or diabetes, see a doctor immediately after discovering chilblains to prevent possible complications.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing chilblains 
+" Caption="Chilblains causes red, swollen skin, which appears several hours after exposure to extreme cold. The cause isn&apos;t known. 
+" Height="60" Title="Chilblains" URI="/images/image_popup/thumbs/ans7_chilblainsthu.jpg" Width="60" />
+				<Image Alt="Photograph showing chilblains 
+" Caption="Chilblains causes red, swollen skin, which appears several hours after exposure to extreme cold. The cause isn&apos;t known. 
+" Height="340" Title="Chilblains" URI="/images/image_popup/ans7_chilblains.jpg" Width="400" />
+				<HTML>
+					Chilblains causes red, swollen skin, which appears several hours after exposure to extreme cold. The cause isn&apos;t known. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact reason chilblains occur is unknown. They may be an abnormal reaction of your body to cold exposure followed by rewarming. Rewarming of cold skin can cause small blood vessels under the skin to expand more quickly than nearby larger blood vessels can handle, resulting in a &quot;bottleneck&quot; effect and the blood leaking into nearby tissues. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of chilblains include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure of skin to cold.&lt;/strong&gt; Skin that&apos;s exposed to cold, damp conditions is more likely to develop chilblains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women are more likely to get chilblains, though why is not known.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being underweight.&lt;/strong&gt; People who weigh about 20 percent less than is expected for their height have an increased risk of chilblains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Where you live.&lt;/strong&gt; Ironically, chilblains are less likely in colder and drier areas because the living conditions and clothing used in these areas are more protective against cold. But, if you live in an area with high humidity and low, but not freezing, temperatures, your risk of chilblains is higher.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The time of year.&lt;/strong&gt; Chilblains are more common from early winter to spring. Chilblains often disappear completely in the spring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having poor circulation.&lt;/strong&gt; People with poor circulation tend to be more sensitive to changes in temperature, making them more susceptible to chilblains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having been diagnosed with Raynaud&apos;s phenomenon.&lt;/strong&gt; People with Raynaud&apos;s phenomenon, another cold-related condition that affects the extremities, are more susceptible to chilblains. Either condition can result in sores, but Raynaud&apos;s causes different types of color changes on the skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chilblains may cause complications if your skin blisters. If that happens, you may develop ulcers and infections. Besides being painful, infections are potentially life-threatening if left untreated. See a doctor if you suspect infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with chilblains don&apos;t need to see a doctor, but if you&apos;re in pain or suspect you might have an infection, see your primary care doctor. He or she may suggest treatment, or may refer you to a doctor who specializes in skin disorders (dermatologist) or circulatory disorders (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve noticed,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes or vacations to different climates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you ensure that you cover all of the points that are important to you. For chilblains, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems. How can I best manage these conditions together? &lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms get worse in response to quick changes in temperature?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had these symptoms before?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with Raynaud&apos;s phenomenon?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you&apos;re waiting to see your doctor, be sure to keep the affected area warm and clean. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment options for chilblains include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid creams.&lt;/strong&gt; Topical corticosteroids can help relieve itching and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prescription medication.&lt;/strong&gt; A blood pressure lowering drug called nifedipine (Adalat CC, Procardia) is sometimes used to treat the cause of chilblains, since it can help open up blood vessels. Another medication that helps improve blood flow that may be prescribed for chilblains is pentoxifylline (Trental).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection prevention.&lt;/strong&gt; If your skin has broken, treatment also includes cleaning and protecting your wounds to prevent infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chilblains usually clear up after one to three weeks. In the meantime, you can take steps to ease your symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoiding cold exposure whenever possible&lt;/li&gt;
+	&lt;li&gt;Keeping your affected skin warm, but away from sources of heat&lt;/li&gt;
+	&lt;li&gt;Using lotions to alleviate itching and swelling&lt;/li&gt;
+	&lt;li&gt;Making sure the affected skin is cleaned with an antiseptic and bandaged to prevent infection&lt;/li&gt;
+	&lt;li&gt;Avoiding scratching&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vitamin D was previously used as a treatment for chilblains, but research has shown this therapy doesn&apos;t work. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent chilblains: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid or limit your exposure to cold.&lt;/li&gt;
+	&lt;li&gt;Dress in warm layers of clothing.&lt;/li&gt;
+	&lt;li&gt;Cover all exposed skin as completely as possible when going outside in cold weather.&lt;/li&gt;
+	&lt;li&gt;Make sure you keep your hands, feet and face warm.&lt;/li&gt;
+	&lt;li&gt;Keep your home and workplace comfortably warm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your skin is exposed to cold, it&apos;s helpful to rewarm it gradually, since sudden rewarming of cold skin may worsen chilblains. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chilblains
+	</Title>
+	<Abstract>
+		Chilblains &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this skin and circulatory condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

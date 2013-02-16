@@ -1,0 +1,294 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00236
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colposcopy/MY00236
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-14
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3095" Title="Colposcopy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			05C62021-E7FF-0DBD-160B90F970B63F5E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colposcopy
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hpv
+			</MetaKeyword>
+			<MetaKeyword>
+				human papillomavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				directed biopsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colposcopy (kol-POS-kuh-pee) is a procedure to closely examine your cervix, vagina and vulva for signs of disease. During colposcopy, your doctor uses a special instrument called a colposcope. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend colposcopy if your Pap test has shown abnormal results. If your doctor finds an unusual area of cells during colposcopy, a sample of tissue can be collected for laboratory testing (biopsy). 
+&lt;/p&gt;
+&lt;p&gt;
+Many women experience anxiety before their colposcopy exams. Knowing what to expect during your colposcopy may help you feel more comfortable. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of colposcopy 
+" Caption="A trained specialist (colposcopist) positions the colposcope to examine your cervix, vagina and vulva for the presence of suspicious areas of tissue that might indicate cancer.
+" Height="60" Title="Colposcopy" URI="/images/image_popup/thumbs/w7_colposcopethu.jpg" Width="60" />
+				<Image Alt="Illustration of colposcopy 
+" Caption="A trained specialist (colposcopist) positions the colposcope to examine your cervix, vagina and vulva for the presence of suspicious areas of tissue that might indicate cancer.
+" Height="315" Title="Colposcopy" URI="/images/image_popup/w7_colposcope.jpg" Width="400" />
+				<HTML>
+					A trained specialist (colposcopist) positions the colposcope to examine your cervix, vagina and vulva for the presence of suspicious areas of tissue that might indicate cancer.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend colposcopy if a Pap test or pelvic exam revealed abnormalities. Colposcopy can be used to diagnose: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cervical cancer&lt;/li&gt;
+	&lt;li&gt;Genital warts&lt;/li&gt;
+	&lt;li&gt;Inflammation of the cervix (cervicitis)&lt;/li&gt;
+	&lt;li&gt;Precancerous changes in the tissue of the cervix&lt;/li&gt;
+	&lt;li&gt;Precancerous changes in the tissue of the vagina&lt;/li&gt;
+	&lt;li&gt;Precancerous changes of the vulva&lt;/li&gt;
+	&lt;li&gt;Vaginal cancer&lt;/li&gt;
+	&lt;li&gt;Vulvar cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vulva 
+" Caption="The vulva is the outer part of the female genitalia, including the labia and clitoris. 
+" Height="60" Title="Vulva" URI="/images/image_popup/thumbs/ans7_vulvathu.jpg" Width="60" />
+				<Image Alt="Illustration showing vulva 
+" Caption="The vulva is the outer part of the female genitalia, including the labia and clitoris. 
+" Height="400" Title="Vulva" URI="/images/image_popup/ans7_vulva.jpg" Width="400" />
+				<HTML>
+					The vulva is the outer part of the female genitalia, including the labia and clitoris. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colposcopy is a safe procedure that carries very few risks. Rarely, complications can occur, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heavy bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Pelvic pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to call your doctor&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms that may indicate complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding that is heavier than what you typically experience during your period&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Call your doctor if you experience any of these signs and symptoms after your colposcopy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for your colposcopy, your doctor may recommend that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid scheduling your colposcopy during your period.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t have vaginal intercourse the day or two before your colposcopy.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use tampons the day or two before your colposcopy.&lt;/li&gt;
+	&lt;li&gt;Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) before going to your colposcopy appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Coping with anxiety before your colposcopy&lt;/strong&gt; &lt;br /&gt;
+Many women experience anxiety as they wait for their colposcopy exams. Anxiety can make you feel generally uncomfortable. You may find it hard to concentrate, and you may have difficulty sleeping. 
+&lt;/p&gt;
+&lt;p&gt;
+Women who are very anxious about their colposcopy may experience more pain during the procedure than those who find ways to control and manage their anxiety. Women with high anxiety levels are also more likely to skip their colposcopy appointments. 
+&lt;/p&gt;
+&lt;p&gt;
+Accept that you&apos;ll feel some anxiety as you wait for your appointment, and find ways to cope. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask your doctor for brochures or pamphlets about colposcopy and what you can expect.&lt;/li&gt;
+	&lt;li&gt;Write down any questions or concerns you have about the procedure, and ask your doctor to review them with you before your colposcopy begins.&lt;/li&gt;
+	&lt;li&gt;Find activities that help you relax, such as exercise, meditation, and being with friends and family.&lt;/li&gt;
+	&lt;li&gt;Consider bringing a portable music device, such as an MP3 player, to your colposcopy appointment. Ask your doctor if it&apos;s OK if you listen to music quietly during the exam. Women may experience less pain and anxiety if they listen to music during colposcopy. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the colposcopy&lt;/strong&gt; &lt;br /&gt;
+Colposcopy is usually done in a doctor&apos;s office and the procedure typically takes 10 to 20 minutes. You&apos;ll lie on your back on a table with your feet in supports, just as during a pelvic exam or Pap test. 
+&lt;/p&gt;
+&lt;p&gt;
+The doctor places a metal speculum in your vagina. The speculum holds open the walls of your vagina so that your doctor can see your cervix. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor positions the special magnifying instrument, called a colposcope, a few inches away from your vulva. A bright light is shown into your vagina and your doctor looks through the lens, as if using binoculars. 
+&lt;/p&gt;
+&lt;p&gt;
+Your cervix and vagina are swabbed with cotton to clear away any mucus. Your doctor may apply a solution of vinegar or another type of solution to the area. This may cause a burning or tingling sensation. The solution helps highlight any areas of suspicious cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the biopsy&lt;/strong&gt; &lt;br /&gt;
+If your doctor finds a suspicious area, a small sample of tissue may be collected for laboratory testing. To collect the tissue, your doctor uses a sharp biopsy instrument to remove a small piece of tissue. If there are multiple suspicious areas, your doctor may take multiple biopsy samples. 
+&lt;/p&gt;
+&lt;p&gt;
+What you feel during a biopsy depends on what type of tissue is being removed: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cervical biopsy.&lt;/strong&gt; A cervical biopsy won&apos;t hurt, but you may feel some pressure or cramping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal biopsy.&lt;/strong&gt; Most of the vagina has little sensation and you won&apos;t feel pain during the biopsy. But a biopsy of the lower portion of the vagina or the vulva can cause pain, so your doctor may administer a local anesthetic to numb the area. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may apply a chemical to the biopsy area to limit bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the colposcopy&lt;/strong&gt; &lt;br /&gt;
+If your doctor didn&apos;t take a biopsy sample during your colposcopy, you won&apos;t have any restrictions on your activity once your exam is complete. You may experience some spotting or very light bleeding from your vagina in the next day or two. 
+&lt;/p&gt;
+&lt;p&gt;
+If you had a biopsy sample taken during your colposcopy, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vaginal or vulvar pain that lasts one or two days&lt;/li&gt;
+	&lt;li&gt;Light bleeding from your vagina that lasts a few days&lt;/li&gt;
+	&lt;li&gt;A dark discharge from your vagina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Use a pad to catch any blood or discharge. Avoid tampons, douching and having vaginal intercourse for a week after your biopsy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of colposcopy 
+" Caption="A trained specialist (colposcopist) positions the colposcope to examine your cervix, vagina and vulva for the presence of suspicious areas of tissue that might indicate cancer.
+" Height="60" Title="Colposcopy" URI="/images/image_popup/thumbs/w7_colposcopethu.jpg" Width="60" />
+				<Image Alt="Illustration of colposcopy 
+" Caption="A trained specialist (colposcopist) positions the colposcope to examine your cervix, vagina and vulva for the presence of suspicious areas of tissue that might indicate cancer.
+" Height="315" Title="Colposcopy" URI="/images/image_popup/w7_colposcope.jpg" Width="400" />
+				<HTML>
+					A trained specialist (colposcopist) positions the colposcope to examine your cervix, vagina and vulva for the presence of suspicious areas of tissue that might indicate cancer.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you leave your colposcopy appointment, ask your doctor when you can expect the results. Also ask for a phone number you may call in the event you don&apos;t hear back from your doctor within a specified time. 
+&lt;/p&gt;
+&lt;p&gt;
+The results of your colposcopy will determine whether you&apos;ll need any further testing and treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Colposcopy
+	</Title>
+	<Abstract>
+		Colposcopy &amp;mdash; Overview covers definition, risks, results of this procedure to examine cervical cells.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00090" LinkType="Internal" ObjectID="B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76" Title="Pap smear" Url="http://www.mayoclinic.com/health/pap-smear/MY00090" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,344 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00531
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/creutzfeldt-jakob-disease/DS00531
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-23
+		</UpdateDate>
+		<PublicationDate>
+			2004-05-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1589" Title="Prion">
+						<Keyword MCVID="2536" Title="Creutzfeldt Jakob disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A5D5AE8-677C-4E64-930730F3FC4B65F2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mad cow disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Creutzfeldt-Jakob disease
+			</MetaKeyword>
+			<MetaKeyword>
+				CJD
+			</MetaKeyword>
+			<MetaKeyword>
+				Creutzfeldt-Jacob disease
+			</MetaKeyword>
+			<MetaKeyword>
+				vC.J.D.
+			</MetaKeyword>
+			<MetaKeyword>
+				brain
+			</MetaKeyword>
+			<MetaKeyword>
+				prions
+			</MetaKeyword>
+			<MetaKeyword>
+				new variant CJD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Creutzfeldt-Jakob (KROITS-felt YAH-kobe) disease is a degenerative brain disorder that leads to dementia and, ultimately, death. Symptoms of Creutzfeldt-Jakob disease (CJD) sometimes resemble those of other dementia-like brain disorders, such as Alzheimer&apos;s, but Creutzfeldt-Jakob disease usually progresses much more rapidly. 
+&lt;/p&gt;
+&lt;p&gt;
+Creutzfeldt-Jakob disease captured public attention in the 1990s when some people in the United Kingdom developed a form of the disease &amp;mdash; variant CJD (vCJD) &amp;mdash; after eating meat from diseased cattle. However, &quot;classic&quot; Creutzfeldt-Jakob disease has not been linked to contaminated beef. 
+&lt;/p&gt;
+&lt;p&gt;
+Although serious, CJD is rare, and vCJD is the least common form. Worldwide, there is an estimated one case of Creutzfeldt-Jakob disease diagnosed per million people each year, most commonly in older adults.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Creutzfeldt-Jakob disease is marked by rapid mental deterioration, usually within a few months. Initial signs and symptoms of CJD typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Personality changes&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+	&lt;li&gt;Impaired thinking &lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Sudden, jerky movements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As the disease progresses, mental symptoms worsen. Most people eventually lapse into a coma. Heart failure, respiratory failure, pneumonia or other infections are generally the cause of death. The disease usually runs its course in about seven months, although a few people may live up to one or two years after diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+In people with the rarer vCJD, psychiatric symptoms may be more prominent in the beginning, with dementia &amp;mdash; the loss of the ability to think, reason and remember &amp;mdash; developing later in the course of the illness. In addition, this variant affects people at a younger age than classic CJD does, and appears to have a slightly longer duration &amp;mdash; 12 to 14 months. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Creutzfeldt-Jakob disease and its variants belong to a broad group of human and animal diseases known as transmissible spongiform encephalopathies (TSEs). The name derives from the spongy holes, visible under a microscope, that develop in affected brain tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of Creutzfeldt-Jakob disease and other TSEs appears to be abnormal versions of a kind of protein called a prion. Normally, these proteins are harmless, but when they&apos;re misshapen they become infectious and can wreak havoc on normal biological processes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How CJD is transmitted&lt;/strong&gt;&lt;br /&gt;
+The risk of CJD is low. The disease can&apos;t be transmitted through coughing or sneezing, touching, or sexual contact. The three ways it develops are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sporadically.&lt;/strong&gt; Most people with classic CJD develop the disease for no apparent reason. CJD that occurs without explanation is termed spontaneous CJD or sporadic CJD and accounts for the majority of cases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;By inheritance.&lt;/strong&gt; In the United States, about 5 to 10 percent of people with CJD have a family history of the disease or test positive for a genetic mutation associated with CJD. This type is referred to as familial CJD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;By contamination.&lt;/strong&gt; A small number of people have developed CJD after being exposed to infected human tissue during a medical procedure, such as a cornea or skin transplant. Also, because standard sterilization methods do not destroy abnormal prions, a few people have developed CJD after undergoing brain surgery with contaminated instruments. Cases of CJD related to medical procedures are referred to as iatrogenic CJD. Variant CJD is linked primarily to eating beef infected with bovine spongiform encephalopathy (BSE), the medical term for mad cow disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations comparing a normal prion with a diseased prion
+" Caption="Prions are proteins that occur naturally in the brains of animals and people. Normally, the proteins are harmless, but when they&apos;re misshapen, they can cause devastating illnesses such as BSE disease in cattle and Creutzfeldt-Jakob disease in humans.
+" Height="60" Title="Normal and diseased prions" URI="/images/image_popup/thumbs/r7_prionthu.jpg" Width="60" />
+				<Image Alt="Illustrations comparing a normal prion with a diseased prion
+" Caption="Prions are proteins that occur naturally in the brains of animals and people. Normally, the proteins are harmless, but when they&apos;re misshapen, they can cause devastating illnesses such as BSE disease in cattle and Creutzfeldt-Jakob disease in humans.
+" Height="252" Title="How prions fold" URI="/images/image_popup/r7_prion.jpg" Width="400" />
+				<HTML>
+					Prions are proteins that occur naturally in the brains of animals and people. Normally, the proteins are harmless, but when they&apos;re misshapen, they can cause devastating illnesses such as BSE disease ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of Creutzfeldt-Jakob disease occur for unknown reasons, and no risk factors can be identified. However, a few factors seem to be associated with different kinds of CJD. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Sporadic CJD tends to develop later in life, usually around the age of 60. Onset of familial CJD occurs only slightly earlier. On the other hand, vCJD has affected people at a much younger age, usually in their late 20s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; People with familial CJD have a genetic mutation that causes the disease. The disease is inherited in an autosomal dominant fashion, which means you need to inherit only one copy of the mutated gene, from either parent, to develop the disease. If you have the mutation, the chance of passing it on to your children is 50 percent. Genetic analysis in people with iatrogenic and variant CJD suggest that inheriting identical copies of certain variants of the prion gene may predispose a person to developing CJD if exposed to contaminated tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to contaminated tissue.&lt;/strong&gt; People who&apos;ve received human growth hormone derived from human pituitary glands or who&apos;ve had dura mater grafts may be at risk of iatrogenic CJD. The risk of contracting vCJD from eating contaminated beef is difficult to determine. In general, if countries are effectively implementing public health measures, the risk is virtually nonexistent.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with other causes of dementia, Creutzfeldt-Jakob disease profoundly affects the brain as well as the body, although CJD and its variants usually progress much more rapidly. People with CJD usually withdraw from friends and family and eventually lose the ability to recognize or relate to them in any meaningful way. They also lose the ability to care for themselves, and many eventually slip into a coma. The disease ultimately is fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+Physical complications, all of which may become life-threatening, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Respiratory failure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information you get during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. List your questions from most important to least important. For Creutzfeldt-Jakob disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What Web sites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions during your appointment at any time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had Creutzfeldt-Jakob disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Only a brain biopsy or an examination of brain tissue after death (autopsy) can confirm the presence of Creutzfeldt-Jakob disease. But doctors often can make an accurate diagnosis based on your medical and personal history, a neurological exam, and certain diagnostic tests. 
+&lt;/p&gt;
+&lt;p&gt;
+The exam is likely to reveal such characteristic symptoms as muscle twitching and spasms, abnormal reflexes, and coordination problems. People with CJD also may have areas of blindness and changes in visual-spatial perception. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, doctors commonly use these tests to help detect CJD: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electroencephalogram (EEG).&lt;/strong&gt; Using electrodes placed on your scalp, this test measures your brain&apos;s electrical activity. People with CJD and vCJD show a characteristically abnormal pattern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This technique uses radio waves and a magnetic field to create cross-sectional images of your head and body. It&apos;s especially useful in diagnosing brain disorders because of its high-resolution images of the brain&apos;s white matter and gray matter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal fluid tests.&lt;/strong&gt; Cerebral spinal fluid surrounds and cushions your brain and spinal cord. In a test called a lumbar puncture &amp;mdash; popularly known as a spinal tap &amp;mdash; doctors use a needle to withdraw a small amount of this fluid for testing. The presence of a particular protein in spinal fluid is often an indication of CJD or vCJD.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No effective treatment exists for Creutzfeldt-Jakob disease or any of its variants. A number of drugs have been tested &amp;mdash; including steroids, antibiotics and antiviral agents &amp;mdash; and have not shown benefits. For that reason, doctors focus on alleviating pain and other symptoms and on making people with these diseases as comfortable as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no known way to prevent sporadic CJD. If you have a family history of neurological disease, you may benefit from talking with a genetics counselor, who can help you sort through the risks associated with your particular situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing iatrogenic CJD&lt;/strong&gt;&lt;br /&gt;
+Hospitals and other medical institutions follow explicit policies to prevent iatrogenic CJD. These measures have included: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exclusive use of synthetic human growth hormone, rather than the kind derived from human pituitary glands&lt;/li&gt;
+	&lt;li&gt;Destruction of surgical instruments used on the brain or nervous tissue of someone with known or suspected CJD&lt;/li&gt;
+	&lt;li&gt;Single-use kits for spinal taps (lumbar punctures)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To help ensure the safety of the blood supply, people with a risk of exposure to CJD or vCJD aren&apos;t eligible to donate blood. This includes people who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a biological relative who has been diagnosed with CJD&lt;/li&gt;
+	&lt;li&gt;Have received a dura mater brain graft&lt;/li&gt;
+	&lt;li&gt;Have received human growth hormone&lt;/li&gt;
+	&lt;li&gt;Spent a total of at least three months in the United Kingdom from 1980 to 1996&lt;/li&gt;
+	&lt;li&gt;Spent five years or more in France from 1980 to the present&lt;/li&gt;
+	&lt;li&gt;Received a blood transfusion in the U.K. between 1980 and the present&lt;/li&gt;
+	&lt;li&gt;Have injected bovine insulin at any time since 1980&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing vCJD&lt;/strong&gt;&lt;br /&gt;
+The risk of contracting vCJD in the United States remains extremely low. So far, only three cases have been reported in the U.S. According to the Centers for Disease Control and Prevention, strong evidence suggests that these cases were acquired abroad &amp;mdash; two in the United Kingdom and one in Saudi Arabia. 
+&lt;/p&gt;
+&lt;p&gt;
+In the United Kingdom, where the majority of vCJD cases have occurred, fewer than 200 cases have been reported. After its first appearance in 1995, CJD incidence peaked between 1999 and 2000, and has been declining since. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Regulating potential sources of vCJD&lt;/strong&gt;&lt;br /&gt;
+Most countries have taken steps to prevent BSE-infected tissue from entering the food supply, including tight restrictions on importation of cattle from countries where BSE is common; restrictions on animal feed; strict procedures for dealing with sick animals; surveillance and testing methods for tracking cattle health; and restrictions on which parts of cattle can be processed for food. 
+&lt;/p&gt;
+&lt;p&gt;
+The risk of vCJD from the following sources is estimated to be extremely low: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccines.&lt;/strong&gt; Some parts of cows, including blood, enzymes and amino acids, are used to grow the bacteria and viruses needed to make certain vaccines. Not all vaccines are grown in cattle parts, however, and the Food and Drug Administration (FDA) recommends that companies producing such vaccines use cattle parts only from low-risk countries. These recommendations apply to cosmetics as well. The FDA keeps a listing on its website of companies that use cattle from countries that aren&apos;t classified as low-risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin.&lt;/strong&gt; Insulin sold in the United States isn&apos;t derived from cattle, but you&apos;re allowed to import beef insulin from other countries if you follow specific guidelines. Because there&apos;s no way to guarantee the safety of imported insulin, talk to your doctor about the best way to obtain insulin from sources outside the United States.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Creutzfeldt-Jakob disease
+	</Title>
+	<Abstract>
+		Creutzfeldt-Jakob disease &amp;mdash; Comprehensive overview covers definition, symptoms and diagnosis of CJD.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,83 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00438
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00438
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-25
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="1092" Title="Diseases and conditions">
+					<Keyword MCVID="1227" Title="Prevention">
+						<Keyword MCVID="1230" Title="Lifestyle prevention" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5C917D1D-E7FF-0DBD-195CC6BE492DA0FA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				saturated fat
+			</MetaKeyword>
+			<MetaKeyword>
+				trans fat
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart-healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Limit bad fats, one bite at a time
+	</Title>
+	<Body>
+		&lt;p&gt;Sure, you know that saturated and trans fats are bad for you. You also know that changing your eating habits can be tough. The good news is that you don&apos;t have to overhaul your diet overnight. Start by limiting the amount of solid fats, such as butter, margarine and shortening, you add to food when cooking and serving. Top your baked potato with salsa or low-fat yogurt rather than butter. Use low-sugar fruit spread on your toast instead of margarine. When it comes to heart-healthy eating, even minor changes can make a difference.&lt;/p&gt;
+	</Body>
+</HealthTip>

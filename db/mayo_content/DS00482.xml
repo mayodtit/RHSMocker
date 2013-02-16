@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00482
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/asbestosis/DS00482
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-07
+		</UpdateDate>
+		<PublicationDate>
+			2003-04-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2197" Title="Occupational lung">
+						<Keyword MCVID="2454" Title="Asbestosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			02A321FE-723B-438A-9833B14527F515C4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				asbestosis
+			</MetaKeyword>
+			<MetaKeyword>
+				asbestos
+			</MetaKeyword>
+			<MetaKeyword>
+				occupational lung disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asbestosis (as-bes-TOE-sis) is a breathing disorder caused by inhaling asbestos fibers. Prolonged accumulation of these fibers in your lungs can cause scarring of lung tissue and shortness of breath. Asbestosis symptoms can range from mild to severe, and usually don&apos;t appear until many years after exposure. 
+&lt;/p&gt;
+&lt;p&gt;
+Asbestos is a natural mineral product that&apos;s resistant to heat and corrosion. It was used extensively in the past in products such as insulation, fire-retardant materials, cement, and some vinyl floor tiles. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people with asbestosis acquired it on the job before the federal government began regulating the use of asbestos and asbestos products in the mid-1970s. Today, its handling is strictly regulated. Acquiring asbestosis is extremely unlikely if you follow your employer&apos;s safety procedures. Treatment focuses on relieving your symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="60" Title="Airways and air sacs of the lungs" URI="/images/image_popup/thumbs/r7_bronchiolesasbestosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="300" Title="Airways and air sacs of the lungs" URI="/images/image_popup/r7_bronchiolesasbestosis.jpg" Width="400" />
+				<HTML>
+					Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The effects of long-term exposure to asbestos typically don&apos;t show up for at least 20 to 30 years after initial exposure. Asbestosis signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shortness of breath.&lt;/strong&gt; The main symptom of asbestosis is shortness of breath. Initially, the shortness of breath occurs only with exertion, but eventually it will happen even while you&apos;re resting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coughing and chest pain.&lt;/strong&gt; As the disease progresses, you may experience a persistent dry cough and intermittent chest pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Finger deformity.&lt;/strong&gt; Advanced cases of asbestosis sometimes result in a finger deformity called clubbing, where the tips of the fingers spread out and become rounder. Many other types of health problems also can cause clubbing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have a history of exposure to asbestos and you&apos;re experiencing increasing shortness of breath, talk to your doctor about the possibility of asbestosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing clubbing of fingers
+" Caption="Clubbing of the fingers occurs most often in people who have heart or lung disorders that decrease the amount of oxygen in their blood. This causes the fingertips and fingernails to spread out and become rounder.
+" Height="60" Title="Clubbing of fingers" URI="/images/image_popup/thumbs/mcdc7_clubbingthu.jpg" Width="60" />
+				<Image Alt="Photo showing clubbing of fingers
+" Caption="Clubbing of the fingers occurs most often in people who have heart or lung disorders that decrease the amount of oxygen in their blood. This causes the fingertips and fingernails to spread out and become rounder.
+" Height="558" Title="Clubbing of fingers" URI="/images/image_popup/mcdc7_clubbing.jpg" Width="400" />
+				<HTML>
+					Clubbing of the fingers occurs most often in people who have heart or lung disorders that decrease the amount of oxygen in their blood. This causes the fingertips and fingernails to spread out and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you are exposed to high levels of asbestos dust over a long period of time, some of the airborne fibers can become lodged within your alveoli &amp;mdash; the tiny sacs inside your lungs where oxygen is exchanged for carbon dioxide in your blood. The asbestos fibers irritate and scar lung tissue, interfering with its ability to deliver oxygen to your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+As asbestosis progresses, more and more lung tissue becomes scarred. Eventually, your lung tissue becomes so stiff that it can&apos;t contract and expand normally. 
+&lt;/p&gt;
+&lt;p&gt;
+Smoking cigarettes appears to increase the retention of asbestos fibers in the lungs, and often results in a faster progression of the disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="60" Title="Airways and air sacs of the lungs" URI="/images/image_popup/thumbs/r7_bronchiolesasbestosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="300" Title="Airways and air sacs of the lungs" URI="/images/image_popup/r7_bronchiolesasbestosis.jpg" Width="400" />
+				<HTML>
+					Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Workers who were involved in mining, milling, manufacturing, installation or removal of asbestos products before the late 1970s are at risk of asbestosis. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Asbestos miners&lt;/li&gt;
+	&lt;li&gt;Aircraft and auto mechanics&lt;/li&gt;
+	&lt;li&gt;Building construction workers&lt;/li&gt;
+	&lt;li&gt;Workers removing asbestos insulation around steam pipes in older buildings&lt;/li&gt;
+	&lt;li&gt;Electricians&lt;/li&gt;
+	&lt;li&gt;Shipyard workers&lt;/li&gt;
+	&lt;li&gt;Boiler operators&lt;/li&gt;
+	&lt;li&gt;Railroad workers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In general, it&apos;s safe to be around materials that are made with asbestos as long as the asbestos fibers are contained to prevent them from escaping into the air. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you smoke and have asbestosis, your chance of developing lung cancer increases greatly. Tobacco smoke and asbestos both appear to contribute to each other&apos;s cancer-causing effects. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor for the disorder&apos;s most common symptom &amp;mdash; shortness of breath. He or she may refer you to a doctor specializing in lung problems (pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms and when did they start?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms stayed the same or gotten worse?&lt;/li&gt;
+	&lt;li&gt;What kind of work have you done in your career, starting from a young age through to the present? Be specific.&lt;/li&gt;
+	&lt;li&gt;Have you been involved in any home-remodeling projects or other building renovations occurring over a long period of time?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? If so, how much?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may want to bring along copies of past chest X-rays, so your doctor can directly compare old X-ray images with those from a current scan. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical exam, your doctor will use a stethoscope to listen carefully to your lungs. He or she may hear a crackling sound if you have asbestosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asbestosis can be difficult to diagnose because its signs and symptoms are similar to those of many other types of respiratory diseases. A variety of diagnostic tests may be needed to help pinpoint the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Asbestosis appears as excessive whiteness in your lung tissue. If the asbestosis is advanced, your entire lung may be affected, giving it a honeycomb appearance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans combine a series of X-ray views taken from many different angles to produce cross-sectional images of the bones and soft tissues inside your body. These scans generally provide greater detail and may help detect asbestosis in its early stages, even before it shows up on a chest X-ray.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary function tests&lt;/strong&gt; &lt;br /&gt;
+These tests determine how well your lungs are functioning. Pulmonary function tests measure how much air your lungs can hold and the airflow in and out of your lungs. For example, you may be asked to blow as hard as you can into an air-measurement device called a spirometer. Some pulmonary function tests can measure the amount of oxygen being transferred to your bloodstream. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
+				<Image Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
+				<HTML>
+					A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no treatment to reverse the effects of asbestos on the alveoli. Treatment focuses on preventing progression of the disease and relieving symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+People who have asbestosis-related breathing problems are sometimes helped by the use of prescription inhalers more commonly used by people who have asthma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; &lt;br /&gt;
+To ease difficulty breathing, your doctor may prescribe supplemental oxygen, which is delivered by thin plastic tubing that has two prongs that fit into your nostrils.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If your symptoms are severe, you may be a candidate for a lung transplant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you smoke, it&apos;s important to stop, particularly because of the extremely heightened risk of lung cancer. In addition, smoking may cause emphysema, which further reduces your lung reserves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; Because of your impaired lung condition, treat a cold or a bout of the flu promptly to avoid complications. Your doctor may advise you to receive flu and pneumonia vaccines.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reducing the level of exposure to asbestos is the best prevention against asbestosis. In the United States, federal law requires employers in industries that work with asbestos products &amp;mdash; such as construction and shipyard industries &amp;mdash; to monitor exposure levels, create regulated areas for asbestos work, and provide their employees with appropriate training, protective gear such as face masks, and decontamination hygiene areas. The laws also mandate regular medical exams to detect early asbestosis.
+&lt;/p&gt;
+&lt;p&gt;
+Many homes built before the 1970s contain asbestos in such items as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Building insulation&lt;/li&gt;
+	&lt;li&gt;Insulation for hot-water and steam pipes&lt;/li&gt;
+	&lt;li&gt;Soundproofing and decorative material sprayed on walls and ceilings&lt;/li&gt;
+	&lt;li&gt;Roofing and siding shingles&lt;/li&gt;
+	&lt;li&gt;Vinyl floor tiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Generally, there&apos;s no cause for concern as long as these materials are in good condition and you don&apos;t disturb them or cause them to disintegrate. It&apos;s when they&apos;re damaged that there&apos;s a danger of asbestos fibers being released into the air. And asbestosis occurs only after repeated exposure to a large amount of fibers over many years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Asbestosis
+	</Title>
+	<Abstract>
+		Asbestosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this chronic lung disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

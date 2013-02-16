@@ -1,0 +1,288 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00836
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spasmodic-torticollis/DS00836
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-08
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1408" Title="Neck and shoulder">
+						<Keyword MCVID="2616" Title="Torticollis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C9D8A1F2-E7FF-0DBD-140869F0BB3FDEF1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				torticollis
+			</MetaKeyword>
+			<MetaKeyword>
+				spasmodic torticollis
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical dystonia
+			</MetaKeyword>
+			<MetaKeyword>
+				focal dystonia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cervical dystonia, also called spasmodic torticollis, is a painful condition in which your neck muscles contract involuntarily, causing your head to twist or turn to one side. Cervical dystonia can also cause your head to uncontrollably tilt forward or backward.
+&lt;/p&gt;
+&lt;p&gt;
+A rare disorder that can occur at any age, even infancy, cervical dystonia most often occurs in middle-aged people, women more than men. Symptoms generally begin gradually and then reach a point where they don&apos;t get substantially worse.
+&lt;/p&gt;
+&lt;p&gt;
+There is no cure for cervical dystonia. The disorder sometimes resolves without treatment, but sustained remissions are uncommon. Injecting botulinum toxin into the affected muscles often reduces the signs and symptoms of cervical dystonia. Surgery may be appropriate in a few cases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The muscle contractions involved in cervical dystonia can cause your head to twist in a variety of directions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chin toward shoulder&lt;/li&gt;
+	&lt;li&gt;Ear toward shoulder&lt;/li&gt;
+	&lt;li&gt;Chin straight up&lt;/li&gt;
+	&lt;li&gt;Chin straight down&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The most common type of twisting associated with cervical dystonia is when your chin is pulled toward your shoulder. Some people experience a combination of abnormal head postures. A jerking motion of the head also may occur.
+&lt;/p&gt;
+&lt;p&gt;
+Most people who have cervical dystonia also experience neck pain that can radiate into the shoulders. The disorder also can cause headaches. In some people, the pain from cervical dystonia can be exhausting and disabling.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases of cervical dystonia, doctors don&apos;t know why some people develop the disorder and others don&apos;t. Some cases, however, appear to be linked to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Head, neck or shoulder injuries&lt;/li&gt;
+	&lt;li&gt;Certain drugs, notably specific antipsychotic or anti-nausea agents&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for cervical dystonia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; While the disorder can occur in people of any age, even children, it most commonly begins between the ages of 40 and 70.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Compared with men, women are nearly twice as likely to develop cervical dystonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If a close family member has cervical dystonia or some other type of dystonia, you are at higher risk of developing the disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people who start out with cervical dystonia eventually develop similar symptoms in neighboring regions, such as the shoulder or face. However, cervical dystonia in middle age does not expand to wide areas of the body, as may occur in children.
+&lt;/p&gt;
+&lt;p&gt;
+The disability and pain that can be caused by cervical dystonia may result in depression. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you might first discuss your symptoms with your family doctor, he or she may refer you to a neurologist &amp;mdash; a doctor who specializes in disorders of the brain and nervous system &amp;mdash; for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Because appointments can be brief, plan ahead and write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms, including when they started and if anything makes them better or worse&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had in the past, such as strokes or head injuries&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;In addition to conducting a physical exam, your doctor may also check your neurological health by testing your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Senses of touch and sight&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While the physical examination alone can often confirm a diagnosis of cervical dystonia, it&apos;s important to determine if there are underlying conditions causing your signs and symptoms. Tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood or urine tests.&lt;/strong&gt; These may reveal the presence of toxins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This type of imaging test may be used to identify and visualize tumors or evidence of stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; This test measures the electrical activity of muscles. EMG helps evaluate and diagnose muscle and nerve disorders and can help confirm whether you have cervical dystonia or another condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no cure for cervical dystonia. In some people, signs and symptoms may disappear without treatment, but recurrence is common. Treatment focuses on relieving the signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;People who have cervical dystonia often must use a combination of medications to reduce their signs and symptoms.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Botulinum toxin.&lt;/strong&gt; This paralyzing agent, often used to smooth facial wrinkles, can be injected directly into the neck muscles affected by cervical dystonia. Most people with cervical dystonia see an immediate improvement with this treatment, which usually must be repeated every three to four months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parkinson&apos;s drugs.&lt;/strong&gt; Medications used to combat the tremors associated with Parkinson&apos;s disease, including trihexyphenidyl and benztropine (Cogentin), may be used in combination with botulinum toxin injections. Frequent side effects include dry mouth, constipation, memory problems, reduced urinary stream or visual blurring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle relaxants.&lt;/strong&gt; These drugs often help a little, but also have side effects, most notably sedation, imbalance and mild cognitive impairment. Examples include diazepam (Valium, Diastat), lorazepam (Ativan), clonazepam (Klonopin) and baclofen (Lioresal).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain medications.&lt;/strong&gt; The pain from cervical dystonia may require drug treatment. This may range from over-the-counter pain relievers to prescription pain medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;The signs and symptoms of cervical dystonia are sometimes eased by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exercises that improve neck strength and flexibility&lt;/li&gt;
+	&lt;li&gt;Judicious use of a neck brace&lt;/li&gt;
+	&lt;li&gt;Training in stress management techniques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;If less invasive treatments don&apos;t help, your doctor may suggest surgery.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cutting muscles or nerves.&lt;/strong&gt; Surgery to cut the nerves or muscles responsible for the contorted posture associated with cervical dystonia can be performed to help those who no longer get benefit from botulinum toxin or medications. This is called selective denervation surgery and isn&apos;t widely available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deep brain stimulation (DBS).&lt;/strong&gt; In this surgical procedure, a thin, insulated wire into the brain through a small hole cut into the skull. The tip of this electrode is placed in the portion of the brain that controls movement. The electrode is connected, via a wire that passes under the skin, to a small battery pack in your chest. The battery pack is about the size of a pocket watch, and it sends electrical pulses to the electrode to interrupt the nerve signals making your head twist. DBS is used only in the most difficult of cervical dystonia cases.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cervical dystonia has no cure, but you can do a number of things to minimize its effects:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; Avoiding situations that cause stress or anxiety is important because stress tends to make your signs and symptoms worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get your rest.&lt;/strong&gt; Signs often disappear during sleep, so get plenty of rest. You may find relief by taking short breaks during your day to lie on your back and relax.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use heat.&lt;/strong&gt; Heat packs may help loosen the taut muscles in your neck and help with pain relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try touching.&lt;/strong&gt; Sensory tricks, such as touching the opposite side of your face or the back of your head, may cause spasms to stop temporarily. Different sensory tricks work for different people, and if you find one that works, it usually will continue to work for you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some types of alternative medicine techniques may help the medications prescribed to treat cervical dystonia work better or for longer periods of time. For example, massage or other strategies that tend to relieve muscle tension may be tried.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Severe cases of cervical dystonia may make you feel uncomfortable in social situations or even limit your abilities to accomplish everyday tasks such as driving. Many people with cervical dystonia feel isolated and depressed.
+&lt;/p&gt;
+&lt;p&gt;
+Remember that you&apos;re not alone. A number of organizations and support groups are dedicated to providing information and support for you and your family &amp;mdash; whether you have the disorder or you have a friend or family member who does. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may be able to suggest support groups available in your area, or there are a number of good sites on the Internet with information about local support groups. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cervical dystonia
+	</Title>
+	<Abstract>
+		Cervical dystonia &amp;mdash; Comprehensive overview covers causes, treatment of this painful contraction of neck muscles.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+	</RelatedLinksBox>
+</Disease>

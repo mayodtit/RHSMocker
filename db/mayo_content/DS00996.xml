@@ -1,0 +1,293 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00996
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ebola-virus/DS00996
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-18
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2547" Title="Viral hemorrhagic fevers">
+							<Keyword MCVID="4345" Title="Ebola virus and Marburg virus" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			528017DA-E7FF-0DBD-13A200985711E1EA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ebola
+			</MetaKeyword>
+			<MetaKeyword>
+				ebola virus
+			</MetaKeyword>
+			<MetaKeyword>
+				marburg
+			</MetaKeyword>
+			<MetaKeyword>
+				marburg virus
+			</MetaKeyword>
+			<MetaKeyword>
+				hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				ebola symptom
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ebola virus and Marburg virus are related viruses that cause hemorrhagic fevers &amp;mdash; illnesses marked by severe bleeding (hemorrhage), organ failure and, in many cases, death. Both Ebola virus and Marburg virus are native to Africa, where sporadic outbreaks have occurred for decades. 
+&lt;/p&gt;
+&lt;p&gt;
+Ebola virus and Marburg virus live in animal hosts, and humans can contract the viruses from infected animals. After the initial transmission, the viruses can spread from person to person through contact with body fluids or contaminated needles. 
+&lt;/p&gt;
+&lt;p&gt;
+No drug has been approved to treat Ebola virus or Marburg virus. People diagnosed with Ebola or Marburg virus receive supportive care and treatment for complications. Scientists are coming closer to developing vaccines for these deadly diseases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In Ebola virus and Marburg virus, signs and symptoms typically begin abruptly within five to 10 days of infection. Early signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Joint and muscle aches&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Over time, symptoms become increasingly severe and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea (may be bloody)&lt;/li&gt;
+	&lt;li&gt;Red eyes&lt;/li&gt;
+	&lt;li&gt;Raised rash&lt;/li&gt;
+	&lt;li&gt;Chest pain and cough&lt;/li&gt;
+	&lt;li&gt;Stomach pain&lt;/li&gt;
+	&lt;li&gt;Severe weight loss&lt;/li&gt;
+	&lt;li&gt;Bleeding from the nose, mouth, rectum, eyes and ears&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ebola virus has been found in African monkeys, chimps and other nonhuman primates. A milder strain of Ebola has been discovered in monkeys and pigs in the Philippines. Marburg virus has been found in monkeys, chimps and fruit bats in Africa. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Transmission from animals to humans&lt;/strong&gt; &lt;br /&gt;
+The virus can be transmitted to humans by exposure to an infected animal&apos;s bodily fluids. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood.&lt;/strong&gt; Butchering or eating infected animals can spread the viruses. Scientists who have operated on infected animals as part of their research have also contracted the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Waste products.&lt;/strong&gt; Tourists in certain African caves and some underground mine workers have been infected with the Marburg virus, possibly through contact with the feces or urine of infected bats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Transmission from person to person&lt;/strong&gt; &lt;br /&gt;
+Infected people typically don&apos;t become contagious until they develop symptoms. Family members are often infected as they care for sick relatives or prepare the dead for burial. 
+&lt;/p&gt;
+&lt;p&gt;
+Medical personnel can be infected if they don&apos;t use protective gear such as surgical masks and latex gloves. Medical centers in Africa are often so poor that they must reuse needles and syringes. Some of the worst Ebola epidemics have occurred because contaminated injection equipment wasn&apos;t sterilized between uses. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no evidence that Ebola virus or Marburg virus can be spread via insect bites. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people &amp;mdash; including international travelers &amp;mdash; the risk of getting Ebola or Marburg hemorrhagic fever is low. The risk increases if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Travel to Africa.&lt;/strong&gt; You&apos;re at increased risk if you visit or work in areas where Ebola virus or Marburg virus outbreaks have occurred in the past.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conduct animal research.&lt;/strong&gt; People are more likely to contract the Ebola or Marburg virus if they conduct animal research with monkeys imported from Africa or the Philippines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide medical or personal care.&lt;/strong&gt; Family members are often infected as they care for sick relatives. Medical personnel also can be infected if they don&apos;t use protective gear such as surgical masks and latex gloves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare people for burial.&lt;/strong&gt; The bodies of people who have died of Ebola or Marburg hemorrhagic fever are still contagious. Helping prepare these bodies for burial can increase your risk of developing the disease yourself.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Both Ebola and Marburg hemorrhagic fevers lead to death for a high percentage of people who are affected. As the illness progresses, it can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiple organ failure&lt;/li&gt;
+	&lt;li&gt;Severe bleeding&lt;/li&gt;
+	&lt;li&gt;Jaundice&lt;/li&gt;
+	&lt;li&gt;Delirium&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+	&lt;li&gt;Shock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+One reason the viruses are so deadly is that they interfere with the immune system&apos;s ability to mount a defense. But scientists don&apos;t understand why some people recover from Ebola and Marburg and others don&apos;t. 
+&lt;/p&gt;
+&lt;p&gt;
+For people who survive, recovery is slow. It may take months to regain weight and strength, and the viruses remain in the body for many weeks. People may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hair loss&lt;/li&gt;
+	&lt;li&gt;Sensory changes&lt;/li&gt;
+	&lt;li&gt;Liver inflammation (hepatitis)&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Eye inflammation&lt;/li&gt;
+	&lt;li&gt;Testicular inflammation&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The possibility of contracting Marburg or Ebola virus is extremely low unless you&apos;ve had direct contact with the body fluids of an infected person or animal. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think that you or a family member may have been exposed to one of the viruses, call your doctor or go to the nearest emergency room immediately. If you&apos;re not referred to an infectious disease specialist, ask to see one. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re traveling or working abroad, the nearest U.S. Embassy can help you find a doctor. Be sure to tell your doctor or hospital about your symptoms before your visit so that precautions can be taken to prevent transmission of the virus to others. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, to help your doctor find the cause of your symptoms as quickly as possible, write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms do you have? When did they start?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled in Africa? If so, where exactly?&lt;/li&gt;
+	&lt;li&gt;If you were recently in Africa, did you hunt or eat any monkeys?&lt;/li&gt;
+	&lt;li&gt;Have you recently been in any caves or underground mines in Africa?&lt;/li&gt;
+	&lt;li&gt;Are you employed in a lab that uses monkeys in research? If so, do these monkeys come from Africa?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If possible, take a family member or friend with you. Sometimes it can be difficult to absorb all the information provided to you in the hospital or during an appointment. Someone who accompanies you may remember something that you missed or forgot. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ebola and Marburg hemorrhagic fevers are difficult to diagnose because many of the early signs and symptoms resemble those of other infectious diseases, such as typhoid and malaria. But if doctors suspect that you have been exposed to Ebola virus or Marburg virus, they use laboratory tests that can identify the viruses within a few days. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people with Ebola or Marburg hemorrhagic fever have high concentrations of the virus in their blood. Blood tests known as enzyme-linked immunosorbent assay (ELISA) and reverse transcriptase polymerase chain reaction (PCR) can detect specific genes or the virus or antibodies to them. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No antiviral medications have proved effective in treating Ebola virus or Marburg virus infection. As a result, treatment consists of supportive hospital care. This includes providing fluids, maintaining adequate blood pressure, replacing blood loss and treating any other infections that develop. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prevention efforts focus on avoiding contact with the viruses. The following precautions can help prevent infection and spread of Ebola and Marburg. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid traveling to areas of known outbreaks.&lt;/strong&gt; Before traveling to Africa, find out about any current epidemics by checking the Centers for Disease Control and Prevention website.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands frequently.&lt;/strong&gt; As with other infectious diseases, one of the most important preventive measures for Ebola virus and Marburg virus is frequent hand-washing. Use soap and water, or use alcohol-based hand rubs containing at least 60 percent alcohol when soap and water aren&apos;t available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid bush meat.&lt;/strong&gt; In developing countries, wild animals, including nonhuman primates, are sold in local markets. Avoid buying or eating any of these animals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid contact with infected people.&lt;/strong&gt; In particular, caregivers should avoid contact with the person&apos;s body fluids and tissues, including blood, semen, vaginal secretions and saliva. People with Ebola or Marburg are most contagious in the later stages of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow infection-control procedures.&lt;/strong&gt; If you&apos;re a health care worker, wear protective clothing &amp;mdash; such as gloves, masks, gowns and eye shields. Keep infected people isolated from others. Carefully disinfect and dispose of needles and other instruments. Injection needles and syringes should not be reused.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t handle remains.&lt;/strong&gt; The bodies of people who have died of Ebola or Marburg disease are still contagious. Specially organized and trained teams should bury the remains, using appropriate safety equipment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccine development&lt;/strong&gt; &lt;br /&gt;
+Scientists are working on a variety of vaccines that would protect people from Ebola or Marburg viruses. Some of the results have been promising, but further testing is needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ebola virus and Marburg virus
+	</Title>
+	<Abstract>
+		Ebola virus and Marburg virus &amp;mdash; Comprehensive overview covers causes, symptoms of these deadly viruses.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00539" LinkType="Internal" ObjectID="C65023FF-F803-4E0C-AB468CB9127EB3C9" Title="Viral hemorrhagic fevers" Url="http://www.mayoclinic.com/health/viral-hemorrhagic-fevers/DS00539" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+		<LinkItem ContentType="Disease" DocID="DS00975" LinkType="Internal" ObjectID="7F6DD57E-E7FF-0DBD-1ABC5BABB890BFAC" Title="Hiccups" Url="http://www.mayoclinic.com/health/hiccups/DS00975" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00315
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00315
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3293" Title="Winter holidays" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="4016" Title="Stress relief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FCA950A1-E7FF-0DBD-164A8644166E7E86
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				holiday stress
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Holidays don&apos;t have to break the bank
+	</Title>
+	<Body>
+		&lt;p&gt;Before the holiday shopping season starts, decide how much you can afford to spend. If money is tight, try these alternatives: Suggest drawing names for a family gift exchange. Make gifts, such as certificates for a home-cooked meal or an evening of baby-sitting. Donate canned goods to a local food shelf in lieu of gifts. Remember, the best parts of the holiday season rarely come wrapped in a box. Treasured memories are the gifts that last.&lt;/p&gt;
+	</Body>
+</HealthTip>

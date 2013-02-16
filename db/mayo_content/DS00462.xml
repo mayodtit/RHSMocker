@@ -1,0 +1,405 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00462
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/burning-mouth-syndrome/DS00462
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-07
+		</UpdateDate>
+		<PublicationDate>
+			2002-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="3168" Title="Burning mouth syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4E7AF27F-25B0-43D0-90383E896030B033
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				burning mouth syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth pain
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				burning mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				oral pain
+			</MetaKeyword>
+			<MetaKeyword>
+				glossodynia
+			</MetaKeyword>
+			<MetaKeyword>
+				stomatodynia
+			</MetaKeyword>
+			<MetaKeyword>
+				tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				burning tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				burning lips
+			</MetaKeyword>
+			<MetaKeyword>
+				scalded mouth syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				dry mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				metallic taste in mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				metal taste in mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				bad taste in mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				bitter taste in mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				tongue pain
+			</MetaKeyword>
+			<MetaKeyword>
+				sore tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				sore mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth discomfort
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Burning mouth syndrome is the medical term for ongoing (chronic) or recurrent burning in the mouth without an obvious cause. The discomfort may affect your tongue, gums, lips, inside of your cheeks, roof of your mouth or widespread areas of your whole mouth. Burning mouth syndrome appears suddenly and can be severe, as if you scalded your mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, the cause of burning mouth syndrome often can&apos;t be determined. Although that makes treatment more difficult, don&apos;t despair. By working closely with your health care team, you can often get burning mouth syndrome under better control. 
+&lt;/p&gt;
+&lt;p&gt;
+Other names for burning mouth syndrome include scalded mouth syndrome, burning tongue syndrome, burning lips syndrome, stomatodynia and glossodynia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of burning mouth syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A burning sensation that most commonly affects your tongue, but may also affect your lips, gums, palate, throat or whole mouth&lt;/li&gt;
+	&lt;li&gt;A sensation of dry mouth with increased thirst&lt;/li&gt;
+	&lt;li&gt;Taste changes, such as a bitter or metallic taste&lt;/li&gt;
+	&lt;li&gt;Loss of taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The discomfort from burning mouth syndrome typically has several different patterns. It may occur every day, with little discomfort when you wake, but become worse as the day progresses. Or it may start as soon as you wake up and last all day. Or discomfort may come and go. 
+&lt;/p&gt;
+&lt;p&gt;
+Whatever pattern of mouth discomfort you have, burning mouth syndrome may last for months to years. In rare cases, symptoms may suddenly go away on their own or become less frequent. Burning mouth syndrome usually doesn&apos;t cause any noticeable physical changes to your tongue or mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have discomfort, burning or soreness of your tongue, lips, gums or other areas of your mouth, see your doctor or dentist. They may need to work together to help pinpoint a cause and develop an effective treatment plan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of burning mouth syndrome can be classified as either primary or secondary.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary burning mouth syndrome&lt;br /&gt;
+&lt;/strong&gt;When no clinical or lab abnormalities can be identified, the condition is called primary or idiopathic burning mouth syndrome. Some research suggests that primary burning mouth syndrome is related to problems with taste and sensory nerves of the peripheral or central nervous system.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary burning mouth syndrome&lt;br /&gt;
+&lt;/strong&gt;Sometimes burning mouth syndrome is caused by an underlying medical condition. In these cases, it&apos;s called secondary burning mouth syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+Underlying problems that may be linked to secondary burning mouth syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dry mouth (xerostomia),&lt;/strong&gt; which can be caused by various medications, health problems, problems with salivary gland function or the side effects of cancer treatment&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other oral conditions,&lt;/strong&gt; such as a fungal infection of the mouth (oral thrush), an inflammatory condition called oral lichen planus, or a condition called geographic tongue that gives the tongue a map-like appearance&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nutritional deficiencies,&lt;/strong&gt; such as lack of iron, zinc, folate (vitamin B-9), thiamin (vitamin B-1), riboflavin (vitamin B-2), pyridoxine (vitamin B-6) and cobalamin (vitamin B-12)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dentures,&lt;/strong&gt; especially if they don&apos;t fit well, which can place stress on some muscles and tissues of your mouth, or if they contain materials that irritate mouth tissues&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergies or reactions&lt;/strong&gt; to foods, food flavorings, other food additives, fragrances, dyes or dental-work substances&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reflux of stomach acid (gastroesophageal reflux disease or GERD)&lt;/strong&gt; that enters your mouth from your stomach&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications,&lt;/strong&gt; particularly high blood pressure medications called angiotensin-converting enzyme (ACE) inhibitors&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral habits,&lt;/strong&gt; such as tongue thrusting, biting the tip of the tongue and teeth grinding (bruxism)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endocrine disorders,&lt;/strong&gt; such as diabetes or underactive thyroid (hypothyroidism)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive mouth irritation,&lt;/strong&gt; which may result from overbrushing your tongue, using abrasive toothpastes, overusing mouthwashes or having too many acidic drinks, such as lemon&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological factors, &lt;/strong&gt;such as anxiety, depression or stress&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Burning mouth syndrome is uncommon. However, your risk may be greater if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re a woman&lt;/li&gt;
+	&lt;li&gt;You&apos;re postmenopausal&lt;/li&gt;
+	&lt;li&gt;You&apos;re in your 50s, 60s or even 70s.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Burning mouth syndrome usually begins spontaneously, with no known triggering factor. But some studies suggest that certain factors may increase your risk of developing burning mouth syndrome. These risk factors may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Upper respiratory tract infection&lt;/li&gt;
+	&lt;li&gt;Previous dental procedures&lt;/li&gt;
+	&lt;li&gt;Allergic reactions to food&lt;/li&gt;
+	&lt;li&gt;Medications&lt;/li&gt;
+	&lt;li&gt;Traumatic life events&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications that burning mouth syndrome may cause or be associated with are mainly related to discomfort. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty falling asleep&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Difficulty eating&lt;/li&gt;
+	&lt;li&gt;Decreased socializing&lt;/li&gt;
+	&lt;li&gt;Impaired relationships&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or dentist for mouth discomfort. Because burning mouth syndrome is associated with such a wide variety of other medical conditions, your doctor or dentist may refer you to another specialist, such as a skin doctor (dermatologist), a doctor who specializes in ear, nose and throat problems (ENT) or another type of doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Here&apos;s some information to help you get ready for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask if there&apos;s anything you need to do before the appointment,&lt;/strong&gt; such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to your mouth discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins, herbs or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a copy of all previous consultations and tests&lt;/strong&gt; you&apos;ve had about this problem. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare questions ahead of time&lt;/strong&gt; to help make the most of your time with your doctor or dentist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend with you,&lt;/strong&gt; if possible, for support and to help you remember everything.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor or dentist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my mouth discomfort likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any printed materials that I can have? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor or dentist is likely to ask you a number of questions, such as those below. Be ready to answer them to make the most of your time.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no one test that can determine if you have burning mouth syndrome. Instead, your doctor or dentist will try to rule out other problems before diagnosing burning mouth syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor or dentist will review your medical history and medications, examine your mouth, and ask you to describe your symptoms, oral habits and oral care routine. In addition, your doctor will likely perform a general medical exam, looking for signs of other conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+You may have some of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests can check your complete blood count, glucose level, thyroid function, nutritional factors and immune functioning, all of which may provide clues about the source of your mouth discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral cultures or biopsies.&lt;/strong&gt; Taking samples from your mouth can tell whether you have a fungal, bacterial or viral infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy tests. &lt;/strong&gt;Your doctor may suggest allergy testing to see if you may be allergic to certain foods, additives or even substances in dentures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Salivary measurements.&lt;/strong&gt; With burning mouth syndrome, you may feel that you have a dry mouth. Salivary tests can confirm whether you have a reduced salivary flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastric reflux tests.&lt;/strong&gt; These can determine if you have gastroesophageal reflux disease (GERD).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging.&lt;/strong&gt; Your doctor may recommend an MRI, CT scan or other imaging tests to check for other health problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Temporarily stopping medication.&lt;/strong&gt; If you take medications that may contribute to mouth discomfort, your doctor may suggest temporarily stopping those medications, if possible, to see if your discomfort goes away. Don&apos;t try this on your own, since it can be dangerous to stop some medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological questionnaires.&lt;/strong&gt; You may be asked to fill out questionnaires that can help determine if you have symptoms of depression, anxiety or other mental health conditions. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no one sure way to treat primary burning mouth syndrome, and solid research on the most effective methods is lacking. Treatment depends on your particular signs and symptoms, as well as any underlying conditions that may be causing your mouth discomfort.
+&lt;/p&gt;
+&lt;p&gt;
+For example, replacing poorly fitting dentures or taking supplements for a vitamin deficiency may relieve your discomfort. That&apos;s why it&apos;s important to try to pinpoint the cause. Once any underlying causes are treated, your burning mouth syndrome symptoms should get better.
+&lt;/p&gt;
+&lt;p&gt;
+If a cause can&apos;t be found, treatment can be challenging. There&apos;s no known cure for primary burning mouth syndrome, so treatment is aimed at controlling the symptoms. You may need to try several treatment methods before finding one or a combination that helps reduce your mouth discomfort. Treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Saliva replacement products&lt;/li&gt;
+	&lt;li&gt;Specific oral rinses or lidocaine&lt;/li&gt;
+	&lt;li&gt;Capsaicin, a pain reliever that comes from chili peppers&lt;/li&gt;
+	&lt;li&gt;An anticonvulsant medication called clonazepam (Klonopin)&lt;/li&gt;
+	&lt;li&gt;Certain antidepressants&lt;/li&gt;
+	&lt;li&gt;Medications that block nerve pain&lt;/li&gt;
+	&lt;li&gt;Cognitive behavioral therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to medical treatment and prescription medications, self-help measures may improve your symptoms. You may find these beneficial for reducing chronic mouth discomfort: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drink more fluids, to help ease the feeling of dry mouth, but avoid carbonated beverages.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use tobacco products.&lt;/li&gt;
+	&lt;li&gt;Avoid alcohol and products with alcohol, as they may irritate the lining of your mouth. &lt;/li&gt;
+	&lt;li&gt;Avoid products with cinnamon or mint.&lt;/li&gt;
+	&lt;li&gt;Avoid spicy-hot foods.&lt;/li&gt;
+	&lt;li&gt;Avoid acidic foods and liquids, such as tomatoes, orange juice, soft drinks and coffee.&lt;/li&gt;
+	&lt;li&gt;Try different mild or flavor-free brands of toothpaste, such as one for sensitive teeth or one without mint or cinnamon.&lt;/li&gt;
+	&lt;li&gt;Take steps to reduce excessive stress.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Burning mouth syndrome can be uncomfortable and frustrating. It can reduce your quality of life if you don&apos;t take steps to stay positive and hopeful.
+&lt;/p&gt;
+&lt;p&gt;
+Consider some of these techniques to help cope with the chronic discomfort of burning mouth syndrome:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Practice relaxation exercises, such as yoga.&lt;/li&gt;
+	&lt;li&gt;Join a chronic pain support group.&lt;/li&gt;
+	&lt;li&gt;Engage in pleasurable activities, such as physical activities or hobbies, especially when you feel anxious.&lt;/li&gt;
+	&lt;li&gt;Try to stay socially active by connecting with understanding family and friends.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to prevent burning mouth syndrome. But by avoiding tobacco, acidic foods, spicy foods and carbonated beverages, and excessive stress, you may be able to reduce the discomfort from burning mouth syndrome or prevent your discomfort from getting worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Burning mouth syndrome
+	</Title>
+	<Abstract>
+		Burning mouth syndrome &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this oral condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Disease>

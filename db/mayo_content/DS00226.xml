@@ -1,0 +1,455 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00226
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/encephalitis/DS00226
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-05
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1769" Title="Infection">
+						<Keyword MCVID="2933" Title="Encephalitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A63631AF-C85E-40BB-A5BD3F9EC09245C7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				brain inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				viral encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				mosquito
+			</MetaKeyword>
+			<MetaKeyword>
+				tick
+			</MetaKeyword>
+			<MetaKeyword>
+				brain
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebrospinal fluid
+			</MetaKeyword>
+			<MetaKeyword>
+				lacrosse encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				West Nile virus
+			</MetaKeyword>
+			<MetaKeyword>
+				St. Louis encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Western equine encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Eastern equine encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Powassan encephalitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Encephalitis (en-sef-uh-LI-tis) is inflammation of the brain. Viral infections are the most common cause of the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Encephalitis can cause flu-like symptoms, such as a fever or severe headache, as well as confused thinking, seizures, or problems with senses or movement. Many cases of encephalitis may go unnoticed because they result in only mild flu-like symptoms or even no symptoms. Severe cases of encephalitis, while relatively rare, can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Because the course of any single case of encephalitis is relatively unpredictable, it&apos;s important to get a timely diagnosis and treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with viral encephalitis have either no symptoms or mild flu-like symptoms, such as the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Aches in muscles or joints&lt;/li&gt;
+	&lt;li&gt;Fatigue or weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More-serious cases require prompt medical care. Signs and symptoms may include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Altered consciousness&lt;/li&gt;
+	&lt;li&gt;Confusion or agitation&lt;/li&gt;
+	&lt;li&gt;Personality changes&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Loss of sensation or paralysis in certain areas of the body&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Double vision&lt;/li&gt;
+	&lt;li&gt;Perception of foul smells&lt;/li&gt;
+	&lt;li&gt;Problems with speech or hearing&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms in infants and young children may also include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bulging in the soft spots (fontanels) of the skull in infants&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Body stiffness&lt;/li&gt;
+	&lt;li&gt;Constant, inconsolable crying&lt;/li&gt;
+	&lt;li&gt;Crying that worsens when the child is picked up&lt;/li&gt;
+	&lt;li&gt;Poor feeding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Get immediate care if you or someone you know is experiencing any of the symptoms associated with more-severe cases of encephalitis. Severe headache, fever and altered consciousness &amp;mdash; almost always present with encephalitis in older children and adults &amp;mdash; require urgent care. 
+&lt;/p&gt;
+&lt;p&gt;
+Infants and young children with any signs or symptoms of encephalitis should receive urgent care. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing soft spots (fontanels) of a baby&apos;s skull 
+" Caption="One of the major signs of encephalitis in infants is bulging of the soft spots (fontanels) of the baby&apos;s skull. Pictured here is the anterior fontanel. Other fontanels are found on the sides and back of an infant&apos;s head. 
+" Height="60" Title="Fontanels" URI="/images/image_popup/thumbs/r7_encephfontanellesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing soft spots (fontanels) of a baby&apos;s skull 
+" Caption="One of the major signs of encephalitis in infants is bulging of the soft spots (fontanels) of the baby&apos;s skull. Pictured here is the anterior fontanel. Other fontanels are found on the sides and back of an infant&apos;s head. 
+" Height="322" Title="Fontanels" URI="/images/image_popup/r7_encephfontanelles.jpg" Width="400" />
+				<HTML>
+					One of the major signs of encephalitis in infants is bulging of the soft spots (fontanels) of the baby&apos;s skull. Pictured here is the anterior fontanel. Other fontanels are found on the sides and back ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of encephalitis is often unknown, but the most commonly diagnosed cause is a viral infection. Known causes of encephalitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Viruses&lt;/li&gt;
+	&lt;li&gt;Bacteria&lt;/li&gt;
+	&lt;li&gt;Fungi&lt;/li&gt;
+	&lt;li&gt;Parasites&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An infection may result in one of two conditions affecting the brain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Primary encephalitis&lt;/strong&gt; occurs when a virus or other infectious agent directly infects the brain. The infection may be concentrated in one area or widespread. A primary infection may be a reactivation of a virus that had been inactive (latent) after a previous illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary (post-infectious) encephalitis&lt;/strong&gt; is a faulty immune system reaction in response to an infection elsewhere in the body. This likely occurs when disease-fighting proteins enlisted to fight an infection mistakenly attack molecules in the brain. Secondary encephalitis often occurs two to three weeks after the initial infection. Rarely, secondary encephalitis occurs as a complication of vaccination against a viral infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Common viral causes&lt;br /&gt;
+&lt;/strong&gt;Common causes of encephalitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Herpes simplex virus.&lt;/strong&gt; There are two types of herpes simplex virus (HSV). HSV type 1 (HSV-1) more commonly causes cold sores or fever blisters around your mouth, and HSV type 2 (HSV-2) more commonly causes genital herpes. While HSV-1 encephalitis is rare, it has the potential to cause significant brain damage or death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other herpes viruses.&lt;/strong&gt; Other herpes viruses that may cause encephalitis include the Epstein-Barr virus, which commonly causes infectious mononucleosis, and the varicella-zoster virus, which commonly causes chickenpox and shingles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enteroviruses.&lt;/strong&gt; These viruses include the poliovirus and the coxsackievirus, which usually causes an illness with flu-like symptoms, eye inflammation and abdominal pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mosquito-borne viruses.&lt;/strong&gt; Arboviruses, or arthropod-borne viruses, are transmitted by mosquitoes or other blood-sucking insects. Mosquito-borne viruses can cause infections that include West Nile, La Crosse, St. Louis, western equine and eastern equine encephalitis. Mosquitoes transfer the virus from a nonhuman host &amp;mdash; such as a bird, chipmunk or horse &amp;mdash; to humans. Symptoms of an infection may appear within a few days to a couple of weeks after exposure to an arbovirus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tick-borne viruses.&lt;/strong&gt; In the United States, the only known tick-transmitted virus that causes encephalitis is Powassan virus. Symptoms usually appear about a week after exposure to the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rabies virus.&lt;/strong&gt; Infection with the rabies virus, which is usually transmitted by a bite from an infected animal, causes a rapid progression to encephalitis once symptoms begin. The disease causes death if the infection isn&apos;t treated before it reaches the spinal cord and brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Childhood infections.&lt;/strong&gt; Common childhood infections &amp;mdash; such as measles (rubeola), mumps, and German measles (rubella) &amp;mdash; used to be fairly common causes of secondary encephalitis. These causes are now rare because of the availability of vaccinations for these diseases.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of West Nile virus transmission cycle 
+" Caption="When a mosquito bites an infected bird, the virus enters the mosquito&apos;s bloodstream and eventually moves into its salivary glands. When an infected mosquito bites an animal or a human (host), the virus is passed into the host&apos;s bloodstream, where it may cause serious illness. 
+" Height="60" Title="West Nile virus transmission cycle" URI="/images/image_popup/thumbs/r7_westnileviruscycle_thu.jpg" Width="60" />
+				<Image Alt="Illustration of West Nile virus transmission cycle 
+" Caption="When a mosquito bites an infected bird, the virus enters the mosquito&apos;s bloodstream and eventually moves into its salivary glands. When an infected mosquito bites an animal or a human (host), the virus is passed into the host&apos;s bloodstream, where it may cause serious illness. 
+" Height="260" Title="West Nile virus transmission cycle" URI="/images/image_popup/r7_westnileviruscycle.jpg" Width="400" />
+				<HTML>
+					When a mosquito bites an infected bird, the virus enters the mosquito&apos;s bloodstream and eventually moves into its salivary glands. When an infected mosquito bites an animal or a human (host), the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop encephalitis. Factors that may increase the risk of the condition include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Some types of encephalitis are more prevalent or more severe in certain age groups. In general, young children and older adults are at greater risk of most types of viral encephalitis. Encephalitis from the herpes simplex virus tends to be more common in people 20 to 40 years of age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; People who have HIV/AIDS, take immune-suppressing drugs, or have another condition causing a compromised or weakened immune system are at increased risk of encephalitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Geographic regions.&lt;/strong&gt; Mosquito-borne or tick-borne viruses are common in particular geographic regions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Outdoor activities.&lt;/strong&gt; Outdoor activities or work that results in more exposure to ticks or mosquitoes increases the risk of encephalitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Season of the year.&lt;/strong&gt; Mosquito- and tick-borne diseases tend to be more prevalent in summer and early fall in many areas of the United States. In warmer areas of the U.S., however, mosquitoes and ticks may be present year-round.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The complications resulting from encephalitis depend on several factors, including age, the cause of the infection, the severity of the initial illness and the time from disease onset to treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, people with relatively mild illness recover within a few weeks with no long-term complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of severe illness&lt;br /&gt;
+&lt;/strong&gt;Injury to the brain from inflammation can result in a number of problems. The most severe cases can result in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Respiratory arrest&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+	&lt;li&gt;Death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other complications &amp;mdash; varying greatly in severity &amp;mdash; may persist for many months or be permanent: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Mood disorders&lt;/li&gt;
+	&lt;li&gt;Personality changes&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Intellectual disabilities&lt;/li&gt;
+	&lt;li&gt;Lack of muscle coordination&lt;/li&gt;
+	&lt;li&gt;Paralysis&lt;/li&gt;
+	&lt;li&gt;Hearing or vision defects&lt;/li&gt;
+	&lt;li&gt;Speech impairments&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the onset of serious illness associated with encephalitis is usually severe and relatively sudden, seek emergency care. The emergency care team will likely include a specialist in disorders of the nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions from your doctor&lt;br /&gt;
+&lt;/strong&gt;You may need to answer some of the following questions or answer questions on behalf of your child or another person with severe illness:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have you taken any medications to treat the fever or headache?&lt;/li&gt;
+	&lt;li&gt;Have you recently started taking any new medications? If so, what is the drug?&lt;/li&gt;
+	&lt;li&gt;Have you been bitten by a mosquito or tick during the past few weeks?&lt;/li&gt;
+	&lt;li&gt;Have you likely been exposed to mosquitoes or ticks? What precautions have you used against insect bites?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently? Where?&lt;/li&gt;
+	&lt;li&gt;Did you receive recommended vaccinations before your trip?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a cold, flu or other illness?&lt;/li&gt;
+	&lt;li&gt;What standard childhood vaccinations have not been administered?&lt;/li&gt;
+	&lt;li&gt;Have you recently received a vaccination?&lt;/li&gt;
+	&lt;li&gt;What animals have you been exposed to recently? Were you bitten?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to any known toxins?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with genital herpes?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a new sexual partner?&lt;/li&gt;
+	&lt;li&gt;Have you had unprotected sex with a new or long-term sexual partner?&lt;/li&gt;
+	&lt;li&gt;Do you have a condition or take any drugs that result in a weakened immune system?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Questions about symptoms, risk factors and medical history are important in making a diagnosis of encephalitis. Diagnostic tests that may be needed include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain imaging.&lt;/strong&gt; Brain imaging is often the first test if symptoms and patient history suggest the possibility of encephalitis. The images may reveal swelling of the brain or another condition that may be causing the symptoms, such as a tumor. Technologies may include magnetic resonance imaging (MRI), which can produce detailed cross-sectional and 3-D images of the brain, or computerized tomography (CT), which produces cross-sectional images.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal tap (lumbar puncture).&lt;/strong&gt; With a spinal tap, the doctor inserts a needle into the lower back to extract cerebrospinal fluid (CSF), the protective fluid that surrounds the brain and spinal column. A particular profile of blood cells and immune system proteins can indicate the presence of infection and inflammation in the brain. In some cases, samples of CSF can be tested in a laboratory to identify the causative virus or other infectious agent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other lab tests.&lt;/strong&gt; Your doctor or other members of the care team may take samples of blood, urine, or excretions from the back of the throat. These can be tested in the laboratory to identify some of the viruses or other infectious agents that can cause encephalitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electroencephalogram (EEG)&lt;/strong&gt;. Your doctor may order an electroencephalogram (EEG), a test in which a series of electrodes are affixed to the scalp. The EEG records the electrical activity of the brain. Certain abnormal patterns in this activity may be consistent with a diagnosis of encephalitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain biopsy.&lt;/strong&gt; Rarely, a procedure to remove a small sample of brain tissue (brain biopsy) is used if symptoms are worsening, treatments are having no effect, and there is no working diagnosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for mild cases mainly consists of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bed rest&lt;/li&gt;
+	&lt;li&gt;Plenty of fluids&lt;/li&gt;
+	&lt;li&gt;Anti-inflammatory drugs &amp;mdash; such as acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others) &amp;mdash; to relieve headaches and fever. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Antiviral drugs&lt;br /&gt;
+&lt;/strong&gt;More-serious cases of encephalitis usually require aggressive antiviral treatments. Antiviral drugs commonly used to treat encephalitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acyclovir (Zovirax)&lt;/li&gt;
+	&lt;li&gt;Ganciclovir (Cytovene)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some viruses, such as insect-borne viruses, don&apos;t respond to these treatments. However, because the specific virus causing the infection may not be identified immediately or at all, treatment with acyclovir is often begun immediately. This drug can be effective against the herpes simplex virus, which can result in significant complications or death when not treated promptly. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of the antiviral drugs may include nausea, vomiting, diarrhea, loss of appetite, and muscle or joint soreness or pain. Rare serious problems may include abnormalities in kidney or liver function or suppression of bone marrow activity. Appropriate tests are used to monitor for serious adverse effects.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive care&lt;br /&gt;
+&lt;/strong&gt;Additional supportive care also is needed in the hospital for people with severe encephalitis. The care may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing assistance,&lt;/strong&gt; as well as careful monitoring of breathing and heart function&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous fluids&lt;/strong&gt; to ensure proper hydration and appropriate levels of essential minerals&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-inflammatory drugs,&lt;/strong&gt; such as corticosteroids, to help reduce swelling and pressure within the skull&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsant medications,&lt;/strong&gt; such as phenytoin (Dilantin), to stop or prevent seizures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up therapy&lt;br /&gt;
+&lt;/strong&gt;After the initial illness, it may be necessary to receive additional therapy depending on the type and severity of complications. This therapy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy&lt;/strong&gt; to improve strength, flexibility, balance, motor coordination and mobility&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy&lt;/strong&gt; to develop everyday skills and to use adaptive products that help with everyday activities&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech therapy&lt;/strong&gt; to relearn muscle control and coordination to produce speech&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotherapy&lt;/strong&gt; to learn coping strategies and new behavioral skills to improve mood disorders or address personality changes &amp;mdash; with medication management if necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent viral encephalitis is to take precautions to avoid exposure to viruses that can cause the disease:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good hygiene.&lt;/strong&gt; Wash hands frequently and thoroughly with soap and water, particularly after using the restroom and before and after meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share utensils.&lt;/strong&gt; Don&apos;t share tableware and beverages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Teach your children good habits.&lt;/strong&gt; Teach your children to practice good hygiene and to avoid sharing utensils at home and school.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinations.&lt;/strong&gt; Keep your children&apos;s vaccinations current. Before traveling, talk to your doctor&apos;s office about recommended vaccinations for different destinations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Protection against mosquitoes and ticks&lt;br /&gt;
+&lt;/strong&gt;To minimize your exposure to mosquitoes and ticks, follow these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dress to protect yourself.&lt;/strong&gt; Wear long-sleeved shirts and long pants if you&apos;re outside between dusk and dawn when mosquitoes are most active and when you&apos;re in a wooded area with tall grasses and shrubs where ticks are more common.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply mosquito repellent.&lt;/strong&gt; The Environmental Protection Agency (EPA) recommends two products &amp;mdash; DEET and picaridin &amp;mdash; to repel mosquitoes. Products with higher concentrations of the active ingredient provide longer protection. The EPA also recommends oil of lemon eucalyptus but cautions that its effect is comparable to low concentrations of DEET and provides protection for about an hour. Mosquito repellents can be applied to both the skin and clothes. To apply repellent to your face, spray it on your hands and then wipe it on your face. If you&apos;re using both sunscreen and a repellent, apply sunscreen first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use EPA-recommended insecticide.&lt;/strong&gt; The EPA also recommends the use of products containing permethrin. These products, which repel and kill tics and mosquitoes, are sprayed on clothing, tents and other outdoor gear. Permethrin shouldn&apos;t be applied to the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid mosquitoes.&lt;/strong&gt; Refrain from unnecessary activity in places where mosquitoes are most prevalent. If possible, avoid being outdoors from dusk till dawn, when mosquitoes are most active.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep mosquitoes out of your home.&lt;/strong&gt; Repair holes in screens on doors and windows.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get rid of water sources outside your home.&lt;/strong&gt; Where possible, eliminate standing water in your yard, where mosquitoes can lay their eggs. Common problems include flowerpots or other gardening containers, flat roofs, old tires and clogged gutters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control mosquitoes in standing water.&lt;/strong&gt; Fill ornamental pools with mosquito-eating fish. Use mosquito dunks &amp;mdash; products that are toxic to mosquito larvae &amp;mdash; in birdbaths, ponds and garden water barrels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Look for outdoor signs of viral disease.&lt;/strong&gt; If you notice sick or dying birds or animals, report your observations to your local health department.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Protection for young children&lt;br /&gt;
+&lt;/strong&gt;The American Academy of Pediatrics advises parents not to use insect repellents on infants younger than 2 months of age. Instead, cover an infant carrier or stroller with mosquito netting. 
+&lt;/p&gt;
+&lt;p&gt;
+Tips for using mosquito repellent with children include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Always assist children with the use of mosquito repellent.&lt;/li&gt;
+	&lt;li&gt;Spray on clothing and exposed skin.&lt;/li&gt;
+	&lt;li&gt;Apply the repellent when outdoors to lessen the risk of inhaling the repellent.&lt;/li&gt;
+	&lt;li&gt;Spray repellent on your hands and then apply it to your child&apos;s face. Take care around the eyes and ears.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use repellent on the hands of young children who may put their hands in their mouths.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Encephalitis
+	</Title>
+	<Abstract>
+		Encephalitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this potentially life-threatening condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Disease" DocID="DS00331" LinkType="Internal" ObjectID="84C53FB6-DD31-499B-8E5817B2A8F67AE2" Title="Measles" Url="http://www.mayoclinic.com/health/measles/DS00331" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,300 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00792
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-transplant/MY00792
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3785" Title="Kidneys and urinary system">
+						<Keyword MCVID="4196" Title="Surgery">
+							<Keyword MCVID="3786" Title="Kidney transplant" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7A2092F4-CAAC-9E85-F82A8B86DC609667
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney transplantation
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney transplant surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				renal transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				end-stage kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A kidney transplant is a surgical procedure to place a functioning kidney from a donor into a person whose kidneys no longer function properly.
+&lt;/p&gt;
+&lt;p&gt;
+Your kidneys remove excess fluid and waste from your blood. When your kidneys lose their filtering ability, dangerous levels of fluid and waste accumulate in your body &amp;mdash; a condition known as kidney failure. A kidney transplant is often the best treatment for kidney failure.
+&lt;/p&gt;
+&lt;p&gt;
+Only one donated kidney is needed to replace two failed kidneys, making living-donor kidney transplantation an option. If a compatible living donor isn&apos;t available for a kidney transplant, your name may be placed on a kidney transplant waiting list to receive a kidney from a deceased donor. The wait could be a few years.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of kidney transplant 
+" Caption="During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs. The new kidney&apos;s ureter is connected to your bladder. Unless they are causing complications, your own kidneys are left in place. 
+" Height="60" Title="Kidney transplant" URI="/images/image_popup/thumbs/mcdc7_kidney_transplantthu.jpg" Width="60" />
+				<Image Alt="Image of kidney transplant 
+" Caption="During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs. The new kidney&apos;s ureter is connected to your bladder. Unless they are causing complications, your own kidneys are left in place. 
+" Height="488" Title="Kidney transplant" URI="/images/image_popup/mcdc7_kidney_transplant.jpg" Width="400" />
+				<HTML>
+					During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A kidney transplant is used to treat kidney failure, a condition in which your kidneys can function at only a fraction of normal capacity. People with end-stage kidney disease need either artificial blood filtering (dialysis) or a kidney transplant to stay alive.
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of end-stage kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Chronic, uncontrolled high blood pressure&lt;/li&gt;
+	&lt;li&gt;Chronic glomerulonephritis &amp;mdash; an inflammation and eventual scarring of the tiny filters within your kidneys (glomeruli)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes kidney failure can be managed with diet, medication and treatment for the underlying cause. If despite these steps, your kidneys still can&apos;t filter your blood adequately, you might be a candidate for a kidney transplant.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Complications of the procedure&lt;/strong&gt;&lt;br /&gt;
+Kidney transplant surgery carries a risk of significant complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Leaking from or blockage of the tube (ureter) that links the kidney to the bladder&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Failure of the donated kidney&lt;/li&gt;
+	&lt;li&gt;Rejection of the donated kidney&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anti-rejection medication side effects&lt;/strong&gt;&lt;br /&gt;
+After a kidney transplant, you&apos;ll take medications to help prevent your body from rejecting the donor kidney. These medications can cause a variety of side effects, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acne&lt;/li&gt;
+	&lt;li&gt;Bone thinning&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Excessive hair growth&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;Increased risk of cancer, particularly skin cancer and non-Hodgkin lymphoma&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Puffiness (edema)&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Choosing a transplant center&lt;/strong&gt;&lt;br /&gt;
+If your doctor recommends a kidney transplant, you may be referred to a transplant center. You&apos;re also free to select a transplant center on your own or choose a center from your insurance company&apos;s list of preferred providers.
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re considering transplant centers, you may want to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Learn about the number and type of transplants the center performs each year.&lt;/li&gt;
+	&lt;li&gt;Ask about the transplant center&apos;s organ donor and recipient survival rates.&lt;/li&gt;
+	&lt;li&gt;Consider additional services provided by the transplant center, such as coordinating support groups, assisting with travel arrangements, helping with local housing for your recovery period and offering referrals to other resources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After you&apos;ve selected a transplant center, you&apos;ll need an evaluation to determine whether you meet the center&apos;s eligibility requirements for a kidney transplant.
+&lt;/p&gt;
+&lt;p&gt;
+The team at the transplant center will assess whether you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are healthy enough to have surgery and tolerate lifelong post-transplant medications&lt;/li&gt;
+	&lt;li&gt;Have any medical conditions that would hinder transplant success&lt;/li&gt;
+	&lt;li&gt;Are willing and able to take medications as directed and follow the suggestions of the transplant team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Finding a donor&lt;/strong&gt;&lt;br /&gt;
+A kidney donor can be living or deceased, related or unrelated to you. Your health care team will consider several factors, such as blood and tissue types, when evaluating whether a living donor will be a good match for you. Family members are often the most likely to be compatible kidney donors. But many people undergo successful transplants with kidneys donated from people who are not related to them.
+&lt;/p&gt;
+&lt;p&gt;
+If a compatible living donor isn&apos;t available, your name will be placed on a waiting list for a deceased-donor kidney. Because there are fewer available kidneys than there are people waiting for a transplant, the waiting list continues to grow. The waiting time for a deceased donor kidney can be a year or longer.
+&lt;/p&gt;
+&lt;p&gt;
+Paired kidney donor exchange may be an option if you&apos;ve found someone willing to donate a kidney, but the donor&apos;s blood and tissue aren&apos;t compatible with yours. Rather than donating a kidney directly to you, your donor may give a kidney to a person whose blood and tissue is compatible with the donor&apos;s kidney, and you receive a kidney from another transplantee&apos;s donor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Staying healthy&lt;/strong&gt;&lt;br /&gt;
+Whether you&apos;re waiting for a donated kidney or your transplant surgery is already scheduled, work to stay healthy. Being healthy can make it more likely you&apos;ll be ready for the transplant surgery when the time comes. It may also help speed your recovery from surgery. Work to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take your medications as prescribed.&lt;/li&gt;
+	&lt;li&gt;Follow your diet and exercise guidelines.&lt;/li&gt;
+	&lt;li&gt;Keep all appointments with your health care team.&lt;/li&gt;
+	&lt;li&gt;Stay involved in healthy activities, including relaxing and spending time with family and friends.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stay in touch with your transplant team and let them know of any significant changes in your health. If you&apos;re waiting for a donated kidney, make sure the transplant team knows how to reach you at all times. Keep your packed hospital bag handy, and make arrangements for transportation to the transplant center in advance.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During a kidney transplant&lt;/strong&gt;&lt;br /&gt;
+Kidney transplants are performed with general anesthesia, so you&apos;re not aware during the procedure. The surgical team monitors your heart rate, blood pressure and blood oxygen level throughout the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+During the surgery:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The surgeon makes an incision and places the new kidney in your lower abdomen. Unless your own kidneys are causing complications such as high blood pressure or infection, they are left in place.&lt;/li&gt;
+	&lt;li&gt;The blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs.&lt;/li&gt;
+	&lt;li&gt;The new kidney&apos;s ureter &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Kidney transplant surgery usually lasts about three to four hours.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After a kidney transplant&lt;/strong&gt;&lt;br /&gt;
+After your kidney transplant, you can expect to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spend several days to a week in the hospital.&lt;/strong&gt; Doctors and nurses monitor your condition in the hospital&apos;s transplant recovery area to watch for signs of complications. Your new kidney will make urine like your own kidneys did when they were healthy. Often this starts immediately. In other cases it takes several days. Expect soreness or pain around the incision site while you&apos;re healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have frequent checkups as you continue recovering.&lt;/strong&gt; After you leave the hospital, close monitoring is necessary for a few weeks. Your transplant team will develop a checkup schedule for you. During this time, if you live in another town, you may need to make arrangements to stay close to the transplant center.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications the rest of your life.&lt;/strong&gt; You&apos;ll take a number of medications after your kidney transplant. Drugs called immunosuppressants help keep your immune system from attacking your new kidney. Additional drugs help reduce the risk of other complications, such as infection, after your transplant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of kidney transplant 
+" Caption="During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs. The new kidney&apos;s ureter is connected to your bladder. Unless they are causing complications, your own kidneys are left in place. 
+" Height="60" Title="Kidney transplant" URI="/images/image_popup/thumbs/mcdc7_kidney_transplantthu.jpg" Width="60" />
+				<Image Alt="Image of kidney transplant 
+" Caption="During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of your legs. The new kidney&apos;s ureter is connected to your bladder. Unless they are causing complications, your own kidneys are left in place. 
+" Height="488" Title="Kidney transplant" URI="/images/image_popup/mcdc7_kidney_transplant.jpg" Width="400" />
+				<HTML>
+					During kidney transplant surgery, the donor kidney is placed in your lower abdomen. Blood vessels of the new kidney are attached to blood vessels in the lower part of your abdomen, just above one of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After a successful kidney transplant, your new kidney will filter your blood, so you will no longer need dialysis. To prevent your body from rejecting your donor kidney, you&apos;ll require medications to suppress your immune system. You&apos;ll likely take these or similar drugs for the rest of your life. Because medications to suppress your immune system make your body more vulnerable to infection, your doctor may also prescribe antibacterial, antiviral and antifungal medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Kidney transplant survival rates&lt;/strong&gt;&lt;br /&gt;
+According to the Organ Procurement and Transplantation Network:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;About 98 percent of people who receive a living-donor kidney transplant live for at least one year after their transplant surgery. About 90 percent live for at least five years.&lt;/li&gt;
+	&lt;li&gt;About 94 percent of people who receive a deceased-donor kidney transplant live for at least one year after their transplant surgery. About 82 percent live for at least five years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your new kidney fails, you can resume dialysis or consider a second transplant. You may also choose to discontinue treatment. This important decision depends on your current health, your ability to withstand surgery and your expectations for maintaining a certain quality of life.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kidney transplant
+	</Title>
+	<Abstract>
+		Kidney transplant &amp;mdash; Overview covers why kidney transplantation is done, what to expect, risks and results.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00281" LinkType="Internal" ObjectID="90F35D04-E7FF-0DBD-1585584111C6DB49" Title="Hemodialysis" Url="http://www.mayoclinic.com/health/hemodialysis/MY00281" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01181" LinkType="Internal" ObjectID="8FB497A9-F180-223A-3DDCFCD843F087A6" Title="Nephrectomy (kidney removal)" Url="http://www.mayoclinic.com/health/nephrectomy/MY01181" />
+		<LinkItem ContentType="Answer" DocID="AN01988" LinkType="Internal" ObjectID="62753420-E4EE-8CC0-C2436287C82698EA" Title="Kidney donation: Are there long-term risks?" Url="http://www.mayoclinic.com/health/kidney-donation/AN01988" />
+		<LinkItem ContentType="Answer" DocID="AN02167" LinkType="Internal" ObjectID="32B9B057-9C29-709B-E357C00DB7D0C704" Title="Tap water or bottled water: Which is better?" Url="http://www.mayoclinic.com/health/tap-water/AN02167" />
+		<LinkItem ContentType="Disease" DocID="DS00503" LinkType="Internal" ObjectID="CAB55536-7CCC-44A4-832C420405FCCA39" Title="Glomerulonephritis" Url="http://www.mayoclinic.com/health/glomerulonephritis/DS00503" />
+		<LinkItem ContentType="Disease" DocID="DS00329" LinkType="Internal" ObjectID="91E57DE9-7D24-4152-90B41D26B948426A" Title="Type 1 diabetes" Url="http://www.mayoclinic.com/health/type-1-diabetes/DS00329" />
+		<LinkItem ContentType="Disease" DocID="DS00585" LinkType="Internal" ObjectID="67CDF280-4583-4E6E-A1DD12C8817E4302" Title="Type 2 diabetes" Url="http://www.mayoclinic.com/health/type-2-diabetes/DS00585" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Disease" DocID="DS00682" LinkType="Internal" ObjectID="1EAAF4B2-2A5D-9994-E30C5CBDE21DAAD4" Title="Chronic kidney failure" Url="http://www.mayoclinic.com/health/kidney-failure/DS00682" />
+	</RelatedLinksBox>
+</TestProcedure>

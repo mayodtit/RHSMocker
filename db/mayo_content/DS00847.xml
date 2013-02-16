@@ -1,0 +1,361 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00847
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/itchy-skin/DS00847
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3278" Title="Winter" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4293" Title="Itchy skin" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A39429AD-E7FF-0DBD-176D22A50ECCFE59
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				pruritus
+			</MetaKeyword>
+			<MetaKeyword>
+				pruritis
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				itch skin
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin
+			</MetaKeyword>
+			<MetaKeyword>
+				itch
+			</MetaKeyword>
+			<MetaKeyword>
+				winter itch
+			</MetaKeyword>
+			<MetaKeyword>
+				winter skin care
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin care
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				body itch
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-itch
+			</MetaKeyword>
+			<MetaKeyword>
+				itch treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				itch remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				stop itching
+			</MetaKeyword>
+			<MetaKeyword>
+				cause of itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itching remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				cause of itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				red itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				scratching
+			</MetaKeyword>
+			<MetaKeyword>
+				scratch
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Itchy skin is an uncomfortable, irritating sensation that can make scratching irresistible. It seems simple. When you itch, you scratch. But itchy skin can have hundreds of possible causes. Also known as pruritus (proo-RIE-tus), itchy skin may be the result of a rash or another condition, such as psoriasis or dermatitis. Or itchy skin may be a symptom of an internal disease, such as liver disease or kidney failure. Though itchy, your skin may appear normal. Or it may be accompanied by redness, rough skin, bumps or blisters. 
+&lt;/p&gt;
+&lt;p&gt;
+Identifying and treating the underlying cause of itchy skin is important for long-term relief. Itchy skin treatments include medications, wet dressings and light therapy. Self-care measures, including anti-itch products and cool baths, can also help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Itchy skin may occur in small areas, such as on an arm or leg. Or your whole body may feel itchy. Itchy skin can occur without any other noticeable changes on the skin. Or it may be associated with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Bumps, spots or blisters&lt;/li&gt;
+	&lt;li&gt;Dry, cracked skin&lt;/li&gt;
+	&lt;li&gt;Leathery or scaly texture to the skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes itchiness lasts a long time and can be intense. As you rub or scratch the area, it gets itchier. And the more it itches, the more you scratch. Breaking this itch-scratch cycle can be challenging. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor or consult a specialist in skin diseases (dermatologist) if the itching: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lasts more than two weeks and doesn&apos;t improve with self-care measures&lt;/li&gt;
+	&lt;li&gt;Is extremely severe and uncomfortable and distracts you from your daily routines or prevents you from sleeping&lt;/li&gt;
+	&lt;li&gt;Can&apos;t be easily explained&lt;/li&gt;
+	&lt;li&gt;Affects your whole body&lt;/li&gt;
+	&lt;li&gt;Is accompanied by other symptoms, such as extreme tiredness, weight loss, changes in bowel habits or urinary frequency, fever, or redness of the skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Dry skin&lt;/strong&gt; &lt;br /&gt;
+Itchy skin that isn&apos;t accompanied by other obvious skin changes, such as a rash, is most often caused by dry skin (xerosis). Dry skin usually results from environmental factors that you can influence. These include hot or cold weather with low humidity levels, long-term use of air conditioning or central heating, and washing or bathing too much. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other possible causes&lt;/strong&gt; &lt;br /&gt;
+Other conditions such as skin disorders, internal diseases, allergies and drug reactions can also cause itchy skin. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin conditions and rashes.&lt;/strong&gt; Many skin conditions cause itchy skin, including eczema (dermatitis), psoriasis, scabies, lice, chickenpox, hives and dermatographism. In these cases, the itching usually affects specific areas and is accompanied by other signs, such as red, irritated skin or bumps and blisters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Internal diseases.&lt;/strong&gt; These include liver disease, malabsorption of wheat (celiac disease), kidney failure, iron deficiency anemia, thyroid problems and cancers, including leukemia and lymphoma. In these cases, the itching usually affects the whole body, rather than one specific area. The skin may look otherwise normal except for the repeatedly scratched areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve disorders.&lt;/strong&gt; Conditions that affect the nervous system &amp;mdash; such as multiple sclerosis, diabetes mellitus, pinched nerves and shingles (herpes zoster) &amp;mdash; can cause itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritation and allergic reactions.&lt;/strong&gt; Wool, chemicals, soaps and other substances can irritate the skin and cause itching. Sometimes the substance causes an allergic reaction, such as in the case of poison ivy or cosmetics. Food allergies also may cause itchy skin reactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs.&lt;/strong&gt; Reactions to drugs, such as antibiotics, antifungal drugs or narcotic pain medications, can cause widespread rashes and itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Some women experience itchy skin during pregnancy, especially on the abdomen, thighs, breasts and arms. Also, itchy skin conditions, such as dermatitis, can worsen during pregnancy. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prolonged itching and scratching may increase the intensity of the itch, possibly leading to neurodermatitis (lichen simplex chronicus). Neurodermatitis is a condition in which an area of skin that&apos;s frequently scratched becomes thick and leathery. The patches can be raw, red or darker than the rest of your skin. Persistent scratching can also lead to a bacterial skin infection and permanent scars or changes in skin color. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care doctor. However, in some cases when you call to set up an appointment, you may be referred to a specialist in skin diseases (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it can help to be well prepared. Here are some tips to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Write down all your signs and symptoms, when they occurred and how long they lasted. Also, make a list of all medications, including vitamins, herbs and over-the-counter drugs, that you&apos;re taking. Even better, take the original bottles and a written list of the dosages and directions. 
+&lt;/p&gt;
+&lt;p&gt;
+Write down questions that you want to ask your doctor and don&apos;t be afraid to ask questions that may come up during your appointment. For itchy skin, questions you may want to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Do I need prescription medication, or can I use over-the-counter medications to treat the condition?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to begin with your medical history and ask you some questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What did your skin look like when your symptoms first started?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What at-home treatments have you tried?&lt;/li&gt;
+	&lt;li&gt;What prescription and over-the-counter medications are you taking?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently?&lt;/li&gt;
+	&lt;li&gt;What is your typical diet?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Do you come in contact with common environmental irritants, such as pets or certain metals, at home or at work? 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Physical exam and other tests&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to first conduct a physical exam to see if a cause for your itching can be determined. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects that your itchy skin is the result of an underlying medical condition, he or she may perform other tests, such as a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A complete blood count can provide evidence of an internal condition causing your itch, such as iron deficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemistry profile.&lt;/strong&gt; This test is used to determine if you have a liver or kidney disorder, which could cause itchy skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid function test.&lt;/strong&gt; Thyroid abnormalities, such as hyperthyroidism, may cause itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest x-rays.&lt;/strong&gt; Signs of underlying disease that are associated with itchy skin, such as enlarged lymph nodes, can be seen by using radiography. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Related conditions&lt;/strong&gt; &lt;br /&gt;
+Through examination and tests, your doctor may determine that your itching is, in fact, a symptom of another skin condition. Related itchy skin conditions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dermatitis.&lt;/strong&gt; Also called eczema, dermatitis is an inflammation of the skin. There are different types of dermatitis, and the disorder can have many causes and occur in many forms. The most common type of eczema is atopic dermatitis. Generally, dermatitis describes swollen, reddened and itchy skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriasis.&lt;/strong&gt; With psoriasis, the life cycle of skin cells speeds up, resulting in a rapid buildup of rough, dead skin cells. These skin cells accumulate, forming thick silvery scales and itchy, dry, red patches that are sometimes painful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tinea infections.&lt;/strong&gt; Athlete&apos;s foot, ringworm of the body, ringworm of the scalp and jock itch are caused by a fungal infection that develops on the top layer of your skin. These infections often cause round, flat patches of itchy skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hives.&lt;/strong&gt; Hives are raised, itchy red bumps of various sizes that appear and disappear on your skin. Allergic reactions to medications or foods can cause hives. Skin writing (dermatographism) is a condition where stroking the skin causes hive-like lesions to develop in the touched areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lice.&lt;/strong&gt; Body lice, pubic lice and head lice are common causes of intense itching. Lice are tiny, wingless, parasitic insects that feed on your blood. The infestation, which is easily spread through close physical contact, can cause small, red bumps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scabies.&lt;/strong&gt; Scabies is caused by a tiny, eight-legged burrowing mite called Sarcoptes scabiei. The presence of the mite leads to intense itching in the area of its burrows. Scabies is contagious and can spread quickly through close physical contact. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once a cause is identified, treatments for itchy skin may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid creams.&lt;/strong&gt; Applied topically, these may control itching. Your doctor may recommend applying the medicated cream to affected areas, then covering these areas with damp cotton material that has been soaked in water or other solutions. The moisture in the wet dressings helps the skin absorb the cream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral antihistamines.&lt;/strong&gt; These include oral antihistamines for allergies or hives and corticosteroid creams for itching from skin inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating the underlying disease&lt;/strong&gt; &lt;br /&gt;
+If an internal disease is found, whether it&apos;s kidney disease, iron deficiency or a thyroid problem, treating that disease often relieves the itch. Other itch-relief methods also may be recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Light therapy (phototherapy)&lt;/strong&gt; &lt;br /&gt;
+Phototherapy involves exposing your skin to certain wavelengths of ultraviolet light. Multiple sessions are usually scheduled until the itching is under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Short-term relief&lt;/strong&gt; &lt;br /&gt;
+Although many types of itching respond well to treatment, relief may not be immediate. However, a number of creams and ointments are specifically designed to relieve itch. These include short-term use of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical anesthetics&lt;/strong&gt; such as lidocaine or benzocaine&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ointments and lotions&lt;/strong&gt; such as menthol, camphor or calamine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Benzocaine has been linked to a rare but serious, sometimes deadly, condition that decreases the amount of oxygen that the blood can carry. Don&apos;t use benzocaine in children younger than age 2 without supervision from a health care professional, as this age group has been the most affected. If you&apos;re an adult, never use more than the recommended dose of benzocaine and consider talking with your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Although these anti-itch products may immediately soothe your itch, treatment of the underlying cause is most important for long-term relief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help reduce itching and soothe inflamed skin, try these self-care measures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use a high-quality moisturizing cream on your skin.&lt;/strong&gt; Apply this cream at least once or twice daily, concentrating on the areas where itching is most severe. Examples include Vanicream, Cetaphil, Eucerin, CeraVe and others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an anti-itch cream or lotion to the affected area.&lt;/strong&gt; A nonprescription hydrocortisone cream, containing at least 1 percent hydrocortisone, can temporarily relieve the itch. A nonprescription oral antihistamine, such as diphenhydramine (Benadryl, others), may be helpful if itching is severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid scratching whenever possible.&lt;/strong&gt; Cover the itchy area if you can&apos;t keep from scratching it. Trim nails and wear gloves at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool, wet compresses.&lt;/strong&gt; Covering the affected area with bandages and dressings can help protect the skin and prevent scratching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a comfortably cool bath.&lt;/strong&gt; Sprinkle the bath water with baking soda, uncooked oatmeal or colloidal oatmeal &amp;mdash; a finely ground oatmeal that is made for the bathtub (Aveeno, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear smooth-textured cotton clothing.&lt;/strong&gt; This will help you avoid irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose mild soaps without dyes or perfumes.&lt;/strong&gt; Be sure to rinse the soap completely off your body. And after washing, apply a moisturizer to protect your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a mild, unscented laundry detergent when washing clothes, towels and bedding.&lt;/strong&gt; Try using the extra-rinse cycle on your washing machine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid substances that irritate your skin or that cause an allergic reaction.&lt;/strong&gt; These can include nickel, jewelry, perfume, cleaning products and cosmetics.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Itchy skin (pruritus)
+	</Title>
+	<Abstract>
+		Itchy skin (pruritus) &amp;mdash; Comprehensive overview covers causes, treatments and self-care measures.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02191" LinkType="Internal" ObjectID="2C6EEE2B-0CE6-841E-C6ED62C1E2F8E291" Title="Hydrated skin: Does drinking water help?" Url="http://www.mayoclinic.com/health/hydrated-skin/AN02191" />
+		<LinkItem ContentType="Disease" DocID="DS00193" LinkType="Internal" ObjectID="314A4C2A-D3AD-46E8-8730C1905D41C7CF" Title="Psoriasis" Url="http://www.mayoclinic.com/health/psoriasis/DS00193" />
+	</RelatedLinksBox>
+</Disease>

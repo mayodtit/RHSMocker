@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01190
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/keratitis/DS01190
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-20
+		</UpdateDate>
+		<PublicationDate>
+			2010-07-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="4700" Title="Keratitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B7B1F4FE-E555-615E-AF0853EC9490354C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				keratitis
+			</MetaKeyword>
+			<MetaKeyword>
+				keratitis symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				keratitis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				cornea infection
+			</MetaKeyword>
+			<MetaKeyword>
+				eye infection
+			</MetaKeyword>
+			<MetaKeyword>
+				acanthamoeba
+			</MetaKeyword>
+			<MetaKeyword>
+				contact lens infection
+			</MetaKeyword>
+			<MetaKeyword>
+				red eye
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keratitis is an inflammation of the cornea &amp;mdash; the clear, dome-shaped tissue on the front of your eye that covers the pupil and iris. Keratitis may or may not be associated with an infection. Noninfectious keratitis can be caused by a relatively minor injury, wearing your contact lenses too long or other diseases. Infectious keratitis can be caused by bacteria, viruses, fungi and parasites. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have eye redness or other symptoms of keratitis, make an appointment to see your doctor. With prompt attention, mild to moderate cases of keratitis can usually be effectively treated without loss of vision. If left untreated, or if an infection is severe, keratitis can lead to serious complications that may permanently damage your vision. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of keratitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye redness&lt;/li&gt;
+	&lt;li&gt;Eye pain&lt;/li&gt;
+	&lt;li&gt;Excess tears or other discharge from your eye&lt;/li&gt;
+	&lt;li&gt;Difficulty opening your eyelid because of pain or irritation&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Decreased vision&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light (photophobia)&lt;/li&gt;
+	&lt;li&gt;A feeling that something is in your eye&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you notice any of the signs or symptoms of keratitis, make an appointment to see your doctor right away. Delays in diagnosis and treatment of keratitis can lead to serious complications, including blindness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Causes of keratitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injury.&lt;/strong&gt; If an object scratches the surface of one of your corneas or penetrates a cornea, keratitis without an infection may result. In addition, an injury may allow bacteria or fungi to gain access to the cornea through the damaged surface, causing keratitis that involves an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contaminated contact lenses.&lt;/strong&gt; Bacteria, fungi or parasites &amp;mdash; particularly the microscopic parasite acanthamoeba &amp;mdash; may inhabit the surface of a contact lens and contaminate the cornea when the lens is in your eye, resulting in infectious keratitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viruses.&lt;/strong&gt; Viruses such as the herpes viruses (herpes simplex and herpes zoster) and the virus that causes chlamydia may cause keratitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contaminated water.&lt;/strong&gt; Chemicals in water such as those used in swimming pools may irritate the cornea and cause irritation and a physical breakdown of the delicate surface tissue of the cornea (corneal epithelium), resulting in a chemical keratitis. This is usually transient and may last only minutes to hours. Bacteria, fungi and parasites in water &amp;mdash; particularly in oceans, rivers, lakes and hot tubs &amp;mdash; can enter your eyes when you&apos;re swimming or bathing and result in keratitis. However, even if you&apos;re exposed to these bacteria, fungi or parasites, a healthy cornea is unlikely to become infected unless there has been some previous breakdown of the corneal epithelium. For example, physical breakdown of the corneal epithelium from wearing a contact lens too long may allow the cornea to become vulnerable to infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of keratitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Contact lenses.&lt;/strong&gt; Wearing contact lenses increases your risk of infectious and noninfectious keratitis. The risk typically stems from not disinfecting lenses properly, wearing contact lenses while swimming, wearing them longer than recommended, or using water or homemade solutions to store and clean lenses. Keratitis is more common in people who use extended-wear contacts, or wear contacts continuously, than in those who use daily wear contacts and take them out at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced immunity.&lt;/strong&gt; If your immune system is compromised due to disease or medications, you&apos;re at higher risk of developing keratitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Warm climate.&lt;/strong&gt; If you live in a warm, humid climate, your risk of keratitis is increased, particularly if plant material gets into your eyes. Plant material can scratch the corneal epithelium and chemicals from the plant can cause an inflammation, which may then lead to an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Use of corticosteroid eyedrops to treat an eye disorder can increase your risk of developing keratitis or worsen existing keratitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye injury.&lt;/strong&gt; If one of your corneas has been damaged from an injury in the past, you may be more vulnerable to developing keratitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Potential complications of keratitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic corneal inflammation&lt;/li&gt;
+	&lt;li&gt;Chronic or recurrent viral infections of your cornea&lt;/li&gt;
+	&lt;li&gt;Open sores on your cornea (corneal ulcers)&lt;/li&gt;
+	&lt;li&gt;Corneal swelling and scarring&lt;/li&gt;
+	&lt;li&gt;Temporary or permanent reduction in your vision&lt;/li&gt;
+	&lt;li&gt;Blindness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may start by seeing or calling your family doctor or a general practitioner if you have eye-related signs or symptoms that worry you. Depending on the type and severity of your signs and symptoms, your doctor may refer you to an eye specialist (ophthalmologist) after an initial exam. Or, you may need to go directly to an ophthalmologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to talk about, it&apos;s a good idea to be well prepared. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions&lt;/strong&gt; when you make the appointment. Ask if there&apos;s anything you need to do in advance, such as stop wearing contact lenses or discontinue using eyedrops.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For keratitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I need to be seen for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared, don&apos;t hesitate to ask your doctor other questions anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your eye been injured recently?&lt;/li&gt;
+	&lt;li&gt;Have you been swimming or been in a hot tub recently?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms affect one eye or both eyes?&lt;/li&gt;
+	&lt;li&gt;Do you use contact lenses?&lt;/li&gt;
+	&lt;li&gt;How do you clean your contact lenses?&lt;/li&gt;
+	&lt;li&gt;How often do you replace your contact lens storage case?&lt;/li&gt;
+	&lt;li&gt;Have you had a similar problem in the past?&lt;/li&gt;
+	&lt;li&gt;Are you using eyedrops now or have you used any recently?&lt;/li&gt;
+	&lt;li&gt;How is your general health?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a sexually transmitted infection?&lt;/li&gt;
+	&lt;li&gt;Are you taking prescription medications or supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will review your medical history and your symptoms, conduct an eye examination and perform tests to diagnose keratitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnosing keratitis typically involves the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam.&lt;/strong&gt; Your doctor will perform a general examination of your eye. Although it may be uncomfortable to open your eyes for the exam, it&apos;s important that your doctor examines your eye. The exam will include an effort to determine how well you can see (visual acuity), usually using standard eye charts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Penlight exam.&lt;/strong&gt; Your doctor may examine your eye using a penlight, to check your pupil&apos;s reaction, size and other factors. Your doctor may apply a stain to your eye, to help identify the extent and character of surface irregularities and ulcers of the cornea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slit lamp exam.&lt;/strong&gt; Your doctor may examine your eyes with a special instrument called a slit lamp, which provides a bright source of light and magnification. This instrument uses an intense line of light &amp;mdash; a slit-like beam &amp;mdash; to illuminate your cornea, iris, lens, and the space between your iris and cornea. The light allows your doctor to view these structures with high magnification to detect the character and extent of keratitis, as well as the effect it may have on other structures of the eye.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory analysis.&lt;/strong&gt; Your doctor may take a sample of tears or some cells from your cornea for laboratory analysis to determine the cause of keratitis and to help develop a treatment plan for your condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Noninfectious keratitis&lt;/strong&gt;&lt;br /&gt;
+Treatment of noninfectious keratitis varies depending on the cause. However, if your keratitis is caused by a scratch or extended contact lens wear, you may only need a 24-hour eye patch and topical eye medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infectious keratitis&lt;/strong&gt;&lt;br /&gt;
+Treatment of infectious keratitis varies, depending on the cause of the infection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial keratitis.&lt;/strong&gt; For mild bacterial keratitis, antibacterial eyedrops may be all you need to effectively treat the infection. If the infection is moderate to severe, you may need to take oral antibiotics to get rid of the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fungal keratitis.&lt;/strong&gt; Keratitis caused by fungi typically requires antifungal eyedrops and oral antifungal medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viral keratitis.&lt;/strong&gt; If a virus is causing the infection, antiviral eyedrops and oral antiviral medications may be effective. But these medications may not be able to eliminate the virus completely, and viral keratitis may come back in the future.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acanthamoeba keratitis.&lt;/strong&gt; Keratitis that&apos;s caused by the tiny parasite acanthamoeba can be difficult to treat. Antibiotic eyedrops may be helpful, but some acanthamoeba infections are resistant to medication. Severe cases of acanthamoeba keratitis may require a cornea transplant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If keratitis doesn&apos;t respond to medication, or if it causes permanent damage to the cornea that significantly impairs your vision, your doctor may recommend a cornea transplant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Caring for your contact lenses&lt;/strong&gt;&lt;br /&gt;
+If you wear contact lenses, proper use, cleaning and disinfecting can help prevent keratitis. Follow these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Choose daily wear contacts, and take them out before you go to sleep.&lt;/li&gt;
+	&lt;li&gt;Wash, rinse and dry your hands thoroughly before handling your contacts.&lt;/li&gt;
+	&lt;li&gt;Follow your eye care professional&apos;s instructions for taking care of your lenses.&lt;/li&gt;
+	&lt;li&gt;Use only sterile products that are made specifically for contact-lens care, and use lens-care products made for the type of lenses you wear.&lt;/li&gt;
+	&lt;li&gt;Gently rub the lenses during cleaning to enhance the cleaning performance of the contact lens solutions. Avoid rough handling that might cause your lenses to become scratched.&lt;/li&gt;
+	&lt;li&gt;Replace your contact lenses as recommended.&lt;/li&gt;
+	&lt;li&gt;Replace your contact lens case every three to six months.&lt;/li&gt;
+	&lt;li&gt;Discard the solution in the contact lens case each time you disinfect your lenses. Don&apos;t &quot;top off&quot; the old solution that&apos;s already in the case.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t wear contact lenses when you go swimming.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing viral outbreaks&lt;/strong&gt;&lt;br /&gt;
+Some forms of viral keratitis, such as keratitis caused by the herpes virus, can&apos;t be completely eliminated. But the following steps may control viral keratitis recurrences: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you have a cold sore or a herpes blister, avoid touching your eyes, your eyelids and the skin around your eyes unless you&apos;ve thoroughly washed your hands.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use corticosteroid eyedrops unless they have been prescribed by a specialist knowledgeable about viral keratitis and the need for careful monitoring. Corticosteroid drops can increase your risk of developing viral keratitis and, if a viral infection does occur, they can make it more severe.&lt;/li&gt;
+	&lt;li&gt;If you wear contact lenses and have multiple recurrences of viral keratitis, discontinuing your use of contact lenses may decrease your risk of future recurrences. Discuss this option with your eye doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Keratitis
+	</Title>
+	<Abstract>
+		Keratitis &amp;mdash; Comprehensive overview covers causes, symptoms and treatment of this eye problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00491" LinkType="Internal" ObjectID="4FCF8B80-D02D-9931-B511BA7D54FA64D1" Title="Cornea transplant" Url="http://www.mayoclinic.com/health/cornea-transplant/MY00491" />
+		<LinkItem ContentType="Disease" DocID="DS00173" LinkType="Internal" ObjectID="76877F15-F95F-44BB-85C8B47F756CBA49" Title="Chlamydia" Url="http://www.mayoclinic.com/health/chlamydia/DS00173" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+	</RelatedLinksBox>
+</Disease>

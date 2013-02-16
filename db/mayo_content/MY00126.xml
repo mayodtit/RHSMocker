@@ -1,0 +1,277 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00126
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/first-trimester-screening/MY00126
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3399" Title="Week 8" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="4004" Title="First trimester screening" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5210" Title="Prenatal care">
+							<Keyword MCVID="5211" Title="Medical tests" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C5869FD6-E7FF-0DBD-18E549CA275200EC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				first trimester screening
+			</MetaKeyword>
+			<MetaKeyword>
+				first trimester screen
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal test
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+			<MetaKeyword>
+				nuchal translucency
+			</MetaKeyword>
+			<MetaKeyword>
+				nuchal translucency screening
+			</MetaKeyword>
+			<MetaKeyword>
+				nuchal translucency screening test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+First trimester screening is a prenatal test that offers early information about a baby&apos;s risk of certain chromosomal conditions &amp;mdash; Down syndrome (trisomy 21) and Edwards syndrome (trisomy 18).
+&lt;/p&gt;
+&lt;p&gt;
+First trimester screening has two steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A blood test to measure levels of two pregnancy-specific substances in the mother&apos;s blood &amp;mdash; pregnancy-associated plasma protein-A and human chorionic gonadotropin&lt;/li&gt;
+	&lt;li&gt;An ultrasound exam to measure the size of the clear space in the tissue at the back of the baby&apos;s neck (nuchal translucency)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Typically, first trimester screening is done between weeks 11 and 14 of pregnancy &amp;mdash; although a form of the screening can be done as early as nine weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Using your age and the results of the blood test and the ultrasound, your health care provider can gauge your risk of carrying a baby who has Down syndrome or Edwards syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+If your risk level is low, first trimester screening can offer reassurance of a healthy pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+If your risk level is moderate or high, you might choose to follow first trimester screening with another test that&apos;s more definitive. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a baby&apos;s nuchal translucency measurement 
+" Caption="First trimester screening includes an ultrasound exam to measure the size of the clear space in the tissue at the back of a baby&apos;s neck (nuchal translucency). In Down syndrome, the nuchal translucency measurement is abnormally large &amp;mdash; as shown on the left in the ultrasound image of an 11-week fetus. For comparison, the ultrasound image on the right shows an 11-week fetus with a normal nuchal translucency measurement. 
+" Height="60" Title="Nuchal translucency measurement" URI="/images/image_popup/thumbs/mcdc7_nuchal_translucencythu.jpg" Width="60" />
+				<Image Alt="Image of a baby&apos;s nuchal translucency measurement 
+" Caption="First trimester screening includes an ultrasound exam to measure the size of the clear space in the tissue at the back of a baby&apos;s neck (nuchal translucency). In Down syndrome, the nuchal translucency measurement is abnormally large &amp;mdash; as shown on the left in the ultrasound image of an 11-week fetus. For comparison, the ultrasound image on the right shows an 11-week fetus with a normal nuchal translucency measurement. 
+" Height="208" Title="Nuchal translucency measurement" URI="/images/image_popup/mcdc7_nuchal_translucency.jpg" Width="400" />
+				<HTML>
+					First trimester screening includes an ultrasound exam to measure the size of the clear space in the tissue at the back of a baby&apos;s neck (nuchal translucency). In Down syndrome, the nuchal ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+First trimester screening is done to evaluate your risk of carrying a baby who has Down syndrome. The test also provides information about the risk of Edwards syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Down syndrome causes lifelong impairments in mental and social development, as well as various physical concerns. Edwards syndrome causes more severe delays and is often fatal by age 1. 
+&lt;/p&gt;
+&lt;p&gt;
+First trimester screening doesn&apos;t evaluate the risk of neural tube defects, such as spina bifida. 
+&lt;/p&gt;
+&lt;p&gt;
+Because first trimester screening can be done earlier than most other prenatal screening tests, you&apos;ll have the results early in your pregnancy. This will give you more time to make decisions about further diagnostic tests, medical treatment and the course of the pregnancy. If your baby is diagnosed with Down syndrome, you&apos;ll also have more time to prepare for the possibility of caring for a child who has special needs. 
+&lt;/p&gt;
+&lt;p&gt;
+Other screening tests can be done later in pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+An example is the quad screen, a blood test that&apos;s typically done between weeks 15 and 20 of pregnancy. The quad screen can evaluate your risk of carrying a baby who has Down syndrome or Edwards syndrome, as well as neural tube defects, such as spina bifida.
+&lt;/p&gt;
+&lt;p&gt;
+Some health care providers choose to combine the results of first trimester screening with the quad screen &amp;mdash; although you won&apos;t learn the final results until both tests are completed and analyzed.
+&lt;/p&gt;
+&lt;p&gt;
+Remember, first trimester screening is optional. Test results only indicate whether you have an increased risk of carrying a baby who has Down syndrome or Edwards syndrome, not whether your baby actually has one of these conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Before the screening, think about what the results will mean to you. Consider whether the screening will be worth any anxiety it might cause, or whether you&apos;ll handle your pregnancy differently depending on the results.
+&lt;/p&gt;
+&lt;p&gt;
+You might also consider what level of risk would be enough for you to choose a more invasive follow-up test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+First trimester screening is a routine prenatal screening test. The test poses no risk of miscarriage or other pregnancy complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need to do anything special to prepare for first trimester screening. You can eat and drink normally before both the blood test and the ultrasound exam. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+First trimester screening includes a blood test and an ultrasound exam. 
+&lt;/p&gt;
+&lt;p&gt;
+During the blood test, a member of your health care team takes a sample of blood by inserting a needle into a vein in your arm. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+For the ultrasound exam, you&apos;ll lie on your back on an exam table. Your health care provider or an ultrasound technician will place a slender, wand-like device in your vagina to send out sound waves and gather the reflections. The reflected sound waves will be digitally converted into images on a monitor. Your health care provider or technician will use these images to measure the size of the clear space in the tissue at the back of your baby&apos;s neck. 
+&lt;/p&gt;
+&lt;p&gt;
+The ultrasound might take up to an hour. It doesn&apos;t hurt, and you can return to your usual activities immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+Test results are typically available in less than a week. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider will use your age and the results of the blood test and ultrasound exam to gauge your risk of carrying a baby who has Down syndrome or Edwards syndrome. Other factors &amp;mdash; such as your personal or family health history &amp;mdash; also might affect your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+First trimester screening results are given as positive or negative and also as a probability, such as a 1 in 5,000 risk of carrying a baby who has Down syndrome. Generally, the test is considered positive if the risk is 1 in 300 or higher. 
+&lt;/p&gt;
+&lt;p&gt;
+First trimester screening correctly identifies about 85 percent of women who are carrying a baby who has Down syndrome. About 5 percent of women have a false-positive result, meaning that the test result is positive but the baby doesn&apos;t actually have Down syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+When you consider your test results, remember that first trimester screening only indicates your overall risk of carrying a baby who has Down syndrome or Edwards syndrome. A low-risk result doesn&apos;t guarantee that your baby won&apos;t have one of these conditions. Likewise, a high-risk result doesn&apos;t guarantee that your baby will be born with one of these conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, positive test results are an invitation to consider secondary testing. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Noninvasive prenatal testing.&lt;/strong&gt; This new blood test analyzes fetal DNA circulating within your blood to gauge your risk of carrying a baby who has Down syndrome, as well as various other chromosomal conditions &amp;mdash; perhaps helping you avoid testing that&apos;s more invasive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chorionic villus sampling (CVS).&lt;/strong&gt; CVS can be used to diagnose chromosomal conditions, such as Down syndrome. During CVS, which is usually done during the first trimester, a sample of tissue from the placenta is removed for testing. CVS poses a slight risk of miscarriage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amniocentesis.&lt;/strong&gt; Amniocentesis can be used to diagnose both chromosomal conditions, such as Down syndrome, and neural tube defects, such as spina bifida. During amniocentesis, which is usually done during the second trimester, a sample of amniotic fluid is removed from the uterus for testing. Like CVS, amniocentesis poses a slight risk of miscarriage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider or a genetic counselor will help you understand your test results and what the results mean for your pregnancy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a baby&apos;s nuchal translucency measurement 
+" Caption="First trimester screening includes an ultrasound exam to measure the size of the clear space in the tissue at the back of a baby&apos;s neck (nuchal translucency). In Down syndrome, the nuchal translucency measurement is abnormally large &amp;mdash; as shown on the left in the ultrasound image of an 11-week fetus. For comparison, the ultrasound image on the right shows an 11-week fetus with a normal nuchal translucency measurement. 
+" Height="60" Title="Nuchal translucency measurement" URI="/images/image_popup/thumbs/mcdc7_nuchal_translucencythu.jpg" Width="60" />
+				<Image Alt="Image of a baby&apos;s nuchal translucency measurement 
+" Caption="First trimester screening includes an ultrasound exam to measure the size of the clear space in the tissue at the back of a baby&apos;s neck (nuchal translucency). In Down syndrome, the nuchal translucency measurement is abnormally large &amp;mdash; as shown on the left in the ultrasound image of an 11-week fetus. For comparison, the ultrasound image on the right shows an 11-week fetus with a normal nuchal translucency measurement. 
+" Height="208" Title="Nuchal translucency measurement" URI="/images/image_popup/mcdc7_nuchal_translucency.jpg" Width="400" />
+				<HTML>
+					First trimester screening includes an ultrasound exam to measure the size of the clear space in the tissue at the back of a baby&apos;s neck (nuchal translucency). In Down syndrome, the nuchal ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		First trimester screening
+	</Title>
+	<Abstract>
+		Find out what to expect during your first trimester screening.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02172" LinkType="Internal" ObjectID="E8001F2F-AB7D-A787-CA28A5F0CD35C53A" Title="Down syndrome blood test: How does it work?" Url="http://www.mayoclinic.com/health/down-syndrome-blood-test/AN02172" />
+		<LinkItem ContentType="Article" DocID="MY01403" LinkType="Internal" ObjectID="480AFA5C-FC69-E2EB-186342987BB11520" Title="Prenatal testing: Quick guide to common tests" Url="http://www.mayoclinic.com/health/prenatal-testing/MY01403" />
+	</RelatedLinksBox>
+</TestProcedure>

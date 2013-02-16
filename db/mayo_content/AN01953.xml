@@ -1,0 +1,132 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01953
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hypoallergenic-dog-breeds/AN01953
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="3571" Title="Environmental allergy">
+							<Keyword MCVID="2218" Title="Pet allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9C9F6FE3-E7FF-0DBD-15573895C7546A36
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypoallergenic dog breeds
+			</MetaKeyword>
+			<MetaKeyword>
+				hypoallergenic dogs
+			</MetaKeyword>
+			<MetaKeyword>
+				hypoallergenic dog breed
+			</MetaKeyword>
+			<MetaKeyword>
+				pet allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				dog allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy free dog
+			</MetaKeyword>
+			<MetaKeyword>
+				goldendoodle
+			</MetaKeyword>
+			<MetaKeyword>
+				wheaten terrier
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+There is no such thing as a hypoallergenic dog breed, although some breeds may cause fewer allergy symptoms than others. Many people think that pet allergies are caused by a dog&apos;s or cat&apos;s fur, but the real source of pet allergies is often a protein that&apos;s in the saliva and urine of dogs and cats. This protein sticks to the dead, dried flakes (dander) from your pet&apos;s skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Some dog breeds, such as the soft-coated wheaten terrier, or mixed breeds such as the goldendoodle, are marketed as hypoallergenic dogs because they don&apos;t shed fur or they shed very little. Because these dogs don&apos;t shed, the allergy-causing dander that sticks to their fur doesn&apos;t get released into the air or onto the floor as much as it would with a shedding dog. While you may have fewer allergy symptoms with a so-called hypoallergenic dog than with a shedding dog, no dog breed is hypoallergenic. There&apos;s some research suggesting that female dogs and Labrador retrievers might put off lower amounts of dog allergens. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re allergic to dogs, but still want to have one, there are some things you can do to reduce your allergy symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Choose a smaller dog, which will shed less dander than will a larger dog.&lt;/li&gt;
+	&lt;li&gt;Keep your pet out of your bedroom and other rooms you spend a lot of time in.&lt;/li&gt;
+	&lt;li&gt;Keep your pet outside, if weather permits.&lt;/li&gt;
+	&lt;li&gt;Bathe your pet weekly to remove dander from its coat.&lt;/li&gt;
+	&lt;li&gt;Choose carpet-free flooring, or shampoo your carpet regularly.&lt;/li&gt;
+	&lt;li&gt;Use a high-efficiency particulate air (HEPA) air purifier and vent filters to help reduce airborne pet allergens.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pet allergy: Are there hypoallergenic dog breeds?
+	</Title>
+	<Abstract>
+		There are no hypoallergenic dog breeds, but you can reduce your allergic reactions.
+	</Abstract>
+	<Question>
+		Are there any hypoallergenic dog breeds?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01241" LinkType="Internal" ObjectID="B0F40A94-2A5D-9994-E46A807D9C5DB928" Title="Nasal spray addiction: Is it real?" Url="http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="Disease" DocID="DS00859" LinkType="Internal" ObjectID="09A73EDE-E7FF-0DBD-1B76266DAA90422D" Title="Pet allergy" Url="http://www.mayoclinic.com/health/pet-allergy/DS00859" />
+	</RelatedLinksBox>
+</Answer>

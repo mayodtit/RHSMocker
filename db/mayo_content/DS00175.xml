@@ -1,0 +1,669 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00175
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/depression/DS00175
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2000-05-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2438" Title="Depression" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F61D92BD-C12C-4C1E-98CE1DDC09196EA2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depressive
+			</MetaKeyword>
+			<MetaKeyword>
+				major depression
+			</MetaKeyword>
+			<MetaKeyword>
+				major depressive disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				signs of depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression medication
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				clinical depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression causes
+			</MetaKeyword>
+			<MetaKeyword>
+				depression anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				teen depression
+			</MetaKeyword>
+			<MetaKeyword>
+				help depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression hurts
+			</MetaKeyword>
+			<MetaKeyword>
+				depression self test
+			</MetaKeyword>
+			<MetaKeyword>
+				depression help
+			</MetaKeyword>
+			<MetaKeyword>
+				what is depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression medicine
+			</MetaKeyword>
+			<MetaKeyword>
+				anti depression medication
+			</MetaKeyword>
+			<MetaKeyword>
+				types of depression
+			</MetaKeyword>
+			<MetaKeyword>
+				causes of depression
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety depression
+			</MetaKeyword>
+			<MetaKeyword>
+				severe depression
+			</MetaKeyword>
+			<MetaKeyword>
+				dealing with depression
+			</MetaKeyword>
+			<MetaKeyword>
+				coping with depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression tips
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depression is a medical illness that causes a persistent feeling of sadness and loss of interest. Depression can cause physical symptoms, too.
+&lt;/p&gt;
+&lt;p&gt;
+Also called major depression, major depressive disorder and clinical depression, it affects how you feel, think and behave. Depression can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and depression may make you feel as if life isn&apos;t worth living.
+&lt;/p&gt;
+&lt;p&gt;
+More than just a bout of the blues, depression isn&apos;t a weakness, nor is it something that you can simply &quot;snap out&quot; of. Depression is a chronic illness that usually requires long-term treatment, like diabetes or high blood pressure. But don&apos;t get discouraged. Most people with depression feel better with medication, psychological counseling or other treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depression symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feelings of sadness or unhappiness&lt;/li&gt;
+	&lt;li&gt;Irritability or frustration, even over small matters&lt;/li&gt;
+	&lt;li&gt;Loss of interest or pleasure in normal activities&lt;/li&gt;
+	&lt;li&gt;Reduced sex drive&lt;/li&gt;
+	&lt;li&gt;Insomnia or excessive sleeping&lt;/li&gt;
+	&lt;li&gt;Changes in appetite &amp;mdash; depression often causes decreased appetite and weight loss, but in some people it causes increased cravings for food and weight gain&lt;/li&gt;
+	&lt;li&gt;Agitation or restlessness &amp;mdash; for example, pacing, hand-wringing or an inability to sit still&lt;/li&gt;
+	&lt;li&gt;Irritability or angry outbursts&lt;/li&gt;
+	&lt;li&gt;Slowed thinking, speaking or body movements&lt;/li&gt;
+	&lt;li&gt;Indecisiveness, distractibility and decreased concentration&lt;/li&gt;
+	&lt;li&gt;Fatigue, tiredness and loss of energy &amp;mdash; even small tasks may seem to require a lot of effort&lt;/li&gt;
+	&lt;li&gt;Feelings of worthlessness or guilt, fixating on past failures or blaming yourself when things aren&apos;t going right&lt;/li&gt;
+	&lt;li&gt;Trouble thinking, concentrating, making decisions and remembering things&lt;/li&gt;
+	&lt;li&gt;Frequent thoughts of death, dying or suicide&lt;/li&gt;
+	&lt;li&gt;Crying spells for no apparent reason&lt;/li&gt;
+	&lt;li&gt;Unexplained physical problems, such as back pain or headaches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, depression symptoms are so severe that it&apos;s obvious something isn&apos;t right. Other people feel generally miserable or unhappy without really knowing why. 
+&lt;/p&gt;
+&lt;p&gt;
+Depression affects each person in different ways, so symptoms caused by depression vary from person to person. Inherited traits, age, gender and cultural background all play a role in how depression may affect you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Depression symptoms in children and teens&lt;br /&gt;
+&lt;/strong&gt;Common symptoms of depression can be a little different in children and teens than they are in adults. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;In younger children, symptoms of depression may include sadness, irritability, hopelessness and worry.&lt;/li&gt;
+	&lt;li&gt;Symptoms in adolescents and teens may include anxiety, anger and avoidance of social interaction.&lt;/li&gt;
+	&lt;li&gt;Changes in thinking and sleep are common signs of depression in adolescents and adults but are not as common in younger children.&lt;/li&gt;
+	&lt;li&gt;In children and teens, depression often occurs along with behavior problems and other mental health conditions, such as anxiety or attention-deficit/hyperactivity disorder (ADHD).&lt;/li&gt;
+	&lt;li&gt;Schoolwork may suffer in children who are depressed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Depression symptoms in older adults&lt;br /&gt;
+&lt;/strong&gt;Depression is not a normal part of growing older, and most seniors feel satisfied with their lives. However, depression can and does occur in older adults. Unfortunately, it often goes undiagnosed and untreated. Many adults with depression feel reluctant to seek help when they&apos;re feeling down. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;In older adults, depression may go undiagnosed because symptoms &amp;mdash; for example, fatigue, loss of appetite, sleep problems or loss of interest in sex &amp;mdash; may seem to be caused by other illnesses.&lt;/li&gt;
+	&lt;li&gt;Older adults with depression may have less obvious symptoms. They may feel dissatisfied with life in general, bored, helpless or worthless. They may always want to stay at home, rather than going out to socialize or doing new things.&lt;/li&gt;
+	&lt;li&gt;Suicidal thinking or feelings in older adults is a sign of serious depression that should never be taken lightly, especially in men. Of all people with depression, older adult men are at the highest risk of suicide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you feel depressed, make an appointment to see your doctor as soon as you can. Depression symptoms may not get better on their own &amp;mdash; and depression may get worse if it isn&apos;t treated. Untreated depression can lead to other mental and physical health problems or problems in other areas of your life. Feelings of depression can also lead to suicide. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re reluctant to seek treatment, talk to a friend or loved one, a health care professional, a faith leader, or someone else you trust. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you have suicidal thoughts&lt;br /&gt;
+&lt;/strong&gt;If you or someone you know is having suicidal thoughts, get help right away. Here are some steps you can take: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Contact a family member or friend.&lt;/li&gt;
+	&lt;li&gt;Seek help from your doctor, a mental health provider or other health care professional.&lt;/li&gt;
+	&lt;li&gt;Call a suicide hot line number &amp;mdash; in the United States, you can reach the toll-free, 24-hour hot line of the National Suicide Prevention Lifeline at 800-273-8255 to talk to a trained counselor.&lt;/li&gt;
+	&lt;li&gt;Contact a minister, spiritual leader or someone in your faith community.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to get emergency help&lt;br /&gt;
+&lt;/strong&gt;If you think you may hurt yourself or attempt suicide, call 911 or your local emergency number immediately. If you have a loved one who has harmed himself or herself, or is seriously considering doing so, make sure someone stays with that person. Take him or her to the hospital or call for emergency help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not known exactly what causes depression. As with many mental illnesses, it appears a variety of factors may be involved. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biological differences.&lt;/strong&gt; People with depression appear to have physical changes in their brains. The significance of these changes is still uncertain, but may eventually help pinpoint causes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurotransmitters.&lt;/strong&gt; These naturally occurring brain chemicals linked to mood are thought to play a direct role in depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormones.&lt;/strong&gt; Changes in the body&apos;s balance of hormones may be involved in causing or triggering depression. Hormone changes can result from thyroid problems, menopause or a number of other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited traits.&lt;/strong&gt; Depression is more common in people whose biological family members also have this condition. Researchers are trying to find genes that may be involved in causing depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Life events.&lt;/strong&gt; Certain events, such as the death or loss of a loved one, financial problems, and high stress, can trigger depression in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Early childhood trauma.&lt;/strong&gt; Traumatic events during childhood, such as abuse or loss of a parent, may cause permanent changes in the brain that make you more susceptible to depression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depression often begins in the teens, 20s or 30s, but it can happen at any age. Twice as many women are diagnosed with depression as men, but this may be due in part because women are more likely to seek treatment for depression.
+&lt;/p&gt;
+&lt;p&gt;
+Although the precise cause of depression isn&apos;t known, researchers have identified certain factors that seem to increase the risk of developing or triggering depression, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having biological relatives with depression&lt;/li&gt;
+	&lt;li&gt;Being a woman&lt;/li&gt;
+	&lt;li&gt;Having traumatic experiences as a child&lt;/li&gt;
+	&lt;li&gt;Having family members or friends who have been depressed&lt;/li&gt;
+	&lt;li&gt;Experiencing stressful life events, such as the death of a loved one&lt;/li&gt;
+	&lt;li&gt;Having few friends or other personal relationships&lt;/li&gt;
+	&lt;li&gt;Recently having given birth (postpartum depression)&lt;/li&gt;
+	&lt;li&gt;Having been depressed previously&lt;/li&gt;
+	&lt;li&gt;Having a serious illness, such as cancer, diabetes, heart disease, Alzheimer&apos;s or HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Having certain personality traits, such as having low self-esteem and being overly dependent, self-critical or pessimistic&lt;/li&gt;
+	&lt;li&gt;Abusing alcohol, nicotine or illicit drugs&lt;/li&gt;
+	&lt;li&gt;Taking certain high blood pressure medications, sleeping pills or certain other medications (Talk to your doctor before stopping any medication you think could be affecting your mood.)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depression is a serious illness that can take a terrible toll on individuals and families. Untreated depression can result in emotional, behavioral and health problems that affect every area of your life. Complications associated with depression can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Substance abuse&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Work or school problems&lt;/li&gt;
+	&lt;li&gt;Family conflicts&lt;/li&gt;
+	&lt;li&gt;Relationship difficulties&lt;/li&gt;
+	&lt;li&gt;Social isolation&lt;/li&gt;
+	&lt;li&gt;Suicide&lt;/li&gt;
+	&lt;li&gt;Self-mutilation, such as cutting&lt;/li&gt;
+	&lt;li&gt;Premature death from other medical conditions&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor. However, in some cases when you call to set up an appointment, you may be referred directly to a health provider who specializes in diagnosing and treating mental health conditions (psychologist or psychiatrist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your health provider. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your health provider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your health provider is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. For problems related to depression, some basic questions to ask your health provider include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is depression the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What treatment is likely to work best for me?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a psychiatrist or other mental health provider?&lt;/li&gt;
+	&lt;li&gt;Are there any possible side effects or other issues I should be aware of with the medications you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your health provider, don&apos;t hesitate to ask any additional questions that may occur to you during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your health provider&lt;br /&gt;
+&lt;/strong&gt;Your health provider is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your health provider may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your loved ones first notice your symptoms of depression?&lt;/li&gt;
+	&lt;li&gt;How long have you felt depressed? Do you generally always feel down, or does your mood fluctuate?&lt;/li&gt;
+	&lt;li&gt;Does your mood ever swing from feeling down to feeling euphoric and full of energy?&lt;/li&gt;
+	&lt;li&gt;Do you ever have suicidal thoughts when you&apos;re feeling down?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Do they interfere with your daily life or relationships?&lt;/li&gt;
+	&lt;li&gt;Do you have any biological relatives with depression or another mood disorder?&lt;/li&gt;
+	&lt;li&gt;What other mental or physical health conditions do you have?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol or use illegal drugs?&lt;/li&gt;
+	&lt;li&gt;How much do you sleep at night? Does it change over time?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because depression is common and often goes undiagnosed, some doctors and health care providers may ask questions about your mood and thoughts during routine medical visits. They may even ask you to fill out a brief questionnaire to help check for depression symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+When doctors suspect someone has depression, they generally ask a number of questions and may do medical and psychological tests. These can help rule out other problems that could be causing your symptoms, pinpoint a diagnosis and also check for any related complications. These exams and tests generally include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; This may include measuring your height and weight; checking your vital signs, such as heart rate, blood pressure and temperature; listening to your heart and lungs; and examining your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory tests.&lt;/strong&gt; For example, your doctor may do a blood test called a complete blood count (CBC) or test your thyroid to make sure it&apos;s functioning properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological evaluation.&lt;/strong&gt; To check for signs of depression, your doctor or mental health provider will talk to you about your thoughts, feelings and behavior patterns. He or she will ask about your symptoms, and whether you&apos;ve had similar episodes in the past. You&apos;ll also discuss any thoughts you may have of suicide or self-harm. Your doctor may have you fill out a written questionnaire to help answer these questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria for depression&lt;br /&gt;
+&lt;/strong&gt;To be diagnosed with major depression, you must meet the symptom criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with major depression, you must have five or more of the following symptoms over a two-week period. At least one of the symptoms must be either a depressed mood or a loss of interest or pleasure. Symptoms can be based on your own feelings or may be based on the observations of someone else. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depressed mood most of the day, nearly every day, such as feeling sad, empty or tearful (in children and adolescents, depressed mood can appear as constant irritability)&lt;/li&gt;
+	&lt;li&gt;Diminished interest or feeling no pleasure in all &amp;mdash; or almost all &amp;mdash; activities most of the day, nearly every day&lt;/li&gt;
+	&lt;li&gt;Significant weight loss when not dieting, weight gain, or decrease or increase in appetite nearly every day (in children, failure to gain weight as expected can be a sign of depression)&lt;/li&gt;
+	&lt;li&gt;Insomnia or increased desire to sleep nearly every day&lt;/li&gt;
+	&lt;li&gt;Either restlessness or slowed behavior that can be observed by others&lt;/li&gt;
+	&lt;li&gt;Fatigue or loss of energy nearly every day&lt;/li&gt;
+	&lt;li&gt;Feelings of worthlessness, or excessive or inappropriate guilt nearly every day&lt;/li&gt;
+	&lt;li&gt;Trouble making decisions, or trouble thinking or concentrating nearly every day&lt;/li&gt;
+	&lt;li&gt;Recurrent thoughts of death or suicide, or a suicide attempt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To be considered major depression: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your symptoms aren&apos;t due to a mixed episode &amp;mdash; simultaneous mania and depression that can occur in bipolar disorder&lt;/li&gt;
+	&lt;li&gt;Symptoms must be severe enough to cause noticeable problems in day-to-day activities, such as work, school, social activities or relationships with others&lt;/li&gt;
+	&lt;li&gt;Symptoms are not due to the direct effects of something else, such as drug abuse, taking a medication or having a medical condition such as hypothyroidism&lt;/li&gt;
+	&lt;li&gt;Symptoms are not caused by grieving, such as temporary sadness after the loss of a loved one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other conditions that cause depression symptoms&lt;br /&gt;
+&lt;/strong&gt;There are several other conditions with symptoms that can include depression. It&apos;s important to get an accurate diagnosis so you can get the appropriate treatment for your particular condition. Your doctor or mental health provider&apos;s evaluation will help determine if your symptoms of depression are caused by one of the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adjustment disorder.&lt;/strong&gt; An adjustment disorder is a severe emotional reaction to a difficult event in your life. It&apos;s a type of stress-related mental illness that may affect your feelings, thoughts and behavior.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bipolar disorder.&lt;/strong&gt; This type of depression is characterized by mood swings that range from highs to lows. It&apos;s sometimes difficult to distinguish between bipolar disorder and depression, but it&apos;s important to get an accurate diagnosis so that you can get the proper treatment and medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclothymia.&lt;/strong&gt; Cyclothymia (si-klo-THI-me-uh), also called cyclothymic disorder, is a milder form of bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dysthymia.&lt;/strong&gt; Dysthymia (dis-THI-me-uh) is a less severe but more chronic form of depression. While it&apos;s usually not disabling, dysthymia can prevent you from functioning normally in your daily routine and from living life to its fullest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Postpartum depression.&lt;/strong&gt; This is a common type of depression that occurs in new mothers. It often occurs between two weeks and six months after delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotic depression.&lt;/strong&gt; This is severe depression accompanied by psychotic symptoms, such as delusions or hallucinations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seasonal affective disorder.&lt;/strong&gt; This type of depression is related to changes in seasons and diminished exposure to sunlight.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make sure you understand what type of depression you have so that you can learn more about your specific situation and its treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Numerous depression treatments are available. Medications and psychological counseling (psychotherapy) are very effective for most people. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, a primary care doctor can prescribe medications to relieve depression symptoms. However, many people need to see a doctor who specializes in diagnosing and treating mental health conditions (psychiatrist). Many people with depression also benefit from seeing a psychologist or other mental health counselor. Usually the most effective treatment for depression is a combination of medication and psychotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe depression, a doctor, loved one or guardian may need to guide your care until you&apos;re well enough to participate in decision making. You may need a hospital stay, or you may need to participate in an outpatient treatment program until your symptoms improve. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s a closer look at your depression treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;A number of antidepressant medications are available to treat depression. There are several different types of antidepressants. Antidepressants are generally categorized by how they affect the naturally occurring chemicals in your brain to change your mood. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of antidepressants include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Selective serotonin reuptake inhibitors (SSRIs).&lt;/strong&gt; Many doctors start depression treatment by prescribing an SSRI. These medications are safer and generally cause fewer bothersome side effects than do other types of antidepressants. SSRIs include fluoxetine (Prozac), paroxetine (Paxil), sertraline (Zoloft), citalopram (Celexa) and escitalopram (Lexapro). The most common side effects include decreased sexual desire and delayed orgasm. Other side effects may go away as your body adjusts to the medication. They can include digestive problems, jitteriness, restlessness, headache and insomnia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Serotonin and norepinephrine reuptake inhibitors (SNRIs).&lt;/strong&gt; These medications include duloxetine (Cymbalta), venlafaxine (Effexor XR) and desvenlafaxine (Pristiq). Side effects are similar to those caused by SSRIs. These medications can cause increased sweating, dry mouth, fast heart rate and constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Norepinephrine and dopamine reuptake inhibitors (NDRIs).&lt;/strong&gt; Bupropion (Wellbutrin) falls into this category. It&apos;s one of the few antidepressants that doesn&apos;t cause sexual side effects. At high doses, bupropion may increase your risk of having seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atypical antidepressants.&lt;/strong&gt; These medications are called atypical because they don&apos;t fit neatly into another antidepressant category. They include trazodone (Oleptro) and mirtazapine (Remeron). Both of these antidepressants are sedating and are usually taken in the evening. In some cases, one of these medications is added to other antidepressants to help with sleep. The newest medication in this class of drugs is vilazodone (Viibryd). Vilazodone has a low risk of sexual side effects. The most common side effects associated with vilazodone are diarrhea, nausea, vomiting and insomnia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants.&lt;/strong&gt; These antidepressants have been used for years and are generally as effective as newer medications. But because they tend to have more numerous and more-severe side effects, a tricyclic antidepressant generally isn&apos;t prescribed unless you&apos;ve tried an SSRI first without an improvement in your depression. Side effects can include dry mouth, blurred vision, constipation, urinary retention, fast heartbeat and confusion. Tricyclic antidepressants are also known to cause weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monoamine oxidase inhibitors (MAOIs)&lt;/strong&gt;. MAOIs &amp;mdash; such as tranylcypromine (Parnate) and phenelzine (Nardil) &amp;mdash; are usually prescribed as a last resort, when other medications haven&apos;t worked. That&apos;s because MAOIs can have serious harmful side effects. They require a strict diet because of dangerous (or even deadly) interactions with foods, such as certain cheeses, pickles and wines, and some medications including decongestants. Selegiline (Emsam) is a newer MAOI that you stick on your skin as a patch rather than swallowing. It may cause fewer side effects than other MAOIs. These medications can&apos;t be combined with SSRIs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medication strategies.&lt;/strong&gt; Your doctor may suggest other medications to treat your depression. These may include stimulants, mood-stabilizing medications, anti-anxiety medications or antipsychotic medications. In some cases, your doctor may recommend combining two or more antidepressants or other medications for better effect. This strategy is known as augmentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Finding the right medication&lt;br /&gt;
+&lt;/strong&gt;Everyone&apos;s different, so finding the right medication or medications for you will likely take some trial and error. This requires patience, as some medications need eight weeks or longer to take full effect and for side effects to ease as your body adjusts. If you have bothersome side effects, don&apos;t stop taking an antidepressant without talking to your doctor first. Some antidepressants can cause withdrawal symptoms unless you slowly taper off your dose, and quitting suddenly may cause a sudden worsening of depression. Don&apos;t give up until you find an antidepressant or medication that&apos;s suitable for you &amp;mdash; you&apos;re likely to find one that works and that doesn&apos;t have intolerable side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+If antidepressant treatment doesn&apos;t seem to be working, your doctor may recommend a blood test to check for specific genes that affect how your body uses antidepressants. The cytochrome P450 (CYP450) genotyping test is one example of this type of exam. Genetic testing of this kind can help predict how well your body can or can&apos;t process (metabolize) a medication. This may help identify which antidepressant might be a good choice for you. These genetic tests may not be widely available, so they&apos;re an option only for people who have access to a clinic that offers them. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antidepressants and pregnancy&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re pregnant or breast-feeding, some antidepressants may pose an increased health risk to your unborn child or nursing child. Talk to your doctor if you become pregnant or are planning on becoming pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antidepressants and increased suicide risk&lt;br /&gt;
+&lt;/strong&gt;Although most antidepressants are generally safe, be careful when taking them. The Food and Drug Administration (FDA) now requires that all antidepressant medications carry black box warnings. These are the strictest warnings that the FDA can issue for prescription medications. 
+&lt;/p&gt;
+&lt;p&gt;
+The antidepressant warnings note that in some cases, children, adolescents and young adults under 25 may have an increase in suicidal thoughts or behavior when taking antidepressants, especially in the first few weeks after starting an antidepressant or when the dose is changed. Because of this risk, people in these age groups must be closely monitored by loved ones, caregivers and health care providers while taking antidepressants. If you &amp;mdash; or someone you know &amp;mdash; have suicidal thoughts when taking an antidepressant, immediately contact your doctor or get emergency help. 
+&lt;/p&gt;
+&lt;p&gt;
+Again, make sure you understand the risks of the various antidepressants. Working together, you and your doctor can explore options to get your depression symptoms under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;/strong&gt;&lt;br /&gt;
+Psychological counseling is another key depression treatment. Psychotherapy is a general term for a way of treating depression by talking about your condition and related issues with a mental health provider. Psychotherapy is also known as therapy, talk therapy, counseling or psychosocial therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Through these talk sessions, you learn about the causes of depression so that you can better understand it. You also learn how to identify and make changes in unhealthy behavior or thoughts, explore relationships and experiences, find better ways to cope and solve problems, and set realistic goals for your life. Psychotherapy can help you regain a sense of happiness and control in your life and help ease depression symptoms such as hopelessness and anger. It may also help you adjust to a crisis or other current difficulty. 
+&lt;/p&gt;
+&lt;p&gt;
+There are several types of psychotherapy that are effective for depression. Cognitive behavioral therapy is one of the most commonly used therapies. This type of therapy helps you identify negative beliefs and behaviors and replace them with healthy, positive ones. It&apos;s based on the idea that your own thoughts &amp;mdash; not other people or situations &amp;mdash; determine how you feel or behave. Even if an unwanted situation doesn&apos;t change, you can change the way you think and behave in a positive way. Interpersonal therapy and psychodynamic psychotherapy are other types of counseling commonly used to treat depression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electroconvulsive therapy (ECT)&lt;br /&gt;
+&lt;/strong&gt;In ECT, electrical currents are passed through the brain. This procedure is thought to affect levels of neurotransmitters in your brain. Although many people are leery of ECT and its side effects, it typically offers immediate relief of even severe depression when other treatments don&apos;t work. It&apos;s unclear how this therapy relieves the signs and symptoms of depression. The most common side effect is confusion, which can last from a few minutes to several hours. Some people also have memory loss, which is usually temporary. 
+&lt;/p&gt;
+&lt;p&gt;
+ECT is usually used for people who don&apos;t get better with medications and for those at high risk of suicide. ECT may be an option if you have severe depression when you&apos;re pregnant and can&apos;t take your regular medications. It can also be an effective treatment for older adults who have severe depression and can&apos;t take antidepressants for health reasons. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization and residential treatment programs&lt;br /&gt;
+&lt;/strong&gt;In some people, depression is so severe that a hospital stay is needed. Inpatient hospitalization may be necessary if you aren&apos;t able to care for yourself properly or when you&apos;re in immediate danger of harming yourself or someone else. Getting psychiatric treatment at a hospital can help keep you calm and safe until your mood improves. Partial hospitalization or day treatment programs also are helpful for some people. These programs provide the support and counseling you need while you get symptoms under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments for depression&lt;br /&gt;
+&lt;/strong&gt;If standard depression treatment hasn&apos;t been effective, your psychiatrist may consider whether you might benefit from a less commonly used procedure, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vagus nerve stimulation.&lt;/strong&gt; This treatment uses electrical impulses with a surgically implanted pulse generator to affect mood centers of the brain. This may be an option if you have chronic, treatment-resistant depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transcranial magnetic stimulation.&lt;/strong&gt; These treatments use powerful magnetic fields to alter brain activity. A large electromagnetic coil is held against your scalp near your forehead to produce an electrical current in your brain. Transcranial magnetic stimulation may be an option for those who haven&apos;t responded to antidepressants.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depression generally isn&apos;t an illness that you can treat on your own. But you can do some things for yourself that will help. In addition to professional treatment, follow these self-care steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Don&apos;t skip psychotherapy sessions or appointments, even if you don&apos;t feel like going. Even if you&apos;re feeling well, resist any temptation to skip your medications. If you stop, depression symptoms may come back, and you could also experience withdrawal-like symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about depression.&lt;/strong&gt; Education about your condition can empower you and motivate you to stick to your treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to warning signs.&lt;/strong&gt; Work with your doctor or therapist to learn what might trigger your depression symptoms. Make a plan so that you know what to do if your symptoms get worse. Contact your doctor or therapist if you notice any changes in symptoms or how you feel. Ask family members or friends to help watch for warning signs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get exercise.&lt;/strong&gt; Physical activity reduces depression symptoms. Consider walking, jogging, swimming, gardening or taking up another activity you enjoy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol and illegal drugs.&lt;/strong&gt; It may seem like alcohol or drugs lessen depression symptoms, but in the long run they generally worsen symptoms and make depression harder to treat. Talk with your doctor or therapist if you need help with alcohol or substance abuse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of sleep.&lt;/strong&gt; Sleeping well is important for both your physical and mental well-being. If you&apos;re having trouble sleeping, talk to your doctor about what you can do.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be interested in trying to relieve depression symptoms with complementary or alternative medicine strategies. These include supplements and mind-body techniques. Make certain you understand risks as well as possible benefits before pursuing alternative therapy. Don&apos;t forgo conventional medical treatment or psychotherapy for alternative medicine. When it comes to depression, alternative treatments aren&apos;t a substitute for medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+Here are some common alternative treatments that are used for depression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Herbal remedies and supplements&lt;br /&gt;
+&lt;/strong&gt;A number of herbal remedies and supplements have been used for depression. A few common ones include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;St. John&apos;s&lt;/strong&gt;&lt;strong&gt; wort.&lt;/strong&gt; Known scientifically as Hypericum perforatum, this is an herb that&apos;s been used for centuries to treat a variety of ills, including depression. It&apos;s not approved by the FDA to treat depression in the United States. Rather, it&apos;s classified as a dietary supplement. However, it&apos;s a popular treatment in Europe for mild or moderate depression. But, it can interfere with other depression medicines, as well as some drugs used to treat people with heart disease, seizures, cancer and organ transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;SAMe.&lt;/strong&gt; Pronounced &quot;sammy,&quot; this is a synthetic form of a chemical that occurs naturally in the body. The name is short for S-adenosylmethionine. It&apos;s not approved by the FDA to treat depression in the United States. Rather, it&apos;s classified as a dietary supplement. Side effects are usually minimal, but SAMe can trigger mania in people with bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acids.&lt;/strong&gt; Eating a diet rich in omega-3s or taking omega-3 supplements may help ease depression, especially when used in addition to standard depression treatments. These healthy fats are found in cold-water fish, flaxseed, flax oil, walnuts and some other foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Folate.&lt;/strong&gt; Low levels of folate, a B vitamin, may cause a slowed response to some antidepressants. Taking folate supplements (folic acid) may be helpful when used in addition to antidepressants. Ask your doctor what amount is right for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind that nutritional and dietary products aren&apos;t monitored by the FDA the same way medications are. You can&apos;t always be certain of what you&apos;re getting and if it&apos;s safe. Also, be aware that some herbal and dietary supplements can interfere with prescription medications or cause dangerous interactions. To be safe, talk to your doctors and other health care providers before taking any herbal or dietary supplements. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mind-body connections&lt;br /&gt;
+&lt;/strong&gt;The connection between mind and body has been studied for centuries. Complementary and alternative medicine practitioners believe the mind and body must be in harmony for you to stay healthy. 
+&lt;/p&gt;
+&lt;p&gt;
+Mind-body techniques that may be tried to ease depression symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Yoga&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Guided imagery&lt;/li&gt;
+	&lt;li&gt;Massage therapy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As with dietary supplements, take care in using these techniques. Although they may pose less of a risk, relying solely on these therapies is not enough to treat depression. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with depression can be challenging. Talk to your doctor or therapist about improving your coping skills, and try these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simplify your life.&lt;/strong&gt; Cut back on obligations when possible, and set reasonable goals for yourself. Give yourself permission to do less when you feel down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider writing in a journal.&lt;/strong&gt; Journaling can improve mood by allowing you to express pain, anger, fear or other emotions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Read reputable self-help books and websites.&lt;/strong&gt; Your doctor or therapist may be able to recommend books to read.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Connecting with others facing similar challenges can help you cope. Local support groups for depression are available in many communities, and support groups for depression are also offered online.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t become isolated.&lt;/strong&gt; Try to participate in social activities, and get together with family or friends regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Eat a healthy diet, exercise regularly and get plenty of sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn ways to relax and manage your stress.&lt;/strong&gt; Examples include meditation, yoga and tai chi.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Structure your time.&lt;/strong&gt; Plan your day and activities. You may find it helpful to make a list of daily tasks, use sticky notes as reminders or use a planner to stay organized.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t make important decisions when you&apos;re down.&lt;/strong&gt; Avoid decision making when you&apos;re feeling very depressed, since you may not be thinking clearly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent depression. However, taking steps to control stress, to increase your resilience and to boost low self-esteem may help. Friendship and social support, especially in times of crisis, can help you weather rough spells. In addition, treatment at the earliest sign of a problem can help prevent depression from worsening. Long-term maintenance treatment also may help prevent a relapse of depression symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Depression (major depression)
+	</Title>
+	<Abstract>
+		Depression &amp;mdash; Comprehensive overview covers symptoms, treatment and coping with this mood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="DN00013" LinkType="Internal" ObjectID="F4ED17C0-E7FF-0DBD-1FF5780E0E757B9C" Title="Seasonal affective disorder treatment: Choosing a light box" Url="http://www.mayoclinic.com/health/seasonal-affective-disorder-treatment/DN00013" />
+		<LinkItem ContentType="Disease" DocID="DS01111" LinkType="Internal" ObjectID="EB1C9DFD-E7FF-0DBD-1DAAA64EB6D441A8" Title="Dysthymia" Url="http://www.mayoclinic.com/health/dysthymia/DS01111" />
+		<LinkItem ContentType="Disease" DocID="DS01181" LinkType="Internal" ObjectID="BEC6FAEB-A17C-917E-8D445EB9C869C9E9" Title="Atypical depression" Url="http://www.mayoclinic.com/health/atypical-depression/DS01181" />
+		<LinkItem ContentType="Disease" DocID="DS00546" LinkType="Internal" ObjectID="282E99EF-B8E3-4BD7-89B49D1AE06A5DFC" Title="Postpartum depression" Url="http://www.mayoclinic.com/health/postpartum-depression/DS00546" />
+		<LinkItem ContentType="Disease" DocID="DS00195" LinkType="Internal" ObjectID="21F07E37-5FD1-46AB-BC61AF5937C1CD39" Title="Seasonal affective disorder (SAD)" Url="http://www.mayoclinic.com/health/seasonal-affective-disorder/DS00195" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00814" LinkType="Internal" ObjectID="E0F45336-B87B-5407-FEA8BFFF3FEB95AD" Title="Family therapy" Url="http://www.mayoclinic.com/health/family-therapy/MY00814" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00135" LinkType="Internal" ObjectID="CB00C409-E7FF-0DBD-1D4F0F0E1E174321" Title="Cytochrome P450 (CYP450) tests" Url="http://www.mayoclinic.com/health/cyp450-test/MY00135" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00129" LinkType="Internal" ObjectID="C650258F-E7FF-0DBD-12E55834EE1D684B" Title="Electroconvulsive therapy (ECT)" Url="http://www.mayoclinic.com/health/electroconvulsive-therapy/MY00129" />
+		<LinkItem ContentType="Answer" DocID="AN02011" LinkType="Internal" ObjectID="C0683904-0C4A-603E-4A007645231D330D" Title="Diabetes and depression: Coping with the two conditions" Url="http://www.mayoclinic.com/health/diabetes-and-depression/AN02011" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN02194" LinkType="Internal" ObjectID="97DB1E66-C0DF-846A-EDC3AE6812E0E8C9" Title="What is reflexology?" Url="http://www.mayoclinic.com/health/what-is-reflexology/AN02194" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00194" LinkType="Internal" ObjectID="6A932FE2-E7FF-0DBD-15A1B22BF9201628" Title="Cognitive behavioral therapy" Url="http://www.mayoclinic.com/health/cognitive-behavioral-therapy/MY00194" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00186" LinkType="Internal" ObjectID="470A84D0-E7FF-0DBD-14CBD2F07ED3D45E" Title="Psychotherapy" Url="http://www.mayoclinic.com/health/psychotherapy/MY00186" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00185" LinkType="Internal" ObjectID="47076922-E7FF-0DBD-198EEC7645B7F321" Title="Transcranial magnetic stimulation" Url="http://www.mayoclinic.com/health/transcranial-magnetic-stimulation/MY00185" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00184" LinkType="Internal" ObjectID="47064595-E7FF-0DBD-1AD6370F34F0FBB9" Title="Deep brain stimulation" Url="http://www.mayoclinic.com/health/deep-brain-stimulation/MY00184" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00183" LinkType="Internal" ObjectID="46FF1248-E7FF-0DBD-18E412A0E6CFB921" Title="Vagus nerve stimulation" Url="http://www.mayoclinic.com/health/vagus-nerve-stimulation/MY00183" />
+		<LinkItem ContentType="Answer" DocID="AN02160" LinkType="Internal" ObjectID="3E154DC1-FC23-ED49-364492869F954F20" Title="Do the benefits of vitamin C include improved mood?" Url="http://www.mayoclinic.com/health/benefits-vitamin-c/AN02160" />
+		<LinkItem ContentType="Answer" DocID="AN01842" LinkType="Internal" ObjectID="10D765CA-E7FF-0DBD-15E746010E167752" Title="Tinnitus causes: Could my antidepressant be the culprit?" Url="http://www.mayoclinic.com/health/tinnitus-causes/AN01842" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="MY01976" LinkType="Internal" ObjectID="AFDA76C9-F998-E928-3C4546E31A6A9DBD" Title="Empty nest syndrome: Tips for coping" Url="http://www.mayoclinic.com/health/empty-nest-syndrome/MY01976" />
+		<LinkItem ContentType="Article" DocID="MY01264" LinkType="Internal" ObjectID="AA9670CE-C399-DF07-B92D0414AA03597D" Title="Caregiver depression: Prevention counts" Url="http://www.mayoclinic.com/health/caregiver-depression/MY01264" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="DN00007" LinkType="Internal" ObjectID="88460D31-2A5D-9994-EA83500239C08BEE" Title="Antidepressants: Safe during pregnancy?" Url="http://www.mayoclinic.com/health/antidepressants/DN00007" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="MY01650" LinkType="Internal" ObjectID="5727E251-F748-A208-60315DF916924E2B" Title="Mental health providers: Tips on finding one" Url="http://www.mayoclinic.com/health/mental-health-providers/MY01650" />
+		<LinkItem ContentType="Article" DocID="MH00002" LinkType="Internal" ObjectID="24EFE323-6344-484C-BADD87CBB450A08F" Title="Support groups: Make connections, get help" Url="http://www.mayoclinic.com/health/support-groups/MH00002" />
+		<LinkItem ContentType="Article" DocID="MH00042" LinkType="Internal" ObjectID="0D9E914C-486D-425E-A823B1FC0A2EB794" Title="Mental health: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/mental-health/MH00042" />
+		<LinkItem ContentType="Video" DocID="MM00660" LinkType="Internal" ObjectID="FF2DC04A-2A5D-9994-E5556C1E4621EA9B" Title="Video: Antidepressants &amp;#8212; How they help relieve depression" Url="http://www.mayoclinic.com/health/antidepressants/MM00660" />
+		<LinkItem ContentType="Answer" DocID="AN02074" LinkType="Internal" ObjectID="DCF0D3E1-00D4-D3D6-A2BDDFE05BBEA4C2" Title="Mild depression: Are antidepressants effective?" Url="http://www.mayoclinic.com/health/mild-depression/AN02074" />
+		<LinkItem ContentType="Answer" DocID="AN01449" LinkType="Internal" ObjectID="D613ABE2-E7FF-0DBD-1A4B821FA21F9E4E" Title="Pain and depression: Is there a link?" Url="http://www.mayoclinic.com/health/pain-and-depression/AN01449" />
+		<LinkItem ContentType="Answer" DocID="AN02087" LinkType="Internal" ObjectID="CE033047-E4F6-AC50-8218E40DE02D2326" Title="Natural remedies for depression: Are they effective?" Url="http://www.mayoclinic.com/health/natural-remedies-for-depression/AN02087" />
+		<LinkItem ContentType="Answer" DocID="AN01739" LinkType="Internal" ObjectID="B48E0D17-E7FF-0DBD-108CFAEE20A459E8" Title="Antidepressants: Which cause the fewest sexual side effects?" Url="http://www.mayoclinic.com/health/antidepressants/AN01739" />
+		<LinkItem ContentType="Answer" DocID="AN01945" LinkType="Internal" ObjectID="A0775B4E-E7FF-0DBD-1C91E44E76FA1993" Title="Lexapro side effects: Is breast tenderness common?" Url="http://www.mayoclinic.com/health/lexapro-side-effects/AN01945" />
+		<LinkItem ContentType="Answer" DocID="AN01399" LinkType="Internal" ObjectID="8D1FD7B4-E7FF-0DBD-1000E32A79631C7E" Title="Fish oil supplements: Can they treat depression?" Url="http://www.mayoclinic.com/health/fish-oil-supplements/AN01399" />
+		<LinkItem ContentType="Answer" DocID="AN01425" LinkType="Internal" ObjectID="896A9617-E7FF-0DBD-10AA1D766C0B1347" Title="Antidepressant withdrawal: Is there such a thing?" Url="http://www.mayoclinic.com/health/antidepressant-withdrawal/AN01425" />
+		<LinkItem ContentType="Answer" DocID="AN01396" LinkType="Internal" ObjectID="881C4AF6-E7FF-0DBD-159A86353F991AB4" Title="Antidepressants and weight gain: What causes it?" Url="http://www.mayoclinic.com/health/antidepressants-and-weight-gain/AN01396" />
+		<LinkItem ContentType="Answer" DocID="AN01700" LinkType="Internal" ObjectID="842AF28E-E7FF-0DBD-178C2A6BBADF3325" Title="Caffeine and depression: Is there a link?" Url="http://www.mayoclinic.com/health/caffeine-and-depression/AN01700" />
+		<LinkItem ContentType="Answer" DocID="AN02057" LinkType="Internal" ObjectID="6EEA5017-0B73-8B74-C1D42F242F6871A9" Title="Junk food blues: Are depression and diet related?" Url="http://www.mayoclinic.com/health/depression-and-diet/AN02057" />
+		<LinkItem ContentType="Answer" DocID="AN01900" LinkType="Internal" ObjectID="6EA14F33-E7FF-0DBD-188A3DE5D3FA9A69" Title="Marijuana and depression: What&apos;s the link?" Url="http://www.mayoclinic.com/health/marijuana-and-depression/AN01900" />
+		<LinkItem ContentType="Video" DocID="MM00606" LinkType="Internal" ObjectID="63BEBCB5-95F6-4C93-99E7BD6334178247" Title="Video: Electroconvulsive therapy (ECT)" Url="http://www.mayoclinic.com/health/electroconvulsive-therapy/MM00606" />
+		<LinkItem ContentType="Answer" DocID="AN01543" LinkType="Internal" ObjectID="5AC07427-E7FF-0DBD-1A0CE6CA9AE13F89" Title="Vitamin B-12 and depression: Are they related?" Url="http://www.mayoclinic.com/health/vitamin-b12-and-depression/AN01543" />
+		<LinkItem ContentType="Answer" DocID="AN00476" LinkType="Internal" ObjectID="5977E7CC-D0EC-48DA-BA17C1FA97821D61" Title="Nervous breakdown: What does it mean?" Url="http://www.mayoclinic.com/health/nervous-breakdown/AN00476" />
+		<LinkItem ContentType="Answer" DocID="AN01653" LinkType="Internal" ObjectID="546E122E-E7FF-0DBD-1854C3B00CB47F1B" Title="Antidepressants and alcohol: What is the concern?" Url="http://www.mayoclinic.com/health/antidepressants-and-alcohol/AN01653" />
+		<LinkItem ContentType="Answer" DocID="AN01615" LinkType="Internal" ObjectID="4960C13D-E7FF-0DBD-1866BEED9AD896BE" Title="Depression and anxiety: Can I have both?" Url="http://www.mayoclinic.com/health/depression-and-anxiety/AN01615" />
+		<LinkItem ContentType="Answer" DocID="AN01312" LinkType="Internal" ObjectID="41CD687B-2A5D-9994-EE4706365A81C663" Title="Antidepressants: Can they stop working?" Url="http://www.mayoclinic.com/health/antidepressants/AN01312" />
+		<LinkItem ContentType="SelfAssessment" DocID="MH00103_D" LinkType="Internal" ObjectID="3323EE4A-4AD6-4408-B82B7DDEB1D2FEB6" Title="Depression self-assessment" Url="http://www.mayoclinic.com/health/depression/MH00103_D" />
+		<LinkItem ContentType="Answer" DocID="AN01057" LinkType="Internal" ObjectID="31B8B61F-4CDE-415F-A383B48601C2598E" Title="&apos;Clinical depression&apos;: What does that mean?" Url="http://www.mayoclinic.com/health/clinical-depression/AN01057" />
+		<LinkItem ContentType="Answer" DocID="HQ01575" LinkType="Internal" ObjectID="26BFEE12-2FB7-4728-8C82CABA0C5A5ED0" Title="MAOIs and diet: Is it necessary to restrict tyramine?" Url="http://www.mayoclinic.com/health/maois/HQ01575" />
+		<LinkItem ContentType="InteractiveTable" DocID="MH00062" LinkType="Internal" ObjectID="0096FAE5-B0BB-4D37-80E979710473E342" Title="Antidepressants: Get tips to cope with side effects" Url="http://www.mayoclinic.com/health/antidepressants/MH00062" />
+		<LinkItem ContentType="Disease" DocID="DS01062" LinkType="Internal" ObjectID="C22F27E8-E7FF-0DBD-18D04660F2EA2EBE" Title="Suicide and suicidal thoughts" Url="http://www.mayoclinic.com/health/suicide/DS01062" />
+		<LinkItem ContentType="Disease" DocID="DS01174" LinkType="Internal" ObjectID="4DB53EF7-0BF4-EF7E-0FE99A4AC364BFA7" Title="Delayed ejaculation" Url="http://www.mayoclinic.com/health/delayed-ejaculation/DS01174" />
+		<LinkItem ContentType="Disease" DocID="DS00860" LinkType="Internal" ObjectID="09BF50FB-E7FF-0DBD-135D2D182C52119F" Title="Serotonin syndrome" Url="http://www.mayoclinic.com/health/serotonin-syndrome/DS00860" />
+		<LinkItem ContentType="Article" DocID="MY01561" LinkType="Internal" ObjectID="EE9E570C-9C93-0EF1-151FF414060419DE" Title="Atypical antidepressants" Url="http://www.mayoclinic.com/health/Atypical-antidepressants/MY01561" />
+		<LinkItem ContentType="Article" DocID="MH00035" LinkType="Internal" ObjectID="CF6360BC-F484-4537-8B66238611E7093F" Title="Depression in women: Understanding the gender gap" Url="http://www.mayoclinic.com/health/depression/MH00035" />
+		<LinkItem ContentType="Article" DocID="MH00071" LinkType="Internal" ObjectID="A515ADFA-CB64-4AAA-BC33444FDC400386" Title="Tricyclic antidepressants and tetracyclic antidepressants" Url="http://www.mayoclinic.com/health/antidepressants/MH00071" />
+		<LinkItem ContentType="Article" DocID="MH00043" LinkType="Internal" ObjectID="8D173381-C07B-408F-88A4D285554134E5" Title="Depression and anxiety: Exercise eases symptoms" Url="http://www.mayoclinic.com/health/depression-and-exercise/MH00043" />
+		<LinkItem ContentType="Article" DocID="HQ01069" LinkType="Internal" ObjectID="81DC27B3-E395-4ED5-88409BBEA636471E" Title="Antidepressants: Selecting one that&apos;s right for you" Url="http://www.mayoclinic.com/health/antidepressants/HQ01069" />
+		<LinkItem ContentType="Article" DocID="MC00041" LinkType="Internal" ObjectID="8022027A-C9BC-4931-B93F392D2BC06876" Title="Male depression: Understanding the issues" Url="http://www.mayoclinic.com/health/male-depression/MC00041" />
+		<LinkItem ContentType="Article" DocID="MH00016" LinkType="Internal" ObjectID="71CE4E8A-D9CD-41CC-94BDDFCD55B352EB" Title="Depression: Supporting a family member or friend" Url="http://www.mayoclinic.com/health/depression/MH00016" />
+		<LinkItem ContentType="Article" DocID="MH00067" LinkType="Internal" ObjectID="38798D0F-864B-44FB-981A2B0BD6044A0E" Title="Serotonin and norepinephrine reuptake inhibitors (SNRIs)" Url="http://www.mayoclinic.com/health/antidepressants/MH00067" />
+		<LinkItem ContentType="Article" DocID="MH00066" LinkType="Internal" ObjectID="30C860F3-5656-44A4-9F95A2A487837E7F" Title="Selective serotonin reuptake inhibitors (SSRIs)" Url="http://www.mayoclinic.com/health/ssris/MH00066" />
+		<LinkItem ContentType="Article" DocID="DN00016" LinkType="Internal" ObjectID="1732C94B-E7FF-0DBD-1B617EC9B7A2C753" Title="Treatment-resistant depression" Url="http://www.mayoclinic.com/health/treatment-resistant-depression/DN00016" />
+		<LinkItem ContentType="Article" DocID="MH00072" LinkType="Internal" ObjectID="07ECDC2C-C87F-4A5D-8D5EC178ECC4AFEE" Title="Monoamine oxidase inhibitors (MAOIs)" Url="http://www.mayoclinic.com/health/maois/MH00072" />
+	</RelatedLinksBox>
+</Disease>

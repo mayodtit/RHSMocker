@@ -1,0 +1,373 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00633
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blepharitis/DS00633
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-27
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1796" Title="Eyelid">
+						<Keyword MCVID="2478" Title="Blepharitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			31692E1E-2A5D-9994-EABEF38BEC4A4D4D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blepharitis
+			</MetaKeyword>
+			<MetaKeyword>
+				eyelid
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen eyelid
+			</MetaKeyword>
+			<MetaKeyword>
+				red eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				watery eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				burning eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				eye irritation
+			</MetaKeyword>
+			<MetaKeyword>
+				eye problem
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blepharitis (blef-uh-RI-tis) is inflammation that affects the eyelids. Blepharitis usually involves the part of the eyelid where the eyelashes grow.
+&lt;/p&gt;
+&lt;p&gt;
+Blepharitis commonly occurs when tiny oil glands located near the base of the eyelashes malfunction. This leads to inflamed, irritated and itchy eyelids. Several diseases and conditions can cause blepharitis.
+&lt;/p&gt;
+&lt;p&gt;
+Blepharitis is often a chronic condition that is difficult to treat. Blepharitis can be uncomfortable and may be unattractive, but it usually doesn&apos;t cause permanent damage to your eyesight.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing blepharitis 
+" Caption="Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. People with blepharitis sometimes wake with their eyelids stuck together. Others may wake with dried tears around their eyes and a feeling of sand in their eyes. In this picture, the yellow around the eye is from a yellow dye sometimes used in diagnostic tests. 
+" Height="60" Title="Blepharitis" URI="/images/image_popup/thumbs/ans7_blepharitisthu.jpg" Width="60" />
+				<Image Alt="Photograph showing blepharitis 
+" Caption="Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. People with blepharitis sometimes wake with their eyelids stuck together. Others may wake with dried tears around their eyes and a feeling of sand in their eyes. In this picture, the yellow around the eye is from a yellow dye sometimes used in diagnostic tests. 
+" Height="400" Title="Blepharitis" URI="/images/image_popup/ans7_blepharitis.jpg" Width="400" />
+				<HTML>
+					Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blepharitis symptoms and signs include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery eyes&lt;/li&gt;
+	&lt;li&gt;Red eyes&lt;/li&gt;
+	&lt;li&gt;A gritty, burning sensation in the eye&lt;/li&gt;
+	&lt;li&gt;Eyelids that appear greasy&lt;/li&gt;
+	&lt;li&gt;Itchy eyelids&lt;/li&gt;
+	&lt;li&gt;Red, swollen eyelids&lt;/li&gt;
+	&lt;li&gt;Flaking of the skin around the eyes&lt;/li&gt;
+	&lt;li&gt;Crusted eyelashes upon awakening&lt;/li&gt;
+	&lt;li&gt;Eyelid sticking&lt;/li&gt;
+	&lt;li&gt;More frequent blinking&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light&lt;/li&gt;
+	&lt;li&gt;Eyelashes that grow abnormally (misdirected eyelashes)&lt;/li&gt;
+	&lt;li&gt;Loss of eyelashes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have blepharitis symptoms and signs that don&apos;t seem to be improving despite good hygiene &amp;mdash; regular cleaning and care of the affected area &amp;mdash; make an appointment with your doctor.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing blepharitis 
+" Caption="Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. People with blepharitis sometimes wake with their eyelids stuck together. Others may wake with dried tears around their eyes and a feeling of sand in their eyes. In this picture, the yellow around the eye is from a yellow dye sometimes used in diagnostic tests. 
+" Height="60" Title="Blepharitis" URI="/images/image_popup/thumbs/ans7_blepharitisthu.jpg" Width="60" />
+				<Image Alt="Photograph showing blepharitis 
+" Caption="Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. People with blepharitis sometimes wake with their eyelids stuck together. Others may wake with dried tears around their eyes and a feeling of sand in their eyes. In this picture, the yellow around the eye is from a yellow dye sometimes used in diagnostic tests. 
+" Height="400" Title="Blepharitis" URI="/images/image_popup/ans7_blepharitis.jpg" Width="400" />
+				<HTML>
+					Blepharitis is an inflammation along the edges of the eyelids. People with blepharitis can experience irritated, itchy eyelids that may appear greasy and crusted with scales that cling to the lashes. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of blepharitis isn&apos;t clear. Factors associated with the development of blepharitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seborrheic dermatitis &amp;mdash; dandruff of the scalp and eyebrows&lt;/li&gt;
+	&lt;li&gt;A bacterial infection&lt;/li&gt;
+	&lt;li&gt;Malfunctioning oil glands in your eyelid&lt;/li&gt;
+	&lt;li&gt;Rosacea &amp;mdash; a skin condition characterized by facial redness&lt;/li&gt;
+	&lt;li&gt;Allergies, including allergic reactions to eye medications, contact lens solutions or eye makeup&lt;/li&gt;
+	&lt;li&gt;Eyelash mites or lice&lt;/li&gt;
+	&lt;li&gt;Certain medication &amp;mdash; the severe acne medication isotretinoin (Amnesteem, Claravis, Sotret) can lead to an increase in bacteria on the eyelids and can affect tear production&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Blepharitis may be caused by a combination of factors. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have blepharitis, you may also experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyelash problems.&lt;/strong&gt; Blepharitis can cause your eyelashes to fall out or grow abnormally (misdirected eyelashes).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyelid skin problems.&lt;/strong&gt; Scarring may occur on your eyelids in response to long-term blepharitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess tearing or dry eyes.&lt;/strong&gt; Abnormal oily secretions and other debris shed from the eyelid, such as flaking associated with dandruff, can accumulate in your tear film &amp;mdash; the water, oil and mucus solution that forms tears. Abnormal tear film interferes with the healthy lubrication of your eyelids. This can irritate your eyes and cause dry eyes or excessive tearing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty wearing contact lenses.&lt;/strong&gt; Because blepharitis can affect the amount of lubrication in your eyes, wearing contact lenses may be uncomfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sty.&lt;/strong&gt; A sty is an infection that develops near the base of the eyelashes. The result is a painful lump on the edge (usually on the outside part) of your eyelid. A sty is usually most visible on the surface of the eyelid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chalazion.&lt;/strong&gt; A chalazion occurs when there&apos;s a blockage in one of the small oil glands at the margin of the eyelid, just behind the eyelashes. The gland can become infected with bacteria, which causes a red, swollen eyelid. Unlike a sty, a chalazion tends to be most prominent on the inside of the eyelid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic pink eye.&lt;/strong&gt; Blepharitis can lead to recurrent bouts of pink eye (conjunctivitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to the cornea.&lt;/strong&gt; Constant irritation from inflamed eyelids or misdirected eyelashes may cause a sore (ulcer) to develop on your cornea. Insufficient tearing could predispose you to a corneal infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing a sty
+" Caption="A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+" Height="60" Title="Sty " URI="/images/image_popup/thumbs/r7_styTHU.jpg" Width="60" />
+				<Image Alt="Photograph showing a sty
+" Caption="A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+" Height="270" Title="Sty" URI="/images/image_popup/r7_sty.jpg" Width="400" />
+				<HTML>
+					A sty is a bacterial infection involving one or more of the small glands near the base of your eyelashes. It is similar to a boil or a pimple and is often painful.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing a chalazion
+" Caption="A chalazion (shown on the upper eyelid) is a bacterial infection of the oil glands just behind the base of the eyelashes. Although a chalazion can be painful when first developing, it may become a relatively painless swelling that feels like a small bead in your eyelid. This photo shows a similar inflammation on the lower lid.
+" Height="60" Title="Chalazion" URI="/images/image_popup/thumbs/vi7_chalazionthu.jpg" Width="60" />
+				<Image Alt="Photograph showing a chalazion
+" Caption="A chalazion (shown on the upper eyelid) is a bacterial infection of the oil glands just behind the base of the eyelashes. Although a chalazion can be painful when first developing, it may become a relatively painless swelling that feels like a small bead in your eyelid. This photo shows a similar inflammation on the lower lid.
+" Height="386" Title="Chalazion" URI="/images/image_popup/vi7_chalazion.jpg" Width="400" />
+				<HTML>
+					A chalazion (shown on the upper eyelid) is a bacterial infection of the oil glands just behind the base of the eyelashes. Although a chalazion can be painful when first developing, it may become a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. If your doctor suspects you may have an eyelid problem, such as blepharitis, you may be referred to an eye specialist (optometrist or ophthalmologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as remove your contact lenses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For blepharitis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there general medical disorders that can cause this problem?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is this condition usually temporary or long lasting? After treatment, will it come back again?&lt;/li&gt;
+	&lt;li&gt;Is my blepharitis contagious?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Can I continue to wear contact lenses?&lt;/li&gt;
+	&lt;li&gt;Do I need to take special care cleaning my contact lenses and my carrying case?&lt;/li&gt;
+	&lt;li&gt;Will I need a follow-up visit? If so, when?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover points you want to address. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms occur at a particular time of day?&lt;/li&gt;
+	&lt;li&gt;Have you been wearing contact lenses?&lt;/li&gt;
+	&lt;li&gt;Have you changed cosmetic brands recently?&lt;/li&gt;
+	&lt;li&gt;Have you changed soap or shampoo brands recently?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone close to you had a recent eye infection?&lt;/li&gt;
+	&lt;li&gt;Have you had any eye diseases, eye surgeries or eye injuries in the past?&lt;/li&gt;
+	&lt;li&gt;Do you have other diseases or conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+As you wait for your appointment, you may find some relief from eye irritation by gently washing your eyelids a few times each day. To wash your eyelids:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apply a warm washcloth to your closed eyelids for five minutes.&lt;/li&gt;
+	&lt;li&gt;Gently rub your closed eyelids with a diluted solution of baby shampoo. Use a clean washcloth or clean fingers.&lt;/li&gt;
+	&lt;li&gt;Rinse your eyes thoroughly with warm water.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Avoid anything that irritates your eyes, such as eye makeup and contact lenses.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose blepharitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examining your eyelids.&lt;/strong&gt; Your doctor will carefully examine your eyelids and your eyes. He or she may use a special magnifying instrument during the examination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swabbing skin for testing.&lt;/strong&gt; In certain cases, your doctor may use a swab to collect a sample of the oil or crust that forms on your eyelid. This sample can be analyzed for bacteria, fungi or evidence of an allergy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for blepharitis can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cleaning the affected area regularly.&lt;/strong&gt; Cleaning your eyelids with a warm washcloth can help control signs and symptoms. Self-care measures may be the only treatment necessary for most cases of blepharitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Eyedrops containing antibiotics applied to your eyelids may help control blepharitis caused by a bacterial infection. In certain cases, antibiotics are administered in cream, ointment or pill form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid eyedrops or ointments.&lt;/strong&gt; Eyedrops or ointments containing steroids can help control inflammation in your eyes and your eyelids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Artificial tears.&lt;/strong&gt; Lubricating eyedrops or artificial tears, which are available over-the-counter, may help relieve dry eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treating underlying conditions.&lt;/strong&gt; Blepharitis caused by seborrheic dermatitis, rosacea or other diseases may be controlled by treating the underlying disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Blepharitis rarely disappears completely. Even with successful treatment, relapses are common.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Clean your eyes daily&lt;/strong&gt;&lt;br /&gt;
+If you have blepharitis, follow this self-care remedy once or twice a day:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apply a warm compress over your closed eye for several minutes to loosen the crusty deposits on your eyelids.&lt;/li&gt;
+	&lt;li&gt;Immediately afterward, use a washcloth moistened with warm water and a few drops of baby shampoo to wash away any oily debris or scales at the base of your eyelashes.&lt;/li&gt;
+	&lt;li&gt;In some cases, you may need to be more deliberate about cleaning the edge of your eyelid where your eyelashes are located. To do this, gently pull your eyelid away from your eye and use the washcloth to gently wash the area. This helps avoid damaging your cornea with the washcloth. Ask your doctor whether you should use a topical antibiotic ointment after cleaning your eyelids in this way.&lt;/li&gt;
+	&lt;li&gt;Rinse your eyelid with warm water and gently pat it dry with a clean, dry towel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Continue this treatment until your signs and symptoms disappear. Although you may be able to decrease the frequency of eyelid soaking and washing, you should maintain an eyelid-care routine to keep the condition under control. If you experience a flare-up, resume once- or twice-daily self-care treatment.
+&lt;/p&gt;
+&lt;p&gt;
+It also may be a good idea to stop using eye makeup when your eyelids are inflamed. Makeup can make it harder to keep your eyelids clean and free of debris, and it&apos;s possible that makeup could reintroduce bacteria to the area or cause an allergic reaction.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Control dandruff&lt;/strong&gt;&lt;br /&gt;
+If you have dandruff that&apos;s contributing to your blepharitis, ask your doctor to recommend a dandruff shampoo. Using a dandruff-controlling shampoo may relieve your blepharitis signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there aren&apos;t any alternative medicine treatments that have been found to conclusively help ease the symptoms of blepharitis, a diet rich in omega-3 fatty acids or supplements containing omega-3 fatty acids, may be helpful for blepharitis associated with rosacea. Omega-3 fatty acids are found in foods such as salmon, tuna, trout, flaxseed and walnuts.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blepharitis
+	</Title>
+	<Abstract>
+		Blepharitis &amp;mdash; Comprehensive overview covers symptoms, treatment and self-care for this eyelid condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="EY00003" LinkType="Internal" ObjectID="7ECECA6C-3B12-488C-AB1AEA8D95084FB0" Title="Slide show: A look inside your eyes" Url="http://www.mayoclinic.com/health/eyes/EY00003" />
+		<LinkItem ContentType="Disease" DocID="DS00984" LinkType="Internal" ObjectID="062B23A0-E7FF-0DBD-198C952AD9A8A894" Title="Seborrheic dermatitis" Url="http://www.mayoclinic.com/health/seborrheic-dermatitis/DS00984" />
+	</RelatedLinksBox>
+</Disease>

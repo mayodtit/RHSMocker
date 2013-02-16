@@ -1,0 +1,132 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01938
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heavy-periods/AN01938
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="4423" Title="Female reproductive stage">
+						<Keyword MCVID="2046" Title="Menstrual cycle">
+							<Keyword MCVID="2171" Title="Menorrhagia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			95AA3516-E7FF-0DBD-1EFB3A9248FB591E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heavy periods
+			</MetaKeyword>
+			<MetaKeyword>
+				heavy period
+			</MetaKeyword>
+			<MetaKeyword>
+				folic acid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Folic acid supplements aren&apos;t a treatment for heavy periods, or for the type of anemia &amp;mdash; iron deficiency anemia &amp;mdash; associated with heavy periods. 
+&lt;/p&gt;
+&lt;p&gt;
+There are several types of anemia, all characterized by a shortage of healthy red blood cells to carry oxygen to your tissues. Some types develop when your bone marrow produces abnormal red blood cells as a result of folic acid deficiency. Folic acid supplements correct folic acid deficiency, so that healthy blood cells gradually replace abnormal ones. 
+&lt;/p&gt;
+&lt;p&gt;
+With iron deficiency anemia, the underlying problem is blood loss, occurring over a long enough time to deplete your body&apos;s iron stores. When your iron is depleted, your red blood cells can&apos;t carry oxygen effectively. Heavy periods are a common cause of iron deficiency anemia. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have iron deficiency anemia, your doctor will likely recommend that you take iron supplements to promote your production of healthy red blood cells and build back your iron stores. In the meantime, birth control pills are an option for shortening your periods and reducing monthly blood loss. 
+&lt;/p&gt;
+&lt;p&gt;
+During your period, try taking ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others). These drugs, often used to treat menstrual cramps, can also lighten heavy periods. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe bleeding that doesn&apos;t respond to medication and maintaining your fertility isn&apos;t a concern, treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The use of a progestin-containing intrauterine device (IUD)&lt;/li&gt;
+	&lt;li&gt;Scraping the lining of the uterus (dilation and curettage)&lt;/li&gt;
+	&lt;li&gt;Removing the lining of the uterus (endometrial ablation)&lt;/li&gt;
+	&lt;li&gt;Removing the uterus (hysterectomy)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heavy periods: Can folic acid help?
+	</Title>
+	<Abstract>
+		Heavy periods may cause iron deficiency anemia, which folic acid supplements can&apos;t treat.
+	</Abstract>
+	<Question>
+		I read somewhere that folic acid supplements are beneficial for women with heavy periods. How does folic acid help heavy periods?
+	</Question>
+	<QuestionFirstName>
+		Amanda
+	</QuestionFirstName>
+	<QuestionState>
+		Georgia
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01113" LinkType="Internal" ObjectID="9344F16F-901A-10F5-BB55D7058A31003A" Title="Endometrial ablation" Url="http://www.mayoclinic.com/health/endometrial-ablation/MY01113" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00998" LinkType="Internal" ObjectID="2FE93BB0-B736-D7BE-E8480D69D878499E" Title="Mirena (hormonal IUD)" Url="http://www.mayoclinic.com/health/mirena/MY00998" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00345" LinkType="Internal" ObjectID="06AC3953-E7FF-0DBD-195336DCB709FF7B" Title="Dilation and curettage (D&amp;amp;C)" Url="http://www.mayoclinic.com/health/dilation-and-curettage/MY00345" />
+		<LinkItem ContentType="Article" DocID="MY01541" LinkType="Internal" ObjectID="B0E6EDFF-F3AC-D8DF-2131098AE401EA43" Title="Menstrual cycle: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/menstrual-cycle/MY01541" />
+		<LinkItem ContentType="Answer" DocID="AN01878" LinkType="Internal" ObjectID="ED255789-E7FF-0DBD-1DB24C7D92711F5A" Title="Blood clots during menstruation: A concern?" Url="http://www.mayoclinic.com/health/blood-clots-during-menstruation/AN01878" />
+		<LinkItem ContentType="Disease" DocID="DS00567" LinkType="Internal" ObjectID="FCFFE32E-DD9C-4CA8-BFC63EE472B00DAA" Title="Hashimoto&apos;s disease" Url="http://www.mayoclinic.com/health/hashimotos-disease/DS00567" />
+		<LinkItem ContentType="Disease" DocID="DS00289" LinkType="Internal" ObjectID="BCA261E0-0FFD-4933-87C852CF94968FE2" Title="Endometriosis" Url="http://www.mayoclinic.com/health/endometriosis/DS00289" />
+		<LinkItem ContentType="Disease" DocID="DS00699" LinkType="Internal" ObjectID="ADB14E63-2A5D-9994-E8194C14C1828C83" Title="Uterine polyps" Url="http://www.mayoclinic.com/health/uterine-polyps/DS00699" />
+		<LinkItem ContentType="Disease" DocID="DS00636" LinkType="Internal" ObjectID="6F358D77-2A5D-9994-E73AA612A09DDB62" Title="Adenomyosis" Url="http://www.mayoclinic.com/health/Adenomyosis/DS00636" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+		<LinkItem ContentType="Disease" DocID="DS00394" LinkType="Internal" ObjectID="B7ACC24F-E124-4B69-A0231E7FEB5ECEC8" Title="Menorrhagia (heavy menstrual bleeding)" Url="http://www.mayoclinic.com/health/menorrhagia/DS00394" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00090" LinkType="Internal" ObjectID="B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76" Title="Pap smear" Url="http://www.mayoclinic.com/health/pap-smear/MY00090" />
+	</RelatedLinksBox>
+</Answer>

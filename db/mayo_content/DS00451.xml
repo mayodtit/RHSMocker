@@ -1,0 +1,334 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00451
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/scabies/DS00451
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-24
+		</UpdateDate>
+		<PublicationDate>
+			2002-09-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1753" Title="Insect and mite infestations">
+						<Keyword MCVID="2899" Title="Scabies" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1D4A5D55-5486-4120-8694C45108B12245
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				scabies
+			</MetaKeyword>
+			<MetaKeyword>
+				mite
+			</MetaKeyword>
+			<MetaKeyword>
+				mites
+			</MetaKeyword>
+			<MetaKeyword>
+				sarcoptes scabiei
+			</MetaKeyword>
+			<MetaKeyword>
+				burrowing mite
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				scabbies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scabies is an itchy skin condition caused by a tiny burrowing mite called Sarcoptes scabiei. The presence of the mite leads to intense itching in the area of its burrows. The urge to scratch may be especially strong at night. 
+&lt;/p&gt;
+&lt;p&gt;
+Scabies is contagious and can spread quickly through close physical contact in a family, child care group, school class or nursing home. Because of the contagious nature of scabies, doctors often recommend treatment for entire families or contact groups to eliminate the mite. 
+&lt;/p&gt;
+&lt;p&gt;
+Take heart in that scabies is readily treated. Medications applied to your skin kill the mites that cause scabies and their eggs, although you may still experience some itching for several weeks. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of scabies
+" Caption="Scabies is caused by tiny mites that burrow into your skin. 
+" Height="60" Title="Scabies " URI="/images/image_popup/thumbs/r7_scabiesthu.jpg" Width="60" />
+				<Image Alt="Image of scabies
+" Caption="Scabies is caused by tiny mites that burrow into your skin. 
+" Height="285" Title="Scabies" URI="/images/image_popup/r7_scabies.jpg" Width="400" />
+				<HTML>
+					Scabies is caused by tiny mites that burrow into your skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scabies signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching, often severe and usually worse at night&lt;/li&gt;
+	&lt;li&gt;Thin, irregular burrow tracks made up of tiny blisters or bumps on your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The burrows or tracks typically appear in folds of your skin. Though almost any part of your body may be involved, in adults scabies is most often found: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Between fingers&lt;/li&gt;
+	&lt;li&gt;In armpits&lt;/li&gt;
+	&lt;li&gt;Around your waist&lt;/li&gt;
+	&lt;li&gt;Along the insides of wrists&lt;/li&gt;
+	&lt;li&gt;On your inner elbow&lt;/li&gt;
+	&lt;li&gt;On the soles of your feet&lt;/li&gt;
+	&lt;li&gt;Around breasts&lt;/li&gt;
+	&lt;li&gt;Around the male genital area&lt;/li&gt;
+	&lt;li&gt;On buttocks&lt;/li&gt;
+	&lt;li&gt;On knees&lt;/li&gt;
+	&lt;li&gt;On shoulder blades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In children, common sites of infestation include the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scalp&lt;/li&gt;
+	&lt;li&gt;Face&lt;/li&gt;
+	&lt;li&gt;Neck&lt;/li&gt;
+	&lt;li&gt;Palms of the hands&lt;/li&gt;
+	&lt;li&gt;Soles of the feet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Talk to your doctor if you have signs and symptoms that may indicate scabies. 
+&lt;/p&gt;
+&lt;p&gt;
+Many skin conditions, such as dermatitis or eczema, are associated with itching and small bumps on the skin. Your doctor can help determine the exact cause and ensure you receive proper treatment. Bathing and over-the-counter preparations won&apos;t eliminate scabies. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of scabies
+" Caption="Scabies is caused by tiny mites that burrow into your skin. 
+" Height="60" Title="Scabies " URI="/images/image_popup/thumbs/r7_scabiesthu.jpg" Width="60" />
+				<Image Alt="Image of scabies
+" Caption="Scabies is caused by tiny mites that burrow into your skin. 
+" Height="285" Title="Scabies" URI="/images/image_popup/r7_scabies.jpg" Width="400" />
+				<HTML>
+					Scabies is caused by tiny mites that burrow into your skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The eight-legged mite that causes scabies in humans is microscopic. The female mite burrows just beneath your skin and produces a tunnel in which it deposits eggs. The eggs hatch in three to four days, and the mite larvae work their way to the surface of your skin, where they mature and can spread to other areas of your skin or to the skin of other people. The itching of scabies results from your body&apos;s allergic reaction to the mites, their eggs and their waste. 
+&lt;/p&gt;
+&lt;p&gt;
+Close physical contact and, less often, sharing clothing or bedding with an infected person can spread the mites. 
+&lt;/p&gt;
+&lt;p&gt;
+Dogs, cats and humans all are affected by their own distinct species of mite. Each species of mite prefers one specific type of host and doesn&apos;t live long away from that preferred host. So humans may have a temporary skin reaction from contact with the animal scabies mite. But people are unlikely to develop full-blown scabies from this source, as they might from contact with the human scabies mite.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vigorous scratching can break your skin and allow a secondary bacterial infection, such as impetigo, to occur. Impetigo is a superficial infection of the skin that&apos;s caused most often by staph (staphylococci) bacteria or occasionally by strep (streptococci) bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+A more severe form of scabies, called crusted scabies, may affect certain high-risk groups, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;People with chronic health conditions that weaken the immune system, such as HIV or chronic leukemia&lt;/li&gt;
+	&lt;li&gt;People who are very ill, such as people in hospitals or nursing facilities&lt;/li&gt;
+	&lt;li&gt;Older people in nursing homes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Crusted scabies tends to be crusty and scaly, and cover large areas of the body. It&apos;s very contagious and can be hard to treat. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or pediatrician if you or your child has signs and symptoms common to scabies. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List any signs or symptoms you or your child has had,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List any possible sources of infection,&lt;/strong&gt; such as other family members who have had a visible or itchy rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including any other health problems and the names of any medications you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about scabies. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;When will you see me or my child to determine whether the treatment you&apos;ve recommended is working?&lt;/li&gt;
+	&lt;li&gt;Are there any home remedies or self-care steps that could help relieve symptoms?&lt;/li&gt;
+	&lt;li&gt;Am I or my child contagious? For how long?&lt;/li&gt;
+	&lt;li&gt;What steps should be taken to reduce the risk of infecting others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What signs and symptoms have you noticed?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Have these signs and symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;If you or your child has a visible rash, what parts of the body are affected?&lt;/li&gt;
+	&lt;li&gt;Has anyone else with whom you have frequent, close contact had a rash, an itch or both within the last several weeks?&lt;/li&gt;
+	&lt;li&gt;Are you currently pregnant or nursing?&lt;/li&gt;
+	&lt;li&gt;Are you or your child currently being treated or have you recently been treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you or your child currently taking, including prescription and over-the-counter drugs, vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Is your child in child care?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+In the time leading up to your appointment, try at-home and over-the-counter (OTC) remedies to help reduce itching. Cool water, antihistamines and calamine lotion may provide some relief. Ask your doctor what OTC medications and lotions are safe for your baby or child. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose scabies, your doctor examines your skin, looking for signs of mites, including the characteristic burrows. When your doctor locates a mite burrow, he or she may take a scraping from that area of your skin to examine under a microscope. The microscopic examination can determine the presence of mites or their eggs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scabies treatment involves eliminating the infestation with medications. Several creams and lotions are available. You usually apply the medication over all your body, from your neck down, and leave the medication on for at least eight hours. A second treatment is needed if new burrows and rash appear. 
+&lt;/p&gt;
+&lt;p&gt;
+Because scabies spreads so easily, your doctor may recommend treatment for all family members and other close contacts, even if they show no signs of scabies infestation. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications commonly prescribed for scabies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Permethrin 5 percent (Elimite).&lt;/strong&gt; Your doctor may recommend that you apply this cream &amp;mdash; which contains chemicals that kill scabies mites and their eggs &amp;mdash; twice, with a week or so between each application. Permethrin is generally considered safe for children and adults of all ages, including women who are pregnant or nursing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lindane.&lt;/strong&gt; This medication &amp;mdash; also a chemical treatment &amp;mdash; is available as a cream, lotion and shampoo. This medication isn&apos;t safe for children younger than age 2 years, women who are pregnant or nursing, or people with weakened immune systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crotamiton (Eurax).&lt;/strong&gt; This nonchemical medication is applied once a day for two to five days. Your doctor may recommend it if your baby has scabies. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although these medications kill the mites promptly, you may find that the itching doesn&apos;t stop entirely for several weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors sometimes prescribe the oral medication ivermectin (Stromectol) for people with altered immune systems, for people who have crusted scabies, or for people who don&apos;t respond to the prescription lotions and creams. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Itching may persist for some time after you apply medication to kill the mites. These steps may help you find relief from itching:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cool and soak your skin.&lt;/strong&gt; Soaking in cool water or applying a cool, wet washcloth to irritated areas of your skin may minimize itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply soothing lotion.&lt;/strong&gt; Calamine lotion, available without a prescription, can effectively relieve the pain and itching of minor skin irritations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take antihistamines.&lt;/strong&gt; At your doctor&apos;s suggestion, you may find that over-the-counter antihistamines relieve the allergic symptoms caused by scabies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent re-infestation and to prevent the mites from spreading to other people, take these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clean all clothes and linen.&lt;/strong&gt; Use hot, soapy water to wash all clothing, towels and bedding you used at least three days before treatment. Dry with high heat. Dry-clean items you can&apos;t wash at home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Starve the mites.&lt;/strong&gt; Consider placing items you can&apos;t wash in a sealed plastic bag and leaving it in an out-of-the-way place, such as in your garage, for a couple of weeks. Mites die if they don&apos;t eat for a week. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Scabies
+	</Title>
+	<Abstract>
+		Scabies &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this itchy skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

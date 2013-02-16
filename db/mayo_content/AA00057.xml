@@ -1,0 +1,191 @@
+<Article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Article.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Article
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AA00057
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/food-allergies/AA00057
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-04
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			71E4D91B-2A5D-9994-E1FE1180A09BA44C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				food allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				label
+			</MetaKeyword>
+			<MetaKeyword>
+				law
+			</MetaKeyword>
+			<MetaKeyword>
+				Food and Drug Adminstration
+			</MetaKeyword>
+			<MetaKeyword>
+				FDA
+			</MetaKeyword>
+			<MetaKeyword>
+				Food Allergen Labeling and Consumer Protection Act of 2004
+			</MetaKeyword>
+			<MetaKeyword>
+				FALCPA
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+In the United States, the Food and Drug Administration (FDA) requires food manufacturers to list the eight most common ingredients that trigger food allergies. Most other countries have similar rules. In the United States, information about food allergies has to be written in simple terms adults and older children can understand. The eight foods included in food allergy labeling account for an estimated 90 percent of allergic reactions. These eight foods are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Milk&lt;/li&gt;
+	&lt;li&gt;Eggs&lt;/li&gt;
+	&lt;li&gt;Peanuts&lt;/li&gt;
+	&lt;li&gt;Tree nuts (such as almonds, cashews, walnuts)&lt;/li&gt;
+	&lt;li&gt;Fish (such as bass, cod, flounder)&lt;/li&gt;
+	&lt;li&gt;Shellfish (such as crab, lobster, shrimp)&lt;/li&gt;
+	&lt;li&gt;Soy&lt;/li&gt;
+	&lt;li&gt;Wheat&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Understanding food labels
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+U.S. food labels take some of the guesswork out of label reading, helping you more easily identify foods that could cause an allergic reaction. Here are answers to a few common questions about food label requirements. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;What foods are labeled?&lt;/strong&gt; Domestic or imported packaged food is required to have a label that lists whether the product contains one of the top eight allergens.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What allergy information is included on the label?&lt;/strong&gt; The label lists the type of allergen &amp;mdash; for example, the type of tree nut (almond, walnut) or the type of crustacean shellfish (crab, shrimp) &amp;mdash; as well as any ingredient that contains a protein from the eight major food allergens. The labels also include any allergens found in flavorings, colorings or other additives.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What foods aren&apos;t labeled?&lt;/strong&gt; Fresh produce, fresh meat and certain highly refined oils don&apos;t require listing on labels.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Example of a label on food that contains a food allergen 
+" Caption="The FDA requires food labels to list common allergens in language that&apos;s easy to understand. Allergens are listed either in the ingredients list, after the list or right next to it. 
+" Height="60" Title="Food label" URI="/images/image_popup/thumbs/aa7_foodlabel_thu.jpg" Width="60" />
+				<Image Alt="Example of a label on food that contains a food allergen 
+" Caption="The FDA requires food labels to list common allergens in language that&apos;s easy to understand. Allergens are listed either in the ingredients list, after the list or right next to it. 
+" Height="294" Title="Food label" URI="/images/image_popup/aa7_foodlabel.jpg" Width="400" />
+				<HTML>
+					The FDA requires food labels to list common allergens in language that&apos;s easy to understand. Allergens are listed either in the ingredients list, after the list or right next to it. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Unintended ingredients
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food labeling laws require food allergens to be identified even in very small amounts &amp;mdash; but only when they&apos;re contained as an ingredient. Manufacturers aren&apos;t required to include warnings about food allergens accidentally introduced during manufacturing or packaging (cross contamination). This common occurrence can cause trouble if you&apos;re very sensitive to food allergens. 
+&lt;/p&gt;
+&lt;p&gt;
+Many manufacturers voluntarily include warnings, but these advisory labels aren&apos;t always clear. And, manufacturers have different ways of saying a food allergen may be present. For example, labels may say &quot;manufactured in a factory that also processes wheat&quot; or &quot;may contain soy.&quot; The FDA is working to make the format of these advisory labels more consistent so that it&apos;s easier to identify which products contain allergens. When in doubt about whether a product contains something you&apos;re allergic to, it&apos;s best to avoid it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Gluten-free labels
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although gluten intolerance is different than a food allergy, it can cause serious reactions. Gluten causes serious health problems in people who have celiac disease, a chronic digestive disorder. Gluten is a protein that occurs in grains such as wheat, barley and rye. It&apos;s found in many foods and food ingredients. 
+&lt;/p&gt;
+&lt;p&gt;
+The FDA has established initial guidelines for use of the term &quot;gluten-free&quot; on food labels. Currently, the &quot;gluten-free&quot; label is voluntary &amp;mdash; it&apos;s up to the manufacturer whether to include it. Many foods are naturally gluten-free and may or may not be labeled as such. The FDA is in the process of refining guidelines for gluten-free labeling. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				The bottom line: Be cautious
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Always double-check labels to be sure you know what you&apos;re eating and drinking. Even though a food product may have been safe the last time you purchased or consumed it, it&apos;s possible that the ingredients have changed or the label has been updated. If you have any doubt about food ingredients, contact the manufacturer about whether the food could possibly contain a food allergen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Food allergies: Understanding food labels
+	</Title>
+	<Abstract>
+		Food allergies &amp;mdash; Here&apos;s how to read food labels to avoid an allergic reaction.
+	</Abstract>
+	<BenefitSummary>
+		Food labels list food allergens to help you avoid an allergic reaction. Here are the top eight food allergens listed.
+	</BenefitSummary>
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="HQ01514" LinkType="Internal" ObjectID="C199612D-8333-47C0-94783CE38BF24864" Title="Allergy-proof your house" Url="http://www.mayoclinic.com/health/allergy/HQ01514" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="Disease" DocID="DS01021" LinkType="Internal" ObjectID="D0EEF86A-E7FF-0DBD-155BE91044E19B22" Title="Egg allergy" Url="http://www.mayoclinic.com/health/egg-allergy/DS01021" />
+		<LinkItem ContentType="Disease" DocID="DS00710" LinkType="Internal" ObjectID="AE99601C-2A5D-9994-ECE356AE1626F0C8" Title="Peanut allergy" Url="http://www.mayoclinic.com/health/peanut-allergy/DS00710" />
+		<LinkItem ContentType="Disease" DocID="DS01002" LinkType="Internal" ObjectID="98273531-E7FF-0DBD-1DA86A236FF4A88B" Title="Wheat allergy" Url="http://www.mayoclinic.com/health/wheat-allergy/DS01002" />
+		<LinkItem ContentType="Disease" DocID="DS00970" LinkType="Internal" ObjectID="70D6A637-E7FF-0DBD-1ED34CD98A3AA8AB" Title="Soy allergy" Url="http://www.mayoclinic.com/health/soy-allergy/DS00970" />
+		<LinkItem ContentType="Disease" DocID="DS01008" LinkType="Internal" ObjectID="4E62AEE9-E7FF-0DBD-153FDCB25ABCA7F7" Title="Milk allergy" Url="http://www.mayoclinic.com/health/milk-allergy/DS01008" />
+		<LinkItem ContentType="Disease" DocID="DS00987" LinkType="Internal" ObjectID="23BD6FA5-E7FF-0DBD-105A9B73D9F4D4F4" Title="Shellfish allergy" Url="http://www.mayoclinic.com/health/shellfish-allergy/DS00987" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Answer" DocID="AN01679" LinkType="Internal" ObjectID="1E26541F-E7FF-0DBD-1CD540E561EE18C2" Title="Candida cleanse diet: What does it treat?" Url="http://www.mayoclinic.com/health/candida-cleanse/AN01679" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+	</RelatedLinksBox>
+</Article>

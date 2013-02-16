@@ -1,0 +1,380 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00796
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tricuspid-atresia/DS00796
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="3172" Title="Tricuspid atresia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			69A77A29-E7FF-0DBD-165AF4DD2E03D2D0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tricuspid atresia
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tricuspid atresia is a heart defect present at birth (congenital) in which one of the valves (tricuspid valve) between two of the heart&apos;s chambers isn&apos;t formed. Instead, there&apos;s solid tissue between the chambers. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby is born with tricuspid atresia, blood can&apos;t flow through the heart and into the lungs to pick up oxygen as it normally would. The result is the lungs can&apos;t supply the rest of your baby&apos;s body with the oxygen it needs. Babies with tricuspid atresia tire easily, are often short of breath and have blue-tinged skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Tricuspid atresia is treated with surgery. Most babies with tricuspid atresia who have surgery will live well into adulthood, though follow-up surgeries are often needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tricuspid atresia symptoms become evident soon after birth, and can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blue tinge to the skin and lips (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing (dyspnea)&lt;/li&gt;
+	&lt;li&gt;Tiring easily, especially during feedings&lt;/li&gt;
+	&lt;li&gt;Slow growth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some babies with tricuspid atresia may also develop symptoms of heart failure, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue and weakness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Swelling (edema) in the legs, ankles and feet&lt;/li&gt;
+	&lt;li&gt;Swelling of the abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Sudden weight gain from fluid retention&lt;/li&gt;
+	&lt;li&gt;Irregular or rapid heartbeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Tell your doctor if you notice any of the above symptoms in your child. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tricuspid atresia occurs during fetal growth when your baby&apos;s heart is developing. While some factors, such as heredity or Down syndrome, may increase your baby&apos;s risk of congenital heart defects, such as tricuspid atresia, the cause of congenital heart disease is unknown in most cases. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The normal-functioning heart&lt;/strong&gt;&lt;br /&gt;
+Your heart is divided into four chambers, two on the right and two on the left. In performing its basic job &amp;mdash; pumping blood throughout the body &amp;mdash; your heart uses its left and right sides for different tasks. The right side moves blood to the lungs. In your lungs, oxygen enriches the blood, which then circulates to your heart&apos;s left side. The left side of the heart pumps blood into a large vessel called the aorta, which circulates the oxygen-rich blood to the rest of your body. Valves control the flow of blood into and out of the chambers of your heart. These valves open to allow blood to move to the next chamber or to one of the arteries, and they close to keep blood from flowing backward. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When things go wrong&lt;/strong&gt;&lt;br /&gt;
+In tricuspid atresia, the right side of the heart can&apos;t properly pump blood to the lungs because the tricuspid valve, located between the upper right chamber (atrium) and the lower right chamber (ventricle), is missing. Instead, a solid sheet of tissue blocks the flow of blood from the right atrium to the right ventricle. As a result, the right ventricle is usually very small and underdeveloped (hypoplastic). 
+&lt;/p&gt;
+&lt;p&gt;
+Blood instead flows from the upper right chamber to the upper left chamber through a hole in the wall between them (septum). This hole is either a heart defect (atrial septal defect) or an enlarged natural opening (foramen ovale) that is supposed to close soon after birth. If a baby with tricuspid atresia doesn&apos;t have an atrial septal defect, the baby may need a procedure to create this opening. 
+&lt;/p&gt;
+&lt;p&gt;
+Once the blood flows from the right atrium to the left atrium, the heart&apos;s left side must pump blood both to the rest of the body and to the lungs. The blood reaches the lungs from the left side of the heart through another natural opening between the right and left sides (ductus arteriosus) that is supposed to close soon after birth. When necessary, this passageway is kept open using medication in babies with tricuspid atresia. 
+&lt;/p&gt;
+&lt;p&gt;
+Some babies with tricuspid atresia have another heart defect &amp;mdash; a hole between the lower two chambers (ventricular septal defect). In these cases, blood can flow through the hole and into the right ventricle, which pumps it to the lungs. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tricuspid atresia
+" Caption="In tricuspid atresia, blood can&apos;t flow from the right atrium to the right ventricle because the valve between them is missing. This condition often includes a smaller than normal right ventricle, as well as an atrial septal defect and, in some cases, a ventricular septal defect.
+" Height="60" Title="Tricuspid atresia" URI="/images/image_popup/thumbs/r7_tricuspidatresiathu.jpg" Width="60" />
+				<Image Alt="Illustration showing tricuspid atresia
+" Caption="In tricuspid atresia, blood can&apos;t flow from the right atrium to the right ventricle because the valve between them is missing. This condition often includes a smaller than normal right ventricle, as well as an atrial septal defect and, in some cases, a ventricular septal defect.
+" Height="424" Title="Tricuspid atresia" URI="/images/image_popup/r7_tricuspidatresia.jpg" Width="400" />
+				<HTML>
+					In tricuspid atresia, blood can&apos;t flow from the right atrium to the right ventricle because the valve between them is missing. This condition often includes a smaller than normal right ventricle, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, the exact cause of a congenital heart defect, such as tricuspid atresia, is unknown, but several factors may increase the risk of a baby being born with this condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A mother who had German measles (rubella) or another viral illness during early pregnancy&lt;/li&gt;
+	&lt;li&gt;A parent who has a congenital heart defect&lt;/li&gt;
+	&lt;li&gt;Drinking alcohol during pregnancy&lt;/li&gt;
+	&lt;li&gt;A mother who has poorly controlled diabetes&lt;/li&gt;
+	&lt;li&gt;Use of some types of medications during pregnancy, such as the acne drug isotretinoin (Claravis, Sotret) and some anti-seizure medications&lt;/li&gt;
+	&lt;li&gt;The presence of Down syndrome, a genetic condition that results from an extra 21st chromosome&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most significant complication of tricuspid atresia is a lack of oxygen to your baby&apos;s tissues (hypoxemia). This can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications later in life&lt;/strong&gt;&lt;br /&gt;
+Although treatment greatly improves the outcome for babies with tricuspid atresia, they may still have the following complications later in life, even after surgery: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Formation of blood clots that may lead to a clot blocking an artery in the lungs (pulmonary embolism) or to a stroke&lt;/li&gt;
+	&lt;li&gt;Easily tiring when participating in sports or other exercise&lt;/li&gt;
+	&lt;li&gt;Heart rhythm abnormalities (arrhythmias)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether problems are first noted in the hospital or later by you and your primary care doctor, eventually your baby will be seen by a cardiologist who has experience in treating congenital heart defects. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment with the cardiologist. Here&apos;s some information to help you get ready, and what to expect from your cardiologist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve noticed in your child,&lt;/strong&gt; including any that may seem unrelated to a heart defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down important personal information,&lt;/strong&gt; including any family history of congenital heart disease, or any illnesses or potentially negative habits the mother may have had during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Learning that your baby has a serious heart condition and will need surgery is likely to be distressing, making it harder to remember all of the details your doctor may go over with you. If someone is with you, they can help you remember what the doctor said, or they can take notes during the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you ensure that you cover all of the points you want to. For a congenital heart defect, some basic questions to ask your child&apos;s cardiologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What could be causing my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will my child need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you think is best for my child?&lt;/li&gt;
+	&lt;li&gt;Will my child need more than one surgery?&lt;/li&gt;
+	&lt;li&gt;How can I make my child more comfortable?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions or special instructions that I need to follow for my child?&lt;/li&gt;
+	&lt;li&gt;Will my child need to take medications? If so, are there generic alternatives to the medicines you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;What about future pregnancies? Is there any way I can prevent this from happening again?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice symptoms in your child?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything make your child&apos;s symptoms worse?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Before birth&lt;/strong&gt;&lt;br /&gt;
+Because of advances in ultrasound technology, it&apos;s possible for a baby to be diagnosed with tricuspid atresia before he or she is born. Doctors can identify the condition on a routine ultrasound exam during gestation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After birth&lt;/strong&gt;&lt;br /&gt;
+After your baby is born, his or her doctor may suspect a heart defect, such as tricuspid atresia, if your baby has blue-tinged skin or is having trouble breathing. Your baby&apos;s doctor may also suspect a heart defect if he or she hears a heart murmur &amp;mdash; an abnormal whooshing sound caused by turbulent blood flow. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors typically use an echocardiogram to diagnose tricuspid atresia. This test uses sound waves that bounce off your baby&apos;s heart to produce moving images your baby&apos;s doctor can view on a video screen. 
+&lt;/p&gt;
+&lt;p&gt;
+In a baby with tricuspid atresia, the echocardiogram reveals the absence of a tricuspid valve and a smaller than normal right ventricle. Because this test tracks blood flow, it can also measure the amount of blood moving through holes in the walls between the right and left sides of the heart. In addition, an echocardiogram can identify associated heart defects, such as an atrial septal defect or a ventricular septal defect. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s currently no way to replace the defective tricuspid valve. Treatment for tricuspid atresia involves surgery to ensure adequate blood flow through the heart and into the lungs, allowing your baby&apos;s body to receive the proper amount of oxygen-rich blood. Often, this requires more than one surgical procedure. Medications also may be given before surgery can be done. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Your child will likely need more than one surgical procedure to correct tricuspid atresia. Some of these procedures are called rescue surgeries, because they&apos;re done as a temporary fix to immediately increase blood flow. Following are some of the procedures babies with tricuspid atresia may require: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial septostomy.&lt;/strong&gt; This procedure creates or enlarges the opening between the heart&apos;s upper chambers (atria) to allow more blood to flow from the right atrium to the left atrium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shunting.&lt;/strong&gt; Creating a bypass (shunt) from the main blood vessel leading out of the heart (aorta) to the pulmonary arteries allows for adequate blood flow to the lungs. Surgeons typically implant a shunt during the first four to eight weeks of life. However, babies usually outgrow this shunt and may need another surgery to replace it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glenn procedure.&lt;/strong&gt; When babies outgrow the first shunt, they often require a surgery that sets the stage for the more permanent corrective surgery, called the Fontan procedure. Doctors usually perform the Glenn procedure when a child is between 3 and 6 months old. It connects one of the large veins that normally return blood to the heart (superior vena cava) to the pulmonary artery instead. This allows oxygen-poor blood to flow directly to the lungs. The procedure reduces the workload on the left ventricle, decreasing the risk of damage to it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fontan procedure.&lt;/strong&gt; This surgery is the standard treatment of tricuspid atresia. However, most children with tricuspid atresia don&apos;t undergo the Fontan procedure until they are at least 2 years old. During a Fontan surgery, the surgeon creates a path for the oxygen-poor blood returning to the heart to flow directly into the pulmonary arteries, which then transport the blood into the lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;/strong&gt;&lt;br /&gt;
+Before surgery, your child&apos;s cardiologist may recommend that your child take the medication prostaglandin to help widen (dilate) the blood vessels and keep the ductus arteriosus and the foramen ovale open. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up care&lt;/strong&gt;&lt;br /&gt;
+To monitor his or her heart health, your baby will need lifelong follow-up care with a cardiologist who specializes in congenital heart disease. Your child&apos;s cardiologist will tell you whether your child needs to continue taking preventive antibiotics before dental and other procedures. In some cases, your child&apos;s cardiologist may recommend limiting vigorous physical activity. 
+&lt;/p&gt;
+&lt;p&gt;
+The short- and intermediate-term outlook for children who have a Fontan procedure is generally promising. Outcomes for those having surgery later in life are generally worse. A variety of complications may occur over time and sometimes require additional procedures. If the circulation system created by the Fontan procedure fails, then a heart transplant may be necessary. Talk to your child&apos;s doctor about his or her specific situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your baby&apos;s born with tricuspid atresia, it may seem that almost all your time is spent at the hospital or at a doctor&apos;s office. But there will be time spent at home, as well. Here are some tips for caring for your child at home. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Strive for good nutrition.&lt;/strong&gt; Your baby may have a difficult time taking in enough calories, both because he or she tires more easily during feeding and because of an increased demand for calories. It&apos;s often helpful to give your baby frequent, small feedings. Breast milk is an excellent source of nutrition, but formula works well, too. You may find that a combination of both provides a good balance of nutrition and scheduling flexibility. Ask your doctor or hospital about available resources for pumping breast milk. Some hospitals rent breast pumps. Your child&apos;s cardiologist may also recommend nutritional supplements or visiting a dietitian for the details.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventive antibiotics.&lt;/strong&gt; Your child&apos;s cardiologist will likely recommend that your child take preventive antibiotics before certain dental and other procedures to prevent bacteria from entering the bloodstream and infecting the inner lining of the heart (infective endocarditis) for at least five months after any surgical procedures. Practicing good oral hygiene &amp;mdash; brushing and flossing teeth, getting regular dental checkups &amp;mdash; is another good way of preventing infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Help your child stay active.&lt;/strong&gt; Encourage as much normal play and activity as your child is able to tolerate, or as your doctor recommends, with ample opportunity for rest and nap time. Staying active helps your child&apos;s heart stay fit. As your child grows, talk with the cardiologist about which activities are best for your child. If some are off-limits, such as competitive sports, encourage your child in other pursuits rather than focusing on what he or she can&apos;t do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep up with routine well-child care.&lt;/strong&gt; Standard immunizations are encouraged for children with congenital heart defects, as well as vaccines against the flu, pneumonia and respiratory syncytial virus (RSV) infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Caring for a baby with a serious heart problem, such as tricuspid atresia, can be challenging and stressful. Here are some strategies that may help make it easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to maintain normalcy and closeness.&lt;/strong&gt; Although you may feel uncertain at times about how to best promote your child&apos;s health, maintaining stability and a regular daily routine will help both you and your child relax and feel more secure in spite of circumstances. Even if your baby is in the hospital, try to spend as much time together as you can. If you have other children, include them as much as possible. Bonding together as a family is important for your baby&apos;s social and emotional development.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support.&lt;/strong&gt; Ask for help from family members and friends. Talk with your child&apos;s cardiologist about support groups and other types of assistance that are available near you. The American Heart Association offers a support group called Mended Little Hearts. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Record your baby&apos;s health history.&lt;/strong&gt; You may want to write down your baby&apos;s diagnosis, medications, surgery and other procedures and the dates they were performed, the name and phone number of your child&apos;s cardiologist, and any other important information about your baby&apos;s care. It&apos;s also helpful to include copies of the operative reports from your child&apos;s surgeons in your records. This information will help you recall the care your child has received, and it will be useful for doctors who are unfamiliar with your baby to review his or her health history.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk about your concerns.&lt;/strong&gt; As your child grows and develops, you may worry about different aspects of your child&apos;s care. Be sure to discuss your concerns with your child&apos;s cardiologist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although every circumstance is different, remember that many children with congenital heart defects, such as tricuspid atresia, grow up to lead enjoyable lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, congenital heart defects, such as tricuspid atresia, can&apos;t be prevented. If you have a family history of heart defects or if you already have a child with a congenital heart defect, a genetic counselor and a cardiologist experienced in congenital heart defects can help you look at possible risks associated with future pregnancies. 
+&lt;/p&gt;
+&lt;p&gt;
+Some steps you can take that might reduce your baby&apos;s risk of heart and other birth defects in pregnancy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get adequate folic acid.&lt;/strong&gt; Take 400 micrograms of folic acid daily. This amount, which is often already in prenatal vitamins, has been shown to reduce brain and spinal cord defects, and folic acid may help prevent heart defects, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with your doctor about medication use.&lt;/strong&gt; Whether you&apos;re taking prescription or over-the-counter drugs, an herbal product or a dietary supplement, check with your doctor before using them during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid chemical exposure, whenever possible.&lt;/strong&gt; While you&apos;re pregnant, it&apos;s best to stay away from chemicals, including cleaning products and paint, as much as you can.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tricuspid atresia
+	</Title>
+	<Abstract>
+		Tricuspid atresia &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this congenital heart defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS01140" LinkType="Internal" ObjectID="F235977D-08A2-396E-9152C464D454200D" Title="Congenital heart disease in adults" Url="http://www.mayoclinic.com/health/congenital-heart-disease/DS01140" />
+	</RelatedLinksBox>
+</Disease>

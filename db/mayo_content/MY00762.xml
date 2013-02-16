@@ -1,0 +1,301 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00762
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pancreas-transplant/MY00762
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-22
+		</UpdateDate>
+		<PublicationDate>
+			2009-09-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4179" Title="Endocrine system">
+						<Keyword MCVID="4180" Title="Surgery">
+							<Keyword MCVID="3792" Title="Pancreas transplant" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2D195E5F-FD77-2D07-2C216068873F0C8E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pancreas transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas transplantation
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas transplants
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney and pancreas transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				type 1 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes cure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney-pancreas transplant
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pancreas transplant is a surgical procedure to place a healthy pancreas from a deceased donor into a person whose pancreas no longer functions properly. Almost all pancreas transplants are done to treat cases of type 1 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Your pancreas is an organ that lies behind the lower part of your stomach. One of its main functions is to make insulin, a hormone that regulates the absorption of sugar (glucose) into your cells. Type 1 diabetes results when your pancreas can&apos;t make enough insulin, causing your blood sugar to rise to dangerous levels. 
+&lt;/p&gt;
+&lt;p&gt;
+The side effects of a pancreas transplant can be significant, so a pancreas transplant is typically reserved for those who have serious diabetes complications. A pancreas transplant is often done in conjunction with a kidney transplant. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing transplanted pancreas and kidney 
+" Caption="A donor pancreas and kidney are placed in your lower abdomen. The ureter of the donor kidney &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder. The donor pancreas with a small segment of donor duodenum is connected to either a loop of the recipient&apos;s small bowel or his or her bladder. The donor pancreas is connected to a segment of your small intestine. Your original pancreas and kidneys are often left in place unless they&apos;re causing complications. 
+" Height="60" Title="Pancreas and kidney transplants" URI="/images/image_popup/thumbs/mcdc7_pancreastransplantthu.jpg" Width="60" />
+				<Image Alt="Image showing transplanted pancreas and kidney 
+" Caption="A donor pancreas and kidney are placed in your lower abdomen. The ureter of the donor kidney &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder. The donor pancreas with a small segment of donor duodenum is connected to either a loop of the recipient&apos;s small bowel or his or her bladder. The donor pancreas is connected to a segment of your small intestine. Your original pancreas and kidneys are often left in place unless they&apos;re causing complications. 
+" Height="488" Title="Pancreas and kidney transplants" URI="/images/image_popup/mcdc7_pancreastransplant.jpg" Width="400" />
+				<HTML>
+					A donor pancreas and kidney are placed in your lower abdomen. The ureter of the donor kidney &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder. The donor ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pancreas transplant offers a potential cure for type 1 diabetes, but it&apos;s not a standard treatment. Often the side effects of the anti-rejection medications required after a pancreas transplant can be serious. But if you have any of the following, a pancreas transplant may be worthwhile: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Type 1 diabetes that can&apos;t be controlled with standard treatment&lt;/li&gt;
+	&lt;li&gt;Frequent insulin reactions&lt;/li&gt;
+	&lt;li&gt;Consistently poor blood sugar control&lt;/li&gt;
+	&lt;li&gt;Severe kidney damage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because type 2 diabetes occurs due to the body&apos;s inability to use insulin properly &amp;mdash; and not because of a problem with insulin production in the pancreas &amp;mdash; a pancreas transplant isn&apos;t a treatment option for most people with type 2 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe kidney damage due to type 1 diabetes, a pancreas transplant may be combined with a kidney transplant or be done after successful kidney transplantation. This strategy aims to give you a healthy kidney and a pancreas that&apos;s unlikely to contribute to diabetes-related kidney damage in the future. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Complications of the procedure&lt;/strong&gt; &lt;br /&gt;
+Pancreas transplant surgery carries a risk of significant complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Excess sugar in your blood (hyperglycemia)&lt;/li&gt;
+	&lt;li&gt;Urinary complications, including leaking or urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Failure of the donated pancreas&lt;/li&gt;
+	&lt;li&gt;Rejection of the donated pancreas &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anti-rejection medication side effects&lt;/strong&gt; &lt;br /&gt;
+After a pancreas transplant, you&apos;ll take medications for the rest of your life to help prevent your body from rejecting the donor pancreas. These medications can cause a variety of side effects, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone thinning&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Skin sensitivity&lt;/li&gt;
+	&lt;li&gt;Puffiness&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+	&lt;li&gt;Swollen gums&lt;/li&gt;
+	&lt;li&gt;Acne&lt;/li&gt;
+	&lt;li&gt;Excessive hair growth &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Choosing a transplant center&lt;/strong&gt; &lt;br /&gt;
+If your doctor recommends a pancreas transplant, you&apos;ll be referred to a transplant center. You&apos;re also free to select a transplant center on your own or choose a center from your insurance company&apos;s list of preferred providers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When you consider transplant centers,&lt;/strong&gt; you may want to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Learn about the number and type of transplants the center performs each year&lt;/li&gt;
+	&lt;li&gt;Ask about the transplant center&apos;s organ donor and recipient survival rates&lt;/li&gt;
+	&lt;li&gt;Compare transplant center statistics through the database maintained by the Scientific Registry of Transplant Recipients (www.ustransplant.org)&lt;/li&gt;
+	&lt;li&gt;Consider additional services provided by the transplant center, such as support groups, travel arrangements, local housing for your recovery period and referrals to other resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After you&apos;ve selected a transplant center, you&apos;ll need an evaluation to determine whether you meet the center&apos;s eligibility requirements for a pancreas transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When the transplant team assesses your eligibility,&lt;/strong&gt; they&apos;ll consider the following. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are you healthy enough to have surgery and tolerate lifelong post-transplant medications?&lt;/li&gt;
+	&lt;li&gt;Do you have any medical conditions that would hinder transplant success?&lt;/li&gt;
+	&lt;li&gt;Are you willing and able to take medications and advice as directed?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you need a kidney transplant, too, the transplant team will also determine if it&apos;s best for you to have the pancreas and kidney transplants during the same surgery, or a kidney transplant first, followed by the pancreas transplant at a later date. The best option depends on the severity of your kidney damage, the availability of donors and your preference. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;ve been accepted as a candidate for a pancreas transplant, your name will be placed on a national list of people awaiting a transplant. The waiting time for a transplant depends on your blood group and how long it takes for a suitable donor &amp;mdash; one whose blood and tissue types match yours &amp;mdash; to become available. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Staying healthy&lt;/strong&gt; &lt;br /&gt;
+Whether you&apos;re waiting for a donated pancreas to become available or your transplant surgery is already scheduled, it&apos;s important to keep your mind and body healthy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take your medications as prescribed.&lt;/li&gt;
+	&lt;li&gt;Follow your diet and exercise guidelines.&lt;/li&gt;
+	&lt;li&gt;Keep all appointments with your health care team.&lt;/li&gt;
+	&lt;li&gt;Stay involved in healthy activities, including relaxing and spending time with family and friends.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re waiting for a donated pancreas, make sure the transplant team knows how to reach you at all times and arrange transportation to the transplant center in advance. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During a pancreas transplant&lt;/strong&gt; &lt;br /&gt;
+Surgeons perform pancreas transplants during general anesthesia, so you&apos;re unconscious during the procedure. The anesthesiologist or anesthetist gives you an anesthetic medication as a gas to breathe through a mask or injects a liquid medication into a vein. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgical team monitors your heart rate, blood pressure and blood oxygen throughout the procedure with a blood pressure cuff on your arm and heart-monitor leads attached to your chest. After you&apos;re unconscious: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An incision is made down the center of your abdomen.&lt;/li&gt;
+	&lt;li&gt;The surgeon places the new pancreas and a small portion of the donor&apos;s small intestine into your lower abdomen.&lt;/li&gt;
+	&lt;li&gt;The donor intestine is attached to either your small intestine or your bladder, and the donor pancreas is connected to blood vessels that also supply blood to your legs.&lt;/li&gt;
+	&lt;li&gt;Your own pancreas is left in place to aid digestion.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re also receiving a kidney transplant, the blood vessels of the new kidney will be attached to blood vessels in the lower part of your abdomen.&lt;/li&gt;
+	&lt;li&gt;The new kidney&apos;s ureter &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; will be connected to your bladder. Unless your own kidneys are causing complications, such as high blood pressure or infection, they&apos;re left in place.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pancreas transplant surgery usually lasts about three hours. Simultaneous kidney-pancreas transplant surgery takes a few more hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After a pancreas transplant&lt;/strong&gt; &lt;br /&gt;
+After your pancreas transplant, you can expect to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay in the intensive care unit for a few days.&lt;/strong&gt; Doctors and nurses monitor your condition to watch for signs of complications. Your new pancreas should start working immediately, and your old pancreas will continue to perform its other functions. If you have a new kidney, it&apos;ll make urine just like your own kidneys did when they were healthy. Often this starts immediately. But in some cases, urine production takes up to a few weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spend about one week in the hospital.&lt;/strong&gt; Once you&apos;re stable, you&apos;re taken to a transplant recovery area to continue recuperating. Expect soreness or pain around the incision site while you&apos;re healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have frequent checkups as you continue recovering.&lt;/strong&gt; After you leave the hospital, close monitoring is necessary for three to four weeks. Your transplant team will develop a checkup schedule that&apos;s right for you. During this time, if you live in another town, you may need to make arrangements to stay close to the transplant center.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take lifelong medications.&lt;/strong&gt; You&apos;ll take a number of medications after your pancreas transplant. Drugs called immunosuppressants help keep your immune system from attacking your new pancreas. Additional drugs may help reduce the risk of other complications, such as infection and high blood pressure, after your transplant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing transplanted pancreas and kidney 
+" Caption="A donor pancreas and kidney are placed in your lower abdomen. The ureter of the donor kidney &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder. The donor pancreas with a small segment of donor duodenum is connected to either a loop of the recipient&apos;s small bowel or his or her bladder. The donor pancreas is connected to a segment of your small intestine. Your original pancreas and kidneys are often left in place unless they&apos;re causing complications. 
+" Height="60" Title="Pancreas and kidney transplants" URI="/images/image_popup/thumbs/mcdc7_pancreastransplantthu.jpg" Width="60" />
+				<Image Alt="Image showing transplanted pancreas and kidney 
+" Caption="A donor pancreas and kidney are placed in your lower abdomen. The ureter of the donor kidney &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder. The donor pancreas with a small segment of donor duodenum is connected to either a loop of the recipient&apos;s small bowel or his or her bladder. The donor pancreas is connected to a segment of your small intestine. Your original pancreas and kidneys are often left in place unless they&apos;re causing complications. 
+" Height="488" Title="Pancreas and kidney transplants" URI="/images/image_popup/mcdc7_pancreastransplant.jpg" Width="400" />
+				<HTML>
+					A donor pancreas and kidney are placed in your lower abdomen. The ureter of the donor kidney &amp;mdash; the tube that links the kidney to the bladder &amp;mdash; is connected to your bladder. The donor ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After a successful pancreas transplant, your new pancreas will make the insulin your body needs, so you&apos;ll no longer need insulin therapy to treat diabetes. But even with the best possible match between you and the donor, your immune system will try to reject your new pancreas. So you&apos;ll need medications to suppress your immune system. You&apos;ll likely take these or similar drugs for the rest of your life. Because medications to suppress your immune system make your body more vulnerable to infection, your doctor may also prescribe antibacterial, antiviral and antifungal medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pancreas transplant survival rates&lt;/strong&gt;&lt;br /&gt;
+According to the Organ Procurement and Transplantation Network, transplanted pancreas and kidney survival rates include the following.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simultaneous pancreas-kidney transplant.&lt;/strong&gt; In about 87 percent of people who receive a simultaneous pancreas-kidney transplant, the transplanted pancreas is still functioning after one year. After five years, that rate is about 72 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreas-after-kidney transplant.&lt;/strong&gt; In about 77 percent of people who receive a pancreas-after-kidney transplant, the transplanted pancreas is still functioning after one year. Five years after transplant, the rate is about 59 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreas-only transplant.&lt;/strong&gt; In about 85 percent of people who receive a pancreas-only transplant, the transplanted pancreas is still functioning after one year. After five years, that rate is about 52 percent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s unclear why results are better for those who receive a kidney and pancreas at the same time. But some research suggests it may be because it&apos;s more difficult to monitor and detect rejection of a pancreas alone, versus a pancreas and a kidney.
+&lt;/p&gt;
+&lt;p&gt;
+If your new pancreas fails, you can resume insulin treatments and consider a second transplant. This decision will depend on your current health, your ability to withstand surgery and your expectations for maintaining a certain quality of life.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pancreas transplant
+	</Title>
+	<Abstract>
+		Pancreas transplant &amp;mdash; Overview covers why it&apos;s done, what to expect, risks and results.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS00329" LinkType="Internal" ObjectID="91E57DE9-7D24-4152-90B41D26B948426A" Title="Type 1 diabetes" Url="http://www.mayoclinic.com/health/type-1-diabetes/DS00329" />
+	</RelatedLinksBox>
+</TestProcedure>

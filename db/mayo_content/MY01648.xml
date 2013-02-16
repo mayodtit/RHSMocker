@@ -1,0 +1,357 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01648
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/in-vitro-fertilization/MY01648
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-31
+		</UpdateDate>
+		<PublicationDate>
+			2011-04-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4876" Title="In vitro fertilization" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			52C2A4CD-D51A-5516-57462451EECCE9F1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				in vitro fertilization
+			</MetaKeyword>
+			<MetaKeyword>
+				in vitro
+			</MetaKeyword>
+			<MetaKeyword>
+				IVF
+			</MetaKeyword>
+			<MetaKeyword>
+				assisted reproduction
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In vitro fertilization (IVF) is a procedure used to treat fertility problems and assist with the conception of a child. During in vitro fertilization, mature eggs are retrieved from your ovaries and fertilized by sperm in a lab. Then the fertilized egg (embryo) or eggs are implanted in your uterus. One cycle of in vitro fertilization takes about two weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+In vitro fertilization is the most effective form of assisted reproductive technology (ART). The procedure can be done using your own eggs and your partner&apos;s sperm, donor eggs, donor sperm or donor embryos. In some cases, a gestational carrier &amp;mdash; a woman who has an embryo implanted in her uterus &amp;mdash; might be used. 
+&lt;/p&gt;
+&lt;p&gt;
+Your chances of having a healthy baby using in vitro fertilization depend on many factors, such as your age and the cause of infertility. In addition, in vitro fertilization can be time-consuming, expensive and invasive. If more than one embryo is implanted in your uterus, in vitro fertilization can result in a multiple pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor can help you understand how in vitro fertilization works, the potential risks and whether this method of treating infertility is right for you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of egg retrieval 
+" Caption="Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into the follicles &amp;mdash; is used to retrieve eggs. The eggs are removed from the follicles through a needle connected to a suction device. 
+" Height="60" Title="Egg retrieval technique" URI="/images/image_popup/thumbs/mcdc7_in_vitro_eggretrievalthu.jpg" Width="60" />
+				<Image Alt="Illustration of egg retrieval 
+" Caption="Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into the follicles &amp;mdash; is used to retrieve eggs. The eggs are removed from the follicles through a needle connected to a suction device. 
+" Height="360" Title="Egg retrieval technique" URI="/images/image_popup/mcdc7_in_vitro_eggretrieval.jpg" Width="400" />
+				<HTML>
+					Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ICSI 
+" Caption="In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles failed. 
+" Height="60" Title="ICSI" URI="/images/image_popup/thumbs/mcdc7_in_vitro_icsithu.jpg" Width="60" />
+				<Image Alt="Illustration of ICSI 
+" Caption="In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles failed. 
+" Height="360" Title="ICSI" URI="/images/image_popup/mcdc7_in_vitro_icsi.jpg" Width="400" />
+				<HTML>
+					In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a blastocyst 
+" Caption="Three days after fertilization, a normally developing embryo will contain about six to 10 cells. By the fifth day, the fertilized egg is known as a blastocyst &amp;mdash; a rapidly dividing ball of cells. The inner group of cells will become the embryo. The outer group will become the cells that nourish and protect it. 
+" Height="60" Title="Blastocyst" URI="/images/image_popup/thumbs/mcdc7_in_vitro_culture1thu.jpg" Width="60" />
+				<Image Alt="Illustration of a blastocyst 
+" Caption="Three days after fertilization, a normally developing embryo will contain about six to 10 cells. By the fifth day, the fertilized egg is known as a blastocyst &amp;mdash; a rapidly dividing ball of cells. The inner group of cells will become the embryo. The outer group will become the cells that nourish and protect it. 
+" Height="573" Title="Blastocyst" URI="/images/image_popup/mcdc7_in_vitro_culture1.jpg" Width="400" />
+				<HTML>
+					Three days after fertilization, a normally developing embryo will contain about six to 10 cells. By the fifth day, the fertilized egg is known as a blastocyst &amp;mdash; a rapidly dividing ball of cells....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In vitro fertilization is a possible treatment option for infertility. Depending on the cause of infertility, you and your partner might try less invasive treatment options before attempting in vitro fertilization, including fertility drugs to increase your production of eggs (superovulation) or intrauterine insemination &amp;mdash; a procedure in which sperm are placed directly in your uterus. Occasionally, in vitro fertilization is offered as a primary treatment for infertility in women older than age 40. In vitro fertilization can also be done if you have certain health conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, in vitro fertilization may be an option if you or your partner has: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fallopian tube damage or blockage.&lt;/strong&gt; Fallopian tube damage or blockage makes it difficult for an egg to be fertilized or for an embryo to travel to the uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ovulation disorders.&lt;/strong&gt; If ovulation is infrequent or absent, fewer eggs are available for fertilization.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature ovarian failure.&lt;/strong&gt; Premature ovarian failure is the loss of normal ovarian function before age 40. If your ovaries fail, they don&apos;t produce normal amounts of the hormone estrogen or release eggs regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometriosis.&lt;/strong&gt; Endometriosis occurs when the uterine tissue implants and grows outside of the uterus &amp;mdash; often affecting the function of the ovaries, uterus and fallopian tubes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine fibroids.&lt;/strong&gt; Fibroids are benign tumors in the wall of the uterus and are common in women in their 30s and 40s. Fibroids can interfere with implantation of the fertilized egg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous tubal sterilization.&lt;/strong&gt; If you&apos;ve had tubal ligation &amp;mdash; a type of sterilization in which your fallopian tubes are cut or blocked to permanently prevent pregnancy &amp;mdash; and want to conceive, in vitro fertilization may be an alternative to tubal ligation reversal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired sperm production or function.&lt;/strong&gt; Below-average sperm concentration, weak movement of sperm, or abnormalities in sperm size and shape can make it difficult for sperm to fertilize an egg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unexplained infertility.&lt;/strong&gt; Unexplained infertility means no cause of infertility has been found.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A genetic disorder.&lt;/strong&gt; If you and your partner are at risk of passing on a genetic disorder to your child, you may be candidates for preimplantation genetic diagnosis &amp;mdash; a procedure that involves in vitro fertilization. After the eggs are harvested and fertilized they&apos;re screened for genetic problems. Embryos that don&apos;t contain affected genes can be implanted.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other health conditions.&lt;/strong&gt; If you&apos;re about to undergo cancer treatment &amp;mdash; such as radiation or chemotherapy &amp;mdash; that could harm your fertility, future in vitro fertilization might be an option. Women can have eggs harvested from their ovaries and frozen for later use or fertilized through in vitro fertilization, frozen and stored for later use. Men can have semen samples frozen and stored for later use. In addition, women who don&apos;t have fallopian tubes or a functional uterus or for whom pregnancy poses a serious health risk might be candidates for in vitro fertilization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In vitro fertilization can be used by a couple to conceive a biological child or with the use of donor eggs, sperm or embryos. Donors can be known or anonymous. The embryo can also be implanted in the uterus of a gestational carrier. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Specific steps of an in vitro fertilization cycle carry potential risks, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ovarian hyperstimulation syndrome.&lt;/strong&gt; Use of injectable fertility drugs, such as human chorionic gonadotropin (HCG), to induce ovulation can cause ovarian hyperstimulation syndrome &amp;mdash; in which your ovaries become swollen and painful. Signs and symptoms include mild abdominal pain, bloating, nausea, vomiting and diarrhea and typically last a week. If you become pregnant, however, your symptoms might last several weeks. Rarely, it&apos;s possible to develop a more severe form of ovarian hyperstimulation syndrome that can also cause rapid weight gain and shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple pregnancies.&lt;/strong&gt; In vitro fertilization increases the risk of multiple pregnancies if more than one embryo is implanted in your uterus. Multiple pregnancies carry a higher risk of early labor and low birth weight than do single pregnancies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ovarian cancer.&lt;/strong&gt; Use of certain fertility drugs may increase the risk of ovarian cancer. Depending on the circumstances, your doctor may recommend limiting your use of clomiphene citrate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Egg retrieval procedure complications.&lt;/strong&gt; Rarely, use of an aspirating needle to retrieve eggs causes bleeding, infection, or damage to the bowel, bladder or a blood vessel. Risks associated with general anesthesia &amp;mdash; which may be used for some egg retrieval procedures &amp;mdash; might also pose a concern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature delivery and low birth weight.&lt;/strong&gt; Research suggests that use of in vitro fertilization slightly increases the risk that a baby will be born early or with a low birth weight &amp;mdash; both in single and multiple pregnancies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;First trimester bleeding.&lt;/strong&gt; Some research suggests that first trimester bleeding is more common in women who undergo in vitro fertilization.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Miscarriage.&lt;/strong&gt; The rate of miscarriage for women who conceive using in vitro fertilization with fresh embryos is similar to that of women who conceive naturally &amp;mdash; about 15 to 20 percent. Use of frozen embryos during in vitro fertilization, however, may slightly increase the risk of miscarriage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ectopic pregnancy.&lt;/strong&gt; About 2 percent of women who use in vitro fertilization will have an ectopic pregnancy &amp;mdash; when the fertilized egg implants outside the uterus, usually in a fallopian tube. Women who have tubal damage or blockage or who&apos;ve had previous ectopic pregnancies are most at risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth defects.&lt;/strong&gt; Some research suggests that babies conceived using in vitro fertilization might be at increased risk of certain birth defects, such as heart and digestive problems and cleft lip or palate. However, further studies are needed &amp;mdash; and, even with the use of in vitro fertilization, the risk of having a baby with birth defects is low.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Use of in vitro fertilization can be financially, physically and emotionally draining. Support from counselors, family and friends can help you and your partner through the ups and downs of infertility treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When choosing an in vitro fertilization clinic, you might have many options. The Centers for Disease Control and Prevention and the Society for Assisted Reproductive Technology provide information online about U.S. clinics&apos; individual pregnancy and live birth rates. Keep in mind, however, that a clinic&apos;s success rate depends on many factors, such as patients&apos; ages, the number of embryos being transferred during each in vitro fertilization cycle and the number of cycles that have been done. If the expense of in vitro fertilization is a concern, ask for detailed information about the costs associated with each step of the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Before beginning a cycle of in vitro fertilization using your own eggs and sperm, you and your partner will likely need various screenings, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ovarian reserve testing.&lt;/strong&gt; To determine the quantity and quality of your eggs, your doctor might test the concentration of follicle-stimulating hormone (FSH) in your blood on day three of your menstrual cycle. Test results can help predict how your ovaries will respond to fertility medication. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Semen analysis.&lt;/strong&gt; Your doctor will conduct a semen analysis &amp;mdash; even if an earlier exam showed no signs of problems &amp;mdash; shortly before the start of an in vitro fertilization treatment cycle to ensure that semen quality hasn&apos;t changed. If semen abnormalities are found, your partner might need to see a specialist to determine if there are correctable problems or underlying health concerns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infectious disease screening.&lt;/strong&gt; You and your partner will both be screened for HIV, hepatitis B, hepatitis C and, in some cases, chlamydia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mock embryo transfer.&lt;/strong&gt; Your doctor might conduct a mock embryo transfer to determine the depth of your uterine cavity and the technique most likely to result in a successful embryo transfer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine cavity exam.&lt;/strong&gt; Your doctor will examine your uterine cavity before you start in vitro fertilization. This might involve a sonohysterography &amp;mdash; a technique in which fluid is injected through the cervix into your uterus and ultrasound is used to create images of your uterine cavity &amp;mdash; or a hysteroscopy &amp;mdash; a technique in which a thin, flexible, lighted telescope (hysteroscope) is inserted through your vagina and cervix into your uterus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before beginning a cycle of in vitro fertilization, consider important questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;How many embryos will be implanted?&lt;/strong&gt; The number of embryos implanted is typically based on maternal age and the number of eggs retrieved. Since the rate of implantation is lower for older women, more embryos are usually implanted &amp;mdash; except for women using donor eggs. However, most doctors follow specific guidelines to prevent higher order multiple pregnancies &amp;mdash; and in some countries legislation limits the number of embryos that can be implanted at once. Make sure you and your doctor agree on the number of embryos that will be implanted before they&apos;re transferred.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What will you do with any extra embryos?&lt;/strong&gt; Do you and your partner want to freeze and store embryos that aren&apos;t implanted for future use? Extra embryos can be stored for several years. Cryopreservation can make future cycles of in vitro fertilization less expensive and less invasive. However, not all embryos survive the freezing and thawing process and the live birth rate from frozen embryos is lower than the live birth rate from fresh embryos. Alternatively, you might be able to donate unused frozen embryos to another couple or a research facility. You might also choose to discard unused embryos.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;How will you handle a multiple pregnancy?&lt;/strong&gt; If more than one embryo is implanted in your uterus, in vitro fertilization can result in a multiple pregnancy &amp;mdash; which poses health risks for you and your babies. In some cases, fetal reduction can be used to help a woman deliver fewer babies with lower health risks. Pursuing fetal reduction, however, is a major decision with ethical, emotional and psychological consequences.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have you considered the potential complications associated with using donor eggs, sperm or embryos, or a gestational carrier?&lt;/strong&gt; A trained counselor with expertise in donor issues can help you understand the issues, such as the legal rights of the donor. You also may need an attorney to file court papers to help you become legal parents of an implanted embryo.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+In vitro fertilization has multiple steps &amp;mdash; ovulation induction, egg retrieval, sperm retrieval, fertilization and embryo transfer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ovulation induction&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re using your own eggs during in vitro fertilization, at the start of a cycle you&apos;ll begin treatment with synthetic hormones to stimulate your ovaries to produce multiple eggs &amp;mdash; rather than the single egg that normally develops each month. Multiple eggs are needed because some eggs won&apos;t fertilize or develop normally after fertilization. Several different medications may be needed, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications for ovarian stimulation.&lt;/strong&gt; To stimulate your ovaries, you might take the oral medication clomiphene citrate (Clomid, Serophene) or an injectable medication, such as follicle stimulating hormone (Follistim Aq, Bravelle), human menopausal gonadotropin (Menopur). Clomiphene citrate is less potent than injectable medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications for oocyte maturation.&lt;/strong&gt; To help your eggs prepare for fertilization, you might take the injectable medication HCG (Pregnyl, Ovidrel).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to prevent premature ovulation.&lt;/strong&gt; To prevent premature ovulation, you might inject medication such as a gonadotropin-releasing hormone agonist (Lupron) or a gonadotropin-releasing hormone antagonist (Cetrotide).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will work with you to determine which medications to use. During treatment, your doctor will likely use vaginal ultrasounds &amp;mdash; a procedure that uses sound waves to create an image of the inside of your ovaries &amp;mdash; to monitor the development of fluid-filled ovarian cysts where eggs mature (follicles). Blood tests also will be used to measure your response to ovarian stimulation medications. Estrogen levels typically increase as follicles develop and progesterone levels remain low until after ovulation. When the follicles are ready for egg retrieval &amp;mdash; generally after eight to 14 days &amp;mdash; you&apos;ll be given HCG or other medications to help the eggs mature. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes in vitro fertilization cycles need to be canceled before egg retrieval. Causes for in vitro fertilization cancellation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inadequate number of follicles developing&lt;/li&gt;
+	&lt;li&gt;Premature ovulation&lt;/li&gt;
+	&lt;li&gt;Too many follicles developing, creating a risk of ovarian hyperstimulation syndrome&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor might recommend changing medications to promote a better response during future in vitro fertilization cycles. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Egg retrieval&lt;/strong&gt;&lt;br /&gt;
+Egg retrieval can be done in your doctor&apos;s office or a clinic. During egg retrieval you&apos;ll be sedated and given pain medication. Eggs are generally retrieved 34 to 36 hours after the HCG injection and before ovulation. Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into the follicles &amp;mdash; is used to retrieve the eggs. Then eggs are removed from the follicles through a needle connected to a suction device. Multiple eggs can be removed in about 30 minutes. After egg retrieval, you may experience cramping and feelings of fullness or pressure. If your ovaries aren&apos;t accessible through transvaginal ultrasound, laparoscopy &amp;mdash; a procedure in which a tiny incision is made near your navel and a slender viewing instrument (laparoscope) is inserted &amp;mdash; may be used to guide the needle. After retrieval, mature eggs are placed in a nutritive liquid (culture medium) and incubated. 
+&lt;/p&gt;
+&lt;p&gt;
+On the day of egg retrieval or at the time of embryo transfer, your doctor might recommend that you begin taking progesterone supplements &amp;mdash; in the form of oral tablets, injections or vaginal suppositories &amp;mdash; to make the lining of your uterus more receptive to implantation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sperm retrieval&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re using your partner&apos;s sperm, he&apos;ll provide a semen sample at your doctor&apos;s office or a clinic through masturbation or another method, such as testicular aspiration &amp;mdash; the use of a needle to extract sperm directly from the testicle. Donor sperm also can be used. Sperm are separated from the semen in the lab. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fertilization&lt;/strong&gt;&lt;br /&gt;
+Fertilization can be done using: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Insemination.&lt;/strong&gt; During insemination, healthy sperm and mature eggs are mixed and incubated overnight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intracytoplasmic sperm injection (ICSI).&lt;/strong&gt; In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles failed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re an older woman or have had multiple failed in vitro fertilization attempts, your doctor might recommend assisted hatching &amp;mdash; a technique in which a hole is made in the membrane (zona pellucida) surrounding the embryo to help the embryo hatch and implant in the lining of your uterus. Assisted hatching is done just before embryo transfer. Preimplantation genetic testing &amp;mdash; a procedure in which cells are removed from the embryo and tested for specific genetic diseases &amp;mdash; also can be done at this time. Embryos that don&apos;t contain affected genes can be implanted in your uterus. While preimplantation genetic testing can reduce the likelihood that a parent will pass on a genetic problem, it can&apos;t eliminate the risk. Prenatal testing may be recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Embryo transfer&lt;/strong&gt;&lt;br /&gt;
+Embryo transfer is done at your doctor&apos;s office or a clinic and usually takes place one to six days after egg retrieval. You might be given a mild sedative. Then the doctor or nurse will insert a long, thin, flexible tube called a catheter into your vagina, through your cervix and into your uterus. A syringe containing one or more embryos suspended in fluid is attached to the end of the catheter, and the fluid is pushed through the tube into your uterus. The procedure is usually painless, although you might experience mild cramping. If successful, the embryo will implant in the lining of your uterus about six to 10 days after egg retrieval. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After the embryo transfer, you can resume your normal daily activities. However, your ovaries may still be enlarged. Consider avoiding vigorous activity, which could cause discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+Typical side effects include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Passing a small amount of clear or bloody fluid shortly after the procedure &amp;mdash; due to the swabbing of the cervix before the embryo transfer&lt;/li&gt;
+	&lt;li&gt;Breast tenderness and engorgement&lt;/li&gt;
+	&lt;li&gt;Mild bloating&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Mild cramping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you develop moderate or severe pain after the embryo transfer, contact your doctor. He or she will evaluate you for factors such as infection, twisting of an ovary (ovarian torsion) and severe ovarian hyperstimulation syndrome. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of egg retrieval 
+" Caption="Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into the follicles &amp;mdash; is used to retrieve eggs. The eggs are removed from the follicles through a needle connected to a suction device. 
+" Height="60" Title="Egg retrieval technique" URI="/images/image_popup/thumbs/mcdc7_in_vitro_eggretrievalthu.jpg" Width="60" />
+				<Image Alt="Illustration of egg retrieval 
+" Caption="Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into the follicles &amp;mdash; is used to retrieve eggs. The eggs are removed from the follicles through a needle connected to a suction device. 
+" Height="360" Title="Egg retrieval technique" URI="/images/image_popup/mcdc7_in_vitro_eggretrieval.jpg" Width="400" />
+				<HTML>
+					Typically, transvaginal ultrasound aspiration &amp;mdash; a procedure in which an ultrasound probe is inserted into your vagina to identify follicles and a needle is guided through the vagina and into ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ICSI 
+" Caption="In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles failed. 
+" Height="60" Title="ICSI" URI="/images/image_popup/thumbs/mcdc7_in_vitro_icsithu.jpg" Width="60" />
+				<Image Alt="Illustration of ICSI 
+" Caption="In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles failed. 
+" Height="360" Title="ICSI" URI="/images/image_popup/mcdc7_in_vitro_icsi.jpg" Width="400" />
+				<HTML>
+					In ICSI, a single healthy sperm is injected directly into each mature egg. ICSI is often used when semen quality is a problem or if fertilization attempts during prior in vitro fertilization cycles ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a blastocyst 
+" Caption="Three days after fertilization, a normally developing embryo will contain about six to 10 cells. By the fifth day, the fertilized egg is known as a blastocyst &amp;mdash; a rapidly dividing ball of cells. The inner group of cells will become the embryo. The outer group will become the cells that nourish and protect it. 
+" Height="60" Title="Blastocyst" URI="/images/image_popup/thumbs/mcdc7_in_vitro_culture1thu.jpg" Width="60" />
+				<Image Alt="Illustration of a blastocyst 
+" Caption="Three days after fertilization, a normally developing embryo will contain about six to 10 cells. By the fifth day, the fertilized egg is known as a blastocyst &amp;mdash; a rapidly dividing ball of cells. The inner group of cells will become the embryo. The outer group will become the cells that nourish and protect it. 
+" Height="573" Title="Blastocyst" URI="/images/image_popup/mcdc7_in_vitro_culture1.jpg" Width="400" />
+				<HTML>
+					Three days after fertilization, a normally developing embryo will contain about six to 10 cells. By the fifth day, the fertilized egg is known as a blastocyst &amp;mdash; a rapidly dividing ball of cells....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will take a blood sample to detect pregnancy hormones about two weeks after egg retrieval. If you&apos;re pregnant, your doctor will refer you to an obstetrician or other pregnancy specialist for prenatal care. If you&apos;re not pregnant, you&apos;ll stop taking progesterone and likely get your period in one to three days. If you don&apos;t get your period or have unusual irregular bleeding, contact your doctor. He or she may examine you to rule out an ectopic pregnancy. If you&apos;re interested in attempting another cycle of in vitro fertilization, your doctor might suggest steps you can take to improve your chances of getting pregnant through in vitro fertilization.
+&lt;/p&gt;
+&lt;p&gt;
+The chances of giving birth to a healthy baby after using in vitro fertilization depend on various factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maternal age.&lt;/strong&gt; The younger you are, the more likely you are to get pregnant and give birth to a healthy baby using your own eggs during in vitro fertilization. Birth rates resulting from a cycle of in vitro fertilization using a woman&apos;s own fresh eggs are about 41 percent for women age 34 and younger, 31 percent for women ages 35 to 37, 22 percent for women ages 38 to 40, 12 percent for women ages 41 to 42, 5 percent for women older than ages 43 to 44, and 1 percent for women age 45 and older. Women age 41 and older are often counseled to consider using donor eggs during in vitro fertilization to increase the chances of success. Women who use fresh &amp;mdash; not frozen &amp;mdash; donor embryos typically have a live birth rate of about 50 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Embryo status.&lt;/strong&gt; The live birth rate is lower when frozen embryos are used instead of fresh embryos. The use of fresh or frozen sperm, however, hasn&apos;t been shown to affect success rates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reproductive history.&lt;/strong&gt; Women who&apos;ve previously given birth are more likely to be able to get pregnant using in vitro fertilization than are women who&apos;ve never given birth. Success rates are lower for women who&apos;ve previously used in vitro fertilization multiple times, but didn&apos;t get pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cause of infertility.&lt;/strong&gt; Having a normal supply of eggs increases your chances of being able to get pregnant using in vitro fertilization. Women who have endometriosis are less likely to be able to get pregnant using in vitro fertilization than are women who have tubal damage or blockage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lifestyle factors.&lt;/strong&gt; Women who smoke typically have fewer eggs retrieved during in vitro fertilization. Smoking can lower a woman&apos;s chance of success using in vitro fertilization by 50 percent. Use of alcohol, recreational drugs, excessive caffeine &amp;mdash; more than 200 milligrams a day &amp;mdash; and certain medications also can be harmful.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		In vitro fertilization (IVF)
+	</Title>
+	<Abstract>
+		In vitro fertilization (IVF) &amp;mdash; Overview covers definition, risks, results of this assisted reproductive technology.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02078" LinkType="Internal" ObjectID="BD384E2A-A8A1-F09E-8B994003A6EB84F7" Title="Sperm donation" Url="http://www.mayoclinic.com/health/sperm-donation/MY02078" />
+		<LinkItem ContentType="Answer" DocID="AN01189" LinkType="Internal" ObjectID="A5ABBAB7-89E8-4994-94A4A32CE3524E6A" Title="Male masturbation: Does frequency affect male fertility?" Url="http://www.mayoclinic.com/health/male-masturbation/AN01189" />
+		<LinkItem ContentType="Answer" DocID="AN01848" LinkType="Internal" ObjectID="10DF0B0B-E7FF-0DBD-1C01DDBD9ECF54AC" Title="Ovarian cysts and fertility: Is there a connection?" Url="http://www.mayoclinic.com/health/ovarian-cysts-and-infertility/AN01848" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="MY01095" LinkType="Internal" ObjectID="6EF8A458-F51A-E3CA-9A9E04708EB3BAAE" Title="Female fertility: Why lifestyle choices count" Url="http://www.mayoclinic.com/health/female-fertility/MY01095" />
+		<LinkItem ContentType="Disease" DocID="DS00293" LinkType="Internal" ObjectID="EF55BD38-2667-4900-ACA0A74BD6F570D1" Title="Ovarian cancer" Url="http://www.mayoclinic.com/health/ovarian-cancer/DS00293" />
+		<LinkItem ContentType="Disease" DocID="DS00289" LinkType="Internal" ObjectID="BCA261E0-0FFD-4933-87C852CF94968FE2" Title="Endometriosis" Url="http://www.mayoclinic.com/health/endometriosis/DS00289" />
+		<LinkItem ContentType="Disease" DocID="DS01097" LinkType="Internal" ObjectID="BC626C4F-E7FF-0DBD-12F8D36E0990C7B4" Title="Ovarian hyperstimulation syndrome" Url="http://www.mayoclinic.com/health/ovarian-hyperstimulation-syndrome-ohss/DS01097" />
+		<LinkItem ContentType="Disease" DocID="DS01049" LinkType="Internal" ObjectID="8B5D3F76-E7FF-0DBD-18972BEE0E8AF194" Title="Low sperm count" Url="http://www.mayoclinic.com/health/low-sperm-count/DS01049" />
+		<LinkItem ContentType="Disease" DocID="DS00843" LinkType="Internal" ObjectID="7E5EDB50-E7FF-0DBD-1BBE6D8C25526BBF" Title="Premature ovarian failure" Url="http://www.mayoclinic.com/health/premature-ovarian-failure/DS00843" />
+		<LinkItem ContentType="Disease" DocID="DS01105" LinkType="Internal" ObjectID="6B11E6BD-E7FF-0DBD-1332ED03983B3A84" Title="Miscarriage" Url="http://www.mayoclinic.com/health/pregnancy-loss-miscarriage/DS01105" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+		<LinkItem ContentType="Disease" DocID="DS00622" LinkType="Internal" ObjectID="43A7C2A1-2A5D-9994-EB6FFC1D0D8C4628" Title="Ectopic pregnancy" Url="http://www.mayoclinic.com/health/ectopic-pregnancy/DS00622" />
+		<LinkItem ContentType="Disease" DocID="DS01053" LinkType="Internal" ObjectID="3F7CBB94-E7FF-0DBD-1FCA62EBB326DDA1" Title="Female infertility" Url="http://www.mayoclinic.com/health/female-infertility/DS01053" />
+		<LinkItem ContentType="Disease" DocID="DS01038" LinkType="Internal" ObjectID="28DFF4EE-E7FF-0DBD-14CF93141A06B62F" Title="Male infertility" Url="http://www.mayoclinic.com/health/male-infertility/DS01038" />
+	</RelatedLinksBox>
+</TestProcedure>

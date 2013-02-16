@@ -1,0 +1,319 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00956
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chagas-disease/DS00956
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="3249" Title="Chagas disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE84508-E7FF-0DBD-1D9E3D98DFEBF4A0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Chagas disease
+			</MetaKeyword>
+			<MetaKeyword>
+				American trypanosomiasis
+			</MetaKeyword>
+			<MetaKeyword>
+				T. cruzi
+			</MetaKeyword>
+			<MetaKeyword>
+				reduvid bug
+			</MetaKeyword>
+			<MetaKeyword>
+				Chagas&apos; disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chagas (SHA-gus) disease is an inflammatory, infectious disease caused by a parasite found in the feces of the triatomine (reduviid) bug. Chagas disease is common in South America, Central America and Mexico, the primary home of the triatomine bug. Rare cases of Chagas disease have been found in the southern United States, as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Also called American trypanosomiasis, Chagas disease can infect anyone, but is diagnosed most often in children. Left untreated, Chagas disease later can cause serious heart and digestive problems. Treatment of Chagas disease focuses on killing the parasite in acute infection and managing signs and symptoms in later stages. You can take steps to prevent the infection, too. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chagas disease can be acute or chronic. Symptoms range from mild to severe, although many people don&apos;t experience symptoms until the chronic stage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute phase&lt;/strong&gt; &lt;br /&gt;
+The acute phase of Chagas disease, which lasts for weeks or months, may be symptom-free. When signs and symptoms do occur, they are usually mild and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling at the infection site&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Body aches&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea, diarrhea or vomiting&lt;/li&gt;
+	&lt;li&gt;Swollen glands&lt;/li&gt;
+	&lt;li&gt;Enlargement of your liver or spleen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms that develop during the acute phase usually go away on their own. However, if untreated, the infection persists and advances to the chronic phase. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic phase&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of the chronic phase of Chagas disease may occur 10 to 20 years after initial infection, or they may never occur. In severe cases, however, Chagas disease signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Inflamed, enlarged heart (cardiomyopathy)&lt;/li&gt;
+	&lt;li&gt;Congestive heart failure&lt;/li&gt;
+	&lt;li&gt;Sudden cardiac arrest&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing due to enlarged esophagus&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or constipation due to enlarged colon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you live in or have traveled to an area at risk of Chagas disease and you have signs and symptoms of the condition, such as swelling at the infection site, fever, fatigue, body aches, rash and nausea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of Chagas disease is the parasite Trypanosoma cruzi, which is transmitted to humans from a bite from an insect known as the triatomine bug. These bugs can become infected by T. cruzi when they ingest blood from an animal already infected with the parasite. 
+&lt;/p&gt;
+&lt;p&gt;
+Triatomine bugs live primarily in mud, thatch or adobe huts in Mexico, South America and Central America. They hide in crevices in the walls or roof during the day, then come out at night &amp;mdash; often feeding on sleeping humans. 
+&lt;/p&gt;
+&lt;p&gt;
+When infected bugs bite a person, they leave behind T. cruzi parasites on the skin. The parasites can then enter your body through your eyes, mouth, a cut or scratch, or the wound from the bug&apos;s bite. Scratching or rubbing the bite site helps the parasites enter your body. Once in your body, the parasites multiply and spread. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also become infected by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating uncooked food contaminated with feces from T. cruzi-infected bugs&lt;/li&gt;
+	&lt;li&gt;Being born to a woman infected with T. cruzi&lt;/li&gt;
+	&lt;li&gt;Having a blood transfusion containing infected blood&lt;/li&gt;
+	&lt;li&gt;Getting an organ transplant containing viable T. cruzi&lt;/li&gt;
+	&lt;li&gt;Working in a laboratory where there&apos;s an accidental exposure to the parasite&lt;/li&gt;
+	&lt;li&gt;Spending time in a forest that contains infected wild animals, such as raccoons and opossums&lt;/li&gt;
+	&lt;li&gt;Being with an infected pet&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of getting Chagas disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Living in impoverished rural areas of Central America, South America and Mexico&lt;/li&gt;
+	&lt;li&gt;Living in a residence that contains triatomine bugs&lt;/li&gt;
+	&lt;li&gt;Receiving a blood transfusion or organ transplant from a person who carries the infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s rare for travelers to the at-risk areas in South America, Central America and Mexico to contract Chagas disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If Chagas disease progresses to the chronic phase, serious heart or digestive complications may occur. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Heart failure occurs when your heart becomes so weak or stiff that it can&apos;t pump enough blood to meet your body&apos;s needs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlargement of the esophagus (megaesophagus).&lt;/strong&gt; This rare condition is caused by the abnormal widening (dilation) of your esophagus, which can result in difficulty with swallowing and digestion. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlargement of the colon (megacolon).&lt;/strong&gt; Megacolon occurs when your colon becomes abnormally dilated, causing abdominal pain, distension and severe constipation. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. Depending on his or her findings, your doctor may refer you to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including travel to other countries, major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. List your questions from most important to least important. For Chagas disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is my family likely to be infected?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you lived anywhere, such as Mexico, where the triatomine bug or Chagas disease is common?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will conduct a physical exam, asking about your symptoms and any factors that put you at risk of Chagas disease. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have the signs and symptoms of Chagas disease, blood tests can confirm the presence of the T. cruzi parasite or the proteins that your immune system creates (antibodies) to fight the parasite in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with Chagas disease, you&apos;ll likely undergo additional tests to determine whether the disease has entered the chronic phase and caused heart or digestive complications. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram,&lt;/strong&gt; a procedure that records the electrical activity of your heart&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal X-ray,&lt;/strong&gt; a procedure that uses radiation to capture images of your stomach, intestines and colon&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Upper endoscopy,&lt;/strong&gt; a procedure in which you swallow a thin, lighted tube (endoscope) that transmits images of your esophagus onto a screen&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for Chagas disease focuses on killing the parasite and managing signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+During the acute phase of Chagas disease, the prescription medications benznidazole and nifurtimox may be of benefit. Both drugs are available in the regions most affected by Chagas disease. In the United States, however, the drugs can be obtained only through the Centers for Disease Control and Prevention. 
+&lt;/p&gt;
+&lt;p&gt;
+Once Chagas disease reaches the chronic phase, medications aren&apos;t effective for curing the disease. Instead, treatment depends on the specific signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart-related complications.&lt;/strong&gt; Treatment may include medications, a pacemaker or other devices to regulate your heart rhythm, surgery, or even a heart transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive-related complications.&lt;/strong&gt; Treatment may include diet modification, medications, corticosteroids or, in severe cases, surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you live in a high-risk area for Chagas disease, these steps can help you prevent infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sleeping in a mud, thatch or adobe house.&lt;/strong&gt; These types of residences are more likely to harbor triatomine bugs. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use insecticide-soaked netting over your bed&lt;/strong&gt; when sleeping in thatch, mud or adobe houses. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use insecticides&lt;/strong&gt; to remove insects from your residence. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chagas disease
+	</Title>
+	<Abstract>
+		Chagas disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of this parasitic infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+		<LinkItem ContentType="Disease" DocID="DS00871" LinkType="Internal" ObjectID="434E8104-E7FF-0DBD-13EABF19F89B5A72" Title="Enlarged spleen (splenomegaly)" Url="http://www.mayoclinic.com/health/enlarged-spleen/DS00871" />
+		<LinkItem ContentType="Disease" DocID="DS00063" LinkType="Internal" ObjectID="2D434692-F005-495C-A5EB2AFBD98CA2A5" Title="Constipation" Url="http://www.mayoclinic.com/health/constipation/DS00063" />
+	</RelatedLinksBox>
+</Disease>

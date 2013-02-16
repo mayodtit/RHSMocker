@@ -1,0 +1,130 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00832
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/uv-protection/AN00832
+		</OriginalURL>
+		<UpdateDate>
+			2010-07-23
+		</UpdateDate>
+		<PublicationDate>
+			2004-05-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="4645" Title="Eye care" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			076422FF-27EE-4025-A8E516FAB998B307
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				sunglasses
+			</MetaKeyword>
+			<MetaKeyword>
+				sun glasses
+			</MetaKeyword>
+			<MetaKeyword>
+				UV protection
+			</MetaKeyword>
+			<MetaKeyword>
+				eye care
+			</MetaKeyword>
+			<MetaKeyword>
+				eye health
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes, ultraviolet (UV) eye protection matters. UV radiation from the sun can damage not only the skin of your eyelid but also the cornea, lens and other parts of the eye. UV exposure also contributes to the development of certain types of cataracts. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re choosing sunglasses, look for UV-protection details on product labels. Choose sunglasses that block 99 to 100 percent of both UVA and UVB rays. Skip sunglasses that are labeled &quot;cosmetic&quot; and those that don&apos;t offer details on UV protection. Opt for larger lenses rather than smaller lenses &amp;mdash; or, better yet, the wraparound variety. 
+&lt;/p&gt;
+&lt;p&gt;
+Of course, UV protection isn&apos;t the only consideration when it comes to selecting sunglasses. In addition to UV protection, here&apos;s the lowdown on other options: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blue-blocking lenses.&lt;/strong&gt; Blue-blocking lenses &amp;mdash; which are generally tinted amber &amp;mdash; can make distant objects easier to see, especially in low light. Blue-blocking plastic lenses may make it difficult to discriminate the hues in traffic lights, however, and not all blue-blocking lenses offer adequate UV protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polarized lenses.&lt;/strong&gt; Polarized lenses reduce glare. Unless they&apos;re specifically treated with UV coating, polarized lenses don&apos;t offer UV protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Photochromic lenses.&lt;/strong&gt; Photochromic lenses reduce glare and help maintain clarity, although they may take time to adjust to different light conditions. Not all photochromic lenses offer adequate UV protection, so be sure to check the product label. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polycarbonate lenses.&lt;/strong&gt; Polycarbonate lenses offer protection from impact injuries that may be sustained during physical activities. Polycarbonate lenses also adequately shield the eyes from UV radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mirror-coated lenses.&lt;/strong&gt; Mirror-coated lenses help block visible light, but they don&apos;t necessarily block UV radiation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Standard prescription eyeglasses can be treated with a material that provides UV protection while retaining a clear, nontinted appearance. Some contact lenses also offer UV protection &amp;mdash; but because contact lenses don&apos;t cover the entire eye, it&apos;s still important to wear sunglasses for UV protection when you&apos;re outdoors. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Choosing sunglasses: Is UV protection important?
+	</Title>
+	<Abstract>
+		When it comes to sunglasses, UV protection matters. Here&apos;s why.
+	</Abstract>
+	<Question>
+		When you&apos;re choosing sunglasses, does UV protection matter?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00376" LinkType="Internal" ObjectID="68778E64-E7FF-0DBD-162052263753DD62" Title="LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MY00376" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Article" DocID="MY00375" LinkType="Internal" ObjectID="68747F17-E7FF-0DBD-125DF468D0116EB5" Title="LASIK surgery: Is it right for you?" Url="http://www.mayoclinic.com/health/lasik-surgery/MY00375" />
+		<LinkItem ContentType="Answer" DocID="AN01663" LinkType="Internal" ObjectID="B7146E9A-E7FF-0DBD-143E8D2E399E32C6" Title="Eye exam: Is a laser retina scan worthwhile?" Url="http://www.mayoclinic.com/health/eye-exam/AN01663" />
+		<LinkItem ContentType="SlideShow" DocID="EY00003" LinkType="Internal" ObjectID="7ECECA6C-3B12-488C-AB1AEA8D95084FB0" Title="Slide show: A look inside your eyes" Url="http://www.mayoclinic.com/health/eyes/EY00003" />
+		<LinkItem ContentType="Disease" DocID="DS00230" LinkType="Internal" ObjectID="FF4532B4-8C72-4755-B5A3A6B1C556F360" Title="Astigmatism" Url="http://www.mayoclinic.com/health/astigmatism/DS00230" />
+		<LinkItem ContentType="Disease" DocID="DS00527" LinkType="Internal" ObjectID="68EC854E-9215-4EF8-97FA5266C0EE9E15" Title="Farsightedness" Url="http://www.mayoclinic.com/health/farsightedness/DS00527" />
+		<LinkItem ContentType="Disease" DocID="DS00589" LinkType="Internal" ObjectID="3C47BCF7-47AA-4260-AC1F80C40D526EDF" Title="Presbyopia" Url="http://www.mayoclinic.com/health/presbyopia/DS00589" />
+		<LinkItem ContentType="Disease" DocID="DS00528" LinkType="Internal" ObjectID="13CAE512-516E-4B1D-B09B6D6C7C00215D" Title="Nearsightedness" Url="http://www.mayoclinic.com/health/nearsightedness/DS00528" />
+		<LinkItem ContentType="Article" DocID="MY01614" LinkType="Internal" ObjectID="AE20A7E2-F04B-2617-36565110D253CF60" Title="Eye injury: Tips to protect vision" Url="http://www.mayoclinic.com/health/eye-injury/MY01614" />
+		<LinkItem ContentType="Article" DocID="WL00010" LinkType="Internal" ObjectID="82C0A0DA-CEAC-417F-88C5AD9CC8FA4765" Title="Contact lenses: What to know before you buy" Url="http://www.mayoclinic.com/health/contact-lenses/WL00010" />
+	</RelatedLinksBox>
+</Answer>

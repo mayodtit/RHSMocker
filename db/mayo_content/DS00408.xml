@@ -1,0 +1,379 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00408
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/oral-thrush/DS00408
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-20
+		</UpdateDate>
+		<PublicationDate>
+			2001-12-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="2235" Title="Oral thrush" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			236370E6-B526-43BF-819807B8B369435C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				oral thrush
+			</MetaKeyword>
+			<MetaKeyword>
+				symptom of oral thrush
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment of oral thrush
+			</MetaKeyword>
+			<MetaKeyword>
+				candida
+			</MetaKeyword>
+			<MetaKeyword>
+				thrush
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				fungus
+			</MetaKeyword>
+			<MetaKeyword>
+				yeast infections
+			</MetaKeyword>
+			<MetaKeyword>
+				acidophilus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oral thrush is a condition in which the fungus Candida albicans accumulates on the lining of your mouth.
+&lt;/p&gt;
+&lt;p&gt;
+Oral thrush causes creamy white lesions, usually on your tongue or inner cheeks. The lesions can be painful and may bleed slightly when you scrape them. Sometimes oral thrush may spread to the roof of your mouth, your gums, your tonsils or the back of your throat.
+&lt;/p&gt;
+&lt;p&gt;
+Although oral thrush can affect anyone, it&apos;s more likely to occur in babies and in people who wear dentures, use inhaled corticosteroids or have compromised immune systems. Oral thrush is a minor problem if you&apos;re healthy, but if you have a weakened immune system, symptoms of oral thrush may be more severe and difficult to control.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing patches of oral thrush on the tongue
+" Caption="Oral thrush produces slightly raised, creamy white, sore patches in your mouth or on your tongue.
+" Height="60" Title="Oral thrush" URI="/images/image_popup/thumbs/r7_oralthrushthu.jpg" Width="60" />
+				<Image Alt="Photograph showing patches of oral thrush on the tongue
+" Caption="Oral thrush produces slightly raised, creamy white, sore patches in your mouth or on your tongue.
+" Height="270" Title="Oral thrush" URI="/images/image_popup/r7_oralthrush.jpg" Width="400" />
+				<HTML>
+					Oral thrush produces slightly raised, creamy white, sore patches in your mouth or on your tongue.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Children and adults&lt;/strong&gt;&lt;br /&gt;
+Initially, you may not even notice symptoms of oral thrush. Depending on the underlying cause, signs and symptoms may develop suddenly and persist for a long time. They can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Creamy white lesions on your tongue, inner cheeks and sometimes on the roof of your mouth, gums and tonsils&lt;/li&gt;
+	&lt;li&gt;Lesions with a cottage cheese-like appearance&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Slight bleeding if the lesions are rubbed or scraped&lt;/li&gt;
+	&lt;li&gt;Cracking and redness at the corners of your mouth (especially in denture wearers)&lt;/li&gt;
+	&lt;li&gt;A cottony feeling in your mouth&lt;/li&gt;
+	&lt;li&gt;Loss of taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In severe cases, the lesions may spread downward into your esophagus &amp;mdash; the long, muscular tube stretching from the back of your mouth to your stomach (Candida esophagitis). If this occurs, you may experience difficulty swallowing or feel as if food is getting stuck in your throat.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infants and breast-feeding mothers&lt;/strong&gt;&lt;br /&gt;
+In addition to the distinctive white mouth lesions, infants may have trouble feeding or be fussy and irritable. They can pass the infection to their mothers during breast-feeding. The infection may then pass back and forth between mother&apos;s breasts and baby&apos;s mouth. Women whose breasts are infected with candida may experience the following signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unusually red, sensitive or itchy nipples&lt;/li&gt;
+	&lt;li&gt;Shiny or flaky skin on the darker, circular area around the nipple (areola)&lt;/li&gt;
+	&lt;li&gt;Unusual pain during nursing or painful nipples between feedings&lt;/li&gt;
+	&lt;li&gt;Stabbing pains deep within the breast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you or your baby develops painful white lesions inside the mouth, see your doctor or dentist. If thrush develops in older children or adolescents, seek medical care. An underlying condition such as diabetes may be the cause.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing patches of oral thrush on the tongue
+" Caption="Oral thrush produces slightly raised, creamy white, sore patches in your mouth or on your tongue.
+" Height="60" Title="Oral thrush" URI="/images/image_popup/thumbs/r7_oralthrushthu.jpg" Width="60" />
+				<Image Alt="Photograph showing patches of oral thrush on the tongue
+" Caption="Oral thrush produces slightly raised, creamy white, sore patches in your mouth or on your tongue.
+" Height="270" Title="Oral thrush" URI="/images/image_popup/r7_oralthrush.jpg" Width="400" />
+				<HTML>
+					Oral thrush produces slightly raised, creamy white, sore patches in your mouth or on your tongue.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oral thrush and other Candida infections can occur when your immune system is weakened by disease or drugs such as prednisone, or when antibiotics disturb the natural balance of microorganisms in your body.
+&lt;/p&gt;
+&lt;p&gt;
+Normally your immune system works to repel harmful invading organisms, such as viruses, bacteria and fungi, while maintaining a balance between &quot;good&quot; and &quot;bad&quot; microbes that normally inhabit your body. But sometimes these protective mechanisms fail, which can allow an oral thrush infection to take hold.
+&lt;/p&gt;
+&lt;p&gt;
+These illnesses may make you more susceptible to oral thrush infection:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;HIV/AIDS.&lt;/strong&gt; The human immunodeficiency virus (HIV) &amp;mdash; the virus that causes AIDS &amp;mdash; damages or destroys cells of your immune system, making you more susceptible to opportunistic infections that your body would normally resist. Repeated bouts of oral thrush may be the first sign of an HIV infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; If you have cancer, your immune system is likely to be weakened from the disease and from treatments, such as chemotherapy and radiation. Both the disease and treatments can increase your risk of Candida infections such as oral thrush.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes mellitus.&lt;/strong&gt; If you have untreated diabetes or the disease isn&apos;t well controlled, your saliva may contain large amounts of sugar, which encourages the growth of candida.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal yeast infections.&lt;/strong&gt; Vaginal yeast infections are caused by the same fungus that causes oral thrush. Although a yeast infection isn&apos;t dangerous, if you&apos;re pregnant you can pass the fungus to your baby during delivery. As a result, your newborn may develop oral thrush.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop oral thrush, but the infection is more common in some. Risk factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being an infant&lt;/li&gt;
+	&lt;li&gt;Having a compromised immune system&lt;/li&gt;
+	&lt;li&gt;Wearing dentures&lt;/li&gt;
+	&lt;li&gt;Having other health conditions, such as diabetes or anemia&lt;/li&gt;
+	&lt;li&gt;Taking certain medications, such as antibiotics, or oral or inhaled corticosteroids&lt;/li&gt;
+	&lt;li&gt;Undergoing chemotherapy or radiation treatment for cancer&lt;/li&gt;
+	&lt;li&gt;Having conditions that cause dry mouth (xerostomia)&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oral thrush is seldom a problem for healthy children and adults, although the infection may return even after it&apos;s been treated. For people with compromised immune systems, such as from HIV or cancer, however, thrush can be more serious.
+&lt;/p&gt;
+&lt;p&gt;
+If you have a compromised immune system:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thrush is more likely to spread to other parts of your body, including your digestive tract, lungs and liver.&lt;/li&gt;
+	&lt;li&gt;You may have especially severe symptoms in your mouth or esophagus, which can make eating painful and difficult.&lt;/li&gt;
+	&lt;li&gt;The infection can spread to the intestines, making it difficult to receive adequate nutrition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor, pediatrician or a general practitioner. However, if you have an underlying condition that&apos;s contributing to the problem, you may then be referred to a specialist for treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your initial appointment, and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking. Also, let your doctor know if you&apos;ve recently used antibiotics or if you take oral or inhaled corticosteroids, such as those used to treat asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your appointment. For oral thrush, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused this condition?&lt;/li&gt;
+	&lt;li&gt;Do I need any additional tests? Do these tests require any preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do these treatments have any side effects?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems, so how can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How can I prevent this from happening again?&lt;/li&gt;
+	&lt;li&gt;Do I need to be tested for other diseases associated with thrush?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that occur to you.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you recently taken antibiotics for an infection?&lt;/li&gt;
+	&lt;li&gt;Do you have asthma? If so, do you use a steroid inhaler?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have any other new symptoms of illness?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you or your child has oral thrush, you may need treatment with an antifungal medication. While you&apos;re waiting for your appointment, however, you can try eating unsweetened yogurt to reintroduce beneficial bacteria to your mouth and throat. Rinsing with salt water may provide some symptom relief. If you wear dentures, thoroughly clean your dentures daily.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;If thrush is limited to your mouth&lt;/strong&gt;&lt;br /&gt;
+Oral thrush can usually be diagnosed simply by looking at the lesions, but sometimes a small sample is examined under a microscope to confirm the diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+In older children or adolescents who have no previously identified risk factors, an underlying medical condition may be the cause of oral thrush. If your doctor suspects that to be the case, he or she will perform a physical exam as well as recommend certain blood tests to help find the source of the problem.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If thrush is in your esophagus&lt;/strong&gt;&lt;br /&gt;
+Thrush that extends into the esophagus can be serious. To help diagnose this condition, your doctor may ask you to have one or more of the following tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Throat culture.&lt;/strong&gt; In this procedure, the back of your throat is swabbed with sterile cotton and the tissue sample cultured on a special medium to help determine which bacteria or fungi, if any, are causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic examination.&lt;/strong&gt; In this procedure, your doctor examines your esophagus, stomach and the upper part of your small intestine (duodenum) using a lighted, flexible tube with a camera on the tip (endoscope).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of any oral thrush treatment is to stop the rapid spread of the fungus, but the best approach may depend on your age, your overall health and the cause of the infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For infants and nursing mothers&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re breast-feeding an infant who has oral thrush, you and your baby will do best if you&apos;re both treated. Otherwise, you&apos;re likely to pass the infection back and forth.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your doctor may prescribe a mild antifungal medication for your baby and an antifungal cream for your breasts.&lt;/li&gt;
+	&lt;li&gt;If your baby uses a pacifier or feeds from a bottle, rinse nipples and pacifiers in a solution of equal parts water and vinegar daily and allow them to air dry to prevent fungus growth.&lt;/li&gt;
+	&lt;li&gt;If you use a breast pump, rinse any of the detachable parts that come in contact with your milk in a vinegar and water solution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For healthy adults and children&lt;/strong&gt;&lt;br /&gt;
+Adults or children who have oral thrush but are otherwise healthy can try one of these:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating unsweetened yogurt&lt;/li&gt;
+	&lt;li&gt;Taking acidophilus capsules or liquid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Yogurt and acidophilus don&apos;t destroy the fungus, but they can help restore the normal bacterial flora in your body. If your infection persists, your doctor will prescribe an antifungal medication.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For adults with weakened immune systems&lt;/strong&gt;&lt;br /&gt;
+Most often, your doctor will recommend the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antifungal medication.&lt;/strong&gt; This comes in several forms, including lozenges, tablets or a liquid that you swish in your mouth and then swallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amphotericin B.&lt;/strong&gt; Candida albicans can become resistant to antifungal medications, especially in people with late-stage HIV infection. This drug may be used when other medications aren&apos;t effective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some antifungal medications may cause liver damage. For this reason, your doctor will likely perform blood tests to monitor your liver function, especially if you require prolonged treatment or have a history of liver disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These suggestions may help during an outbreak of oral thrush:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good oral hygiene.&lt;/strong&gt; Brush at least twice a day and floss at least once daily. Replace your toothbrush frequently until your infection clears up. If you have problems with strength or dexterity in your hands, an electric toothbrush can make brushing easier. Avoid mouthwash or sprays &amp;mdash; they can alter the normal flora in your mouth. Don&apos;t share toothbrushes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try warm saltwater rinses.&lt;/strong&gt; Dissolve 1/2 teaspoon (2.5 milliliters) of salt in 1 cup (237 milliliters) of warm water. Swish the rinse and then spit it out, but don&apos;t swallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use nursing pads.&lt;/strong&gt; If you&apos;re breast-feeding and develop a fungal infection, using pads will help prevent the fungus from spreading to your clothes. Look for pads that don&apos;t have a plastic barrier, which can encourage the growth of candida. If you&apos;re not using disposable pads, wash the nursing pads and your bras in hot water with bleach.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help reduce your risk of developing candida infections:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse your mouth.&lt;/strong&gt; If you have to use a corticosteroid inhaler, be sure to rinse your mouth with water or brush your teeth after taking your medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try using fresh-culture yogurt&lt;/strong&gt; containing Lactobacillus acidophilus or bifidobacterium or take acidophilus capsules when you take antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat any vaginal yeast infections&lt;/strong&gt; that develop during pregnancy as soon as possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;See your dentist regularly&lt;/strong&gt; &amp;mdash; especially if you have diabetes or wear dentures. Ask your dentist how often you need to be seen. Brush and floss your teeth as often as your dentist recommends. If you wear dentures, be sure to clean them every night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what you eat.&lt;/strong&gt; Try limiting the amount of sugar- and yeast-containing foods you eat. These may encourage the growth of candida.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Oral thrush
+	</Title>
+	<Abstract>
+		Oral thrush &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this fungal infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

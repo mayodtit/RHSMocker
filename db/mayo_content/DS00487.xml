@@ -1,0 +1,395 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00487
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cluster-headache/DS00487
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-08
+		</UpdateDate>
+		<PublicationDate>
+			2003-04-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="1757" Title="Cluster" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3F01D91A-F0EA-4C61-8D6B266A80EA7586
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headache
+			</MetaKeyword>
+			<MetaKeyword>
+				cluster headache
+			</MetaKeyword>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				head ache
+			</MetaKeyword>
+			<MetaKeyword>
+				head aches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cluster headaches occur in cyclical patterns or clusters &amp;mdash; which gives the condition its name. Cluster headache is one of the most painful types of headache. Cluster headache is sometimes called the &quot;alarm clock headache&quot; because it commonly awakens you in the middle of the night with intense pain in or around the eye on one side of your head. 
+&lt;/p&gt;
+&lt;p&gt;
+Bouts of frequent attacks &amp;mdash; known as cluster periods &amp;mdash; may last from weeks to months, usually followed by remission periods when the headache attacks stop completely. During remission, no headaches occur for months and sometimes even years. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, cluster headache is rare and not life-threatening. Treatments can help make cluster headache attacks shorter and less severe. In addition, preventive medications can help reduce the number of cluster headaches. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Common signs and symptoms&lt;br /&gt;
+&lt;/strong&gt;A cluster headache strikes quickly, usually without warning. Typical signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Excruciating pain, generally located in or around the eye, but may radiate to other areas of the face, head, neck and shoulders&lt;/li&gt;
+	&lt;li&gt;One-sided pain&lt;/li&gt;
+	&lt;li&gt;Restlessness&lt;/li&gt;
+	&lt;li&gt;Excessive tearing&lt;/li&gt;
+	&lt;li&gt;Redness in the eye of the affected side&lt;/li&gt;
+	&lt;li&gt;Stuffy or runny nasal passage in the nostril on the affected side of your face&lt;/li&gt;
+	&lt;li&gt;Sweaty, pale skin (pallor) on the face&lt;/li&gt;
+	&lt;li&gt;Swelling around the eye on the affected side of your face&lt;/li&gt;
+	&lt;li&gt;Reduced pupil size&lt;/li&gt;
+	&lt;li&gt;Drooping eyelid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The pain of a cluster headache is often described as sharp, penetrating or burning. People with this condition say that the pain feels like a hot poker being stuck in the eye or that the eye is being pushed out of its socket. People with cluster headache appear restless, preferring to pace or sit and rock back and forth to soothe the attack. In contrast to people with migraine, people with cluster headache usually avoid lying down during an attack because this position seems to increase the pain.
+&lt;/p&gt;
+&lt;p&gt;
+Some migraine-like symptoms, including nausea, sensitivity to light and sound, and aura, may occur with a cluster headache, though usually on one side.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cluster period characteristics&lt;br /&gt;
+&lt;/strong&gt;A cluster period generally lasts from six to 12 weeks. The starting date and the duration of each cluster period may be consistent from period to period. For example, cluster periods may occur seasonally, such as every spring or every fall. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people have episodic cluster headaches, which means the cluster headaches occur for one week to a year, followed by a pain-free remission period that may last as long as six to 12 months before another cluster headache develops. Chronic cluster periods may continue for more than a year, or pain-free periods may last less than one month.
+&lt;/p&gt;
+&lt;p&gt;
+During a cluster period: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headaches typically occur every day, sometimes several times a day.&lt;/li&gt;
+	&lt;li&gt;A single attack may last from 15 minutes to two hours.&lt;/li&gt;
+	&lt;li&gt;The attacks happen often at the same time within each 24-hour day.&lt;/li&gt;
+	&lt;li&gt;The majority of attacks occur at night, usually one to two hours after you go to bed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The pain usually ends as suddenly as it begins, with rapidly decreasing intensity. After attacks, most people are completely free from pain, but exhausted.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;See your doctor&lt;/strong&gt; if you&apos;ve just started to experience cluster headaches to rule out other disorders and to find the most effective treatment. Headache pain, even when severe, usually isn&apos;t the result of an underlying disease, but headaches may occasionally indicate a serious underlying medical condition, such as a brain tumor or rupture of a weakened blood vessel (aneurysm). Additionally, if you have a history of headaches, see your doctor if the pattern changes or your headaches suddenly feel different.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care&lt;/strong&gt; if you have any of these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abrupt, severe headache, often like a thunderclap&lt;/li&gt;
+	&lt;li&gt;Headache with a fever, nausea or vomiting, stiff neck, mental confusion, seizures, numbness, or speaking difficulties, which may indicate a number of problems, including stroke, meningitis, encephalitis or brain tumor&lt;/li&gt;
+	&lt;li&gt;Headache after a head injury, even if it&apos;s a minor fall or bump, especially if it gets worse&lt;/li&gt;
+	&lt;li&gt;A sudden, severe headache unlike any other headache you&apos;ve experienced&lt;/li&gt;
+	&lt;li&gt;Headache that worsens over days and changes in pattern&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of cluster headaches is unknown, but abnormalities in the hypothalamus likely play a role. Cluster attacks typically occur with clocklike regularity during a 24-hour day, and the cycle of cluster periods often follows the seasons of the year. These patterns suggest that the body&apos;s biological clock is involved. In humans, the biological clock is located in the hypothalamus, which lies deep in the center of your brain. Abnormalities of the hypothalamus may explain the timing and cyclical nature of cluster headache. Studies have detected increased activity in the hypothalamus during the course of a cluster headache. 
+&lt;/p&gt;
+&lt;p&gt;
+Unlike migraine and tension headache, cluster headache generally isn&apos;t associated with triggers, such as foods, hormonal changes or stress. But once a cluster period begins, consumption of any alcohol can quickly trigger a splitting headache. For this reason, many people with cluster headache avoid alcohol for the duration of a cluster period. Other possible triggers include the use of medications such as nitroglycerin, a drug used to treat heart disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for cluster headaches include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Men are more likely to have cluster headaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Most people with cluster headaches first develop the disorder in their late 20s, although the condition can develop at any age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Many people who get cluster headache attacks are smokers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol use.&lt;/strong&gt; Alcohol can trigger an attack if you&apos;re at risk of cluster headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history.&lt;/strong&gt; If a parent or sibling has ever had a cluster headache, you may have an increased risk of cluster headaches.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, you may be referred to a neurologist, a doctor who specializes in treating nervous system disorders, such as headache. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Keep a headache diary&lt;br /&gt;
+&lt;/strong&gt;One of the most helpful things you can do is keep a headache diary. Each time you get a headache, jot down these details that may help your doctor diagnose your particular kind of headache and discover possible headache triggers. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Date.&lt;/strong&gt; Charting the date and time of each headache can help you recognize patterns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Duration.&lt;/strong&gt; How long did your headache last?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intensity.&lt;/strong&gt; Rate your headache pain on a scale from 1 to 10, with 10 being the most severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Triggers.&lt;/strong&gt; List possible triggers that may have caused your headache, such as &amp;mdash; certain foods, physical activities, noise, stress, smoke, bright lights, a menstrual cycle, changes in temperature or altitude, strong odors, or oversleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms.&lt;/strong&gt; Did you experience any preceding symptoms?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; What medications have you taken? List any, including dosage, even if they&apos;re unrelated to your headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relief.&lt;/strong&gt; Have you experienced any pain relief, from complete to moderate to none?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions may help you make the most of your time together. List your questions from most important to least important in case time runs out. For cluster headaches, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? What will these tests rule out?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;What are common side effects to the medications you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will likely ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on later. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms tend to occur at the same time of day? Do they occur during the same season each year?&lt;/li&gt;
+	&lt;li&gt;Does alcohol appear to cause your symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cluster headache has a characteristic type of pain and pattern of attacks. A diagnosis depends on your description of the attacks, including your pain, the location and severity of your headaches, and associated symptoms. The frequency and duration of your headaches also are important factors.
+&lt;/p&gt;
+&lt;p&gt;
+If you have chronic or recurrent headaches, your doctor may try to pinpoint the type and cause of your headache using certain approaches.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological examination&lt;br /&gt;
+&lt;/strong&gt;A neurological examination may help your doctor detect physical signs of a cluster headache. Sometimes the pupil of your eye may appear smaller, or your eyelid may droop, even between attacks.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;If you have unusual or complicated headaches or an abnormal neurological exam, you may undergo other diagnostic testing to rule out other serious causes of head pain, such as a tumor or aneurysm. Common brain-imaging tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan uses a series of computer-directed X-rays to provide a comprehensive view of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI doesn&apos;t use X-rays. Instead, it combines magnetism, radio waves and computer technology to produce clear images of your brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for cluster headaches. The goal of treatment is to help decrease the severity of pain, shorten the headache period and prevent the attacks. 
+&lt;/p&gt;
+&lt;p&gt;
+Because the pain of a cluster headache comes on suddenly and may subside within a short time, over-the-counter pain relievers such as aspirin or ibuprofen (Advil, Motrin, others) aren&apos;t effective. The headache is usually gone before the drug starts working. Fortunately, other types of acute medication can provide some pain relief. Based on the latest studies, the therapies listed below have proved to be most effective for acute and preventive treatment of cluster headache. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute treatments&lt;br /&gt;
+&lt;/strong&gt;Fast-acting treatments available from your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen.&lt;/strong&gt; Briefly inhaling 100 percent oxygen through a mask at a minimum rate of 7 liters a minute provides dramatic relief for most who use it. The effects of this safe, inexpensive procedure can be felt within 15 minutes. The major drawback of oxygen is the need to carry an oxygen cylinder and regulator with you, which can make the treatment inconvenient and inaccessible at times. Small, portable units are available, but some people still find them impractical. Be careful not to smoke or be near an open flame if you&apos;re using oxygen, due to the risk of explosion.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Triptans.&lt;/strong&gt; The injectable form of sumatriptan (Imitrex), which is commonly used to treat migraine, is also an effective acute treatment for cluster headache. The first use is often done while under medical observation. Some people may benefit from using sumatriptan in nasal spray form, but for most people this isn&apos;t as effective as an injection. Sumatriptan isn&apos;t recommended if you have uncontrolled high blood pressure or ischemic heart disease. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Another triptan medication, zolmitriptan (Zomig), can be taken in nasal spray or tablet form for relief of cluster headache. This medication may be an option if you can&apos;t tolerate other forms of fast-acting treatments. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Octreotide (Sandostatin, &lt;/strong&gt;&lt;strong&gt;Octreotide Acetate).&lt;/strong&gt; This drug, an injectable synthetic version of the brain hormone somatostatin, is an effective treatment for cluster headache and is safe if you have high blood pressure and ischemic heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Local anesthetics.&lt;/strong&gt; The numbing effect of local anesthetics, such as lidocaine (Xylocaine), may be effective against cluster headache pain when used intranasally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dihydroergotamine.&lt;/strong&gt; This medication derivative is available in intravenous, injectable and inhaler forms. Dihydroergotamine (D.H.E. 45, Migranal) is an effective pain reliever for some people with cluster headache. When administered intravenously, you&apos;ll need to go to a hospital or doctor&apos;s office to have an intravenous (IV) line placed in a vein. The inhaler form of the drug works more slowly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive treatments&lt;br /&gt;
+&lt;/strong&gt;Preventive therapy starts at the onset of the cluster episode with the goal of suppressing attacks. Determining which medicine to use often depends on the length and regularity of your episodes. Under the guidance of your doctor, the drugs can be tapered off once the expected length of the cluster episode ends. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers.&lt;/strong&gt; The calcium channel blocking agent verapamil (Calan, Verelan, others) is often the first choice for preventing cluster headache. Verapamil is often used in conjunction with other medications. Occasionally, longer term use is needed to manage chronic cluster headache. Constipation is a common side effect of this medication, as well as dizziness, nausea, fatigue, swelling of the ankles and low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Inflammation-suppressing drugs called corticosteroids, such as prednisone, are fast-acting preventive medications. They belong to a general family of medicines called steroids. Your doctor may prescribe corticosteroids if your cluster headache condition has only recently started or if you have a pattern of brief cluster periods and long remissions. Although corticosteroids are an excellent short-term option, serious side effects make them inappropriate for long-term use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lithium carbonate.&lt;/strong&gt; Lithium (Lithobid), which is used to treat bipolar disorder, is also effective in preventing chronic cluster headache. Side effects include tremor, increased urination and diarrhea. Your doctor can adjust the dosage to minimize side effects. While you&apos;re taking this medication, your blood will be drawn at regular intervals to check for the development of more-serious side effects, such as kidney damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve block.&lt;/strong&gt; Injecting a numbing agent (anesthetic) and corticosteroid into the area around the occipital nerve, located at the back of your head, can prevent pain messages from traveling along that nerve pathway. The occipital nerve converges with the trigeminal nerve, which connects to all the pain-sensitive structures in your skull. An occipital nerve block can be useful for temporary relief until long-term preventive medications take effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ergots.&lt;/strong&gt; Ergotamine (Ergomar), available as a tablet that you place under your tongue, can be taken before bed to prevent nighttime attacks. Self-injected dihydroergotamine also may be helpful. Ergot medications are effective, but can&apos;t be combined with triptans and can only be used for brief periods of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Melatonin.&lt;/strong&gt; Studies show that 10 milligrams of melatonin taken in the evening might reduce the frequency of cluster headache.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other preventive medications used for cluster headache include anti-seizure medications such as divalproex (Depakote) and topiramate (Topamax). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Rarely, surgery is recommended for people with chronic cluster headache who don&apos;t respond well to aggressive treatment or who can&apos;t tolerate the medications or their side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgical procedures for cluster headache attempt to damage the nerve pathways thought to be responsible for pain, most commonly the trigeminal nerve that serves the area behind and around your eye. The long-term benefits of surgery are disputed, however, and because of the possible complications &amp;mdash; including muscle weakness in your jaw or sensory loss in certain areas of your face and head &amp;mdash; it&apos;s rarely considered. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Newer treatments&lt;br /&gt;
+&lt;/strong&gt;As scientists learn more about the causes of cluster headache, they&apos;re able to develop more-selective treatments for the condition. One treatment in development is the use of a device to stimulate the occipital nerve, which influences the trigeminal nerve. To treat people with frequent cluster headaches, researchers are testing a stimulator &amp;mdash; a pacemaker-sized device that sends impulses via electrodes &amp;mdash; that is implanted over the occipital nerve. Several small studies of implanted occipital nerve stimulators found that the devices reduced chronic headache pain in some people, and the devices were well tolerated and appeared to be very safe. 
+&lt;/p&gt;
+&lt;p&gt;
+Similar research is under way using an implanted stimulator in the hypothalamus, the area of the brain associated with the timing of cluster periods. Deep brain stimulation of the hypothalamus may provide relief for people with severe, chronic cluster headaches. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you avoid a cluster attack during a cluster cycle: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to a regular sleep schedule.&lt;/strong&gt; Cluster periods may begin when there are changes in your normal sleep schedule. During a cluster period, follow your usual sleep routine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol.&lt;/strong&gt; Alcohol consumption, including beer and wine, almost always triggers a headache during a cluster period. This can happen quickly, even before you finish your first drink.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because cluster headaches can be so painful, you may be tempted to try alternative or complementary therapies to relieve your pain. A recent survey of people with cluster headache who tried a number of alternative therapies &amp;mdash; including acupuncture, acupressure, therapeutic touch, chiropractic and homeopathy &amp;mdash; found that fewer than 10 percent found these therapies effective. 
+&lt;/p&gt;
+&lt;p&gt;
+Some natural medicines may be worth a try, however. In one study, kudzu extract was shown to alleviate the intensity, frequency and duration of cluster headache attacks, though it didn&apos;t decrease the length of the cluster cycle. Melatonin also has shown modest effectiveness in treating nighttime attacks. Capsicum, also known as capsaicin or cayenne, may decrease the frequency and severity of cluster headache attacks when used as a nasal spray on the affected side of your head.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with cluster headache can be very difficult. Cluster headaches can be frightening to you and to your family and friends. The debilitating attacks may seem unbearable. In addition to the physical symptoms, the chronic pain that often accompanies cluster headache attacks can make you anxious or depressed. Ultimately, it may affect your interaction with friends and family, your productivity at work, and the overall quality of your life. 
+&lt;/p&gt;
+&lt;p&gt;
+Talking to a counselor or therapist can help you cope with the effects of cluster headache. Or you may find encouragement and understanding in a headache support group. Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about the latest treatments and tend to share their own experiences. If you&apos;re interested, your doctor may be able to recommend a group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the cause of cluster headache is unknown, you can&apos;t prevent a first occurrence. However, a preventive strategy is crucial for managing cluster headache because trying to treat it with only acute drugs can seem hopeless. Prevention can help reduce the frequency and severity of the attacks and the risk of rebound headaches. Preventive medications can also increase the effectiveness of acute medications. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, you may help reduce your risk of future attacks by avoiding alcohol and nicotine, which often precipitate cluster headaches.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cluster headache
+	</Title>
+	<Abstract>
+		Cluster headache &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and prevention of this painful condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00992" LinkType="Internal" ObjectID="D59A1474-8624-4FC8-AEAE2B7E08B0C426" Title="Nighttime headaches: How can I get relief?" Url="http://www.mayoclinic.com/health/nighttime-headaches/AN00992" />
+		<LinkItem ContentType="Article" DocID="HE00001" LinkType="Internal" ObjectID="B7F3D80F-2A5D-9994-E41B4454CDCB7538" Title="Headaches: Treatment depends on your diagnosis and symptoms" Url="http://www.mayoclinic.com/health/headaches/HE00001" />
+		<LinkItem ContentType="Article" DocID="HE00014" LinkType="Internal" ObjectID="AC45C6D0-E7FF-0DBD-127EEAB2533C6CD4" Title="Common headache types" Url="http://www.mayoclinic.com/health/headache-types/HE00014" />
+		<LinkItem ContentType="Article" DocID="HE00003" LinkType="Internal" ObjectID="99F213B1-2A5D-9994-E6CE49D8A51AD634" Title="Headaches and hormones: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/headaches/HE00003" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01107" LinkType="Internal" ObjectID="8DA2A369-EC32-C687-93EBBF23812A26E0" Title="Chiropractic adjustment" Url="http://www.mayoclinic.com/health/chiropractic-adjustment/MY01107" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00184" LinkType="Internal" ObjectID="47064595-E7FF-0DBD-1AD6370F34F0FBB9" Title="Deep brain stimulation" Url="http://www.mayoclinic.com/health/deep-brain-stimulation/MY00184" />
+		<LinkItem ContentType="Disease" DocID="DS00646" LinkType="Internal" ObjectID="7A01EDDE-2A5D-9994-E9E00B18E0180C82" Title="Chronic daily headaches" Url="http://www.mayoclinic.com/health/chronic-daily-headaches/DS00646" />
+	</RelatedLinksBox>
+</Disease>

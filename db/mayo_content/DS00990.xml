@@ -1,0 +1,257 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00990
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peritonitis/DS00990
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="3250" Title="Peritonitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			34787534-E7FF-0DBD-1E7E7DD0709C580A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peritonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				peritoneal dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				peritoneum
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peritonitis is a bacterial or fungal infection of the peritoneum, a silk-like membrane that lines your inner abdominal wall and covers the organs within your abdomen. Peritonitis can result from any rupture (perforation) in your abdomen, or as a complication of other medical conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Peritonitis requires prompt medical attention to fight the infection and, if necessary, to treat any underlying medical conditions. Treatment of peritonitis usually involves antibiotics and, in some cases, surgery. Left untreated, peritonitis can lead to severe, potentially life-threatening infection throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re receiving peritoneal dialysis, you can help prevent peritonitis by following good hygiene before, during and after dialysis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of peritonitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain or tenderness&lt;/li&gt;
+	&lt;li&gt;Bloating or a feeling of fullness (distention) in your abdomen&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Low urine output&lt;/li&gt;
+	&lt;li&gt;Thirst&lt;/li&gt;
+	&lt;li&gt;Inability to pass stool or gas&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re receiving peritoneal dialysis, peritonitis symptoms also include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cloudy dialysis fluid&lt;/li&gt;
+	&lt;li&gt;White flecks, strands or clumps (fibrin) in the dialysis fluid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Peritonitis can be life-threatening if it&apos;s not treated promptly. Contact your doctor immediately if you have severe pain or tenderness of your abdomen, abdominal bloating, or a feeling of fullness associated with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Low urine output&lt;/li&gt;
+	&lt;li&gt;Thirst&lt;/li&gt;
+	&lt;li&gt;Inability to pass stool or gas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re receiving peritoneal dialysis, contact your health care provider immediately if your dialysis fluid is cloudy, if it contains white flecks, strands or clumps (fibrin), or if it has an unusual odor, especially if the area around your tube (catheter) is red or painful. These may be signs of peritonitis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infection of the peritoneum can happen for a variety of reasons. In most cases, the cause is a rupture (perforation) in the abdominal wall. Though it&apos;s rare, the condition can develop without an abdominal rupture. This type of peritonitis is called spontaneous peritonitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of ruptures that lead to peritonitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical procedures, such as peritoneal dialysis.&lt;/strong&gt; Peritoneal dialysis uses tubes (catheters) to remove waste products from your blood when your kidneys can no longer adequately do so. An infection may occur during peritoneal dialysis due to unclean surroundings, poor hygiene or contaminated equipment. Peritonitis also may develop as a complication of gastrointestinal surgery, the use of feeding tubes or a procedure to withdraw fluid out of your abdomen (paracentesis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A ruptured appendix, stomach ulcer or perforated colon.&lt;/strong&gt; Any of these conditions can allow bacteria to get into the peritoneum through a hole in your gastrointestinal tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreatitis.&lt;/strong&gt; Inflammation of your pancreas (pancreatitis) complicated by infection may lead to peritonitis if the bacteria spread outside the pancreas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diverticulitis.&lt;/strong&gt; Infection of small, bulging pouches in your digestive tract (diverticulitis) may cause peritonitis if one of the pouches ruptures, spilling intestinal waste into your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; Injury or trauma may cause peritonitis by allowing bacteria or chemicals from other parts of your body to enter the peritoneum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Peritonitis that develops without an abdominal rupture (spontaneous peritonitis) is usually a complication of liver disease, such as cirrhosis. Advanced cirrhosis causes a large amount of fluid buildup in your abdominal cavity (ascites). That fluid buildup is susceptible to bacterial infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of peritonitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Peritoneal dialysis.&lt;/strong&gt; Peritonitis is common among people undergoing peritoneal dialysis therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medical conditions.&lt;/strong&gt; The following medical conditions increase your risk of developing peritonitis: cirrhosis, appendicitis, Crohn&apos;s disease, stomach ulcers, diverticulitis and pancreatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of peritonitis.&lt;/strong&gt; Once you&apos;ve had peritonitis, your risk of developing it again is higher than it is for someone who has never had peritonitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, peritonitis can extend beyond your peritoneum, where it may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A bloodstream infection (bacteremia).&lt;/li&gt;
+	&lt;li&gt;An infection throughout your body (sepsis). Sepsis is a rapidly progressing, life-threatening condition that can cause shock and organ failure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose peritonitis, your doctor will talk with you about your medical history and perform a physical exam. When peritonitis is associated with peritoneal dialysis, your signs and symptoms, particularly cloudy dialysis fluid, may be enough for your doctor to diagnose the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+In cases of peritonitis in which the infection may be a result of other medical conditions (secondary peritonitis) or in which the infection arises from fluid buildup in your abdominal cavity (spontaneous peritonitis), your doctor may recommend the following tests to confirm a diagnosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Peritoneal fluid analysis.&lt;/strong&gt; Using a thin needle, your doctor may take a sample of the fluid in your peritoneum (paracentesis). If you have peritonitis, examination of this fluid may show an increased white blood cell count, which typically indicates an infection or inflammation. A culture of the fluid may also reveal the presence of bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A sample of your blood may be drawn and sent to a lab to check for a high white blood cell count. A blood culture also may be performed to determine if there are bacteria in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may want to use an X-ray to check for holes or other perforations in your gastrointestinal tract. Ultrasound may also be used. In some cases, your doctor may use a computerized tomography (CT) scan instead of an X-ray.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The above tests may also be necessary if you&apos;re receiving peritoneal dialysis and a diagnosis of peritonitis is uncertain after a physical exam and an examination of the dialysis fluid. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may need to be hospitalized for peritonitis that&apos;s caused by infection from other medical conditions (secondary peritonitis). Treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; You&apos;ll likely be given a course of antibiotic medication to fight the infection and prevent it from spreading. The type and duration of your antibiotic therapy depend on the severity of your condition and the kind of peritonitis you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Surgical treatment is often necessary to remove infected tissue, treat the underlying cause of the infection and prevent the infection from spreading.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other treatments.&lt;/strong&gt; Depending on your signs and symptoms, your treatment while in the hospital may include pain medications, intravenous (IV) fluids, supplemental oxygen and, in some cases, a blood transfusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;If you&apos;re undergoing peritoneal dialysis&lt;/strong&gt; &lt;br /&gt;
+If you have peritonitis, your doctor may recommend that you receive dialysis in another way for several days while your body heals from the infection. If peritonitis persists or recurs, you may need to stop having peritoneal dialysis entirely and switch to a different form of dialysis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, peritonitis associated with peritoneal dialysis is caused by germs around the catheter. If you&apos;re receiving peritoneal dialysis, take the following steps to prevent peritonitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash your hands, including underneath your fingernails and between your fingers, before touching the catheter.&lt;/li&gt;
+	&lt;li&gt;Clean the skin around the catheter with an antiseptic every day.&lt;/li&gt;
+	&lt;li&gt;Store your supplies in a sanitary area.&lt;/li&gt;
+	&lt;li&gt;Talk with your dialysis care team about proper care for your peritoneal dialysis catheter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve had spontaneous peritonitis before, or if you have peritoneal fluid buildup due to a medical condition such as cirrhosis, your doctor may prescribe antibiotics to prevent peritonitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you develop new abdominal pain or have a new injury&lt;/strong&gt; &lt;br /&gt;
+Peritonitis may result from a burst appendix or trauma-related abdominal injury. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seek immediate medical attention&lt;/strong&gt; if you develop abdominal pain so severe that you&apos;re unable to sit still or find a comfortable position.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Call 911 or emergency medical assistance&lt;/strong&gt; if you have severe abdominal pain following an accident or injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peritonitis
+	</Title>
+	<Abstract>
+		Peritonitis &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of this abdominal infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+		<LinkItem ContentType="Disease" DocID="DS00070" LinkType="Internal" ObjectID="82C205AC-1DE9-41F7-AE8F092447A0648A" Title="Diverticulitis" Url="http://www.mayoclinic.com/health/diverticulitis/DS00070" />
+	</RelatedLinksBox>
+</Disease>

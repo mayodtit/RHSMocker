@@ -1,0 +1,483 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00412
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pulmonary-edema/DS00412
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-29
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1476" Title="Heart failure">
+						<Keyword MCVID="1478" Title="Pulmonary edema" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			84ACE1DA-C6AC-4399-B2A74420ECDB231A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pulmonary edema
+			</MetaKeyword>
+			<MetaKeyword>
+				edema
+			</MetaKeyword>
+			<MetaKeyword>
+				HAPE
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac pulmonary edema
+			</MetaKeyword>
+			<MetaKeyword>
+				noncardiac pulmonary edema
+			</MetaKeyword>
+			<MetaKeyword>
+				acute respiratory distress syndrome (ARDS)
+			</MetaKeyword>
+			<MetaKeyword>
+				acute respiratory distress syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				ARDS
+			</MetaKeyword>
+			<MetaKeyword>
+				congestive heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				fluid in lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				adema
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary edema is a condition caused by excess fluid in the lungs. This fluid collects in the numerous air sacs in the lungs, making it difficult to breathe. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, heart problems cause pulmonary edema. But fluid can accumulate for other reasons, including pneumonia, exposure to certain toxins and medications, and exercising or living at high elevations. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary edema that develops suddenly (acute) is a medical emergency requiring immediate care. Although pulmonary edema can sometimes prove fatal, the outlook improves when you receive prompt treatment for pulmonary edema along with treatment for the underlying problem. Treatment for pulmonary edema varies depending on the cause, but generally includes supplemental oxygen and medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="60" Title="Airways and air sacs of the lungs" URI="/images/image_popup/thumbs/r7_bronchiolesasbestosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="300" Title="Airways and air sacs of the lungs" URI="/images/image_popup/r7_bronchiolesasbestosis.jpg" Width="400" />
+				<HTML>
+					Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the cause, pulmonary edema symptoms may appear suddenly or develop slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sudden (acute) pulmonary edema symptoms&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme shortness of breath or difficulty breathing (dyspnea) that worsens when lying down&lt;/li&gt;
+	&lt;li&gt;A feeling of suffocating or drowning&lt;/li&gt;
+	&lt;li&gt;Wheezing or gasping for breath&lt;/li&gt;
+	&lt;li&gt;Anxiety, restlessness or a sense of apprehension&lt;/li&gt;
+	&lt;li&gt;A cough that produces frothy sputum that may be tinged with blood&lt;/li&gt;
+	&lt;li&gt;Excessive sweating&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Chest pain, if pulmonary edema is caused by heart disease&lt;/li&gt;
+	&lt;li&gt;A rapid, irregular heartbeat (palpitations)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you develop any of these signs or symptoms, call 911 or emergency medical assistance right away. Pulmonary edema can be fatal if not treated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term (chronic) pulmonary edema symptoms&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having more shortness of breath than normal when you&apos;re physically active.&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing with exertion, often when you&apos;re lying flat as opposed to sitting up.&lt;/li&gt;
+	&lt;li&gt;Wheezing.&lt;/li&gt;
+	&lt;li&gt;Awakening at night with a breathless feeling that may be relieved by sitting up.&lt;/li&gt;
+	&lt;li&gt;Rapid weight gain when pulmonary edema develops as a result of congestive heart failure, a condition in which your heart pumps too little blood to meet your body&apos;s needs. The weight gain is from buildup of fluid in your body, especially in your legs.&lt;/li&gt;
+	&lt;li&gt;Swelling in your legs and ankles.&lt;/li&gt;
+	&lt;li&gt;Loss of appetite.&lt;/li&gt;
+	&lt;li&gt;Fatigue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;High-altitude pulmonary edema symptoms&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Fluid retention&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Pulmonary edema that comes on suddenly (acute) is life-threatening. Get emergency assistance if you have any of the following acute signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Trouble breathing or a feeling of suffocating (dyspnea)&lt;/li&gt;
+	&lt;li&gt;A bubbly, wheezing or gasping sound when you breathe&lt;/li&gt;
+	&lt;li&gt;Pink, frothy sputum when you cough&lt;/li&gt;
+	&lt;li&gt;Breathing difficulty along with profuse sweating&lt;/li&gt;
+	&lt;li&gt;A blue or gray tone to your skin&lt;/li&gt;
+	&lt;li&gt;A severe drop in blood pressure resulting in lightheadedness, dizziness, weakness or sweating&lt;/li&gt;
+	&lt;li&gt;A sudden worsening of any of the symptoms associated with chronic pulmonary edema or high-altitude pulmonary edema&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t attempt to drive yourself to the hospital. Instead, call 911 or emergency medical care and wait for help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your lungs contain numerous small, elastic air sacs called alveoli. With each breath, these air sacs take in oxygen and release carbon dioxide. Normally, the exchange of gases takes place without problems. 
+&lt;/p&gt;
+&lt;p&gt;
+But in certain circumstances, the alveoli fill with fluid instead of air, preventing oxygen from being absorbed into your bloodstream. A number of things can cause fluid to accumulate in your lungs, but most have to do with your heart (cardiac pulmonary edema). Understanding the relationship between your heart and lungs can help explain why. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How your heart works&lt;/strong&gt;&lt;br /&gt;
+Your heart is composed of two upper and two lower chambers. The upper chambers (the right and left atria) receive incoming blood and pump it into the lower chambers. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves &amp;mdash; which keep blood flowing in the correct direction &amp;mdash; are gates at the chamber openings. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, deoxygenated blood from all over your body enters the right atrium and flows into the right ventricle, where it&apos;s pumped through large blood vessels (pulmonary arteries) to your lungs. There, the blood releases carbon dioxide and picks up oxygen. The oxygen-rich blood then returns to the left atrium through the pulmonary veins, flows through the mitral valve into the left ventricle, and finally leaves your heart through another large artery, the aorta. The aortic valve at the base of the aorta keeps the blood from flowing backward into your heart. From the aorta, the blood travels to the rest of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart-related (cardiac) pulmonary edema&lt;/strong&gt;&lt;br /&gt;
+Cardiac pulmonary edema &amp;mdash; also known as congestive heart failure &amp;mdash; occurs when the diseased or overworked left ventricle isn&apos;t able to pump out enough of the blood it receives from your lungs. As a result, pressure increases inside the left atrium and then in the veins and capillaries in your lungs, causing fluid to be pushed through the capillary walls into the air sacs. 
+&lt;/p&gt;
+&lt;p&gt;
+Congestive heart failure can also occur when the right ventricle is unable to overcome increased pressure in the pulmonary artery, which usually results from left heart failure, chronic lung disease or high blood pressure in the pulmonary artery (pulmonary hypertension). 
+&lt;/p&gt;
+&lt;p&gt;
+Medical conditions that can cause the left ventricle to become weak and eventually fail include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Coronary artery disease.&lt;/strong&gt; Over time, the arteries that supply blood to your heart can become narrow from fatty deposits (plaques). A heart attack occurs when a blood clot forms in one of these narrowed arteries, blocking blood flow and damaging the portion of your heart muscle supplied by that artery. The result is that the damaged heart muscle can no longer pump as well as it should.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although the rest of your heart tries to compensate for this loss, either it&apos;s unable to do so effectively or it&apos;s weakened by the extra workload. When the pumping action of your heart is weakened, blood backs up into your lungs, forcing fluid in your blood to pass through the capillary walls into the air sacs. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiomyopathy.&lt;/strong&gt; When your heart muscle is damaged by causes other than blood flow problems, the condition is called cardiomyopathy. Because cardiomyopathy weakens the left ventricle &amp;mdash; your heart&apos;s main pump &amp;mdash; your heart may not be able to respond to conditions that require it to work harder, such as a surge in blood pressure, a faster heartbeat with exertion, or using too much salt that causes water retention or infections. When the left ventricle can&apos;t keep up with the demands placed on it, fluid backs up into your lungs.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Heart valve problems.&lt;/strong&gt; In mitral valve disease or aortic valve disease, the valves that regulate blood flow in the left side of your heart either don&apos;t open wide enough (stenosis) or don&apos;t close completely (insufficiency). This allows blood to flow backward through the valve. When the valves are narrowed, blood can&apos;t flow freely into your heart and pressure in the left ventricle builds up, causing the left ventricle to work harder and harder with each contraction. The left ventricle also dilates to allow more blood flow, but this makes the left ventricle&apos;s pumping action less efficient. Because it&apos;s working so much harder, the left ventricle eventually thickens, which puts greater stress on the coronary arteries, further weakening the left ventricular muscle.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The increased pressure extends into the left atrium and then to the pulmonary veins, causing fluid to accumulate in your lungs. On the other hand, if the mitral valve leaks, some blood is backwashed toward your lung each time your heart pumps. If the leakage develops suddenly, you may develop sudden and severe pulmonary edema. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure (hypertension).&lt;/strong&gt; Untreated or uncontrolled high blood pressure causes a thickening of the left ventricular muscle, and worsening of coronary artery disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Noncardiac pulmonary edema&lt;/strong&gt;&lt;br /&gt;
+Not all pulmonary edema is the result of heart disease. Fluid may also leak from the capillaries in your lungs&apos; air sacs because the capillaries themselves become more permeable or leaky, even without the buildup of back pressure from your heart. In that case, the condition is known as noncardiac pulmonary edema because your heart isn&apos;t the cause of the problem. Some factors that can cause noncardiac pulmonary edema are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lung infections.&lt;/strong&gt; When pulmonary edema results from lung infections, such as pneumonia, the edema occurs only in the part of your lung that&apos;s swollen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain toxins.&lt;/strong&gt; These include toxins you inhale &amp;mdash; such as chlorine or ammonia &amp;mdash; as well as those that may circulate within your own body, for example, if you inhale some of your stomach contents when you vomit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney disease.&lt;/strong&gt; When your kidneys can&apos;t remove waste effectively, excess fluid can build up, causing overload pulmonary edema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoke inhalation.&lt;/strong&gt; Smoke from a fire contains chemicals that damage the membrane between the air sacs and the capillaries, allowing fluid to enter your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adverse drug reaction.&lt;/strong&gt; Many drugs &amp;mdash; ranging from illegal drugs such as heroin and cocaine to aspirin and chemotherapy drugs &amp;mdash; are known to cause noncardiac pulmonary edema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute respiratory distress syndrome (ARDS).&lt;/strong&gt; This serious disorder occurs when your lungs suddenly fill with fluid and inflammatory white blood cells. Many conditions can cause ARDS, including severe injuries (trauma), systemic infection (sepsis), pneumonia and shock.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;High altitudes.&lt;/strong&gt; Mountain climbers and people who live in or travel to high-altitude locations run the risk of developing high-altitude pulmonary edema (HAPE). This condition &amp;mdash; which typically occurs at elevations above 8,000 feet (about 2,400 meters) &amp;mdash; can also affect hikers or skiers who start exercising at higher altitudes without first becoming acclimated. But even people who have hiked or skied at high altitudes in the past aren&apos;t immune. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although the exact cause isn&apos;t completely understood, HAPE seems to develop as a result of increased pressure from constriction of the pulmonary capillaries. Without appropriate care, HAPE can be fatal. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Near drowning.&lt;/strong&gt; Inhaling water causes noncardiac pulmonary edema that is reversible with immediate attention.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="60" Title="Airways and air sacs of the lungs" URI="/images/image_popup/thumbs/r7_bronchiolesasbestosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="300" Title="Airways and air sacs of the lungs" URI="/images/image_popup/r7_bronchiolesasbestosis.jpg" Width="400" />
+				<HTML>
+					Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If pulmonary edema continues, it can raise pressure in the pulmonary artery and eventually the right ventricle begins to fail. The right ventricle has a much thinner wall of muscle than does the left side because it is under less pressure to pump blood into the lungs. The increased pressure backs up into the right atrium and then into various parts of your body, where it can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Leg swelling (edema)&lt;/li&gt;
+	&lt;li&gt;Abdominal swelling (ascites)&lt;/li&gt;
+	&lt;li&gt;Buildup of fluid in the membranes that surround your lungs (pleural effusion)&lt;/li&gt;
+	&lt;li&gt;Congestion and swelling of the liver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When not treated, acute pulmonary edema can be fatal. In some instances it may be fatal even if you receive treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor, or in the case of acute pulmonary edema, an emergency room physician. Most people with pulmonary edema will be hospitalized for at least a few days, often longer. You may see several specialists while you are in the hospital. After your condition has been stabilized, you may then be referred as an outpatient to a doctor who specializes in disorders of the heart (cardiologist) or in treating lung disorders (pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obtain copies of medical records, whenever possible.&lt;/strong&gt; Discharge summaries from the hospital, results from heart tests, as well as summary letters from any previous specialists you&apos;ve seen can be helpful for your new doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep written track of your weight,&lt;/strong&gt; and take that record with you so that your doctor can look for any trends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of the salty foods you eat regularly.&lt;/strong&gt; Mention if you have eaten more of these recently.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend along&lt;/strong&gt;, if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For pulmonary edema, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of the symptoms I&apos;m currently experiencing?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What do my chest X-ray and electrocardiogram show?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous?&lt;/li&gt;
+	&lt;li&gt;Have you eaten more salty foods lately?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Have your symptoms affected your work or daily activities?&lt;/li&gt;
+	&lt;li&gt;Do you have any symptoms of obstructive sleep apnea?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with obstructive sleep apnea? If so, what are you doing for it?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of lung or heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because pulmonary edema requires prompt treatment, you&apos;ll initially be diagnosed on the basis of your symptoms and a physical exam and chest X-ray. You may also have blood drawn &amp;mdash; usually from an artery in your wrist &amp;mdash; so that it can be checked for the amount of oxygen and carbon dioxide it contains (arterial blood gas concentrations). Your blood will also be checked for levels of a substance called B-type natriuretic peptide (BNP). Increased levels of BNP may indicate that your pulmonary edema is caused by heart problems. Other blood tests will usually be done, including tests of your kidney function, blood count, as well as tests to exclude a heart attack as the cause of your pulmonary edema. 
+&lt;/p&gt;
+&lt;p&gt;
+Once your condition is more stable, your doctor will ask about your medical history, especially whether you have ever had cardiovascular or lung disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests that may be done to diagnose pulmonary edema or to determine why you developed fluid in your lungs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; A chest X-ray will likely be the first test you have done to confirm the diagnosis of pulmonary edema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiography (ECG).&lt;/strong&gt; This noninvasive test can reveal a wide range of information about your heart. During an ECG, patches attached to your skin receive electrical impulses from your heart. These are recorded in the form of waves on graph paper or a monitor. The wave patterns show your heart rate and rhythm, and whether areas of your heart show diminished blood flow.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Echocardiography (diagnostic cardiac ultrasound exam).&lt;/strong&gt; Another noninvasive test, echocardiography uses a wand-shaped device called a transducer to generate high-frequency sound waves that are reflected from the tissues of your heart. The sound waves are then sent to a machine that uses them to compose images of your heart on a monitor. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The test can help diagnose a number of heart problems, including valve problems, abnormal motions of the ventricular walls, fluid around the heart (pericardial effusion) and congenital heart defects. It also accurately measures the amount of blood your left ventricle ejects with each heartbeat (ejection fraction, or EF). It can also estimate if there&apos;s increased pressure in the right side of the heart. Although a low EF often indicates a cardiac cause for pulmonary edema, it&apos;s possible to have cardiac pulmonary edema with a normal EF. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transesophageal echocardiography (TEE).&lt;/strong&gt; In a traditional cardiac ultrasound exam, the transducer remains outside your body on the chest wall. But in TEE, a soft, flexible tube with a special transducer tip is inserted through your mouth and into your esophagus &amp;mdash; the passage leading to your stomach. The esophagus lies immediately behind your heart, which allows for a closer and more accurate picture of your heart and central pulmonary arteries. You&apos;ll be given a sedative to make you more comfortable and prevent gagging. You may have a sore throat for a few days after the procedure, and there&apos;s a slight risk of perforation or bleeding from the esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary artery catheterization.&lt;/strong&gt; If other tests don&apos;t reveal the reason for your pulmonary edema, your doctor may suggest a procedure to measure the pressure in your lung capillaries (wedge pressure). During this test, a small, balloon-tipped catheter is inserted through a vein in your leg or arm into a pulmonary artery. The catheter has two openings connected to pressure transducers. The balloon is inflated and then deflated, giving pressure readings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; If tests such as an ECG or echocardiography don&apos;t uncover the cause of your pulmonary edema, or you also have chest pain, your doctor may suggest heart catheterization with coronary angiogram. During cardiac catheterization, a long, thin tube called a catheter is inserted in an artery or vein in your groin, neck or arm and threaded through your blood vessels to your heart. If dye is injected during the test, it&apos;s referred to as a coronary angiogram. During this procedure, treatments such as opening a blocked artery can be performed, which may quickly improve the pumping action of your left ventricle. Cardiac catheterization can also be used to measure the pressure in your heart chambers, assess your heart valves, and look for causes of pulmonary edema.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Giving oxygen is the first step in the treatment for pulmonary edema. You usually receive oxygen through a face mask or nasal cannula &amp;mdash; a flexible plastic tube with two openings that deliver oxygen to each nostril. This should ease some of your symptoms. Sometimes it may be necessary to assist your breathing with a machine. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your condition and the reason for your pulmonary edema, you may also receive one or more of the following medications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preload reducers.&lt;/strong&gt; Preload reducing medications decrease the pressure caused by fluid going into your heart and lungs. Doctors commonly use nitroglycerin and diuretics, such as furosemide (Lasix), to treat pulmonary edema. Diuretics may make you urinate so much initially that you may temporarily need a urinary catheter while you&apos;re in the hospital.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Morphine (Astramorph).&lt;/strong&gt; This narcotic may be used to relieve shortness of breath and anxiety. But some doctors believe that the risks of morphine may outweigh the benefits and are more apt to use other, more effective drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Afterload reducers.&lt;/strong&gt; These drugs dilate your blood vessels and take a pressure load off your heart&apos;s left ventricle. Some examples of afterload reducer medications include nitroprusside (Nitropress), enalapril (Vasotec) and captopril (Capoten).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure medications.&lt;/strong&gt; If you have high blood pressure when you develop pulmonary edema, you&apos;ll be given medications to control it. On the other hand, if your blood pressure is too low, you&apos;re likely to be given drugs to raise it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating high-altitude pulmonary edema (HAPE)&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re climbing or traveling at high altitudes and experience mild symptoms of HAPE, descending a few thousand feet (about 600 to 900 meters) as quickly as you can, within reason, should relieve your symptoms. Oxygen also is helpful. When symptoms are more severe, you&apos;ll likely need help in your descent. A helicopter rescue may be necessary for the most serious cases, because HAPE can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Some climbers take the prescription medication acetazolamide (Diamox) to help treat or prevent symptoms of HAPE. To prevent HAPE, acetazolamide is started as long as three days before ascent. Acetazolamide can occasionally have side effects &amp;mdash; including tingling or burning in the hands and feet, confusion, diarrhea, nausea, loss of appetite, and hearing problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following suggestions may speed your recovery from cardiac pulmonary edema and help prevent a recurrence: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weigh yourself daily.&lt;/strong&gt; Do so in the morning before breakfast and keep a record of your daily weight. Call your doctor if you&apos;ve gained 2 to 3 pounds (about 1 to 1.4 kilograms) in a single day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your doctor&apos;s instructions regarding diet.&lt;/strong&gt; Most people with cardiac pulmonary edema will need to follow a low-salt diet. Ask for a referral to a dietitian if you need help evaluating the salt content in foods. If you don&apos;t cook your own meals, have whoever does most of your cooking join you when you visit the dietitian. Most restaurant food is high in salt; learn about this if you eat out. Also aim to reach your ideal weight through diet and exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have high blood pressure, take steps to control it.&lt;/strong&gt; The best way to do this is to check your blood pressure with a home cuff at least once a day. Ask your doctor for guidelines regarding your optimal blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Listen to medical advice.&lt;/strong&gt; Follow your doctor&apos;s advice about controlling any underlying health problems, including advice about diet, weight and exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of sleep each night.&lt;/strong&gt; Take a nap during the day if you feel tired. It may take as long as three to six months before the condition of your lungs returns to normal. If you snore or have other symptoms of possible obstructive sleep apnea, ask for a referral to a sleep center for evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve experienced noncardiac pulmonary edema &amp;mdash; including some forms of ARDS &amp;mdash; take care to minimize any further damage to your lungs, and as much as possible avoid the cause of your condition, such as drugs, allergens or high altitudes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary edema often isn&apos;t preventable, but these measures can help reduce your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing cardiovascular disease&lt;/strong&gt;&lt;br /&gt;
+Cardiovascular disease is the leading cause of pulmonary edema. You can reduce your risk of many kinds of heart problems by following these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Control your blood pressure.&lt;/strong&gt; High blood pressure (hypertension) can lead to serious conditions such as stroke, cardiovascular disease and kidney failure. Most adults should have their blood pressure checked at least once every two years. This is a noninvasive and painless procedure using an inflatable cuff that wraps around your upper arm. The test takes just a few minutes.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A resting blood pressure reading below 120/80 millimeters of mercury (mm Hg) is considered normal. If your resting blood pressure is consistently 140/90 mm Hg or higher, you have high blood pressure. A reading in between these levels places you in the prehypertensive category. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In many cases, you can lower your blood pressure or maintain a healthy level by getting regular exercise, reaching your ideal weight, eating a diet rich in fresh fruits, vegetables and low-fat dairy products, and limiting salt and alcohol. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch your blood cholesterol.&lt;/strong&gt; Cholesterol is one of several types of fats essential to good health. But too much cholesterol can be too much of a good thing. Higher than normal cholesterol levels can cause fatty deposits to form in your arteries, impeding blood flow and increasing your risk of vascular disease. But lifestyle changes can often keep your cholesterol levels low. This includes limiting fats &amp;mdash; especially saturated fats &amp;mdash; eating more fiber, fish, and fresh fruits and vegetables, exercising regularly, stopping smoking, and drinking in moderation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you smoke, the single most important thing you can do for your heart and lung health is to stop. Continuing to smoke increases your risk of a second heart attack or heart-related death and also increases your risk of lung cancer and other lung problems such as emphysema. What&apos;s more, you&apos;re at risk even if you don&apos;t smoke but live or work with someone who does. Exposure to secondhand smoke is a contributing factor to coronary artery disease. If you can&apos;t stop smoking by yourself, ask your doctor to prescribe a treatment plan to help you quit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a heart-healthy diet.&lt;/strong&gt; Fish is one of the cornerstones of a heart-healthy diet &amp;mdash; it contains omega-3 fatty acids, which help improve blood cholesterol levels and prevent blood clots. It&apos;s also important to eat plenty of fruits and vegetables, which contain antioxidants, vitamins and minerals that help prevent everyday wear and tear on your coronary arteries. Eat less fat, especially animal (saturated) and trans fats (hydrogenated oils).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit salt.&lt;/strong&gt; It&apos;s especially important to use less salt (sodium) if you have heart disease or high blood pressure. In some people with severely damaged left ventricular function, excess salt &amp;mdash; even in a single meal or a bag of chips &amp;mdash; may be enough to trigger congestive heart failure. If you&apos;re having a hard time cutting back on salt, it may help to talk to a dietitian. He or she can help point out low-sodium foods as well as offer tips for making a low-salt diet interesting and good tasting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercise is vital for a healthy heart. Regular aerobic exercise &amp;mdash; about 30 minutes a day &amp;mdash; helps you to control blood pressure and cholesterol levels, and maintain a healthy weight. If you&apos;re not used to exercise, start out slowly and build up gradually. Be sure to get your doctor&apos;s OK before starting an exercise program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being even slightly overweight increases your risk of cardiovascular disease. On the other hand, even losing small amounts of weight can lower your blood pressure, cholesterol and reduce your risk of diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking baby aspirin.&lt;/strong&gt; Talk to your doctor about the pros and cons of taking one baby aspirin (81 milligrams) a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; To reduce your risk of heart problems, try to reduce your stress levels. Rethink workaholic habits and find healthy ways to minimize or deal with stressful events in your life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing HAPE&lt;/strong&gt;&lt;br /&gt;
+If you travel or climb at high altitudes, acclimate yourself slowly. Although recommendations vary, most experts advise ascending no more than 1,000 or 2,000 feet (300 to 600 meters) a day once you reach 8,000 feet (about 2,400 meters). In addition, it&apos;s important to drink plenty of water to stay hydrated. The higher you ascend the more rapidly you breathe, which means you lose larger amounts of water in the air you exhale from your lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+Finally, although being physically fit won&apos;t necessarily prevent HAPE, people in good condition tend to be less stressed at high altitudes. However, just because you have hiked or skied at high altitude before doesn&apos;t protect you from HAPE. Taken 12 to 72 hours before you travel to a high altitude, the medication acetazolamide (Diamox) can help prevent HAPE. Consider continuing the medication for an additional few days if any signs of altitude sickness, especially headache or insomnia, occur. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pulmonary edema
+	</Title>
+	<Abstract>
+		Pulmonary edema &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this potentially life-threatening lung condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00121" LinkType="Internal" ObjectID="13EAAE18-E7DE-4D7B-BF302B6CA56E8A0F" Title="Cardiac asthma: What causes it?" Url="http://www.mayoclinic.com/health/cardiac-asthma/AN00121" />
+		<LinkItem ContentType="SlideShow" DocID="MY01593" LinkType="Internal" ObjectID="5B96B16B-D098-F54B-59BF3E3CCCC550AD" Title="Slide show: Add antioxidants to your diet" Url="http://www.mayoclinic.com/health/antioxidants/MY01593" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+	</RelatedLinksBox>
+</Disease>

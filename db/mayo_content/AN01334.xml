@@ -1,0 +1,161 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01334
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/detox-diets/AN01334
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1238" Title="Healthy diets" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6BA48E39-2A5D-9994-E215B115CDFEF89B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				detox diets
+			</MetaKeyword>
+			<MetaKeyword>
+				detoxification diet
+			</MetaKeyword>
+			<MetaKeyword>
+				liver detox
+			</MetaKeyword>
+			<MetaKeyword>
+				fast
+			</MetaKeyword>
+			<MetaKeyword>
+				fasting
+			</MetaKeyword>
+			<MetaKeyword>
+				juicing
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cleansing
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cleanse
+			</MetaKeyword>
+			<MetaKeyword>
+				liver cleanse
+			</MetaKeyword>
+			<MetaKeyword>
+				liver cleansing
+			</MetaKeyword>
+			<MetaKeyword>
+				colonics
+			</MetaKeyword>
+			<MetaKeyword>
+				enemas
+			</MetaKeyword>
+			<MetaKeyword>
+				cleansing diet
+			</MetaKeyword>
+			<MetaKeyword>
+				fad diet
+			</MetaKeyword>
+			<MetaKeyword>
+				fad diets
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Detox, or detoxification, diets are popular, but they&apos;re not scientifically proven. 
+&lt;/p&gt;
+&lt;p&gt;
+Detox diets are touted as a way to remove toxins from the body. Specific detox diets vary &amp;mdash; but typically a period of fasting is followed by a strict diet of raw vegetables, fruit and fruit juices, and water. In addition, some detox diets advocate using herbs and other supplements along with colon cleansing (enemas) to empty the intestines.
+&lt;/p&gt;
+&lt;p&gt;
+Some people report feeling more focused and energetic during and after detox diets. However, there&apos;s little evidence that detox diets actually remove toxins from the body. Indeed, the kidneys and liver effectively filter and eliminate most ingested toxins. The benefits from a detox diet may actually come from avoiding highly processed foods that have solid fats and added sugar.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re considering a detox diet, get the OK from your doctor first. It&apos;s also important to consider possible side effects. Detox diets that severely limit protein or that require fasting, for example, can result in fatigue. Long-term fasting can result in vitamin and mineral deficiencies. Colon cleansing, which is often recommended as part of a detox plan, can cause cramping, bloating, nausea and vomiting. Dehydration also can be a concern. 
+&lt;/p&gt;
+&lt;p&gt;
+Finally, keep in mind that fad diets aren&apos;t a good long-term solution. For lasting results, your best bet is to eat a healthy diet based on fruits and vegetables, whole grains, and lean sources of protein.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Detox diets: Do they work?
+	</Title>
+	<Abstract>
+		Detox diets are popular, but they&apos;re not scientifically proven &amp;mdash; and may have harmful side effects.
+	</Abstract>
+	<Question>
+		Do detox diets offer any health benefits?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Answer" DocID="HQ00608" LinkType="Internal" ObjectID="3EEB43C6-DB46-4EE4-B847A9005BDE94FB" Title="Eggs: Are they good or bad for my cholesterol?" Url="http://www.mayoclinic.com/health/cholesterol/HQ00608" />
+		<LinkItem ContentType="Answer" DocID="AN00572" LinkType="Internal" ObjectID="2C7914A0-B0BC-494F-99E635E574CA1CCE" Title="Polymyositis: Can a gluten-free diet reduce symptoms?" Url="http://www.mayoclinic.com/health/polymyositis/AN00572" />
+		<LinkItem ContentType="Answer" DocID="AN02036" LinkType="Internal" ObjectID="24EE84F4-9E0B-914A-4BE6023B3D44C191" Title="Alzheimer&apos;s: Can a Mediterranean diet lower my risk?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN02036" />
+		<LinkItem ContentType="Article" DocID="MY01799" LinkType="Internal" ObjectID="7B77527A-AE74-12D2-98426BBDFED7C1B5" Title="Vegetarian recipes" Url="http://www.mayoclinic.com/health/vegetarian-recipes/MY01799" />
+		<LinkItem ContentType="SlideShow" DocID="MY01725" LinkType="Internal" ObjectID="EDC3EC1D-9A14-AB08-31DFB1E3ABE329BB" Title="Slide show: The Mediterranean diet" Url="http://www.mayoclinic.com/health/mediterranean-diet/MY01725" />
+		<LinkItem ContentType="Answer" DocID="AN01255" LinkType="Internal" ObjectID="D534DF53-2A5D-9994-E2AB7FB3A68610CA" Title="Diverticulitis diet: Should I avoid nuts and seeds?" Url="http://www.mayoclinic.com/health/diverticulitis-diet/AN01255" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01211" LinkType="Internal" ObjectID="CE619C35-D037-4016-A9CBEA9A3ECBCEB6" Title="Caffeine content for coffee, tea, soda and more" Url="http://www.mayoclinic.com/health/caffeine/AN01211" />
+		<LinkItem ContentType="Table" DocID="HI00048" LinkType="Internal" ObjectID="BF9EC580-06B1-40EC-B4FD27D51F856FBB" Title="DASH diet: Guide to recommended servings" Url="http://www.mayoclinic.com/health/dash-diet/HI00048" />
+		<LinkItem ContentType="Answer" DocID="AN01281" LinkType="Internal" ObjectID="ACC6EF3E-2A5D-9994-E350AA04E537DA44" Title="Canola oil: Does it contain toxins?" Url="http://www.mayoclinic.com/health/canola-oil/AN01281" />
+		<LinkItem ContentType="Answer" DocID="AN01776" LinkType="Internal" ObjectID="ABC7BDF5-E7FF-0DBD-1A9DDAC093818F51" Title="Water after meals: Does it disturb digestion?" Url="http://www.mayoclinic.com/health/digestion/AN01776" />
+		<LinkItem ContentType="Answer" DocID="AN01934" LinkType="Internal" ObjectID="8BD76D6F-E7FF-0DBD-1509BBC23906119E" Title="Diverticulitis diet: Can certain foods trigger an attack?" Url="http://www.mayoclinic.com/health/diverticulitis-diet/AN01934" />
+		<LinkItem ContentType="Answer" DocID="AN00835" LinkType="Internal" ObjectID="657E562B-7D04-4708-AAA6CAE9EB2CB068" Title="Butter vs. margarine: Which is better for my heart?" Url="http://www.mayoclinic.com/health/butter-vs-margarine/AN00835" />
+		<LinkItem ContentType="Article" DocID="HI00047" LinkType="Internal" ObjectID="FE95D456-5ADE-4E86-8A957584F1FC49A4" Title="DASH diet: Healthy eating to lower your blood pressure" Url="http://www.mayoclinic.com/health/dash-diet/HI00047" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+		<LinkItem ContentType="Article" DocID="CL00011" LinkType="Internal" ObjectID="D2BA64B1-E7FF-0DBD-1B43C225CD3E4657" Title="Mediterranean diet: Choose this heart-healthy diet option" Url="http://www.mayoclinic.com/health/mediterranean-diet/CL00011" />
+		<LinkItem ContentType="Article" DocID="HI00046" LinkType="Internal" ObjectID="AD93AF8B-6E0E-4BD5-87D575C0F1F79DC8" Title="Sample menus for the DASH eating plan" Url="http://www.mayoclinic.com/health/dash-diet/HI00046" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="HQ01596" LinkType="Internal" ObjectID="89AFCCB3-E1F7-4541-9A90745760BAA899" Title="Vegetarian diet: How to get the best nutrition" Url="http://www.mayoclinic.com/health/vegetarian-diet/HQ01596" />
+		<LinkItem ContentType="Article" DocID="HI00020" LinkType="Internal" ObjectID="70354217-6336-473A-9009C1A4226569A2" Title="DASH diet: Top 5 tips for shopping and cooking" Url="http://www.mayoclinic.com/health/dash-diet/HI00020" />
+		<LinkItem ContentType="Article" DocID="HI00021" LinkType="Internal" ObjectID="2CEE92F2-74A2-468C-8DC51ED91D249468" Title="DASH diet: Top 5 tips for dining out" Url="http://www.mayoclinic.com/health/dash-diet/HI00021" />
+	</RelatedLinksBox>
+</Answer>

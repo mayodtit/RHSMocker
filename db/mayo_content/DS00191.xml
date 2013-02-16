@@ -1,0 +1,408 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00191
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/restless-legs-syndrome/DS00191
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-19
+		</UpdateDate>
+		<PublicationDate>
+			2000-02-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="2360" Title="Restless legs syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3E2E9266-6525-4125-923345C17FB0E20F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				restless leg syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				restless legs syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				RLS
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				insomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				sleepiness
+			</MetaKeyword>
+			<MetaKeyword>
+				drowsiness
+			</MetaKeyword>
+			<MetaKeyword>
+				periodic limb movements of sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				PLMS
+			</MetaKeyword>
+			<MetaKeyword>
+				periodic limb movement disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				PLMD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Restless legs syndrome (RLS) is a condition in which your legs feel extremely uncomfortable, typically in the evenings while you&apos;re sitting or lying down. It makes you feel like getting up and moving around. When you do so, the unpleasant feeling of restless legs syndrome temporarily goes away.
+&lt;/p&gt;
+&lt;p&gt;
+Restless legs syndrome can begin at any age and generally worsens as you age. Restless legs syndrome can disrupt sleep &amp;mdash; leading to daytime drowsiness &amp;mdash; and make traveling difficult.
+&lt;/p&gt;
+&lt;p&gt;
+A number of simple self-care steps and lifestyle changes may help you. Medications also help many people with restless legs syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Commonly described sensations&lt;br /&gt;
+&lt;/strong&gt;People typically describe restless legs syndrome symptoms as abnormal, unpleasant sensations in their calves, thighs or feet. Sometimes the sensations may be in the arms, often expressed as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Crawling&lt;/li&gt;
+	&lt;li&gt;Creeping&lt;/li&gt;
+	&lt;li&gt;Pulling&lt;/li&gt;
+	&lt;li&gt;Throbbing&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Tugging&lt;/li&gt;
+	&lt;li&gt;Gnawing&lt;/li&gt;
+	&lt;li&gt;Burning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes the sensations seem to defy description. Affected people usually don&apos;t describe the condition as a muscle cramp or numbness. They do, however, consistently describe the desire to move or handle their legs. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s common for symptoms to fluctuate in severity, and occasionally symptoms disappear for periods of time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Commonly reported patterns&lt;br /&gt;
+&lt;/strong&gt;Common characteristics of RLS signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Onset during inactivity.&lt;/strong&gt; The sensation typically begins after you&apos;ve been lying down or sitting for an extended period of time, such as in a car, airplane or movie theater.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relief by movement.&lt;/strong&gt; The sensation of RLS lessens if you get up and move. People combat the sensation of restless legs in a number of ways &amp;mdash; by stretching, jiggling their legs, pacing the floor, exercising or walking. This compelling desire to move is what gives restless legs syndrome its name.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Worsening of symptoms in the evening.&lt;/strong&gt; Symptoms typically are less bothersome during the day and are felt primarily at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nighttime leg twitching.&lt;/strong&gt; RLS may be associated with another condition called periodic limb movement disorder (PLMD). PLMD causes you to involuntarily flex and extend your legs while sleeping &amp;mdash; without being aware you&apos;re doing it. Hundreds of these twitching or kicking movements may occur throughout the night. If you have severe RLS, these involuntary kicking movements may also occur while you&apos;re awake. PLMS is common in older adults, even without RLS, and doesn&apos;t always disrupt sleep. More than 4 out of 5 people with RLS also experience PLMD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Some people with restless legs syndrome never seek medical attention because they worry that their symptoms are too difficult to describe or won&apos;t be taken seriously. Some doctors wrongly attribute symptoms to nervousness, stress, insomnia or muscle cramps. But RLS has received more media attention and focus from the medical community in recent years, making more people aware of the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think you may have RLS, call your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, no known cause for restless legs syndrome exists. Researchers suspect the condition may be due to an imbalance of the brain chemical dopamine. This chemical sends messages to control muscle movement. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heredity&lt;br /&gt;
+&lt;/strong&gt;RLS runs in families in at least half the people with RLS, especially if the condition started at an early age. Researchers have identified sites on the chromosomes where genes for RLS may be present. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy&lt;br /&gt;
+&lt;/strong&gt;Pregnancy or hormonal changes may temporarily worsen RLS signs and symptoms. Some women experience RLS for the first time during pregnancy, especially during their last trimester. However, for most of these women, signs and symptoms usually disappear quickly after delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Related conditions&lt;br /&gt;
+&lt;/strong&gt;For the most part, restless legs syndrome isn&apos;t related to a serious underlying medical problem. However, RLS sometimes accompanies other conditions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Peripheral neuropathy.&lt;/strong&gt; This damage to the nerves in your hands and feet is sometimes due to chronic diseases such as diabetes and alcoholism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Iron deficiency.&lt;/strong&gt; Even without anemia, iron deficiency can cause or worsen RLS. If you have a history of bleeding from your stomach or bowels, experience heavy menstrual periods, or repeatedly donate blood, you may have iron deficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; If you have kidney failure, you may also have iron deficiency, often with anemia. When kidneys fail to function properly, iron stores in your blood can decrease. This, with other changes in body chemistry, may cause or worsen RLS.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+RLS can develop at any age, even during childhood. Many adults who have RLS can recall being told as a child that they had growing pains or can remember parents rubbing their legs to help them fall asleep. The disorder is more common with increasing age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although RLS doesn&apos;t lead to other serious conditions, symptoms can range from barely bothersome to incapacitating. Many people with RLS find it difficult to get to sleep or stay asleep. Insomnia may lead to excessive daytime drowsiness, but RLS may prevent you from enjoying a daytime nap. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of restless legs syndrome, make an appointment with your doctor. After an initial evaluation, he or she may refer you to a doctor who specializes in conditions affecting the nervous system (neurologist) or a sleep specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, including knowing what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they first started and when they tend to occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions you have and any prescription or over-the-counter medications you&apos;re taking, including vitamins and supplements. Also note whether you or anyone in your family has a history of restless legs syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about restless legs syndrome. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What tests are needed to make a diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment options are available for this condition?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;What self-care steps are likely to improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any educational materials I can take with me or any websites you recommend?&lt;/li&gt;
+	&lt;li&gt;Where can I find a support group for people with restless legs syndrome?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Would you use words like crawling, tingling, cramping, creeping, itching, pulling or tugging to describe your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms tend to occur when you sit or lie down?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse at night?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms cause an irresistible urge to move your legs?&lt;/li&gt;
+	&lt;li&gt;Does movement make you feel better?&lt;/li&gt;
+	&lt;li&gt;Does anything else improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been told that you kick, shake or otherwise move your legs while sleeping?&lt;/li&gt;
+	&lt;li&gt;Do you often have trouble falling asleep or staying asleep?&lt;/li&gt;
+	&lt;li&gt;Are you excessively tired during the day?&lt;/li&gt;
+	&lt;li&gt;How is your sleep loss affecting your performance at school or work? Your personal relationships?&lt;/li&gt;
+	&lt;li&gt;Is anyone else in your family bothered by restless legs?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking, including prescription and over-the-counter drugs?&lt;/li&gt;
+	&lt;li&gt;How much caffeine do you have each day?&lt;/li&gt;
+	&lt;li&gt;What is your typical exercise program?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;In the time leading up to your appointment, doing the following may ease your symptoms. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cut back on or eliminate caffeine, alcohol and tobacco.&lt;/li&gt;
+	&lt;li&gt;Take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin, others).&lt;/li&gt;
+	&lt;li&gt;Massage your legs while soaking in a warm bath.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors diagnose RLS by listening to your description of your symptoms and by interviewing you about your medical history. To be diagnosed with RLS, you must meet four criteria established by the International Restless Legs Syndrome Study Group:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a strong, often irresistible urge to move your legs, usually accompanied by uncomfortable sensations. These sensations are typically described as crawling, creeping, cramping, tingling, pulling, tugging or itching.&lt;/li&gt;
+	&lt;li&gt;Your symptoms start or get worse when you&apos;re resting, such as sitting or lying down.&lt;/li&gt;
+	&lt;li&gt;Your symptoms are partially or temporarily relieved by activity, such as walking or stretching, for as long as you keep moving.&lt;/li&gt;
+	&lt;li&gt;Your symptoms are worse at night.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Blood tests or muscle or nerve studies may be ordered to exclude other possible causes for your symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, your doctor may refer you to a sleep specialist for additional evaluation. This may require that you stay overnight at a sleep clinic, where doctors can study your sleep habits closely and check for leg twitching (periodic limb movements) during sleep &amp;mdash; a possible sign of RLS. However, a diagnosis of RLS usually doesn&apos;t require a sleep study. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes, treating an underlying condition, such as iron deficiency or peripheral neuropathy, greatly relieves symptoms of restless legs syndrome. Correcting the iron deficiency may involve taking iron supplements. However, take iron supplements only with medical supervision and after your doctor has checked your blood-iron level. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have RLS without any associated condition, treatment focuses on lifestyle changes, and, if those aren&apos;t effective, medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication therapy&lt;br /&gt;
+&lt;/strong&gt;Several prescription medications, most of which were developed to treat other diseases, are available to reduce the restlessness in your legs. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications for Parkinson&apos;s disease.&lt;/strong&gt; These medications reduce the amount of motion in your legs by affecting the level of the chemical messenger dopamine in your brain. Two drugs, ropinirole (Requip) and pramipexole (Mirapex), are approved by the Food and Drug Administration for the treatment of moderate to severe RLS. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Doctors commonly also use other Parkinson&apos;s drugs to treat restless legs syndrome, such as a combination of carbidopa and levodopa (Sinemet). People with RLS are at no greater risk of developing Parkinson&apos;s disease than are those without RLS. Short-term side effects of Parkinson&apos;s medications are usually mild and include nausea, lightheadedness and fatigue. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications for epilepsy.&lt;/strong&gt; Certain epilepsy medications, such as gabapentin (Neurontin), may work for some people with RLS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opioids.&lt;/strong&gt; Narcotic medications can relieve mild to severe symptoms, but they may be addicting if used in high doses. Some examples of these medications include codeine, oxycodone (Oxycontin, Roxicodone), the combination medicine oxycodone and acetaminophen (Percocet, Roxicet), and the combination medicine hydrocodone and acetaminophen (Lortab, Norco,Vicodin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle relaxants and sleep medications.&lt;/strong&gt; This class of medications, known as benzodiazepines, helps you sleep better at night. But these medications don&apos;t eliminate the leg sensations, and they may cause daytime drowsiness. Commonly used sedatives for RLS include clonazepam (Klonopin), triazolam (Halcion), eszopiclone (Lunesta), ramelteon (Rozerem), temazepam (Restoril), zaleplon (Sonata) and zolpidem (Ambien).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It may take several trials for you and your doctor to find the right medication and dosage for you. A combination of medications may work best. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Caution about medications&lt;br /&gt;
+&lt;/strong&gt;One thing to remember with drugs to treat RLS is that sometimes a medication that has worked for you for a while becomes ineffective. Or you notice your symptoms returning earlier in the day. For example, if you&apos;ve been taking your medication at 8 p.m., your symptoms of RLS may start at 6 p.m. This is called augmentation. Your doctor may substitute another medication to combat the problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Most of the drugs prescribed to treat RLS aren&apos;t recommended for pregnant women. Instead, your doctor may recommend self-care techniques to relieve symptoms. However, if the sensations are particularly bothersome during your last trimester, your doctor may approve the use of pain relievers. 
+&lt;/p&gt;
+&lt;p&gt;
+Some medications may worsen symptoms of RLS. These include most antidepressants and some anti-nausea drugs. Your doctor may recommend that you avoid these medications if possible. However, should you need to take these medications, restless legs can still be controlled by adding drugs that manage the condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Making simple lifestyle changes can play an important role in alleviating symptoms of RLS. These steps may help reduce the extra activity in your legs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take pain relievers.&lt;/strong&gt; For very mild symptoms, taking an over-the-counter pain reliever such as ibuprofen (Advil, Motrin, others) when symptoms begin may relieve the twitching and the sensations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try baths and massages.&lt;/strong&gt; Soaking in a warm bath and massaging your legs can relax your muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply warm or cool packs.&lt;/strong&gt; You may find that the use of heat or cold, or alternating use of the two, lessens the sensations in your limbs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try relaxation techniques, such as meditation or yoga.&lt;/strong&gt; Stress can aggravate RLS. Learn to relax, especially before going to bed at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Establish good sleep hygiene.&lt;/strong&gt; Fatigue tends to worsen symptoms of RLS, so it&apos;s important that you practice good sleep hygiene. Ideally, sleep hygiene involves having a cool, quiet and comfortable sleeping environment, going to bed at the same time, rising at the same time, and getting enough sleep to feel well rested. Some people with RLS find that going to bed later and rising later in the day helps in getting enough sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Getting moderate, regular exercise may relieve symptoms of RLS, but overdoing it at the gym or working out too late in the day may intensify symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid caffeine.&lt;/strong&gt; Sometimes cutting back on caffeine may help restless legs. It&apos;s worth trying to avoid caffeine-containing products, including chocolate and caffeinated beverages, such as coffee, tea and soft drinks, for a few weeks to see if this helps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cut back on alcohol and tobacco.&lt;/strong&gt; These substances also may aggravate or trigger symptoms of RLS. Test to see whether avoiding them helps.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because restless legs syndrome is sometimes due to an underlying nutritional deficiency, taking supplements to correct the deficiency may improve your symptoms. Your doctor can order blood tests to pinpoint nutritional deficiencies and give you a good sense of which supplements may help. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor can also tell you whether certain dietary supplements may interfere with the way your prescription medications work or may pose health risks for you. 
+&lt;/p&gt;
+&lt;p&gt;
+If blood tests show that you are deficient in any of the following nutrients, your doctor may recommend taking dietary supplements as part of your treatment plan:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Iron&lt;/li&gt;
+	&lt;li&gt;Folic acid&lt;/li&gt;
+	&lt;li&gt;Vitamin B&lt;/li&gt;
+	&lt;li&gt;Magnesium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More research is needed to reliably establish the safety and effectiveness of all of these supplements in the treatment of RLS.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+RLS is generally a lifelong condition. Living with RLS involves developing coping strategies that work for you. The Restless Legs Syndrome Foundation recommends these approaches: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tell others about your condition.&lt;/strong&gt; Sharing information about RLS will help your family members, friends and co-workers better understand when they see you pacing the halls, standing at the back of the theater, or walking to the water cooler many times throughout the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t resist your need for movement.&lt;/strong&gt; If you attempt to suppress the urge to move, you may find that your symptoms only get worse. Get out of bed. Find an activity that&apos;s distracting. Stop frequently when traveling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a sleep diary.&lt;/strong&gt; Keep track of the medications and strategies that help or hinder your battle with RLS, and share this information with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adapt your work space for standing.&lt;/strong&gt; You may be more comfortable if you elevate your desktop or bookstand to a height that will allow you to stand while you work or read.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch and massage.&lt;/strong&gt; Begin and end your day with stretching exercises or gentle massage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek help.&lt;/strong&gt; Support groups bring together family members and people with RLS. By participating in a group, your insights not only can help you but also may help someone else.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Restless legs syndrome
+	</Title>
+	<Abstract>
+		Restless legs syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment of disorder that can cause insomnia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+	</RelatedLinksBox>
+</Disease>

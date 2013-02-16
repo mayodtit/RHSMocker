@@ -1,0 +1,246 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00507
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mittelschmerz/DS00507
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-11
+		</UpdateDate>
+		<PublicationDate>
+			2003-09-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="4423" Title="Female reproductive stage">
+						<Keyword MCVID="2046" Title="Menstrual cycle">
+							<Keyword MCVID="4246" Title="Mittelschmerz" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			15E147A6-5834-4EE3-B9772CEFAAAE2058
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mittelschmerz
+			</MetaKeyword>
+			<MetaKeyword>
+				menstruation and pain
+			</MetaKeyword>
+			<MetaKeyword>
+				ovulation pain
+			</MetaKeyword>
+			<MetaKeyword>
+				midcycle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				cyclic pelvic pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mittelschmerz is one-sided, lower abdominal pain associated with ovulation. &quot;Mittelschmerz&quot; is a German word that means &quot;middle pain.&quot; The condition occurs midway through a menstrual cycle &amp;mdash; about 14 days before your next menstrual period.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, mittelschmerz doesn&apos;t require medical attention. For minor mittelschmerz discomfort, over-the-counter pain relievers and home remedies are often effective. If your mittelschmerz pain is troublesome, your doctor may prescribe an oral contraceptive to stop ovulation and prevent midcycle pain.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mittelschmerz pain usually lasts a few minutes to a few hours, but it may continue for as long as a day or two. Pain from mittelschmerz may be:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;On one side of your lower abdomen&lt;/li&gt;
+	&lt;li&gt;Dull and cramp-like&lt;/li&gt;
+	&lt;li&gt;Sharp and sudden&lt;/li&gt;
+	&lt;li&gt;Accompanied by mild vaginal bleeding or discharge&lt;/li&gt;
+	&lt;li&gt;Rarely, severe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Mittelschmerz pain occurs on the side of the ovary that&apos;s ovulating &amp;mdash; releasing an egg &amp;mdash; in that menstrual cycle. The pain may switch sides every other month, or you may feel pain on the same side for several months in a row.
+&lt;/p&gt;
+&lt;p&gt;
+Keep track of your menstrual cycle for several months and note when you experience lower abdominal pain. If it occurs midcycle and goes away without treatment, it&apos;s most likely mittelschmerz.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+In the vast majority of cases, mittelschmerz requires no medical intervention. However, contact your doctor if a new pelvic pain becomes severe, if it&apos;s accompanied by nausea or fever, or if it persists &amp;mdash; any of which could indicate you have a condition more serious than mittelschmerz, such as appendicitis, pelvic inflammatory disease or even an ectopic pregnancy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During your menstrual cycle, the female sex hormone estrogen causes your uterine lining to thicken every month to create a nourishing environment for a fertilized egg. Soon afterward, a follicle &amp;mdash; a tiny sac in your ovary that contains a single egg &amp;mdash; ruptures and releases its egg (ovulation).
+&lt;/p&gt;
+&lt;p&gt;
+If the egg becomes fertilized on its way to your uterus by contact with a sperm, the egg implants in the lining of the uterus. However, most often the unfertilized egg passes through your uterus and out of your body. Shortly thereafter, your uterus releases this lining and your menstrual flow begins.
+&lt;/p&gt;
+&lt;p&gt;
+Mittelschmerz occurs during ovulation, when the follicle ruptures and releases its egg. It&apos;s estimated that 1 in 5 women experience ovulation discomfort. Some have mittelschmerz every month, while others have it only occasionally.
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause of mittelschmerz is unknown, but possible reasons for the pain include these:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Just before an egg is released with ovulation, follicle growth stretches the surface of your ovary, causing pain.&lt;/li&gt;
+	&lt;li&gt;Blood or fluid released from the ruptured follicle irritates the lining of your abdomen (peritoneum), leading to pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pain at any other point in your menstrual cycle isn&apos;t mittelschmerz. It may be normal menstrual cramping (dysmenorrhea) if it occurs during your period, or it may be from other abdominal or pelvic problems. If your pain is severe during the time of ovulation or at any other time during your cycle, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, you won&apos;t need to see a doctor for mittelschmerz. However, if your pain is especially troublesome, you may make an appointment to confirm a diagnosis of mittelschmerz or to explore treatment options.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+You may want to write a list that includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;The dates when your last two menstrual periods began&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For mittelschmerz, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are my symptoms likely to change over time?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatments or home remedies might help?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How far apart in days are your menstrual periods, and how long do they typically last?&lt;/li&gt;
+	&lt;li&gt;How would you describe your symptoms?&lt;/li&gt;
+	&lt;li&gt;Where is your pain located?&lt;/li&gt;
+	&lt;li&gt;How long have you been experiencing this pain? Is it constant or does it subside after a few minutes or hours?&lt;/li&gt;
+	&lt;li&gt;On a scale of 1 to 10, how severe is your pain?&lt;/li&gt;
+	&lt;li&gt;How long before or after your period does the pain occur?&lt;/li&gt;
+	&lt;li&gt;Do you have any other symptoms, such as nausea, vomiting, diarrhea, back pain, dizziness or headache?&lt;/li&gt;
+	&lt;li&gt;What medications, vitamins and supplements do you regularly take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you need relief from the discomfort of mittelschmerz, try an over-the-counter pain reliever, such as acetaminophen (Tylenol, others), aspirin, ibuprofen (Advil, Motrin, others) or naproxen (Aleve).
+&lt;/p&gt;
+&lt;p&gt;
+If you experience mittelschmerz nearly every month and it causes you quite a bit of discomfort, talk to your doctor about the option of taking a birth control pill (oral contraceptive). Birth control pills prevent ovulation, which prevents mittelschmerz because the condition can only occur if an ovary releases an egg.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If the discomfort from mittelschmerz lasts more than a few minutes, try some home remedies to gain relief. Because heat increases blood flow, relaxes tense muscles and eases cramping, you might want to try:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soaking in a hot bath&lt;/li&gt;
+	&lt;li&gt;Using a heating pad on the side of your abdomen where the pain occurs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mittelschmerz
+	</Title>
+	<Abstract>
+		Mittelschmerz &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of abdominal pain during ovulation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00108" LinkType="Internal" ObjectID="A0F8DEFB-36F1-4F79-B4FA68DFC12AAE0A" Title="Video: Ovulation" Url="http://www.mayoclinic.com/health/ovulation/MM00108" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Disease" DocID="DS00506" LinkType="Internal" ObjectID="79750BA2-8034-4A38-BA3288C1B2EA8FE8" Title="Menstrual cramps" Url="http://www.mayoclinic.com/health/menstrual-cramps/DS00506" />
+	</RelatedLinksBox>
+</Disease>

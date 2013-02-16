@@ -1,0 +1,384 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00147
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sjogrens-syndrome/DS00147
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-06
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="1739" Title="Sjogren&apos;s syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E8B8FBC8-126F-4619-965AAAF992FB4DA5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Sjogren&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogren&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogrens
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogrens syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune disease
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogren&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogrens disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sjogren&apos;s (SHOW-grins) syndrome is a disorder of your immune system identified by its two most common symptoms &amp;mdash; dry eyes and a dry mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+Sjogren&apos;s syndrome often accompanies other immune-system disorders, such as rheumatoid arthritis and lupus. In Sjogren&apos;s syndrome, the mucous membranes and moisture-secreting glands of your eyes and mouth are usually affected first &amp;mdash; resulting in decreased production of tears and saliva.
+&lt;/p&gt;
+&lt;p&gt;
+Although you can develop Sjogren&apos;s syndrome at any age, most people are older than 40 at the time of diagnosis. The condition is much more common in women. Treatment focuses on relieving symptoms, which often subside with time.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The two main symptoms of Sjogren&apos;s syndrome are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dry eyes.&lt;/strong&gt; Your eyes may burn, itch or feel gritty &amp;mdash; as if there&apos;s sand in them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry mouth.&lt;/strong&gt; Your mouth may feel like it&apos;s full of cotton, making it difficult to swallow or speak.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people with Sjogren&apos;s syndrome also experience one or more of the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Joint pain, swelling and stiffness&lt;/li&gt;
+	&lt;li&gt;Swollen salivary glands &amp;mdash; particularly the set located behind your jaw and in front of your ears&lt;/li&gt;
+	&lt;li&gt;Skin rashes or dry skin&lt;/li&gt;
+	&lt;li&gt;Vaginal dryness&lt;/li&gt;
+	&lt;li&gt;Persistent dry cough&lt;/li&gt;
+	&lt;li&gt;Prolonged fatigue&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing location of salivary glands 
+" Caption="You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+" Height="60" Title="Salivary glands" URI="/images/image_popup/thumbs/mcdc7_salivarythu.jpg" Width="60" />
+				<Image Alt="Illustration showing location of salivary glands 
+" Caption="You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+" Height="299" Title="Salivary glands" URI="/images/image_popup/mcdc7_salivary.jpg" Width="400" />
+				<HTML>
+					You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sjogren&apos;s syndrome is an autoimmune disorder. This means that your immune system mistakenly attacks your body&apos;s own cells and tissues.
+&lt;/p&gt;
+&lt;p&gt;
+Scientists aren&apos;t certain why some people develop Sjogren&apos;s syndrome and others don&apos;t. Certain genes put people at higher risk for the disorder, but it appears that a triggering mechanism &amp;mdash; such as infection with a particular virus or strain of bacteria &amp;mdash; is also necessary.
+&lt;/p&gt;
+&lt;p&gt;
+In Sjogren&apos;s syndrome, your immune system first targets the moisture-secreting glands of your eyes and mouth. But it can also damage other parts of your body, such as your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Joints&lt;/li&gt;
+	&lt;li&gt;Thyroid&lt;/li&gt;
+	&lt;li&gt;Kidneys&lt;/li&gt;
+	&lt;li&gt;Liver&lt;/li&gt;
+	&lt;li&gt;Lungs&lt;/li&gt;
+	&lt;li&gt;Skin&lt;/li&gt;
+	&lt;li&gt;Nerves&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop Sjogren&apos;s syndrome, it typically occurs in people with one or more known risk factors. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Sjogren&apos;s syndrome is usually diagnosed in people older than 40.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are much more likely to have Sjogren&apos;s syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatic disease.&lt;/strong&gt; It&apos;s common for people who have Sjogren&apos;s syndrome to also have a rheumatic disease &amp;mdash; such as rheumatoid arthritis or lupus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common complications of Sjogren&apos;s syndrome involve your eyes and mouth.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dental cavities.&lt;/strong&gt; Because saliva helps protect the teeth from the bacteria that cause cavities, you&apos;re more prone to developing cavities if your mouth is dry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yeast infections.&lt;/strong&gt; People with Sjogren&apos;s syndrome are much more likely to develop oral thrush, a yeast infection in the mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision problems.&lt;/strong&gt; Dry eyes can lead to light sensitivity, blurred vision and corneal ulcers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common complications may affect your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lungs, kidneys or liver.&lt;/strong&gt; Inflammation may cause pneumonia, bronchitis or other problems in your lungs; may lead to problems with kidney function; and may cause hepatitis or cirrhosis in your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unborn baby.&lt;/strong&gt; If you&apos;re a woman with Sjogren&apos;s syndrome and you plan to become pregnant, talk with your doctor about being tested for certain autoantibodies that may be present in your blood. In rare cases, these antibodies have been associated with heart problems in newborns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lymph nodes.&lt;/strong&gt; A small percentage of people with Sjogren&apos;s syndrome develop cancer of the lymph nodes (lymphoma).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerves.&lt;/strong&gt; You may develop numbness, tingling and burning in your hands and feet (peripheral neuropathy).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may initially bring your symptoms to the attention of your family doctor, your dentist or your eye doctor. However, you may eventually be referred to a rheumatologist &amp;mdash; a doctor who specializes in the treatment of arthritis and other inflammatory conditions &amp;mdash; for diagnosis and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about your medical problems, past and present&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For Sjogren&apos;s syndrome, some basic questions you may want to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon can I expect my symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medication you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How best can I manage them together?&lt;/li&gt;
+	&lt;li&gt;When should I be seen for a follow-up exam?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed materials that I can take home with me? What websites do you recommend for more information?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Questions that might come up: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice eye discomfort or dry mouth?&lt;/li&gt;
+	&lt;li&gt;Did any other new symptoms appear about the same time?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms follow any pattern &amp;mdash; getting worse as the day passes or causing more trouble indoors than outside?&lt;/li&gt;
+	&lt;li&gt;Do you feel thirstier than usual?&lt;/li&gt;
+	&lt;li&gt;What beverages do you drink with meals?&lt;/li&gt;
+	&lt;li&gt;How often do you drink soda, coffee or tea, or an energy drink?&lt;/li&gt;
+	&lt;li&gt;How much alcohol do you drink? &lt;/li&gt;
+	&lt;li&gt;Do you use recreational drugs?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic conditions, such as high blood pressure or arthritis?&lt;/li&gt;
+	&lt;li&gt;Have you recently started any new medications?&lt;/li&gt;
+	&lt;li&gt;Do you have any close relatives with rheumatoid arthritis, lupus or a similar disease? &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sjogren&apos;s syndrome can be difficult to diagnose because the signs and symptoms vary from person to person and can be similar to those caused by other diseases. Side effects of a number of medications also mimic some signs and symptoms of Sjogren&apos;s syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+A variety of tests can help rule out other conditions and help pinpoint a diagnosis of Sjogren&apos;s syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor may order blood tests to check for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Levels of different types of blood cells&lt;/li&gt;
+	&lt;li&gt;Presence of antibodies common in Sjogren&apos;s syndrome&lt;/li&gt;
+	&lt;li&gt;Blood glucose levels&lt;/li&gt;
+	&lt;li&gt;Evidence of inflammatory conditions&lt;/li&gt;
+	&lt;li&gt;Indications of problems with your liver and kidneys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Eye tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shirmer test.&lt;/strong&gt; Your doctor can measure the dryness of your eyes with a test called a Schirmer tear test. In this test, a small piece of filter paper is placed under your lower eyelid to measure your tear production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slit-lamp test.&lt;/strong&gt; A physician specializing in the treatment of eye disorders (ophthalmologist) may also examine the surface of your eyes with a magnifying device called a slit lamp. He or she may place drops in your eye make any damage to your cornea easier to see.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sialogram.&lt;/strong&gt; To check on the condition of your salivary glands, your doctor may order a special X-ray called a sialogram. It detects dye that&apos;s injected into your parotid glands, located behind your jaw and in front of your ears. This procedure shows how much saliva flows into your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Salivary scintigraphy.&lt;/strong&gt; This nuclear medicine test involves the injection of a radioactive isotope, which is tracked to measure your salivary gland function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Because Sjogren&apos;s syndrome can also cause lung inflammation, your doctor may also order a chest X-ray.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biopsy&lt;br /&gt;
+&lt;/strong&gt;Your doctor may also want to do a lip biopsy to detect the presence of clusters of inflammatory cells, which can indicate Sjogren&apos;s syndrome. For this test, a small sliver of tissue is removed from salivary glands located in your lip and examined under a microscope. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spit test.&lt;/strong&gt; In this test, you spit into a test tube every minute for 15 minutes. The total amount of saliva collected is then measured to determine the severity of your dry mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine sample.&lt;/strong&gt; Your doctor may want you to provide a urine sample that can be analyzed in the laboratory to determine whether Sjogren&apos;s syndrome has affected your kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people can manage the dry eye and dry mouth associated with Sjogren&apos;s syndrome by using over-the-counter eyedrops and sipping water more frequently. But some people may need prescription medications, or even surgery. 
+&lt;/p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Depending on your symptoms, your doctor may suggest medications that: 
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increase production of saliva.&lt;/strong&gt; Drugs such as pilocarpine (Salagen) and cevimeline (Evoxac) can increase the production of saliva, and sometimes tears. Side effects may include sweating, abdominal pain, flushing and increased urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Address specific complications.&lt;/strong&gt; If you develop arthritis symptoms, you may benefit from nonsteroidal anti-inflammatory drugs (NSAIDs) or other arthritis medications. Yeast infections in the mouth should be treated with antifungal medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat system-wide symptoms.&lt;/strong&gt; Hydroxychloroquine (Plaquenil), a drug designed to treat malaria, is often helpful in treating Sjogren&apos;s syndrome. Drugs that suppress the immune system, such as methotrexate or cyclosporine, may also be prescribed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;To relieve dry eyes, you may consider undergoing a minor surgical procedure to seal the tear ducts that drain tears from your eyes (punctal occlusion). Collagen or silicone plugs are inserted into the ducts for a temporary closure. Collagen plugs eventually dissolve, but silicone plugs stay in place until they fall out or are removed. Alternatively, your doctor may use a laser to permanently seal your tear ducts.
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many symptoms of Sjogren&apos;s syndrome respond well to self-care measures. 
+&lt;/p&gt;
+&lt;p&gt;
+To relieve dry eyes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use artificial tears, an eye lubricant or both.&lt;/strong&gt; Artificial tears (in eyedrop form) and eye lubricants (in eyedrop, gel or ointment form) help relieve the discomfort of dry eyes. Both types of product are available over-the-counter. You don&apos;t have to apply eye lubricants as often as artificial tears. Because of their thicker consistency, though, eye lubricants can blur your vision and collect on your eyelashes. Your doctor may recommend artificial tears without preservatives because the preservatives can be irritating for people with dry eye syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase humidity.&lt;/strong&gt; Increasing the indoor humidity and reducing your exposure to blowing air may help keep your eyes from getting uncomfortably dry. For example, avoid sitting in front of a fan or air-conditioning vent, and wear goggles or protective eyewear when you go outdoors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To help with dry mouth: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increase your fluid intake.&lt;/strong&gt; Drinking lots of fluids, particularly water, helps to reduce dry mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stimulate saliva flow.&lt;/strong&gt; Sugarless gum or hard candies can boost saliva flow. Because Sjogren&apos;s syndrome increases your risk of dental cavities, limit sweets, especially between meals. Lemon juice in water can also help stimulate saliva flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try artificial saliva.&lt;/strong&gt; Saliva replacement products often work better than plain water because they contain a lubricant that helps your mouth stay moist longer. These products may come as a spray or lozenge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use nasal saline spray.&lt;/strong&gt; A nasal saline spray can help moisturize and clear nasal passages so you can breathe freely through your nose. A dry, stuffy nose can increase mouth breathing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Oral health&lt;br /&gt;
+&lt;/strong&gt;Dry mouth increases your risk of dental cavities and tooth loss. The following precautions may help prevent those types of problems. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brush your teeth and floss after every meal.&lt;/li&gt;
+	&lt;li&gt;Schedule regular dental appointments, at least every six months.&lt;/li&gt;
+	&lt;li&gt;Use daily topical fluoride treatments and antimicrobial mouthwashes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other areas of dryness&lt;br /&gt;
+&lt;/strong&gt;If dry skin is a problem, avoid hot water when you bathe and shower. Pat your skin &amp;mdash; don&apos;t rub &amp;mdash; with a towel and apply moisturizer when your skin is still damp. Use rubber gloves when doing dishes or housecleaning. Vaginal moisturizers and lubricants help women who experience vaginal dryness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sjogren&apos;s syndrome
+	</Title>
+	<Abstract>
+		Sjogren&apos;s syndrome &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this autoimmune disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02129" LinkType="Internal" ObjectID="8D468FE6-D13B-E63D-C5EF8EF1CC09D7AD" Title="Artificial tears: How to select eyedrops for dry eyes" Url="http://www.mayoclinic.com/health/artificial-tears/AN02129" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00241" LinkType="Internal" ObjectID="0FE6B583-E7FF-0DBD-1D56AFCEBFEF2184" Title="Rheumatoid factor" Url="http://www.mayoclinic.com/health/rheumatoid-factor/MY00241" />
+		<LinkItem ContentType="Answer" DocID="AN01893" LinkType="Internal" ObjectID="550C6B13-E7FF-0DBD-1DCC4916371AD47C" Title="Sjogren&apos;s syndrome: Can it cause recurrent UTIs?" Url="http://www.mayoclinic.com/health/sjogrens-syndrome/AN01893" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="HA00034" LinkType="Internal" ObjectID="50B3D1EF-C44D-46A3-A5E06F9AC4F2A836" Title="Dry mouth" Url="http://www.mayoclinic.com/health/dry-mouth/HA00034" />
+	</RelatedLinksBox>
+</Disease>

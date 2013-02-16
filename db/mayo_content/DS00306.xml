@@ -1,0 +1,417 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00306
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/endometrial-cancer/DS00306
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-04
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2342" Title="Endometrial cancer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CC957764-574A-4BA2-8AD311918F4E894F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				endometrial cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				endometrium
+			</MetaKeyword>
+			<MetaKeyword>
+				uterus cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hormone therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				endometrial
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endometrial cancer is a type of cancer that begins in the uterus. The uterus is the hollow, pear-shaped pelvic organ in women where fetal development occurs. 
+&lt;/p&gt;
+&lt;p&gt;
+Endometrial cancer begins in the layer of cells that form the lining (endometrium) of the uterus. Endometrial cancer is sometimes called uterine cancer. Other types of cancer can form in the uterus, but they are much less common than endometrial cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Endometrial cancer is often detected at an early stage because it frequently produces abnormal vaginal bleeding, which prompts women to see their doctors. If endometrial cancer is discovered early, removing the uterus surgically often eliminates all of the cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endometrial cancer
+" Caption="Endometrial cancer begins in the lining (endometrium) of the uterus.
+" Height="60" Title="Endometrial cancer" URI="/images/image_popup/thumbs/mcdc7_endometrial_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing endometrial cancer
+" Caption="Endometrial cancer begins in the lining (endometrium) of the uterus.
+" Height="503" Title="Endometrial cancer" URI="/images/image_popup/mcdc7_endometrial_cancer.jpg" Width="400" />
+				<HTML>
+					Endometrial cancer begins in the lining (endometrium) of the uterus.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of endometrial cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vaginal bleeding after menopause&lt;/li&gt;
+	&lt;li&gt;Prolonged periods or bleeding between periods&lt;/li&gt;
+	&lt;li&gt;An abnormal, watery or blood-tinged discharge from your vagina&lt;/li&gt;
+	&lt;li&gt;Pelvic pain&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you experience any signs or symptoms that worry you, such as vaginal bleeding or discharge not related to your periods, pelvic pain, or pain during intercourse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t know what causes endometrial cancer. What&apos;s known is that something occurs to create a genetic mutation within cells in the endometrium &amp;mdash; the lining of the uterus. The genetic mutation turns normal, healthy cells into abnormal cells. Healthy cells grow and multiply at a set rate, eventually dying at a set time. Abnormal cells grow and multiply out of control, and they don&apos;t die at a set time. The accumulating abnormal cells form a mass (tumor). Cancer cells invade nearby tissues and can separate from an initial tumor to spread elsewhere in the body (metastasize). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endometrial cancer
+" Caption="Endometrial cancer begins in the lining (endometrium) of the uterus.
+" Height="60" Title="Endometrial cancer" URI="/images/image_popup/thumbs/mcdc7_endometrial_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing endometrial cancer
+" Caption="Endometrial cancer begins in the lining (endometrium) of the uterus.
+" Height="503" Title="Endometrial cancer" URI="/images/image_popup/mcdc7_endometrial_cancer.jpg" Width="400" />
+				<HTML>
+					Endometrial cancer begins in the lining (endometrium) of the uterus.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of endometrial cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in the balance of female hormones in the body.&lt;/strong&gt; Your ovaries make two main female hormones &amp;mdash; estrogen and progesterone. Fluctuations in the balance of these hormones cause changes in your endometrium. A disease or condition that increases the amount of estrogen, but not the level of progesterone, in your body can increase your risk of endometrial cancer. Examples include irregular ovulation patterns, such as can occur in women with polycystic ovary syndrome, obesity and diabetes. Taking hormones after menopause that contain estrogen but not a synthetic version of progesterone (progestin) increases the risk of endometrial cancer. A rare type of ovarian tumor that secretes estrogen also can increase the risk of endometrial cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;More years of menstruation.&lt;/strong&gt; Starting menstruation at an early age &amp;mdash; before age 12 &amp;mdash; or beginning menopause later increases the risk of endometrial cancer. The more periods you&apos;ve had, the more exposure your endometrium has had to estrogen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Never having been pregnant.&lt;/strong&gt; Women who have never been pregnant have a higher risk of endometrial cancer than do women who have had at least one pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; As you get older, your risk of endometrial cancer increases. The majority of endometrial cancer occurs in older women who have undergone menopause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone therapy for breast cancer.&lt;/strong&gt; Women with breast cancer who take the hormone therapy drug tamoxifen have an increased risk of developing endometrial cancer. If you&apos;re taking tamoxifen, discuss this risk with your doctor. For most women, the benefits of tamoxifen outweigh the small risk of endometrial cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An inherited colon cancer syndrome.&lt;/strong&gt; Hereditary nonpolyposis colorectal cancer (HNPCC) is a syndrome that increases the risk of colon cancer and other cancers, including endometrial cancer. HNPCC occurs because of a gene mutation passed from parents to children. If a family member has been diagnosed with HNPCC, discuss your risk of the genetic syndrome with your doctor. If you&apos;ve been diagnosed with HNPCC, ask your doctor what cancer screening tests you should undergo.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endometrial cancer can spread to other parts of your body, making it more difficult to treat successfully. Endometrial cancer that spreads (metastasizes) most often travels to the lungs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your primary care doctor or a gynecologist if you have signs and symptoms that worry you. If you&apos;re diagnosed with endometrial cancer, you&apos;re likely to be referred to a doctor who specializes in cancers of the female reproductive system (gynecologic oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what you can expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking. Also note if you&apos;ve used any type of hormonal therapy in the past, including birth control pills, tamoxifen or other hormonal treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to accompany you.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time can help you make the most of your time together. List your questions from most important to least important in case time runs out. For endometrial cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need to diagnose endometrial cancer?&lt;/li&gt;
+	&lt;li&gt;Are there other tests for staging the cancer?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? What side effects can I expect from each treatment? How will these treatments affect my sexuality?&lt;/li&gt;
+	&lt;li&gt;What do you feel is the best course of action for me?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Has my cancer spread? What stage is it?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely have questions for you. If you&apos;re ready to answer them, it may help reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced any usual vaginal bleeding or discharge? How often does that occur?&lt;/li&gt;
+	&lt;li&gt;Do you have any pelvic pain?&lt;/li&gt;
+	&lt;li&gt;Have you had any other symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you taken estrogen-only hormone therapy for menopausal symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any personal history of cancer?&lt;/li&gt;
+	&lt;li&gt;Have other members of your family been diagnosed with cancer? How old was each relative when he or she was diagnosed? What types of cancer?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing endometrial cancer&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose endometrial cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examining you for abnormalities.&lt;/strong&gt; During a pelvic exam, your doctor carefully inspects the outer portion of your genitals (vulva), and then inserts two fingers of one hand into your vagina and simultaneously presses the other hand on your abdomen to feel your uterus and ovaries. He or she also inserts a device called a speculum into your vagina. The speculum opens your vagina so that your doctor can view your vagina and cervix for abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using sound waves to create a picture of your uterus.&lt;/strong&gt; Your doctor may recommend a transvaginal ultrasound to look at the thickness and texture of the endometrium and help rule out other conditions. In this procedure, a wand-like device (transducer) is inserted into your vagina. The transducer uses sound waves to create a video image of your uterus. This test helps your doctor look for abnormalities in your uterine lining.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine your endometrium.&lt;/strong&gt; During a hysteroscopy, your doctor inserts a thin, flexible, lighted tube (hysteroscope) through your vagina and cervix into your uterus. A lens on the hysteroscope allows your doctor to examine the inside of your uterus and the endometrium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of tissue for testing.&lt;/strong&gt; To get a sample of cells from inside your uterus, you&apos;ll likely undergo an endometrial biopsy. This involves removing tissue from your uterine lining for laboratory analysis. This may be done in your doctor&apos;s office and usually doesn&apos;t require anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Performing surgery to remove tissue for testing.&lt;/strong&gt; If enough tissue can&apos;t be obtained during a biopsy or if the biopsy results are unclear, you&apos;ll likely need to undergo a procedure called dilation and curettage (D&amp;C). During D&amp;C, tissue is scraped from the lining of your uterus and examined under a microscope for cancer cells. D&amp;C usually requires general anesthesia, so you won&apos;t be aware during the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If endometrial cancer is found, you&apos;ll likely be referred to a gynecologic oncologist &amp;mdash; a doctor who specializes in treating cancers involving the female reproductive system. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging endometrial cancer&lt;/strong&gt; &lt;br /&gt;
+Once your cancer has been diagnosed, your doctor works to determine the extent, or stage, of your cancer. Tests used to determine your cancer&apos;s stage include a chest X-ray, a computerized tomography (CT) scan and blood tests. The final determination of your cancer&apos;s stage may not be made until after you undergo surgery to treat your cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Stages of endometrial cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I&lt;/strong&gt; cancer is found only in your uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II&lt;/strong&gt; cancer is present in both the uterus and cervix.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III&lt;/strong&gt; cancer has spread beyond the uterus, but hasn&apos;t reached the rectum and bladder. The pelvic area lymph nodes may be involved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV&lt;/strong&gt; cancer has spread past the pelvic region and can affect the bladder, rectum and more distant parts of your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="60" Title="Pelvic examination" URI="/images/image_popup/thumbs/mcdc7_pelvicexamthu.jpg" Width="60" />
+				<Image Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="300" Title="Pelvic examination" URI="/images/image_popup/mcdc7_pelvic_exam.jpg" Width="400" />
+				<HTML>
+					In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing transvaginal ultrasound 
+" Caption="During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound waves that generate images of your pelvic organs. 
+" Height="60" Title="Transvaginal ultrasound" URI="/images/image_popup/thumbs/mcdc7_vaginal_ultrasoundthu.jpg" Width="60" />
+				<Image Alt="Illustration showing transvaginal ultrasound 
+" Caption="During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound waves that generate images of your pelvic organs. 
+" Height="324" Title="Transvaginal ultrasound" URI="/images/image_popup/mcdc7_vaginal_ultrasound.jpg" Width="400" />
+				<HTML>
+					During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hysteroscopy 
+" Caption="During hysteroscopy, your doctor uses a thin, lighted instrument (hysteroscope) to view the inside of your uterus.
+" Height="60" Title="Hysteroscopy" URI="/images/image_popup/thumbs/hdg7_hysteroscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing hysteroscopy 
+" Caption="During hysteroscopy, your doctor uses a thin, lighted instrument (hysteroscope) to view the inside of your uterus.
+" Height="332" Title="Hysteroscopy" URI="/images/image_popup/hdg7_hysteroscopy.jpg" Width="400" />
+				<HTML>
+					During hysteroscopy, your doctor uses a thin, lighted instrument (hysteroscope) to view the inside of your uterus.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your options for treating your endometrial cancer will depend on the characteristics of your cancer, such as the stage, your general health and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery to remove the uterus is recommended for most women with endometrial cancer. Most women with endometrial cancer undergo a procedure to remove the uterus (hysterectomy), as well as to remove the fallopian tubes and ovaries (salpingo-oophorectomy). A hysterectomy makes it impossible for you to have children in the future. Also, once your ovaries are removed, you&apos;ll experience menopause, if you haven&apos;t already. 
+&lt;/p&gt;
+&lt;p&gt;
+During surgery, your surgeon will also inspect the areas around your uterus to look for signs that cancer has spread. Your surgeon may also remove lymph nodes for testing. This helps determine your cancer&apos;s stage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses powerful energy beams, such as X-rays, to kill cancer cells. In some instances, your doctor may recommend radiation to reduce your risk of a cancer recurrence after surgery. If you aren&apos;t healthy enough to undergo surgery, you may opt for radiation therapy only. In women with advanced endometrial cancer, radiation therapy may help control cancer-related pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy can involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation from a machine outside your body.&lt;/strong&gt; Called external beam radiation, during this procedure you lie on a table while a machine directs radiation to specific points on your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation placed inside your body.&lt;/strong&gt; Internal radiation, or brachytherapy, involves placing a radiation-filled device, such as small seeds, wires or a cylinder, inside your vagina for a short period of time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone therapy&lt;/strong&gt; &lt;br /&gt;
+Hormone therapy involves taking medications that affect hormone levels in the body. Hormone therapy may be an option if you have advanced endometrial cancer that has spread beyond the uterus. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to increase the amount of progesterone in your body.&lt;/strong&gt; Synthetic progestin, a form of the hormone progesterone, may help stop endometrial cancer cells from growing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce the amount of estrogen in your body.&lt;/strong&gt; Hormone therapy drugs can help lower the levels of estrogen in your body or make it difficult for your body to use the available estrogen. Endometrial cancer cells that rely on estrogen to help them grow may die in response to these medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses chemicals to kill cancer cells. You may receive one chemotherapy drug, or two or more drugs can be used in combination. You may receive chemotherapy drugs by pill (orally) or through your veins (intravenously). Chemotherapy may be an option for women with advanced endometrial cancer that has spread beyond the uterus. These drugs enter your bloodstream and then travel through your body, killing cancer cells. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After you receive a diagnosis of endometrial cancer, you may have many questions, fears and concerns. How will the diagnosis affect you, your family, your work and your future? You may worry about tests, treatments, hospital stays and medical bills. Even if a full recovery is likely, you may worry about possible recurrence of your cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, many resources are available to help answer questions and provide support. The key is to remember that you don&apos;t have to face your questions or fears alone. Here are some strategies and resources that may make dealing with endometrial cancer easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what to expect.&lt;/strong&gt; Find out enough about your cancer so that you feel comfortable making decisions about your care. Ask your doctor for information about the stage, your treatment options and their side effects. In addition to talking with your doctor, look for information in your local library and on the Internet. Staff of the National Cancer Institute (NCI) will answer questions from the public. You can reach the NCI at 800-4-CANCER (800-422-6237). Or contact the American Cancer Society at 800-227-2345.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be proactive.&lt;/strong&gt; Although you may feel tired and discouraged, try to take an active role in your treatment. Before starting treatment, you might want a second opinion from a qualified specialist. Many insurance companies will pay for such consultations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Strong relationships may help you cope with treatment. Talk with your close friends and family members about how you&apos;re feeling. Connect with other cancer survivors through support groups in your community or online. Ask your doctor about support groups in your area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of endometrial cancer, you may wish to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about the risks of hormone therapy after menopause.&lt;/strong&gt; If you&apos;re considering hormone replacement therapy to help control menopause symptoms, talk to your doctor about the risks and benefits. Unless you&apos;ve undergone a hysterectomy, replacing estrogen alone after menopause may increase your risk of endometrial cancer. Taking a combination of estrogen and progestin can reduce this risk. Hormone therapy carries other risks, such as a possible increase in the risk of breast cancer, so weigh the benefits and risks with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking birth control pills.&lt;/strong&gt; Using oral contraceptives for at least one year may reduce endometrial cancer risk. The risk reduction is thought to last for several years after you stop taking oral contraceptives. Oral contraceptives have side effects, though, so discuss the benefits and risks with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Obesity increases the risk of endometrial cancer, so work to achieve and maintain a healthy weight. If you need to lose weight, increase your physical activity and reduce the number of calories you eat each day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Work physical activity into your daily routine. Try to exercise 30 minutes most days of the week. If you can exercise more, that&apos;s even better.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Endometrial cancer
+	</Title>
+	<Abstract>
+		Endometrial cancer &amp;mdash; Comprehensive overview covers signs and symptoms, diagnosis, staging and treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+	</RelatedLinksBox>
+</Disease>

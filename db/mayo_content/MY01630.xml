@@ -1,0 +1,159 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01630
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/active-surveillance-for-prostate-cancer/MY01630
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-09
+		</UpdateDate>
+		<PublicationDate>
+			2011-02-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4795" Title="Active surveillance">
+							<Keyword MCVID="4796" Title="Active surveillance for prostate cancer" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F012B8C3-9A8C-E919-6CD94A75A372CEBD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				active surveillance for prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				watchful waiting
+			</MetaKeyword>
+			<MetaKeyword>
+				watchful waiting for prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				expectant management for prostate cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During active surveillance (watchful waiting) for prostate cancer, you and your doctor closely monitor your prostate cancer for any changes. No medical treatment is provided &amp;mdash; meaning medications, radiation and surgery aren&apos;t used. Periodic tests are done to check for signs the cancer is growing. 
+&lt;/p&gt;
+&lt;p&gt;
+Because prostate cancer often grows slowly and may not require treatment, active surveillance can be an option for some men with prostate cancer. Active surveillance may be a good choice if your cancer is small, expected to grow very slowly, confined to one area of your prostate, and isn&apos;t causing signs or symptoms. If you are an older man or have another medical condition that limits your life expectancy and your prostate cancer isn&apos;t causing symptoms or harm, active surveillance may also be a reasonable approach. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Active surveillance may be appropriate for you if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The cancer is detected early, while it&apos;s still small and limited to one area of your prostate.&lt;/li&gt;
+	&lt;li&gt;Your Gleason score is low (usually between 2 and 5), which indicates a less aggressive, slower growing (indolent) form of cancer.&lt;/li&gt;
+	&lt;li&gt;You have other advanced health problems, such as severe heart disease, that limit your life expectancy and that could potentially be made worse by treatment of prostate cancer.&lt;/li&gt;
+	&lt;li&gt;You&apos;re older, making it less likely that more aggressive prostate cancer treatment will extend your life expectancy. (It&apos;s difficult to give an exact age at which active surveillance is appropriate, though. Talk to your doctor about what&apos;s right in your situation.)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Active surveillance for prostate cancer avoids the side effects that may be associated with other treatment options, such as erectile dysfunction or incontinence. But there are risks associated with active surveillance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The cancer can grow and spread while you wait.&lt;/li&gt;
+	&lt;li&gt;Active surveillance requires regular prostate-specific antigen (PSA) testing, and the PSA test isn&apos;t infallible. Some cancers spread before PSA levels rise.&lt;/li&gt;
+	&lt;li&gt;If cancer spreads, you may miss the window of opportunity for effective treatment.&lt;/li&gt;
+	&lt;li&gt;You may be anxious and have a sense of uncertainty about the status of your cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During active surveillance, you&apos;ll have regular visits with your doctor to monitor the cancer, usually every three to six months. At these visits, your doctor may perform the following tests or procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Digital rectal exam.&lt;/strong&gt; During a digital rectal exam, your doctor manually examines your prostate gland by gently inserting a lubricated, gloved finger into your rectum. Your doctor can feel the surface of the prostate and assess if the cancer has grown.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;PSA blood test.&lt;/strong&gt; A PSA test measures the amount of prostate-specific antigen (PSA) in your blood. If your PSA rises, it may indicate cancer growth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; If other tests raise concerns, your doctor may use transrectal ultrasound to further evaluate your prostate. A small probe, about the size and shape of a cigar, is inserted into your rectum. The probe uses sound waves to create an image of your prostate gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collection of prostate cells (prostate biopsy). &lt;/strong&gt;Collecting samples of cells from within your prostate is usually recommended one year after active surveillance begins, and then occasionally, as your doctor recommends, to determine how much the cancer has grown and to re-evaluate your Gleason score to see if the cancer remains slow growing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If these tests and procedures indicate the cancer may be growing faster than expected or spreading outside a confined area within the prostate, or if you begin having signs and symptoms as a result of prostate cancer, your doctor may recommend more-aggressive treatment options, such as radiation or surgery. However, many men who choose active surveillance live out their normal life span without treatment and without the cancer spreading or causing other problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Active surveillance for prostate cancer
+	</Title>
+	<Abstract>
+		Active surveillance for prostate cancer &amp;mdash; Overview covers definition, risks and what to expect.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

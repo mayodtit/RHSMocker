@@ -1,0 +1,292 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01196
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/membranous-nephropathy/DS01196
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-12
+		</UpdateDate>
+		<PublicationDate>
+			2011-10-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="4938" Title="Membranous nephropathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			876FB7D4-F866-4917-1B55AD849EC7E466
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nembranous nephropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				membranous glomerulonephritis
+			</MetaKeyword>
+			<MetaKeyword>
+				membranous glomerulopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Membranous nephropathy is a disease in which the small blood vessels in the kidney (glomeruli), which filter wastes from the blood, become inflamed and thickened. As a result, proteins leak from the damaged blood vessels into the urine (proteinuria). For many, the loss of these proteins eventually causes some signs and symptoms known as nephrotic syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+In mild cases, the disease often gets better on its own, without any treatment (remission). As the level of protein leakage increases, so does the risk of long-lasting damage. In many people (as many as 40 percent), the disease ultimately leads to kidney failure. Although there&apos;s no cure, treatments are available to slow the progress of the disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Membranous nephropathy usually develops gradually, so people often don&apos;t notice anything wrong. As you lose more protein from your blood, you may notice swelling in your legs and ankles and weight gain from excess fluid. Some people experience lots of swelling from the very beginning of the disease. Most people do not have any severe symptoms until their kidney disease is advanced. Signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling in the legs and ankles&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Poor appetite&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping&lt;/li&gt;
+	&lt;li&gt;Increased urination, especially at night&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Infections&lt;/li&gt;
+	&lt;li&gt;Frothy urine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you notice blood in your urine or swelling in your legs and ankles, or if your blood pressure goes up, you should see a doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Until recently, the cause of most cases of membranous nephropathy was not known &amp;mdash; termed idiopathic. But recent research has found evidence of autoimmune activity in a majority of cases studied. In autoimmune diseases, such as rheumatoid arthritis or lupus, your body&apos;s immune system mistakes some of your own tissues as foreign invaders and attacks them with autoantibodies. These autoantibodies are now thought to be the cause of the damage to the glomeruli in most cases of membranous nephropathy.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes membranous nephropathy is brought on by other causes, notably:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infections (hepatitis B and C)&lt;/li&gt;
+	&lt;li&gt;Certain medications (gold salts, nonsteroidal anti-inflammatory drugs)&lt;/li&gt;
+	&lt;li&gt;Tumors (solid tumors and lymphomas)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of membranous nephropathy include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions that can damage your kidneys.&lt;/strong&gt; Certain diseases and conditions increase your risk of developing membranous nephropathy, such as lupus and other autoimmune diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Examples of medications that can cause membranous nephropathy include nonsteroidal anti-inflammatory drugs and gold salts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain infections.&lt;/strong&gt; Examples of infections that increase the risk of membranous nephropathy include hepatitis B, hepatitis C and malaria.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High cholesterol.&lt;/strong&gt; Levels of cholesterol and triglycerides are often high in people with membranous nephropathy, which greatly increases their risk of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Loss of protein from the blood into the urine (proteinuria) in people with membranous nephropathy includes loss of proteins that help prevent clotting. So you are prone to having blood clots and are at risk of clots forming in deep veins or clots traveling to the lungs and blocking blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; The buildup of wastes in your bloodstream (uremia) and salt retention can raise your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; You are at increased risk of infections because you lose proteins in the urine that protect you from infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nephrotic syndrome.&lt;/strong&gt; This is a group of signs and symptoms that may accompany conditions that affect the filtering ability of the glomeruli. Nephrotic syndrome is characterized by high protein levels in the urine, low protein levels in the blood, high blood cholesterol, and swelling (edema) of the eyelids, feet and abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute kidney failure.&lt;/strong&gt; In severe cases of damage to the glomeruli, waste products may build up quickly in your blood. You may need emergency dialysis to remove extra fluids and waste from your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; Your kidneys may gradually lose their function over time to the point where you may require dialysis or a kidney transplant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. If your doctor suspects you may have a kidney problem, you may be referred to a doctor who specializes in the kidneys (nephrologist). 
+&lt;/p&gt;
+&lt;p&gt;
+To prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of the time with your doctor. Here are some basic questions to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have membranous nephropathy?&lt;/li&gt;
+	&lt;li&gt;What is causing it?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can I be cured?&lt;/li&gt;
+	&lt;li&gt;What can I expect long term (the prognosis)?&lt;/li&gt;
+	&lt;li&gt;If I need a kidney transplant, will that cure me or can the disease come back?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main sign of membranous nephropathy is the loss of protein, primarily albumin, from the blood into the urine (proteinuria). An otherwise healthy person would excrete less than 50 milligrams (one-thousandth of an ounce) of albumin a day in the urine. Someone with membranous nephropathy may excrete several hundred milligrams of albumin a day, up to more than 10 grams (four-tenths of an ounce) with advanced disease.
+&lt;/p&gt;
+&lt;p&gt;
+Tests used to determine the cause of the disease and how well your kidneys are functioning include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Urine tests to determine the amount of protein in the urine &amp;mdash; urine creatinine estimates the concentration of your urine&lt;/li&gt;
+	&lt;li&gt;Glomerular filtration rate (GFR), which tells how much kidney function you have&lt;/li&gt;
+	&lt;li&gt;Cholesterol and triglyceride (lipids) levels in your blood&lt;/li&gt;
+	&lt;li&gt;Fasting blood sugar and glycosylated hemoglobin tests for diabetes &lt;/li&gt;
+	&lt;li&gt;An antinuclear antibody test for collagen vascular disease&lt;/li&gt;
+	&lt;li&gt;Screening blood tests for autoimmune diseases&lt;/li&gt;
+	&lt;li&gt;Tests for hepatitis B and C&lt;/li&gt;
+	&lt;li&gt;Ultrasound or CT scans to examine the structure of your kidneys and urinary tract&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Removing a small piece of your kidney tissue for a pathologist to examine under a microscope (kidney biopsy) is the best way to identify the kind of kidney disease, to see how much damage has occurred and to evaluate the effectiveness of treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment focuses on addressing the cause of your disease and relieving your symptoms. There is no cure.
+&lt;/p&gt;
+&lt;p&gt;
+In cases where the disease is caused by a medication or another disease (such as a tumor), stopping the medication or controlling the other disease will usually improve your condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Conservative therapy&lt;/strong&gt;&lt;br /&gt;
+In general, the first step to control the loss of protein by the kidney is conservative treatment. This consists of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Controlling your blood pressure with the help of medications that block the angiotensin II system, such as angiotensin-converting enzyme (ACE) inhibitors&lt;/li&gt;
+	&lt;li&gt;Decreasing swelling (edema) with water pills (diuretics), which help remove sodium and water from your blood&lt;/li&gt;
+	&lt;li&gt;Controlling your cholesterol levels with the help of statin medications&lt;/li&gt;
+	&lt;li&gt;Reducing the amount of protein in your diet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Research has shown that as many as 30 percent of people with membranous nephropathy have a complete resolution of symptoms (remission) over several years without any treatment, and 10 to 30 percent have a partial remission. Doctors generally want to avoid using strong drugs, which have side effects, early in the course of the disease, when there&apos;s a chance that the disease will improve on its own.
+&lt;/p&gt;
+&lt;p&gt;
+If your urine protein level remains less than 4 grams a day and creatinine clearance remains normal for a six-month follow-up period, you are considered low risk. Creatinine is a waste product filtered from the blood by the kidney. You have only a small risk of developing serious kidney disease over five years.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Higher protein levels, higher risk&lt;/strong&gt;&lt;br /&gt;
+More intensive treatment is considered if the amount of protein in your urine increases. The more protein you have in your urine, the greater the risk to your health.
+&lt;/p&gt;
+&lt;p&gt;
+You are considered at moderate risk if your urine protein level stays between 4 and 8 grams a day with creatinine clearance at normal or near normal over six months of observation. About half the people with these symptoms develop serious kidney disease over five years.
+&lt;/p&gt;
+&lt;p&gt;
+You are considered high risk if the protein in your urine is greater than 8 grams a day and persists over the following months or if your kidney function is either below normal or decreases during the observation period. People with these symptoms have a high risk of progressing to serious kidney disease over five years.
+&lt;/p&gt;
+&lt;p&gt;
+If your proteinuria is getting worse, you may be prescribed drugs to suppress your immune system, such as a calcineurin inhibitor, or a combination of corticosteroids with a chemotherapy drug. (Corticosteroids alone rarely work in people with membranous nephropathy.) These drugs are effective in reducing urine protein levels and stopping the progress toward kidney failure. But they have significant side effects, they don&apos;t help everyone, and symptoms return for many people after treatment ends. Some of the side effects of chemotherapy drugs &amp;mdash; such as risk of bladder cancer, leukemia and infertility &amp;mdash; occur long term and may not be noticeable at the time of the treatment.
+&lt;/p&gt;
+&lt;p&gt;
+People who don&apos;t respond to a first course of immunosuppression therapy or who relapse may benefit from a second course of treatment.
+&lt;/p&gt;
+&lt;p&gt;
+A drug called rituximab (Rituxan) has shown effectiveness in people who have not benefited from immunosuppressive therapy. The drug kills B cells in the immune system. They are the cells that produce the antibodies that damage the glomeruli. However, use of this drug is still experimental and rituximab is expensive and not generally covered by insurance plans.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Talk to your doctor about how to reduce your chances of developing kidney disease. Your doctor may suggest:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having regular checkups&lt;/li&gt;
+	&lt;li&gt;Following your prescribed treatment for diabetes or high blood pressure&lt;/li&gt;
+	&lt;li&gt;Losing excess weight by following a healthy diet and regular exercise program&lt;/li&gt;
+	&lt;li&gt;Stopping smoking, if you are a smoker&lt;/li&gt;
+	&lt;li&gt;Limiting use of over-the-counter pain medications&lt;/li&gt;
+	&lt;li&gt;Making changes in your diet, such as eating less salt and less protein&lt;/li&gt;
+	&lt;li&gt;Limiting your intake of alcohol&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Membranous nephropathy
+	</Title>
+	<Abstract>
+		Comprehensive overview covers symptoms, treatment and causes of membranous nephropathy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ01212" LinkType="Internal" ObjectID="3900044F-0479-4EE7-B69ABBDC41E64B93" Title="Low-phosphorus diet: Best for kidney disease?" Url="http://www.mayoclinic.com/health/food-and-nutrition/HQ01212" />
+	</RelatedLinksBox>
+</Disease>

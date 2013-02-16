@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00997
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/orthostatic-hypotension/DS00997
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-20
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1146" Title="Low blood pressure">
+						<Keyword MCVID="4259" Title="Orthostatic hypotension" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9141CD50-E7FF-0DBD-1B36A508CCBCA2CE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				orthostatic hypotension
+			</MetaKeyword>
+			<MetaKeyword>
+				postural hypotension
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood pressure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Orthostatic hypotension &amp;mdash; also called postural hypotension &amp;mdash; is a form of low blood pressure that happens when you stand up from sitting or lying down. Orthostatic hypotension can make you feel dizzy or lightheaded, and maybe even faint. 
+&lt;/p&gt;
+&lt;p&gt;
+Orthostatic hypotension is often mild, lasting a few seconds to a few minutes after standing. However, long-lasting orthostatic hypotension can be a sign of more-serious problems, so talk to your doctor if you frequently feel lightheaded when standing up. It&apos;s even more urgent to see a doctor if you lose consciousness, even momentarily. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild orthostatic hypotension often doesn&apos;t need treatment. Many people occasionally feel dizzy or lightheaded after standing, and it&apos;s usually not cause for concern. The treatment for more-severe cases of orthostatic hypotension depends on the cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common symptom of orthostatic hypotension is feeling lightheaded or dizzy when you stand up after sitting or lying down. This feeling, and other symptoms, usually happens shortly after standing up and generally only lasts a few seconds. Orthostatic hypotension symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeling lightheaded or dizzy after standing up&lt;/li&gt;
+	&lt;li&gt;Blurry vision&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Occasional dizziness or lightheadedness may be relatively minor &amp;mdash; the result of mild dehydration, low blood sugar, or too much time in the sun or a hot tub, for example. Dizziness or lightheadedness may also happen when you stand after sitting for a long time, such as in a lecture, concert or church. If these symptoms happen only occasionally, it&apos;s usually not cause for concern. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to see your doctor if you experience frequent symptoms of orthostatic hypotension because they sometimes can point to more-serious problems. It can be helpful to keep a record of your symptoms, when they occur, how long they lasted and what you were doing at the time. If these occur at times that may endanger you or others, discuss this with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you stand up, gravity causes blood to pool in your legs. This decreases blood pressure because there&apos;s less blood circulating back to your heart to pump. Normally, special cells (baroreceptors) near your heart and neck arteries sense this lower blood pressure and counteract it by triggering your heart to beat faster and pump more blood, which stabilizes blood pressure. In addition, these cells cause blood vessels to narrow, which increases resistance to blood flow and increases blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Orthostatic or postural hypotension occurs when something interrupts the body&apos;s natural process of counteracting low blood pressure. Orthostatic hypotension can be caused by many different things, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Fever, vomiting, not drinking enough fluids, severe diarrhea and strenuous exercise with excessive sweating can all lead to dehydration. When you become dehydrated, your body loses blood volume. Even mild dehydration can cause symptoms of orthostatic hypotension, such as weakness, dizziness and fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Some heart conditions that can lead to low blood pressure include extremely low heart rate (bradycardia), heart valve problems, heart attack and heart failure. These conditions may cause orthostatic hypotension because they prevent your body from being able to respond rapidly enough to pump more blood when needed, such as when standing up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Untreated diabetes can cause dehydration by causing frequent urination. This can trigger orthostatic hypotension. In addition, diabetes can damage the nerves that help send signals regulating blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nervous system disorders.&lt;/strong&gt; Some diseases, such as Parkinson&apos;s disease, multiple system atrophy (Shy-Drager peripheral neuropathies) and amyloidosis, can disrupt your body&apos;s normal blood pressure regulation system.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk factors for orthostatic hypotension include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Orthostatic hypotension is common in those age 65 and older. As your body ages, the ability of special cells (baroreceptors) near your heart and neck arteries to regulate blood pressure can be slowed. Also, when you age, it may be harder for your heart to beat faster and compensate for drops in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; People who take certain medications, such as high blood pressure medication, have a greater risk of orthostatic hypotension. These include water pills (diuretics) and other drugs that treat high blood pressure; heart medications, such as beta blockers; drugs for Parkinson&apos;s disease or benign prostatic hyperplasia (BPH); tricyclic antidepressants; sildenafil (Revatio, Viagra), especially when used at the same time as nitroglycerin; narcotics; and alcohol. Using drugs that treat high blood pressure in combination with other prescription and over-the-counter medications may cause low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain diseases.&lt;/strong&gt; Parkinson&apos;s disease and some heart conditions put you at a greater risk of developing low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat exposure.&lt;/strong&gt; Being in a hot environment can cause you to sweat and, possibly, cause dehydration, which can lower your blood pressure and trigger orthostatic hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bed rest.&lt;/strong&gt; If you have to stay in bed a long time because of an illness, you may become weak. When you try to stand up, you may experience orthostatic hypotension. Once you&apos;re feeling better and regain your muscle strength, the orthostatic hypotension will likely improve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Because a woman&apos;s circulatory system expands rapidly during pregnancy, blood pressure is likely to drop. This could cause blood pressure to drop enough to cause orthostatic hypotension when standing up quickly. In addition, as the uterus expands, it can press on the large veins in the pelvis, reducing blood flow.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While mild forms of orthostatic hypotension may be a nuisance, more-serious complications are possible, especially in older adults. These complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Falling down as a result of fainting (syncope) is a common complication in people with orthostatic hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; The swings in blood pressure when you stand and sit as a result of orthostatic hypotension can be a risk factor for stroke due to the reduced blood supply to the brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparations are necessary to have your blood pressure checked. But, it&apos;s helpful if you wear a short-sleeved shirt or a loosefitting long-sleeved shirt that can be pushed up during your evaluation so that the blood pressure cuff can fit around your arm properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet for a blood test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of low blood pressure and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking. Because some medications &amp;mdash; such as over-the-counter cold medicines, antidepressants, birth control pills and others &amp;mdash; can affect your blood pressure, it&apos;s a good idea to bring a list of medications and supplements that you take to your doctor&apos;s appointment. Or, even better, bring the original bottles with you to your appointment. Don&apos;t stop taking any prescription medications that you think may affect your blood pressure without your doctor&apos;s advice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss your diet and exercise habits,&lt;/strong&gt; especially the amount of salt in your diet. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions may help you make the most of your time together. List your questions from most important to least important in case time runs out. For low blood pressure, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Could my medications be a factor?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;Would losing weight help my condition?&lt;/li&gt;
+	&lt;li&gt;Should I see a dietitian?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for low blood pressure?&lt;/li&gt;
+	&lt;li&gt;Should I learn to measure my own blood pressure at home?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any known medical problems?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking medication?&lt;/li&gt;
+	&lt;li&gt;Do you ever temporarily stop taking your medications because of side effects, or because of the expense?&lt;/li&gt;
+	&lt;li&gt;Have you lost or gained weight recently?&lt;/li&gt;
+	&lt;li&gt;How is your appetite?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal in evaluating orthostatic hypotension, as with all forms of low blood pressure, is to find the underlying cause. This helps determine the correct treatment and identify any heart, brain or nervous system problems that may be responsible for your low blood pressure. To help reach a diagnosis, your doctor may recommend one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure monitoring.&lt;/strong&gt; Your doctor will measure your blood pressure both while you&apos;re sitting and while you&apos;re standing and will compare the measurements. Your doctor will diagnose orthostatic hypotension if you have a 20 millimeters of mercury (mm Hg) drop in your systolic blood pressure or a 10 mm Hg drop in your diastolic blood pressure within three minutes of standing up, or if standing causes signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These can provide a certain amount of information about your overall health as well as whether you have low blood sugar (hypoglycemia) or a low number of red blood cells (anemia), both of which can cause low blood pressure. Your doctor will also check to see if you have diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This noninvasive test detects irregularities in your heart rhythm or heart structure, and problems with the supply of blood and oxygen to your heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This noninvasive exam, which includes an ultrasound of your chest, shows detailed images of your heart&apos;s structure and function. Ultrasound waves are transmitted, and their echoes are recorded with a device called a transducer that&apos;s held outside your body. A computer uses the information from the transducer to create moving images on a video monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; Some heart problems that can cause low blood pressure are easier to diagnose when your heart is working harder than when it&apos;s at rest. During a stress test, you&apos;ll exercise, such as walking on a treadmill. Or, you may be given medication to make your heart work harder if you&apos;re unable to exercise. When your heart is working harder, your heart will be monitored with electrocardiography or echocardiography. Your blood pressure also will be monitored.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tilt table test.&lt;/strong&gt; A tilt table test evaluates how your body reacts to changes in position. During the test, you lie on a table that begins flat and then tilts to raise the upper part of your body, which simulates the movement from a horizontal to standing position. Your blood pressure is taken frequently as the table is tilted.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valsalva maneuver.&lt;/strong&gt; This noninvasive test checks the functioning of your autonomic nervous system by analyzing your heart rate and blood pressure after several cycles of a type of deep breathing: You take a deep breath and then force the air out through your lips, as if you were trying to blow up a stiff balloon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ambulatory blood pressure and ECG recording.&lt;/strong&gt; This test involves wearing a blood pressure cuff for 24 hours with periodic automatic recording of your blood pressure. You&apos;ll also be fitted with a monitor to allow a continuous ECG reading. You will be asked to keep a diary and to try to capture an episode of intermittent orthostatic hypotension.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tilt table test 
+" Caption="In a tilt table test, you lie on a table that adjusts your body position from horizontal to vertical to simulate standing up. The test can tell your doctor if faulty brain signals are causing low blood pressure. 
+" Height="60" Title="Tilt table test" URI="/images/image_popup/thumbs/hb7_tilttablethu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tilt table test 
+" Caption="In a tilt table test, you lie on a table that adjusts your body position from horizontal to vertical to simulate standing up. The test can tell your doctor if faulty brain signals are causing low blood pressure. 
+" Height="452" Title="Tilt table test" URI="/images/image_popup/hb7_tilttable.jpg" Width="400" />
+				<HTML>
+					In a tilt table test, you lie on a table that adjusts your body position from horizontal to vertical to simulate standing up. The test can tell your doctor if faulty brain signals are causing low ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment for orthostatic hypotension depends on the underlying cause. Your doctor will try to address the underlying health problem &amp;mdash; dehydration or heart failure, for example &amp;mdash; rather than the low blood pressure itself. For mild orthostatic hypotension, one of the simplest treatments is to sit or lie down immediately after feeling lightheaded upon standing. Your symptoms of orthostatic hypotension usually disappear. 
+&lt;/p&gt;
+&lt;p&gt;
+When low blood pressure is caused by medications, treatment usually involves changing the dose of the medication or stopping it entirely. There are usually several options for treating orthostatic hypotension, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifestyle changes.&lt;/strong&gt; Drinking enough fluids, such as water; drinking little to no alcohol; avoiding walking during hot weather; and standing up slowly are things your doctor may suggest. Your doctor may also suggest exercise programs that strengthen your calf muscles. If you don&apos;t also have high blood pressure, your doctor might suggest increasing the amount of salt in your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression stockings.&lt;/strong&gt; The same elastic stockings and leotards commonly used to relieve the pain and swelling of varicose veins may help reduce the pooling of blood in your legs and reduce the symptoms of orthostatic hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Several medications, either used alone or together, can be used to treat orthostatic hypotension. For example, the drug fludrocortisone is often used to help increase the amount of fluid in your blood, which raises blood pressure. Doctors often use the drug midodrine (ProAmatine) to raise standing blood pressure levels. It works by limiting the ability of your blood vessels to expand, which in turn, raises blood pressure. Other drugs, such as pyridostigmine (Mestinon), nonsteroidal anti-inflammatory drugs (NSAIDs), caffeine and epoetin (Epogen, Procrit), are sometimes used, too, either alone or with other drugs for people who aren&apos;t helped with lifestyle changes or other medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are many simple steps to managing or preventing orthostatic hypotension. Some suggestions your doctor may have include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;More salt in your diet.&lt;/strong&gt; This must be done with care, and only after discussing it with your doctor. Too much salt can cause your blood pressure to increase beyond a healthy level, creating new health risks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of fluids.&lt;/strong&gt; Keeping hydrated helps prevent symptoms of low blood pressure. But, avoid or limit the amount of alcohol you drink, because alcohol can worsen orthostatic hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Exercise your calf muscles before sitting up. Also, when getting out of bed, sit on the edge of your bed for a minute before standing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid bending at the waist.&lt;/strong&gt; If you drop something on the floor, squat with your knees to recover it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear compression stockings.&lt;/strong&gt; These may help reduce the pooling of blood in your legs, thus reducing the symptoms of orthostatic hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go slow.&lt;/strong&gt; You may be able to reduce the dizziness and lightheadedness that occur with orthostatic hypotension by taking it easy when you move from a prone to a standing position. Instead of jumping out of bed in the morning, breathe deeply for a few minutes and then slowly sit up before standing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep position.&lt;/strong&gt; Sleeping with the head of your bed slightly elevated can help fight the effects of gravity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leg movements.&lt;/strong&gt; If you begin to get symptoms while standing, cross your thighs in a scissors fashion and squeeze or put one foot on a ledge or chair and lean as far forward as possible. These maneuvers encourage blood to flow from your legs to your heart.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Orthostatic hypotension (postural hypotension)
+	</Title>
+	<Abstract>
+		Orthostatic hypotension &amp;mdash; Comprehensive overview covers symptoms, treatment of this form of low blood pressure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01180" LinkType="Internal" ObjectID="8FA1E447-9FAA-8A0D-C4932F5017C91661" Title="Blood pressure test" Url="http://www.mayoclinic.com/health/blood-pressure-test/MY01180" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS00590" LinkType="Internal" ObjectID="771E6FEC-FBF4-4B5E-90D2E1AA9BA37D13" Title="Low blood pressure (hypotension)" Url="http://www.mayoclinic.com/health/low-blood-pressure/DS00590" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,390 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01035
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/edema/DS01035
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-13
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2745" Title="Edema" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BD46D6EC-E7FF-0DBD-18BE8F3FD0A9D154
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				edema
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				puffiness
+			</MetaKeyword>
+			<MetaKeyword>
+				leg edema
+			</MetaKeyword>
+			<MetaKeyword>
+				foot edema
+			</MetaKeyword>
+			<MetaKeyword>
+				ankle edema
+			</MetaKeyword>
+			<MetaKeyword>
+				facial edema
+			</MetaKeyword>
+			<MetaKeyword>
+				edema in leg
+			</MetaKeyword>
+			<MetaKeyword>
+				hand edema
+			</MetaKeyword>
+			<MetaKeyword>
+				arm edema
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen ankles
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen feet
+			</MetaKeyword>
+			<MetaKeyword>
+				leg swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				ankle swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen legs
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen face
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen hands
+			</MetaKeyword>
+			<MetaKeyword>
+				foot swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				hand swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen fingers
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling in hands
+			</MetaKeyword>
+			<MetaKeyword>
+				face swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				reduce swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling of the foot
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling of legs and feet
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling foot
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen abdomen
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Edema is swelling caused by excess fluid trapped in your body&apos;s tissues. Although edema can affect any part of your body, it&apos;s most commonly noticed in your hands, arms, feet, ankles and legs. 
+&lt;/p&gt;
+&lt;p&gt;
+Edema can be the result of medication, pregnancy or an underlying disease &amp;mdash; often heart failure, kidney disease or cirrhosis of the liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Taking medication to remove excess fluid and reducing the amount of salt in your food usually relieves edema. When edema is a sign of an underlying disease, the disease itself requires separate treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of edema include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling or puffiness of the tissue directly under your skin&lt;/li&gt;
+	&lt;li&gt;Stretched or shiny skin&lt;/li&gt;
+	&lt;li&gt;Skin that retains a dimple after being pressed for several seconds&lt;/li&gt;
+	&lt;li&gt;Increased abdominal size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment to see your doctor if you have swelling, stretched or shiny skin, or skin that retains a dimple after being pressed. Seek immediate medical attention if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing edema in ankle 
+" Caption="Swelling of the foot, ankle and leg can be severe enough to leave an indentation, or &quot;pit,&quot; when you press on the area. This swelling (edema) is the result of excessive fluid in your tissues &amp;mdash; often caused by congestive heart failure or blockage in a leg vein. 
+" Height="60" Title="Edema in ankle" URI="/images/image_popup/thumbs/mcdc7_edemafootthu.jpg" Width="60" />
+				<Image Alt="Illustration showing edema in ankle 
+" Caption="Swelling of the foot, ankle and leg can be severe enough to leave an indentation, or &quot;pit,&quot; when you press on the area. This swelling (edema) is the result of excessive fluid in your tissues &amp;mdash; often caused by congestive heart failure or blockage in a leg vein. 
+" Height="461" Title="Edema in ankle" URI="/images/image_popup/mcdc7_edema_foot.jpg" Width="400" />
+				<HTML>
+					Swelling of the foot, ankle and leg can be severe enough to leave an indentation, or &quot;pit,&quot; when you press on the area. This swelling (edema) is the result of excessive fluid in your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Edema occurs when tiny blood vessels in your body (capillaries) leak fluid and the fluid builds up in surrounding tissues, leading to swelling. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases of edema may result from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sitting or staying in one position for too long&lt;/li&gt;
+	&lt;li&gt;Eating too much salty food&lt;/li&gt;
+	&lt;li&gt;Premenstrual signs and symptoms&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Edema can be a side effect of some medications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drugs that open blood vessels&lt;/li&gt;
+	&lt;li&gt;Calcium channel blockers&lt;/li&gt;
+	&lt;li&gt;Nonsteroidal anti-inflammatory drugs&lt;/li&gt;
+	&lt;li&gt;Estrogens&lt;/li&gt;
+	&lt;li&gt;Certain diabetes medications called thiazolidinediones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, however, edema may be a sign of a more serious underlying medical condition. Diseases and conditions that may cause edema include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Congestive heart failure.&lt;/strong&gt; When one or both of your heart&apos;s lower chambers lose their ability to pump blood effectively &amp;mdash; as happens in congestive heart failure &amp;mdash; the blood can back up in your legs, ankles and feet, causing edema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cirrhosis.&lt;/strong&gt; Fluid may fluid accumulate in your abdominal cavity (ascites) and in your legs as a result of cirrhosis, a liver disease often caused by alcoholism. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney disease.&lt;/strong&gt; When you have kidney disease, extra fluid and sodium in your circulation may cause edema. The edema associated with kidney disease usually occurs in your legs and around your eyes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage.&lt;/strong&gt; Damage to the tiny, filtering blood vessels in your kidneys can result in nephrotic syndrome. In nephrotic syndrome, declining levels of protein (albumin) in your blood can lead to fluid accumulation and edema. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weak or damaged leg veins (chronic venous insufficiency).&lt;/strong&gt; One-way valves keep the blood in your leg veins moving toward your heart. If the valves stop working properly, blood can pool in your lower legs and cause swelling. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inadequate lymphatic system.&lt;/strong&gt; Your body&apos;s lymphatic system helps clear excess fluid from tissues. If this system is damaged &amp;mdash; for example, by cancer surgery &amp;mdash; the lymph nodes and lymph vessels draining an area may not work correctly and edema results. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Due to the fluid needed by the fetus and placenta, a pregnant woman&apos;s body retains more sodium and water than usual, increasing the risk of edema. 
+&lt;/p&gt;
+&lt;p&gt;
+Your risk of edema may be increased if you take certain medications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drugs that open blood vessels&lt;/li&gt;
+	&lt;li&gt;Calcium channel blockers&lt;/li&gt;
+	&lt;li&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs)&lt;/li&gt;
+	&lt;li&gt;Estrogens&lt;/li&gt;
+	&lt;li&gt;Diabetes medications called thiazolidinediones&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If left untreated, edema can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increasingly painful swelling&lt;/li&gt;
+	&lt;li&gt;Difficulty walking&lt;/li&gt;
+	&lt;li&gt;Stiffness&lt;/li&gt;
+	&lt;li&gt;Stretched skin, which can become itchy and uncomfortable&lt;/li&gt;
+	&lt;li&gt;Increased risk of infection in the swollen area&lt;/li&gt;
+	&lt;li&gt;Scarring between layers of tissue&lt;/li&gt;
+	&lt;li&gt;Decreased blood circulation&lt;/li&gt;
+	&lt;li&gt;Decreased elasticity of arteries, veins, joints and muscles&lt;/li&gt;
+	&lt;li&gt;Increased risk of skin ulcers&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unless you&apos;re already under a specialist&apos;s care for a current medical condition, you&apos;ll probably start by seeing your family doctor or regular health care provider to begin evaluation for what could be causing your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance to prepare for common diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated, and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider questions to ask your doctor&lt;/strong&gt; and write them down. Bring along notepaper and a pen to jot down information as your doctor addresses your questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For edema, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the possible causes of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my condition temporary?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems; will this treatment interfere with them?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor or health care provider is likely to ask you a number of questions. Being ready to answer them may reserve time for you and your doctor to review important points. 
+&lt;/p&gt;
+&lt;p&gt;
+Questions your doctor might ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;How long have you been experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to come and go or are they persistent?&lt;/li&gt;
+	&lt;li&gt;Have you had edema before?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better?&lt;/li&gt;
+	&lt;li&gt;Is there less swelling after a night&apos;s rest in bed?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;What kinds of foods do you regularly eat?&lt;/li&gt;
+	&lt;li&gt;Do you restrict your intake of salt and salty foods?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Do you seem to be urinating normally?&lt;/li&gt;
+	&lt;li&gt;Do you notice swelling all over your body, or does it seem to be localized to one area, such as an arm or leg?&lt;/li&gt;
+	&lt;li&gt;Does swelling diminish if you raise the swollen limb above heart level for an hour or so?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To understand what might be causing your edema, your doctor will perform a physical exam and ask you questions about your medical history. This information is often enough to determine the underlying cause of your edema. In some cases, X-rays, ultrasound exams, blood tests or urine analysis may be necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild edema usually goes away on its own, particularly if you help things along by raising the affected limb higher than your heart. More severe edema may be treated with drugs that help your body expel excess fluid in the form of urine. One of the most common diuretics is furosemide (Lasix). Long-term management typically focuses on treating the underlying cause of the swelling. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following may help decrease edema and keep it from coming back. Before trying these self-care techniques, talk to your doctor about which ones are right for you. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Movement.&lt;/strong&gt; Moving and using the muscles in the part of your body affected by edema may help pump the excess fluid back to your heart. Ask your doctor about exercises you can do that may reduce swelling. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; Hold the swollen part of your body above the level of your heart for at least 30 minutes three or four times a day. In some cases, elevating the affected body part while you sleep may be helpful. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; Stroking the affected area toward your heart using firm, but not painful, pressure may help move the excess fluid out of that area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; If one of your limbs is affected by edema, your doctor may recommend you wear compression stockings, sleeves or gloves. These garments keep pressure on your limbs to prevent fluid from collecting in the tissue. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce salt intake.&lt;/strong&gt; Follow your doctor&apos;s suggestions about limiting how much salt you consume. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Edema
+	</Title>
+	<Abstract>
+		Edema &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and self-care of tissue swelling.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01403" LinkType="Internal" ObjectID="B5709755-E7FF-0DBD-1B181036D7A5FA93" Title="Hand swelling during exercise: A concern?" Url="http://www.mayoclinic.com/health/hand-swelling/AN01403" />
+		<LinkItem ContentType="Answer" DocID="HQ00722" LinkType="Internal" ObjectID="0CEA2283-31A5-4223-A11C64BC1ED3227A" Title="Foot swelling during air travel: A concern?" Url="http://www.mayoclinic.com/health/foot-swelling/HQ00722" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00475
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/malaria/DS00475
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-25
+		</UpdateDate>
+		<PublicationDate>
+			2003-01-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1591" Title="Tropical">
+						<Keyword MCVID="2532" Title="Malaria" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1FD604AA-6EEC-4762-BC5407B0A88AFF2C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				malaria
+			</MetaKeyword>
+			<MetaKeyword>
+				mosquito
+			</MetaKeyword>
+			<MetaKeyword>
+				travel
+			</MetaKeyword>
+			<MetaKeyword>
+				tropical disease
+			</MetaKeyword>
+			<MetaKeyword>
+				infectious disease
+			</MetaKeyword>
+			<MetaKeyword>
+				ASAQ
+			</MetaKeyword>
+			<MetaKeyword>
+				Artesunate-Amodiaquine Winthrop
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Malaria is a disease caused by a parasite, transmitted by the bite of infected mosquitoes. Malaria produces recurrent attacks of chills and fever. Malaria kills an estimated 1 million people each year worldwide. 
+&lt;/p&gt;
+&lt;p&gt;
+While the disease is uncommon in temperate climates, malaria is still prevalent in tropical and subtropical countries. World health officials are trying to reduce the incidence of malaria by distributing bed nets to help protect people from mosquito bites as they sleep. Scientists around the world are working to develop a vaccine to prevent malaria. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re traveling to locations where malaria is common, take preventive medicine before, during and after your trip. Many malaria parasites are now immune to the most common drugs used to treat the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A malaria infection is generally characterized by recurrent attacks with the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Moderate to severe shaking chills&lt;/li&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Profuse sweating as body temperature falls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Malaria signs and symptoms typically begin within a few weeks after being bitten by an infected mosquito. However, some types of malaria parasites can lie dormant in your body for months, or even years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Talk to your doctor if you experience a high fever while living in or after traveling to a high-risk malaria region. The parasites that cause malaria can lie dormant in your body for months. If you have severe symptoms, seek emergency medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Malaria is caused by a type of microscopic parasite that&apos;s transmitted most commonly by mosquito bites. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mosquito transmission cycle&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Uninfected mosquito.&lt;/strong&gt; A mosquito becomes infected by feeding on a person who has malaria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transmission of parasite.&lt;/strong&gt; If you&apos;re the next person this mosquito bites, it can transmit malaria parasites to you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;In the liver.&lt;/strong&gt; The parasites then travel to your liver &amp;mdash; where they can lie dormant for as long as a year.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Into the bloodstream.&lt;/strong&gt; When the parasites mature, they leave the liver and infect your red blood cells. This is when people typically develop malaria symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;On to the next person.&lt;/strong&gt; If an uninfected mosquito bites you at this point in the cycle, it will become infected with your malaria parasites and can spread them to the next person it bites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other modes of transmission&lt;/strong&gt; &lt;br /&gt;
+Because the parasites that cause malaria affect red blood cells, people can also catch malaria from exposures to infected blood, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;From mother to unborn child&lt;/li&gt;
+	&lt;li&gt;Through blood transfusions&lt;/li&gt;
+	&lt;li&gt;By sharing needles used to inject drugs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing malaria transmission cycle 
+" Caption="Malaria spreads when a mosquito infected with malaria parasites bites a noninfected human. The parasites enter that person&apos;s bloodstream and migrate to the liver. When the parasites mature, they leave the liver and infect red blood cells. Mosquitoes become infected when they feed on infected people. 
+" Height="60" Title="Malaria transmission cycle" URI="/images/image_popup/thumbs/mcdc7_malaria_transmitthu.jpg" Width="60" />
+				<Image Alt="Illustration showing malaria transmission cycle 
+" Caption="Malaria spreads when a mosquito infected with malaria parasites bites a noninfected human. The parasites enter that person&apos;s bloodstream and migrate to the liver. When the parasites mature, they leave the liver and infect red blood cells. Mosquitoes become infected when they feed on infected people. 
+" Height="305" Title="Malaria transmission cycle" URI="/images/image_popup/mcdc7_malaria_transmit.jpg" Width="400" />
+				<HTML>
+					Malaria spreads when a mosquito infected with malaria parasites bites a noninfected human. The parasites enter that person&apos;s bloodstream and migrate to the liver. When the parasites mature, they ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The biggest risk factor for developing malaria is to live in or to visit tropical areas where the disease is common. Many different subtypes of malaria parasites exist. The variety that causes the most lethal complications is most commonly found in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;African countries south of the Sahara desert&lt;/li&gt;
+	&lt;li&gt;The Indian subcontinent&lt;/li&gt;
+	&lt;li&gt;Solomon Islands, Papua New Guinea and Haiti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risks of more severe disease&lt;/strong&gt; &lt;br /&gt;
+People at increased risk of serious disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Young children and infants&lt;/li&gt;
+	&lt;li&gt;Travelers coming from areas with no malaria&lt;/li&gt;
+	&lt;li&gt;Pregnant women and their unborn children&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Poverty, lack of knowledge, and little or no access to health care also contribute to malaria deaths worldwide. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immunity can wane&lt;/strong&gt; &lt;br /&gt;
+Residents of a malaria region may be exposed to the disease so frequently that they acquire a partial immunity, which can lessen the severity of malaria symptoms. However, this partial immunity can disappear if you move to a country where you&apos;re no longer frequently exposed to the parasite. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Malaria can be fatal, particularly the variety that&apos;s common in tropical parts of Africa. The Centers for Disease Control and Prevention estimate that 90 percent of all malaria deaths occur in Africa &amp;mdash; most commonly in children under the age of 5. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, malaria deaths are related to one or more of these serious complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral malaria.&lt;/strong&gt; If parasite-filled blood cells block small blood vessels to your brain (cerebral malaria), swelling of your brain or brain damage may occur. Cerebral malaria may cause coma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; Accumulated fluid in your lungs (pulmonary edema) can make it difficult to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Organ failure.&lt;/strong&gt; Malaria can cause your kidneys or liver to fail, or your spleen to rupture. Any of these conditions can be life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe anemia.&lt;/strong&gt; Malaria damages red blood cells, which can result in severe anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar.&lt;/strong&gt; Severe forms of malaria itself can cause low blood sugar, as can quinine &amp;mdash; one of the most common medications used to combat malaria. Very low blood sugar can result in coma or death.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Malaria may recur&lt;/strong&gt; &lt;br /&gt;
+Some varieties of the malaria parasite, which typically cause milder forms of the disease, can persist for years and cause relapses. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect you have malaria or that you&apos;ve been exposed, you&apos;re likely to start by seeing your family doctor. However, in some cases when you call to set up an appointment, you may be referred to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did they start?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled to or moved from a region in which malaria is common?&lt;/li&gt;
+	&lt;li&gt;Have you ever had malaria before?&lt;/li&gt;
+	&lt;li&gt;What types of medications and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical exam, your doctor may check your spleen and neurological functions, as well as look for other causes of fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood tests can show the presence of the parasite and help tailor treatment by determining:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Whether you have malaria&lt;/li&gt;
+	&lt;li&gt;Which type of malaria parasite is causing your symptoms&lt;/li&gt;
+	&lt;li&gt;If your infection is caused by a parasite resistant to certain drugs&lt;/li&gt;
+	&lt;li&gt;Whether the disease is affecting any of your vital organs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some blood tests can take several days to complete, while others can produce results in less than 15 minutes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The types of drugs and the length of treatment will vary, depending on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Which type of malaria parasite you have&lt;/li&gt;
+	&lt;li&gt;The severity of your symptoms&lt;/li&gt;
+	&lt;li&gt;Your age&lt;/li&gt;
+	&lt;li&gt;Whether you&apos;re pregnant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+The most common antimalarial drugs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chloroquine (Aralen)&lt;/li&gt;
+	&lt;li&gt;Quinine sulfate (Qualaquin)&lt;/li&gt;
+	&lt;li&gt;Hydroxychloroquine (Plaquenil)&lt;/li&gt;
+	&lt;li&gt;Mefloquine&lt;/li&gt;
+	&lt;li&gt;Combination of atovaquone and proguanil (Malarone)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The history of antimalarial medicine has been marked by a constant struggle between evolving drug-resistant parasites and the search for new drug formulations. In many parts of the world, for instance, resistance to chloroquine has rendered the drug ineffective. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re going to be traveling to a location where malaria is common, talk to your doctor a few months ahead of time about drugs you can take &amp;mdash; before, during and after your trip &amp;mdash; that can help protect you from malaria parasites. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, the drugs taken to prevent malaria are the same drugs used to treat the disease. Your doctor needs to know where you&apos;ll be traveling so that he or she can prescribe the drug that will work best on the type of malaria parasite most commonly found in that region. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;No vaccine yet&lt;/strong&gt; &lt;br /&gt;
+Scientists around the world are trying to develop a safe and effective vaccine for malaria. As of yet, however, there is still no malaria vaccine approved for human use. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reducing exposure to mosquitoes&lt;/strong&gt; &lt;br /&gt;
+In countries where malaria is common, prevention also involves keeping mosquitoes away from humans. Strategies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spraying your home.&lt;/strong&gt; Treating your home&apos;s walls with insecticide can help kill adult mosquitoes that come inside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleeping under a net.&lt;/strong&gt; Bed nets, particularly those treated with insecticide, are especially recommended for pregnant women and young children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Covering your skin.&lt;/strong&gt; During active mosquito times, usually from dusk to dawn, wear pants and long-sleeved shirts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spraying clothing and skin.&lt;/strong&gt; Sprays containing permethrin are safe to use on clothing, while sprays containing DEET can be used on skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Malaria
+	</Title>
+	<Abstract>
+		Malaria &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this infectious disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

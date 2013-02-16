@@ -1,0 +1,290 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00601
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ear-tubes/MY00601
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3883" Title="Ears nose and throat">
+						<Keyword MCVID="4183" Title="Surgery">
+							<Keyword MCVID="4186" Title="Ear tubes" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F1CF0A8F-E8A9-67FF-3554ABC68544C8BC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ear tubes
+			</MetaKeyword>
+			<MetaKeyword>
+				ear tube surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				drainage tubes
+			</MetaKeyword>
+			<MetaKeyword>
+				tympanostomy tubes
+			</MetaKeyword>
+			<MetaKeyword>
+				ventilation tubes
+			</MetaKeyword>
+			<MetaKeyword>
+				ear infection
+			</MetaKeyword>
+			<MetaKeyword>
+				middle ear infection
+			</MetaKeyword>
+			<MetaKeyword>
+				otitis media
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ear tubes (tympanostomy tubes, ventilation tubes, pressure equalization tubes) are tiny cylinders, usually made of plastic or metal, that are surgically inserted into the eardrum. An ear tube creates an airway that ventilates the middle ear and prevents the accumulation of fluids behind the eardrum. 
+&lt;/p&gt;
+&lt;p&gt;
+Ear tubes are often recommended for children who have persistent fluid buildup behind the eardrum, especially if the condition causes hearing loss and affects speech development. Your child&apos;s doctor may also recommend ear tubes if your child gets frequent ear infections. 
+&lt;/p&gt;
+&lt;p&gt;
+Most ear tubes fall out within six to 12 months, and the holes heal shut on their own. Some tubes need to be removed, and some holes may need to be closed surgically. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An ear tube is used most often to provide long-term drainage and ventilation to middle ears that have had persistent fluid buildup, chronic middle ear infections or frequent infections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal ear ventilation&lt;/strong&gt;&lt;br /&gt;
+Ventilation of the middle ear is normally accomplished by the eustachian tubes, a pair of narrow tubes than run from each middle ear to high in the back of the throat. The throat end of the tubes open and close to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Regulate air pressure in the middle ear&lt;/li&gt;
+	&lt;li&gt;Refresh air in the ear&lt;/li&gt;
+	&lt;li&gt;Drain normal secretions from the middle ear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Swelling, inflammation and mucus in the eustachian tubes from an upper respiratory infection or allergy can block them, causing the accumulation of fluids in the middle ear. This problem is more common in children, in part, because their eustachian tubes are narrower and more horizontal &amp;mdash; factors that make them more difficult to drain and more likely to get clogged. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ventilation with ear tubes&lt;/strong&gt;&lt;br /&gt;
+Ear tubes provide an alternative airway to keep the air in the middle ear refreshed, allow for normal drainage and equalize the pressure in the ear. The tubes are most often used in children with one of the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Otitis media with effusion&lt;/strong&gt; is inflammation and fluid buildup (effusion) in the middle ear without bacterial or viral infection. This may occur because the fluid buildup persists even after an ear infection has resolved. It may also occur because of some dysfunction or noninfectious blockage of the eustachian tubes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing loss&lt;/strong&gt; often results from otitis media with effusion. Hearing loss can lead to delays in speech development, communication problems, behavior problems and poor school performance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Middle ear infections&lt;/strong&gt; are generally considered frequent if there are three or more distinct episodes in six months or four or more episodes in a year. Ear tubes may help prevent recurring infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic middle ear infections&lt;/strong&gt; are long-term infections of the middle ear that don&apos;t improve with antibiotic treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic suppurative otitis media&lt;/strong&gt; is a persistent ear infection that results in tearing or perforation of the eardrum.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inside of your ear 
+" Caption="The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by a narrow passageway called the eustachian tube. The cochlea, a snail-shaped structure, is part of your inner ear.
+" Height="60" Title="Middle ear" URI="/images/image_popup/thumbs/ww5rp36t.jpg" Width="60" />
+				<Image Alt="Illustration showing inside of your ear 
+" Caption="The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by a narrow passageway called the eustachian tube. The cochlea, a snail-shaped structure, is part of your inner ear.
+" Height="299" Title="Middle ear" URI="/images/image_popup/ww5rp36.jpg" Width="400" />
+				<HTML>
+					The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ear tube placement is a relatively safe procedure with a low risk of serious complications. Possible risks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding and infection&lt;/li&gt;
+	&lt;li&gt;Persistent drainage of fluid&lt;/li&gt;
+	&lt;li&gt;Blocked tubes from blood, mucus or other secretions&lt;/li&gt;
+	&lt;li&gt;Scarring or weakening of the eardrum&lt;/li&gt;
+	&lt;li&gt;Tubes falling out too early or staying in too long&lt;/li&gt;
+	&lt;li&gt;Failure of eardrum to heal shut after the tube falls out or is removed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anesthesia&lt;/strong&gt; &lt;br /&gt;
+Surgery for ear tube placement usually requires general anesthesia, which carries some risks as well. Although the risks of anesthesia are very low in otherwise healthy children, possible problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allergic reaction&lt;/li&gt;
+	&lt;li&gt;Breathing difficulties&lt;/li&gt;
+	&lt;li&gt;Heart irregularities&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting after the procedure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll receive instructions from the hospital on how to prepare your child for surgery to place ear tubes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information&lt;/strong&gt; you&apos;ll likely be asked to provide includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;All medications your child takes regularly&lt;/li&gt;
+	&lt;li&gt;Your child&apos;s history or family history of adverse reactions to anesthetics&lt;/li&gt;
+	&lt;li&gt;Known allergy or other negative reactions to medications, such as antibiotics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions&lt;/strong&gt; you should ask your doctor or the hospital staff: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When does my child need to start fasting?&lt;/li&gt;
+	&lt;li&gt;What drugs can he or she take before surgery?&lt;/li&gt;
+	&lt;li&gt;When should we arrive at the hospital?&lt;/li&gt;
+	&lt;li&gt;Where do we need to check in?&lt;/li&gt;
+	&lt;li&gt;What is the expected recovery time?&lt;/li&gt;
+	&lt;li&gt;How will the anesthesia be administered &amp;mdash; with a face mask, injection or intravenous (IV) line?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tips for helping your child&lt;/strong&gt; prepare include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Start talking about the hospital visit a few days before the procedure.&lt;/li&gt;
+	&lt;li&gt;Explain that the procedure will help make his or her ears feel better or make it easier to hear.&lt;/li&gt;
+	&lt;li&gt;Explain that a special medicine will help him or her sleep during the surgery.&lt;/li&gt;
+	&lt;li&gt;Let your child pick out a favorite comfort toy, such as a blanket or stuffed animal, that you can take to the hospital.&lt;/li&gt;
+	&lt;li&gt;Explain that you will be there during the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A surgeon specializing in ear, nose and throat disorders (otolaryngologist) performs the surgery for placing ear tubes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anesthesia&lt;/strong&gt; &lt;br /&gt;
+The surgeon usually performs the procedure during general anesthesia, so your child isn&apos;t aware of anything during the procedure. The anesthetic medication may be inhaled through a mask, injected into a vein or both. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgical team places several monitors on your child&apos;s body to help make sure that his or her heart rate, blood pressure and blood oxygen remain at safe levels throughout the procedure. These monitors include a blood pressure cuff on the child&apos;s arm and heart-monitor leads attached to your child&apos;s chest. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the tube placement&lt;/strong&gt;&lt;br /&gt;
+The procedure usually takes about 15 minutes. The surgeon: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Makes a tiny incision in the eardrum (myringotomy) with a small scalpel or laser&lt;/li&gt;
+	&lt;li&gt;Suctions out fluids from the middle ear&lt;/li&gt;
+	&lt;li&gt;Inserts the tube in the hole in the eardrum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After ear tube placement&lt;/strong&gt; &lt;br /&gt;
+After surgery, your child is moved to a recovery room where the health care team watches for complications from the surgery and anesthesia. If there aren&apos;t any complications, your child will be able to go home within a few hours. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child will likely be sleepy and irritable for the rest of the day. In most cases, children resume regular activities within 24 hours of the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up care&lt;/strong&gt; &lt;br /&gt;
+Follow-up care after ear tube placement includes the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An initial follow-up appointment will be scheduled within the first two to four weeks after the procedure. Your otolaryngologist will check for appropriate placement and function of the tubes. Other follow-up appointments with the otolaryngologist or your primary care physician will be scheduled at four to six months intervals.&lt;/li&gt;
+	&lt;li&gt;Your doctor will also order a hearing test (audiogram) to assess hearing outcomes after the procedure.&lt;/li&gt;
+	&lt;li&gt;You may observe yellow, brown or bloody discharge from the ear (otorrhea) after tube placement. If drainage continues for more than a week, see your doctor.&lt;/li&gt;
+	&lt;li&gt;Your otolaryngologist may prescribe eardrops, such as ofloxacin (Floxin), to help minimize fluid discharge from the ear. Use the full course as directed by your doctor even if no drainage problems appear.&lt;/li&gt;
+	&lt;li&gt;Make an appointment with your otolaryngologist if your child experiences persistent pain, hearing problems or balance problems.&lt;/li&gt;
+	&lt;li&gt;Your doctor may suggest that your child wear earplugs during swimming or bathing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ear tubes help restore ventilation and drainage of the ear. Ear tube placement often results in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reduced risk of ear infections&lt;/li&gt;
+	&lt;li&gt;Restored or improved hearing&lt;/li&gt;
+	&lt;li&gt;Improved speech&lt;/li&gt;
+	&lt;li&gt;Improved behavior and sleep problems related to frequent or persistent ear infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even with ear tubes, your child may still get an occasional ear infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Usually, ear tubes stay in the eardrum for six to 12 months and then fall out on their own. Sometimes, a tube doesn&apos;t fall out and needs to be surgically removed. In some cases, the ear tube falls out too soon, and another needs to be put in. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ear tubes
+	</Title>
+	<Abstract>
+		Ear tubes &amp;mdash; Overview covers procedure and intended outcome of treatment for middle ear problems.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="CC00003" LinkType="Internal" ObjectID="375B9F20-3199-4C74-8E40CA18D7DE15D3" Title="Kids&apos; swimming: Keep health risks at bay" Url="http://www.mayoclinic.com/health/childrens-health/CC00003" />
+		<LinkItem ContentType="Disease" DocID="DS00303" LinkType="Internal" ObjectID="26E2955E-F791-43E3-BDA4C0F4182A9376" Title="Ear infection (middle ear)" Url="http://www.mayoclinic.com/health/ear-infections/DS00303" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,227 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00296
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/eeg/MY00296
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3851" Title="Nervous system">
+						<Keyword MCVID="3236" Title="EEG" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9602CBD0-E7FF-0DBD-17FC8BE1A811B9FC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				EEG
+			</MetaKeyword>
+			<MetaKeyword>
+				electroencephalogram
+			</MetaKeyword>
+			<MetaKeyword>
+				electroencephalography
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An electroencephalogram (EEG) is a painless procedure that uses small, flat metal discs (electrodes) attached to your scalp to detect electrical activity in your brain. Your brain cells communicate via electrical impulses and are active all the time, even when you&apos;re asleep. This activity shows up as wavy lines on an EEG recording. 
+&lt;/p&gt;
+&lt;p&gt;
+An EEG is one of the main diagnostic tests for epilepsy. An EEG may also play a role in diagnosing other brain disorders. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing brain activity recorded by an EEG 
+" Caption="An EEG records the electrical activity of your brain via electrodes affixed to your scalp. EEG results show changes in brain activity that may be useful in diagnosing brain conditions, especially epilepsy and other seizure disorders. 
+" Height="60" Title="EEG brain activity " URI="/images/image_popup/thumbs/bn7_eeg_resultsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing brain activity recorded by an EEG 
+" Caption="An EEG records the electrical activity of your brain via electrodes affixed to your scalp. EEG results show changes in brain activity that may be useful in diagnosing brain conditions, especially epilepsy and other seizure disorders. 
+" Height="342" Title="EEG brain activity" URI="/images/image_popup/bn7_eeg_results.jpg" Width="400" />
+				<HTML>
+					An EEG records the electrical activity of your brain via electrodes affixed to your scalp. EEG results show changes in brain activity that may be useful in diagnosing brain conditions, especially ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An EEG can determine changes in brain activity that may be useful in diagnosing brain disorders, especially epilepsy. An EEG may be helpful to confirm, rule out or provide information that helps with management of the following disorders: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Epilepsy or other seizure disorder&lt;/li&gt;
+	&lt;li&gt;Brain tumor&lt;/li&gt;
+	&lt;li&gt;Head injury&lt;/li&gt;
+	&lt;li&gt;Brain dysfunction that may have a variety of causes (encephalopathy)&lt;/li&gt;
+	&lt;li&gt;Inflammation of the brain (encephalitis)&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Sleep disorders&lt;/li&gt;
+	&lt;li&gt;Memory impairment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An EEG can&apos;t measure intelligence or detect mental illness. It may be used to confirm brain death in someone in a persistent coma.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+EEGs are safe and painless. Sometimes people with epilepsy have a seizure intentionally triggered during the test, but appropriate medical care is provided if needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for an EEG: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash your hair the night before or the day of the test, but don&apos;t use any conditioners, hair creams, sprays or styling gels.&lt;/li&gt;
+	&lt;li&gt;Avoid anything with caffeine six hours before the test.&lt;/li&gt;
+	&lt;li&gt;Take your usual medications unless instructed otherwise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re supposed to sleep during your EEG test, your doctor may ask you to sleep less or even avoid sleep entirely the night before your EEG. If you have trouble falling asleep for the test, you might be given a sedative to help you relax.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the test&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll feel little or no discomfort during an EEG. The electrodes don&apos;t transmit any sensations. They just record your brain waves. If you need to sleep during the EEG, you might be given a sedative beforehand to help you relax. During the test: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A technician measures your head and marks your scalp &lt;/strong&gt;with a type of pencil, to indicate where to attach the electrodes. Those spots on your scalp may be scrubbed with a gritty cream to improve the quality of the recording.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A technician attaches flat metal discs (electrodes) to your scalp&lt;/strong&gt; using a special adhesive. The electrodes are connected with wires to an instrument that amplifies &amp;mdash; makes bigger &amp;mdash; the brain waves and records them on computer equipment. Some people wear an elastic cap fitted with electrodes, instead of having the adhesive applied to their scalps. Once the electrodes are in place, an EEG typically takes 30 to 60 minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You relax in a comfortable position with your eyes closed during the test.&lt;/strong&gt; At various times, the technician may ask you to open and close your eyes, perform a few simple calculations, read a paragraph, look at a picture, breathe deeply (hyperventilate) for a few minutes, or look at a flashing light.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may want you to have a video EEG, which may require you to be admitted to a hospital. During this test, your body motions are captured by a video camera while the EEG simultaneously records your brain waves during a seizure. This may help your doctor pinpoint the location in your brain where seizures begin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;br /&gt;
+&lt;/strong&gt;After the test, the technician removes the electrodes or cap. If no sedative was given, you should feel no side effects after the procedure, and you can return to your normal routine. 
+&lt;/p&gt;
+&lt;p&gt;
+If you used a sedative, it may take about an hour to partially recover from the medication. You&apos;ll need someone to take you home because it can take up to a day for the full effects of the sedative to wear off. Rest and don&apos;t drive for the remainder of the day. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing EEG electrodes 
+" Caption="During an EEG, flat metal discs (electrodes) are attached to your scalp. The electrodes are connected to the EEG machine with wires. Some people wear an elastic cap fitted with electrodes, instead of having the adhesive applied to their scalps. 
+" Height="60" Title="EEG electrodes" URI="/images/image_popup/thumbs/bn7_eegthu.jpg" Width="60" />
+				<Image Alt="Illustration showing EEG electrodes 
+" Caption="During an EEG, flat metal discs (electrodes) are attached to your scalp. The electrodes are connected to the EEG machine with wires. Some people wear an elastic cap fitted with electrodes, instead of having the adhesive applied to their scalps. 
+" Height="474" Title="EEG electrodes" URI="/images/image_popup/bn7_eeg.jpg" Width="400" />
+				<HTML>
+					During an EEG, flat metal discs (electrodes) are attached to your scalp. The electrodes are connected to the EEG machine with wires. Some people wear an elastic cap fitted with electrodes, instead of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Technicians conduct the test. Doctors trained to analyze EEGs interpret the recording, and the results are sent to the doctor who ordered the EEG. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may schedule an office appointment to discuss the results of the test. If possible, bring along a family member or friend. It can be difficult to absorb all the information provided to you during an appointment. The person who accompanies you may remember something that you forgot or missed. 
+&lt;/p&gt;
+&lt;p&gt;
+Write down questions that you want to ask your doctor. Don&apos;t be afraid to ask questions or to speak up when you don&apos;t understand something your doctor says. Questions you may want to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Based on the results, what are my next steps?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+	&lt;li&gt;Are there any factors that might have affected the results of this test, and therefore may have altered the results?&lt;/li&gt;
+	&lt;li&gt;Will I need to repeat the test at some point?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing brain activity recorded by an EEG 
+" Caption="An EEG records the electrical activity of your brain via electrodes affixed to your scalp. EEG results show changes in brain activity that may be useful in diagnosing brain conditions, especially epilepsy and other seizure disorders. 
+" Height="60" Title="EEG brain activity " URI="/images/image_popup/thumbs/bn7_eeg_resultsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing brain activity recorded by an EEG 
+" Caption="An EEG records the electrical activity of your brain via electrodes affixed to your scalp. EEG results show changes in brain activity that may be useful in diagnosing brain conditions, especially epilepsy and other seizure disorders. 
+" Height="342" Title="EEG brain activity" URI="/images/image_popup/bn7_eeg_results.jpg" Width="400" />
+				<HTML>
+					An EEG records the electrical activity of your brain via electrodes affixed to your scalp. EEG results show changes in brain activity that may be useful in diagnosing brain conditions, especially ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		EEG (electroencephalogram)
+	</Title>
+	<Abstract>
+		EEG (electroencephalogram) &amp;mdash; Overview covers definition, risks, results of this diagnostic test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+		<LinkItem ContentType="Disease" DocID="DS00345" LinkType="Internal" ObjectID="9F7EDDDB-5C6D-4605-9C8DAD116CBF30E6" Title="Narcolepsy" Url="http://www.mayoclinic.com/health/narcolepsy/DS00345" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Disease" DocID="DS00281" LinkType="Internal" ObjectID="451633E9-4EE0-472F-AF180974A8E009E9" Title="Brain tumor" Url="http://www.mayoclinic.com/health/brain-tumor/DS00281" />
+		<LinkItem ContentType="Disease" DocID="DS01041" LinkType="Internal" ObjectID="42B7C5D4-E7FF-0DBD-185CFFAAFF4B7F8F" Title="Amnesia" Url="http://www.mayoclinic.com/health/amnesia/DS01041" />
+	</RelatedLinksBox>
+</TestProcedure>

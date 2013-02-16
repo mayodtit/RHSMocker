@@ -1,0 +1,142 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02192
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/honey-for-allergies/AN02192
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-15
+		</UpdateDate>
+		<PublicationDate>
+			2012-12-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			97C78A0D-982B-F2B1-311681AF6204AA46
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				honey for allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				home remedies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Probably not. Honey has been anecdotally reported to lessen symptoms in people with seasonal allergies. But these results haven&apos;t been consistently duplicated in clinical studies. 
+&lt;/p&gt;
+&lt;p&gt;
+Still the idea isn&apos;t so far-fetched. Honey has been studied as a cough suppressant and may have anti-inflammatory effects. In addition, some experts point out that honey can contain traces of flower pollen &amp;mdash; an allergen. And one treatment for allergies is repeated exposure to small amounts of allergens. 
+&lt;/p&gt;
+&lt;p&gt;
+For now, however, it appears that honey may just be a sweet placebo. But don&apos;t let that stop you from using it in food and beverages. Just don&apos;t give honey to children younger than 1 year because of the risk of infant botulism, a rare but serious form of food poisoning. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Can you use honey for allergies?
+	</Title>
+	<Abstract>
+		Heard the buzz about honey for allergies? Find out if this home remedy works.
+	</Abstract>
+	<Question>
+		Can honey lessen seasonal allergy symptoms?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Answer" DocID="AN01467" LinkType="Internal" ObjectID="52A9B9F4-E7FF-0DBD-15D383AF16C11258" Title="Aspirin allergy: What are the symptoms?" Url="http://www.mayoclinic.com/health/aspirin-allergy/AN01467" />
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="Disease" DocID="DS01148" LinkType="Internal" ObjectID="D083DF11-E543-F247-8C0C76E81FA6E12B" Title="Drug allergy" Url="http://www.mayoclinic.com/health/drug-allergy/DS01148" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Answer" DocID="AN01241" LinkType="Internal" ObjectID="B0F40A94-2A5D-9994-E46A807D9C5DB928" Title="Nasal spray addiction: Is it real?" Url="http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Answer" DocID="AN00443" LinkType="Internal" ObjectID="0B689DAB-0061-4909-8DA7ED35EA5FFE40" Title="Ozone air purifiers: Can they improve asthma symptoms?" Url="http://www.mayoclinic.com/health/asthma/AN00443" />
+		<LinkItem ContentType="Article" DocID="AA00045" LinkType="Internal" ObjectID="BFC355EF-E627-4E1E-BCFBD5F8874118DF" Title="Allergies and asthma: They often occur together" Url="http://www.mayoclinic.com/health/allergies-and-asthma/AA00045" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="MY02043" LinkType="Internal" ObjectID="07B557F4-A2B9-043C-78D72A34E46D527E" Title="Breast-feeding and medications: What&apos;s safe?" Url="http://www.mayoclinic.com/health/breastfeeding-and-medications/MY02043" />
+		<LinkItem ContentType="InteractiveTable" DocID="HQ01514" LinkType="Internal" ObjectID="C199612D-8333-47C0-94783CE38BF24864" Title="Allergy-proof your house" Url="http://www.mayoclinic.com/health/allergy/HQ01514" />
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+	</RelatedLinksBox>
+</Answer>

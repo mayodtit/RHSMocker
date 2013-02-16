@@ -1,0 +1,332 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01122
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/arthritis/DS01122
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-22
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			62AB3DE2-E7FF-0DBD-1A7467616FA82C1D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoarthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid arthritis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Arthritis is inflammation of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The two most common types of arthritis are osteoarthritis and rheumatoid arthritis. 
+&lt;/p&gt;
+&lt;p&gt;
+Osteoarthritis is usually caused by normal wear and tear, while rheumatoid arthritis is an autoimmune disorder. Other types of arthritis can be caused by uric acid crystals, infections or even an underlying disease, such as psoriasis or lupus.
+&lt;/p&gt;
+&lt;p&gt;
+Treatments vary depending on the type of arthritis. The main goals of arthritis treatments are to reduce symptoms and improve quality of life. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing difference between osteoarthritis and rheumatoid arthritis. 
+" Caption="The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid arthritis is an autoimmune disorder that causes inflammation of the synovial membrane and may result in bone loss. 
+" Height="60" Title="Osteoarthritis vs. rheumatoid arthritis" URI="/images/image_popup/thumbs/mcdc7_arthritis_typesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing difference between osteoarthritis and rheumatoid arthritis. 
+" Caption="The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid arthritis is an autoimmune disorder that causes inflammation of the synovial membrane and may result in bone loss. 
+" Height="575" Title="Osteoarthritis vs. rheumatoid arthritis" URI="/images/image_popup/mcdc7_arthritis_types.jpg" Width="400" />
+				<HTML>
+					The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common signs and symptoms of arthritis involve the joints. Depending on the type of arthritis you have, your signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Stiffness&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Decreased range of motion&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The two main types of arthritis &amp;mdash; osteoarthritis and rheumatoid arthritis &amp;mdash; damage joints in different ways. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Osteoarthritis&lt;br /&gt;
+&lt;/strong&gt;The most common type of arthritis, osteoarthritis involves wear-and-tear damage to your joint&apos;s cartilage &amp;mdash; the hard, slick coating on the ends of bones. Enough damage can result in bone grinding directly on bone, which causes pain and restricted movement. This wear and tear can occur over many years, or it can be hastened by a joint injury or infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rheumatoid arthritis&lt;br /&gt;
+&lt;/strong&gt;In rheumatoid arthritis, the body&apos;s immune system attacks the lining of the joint capsule, a tough membrane that encloses all the joint parts. This lining, known as the synovial membrane, becomes inflamed and swollen. The disease process can eventually destroy cartilage and bone within the joint.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing difference between osteoarthritis and rheumatoid arthritis. 
+" Caption="The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid arthritis is an autoimmune disorder that causes inflammation of the synovial membrane and may result in bone loss. 
+" Height="60" Title="Osteoarthritis vs. rheumatoid arthritis" URI="/images/image_popup/thumbs/mcdc7_arthritis_typesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing difference between osteoarthritis and rheumatoid arthritis. 
+" Caption="The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid arthritis is an autoimmune disorder that causes inflammation of the synovial membrane and may result in bone loss. 
+" Height="575" Title="Osteoarthritis vs. rheumatoid arthritis" URI="/images/image_popup/mcdc7_arthritis_types.jpg" Width="400" />
+				<HTML>
+					The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for arthritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Some types of arthritis run in families, so you may be more likely to develop arthritis if your parents or siblings have the disorder. Your genes can make you more susceptible to environmental factors that may trigger arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The risk of many types of arthritis &amp;mdash; including osteoarthritis, rheumatoid arthritis and gout &amp;mdash; increases with age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Women are more likely than are men to develop rheumatoid arthritis, while most of the people who have gout are men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous joint injury.&lt;/strong&gt; People who have injured a joint, perhaps while playing a sport, are more likely to eventually develop arthritis in that joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Carrying excess pounds puts stress on joints, particularly your knees, hips and spine. Obese people have a higher risk of developing arthritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Severe arthritis, particularly if it affects your hands or arms, can make it difficult for you to take care of daily tasks. Arthritis of weight-bearing joints can keep you from walking comfortably or sitting up straight. In some cases, joints may become twisted and deformed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you might first discuss your symptoms with your family doctor, he or she may refer you to a rheumatologist &amp;mdash; a doctor who specializes in the treatment of joint problems &amp;mdash; for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Because appointments can be brief, plan ahead and write a list that includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had in the past&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms start?&lt;/li&gt;
+	&lt;li&gt;Does activity make the pain better or worse?&lt;/li&gt;
+	&lt;li&gt;Is the pain in just one joint or many?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of joint pain?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check your joints for swelling, redness and warmth. He or she will also want to see how well you can move your joints. Depending on the type of arthritis suspected, your doctor may suggest some of the following tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;br /&gt;
+&lt;/strong&gt;The analysis of different types of body fluids can help pinpoint the type of arthritis you may have. Fluids commonly analyzed include blood, urine and joint fluid. To obtain a sample of your joint fluid, your doctor will cleanse and numb the area before inserting a needle in your joint space to withdraw some fluid (aspiration).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging&lt;br /&gt;
+&lt;/strong&gt;These types of tests can detect problems within your joint that may be causing your symptoms. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Using low levels of radiation to visualize bone, X-rays can show cartilage loss, bone damage and bone spurs. X-rays may not reveal early arthritic damage, but they are often used to track progression of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scanners take X-rays from many different angles and combine the information to create cross-sectional views of internal structures. CTs can visualize both bone and the surrounding soft tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Combining radio waves with a strong magnetic field, MRI can produce more-detailed cross-sectional images of soft tissues such as cartilage, tendons and ligaments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This technology uses high-frequency sound waves to image soft tissues, cartilage and fluid-containing structures such as bursae. Ultrasound also is used to guide needle placement for joint aspirations and injections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Arthroscopy&lt;br /&gt;
+&lt;/strong&gt;In some cases, your doctor may look for damage in your joint by inserting a small, flexible tube &amp;mdash; called an arthroscope &amp;mdash; through an incision near your joint. The arthroscope transmits images from inside the joint to a video screen.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Arthritis treatment focuses on relieving symptoms and improving joint function. You may need to try several different treatments, or combinations of treatments, before you determine what works best for you.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;The medications used to treat arthritis vary depending on the type of arthritis. Commonly used arthritis medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Analgesics.&lt;/strong&gt; These types of medications help reduce pain, but have no effect on inflammation. Examples include acetaminophen (Tylenol, others), tramadol (Ultram, Ryzolt, others) and narcotics containing oxycodone (Percocet, Oxycontin, others) or hydrocodone (Vicodin, Lortab, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; NSAIDs reduce both pain and inflammation. Over-the-counter NSAIDs include ibuprofen (Advil, Motrin IB, others) and naproxen (Aleve). Some types of NSAIDs are available only by prescription. Oral NSAIDs can cause stomach irritation, and some may increase your risk of heart attack or stroke. Some NSAIDs are also available as creams or gels, which can be rubbed on joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Counterirritants.&lt;/strong&gt; Some varieties of creams and ointments contain menthol or capsaicin, the ingredient that makes hot peppers spicy. Rubbing these preparations on the skin over your aching joint may interfere with the transmission of pain signals from the joint itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease-modifying antirheumatic drugs (DMARDs).&lt;/strong&gt; Often used to treat rheumatoid arthritis, DMARDs slow or stop your immune system from attacking your joints. Examples include methotrexate (Trexall) and hydroxychloroquine (Plaquenil).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biologics.&lt;/strong&gt; Typically used in conjunction with DMARDs, biologic response modifiers are genetically engineered drugs that target various protein molecules that are involved in the immune response. Examples include etanercept (Enbrel) and infliximab (Remicade).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; This class of drug, which includes prednisone and cortisone, reduces inflammation and suppresses the immune system. Corticosteroids can be taken orally or be injected directly into the painful joint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Physical therapy can be helpful for some types of arthritis. Exercises can improve range of motion and strengthen the muscles surrounding joints. In some cases, splints or braces may be warranted.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If conservative measures don&apos;t help, your doctor may suggest surgery, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joint replacement.&lt;/strong&gt; This procedure removes your damaged joint and replaces it with an artificial one. Joints most commonly replaced are hips and knees.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint fusion.&lt;/strong&gt; This procedure is more often used for smaller joints, such as those in the wrist, ankle and fingers. It removes the ends of the two bones in the joint and then locks those ends together until they heal into one rigid unit.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; If you&apos;re obese, losing weight will reduce the stress on your weight-bearing joints. This may increase your mobility and limit future joint injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Regular exercise can help keep your joints flexible. Swimming or water aerobics is often a good choice because the buoyancy of the water reduces stress on weight-bearing joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat and cold.&lt;/strong&gt; Heating pads or ice packs may help relieve arthritis pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Assistive devices.&lt;/strong&gt; Using canes, walkers, raised toilet seats and other assistive devices can help protect your joints and improve your ability to perform daily tasks. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people use alternative remedies for arthritis, but there is little reliable evidence to support the use of many of these products. The most promising alternative remedies for arthritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This therapy uses fine needles inserted at specific points on the skin to reduce many types of pain, including that caused by some types of arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glucosamine.&lt;/strong&gt; Although study results have been mixed, it now appears that glucosamine works no better than placebo. However, glucosamine and the placebo both relieved arthritis pain better than taking nothing, particularly in people who have moderate to severe pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transcutaneous electrical nerve stimulation (TENS).&lt;/strong&gt; Using a small device that produces mild electrical pulses, TENS therapy stimulates nerves near the aching joint and may interfere with the transmission of pain signals to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga or tai chi.&lt;/strong&gt; The slow, stretching movements associated with yoga and tai chi may help improve joint flexibility and range of motion in people with some types of arthritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Arthritis
+	</Title>
+	<Abstract>
+		Arthritis &amp;mdash; Comprehensive overview covers arthritis symptoms, arthritis treatment and types of arthritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01972" LinkType="Internal" ObjectID="FB245463-EC31-A827-2386FFF380442C09" Title="Osteoporosis and long-term prednisone: What is the risk?" Url="http://www.mayoclinic.com/health/osteoporosis-prednisone/AN01972" />
+		<LinkItem ContentType="Answer" DocID="AN01197" LinkType="Internal" ObjectID="BB964312-4466-439F-B6BF8ED1A4A713CC" Title="Mangosteen juice: Can it relieve arthritis pain?" Url="http://www.mayoclinic.com/health/mangosteen/AN01197" />
+		<LinkItem ContentType="Answer" DocID="AN00619" LinkType="Internal" ObjectID="7E7334DE-3DB7-4425-AF6021DFD9733C8B" Title="Glucosamine: Does it protect cartilage in osteoarthritis?" Url="http://www.mayoclinic.com/health/glucosamine/AN00619" />
+		<LinkItem ContentType="Answer" DocID="AN00345" LinkType="Internal" ObjectID="458CEF41-C2AD-4A8A-80C97E54097F2838" Title="Rheumatoid arthritis: Can it affect the lungs?" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/AN00345" />
+		<LinkItem ContentType="Answer" DocID="AN00198" LinkType="Internal" ObjectID="384C0BBB-6F86-448A-A4FC84750AC30C0A" Title="Rheumatoid arthritis diet: Do certain foods reduce symptoms?" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/AN00198" />
+		<LinkItem ContentType="Answer" DocID="AN01485" LinkType="Internal" ObjectID="307A53B0-E7FF-0DBD-1FE8A9D03F3C395B" Title="Rheumatoid arthritis: Can it affect the eyes?" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/AN01485" />
+		<LinkItem ContentType="Answer" DocID="AN00124" LinkType="Internal" ObjectID="08F89ABA-6E61-41E1-B526FF9AAC5BCFE0" Title="&apos;Degenerative changes&apos; in the spine: Is this arthritis?" Url="http://www.mayoclinic.com/health/arthritis/AN00124" />
+		<LinkItem ContentType="Answer" DocID="AN01723" LinkType="Internal" ObjectID="04C5153C-E7FF-0DBD-114DEF772F0DCB6E" Title="Glucosamine: Does it affect blood sugar?" Url="http://www.mayoclinic.com/health/glucosamine/AN01723" />
+		<LinkItem ContentType="Article" DocID="AR00015" LinkType="Internal" ObjectID="DB87B489-AD43-45C9-A525FB2EA58168FC" Title="Rheumatoid arthritis pain: Tips for protecting your joints" Url="http://www.mayoclinic.com/health/arthritis/AR00015" />
+		<LinkItem ContentType="Article" DocID="PN00041" LinkType="Internal" ObjectID="6FD00550-05BE-4813-9D4B41564D8A04F4" Title="Arthritis pain: Creams and gels for aching joints" Url="http://www.mayoclinic.com/health/pain-medications/PN00041" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+		<LinkItem ContentType="Disease" DocID="DS00020" LinkType="Internal" ObjectID="09CF7868-4035-4B73-907328F854F7F0A3" Title="Rheumatoid arthritis" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/DS00020" />
+		<LinkItem ContentType="Answer" DocID="AN02031" LinkType="Internal" ObjectID="9FFC80BA-FA7A-A754-93EDAC67D262B991" Title="Isometric exercises: Good for strength training?" Url="http://www.mayoclinic.com/health/isometric-exercises/AN02031" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="Answer" DocID="AN01624" LinkType="Internal" ObjectID="3C7A2ED7-E7FF-0DBD-1AB2387C6D64F876" Title="Prednisone withdrawal: Why taper down slowly?" Url="http://www.mayoclinic.com/health/prednisone-withdrawal/AN01624" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="Article" DocID="MY02165" LinkType="Internal" ObjectID="78017033-F62A-355B-BD0EF7B977FA63C0" Title="Exercise and chronic disease: Get the facts" Url="http://www.mayoclinic.com/health/exercise-and-chronic-disease/MY02165" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="SlideShow" DocID="AR00030" LinkType="Internal" ObjectID="D1D4A737-62B3-4E7F-84CAE1AD9FD4EA1F" Title="Slide show: Hand exercises for people with arthritis" Url="http://www.mayoclinic.com/health/arthritis/AR00030" />
+		<LinkItem ContentType="Answer" DocID="AN01520" LinkType="Internal" ObjectID="CED45E72-E7FF-0DBD-1E04A939982EBF1F" Title="Botox injections: Can they relieve arthritis pain?" Url="http://www.mayoclinic.com/health/botox-injections/AN01520" />
+		<LinkItem ContentType="Answer" DocID="AN00560" LinkType="Internal" ObjectID="C2BFC2FA-4AF6-426F-AD78C67CF11D02D6" Title="MSM for arthritis pain: Is it safe?" Url="http://www.mayoclinic.com/health/msm/AN00560" />
+		<LinkItem ContentType="Answer" DocID="AN01830" LinkType="Internal" ObjectID="BDEB97A3-E7FF-0DBD-120CA74B1165F79B" Title="Water exercise: Does pool temperature matter?" Url="http://www.mayoclinic.com/health/water-exercise/AN01830" />
+		<LinkItem ContentType="Answer" DocID="AN01585" LinkType="Internal" ObjectID="BDB43F9B-E7FF-0DBD-1AA1144D6F65930B" Title="Arthritis pain medications: Do they raise blood pressure?" Url="http://www.mayoclinic.com/health/arthritis-pain-medications/AN01585" />
+		<LinkItem ContentType="Answer" DocID="AN01107" LinkType="Internal" ObjectID="6040C9B2-9775-4602-9C0B499B36B6AC47" Title="Yucca: Can it relieve arthritis pain?" Url="http://www.mayoclinic.com/health/arthritis/AN01107" />
+		<LinkItem ContentType="SlideShow" DocID="AR00027" LinkType="Internal" ObjectID="55609D76-3CDE-46D9-86B8AE68C63EE763" Title="Slide show: Joint protection for people with hand arthritis" Url="http://www.mayoclinic.com/health/joint-protection/AR00027" />
+		<LinkItem ContentType="Disease" DocID="DS00334" LinkType="Internal" ObjectID="99113EB3-F398-4CFD-A285ECEC082DDD9E" Title="Polymyositis" Url="http://www.mayoclinic.com/health/polymyositis/DS00334" />
+		<LinkItem ContentType="Article" DocID="AR00009" LinkType="Internal" ObjectID="DC1428F9-E845-42FD-BED154040E37FACC" Title="Exercise helps ease arthritis pain and stiffness" Url="http://www.mayoclinic.com/health/arthritis/AR00009" />
+		<LinkItem ContentType="Article" DocID="AR00029" LinkType="Internal" ObjectID="89A0E006-944C-4663-8C310E426EA052EF" Title="Arthritis pain: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/arthritis/AR00029" />
+	</RelatedLinksBox>
+</Disease>

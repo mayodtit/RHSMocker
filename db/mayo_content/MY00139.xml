@@ -1,0 +1,234 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00139
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/capsule-endoscopy/MY00139
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-27
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3652" Title="Digestive system">
+						<Keyword MCVID="3892" Title="Capsule endoscopy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF5B6DD3-E7FF-0DBD-18A888DA7E767449
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				capsule endoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				endoscopy capsule
+			</MetaKeyword>
+			<MetaKeyword>
+				wireless endoscopy capsule
+			</MetaKeyword>
+			<MetaKeyword>
+				pill cam
+			</MetaKeyword>
+			<MetaKeyword>
+				pillcam
+			</MetaKeyword>
+			<MetaKeyword>
+				video capsule endoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				capsule video endoscopy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Capsule endoscopy is a procedure that uses a tiny wireless camera to take pictures of your digestive tract. The camera sits inside a vitamin-sized capsule that you swallow. As the capsule travels through your digestive tract, the camera takes thousands of pictures that are transmitted to a recorder you wear on a belt around your waist or over your shoulder. 
+&lt;/p&gt;
+&lt;p&gt;
+Capsule endoscopy helps doctors see inside your small intestine &amp;mdash; an area that isn&apos;t easily reached with conventional endoscopy. Capsule endoscopy can be used by adults and by children who can swallow the capsule. The procedure is usually started in a doctor&apos;s office. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="&amp;nbsp;Illustration of a capsule endoscopy camera
+" Caption="During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images and an antenna that sends those images to a recorder you carry with you.
+" Height="60" Title="Capsule endoscopy camera" URI="/images/image_popup/thumbs/mcdc7_capsuleendoscopythu.jpg" Width="60" />
+				<Image Alt="&amp;nbsp;Illustration of a capsule endoscopy camera
+" Caption="During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images and an antenna that sends those images to a recorder you carry with you.
+" Height="420" Title="Capsule endoscopy camera" URI="/images/image_popup/mcdc7_capsule_endoscopy.jpg" Width="400" />
+				<HTML>
+					During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Capsule endoscopy helps your doctor see inside your small intestine. Your small intestine, located between your stomach and your colon, can be difficult to reach with conventional endoscopy and imaging tests. Capsule endoscopy can also provide better imaging of the lining of the small intestine than can other tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend capsule endoscopy to help diagnose or treat: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obscure gastrointestinal bleeding.&lt;/strong&gt; Capsule endoscopy can help find the cause of gastrointestinal bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory bowel diseases.&lt;/strong&gt; Capsule endoscopy may reveal areas of inflammation in the small intestine that can help your doctor diagnose Crohn&apos;s disease and other inflammatory bowel diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Capsule endoscopy can identify tumors in the small intestine that otherwise might be difficult to detect. Capsule endoscopy sometimes is done in conjunction with CT enterography because CT enterography can indicate tumors within the small bowel wall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Celiac disease.&lt;/strong&gt; Some small studies suggest that capsule endoscopy can detect intestinal changes associated with celiac disease &amp;mdash; an immune reaction to eating gluten &amp;mdash; and can help detect complications of the condition. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polyps.&lt;/strong&gt; People who have inherited polyposis syndromes that can cause polyps in the small intestine, such as Peutz-Jeghers syndrome, may occasionally have capsule endoscopy to screen for polyps.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of small intestine &amp;mdash; duodenum, jejunum and ileum. 
+" Caption="Capsule endoscopy is often used to help your doctor see inside your small intestine. Your small intestine, which is composed of three sections, runs from your stomach to your colon. 
+" Height="60" Title="Small intestine" URI="/images/image_popup/thumbs/d7_smallintestinethu.jpg" Width="60" />
+				<Image Alt="Illustration of small intestine &amp;mdash; duodenum, jejunum and ileum. 
+" Caption="Capsule endoscopy is often used to help your doctor see inside your small intestine. Your small intestine, which is composed of three sections, runs from your stomach to your colon. 
+" Height="293" Title="Small intestine" URI="/images/image_popup/d7_smallintestine.jpg" Width="400" />
+				<HTML>
+					Capsule endoscopy is often used to help your doctor see inside your small intestine. Your small intestine, which is composed of three sections, runs from your stomach to your colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Capsule endoscopy is generally a safe procedure that carries few risks for adults or for children who are able to swallow the capsule. In most cases, the capsule leaves your body when you have a bowel movement later in the day or within several days. It does not need to be retrieved. 
+&lt;/p&gt;
+&lt;p&gt;
+Occasionally, the capsule can become lodged in the digestive tract. The risk is under 1.5 percent for most people who have capsule endoscopy. The risk may be higher in people diagnosed with Crohn&apos;s disease (5 to 13 percent) or people who have an intestinal blockage (up to 25 percent). Your doctor may recommend barium X-ray, CT or MRI tests&lt;em&gt; &lt;/em&gt;before capsule endoscopy if you have symptoms of intestinal blockage. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re not experiencing any signs and symptoms of the capsule being stuck, your doctor may wait to see whether the capsule eventually leaves your body on its own. It&apos;s very unusual for a retained capsule to cause any symptoms. If the capsule is retained, surgery may be considered. The capsule can also be retrieved using balloon enteroscopy, which involves inserting a long, thin tube equipped with a camera down your throat or up through your rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have a permanent pacemaker or defibrillator&lt;em&gt; &lt;/em&gt;may be hospitalized during capsule endoscopy for electrocardiographic monitoring during the procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for capsule endoscopy, your doctor may ask that you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Restrict your diet.&lt;/strong&gt; You probably will be asked to have only clear liquids for 24 hours before the procedure and nothing by mouth the morning of the procedure, to help ensure that the camera captures clear images of your digestive tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop or delay taking certain medications,&lt;/strong&gt; to prevent them from interfering with the camera.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid strenuous exercise or heavy lifting&lt;/strong&gt; after the procedure. You&apos;ll be able to do most normal activities after swallowing the capsule that contains the camera. But if you have an active job, ask your doctor whether you can go back to work on the day of your capsule endoscopy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Failure to follow your doctor&apos;s instructions may mean having to reschedule your capsule endoscopy procedure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During capsule endoscopy&lt;/strong&gt; &lt;br /&gt;
+Some capsule endoscopy devices require adhesive patches that are attached to your abdomen. Each patch contains an antenna with wires that connect to a recorder. The recorder collects and stores the pictures taken by the camera as it passes through your digestive tract. You wear the recorder on a special belt around your waist or in a bag over your shoulder. 
+&lt;/p&gt;
+&lt;p&gt;
+Once the recorder is connected, you will be asked to swallow the camera capsule. It&apos;s about the size of a large vitamin pill. A slippery coating makes the capsule easier to swallow. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the capsule endoscopy&lt;/strong&gt; &lt;br /&gt;
+You can generally go about your normal activities while the camera pill passes through your digestive tract. You may be asked to avoid repetitive movements that could disrupt the recorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Capsule endoscopy can be done with a camera that takes pictures for eight hours or 12 hours. Your doctor will tell you which type of capsule endoscopy you are having, and when you can resume eating and drinking. 
+&lt;/p&gt;
+&lt;p&gt;
+The procedure is complete after eight or 12 hours or when you see the camera capsule in the toilet after a bowel movement. Remove the antenna patches and the recorder. Pack them in a bag and follow your doctor&apos;s instructions for returning the equipment. 
+&lt;/p&gt;
+&lt;p&gt;
+You don&apos;t need to collect the camera capsule &amp;mdash; it can be safely flushed down the toilet. 
+&lt;/p&gt;
+&lt;p&gt;
+Your body may expel the camera capsule within hours, or it may be expelled after several days. Each person&apos;s digestive system is different. If you don&apos;t see the capsule in the toilet within two weeks, contact your doctor. An X-ray may be done to see if the capsule is still in your body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="&amp;nbsp;Illustration of a capsule endoscopy camera
+" Caption="During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images and an antenna that sends those images to a recorder you carry with you.
+" Height="60" Title="Capsule endoscopy camera" URI="/images/image_popup/thumbs/mcdc7_capsuleendoscopythu.jpg" Width="60" />
+				<Image Alt="&amp;nbsp;Illustration of a capsule endoscopy camera
+" Caption="During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images and an antenna that sends those images to a recorder you carry with you.
+" Height="420" Title="Capsule endoscopy camera" URI="/images/image_popup/mcdc7_capsule_endoscopy.jpg" Width="400" />
+				<HTML>
+					During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The camera used in capsule endoscopy takes thousands of color photos as it passes through your digestive tract. The images saved on the recorder are transferred to a computer with special software that strings the images together to create a video. Your doctor watches the video to look for abnormalities within your digestive tract.
+&lt;/p&gt;
+&lt;p&gt;
+It may take a few days to a week to receive the results of your capsule endoscopy. Your doctor will then share the results with you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Capsule endoscopy
+	</Title>
+	<Abstract>
+		Capsule endoscopy &amp;mdash; Overview covers definition, risks, results of swallowing a pill camera.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

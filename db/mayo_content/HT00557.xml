@@ -1,0 +1,64 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00557
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00557
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="4022" Title="Nutrition basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1633D802-E7FF-0DBD-1298F2D160F5D68A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fiber
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Need more fiber? Do it the easy way
+	</Title>
+	<Body>
+		&lt;p&gt;Fiber is probably best known for its ability to prevent or relieve constipation. But fiber can do much more, such as lower your risk of diabetes and heart disease. Consider these easy ways to include more fiber in your diet: 1. Choose cereal that has at least 5 grams of fiber per serving. 2. Choose whole-grain breads that have at least 2 grams of fiber per serving. 3. Switch to brown rice and whole-wheat pasta. 4. Snack on fresh fruit, chopped veggies, low-fat popcorn or whole-grain crackers. 5. Add extra veggies to salads, soups and casseroles.&lt;/p&gt;
+	</Body>
+</HealthTip>

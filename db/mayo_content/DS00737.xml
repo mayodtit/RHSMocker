@@ -1,0 +1,285 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00737
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/achilles-tendinitis/DS00737
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-02
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2730" Title="Achilles tendinitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E137748B-2A5D-9994-EC8FFFE84D927A29
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Achilles tendinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Achilles tendon
+			</MetaKeyword>
+			<MetaKeyword>
+				tendinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Achilles tendonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tendonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				Achilles tendinopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				Achilles tendinosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Achilles tendinitis is an overuse injury of the Achilles (uh-KIL-eez) tendon, the band of tissue that connects calf muscles at the back of the lower leg to your heel bone.
+&lt;/p&gt;
+&lt;p&gt;
+Achilles tendinitis most commonly occurs in runners who have suddenly increased the intensity or duration of their runs. It&apos;s also common in middle-aged people who play sports, such as tennis or basketball, only on the weekends.
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of Achilles tendinitis can be treated with relatively simple, at-home care under your doctor&apos;s supervision. Self-care strategies are usually necessary to prevent recurring episodes. More-serious cases of Achilles tendinitis can lead to tendon tears (ruptures) that may require surgical repair.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The pain associated with Achilles tendinitis typically begins as a mild ache in the back of the leg or above the heel after running or other sports activity. Episodes of more severe pain may occur after prolonged running, stair climbing or sprinting.
+&lt;/p&gt;
+&lt;p&gt;
+You might also experience tenderness or stiffness, especially in the morning, which usually improves with mild activity.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience persistent pain around the Achilles tendon, call your doctor. Seek immediate medical attention if the pain or disability is severe. You may have a torn (ruptured) Achilles tendon.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Achilles tendinitis 
+" Caption="Achilles tendinitis is an overuse injury of the Achilles (uh-KIL-eez) tendon, the band of tissue that connects calf muscles at the back of the lower leg to your heel bone. 
+" Height="60" Title="Achilles tendinitis" URI="/images/image_popup/thumbs/r7_achillestendinitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Achilles tendinitis 
+" Caption="Achilles tendinitis is an overuse injury of the Achilles (uh-KIL-eez) tendon, the band of tissue that connects calf muscles at the back of the lower leg to your heel bone. 
+" Height="403" Title="Achilles tendinitis" URI="/images/image_popup/r7_achillestendinitis.jpg" Width="400" />
+				<HTML>
+					Achilles tendinitis is an overuse injury of the Achilles (uh-KIL-eez) tendon, the band of tissue that connects calf muscles at the back of the lower leg to your heel bone. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Achilles tendinitis is caused by repetitive or intense strain on the Achilles tendon, the band of tissue that connects your calf muscles to your heel bone. This tendon is used when you walk, run, jump or push up on your toes. 
+&lt;/p&gt;
+&lt;p&gt;
+The structure of the Achilles tendon weakens with age, which can make it more susceptible to injury &amp;mdash; particularly in people who may participate in sports only on the weekends or who have suddenly increased the intensity of their running programs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors may increase your risk of Achilles tendinitis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex and age.&lt;/strong&gt; Achilles tendinitis occurs most commonly in middle-aged men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical problems.&lt;/strong&gt; A naturally flat arch in your foot can put more strain on the Achilles tendon. Obesity and tight calf muscles also can increase tendon strain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Training choices.&lt;/strong&gt; Running in worn-out shoes can increase your risk of Achilles tendinitis. Tendon pain occurs more frequently in cold weather than in warm weather, and running on hilly terrain also can predispose you to Achilles injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions.&lt;/strong&gt; People who have diabetes or high blood pressure are at higher risk of developing Achilles tendinitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Certain types of antibiotics, called fluoroquinolones, have been associated with higher rates of Achilles tendinitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Achilles tendinitis can weaken the tendon, making it more vulnerable to a tear (rupture) &amp;mdash; a painful injury that usually requires surgical repair.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely first bring your symptoms to the attention of your family doctor. He or she might refer you to a doctor specializing in sports medicine or physical and rehabilitative medicine (physiatrist). If your Achilles tendon has ruptured, you may need to see an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did the pain begin suddenly or gradually?&lt;/li&gt;
+	&lt;li&gt;Are symptoms worse at certain times of day or after certain activities?&lt;/li&gt;
+	&lt;li&gt;What types of shoes do you wear during exercise?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Be prepared to answer the following questions regarding your symptoms and factors that may be contributing to your condition:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where exactly does it hurt?&lt;/li&gt;
+	&lt;li&gt;Does the pain lessen with rest?&lt;/li&gt;
+	&lt;li&gt;What is your normal exercise routine?&lt;/li&gt;
+	&lt;li&gt;Have you recently made changes to your exercise routine, or have you recently started participating in a new sport?&lt;/li&gt;
+	&lt;li&gt;What have you done for pain relief?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will gently press on the affected area to determine the location of pain, tenderness or swelling. He or she will also evaluate the flexibility, alignment, range of motion and reflexes of your foot and ankle.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor may order one or more of the following tests to assess your condition:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; While X-rays can&apos;t visualize soft tissues such as tendons, they may help rule out other conditions that can cause similar symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This device uses sound waves to visualize soft tissues like tendons. Ultrasound can also produce real-time images of the Achilles tendon in motion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Using radio waves and a very strong magnet, MRI machines can produce very detailed images of the Achilles tendon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tendinitis usually responds well to self-care measures. But if your signs and symptoms are severe or persistent, your doctor might suggest other treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;If over-the-counter pain medications &amp;mdash; such as ibuprofen (Advil, Motrin IB, others) or naproxen (Aleve) &amp;mdash; aren&apos;t enough, your doctor might prescribe stronger medications to reduce inflammation and relieve pain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist might suggest some of the following treatment options: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercises.&lt;/strong&gt; Therapists often prescribe specific stretching and strengthening exercises to promote healing and strengthening of the Achilles tendon and its supporting structures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Orthotic devices.&lt;/strong&gt; A shoe insert or wedge that slightly elevates your heel can relieve strain on the tendon and provide a cushion that lessens the amount of force exerted on your Achilles tendon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If several months of more-conservative treatments don&apos;t work or if the tendon has torn, your doctor may suggest surgery to repair your Achilles tendon.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-care strategies include the following steps, often known by the acronym R.I.C.E.:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; You may need to avoid exercise for several days or switch to an activity that doesn&apos;t strain the Achilles tendon, such as swimming. In severe cases, you may need to wear a walking boot and use crutches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; To decrease pain or swelling, apply an ice pack to the tendon for about 15 minutes after exercising or when you experience pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; Wraps or compressive elastic bandages can help reduce swelling and reduce movement of the tendon. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; Raise the affected foot above the level of your heart to reduce swelling. Sleep with your affected foot elevated at night.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While it may not be possible to prevent Achilles tendinitis, you can take measures to reduce your risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increase your activity level gradually.&lt;/strong&gt; If you&apos;re just beginning an exercise regimen, start slowly and gradually increase the duration and intensity of the training.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take it easy.&lt;/strong&gt; Avoid activities that place excessive stress on your tendons, such as hill running. If you participate in a strenuous activity, warm up first by exercising at a slower pace. If you notice pain during a particular exercise, stop and rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose your shoes carefully.&lt;/strong&gt; The shoes you wear while exercising should provide adequate cushioning for your heel and should have a firm arch support to help reduce the tension in the Achilles tendon. Replace your worn-out shoes. If your shoes are in good condition but don&apos;t support your feet, try arch supports in both shoes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch daily.&lt;/strong&gt; Take the time to stretch your calf muscles and Achilles tendon in the morning, before exercise and after exercise to maintain flexibility. This is especially important to avoid a recurrence of Achilles tendinitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strengthen your calf muscles.&lt;/strong&gt; Strong calf muscles enable the calf and Achilles tendon to better handle the stresses they encounter with activity and exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cross-train.&lt;/strong&gt; Alternate high-impact activities, such as running and jumping, with low-impact activities, such as cycling and swimming.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Achilles tendinitis
+	</Title>
+	<Abstract>
+		Achilles tendinitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this overuse injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02159" LinkType="Internal" ObjectID="2A44C27E-F7FE-9781-D7A855BD43C62CF1" Title="Barefoot running shoes: Better than traditional running shoes?" Url="http://www.mayoclinic.com/health/barefoot-running-shoes/AN02159" />
+	</RelatedLinksBox>
+</Disease>

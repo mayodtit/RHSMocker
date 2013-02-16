@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00856
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/iga-nephropathy/DS00856
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="3118" Title="IgA nephropathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			09A333F9-E7FF-0DBD-1F01688A06C4D313
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				IgA nephropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				Berger&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Bergers disease
+			</MetaKeyword>
+			<MetaKeyword>
+				glomerulonephritis
+			</MetaKeyword>
+			<MetaKeyword>
+				glomerular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+IgA nephropathy (nuh-FROP-uh-the) is a common kidney disease that occurs when an antibody called immunoglobulin A (IgA) lodges in your kidneys. This hampers your kidneys&apos; ability to filter waste, excess water and electrolytes from your blood. Over time, IgA nephropathy &amp;mdash; also called Berger&apos;s disease &amp;mdash; can lead to blood and protein in your urine, high blood pressure, and swollen hands and feet.
+&lt;/p&gt;
+&lt;p&gt;
+IgA nephropathy usually progresses slowly over many years, and although some people eventually achieve complete remission, others develop end-stage kidney failure. No cure exists for IgA nephropathy, but certain medications can slow its course.
+&lt;/p&gt;
+&lt;p&gt;
+Keeping your blood pressure under control and reducing your cholesterol levels also may help keep IgA nephropathy in check.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+IgA nephropathy usually doesn&apos;t cause symptoms in the early stages. The disease can go unnoticed for decades and is sometimes first suspected when routine tests reveal protein and red blood cells in your urine.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of IgA nephropathy include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cola- or tea-colored urine (caused by red blood cells in the urine)&lt;/li&gt;
+	&lt;li&gt;Repeated episodes of cola- or tea-colored urine, sometimes even visible blood in your urine, usually during or following an upper respiratory infection&lt;/li&gt;
+	&lt;li&gt;Pain in your side(s)&lt;/li&gt;
+	&lt;li&gt;Foam in the toilet water from protein in your urine&lt;/li&gt;
+	&lt;li&gt;Swelling (edema) in your hands and feet&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you notice blood in your urine. Urinary bleeding may not be serious if it occurs only occasionally. It may be caused by strenuous exercise and some foods and medications. But prolonged or repeated bleeding may indicate a medical problem and should always be evaluated. Also see your doctor if your urine is foamy or if you develop sudden swelling in your hands and feet.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your kidneys are two bean-shaped, fist-sized organs located at the small of your back, one on each side of your spine. Each kidney contains tiny blood vessels (glomeruli) that filter waste and excess water from your blood as it passes through your kidneys. The filtered blood re-enters your bloodstream, while the waste material passes into your bladder and out of your body when you urinate.
+&lt;/p&gt;
+&lt;p&gt;
+Immunoglobulin A (IgA) is an antibody that plays a key role in your immune system by attacking invading pathogens. But in IgA nephropathy, this antibody collects in the glomeruli, gradually affecting their filtering ability.
+&lt;/p&gt;
+&lt;p&gt;
+Researchers don&apos;t know exactly what causes IgA deposits in the kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+Conditions or factors that may be associated with the development of IgA nephropathy include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genes.&lt;/strong&gt; IgA nephropathy is more common in some families and in certain ethnic groups, suggesting a genetic component to the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cirrhosis,&lt;/strong&gt; a condition in which scar tissue replaces normal tissue within the liver&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Celiac disease,&lt;/strong&gt; a digestive condition triggered by eating gluten, a protein found in most grains&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dermatitis herpetiformis,&lt;/strong&gt; an itchy, blistering skin disease that stems from gluten intolerance&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections,&lt;/strong&gt; including HIV infection and bacterial infections&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the exact cause of IgA nephropathy is unknown, some factors may increase your risk of developing this condition:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; IgA nephropathy can affect people of all ages, including children, but it&apos;s most likely to first occur in people in their teens and 20s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; In North America and western Europe, IgA nephropathy affects at least twice as many men as it does women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; IgA nephropathy is more common in Caucasians and Asians than it is in blacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; In some cases, IgA nephropathy appears to run in families, indicating that genetic factors may contribute to the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The course of IgA nephropathy varies considerably from person to person. Some people have the disease for years with few problems. In fact, many cases may go undiagnosed. Other people develop one or more of the following complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Damage to your kidneys from IgA deposits can raise your blood pressure, and high blood pressure can cause further damage to your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute kidney failure.&lt;/strong&gt; If your kidneys lose their filtering ability due to IgA deposits, waste products build up quickly in your blood. When this happens, you may need to undergo temporary hemodialysis &amp;mdash; a procedure that cleanses your blood when your kidneys aren&apos;t able to do so. During hemodialysis, a needle is inserted into your arm through a special access point. Your blood then flows through the needle and tubing to a machine called a dialyzer, which filters your blood a few ounces at a time. The filtered blood is returned to your body through another tube and needle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; IgA nephropathy can cause your kidneys to gradually stop functioning. In such cases, permanent dialysis or a kidney transplant is needed to sustain life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nephrotic syndrome.&lt;/strong&gt; This is a group of problems that can be caused by damage to the glomeruli, including high urine protein levels, low blood protein levels (hypoalbuminemia), high cholesterol, and swelling of your eyelids, feet and abdomen.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of IgA nephropathy, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in treating kidney disorders (nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as fast for a blood test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including vitamins, herbs and over-the-counter drugs, that you&apos;re taking or have recently taken. Even better, take the original bottles and a written list of the dosages and directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may recall something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because it&apos;s hard to know what to expect from a diagnosis of IgA nephropathy, it can be helpful to take a list of questions to your appointment. For instance, you might want to know:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What tests do I need to determine if I have IgA nephropathy?&lt;/li&gt;
+	&lt;li&gt;What is a kidney biopsy and how is it done?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What is my long-term prognosis?&lt;/li&gt;
+	&lt;li&gt;What are the chances that I will develop kidney failure? Is there any way to know?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action? How long will I have to take medications?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Can this disease be managed with diet and lifestyle changes alone?&lt;/li&gt;
+	&lt;li&gt;Since IgA nephropathy often develops over many years, wouldn&apos;t it be a good idea just to keep an eye on it?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;I&apos;ve had urinary tract infections in the past. Could these previous infections be a factor?&lt;/li&gt;
+	&lt;li&gt;Do you have any literature on this condition? Is there a website you can recommend where I can learn more?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects IgA nephropathy, you may undergo one or more of the following tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; Blood or protein in the urine may be the first sign of IgA nephropathy. This may be discovered as part of a routine checkup with your doctor. If your doctor suspects that you have problems with your kidneys, you may need to collect your urine for a 24-hour period for additional kidney function tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; If you have IgA nephropathy, a blood test may show increased levels of the waste product creatinine in your blood. Sometimes the level of IgA in your blood also is elevated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney biopsy.&lt;/strong&gt; The only way for your doctor to confirm a diagnosis of IgA nephropathy is with a kidney biopsy. This procedure involves using a special biopsy needle to extract small pieces of kidney tissue for microscopic examination to determine if there are IgA deposits in the glomeruli.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for IgA nephropathy and no definitive way of knowing what course the disease will take in any particular person. Some people experience complete remission and others live normal lives with low-grade blood or protein in their urine (hematuria or proteinuria). But perhaps as many as half of those affected eventually go on to develop end-stage renal disease. For this reason, treatment of IgA nephropathy focuses on slowing the progression of the disease and preventing complications.
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to treat IgA nephropathy include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure medications.&lt;/strong&gt; A common complication of IgA nephropathy is high blood pressure. Taking angiotensin-converting enzyme (ACE) inhibitors or angiotensin receptor blockers (ARBs) can lower your blood pressure and reduce the amount of protein (albumin) in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressants.&lt;/strong&gt; Corticosteroid medications, such as prednisone, and other potent immunosuppressants may be used to help protect your kidney function. But, these drugs can cause a range of serious side effects, such as high blood pressure or high blood sugar, so their benefits must be carefully weighed against the risks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acids.&lt;/strong&gt; These beneficial fats, available in dietary fish oil supplements, can reduce inflammation in the glomeruli without harmful side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mycophenolate mofetil (CellCept).&lt;/strong&gt; This medication is still being investigated, but it has been used successfully in some people who have persistent protein in their urine despite treatment with blood pressure lowering medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In more-advanced cases, kidney dialysis or even a kidney transplant may be necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some steps you can take on your own that may help keep your kidneys healthier include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Switch to a low-salt diet.&lt;/strong&gt; Keeping your blood pressure levels near normal may help slow kidney damage from IgA nephropathy. Your doctor may recommend changes in your diet &amp;mdash; such as limiting your salt intake &amp;mdash; to help manage your blood pressure. A low-salt diet can also help minimize fluid retention and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat less protein.&lt;/strong&gt; Reducing the amount of protein you eat and taking steps to decrease your cholesterol levels may help slow the progression of IgA nephropathy and protect your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your blood pressure levels at home.&lt;/strong&gt; Write down each reading and bring this record with you to your doctor&apos;s appointments.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with severe forms of IgA nephropathy can be challenging. But you don&apos;t have to do it alone. If you have questions or would like guidance, talk with a member of your health care team. You might also benefit from joining a support group, which can provide both sympathetic listening and useful information. To find out about support groups in your area that deal with kidney disease, ask your doctor. Or, contact your local chapter of the National Kidney Foundation by calling 800-622-9010.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the cause of IgA nephropathy isn&apos;t known, it&apos;s not possible to prevent it. If you have a family history of IgA nephropathy, talk with your doctor to find out what steps you can take to keep your kidneys healthy, such as reducing high blood pressure and keeping your cholesterol at optimal levels.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		IgA nephropathy (Berger&apos;s disease)
+	</Title>
+	<Abstract>
+		IgA nephropathy (Berger&apos;s disease) &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this kidney disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ01212" LinkType="Internal" ObjectID="3900044F-0479-4EE7-B69ABBDC41E64B93" Title="Low-phosphorus diet: Best for kidney disease?" Url="http://www.mayoclinic.com/health/food-and-nutrition/HQ01212" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01223" LinkType="Internal" ObjectID="24BD87C1-066C-AE2F-22170FA021843FD4" Title="Kidney biopsy" Url="http://www.mayoclinic.com/health/kidney-biopsy/MY01223" />
+	</RelatedLinksBox>
+</Disease>

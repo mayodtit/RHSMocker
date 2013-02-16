@@ -1,0 +1,317 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00949
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4267" Title="Premature ventricular contractions" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E0E5CBB7-E7FF-0DBD-188377A3E7F15819
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				premature ventricular contractions
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Premature ventricular contractions (PVCs) are extra, abnormal heartbeats that begin in one of your heart&apos;s two lower pumping chambers (ventricles). These extra beats disrupt your regular heart rhythm, sometimes causing you to feel a flip-flop or skipped beat in your chest. Premature ventricular contractions are very common &amp;mdash; they occur in most people at some point. 
+&lt;/p&gt;
+&lt;p&gt;
+Premature ventricular contractions are also called: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Premature ventricular complexes&lt;/li&gt;
+	&lt;li&gt;PVCs&lt;/li&gt;
+	&lt;li&gt;Ventricular premature beats&lt;/li&gt;
+	&lt;li&gt;Extrasystoles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have occasional premature ventricular contractions, but you&apos;re an otherwise healthy person, there&apos;s generally no reason for concern, and no treatment is needed. If you have frequent premature ventricular contractions or underlying heart disease, you may need treatment to help you feel better and treat underlying heart problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Premature ventricular contractions often cause no symptoms. But you may feel an odd sensation in your chest, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flip-flops&lt;/li&gt;
+	&lt;li&gt;Fluttering&lt;/li&gt;
+	&lt;li&gt;Pounding or jumping&lt;/li&gt;
+	&lt;li&gt;Skipped beats or missed beats&lt;/li&gt;
+	&lt;li&gt;Increased awareness of your heartbeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you feel flip-flops, a sensation of skipped heartbeats or odd feelings in your chest, talk to your doctor. You&apos;ll want to identify the source of these symptoms. Premature ventricular contractions may be the problem, but other conditions also may be to blame, including other rhythm problems, serious heart problems, anxiety, anemia or infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your heart is made up of four chambers &amp;mdash; two upper chambers (atria) and two lower chambers (ventricles). The rhythm of your heart is normally controlled by the sinoatrial node (SA node) &amp;mdash; or sinus node &amp;mdash; an area of specialized cells located in the right atrium. This natural pacemaker produces the electrical impulses that trigger the normal heartbeat. From the sinus node, electrical impulses travel across the atria to the ventricles, causing them to contract and pump blood out to your lungs and body. 
+&lt;/p&gt;
+&lt;p&gt;
+Premature ventricular contractions are abnormal contractions that begin in the ventricles. These extra contractions usually beat sooner than the next expected regular heartbeat. And they often interrupt the normal order of pumping, which is atria first, then ventricles. As a result, the extra, out-of-sync beats are usually less effective in pumping blood throughout the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Why do extra beats occur?&lt;/strong&gt;&lt;br /&gt;
+The reasons aren&apos;t always clear. Certain triggers, heart diseases or changes in the body can make cells in the ventricles electrically unstable. Underlying heart disease or scarring may also cause electrical impulses to be misrouted. Premature ventricular contractions may be associated with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chemical changes or imbalances in the body&lt;/li&gt;
+	&lt;li&gt;Certain medications, including common asthma medications&lt;/li&gt;
+	&lt;li&gt;Alcohol or illegal drugs&lt;/li&gt;
+	&lt;li&gt;Increased levels of adrenaline in the body that may be caused by caffeine, exercise or anxiety&lt;/li&gt;
+	&lt;li&gt;Injury to the heart muscle from coronary artery disease, congenital heart disease, high blood pressure or infections (myocarditis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="60" Title="Normal heartbeat" URI="/images/image_popup/thumbs/hb7_heartelectricalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="330" Title="Normal heartbeat" URI="/images/image_popup/hb7_heartelectrical.jpg" Width="400" />
+				<HTML>
+					A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following stimulants, conditions and triggers may increase your risk of premature ventricular contractions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Caffeine&lt;/li&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Tobacco&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Underlying heart disease, including congenital heart disease, coronary artery disease, heart attack, myocarditis and cardiomyopathy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have frequent premature ventricular contractions or certain patterns of premature ventricular contractions, you may be at increased risk of developing heart rhythm problems (arrhythmias). Rarely, when accompanied by underlying heart disease, frequent premature contractions can lead to chaotic, dangerous heart rhythms and possibly sudden cardiac death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, in some cases when you call to set up an appointment, you may be referred to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. Pay attention to your symptoms in the time leading up to your appointment so that you can describe the odd sensations in your chest as specifically as possible. Does your heart feel as if it flip-flops? As if it flutters? As if it pounds? Your description will help your doctor determine next steps in making your diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems you&apos;ve had and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent changes in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For premature ventricular contractions, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;What lifestyle changes can I make to reduce my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need to totally eliminate alcohol and caffeine?&lt;/li&gt;
+	&lt;li&gt;Do you think stress is a factor in my symptoms?&lt;/li&gt;
+	&lt;li&gt;What stress management techniques do you think would help me most?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my health over time?&lt;/li&gt;
+	&lt;li&gt;Do I need to adjust the medications I&apos;m taking for other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms come and go? If so, when are they likely to occur?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Do you use caffeine?&lt;/li&gt;
+	&lt;li&gt;Do you smoke or use other nicotine products?&lt;/li&gt;
+	&lt;li&gt;Do you use any recreational drugs?&lt;/li&gt;
+	&lt;li&gt;How often do you feel stressed or anxious? What do you do to manage these feelings?&lt;/li&gt;
+	&lt;li&gt;What else concerns you?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with heart problems. Although premature ventricular contractions are usually harmless, the symptoms of this condition mimic those of many other cardiac illnesses. Knowing your family health history will help your doctor plan the right diagnostic tests and treatments, based on your individual risks. 
+&lt;/p&gt;
+&lt;p&gt;
+It will also help your doctor to know what triggers your symptoms. In the time leading up to your appointment, take note of any substances or activities that seem to bring on the strange sensations in your chest. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects that you have premature ventricular contractions, you may have an electrocardiogram (ECG). This test can detect the extra beats, identify their pattern and their source, and look for any underlying heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram &lt;/strong&gt;&lt;br /&gt;
+If you experience infrequent premature ventricular contractions, they may not be detected during the brief time a standard ECG is being done. You may need to use a Holter monitor or event recorder for 24 hours or more to capture any abnormal rhythms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Standard ECG.&lt;/strong&gt; During a standard ECG test, sensors (electrodes) are attached to your chest and limbs to create a graphical record of the electrical signals traveling through your heart. It is usually done in a clinic or hospital setting and lasts only a few minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise stress ECG.&lt;/strong&gt; This diagnostic test uses electrocardiography to record your heart&apos;s electrical activity while you walk on a treadmill or pedal an exercise bike. It can help determine the significance of your premature ventricular contractions. When premature beats disappear or dwindle during an exercise test, they&apos;re usually considered harmless. On the other hand, if exercise provokes extra beats, it may indicate higher risk of serious heart rhythm problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; This portable device is carried in your pocket or in a pouch on a belt or shoulder strap. It automatically records your heart&apos;s activity for an entire 24-hour period, which provides your doctor with an extended look at your heart rhythms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; This portable electrocardiogram device can also be carried in your pocket or worn on a belt or shoulder strap for home monitoring of your heart&apos;s activity. When you feel symptoms, you push a button, and a brief ECG strip recording is made. This allows your doctor to see your heart rhythm at the time of your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A Holter monitor or event recorder can help identify the pattern of your premature ventricular contractions. The occurrence of more than three premature ventricular beats in a row is called ventricular tachycardia &amp;mdash; which can cause symptoms and be a sign of serious heart disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with premature ventricular contractions and an otherwise normal heart won&apos;t need treatment. Rarely, if you have frequent, bothersome symptoms, you may be offered treatment to help you feel better, but PVCs are typically not harmful. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, if you have underlying heart disease that could lead to more serious rhythm problems, you may need to make efforts to avoid triggers or perhaps take medications. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifestyle changes.&lt;/strong&gt; Eliminating common PVC triggers &amp;mdash; such as caffeine or tobacco &amp;mdash; can decrease the frequency and severity of your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Beta blockers &amp;mdash; which are often used to treat high blood pressure and heart disease &amp;mdash; can suppress premature contractions. Other medications, such as calcium channel blockers, or anti-arrhythmic drugs, such as amiodarone, also may be used if you have ventricular tachycardia or very frequent premature ventricular contractions that interfere with your heart&apos;s function, causing severe symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have very frequent PVCs associated with underlying heart disease and periods of ventricular tachycardia, your doctor might recommend treatment for the underlying condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following self-care strategies can help control premature ventricular contractions and improve your heart health: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Track your triggers.&lt;/strong&gt; If you have frequent symptoms, you might want to take note of your symptoms and your activities. This can help identify substances or actions that may trigger premature ventricular contractions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Modify your substance use.&lt;/strong&gt; Caffeine, alcohol, tobacco and other recreational drugs are known triggers of premature ventricular contractions. Reducing or avoiding these substances can reduce your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Anxiety can trigger abnormal heartbeats. If you think anxiety may be contributing to your condition, try stress-reduction techniques, such as biofeedback, meditation or exercise, or talk to your doctor about anti-anxiety medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Premature ventricular contractions (PVCs)
+	</Title>
+	<Abstract>
+		Premature ventricular contractions &amp;mdash; Comprehensive overview covers causes, diagnosis, treatment of this abnormal heart rhythm.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="SelfAssessment" DocID="MH00123" LinkType="Internal" ObjectID="E1FB6CCD-E7FF-0DBD-154D34A059A747FA" Title="Alcohol use: Do you have a drinking problem?" Url="http://www.mayoclinic.com/health/alcohol-use/MH00123" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01211" LinkType="Internal" ObjectID="CE619C35-D037-4016-A9CBEA9A3ECBCEB6" Title="Caffeine content for coffee, tea, soda and more" Url="http://www.mayoclinic.com/health/caffeine/AN01211" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00577" LinkType="Internal" ObjectID="A4969FF4-0BA0-85FA-2A7436104DFFF946" Title="Holter monitor" Url="http://www.mayoclinic.com/health/holter-monitor/MY00577" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Article" DocID="CA00019" LinkType="Internal" ObjectID="BDFA0D03-F8D7-42B2-A8D23038227F0F3A" Title="Chewing tobacco: Not a safe alternative to cigarettes" Url="http://www.mayoclinic.com/health/chewing-tobacco/CA00019" />
+		<LinkItem ContentType="Article" DocID="SR00036" LinkType="Internal" ObjectID="1B227623-E7FF-0DBD-170E963F0905AD84" Title="Exercise and stress: Get moving to manage stress" Url="http://www.mayoclinic.com/health/exercise-and-stress/SR00036" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Disease" DocID="DS00764" LinkType="Internal" ObjectID="4565CA37-E7FF-0DBD-156F88FD6C6ED0B7" Title="Sudden cardiac arrest" Url="http://www.mayoclinic.com/health/sudden-cardiac-arrest/DS00764" />
+		<LinkItem ContentType="Disease" DocID="DS00519" LinkType="Internal" ObjectID="409898DA-8C14-4EAB-975D5E4217CEDB49" Title="Cardiomyopathy" Url="http://www.mayoclinic.com/health/cardiomyopathy/DS00519" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS00521" LinkType="Internal" ObjectID="31C9BF18-0EDA-252B-7CD1612420AB6C0A" Title="Myocarditis" Url="http://www.mayoclinic.com/health/myocarditis/DS00521" />
+	</RelatedLinksBox>
+</Disease>

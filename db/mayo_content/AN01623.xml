@@ -1,0 +1,112 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01623
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/celiac-disease/AN01623
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4677" Title="Small intestine">
+						<Keyword MCVID="2954" Title="Celiac disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2AABF549-E7FF-0DBD-1EF444B33AACC738
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				celiac disease
+			</MetaKeyword>
+			<MetaKeyword>
+				celiac sprue
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten free
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten-free cosmetics
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten-free lotion
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+No. Gluten-containing skin care products and cosmetics aren&apos;t a problem unless you accidentally swallow them. For this reason, avoid using such products on your lips or around your mouth. Also, avoid using gluten-containing dental products, such as certain mouthwashes and toothpastes. If you&apos;re uncertain about whether a product contains gluten, check the ingredient list on the product label or contact the manufacturer. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people develop a form of celiac disease called dermatitis herpetiformis (DH), which causes an itchy, blistering rash. This skin disorder is also linked to gluten intolerance. But although it involves the skin, DH is caused by ingesting gluten, not by skin contact with gluten. So, eliminating gluten from your diet will help clear up DH as well. 
+&lt;/p&gt;
+&lt;p&gt;
+If you use a cosmetic or skin care product that contains gluten and you develop a skin reaction, see your doctor or dermatologist to identify the cause. It is possible to have an allergy to wheat or another grain that could cause a skin reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Celiac disease: Can gluten be absorbed through the skin?
+	</Title>
+	<Abstract>
+		Gluten can&apos;t be absorbed through the skin, although this is a common misperception. Learn more.
+	</Abstract>
+	<Question>
+		I have celiac disease. Do I need to be concerned about sunscreens, shampoos and cosmetics that contain gluten?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00139" LinkType="Internal" ObjectID="DF5B6DD3-E7FF-0DBD-18A888DA7E767449" Title="Capsule endoscopy" Url="http://www.mayoclinic.com/health/capsule-endoscopy/MY00139" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+		<LinkItem ContentType="Answer" DocID="AN00303" LinkType="Internal" ObjectID="AF6D337A-133D-45D2-93D11B9299FFBE3A" Title="Celiac disease diet: How do I get enough grains?" Url="http://www.mayoclinic.com/health/celiac-disease/AN00303" />
+		<LinkItem ContentType="Disease" DocID="DS00824" LinkType="Internal" ObjectID="EC27D066-E7FF-0DBD-1AB8980523A25E16" Title="Microscopic colitis" Url="http://www.mayoclinic.com/health/microscopic-colitis/DS00824" />
+		<LinkItem ContentType="Disease" DocID="DS00319" LinkType="Internal" ObjectID="0B50B26D-34AE-4F43-843BDA653DDEF6E3" Title="Celiac disease" Url="http://www.mayoclinic.com/health/celiac-disease/DS00319" />
+	</RelatedLinksBox>
+</Answer>

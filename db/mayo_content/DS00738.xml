@@ -1,0 +1,400 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00738
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cleft-palate/DS00738
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="1749" Title="Birth defects/malformations">
+						<Keyword MCVID="1946" Title="Cleft palate" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B30937E0-2A5D-9994-E7E68DD4E5B09EBE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cleft palate
+			</MetaKeyword>
+			<MetaKeyword>
+				cleft lip
+			</MetaKeyword>
+			<MetaKeyword>
+				cleft lip and cleft palate
+			</MetaKeyword>
+			<MetaKeyword>
+				birth defects
+			</MetaKeyword>
+			<MetaKeyword>
+				harelip
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cleft lip and cleft palate are openings or splits in the upper lip, the roof of the mouth (palate) or both. Cleft lip and cleft palate result when developing facial structures in an unborn baby don&apos;t close completely. 
+&lt;/p&gt;
+&lt;p&gt;
+Cleft lip and cleft palate are among the most common birth defects. Cleft lip and cleft palate most commonly occur as isolated birth defects but are also associated with many inherited genetic conditions or syndromes. 
+&lt;/p&gt;
+&lt;p&gt;
+Having a baby born with a cleft can be upsetting, but cleft lip and cleft palate can be corrected. In most babies, a series of surgeries can restore normal function and achieve a more normal appearance with minimal scarring. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of unilateral and bilateral cleft lip
+" Caption="A cleft lip is an opening or split in the upper lip that occurs when developing facial structures in an unborn baby don&apos;t close completely. Cleft lip may be unilateral or bilateral. Babies with cleft lip may also experience a cleft in the roof of their mouths (cleft palate).
+" Height="60" Title="Cleft lip" URI="/images/image_popup/thumbs/fl7_cleft_lipthu.jpg" Width="60" />
+				<Image Alt="Illustrations of unilateral and bilateral cleft lip
+" Caption="A cleft lip is an opening or split in the upper lip that occurs when developing facial structures in an unborn baby don&apos;t close completely. Cleft lip may be unilateral or bilateral. Babies with cleft lip may also experience a cleft in the roof of their mouths (cleft palate).
+" Height="241" Title="Cleft lip" URI="/images/image_popup/fl7_cleft_lip.jpg" Width="400" />
+				<HTML>
+					A cleft lip is an opening or split in the upper lip that occurs when developing facial structures in an unborn baby don&apos;t close completely. Cleft lip may be unilateral or bilateral. Babies with cleft ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a cleft palate 
+" Caption="A cleft palate is an opening or split in the roof of the mouth that occurs when the tissue doesn&apos;t fuse together during development in the womb. Cleft palate often includes a split or cleft in the upper lip (cleft lip) but can occur without affecting the lip.
+" Height="60" Title="Cleft palate" URI="/images/image_popup/thumbs/fl7_cleft_palatethu.jpg" Width="60" />
+				<Image Alt="Illustration of a cleft palate 
+" Caption="A cleft palate is an opening or split in the roof of the mouth that occurs when the tissue doesn&apos;t fuse together during development in the womb. Cleft palate often includes a split or cleft in the upper lip (cleft lip) but can occur without affecting the lip.
+" Height="424" Title="Cleft palate" URI="/images/image_popup/fl7_cleft_palate.jpg" Width="400" />
+				<HTML>
+					A cleft palate is an opening or split in the roof of the mouth that occurs when the tissue doesn&apos;t fuse together during development in the womb. Cleft palate often includes a split or cleft in the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Usually, a cleft &amp;mdash; or split &amp;mdash; in the lip or palate is immediately identifiable at birth. Cleft lip and cleft palate may appear as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A split in the lip and roof of the mouth (palate) that can affect one or both sides of the face&lt;/li&gt;
+	&lt;li&gt;A split in the lip that can appear as only a small notch in the lip or can extend from the lip through the upper gum and palate into the bottom of the nose&lt;/li&gt;
+	&lt;li&gt;A split in the roof of the mouth (palate) that doesn&apos;t affect the appearance of the face&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less commonly, a cleft occurs only in the muscles of the soft palate (submucous cleft palate), which are at the back of the mouth and covered by the mouth&apos;s lining. This type of cleft often goes unnoticed at birth and may not be diagnosed until later when signs develop. Signs and symptoms of submucous cleft palate may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Nasal speaking voice&lt;/li&gt;
+	&lt;li&gt;Recurring ear infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+A cleft lip and cleft palate are usually apparent at birth, and your doctor may start coordinating care at that time. If your baby has signs and symptoms of a submucous cleft palate, such as difficulty with feedings, make an appointment with your child&apos;s doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of unilateral and bilateral cleft lip
+" Caption="A cleft lip is an opening or split in the upper lip that occurs when developing facial structures in an unborn baby don&apos;t close completely. Cleft lip may be unilateral or bilateral. Babies with cleft lip may also experience a cleft in the roof of their mouths (cleft palate).
+" Height="60" Title="Cleft lip" URI="/images/image_popup/thumbs/fl7_cleft_lipthu.jpg" Width="60" />
+				<Image Alt="Illustrations of unilateral and bilateral cleft lip
+" Caption="A cleft lip is an opening or split in the upper lip that occurs when developing facial structures in an unborn baby don&apos;t close completely. Cleft lip may be unilateral or bilateral. Babies with cleft lip may also experience a cleft in the roof of their mouths (cleft palate).
+" Height="241" Title="Cleft lip" URI="/images/image_popup/fl7_cleft_lip.jpg" Width="400" />
+				<HTML>
+					A cleft lip is an opening or split in the upper lip that occurs when developing facial structures in an unborn baby don&apos;t close completely. Cleft lip may be unilateral or bilateral. Babies with cleft ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a cleft palate 
+" Caption="A cleft palate is an opening or split in the roof of the mouth that occurs when the tissue doesn&apos;t fuse together during development in the womb. Cleft palate often includes a split or cleft in the upper lip (cleft lip) but can occur without affecting the lip.
+" Height="60" Title="Cleft palate" URI="/images/image_popup/thumbs/fl7_cleft_palatethu.jpg" Width="60" />
+				<Image Alt="Illustration of a cleft palate 
+" Caption="A cleft palate is an opening or split in the roof of the mouth that occurs when the tissue doesn&apos;t fuse together during development in the womb. Cleft palate often includes a split or cleft in the upper lip (cleft lip) but can occur without affecting the lip.
+" Height="424" Title="Cleft palate" URI="/images/image_popup/fl7_cleft_palate.jpg" Width="400" />
+				<HTML>
+					A cleft palate is an opening or split in the roof of the mouth that occurs when the tissue doesn&apos;t fuse together during development in the womb. Cleft palate often includes a split or cleft in the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cleft lip and cleft palate occur when tissues in the baby&apos;s face and mouth don&apos;t form properly. Normally, the tissues that make up the lip and palate fuse together in the second and third months of pregnancy. But in babies with cleft lip and cleft palate, the fusion never takes place or occurs only partially, leaving an opening (cleft). 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers believe that most cases of cleft lip and cleft palate are caused by an interaction of genetic and environmental factors. In many babies, a definite cause isn&apos;t discovered.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genes inherited from the parents.&lt;/strong&gt; Either the mother or the father can pass on genes that cause clefting, either as an isolated defect or as part of a syndrome that includes clefting as one of its signs. In some cases, babies inherit a gene that makes them more likely to develop a cleft, and then an environmental trigger actually causes the cleft to occur. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain substances during pregnancy.&lt;/strong&gt; Cleft lip and cleft palate may be more likely to occur in pregnant women who smoke cigarettes, drink alcohol and take certain medications. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may increase the likelihood of a baby developing a cleft lip and cleft palate, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Parents with a family history of cleft lip or cleft palate face a higher risk of having a baby with a cleft.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Cleft lip and palate are most common in American Indian and Asian children. Black children are least likely to have a cleft.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Males are twice as likely to have a cleft lip with or without cleft palate. Cleft palate without cleft lip is more common in females.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain substances during pregnancy.&lt;/strong&gt; Babies born to women who smoked or drank alcohol during pregnancy are more likely to develop cleft lip and cleft palate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being obese during pregnancy.&lt;/strong&gt; There is some evidence that babies born to obese women may have increased risk of cleft lip and palate. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with cleft lip with or without cleft palate face a variety of challenges, depending on the type and severity of the cleft. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty feeding your baby.&lt;/strong&gt; One of the most immediate concerns after birth is feeding. While most babies with cleft lip can breast-feed, a cleft palate can make sucking difficult or cause gagging or breast milk to come out through the nose. Your health care team will discuss feeding strategies with you, such as using a special bottle nipple. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear infections and hearing loss.&lt;/strong&gt; Babies with cleft palate are especially susceptible to middle ear infections. Over time, repeated ear infections increase the risk of hearing loss. Your doctor may refer you to an audiologist or an ear, nose and throat doctor who may suggest regular visits to evaluate your child&apos;s hearing. Most children with clefts have tubes surgically inserted in their ears to drain fluids and help prevent infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dental problems.&lt;/strong&gt; If the cleft extends through the upper gum, tooth development will likely be affected. Ask your doctor whether your child should see a pediatric dentist who can monitor tooth development and oral health from an early age. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech difficulties.&lt;/strong&gt; Because the palate is used in forming sounds, the development of normal speech can be affected by a cleft palate. Your doctor may refer you to a speech pathologist who can evaluate your child and provide speech therapy. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Challenges of coping with a medical condition.&lt;/strong&gt; Children with clefts may face social, emotional and behavioral problems due to differences in appearance and the stress of intensive medical care. A psychologist and a social worker can help you and your child find ways to cope with the stresses your family encounters.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child was diagnosed with cleft lip and cleft palate, you&apos;ll be referred to specialists who can help create a treatment plan for your child. Care for children with cleft lip and cleft palate often involves a team of doctors and experts, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pediatricians&lt;/li&gt;
+	&lt;li&gt;Plastic surgeons&lt;/li&gt;
+	&lt;li&gt;Oral surgeons&lt;/li&gt;
+	&lt;li&gt;Pediatric dentists&lt;/li&gt;
+	&lt;li&gt;Orthodontists&lt;/li&gt;
+	&lt;li&gt;Ear, nose and throat doctors (otolaryngologists)&lt;/li&gt;
+	&lt;li&gt;Auditory or hearing specialists&lt;/li&gt;
+	&lt;li&gt;Speech therapists&lt;/li&gt;
+	&lt;li&gt;Genetic counselors&lt;/li&gt;
+	&lt;li&gt;Social workers&lt;/li&gt;
+	&lt;li&gt;Psychologists&lt;/li&gt;
+	&lt;li&gt;Nurses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your baby&apos;s diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs or symptoms your baby is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your baby&apos;s doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For cleft lip and cleft palate, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my baby have a cleft lip, cleft palate or both?&lt;/li&gt;
+	&lt;li&gt;What caused my baby&apos;s cleft lip or cleft palate?&lt;/li&gt;
+	&lt;li&gt;What tests does my baby need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that my baby needs to follow?&lt;/li&gt;
+	&lt;li&gt;Should my baby see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+	&lt;li&gt;If I choose to have more children, is there a chance they may also have cleft lip or cleft palate?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does your family have a history of cleft lip and cleft palate?&lt;/li&gt;
+	&lt;li&gt;Does your baby have problems while feeding, such as gagging or regurgitating milk through his or her nose?&lt;/li&gt;
+	&lt;li&gt;Does your baby experience any symptoms that worry you?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your baby&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your baby&apos;s symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of cleft lip and cleft palate are immediately apparent at birth and don&apos;t require special tests for diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ultrasound to diagnose cleft lip and cleft palate before birth&lt;/strong&gt; &lt;br /&gt;
+Increasingly, cleft lip and cleft palate are being diagnosed by ultrasound before the baby is born. An ultrasound is a test that uses sound waves to create pictures of the developing fetus. When analyzing the pictures, a doctor may detect an abnormality in the facial structures. 
+&lt;/p&gt;
+&lt;p&gt;
+Cleft lip may be detected with ultrasound beginning around the 18th week of pregnancy. As the fetus continues developing, it may be easier to accurately diagnose a cleft lip. Cleft palate that occurs on its own is more difficult to diagnose using ultrasound, since it can be difficult to see inside the fetus&apos; mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+If fetal ultrasound shows a cleft, your doctor may offer a procedure to take a sample of amniotic fluid from your uterus (amniocentesis). Analyzing the fluid may reveal abnormalities that indicate the fetus has inherited a genetic syndrome that can cause other birth defects. However, most often cleft lip and cleft palate occur on their own. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goals of treatment for cleft lip and cleft palate are to ensure the child&apos;s ability to eat, speak, hear and breathe and to achieve a normal facial appearance. Treatment involves surgery to repair the defect and therapies to improve any related conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery to correct cleft lip and palate is based on your child&apos;s particular situation. Following the initial cleft repair, your doctor may recommend follow-up surgeries to improve speech or improve the appearance of the lip and nose. Surgeries typically are performed in this order: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cleft lip repair &amp;mdash; between 1 and 4 months of age&lt;/li&gt;
+	&lt;li&gt;Cleft palate repair &amp;mdash; between 5 and 15 months of age&lt;/li&gt;
+	&lt;li&gt;Follow-up surgeries &amp;mdash; between age 2 and late teen years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cleft lip and palate surgery takes place in a hospital. Your child will receive an anesthetic, so he or she won&apos;t feel pain or be awake during surgery. Many different surgical techniques and procedures are used to repair cleft lip and palate, reconstruct the affected areas, and prevent or treat related complications. In general, procedures may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cleft lip repair.&lt;/strong&gt; To close the separation in the lip, the surgeon makes incisions on both sides of the cleft and creates flaps of tissue. The flaps are then stitched together. The repair should create a more normal lip appearance, structure and function. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cleft palate repair.&lt;/strong&gt; Various procedures may be used to close the separation and rebuild the hard and soft palate (roof of the mouth), depending on your child&apos;s particular situation. The surgeon makes incisions on both sides of the cleft and repositions the tissue and muscles. The repair is then stitched closed. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear tube surgery.&lt;/strong&gt; For children with cleft palate, ear tubes also may be placed during the first surgery to reduce the risk of frequent ear infections, which can lead to hearing loss. Ear tube surgery involves placing tiny cylinders in the eardrum to prevent fluid buildup. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to improve cosmetic appearance.&lt;/strong&gt; Additional surgeries may be needed to improve the appearance of the mouth, lip and nose. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery can result in significant improvement in your child&apos;s appearance, quality of life, and ability to eat, breathe and talk. Possible risks of surgery include bleeding, infection, poor healing, puckering of scars, and temporary or permanent damage to nerves, blood vessels or other structures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for complications of cleft lip and cleft palate&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend additional treatment for complications caused by cleft lip and cleft palate. Additional treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hearing aids or other assistive devices for a child with hearing loss&lt;/li&gt;
+	&lt;li&gt;Speech therapy to correct difficulty with speaking&lt;/li&gt;
+	&lt;li&gt;Therapy with a psychologist to help a child cope with the stress of repeated medical procedures&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cosmetic results of cleft lip repair
+" Caption="Surgery to repair cleft lip creates a more normal lip appearance, structure and function. Surgery is done in a way to minimize the appearance of the scar. The scar will fade over time but will always be visible.
+" Height="60" Title="Cleft lip repaired" URI="/images/image_popup/thumbs/fl7_cleft_lip_repairedthu.jpg" Width="60" />
+				<Image Alt="Image of cosmetic results of cleft lip repair
+" Caption="Surgery to repair cleft lip creates a more normal lip appearance, structure and function. Surgery is done in a way to minimize the appearance of the scar. The scar will fade over time but will always be visible.
+" Height="593" Title="Cleft lip repaired" URI="/images/image_popup/fl7_cleft_lip_repaired.jpg" Width="400" />
+				<HTML>
+					Surgery to repair cleft lip creates a more normal lip appearance, structure and function. Surgery is done in a way to minimize the appearance of the scar. The scar will fade over time but will always ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No one expects to have a baby with a birth defect. When the excitement of new life is met with the stress of discovering that your baby has a cleft lip or cleft palate, the experience can be emotionally demanding for the entire family. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For the parents and family&lt;/strong&gt; &lt;br /&gt;
+When welcoming a baby with cleft lip and cleft palate into your family, keep these coping tips in mind: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t blame yourself.&lt;/strong&gt; Focus your energy on supporting and helping your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acknowledge your emotions.&lt;/strong&gt; It&apos;s completely normal to feel sad, overwhelmed and upset.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find support.&lt;/strong&gt; Your hospital social worker can help you find community and financial resources and education.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For the child&lt;/strong&gt; &lt;br /&gt;
+You can support your child in many ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Focus on your child as a person, not on his or her cleft.&lt;/li&gt;
+	&lt;li&gt;Point out positive attributes in others that don&apos;t involve physical appearance.&lt;/li&gt;
+	&lt;li&gt;Help your child gain confidence by allowing him or her to make decisions.&lt;/li&gt;
+	&lt;li&gt;Encourage confident body language, such as smiling and holding his or her head up and shoulders back.&lt;/li&gt;
+	&lt;li&gt;Keep the lines of communication open. If teasing or self-esteem issues arise at school, be sure your child feels safe talking with you about it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After a baby is born with a cleft, parents are understandably concerned about the possibility of having another child with the same condition. While many cases of cleft lip and cleft palate can&apos;t be prevented, consider these steps to increase your understanding or lower your risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Consider genetic counseling.&lt;/strong&gt; If you have a family history of cleft lip and cleft palate, tell your doctor before you become pregnant. Your doctor may refer you to a genetic counselor who can help determine your risk of having children with cleft lip and cleft palate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take prenatal vitamins.&lt;/strong&gt; Taking a multivitamin before conceiving and during pregnancy may help reduce the risk of birth defects, such as cleft lip and cleft palate. If you&apos;re planning to get pregnant soon, begin taking a prenatal multivitamin now. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use tobacco or alcohol.&lt;/strong&gt; Use of alcohol or tobacco during pregnancy increases the risk of having a baby with a cleft defect. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cleft lip and cleft palate
+	</Title>
+	<Abstract>
+		Cleft lip and cleft palate &amp;mdash; Comprehensive overview covers causes, treatment of these birth defects.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

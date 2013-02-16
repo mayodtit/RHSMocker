@@ -1,0 +1,132 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00605
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/graves-dermopathy/AN00605
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-12
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="2473" Title="Graves&apos; disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3C8F3995-E45A-406A-B785837268AEED7B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Graves&apos; disease
+			</MetaKeyword>
+			<MetaKeyword>
+				graves&apos; dermopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				graves disease
+			</MetaKeyword>
+			<MetaKeyword>
+				grave&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				graves
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid dermopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				pre-tibial myxedema
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Rarely, people with Graves&apos; disease develop Graves&apos; dermopathy, a skin condition characterized by red, swollen skin, usually on the shins and tops of the feet. The texture of the affected skin may be similar to that of an orange peel. This condition results from a buildup of certain carbohydrates in the skin &amp;mdash; the cause of which isn&apos;t known. Doctors may also refer to it as pretibial myxedema. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of Graves&apos; dermopathy is usually directed at the underlying Graves&apos; disease, but treatment of the affected skin may also include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cortisone creams to reduce inflammation&lt;/li&gt;
+	&lt;li&gt;Compression wraps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Early diagnosis and treatment of Graves&apos; dermopathy can improve the chances of successful treatment. Unfortunately, even with successful treatment of the underlying Graves&apos; disease, the dermopathy may develop, persist and even progress. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing Graves&apos; dermopathy 
+" Caption="Rarely, people with Graves&apos; disease develop a lumpy, reddish thickening of the skin (Graves&apos; dermopathy). This results from a buildup of protein in the skin. It often occurs on the shins and on the tops of the feet. 
+" Height="60" Title="Graves&apos; dermopathy" URI="/images/image_popup/thumbs/ans7_myxedemathu.jpg" Width="60" />
+				<Image Alt="Photograph showing Graves&apos; dermopathy 
+" Caption="Rarely, people with Graves&apos; disease develop a lumpy, reddish thickening of the skin (Graves&apos; dermopathy). This results from a buildup of protein in the skin. It often occurs on the shins and on the tops of the feet. 
+" Height="453" Title="Graves&apos; dermopathy" URI="/images/image_popup/ans7_myxedema.jpg" Width="400" />
+				<HTML>
+					Rarely, people with Graves&apos; disease develop a lumpy, reddish thickening of the skin (Graves&apos; dermopathy). This results from a buildup of protein in the skin. It often occurs on the shins and on the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Graves&apos; dermopathy: How is it treated?
+	</Title>
+	<Abstract>
+		Rarely, people with Graves&apos; disease develop a skin condition called Graves&apos; dermopathy (pretibial myxedema).
+	</Abstract>
+	<Question>
+		What causes Graves&apos; dermopathy? How is it treated?
+	</Question>
+	<QuestionFirstName>
+		Carol
+	</QuestionFirstName>
+	<QuestionState>
+		Massachusetts
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00709" LinkType="Internal" ObjectID="3B7E2908-9788-8F9C-79689BBDDE8A5263" Title="Thyroidectomy" Url="http://www.mayoclinic.com/health/thyroidectomy/MY00709" />
+		<LinkItem ContentType="Answer" DocID="AN00806" LinkType="Internal" ObjectID="2D62C8DD-A5F7-4BC2-A286806FF484555F" Title="Thyroid peroxidase antibody test: What is it?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00806" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+		<LinkItem ContentType="Disease" DocID="DS00181" LinkType="Internal" ObjectID="61F402CE-55BE-4D8A-8467053CAD40B475" Title="Graves&apos; disease" Url="http://www.mayoclinic.com/health/graves-disease/DS00181" />
+	</RelatedLinksBox>
+</Answer>

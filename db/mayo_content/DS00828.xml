@@ -1,0 +1,417 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00828
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stress-incontinence/DS00828
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-07
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1508" Title="Bladder">
+						<Keyword MCVID="2205" Title="Urinary incontinence">
+							<Keyword MCVID="4251" Title="Stress incontinence" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1A07481E-E7FF-0DBD-1A25151097FF55FF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stress incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				mixed incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder control
+			</MetaKeyword>
+			<MetaKeyword>
+				incontinence in women
+			</MetaKeyword>
+			<MetaKeyword>
+				female incontinence
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary incontinence is the unintentional loss of urine. Stress incontinence is prompted by a physical movement or activity &amp;mdash; such as coughing, sneezing, running or heavy lifting &amp;mdash; that puts pressure (stress) on your bladder. Stress incontinence is not related to psychological stress.
+&lt;/p&gt;
+&lt;p&gt;
+Stress incontinence is also different from urge incontinence, which is the unintentional loss of urine caused by the bladder muscle contracting, usually associated with a sense of urgency. Stress incontinence is much more common in women than men. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have stress incontinence, you may feel embarrassed, isolate yourself, or limit your work and social life, especially exercise and leisure activities. With treatment, you&apos;ll likely be able to manage stress incontinence and improve your overall well-being. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have stress incontinence, you may experience urine leakage when you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Sneeze&lt;/li&gt;
+	&lt;li&gt;Laugh&lt;/li&gt;
+	&lt;li&gt;Stand up&lt;/li&gt;
+	&lt;li&gt;Lift something heavy&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;Have sexual relations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may not experience incontinence every time you do one of these things, but any pressure-increasing activity can make you more vulnerable to unintentional urine loss, particularly when your bladder is full. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if your symptoms of stress incontinence interfere with your activities of daily living, such as your work, hobbies and social life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stress incontinence occurs because of diminished function in the bladder control muscles that regulate the release of urine. 
+&lt;/p&gt;
+&lt;p&gt;
+The bladder expands as it fills with urine, but valve-like muscles in the urethra &amp;mdash; the short tube through which urine flows to exit your body &amp;mdash; normally stay closed, or contracted, preventing urine leakage until you reach a bathroom. Your urinary sphincter, within the surrounding pelvic floor muscles, supports your bladder. When those muscles weaken, pressure can cause urine leakage as you jump or run, for instance. 
+&lt;/p&gt;
+&lt;p&gt;
+Your bladder may not even feel unusually full when you have urine leakage due to stress incontinence. Anything that exerts force on the abdominal and pelvic muscles &amp;mdash; sneezing, bending over, lifting, laughing hard &amp;mdash; puts pressure on your bladder.
+&lt;/p&gt;
+&lt;p&gt;
+Your urinary sphincter and pelvic floor muscles may lose strength because of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Childbirth.&lt;/strong&gt; In women, poor function of pelvic floor muscles or the sphincter may occur because of tissue or nerve damage during delivery of a child. Stress incontinence from this damage may begin soon after delivery or occur years later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate surgery.&lt;/strong&gt; In men, the most common factor leading to stress incontinence is the surgical removal of the prostate gland (prostatectomy) to treat prostate cancer. Because the sphincter lies directly below the prostate gland and encircles the urethra, a prostatectomy may result in a weakened sphincter. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Contributing factors&lt;br /&gt;
+&lt;/strong&gt;Other factors that may worsen stress incontinence include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Illnesses that cause chronic coughing or sneezing&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Smoking, which can cause frequent coughing&lt;/li&gt;
+	&lt;li&gt;Excess consumption of caffeine or alcohol&lt;/li&gt;
+	&lt;li&gt;High impact activities over many years&lt;/li&gt;
+	&lt;li&gt;Hormonal deficiency&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of urinary system, showing pelvic floor muscles 
+" Caption="Your urinary sphincter, within the surrounding pelvic floor muscles, controls urine release from your bladder. Keeping these muscles well toned can help prevent as well as reduce or stop urinary incontinence. 
+" Height="60" Title="Pelvic floor muscles" URI="/images/image_popup/thumbs/r7_incontinencethu.jpg" Width="60" />
+				<Image Alt="Illustration of urinary system, showing pelvic floor muscles 
+" Caption="Your urinary sphincter, within the surrounding pelvic floor muscles, controls urine release from your bladder. Keeping these muscles well toned can help prevent as well as reduce or stop urinary incontinence. 
+" Height="273" Title="Pelvic floor muscles" URI="/images/image_popup/r7_incontinence.jpg" Width="398" />
+				<HTML>
+					Your urinary sphincter, within the surrounding pelvic floor muscles, controls urine release from your bladder. Keeping these muscles well toned can help prevent as well as reduce or stop urinary ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of developing stress incontinence include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Although stress incontinence isn&apos;t a normal part of aging, physical changes associated with aging, such as the weakening of muscles, may make you more susceptible to stress incontinence. However, occasional stress incontinence can occur in women of any age, including women of college age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type of childbirth delivery.&lt;/strong&gt; A delayed second stage of labor (when the woman is &quot;pushing&quot;), as well as multiple vaginal deliveries, is associated with higher rates of the later development of stress incontinence. Many of these women may also have forceps delivery to more rapidly deliver a healthy baby &amp;mdash; forceps delivery may also be associated with a greater risk of stress incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Body weight.&lt;/strong&gt; People who are overweight or obese have a much higher risk of stress incontinence. Excess weight increases pressure on the abdominal and pelvic organs. Subsequently, the pressure on the bladder may be increased even without the additional pressure from a cough or other force. Weight loss is associated with improvement of stress urinary incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous pelvic surgery.&lt;/strong&gt; Hysterectomy in women and particularly surgery for prostate cancer in men can alter the function and support of the bladder and urethra, making it much more likely for a person to develop stress incontinence. This effect can be either immediate or delayed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of stress incontinence may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Personal distress.&lt;/strong&gt; If you experience stress incontinence with your activities of daily living, you may feel embarrassed and distressed by the condition. It can disrupt your work, social activities, interpersonal relationships and even your sexual relations. Some people are embarrassed that they need pads or incontinence garments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mixed urinary incontinence.&lt;/strong&gt; Mixed incontinence is common and means that you have both stress incontinence and urge incontinence &amp;mdash; the loss of urine resulting from an involuntary contraction of bladder muscles (overactive bladder).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin rash or irritation.&lt;/strong&gt; Skin that is constantly in contact with urine is likely to be irritated, sore and can break down. This happens with severe incontinence if you don&apos;t take precautions, such as using moisture barriers or incontinence pads.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may use a questionnaire to make a preliminary assessment of your stress incontinence symptoms. You may also be asked to keep a bladder diary for a few days. That involves recording when, how much and what kind of fluids you consume, as well as when and how much you urinate, including night-time bladder activity, and when you experience incontinence.
+&lt;/p&gt;
+&lt;p&gt;
+Your diary may reveal patterns that help your doctor understand symptoms and identify contributing factors. This may reduce the need for more invasive testing.
+&lt;/p&gt;
+&lt;p&gt;
+Specialized testing may require referral to a specialist in urinary disorders for men and women (urologist) or a specialist in urinary disorders in women (urogynecologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To get the most from your visit to the doctor, prepare in advance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any symptoms you&apos;re experiencing.&lt;/strong&gt; Include when your leakage occurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications, herbs or vitamin supplements you take.&lt;/strong&gt; Some over-the-counter supplements can irritate the urinary tract. Also include doses and how often you take the medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a family member or close friend accompany you.&lt;/strong&gt; You may be given a lot of information at your visit, and it can be difficult to remember everything.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook or electronic device with you&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Use it to note important information during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare a list of questions to ask your doctor.&lt;/strong&gt; List your most important questions first, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For urinary incontinence, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Will my urinary incontinence get worse?&lt;/li&gt;
+	&lt;li&gt;Could pelvic floor exercises help me? How do I do them?&lt;/li&gt;
+	&lt;li&gt;How does my weight affect my condition?&lt;/li&gt;
+	&lt;li&gt;Could the medicines I take be aggravating my condition?&lt;/li&gt;
+	&lt;li&gt;What tests might I need to determine the cause of my incontinence?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Be prepared to answer questions from your doctor. Questions your doctor might ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do you leak urine?&lt;/li&gt;
+	&lt;li&gt;When you leak urine, is it a few drops or are your clothes soaked?&lt;/li&gt;
+	&lt;li&gt;Are there times when you know that you will leak? &lt;/li&gt;
+	&lt;li&gt;Do you leak urine when you exercise?&lt;/li&gt;
+	&lt;li&gt;Do you wake up during the night to urinate? How often?&lt;/li&gt;
+	&lt;li&gt;What&apos;s your typical daily fluid intake?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your incontinence better? How about worse?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the most bothersome aspect of your problem with urinary incontinence?&lt;/li&gt;
+	&lt;li&gt;Do you also have bowel leakage? How often? What does this bowel leakage keep you from doing?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During your visit, your doctor looks for clues that may also indicate contributing factors. Your appointment will likely include a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medical history&lt;/li&gt;
+	&lt;li&gt;Physical exam with particular focus on your abdomen and genitals&lt;/li&gt;
+	&lt;li&gt;Urine sample to test for infection, traces of blood or other abnormalities&lt;/li&gt;
+	&lt;li&gt;Brief neurological exam to identify any pelvic nerve problems&lt;/li&gt;
+	&lt;li&gt;Urinary stress test, in which the doctor observes urine loss when you cough or bear down&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Special tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor might order urodynamic tests, which are used to assess the function of your bladder. Testing is not necessary in most women with uncomplicated stress urinary incontinence or in those who have not had prior surgery, pelvic radiation, spinal cord disease or advanced diabetes. Tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Measurements of post-void residual urine.&lt;/strong&gt; If there is concern about your ability to empty your bladder completely, particularly if you are older, have had prior bladder surgery or have diabetes, a test of your bladder efficiency may be needed. To measure residual urine after you have voided, a thin tube (catheter) is passed through the urethra and into your bladder. The catheter drains the remaining urine, which can then be measured. Or a specialist may use an ultrasound scan, which translates sound waves into an image of your bladder and its contents. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Measuring bladder pressures.&lt;/strong&gt; Some people, particularly if they have had a neurologic disease of the spinal cord, will need cystometry. Cystometry measures pressure in your bladder and in the surrounding region during bladder filling. A catheter is used to fill your bladder slowly with warm fluid. Tests of your bladder leakage will be done during the filling to check for stress incontinence. This procedure may be combined with a pressure-flow study, which tells how much pressure your bladder has to exert in order to empty completely. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Creating images of the bladder as it functions.&lt;/strong&gt; Video urodynamics uses imaging to create pictures of your bladder as it&apos;s filling and emptying. Warm fluid mixed with a dye that shows up on X-rays is gradually instilled in your bladder by a catheter while the images are recorded. When your bladder is full, the imaging continues as you urinate to empty your bladder. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystoscopy.&lt;/strong&gt; This is an examination of the bladder and urethra using a scope inserted into the bladder. This procedure is usually completed in the office.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You and your doctor should discuss the results of any tests and decide how they impact your treatment strategy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely recommend a combination of treatment strategies to end or lessen the number of incontinence episodes. If an underlying cause or contributing factor, such as a urinary tract infection, is identified, you&apos;ll also receive treatments for those conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior therapies&lt;br /&gt;
+&lt;/strong&gt;Behavior therapies may help you eliminate or lessen episodes of stress incontinence. The treatments your doctor recommends may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic floor muscle exercises.&lt;/strong&gt; Kegel exercises are the most important part of preventing and treating urinary incontinence. These exercises strengthen your pelvic floor muscles and urinary sphincter. Your doctor or a physical therapist can help you learn how to do them correctly. Just like any other exercise routine, how well Kegel exercises work for you depends on whether you perform them regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid consumption.&lt;/strong&gt; Your doctor might recommend the amount and timing of fluid consumption during the day. You may be requested to avoid caffeinated and alcoholic beverages to determine if these dietary irritants affect your bladder function. If your leakage is significantly improved by fluid schedules and avoiding dietary irritants, you&apos;ll have to decide if changing your fluid consumption or giving up coffee is worth the improvement in leakage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Healthy lifestyle changes.&lt;/strong&gt; Quitting smoking, losing unhealthy weight or treating a chronic cough will lessen your risk of stress incontinence as well as improve your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scheduled toilet trips.&lt;/strong&gt; Your doctor might recommend a schedule for toileting (bladder retraining) if you have mixed incontinence. More frequent voiding of the bladder may reduce the number or severity of urge incontinence episodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Devices&lt;br /&gt;
+&lt;/strong&gt;Certain devices designed for women may help control stress incontinence, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal pessary.&lt;/strong&gt; A specialized urinary incontinence pessary, shaped like a ring with two bumps that sit on each side of the urethra, is fitted and put into place by your doctor or nurse. It helps support your bladder base to prevent urine leakage during activity, especially if your bladder has dropped (prolapsed). This is a good choice if you wish to avoid surgery. A pessary will require routine removal and cleaning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urethral inserts.&lt;/strong&gt; This small tampon-like disposable device inserted into the urethra acts as a barrier to prevent leakage. It&apos;s usually used to prevent incontinence during a specific activity, but it may be worn throughout the day. Urethral inserts aren&apos;t meant to be worn 24 hours a day. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgical interventions to treat stress incontinence are designed to improve closure of the sphincter or support the bladder neck. Surgical options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injectable bulking agents.&lt;/strong&gt; Synthetic polysaccharides or gels may be injected into tissues around the upper portion of the urethra. These materials bulk the area around the urethra, improving the closing ability of the sphincter. Because this intervention is relatively noninvasive, it may be appropriate to consider before other surgical options. However, it is not a permanent repair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Retropubic colposuspension.&lt;/strong&gt; This surgical procedure &amp;mdash; done laparoscopically or by abdominal incision &amp;mdash; uses sutures attached either to ligaments or to bone to lift and support tissues near the bladder neck and upper portion of the urethra. This is often used in combination with other procedures to treat women with stress incontinence who also have a bladder that has dropped down (prolapsed).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sling procedure.&lt;/strong&gt; This is the most common procedure performed in women with stress urinary incontinence. In this procedure, the surgeon uses the person&apos;s own tissue, synthetic material (mesh), or animal or donor tissue to create a sling or hammock that supports the urethra. Slings are also used for men with sphincteric leakage. The technique uses a mesh sling and may ease symptoms of stress incontinence in some men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflatable artificial sphincter.&lt;/strong&gt; This surgically implanted device is more often used to treat men. A cuff, which fits around the upper portion of the urethra, replaces the function of the sphincter. Tubes connect the cuff to a pressure-regulating balloon in the pelvic region and a manually operated pump in the scrotum. While rarely used in the U.S. in women, if the device is implanted in a woman, the pump is in the labia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Healthy lifestyle practices can go a long way toward easing symptoms of stress incontinence. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shed extra weight.&lt;/strong&gt; If you&apos;re overweight &amp;mdash; your body mass index (BMI) is 25 or higher &amp;mdash; losing excess pounds can help reduce the overall pressure on your bladder and pelvic floor muscles. Moderate weight loss may markedly help improve your stress incontinence. Talk to your doctor for guidance on weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add fiber to your diet.&lt;/strong&gt; If chronic constipation contributes to your urinary incontinence, keeping your bowel movements soft and regular reduces the strain that&apos;s placed on your pelvic floor muscles. Eat high-fiber foods &amp;mdash; whole grains, legumes, fruits and vegetables &amp;mdash; to help relieve and prevent constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid eating or drinking substances that can irritate your bladder.&lt;/strong&gt; If you have mixed incontinence and you know that drinking coffee or tea (regular or decaf) throughout the day tends to make you urinate and leak more frequently, try stopping that drink, especially on days you really don&apos;t want to be bothered by leakage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking can lead to a severe chronic cough, which can aggravate the symptoms of stress incontinence. Smoking is also associated with a drop in your oxygen carrying capacity, a factor thought to increase the risk of an overactive bladder. And smoking is associated with bladder cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for stress incontinence can usually substantially reduce, if not eliminate, urinary leakage and help you regain control of your bladder. The urge incontinence component of mixed incontinence can be very difficult to treat, and you may need support.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Going out and about&lt;br /&gt;
+&lt;/strong&gt;Maintaining your connection with family, friends and co-workers can prevent feelings of isolation and depression that can accompany incontinence. Being prepared may help you feel more comfortable when you&apos;re out and about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stock up on supplies.&lt;/strong&gt; Take along sufficient incontinence pads or protective undergarments and possibly a change of clothes. Incontinence products are discreet and often can be stowed in a roomy purse or a small backpack. Extra supplies and spare clothes can be kept in the trunk of your car or a backpack for use when needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scout out your destination.&lt;/strong&gt; Familiarize yourself with the restrooms available at your destination. Choose seating that allows easy access to restrooms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take good care of your skin.&lt;/strong&gt; Prolonged contact with wet clothing can cause skin irritation or sores. Keep your skin dry by changing your garments when they&apos;re wet and applying a barrier cream if your skin is frequently wet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sexuality and incontinence&lt;br /&gt;
+&lt;/strong&gt;Leaking urine during sexual intercourse can be upsetting, but it doesn&apos;t necessarily have to get in the way of intimacy and enjoyment:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with your partner.&lt;/strong&gt; As difficult as this may be initially, be upfront with your partner about your symptoms. A partner&apos;s understanding and willingness to accommodate your needs can make your symptoms much easier to handle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Empty your bladder beforehand.&lt;/strong&gt; To reduce your chances of leakage, avoid drinking fluids for an hour or so before sex and empty your bladder before intimacy starts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try a different position.&lt;/strong&gt; Altering positions may make leakage less likely for you. For women, being on top generally gives better control of the pelvic muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do your Kegels.&lt;/strong&gt; Pelvic floor muscle exercises (Kegel exercises) strengthen your pelvic floor muscles and reduce urine leakage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared.&lt;/strong&gt; Having towels handy or using disposable pads on your bed may help ease your worry about leakage and contain any leakage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek help&lt;br /&gt;
+&lt;/strong&gt;Being incontinent is never the norm as you age. Treatments are usually available to significantly reduce the effects of incontinence on your life. Stress incontinence can often be cured. 
+&lt;/p&gt;
+&lt;p&gt;
+Find a doctor who&apos;s willing to work with you to determine the best way to treat your incontinence. Choosing the right treatments for you should be a partnership. If the first doctor doesn&apos;t want to discuss the pros and cons of these many options with you, find another who will.
+&lt;/p&gt;
+&lt;p&gt;
+You might consider joining a support group. Organizations such as the National Association For Continence can provide you with resources and information about people who experience stress incontinence. Support groups offer an opportunity to voice concerns and often provide motivation to maintain self-care strategies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stress incontinence
+	</Title>
+	<Abstract>
+		Stress incontinence &amp;mdash; Comprehensive overview covers causes, treatment and how to cope with involuntary urination.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00688" LinkType="Internal" ObjectID="31607876-57B7-44ED-B1049C2C0294DACF" Title="Adult bed-wetting: A concern?" Url="http://www.mayoclinic.com/health/adult-bed-wetting/AN00688" />
+		<LinkItem ContentType="Article" DocID="WO00124" LinkType="Internal" ObjectID="AFBCDFD8-E7FF-0DBD-175A5B4B919082B9" Title="Urinary incontinence: Incontinence products to help keep you dry" Url="http://www.mayoclinic.com/health/incontinence-products/WO00124" />
+		<LinkItem ContentType="Article" DocID="WO00126" LinkType="Internal" ObjectID="A04645D6-E7FF-0DBD-1DA6BBA55DAA2093" Title="Urinary incontinence surgery: When other treatments aren&apos;t enough" Url="http://www.mayoclinic.com/health/urinary-incontinence-surgery/WO00126" />
+		<LinkItem ContentType="Article" DocID="WO00122" LinkType="Internal" ObjectID="8F1FAF2D-E7FF-0DBD-1CC78140B8CB997C" Title="Bladder control problems in women: Lifestyle strategies for relief" Url="http://www.mayoclinic.com/health/bladder-control-problem/WO00122" />
+		<LinkItem ContentType="Article" DocID="WO00117" LinkType="Internal" ObjectID="13FCB22A-E7FF-0DBD-1E65C212C48A8363" Title="Bladder control problems in women: Seek treatment" Url="http://www.mayoclinic.com/health/bladder-control-problems/WO00117" />
+		<LinkItem ContentType="Article" DocID="WO00123" LinkType="Internal" ObjectID="13F0A4E6-E7FF-0DBD-11D26F15C59BFC0F" Title="Bladder control problems: Medications for treating urinary incontinence" Url="http://www.mayoclinic.com/health/bladder-control-problems/WO00123" />
+		<LinkItem ContentType="Disease" DocID="DS00404" LinkType="Internal" ObjectID="256654C2-982F-4C33-B5E40B0F7A6C9C68" Title="Urinary incontinence" Url="http://www.mayoclinic.com/health/urinary-incontinence/DS00404" />
+		<LinkItem ContentType="Article" DocID="PR00142" LinkType="Internal" ObjectID="B2F4745C-2A5D-9994-E1172BF0FCD32365" Title="Postpartum care: What to expect after a vaginal delivery" Url="http://www.mayoclinic.com/health/postpartum-care/PR00142" />
+	</RelatedLinksBox>
+</Disease>

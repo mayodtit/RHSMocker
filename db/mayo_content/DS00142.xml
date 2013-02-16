@@ -1,0 +1,335 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00142
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/reyes-syndrome/DS00142
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-17
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1769" Title="Infection">
+						<Keyword MCVID="3191" Title="Reye&apos;s syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E9612586-2CF3-4EA2-8AC437141CB43D0E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Reye
+			</MetaKeyword>
+			<MetaKeyword>
+				Reye&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Reye&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				aspirin
+			</MetaKeyword>
+			<MetaKeyword>
+				Reyes syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Reye syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				acetylsalicylic
+			</MetaKeyword>
+			<MetaKeyword>
+				salicylates
+			</MetaKeyword>
+			<MetaKeyword>
+				salicylate
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reye&apos;s (Ryes) syndrome is a rare but serious condition that causes swelling in the liver and brain. Reye&apos;s syndrome most often affects children and teenagers recovering from a viral infection and who may also have a metabolic disorder. Signs and symptoms such as confusion, seizures and loss of consciousness require emergency treatment. Early diagnosis and treatment of Reye&apos;s syndrome can save a child&apos;s life. 
+&lt;/p&gt;
+&lt;p&gt;
+Aspirin has been linked with Reye&apos;s syndrome, so use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In Reye&apos;s syndrome, a child&apos;s blood sugar level typically drops while the levels of ammonia and acidity in his or her blood rise. At the same time, the liver may swell and develop fatty deposits. Swelling may also occur in the brain, which can cause seizures, convulsions or loss of consciousness. 
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of Reye&apos;s syndrome typically appear about three to five days after a viral infection, such as the flu (influenza) or chickenpox, or an upper respiratory infection, such as a cold. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial signs and symptoms&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;For children younger than age 2,&lt;/strong&gt; the first signs of Reye&apos;s syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Rapid breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For older children and teenagers,&lt;/strong&gt; early signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent or continuous vomiting&lt;/li&gt;
+	&lt;li&gt;Unusual sleepiness or lethargy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional signs and symptoms&lt;br /&gt;
+&lt;/strong&gt;As the condition progresses, signs and symptoms may become more serious, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irritable, aggressive or irrational behavior&lt;/li&gt;
+	&lt;li&gt;Confusion, disorientation or hallucinations&lt;/li&gt;
+	&lt;li&gt;Weakness or paralysis in the arms and legs&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Excessive lethargy&lt;/li&gt;
+	&lt;li&gt;Decreased level of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms require emergency treatment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Early diagnosis and treatment of Reye&apos;s syndrome can save a child&apos;s life. If you suspect that your child has Reye&apos;s syndrome, it&apos;s important to act quickly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency medical help&lt;/strong&gt; if your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has seizures or convulsions&lt;/li&gt;
+	&lt;li&gt;Loses consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Contact your child&apos;s doctor&lt;/strong&gt; if your child experiences the following after a bout with the flu or chicenpox: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vomits repeatedly&lt;/li&gt;
+	&lt;li&gt;Becomes unusually sleepy or lethargic&lt;/li&gt;
+	&lt;li&gt;Has sudden behavior changes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of Reye&apos;s syndrome is unknown, although several factors may play a role in its development. Reye&apos;s syndrome seems to be triggered by using aspirin to treat a viral illness or infection &amp;mdash; particularly flu (influenza) and chickenpox &amp;mdash; in children and teenagers who have an underlying fatty acid oxidation disorder. Fatty acid oxidation disorders are a group of inherited metabolic disorders in which the body is unable to break down fatty acids because an enzyme is missing or not working properly. A screening test is needed to determine if your child has a fatty acid oxidation disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, Reye&apos;s syndrome may be an underlying metabolic condition that&apos;s unmasked by a viral illness. Exposure to certain toxins &amp;mdash; such as insecticides, herbicides and paint thinner &amp;mdash; also may contribute to Reye&apos;s syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors &amp;mdash; usually when they occur together &amp;mdash; may increase your child&apos;s risk of developing Reye&apos;s syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using aspirin to treat a viral infection, such as flu, chickenpox or an upper respiratory infection&lt;/li&gt;
+	&lt;li&gt;Having an underlying fatty acid oxidation disorder&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most children and teenagers who have Reye&apos;s syndrome survive, although varying degrees of permanent brain damage are possible. Without proper diagnosis and treatment, Reye&apos;s syndrome can be fatal within a few days.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reye&apos;s syndrome is often diagnosed in an emergency situation because of serious signs and symptoms, such as seizures or loss of consciousness. In some cases, early signs and symptoms prompt a doctor&apos;s appointment. You&apos;ll likely be referred to a doctor who specializes in conditions of the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it can help to be well prepared. Here are some tips to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including vitamins, dietary supplements and over-the-counter drugs, that your child has taken, especially any containing aspirin. Even better, take the original bottles and a written list of the dosages and directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along a family member or friend.&lt;/strong&gt; It can be difficult to absorb all the information provided to you during an appointment. The person who accompanies you may remember something that you forgot or missed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Don&apos;t be afraid to ask questions or to speak up when you don&apos;t understand something your doctor says.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important in case your time with your doctor runs out. For Reye&apos;s syndrome some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are other possible causes for my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests are needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up should I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;The neurologist is likely to ask about your child&apos;s symptoms and history of viral illnesses. The doctor will also conduct a medical exam and schedule tests to gather information about your child&apos;s condition and to rule out other diseases, such as meningitis or encephalitis. Your doctor will talk to you throughout the process and tell you what tests are being performed and why. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific test for Reye&apos;s syndrome. Instead, screening for Reye&apos;s syndrome usually begins with blood and urine tests as well as testing for fatty acid oxidation disorders and other metabolic disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes more invasive diagnostic tests are needed to evaluate other possible causes of liver problems and investigate any neurological abnormalities. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal tap (lumbar puncture).&lt;/strong&gt; A spinal tap can help the doctor identify or rule out other diseases with similar signs and symptoms, such as infection of the lining that surrounds the brain and spinal cord (meningitis) or inflammation or infection of the brain (encephalitis). During a spinal tap, a needle is inserted through the lower back into a space below the end of the spinal cord. A small sample of cerebrospinal fluid is removed and sent to a lab for analysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver biopsy.&lt;/strong&gt; A liver biopsy can help the doctor identify or rule out other conditions that may be affecting the liver. During a liver biopsy, a needle is inserted through the skin on the upper right side of the abdomen and into the liver. A small sample of liver tissue is removed and sent to a lab for analysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) or magnetic resonance imaging (MRI).&lt;/strong&gt; A head CT or MRI scan can help the doctor identify or rule out other causes of behavior changes or decreased alertness. A CT scan uses a sophisticated imaging machine linked to a computer to produce detailed, 2-D images of the brain. An MRI scan uses a strong magnetic field and radio waves rather than X-rays to generate images of the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; Testing for fatty acid oxidation disorders or metabolic disorders may require a skin biopsy. During a skin biopsy, a doctor takes a small skin sample (biopsy) for analysis in a lab. A biopsy can usually be done in a doctor&apos;s office using a local anesthetic.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lumbar puncture (spinal tap) 
+" Caption="During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;mdash; to collect cerebrospinal fluid for testing. 
+" Height="60" Title="Lumbar puncture (spinal tap)" URI="/images/image_popup/thumbs/ans7_lumbar_puncturethu.jpg" Width="60" />
+				<Image Alt="Illustration of lumbar puncture (spinal tap) 
+" Caption="During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;mdash; to collect cerebrospinal fluid for testing. 
+" Height="399" Title="Lumbar puncture (spinal tap)" URI="/images/image_popup/ans7_lumbar_puncture.jpg" Width="400" />
+				<HTML>
+					During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reye&apos;s syndrome is usually treated in the hospital. Severe cases may be treated in the intensive care unit. The hospital staff will closely monitor your child&apos;s blood pressure and other vital signs. Specific treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous fluids.&lt;/strong&gt; Glucose and an electrolyte solution may be given through an intravenous (IV) line.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; These medications may be used to decrease intracranial pressure and increase fluid loss through urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure medications.&lt;/strong&gt; Medications may be used to prevent seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to prevent bleeding.&lt;/strong&gt; Bleeding due to liver abnormalities may require treatment with vitamin K, plasma and platelets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child has trouble breathing, he or she may need assistance from a breathing machine (ventilator).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This includes plain aspirin and medications that contain aspirin. 
+&lt;/p&gt;
+&lt;p&gt;
+Some hospitals and medical facilities conduct newborn screenings for fatty acid oxidation disorders to determine which children are at greater risk of developing Reye&apos;s syndrome. Children with known fatty acid oxidation disorders should not take aspirin or aspirin-containing products. 
+&lt;/p&gt;
+&lt;p&gt;
+Always check the label before you give your child medication, including over-the-counter products and alternative or herbal remedies. Aspirin can show up in some unexpected places, such as Alka-Seltzer. Sometimes aspirin goes by other names, too, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acetylsalicylic acid&lt;/li&gt;
+	&lt;li&gt;Acetylsalicylate&lt;/li&gt;
+	&lt;li&gt;Salicylic acid&lt;/li&gt;
+	&lt;li&gt;Salicylate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child has the flu, chickenpox or another viral illness, use other medications &amp;mdash; such as acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin, others) or naproxen (Aleve) &amp;mdash; to reduce high fever or relieve pain. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s one caveat to the aspirin rule, however. Children and teenagers who have certain chronic diseases, such as Kawasaki disease, may need long-term treatment with drugs that contain aspirin. If your child needs aspirin therapy, make sure his or her vaccines are current &amp;mdash; including two doses of the varicella (chickenpox) vaccine and a yearly flu vaccine. Avoiding these two viral illnesses can help prevent Reye&apos;s syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Reye&apos;s syndrome
+	</Title>
+	<Abstract>
+		Reye&apos;s syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment of this rare condition associated with aspirin.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HO00002" LinkType="Internal" ObjectID="99E818C7-6EDD-4A1B-8170BAAECEC4B2E8" Title="Acetaminophen and children: Why dose matters" Url="http://www.mayoclinic.com/health/acetaminophen/HO00002" />
+	</RelatedLinksBox>
+</Disease>

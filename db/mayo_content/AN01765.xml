@@ -1,0 +1,126 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01765
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/birth-control-pills/AN01765
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="4668" Title="Birth control">
+					<Keyword MCVID="4670" Title="Birth control pills" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ABD67304-E7FF-0DBD-181A035B56CADE83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				birth control pills
+			</MetaKeyword>
+			<MetaKeyword>
+				oral contraceptives
+			</MetaKeyword>
+			<MetaKeyword>
+				birth control pill
+			</MetaKeyword>
+			<MetaKeyword>
+				the pill
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+You can take birth control pills as long as you need birth control or until you reach menopause, as long as you&apos;re generally healthy and don&apos;t smoke. This applies to all types of birth control pills, including combination birth control pills and progestin-only birth control pills. 
+&lt;/p&gt;
+&lt;p&gt;
+Birth control pills aren&apos;t recommended for certain women, however, including women age 35 or older who smoke and women who have certain medical conditions, such as blood-clotting disorders or uncontrolled high blood pressure. Some types of birth control pills aren&apos;t recommended for women who are breast-feeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Years ago it was thought that prolonged use of birth control pills would interfere with a woman&apos;s subsequent ability to conceive, but this has been shown to be false. Similarly, doctors used to recommend taking an occasional break from birth control pills, but this offers no benefits and may increase your risk of an unplanned pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+Some research suggests that prolonged use of birth control pills increases the risk of certain types of cancer, such as cervical cancer and liver cancer. However, use of birth control pills also decreases the risk of other types of cancer, such as ovarian cancer and endometrial cancer.
+&lt;/p&gt;
+&lt;p&gt;
+The effect of birth control pills on breast cancer risk isn&apos;t clear. Some research indicates that birth control pills slightly increase the risk of breast cancer &amp;mdash; but that 10 or more years after stopping the pill, a woman&apos;s breast cancer risk returns to the same level as if she had never taken birth control pills. Other studies don&apos;t support a link between birth control pills and breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re concerned about long-term use of birth control pills, discuss the risks and benefits with your health care provider. He or she can help you weigh the pros and cons of other types of contraception as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Birth control pills: OK to take indefinitely?
+	</Title>
+	<Abstract>
+		Birth control pills can generally be taken as long as birth control is needed.
+	</Abstract>
+	<Question>
+		How long can I safely continue taking birth control pills?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01662" LinkType="Internal" ObjectID="B0A95741-E7FF-0DBD-173648F07254EB4E" Title="Birth control pills: Harmful in early pregnancy?" Url="http://www.mayoclinic.com/health/birth-control-pills/AN01662" />
+		<LinkItem ContentType="Answer" DocID="AN02016" LinkType="Internal" ObjectID="324520C7-B7C9-CD4F-2288B0A0B05269F3" Title="Birth control pills for acne?" Url="http://www.mayoclinic.com/health/birth-control-pills-for-acne/AN02016" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00991" LinkType="Internal" ObjectID="2B8C36F6-C98C-1EB9-3BF9A58EB0401516" Title="Minipill (progestin-only birth control pill)" Url="http://www.mayoclinic.com/health/minipill/MY00991" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Answer" DocID="AN01426" LinkType="Internal" ObjectID="8452D729-E7FF-0DBD-11B2ED24170DDBDF" Title="Seasonale: Is breakthrough bleeding more common?" Url="http://www.mayoclinic.com/health/seasonale-side-effects/AN01426" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Article" DocID="MY00996" LinkType="Internal" ObjectID="2FE1E425-D37A-3271-6B8D41CDBDED920E" Title="Choosing a birth control pill" Url="http://www.mayoclinic.com/health/best-birth-control-pill/MY00996" />
+		<LinkItem ContentType="Article" DocID="WO00069" LinkType="Internal" ObjectID="0B6AD495-D511-40C0-AEB53DD85774C488" Title="Delaying your period with birth control pills" Url="http://www.mayoclinic.com/health/womens-health/WO00069" />
+	</RelatedLinksBox>
+</Answer>

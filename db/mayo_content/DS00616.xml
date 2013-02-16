@@ -1,0 +1,436 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00616
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coarctation-of-the-aorta/DS00616
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="4255" Title="Coarctation of the aorta" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B2506C3C-2A5D-9994-EE10BF35EDF6E70E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				coarctation of the aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic coarctation
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coarctation (ko-ahrk-TAY-shun) of the aorta &amp;mdash; or aortic coarctation &amp;mdash; is a narrowing of the aorta, the large blood vessel that branches off your heart and delivers oxygen-rich blood to your body. When this occurs, your heart must pump harder to force blood through the narrow part of your aorta. 
+&lt;/p&gt;
+&lt;p&gt;
+Coarctation of the aorta is generally present at birth (congenital). Coarctation of the aorta may range from mild to severe, and may not be detected until adulthood, depending on how narrowed the aorta is. 
+&lt;/p&gt;
+&lt;p&gt;
+Coarctation of the aorta often occurs along with other heart defects. While treatment for coarctation of the aorta is usually successful, it&apos;s a condition that requires careful follow-up through infancy and throughout adulthood. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing coarctation of the aorta 
+" Caption="Coarctation of the aorta is a narrowing, or constriction, in a portion of the aorta. The condition forces the heart to pump harder to get blood through the aorta and on to the rest of the body. 
+" Height="60" Title="Coarctation of the aorta" URI="/images/image_popup/thumbs/mcdc7_coarctationoftheaortathu.jpg" Width="60" />
+				<Image Alt="Illustration showing coarctation of the aorta 
+" Caption="Coarctation of the aorta is a narrowing, or constriction, in a portion of the aorta. The condition forces the heart to pump harder to get blood through the aorta and on to the rest of the body. 
+" Height="400" Title="Coarctation of the aorta" URI="/images/image_popup/mcdc7_coarctationoftheaorta.jpg" Width="390" />
+				<HTML>
+					Coarctation of the aorta is a narrowing, or constriction, in a portion of the aorta. The condition forces the heart to pump harder to get blood through the aorta and on to the rest of the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coarctation of the aorta symptoms depend on the seriousness of the condition. Children with serious aortic narrowing tend to show signs and symptoms earlier in life, while mild cases may not be diagnosed until adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+Babies with severe coarctation of the aorta usually begin having signs and symptoms shortly after birth. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Heavy sweating&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Left untreated, aortic coarctation in babies may lead to heart failure and death. 
+&lt;/p&gt;
+&lt;p&gt;
+Older children and adults with the condition often don&apos;t have symptoms, because they tend to have less severe narrowing of the aorta. If signs or symptoms appear, the most common sign is high blood pressure (hypertension) measured in the arm. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, especially during exercise&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Leg cramps or cold feet&lt;/li&gt;
+	&lt;li&gt;Nosebleeds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek medical help if you or your child has the following signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe chest pain&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Sudden shortness of breath&lt;/li&gt;
+	&lt;li&gt;Unexplained high blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While experiencing these signs or symptoms doesn&apos;t necessarily mean that you have a serious problem, it&apos;s best to get checked out quickly. Early detection and treatment may help save your life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t certain what causes aortic coarctation. For unknown reasons, mild to severe narrowing develops in part of the aorta. Although aortic coarctation can occur anywhere along the aorta, the coarctation is most often located near a blood vessel called the ductus arteriosus. The condition generally begins before birth. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, coarctation of the aorta may develop later in life. Traumatic injury may lead to coarctation of the aorta. Rarely, severe hardening of the arteries (atherosclerosis) or a condition causing inflamed arteries (Takayasu&apos;s arteritis) may narrow your aorta, leading to aortic coarctation. 
+&lt;/p&gt;
+&lt;p&gt;
+Coarctation of the aorta usually occurs beyond the blood vessels that branch off to your upper body and before the blood vessels that lead to your lower body. This often means you&apos;ll have high blood pressure in your arms, but low blood pressure in your legs and ankles. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing coarctation of the aorta 
+" Caption="Coarctation of the aorta is a narrowing, or constriction, in a portion of the aorta. The condition forces the heart to pump harder to get blood through the aorta and on to the rest of the body. 
+" Height="60" Title="Coarctation of the aorta" URI="/images/image_popup/thumbs/mcdc7_coarctationoftheaortathu.jpg" Width="60" />
+				<Image Alt="Illustration showing coarctation of the aorta 
+" Caption="Coarctation of the aorta is a narrowing, or constriction, in a portion of the aorta. The condition forces the heart to pump harder to get blood through the aorta and on to the rest of the body. 
+" Height="400" Title="Coarctation of the aorta" URI="/images/image_popup/mcdc7_coarctationoftheaorta.jpg" Width="390" />
+				<HTML>
+					Coarctation of the aorta is a narrowing, or constriction, in a portion of the aorta. The condition forces the heart to pump harder to get blood through the aorta and on to the rest of the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coarctation of the aorta often occurs along with other congenital heart defects, although doctors don&apos;t know what causes multiple heart defects to form together. If you or your child has any of the following heart conditions, you or your child is more likely to have aortic coarctation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bicuspid aortic valve.&lt;/strong&gt; The aortic valve separates the lower left chamber (left ventricle) of the heart from the aorta. A bicuspid aortic valve has two leaflets instead of the usual three.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Patent ductus arteriosus.&lt;/strong&gt; While a baby is still in the womb, the ductus arteriosus is a blood vessel connecting the left pulmonary artery to the aorta, allowing blood to bypass the lungs. Shortly after birth, the ductus arteriosus usually closes. If it remains open, it&apos;s called a patent ductus arteriosus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aortic valve stenosis.&lt;/strong&gt; This is a narrowing of the valve that separates the left ventricle of the heart from the aorta. This means your heart has to pump harder to get adequate blood flow to your body. Over time, this can thicken the muscle of your heart and lead to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mitral valve stenosis.&lt;/strong&gt; This is a narrowing of the valve that lets blood flow through the left side of your heart. This means blood may back up into your lungs, causing shortness of breath or lung congestion. Like aortic valve stenosis, this condition can also lead to heart failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Coarctation of the aorta is also more common in people who have certain genetic conditions, such as Turner syndrome. Women and girls with this syndrome have 45 chromosomes, with one missing or incomplete X chromosome, instead of 46. About 10 percent of women and girls with Turner syndrome have aortic coarctation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated coarctation of the aorta frequently leads to complications. Several of the complications are a result of long-standing high blood pressure caused by the aortic coarctation. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications of coarctation of the aorta include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Rupture of the aorta&lt;/li&gt;
+	&lt;li&gt;Premature coronary artery disease &amp;mdash; narrowing of the blood vessels that supply the heart&lt;/li&gt;
+	&lt;li&gt;Weakened or bulging artery in the brain (cerebral aneurysm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, if the coarctation of the aorta is severe, your heart may not be able to pump adequate blood to the organs of your body, resulting in the failure of organs such as your kidneys or liver. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child develops signs and symptoms common to coarctation of the aorta, call your doctor. After an initial examination, it&apos;s likely that the doctor will refer you or your child to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms you or your child has had,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including any other health problems and the names of any medications you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask the doctor at the initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests are needed?&lt;/li&gt;
+	&lt;li&gt;Should a specialist be consulted?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you are referred to a cardiologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I or does my child have coarctation of the aorta?&lt;/li&gt;
+	&lt;li&gt;How severe is the defect?&lt;/li&gt;
+	&lt;li&gt;Did tests reveal any other heart defects?&lt;/li&gt;
+	&lt;li&gt;What is the risk of complications from coarctation of the aorta?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what type of procedure is most likely to be effective? Why?&lt;/li&gt;
+	&lt;li&gt;What will be involved in recovery and rehabilitation after surgery?&lt;/li&gt;
+	&lt;li&gt;How often should my child or I be seen for follow-up exams and tests?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch for at home?&lt;/li&gt;
+	&lt;li&gt;What is the long-term outlook for this condition?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any dietary or activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Do you recommend taking antibiotics before dental appointments or other medical procedures?&lt;/li&gt;
+	&lt;li&gt;Is it safe for a woman with coarctation of the aorta to become pregnant?&lt;/li&gt;
+	&lt;li&gt;What is the risk that my or my child&apos;s future children will have this defect?&lt;/li&gt;
+	&lt;li&gt;Should I meet with a genetic counselor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+A doctor or cardiologist who sees you or your child for possible coarctation of the aorta may ask a number of questions, including: 
+&lt;/p&gt;
+&lt;p&gt;
+If you are the person affected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include shortness of breath?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include headache or dizziness?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include chest pain?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include cold feet?&lt;/li&gt;
+	&lt;li&gt;Have you had any weakness or leg cramps with exercise?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Do you have frequent nosebleeds?&lt;/li&gt;
+	&lt;li&gt;Does exercise or physical exertion make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including over-the-counter and prescription drugs, as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you have any children?&lt;/li&gt;
+	&lt;li&gt;Are you planning to become pregnant in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your baby or child is affected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Is your child gaining weight at a normal rate?&lt;/li&gt;
+	&lt;li&gt;Does your child have any breathing problems, such as running out of breath easily or breathing rapidly?&lt;/li&gt;
+	&lt;li&gt;Does your child tire easily?&lt;/li&gt;
+	&lt;li&gt;Does your child sweat heavily?&lt;/li&gt;
+	&lt;li&gt;Does your child seem irritable?&lt;/li&gt;
+	&lt;li&gt;Do your child&apos;s symptoms include chest pain?&lt;/li&gt;
+	&lt;li&gt;Do your child&apos;s symptoms include cold feet?&lt;/li&gt;
+	&lt;li&gt;Has your child been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Is your child currently taking any medications?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your child&apos;s family?&lt;/li&gt;
+	&lt;li&gt;Is there a history of congenital heart defects in your child&apos;s family?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The age at which people with coarctation of the aorta are diagnosed depends on the severity of the condition. If the aortic coarctation is severe, it&apos;s usually diagnosed during infancy. Testing for coarctation of the aorta while your baby is still in the womb is often not possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Adults and older children tend to have milder cases and usually appear healthy until a doctor detects: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure in the arms&lt;/li&gt;
+	&lt;li&gt;A blood pressure difference between arms and legs&lt;/li&gt;
+	&lt;li&gt;A weak or delayed pulse in the legs&lt;/li&gt;
+	&lt;li&gt;A heart murmur &amp;mdash; an abnormal whooshing sound caused by turbulent blood flow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+Tests to confirm a diagnosis of coarctation of the aorta include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; X-rays produce pictures by passing an X-ray beam through your body. A chest X-ray may show an enlarged heart or a narrowing in the aorta at the site of the coarctation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; Echocardiograms use high-pitched sound waves to produce an image of your heart. Sound waves bounce off your heart and produce moving images that can be viewed on a video screen. An echocardiogram may detect the location and severity of the aortic coarctation and can show other heart defects, such as a bicuspid aortic valve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; An ECG test records the electrical activity in your heart each time it contracts. For this procedure, patches with wires (electrodes) are placed on your chest, wrists and ankles. The electrodes measure electrical activity, which is recorded on paper or a computer monitor. If the coarctation of the aorta is severe, the ECG will show that you might have a thickened heart muscle (ventricular hypertrophy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI scan is a test that uses a magnetic field and pulses of radio wave energy to make pictures of your body. An MRI of your chest will reveal the location of the coarctation of the aorta and determine whether it affects other blood vessels in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) angiogram.&lt;/strong&gt; A CT angiogram allows your doctor to check your arteries to see if your aorta is narrowed. In this minimally invasive test, you&apos;ll change into a hospital gown and lie on a table that&apos;s part of the CT scanning machine. You&apos;ll receive an injection of a radioactive dye, and the doughnut-shaped CT scanner will be moved to take images of the arteries in your heart. The images are then sent to a computer screen for your doctor to view.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; During this procedure, your doctor inserts a thin flexible tube (catheter) into an artery or vein in your groin and threads it up to your heart. A dye is injected through the catheter to make your heart structures visible on X-ray pictures. Cardiac catheterization helps determine the severity of the aortic coarctation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment options for coarctation of the aorta depend on your age when you&apos;re diagnosed and how narrowed your aorta is. Other heart defects may be repaired at the same time as aortic coarctation. Treatment approaches usually consist of surgery or a procedure called balloon angioplasty. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+There are several open-heart surgical techniques to repair aortic coarctation. Your doctor can discuss with you which type is most likely to successfully repair your or your child&apos;s condition. The options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Resection with end-to-end anastomosis.&lt;/strong&gt; This method involves removing the narrowed segment of the aorta (resection) followed by connecting the two ends of the aorta together (anastomosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Patch aortoplasty.&lt;/strong&gt; Your doctor may treat your coarctation by cutting across the constricted area of the aorta and then attaching a patch of synthetic material to widen the blood vessel. Patch aortoplasty is useful if the coarctation involves a long segment of the aorta.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Left subclavian flap angioplasty.&lt;/strong&gt; A portion of the left subclavian artery, the blood vessel that delivers blood to your left arm, may be used to expand the narrowed area of the artery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bypass graft repair.&lt;/strong&gt; This technique involves bypassing the narrowed area by inserting a plastic tube called a graft between the portions of the aorta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Balloon angioplasty and stenting&lt;/strong&gt;&lt;br /&gt;
+Balloon angioplasty is an option for initially treating aortic coarctation or for treating re-narrowing (re-coarctation) that has occurred after surgery. During this procedure, your doctor inserts a thin flexible tube (catheter) into an artery in your groin and threads it up through your blood vessels to your heart. An uninflated balloon is placed through the opening of the narrowed aorta. When the balloon is inflated, the aorta widens and blood flows more easily. In some cases, a mesh-covered hollow tube called a stent is inserted to keep the narrowed part of the aorta open. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;/strong&gt;&lt;br /&gt;
+Medication isn&apos;t used to repair coarctation of the aorta, but it may be used to control blood pressure before surgery. Although repairing aortic coarctation improves blood pressure, many people will still need to take medication, even after a successful surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Babies with severe coarctation of the aorta may receive a drug called prostaglandin E. This drug helps keep the ductus arteriosus open, providing a bypass for blood flow around the constriction, until the coarctation is repaired. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After treatment&lt;/strong&gt;&lt;br /&gt;
+The most common long-term complication of coarctation of the aorta is high blood pressure. Although your blood pressure usually falls after the aortic coarctation has been repaired, it may still remain higher than normal. Occasionally, the segment of the aorta that has been repaired will become weak and bulge (aortic aneurysm) and may eventually rupture. In some cases, the coarctation will recur, possibly even years after treatment, but it&apos;s possible to have additional surgeries or procedures to correct the re-narrowing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although coarctation of the aorta may be repaired, the condition requires careful follow-up throughout adulthood to help prevent complications and to monitor for recurrences. Here are a few tips for managing your condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Regular exercise helps to lower blood pressure. Talk to your doctor about whether you need to restrict certain physical activities, such as weightlifting, which may temporarily raise your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider pregnancy carefully.&lt;/strong&gt; Before becoming pregnant, talk to your doctor to determine if you can undergo pregnancy safely. Women with aortic aneurysms due to coarctation of the aorta, even after repair of the coarctation, are at high risk of aortic rupture during pregnancy and delivery. If you have had aortic coarctation repair and are considering becoming pregnant, careful management of your blood pressure is important to help keep you and your baby healthy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent endocarditis.&lt;/strong&gt; Endocarditis is an inflammation of the inner lining of the heart or of its structures, caused by a bacterial infection. People with coarctation of the aorta are at risk of this infection because the abnormal tissue at the site of the coarctation is a good location for bacterial growth. Antibiotics had once been recommended before dental procedures to prevent endocarditis. But current guidelines suggest that antibiotics likely are helpful only for people having major dental procedures who are most at risk of a poor outcome from infective endocarditis. Ask your doctor about the best approach for you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coarctation of the aorta can&apos;t be prevented, because it&apos;s usually present at birth. However, if you or your child has a condition that increases the risk of aortic coarctation, such as Turner syndrome, bicuspid aortic valve or another heart defect, or a family history of congenital heart disease, early detection can help. Discuss the risk of aortic coarctation with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coarctation of the aorta
+	</Title>
+	<Abstract>
+		Coarctation of the aorta &amp;mdash; Comprehensive overview covers causes and treatment for this heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,331 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00530
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lactose-intolerance/DS00530
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-04
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4677" Title="Small intestine">
+						<Keyword MCVID="2948" Title="Lactose intolerance" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3DE91F46-FCAE-4D79-88DD4A7BA88C22A8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lactose intolerance
+			</MetaKeyword>
+			<MetaKeyword>
+				lactose intolerence
+			</MetaKeyword>
+			<MetaKeyword>
+				lactose
+			</MetaKeyword>
+			<MetaKeyword>
+				lactase
+			</MetaKeyword>
+			<MetaKeyword>
+				lactase deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				dairy
+			</MetaKeyword>
+			<MetaKeyword>
+				milk
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach pain
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lactose intolerance, also called lactase deficiency, means you aren&apos;t able to fully digest the milk sugar (lactose) in dairy products. It&apos;s usually not dangerous, but symptoms of lactose intolerance can be uncomfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+A deficiency of lactase &amp;mdash; an enzyme produced by the lining of your small intestine &amp;mdash; is usually responsible for lactose intolerance. Many people have low levels of lactase, but only those who also have associated signs and symptoms have, by definition, lactose intolerance. 
+&lt;/p&gt;
+&lt;p&gt;
+You can control symptoms of lactose intolerance by carefully choosing a diet that limits dairy products. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing small intestine
+" Caption="The small intestine is a hollow tube that runs from the stomach to the large intestine (colon). 
+" Height="60" Title="Small intestine " URI="/images/image_popup/thumbs/r7_smallintestinethu.jpg" Width="60" />
+				<Image Alt="Illustration showing small intestine
+" Caption="The small intestine is a hollow tube that runs from the stomach to the large intestine (colon). 
+" Height="303" Title="Small intestine " URI="/images/image_popup/r7_smallintestine.jpg" Width="400" />
+				<HTML>
+					The small intestine is a hollow tube that runs from the stomach to the large intestine (colon). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of lactose intolerance usually begin 30 minutes to two hours after eating or drinking foods that contain lactose. Common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Nausea, and sometimes, vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+	&lt;li&gt;Gas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms are usually mild, but may sometimes be severe. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you or your child has any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lactose intolerance is usually caused by low levels of the enzyme lactase in your small intestine that lead to signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, the cells that line your small intestine produce an enzyme called lactase. The lactase enzyme attaches to lactose molecules in the food you eat and breaks them into two simple sugars &amp;mdash; glucose and galactose &amp;mdash; which can be absorbed into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+Without enough of the lactase enzyme, most of the lactose in your food moves unprocessed into the colon, where the normal intestinal bacteria interact with it. This causes the hallmarks of lactose intolerance &amp;mdash; gas, bloating and diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+There are three types of lactose intolerance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal result of aging for some people (primary lactose intolerance)&lt;/strong&gt; &lt;br /&gt;
+Normally, your body produces large amounts of lactase at birth and during early childhood, when milk is the primary source of nutrition. Usually your lactase production decreases as your diet becomes more varied and less reliant on milk. This gradual decline may lead to symptoms of lactose intolerance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Result of illness or injury (secondary lactose intolerance)&lt;/strong&gt; &lt;br /&gt;
+This form of lactose intolerance occurs when your small intestine decreases lactase production after an illness, surgery or injury to your small intestine. It can occur as a result of intestinal diseases, such as celiac disease, gastroenteritis and an inflammatory bowel disease like Crohn&apos;s disease. Treatment of the underlying disorder may restore lactase levels and improve signs and symptoms, though it can take time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Condition you&apos;re born with (congenital lactose intolerance)&lt;/strong&gt; &lt;br /&gt;
+It&apos;s possible, but rare, for babies to be born with lactose intolerance caused by a complete absence of lactase activity. This disorder is passed from generation to generation in a pattern of inheritance called autosomal recessive. This means that both the mother and the father must pass on the defective form of the gene for a child to be affected. Infants with congenital lactose intolerance are intolerant of the lactose in their mothers&apos; breast milk and have diarrhea from birth. These babies require lactose-free infant formulas. Premature infants may also have lactose intolerance because of an insufficient lactase level. In babies who are otherwise healthy, this doesn&apos;t lead to malnutrition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing small intestine
+" Caption="The small intestine is a hollow tube that runs from the stomach to the large intestine (colon). 
+" Height="60" Title="Small intestine " URI="/images/image_popup/thumbs/r7_smallintestinethu.jpg" Width="60" />
+				<Image Alt="Illustration showing small intestine
+" Caption="The small intestine is a hollow tube that runs from the stomach to the large intestine (colon). 
+" Height="303" Title="Small intestine " URI="/images/image_popup/r7_smallintestine.jpg" Width="400" />
+				<HTML>
+					The small intestine is a hollow tube that runs from the stomach to the large intestine (colon). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can make you or your child more prone to lactose intolerance include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; Lactose intolerance becomes more common as you age &amp;mdash; the condition is uncommon in babies and young children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; Lactose intolerance is most common in black, Asian, Hispanic and American Indian people. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature birth.&lt;/strong&gt; Infants born prematurely may have reduced levels of lactase because this enzyme increases in the fetus late in the third trimester.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases affecting the small intestine.&lt;/strong&gt; Small intestine problems that can cause lactose intolerance include bacterial overgrowth, celiac disease and Crohn&apos;s disease. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain cancer treatments.&lt;/strong&gt; If you have received radiation therapy for cancer in your abdomen or have intestinal complications from chemotherapy, you have an increased risk of lactose intolerance.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have signs or symptoms that suggest you may have lactose intolerance. Because appointments can be brief, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For lactose intolerance, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my symptoms caused by lactose intolerance?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is lactose intolerance a lifelong condition, or could it go away?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Must I stop eating all dairy products?&lt;/li&gt;
+	&lt;li&gt;How can I be certain that I&apos;m getting enough calcium in my diet?&lt;/li&gt;
+	&lt;li&gt;Should I see a dietitian?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to come in for periodic follow-up visits? If so, how often?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you think you may have lactose intolerance, try cutting dairy products from your diet for a few days to see if your symptoms ease. Let your doctor know if your symptoms got better on the days you didn&apos;t have dairy products. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect lactose intolerance based on your symptoms and your response to reducing the amount of dairy foods in your diet. Your doctor can confirm the diagnosis by conducting one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lactose tolerance test.&lt;/strong&gt; The lactose tolerance test gauges your body&apos;s reaction to a liquid that contains high levels of lactose. Two hours after drinking the liquid, you&apos;ll undergo blood tests to measure the amount of glucose in your bloodstream. If your glucose level doesn&apos;t rise, it means your body isn&apos;t properly digesting and absorbing the lactose-filled drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hydrogen breath test.&lt;/strong&gt; This test also requires you to drink a liquid that contains high levels of lactose. Then your doctor measures the amount of hydrogen in your breath at regular intervals. Normally, very little hydrogen is detectable. However, if your body doesn&apos;t digest the lactose, it will ferment in the colon, releasing hydrogen and other gases, which are absorbed by your intestines and eventually exhaled. Larger than normal amounts of exhaled hydrogen measured during a breath test indicate that you aren&apos;t fully digesting and absorbing lactose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool acidity test.&lt;/strong&gt; For infants and children who can&apos;t undergo other tests, a stool acidity test may be used. The fermenting of undigested lactose creates lactic acid and other acids that can be detected in a stool sample.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatments can cure lactose intolerance. There&apos;s currently no way to boost your body&apos;s production of the lactase enzyme. People with lactose intolerance usually find relief by reducing the amount of dairy products they eat and using special products made for people with this condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Eat fewer dairy products&lt;/strong&gt; &lt;br /&gt;
+People with lactose intolerance can reduce their signs and symptoms by eating fewer dairy products. 
+&lt;/p&gt;
+&lt;p&gt;
+For many, dairy products are a convenient way to get vitamins and nutrients, such as calcium. Giving up dairy products doesn&apos;t mean you can&apos;t get enough calcium. Calcium is found in many other foods, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Broccoli&lt;/li&gt;
+	&lt;li&gt;Calcium-fortified products, such as breads and juices&lt;/li&gt;
+	&lt;li&gt;Canned salmon&lt;/li&gt;
+	&lt;li&gt;Milk substitutes, such as soy milk and rice milk&lt;/li&gt;
+	&lt;li&gt;Oranges&lt;/li&gt;
+	&lt;li&gt;Pinto beans&lt;/li&gt;
+	&lt;li&gt;Rhubarb&lt;/li&gt;
+	&lt;li&gt;Spinach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you forgo all dairy products, it&apos;s also important to make sure you get enough vitamin D. There aren&apos;t too many foods with significant amounts of vitamin D, but eggs, liver and yogurt contain vitamin D. Your body also makes vitamin D when exposed to the sun. But, this doesn&apos;t happen when you&apos;re wearing sunscreen, which is necessary for protecting your skin from skin cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor for a referral to a dietitian who can help you plan your meals. And, ask your doctor if you need to take calcium or vitamin D supplements. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Use caution if you choose to eat dairy products&lt;/strong&gt; &lt;br /&gt;
+It may not be necessary to completely avoid dairy foods. Most people with lactose intolerance can enjoy some milk products without symptoms. You may be able to tolerate low-fat milk products, such as skim milk, better than whole-milk products. It also may be possible to increase your tolerance to dairy products by gradually introducing them into your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+Ways to change your diet to minimize symptoms of lactose intolerance include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choosing smaller servings of dairy.&lt;/strong&gt; Sip small servings of milk &amp;mdash; up to 4 ounces (118 milliliters) at a time. The smaller the serving, the less likely it is to cause gastrointestinal problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Saving milk for mealtimes.&lt;/strong&gt; Drink milk with other foods. This slows the digestive process and may lessen symptoms of lactose intolerance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Experimenting with an assortment of dairy products.&lt;/strong&gt; Not all dairy products have the same amount of lactose. For example, hard cheeses, such as Swiss or cheddar, have small amounts of lactose and generally cause no symptoms. You may be able to tolerate cultured milk products, such as yogurt, because the bacteria used in the culturing process naturally produce the enzyme that breaks down lactose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buying lactose-reduced or lactose-free products.&lt;/strong&gt; You can find these products at most supermarkets in the refrigerated dairy section.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watching out for hidden lactose.&lt;/strong&gt; Milk and lactose are often added to prepared foods, such as cereal, instant soups, salad dressings, nondairy creamers, processed meats and baking mixes. Check nutrition labels for milk and lactose in the ingredient list. Also look for other words that indicate lactose, such as whey, milk byproducts, fat-free dry milk powder and dry milk solids. Lactose is also used in medications. Tell your pharmacist if you have lactose intolerance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using lactase enzyme tablets or drops.&lt;/strong&gt; Over-the-counter tablets or drops containing the lactase enzyme (Dairy Ease, Lactaid, others) may help you digest dairy products. You can take tablets just before a meal or snack. Or the drops can be added to a carton of milk. Not everyone with lactose intolerance is helped by these products.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Probiotics&lt;/strong&gt; &lt;br /&gt;
+Probiotics are living organisms present in your intestines that help maintain a healthy digestive system. Probiotics are also available as active or &quot;live&quot; cultures in some yogurts and as supplements in capsule form. They are sometimes used for gastrointestinal conditions, such as diarrhea and irritable bowel syndrome. They may also help your body digest lactose. Probiotics are generally considered safe and may be worth a try if other methods don&apos;t help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lactose intolerance
+	</Title>
+	<Abstract>
+		Lactose intolerance &amp;mdash; Comprehensive overview covers symptoms, causes, diet and self-care.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,450 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01078
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/recurrent-breast-cancer/DS01078
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="3323" Title="Recurrent breast cancer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7C12DB3F-E7FF-0DBD-1CCC1AAA05FF4A5D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				recurrent breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer recurrence
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer relapse
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Recurrent breast cancer is breast cancer that comes back after initial treatment. Although treatment is aimed at eliminating all cancer cells, a few may survive. These undetected cancer cells multiply, becoming recurrent breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Recurrent breast cancer may occur months or years after your initial treatment. The cancer may come back in the same place as the original tumor, known as local recurrence. Or it may spread to other areas, typically your bones, liver or lungs, known as distant recurrence. 
+&lt;/p&gt;
+&lt;p&gt;
+Learning you have recurrent breast cancer may be harder than dealing with the initial diagnosis. But having recurrent breast cancer is far from hopeless. Treatment may eliminate local, regional or distant recurrent breast cancer. Even if a cure isn&apos;t possible, treatment may control the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of recurrent breast cancer vary depending on where the cancer comes back. It may show up as a lump in the breast, thickening of the surgical scar or a lump on the chest wall after a mastectomy. It may be detected in an abnormal finding on a mammogram of the breast where you had a lump removed (lumpectomy) earlier, or it may show up in a distant place in your body such as a bone, your liver or your lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Local recurrence&lt;/strong&gt; &lt;br /&gt;
+In a local recurrence, cancer reappears in the same area as your original, or &quot;primary,&quot; tumor. This could be in the remaining breast in women who&apos;ve had a lumpectomy, or it may be in the chest wall or skin in women who&apos;ve had a mastectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of local recurrence within the same breast may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A new lump in your breast or irregular area of firmness&lt;/li&gt;
+	&lt;li&gt;A new thickening in your breast area&lt;/li&gt;
+	&lt;li&gt;A new pulling back of the skin or dimpling at the lumpectomy site&lt;/li&gt;
+	&lt;li&gt;Skin inflammation or area of redness&lt;/li&gt;
+	&lt;li&gt;Flattening or indentation of your nipple or other nipple changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of local recurrence on the chest wall after a mastectomy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;One or more painless nodules on or under the skin of your chest wall&lt;/li&gt;
+	&lt;li&gt;A new area of thickening along or near the mastectomy scar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Regional recurrence&lt;/strong&gt; &lt;br /&gt;
+A regional breast cancer recurrence means the cancer has come back in the lymph nodes in your armpit or collarbone area. Signs and symptoms of regional recurrence may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A lump or swelling in the lymph nodes under your arm or in the groove above your collarbone &lt;/li&gt;
+	&lt;li&gt;Swelling of your arm&lt;/li&gt;
+	&lt;li&gt;Persistent pain in your arm and shoulder&lt;/li&gt;
+	&lt;li&gt;Increasing loss of sensation in your arm and hand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Distant (metastatic) recurrence&lt;/strong&gt; &lt;br /&gt;
+A distant, or metastatic, recurrence means the cancer has traveled to distant parts of the body, most commonly the bones, liver and lungs. The signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain, such as chest or bone pain&lt;/li&gt;
+	&lt;li&gt;Persistent, dry cough&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Persistent nausea, vomiting or weight loss&lt;/li&gt;
+	&lt;li&gt;Severe headaches&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+After you&apos;ve been treated for breast cancer, you should continue to see your doctor regularly for follow-up exams. Your doctor will check for any signs of cancer recurrence. You&apos;ll also need an annual mammogram if you had a lumpectomy. Still, many women discover recurrent breast cancer on their own. You know your body best &amp;mdash; what feels normal and what doesn&apos;t. Check your breasts or chest wall after mastectomy every month to look for changes. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to be aware of the signs and symptoms of recurrent breast cancer, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;New pain&lt;/li&gt;
+	&lt;li&gt;Changes or new lumps in your breast or surgical scar or chest wall&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you experience any signs and symptoms that might suggest a recurrence, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Recurrent breast cancer develops from cells that originally came from the primary breast tumor. The cancer returns after the initial treatment and a period of time when no cancer was detected. This can happen because treatment did not fully destroy or remove all the cancer cells. Even with surgery, microscopic clusters of cancer cells may have been left behind that were too small to be detected with any available test. 
+&lt;/p&gt;
+&lt;p&gt;
+If the cancer is aggressive, isolated cells may survive the rounds of chemotherapy, hormone therapy and radiation meant to prevent a recurrence. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes cancer cells may be dormant for years without causing harm. Then something happens that activates the cells, so they grow and make other cells. Not all of the growth factors for cancer have been found. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible to develop a new tumor, called a second or new primary tumor, in the same breast as the first tumor or in the other (contralateral) breast. This is not considered recurrent breast cancer. Women who&apos;ve had breast cancer have a higher risk of developing cancer in the other breast than do women who&apos;ve never had breast cancer. The risk of developing a new tumor in the second breast is higher if you have a strong genetic predisposition or hereditary breast cancer. Fortunately, most women who have cancer in one breast never develop cancer in the opposite breast. 
+&lt;/p&gt;
+&lt;p&gt;
+Many women who have a cancer recurrence blame themselves. But, even when you do everything right, cancer can sometimes come back. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For breast cancer survivors, factors that increase the risk of a recurrence include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lymph node involvement.&lt;/strong&gt; Finding cancer in nearby lymph nodes at the time of your original diagnosis increases your risk of the cancer coming back. Women with many affected lymph nodes have a higher risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Larger tumor size.&lt;/strong&gt; Women with a large tumor have a higher risk of recurrent cancer. Women who have very large tumors (more than 5 centimeters, or about 2 inches) &amp;mdash; especially if lymph nodes are involved &amp;mdash; have a very high risk of the cancer recurring in the same area. These women should talk with their doctors about the role of radiation therapy, even if they undergo a mastectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Positive or close tumor margins.&lt;/strong&gt; When you have an operation to remove a breast lump, the surgeon tries to remove the cancerous lump along with a healthy margin of normal tissue. If the borders of the removed tumor are free of cancer when examined under a microscope, that&apos;s considered a negative margin. If any part of the tumor&apos;s border has cancer cells (positive margin), or the margin between the tumor and normal tissue is close, the risk of breast cancer recurrence is increased. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of radiation treatment following lumpectomy.&lt;/strong&gt; Women who choose to preserve the breast by undergoing a lumpectomy (also known as &quot;wide local excision&quot;) should undergo radiation treatments to the remaining breast to decrease the chance of a local recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Younger age.&lt;/strong&gt; Younger women, particularly those under age 35 at the time of their original breast cancer diagnosis, face a higher risk of recurrent breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory breast cancer.&lt;/strong&gt; Women with inflammatory breast cancer face a higher risk of local recurrence, so their treatment typically involves chemotherapy followed by a mastectomy and then radiation to the chest wall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In recent years, genetic tests designed to predict the risk of breast cancer recurrence have become available. These tests (MammaPrint, Oncotype DX) measure activity in up to 70 genes associated with breast cancer, a process known as gene expression profiling. The results are used to estimate the chance that a woman&apos;s cancer will come back. But so far these tests have a very limited role and are applicable only for women with estrogen receptor positive tumors that don&apos;t show any sign of spread to the lymph nodes. The tests have been used to plan treatment for primary breast cancer in a very small minority of women. More research is needed to determine whether these genetic tests might prove useful in predicting risk of recurrence on a broader scale. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Local cancer recurrences can cause swelling and discomfort in the area of the recurrence. Local recurrences can often be cured, but in some people who have a local recurrence, the disease later appears in a distant site in the body, such as a bone, the liver or a lung. Once a cancer has spread beyond the breast and nearby areas, the disease isn&apos;t usually curable. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, people return to the doctor who treated the initial cancer. However, in some cases, you may decide to see a new oncologist. If you&apos;re seeing a different doctor than the one who treated your first breast cancer, make sure the new doctor has access to your medical records from the initial treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss your new symptoms&lt;/strong&gt; and any other health problems you&apos;ve had since your first cancer diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re seeing a new doctor, request your medical records&lt;/strong&gt; from your former doctor. If you already have these, be sure to bring your medical records and any imaging tests you have with you. Otherwise, you&apos;ll need to sign an information release form so that your new provider&apos;s office can acquire the records.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking. Let your doctor know if you have tried any alternative treatments for your cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider asking a family member or friend to come with you.&lt;/strong&gt; Learning your cancer has returned will likely make it hard to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you might have recurrent breast cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has my cancer returned?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What is the hormone receptor status of the cancer recurrence?&lt;/li&gt;
+	&lt;li&gt;What treatments are available to me at this stage, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any clinical trials open to me?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms again?&lt;/li&gt;
+	&lt;li&gt;Has there been a change in the symptoms over time?&lt;/li&gt;
+	&lt;li&gt;Do these symptoms feel different from when you were first diagnosed with cancer?&lt;/li&gt;
+	&lt;li&gt;How do you feel overall?&lt;/li&gt;
+	&lt;li&gt;Have you had any unexpected weight loss? Have you lost your appetite?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any pain?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects recurrent breast cancer based on results of a mammogram or physical exam, or because of signs and symptoms, you&apos;ll likely need further imaging tests and a biopsy. 
+&lt;/p&gt;
+&lt;p&gt;
+The following tests may be used to help diagnose recurrent breast cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breast ultrasound.&lt;/strong&gt; Ultrasound uses sound waves to produce images of the inside of the body. For women who&apos;ve had lumpectomy, breast ultrasound may be used to evaluate an abnormality seen on a mammogram or found during a physical exam of your breast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses a magnet and radio waves to make images of the inside of your body. MRI may be able to detect abnormal areas within the breast, chest wall, lymph node areas, and blood vessels and nerves around the breast and armpit. The MRI by itself can&apos;t tell the difference between cancer and benign tissue, but it can help your doctor determine the best areas for a biopsy or further testing. Not all women with a local recurrence benefit from having an MRI. Discuss your situation with your doctor. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A CT scan is a type of computerized X-ray that provides more-detailed pictures than do ordinary X-rays. CT scans of your chest, abdomen, pelvis, bones and head can help look for evidence of cancer that&apos;s spread to your internal mammary lymph nodes or to distant sites, such as the bones, lungs or liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Chest X-rays may detect a recurrence in your lungs, while bone X-rays may be able to detect cancer in your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; A bone scan can provide an image of your whole skeleton and may detect cancer recurrence in your bones. During a bone scan, a small amount of radioactive material (tracer) is injected into your bloodstream. The tracer binds to your bone cells. Areas with cancer absorb more of the tracer and &quot;light up&quot; on the scan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Positron emission tomography (PET).&lt;/strong&gt; A PET scan also uses radioactive material injected into your body to produce an image. Tumors often absorb greater amounts of the material and show up more prominently on the scan. A PET scan or hybrid PET/CT scan of your whole body may be used to look for areas of cancer recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; A biopsy &amp;mdash; a small sample of tissue removed for analysis in the laboratory &amp;mdash; is needed to confirm the diagnosis of recurrent breast cancer. The tissue specimen will be tested for the presence of estrogen and progesterone receptors. A breast cancer that makes receptors for the female hormones estrogen and progesterone (hormone receptor positive cancer) can be treated with hormone therapy. The hormone receptor status of your cancer may change with a recurrence. The tissue is also tested for extra amounts of the HER2 protein, which some breast cancers overproduce. Cancers that are HER2 positive can be treated with biotherapies that target this protein.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A complete blood count and liver function tests can help evaluate how your body is doing and may help guide treatments. Doctors often use blood tests that measure breast cancer tumor markers to follow the course of cancer. But tumor markers aren&apos;t specific for a cancer recurrence. These tests aren&apos;t recommended for looking for a recurrence, as they aren&apos;t always reliable.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To plan treatment for recurrent breast cancer, your doctor considers many factors, including the extent of the disease, its hormone receptor status and the type of treatment you received for your first breast cancer. Most women receive a combination of treatments for recurrent breast cancer that may include surgery, radiation, medications to destroy cancer cells (chemotherapy) and hormone therapy. Breast cancers that make extra amounts of the HER2 protein may be treated with a targeted therapy such as trastuzumab (Herceptin). 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment decisions for recurrent breast cancer are complex and individualized. Talk with your health care team to learn about your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating a local recurrence&lt;/strong&gt; &lt;br /&gt;
+Treatment for a local recurrence typically starts with an operation and may include radiation if you haven&apos;t had it before, chemotherapy and hormone therapy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; For recurrent breast cancer that&apos;s confined to the breast, the usual treatment is mastectomy. During a mastectomy, your surgeon removes all your breast tissue &amp;mdash; lobules, ducts, fatty tissue, skin and nipple. If your first breast cancer was treated with mastectomy and the cancer comes back in the chest wall, you may have surgery to remove the new cancer along with a margin of normal tissue.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A local recurrence may be accompanied by hidden cancer in nearby lymph nodes. For this reason, the surgeon may remove some or all of the lymph nodes under your arm (axillary dissection) during surgery if they weren&apos;t removed during your initial treatment. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy uses high-energy X-rays to kill cancer cells and shrink tumors. If you did not have radiation therapy for your first breast cancer, your doctor may recommend it now. But if you had radiation after a lumpectomy, radiation to treat the recurrence isn&apos;t usually recommended because of the risk of side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug therapy (chemotherapy).&lt;/strong&gt; If your recurrent breast cancer is the inflammatory type or involves the skin, your doctor may recommend chemotherapy before surgery. Chemotherapy may also be recommended if your recurrent cancer is so extensive that surgery isn&apos;t an option or if you have previously received hormone therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone therapy.&lt;/strong&gt; Medications that block the growth-promoting effects of estrogen and progesterone may be recommended if your cancer is hormone receptor positive. Hormone therapy may shrink and control recurrent breast cancer. Hormone therapy may include tamoxifen or an aromatase inhibitor, such as anastrozole (Arimidex), letrozole (Femara) or exemestane (Aromasin).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating a regional recurrence&lt;/strong&gt; &lt;br /&gt;
+If it&apos;s possible, surgery to remove the cancer is the recommended treatment for a regional recurrence. Your surgeon may also remove the lymph nodes under your arm (axillary dissection) if they&apos;re still present. Sometimes radiation therapy may be used after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+If surgical removal isn&apos;t possible, radiation therapy may be used as the main treatment. Chemotherapy or hormone therapy also may be recommended as the main treatment or may follow surgery or radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating a metastatic recurrence&lt;/strong&gt; &lt;br /&gt;
+Treatment for recurrent breast cancer that&apos;s spread beyond the breast region involves many different options. It&apos;s important to work with your doctor to understand what&apos;s most appropriate for your particular situation. If one treatment doesn&apos;t work or stops working, you may be able to try other treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, the goal of treatment for a metastatic recurrence isn&apos;t to cure the disease. Treatment may allow you to live longer and can help relieve symptoms the cancer is causing. Your doctor will try to achieve a balance between controlling your symptoms while minimizing toxic effects from treatment. The aim is to help you live as well as possible for as long as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+If the cancer has spread to other parts of the body, treatment for a metastatic recurrence usually involves whole body (systemic) therapy rather than local therapy such as surgery or radiation. Options for systemic therapy include hormone therapy, chemotherapy or targeted therapy. Because hormone therapy is less toxic than chemotherapy, your doctor might start with tamoxifen or an aromatase inhibitor. But if your cancer is fast-growing or has already spread to other organs such as the lungs and liver or if you have previously received hormone therapy, your doctor might recommend starting with chemotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+If your cancer is HER2 positive, you may also be given a targeted therapy to attack the protein that&apos;s overproduced in these cancers. Targeted therapies include trastuzumab (Herceptin) or lapatinib (Tykerb). 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on where the cancer has spread and what symptoms it&apos;s causing, you may also have localized treatments, such as medications or radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely let you know if you&apos;re eligible for any clinical trials of newer medications or treatments. If he or she hasn&apos;t suggested a clinical trial and you&apos;d be interested in participating in one, let your doctor know. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eating well, exercising and managing stress are ways to promote your overall health and cope with cancer and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eat well&lt;/strong&gt; &lt;br /&gt;
+Good nutrition during cancer treatment can help you keep up your stamina and your ability to cope with the side effects of treatments. But eating well can be difficult if your treatment includes chemotherapy or radiation therapy. For times when you don&apos;t feel well, try these strategies: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat protein-rich foods.&lt;/strong&gt; Foods high in protein can help build and repair body tissues. Choices include eggs, yogurt, cottage cheese, peanut butter, poultry and fish. Kidney beans, chickpeas and black-eyed peas also are good sources of protein, especially when combined with rice, corn or bread.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep an open mind about the foods you eat.&lt;/strong&gt; Something that doesn&apos;t appeal today might taste better tomorrow or next week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When you do feel well, make the most of it.&lt;/strong&gt; Eat as many healthy foods as you can. Prepare meals that you can easily freeze and reheat. Also look for low-fat frozen dinners and other prepared foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller amounts of food more frequently.&lt;/strong&gt; If you can&apos;t face the thought of a large meal, try eating small amounts of food more often. Keep fruits and vegetables handy for snacking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stay active&lt;/strong&gt; &lt;br /&gt;
+Regular physical activity can help relieve anxiety and depression, improve your mood, and reduce signs and symptoms of fatigue, nausea, pain and diarrhea. The activity doesn&apos;t have to be strenuous &amp;mdash; moderate activities such as walking, biking, swimming and yardwork bring benefits. A little bit of physical movement is better than none. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Manage stress&lt;/strong&gt; &lt;br /&gt;
+Methods for reducing muscle tension can help you manage stress. One simple and powerful technique is to close your eyes and notice your breathing. Pay attention to each inhalation and exhalation. Your breathing will become slower and deeper, promoting relaxation. Another technique is to lie down, close your eyes and mentally scan your entire body for any points of tension. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, activities that require repetitive movement, such as swimming, can produce a mental state similar to that achieved with meditation. The same is true of yoga and other stretching exercises. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When people learn you have cancer, they may offer advice or tell you about someone they know who had breast cancer that was cured with an alternative treatment. It can be tempting to consider alternative treatments, especially when your options may be waning. However, no alternative treatments have proved to be effective cancer treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Even when people decide to try an alternative therapy, many neglect to tell their doctors. But, it&apos;s important to let your doctor know about everything that you&apos;re taking to prevent any dangerous adverse reactions. Another concern about alternative treatments is that some people delay getting potentially lifesaving treatments to try an alternative first. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Finding out your breast cancer has returned can be equally or more upsetting than getting the initial diagnosis. The prospect of more disruptions, treatments and uncertainty is stressful. But, after the initial blow of the diagnosis, many women find their outlook improves. 
+&lt;/p&gt;
+&lt;p&gt;
+As you sort through your emotions and make decisions about treatment, the following suggestions might help you cope. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be informed.&lt;/strong&gt; Learn what you can do for your health right now and about services available to you. Talk with your doctor, family and those you rely on for support about your treatment options and how you want to approach decision making.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get support.&lt;/strong&gt; Talking with other women who are dealing with recurrent breast cancer can help you on both a practical and an emotional level. Find a support group near you through your doctor, a medical social worker or an organization such as the American Cancer Society. It can also help to express feelings of fear or uncertainty with a friend or counselor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Plan ahead for times when you may need more rest. Cut back on time commitments, and don&apos;t be afraid to ask for help. Find ways to relax.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn to live with uncertainty.&lt;/strong&gt; Try to take in the present moment rather than dwelling on an uncertain future. Use your energy to focus on wellness and finding ways to be peaceful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Look for a connection to something beyond yourself.&lt;/strong&gt; Having a strong faith or a sense of something greater than yourself helps many people cope with cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nothing can guarantee your breast cancer won&apos;t return. Most women who are treated for early-stage breast cancer remain free of disease. Many people who experience a cancer recurrence blame themselves for not eating right, missing a doctor visit or something else. It&apos;s important to realize that even if you do everything just right, the cancer might return. 
+&lt;/p&gt;
+&lt;p&gt;
+Things that have been shown to reduce the risk of recurrent breast cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tamoxifen or an aromatase inhibitor therapy.&lt;/strong&gt; After initial treatment for estrogen receptor positive breast cancer, taking tamoxifen for five years reduces the risk of breast cancer recurrence. Other research suggests that some women would benefit even more by switching to an aromatase inhibitor after taking tamoxifen for two to three years or after five years, or by taking an aromatase inhibitor instead of tamoxifen. The decision needs to be made on an individual basis based on your particular cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; For women at high risk of cancer recurrence, chemotherapy has been shown to decrease the chance it will recur, and those who receive chemotherapy live longer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Women who&apos;ve had a breast-sparing operation to treat their breast cancer and those who had a large tumor or inflammatory breast cancer have a lower chance of the cancer recurring if they&apos;re treated with radiation therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trastuzumab (Herceptin).&lt;/strong&gt; For women whose cancer makes extra HER2 protein, the drug trastuzumab can decrease the chance of the cancer recurring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Healthy weight.&lt;/strong&gt; Maintaining a healthy weight for your age and height may help decrease the risk of recurrent breast cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Research looking at specific aspects of diet &amp;mdash; such as fruits and vegetables and fat &amp;mdash; and risk of recurrent breast cancer hasn&apos;t been conclusive. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Recurrent breast cancer
+	</Title>
+	<Abstract>
+		Recurrent breast cancer &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment for breast cancer recurrence.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Article" DocID="CM00004" LinkType="Internal" ObjectID="28A3172A-28D6-431B-94861C83CC9AE3EB" Title="Yoga: Fight stress and find serenity" Url="http://www.mayoclinic.com/health/yoga/CM00004" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

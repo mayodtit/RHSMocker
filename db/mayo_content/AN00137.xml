@@ -1,0 +1,102 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00137
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/walking-pneumonia/AN00137
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-26
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="1152" Title="Respiratory infection">
+						<Keyword MCVID="2554" Title="Pneumonia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			23A6BAD8-282F-4131-B7AF66B23758F13C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pneumonia
+			</MetaKeyword>
+			<MetaKeyword>
+				walking pneumonia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Walking pneumonia is an informal term for pneumonia that isn&apos;t severe enough to require bed rest or hospitalization. You usually aren&apos;t sick enough to stay home from work or school, so you are out walking around. Chances are you won&apos;t see a doctor for your mild symptoms. If you do see a doctor, you may not seem sick enough to need a chest X-ray, which is the only way to diagnose any kind of pneumonia.
+&lt;/p&gt;
+&lt;p&gt;
+Walking pneumonia is often caused by a type of bacterium that produces milder symptoms that appear more gradually than do those of other types of pneumonia. The illness often is brought home by young children who contract it at school. Family members of infected children typically begin having symptoms two or three weeks later. This kind of pneumonia usually doesn&apos;t need treatment with an antibiotic.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Walking pneumonia: What does it mean?
+	</Title>
+	<Abstract>
+		Walking pneumonia is a general term for relatively mild cases of pneumonia.
+	</Abstract>
+	<Question>
+		What is walking pneumonia? How is it different from regular pneumonia?
+	</Question>
+	<QuestionFirstName>
+		Kathy
+	</QuestionFirstName>
+	<QuestionState>
+		New York
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00343" LinkType="Internal" ObjectID="024DEA4A-E7FF-0DBD-1C830476D58B8DFA" Title="Sed rate (erythrocyte sedimentation rate)" Url="http://www.mayoclinic.com/health/sed-rate/MY00343" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Disease" DocID="DS00422" LinkType="Internal" ObjectID="8C309507-1B2A-455D-8E0C16E2A63EF3A4" Title="Anthrax" Url="http://www.mayoclinic.com/health/anthrax/DS00422" />
+		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
+		<LinkItem ContentType="Disease" DocID="DS00414" LinkType="Internal" ObjectID="4F4E09D8-30A8-493C-9D703AEE3DF47DEC" Title="Respiratory syncytial virus (RSV)" Url="http://www.mayoclinic.com/health/respiratory-syncytial-virus/DS00414" />
+		<LinkItem ContentType="Disease" DocID="DS01006" LinkType="Internal" ObjectID="20EA134D-E7FF-0DBD-1FD2F9F7AF5DB7A5" Title="Primary immunodeficiency" Url="http://www.mayoclinic.com/health/primary-immunodeficiency/DS01006" />
+		<LinkItem ContentType="Disease" DocID="DS00135" LinkType="Internal" ObjectID="101586DD-4780-4B53-9AA9C9010C842DAA" Title="Pneumonia" Url="http://www.mayoclinic.com/health/pneumonia/DS00135" />
+	</RelatedLinksBox>
+</Answer>

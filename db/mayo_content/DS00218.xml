@@ -1,0 +1,356 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00218
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hemophilia/DS00218
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-31
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="1718" Title="Hemophilia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F06A4B68-94D1-418C-827D409C656EC798
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hemophilia
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				clotting
+			</MetaKeyword>
+			<MetaKeyword>
+				clotting factor
+			</MetaKeyword>
+			<MetaKeyword>
+				blood proteins
+			</MetaKeyword>
+			<MetaKeyword>
+				coagulation
+			</MetaKeyword>
+			<MetaKeyword>
+				hemophilia A
+			</MetaKeyword>
+			<MetaKeyword>
+				hemophilia B
+			</MetaKeyword>
+			<MetaKeyword>
+				hemophilia C
+			</MetaKeyword>
+			<MetaKeyword>
+				desmopressin
+			</MetaKeyword>
+			<MetaKeyword>
+				DDAVP
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hemophilia is a disorder of your blood-clotting system. Clotting is the process by which your blood changes from a liquid to a solid state.
+&lt;/p&gt;
+&lt;p&gt;
+There are several types of hemophilia. All types can cause prolonged bleeding. If you have hemophilia and you have a cut, you&apos;ll bleed for a longer time than you would if your blood clotted normally. Small cuts usually aren&apos;t much of a problem. The greater health concern, particularly with hemophilia A and B, is deep internal bleeding and bleeding into joints.
+&lt;/p&gt;
+&lt;p&gt;
+Hemophilia is a lifelong disease, but with proper treatment and self-care, most people with hemophilia can maintain an active, productive lifestyle.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of hemophilia vary depending on how deficient you are in clot-forming proteins called clotting factors. If levels of your deficient clotting factor are very low, you may experience spontaneous bleeding. If levels of your deficient clotting factor are slightly to moderately low, you may bleed only after surgery or trauma.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of spontaneous bleeding may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Many large or deep bruises&lt;/li&gt;
+	&lt;li&gt;Joint pain and swelling caused by internal bleeding&lt;/li&gt;
+	&lt;li&gt;Unexplained and excessive bleeding or bruising&lt;/li&gt;
+	&lt;li&gt;Blood in your urine or stool&lt;/li&gt;
+	&lt;li&gt;Prolonged bleeding from cuts or injuries or after surgery or tooth extraction&lt;/li&gt;
+	&lt;li&gt;Nosebleeds without a known cause&lt;/li&gt;
+	&lt;li&gt;Tightness in your joints&lt;/li&gt;
+	&lt;li&gt;In infants, unexplained irritability&lt;/li&gt;
+	&lt;li&gt;Unusual bleeding after immunizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Emergency signs and symptoms of hemophilia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden pain, swelling, and warmth of large joints, such as knees, elbows, hips and shoulders, and of the muscles of your arms and legs&lt;/li&gt;
+	&lt;li&gt;Bleeding from an injury, especially if you have a severe form of hemophilia&lt;/li&gt;
+	&lt;li&gt;Painful, lasting headache&lt;/li&gt;
+	&lt;li&gt;Repeated vomiting&lt;/li&gt;
+	&lt;li&gt;Extreme fatigue&lt;/li&gt;
+	&lt;li&gt;Neck pain&lt;/li&gt;
+	&lt;li&gt;Double vision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Babies with hemophilia&lt;/strong&gt;&lt;br /&gt;
+At first, because of limited mobility, a baby with hemophilia usually won&apos;t have many problems related to hemophilia. But as your baby begins to move around, falling and bumping into things, superficial bruises may occur. This bleeding into soft tissue may become more frequent the more active your child becomes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re pregnant or considering a pregnancy and have a family history of hemophilia, talk to your doctor. You may be referred to a medical genetics specialist or a specialist in bleeding disorders, who can help you determine if you are a carrier of hemophilia. If you are a carrier, it&apos;s possible to test the fetus during pregnancy to determine if it is affected by the disease.
+&lt;/p&gt;
+&lt;p&gt;
+If you have a baby boy, prolonged bleeding following circumcision may be the first indication of hemophilia. In girls and in boys who aren&apos;t circumcised, easy bruising when the child becomes more mobile may lead to the diagnosis. The first episode of bleeding generally occurs by the time a child is 2 years old. If your baby bruises easily as he or she becomes more mobile, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you&apos;re cut or bleeding internally, your body normally pools blood cells together to form a clot to stop the bleeding. This process is called coagulation. Coagulation involves blood particles called platelets and plasma proteins that encourage clotting (clotting factors). The cause of hemophilia is a deficiency of one of these clotting factors. Which type of hemophilia you have depends on which clotting factor is deficient: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hemophilia A.&lt;/strong&gt; The most common type, hemophilia A is caused by lack of enough clotting factor 8 (VIII).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemophilia B.&lt;/strong&gt; This second most common type is caused by lack of enough clotting factor 9 (IX).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemophilia C.&lt;/strong&gt; This type is caused by a lack of clotting factor 11 (XI), and symptoms are often mild with this type of hemophilia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hemophilia inheritance&lt;/strong&gt;&lt;br /&gt;
+Everyone has two sex chromosomes, one from each parent. Females inherit an X chromosome from their mother and an X chromosome from their father. Males inherit an X chromosome from their mother and a Y chromosome from their father. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The gene that causes hemophilia A or B is located on the X chromosome, so it can&apos;t be passed from father to son.&lt;/strong&gt; Hemophilia A or B almost always occurs in boys and is passed from mother to son through one of the mother&apos;s genes. Most women who have the defective gene are simply carriers and exhibit no signs or symptoms of hemophilia. It&apos;s also possible for hemophilia A or B to occur through spontaneous gene mutation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The gene that causes hemophilia C can be passed on to children by either parent.&lt;/strong&gt; Hemophilia C can occur in both boys and girls.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications may occur from the condition or from the treatment for the condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Deep internal bleeding.&lt;/strong&gt; Hemophilia may cause deep muscle bleeding that leads to swelling of a limb. The swelling may press on nerves and lead to numbness or pain. This may result in a reluctance to use that limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to joints.&lt;/strong&gt; Internal bleeding may also put pressure on and damage joints. Pain sometimes may be severe, and you may be reluctant to use a limb or move a joint. If bleeding occurs frequently and you don&apos;t receive adequate treatment, the irritation may lead to destruction of the joint or the development of arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; People with hemophilia are more likely to receive blood transfusions and are at greater risk of receiving contaminated blood products. Until the mid-1980s, it was more likely for people with hemophilia to become infected with the human immunodeficiency virus (HIV) or with hepatitis through contaminated blood products. Since then, blood products are much safer because of steps taken to screen the supply of donated blood. The risk of infection through blood products also has decreased substantially since the introduction of genetically engineered clotting products called recombinant factors, which are free of infection. However, it&apos;s still possible for people who rely on blood products to contract diseases. If you have hemophilia, consider receiving immunization against hepatitis A and B.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adverse reaction to clotting factor treatment.&lt;/strong&gt; In some people with hemophilia, the immune system sees these clotting factor treatments as foreign. When this happens, the immune system develops proteins that inactivate the clotting factors used to treat bleeding. Researchers are investigating treatments to dampen the immune system&apos;s response and allow continuing treatment with clotting factors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hemophilia is diagnosed at an average age of 9 months and almost always by age 2. If your child has heavy bleeding that can&apos;t be stopped after an injury, call 911 or your local emergency number or go to an emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child&apos;s symptoms are less severe &amp;mdash; such as bruising that seems excessive after minor injuries &amp;mdash; call your family doctor or your child&apos;s pediatrician. In some cases when you call to set up your appointment, you may be referred to a doctor who specializes in bleeding disorders (hematologist) or to a hemophilia treatment center. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Comprehensive hemophilia treatment centers&lt;/strong&gt; &lt;br /&gt;
+Centers that specialize in the diagnosis, evaluation and treatment of hemophilia and other bleeding disorders belong to a network called comprehensive hemophilia treatment centers. Such centers, which may also be called bleeding disorder centers, are staffed with doctors, nurses, social workers and physical therapists who provide specialized care for people with bleeding disorders. Visiting a hemophilia treatment center regularly can improve quality of life and can reduce hospitalizations from bleeding complications for people with bleeding disorders. Ask your doctor if there is a comprehensive hemophilia treatment center available to you. 
+&lt;/p&gt;
+&lt;p&gt;
+No matter what type of doctor you initially see, here&apos;s some information to help you prepare for the appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms your child has been experiencing&lt;/strong&gt; and for how long. It will help your doctor to know details such as the types of injuries that have caused significant bruising or other unusual symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your child&apos;s key medical information,&lt;/strong&gt; including other medical problems for which your child is being treated and any medications your child is currently taking. Also note whether anyone else in your family has been diagnosed with a bleeding disorder.&lt;/li&gt;
+	&lt;li&gt;Write down questions to ask your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For hemophilia, some basic questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my child&apos;s signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What activity restrictions will my child need to follow?&lt;/li&gt;
+	&lt;li&gt;What additional steps can I take to ensure my child&apos;s safety?&lt;/li&gt;
+	&lt;li&gt;What can I do to help my child live as normally as possible?&lt;/li&gt;
+	&lt;li&gt;What does his or her teachers need to know about hemophilia?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my child&apos;s health over time?&lt;/li&gt;
+	&lt;li&gt;What is my child&apos;s risk of long-term complications?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that our family meet with a genetic counselor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your child&apos;s doctor, don&apos;t hesitate to ask any additional questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your child&apos;s doctor&lt;/strong&gt; &lt;br /&gt;
+Your child&apos;s doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin noticing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child complained of pain or warmth around his or her joints?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any unusual or heavy bleeding, such as nosebleeds or prolonged bleeding from a cut?&lt;/li&gt;
+	&lt;li&gt;Have you noticed blood in your child&apos;s urine or stool?&lt;/li&gt;
+	&lt;li&gt;Has your child undergone any surgeries, and, if so, did the surgeon feel there was excessive bleeding?&lt;/li&gt;
+	&lt;li&gt;What else concerns you?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family been diagnosed with a bleeding disorder?&lt;/li&gt;
+	&lt;li&gt;Are you planning to have more children?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with hemophilia or have had undiagnosed problems with excessive bleeding. Share this information with your child&apos;s doctor when you meet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For people with a family history of hemophilia, it&apos;s possible to test the fetus during pregnancy to determine if it is affected by the disease. However, such testing poses some risk to the fetus. Discuss the benefits and risks of testing with your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Analysis of a blood sample from either a child or an adult can show a deficiency of a clotting factor. Sometimes mild hemophilia isn&apos;t diagnosed until after a person has undergone surgery and excessive bleeding results.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While there&apos;s no cure for hemophilia, most people with the disease can lead fairly normal lives. 
+&lt;/p&gt;
+&lt;p&gt;
+Hemophilia treatment varies depending on the severity of the condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mild hemophilia A.&lt;/strong&gt; Treatment may involve slow injection of the hormone desmopressin (DDAVP) into a vein to stimulate a release of more clotting factor to stop bleeding. Occasionally, desmopressin is given as a nasal medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moderate to severe hemophilia A or hemophilia B.&lt;/strong&gt; Bleeding may stop only after an infusion of clotting factor derived from donated human blood or from genetically engineered products called recombinant clotting factors. Repeated infusions may be needed if internal bleeding is serious.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemophilia C.&lt;/strong&gt; The clotting factor missing in this type of hemophilia (factor XI) is available only in Europe. In the U.S., plasma infusions are needed to stop bleeding episodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Regular preventive infusions of a clotting factor may help prevent bleeding. This approach may reduce time spent in the hospital and away from home, work or school and limit side effects such as damage to joints. Your doctor or child&apos;s doctor can train you to perform infusions of desmopressin or the clotting factor at home, work or school. 
+&lt;/p&gt;
+&lt;p&gt;
+Another class of drugs called antifibrinolytics is sometimes prescribed along with clotting factor replacement therapy. These medications help prevent clots from breaking down. 
+&lt;/p&gt;
+&lt;p&gt;
+If internal bleeding has damaged joints, physical therapy can help them function better. Therapy can preserve their mobility and help prevent frozen or badly deformed joints. In cases where repeated bouts of internal bleeding has damaged or destroyed joints, an artificial joint may be needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For minor cuts&lt;/strong&gt;&lt;br /&gt;
+If you or your child experiences a small cut or scrape, using pressure and a bandage will generally take care of the bleeding. For small areas of bleeding beneath the skin, use an ice pack. Ice pops can be used to slow down minor bleeding in the mouth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help you avoid excessive bleeding and protect your joints: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Activities such as swimming, bicycle riding and walking can build up muscles while protecting joints. Contact sports &amp;mdash; such as football, hockey or wrestling &amp;mdash; are not safe for people with hemophilia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain medications.&lt;/strong&gt; Drugs that can aggravate bleeding include aspirin and ibuprofen (Advil, Motrin, others). Instead, use acetaminophen (Tylenol, others), which is a safe alternative for mild pain relief. Also avoid certain blood-thinning medications, such as heparin and warfarin (Coumadin), which prevent blood from clotting. Certain herbal supplements also contain ingredients that may cause bleeding, especially if you have hemophilia. Talk to your doctor before taking any herbal supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good dental hygiene.&lt;/strong&gt; This can help prevent the need to have a tooth pulled, which can lead to excessive bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your child from injuries that could cause bleeding.&lt;/strong&gt; If your child has hemophilia, ask your doctor for guidance that can help your child stay active while avoiding injury. Kneepads, elbow pads, helmets and safety belts all may help prevent injuries from falls and other accidents. In addition, keep your home free of furniture with sharp corners and keep sharp objects out of reach or locked away.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Get a medical alert bracelet for you or your child and be sure it&apos;s worn at all times. This bracelet lets medical personnel know that you or your child has hemophilia and the type of clotting factor that&apos;s best in case of an emergency. 
+&lt;/p&gt;
+&lt;p&gt;
+These tips can help you and your child cope with hemophilia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tap into resources at a designated hemophilia treatment center.&lt;/strong&gt; Comprehensive hemophilia treatment centers are located throughout the U.S. A wide range of experts at these centers can work with you and your family doctor to create personalized plan for managing your hemophilia. These centers also provide support services, including education for you and your family. Ask your doctor or check the Centers for Disease Control and Prevention (CDC) website for a list of centers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with a counselor.&lt;/strong&gt; If your baby or child has hemophilia, you may be concerned about striking the right balance between keeping your child safe and encouraging as much normal activity as possible. A social worker or therapist with knowledge about hemophilia can help you cope with your concerns and identify the minimum limitations necessary for your child. Ask your doctor to recommend a mental health professional or a support group that can help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let people know.&lt;/strong&gt; Be sure to tell anyone who will be taking care of your child &amp;mdash; baby sitters, workers at your child care center, relatives, friends and teachers &amp;mdash; about your child&apos;s condition. Because it&apos;s also OK to let your child engage in noncontact organized sports, be sure to let coaches know, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Comfort your child.&lt;/strong&gt; Stay calm and reassure your child during injections and infusions. Encourage and praise your child when the treatment is complete.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hemophilia
+	</Title>
+	<Abstract>
+		Hemophilia &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this blood-clotting disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00155" LinkType="Internal" ObjectID="E4636F2E-E7FF-0DBD-19D23492870EE783" Title="Amniocentesis" Url="http://www.mayoclinic.com/health/amniocentesis/MY00155" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00147" LinkType="Internal" ObjectID="DF9E0BE8-E7FF-0DBD-15BB97EE22BD0C3D" Title="Cordocentesis" Url="http://www.mayoclinic.com/health/percutaneous-umbilical-blood-sampling/MY00147" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,203 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00522
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00522
+		</OriginalURL>
+		<UpdateDate>
+			2010-07-31
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F64E7E08-31E4-4302-A5CF1FEF38792DA3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: New York strip steak with whiskey-mushroom sauce
+	</Title>
+	<Abstract>
+		New York strip steak with whiskey-mushroom sauce &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The nutrient analysis for this New York strip steak includes 75 calories from the whiskey, which is counted as a sweet when calculating servings and exchanges. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Prepare a hot fire in a charcoal grill or heat a gas grill or broiler. Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source. 
+&lt;/p&gt;
+&lt;p&gt;
+Grill or broil the steaks until slightly pink on the inside, about 10 minutes each side. Or until a food thermometer indicates 145 F (medium rare), 160 F (medium) or 170 F (well done). Transfer to a plate and keep warm. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small saucepan, heat the margarine over medium heat. Add the garlic, mushrooms, thyme and rosemary. Saute lightly until the mushrooms are tender, about 1 to 2 minutes. Remove from the heat and carefully add the whiskey (be careful not to flame). Stir the sauce for another minute. Top the steaks with the mushrooms sauce and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 New York strip steaks, each 4 ounces, trimmed of all visible fat&lt;/li&gt;
+	&lt;li&gt;1 teaspoon trans-free margarine&lt;/li&gt;
+	&lt;li&gt;3 garlic cloves, chopped&lt;/li&gt;
+	&lt;li&gt;2 ounces sliced shiitake mushrooms&lt;/li&gt;
+	&lt;li&gt;2 ounces button mushrooms&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon thyme&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon rosemary&lt;/li&gt;
+	&lt;li&gt;1/4 cup whiskey&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				296
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				4 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				63 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				6 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				26 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				4 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 steak
+			</Servingsize>
+			<Sodium Label="Sodium">
+				87 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				12 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

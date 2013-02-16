@@ -1,0 +1,297 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00164
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cataract-surgery/MY00164
+		</OriginalURL>
+		<UpdateDate>
+			2010-05-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3860" Title="Eyes">
+						<Keyword MCVID="4360" Title="Surgery">
+							<Keyword MCVID="3861" Title="Cataract surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			126BAB8B-E7FF-0DBD-17C64C384E96EDA7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cataract surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				cataracts
+			</MetaKeyword>
+			<MetaKeyword>
+				cataract
+			</MetaKeyword>
+			<MetaKeyword>
+				blurred vision
+			</MetaKeyword>
+			<MetaKeyword>
+				vision problems
+			</MetaKeyword>
+			<MetaKeyword>
+				blurry vision
+			</MetaKeyword>
+			<MetaKeyword>
+				eye diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				eye problems
+			</MetaKeyword>
+			<MetaKeyword>
+				vision problem
+			</MetaKeyword>
+			<MetaKeyword>
+				cataract removal
+			</MetaKeyword>
+			<MetaKeyword>
+				phacoemulsification
+			</MetaKeyword>
+			<MetaKeyword>
+				artificial lens
+			</MetaKeyword>
+			<MetaKeyword>
+				lens implants
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cataract surgery is a procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens. Cataract surgery is used to treat a cataract &amp;mdash; the clouding of the normally clear lens of your eye. Cataract surgery is performed by an eye doctor (ophthalmologist) on an outpatient basis, which means you don&apos;t have to stay in the hospital after the surgery. Cataract surgery is very common and is generally a safe procedure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cataract surgery 
+" Caption="During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top). After removing the cataract, your surgeon inserts the lens implant into the empty capsule where the natural lens used to be (bottom). 
+" Height="60" Title="Cataract surgery" URI="/images/image_popup/thumbs/vi7_cataractsurgerythu.jpg" Width="60" />
+				<Image Alt="Illustration showing cataract surgery 
+" Caption="During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top). After removing the cataract, your surgeon inserts the lens implant into the empty capsule where the natural lens used to be (bottom). 
+" Height="396" Title="Cataract surgery" URI="/images/image_popup/vi7_cataractsurgery.jpg" Width="400" />
+				<HTML>
+					During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top)...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cataract surgery is performed to treat cataracts. Cataracts can cause blurry vision and increase the glare from lights. If a cataract makes it difficult for you to carry out your normal activities, your doctor may suggest cataract surgery.
+&lt;/p&gt;
+&lt;p&gt;
+When a cataract interferes with the treatment of another eye problem, cataract surgery may be recommended. This may be the case in people who have other conditions, such as age-related macular degeneration or diabetic retinopathy, since a cataract makes it difficult for your eye doctor to examine the back of your eye to monitor your other eye problems.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, waiting to have cataract surgery won&apos;t harm your eye, so you have time to consider your options. If your vision is still quite good, you may not need cataract surgery for many years, if ever. Approach the decision with these questions in mind:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can you see to safely do your job and to drive?&lt;/li&gt;
+	&lt;li&gt;Do you have problems reading or watching television?&lt;/li&gt;
+	&lt;li&gt;Is it difficult to cook, shop, do yardwork, climb stairs or take medications?&lt;/li&gt;
+	&lt;li&gt;Do vision problems affect your level of independence?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty seeing faces clearly?&lt;/li&gt;
+	&lt;li&gt;Do bright lights make it hard to see?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo depicting how a cataract affects vision 
+" Caption="Normal vision (left) becomes blurred as a cataract forms (right). 
+" Height="60" Title="How a cataract affects your vision" URI="/images/image_popup/thumbs/vi7_blurredvisionthu.jpg" Width="60" />
+				<Image Alt="Photo depicting how a cataract affects vision 
+" Caption="Normal vision (left) becomes blurred as a cataract forms (right). 
+" Height="220" Title="How a cataract affects your vision" URI="/images/image_popup/vi7_blurredvision.jpg" Width="400" />
+				<HTML>
+					Normal vision (left) becomes blurred as a cataract forms (right). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications after cataract surgery are uncommon, and most can be treated successfully.
+&lt;/p&gt;
+&lt;p&gt;
+Cataract surgery risks include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Retinal detachment&lt;/li&gt;
+	&lt;li&gt;Glaucoma&lt;/li&gt;
+	&lt;li&gt;Secondary cataract&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your risk of complications is greater if you have another eye disease or a serious medical condition affecting any part of your body. Occasionally, cataract surgery fails to improve vision because of underlying eye damage from other conditions, such as glaucoma or macular degeneration. If possible, it may be beneficial to evaluate and treat such eye problems before making the decision to have cataract surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for your cataract surgery, you may be asked to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Undergo tests.&lt;/strong&gt; A week or so before your surgery, your doctor performs a painless ultrasound test to measure the size and shape of your eye. This helps determine the right type of lens implant (intraocular lens, or IOL).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking certain medications.&lt;/strong&gt; Your doctor may advise you to temporarily stop taking any medication that could increase your risk of bleeding during the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use eyedrops to reduce infection risk.&lt;/strong&gt; Antibiotic eyedrops may be prescribed for use one or two days before the surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fast before surgery.&lt;/strong&gt; You may be instructed not to eat or drink anything 12 hours before the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare for your recovery.&lt;/strong&gt; Normally you can go home on the same day as your surgery, but you won&apos;t be able to drive, so arrange for a ride home. Also line up help around home, if necessary, because your doctor may limit activities, such as bending and lifting, for a few days after your surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During cataract surgery&lt;/strong&gt;&lt;br /&gt;
+Cataract surgery, usually an outpatient procedure, takes an hour or less to perform. Eyedrops placed in your eye dilate your pupil. You&apos;ll receive local anesthetics to numb the area, and you may be given a sedative to help you relax. If you&apos;re given a sedative, you may remain awake, but groggy, during surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, two things happen during cataract surgery &amp;mdash; the clouded lens is removed, and a clear artificial lens is implanted. In some cases, however, a cataract may be removed without implanting an artificial lens. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgical methods used to remove cataracts include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using an ultrasound probe to break up the lens for removal.&lt;/strong&gt; During a procedure called phacoemulsification (fak-o-e-mul-sih-fih-KA-shun), your surgeon makes a tiny incision in the front of your eye and inserts a needle-thin probe. Your surgeon then uses the probe, which transmits ultrasound waves, to break up (emulsify) the cataract and suction out the fragments. The very back of your lens is left in place to serve as a place for the artificial lens to rest. In this procedure stitches may or may not be used to close the tiny incision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Making an incision in the eye and removing the lens.&lt;/strong&gt; A less frequently used procedure called extracapsular cataract extraction requires a larger incision than is made during phacoemulsification. Through this incision your surgeon uses surgical tools to remove the cloudy portion of your lens and suctioning tools to remove additional portions of the lens. The very back of your lens is left in place to serve as a place for the artificial lens to rest. This procedure usually requires stitches to close the incision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once the cataract has been removed by either phacoemulsification or extracapsular extraction, a clear artificial lens is implanted into the empty lens capsule. This implant, known as an intraocular lens (IOL), is made of plastic, acrylic or silicone. You won&apos;t be able to see or feel the lens. It requires no care and becomes a permanent part of your eye. 
+&lt;/p&gt;
+&lt;p&gt;
+A variety of IOLs with different features are available. Some IOLs are rigid plastic and implanted through an incision that requires several stitches (sutures) to close. However, many IOLs are flexible, allowing a smaller incision that requires no stitches. The surgeon folds this type of lens and inserts it into the empty capsule where the natural lens used to be. Once inside the eye, the folded IOL unfolds, filling the empty capsule. 
+&lt;/p&gt;
+&lt;p&gt;
+Some types of IOLs block ultraviolet light and other types of IOLs work like bifocals to provide multifocal vision &amp;mdash; both near and distant vision. Discuss the benefits and risks of the different types of IOLs with your eye surgeon to determine what&apos;s best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After cataract surgery&lt;/strong&gt;&lt;br /&gt;
+After cataract surgery, expect your vision to begin improving within a few days. Your vision may be blurry at first as your eye heals and adjusts. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll typically see your eye doctor a day or two after your surgery, the following week and then again after a month to monitor healing. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s normal to feel itching and mild discomfort for a couple of days after surgery. Avoid rubbing or pressing on your eye. Your doctor may ask you to wear an eye patch or protective shield the day of surgery. Your doctor may prescribe eyedrops or other medication to prevent infection, reduce inflammation and control eye pressure. After a couple of days, all discomfort should disappear. Often, complete healing occurs within eight weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Contact your doctor immediately if you experience any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vision loss&lt;/li&gt;
+	&lt;li&gt;Pain that persists despite the use of over-the-counter pain medications&lt;/li&gt;
+	&lt;li&gt;Increased eye redness&lt;/li&gt;
+	&lt;li&gt;Light flashes or multiple spots (floaters) in front of your eye&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or excessive coughing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people rely on glasses, at least some of the time, after cataract surgery. Your doctor will let you know when your eyes have healed enough for you to get a final prescription for eyeglasses. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have cataracts in both eyes, your doctor typically schedules a second surgery a month or two later to remove the cataract in your other eye. This allows time for the first eye to heal before the second eye surgery takes place. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cataract surgery 
+" Caption="During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top). After removing the cataract, your surgeon inserts the lens implant into the empty capsule where the natural lens used to be (bottom). 
+" Height="60" Title="Cataract surgery" URI="/images/image_popup/thumbs/vi7_cataractsurgerythu.jpg" Width="60" />
+				<Image Alt="Illustration showing cataract surgery 
+" Caption="During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top). After removing the cataract, your surgeon inserts the lens implant into the empty capsule where the natural lens used to be (bottom). 
+" Height="396" Title="Cataract surgery" URI="/images/image_popup/vi7_cataractsurgery.jpg" Width="400" />
+				<HTML>
+					During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top)...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cataract surgery successfully restores vision in the majority of people who have the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+People who have had cataract surgery may develop a common complication known as posterior capsule opacification (PCO), or secondary cataract. This happens when the back of the lens capsule &amp;mdash; the part of the lens that wasn&apos;t removed during surgery and that now supports the lens implant &amp;mdash; becomes cloudy and impairs your vision.
+&lt;/p&gt;
+&lt;p&gt;
+PCO is treated with a painless, five-minute outpatient procedure called yttrium-aluminum-garnet (YAG) laser capsulotomy. In YAG laser capsulotomy, a laser beam is used to make a small opening in the clouded capsule to let light pass through.
+&lt;/p&gt;
+&lt;p&gt;
+After the procedure, you typically stay in the doctor&apos;s office for about an hour to make sure your eye pressure doesn&apos;t increase. Other complications are rare but can include swelling of the macula and retinal detachment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cataract surgery
+	</Title>
+	<Abstract>
+		Cataract surgery &amp;mdash; Overview covers risks, complications, results of this eye surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01569" LinkType="Internal" ObjectID="C68515D2-E7FF-0DBD-1974A28FE5B7FC85" Title="Cataract surgery: Does the artificial lens deteriorate over time?" Url="http://www.mayoclinic.com/health/cataract-surgery/AN01569" />
+		<LinkItem ContentType="Video" DocID="MM00780" LinkType="Internal" ObjectID="31E3786F-DA2B-6EDD-A62B3B6E834FF7C3" Title="Video: Cataract surgery" Url="http://www.mayoclinic.com/health/cataract-surgery/MM00780" />
+		<LinkItem ContentType="Disease" DocID="DS00050" LinkType="Internal" ObjectID="00641799-FDF7-48C1-946D319041BA9D50" Title="Cataracts" Url="http://www.mayoclinic.com/health/cataracts/DS00050" />
+	</RelatedLinksBox>
+</TestProcedure>

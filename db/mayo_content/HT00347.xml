@@ -1,0 +1,74 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00347
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00347
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1593" Title="Common cold" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			170D5729-E7FF-0DBD-14D0EA9FC0FAE36E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hand washing
+			</MetaKeyword>
+			<MetaKeyword>
+				washing hands
+			</MetaKeyword>
+			<MetaKeyword>
+				wash hands
+			</MetaKeyword>
+			<MetaKeyword>
+				handwashing
+			</MetaKeyword>
+			<MetaKeyword>
+				hand-washing
+			</MetaKeyword>
+			<MetaKeyword>
+				soap
+			</MetaKeyword>
+			<MetaKeyword>
+				antibacterial soap
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Soapy debate: Antibacterial or regular?
+	</Title>
+	<Body>
+		&lt;p&gt;Despite its soaring popularity, antibacterial soap is no more effective at killing germs than is regular soap. And using antibacterial soap may lead to the development of bacteria that are resistant to the products&apos; antimicrobial agents, making it even harder to kill these germs in the future.&lt;/p&gt;
+	</Body>
+</HealthTip>

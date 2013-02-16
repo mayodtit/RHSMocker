@@ -1,0 +1,117 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01861
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/split-fingernails/AN01861
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-08
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="4643" Title="Nail care" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A786991-E7FF-0DBD-1CD8F68A7EFECB55
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				split fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				splitting fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernail
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				finger nail
+			</MetaKeyword>
+			<MetaKeyword>
+				finger nails
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Treating your nails gently can help prevent split fingernails. Consider these simple tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your fingernails dry.&lt;/strong&gt; Repeated or prolonged contact with water can contribute to split fingernails. Wear cotton-lined rubber gloves when washing dishes, cleaning or using harsh chemicals, and avoid long soaks in the tub. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good nail hygiene.&lt;/strong&gt; Keep your fingernails neatly trimmed, and round the tips in a gentle curve. When you use hand lotion, rub the lotion into your fingernails and cuticles, too. Don&apos;t bite your fingernails, pick at your cuticles, or use your fingernails to pick, poke or pry things. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harsh nail care products.&lt;/strong&gt; Limit manicures. Between visits, touch up nail polish as needed &amp;mdash; don&apos;t remove it. If you must use nail polish remover, avoid those that contain acetone. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repair split fingernails quickly.&lt;/strong&gt; Repair splits or tears with nail glue or clear polish to keep the problem from getting worse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your best efforts to prevent split fingernails don&apos;t seem to help, ask your doctor or dermatologist for additional suggestions. Some research suggests that the nutritional supplement biotin might help strengthen weak or brittle fingernails. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Split fingernails: Can they be prevented?
+	</Title>
+	<Abstract>
+		To prevent split fingernails, treat your nails gently. Consider these simple nail care tips.
+	</Abstract>
+	<Question>
+		Is it possible to prevent split fingernails?
+	</Question>
+	<QuestionFirstName>
+		Becky
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01144" LinkType="Internal" ObjectID="8939986C-F327-4271-AD67610FD1B68D19" Title="Nail biting: Does it cause long-term damage?" Url="http://www.mayoclinic.com/health/nail-biting/AN01144" />
+		<LinkItem ContentType="Answer" DocID="AN00591" LinkType="Internal" ObjectID="6253888A-D4BF-4D48-9F90EF0376680538" Title="Nail ridges: Cause for concern?" Url="http://www.mayoclinic.com/health/nails/AN00591" />
+		<LinkItem ContentType="Answer" DocID="AN01261" LinkType="Internal" ObjectID="1CDD8F4D-2A5D-9994-E5016BDFB41429DF" Title="Acrylic nails: Can they harm natural nails?" Url="http://www.mayoclinic.com/health/acrylic-nails/AN01261" />
+		<LinkItem ContentType="SlideShow" DocID="WO00055" LinkType="Internal" ObjectID="154FD1E8-20E3-4CCF-BE8FC6EDF5A89942" Title="Slide show: 7 fingernail problems not to ignore" Url="http://www.mayoclinic.com/health/nails/WO00055" />
+		<LinkItem ContentType="Article" DocID="WO00020" LinkType="Internal" ObjectID="3803FB95-7CEC-4B8E-B69A53A210F01BE8" Title="Fingernails: Do&apos;s and don&apos;ts for healthy nails" Url="http://www.mayoclinic.com/health/nails/WO00020" />
+	</RelatedLinksBox>
+</Answer>

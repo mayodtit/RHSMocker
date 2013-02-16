@@ -1,0 +1,401 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00923
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wolff-parkinson-white-syndrome/DS00923
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-25
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4265" Title="Wolff- Parkinson-White Syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E3378F81-E7FF-0DBD-186727361BBFF2E3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Wolff-Parkinson-White syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				tachycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				Wolff Parkinson White syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				WPW
+			</MetaKeyword>
+			<MetaKeyword>
+				pre-excitation syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				preexcitation syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				superventricular tachycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				SVT
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wolff-Parkinson-White syndrome, or WPW syndrome, is the presence of an extra, abnormal electrical pathway in the heart that leads to periods of a very fast heartbeat (tachycardia). 
+&lt;/p&gt;
+&lt;p&gt;
+The extra electrical pathway of Wolff-Parkinson-White syndrome is present at birth. People of all ages, including infants, can experience the symptoms related to Wolff-Parkinson-White syndrome. Episodes of a fast heartbeat often first occur when people are in their teens or early 20s. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, the episodes of fast heartbeats aren&apos;t life-threatening, but serious heart problems can occur. Treatments for Wolff-Parkinson-White syndrome can stop or prevent episodes of fast heartbeats. A catheter-based procedure, known as ablation, can permanently correct the heart rhythm problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wolff-Parkinson-White syndrome symptoms are the result of a fast heart rate. Common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sensation of rapid, fluttering or pounding heartbeats (palpitations)&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Tiring easily during exercise&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms most often appear for the first time in people in their teens or 20s. An episode of a very fast heartbeat can begin suddenly and last for a few seconds or several hours. Episodes often happen during exercise. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in more-serious cases&lt;/strong&gt;&lt;br /&gt;
+If a person with Wolff-Parkinson-White syndrome also has a very rapid heart rate, more-serious symptoms can develop, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Chest tightness&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Sudden death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in infants&lt;/strong&gt;&lt;br /&gt;
+Symptoms in infants with Wolff-Parkinson-White syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Not alert or active&lt;/li&gt;
+	&lt;li&gt;Poor eating&lt;/li&gt;
+	&lt;li&gt;Fast heartbeats visible on the chest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;No symptoms&lt;/strong&gt;&lt;br /&gt;
+A person may have an extra electrical pathway in the heart but experience no fast heartbeat and no symptoms. This condition, called Wolff-Parkinson-White pattern, is discovered only by chance when a person is undergoing a heart exam for other reasons. Wolff-Parkinson-White pattern is harmless in many people. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+A number of conditions can cause irregular heartbeats (arrhythmia). It&apos;s important to get a prompt, accurate diagnosis and appropriate care. See your doctor if you or your child experiences any symptoms associated with Wolff-Parkinson-White syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+Call 911 or your local emergency number if you experience any of the following symptoms for more than a few minutes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid or irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also call 911 if you are with a person who faints. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The extra electrical pathway of Wolff-Parkinson-White syndrome is present at birth. An abnormal gene (gene mutation) is the cause of a small percentage of cases of the disorder. Wolf-Parkinson-White syndrome is associated with some forms of congenital heart disease, such as Ebstein&apos;s anomaly. Otherwise, little is known about why this extra pathway develops. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal heart electrical system&lt;/strong&gt;&lt;br /&gt;
+Your heart is made up of four chambers &amp;mdash; two upper chambers (atria) and two lower chambers (ventricles). The rhythm of your heart is normally controlled by a natural pacemaker &amp;mdash; the sinus node &amp;mdash; located in the right atrium. The sinus node produces electrical impulses that initiate each heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+From the sinus node, electrical impulses travel across the atria, causing the atria muscles to contract and pump blood into the ventricles. The electrical impulses then arrive at a cluster of cells called the atrioventricular node (AV node) &amp;mdash; usually the only pathway for signals to travel from the atria to the ventricles. 
+&lt;/p&gt;
+&lt;p&gt;
+The AV node slows down the electrical signal before sending it to the ventricles. This slight delay allows the ventricles to fill with blood. When electrical impulses reach the muscles of the ventricles, they contract, causing them to pump blood either to the lungs or to the rest of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Abnormal electrical system related to Wolff-Parkinson-White syndrome&lt;/strong&gt; &lt;br /&gt;
+In Wolff-Parkinson-White syndrome, an extra electrical pathway connects the atria and ventricles. This means that an electrical signal can bypass the AV node. When electrical impulses use this detour through the heart, the ventricles are activated too early &amp;mdash; a condition known as preexcitation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Abnormal rhythm or fast heartbeat in patients with WPW:&lt;/strong&gt;&lt;br /&gt;
+Two major types of rhythm disturbances can be related to the presence of the extra electrical pathway: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Looped electrical impulses.&lt;/strong&gt; The problem with a fast heartbeat usually occurs in Wolff-Parkinson-White syndrome because electrical impulses travel down either the normal or the extra pathway and up the other one, creating a complete electrical loop of signals. This condition, called AV reentrant tachycardia, sends impulses to the ventricles at a very rapid rate. The ventricles, as a result, pump very quickly, causing symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disorganized electrical impulses.&lt;/strong&gt; If electrical impulses don&apos;t begin correctly in the right atrium, they may travel across the atria in a disorganized way, causing them to beat very quickly and out of step with each other. This condition is called atrial fibrillation. These disorganized signals also increase the pumping rate of the ventricles to some extent. If there&apos;s an extra electrical pathway, as with Wolff-Parkinson-White syndrome, the ventricles can beat even faster. The ventricles don&apos;t have time to fill up with blood and don&apos;t pump enough blood to the body. This less common condition can be life-threatening.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="60" Title="Normal heartbeat" URI="/images/image_popup/thumbs/hb7_heartelectricalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="330" Title="Normal heartbeat" URI="/images/image_popup/hb7_heartelectrical.jpg" Width="400" />
+				<HTML>
+					A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Wolff-Parkinson-White syndrome 
+" Caption="Wolff-Parkinson-White syndrome is the name for episodes of fast heart rate caused by an extra electrical pathway between the atria and the ventricles. The fast heart rate often occurs because the electrical impulses go down one pathway from the atria to the ventricles and then return to the atria through the other pathway. 
+" Height="60" Title="Wolff-Parkinson-White syndrome" URI="/images/image_popup/thumbs/r7_wpwthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Wolff-Parkinson-White syndrome 
+" Caption="Wolff-Parkinson-White syndrome is the name for episodes of fast heart rate caused by an extra electrical pathway between the atria and the ventricles. The fast heart rate often occurs because the electrical impulses go down one pathway from the atria to the ventricles and then return to the atria through the other pathway. 
+" Height="390" Title="Wolff-Parkinson-White syndrome" URI="/images/image_popup/r7_wpw.jpg" Width="400" />
+				<HTML>
+					Wolff-Parkinson-White syndrome is the name for episodes of fast heart rate caused by an extra electrical pathway between the atria and the ventricles. The fast heart rate often occurs because the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wolff-Parkinson-White syndrome doesn&apos;t cause significant problems for many people, but complications can occur, and it&apos;s not always possible to know your risk of serious heart-related events. If the disorder is left untreated, and particularly if you have other heart conditions, you could experience the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden death&lt;/li&gt;
+	&lt;li&gt;Chaotic electrical signals through the ventricles and very rapid beating of the ventricles (ventricular fibrillation)&lt;/li&gt;
+	&lt;li&gt;Low blood pressure (hypotension)&lt;/li&gt;
+	&lt;li&gt;Inability of the heart to pump enough blood (heart failure)&lt;/li&gt;
+	&lt;li&gt;Frequent fainting spells&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether you first see your family doctor or get emergency care, you&apos;ll likely be referred to a heart specialist (cardiologist) for one or more appointments. 
+&lt;/p&gt;
+&lt;p&gt;
+If possible, bring along a family member or friend who can give some moral support and help you keep track of new information. Because there may be a lot of ground to cover, it will be helpful to prepare as much as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Make a list ahead of time that you can share with your doctor. Your list should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms you&apos;ve experienced,&lt;/strong&gt; including any that may seem unrelated to your heart&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key personal information,&lt;/strong&gt; including any major stresses or recent life changes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; including vitamins or supplements&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask&lt;/strong&gt; your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important, in case time runs out. Basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my fast heart rate?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What kind of risks does my heart condition create?&lt;/li&gt;
+	&lt;li&gt;How will we monitor my heart?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up appointments?&lt;/li&gt;
+	&lt;li&gt;How will other conditions I have or medications I take affect my heart problem?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activities?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often have you had episodes of a fast heartbeat?&lt;/li&gt;
+	&lt;li&gt;How long have the episodes lasted?&lt;/li&gt;
+	&lt;li&gt;Does anything &amp;mdash; exercise, stress, caffeine &amp;mdash; seem to trigger or worsen episodes?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of heart disease?&lt;/li&gt;
+	&lt;li&gt;Do you have any other health problems?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can make a diagnosis of Wolff-Parkinson-White syndrome based on your answers to questions about symptoms, a physical exam and heart tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram(ECG)&lt;/strong&gt;&lt;br /&gt;
+An electrocardiogram &amp;mdash; also called an ECG or EKG &amp;mdash; uses small sensors (electrodes) attached to your chest and arms to record electrical signals as they travel through your heart. Your doctor can look for patterns among these signals that indicate the presence of an extra electrical pathway in your heart. This pathway can usually be detected even when you&apos;re not currently experiencing an episode of a fast heartbeat. Your doctor may also ask you to use portable ECG devices at home to provide more information about your heart rate. These devices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; This portable ECG device is carried in your pocket or worn on a belt or shoulder strap. It records your heart&apos;s activity for an entire 24-hour period, which provides your doctor with a prolonged look at your heart rhythms. Your doctor will likely ask you to keep a diary during the same 24 hours. You&apos;ll describe any symptoms you experience and record the time they occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; This portable ECG device is intended to monitor your heart activity over a few weeks to a few months. You activate it only when you experience symptoms of a fast heart rate. When you feel symptoms, you push a button, and an ECG strip of the preceding few minutes and following few minutes is recorded. This permits your doctor to determine your heart rhythm at the time of your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrophysiological testing&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend an electrophysiological test to confirm the diagnosis or to pinpoint the location of the extra pathway. During this test, thin, flexible tubes (catheters) tipped with electrodes are threaded through your blood vessels to various spots in your heart. Once in place, the electrodes can precisely map the spread of electrical impulses during each beat and identify an extra electrical pathway. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment goals for Wolff-Parkinson-White syndrome are to slow a fast heart rate when it occurs and prevent future episodes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stopping a fast heart rate&lt;/strong&gt;&lt;br /&gt;
+A fast heartbeat may correct itself, and you may be able to slow your heart rate using simple physical movements. However, you may need medication or other medical treatment to slow down your heartbeat. Ways to slow your heartbeat include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vagal maneuvers.&lt;/strong&gt; Your doctor will ask you to perform an action called a vagal maneuver during an episode of a fast heartbeat. Vagal maneuvers affect the vagus nerve, which helps regulate your heartbeat. The maneuvers include coughing, bearing down as if you are having a bowel movement, and putting an ice pack on your face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; If vagal maneuvers don&apos;t stop the fast heartbeat, you may need an injection of an anti-arrhythmic medication, such as adenosine, to restore a normal heart rate. An injection of this drug is administered at a hospital. Your doctor may also prescribe a pill version of an anti-arrhythmic drug, such as flecainide (Tambocor) or propafenone (Rythmol, Rythmol SR), to take if you have an episode of a fast heartbeat that doesn&apos;t respond to vagal maneuvers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardioversion.&lt;/strong&gt; In this procedure, a shock is delivered to your heart through paddles or patches on your chest. The current affects the electrical impulses in your heart and restores a normal rhythm. It&apos;s typically used when maneuvers and medications aren&apos;t effective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing episodes of a fast heart rate&lt;/strong&gt;&lt;br /&gt;
+With the following treatments, it&apos;s possible to correct or manage problems related to Wolff-Parkinson-White syndrome in the majority of cases. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiofrequency catheter ablation.&lt;/strong&gt; This procedure is the most common treatment for Wolff-Parkinson-White syndrome. In this procedure, catheters are threaded through the blood vessels to your heart. Electrodes at the catheter tips are heated to damage (ablate) the extra electrical pathway and prevent it from sending electrical signals. This procedure is highly effective, and complications &amp;mdash; which can include heart injury or infection &amp;mdash; are uncommon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Anti-arrhythmic medications such as flecainide or propafenone may prevent a fast heart rate when taken regularly. Medications are usually given to people who can&apos;t undergo radiofrequency catheter ablation for some reason or don&apos;t want to have the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; The success rate for surgical destruction (ablation) of the extra pathway using open-heart surgery is almost 100 percent. However, because radiofrequency catheter ablation is almost as effective and less invasive, surgery for Wolff-Parkinson-White syndrome is now rare. It&apos;s typically reserved for people who are having heart surgery for other reasons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;If you don&apos;t have symptoms&lt;/strong&gt;&lt;br /&gt;
+If you have the Wolff-Parkinson-White pathway but don&apos;t have any symptoms, you probably won&apos;t need treatment. In some people without symptoms, the extra pathway may spontaneously disappear over time.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may be able to evaluate your risk of having episodes of a fast heartbeat based on findings from an ECG or electrophysiological testing. If he or she determines that you may be at risk of an event, your doctor may suggest radiofrequency catheter ablation. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="60" Title="Illustration showing cardiac catheter ablation" URI="/images/image_popup/thumbs/r7_cathablationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="406" Title="Cardiac catheter ablation" URI="/images/image_popup/r7_cathablation.jpg" Width="400" />
+				<HTML>
+					In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a plan in place to deal with a possible episode of a fast heartbeat, you may feel calm and in control when one occurs. Talk to your doctor about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When and how to use vagal maneuvers&lt;/li&gt;
+	&lt;li&gt;When to call your doctor&lt;/li&gt;
+	&lt;li&gt;When to seek emergency care&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can also avoid substances that may contribute to a faster heartbeat, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Caffeine&lt;/li&gt;
+	&lt;li&gt;Tobacco&lt;/li&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Pseudoephedrine, a nasal decongestant&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wolff-Parkinson-White (WPW) syndrome
+	</Title>
+	<Abstract>
+		Wolff-Parkinson-White syndrome &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this abnormally fast heartbeat.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00577" LinkType="Internal" ObjectID="A4969FF4-0BA0-85FA-2A7436104DFFF946" Title="Holter monitor" Url="http://www.mayoclinic.com/health/holter-monitor/MY00577" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00706" LinkType="Internal" ObjectID="3A7B8711-9791-52F2-E2B504985C2BCD1D" Title="Cardiac ablation" Url="http://www.mayoclinic.com/health/cardiac-ablation/MY00706" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00705" LinkType="Internal" ObjectID="3A4EC13D-AF61-2E66-739550564BA315F4" Title="Cardioversion" Url="http://www.mayoclinic.com/health/cardioversion/MY00705" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00806" LinkType="Internal" ObjectID="CA70DA97-E7FF-0DBD-13B4BC169AB87B67" Title="Vasovagal syncope" Url="http://www.mayoclinic.com/health/vasovagal-syncope/DS00806" />
+		<LinkItem ContentType="Disease" DocID="DS00590" LinkType="Internal" ObjectID="771E6FEC-FBF4-4B5E-90D2E1AA9BA37D13" Title="Low blood pressure (hypotension)" Url="http://www.mayoclinic.com/health/low-blood-pressure/DS00590" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS01158" LinkType="Internal" ObjectID="0F4A255E-9C7E-F680-E610EF8AADF137EC" Title="Ventricular fibrillation" Url="http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,335 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01155
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/molar-pregnancy/DS01155
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-11
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4445" Title="Molar pregnancy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E21DC5D6-B5CC-F0F6-3C309D4718AC34F1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				molar pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				partial molar prenancy
+			</MetaKeyword>
+			<MetaKeyword>
+				molar pregnancy symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				hydatidiform mole
+			</MetaKeyword>
+			<MetaKeyword>
+				gestational trophoblastic disease
+			</MetaKeyword>
+			<MetaKeyword>
+				GTD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A molar pregnancy &amp;mdash; also known as hydatidiform mole &amp;mdash; is a noncancerous (benign) tumor that develops in the uterus. A molar pregnancy occurs when there is an extra set of paternal chromosomes in a fertilized egg. This error at the time of conception transforms what would normally become the placenta into a growing mass of cysts.
+&lt;/p&gt;
+&lt;p&gt;
+In a complete molar pregnancy, there&apos;s no embryo or normal placental tissue. In a partial molar pregnancy, there&apos;s an abnormal embryo and possibly some normal placental tissue. The embryo begins to develop but is malformed and can&apos;t survive.
+&lt;/p&gt;
+&lt;p&gt;
+A molar pregnancy can have serious complications &amp;mdash; including a rare form of cancer &amp;mdash; and requires early treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A molar pregnancy may seem like a normal pregnancy at first &amp;mdash; but most molar pregnancies cause signs and symptoms unlike those of pregnancy, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dark brown to bright red vaginal bleeding during the first trimester&lt;/li&gt;
+	&lt;li&gt;Severe nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Vaginal passage of grape-like cysts&lt;/li&gt;
+	&lt;li&gt;Rarely, pelvic pressure or pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you experience any signs or symptoms of a molar pregnancy, consult your doctor or pregnancy care provider. He or she may detect other signs of a molar pregnancy, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid uterine growth &amp;mdash; the uterus is too large for the stage of pregnancy&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Preeclampsia &amp;mdash; a condition that causes high blood pressure and protein in the urine after 20 weeks of pregnancy&lt;/li&gt;
+	&lt;li&gt;Ovarian cysts&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+	&lt;li&gt;Overactive thyroid (hyperthyroidism)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a molar pregnancy 
+" Caption="During a molar pregnancy, the placenta develops into an abnormal mass of cysts. The embryo either doesn&apos;t form or is malformed and can&apos;t survive. 
+" Height="60" Title="Image of a molar pregnancy" URI="/images/image_popup/thumbs/mcdc7_molar_pregnancythu.jpg" Width="60" />
+				<Image Alt="Illustration showing a molar pregnancy 
+" Caption="During a molar pregnancy, the placenta develops into an abnormal mass of cysts. The embryo either doesn&apos;t form or is malformed and can&apos;t survive. 
+" Height="377" Title="Image of a molar pregnancy" URI="/images/image_popup/mcdc7_molar_pregnancy.jpg" Width="400" />
+				<HTML>
+					During a molar pregnancy, the placenta develops into an abnormal mass of cysts. The embryo either doesn&apos;t form or is malformed and can&apos;t survive. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A molar pregnancy is caused by an abnormally fertilized egg. Human cells normally contain 23 pairs of chromosomes. One chromosome in each pair comes from the father, the other from the mother. In a complete molar pregnancy, all of the fertilized egg&apos;s chromosomes come from the father. Shortly after fertilization, the chromosomes from the mother&apos;s egg are lost or inactivated and the father&apos;s chromosomes are duplicated. The egg may have had an inactive nucleus or no nucleus.
+&lt;/p&gt;
+&lt;p&gt;
+In a partial or incomplete molar pregnancy, the mother&apos;s chromosomes remain but the father provides two sets of chromosomes. As a result, the embryo has 69 chromosomes, instead of 46. This can happen when the father&apos;s chromosomes are duplicated or if two sperm fertilize a single egg.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Molar pregnancy is uncommon, occurring in about 1 in every 1,000 pregnancies. Various factors are associated with molar pregnancy, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maternal age.&lt;/strong&gt; A molar pregnancy is more likely for a woman older than age 35 or younger than age 20.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous molar pregnancy.&lt;/strong&gt; If you&apos;ve had one molar pregnancy, you&apos;re more likely to have another. A repeat molar pregnancy happens, on average, in 1 to 2 out of every 100 women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some ethnic groups.&lt;/strong&gt; Women of Southeast Asian descent appear to have a higher risk of molar pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After a molar pregnancy has been removed, molar tissue may remain and continue to grow. This is called persistent gestational trophoblastic disease (GTD). It occurs in about 20 percent of women after a molar pregnancy &amp;mdash; usually after a complete mole rather than a partial mole.
+&lt;/p&gt;
+&lt;p&gt;
+One sign of persistent GTD is an elevated level of human chorionic gonadotropin (HCG) &amp;mdash; a pregnancy hormone &amp;mdash; in your blood even after the molar pregnancy has been removed. In some cases, an invasive mole penetrates deep into the middle layer of the uterine wall, which causes vaginal bleeding. Persistent GTD can nearly always be successfully treated, most often with chemotherapy. Another treatment option is removal of the uterus (hysterectomy).
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, a cancerous form of GTD known as choriocarcinoma develops and spreads to other organs. Choriocarcinoma is usually successfully treated with multiple cancer drugs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by talking with your family doctor or pregnancy care provider. Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including when they first started and how they&apos;ve changed over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a note of the date of your last menstrual period,&lt;/strong&gt; if you remember it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any other medical conditions for which you&apos;re being treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a friend or family member to accompany you,&lt;/strong&gt; if possible, to your appointment. Having someone else there may help you remember something that you forgot or missed and may provide much-needed emotional support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions in advance will help you make the most of your time with your doctor. For molar pregnancy, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kind of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What needs to be done now?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;What emergency signs and symptoms should I watch for at home?&lt;/li&gt;
+	&lt;li&gt;What are my chances for a successful future pregnancy?&lt;/li&gt;
+	&lt;li&gt;How long should I wait before trying to become pregnant again?&lt;/li&gt;
+	&lt;li&gt;Does my condition increase my risk of developing cancer in the future?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or printed material that I can take along with me? What websites do you recommend for more information?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely perform a physical exam and run some tests, including a blood test and ultrasound exam. He or she also may ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When was your last menstrual period?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Are you having any pain?&lt;/li&gt;
+	&lt;li&gt;Compared with your heaviest days of menstrual flow, is your bleeding more, less or about the same? Have you passed any grape-like cysts from your vagina?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any lightheadedness or dizziness?&lt;/li&gt;
+	&lt;li&gt;Have you had a past molar pregnancy?&lt;/li&gt;
+	&lt;li&gt;What chronic conditions, if any, do you have?&lt;/li&gt;
+	&lt;li&gt;Do you wish to become pregnant in the future?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects a molar pregnancy, he or she may order a blood test to measure the level of human chorionic gonadotropin (HCG) &amp;mdash; a pregnancy hormone &amp;mdash; in your blood. He or she will also likely do an ultrasound.
+&lt;/p&gt;
+&lt;p&gt;
+With a standard ultrasound, high-frequency sound waves are directed at the tissues in the abdominal and pelvic area. During early pregnancy, however, the uterus and fallopian tubes are closer to the vagina than to the abdominal surface, so the ultrasound may be done through a wand-like device placed in your vagina.
+&lt;/p&gt;
+&lt;p&gt;
+An ultrasound of a complete molar pregnancy &amp;mdash; which can be detected as early as eight or nine weeks of pregnancy &amp;mdash; may show:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;No embryo or fetus&lt;/li&gt;
+	&lt;li&gt;No amniotic fluid&lt;/li&gt;
+	&lt;li&gt;A thick cystic placenta nearly filling the uterus&lt;/li&gt;
+	&lt;li&gt;Ovarian cysts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An ultrasound of a partial molar pregnancy may show:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A growth-restricted fetus&lt;/li&gt;
+	&lt;li&gt;Low amniotic fluid&lt;/li&gt;
+	&lt;li&gt;A thick cystic placenta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your health care provider detects a molar pregnancy, he or she will check for other medical problems, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Preeclampsia&lt;/li&gt;
+	&lt;li&gt;Hyperthyroidism&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing transvaginal ultrasound 
+" Caption="During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound waves that generate images of your pelvic organs. 
+" Height="60" Title="Transvaginal ultrasound" URI="/images/image_popup/thumbs/mcdc7_vaginal_ultrasoundthu.jpg" Width="60" />
+				<Image Alt="Illustration showing transvaginal ultrasound 
+" Caption="During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound waves that generate images of your pelvic organs. 
+" Height="324" Title="Transvaginal ultrasound" URI="/images/image_popup/mcdc7_vaginal_ultrasound.jpg" Width="400" />
+				<HTML>
+					During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A molar pregnancy can&apos;t continue as a normal viable pregnancy. To prevent complications, the molar tissue must be removed.
+&lt;/p&gt;
+&lt;p&gt;
+To treat a molar pregnancy, your health care provider will remove the molar tissue from your uterus with a procedure called dilation and curettage (D&amp;C). A D&amp;C is usually done as an outpatient procedure in a hospital.
+&lt;/p&gt;
+&lt;p&gt;
+During the procedure, you&apos;ll receive local or general anesthesia and lie on your back with your legs in stirrups. Your health care provider will insert a speculum into your vagina, as in a pelvic exam, to see your cervix. He or she will then dilate your cervix and remove uterine tissue with a vacuum device. A D&amp;C usually takes about 15 to 30 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+If the molar tissue is extensive and there&apos;s no desire for future pregnancies, the uterus may be removed (hysterectomy).
+&lt;/p&gt;
+&lt;p&gt;
+After the molar tissue is removed, your health care provider will again measure your HCG level. If you continue to have HCG in your blood, you may need additional treatment. Once treatment for the molar pregnancy is complete, your health care provider will continue to monitor your HCG levels for six months to one year to make sure there&apos;s no remaining molar tissue. Because pregnancy makes it difficult to monitor HCG levels, your health care provider may recommend waiting up to one year before trying to become pregnant again.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Losing a pregnancy is devastating. Give yourself time to grieve. Talk about your feelings and allow yourself to experience them fully. Turn to your partner, family and friends for support. If you&apos;re having trouble handling your emotions, consult your health care provider or a counselor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve had a molar pregnancy, talk to your health care provider before conceiving again. He or she may recommend waiting for six months to one year before trying to become pregnant. During any subsequent pregnancies, your health care provider may do early ultrasounds to monitor your condition and offer reassurance of normal development.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Molar pregnancy
+	</Title>
+	<Abstract>
+		Molar pregnancy &amp;mdash; Comprehensive overview covers symptoms, treatment of this tumor in the uterus.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00345" LinkType="Internal" ObjectID="06AC3953-E7FF-0DBD-195336DCB709FF7B" Title="Dilation and curettage (D&amp;amp;C)" Url="http://www.mayoclinic.com/health/dilation-and-curettage/MY00345" />
+		<LinkItem ContentType="Article" DocID="PR00098" LinkType="Internal" ObjectID="DE7A40B9-5056-4DB3-A41F7BA528851BBF" Title="Pregnancy loss: How to cope" Url="http://www.mayoclinic.com/health/pregnancy-loss/PR00098" />
+		<LinkItem ContentType="Disease" DocID="DS00321" LinkType="Internal" ObjectID="EC65CB20-B944-4CF2-8237D5D3234C0883" Title="Anemia" Url="http://www.mayoclinic.com/health/anemia/DS00321" />
+		<LinkItem ContentType="Disease" DocID="DS00583" LinkType="Internal" ObjectID="A19B8D07-BA14-48BD-9427AA9EC15F7BE8" Title="Preeclampsia" Url="http://www.mayoclinic.com/health/preeclampsia/DS00583" />
+	</RelatedLinksBox>
+</Disease>

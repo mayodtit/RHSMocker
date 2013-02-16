@@ -1,0 +1,206 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00540
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00540
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-12
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			D061E1F0-C411-4C1D-832BAAA582BA146F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Portobello and blue cheese salad
+	</Title>
+	<Abstract>
+		Portobello and blue cheese salad &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Blue cheese and balsamic vinegar both have distinct, strong flavors, so only small amounts of each are needed for this mushroom and blue cheese salad. This salad is a very good source of selenium, potassium, folate and vitamins C and K. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a small pan, heat the olive oil over medium heat. Add the mushrooms and onions. Saute until the vegetables are tender, 4 to 6 minutes. Add the garlic and saute another minute &amp;mdash; taking care not to burn the garlic. Add the wine and cook until it evaporates completely, about 1 minute. 
+&lt;/p&gt;
+&lt;p&gt;
+In a pot fitted with a steamer basket, bring 1 inch of water to a boil. Add the asparagus. Cover and steam until tender-crisp, 2 to 3 minutes. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small bowl, add the blue cheese, balsamic vinegar, water and black pepper. Whisk to mix thoroughly. (Just before drizzling the dressing over the salad, whisk again.) 
+&lt;/p&gt;
+&lt;p&gt;
+Add 3 cups of lettuce to each plate. Top each with 1/2 of the mushroom mixture, 1/2 of the asparagus, 1 roasted red pepper, 1/2 of the blue cheese dressing mixture and 1/4 cup croutons. Serve immediately.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 teaspoon olive oil&lt;/li&gt;
+	&lt;li&gt;2 large portobello mushrooms, stemmed, wiped clean and cut into bite-size pieces&lt;/li&gt;
+	&lt;li&gt;4 slices red onion&lt;/li&gt;
+	&lt;li&gt;1 teaspoon minced garlic&lt;/li&gt;
+	&lt;li&gt;1 tablespoon of merlot wine&lt;/li&gt;
+	&lt;li&gt;6 asparagus stalks, cut into 1-inch sections&lt;/li&gt;
+	&lt;li&gt;2 tablespoons crumbled blue cheese&lt;/li&gt;
+	&lt;li&gt;2 tablespoons balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1 tablespoon water&lt;/li&gt;
+	&lt;li&gt;Freshly ground black pepper, to taste&lt;/li&gt;
+	&lt;li&gt;6 cups Bibb chopped lettuce&lt;/li&gt;
+	&lt;li&gt;2 roasted red peppers (canned), sliced&lt;/li&gt;
+	&lt;li&gt;1/2 cup croutons&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1/2
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				3
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1/2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1/2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				190
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				25 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				6 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				9 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				250 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				6 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+	</Categorization>
+</Recipe>

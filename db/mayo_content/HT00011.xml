@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00011
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00011
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			724535E4-E7FF-0DBD-1982B1BA647404A2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				food safety
+			</MetaKeyword>
+			<MetaKeyword>
+				food-borne illness
+			</MetaKeyword>
+			<MetaKeyword>
+				moldy cheese
+			</MetaKeyword>
+			<MetaKeyword>
+				cheese mold
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Got moldy cheese?
+	</Title>
+	<Body>
+		&lt;p&gt;You might not have to toss out cheese that has mold on it. If you spot mold on harder hunks of cheese, such as cheddar, Swiss, Parmesan or romano, you can salvage the cheese. Just cut away the moldy part and at least 1 inch of surrounding cheese. But discard any soft cheeses that have mold, including feta, ricotta, cottage and cream cheeses, or any cheese that is shredded, crumbled or sliced.&lt;/p&gt;
+	</Body>
+</HealthTip>

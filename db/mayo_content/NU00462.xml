@@ -1,0 +1,181 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00462
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00462
+		</OriginalURL>
+		<UpdateDate>
+			2009-06-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			87104F72-C784-4413-8F2C1EA440DC1CC9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Baked salmon with Southeast Asian marinade
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Salmon works well on the grill. After you&apos;ve wrapped the fish in aluminum foil, grill until firm and opaque throughout, about 10 minutes on each side. Serve on couscous with steamed green beans on the side.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;In a small bowl, add the pineapple juice, garlic, soy sauce and ginger. Stir to mix evenly.&lt;/p&gt;
+
+&lt;p&gt;Arrange the salmon fillets in a small baking dish. Pour the pineapple juice mixture over the top. Put in the refrigerator and marinate for 1 hour. Turn the salmon periodically as needed.&lt;/p&gt;
+
+&lt;p&gt;Preheat the oven to 375 F. Lightly coat 2 squares of aluminum foil with cooking spray. Place the marinated salmon fillets on the aluminum foil. Drizzle each with 1/8 teaspoon sesame oil. Sprinkle with pepper and top each with 1/2 cup diced fruit.&lt;/p&gt;
+
+&lt;p&gt;Wrap the foil around the salmon, folding the edges down to seal. Bake until the fish is opaque throughout when tested with the tip of a knife, about 10 minutes on each side. Transfer the salmon to warmed individual plates and serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1/2 cup pineapple juice&lt;br /&gt;
+2 garlic cloves, minced&lt;br /&gt;
+1 teaspoon low-sodium soy sauce&lt;br /&gt;
+1/4 teaspoon ground ginger&lt;br /&gt;
+2 salmon fillets, each 4 ounces&lt;br /&gt;
+1/4 teaspoon sesame oil&lt;br /&gt;
+Freshly ground black pepper, to taste&lt;br /&gt;
+1 cup diced fresh fruit, such as pineapple, mango and papaya&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				310
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				24 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				67 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				23 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				3 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 fillet
+			</Servingsize>
+			<Sodium Label="Sodium">
+				174 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				13 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fish and shellfish
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

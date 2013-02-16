@@ -1,0 +1,278 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01193
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bacterial-vaginosis/DS01193
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-15
+		</UpdateDate>
+		<PublicationDate>
+			2010-09-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2410" Title="Vaginitis">
+							<Keyword MCVID="4720" Title="Bacterial vaginosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			950F8BC6-AC69-9B2C-C09ED47E7E5114A9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bacterial vaginosis
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bacterial vaginitis
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bacterial vaginosis is a type of vaginal inflammation that results from the overgrowth of one of several types of bacteria normally present in the vagina, upsetting the natural balance of vaginal bacteria.
+&lt;/p&gt;
+&lt;p&gt;
+Women in their reproductive years are most commonly affected by bacterial vaginosis, but any woman can experience the condition. Doctors don&apos;t know exactly why bacterial vaginosis develops, but certain activities, such as unprotected sexual intercourse or frequent douching, put you at higher risk of the condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bacterial vaginosis signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vaginal discharge that&apos;s thin and grayish white&lt;/li&gt;
+	&lt;li&gt;Foul-smelling &quot;fishy&quot; vaginal odor, especially after sexual intercourse&lt;/li&gt;
+	&lt;li&gt;Vaginal itching or irritation&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+	&lt;li&gt;Burning during urination&lt;/li&gt;
+	&lt;li&gt;Light vaginal bleeding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, you may have bacterial vaginosis and be asymptomatic &amp;mdash; showing no signs and experiencing no symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+You probably need to see your doctor if you have new vaginal symptoms and:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve never had a vaginal infection. Seeing your doctor will establish the cause and help you learn to identify the signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had vaginal infections before, but these symptoms seem different.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had multiple sex partners or a recent new partner. You could have a sexually transmitted infection. The signs and symptoms of some sexually transmitted infections are similar to those of bacterial vaginosis.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve tried self-treatment for a yeast infection with an over-the-counter anti-yeast medication and your symptoms persist, you have a fever, or you have a particularly unpleasant vaginal odor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bacterial vaginosis results from an overgrowth of one of several organisms normally present in your vagina. Usually, &quot;good&quot; bacteria (lactobacilli) outnumber &quot;bad&quot; bacteria (anaerobes) in your vagina. But if anaerobic bacteria become too numerous, they upset the natural balance of microorganisms in your vagina and bacterial vaginosis results.
+&lt;/p&gt;
+&lt;p&gt;
+Bacterial vaginosis can spread during sexual intercourse, but it also occurs in people who aren&apos;t sexually active.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for bacterial vaginosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple sex partners or a new sex partner.&lt;/strong&gt; The link between sexual activity and bacterial vaginosis isn&apos;t entirely clear, but bacterial vaginosis occurs more often in women who have multiple sex partners or a new sex partner. Bacterial vaginosis also seems to occur more frequently in women who have sex with women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Douching.&lt;/strong&gt; The practice of rinsing out your vagina with water or a cleansing agent (douching) upsets the natural balance of your vaginal environment. This can lead to an overgrowth of anaerobic bacteria, which in turn can result in bacterial vaginosis. Since the vagina is self-cleaning, douching isn&apos;t necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;IUD use.&lt;/strong&gt; Women who use an intrauterine device (IUD) for birth control have a higher risk of bacterial vaginosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Black race.&lt;/strong&gt; Black, non-Hispanic women are more likely to have bacterial vaginosis than are white women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A natural lack of lactobacilli bacteria.&lt;/strong&gt; If your natural vaginal environment doesn&apos;t produce enough of the &quot;good&quot; lactobacilli bacteria, you&apos;re more likely to develop bacterial vaginosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, bacterial vaginosis doesn&apos;t cause complications. But under certain circumstances, having bacterial vaginosis may lead to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preterm birth.&lt;/strong&gt; In pregnant women, bacterial vaginosis is linked to premature deliveries and low birth weight babies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexually transmitted infections.&lt;/strong&gt; Having bacterial vaginosis makes women more susceptible to sexually transmitted infections, such as HIV, herpes simplex virus, chlamydia or gonorrhea. If you have HIV, bacterial vaginosis increases the odds that you&apos;ll pass the virus on to your partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection risk after gynecologic surgery.&lt;/strong&gt; Having bacterial vaginosis may be associated with a greater chance of developing a post-surgical infection after procedures such as hysterectomy or dilation and curettage (D and C).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been treated for bacterial vaginosis in the past, your doctor may not need to see you and may prescribe a treatment over the phone. Otherwise, you&apos;ll likely see your family doctor or gynecologist to treat your condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+So that your doctor can observe and evaluate any vaginal discharge you have, avoid using tampons and don&apos;t douche before your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+Also make a list of medications or supplements you&apos;re taking and any allergies you have. Write down questions to ask your doctor. Some basic questions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can I do anything to prevent bacterial vaginosis?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch out for?&lt;/li&gt;
+	&lt;li&gt;Do I need to take medicine?&lt;/li&gt;
+	&lt;li&gt;Does my partner also need to be tested or treated?&lt;/li&gt;
+	&lt;li&gt;Are there any special instructions for taking the medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any over-the-counter products that will treat my condition?&lt;/li&gt;
+	&lt;li&gt;What can I do if my symptoms return after treatment?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions your doctor may ask&lt;/strong&gt;&lt;br /&gt;
+Be prepared to answer questions your doctor may have, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;How long have you had your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you notice a strong vaginal odor?&lt;/li&gt;
+	&lt;li&gt;Have you ever been treated for a vaginal infection?&lt;/li&gt;
+	&lt;li&gt;Have you tried any over-the-counter products to treat your condition?&lt;/li&gt;
+	&lt;li&gt;Have you recently taken antibiotics for any reason?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;Do you use scented soap or bubble bath?&lt;/li&gt;
+	&lt;li&gt;Do you douche or use feminine hygiene spray?&lt;/li&gt;
+	&lt;li&gt;What medications or vitamin supplements do you regularly take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose bacterial vaginosis, your doctor may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask questions about your medical history.&lt;/strong&gt; Specifically, your doctor may ask about any previous vaginal infections or sexually transmitted infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perform a pelvic exam.&lt;/strong&gt; During a pelvic examination, you lie on an exam table, undressed from the waist down, with your feet in stirrups to spread your legs apart. Your doctor visually examines your external genitalia for signs of vaginal infection. Then, using a gloved hand, your doctor inserts two fingers into your vagina while pressing on your abdomen with the other hand to check your pelvic organs for unusual characteristics that may indicate disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a sample of vaginal secretions.&lt;/strong&gt; Your doctor may collect a sample of vaginal secretions to check for an overgrowth of anaerobic bacteria in your vaginal flora. He or she may examine the vaginal secretions under a microscope, looking for &quot;clue cells,&quot; vaginal cells covered with bacteria that are a diagnostic sign of bacterial vaginosis. Your doctor may also check the acidity of your vaginal environment by placing a pH test strip in your vagina. A vaginal pH of 4.5 or higher is another sign of bacterial vaginosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To treat bacterial vaginosis, your doctor may prescribe one of the following medications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Metronidazole (Flagyl, Metrogel-Vaginal, others).&lt;/strong&gt; This medicine may be taken orally &amp;mdash; as a pill that you swallow &amp;mdash; twice a day for seven days. Metronidazole is also available for use topically, as a gel that you insert into your vagina for five to seven days. To avoid the potential for stomach upset, abdominal pain or nausea while using this medication, stay away from alcohol for the duration of the treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tinidazole (Tindamax).&lt;/strong&gt; This medication is taken orally once a day for two to five days, depending on the prescription&apos;s strength. Tinidazole has the same potential for stomach upset and nausea as does oral metronidazole.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clindamycin (Cleocin, Clindesse, others).&lt;/strong&gt; This medicine is available as a cream that you insert into your vagina for seven days. One effect of using clindamycin cream is that it may weaken latex condoms, and that effect persists up to five days after you stop using the cream.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Take your medicine or use the cream or gel for as long as your doctor prescribes it &amp;mdash; even if your symptoms go away. Stopping treatment early may increase the likelihood of recurrence.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Recurrence&lt;/strong&gt;&lt;br /&gt;
+Despite the effective treatments for bacterial vaginosis, recurrence of symptoms within three to six months is common. Researchers are exploring the treatment regimens for recurrent bacterial vaginosis, but there&apos;s no evidence to support one therapy over another. If your symptoms recur soon after treatment, make an appointment with your doctor to discuss treatment options, one of which is extended-use metronidazole therapy. A self-help approach is lactobacillus colonization therapy &amp;mdash; which attempts to boost the number of &quot;good&quot; bacteria in your vagina and re-establish a balanced vaginal environment &amp;mdash; possibly accomplished by eating certain types of yogurt or other foods containing lactobacilli. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent bacterial vaginosis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Minimize vaginal irritation.&lt;/strong&gt; Stay out of hot tubs and whirlpool spas. Rinse soap from your outer genital area after a shower, and dry the area well to prevent irritation. Use mild, nondeodorant soaps and unscented tampons or pads.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t douche.&lt;/strong&gt; Your vagina doesn&apos;t require cleansing other than normal bathing. Repetitive douching disrupts the normal organisms that reside in the vagina and can actually increase your risk of vaginal infection. Douching won&apos;t clear up a vaginal infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid a sexually transmitted infection.&lt;/strong&gt; Use a male latex condom, limit your number of sex partners, or abstain from intercourse to minimize your risk of a sexually transmitted infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bacterial vaginosis
+	</Title>
+	<Abstract>
+		Bacterial vaginosis &amp;mdash; Comprehensive overview covers symptoms, treatments, prevention of this common vaginal infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01965" LinkType="Internal" ObjectID="AD43D04E-E18E-81A2-9D97364A89639E83" Title="Sex during vaginal infection: Is it harmful?" Url="http://www.mayoclinic.com/health/vaginal-infection/AN01965" />
+		<LinkItem ContentType="Answer" DocID="AN02076" LinkType="Internal" ObjectID="24B6696E-E700-EF65-D742567522069836" Title="Yeast infection during pregnancy: Are over-the-counter treatments OK?" Url="http://www.mayoclinic.com/health/yeast-infection-during-pregnancy/AN02076" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Disease" DocID="DS00255" LinkType="Internal" ObjectID="B5642F87-B29F-4065-A60FC82B39C4CD8B" Title="Vaginitis" Url="http://www.mayoclinic.com/health/vaginitis/DS00255" />
+		<LinkItem ContentType="Article" DocID="MY00739" LinkType="Internal" ObjectID="B21A5496-E01C-E832-A465884F1A017A21" Title="Health issues for lesbians: Prevention first" Url="http://www.mayoclinic.com/health/health-issues-for-lesbians/MY00739" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+	</RelatedLinksBox>
+</Disease>

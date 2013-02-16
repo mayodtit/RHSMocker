@@ -1,0 +1,365 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00503
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/glomerulonephritis/DS00503
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1510" Title="Injury and inflammation">
+						<Keyword MCVID="1511" Title="Glomerulonephritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CAB55536-7CCC-44A4-832C420405FCCA39
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				glomerulonephritis
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				end stage kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				end stage renal disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hematuria
+			</MetaKeyword>
+			<MetaKeyword>
+				blood in the urine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Glomerulonephritis (gloe-mer-u-lo-nuh-FRY-tis) is inflammation of the tiny filters in your kidneys (glomeruli). Glomeruli remove excess fluid, electrolytes and waste from your bloodstream and pass them into your urine. Also called glomerular disease, glomerulonephritis can be acute &amp;mdash; a sudden attack of inflammation &amp;mdash; or chronic &amp;mdash; coming on gradually. 
+&lt;/p&gt;
+&lt;p&gt;
+If glomerulonephritis occurs on its own, it&apos;s known as primary glomerulonephritis. If another disease, such as lupus or diabetes, is the cause, it&apos;s called secondary glomerulonephritis. If severe or prolonged, the inflammation associated with glomerulonephritis can damage your kidneys. Treatment depends on the type of glomerulonephritis you have.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of glomerulonephritis may depend on whether you have the acute or chronic form, and the cause. Your first indication that something is wrong may come from symptoms or from the results of a routine urinalysis. Signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pink or cola-colored urine from red blood cells in your urine (hematuria)&lt;/li&gt;
+	&lt;li&gt;Foamy urine due to excess protein (proteinuria)&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Fluid retention (edema) with swelling evident in your face, hands, feet and abdomen&lt;/li&gt;
+	&lt;li&gt;Fatigue from anemia or kidney failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment promptly if you&apos;re experiencing any of the signs or symptoms of glomerulonephritis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A variety of conditions can cause glomerulonephritis, ranging from infections that affect your kidneys to diseases that affect your whole body, including your kidneys. Sometimes the cause is unknown. Here are some examples of conditions that can lead to inflammation of the kidneys&apos; glomeruli: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infections&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Post-streptococcal glomerulonephritis.&lt;/strong&gt; Glomerulonephritis may develop a week or two after recovery from a strep throat infection or, rarely, a skin infection (impetigo). An overproduction of antibodies stimulated by the infection may eventually settle in the glomeruli, causing inflammation. Symptoms usually include swelling, reduced urine output and blood in the urine. Children are more likely to develop post-streptococcal glomerulonephritis than are adults, and they&apos;re also more likely to recover quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial endocarditis.&lt;/strong&gt; Bacteria can occasionally spread through your bloodstream and lodge in your heart, causing an infection of one or more of your heart valves. Those at greatest risk are people with a heart defect, such as a damaged or artificial heart valve. Bacterial endocarditis is associated with glomerular disease, but the exact connection between the two is unclear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viral infections.&lt;/strong&gt; Among the viral infections that may trigger glomerulonephritis are the human immunodeficiency virus (HIV), which causes AIDS, and the hepatitis B and hepatitis C viruses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Immune diseases&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lupus.&lt;/strong&gt; A chronic inflammatory disease, lupus can affect many parts of your body, including your skin, joints, kidneys, blood cells, heart and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Goodpasture&apos;s syndrome.&lt;/strong&gt; A rare immunological lung disorder that may mimic pneumonia, Goodpasture&apos;s syndrome causes bleeding (hemorrhage) into your lungs as well as glomerulonephritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;IgA nephropathy.&lt;/strong&gt; Characterized by recurrent episodes of blood in the urine, this primary glomerular disease results from deposits of immunoglobulin A (IgA) in the glomeruli. IgA nephropathy can progress for years with no noticeable symptoms. The disorder seems to be more common in men than in women.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vasculitis&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Polyarteritis.&lt;/strong&gt; This form of vasculitis affects small and medium blood vessels in many parts of your body, such as your heart, kidneys and intestines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wegener&apos;s granulomatosis.&lt;/strong&gt; This form of vasculitis affects small and medium blood vessels in your lungs, upper airways and kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Conditions that are likely to cause scarring of the glomeruli&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Damage to your kidneys and their ability to perform their normal functions can occur as a result of high blood pressure. Glomerulonephritis can also cause high blood pressure because it reduces kidney function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetic kidney disease.&lt;/strong&gt; Diabetic kidney disease (diabetic nephropathy) can affect anyone with diabetes. Diabetic nephropathy usually takes years to develop. Good control of blood sugar levels and blood pressure may prevent or slow kidney damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Focal segmental glomerulosclerosis.&lt;/strong&gt; Characterized by scattered scarring of some of the glomeruli, this condition may result from another disease or occur for no known reason. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Chronic glomerulonephritis sometimes develops after a bout of acute glomerulonephritis. In some people there&apos;s no history of kidney disease, so the first indication of chronic glomerulonephritis is chronic kidney failure. Infrequently, chronic glomerulonephritis runs in families. One inherited form, Alport syndrome, may also involve hearing or vision impairment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Glomerulonephritis can damage your kidneys so that they lose their filtering ability. This can lead to the accumulation of dangerous levels of fluid, electrolytes and waste in your body (called kidney failure) and deprive your bloodstream of necessary protein.
+&lt;/p&gt;
+&lt;p&gt;
+Complications of glomerulonephritis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute kidney failure.&lt;/strong&gt; Loss of function in the filtering part of the nephron may cause waste products to accumulate rapidly. This condition may mean you&apos;ll need emergency dialysis, an artificial means of removing extra fluids and waste from your blood, typically by an artificial kidney machine (dialyzer).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; In this extremely serious complication, the kidneys gradually lose function. Kidney function at less than 10 percent of normal capacity indicates end-stage kidney disease, which usually requires dialysis or a kidney transplant to sustain life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Damage to your kidneys and the resulting buildup of wastes in the bloodstream can raise your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nephrotic syndrome.&lt;/strong&gt; This is a group of signs and symptoms that may accompany glomerulonephritis and other conditions that affect the filtering ability of the glomeruli. Nephrotic syndrome is characterized by high protein levels in the urine, resulting in low protein levels in the blood. It&apos;s also associated with high blood cholesterol and swelling (edema) of the eyelids, feet and abdomen.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re suspicious about your signs and symptoms, your first step is likely to see your family doctor or a primary care professional. However, if the first indication that you might have glomerulonephritis is an abnormal urinalysis, your doctor may refer you directly to a kidney specialist (nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+To make the most of your appointment, it helps to be prepared.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the symptoms you&apos;re having,&lt;/strong&gt; even if they seem unrelated to the reason for your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a companion along.&lt;/strong&gt; Someone who accompanies you can help you remember the information you get from your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; you&apos;d like answered.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important in case time runs out. For glomerulonephritis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How badly do my kidneys seem to be affected?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Will I need dialysis?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems. How can I manage them together with this condition?&lt;/li&gt;
+	&lt;li&gt;What restrictions do I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have a history of glomerulonephritis or other kidney disease?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of high blood pressure?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Specific signs and symptoms may suggest glomerulonephritis, but the condition often comes to light when a routine urinalysis is abnormal. Tests to assess your kidney function and make a diagnosis of glomerulonephritis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; A urinalysis may show red blood cells and red cell casts in your urine, an indicator of possible damage to the glomeruli. Urinalysis results may also show white blood cells, a common indicator of infection or inflammation, and increased protein, which may indicate nephron damage. Other indicators, such as increased blood levels of creatinine or urea, are red flags.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These can provide information about kidney damage and impairment of the glomeruli by measuring levels of waste products, such as creatinine and blood urea nitrogen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; If your doctor detects evidence of damage, he or she may recommend diagnostic studies that allow visualization of your kidneys, such as a kidney X-ray, an ultrasound examination or a computerized tomography (CT) scan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney biopsy.&lt;/strong&gt; This procedure involves using a special needle to extract small pieces of kidney tissue for microscopic examination to help determine the cause of the inflammation. A kidney biopsy is almost always necessary to confirm a diagnosis of glomerulonephritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of glomerulonephritis and your outcome depend on:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Whether you have an acute or chronic form of the disease&lt;/li&gt;
+	&lt;li&gt;The underlying cause&lt;/li&gt;
+	&lt;li&gt;The type and severity of your signs and symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some cases of acute glomerulonephritis, especially those that follow a strep infection, tend to improve on their own and often require no specific treatment.
+&lt;/p&gt;
+&lt;p&gt;
+In general, the goal of treatment is to protect your kidneys from further damage.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for high blood pressure&lt;/strong&gt;&lt;br /&gt;
+Keeping your blood pressure under control is key to protecting your kidneys. To control your high blood pressure and slow the decline in kidney function, your doctor may prescribe one of several medications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diuretics&lt;/li&gt;
+	&lt;li&gt;Angiotensin-converting enzyme (ACE) inhibitors&lt;/li&gt;
+	&lt;li&gt;Angiotensin II receptor agonists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for an underlying cause&lt;/strong&gt;&lt;br /&gt;
+If there&apos;s an underlying cause for your kidney inflammation, your doctor may prescribe other drugs to treat the underlying problem, in addition to treatment to control any hypertension:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Strep or other bacterial infection.&lt;/strong&gt; Your doctor likely will prescribe an appropriate antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lupus or vasculitis.&lt;/strong&gt; Doctors often prescribe corticosteroids and immune-suppressing drugs to control inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;IgA nephropathy.&lt;/strong&gt; Both fish oil supplements and certain immune-suppressing drugs have been successful in some people with IgA nephropathy. Further research is being done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Goodpasture&apos;s syndrome.&lt;/strong&gt; Plasmapheresis is sometimes used to treat people with Goodpasture&apos;s syndrome. Plasmapheresis is a mechanical process that removes antibodies from your blood by taking some of your plasma out of your blood and replacing it with other fluid or donated plasma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies for associated kidney failure&lt;/strong&gt;&lt;br /&gt;
+For acute glomerulonephritis and acute kidney failure, dialysis can help remove excess fluid and control high blood pressure. The only long-term therapies for end-stage kidney failure are kidney dialysis and kidney transplantation. When a transplant isn&apos;t possible, often because of poor general health, dialysis becomes the only option.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend lifestyle changes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Restricting salt intake to prevent or minimize fluid retention, swelling and hypertension&lt;/li&gt;
+	&lt;li&gt;Cutting back on protein and potassium consumption to slow the buildup of wastes in your blood&lt;/li&gt;
+	&lt;li&gt;Maintaining a healthy weight&lt;/li&gt;
+	&lt;li&gt;Controlling your blood sugar level if you have diabetes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic illness can tax your emotional resources. If you have chronic glomerulonephritis or chronic kidney failure, you might benefit from joining a support group. Such a group can provide both sympathetic listening and useful information. To find out about support groups in your area that deal with kidney disease, ask your doctor or contact the National Kidney Foundation to find the chapter nearest you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to prevent most forms of glomerulonephritis. However, here are some steps that may be beneficial:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seek prompt treatment of a strep infection causing a sore throat or impetigo.&lt;/li&gt;
+	&lt;li&gt;To prevent infections that can lead to some forms of glomerulonephritis, such as HIV and hepatitis, follow safe-sex guidelines and avoid intravenous drug use.&lt;/li&gt;
+	&lt;li&gt;Control your blood pressure, which lessens the likelihood of damage to your kidneys from hypertension.&lt;/li&gt;
+	&lt;li&gt;Control your blood sugar to help prevent diabetic nephropathy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Glomerulonephritis
+	</Title>
+	<Abstract>
+		Glomerulonephritis &amp;mdash; Comprehensive overview covers symptoms, causes and treatments for acute and chronic glomerulonephritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="Answer" DocID="AN01988" LinkType="Internal" ObjectID="62753420-E4EE-8CC0-C2436287C82698EA" Title="Kidney donation: Are there long-term risks?" Url="http://www.mayoclinic.com/health/kidney-donation/AN01988" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01223" LinkType="Internal" ObjectID="24BD87C1-066C-AE2F-22170FA021843FD4" Title="Kidney biopsy" Url="http://www.mayoclinic.com/health/kidney-biopsy/MY01223" />
+	</RelatedLinksBox>
+</Disease>

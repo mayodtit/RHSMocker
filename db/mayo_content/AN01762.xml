@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01762
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/adult-acne/AN01762
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-07
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2833" Title="Acne" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ABD236EF-E7FF-0DBD-1382AC3A91DC0A9C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acne
+			</MetaKeyword>
+			<MetaKeyword>
+				adult acne
+			</MetaKeyword>
+			<MetaKeyword>
+				acne treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Hormones likely play a role in the development of adult acne, but hormones generally aren&apos;t the root cause of acne.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s true that some people with hormonal imbalances due to diseases such as polycystic ovary syndrome experience more problems with acne. However, the vast majority of those with adult acne have no measurable hormonal imbalance.
+&lt;/p&gt;
+&lt;p&gt;
+A number of so-called natural acne treatments promise to &quot;equalize&quot; hormonal imbalances to reduce adult acne breakouts. But &quot;natural hormones&quot; are often derived from plants. Their chemical structure is different from hormones produced in the body, so their effectiveness may be limited. And because hormonal imbalance isn&apos;t thought to play a major role in acne anyway, the premise behind such products is shaky at best. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, while the Food and Drug Administration has increased the regulations regarding quality and purity of dietary supplements, they&apos;re still subject to far less oversight when it comes to efficacy and safety. 
+&lt;/p&gt;
+&lt;p&gt;
+Adult acne can be a distressing and frustrating problem. Successful treatment of severe adult acne may take months or even years. But the good news is that effective treatments are available. If you&apos;re concerned about adult acne, consult a dermatologist to learn more about safe, proven treatments. Also, check with your doctor before taking any dietary supplements, especially if you have any underlying health conditions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Adult acne: Can natural hormone treatments help?
+	</Title>
+	<Abstract>
+		Hormones likely play a role in adult acne. Can natural treatments help?
+	</Abstract>
+	<Question>
+		Is it true that adult acne is the result of a hormonal imbalance in the body? I&apos;m thinking about trying a natural hormone acne treatment.
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00818" LinkType="Internal" ObjectID="C17C47BA-E7FF-0DBD-1B9FF3B89B16C294" Title="Hidradenitis suppurativa" Url="http://www.mayoclinic.com/health/hidradenitis-suppurativa/DS00818" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02019" LinkType="Internal" ObjectID="A17FD5F4-0368-EB6D-C682D15494E9D436" Title="Chemical peel" Url="http://www.mayoclinic.com/health/chemical-peel/MY02019" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02017" LinkType="Internal" ObjectID="A17AC65B-B476-506E-F9A111DA92E98CA4" Title="Dermabrasion" Url="http://www.mayoclinic.com/health/dermabrasion/MY02017" />
+		<LinkItem ContentType="Answer" DocID="AN02106" LinkType="Internal" ObjectID="4CD7951E-E4A3-AB95-961F4C48E0073E2A" Title="Pregnancy acne: What&apos;s the best treatment?" Url="http://www.mayoclinic.com/health/pregnancy-acne/AN02106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00560" LinkType="Internal" ObjectID="4C6589A4-D708-3450-0D8FE75D27CACA0A" Title="Laser resurfacing" Url="http://www.mayoclinic.com/health/laser-resurfacing/MY00560" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Answer" DocID="AN01716" LinkType="Internal" ObjectID="FA6C603F-E7FF-0DBD-1B9FB80FA60E4697" Title="Natural acne treatment: What&apos;s most effective?" Url="http://www.mayoclinic.com/health/natural-acne-treatment/AN01716" />
+		<LinkItem ContentType="Answer" DocID="AN02016" LinkType="Internal" ObjectID="324520C7-B7C9-CD4F-2288B0A0B05269F3" Title="Birth control pills for acne?" Url="http://www.mayoclinic.com/health/birth-control-pills-for-acne/AN02016" />
+		<LinkItem ContentType="Answer" DocID="AN01835" LinkType="Internal" ObjectID="0F62BDED-E7FF-0DBD-158CCC229E57482A" Title="Acne scars: What&apos;s the best treatment?" Url="http://www.mayoclinic.com/health/acne-scars/AN01835" />
+		<LinkItem ContentType="Article" DocID="SN00038" LinkType="Internal" ObjectID="6F661AD5-2A5D-9994-E5896F460E694B4B" Title="Acne treatments: Medical procedures may help clear skin" Url="http://www.mayoclinic.com/health/acne-treatments/SN00038" />
+		<LinkItem ContentType="Article" DocID="SN00039" LinkType="Internal" ObjectID="6BB65C35-2A5D-9994-E2DB4E058F7EDD9E" Title="Over-the-counter acne products: What works and why" Url="http://www.mayoclinic.com/health/acne-products/SN00039" />
+		<LinkItem ContentType="Disease" DocID="DS00169" LinkType="Internal" ObjectID="62FDAD7E-9D53-461A-9A756767E06D35A2" Title="Acne" Url="http://www.mayoclinic.com/health/acne/DS00169" />
+	</RelatedLinksBox>
+</Answer>

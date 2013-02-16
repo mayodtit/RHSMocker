@@ -1,0 +1,447 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00097
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hepatitis-c/DS00097
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1858" Title="Hepatitis">
+							<Keyword MCVID="2427" Title="Hepatitis C" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7235BE2E-BEC1-40BE-971C851E75A0FDC5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hepatitis C
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis C symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitus
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitus C
+			</MetaKeyword>
+			<MetaKeyword>
+				hep C
+			</MetaKeyword>
+			<MetaKeyword>
+				hepititis C
+			</MetaKeyword>
+			<MetaKeyword>
+				HCV
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hepatitis C is an infection caused by a virus that attacks the liver and leads to inflammation. Most people infected with the hepatitis C virus (HCV) have no symptoms. In fact, most people don&apos;t know they have the hepatitis C infection until liver damage shows up, decades later, during routine medical tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Hepatitis C is one of several hepatitis viruses and is generally considered to be among the most serious of these viruses. Hepatitis C is passed through contact with contaminated blood &amp;mdash; most commonly through needles shared during illegal drug use. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hepatitis C infection usually produces no signs or symptoms during its earliest stages. When signs and symptoms do occur, they&apos;re generally mild and flu-like and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea or poor appetite&lt;/li&gt;
+	&lt;li&gt;Muscle and joint pains&lt;/li&gt;
+	&lt;li&gt;Tenderness in the area of your liver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs and symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hepatitis C infection is caused by the hepatitis C virus (HCV). HCV is spread when you come in contact with contaminated blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of how HCV can be spread include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood transfusions and organ transplants before 1992.&lt;/strong&gt; Improved blood-screening tests became available in 1992. Before that year, it was possible to unknowingly contract hepatitis C through a blood transfusion or organ transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shared needles.&lt;/strong&gt; HCV can also spread through sharing contaminated needles when injecting drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Childbirth.&lt;/strong&gt; A small number of babies born to mothers with hepatitis C acquire the infection during childbirth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual contact.&lt;/strong&gt; In rare cases, HCV may be transmitted sexually.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of hepatitis C infection is increased if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are a health care worker who has been exposed to infected blood&lt;/li&gt;
+	&lt;li&gt;Have ever injected illicit drugs&lt;/li&gt;
+	&lt;li&gt;Have HIV&lt;/li&gt;
+	&lt;li&gt;Received a piercing or tattoo in an unclean environment using unsterile equipment&lt;/li&gt;
+	&lt;li&gt;Received a blood transfusion or organ transplant before 1992&lt;/li&gt;
+	&lt;li&gt;Received clotting factor concentrates before 1987&lt;/li&gt;
+	&lt;li&gt;Received hemodialysis treatments for a long period of time&lt;/li&gt;
+	&lt;li&gt;Were born to a woman with a hepatitis C infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hepatitis C infection that continues over many years can cause significant complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring of the liver tissue (cirrhosis).&lt;/strong&gt; After 20 to 30 years of hepatitis C infection, cirrhosis may occur. Scarring in your liver makes it difficult for your liver to function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver cancer.&lt;/strong&gt; A small number of people with hepatitis C infection may develop liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver failure.&lt;/strong&gt; A liver that is severely damaged by hepatitis C may be unable to function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="60" Title="Liver cancer" URI="/images/image_popup/thumbs/mcdc7_liver_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="320" Title="Liver cancer" URI="/images/image_popup/mcdc7_liver_cancer.jpg" Width="400" />
+				<HTML>
+					Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Who to see&lt;/strong&gt; &lt;br /&gt;
+If you think you may have a risk of hepatitis C, see your family doctor or a general practitioner. Once you&apos;ve been diagnosed with hepatitis C infection, your doctor may recommend you see a specialist. Specialists who see people with hepatitis C infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctors who specialize in infectious diseases&lt;/li&gt;
+	&lt;li&gt;Doctors who specialize in liver diseases (hepatologists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. To prepare, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For hepatitis C infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How much hepatitis C virus do I have in my body?&lt;/li&gt;
+	&lt;li&gt;Has the hepatitis C virus damaged my liver?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for hepatitis C infection?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the benefits of each treatment option?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you think is best for me?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How will these affect my hepatitis C treatment?&lt;/li&gt;
+	&lt;li&gt;Should my family be tested for hepatitis C?&lt;/li&gt;
+	&lt;li&gt;Is it possible for me to spread hepatitis C to others?&lt;/li&gt;
+	&lt;li&gt;How can I protect the people around me from hepatitis C?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+	&lt;li&gt;Is it safe for me to drink alcohol?&lt;/li&gt;
+	&lt;li&gt;What medications should I avoid?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a blood transfusion or an organ transplant? If so, when?&lt;/li&gt;
+	&lt;li&gt;Have you ever used self-injected drugs not prescribed by your doctor?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with hepatitis or jaundice?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Screening for hepatitis C&lt;/strong&gt; &lt;br /&gt;
+Testing for hepatitis C infection in people who have a high risk of coming in contact with the virus may help doctors begin treatment or recommend lifestyle changes that may slow liver damage. This is recommended because hepatitis C infection often begins damaging the liver before it causes signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+People who may want to talk to their doctors about screening for hepatitis C infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anyone who has ever injected illicit drugs&lt;/li&gt;
+	&lt;li&gt;Anyone with unexplained, unusual liver function tests&lt;/li&gt;
+	&lt;li&gt;Babies born to mothers with hepatitis C&lt;/li&gt;
+	&lt;li&gt;Health care and emergency workers who have been exposed to blood or accidental needle sticks&lt;/li&gt;
+	&lt;li&gt;People with hemophilia who were treated with clotting factors before 1987&lt;/li&gt;
+	&lt;li&gt;People who have ever undergone long-term hemodialysis treatments&lt;/li&gt;
+	&lt;li&gt;People who received blood transfusions or organ transplants before 1992&lt;/li&gt;
+	&lt;li&gt;Sexual partners of anyone diagnosed with hepatitis C infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests to diagnose hepatitis C&lt;/strong&gt; &lt;br /&gt;
+Blood tests may help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Determine whether you have the hepatitis C virus&lt;/li&gt;
+	&lt;li&gt;Measure the quantity of the hepatitis C virus in your blood (viral load)&lt;/li&gt;
+	&lt;li&gt;Evaluate the genetic makeup of the virus (genotyping), which helps determine your treatment options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Testing samples of liver tissue to determine severity of liver damage&lt;/strong&gt; &lt;br /&gt;
+Your doctor may also recommend a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy can help determine the severity of the disease and guide treatment decisions. During a liver biopsy, your doctor inserts a thin needle through your skin and into your liver to remove the tissue sample. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment isn&apos;t always necessary &lt;/strong&gt;&lt;br /&gt;
+A diagnosis of hepatitis C infection doesn&apos;t necessarily mean you need treatment. If you have only slight liver abnormalities, you may not need treatment, because your risk of future liver problems is very low. Your doctor may recommend follow-up blood tests to monitor for liver problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antiviral medications&lt;/strong&gt; &lt;br /&gt;
+Hepatitis C infection is treated with antiviral medications intended to clear the virus from your body. Your doctor may recommend a combination of medications taken over several weeks. Once you complete a course of treatment, your doctor will test your blood for the hepatitis C virus. If hepatitis C is still present, your doctor may recommend a second round of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Antiviral medications can cause depression and flu-like signs and symptoms, such as fatigue, fever and headache. Some side effects can be serious enough that treatment must be delayed or stopped in certain cases. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver transplant&lt;/strong&gt; &lt;br /&gt;
+If your liver has been severely damaged, a liver transplant may be an option. During a liver transplant, the surgeon removes your damaged liver and replaces it with a healthy liver. Most transplanted livers come from deceased donors, though a small number come from living donors who donate a portion of their livers. 
+&lt;/p&gt;
+&lt;p&gt;
+For people with hepatitis C infection, a liver transplant is not a cure. Treatment with antiviral medications usually continues after a liver transplant, since hepatitis C infection is likely to recur in the new liver. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccinations to protect against other forms of viral hepatitis&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely recommend that you receive vaccines against the hepatitis A and B viruses. These are separate viruses that also can cause liver damage and complicate treatment of hepatitis C. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="60" Title="Living liver transplant" URI="/images/image_popup/thumbs/d7_livinglivertransplantthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="230" Title="Living liver transplant" URI="/images/image_popup/d7_living_liver_transplant.jpg" Width="400" />
+				<HTML>
+					A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you receive a diagnosis of hepatitis C, your doctor will likely recommend certain lifestyle changes. These measures will help keep you healthy longer and protect the health of others as well: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop drinking alcohol.&lt;/strong&gt; Alcohol speeds the progression of liver disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid medications that may cause liver damage.&lt;/strong&gt; Review your medications with your doctor, including the over-the-counter medications you take. Your doctor may recommend avoiding certain medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay healthy.&lt;/strong&gt; Make healthy lifestyle choices each day. For example, choose a diet full of fruits and vegetables, exercise most days of the week, and get enough sleep so that you wake feeling rested.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Help prevent others from coming in contact with your blood.&lt;/strong&gt; Cover any wounds you have and don&apos;t share razors or toothbrushes. Don&apos;t donate blood, body organs or semen, and advise health care workers that you have the virus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No complementary or alternative medicine treatments have proved helpful in preventing or treating hepatitis C infection. 
+&lt;/p&gt;
+&lt;p&gt;
+One herb that continues to attract attention for its touted liver-health properties is milk thistle. Proponents of milk thistle recommend the herb to treat jaundice and other liver disorders. People take milk thistle as a capsule, extract or infusion. 
+&lt;/p&gt;
+&lt;p&gt;
+Small studies of milk thistle treatment for liver disease have had mixed results. Many of the studies have been poorly designed, making it difficult for researchers to draw conclusions about the usefulness of milk thistle. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re interested in trying milk thistle, discuss the benefits and risks with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Protect yourself from hepatitis C infection by taking the following precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop using illicit drugs.&lt;/strong&gt; If you use illicit drugs, seek help. If you can&apos;t stop, don&apos;t share needles or other drug paraphernalia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious about body piercing and tattooing.&lt;/strong&gt; If you choose to undergo piercing or tattooing, look for a reputable shop. Ask questions beforehand about how the equipment is cleaned. Make sure the employees use sterile needles. If employees won&apos;t answer your questions, look for another shop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice safer sex if you choose to have sex.&lt;/strong&gt; Don&apos;t engage in unprotected sex with multiple partners or with any partner whose health status is uncertain. Sexual transmission between monogamous couples may occur, but the risk is low.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hepatitis C
+	</Title>
+	<Abstract>
+		Hepatitis C &amp;mdash; Comprehensive overview covers symptoms, treatment of infection with the hepatitis C virus.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00094" LinkType="Internal" ObjectID="B729B58C-E7FF-0DBD-12F16E2756745D18" Title="Bilirubin test" Url="http://www.mayoclinic.com/health/bilirubin/MY00094" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00093" LinkType="Internal" ObjectID="B727321E-E7FF-0DBD-1CADFEB8D4A46579" Title="Liver function tests" Url="http://www.mayoclinic.com/health/liver-function-tests/MY00093" />
+		<LinkItem ContentType="Answer" DocID="AN00758" LinkType="Internal" ObjectID="F7370FBF-65CF-4A67-89AD8C9FAAAEF7B9" Title="Hepatitis C: What happens in end-stage liver disease?" Url="http://www.mayoclinic.com/health/hepatitis-c/AN00758" />
+		<LinkItem ContentType="Answer" DocID="AN00701" LinkType="Internal" ObjectID="4B441C27-43B2-4498-81579FE52DC2A001" Title="Hepatitis C: How common is sexual transmission?" Url="http://www.mayoclinic.com/health/hepatitis-c/AN00701" />
+	</RelatedLinksBox>
+</Disease>

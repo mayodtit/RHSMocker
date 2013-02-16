@@ -1,0 +1,216 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00054
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00054
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-15
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-20
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			428D2B37-E7FF-0DBD-17CE06C421984DCB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetable stock recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				soup
+			</MetaKeyword>
+			<MetaKeyword>
+				soup recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetable stock
+			</MetaKeyword>
+			<MetaKeyword>
+				low-fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low-sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetarian recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart-healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook,&lt;/em&gt; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Easy vegetable stock
+	</Title>
+	<Abstract>
+		Easy vegetable stock &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Since vegetables yield their flavors quickly, in little more than half an hour you can have a pot full of flavorful stock to use in other recipes.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a stockpot, heat 2 teaspoons of the olive oil over medium-high heat. Add the mushrooms and saute until they begin to brown, 4-5 minutes. Push the mushrooms to the side of the pot and add the remaining 1 teaspoon oil, the onion, carrots, celery and garlic. Raise the heat to high and saute, stirring often, until the vegetables are deeply browned, about 10 minutes. (The browner the vegetables, the richer the flavor of the stock.) Add the water, parsley, thyme, bay leaf and salt. Bring to a boil, then reduce the heat to medium low and simmer, uncovered, for 25-30 minutes. Remove from the heat and let cool slightly.
+&lt;/p&gt;
+&lt;p&gt;
+Carefully strain the stock into a bowl through a colander or sieve lined with paper towels or cheesecloth (muslin). Use immediately, cover and refrigerate for up to 3 days, or freeze in airtight containers for up to 3 months. Makes about 6 cups.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 teaspoons olive oil&lt;/li&gt;
+	&lt;li&gt;12-14 fresh white mushrooms, brushed clean and coarsely chopped&lt;/li&gt;
+	&lt;li&gt;1 large yellow onion, cut into 1-inch pieces&lt;/li&gt;
+	&lt;li&gt;3 large carrots, cut into 1-inch pieces&lt;/li&gt;
+	&lt;li&gt;2 celery stalks with leaves, cut into 1-inch pieces&lt;/li&gt;
+	&lt;li&gt;6 cloves garlic, halved&lt;/li&gt;
+	&lt;li&gt;8 cups water&lt;/li&gt;
+	&lt;li&gt;6 fresh flat-leaf (Italian) parsley sprigs&lt;/li&gt;
+	&lt;li&gt;4 fresh thyme sprigs&lt;/li&gt;
+	&lt;li&gt;1 bay leaf&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon salt &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods">
+				1
+			</Freefoods>
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				24
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				1 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				0 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				0 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				52 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				2 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Course">
+			Soups
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

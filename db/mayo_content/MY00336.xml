@@ -1,0 +1,293 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00336
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/implantable-cardioverter-defibrillator/MY00336
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4171" Title="Surgery">
+							<Keyword MCVID="3995" Title="Implantable cardioverter-defibrillators" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F7E31C25-E7FF-0DBD-1BF7D5EEFB17EB69
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				implantable cardioverter defibrillator
+			</MetaKeyword>
+			<MetaKeyword>
+				implantable cardioverter defibrillators
+			</MetaKeyword>
+			<MetaKeyword>
+				ICD
+			</MetaKeyword>
+			<MetaKeyword>
+				defibrillators
+			</MetaKeyword>
+			<MetaKeyword>
+				defibulator
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An implantable cardioverter-defibrillator (ICD) &amp;mdash; a pager-sized device which is implanted in your chest &amp;mdash; may reduce your risk of dying if your heart goes into a dangerous rhythm and stops beating (cardiac arrest). You may need an implantable cardioverter-defibrillator if you have a dangerously fast heartbeat (ventricular tachycardia) or a chaotic heartbeat that makes it so your heart can&apos;t supply enough blood to the rest of your body (ventricular fibrillation). 
+&lt;/p&gt;
+&lt;p&gt;
+Implantable cardioverter-defibrillators work by detecting and stopping dangerous, abnormal heartbeats (arrhythmias). An implantable cardioverter-defibrillator continuously monitors your heartbeat and delivers electrical shocks to restore a normal heart rhythm when necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have seen TV shows in which a hospital worker or paramedic &quot;shocks&quot; an unconscious person out of cardiac arrest with a pair of electrified paddles. An implantable cardioverter-defibrillator (ICD) does the same thing, only internally and automatically when it detects your heartbeat is abnormal. 
+&lt;/p&gt;
+&lt;p&gt;
+An ICD is surgically placed under your skin, usually below your left collarbone. One or two flexible, insulated wires (leads) run from the ICD through your veins to the lower chambers of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Because the ICD constantly monitors for abnormal heart rhythms and instantly attempts to correct them, it helps treat cardiac arrest even if you&apos;re hours away from the nearest hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How an ICD works &lt;/strong&gt;&lt;br /&gt;
+When you experience a rapid heartbeat, the wires from your heart to the device transmit signals to the ICD to send electrical pulses to regulate your heartbeat. Depending on the problem with your heartbeat, your ICD could be programmed for these therapies: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low-energy pacing therapy.&lt;/strong&gt; You may feel either nothing or a painless fluttering in your chest when your ICD responds to mild disruptions in your heartbeat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardioversion therapy.&lt;/strong&gt; A higher energy shock is delivered to deal with a more serious heart rhythm problem. You might feel as if you&apos;re being thumped in the chest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Defibrillation therapy.&lt;/strong&gt; This is the strongest form of electrical therapy used to restore a normal heartbeat. During this therapy you may feel as if you&apos;re being kicked in the chest. It may knock you off your feet. The pain from this therapy typically lasts only a second. There should be no discomfort after the shock is over.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Usually, only one shock is needed to restore a normal heartbeat. Sometimes, however, you may have two or more such shocks during a 24-hour period. Frequent shocks in a short time period are known as ICD storms, and they may understandably cause you to worry. If you experience ICD storms, you should seek emergency care to see if your ICD is working properly or if you have a problem that&apos;s making your heart beat more abnormally. If necessary, the ICD can be adjusted to deliver the appropriate number of shocks. Additional medications may be needed to make your heart beat regularly and decrease the chance of an ICD storm.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Who needs an ICD? &lt;/strong&gt;&lt;br /&gt;
+You&apos;re a prime candidate for an ICD if you&apos;ve had ventricular tachycardia, survived a cardiac arrest or have fainted from a ventricular arrhythmia. You may also benefit from an ICD if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A history of coronary artery disease and prior heart attack that has led to a weak heart.&lt;/li&gt;
+	&lt;li&gt;A heart condition that involves abnormal heart muscle, such as enlarged (dilated cardiomyopathy) or thickened (hypertrophic cardiomyopathy) heart muscle.&lt;/li&gt;
+	&lt;li&gt;An inherited heart defect that makes your heart beat abnormally. These include long QT syndrome, which can cause ventricular fibrillation and death even in young, active people with no signs or symptoms of heart problems. Having other rare conditions such as Brugada syndrome and arrhythmogenic right ventricular dysplasia also may mean you need an ICD.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The procedure to implant an ICD has some risks, but they are rare. Risks of the procedure to implant an ICD include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infection at the site where your ICD was implanted&lt;/li&gt;
+	&lt;li&gt;Allergic reaction to the medications used during the procedure to implant your ICD&lt;/li&gt;
+	&lt;li&gt;Swelling, bleeding or bruising where your ICD was implanted&lt;/li&gt;
+	&lt;li&gt;Damage to the vein where your ICD leads are placed&lt;/li&gt;
+	&lt;li&gt;Bleeding around your heart, which can be life-threatening&lt;/li&gt;
+	&lt;li&gt;Blood leaking through the heart valve where the ICD lead is placed&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether you need an ICD, your doctor may perform any of these diagnostic tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiography (ECG).&lt;/strong&gt; In this noninvasive test, sensor pads with wires attached, called electrodes, are placed on your chest and, sometimes, limbs to measure your heart&apos;s electrical impulses. Your heart&apos;s beating pattern can offer clues to the type of irregular heartbeat you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiography.&lt;/strong&gt; This noninvasive test uses harmless sound waves that allow your doctor to see your heart without making an incision. During the procedure, a small, plastic instrument called a transducer is placed on your chest. It collects reflected sound waves (echoes) from your heart and transmits them to a machine that uses the sound wave patterns to compose images of your beating heart on a monitor. These images show how well your heart is functioning, and recorded images allow your doctor to measure the size and thickness of your heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrophysiology study (EPS).&lt;/strong&gt; In this procedure, electrodes are guided through blood vessels to your heart and used to test the function of your heart&apos;s electrical system. This can identify whether you currently have or may develop heart rhythm problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitoring.&lt;/strong&gt; Also known as an ambulatory electrocardiogram monitor, a Holter monitor records your heart rhythms for an entire 24-hour period. Wires from electrodes on your chest go to a battery-operated recording device carried in your pocket or worn on a belt or shoulder strap. While you&apos;re wearing the monitor, you&apos;ll keep a diary of your activities and symptoms. Your doctor will compare the diary with the electrical recordings to try to figure out the cause of your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; Your doctor may ask that you wear a pager-sized device that records your heart activity for a day or so. Unlike a Holter monitor, it doesn&apos;t operate continuously and you turn it on only when you feel your heart is beating abnormally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will give you specific instructions on what to do immediately before your surgery to prepare. It&apos;s likely you&apos;ll be asked not to eat or drink anything for at least eight hours before your surgery. Talk to your doctor about any medications you take, and whether or not you should continue to take them before your procedure to implant an ICD. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+Usually, the procedure to implant an ICD can be performed with numbing medication and a sedative that relaxes you but allows you to remain aware of your surroundings. 
+&lt;/p&gt;
+&lt;p&gt;
+The procedure typically takes one to three hours. During surgery, a flexible, insulated wire (lead) is inserted into a major vein under or near your collarbone and guided, with the help of X-ray images, to your heart. The ends of the leads are secured to your heart&apos;s bottom pumping chambers (ventricles), while the other ends are attached to the shock generator, which is usually implanted under the skin beneath your collarbone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After implantation, your doctor will test your ICD and program it to treat your specific heart rhythm problem. Testing the ICD requires shocking your heart. You&apos;ll be given general anesthesia so that you aren&apos;t awake during the test. You stay in the hospital one or two days, and the ICD may be evaluated one more time before you&apos;re discharged. Any additional tests of your ICD usually don&apos;t require surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+An ICD is usually programmed to perform these functions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardioversion.&lt;/strong&gt; When the ICD detects a dangerously fast heartbeat, it delivers an electrical shock that converts the fast heartbeat into a slower, normal heartbeat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Defibrillation.&lt;/strong&gt; Sometimes cardioversion fails, and your heartbeat either quickens or beats chaotically. Other times, a chaotic heartbeat develops spontaneously. When the ICD detects either of these life-threatening rhythms, it delivers a stronger electrical shock that resets (defibrillates) your heart to start beating normally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An ICD can also be programmed to perform additional functions, which include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-tachycardia (tak-ih-KAHR-de-uh) pacing.&lt;/strong&gt; If you experience an unusually fast heart rate, the ICD delivers painless, low-energy impulses that pace or stimulate the heart to beat at a rate that prompts it to return to a normal rhythm. This can prevent the need for cardioversion or defibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-bradycardia (brad-e-KAHR-de-uh) pacing.&lt;/strong&gt; When the heartbeat is abnormally slow (bradycardia) because of a heart condition or medication, a standard pacemaker is the typical treatment advised. People with ICDs, however, sometimes develop bradycardia as a result of the shock the ICD delivers in response to ventricular tachycardia or ventricular fibrillation. In this situation, the ICD can sense the slow heart rate and function as a pacemaker, delivering low-energy impulses that stimulate the heart to beat normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recording heart activity.&lt;/strong&gt; The ICD records information about variations in your heart&apos;s electrical activity and rhythm. This information helps your doctor evaluate your heart rhythm problem and, if necessary, reprogram your ICD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biventricular pacing.&lt;/strong&gt; Unlike a standard pacemaker, which stimulates only one side of your heart&apos;s main pumping chamber (the right ventricle), a biventricular pacemaker stimulates both the right and left ventricles to make the heart beat more efficiently. A special type of ICD &amp;mdash; a combined biventricular pacemaker with ICD &amp;mdash; can do the same thing. Biventricular pacing is particularly valuable for some people with heart failure whose hearts&apos; electrical systems don&apos;t work normally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating pain after your procedure &lt;/strong&gt;&lt;br /&gt;
+After surgery you may have some pain in the incision area, which can remain swollen and tender for a few days or weeks. Pain medication often is initially prescribed; you can take nonaspirin pain relievers, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others), as your pain lessens. Unless your doctor instructs you to do so, don&apos;t take pain medication containing aspirin because it may increase the risk of bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+As a precaution, you won&apos;t be able to drive yourself home after your procedure, so be sure to make arrangements to get home another way. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing an implantable cardioverter-defibrillator (ICD)
+" Caption="An ICD works to regulate your heartbeat by delivering shocks to your heart when it detects your heart is beating abnormally. 
+" Height="60" Title="Implantable cardioverter-defibrillator (ICD)" URI="/images/image_popup/thumbs/hb7_icdimplantedthu.jpg" Width="60" />
+				<Image Alt="Illustration showing an implantable cardioverter-defibrillator (ICD)
+" Caption="An ICD works to regulate your heartbeat by delivering shocks to your heart when it detects your heart is beating abnormally. 
+" Height="275" Title="Implantable cardioverter-defibrillator (ICD)" URI="/images/image_popup/hb7_icdimplanted.jpg" Width="400" />
+				<HTML>
+					An ICD works to regulate your heartbeat by delivering shocks to your heart when it detects your heart is beating abnormally. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because of their capabilities, ICDs have become standard treatment for anyone who has survived cardiac arrest and are used increasingly in individuals who are at high risk of sudden cardiac arrest. If you have an ICD, your risk of sudden death from cardiac arrest is significantly lower than it would be if you were treated only with medications to correct your heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re at high risk of ventricular tachycardia and ventricular fibrillation, an ICD may be your best defense against cardiac arrest. Once you have an ICD, it&apos;s likely you&apos;ll need to keep it for life. Although the electrical shocks may be unsettling, they&apos;re evidence that the ICD is effectively treating your heart rhythm problem and protecting you from sudden death. Talk to your doctor about how to best care for your ICD. 
+&lt;/p&gt;
+&lt;p&gt;
+After your procedure, you&apos;ll need to take some precautions to avoid injuries and make sure your ICD works properly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Short-term precautions &lt;/strong&gt;&lt;br /&gt;
+You&apos;ll likely be able to return to normal activities, such as exercise, work and sex, soon after you recover from surgery. During the first four weeks following surgery, however, your doctor may ask you to refrain from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vigorous above-the-shoulder activities or exercises, including golf, tennis, swimming, bicycling, bowling or vacuuming&lt;/li&gt;
+	&lt;li&gt;Lifting anything weighing more than 5 pounds&lt;/li&gt;
+	&lt;li&gt;Playing contact sports&lt;/li&gt;
+	&lt;li&gt;Strenuous exercise programs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term precautions &lt;/strong&gt;&lt;br /&gt;
+Problems with your ICD due to electrical interference are rare. Still, take precautions with the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cellular phones and other mobile devices.&lt;/strong&gt; It&apos;s safe to talk on a cell phone, but avoid placing your cell phone within six inches (about 15 centimeters) of your ICD implantation site when the phone is turned on. Although unlikely, your ICD could mistake a cell phone&apos;s signal for a heartbeat and slow your heartbeat, causing symptoms such as sudden fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Security systems.&lt;/strong&gt; After surgery you&apos;ll receive a card that says you have an ICD. Show your card to airport personnel because the ICD may set off airport security alarms. Also, hand-held metal detectors often contain a magnet that may interfere with your ICD. Ask the security personnel to limit scanning with a hand-held detector to less than 30 seconds over the site of your ICD or make a request for a search by hand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical equipment.&lt;/strong&gt; If a doctor is considering any medical procedure that involves electromagnetic energy, such as magnetic resonance imaging (MRI) or magnetic resonance angiography (MRA), tell him or her that you have an ICD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Power generators.&lt;/strong&gt; Stand at least two feet (0.6 meters) from welding equipment, high-voltage transformers or motor-generator systems. If you work around such equipment, your doctor can arrange a test in your workplace to see if the equipment affects your ICD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Devices that present little or no risk to your ICD include microwave ovens, televisions and remote controls, radios, MP3 players, toasters, electric blankets, electric shavers and electric drills. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Driving restrictions&lt;/strong&gt; &lt;br /&gt;
+If you have an implantable cardioverter-defibrillator to treat ventricular arrhythmia, driving a vehicle presents a special challenge. The combination of arrhythmia and shocks from your ICD may cause fainting, which would be dangerous if you&apos;re driving. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Heart Association&apos;s guidelines discourage driving during the first six months after your procedure if your ICD was implanted due to a previous cardiac arrest or ventricular arrhythmia. If you experience no shocks during this period, you will likely be able to begin driving again. But if you later experience a shock, with or without fainting, tell your doctor and follow his or her recommendations. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, you will need to stop driving until you&apos;ve been shock-free for another six months. There is some controversy regarding this topic. For example, the European Heart Rhythm Association recommends waiting only three months before driving if your ICD was implanted due to a previous cardiac arrest or arrhythmia, while the American Heart Association recommends waiting six months. Talk to your doctor to get advice for your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have an implantable cardioverter-defibrillator but have no history of life-threatening arrhythmias, you can usually resume driving within weeks after your procedure, with your doctor&apos;s approval, if you&apos;ve had no shocks. Discuss your specific situation with your doctor. You usually can&apos;t get a commercial driver&apos;s license if you have an ICD. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Battery life&lt;/strong&gt; &lt;br /&gt;
+The lithium battery in your implantable cardioverter-defibrillator can last up to seven years. During your regular checkups, which should occur every three to six months, your doctor or nurse will check the battery. When the battery is nearly out of power, your old shock generator is replaced with a new one during a minor outpatient procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;ICDs and end-of-life issues&lt;/strong&gt; &lt;br /&gt;
+If you have an ICD and become terminally ill with a condition unrelated to your heart, such as cancer, it&apos;s possible that your ICD could prolong the process of dying. Doctors and researchers have varied opinions on turning off an ICD in end-of-life situations. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have an ICD implanted and are concerned about turning it off in an end-of-life situation, talk to your doctor. You may also want to talk to family members or another person designated to make medical decisions for you about what you&apos;d like to do in end-of-life care situations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Implantable cardioverter-defibrillators (ICDs)
+	</Title>
+	<Abstract>
+		Implantable cardioverter-defibrillators (ICDs) &amp;mdash; Overview covers the definition and risks of implanting these devices.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00092" LinkType="Internal" ObjectID="C7A5BBC2-E7FF-0DBD-1E13DE1C190A4C95" Title="Sudden death in young people &amp;mdash; Heart problems often blamed" Url="http://www.mayoclinic.com/health/sudden-death/HB00092" />
+		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS01158" LinkType="Internal" ObjectID="0F4A255E-9C7E-F680-E610EF8AADF137EC" Title="Ventricular fibrillation" Url="http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158" />
+	</RelatedLinksBox>
+</TestProcedure>

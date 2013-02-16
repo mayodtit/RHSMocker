@@ -1,0 +1,253 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00476
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/complete-blood-count/MY00476
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-29
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3658" Title="Blood and lymphatic system">
+						<Keyword MCVID="3135" Title="Complete blood count" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1D9EDDDF-95B4-602A-031B9C87EEDF18B0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				complete blood count test
+			</MetaKeyword>
+			<MetaKeyword>
+				CBC blood test
+			</MetaKeyword>
+			<MetaKeyword>
+				complete blood count results
+			</MetaKeyword>
+			<MetaKeyword>
+				complete blood count interpretation
+			</MetaKeyword>
+			<MetaKeyword>
+				complete blood cell count
+			</MetaKeyword>
+			<MetaKeyword>
+				red blood cells
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				leukocytes
+			</MetaKeyword>
+			<MetaKeyword>
+				white blood cells
+			</MetaKeyword>
+			<MetaKeyword>
+				platelets
+			</MetaKeyword>
+			<MetaKeyword>
+				platelet count
+			</MetaKeyword>
+			<MetaKeyword>
+				hematocrit
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A complete blood count (CBC) is a blood test used to evaluate your overall health and detect a wide range of disorders, including anemia, infection and leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+A complete blood count test measures several components and features of your blood, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red blood cells, which carry oxygen&lt;/li&gt;
+	&lt;li&gt;White blood cells, which fight infection&lt;/li&gt;
+	&lt;li&gt;Hemoglobin, the oxygen-carrying protein in red blood cells&lt;/li&gt;
+	&lt;li&gt;Hematocrit, the proportion of red blood cells to the fluid component, or plasma, in your blood&lt;/li&gt;
+	&lt;li&gt;Platelets, which help with blood clotting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Abnormal increases or decreases in cell counts as revealed in a complete blood count may indicate that you have an underlying medical condition that calls for further evaluation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A complete blood count is a common blood test that&apos;s done for a variety of reasons: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;To assess your overall health.&lt;/strong&gt; Your doctor may recommend a complete blood count as part of a routine medical examination to monitor your general health and to screen for a variety of disorders, such as anemia or leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To diagnose a medical condition.&lt;/strong&gt; Your doctor may suggest a complete blood count if you&apos;re experiencing weakness, fatigue, fever, inflammation, bruising or bleeding. A complete blood count may help diagnose the cause of these signs and symptoms. If your doctor suspects you have an infection, the test can also help confirm that diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To monitor a medical condition.&lt;/strong&gt; If you&apos;ve been diagnosed with a blood disorder that affects blood cell counts, such as thalassemia or polycythemia vera, your doctor may use complete blood counts to monitor your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To monitor medical treatment.&lt;/strong&gt; A complete blood count may be used to monitor your health if you&apos;re taking medications that may affect blood cell counts.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your blood sample is being tested only for a complete blood count, you can eat and drink normally before the test. If your blood sample will be used for additional tests, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For a complete blood count, a member of your health care team takes a sample of blood by inserting a needle into a vein in your arm, usually at the bend in your elbow. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following are normal complete blood count results for adults: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Red blood cell count&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Male:&lt;/strong&gt; 4.32-5.72 trillion cells/L*&lt;br /&gt;
+			(4.32-5.72 million cells/mcL**)&lt;br /&gt;
+			&lt;strong&gt;Female:&lt;/strong&gt; 3.90-5.03 trillion cells/L&lt;br /&gt;
+			(3.90-5.03 million cells/mcL) &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Hemoglobin&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Male:&lt;/strong&gt; 13.5-17.5 grams/dL***&lt;br /&gt;
+			(135-175 grams/L)&lt;br /&gt;
+			&lt;strong&gt;Female:&lt;/strong&gt; 12.0-15.5 grams/dL&lt;br /&gt;
+			(120-155 grams/L) &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Hematocrit&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Male:&lt;/strong&gt; 38.8-50.0 percent&lt;br /&gt;
+			&lt;strong&gt;Female:&lt;/strong&gt; 34.9-44.5 percent&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;White blood cell count&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;3.5-10.5 billion cells/L&lt;br /&gt;
+			(3,500 to 10,500 cells/mcL)&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Platelet count&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;150-450 billion/L&lt;br /&gt;
+			(150,000 to 450,000/mmol****) &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+* L = liter&lt;br /&gt;
+** mcL = microliter&lt;br /&gt;
+*** dL = deciliter&lt;br /&gt;
+**** mmol = micromole
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Not a definitive test&lt;/strong&gt; &lt;br /&gt;
+A complete blood count is typically not a definitive diagnostic test. Depending on the reason your doctor recommended this test, results outside the normal range may or may not require follow-up. Your doctor may need to evaluate the results along with results of other blood tests, or additional tests may be necessary to determine next steps. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, if you&apos;re otherwise healthy and have no signs or symptoms of illness, results slightly outside the normal range on a complete blood count may not be a cause for concern, and follow-up may not be needed. However, if you&apos;re undergoing cancer treatment, results of a complete blood count outside the normal range may indicate a need to alter your treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, if your results are significantly above or below the normal ranges, your doctor may refer you to a doctor who specializes in blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What the results may indicate&lt;/strong&gt; &lt;br /&gt;
+Results in the following areas above or below the normal ranges on a complete blood count may indicate a problem. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Red blood cell count, hemoglobin and hematocrit.&lt;/strong&gt; The results of your red blood cell count, hemoglobin and hematocrit are related because they each measure aspects of your red blood cells.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If the measures in these three areas are lower than normal, you have anemia. Anemia causes fatigue and weakness. Anemia has many causes, including low levels of certain vitamins or iron, blood loss, or an underlying condition. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A red blood cell count that&apos;s higher than normal (erythrocytosis), or high hemoglobin or hematocrit levels, could point to an underlying medical condition, such as polycythemia vera or heart disease. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;White blood cell count.&lt;/strong&gt; A low white blood cell count (leukopenia) may be caused by a medical condition, such as an autoimmune disorder that destroys white blood cells, bone marrow problems or cancer. Certain medications also can cause white blood cell counts to drop.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If your white blood cell count is higher than normal, you may have an infection or inflammation. Or, it could indicate that you have an immune system disorder or a bone marrow disease. A high white blood cell count can also be a reaction to medication. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Platelet count.&lt;/strong&gt; A platelet count that&apos;s lower than normal (thrombocytopenia) or higher than normal (thrombocytosis) is often a sign of an underlying medical condition, or it may be a side effect from medication. If your platelet count is outside the normal range, you&apos;ll likely need additional tests to diagnose the cause.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For specifics about what your complete blood count results mean if they fall outside the normal ranges, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Complete blood count (CBC)
+	</Title>
+	<Abstract>
+		Complete blood count (CBC) &amp;mdash; Overview covers definition, preparation, results of this common blood test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

@@ -1,0 +1,418 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00292
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diarrhea/DS00292
+		</OriginalURL>
+		<UpdateDate>
+			2010-06-26
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="1851" Title="Diarrhea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D98B8FAF-0C97-4C99-AB208D8BDF274E29
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				loose stools
+			</MetaKeyword>
+			<MetaKeyword>
+				watery stools
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				acute diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				bloody stools
+			</MetaKeyword>
+			<MetaKeyword>
+				rotavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				adenovirus
+			</MetaKeyword>
+			<MetaKeyword>
+				giardia lamblia
+			</MetaKeyword>
+			<MetaKeyword>
+				cryptosporidium
+			</MetaKeyword>
+			<MetaKeyword>
+				diarhea
+			</MetaKeyword>
+			<MetaKeyword>
+				diahrea
+			</MetaKeyword>
+			<MetaKeyword>
+				diarreah
+			</MetaKeyword>
+			<MetaKeyword>
+				diarreha
+			</MetaKeyword>
+			<MetaKeyword>
+				diahrrea
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrea
+			</MetaKeyword>
+			<MetaKeyword>
+				diareha
+			</MetaKeyword>
+			<MetaKeyword>
+				diarea
+			</MetaKeyword>
+			<MetaKeyword>
+				Clostridium difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				C. difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				C difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhoea
+			</MetaKeyword>
+			<MetaKeyword>
+				difficile
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diarrhea describes loose, watery stools that occur more frequently than usual. Diarrhea is something everyone experiences. Diarrhea often means more frequent trips to the toilet and a greater volume of stool. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, diarrhea signs and symptoms usually last a couple of days. But sometimes diarrhea can last for weeks. In these situations, diarrhea can be a sign of a serious disorder, such as inflammatory bowel disease, or a less serious condition, such as irritable bowel syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Diarrhea may cause a loss of significant amounts of water and salts. Most cases of diarrhea go away without treatment. But see your doctor if diarrhea persists, if you become dehydrated or if you pass blood in your stool. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and small intestine 
+" Caption="The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed by the small intestine and colon continues along the digestive tract and is expelled as stool during a bowel movement. 
+" Height="60" Title="Colon and small intestine" URI="/images/image_popup/thumbs/d7_smintestinecolonthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and small intestine 
+" Caption="The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed by the small intestine and colon continues along the digestive tract and is expelled as stool during a bowel movement. 
+" Height="293" Title="Colon and small intestine" URI="/images/image_popup/d7_smintestinecolon.jpg" Width="400" />
+				<HTML>
+					The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms associated with diarrhea may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent, loose, watery stools&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Blood in the stool&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re an adult, see your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your diarrhea persists beyond three days&lt;/li&gt;
+	&lt;li&gt;You become dehydrated &amp;mdash; as evidenced by excessive thirst, dry mouth or skin, little or no urination, severe weakness, dizziness or lightheadedness, or dark-colored urine&lt;/li&gt;
+	&lt;li&gt;You have severe abdominal or rectal pain&lt;/li&gt;
+	&lt;li&gt;You have bloody or black stools&lt;/li&gt;
+	&lt;li&gt;You have a temperature of more than 102 F (39 C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In children, particularly young children, diarrhea can quickly lead to dehydration. Call your doctor if your child&apos;s diarrhea doesn&apos;t improve within 24 hours or if your baby: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hasn&apos;t had a wet diaper in three or more hours&lt;/li&gt;
+	&lt;li&gt;Has a fever of more than 102 F (39 C)&lt;/li&gt;
+	&lt;li&gt;Has bloody or black stools&lt;/li&gt;
+	&lt;li&gt;Has a dry mouth or cries without tears&lt;/li&gt;
+	&lt;li&gt;Is unusually sleepy, drowsy, unresponsive or irritable&lt;/li&gt;
+	&lt;li&gt;Has a sunken appearance to the abdomen, eyes or cheeks&lt;/li&gt;
+	&lt;li&gt;Has skin that doesn&apos;t flatten if pinched and released&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diarrhea occurs when the food and fluids you ingest pass too quickly or in too large an amount &amp;mdash; or both &amp;mdash; through your colon. Normally, your colon absorbs liquids from the food you eat, leaving a semisolid stool. But if the liquids from the foods you eat aren&apos;t absorbed, the result is a watery bowel movement. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of diseases and conditions can cause diarrhea. Common causes of diarrhea include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Viruses.&lt;/strong&gt; Viruses that can cause diarrhea include Norwalk virus, cytomegalovirus and viral hepatitis. Rotavirus is a common cause of acute childhood diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria and parasites.&lt;/strong&gt; Contaminated food or water can transmit bacteria and parasites to your body. Parasites such as Giardia lamblia and cryptosporidium can cause diarrhea. Common bacterial causes of diarrhea include campylobacter, salmonella, shigella and Escherichia coli. Diarrhea caused by bacteria and parasites can be common when traveling in developing countries, and is often called traveler&apos;s diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Many medications can cause diarrhea. The most common are antibiotics. Antibiotics destroy both good and bad bacteria, which can disturb the natural balance of bacteria in your intestines. This disturbance sometimes leads to an infection with bacteria called Clostridium difficile, which also can cause diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lactose intolerance.&lt;/strong&gt; Lactose is a sugar found in milk and other dairy products. Many people have difficulty digesting lactose and experience diarrhea after eating dairy products. Your body makes an enzyme that helps digest lactose, but for most people the levels of this enzyme drop off rapidly after childhood. This causes an increased risk of lactose intolerance as you age. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fructose.&lt;/strong&gt; Fructose, a sugar found naturally in fruits and honey and added as a sweetener to some beverages, can cause diarrhea in people who have trouble digesting it. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Artificial sweeteners.&lt;/strong&gt; Sorbitol and mannitol, artificial sweeteners found in chewing gum and other sugar-free products, can cause diarrhea in some otherwise healthy people. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Some people may experience diarrhea after undergoing abdominal surgery or gallbladder removal surgery. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other digestive disorders.&lt;/strong&gt; Chronic diarrhea has a number of other causes, such as Crohn&apos;s disease, ulcerative colitis, celiac disease, microscopic colitis and irritable bowel syndrome. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If you have persistent diarrhea, your doctor may refer you to a doctor who specializes in the digestive system (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes or travel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help make the most of your visit. List your questions from most important to least important in case time runs out. For diarrhea, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my diarrhea?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my diarrhea?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my diarrhea likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Could the diarrhea be caused by a medication I&apos;m taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have diarrhea that awakens you from sleep?&lt;/li&gt;
+	&lt;li&gt;Do you see blood, or are your bowel movements black in color?&lt;/li&gt;
+	&lt;li&gt;Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled to a developing country or someplace where the food or water may not have been safe?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking antibiotics?&lt;/li&gt;
+	&lt;li&gt;Have you taken antibiotics in the last few months?&lt;/li&gt;
+	&lt;li&gt;Have you recently been around anyone who has diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you recently stayed in a hospital?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, you may ease your symptoms if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink more fluids.&lt;/strong&gt; To help avoid dehydration, drink water, juice and broth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid foods that can aggravate diarrhea.&lt;/strong&gt; Avoid fatty, high-fiber or highly seasoned foods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to determine what&apos;s causing your diarrhea may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor may examine your abdomen to determine the location of any abdominal pain. Your doctor may also listen to your abdomen with a stethoscope. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Review of your medications.&lt;/strong&gt; Your doctor may ask about any medications you&apos;re taking, including over-the-counter drugs. Also, tell your doctor about any supplements you take. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A complete blood count test may help determine what&apos;s causing your diarrhea. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool test.&lt;/strong&gt; Your doctor may recommend a stool test to determine whether a bacterium or parasite is causing your diarrhea. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of diarrhea clear on their own within a couple of days without treatment. If you&apos;ve tried lifestyle changes and home remedies for diarrhea without success, your doctor may recommend medications or other treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt; &lt;br /&gt;
+Antibiotics may help treat diarrhea caused by bacteria or parasites. If a virus is causing your diarrhea, antibiotics won&apos;t help. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment to replace fluids&lt;/strong&gt; &lt;br /&gt;
+Your doctor likely will advise you to take steps to replace the fluids and salts lost during diarrhea. For most people, replacing fluids means drinking water, juice or broth. If drinking liquids upsets your stomach or causes diarrhea, your doctor may recommend getting fluids through a vein in your arm (intravenously). 
+&lt;/p&gt;
+&lt;p&gt;
+Water is a good way to replace fluids, but it doesn&apos;t contain the salts and electrolytes &amp;mdash; minerals such as sodium and potassium &amp;mdash; you need in order to maintain the electric currents that keep your heart beating. Disruption of your body&apos;s fluid and mineral levels creates an electrolyte imbalance that can be serious. You can help maintain your electrolyte levels by drinking fruit juices for potassium or eating soups for sodium. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adjusting medications you&apos;re taking&lt;/strong&gt; &lt;br /&gt;
+If your doctor determines that an antibiotic medication caused your diarrhea, your doctor may modify your treatment plan by lowering your dose or switching to another medication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating underlying conditions&lt;/strong&gt; &lt;br /&gt;
+If your diarrhea is caused by a more serious disease or condition, such as inflammatory bowel disease, your doctor will work to control that condition. You may be referred to a specialist, such as a gastroenterologist, who can help devise a treatment plan for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most diarrhea clears up on its own within a few days. To help you cope with your signs and symptoms until they go away, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of clear liquids,&lt;/strong&gt; including water, broths and juices every day. But, avoid apple and pear juices until you feel better because they can make your diarrhea worse. Avoid caffeine and alcohol. Eating gelatin also may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add semisolid and low-fiber foods gradually&lt;/strong&gt; as your bowel movements return to normal. Try soda crackers, toast, eggs, rice or chicken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain foods&lt;/strong&gt; such as dairy products, fatty foods, high-fiber foods or highly seasoned foods for a few days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about anti-diarrheal medications.&lt;/strong&gt; Over-the-counter (OTC) anti-diarrheal medications, such loperamide (Imodium A-D) and bismuth subsalicylate (Pepto-Bismol), may help reduce the number of watery bowel movements you experience. Certain infections &amp;mdash; bacterial and parasitic &amp;mdash; may be made worse by these OTC medications because they prevent your body from getting rid of what&apos;s causing the diarrhea. Also, these drugs aren&apos;t always safe for children. Check with your doctor before taking these medications or giving these medications to a child.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some research suggests that probiotics &amp;mdash; foods and supplements containing beneficial bacteria &amp;mdash; may help treat diarrhea, particularly viral diarrhea in children. Helpful bacteria live in your digestive tract, where they help digest your food and protect you from harmful bacteria. Probiotics contain strains of living bacteria that are similar to the ones normally found in your digestive system. 
+&lt;/p&gt;
+&lt;p&gt;
+Probiotic foods, such as yogurt, cheese, miso and tempeh, are generally safe to eat and may help. Side effects of probiotics might include gas and bloating. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Preventing viral diarrhea&lt;/strong&gt; &lt;br /&gt;
+Wash your hands frequently to prevent the spread of viral diarrhea. To ensure you or your child is washing your hands thoroughly, always: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash frequently.&lt;/strong&gt; Wash your hands after preparing food, handling uncooked meat, using the toilet, changing diapers, sneezing, coughing and blowing your nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lather with soap for at least 20 seconds.&lt;/strong&gt; After putting soap on your hands, rub your hands together for at least 20 seconds. This is about as long as it takes to sing &quot;Happy Birthday&quot; twice through.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use hand sanitizer when washing isn&apos;t possible.&lt;/strong&gt; Use an alcohol-based hand sanitizer when you can&apos;t get to a sink. Apply the hand sanitizer as you would hand lotion, making sure to completely cover the fronts and backs of both hands. Use a product that contains at least 60 percent alcohol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing diarrhea from contaminated food&lt;/strong&gt; &lt;br /&gt;
+To guard against diarrhea caused by contaminated food: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Serve food right away or refrigerate it&lt;/strong&gt; after it has been cooked or reheated. Leaving food out at room temperature can encourage growth of bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash work surfaces frequently&lt;/strong&gt; to avoid spreading germs from one food item to another. Wash your hands and your work surfaces several times during food preparation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use the refrigerator to thaw frozen items.&lt;/strong&gt; Or try putting plastic-wrapped frozen items in a bowl of cold water to thaw. Don&apos;t leave frozen items on the counter to thaw.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing traveler&apos;s diarrhea&lt;/strong&gt; &lt;br /&gt;
+Diarrhea commonly affects people who travel to developing countries, where diarrhea is sometimes due to inadequate sanitation and contaminated food and water. To reduce your risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what you eat.&lt;/strong&gt; Eat hot, well-cooked foods. Avoid raw fruits and vegetables unless you can peel them yourself. Also avoid raw or undercooked meats and dairy foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what you drink.&lt;/strong&gt; Drink bottled water, soda, beer or wine served in its original container. Avoid tap water and ice cubes. Use bottled water even for brushing your teeth. Keep your mouth closed while you shower. Beverages from boiled water, such as coffee and tea, are probably safe. Remember that alcohol and caffeine can aggravate diarrhea and dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about using antibiotics.&lt;/strong&gt; If you&apos;re traveling to a developing country for an extended period of time, ask your doctor about starting antibiotics before you leave on your trip. In certain cases, this may reduce the risk that you&apos;ll develop traveler&apos;s diarrhea.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diarrhea
+	</Title>
+	<Abstract>
+		Diarrhea &amp;mdash; Comprehensive overview covers symptoms, causes, complications, treatment of this unpleasant digestive condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00376" LinkType="Internal" ObjectID="638A0EBA-A885-4956-9916BDFD026636B6" Title="Runner&apos;s diarrhea: How can I prevent it?" Url="http://www.mayoclinic.com/health/runners-diarrhea/AN00376" />
+		<LinkItem ContentType="Disease" DocID="DS00318" LinkType="Internal" ObjectID="40BBEDF8-826F-4392-A9C18C91D1E653C4" Title="Traveler&apos;s diarrhea" Url="http://www.mayoclinic.com/health/travelers-diarrhea/DS00318" />
+		<LinkItem ContentType="Disease" DocID="DS00454" LinkType="Internal" ObjectID="1CA38BA4-1AD5-47B4-BFFE6A66CF08493C" Title="Antibiotic-associated diarrhea" Url="http://www.mayoclinic.com/health/antibiotic-associated-diarrhea/DS00454" />
+		<LinkItem ContentType="Disease" DocID="DS00561" LinkType="Internal" ObjectID="5C302784-080C-4278-B4953F801900B4F2" Title="Dehydration" Url="http://www.mayoclinic.com/health/dehydration/DS00561" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

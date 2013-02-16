@@ -1,0 +1,335 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00180
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gonorrhea/DS00180
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-18
+		</UpdateDate>
+		<PublicationDate>
+			2000-04-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1590" Title="Sexually transmitted">
+						<Keyword MCVID="2568" Title="Gonorrhea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FC64ED83-AF70-46DB-94F95A992AAB7664
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gonorrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				STD
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted disease
+			</MetaKeyword>
+			<MetaKeyword>
+				STDs
+			</MetaKeyword>
+			<MetaKeyword>
+				STD&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				gonorhea
+			</MetaKeyword>
+			<MetaKeyword>
+				sexual diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				sexual transmitted diseases
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gonorrhea is an infection caused by a sexually transmitted bacterium that can infect both males and females. Gonorrhea most often affects the urethra, rectum or throat. In females, gonorrhea can also infect the cervix. 
+&lt;/p&gt;
+&lt;p&gt;
+Gonorrhea is most commonly spread during sex. But babies can be infected during childbirth if their mothers are infected. In babies, gonorrhea most commonly affects the eyes.
+&lt;/p&gt;
+&lt;p&gt;
+Gonorrhea is a common infection, and in some cases, causes no symptoms. You may not even know that you&apos;re infected. Abstaining from sex, using a condom if you do have sex and being in a mutually monogamous relationship are the best ways to prevent sexually transmitted infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gonorrhea infection can affect multiple sites in your body, but it most commonly appears in the genital tract. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Gonorrhea affecting the genital tract&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of gonorrhea infection in men include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Pus-like discharge from the tip of the penis&lt;/li&gt;
+	&lt;li&gt;Pain or swelling in one testicle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of gonorrhea infection in women include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased vaginal discharge&lt;/li&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Vaginal bleeding between periods, such as after vaginal intercourse&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Pelvic pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Gonorrhea at other sites in the body&lt;/strong&gt; &lt;br /&gt;
+Gonorrhea can also affect these parts of the body: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rectum.&lt;/strong&gt; Signs and symptoms include anal itching, pus-like discharge from the rectum, spots of bright red blood on toilet tissue and having to strain during bowel movements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyes.&lt;/strong&gt; Gonorrhea that affects your eyes may cause eye pain, sensitivity to light, and pus-like discharge from one or both eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Throat.&lt;/strong&gt; Signs and symptoms of a throat infection may include a sore throat and swollen lymph nodes in the neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joints.&lt;/strong&gt; If one or more joints become infected by bacteria (septic arthritis), the affected joints may be warm, red, swollen and extremely painful, especially when you move an affected joint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see your doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice any troubling signs or symptoms, such as a burning sensation when you urinate or a pus-like discharge from your penis, vagina or rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+Also make an appointment with your doctor if your partner has been diagnosed with gonorrhea. You may not experience signs or symptoms that prompt you to seek medical attention. But without treatment, you can reinfect your partner even after he or she has been treated for gonorrhea. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="60" Title="Male reproductive system" URI="/images/image_popup/thumbs/r7_malereprothu.jpg" Width="60" />
+				<Image Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="283" Title="Male reproductive system" URI="/images/image_popup/r7_malerepro.jpg" Width="400" />
+				<HTML>
+					The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gonorrhea is caused by the bacterium Neisseria gonorrhoeae. The gonorrhea bacteria are most often passed from one person to another during sexual contact, including oral, anal or vaginal intercourse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of gonorrhea infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Younger age&lt;/li&gt;
+	&lt;li&gt;A new sex partner&lt;/li&gt;
+	&lt;li&gt;Multiple sex partners&lt;/li&gt;
+	&lt;li&gt;Previous gonorrhea diagnosis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated gonorrhea can lead to significant complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility in women.&lt;/strong&gt; Untreated gonorrhea can spread into the uterus and fallopian tubes, causing pelvic inflammatory disease (PID), which may result in scarring of the tubes, greater risk of pregnancy complications and infertility. PID is a serious infection that requires immediate treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility in men.&lt;/strong&gt; Men with untreated gonorrhea can experience epididymitis &amp;mdash; inflammation of the rear portion of the testicles where the sperm ducts are located (epididymis). Epididymitis is treatable, but if left untreated, it may lead to infertility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection that spreads to the joints and other areas of your body.&lt;/strong&gt; The bacterium that causes gonorrhea can spread through the bloodstream and infect other parts of your body, including your joints. Fever, rash, skin sores, joint pain, swelling and stiffness are possible results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased risk of HIV/AIDS.&lt;/strong&gt; Having gonorrhea makes you more susceptible to infection with human immunodeficiency virus (HIV), the virus that leads to AIDS. People who have both gonorrhea and HIV are able to pass both diseases more readily to their partners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complications in babies.&lt;/strong&gt; Babies who contract gonorrhea from their mothers during birth can develop blindness, sores on the scalp and infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you have gonorrhea, you&apos;re likely to start by seeing your family doctor or a general practitioner. If your gonorrhea causes complications, you may be referred to specialists. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For gonorrhea, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is gonorrhea causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Should I be tested for other sexually transmitted infections?&lt;/li&gt;
+	&lt;li&gt;Should my partner be tested for gonorrhea?&lt;/li&gt;
+	&lt;li&gt;How long should I wait before resuming sexual activity?&lt;/li&gt;
+	&lt;li&gt;How can I prevent gonorrhea in the future?&lt;/li&gt;
+	&lt;li&gt;What gonorrhea complications should I be alert for?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you have trouble understanding something the doctor says. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to any sexually transmitted infections?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Abstain from sex until you see your doctor. Alert your sex partners that you&apos;re experiencing signs and symptoms, so they may consider seeing their doctors for testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether the gonorrhea bacterium is present in your body, your doctor will analyze a sample of cells. Samples can be collected by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; This may help identify bacteria in your urethra.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swab of affected area.&lt;/strong&gt; A swab of your throat, urethra, vagina or rectum may collect bacteria that can be identified in a laboratory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Testing for other sexually transmitted infections&lt;/strong&gt; &lt;br /&gt;
+Your doctor also may recommend tests for other sexually transmitted infections. Gonorrhea increases your risk of these infections, particularly chlamydia, which often accompanies gonorrhea. Testing for HIV is also recommended for anyone diagnosed with a sexually transmitted infection. Depending on your risk factors, tests for additional sexually transmitted infections could be beneficial as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Gonorrhea treatment in adults&lt;/strong&gt; &lt;br /&gt;
+Adults with gonorrhea are treated with antibiotics. Due to emerging strains of drug-resistant Neisseria gonorrhoeae, the Centers for Disease Control and Prevention recommends that uncomplicated gonorrhea be treated only with the antibiotic ceftriaxone &amp;mdash; given as an injection &amp;mdash; in combination with either azithromycin or doxycycline &amp;mdash; two antibiotics that are taken orally. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Gonorrhea treatment for partners&lt;/strong&gt; &lt;br /&gt;
+Your partner also should undergo testing and treatment for gonorrhea, even if he or she has no signs or symptoms. Your partner receives the same treatment you do. Even if you&apos;ve been treated for gonorrhea, you can be reinfected if your partner isn&apos;t treated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Gonorrhea treatment for babies&lt;/strong&gt; &lt;br /&gt;
+Babies born to mothers with gonorrhea receive a medication in their eyes soon after birth to prevent infection. If an eye infection develops, babies can be treated with antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take steps to reduce your risk of gonorrhea: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use a condom if you choose to have sex.&lt;/strong&gt; Abstaining from sex is the surest way to prevent gonorrhea. But if you choose to have sex, use a condom during any type of sexual contact, including anal sex, oral sex or vaginal sex.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your partner to be tested for sexually transmitted infections.&lt;/strong&gt; Find out whether your partner has been tested for sexually transmitted infections, including gonorrhea. If not, ask whether he or she would be willing to undergo testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t have sex with someone who has any unusual symptoms.&lt;/strong&gt; If your partner has signs or symptoms of a sexually transmitted infection, such as burning during urination or a genital rash or sore, don&apos;t have sex with that person.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider regular gonorrhea screening if you have an increased risk.&lt;/strong&gt; Talk to your doctor about regular gonorrhea screening if you have an increased risk of infection. You may be at increased risk of gonorrhea if you have had gonorrhea or other sexually transmitted infections in the past, if you have a new sex partner, or if you have multiple sex partners. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gonorrhea
+	</Title>
+	<Abstract>
+		Gonorrhea &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this sexually transmitted infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="ID00053" LinkType="Internal" ObjectID="AB2D594E-E7FF-0DBD-1159C5056649527A" Title="STD symptoms: Common STDs and their symptoms" Url="http://www.mayoclinic.com/health/std-symptoms/ID00053" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+	</RelatedLinksBox>
+</Disease>

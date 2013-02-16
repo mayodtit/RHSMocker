@@ -1,0 +1,302 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00437
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/parvovirus-infection/DS00437
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-12
+		</UpdateDate>
+		<PublicationDate>
+			2002-04-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="4342" Title="Parvovirus infection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D4C70728-4C58-4D25-B70BBD26624A1466
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				parvovirus
+			</MetaKeyword>
+			<MetaKeyword>
+				parvovirus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				parvovirus B19
+			</MetaKeyword>
+			<MetaKeyword>
+				fifth disease
+			</MetaKeyword>
+			<MetaKeyword>
+				slapped-cheeks disease
+			</MetaKeyword>
+			<MetaKeyword>
+				childhood infections
+			</MetaKeyword>
+			<MetaKeyword>
+				erythema infectiosum
+			</MetaKeyword>
+			<MetaKeyword>
+				hydrops fetalis
+			</MetaKeyword>
+			<MetaKeyword>
+				fetal hydrops
+			</MetaKeyword>
+			<MetaKeyword>
+				fifth&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				parvo
+			</MetaKeyword>
+			<MetaKeyword>
+				parvo virus
+			</MetaKeyword>
+			<MetaKeyword>
+				5th disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Parvovirus infection is a common and highly contagious childhood ailment &amp;mdash; sometimes called slapped-cheek disease because of the distinctive face rash that develops. Parvovirus infection also has been known as fifth disease because, historically, it was one of five common childhood illnesses characterized by a rash. 
+&lt;/p&gt;
+&lt;p&gt;
+In most children, parvovirus infection is mild and requires little treatment. However, in some adults, the infection can be serious. Parvovirus infection in some pregnant women can lead to serious health problems for the fetus. Parvovirus infection is also more serious for people with some kinds of anemia or who have a compromised immune system. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing face rash of parvovirus infection 
+" Caption="A bright red rash on the cheeks is a distinctive sign of parvovirus infection. 
+" Height="60" Title="Parvovirus infection face rash" URI="/images/image_popup/thumbs/mcdc7_parvothu.jpg" Width="60" />
+				<Image Alt="Photo showing face rash of parvovirus infection 
+" Caption="A bright red rash on the cheeks is a distinctive sign of parvovirus infection. 
+" Height="260" Title="Parvovirus infection face rash" URI="/images/image_popup/mcdc7_parvo.jpg" Width="400" />
+				<HTML>
+					A bright red rash on the cheeks is a distinctive sign of parvovirus infection. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with parvovirus infection have no signs or symptoms. When symptoms do appear, they vary greatly depending on the age of the person who has the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Parvovirus symptoms in children&lt;/strong&gt; &lt;br /&gt;
+Early signs and symptoms of parvovirus infection in children may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Slight fever&lt;/li&gt;
+	&lt;li&gt;Upset stomach&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Distinctive facial rash&lt;/strong&gt; &lt;br /&gt;
+Several days after the appearance of early symptoms, a distinctive bright red facial rash may appear &amp;mdash; usually on both cheeks. Eventually it may extend to the arms, trunk, thighs and buttocks, where the rash has a pink, lacy, slightly raised appearance. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, the rash occurs near the end of the illness. It&apos;s possible to mistake the rash for other viral rashes or a medicine-related rash. The rash may come and go for up to three weeks, becoming more visible when a child is exposed to extreme temperatures or spends time in the sun. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Parvovirus symptoms in adults&lt;/strong&gt; &lt;br /&gt;
+Adults don&apos;t usually develop the slapped-cheek rash. Instead, the most prominent symptom of parvovirus infection in adults is joint soreness, lasting days to weeks. Joints most commonly affected are the hands, wrists, knees and ankles. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Generally, you don&apos;t need to see a doctor for parvovirus infection. But if you or your child has an underlying condition that may increase the risk of complications, make an appointment with your doctor. These conditions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sickle cell anemia&lt;/li&gt;
+	&lt;li&gt;Impaired immune system&lt;/li&gt;
+	&lt;li&gt;Pregnancy &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing face rash of parvovirus infection 
+" Caption="A bright red rash on the cheeks is a distinctive sign of parvovirus infection. 
+" Height="60" Title="Parvovirus infection face rash" URI="/images/image_popup/thumbs/mcdc7_parvothu.jpg" Width="60" />
+				<Image Alt="Photo showing face rash of parvovirus infection 
+" Caption="A bright red rash on the cheeks is a distinctive sign of parvovirus infection. 
+" Height="260" Title="Parvovirus infection face rash" URI="/images/image_popup/mcdc7_parvo.jpg" Width="400" />
+				<HTML>
+					A bright red rash on the cheeks is a distinctive sign of parvovirus infection. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The human parvovirus B19 causes parvovirus infection. This is different from the parvovirus seen in dogs and cats, so you can&apos;t get the infection from a pet or vice versa. 
+&lt;/p&gt;
+&lt;p&gt;
+Human parvovirus infection is most common among elementary school-age children during outbreaks in the winter and spring months, but anyone can become ill with it anytime of the year. It spreads from person to person, just like a cold, often through respiratory secretions and hand-to-hand contact. 
+&lt;/p&gt;
+&lt;p&gt;
+The illness is contagious in the week before the rash appears. Once the rash appears, the person with the illness is no longer considered contagious and doesn&apos;t need to be isolated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Parvovirus and anemia&lt;/strong&gt; &lt;br /&gt;
+Parvovirus infection can cause serious complications for people with anemia, a condition in which red blood cells, which carry oxygen to all the parts of your body, are used up faster than your bone marrow can replace them. Parvovirus infection in people with anemia may stop the production of red blood cells and cause an anemia crisis. People with sickle cell anemia are at particular risk. 
+&lt;/p&gt;
+&lt;p&gt;
+Parvovirus can also cause anemia and related complications in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The unborn children of women infected with parvovirus during pregnancy&lt;/li&gt;
+	&lt;li&gt;People who have weakened immune systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Parvovirus infection in pregnancy&lt;/strong&gt; &lt;br /&gt;
+Parvovirus infection during pregnancy sometimes affects red blood cells in the fetus, causing a severe anemia that could lead to miscarriage or stillbirth. Fetal risk appears greatest during the first half of the pregnancy. Treatment options include a blood transfusion directly to your fetus or giving you medications that pass through the placenta to your fetus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Parvovirus in people with weakened immune systems&lt;/strong&gt; &lt;br /&gt;
+Parvovirus infection can also trigger severe anemia in people who have compromised immune systems, which may result from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;AIDS&lt;/li&gt;
+	&lt;li&gt;Cancer treatments&lt;/li&gt;
+	&lt;li&gt;Anti-rejection drugs used after organ transplants&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with parvovirus infection don&apos;t seek medical attention. You may want to talk to your family doctor if you or your child has been exposed to parvovirus and has an underlying condition that increases the risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before the appointment, you may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When and how you or your child was exposed to parvovirus&lt;/li&gt;
+	&lt;li&gt;A detailed description of symptoms&lt;/li&gt;
+	&lt;li&gt;Medical problems that run in your family&lt;/li&gt;
+	&lt;li&gt;Medical problems you or your child has had in the past&lt;/li&gt;
+	&lt;li&gt;All the drugs and supplements you or your child takes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical examination, your doctor will pay special attention to any skin rashes. If you&apos;re a female past puberty, your doctor may ask if there&apos;s any chance you&apos;re pregnant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About half of adults are immune to parvovirus infection, most likely because of a previous, unnoticed, childhood infection. People who are at risk of severe parvovirus complications might benefit from blood tests that can help determine if they&apos;re immune to parvovirus or if they&apos;ve recently become infected. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For a noncomplicated parvovirus infection, self-care treatment at home is generally sufficient. People with severe anemia may need to be hospitalized and receive blood transfusions. Those with weakened immune systems may receive antibodies, via immune globulin injections, to treat the infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-care treatment is aimed primarily at relieving signs and symptoms and easing any discomfort. Make sure you or your child gets plenty of rest and drinks lots of fluids. You can use acetaminophen (Tylenol, others) to relieve temperatures of more than 102 F (39 C) or minor aches and pains. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s impractical and unnecessary to isolate your sick child. You won&apos;t know your child has parvovirus infection until the rash appears, and by that time, your child is no longer contagious. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no vaccine to prevent parvovirus infection. Once you&apos;ve become infected with parvovirus, you acquire lifelong immunity. Washing your hands and your child&apos;s hands frequently may help diminish the chances of getting an infection. Throw away used tissues immediately after use &amp;mdash; wash your hands after handling them. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Parvovirus infection
+	</Title>
+	<Abstract>
+		Parvovirus infection &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this childhood infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+	</RelatedLinksBox>
+</Disease>

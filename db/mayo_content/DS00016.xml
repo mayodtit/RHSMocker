@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00016
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chest-pain/DS00016
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="1693" Title="Chest pain" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chest pain
+			</MetaKeyword>
+			<MetaKeyword>
+				pain in the chest
+			</MetaKeyword>
+			<MetaKeyword>
+				chest pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				chest fullness
+			</MetaKeyword>
+			<MetaKeyword>
+				fullness in the chest
+			</MetaKeyword>
+			<MetaKeyword>
+				left arm
+			</MetaKeyword>
+			<MetaKeyword>
+				angina
+			</MetaKeyword>
+			<MetaKeyword>
+				heart attack
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+			<MetaKeyword>
+				rib pain
+			</MetaKeyword>
+			<MetaKeyword>
+				tightness in chest
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chest pain comes in many varieties, ranging from a sharp stab to a dull ache. Some types of chest pain can be described as crushing or burning. In certain cases, the pain travels up the neck, pierces through to the back or radiates down one or both arms. 
+&lt;/p&gt;
+&lt;p&gt;
+Many different types of problems can cause chest pain. The most life-threatening ones involve the heart or lungs. Because it can be difficult to determine what exactly is causing chest pain, it&apos;s best to seek immediate medical help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A wide range of health problems can cause chest pain. In many cases, the underlying cause has nothing to do with your heart &amp;mdash; though there&apos;s no easy way to tell without seeing a doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart-related chest pain&lt;/strong&gt; &lt;br /&gt;
+Although chest pain is commonly attributed to heart disease, many heart patients experience a vague discomfort and they often specifically mention that pain does not seem to be an adequate description. In general, chest discomfort related to a heart attack or another heart problem may be associated with one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pressure, fullness or tightness in your chest&lt;/li&gt;
+	&lt;li&gt;Crushing or searing pain that radiates to your back, neck, jaw, shoulders and arms &amp;mdash; particularly your left arm&lt;/li&gt;
+	&lt;li&gt;Pain that lasts more than a few minutes, goes away and comes back or varies in intensity&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, sweating, dizziness or nausea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of chest pain&lt;/strong&gt; &lt;br /&gt;
+It can be difficult to distinguish chest pain due to a heart problem from other types of chest pain. However, chest pain that is less likely due to a heart problem is more often associated with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sour taste or a sensation of food re-entering your mouth&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing&lt;/li&gt;
+	&lt;li&gt;Pain that gets better or worse when you change your body position&lt;/li&gt;
+	&lt;li&gt;Pain that intensifies when you breathe deeply or cough&lt;/li&gt;
+	&lt;li&gt;Tenderness when you push on your chest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The classic symptoms of heartburn &amp;mdash; a painful, burning sensation behind your breastbone &amp;mdash; can be caused by problems with your heart or your stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have new or unexplained chest pain or suspect you&apos;re having a heart attack, call for emergency medical help immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chest pain has many possible causes, all of which deserve medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart-related causes&lt;/strong&gt; &lt;br /&gt;
+Examples of heart-related causes of chest pain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; A heart attack is a result of a blood clot that&apos;s blocking blood flow to your heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angina.&lt;/strong&gt; Thick plaques can gradually build up on the inner walls of the arteries that carry blood to your heart. These plaques narrow the arteries and restrict the heart&apos;s blood supply, particularly during exertion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aortic dissection.&lt;/strong&gt; This life-threatening condition involves the main artery leading from your heart &amp;mdash; your aorta. If the inner layers of this blood vessel separate, blood will be forced between the layers and can cause the aorta to rupture. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pericarditis.&lt;/strong&gt; This condition, an inflammation of the sac surrounding your heart, is short-lived and often related to a viral infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Digestive causes&lt;/strong&gt; &lt;br /&gt;
+Chest pain can be caused by disorders of the digestive system, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heartburn.&lt;/strong&gt; This painful, burning sensation behind your breastbone occurs when stomach acid washes up from your stomach into the esophagus &amp;mdash; the tube that connects your throat to your stomach. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowing disorders.&lt;/strong&gt; Disorders of the esophagus can make swallowing difficult and even painful. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gallbladder or pancreas problems.&lt;/strong&gt; Gallstones or inflammation of your gallbladder or pancreas can cause abdominal pain that radiates to your chest. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Muscle and bone causes&lt;/strong&gt; &lt;br /&gt;
+Some types of chest pain are associated with injuries and other problems affecting the structures that make up the chest wall. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Costochondritis.&lt;/strong&gt; In this condition, the cartilage of your rib cage, particularly the cartilage that joins your ribs to your breastbone, becomes inflamed and painful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sore muscles.&lt;/strong&gt; Chronic pain syndromes, such as fibromyalgia, can produce persistent muscle-related chest pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injured ribs.&lt;/strong&gt; A bruised or broken rib can cause chest pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung-related causes&lt;/strong&gt; &lt;br /&gt;
+Many lung disorders can cause chest pain, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary embolism.&lt;/strong&gt; This cause of chest pain occurs when a blood clot becomes lodged in a lung (pulmonary) artery, blocking blood flow to lung tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pleurisy.&lt;/strong&gt; If the membrane that covers your lungs becomes inflamed, it can cause chest pain that&apos;s made worse when you inhale or cough.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collapsed lung.&lt;/strong&gt; The chest pain associated with a collapsed lung typically begins suddenly and can last for hours. A collapsed lung occurs when air leaks into the space between the lung and the ribs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary hypertension.&lt;/strong&gt; High blood pressure in the arteries carrying blood to the lungs (pulmonary hypertension) also can produce chest pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;/strong&gt; &lt;br /&gt;
+Chest pain can also be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Panic attack.&lt;/strong&gt; If you experience periods of intense fear accompanied by chest pain, rapid heartbeat, rapid breathing, profuse sweating and shortness of breath, you may be experiencing a panic attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shingles.&lt;/strong&gt; Caused by a reactivation of the chickenpox virus, shingles can produce pain and a band of blisters from your back around to your chest wall.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing possible causes of noncardiac chest pain 
+" Caption="Chest pain isn&apos;t always caused by heart problems. But, because you can&apos;t always determine the cause yourself, don&apos;t delay in seeking medical attention. 
+" Height="60" Title="Chest pain" URI="/images/image_popup/thumbs/r7_chest_pain10_13thu.jpg" Width="60" />
+				<Image Alt="Illustration showing possible causes of noncardiac chest pain 
+" Caption="Chest pain isn&apos;t always caused by heart problems. But, because you can&apos;t always determine the cause yourself, don&apos;t delay in seeking medical attention. 
+" Height="285" Title="Chest pain" URI="/images/image_popup/r7_chest_pain10_13.jpg" Width="395" />
+				<HTML>
+					Chest pain isn&apos;t always caused by heart problems. But, because you can&apos;t always determine the cause yourself, don&apos;t delay in seeking medical attention. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call for an ambulance or have someone drive you to an emergency room if you experience new or unexplained chest pain or pressure that lasts for more than a few moments. Don&apos;t waste any time for fear of embarrassment if it&apos;s not a heart attack. Even if there&apos;s another cause for your chest pain, you need to be seen right away. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+On the way to the hospital, share the following information with the emergency caregivers: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms.&lt;/strong&gt; Describe your signs and symptoms in detail, noting when they started and whether anything makes the pain better or worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Have you ever had chest pain before? What caused it? Do you or any close family members have a history of heart disease or diabetes? &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Having a list of all the medications and supplements you regularly take will be helpful to the emergency workers. You might want to prepare such a list in advance to carry in your wallet or purse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once you&apos;re at the hospital, it&apos;s likely that your medical evaluation will move ahead rapidly. Based on results from an electrocardiogram (ECG) and blood tests, your doctor may be able to quickly determine if you are having a heart attack &amp;mdash; or give you another explanation for your symptoms. You&apos;ll probably have a number of questions at this point. If you haven&apos;t received the following information, you may want to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to be hospitalized?&lt;/li&gt;
+	&lt;li&gt;What treatments do I need right now?&lt;/li&gt;
+	&lt;li&gt;Are there any risks associated with these treatments?&lt;/li&gt;
+	&lt;li&gt;What are the next steps in my diagnosis and treatment?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions after returning home?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any additional questions that occur to you during your medical evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;/strong&gt; &lt;br /&gt;
+A doctor who sees you for chest pain may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms start? Have they gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Where does your pain seem to start?&lt;/li&gt;
+	&lt;li&gt;Does your pain radiate to any other parts of your body? &lt;/li&gt;
+	&lt;li&gt;What words would you use to describe your pain? &lt;/li&gt;
+	&lt;li&gt;Are you having any trouble breathing? &lt;/li&gt;
+	&lt;li&gt;Do your symptoms include dizziness or lightheadedness? &lt;/li&gt;
+	&lt;li&gt;Do your symptoms include vomiting? &lt;/li&gt;
+	&lt;li&gt;Do you have high blood pressure? If so, do you take medicine for it? &lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or caffeine? How much? &lt;/li&gt;
+	&lt;li&gt;Do you use illicit drugs, such as cocaine?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chest pain doesn&apos;t always signal a heart attack. But that&apos;s what emergency room doctors will test for first because it&apos;s potentially the most immediate threat to your life. They may also check for life-threatening lung conditions &amp;mdash; such as a collapsed lung or a clot in your lung. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immediate tests&lt;/strong&gt; &lt;br /&gt;
+Some of the first tests you may undergo include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This test records the electrical activity of your heart through electrodes attached to your skin. Because injured heart muscle doesn&apos;t conduct electrical impulses normally, the ECG may show that a heart attack has occurred or is in progress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may order blood tests to check for increased levels of certain enzymes normally found in heart muscle. Damage to heart cells from a heart attack may allow these enzymes to leak, over a period of hours, into your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray of your chest allows doctors to check the condition of your lungs and the size and shape of your heart and major blood vessels. A chest X-ray can also reveal lung problems such as pneumonia or a collapsed lung.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up testing&lt;/strong&gt; &lt;br /&gt;
+Depending upon the results from these initial tests, you may need follow-up testing, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram uses sound waves to produce a video image of your heart in motion. In some cases, a small device may be passed down your throat to obtain better views of different parts of your heart. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT scan).&lt;/strong&gt; Different types of CT scans can be used to check your heart arteries for signs of calcium, which indicate areas where plaque blockages are accumulating. CT scans can also be done with dye to check your heart and lung arteries for blockages and other problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI is an imaging technique that uses magnetic fields and radio waves to create cross-sectional images of your body. MRI of the heart is sometimes done to look for evidence of damage to the heart or aorta. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress tests.&lt;/strong&gt; These measure how your heart and blood vessels respond to exertion, which may indicate if your pain is related to your heart. There are many kinds of stress tests. You may be asked to walk on a treadmill or pedal a stationary bike while hooked up to an ECG. Or you may be given a drug intravenously to stimulate your heart in a way similar to exercise. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary catheterization (angiogram).&lt;/strong&gt; This test helps doctors identify individual arteries to your heart that may be narrowed or blocked. A liquid dye is injected into the arteries of your heart through a catheter &amp;mdash; a long, thin tube that&apos;s fed through an artery, usually in your groin, to arteries in your heart. As the dye fills your arteries, they become visible on X-ray and video. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment will vary, depending on the underlying cause of your chest pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Drugs used to treat some of the most common causes of chest pain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Artery relaxers.&lt;/strong&gt; Nitroglycerin &amp;mdash; usually taken as a tablet under the tongue &amp;mdash; relaxes heart arteries, so blood can flow more easily through the narrowed spaces. Some blood pressure medicines also relax and widen blood vessels. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clot-busting drugs.&lt;/strong&gt; If you are having a heart attack, you may receive drugs that work to dissolve the clot that is blocking blood from reaching your heart muscle. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood thinners.&lt;/strong&gt; If you have a clot in an artery feeding your heart or lungs, you&apos;ll be given drugs that inhibit blood clotting &amp;mdash; to help prevent more clots from forming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids.&lt;/strong&gt; If your chest pain is caused by stomach acid splashing up your esophagus, the doctor may suggest medications that reduce the amount of acid in your stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-anxiety drugs.&lt;/strong&gt; If you are experiencing panic attacks, your doctor may prescribe anti-anxiety drugs to help control your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt; &lt;br /&gt;
+Procedures used to treat some of the most dangerous causes of chest pain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Balloons and stents.&lt;/strong&gt; If your chest pain is caused by a blockage in an artery feeding your heart, doctors insert narrow tubing into a large blood vessel in your groin and then thread it up to the blockage. They then deploy a balloon to reopen the artery. In many cases, a small wire mesh tube (stent) is inserted to keep the artery open.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bypass surgery.&lt;/strong&gt; During this procedure, surgeons take a blood vessel from another part of your body and use it to create an alternative route for blood to go around the blocked artery. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dissection repair.&lt;/strong&gt; You may need emergency surgery to repair an aortic dissection &amp;mdash; a life-threatening condition that can result in the rupture of the artery that carries blood from your heart to the rest of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung reinflation.&lt;/strong&gt; If you have a collapsed lung, doctors may insert a tube in your chest, which allows the lung to reinflate. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chest pain
+	</Title>
+	<Abstract>
+		Chest pain &amp;mdash; Comprehensive overview covers causes, diagnosis, treatment of problems this symptom may signal.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

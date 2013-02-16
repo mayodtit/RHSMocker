@@ -1,0 +1,319 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00619
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spermatocele/DS00619
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-15
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2054" Title="Testes">
+						<Keyword MCVID="2669" Title="Spermatocele" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F495FFCE-2A5D-9994-E06E4F1A120F1A08
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spermatocele
+			</MetaKeyword>
+			<MetaKeyword>
+				spermatic cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				scrotal mass
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A spermatocele (SPUR-muh-toe-seal) is an abnormal sac (cyst) that develops in the epididymis &amp;mdash; the small, coiled tube located on the upper testicle that collects and transports sperm. Generally painless and noncancerous, a spermatocele usually is filled with milky or clear fluid that may contain sperm.
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause of spermatoceles is unknown but may be due to a blockage in one of the tubes that drains sperm.
+&lt;/p&gt;
+&lt;p&gt;
+Spermatoceles, sometimes called spermatic cysts, are common. They typically don&apos;t reduce fertility or require treatment. If a spermatocele grows large enough to cause discomfort, your doctor may suggest surgery.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of spermatocele 
+" Caption="A spermatocele, also known as a spermatic cyst, is a typically painless, noncancerous (benign), fluid-filled sac that grows near the top of a testicle. 
+" Height="60" Title="Spermatocele" URI="/images/image_popup/thumbs/ans7_spermatocelethu.jpg" Width="60" />
+				<Image Alt="Illustration of spermatocele 
+" Caption="A spermatocele, also known as a spermatic cyst, is a typically painless, noncancerous (benign), fluid-filled sac that grows near the top of a testicle. 
+" Height="380" Title="Spermatocele" URI="/images/image_popup/ans7_spermatocele.jpg" Width="400" />
+				<HTML>
+					A spermatocele, also known as a spermatic cyst, is a typically painless, noncancerous (benign), fluid-filled sac that grows near the top of a testicle. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A spermatocele usually causes no signs or symptoms and may remain the same size. If it becomes large enough, however, you may feel:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain or discomfort in the affected testicle&lt;/li&gt;
+	&lt;li&gt;A feeling of heaviness in the testicle with the spermatocele&lt;/li&gt;
+	&lt;li&gt;Swelling behind and above the testicle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Because a spermatocele usually doesn&apos;t cause symptoms, you may discover it only during a testicular self-exam, or your doctor may find it during a routine physical exam.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to have your doctor evaluate any scrotal mass to rule out a serious condition, such as testicular cancer. You also need to call your doctor if you experience pain or swelling in your scrotum. A number of conditions can cause testicular pain, and some of the conditions require immediate treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of spermatoceles is unknown. Spermatoceles may result from a blockage in one of the tubes that drain sperm from the testicle into the epididymis. Trauma and inflammation also may cause spermatoceles.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t many known risk factors for developing a spermatocele, except for increasing age. Spermatoceles are most often found in men between the ages of 40 and 60.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A spermatocele is unlikely to cause complications. 
+&lt;/p&gt;
+&lt;p&gt;
+However, if your spermatocele is painful or has grown so large that it&apos;s causing you discomfort, you may need to have surgery to remove the spermatocele. Surgical removal may damage the epididymis or the vas deferens, a tube that transports sperm from the epididymis. Damage to either can reduce fertility. Another possible complication that can occur after surgery is that the spermatocele may come back. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="60" Title="Male reproductive system" URI="/images/image_popup/thumbs/r7_malereprothu.jpg" Width="60" />
+				<Image Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="283" Title="Male reproductive system" URI="/images/image_popup/r7_malerepro.jpg" Width="400" />
+				<HTML>
+					The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in treating the urinary tract and sex organs in men (urologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any testicular injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is often limited, so preparing a list of questions can help you make the most of your time together. For spermatocele, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;Will the spermatocele affect my ability to have sex?&lt;/li&gt;
+	&lt;li&gt;Will this condition affect my fertility?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;How long after surgery do I need to wait before returning to normal activities?&lt;/li&gt;
+	&lt;li&gt;How long after surgery do I need to wait before resuming sexual activity?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;How often are you having symptoms?&lt;/li&gt;
+	&lt;li&gt;How long ago did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any trauma to your scrotal area?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If the spermatocele is causing pain, most people can safely take over-the-counter pain medications, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others), to ease the discomfort.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose a spermatocele, you&apos;ll need a physical exam. Although a spermatocele generally isn&apos;t painful, you may feel discomfort when your doctor examines (palpates) the mass.
+&lt;/p&gt;
+&lt;p&gt;
+You may also undergo the following diagnostic tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Transillumination.&lt;/strong&gt; Your doctor may shine a light through your scrotum. With a spermatocele, the light will indicate that the mass is fluid-filled rather than solid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; If transillumination indicates a fluid-filled mass, your doctor may order an ultrasound to confirm the diagnosis. If transillumination doesn&apos;t clearly indicate a cyst, an ultrasound can help determine what else it might be. This test, which uses high-frequency sound waves to create images of structures, may be used to rule out a testicular tumor or other cause of scrotal swelling.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although your spermatocele probably won&apos;t go away on its own, most spermatoceles don&apos;t need treatment. They generally don&apos;t cause pain or complications. If yours is painful, your doctor may recommend that you take over-the-counter pain medications, such as acetaminophen (Tylenol, others) or ibuprofen (Motrin, Advil, others).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical treatment&lt;/strong&gt;&lt;br /&gt;
+A procedure called a spermatocelectomy generally is performed on an outpatient basis, using local or general anesthetic. The surgeon makes an incision in the scrotum and separates the spermatocele from the epididymis.
+&lt;/p&gt;
+&lt;p&gt;
+After surgery, you may need to wear a gauze-filled athletic supporter to apply pressure to and protect the site of the incision. Your doctor may also tell you to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apply ice packs for two or three days to keep swelling down&lt;/li&gt;
+	&lt;li&gt;Take oral pain medications for a day or two&lt;/li&gt;
+	&lt;li&gt;Return for a follow-up exam about two weeks after surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Possible complications from surgical removal that might affect fertility include damage to the epididymis or to the tube that transports sperm (vas deferens). It&apos;s also possible that a spermatocele may come back, even after surgery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sclerotherapy&lt;/strong&gt;&lt;br /&gt;
+Another treatment that&apos;s not used as often is called sclerotherapy. This treatment begins by removing the fluid from the spermatocele and then injecting an irritating chemical into the sac. The irritating agent causes the spermatocele sac to scar, which takes up the space the fluid occupied and may lower the risk of the spermatocele coming back.
+&lt;/p&gt;
+&lt;p&gt;
+Damage to the epididymis is a possible complication of sclerotherapy. It&apos;s also possible that your spermatocele may come back. Sclerotherapy usually is used only for men who are beyond their reproductive years.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no way to prevent a spermatocele, it&apos;s important for you to conduct scrotal self-exams at least monthly to detect changes in your scrotum, such as masses. Your doctor can instruct you in how to conduct a testicular self-examination, which can improve your chances of finding a mass.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How to examine your testicles&lt;/strong&gt;&lt;br /&gt;
+A good time to examine your testicles is after a warm bath or shower. The heat from the water relaxes your scrotum, making it easier for you to detect anything unusual. Then follow these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stand in front of a mirror.&lt;/strong&gt; Look for any swelling on the skin of the scrotum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examine each testicle with both hands.&lt;/strong&gt; Place the index and middle fingers under the testicle while placing your thumbs on the top.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently roll the testicle between the thumbs and the fingers.&lt;/strong&gt; Remember that the testicles are usually smooth, oval shaped and somewhat firm. It&apos;s normal for one testicle to be slightly larger than the other is. Also, the cord leading upward from the top of the testicle (epididymis) is a normal part of the scrotum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+By regularly performing this exam, you&apos;ll become more familiar with your testicles and aware of any changes that might be of concern. If you find a lump, call your doctor as soon as possible.
+&lt;/p&gt;
+&lt;p&gt;
+Regular self-examination is an important health habit. But it can&apos;t substitute for a doctor&apos;s examination. Your doctor normally checks your testicles whenever you have a physical exam.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="60" Title="Testicular self-examination" URI="/images/image_popup/thumbs/testicular.gif" Width="60" />
+				<Image Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="298" Title="Testicular self-examination" URI="/images/image_popup/testicular.jpg" Width="400" />
+				<HTML>
+					To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Spermatocele
+	</Title>
+	<Abstract>
+		Spermatocele &amp;mdash; Comprehensive overview covers symptoms, treatment of this noncancerous, often painless testicular disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00776" LinkType="Internal" ObjectID="55D65447-F6C3-138B-3A6219B085521B70" Title="Testicular exam" Url="http://www.mayoclinic.com/health/testicular-exam/MY00776" />
+	</RelatedLinksBox>
+</Disease>

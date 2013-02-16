@@ -1,0 +1,207 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00161
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00161
+		</OriginalURL>
+		<UpdateDate>
+			2009-06-26
+		</UpdateDate>
+		<PublicationDate>
+			2009-06-26
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F6082AD9-C89F-4F8A-B571AB3E859C6107
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fix-it and enjoy-it healthy cookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 400 recipes collected in the &quot;Fix-It and Enjoy-It! Healthy Cookbook&quot; published by Good Books and available at the MayoClinic.com Bookstore.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Chicken fajitas
+	</Title>
+	<Abstract>
+		Chicken fajitas &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		12
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip: &lt;/strong&gt;It&apos;s easier to slice the chicken when it is still partially frozen rather than waiting until it&apos;s completely thawed. Add your favorite hot pepper along with the sweet peppers to give this dish a higher heat index.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Combine the first four ingredients in a large bowl. Add chicken slices and stir until chicken is well coated. Marinate for 15 minutes. Cook chicken in pan on grill or stovetop for 3 minutes, or until no longer pink. Stir in onions and peppers. Cook 3 to 5 minutes, or until done to your liking. Divide mixture evenly among tortillas. Top each with 2 teaspoons salsa, 2 teaspoons sour cream and 2 teaspoons shredded cheese. Roll up and serve. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1/4 cup lime juice&lt;/li&gt;
+	&lt;li&gt;1 or 2 cloves garlic, minced&lt;/li&gt;
+	&lt;li&gt;1 teaspoon chili powder&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon ground cumin&lt;/li&gt;
+	&lt;li&gt;3 pounds boneless, skinless chicken breasts, cut in 1/4-inch strips&lt;/li&gt;
+	&lt;li&gt;1 large onion, sliced&lt;/li&gt;
+	&lt;li&gt;Half a green sweet bell pepper, slivered&lt;/li&gt;
+	&lt;li&gt;Half a red sweet bell pepper, slivered&lt;/li&gt;
+	&lt;li&gt;12 whole-wheat 8-inch tortillas&lt;/li&gt;
+	&lt;li&gt;1/2 cup salsa&lt;/li&gt;
+	&lt;li&gt;1/2 cup fat-free sour cream&lt;/li&gt;
+	&lt;li&gt;1/2 cup low-fat shredded cheese&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				1/2
+			</Dairy>
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products">
+				1/2
+			</Milk>
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1.5
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				334
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				30 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				68 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				6 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				34 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 filled tortilla
+			</Servingsize>
+			<Sodium Label="Sodium">
+				689 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				9 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 12
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Stir-fry
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

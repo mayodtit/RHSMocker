@@ -1,0 +1,255 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00767
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ganglion-cysts/DS00767
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="2722" Title="Ganglion cysts" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FC4597DB-E7FF-0DBD-1C5848C8F7E00671
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ganglion cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				ganglian cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				hand pain
+			</MetaKeyword>
+			<MetaKeyword>
+				wrist pain
+			</MetaKeyword>
+			<MetaKeyword>
+				hand lump
+			</MetaKeyword>
+			<MetaKeyword>
+				wrist lump
+			</MetaKeyword>
+			<MetaKeyword>
+				hand cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				wrist cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				foot cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				sist
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ganglion cysts are noncancerous lumps that most commonly develop along the tendons or joints of your wrists or hands. They also may occur in the ankles and feet. Ganglion cysts are typically round or oval and are filled with a jelly-like fluid. 
+&lt;/p&gt;
+&lt;p&gt;
+Small ganglion cysts can be pea-sized, while larger ones can be around an inch (2.5 cm) in diameter. Ganglion cysts can be painful if they press on a nearby nerve. Their location can sometimes interfere with joint movement. 
+&lt;/p&gt;
+&lt;p&gt;
+If your ganglion cyst is causing you problems, your doctor may suggest trying to drain the cyst with a needle. Removing the cyst surgically is also an option. But if you have no symptoms, no treatment is necessary. In many cases, the cysts go away on their own. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ganglion cyst 
+" Caption="Ganglion cysts are lumps that most commonly develop in the wrist. They&apos;re typically round or oval and are filled with a jelly-like fluid. 
+" Height="60" Title="Ganglion cyst" URI="/images/image_popup/thumbs/mcdc7_ganglion_cystthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ganglion cyst 
+" Caption="Ganglion cysts are lumps that most commonly develop in the wrist. They&apos;re typically round or oval and are filled with a jelly-like fluid. 
+" Height="460" Title="Ganglion cyst" URI="/images/image_popup/mcdc7_ganglion_cyst.jpg" Width="400" />
+				<HTML>
+					Ganglion cysts are lumps that most commonly develop in the wrist. They&apos;re typically round or oval and are filled with a jelly-like fluid. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The lumps associated with ganglion cysts can be characterized by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Location.&lt;/strong&gt; Ganglion cysts most commonly develop along the tendons or joints of your wrists or hands. The next most common locations are the ankles and feet, although these cysts can occur near other joints as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shape and size.&lt;/strong&gt; Ganglion cysts are round or oval and usually measure less than an inch in diameter. Some are so small that they can&apos;t be felt. The size of a cyst can fluctuate, often getting larger when you use that joint for repetitive motions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Ganglion cysts usually are painless. However, if a cyst presses on a nerve &amp;mdash; even if the cyst is too small to form a noticeable lump &amp;mdash; it can cause pain, tingling, numbness or muscle weakness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience a noticeable lump or pain in your wrist, hand, ankle or foot, see your doctor. He or she can make a diagnosis and determine whether you need treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes a ganglion cyst to develop. It grows out of a joint or the lining of a tendon, looking like a tiny water balloon on a stalk, and seems to occur when the tissue that surrounds a joint or a tendon bulges out of place. Inside the cyst is a thick lubricating fluid similar to that found in joints or around tendons. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ganglion cyst 
+" Caption="Ganglion cysts are lumps that most commonly develop in the wrist. They&apos;re typically round or oval and are filled with a jelly-like fluid. 
+" Height="60" Title="Ganglion cyst" URI="/images/image_popup/thumbs/mcdc7_ganglion_cystthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ganglion cyst 
+" Caption="Ganglion cysts are lumps that most commonly develop in the wrist. They&apos;re typically round or oval and are filled with a jelly-like fluid. 
+" Height="460" Title="Ganglion cyst" URI="/images/image_popup/mcdc7_ganglion_cyst.jpg" Width="400" />
+				<HTML>
+					Ganglion cysts are lumps that most commonly develop in the wrist. They&apos;re typically round or oval and are filled with a jelly-like fluid. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of ganglion cysts include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex and age.&lt;/strong&gt; Although ganglion cysts can develop in anyone, they most commonly occur in women between the ages of 20 and 30.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoarthritis.&lt;/strong&gt; People who have wear-and-tear arthritis in the finger joints closest to their fingernails are at higher risk of developing ganglion cysts near those joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint or tendon injury.&lt;/strong&gt; Joints or tendons that have been injured in the past are more likely to develop ganglion cysts in the future.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor, although he or she may eventually refer you to a hand surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you had the lump? Does it come and go?&lt;/li&gt;
+	&lt;li&gt;Have you ever injured the joint nearest the lump?&lt;/li&gt;
+	&lt;li&gt;Do you have arthritis?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have any pain or tenderness?&lt;/li&gt;
+	&lt;li&gt;Is it interfering with your ability to use your joint?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may apply pressure to the cyst to test for tenderness or discomfort. He or she may try to shine a light through the cyst to determine if it&apos;s a solid mass or filled with fluid. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor might also recommend imaging tests &amp;mdash; such as X-rays, ultrasound or magnetic resonance imaging (MRI) &amp;mdash; to rule out other conditions, such as arthritis or a tumor. MRIs and ultrasounds also can locate hidden (occult) cysts.
+&lt;/p&gt;
+&lt;p&gt;
+A ganglion cyst diagnosis may be confirmed by aspiration, a process in which your doctor uses a needle and syringe to draw out (aspirate) the fluid in the cyst. Fluid from a ganglion cyst will be thick and clear or translucent.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ganglion cysts are often painless, requiring no treatment. In fact, in many cases, doctors recommend a watch-and-wait approach. But if the ganglion cyst is causing pain or interfering with joint movement, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immobilization.&lt;/strong&gt; Because activity can cause the ganglion cyst to get larger, your doctor may recommend wearing a wrist brace or splint to immobilize the area. As the cyst shrinks, it may release the pressure on your nerves, relieving pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspiration.&lt;/strong&gt; In this procedure, your doctor uses a needle to drain the fluid from the cyst. Before the aspiration, your doctor might inject an enzyme into the cyst to make the jelly-like contents easier to remove. After aspiration, some doctors inject a steroid into the cyst to reduce the chances of recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If other treatments haven&apos;t worked, surgery may be an option. The procedure removes the cyst and the stalk that attaches it to the joint or tendon. Rarely, the surgery can injure the surrounding nerves, blood vessels or tendons. And the cyst can recur, even after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To relieve pain, consider an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin IB, others) or naproxen (Aleve). In some cases, modifying your shoes or how you lace them can relieve the pain associated with ganglion cysts on your ankles or feet.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Things not to do&lt;br /&gt;
+&lt;/strong&gt;An old home remedy for a ganglion cyst consisted of &quot;thumping&quot; the cyst with a heavy object. This isn&apos;t a good solution because the force of the blow can damage surrounding structures in your hand or foot. Also, don&apos;t try to &quot;pop&quot; the cyst yourself by puncturing it with a needle. This is unlikely to be effective and can lead to infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ganglion cysts
+	</Title>
+	<Abstract>
+		Ganglion cysts &amp;mdash; Comprehensive overview covers causes, treatment of lumps on wrist, hand or foot.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

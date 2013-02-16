@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00309
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bunions/DS00309
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-25
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2345" Title="Ankle and foot">
+						<Keyword MCVID="2717" Title="Bunions" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			58DFEFA9-CAF4-4967-B4234E91BDD56D09
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bunion
+			</MetaKeyword>
+			<MetaKeyword>
+				bunions
+			</MetaKeyword>
+			<MetaKeyword>
+				toe
+			</MetaKeyword>
+			<MetaKeyword>
+				metatarsophalangeal
+			</MetaKeyword>
+			<MetaKeyword>
+				MTP
+			</MetaKeyword>
+			<MetaKeyword>
+				bunionette
+			</MetaKeyword>
+			<MetaKeyword>
+				bunionettes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A bunion is an abnormal, bony bump that forms on the joint at the base of your big toe. Bunions form when your big toe pushes up against your other toes, forcing your big toe joint in the opposite direction, away from normal profile of your foot. Over time, the abnormal position enlarges your big toe joint, further crowding your other toes and causing pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Bunions can occur for a number of reasons, but a common cause is wearing shoes that fit too tightly. Bunions can also develop as a result of an inherited structural defect or stress on your foot or a medical condition, such as arthritis.
+&lt;/p&gt;
+&lt;p&gt;
+Smaller bunions &amp;mdash; bunionettes &amp;mdash; can also develop on the joint of your little toes. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of bunion 
+" Caption="When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. 
+" Height="60" Title="Bunion" URI="/images/image_popup/thumbs/mcdc7_bunionthu.jpg" Width="60" />
+				<Image Alt="Illustration of bunion 
+" Caption="When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. 
+" Height="455" Title="Bunion" URI="/images/image_popup/mcdc7_bunion.jpg" Width="400" />
+				<HTML>
+					When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of a bunion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A bulging bump on the outside of the base of your big toe&lt;/li&gt;
+	&lt;li&gt;Swelling, redness or soreness around your big toe joint&lt;/li&gt;
+	&lt;li&gt;Thickening of the skin at the base of your big toe&lt;/li&gt;
+	&lt;li&gt;Corns or calluses &amp;mdash; these often develop where the first and second toes overlap&lt;/li&gt;
+	&lt;li&gt;Persistent or intermittent pain&lt;/li&gt;
+	&lt;li&gt;Restricted movement of your big toe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pain from a bunion can be severe enough to keep you from walking comfortably in normal shoes. The skin and deeper tissue around the bunion also may become swollen or inflamed. 
+&lt;/p&gt;
+&lt;p&gt;
+By pushing your big toe inward, a bunion can squeeze your other toes into abnormal positions. Over time, this crowding molds the four toes into the bent or claw-like shape known as hammertoe. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although bunions often require no medical treatment, see your doctor or a doctor who specializes in treating foot disorders (podiatrist) if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent big toe or foot pain&lt;/li&gt;
+	&lt;li&gt;A visible bump on your big toe joint&lt;/li&gt;
+	&lt;li&gt;Decreased movement of your big toe or foot&lt;/li&gt;
+	&lt;li&gt;Difficulty finding shoes that fit properly&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bunions develop when the pressures of bearing and shifting your weight fall unevenly on the joints and tendons in your feet. This imbalance in pressure makes your big toe joint unstable, eventually molding the parts of the joint into a hard knob that juts out beyond the normal shape of your foot.
+&lt;/p&gt;
+&lt;p&gt;
+Causes of bunions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High-heeled or ill-fitting shoes&lt;/li&gt;
+	&lt;li&gt;Inherited foot type&lt;/li&gt;
+	&lt;li&gt;Foot injuries&lt;/li&gt;
+	&lt;li&gt;Deformities present at birth (congenital)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Bunions may be associated with various forms of arthritis, including inflammatory or degenerative forms, causing the protective cartilage that covers your big toe joint to deteriorate. An occupation that puts extra stress on your feet or one that requires you to wear pointed shoes also can be a cause.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of bunion 
+" Caption="When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. 
+" Height="60" Title="Bunion" URI="/images/image_popup/thumbs/mcdc7_bunionthu.jpg" Width="60" />
+				<Image Alt="Illustration of bunion 
+" Caption="When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. 
+" Height="455" Title="Bunion" URI="/images/image_popup/mcdc7_bunion.jpg" Width="400" />
+				<HTML>
+					When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may increase your risk of bunions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High heels.&lt;/strong&gt; Wearing high heels forces your toes into the front of your shoes, often crowding your toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ill-fitting shoes.&lt;/strong&gt; People who wear shoes that are too tight, too narrow or too pointed are more susceptible to bunions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; Pain from arthritis may change the way you walk, making you more susceptible to bunions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; The tendency to develop bunions may be present because of an inherited structural foot defect.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bunions can develop at any time. Although they don&apos;t always cause problems, bunions are permanent unless surgically corrected. If the cushioning sac of fluid (bursa) over the affected joint becomes inflamed (bursitis), a bunion can be very painful and interfere with your normal activities. Bunions may get larger and more painful, making nonsurgical treatment less effective.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having problems with your feet, you&apos;re likely to start off by seeing your primary care doctor. In some cases, however, your primary care doctor may refer you to a foot specialist (podiatrist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;
+&lt;/strong&gt;To make the most of your time with your doctor, prepare a list of questions before your visit. Your questions might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing my foot problems? &lt;/li&gt;
+	&lt;li&gt;Is this condition likely to be temporary or permanent? &lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend? &lt;/li&gt;
+	&lt;li&gt;Am I a candidate for surgery? Why or why not? &lt;/li&gt;
+	&lt;li&gt;Are there any additional self-care steps that might help? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have trouble understanding what your doctor says at any time during your appointment, don&apos;t hesitate to ask for clarification.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;
+&lt;/strong&gt;Some questions your doctor may ask of you include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin having foot problems? &lt;/li&gt;
+	&lt;li&gt;How much pain do you have in your foot? &lt;/li&gt;
+	&lt;li&gt;Where is the pain located? &lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms? &lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms? &lt;/li&gt;
+	&lt;li&gt;What type of shoes do you normally wear? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;
+&lt;/strong&gt;While you&apos;re waiting for your appointment, avoid wearing shoes or doing activities that seem to make your foot problems worse. Wear comfortable, low-heeled shoes with good arch support and plenty of room for your toes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can identify a bunion simply by examining your foot. During the exam, your doctor asks you to move your big toe up and down to determine if your range of motion is limited. Your doctor also looks for signs of redness or swelling and asks you about pain. After the physical exam, an X-ray of your foot may help identify the cause of the bunion and rate its severity. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment options vary depending on the severity of your bunion and the amount of pain it causes you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Conservative treatment&lt;br /&gt;
+&lt;/strong&gt;Nonsurgical treatments that may relieve the pain and pressure of a bunion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Changing shoes.&lt;/strong&gt; Wear roomy, comfortable shoes that provide plenty of space for your toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Padding and taping.&lt;/strong&gt; Your doctor can help you tape and pad your foot in a normal position. This can reduce stress on the bunion and alleviate your pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin, others) or naproxen (Aleve) may help control the pain of a bunion. Cortisone injections also can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shoe inserts.&lt;/strong&gt; Padded shoe inserts can help distribute pressure evenly when you move your feet, reducing your symptoms and preventing your bunion from getting worse. Over-the-counter arch supports can provide relief for some people, though others may require prescription orthotic devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical options&lt;br /&gt;
+&lt;/strong&gt;If conservative treatment doesn&apos;t provide relief from your symptoms, you may need surgery. A number of surgical procedures are performed for bunions, and no particular surgery is best for every problem. Knowing what caused your bunion is essential for choosing the best procedure to ensure correction without recurrence. 
+&lt;/p&gt;
+&lt;p&gt;
+Most surgical procedures include a bunionectomy, which involves: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Removing the swollen tissue from around your big toe joint&lt;/li&gt;
+	&lt;li&gt;Straightening your big toe by removing part of the bone&lt;/li&gt;
+	&lt;li&gt;Realignment of the long bone between the back part of your foot and your big toe, to straighten out the abnormal angle in your big toe joint&lt;/li&gt;
+	&lt;li&gt;Permanently joining the bones of your affected joint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s possible you may be able to walk on your foot immediately after a bunion procedure. However, full recovery can take up to eight weeks or longer with some bunion procedures. To prevent a recurrence, you&apos;ll need to wear proper shoes after recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery isn&apos;t recommended unless a bunion causes you frequent pain or interferes with your daily activities. A bunionectomy &amp;mdash; like other types of surgery &amp;mdash; is not without risk. Additionally, you may still have pain or you could develop a new bunion in your big toe joint after surgery. Consider trying conservative treatment before having a bunionectomy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These tips may provide relief from a bunion:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apply a nonmedicated bunion pad around the bony bump.&lt;/li&gt;
+	&lt;li&gt;If a bunion becomes inflamed or painful, apply an ice pack two to three times daily to help reduce swelling.&lt;/li&gt;
+	&lt;li&gt;Wear shoes with a wide and deep toe box.&lt;/li&gt;
+	&lt;li&gt;Avoid shoes with heels higher than 2 1/4 inches (5.7 centimeters).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+See your doctor if pain persists. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent bunions, wear comfortable shoes that fit well.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be sure your shoes don&apos;t cramp or irritate your toes.&lt;/li&gt;
+	&lt;li&gt;Choose shoes with a wide toe box &amp;mdash; there should be space between the tip of your longest toe and the end of the shoe.&lt;/li&gt;
+	&lt;li&gt;Your shoes should conform to the shape of your feet without squeezing or pressing any part of your foot.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bunions
+	</Title>
+	<Abstract>
+		Bunions &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this sometimes painful foot condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

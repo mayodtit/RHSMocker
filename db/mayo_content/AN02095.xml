@@ -1,0 +1,127 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02095
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bezoars/AN02095
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-28
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="2980" Title="Gastroparesis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D110E26D-BFEF-64E9-B8041285454A58A6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bezoars
+			</MetaKeyword>
+			<MetaKeyword>
+				phytobezoar
+			</MetaKeyword>
+			<MetaKeyword>
+				trichobezoar
+			</MetaKeyword>
+			<MetaKeyword>
+				pharmacobezoar
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A bezoar (BE-zor) is a solid mass of indigestible material that accumulates in your digestive tract, sometimes causing a blockage. Bezoars usually form in the stomach, sometimes in the small intestine or, rarely, the large intestine. They can occur in children and adults. 
+&lt;/p&gt;
+&lt;p&gt;
+Bezoars occur most often in people with certain risk factors, including if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Had gastric surgery that results in delayed stomach emptying&lt;/li&gt;
+	&lt;li&gt;Have decreased stomach size or reduced stomach acid production&lt;/li&gt;
+	&lt;li&gt;Have diabetes or end-stage kidney disease &lt;/li&gt;
+	&lt;li&gt;Receive breathing help with mechanical ventilation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+One type of bezoar (trichobezoar) may occur in people with psychiatric illness or developmental disabilities. 
+&lt;/p&gt;
+&lt;p&gt;
+Bezoars are classified according to the material that forms them: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Phytobezoars&lt;/strong&gt; are composed of indigestible food fibers, such as cellulose. These fibers occur in fruits and vegetables, including celery, pumpkin, prunes, raisins, leeks, beets, persimmons and sunflower-seed shells. Phytobezoars are the most common type of bezoar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trichobezoars&lt;/strong&gt; are composed of hair or hair-like fibers, such as carpet or clothing fibers. In severe cases, known as &quot;Rapunzel&apos;s syndrome,&quot; the compacted fibers can fill the stomach with a tail extending into the small intestine. Rapunzel&apos;s syndrome is most common in adolescent girls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pharmacobezoars&lt;/strong&gt; are composed of medications that don&apos;t properly dissolve in your digestive tract.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Bezoars can cause lack of appetite, nausea, vomiting, weight loss and a feeling of fullness after eating only a little food. Bezoars can also cause gastric ulcers, intestinal bleeding and obstruction, leading to tissue death (gangrene) in a portion of the digestive tract. 
+&lt;/p&gt;
+&lt;p&gt;
+Small bezoars may pass through the digestive tract on their own or after you take medication to help dissolve the mass. Severe cases, especially large trichobezoars, often require surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t have one of the risk factors for bezoars, you&apos;re not likely to develop them. If you are at risk, reducing your intake of foods with high amounts of indigestible cellulose may reduce your risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bezoars: What foods can cause this digestive problem?
+	</Title>
+	<Abstract>
+		Bezoars are masses of organic and inorganic matter trapped in the digestive system.
+	</Abstract>
+	<Question>
+		I&apos;ve heard that eating certain foods can cause bezoars. What are bezoars?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00612" LinkType="Internal" ObjectID="B8FD8052-2A5D-9994-E3D7A1ECF01522DF" Title="Gastroparesis" Url="http://www.mayoclinic.com/health/gastroparesis/DS00612" />
+	</RelatedLinksBox>
+</Answer>

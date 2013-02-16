@@ -1,0 +1,116 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02029
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/implantation-bleeding/AN02029
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-18
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1104" Title="Pregnancy">
+					<Keyword MCVID="1898" Title="Pregnancy week by week">
+						<Keyword MCVID="3744" Title="First trimester" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			85E2BF10-B43E-15F7-37E962DB28FB68EF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				implantation bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy implantation bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				implantation bleeding symptoms
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Implantation bleeding &amp;mdash; typically defined as bleeding that occurs 10 to 14 days after conception &amp;mdash; is normal and relatively common.
+&lt;/p&gt;
+&lt;p&gt;
+Implantation bleeding is thought to happen when the fertilized egg attaches to the lining of the uterus. Implantation bleeding generally lasts for a short time, and is usually much lighter and occurs earlier than a menstrual period. Occasionally, implantation bleeding might last for one to two days with a flow similar to a menstrual period.
+&lt;/p&gt;
+&lt;p&gt;
+Some women don&apos;t experience implantation bleeding and others don&apos;t notice it. It&apos;s also possible to mistake implantation bleeding for a period. If this happens, you might not realize that you&apos;re pregnant &amp;mdash; which can lead to mistakes when determining a baby&apos;s due date.
+&lt;/p&gt;
+&lt;p&gt;
+Implantation bleeding stops on its own and doesn&apos;t require treatment. If the bleeding persists or you&apos;re concerned about any vaginal bleeding during pregnancy, contact your health care provider.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Implantation bleeding: Normal in early pregnancy?
+	</Title>
+	<Abstract>
+		Implantation bleeding &amp;mdash; A Mayo Clinic specialist explains this common pregnancy sign.
+	</Abstract>
+	<Question>
+		Is implantation bleeding normal in early pregnancy?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00154" LinkType="Internal" ObjectID="E457E151-E7FF-0DBD-1ACADCF6AE70EE0B" Title="Chorionic villus sampling" Url="http://www.mayoclinic.com/health/chorionic-villus-sampling/MY00154" />
+		<LinkItem ContentType="SlideShow" DocID="PR00092" LinkType="Internal" ObjectID="C9083C0E-68F4-4B8A-8AB220BC5B41694B" Title="Slide show: Pregnancy stretches" Url="http://www.mayoclinic.com/health/pregnancy/PR00092" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00126" LinkType="Internal" ObjectID="C5869FD6-E7FF-0DBD-18E549CA275200EC" Title="First trimester screening" Url="http://www.mayoclinic.com/health/first-trimester-screening/MY00126" />
+		<LinkItem ContentType="SlideShow" DocID="MY01424" LinkType="Internal" ObjectID="B3E189C2-CDEF-1957-C71D5FFAD946A8BF" Title="Slide show: Pregnancy exercises" Url="http://www.mayoclinic.com/health/pregnancy-exercises/MY01424" />
+		<LinkItem ContentType="Video" DocID="MM00108" LinkType="Internal" ObjectID="A0F8DEFB-36F1-4F79-B4FA68DFC12AAE0A" Title="Video: Ovulation" Url="http://www.mayoclinic.com/health/ovulation/MM00108" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00777" LinkType="Internal" ObjectID="563FCB9D-A538-2A78-5A61F27B1BD5D29F" Title="Fetal ultrasound" Url="http://www.mayoclinic.com/health/fetal-ultrasound/MY00777" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01163" LinkType="Internal" ObjectID="33A990E6-08D3-0F31-DD99FA94792802DC" Title="Rh factor blood test" Url="http://www.mayoclinic.com/health/rh-factor/MY01163" />
+		<LinkItem ContentType="Answer" DocID="AN02172" LinkType="Internal" ObjectID="E8001F2F-AB7D-A787-CA28A5F0CD35C53A" Title="Down syndrome blood test: How does it work?" Url="http://www.mayoclinic.com/health/down-syndrome-blood-test/AN02172" />
+		<LinkItem ContentType="Answer" DocID="AN01662" LinkType="Internal" ObjectID="B0A95741-E7FF-0DBD-173648F07254EB4E" Title="Birth control pills: Harmful in early pregnancy?" Url="http://www.mayoclinic.com/health/birth-control-pills/AN01662" />
+		<LinkItem ContentType="Answer" DocID="AN02133" LinkType="Internal" ObjectID="1793BCF3-EF97-5D04-2471F39AF948C4AE" Title="Nausea during pregnancy: A good thing?" Url="http://www.mayoclinic.com/health/nausea-during-pregnancy/AN02133" />
+		<LinkItem ContentType="Article" DocID="PR00004" LinkType="Internal" ObjectID="B23A2010-CA46-45D4-86EE8E4C71F4ED6C" Title="First trimester pregnancy: What to expect" Url="http://www.mayoclinic.com/health/pregnancy/PR00004" />
+		<LinkItem ContentType="Article" DocID="PR00112" LinkType="Internal" ObjectID="4BA9D8F9-C251-463F-9794570FC6836835" Title="Fetal development: The first trimester" Url="http://www.mayoclinic.com/health/prenatal-care/PR00112" />
+		<LinkItem ContentType="Article" DocID="PR00008" LinkType="Internal" ObjectID="34BCEAB8-6036-4A58-9779D1BCA2D70246" Title="Prenatal care: 1st trimester visits" Url="http://www.mayoclinic.com/health/prenatal-care/PR00008" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00734
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ichthyosis-vulgaris/DS00734
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2866" Title="Ichthyosis vulgaris" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			19A24799-2A5D-9994-E9ED811E1A037DCA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dry skin
+			</MetaKeyword>
+			<MetaKeyword>
+				ichthyosis vulgaris
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				scaly skin
+			</MetaKeyword>
+			<MetaKeyword>
+				fishscale disease
+			</MetaKeyword>
+			<MetaKeyword>
+				fish scale disease
+			</MetaKeyword>
+			<MetaKeyword>
+				fish skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				fishskin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				cracked skin
+			</MetaKeyword>
+			<MetaKeyword>
+				xeroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				xerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				ichthyosis
+			</MetaKeyword>
+			<MetaKeyword>
+				acquired ichthyosis
+			</MetaKeyword>
+			<MetaKeyword>
+				Lamellar ichthyosis
+			</MetaKeyword>
+			<MetaKeyword>
+				X-linked ichthyosis
+			</MetaKeyword>
+			<MetaKeyword>
+				epidermolytic hyperkeratosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ichthyosis vulgaris (ik-thee-O-sis vul-GAY-ris) is an inherited skin disorder in which dead skin cells accumulate in thick, dry scales on your skin&apos;s surface.
+&lt;/p&gt;
+&lt;p&gt;
+The scales of ichthyosis vulgaris, sometimes called fish scale disease or fish skin disease, can be present at birth, but usually first appear during early childhood. Sometimes, mild cases of ichthyosis vulgaris go undiagnosed because they&apos;re mistaken for extremely dry skin.
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of ichthyosis vulgaris are mild, but some are severe. Sometimes other skin diseases, such as the allergic skin condition eczema, are associated with ichthyosis vulgaris. No cure has been found for ichthyosis vulgaris, and treatments focus on controlling the condition.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of ichthyosis vulgaris 
+" Caption="Ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. People with darker skin tend to have darker colored scales, as shown here. 
+" Height="60" Title="Ichthyosis vulgaris" URI="/images/image_popup/thumbs/sn7_ichthyosisthu.jpg" Width="60" />
+				<Image Alt="Image of ichthyosis vulgaris 
+" Caption="Ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. People with darker skin tend to have darker colored scales, as shown here. 
+" Height="400" Title="Ichthyosis vulgaris" URI="/images/image_popup/sn7_ichthyosis.jpg" Width="400" />
+				<HTML>
+					Ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. People with darker skin tend to have darker colored scales, as shown here. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ichthyosis vulgaris slows your skin&apos;s natural shedding process. This causes chronic, excessive buildup of the protein in the upper layer of the skin (keratin). Symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dry, scaly skin&lt;/li&gt;
+	&lt;li&gt;Tile-like, small scales&lt;/li&gt;
+	&lt;li&gt;Scales colored white, dirty gray or brown &amp;mdash; with darker colored scales typically on darker skin&lt;/li&gt;
+	&lt;li&gt;Flaky scalp&lt;/li&gt;
+	&lt;li&gt;Deep, painful cracks in your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The scales usually appear on your elbows and lower legs and may be especially thick and dark over your shins. Most cases of ichthyosis vulgaris are mild, but some can be severe. The severity of symptoms may vary widely among family members who have the condition.
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms usually worsen or are more pronounced in cold, dry environments and tend to improve or even resolve in warm, humid environments.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you suspect you or your child has ichthyosis, talk to your family doctor or a dermatologist. He or she can diagnose the condition by examining the characteristic scales. Also, be sure to seek medical advice if the symptoms worsen or don&apos;t improve with self-care measures. You may need stronger medication to manage the condition.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of ichthyosis vulgaris 
+" Caption="Ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. People with darker skin tend to have darker colored scales, as shown here. 
+" Height="60" Title="Ichthyosis vulgaris" URI="/images/image_popup/thumbs/sn7_ichthyosisthu.jpg" Width="60" />
+				<Image Alt="Image of ichthyosis vulgaris 
+" Caption="Ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. People with darker skin tend to have darker colored scales, as shown here. 
+" Height="400" Title="Ichthyosis vulgaris" URI="/images/image_popup/sn7_ichthyosis.jpg" Width="400" />
+				<HTML>
+					Ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. People with darker skin tend to have darker colored scales, as shown here. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of ichthyosis scales 
+" Caption="Ichthyosis vulgaris is characterized by dry skin with small scales in a color range from white to dirty gray or brown. 
+" Height="60" Title="Ichthyosis scales" URI="/images/image_popup/thumbs/sn7_ichthyosisscalesthu.jpg" Width="60" />
+				<Image Alt="Image of ichthyosis scales 
+" Caption="Ichthyosis vulgaris is characterized by dry skin with small scales in a color range from white to dirty gray or brown. 
+" Height="400" Title="Ichthyosis scales" URI="/images/image_popup/sn7_ichthyosisscales.jpg" Width="400" />
+				<HTML>
+					Ichthyosis vulgaris is characterized by dry skin with small scales in a color range from white to dirty gray or brown. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ichthyosis vulgaris is commonly caused by a genetic mutation that&apos;s inherited from one or both parents. Children who inherit a defective gene from just one parent have a milder form of the disease, while those who inherit two defective genes have a more severe form of ichthyosis vulgaris. Children with the inherited form of the disorder usually have normal skin at birth, but develop scaling and roughness during the first few years of life.
+&lt;/p&gt;
+&lt;p&gt;
+If genetic abnormalities aren&apos;t responsible for ichthyosis, it&apos;s referred to as acquired ichthyosis. This rare type often begins in adulthood. It&apos;s usually associated with other diseases, such as cancer, thyroid disease or HIV/AIDS.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with ichthyosis may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Overheating.&lt;/strong&gt; In rare cases, the skin thickness and scales of ichthyosis can interfere with sweating. This can inhibit cooling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary infection.&lt;/strong&gt; Skin splitting and cracking may lead to infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If the appointment is for your child, you&apos;re likely to start by seeing your child&apos;s pediatrician. If the appointment is for you, you&apos;re likely to start by seeing your primary care doctor. He or she may refer you or your child to a specialist in skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for the appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child or you are experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. List your questions from most important to least important. For ichthyosis vulgaris, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I or my child need?&lt;/li&gt;
+	&lt;li&gt;Is the condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms first appear?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or do they come and go?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen the symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your immediate or extended family have similar skin changes?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;To help soothe your or your child&apos;s skin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash only with mild soaps&lt;/strong&gt; that have added oils and fats. Avoid strongly scented and antibacterial soaps, which are especially harsh on dry skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply moisturizer or lubricating cream&lt;/strong&gt; while your or your child&apos;s skin is still moist from bathing. Choose a moisturizer that contains urea or propylene glycol &amp;mdash; chemicals that help keep your skin moist. Petroleum jelly is another good choice. Cover the treated areas with plastic wrap to keep the petroleum jelly from staining clothes and furniture.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor can often make a diagnosis by examining your skin and the characteristic scales. If there&apos;s any doubt, he or she may perform other tests, such as a skin biopsy. This may be necessary to rule out other causes of dry, scaly skin.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known cure for ichthyosis, so the goal of treatment is to manage the condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha hydroxy acids, such as lactic acid and glycolic acid.&lt;/strong&gt; Treatment can include prescription creams and ointments that contain acids that help control scaling and increase skin moisture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Retinoids.&lt;/strong&gt; Your doctor may prescribe these vitamin A-derived medications in severe cases. They reduce the production of skin cells. Side effects from the medication may include eye and lip inflammation, bone spurs and hair loss. Retinoids may cause birth defects. Women considering retinoid therapy should be sure they are not pregnant before starting the medication &amp;mdash; and use effective birth control while taking retinoids.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although self-help measures won&apos;t cure ichthyosis, they may help improve the appearance and feel of damaged skin. Consider these measures to help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take long soaking baths to soften the skin. Then use a rough-textured sponge, such as a loofa sponge, to remove the thickened scales.&lt;/li&gt;
+	&lt;li&gt;Choose mild soaps that have added oils and fats. Avoid strongly scented and antibacterial soaps, which are especially harsh on dry skin.&lt;/li&gt;
+	&lt;li&gt;After showering or bathing, gently pat or blot your skin dry with a towel so that some moisture remains on the skin.&lt;/li&gt;
+	&lt;li&gt;Apply moisturizer or lubricating cream while your skin is still moist from bathing. Choose a moisturizer that contains urea or propylene glycol &amp;mdash; chemicals that help keep your skin moist. Petroleum jelly is another good choice. Cover the treated areas with plastic wrap to keep the petroleum jelly from staining clothes and furniture.&lt;/li&gt;
+	&lt;li&gt;Apply an over-the-counter product that contains urea, lactic acid or a low concentration of salicylic acid twice daily. Mild acidic compounds help your skin shed its dead skin cells. Urea helps bind moisture to your skin.&lt;/li&gt;
+	&lt;li&gt;Use a portable home humidifier or one attached to your furnace to add moisture to the air inside your home.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because ichthyosis vulgaris affects the appearance of your skin, it can be difficult to cope with the condition. Ask your doctor about support groups in your area. Or it might be helpful to talk to a counselor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ichthyosis vulgaris
+	</Title>
+	<Abstract>
+		Ichthyosis vulgaris &amp;mdash; Comprehensive overview covers signs, symptoms, causes, diagnosis and treatment.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,231 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00271
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shin-splints/DS00271
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-21
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="2776" Title="Shin splints" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B20183E5-54C3-4999-A35A632EE5BD31D0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shin splints
+			</MetaKeyword>
+			<MetaKeyword>
+				shinsplints
+			</MetaKeyword>
+			<MetaKeyword>
+				tibia
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				leg aches
+			</MetaKeyword>
+			<MetaKeyword>
+				tibial fascitis
+			</MetaKeyword>
+			<MetaKeyword>
+				medial tibial stress syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				shin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The term &quot;shin splints&quot; refers to pain along or just behind the shinbone (tibia) &amp;mdash; the large bone in the front of your lower leg. Medically known as medial tibial stress syndrome, shin splints occur during physical activity and result from too much force being placed on your shinbone and connective tissues that attach your muscles to the bone. Shin splints are common in runners and in those who participate in activities with sudden stops and starts, such as basketball, soccer or tennis.
+&lt;/p&gt;
+&lt;p&gt;
+The risk of shin splints is no reason to give up your morning jog or afternoon aerobics class. Most cases of shin splints can be treated with rest, ice and other self-care measures. Wearing proper footwear and modifying your exercise routine can help prevent shin splints from recurring.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of shin splints showing area of pain 
+" Caption="If you have shin splints, you may notice tenderness, soreness or pain along the inner part of your lower leg. 
+" Height="60" Title="Shin splints" URI="/images/image_popup/thumbs/r7_shinsplintsthu.jpg" Width="60" />
+				<Image Alt="Illustration of shin splints showing area of pain 
+" Caption="If you have shin splints, you may notice tenderness, soreness or pain along the inner part of your lower leg. 
+" Height="400" Title="Shin splints" URI="/images/image_popup/r7_shinsplints.jpg" Width="400" />
+				<HTML>
+					If you have shin splints, you may notice tenderness, soreness or pain along the inner part of your lower leg. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have shin splints, you may notice:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tenderness, soreness or pain along the inner part of your lower leg&lt;/li&gt;
+	&lt;li&gt;Mild swelling in your lower leg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At first, the pain may stop when you stop running or exercising. Eventually, however, the pain may be continuous.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult your doctor if rest, ice and over-the-counter pain relievers don&apos;t ease your shin pain. Your primary care doctor may refer you to an orthopedist. Seek prompt medical care if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain in your shin follows a fall or accident&lt;/li&gt;
+	&lt;li&gt;Your shin is hot and inflamed&lt;/li&gt;
+	&lt;li&gt;Swelling in your shin seems to be getting worse&lt;/li&gt;
+	&lt;li&gt;Shin pain persists during rest&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shin splints are caused by excessive force (overload) on the shinbone and the connective tissues that attach your muscles to the bone. The overload is often caused by specific athletic activities, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Running downhill&lt;/li&gt;
+	&lt;li&gt;Running on a slanted or tilted surface&lt;/li&gt;
+	&lt;li&gt;Running in worn-out footwear&lt;/li&gt;
+	&lt;li&gt;Engaging in sports with frequent starts and stops, such as basketball and tennis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Shin splints can also be caused by training errors, such as engaging in a running program with the &quot;terrible toos&quot; &amp;mdash; running too hard, too fast or for too long.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re more at risk of shin splints if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re a runner, especially just beginning a running program&lt;/li&gt;
+	&lt;li&gt;You have flat feet or rigid arches, causing your feet to roll inward when running&lt;/li&gt;
+	&lt;li&gt;You increase the intensity of your workouts by doing more high-impact activities&lt;/li&gt;
+	&lt;li&gt;You play sports on hard surfaces, with sudden stops and starts&lt;/li&gt;
+	&lt;li&gt;You&apos;re in military training&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shin splints are usually diagnosed based on your medical history and a physical exam. In some cases, an X-ray or other imaging studies can help identify other possible causes for your pain, such as a stress fracture &amp;mdash; tiny cracks in a bone often caused by overuse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, you can treat shin splints with simple self-care steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Avoid activities that cause pain, swelling or discomfort &amp;mdash; but don&apos;t give up all physical activity. While you&apos;re healing, try low-impact exercises, such as swimming, bicycling or water running. If your shin pain causes you to limp, consider using crutches until you can walk normally without pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice the affected area.&lt;/strong&gt; Apply ice packs to the affected shin for 15 to 20 minutes at a time, four to eight times a day for several days. To protect your skin, wrap the ice packs in a thin towel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce swelling.&lt;/strong&gt; Elevate the affected shin above the level of your heart, especially at night. It may also help to compress the area with an elastic bandage or compression sleeve. Loosen the wrap if the pain increases, the area becomes numb or swelling occurs below the wrapped area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an over-the-counter pain reliever.&lt;/strong&gt; Try ibuprofen (Advil, Motrin, others), naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) to reduce pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear proper shoes.&lt;/strong&gt; Your doctor may recommend a shoe that&apos;s especially suited for your foot type, your stride and your particular sport.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider arch supports.&lt;/strong&gt; Arch supports can help cushion and disperse stress on your shinbones. Off-the-shelf arch supports come in various sizes and can be fitted immediately. More durable arch supports can be custom-made from a plaster cast of your foot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Resume your usual activities gradually. If your shin isn&apos;t completely healed, returning to your usual activities may only cause continued pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent shin splints: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose the right shoes.&lt;/strong&gt; Wear footwear that suits your sport. If you&apos;re a runner, replace your shoes about every 350 to 500 miles (560 to 800 kilometers).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider arch supports.&lt;/strong&gt; Arch supports can help prevent the pain of shin splints, especially if you have flat arches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lessen the impact.&lt;/strong&gt; Cross-train with a sport that places less impact on your shins, such as swimming, walking or biking. Remember to start new activities slowly. Increase time and intensity gradually.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add strength training to your workout.&lt;/strong&gt; To strengthen your calf muscles, try toe raises. Stand up. Slowly rise up on your toes, then slowly lower your heels to the floor. Repeat 10 times. When this becomes easy, do the exercise holding progressively heavier weights. Leg presses and other exercises for your lower legs can be helpful, too.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s also important to know when to rest; at the first sign of shin pain, take a break.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shin splints
+	</Title>
+	<Abstract>
+		Shin splints &amp;mdash; Comprehensive overview covers causes, treatment and prevention for pain along the shinbone.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02159" LinkType="Internal" ObjectID="2A44C27E-F7FE-9781-D7A855BD43C62CF1" Title="Barefoot running shoes: Better than traditional running shoes?" Url="http://www.mayoclinic.com/health/barefoot-running-shoes/AN02159" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,218 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00053
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00053
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-20
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			4283B489-E7FF-0DBD-100D45141576574B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				chicken stock
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				chicken stock recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				soup
+			</MetaKeyword>
+			<MetaKeyword>
+				soup recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				broth
+			</MetaKeyword>
+			<MetaKeyword>
+				broth recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low-fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low-sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart-healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook,&lt;/em&gt; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Easy chicken stock
+	</Title>
+	<Abstract>
+		Easy chicken stock &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		12
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Making stock at home is the surefire way to avoid the high sodium content of most prepared broths. Browning the ingredients before simmering imparts color and flavor to the finished stock. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 450 F. Rinse the chicken bones in cold water and place in a large roasting pan. Roast the bones until browned on one side, about 20 minutes. Turn the bones, add the carrots, celery and onion to the pan, and roast until evenly browned, about 20 minutes longer. 
+&lt;/p&gt;
+&lt;p&gt;
+Transfer the vegetables and bones to a stockpot. Deglaze the hot roasting pan with a little water, stirring with a wooden spoon to scrape up any browned bits, and add the liquid to the stockpot. Add the peppercorns, parsley and cold water and slowly bring to a boil over medium-high heat. Reduce the heat to low, cover partially, and simmer for 1 1/2 hours, using a spoon to regularly skim off the foam that rises to the surface. Remove from the heat and let cool slightly. 
+&lt;/p&gt;
+&lt;p&gt;
+Carefully strain the stock into a bowl through a colander or sieve lined with paper towels or cheesecloth (muslin). Discard the bones and solids. Let cool at room temperature for about 1 hour. 
+&lt;/p&gt;
+&lt;p&gt;
+Cover and refrigerate the stock overnight. With a large spoon, lift off any solidified fat from the surface and discard. Use the stock immediately, cover and refrigerate for up to 2 days, or freeze in airtight containers for up to 3 months. Makes about 12 cups.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 pounds chicken bones, trimmed of fat&lt;/li&gt;
+	&lt;li&gt;3 carrots, cut into 2-inch pieces&lt;/li&gt;
+	&lt;li&gt;2 celery stalks, cut into 2-inch pieces&lt;/li&gt;
+	&lt;li&gt;1 large yellow onion, cut into chunks&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon peppercorns&lt;/li&gt;
+	&lt;li&gt;5 fresh flat-leaf (Italian) parsley sprigs&lt;/li&gt;
+	&lt;li&gt;4 quarts cold water&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods">
+				1
+			</Freefoods>
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				20
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				2 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				11 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				0 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				1 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				&lt; 1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				16 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				&lt; 1 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 12
+		</Category>
+		<Category CategoryLabel="Course">
+			Soups
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

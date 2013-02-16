@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00608
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00608
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-16
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="4016" Title="Stress relief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4221DE36-E7FF-0DBD-13192870E5E86B78
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				laughter
+			</MetaKeyword>
+			<MetaKeyword>
+				humor
+			</MetaKeyword>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+			<MetaKeyword>
+				stress management
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Laugh more, stress less
+	</Title>
+	<Body>
+		&lt;p&gt;Humor can help reduce stress by providing a positive way of looking at problems. Humor can also help you perceive what&apos;s ridiculous or absurd in a situation. To promote humor in your life, follow these steps: 1. Be open to humor. Give yourself permission to laugh, even during tough times. 2. Surround yourself with humor. Try hanging cartoons in your workstation. 3. Seek out humor. Look for humor in everyday situations. Or watch a favorite comedy DVD. 4. Share your humor. Tell a funny true story to a coworker or friend.&lt;/p&gt;
+	</Body>
+</HealthTip>

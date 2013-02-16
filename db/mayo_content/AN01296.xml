@@ -1,0 +1,105 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01296
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mucus-in-stool/AN01296
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-22
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2943" Title="Stool" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B7AECCC0-2A5D-9994-E3D5080CF3F200E1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stool
+			</MetaKeyword>
+			<MetaKeyword>
+				mucus in stool
+			</MetaKeyword>
+			<MetaKeyword>
+				mucous in stool
+			</MetaKeyword>
+			<MetaKeyword>
+				poop
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A small amount of mucus in stool is usually nothing to worry about. Stool normally contains a small amount of mucus &amp;mdash; a jelly-like substance that your intestines make to keep the lining of your colon moist and lubricated. 
+&lt;/p&gt;
+&lt;p&gt;
+But you should talk to your doctor if you notice an increased amount of mucus in stool &amp;mdash; particularly if it begins happening regularly or if it&apos;s accompanied by bleeding or a change in bowel habits. 
+&lt;/p&gt;
+&lt;p&gt;
+Mucus in stool can occur with a variety of intestinal infections that cause severe diarrhea. In more-serious conditions &amp;mdash; Crohn&apos;s disease, ulcerative colitis and even cancer &amp;mdash; mucus in stool may be bloody or accompanied by abdominal pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mucus in stool: Is it a concern?
+	</Title>
+	<Abstract>
+		Visible mucus in stool can have a variety of causes &amp;mdash; not necessarily serious.
+	</Abstract>
+	<Question>
+		What causes mucus in stool? Is this a concern?
+	</Question>
+	<QuestionFirstName>
+		Becky
+	</QuestionFirstName>
+	<QuestionState>
+		Kentucky
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01567" LinkType="Internal" ObjectID="C6843084-E7FF-0DBD-17542C9B76BE5D60" Title="Narrow stools: Should I be concerned?" Url="http://www.mayoclinic.com/health/narrow-stools/AN01567" />
+		<LinkItem ContentType="Answer" DocID="AN01743" LinkType="Internal" ObjectID="B490776B-E7FF-0DBD-1D7D124026B6B89D" Title="Undigested food in stool: What does it mean?" Url="http://www.mayoclinic.com/health/undigested-food-in-stool/AN01743" />
+		<LinkItem ContentType="Answer" DocID="AN00772" LinkType="Internal" ObjectID="5343C57D-AC65-4B53-96F2E342B10D5383" Title="Stool color: When to worry" Url="http://www.mayoclinic.com/health/stool-color/AN00772" />
+		<LinkItem ContentType="Answer" DocID="AN01724" LinkType="Internal" ObjectID="04C580B6-E7FF-0DBD-183D26AD84072141" Title="White stool: Should I be concerned?" Url="http://www.mayoclinic.com/health/white-stool/AN01724" />
+	</RelatedLinksBox>
+</Answer>

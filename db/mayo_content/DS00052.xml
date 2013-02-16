@@ -1,0 +1,272 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00052
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/earwax-blockage/DS00052
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-18
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="2452" Title="Earwax blockage" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E696E3F0-D762-4AC8-8B1B24E518E02836
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				earwax blockage
+			</MetaKeyword>
+			<MetaKeyword>
+				earwax
+			</MetaKeyword>
+			<MetaKeyword>
+				ear wax
+			</MetaKeyword>
+			<MetaKeyword>
+				ear
+			</MetaKeyword>
+			<MetaKeyword>
+				cerumen
+			</MetaKeyword>
+			<MetaKeyword>
+				cerumen impaction
+			</MetaKeyword>
+			<MetaKeyword>
+				earache
+			</MetaKeyword>
+			<MetaKeyword>
+				ear ache
+			</MetaKeyword>
+			<MetaKeyword>
+				ear candles
+			</MetaKeyword>
+			<MetaKeyword>
+				ear candling
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Earwax blockage occurs when earwax (cerumen) accumulates in your ear or becomes too hard to wash away naturally.
+&lt;/p&gt;
+&lt;p&gt;
+Earwax is a helpful and natural part of your body&apos;s defenses. It protects your ear canal by trapping dirt and slowing the growth of bacteria. It&apos;s not known why some people experience earwax blockage or why earwax blockage often occurs in only one ear.
+&lt;/p&gt;
+&lt;p&gt;
+If earwax blockage becomes a problem, you or your doctor can take simple steps to remove the wax safely.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing earwax removal by a doctor
+" Caption="When excess earwax accumulates, it can be removed by a doctor using a small, curved instrument called a curette. 
+" Height="60" Title="Earwax removal by a doctor" URI="/images/image_popup/thumbs/r7_earwaxthu.jpg" Width="60" />
+				<Image Alt="Illustration showing earwax removal by a doctor
+" Caption="When excess earwax accumulates, it can be removed by a doctor using a small, curved instrument called a curette. 
+" Height="275" Title="Earwax removal by a doctor" URI="/images/image_popup/r7_earwax.jpg" Width="400" />
+				<HTML>
+					When excess earwax accumulates, it can be removed by a doctor using a small, curved instrument called a curette. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of earwax blockage may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Earache&lt;/li&gt;
+	&lt;li&gt;Feeling of fullness in the affected ear&lt;/li&gt;
+	&lt;li&gt;Ear noise (tinnitus)&lt;/li&gt;
+	&lt;li&gt;Decreased hearing in the affected ear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;If you&apos;re experiencing the signs and symptoms&lt;/strong&gt; of earwax blockage, talk to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms could indicate another condition.&lt;/strong&gt; You may think you can deal with earwax on your own, but there&apos;s no way to know if you have excessive earwax without having someone, usually your doctor, look into your ears. Having signs and symptoms, such as earache or decreased hearing, doesn&apos;t necessarily mean you have wax buildup. Even if you&apos;ve had a past problem with earwax, you can&apos;t be sure that wax buildup is the cause of your current symptoms. It&apos;s possible you have another medical condition involving your ears that may need attention. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wax removal is most safely done by doctor.&lt;/strong&gt; Asking your doctor to remove earwax may seem unnecessary, but your ear canal and eardrum are delicate and can be damaged easily by excess earwax. Don&apos;t try to remove earwax yourself with any device placed into your ear canal, especially if you&apos;ve had ear surgery, have a hole (perforation) in your eardrum, or are having ear pain or drainage. 
+&lt;/p&gt;
+&lt;p&gt;
+Children usually have their ears checked as part of any medical examination. If necessary, a doctor can remove excess earwax from your child&apos;s ear during an office visit. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most people, a small amount of earwax regularly makes its way to the opening of the ear, where it&apos;s washed away or falls out as new wax is secreted to replace it. If you secrete an excessive amount of wax or if earwax isn&apos;t cleared effectively, it may build up and block your ear canal. 
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, earwax blockages commonly occur when people try to clean their ears on their own by placing cotton swabs or other items in their ears. This often just pushes wax deeper into the ear, rather than removing it. 
+&lt;/p&gt;
+&lt;p&gt;
+The wax in your ears is secreted by glands in the skin that lines the outer half of your ear canals. The wax and tiny hairs in these passages trap dust and other foreign particles that could damage deeper structures, such as your eardrum. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. In some rare cases, however, you may be referred to a specialist in ear disorders (otolaryngologist). 
+&lt;/p&gt;
+&lt;p&gt;
+As you prepare for your appointment, it&apos;s a good idea to write a list of questions. Your doctor may have questions for you as well. He or she may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been experiencing symptoms, such as earache or difficulty hearing?&lt;/li&gt;
+	&lt;li&gt;Have you had any drainage from your ears?&lt;/li&gt;
+	&lt;li&gt;Have you experienced earache, difficulty hearing or drainage in the past?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Don&apos;t attempt to dig out earwax with cotton swabs or other items &amp;mdash; such as hairpins or pen caps. This can push the wax farther into the ear and cause serious injury to the ear canal or eardrum. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can determine whether you have earwax blockage by looking in your ear with an otoscope, a special instrument that lights and magnifies your inner ear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can remove excess wax using a small, curved instrument called a curette or by using suction while inspecting the ear. Your doctor can also flush out the wax using a water pick or a rubber-bulb syringe filled with warm water. 
+&lt;/p&gt;
+&lt;p&gt;
+If earwax buildup is a recurring problem, your doctor may recommend that you use a wax-removal medication, such as carbamide peroxide (Debrox, Murine Earwax Removal Drops), every four to eight weeks as a preventive measure. Because these drops can irritate the delicate skin of the eardrum and ear canal, use them sparingly and only on the advice of your physician. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing earwax removal by a doctor
+" Caption="When excess earwax accumulates, it can be removed by a doctor using a small, curved instrument called a curette. 
+" Height="60" Title="Earwax removal by a doctor" URI="/images/image_popup/thumbs/r7_earwaxthu.jpg" Width="60" />
+				<Image Alt="Illustration showing earwax removal by a doctor
+" Caption="When excess earwax accumulates, it can be removed by a doctor using a small, curved instrument called a curette. 
+" Height="275" Title="Earwax removal by a doctor" URI="/images/image_popup/r7_earwax.jpg" Width="400" />
+				<HTML>
+					When excess earwax accumulates, it can be removed by a doctor using a small, curved instrument called a curette. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your eardrum doesn&apos;t contain a tube or have a hole in it, these self-care measures may help you remove excess earwax that&apos;s blocking your ear canal: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Soften the wax.&lt;/strong&gt; Use an eyedropper to apply a few drops of baby oil, mineral oil, glycerin or hydrogen peroxide in your ear canal twice a day for no more than four to five days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use warm water.&lt;/strong&gt; After a day or two, when the wax is softened, use a rubber-bulb syringe to gently squirt warm (body temperature) water into your ear canal. Tilt your head and pull your outer ear up and back to straighten your ear canal. When finished irrigating, tip your head to the side to let the water drain out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry your ear canal.&lt;/strong&gt; When finished, gently dry your outer ear with a towel or a hand-held hair dryer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may need to repeat this wax-softening and irrigation procedure several times before the excess earwax falls out. However, the softening agents may only loosen the outer layer of the wax and cause it to lodge deeper in the ear canal or against the eardrum. If your symptoms don&apos;t improve after a few treatments, see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Earwax removal kits available in stores also can be effective at removing wax buildup. If you&apos;re unsure which one is right for you, ask your doctor for advice on how to properly use other earwax-removal methods. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t try to dig it out&lt;/strong&gt;&lt;br /&gt;
+Never attempt to dig out excessive or hardened earwax with available items, such as a paper clip, a cotton swab or a hairpin. You may push the wax farther into your ear and cause serious damage to the lining of your ear canal or eardrum. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people use ear candling, a technique that involves placing a lighted, hollow, cone-shaped candle into the ear, to try to remove earwax. The theory is that the heat from the flame will create a vacuum seal and the earwax will adhere to the candle. 
+&lt;/p&gt;
+&lt;p&gt;
+However, ear candling is not a recommended treatment for earwax blockage. Research has found that ear candling doesn&apos;t work, and it may result in injury, such as burns, ear canal obstructions and even perforations. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor before trying any alternative remedies for removing earwax. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Earwax blockage
+	</Title>
+	<Abstract>
+		Earwax blockage &amp;mdash; Comprehensive overview covers treatment, self-care for this common problem, including earwax removal.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02086" LinkType="Internal" ObjectID="AF1B65DD-F4A4-888C-B72D12775124BC9B" Title="Ear candling: Is it safe?" Url="http://www.mayoclinic.com/health/ear-candling/AN02086" />
+		<LinkItem ContentType="Disease" DocID="DS00172" LinkType="Internal" ObjectID="41D92C59-66DB-4689-A6DA5F2A84B9E226" Title="Hearing loss" Url="http://www.mayoclinic.com/health/hearing-loss/DS00172" />
+	</RelatedLinksBox>
+</Disease>

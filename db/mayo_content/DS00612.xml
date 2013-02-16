@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00612
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gastroparesis/DS00612
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-04
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="2980" Title="Gastroparesis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B8FD8052-2A5D-9994-E3D7A1ECF01522DF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gastroparesis
+			</MetaKeyword>
+			<MetaKeyword>
+				delayed gastric emptying
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic gastroparesis
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroparesis diet
+			</MetaKeyword>
+			<MetaKeyword>
+				gastoparesis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroparesis symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				botox
+			</MetaKeyword>
+			<MetaKeyword>
+				motility disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gastroparesis is a condition in which the muscles in your stomach don&apos;t function normally. 
+&lt;/p&gt;
+&lt;p&gt;
+Ordinarily, strong muscular contractions propel food through your digestive tract. But in gastroparesis, the muscles in the wall of your stomach work poorly or not at all. This prevents your stomach from emptying properly. Gastroparesis can interfere with digestion, cause nausea and vomiting, and cause problems with blood sugar levels and nutrition. 
+&lt;/p&gt;
+&lt;p&gt;
+There is no cure for gastroparesis. Making changes to your diet may help you cope with gastroparesis signs and symptoms, but that&apos;s not always enough. Gastroparesis medications may offer some relief, but some can cause serious side effects. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="60" Title="Stomach and pyloric valve" URI="/images/image_popup/thumbs/r7_pyloricvalvethu.jpg" Width="60" />
+				<Image Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="300" Title="Stomach and pyloric valve" URI="/images/image_popup/r7_pyloricvalve.jpg" Width="400" />
+				<HTML>
+					Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of gastroparesis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;A feeling of fullness after eating just a few bites&lt;/li&gt;
+	&lt;li&gt;Abdominal bloating&lt;/li&gt;
+	&lt;li&gt;Heartburn or gastroesophageal reflux&lt;/li&gt;
+	&lt;li&gt;Changes in blood sugar levels&lt;/li&gt;
+	&lt;li&gt;Lack of appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss and malnutrition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not always clear what leads to gastroparesis. But in many cases, gastroparesis is believed to be caused by damage to a nerve that controls the stomach muscles (vagus nerve). 
+&lt;/p&gt;
+&lt;p&gt;
+The vagus nerve helps manage the complex processes in your digestive tract, including signaling the muscles in your stomach to contract and push food into the small intestine. A damaged vagus nerve can&apos;t send signals to your stomach muscles. This may cause food to remain in your stomach longer, rather than move normally into your small intestine to be digested. 
+&lt;/p&gt;
+&lt;p&gt;
+The vagus nerve can be damaged by diseases, such as diabetes, or by surgery to the stomach or small intestine. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="60" Title="Stomach and pyloric valve" URI="/images/image_popup/thumbs/r7_pyloricvalvethu.jpg" Width="60" />
+				<Image Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="300" Title="Stomach and pyloric valve" URI="/images/image_popup/r7_pyloricvalve.jpg" Width="400" />
+				<HTML>
+					Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can make it difficult for your stomach to empty properly include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Abdominal surgery&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Certain medications that slow the rate of stomach emptying, such as narcotic pain medications and antidepressants&lt;/li&gt;
+	&lt;li&gt;Certain cancer treatments&lt;/li&gt;
+	&lt;li&gt;Anorexia&lt;/li&gt;
+	&lt;li&gt;Bulimia&lt;/li&gt;
+	&lt;li&gt;Scleroderma&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Hypothyroidism&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gastroparesis can cause several complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria overgrowth in the stomach.&lt;/strong&gt; Food that stays in the stomach can begin to ferment and disrupt the balance of good and bad bacteria. This can allow harmful microorganisms to grow out of control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Undigested food that hardens and remains in your stomach.&lt;/strong&gt; Undigested food in your stomach can harden into a solid mass called a bezoar. Bezoars can cause nausea and vomiting and may be life-threatening if they prevent food from passing into your small intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood sugar fluctuations.&lt;/strong&gt; Although gastroparesis doesn&apos;t cause diabetes, inconsistent food absorption can cause erratic changes in blood sugar levels, which make diabetes worse. In turn, poor control of blood sugar levels makes gastroparesis worse. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner if you have signs and symptoms of gastroparesis. If your doctor suspects you may have gastroparesis, you may be referred to a doctor who specializes in digestive diseases (gastroenterologist). You may also be referred to a dietitian who can help you choose foods that are easier to digest. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. To prepare, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For gastroparesis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my gastroparesis?&lt;/li&gt;
+	&lt;li&gt;Could any of my medications be causing my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my gastroparesis likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for my gastroparesis?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Are there certain foods I can eat that are easier to digest?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a dietitian?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors use several tests to help diagnose gastroparesis and rule out conditions that may cause similar symptoms. Tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Measuring the time it takes for your stomach to empty.&lt;/strong&gt; A gastric-emptying study measures how long it takes for food to move through your stomach. There are several ways to measure stomach emptying. In the most common test, you eat food that contains a small amount of radioactive material. A scanner that detects the movement of the radioactive material is placed over your abdomen to monitor the rate at which food leaves your stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to see inside your stomach.&lt;/strong&gt; An upper endoscopy may help rule out other conditions that can cause delayed gastric emptying. During an endoscopy, your doctor passes a thin tube equipped with a camera down your throat and into your stomach and small intestine. The camera transmits images your doctor uses to evaluate your digestive system for abnormalities. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treating gastroparesis begins with identifying and treating the underlying condition. For instance, if diabetes is causing your gastroparesis, your doctor can work with you to help you control your diabetes. Beyond this, other gastroparesis treatments may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Changes to your diet&lt;/strong&gt; &lt;br /&gt;
+Your doctor may refer you to a dietitian who can work with you to find foods that are easier for you to digest, so that you&apos;re more likely to get enough calories and nutrients from the food you eat. A dietitian might suggest that you try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat smaller meals more frequently.&lt;/li&gt;
+	&lt;li&gt;Eat low-fiber forms of high-fiber foods, such as well-cooked fruits and vegetables rather than raw fruits and vegetables.&lt;/li&gt;
+	&lt;li&gt;Choose mostly low-fat foods, but if you can tolerate them, add small servings of fatty foods to your diet.&lt;/li&gt;
+	&lt;li&gt;Avoid fibrous fruits and vegetables, such as oranges and broccoli, that may cause bezoars.&lt;/li&gt;
+	&lt;li&gt;If liquids are easier for you to ingest, try soups and pureed foods.&lt;/li&gt;
+	&lt;li&gt;Drink water throughout each meal.&lt;/li&gt;
+	&lt;li&gt;Try gentle exercise after you eat, such as going for a walk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people with gastroparesis may be unable to tolerate any food or liquids. In these situations, doctors may recommend a feeding tube (jejunostomy tube) be placed in the small intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+Feeding tubes can be passed through your nose or mouth or directly into your small intestine through your skin. The tube is usually temporary and is only used when gastroparesis is severe or when blood sugar levels can&apos;t be controlled by any other method. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Medications to treat gastroparesis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control nausea and vomiting.&lt;/strong&gt; Anti-emetic medications include prochlorperazine (Compro), diphenhydramine (Benadryl, Unisom) and lorazepam (Ativan). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to stimulate the stomach muscles.&lt;/strong&gt; These medications include metoclopramide (Reglan) and erythromycin. There is a risk of serious side effects with these medications, so discuss the benefits and risks with your doctor. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If treatment doesn&apos;t help control your nausea, vomiting or malnutrition, you may consider gastroparesis surgery. During surgery, the lower part of the stomach may be stapled or bypassed to help improve stomach emptying. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Experimental treatments&lt;/strong&gt; &lt;br /&gt;
+Researchers are working on new ways of treating gastroparesis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injecting a nerve toxin to allow the stomach to release food.&lt;/strong&gt; Botulinum toxin type A (Botox) is a nerve toxin most commonly known for its use in treating skin wrinkles. Researchers have found that Botox injections relax the pyloric muscle in some people, thereby allowing the stomach to release more food into the small intestine. The benefits are temporary, however, and more studies are needed to determine the overall usefulness of this treatment. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Implanting an electrical device to control the stomach muscles.&lt;/strong&gt; Electrical gastric stimulation uses an electric current to cause stomach contractions. Working much like a heart pacemaker, this stomach pacemaker, consisting of a tiny generator and two electrodes, is placed in a pocket that surgeons create on the stomach&apos;s outer edge. Stomach pacemakers have been shown to improve stomach emptying and reduce nausea and vomiting in some people with gastroparesis, but more studies are needed. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gastroparesis
+	</Title>
+	<Abstract>
+		Gastroparesis &amp;mdash; Comprehensive overview covers symptoms, treatment, diet for this digestive condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02095" LinkType="Internal" ObjectID="D110E26D-BFEF-64E9-B8041285454A58A6" Title="Bezoars: What foods can cause this digestive problem?" Url="http://www.mayoclinic.com/health/bezoars/AN02095" />
+	</RelatedLinksBox>
+</Disease>

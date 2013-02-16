@@ -1,0 +1,415 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00583
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/preeclampsia/DS00583
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2005-04-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4045" Title="Preeclampsia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A19B8D07-BA14-48BD-9427AA9EC15F7BE8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				preeclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure in pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure during pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure and pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				toxemia
+			</MetaKeyword>
+			<MetaKeyword>
+				toxaemia
+			</MetaKeyword>
+			<MetaKeyword>
+				preeclamptic toxaemia
+			</MetaKeyword>
+			<MetaKeyword>
+				ephegesis gestosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy induced hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy toxemia
+			</MetaKeyword>
+			<MetaKeyword>
+				preeclompsia
+			</MetaKeyword>
+			<MetaKeyword>
+				preclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				pre-eclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				pre eclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				HELLP syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				HELP syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				HELLP
+			</MetaKeyword>
+			<MetaKeyword>
+				eclampsia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preeclampsia is defined as high blood pressure and excess protein in the urine after 20 weeks of pregnancy in a woman who previously had normal blood pressure. Even a slight increase in blood pressure may be a sign of preeclampsia. Left untreated, preeclampsia can lead to serious &amp;mdash; even fatal &amp;mdash; complications for both you and your baby.
+&lt;/p&gt;
+&lt;p&gt;
+If you have preeclampsia, the only cure is delivery of your baby. If you&apos;re diagnosed with preeclampsia too early in your pregnancy for delivery to be an option, you and your doctor face a challenging task. Your baby needs more time to mature, but you need to avoid putting yourself or your baby at risk of serious complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preeclampsia can develop gradually but often starts abruptly, after 20 weeks of pregnancy. Preeclampsia may range from mild to severe. If your blood pressure was normal before your pregnancy, signs and symptoms of preeclampsia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure (hypertension) &amp;mdash; 140/90 millimeters of mercury (mm Hg) or greater &amp;mdash; documented on two occasions, at least six hours but no more than seven days apart&lt;/li&gt;
+	&lt;li&gt;Excess protein in your urine (proteinuria)&lt;/li&gt;
+	&lt;li&gt;Severe headaches&lt;/li&gt;
+	&lt;li&gt;Changes in vision, including temporary loss of vision, blurred vision or light sensitivity&lt;/li&gt;
+	&lt;li&gt;Upper abdominal pain, usually under your ribs on the right side&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Decreased urine output&lt;/li&gt;
+	&lt;li&gt;Sudden weight gain, typically more than 2 pounds (0.9 kilogram) a week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Swelling (edema), particularly in your face and hands, often accompanies preeclampsia. Swelling isn&apos;t considered a reliable sign of preeclampsia, however, because it also occurs in many normal pregnancies.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor immediately or go to an emergency room if you have severe headaches, blurred vision or severe pain in your abdomen.
+&lt;/p&gt;
+&lt;p&gt;
+Because headaches, nausea, and aches and pains are common pregnancy complaints, it&apos;s difficult to know when new symptoms are simply part of being pregnant and when they may indicate a serious problem &amp;mdash; especially if it&apos;s your first pregnancy. If you&apos;re concerned about your symptoms, contact your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preeclampsia used to be called toxemia because it was thought to be caused by a toxin in a pregnant woman&apos;s bloodstream. This theory has been discarded, but researchers have yet to determine what causes preeclampsia. Possible causes may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Insufficient blood flow to the uterus&lt;/li&gt;
+	&lt;li&gt;Damage to the blood vessels&lt;/li&gt;
+	&lt;li&gt;A problem with the immune system&lt;/li&gt;
+	&lt;li&gt;Poor diet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other high blood pressure disorders during pregnancy&lt;/strong&gt;&lt;br /&gt;
+Preeclampsia is classified as one of four high blood pressure disorders that can occur during pregnancy. The other three are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gestational hypertension.&lt;/strong&gt; Women with gestational hypertension have high blood pressure, but no excess protein in their urine. Some women with gestational hypertension eventually develop preeclampsia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic hypertension.&lt;/strong&gt; Chronic hypertension is high blood pressure that appears before 20 weeks of pregnancy or lasts more than 12 weeks after delivery. Usually, chronic hypertension was present &amp;mdash; but not detected &amp;mdash; before pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preeclampsia superimposed on chronic hypertension.&lt;/strong&gt; This condition occurs in women who have chronic high blood pressure before pregnancy who then develop worsening high blood pressure and protein in the urine during pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preeclampsia develops only during pregnancy. Risk factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;History of preeclampsia.&lt;/strong&gt; A personal or family history of preeclampsia increases your risk of developing the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;First pregnancy.&lt;/strong&gt; The risk of developing preeclampsia is highest during your first pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;New paternity.&lt;/strong&gt; Each pregnancy with a new partner increases the risk of preeclampsia over a second or third pregnancy with the same partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The risk of preeclampsia is higher for pregnant women younger than 20 and older than 40.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; The risk of preeclampsia is higher if you&apos;re obese.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple pregnancy.&lt;/strong&gt; Preeclampsia is more common in women who are carrying twins, triplets or other multiples.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged interval between pregnancies.&lt;/strong&gt; This seems to increase the risk of preeclampsia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes and gestational diabetes.&lt;/strong&gt; Women who develop gestational diabetes have a higher risk of developing preeclampsia as the pregnancy progresses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of certain conditions.&lt;/strong&gt; Having certain conditions before you become pregnant &amp;mdash; such as chronic high blood pressure, migraine headaches, diabetes, kidney disease, rheumatoid arthritis or lupus &amp;mdash; increases the risk of preeclampsia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other possible factors&lt;/strong&gt;&lt;br /&gt;
+Researchers are studying whether these factors may be associated with a higher risk of preeclampsia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having other health conditions.&lt;/strong&gt; There&apos;s some evidence that both urinary tract infections and periodontal disease during pregnancy are associated with an increased risk of preeclampsia, which may indicate that antibiotics could play a role in prevention of preeclampsia. More study is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin D insufficiency.&lt;/strong&gt; There&apos;s also some evidence that insufficient vitamin D intake increases the risk of preeclampsia, and that vitamin D supplements in early pregnancy could play a role in prevention. More study is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High levels of certain proteins.&lt;/strong&gt; Pregnant women who had high levels of certain proteins in their blood or urine have been found to be more likely to develop preeclampsia than are other women. These proteins interfere with the growth and function of blood vessels &amp;mdash; lending evidence to the theory that preeclampsia is caused by abnormalities in the blood vessels feeding the placenta. Although more research is needed, the discovery suggests that a blood or urine test may one day serve as an effective screening tool for preeclampsia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most women with preeclampsia deliver healthy babies. The more severe your preeclampsia and the earlier it occurs in your pregnancy, however, the greater the risks for you and your baby. Preeclampsia may require induced labor and delivery. Cesarean birth isn&apos;t always needed in these cases. But your doctor might recommend cesarean delivery if inducing labor becomes difficult due to the gestational age of your baby. The earlier the gestational age, the more difficult inducing labor might be.
+&lt;/p&gt;
+&lt;p&gt;
+Complications of preeclampsia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of blood flow to the placenta.&lt;/strong&gt; Preeclampsia affects the arteries carrying blood to the placenta. If the placenta doesn&apos;t get enough blood, your baby may receive less oxygen and fewer nutrients. This can lead to slow growth, low birth weight, preterm birth and breathing difficulties for your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Placental abruption.&lt;/strong&gt; Preeclampsia increases your risk of placental abruption, in which the placenta separates from the inner wall of your uterus before delivery. Severe abruption can cause heavy bleeding and damage to the placenta, which can be life-threatening for both you and your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;HELLP syndrome.&lt;/strong&gt; HELLP &amp;mdash; which stands for hemolysis (the destruction of red blood cells), elevated liver enzymes and low platelet count &amp;mdash; syndrome can rapidly become life-threatening for both you and your baby. Symptoms of HELLP syndrome include nausea and vomiting, headache, and upper right abdominal pain. HELLP syndrome is particularly dangerous because it can occur before signs or symptoms of preeclampsia appear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eclampsia.&lt;/strong&gt; When preeclampsia isn&apos;t controlled, eclampsia &amp;mdash; which is essentially preeclampsia plus seizures &amp;mdash; can develop. Symptoms of eclampsia include upper right abdominal pain, severe headache, vision problems and change in mental status, such as decreased alertness. Eclampsia can permanently damage your vital organs, including your brain, liver and kidneys. Left untreated, eclampsia can cause coma, brain damage and death for both you and your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; Having preeclampsia may increase your risk of future cardiovascular disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s a good idea to be well prepared for your appointment with your obstetrician. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; even if you think they&apos;re normal pregnancy symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time will help you make the most of your time with your doctor. List your questions from most important to least important. For preeclampsia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my condition mild or severe?&lt;/li&gt;
+	&lt;li&gt;Is it safe to continue the pregnancy?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;What restrictions do I need to follow?&lt;/li&gt;
+	&lt;li&gt;Will it be necessary to induce early labor?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Questions your doctor may ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is this your first pregnancy or your first pregnancy with this baby&apos;s father?&lt;/li&gt;
+	&lt;li&gt;Have you had any unusual symptoms lately, such as blurred vision or headaches?&lt;/li&gt;
+	&lt;li&gt;Do you ever feel pain in your upper abdomen that seems unrelated to your baby&apos;s movements?&lt;/li&gt;
+	&lt;li&gt;Do you normally have high blood pressure?&lt;/li&gt;
+	&lt;li&gt;Did you experience preeclampsia with any previous pregnancies?&lt;/li&gt;
+	&lt;li&gt;Have you had any other complications during a previous pregnancy?&lt;/li&gt;
+	&lt;li&gt;Do you have any other health conditions that I should be aware of?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preeclampsia usually shows up during a routine prenatal blood pressure check followed by a urine test. The diagnosis depends on the presence of high blood pressure and protein in your urine after 20 weeks of pregnancy. Substances called biochemical markers in your blood and urine may be warning signs of preeclampsia. That&apos;s one of the reasons it&apos;s essential to seek early and regular prenatal care throughout your pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+A blood pressure reading in excess of 140/90 mm Hg is abnormal in pregnancy. However, a single high blood pressure reading doesn&apos;t mean you have preeclampsia. If you have one reading in the abnormal range &amp;mdash; or a reading that&apos;s substantially higher than your usual blood pressure &amp;mdash; your doctor will closely observe your numbers. Having a second abnormal blood pressure reading six hours after the first may confirm your doctor&apos;s suspicion of preeclampsia. You may also need additional blood pressure readings and urinary protein measurements.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re diagnosed with preeclampsia, your doctor may recommend additional tests, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These can determine how well your liver and kidneys are functioning and whether your blood has a normal number of platelets &amp;mdash; the cells that help blood clot. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged urine collection test.&lt;/strong&gt; Urine samples taken over at least 12 hours and up to 24 hours can quantify how much protein is being lost in the urine, an indication of the severity of preeclampsia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal ultrasound.&lt;/strong&gt; Your doctor may also recommend close monitoring of your baby&apos;s growth, typically through ultrasound. This test directs high-frequency sound waves at the tissues in your abdominal area. These sound waves bounce off the curves and variations in your body, including your baby. The sound waves are translated into a pattern of light and dark areas &amp;mdash; creating images of your baby on a monitor that can be recorded electronically or on film for a look at the inside of your uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonstress test or biophysical profile.&lt;/strong&gt; These make sure your baby is getting enough oxygen and nourishment. A nonstress test is a simple procedure that checks how your baby&apos;s heart rate reacts when your baby moves. Your baby is doing fine if the heart rate increases at least 15 beats a minute for at least 15 seconds twice in a 20-minute period. A biophysical profile combines an ultrasound with a nonstress test to provide more information about your baby&apos;s breathing, tone, movement and the volume of amniotic fluid in your uterus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only cure for preeclampsia is delivery. You&apos;re at increased risk of seizures, placental abruption, stroke and possibly severe bleeding until your blood pressure decreases. Of course, if it&apos;s too early in your pregnancy, delivery may not be the best thing for your baby.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had preeclampsia in one or more previous pregnancies, some experts recommend more frequent prenatal visits than normally recommended for pregnancy. Your doctor may ask you to come in every two weeks between the 20th and 32nd week of your gestation, and weekly after that until delivery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to lower blood pressure.&lt;/strong&gt; These medications, called antihypertensives, are used to lower your blood pressure until delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; If you have severe preeclampsia or HELLP syndrome, corticosteroid medications can temporarily improve liver and platelet functioning to help prolong your pregnancy. Corticosteroids can also help your baby&apos;s lungs become more mature in as little as 48 hours &amp;mdash; an important step in helping a premature baby prepare for life outside the womb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsive medications.&lt;/strong&gt; If your preeclampsia is severe, your doctor may prescribe an anticonvulsive medication, such as magnesium sulfate, to prevent a first seizure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bed rest&lt;/strong&gt;&lt;br /&gt;
+If you aren&apos;t near the end of your pregnancy and you have a mild case of preeclampsia, your doctor may recommend bed rest to lower your blood pressure and increase blood flow to your placenta, giving your baby time to mature. You may need to lie in bed, only sitting and standing when necessary. Or you may be able to sit on the couch or in bed and strictly limit your activities. Your doctor may want to see you a few times a week to check your blood pressure, urine protein levels and your baby&apos;s well-being.
+&lt;/p&gt;
+&lt;p&gt;
+If you have more severe preeclampsia, you may need bed rest in the hospital. In the hospital, you may have regular nonstress tests or biophysical profiles to monitor your baby&apos;s well-being and measure the volume of amniotic fluid. A lack of amniotic fluid is a sign of poor blood supply to the baby.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Delivery&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re diagnosed with preeclampsia near the end of your pregnancy, your doctor may recommend inducing labor right away. The readiness of your cervix &amp;mdash; whether it&apos;s beginning to open (dilate), thin (efface) and soften (ripen) &amp;mdash; also may be a factor in determining whether or when labor will be induced.
+&lt;/p&gt;
+&lt;p&gt;
+In more severe cases, it may not be possible to consider your baby&apos;s gestational age or the readiness of your cervix. If it&apos;s not possible to wait, your doctor may induce labor or schedule a C-section earlier in your pregnancy. During delivery, you may be given magnesium sulfate intravenously to increase uterine blood flow and prevent seizures.
+&lt;/p&gt;
+&lt;p&gt;
+After delivery, expect your blood pressure to return to normal within a few weeks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Discovering that you have a potentially serious pregnancy complication can be frightening. If you&apos;re diagnosed with preeclampsia late in your pregnancy, you may be surprised and scared to know that you&apos;ll be induced right away. If you&apos;re diagnosed earlier in your pregnancy, you may spend many hours of bed rest worrying about your baby&apos;s health.
+&lt;/p&gt;
+&lt;p&gt;
+It may help to learn as much as you can about your condition. In addition to talking to your doctor, do some research. On the other hand, if reading about preeclampsia and its possible complications only makes you more nervous and worried, find a distraction. Make sure you understand when to call your doctor, and then find something else to occupy your time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Coping with bed rest&lt;/strong&gt;&lt;br /&gt;
+For the first few hours, bed rest may seem wonderful. But the reality of life in bed &amp;mdash; waiting and worrying &amp;mdash; is often not so wonderful. You may feel frustrated by the forced lack of activity, especially if you haven&apos;t had time to finish preparations for your baby&apos;s arrival.
+&lt;/p&gt;
+&lt;p&gt;
+To make bed rest tolerable, consider these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure you understand the ground rules.&lt;/strong&gt; Ask your doctor for specifics. What position should you use while lying down? Can you sit up at times? If so, for how long? Are you allowed any other type of physical activity?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare your resting room.&lt;/strong&gt; Whether you choose to spend your time in your bedroom or a more central spot in your home, make sure everything you need is within reach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Organize your day.&lt;/strong&gt; The hours will pass more quickly if you have some sort of routine. Schedule specific times to phone the office, watch television and read. It may help to stick to some parts of your normal schedule, such as lunchtime and lights out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep busy.&lt;/strong&gt; Use your time to balance the checkbook, organize your photo albums or catch up on phone calls. Shop for baby supplies, either online or from catalogs. Take up a new hobby, such as knitting. Or learn relaxation and visualization techniques. They&apos;ll help not only during bed rest but also during labor and delivery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make the best of the situation by focusing on the fact that you&apos;re doing what&apos;s best for you and your baby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to prevent preeclampsia. Eating less salt or changing your activities during pregnancy doesn&apos;t reduce the risk. The best way to take care of yourself &amp;mdash; and your baby &amp;mdash; is to seek early and regular prenatal care. If preeclampsia is detected early, you and your doctor can work together to prevent complications.
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s some evidence that taking certain vitamins, such as vitamin D, may lower the risk of preeclampsia. Ask your doctor what he or she recommends. Don&apos;t take anything during pregnancy without your doctor&apos;s approval.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Preeclampsia
+	</Title>
+	<Abstract>
+		Preeclampsia &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this common pregnancy complication.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00777" LinkType="Internal" ObjectID="563FCB9D-A538-2A78-5A61F27B1BD5D29F" Title="Fetal ultrasound" Url="http://www.mayoclinic.com/health/fetal-ultrasound/MY00777" />
+		<LinkItem ContentType="Article" DocID="PR00107" LinkType="Internal" ObjectID="DF1F8E53-CE59-4A8B-9204923F7DA89C84" Title="Bed rest during pregnancy: Get the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00107" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="MY01713" LinkType="Internal" ObjectID="A0779F08-E762-03C0-A85B3065FC5D6156" Title="Home birth: Know the pros and cons" Url="http://www.mayoclinic.com/health/home-birth/MY01713" />
+		<LinkItem ContentType="Article" DocID="PR00125" LinkType="Internal" ObjectID="7A28001E-F8AD-4174-AF785E26EEE1A1D5" Title="High blood pressure and pregnancy: Know the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00125" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="Article" DocID="PR00111" LinkType="Internal" ObjectID="17A69035-EF4D-4811-985D00A6FCDDB751" Title="Pregnancy weight gain: What&apos;s healthy?" Url="http://www.mayoclinic.com/health/pregnancy-weight-gain/PR00111" />
+		<LinkItem ContentType="Article" DocID="MY01691" LinkType="Internal" ObjectID="0C5B6C3B-A65E-7D18-492171BE49CF8E3D" Title="Family planning: Get the facts about pregnancy spacing" Url="http://www.mayoclinic.com/health/family-planning/MY01691" />
+		<LinkItem ContentType="Disease" DocID="DS01199" LinkType="Internal" ObjectID="B5179CE9-9F7B-6B99-151695852B5DAA6E" Title="Postpartum preeclampsia" Url="http://www.mayoclinic.com/health/postpartum-preeclampsia/DS01199" />
+		<LinkItem ContentType="Disease" DocID="DS01207" LinkType="Internal" ObjectID="A43C6661-B9F9-3BE6-3A41FE6D24724FDD" Title="Amniotic fluid embolism" Url="http://www.mayoclinic.com/health/amniotic-fluid-embolism/DS01207" />
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+	</RelatedLinksBox>
+</Disease>

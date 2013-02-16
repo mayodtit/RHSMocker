@@ -1,0 +1,302 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00731
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pancreatic-cysts/DS00731
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="2251" Title="Nondiabetic pancreas">
+						<Keyword MCVID="2969" Title="Pancreatic cysts" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			25FFDC7D-E7FF-0DBD-1C5EF3F1E45F3778
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pancreatic cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreatic cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				cyst on pancreas
+			</MetaKeyword>
+			<MetaKeyword>
+				cyst in pancreas
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreatic pseudocyst
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreatitis cyst
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pancreatic cysts are sac-like pockets of fluid on or within your pancreas. The pancreas is a large organ located behind the stomach. It produces hormones and enzymes that help digest food. 
+&lt;/p&gt;
+&lt;p&gt;
+Most pancreatic cysts aren&apos;t cancerous, and many don&apos;t cause symptoms. In fact, many pancreatic cysts technically aren&apos;t cysts at all. Called pseudocysts, these noncancerous (benign) pockets of fluids are lined with scar or inflammatory tissue, not the type of cells found in true cysts. 
+&lt;/p&gt;
+&lt;p&gt;
+But some pancreatic cysts can be cancerous. Your doctor may want to take a sample of the pancreatic cyst fluid to determine if cancer cells are present. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, your doctor may not be able to tell whether a cyst may become cancerous. Your doctor may recommend monitoring the cyst over time for changes in size or shape that may suggest the need to remove it surgically. Some cysts have a low potential for becoming cancerous, and your doctor may recommend watching them carefully. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pancreas 
+" Caption="The pancreas is a large organ that lies horizontally in your upper abdomen behind your stomach. 
+" Height="60" Title="Pancreas" URI="/images/image_popup/thumbs/ah6a207_thmb.jpg" Width="60" />
+				<Image Alt="Illustration showing pancreas 
+" Caption="The pancreas is a large organ that lies horizontally in your upper abdomen behind your stomach. 
+" Height="300" Title="Pancreas" URI="/images/image_popup/ah6a207_big.jpg" Width="400" />
+				<HTML>
+					The pancreas is a large organ that lies horizontally in your upper abdomen behind your stomach. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing types of pancreatic cysts 
+" Caption="Many kinds of cysts can grow on the pancreas, some cancerous and some benign. 
+" Height="60" Title="Types of pancreatic cysts " URI="/images/image_popup/thumbs/d7_pancyststhu.jpg" Width="60" />
+				<Image Alt="Illustration showing types of pancreatic cysts 
+" Caption="Many kinds of cysts can grow on the pancreas, some cancerous and some benign. 
+" Height="321" Title="Types of pancreatic cysts " URI="/images/image_popup/d7_pancysts.jpg" Width="400" />
+				<HTML>
+					Many kinds of cysts can grow on the pancreas, some cancerous and some benign. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may not experience any symptoms from pancreatic cysts, including pseudocysts. Pancreatic cysts are often found when imaging tests of the stomach area (abdomen) are done for another reason. 
+&lt;/p&gt;
+&lt;p&gt;
+When signs or symptoms of pancreatic cysts do occur, they typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent abdominal pain, which may radiate to your back&lt;/li&gt;
+	&lt;li&gt;A mass you can feel in your upper abdomen&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Cysts can become infected, though this is rare. See a doctor if you are feverish and have persistent abdominal pain. 
+&lt;/p&gt;
+&lt;p&gt;
+A ruptured pseudocyst is a medical emergency. Fluid released by the pseudocyst can damage nearby blood vessels and cause massive bleeding. A ruptured pseudocyst can also cause infection of the abdominal cavity (peritonitis). Seek emergency medical treatment if you have signs or symptoms of internal bleeding and shock, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+	&lt;li&gt;Decreased consciousness&lt;/li&gt;
+	&lt;li&gt;Weak and rapid heartbeat&lt;/li&gt;
+	&lt;li&gt;Vomiting of blood&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of pancreatic cysts is often unknown. Cancerous cysts can be caused by genetic mutations. Some cysts are associated with rare illnesses including von Hippel-Lindau disease, a genetic disorder that can affect the pancreas and other organs. 
+&lt;/p&gt;
+&lt;p&gt;
+Pseudocysts often follow a bout of pancreatitis, a painful condition in which digestive enzymes become prematurely active and irritate the pancreas. Pseudocysts can also result from injury to the abdomen, such as from a car accident. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heavy alcohol use and gallstones are risk factors for pancreatitis, and pancreatitis is a risk factor for pseudocysts &amp;mdash; the most common type of pancreatic cyst. Abdominal injury is also a risk factor for pseudocysts. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a history of injury to your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask &lt;/strong&gt;your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;If I need surgery, what will my recovery be like?&lt;/li&gt;
+	&lt;li&gt;How will my diet and lifestyle change after I have surgery?&lt;/li&gt;
+	&lt;li&gt;What follow-up care will I need?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared in advance, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you questions about your symptoms, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Where do you feel your symptoms the most?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had pancreatitis?&lt;/li&gt;
+	&lt;li&gt;How many alcoholic drinks do you consume daily?&lt;/li&gt;
+	&lt;li&gt;Do you have gallstones?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pancreatic cysts are diagnosed more often than in the past because improved imaging technology finds them more readily. Many pancreatic cysts are found during abdominal scans for other problems. 
+&lt;/p&gt;
+&lt;p&gt;
+The biggest challenge during diagnosis is determining whether the pancreatic cyst is cancerous. These procedures are often used to help with diagnosis and to help plan treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Previous experience of abdominal injury or pancreatitis may indicate a pseudocyst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT scan.&lt;/strong&gt; This imaging test can provide detailed information about the structure of a pancreatic cyst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI scan.&lt;/strong&gt; This imaging test can highlight subtle details of a pancreatic cyst, including whether it has any solid components.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic ultrasound.&lt;/strong&gt; This test can provide a detailed image of the cyst, and fluid can be collected from the cyst for analysis in a laboratory for possible signs of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The characteristics and location of the pancreatic cyst, along with your age and sex, can help doctors pinpoint the type of cyst you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Serous cystadenoma&lt;/strong&gt; can become large enough to displace nearby organs, causing abdominal pain and a feeling of fullness. Serous cystadenomas occur most frequently in middle-aged women and only rarely become cancerous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mucinous cystadenoma&lt;/strong&gt; is usually located in the body or tail of the pancreas and occurs most often in middle-aged women. Mucinous cystadenoma is precancerous, which means it may become cancer if left untreated. Larger cysts may already be cancerous when found.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intraductal papillary mucinous neoplasm (IPMN)&lt;/strong&gt; is a growth in the main pancreatic duct or one of its side branches. IPMN may be precancerous or cancerous. Depending on its location and other factors, IPMN may require surgical removal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Papillary cystic tumor&lt;/strong&gt; is usually located in the body or tail of the pancreas, and occurs most often in young women. Also known as papillary cystic neoplasm, or solid and pseudopapillary neoplasm, it is usually cancerous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystic islet cell tumor&lt;/strong&gt; is mostly solid but can have cyst-like components. Cystic islet cell tumor can be confused with other pancreatic cysts and may be precancerous or cancerous.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the type of cyst you have and whether it is causing symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Watchful waiting&lt;/strong&gt; &lt;br /&gt;
+A benign pseudocyst, even a large one, can be left alone as long as it isn&apos;t bothering you. Serous cystadenoma rarely becomes cancerous, so it also can be left alone unless it causes symptoms or grows. 
+&lt;/p&gt;
+&lt;p&gt;
+But all pancreatic cysts should be monitored. Cysts smaller than 10 millimeters (0.39 inches) can be imaged with CT scan after one year, and then less frequently if they remain stable. Cysts larger than 10 millimeters usually require regular endoscopic ultrasound to look for worrisome features. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drainage&lt;/strong&gt; &lt;br /&gt;
+A pseudocyst that is causing bothersome symptoms or growing larger may be drained. A small flexible tube (endoscope) is passed through your mouth to your stomach and small intestine. The endoscope is equipped with a needle to drain the cyst. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery may be needed to remove an enlarged pseudocyst or a serous cystadenoma that&apos;s causing pain or other symptoms. Other types of pancreatic cysts generally require surgical removal because of the risk of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+A pseudocyst may recur if you have ongoing pancreatitis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to avoid pseudocysts is to avoid pancreatitis, which is usually caused by gallstones or heavy use of alcohol. If gallstones are triggering pancreatitis, you may need to have your gallbladder removed. If your pancreatitis is due to alcohol use, abstaining from alcohol can reduce your risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pancreatic cysts
+	</Title>
+	<Abstract>
+		Pancreatic cysts &amp;mdash; Comprehensive overview covers symptoms, treatment and causes of cysts in the pancreas.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

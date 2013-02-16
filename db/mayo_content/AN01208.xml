@@ -1,0 +1,135 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01208
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hormone-replacement-therapy/AN01208
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-15
+		</UpdateDate>
+		<PublicationDate>
+			2005-10-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="4423" Title="Female reproductive stage">
+						<Keyword MCVID="2047" Title="Menopause" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			11227459-BB93-415B-9970AD14DD633DB3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				menopause
+			</MetaKeyword>
+			<MetaKeyword>
+				hormone therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				hormone replacement therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				post menopausal bleeding
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Some forms of hormone replacement therapy for menopause may cause monthly bleeding. This includes cyclic hormone therapy preparations that contain a combination of estrogen and a progestin. The progestin is used to prevent endometrial cancer if you have an intact uterus. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormone replacement therapy can result in bleeding that may be light or may be as heavy as a normal period. If you have concerns about your bleeding, you should see your doctor or health care provider. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential causes of abnormal bleeding during or after menopause include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thinning of the tissue lining the vagina and uterus due to a decrease in estrogen&lt;/li&gt;
+	&lt;li&gt;Uterine polyps or fibroids&lt;/li&gt;
+	&lt;li&gt;Infections of the uterus, such as endometritis and cervicitis&lt;/li&gt;
+	&lt;li&gt;Abnormal growth of the lining of the uterus (endometrial hyperplasia)&lt;/li&gt;
+	&lt;li&gt;Endometrial cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to a careful history and physical examination, laboratory tests and diagnostic procedures may be used to identify the cause of abnormal bleeding in menopausal women. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hormone replacement therapy: Cause of vaginal bleeding?
+	</Title>
+	<Abstract>
+		Some forms of hormone replacement therapy may cause vaginal bleeding. Learn more.
+	</Abstract>
+	<Question>
+		I&apos;m taking hormone therapy for menopause symptoms, and my monthly menstrual periods have returned. Is this normal?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01143" LinkType="Internal" ObjectID="CEA12AC8-CF7E-9CEF-0A257B252A1FE734" Title="Hot flashes" Url="http://www.mayoclinic.com/health/hot-flashes/DS01143" />
+		<LinkItem ContentType="Disease" DocID="DS00554" LinkType="Internal" ObjectID="AD5A5A12-B388-40F4-B8073113B0A8BF4E" Title="Perimenopause" Url="http://www.mayoclinic.com/health/perimenopause/DS00554" />
+		<LinkItem ContentType="Disease" DocID="DS00843" LinkType="Internal" ObjectID="7E5EDB50-E7FF-0DBD-1BBE6D8C25526BBF" Title="Premature ovarian failure" Url="http://www.mayoclinic.com/health/premature-ovarian-failure/DS00843" />
+		<LinkItem ContentType="Article" DocID="HQ01076" LinkType="Internal" ObjectID="7878C26C-47F2-4F1F-BF04FCEB2D9C6589" Title="Menopause weight gain: Stop the middle age spread" Url="http://www.mayoclinic.com/health/menopause-weight-gain/HQ01076" />
+		<LinkItem ContentType="Article" DocID="WO00128" LinkType="Internal" ObjectID="6B90797A-E7FF-0DBD-14568428CBB7C25D" Title="Belly fat in women: Taking &amp;mdash; and keeping &amp;mdash; it off" Url="http://www.mayoclinic.com/health/belly-fat/WO00128" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Article" DocID="MY00478" LinkType="Internal" ObjectID="227487BD-A497-31CD-C81E1398182F51BA" Title="Fitness tips for menopause: Why fitness counts" Url="http://www.mayoclinic.com/health/fitness-tips-for-menopause/MY00478" />
+		<LinkItem ContentType="Article" DocID="DA00038" LinkType="Internal" ObjectID="167CE011-22E6-46C5-BC2634387D8E47AC" Title="Diabetes and menopause: A twin challenge" Url="http://www.mayoclinic.com/health/diabetes/DA00038" />
+		<LinkItem ContentType="Answer" DocID="AN01824" LinkType="Internal" ObjectID="BDE858C2-E7FF-0DBD-1726E7F965D70515" Title="Bleeding after menopause: Is it normal?" Url="http://www.mayoclinic.com/health/bleeding-after-menopause/AN01824" />
+		<LinkItem ContentType="Answer" DocID="AN01133" LinkType="Internal" ObjectID="6E39FA1F-FE8B-42DA-A77BBE5A0A8CF2EE" Title="Bioidentical hormones: Are they safer?" Url="http://www.mayoclinic.com/health/bioidentical-hormones/AN01133" />
+		<LinkItem ContentType="Answer" DocID="AN01390" LinkType="Internal" ObjectID="40513DDC-E7FF-0DBD-13FF3BBDFF94A5A0" Title="Testosterone therapy in women: Does it boost sex drive?" Url="http://www.mayoclinic.com/health/testosterone-therapy/AN01390" />
+		<LinkItem ContentType="Disease" DocID="DS00128" LinkType="Internal" ObjectID="74832633-C5B7-4681-A614980804652C1A" Title="Osteoporosis" Url="http://www.mayoclinic.com/health/osteoporosis/DS00128" />
+		<LinkItem ContentType="Disease" DocID="DS00770" LinkType="Internal" ObjectID="5576EB96-E7FF-0DBD-1FBC41B1CADE5DF5" Title="Vaginal atrophy" Url="http://www.mayoclinic.com/health/vaginal-atrophy/DS00770" />
+		<LinkItem ContentType="Article" DocID="WO00131" LinkType="Internal" ObjectID="C6F5A9B7-E7FF-0DBD-127A03DF7D4B809D" Title="Hormone replacement therapy and your heart" Url="http://www.mayoclinic.com/health/hormone-replacement-therapy/WO00131" />
+		<LinkItem ContentType="Article" DocID="WO00046" LinkType="Internal" ObjectID="8688633C-66EB-4EFD-A67AF1AC47D3FECD" Title="Hormone therapy: Is it right for you?" Url="http://www.mayoclinic.com/health/hormone-therapy/WO00046" />
+		<LinkItem ContentType="Disease" DocID="DS00119" LinkType="Internal" ObjectID="FDA7CB3A-4F3C-4FDB-9FDD926923BCDCB9" Title="Menopause" Url="http://www.mayoclinic.com/health/menopause/DS00119" />
+	</RelatedLinksBox>
+</Answer>

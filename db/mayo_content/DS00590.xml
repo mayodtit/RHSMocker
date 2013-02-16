@@ -1,0 +1,415 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00590
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/low-blood-pressure/DS00590
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-06-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1146" Title="Low blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			771E6FEC-FBF4-4B5E-90D2E1AA9BA37D13
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				low blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypotension
+			</MetaKeyword>
+			<MetaKeyword>
+				orthostatic hypotension
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Low blood pressure, also called hypotension, would seem to be something to strive for. However, for many people, low blood pressure can cause symptoms of dizziness and fainting. In severe cases, low blood pressure can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Although blood pressure varies from person to person, a blood pressure reading of 90 millimeters of mercury (mm Hg) or less systolic blood pressure (the top number in a blood pressure reading) or 60 mm Hg or less diastolic blood pressure (the bottom number) is generally considered low blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+The causes of low blood pressure can range from dehydration to serious medical or surgical disorders. Low blood pressure is treatable, but it&apos;s important to find out what&apos;s causing your condition so that it can be properly treated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For some people, low blood pressure can signal an underlying problem, especially when it drops suddenly or is accompanied by signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+	&lt;li&gt;Lack of concentration&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Cold, clammy, pale skin&lt;/li&gt;
+	&lt;li&gt;Rapid, shallow breathing&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Thirst&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+In many instances, low blood pressure isn&apos;t serious. If you have consistently low readings but feel fine, your doctor is likely to monitor you during routine exams. Even occasional dizziness or lightheadedness may be a relatively minor problem &amp;mdash; the result of mild dehydration from too much time in the sun or a hot tub, for example. In these situations, it&apos;s not a matter so much of how far, but of how quickly, your blood pressure drops. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, it&apos;s important to see your doctor if you experience any signs or symptoms of hypotension because they sometimes can point to more-serious problems. It can be helpful to keep a record of your symptoms, when they occur and what you were doing at the time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood pressure is a measurement of the pressure in your arteries during the active and resting phases of each heartbeat. Here&apos;s what the numbers mean: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Systolic pressure.&lt;/strong&gt; The first (top) number in a blood pressure reading, this is the amount of pressure your heart generates when pumping blood through your arteries to the rest of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diastolic pressure.&lt;/strong&gt; The second (bottom) number in a blood pressure reading, this refers to the amount of pressure in your arteries when your heart is at rest between beats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Current guidelines identify normal blood pressure as equal to or lower than 120/80 &amp;mdash; many experts think 115/75 is even better. 
+&lt;/p&gt;
+&lt;p&gt;
+Although you can get an accurate blood pressure reading at any given time, blood pressure isn&apos;t always the same. It can vary considerably in a short amount of time &amp;mdash; sometimes from one heartbeat to the next, depending on body position, breathing rhythm, stress level, physical condition, medications you take, what you eat and drink, and even time of day. Blood pressure is usually lowest at night and rises sharply on waking. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood pressure: How low can you go?&lt;/strong&gt;&lt;br /&gt;
+What&apos;s considered low blood pressure for you may be normal for someone else. Most doctors consider chronically low blood pressure too low only if it causes noticeable symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Some experts define low blood pressure as readings lower than 90 systolic or 60 diastolic &amp;mdash; you need to have only one number in the low range for your blood pressure to be considered lower than normal. In other words, if your systolic pressure is a perfect 115, but your diastolic pressure is 50, you&apos;re considered to have lower than normal pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+A sudden fall in blood pressure can also be dangerous. A change of just 20 mm Hg &amp;mdash; a drop from 110 systolic to 90 systolic, for example &amp;mdash; can cause dizziness and fainting when the brain fails to receive an adequate supply of blood. And big plunges, especially those caused by uncontrolled bleeding, severe infections or allergic reactions, can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Athletes and people who exercise regularly tend to have lower blood pressure and a slower heart rate than do people who aren&apos;t as fit. So, in general, do nonsmokers and people who eat a healthy diet and maintain a normal weight. 
+&lt;/p&gt;
+&lt;p&gt;
+But in some rare instances, low blood pressure can be a sign of serious, even life-threatening disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Conditions that can cause low blood pressure&lt;/strong&gt;&lt;br /&gt;
+Some medical conditions can cause low blood pressure. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Because a woman&apos;s circulatory system expands rapidly during pregnancy, blood pressure is likely to drop. During the first 24 weeks of pregnancy, systolic pressure commonly drops by five to 10 mm Hg and diastolic pressure by as much as 10 to 15 mm Hg. This is normal, and blood pressure usually returns to your pre-pregnancy level after you&apos;ve given birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Some heart conditions that can lead to low blood pressure include extremely low heart rate (bradycardia), heart valve problems, heart attack and heart failure. These conditions may cause low blood pressure because they prevent your body from being able to circulate enough blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endocrine problems.&lt;/strong&gt; An underactive thyroid (hypothyroidism) or overactive thyroid (hyperthyroidism) can cause low blood pressure. In addition, other conditions, such as adrenal insufficiency (Addison&apos;s disease), low blood sugar (hypoglycemia) and, in some cases, diabetes, can trigger low blood pressure.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Dehydration.&lt;/strong&gt; When you become dehydrated, your body loses more water than it takes in. Even mild dehydration can cause weakness, dizziness and fatigue. Fever, vomiting, severe diarrhea, overuse of diuretics and strenuous exercise can all lead to dehydration. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Far more serious is hypovolemic shock, a life-threatening complication of dehydration. It occurs when low blood volume causes a sudden drop in blood pressure and a reduction in the amount of oxygen reaching your tissues. If untreated, severe hypovolemic shock can cause death within a few minutes or hours. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood loss.&lt;/strong&gt; Losing a lot of blood from a major injury or internal bleeding reduces the amount of blood in your body, leading to a severe drop in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe infection (septicemia).&lt;/strong&gt; Septicemia can happen when an infection in the body enters the bloodstream. These conditions can lead to a life-threatening drop in blood pressure called septic shock.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe allergic reaction (anaphylaxis).&lt;/strong&gt; Anaphylaxis is a severe and potentially life-threatening allergic reaction. Common triggers of anaphylaxis include foods, certain medications, insect venoms and latex. Anaphylaxis can cause breathing problems, hives, itching, a swollen throat and a drop in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of nutrients in your diet.&lt;/strong&gt; A lack of the vitamins B-12 and folate can cause anemia, a condition in which your body doesn&apos;t produce enough red blood cells, causing low blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications that can cause low blood pressure&lt;/strong&gt;&lt;br /&gt;
+Some medications you may take can also cause low blood pressure, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diuretics (water pills)&lt;/li&gt;
+	&lt;li&gt;Alpha blockers&lt;/li&gt;
+	&lt;li&gt;Beta blockers&lt;/li&gt;
+	&lt;li&gt;Drugs for Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Certain types of antidepressants (tricyclic antidepressants)&lt;/li&gt;
+	&lt;li&gt;Sildenafil (Viagra), particularly in combination with the heart medication, nitroglycerine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of low blood pressure&lt;/strong&gt;&lt;br /&gt;
+Doctors often break down low blood pressure (hypotension) into different categories, depending on the causes and other factors. Some types of low blood pressure include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Low blood pressure on standing up (postural or orthostatic hypotension).&lt;/strong&gt; This is a sudden drop in blood pressure when you stand up from a sitting position or if you stand up after lying down. Ordinarily, gravity causes blood to pool in your legs whenever you stand. Your body compensates for this by increasing your heart rate and constricting blood vessels, thereby ensuring that enough blood returns to your brain. But in people with postural hypotension, this compensating mechanism fails and blood pressure falls, leading to symptoms of dizziness, lightheadedness, blurred vision and even fainting. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Postural hypotension can occur for a variety of reasons, including dehydration, prolonged bed rest, pregnancy, diabetes, heart problems, burns, excessive heat, large varicose veins and certain neurological disorders. A number of medications can also cause postural hypotension, particularly drugs used to treat high blood pressure &amp;mdash; diuretics, beta blockers, calcium channel blockers and angiotensin-converting enzyme (ACE) inhibitors &amp;mdash; as well as antidepressants and drugs used to treat Parkinson&apos;s disease and erectile dysfunction. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Postural hypotension is especially common in older adults, with as many as 20 percent of those over age 65 experiencing postural hypotension. But postural hypotension can also affect young, otherwise healthy people who stand up suddenly after sitting with their legs crossed for long periods or after working for a time in a squatting position. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Low blood pressure after eating (postprandial hypotension).&lt;/strong&gt; Postprandial hypotension is a sudden drop in blood pressure after eating. It affects mostly older adults. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Just as gravity pulls blood to your feet when you stand, a large amount of blood flows to your digestive tract after you eat. Ordinarily, your body counteracts this by increasing your heart rate and constricting certain blood vessels to help maintain normal blood pressure. But in some people these mechanisms fail, leading to dizziness, faintness and falls. Postprandial hypotension is more likely to affect people with high blood pressure or autonomic nervous system disorders such as Parkinson&apos;s disease. Lowering the dose of blood pressure drugs and eating small, low-carbohydrate meals may help reduce symptoms. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Low blood pressure from faulty brain signals (neurally mediated hypotension).&lt;/strong&gt; This disorder causes blood pressure to drop after standing for long periods, leading to signs and symptoms such as dizziness, nausea and fainting. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Neurally mediated hypotension mostly affects young people, and it seems to occur because of a miscommunication between the heart and the brain. When you stand for extended periods, your blood pressure falls as blood pools in your legs. Normally, your body then makes adjustments to normalize your blood pressure. But in people with neurally mediated hypotension, nerves in the heart&apos;s left ventricle actually signal the brain that blood pressure is too high, rather than too low. As a result, the brain lessens the heart rate, decreasing blood pressure even further. This causes more blood to pool in the legs and less blood to reach the brain, leading to lightheadedness and fainting. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood pressure due to nervous system damage (multiple system atrophy with orthostatic hypotension).&lt;/strong&gt; Also called Shy-Drager syndrome, this rare disorder causes progressive damage to the autonomic nervous system, which controls involuntary functions such as blood pressure, heart rate, breathing and digestion. Although this condition can be associated with muscle tremors, slowed movement, problems with coordination and speech, and incontinence, its main characteristic is severe orthostatic hypotension in combination with very high blood pressure when lying down.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Low blood pressure (hypotension) can occur in anyone, though certain types of low blood pressure are more common depending on your age or other factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Drops in blood pressure on standing or after eating occur primarily in adults older than 65. Orthostatic hypotension happens after standing up, while postprandial hypotension happens after eating a meal. Neurally mediated hypotension happens as a result of a miscommunication between the brain and heart. It primarily affects children and younger adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; People who take certain medications, such as high blood pressure medications like alpha blockers, have a greater risk of low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain diseases.&lt;/strong&gt; Parkinson&apos;s disease, diabetes and some heart conditions put you at a greater risk of developing low blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even moderate forms of low blood pressure can cause not only dizziness and weakness but also fainting and a risk of injury from falls. And severely low blood pressure from any cause can deprive your body of enough oxygen to carry out its normal functions, leading to damage to your heart and brain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparations are necessary to have your blood pressure checked. You might want to wear a short-sleeved shirt to your appointment so that the blood pressure cuff can fit around your arm properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Because some medications &amp;mdash; such as over-the-counter cold medicines, antidepressants, birth control pills and others &amp;mdash; can affect your blood pressure, it&apos;s a good idea to bring a list of any medications and supplements you take to your doctor&apos;s appointment. Don&apos;t stop taking any prescription medications that you think may affect your blood pressure without your doctor&apos;s advice. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet for a blood test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of low blood pressure and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For low blood pressure, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity for me?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for low blood pressure?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other health conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet?&lt;/li&gt;
+	&lt;li&gt;How much exercise do you get in an average week?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal in testing for low blood pressure is to find the underlying cause. This helps determine the correct treatment and identify any heart, brain or nervous system problems that may cause lower than normal readings. To reach a diagnosis, your doctor may recommend one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure test.&lt;/strong&gt; Blood pressure is measured with an inflatable arm cuff and a pressure-measuring gauge. A blood pressure reading, given in millimeters of mercury (mm Hg), has two numbers. The first, or upper, number measures the pressure in your arteries when your heart beats (systolic pressure). The second, or lower, number measures the pressure in your arteries between beats (diastolic pressure).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These can provide information about your overall health as well as whether you have low blood sugar (hypoglycemia), high blood sugar (hyperglycemia or diabetes) or a low number of red blood cells (anemia), all of which can cause lower than normal blood pressure.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This noninvasive test, which can be performed in your doctor&apos;s office, detects irregularities in your heart rhythm, structural abnormalities in your heart, and problems with the supply of blood and oxygen to your heart muscle. It can also tell if you&apos;re having a heart attack or if you&apos;ve had a heart attack in the past. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Sometimes, heart rhythm abnormalities come and go, and an ECG won&apos;t find any problems. If this happens, you may be asked to wear a 24-hour Holter monitor to record your heart&apos;s electrical activity as you go about your daily routine. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This noninvasive exam, which includes an ultrasound of your chest, shows detailed images of your heart&apos;s structure and function. Ultrasound waves are transmitted, and their echoes are recorded with a device called a transducer, which is held outside your body. A computer uses the information from the transducer to create moving images on a video monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; Some heart problems that can cause low blood pressure are easier to diagnose when your heart is working harder than when it&apos;s at rest. During a stress test, you&apos;ll exercise, such as walking on a treadmill. You may be given medication to make your heart work harder if you&apos;re unable to exercise. When your heart is working harder, your heart will be monitored with electrocardiography or echocardiography. Your blood pressure also may be monitored.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valsalva maneuver.&lt;/strong&gt; This noninvasive test checks the functioning of your autonomic nervous system by analyzing your heart rate and blood pressure after several cycles of a type of deep breathing: You take a deep breath and then force the air out through your lips, as if you were trying to blow up a stiff balloon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tilt table test.&lt;/strong&gt; If you have low blood pressure on standing, or from faulty brain signals (neurally mediated hypotension), your doctor may suggest a tilt table test, which evaluates how your body reacts to changes in position. During the test, you lie on a table that&apos;s tilted to raise the upper part of your body, which simulates the movement from horizontal to a standing position.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tilt table test 
+" Caption="In a tilt table test, you lie on a table that adjusts your body position from horizontal to vertical to simulate standing up. The test can tell your doctor if faulty brain signals are causing low blood pressure. 
+" Height="60" Title="Tilt table test" URI="/images/image_popup/thumbs/hb7_tilttablethu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tilt table test 
+" Caption="In a tilt table test, you lie on a table that adjusts your body position from horizontal to vertical to simulate standing up. The test can tell your doctor if faulty brain signals are causing low blood pressure. 
+" Height="452" Title="Tilt table test" URI="/images/image_popup/hb7_tilttable.jpg" Width="400" />
+				<HTML>
+					In a tilt table test, you lie on a table that adjusts your body position from horizontal to vertical to simulate standing up. The test can tell your doctor if faulty brain signals are causing low ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Low blood pressure that either doesn&apos;t cause signs or symptoms, or causes only mild symptoms, such as brief episodes of dizziness when standing, rarely requires treatment. If you have symptoms, the best treatment depends on the underlying cause, and doctors usually try to address the primary health problem &amp;mdash; dehydration, heart failure, diabetes or hypothyroidism, for example &amp;mdash; rather than the low blood pressure itself. When low blood pressure is caused by medications, treatment usually involves changing the dose of the medication or stopping it entirely. 
+&lt;/p&gt;
+&lt;p&gt;
+If it&apos;s not clear what&apos;s causing low blood pressure or no effective treatment exists, the goal is to raise your blood pressure and reduce signs and symptoms. Depending on your age, health status and the type of low blood pressure you have, you can do this in several ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use more salt.&lt;/strong&gt; Experts usually recommend limiting the amount of salt in your diet because sodium can raise blood pressure, sometimes dramatically. For people with low blood pressure, that can be a good thing. But because excess sodium can lead to heart failure, especially in older adults, it&apos;s important to check with your doctor before increasing the salt in your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink more water.&lt;/strong&gt; Although nearly everyone can benefit from drinking enough water, this is especially true if you have low blood pressure. Fluids increase blood volume and help prevent dehydration, both of which are important in treating hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear compression stockings.&lt;/strong&gt; The same elastic stockings commonly used to relieve the pain and swelling of varicose veins may help reduce the pooling of blood in your legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Several medications, either used alone or together, can be used to treat low blood pressure that occurs when you stand up (orthostatic hypotension). For example, the drug fludrocortisone is often used to treat this form of low blood pressure. This drug helps boost your blood volume, which raises blood pressure. Doctors often use the drug midodrine (Orvaten, Proamatine) to raise standing blood pressure levels in people with chronic orthostatic hypotension. It works by restricting the ability of your blood vessels to expand, which raises blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the reason for your low blood pressure, you may be able to take certain steps to help reduce or even prevent symptoms. Some suggestions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink more water, less alcohol.&lt;/strong&gt; Alcohol is dehydrating and can lower blood pressure, even if you drink in moderation. Water, on the other hand, combats dehydration and increases blood volume.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a healthy diet.&lt;/strong&gt; Get all the nutrients you need for good health by focusing on a variety of foods, including whole grains, fruits, vegetables, and lean chicken and fish. If your doctor suggests using more salt but you don&apos;t like a lot of salt on your food, try using natural soy sauce or adding dry soup mixes to dips and dressings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go slowly when changing body positions.&lt;/strong&gt; You may be able to reduce the dizziness and lightheadedness that occur with low blood pressure on standing by taking it easy when you move from a prone to a standing position. Before getting out of bed in the morning, breathe deeply for a few minutes and then slowly sit up before standing. Sleeping with the head of your bed slightly elevated also can help fight the effects of gravity. If you begin to get symptoms while standing, cross your thighs in a scissors fashion and squeeze, or put one foot on a ledge or chair and lean as far forward as possible. These maneuvers encourage blood to flow from your legs to your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat small, low-carb meals.&lt;/strong&gt; To help prevent blood pressure from dropping sharply after meals, eat small portions several times a day and limit high-carbohydrate foods such as potatoes, rice, pasta and bread. Your doctor also may recommend drinking caffeinated coffee or tea with meals to temporarily raise blood pressure. But because caffeine can cause other problems, check with your doctor before drinking more caffeinated beverages.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Low blood pressure (hypotension)
+	</Title>
+	<Abstract>
+		Low blood pressure (hypotension) &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00997" LinkType="Internal" ObjectID="9141CD50-E7FF-0DBD-1B36A508CCBCA2CE" Title="Orthostatic hypotension (postural hypotension)" Url="http://www.mayoclinic.com/health/orthostatic-hypotension/DS00997" />
+		<LinkItem ContentType="Video" DocID="MM00785" LinkType="Internal" ObjectID="E4AF5952-E281-9FDB-A49D030ABA3ADA63" Title="Video: How to measure blood pressure using an automatic monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00785" />
+		<LinkItem ContentType="Video" DocID="MM00784" LinkType="Internal" ObjectID="E4AC6F86-E982-CDFA-7000379CDB6D02C5" Title="Video: How to measure blood pressure using a manual monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00784" />
+		<LinkItem ContentType="Video" DocID="MM00783" LinkType="Internal" ObjectID="E4A91387-DA91-1FD3-6FA25DF674886A49" Title="Video: What is blood pressure?" Url="http://www.mayoclinic.com/health/what-is-blood-pressure/MM00783" />
+		<LinkItem ContentType="Answer" DocID="AN01142" LinkType="Internal" ObjectID="C5B5D7EB-FF8B-405F-A51D8D5A183CF286" Title="Sea salt vs. table salt: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/sea-salt/AN01142" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01180" LinkType="Internal" ObjectID="8FA1E447-9FAA-8A0D-C4932F5017C91661" Title="Blood pressure test" Url="http://www.mayoclinic.com/health/blood-pressure-test/MY01180" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Article" DocID="NU00283" LinkType="Internal" ObjectID="1488D60D-E694-4EE6-A0DFA79E4CEF5FD3" Title="Water: How much should you drink every day?" Url="http://www.mayoclinic.com/health/water/NU00283" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00361" LinkType="Internal" ObjectID="9C76354B-0F14-4ED1-A2A3358550A16E76" Title="Addison&apos;s disease" Url="http://www.mayoclinic.com/health/addisons-disease/DS00361" />
+		<LinkItem ContentType="Disease" DocID="DS00198" LinkType="Internal" ObjectID="69EA49D2-EA38-4A8A-95DB164A2555B514" Title="Hypoglycemia" Url="http://www.mayoclinic.com/health/hypoglycemia/DS00198" />
+		<LinkItem ContentType="Disease" DocID="DS00295" LinkType="Internal" ObjectID="67352253-4C13-41A1-A6F790554DDA8474" Title="Parkinson&apos;s disease" Url="http://www.mayoclinic.com/health/parkinsons-disease/DS00295" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Disease>

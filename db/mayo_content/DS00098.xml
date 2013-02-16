@@ -1,0 +1,385 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00098
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shingles/DS00098
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2370" Title="Shingles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0B91C597-DAAE-4416-9ED6314A6B5F5A20
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shingles
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles virus
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles disease
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of shinges
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles rash
+			</MetaKeyword>
+			<MetaKeyword>
+				painful rash
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes zoster
+			</MetaKeyword>
+			<MetaKeyword>
+				chickenpox
+			</MetaKeyword>
+			<MetaKeyword>
+				zoster
+			</MetaKeyword>
+			<MetaKeyword>
+				varicella-zoster virus
+			</MetaKeyword>
+			<MetaKeyword>
+				postherpetic neuralgia
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes virus
+			</MetaKeyword>
+			<MetaKeyword>
+				herpes zoster virus
+			</MetaKeyword>
+			<MetaKeyword>
+				Zostavax vaccine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shingles is a viral infection that causes a painful rash. Although shingles can occur anywhere on your body, it most often appears as a single stripe of blisters that wraps around either the left or the right side of your torso. 
+&lt;/p&gt;
+&lt;p&gt;
+Shingles is caused by the varicella-zoster virus &amp;mdash; the same virus that causes chickenpox. After you&apos;ve had chickenpox, the virus lies inactive in nerve tissue near your spinal cord and brain. Years later, the virus may reactivate as shingles. 
+&lt;/p&gt;
+&lt;p&gt;
+While it isn&apos;t a life-threatening condition, shingles can be very painful. Vaccines can help reduce the risk of shingles, while early treatment can help shorten a shingles infection and lessen the chance of complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of shingles usually affect only a small section of one side of your body. These signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain, burning, numbness or tingling&lt;/li&gt;
+	&lt;li&gt;A red rash that begins a few days after the pain&lt;/li&gt;
+	&lt;li&gt;Fluid-filled blisters that break open and crust over&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people also experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;General achiness&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pain is usually the first symptom of shingles. For some, it can be intense. Depending on the location of the pain, it can sometimes be mistaken for a symptom of problems affecting the heart, lungs or kidneys. Some people experience shingles pain without ever developing the rash. 
+&lt;/p&gt;
+&lt;p&gt;
+Most commonly, the shingles rash develops as a stripe of blisters that wraps around either the left or right side of your torso. Sometimes the shingles rash occurs around one eye or on one side of the neck or face. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your doctor promptly if you suspect shingles, but especially in the following situations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The pain and rash occur near an eye. If left untreated, this infection can lead to permanent eye damage.&lt;/li&gt;
+	&lt;li&gt;You&apos;re 65 or older, which increases your risk of complications.&lt;/li&gt;
+	&lt;li&gt;You or someone in your family has a weakened immune system (due to cancer, medications or chronic illness).&lt;/li&gt;
+	&lt;li&gt;The rash is widespread and painful.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of shingles rash 
+" Caption="Shingles is characterized by pain or a tingling sensation in a limited area on one side of the face or torso, followed by a red rash with small, fluid-filled blisters. 
+" Height="60" Title="Shingles" URI="/images/image_popup/thumbs/sn7_shinglesthu.jpg" Width="60" />
+				<Image Alt="Image of shingles rash 
+" Caption="Shingles is characterized by pain or a tingling sensation in a limited area on one side of the face or torso, followed by a red rash with small, fluid-filled blisters. 
+" Height="285" Title="Shingles" URI="/images/image_popup/sn7_shingles.jpg" Width="400" />
+				<HTML>
+					Shingles is characterized by pain or a tingling sensation in a limited area on one side of the face or torso, followed by a red rash with small, fluid-filled blisters. 
+...
+				</HTML>
+			</PopupMedia>
+			<Flash Height="510" ObjectID="B3668E61-E7FF-0DBD-12395CEE78CBEFDA" URI="/flash/popup/sn6_shingles.swf" Width="410">
+				<Title>
+					Shingles
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shingles is caused by the varicella-zoster virus &amp;mdash; the same virus that causes chickenpox. Anyone who&apos;s had chickenpox may develop shingles. After you recover from chickenpox, the virus can enter your nervous system and lie dormant for years. Eventually, it may reactivate and travel along nerve pathways to your skin &amp;mdash; producing shingles. 
+&lt;/p&gt;
+&lt;p&gt;
+The reason for the encore is unclear. But it may be due to lowered immunity to infections as you grow older. Shingles is more common in older adults and in people who have weak immune systems. 
+&lt;/p&gt;
+&lt;p&gt;
+Varicella-zoster is part of a group of viruses called herpes viruses, which includes the viruses that cause cold sores and genital herpes. Because of this, shingles is also known as herpes zoster. But the virus that causes chickenpox and shingles is not the same virus responsible for cold sores or genital herpes, a sexually transmitted infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Are you contagious?&lt;/strong&gt; &lt;br /&gt;
+A person with shingles can pass the varicella-zoster virus to anyone who isn&apos;t immune to chickenpox. This usually occurs through direct contact with the open sores of the shingles rash. Once infected, the person will develop chickenpox, however, not shingles. 
+&lt;/p&gt;
+&lt;p&gt;
+Chickenpox can be dangerous for some groups of people. Until your shingles blisters scab over, you are contagious and should avoid physical contact with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anyone who has a weak immune system&lt;/li&gt;
+	&lt;li&gt;Newborns&lt;/li&gt;
+	&lt;li&gt;Pregnant women&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerves on the back 
+" Caption="The shingles rash is associated with an inflammation of nerves beneath the skin. 
+" Height="60" Title="Shingles affects the nerves" URI="/images/image_popup/thumbs/sn7_shinglescausesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerves on the back 
+" Caption="The shingles rash is associated with an inflammation of nerves beneath the skin. 
+" Height="372" Title="Shingles affects the nerves" URI="/images/image_popup/sn7_shinglescauses.jpg" Width="400" />
+				<HTML>
+					The shingles rash is associated with an inflammation of nerves beneath the skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone who has ever had chickenpox can develop shingles. Most adults in the United States had chickenpox when they were children, before the advent of the routine childhood vaccination that now protects against chickenpox. 
+&lt;/p&gt;
+&lt;p&gt;
+Factors that may increase your risk of developing shingles include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Shingles is most common in people older than 50. The risk increases with age. Some experts estimate that half the people who live to the age of 85 will experience shingles at some point in their lives.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases.&lt;/strong&gt; Diseases that weaken your immune system, such as HIV/AIDS and cancer, can increase your risk of shingles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer treatments.&lt;/strong&gt; Undergoing radiation or chemotherapy can lower your resistance to diseases and may trigger shingles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Drugs designed to prevent rejection of transplanted organs can increase your risk of shingles &amp;mdash; as can prolonged use of steroids, such as prednisone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications from shingles can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Postherpetic neuralgia.&lt;/strong&gt; For some people, shingles pain continues long after the blisters have cleared. This condition is known as postherpetic neuralgia, and it occurs when damaged nerve fibers send confused and exaggerated messages of pain from your skin to your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision loss.&lt;/strong&gt; Shingles in or around an eye (ophthalmic shingles) can cause painful eye infections that may result in vision loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological problems.&lt;/strong&gt; Depending on which nerves are affected, shingles can cause&lt;strong&gt; &lt;/strong&gt;an inflammation of the brain (encephalitis), facial paralysis, or hearing or balance problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin infections.&lt;/strong&gt; If shingles blisters aren&apos;t properly treated, bacterial skin infections may develop.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people have such mild symptoms of shingles that they don&apos;t seek medical treatment. At the other extreme, severe symptoms may result in a visit to the emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A detailed description of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about your medical problems, past and present&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time will help you make the most of your limited time with your doctor. List your questions from most important to least important in case time runs out. For shingles, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms? &lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms? &lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic? &lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend? How quickly will I start to feel better? &lt;/li&gt;
+	&lt;li&gt;What if my symptoms don&apos;t improve? &lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting? &lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow? &lt;/li&gt;
+	&lt;li&gt;Is there a generic or over-the-counter alternative to the medicine you&apos;re prescribing me? &lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend? &lt;/li&gt;
+	&lt;li&gt;What caused me to develop shingles? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions any time you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will examine your rash and may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does anything make them better or worse?&lt;/li&gt;
+	&lt;li&gt;Do you know if you&apos;ve ever had chickenpox?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shingles is usually diagnosed based on the history of pain on one side of your body, along with the telltale rash and blisters. Your doctor may also take a tissue scraping or culture of the blisters for examination in the laboratory. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for shingles, but prompt treatment with prescription antiviral drugs can speed healing and reduce your risk of complications. These medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acyclovir (Zovirax)&lt;/li&gt;
+	&lt;li&gt;Valacyclovir (Valtrex)&lt;/li&gt;
+	&lt;li&gt;Famciclovir (Famvir)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Shingles can cause severe pain, so your doctor may prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anticonvulsants, such as gabapentin (Neurontin)&lt;/li&gt;
+	&lt;li&gt;Tricyclic antidepressants, such as amitriptyline&lt;/li&gt;
+	&lt;li&gt;Numbing agents, such as lidocaine, delivered via a cream, gel, spray or skin patch&lt;/li&gt;
+	&lt;li&gt;Medications that contain narcotics, such as codeine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Taking a cool bath or using cool, wet compresses on your blisters may help relieve the itching and pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Two vaccines may help prevent shingles &amp;mdash; the chickenpox (varicella) vaccine and the shingles (varicella-zoster) vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chickenpox vaccine&lt;/strong&gt; &lt;br /&gt;
+The varicella vaccine (Varivax) has become a routine childhood immunization to prevent chickenpox. The vaccine is also recommended for adults who&apos;ve never had chickenpox. Though the vaccine doesn&apos;t guarantee you won&apos;t get chickenpox or shingles, it can reduce your chances of complications and reduce the severity of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Shingles vaccine&lt;/strong&gt; &lt;br /&gt;
+The Food and Drug Administration has approved the use of the varicella-zoster vaccine (Zostavax) for adults age 50 and older. Like the chickenpox vaccine, the shingles vaccine doesn&apos;t guarantee you won&apos;t get shingles. But this vaccine will likely reduce the course and severity of the disease and reduce your risk of postherpetic neuralgia. 
+&lt;/p&gt;
+&lt;p&gt;
+The shingles vaccine is used only as a prevention strategy, however. It&apos;s not intended to treat people who currently have the disease. The vaccine contains live virus and should not be given to people who have weakened immune systems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shingles
+	</Title>
+	<Abstract>
+		Shingles &amp;mdash; Comprehensive overview covers causes, symptoms, treatments and prevention, which includes a vaccine.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00878" LinkType="Internal" ObjectID="8A3A9C5C-E7FF-0DBD-1636E971D3607AFD" Title="Ramsay Hunt syndrome" Url="http://www.mayoclinic.com/health/ramsay-hunt-syndrome/DS00878" />
+		<LinkItem ContentType="Disease" DocID="DS00277" LinkType="Internal" ObjectID="65A60A8A-0189-4BF0-BECFCC731699401B" Title="Postherpetic neuralgia" Url="http://www.mayoclinic.com/health/postherpetic-neuralgia/DS00277" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Answer" DocID="AN01806" LinkType="Internal" ObjectID="E642BDDB-E7FF-0DBD-1CFC3EA0A653AB8C" Title="Shingles vaccine: Can I transmit the vaccine virus to others?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01806" />
+		<LinkItem ContentType="Answer" DocID="AN01738" LinkType="Internal" ObjectID="B48D8752-E7FF-0DBD-122DC8DD080D9C86" Title="Shingles vaccine: Should I get it?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01738" />
+		<LinkItem ContentType="Answer" DocID="AN01944" LinkType="Internal" ObjectID="A0758334-E7FF-0DBD-118EB9FDD2AC05AC" Title="Shingles treatment: Does alcohol use affect therapy?" Url="http://www.mayoclinic.com/health/shingles-treatment/AN01944" />
+	</RelatedLinksBox>
+</Disease>

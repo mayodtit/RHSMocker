@@ -1,0 +1,435 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00477
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fecal-incontinence/DS00477
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-06
+		</UpdateDate>
+		<PublicationDate>
+			2003-02-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="2953" Title="Fecal incontinence" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			10197B31-1BD1-44EB-A82DF082249CB9A0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fecal incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				incontinent
+			</MetaKeyword>
+			<MetaKeyword>
+				bowel control
+			</MetaKeyword>
+			<MetaKeyword>
+				bowel incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				anal
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				stools
+			</MetaKeyword>
+			<MetaKeyword>
+				feces
+			</MetaKeyword>
+			<MetaKeyword>
+				anus
+			</MetaKeyword>
+			<MetaKeyword>
+				rectum
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal
+			</MetaKeyword>
+			<MetaKeyword>
+				sphincter
+			</MetaKeyword>
+			<MetaKeyword>
+				stool
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fecal incontinence is the inability to control bowel movements, causing stool (feces) to leak unexpectedly from the rectum. Also called bowel incontinence, fecal incontinence ranges from an occasional leakage of stool while passing gas to a complete loss of bowel control.
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of fecal incontinence include diarrhea, constipation, and muscle or nerve damage. The muscle or nerve damage may be associated with aging or with giving birth. 
+&lt;/p&gt;
+&lt;p&gt;
+Whatever the cause, fecal incontinence can be embarrassing. But don&apos;t shy away from talking to your doctor. Treatments are available that can improve fecal incontinence and your quality of life.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most adults experience fecal incontinence only during an occasional bout of diarrhea. But some people have recurring or chronic fecal incontinence. They: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can&apos;t control the passage of gas or stools, which may be liquid or solid, from their bowels&lt;/li&gt;
+	&lt;li&gt;May not be able to make it to the toilet in time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, including children, fecal incontinence is a relatively minor problem, limited to occasional soiling of their underwear. For others, the condition can be devastating due to a complete lack of bowel control. 
+&lt;/p&gt;
+&lt;p&gt;
+Fecal incontinence may be accompanied by other bowel problems, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Gas and bloating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you or your child develops fecal incontinence. Often, new mothers and other adults are reluctant to tell their doctors about fecal incontinence. But treatments are available, and the sooner you are evaluated, the sooner you may find some relief from your symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The causes of fecal incontinence include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle damage.&lt;/strong&gt; Injury to the rings of muscle at the end of the rectum (anal sphincter) may make it difficult to hold stool back properly. This kind of damage can occur during childbirth, especially if you have an episiotomy or forceps are used during delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage.&lt;/strong&gt; Injury to the nerves that sense stool in the rectum or those that control the anal sphincter can lead to fecal incontinence. The nerve damage can be caused by childbirth, constant straining during bowel movements, spinal cord injury or stroke. Some diseases, such as diabetes and multiple sclerosis, also can affect these nerves and cause damage that leads to fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Constipation.&lt;/strong&gt; Chronic constipation may lead to a mass of dry, hard stool in the rectum (impacted stool) that is too large to pass. The muscles of the rectum and intestines stretch and eventually weaken, allowing watery stool from farther up the digestive tract to move around the impacted stool and leak out. Chronic constipation may also cause nerve damage that leads to fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diarrhea.&lt;/strong&gt; Solid stool is easier to retain in the rectum than is loose stool, so the loose stools of diarrhea can cause or worsen fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of storage capacity in the rectum.&lt;/strong&gt; Normally, the rectum stretches to accommodate stool. If your rectum is scarred or your rectal walls have stiffened from surgery, radiation treatment or inflammatory bowel disease, the rectum can&apos;t stretch as much as it needs to, and excess stool can leak out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Surgery to treat enlarged veins in the rectum or anus (hemorrhoids), as well as more complex operations involving the rectum and anus, can cause muscle and nerve damage that leads to fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other conditions.&lt;/strong&gt; Fecal incontinence can result if the rectum drops down into the anus (rectal prolapse) or, in women, if the rectum protrudes through the vagina (rectocele).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of anal sphincter muscles
+" Caption="Your digestive tract contains a complex system of organs that converts the food you eat into energy and removes the waste that your body can&apos;t digest. Internal and external sphincter muscles serve as the final valve in the digestive tract. As your rectal walls stretch, they signal the need to release stool. 
+" Height="60" Title="Bowel function" URI="/images/image_popup/thumbs/r7_fecalincontinencethu.jpg" Width="60" />
+				<Image Alt="Illustration of anal sphincter muscles
+" Caption="Your digestive tract contains a complex system of organs that converts the food you eat into energy and removes the waste that your body can&apos;t digest. Internal and external sphincter muscles serve as the final valve in the digestive tract. As your rectal walls stretch, they signal the need to release stool. 
+" Height="521" Title="Bowel function" URI="/images/image_popup/r7_fecalincontinence.jpg" Width="400" />
+				<HTML>
+					Your digestive tract contains a complex system of organs that converts the food you eat into energy and removes the waste that your body can&apos;t digest. Internal and external sphincter muscles serve as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors may increase your risk of developing fecal incontinence, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Although fecal incontinence can occur at any age, it&apos;s more common in middle-aged and older adults. Approximately 1 in 10 women older than age 40 has fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Fecal incontinence is slightly more common in women than in men. One reason may be that fecal incontinence can be a complication of childbirth. But most women with fecal incontinence develop it after age 40, so other factors may be involved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage.&lt;/strong&gt; People who have long-standing diabetes or multiple sclerosis &amp;mdash; conditions that can damage nerves that help control defecation &amp;mdash; may be at risk of fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dementia.&lt;/strong&gt; Fecal incontinence is often present in late-stage Alzheimer&apos;s disease and dementia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical disability.&lt;/strong&gt; Being physically disabled may make it difficult to reach a toilet in time. An injury that caused a physical disability also may cause rectal nerve damage leading to fecal incontinence. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of fecal incontinence may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional distress.&lt;/strong&gt; The loss of dignity associated with losing control over one&apos;s bodily functions can lead to embarrassment, shame, frustration, anger and depression. It&apos;s common for people with fecal incontinence to try to hide the problem or to avoid social engagements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin irritation.&lt;/strong&gt; The skin around the anus is delicate and sensitive. Repeated contact with stool can lead to pain and itching, and potentially to sores (ulcers) that require medical treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; such as not eating after midnight on the night before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all your medications,&lt;/strong&gt; as well as any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other diagnosed conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life. These factors can be connected to digestive signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;br /&gt;
+&lt;/strong&gt;Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments can help?&lt;/li&gt;
+	&lt;li&gt;If I need surgery, what will my recovery be like?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow? Would changing my diet help?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Be ready to answer some questions that your doctor may have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you avoid any activities because of your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Do you have other conditions such as diabetes, multiple sclerosis or chronic constipation?&lt;/li&gt;
+	&lt;li&gt;Do you have diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with ulcerative colitis or Crohn&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;Have you ever had radiation therapy to your pelvic area?&lt;/li&gt;
+	&lt;li&gt;Were forceps used or did you have an episiotomy during childbirth?&lt;/li&gt;
+	&lt;li&gt;Do you also have urinary incontinence?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Avoid foods or activities that worsen your symptoms. This might include avoiding caffeine, fatty or greasy foods, dairy products, spicy foods, or anything that makes your incontinence worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask questions about your condition and perform a physical exam that usually includes a visual inspection of your anus. A pin or probe may be used to examine this area for nerve damage. Normally, this touching causes your anal sphincter to contract and your anus to pucker. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical tests&lt;/strong&gt;&lt;br /&gt;
+A number of tests are available to help pinpoint the cause of fecal incontinence: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Digital rectal exam.&lt;/strong&gt; Your doctor inserts a gloved and lubricated finger into your rectum to evaluate the strength of your sphincter muscles and to check for any abnormalities in the rectal area. During the exam your doctor may ask you to bear down, to check for rectal prolapse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Balloon expulsion test.&lt;/strong&gt; A small balloon is inserted into the rectum and filled with water. You are then asked to go to the toilet and expel the balloon. The length of time it takes to expel the balloon is recorded. A time of one minute or longer is usually considered a sign of a defecation disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anal manometry.&lt;/strong&gt; A narrow, flexible tube is inserted into the anus and rectum. A small balloon at the tip of the tube may be expanded. This test helps measure the tightness of your anal sphincter and the sensitivity and functioning of your rectum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anorectal ultrasonography.&lt;/strong&gt; A narrow, wand-like instrument is inserted into the anus and rectum. The instrument produces video images that allow your doctor to evaluate the structure of your sphincter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proctography.&lt;/strong&gt; X-ray video images are made while you have a bowel movement (defecate) on a specially designed toilet. The test measures how much stool your rectum can hold and evaluates how well your body expels stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proctosigmoidoscopy.&lt;/strong&gt; A flexible tube is inserted into your rectum to inspect the last two feet of the colon (sigmoid) for signs of inflammation, tumors or scar tissue that may cause fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endorectal ultrasound.&lt;/strong&gt; A special endoscope is inserted to look at the lower colon and to use sound waves to provide images of the anal sphincters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy.&lt;/strong&gt; A flexible tube is inserted into your rectum to inspect the entire colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anal electromyography.&lt;/strong&gt; Tiny electrodes inserted into muscles around the anus can reveal signs of nerve damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI.&lt;/strong&gt; Magnetic resonance imaging (MRI) can provide clear pictures of the sphincter to determine if the muscles are intact and can also provide images during defecation. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Depending on the cause of fecal incontinence, the options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-diarrheal drugs&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laxatives,&lt;/strong&gt; if chronic constipation is causing your incontinence&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications&lt;/strong&gt; to decrease the spontaneous motion of your bowel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dietary changes&lt;/strong&gt;&lt;br /&gt;
+Stool consistency is affected by what you eat and drink. Your doctor may recommend drinking plenty of fluids and eating fiber-rich foods, if constipation is causing fecal incontinence. If diarrhea is contributing to the problem, high-fiber foods can also add bulk to your stools and make them less watery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Exercise and other therapies&lt;/strong&gt;&lt;br /&gt;
+If fecal incontinence is caused by muscle damage, your doctor may recommend a program of exercise and other therapies to restore muscle strength. These treatments can improve anal sphincter control and the awareness of the urge to defecate. The options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; Specially trained physiotherapists teach simple exercises that can increase anal muscle strength. People learn how to strengthen pelvic floor muscles, sense when stool is ready to be released and contract the muscles if having a bowel movement at a certain time is inconvenient.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bowel training.&lt;/strong&gt; Your doctor may recommend making a conscious effort to have a bowel movement at a specific time of day, for example, after eating. Establishing when you need to use the toilet can help you gain greater control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sacral nerve stimulation.&lt;/strong&gt; The sacral nerves run from your spinal cord to muscles in your pelvis. These nerves regulate the sensation and strength of your rectal and anal sphincter muscles. Implanting a device that sends small electrical impulses continuously to the nerves can strengthen muscles in the bowel. This treatment is usually done only after other treatments are tried.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Treating fecal incontinence may require surgery to correct an underlying problem, such as rectal prolapse or sphincter damage caused by childbirth. The options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sphincteroplasty.&lt;/strong&gt; This procedure repairs a damaged or weakened anal sphincter. An injured area of muscle is identified, and its edges are freed from the surrounding tissue. The muscle edges are then brought back and sewn together in an overlapping fashion, strengthening the muscle and tightening the sphincter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treating rectal prolapse, a rectocele or hemorrhoids.&lt;/strong&gt; Surgical correction of these problems will likely reduce or eliminate fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sphincter replacement.&lt;/strong&gt; A damaged anal sphincter can be replaced with an artificial anal sphincter. The device is essentially an inflatable cuff, which is implanted around your anal canal. When inflated, the device keeps your anal sphincter shut tight until you&apos;re ready to defecate. To go to the toilet, you use a small external pump to deflate the device and allow stool to be released. The device then reinflates itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sphincter repair.&lt;/strong&gt; In this surgery a muscle is taken from the inner thigh and wrapped around the sphincter, restoring muscle tone to the sphincter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colostomy.&lt;/strong&gt; This surgery diverts stool through an opening in the abdomen. A special bag is attached to this opening to collect the stool. Colostomy is generally considered only after other treatments have been tried. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Kegel exercises&lt;/strong&gt;&lt;br /&gt;
+Kegel exercises strengthen the pelvic floor muscles, which support the bladder and bowel and, in women, the uterus, and may help reduce incontinence. To perform Kegel exercises, contract the muscles that you would normally use to stop the flow of urine. Hold the contraction for three seconds, then relax for three seconds. Repeat this pattern 10 times. As your muscles strengthen, hold the contraction longer, gradually working your way up to three sets of 10 contractions every day. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dietary changes&lt;/strong&gt;&lt;br /&gt;
+You may be able to gain better control of your bowel movements by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keeping track of what you eat.&lt;/strong&gt; Make a list of what you eat for a week. You may discover a connection between certain foods and your bouts of incontinence. Once you&apos;ve identified problem foods, stop eating them and see if your incontinence improves. Foods that can cause diarrhea or gas and worsen fecal incontinence include spicy foods, fatty and greasy foods, cured or smoked meat, carbonated beverages, and dairy products (if you&apos;re lactose intolerant). Caffeine-containing beverages and alcohol also can act as laxatives, as can products, such as sugar-free gum and diet soda, which contain artificial sweeteners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Getting adequate fiber.&lt;/strong&gt; Fiber helps make stool soft and easier to control. Fiber is predominately present in fruits, vegetables, and whole-grain breads and cereals. Aim for 20 to 30 grams of fiber a day, but don&apos;t add it to your diet all at once. Too much fiber suddenly can cause uncomfortable bloating and gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink more water.&lt;/strong&gt; To keep stools soft and formed, drink at least eight glasses of liquid, preferably water, a day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin care&lt;/strong&gt;&lt;br /&gt;
+You can help avoid further discomfort from fecal incontinence by keeping the skin around your anus as clean and dry as possible. To relieve anal discomfort and eliminate any possible odor associated with fecal incontinence: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash with water.&lt;/strong&gt; Gently wash the area with water after each bowel movement. Showering or soaking in a bath also may help. Soap can dry and irritate the skin. So can rubbing with dry toilet paper. Pre-moistened, alcohol-free towelettes or wipes may be a good alternative for cleaning the area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry thoroughly.&lt;/strong&gt; Allow the area to air-dry, if possible. If you&apos;re short on time, you can gently pat the area dry with toilet paper or a clean washcloth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a cream or powder.&lt;/strong&gt; Moisture-barrier creams help keep irritated skin from having direct contact with feces. Be sure the area is clean and dry before you apply any cream. Nonmedicated talcum powder or cornstarch also may help relieve anal discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear cotton underwear and loose clothing.&lt;/strong&gt; Tight clothing can restrict airflow, making skin problems worse. Change soiled underwear quickly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When medical treatments can&apos;t completely eliminate incontinence, products such as absorbent pads and disposable underwear can help you manage the problem. If you use pads or adult diapers, be sure they have an absorbent wicking layer on top, to help keep moisture away from your skin. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of muscles targeted during Kegel exercises 
+" Caption="A woman&apos;s pelvic floor muscles work like a hammock to support the pelvic organs, including the uterus, bladder and rectum. Kegel exercises can help strengthen these muscles. 
+" Height="60" Title="Female pelvic floor muscles" URI="/images/image_popup/thumbs/mcdc7_female_kegel_exercisesthu.jpg" Width="60" />
+				<Image Alt="Illustration of muscles targeted during Kegel exercises 
+" Caption="A woman&apos;s pelvic floor muscles work like a hammock to support the pelvic organs, including the uterus, bladder and rectum. Kegel exercises can help strengthen these muscles. 
+" Height="389" Title="Female pelvic floor muscles" URI="/images/image_popup/mcdc7_female_kegel_exercises.jpg" Width="400" />
+				<HTML>
+					A woman&apos;s pelvic floor muscles work like a hammock to support the pelvic organs, including the uterus, bladder and rectum. Kegel exercises can help strengthen these muscles. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;If you have fecal incontinence&lt;/strong&gt;&lt;br /&gt;
+You may feel reluctant to leave your house out of fear you might not make it to a toilet in time. To overcome that fear, try these practical tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use the toilet right before you go out.&lt;/li&gt;
+	&lt;li&gt;If you expect you&apos;ll be incontinent, wear a pad or a disposable undergarment.&lt;/li&gt;
+	&lt;li&gt;Carry cleanup supplies and a change of clothing with you.&lt;/li&gt;
+	&lt;li&gt;Know where toilets are located before you need them so that you can get to them quickly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because fecal incontinence can be distressing, it&apos;s important to take steps to deal with it. Treatment can help improve your quality of life and raise your self-esteem. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you&apos;re caring for someone who has fecal incontinence&lt;/strong&gt;&lt;br /&gt;
+Some tips to help the person cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take him or her to the doctor to discuss treatment options&lt;/li&gt;
+	&lt;li&gt;Take him or her to the toilet regularly&lt;/li&gt;
+	&lt;li&gt;Make sure his or her clothing can be easily removed&lt;/li&gt;
+	&lt;li&gt;Place a commode near the bed&lt;/li&gt;
+	&lt;li&gt;Put washable cushions or slipcovers on furniture&lt;/li&gt;
+	&lt;li&gt;Have him or her wear absorbent undergarments and use washable pads on the bed at night&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the cause, it may be possible to prevent fecal incontinence. These actions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce constipation.&lt;/strong&gt; Increase your exercise, eat more high-fiber foods and drink plenty of fluids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control diarrhea.&lt;/strong&gt; Treating or eliminating the cause of the diarrhea, such as an intestinal infection, may help you avoid fecal incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid straining.&lt;/strong&gt; Straining during bowel movements can eventually weaken anal sphincter muscles or damage nerves, possibly leading to fecal incontinence. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fecal incontinence
+	</Title>
+	<Abstract>
+		Fecal incontinence &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this often embarrassing disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="Article" DocID="PR00142" LinkType="Internal" ObjectID="B2F4745C-2A5D-9994-E1172BF0FCD32365" Title="Postpartum care: What to expect after a vaginal delivery" Url="http://www.mayoclinic.com/health/postpartum-care/PR00142" />
+		<LinkItem ContentType="Article" DocID="WO00119" LinkType="Internal" ObjectID="4A3C4537-E7FF-0DBD-1C6A21B102911FE1" Title="Kegel exercises: A how-to guide for women" Url="http://www.mayoclinic.com/health/kegel-exercises/WO00119" />
+		<LinkItem ContentType="Article" DocID="MY01402" LinkType="Internal" ObjectID="3DD83860-CD8B-DD38-0EC8B8144593C564" Title="Kegel exercises for men: Understand the benefits" Url="http://www.mayoclinic.com/health/kegel-exercises-for-men/MY01402" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+		<LinkItem ContentType="Disease" DocID="DS00096" LinkType="Internal" ObjectID="37177394-6BD1-4401-AB747238D2AEBD84" Title="Hemorrhoids" Url="http://www.mayoclinic.com/health/hemorrhoids/DS00096" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,478 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01062
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/suicide/DS01062
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2445" Title="Suicidal behavior" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C22F27E8-E7FF-0DBD-18D04660F2EA2EBE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				suicide
+			</MetaKeyword>
+			<MetaKeyword>
+				suicidal
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide ideation
+			</MetaKeyword>
+			<MetaKeyword>
+				suicidality
+			</MetaKeyword>
+			<MetaKeyword>
+				considering suicide
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide thoughts
+			</MetaKeyword>
+			<MetaKeyword>
+				suicidal thoughts
+			</MetaKeyword>
+			<MetaKeyword>
+				thoughts of suicide
+			</MetaKeyword>
+			<MetaKeyword>
+				suicidal ideation
+			</MetaKeyword>
+			<MetaKeyword>
+				suicidal tendencies
+			</MetaKeyword>
+			<MetaKeyword>
+				suicidal behavior
+			</MetaKeyword>
+			<MetaKeyword>
+				attempted suicide
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide help
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				hopelessness
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide warning signs
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide survivors
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				self-mutilation
+			</MetaKeyword>
+			<MetaKeyword>
+				self mutilation
+			</MetaKeyword>
+			<MetaKeyword>
+				self injury
+			</MetaKeyword>
+			<MetaKeyword>
+				cutting
+			</MetaKeyword>
+			<MetaKeyword>
+				suicide threat
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Suicide, taking your own life, is a tragic reaction to stressful life situations &amp;mdash; and all the more tragic because suicide can be prevented. Whether you&apos;re considering suicide or know someone who feels suicidal, learn suicide warning signs and how to reach out for immediate help and professional treatment. You may save a life &amp;mdash; your own or someone else&apos;s. 
+&lt;/p&gt;
+&lt;p&gt;
+It may seem like there&apos;s no way to solve your problems and that suicide is the only way to end the pain. But you can take steps to stay safe &amp;mdash; and start enjoying your life again. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Suicide warning signs or suicidal thoughts include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Talking about suicide &amp;mdash; for example, making statements such as &quot;I&apos;m going to kill myself,&quot; &quot;I wish I was dead&quot; or &quot;I wish I hadn&apos;t been born&quot;&lt;/li&gt;
+	&lt;li&gt;Getting the means to commit suicide, such as buying a gun or stockpiling pills&lt;/li&gt;
+	&lt;li&gt;Withdrawing from social contact and wanting to be left alone&lt;/li&gt;
+	&lt;li&gt;Having mood swings, such as being emotionally high one day and deeply discouraged the next&lt;/li&gt;
+	&lt;li&gt;Being preoccupied with death, dying or violence&lt;/li&gt;
+	&lt;li&gt;Feeling trapped or hopeless about a situation&lt;/li&gt;
+	&lt;li&gt;Increasing use of alcohol or drugs&lt;/li&gt;
+	&lt;li&gt;Changing normal routine, including eating or sleeping patterns&lt;/li&gt;
+	&lt;li&gt;Doing risky or self-destructive things, such as using drugs or driving recklessly&lt;/li&gt;
+	&lt;li&gt;Giving away belongings or getting affairs in order when there is no other logical explanation for why this is being done&lt;/li&gt;
+	&lt;li&gt;Saying goodbye to people as if they won&apos;t be seen again&lt;/li&gt;
+	&lt;li&gt;Developing personality changes or being severely anxious or agitated, particularly when experiencing some of the warning signs listed above&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Warning signs aren&apos;t always obvious, and they may vary from person to person. Some people make their intentions clear, while others keep suicidal thoughts and feelings secret. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you think you may hurt yourself or attempt suicide, get help right now: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call 911 or your local emergency number immediately.&lt;/li&gt;
+	&lt;li&gt;Call a suicide hotline number &amp;mdash; in the United States, call the National Suicide Prevention Lifeline at 1-800-273-TALK (1-800-273-8255) to reach a trained counselor. Use that same number and press 1 to reach the Veterans Crisis Line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re feeling suicidal, but you aren&apos;t immediately thinking of hurting yourself: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reach out to a close friend or loved one &amp;mdash; even though it may be hard to talk about your feelings&lt;/li&gt;
+	&lt;li&gt;Contact a minister, spiritual leader or someone in your faith community&lt;/li&gt;
+	&lt;li&gt;Call a suicide crisis center hotline&lt;/li&gt;
+	&lt;li&gt;Make an appointment with your doctor, other health care provider or mental health provider&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Suicidal thinking doesn&apos;t get better on its own &amp;mdash; so get help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Suicidal thoughts have numerous causes. Most often, suicidal thoughts are the result of feeling like you can&apos;t cope when you&apos;re faced with what seems to be an overwhelming life situation. If you don&apos;t have hope for the future, you may mistakenly think suicide is a solution. You may experience a sort of tunnel vision, where in the middle of a crisis you believe suicide is the only way out.
+&lt;/p&gt;
+&lt;p&gt;
+There may also be a genetic link to suicide. People who complete suicide or who have suicidal thoughts or behavior are more likely to have a family history of suicide. While more research is needed to fully understand a possible genetic component, it&apos;s thought that there may be a genetic link to impulsive behavior that could contribute to suicidal tendencies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although suicide attempts are more frequent for women, men are more likely than women to complete suicide because they typically use more effective methods, such as a firearm. 
+&lt;/p&gt;
+&lt;p&gt;
+You may be at risk of suicide if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feel hopeless, socially isolated or lonely&lt;/li&gt;
+	&lt;li&gt;Experience a stressful life event, such as the loss of a loved one, military service, a breakup, a significant medical illness, or financial or legal problems&lt;/li&gt;
+	&lt;li&gt;Have a substance abuse problem &amp;mdash; alcohol and drug abuse can worsen thoughts of suicide and make you feel reckless or impulsive enough to act on your thoughts&lt;/li&gt;
+	&lt;li&gt;Have suicidal thoughts and have access to firearms in your home&lt;/li&gt;
+	&lt;li&gt;Have an underlying psychiatric disorder, such as major depression, post-traumatic stress disorder, bipolar disorder, personality disorder, anxiety or detachment from reality (psychosis), or paranoia&lt;/li&gt;
+	&lt;li&gt;Have a family history of mental disorders, substance abuse, suicide or violence, including physical or sexual abuse&lt;/li&gt;
+	&lt;li&gt;Have a medical condition that can be linked to depression and suicidal thinking, such as chronic disease, chronic pain or terminal illness&lt;/li&gt;
+	&lt;li&gt;Are bisexual, homosexual or transgender with an unsupportive family or in a hostile environment&lt;/li&gt;
+	&lt;li&gt;Attempted suicide before&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Children and teenagers&lt;br /&gt;
+&lt;/strong&gt;Suicide in children and teenagers often follows stressful life events. Keep in mind that what a young person sees as serious and insurmountable may seem minor to an adult &amp;mdash; such as problems in school or the loss of a friendship. In some cases, a child or teen may feel suicidal due to certain life circumstances he or she may not want to talk about. Some of these include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a psychiatric disorder, including depression&lt;/li&gt;
+	&lt;li&gt;Loss or conflict with close friends or family members&lt;/li&gt;
+	&lt;li&gt;History of physical or sexual abuse&lt;/li&gt;
+	&lt;li&gt;Problems with alcohol or drugs&lt;/li&gt;
+	&lt;li&gt;Becoming pregnant&lt;/li&gt;
+	&lt;li&gt;Having a sexually transmitted infection&lt;/li&gt;
+	&lt;li&gt;Being the victim of bullying&lt;/li&gt;
+	&lt;li&gt;Being uncertain of sexual orientation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Murder and suicide&lt;br /&gt;
+&lt;/strong&gt;In some cases, people who are suicidal are at risk of killing others and then themselves. This is known as a homicide-suicide or murder-suicide. The types of feelings that trigger this tragic behavior can stem from a number of sources. Some common risk factors for murder-suicide include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;History of conflict with a spouse or romantic partner&lt;/li&gt;
+	&lt;li&gt;Current family legal or financial problems&lt;/li&gt;
+	&lt;li&gt;History of mental health problems, particularly depression&lt;/li&gt;
+	&lt;li&gt;Alcohol or drug abuse or addiction&lt;/li&gt;
+	&lt;li&gt;Having access to a firearm &amp;mdash; nearly all murder-suicides are committed using a gun&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Starting antidepressants and increased suicide risk&lt;br /&gt;
+&lt;/strong&gt;Some studies have shown a possible link between starting treatment with an antidepressant and an increased risk of suicide. The Food and Drug Administration (FDA) requires manufacturers of all antidepressants to include a warning stating that antidepressants may increase suicide risk in children, adolescents and young adults during the first few months of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+However, the link between antidepressants and suicidal thinking isn&apos;t clear &amp;mdash; and not taking an antidepressant when it&apos;s needed also increases the risk of suicide. To be safe, anyone who starts taking an antidepressant should be watched closely for signs of suicidal thinking. If you &amp;mdash; or someone you know &amp;mdash; has suicidal thoughts when taking an antidepressant, immediately contact your doctor or get emergency help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Suicidal thoughts and attempted suicide take an emotional toll, both for those who want to take their own life and for their loved ones. For instance, you may be so consumed by suicidal thoughts that you can&apos;t function in your daily life. And while many suicide attempts are impulsive acts during a moment of crisis, they can leave you with permanent serious or debilitating injuries, such as organ failure or brain damage.
+&lt;/p&gt;
+&lt;p&gt;
+For those left behind after a suicide &amp;mdash; people known as survivors of suicide &amp;mdash; grief, anger, depression and guilt are common. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you call your primary care doctor to set up an appointment, you may be referred immediately to a psychiatrist. If you&apos;re in danger of committing suicide, your doctor may have you get emergency help at the hospital.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Take these steps before your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt; if possible &amp;mdash; someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my suicidal thoughts most likely linked to an underlying mental or physical health problem?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will I need any tests for possible underlying conditions?&lt;/li&gt;
+	&lt;li&gt;Do I need immediate treatment of some kind? What will that involve?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other mental or physical health problems. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there anything special I should do to stay safe and feel better?&lt;/li&gt;
+	&lt;li&gt;Should I see a psychiatrist? Will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment when you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. To save time, be ready to answer them. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin having suicidal thoughts?&lt;/li&gt;
+	&lt;li&gt;Have your suicidal thoughts been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you ever tried to commit suicide?&lt;/li&gt;
+	&lt;li&gt;Do you have a plan to kill yourself now?&lt;/li&gt;
+	&lt;li&gt;If you have a plan, does it involve a specific method, place or time?&lt;/li&gt;
+	&lt;li&gt;Have you made any preparations, such as gathering pills, changing your will or writing suicide notes?&lt;/li&gt;
+	&lt;li&gt;Do you feel like you can control your impulses when you feel reckless or like killing or hurting yourself?&lt;/li&gt;
+	&lt;li&gt;Do you have friends or family members you can talk to or go to for help?&lt;/li&gt;
+	&lt;li&gt;What are your feelings about the future? Do you have any hope that things will improve?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol, and if so, how much and how often?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;Do you use illegal drugs?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your suicidal thoughts?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your suicidal thoughts?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If you&apos;ve scheduled an appointment and can&apos;t see your doctor immediately, make sure you stay safe. Contact family members, friends or other people you trust to help you. If you feel you&apos;re in danger of hurting yourself or attempting suicide, call 911 or get emergency help immediately.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may do a physical exam, tests and in-depth questioning about your mental and physical health to help determine what may be causing your suicidal thinking and to determine the best treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mental health conditions&lt;br /&gt;
+&lt;/strong&gt;In most cases, suicidal thoughts are linked to an underlying mental health issue that can be treated. If this is the case, you may need to see a doctor who specializes in diagnosing and treating mental illness (psychiatrist) or other mental health provider. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical causes&lt;br /&gt;
+&lt;/strong&gt;In some cases, suicidal thinking may be linked to an underlying physical health problem. You may need blood tests and other tests to determine whether this is the case.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alcohol and drugs&lt;br /&gt;
+&lt;/strong&gt;For many people, alcohol or drugs play a role in suicidal thinking and completed suicide. Your doctor will want to know whether you have any problems with alcohol or drug use &amp;mdash; such as bingeing or being unable to cut back or quit using alcohol on your own. Many people who feel suicidal need treatment to help them stop using alcohol or drugs for their suicidal feelings to improve. 
+&lt;/p&gt;
+&lt;p&gt;
+In some people, certain prescription or over-the-counter drugs can cause suicidal feelings. Tell your doctor about any medications you take to see whether they could be linked to your suicidal thinking.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children and teenagers&lt;br /&gt;
+&lt;/strong&gt;Children who are feeling suicidal usually need to see a psychiatrist or psychologist experienced in diagnosing and treating children with mental health problems. The doctor will want to get an accurate picture of what&apos;s going on from a variety of sources, such as the young person, parents or guardians, other people close to the child, school reports, and previous medical or psychiatric evaluations.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of suicidal thoughts and behavior depends on your specific situation, including your level of suicide risk and what underlying problems may be causing your suicidal thoughts or behavior. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergencies&lt;br /&gt;
+&lt;/strong&gt;If you&apos;ve made a suicide attempt and you&apos;re injured: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call 911 or your local emergency number&lt;/li&gt;
+	&lt;li&gt;Have someone else call if you&apos;re not alone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re not injured, but you&apos;re at immediate risk of harming yourself: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call 911 or your local emergency number&lt;/li&gt;
+	&lt;li&gt;Call a suicide hotline number &amp;mdash; in the United States, call the National Suicide Prevention Lifeline at 1-800-273-TALK (1-800-273-8255) to reach a trained counselor. Use that same number and press 1 to reach the Veterans Crisis Line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At the emergency room, you&apos;ll be treated for any injuries. The doctor will ask you a number of questions and may examine you, looking for recent or past signs of suicide attempts. Depending on your state of mind, you may need medications to calm you or to ease symptoms of an underlying mental illness, such as depression. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may want you to stay in the hospital long enough to make sure any treatments are working, that you&apos;ll be safe when you leave and that you&apos;ll get the follow-up treatment you need. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonemergency situations&lt;br /&gt;
+&lt;/strong&gt;If you have suicidal thoughts, but aren&apos;t in a crisis situation, you may need outpatient treatment. This treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotherapy.&lt;/strong&gt; In psychotherapy, also called counseling or talk therapy, you explore the issues that make you feel suicidal. You and your therapist can work together to develop treatment plans and goals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Antidepressants, antipsychotic medications, anti-anxiety medications and other medications for mental illness can help reduce symptoms, which can help you feel less suicidal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Addiction treatment.&lt;/strong&gt; Treatment for drug or alcohol addiction can include detoxification, addiction treatment programs and self-help group meetings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family support and education.&lt;/strong&gt; Your loved ones can be both a source of support and conflict. Involving them in treatment can help them understand what you&apos;re going through, give them better coping skills, and improve family communication and relationships.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Helping a loved one with suicidal thoughts&lt;br /&gt;
+&lt;/strong&gt;If you have a loved one who has attempted suicide, or if you think your loved one may be in danger of doing so, get emergency help. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a loved one you think may be considering suicide, have an open and honest discussion about your concerns. You may not be able to force someone to seek professional care, but you can offer encouragement and support. You can also help your loved one find a qualified doctor or mental health provider and make an appointment. You may even be able to go to an appointment with him or her. 
+&lt;/p&gt;
+&lt;p&gt;
+Supporting a loved one who is chronically suicidal can be stressful and exhausting. You may be afraid and feel guilty and helpless. Take advantage of resources about suicide and suicide prevention so that you have information and tools to take action when needed. Also, be sure to take care of yourself by getting support from family, friends, organizations and professionals. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no substitute for professional help when it comes to treating suicidal thinking and preventing suicide. However, there are a few things that may reduce suicide risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid drugs and alcohol.&lt;/strong&gt; Alcohol and illegal drugs can worsen suicidal thoughts. They can also make you feel less inhibited, which means you&apos;re more likely to act on your thoughts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Form a strong support network.&lt;/strong&gt; That may include family, friends or members of your church, synagogue or other place of worship. Religious practice has been shown to help reduce the risk of suicide.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get active.&lt;/strong&gt; Physical activity and exercise have been shown to reduce depression symptoms. Consider walking, jogging, swimming, gardening or taking up another form of physical activity that you enjoy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Don&apos;t try to manage suicidal thoughts or behavior entirely on your own. You need professional help and support to overcome the problems linked to suicidal thinking. In addition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Go to your appointments.&lt;/strong&gt; Don&apos;t skip therapy sessions or doctor&apos;s appointments, even if you don&apos;t want to go or don&apos;t feel like you need to.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications as directed.&lt;/strong&gt; Even if you&apos;re feeling well, don&apos;t skip your medications. If you stop, your suicidal feelings may come back. You could also experience withdrawal-like symptoms from abruptly stopping an antidepressant or other medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about your condition.&lt;/strong&gt; Learning about your condition can empower and motivate you to stick to your treatment plan. If you have depression, for instance, learn about its causes and treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to warning signs.&lt;/strong&gt; Work with your doctor or therapist to learn what might trigger your suicidal feelings. Make a plan so you know what to do if suicidal thoughts return. Contact your doctor or therapist if you notice any changes in how you feel. Consider involving family members or friends in watching for warning signs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek help from a support group.&lt;/strong&gt; A number of organizations are available to help you cope with suicidal thinking and recognize that there are many options in your life other than suicide.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help keep yourself from feeling suicidal: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get the treatment you need.&lt;/strong&gt; If you don&apos;t treat the underlying cause, your suicidal thoughts are likely to return. You may feel embarrassed to seek treatment for your mental health problems, but getting the right treatment for depression, substance abuse or another underlying problem will make you feel better about life &amp;mdash; and help keep you safe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your treatment plan.&lt;/strong&gt; Go to follow-up appointments, take medications exactly as directed, and take the other steps your doctor or mental health provider recommends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know your warning signs and make a plan.&lt;/strong&gt; Learn to spot the danger signs early, and decide what steps to take ahead of time. It may help to write out what steps you&apos;ll take if you start feeling suicidal. You may want to make a written agreement with a mental health provider or a loved one to help you anticipate the right steps to take when you don&apos;t have the best judgment. Clearly stating your suicidal intention with your therapist makes it possible to anticipate it and address it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eliminate potential means of committing suicide.&lt;/strong&gt; If you think you might act on suicidal thoughts, immediately get rid of any potential means of committing suicide, such as firearms, knives or dangerous medications. If you take medications that have a potential for overdose, have a family member or friend give you your medications as prescribed. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Establish your support network.&lt;/strong&gt; It may be hard to talk about suicidal feelings, and your friends and family may not fully understand why you feel the way you do. Reach out anyway, and make sure the people who care about you know what&apos;s going on and are there when you need them. You may also want to get help from your place of worship, support groups or other community resources.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remember, suicidal feelings are temporary.&lt;/strong&gt; If you feel hopeless or that life&apos;s not worth living anymore, remember that the feelings will pass. Take one step at a time and don&apos;t act impulsively. Work to regain your perspective &amp;mdash; and life will get better.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Suicide and suicidal thoughts
+	</Title>
+	<Abstract>
+		Suicide and suicidal thoughts &amp;mdash; Comprehensive overview covers warning signs, causes, risks and treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00175" LinkType="Internal" ObjectID="F61D92BD-C12C-4C1E-98CE1DDC09196EA2" Title="Depression (major depression)" Url="http://www.mayoclinic.com/health/depression/DS00175" />
+		<LinkItem ContentType="Article" DocID="MH00054" LinkType="Internal" ObjectID="EF9C2BFA-C7CB-416C-A6B9EAE12EF2E00E" Title="Are you thinking about suicide? How to stay safe and find treatment" Url="http://www.mayoclinic.com/health/suicide/MH00054" />
+		<LinkItem ContentType="Article" DocID="MH00058" LinkType="Internal" ObjectID="2789058A-4F26-4607-81369F33504F80BD" Title="Suicide: What to do when someone is suicidal" Url="http://www.mayoclinic.com/health/suicide/MH00058" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,372 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00070
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diverticulitis/DS00070
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-21
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="1453" Title="Diverticulosis and diverticulitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			82C205AC-1DE9-41F7-AE8F092447A0648A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diverticulitis
+			</MetaKeyword>
+			<MetaKeyword>
+				diverticulosis
+			</MetaKeyword>
+			<MetaKeyword>
+				diverticulitis symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				diverticula
+			</MetaKeyword>
+			<MetaKeyword>
+				peritonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				fistula
+			</MetaKeyword>
+			<MetaKeyword>
+				abscess
+			</MetaKeyword>
+			<MetaKeyword>
+				colon
+			</MetaKeyword>
+			<MetaKeyword>
+				pouch
+			</MetaKeyword>
+			<MetaKeyword>
+				abcess
+			</MetaKeyword>
+			<MetaKeyword>
+				diverticulitus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diverticulitis (di-vur-tik-u-LI-tis) occurs when one or more diverticula in your digestive tract become inflamed or infected. Diverticula are small, bulging pouches that can form anywhere in your digestive system, including your esophagus, stomach and small intestine. However, they&apos;re most commonly found in the large intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+Diverticula are common, especially after age 40. When you have diverticula, the condition is known as diverticulosis. You may never even know you have these pouches because they seldom cause any problems, such as diverticulitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, however, diverticulitis occurs. This condition can cause severe abdominal pain, fever, nausea and a marked change in your bowel habits. Mild cases of diverticulitis can be treated with rest, changes in your diet and antibiotics. But serious cases of diverticulitis may require surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pouches in digestive tract 
+" Caption="Diverticulosis occurs when small, bulging pouches (diverticula) develop in your digestive tract. When one or more of these pouches become inflamed or infected, the condition is called diverticulitis. 
+" Height="60" Title="Diverticulosis and diverticulitis" URI="/images/image_popup/thumbs/divert_s.gif" Width="60" />
+				<Image Alt="Illustration of pouches in digestive tract 
+" Caption="Diverticulosis occurs when small, bulging pouches (diverticula) develop in your digestive tract. When one or more of these pouches become inflamed or infected, the condition is called diverticulitis. 
+" Height="323" Title="Diverticulosis and diverticulitis" URI="/images/image_popup/divert_b.jpg" Width="400" />
+				<HTML>
+					Diverticulosis occurs when small, bulging pouches (diverticula) develop in your digestive tract. When one or more of these pouches become inflamed or infected, the condition is called diverticulitis. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs and symptoms of diverticulitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain that&apos;s often sudden, severe and located in the lower left side of the abdomen&lt;/li&gt;
+	&lt;li&gt;Less commonly, abdominal pain that may be mild at first and become worse over several days, possibly fluctuating in intensity&lt;/li&gt;
+	&lt;li&gt;Change in bowel habits&lt;/li&gt;
+	&lt;li&gt;Abdominal tenderness&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+	&lt;li&gt;Bleeding from your rectum (less common)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diverticula usually develop when naturally weak places in your colon give way under pressure. This causes marble-sized pouches to protrude through the colon wall. 
+&lt;/p&gt;
+&lt;p&gt;
+Exactly how diverticula become inflamed or infected isn&apos;t clear. One theory is that the increased pressure in the colon can weaken the wall of the diverticula, leading to infection. Another is that the narrow openings of diverticula may trap fecal matter, which can lead to infection. Or an obstruction in the narrow opening of a diverticulum may reduce blood supply to the area, which leads to inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+In the past, doctors thought that nuts, seeds, popcorn and corn played a role in causing diverticulitis by getting trapped in the diverticula. However, research has shown that these foods aren&apos;t associated with an increased risk of diverticulitis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pouches in digestive tract 
+" Caption="Diverticulosis occurs when small, bulging pouches (diverticula) develop in your digestive tract. When one or more of these pouches become inflamed or infected, the condition is called diverticulitis. 
+" Height="60" Title="Diverticulosis and diverticulitis" URI="/images/image_popup/thumbs/divert_s.gif" Width="60" />
+				<Image Alt="Illustration of pouches in digestive tract 
+" Caption="Diverticulosis occurs when small, bulging pouches (diverticula) develop in your digestive tract. When one or more of these pouches become inflamed or infected, the condition is called diverticulitis. 
+" Height="323" Title="Diverticulosis and diverticulitis" URI="/images/image_popup/divert_b.jpg" Width="400" />
+				<HTML>
+					Diverticulosis occurs when small, bulging pouches (diverticula) develop in your digestive tract. When one or more of these pouches become inflamed or infected, the condition is called diverticulitis. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may increase your chances of getting diverticulitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; You&apos;re more likely to get diverticulitis if you&apos;re over 40, although it&apos;s not known why. It may be that age-related changes, such as a decrease in strength and elasticity of your bowel wall, could contribute to diverticulitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Too little fiber.&lt;/strong&gt; Diverticulitis is rare in countries where people eat a high-fiber diet that helps keep stools soft. But it&apos;s common in industrialized nations, such as the United States, where the average diet is high in refined carbohydrates and low in fiber. In fact, diverticular disease emerged after the introduction of steel-rolling mills, which greatly reduced the fiber content of flour and other grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of exercise.&lt;/strong&gt; Lack of exercise has been associated with a greater risk of formation of diverticula, putting a person at risk of diverticulitis. The reasons for this aren&apos;t understood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being seriously overweight increases your odds of developing diverticulitis and diverticular bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; People who smoke cigarettes are more likely to experience diverticulitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of diverticulitis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Peritonitis, which can occur if the infected or inflamed pouch ruptures, spilling intestinal contents into your abdominal cavity. This can cause an inflammation of the lining of your abdominal cavity (peritoneum). Peritonitis is a medical emergency and requires immediate care.&lt;/li&gt;
+	&lt;li&gt;Rectal bleeding.&lt;/li&gt;
+	&lt;li&gt;A blockage in your colon or small intestine caused by scarring.&lt;/li&gt;
+	&lt;li&gt;An abscess, which occurs when pus collects in the pouch. &lt;/li&gt;
+	&lt;li&gt;A fistula, which is an abnormal passageway that occurs between different parts of your intestine, between your intestine and your bladder or vagina, or between your intestine and abdominal wall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although there doesn&apos;t appear to be a direct link between diverticular disease and colon or rectal cancer, diverticular disease may make cancer more difficult to diagnose. And rarely, what appears to be diverticulitis may be colon cancer. Because of this, your doctor will likely recommend a colonoscopy after you&apos;ve recovered from a bout of diverticulitis. Your doctor may also recommend that you have more-frequent cancer-screening tests. A colonoscopy is a test that allows your doctor to examine your entire colon and rectum for abnormalities using a long, flexible tube with a tiny video camera at the tip (colonoscope).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you have diverticular disease, you&apos;re likely to start by seeing your family doctor or a general practitioner, or possibly an emergency room doctor. However, you may then be referred to a doctor who specializes in disorders of the digestive system (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking, and bring it with you to your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider asking a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions may help you make the most of your time together. For diverticulitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Will the diverticulitis come back?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there certain foods I need to add to my diet?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I have a colonoscopy, and if so, when?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How much fiber do you usually eat in a day?&lt;/li&gt;
+	&lt;li&gt;Do you take any over-the-counter fiber supplements?&lt;/li&gt;
+	&lt;li&gt;How much exercise do you get during a week?&lt;/li&gt;
+	&lt;li&gt;Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;Have you had any pain with urination or passing air in your urine?&lt;/li&gt;
+	&lt;li&gt;Have you had a vaginal discharge or passed stool through the vagina?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a colonoscopy?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because diverticula by themselves usually don&apos;t cause problems, most people learn they have diverticulosis during routine screening examinations for colorectal cancer or during tests that check for other intestinal problems. Diverticulitis, on the other hand, is usually diagnosed during an acute attack. Because abdominal pain can indicate a number of problems, your doctor will have to rule out other causes for your pain, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Appendicitis&lt;/li&gt;
+	&lt;li&gt;Pelvic inflammatory disease&lt;/li&gt;
+	&lt;li&gt;Irritable bowel syndrome&lt;/li&gt;
+	&lt;li&gt;Stomach ulcers&lt;/li&gt;
+	&lt;li&gt;Pregnancy outside of the uterus (ectopic)&lt;/li&gt;
+	&lt;li&gt;Colon cancer&lt;/li&gt;
+	&lt;li&gt;Ovarian cancer&lt;/li&gt;
+	&lt;li&gt;Ischemic colitis&lt;/li&gt;
+	&lt;li&gt;Inflammatory bowel disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To diagnose the cause of your abdominal pain, your doctor will likely:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Examine your abdomen for tenderness.&lt;/li&gt;
+	&lt;li&gt;Check your white blood cells for signs of infection.&lt;/li&gt;
+	&lt;li&gt;Order an imaging test, such as a CT scan, to help visualize the pouches that are inflamed or infected. A CT scan uses a series of computer-directed X-rays to provide a comprehensive view of your internal organs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, treatment depends on the severity of your signs and symptoms and whether this is your first attack of diverticulitis. If your symptoms are mild, a liquid or low-fiber diet and antibiotics may be all you need. But if you&apos;re at risk of complications or have recurrent attacks of diverticulitis, you may need more advanced care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Home care&lt;/strong&gt; &lt;br /&gt;
+If your condition calls for home treatment, expect to rest and consume a liquid diet for a few days so that your infection can heal. Once your symptoms improve &amp;mdash; usually within three days &amp;mdash; you can gradually add high-fiber foods, such as whole grains, fruits and vegetables, to your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, your doctor will likely prescribe antibiotics to help kill the bacteria causing your infection. Even if you start feeling better, be sure to finish your entire course of medication. Stopping too soon could cause your infection to come back or could contribute to antibiotic-resistant bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have moderate or severe pain, your doctor may recommend an over-the-counter pain reliever, such as acetaminophen (Tylenol, others). Your doctor may also prescribe a more potent pain medication, although these medications tend to be constipating and may aggravate the problem. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization&lt;/strong&gt; &lt;br /&gt;
+If you have a more severe attack that includes or puts you at risk of bowel obstruction or peritonitis, or you have developed a complication of diverticulitis, such as an abscess, you may need to be hospitalized to receive intravenous antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+If you develop an abscess, it may need to be drained. This can be done by inserting a needle through the skin, which is guided by ultrasound or CT. A catheter is then placed to drain the abscess. This catheter may need to remain in place while you&apos;re being treated with antibiotics. Once you have recovered, a bowel resection may be needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If you have a perforation, abscess, fistula or recurring diverticulitis, your doctor may recommend surgery to remove the diseased part of your colon. There are two types of surgery: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Primary bowel resection.&lt;/strong&gt; In this procedure, your surgeon removes the diseased part of your intestine and then reconnects the healthy segments of your colon (anastomosis). This allows you to have normal bowel movements. Depending on the amount of inflammation, you may have open (traditional) surgery or laparoscopic surgery. With open surgery, your surgeon makes one long incision in your abdomen, while laparoscopic surgery is performed through three or four small incisions. Recovery is generally faster and quicker with laparoscopic surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bowel resection with colostomy.&lt;/strong&gt; This surgery may be necessary if you have so much inflammation in your colon that it&apos;s not possible to rejoin your colon and rectum. During a colostomy, your surgeon makes an opening (stoma) in your abdominal wall. The unaffected part of your colon is then connected to the stoma, and waste passes through the opening into a bag. Several months later &amp;mdash; once the inflammation has healed &amp;mdash; your surgeon may be able to perform a second operation to reconnect your colon and rectum.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are things you can do to help prevent or slow the progression of diverticular disease:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat more fiber.&lt;/strong&gt; High-fiber foods, such as fresh fruits and vegetables and whole grains, soften waste material and help it pass more quickly through your colon. This reduces pressure inside your digestive tract. Aim for 20 to 35 grams of fiber each day. An apple or 1/2 cup (118 milliliters) of spinach each contains more than 3 grams of fiber, and 1/2 cup of kidney beans contains about 8 grams. Try to substitute fruits, vegetables and grain products for foods high in fat. Be sure to add fiber gradually to avoid bloating, abdominal discomfort and gas. If it&apos;s difficult for you to consume 20 or more grams of fiber every day, consider using a fiber supplement, such as psyllium (Metamucil) or methylcellulose (Citrucel). Avoiding seeds or nuts won&apos;t prevent recurrent attacks of diverticulitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Fiber works by absorbing water and increasing the soft, bulky waste in your colon. But if you don&apos;t drink enough liquid to replace what&apos;s absorbed, fiber can be constipating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respond to bowel urges.&lt;/strong&gt; When you need to use the toilet, don&apos;t delay. Delaying bowel movements leads to harder stools that require more force to pass and increased pressure within your colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercise promotes normal bowel function and reduces pressure inside your colon. Try to exercise at least 30 minutes on most days.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some experts suspect that people who develop diverticulitis may not have enough good bacteria in their colons. Probiotics &amp;mdash; foods or supplements that contain beneficial bacteria &amp;mdash; may help restore the body&apos;s natural balance, which may help prevent diverticulitis from occurring. However, this hasn&apos;t yet been proved in clinical studies. Probiotics are generally considered safe, but it&apos;s always a good idea to check with your doctor before taking any type of supplements to be sure that they won&apos;t affect any treatment you&apos;re currently receiving.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diverticulitis
+	</Title>
+	<Abstract>
+		Diverticulitis &amp;mdash; Comprehensive overview covers symptoms, treatment, causes of this common colon disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01255" LinkType="Internal" ObjectID="D534DF53-2A5D-9994-E2AB7FB3A68610CA" Title="Diverticulitis diet: Should I avoid nuts and seeds?" Url="http://www.mayoclinic.com/health/diverticulitis-diet/AN01255" />
+		<LinkItem ContentType="Answer" DocID="AN01934" LinkType="Internal" ObjectID="8BD76D6F-E7FF-0DBD-1509BBC23906119E" Title="Diverticulitis diet: Can certain foods trigger an attack?" Url="http://www.mayoclinic.com/health/diverticulitis-diet/AN01934" />
+		<LinkItem ContentType="Video" DocID="MM00366" LinkType="Internal" ObjectID="88F9108D-88B4-462F-B88A06C6BEEE24B9" Title="Video: Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MM00366" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="Article" DocID="HQ00694_D" LinkType="Internal" ObjectID="DEDE8355-4BDE-471D-921AC3E7DF6DD85A" Title="Fitness for less: Low-cost ways to shape up" Url="http://www.mayoclinic.com/health/fitness/HQ00694_D" />
+		<LinkItem ContentType="Article" DocID="SA00072" LinkType="Internal" ObjectID="6BD71FB9-0423-4340-888C6A278454E773" Title="Ostomy: Adapting to life after colostomy, ileostomy or urostomy" Url="http://www.mayoclinic.com/health/ostomy/SA00072" />
+		<LinkItem ContentType="Article" DocID="SM00025" LinkType="Internal" ObjectID="08D6ECD1-BBE2-4AC2-80AEC2B8C6D60231" Title="Fitness: Create a program that&apos;s right for you" Url="http://www.mayoclinic.com/health/fitness/SM00025" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+		<LinkItem ContentType="Disease" DocID="DS01065" LinkType="Internal" ObjectID="C6FC095A-E7FF-0DBD-13E93D8470E403B2" Title="Rectovaginal fistula" Url="http://www.mayoclinic.com/health/rectovaginal-fistula/DS01065" />
+		<LinkItem ContentType="Disease" DocID="DS00823" LinkType="Internal" ObjectID="AD1785F0-E7FF-0DBD-16824338D16E0CB2" Title="Intestinal obstruction" Url="http://www.mayoclinic.com/health/intestinal-obstruction/DS00823" />
+		<LinkItem ContentType="Disease" DocID="DS00990" LinkType="Internal" ObjectID="34787534-E7FF-0DBD-1E7E7DD0709C580A" Title="Peritonitis" Url="http://www.mayoclinic.com/health/peritonitis/DS00990" />
+	</RelatedLinksBox>
+</Disease>

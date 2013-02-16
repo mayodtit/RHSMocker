@@ -1,0 +1,120 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HO00032
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prostate-cancer/HO00032
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-17
+		</UpdateDate>
+		<PublicationDate>
+			1997-09-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2057" Title="Prostate gland">
+						<Keyword MCVID="2390" Title="Enlarged prostate" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			15A8E0E2-87F2-45DB-981184952BF9094A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prostate-specific antigen
+			</MetaKeyword>
+			<MetaKeyword>
+				PSA
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Increased levels of prostate-specific antigen (PSA) in your blood can be a sign of prostate cancer. However, cancer is just one of several possible causes of increased PSA.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s normal for prostate tissue to release small amounts of PSA into your bloodstream. When the prostate grows, PSA levels increase. When the prostate is removed, PSA levels fall close to zero. Most procedures done for an enlarged prostate remove only part of the prostate, which partially decreases PSA levels. A small amount of prostate tissue may remain even after procedures that are considered a total removal of the gland. After any of these enlarged prostate procedures, a number of things can cause PSA levels to go up again. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate cancer.&lt;/strong&gt; Prostate cancer cells in remaining prostate tissue or in other parts of your body can release PSA. Checking for signs of prostate cancer is the main reason men have PSA tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurrent benign prostate growth.&lt;/strong&gt; Some prostate tissue remains even if your entire prostate is removed. This tissue may continue to grow, leading to increased PSA levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of prostate tissue (prostatitis).&lt;/strong&gt; Infection or inflammation of the prostate gland or tissue remaining after prostate surgery can cause your PSA levels to increase. Once prostatitis is treated with antibiotics, PSA levels generally return to normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent ejaculation.&lt;/strong&gt; Ejaculation (orgasm) can cause a temporary increase in PSA levels. To get the most accurate reading, don&apos;t ejaculate for two days before you have a PSA test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have elevated PSA levels after surgery for enlarged prostate, your doctor may recommend a wait-and-see approach &amp;mdash; advising you to retake the PSA test after two or three months. If your doctor suspects prostatitis, you may be prescribed antibiotics to cure the infection. If a second test shows high PSA levels, your doctor may recommend additional tests, such as other blood tests, urine tests or ultrasounds tests. If cancer is suspected, you may need a biopsy to check remaining prostate tissue.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		PSA levels: Can they rise after prostate removal?
+	</Title>
+	<Abstract>
+		Increased PSA &amp;mdash; A number of factors can cause PSA to rise after surgery for enlarged prostate.
+	</Abstract>
+	<Question>
+		What causes PSA levels to increase after prostate removal due to benign prostatic hyperplasia (BPH)?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00611" LinkType="Internal" ObjectID="FB3923E4-A732-0551-3553E365E746303C" Title="Prostate laser surgery" Url="http://www.mayoclinic.com/health/prostate-laser-surgery/MY00611" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00610" LinkType="Internal" ObjectID="FB37098C-BC1F-9E5F-977BC89FA93DDE5A" Title="Open prostatectomy" Url="http://www.mayoclinic.com/health/open-prostatectomy/MY00610" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00608" LinkType="Internal" ObjectID="FB34541C-0501-B132-828D6AA2CEE464A9" Title="Transurethral needle ablation (TUNA)" Url="http://www.mayoclinic.com/health/tuna/MY00608" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00607" LinkType="Internal" ObjectID="FB323B0C-F123-9612-1305FD0629CCE602" Title="Transurethral microwave therapy (TUMT)" Url="http://www.mayoclinic.com/health/tumt/MY00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00599" LinkType="Internal" ObjectID="F10E3BD6-C739-9F3C-4686273187719962" Title="Transurethral incision of the prostate (TUIP)" Url="http://www.mayoclinic.com/health/tuip/MY00599" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01204" LinkType="Internal" ObjectID="D8F4FDF3-CBB9-4DD5-5B7930AE202EFF56" Title="Intravenous pyelogram" Url="http://www.mayoclinic.com/health/intravenous-pyelogram/MY01204" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00633" LinkType="Internal" ObjectID="3F02BCEA-AC9F-38A9-2997AE24488AE998" Title="Transurethral resection of the prostate (TURP)" Url="http://www.mayoclinic.com/health/turp/MY00633" />
+		<LinkItem ContentType="Answer" DocID="HO00023" LinkType="Internal" ObjectID="44EAE764-6778-495A-B98417CE2151BAB0" Title="Bladder outlet obstruction: Causes in men?" Url="http://www.mayoclinic.com/health/bladder-outlet-obstruction/HO00023" />
+		<LinkItem ContentType="SelfAssessment" DocID="MC00046_D" LinkType="Internal" ObjectID="15EF7117-C181-4DC3-9F502A00A61385B3" Title="Prostate symptoms self-assessment" Url="http://www.mayoclinic.com/health/prostate-health/MC00046_D" />
+		<LinkItem ContentType="Disease" DocID="DS00027" LinkType="Internal" ObjectID="E569D2C1-B4F8-4E5E-B7D8534A26D35B37" Title="Prostate gland enlargement" Url="http://www.mayoclinic.com/health/prostate-gland-enlargement/DS00027" />
+	</RelatedLinksBox>
+</Answer>

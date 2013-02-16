@@ -1,0 +1,418 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00285
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cystitis/DS00285
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-25
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1508" Title="Bladder">
+						<Keyword MCVID="2202" Title="Cystitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EDA60DBF-6733-465F-B91A83327C93365E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cystitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder infection
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary tract
+			</MetaKeyword>
+			<MetaKeyword>
+				urine
+			</MetaKeyword>
+			<MetaKeyword>
+				UTI
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cystitis (sis-TI-tis) is the medical term for inflammation of the bladder. Most of the time, the inflammation is caused by a bacterial infection, and it&apos;s called a urinary tract infection (UTI). A bladder infection can be painful and annoying, and it can become a serious health problem if the infection spreads to your kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+Less commonly, cystitis may occur as a reaction to certain drugs, radiation therapy or potential irritants, such as feminine hygiene spray, spermicidal jellies or long-term use of a catheter. Cystitis may also occur as a complication of another illness.
+&lt;/p&gt;
+&lt;p&gt;
+The usual treatment for bacterial cystitis is antibiotics. Treatment for other types of cystitis depends on the underlying cause.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cystitis signs and symptoms often include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A strong, persistent urge to urinate&lt;/li&gt;
+	&lt;li&gt;A burning sensation when urinating&lt;/li&gt;
+	&lt;li&gt;Passing frequent, small amounts of urine&lt;/li&gt;
+	&lt;li&gt;Blood in the urine (hematuria)&lt;/li&gt;
+	&lt;li&gt;Passing cloudy or strong-smelling urine&lt;/li&gt;
+	&lt;li&gt;Discomfort in the pelvic area&lt;/li&gt;
+	&lt;li&gt;A feeling of pressure in the lower abdomen&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In young children, new episodes of accidental daytime wetting also may be a sign of a urinary tract infection (UTI). Nighttime bed-wetting on its own isn&apos;t likely to be associated with a UTI.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor immediately if you have signs and symptoms common to a kidney infection, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Back or side pain&lt;/li&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you develop urgent, frequent or painful urination that lasts for several hours or longer or if you notice blood in your urine, call your doctor. If you&apos;ve been diagnosed with a UTI in the past and you develop symptoms that mimic a previous UTI, call your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Also call your doctor if cystitis symptoms return after you&apos;ve finished a course of antibiotics. You may need a different type of medication.
+&lt;/p&gt;
+&lt;p&gt;
+If your child starts having daytime wetting accidents, call your pediatrician.
+&lt;/p&gt;
+&lt;p&gt;
+In otherwise healthy men, cystitis is rare and should be investigated by your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your urinary system includes your kidneys, ureters, bladder and urethra. All play a role in removing waste from your body. Your kidneys &amp;mdash; a pair of bean-shaped organs located toward the back of your upper abdomen &amp;mdash; filter waste from your blood and regulate the concentrations of many substances. Tubes called ureters carry urine from your kidneys to the bladder, where it&apos;s stored until it exits your body through the urethra.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bacterial cystitis&lt;/strong&gt;&lt;br /&gt;
+UTIs typically occur when bacteria outside the body enter the urinary tract through the urethra and begin to multiply. Most cases of cystitis are caused by a type of Escherichia coli (E. coli) bacteria.
+&lt;/p&gt;
+&lt;p&gt;
+Bacterial bladder infections may occur in women as a result of sexual intercourse. But even sexually inactive girls and women are susceptible to lower urinary tract infections because the female genital area often harbors bacteria that can cause cystitis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Main types of infections&lt;/strong&gt;&lt;br /&gt;
+The two main types of bacterial bladder infections are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Community-acquired bladder infections.&lt;/strong&gt; These infections occur when people who aren&apos;t in a medical care facility develop a bladder infection. Bladder infections are more common in women than in men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hospital-acquired bladder infections.&lt;/strong&gt; These infections, also called nosocomial (nos-o-KO-me-ul) infections, occur in people in a medical care facility, such as a hospital or nursing home. Most often they happen in those who have had a urinary catheter placed through the urethra and into the bladder to collect urine, a common practice before some surgical procedures, for some diagnostic tests, or as a means of urinary drainage for older adults or people confined to bed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Noninfectious cystitis&lt;/strong&gt;&lt;br /&gt;
+Although bacterial infections are the most common cause of cystitis, a number of noninfectious factors also may cause the bladder to become inflamed. Some examples:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Interstitial cystitis.&lt;/strong&gt; The cause of this chronic bladder inflammation, also called painful bladder syndrome, is unclear. Most cases are diagnosed in women. The condition can be difficult to diagnose and treat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug-induced cystitis.&lt;/strong&gt; Certain medications, particularly the chemotherapy drugs cyclophosphamide and ifosfamide, can cause inflammation of your bladder as the broken-down components of the drugs exit your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation cystitis.&lt;/strong&gt; Radiation treatment of the pelvic area can cause inflammatory changes in bladder tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foreign-body cystitis.&lt;/strong&gt; Long-term use of a catheter can predispose you to bacterial infections and to tissue damage, both of which can cause inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical cystitis.&lt;/strong&gt; Some people may be hypersensitive to chemicals contained in certain products, such as bubble bath, feminine hygiene sprays or spermicidal jellies, and may develop an allergic-type reaction within the bladder, causing inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystitis associated with other conditions.&lt;/strong&gt; Cystitis may sometimes occur as a complication of other disorders, such as gynecologic cancers, pelvic inflammatory disorders, endometriosis, Crohn&apos;s disease, diverticulitis, lupus or tuberculosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing affect of interstitial cystitis on bladder 
+" Caption="Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those of a normal bladder (shown left). 
+" Height="60" Title="Interstitial cystitis" URI="/images/image_popup/thumbs/r7_interstitialcystitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing affect of interstitial cystitis on bladder 
+" Caption="Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those of a normal bladder (shown left). 
+" Height="420" Title="Interstitial cystitis" URI="/images/image_popup/r7_interstitialcystitis.jpg" Width="400" />
+				<HTML>
+					Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people are more likely than are others to develop bladder infections or recurrent urinary tract infections. Women are one such group. A key reason is physical anatomy. Women have a shorter urethra than men have, which cuts down on the distance bacteria must travel to reach the bladder.
+&lt;/p&gt;
+&lt;p&gt;
+Women at greatest risk of UTIs include those who:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Are sexually active.&lt;/strong&gt; Sexual intercourse can result in bacteria being pushed into the urethra.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use certain types of birth control.&lt;/strong&gt; Women who use diaphragms are at increased risk of a UTI. Diaphragms that contain spermicidal agents further increase your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Are pregnant.&lt;/strong&gt; Hormonal changes during pregnancy may increase the risk of a bladder infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other risk factors in both men and women include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Interference with the flow of urine.&lt;/strong&gt; This can occur in conditions such as a stone in the bladder or, in men, an enlarged prostate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in the immune system.&lt;/strong&gt; This can occur with conditions such as diabetes, HIV infection and cancer treatment. A lowered immune system increases the risk of bacterial and, in some cases, viral bladder infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged use of bladder catheters.&lt;/strong&gt; These tubes may be needed in people with chronic illnesses or in older adults. Prolonged use can result in increased vulnerability to bacterial infections as well as bladder tissue damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In men without any predisposing health issues, cystitis is rare.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When treated promptly and properly, bladder infections rarely lead to complications. But left untreated, they can become something more serious. Complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney infection.&lt;/strong&gt; An untreated bladder infection can lead to kidney infection, also called pyelonephritis (pie-uh-low-nuh-FRY-tis). Kidney infections may permanently damage your kidneys. Young children and older adults are at the greatest risk of kidney damage from bladder infections because their symptoms are often overlooked or mistaken for other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood in the urine.&lt;/strong&gt; With cystitis, you may have blood cells in your urine that can be seen only with a microscope (microscopic hematuria) and that usually resolves with treatment. If blood cells remain after treatment, your doctor may recommend a specialist to determine the cause. Blood in the urine that you can see (gross hematuria) is rare with typical, bacterial cystitis, but this sign is not uncommon with chemotherapy- or radiation-induced cystitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs or symptoms common to cystitis, make an appointment with your primary care provider. After an initial evaluation, you may be referred to a doctor who specializes in urinary tract disorders (urologist or nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot to cover, it&apos;s a good idea to be well prepared.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask if there&apos;s anything you need to do before your appointment,&lt;/strong&gt; such as collect a urine specimen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that seem unrelated to cystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all the medications,&lt;/strong&gt; vitamins or other supplements that you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be hard to remember all the information, and a relative or friend may hear something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For cystitis, basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What factors do you think may have contributed to my cystitis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;What is the risk that this problem will recur?&lt;/li&gt;
+	&lt;li&gt;What steps can I take to reduce my risk of a recurrence?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment at any time when you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for a bladder or kidney infection in the past?&lt;/li&gt;
+	&lt;li&gt;How severe is your discomfort?&lt;/li&gt;
+	&lt;li&gt;How frequently do you urinate?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms relieved by urinating?&lt;/li&gt;
+	&lt;li&gt;Do you have low back pain?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever?&lt;/li&gt;
+	&lt;li&gt;Have you noticed vaginal discharge or blood in your urine?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Do you use contraception? What kind?&lt;/li&gt;
+	&lt;li&gt;Could you be pregnant?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you ever used a catheter?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including over-the-counter and prescription drugs as well as vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have symptoms of cystitis, talk to your doctor as soon as possible. In addition to discussing your signs and symptoms and your medical history, your doctor may order these tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine analysis.&lt;/strong&gt; If it&apos;s suspected that you have a bladder infection, your doctor may ask for a urine sample to determine whether bacteria, blood or pus is in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystoscopy.&lt;/strong&gt; Inspection of your bladder with a cystoscope &amp;mdash; a thin tube with a light and camera attached that can be inserted through the urethra into your bladder &amp;mdash; may help with the diagnosis. Your doctor can also use the cystoscope to remove a small sample of tissue (biopsy) for analysis in the lab. This test most likely won&apos;t be needed if this is the first time you&apos;ve had signs or symptoms of cystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests usually aren&apos;t necessary, but in some instances &amp;mdash; especially when no evidence of infection is found &amp;mdash; they may be helpful. For example, an X-ray or ultrasound may help rule out other potential causes of bladder inflammation, such as a tumor or structural abnormality.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cystitis caused by bacterial infection is generally treated with antibiotics. Treatment for noninfectious cystitis depends on the underlying cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating bacterial cystitis&lt;/strong&gt;&lt;br /&gt;
+Antibiotics are the first line of treatment for cystitis caused by bacteria. Which drugs are used and for how long depend on your overall health and the bacteria found in your urine. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;First-time infection.&lt;/strong&gt; Symptoms often improve significantly within a day or so of antibiotic treatment. However, you&apos;ll likely need to take antibiotics for three days to a week, depending on the severity of your infection. No matter what the length of treatment, take the entire course of antibiotics prescribed by your doctor to ensure that the infection is completely gone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repeat infection.&lt;/strong&gt; If you have recurrent UTIs, your doctor may recommend longer antibiotic treatment or refer you to a doctor who specializes in urinary tract disorders (urologist or nephrologist) for an evaluation, to see if urologic abnormalities may be causing the infections. For some women, taking a single dose of an antibiotic after sexual intercourse may be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hospital-acquired infection.&lt;/strong&gt; Hospital-acquired bladder infections can be a challenge to treat because bacteria found in hospitals are often resistant to the common types of antibiotics used to treat community-acquired bladder infections. For that reason, different types of antibiotics and different treatment approaches may be needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Postmenopausal women may be particularly susceptible to cystitis. As a part of your treatment, your doctor may recommend a vaginal estrogen cream &amp;mdash; if you&apos;re able to use this medication without increasing your risk of other health problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating interstitial cystitis&lt;/strong&gt;&lt;br /&gt;
+With interstitial cystitis, the cause of inflammation is uncertain, so there&apos;s no single treatment that works best for every case. Therapies used to ease the signs and symptoms of interstitial cystitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medications that are taken orally or inserted directly into your bladder&lt;/li&gt;
+	&lt;li&gt;Procedures that manipulate your bladder to improve symptoms, such as stretching the bladder with water or gas (bladder distention) or surgery&lt;/li&gt;
+	&lt;li&gt;Nerve stimulation, which uses mild electrical pulses to relieve pelvic pain and, in some cases, reduce urinary frequency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating other forms of noninfectious cystitis&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re hypersensitive to certain chemicals in products such as bubble bath or spermicides, avoiding these products may help ease symptoms and help prevent further episodes of cystitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of cystitis that develops as a complication of chemotherapy or radiation therapy focuses on pain management, usually with medications, and hydration to flush out bladder irritants. Most cases of chemotherapy-induced cystitis tend to resolve after the chemotherapy is finished. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cystitis can be painful, but you can take steps to ease your discomfort:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use a heating pad.&lt;/strong&gt; Sometimes a heating pad placed over your lower abdomen can help minimize feelings of bladder pressure or pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay hydrated.&lt;/strong&gt; Drink plenty of fluids, but avoid coffee, alcohol, soft drinks with caffeine, citrus juices and spicy foods until your infection has cleared. These items can irritate your bladder and aggravate your frequent or urgent need to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a sitz bath.&lt;/strong&gt; Soaking in a bathtub of warm water (sitz bath) for 15 to 20 minutes may help relieve pain or discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have recurrent bladder infections, let your doctor know. Together, you can develop a strategy to reduce recurrences and the discomfort that cystitis can bring.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cranberry juice or tablets containing proanthocyanidin may or may not help reduce the risk of recurrent bladder infections for some women. Conflicting results from research studies make it difficult to know whether cranberry juice really helps or whether there&apos;s a placebo effect. As a home remedy, avoid cranberry juice if you&apos;re taking the blood-thinning medication warfarin (Coumadin). Possible interactions between cranberry juice and warfarin can lead to bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+Although these preventive self-care measures aren&apos;t well-studied, doctors sometimes recommend the following for repeated bladder infections:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids, especially water.&lt;/strong&gt; Drinking lots of fluids is especially important if you&apos;re getting chemotherapy or radiation therapy, particularly on treatment days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinate frequently.&lt;/strong&gt; If you feel the urge to urinate, don&apos;t delay using the toilet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wipe from front to back after a bowel movement.&lt;/strong&gt; This prevents bacteria in the anal region from spreading to the vagina and urethra.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take showers rather than tub baths.&lt;/strong&gt; If you&apos;re susceptible to infections, showering rather than bathing may help prevent them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently wash the skin around the vagina and anus.&lt;/strong&gt; Do this daily, but don&apos;t use harsh soaps or wash too vigorously. The delicate skin around these areas can become irritated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Empty your bladder as soon as possible after intercourse.&lt;/strong&gt; Drink a full glass of water to help flush bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid using deodorant sprays or feminine products in the genital area.&lt;/strong&gt; These products can irritate the urethra and bladder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cystitis
+	</Title>
+	<Abstract>
+		Cystitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of bladder inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00497" LinkType="Internal" ObjectID="CBC4AE4E-273C-4A16-813E4F06BFB5F959" Title="Interstitial cystitis" Url="http://www.mayoclinic.com/health/interstitial-cystitis/DS00497" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00987" LinkType="Internal" ObjectID="2B761D3A-BB95-A7A7-A19FBEEA6E14AFD3" Title="Diaphragm" Url="http://www.mayoclinic.com/health/diaphragm/MY00987" />
+		<LinkItem ContentType="Answer" DocID="HO00022" LinkType="Internal" ObjectID="B2A723B1-41A4-46C0-A8524374959D169B" Title="Bladder infection in men" Url="http://www.mayoclinic.com/health/bladder-infection/HO00022" />
+		<LinkItem ContentType="Answer" DocID="AN01683" LinkType="Internal" ObjectID="3B67C919-E7FF-0DBD-1A36A1D72E4EA2CA" Title="Chronic bladder infection: Is there a cure?" Url="http://www.mayoclinic.com/health/bladder-infection/AN01683" />
+	</RelatedLinksBox>
+</Disease>

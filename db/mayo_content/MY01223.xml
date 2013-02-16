@@ -1,0 +1,284 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01223
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-biopsy/MY01223
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-19
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3853" Title="Kidneys and urinary system">
+						<Keyword MCVID="4623" Title="Kidney biopsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			24BD87C1-066C-AE2F-22170FA021843FD4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney biopsy procedure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney biopsy risks
+			</MetaKeyword>
+			<MetaKeyword>
+				renal biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				percutaneous kidney biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				transjugular kidney biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney procedure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				renal disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During a kidney biopsy &amp;mdash; also called renal biopsy &amp;mdash; your doctor removes a small piece of kidney tissue to examine under a microscope for signs of damage or disease.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend a kidney biopsy to diagnose a suspected kidney problem, determine the severity of kidney disease or monitor treatment for kidney disease. You also may need a kidney biopsy if you&apos;ve had a kidney transplant that&apos;s not working properly.
+&lt;/p&gt;
+&lt;p&gt;
+Most often, a doctor performs a kidney biopsy by inserting a thin needle through the skin &amp;mdash; a procedure known as percutaneous kidney biopsy. An imaging device helps the doctor guide the needle into the kidney to remove tissue.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney biopsy 
+" Caption="During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance of an imaging device, such as ultrasound. 
+" Height="60" Title="Kidney biopsy" URI="/images/image_popup/thumbs/mcdc7_kidney_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney biopsy 
+" Caption="During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance of an imaging device, such as ultrasound. 
+" Height="368" Title="Kidney biopsy" URI="/images/image_popup/mcdc7_kidney_biopsy.jpg" Width="400" />
+				<HTML>
+					During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A kidney biopsy may be done to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diagnose a kidney problem that can&apos;t otherwise be identified&lt;/li&gt;
+	&lt;li&gt;Help develop treatment plans based on the kidney&apos;s condition&lt;/li&gt;
+	&lt;li&gt;Determine how quickly kidney disease is progressing&lt;/li&gt;
+	&lt;li&gt;Determine the extent of damage from kidney disease or another disease&lt;/li&gt;
+	&lt;li&gt;Evaluate how well treatment for kidney disease is working&lt;/li&gt;
+	&lt;li&gt;Find out why a transplanted kidney isn&apos;t working properly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may recommend a kidney biopsy based on the results of blood or urine tests that show:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood in the urine (hematuria) that&apos;s localized to the kidney&lt;/li&gt;
+	&lt;li&gt;Protein in the urine (proteinuria) that&apos;s excessive, rising or accompanied by other signs of kidney disease&lt;/li&gt;
+	&lt;li&gt;Problems with kidney function, leading to excessive waste products in the blood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Not everyone with these problems needs a kidney biopsy. The decision is based on your signs and symptoms, test results, and overall health.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, percutaneous kidney biopsy is a safe procedure. Possible risks include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; The most common complication of kidney biopsy is blood in the urine (hematuria). The bleeding usually stops within a few days. Bleeding that&apos;s serious enough to require a blood transfusion affects a very small percentage of people who have a kidney biopsy. Rarely, surgery is needed to control bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Pain at the biopsy site is common after a kidney biopsy, but it usually lasts only a few hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arteriovenous fistula.&lt;/strong&gt; If the biopsy needle accidentally damages the walls of a nearby artery and vein, an abnormal connection (fistula) can form between the two blood vessels. This type of fistula usually causes no symptoms and closes on its own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Others.&lt;/strong&gt; Rarely, a collection of blood (hematoma) around the kidney becomes infected. This complication is treated with antibiotics and surgical drainage. Another uncommon risk is development of high blood pressure related to a large hematoma. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before your kidney biopsy, you&apos;ll meet with your doctor to talk about what to expect. This is a good time to ask questions about the procedure and make sure you understand the benefits and risks.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+When you meet with your doctor, bring a list of all medications you take, including over-the-counter medications, vitamins and herbal supplements. Before your kidney biopsy, you&apos;ll be asked to stop taking medications and supplements that can increase the risk of bleeding. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood-thinning medications (anticoagulants), such as warfarin (Coumadin)&lt;/li&gt;
+	&lt;li&gt;Aspirin&lt;/li&gt;
+	&lt;li&gt;Ibuprofen (Advil, Motrin IB, others) and other nonsteroidal anti-inflammatory drugs (NSAIDs)&lt;/li&gt;
+	&lt;li&gt;Certain herbs and other dietary supplements, such as ginkgo, garlic and fish oil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor or nurse will let you know when to stop taking these medications and supplements, and for how long.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood and urine samples&lt;/strong&gt;&lt;br /&gt;
+Before your biopsy, you&apos;ll have blood drawn and provide a urine sample to make sure you don&apos;t have an infection or another condition that would make the biopsy risky.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diet&lt;/strong&gt;&lt;br /&gt;
+You may be asked not to drink or eat for eight hours before the kidney biopsy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll have a kidney biopsy at a hospital or outpatient center. Before the biopsy, your health care team may offer a light sedative to help you relax during the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+During the biopsy, you&apos;ll be awake and lie on your abdomen, so your kidneys are positioned near the surface of your back. If the biopsy is for a transplanted kidney, you&apos;ll lie on your back instead.
+&lt;/p&gt;
+&lt;p&gt;
+A percutaneous biopsy takes about an hour and includes these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;With an ultrasound probe, your doctor identifies exactly where to insert the needle. In some cases, a CT scan may be used instead of ultrasound.&lt;/li&gt;
+	&lt;li&gt;Your doctor marks your skin, cleans the area and applies a numbing medication (local anesthetic).&lt;/li&gt;
+	&lt;li&gt;Your doctor makes a small incision where the needle will go in and uses the ultrasound device to guide the needle into your kidney.&lt;/li&gt;
+	&lt;li&gt;You&apos;ll take a deep breath and hold it as your doctor collects a sample using a spring-loaded instrument. You may feel a &quot;pop&quot; or pressure and hear a sharp clicking noise.&lt;/li&gt;
+	&lt;li&gt;Your doctor may need to insert the needle several times &amp;mdash; often through the same incision &amp;mdash; to get enough tissue.&lt;/li&gt;
+	&lt;li&gt;You&apos;ll remain still, continuing to hold your breath, for the time it takes to collect the tissue &amp;mdash; 30 to 45 seconds.&lt;/li&gt;
+	&lt;li&gt;Your doctor removes the needle and places a small bandage on the incision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other kidney biopsy procedures&lt;/strong&gt;&lt;br /&gt;
+Percutaneous kidney biopsy isn&apos;t an option for some people. If you have a history of bleeding problems, have a blood-clotting disorder or have only one kidney, your doctor may consider a laparoscopic biopsy. In this procedure, your doctor makes a small incision and inserts a thin, lighted tube with a video camera at its tip (laparoscope). This tool allows the doctor to view your kidney on a video screen and remove tissue samples.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After the biopsy, you can expect to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spend time in a recovery room where your blood pressure, pulse and breathing will be monitored.&lt;/li&gt;
+	&lt;li&gt;Have urinalysis and complete blood count tests done to check for bleeding and other complications.&lt;/li&gt;
+	&lt;li&gt;Rest quietly for several hours.&lt;/li&gt;
+	&lt;li&gt;Receive written instructions about your recovery.&lt;/li&gt;
+	&lt;li&gt;Feel some soreness or pain at the biopsy site for a few hours. You&apos;ll be given medications to relieve pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people can leave the hospital the same day. You may need to rest in bed for 12 to 24 for hours after the biopsy, as directed by your doctor. Your health care team will let you know about any activity restrictions, such as avoiding heavy lifting and strenuous exercise.
+&lt;/p&gt;
+&lt;p&gt;
+Your kidney tissue goes to a lab to be examined by a doctor who specializes in diagnosing disease (pathologist). The pathologist uses microscopes and dyes to look for unusual deposits, scarring, infection or other abnormalities in the kidney tissue.
+&lt;/p&gt;
+&lt;p&gt;
+Call your doctor if you experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Significant bright red blood or clots in your urine more than 24 hours after the biopsy&lt;/li&gt;
+	&lt;li&gt;Inability to pass urine&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Worsening pain at the biopsy site&lt;/li&gt;
+	&lt;li&gt;Fever over 100.4 F (38 C)&lt;/li&gt;
+	&lt;li&gt;Faintness or weakness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney biopsy 
+" Caption="During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance of an imaging device, such as ultrasound. 
+" Height="60" Title="Kidney biopsy" URI="/images/image_popup/thumbs/mcdc7_kidney_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney biopsy 
+" Caption="During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance of an imaging device, such as ultrasound. 
+" Height="368" Title="Kidney biopsy" URI="/images/image_popup/mcdc7_kidney_biopsy.jpg" Width="400" />
+				<HTML>
+					During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Expect your biopsy report from the pathology lab within about a week. In urgent situations, a full or partial report may be available in less than 24 hours. At a follow-up visit, your doctor will discuss the results. The results may further explain what&apos;s causing your kidney problem, or they may be used to plan or change your treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kidney biopsy
+	</Title>
+	<Abstract>
+		Kidney biopsy &amp;mdash; Overview covers definition, risks, results for this procedure to examine kidney tissue.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="Disease" DocID="DS00503" LinkType="Internal" ObjectID="CAB55536-7CCC-44A4-832C420405FCCA39" Title="Glomerulonephritis" Url="http://www.mayoclinic.com/health/glomerulonephritis/DS00503" />
+		<LinkItem ContentType="Disease" DocID="DS01013" LinkType="Internal" ObjectID="8D68A314-E7FF-0DBD-19BC7D9C0176BC8A" Title="Blood in urine (hematuria)" Url="http://www.mayoclinic.com/health/blood-in-urine/DS01013" />
+		<LinkItem ContentType="Disease" DocID="DS01047" LinkType="Internal" ObjectID="8B11282A-E7FF-0DBD-168C2EA8C1F3E11A" Title="Nephrotic syndrome" Url="http://www.mayoclinic.com/health/nephrotic-syndrome/DS01047" />
+		<LinkItem ContentType="Disease" DocID="DS00682" LinkType="Internal" ObjectID="1EAAF4B2-2A5D-9994-E30C5CBDE21DAAD4" Title="Chronic kidney failure" Url="http://www.mayoclinic.com/health/kidney-failure/DS00682" />
+		<LinkItem ContentType="Disease" DocID="DS00360" LinkType="Internal" ObjectID="162FE2ED-4D6F-4BB4-9DF39A9952A1A2EA" Title="Kidney cancer" Url="http://www.mayoclinic.com/health/kidney-cancer/DS00360" />
+		<LinkItem ContentType="Disease" DocID="DS00856" LinkType="Internal" ObjectID="09A333F9-E7FF-0DBD-1F01688A06C4D313" Title="IgA nephropathy (Berger&apos;s disease)" Url="http://www.mayoclinic.com/health/iga-nephropathy/DS00856" />
+	</RelatedLinksBox>
+</TestProcedure>

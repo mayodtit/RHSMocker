@@ -1,0 +1,334 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00494
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/post-polio-syndrome/DS00494
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2003-05-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2330" Title="Neuromuscular">
+						<Keyword MCVID="2945" Title="Post polio syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			998F31A7-54A7-4D06-A37E640DF18D9CE7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				post-polio syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				polio
+			</MetaKeyword>
+			<MetaKeyword>
+				postpolio
+			</MetaKeyword>
+			<MetaKeyword>
+				post polio sequelae
+			</MetaKeyword>
+			<MetaKeyword>
+				PPS
+			</MetaKeyword>
+			<MetaKeyword>
+				polio late effects
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-polio syndrome (PPS) refers to a cluster of potentially disabling signs and symptoms that appear decades &amp;mdash; an average of 30 to 40 years &amp;mdash; after the initial polio illness. 
+&lt;/p&gt;
+&lt;p&gt;
+Polio was once one of the most feared diseases in America, responsible for paralysis and death. Shortly after polio reached its peak in the early 1950s, the inactivated polio vaccine was introduced and greatly reduced polio&apos;s spread. 
+&lt;/p&gt;
+&lt;p&gt;
+Today, few people in developed countries get paralytic polio, thanks to the polio vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+According to some studies, however, up to half the people who had polio at a young age may experience certain effects of the disease many years later &amp;mdash; post-polio syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs and symptoms of post-polio syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Progressive muscle and joint weakness and pain&lt;/li&gt;
+	&lt;li&gt;General fatigue and exhaustion with minimal activity&lt;/li&gt;
+	&lt;li&gt;Muscle atrophy&lt;/li&gt;
+	&lt;li&gt;Breathing or swallowing problems&lt;/li&gt;
+	&lt;li&gt;Sleep-related breathing disorders, such as sleep apnea&lt;/li&gt;
+	&lt;li&gt;Decreased tolerance of cold temperatures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In most people, post-polio syndrome tends to progress slowly, with new signs and symptoms followed by periods of stability.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re experiencing weakness or fatigue that seems to be getting worse, see your doctor. It&apos;s important to rule out other causes of your signs and symptoms that may require different therapy from what&apos;s currently advised for post-polio syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nobody knows exactly what causes the signs and symptoms of post-polio syndrome to appear so many years after the first episode of polio. Currently, the most accepted theory regarding the cause of post-polio syndrome rests on the idea of degenerating nerve cells. 
+&lt;/p&gt;
+&lt;p&gt;
+When poliovirus infects your body, it affects nerve cells called motor neurons &amp;mdash; particularly those in your spinal cord &amp;mdash; that carry messages (electrical impulses) between your brain and your muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+Each neuron consists of three basic components: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cell body&lt;/li&gt;
+	&lt;li&gt;A major branching fiber (axon)&lt;/li&gt;
+	&lt;li&gt;Numerous smaller branching fibers (dendrites)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A polio infection often leaves many of these motor neurons destroyed or damaged. To compensate for the resulting neuron shortage, the remaining neurons sprout new fibers, and the surviving motor units become enlarged. This promotes recovery of the use of your muscles, but it also places added stress on the nerve cell body to nourish the additional fibers. Over the years, this stress may be more than the neuron can handle, leading to the gradual deterioration of the sprouted fibers and, eventually, of the neuron itself.
+&lt;/p&gt;
+&lt;p&gt;
+Another theory is that the initial illness may have created an autoimmune reaction, causing the body&apos;s immune system to attack normal cells as if they were foreign substances. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a nerve cell (neuron), showing axon and dendrites
+" Caption="Each nerve cell (neuron) consists of four basic components: a neuron cell body, a nucleus, a major branching fiber (axon) and numerous smaller branching fibers (dendrites). Nerve cells communicate with adjacent nerve cells at contact points called synapses. Poliovirus can damage or destroy nerve cells that carry messages between the brain and muscles.
+" Height="60" Title="Nerve cell (neuron)" URI="/images/image_popup/thumbs/r7_neuronthu.jpg" Width="60" />
+				<Image Alt="Illustration of a nerve cell (neuron), showing axon and dendrites
+" Caption="Each nerve cell (neuron) consists of four basic components: a neuron cell body, a nucleus, a major branching fiber (axon) and numerous smaller branching fibers (dendrites). Nerve cells communicate with adjacent nerve cells at contact points called synapses. Poliovirus can damage or destroy nerve cells that carry messages between the brain and muscles.
+" Height="465" Title="Nerve cell (neuron)" URI="/images/image_popup/r7_neuron.jpg" Width="400" />
+				<HTML>
+					Each nerve cell (neuron) consists of four basic components: a neuron cell body, a nucleus, a major branching fiber (axon) and numerous smaller branching fibers (dendrites). Nerve cells communicate ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing post-polio syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Severity of initial polio infection.&lt;/strong&gt; The more severe the initial infection, the more likely that you&apos;ll have signs and symptoms of post-polio syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age at onset of initial illness.&lt;/strong&gt; If you acquired polio as an adolescent or adult, rather than as a young child, your chances of developing post-polio syndrome increase.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recovery.&lt;/strong&gt; The greater your recovery after acute polio, the more likely it seems that post-polio syndrome will develop. This may be because greater recovery places additional stress on motor neurons.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt; If you often perform physical activity to the point of exhaustion or fatigue, this may overwork already stressed-out motor neurons and increase your risk of post-polio syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Females are more likely to develop post-polio syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, post-polio syndrome is rarely life-threatening, but severe muscle weakness can lead to complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Weakness in your leg muscles makes it easier for you to lose your balance and fall. A fall may result in a broken bone, such as a hip fracture, leading to other complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malnutrition, dehydration, pneumonia.&lt;/strong&gt; People who&apos;ve had bulbar polio, which affects nerves leading to muscles involved in chewing and swallowing, often have difficulty with these activities as well as other signs of post-polio syndrome. Chewing and swallowing problems can lead to inadequate nutrition and to dehydration, as well as aspiration pneumonia, which is caused by inhaling (aspirating) food particles into your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute respiratory failure.&lt;/strong&gt; Weakness in your diaphragm and chest muscles makes it harder to take deep breaths and cough, which can ultimately lead to accumulation of fluid and mucus in your lungs. Obesity, smoking, curvature of the spine, anesthesia, prolonged immobility and certain medications can further decrease breathing ability, possibly leading to acute respiratory failure. This is characterized by a sharp drop in blood oxygen levels and may require you to receive treatment to help you breathe (ventilation therapy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Prolonged inactivity and immobility are often accompanied by loss of bone density and osteoporosis, in both men and women. If you have post-polio syndrome, you may wish to be screened for osteoporosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner when you first notice your symptoms. However, you&apos;ll probably be referred to a doctor who specializes in nervous system disorders (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For post-polio syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests, if any, do I need? What will these tests tell you? What&apos;s involved in the test?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Will I become incapacitated?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you ever had polio? If so, when?&lt;/li&gt;
+	&lt;li&gt;How severe was your polio infection?&lt;/li&gt;
+	&lt;li&gt;What areas of your body were affected by polio?&lt;/li&gt;
+	&lt;li&gt;What types of symptoms are you now experiencing?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything appear to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Indicators of post-polio syndrome&lt;br /&gt;
+&lt;/strong&gt;To arrive at a diagnosis of post-polio syndrome, doctors look for three indicators: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Previous diagnosis of polio.&lt;/strong&gt; This may require finding old medical records or getting information from older family members, because acute polio primarily occurs during childhood. The late effects of polio usually occur in people who were adolescents or older during the initial attack of polio and whose symptoms were severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long interval after recovery.&lt;/strong&gt; People who recover from the initial attack of polio often live for many years without further signs or symptoms. The onset of late effects varies widely, but typically begins at least 15 years after the initial diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gradual onset.&lt;/strong&gt; Weakness often isn&apos;t noticeable until it interferes with daily activities. You may awaken refreshed, but feel exhausted by the early afternoon, tiring after activities that were once easy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, because the signs and symptoms of post-polio syndrome are similar to those commonly associated with other disorders, your doctor will attempt to exclude other possible causes, such as arthritis, fibromyalgia, chronic fatigue syndrome and scoliosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with post-polio syndrome worry that they may be getting amyotrophic lateral sclerosis (ALS), also called Lou Gehrig&apos;s disease. But the late effects of polio are not a form of ALS. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to rule out other conditions&lt;br /&gt;
+&lt;/strong&gt;Some of the tests your doctor may use to rule out alternative diagnoses include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG) and nerve conduction studies.&lt;/strong&gt; Electromyography measures the tiny electrical discharges produced in muscles. A thin-needle electrode is inserted into the muscles your doctor wants to study. An instrument records the electrical activity in your muscle at rest and as you contract the muscle. In a variation of EMG called nerve conduction studies, two electrodes are taped to your skin above a nerve to be studied. A small shock is passed through the nerve to measure the speed of nerve signals. These tests help identify and exclude conditions such as neuropathy, an abnormal condition of your nerves, and myopathy, a muscle tissue disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging.&lt;/strong&gt; You may undergo tests, such as magnetic resonance imaging (MRI) or computerized tomography (CT), to produce images of your brain and spinal cord. These tests can help exclude spinal disorders, such as spondylosis, a degenerative spine condition, or spinal stenosis, a narrowing of your spinal column that puts pressure on your nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle biopsy.&lt;/strong&gt; Your doctor may perform a muscle biopsy, looking for evidence of typical nerve abnormalities caused by the polio virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; People with post-polio syndrome usually have normal blood test results. Abnormal blood test results may indicate another underlying problem that&apos;s causing your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the signs and symptoms often vary, there&apos;s no one specific treatment for post-polio syndrome. The goal of treatment is to manage your symptoms and help make you as comfortable and independent as possible: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Energy conservation.&lt;/strong&gt; This involves pacing your physical activity and combining it with frequent rest periods to reduce fatigue. Assistive devices, such as a cane, walker, wheelchair or motor scooter, also can help you conserve energy. A therapist can even show you ways to breathe that help conserve energy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Your doctor or therapist may prescribe exercises for you that strengthen your muscles without you experiencing muscle fatigue. These usually include less strenuous activities, such as swimming or water aerobics, that you perform every other day at a relaxed pace. Exercising to maintain fitness is important, but be cautious in your exercise routine and daily activities. Avoid overusing your muscles and joints and attempting to exercise beyond the point of pain or fatigue. Otherwise, you may need significant rest to regain your strength.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy.&lt;/strong&gt; A physical therapist or occupational therapist can help you modify your home environment so that it&apos;s safe and convenient for you. This may include installation of grab bars in the shower or a raised toilet seat. Your therapist may also help you rearrange furniture or rethink certain household or work-related tasks, decreasing the number of steps you must take and increasing your efficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech therapy.&lt;/strong&gt; A speech therapist can show you ways to compensate for swallowing difficulties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep apnea treatment.&lt;/strong&gt; Treatment for sleep apnea, which is common among people with post-polio syndrome, may involve changing your sleeping patterns, such as avoiding sleeping on your back, or using a device that helps open up a blocked airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Pain relievers, such as aspirin, acetaminophen (Tylenol, others) and ibuprofen (Advil, Motrin, others), may ease muscle and joint pain. Numerous drugs &amp;mdash; including pyridostigmine (Mestinon, Regonol), amantadine, modafinil (Provigil), insulin-like growth factor-I (IGF-I) and alpha-2 recombinant interferon &amp;mdash; have been studied as treatments for post-polio syndrome, but no clear benefit has been found for any of them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having to deal again with an illness you thought was in the past can be discouraging, even overwhelming at times. Recovering from the initial illness required drive and determination on your part, but now the late effects of polio require you to rest and conserve your energy. Moving from one frame of mind to another can be difficult. Here are some suggestions that may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit activities that cause pain or fatigue.&lt;/strong&gt; Moderation is key. Overdoing it on a good day can lead to several subsequent bad days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be smart.&lt;/strong&gt; Conserving your energy through lifestyle modifications and assistive devices doesn&apos;t mean you&apos;re giving in to the illness. It just means you&apos;ve found a smarter way to deal with it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay warm.&lt;/strong&gt; Cold increases muscle fatigue. Keep your home at a comfortable temperature and dress in layers, especially when you go out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid falls.&lt;/strong&gt; Get rid of throw rugs and loose clutter on the floor, wear good shoes, and avoid slippery or icy surfaces.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy lifestyle.&lt;/strong&gt; Eat a balanced diet, stop smoking, and decrease caffeine intake to keep fit, breathe easier and sleep better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your lungs.&lt;/strong&gt; If your breathing is impaired, watch for signs of a developing respiratory infection, which can make breathing problems worse, and have it treated promptly. Also, avoid smoking and stay current with your flu and pneumonia vaccines.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dealing with the fatigue and weakness of post-polio syndrome can be difficult, physically and psychologically. You may need to lean on your friends and family for support. In most cases, they&apos;re probably already looking for ways to help you, and you can help them by telling them how. 
+&lt;/p&gt;
+&lt;p&gt;
+You may even consider joining a support group for people with post-polio syndrome. Sometimes, just talking things over with people who have similar problems enables you to better cope with the challenges at hand. You can contact Post-Polio Health International to find out about support groups in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Post-polio syndrome
+	</Title>
+	<Abstract>
+		Post-polio syndrome &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of the late effects of polio.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

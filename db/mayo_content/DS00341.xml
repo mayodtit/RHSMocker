@@ -1,0 +1,358 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00341
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prostatitis/DS00341
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-18
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2057" Title="Prostate gland">
+						<Keyword MCVID="2392" Title="Prostatitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8754C233-295A-4871-BB6EAE0904F9233A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prostatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				inflamed prostrate
+			</MetaKeyword>
+			<MetaKeyword>
+				bacterial prostatis
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate problems
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate health
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate infection
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic prostatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic pelvic pain
+			</MetaKeyword>
+			<MetaKeyword>
+				digital rectal exam
+			</MetaKeyword>
+			<MetaKeyword>
+				DRE
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic abacterial prostatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				prostatitis treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostatitis is swelling and inflammation of the prostate gland, a walnut-sized gland located directly below the bladder in men. The prostate gland produces fluid (semen) that nourishes and transports sperm. Prostatitis often causes painful or difficult urination. Other symptoms of prostatitis include pain in the groin, pelvic area or genitals, and sometimes, flu-like symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+Prostatitis can be caused by a number of different things. If it&apos;s caused by a bacterial infection, it can usually be treated successfully. However, sometimes prostatitis isn&apos;t caused by a bacterial infection or a cause is never identified.
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the cause, prostatitis may come on gradually or suddenly. It may get better quickly, either on its own or with treatment. Some types of prostatitis last for months or more or keep recurring (chronic prostatitis).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostatitis symptoms vary depending on the cause. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain or burning sensation when urinating (dysuria)&lt;/li&gt;
+	&lt;li&gt;Difficulty urinating, such as dribbling or hesitant urination&lt;/li&gt;
+	&lt;li&gt;Frequent urination, particularly at night (nocturia)&lt;/li&gt;
+	&lt;li&gt;Urgent need to urinate&lt;/li&gt;
+	&lt;li&gt;Pain in the abdomen, groin or lower back&lt;/li&gt;
+	&lt;li&gt;Pain in the area between the scrotum and rectum (perineum)&lt;/li&gt;
+	&lt;li&gt;Pain or discomfort of the penis or testicles&lt;/li&gt;
+	&lt;li&gt;Painful orgasms (ejaculations)&lt;/li&gt;
+	&lt;li&gt;Flu-like symptoms (with bacterial prostatitis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Based on your symptoms and laboratory tests, your doctor may conclude that you have one of the following types of prostatitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute bacterial prostatitis.&lt;/strong&gt; This type of prostatitis may cause flu-like symptoms associated with the sudden onset of infection, such as fever, chills, nausea and vomiting. It can usually be treated with antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic bacterial prostatitis.&lt;/strong&gt; This is bacterial prostatitis that lasts for at least three months due to recurring or difficult-to-treat infections. Urinary tract infections are common with this type of prostatitis. Between bouts of infection, chronic bacterial prostatitis may not cause symptoms or may cause minor symptoms that become severe when infection flares up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic prostatitis not caused by bacteria.&lt;/strong&gt; This condition is often referred to as chronic abacterial prostatitis or chronic pelvic pain syndrome. It lasts for at least three months. Most cases of prostatitis fall into this category. For some men, symptoms remain about the same over time. For others, the symptoms go through cycles of being more and less severe. Symptoms sometimes improve over time without treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostatitis that doesn&apos;t cause symptoms.&lt;/strong&gt; This type of prostatitis is called asymptomatic inflammatory prostatitis, and it doesn&apos;t cause any symptoms that you notice. It&apos;s found only by chance when you&apos;re undergoing tests for other conditions. It doesn&apos;t require treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience pelvic pain, difficult or painful urination, or painful orgasms (ejaculations), see your doctor. If left untreated, some types of prostatitis can cause worsening infection or other health problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute bacterial prostatitis is often caused by common strains of bacteria. The infection may start when bacteria carried in urine leaks into your prostate.
+&lt;/p&gt;
+&lt;p&gt;
+Chronic bacterial prostatitis may be the result of small amounts of bacteria that aren&apos;t eliminated with antibiotics because they &quot;hide&quot; in the prostate. Some men with chronic prostatitis have pain but no evidence of an inflamed prostate.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases of prostatitis, the cause is never identified. Causes other than bacterial infection can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An immune system disorder&lt;/li&gt;
+	&lt;li&gt;A nervous system disorder&lt;/li&gt;
+	&lt;li&gt;Injury to the prostate or prostate area&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of normal prostate gland 
+" Caption="The prostate gland is located just below a man&apos;s bladder and surrounds the top portion of the urethra, the tube that drains urine from the bladder. 
+" Height="60" Title="Normal prostate gland" URI="/images/image_popup/thumbs/ww5ro61t.jpg" Width="60" />
+				<Image Alt="Image of normal prostate gland 
+" Caption="The prostate gland is located just below a man&apos;s bladder and surrounds the top portion of the urethra, the tube that drains urine from the bladder. 
+" Height="470" Title="Normal prostate gland" URI="/images/image_popup/ww5ro61.jpg" Width="400" />
+				<HTML>
+					The prostate gland is located just below a man&apos;s bladder and surrounds the top portion of the urethra, the tube that drains urine from the bladder. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for prostatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being a young or middle-aged man&lt;/li&gt;
+	&lt;li&gt;Having a past episode of prostatitis&lt;/li&gt;
+	&lt;li&gt;Having an infection in the bladder or the tube that transports semen and urine to the penis (urethra)&lt;/li&gt;
+	&lt;li&gt;Having a pelvic trauma, such as injury from bicycling or horseback riding&lt;/li&gt;
+	&lt;li&gt;Not drinking enough fluids (dehydration)&lt;/li&gt;
+	&lt;li&gt;Using a urinary catheter, a tube inserted into the urethra to drain the bladder&lt;/li&gt;
+	&lt;li&gt;Having unprotected sexual intercourse&lt;/li&gt;
+	&lt;li&gt;Having HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Being under psychological stress&lt;/li&gt;
+	&lt;li&gt;Having certain inherited traits &amp;mdash; particular genes may make some men more susceptible to prostatitis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of prostatitis can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bacterial infection of the blood (bacteremia)&lt;/li&gt;
+	&lt;li&gt;Inflammation of the coiled tube attached to the back of the testicle (epididymitis)&lt;/li&gt;
+	&lt;li&gt;Pus-filled cavity in the prostate (prostatic abscess)&lt;/li&gt;
+	&lt;li&gt;Abnormalities in semen and infertility (this can occur with chronic prostatitis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prostatitis, cancer and PSA levels&lt;/strong&gt;&lt;br /&gt;
+Prostatitis can cause elevated levels of prostate-specific antigen (PSA), a protein produced by the prostate. PSA testing is generally used to screen for prostate cancer. Cancerous cells produce more PSA than do noncancerous cells, so higher than normal levels of PSA in the blood may indicate prostate cancer. However, conditions other than prostate cancer, including prostatitis, also can increase PSA levels.
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no direct evidence that prostatitis can lead to prostate cancer.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs or symptoms of prostatitis, you&apos;re likely to start by seeing your family doctor or a general practitioner. Your doctor may refer you to a specialist in urinary tract and sexual disorders (urologist). Because your time with the doctor can be brief, it&apos;s a good idea to prepare ahead of time for your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Write down information to share with your doctor. Your list should include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Symptoms you&apos;re experiencing, including any that may seem unrelated to prostatitis&lt;/li&gt;
+	&lt;li&gt;Key personal information, including any major stresses or recent life changes&lt;/li&gt;
+	&lt;li&gt;Medications that you&apos;re taking, including any vitamins or herbal supplements&lt;/li&gt;
+	&lt;li&gt;Questions to ask your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List questions for your doctor from most important to least important in case time runs out. You may want to ask some of the following questions.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What other conditions could be causing the pain I&apos;m experiencing?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What type of treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there other treatment options?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed materials that I can take home with me? Are there any websites you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions at any time during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or do they come and go?&lt;/li&gt;
+	&lt;li&gt;Were you recently diagnosed with a urinary tract infection?&lt;/li&gt;
+	&lt;li&gt;Have you had frequent urinary tract infections in the past?&lt;/li&gt;
+	&lt;li&gt;Have you had a recent injury to the groin area?&lt;/li&gt;
+	&lt;li&gt;Does anything, such as pain medication, seem to improve your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing prostatitis involves ruling out other conditions that may be causing your symptoms and determining what kind of prostatitis you have. Diagnosis may include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Questions from your doctor.&lt;/strong&gt; Your doctor will want to know about your medical history and your symptoms. You may be asked to fill out a questionnaire that can help your doctor make a diagnosis and see whether treatment is working.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor will examine your abdomen and genitals and will likely preform a digital rectal examination (DRE). During a digital rectal exam, your doctor will gently insert a lubricated, gloved finger into your rectum. Your doctor will be able to feel the surface of the prostate and judge whether it is enlarged, tender or inflamed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood culture.&lt;/strong&gt; This test is used to see whether there are signs of infection in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine and semen test.&lt;/strong&gt; Your doctor may want to examine samples of your urine or semen for signs of infection. In some cases, the doctor may take a series of samples before, during and after massaging your prostate with a lubricated, gloved finger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examination with a viewing scope (cystoscopy).&lt;/strong&gt; Your doctor may use an instrument called a cystoscope to examine the urethra and bladder. A cystoscope is a small tube with a light and magnifying lens or camera that&apos;s inserted through the urethra and into the bladder. This test is used to rule out other conditions that could be causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder tests (urodynamic tests).&lt;/strong&gt; Your doctor may order one or more of these tests, which are used to check how well you can empty your bladder. This can help your doctor understand how much prostatitis is affecting your ability to urinate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prostatitis treatments vary depending on the underlying cause. They can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; This is the most commonly prescribed treatment for prostatitis. Your doctor will base the choice of medication on the type of bacteria that may be causing your infection. If you have severe symptoms, you may need intravenous (IV) antibiotics. You&apos;ll likely need to take oral antibiotics for four to six weeks, but may need longer treatment for chronic or recurring prostatitis. Take all of the prescribed drugs as directed even if you&apos;re feeling better. Otherwise, treatment may not work. Your doctor may have you try one or more antibiotics even if the cause of your prostatitis can&apos;t be identified. If antibiotics don&apos;t help, your prostatitis is most likely caused by something other than a bacterial infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha blockers.&lt;/strong&gt; These medications help relax the bladder neck and the muscle fibers where your prostate joins your bladder. This treatment may lessen symptoms, such as painful urination. Examples include tamsulosin (Flomax), terazosin (Hytrin), alfuzosin (Uroxatral) and doxazosin (Cardura). Common side effects include headaches and a decrease in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Pain medications such as aspirin or ibuprofen (Advil, Motrin, others) may make you more comfortable. You should discuss with your doctor what doses you can safely take. Overusing these medications can cause problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate massage.&lt;/strong&gt; This is done by your physician using a lubricated, gloved finger &amp;mdash; a procedure similar to a digital rectal exam. It may provide some symptom relief, but doctors disagree about how effective it is.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other treatments.&lt;/strong&gt; Other potential treatments for prostatitis are being studied. These treatments include heat therapy with a microwave device and drugs based on certain plant extracts.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following lifestyle changes and home remedies may lessen some symptoms of prostatitis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soak in a warm bath (sitz bath).&lt;/li&gt;
+	&lt;li&gt;Limit or avoid alcohol, caffeine, and spicy or acidic foods.&lt;/li&gt;
+	&lt;li&gt;Sit on a pillow or inflatable cushion to ease pressure on the prostate.&lt;/li&gt;
+	&lt;li&gt;Avoid bicycling, or wear padded shorts and adjust your bicycle to relieve pressure on your prostate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative therapies that show some promise for reducing symptoms of prostatitis include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; This is a method for teaching you to use your thoughts to control your body. A biofeedback specialist uses signals from monitoring equipment to teach you to control certain body functions and responses, including relaxing your muscles. Some small studies have suggested the benefit of this process to manage pain associated with prostatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This type of treatment involves the insertion of very thin needles through your skin, to various depths at certain points on your body. A few small studies have shown that acupuncture may help with prostatitis symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies and supplements.&lt;/strong&gt; There&apos;s no evidence that herbs and supplements improve prostatitis, although many men take them. Some herbal treatments for prostatitis include cernilton (rye grass), quercetin (a chemical found in green tea, onions and other plants) and extract of the saw palmetto plant. Prostate supplements combine minerals and vitamins, particularly zinc, selenium and vitamins E and D. Depending on the formulation, some supplements may be harmful, so talk to your doctor before using them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prostatitis
+	</Title>
+	<Abstract>
+		Prostatitis &amp;mdash; Comprehensive overview covers symptoms, treatment of this condition affecting a man&apos;s prostate gland.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="Answer" DocID="AN00931" LinkType="Internal" ObjectID="85C05350-3479-4D10-8C2CA11CE11EFE0F" Title="Recurrent prostate infection: What are the treatment options?" Url="http://www.mayoclinic.com/health/prostate-infection/AN00931" />
+		<LinkItem ContentType="Answer" DocID="AN01718" LinkType="Internal" ObjectID="04C2C0C5-E7FF-0DBD-1FB6A669908C3FA1" Title="Prostatitis: Can sexual activity make it worse?" Url="http://www.mayoclinic.com/health/prostatitis/AN01718" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+	</RelatedLinksBox>
+</Disease>

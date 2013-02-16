@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00559
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00559
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="2291" Title="Medications" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3B94EFBA-E7FF-0DBD-1341F8348337F8D4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				drug safety
+			</MetaKeyword>
+			<MetaKeyword>
+				medication safety
+			</MetaKeyword>
+			<MetaKeyword>
+				grapefruit
+			</MetaKeyword>
+			<MetaKeyword>
+				grapefruit juice
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Taking meds? Hold the grapefruit juice
+	</Title>
+	<Body>
+		&lt;p&gt;Grapefruit juice can alter the effects of several kinds of drugs, including statins (taken for high cholesterol), some antidepressants and blood pressure medications. The same goes for whole grapefruit and any grapefruit products, as well as pomelos, Seville oranges and products made with these fruits. Don&apos;t take medication with grapefruit products unless your doctor or pharmacist says it&apos;s OK.&lt;/p&gt;
+	</Body>
+</HealthTip>

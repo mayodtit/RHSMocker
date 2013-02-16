@@ -1,0 +1,192 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02075
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/whole-grain-foods/AN02075
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-15
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1F34C088-C0FA-8D35-216AD8B2A7293F30
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				whole grain
+			</MetaKeyword>
+			<MetaKeyword>
+				whole grains
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				grains
+			</MetaKeyword>
+			<MetaKeyword>
+				refined grains
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It might. Eating more whole-grain foods on a regular basis may help reduce your chance of developing high blood pressure (hypertension). 
+&lt;/p&gt;
+&lt;p&gt;
+Whole grains are grains that include the entire grain kernel &amp;mdash; they haven&apos;t had their bran and germ removed by refining. Whole-grain foods are a rich source of healthy nutrients, including fiber, potassium, magnesium and folate. Eating more whole-grain foods offers many health benefits that can work together to help reduce your risk of high blood pressure by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aiding in weight control, since whole-grain foods can make you feel full longer&lt;/li&gt;
+	&lt;li&gt;Increasing your intake of potassium, which is linked to lower blood pressure&lt;/li&gt;
+	&lt;li&gt;Decreasing your risk of insulin resistance&lt;/li&gt;
+	&lt;li&gt;Reducing damage to your blood vessels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you already have high blood pressure, eating more whole-grain foods might help lower your blood pressure and possibly reduce your need for blood pressure medication. 
+&lt;/p&gt;
+&lt;p&gt;
+According to the Dietary Guidelines for Americans, as part of an overall healthy diet, adults should eat at least 85 grams of whole-grain foods a day &amp;mdash; that&apos;s about 3 ounces, or the equivalent of three slices of whole-wheat bread. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Can whole-grain foods lower blood pressure?
+	</Title>
+	<Abstract>
+		Whole-grain foods &amp;mdash; Can they lower blood pressure?
+	</Abstract>
+	<Question>
+		Can eating more whole-grain foods help lower my blood pressure?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00788" LinkType="Internal" ObjectID="D37E3592-E7FF-0DBD-137E686E8DA4F36A" Title="Prehypertension" Url="http://www.mayoclinic.com/health/prehypertension/DS00788" />
+		<LinkItem ContentType="Disease" DocID="DS01114" LinkType="Internal" ObjectID="42823E43-E7FF-0DBD-118600FF8103E891" Title="Secondary hypertension" Url="http://www.mayoclinic.com/health/secondary-hypertension/DS01114" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00143" LinkType="Internal" ObjectID="DF97963B-E7FF-0DBD-11424887D8C55C79" Title="Microalbumin test" Url="http://www.mayoclinic.com/health/microalbumin/MY00143" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="Table" DocID="HI00048" LinkType="Internal" ObjectID="BF9EC580-06B1-40EC-B4FD27D51F856FBB" Title="DASH diet: Guide to recommended servings" Url="http://www.mayoclinic.com/health/dash-diet/HI00048" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01180" LinkType="Internal" ObjectID="8FA1E447-9FAA-8A0D-C4932F5017C91661" Title="Blood pressure test" Url="http://www.mayoclinic.com/health/blood-pressure-test/MY01180" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="Answer" DocID="AN02060" LinkType="Internal" ObjectID="74319CCA-A39A-D5B6-0F4AF737780B30B1" Title="Healthy chocolate: Dream or reality?" Url="http://www.mayoclinic.com/health/healthy-chocolate/AN02060" />
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="Answer" DocID="AN00317" LinkType="Internal" ObjectID="4F93C99A-DDC4-4CC7-882F71F66A0DD4E4" Title="Water softeners: How much sodium do they add?" Url="http://www.mayoclinic.com/health/sodium/AN00317" />
+		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
+		<LinkItem ContentType="Answer" DocID="AN02154" LinkType="Internal" ObjectID="0DB75F75-EC64-9E6B-D5831E36A41606E6" Title="Do infrared saunas have any health benefits?" Url="http://www.mayoclinic.com/health/infrared-sauna/AN02154" />
+		<LinkItem ContentType="Answer" DocID="AN02163" LinkType="Internal" ObjectID="02C4202F-9CA4-40A5-82E7C63FD990CC88" Title="Diuretics and gout: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/diuretics-and-gout/AN02163" />
+		<LinkItem ContentType="Article" DocID="HI00047" LinkType="Internal" ObjectID="FE95D456-5ADE-4E86-8A957584F1FC49A4" Title="DASH diet: Healthy eating to lower your blood pressure" Url="http://www.mayoclinic.com/health/dash-diet/HI00047" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="HI00046" LinkType="Internal" ObjectID="AD93AF8B-6E0E-4BD5-87D575C0F1F79DC8" Title="Sample menus for the DASH eating plan" Url="http://www.mayoclinic.com/health/dash-diet/HI00046" />
+		<LinkItem ContentType="Article" DocID="MY01874" LinkType="Internal" ObjectID="8CFB62FE-E33C-7457-779E0B9DE4B51EC3" Title="Herbal supplements may not mix with heart medicines" Url="http://www.mayoclinic.com/health/herbal-supplements/MY01874" />
+		<LinkItem ContentType="Article" DocID="HI00020" LinkType="Internal" ObjectID="70354217-6336-473A-9009C1A4226569A2" Title="DASH diet: Top 5 tips for shopping and cooking" Url="http://www.mayoclinic.com/health/dash-diet/HI00020" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Article" DocID="HI00021" LinkType="Internal" ObjectID="2CEE92F2-74A2-468C-8DC51ED91D249468" Title="DASH diet: Top 5 tips for dining out" Url="http://www.mayoclinic.com/health/dash-diet/HI00021" />
+		<LinkItem ContentType="Answer" DocID="AN01409" LinkType="Internal" ObjectID="EA3ADB22-E7FF-0DBD-15BFFADA0E76F71B" Title="Beta blockers: Do they cause weight gain?" Url="http://www.mayoclinic.com/health/beta-blockers/AN01409" />
+		<LinkItem ContentType="Answer" DocID="AN01805" LinkType="Internal" ObjectID="E642627E-E7FF-0DBD-127101A5D18D71A5" Title="Blood pressure medications: Can they raise my triglycerides?" Url="http://www.mayoclinic.com/health/blood-pressure-medications/AN01805" />
+		<LinkItem ContentType="Video" DocID="MM00785" LinkType="Internal" ObjectID="E4AF5952-E281-9FDB-A49D030ABA3ADA63" Title="Video: How to measure blood pressure using an automatic monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00785" />
+		<LinkItem ContentType="Video" DocID="MM00784" LinkType="Internal" ObjectID="E4AC6F86-E982-CDFA-7000379CDB6D02C5" Title="Video: How to measure blood pressure using a manual monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00784" />
+		<LinkItem ContentType="Video" DocID="MM00783" LinkType="Internal" ObjectID="E4A91387-DA91-1FD3-6FA25DF674886A49" Title="Video: What is blood pressure?" Url="http://www.mayoclinic.com/health/what-is-blood-pressure/MM00783" />
+		<LinkItem ContentType="Answer" DocID="AN00391" LinkType="Internal" ObjectID="E3340A96-EE3F-459C-ADCF5542FB8031D2" Title="Blood pressure: Does it have a daily pattern?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00391" />
+		<LinkItem ContentType="Answer" DocID="AN01224" LinkType="Internal" ObjectID="E2C8DF16-2A5D-9994-EE1CD5A39AE77278" Title="Beta blockers: How do they affect exercise?" Url="http://www.mayoclinic.com/health/beta-blockers/AN01224" />
+		<LinkItem ContentType="Answer" DocID="AN01523" LinkType="Internal" ObjectID="CED59AD9-E7FF-0DBD-189A34D534017ACC" Title="Resperate: Can it help reduce blood pressure?" Url="http://www.mayoclinic.com/health/resperate/AN01523" />
+		<LinkItem ContentType="Answer" DocID="AN00357" LinkType="Internal" ObjectID="C22A32DF-E88A-4A19-ACF061ACA161F96A" Title="Blood pressure: Can it be higher in one arm?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00357" />
+		<LinkItem ContentType="Answer" DocID="AN01871" LinkType="Internal" ObjectID="B957C014-E7FF-0DBD-15B79F240E5F9EC4" Title="Calcium supplements: Do they interfere with blood pressure drugs?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01871" />
+		<LinkItem ContentType="Answer" DocID="AN01086" LinkType="Internal" ObjectID="9CD2F26A-4D26-4A8F-A56633C979B71EC0" Title="Anxiety: A cause of high blood pressure?" Url="http://www.mayoclinic.com/health/anxiety/AN01086" />
+		<LinkItem ContentType="Table" DocID="HI00043" LinkType="Internal" ObjectID="9A5682D3-EA4F-4B75-9AD9B2FA46746B6C" Title="Blood pressure chart: What your reading means" Url="http://www.mayoclinic.com/health/blood-pressure/HI00043" />
+		<LinkItem ContentType="Answer" DocID="AN01113" LinkType="Internal" ObjectID="99858DDA-4298-4DC2-83B13F42E9CCB7D5" Title="Isolated systolic hypertension: A health concern?" Url="http://www.mayoclinic.com/health/hypertension/AN01113" />
+		<LinkItem ContentType="Answer" DocID="AN00637" LinkType="Internal" ObjectID="7BEA90EA-45BD-4052-B3CA28CDED7CCD0E" Title="Weightlifting: Bad for your blood pressure?" Url="http://www.mayoclinic.com/health/weightlifting/AN00637" />
+		<LinkItem ContentType="Answer" DocID="AN00626" LinkType="Internal" ObjectID="6C95FDF4-3201-4DA8-865B9C4E129DE8D6" Title="Hypertensive crisis: What are the symptoms?" Url="http://www.mayoclinic.com/health/hypertensive-crisis/AN00626" />
+		<LinkItem ContentType="Answer" DocID="AN00792" LinkType="Internal" ObjectID="6488C9E0-4259-425B-975EDA39F3378760" Title="Caffeine: How does it affect blood pressure?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00792" />
+		<LinkItem ContentType="Answer" DocID="AN01786" LinkType="Internal" ObjectID="59D4C6A4-E7FF-0DBD-17D7F3407E1DB63D" Title="Blood pressure: Is it affected by cold weather?" Url="http://www.mayoclinic.com/health/blood-pressure/AN01786" />
+		<LinkItem ContentType="Answer" DocID="AN01463" LinkType="Internal" ObjectID="52A7F294-E7FF-0DBD-188D6FB40F00387D" Title="Menopause and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/menopause-and-high-blood-pressure/AN01463" />
+		<LinkItem ContentType="Answer" DocID="AN00352" LinkType="Internal" ObjectID="4E053CF6-9A01-4F1E-88EF4EFB7844213D" Title="Diuretics: A cause of low potassium?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00352" />
+		<LinkItem ContentType="Answer" DocID="AN01344" LinkType="Internal" ObjectID="48D55B0C-2A5D-9994-E2070E8DBEE5BAC0" Title="Sleep deprivation: A cause of high blood pressure?" Url="http://www.mayoclinic.com/health/sleep-deprivation/AN01344" />
+		<LinkItem ContentType="Answer" DocID="AN01605" LinkType="Internal" ObjectID="482CD8BB-E7FF-0DBD-187477B75BF4D2C3" Title="L-arginine: Does it lower blood pressure?" Url="http://www.mayoclinic.com/health/l-arginine/AN01605" />
+		<LinkItem ContentType="Answer" DocID="AN01927" LinkType="Internal" ObjectID="4749301C-E7FF-0DBD-1C750E4DE8E2856B" Title="High blood pressure and cold remedies: Which are safe?" Url="http://www.mayoclinic.com/health/high-blood-pressure/AN01927" />
+		<LinkItem ContentType="Answer" DocID="AN00925" LinkType="Internal" ObjectID="46A20906-5691-4B4F-BF4B99510FDE9DC7" Title="Blood pressure readings: Why higher at home?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00925" />
+		<LinkItem ContentType="Answer" DocID="AN01926" LinkType="Internal" ObjectID="43031CCA-E7FF-0DBD-1E620A538B1217A7" Title="Blood pressure cuff: Does size matter?" Url="http://www.mayoclinic.com/health/blood-pressure-cuff/AN01926" />
+		<LinkItem ContentType="Answer" DocID="AN01496" LinkType="Internal" ObjectID="30A83E05-E7FF-0DBD-1A10CF3D8AFDC8D3" Title="Blood pressure medication: Still necessary if I lose weight?" Url="http://www.mayoclinic.com/health/blood-pressure-medication/AN01496" />
+		<LinkItem ContentType="Answer" DocID="AN00968" LinkType="Internal" ObjectID="20C60920-4142-4A35-99621C105DDACB6C" Title="Pulse pressure: An indicator of heart health?" Url="http://www.mayoclinic.com/health/pulse-pressure/AN00968" />
+		<LinkItem ContentType="Answer" DocID="AN02014" LinkType="Internal" ObjectID="18414840-0787-01C2-EDA51F2BFC00878C" Title="White-coat hypertension: When blood pressure rises at the doctor&apos;s office" Url="http://www.mayoclinic.com/health/white-coat-hypertension/AN02014" />
+		<LinkItem ContentType="Answer" DocID="AN01839" LinkType="Internal" ObjectID="10D4EF3C-E7FF-0DBD-1FB6834D9B1CB13E" Title="Wrist blood pressure monitors: Are they accurate?" Url="http://www.mayoclinic.com/health/wrist-blood-pressure-monitors/AN01839" />
+		<LinkItem ContentType="Answer" DocID="AN00567" LinkType="Internal" ObjectID="10CD97B6-69B4-4765-AAC24EA41546EB0D" Title="Free blood pressure machines: Are they accurate?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00567" />
+		<LinkItem ContentType="Answer" DocID="AN00318" LinkType="Internal" ObjectID="0D0864BA-4B41-4A21-9E4E20422944FF2E" Title="Alcohol: Does it affect blood pressure?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00318" />
+		<LinkItem ContentType="Disease" DocID="DS00017" LinkType="Internal" ObjectID="FE3FE459-7D1E-405F-95E9339CD2E974B8" Title="Thoracic aortic aneurysm" Url="http://www.mayoclinic.com/health/aortic-aneurysm/DS00017" />
+		<LinkItem ContentType="Disease" DocID="DS01194" LinkType="Internal" ObjectID="A79FE318-0945-8020-C0195BB597B9EC18" Title="Abdominal aortic aneurysm" Url="http://www.mayoclinic.com/health/abdominal-aortic-aneurysm/DS01194" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00582" LinkType="Internal" ObjectID="27C87FA4-C560-4F97-B5B680BD5D09F585" Title="Brain aneurysm" Url="http://www.mayoclinic.com/health/brain-aneurysm/DS00582" />
+		<LinkItem ContentType="Disease" DocID="DS01129" LinkType="Internal" ObjectID="18047987-0FF0-30B7-30826F629576DC5D" Title="Enlarged heart" Url="http://www.mayoclinic.com/health/enlarged-heart/DS01129" />
+		<LinkItem ContentType="Disease" DocID="DS00396" LinkType="Internal" ObjectID="0487CA33-EE6D-4E87-93CB56C658CA5FB5" Title="Hyperparathyroidism" Url="http://www.mayoclinic.com/health/hyperparathyroidism/DS00396" />
+		<LinkItem ContentType="Article" DocID="HI00057" LinkType="Internal" ObjectID="E8A46831-F3A5-4B73-9D4D158B904FA5F7" Title="Vasodilators" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00057" />
+		<LinkItem ContentType="Article" DocID="HI00030" LinkType="Internal" ObjectID="E7492D61-D3D0-4624-9EBDA3A85E08B557" Title="Diuretics" Url="http://www.mayoclinic.com/health/diuretics/HI00030" />
+		<LinkItem ContentType="Article" DocID="HI00016" LinkType="Internal" ObjectID="D84ACA1C-2A12-4A75-900208367D504614" Title="Get the most out of home blood pressure monitoring" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00016" />
+		<LinkItem ContentType="Article" DocID="HI00061" LinkType="Internal" ObjectID="CB1CED06-E45C-41E1-B860780817DE5EEE" Title="Calcium channel blockers" Url="http://www.mayoclinic.com/health/calcium-channel-blockers/HI00061" />
+		<LinkItem ContentType="Article" DocID="HI00060" LinkType="Internal" ObjectID="C0E0B21D-8943-4415-99B10B646B4EE634" Title="Angiotensin-converting enzyme (ACE) inhibitors" Url="http://www.mayoclinic.com/health/ace-inhibitors/HI00060" />
+		<LinkItem ContentType="Article" DocID="HI00027" LinkType="Internal" ObjectID="A4B126D1-26BB-4A5C-8F616E89C237E24A" Title="10 ways to control high blood pressure without medication" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00027" />
+		<LinkItem ContentType="Article" DocID="HI00028" LinkType="Internal" ObjectID="82388918-C8B7-4322-87CE9FCD15FD393F" Title="Choosing blood pressure medications" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00028" />
+		<LinkItem ContentType="Article" DocID="HI00062" LinkType="Internal" ObjectID="6DF4F95D-E7FF-0DBD-1306F218EC685233" Title="High blood pressure dangers: Hypertension&apos;s effects on your body" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00062" />
+		<LinkItem ContentType="Article" DocID="HI00024" LinkType="Internal" ObjectID="45DF4744-A2FE-4E0A-AE71D442093FDC2F" Title="Exercise: A drug-free approach to lowering high blood pressure" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00024" />
+		<LinkItem ContentType="Article" DocID="HI00054" LinkType="Internal" ObjectID="3AF3E6F5-A43E-43DE-9E5E1707B87E8A58" Title="Angiotensin II receptor blockers" Url="http://www.mayoclinic.com/health/angiotensin-II-receptor-blockers/HI00054" />
+		<LinkItem ContentType="Article" DocID="HI00059" LinkType="Internal" ObjectID="1D095753-6FDD-4079-AF6DA015DA2BD68F" Title="Beta blockers" Url="http://www.mayoclinic.com/health/beta-blockers/HI00059" />
+		<LinkItem ContentType="Article" DocID="HI00056" LinkType="Internal" ObjectID="1B1D19FB-94E0-4340-BAA6FA799836AF08" Title="Central-acting agents" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00056" />
+		<LinkItem ContentType="Article" DocID="HI00055" LinkType="Internal" ObjectID="13E80AE3-3DFF-4989-B3A6E6049BE5988D" Title="Alpha blockers" Url="http://www.mayoclinic.com/health/alpha-blockers/HI00055" />
+		<LinkItem ContentType="Article" DocID="HI00091" LinkType="Internal" ObjectID="13476B30-E7FF-0DBD-18FF920E1D5480C7" Title="High blood pressure and sex: Overcome the challenges" Url="http://www.mayoclinic.com/health/high-blood-pressure-and-sex/HI00091" />
+		<LinkItem ContentType="Article" DocID="HI00092" LinkType="Internal" ObjectID="13281AD6-E7FF-0DBD-106BB14106AB2F8C" Title="Stress and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/stress-and-high-blood-pressure/HI00092" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,479 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01089
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mouth-cancer/DS01089
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="1605" Title="Oral and throat">
+						<Keyword MCVID="3338" Title="Mouth cancer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4937" Title="Pfizer Nicotrol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			54D3318C-E7FF-0DBD-172EB9E1A725FDC1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mouth cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				oral cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				tongue cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				lip cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer of the mouth
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mouth cancer refers to cancer that develops in any of the parts that make up the mouth. Mouth cancer can occur on the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lips&lt;/li&gt;
+	&lt;li&gt;Gums&lt;/li&gt;
+	&lt;li&gt;Tongue&lt;/li&gt;
+	&lt;li&gt;Inside lining of the cheeks&lt;/li&gt;
+	&lt;li&gt;Roof of the mouth&lt;/li&gt;
+	&lt;li&gt;Floor of the mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cancer that occurs on the inside of the mouth is sometimes called oral cancer or oral cavity cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Mouth cancer is one of several types of cancer grouped in a category called head and neck cancers. Mouth cancer and other head and neck cancers are often treated similarly. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Lip cancer photo
+" Caption="Lip cancer may appear as a sore on your lip that doesn&apos;t heal. 
+" Height="60" Title="Lip cancer" URI="/images/image_popup/thumbs/c7_lipcancerpicturethu.jpg" Width="60" />
+				<Image Alt="Lip cancer photo
+" Caption="Lip cancer may appear as a sore on your lip that doesn&apos;t heal. 
+" Height="204" Title="Lip cancer" URI="/images/image_popup/c7_lip_cancer_picture.jpg" Width="400" />
+				<HTML>
+					Lip cancer may appear as a sore on your lip that doesn&apos;t heal. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include redness and swelling in your mouth and white patches on the tissue inside your mouth.
+" Height="60" Title="Mouth cancer &amp;mdash; white patches" URI="/images/image_popup/thumbs/c7_mouth_cancer_picturethu.jpg" Width="60" />
+				<Image Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include redness and swelling in your mouth and white patches on the tissue inside your mouth.
+" Height="332" Title="Mouth cancer &amp;mdash; white patches" URI="/images/image_popup/c7_mouth_cancer_picture.jpg" Width="400" />
+				<HTML>
+					Mouth cancer signs may include redness and swelling in your mouth and white patches on the tissue inside your mouth.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include red sores that don&apos;t heal.
+" Height="60" Title="Mouth cancer &amp;mdash; red sore" URI="/images/image_popup/thumbs/c7_mouth_cancer_photothu.jpg" Width="60" />
+				<Image Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include red sores that don&apos;t heal.
+" Height="332" Title="Mouth cancer &amp;mdash; red sore" URI="/images/image_popup/c7_mouth_cancer_photo.jpg" Width="400" />
+				<HTML>
+					Mouth cancer signs may include red sores that don&apos;t heal.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of mouth cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sore that doesn&apos;t heal&lt;/li&gt;
+	&lt;li&gt;A lump or thickening of the skin or lining of your mouth&lt;/li&gt;
+	&lt;li&gt;A white or reddish patch on the inside of your mouth&lt;/li&gt;
+	&lt;li&gt;Loose teeth&lt;/li&gt;
+	&lt;li&gt;Poorly fitting dentures&lt;/li&gt;
+	&lt;li&gt;Tongue pain&lt;/li&gt;
+	&lt;li&gt;Jaw pain or stiffness&lt;/li&gt;
+	&lt;li&gt;Difficult or painful chewing&lt;/li&gt;
+	&lt;li&gt;Difficult or painful swallowing&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Feeling that something is caught in your throat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor or dentist if you have any persistent signs and symptoms that bother you and last more than two weeks. Your doctor will likely investigate other more common causes for your signs and symptoms first, such as an infection. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Lip cancer photo
+" Caption="Lip cancer may appear as a sore on your lip that doesn&apos;t heal. 
+" Height="60" Title="Lip cancer" URI="/images/image_popup/thumbs/c7_lipcancerpicturethu.jpg" Width="60" />
+				<Image Alt="Lip cancer photo
+" Caption="Lip cancer may appear as a sore on your lip that doesn&apos;t heal. 
+" Height="204" Title="Lip cancer" URI="/images/image_popup/c7_lip_cancer_picture.jpg" Width="400" />
+				<HTML>
+					Lip cancer may appear as a sore on your lip that doesn&apos;t heal. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include redness and swelling in your mouth and white patches on the tissue inside your mouth.
+" Height="60" Title="Mouth cancer &amp;mdash; white patches" URI="/images/image_popup/thumbs/c7_mouth_cancer_picturethu.jpg" Width="60" />
+				<Image Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include redness and swelling in your mouth and white patches on the tissue inside your mouth.
+" Height="332" Title="Mouth cancer &amp;mdash; white patches" URI="/images/image_popup/c7_mouth_cancer_picture.jpg" Width="400" />
+				<HTML>
+					Mouth cancer signs may include redness and swelling in your mouth and white patches on the tissue inside your mouth.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include red sores that don&apos;t heal.
+" Height="60" Title="Mouth cancer &amp;mdash; red sore" URI="/images/image_popup/thumbs/c7_mouth_cancer_photothu.jpg" Width="60" />
+				<Image Alt="Mouth cancer photo
+" Caption="Mouth cancer signs may include red sores that don&apos;t heal.
+" Height="332" Title="Mouth cancer &amp;mdash; red sore" URI="/images/image_popup/c7_mouth_cancer_photo.jpg" Width="400" />
+				<HTML>
+					Mouth cancer signs may include red sores that don&apos;t heal.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mouth cancer occurs when cells on your lips or in your mouth develop changes (mutations) in their DNA. These mutations allow cancer cells to grow and divide when healthy cells would die. The accumulating mouth cancer cells can form a tumor. With time they may spread to other areas of the mouth and on to other areas of the head and neck or other parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Mouth cancers most commonly begin in the flat, thin cells (squamous cells) that line your lips and the inside of your mouth. Most oral cancers are squamous cell carcinomas.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not clear what causes the mutations in squamous cells that lead to mouth cancer. But doctors have identified factors that may increase the risk of mouth cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of mouth cancer&lt;/strong&gt;&lt;br /&gt;
+Mouth cancer is a general term that applies to cancers that occur on the lips and throughout the mouth. More-specific terms for these types of cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancer that affects in the inside portion of the cheeks (buccal mucosa cancer)&lt;/li&gt;
+	&lt;li&gt;Floor of mouth cancer&lt;/li&gt;
+	&lt;li&gt;Gum cancer&lt;/li&gt;
+	&lt;li&gt;Lip cancer&lt;/li&gt;
+	&lt;li&gt;Roof of mouth (hard palate) cancer&lt;/li&gt;
+	&lt;li&gt;Salivary gland cancer&lt;/li&gt;
+	&lt;li&gt;Tongue cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of mouth cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tobacco use of any kind, including cigarettes, cigars, pipes, chewing tobacco and snuff, among others&lt;/li&gt;
+	&lt;li&gt;Heavy alcohol use&lt;/li&gt;
+	&lt;li&gt;Excessive sun exposure to your lips&lt;/li&gt;
+	&lt;li&gt;A sexually transmitted virus called human papillomavirus (HPV)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor or dentist if you have signs or symptoms that worry you. If your doctor or dentist feels you may have mouth cancer, you may be referred to a dentist who specializes in diseases of the gums and related tissue in the mouth (periodontist) or to a doctor who specializes in diseases that affect the ears, nose and throat (otolaryngologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For mouth cancer, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you now or have you ever used tobacco?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Have you ever received radiation therapy to your head or neck area?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Avoid doing things that worsen your signs and symptoms. If you have pain in your mouth, avoid spicy foods or hard foods that may cause further irritation. If you&apos;re having trouble eating because of pain, consider drinking nutritional supplement beverages. These can give you the nutrition you need until you can meet with your doctor or your dentist. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose mouth cancer include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor or dentist will examine your lips and mouth to look for abnormalities &amp;mdash; areas of irritation, such as sores and white patches (leukoplakia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removal of tissue for testing.&lt;/strong&gt; If a suspicious area is found, your doctor or dentist may remove a sample of cells for laboratory testing in a procedure called a biopsy. Unusual cells can be scraped away with a brush or cut away using a scalpel. In the laboratory, the cells are analyzed for cancer or precancerous changes that indicate a risk of future cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Mouth cancer stages&lt;/strong&gt;&lt;br /&gt;
+Once mouth cancer is diagnosed, your doctor works to determine the extent, or stage, of your cancer. Mouth cancer staging tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to inspect your throat.&lt;/strong&gt; During a procedure called endoscopy, your doctor may pass a lighted scope down your throat to look for signs that cancer has spread beyond your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; A variety of imaging tests may help determine whether cancer has spread beyond your mouth. Imaging tests may include X-rays, computerized tomography (CT) scans, magnetic resonance imaging (MRI) and positron emission tomography (PET) scans, among others. Not everyone needs each test. Your doctor determines which tests are appropriate based on your condition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Mouth cancer stages are indicated using Roman numerals I through IV. A lower stage, such as stage I, indicates a smaller cancer confined to one area. A higher stage, such as stage IV, indicates a larger tumor or that cancer has spread to other areas of the head or neck, or to other areas of the body. Your cancer&apos;s stage helps your doctor determine your treatment options. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of leukoplakia
+" Caption="Leukoplakia appears as thick, white patches on your gums or on the insides of your cheeks. Although leukoplakia itself isn&apos;t dangerous, it sometimes shows precancerous changes that can lead to mouth cancer.
+" Height="60" Title="Leukoplakia" URI="/images/image_popup/thumbs/de7_leukoplakiathu.jpg" Width="60" />
+				<Image Alt="Photo of leukoplakia
+" Caption="Leukoplakia appears as thick, white patches on your gums or on the insides of your cheeks. Although leukoplakia itself isn&apos;t dangerous, it sometimes shows precancerous changes that can lead to mouth cancer.
+" Height="269" Title="Leukoplakia" URI="/images/image_popup/de7_leukoplakia.jpg" Width="400" />
+				<HTML>
+					Leukoplakia appears as thick, white patches on your gums or on the insides of your cheeks. Although leukoplakia itself isn&apos;t dangerous, it sometimes shows precancerous changes that can lead to mouth ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for mouth cancer depends on your cancer&apos;s location and stage, as well as your overall health and personal preferences. You may have just one type of treatment, or you may undergo a combination of cancer treatments. Discuss your options with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Surgery for mouth cancer may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the tumor.&lt;/strong&gt; Your surgeon may cut away the tumor and a margin of healthy tissue that surrounds it. Smaller cancers may be removed through minor surgery. Larger tumors may require more-extensive procedures. For instance, removing a larger tumor may involve removing a section of your jawbone or a portion of your tongue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove cancer that has spread to the neck.&lt;/strong&gt; If cancer cells have spread to the lymph nodes in your neck, your surgeon may recommend a procedure to remove cancerous lymph nodes and related tissue in the neck (neck dissection).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to reconstruct the mouth.&lt;/strong&gt; After an operation to remove your cancer, your surgeon may recommend reconstructive surgery to restore the appearance of your face or to help you regain the ability to talk and eat. Your surgeon may transplant grafts of skin, muscle or bone from other parts of your body to reconstruct your face. Dental implants may replace your natural teeth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery carries a risk of bleeding and infection. Surgery for mouth cancer often affects your appearance, as well as your ability to speak, eat and swallow. Your doctor may refer you to specialists who can help you cope with these changes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt;&lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays, to kill cancer cells. Radiation therapy can be delivered from a machine outside of your body (external beam radiation) or from radioactive seeds and wires placed near your cancer (brachytherapy). 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy may be the only treatment you receive if you have an early-stage mouth cancer. Radiation therapy can also be used after surgery. In other cases, radiation therapy may be combined with chemotherapy. This combination increases the effectiveness of radiation therapy, but it also increases the side effects you may experience. In cases of advanced mouth cancer, radiation therapy may help relieve signs and symptoms caused by the cancer, such as pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of radiation therapy to your mouth may include dry mouth, tooth decay, mouth sores, bleeding gums, jaw stiffness, fatigue and red, burn-like skin reactions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt;&lt;br /&gt;
+Chemotherapy is a treatment that uses chemicals to kill cancer cells. Chemotherapy drugs can be given alone, in combination with other chemotherapy drugs or in combination with other cancer treatments. Chemotherapy may increase the effectiveness of radiation therapy, so the two are often combined. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of chemotherapy depend on which drugs you receive. Common side effects include nausea, vomiting and hair loss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drug therapy&lt;/strong&gt; &lt;br /&gt;
+Targeted drugs treat mouth cancer by altering specific aspects of cancer cells that fuel their growth. Cetuximab (Erbitux) is one targeted therapy approved for treating head and neck cancers in certain situations. Cetuximab stops the action of a protein that&apos;s found in many types of healthy cells, but is more prevalent in certain types of cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Other targeted drugs are being studied in clinical trials. Targeted drugs can be used in combination with chemotherapy or radiation therapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Quit using tobacco&lt;/strong&gt;&lt;br /&gt;
+Mouth cancers are closely linked to tobacco use, including cigarettes, cigars, pipes, chewing tobacco and snuff, among others. Not everyone who is diagnosed with mouth cancer uses tobacco. But if you do, now is the time to stop because: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tobacco use makes treatment less effective.&lt;/li&gt;
+	&lt;li&gt;Tobacco use makes it harder for your body to heal after surgery.&lt;/li&gt;
+	&lt;li&gt;Tobacco use increases your risk of getting another cancer in the future.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Quitting smoking or chewing can be very difficult. And it&apos;s that much harder when you&apos;re trying to cope with a stressful situation, such as a cancer diagnosis. Your doctor can discuss all of your options, including medications, nicotine replacement products and counseling. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Quit drinking alcohol&lt;/strong&gt;&lt;br /&gt;
+Alcohol, particularly when combined with tobacco use, greatly increases the risk of mouth cancer. If you drink alcohol, stop now. This may help reduce your risk of a second cancer. Stopping drinking may also help you better tolerate your mouth cancer treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No complementary or alternative medicine treatments can cure mouth cancer. But complementary and alternative medicine treatments may help you cope with mouth cancer and the side effects of cancer treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alternative treatments for fatigue&lt;/strong&gt;&lt;br /&gt;
+Many people undergoing radiation therapy for cancer experience fatigue. Your doctor can treat underlying causes of fatigue, but the feeling of being utterly worn out may persist despite treatments. Complementary therapies can help you cope with fatigue. Ask your doctor about trying: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Try gentle exercise for 30 minutes on most days of the week. Moderate exercise, such as brisk walking, during and after cancer treatment reduces fatigue. Talk to your doctor before you begin exercising, to make sure it&apos;s safe for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage therapy.&lt;/strong&gt; During a massage, a massage therapist uses his or her hands to apply pressure to your skin and muscles. Some massage therapists are specially trained to work with people who have cancer. Ask your doctor for names of massage therapists in your community.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation.&lt;/strong&gt; Activities that help you feel relaxed may help you cope. Try listening to music or writing in a journal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As you discuss your mouth cancer treatment options with your doctor, you may feel overwhelmed. It can be a confusing time, as you&apos;re trying to come to terms with your new diagnosis, but also being pressed to make treatment decisions. Cope with this uncertainty by taking control of what you can. For instance, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about mouth cancer to make treatment decisions.&lt;/strong&gt; Make a list of questions to ask at your next appointment. Bring a recorder or a friend to help you take notes. Ask your doctor about books or websites to turn to for information. The more you know about your cancer and your treatment options, the more confident you&apos;ll feel as you make treatment decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to other mouth cancer survivors.&lt;/strong&gt; Connect with people who understand what you&apos;re going through. Ask your doctor about support groups for people with cancer in your community. Or contact your local chapter of the American Cancer Society. Another option is online message boards, such as those run by the Oral Cancer Foundation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Set aside time for yourself each day. Use this time to take your mind off your cancer and do what makes you happy. Even a short break for some relaxation in the middle of a day full of tests and scans may help you cope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep family and friends close.&lt;/strong&gt; Friends and family can provide both emotional and practical support as you go through treatment. Your friends and family will likely ask you what they can do to help. Take them up on their offers. Think ahead to ways you might like help, whether it&apos;s asking a friend to prepare a meal for you or asking a family member to be there when you need someone to talk with.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no proven way to prevent mouth cancer. However, you can reduce your risk of mouth cancer if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop using tobacco or don&apos;t start.&lt;/strong&gt; If you use tobacco, stop. If you don&apos;t use tobacco, don&apos;t start. Using tobacco, whether smoked or chewed, exposes the cells in your mouth to dangerous cancer-causing chemicals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol only in moderation, if at all.&lt;/strong&gt; Chronic excessive alcohol use can irritate the cells in your mouth, making them vulnerable to mouth cancer. If you choose to drink alcohol, limit yourself to one drink a day if you&apos;re a woman or two drinks a day if you&apos;re a man.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a variety of fruits and vegetables.&lt;/strong&gt; Choose a diet rich in fruits and vegetables. The vitamins and antioxidants found in fruits and vegetables may help reduce your risk of mouth cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid excessive sun exposure to your lips.&lt;/strong&gt; Protect the skin on your lips from the sun by staying in the shade when possible. Wear a broad-brimmed hat that effectively shades your entire face, including your mouth. Apply a sunscreen lip product as part of your routine sun protection regimen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;See your dentist regularly.&lt;/strong&gt; As part of a routine dental exam, ask your dentist to inspect your entire mouth for abnormal areas that may indicate mouth cancer or precancerous changes. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mouth cancer
+	</Title>
+	<Abstract>
+		Mouth cancer &amp;mdash; Comprehensive overview covers symptoms and treatment of oral cancers and lip cancers.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00261" LinkType="Internal" ObjectID="5309DECB-E7FF-0DBD-184F285B0CDD719E" Title="Tracheostomy" Url="http://www.mayoclinic.com/health/tracheostomy/MY00261" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Answer" DocID="AN01704" LinkType="Internal" ObjectID="842D1306-E7FF-0DBD-1510AB6D84E0CFDA" Title="Oral cancer screening: What tests are recommended?" Url="http://www.mayoclinic.com/health/oral-cancer/AN01704" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+	</RelatedLinksBox>
+</Disease>

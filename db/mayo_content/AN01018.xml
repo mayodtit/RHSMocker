@@ -1,0 +1,135 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01018
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ovarian-cancer/AN01018
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-23
+		</UpdateDate>
+		<PublicationDate>
+			2005-02-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2386" Title="Ovarian cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D547C3B0-C9D2-4105-92C9183284AA354C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ovarian cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				peritoneal cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes, you still have a risk of ovarian cancer or a type of cancer that acts just like it (primary peritoneal cancer) if you&apos;ve had a hysterectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+Your risk depends on the type of hysterectomy you had: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Partial hysterectomy or total hysterectomy.&lt;/strong&gt; A partial hysterectomy removes your uterus, and a total hysterectomy removes your uterus and your cervix. Both procedures leave your ovaries and fallopian tubes intact, so you can still develop ovarian cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Total hysterectomy with salpingo-oophorectomy.&lt;/strong&gt; This procedure removes your cervix and uterus as well as both ovaries and fallopian tubes. This makes ovarian cancer less likely to occur, but it does not remove all risk. You still have a small risk of what&apos;s called primary peritoneal cancer, which acts just like ovarian cancer and is treated similarly. Peritoneal cancer may result from ovarian cells that migrated to the peritoneal area during each menstrual cycle before your ovaries were removed. These cells can become cancerous later on. Alternatively, since the peritoneum and ovaries arise from the same tissues during embryonic development, it&apos;s possible that cancer could arise from the cells of the peritoneum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A Pap test is a screening test for cervical cancer, but it can&apos;t detect ovarian cancer. Currently, there are no effective screening tests for ovarian cancer. If you&apos;ve had your cervix removed as part of a total hysterectomy, you usually don&apos;t need an annual Pap test. But if your hysterectomy was done because of cancer of the cervix or abnormal cells were previously found on the surface of your cervix (dysplasia), your doctor may recommend continued Pap tests. 
+&lt;/p&gt;
+&lt;p&gt;
+You may still need regular pelvic exams after hysterectomy. Ask your doctor how often you should have a pelvic exam. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of hysterectomy types 
+" Caption="A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ovaries and fallopian tubes (right). 
+" Height="60" Title="Types of hysterectomy surgery" URI="/images/image_popup/thumbs/hdg7_hysterecomytypethu.jpg" Width="60" />
+				<Image Alt="Illustration of hysterectomy types 
+" Caption="A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ovaries and fallopian tubes (right). 
+" Height="389" Title="Types of hysterectomy surgery" URI="/images/image_popup/hdg7_hysterecomytype.jpg" Width="400" />
+				<HTML>
+					A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Ovarian cancer: Still possible after hysterectomy?
+	</Title>
+	<Abstract>
+		Removing your ovaries dramatically reduces your risk of ovarian cancer.
+	</Abstract>
+	<Question>
+		Is ovarian cancer still possible after a hysterectomy? If so, should I continue to have regular Pap tests?
+	</Question>
+	<QuestionFirstName>
+		Mary
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00590" LinkType="Internal" ObjectID="C8FFB9B3-00AC-2863-299CEB1E08E1A0A5" Title="CA 125 test" Url="http://www.mayoclinic.com/health/ca-125-test/MY00590" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00554" LinkType="Internal" ObjectID="3DBBC50B-9EAA-08E9-438DD8EDF1A92A3F" Title="Oophorectomy (ovary removal surgery)" Url="http://www.mayoclinic.com/health/oophorectomy/MY00554" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01000" LinkType="Internal" ObjectID="30194BFB-F5E3-3609-514F36741D3FB1BE" Title="Tubal ligation" Url="http://www.mayoclinic.com/health/tubal-ligation/MY01000" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="WO00095" LinkType="Internal" ObjectID="B61BA82F-1499-4884-B50A819DB83A87CE" Title="Prophylactic oophorectomy: Preventing cancer by surgically removing your ovaries" Url="http://www.mayoclinic.com/health/breast-cancer/WO00095" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Answer" DocID="AN01810" LinkType="Internal" ObjectID="E6445E06-E7FF-0DBD-102B681AB262F6E4" Title="Pap smear: Can it detect ovarian cancer?" Url="http://www.mayoclinic.com/health/ovarian-cancer/AN01810" />
+		<LinkItem ContentType="Answer" DocID="HQ00366" LinkType="Internal" ObjectID="A8C71D2D-D06B-4948-A68238AD2D1FC622" Title="CA 125 test: A screening test for ovarian cancer?" Url="http://www.mayoclinic.com/health/ca-125/HQ00366" />
+		<LinkItem ContentType="Answer" DocID="AN01788" LinkType="Internal" ObjectID="59D6ADA7-E7FF-0DBD-10EEF5466C67A33E" Title="Ovarian cancer vaccine: Can it prevent recurrence?" Url="http://www.mayoclinic.com/health/ovarian-cancer-vaccine/AN01788" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00293" LinkType="Internal" ObjectID="EF55BD38-2667-4900-ACA0A74BD6F570D1" Title="Ovarian cancer" Url="http://www.mayoclinic.com/health/ovarian-cancer/DS00293" />
+	</RelatedLinksBox>
+</Answer>

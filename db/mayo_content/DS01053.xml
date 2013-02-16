@@ -1,0 +1,427 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01053
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/female-infertility/DS01053
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2397" Title="Infertility">
+						<Keyword MCVID="3301" Title="Female infertility" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3F7CBB94-E7FF-0DBD-1FCA62EBB326DDA1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				female infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				ovulation disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				ovulation dysfunction
+			</MetaKeyword>
+			<MetaKeyword>
+				unexplained infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				tubal obstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				ovulation testing
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian drilling
+			</MetaKeyword>
+			<MetaKeyword>
+				fertility drugs
+			</MetaKeyword>
+			<MetaKeyword>
+				clomid
+			</MetaKeyword>
+			<MetaKeyword>
+				clomiphene citrate
+			</MetaKeyword>
+			<MetaKeyword>
+				in vitro fertilization
+			</MetaKeyword>
+			<MetaKeyword>
+				gonadotropin therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				getting pregnant
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Female infertility, male infertility or a combination of the two affects millions of couples in the United States. An estimated 10 to 15 percent of couples are infertile, which means that they&apos;ve been trying to get pregnant for at least a year &amp;mdash; or for at least six months if you&apos;re a woman age 35 or older. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, infertility results from female infertility factors about one-third of the time and male infertility factors about one-third of the time. In the rest, the cause is either unknown or a combination of male and female factors. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of female infertility can be difficult to diagnose, but many treatments are available. Treatment isn&apos;t always necessary: Half of all infertile couples will go on to conceive a child spontaneously within the next 24 months. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main symptom of infertility is the inability of a couple to get pregnant. An abnormal menstrual cycle that&apos;s too long (35 days or more) or too short (less than 21 days) can be a sign of female infertility. There may be no other outward signs or symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re in your early 30s or younger, most doctors recommend trying to get pregnant for at least a year before having any testing or treatment.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re age 35 to 40, discuss your concerns with your doctor after six months of trying.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re over 40 or have a history of irregular or painful periods, pelvic inflammatory disease (PID), repeated miscarriages, prior cancer treatment or endometriosis, your doctor may want to begin testing or treatment right away.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In order for you to become pregnant, each of these factors is essential: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You need to ovulate.&lt;/strong&gt; Achieving pregnancy requires that you&apos;re having regular menstrual cycles during which an egg is released, a process known as ovulation. Your doctor can help evaluate your menstrual cycles and confirm ovulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your partner needs sperm.&lt;/strong&gt; For most couples, this isn&apos;t a problem unless your partner has a history of illness or surgery. Your doctor can run some simple tests to evaluate the health of your partner&apos;s sperm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You need to have regular intercourse.&lt;/strong&gt; You need to have regular sexual intercourse during your fertile time. Your doctor may be able to help you better understand when you&apos;re most fertile during your cycle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For pregnancy to occur, every part of the complex human reproduction process &amp;mdash; from the ovary&apos;s release of a mature egg to the fertilization of the egg to the fertilized egg&apos;s implantation and growth in the uterus &amp;mdash; has to take place just right. In women, a number of factors can disrupt this process at any stage. Female infertility is caused by one or more of these factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ovulation disorders&lt;/strong&gt;&lt;br /&gt;
+Ovulation disorders account for infertility in 25 percent of infertile couples. These can be caused by flaws in the regulation of reproductive hormones by the hypothalamus or the pituitary gland, or by problems in the ovary itself. You have an ovulation disorder if you ovulate infrequently or not at all. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal FSH and LH secretion.&lt;/strong&gt; The two hormones responsible for stimulating ovulation each month &amp;mdash; follicle-stimulating hormone (FSH) and luteinizing hormone (LH) &amp;mdash; are produced by the pituitary gland in a specific pattern during the menstrual cycle. Excess physical or emotional stress, a very high or very low body weight, or a recent substantial weight gain or loss &amp;mdash; for instance, 10 percent of your body weight &amp;mdash; can disrupt this pattern and affect ovulation. The main sign of this problem is irregular or absent periods. Much less commonly, specific diseases of the pituitary, usually associated with other hormone deficiencies or with excess production of prolactin, may be the cause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polycystic ovary syndrome (PCOS).&lt;/strong&gt; In PCOS, complex changes occur in the hypothalamus, pituitary and ovary, resulting in overproduction of male hormones (androgens), which affects ovulation. PCOS can also be associated with insulin resistance and obesity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Luteal phase defect.&lt;/strong&gt; Luteal phase defect happens when your ovary doesn&apos;t produce enough of the hormone progesterone after ovulation. Progesterone is vital in preparing the uterine lining for a fertilized egg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature ovarian failure.&lt;/strong&gt; This disorder is usually caused by an autoimmune response, where your body mistakenly attacks ovarian tissues. It results in the loss of the eggs in the ovary, as well as in decreased estrogen production.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Damage to fallopian tubes (tubal infertility)&lt;/strong&gt;&lt;br /&gt;
+When fallopian tubes become damaged or blocked, they keep sperm from getting to the egg or close off the passage of the fertilized egg into the uterus. Causes of fallopian tube damage or blockage can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation of the fallopian tubes (salpingitis) due to chlamydia or gonorrhea&lt;/li&gt;
+	&lt;li&gt;Previous ectopic pregnancy, in which a fertilized egg becomes implanted and starts to develop in a fallopian tube instead of in the uterus&lt;/li&gt;
+	&lt;li&gt;Previous surgery in the abdomen or pelvis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Endometriosis&lt;/strong&gt;&lt;br /&gt;
+Endometriosis occurs when tissue that normally grows in the uterus implants and grows in other locations. This extra tissue growth &amp;mdash; and the surgical removal of it &amp;mdash; can cause scarring, which impairs fertility. Researchers think that the excess tissue may also produce substances that interfere with conception. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cervical narrowing or blockage&lt;/strong&gt;&lt;br /&gt;
+Also called cervical stenosis, this can be caused by an inherited malformation or damage to the cervix. The result is that the cervix can&apos;t produce the best type of mucus for sperm mobility and fertilization. In addition, the cervical opening may be closed, preventing any sperm from reaching the egg. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Uterine causes&lt;/strong&gt;&lt;br /&gt;
+Benign polyps or tumors (fibroids or myomas) in the uterus, common in women in their 30s, can impair fertility by blocking the fallopian tubes or by disrupting implantation. However, many women who have fibroids can become pregnant. Scarring within the uterus also can disrupt implantation, and some women born with uterine abnormalities, such as an abnormally shaped (bicornuate) uterus, can have problems becoming or remaining pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Unexplained infertility&lt;/strong&gt;&lt;br /&gt;
+In some instances, a cause for infertility is never found. It&apos;s possible that combinations of minor factors in both partners underlie these unexplained fertility problems. The good news is that couples with unexplained infertility have the highest rates of spontaneous pregnancy of all infertile couples. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of egg being fertilized
+" Caption="During each menstrual cycle, an egg is released by one of the ovaries (ovulation). The egg travels into the fallopian tube. If fertilization is to occur, sperm ejaculated into the vagina must swim up the uterus and into the fallopian tube where one sperm penetrates the egg. The fertilized egg then travels into the uterus, where it embeds itself in the lining of the uterus (endometrium).
+" Height="60" Title="Fertilization" URI="/images/image_popup/thumbs/mcdc7_fertilizationthu.jpg" Width="60" />
+				<Image Alt="Illustration of egg being fertilized
+" Caption="During each menstrual cycle, an egg is released by one of the ovaries (ovulation). The egg travels into the fallopian tube. If fertilization is to occur, sperm ejaculated into the vagina must swim up the uterus and into the fallopian tube where one sperm penetrates the egg. The fertilized egg then travels into the uterus, where it embeds itself in the lining of the uterus (endometrium).
+" Height="321" Title="Fertilization" URI="/images/image_popup/mcdc7_fertilization.jpg" Width="400" />
+				<HTML>
+					During each menstrual cycle, an egg is released by one of the ovaries (ovulation). The egg travels into the fallopian tube. If fertilization is to occur, sperm ejaculated into the vagina must swim up ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some things may put you at higher risk of infertility. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; After age 32, the quantity and the quality of a woman&apos;s eggs begin to decline. In your mid-30s, the rate of follicle loss accelerates, resulting in fewer and poorer quality eggs, making conception more challenging. Women over 35 are also at a higher risk of miscarriage and having babies with chromosomal abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Besides damaging your cervix and fallopian tubes, smoking increases your risk of miscarriage and ectopic pregnancy. It&apos;s also thought to age your ovaries and deplete your eggs prematurely, reducing your ability to get pregnant. Many fertility specialists recommend setting a date to quit smoking before beginning fertility treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight.&lt;/strong&gt; If you&apos;re overweight or significantly underweight, it may inhibit normal ovulation. Getting to a healthy body mass index (BMI) has been shown to increase the frequency of ovulation and likelihood of pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual history.&lt;/strong&gt; Sexually transmitted diseases like chlamydia and gonorrhea can cause fallopian tube damage. Having unprotected intercourse with multiple partners increases your chances of contracting a sexually transmitted disease (STD) that may cause fertility problems later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol.&lt;/strong&gt; Heavy drinking is associated with an increased risk of ovulation disorders and endometriosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Caffeine.&lt;/strong&gt; Consuming more than the equivalent of six cups of coffee a day (900 milligrams of caffeine) may decrease your fertility.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For an infertility evaluation, you&apos;ll most likely see a reproductive endocrinologist &amp;mdash; a doctor who specializes in treating disorders that prevent couples from conceiving. Because infertility is a condition that involves both you and your partner, your doctor will likely want to evaluate both of you to identify potential causes &amp;mdash; and possible treatments &amp;mdash; for your infertility.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chart your menstrual cycles and associated symptoms for a few months.&lt;/strong&gt; On a calendar or in a notebook, write down when your period starts and stops. Make note of days when you and your partner have intercourse. This will provide helpful information to your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications, vitamins and other supplements you take.&lt;/strong&gt; Write down doses and how often you take them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook or notepad with you.&lt;/strong&gt; You may be given a lot of information at your visit, and it can be difficult to remember everything. Write down important information during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Think about what questions you&apos;ll ask.&lt;/strong&gt; Write them down; list the most important questions first, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When and how often should we have intercourse, if we hope to conceive?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that I undergo any testing? What about my partner?&lt;/li&gt;
+	&lt;li&gt;Are there any lifestyle changes I can make to improve my chances of getting pregnant?&lt;/li&gt;
+	&lt;li&gt;Are medications available that might improve my ability to conceive?&lt;/li&gt;
+	&lt;li&gt;What side effects can I expect from medication use?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend in our situation?&lt;/li&gt;
+	&lt;li&gt;What exactly might we expect from this process? For instance, how many cycles will we try one approach before moving on to another?&lt;/li&gt;
+	&lt;li&gt;What&apos;s your success rate for assisting couples in achieving pregnancy?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed materials that I can take with me?&lt;/li&gt;
+	&lt;li&gt;What Web sites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make sure that you understand everything that your doctor tells you. Don&apos;t hesitate to ask your doctor to repeat information or to ask follow-up questions for clarification.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Some potential questions your doctor or other health care provider might ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been trying to become pregnant?&lt;/li&gt;
+	&lt;li&gt;How often do you have intercourse?&lt;/li&gt;
+	&lt;li&gt;Have you ever been pregnant? If so, what was the outcome of that pregnancy?&lt;/li&gt;
+	&lt;li&gt;Have you had any pelvic or abdominal surgeries?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for any gynecological conditions?&lt;/li&gt;
+	&lt;li&gt;Were you exposed to diethylstibestrol (DES) in utero?&lt;/li&gt;
+	&lt;li&gt;At what age did you first start having periods?&lt;/li&gt;
+	&lt;li&gt;On average, how many days pass between the beginning of one menstrual cycle and the beginning of your next menstrual cycle?&lt;/li&gt;
+	&lt;li&gt;Do you experience premenstrual symptoms, such as breast tenderness, abdominal bloating or cramping?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been unable to conceive within a reasonable period of time, seek help from your doctor for further evaluation and treatment of infertility.
+&lt;/p&gt;
+&lt;p&gt;
+Fertility tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ovulation testing.&lt;/strong&gt; A blood test for progesterone, a hormone produced after ovulation, can document that you are ovulating. You can also check for this at home. An over-the-counter ovulation prediction kit &amp;mdash; a test which you can perform at home &amp;mdash; detects the surge in luteinizing hormone (LH) that occurs prior to ovulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hysterosalpingography.&lt;/strong&gt; This test evaluates the size and contour of your uterine cavity and checks whether your fallopian tubes are open. Fluid is injected into your uterus, and an X-ray is taken to determine if the uterine cavity is normal and whether the fluid passes out of the uterus and into your fallopian tubes. If abnormalities are found, you&apos;ll likely need further evaluation. In a few women, the test itself can improve fertility, possibly by flushing out and opening the fallopian tubes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopy.&lt;/strong&gt; Typically done on an outpatient basis and under general anesthesia, laparoscopy allows your doctor to view your ovaries, fallopian tubes and uterus to check for endometriosis, scarring, blockages or irregularities. First, your doctor makes a small incision (8 to 10 millimeters) beneath your navel, and inserts a needle into your abdominal cavity. A small amount of gas (usually carbon dioxide) is inserted into the abdomen to create space for entry of the laparoscope &amp;mdash; an illuminated, fiber-optic telescope. If you give consent before the procedure, your doctor can remove endometrial adhesions, treat scarring or remedy other problems with cutting instruments, lasers or ablation during the same procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ovarian reserve testing.&lt;/strong&gt; Women at risk of a depleted egg supply &amp;mdash; including women over age 35, those with autoimmune disease and smokers &amp;mdash; may have this series of blood and imaging tests, which are performed on specific days of the menstrual cycle. They include blood tests of follicle-stimulating hormone (FSH) concentration on day three of your cycle; clomiphene citrate challenge test (CCCT), in which you receive five doses of the ovary-stimulating drug clomiphene citrate preceded and followed by a blood test to assess your estrogen level; ultrasound imaging of the ovaries to determine ovarian volume or follicle count; and blood tests to detect other markers of ovarian reserve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone testing.&lt;/strong&gt; Testing for specific hormones, such as FSH and prolactin, can determine whether an undiagnosed medical condition might be interfering with your fertility.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How your infertility is treated depends on the cause, your age, how long you&apos;ve been infertile and personal preferences. Although some women need just one or two therapies to restore fertility, it&apos;s possible that several different types of treatment may be needed before you&apos;re able to conceive.
+&lt;/p&gt;
+&lt;p&gt;
+Treatments can either attempt to restore fertility &amp;mdash; by means of medication or surgery &amp;mdash; or assist in reproduction with sophisticated techniques.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fertility restoration: Stimulating ovulation with fertility drugs&lt;/strong&gt;&lt;br /&gt;
+Fertility drugs, which regulate or induce ovulation, are the main treatment for women who are infertile due to ovulation disorders. In general, they work like the natural hormones &amp;mdash; follicle-stimulating hormone (FSH) and luteinizing hormone (LH) &amp;mdash; to trigger ovulation.
+&lt;/p&gt;
+&lt;p&gt;
+Using fertility drugs carries some risks:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Becoming pregnant with twins or other multiples.&lt;/strong&gt; Oral medications carry a fairly low risk of multiples (less than 10 percent), but your chances increase to about 15 to 20 percent with injectable medications. Generally, the more fetuses you&apos;re carrying, the greater the risk of premature labor, low birth weight and later developmental problems. Sometimes the amount or timing of the medications will be altered in an attempt to lower the risk of multiples. Treatment cycles may be canceled if your doctor detects the development of too many follicles, which could result in ovulation of more than one egg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Developing enlarged ovaries.&lt;/strong&gt; Ovarian hyperstimulation syndrome (OHSS) is a condition that can result from the use of fertility drugs. In response to the medication, your ovaries become overstimulated. Besides developing enlarged ovaries, you might experience abdominal pain and distention, gastrointestinal problems and shortness of breath. Signs and symptoms can develop while you&apos;re undergoing ovulation induction or during the early stages of pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There are several fertility drugs for abnormal LH and FSH production. These drugs include:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clomiphene citrate (Clomid, Serophene).&lt;/strong&gt; This drug is taken orally and stimulates ovulation in women who have PCOS or other ovulation disorders. It causes the pituitary gland to release more FSH and LH, which stimulate the growth of an ovarian follicle containing an egg. Clomiphene citrate also improves fertility in normally ovulating women, and is often used as an initial treatment for unexplained infertility.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Gonadotropins.&lt;/strong&gt; Instead of stimulating the pituitary gland to release more hormones, these treatments stimulate the ovary directly. Often, gonadotropin medications are used in combination with intrauterine insemination (IUI) &amp;mdash; a procedure during which sperm is injected into your uterus via a thin tube (catheter) &amp;mdash; to increase the odds of a pregnancy. Gonadotropin medications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Human menopausal gonadotropin, or hMG, (Repronex, Menopur).&lt;/strong&gt; This injected medication is for women who don&apos;t ovulate on their own due to the failure of the pituitary gland to stimulate ovulation. HMG contains both FSH and LH, and directly stimulates the ovaries to ovulate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follicle-stimulating hormone, or FSH, (Gonal-F, Follistim, Bravelle).&lt;/strong&gt; FSH works by stimulating the ovaries to produce mature egg follicles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Human chorionic gonadotropin, or HCG, (Ovidrel, Pregnyl).&lt;/strong&gt; Used in combination with clomiphene, hMG or FSH, this drug stimulates the follicle to release its egg (ovulate).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Metformin (Glucophage).&lt;/strong&gt; This oral drug is used when insulin resistance is a known or suspected cause of infertility, usually in women with a diagnosis of PCOS. Metformin improves insulin resistance, normalizing the insulin level and making ovulation more likely to occur.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Letrozole (Femara).&lt;/strong&gt; Letrozole belongs to a class of drugs known as aromatase inhibitors. Letrozole, also used to treat some breast cancers, may induce ovulation. However, the effect the medication has on early pregnancy isn&apos;t yet known, so this medication isn&apos;t used for ovulation induction as frequently as others.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fertility restoration: Surgery&lt;/strong&gt;&lt;br /&gt;
+Several surgical procedures can correct problems or otherwise improve female fertility. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue removal.&lt;/strong&gt; This surgery removes endometrial tissue or pelvic adhesions with lasers or ablation, which can improve your chances of achieving pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tubal reversal surgery (microscopic).&lt;/strong&gt; After a woman has had her tubes tied for permanent contraception (tubal ligation), surgery may be done to reconnect them and restore fertility. Your doctor will determine whether you&apos;re a good candidate for the surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tubal surgeries.&lt;/strong&gt; If your fallopian tubes are blocked or filled with fluid (called hydrosalpinx), tubal surgery may improve your chances of becoming pregnant. Laparoscopic surgery is performed to remove adhesions, dilate a tube or create a new tubal opening. Tubal surgery is more successful when the blocked or narrowed part of the tube is closer to the ovary than to the uterus. Tubal blockage close to your uterus may increase your risk of ectopic pregnancy. In these and other severe cases of blockage or hydrosalpinx, removal of your tubes (salpingectomy) can improve your chances of pregnancy with in vitro fertilization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Reproductive assistance: In vitro fertilization&lt;/strong&gt;&lt;br /&gt;
+This effective technique involves retrieving mature eggs from a woman, fertilizing them with a man&apos;s sperm in a dish in a laboratory and transferring the embryos in the uterus three to five days after fertilization. In vitro fertilization (IVF) often is recommended when both fallopian tubes are blocked. It&apos;s also widely used for a number of other conditions, such as endometriosis, unexplained infertility, cervical factor infertility, male infertility and ovulation disorders. IVF increases your odds of having twins or other multiples if more than one embryo is transferred to your uterus. IVF requires frequent blood tests and daily hormone injections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dealing with female infertility can be physically and emotionally exhausting. To cope with the ups and downs of infertility testing and treatment, consider these options:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared.&lt;/strong&gt; The uncertainty of infertility testing and treatments can be difficult and stressful. Ask your doctor to explain the steps he or she is planning to take so that you can prepare yourself for each one. Understanding the process and what your next steps will be may reduce your anxiety somewhat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support.&lt;/strong&gt; Although infertility can be a deeply personal issue, reach out to your partner, close family members or friends for support. Many online support groups allow you to maintain your anonymity while you discuss issues related to infertility. Don&apos;t hesitate to seek professional help if the emotional burden gets too heavy for you or your partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise and eat a healthy diet.&lt;/strong&gt; Keeping up your moderate exercise routine and a healthy diet can improve your outlook and keep you focused on living your life despite fertility problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider other options.&lt;/strong&gt; Determine alternatives &amp;mdash; adoption, donor sperm or egg, or even having no children &amp;mdash; as early as possible in the infertility treatment process. This can reduce anxiety during treatments and disappointment if conception doesn&apos;t occur.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re a woman thinking about getting pregnant soon or in the future, there are a few ways you can improve your chances of having normal fertility:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a normal weight.&lt;/strong&gt; Overweight and underweight women are at increased risk of ovulation disorders. If you need to lose weight, exercise moderately. Strenuous, intense exercise of more than seven hours a week has been associated with decreased ovulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; Tobacco has multiple negative effects on fertility, not to mention your general health and the health of a fetus. If you smoke and are considering pregnancy, quit now.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol.&lt;/strong&gt; Heavy alcohol use &amp;mdash; eight or more drinks a week &amp;mdash; may lead to decreased fertility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; Some studies have shown that couples experiencing psychological stress had poorer results with infertility treatment. If you can, find a way to reduce stress in your life before trying to become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit caffeine.&lt;/strong&gt; Cut your caffeine intake to less than six cups of coffee each day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Female infertility
+	</Title>
+	<Abstract>
+		Female infertility &amp;mdash; Comprehensive overview covers causes, diagnosis and treatment of women&apos;s fertility problems.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01225" LinkType="Internal" ObjectID="E31C17D6-2A5D-9994-E46D34BCA0A2A4DD" Title="Semen allergy: A cause of infertility?" Url="http://www.mayoclinic.com/health/semen-allergy/AN01225" />
+		<LinkItem ContentType="Answer" DocID="AN02135" LinkType="Internal" ObjectID="BD376788-A273-5799-13B6D5C26049D51E" Title="Secondary infertility: Why does it happen?" Url="http://www.mayoclinic.com/health/secondary-infertility/AN02135" />
+		<LinkItem ContentType="Answer" DocID="AN01797" LinkType="Internal" ObjectID="5B32143F-E7FF-0DBD-102E61918CA2F393" Title="Fertility herbs: Do they enhance fertility?" Url="http://www.mayoclinic.com/health/fertility-herbs/AN01797" />
+		<LinkItem ContentType="Video" DocID="MM00808" LinkType="Internal" ObjectID="E7152624-FB9D-533A-89040CE10043F686" Title="Video: HSG test for female infertility" Url="http://www.mayoclinic.com/health/hsg-test/MM00808" />
+		<LinkItem ContentType="Video" DocID="MM00807" LinkType="Internal" ObjectID="E711535B-DE8A-B15E-A0233CCEE43B209D" Title="Video: Causes of endometriosis" Url="http://www.mayoclinic.com/health/cause-of-endometriosis/MM00807" />
+		<LinkItem ContentType="Answer" DocID="AN01521" LinkType="Internal" ObjectID="CED4BA6D-E7FF-0DBD-132A9EA646306039" Title="Ovulation signs: When is conception most likely?" Url="http://www.mayoclinic.com/health/ovulation-signs/AN01521" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02078" LinkType="Internal" ObjectID="BD384E2A-A8A1-F09E-8B994003A6EB84F7" Title="Sperm donation" Url="http://www.mayoclinic.com/health/sperm-donation/MY02078" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00104" LinkType="Internal" ObjectID="BC50D0DD-E7FF-0DBD-107893C2F894FAD6" Title="Intrauterine insemination (IUI)" Url="http://www.mayoclinic.com/health/intrauterine-insemination/MY00104" />
+		<LinkItem ContentType="Video" DocID="MM00108" LinkType="Internal" ObjectID="A0F8DEFB-36F1-4F79-B4FA68DFC12AAE0A" Title="Video: Ovulation" Url="http://www.mayoclinic.com/health/ovulation/MM00108" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01648" LinkType="Internal" ObjectID="52C2A4CD-D51A-5516-57462451EECCE9F1" Title="In vitro fertilization (IVF)" Url="http://www.mayoclinic.com/health/in-vitro-fertilization/MY01648" />
+		<LinkItem ContentType="Answer" DocID="AN00461" LinkType="Internal" ObjectID="20334091-273F-4DC3-B43F5BF51DC6EEBF" Title="Tilted uterus: Can it lead to infertility?" Url="http://www.mayoclinic.com/health/tilted-uterus/AN00461" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Article" DocID="MY01095" LinkType="Internal" ObjectID="6EF8A458-F51A-E3CA-9A9E04708EB3BAAE" Title="Female fertility: Why lifestyle choices count" Url="http://www.mayoclinic.com/health/female-fertility/MY01095" />
+		<LinkItem ContentType="Answer" DocID="AN01436" LinkType="Internal" ObjectID="CC205413-E7FF-0DBD-10675C5AABA84691" Title="Hypothyroidism and infertility: Any connection?" Url="http://www.mayoclinic.com/health/hypothyroidism-and-infertility/AN01436" />
+		<LinkItem ContentType="Answer" DocID="AN00088" LinkType="Internal" ObjectID="5CA98195-0269-4FE6-A8255211F3F2634B" Title="Fallopian tubes: Is pregnancy possible with only one?" Url="http://www.mayoclinic.com/health/pregnancy/AN00088" />
+		<LinkItem ContentType="Answer" DocID="AN01895" LinkType="Internal" ObjectID="550F1AFB-E7FF-0DBD-1A036BDCE80AC1C4" Title="Tilted cervix: Can it hinder pregnancy?" Url="http://www.mayoclinic.com/health/tilted-cervix/AN01895" />
+		<LinkItem ContentType="Disease" DocID="DS00402" LinkType="Internal" ObjectID="FBA965E8-A8A8-4135-B6C0D91B152E2CF5" Title="Pelvic inflammatory disease (PID)" Url="http://www.mayoclinic.com/health/pelvic-inflammatory-disease/DS00402" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00289" LinkType="Internal" ObjectID="BCA261E0-0FFD-4933-87C852CF94968FE2" Title="Endometriosis" Url="http://www.mayoclinic.com/health/endometriosis/DS00289" />
+		<LinkItem ContentType="Disease" DocID="DS01097" LinkType="Internal" ObjectID="BC626C4F-E7FF-0DBD-12F8D36E0990C7B4" Title="Ovarian hyperstimulation syndrome" Url="http://www.mayoclinic.com/health/ovarian-hyperstimulation-syndrome-ohss/DS01097" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+		<LinkItem ContentType="Disease" DocID="DS00843" LinkType="Internal" ObjectID="7E5EDB50-E7FF-0DBD-1BBE6D8C25526BBF" Title="Premature ovarian failure" Url="http://www.mayoclinic.com/health/premature-ovarian-failure/DS00843" />
+		<LinkItem ContentType="Disease" DocID="DS00423" LinkType="Internal" ObjectID="6AF557AF-44E0-4DDD-A998ADE4B75EAB04" Title="Polycystic ovary syndrome" Url="http://www.mayoclinic.com/health/polycystic-ovary-syndrome/DS00423" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+		<LinkItem ContentType="Disease" DocID="DS00183" LinkType="Internal" ObjectID="23246C2F-131D-4391-BB2A6B3E819A126F" Title="Drug addiction" Url="http://www.mayoclinic.com/health/drug-addiction/DS00183" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Disease>

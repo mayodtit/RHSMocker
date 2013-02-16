@@ -1,0 +1,120 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01893
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sjogrens-syndrome/AN01893
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="1739" Title="Sjogren&apos;s syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			550C6B13-E7FF-0DBD-1DCC4916371AD47C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Sjogren&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogrens syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogren&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Sjogrens
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary tract infection
+			</MetaKeyword>
+			<MetaKeyword>
+				UTI
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary tract infections
+			</MetaKeyword>
+			<MetaKeyword>
+				UTIs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+No, but Sjogren&apos;s syndrome can cause symptoms that you might mistake for a urinary tract infection (UTI). Sjogren&apos;s syndrome is an autoimmune disorder in which the moisture-secreting glands of the eyes and mouth became inflamed, producing fewer tears and less saliva. 
+&lt;/p&gt;
+&lt;p&gt;
+For women, Sjogren&apos;s syndrome can also cause vaginal dryness &amp;mdash; which may result in discomfort during sexual intercourse and an increase in the risk of bacterial and fungal vaginal infections. Painful urination, a common symptom of UTIs, also can occur with vaginal infections. 
+&lt;/p&gt;
+&lt;p&gt;
+Some women who have Sjogren&apos;s syndrome develop a condition called painful bladder syndrome, also known as interstitial cystitis. This condition causes symptoms similar to those of a urinary tract infection &amp;mdash; urinary frequency, urgency and pain &amp;mdash; without evidence of infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sjogren&apos;s syndrome: Can it cause recurrent UTIs?
+	</Title>
+	<Abstract>
+		Sjogren&apos;s syndrome isn&apos;t thought to cause UTIs, but it may cause other urinary conditions.
+	</Abstract>
+	<Question>
+		Since being diagnosed with Sjogren&apos;s syndrome last year, I&apos;ve had three urinary tract infections. Is there any evidence that Sjogren&apos;s syndrome causes recurrent UTIs?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02129" LinkType="Internal" ObjectID="8D468FE6-D13B-E63D-C5EF8EF1CC09D7AD" Title="Artificial tears: How to select eyedrops for dry eyes" Url="http://www.mayoclinic.com/health/artificial-tears/AN02129" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00241" LinkType="Internal" ObjectID="0FE6B583-E7FF-0DBD-1D56AFCEBFEF2184" Title="Rheumatoid factor" Url="http://www.mayoclinic.com/health/rheumatoid-factor/MY00241" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="HA00034" LinkType="Internal" ObjectID="50B3D1EF-C44D-46A3-A5E06F9AC4F2A836" Title="Dry mouth" Url="http://www.mayoclinic.com/health/dry-mouth/HA00034" />
+		<LinkItem ContentType="Disease" DocID="DS00147" LinkType="Internal" ObjectID="E8B8FBC8-126F-4619-965AAAF992FB4DA5" Title="Sjogren&apos;s syndrome" Url="http://www.mayoclinic.com/health/sjogrens-syndrome/DS00147" />
+	</RelatedLinksBox>
+</Answer>

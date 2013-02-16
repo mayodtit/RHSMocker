@@ -1,0 +1,122 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01803
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/herbal-treatment-for-anxiety/AN01803
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1558" Title="Generalized anxiety disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E6418B1D-E7FF-0DBD-13AE3B0933802B16
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				herbal treatment for anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety herbs
+			</MetaKeyword>
+			<MetaKeyword>
+				herbs for anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Several herbal remedies have been studied as a treatment for anxiety, including kava, passionflower and valerian, but more research is needed to understand the risks and benefits. Here&apos;s what we know &amp;mdash; and don&apos;t know: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kava.&lt;/strong&gt; Kava appeared to be a promising treatment for anxiety, but reports of serious liver damage &amp;mdash; even with short-term use &amp;mdash; caused several European countries to pull it off the market. The Food and Drug Administration has issued warnings but not banned sales in the United States. Avoid using kava until more rigorous safety studies are done, especially if you have liver problems or take medications that affect your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Passionflower.&lt;/strong&gt; There are a few small clinical trials which suggest that passionflower might help with anxiety. In many commercial products, passionflower is often combined with other herbs, making it difficult to distinguish the unique qualities of each herb. Passionflower is generally considered safe when taken as directed, but some studies found it can cause drowsiness, dizziness and confusion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valerian.&lt;/strong&gt; In some studies, people who used valerian reported less anxiety and stress. In other studies, people reported no benefit. Valerian is generally considered safe at recommended doses, but since long-term safety trials are lacking, don&apos;t take it for more than a few weeks at a time. It can cause some side effects such as headaches and drowsiness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re considering taking any herbal supplement as a treatment for anxiety, talk to your doctor first, especially if you take other medications. The interaction of some herbal supplements and certain medications can cause serious side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+If your anxiety is interfering with daily activities, talk with your doctor. More serious forms of anxiety generally need medical treatment or psychological counseling (psychotherapy) for symptoms to improve. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Herbal treatment for anxiety: Is it effective?
+	</Title>
+	<Abstract>
+		Herbal treatment for anxiety &amp;mdash; A Mayo Clinic expert discusses safety and effectiveness.
+	</Abstract>
+	<Question>
+		Is there an effective herbal treatment for anxiety?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN01615" LinkType="Internal" ObjectID="4960C13D-E7FF-0DBD-1866BEED9AD896BE" Title="Depression and anxiety: Can I have both?" Url="http://www.mayoclinic.com/health/depression-and-anxiety/AN01615" />
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MH00042" LinkType="Internal" ObjectID="0D9E914C-486D-425E-A823B1FC0A2EB794" Title="Mental health: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/mental-health/MH00042" />
+		<LinkItem ContentType="Answer" DocID="AN02021" LinkType="Internal" ObjectID="E7373336-F052-D531-8967EED8995C0DB5" Title="Test anxiety: Can it be treated?" Url="http://www.mayoclinic.com/health/test-anxiety/AN02021" />
+		<LinkItem ContentType="Answer" DocID="AN01589" LinkType="Internal" ObjectID="BDBA874B-E7FF-0DBD-10AF2800C02D76A3" Title="Coping with anxiety: Can diet make a difference?" Url="http://www.mayoclinic.com/health/coping-with-anxiety/AN01589" />
+		<LinkItem ContentType="Disease" DocID="DS00175" LinkType="Internal" ObjectID="F61D92BD-C12C-4C1E-98CE1DDC09196EA2" Title="Depression (major depression)" Url="http://www.mayoclinic.com/health/depression/DS00175" />
+		<LinkItem ContentType="Disease" DocID="DS00442" LinkType="Internal" ObjectID="1F6A3571-D626-4D96-A02A881BCCBB3E02" Title="Borderline personality disorder" Url="http://www.mayoclinic.com/health/borderline-personality-disorder/DS00442" />
+		<LinkItem ContentType="Disease" DocID="DS00502" LinkType="Internal" ObjectID="DB1C2634-103B-4286-9E7A3EF066877030" Title="Generalized anxiety disorder" Url="http://www.mayoclinic.com/health/generalized-anxiety-disorder/DS00502" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,365 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00369
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/periodontitis/DS00369
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-23
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="1620" Title="Periodontitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			723BD56F-9C90-46D9-BD65941F61B77C7F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				periodontitis
+			</MetaKeyword>
+			<MetaKeyword>
+				periodontal
+			</MetaKeyword>
+			<MetaKeyword>
+				periodontal disease
+			</MetaKeyword>
+			<MetaKeyword>
+				gums
+			</MetaKeyword>
+			<MetaKeyword>
+				gum disease
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen gums
+			</MetaKeyword>
+			<MetaKeyword>
+				gum infection
+			</MetaKeyword>
+			<MetaKeyword>
+				teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				plaque
+			</MetaKeyword>
+			<MetaKeyword>
+				tartar
+			</MetaKeyword>
+			<MetaKeyword>
+				periodontis
+			</MetaKeyword>
+			<MetaKeyword>
+				gingivitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sore gums
+			</MetaKeyword>
+			<MetaKeyword>
+				receding gums
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Periodontitis (pair-e-o-don-TI-tis) is a serious gum infection that destroys the soft tissue and bone that support your teeth. Periodontitis can cause tooth loss or worse, an increased risk of heart attack or stroke and other serious health problems.
+&lt;/p&gt;
+&lt;p&gt;
+Periodontitis is common but largely preventable. Periodontitis is usually the result of poor oral hygiene. Daily brushing and flossing and regular professional dental cleanings can greatly reduce your chance of developing periodontitis.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing periodontitis 
+" Caption="Periodontitis is a severe gum infection that can lead to tooth loss and other serious health complications. 
+" Height="60" Title="Periodontitis" URI="/images/image_popup/thumbs/ww5ro86t.jpg" Width="60" />
+				<Image Alt="Illustration showing periodontitis 
+" Caption="Periodontitis is a severe gum infection that can lead to tooth loss and other serious health complications. 
+" Height="372" Title="Periodontitis" URI="/images/image_popup/de7_periodontitis.jpg" Width="400" />
+				<HTML>
+					Periodontitis is a severe gum infection that can lead to tooth loss and other serious health complications. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of periodontitis can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swollen gums&lt;/li&gt;
+	&lt;li&gt;Bright red or purplish gums&lt;/li&gt;
+	&lt;li&gt;Gums that feel tender when touched&lt;/li&gt;
+	&lt;li&gt;Gums that pull away from your teeth (recede), making your teeth look longer than normal&lt;/li&gt;
+	&lt;li&gt;New spaces developing between your teeth&lt;/li&gt;
+	&lt;li&gt;Pus between your teeth and gums&lt;/li&gt;
+	&lt;li&gt;Bad breath&lt;/li&gt;
+	&lt;li&gt;Bad taste in your mouth&lt;/li&gt;
+	&lt;li&gt;Loose teeth&lt;/li&gt;
+	&lt;li&gt;A change in the way your teeth fit together when you bite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There are different types, or classes, of periodontitis. Chronic periodontitis is the most common class, affecting mostly adults, though children may be affected as well. Aggressive periodontitis usually begins in childhood or early adulthood and affects only 1 to 2 percent of the population.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a dentist&lt;/strong&gt;&lt;br /&gt;
+Healthy gums are firm and pale pink. If your gums are puffy, dusky red and bleed easily, or show other signs or symptoms of periodontitis, see your dentist soon. The sooner you seek care, the better your chances of reversing damage from periodontitis and preventing other serious health problems.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing periodontitis 
+" Caption="Periodontitis is a severe gum infection that can lead to tooth loss and other serious health complications. 
+" Height="60" Title="Periodontitis" URI="/images/image_popup/thumbs/ww5ro86t.jpg" Width="60" />
+				<Image Alt="Illustration showing periodontitis 
+" Caption="Periodontitis is a severe gum infection that can lead to tooth loss and other serious health complications. 
+" Height="372" Title="Periodontitis" URI="/images/image_popup/de7_periodontitis.jpg" Width="400" />
+				<HTML>
+					Periodontitis is a severe gum infection that can lead to tooth loss and other serious health complications. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s thought that periodontitis begins with plaque. This sticky film is composed mainly of bacteria. Plaque forms on your teeth when starches and sugars in food interact with bacteria normally found in your mouth. Brushing your teeth removes plaque. But plaque re-forms quickly, usually within 24 hours.
+&lt;/p&gt;
+&lt;p&gt;
+Plaque that stays on your teeth longer than two or three days can harden under your gumline into tartar (calculus). Tartar makes plaque more difficult to remove and acts as a reservoir for bacteria. What&apos;s more, you usually can&apos;t get rid of tartar by brushing and flossing &amp;mdash; you need a professional dental cleaning to remove it.
+&lt;/p&gt;
+&lt;p&gt;
+The longer plaque and tartar remain on your teeth, the more damage they can do. Initially, they may simply irritate and inflame the gingiva, the part of your gum around the base of your teeth. This is called gingivitis, the mildest form of periodontal disease. But ongoing inflammation eventually causes pockets to develop between your gums and teeth that fill with plaque, tartar and bacteria. In time, these pockets become deeper and more bacteria accumulate, eventually advancing under your gum tissue. These deep infections cause a loss of tissue and bone. If too much bone is destroyed, you may lose one or more teeth.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of periodontitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gingivitis&lt;/li&gt;
+	&lt;li&gt;Heredity&lt;/li&gt;
+	&lt;li&gt;Poor oral health habits&lt;/li&gt;
+	&lt;li&gt;Tobacco use&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Older age&lt;/li&gt;
+	&lt;li&gt;Decreased immunity, such as that occurring with leukemia or HIV/AIDS or chemotherapy&lt;/li&gt;
+	&lt;li&gt;Poor nutrition&lt;/li&gt;
+	&lt;li&gt;Certain medications&lt;/li&gt;
+	&lt;li&gt;Hormonal changes, such as those related to pregnancy or menopause&lt;/li&gt;
+	&lt;li&gt;Substance abuse&lt;/li&gt;
+	&lt;li&gt;Ill-fitting dental restorations&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most obvious outcome of untreated periodontitis is:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tooth loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might be surprised by some other complications associated with gum disease, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coronary artery disease&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Low birth weight babies&lt;/li&gt;
+	&lt;li&gt;Poorly controlled diabetes&lt;/li&gt;
+	&lt;li&gt;Respiratory problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Research suggests that the bacteria responsible for periodontitis can be inhaled or enter your bloodstream through your gum tissue, affecting your lungs, heart and other parts of your body. For instance, bacteria may travel to the arteries in your heart, where they can trigger a cycle of inflammation and arterial narrowing that contributes to heart attacks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you notice any symptoms of periodontitis, make an appointment with your dentist as soon as possible. Here&apos;s some information to help you get ready for your appointment, and what to expect from your dentist.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Consider preparing a list of questions to ask your dentist. Some questions you may want to discuss include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests, if any, do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Can I treat periodontitis on my own?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your dentist&lt;/strong&gt;&lt;br /&gt;
+Your dentist may ask you questions about your symptoms. He or she may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What is your oral health routine?&lt;/li&gt;
+	&lt;li&gt;What medical conditions do you have?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco products?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the extent of your periodontitis, your dentist may refer you to a periodontist for treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of periodontitis is generally simple. Diagnosis is based on your description of symptoms and an exam of your mouth. Your dentist will look for plaque and tartar buildup and check for easy bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+To check the health of your gum tissue, your dentist may use a metal probe to measure the depth of the gingival sulcus, the groove between your gums and your teeth. The probe is inserted beside your tooth beneath your gumline, usually at several sites throughout your mouth. The measurements can help determine how severe your periodontitis is.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are several ways to treat periodontitis, depending on its severity. The goal of periodontitis treatment is to thoroughly clean the pockets of bacteria and to prevent more damage. Treatment may be performed by a periodontist, a dentist or a dental hygienist. Treatment is most successful when you adopt a daily routine of good oral care.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonsurgical treatments&lt;/strong&gt;&lt;br /&gt;
+If your periodontitis isn&apos;t advanced, treatment can include less invasive procedures, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Scaling.&lt;/strong&gt; Scaling removes tartar and bacteria from your tooth surfaces and beneath your gums. It may be performed using instruments or an ultrasonic device.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Root planing.&lt;/strong&gt; Root planing smoothes the root surfaces, discouraging further buildup of tartar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; The use of antibiotics to treat periodontitis remains open to debate. Your periodontist or dentist may recommend using topical or oral antibiotics to help control bacterial infection. Topical antibiotics are generally the treatment of choice. They can include antibiotic mouth rinses or insertion of threads and gels containing antibiotics in the space between your teeth and gums or into pockets after deep cleaning. However, oral antibiotics may be necessary to completely eliminate infection-causing bacteria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical treatments&lt;/strong&gt;&lt;br /&gt;
+If you have advanced periodontitis, your gum tissue may not respond to nonsurgical treatments and good oral hygiene. In that case, your periodontitis treatment may require dental surgery, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Flap surgery (pocket reduction surgery).&lt;/strong&gt; In this procedure, your periodontist makes tiny incisions in your gum so that a section of gum tissue can be lifted back, exposing the roots for more effective scaling and planing. Because periodontitis often causes bone loss, the underlying bone may be recontoured before the gum tissue is sutured back in place. The procedure generally takes from one to three hours and is performed under local anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soft tissue grafts.&lt;/strong&gt; When you lose gum tissue to periodontal disease, your gumline recedes, making your teeth appear longer than normal. You may need to have damaged tissue replaced. This is usually done by removing a small amount of tissue from the roof of your mouth (palate) or another donor source and attaching it to the affected site. This procedure can help reduce further gum recession, cover exposed roots and give your teeth a more cosmetically pleasing appearance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone grafting.&lt;/strong&gt; This procedure is performed when periodontitis has destroyed the bone surrounding your tooth root. The graft may be composed of small fragments of your own bone or the bone may be synthetic or donated. The bone graft helps prevent tooth loss by holding your tooth in place. It also serves as a platform for the regrowth of natural bone. Bone grafting may be performed during a technique called guided tissue regeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Guided tissue regeneration.&lt;/strong&gt; This allows the regrowth of bone that was destroyed by bacteria. In one approach, your dentist places a special piece of biocompatible fabric between existing bone and your tooth. The material prevents unwanted tissue from entering the healing area, allowing bone to grow back instead.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enamel matrix derivative application.&lt;/strong&gt; Another technique involves applying a specialized gel to a diseased tooth root. This gel contains the same proteins found in developing tooth enamel and stimulates the growth of healthy bone and tissue.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps at home to help reduce or prevent periodontitis, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Get regular professional dental cleanings, on a schedule recommended by your dentist&lt;/li&gt;
+	&lt;li&gt;Use a soft toothbrush and replace it at least every three to four months&lt;/li&gt;
+	&lt;li&gt;Consider using an electric toothbrush, which may be more effective at removing plaque and tartar&lt;/li&gt;
+	&lt;li&gt;Brush your teeth twice a day or, better yet, after every meal or snack&lt;/li&gt;
+	&lt;li&gt;Floss daily&lt;/li&gt;
+	&lt;li&gt;Use a mouth rinse to help reduce plaque between your teeth&lt;/li&gt;
+	&lt;li&gt;Supplement brushing and flossing with an interdental cleaner, such as a dental pick or dental stick specially designed to clean between your teeth&lt;/li&gt;
+	&lt;li&gt;Don&apos;t rely on tartar-control toothpaste to do the job that brushing and flossing should&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent periodontitis is to follow a program of good oral hygiene, one that you begin early and practice consistently throughout life. That means brushing your teeth at least twice daily &amp;mdash; in the morning and before going to bed &amp;mdash; and flossing at least once a day. Better yet, brush after every meal or snack or as your dentist recommends. A complete cleaning with a toothbrush and floss should take three to five minutes. Flossing before you brush allows you to clean away the loosened food particles and bacteria.
+&lt;/p&gt;
+&lt;p&gt;
+Also, see your dentist or dental hygienist regularly for cleanings, usually every six to 12 months. If you have risk factors that increase your chance of developing periodontitis, you may need professional tooth cleaning more often. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Periodontitis
+	</Title>
+	<Abstract>
+		Periodontitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this severe form of gum disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02098" LinkType="Internal" ObjectID="131966DC-BA5C-3DD5-69F8D82D1AB660A8" Title="When to brush your teeth" Url="http://www.mayoclinic.com/health/brushing-your-teeth/AN02098" />
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,144 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02043
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/psoriasis-treatment/AN02043
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-29
+		</UpdateDate>
+		<PublicationDate>
+			2010-02-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2818" Title="Psoriasis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB4567AC-9E38-28F1-3C59E3CD63258E60
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				psoriasis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment for psoriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				psorisis
+			</MetaKeyword>
+			<MetaKeyword>
+				psorasis
+			</MetaKeyword>
+			<MetaKeyword>
+				fish oil
+			</MetaKeyword>
+			<MetaKeyword>
+				fish oil supplements
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Psoriasis is less common in populations whose regular diet includes cold-water fish containing omega-3 fatty acids. But study results have been mixed as to whether fish oil supplements can reduce inflammation and improve psoriasis signs and symptoms, such as itching and scaling. The latest findings suggest that fish oil delivered intravenously reduces psoriasis symptoms better than fish oil supplements taken by mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of high-dose fish oil supplements can include a fishy aftertaste, heartburn and nausea. Dosages greater than 3 grams a day can affect blood clotting, increase your risk of bleeding and decrease blood pressure. This may be of particular concern if you&apos;re taking blood-thinning medication or high blood pressure medication. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how psoriasis develops 
+" Caption="In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+" Height="60" Title="How psoriasis develops" URI="/images/image_popup/thumbs/sn7_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how psoriasis develops 
+" Caption="In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+" Height="215" Title="How psoriasis develops" URI="/images/image_popup/sn7_psoriasis.jpg" Width="400" />
+				<HTML>
+					In psoriasis, the life cycle of your skin cells greatly accelerates, leading to a buildup of dead cells on the surface of the epidermis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Psoriasis treatment: Can fish oil supplements reduce symptoms?
+	</Title>
+	<Abstract>
+		Psoriasis treatment &amp;mdash; Fish oil supplements may be helpful, but use caution.
+	</Abstract>
+	<Question>
+		Can fish oil supplements improve psoriasis symptoms?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01258" LinkType="Internal" ObjectID="DF292251-2A5D-9994-E47E27D6641BDACA" Title="Ground flaxseed: Better than whole?" Url="http://www.mayoclinic.com/health/flaxseed/AN01258" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00195" LinkType="Internal" ObjectID="6A97E98C-E7FF-0DBD-1330B836BF02893D" Title="Light therapy" Url="http://www.mayoclinic.com/health/light-therapy/MY00195" />
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+		<LinkItem ContentType="Article" DocID="SN00003" LinkType="Internal" ObjectID="EFC4004C-25CE-4C77-925237045078807F" Title="Skin care: 5 tips for healthy skin" Url="http://www.mayoclinic.com/health/skin-care/SN00003" />
+		<LinkItem ContentType="Article" DocID="MH00128" LinkType="Internal" ObjectID="DD16A110-E7FF-0DBD-17F1DEE10436C1E1" Title="Self-esteem check: Too low, too high or just right?" Url="http://www.mayoclinic.com/health/self-esteem/MH00128" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Article" DocID="SR00032" LinkType="Internal" ObjectID="15AC47CB-E7FF-0DBD-1E403F470F686D23" Title="Stress management: Re-examine your stress reactions" Url="http://www.mayoclinic.com/health/stress-management/SR00032" />
+		<LinkItem ContentType="Answer" DocID="AN01960" LinkType="Internal" ObjectID="D49DE997-E7FF-0DBD-109ED93E27208C89" Title="Psoriasis diet: Can changing your diet treat psoriasis?" Url="http://www.mayoclinic.com/health/psoriasis-diet/AN01960" />
+		<LinkItem ContentType="Answer" DocID="AN01177" LinkType="Internal" ObjectID="ADF356CE-EB54-4DD1-9B441BDE38A74555" Title="Scalp psoriasis vs. seborrheic dermatitis: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/scalp-psoriasis/AN01177" />
+		<LinkItem ContentType="SlideShow" DocID="MY00784" LinkType="Internal" ObjectID="65E00968-CD15-A25D-990761AB57DD9092" Title="Slide show: Types of psoriasis" Url="http://www.mayoclinic.com/health/psoriasis-pictures/MY00784" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00560" LinkType="Internal" ObjectID="E5B1B6E3-7EA4-4120-95D00FA32831AE44" Title="Dry skin" Url="http://www.mayoclinic.com/health/dry-skin/DS00560" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+		<LinkItem ContentType="Disease" DocID="DS00847" LinkType="Internal" ObjectID="A39429AD-E7FF-0DBD-176D22A50ECCFE59" Title="Itchy skin (pruritus)" Url="http://www.mayoclinic.com/health/itchy-skin/DS00847" />
+		<LinkItem ContentType="Disease" DocID="DS00476" LinkType="Internal" ObjectID="91BACD0E-0792-44DD-9005DD8966E2754B" Title="Psoriatic arthritis" Url="http://www.mayoclinic.com/health/psoriatic-arthritis/DS00476" />
+		<LinkItem ContentType="Disease" DocID="DS00260" LinkType="Internal" ObjectID="7A8C6CBF-246F-423C-9D9F889E25F2EE05" Title="Strep throat" Url="http://www.mayoclinic.com/health/strep-throat/DS00260" />
+		<LinkItem ContentType="Disease" DocID="DS00964" LinkType="Internal" ObjectID="2C9B4EAD-E7FF-0DBD-11FE616BB5B7F712" Title="Sunburn" Url="http://www.mayoclinic.com/health/sunburn/DS00964" />
+		<LinkItem ContentType="Disease" DocID="DS00193" LinkType="Internal" ObjectID="314A4C2A-D3AD-46E8-8730C1905D41C7CF" Title="Psoriasis" Url="http://www.mayoclinic.com/health/psoriasis/DS00193" />
+	</RelatedLinksBox>
+</Answer>

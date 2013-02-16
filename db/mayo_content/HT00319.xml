@@ -1,0 +1,76 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00319
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00319
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2158" Title="Nail" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			16F064E8-E7FF-0DBD-12FEBD312C5135C0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nails
+			</MetaKeyword>
+			<MetaKeyword>
+				nail
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernail
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				nail care
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Nail care tip: Moisturize
+	</Title>
+	<Body>
+		&lt;p&gt;Your nails need moisture just like your skin does. Dry, brittle nails are more likely to split or break. To keep nails strong and healthy, rub lotion into your nails when you moisturize your hands and after you remove fingernail polish.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,261 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01143
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vbac/MY01143
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-06
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3967" Title="Life stage">
+						<Keyword MCVID="3990" Title="Pregnancy">
+							<Keyword MCVID="4666" Title="Vaginal birth after C-section (VBAC)" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0027ADD5-A779-9845-6C1AF50DE22CFC07
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				VBAC
+			</MetaKeyword>
+			<MetaKeyword>
+				c-section
+			</MetaKeyword>
+			<MetaKeyword>
+				c section
+			</MetaKeyword>
+			<MetaKeyword>
+				caesarean
+			</MetaKeyword>
+			<MetaKeyword>
+				caesarean section
+			</MetaKeyword>
+			<MetaKeyword>
+				cesarean
+			</MetaKeyword>
+			<MetaKeyword>
+				cesarean section
+			</MetaKeyword>
+			<MetaKeyword>
+				cesarian section
+			</MetaKeyword>
+			<MetaKeyword>
+				cesarian
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal birth
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal birth after caesarean
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal birth after cesarian
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal birth after c-section
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal birth after c section
+			</MetaKeyword>
+			<MetaKeyword>
+				VBACK
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine rupture
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine scar
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve delivered a baby by C-section, you might have a choice with your next pregnancy &amp;mdash; schedule a repeat C-section or attempt vaginal birth after cesarean (VBAC).
+&lt;/p&gt;
+&lt;p&gt;
+Years ago, a C-section ended any hope of future vaginal deliveries. But today, thanks largely to changes in surgical technique, VBAC is possible in many cases. In fact, an estimated 75 percent of women who try VBAC have a successful vaginal delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+VBAC isn&apos;t right for everyone, though. Sometimes a pregnancy complication or underlying condition prevents the possibility of a successful VBAC. Many local hospitals don&apos;t offer VBAC because they don&apos;t have the staff or resources to handle emergency C-sections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Women consider VBAC for various reasons, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fewer complications.&lt;/strong&gt; You&apos;re less likely to get an infection and have serious blood loss with a successful VBAC than with a repeat C-section. If the VBAC fails, however, the baby must be delivered by C-section &amp;mdash; which carries a higher risk of infection than a planned repeat C-section.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shorter recovery time.&lt;/strong&gt; You&apos;ll have a shorter hospital stay after a VBAC than you would after a repeat C-section. Avoiding surgery will help your energy and stamina return more quickly, as well as reduce the expense of childbirth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;More participation in the birth.&lt;/strong&gt; For some women, it&apos;s important to experience a vaginal delivery. If you have a successful VBAC, you&apos;ll likely get to hold and breast-feed your baby sooner than you would after a repeat C-section.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impact on future pregnancies.&lt;/strong&gt; If you&apos;re planning a larger family, VBAC might be a better option with each subsequent delivery. Repeat C-sections get more complicated each time, while repeat VBACs tend to become progressively easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The chances of a successful VBAC are higher if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve had only one prior low transverse uterine incision &amp;mdash; the most common type for a C-section &amp;mdash; and no other uterine incisions&lt;/li&gt;
+	&lt;li&gt;You and your baby are healthy and your pregnancy is progressing normally&lt;/li&gt;
+	&lt;li&gt;The reason you had your prior C-section isn&apos;t a factor this time&lt;/li&gt;
+	&lt;li&gt;Your labor begins naturally on or before your due date&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had a previous successful vaginal delivery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The chances of a successful VBAC are lower if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your pregnancy continues beyond your due date&lt;/li&gt;
+	&lt;li&gt;You have an unusually large baby&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had two or more C-sections and no vaginal deliveries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;re not a candidate for VBAC if you have any health conditions that might affect a vaginal delivery or you had a uterine rupture during a previous pregnancy. Similarly, VBAC isn&apos;t recommended if you&apos;ve had a vertical uterine incision &amp;mdash; the type of uterine incision most likely to rupture during labor. 
+&lt;/p&gt;
+&lt;p&gt;
+VBAC might be possible with twins if the lower twin is in the headfirst position, but VBAC generally isn&apos;t an option for triplets or other multiples. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+VBAC poses potentially serious risks.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Failed attempt at labor&lt;/strong&gt;&lt;br /&gt;
+Labor results in a repeat C-section for an estimated 25 percent of women who attempt VBAC, often because the baby doesn&apos;t tolerate labor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Uterine infection&lt;/strong&gt;&lt;br /&gt;
+If you must have a repeat C-section after labor has begun, you face a slightly higher risk of C-section complications &amp;mdash; such as a uterine infection &amp;mdash; than if you had a planned repeat C-section.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Uterine rupture&lt;/strong&gt;&lt;br /&gt;
+Rarely, the uterus may tear open along the scar line from a prior C-section.
+&lt;/p&gt;
+&lt;p&gt;
+If your uterus ruptures &amp;mdash; either before or during labor &amp;mdash; an emergency C-section is needed to prevent life-threatening complications, including blood loss, infection and brain damage for the baby.
+&lt;/p&gt;
+&lt;p&gt;
+When delivery takes place in a hospital equipped to handle such emergencies, rarely is the baby at risk. In some cases, however, the uterus might need to be removed (hysterectomy) to stop the bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+If your uterus is removed, you won&apos;t be able to get pregnant again.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pelvic floor problems&lt;/strong&gt;&lt;br /&gt;
+For some women, pelvic floor problems also are a concern.
+&lt;/p&gt;
+&lt;p&gt;
+The weight and pressure of pregnancy can weaken the pelvic floor muscles that support the uterus, and vaginal delivery can stretch the pelvic floor muscles even farther. This can lead to temporary urinary incontinence, particularly for women who give birth vaginally.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you choose VBAC, boost your odds of a positive experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about VBAC.&lt;/strong&gt; Take a childbirth class on VBAC. Include your partner or another loved one, if possible. Also discuss your concerns and expectations with your health care provider. Make sure he or she has your complete medical history, including records of your previous C-section and any other uterine procedures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan to deliver the baby at a well-equipped hospital.&lt;/strong&gt; Close monitoring can decrease the risk of complications. Look for a facility that has continuous fetal monitoring, a surgical team that can be assembled quickly, and the ability to provide anesthetics and blood transfusions 24 hours a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allow labor to begin naturally, if you can.&lt;/strong&gt; Drugs to induce labor can make contractions stronger and more frequent, which might contribute to the risk of uterine rupture &amp;mdash; especially if the cervix is tightly closed and not ready for labor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared for a C-section.&lt;/strong&gt; Some complications of pregnancy or delivery might require a C-section, even if you had your heart set on a vaginal delivery. For example, you might need a C-section if you develop preeclampsia or other pregnancy complications, there&apos;s a problem with the placenta or umbilical cord, your baby is in an unfavorable position, your labor fails to progress, or your baby doesn&apos;t tolerate labor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you choose VBAC, your prenatal care will be just like the care you&apos;d receive during any other healthy pregnancy. When you go into labor, you&apos;ll follow the same process as any woman expecting to deliver vaginally &amp;mdash; although more precautions will be taken during labor. This is called a trial of labor.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s what to expect:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Early hospitalization.&lt;/strong&gt; Your health care provider will ask you to report to the hospital promptly if your water breaks or when you begin feeling contractions. Laboring at home with a prior C-section scar isn&apos;t recommended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain control.&lt;/strong&gt; If you choose medication, you&apos;ll have various options &amp;mdash; typically including epidural anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continuous electronic monitoring.&lt;/strong&gt; The medical team will keep a close eye on your baby&apos;s heart rate and will check on you often to make sure that labor is progressing normally. A fetal monitor will likely be attached to your baby&apos;s scalp.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Less tolerance of abnormal labor patterns.&lt;/strong&gt; A prolonged or difficult labor increases the risk of uterine rupture. Medication to stimulate contractions might pose the same risk. A repeat C-section might be needed if your labor doesn&apos;t progress well or your baby doesn&apos;t tolerate labor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember, your ultimate goal is a healthy baby and a healthy mom &amp;mdash; regardless of how you get there.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vaginal birth after cesarean (VBAC)
+	</Title>
+	<Abstract>
+		VBAC &amp;mdash; Overview covers benefits and risks of vaginal birth after cesarean.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00214" LinkType="Internal" ObjectID="C2CFE268-E7FF-0DBD-18FA5858F40AF065" Title="C-section" Url="http://www.mayoclinic.com/health/c-section/MY00214" />
+		<LinkItem ContentType="Article" DocID="PR00065" LinkType="Internal" ObjectID="32522D89-6547-4FD7-9334D637EFB21183" Title="Labor pain: Weigh your options for relief" Url="http://www.mayoclinic.com/health/labor-pain/PR00065" />
+		<LinkItem ContentType="Article" DocID="MY01945" LinkType="Internal" ObjectID="1A1EE92E-FB0A-795B-CEB7BDD5607624A1" Title="Placenta: How it works, what&apos;s normal" Url="http://www.mayoclinic.com/health/placenta/MY01945" />
+		<LinkItem ContentType="Article" DocID="MY01691" LinkType="Internal" ObjectID="0C5B6C3B-A65E-7D18-492171BE49CF8E3D" Title="Family planning: Get the facts about pregnancy spacing" Url="http://www.mayoclinic.com/health/family-planning/MY01691" />
+		<LinkItem ContentType="Article" DocID="MY01164" LinkType="Internal" ObjectID="33AE2B4A-CB5A-8DC8-CBFA502C4A2A8683" Title="VBAC: Insight from a Mayo Clinic specialist" Url="http://www.mayoclinic.com/health/vbac/MY01164" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,291 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00810
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/frontal-lobe-seizures/DS00810
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-12
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1761" Title="Seizure disorder">
+						<Keyword MCVID="3189" Title="Frontal lobe" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			13F612B4-E7FF-0DBD-1E2840C574CEE2DD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				frontal lobe seizures
+			</MetaKeyword>
+			<MetaKeyword>
+				frontal lobe epilepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				seizures
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frontal lobe seizures are seizures that originate in the front of the brain. Epilepsy symptoms can vary depending on what part of the brain is involved. Frontal lobe seizures may produce unusual symptoms that can appear to be related to a psychiatric problem or a sleep disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Frontal lobe seizures often occur during sleep and may feature bicycle pedaling motions and pelvic thrusting. Some people scream profanities or laugh during frontal lobe seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+In many cases of frontal lobe seizures, brain wave tests (electroencephalograms) may not show the changes characteristic of epileptic seizures that originate elsewhere in the brain. Medications usually can control frontal lobe seizures, but surgery is an option if anti-seizure drugs aren&apos;t effective. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lobes in the brain 
+" Caption="Each side of your brain contains four lobes. The frontal lobe is important for decision making and control of voluntary movement or activity. The parietal lobe processes sensory and spatial information, while the occipital lobe is primarily responsible for vision. The temporal lobe processes memories, integrating them with emotion, and sensations of taste, sound, sight and touch. 
+" Height="60" Title="Brain lobes" URI="/images/image_popup/thumbs/bn7_lobesthu.jpg" Width="60" />
+				<Image Alt="Illustration of lobes in the brain 
+" Caption="Each side of your brain contains four lobes. The frontal lobe is important for decision making and control of voluntary movement or activity. The parietal lobe processes sensory and spatial information, while the occipital lobe is primarily responsible for vision. The temporal lobe processes memories, integrating them with emotion, and sensations of taste, sound, sight and touch. 
+" Height="400" Title="Brain lobes" URI="/images/image_popup/bn7_lobes.jpg" Width="400" />
+				<HTML>
+					Each side of your brain contains four lobes. The frontal lobe is important for decision making and control of voluntary movement or activity. The parietal lobe processes sensory and spatial ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frontal lobe seizures usually last less than 30 seconds and often occur during sleep. Signs and symptoms of frontal lobe seizures may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Head and eye movement to one side&lt;/li&gt;
+	&lt;li&gt;Complete or partial unresponsiveness, or difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Explosive screams or laughter&lt;/li&gt;
+	&lt;li&gt;Abnormal body posturing, such as one arm extending while the other flexes, as if the person is posing like a fencer&lt;/li&gt;
+	&lt;li&gt;Repetitive movements, such as rocking or bicycle pedaling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you&apos;re having signs or symptoms of frontal lobe seizure. Call 911 or emergency medical help if someone you know has a seizure that lasts more than five minutes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frontal lobe seizures can result from abnormalities &amp;mdash; such as tumors, vascular malformations or traumatic injuries &amp;mdash; in the brain&apos;s frontal lobes. An abnormal gene causes a rare inherited disorder called autosomal dominant nocturnal frontal lobe epilepsy. If one of your parents has this form of frontal lobe epilepsy, you have a 50 percent chance of inheriting the gene and developing the disease yourself.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, however, the cause of frontal lobe epilepsy remains unknown.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lobes in the brain 
+" Caption="Each side of your brain contains four lobes. The frontal lobe is important for decision making and control of voluntary movement or activity. The parietal lobe processes sensory and spatial information, while the occipital lobe is primarily responsible for vision. The temporal lobe processes memories, integrating them with emotion, and sensations of taste, sound, sight and touch. 
+" Height="60" Title="Brain lobes" URI="/images/image_popup/thumbs/bn7_lobesthu.jpg" Width="60" />
+				<Image Alt="Illustration of lobes in the brain 
+" Caption="Each side of your brain contains four lobes. The frontal lobe is important for decision making and control of voluntary movement or activity. The parietal lobe processes sensory and spatial information, while the occipital lobe is primarily responsible for vision. The temporal lobe processes memories, integrating them with emotion, and sensations of taste, sound, sight and touch. 
+" Height="400" Title="Brain lobes" URI="/images/image_popup/bn7_lobes.jpg" Width="400" />
+				<HTML>
+					Each side of your brain contains four lobes. The frontal lobe is important for decision making and control of voluntary movement or activity. The parietal lobe processes sensory and spatial ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frontal lobe seizures tend to occur in clusters and may provoke a dangerous condition called status epilepticus &amp;mdash; in which seizure activity lasts much longer than usual. Seizures that last longer than five minutes should be treated as a medical emergency. 
+&lt;/p&gt;
+&lt;p&gt;
+The motions that occur during frontal lobe seizures sometimes result in injuries to the people experiencing the seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the frequency and duration of seizures, frontal lobe epilepsy may affect memory, motor skills and other brain functions. However, more research is needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your symptoms to the attention of your family doctor, who may refer you to a neurologist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To make the most of the time you have with your doctor, make lists of important information, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of all your symptoms&lt;/li&gt;
+	&lt;li&gt;All your medications and dosages, including nonprescription drugs and supplements&lt;/li&gt;
+	&lt;li&gt;Questions for the doctor, such as what tests or treatments he or she may recommend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might also want to bring a family member or close friend who can describe what happens during your seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will ask you about your medical history and whether anyone in your immediate family has ever had epilepsy. He or she will also want a detailed description of your symptoms, so you may need to bring someone who has witnessed at least one of your seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+Your physical may include a neurological exam, which will assess:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Sensory skills&lt;/li&gt;
+	&lt;li&gt;Hearing and speech&lt;/li&gt;
+	&lt;li&gt;Vision&lt;/li&gt;
+	&lt;li&gt;Coordination and balance&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frontal lobe epilepsy can be difficult to diagnose because its symptoms may be mistaken for psychiatric problems or sleep disorders, such as night terrors. Your doctor may suggest the following tests.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Brain scans.&lt;/strong&gt; Frontal lobe seizures can be caused by tumors, vascular malformations or traumatic injuries. Brain imaging, usually MRI, may reveal the abnormality.
+	&lt;/p&gt;
+	&lt;p&gt;
+	MRI uses radio waves and a powerful magnetic field to produce very detailed images of soft tissues such as the brain. To undergo an MRI scan, you must lie on a narrow pallet that slides into a long tube. The test often takes about an hour to complete. Some people may feel claustrophobic inside MRI machines, although the test itself is painless.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electroencephalogram (EEG).&lt;/strong&gt; An EEG monitors the electrical activity in your brain via a series of electrodes attached to your scalp. EEGs are often helpful in diagnosing some types of epilepsy, but may be normal in frontal lobe epilepsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Video EEG.&lt;/strong&gt; Video EEG is usually performed during an overnight stay at a hospital&apos;s sleep clinic. Both a video camera and an EEG monitor run all night. Doctors can then match the physical manifestations of a seizure with what appears on the EEG at that time. But video EEGs are expensive and may not be available in your area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Over the past decade, treatment options have increased for frontal lobe seizures. There are newer types of anti-seizure medications and a variety of surgical procedures that may help if medications don&apos;t work. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;All anti-seizure drugs seem to work equally well at controlling frontal lobe seizures, but not everyone becomes seizure-free on medication. Your doctor may try different types of anti-seizure drugs or have you take a combination of drugs to control your seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your seizures can&apos;t be controlled adequately with medications, your doctor may recommend surgery. Surgery involves pinpointing the areas of the brain where seizures occur. Two newer imaging techniques &amp;mdash; brain single-photon emission computerized tomography (SPECT) and subtraction ictal SPECT coregistered to MRI (SISCOM) &amp;mdash; are more accurate at identifying the area, but aren&apos;t yet widely available. 
+&lt;/p&gt;
+&lt;p&gt;
+Another imaging technique, known as brain mapping, is commonly used before epilepsy surgery. Brain mapping involves implanting electrodes directly into an area of the brain and using electrical stimulation to determine whether that area has an important function, which would rule out surgery on that area. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery for epilepsy may involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the focal point.&lt;/strong&gt; If your seizures always begin in one specific spot in your brain, removing that small portion of brain tissue may reduce or eliminate your seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Isolating the focal point.&lt;/strong&gt; If the portion of the brain that&apos;s causing seizures is too vital to remove, surgeons may make a series of cuts to help isolate that section of the brain. This prevents seizures from moving into other parts of the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stimulating the vagus nerve.&lt;/strong&gt; Another surgical option is to implant a device &amp;mdash; similar to a cardiac pacemaker &amp;mdash; to stimulate your vagus nerve. The device is inserted under the skin of your chest, and wires from it are threaded under your skin and then wrapped around the vagus nerve in your neck. This procedure usually reduces the number of seizures people experience.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of vagus nerve stimulation pulse generator 
+" Caption="In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+" Height="60" Title="Vagus nerve stimulation" URI="/images/image_popup/thumbs/mh7_vagalnervethu.jpg" Width="60" />
+				<Image Alt="Illustration of vagus nerve stimulation pulse generator 
+" Caption="In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+" Height="389" Title="Vagus nerve stimulation" URI="/images/image_popup/mh7_vagalnerve.jpg" Width="400" />
+				<HTML>
+					In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some seizures may be triggered by excess alcohol intake or lack of sleep. Avoiding these triggers may help improve seizure control. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who have epilepsy may be embarrassed or frustrated by their condition. Frontal lobe seizures may be especially embarrassing because they sometimes feature loud vocalizations or sexual movements. 
+&lt;/p&gt;
+&lt;p&gt;
+It helps if family members can encourage a positive outlook and avoid blaming or resenting the person who has seizures. Counseling services and epilepsy support groups can assist families in learning to cope.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Frontal lobe seizures
+	</Title>
+	<Abstract>
+		Frontal lobe seizures &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this type of epilepsy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01573" LinkType="Internal" ObjectID="C68F44FE-E7FF-0DBD-139820B9767595F0" Title="Neurontin side effects: How do I manage them?" Url="http://www.mayoclinic.com/health/neurontin-side-effects/AN01573" />
+	</RelatedLinksBox>
+</Disease>

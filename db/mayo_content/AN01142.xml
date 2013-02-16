@@ -1,0 +1,173 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01142
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sea-salt/AN01142
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-03
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1251" Title="Healthy menus and shopping strategies" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C5B5D7EB-FF8B-405F-A51D8D5A183CF286
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				salt
+			</MetaKeyword>
+			<MetaKeyword>
+				sodium
+			</MetaKeyword>
+			<MetaKeyword>
+				sea salt
+			</MetaKeyword>
+			<MetaKeyword>
+				kosher salt
+			</MetaKeyword>
+			<MetaKeyword>
+				sodium chloride
+			</MetaKeyword>
+			<MetaKeyword>
+				sodium guidelines
+			</MetaKeyword>
+			<MetaKeyword>
+				sodium recommendations
+			</MetaKeyword>
+			<MetaKeyword>
+				salt intake
+			</MetaKeyword>
+			<MetaKeyword>
+				specialty salt
+			</MetaKeyword>
+			<MetaKeyword>
+				gourmet salt
+			</MetaKeyword>
+			<MetaKeyword>
+				iodized salt
+			</MetaKeyword>
+			<MetaKeyword>
+				iodized table salt
+			</MetaKeyword>
+			<MetaKeyword>
+				iodine
+			</MetaKeyword>
+			<MetaKeyword>
+				solar salt
+			</MetaKeyword>
+			<MetaKeyword>
+				salt and health
+			</MetaKeyword>
+			<MetaKeyword>
+				salt and nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				salt risks
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Sea salt and table salt have the same basic nutritional value, despite the fact that sea salt is often marketed as a more natural and healthy alternative. The most notable differences between sea salt and table salt are in their taste, texture and processing.
+&lt;/p&gt;
+&lt;p&gt;
+Sea salt is produced through evaporation of ocean water or water from saltwater lakes, usually with little processing. Depending on the water source, this leaves behind certain trace minerals and elements. The minerals add flavor and color to sea salt, which also comes in a variety of coarseness levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Table salt is typically mined from underground salt deposits. Table salt is more heavily processed to eliminate minerals and usually contains an additive to prevent clumping. Most table salt also has added iodine, an essential nutrient that helps maintain a healthy thyroid.
+&lt;/p&gt;
+&lt;p&gt;
+By weight, sea salt and table salt contain the same amount of sodium.
+&lt;/p&gt;
+&lt;p&gt;
+Regardless of which type of salt you prefer, limit total sodium to less than 2,300 milligrams a day &amp;mdash; or 1,500 milligrams if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are 51 or older&lt;/li&gt;
+	&lt;li&gt;Are black&lt;/li&gt;
+	&lt;li&gt;Have high blood pressure, diabetes or chronic kidney disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sea salt vs. table salt: What&apos;s the difference?
+	</Title>
+	<Abstract>
+		Sea salt &amp;mdash; Are claims about its health advantages true?
+	</Abstract>
+	<Question>
+		What&apos;s the difference between sea salt and table salt?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="MY00769" LinkType="Internal" ObjectID="3CDBF141-C2AF-4FE6-CAD97A63BC955462" Title="Slide show: Guide to gourmet salt" Url="http://www.mayoclinic.com/health/gourmet-salt/MY00769" />
+		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="InteractiveTable" DocID="MY01559" LinkType="Internal" ObjectID="E8E4012D-9C72-F45F-60D7D276748502E7" Title="Free range and other meat and poultry terms" Url="http://www.mayoclinic.com/health/free-range/MY01559" />
+		<LinkItem ContentType="Answer" DocID="AN01512" LinkType="Internal" ObjectID="CECBBE0E-E7FF-0DBD-19B13DA4318EF9FE" Title="White whole-wheat bread: Is it nutritious?" Url="http://www.mayoclinic.com/health/whole-wheat-bread/AN01512" />
+		<LinkItem ContentType="Answer" DocID="AN01955" LinkType="Internal" ObjectID="AC1444AE-E7FF-0DBD-1A3622A35127B676" Title="What is BPA? Should I be worried about it?" Url="http://www.mayoclinic.com/health/bpa/AN01955" />
+		<LinkItem ContentType="Answer" DocID="AN01858" LinkType="Internal" ObjectID="9A75A91C-E7FF-0DBD-1D8413A3F073B347" Title="Calories in sushi: What are the low-cal options?" Url="http://www.mayoclinic.com/health/calories-in-sushi/AN01858" />
+		<LinkItem ContentType="Answer" DocID="AN01857" LinkType="Internal" ObjectID="9A741BD0-E7FF-0DBD-14C5F2A3FCD99732" Title="Vegetable juice: As good as whole vegetables?" Url="http://www.mayoclinic.com/health/vegetable-juice/AN01857" />
+		<LinkItem ContentType="Answer" DocID="AN02119" LinkType="Internal" ObjectID="66961E9B-ED5A-E9DC-94CA87543F3E14CC" Title="Sodium nitrate in meat: Heart disease risk factor?" Url="http://www.mayoclinic.com/health/sodium-nitrate/AN02119" />
+		<LinkItem ContentType="SlideShow" DocID="MY01593" LinkType="Internal" ObjectID="5B96B16B-D098-F54B-59BF3E3CCCC550AD" Title="Slide show: Add antioxidants to your diet" Url="http://www.mayoclinic.com/health/antioxidants/MY01593" />
+		<LinkItem ContentType="SlideShow" DocID="MY00612" LinkType="Internal" ObjectID="0FD2D431-A972-ACFC-0DB6582BC92452DE" Title="Slide show: Guide to beans and legumes" Url="http://www.mayoclinic.com/health/beans-and-legumes/MY00612" />
+		<LinkItem ContentType="Article" DocID="NU00197" LinkType="Internal" ObjectID="F4DDB018-0B32-4B66-96A44C35E7A8A914" Title="Healthy breakfast: Quick, flexible options to grab at home" Url="http://www.mayoclinic.com/health/food-and-nutrition/NU00197" />
+		<LinkItem ContentType="Article" DocID="NU00643" LinkType="Internal" ObjectID="F12B2331-E7FF-0DBD-1900055B6FE6AEAA" Title="Thanksgiving recipes: Delicious and healthy options" Url="http://www.mayoclinic.com/health/thanksgiving-recipes/NU00643" />
+		<LinkItem ContentType="Article" DocID="MY00753" LinkType="Internal" ObjectID="EE5D1FA2-D669-8E89-CCC8E273850D161D" Title="Menu planning: Eat healthier and spend less" Url="http://www.mayoclinic.com/health/menu-planning/MY00753" />
+		<LinkItem ContentType="Article" DocID="NU00202" LinkType="Internal" ObjectID="E52A064C-BF17-4596-AF8BAE25C131437C" Title="How meat and poultry fit in your healthy diet" Url="http://www.mayoclinic.com/health/food-and-nutrition/NU00202" />
+		<LinkItem ContentType="Article" DocID="MY01268" LinkType="Internal" ObjectID="B09B7010-C810-F4BF-8C671CB18312534E" Title="Fast food: 5 ways to healthier meals" Url="http://www.mayoclinic.com/health/fast-food/MY01268" />
+		<LinkItem ContentType="Article" DocID="MY00731" LinkType="Internal" ObjectID="888784EA-0CA6-7CD9-0882E8A19A6B8E6D" Title="Couponing and other frugal food shopping tips" Url="http://www.mayoclinic.com/health/frugal-food/MY00731" />
+		<LinkItem ContentType="Article" DocID="MY01799" LinkType="Internal" ObjectID="7B77527A-AE74-12D2-98426BBDFED7C1B5" Title="Vegetarian recipes" Url="http://www.mayoclinic.com/health/vegetarian-recipes/MY01799" />
+		<LinkItem ContentType="Article" DocID="SA00103" LinkType="Internal" ObjectID="5084A5CE-ADF0-4A3B-A3D52E4DF3B91F3E" Title="Mayo Clinic Healthy Weight Pyramid: A sample menu" Url="http://www.mayoclinic.com/health/healthy-weight-pyramid/SA00103" />
+		<LinkItem ContentType="Article" DocID="NU00645" LinkType="Internal" ObjectID="4973773F-E7FF-0DBD-17FFCC08890B857A" Title="Holiday recipes: Celebrate with healthy, festive fare" Url="http://www.mayoclinic.com/health/holiday-recipes/NU00645" />
+		<LinkItem ContentType="Article" DocID="NU00255" LinkType="Internal" ObjectID="039DC948-6412-41AE-A46232789E371DC5" Title="Organic foods: Are they safer? More nutritious?" Url="http://www.mayoclinic.com/health/organic-food/NU00255" />
+		<LinkItem ContentType="Article" DocID="MY01387" LinkType="Internal" ObjectID="002EBFB3-08C8-1ADF-5CE0A3ECD2C18B8E" Title="Cuts of beef: A guide to the leanest selections" Url="http://www.mayoclinic.com/health/cuts-of-beef/MY01387" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,151 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00241
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rheumatoid-factor/MY00241
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3834" Title="Bones joints and muscles">
+						<Keyword MCVID="3835" Title="Rheumatoid factor" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0FE6B583-E7FF-0DBD-1D56AFCEBFEF2184
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rheumatoid factor
+			</MetaKeyword>
+			<MetaKeyword>
+				factor rheumatoid
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid factor screen
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid arthritis diagnosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A rheumatoid factor test measures the amount of rheumatoid factor in your blood. Rheumatoid factors are proteins produced by your immune system that can attack healthy tissue in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+High levels of rheumatoid factor in the blood are most often associated with autoimmune diseases, such as rheumatoid arthritis and Sjogren&apos;s syndrome. But rheumatoid factor may be detected in some healthy people, and people with autoimmune diseases sometimes have normal levels of rheumatoid factor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A rheumatoid factor test is one of a group of tests primarily used to help pinpoint a diagnosis of rheumatoid arthritis. These other tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Antinuclear antibody (ANA)&lt;/li&gt;
+	&lt;li&gt;Anti-cyclic citrullinated peptide (anti-CCP) antibodies&lt;/li&gt;
+	&lt;li&gt;Complete blood count (CBC)&lt;/li&gt;
+	&lt;li&gt;C-reactive protein (CRP)&lt;/li&gt;
+	&lt;li&gt;Erythrocyte sedimentation rate (ESR, or sed rate)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The amount of rheumatoid factor in your blood may also help your doctor choose the treatment approach that will work best for your situation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During a rheumatoid factor test, a small sample of blood is drawn from a vein in your arm. This typically takes just a few minutes. Your blood sample is sent to a laboratory for testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A positive rheumatoid factor test result indicates that a high level of rheumatoid factor was detected in your blood. A higher level of rheumatoid factor in your blood is closely associated with autoimmune disease, particularly rheumatoid arthritis. But a number of other diseases and conditions can raise rheumatoid factor levels, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancer&lt;/li&gt;
+	&lt;li&gt;Chronic infections&lt;/li&gt;
+	&lt;li&gt;Cirrhosis&lt;/li&gt;
+	&lt;li&gt;Cryoglobulinemia&lt;/li&gt;
+	&lt;li&gt;Inflammatory lung diseases, such as sarcoidosis&lt;/li&gt;
+	&lt;li&gt;Mixed connective tissue disease&lt;/li&gt;
+	&lt;li&gt;Scleroderma&lt;/li&gt;
+	&lt;li&gt;Sjogren&apos;s syndrome&lt;/li&gt;
+	&lt;li&gt;Systemic lupus erythematosus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some healthy people have positive rheumatoid factor tests, though it&apos;s not clear why. And some people who have rheumatoid arthritis will have low levels of rheumatoid factor in their blood.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rheumatoid factor
+	</Title>
+	<Abstract>
+		Rheumatoid factor &amp;mdash; Overview covers definition, risks, results of rheumatoid factor blood test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00787" LinkType="Internal" ObjectID="74664E72-D011-7D0D-FAFA7BCB2AED1DD4" Title="ANA test" Url="http://www.mayoclinic.com/health/ana-test/MY00787" />
+	</RelatedLinksBox>
+</TestProcedure>

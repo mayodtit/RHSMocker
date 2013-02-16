@@ -1,0 +1,387 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00715
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dumping-syndrome/DS00715
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="2978" Title="Dumping syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			606E816B-2A5D-9994-EFB0A3B7E59F69E8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dumping syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				gastrectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric bypass surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroenterostomy
+			</MetaKeyword>
+			<MetaKeyword>
+				gastrojejunostomy
+			</MetaKeyword>
+			<MetaKeyword>
+				hypoglycemia
+			</MetaKeyword>
+			<MetaKeyword>
+				pylorus
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid gastric emptying
+			</MetaKeyword>
+			<MetaKeyword>
+				small intestine
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach
+			</MetaKeyword>
+			<MetaKeyword>
+				vagotomy
+			</MetaKeyword>
+			<MetaKeyword>
+				Zollinger-Ellison syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dumping syndrome is a group of symptoms that are most likely to develop if you&apos;ve had surgery to remove all or part of your stomach, or if your stomach has been surgically bypassed to help lose weight. Also called rapid gastric emptying, dumping syndrome occurs when the undigested contents of your stomach move too rapidly into your small bowel. Common symptoms include abdominal cramps, nausea and diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people with dumping syndrome experience symptoms soon after eating. In others, symptoms may occur one to three hours after eating. Some people experience both early and late symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Dumping syndrome is managed by adjusting your diet. In more-serious cases of dumping syndrome, you may need medications or surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of dumping syndrome are most common during a meal or within 15 to 30 minutes following a meal. They include: 
+&lt;/p&gt;
+&lt;p&gt;
+Gastrointestinal 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Feeling of fullness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cardiovascular 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flushing&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness&lt;/li&gt;
+	&lt;li&gt;Heart palpitations, rapid heart rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms also can develop later, usually one to three hours after eating. This is due to the dumping of large amount of sugars into the small intestine (hyperglycemia). In response, the body releases large amounts of insulin to absorb the sugars, leading to low levels of sugar in the body (hypoglycemia). Symptoms of late dumping can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Hunger&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Heart palpitations, rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A study of more than 1,100 people who had their stomachs surgically removed found that about two-thirds experienced early symptoms and about a third experienced late symptoms of dumping syndrome. Some people experience both early and late signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+No matter when problems develop, however, they may be worse following a high-sugar meal, especially one that&apos;s rich in table sugar (sucrose) or fruit sugar (fructose). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your doctor if any of the following apply to you. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You develop signs and symptoms that might be due to dumping syndrome, even if you haven&apos;t had surgery.&lt;/li&gt;
+	&lt;li&gt;Your symptoms are not controlled by dietary changes.&lt;/li&gt;
+	&lt;li&gt;You are losing large amounts of weight due to dumping syndrome. Your doctor may refer you to a registered dietitian to help you create the most appropriate eating plan.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In dumping syndrome, food and gastric juices from your stomach move to your small intestine in an uncontrolled, abnormally fast manner. This is most often related to changes in your stomach associated with surgery, such as when the opening (pylorus) between your stomach and the small intestine (duodenum) has been removed during an operation. 
+&lt;/p&gt;
+&lt;p&gt;
+The pylorus acts as a brake so that stomach emptying is gradual. When it&apos;s removed, stomach material dumps rapidly into the small intestine. The ill effects of this are thought to be caused by the release of gastrointestinal hormones in the small intestine, as well as insulin secreted to process the sugar (glucose). 
+&lt;/p&gt;
+&lt;p&gt;
+Dumping syndrome can occur after any operation on the stomach as well as after removal of the esophagus (esophagectomy). Gastric bypass surgery for weight loss is the most common cause today. It develops most commonly within weeks after surgery, or as soon as you return to your normal diet. The more stomach removed or bypassed, the more likely that the condition will be severe. It sometimes becomes a chronic disorder. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="60" Title="Stomach and pyloric valve" URI="/images/image_popup/thumbs/r7_pyloricvalvethu.jpg" Width="60" />
+				<Image Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="300" Title="Stomach and pyloric valve" URI="/images/image_popup/r7_pyloricvalve.jpg" Width="400" />
+				<HTML>
+					Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several types of surgery increase your risk of dumping syndrome. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gastrectomy,&lt;/strong&gt; in which a portion or all of your stomach is removed. It typically includes removing the pylorus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastroenterostomy or gastrojejunostomy,&lt;/strong&gt; in which your stomach is surgically connected directly to your small intestine. Stomach contents then enter the small intestine directly, bypassing the pylorus. Doctors sometimes perform this operation in people with cancer of the stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vagotomy,&lt;/strong&gt; in which the fibers of the vagus nerve to your stomach are cut in order to lower the levels of acid produced by your stomach. The vagus nerve is important in coordinating emptying of stomach contents into the small intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fundoplication,&lt;/strong&gt; which is an operation sometimes performed on people with gastroesophageal reflux disease. It involves wrapping the upper portion of your stomach around the lower esophagus to apply pressure that reduces the reflux of gastric contents into the esophagus. However, on rare occasions, certain nerves to the stomach are unintentionally damaged during surgery, leading to dumping syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastric bypass surgery (Roux-en-Y operation),&lt;/strong&gt; which is performed to treat morbid obesity. It surgically creates a stomach pouch smaller than the entire stomach, meaning you&apos;re no longer able to eat as much as you once did. It connects the small intestine to this pouch in the form of a gastrojejunostomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophagectomy,&lt;/strong&gt; where all or part of the tube between the mouth and the stomach is removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain underlying conditions and medications also may make you more susceptible to dumping syndrome. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Cyclic vomiting syndrome (CVS)&lt;/li&gt;
+	&lt;li&gt;Zollinger-Ellison syndrome, which causes severe peptic ulcers&lt;/li&gt;
+	&lt;li&gt;Metoclopramide (Reglan, Metozolv), sometimes prescribed to ease nausea, vomiting and heartburn&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing gastric bypass surgery 
+" Caption="Before gastric bypass, food (see arrows) enters your stomach and passes into the small intestine. After surgery, the amount of food you can eat is reduced due to the smaller stomach pouch. Food is also redirected so that it bypasses (see shaded areas) most of your stomach and the first section of your small intestine (duodenum). Food flows directly into the middle section of your small intestine (jejunum), limiting absorption of calories. 
+" Height="60" Title="Gastric bypass surgery" URI="/images/image_popup/thumbs/fn7_gastricbypassthu.jpg" Width="60" />
+				<Image Alt="Illustration showing gastric bypass surgery 
+" Caption="Before gastric bypass, food (see arrows) enters your stomach and passes into the small intestine. After surgery, the amount of food you can eat is reduced due to the smaller stomach pouch. Food is also redirected so that it bypasses (see shaded areas) most of your stomach and the first section of your small intestine (duodenum). Food flows directly into the middle section of your small intestine (jejunum), limiting absorption of calories. 
+" Height="309" Title="Gastric bypass surgery" URI="/images/image_popup/fn7_gastricbypass.jpg" Width="400" />
+				<HTML>
+					Before gastric bypass, food (see arrows) enters your stomach and passes into the small intestine. After surgery, the amount of food you can eat is reduced due to the smaller stomach pouch. Food is ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In people with severe cases of dumping syndrome, marked weight loss and malnutrition may occur. Sometimes people who lose a lot of weight may also develop a fear of eating, related to the discomfort associated with the rapid dumping of undigested food. They may also avoid outdoor physical activity in order to stay close to a toilet. Some have difficulty keeping a job because of their chronic symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of dumping syndrome, you&apos;re likely to first see your family doctor or a general practitioner. However, you may be referred to a doctor who specializes in treating digestive system disorders (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along &lt;/strong&gt;to help you remember everything.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring your medical records about past treatment, &lt;/strong&gt;especially about any gastric surgery and specifically what type of operation was performed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. List your questions from most important to least important. For dumping syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Should I see a dietitian?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? &lt;/li&gt;
+	&lt;li&gt;How can I find out the costs of this treatment and if my insurance company will cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you had an operation on your stomach, and if so, what kind?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How long after eating do your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have you noticed that certain foods make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may use some of the following methods to determine if you have dumping syndrome. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history and evaluation.&lt;/strong&gt; Your doctor can often diagnose dumping syndrome by taking a careful medical history and then evaluating your signs and symptoms. If you have undergone stomach surgery, that may help lead your doctor to a diagnosis of dumping syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood sugar test.&lt;/strong&gt; Because low blood sugar is sometimes associated with dumping syndrome, your doctor may order a test (oral glucose tolerance test) to measure your blood sugar level at the peak time of your symptoms to help confirm the diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastric emptying test.&lt;/strong&gt; A radioactive material is added to food to measure how quickly food moves through your stomach.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of dumping syndrome improve as people learn to eat better for the condition and as the digestive system adjusts. There&apos;s a good chance that changing your diet will resolve your symptoms. (See recommendations under Lifestyle and home remedies.) If it doesn&apos;t, your doctor may advise medications or surgery to address the problem. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Your doctor may prescribe certain medications to slow the passage of food out of your stomach, and relieve the signs and symptoms associated with dumping syndrome. These drugs are most appropriate for people with severe signs and symptoms, and they don&apos;t work for everyone. 
+&lt;/p&gt;
+&lt;p&gt;
+The medications that doctors most frequently prescribe are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acarbose (Precose).&lt;/strong&gt; This medication delays the digestion of carbohydrates. Doctors prescribe it most often for the management of type 2 diabetes, and it has also been found to be effective in people with late-onset dumping syndrome. Side effects may include sweating, headaches, sudden hunger and weakness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Octreotide (Sandostatin).&lt;/strong&gt; This anti-diarrheal drug can slow down the emptying of food into the intestine. You take this drug by injecting it under your skin (subcutaneously). Be sure to talk with your doctor about the proper way to self-administer the drug, including optimal choices for injection sites. Long-acting formulations of this medication are available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because octreotide carries the risk of side effects (diarrhea, bulky stools, gallstones, flatulence, bloating) in some people, doctors recommend it only for people who haven&apos;t responded to other treatments and who are not candidates for surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Doctors use a number of surgical procedures to treat difficult cases of dumping syndrome that are resistant to more conservative approaches. Most of these operations are reconstructive techniques, such as reconstructing the pylorus, or they&apos;re intended to reverse gastric bypass surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Feeding tube&lt;/strong&gt; &lt;br /&gt;
+A last resort for people who are not helped by any other treatment is to insert a tube into the small intestine through which nutrients can be delivered. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are some dietary treatment strategies that your doctor may recommend and that you can do on your own. They can help maintain good nutrition and minimize your symptoms. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller meals.&lt;/strong&gt; Try consuming about six small meals a day rather than three larger ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid fluids with meals.&lt;/strong&gt; Drink liquids only between meals. Avoid liquids for a half-hour before eating and a half-hour after eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change your diet.&lt;/strong&gt; Consume more foods low in carbohydrates, such as grains, starchy vegetables and fruits. Avoid foods with sugar, including glucose, sucrose, fructose, dextrose, honey and corn syrup. Consume more protein. A small serving (one-half cup) of milk, cheese or yogurt is tolerable to many people. It may help to see a registered dietitian.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chew well.&lt;/strong&gt; Chewing food thoroughly before you swallow can ease digestion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase fiber intake.&lt;/strong&gt; Psyllium, guar gum and pectin in food or supplements can delay the absorption of carbohydrates in the small intestine. Pectin is found in many fruits, such as peaches, apples and plums.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay away from acidic foods.&lt;/strong&gt; Tomatoes and citrus fruits are harder for some people to digest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use low-fat cooking methods.&lt;/strong&gt; Prepare meat and other foods by broiling, baking or grilling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consume adequate vitamins, iron and calcium.&lt;/strong&gt; These can sometimes become depleted following stomach surgery. Discuss this nutritional issue with a dietitian.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lie down after eating.&lt;/strong&gt; This may slow down the movement of food into your intestines. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even with dietary changes, you may continue to experience symptoms associated with dumping syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people use supplements such as pectin, guar gum, black psyllium and blond psyllium to thicken the digestive contents and slow its progress through the intestines. If you decide to try a supplement, discuss it with your doctor to learn about any potential side effects or interactions with other medications you&apos;re taking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dumping syndrome
+	</Title>
+	<Abstract>
+		Dumping syndrome &amp;mdash; Comprehensive overview of rapid stomach emptying covers symptoms, causes, treatments, including diet.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

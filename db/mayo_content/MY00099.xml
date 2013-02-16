@@ -1,0 +1,260 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00099
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-11
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4213" Title="Surgery">
+							<Keyword MCVID="3986" Title="Vaginal hysterectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BB71967E-E7FF-0DBD-18F947AE9007E769
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vaginal hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				laparoscopic-assisted vaginal hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				LAVH
+			</MetaKeyword>
+			<MetaKeyword>
+				oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hystorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				prolapsed uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				historectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				hysterctomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vaginal hysterectomy is a surgical procedure to remove the uterus through the vagina. During a vaginal hysterectomy, the surgeon detaches the uterus from the ovaries, fallopian tubes and upper vagina, as well as from the blood vessels and connective tissue that support it. The uterus is then removed through the vagina. 
+&lt;/p&gt;
+&lt;p&gt;
+Vaginal hysterectomy involves a shorter time in the hospital, lower cost and faster recovery than an abdominal hysterectomy, which requires an incision in your lower abdomen. However, if your uterus is enlarged, vaginal hysterectomy may not be possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Hysterectomy often includes removal of the cervix as well as the uterus. When the surgeon also removes one or both ovaries and fallopian tubes, it&apos;s called a total hysterectomy with salpingo-oophorectomy (sal-ping-go-o-of-uh-REK-tuh-me). Located in your pelvis, all these organs are part of your reproductive system. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vaginal hysterectomy treats many different gynecologic problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fibroids.&lt;/strong&gt; Many hysterectomies are done to permanently treat fibroids &amp;mdash; benign tumors in your uterus that can cause persistent bleeding, anemia, pelvic pain, pain during intercourse and bladder pressure. If you have large fibroids, you may need an abdominal hysterectomy &amp;mdash; surgery that removes your uterus through an incision in your lower abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometriosis.&lt;/strong&gt; Endometriosis occurs when the tissue lining your uterus (endometrium) grows outside of the uterus, involving the ovaries, fallopian tubes or other organs. Most women with endometriosis have an abdominal hysterectomy, but sometimes a vaginal hysterectomy is possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gynecologic cancer.&lt;/strong&gt; If you have cancer of the uterus, cervix, endometrium or ovaries, your doctor may recommend a hysterectomy to treat it. Most of the time, an abdominal hysterectomy is done during treatment for ovarian cancer, but sometimes vaginal hysterectomy may be appropriate for women with cervical cancer or endometrial cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine prolapse.&lt;/strong&gt; When pelvic supporting tissues and ligaments get stretched out or weak, the uterus can lower or sag into the vagina, causing urinary incontinence, pelvic pressure or difficulty with bowel movements. Removing the uterus with hysterectomy and repairing pelvic relaxation may relieve those symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal vaginal bleeding.&lt;/strong&gt; When medication or a less invasive surgical procedure doesn&apos;t control irregular, heavy or very long periods, hysterectomy can solve the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic pelvic pain.&lt;/strong&gt; If you have chronic pelvic pain clearly caused by a uterine condition, hysterectomy may help, but only as a last resort. Chronic pelvic pain can have several causes, so an accurate diagnosis of the cause is critical before having a hysterectomy for pelvic pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For most of these conditions &amp;mdash; with the possible exception of cancer &amp;mdash; hysterectomy is just one of several treatment options. You may not even need to consider hysterectomy unless medications and less invasive gynecologic procedures have failed.
+&lt;/p&gt;
+&lt;p&gt;
+You cannot become pregnant after you&apos;ve had a hysterectomy. If you&apos;re less than completely sure that you&apos;re ready to give up your fertility, explore other treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although vaginal hysterectomy is generally safe, any surgery has risks. Risks of vaginal hysterectomy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heavy bleeding&lt;/li&gt;
+	&lt;li&gt;Blood clots in the legs or lungs&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Damage to surrounding organs&lt;/li&gt;
+	&lt;li&gt;Adverse reaction to anesthesia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgical risks are higher in women who are obese or who have diabetes or high blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+There is a risk of injury to other pelvic and abdominal organs during vaginal hysterectomy, including the bladder, ureters or bowel.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s normal to feel anxious about having a hysterectomy. Here&apos;s what you can do to prepare: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gather information.&lt;/strong&gt; Before the surgery, get all the information you need to feel confident about it. Ask your doctor and surgeon questions. Learn about the procedure, including all the steps involved if it makes you feel more comfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your doctor&apos;s instructions about medication.&lt;/strong&gt; Find out whether you should change your usual medication routine in the days leading up to your hysterectomy. Be sure to tell your doctor about any over-the-counter medications, dietary supplements or herbal preparations that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss what type of anesthesia you&apos;ll have.&lt;/strong&gt; You may prefer general anesthesia, which makes you unconscious during surgery, but regional anesthesia &amp;mdash; also called spinal or epidural block &amp;mdash; may be an option. If you&apos;re having a vaginal hysterectomy, regional anesthesia will block the sensation in the lower half of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for help.&lt;/strong&gt; Although you&apos;re likely to recover sooner after a vaginal hysterectomy than after an abdominal one, it still takes time. Ask someone to help you out at home for the first week or so.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Talk with your doctor about what to expect during and after surgery, including physical and emotional effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During vaginal hysterectomy&lt;br /&gt;
+&lt;/strong&gt;You may have general anesthesia, so you won&apos;t be awake for the surgery. Alternatively, you may choose a spinal block (regional anesthesia) with a medication that makes you drowsy, or you may remain awake during your surgery.
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll lie on your back, in a position similar to the one you&apos;re in for a Pap smear. You may have a urinary catheter inserted to empty your bladder. A member of your surgical team cleans the surgical area with a sterile solution before surgery.
+&lt;/p&gt;
+&lt;p&gt;
+To perform the hysterectomy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your surgeon makes an incision inside your vagina to get to the uterus&lt;/li&gt;
+	&lt;li&gt;Using long instruments, your surgeon clamps the uterine blood vessels and separates your uterus from the connective tissue, ovaries and fallopian tubes&lt;/li&gt;
+	&lt;li&gt;Your uterus is removed through the vaginal opening, and absorbable stitches are used to control any bleeding inside the pelvis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Except in cases of suspected uterine cancer, the surgeon may cut an enlarged uterus into smaller pieces and remove it in sections (morcellation). 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s always a risk that severe endometriosis or pelvic adhesions may force your surgeon to switch from a vaginal to abdominal hysterectomy during the surgery. Ask your surgeon about this possibility. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laparoscopic or robotic hysterectomy&lt;br /&gt;
+&lt;/strong&gt;You may be a candidate for a laparoscopically-assisted vaginal hysterectomy (LAVH) or robotic hysterectomy. Both procedures allow your surgeon to remove the uterus vaginally while being able to see your pelvic organs through a laparoscope, a slender viewing instrument. Your surgeon performs most of the procedure through small abdominal incisions aided by long, thin surgical instruments inserted through the incisions. Your surgeon then removes the uterus through an incision made in your vagina. 
+&lt;/p&gt;
+&lt;p&gt;
+Your surgeon might recommend LAVH or robotic hysterectomy if you have scar tissue (adhesions) on your pelvic organs from prior surgeries or from endometriosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the vaginal hysterectomy&lt;br /&gt;
+&lt;/strong&gt;After surgery, you&apos;ll be in a recovery room for a few hours and in the hospital for one to two days, possibly longer. You&apos;ll take medication for pain and to prevent infection. Your health care team will encourage you to get up and move as soon as you&apos;re able.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s normal to have bloody vaginal discharge for several days to weeks after a hysterectomy, so you&apos;ll need to wear sanitary pads. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical effects after a hysterectomy&lt;br /&gt;
+&lt;/strong&gt;After a hysterectomy, you&apos;ll no longer have periods or be able to get pregnant.
+&lt;/p&gt;
+&lt;p&gt;
+If your ovaries weren&apos;t removed and you still had periods before the surgery, your ovaries continue producing hormones and eggs until you reach menopause. If you had your ovaries removed, you&apos;ll begin menopause immediately after surgery. You may experience symptoms such as vaginal dryness and hot flashes &amp;mdash; your doctor can recommend treatment for these symptoms, if you need it. 
+&lt;/p&gt;
+&lt;p&gt;
+Recovery after vaginal hysterectomy is shorter and less painful than after an abdominal hysterectomy. A full recovery may take three to four weeks. Even if you feel like you&apos;re back to normal, don&apos;t lift anything heavy &amp;mdash; more than 20 pounds (9.1 kilograms) &amp;mdash; or have vaginal intercourse until six weeks after surgery. Contact your doctor if pain worsens or if you develop nausea, vomiting or bleeding that&apos;s heavier than a menstrual period.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emotional effects after a hysterectomy&lt;br /&gt;
+&lt;/strong&gt;After a hysterectomy, you may have an improved mood and increased sense of well-being. You may be relieved to no longer experience signs and symptoms such as heavy bleeding or pelvic pain. For most women, there&apos;s no change in sexual function after hysterectomy. But for some women, heightened sexual satisfaction occurs after hysterectomy &amp;mdash; perhaps because they no longer fear becoming pregnant or no longer have pain during intercourse. 
+&lt;/p&gt;
+&lt;p&gt;
+You may feel a sense of loss and grief after hysterectomy, which is normal. Or you may experience depression related to the loss of your fertility, especially if you&apos;re young and hoped for a future pregnancy. If sadness or negative feelings begin to interfere with your enjoyment of everyday life, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vaginal hysterectomy
+	</Title>
+	<Abstract>
+		Vaginal hysterectomy removes the uterus through the vagina to treat gynecologic conditions.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00807" LinkType="Internal" ObjectID="E711535B-DE8A-B15E-A0233CCEE43B209D" Title="Video: Causes of endometriosis" Url="http://www.mayoclinic.com/health/cause-of-endometriosis/MM00807" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Answer" DocID="AN01889" LinkType="Internal" ObjectID="55048F6A-E7FF-0DBD-1192F652C92D6B41" Title="Bleeding after hysterectomy: What&apos;s normal?" Url="http://www.mayoclinic.com/health/bleeding-after-hysterectomy/AN01889" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+	</RelatedLinksBox>
+</TestProcedure>

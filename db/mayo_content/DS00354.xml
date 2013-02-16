@@ -1,0 +1,353 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00354
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/canker-sore/DS00354
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-24
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="2234" Title="Canker sores" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AE1DE24D-3A67-439D-99D0A1340D5CE2BA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				canker sore
+			</MetaKeyword>
+			<MetaKeyword>
+				aphthous ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth sore
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				canker sores
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth sores
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth ulcers
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Canker sores, also called aphthous ulcers, are small, shallow lesions that develop on the soft tissues in your mouth or at the base of your gums. Unlike cold sores, canker sores don&apos;t occur on the surface of your lips and aren&apos;t contagious. They can be painful, however, and can make eating and talking difficult.
+&lt;/p&gt;
+&lt;p&gt;
+Most canker sores go away on their own in a week or two. Check with your doctor or dentist if you have unusually large or painful canker sores or canker sores that don&apos;t seem to heal.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing canker sore
+" Caption="Canker sores occur singly or in clusters on the inside surfaces of your cheeks or lips, on or under your tongue, at the base of your gums, or on your soft palate. They usually have a white or yellow center and a red border and can be extremely painful.
+" Height="60" Title="Canker sore" URI="/images/image_popup/thumbs/r7_cankersorethu.jpg" Width="60" />
+				<Image Alt="Photograph showing canker sore
+" Caption="Canker sores occur singly or in clusters on the inside surfaces of your cheeks or lips, on or under your tongue, at the base of your gums, or on your soft palate. They usually have a white or yellow center and a red border and can be extremely painful.
+" Height="302" Title="Canker sore" URI="/images/image_popup/r7_cankersore.jpg" Width="400" />
+				<HTML>
+					Canker sores occur singly or in clusters on the inside surfaces of your cheeks or lips, on or under your tongue, at the base of your gums, or on your soft palate. They usually have a white or yellow ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most canker sores are round or oval with a white or yellow center and a red border. They form inside your mouth &amp;mdash; on or under your tongue, inside your cheeks or lips, at the base of your gums, or on your soft palate. You might notice a tingling or burning sensation a day or two before the sores actually appear.
+&lt;/p&gt;
+&lt;p&gt;
+There are several types of canker sores, including minor, major and herpetiform sores.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Minor canker sores&lt;/strong&gt;&lt;br /&gt;
+These most common canker sores:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are usually small&lt;/li&gt;
+	&lt;li&gt;Are oval shaped&lt;/li&gt;
+	&lt;li&gt;Heal without scarring in one to two weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Major canker sores&lt;/strong&gt;&lt;br /&gt;
+These less common sores:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are larger and deeper than minor canker sores&lt;/li&gt;
+	&lt;li&gt;Have irregular edges&lt;/li&gt;
+	&lt;li&gt;May take up to six weeks to heal and can leave extensive scarring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Herpetiform canker sores&lt;/strong&gt;&lt;br /&gt;
+These canker sores, which usually develop later in life:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are pinpoint size&lt;/li&gt;
+	&lt;li&gt;Often occur in clusters of 10 to 100 sores&lt;/li&gt;
+	&lt;li&gt;Have irregular edges&lt;/li&gt;
+	&lt;li&gt;Heal without scarring in one to two weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Consult your doctor if you experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unusually large canker sores&lt;/li&gt;
+	&lt;li&gt;Recurring sores, with new ones developing before old ones heal&lt;/li&gt;
+	&lt;li&gt;Persistent sores, lasting three weeks or more&lt;/li&gt;
+	&lt;li&gt;Sores that extend into the lips themselves (vermilion border)&lt;/li&gt;
+	&lt;li&gt;Pain that you can&apos;t control with self-care measures&lt;/li&gt;
+	&lt;li&gt;Extreme difficulty eating or drinking&lt;/li&gt;
+	&lt;li&gt;High fever along with canker sores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+See your dentist if you have sharp tooth surfaces or dental appliances that seem to trigger the sores.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing canker sore
+" Caption="Canker sores occur singly or in clusters on the inside surfaces of your cheeks or lips, on or under your tongue, at the base of your gums, or on your soft palate. They usually have a white or yellow center and a red border and can be extremely painful.
+" Height="60" Title="Canker sore" URI="/images/image_popup/thumbs/r7_cankersorethu.jpg" Width="60" />
+				<Image Alt="Photograph showing canker sore
+" Caption="Canker sores occur singly or in clusters on the inside surfaces of your cheeks or lips, on or under your tongue, at the base of your gums, or on your soft palate. They usually have a white or yellow center and a red border and can be extremely painful.
+" Height="302" Title="Canker sore" URI="/images/image_popup/r7_cankersore.jpg" Width="400" />
+				<HTML>
+					Canker sores occur singly or in clusters on the inside surfaces of your cheeks or lips, on or under your tongue, at the base of your gums, or on your soft palate. They usually have a white or yellow ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The precise cause of canker sores remains unclear, though researchers suspect that a combination of several factors contributes to outbreaks, even in the same person.
+&lt;/p&gt;
+&lt;p&gt;
+Possible triggers for canker sores include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A minor injury to your mouth from dental work, overzealous brushing, sports mishaps, spicy or acidic foods, or an accidental cheek bite&lt;/li&gt;
+	&lt;li&gt;Toothpastes and mouth rinses containing sodium lauryl sulfate&lt;/li&gt;
+	&lt;li&gt;Food sensitivities, particularly to chocolate, coffee, strawberries, eggs, nuts, cheese and highly acidic foods, such as pineapple&lt;/li&gt;
+	&lt;li&gt;A diet lacking in vitamin B-12, zinc, folate (folic acid) or iron&lt;/li&gt;
+	&lt;li&gt;An allergic response to certain bacteria in your mouth&lt;/li&gt;
+	&lt;li&gt;Helicobacter pylori, the same bacteria that cause peptic ulcers&lt;/li&gt;
+	&lt;li&gt;Hormonal shifts during menstruation&lt;/li&gt;
+	&lt;li&gt;Emotional stress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Canker sores may also occur because of certain conditions and diseases, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Celiac disease, a serious intestinal disorder caused by a sensitivity to gluten, a protein found in most grains&lt;/li&gt;
+	&lt;li&gt;Inflammatory bowel diseases, such as Crohn&apos;s disease and ulcerative colitis&lt;/li&gt;
+	&lt;li&gt;Behcet&apos;s disease, a rare disorder that causes inflammation throughout the body, including the mouth&lt;/li&gt;
+	&lt;li&gt;A faulty immune system that attacks healthy cells in your mouth instead of pathogens, such as viruses and bacteria&lt;/li&gt;
+	&lt;li&gt;HIV/AIDS, which suppresses the immune system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unlike cold sores, canker sores are not associated with herpes virus infections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop canker sores, but these factors make you more susceptible:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Canker sores, especially clusters of small sores, are more common in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a family history.&lt;/strong&gt; About one-third of people with recurrent canker sores have a family history of the disorder. This may be due to heredity or to a shared factor in the environment, such as certain foods or allergens.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or general practitioner will likely be able to diagnose a canker sore based on its appearance. In some cases, however, your doctor may recommend that you make an appointment with your dentist.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, including what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they first started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; as well as any vitamins or other supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical history,&lt;/strong&gt; including any other medical conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or emotional stressors in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor to make your visit more efficient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor. If other questions occur to you during your visit, don&apos;t hesitate to ask.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a canker sore?&lt;/li&gt;
+	&lt;li&gt;If so, what factors may have contributed to its development?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;What self-care steps can I take to ease my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to speed up my recovery?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms will improve?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to help prevent a recurrence?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you the questions below. Be ready to answer them so that you have more time for discussion.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe is your pain?&lt;/li&gt;
+	&lt;li&gt;Have you had similar sores in the past? If so, have you noticed if anything in particular seemed to trigger them?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for similar sores in the past? If so, what treatment was most effective?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent dental work?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced significant stress or major life changes?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking, including prescription and over-the-counter medications, vitamins, herbs and other supplements?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of canker sores?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests aren&apos;t needed to diagnose canker sores. Your doctor or dentist can identify them with a visual exam. In some cases, you may have tests to check for other health problems, especially if your canker sores are severe and ongoing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment usually isn&apos;t necessary for minor canker sores, which tend to clear on their own in a week or two. But large, persistent or unusually painful sores often need medical care. A number of treatment options exist, ranging from mouth rinses and topical ointments to systemic corticosteroids for the most-severe cases.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mouth rinses.&lt;/strong&gt; If you have several canker sores, your doctor may prescribe a mouth rinse containing the steroid dexamethasone (dek-suh-METH-uh-sown) to reduce pain and inflammation. Oral suspensions of the antibiotic tetracycline also can reduce pain and cut healing time, but tetracycline has drawbacks. It can make you more susceptible to oral thrush, a fungal infection that causes painful mouth sores, and it can permanently discolor children&apos;s teeth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical pastes.&lt;/strong&gt; Over-the-counter and prescription pastes with active ingredients such as benzocaine (Anbesol), amlexanox (Aphthasol) and fluocinonide (Lidex, Vanos) can help relieve pain and speed healing if applied to individual sores as soon as they appear. Your doctor may recommend applying the paste to the sore two to four times a day until it heals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral medications.&lt;/strong&gt; Medications not intended specifically for canker sore treatment, such as the heartburn drug cimetidine (Tagamet) and colchicine, which is normally used to treat gout, may be helpful for canker sores. Your doctor may prescribe oral steroid medications when severe canker sores don&apos;t respond to other treatments, but because of serious side effects, they&apos;re usually considered a last resort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cautery of sores.&lt;/strong&gt; During cautery, an instrument or chemical substance is used to burn, sear or destroy tissue. Debacterol is a topical solution designed to treat canker sores and gum problems. By chemically cauterizing canker sores, this medication may reduce healing time to about a week. Silver nitrate &amp;mdash; another option for chemical cautery of canker sores &amp;mdash; hasn&apos;t been shown to speed healing, but it may help relieve canker sore pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nutritional supplements.&lt;/strong&gt; Your doctor may prescribe a nutritional supplement if you consume low amounts of important nutrients, such as folate (folic acid), vitamin B-6, vitamin B-12 or zinc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your canker sores relate to a more serious health problem, your doctor will treat the underlying condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help relieve pain and speed healing:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse your mouth.&lt;/strong&gt; Use salt water; baking soda (dissolve 1 teaspoon of soda in 1/2 cup warm water); or a mixture of 1 part &amp;mdash; such as 1 teaspoon &amp;mdash; diphenhydramine (Benadryl) to either 1 part Kaopectate or 1 part Maalox. Be sure to spit out the mixtures after rinsing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dab a small amount of milk of magnesia&lt;/strong&gt; on your canker sore a few times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover canker sores&lt;/strong&gt; with a paste made of baking soda plus a small amount of water &amp;mdash; just enough to make a paste.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter products&lt;/strong&gt; that contain the numbing agent benzocaine, such as Anbesol and Orajel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid abrasive, acidic or spicy foods&lt;/strong&gt; that can cause further irritation and pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply ice to your canker sores&lt;/strong&gt; by allowing ice chips to slowly dissolve over the sores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brush your teeth gently,&lt;/strong&gt; using a soft brush and toothpaste without foaming agents, such as Biotene, Sensodyne ProNamel or Rembrandt Canker Sore.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Canker sores often recur, but you may be able to reduce their frequency by following these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what you eat.&lt;/strong&gt; Try to avoid foods that seem to irritate your mouth. These may include nuts, chips, pretzels, certain spices, salty foods and acidic fruits, such as pineapple, grapefruit and oranges. Avoid any foods to which you&apos;re sensitive or allergic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose healthy foods.&lt;/strong&gt; To help prevent nutritional deficiencies, eat plenty of fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t chew and talk at the same time.&lt;/strong&gt; You could cause minor trauma to the delicate lining of your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow good oral hygiene habits.&lt;/strong&gt; Regular brushing after meals and flossing once a day can keep your mouth clean and free of foods that might trigger a sore. Use a soft brush to help prevent irritation to delicate mouth tissues, and avoid toothpastes and mouth rinses that contain sodium lauryl sulfate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your mouth.&lt;/strong&gt; If you have braces or other dental appliances, ask your dentist about orthodontic waxes to cover sharp edges.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your stress.&lt;/strong&gt; If your canker sores seem to be related to stress, learn and use stress-reduction techniques, such as meditation and guided imagery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Canker sore
+	</Title>
+	<Abstract>
+		Canker sore &amp;mdash; Comprehensive overview covers causes, treatment and prevention of these painful mouth sores.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

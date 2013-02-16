@@ -1,0 +1,246 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00854
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/transverse-myelitis/DS00854
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-06
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1434" Title="Spinal cord">
+						<Keyword MCVID="3007" Title="Transverse myelitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			099FF4C0-E7FF-0DBD-1A0F63C92D530BA3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				transverse myelitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Transverse myelitis is inflammation of the spinal cord, which often targets insulating material covering nerve cell fibers (myelin). Transverse myelitis may result in injury across the spinal cord, causing diminished or absent sensation below the injury. 
+&lt;/p&gt;
+&lt;p&gt;
+The disrupted transmission of nerve signals due to transverse myelitis can cause pain or other sensory problems, weakness or paralysis of muscles, or bladder and bowel dysfunction. 
+&lt;/p&gt;
+&lt;p&gt;
+Several factors can cause transverse myelitis, including infections not directly affecting the spine and immune system disorders attacking the body&apos;s own tissues. It may also occur as an episode of other myelin disorders, such as multiple sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for transverse myelitis includes anti-inflammatory drugs, medications to manage symptoms and rehabilitative therapy. Most people with transverse myelitis experience at least partial recovery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of transverse myelitis usually develop rapidly over a few hours and worsen over the course of a few days. Less commonly, signs and symptoms progress gradually over several days to weeks. Commonly, but not always, both sides of the body are affected. 
+&lt;/p&gt;
+&lt;p&gt;
+Typical signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Pain associated with transverse myelitis often begins suddenly in your neck or back, depending on the part of your spinal cord that&apos;s affected. Sharp, shooting sensations may also radiate down your legs or arms or around your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal sensations.&lt;/strong&gt; Some people with transverse myelitis report sensations of numbness, tingling, coldness or burning. Some are especially sensitive to the light touch of clothing or to extreme heat or cold. You may feel as if the skin of your chest, abdomen or legs is being wrapped tightly by something.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakness in your arms or legs.&lt;/strong&gt; Some people with mild weakness notice that they&apos;re stumbling or dragging one foot or that their legs feel heavy as they move. Others may develop severe paralysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder and bowel problems.&lt;/strong&gt; These problems may include an increased urinary urge, urinary incontinence, difficulty urinating and constipation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Call your doctor or get emergency medical care if you&apos;re experiencing signs and symptoms of transverse myelitis. A number of neurological disorders can cause sensory problems, weakness, and bladder or bowel dysfunction. It&apos;s important to get a prompt diagnosis and appropriate treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Inflammation is a normal response of the immune system to disease or injury. But sometimes the immune system attacks the body&apos;s own tissues &amp;mdash; an event known as an autoimmune phenomenon. The exact reason for this immune system dysfunction in transverse myelitis is not known. However, there are a number of conditions that appear to trigger or contribute to the disorder. These conditions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Viral infections&lt;/strong&gt; of the respiratory tract or the gastrointestinal tract have been implicated in transverse myelitis. In most cases, the inflammatory disorder appears after a person has recovered from the viral infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mycoplasma pneumonia,&lt;/strong&gt; a relatively mild form of pneumonia caused by a bacterium, may act as a trigger for the immune system mechanisms causing transverse myelitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple sclerosis&lt;/strong&gt; is an autoimmune disorder in which the immune system destroys myelin surrounding nerves in your spinal cord and brain. Transverse myelitis may be the first sign of multiple sclerosis or represent a relapse of symptoms. Transverse myelitis occurring as a sign of multiple sclerosis usually manifests on one side of your body only.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neuromyelitis optica (Devic&apos;s disease)&lt;/strong&gt; is a condition that causes inflammation and loss of myelin around the spinal cord and the optic nerve, the nerve in your eye that transmits information to your brain. Signs and symptoms of transverse myelitis associated with neuromyelitis optica usually affect both sides of your body. Damage to myelin of the optic nerve and subsequent symptoms, including pain in the eye with movement and temporary vision loss, may occur at the same or other times as transverse myelitis symptoms. However, some people with neuromyelitis optica may not experience eye-related problems and may only have recurrent episodes of transverse myelitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune disorders&lt;/strong&gt; affecting other body systems are likely contributing factors in some people with transverse myelitis. These disorders include lupus, which can affect multiple body systems, and Sjogren&apos;s syndrome, which causes severe dryness of the mouth and eyes, as well as other symptoms. Transverse myelitis associated with an autoimmune disorder may indicate coexisting neuromyelitis optica, which occurs more frequently in people with other autoimmune diseases than it does in other people who don&apos;t have autoimmune disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccinations&lt;/strong&gt; for infectious diseases &amp;mdash; including hepatitis B, measles-mumps-rubella, and diphtheria-tetanus vaccines &amp;mdash; have rarely been identified as a likely trigger.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with transverse myelitis usually experience only one acute episode. However, complications often linger, including the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain&lt;/strong&gt; is one of the most common debilitating long-term complications of the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stiffness, tightness or painful spasms&lt;/strong&gt; in your muscles (muscle spasticity), especially in your buttocks and legs, affect most people with lingering effects of transverse myelitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partial or total paralysis&lt;/strong&gt; of your arms, legs or both may persist after the initial onset of symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual dysfunction&lt;/strong&gt; is a common complication arising from transverse myelitis. Men may experience difficulty achieving an erection or reaching an orgasm. Women may have difficulty reaching an orgasm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Limited physical activity over the long term due to transverse myelitis may lead to osteoporosis, a thinning or weakening of bones. People with osteoporosis are at increased risk of bone fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression or anxiety&lt;/strong&gt; is common in those with long-term complications because of the significant changes in lifestyle, the stress of chronic pain or disability, and the impact of sexual dysfunction on relationships.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms that may indicate transverse myelitis are generally severe and usually begin suddenly. Therefore, you&apos;ll likely need emergency or urgent care. 
+&lt;/p&gt;
+&lt;p&gt;
+Questions that the attending doctor is likely to ask include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How quickly have your symptoms developed?&lt;/li&gt;
+	&lt;li&gt;Do you have pain, tingling or other unusual sensations?&lt;/li&gt;
+	&lt;li&gt;How would you rate the pain on a scale of 1 to 10, with 10 being most painful?&lt;/li&gt;
+	&lt;li&gt;Have you experienced weakness or lack of coordination?&lt;/li&gt;
+	&lt;li&gt;Have you had problems with bowel or bladder control?&lt;/li&gt;
+	&lt;li&gt;Are you having any difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any infections?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any vaccinations?&lt;/li&gt;
+	&lt;li&gt;Have you traveled abroad lately? Where?&lt;/li&gt;
+	&lt;li&gt;Have you had any medical procedures in recent history?&lt;/li&gt;
+	&lt;li&gt;What prescription or over-the-counter medications do you take regularly? What are the dosages of each?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of transverse myelitis is based on your answers to questions about your signs and symptoms, your medical history, a clinical assessment of nerve function, and the results of tests. These tests, which may indicate inflammation of the spinal cord and rule out other disorders, include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI)&lt;/strong&gt; uses a magnetic field and radio waves to create cross-sectional or 3-D images of soft tissues. An MRI can show inflammation of the spinal cord, and it can identify other potential causes of the symptoms, including abnormalities causing spinal cord compression and blood vessel malformations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lumbar puncture,&lt;/strong&gt; or spinal tap, is the use of a needle to draw from the spinal column a small amount of cerebrospinal fluid (CSF), the protective fluid that surrounds your spinal cord and brain. In some people with transverse myelitis, CSF may have abnormally high numbers of white blood cells or immune system proteins that indicate inflammation. Spinal fluid can also be tested for viral infections or certain cancers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests&lt;/strong&gt; may include a test that checks for antibodies associated with neuromyelitis optica, a condition in which inflammation occurs both in your spinal cord and in the nerve in your eye. People with a positive antibody test are at an increased risk of experiencing multiple attacks of transverse myelitis and require treatment to prevent future attacks. Other blood tests can identify infections that may be a contributing factor in transverse myelitis or rule out other causes of symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several therapies target the acute signs and symptoms of transverse myelitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous steroids.&lt;/strong&gt; After your diagnosis, you&apos;ll likely receive steroids through a vein in your arm over the course of several days. Steroids help reduce the inflammation in your spinal column.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plasma exchange therapy.&lt;/strong&gt; People who don&apos;t respond to intravenous steroids may undergo plasma exchange therapy. This therapy involves removing the straw-colored fluid in which blood cells are suspended (plasma) and replacing the plasma with special fluids. It&apos;s not certain how this therapy helps people with transverse myelitis, but it may be that plasma exchange removes antibodies that are involved in inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain medication.&lt;/strong&gt; Chronic pain is a common complication of transverse myelitis. Medications that may lessen pain associated with spinal cord damage include common pain relievers, including acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin, others) and naproxen (Aleve, Naprosyn, others); antidepressant drugs, such as sertraline (Zoloft); and anticonvulsant drugs, such as gabapentin (Neurontin) or pregabalin (Lyrica).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to treat other complications.&lt;/strong&gt; Your doctor may prescribe other medications as needed to treat problems such as muscle spasticity, urinary or bowel dysfunction, depression or other complications associated with transverse myelitis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nondrug therapy&lt;br /&gt;
+&lt;/strong&gt;Other therapies focus on long-term recovery and care: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Physical therapy helps you increase strength and improve coordination. Your physical therapist will likely teach you how to use assistive devices, such as a wheelchair, canes or braces, if needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy.&lt;/strong&gt; This type of therapy helps people with transverse myelitis learn new ways of performing day-to-day activities, such as bathing, preparing a meal and housecleaning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotherapy.&lt;/strong&gt; A psychotherapist can use talk therapy to treat anxiety, depression, sexual dysfunction, and other emotional or behavioral issues that may be related to your coping with transverse myelitis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prognosis&lt;br /&gt;
+&lt;/strong&gt;Although most people with transverse myelitis have at least partial recovery, the process may take a year or more. Recovery strongly depends on the cause of transverse myelitis. People with neuromyelitis optica have a worse prognosis, although even in this situation, most experience recovery with treatment. About one-third of people with transverse myelitis fall into each of three categories after an episode of transverse myelitis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;No or slight disability.&lt;/strong&gt; These people experience only minimal residual symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moderate disability.&lt;/strong&gt; These people are mobile, but may have difficulty walking, numbness or tingling, and bladder and bowel problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe disability.&lt;/strong&gt; Some people may have permanent need for a wheelchair and require ongoing assistance with care and everyday activities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s difficult to predict the course of transverse myelitis. Generally, people who experience a rapid onset of signs and symptoms have a worse prognosis than do those with relatively slower onset.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some lifestyle strategies that can help you manage complications of transverse myelitis include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preventing bowel problems.&lt;/strong&gt; If you have bowel problems caused by transverse myelitis, eat a fiber-rich diet and drink plenty of fluids to help prevent constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintaining strong bones.&lt;/strong&gt; People with transverse myelitis are at an increased risk of developing osteoporosis because of limited activity. Talk to your doctor about calcium and vitamin D supplements to improve bone health. Weight-bearing exercises, if possible, will also strengthen bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keeping an exercise routine.&lt;/strong&gt; Stiff or tight muscles are a common complication of transverse myelitis and may limit your ability to get around easily. Increase your flexibility by following a stretching routine suggested by your physical therapist. A therapist-designed strengthening program can target your weaker muscles to help improve your mobility and balance.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Transverse myelitis
+	</Title>
+	<Abstract>
+		Transverse myelitis &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this neurological disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00564" LinkType="Internal" ObjectID="D2402B6B-5C7C-484F-8D1FD5DB29D11345" Title="Demyelinating disease: What causes it?" Url="http://www.mayoclinic.com/health/demyelinating-disease/AN00564" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+	</RelatedLinksBox>
+</Disease>

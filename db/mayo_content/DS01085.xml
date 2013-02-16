@@ -1,0 +1,301 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01085
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/jet-lag/DS01085
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-05
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="2358" Title="Jet lag" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2BBB8F47-E7FF-0DBD-192336CFC9CE691F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				jet lag
+			</MetaKeyword>
+			<MetaKeyword>
+				jet lag symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				jet lag treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				melatonin
+			</MetaKeyword>
+			<MetaKeyword>
+				jet lag diet
+			</MetaKeyword>
+			<MetaKeyword>
+				time zone change syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				time zones
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Jet lag, also called jet lag disorder, is a temporary sleep disorder that can affect anyone who quickly travels across multiple time zones. Jet lag is caused when your body&apos;s internal clock or circadian rhythms, which tell your body when to stay awake and when to sleep in the old time zone, are out of sync with cues from the new time zone, such as light exposure and dining times. The more time zones crossed, the more likely you are to experience jet lag.
+&lt;/p&gt;
+&lt;p&gt;
+Jet lag can cause daytime fatigue, an unwell feeling, difficulty staying alert and gastrointestinal problems. Jet lag is temporary, but it can significantly reduce your vacation or business travel comfort. Fortunately, there are steps you can take to help prevent or minimize jet lag.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of jet lag can vary. You may experience only one symptom or multiple symptoms. Jet lag symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Disturbed sleep &amp;mdash; such as insomnia, early waking or excessive sleepiness&lt;/li&gt;
+	&lt;li&gt;Daytime fatigue&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating or functioning at your usual level&lt;/li&gt;
+	&lt;li&gt;Stomach problems, constipation or diarrhea&lt;/li&gt;
+	&lt;li&gt;A general feeling of not being well&lt;/li&gt;
+	&lt;li&gt;Muscle soreness&lt;/li&gt;
+	&lt;li&gt;Menstrual symptoms in women&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms worse the farther you travel&lt;br /&gt;
+&lt;/strong&gt;Jet lag symptoms usually occur within a day or two of travel if you&apos;ve traveled across at least two time zones. Symptoms are likely to be worse or last longer the more time zones that you&apos;ve crossed, especially if you travel in an easterly direction. It&apos;s estimated to take about a day to recover for each time zone crossed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Jet lag is temporary. But if you are a frequent traveler and continually struggle with jet lag, you may benefit from seeing a sleep specialist.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;A disruption to your circadian rhythms&lt;br /&gt;
+&lt;/strong&gt;Jet lag can occur anytime you cross two or more time zones. Jet lag occurs because crossing multiple time zones puts your internal clock or circadian rhythms, which regulate your sleep-wake cycle, out of sync with the time in your new locale.
+&lt;/p&gt;
+&lt;p&gt;
+For example, you lose six hours on a usual New York to Paris flight. That means that if you leave New York at 4:00 p.m. on Tuesday, you arrive in Paris at 7:00 a.m. Wednesday. According to your internal clock, it&apos;s 1:00 a.m., and you&apos;re ready for bed, just as Parisians are waking up.
+&lt;/p&gt;
+&lt;p&gt;
+And because it takes a few days for your body to adjust, your sleep-wake cycle, along with most other body functions, such as hunger and bowel habits, remains out of step with the rest of Paris. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The influence of sunlight&lt;br /&gt;
+&lt;/strong&gt;A key influence on your internal clock is sunlight. That&apos;s because light influences the regulation of melatonin, which in turn is a synchronizing signal to cells throughout the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain cells in the tissue at the back of your eye (retina) transmit the signal of light to an area of your brain called the hypothalamus. At night, when this signal is low, the hypothalamus tells the pineal gland, a small organ situated in the brain, to release the hormone melatonin. During the day, the light signals to the hypothalamus result in the opposite, such that the pineal gland produces very little melatonin.
+&lt;/p&gt;
+&lt;p&gt;
+You may be able to ease your adjustment to your new time zone by exposing yourself to daylight in the new time zone so long as the timing of light is done properly.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Airline cabin pressure and atmosphere&lt;br /&gt;
+&lt;/strong&gt;Some research shows that changes in cabin pressure and high altitudes associated with air travel may contribute to some symptoms of jet lag, regardless of travel across time zones.
+&lt;/p&gt;
+&lt;p&gt;
+Not drinking enough water during your flight can dehydrate you. In addition, drinking too many beverages with caffeine or alcohol during your flight can affect your sleep and cause some symptoms of jet lag. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the likelihood you&apos;ll experience jet lag include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Number of time zones crossed.&lt;/strong&gt; The more time zones you cross, the more likely you are to be jet-lagged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flying east.&lt;/strong&gt; You may find it harder to fly east, when you &quot;lose&quot; time, than to fly west, when you gain it back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being a frequent flyer. &lt;/strong&gt;Pilots, flight attendants and business travelers are most likely to experience jet lag.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being an older adult.&lt;/strong&gt; Older adults may need more time to recover from jet lag than do younger adults.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Extreme variations in circadian rhythms have been reported in some instances of heart attacks and strokes, but this is rare.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Jet lag usually doesn&apos;t require treatment. However, if you&apos;re a frequent traveler continually bothered by jet lag, your doctor may prescribe medications or light therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonbenzodiazepines&lt;/strong&gt;, such as zolpidem (Ambien), eszopiclone (Lunesta) and zaleplon (Sonata) &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Benzodiazepines&lt;/strong&gt;, such as triazolam (Halcion) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These medications may help you sleep during your flight and for several nights afterward. Side effects are uncommon, but may include nausea, vomiting, amnesia, sleepwalking, confusion and morning sleepiness. Although these medications appear to help sleep duration and quality, they may not lessen daytime symptoms of jet lag. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Light therapy&lt;br /&gt;
+&lt;/strong&gt;Your body&apos;s internal clock or circadian rhythms are influenced by exposure to sunlight, among other factors. When you travel across time zones, your body must adjust to a new daylight schedule and reset, allowing you to fall asleep and be awake at the appropriate times. 
+&lt;/p&gt;
+&lt;p&gt;
+Light therapy can help ease that transition. It involves exposing your eyes to an artificial bright light or lamp that simulates sunlight for a specific and regular amount of time during the time when you&apos;re meant to be awake. 
+&lt;/p&gt;
+&lt;p&gt;
+This may be useful, for example, if you&apos;re a business traveler and are often away from natural sunlight during the day in a new time zone. Light therapy comes in a variety of forms including a light box that sits on a table, a desk lamp that may blend in better in an office setting or a light visor that you wear on your head. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Sunlight&lt;br /&gt;
+&lt;/strong&gt;Use sunlight to reset your internal clock. It&apos;s the most powerful natural tool for regulating the sleep-wake cycle. 
+&lt;/p&gt;
+&lt;p&gt;
+Plan ahead to determine the best times for light exposure based on your departure and destination points and overall sleep habits. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, a poor sleeper traveling from New York to Paris is advised to seek light in the afternoon on the first few days in France. After the first few days, the traveler should seek light in the morning. By the third or fourth day, the traveler&apos;s internal clock should mesh with the local time. The results are even better if light exposure is combined with exercise such as walking or jogging. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoiding light at certain times is every bit as important as taking it in at others. A traveler going from New York to Paris should avoid light in the morning on the first few days. During the day, dark glasses can help block out light. At night, draw the blinds or drapes in your hotel room or use a sleep mask.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Caffeine&lt;br /&gt;
+&lt;/strong&gt;Beverages with caffeine such as coffee, espresso and soft drinks may help offset daytime sleepiness. It&apos;s best to time caffeine use so that it doesn&apos;t make it even more difficult to fall asleep or sleep well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Melatonin&lt;br /&gt;
+&lt;/strong&gt;As a jet lag remedy and sleep aid, melatonin has been widely studied, and it&apos;s now a commonly accepted part of effective jet lag treatment. The latest research seems to show that melatonin aids sleep during times when you wouldn&apos;t normally be resting, making it of particular benefit for people with jet lag. 
+&lt;/p&gt;
+&lt;p&gt;
+Your body treats melatonin as a darkness signal, and generally has the opposite effect of bright light. The time at which you take melatonin is important. If you&apos;re trying to reset your body clock to an earlier time, such as after flying east, you should take melatonin in the evening. If you&apos;re trying to reset your body clock to a later time, such as after flying west, melatonin should be taken in the morning. 
+&lt;/p&gt;
+&lt;p&gt;
+Doses as small as 0.5 milligram seem just as effective as doses of 5 milligrams or higher, although higher doses have been shown by some studies to be more sleep promoting. If you use melatonin, take it 30 minutes before you plan to sleep or ask your doctor about the proper timing. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoid alcohol when taking melatonin. Side effects are uncommon but may include dizziness, headache and loss of appetite, and possibly nausea and disorientation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Investigate other remedies&lt;br /&gt;
+&lt;/strong&gt;Most frequent fliers have a favorite jet lag cure or remedy to help them sleep. Some people may use aromatherapy, herbal supplements or other forms of complementary and alternative medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people use diets that alternate days of feasting and fasting and high-protein and low-protein meals. Though no anti-jet-lag diets have been proved to treat jet lag, some people believe they work. If the diets themselves seem too complicated, you can simply eat more high-protein foods to stay alert and more carbohydrates when you want to sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+Most alternative jet lag therapies or sleep remedies aren&apos;t harmful. However, check with your doctor before trying remedies such as herbal supplements, as some may interact with other medications or cause side effects. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A few basic steps may help prevent jet lag or reduce its effects: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Arrive early.&lt;/strong&gt; If you have an important meeting or other event that requires you to be in top form, try to arrive a few days early to give your body a chance to adjust.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest before your trip.&lt;/strong&gt; Starting out sleep-deprived makes jet lag worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gradually adjust your schedule before you leave.&lt;/strong&gt; If you&apos;re traveling east, try going to bed one hour earlier each night for a few days before your departure. Go to bed one hour later for several nights if you&apos;re flying west. If possible, eat meals closer to the time you&apos;ll be eating them at your destination.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Regulate bright light exposure.&lt;/strong&gt; Because light exposure is one of the prime influences on your body&apos;s circadian rhythm, regulating light exposure may help you adjust to your new location.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you have traveled east, wear sunglasses and avoid bright light in the morning, and then allow as much sunlight as possible in the late afternoon for the first few days in your new location. If you have traveled west, avoid sunlight a few hours before dark for the first few days to adjust to the local time. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay on your new schedule.&lt;/strong&gt; Set your watch to the new time before you leave. Once you reach your destination, try not to sleep until the local nighttime, no matter how tired you are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay hydrated.&lt;/strong&gt; Drink plenty of water before, during and after your flight to counteract the dehydrating effects of dry cabin air. Dehydration can make jet lag symptoms worse. Avoid alcohol and caffeine, as these can dehydrate you and affect your sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try to sleep on the plane&lt;/strong&gt; &lt;strong&gt;if it&apos;s nighttime at your destination.&lt;/strong&gt; Earplugs, headphones and eye masks can help block out noise and light. If it&apos;s daytime where you&apos;re going, resist the urge to sleep.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Jet lag disorder
+	</Title>
+	<Abstract>
+		Jet lag disorder &amp;mdash; Comprehensive overview covers symptoms, remedies, prevention of this travel-related sleep trouble.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01717" LinkType="Internal" ObjectID="FA6D0680-E7FF-0DBD-1462408DE3F8E30A" Title="Melatonin side effects: What are the risks?" Url="http://www.mayoclinic.com/health/melatonin-side-effects/AN01717" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+	</RelatedLinksBox>
+</Disease>

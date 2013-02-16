@@ -1,0 +1,444 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00630
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/oppositional-defiant-disorder/DS00630
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-06
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="3271" Title="Attention-deficit and disruptive behavior disorders">
+							<Keyword MCVID="3272" Title="Oppositional defiant disorder" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2F50E3D4-2A5D-9994-E156A3298CA73946
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				oppositional defiant disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				defiant
+			</MetaKeyword>
+			<MetaKeyword>
+				defiance
+			</MetaKeyword>
+			<MetaKeyword>
+				ODD
+			</MetaKeyword>
+			<MetaKeyword>
+				defiant child
+			</MetaKeyword>
+			<MetaKeyword>
+				oppositional defiance disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				oppositional behavior
+			</MetaKeyword>
+			<MetaKeyword>
+				tantrums
+			</MetaKeyword>
+			<MetaKeyword>
+				behavioral disorder
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even the best-behaved children can be difficult and challenging at times. But if your child or teen has a persistent pattern of tantrums, arguing, and angry or disruptive behavior toward you and other authority figures, he or she may have oppositional defiant disorder (ODD).
+&lt;/p&gt;
+&lt;p&gt;
+As a parent, you don&apos;t have to go it alone in trying to manage a child with oppositional defiant disorder. Doctors, counselors and child development experts can help. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of ODD involves therapy, training to help build positive family interactions, and possibly medications to treat related mental health conditions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It may be difficult at times to recognize the difference between a strong-willed or emotional child and one with oppositional defiant disorder. It&apos;s normal to exhibit oppositional behavior at certain stages of a child&apos;s development. But there is a range between the usual independence-seeking behavior of children and that of oppositional defiant disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs of ODD generally begin before a child is 8 years old. Sometimes ODD may develop later, but almost always before the early teen years. When ODD behavior develops, the signs tend to begin gradually and then worsen over months or years. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child may be displaying signs of ODD instead of normal moodiness if the behaviors:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are persistent&lt;/li&gt;
+	&lt;li&gt;Have lasted at least six months&lt;/li&gt;
+	&lt;li&gt;Are clearly disruptive to the family and home or school environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The following are behaviors associated with ODD:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Negativity&lt;/li&gt;
+	&lt;li&gt;Defiance&lt;/li&gt;
+	&lt;li&gt;Disobedience&lt;/li&gt;
+	&lt;li&gt;Hostility directed toward authority figures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These behaviors might cause your child to regularly and consistently:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have temper tantrums&lt;/li&gt;
+	&lt;li&gt;Be argumentative with adults&lt;/li&gt;
+	&lt;li&gt;Refuse to comply with adult requests or rules&lt;/li&gt;
+	&lt;li&gt;Annoy other people deliberately&lt;/li&gt;
+	&lt;li&gt;Blames others for mistakes or misbehavior&lt;/li&gt;
+	&lt;li&gt;Acts touchy and is easily annoyed&lt;/li&gt;
+	&lt;li&gt;Feel anger and resentment&lt;/li&gt;
+	&lt;li&gt;Be spiteful or vindictive&lt;/li&gt;
+	&lt;li&gt;Act aggressively toward peers&lt;/li&gt;
+	&lt;li&gt;Have difficulty maintaining friendships&lt;/li&gt;
+	&lt;li&gt;Have academic problems&lt;/li&gt;
+	&lt;li&gt;Feel a lack of self-esteem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your child isn&apos;t likely to see his or her behavior as defiant. Instead, your child will probably believe that unreasonable demands are being placed on him or her.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Related mental health issues&lt;br /&gt;
+&lt;/strong&gt;Oppositional defiant disorder often occurs along with other behavioral or mental health problems such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Attention-deficit/hyperactivity disorder (ADHD)&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The symptoms of ODD may be difficult to distinguish from those of other behavioral or mental health problems.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to diagnose and treat any co-occurring illnesses because they can create or worsen irritability and defiance if left untreated. Additionally, it&apos;s important to identify and treat any related substance abuse and dependence. Substance abuse and dependence in children may be associated with irritability and changes in the child&apos;s usual personality.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re concerned about your child&apos;s behavior or your own ability to parent a challenging child, seek help from your doctor, a child psychologist or child behavioral expert. Your primary care doctor or your child&apos;s pediatrician can refer you to someone who is appropriate.
+&lt;/p&gt;
+&lt;p&gt;
+The earlier this disorder can be managed, the better. Treatment can help restore your child&apos;s self-esteem and rebuild a positive relationship between you and your child. Your child&apos;s relationships with other important adults in his or her life &amp;mdash; such as teachers, clergy and care providers &amp;mdash; also will benefit from early treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known clear cause of oppositional defiant disorder. Contributing causes may be a combination of inherited and environmental factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A child&apos;s natural disposition&lt;/li&gt;
+	&lt;li&gt;Limitations or developmental delays in a child&apos;s ability to process thoughts and feelings&lt;/li&gt;
+	&lt;li&gt;Lack of supervision&lt;/li&gt;
+	&lt;li&gt;Inconsistent or harsh discipline&lt;/li&gt;
+	&lt;li&gt;Abuse or neglect&lt;/li&gt;
+	&lt;li&gt;An imbalance of certain brain chemicals, such as serotonin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+ODD is a complex problem involving a variety of influences, circumstances and genetic components. There&apos;s no single factor that causes ODD. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being abused or neglected&lt;/li&gt;
+	&lt;li&gt;Harsh or inconsistent discipline&lt;/li&gt;
+	&lt;li&gt;Lack of supervision&lt;/li&gt;
+	&lt;li&gt;Lack of positive parental involvement&lt;/li&gt;
+	&lt;li&gt;Having parents with a severely troubled marriage&lt;/li&gt;
+	&lt;li&gt;Parents with a history of ADHD, oppositional defiant disorder or conduct problems&lt;/li&gt;
+	&lt;li&gt;Financial problems in the family&lt;/li&gt;
+	&lt;li&gt;Family instability such as occurs with divorce, multiple moves, or changing schools or child care providers frequently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stressful changes that disrupt a child&apos;s sense of consistency &amp;mdash; such as divorce or changing child care &amp;mdash; increase the risk of disruptive behavior. However, though these changes may help explain disrespectful or oppositional behavior, they don&apos;t excuse it. If you&apos;re concerned about your child&apos;s behavior or trouble adjusting to life changes, talk with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many children with oppositional defiant disorder have other treatable conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Attention-deficit/hyperactivity disorder (ADHD)&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Learning and communication disorders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If these conditions are left untreated, managing ODD can be very difficult for the parents, and frustrating for the affected child. Children with oppositional defiant disorder may have trouble in school with teachers and other authority figures and may struggle to make and keep friends. 
+&lt;/p&gt;
+&lt;p&gt;
+ODD may be a precursor to other, more-severe problems such as conduct disorder, substance abuse and severe delinquency.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has signs and symptoms common to oppositional defiant disorder, make an appointment with your child&apos;s doctor. After an initial evaluation, your doctor may refer you to a mental health professional, who can help make a diagnosis and create the right treatment plan for your child. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the signs and symptoms your child has been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your family&apos;s key personal information,&lt;/strong&gt; including factors that you suspect may have contributed to changes in your child&apos;s behavior. Make a list of stressors that your child or close family members have recently experienced and share it with the doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your child&apos;s key medical information,&lt;/strong&gt; including other physical or mental health conditions with which your child has been diagnosed. Also write down the names of any medications, including over-the-counter medications, your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a trusted family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor in advance so that you can make the most of your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask the doctor at your child&apos;s initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you believe is causing my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;How will you determine the diagnosis?&lt;/li&gt;
+	&lt;li&gt;Should my child see a mental health provider?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if your child is referred to a mental health provider include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my child have oppositional defiant disorder?&lt;/li&gt;
+	&lt;li&gt;Is this condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What factors do you think might be contributing to my child&apos;s problem?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is it possible for my child to grow out of this condition?&lt;/li&gt;
+	&lt;li&gt;Does my child need to be screened for any other mental health problems?&lt;/li&gt;
+	&lt;li&gt;Is my child at increased risk of any long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any changes at home or school to encourage my child&apos;s recovery?&lt;/li&gt;
+	&lt;li&gt;Should I tell my child&apos;s teachers about this diagnosis?&lt;/li&gt;
+	&lt;li&gt;What else can I and my family do to help my child?&lt;/li&gt;
+	&lt;li&gt;Do you recommend family therapy?&lt;/li&gt;
+	&lt;li&gt;What can we, the parents, do to cope and sustain our own ability to help our child?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Being ready to answer your doctor&apos;s questions may reserve time to go over any points you want to talk about in-depth. You should be prepared to answer the following questions from your doctor:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your concerns about your child&apos;s behavior?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these problems?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s teachers or other caregivers reported similar behaviors in your child?&lt;/li&gt;
+	&lt;li&gt;How often over the last six months has your child been spiteful or vindictive, or blamed others for his or her own mistakes?&lt;/li&gt;
+	&lt;li&gt;How often over the last six months has your child been touchy, easily annoyed or deliberately annoying to others?&lt;/li&gt;
+	&lt;li&gt;How often over the last six months has your child argued with adults or defied or refused adults&apos; requests?&lt;/li&gt;
+	&lt;li&gt;How often over the last six months has your child been visibly angry or lost his or her temper?&lt;/li&gt;
+	&lt;li&gt;Do any particular situations seem to trigger negative or defiant behavior in your child?&lt;/li&gt;
+	&lt;li&gt;How have you been handling your child&apos;s disruptive behavior?&lt;/li&gt;
+	&lt;li&gt;How do you typically discipline your child?&lt;/li&gt;
+	&lt;li&gt;How would you describe your child&apos;s home and family life?&lt;/li&gt;
+	&lt;li&gt;What stresses has the family been dealing with?&lt;/li&gt;
+	&lt;li&gt;Has your child been diagnosed with any other medical conditions, including mental health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To be diagnosed with oppositional defiant disorder, a child must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Criteria for oppositional defiant disorder to be diagnosed include a pattern of behavior that lasts at least six months and includes at least four of the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Often loses temper&lt;/li&gt;
+	&lt;li&gt;Often argues with adults&lt;/li&gt;
+	&lt;li&gt;Often actively defies or refuses to comply with adults&apos; requests or rules&lt;/li&gt;
+	&lt;li&gt;Often deliberately annoys people&lt;/li&gt;
+	&lt;li&gt;Often blames others for his or her mistakes or misbehavior&lt;/li&gt;
+	&lt;li&gt;Is often touchy or easily annoyed by others&lt;/li&gt;
+	&lt;li&gt;Is often angry and resentful&lt;/li&gt;
+	&lt;li&gt;Is often spiteful or vindictive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These behaviors must be displayed more often than is typical for your child&apos;s peers.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, to be diagnosed with oppositional defiant disorder, a child&apos;s disruptive behavior: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Must cause significant problems at work, school or home&lt;/li&gt;
+	&lt;li&gt;Must occur on its own, rather than as part of the course of another mental health problem, such as depression or bipolar disorder&lt;/li&gt;
+	&lt;li&gt;Must not meet the diagnostic criteria for conduct disorder or, if the affected person is older than age 18, antisocial personality disorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It can be difficult for doctors to sort and exclude other associated disorders &amp;mdash; for example, attention-deficit/hyperactivity disorder versus oppositional defiant disorder. These two disorders are commonly diagnosed together.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treating oppositional defiant disorder generally involves several types of psychotherapy and training for your child &amp;mdash; as well as for you and your co-parent. Treatment often lasts several months or longer.
+&lt;/p&gt;
+&lt;p&gt;
+If your child has co-existing conditions, particularly ADHD, medications may help significantly improve symptoms. However, medications alone generally aren&apos;t used for ODD unless another disorder co-exists.
+&lt;/p&gt;
+&lt;p&gt;
+The cornerstones of treatment for ODD usually include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Individual and family therapy.&lt;/strong&gt; Individual counseling for your child may help him or her learn to manage anger and express his or her feelings more healthfully. Family counseling may help improve your communication and relationships, and help members of your family learn how to work together.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parent-child interaction therapy (PCIT).&lt;/strong&gt; During PCIT, therapists coach parents while they interact with their children. In one approach, the therapist sits behind a one-way mirror and, using an &quot;ear bug&quot; audio device, guides parents through strategies that reinforce their children&apos;s positive behavior. As a result, parents learn more-effective parenting techniques, the quality of the parent-child relationship improves and problem behaviors decrease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive problem-solving training.&lt;/strong&gt; This type of therapy is aimed at helping your child identify and change through patterns that are leading to behavior problems. Collaborative problem-solving &amp;mdash; in which you and your child work together to come up with solutions that work for both of you &amp;mdash; can help improve ODD-related problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social skills training.&lt;/strong&gt; Your child also might benefit from therapy that will help him or her learn how to interact more positively and effectively with peers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parent training.&lt;/strong&gt; A mental health provider with experience treating ODD may help you develop skills that will allow you to parent in a way that&apos;s more positive and less frustrating for you and your child. In some cases, your child may participate in this type of training with you, so that everyone in your family develops shared goals for how to handle problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As part of parent training, you may learn how to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Give effective timeouts&lt;/li&gt;
+	&lt;li&gt;Avoid power struggles&lt;/li&gt;
+	&lt;li&gt;Remain calm and unemotional in the face of opposition, or take your own timeout, if necessary&lt;/li&gt;
+	&lt;li&gt;Recognize and praise your child&apos;s good behaviors and positive characteristics&lt;/li&gt;
+	&lt;li&gt;Offer acceptable choices to your child, giving him or her a certain amount of control&lt;/li&gt;
+	&lt;li&gt;Establish a schedule for the family that includes specific meals that will be eaten at home together, and specific activities one or both parents will do with the child&lt;/li&gt;
+	&lt;li&gt;Limit consequences to those that can be consistently reinforced and if possible, last for a limited amount of time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although some parent management techniques may seem like common sense, learning to use them in the face of opposition isn&apos;t easy, especially if there are other stressors at home. Learning these skills will require consistent practice and patience.
+&lt;/p&gt;
+&lt;p&gt;
+Most important in treatment is for you to show consistent, unconditional love and acceptance of your child &amp;mdash; even during difficult and disruptive situations. Don&apos;t be too hard on yourself. This process can be tough for even the most patient parents.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+At home, you can begin chipping away at problem behaviors by practicing the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Recognize and praise&lt;/strong&gt; your child&apos;s positive behaviors. Be as specific as possible, such as, &quot;I really liked the way you helped pick up your toys tonight.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Model the behavior&lt;/strong&gt; you want your child to have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pick your battles.&lt;/strong&gt; Avoid power struggles. Almost everything can turn into a power struggle &amp;mdash; if you let it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set limits&lt;/strong&gt; and enforce consistent reasonable consequences.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set up a routine.&lt;/strong&gt; Develop a consistent daily schedule for your child. Asking your child to help develop that routine may be beneficial.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Build in time together.&lt;/strong&gt; Develop a consistent weekly schedule that involves you and your child spending time together.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work with your partner&lt;/strong&gt; or others in your household to ensure consistent and appropriate discipline procedures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Assign your child a household chore&lt;/strong&gt; that&apos;s essential and that won&apos;t get done unless the child does it. Initially, it&apos;s important to set your child up for success with tasks that are relatively easy to achieve and gradually blend in more important and challenging expectations. Give clear, easy-to-follow instructions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At first, your child probably won&apos;t be cooperative or appreciate your changed response to his or her behavior. Expect that you&apos;ll have setbacks and relapses, and be prepared with a plan to manage those times. In fact, behavior can temporarily worsen when new limits and expectations are set. However, with perseverance and consistency, the initial hard work often pays off with improved behavior and relationships.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Being the parent of a child with ODD isn&apos;t easy. Counseling for you can provide you with an outlet for your frustrations and concerns. In turn, this can lead to better outcomes for your child because you&apos;ll be more prepared to deal with problem behaviors. Here are some tips to help you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn ways to calm yourself.&lt;/strong&gt; Keeping your own cool models the behavior you want from your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Develop outside interests, get some exercise and spend some time away from your child to restore your energy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be forgiving.&lt;/strong&gt; Let go of things that you or your child did in the past. Start each day with a fresh outlook and a clean slate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Oppositional defiant disorder (ODD)
+	</Title>
+	<Abstract>
+		Oppositional defiant disorder (ODD) &amp;mdash; Comprehensive overview covers symptoms, risk factors, treatment of this disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01915" LinkType="Internal" ObjectID="8EE9A534-D4B8-1F37-C266EFBF4EEE2F29" Title="Mental illness in children: Know the signs" Url="http://www.mayoclinic.com/health/mental-illness-in-children/MY01915" />
+	</RelatedLinksBox>
+</Disease>

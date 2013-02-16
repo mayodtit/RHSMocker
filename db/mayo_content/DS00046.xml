@@ -1,0 +1,378 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00046
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/testicular-cancer/DS00046
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-15
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2405" Title="Testicular cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			91B1CB36-2B25-4B93-8FB60CFCAC19B62D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				testicular cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				testicles
+			</MetaKeyword>
+			<MetaKeyword>
+				testes
+			</MetaKeyword>
+			<MetaKeyword>
+				scrotum
+			</MetaKeyword>
+			<MetaKeyword>
+				testicle cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				testicle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				testical cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicular cancer occurs in the testicles (testes), which are located inside the scrotum, a loose bag of skin underneath the penis. The testicles produce male sex hormones and sperm for reproduction. 
+&lt;/p&gt;
+&lt;p&gt;
+Compared with other types of cancer, testicular cancer is rare. But testicular cancer is the most common cancer in American males between the ages of 15 and 34. 
+&lt;/p&gt;
+&lt;p&gt;
+Testicular cancer is highly treatable, even when cancer has spread beyond the testicle. Depending on the type and stage of testicular cancer, you may receive one of several treatments, or a combination. Regular testicular self-examinations can help identify growths early, when the chance for successful treatment of testicular cancer is highest. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular lumps 
+" Caption="Pain, swelling or lumps in your testicle or groin area may be a sign or symptom of testicular cancer or other medical conditions requiring treatment. 
+" Height="60" Title="Testicular lumps" URI="/images/image_popup/thumbs/r7_testelumpsthu.jpg" Width="60" />
+				<Image Alt="Illustration of testicular lumps 
+" Caption="Pain, swelling or lumps in your testicle or groin area may be a sign or symptom of testicular cancer or other medical conditions requiring treatment. 
+" Height="301" Title="Testicular lumps" URI="/images/image_popup/r7_testelumps.jpg" Width="400" />
+				<HTML>
+					Pain, swelling or lumps in your testicle or groin area may be a sign or symptom of testicular cancer or other medical conditions requiring treatment. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of testicular cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A lump or enlargement in either testicle&lt;/li&gt;
+	&lt;li&gt;A feeling of heaviness in the scrotum&lt;/li&gt;
+	&lt;li&gt;A dull ache in the abdomen or groin&lt;/li&gt;
+	&lt;li&gt;A sudden collection of fluid in the scrotum&lt;/li&gt;
+	&lt;li&gt;Pain or discomfort in a testicle or the scrotum&lt;/li&gt;
+	&lt;li&gt;Enlargement or tenderness of the breasts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cancer usually affects only one testicle. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you detect any pain, swelling or lumps in your testicles or groin area, especially if these signs and symptoms last longer than two weeks. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular lumps 
+" Caption="Pain, swelling or lumps in your testicle or groin area may be a sign or symptom of testicular cancer or other medical conditions requiring treatment. 
+" Height="60" Title="Testicular lumps" URI="/images/image_popup/thumbs/r7_testelumpsthu.jpg" Width="60" />
+				<Image Alt="Illustration of testicular lumps 
+" Caption="Pain, swelling or lumps in your testicle or groin area may be a sign or symptom of testicular cancer or other medical conditions requiring treatment. 
+" Height="301" Title="Testicular lumps" URI="/images/image_popup/r7_testelumps.jpg" Width="400" />
+				<HTML>
+					Pain, swelling or lumps in your testicle or groin area may be a sign or symptom of testicular cancer or other medical conditions requiring treatment. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes testicular cancer in most cases. Doctors know that testicular cancer occurs when healthy cells in a testicle become altered. Healthy cells grow and divide in an orderly way to keep your body functioning normally. But sometimes some cells develop abnormalities, causing this growth to get out of control &amp;mdash; these cancer cells continue dividing even when new cells aren&apos;t needed. The accumulating cells form a mass in the testicle. 
+&lt;/p&gt;
+&lt;p&gt;
+Nearly all testicular cancers begin in the germ cells &amp;mdash; the cells in the testicles that produce immature sperm. What causes germ cells to become abnormal and develop into cancer isn&apos;t known. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of testicular cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An undescended testicle (cryptorchidism).&lt;/strong&gt; The testes form in the abdominal area during fetal development and usually descend into the scrotum before birth. Men who have a testicle that never descended are at greater risk of testicular cancer in either testicle than are men whose testicles descended normally. The risk remains even if the testicle has been surgically relocated to the scrotum. Still, the majority of men who develop testicular cancer don&apos;t have a history of undescended testicles. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal testicle development.&lt;/strong&gt; Conditions that cause testicles to develop abnormally, such as Klinefelter&apos;s syndrome, may increase your risk of testicular cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If family members have had testicular cancer, you may have an increased risk. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Testicular cancer affects teens and younger men, particularly those between ages 15 and 34. However, it can occur at any age. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Testicular cancer is more common in white men than in black men. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Whom to see&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your family doctor or a general practitioner if you find a lump on a testicle. If your doctor suspects you could have testicular cancer, you may be referred to a doctor who specializes in treating cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to take in all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For testicular cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have testicular cancer?&lt;/li&gt;
+	&lt;li&gt;What type of testicular cancer do I have?&lt;/li&gt;
+	&lt;li&gt;Can you explain my pathology report to me? Can I have a copy of my pathology report?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my testicular cancer?&lt;/li&gt;
+	&lt;li&gt;What is the grade of my testicular cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need any additional tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the chances that treatment will cure my testicular cancer?&lt;/li&gt;
+	&lt;li&gt;What are the side effects and risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment that you think is best for me?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;If I would like a second opinion, can you recommend a specialist?&lt;/li&gt;
+	&lt;li&gt;I&apos;m concerned about my ability to have children in the future. What can I do before treatment to plan for the possibility of infertility?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions that come to mind during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most men discover testicular cancer themselves, either unintentionally or while doing a testicular self-examination to check for lumps. In other cases, your doctor may detect a lump during a routine physical exam. 
+&lt;/p&gt;
+&lt;p&gt;
+To determine whether a lump is testicular cancer, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ultrasound.&lt;/strong&gt; A testicular ultrasound test uses sound waves to create an image of the scrotum and testicles. During an ultrasound you lie on your back with your legs spread. Your doctor then applies a clear gel to your scrotum. A hand-held probe is moved over your scrotum to make the ultrasound image.
+	&lt;/p&gt;
+	&lt;p&gt;
+	An ultrasound test can help your doctor determine the nature of any testicular lumps, such as if the lumps are solid or fluid filled. Ultrasound also tells your doctor whether lumps are inside or outside of the testicle. Your doctor uses this information to determine whether a lump is likely to be testicular cancer. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may order tests to determine the levels of tumor markers in your blood. Tumor markers are substances that occur normally in your blood, but the levels of these substances may be elevated in certain situations, including testicular cancer. A high level of a tumor marker in your blood doesn&apos;t mean you have cancer, but it may help your doctor in determining your diagnosis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove a testicle (radical inguinal orchiectomy).&lt;/strong&gt; If it&apos;s determined that the lump on your testicle may be cancerous, surgery to remove the testicle may be recommended. Your removed testicle will be analyzed in a laboratory to determine if the lump is cancerous and, if so, what type of cancer. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the type of cancer&lt;/strong&gt; &lt;br /&gt;
+Your extracted testicle will be analyzed to determine the type of testicular cancer. The type of testicular cancer you have determines your treatment and your prognosis. In general, there are two types of testicular cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seminoma.&lt;/strong&gt; Seminoma tumors occur in all age groups, but if an older man develops testicular cancer, it is more likely to be seminoma. Seminomas, in general, aren&apos;t as aggressive as nonseminomas and are particularly sensitive to radiation therapy. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonseminoma.&lt;/strong&gt; Nonseminoma tumors tend to develop earlier in life and grow and spread rapidly. Several different types of nonseminoma tumors exist, including choriocarcinoma, embryonal carcinoma, teratoma and yolk sac tumor. Nonseminomas are sensitive to radiation therapy, but not as sensitive as seminomas are. Chemotherapy is often very effective for nonseminomas, even if the cancer has spread.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes both types of cancer are present in a tumor. In that case, the cancer is treated as though it is nonseminoma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging the cancer&lt;/strong&gt; &lt;br /&gt;
+Once your doctor confirms your diagnosis, the next step is to determine the extent (stage) of the cancer. To determine whether cancer has spread outside of your testicle, you may undergo: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans take a series of X-ray images of your abdomen. Your doctor uses CT scans to look for signs of cancer in your abdominal lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests to look for elevated tumor markers can help your doctor understand whether cancer likely remains in your body after your testicle is removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After these tests, your testicular cancer is assigned a stage. The stage helps determine what treatments are best for you. The stages of testicular cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Cancer is limited to the testicle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Cancer has spread to the lymph nodes in the abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Cancer has spread to other parts of the body. Testicular cancer most commonly spreads to the lungs, liver, bones and brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The options for treating your testicular cancer depend on several factors, including the type and stage of cancer, your overall health, and your own preferences. Treatment options may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery to remove your testicle (radical inguinal orchiectomy) is the primary treatment for nearly all stages and types of testicular cancer. To remove your testicle, your surgeon makes an incision in your groin and extracts the entire testicle through the opening. A prosthetic, saline-filled testicle can be inserted if you choose. You&apos;ll receive anesthetics during surgery. All surgical procedures carry a risk of pain, bleeding and infection. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also have surgery to remove the lymph nodes in your groin (retroperitoneal lymph node dissection). Sometimes this is done at the same time as surgery to remove your testicle. In other cases it can be done later. The lymph nodes are removed through a large incision in your abdomen. Your surgeon takes care to avoid severing nerves surrounding the lymph nodes, but in some cases severing the nerves may be unavoidable. Severed nerves can cause difficulty with ejaculation, but won&apos;t prevent you from having an erection. 
+&lt;/p&gt;
+&lt;p&gt;
+In cases of early-stage testicular cancer, surgery may be the only treatment needed. Your doctor will give you a recommended schedule for follow-up appointments. At these appointments &amp;mdash; typically every few months for the first few years and then less frequently after that &amp;mdash; you&apos;ll undergo blood tests, CT scans and other procedures to check for signs that your cancer has returned. If you have a more advanced testicular cancer or if you&apos;re unable to adhere closely to the recommended follow-up schedule, your doctor may recommend other treatments after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy is a treatment option that&apos;s frequently used in people who have the seminoma type of testicular cancer. Radiation therapy is also used in certain situations in people who have the nonseminoma type of testicular cancer. Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. During radiation therapy, you&apos;re positioned on a table and a large machine moves around you, aiming the energy beams at precise points on your body. Side effects may include fatigue, as well as skin redness and irritation in your abdominal and groin areas. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy treatment uses drugs to kill cancer cells. Chemotherapy drugs travel throughout your body to kill cancer cells that may have migrated from the original tumor. Your doctor might recommend chemotherapy after surgery. Chemotherapy may be used before or after lymph node removal. Side effects of chemotherapy depend on the drugs being used. Ask your doctor what to expect. Common side effects include fatigue, nausea, hair loss, infertility and an increased risk of infection. There are medications and treatments available that reduce some of the side effects of chemotherapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Each man comes to terms with his testicular cancer and deals with the ensuing emotions in his own way. You may feel scared and unsure of your future after your diagnosis. While feelings of anxiety may never go away, you can create a plan to help manage your emotions. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about testicular cancer to feel comfortable making decisions about your care.&lt;/strong&gt; Write down questions and ask them at your next doctor&apos;s appointment. Ask your doctor or other members of your health care team to recommend reputable sources of further information. Good places to start include the National Cancer Institute and the American Cancer Society. Each has a website and a telephone support line. Contact the National Cancer Society&apos;s Cancer Information Service at 800-4-CANCER (800-422-6237), or contact the American Cancer Society at 800-ACS-2345 (800-227-2345).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Make healthy choices in your everyday life to prepare for cancer treatment. Eat a healthy diet with a variety of fruits and vegetables. Get plenty of rest so that you wake each morning feeling refreshed. Eliminate unnecessary stress so that you can concentrate on getting well. Try to exercise most days of the week. If you smoke, stop. Talk to your doctor about medications and other strategies to help you stop smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; Find other testicular cancer survivors in your community or online. Contact the American Cancer Society for support groups in your area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay connected with loved ones.&lt;/strong&gt; Your family and friends are just as concerned for your health as you are. They want to help, so don&apos;t turn down their offers to assist with transportation to appointments or with errands. Close friends and family will listen when you need someone to talk to or provide a distraction when you&apos;re feeling down.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to prevent testicular cancer. Some doctors recommend regular testicle self-examinations to identify testicular cancer at its earliest stage. Not all doctors agree, though, so discuss testicular self-examination with your doctor if you&apos;re unsure about whether it&apos;s right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you choose to do a testicular self-examination, a good time to examine your testicles is after a warm bath or shower. The heat from the water relaxes your scrotum, making it easier for you to find anything unusual. 
+&lt;/p&gt;
+&lt;p&gt;
+To do this examination, follow these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stand in front of a mirror.&lt;/strong&gt; Look for any swelling on the skin of the scrotum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examine each testicle with both hands.&lt;/strong&gt; Place the index and middle fingers under the testicle while placing your thumbs on the top.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently roll the testicle between the thumbs and the fingers.&lt;/strong&gt; Remember that the testicles are usually smooth, oval shaped and somewhat firm. It&apos;s normal for one testicle to be slightly larger than the other. Also, the cord leading upward from the top of the testicle (epididymis) is a normal part of the scrotum. By regularly performing this exam, you can become more familiar with your testicles and aware of any changes that might be of concern.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you find a lump, make an appointment with your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="60" Title="Testicular self-examination" URI="/images/image_popup/thumbs/testicular.gif" Width="60" />
+				<Image Alt="Illustration of testicular self-examination 
+" Caption="To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+" Height="298" Title="Testicular self-examination" URI="/images/image_popup/testicular.jpg" Width="400" />
+				<HTML>
+					To perform a testicular self-examination, grasp and roll the testicle between your thumbs and forefingers, feeling for lumps, swelling, hardness or other changes.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Testicular cancer
+	</Title>
+	<Abstract>
+		Testicular cancer &amp;mdash; Comprehensive overview covers signs, symptoms, diagnosis and treatment of testicle cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00776" LinkType="Internal" ObjectID="55D65447-F6C3-138B-3A6219B085521B70" Title="Testicular exam" Url="http://www.mayoclinic.com/health/testicular-exam/MY00776" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Answer" DocID="AN01538" LinkType="Internal" ObjectID="5ABA335D-E7FF-0DBD-160ECF8577D70994" Title="Testicular microlithiasis: Is it associated with testicular cancer?" Url="http://www.mayoclinic.com/health/microlithiasis/AN01538" />
+	</RelatedLinksBox>
+</Disease>

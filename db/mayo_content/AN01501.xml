@@ -1,0 +1,129 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01501
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/white-patch-on-skin/AN01501
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-14
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2815" Title="Dermatitis/eczema" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				white patch on skin
+			</MetaKeyword>
+			<MetaKeyword>
+				white patches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Generally, a white patch on skin isn&apos;t cause for concern.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Possible causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Skin discoloration can be triggered by a number of causes.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eczema.&lt;/strong&gt; Sometimes a small area of skin becomes irritated or develops mild eczema, which results in a patch of skin that&apos;s lighter in pigment than is the skin around it. This is particularly common in children who have allergies, asthma or eczema. Your son&apos;s doctor may recommend applying moisturizer to the affected skin and avoiding harsh or drying soaps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Superficial yeast infection.&lt;/strong&gt; Another possible cause of a white patch on skin is a superficial yeast infection (tinea versicolor), which may cause the skin to look either lighter or darker than normal. In this case, treatment may include antifungal creams or shampoos.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other skin diseases,&lt;/strong&gt; including psoriasis and vitiligo, also may cause a light or white patch on skin or other discoloration. Treatment focuses on controlling the length of flare-ups and minimizing effects.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				When to see a doctor
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Consult a dermatologist for an evaluation:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If the white patch on your son&apos;s arm continues to enlarge&lt;/li&gt;
+	&lt;li&gt;If additional white patches appear in other places&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		White patch on skin: A cause for concern?
+	</Title>
+	<Abstract>
+		A small white patch on skin may have several causes, including mild eczema.
+	</Abstract>
+	<Question>
+		Several months ago, my son developed a small white patch on the skin of his arm. It appears to be getting larger. Is a white patch on skin anything to be concerned about?
+	</Question>
+	<QuestionFirstName>
+		Gena
+	</QuestionFirstName>
+	<QuestionState>
+		New York
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02003" LinkType="Internal" ObjectID="361E7FC3-D678-7EB9-97191327A3ACF65A" Title="Eczema bleach bath: Can it improve my symptoms?" Url="http://www.mayoclinic.com/health/eczema-bleach-bath/AN02003" />
+		<LinkItem ContentType="Disease" DocID="DS00984" LinkType="Internal" ObjectID="062B23A0-E7FF-0DBD-198C952AD9A8A894" Title="Seborrheic dermatitis" Url="http://www.mayoclinic.com/health/seborrheic-dermatitis/DS00984" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+		<LinkItem ContentType="SlideShow" DocID="DS00543" LinkType="Internal" ObjectID="24EEAE39-2697-4971-95705ABC4DBBE485" Title="Slide show: Types of dermatitis" Url="http://www.mayoclinic.com/health/dermatitis/DS00543" />
+		<LinkItem ContentType="Disease" DocID="DS00339" LinkType="Internal" ObjectID="A3B79A20-A765-4E1C-90C2A26187EF01E7" Title="Dermatitis" Url="http://www.mayoclinic.com/health/dermatitis-eczema/DS00339" />
+		<LinkItem ContentType="Disease" DocID="DS00774" LinkType="Internal" ObjectID="5DA4A50F-2A5D-9994-E6FB8EFEF460135B" Title="Poison ivy rash" Url="http://www.mayoclinic.com/health/poison-ivy/DS00774" />
+		<LinkItem ContentType="Disease" DocID="DS00986" LinkType="Internal" ObjectID="062C950F-E7FF-0DBD-1D76F8E1320E6D7C" Title="Atopic dermatitis (eczema)" Url="http://www.mayoclinic.com/health/eczema/DS00986" />
+		<LinkItem ContentType="Disease" DocID="DS00985" LinkType="Internal" ObjectID="062BE2D7-E7FF-0DBD-158724048E8ABF04" Title="Contact dermatitis" Url="http://www.mayoclinic.com/health/contact-dermatitis/DS00985" />
+	</RelatedLinksBox>
+</Answer>

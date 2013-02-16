@@ -1,0 +1,376 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00980
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chronic-hives/DS00980
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-17
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="1839" Title="Allergic skin conditions">
+							<Keyword MCVID="4292" Title="Chronic hives" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BE8261BD-E7FF-0DBD-17ABF69EEAC74AB3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hives
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic hives
+			</MetaKeyword>
+			<MetaKeyword>
+				wheals
+			</MetaKeyword>
+			<MetaKeyword>
+				weals
+			</MetaKeyword>
+			<MetaKeyword>
+				angioedema
+			</MetaKeyword>
+			<MetaKeyword>
+				urticaria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic hives, also known as urticaria, are batches of raised, red or white itchy welts (wheals) of various sizes that appear and disappear. While most cases of hives go away within a few weeks or less, for some people they are a long-term problem. Chronic hives are defined as hives that last more than six weeks or hives that go away, but recur frequently.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases of chronic hives, a cause is never clearly identified. In some cases, chronic hives may be related to an underlying autoimmune disorder, such as thyroid disease or lupus.
+&lt;/p&gt;
+&lt;p&gt;
+While the underlying cause of chronic hives is usually not identified, treatment can help with symptoms. For many people, antihistamine medications provide the best relief.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hives generally:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Appear as small round wheals, rings or large patches and may change shape&lt;/li&gt;
+	&lt;li&gt;Itch and may be surrounded by a red flare&lt;/li&gt;
+	&lt;li&gt;Occur in batches, and often appear on the face or the extremities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Individual hives can last from 30 minutes to 36 hours. As some hives disappear, new hives may develop.
+&lt;/p&gt;
+&lt;p&gt;
+About 40 percent of people with chronic hives also have angioedema. Signs and symptoms of angioedema include large welts or swelling of the skin that may occur around the eyes and lips, hands, feet, genitalia, and inside the throat. Swelling in the throat can obstruct breathing and requires emergency treatment. Angioedema may itch less than hives do, but can cause pain or burning.
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms may not occur all the time. They may come and go with no apparent trigger. For some people, certain conditions &amp;mdash; such as heat, exertion or stress &amp;mdash; can make symptoms worse.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although chronic hives and angioedema usually aren&apos;t life-threatening, they can be debilitating &amp;mdash; and in some cases are a sign of an underlying health problem.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor if you have:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe hives&lt;/li&gt;
+	&lt;li&gt;Hives that don&apos;t respond to treatment&lt;/li&gt;
+	&lt;li&gt;Hives that continue to appear for several days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care if you:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feel lightheaded&lt;/li&gt;
+	&lt;li&gt;Have difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Feel your throat is swelling&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hives on light skin 
+" Caption="Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+" Height="60" Title="Hives on light skin" URI="/images/image_popup/thumbs/r7_hives2thu.jpg" Width="60" />
+				<Image Alt="Image showing hives on light skin 
+" Caption="Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+" Height="400" Title="Hives on light skin" URI="/images/image_popup/r7_hives2.jpg" Width="400" />
+				<HTML>
+					Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hives on dark skin 
+" Caption="On dark skin, hives may be less visible but may still itch or burn. 
+" Height="60" Title="Hives on dark skin" URI="/images/image_popup/thumbs/sn7_hivesthu.jpg" Width="60" />
+				<Image Alt="Image showing hives on dark skin 
+" Caption="On dark skin, hives may be less visible but may still itch or burn. 
+" Height="287" Title="Hives on dark skin" URI="/images/image_popup/sn7_hives.jpg" Width="400" />
+				<HTML>
+					On dark skin, hives may be less visible but may still itch or burn. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing angioedema 
+" Caption="Angioedema may cause large welts below the surface of the skin, particularly on the eyes and lips. Angioedema may also affect the hands, feet and throat. 
+" Height="60" Title="Angioedema" URI="/images/image_popup/thumbs/sn7_angeioedemathu.jpg" Width="60" />
+				<Image Alt="Image showing angioedema 
+" Caption="Angioedema may cause large welts below the surface of the skin, particularly on the eyes and lips. Angioedema may also affect the hands, feet and throat. 
+" Height="318" Title="Angioedema" URI="/images/image_popup/sn7_angeioedema.jpg" Width="400" />
+				<HTML>
+					Angioedema may cause large welts below the surface of the skin, particularly on the eyes and lips. Angioedema may also affect the hands, feet and throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic hives are an inflammation of the skin triggered when certain cells (mast cells) release histamine and other chemicals into your bloodstream, causing small blood vessels to leak. The exact cause of chronic hives isn&apos;t well understood &amp;mdash; and triggers can be difficult to pinpoint. Chronic hives are thought to be caused by an immune system (autoimmune) disorder and may be linked to another health problem, such as thyroid disease or lupus.
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, a reaction to medication, food, food additives, insects, parasites or infection is identified as an underlying cause of chronic hives. But in most cases, the cause of chronic hives is never identified, even after testing and monitoring symptoms. Heat, cold, pressure, sunlight or other environmental stimuli may worsen chronic hives. Certain pain medications, such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen sodium (Aleve, Anaprox, others), also can worsen chronic hives.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of hives and angioedema may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Itching.&lt;/strong&gt; Hives and angioedema can cause itching and discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty breathing.&lt;/strong&gt; In more-serious cases &amp;mdash; when swelling occurs inside your mouth or throat &amp;mdash; complications can include difficulty breathing, leading to a loss of consciousness. If you have a swollen throat, seek medical care immediately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylactic shock (anaphylaxis).&lt;/strong&gt; This is a serious allergic reaction involving your heart or lungs that can also be associated with hives and angioedema. Your bronchial tubes narrow, it&apos;s difficult to breathe, and your blood pressure drops, causing dizziness and perhaps loss of consciousness or even death. Anaphylactic shock occurs rapidly and requires immediate medical care.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first visit your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in allergic disease.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. For chronic hives, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;How long will these hives last?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do these treatments have any side effects?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;I have other health problems; are the recommended treatments compatible?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you feel tightness in your chest or throat, nausea or difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Have you had any viral or bacterial infections recently?&lt;/li&gt;
+	&lt;li&gt;Have you taken any new medications recently?&lt;/li&gt;
+	&lt;li&gt;Have you tried any new foods?&lt;/li&gt;
+	&lt;li&gt;Have you traveled to a new place?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of hives or angioedema?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re experiencing mild hives, these tips may help relieve your symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid irritating affected areas.&lt;/li&gt;
+	&lt;li&gt;Cool the affected area with a shower, fan, cool cloth or soothing lotion.&lt;/li&gt;
+	&lt;li&gt;Wear loose, light clothing.&lt;/li&gt;
+	&lt;li&gt;Use over-the-counter antihistamines to help relieve the itching.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Physical exam and medical history&lt;/strong&gt;&lt;br /&gt;
+Your doctor will ask you a number of questions and do a physical exam. Your doctor may also ask you to keep a diary to keep track of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your activities&lt;/li&gt;
+	&lt;li&gt;Any medications or herbal supplements you take&lt;/li&gt;
+	&lt;li&gt;What you eat and drink&lt;/li&gt;
+	&lt;li&gt;Where hives appear and how long individual hives last&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests&lt;/strong&gt;&lt;br /&gt;
+Although it isn&apos;t always possible to determine the underlying cause of chronic hives, your doctor will want to learn as much as possible about what might be causing your symptoms. Depending on your symptoms and medical history, your doctor may order one or more tests, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may ask for blood tests to check for levels and function of specific blood cells and proteins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy tests.&lt;/strong&gt; Your doctor may use skin or blood tests to see whether your hives may be caused by an allergic reaction, especially if the hives seem related to specific triggers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to rule out underlying conditions.&lt;/strong&gt; You may need additional tests to make certain your hives are not caused by an underlying health condition, such as hepatitis, lupus or thyroid disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Finding an effective treatment for chronic hives can be challenging. In cases in which a trigger is identified &amp;mdash; such as a reaction to a certain food, medication or physical stimulus &amp;mdash; treatment includes avoiding the trigger. If your chronic hives are caused by an underlying health condition, they may improve when the underlying condition is treated. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms can be treated effectively in most people with over-the-counter or prescription medications. Work with your doctor to find the medication &amp;mdash; or combination of medications &amp;mdash; that works best for you. If the first medication you try doesn&apos;t relieve your symptoms, talk to your doctor about trying something else. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oral antihistamines&lt;/strong&gt;&lt;br /&gt;
+These medications block the symptom-producing release of histamine, controlling symptoms for the majority of people with chronic hives &amp;mdash; but they do not treat the underlying cause of the rash. Antihistamines are divided into two categories &amp;mdash; older, first-generation drugs and newer, second-generation medications. Each category includes nonprescription and prescription drugs. A combination of antihistamines may work best. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Second-generation, newer antihistamines.&lt;/strong&gt; Your doctor may have you start with newer, nonsedating or low-sedating antihistamines because they are generally as effective and better tolerated than first-generation antihistamines. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loratadine (Claritin, Alavert)&lt;/li&gt;
+	&lt;li&gt;Fexofenadine (Allegra)&lt;/li&gt;
+	&lt;li&gt;Cetirizine (Zyrtec)&lt;/li&gt;
+	&lt;li&gt;Levocetirizine (Xyzal)&lt;/li&gt;
+	&lt;li&gt;Desloratadine (Clarinex)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;First-generation, older antihistamines.&lt;/strong&gt; If a nonsedating antihistamine doesn&apos;t work, your doctor may recommend taking a first-generation antihistamine. These antihistamines can make you drowsy and impair your ability to drive or perform other tasks that require physical coordination. For that reason, your doctor may recommend that you take this type of antihistamine before bedtime and switch to a second-generation drug during the daytime. This class of antihistamines includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hydroxyzine (Vistaril)&lt;/li&gt;
+	&lt;li&gt;Diphenhydramine (Benadryl)&lt;/li&gt;
+	&lt;li&gt;Chlorpheniramine (Chlor-Trimeton)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Check with your doctor before taking any of these medications if you&apos;re pregnant or breast-feeding, have a chronic medical condition, or are taking any other medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other medications&lt;/strong&gt;&lt;br /&gt;
+If antihistamines alone don&apos;t relieve your symptoms, other possible treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;H-2 antagonists.&lt;/strong&gt; These medications, such as cimetidine (Tagamet), ranitidine (Zantac), nizatidine (Axid) and famotidine (Pepcid AC), can be used along with antihistamines. Some common side effects from this class of medications range from gastrointestinal problems to headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral corticosteroids.&lt;/strong&gt; Oral corticosteroids, such as prednisone, can help lessen swelling, redness and itching &amp;mdash; but are usually used only a short term for severe hives or angioedema because they can cause serious side effects. Topical corticosteroids usually aren&apos;t effective for chronic hives. Corticosteroids can weaken your immune system, making it easier for you to get an infection or worsening an existing infection you already have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants.&lt;/strong&gt; The tricyclic antidepressant doxepin (Zonalon) has antihistamine properties and can help relieve itching. Doxepin may cause dizziness or drowsiness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other medications are still being studied to determine whether they may be useful for treating chronic hives. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Leukotriene modifiers.&lt;/strong&gt; Montelukast (Singulair) and zafirlukast (Accolate) are asthma medications that may be helpful when used along with antihistamines. Side effects of these drugs may include behavior and mood changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclosporine.&lt;/strong&gt; This immune system suppressant can help with symptoms, but it can cause serious side effects and needs to be monitored carefully. The Food and Drug Administration warns that taking cyclosporine (Gengraf, Neoral, others) puts you at greater risk of opportunistic infections, such as the activation of a previous infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omalizumab (Xolair).&lt;/strong&gt; This medication is normally given by injection to treat allergic asthma. It may help people who have chronic hives caused by an autoimmune response that haven&apos;t been helped by antihistamines. Only very small studies have been completed, so more clinical trials are needed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following precautions may help prevent hives and angioedema:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid known triggers.&lt;/strong&gt; These may include certain foods or food additives, alcohol, medications, or situations such as temperature extremes, tight clothing or emotional stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a diary.&lt;/strong&gt; Track all of your activities, when and where hives occur, and what you eat. This may help you and your doctor identify triggers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid medications that may trigger hives.&lt;/strong&gt; These include aspirin, ibuprofen (Advil, Motrin, others), naproxen sodium (Aleve, Anaprox, others), codeine or any other medication that you&apos;ve noticed can trigger your hives.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chronic hives (urticaria)
+	</Title>
+	<Abstract>
+		Chronic hives &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this allergic condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Answer" DocID="AN01280" LinkType="Internal" ObjectID="6149219E-2A5D-9994-E09E7A063B0CE604" Title="Lupus: Can it cause hives?" Url="http://www.mayoclinic.com/health/lupus/AN01280" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Disease" DocID="DS00313" LinkType="Internal" ObjectID="5347A6E4-D219-41F2-96EEA936BD30D271" Title="Hives and angioedema" Url="http://www.mayoclinic.com/health/hives-and-angioedema/DS00313" />
+	</RelatedLinksBox>
+</Disease>

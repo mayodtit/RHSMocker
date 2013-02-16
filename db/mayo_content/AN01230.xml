@@ -1,0 +1,139 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01230
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/acute-sinusitis/AN01230
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-10
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1786" Title="Nose and sinuses">
+						<Keyword MCVID="1788" Title="Sinusitis">
+							<Keyword MCVID="1789" Title="Acute sinusitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FCFF6318-2A5D-9994-E2E20393FCDF6BA5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sinusitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus headache
+			</MetaKeyword>
+			<MetaKeyword>
+				acute sinusitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sinusitus
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus pain
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus congestion
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes. Over-the-counter (OTC) pain relievers and decongestants may help relieve facial pain and sinus congestion associated with acute sinusitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;OTC medications that may help&lt;/strong&gt; include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Decongestants.&lt;/strong&gt; These work by narrowing blood vessels to help reduce inflammation and swelling that cause sinus congestion. Such OTC medications (Sudafed, Actifed, others) are available in liquids, tablets and nasal sprays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Pain caused by pressure buildup in the sinus cavities may be relieved by aspirin, acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other home remedies&lt;/strong&gt; you may want to try: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inhale warm water vapor.&lt;/strong&gt; Drape a towel over your head as you breathe in the moist air from a bowl of warm or moderately hot water. Or take a hot shower, breathing in the warm, moist air.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply warm compresses.&lt;/strong&gt; Place warm, damp towels around your nose, cheeks and eyes to ease facial pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Consuming additional fluids helps dilute mucous secretions and promotes drainage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a saline nasal spray.&lt;/strong&gt; Spray a saline solution in your nose several times a day to relieve congestion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people with acute sinusitis get better without antibiotics. However, if your symptoms are severe or last longer than a few days, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acute sinusitis: Do over-the-counter treatments help?
+	</Title>
+	<Abstract>
+		Over-the-counter drugs may provide some relief from the symptoms of acute sinusitis.
+	</Abstract>
+	<Question>
+		I have acute sinusitis, and my doctor doesn&apos;t think I need antibiotics. Are there nonprescription medications that can help relieve symptoms?
+	</Question>
+	<QuestionFirstName />
+	<QuestionState />
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01241" LinkType="Internal" ObjectID="B0F40A94-2A5D-9994-E46A807D9C5DB928" Title="Nasal spray addiction: Is it real?" Url="http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Answer" DocID="AN01433" LinkType="Internal" ObjectID="C77584F9-E7FF-0DBD-17D2DCC5E6B9E0AE" Title="Sinus infection and toothache: Any connection?" Url="http://www.mayoclinic.com/health/toothache/AN01433" />
+		<LinkItem ContentType="Answer" DocID="AN01195" LinkType="Internal" ObjectID="88874621-EE88-4C60-849C408CD35EC8B4" Title="Oil of oregano: Can it treat sinusitis?" Url="http://www.mayoclinic.com/health/oil-of-oregano/AN01195" />
+		<LinkItem ContentType="Disease" DocID="DS00287" LinkType="Internal" ObjectID="2CEBF76F-D36A-4D15-B937BFF91AB51438" Title="Cystic fibrosis" Url="http://www.mayoclinic.com/health/cystic-fibrosis/DS00287" />
+		<LinkItem ContentType="Disease" DocID="DS01006" LinkType="Internal" ObjectID="20EA134D-E7FF-0DBD-1FD2F9F7AF5DB7A5" Title="Primary immunodeficiency" Url="http://www.mayoclinic.com/health/primary-immunodeficiency/DS01006" />
+		<LinkItem ContentType="Disease" DocID="DS00170" LinkType="Internal" ObjectID="1246C980-C1C4-4C28-AFC09B1627F588A6" Title="Acute sinusitis" Url="http://www.mayoclinic.com/health/acute-sinusitis/DS00170" />
+	</RelatedLinksBox>
+</Answer>

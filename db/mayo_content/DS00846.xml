@@ -1,0 +1,299 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00846
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/seborrheic-keratosis/DS00846
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-23
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2163" Title="Seborrheic keratosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A39372C2-E7FF-0DBD-19E34D7AADBC7836
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				seborrheic keratosis
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic keratoses
+			</MetaKeyword>
+			<MetaKeyword>
+				senile keratosis
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic keratosis signs
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic keratosis symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic keratosis cause
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic keratosis growth
+			</MetaKeyword>
+			<MetaKeyword>
+				benign skin tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				aging skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin growths
+			</MetaKeyword>
+			<MetaKeyword>
+				seborheic keratosis
+			</MetaKeyword>
+			<MetaKeyword>
+				seborheic keratoses
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seborrheic keratosis (seb-o-REE-ik ker-uh-TOE-sis) is one of the most common types of noncancerous skin growths in older adults.
+&lt;/p&gt;
+&lt;p&gt;
+A seborrheic keratosis usually appears as a brown, black or pale growth on the face, chest, shoulders or back. The growth has a waxy, scaly, slightly elevated appearance. Occasionally, it appears singly, but multiple growths are more common. Seborrheic keratoses don&apos;t become cancerous, but they can look like skin cancer.
+&lt;/p&gt;
+&lt;p&gt;
+Seborrheic keratoses are normally painless and require no treatment. You may decide, however, to have them removed if they become irritated by clothing or for cosmetic reasons.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of seborrheic keratoses on the back 
+" Caption="Seborrheic keratoses are very common on the back. They appear as waxy light tan, brown or black growths that look as if they were dripped onto the skin by a candle. Some can grow large, up to 1 inch (2.5 centimeters) across.
+" Height="60" Title="Seborrheic keratoses on the back" URI="/images/image_popup/thumbs/sn7_seborrheickeratosis1thu.jpg" Width="60" />
+				<Image Alt="Image of seborrheic keratoses on the back 
+" Caption="Seborrheic keratoses are very common on the back. They appear as waxy light tan, brown or black growths that look as if they were dripped onto the skin by a candle. Some can grow large, up to 1 inch (2.5 centimeters) across.
+" Height="400" Title="Seborrheic keratoses on the back" URI="/images/image_popup/sn7_seborrheickeratosis1.jpg" Width="400" />
+				<HTML>
+					Seborrheic keratoses are very common on the back. They appear as waxy light tan, brown or black growths that look as if they were dripped onto the skin by a candle. Some can grow large, up to 1 inch (...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Close-up image of seborrheic keratoses
+" Caption="Seborrheic keratoses are usually round or oval and range in color from light tan to black. They can develop as a single growth or in clusters.
+" Height="60" Title="Close-up of seborrheic keratoses" URI="/images/image_popup/thumbs/sn7_seborrheickeratosis3thu.jpg" Width="60" />
+				<Image Alt="Close-up image of seborrheic keratoses
+" Caption="Seborrheic keratoses are usually round or oval and range in color from light tan to black. They can develop as a single growth or in clusters.
+" Height="331" Title="Close-up of seborrheic keratoses" URI="/images/image_popup/sn7_seborrheickeratosis3.jpg" Width="400" />
+				<HTML>
+					Seborrheic keratoses are usually round or oval and range in color from light tan to black. They can develop as a single growth or in clusters.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A seborrheic keratosis usually has the appearance of a waxy or wart-like growth. It typically appears on the head, neck or trunk of the body. A seborrheic keratosis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ranges in color, usually from light tan to brown or black&lt;/li&gt;
+	&lt;li&gt;Is round or oval shaped&lt;/li&gt;
+	&lt;li&gt;Has a characteristic &quot;pasted on&quot; look&lt;/li&gt;
+	&lt;li&gt;Is flat or slightly elevated with a scaly surface&lt;/li&gt;
+	&lt;li&gt;Ranges in size from very small to more than 1 inch (2.5 centimeters) across&lt;/li&gt;
+	&lt;li&gt;May itch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may develop a single growth or cluster of growths. Though not painful, seborrheic keratoses may prove bothersome depending on their size and location. Be careful not to rub, scratch or pick them. This can lead to inflammation, bleeding and, in rare cases, infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Many growths develop over a short time of a few weeks to months. Normally, seborrheic keratoses appear one or two at a time over many years.&lt;/li&gt;
+	&lt;li&gt;The growths get irritated or bleed when your clothing rubs against them. You may want the growths removed.&lt;/li&gt;
+	&lt;li&gt;You notice suspicious changes in your skin, such as sores or growths that grow rapidly, bleed and don&apos;t heal. These could be signs of skin cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of seborrheic keratoses on the back 
+" Caption="Seborrheic keratoses are very common on the back. They appear as waxy light tan, brown or black growths that look as if they were dripped onto the skin by a candle. Some can grow large, up to 1 inch (2.5 centimeters) across.
+" Height="60" Title="Seborrheic keratoses on the back" URI="/images/image_popup/thumbs/sn7_seborrheickeratosis1thu.jpg" Width="60" />
+				<Image Alt="Image of seborrheic keratoses on the back 
+" Caption="Seborrheic keratoses are very common on the back. They appear as waxy light tan, brown or black growths that look as if they were dripped onto the skin by a candle. Some can grow large, up to 1 inch (2.5 centimeters) across.
+" Height="400" Title="Seborrheic keratoses on the back" URI="/images/image_popup/sn7_seborrheickeratosis1.jpg" Width="400" />
+				<HTML>
+					Seborrheic keratoses are very common on the back. They appear as waxy light tan, brown or black growths that look as if they were dripped onto the skin by a candle. Some can grow large, up to 1 inch (...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Close-up image of seborrheic keratoses
+" Caption="Seborrheic keratoses are usually round or oval and range in color from light tan to black. They can develop as a single growth or in clusters.
+" Height="60" Title="Close-up of seborrheic keratoses" URI="/images/image_popup/thumbs/sn7_seborrheickeratosis3thu.jpg" Width="60" />
+				<Image Alt="Close-up image of seborrheic keratoses
+" Caption="Seborrheic keratoses are usually round or oval and range in color from light tan to black. They can develop as a single growth or in clusters.
+" Height="331" Title="Close-up of seborrheic keratoses" URI="/images/image_popup/sn7_seborrheickeratosis3.jpg" Width="400" />
+				<HTML>
+					Seborrheic keratoses are usually round or oval and range in color from light tan to black. They can develop as a single growth or in clusters.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of seborrheic keratoses isn&apos;t known. They are very common and generally increase in number with age. They tend to run in some families, so inheritance may play a role.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop seborrheic keratoses, you may be more likely to develop the condition if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are older than age 50&lt;/li&gt;
+	&lt;li&gt;Have a family history of seborrheic keratoses&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor. However, in some cases when you call to set up an appointment, you may be referred directly to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your appointment. List your questions from most important to least important in case time runs out. For seborrheic keratosis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Will the lesions go away on their own?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What suspicious changes in my skin should I look for?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you several questions. Being ready to answer them may reserve time to go over any points you want to discuss more. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the skin lesions?&lt;/li&gt;
+	&lt;li&gt;Have you noticed multiple growths?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in the appearance of the growth?&lt;/li&gt;
+	&lt;li&gt;Is the condition bothersome?&lt;/li&gt;
+	&lt;li&gt;Do any family members also have this condition?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose seborrheic keratosis by inspecting the growth. To confirm the diagnosis or to rule out other skin conditions, your doctor may recommend removal for examination under a microscope, but this is not usually necessary.
+&lt;/p&gt;
+&lt;p&gt;
+Typically, a seborrheic keratosis doesn&apos;t become cancerous, but it can resemble skin cancer. If your doctor suspects skin cancer, he or she will take a small sample of your skin (biopsy) for analysis in a lab. A biopsy can usually be done in a doctor&apos;s office.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of seborrheic keratoses usually isn&apos;t necessary. However, you may want them removed if they become irritated, if they bleed because your clothing rubs against them, or if you simply don&apos;t like how they look or feel.
+&lt;/p&gt;
+&lt;p&gt;
+This type of growth is never deeply rooted, so removal is usually simple and not likely to leave scars. Your doctor can remove seborrheic keratoses using several methods, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing with liquid nitrogen (cryosurgery).&lt;/strong&gt; Cryosurgery can be an effective way to remove seborrheic keratoses. However, it may not work on large, thick growths, and it may lighten the treated skin (hypopigmentation).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scraping the skin&apos;s surface with a special instrument (curettage).&lt;/strong&gt; Sometimes curettage is used along with cryosurgery to treat thinner or flat growths. It may be used with electrocautery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Burning with an electric current (electrocautery).&lt;/strong&gt; Used alone or with curettage, electrocautery can be effective in removing seborrheic keratoses. This procedure can leave scars if it&apos;s not done properly, and it may take longer than other removal methods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaporizing the growth with a laser (ablation).&lt;/strong&gt; Different types of laser treatments are available. Your doctor may apply pigment to the growth to help concentrate the laser light, making it more effective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind that most insurance companies and Medicare won&apos;t pay for the removal of seborrheic keratoses if done only for cosmetic reasons. Medical reasons for seborrheic keratosis treatment include intense itching, pain, inflammation, bleeding and infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Seborrheic keratosis
+	</Title>
+	<Abstract>
+		Seborrheic keratosis &amp;mdash; Comprehensive overview includes symptoms and treatments of this common, noncancerous skin growth.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+	</RelatedLinksBox>
+</Disease>

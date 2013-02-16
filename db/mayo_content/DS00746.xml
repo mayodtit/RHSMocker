@@ -1,0 +1,417 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00746
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/truncus-arteriosus/DS00746
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="2521" Title="Truncus arteriosus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			172A9F81-E7FF-0DBD-1A3485F93D3E2991
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				truncus arteriosus
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart condition
+			</MetaKeyword>
+			<MetaKeyword>
+				birth defect
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Truncus arteriosus (TRUNG-kus ahr-teer-e-O-sus) is a rare heart defect that&apos;s present at birth (congenital). If your baby has truncus arteriosus, it means that one large blood vessel leads out of the heart. Normally, there are two separate vessels coming out of the heart. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, the two lower chambers of the heart are missing a portion of the wall that divides them. As a result of truncus arteriosus, oxygen-poor blood that should go to the lungs and oxygen-rich blood that should go to the rest of the body are mixed together. This creates severe circulatory problems. 
+&lt;/p&gt;
+&lt;p&gt;
+If left untreated, truncus arteriosus can be fatal. Surgery to repair truncus arteriosus is generally successful, especially if the repair occurs before your baby is 2 months old. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of truncus arteriosus often develop in the first few weeks of life. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blue coloring of the skin (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Poor feeding&lt;/li&gt;
+	&lt;li&gt;Excessive sleepiness&lt;/li&gt;
+	&lt;li&gt;Poor growth&lt;/li&gt;
+	&lt;li&gt;Shortness of breath (dyspnea)&lt;/li&gt;
+	&lt;li&gt;Rapid breathing (tachypnea)&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeats (arrhythmia)&lt;/li&gt;
+	&lt;li&gt;Excessive sweating (diaphoresis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek medical treatment if you notice that your baby has any of the following problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blue coloring of the skin (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Poor feeding&lt;/li&gt;
+	&lt;li&gt;Poor weight gain&lt;/li&gt;
+	&lt;li&gt;Excessive sleepiness&lt;/li&gt;
+	&lt;li&gt;Excessive sweating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some signs of truncus arteriosus may indicate a problem that needs urgent care. If your baby experiences any of the following signs and symptoms and you can&apos;t see your baby&apos;s doctor immediately, seek emergency medical care: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid, shallow or labored breathing&lt;/li&gt;
+	&lt;li&gt;Worsening of blue coloring of the skin&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Truncus arteriosus occurs during fetal growth when your baby&apos;s heart is developing and is, therefore, present at birth (congenital). In most cases the cause is unknown. An overview of typical heart structure and function is helpful in understanding the defects of truncus arteriosus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The heart&lt;/strong&gt;&lt;br /&gt;
+Your heart has four pumping chambers that circulate your blood. The &quot;doors&quot; of the chambers (valves) control the flow of blood, opening and closing to ensure that blood flows in a single direction. 
+&lt;/p&gt;
+&lt;p&gt;
+The heart&apos;s four chambers are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The right atrium,&lt;/strong&gt; the upper right chamber, receives oxygen-poor blood from your body and delivers it into the right ventricle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The right ventricle,&lt;/strong&gt; the lower right chamber, pumps the blood through a large vessel called the pulmonary artery and into the lungs, where the blood is resupplied with oxygen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The left atrium,&lt;/strong&gt; the upper left chamber, receives the oxygen-rich blood from the lungs and delivers it into the left ventricle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The left ventricle,&lt;/strong&gt; the lower left chamber, pumps the oxygen-rich blood through a large vessel called the aorta and on to the rest of the body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal heart development&lt;/strong&gt;&lt;br /&gt;
+The formation of the fetal heart is a complex process. At a certain point, all fetuses have a single large vessel (truncus arteriosus) exiting the heart. During normal development of the heart, however, this very large single vessel divides into two parts. One part becomes the lower portion of the aorta, which is attached to the left ventricle. The other part becomes the lower portion of the pulmonary artery, which is attached to the right ventricle. Also during this process, the ventricles develop into two chambers separated by a wall (septum). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Truncus arteriosus in newborns&lt;/strong&gt;&lt;br /&gt;
+In babies born with truncus arteriosus, the single large vessel never finished dividing into two separate vessels. And the wall separating the two ventricles never closed completely, resulting in a large hole between the two chambers (ventricular septal defect). 
+&lt;/p&gt;
+&lt;p&gt;
+Truncus arteriosus in a newborn is also called persistent truncus arteriosus, because an early stage of heart development persisted until birth. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to the primary defects of truncus arteriosus, the valve controlling blood flow from the ventricles to the singe large vessel (truncal valve) is often defective, allowing blood to flow backward into the heart. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing truncus arteriosus 
+" Caption="If your baby has truncus arteriosus, one very large vessel leads out of the heart, instead of two separate vessels, and there&apos;s a hole in the wall between the ventricles (ventricle septal defect). The oxygen-rich blood (red) and the oxygen-poor blood (blue) mix together, resulting in blood with an insufficient oxygen supply (purple) for the body. 
+" Height="60" Title="Truncus arteriosus" URI="/images/image_popup/thumbs/hb7_truncus_thu.jpg" Width="60" />
+				<Image Alt="Illustration showing truncus arteriosus 
+" Caption="If your baby has truncus arteriosus, one very large vessel leads out of the heart, instead of two separate vessels, and there&apos;s a hole in the wall between the ventricles (ventricle septal defect). The oxygen-rich blood (red) and the oxygen-poor blood (blue) mix together, resulting in blood with an insufficient oxygen supply (purple) for the body. 
+" Height="410" Title="Truncus arteriosus" URI="/images/image_popup/hb7_truncus.jpg" Width="400" />
+				<HTML>
+					If your baby has truncus arteriosus, one very large vessel leads out of the heart, instead of two separate vessels, and there&apos;s a hole in the wall between the ventricles (ventricle septal defect). ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While the exact cause of congenital heart defects, such as truncus arteriosus, is unknown, several factors may increase the risk of a baby being born with a heart condition. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Viral illness during pregnancy.&lt;/strong&gt; If a woman contracts rubella (German measles) or another viral illness during early pregnancy, the risk of congenital heart defects in her baby is increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poorly controlled diabetes during pregnancy.&lt;/strong&gt; Diabetes that isn&apos;t well-managed can increase the risk of birth defects, including heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications taken during pregnancy.&lt;/strong&gt; Many medications aren&apos;t recommended for use during pregnancy because of potential risks to the fetus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain chromosomal disorders.&lt;/strong&gt; Children with DiGeorge&apos;s syndrome or velocardiofacial syndrome have an increased risk of truncus arteriosus. These conditions are caused by an extra or defective chromosome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking during pregnancy.&lt;/strong&gt; Continuing to smoke while pregnant increases the risk that the baby will be born with a heart defect.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The abnormal heart structures of truncus arteriosus result in severe problems with blood circulation. Because the ventricles aren&apos;t separated and all blood exits from a single vessel, the oxygen-rich blood and the oxygen-poor blood mix together &amp;mdash; resulting in blood that doesn&apos;t carry enough oxygen. The mixed blood flows from the single large vessel to the lungs, the arteries of the heart and the rest of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby has truncus arteriosus, the abnormal circulation of blood usually results in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory problems.&lt;/strong&gt; The abnormal distribution of blood results in too much blood flowing into the lungs. Excessive fluid in the lungs makes it difficult for your baby to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure in the lungs (pulmonary hypertension).&lt;/strong&gt; Increased blood flow to the lungs causes the lungs&apos; blood vessels to narrow, increasing blood pressure and making it increasingly difficult for your baby&apos;s heart to pump blood into the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlargement of the heart (cardiomegaly).&lt;/strong&gt; Pulmonary hypertension and the increased blood flow through the heart force your baby&apos;s heart to work harder than normal, causing it to enlarge. The enlarged heart gradually weakens.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; The increased workload and poor oxygen supply also result in weakening of your baby&apos;s heart. These factors can contribute to heart failure, the inability of the heart to supply the body with enough blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications later in life&lt;/strong&gt;&lt;br /&gt;
+Even with successful surgical repair of the heart during infancy, other complications associated with truncus arteriosus may occur later in life: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Progressive pulmonary hypertension&lt;/li&gt;
+	&lt;li&gt;Leaky heart valves (regurgitation)&lt;/li&gt;
+	&lt;li&gt;Heart rhythm disturbances (arrhythmias)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Common signs and symptoms of these complications include shortness of breath when exercising, dizziness, fatigue and a sensation of rapid, fluttering heartbeats (palpitations). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Truncus arteriosus in adults&lt;/strong&gt;&lt;br /&gt;
+In rare cases, a person with truncus arteriosus can survive infancy without surgical repair of the heart and live into adulthood. However, people with this condition will almost certainly develop heart failure and Eisenmenger syndrome. This syndrome is caused by permanent lung damage from pulmonary hypertension that results in much of the blood flow bypassing the lungs entirely. A heart-lung transplant is usually the only treatment option then. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you contact your baby&apos;s doctor about your concerns, he or she may ask you to schedule an appointment or immediately refer you to a heart specialist for children (pediatric cardiologist). This will depend on the severity of the signs and symptoms you have described. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+If possible, compile a thorough medical history from both sides of your baby&apos;s family. Some heart problems are inherited, so it&apos;s helpful if you can let your doctor know if anyone in your child&apos;s family has ever had early heart problems. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also helpful to prepare a list of questions ahead of time so that you can make the most of your time together with your baby&apos;s doctor. Here&apos;s a sampling of questions you might want to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests will my child undergo?&lt;/li&gt;
+	&lt;li&gt;What are the options for treatment? What are the possible complications of treatment?&lt;/li&gt;
+	&lt;li&gt;What is the long-term outlook for my child?&lt;/li&gt;
+	&lt;li&gt;What impact would a heart defect or the subsequent treatment have on another condition my baby has?&lt;/li&gt;
+	&lt;li&gt;If I have another baby in the future, is there any way to prevent this from happening again?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your baby&apos;s doctor, don&apos;t hesitate to ask questions that may come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your child&apos;s doctor will likely ask you the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does your baby ever appear blue?&lt;/li&gt;
+	&lt;li&gt;How long are feeding times, or how much does your baby drink?&lt;/li&gt;
+	&lt;li&gt;How often and how long is your baby sleeping?&lt;/li&gt;
+	&lt;li&gt;How does your baby respond to touch?&lt;/li&gt;
+	&lt;li&gt;Have you noticed changes in any of these behaviors?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your baby was born, your baby&apos;s height, weight and head circumference were recorded, and these measurements are taken at all regularly scheduled appointments with your child&apos;s doctor. He or she will repeat these measurements during a special appointment and determine if there has been any delay in growth. 
+&lt;/p&gt;
+&lt;p&gt;
+Your baby&apos;s doctor will also listen to your baby&apos;s lungs to assess his or her breathing and the possibility of fluid in the lungs. The doctor will listen to your baby&apos;s heart to determine if there are irregular heartbeats (arrhythmia) or an abnormal whooshing sound caused by turbulent blood flow (heart murmur). 
+&lt;/p&gt;
+&lt;p&gt;
+For babies with truncus arteriosus, much of their medical care is provided by a pediatric cardiologist along with a pediatric cardiac surgeon and often a whole team of specialized staff. 
+&lt;/p&gt;
+&lt;p&gt;
+In order for the pediatric cardiologist to check the condition of your baby&apos;s heart and make a diagnosis, he or she will order one or more tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram shows the structure and function of your baby&apos;s heart. With this test, a technician spreads gel on your baby&apos;s chest and then presses a device called a transducer against the skin over his or her heart. The transducer emits high-pitched sound waves and records the sound wave echoes as they reflect off internal structures. A computer converts the echoes into moving images on a monitor.
+	&lt;/p&gt;
+	&lt;p&gt;
+	In a baby with truncus arteriosus, the echocardiogram reveals the single large vessel leading from the heart, a hole in the wall between the left and right ventricles, and sometimes an abnormality in the valve between the large vessel and the ventricles. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Because an echocardiogram shows the flow of blood, it may also reveal blood moving back and forth between the two ventricles and the amount of blood flowing to your baby&apos;s lungs. The amount of blood can indicate the risk of high blood pressure in the lungs. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; An X-ray exam uses electromagnetic radiation to produce still images of internal organs and structures. A chest X-ray of your baby can show the size of the heart, abnormalities in the lungs and excess fluid in the lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main treatment for an infant with truncus arteriosus is surgery. Multiple procedures or surgeries may be necessary, especially as your child grows. Medications may be given before surgery to help improve the health of the heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications that may be prescribed prior to surgery may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Digoxin (Lanoxin).&lt;/strong&gt; This drug, also referred to as digitalis, increases the strength of heart muscle contractions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; Often called water pills, diuretics increase the frequency and volume of urination, preventing fluid from collecting in the body, which is a common effect of heart failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical procedures&lt;/strong&gt;&lt;br /&gt;
+Most infants with truncus arteriosus have surgery before they&apos;re three months old. The exact procedure will depend on your baby&apos;s condition. Most commonly your baby&apos;s surgeon will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Close the hole between the two ventricles, often with a patch&lt;/li&gt;
+	&lt;li&gt;Separate the upper portion of the pulmonary artery from the single large vessel&lt;/li&gt;
+	&lt;li&gt;Implant a tube (conduit) and valve to connect the right ventricle with the upper portion of the pulmonary artery &amp;mdash; creating a new, complete pulmonary artery&lt;/li&gt;
+	&lt;li&gt;Reconstruct the single large vessel and aorta to create a new, complete aorta&lt;/li&gt;
+	&lt;li&gt;Implant a new valve separating the left ventricle and aorta if needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After corrective surgery, your child will need lifelong follow-up care with a cardiologist to monitor his or her heart health. The cardiologist may recommend that your child limit physical activity, particularly intense competitive sports. Your child may need to take antibiotics before dental procedures and other surgical procedures to prevent infections. In general, preventive antibiotics are recommended for six months following surgery to repair the truncus arteriosis. Ask your cardiologist what he or she advises for your child. 
+&lt;/p&gt;
+&lt;p&gt;
+Because the artificial conduit does not grow with your child, one or more follow-up surgeries to replace the conduit are usually necessary as he or she gets older. Newer surgical procedures that use a cardiac catheter inserted into a blood vessel in the leg that are then threaded slowly up to the heart are being developed to replace the conduit without the need for traditional heart surgery. In addition, cardiac catheterization with an inflatable balloon tip can be used to open up an obstructed or narrowed artery, which may delay the need for follow-up surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy&lt;/strong&gt;&lt;br /&gt;
+Women who&apos;ve had surgery to repair truncus arteriosus in infancy need to be evaluated by a cardiologist with expertise in adult congenital heart defects and an obstetrician specializing in high-risk pregnancies before attempting to become pregnant. Depending on the level of lung damage that occurred before surgery, pregnancy may or may not be recommended. In addition, some drugs taken for heart problems can be harmful to a fetus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Caring for a baby with a serious heart problem, such as truncus arteriosus, can be challenging. Here are some strategies that may help make it easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support.&lt;/strong&gt; Ask for help from family members and friends. Contact nonprofit organizations, such as the American Heart Association, for information about support groups in your area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Record your baby&apos;s health history.&lt;/strong&gt; Write down your baby&apos;s diagnosis, medications, surgery and other procedures, the dates they were performed, your pediatric cardiologist&apos;s name and phone number, and any other important information about your baby&apos;s care. It&apos;s also helpful to include a copy of the operative report from your child&apos;s surgeon in your records. This information will help you recall the care your child has received, and it will be useful to doctors unfamiliar with your child who need to review his or her health history. It will also be helpful when your child moves from pediatric to adult health care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk about your concerns.&lt;/strong&gt; You may worry about the risks of vigorous activity, even after your child has had corrective surgery. Talk with the cardiologist about which activities are safe for your child. If some are off-limits, encourage your child in other pursuits rather than focusing on what he or she can&apos;t do. If other issues about your child&apos;s health concern you, discuss them with your child&apos;s doctor or pediatric cardiologist.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, congenital heart defects, such as truncus arteriosus, can&apos;t be prevented. If you have a family history of heart defects or if you already have a child with a congenital heart defect, you and your partner may consider talking with a genetic counselor and a cardiologist experienced in congenital heart defects before you make a decision about becoming pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re thinking about becoming pregnant, there are several steps you can take to help ensure a healthy baby, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Getting vaccinated before getting pregnant.&lt;/strong&gt; Certain viruses, such as rubella (German measles), can be very harmful during pregnancy, so it&apos;s important to make sure your immunizations are up to date before you get pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoiding dangerous medications.&lt;/strong&gt; Check with your doctor before taking any medications if you&apos;re pregnant or thinking about becoming pregnant. Many drugs aren&apos;t recommended for use during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking folic acid.&lt;/strong&gt; One of the few steps you can take to help prevent birth defects, including spinal cord, brain and possibly heart defects, is to take 400 micrograms of folic acid daily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Controlling diabetes.&lt;/strong&gt; If you&apos;re a woman with diabetes, talk to your doctor about pregnancy risks associated with diabetes and how best to manage the disease during your pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Truncus arteriosus
+	</Title>
+	<Abstract>
+		Truncus arteriosus &amp;mdash; Comprehensive overview covers symptoms, complications and treatment of this rare heart defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS01140" LinkType="Internal" ObjectID="F235977D-08A2-396E-9152C464D454200D" Title="Congenital heart disease in adults" Url="http://www.mayoclinic.com/health/congenital-heart-disease/DS01140" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+	</RelatedLinksBox>
+</Disease>

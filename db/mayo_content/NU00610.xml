@@ -1,0 +1,201 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00610
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00610
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-05
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-05
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			4726CE45-9EE1-4529-B36FFBDEE2C80B37
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook&lt;/em&gt;, published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Chicken stir-fry with eggplant and basil
+	</Title>
+	<Abstract>
+		Chicken stir-fry with eggplant and basil &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This colorful main dish requires a fair amount of chopping, but the cooking takes only minutes. Wait to cut up the eggplant until just before cooking to prevent discoloration. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a blender or food processor, combine the basil, mint, 1/4 cup of the stock, the chopped green onions, garlic and ginger. Pulse until the mixture is minced but not pureed. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large, nonstick frying pan, heat 1 tablespoon of the olive oil over medium-high heat. Add the eggplant, yellow onion and bell peppers and saute until the vegetables are just tender, about 8 minutes. Transfer to a bowl and cover with a kitchen towel to keep warm. 
+&lt;/p&gt;
+&lt;p&gt;
+Add the remaining 1 tablespoon olive oil to the pan and heat over medium-high heat. Add the basil mixture and saute for about 1 minute, stirring constantly. Add the chicken strips and soy sauce and saute until the chicken is almost opaque throughout, about 2 minutes. Add the remaining 1/2 cup stock and bring to a boil. Return the eggplant mixture to the pan and stir until heated through, about 3 minutes. Transfer to a warmed serving dish and garnish with the sliced green onion. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1/4 cup coarsely chopped fresh basil&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped fresh mint&lt;/li&gt;
+	&lt;li&gt;3/4 cup low-sodium chicken stock or broth&lt;/li&gt;
+	&lt;li&gt;3 green (spring) onions, including tender green tops, 2 coarsely chopped and 1 thinly sliced&lt;/li&gt;
+	&lt;li&gt;2 cloves garlic&lt;/li&gt;
+	&lt;li&gt;1 tablespoon peeled and chopped fresh ginger&lt;/li&gt;
+	&lt;li&gt;2 tablespoons extra-virgin olive oil&lt;/li&gt;
+	&lt;li&gt;1 small eggplant, with peel, diced (about 4 cups)&lt;/li&gt;
+	&lt;li&gt;1 yellow onion, coarsely chopped (about 1/2 cup)&lt;/li&gt;
+	&lt;li&gt;1 red bell pepper, seeded and cut into julienne&lt;/li&gt;
+	&lt;li&gt;1 yellow bell pepper, seeded and cut into julienne&lt;/li&gt;
+	&lt;li&gt;1 pound skinless, boneless chicken breasts, cut into strips 1/2 inch wide and 2 inches long&lt;/li&gt;
+	&lt;li&gt;2 tablespoons low-sodium soy sauce&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				257
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				14 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				67 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				30 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				406 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				9 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Stir-fry
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

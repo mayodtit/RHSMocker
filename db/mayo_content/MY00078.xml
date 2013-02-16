@@ -1,0 +1,287 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00078
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/botox/MY00078
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-06
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3965" Title="Skin hair and nails">
+						<Keyword MCVID="3966" Title="Botox injection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A7A9F759-E7FF-0DBD-1F23DC7EBD002380
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wrinkles
+			</MetaKeyword>
+			<MetaKeyword>
+				botox
+			</MetaKeyword>
+			<MetaKeyword>
+				dysport
+			</MetaKeyword>
+			<MetaKeyword>
+				myobloc
+			</MetaKeyword>
+			<MetaKeyword>
+				xeromin
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				skin care
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-aging
+			</MetaKeyword>
+			<MetaKeyword>
+				skin treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				cosmetic injections
+			</MetaKeyword>
+			<MetaKeyword>
+				botox injections
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle injections
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-wrinkle treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				botulinum toxin
+			</MetaKeyword>
+			<MetaKeyword>
+				botulinum
+			</MetaKeyword>
+			<MetaKeyword>
+				crow foot
+			</MetaKeyword>
+			<MetaKeyword>
+				crow&apos;s feet
+			</MetaKeyword>
+			<MetaKeyword>
+				crow&apos;s-feet
+			</MetaKeyword>
+			<MetaKeyword>
+				frown lines
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical dystonia
+			</MetaKeyword>
+			<MetaKeyword>
+				strabismus
+			</MetaKeyword>
+			<MetaKeyword>
+				blepharospasm
+			</MetaKeyword>
+			<MetaKeyword>
+				migraine
+			</MetaKeyword>
+			<MetaKeyword>
+				upper limb spasticity
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperhidrosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Botox injections are the best known of a group of medications that use various forms of botulinum toxin to temporarily paralyze muscle activity. This toxin is produced by the microbe that causes botulism, a type of food poisoning. 
+&lt;/p&gt;
+&lt;p&gt;
+Noted primarily for the ability to reduce the appearance of some facial wrinkles, Botox injections are also used to treat such problems as repetitive neck spasms (cervical dystonia), excessive sweating (hyperhidrosis), overactive bladder and some causes of crossed eyes. Botox injections may also help prevent chronic migraines in some people.
+&lt;/p&gt;
+&lt;p&gt;
+While Botox was the first drug to utilize botulinum toxin, newer products include Dysport, Myobloc and Xeomin. Each product is a little different, particularly when it comes to dosage units, so they aren&apos;t interchangeable.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing before-and-after results of Botox injections
+" Caption="At left, a look at a woman&apos;s wrinkles before Botox injections. At right, the same woman pictured three weeks after Botox injections.
+" Height="60" Title="Before-and-after results of Botox injections" URI="/images/image_popup/thumbs/sn7_botoxresultsthu.jpg" Width="60" />
+				<Image Alt="Image showing before-and-after results of Botox injections
+" Caption="At left, a look at a woman&apos;s wrinkles before Botox injections. At right, the same woman pictured three weeks after Botox injections.
+" Height="310" Title="Before-and-after results of Botox injections" URI="/images/image_popup/sn7_botoxresults.jpg" Width="400" />
+				<HTML>
+					At left, a look at a woman&apos;s wrinkles before Botox injections. At right, the same woman pictured three weeks after Botox injections.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Botulinum toxin injections block certain chemical signals from nerves, mostly signals that cause muscles to contract. The most common use of these injections is to temporarily relax the facial muscles that underlie and cause wrinkles, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frown lines between the eyebrows&lt;/li&gt;
+	&lt;li&gt;Crow&apos;s-feet, the lines that fan out from the corners of the eyes&lt;/li&gt;
+	&lt;li&gt;Forehead furrows, the horizontal lines that form when you raise your eyebrows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to these cosmetic procedures, which simply improve your appearance, botulinum toxin injections have also been used to treat conditions that affect how your body functions. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cervical dystonia.&lt;/strong&gt; In this painful condition, your neck muscles contract involuntarily, causing your head to twist or turn into an uncomfortable position.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lazy eye.&lt;/strong&gt; The most common cause of lazy eye is an imbalance in the muscles responsible for positioning the eye. This can result in crossed eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle contractures.&lt;/strong&gt; Some neurological conditions, such as cerebral palsy, can cause your limbs to pull in toward your center. In some cases, these contracted muscles can be relaxed with botulinum toxin injections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperhidrosis.&lt;/strong&gt; In this condition, excessive sweating occurs even when the temperature isn&apos;t hot and you&apos;re not exercising. In some people, the sweat literally drips off their hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic migraine.&lt;/strong&gt; If you experience migraines more than 15 days a month, botulinum toxin injections may help reduce headache frequency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder dysfunction.&lt;/strong&gt; Botulinum toxin injections can also help reduce urinary incontinence caused by an overactive bladder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Botox injections are relatively safe when performed by an experienced doctor. The most common side effects include swelling or bruising at the injection site, headache or flu-like symptoms. If the injections aren&apos;t placed correctly, the medication may spread into adjacent tissues and cause problems such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eyelid droop&lt;/li&gt;
+	&lt;li&gt;Cockeyed eyebrows&lt;/li&gt;
+	&lt;li&gt;Crooked smile&lt;/li&gt;
+	&lt;li&gt;Dry eye or excessive tearing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although very unlikely, there is a possibility that the effect of botulinum toxin may spread to other parts of the body and cause botulism-like signs and symptoms. Call your doctor right away if you notice any of these effects hours to weeks after receiving Botox: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle weakness all over the body&lt;/li&gt;
+	&lt;li&gt;Vision problems&lt;/li&gt;
+	&lt;li&gt;Trouble speaking or swallowing&lt;/li&gt;
+	&lt;li&gt;Trouble breathing&lt;/li&gt;
+	&lt;li&gt;Loss of bladder control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Doctors generally recommend against using Botox when you&apos;re pregnant or breast-feeding, since the effects on the baby aren&apos;t known. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Select your doctor carefully&lt;br /&gt;
+&lt;/strong&gt;Botox must be used only under a doctor&apos;s care. It can be dangerous if it&apos;s administered incorrectly. Ask for a referral from your primary care doctor or look for a doctor who specializes in your condition and who has experience in administering Botox treatments. A skilled and properly certified doctor can advise you on the procedure and can help determine if it suits your needs and health.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will need to know if you&apos;ve received any type of botulinum toxin injections within the past four months. If you take blood thinners, you may need to forgo these medications for several days before your injection, to reduce your risk of bleeding or bruising. Your doctor also needs to know if you take muscle relaxants, sleeping aids or allergy medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Before the procedure&lt;br /&gt;
+&lt;/strong&gt;Although most people tolerate the injection discomfort well, you may want your skin to be numb beforehand. Several options are available, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; Your doctor can inject a numbing medication into your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cream.&lt;/strong&gt; A prescription cream can be applied 60 to 90 minutes before the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cold spray.&lt;/strong&gt; A blast of very cold air is directed at the skin for about 10 seconds. The numbness only lasts a few seconds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;Your doctor uses a thin needle to inject tiny amounts of botulinum toxin into your skin or muscles. The number of injections needed depends on many factors, including the extent of the area being treated. Botox injections are usually done in a doctor&apos;s office.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;Expect to resume your normal daily activities right after the procedure. Take care, though, not to rub or massage the treated areas. This can cause the toxin to migrate to a different area.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Botulinum toxin injections usually begin working a few days after treatment. Depending on the problem being treated, the effect may last for three to 12 months. To maintain the effect, you&apos;ll need regular follow-up injections. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing before-and-after results of Botox injections
+" Caption="At left, a look at a woman&apos;s wrinkles before Botox injections. At right, the same woman pictured three weeks after Botox injections.
+" Height="60" Title="Before-and-after results of Botox injections" URI="/images/image_popup/thumbs/sn7_botoxresultsthu.jpg" Width="60" />
+				<Image Alt="Image showing before-and-after results of Botox injections
+" Caption="At left, a look at a woman&apos;s wrinkles before Botox injections. At right, the same woman pictured three weeks after Botox injections.
+" Height="310" Title="Before-and-after results of Botox injections" URI="/images/image_popup/sn7_botoxresults.jpg" Width="400" />
+				<HTML>
+					At left, a look at a woman&apos;s wrinkles before Botox injections. At right, the same woman pictured three weeks after Botox injections.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Botox injections
+	</Title>
+	<Abstract>
+		Botox injections &amp;mdash; Overview covers definition, risks, results of this procedure to treat wrinkles and other conditions.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02166" LinkType="Internal" ObjectID="14E45768-FDBF-E8B7-A1436D9FF6A5F81C" Title="Botox party: Is it safe?" Url="http://www.mayoclinic.com/health/botox-party/AN02166" />
+	</RelatedLinksBox>
+</TestProcedure>

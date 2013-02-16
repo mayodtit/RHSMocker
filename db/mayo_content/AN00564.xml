@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00564
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/demyelinating-disease/AN00564
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2003-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2947" Title="Noninfectious inflammatory">
+						<Keyword MCVID="2952" Title="Demyelinating disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D2402B6B-5C7C-484F-8D1FD5DB29D11345
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				demyelinating disease
+			</MetaKeyword>
+			<MetaKeyword>
+				demyelination
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple sclerosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A demyelinating disease is any condition that results in damage to the protective covering (myelin sheath) that surrounds nerve fibers in your brain and spinal cord. When the myelin sheath is damaged, nerve impulses slow or even stop, causing neurological problems.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Multiple sclerosis&lt;br /&gt;
+&lt;/strong&gt;Multiple sclerosis (MS) is the most common demyelinating disease. In this disorder, your immune system attacks the myelin sheath or the cells that produce and maintain it. This causes inflammation and injury to the sheath and ultimately to the nerve fibers that it surrounds, and may result in multiple areas of scarring (sclerosis). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;br /&gt;
+&lt;/strong&gt;Other types of demyelinating disease and their causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Optic neuritis &amp;mdash; inflammation of the optic nerve in one or both eyes&lt;/li&gt;
+	&lt;li&gt;Devic disease (neuromyelitis optica) &amp;mdash; inflammation of the optic nerve and spinal cord&lt;/li&gt;
+	&lt;li&gt;Transverse myelitis &amp;mdash; inflammation of the spinal cord&lt;/li&gt;
+	&lt;li&gt;Acute disseminated encephalomyelitis &amp;mdash; inflammation of the brain and spinal cord&lt;/li&gt;
+	&lt;li&gt;Adrenoleukodystrophy and adrenomyeloneuropathy &amp;mdash; rare, inherited metabolic disorders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+MS and other demyelinating diseases may result in vision or hearing loss, headache, seizures, muscle spasms and weakness, loss of coordination, paralysis, and loss of sensation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment&lt;br /&gt;
+&lt;/strong&gt;No cures exist for demyelinating diseases and their progression, and symptoms are different for everyone. Getting treatment early is important. Treatment focuses on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Minimizing the effects of the attacks&lt;/li&gt;
+	&lt;li&gt;Modifying the course of the disease&lt;/li&gt;
+	&lt;li&gt;Managing the symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A variety of drug therapies are recommended depending on your specific disorder. These may include medications that decrease the frequency of new lesion formation. Strategies to treat symptoms include physical therapy, muscle relaxing drugs, and medications to reduce pain and fatigue. Talk with your doctor about the best course of treatment for your specific disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Demyelinating disease: What causes it?
+	</Title>
+	<Abstract>
+		Demyelinating disease is any condition that results in damage to the myelin sheath.
+	</Abstract>
+	<Question>
+		What is the cause of demyelinating disease and what can you do about it?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01811" LinkType="Internal" ObjectID="E644F0FD-E7FF-0DBD-10A8A923CD123979" Title="Multiple sclerosis: Can it cause seizures?" Url="http://www.mayoclinic.com/health/multiple-sclerosis/AN01811" />
+		<LinkItem ContentType="Answer" DocID="AN01894" LinkType="Internal" ObjectID="550D9F81-E7FF-0DBD-168904A516DF6B56" Title="Vitamin D and MS: Is there any connection?" Url="http://www.mayoclinic.com/health/vitamin-d-and-ms/AN01894" />
+		<LinkItem ContentType="Answer" DocID="AN01838" LinkType="Internal" ObjectID="10D40E65-E7FF-0DBD-1989C1E8EE4F9741" Title="Acetyl-L-carnitine: Can it relieve MS fatigue?" Url="http://www.mayoclinic.com/health/acetyl-l-carnitine/AN01838" />
+		<LinkItem ContentType="Disease" DocID="DS00188" LinkType="Internal" ObjectID="CEC491ED-C3B3-4B39-9E747386136032B4" Title="Multiple sclerosis" Url="http://www.mayoclinic.com/health/multiple-sclerosis/DS00188" />
+	</RelatedLinksBox>
+</Answer>

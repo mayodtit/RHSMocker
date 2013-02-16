@@ -1,0 +1,340 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00937
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/krabbe-disease/DS00937
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1771" Title="Degenerative">
+						<Keyword MCVID="2121" Title="Krabbe disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			510DED39-E7FF-0DBD-195F48D68F5063C2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Krabbe disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Krabbes disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Krabbe disease (KRAH-buh disease) is an inherited, often fatal disorder affecting the central nervous system. Krabbe disease affects about 1 in every 100,000 people in the United States. 
+&lt;/p&gt;
+&lt;p&gt;
+The disease affects muscle tone and movement, and may cause vision and hearing loss, among other devastating effects. In most cases, Krabbe disease develops in babies before 6 months of age, although it can occur in older children and in adults.
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for Krabbe disease and treatment mainly involves approaches designed to ease symptoms. However, early studies using stem cell transplants to treat Krabbe disease before symptoms begin have had some success.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Early-onset Krabbe disease&lt;br /&gt;
+&lt;/strong&gt;In the more common form of Krabbe disease, which develops in the first months of life, signs and symptoms often include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeding difficulties&lt;/li&gt;
+	&lt;li&gt;Unexplained crying&lt;/li&gt;
+	&lt;li&gt;Loss of head control&lt;/li&gt;
+	&lt;li&gt;Fevers&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Extreme irritability&lt;/li&gt;
+	&lt;li&gt;Changes in muscle tone (limb and muscle stiffness, poor coordination of movements)&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Progressive loss of hearing and sight&lt;/li&gt;
+	&lt;li&gt;Spasticity (presence of spasms or consistently contracted muscles)&lt;/li&gt;
+	&lt;li&gt;Loss of developmental milestones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Late-onset Krabbe disease&lt;br /&gt;
+&lt;/strong&gt;When children have the late-onset form of the disease &amp;mdash; which develops later in childhood or in adolescence &amp;mdash; they may experience the signs and symptoms above, as well as other signs that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Visual impairment progressing to blindness, which may be the initial sign&lt;/li&gt;
+	&lt;li&gt;Difficulty walking (called ataxia or gait disturbances)&lt;/li&gt;
+	&lt;li&gt;Loss of manual dexterity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As a general rule, the younger the age that Krabbe disease occurs, the faster it progresses. Some people diagnosed during adolescence or adulthood may have less-severe symptoms, with muscle weakness as a primary symptom. They may have no impairment of their cognitive abilities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you notice symptoms in your child that could indicate the presence of Krabbe disease &amp;mdash; such as seizures or limb stiffness &amp;mdash; have your child evaluated by your doctor. If your doctor suspects Krabbe disease, he or she will refer you to a specialist with expertise in the diagnosis and management of this disorder. That specialist can discuss the available treatment options with you. Because this condition can progress quickly, it&apos;s important to see a doctor promptly if you suspect the disease is present. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Krabbe disease is caused by a genetic defect that results in a deficiency in an enzyme called galactocerebrosidase (GALC). This enzyme is essential for the maintenance of myelin &amp;mdash; a fatty substance that insulates your nerve fibers.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors sometimes refer to Krabbe disease as globoid cell leukodystrophy. Globoid cells store molecules called galactolipids. Without GALC, galactolipids accumulate in the brain. Psychosine is a type of galactolipid, and it&apos;s the one suspected of causing the most damage in Krabbe disease. The damage occurs because when psychosine levels are high, the cells that produce myelin begin to self-destruct.
+&lt;/p&gt;
+&lt;p&gt;
+A child needs to inherit an abnormal gene from each parent to trigger the disorder. This inheritance pattern is called autosomal recessive. The gene for Krabbe disease is located on chromosome 14.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Krabbe disease is caused by a defective gene that must be inherited from both parents. But even if both parents have the defective gene, a child may not develop Krabbe disease.
+&lt;/p&gt;
+&lt;p&gt;
+If both parents are carriers of the defective gene for Krabbe disease, their offspring have a 25 percent risk of developing the disorder. If a child inherits the gene from only one parent, he or she will be a carrier but will never develop symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Krabbe disease occurs more often in people from Israel than in the population at large.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of complications &amp;mdash; including infections and respiratory difficulties &amp;mdash; can develop in children whose Krabbe disease has progressed. In the later stages of the disease, children become incapacitated, confined to their beds, and eventually lapse into a vegetative mental state. 
+&lt;/p&gt;
+&lt;p&gt;
+Most children who develop Krabbe disease in infancy die before the age of 2 years old, most often from respiratory failure or complications of immobility and markedly decreased muscle tone. Children in whom the disease develops later in childhood may have a somewhat longer life expectancy, usually between two and seven years after diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the initial signs and symptoms your infant or child exhibits, you may first be seen in an emergency room, or by your family doctor or pediatrician. However, ongoing care for Krabbe disease is usually provided by a doctor who specializes in disorders of the nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your child&apos;s appointment, and what you can expect from your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; especially any known family history of Krabbe disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to join you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information you&apos;re given during an appointment. Someone who accompanies you may remember something that you missed or forgot, or they may think to ask questions you hadn&apos;t thought to bring up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time can help you make sure you cover the points that are most important to you. For Krabbe disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need? &lt;/li&gt;
+	&lt;li&gt;Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Will my child need to be sedated for testing?&lt;/li&gt;
+	&lt;li&gt;What treatments are available for Krabbe disease?&lt;/li&gt;
+	&lt;li&gt;What treatment would you recommend for my child?&lt;/li&gt;
+	&lt;li&gt;What types of side effects does this treatment commonly cause?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my child&apos;s prognosis?&lt;/li&gt;
+	&lt;li&gt;Would physical or occupational therapy help my child?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? Can you recommend any reliable websites?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you know if anyone on either side of your child&apos;s family has ever been diagnosed with Krabbe disease?&lt;/li&gt;
+	&lt;li&gt;Has anyone on either side of your child&apos;s family ever mentioned an unexplained death of an infant in the family?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor will conduct a physical exam, evaluating signs and symptoms that may indicate Krabbe disease, and then conduct a number of diagnostic tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child&apos;s doctor will take a blood sample and obtain a skin sample (biopsy), and send both to a laboratory for analysis. There, a lab technician will measure the activity of the GALC enzyme. If GALC activity level is low, your child may have Krabbe disease.
+&lt;/p&gt;
+&lt;p&gt;
+Although the results of these tests can help the doctor make a diagnosis, they don&apos;t provide evidence of how quickly the disease may progress. For example, a very low GALC activity finding doesn&apos;t always mean that the condition will advance rapidly.
+&lt;/p&gt;
+&lt;p&gt;
+To confirm the diagnosis, your child&apos;s doctor will recommend one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging scans of the brain and head.&lt;/strong&gt; This may involve a magnetic resonance imaging (MRI) or computerized tomography (CT) scan. An MRI scan uses magnetic signals to create images of the brain. It&apos;s the best test to detect any abnormality in the brain that could be associated with Krabbe disease. Even so, in the early stages of the disease, an MRI can appear normal. A CT scan is a computer-enhanced, high-resolution imaging technique that creates 2-D X-ray pictures of the head.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction studies.&lt;/strong&gt; These measure the velocity of impulses being sent through the nervous system. This test may involve electrically stimulating the nerves, and then measuring the time it takes the electrical impulse to travel from the stimulation site to the recording device. When myelin is impaired, the nerve conduction is slower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye examination.&lt;/strong&gt; A doctor who specializes in eye care (ophthalmologist) examines the retina, looking for indications of visual deterioration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; This may be conducted to detect the genetic mutation or defect associated with Krabbe disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before birth, a fetus can be screened for Krabbe disease. To do this, your doctor withdraws amniotic fluid surrounding the fetus using a needle. The cells in the amniotic fluid are examined in the lab. A prenatal diagnosis of Krabbe disease can be made by evaluating the activity of GALC enzymes found in these cells or by genetic mutation analysis.
+&lt;/p&gt;
+&lt;p&gt;
+Prenatal diagnosis is not for everyone. When a family has had a previously affected child, then looking for an enzyme deficiency or mutations may be feasible, but this is not recommended when there isn&apos;t a family history.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific, proven treatment for Krabbe disease, nor is there a cure. Krabbe disease treatment is designed primarily to ease symptoms and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anticonvulsant medications to manage seizures&lt;/li&gt;
+	&lt;li&gt;Drugs to ease muscle spasticity and irritability, such as benzodiazepines&lt;/li&gt;
+	&lt;li&gt;Drugs that may reduce the incidence of reflux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treating symptoms in some older children with less-severe forms of the disease may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical therapy to minimize deterioration of muscle tone.&lt;/li&gt;
+	&lt;li&gt;Occupational therapy so your child may achieve as much independence as possible &amp;mdash; for example, by learning such tasks as dressing, eating and brushing teeth on their own. &lt;/li&gt;
+	&lt;li&gt;Some research indicates possible benefits associated with the use of bone marrow transplantation or cord blood transfusion as treatments for Krabbe disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bone marrow transplantation&lt;br /&gt;
+&lt;/strong&gt;Adult bone marrow &amp;mdash; the sponge-like material present in bones &amp;mdash; has been used to replace a child&apos;s own bone marrow in Krabbe disease. This procedure is called hematopoietic stem cell transplantation. It appears to provide benefits primarily to older children who have less-severe forms of the disease or to infants diagnosed at birth. 
+&lt;/p&gt;
+&lt;p&gt;
+For other children &amp;mdash; particularly infants who have already developed symptoms &amp;mdash; this treatment hasn&apos;t been successful. It doesn&apos;t appear to halt or slow progression of the disease in babies, nor has it been effective in treating fetuses diagnosed with the disease before birth. 
+&lt;/p&gt;
+&lt;p&gt;
+More research &amp;mdash; including longer follow-up with more subjects &amp;mdash; is needed to better assess the possible benefits of this treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cord blood transfusion&lt;br /&gt;
+&lt;/strong&gt;A transfusion of blood stem cells, obtained from the umbilical cord of unrelated donors, has reduced neurological symptoms in some infants with Krabbe disease. 
+&lt;/p&gt;
+&lt;p&gt;
+In small studies, doctors have transfused healthy donor cells with normal enzyme (GALC) activity into babies with Krabbe disease who have not yet developed symptoms. This treatment has stimulated normal development of myelin in these babies. Babies treated before symptoms appeared seemed to maintain normal hearing and vision; however, there was subsequent deterioration in language expression and in motor skills, such as walking or picking up objects. 
+&lt;/p&gt;
+&lt;p&gt;
+In the future, gene therapy could play a role in the treatment of Krabbe disease, by delivering a functional gene via a virus to the cells or tissue, replacing the abnormal gene that is responsible for the disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a child with Krabbe disease may be one of the most difficult things you&apos;ll ever have to cope with, and some people find it easier if they don&apos;t do it alone. The United Leukodystrophy Foundation offers online support and connections to other families dealing with Krabbe disease. The organization&apos;s number is 800-728-5483 or you can visit the website at www.ulf.org. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Pre-pregnancy screening&lt;br /&gt;
+&lt;/strong&gt;If you or your spouse are known to be carriers of the gene abnormality responsible for Krabbe disease &amp;mdash; or have extended family members who have developed the disorder &amp;mdash; talk with your doctor about undergoing genetic counseling if you&apos;re considering pregnancy, in order to better understand the possible risks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Newborn screening&lt;br /&gt;
+&lt;/strong&gt;Because stem cell transplants may delay the onset of Krabbe disease when given before symptoms begin, screening newborns may become more important. New York state has already adopted universal newborn screening for Krabbe disease. Even when transplant isn&apos;t feasible, screenings allow for early detection, which can help improve an infant&apos;s quality of life by intervening with supportive care earlier. If you don&apos;t live in a state where screening is commonplace and you have a family history of Krabbe disease, talk with your doctor about having your newborn screened.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Krabbe disease
+	</Title>
+	<Abstract>
+		Krabbe disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this central nervous system disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+	</RelatedLinksBox>
+</Disease>

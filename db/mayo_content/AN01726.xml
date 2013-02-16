@@ -1,0 +1,120 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01726
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/early-hiv-symptoms/AN01726
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1752" Title="HIV/AIDS" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			04C666AE-E7FF-0DBD-1A8336DFF308E04C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				HIV
+			</MetaKeyword>
+			<MetaKeyword>
+				human immunodeficiency virus
+			</MetaKeyword>
+			<MetaKeyword>
+				hiv
+			</MetaKeyword>
+			<MetaKeyword>
+				early HIV symptoms
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Early HIV symptoms usually occur within a month or two after infection. In many people, early HIV symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Swollen lymph glands&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These early HIV symptoms usually disappear within a week to a month and are often mistaken for those of another viral infection. During this period, you are very infectious. More-persistent or more-severe symptoms of HIV infection may not appear for several years after the initial infection.
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms that indicate an early HIV infection are extremely common. Often, you can&apos;t tell them apart from symptoms of another viral infection. And some people infected with HIV don&apos;t experience early symptoms. If you&apos;re concerned that you might have been exposed to HIV, talk to your doctor about your testing options.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Early HIV symptoms: What are they?
+	</Title>
+	<Abstract>
+		Early HIV signs and symptoms may include fever, fatigue and swollen lymph glands. Learn more.
+	</Abstract>
+	<Question>
+		When do early HIV symptoms first appear?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00954" LinkType="Internal" ObjectID="CE78E7BE-D2EB-3481-3D713406990CDFC6" Title="HIV testing" Url="http://www.mayoclinic.com/health/hiv-testing/MY00954" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00105" LinkType="Internal" ObjectID="C0133EF8-E7FF-0DBD-169C6332C6D45953" Title="Gene therapy" Url="http://www.mayoclinic.com/health/gene-therapy/MY00105" />
+		<LinkItem ContentType="Answer" DocID="AN02167" LinkType="Internal" ObjectID="32B9B057-9C29-709B-E357C00DB7D0C704" Title="Tap water or bottled water: Which is better?" Url="http://www.mayoclinic.com/health/tap-water/AN02167" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00985" LinkType="Internal" ObjectID="2B713E81-BB64-E856-EAA775C6C758BE4A" Title="Female condom" Url="http://www.mayoclinic.com/health/female-condom/MY00985" />
+		<LinkItem ContentType="Article" DocID="MY00739" LinkType="Internal" ObjectID="B21A5496-E01C-E832-A465884F1A017A21" Title="Health issues for lesbians: Prevention first" Url="http://www.mayoclinic.com/health/health-issues-for-lesbians/MY00739" />
+		<LinkItem ContentType="Article" DocID="MY00738" LinkType="Internal" ObjectID="AD1268B7-FCC3-1F5A-1B94F46DDDE62ECC" Title="Health issues for gay men: Prevention first" Url="http://www.mayoclinic.com/health/health-issues-for-gay-men/MY00738" />
+		<LinkItem ContentType="Article" DocID="HQ01507" LinkType="Internal" ObjectID="8DFF08EE-3CD0-429C-BF5E145C5669616D" Title="Thalidomide: Research advances in cancer and other conditions" Url="http://www.mayoclinic.com/health/thalidomide/HQ01507" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+		<LinkItem ContentType="Disease" DocID="DS00183" LinkType="Internal" ObjectID="23246C2F-131D-4391-BB2A6B3E819A126F" Title="Drug addiction" Url="http://www.mayoclinic.com/health/drug-addiction/DS00183" />
+		<LinkItem ContentType="Disease" DocID="DS00005" LinkType="Internal" ObjectID="32278E96-F109-4807-8738841CD620091B" Title="HIV/AIDS" Url="http://www.mayoclinic.com/health/hiv-aids/DS00005" />
+	</RelatedLinksBox>
+</Answer>

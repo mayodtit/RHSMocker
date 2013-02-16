@@ -1,0 +1,307 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00763
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/esophageal-spasms/DS00763
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-19
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="2929" Title="Esophageal spasms" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5F351E2-E7FF-0DBD-1643119C49DB7BA2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				esophageal spasms
+			</MetaKeyword>
+			<MetaKeyword>
+				diffuse
+			</MetaKeyword>
+			<MetaKeyword>
+				nutcracker
+			</MetaKeyword>
+			<MetaKeyword>
+				DES
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophageal spasms are painful muscle contractions that affect your esophagus, the hollow tube between your throat and your stomach. Esophageal spasms can feel like sudden, severe chest pain that lasts from a few minutes to hours. 
+&lt;/p&gt;
+&lt;p&gt;
+Esophageal spasms usually occur only occasionally. But for some people, the muscle contractions are frequent and can prevent food and liquids from traveling through the esophagus. Esophageal spasms can lead to chronic pain and swallowing problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for occasional esophageal spasms may not be necessary. But if esophageal spasms interfere with your ability to eat or drink, treatments are available. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="60" Title="Esophagus" URI="/images/image_popup/thumbs/dysphagiathu.jpg" Width="60" />
+				<Image Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="460" Title="Esophagus" URI="/images/image_popup/dysphagia.jpg" Width="400" />
+				<HTML>
+					The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of esophageal spasms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Squeezing pain in your chest, often intense, which you might mistake for heart pain (angina)&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing (dysphagia)&lt;/li&gt;
+	&lt;li&gt;The feeling that an object is stuck in your throat (globus)&lt;/li&gt;
+	&lt;li&gt;The return of food and liquids back up your esophagus (regurgitation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+The squeezing chest pain that esophageal spasms can cause can also be caused by a heart attack or angina. If you experience squeezing chest pain, especially if it is a new symptom, seek medical care right away to make sure it&apos;s not a heart problem. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="60" Title="Esophagus" URI="/images/image_popup/thumbs/dysphagiathu.jpg" Width="60" />
+				<Image Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="460" Title="Esophagus" URI="/images/image_popup/dysphagia.jpg" Width="400" />
+				<HTML>
+					The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes esophageal spasms. 
+&lt;/p&gt;
+&lt;p&gt;
+A healthy esophagus normally moves food into your stomach through a series of coordinated muscle contractions (peristalsis). Esophageal spasms disrupt this process by making it difficult for the muscles in the walls of your lower esophagus to coordinate in order to move food to your stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of esophageal spasms&lt;/strong&gt; &lt;br /&gt;
+Esophageal spasms may occur in two forms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diffuse esophageal spasms&lt;/strong&gt; are occasional contractions in the esophageal muscles. This type of spasm is often accompanied by regurgitation of food or liquids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nutcracker esophagus&lt;/strong&gt; is the term for painfully strong contractions in the esophageal muscles. Nutcracker esophagus is less likely to cause regurgitation of food and liquids.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophageal spasms are more common in women than in men. Other factors that increase the risk of esophageal spasms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating or drinking very hot or very cold foods or drinks&lt;/li&gt;
+	&lt;li&gt;Heartburn&lt;/li&gt;
+	&lt;li&gt;Gastroesophageal reflux disease (GERD)&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any triggers to your symptoms,&lt;/strong&gt; such as specific foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a history of injury to your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life. These factors can be connected to digestive signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible, to help you remember things.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt;&lt;br /&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there a way for me to tell if my chest pain is being caused by an esophageal spasm, rather than another condition, such as a heart problem?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? How do I need to prepare for these tests?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What types of foods are likely to make my symptoms worse?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you questions about your symptoms, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms related to eating?&lt;/li&gt;
+	&lt;li&gt;Does any particular food or type of food trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you experience symptoms of heartburn after eating, such as a burning sensation in your chest or an acid taste in your mouth?&lt;/li&gt;
+	&lt;li&gt;Do you ever wake up during the night with heartburn, chest pain or an acid taste in your mouth?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty swallowing food or have you had to change your diet to avoid difficulty swallowing?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Based on your signs and symptoms, your doctor may recommend these tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays&lt;/strong&gt; of your esophagus, after you drink a contrast liquid&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal manometry,&lt;/strong&gt; to measure muscle contractions in your esophagus when you swallow water&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopy,&lt;/strong&gt; to view the inside of the esophagus&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal pH monitoring,&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;to determine if stomach acid is flowing back into your esophagus (acid reflux)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience esophageal spasms only occasionally, you may not need treatment. Your doctor may recommend avoiding food or situations that trigger your esophageal spasms.
+&lt;/p&gt;
+&lt;p&gt;
+If your esophageal spasms make it difficult to eat or drink, your doctor may recommend:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Managing any underlying conditions,&lt;/strong&gt; such as heartburn, GERD, anxiety or depression. Treating these conditions may lessen the likelihood of esophageal spasm symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to relax your swallowing muscles,&lt;/strong&gt; which can reduce the severity of contractions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery &lt;/strong&gt;is sometimes recommended to treat acid reflux that doesn&apos;t respond to medication, or to cut the muscle at the lower end of the esophagus, which can weaken esophageal contractions. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help you cope with occasional esophageal spasms, try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Identify your triggers.&lt;/strong&gt; Make a list of things that cause your esophageal spasms, such as cold or hot foods and drinks, or red wine. Avoid these triggers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose food that is warm or cool.&lt;/strong&gt; Let foods and drinks that are very hot or very cold sit for a bit before eating or drinking them. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to control stress.&lt;/strong&gt; Esophageal spasms may be more common or more severe when you&apos;re stressed. Some stress is inevitable, so find healthy ways to cope.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Esophageal spasms
+	</Title>
+	<Abstract>
+		Esophageal spasms &amp;mdash; Comprehensive overview covers symptoms, treatment of abnormal muscle spasms in the esophagus.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01208" LinkType="Internal" ObjectID="FCC5AED0-BABC-909A-06AABAF8B6297351" Title="Esophageal manometry" Url="http://www.mayoclinic.com/health/esophageal-manometry/MY01208" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+	</RelatedLinksBox>
+</Disease>

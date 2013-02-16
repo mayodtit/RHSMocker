@@ -1,0 +1,216 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01919
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/biophysical-profile/MY01919
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2012-02-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="4943" Title="Biophysical profile" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8F721657-ED13-7D11-6153103214893F79
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				biophysical profile
+			</MetaKeyword>
+			<MetaKeyword>
+				nonstress test
+			</MetaKeyword>
+			<MetaKeyword>
+				modified biophysical profile
+			</MetaKeyword>
+			<MetaKeyword>
+				ultrasound
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A biophysical profile is a prenatal test used to check on a baby&apos;s well-being. The test combines fetal heart rate monitoring (nonstress test) and fetal ultrasound &amp;mdash; an imaging technique that uses high-frequency sound waves to produce images of a baby in the uterus. During a biophysical profile, a baby&apos;s heart rate, breathing, movements, muscle tone and amniotic fluid level are evaluated and given a score. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, a biophysical profile is recommended for women at risk of pregnancy loss. A biophysical profile is typically done after week 32 of pregnancy. However, the test can be done when your pregnancy is far enough along for delivery to be considered &amp;mdash; usually after weeks 24 to 26 of pregnancy. A low score on a biophysical profile might indicate that you and your baby need further monitoring or special care. In some cases, early or immediate delivery might be recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+A biophysical profile is a noninvasive test that doesn&apos;t pose any physical risks to you or your baby. However, it&apos;s not always clear that a biophysical profile can help promote a baby&apos;s health. Find out what a biophysical profile involves and whether this prenatal test might benefit you or your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A biophysical profile is used to evaluate and monitor a baby&apos;s health. The goal of a biophysical profile is to prevent pregnancy loss and detect fetal hypoxia &amp;mdash; when the baby is deprived of an adequate oxygen supply &amp;mdash; early enough so that the baby can be delivered and not sustain permanent damage.
+&lt;/p&gt;
+&lt;p&gt;
+The test is most commonly done when there&apos;s an increased risk of pregnancy loss. Your health care provider will determine the necessity and timing of a biophysical profile based on whether your baby could survive if delivered early, the severity of your condition and the risk of pregnancy loss.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might initially recommend a modified biophysical profile &amp;mdash; a simplified version of the test that includes a nonstress test and assesses amniotic fluid through ultrasound. Your health care provider will then use the results to determine whether you need a full biophysical profile, which also measures a baby&apos;s breathing, movements and muscle tone.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might recommend a biophysical profile if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A multiple pregnancy&lt;/li&gt;
+	&lt;li&gt;An underlying medical condition, such as type 1 diabetes, gestational diabetes, high blood pressure, a blood disorder, lupus, thyroid disease, kidney disease or heart disease&lt;/li&gt;
+	&lt;li&gt;A pregnancy that has extended two weeks past your due date (postterm pregnancy)&lt;/li&gt;
+	&lt;li&gt;A history of pregnancy loss&lt;/li&gt;
+	&lt;li&gt;A baby who has decreased fetal movements or possible fetal growth problems&lt;/li&gt;
+	&lt;li&gt;Too much amniotic fluid (polyhydramnios) or low amniotic fluid (oligohydramnios)&lt;/li&gt;
+	&lt;li&gt;Rh (rhesus) sensitization &amp;mdash; a potentially serious condition that can occur when your blood group is Rh negative and your baby&apos;s blood group is Rh positive&lt;/li&gt;
+	&lt;li&gt;Worrisome results from other prenatal tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider might also recommend a biophysical profile if you&apos;re between 40 and 42 weeks pregnant. The benefits of having the test done during this period, however, aren&apos;t clear.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might recommend that you have a biophysical profile once a week, twice a week or, rarely, even more frequently &amp;mdash; depending on your health condition &amp;mdash; until you give birth.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A biophysical profile is a noninvasive test that poses no physical risks for you or your baby.
+&lt;/p&gt;
+&lt;p&gt;
+While a biophysical profile can offer reassurance about your baby&apos;s health, it can also cause anxiety. In addition, a biophysical profile might not detect an existing problem or might suggest that a problem exists when there is none.
+&lt;/p&gt;
+&lt;p&gt;
+Also, keep in mind that while a biophysical profile is often recommended for women who have an increased risk of pregnancy loss, it&apos;s not always clear that the test can promote a baby&apos;s health.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A biophysical profile typically requires no special preparation. However, the ultrasound might need to be done with a full bladder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A biophysical profile can be done in your health care provider&apos;s office or in a hospital. The test might take up to an hour to complete. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the test&lt;/strong&gt;&lt;br /&gt;
+During the nonstress test, you&apos;ll lie on an exam table. You&apos;ll likely have your blood pressure taken before the test and at regular intervals during the test. Your health care provider or a member of your health care team will then place two belts across your abdomen. One belt will have sensors to measure your baby&apos;s heart rate, and the other will have sensors to detect uterine contractions. You&apos;ll likely be asked to press a button when your baby moves. Your baby&apos;s movements will then be noted on the fetal heart record. Your health care provider will be looking to see if your baby&apos;s heart beats faster when he or she moves. Typically, the test lasts 20 minutes. However, if your baby is asleep, you might need to wait until he or she awakens to ensure accurate results. In some cases, your health care provider might try to awaken the baby by making a loud noise or asking you to drink a glass of juice. 
+&lt;/p&gt;
+&lt;p&gt;
+During the ultrasound exam, you&apos;ll also lie on an exam table. Your health care provider or an ultrasound technician will apply a small amount of gel to your abdomen. Then he or she will rub a small device called a transducer over your skin, moving from one part of your abdomen to another as necessary. The transducer will emit pulses of sound waves that will be translated into a pattern of light and dark areas &amp;mdash; creating an image of your baby on a monitor. Your health care provider or the ultrasound technician will then evaluate your baby&apos;s breathing movements, body movements, muscle tone and amniotic fluid level. The ultrasound might last 5 to 30 minutes or so, depending on whether your baby is awake or there&apos;s a wait time until your baby awakens.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;/strong&gt;&lt;br /&gt;
+When the biophysical profile is complete, your health care provider will likely discuss the results with you right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Each area that&apos;s evaluated during a biophysical profile is given a score of 0 or 2 points, depending on whether specific criteria were met. A score can be given as soon as the biophysical activity is observed. For example:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal heart rate.&lt;/strong&gt; Results of this portion of the test (nonstress test) are called reactive or nonreactive. If your baby&apos;s heartbeat accelerates to a certain level twice or more for at least 15 seconds within 20 to 40 minutes, the results are considered reactive and 2 points will be given. If your baby&apos;s heartbeat doesn&apos;t meet that criteria, the results are considered nonreactive and 0 points will be given. Keep in mind that nonreactive results might occur because your baby was asleep during the test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal breathing.&lt;/strong&gt; If your baby displays at least one instance of rhythmic breathing for 30 seconds or more within 30 minutes, 2 points will be given. If your baby&apos;s breathing doesn&apos;t meet the criteria, 0 points will be given.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal movement.&lt;/strong&gt; If your baby moves his or her body or limbs three times or more within 30 minutes, 2 points will be given. If your baby&apos;s movements don&apos;t meet the criteria, 0 points will be given.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal muscle tone.&lt;/strong&gt; If your baby moves a limb from a bent position to an extended position and quickly back to a bent position, 2 points will be given. If your baby&apos;s muscle tone doesn&apos;t meet the criteria, 0 points will be given. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amniotic fluid level.&lt;/strong&gt; The ultrasound technician will look for the largest visible pocket of amniotic fluid. To obtain a score of 2 points, the pocket must be a certain size. If your amniotic fluid level doesn&apos;t meet the criteria, 0 points will be given.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The individual scores are then added together for a total score. Typically, a score of 8 to 10 is reassuring. A score that&apos;s lower than 6 indicates the need for further testing. In some cases, a low score might lead your health care provider to recommend an early or immediate delivery. In addition, if your health care provider finds that you have a low amount of amniotic fluid, you&apos;ll need further testing and might need to deliver your baby early &amp;mdash; regardless of your overall score.
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that certain factors can affect the results of a biophysical profile, including the use of corticosteroids to speed your baby&apos;s lung maturity and the presence of an infection.
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to discuss the results of your biophysical profile with your health care provider to fully understand what they might mean for you and your baby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Biophysical profile
+	</Title>
+	<Abstract>
+		Biophysical profile &amp;mdash; Overview covers definition, risks, results of this prenatal test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01659" LinkType="Internal" ObjectID="98088642-E7FF-0DBD-1AF719BC1CFFB7E8" Title="Low amniotic fluid: How is it treated?" Url="http://www.mayoclinic.com/health/low-amniotic-fluid/AN01659" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="PR00125" LinkType="Internal" ObjectID="7A28001E-F8AD-4174-AF785E26EEE1A1D5" Title="High blood pressure and pregnancy: Know the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00125" />
+		<LinkItem ContentType="Article" DocID="PR00124" LinkType="Internal" ObjectID="738373AF-3AB2-4AEC-AD929C9949F37D51" Title="Heart conditions and pregnancy: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy/PR00124" />
+		<LinkItem ContentType="Disease" DocID="DS00316" LinkType="Internal" ObjectID="F26EA786-DF0A-470F-BA3801EF0A7EE346" Title="Gestational diabetes" Url="http://www.mayoclinic.com/health/gestational-diabetes/DS00316" />
+		<LinkItem ContentType="Disease" DocID="DS01156" LinkType="Internal" ObjectID="E220BEBA-9168-96EB-DF32C65DCEFED58E" Title="Polyhydramnios" Url="http://www.mayoclinic.com/health/polyhydramnios/DS01156" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+	</RelatedLinksBox>
+</TestProcedure>

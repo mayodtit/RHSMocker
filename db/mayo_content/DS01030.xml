@@ -1,0 +1,400 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01030
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/carotid-artery-disease/DS01030
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="3636" Title="Carotid artery disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A78D30C2-E7FF-0DBD-14D50D2855293A85
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				carotid artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				transient ischemic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				TIA
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid plaque
+			</MetaKeyword>
+			<MetaKeyword>
+				endarterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid bruit
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carotid artery disease occurs when fatty, waxy deposits called plaques clog your carotid arteries. Your carotid arteries are a pair of blood vessels that deliver blood to your brain and head. The buildup of plaques in these arteries blocks the blood supply to your brain and increases your risk of stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+Because carotid artery disease develops slowly and often goes unnoticed, the first outward clue that you have the condition may be a stroke or transient ischemic attack (TIA), sometimes referred to as a ministroke. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of carotid artery disease usually involves a combination of lifestyle changes, medications and, in some cases, surgery or a stenting procedure.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of carotid artery 
+" Caption="The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+" Height="60" Title="Carotid artery" URI="/images/image_popup/thumbs/mcdc7_carotidarterythu.jpg" Width="60" />
+				<Image Alt="Illustration of carotid artery 
+" Caption="The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+" Height="425" Title="Carotid artery" URI="/images/image_popup/mcdc7_carotidartery.jpg" Width="400" />
+				<HTML>
+					The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In its early stages, carotid artery disease often doesn&apos;t produce any signs or symptoms. You and your doctor may not know you have carotid artery disease until it&apos;s serious enough to deprive your brain of blood, causing a stroke or TIA &amp;mdash; an early warning sign of a future stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of a stroke or TIA&lt;/strong&gt; may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden numbness or weakness &lt;/strong&gt;in the face or limbs, often on only one side of the body&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble speaking&lt;/strong&gt; and understanding&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden trouble seeing&lt;/strong&gt; in one or both eyes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dizziness&lt;/strong&gt; or loss of balance&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A sudden, severe headache&lt;/strong&gt; with no known cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if you have risk factors for carotid artery disease. Your doctor may do some tests to see what shape your arteries are in. Even if you don&apos;t have any signs or symptoms, your doctor may recommend aggressive management of your risk factors to protect you from stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care&lt;/strong&gt; if you experience any of the signs or symptoms of a transient ischemic attack or stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if the signs and symptoms last only a short while &amp;mdash; usually less than an hour but possibly longer &amp;mdash; and then you feel normal, tell your doctor right away. What you may have experienced is a TIA, a temporary shortage of blood flow to a region of your brain. A TIA is an important sign that you&apos;re at high risk of having a full-blown stroke, so don&apos;t ignore it.
+&lt;/p&gt;
+&lt;p&gt;
+Seeing a doctor early increases your chances that carotid artery disease will be detected and treated before a disabling stroke occurs. It&apos;s also possible that a TIA can be due to lack of blood flow in other blood vessels. Your doctor will determine which testing is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Make sure your close friends and family know the signs and symptoms of stroke and understand that it&apos;s critical to act fast in the event of a possible stroke. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carotid arteries can become stiff and narrow over time due to a gradual accumulation of plaques, which can restrict blood flow and result in carotid artery disease. Plaques consist of clumps of cholesterol, calcium, fibrous tissue and other cellular debris that gather at microscopic injury sites within the artery, creating a blood clot (thrombus). This process is called atherosclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Normal, healthy carotid arteries &amp;mdash; like any other healthy artery &amp;mdash; are smooth and flexible and provide a clear pathway for blood flow. If you place a finger under your jawbone on either side of your Adam&apos;s apple, you may feel your carotid artery pulse. Your carotid arteries carry oxygen- and nutrient-rich blood to your cerebral cortex and other vital brain structures, which are responsible for your day-to-day functioning.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of carotid artery 
+" Caption="The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+" Height="60" Title="Carotid artery" URI="/images/image_popup/thumbs/mcdc7_carotidarterythu.jpg" Width="60" />
+				<Image Alt="Illustration of carotid artery 
+" Caption="The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+" Height="425" Title="Carotid artery" URI="/images/image_popup/mcdc7_carotidartery.jpg" Width="400" />
+				<HTML>
+					The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that stress your arteries and increase the risk of injury, buildup of plaques and disease include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; High blood pressure is an important risk factor for carotid artery disease. Excess pressure on the walls of your arteries can weaken them and leave them more vulnerable to damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Nicotine can irritate the inner lining of your arteries. It also increases your heart rate and blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; As you age, your arteries become less elastic and more prone to injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal blood-fat levels.&lt;/strong&gt; High levels of low-density lipoprotein (LDL) cholesterol, the &quot;bad&quot; cholesterol, and high levels of triglycerides, a blood fat, encourage the accumulation of plaques.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Diabetes affects not only your ability to handle glucose appropriately but also your ability to process fats efficiently, placing you at greater risk of high blood pressure and atherosclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Carrying excess pounds increases your chances of high blood pressure, atherosclerosis and diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Having a family history of atherosclerosis or coronary artery disease increases your risk of developing these conditions, as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical inactivity.&lt;/strong&gt; Lack of exercise contributes to a number of conditions, including high blood pressure, diabetes and obesity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, these risk factors occur together, creating even greater risk than if they occur alone. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Stroke&lt;br /&gt;
+&lt;/strong&gt;The most serious complication of carotid artery disease is stroke. There are different ways carotid artery disease can increase your risk of stroke: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced blood flow.&lt;/strong&gt; A carotid artery may become so narrowed by atherosclerosis that not enough blood is able to reach portions of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ruptured plaques.&lt;/strong&gt; A piece of a plaque may break off and flow to smaller arteries in your brain (cerebral arteries). The fragment may get stuck in one of these smaller arteries, creating a blockage that cuts off blood supply to the area of the brain that the cerebral artery serves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clot blockage.&lt;/strong&gt; Some plaques are prone to cracking and forming irregular surfaces on the artery wall. When this happens, your body reacts as if to an injury and sends platelets &amp;mdash; blood cells that help the clotting process &amp;mdash; to the area. A large blood clot may develop in this manner and block or slow the flow of blood through a carotid or cerebral artery, causing a stroke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A stroke can leave you with permanent brain damage and muscle weakness. In severe cases, it can be fatal.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;In case of an emergency&lt;br /&gt;
+&lt;/strong&gt;Stroke or TIA &amp;mdash; often the first indications of carotid artery disease &amp;mdash; is an emergency medical condition. If you or a loved one develops signs or symptoms of a possible stroke, call 911 or your local emergency number immediately. Don&apos;t attempt to drive yourself to the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms to watch for include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden weakness or numbness&lt;/strong&gt; in the face or limbs, often on only one side of the body&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The inability to move&lt;/strong&gt; one or more of your limbs&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble speaking&lt;/strong&gt; and understanding&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden trouble seeing&lt;/strong&gt; in one or both eyes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dizziness&lt;/strong&gt; or loss of balance&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A sudden, severe headache&lt;/strong&gt; with no known cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have risk factors for carotid artery disease, make an appointment with your doctor. He or she may run tests to evaluate the health of your arteries and may recommend treatments and lifestyle changes to reduce your risk of stroke.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ischemic stroke 
+" Caption="Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur in the carotid artery of the neck as well as other arteries. 
+" Height="60" Title="Ischemic stroke" URI="/images/image_popup/thumbs/r7_ischemicstrokethu.jpg" Width="60" />
+				<Image Alt="Illustration showing ischemic stroke 
+" Caption="Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur in the carotid artery of the neck as well as other arteries. 
+" Height="340" Title="Ischemic stroke" URI="/images/image_popup/r7_ischemicstroke.jpg" Width="400" />
+				<HTML>
+					Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to prepare in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve experienced,&lt;/strong&gt; including whether you think you may have had a TIA and when.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List your personal risk factors for stroke,&lt;/strong&gt; including family history of heart disease or stroke and lifestyle habits such as smoking and lack of physical activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems you&apos;ve had and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; and, if possible, someone who may have witnessed your spell. Someone who accompanies you can also help remember what the doctor says.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;To determine your risk of stroke, your doctor may start by asking questions such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you had any stroke-like symptoms, such as weakness on one side of your body, trouble speaking or sudden vision problems?&lt;/li&gt;
+	&lt;li&gt;When did you experience these symptoms? How long did they last?&lt;/li&gt;
+	&lt;li&gt;Have you ever seen a doctor for these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? How much?&lt;/li&gt;
+	&lt;li&gt;Do you exercise regularly?&lt;/li&gt;
+	&lt;li&gt;What do you eat in a typical day?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of heart disease or stroke?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What over-the-counter and prescription medications are you currently taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Next, your doctor may run tests to get a detailed picture of your carotid arteries.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to taking a thorough medical history and recording risk factors and any signs or symptoms, your doctor may conduct or request several tests to evaluate the health of your carotid arteries: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor may hear a &quot;swooshing&quot; sound (bruit) over the carotid artery in your neck, a sound that&apos;s characteristic of a narrowed artery. Your doctor may perform a neurological evaluation to test your physical and mental status such as strength, memory and speech capabilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; A common, noninvasive test used to check for carotid artery disease is a Doppler ultrasound. This variation of the conventional ultrasound assesses blood flow and pressure &amp;mdash; and possible narrowing of the blood vessel &amp;mdash; by bouncing high-frequency sound waves (ultrasound) off red blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography angiography (CTA).&lt;/strong&gt; This imaging test uses a contrast dye to highlight your carotid arteries in the pictures taken. The dye is injected into a blood vessel. When it travels to your carotid arteries, a computerized tomography (CT) scan gathers X-ray images of your neck and brain from many angles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Head computerized tomography (CT).&lt;/strong&gt; This imaging looks at the brain tissue, without giving dye, to rule out bleeding or other abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiography (MRA).&lt;/strong&gt; Like CTA, this imaging test uses a contrast (noniodine) dye to highlight the arteries in your neck and brain. A magnetic field and radio waves are used to create cross-sectional, 3-D images.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Like CT, this imaging test looks at the brain tissue for evidence of early stroke or other abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral angiogram.&lt;/strong&gt; A more traditional, and more invasive, imaging procedure called a cerebral angiogram may sometimes be done, but its use is less common as it carries a slight risk of stroke. In this procedure, contrast dye is injected with a catheter that&apos;s been threaded directly into your carotid arteries. Detailed X-ray images are then taken.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal in treating carotid artery disease is preventing stroke. The method of treatment depends on how narrow your arteries have become. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mild to moderate blockage&lt;br /&gt;
+&lt;/strong&gt;When you have mild to moderate blockage of your arteries, the following recommendations may be sufficient to prevent stroke: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make lifestyle changes.&lt;/strong&gt; Healthy changes in your behavior can help reduce the stress on your arteries and slow the progression of atherosclerosis. Such changes include quitting smoking, losing weight, eating healthy foods, reducing the amount of salt you eat and exercising regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage chronic conditions.&lt;/strong&gt; It&apos;s also key to manage any chronic conditions you have, such as high blood pressure, excess weight or diabetes. With your doctor, you can form a plan to specifically address these conditions by managing your blood pressure, maintaining a healthy weight, controlling your blood sugar levels and lowering your cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use medications.&lt;/strong&gt; Your doctor may ask you to take a daily aspirin or another blood-thinning medicine to avoid the formation of dangerous blood clots. He or she may also recommend medications to control your blood pressure, such as angiotensin-converting enzyme (ACE) inhibitors or calcium channel blockers, or a statin medication to lower your cholesterol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe blockage&lt;br /&gt;
+&lt;/strong&gt;When you have severe blockage of your arteries &amp;mdash; especially if you&apos;ve already had a TIA or stroke related to the blockage &amp;mdash; it&apos;s best to open up the artery and remove the blockage. There are two ways to do this: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid endarterectomy.&lt;/strong&gt; This surgical procedure is the most common treatment for severe carotid artery disease. The procedure is done under either local or general anesthesia. After making an incision along the front of your neck, your surgeon opens the affected carotid artery and removes the plaques. The artery is repaired with either stitches or, preferably, a graft. Studies have also shown that the surgery is low risk in most otherwise healthy people, has lasting benefit and helps prevent strokes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid angioplasty and stenting.&lt;/strong&gt; A carotid endarterectomy isn&apos;t recommended when the location of the narrowing or blockage is too difficult for the surgeon to access directly or when you have other health conditions that make surgery too risky. In such cases, your doctor may recommend a procedure called carotid angioplasty and stenting. While you&apos;re under local anesthesia, a tiny balloon is threaded by catheter to the area where your carotid artery is clogged. The balloon is inflated to widen the artery, and a small wire mesh coil called a stent is inserted to keep the artery from narrowing again.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing steps in carotid endarterectomy 
+" Caption="In carotid endarterectomy, your surgeon opens the carotid artery to remove atherosclerotic plaques. 
+" Height="60" Title="Carotid endarterectomy" URI="/images/image_popup/thumbs/r7_carotidendarterectomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing steps in carotid endarterectomy 
+" Caption="In carotid endarterectomy, your surgeon opens the carotid artery to remove atherosclerotic plaques. 
+" Height="245" Title="Carotid endarterectomy" URI="/images/image_popup/r7_carotidendarterectomy.jpg" Width="400" />
+				<HTML>
+					In carotid endarterectomy, your surgeon opens the carotid artery to remove atherosclerotic plaques. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carotid angioplasty 
+" Caption="In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during the procedure. Then, a tiny balloon at the end of the catheter is inflated to open the narrowed area. 
+" Height="60" Title="Carotid angioplasty" URI="/images/image_popup/thumbs/mcdc7_carotid_angioplastythu.jpg" Width="60" />
+				<Image Alt="Image showing carotid angioplasty 
+" Caption="In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during the procedure. Then, a tiny balloon at the end of the catheter is inflated to open the narrowed area. 
+" Height="403" Title="Carotid angioplasty" URI="/images/image_popup/mcdc7_carotid_angioplasty.jpg" Width="400" />
+				<HTML>
+					In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carotid stenting 
+" Caption="In carotid stenting, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A metal mesh tube (stent) is inserted into the vessel to serve as a scaffold that helps prevent the artery from narrowing again. The catheter and the filter &amp;mdash; which catches any debris that may break off during the procedure &amp;mdash; are removed. 
+" Height="60" Title="Carotid stenting" URI="/images/image_popup/thumbs/mcdc7_carotid_stentingthu.jpg" Width="60" />
+				<Image Alt="Image showing carotid stenting 
+" Caption="In carotid stenting, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A metal mesh tube (stent) is inserted into the vessel to serve as a scaffold that helps prevent the artery from narrowing again. The catheter and the filter &amp;mdash; which catches any debris that may break off during the procedure &amp;mdash; are removed. 
+" Height="516" Title="Carotid stenting" URI="/images/image_popup/mcdc7_carotid_stenting.jpg" Width="400" />
+				<HTML>
+					In carotid stenting, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A metal mesh tube (stent) is inserted into the vessel to serve as a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Making healthy choices in your daily life can help prevent or slow the progression of carotid artery disease and help prevent the occurrence of a TIA or a stroke. Here are some suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Stopping smoking reduces stress on your arteries and cuts your risk of a TIA or a stroke. Within a few years of quitting, a former smoker&apos;s risk of stroke is similar to a nonsmoker&apos;s. It&apos;s never too late to quit. It&apos;s also never too early.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit cholesterol and fat.&lt;/strong&gt; Cutting back on cholesterol and fat, especially saturated fat, in your diet may reduce buildup of plaques in your arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a variety of fruits and vegetables.&lt;/strong&gt; These foods contain such nutrients as potassium, folate and antioxidants, which may protect against a TIA or a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit sodium.&lt;/strong&gt; Avoiding salt may not prevent hypertension, but excess sodium may increase blood pressure in people who are sensitive to sodium. For healthy adults, most experts recommend less than 1,500 milligrams a day of sodium. If you have high blood pressure, keeping to the lower end of the range may help reduce your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercise can lower your blood pressure, increase your level of high-density lipoprotein (HDL) cholesterol &amp;mdash; the &quot;good&quot; cholesterol &amp;mdash; and improve the overall health of your blood vessels and heart. It also helps you lose weight, control diabetes and reduce stress. If you have high blood pressure, engaging in 30 minutes of moderately vigorous activity (walking or swimming are two examples) on most days of the week is one of the few ways you can lower your pressure without drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol.&lt;/strong&gt; Drink alcohol in moderation, if at all. The recommended limit is no more than one drink daily for women and two a day for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight contributes to other risk factors, such as high blood pressure, cardiovascular disease and diabetes. Losing weight with diet and exercise may lower your blood pressure and improve your cholesterol levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control chronic conditions.&lt;/strong&gt; You can manage both diabetes and high blood pressure with diet, exercise, weight control and, when necessary, medication. Remember high blood pressure is silent, so know your blood pressure numbers and know your goal blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Carotid artery disease
+	</Title>
+	<Abstract>
+		Carotid artery disease &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this blood vessel condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00656" LinkType="Internal" ObjectID="8C49C8F4-9D66-1A1D-2C493D48574FF96B" Title="Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty/MY00656" />
+		<LinkItem ContentType="Video" DocID="MM00772" LinkType="Internal" ObjectID="861FBD26-FE10-2D51-FB4BC9E72067F5DB" Title="Video: Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty-and-stenting/MM00772" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+	</RelatedLinksBox>
+</Disease>

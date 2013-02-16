@@ -1,0 +1,76 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00555
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00555
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1242" Title="Nutritional supplements" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			16334A3E-E7FF-0DBD-1F68F472C40CA705
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				multivitamin
+			</MetaKeyword>
+			<MetaKeyword>
+				multivitamins
+			</MetaKeyword>
+			<MetaKeyword>
+				nutritional supplements
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Nutrition: Does it come in a pill?
+	</Title>
+	<Body>
+		&lt;p&gt;Nutritional supplements abound. Still, if you want to improve and protect your health, think real food. If you depend on supplements rather than eating a variety of foods, you miss the potential benefits of antioxidants, fiber and other nutrients that only whole, unprocessed foods can provide. For example, you can get vitamin C from a pill or from an orange. But the orange is the better choice because it also provides fiber, beta carotene, calcium and other nutrients.&lt;/p&gt;
+	</Body>
+</HealthTip>

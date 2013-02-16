@@ -1,0 +1,271 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01147
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fuchs-dystrophy/DS01147
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2498" Title="Fuchs&apos; dystrophy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB020D4C-0648-6A19-35B79AB107CD3409
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Fuchs&apos; dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				Fuchs dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				Fuch&apos;s dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				endothelial dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				corneal transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				Fuchs&apos; endothelial dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				corneal dystrophy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fuchs&apos; dystrophy (fooks DIS-truh-fee) is an uncommon, slowly progressive disorder that affects the cornea &amp;mdash; the transparent front surface of your eye. Fuchs&apos; dystrophy is a type of corneal dystrophy, a group of conditions that may cause a hazy deposit to build up over the cornea. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, the cells that line the back surface (endothelium) of the cornea prevent excess fluid from accumulating. This helps the cornea maintain its transparency. But with Fuchs&apos; dystrophy, those endothelial cells slowly deteriorate, lose function and die. As a result, fluid builds up in the cornea. This may cause swelling, cloudy vision, pain and loss of corneal transparency. 
+&lt;/p&gt;
+&lt;p&gt;
+Although the cause of Fuchs&apos; dystrophy is unknown, it may be inherited. Treatments, including surgery, are available for Fuchs&apos; dystrophy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors may see early signs of Fuchs&apos; dystrophy in people who are in their 30s and 40s. But most people don&apos;t experience symptoms or problems until they&apos;re in their 50s and 60s. Signs and symptoms usually affect both eyes and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blurred vision on awakening that may gradually clear up as the day goes on&lt;/li&gt;
+	&lt;li&gt;Other types of visual impairment, including distorted vision, sensitivity to light, difficulty seeing at night and seeing halos around lights&lt;/li&gt;
+	&lt;li&gt;Generalized eye discomfort&lt;/li&gt;
+	&lt;li&gt;Painful, tiny blisters (epithelial blisters) on the surface of your cornea &amp;mdash; caused by excess fluid within the cornea&lt;/li&gt;
+	&lt;li&gt;A cornea that is cloudy or hazy in appearance&lt;/li&gt;
+	&lt;li&gt;Blindness &amp;mdash; may occur late in the disorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience some of these symptoms, and especially if they get worse over time, see your eye doctor (ophthalmologist or optometrist). If symptoms develop suddenly, call an ophthalmologist for an urgent appointment. Other eye conditions that cause the same symptoms as Fuchs&apos; dystrophy also require prompt treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some people with Fuchs&apos; dystrophy, the cause is unknown. However, for many people it&apos;s inherited as an autosomal dominant familial condition, meaning that about half of an affected person&apos;s children also will have the disease. The extent to which relatives experience signs and symptoms may vary. For instance, a parent with a mild case and few symptoms could have a child with a severe case and numerous vision problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people are more likely to develop Fuchs&apos; dystrophy. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Women&lt;/li&gt;
+	&lt;li&gt;People with a first-degree relative (such as a parent or sibling) who has Fuchs&apos; dystrophy&lt;/li&gt;
+	&lt;li&gt;People who are in their 50s and older&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you have Fuchs&apos; dystrophy, make an appointment to see an eye doctor (ophthalmologist or optometrist). In some cases, you may be referred to an ophthalmologist who specializes in corneal disease.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including family history of eye conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For Fuchs&apos; dystrophy, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do I need to prepare for these tests ahead of time?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or ongoing?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and what do you recommend?&lt;/li&gt;
+	&lt;li&gt;How rapidly will my condition progress?&lt;/li&gt;
+	&lt;li&gt;How will my vision be affected?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment whenever you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms change throughout the day?&lt;/li&gt;
+	&lt;li&gt;Do you have a family member with Fuchs&apos; dystrophy?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your vision?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may go through testing so that your doctor can determine whether you have Fuchs&apos; dystrophy. Testing may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Visual acuity.&lt;/strong&gt; This is a basic standard test that is used during routine eye exams. You&apos;ll be asked to look at a chart with letters and numbers on it and read the characters. This test helps determine if your vision has worsened since your last exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glare test.&lt;/strong&gt; Similar to the vision acuity test, a bright light is directed at your eye while you read the characters on the chart. This test helps to determine if bright light reduces your ability to see. For example, if you notice you have a hard time seeing when you drive toward headlights at night, you&apos;ll probably have decreased visual acuity during the glare test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Grade or guttata stage.&lt;/strong&gt; Your doctor uses an optical microscope called a slit lamp to look inside your eye. Your doctor then examines the endothelial cells in your cornea. If there are irregularities, called guttae, on the back surface of the cornea, you may have Fuchs&apos; dystrophy. After this exam, your Fuchs&apos; dystrophy may be assigned a &quot;grade&quot; or &quot;stage&quot; of zero through five. This number indicates the severity of dystrophy. A zero means there&apos;s no disease while a five means much of your cornea is affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corneal pressure test.&lt;/strong&gt; Your doctor may numb your eyes with drops. Then your doctor will momentarily touch your eye with a special instrument that measures pressure within the eye.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corneal thickness test.&lt;/strong&gt; For this test, your doctor uses ultrasound to determine the thickness of your cornea. If your cornea is too thick, it could be the result of excess fluid that has caused the cornea to swell. This swelling is usually seen in people with moderately advanced Fuchs&apos; dystrophy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corneal cell count.&lt;/strong&gt; Your doctor may use a special instrument that records the size and shape of your endothelial cells. The instrument also measures the number of endothelial cells within a specific part of your cornea. A lower cell count usually correlates with advanced disease. This test is usually only done before eye surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suggest the following methods and procedures to improve your comfort or stop your signs and symptoms of Fuchs&apos; dystrophy from worsening. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use eye medication.&lt;/strong&gt; Eyedrops or ointments can reduce the amount of fluid in your cornea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry your eyes.&lt;/strong&gt; Use a hair dryer and hold it at arm&apos;s length. Direct warm &amp;mdash; not hot &amp;mdash; air across your face two or three times a day to evaporate excess fluid in the cornea and dry out blisters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear soft contact lenses.&lt;/strong&gt; Soft contact lenses can improve vision and reduce discomfort.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Receive a corneal transplant.&lt;/strong&gt; This surgical procedure, also known as keratoplasty, replaces damaged cornea tissue with healthy tissue from a donor. There are many types of corneal procedures. Some procedures replace only a few thin layers of the cornea, while others replace the entire cornea. For Fuchs&apos; dystrophy, an increasingly common procedure replaces only the deep layers of the cornea, including the endothelium. This is sometimes referred to as endothelial keratoplasty or posterior lamellar endothelial keratoplasty. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Corneal transplants are common and effective. However, you may have to wait a long time for donor tissue to become available. And some people develop problems following transplants, such as rejection of the new corneal tissue. Rejection may cause increased sensitivity, redness, pain and worsening vision. Many times, rejection can be managed with topical eye medications. After corneal transplant, your eyes may feel uncomfortable. You&apos;ll need to use eyedrops for several months to help your eyes heal. The majority of people who have a successful transplant for Fuchs&apos; dystrophy continue to be free of symptoms for years after the transplant. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Participate in research or a clinical trial.&lt;/strong&gt; Clinical trials involve studies of new ways to diagnose or treat a condition. Clinical trials don&apos;t always offer a definite diagnosis or cure, but they may allow you to take advantage of the latest knowledge about your condition. Ask your doctor if you&apos;re eligible for any clinical trials.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to following your doctor&apos;s instructions for care, these techniques may help make your eyes feel better.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wear tinted or nonreflective lenses on your glasses.&lt;/li&gt;
+	&lt;li&gt;Wear a wide-brimmed hat when outside.&lt;/li&gt;
+	&lt;li&gt;Wear wraparound sunglasses.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fuchs&apos; dystrophy
+	</Title>
+	<Abstract>
+		Fuchs&apos; dystrophy &amp;mdash; Overview covers symptoms, causes and treatment of this eye disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00491" LinkType="Internal" ObjectID="4FCF8B80-D02D-9931-B511BA7D54FA64D1" Title="Cornea transplant" Url="http://www.mayoclinic.com/health/cornea-transplant/MY00491" />
+	</RelatedLinksBox>
+</Disease>

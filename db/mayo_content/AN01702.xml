@@ -1,0 +1,98 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01702
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/foamy-urine/AN01702
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2582" Title="Urine color" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			842BD588-E7FF-0DBD-17D401B6124642F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				foamy urine
+			</MetaKeyword>
+			<MetaKeyword>
+				protein in urine
+			</MetaKeyword>
+			<MetaKeyword>
+				proteinuria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Passing foamy urine now and then is normal, for the speed of urination and other factors can influence this. But you should see your doctor if you have persistently foamy urine that becomes more noticeable over time. This can be a sign of protein in your urine (proteinuria), which requires further evaluation. Increased amounts of protein in urine may indicate a serious kidney problem. 
+&lt;/p&gt;
+&lt;p&gt;
+If your urine seems unusually foamy most of the time, your doctor may recommend that your urine be checked for elevated levels of protein. If the test is positive, you may need further tests to determine the cause of the problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Foamy urine: What does it mean?
+	</Title>
+	<Abstract>
+		Persistently foamy urine can be a sign of protein in your urine (proteinuria).
+	</Abstract>
+	<Question>
+		What does it mean when you have foamy urine? Should I be concerned if it doesn&apos;t go away after a few days?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="NU00283" LinkType="Internal" ObjectID="1488D60D-E694-4EE6-A0DFA79E4CEF5FD3" Title="Water: How much should you drink every day?" Url="http://www.mayoclinic.com/health/water/NU00283" />
+		<LinkItem ContentType="Disease" DocID="DS00976" LinkType="Internal" ObjectID="7F6E26DA-E7FF-0DBD-175E46B753BBA497" Title="Hypercalcemia" Url="http://www.mayoclinic.com/health/hypercalcemia/DS00976" />
+		<LinkItem ContentType="Disease" DocID="DS01026" LinkType="Internal" ObjectID="4CA2D903-E7FF-0DBD-1095505812D72AE9" Title="Urine color" Url="http://www.mayoclinic.com/health/urine-color/DS01026" />
+	</RelatedLinksBox>
+</Answer>

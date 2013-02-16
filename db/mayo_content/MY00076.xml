@@ -1,0 +1,214 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00076
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/abdominal-ultrasound/MY00076
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3298" Title="Abdominal ultrasound" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3472" Title="Manage wellness clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A6AD965A-E7FF-0DBD-18A94C87B267EB9A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				abdominal ultrasound
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				aneurysm
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although an abdominal ultrasound can be done to check for a number of conditions, it can be used to screen for an abdominal aortic aneurysm. An abdominal aortic aneurysm is a weakened, bulging spot in your abdominal aorta, the artery that runs through the middle of your abdomen and supplies blood to the lower half of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+An abdominal ultrasound can also be used to check for other diseases that affect your kidneys, liver, gallbladder and pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+An abdominal ultrasound to screen for an abdominal aortic aneurysm is recommended for men ages 65 to 75 who are current or former cigarette smokers. Having an abdominal ultrasound to screen for an aortic aneurysm isn&apos;t specifically recommended for men who have never smoked, nor women, unless your doctor suspects you may have an aneurysm. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing an abdominal aortic aneurysm 
+" Caption="An abdominal aortic aneurysm occurs when a lower portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="60" Title="Abdominal aortic aneurysm" URI="/images/image_popup/thumbs/mcdc7_abaneurysmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing an abdominal aortic aneurysm 
+" Caption="An abdominal aortic aneurysm occurs when a lower portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="590" Title="Abdominal aortic aneurysm" URI="/images/image_popup/mcdc7_abaneurysm.jpg" Width="400" />
+				<HTML>
+					An abdominal aortic aneurysm occurs when a lower portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend you have an abdominal ultrasound if you&apos;re at risk of an abdominal aortic aneurysm. A one-time abdominal aortic ultrasound screening is recommended for men between the ages of 65 and 75 who have smoked at least 100 cigarettes during their lifetimes. 
+&lt;/p&gt;
+&lt;p&gt;
+Routine screening for abdominal aortic aneurysm isn&apos;t recommended for women, and it&apos;s unclear if men who have never smoked may benefit from an abdominal ultrasound to screen for an aortic aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+Risk factors for abdominal aortic aneurysm include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being male&lt;/li&gt;
+	&lt;li&gt;Age of 60 years or older&lt;/li&gt;
+	&lt;li&gt;A history of atherosclerosis &amp;mdash; a thickening of the walls of your arteries&lt;/li&gt;
+	&lt;li&gt;A family history of abdominal aortic aneurysm&lt;/li&gt;
+	&lt;li&gt;Smoking cigarettes&lt;/li&gt;
+	&lt;li&gt;High blood pressure (a systolic pressure of 140 to 159 millimeters of mercury, or mm Hg, and a diastolic pressure of 90 to 99 mm Hg)&lt;/li&gt;
+	&lt;li&gt;An aneurysm in one of your other arteries&lt;/li&gt;
+	&lt;li&gt;Chronic lung disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other possible reasons you may have an abdominal ultrasound&lt;/strong&gt;&lt;br /&gt;
+Your doctor may also recommend that you have an abdominal ultrasound if he or she thinks you have a problem with another organ in your abdomen, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Kidneys&lt;/li&gt;
+	&lt;li&gt;Liver&lt;/li&gt;
+	&lt;li&gt;Gallbladder&lt;/li&gt;
+	&lt;li&gt;Pancreas&lt;/li&gt;
+	&lt;li&gt;Spleen&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll need to fast for eight to 12 hours before your abdominal ultrasound. Food and liquids in your stomach and urine in your bladder can make it difficult for the ultrasound technician to get a clear picture of your aorta. Ask your doctor if it&apos;s OK to drink water during your fast, and if you should continue to take any medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+A typical ultrasound exam is painless and takes about 20 minutes to complete. You may be asked to change into a hospital gown for the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Your abdominal ultrasound is usually performed by a specially trained technician (sonographer). During the exam, you lie on your back on an examination table and a small amount of warm gel is applied to your abdomen. The gel helps eliminate the formation of air pockets between your skin and the instrument, called a transducer, the technician uses to see your aorta. The sonographer presses the transducer against your skin over your abdomen, moving from one area to another. 
+&lt;/p&gt;
+&lt;p&gt;
+The transducer sends images to a computer screen that the technician monitors. The technician monitors blood flow through your abdominal aorta to check for an aneurysm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After your abdominal ultrasound, your doctor will discuss the results with you at a later time. Usually, if no aneurysm is found, your doctor won&apos;t recommend any additional screenings. If an aneurysm is found, your doctor will discuss the need for any further tests and your treatment options with you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing an abdominal aortic aneurysm 
+" Caption="An abdominal aortic aneurysm occurs when a lower portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="60" Title="Abdominal aortic aneurysm" URI="/images/image_popup/thumbs/mcdc7_abaneurysmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing an abdominal aortic aneurysm 
+" Caption="An abdominal aortic aneurysm occurs when a lower portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+" Height="590" Title="Abdominal aortic aneurysm" URI="/images/image_popup/mcdc7_abaneurysm.jpg" Width="400" />
+				<HTML>
+					An abdominal aortic aneurysm occurs when a lower portion of your body&apos;s main artery (aorta) becomes weakened and bulges. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor looks at the images from your ultrasound to see if you have an abdominal aortic aneurysm. If you do, your doctor may recommend one of these choices: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Watchful waiting.&lt;/strong&gt; If your aneurysm is smaller than 2 inches (5 centimeters) in diameter, your doctor may not think your aneurysm is serious enough to require surgery now. If this is the case, your doctor may check your condition every six months for changes, using additional ultrasound exams or other imaging tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open aneurysm repair.&lt;/strong&gt; If your aneurysm is serious enough to require surgery, your doctor may recommend open aneurysm repair. In this procedure, your doctor opens your abdomen, removes the portion of your abdominal aorta that has the aneurysm and replaces it with a tube-like graft.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endovascular stent graft.&lt;/strong&gt; This procedure reinforces the weakened portion of the abdominal aorta with a graft similar to the type used in open aneurysm repair. Instead of opening your abdomen, a surgeon threads the graft through a thin tube called a catheter. The graft then supports the weakened portion of your aorta so that it won&apos;t rupture. Long-term results and benefits of endovascular surgery versus those of open aneurysm surgery are currently unknown. However, those who have an endovascular stent graft are less likely to have complications during their procedure than people who have open aneurysm repair.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Abdominal ultrasound
+	</Title>
+	<Abstract>
+		Abdominal ultrasound &amp;mdash; Overview covers definition and results of this test to detect aortic aneurysm.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01194" LinkType="Internal" ObjectID="A79FE318-0945-8020-C0195BB597B9EC18" Title="Abdominal aortic aneurysm" Url="http://www.mayoclinic.com/health/abdominal-aortic-aneurysm/DS01194" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,475 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00313
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hives-and-angioedema/DS00313
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-21
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="1839" Title="Allergic skin conditions">
+							<Keyword MCVID="2120" Title="Hives and angioedema" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5347A6E4-D219-41F2-96EEA936BD30D271
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hives
+			</MetaKeyword>
+			<MetaKeyword>
+				angioedema
+			</MetaKeyword>
+			<MetaKeyword>
+				hives and angioedema
+			</MetaKeyword>
+			<MetaKeyword>
+				urticaria
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				HAE
+			</MetaKeyword>
+			<MetaKeyword>
+				hereditary angioedema
+			</MetaKeyword>
+			<MetaKeyword>
+				wheals
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hives &amp;mdash; also known as urticaria (ur-tih-KAR-e-uh) &amp;mdash; is a skin reaction that causes raised, red, itchy welts (wheals, or swellings) in sizes ranging from small spots to large blotches several inches in diameter. Individual welts appear and fade as the reaction runs its course. Angioedema is a related type of swelling that affects deeper layers in your skin, often around your eyes and lips. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, hives and angioedema are harmless and don&apos;t leave any lasting marks, even without treatment. The most common treatment for hives and angioedema is antihistamine medications. Serious angioedema can be life-threatening if swelling causes your throat or tongue to block your airway and leads to loss of consciousness. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hives on light skin 
+" Caption="Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+" Height="60" Title="Hives on light skin" URI="/images/image_popup/thumbs/r7_hives2thu.jpg" Width="60" />
+				<Image Alt="Image showing hives on light skin 
+" Caption="Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+" Height="400" Title="Hives on light skin" URI="/images/image_popup/r7_hives2.jpg" Width="400" />
+				<HTML>
+					Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hives on dark skin 
+" Caption="On dark skin, hives may be less visible but may still itch or burn. 
+" Height="60" Title="Hives on dark skin" URI="/images/image_popup/thumbs/sn7_hivesthu.jpg" Width="60" />
+				<Image Alt="Image showing hives on dark skin 
+" Caption="On dark skin, hives may be less visible but may still itch or burn. 
+" Height="287" Title="Hives on dark skin" URI="/images/image_popup/sn7_hives.jpg" Width="400" />
+				<HTML>
+					On dark skin, hives may be less visible but may still itch or burn. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Hives&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of hives include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Raised red or white welts (wheals, or swellings) of various sizes that can cover large areas of skin&lt;/li&gt;
+	&lt;li&gt;Welts that resolve while new welts erupt, making it seem as if the condition &quot;moves&quot;&lt;/li&gt;
+	&lt;li&gt;Itching, which may be severe&lt;/li&gt;
+	&lt;li&gt;Rarely, burning or stinging in the affected area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hives can be either acute or chronic. Acute hives last from less than one day up to six weeks. Chronic hives last more than six weeks &amp;mdash; sometimes for months to years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Angioedema&lt;/strong&gt; &lt;br /&gt;
+Angioedema is a reaction similar to hives that affects deeper layers of your skin, the tissues underneath your skin, and the lining of your throat and intestines. Angioedema often appears around your eyes, cheeks or lips, but can also develop on your hands or feet, or genitals, or inside your throat or bowel.&amp;nbsp; Angioedema and hives can occur separately or at the same time. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of angioedema include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Large, thick, firm welts&lt;/li&gt;
+	&lt;li&gt;Swelling of the skin&lt;/li&gt;
+	&lt;li&gt;Pain or warmth in the affected areas&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or swallowing, in severe cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hereditary angioedema is a rare but more serious inherited (genetic) condition that can cause sudden, severe and rapid swelling of your face, arms, legs, hands, feet, genitalia, digestive tract and airway. Signs and symptoms of hereditary angioedema include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden and severe swelling of the face, arms, legs, hands, feet, genitalia, digestive tract and airway&lt;/li&gt;
+	&lt;li&gt;Abdominal cramping as a result of digestive tract swelling&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing due to swelling that obstructs your airway&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hereditary angioedema is not usually accompanied by hives. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Mild hives and angioedema usually aren&apos;t life-threatening. You can usually treat mild cases at home. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your hives or angioedema doesn&apos;t respond to treatment&lt;/li&gt;
+	&lt;li&gt;You have severe discomfort&lt;/li&gt;
+	&lt;li&gt;Your symptoms continue for more than a few days &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You feel lightheaded&lt;/li&gt;
+	&lt;li&gt;You have severe chest tightness or trouble breathing&lt;/li&gt;
+	&lt;li&gt;You feel your throat is swelling&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hives on light skin 
+" Caption="Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+" Height="60" Title="Hives on light skin" URI="/images/image_popup/thumbs/r7_hives2thu.jpg" Width="60" />
+				<Image Alt="Image showing hives on light skin 
+" Caption="Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+" Height="400" Title="Hives on light skin" URI="/images/image_popup/r7_hives2.jpg" Width="400" />
+				<HTML>
+					Hives, also known as urticaria, are the result of your body&apos;s release of a natural chemical called histamine. They often appear in areas where clothes rub your skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hives on dark skin 
+" Caption="On dark skin, hives may be less visible but may still itch or burn. 
+" Height="60" Title="Hives on dark skin" URI="/images/image_popup/thumbs/sn7_hivesthu.jpg" Width="60" />
+				<Image Alt="Image showing hives on dark skin 
+" Caption="On dark skin, hives may be less visible but may still itch or burn. 
+" Height="287" Title="Hives on dark skin" URI="/images/image_popup/sn7_hives.jpg" Width="400" />
+				<HTML>
+					On dark skin, hives may be less visible but may still itch or burn. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing angioedema 
+" Caption="Angioedema may cause large welts below the surface of the skin, particularly on the eyes and lips. Angioedema may also affect the hands, feet and throat. 
+" Height="60" Title="Angioedema" URI="/images/image_popup/thumbs/sn7_angeioedemathu.jpg" Width="60" />
+				<Image Alt="Image showing angioedema 
+" Caption="Angioedema may cause large welts below the surface of the skin, particularly on the eyes and lips. Angioedema may also affect the hands, feet and throat. 
+" Height="318" Title="Angioedema" URI="/images/image_popup/sn7_angeioedema.jpg" Width="400" />
+				<HTML>
+					Angioedema may cause large welts below the surface of the skin, particularly on the eyes and lips. Angioedema may also affect the hands, feet and throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hives and angioedema are caused by triggers that produce a skin or tissue reaction by stimulating certain cells (mast cells) to release histamine and other chemicals into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes it&apos;s not possible to pinpoint the cause of hives and angioedema, especially when these conditions become chronic or recur. 
+&lt;/p&gt;
+&lt;p&gt;
+Allergic reactions are one common trigger of acute hives and angioedema. Common allergens include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Foods.&lt;/strong&gt; Many foods can trigger reactions in people with sensitivities. Shellfish, fish, peanuts, tree nuts, eggs and milk are frequent offenders. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Almost any medication may cause hives or angioedema. Common culprits include penicillin, aspirin, ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) and blood pressure medications. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other allergens.&lt;/strong&gt; Other substances that can cause hives and angioedema include pollen, animal dander, latex and insect stings. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additional triggers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Environmental factors.&lt;/strong&gt; In some people, environmental factors can stimulate release of histamine. Examples include heat, cold, sunlight, water, pressure on the skin, emotional stress and exercise. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dermatographia (also known as dermographia).&lt;/strong&gt; The name of this condition literally means &quot;skin writing.&quot; Stroking or scratching the skin results in raised red lines in the same pattern as the pressure. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hives and angioedema also occasionally occur in response to blood transfusions, immune system disorders such as lupus, some types of cancer such as lymphoma, certain thyroid conditions, and infections with bacteria or viruses such as hepatitis, HIV, cytomegalovirus or Epstein-Barr virus. 
+&lt;/p&gt;
+&lt;p&gt;
+Hereditary angioedema is a rare inherited (genetic) form of the condition. It&apos;s related to low levels or abnormal functioning of certain blood proteins (C1 inhibitors) that play a role in regulating how your immune system functions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hives and angioedema are common. You may be at increased risk of hives and angioedema if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have had hives or angioedema before&lt;/li&gt;
+	&lt;li&gt;Have had other allergic reactions&lt;/li&gt;
+	&lt;li&gt;Have a disorder associated with hives and angioedema, such as lupus, lymphoma or thyroid disease&lt;/li&gt;
+	&lt;li&gt;Have a family history of hives, angioedema or hereditary angioedema &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hives and angioedema nearly always cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Discomfort &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In more-serious cases &amp;mdash; such as when swelling occurs inside your mouth or throat &amp;mdash; complications can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing.&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness.&lt;/li&gt;
+	&lt;li&gt;Anaphylactic shock &amp;mdash; a serious allergic reaction involving your heart and lungs. Your bronchial tubes narrow, it&apos;s difficult to breathe, and your blood pressure drops, causing dizziness and perhaps loss of consciousness or even death. Anaphylactic shock occurs rapidly and requires immediate medical care. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care doctor. However, in some cases when you call to set up an appointment, you may be referred immediately to a skin disease specialist (dermatologist) or to an allergy specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it can help to be well prepared. Here are some tips to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Write down your signs and symptoms, when they occurred, and how long they lasted. Also, make a list of all medications, including vitamins, herbs, supplements and over-the-counter drugs that you&apos;re taking. Even better, take the original bottles and a written list of the dosages and directions. 
+&lt;/p&gt;
+&lt;p&gt;
+Write down questions that you want to ask your doctor. Don&apos;t be afraid to ask questions or to speak up when you don&apos;t understand something your doctor says. For hives and angioedema, questions you may want to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Do I need prescription medication, or can I use over-the-counter medications to treat the condition?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What did your skin reaction look like when it first appeared?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Have you noticed anything that makes your symptoms worse or better?&lt;/li&gt;
+	&lt;li&gt;Do your skin lesions mainly itch, or do they burn or sting?&lt;/li&gt;
+	&lt;li&gt;Do your skin lesions go away completely without leaving a bruise or a mark?&lt;/li&gt;
+	&lt;li&gt;Do you have any known allergies?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a similar skin reaction before?&lt;/li&gt;
+	&lt;li&gt;Have you tried a new food for the first time, changed laundry products or adopted a new pet?&lt;/li&gt;
+	&lt;li&gt;What prescriptions, over-the-counter medications and supplements are you taking?&lt;/li&gt;
+	&lt;li&gt;Have you started taking any new medications or started a new course of a medication you&apos;ve taken before?&lt;/li&gt;
+	&lt;li&gt;Has your overall health changed recently? Have you had any fevers or lost weight?&lt;/li&gt;
+	&lt;li&gt;Has anyone else in your family ever had this kind of skin reaction? Do other family members have any known allergies?&lt;/li&gt;
+	&lt;li&gt;What at-home treatments have you used?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will examine your welts or areas of swelling if they are still present and take a careful medical history to identify possible causes. Your doctor&apos;s questions may focus on recognized factors linked to urticaria and angioedema, such as certain foods, physical triggers and medications. It&apos;s important to tell your doctor about all medications you take, including over-the-counter (nonprescription) drugs and supplements, even if you don&apos;t take them every day. To help pinpoint the cause of your symptoms, your doctor may recommend that you keep a detailed diary of exposure to possible irritants. 
+&lt;/p&gt;
+&lt;p&gt;
+If the cause of your hives or angioedema isn&apos;t apparent from your medical history or if your symptoms persist or recur often, your doctor may recommend an allergy skin test. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Puncture, prick or scratch (percutaneous) test.&lt;/strong&gt; This is the type of skin test that&apos;s usually performed first. Tiny drops of purified allergen extracts are pricked or scratched into your skin&apos;s surface. This test is usually performed to identify allergies to pollen, animal dander, foods, insect venom and penicillin. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intradermal (intracutaneous) test.&lt;/strong&gt; Purified allergen extracts are injected into the skin of your arm. Doctors may perform this test if they strongly suspect you&apos;re allergic to an irritant even though your puncture test is negative &amp;mdash; especially to an irritant to which a future reaction could be life-threatening, such as insect venom or penicillin. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor suspects hereditary angioedema, he or she may order blood tests to check for levels and function of specific blood proteins. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your symptoms are mild, you may not need treatment. Many cases of hives and angioedema clear up on their own. But treatment can offer relief for intense itching, serious discomfort or symptoms that persist. 
+&lt;/p&gt;
+&lt;p&gt;
+The standard treatment for hives and angioedema is antihistamines, medications that reduce itching, swelling and other symptoms of histamine release. 
+&lt;/p&gt;
+&lt;p&gt;
+For severe hives or angioedema, doctors may also sometimes prescribe an oral corticosteroid drug &amp;mdash; such as prednisone &amp;mdash; which can help lessen swelling, redness and itching. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antihistamines&lt;/strong&gt; &lt;br /&gt;
+Antihistamines are divided into older, first-generation drugs and newer, second-generation medications based on their chemistry and associated side effects. Each category includes nonprescription and prescription drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Second-generation, newer antihistamines.&lt;/strong&gt; Doctors generally recommend starting treatment with these newer, second-generation drugs. For most people, these drugs are less likely to cause drowsiness or reduce your reaction time while you&apos;re driving or performing other mentally or physically demanding tasks. 
+&lt;/p&gt;
+&lt;p&gt;
+Nonprescription second-generation antihistamines include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loratadine (Claritin, Alavert)&lt;/li&gt;
+	&lt;li&gt;Cetirizine (Zyrtec) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prescription second-generation antihistamines include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Desloratadine (Clarinex)&lt;/li&gt;
+	&lt;li&gt;Fexofenadine (Allegra)&lt;/li&gt;
+	&lt;li&gt;Levocetirizine (Xyzal) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;First-generation, older antihistamines.&lt;/strong&gt; These medications tend to make you drowsy and respond more slowly than usual while driving or performing other tasks requiring physical coordination. In addition, they may cause dry mouth, blurred or double vision, constipation or difficulty passing urine. But they may be more helpful than second-generation antihistamines for some people with hives or angioedema, especially if your symptoms are severe or involve significant swelling of your face, tongue or throat. They may also be helpful taken at bedtime if your symptoms disturb your sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+Nonprescription first-generation antihistamines include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diphenhydramine (Benadryl, others)&lt;/li&gt;
+	&lt;li&gt;Chlorpheniramine (Chlor-Trimeton, others) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prescription first-generation antihistamines include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hydroxyzine (Vistaril) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for hereditary angioedema&lt;/strong&gt; &lt;br /&gt;
+Antihistamines and oral corticosteroid medications &amp;mdash; although useful in treating hives and acute angioedema &amp;mdash; are often ineffective in treating hereditary angioedema. Medications used to treat hereditary angioedema on a long-term basis include certain androgens (male hormones), such as danazol, that help regulate levels of blood proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+The Food and Drug Administration (FDA) has also approved certain treatments targeting specific blood proteins that function abnormally in hereditary angioedema. These medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cinryze and Berinert,&lt;/strong&gt; two treatments derived from donated human blood plasma. Both drugs provide C1 esterase inhibitor, a blood protein that&apos;s inadequate or defective in hereditary angioedema. Cinryze is approved as a therapy to prevent hereditary angioedema attacks in adults and adolescents. It&apos;s taken as an injection by vein every few days and can be self-administered after training by a health professional. Berinert is approved to treat acute hereditary angioedema attacks affecting the face and abdomen while the attacks are under way. Berinert also is taken as an injection by vein, but it must be given by a health professional. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ecallantide (Kalbitor)&lt;/strong&gt; is a protein derived from yeast. It blocks the activity of a blood protein called kallikrein, which is involved in hereditary angioedema. It&apos;s approved for adolescents and adults as a treatment to counter the effects of acute hereditary angioedema attacks on all body areas. Ecallantide is taken as an injection under the skin (subcutaneous) that must be given by a health care professional. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency situations&lt;/strong&gt; &lt;br /&gt;
+For a severe attack of hives or angioedema, you may need a trip to the emergency room and an emergency injection of adrenaline (epinephrine). If you have had a serious attack or your attacks recur, despite treatment, your doctor may prescribe &amp;mdash; and instruct you how to use &amp;mdash; adrenaline to carry with you for use in emergency situations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re experiencing mild hives or angioedema, these tips may help relieve your symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to identify and avoid substances that irritate your skin or that cause an allergic reaction.&lt;/strong&gt; These can include foods, medications, pollen, pet dander, latex and insect stings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use an over-the-counter antihistamine.&lt;/strong&gt; A nonprescription oral antihistamine, such as loratadine (Claritin), cetirizine (Zyrtec) or diphenhydramine (Benadryl, others) may help relieve itching. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool, wet compresses.&lt;/strong&gt; Covering the affected area with bandages and dressings can help soothe the skin and prevent scratching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a comfortably cool bath.&lt;/strong&gt; To relieve itching, sprinkle the bath water with baking soda, uncooked oatmeal or colloidal oatmeal &amp;mdash; a finely ground oatmeal that is made for the bathtub (Aveeno, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear loose, smooth-textured cotton clothing.&lt;/strong&gt; Avoid clothing that&apos;s rough, tight, scratchy or made from wool. This will help you avoid irritation. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To lower your likelihood of experiencing hives or angioedema, take the following precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid known triggers.&lt;/strong&gt; These may include certain foods or medications, or situations such as temperature extremes, that have triggered past allergic attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a diary.&lt;/strong&gt; If you suspect foods are causing the problem, keep a food diary. Be aware that some foods may contain ingredients that are listed by less common names on the label. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hives and angioedema
+	</Title>
+	<Abstract>
+		Hives and angioedema &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of these common allergic disorders.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00980" LinkType="Internal" ObjectID="BE8261BD-E7FF-0DBD-17ABF69EEAC74AB3" Title="Chronic hives (urticaria)" Url="http://www.mayoclinic.com/health/chronic-hives/DS00980" />
+	</RelatedLinksBox>
+</Disease>

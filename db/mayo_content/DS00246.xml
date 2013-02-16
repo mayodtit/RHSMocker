@@ -1,0 +1,493 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00246
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/post-traumatic-stress-disorder/DS00246
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-08
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1564" Title="Post traumatic stress disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			181CCBB4-A467-4D76-A3488529DC3DBEE9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				post-traumatic stress disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				traumatic event
+			</MetaKeyword>
+			<MetaKeyword>
+				psychological stress
+			</MetaKeyword>
+			<MetaKeyword>
+				ptsd
+			</MetaKeyword>
+			<MetaKeyword>
+				ptsd symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				ptsd treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				post traumatic stress disorder treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				post traumatic stress disorder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				rape
+			</MetaKeyword>
+			<MetaKeyword>
+				violence
+			</MetaKeyword>
+			<MetaKeyword>
+				war
+			</MetaKeyword>
+			<MetaKeyword>
+				disaster
+			</MetaKeyword>
+			<MetaKeyword>
+				shell shock
+			</MetaKeyword>
+			<MetaKeyword>
+				trauma
+			</MetaKeyword>
+			<MetaKeyword>
+				battle fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				combat stress
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-traumatic stress disorder (PTSD) is a mental health condition that&apos;s triggered by a terrifying event. Symptoms may include flashbacks, nightmares and severe anxiety, as well as uncontrollable thoughts about the event. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people who go through traumatic events have difficulty adjusting and coping for a while. But with time and taking care of yourself, such traumatic reactions usually get better. In some cases, though, the symptoms can get worse or last for months or even years. Sometimes they may completely shake up your life. In a case such as this, you may have post-traumatic stress disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Getting treatment as soon as possible after post-traumatic stress disorder symptoms develop may prevent long-term post-traumatic stress disorder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-traumatic stress disorder symptoms typically start within three months of a traumatic event. In a small number of cases, though, PTSD symptoms may not appear until years after the event.
+&lt;/p&gt;
+&lt;p&gt;
+Post-traumatic stress disorder symptoms are generally grouped into three types: intrusive memories, avoidance and numbing, and increased anxiety or emotional arousal (hyperarousal). 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of intrusive memories may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flashbacks, or reliving the traumatic event for minutes or even days at a time&lt;/li&gt;
+	&lt;li&gt;Upsetting dreams about the traumatic event&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms of avoidance and emotional numbing may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Trying to avoid thinking or talking about the traumatic event&lt;/li&gt;
+	&lt;li&gt;Feeling emotionally numb&lt;/li&gt;
+	&lt;li&gt;Avoiding activities you once enjoyed&lt;/li&gt;
+	&lt;li&gt;Hopelessness about the future&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Trouble concentrating&lt;/li&gt;
+	&lt;li&gt;Difficulty maintaining close relationships&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms of anxiety and increased emotional arousal may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irritability or anger&lt;/li&gt;
+	&lt;li&gt;Overwhelming guilt or shame&lt;/li&gt;
+	&lt;li&gt;Self-destructive behavior, such as drinking too much&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping&lt;/li&gt;
+	&lt;li&gt;Being easily startled or frightened&lt;/li&gt;
+	&lt;li&gt;Hearing or seeing things that aren&apos;t there&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Post-traumatic stress disorder symptoms can come and go. You may have more post-traumatic stress disorder symptoms when things are stressful in general, or when you run into reminders of what you went through. You may hear a car backfire and relive combat experiences, for instance. Or you may see a report on the news about a rape and feel overcome by memories of your own assault. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It&apos;s normal to have a wide range of feelings and emotions after a traumatic event. You might experience fear and anxiety, a lack of focus, sadness, changes in how well you sleep or how much you eat, or crying spells that catch you off guard. You may have nightmares or be unable to stop thinking about the event. This doesn&apos;t mean you have post-traumatic stress disorder.
+&lt;/p&gt;
+&lt;p&gt;
+But if you have these disturbing thoughts and feelings for more than a month, if they&apos;re severe, or if you feel you&apos;re having trouble getting your life back under control, talk to your health care professional. Getting treatment as soon as possible can help prevent PTSD symptoms from getting worse.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, post-traumatic stress disorder symptoms may be so severe that you need emergency help, especially if you&apos;re thinking about harming yourself or someone else. If this happens, call 911 or other emergency medical service, or ask a supportive family member or friend for help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can develop post-traumatic stress disorder when you go through, see or learn about an event that causes intense fear, helplessness or horror. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors aren&apos;t sure why some people get post-traumatic stress disorder. As with most mental health problems, PTSD is probably caused by a complex mix of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your inherited mental health risks, such as an increased risk of anxiety and depression&lt;/li&gt;
+	&lt;li&gt;Your life experiences, including the amount and severity of trauma you&apos;ve gone through since early childhood&lt;/li&gt;
+	&lt;li&gt;The inherited aspects of your personality &amp;mdash; often called your temperament&lt;/li&gt;
+	&lt;li&gt;The way your brain regulates the chemicals and hormones your body releases in response to stress&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People of all ages can have post-traumatic stress disorder. However, some factors may make you more likely to develop PTSD after a traumatic event, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being female&lt;/li&gt;
+	&lt;li&gt;Experiencing intense or long-lasting trauma&lt;/li&gt;
+	&lt;li&gt;Having experienced other trauma earlier in life&lt;/li&gt;
+	&lt;li&gt;Having other mental health problems, such as anxiety or depression&lt;/li&gt;
+	&lt;li&gt;Lacking a good support system of family and friends&lt;/li&gt;
+	&lt;li&gt;Having first-degree relatives with mental health problems, including PTSD&lt;/li&gt;
+	&lt;li&gt;Having first-degree relatives with depression&lt;/li&gt;
+	&lt;li&gt;Having been abused or neglected as a child&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Women may be at increased risk of PTSD because they are more likely to experience the kinds of trauma that can trigger the condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Kinds of traumatic events&lt;br /&gt;
+&lt;/strong&gt;Post-traumatic stress disorder is especially common among those who have served in combat. It&apos;s sometimes called &quot;shell shock,&quot; &quot;battle fatigue&quot; or &quot;combat stress.&quot;
+&lt;/p&gt;
+&lt;p&gt;
+The most common events leading to the development of PTSD include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Combat exposure&lt;/li&gt;
+	&lt;li&gt;Rape&lt;/li&gt;
+	&lt;li&gt;Childhood neglect and physical abuse&lt;/li&gt;
+	&lt;li&gt;Sexual molestation&lt;/li&gt;
+	&lt;li&gt;Physical attack&lt;/li&gt;
+	&lt;li&gt;Being threatened with a weapon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+But many other traumatic events also can lead to post-traumatic stress disorder, including fire, natural disaster, mugging, robbery, assault, civil conflict, car accident, plane crash, torture, kidnapping, life-threatening medical diagnosis, terrorist attack and other extreme or life-threatening events.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-traumatic stress disorder can disrupt your whole life: your job, your relationships and even your enjoyment of everyday activities. 
+&lt;/p&gt;
+&lt;p&gt;
+Having PTSD also may place you at a higher risk of other mental health problems, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Drug abuse&lt;/li&gt;
+	&lt;li&gt;Alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Eating disorders&lt;/li&gt;
+	&lt;li&gt;Suicidal thoughts and actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, PTSD may increase your risk of certain medical illnesses, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cardiovascular disease&lt;/li&gt;
+	&lt;li&gt;Chronic pain&lt;/li&gt;
+	&lt;li&gt;Autoimmune diseases, such as rheumatoid arthritis and thyroid disease&lt;/li&gt;
+	&lt;li&gt;Musculoskeletal conditions&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have thoughts of suicide, go to an emergency room or call 911 or your local emergency number immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have less urgent symptoms of post-traumatic stress disorder, make an appointment with your family doctor or general practitioner. Your doctor can help you begin the process of understanding whether your physical and emotional symptoms may be related to a traumatic experience. In many cases, your doctor may refer you to a mental health professional who can help make a diagnosis and create the right treatment plan for you. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key personal information,&lt;/strong&gt; especially events or experiences &amp;mdash; even in your distant past &amp;mdash; that have made you feel intense fear, helplessness or horror. It will help your doctor to know if there are memories you can&apos;t directly access without feeling an overwhelming need to push them out of your mind. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medical information,&lt;/strong&gt; including other physical or mental health conditions with which you&apos;ve been diagnosed. Also write down the names of any medications, including over-the-counter medications, you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a trusted family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor in advance so that you can make the most of your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For PTSD, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you believe is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;How will you determine my diagnosis?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Do you recommend treatment? If yes, with what types of therapy?&lt;/li&gt;
+	&lt;li&gt;I have other health problems. How should I manage these together with PTSD?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms to improve?&lt;/li&gt;
+	&lt;li&gt;Does PTSD increase my risk of other mental health problems?&lt;/li&gt;
+	&lt;li&gt;Should I see a mental health specialist?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any temporary changes at home, work or school to encourage recovery?&lt;/li&gt;
+	&lt;li&gt;Would it help my recovery to tell my teachers or work colleagues about my diagnosis?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Being ready to answer your doctor&apos;s questions may reserve time to go over any points you want to talk about in-depth. You should be prepared to answer the following questions from your doctor:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you or your loved ones first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever experienced or witnessed an event that was life-threatening to you or someone else?&lt;/li&gt;
+	&lt;li&gt;Have you ever been physically, sexually or emotionally harmed?&lt;/li&gt;
+	&lt;li&gt;Do you have disturbing thoughts, memories or nightmares of the trauma you experienced?&lt;/li&gt;
+	&lt;li&gt;Do you ever feel as if you are reliving the traumatic event, through flashbacks or hallucinations?&lt;/li&gt;
+	&lt;li&gt;Do you avoid certain people, places or situations that remind you of the traumatic experience?&lt;/li&gt;
+	&lt;li&gt;Have you lost interest in things or felt numb?&lt;/li&gt;
+	&lt;li&gt;Do you feel jumpy, on guard, or easily startled?&lt;/li&gt;
+	&lt;li&gt;Do you frequently feel irritable or angry?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble sleeping?&lt;/li&gt;
+	&lt;li&gt;Is anything happening in your life right now that is making you feel unsafe?&lt;/li&gt;
+	&lt;li&gt;Have you been having any problems at school or work?&lt;/li&gt;
+	&lt;li&gt;Have you been having problems in your personal relationships?&lt;/li&gt;
+	&lt;li&gt;Have you ever thought about harming yourself or others?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol or use illegal drugs? How often?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for other psychiatric symptoms or mental illness in the past? If yes, what type of therapy was most beneficial?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;There are steps you can take to improve your ability to cope while you&apos;re waiting for your appointment with a doctor. What works best for you is likely to be highly personal. Talking with friends or family about your feelings or trauma you&apos;ve experienced may be helpful. However, don&apos;t push yourself to share more than you can actually tolerate. 
+&lt;/p&gt;
+&lt;p&gt;
+You may find it especially helpful to talk with others who have gone through a traumatic experience similar to yours. Your doctor or mental health professional may be able to recommend a support group in your area. Exercise and relaxation techniques such as yoga or meditation also may improve your symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-traumatic stress disorder is diagnosed based on signs and symptoms and a thorough psychological evaluation. Your doctor or mental health professional will ask you to describe the signs and symptoms you&apos;re experiencing &amp;mdash; what they are, when they occur, how intense they are and how long they last. Your doctor also might ask you to describe the event that led up to your symptoms. You may also have a physical exam to check for any other medical problems. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with PTSD, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association. This manual is used by mental health professionals to diagnose mental conditions and by insurance companies to determine reimbursement for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for post-traumatic stress disorder to be diagnosed include&lt;/strong&gt;:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You experienced or witnessed an event that involved death or serious injury, or the threat of death or serious injury&lt;/li&gt;
+	&lt;li&gt;Your response to the event involved intense fear, horror or a sense of helplessness&lt;/li&gt;
+	&lt;li&gt;You relive experiences of the event, such as having distressing images and memories, upsetting dreams, flashbacks or even physical reactions&lt;/li&gt;
+	&lt;li&gt;You try to avoid situations or things that remind you of the traumatic event or feel a sense of emotional numbness&lt;/li&gt;
+	&lt;li&gt;You feel as if you&apos;re constantly on guard or alert for signs of danger, which may make it difficult to sleep or concentrate&lt;/li&gt;
+	&lt;li&gt;Your symptoms last longer than one month&lt;/li&gt;
+	&lt;li&gt;The symptoms cause significant distress in your life or interfere with your ability to go about your normal daily tasks&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-traumatic stress disorder treatment can help you regain a sense of control over your life. With successful post-traumatic stress disorder treatment, you can also feel better about yourself and learn ways to cope if any symptoms arise again. 
+&lt;/p&gt;
+&lt;p&gt;
+Post-traumatic stress disorder treatment often includes both medication and psychotherapy. Combining these treatments can help improve your symptoms and teach you skills to cope better with the traumatic event &amp;mdash; and life beyond it. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Several types of medications can help symptoms of post-traumatic stress disorder improve. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antipsychotics.&lt;/strong&gt; In some cases, you may be prescribed a short course of antipsychotics to relieve severe anxiety and related problems, such as difficulty sleeping or emotional outbursts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; These medications can help symptoms of both depression and anxiety. They can also help improve sleep problems and improve your concentration. The selective serotonin reuptake inhibitor (SSRI) medications sertraline (Zoloft) and paroxetine (Paxil) are FDA-approved for the treatment of PTSD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-anxiety medications.&lt;/strong&gt; These drugs also can improve feelings of anxiety and stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prazosin.&lt;/strong&gt; If your symptoms include insomnia or recurrent nightmares, a drug called prazosin (Minipress) may help. Prazosin, which has been used for years in the treatment of hypertension, also blocks the brain&apos;s response to an adrenaline-like brain chemical called norepinephrine. Although this drug is not specifically approved for the treatment of PTSD, prazosin may reduce or suppress nightmares in many people with PTSD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You and your doctor will need to work together to figure out the best treatment, with the fewest side effects, for your symptoms and situation. You may see an improvement in your mood and other symptoms within a few weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to tell your health care professional about any side effects or problems you have with the medications, as you may be able to try something different. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Several types of therapy may be used to treat both children and adults with post-traumatic stress disorder. You may try more than one, or combine types, before finding the right fit for you. You may also try individual therapy, group therapy or both. Group therapy can offer a way to connect to others going through similar experiences. 
+&lt;/p&gt;
+&lt;p&gt;
+Some types of therapy used in PTSD treatment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Cognitive therapy.&lt;/strong&gt; This type of talk therapy helps you recognize the ways of thinking (cognitive patterns) that are keeping you stuck &amp;mdash; for example, negative or inaccurate ways of perceiving normal situations. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In PTSD treatment, cognitive therapy often is used along with a behavioral therapy called exposure therapy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure therapy.&lt;/strong&gt; This behavioral therapy technique helps you safely face the very thing that you find frightening, so that you can learn to cope with it effectively. A new approach to exposure therapy uses &quot;virtual reality&quot; programs that allow you to re-enter the setting in which you experienced trauma &amp;mdash; for example, a &quot;Virtual Iraq&quot; program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye movement desensitization and reprocessing (EMDR).&lt;/strong&gt; This type of therapy combines exposure therapy with a series of guided eye movements that help you process traumatic memories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All these approaches can help you gain control of lasting fear after a traumatic event. The type of therapy that may be best for you depends on a number of factors that you and your health care professional can discuss. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications and psychotherapy also can help you if you&apos;ve developed other problems related to your traumatic experience, such as depression, anxiety, or alcohol or substance abuse. You don&apos;t have to try to handle the burden of PTSD on your own. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acupuncture may be helpful in improving the symptoms of PTSD. More research is needed to fully understand the safety and effectiveness of acupuncture as a treatment for PTSD. Talk with your doctor if you&apos;re interested in adding acupuncture to your treatment plan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If stress and other problems caused by a traumatic event affect your life, seeing your health care professional is an important first step. But you can take actions to help yourself cope as you continue with treatment for post-traumatic stress disorder. Things you can do include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your health professional&apos;s instructions.&lt;/strong&gt; Although it may take a while to feel benefits from therapy or medications, most people do recover. Remind yourself that it takes time. Healing won&apos;t come overnight. Following your treatment plan will help move you forward.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Get enough rest, eat a balanced diet, exercise and take time to relax. Avoid caffeine and nicotine, which can worsen anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t self-medicate.&lt;/strong&gt; Turning to alcohol or drugs to numb your feelings isn&apos;t healthy, even though it may be a tempting way to cope. It can lead to more problems down the road and prevent real healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Break the cycle.&lt;/strong&gt; When you feel anxious, take a brisk walk or jump into a hobby to re-focus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to someone.&lt;/strong&gt; Stay connected with supportive and caring family, friends, faith leaders or others. You don&apos;t have to talk about what happened, if you don&apos;t want to. Just sharing time with loved ones can offer healing and comfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider a support group.&lt;/strong&gt; Many communities have support groups geared to specific situations. Ask your health care professional for help finding one, look in your local phone book or contact your community&apos;s social services system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When someone you love has PTSD&lt;br /&gt;
+&lt;/strong&gt;Post-traumatic stress disorder can significantly strain the emotional and mental health of the affected person&apos;s caregivers and loved ones. In fact, the term &quot;compassion fatigue&quot; was coined to describe the feelings, such as depression and helplessness, that commonly develop in those close to a person with PTSD.
+&lt;/p&gt;
+&lt;p&gt;
+Hearing about the trauma that led to your loved one&apos;s PTSD may be extremely painful for you, and may cause you to relive difficult events in your own life. The person you love may seem like a different person than you knew before the trauma &amp;mdash; angry and irritable, for example, or withdrawn and depressed. 
+&lt;/p&gt;
+&lt;p&gt;
+If someone you love has PTSD, you may find yourself avoiding his or her attempts to talk about the trauma or feeling hopeless that your loved one will get better. At the same time, you may feel guilty that you can&apos;t fix your loved one or hurry up his or her process of healing. 
+&lt;/p&gt;
+&lt;p&gt;
+In order to take care of yourself and your loved one, it&apos;s critical that you make your own mental health a priority. Eat right, exercise and rest. Continue to take time alone or with friends, doing activities that help you recharge. If you continue to have difficulty coping, talk with your doctor. He or she may refer you to a therapist who can help you work through your emotions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After surviving a traumatic event, many people have PTSD-like symptoms at first, such as being unable to stop thinking about what&apos;s happened. Fear, anxiety, anger, depression, guilt &amp;mdash; all are common reactions to trauma. Although you may not want to talk about it to anyone or you don&apos;t want to even think about what&apos;s happened, getting support can help you recover. This may mean turning to supportive family and friends who will listen and offer comfort. It may mean that you seek out a mental health professional for a brief course of therapy. Some people also may find it helpful to turn to their faith community or a pastoral crisis counselor. 
+&lt;/p&gt;
+&lt;p&gt;
+However you choose to get support and help, doing so can help prevent normal stress reactions from getting worse and developing into post-traumatic stress disorder. Getting support may also help prevent you from turning to unhealthy coping methods, such as alcohol use.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Post-traumatic stress disorder (PTSD)
+	</Title>
+	<Abstract>
+		Post-traumatic stress disorder (PTSD) &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this anxiety disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Answer" DocID="AN02079" LinkType="Internal" ObjectID="25199F64-B7F6-C481-1DCA0D37D68999CC" Title="Post-traumatic stress: How can you help your loved one?" Url="http://www.mayoclinic.com/health/post-traumatic-stress/AN02079" />
+	</RelatedLinksBox>
+</Disease>

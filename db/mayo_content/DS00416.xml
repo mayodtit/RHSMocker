@@ -1,0 +1,334 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00416
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/frozen-shoulder/DS00416
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2001-12-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1408" Title="Neck and shoulder">
+						<Keyword MCVID="2153" Title="Frozen shoulder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5DE0BB24-DDC2-4EE3-B275BE84663BFD5A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				frozen shoulder
+			</MetaKeyword>
+			<MetaKeyword>
+				shoulder pain
+			</MetaKeyword>
+			<MetaKeyword>
+				adhesive capsulitis
+			</MetaKeyword>
+			<MetaKeyword>
+				shoulder
+			</MetaKeyword>
+			<MetaKeyword>
+				mobility
+			</MetaKeyword>
+			<MetaKeyword>
+				range of motion
+			</MetaKeyword>
+			<MetaKeyword>
+				immobile
+			</MetaKeyword>
+			<MetaKeyword>
+				pain
+			</MetaKeyword>
+			<MetaKeyword>
+				wall crawling
+			</MetaKeyword>
+			<MetaKeyword>
+				sholder pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frozen shoulder, also known as adhesive capsulitis, is a condition characterized by stiffness and pain in your shoulder joint. Signs and symptoms typically begin gradually, worsen over time and then resolve, usually within one or two years.
+&lt;/p&gt;
+&lt;p&gt;
+Your risk of developing frozen shoulder increases if you&apos;re recovering from a medical condition or procedure that affects the mobility of your arm &amp;mdash; such as a stroke or a mastectomy.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for frozen shoulder involves stretching exercises and, sometimes, the injection of corticosteroids and numbing medications into the joint capsule. In a small percentage of cases, surgery may be needed to loosen the joint capsule so that it can move more freely.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing shoulder joint 
+" Caption="Frozen shoulder occurs when the connective tissue enclosing the joint becomes thickened and tight. 
+" Height="60" Title="Frozen shoulder" URI="/images/image_popup/thumbs/r7_frozenshoulderthu.jpg" Width="60" />
+				<Image Alt="Illustration showing shoulder joint 
+" Caption="Frozen shoulder occurs when the connective tissue enclosing the joint becomes thickened and tight. 
+" Height="400" Title="Frozen shoulder" URI="/images/image_popup/r7_frozenshoulder.jpg" Width="400" />
+				<HTML>
+					Frozen shoulder occurs when the connective tissue enclosing the joint becomes thickened and tight. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frozen shoulder typically develops slowly, and in three stages. Each of these stages can last a number of months.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Painful stage.&lt;/strong&gt; During this stage, pain occurs with any movement of your shoulder, and your shoulder&apos;s range of motion starts to become limited.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frozen stage.&lt;/strong&gt; Pain may begin to diminish during this stage. However, your shoulder becomes stiffer, and your range of motion decreases notably.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thawing stage.&lt;/strong&gt; During the thawing stage, the range of motion in your shoulder begins to improve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, the pain worsens at night, sometimes disrupting normal sleep patterns. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The bones, ligaments and tendons that make up your shoulder joint are encased in a capsule of connective tissue. Frozen shoulder occurs when this capsule thickens and tightens around the shoulder joint, restricting its movement.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors aren&apos;t sure why this happens to some people and not to others, although it&apos;s more likely to occur in people who have recently experienced prolonged immobilization of their shoulder, such as after surgery or an arm fracture.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing shoulder joint 
+" Caption="Frozen shoulder occurs when the connective tissue enclosing the joint becomes thickened and tight. 
+" Height="60" Title="Frozen shoulder" URI="/images/image_popup/thumbs/r7_frozenshoulderthu.jpg" Width="60" />
+				<Image Alt="Illustration showing shoulder joint 
+" Caption="Frozen shoulder occurs when the connective tissue enclosing the joint becomes thickened and tight. 
+" Height="400" Title="Frozen shoulder" URI="/images/image_popup/r7_frozenshoulder.jpg" Width="400" />
+				<HTML>
+					Frozen shoulder occurs when the connective tissue enclosing the joint becomes thickened and tight. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the exact cause is unknown, certain factors may increase your risk of developing frozen shoulder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Age and sex&lt;br /&gt;
+&lt;/strong&gt;People 40 and older are more likely to experience frozen shoulder. Most of the people who develop the condition are women.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immobility or reduced mobility&lt;br /&gt;
+&lt;/strong&gt;People who have experienced prolonged immobility or reduced mobility of their shoulder are at higher risk of developing frozen shoulder. Immobility may be the result of many factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rotator cuff injury&lt;/li&gt;
+	&lt;li&gt;Broken arm&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Recovery from surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Systemic diseases&lt;br /&gt;
+&lt;/strong&gt;People who have certain medical problems appear to be predisposed to develop frozen shoulder. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Overactive thyroid (hyperthyroidism)&lt;/li&gt;
+	&lt;li&gt;Underactive thyroid (hypothyroidism)&lt;/li&gt;
+	&lt;li&gt;Cardiovascular disease&lt;/li&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a doctor who specializes in orthopedic medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Are there any activities that worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever injured that shoulder? If so, how?&lt;/li&gt;
+	&lt;li&gt;Do you have diabetes?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent surgeries or periods of restricted shoulder motion?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may ask you to perform certain actions, to check for pain and evaluate your range of motion. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hands up.&lt;/strong&gt; Raise both your hands straight up in the air, like a football referee calling a touchdown.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opposite shoulder.&lt;/strong&gt; Reach across your chest to touch your opposite shoulder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Back scratch.&lt;/strong&gt; Starting with the back of your hand against the small of your back, reach upward to touch your opposite shoulder blade.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also ask you to relax your muscles while he or she moves your arm for you. This test can help distinguish between frozen shoulder and a rotator cuff injury.
+&lt;/p&gt;
+&lt;p&gt;
+Frozen shoulder can usually be diagnosed from signs and symptoms alone. But your doctor may suggest imaging tests &amp;mdash; such as X-rays or an MRI &amp;mdash; to rule out other structural problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most frozen shoulder treatment involves controlling shoulder pain and preserving as much range of motion in the shoulder as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Over-the-counter pain relievers, such as aspirin and ibuprofen (Advil, Motrin, others), can help reduce pain and inflammation associated with frozen shoulder. In some cases, your doctor may prescribe stronger pain-relieving and anti-inflammatory drugs.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can teach you stretching exercises to help maintain as much mobility in your shoulder as possible.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;Most frozen shoulders get better on their own within 12 to 18 months. For persistent symptoms, your doctor may suggest:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid injections.&lt;/strong&gt; Injecting corticosteroids into your shoulder joint may help decrease pain and improve shoulder mobility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint distension.&lt;/strong&gt; Injecting sterile water into the joint capsule can help stretch the tissue and make it easier to move the joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shoulder manipulation.&lt;/strong&gt; In this procedure, you receive a general anesthetic so you&apos;ll be unconscious and feel no pain. Then the doctor moves your shoulder joint in different directions, to help loosen the tightened tissue. Depending on the amount of force used, this procedure can cause bone fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If nothing else has helped, you may be a candidate for surgery to remove scar tissue and adhesions from inside your shoulder joint. Doctors usually perform this surgery arthroscopically, with lighted, tubular instruments inserted through small incisions around your joint.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing shoulder exercises 
+" Caption="These exercises may improve your shoulder&apos;s range of motion. Let your arm hang down like a pendulum, and then gently swing it back and forth or in circles. Pretend your fingers are your feet and walk your fingers up a wall. 
+" Height="60" Title="Shoulder exercises" URI="/images/image_popup/thumbs/r7_shoulder_exercisesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing shoulder exercises 
+" Caption="These exercises may improve your shoulder&apos;s range of motion. Let your arm hang down like a pendulum, and then gently swing it back and forth or in circles. Pretend your fingers are your feet and walk your fingers up a wall. 
+" Height="516" Title="Shoulder exercises" URI="/images/image_popup/r7_shoulder_exercises.jpg" Width="400" />
+				<HTML>
+					These exercises may improve your shoulder&apos;s range of motion. Let your arm hang down like a pendulum, and then gently swing it back and forth or in circles. Pretend your fingers are your feet and walk ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Continue to use the involved shoulder and extremity in as many daily life activities as possible within the limits of your pain and range-of-motion constraints. Applying heat or cold to your shoulder can help relieve pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Acupuncture&lt;br /&gt;
+&lt;/strong&gt;Acupuncture is a procedure that has been used in China for thousands of years. It involves inserting extremely fine needles in your skin at specific points on your body. Typically, the needles remain in place for 15 to 40 minutes. During that time they may be moved or manipulated. Because the needles are hair thin and flexible and are generally inserted superficially, most acupuncture treatments are relatively painless.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Transcutaneous electrical nerve stimulation (TENS)&lt;br /&gt;
+&lt;/strong&gt;A TENS unit delivers a tiny electrical current to key points on a nerve pathway. The current, delivered through electrodes taped to your skin, isn&apos;t painful or harmful. It&apos;s not known exactly how TENS works, but it&apos;s thought that it might stimulate the release of pain-inhibiting molecules (endorphins) or block pain fibers that carry pain impulses.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the most common causes of frozen shoulder is the immobility that may result during recovery from a shoulder injury, broken arm or a stroke. If you&apos;ve had an injury that makes it difficult to move your shoulder, talk to your doctor about what exercises would be best to maintain the range of motion in your shoulder joint.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Frozen shoulder
+	</Title>
+	<Abstract>
+		Frozen shoulder &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this painful joint condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+	</RelatedLinksBox>
+</Disease>

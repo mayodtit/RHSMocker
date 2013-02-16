@@ -1,0 +1,88 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00634
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00634
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1242" Title="Nutritional supplements" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0C421CD0-E7FF-0DBD-1F96A54D5D24C20E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy diet
+			</MetaKeyword>
+			<MetaKeyword>
+				nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamins
+			</MetaKeyword>
+			<MetaKeyword>
+				dietary supplement
+			</MetaKeyword>
+			<MetaKeyword>
+				dietary supplements
+			</MetaKeyword>
+			<MetaKeyword>
+				supplements
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Calcium: Building better bones
+	</Title>
+	<Body>
+		&lt;p&gt;Calcium is a mineral important for developing and maintaining strong bones. If you don&apos;t get enough calcium, you increase your risk of fractures and osteoporosis. Food sources include dairy products, fish with soft bones that you can eat, and calcium-fortified foods. Calcium supplements can help fill any gaps left by your diet. Just don&apos;t overdo the calcium. Too much calcium can do more harm than good.&lt;/p&gt;
+	</Body>
+</HealthTip>

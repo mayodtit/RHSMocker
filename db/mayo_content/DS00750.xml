@@ -1,0 +1,309 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00750
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/primary-progressive-aphasia/DS00750
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-16
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="2312" Title="Aphasia">
+							<Keyword MCVID="4276" Title="Primary progressive aphasia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB21AAB9-E7FF-0DBD-11F0C1B92473B142
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				primary progressive aphasia
+			</MetaKeyword>
+			<MetaKeyword>
+				aphasia
+			</MetaKeyword>
+			<MetaKeyword>
+				speech problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary progressive aphasia (uh-FAY-zhuh) is a rare nervous system (neurological) syndrome that impairs language capabilities. People with primary progressive aphasia may have trouble expressing their thoughts and comprehending or finding words. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of primary progressive aphasia begin gradually, sometimes before age 65, and tend to worsen over time. People with primary progressive aphasia can become mute and may eventually lose the ability to understand written or spoken language. 
+&lt;/p&gt;
+&lt;p&gt;
+People with primary progressive aphasia may continue caring for themselves and participating in daily life activities for several years after the disorder&apos;s onset, as the condition progresses slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+Primary progressive aphasia is a type of frontotemporal degeneration, a cluster of related disorders that originate in the frontal or temporal lobes of the brain.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of functions of the brain 
+" Caption="Different areas of the brain are responsible for different vital functions. 
+" Height="60" Title="Functions of the brain" URI="/images/image_popup/thumbs/bn7_functionalbrainthu.jpg" Width="60" />
+				<Image Alt="Illustration of functions of the brain 
+" Caption="Different areas of the brain are responsible for different vital functions. 
+" Height="342" Title="Functions of the brain" URI="/images/image_popup/bn7_functionalbrain.jpg" Width="400" />
+				<HTML>
+					Different areas of the brain are responsible for different vital functions. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary progressive aphasia symptoms may vary by individual, depending on which portion of the brain&apos;s language center is involved.
+&lt;/p&gt;
+&lt;p&gt;
+Primary progressive aphasia has three types, which cause different symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Semantic variant primary progressive aphasia&lt;br /&gt;
+&lt;/strong&gt;In this condition, you may experience symptoms such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty comprehending spoken or written language, particularly single words&lt;/li&gt;
+	&lt;li&gt;Difficulty comprehending word meanings&lt;/li&gt;
+	&lt;li&gt;Difficulty naming objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lopogenic variant primary progressive aphasia&lt;br /&gt;
+&lt;/strong&gt;In this condition, you may experience symptoms such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty retrieving correct words in speech&lt;/li&gt;
+	&lt;li&gt;Frequent pauses in your speech while searching for words&lt;/li&gt;
+	&lt;li&gt;Slow speech&lt;/li&gt;
+	&lt;li&gt;Difficulty repeating phrases or sentences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonfluent-agrammatic variant primary progressive aphasia&lt;br /&gt;
+&lt;/strong&gt;In this condition, you may experience symptoms such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Hesitant, halting speech&lt;/li&gt;
+	&lt;li&gt;Making errors in speech sounds&lt;/li&gt;
+	&lt;li&gt;Difficulty understanding sentences&lt;/li&gt;
+	&lt;li&gt;Using grammar incorrectly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms may vary depending on the speaking situation and the type of primary progressive aphasia. For example, a person may need to pause frequently to find words during a conversation requiring a high level of precision but then have no pauses when exchanging small talk. Reading and writing also are usually affected. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary progressive aphasia is caused by a shrinking (atrophy) of the frontal and temporal lobes in the brain, primarily on the left side of the brain. Primary progressive aphasia affects the language center in your brain. Scar tissue and abnormal proteins also may be present, and brain activity is often reduced. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of functions of the brain 
+" Caption="Different areas of the brain are responsible for different vital functions. 
+" Height="60" Title="Functions of the brain" URI="/images/image_popup/thumbs/bn7_functionalbrainthu.jpg" Width="60" />
+				<Image Alt="Illustration of functions of the brain 
+" Caption="Different areas of the brain are responsible for different vital functions. 
+" Height="342" Title="Functions of the brain" URI="/images/image_popup/bn7_functionalbrain.jpg" Width="400" />
+				<HTML>
+					Different areas of the brain are responsible for different vital functions. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for primary progressive aphasia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having learning disabilities.&lt;/strong&gt; People with learning disabilities, particularly dyslexia, may be at higher risk of primary progressive aphasia, perhaps because both conditions involve using and understanding language.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having certain gene mutations.&lt;/strong&gt; Rare gene mutations have been linked to the disorder. If several other members of your family have had primary progressive aphasia, you may be more likely to develop it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with primary progressive aphasia may become mute and may eventually lose the ability to understand written and spoken language. 
+&lt;/p&gt;
+&lt;p&gt;
+As the disease progresses, other mental skills, such as memory, may become impaired. Some people may develop other neurological conditions over time. If these complications occur, the affected person eventually will need help with day-to-day care. 
+&lt;/p&gt;
+&lt;p&gt;
+People with primary progressive aphasia may also develop behavioral or social problems, such as being anxious or irritable. Other problems may include blunted emotions, poor judgment or inappropriate social behavior.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may initially talk to your family doctor about your difficulties in using and understanding language. He or she may refer you to a doctor trained in brain and nervous system conditions (neurologist) or a speech-language pathologist for further evaluation or treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all your symptoms,&lt;/strong&gt; including when each one started and whether any activity or task seems to make them worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; including vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt; to help with communication issues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor,&lt;/strong&gt; including what types of tests you might need and what treatments might be helpful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;What happens during your appointment may vary depending on the type of doctor you see. Your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask detailed questions about your symptoms&lt;/li&gt;
+	&lt;li&gt;Use written or verbal tests to determine the severity of your communication problems&lt;/li&gt;
+	&lt;li&gt;Test your short-term memory&lt;/li&gt;
+	&lt;li&gt;Order additional medical tests to rule out other causes of aphasia&lt;/li&gt;
+	&lt;li&gt;Talk to someone who knows you well to get more information about your communication problems and any recent changes in your behavior&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose primary progressive aphasia, your doctor will review your symptoms and order several tests.&lt;strong&gt; &lt;/strong&gt;Because there is no specific test to diagnose primary progressive aphasia, your doctor will need to order tests to diagnose your condition and rule out other possible causes of your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological examination&lt;br /&gt;
+&lt;/strong&gt;Doctors may conduct a neurological examination as well as a speech-language evaluation and a neuropsychological evaluation. Tests will be conducted to measure your speech, language comprehension and skills, recognition and naming of objects, recall, and other factors.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;Doctors may order blood tests to check for infections, measure medication levels or test for other medical conditions. You may also have genetic tests to determine if you have genetic mutations associated with primary progressive aphasia or other neurological conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain scans&lt;br /&gt;
+&lt;/strong&gt;Magnetic resonance imaging (MRI) scans can help diagnose primary progressive aphasia, detect shrinking of certain areas of the brain and show which area of the brain may be affected. MRI scans can also detect strokes, tumors or other conditions that may affect brain function. 
+&lt;/p&gt;
+&lt;p&gt;
+Single-photon emission computerized tomography or PET scans can show blood flow or glucose metabolism abnormalities in areas of your brain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary progressive aphasia can&apos;t be cured. However, doctors and other health care professionals can help you manage your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;There are no drugs that specifically treat primary progressive aphasia.
+&lt;/p&gt;
+&lt;p&gt;
+Researchers continue to study potential medications to treat primary progressive aphasia. Experimental therapies may be available in upcoming years.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Speech and language therapy&lt;br /&gt;
+&lt;/strong&gt;Working with a speech-language pathologist, focusing primarily on efforts to compensate for eroding language skills, can be helpful. Although speech and language therapy hasn&apos;t been proved to prevent or slow progression of the condition, it can help you manage your condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Losing the ability to communicate is distressing and incredibly frustrating. Friends and family members can make communication easier by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Paying close attention to the affected person&lt;/li&gt;
+	&lt;li&gt;Giving feedback about the need for clarification&lt;/li&gt;
+	&lt;li&gt;Providing more time for communication&lt;/li&gt;
+	&lt;li&gt;Confirming information&lt;/li&gt;
+	&lt;li&gt;Keeping statements relatively brief&lt;/li&gt;
+	&lt;li&gt;Supplementing speech with gestures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Family members eventually may need to consider long-term care options for the person with primary progressive aphasia. Family members may also need to plan the person&apos;s finances and help make legal decisions to prepare for more-serious stages of the condition.
+&lt;/p&gt;
+&lt;p&gt;
+Support groups may be available for you and the person with primary progressive aphasia or related conditions. Ask your social worker or other members of your treatment team about community resources or support groups.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Primary progressive aphasia
+	</Title>
+	<Abstract>
+		Primary progressive aphasia &amp;mdash; Comprehensive overview covers symptoms, treatment of this speech-related dementia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00685" LinkType="Internal" ObjectID="AD64C967-2A5D-9994-E14C22998CDC390D" Title="Aphasia" Url="http://www.mayoclinic.com/health/aphasia/DS00685" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,469 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00286
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/urinary-tract-infection/DS00286
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-29
+		</UpdateDate>
+		<PublicationDate>
+			2004-06-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="2602" Title="Urethra">
+						<Keyword MCVID="1512" Title="UTI" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			364657CC-439E-4166-843C62403DD3A8D9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				urinary tract infection
+			</MetaKeyword>
+			<MetaKeyword>
+				UTI
+			</MetaKeyword>
+			<MetaKeyword>
+				blood in urine
+			</MetaKeyword>
+			<MetaKeyword>
+				cloudy urine
+			</MetaKeyword>
+			<MetaKeyword>
+				bloody urine
+			</MetaKeyword>
+			<MetaKeyword>
+				smelly urine
+			</MetaKeyword>
+			<MetaKeyword>
+				urine odor
+			</MetaKeyword>
+			<MetaKeyword>
+				foul smelling urine
+			</MetaKeyword>
+			<MetaKeyword>
+				strong smelling urine
+			</MetaKeyword>
+			<MetaKeyword>
+				white blood cells in urine
+			</MetaKeyword>
+			<MetaKeyword>
+				urine infection
+			</MetaKeyword>
+			<MetaKeyword>
+				bacteriuria
+			</MetaKeyword>
+			<MetaKeyword>
+				prostatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney infection
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary track infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A urinary tract infection (UTI) is an infection in any part of your urinary system &amp;mdash; your kidneys, ureters, bladder and urethra. Most infections involve the lower urinary tract &amp;mdash; the bladder and the urethra.
+&lt;/p&gt;
+&lt;p&gt;
+Women are at greater risk of developing a UTI than men are. Infection limited to your bladder can be painful and annoying. However, serious consequences can occur if a UTI spreads to your kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics are the typical treatment for a UTI. But you can take steps to reduce your chance of getting a UTI in the first place.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary tract infections don&apos;t always cause signs and symptoms, but when they do they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A strong, persistent urge to urinate&lt;/li&gt;
+	&lt;li&gt;A burning sensation when urinating&lt;/li&gt;
+	&lt;li&gt;Passing frequent, small amounts of urine&lt;/li&gt;
+	&lt;li&gt;Urine that appears cloudy&lt;/li&gt;
+	&lt;li&gt;Urine that appears red, bright pink or cola-colored &amp;mdash; a sign of blood in the urine&lt;/li&gt;
+	&lt;li&gt;Strong-smelling urine&lt;/li&gt;
+	&lt;li&gt;Pelvic pain, in women&lt;/li&gt;
+	&lt;li&gt;Rectal pain, in men&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+UTIs may be overlooked or mistaken for other conditions in older adults. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of urinary tract infection&lt;/strong&gt;&lt;br /&gt;
+Each type of UTI may result in more-specific signs and symptoms, depending on which part of your urinary tract is infected. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;50%&quot;&gt;Part of urinary tract affected&lt;/th&gt;&lt;th width=&quot;50%&quot;&gt;Signs and symptoms&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Kidneys (acute pyelonephritis)&lt;/td&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Upper back and side (flank) pain&lt;/li&gt;
+				&lt;li&gt;High fever&lt;/li&gt;
+				&lt;li&gt;Shaking and chills&lt;/li&gt;
+				&lt;li&gt;Nausea&lt;/li&gt;
+				&lt;li&gt;Vomiting&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Bladder (cystitis)&lt;/td&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Pelvic pressure&lt;/li&gt;
+				&lt;li&gt;Lower abdomen discomfort&lt;/li&gt;
+				&lt;li&gt;Frequent, painful urination&lt;/li&gt;
+				&lt;li&gt;Blood in urine&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Urethra (urethritis)&lt;/td&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Burning with urination&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you have signs and symptoms of a UTI. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary tract infections typically occur when bacteria enter the urinary tract through the urethra and begin to multiply in the bladder. Although the urinary system is designed to keep out such microscopic invaders, these defenses sometimes fail. When that happens, bacteria may take hold and grow into a full-blown infection in the urinary tract.
+&lt;/p&gt;
+&lt;p&gt;
+The most common UTIs occur mainly in women and affect the bladder and urethra.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection of the bladder (cystitis).&lt;/strong&gt; This type of UTI is usually caused by Escherichia coli (E. coli), a type of bacteria commonly found in the gastrointestinal (GI) tract. Sexual intercourse may lead to cystitis, but you don&apos;t have to be sexually active to develop it. All women are at risk of cystitis because of their anatomy &amp;mdash; specifically, the short distance from the urethra to the anus and the urethral opening to the bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection of the urethra (urethritis).&lt;/strong&gt; This type of UTI can occur when GI bacteria spread from the anus to the urethra. Also, because the female urethra is close to the vagina, sexually transmitted infections, such as herpes, gonorrhea and chlamydia, can cause urethritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for urinary tract infections include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; UTIs are common in women, and many women experience more than one infection. Women have a shorter urethra than men do, which cuts down on the distance that bacteria must travel to reach a woman&apos;s bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being sexually active.&lt;/strong&gt; Sexually active women tend to have more UTIs than do women who aren&apos;t sexually active.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using certain types of birth control.&lt;/strong&gt; Women who use diaphragms for birth control also may be at higher risk, as may women who use spermicidal agents.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Completing menopause.&lt;/strong&gt; After menopause, UTIs may become more common because the lack of estrogen causes changes in the urinary tract that make it more vulnerable to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having urinary tract abnormalities.&lt;/strong&gt; Babies born with urinary tract abnormalities that don&apos;t allow urine to leave the body normally or cause urine to back up in the urethra have an increased risk of UTIs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having blockages in the urinary tract.&lt;/strong&gt; Kidney stones or an enlarged prostate can trap urine in the bladder and increase the risk of UTI.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a suppressed immune system.&lt;/strong&gt; Diabetes and other diseases that impair the immune system &amp;mdash; the body&apos;s defense against germs &amp;mdash; can increase the risk of UTIs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a catheter to urinate.&lt;/strong&gt; People who can&apos;t urinate on their own and use a tube (catheter) to urinate have an increased risk of UTIs. This may include people who are hospitalized, people with neurological problems that make it difficult to control their ability to urinate and people who are paralyzed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When treated promptly and properly, lower urinary tract infections rarely lead to complications. But left untreated, a urinary tract infection can have serious consequences.
+&lt;/p&gt;
+&lt;p&gt;
+Complications of UTIs may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurrent infections, especially in women who experience three or more UTIs&lt;/li&gt;
+	&lt;li&gt;Permanent kidney damage from an acute or chronic kidney infection (pyelonephritis) due to an untreated UTI, especially in young children&lt;/li&gt;
+	&lt;li&gt;Increased risk of women delivering low birth weight or premature infants&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor can treat most urinary tract infections. However, for frequent recurrences or a chronic kidney infection, you&apos;ll likely be referred to a doctor who specializes in urinary disorders (urologist) or kidney disorders (nephrologist) for an evaluation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, make a list of medications or supplements you&apos;re taking and any allergies you have. This information helps your doctor select the best treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Write down questions to ask your doctor, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kind of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Can I do anything to prevent a UTI?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch out for?&lt;/li&gt;
+	&lt;li&gt;What do the results of my urine test mean?&lt;/li&gt;
+	&lt;li&gt;Do I need to take medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any special instructions for taking the medicine?&lt;/li&gt;
+	&lt;li&gt;What can I do if I keep getting UTIs?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely ask you several questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for a bladder or kidney infection in the past?&lt;/li&gt;
+	&lt;li&gt;How severe is your discomfort?&lt;/li&gt;
+	&lt;li&gt;How often do you urinate?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms relieved by urinating?&lt;/li&gt;
+	&lt;li&gt;Do you have low back pain?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever?&lt;/li&gt;
+	&lt;li&gt;Have you noticed vaginal discharge or blood in your urine?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Do you use contraception? What kind?&lt;/li&gt;
+	&lt;li&gt;Could you be pregnant?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you ever used a catheter?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose urinary tract infections include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Analyzing a urine sample.&lt;/strong&gt; Your doctor may ask for a urine sample for lab analysis to look for white blood cells, red blood cells or bacteria. To avoid potential contamination of the sample, you may be instructed to first wipe your genital area with an antiseptic pad and to collect the urine midstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growing urinary tract bacteria in a lab.&lt;/strong&gt; Lab analysis of the urine is sometimes followed by a urine culture &amp;mdash; a test that uses your urine sample to grow bacteria in a lab. This test tells your doctor what bacteria are causing your infection and which medications will be most effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Creating images of your urinary tract.&lt;/strong&gt; If your doctor suspects that an abnormality in your urinary tract causes frequent infections, you may have an ultrasound or a computerized tomography (CT) scan to create images of your urinary tract. In certain situations, your doctor may also use a contrast dye to highlight structures in your urinary tract. Another test, called an intravenous pyelogram (IVP), uses X-rays with contrast dye to create images. Historically, doctors used this test for urinary tract imaging, but it&apos;s being replaced more often by ultrasound or CT scan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to see inside your bladder.&lt;/strong&gt; If you have recurrent UTIs, your doctor may perform a cystoscopy, using a long, thin tube with a lens (cystoscope) to see inside your urethra and bladder. The cystoscope is inserted in your urethra and passed through to your bladder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Female cystoscopy" URI="/images/image_popup/thumbs/r7_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="339" Title="Female cystoscopy" URI="/images/image_popup/r7_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Male cystoscopy" URI="/images/image_popup/thumbs/r7_flexible_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="394" Title="Male cystoscopy" URI="/images/image_popup/r7_flexible_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors typically use antibiotics to treat urinary tract infections. Which drugs are prescribed and for how long depend on your health condition and the type of bacterium found in your urine.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Simple infection&lt;/strong&gt;&lt;br /&gt;
+Drugs commonly recommended for simple UTIs include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sulfamethoxazole-trimethoprim (Bactrim, Septra, others)&lt;/li&gt;
+	&lt;li&gt;Amoxicillin (Amoxil, Augmentin, others)&lt;/li&gt;
+	&lt;li&gt;Nitrofurantoin (Furadantin, Macrodantin, others)&lt;/li&gt;
+	&lt;li&gt;Ampicillin&lt;/li&gt;
+	&lt;li&gt;Ciprofloxacin (Cipro)&lt;/li&gt;
+	&lt;li&gt;Levofloxacin (Levaquin)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Usually, symptoms clear up within a few days of treatment. But you may need to continue antibiotics for a week or more. Take the entire course of antibiotics prescribed by your doctor to ensure that the infection is completely gone.
+&lt;/p&gt;
+&lt;p&gt;
+For an uncomplicated UTI that occurs when you&apos;re otherwise healthy, your doctor may recommend a shorter course of treatment, such as taking an antibiotic for one to three days. But whether this short course of treatment is adequate to treat your infection depends on your particular symptoms and medical history.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also prescribe a pain medication (analgesic) that numbs your bladder and urethra to relieve burning while urinating. One common side effect of urinary tract analgesics is discolored urine &amp;mdash; orange or red.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Frequent infections&lt;/strong&gt;&lt;br /&gt;
+If you experience frequent UTIs, your doctor may make certain treatment recommendations, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Longer course of antibiotic treatment or a program with short courses of antibiotics at the start of your urinary symptoms&lt;/li&gt;
+	&lt;li&gt;Home urine tests, in which you dip a test stick into a urine sample, to check for infection&lt;/li&gt;
+	&lt;li&gt;A single dose of antibiotic after sexual intercourse if your infections are related to sexual activity&lt;/li&gt;
+	&lt;li&gt;Vaginal estrogen therapy if you&apos;re postmenopausal, to minimize your chance of recurrent UTIs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe infection&lt;/strong&gt;&lt;br /&gt;
+For a severe UTI, you may need treatment with intravenous antibiotics in a hospital.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Cranberry juice&lt;/strong&gt;&lt;br /&gt;
+There&apos;s some indication, though it hasn&apos;t been proved, that cranberry juice may have infection-fighting properties and drinking it daily may help prevent urinary tract infections. Studies have shown the greatest effect in women who have frequent UTIs. Studies involving children and older adults have had mixed results.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not clear how much cranberry juice you&apos;d need to drink or how often you&apos;d need to drink it to have an effect.
+&lt;/p&gt;
+&lt;p&gt;
+If you enjoy drinking cranberry juice and feel it helps you prevent UTIs, there&apos;s little harm in continuing to drink it, but watch the calories. For most people, drinking cranberry juice is safe, but some people report an upset stomach or diarrhea.
+&lt;/p&gt;
+&lt;p&gt;
+However, don&apos;t drink cranberry juice if you&apos;re taking the blood-thinning medication warfarin, because this may lead to bleeding.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary tract infections can be painful, but you can take steps to ease your discomfort until antibiotics clear the infection. Follow these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water&lt;/strong&gt; to dilute your urine and help flush out bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid drinks that may irritate your bladder.&lt;/strong&gt; Avoid coffee, alcohol, and soft drinks containing citrus juices and caffeine until your infection has cleared. They can irritate your bladder and tend to aggravate your frequent or urgent need to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a heating pad.&lt;/strong&gt; Apply a warm, but not hot, heating pad to your abdomen to minimize bladder pressure or discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take these steps to reduce your risk of urinary tract infections:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids, especially water.&lt;/strong&gt; Drinking water helps dilute your urine and ensures that you&apos;ll urinate more frequently &amp;mdash; allowing bacteria to be flushed from your urinary tract before an infection can begin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wipe from front to back.&lt;/strong&gt; Doing so after urinating and after a bowel movement helps prevent bacteria in the anal region from spreading to the vagina and urethra.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Empty your bladder soon after intercourse.&lt;/strong&gt; Also, drink a full glass of water to help flush bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid potentially irritating feminine products.&lt;/strong&gt; Using deodorant sprays or other feminine products, such as douches and powders, in the genital area can irritate the urethra.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Urinary tract infection (UTI)
+	</Title>
+	<Abstract>
+		Urinary tract infection (UTI) &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and possible home remedies.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00488" LinkType="Internal" ObjectID="4723B235-F3F0-E282-0063AC485F6995C7" Title="Urinalysis" Url="http://www.mayoclinic.com/health/urinalysis/MY00488" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00987" LinkType="Internal" ObjectID="2B761D3A-BB95-A7A7-A19FBEEA6E14AFD3" Title="Diaphragm" Url="http://www.mayoclinic.com/health/diaphragm/MY00987" />
+		<LinkItem ContentType="Answer" DocID="AN01145" LinkType="Internal" ObjectID="134F388F-4A5A-4D62-AFD6F0D973641F53" Title="Antibiotics and pregnancy: What&apos;s safe?" Url="http://www.mayoclinic.com/health/antibiotics-and-pregnancy/AN01145" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+	</RelatedLinksBox>
+</Disease>

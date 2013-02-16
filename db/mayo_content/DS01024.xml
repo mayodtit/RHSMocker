@@ -1,0 +1,270 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01024
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cyclospora/DS01024
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3114" Title="Food poisoning">
+							<Keyword MCVID="4297" Title="Cyclospora infection" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4CA11EFB-E7FF-0DBD-10231C2BF934738C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cyclospora infection
+			</MetaKeyword>
+			<MetaKeyword>
+				cyclospora
+			</MetaKeyword>
+			<MetaKeyword>
+				cyclospora cayetanensis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cyclospora infection causes watery, and sometimes explosive, diarrhea. The one-celled parasite that causes cyclospora infection can enter your body when you ingest contaminated food or water. Fresh produce is the culprit in many cases of cyclospora infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Because diarrhea can be caused by many things, it can be difficult to diagnose cyclospora infection. A specialized test is required to identify the cyclospora parasite in stool samples. Treatment for cyclospora infection is antibiotics. Food safety precautions may help to prevent the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people infected with the microscopic parasite that causes cyclospora infection develop no signs or symptoms. For others, signs and symptoms &amp;mdash; which usually begin within two to 11 days of eating contaminated food or drinking contaminated water &amp;mdash; may include:&amp;nbsp;&amp;nbsp; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery diarrhea&lt;/li&gt;
+	&lt;li&gt;Frequent and sometimes explosive bowel movements&lt;/li&gt;
+	&lt;li&gt;Bouts of diarrhea alternating with bouts of constipation&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+	&lt;li&gt;Flatulence&lt;/li&gt;
+	&lt;li&gt;Burping&lt;/li&gt;
+	&lt;li&gt;Stomach cramps&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;General feeling of unwellness (malaise)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The diarrhea may end by itself within a few days, or it may become chronic, lasting for weeks. If you have HIV or another condition that compromises your immune system, the infection can last for months if not treated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Many conditions can cause diarrhea and other gastrointestinal signs and symptoms. If you develop persistent diarrhea that lasts several days or recurs, contact your doctor so that he or she can identify the cause and recommend treatment. If you&apos;ve eaten a food that&apos;s been recalled because of a cyclospora outbreak, be sure to tell your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience dehydration due to diarrhea, see your doctor. Warning signs of dehydration include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sunken eyes&lt;/li&gt;
+	&lt;li&gt;Dry mouth and tongue&lt;/li&gt;
+	&lt;li&gt;Reduced production of tears&lt;/li&gt;
+	&lt;li&gt;Decreased urine output&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A one-celled parasite, Cyclospora cayetanensis, causes cyclospora infection. You get it by drinking water or eating food that&apos;s been contaminated by an infected person. 
+&lt;/p&gt;
+&lt;p&gt;
+No one knows exactly how cyclospora is transmitted. A person infected with cyclospora passes the parasite in stool. However, unlike some other foodborne parasites, cyclospora doesn&apos;t become infectious until days or weeks after it&apos;s passed in a bowel movement. So it&apos;s unlikely that you can get the infection directly from an infected person, such as a restaurant worker who doesn&apos;t wash his or her hands adequately after using the toilet. 
+&lt;/p&gt;
+&lt;p&gt;
+Before 1996, sporadic cases of cyclospora infection turned up only in people who traveled in developing countries and in those with HIV or another condition causing immune-system compromise. However, since 1995, lettuce, fresh basil and imported raspberries have been implicated in cyclospora outbreaks in the United States and Canada. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the past, people who traveled in developing countries were more likely to get cyclospora infection. These days, the infection is found worldwide, and anyone who ingests contaminated food or water can get it. However, despite outbreaks around the world, the risk of getting cyclospora infection is still low compared with other intestinal foodborne and waterborne illnesses. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The prolonged diarrhea of untreated cyclospora infection can cause dehydration. If you&apos;re an otherwise healthy adult, you can treat dehydration by drinking more fluids. Some people may need to be hospitalized to receive intravenous fluids because they&apos;re at higher risk of severe dehydration. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;People with compromised immune systems&lt;/li&gt;
+	&lt;li&gt;Infants and young children&lt;/li&gt;
+	&lt;li&gt;Older adults&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a mild case of cyclospora infection, you may not need to seek medical treatment because it will clear up by itself. However, you may want to call your doctor if the illness lasts more than a few days or if it appears to be causing dehydration. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about your past medical problems&lt;/li&gt;
+	&lt;li&gt;Details on recent travel abroad or exposure to contaminated foods&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of parents or siblings&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For cyclospora infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms? Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will I need any tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment approach? Are there any alternatives?&lt;/li&gt;
+	&lt;li&gt;Will I need to take medicine?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;What can I do at home to help ease my symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will need to know certain details about your illness to make a diagnosis. Be prepared to answer questions such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the illness begin?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms continuous or do they come and go?&lt;/li&gt;
+	&lt;li&gt;How often do you experience vomiting or diarrhea?&lt;/li&gt;
+	&lt;li&gt;Can you tell whether the vomit or diarrhea contains bile, mucus or blood?&lt;/li&gt;
+	&lt;li&gt;Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because there are so many possible causes of diarrhea and other gastrointestinal symptoms, diagnosis of cyclospora infection requires a laboratory test to identify the parasite in your stool. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for cyclospora infection is a combination antibiotic known as trimethoprim-sulfamethoxazole (Bactrim, Septra). For people who can&apos;t take sulfa, some evidence suggests that ciprofloxacin (Cipro) or nitazoxanide (Alinia) might be effective. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent or treat mild to moderate fluid loss from the severe diarrhea associated with cyclospora infection, it&apos;s generally adequate for healthy adults to drink water. Avoid coffee, tea and other drinks that contain caffeine and alcohol because they can increase dehydration. Fruit juice and soda can make diarrhea worse. 
+&lt;/p&gt;
+&lt;p&gt;
+For children and infants, you may want to use an oral rehydration solution, such as Pedialyte. Avoid taking anti-diarrheal medication, because it could interfere with your body&apos;s efforts to rid itself of the parasite. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When traveling to developing nations, it&apos;s essential to be careful about what you eat and drink. However, recent cyclospora infection outbreaks have been linked to foods imported to or grown in the United States and Canada. Even careful washing of these imported foods isn&apos;t enough to eliminate the parasite that causes the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+To keep track of what foods have been linked to recent outbreaks of cyclospora infection, you may want to periodically check the food safety alert section of the Food and Drug Administration&apos;s website. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cyclospora infection
+	</Title>
+	<Abstract>
+		Cyclospora infection &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this foodborne intestinal illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Answer" DocID="AN02188" LinkType="Internal" ObjectID="9BC86382-A109-1560-53271CDB6B22C3C7" Title="Is it safe to store food in takeout containers?" Url="http://www.mayoclinic.com/health/food-storage-safety/AN02188" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,277 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00751
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mammary-duct-ectasia/DS00751
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-02
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2374" Title="Breast">
+						<Keyword MCVID="2377" Title="Nipple conditions">
+							<Keyword MCVID="2679" Title="Mammary duct ectasia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BA24AC8F-E7FF-0DBD-123A08BB3ABBBDCD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mammary duct ectasia
+			</MetaKeyword>
+			<MetaKeyword>
+				breast
+			</MetaKeyword>
+			<MetaKeyword>
+				nipple discharge
+			</MetaKeyword>
+			<MetaKeyword>
+				periductal mastitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mammary duct ectasia (ek-TAY-zhuh) occurs when a milk duct beneath your nipple becomes wider (dilated), the duct walls thicken and the duct fills with fluid. The milk duct can then become blocked or clogged with a thick, sticky substance. The condition often causes no symptoms, but some women may have nipple discharge, breast tenderness or inflammation of the clogged duct (periductal mastitis).
+&lt;/p&gt;
+&lt;p&gt;
+Your chance of developing mammary duct ectasia &amp;mdash; with or without inflammation &amp;mdash; increases with age. Mammary duct ectasia usually improves without treatment. However, if symptoms persist despite self-care measures, you may need antibiotics or possibly surgery to remove the affected milk duct.
+&lt;/p&gt;
+&lt;p&gt;
+Though it&apos;s normal to worry about any changes in your breasts, mammary duct ectasia and periductal mastisis aren&apos;t risk factors for breast cancer.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of mammary duct ectasia 
+" Caption="Mammary duct ectasia occurs when a milk duct beneath the nipple becomes wider (dilated) and filled with fluid. The milk duct can then become blocked or clogged with a thick, sticky substance. Mammary duct ectasia usually causes no signs or symptoms, but some women may have nipple discharge, breast tenderness or inflammation of the clogged duct.
+" Height="60" Title="Mammary duct ectasia" URI="/images/image_popup/thumbs/mcdc7_duct_ectasiathu.jpg" Width="60" />
+				<Image Alt="Illustration of mammary duct ectasia 
+" Caption="Mammary duct ectasia occurs when a milk duct beneath the nipple becomes wider (dilated) and filled with fluid. The milk duct can then become blocked or clogged with a thick, sticky substance. Mammary duct ectasia usually causes no signs or symptoms, but some women may have nipple discharge, breast tenderness or inflammation of the clogged duct.
+" Height="366" Title="Mammary duct ectasia" URI="/images/image_popup/mcdc7_duct_ectasia.jpg" Width="400" />
+				<HTML>
+					Mammary duct ectasia occurs when a milk duct beneath the nipple becomes wider (dilated) and filled with fluid. The milk duct can then become blocked or clogged with a thick, sticky substance. Mammary ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although mammary duct ectasia often doesn&apos;t cause signs and symptoms, you may experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A dirty white, greenish or black nipple discharge from one or both nipples&lt;/li&gt;
+	&lt;li&gt;Tenderness in the nipple or surrounding breast tissue&lt;/li&gt;
+	&lt;li&gt;Redness of the nipple and sometimes the surrounding area&lt;/li&gt;
+	&lt;li&gt;A breast lump or thickening near the clogged duct&lt;/li&gt;
+	&lt;li&gt;A nipple that&apos;s turned inward (inverted)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A bacterial infection called mastitis also may develop in the affected milk duct and cause inflammation in the area around the nipple (areola) and fever. Signs and symptoms of mammary duct ectasia usually improve on their own.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+It&apos;s important for your doctor to promptly evaluate any changes in your breasts to rule out breast cancer. If you have symptoms of mammary duct ectasia &amp;mdash; especially unusual nipple discharge &amp;mdash; make an appointment with your doctor for evaluation.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inverted nipple
+" Caption="A nipple that&apos;s always been turned inward (inverted) usually isn&apos;t a medical concern. But a nipple that has recently turned inward should be checked by a doctor.
+" Height="60" Title="Inverted nipple" URI="/images/image_popup/thumbs/ans7_inverted_nipplethu.jpg" Width="60" />
+				<Image Alt="Illustration of inverted nipple
+" Caption="A nipple that&apos;s always been turned inward (inverted) usually isn&apos;t a medical concern. But a nipple that has recently turned inward should be checked by a doctor.
+" Height="427" Title="Inverted nipple" URI="/images/image_popup/ans7_inverted_nipple.jpg" Width="400" />
+				<HTML>
+					A nipple that&apos;s always been turned inward (inverted) usually isn&apos;t a medical concern. But a nipple that has recently turned inward should be checked by a doctor.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your breasts are made up of connective tissues that include a system of milk ducts &amp;mdash; tiny passages that carry milk to the nipples. Mammary duct ectasia occurs when a milk duct beneath the nipple becomes wider (dilated), blocked or clogged with a sticky substance and inflamed.
+&lt;/p&gt;
+&lt;p&gt;
+Experts don&apos;t know exactly what causes mammary duct ectasia. Some speculate the cause to be associated with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breast tissue changes due to aging.&lt;/strong&gt; As you age, the composition of your breast tissue changes from mostly glandular to mostly fatty in a process called involution. These normal breast changes can sometimes lead to blockage of a milk duct and the inflammation associated with mammary duct ectasia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Cigarette smoking may be associated with widening of milk ducts, which can lead to inflammation and, possibly, mammary duct ectasia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nipple inversion.&lt;/strong&gt; A newly inverted nipple may obstruct milk ducts, causing inflammation and infection. A nipple that&apos;s newly inverted also could be a sign of a more serious underlying condition, such as cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of mammary duct ectasia are usually minor and often more bothersome than serious. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nipple discharge.&lt;/strong&gt; Nipple discharge caused by mammary duct ectasia can be frustrating. Fluid leaking from your nipples can cause embarrassing wetness and staining on your clothes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast discomfort.&lt;/strong&gt; Mammary duct ectasia can cause redness, swelling and tenderness around your nipples.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; A bacterial infection (periductal mastitis) may develop in the affected milk duct, sometimes causing you to have pain in or around your nipple or to feel ill and have a fever. Untreated infection could lead to an abscess &amp;mdash; a collection of pus in your breast tissue &amp;mdash; which may require surgical drainage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Concern about breast cancer.&lt;/strong&gt; When you notice a change in your breast, you may worry that it&apos;s a sign of breast cancer, especially if you develop a hard lump around a milk duct affected by mammary duct ectasia. While it&apos;s important to get signs and symptoms checked out promptly, remember that mammary duct ectasia does not increase your risk of breast cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For evaluation of a new breast lump or changes in your breast, you&apos;re likely to start by seeing your primary health care provider. In some cases, based on a clinical breast exam or findings on an imaging test, you may be referred to a breast health specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+The initial evaluation will focus on your medical history, as well as signs and symptoms you&apos;re experiencing, including their relation to your menstrual cycle. To prepare for this discussion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take note of all your symptoms,&lt;/strong&gt; even if they seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Review key personal information,&lt;/strong&gt; including major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you regularly take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor,&lt;/strong&gt; listing questions from most important to least important, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For mammary duct ectasia, here are some questions you might ask your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Will this condition resolve itself, or will I need treatment?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is there an over-the-counter medication I can take for pain relief?&lt;/li&gt;
+	&lt;li&gt;What self-care measures can I try?&lt;/li&gt;
+	&lt;li&gt;Do you have printed information I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you experienced symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Do you experience breast pain? How severe?&lt;/li&gt;
+	&lt;li&gt;Do you have nipple discharge? How would you describe the color, consistency and amount?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms occur in one or both breasts?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever?&lt;/li&gt;
+	&lt;li&gt;When was your last mammogram?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with a precancerous breast condition?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a breast biopsy or been diagnosed with a benign breast condition?&lt;/li&gt;
+	&lt;li&gt;Has your mother, a sister or anyone else in your family had breast cancer?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Based on information you provide to your doctor and the results of a physical exam, you might need to have additional tests, which may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diagnostic ultrasound of the nipple and areola.&lt;/strong&gt; An ultrasound uses sound waves to make images of breast tissue. It allows your doctor to evaluate the milk ducts beneath your nipple. A diagnostic ultrasound lets your doctor focus on an area of suspicion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diagnostic mammography.&lt;/strong&gt; Mammography provides X-ray images of your breast and can help your doctor evaluate your breast tissue. A diagnostic mammogram provides more detailed views of a specific area of your breast than a screening mammogram does.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mammary duct ectasia often improves without treatment. If your symptoms are bothersome, however, treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Your doctor may prescribe a 10- to 14-day course of antibiotics to treat any infection caused by mammary duct ectasia. Even if your symptoms greatly improve or disappear completely, it&apos;s important to take the entire course of medication. While waiting for the antibiotics to take effect, you may want to take a mild pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others), as needed for breast discomfort. Follow your doctor&apos;s recommendation on which pain reliever is best for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If antibiotics and self-care methods don&apos;t work, the affected milk duct may be surgically removed. This procedure is done through a tiny incision at the edge of the colored tissue around your nipple (areola). However, surgery rarely is needed for mammary duct ectasia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To relieve discomfort associated with mammary duct ectasia, you might try these self-care measures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply warm compresses.&lt;/strong&gt; A warm compress applied to your nipple area may reduce pain and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a breast pad.&lt;/strong&gt; If you have nipple discharge, wear a breast pad or nursing pad to keep the fluid from leaking through your clothing. These pads are available at drugstores and many retail stores that sell baby-care products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a support bra.&lt;/strong&gt; Wear a bra with good support to minimize breast discomfort. A well-fitting bra can also help keep a breast pad in place to absorb nipple discharge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep on the opposite side.&lt;/strong&gt; Try to avoid sleeping on the same side of your body as your affected breast. This can help prevent further discomfort and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking may make it harder to treat an infection, and ongoing smoking may result in recurrent infections or an abscess.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mammary duct ectasia
+	</Title>
+	<Abstract>
+		Mammary duct ectasia &amp;mdash; Comprehensive overview covers symptoms, causes of this noncancerous breast condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+	</RelatedLinksBox>
+</Disease>

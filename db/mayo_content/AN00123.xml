@@ -1,0 +1,115 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00123
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cervical-cysts/AN00123
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-26
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2048" Title="Cervix">
+						<Keyword MCVID="2661" Title="Cervical cysts" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FF9A7536-DCE3-44CF-8C16DF266F4A132F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cervical cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				nabothian cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				nabothian cysts
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Cervical cysts &amp;mdash; mucus-filled lumps that form on the cervix &amp;mdash; are rarely cancerous. These cysts form when normal tissue on the outer part of the cervix (squamous epithelium) grows over the glandular, mucus-producing tissue of the inner part of the cervix (endocervical canal), trapping mucus and forming cysts. 
+&lt;/p&gt;
+&lt;p&gt;
+Cervical cysts often are discovered incidentally during a pelvic exam. They generally don&apos;t cause symptoms and require no treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If a cervical cyst looks unusual to your doctor, or you also have signs and symptoms that suggest cervical cancer &amp;mdash; for instance, abnormal vaginal bleeding or discharge, pelvic pain, or pain during intercourse &amp;mdash; your doctor may perform a biopsy of your cervix. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Medical illustration of a cervical cyst 
+" Caption="A cervical cyst appears as a fluid-filled lump on the cervix &amp;mdash; the neck-shaped end of the uterus that extends into the vagina. Cervical cysts are usually harmless and often resolve on their own.
+" Height="60" Title="Cervical cyst" URI="/images/image_popup/thumbs/ans7_cervical_cystthu.jpg" Width="60" />
+				<Image Alt="Medical illustration of a cervical cyst 
+" Caption="A cervical cyst appears as a fluid-filled lump on the cervix &amp;mdash; the neck-shaped end of the uterus that extends into the vagina. Cervical cysts are usually harmless and often resolve on their own.
+" Height="300" Title="Cervical cyst" URI="/images/image_popup/ans7_cervical_cyst.jpg" Width="400" />
+				<HTML>
+					A cervical cyst appears as a fluid-filled lump on the cervix &amp;mdash; the neck-shaped end of the uterus that extends into the vagina. Cervical cysts are usually harmless and often resolve on their own....
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Cervical cysts: Can they be cancerous?
+	</Title>
+	<Abstract>
+		Most cervical cysts cause no signs or symptoms and require no treatment.
+	</Abstract>
+	<Question>
+		Can cervical cysts be cancerous?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

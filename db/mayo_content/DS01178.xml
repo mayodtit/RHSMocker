@@ -1,0 +1,296 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01178
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sun-allergy/DS01178
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-28
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4692" Title="Sun allergy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			00EB5EED-0DB9-A1F0-7273C233F2338A83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sun allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				sun allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				sun allergy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				sun allergy symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				polymorphic light eruption
+			</MetaKeyword>
+			<MetaKeyword>
+				PMLE
+			</MetaKeyword>
+			<MetaKeyword>
+				actinic prurigo
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic actinic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				solar urticaria
+			</MetaKeyword>
+			<MetaKeyword>
+				urticaria
+			</MetaKeyword>
+			<MetaKeyword>
+				sun poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				sunburn
+			</MetaKeyword>
+			<MetaKeyword>
+				sun reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sun allergy is a term often used to describe a number of conditions in which an itchy red rash occurs on skin that&apos;s been exposed to sunlight. The most common form of sun allergy is polymorphic light eruption, also known as sun poisoning.
+&lt;/p&gt;
+&lt;p&gt;
+Some people have a hereditary type of sun allergy, while others develop signs and symptoms only when triggered by another factor &amp;mdash; such as certain types of medications or skin exposure to plants such as limes or wild parsnip. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases of sun allergy may resolve without treatment. More severe cases may require steroid creams or pills. People who have a severe sun allergy may need to take preventative measures and wear sun-protective clothing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The appearance of skin affected by sun allergy can vary widely, depending on the disorder that&apos;s causing the problem. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Itching or pain&lt;/li&gt;
+	&lt;li&gt;Tiny bumps that may merge into raised patches&lt;/li&gt;
+	&lt;li&gt;Scaling, crusting or bleeding&lt;/li&gt;
+	&lt;li&gt;Blisters or hives&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms usually occur only on skin that has been exposed to the sun and typically develop within minutes to hours after sun exposure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See a doctor if you have unusual, bothersome skin reactions after exposure to sunlight. For severe or persistent symptoms, you may need to see a doctor who specializes in diagnosing and treating skin disorders (dermatologist). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="60" Title="Polymorphous light eruption" URI="/images/image_popup/thumbs/sn7_pmlechestthu.jpg" Width="60" />
+				<Image Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="400" Title="Polymorphous light eruption" URI="/images/image_popup/sn7_pmlechest.jpg" Width="400" />
+				<HTML>
+					Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain medications, chemicals and medical conditions can make the skin more sensitive to the sun. It isn&apos;t clear why some people have a sun allergy and others don&apos;t. Inherited traits may play a role. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for having an allergic reaction to sunlight depend on your particular condition. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Anyone can have a sun allergy, but certain sun allergies are most common in people of certain racial backgrounds. For example, the most common type of sun allergy (polymorphic light eruption) occurs mostly in Caucasians. A less common but more severe variety of sun allergy is most common in Native Americans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain substances.&lt;/strong&gt; Some skin allergy symptoms are triggered when your skin is exposed to a certain substance and then to sunlight. Some common substances responsible for this type of reaction include fragrances, disinfectants and even certain chemicals used in sunscreens.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking certain medications.&lt;/strong&gt; A number of medications can make the skin sunburn more quickly &amp;mdash; including tetracycline antibiotics, sulfa-based drugs and pain relievers such as ketoprofen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having another skin condition.&lt;/strong&gt; Having atopic dermatitis or another type of dermatitis increases your risk of having a sun allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having relatives with a sun allergy.&lt;/strong&gt; You&apos;re more likely to have a sun allergy if you have a sibling or parent with a sun allergy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, when you call to set up an appointment, you may be referred to a doctor who specializes in skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance. For example, if you&apos;re going to have tests that check for a reaction to ultraviolet light (phototesting), your doctor may ask you to stop taking certain medications beforehand.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long after exposure to the sun did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;What type of symptoms did you experience?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms worsened or gotten better?&lt;/li&gt;
+	&lt;li&gt;Have you ever had these types of symptoms before?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Examples may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What parts of your body are affected?&lt;/li&gt;
+	&lt;li&gt;Exactly what does the affected skin look like?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How long does your skin reaction last?&lt;/li&gt;
+	&lt;li&gt;Do you have itching or pain?&lt;/li&gt;
+	&lt;li&gt;Does your skin react just to direct sunlight or also to sunlight shining through window glass?&lt;/li&gt;
+	&lt;li&gt;Does anyone else in your family have skin reactions to sunlight or other allergic skin conditions?&lt;/li&gt;
+	&lt;li&gt;What products do you use on your skin?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, doctors can diagnose sun allergy simply by looking at your skin. But if the diagnosis isn&apos;t clear-cut, you may need tests to help identify what&apos;s going on. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultraviolet (UV) light testing.&lt;/strong&gt; Also called phototesting, this exam is used to see how your skin reacts to different wavelengths of ultraviolet light from a special type of lamp. Determining which particular kind of UV light causes a reaction can help pinpoint which sun allergy you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Photopatch testing.&lt;/strong&gt; This test shows whether your sun allergy is caused by a sensitizing substance applied to your skin before go into the sun. In the test, identical patches of common sun allergy triggers are applied directly to your skin, typically on your back. A day later, one of the areas receives a measured dose ultraviolet rays from a sun lamp. If a reaction occurs only on the light-exposed area, it&apos;s probably linked to the substance being tested. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests and skin samples.&lt;/strong&gt; These tests usually aren&apos;t needed. However, your doctor may order one of these tests if he or she suspects your symptoms might be caused by an underlying condition such as lupus instead of a sun allergy. With these tests, a blood sample or a skin sample (biopsy) is taken for further examination in a laboratory.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the particular type of sun allergy you have. For mild cases, simply avoiding the sun for a few days may be enough to resolve the signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Creams containing corticosteroids are available over-the-counter and in stronger prescription form. For a severe allergic skin reaction, your doctor might prescribe a short course of corticosteroid pills, such as prednisone. 
+&lt;/p&gt;
+&lt;p&gt;
+The malaria medication hydroxychloroquine (Plaquenil) may ease symptoms of some types of sun allergies.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;If you have a severe sun allergy, your doctor might suggest gradually getting your skin used to sunlight each spring. In phototherapy, a special lamp is used to shine ultraviolet light on areas of your body that are often exposed to the sun. It&apos;s generally done a few times a week over a period of several weeks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help relieve sun allergy symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sun exposure.&lt;/strong&gt; Most sun allergy symptoms improve quickly, within hours to a day or two, when the affected areas are no longer exposed to sunlight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply skin moisturizers.&lt;/strong&gt; Moisturizing skin lotions can help relieve irritation caused by dry, scaly skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use soothing skin remedies.&lt;/strong&gt; Home remedies that may help include calamine lotion and aloe vera.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a sun allergy or an increased sensitivity to the sun, you can help prevent a reaction by taking these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your time in the sun.&lt;/strong&gt; Stay out of the sun between 10 a.m. and 4 p.m. when the sun is brightest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sudden exposure to lots of sunlight.&lt;/strong&gt; Many people have sun allergy symptoms when they are exposed to more sunlight in the spring or summer. Gradually increase the amount of time you spend outdoors so that your skin cells have time to adapt to sunlight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear sunglasses and protective clothing.&lt;/strong&gt; Long-sleeved shirts and wide-brimmed hats can help protect your skin from sun exposure. Avoid fabrics that are thin or have a loose weave &amp;mdash; UV rays can pass through them. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply sunscreen frequently.&lt;/strong&gt; Use broad-spectrum sunscreen with a sun protection factor (SPF) of 30 or higher on exposed skin. Reapply sunscreen every two hours.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sun allergy
+	</Title>
+	<Abstract>
+		Sun allergy &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of an allergic reaction to sunlight.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02071" LinkType="Internal" ObjectID="9FDB729C-F8B4-E6C2-8DE4A277C835F335" Title="Sun rash: Causes and prevention" Url="http://www.mayoclinic.com/health/sun-rash/AN02071" />
+		<LinkItem ContentType="Disease" DocID="DS00911" LinkType="Internal" ObjectID="62D81BD0-E7FF-0DBD-16ACD97DF82C36D2" Title="Polymorphous light eruption" Url="http://www.mayoclinic.com/health/polymorphous-light-eruption/DS00911" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,373 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00702
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ehrlichiosis/DS00702
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-29
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2558" Title="Ehrlichiosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8FDB29D3-2A5D-9994-EA6E04BB56EEBE62
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ehrlichiosis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaplasmosis
+			</MetaKeyword>
+			<MetaKeyword>
+				tick-borne illness
+			</MetaKeyword>
+			<MetaKeyword>
+				deer tick
+			</MetaKeyword>
+			<MetaKeyword>
+				lyme
+			</MetaKeyword>
+			<MetaKeyword>
+				ticks
+			</MetaKeyword>
+			<MetaKeyword>
+				human granulocytic ehrlichiosis
+			</MetaKeyword>
+			<MetaKeyword>
+				granulocytotropic
+			</MetaKeyword>
+			<MetaKeyword>
+				hga
+			</MetaKeyword>
+			<MetaKeyword>
+				hge
+			</MetaKeyword>
+			<MetaKeyword>
+				monocytotropic
+			</MetaKeyword>
+			<MetaKeyword>
+				monocytic
+			</MetaKeyword>
+			<MetaKeyword>
+				hme
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ehrlichiosis is a bacterial illness transmitted by ticks that causes flu-like symptoms. The signs and symptoms of ehrlichiosis range from mild body aches to severe fever and usually appear within a week or two of a tick bite. If treated quickly with appropriate antibiotics, ehrlichiosis generally improves within a few days. 
+&lt;/p&gt;
+&lt;p&gt;
+Another tick-borne infection &amp;mdash; anaplasmosis &amp;mdash; is closely related to ehrlichiosis. But the two have distinct differences and are caused by different microorganisms. 
+&lt;/p&gt;
+&lt;p&gt;
+The best way to prevent these infections is to avoid tick bites. Tick repellents, thorough body checks after being outside and proper removal of ticks give you the best chance of avoiding ehrlichiosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If a tick carrying the bacterium that causes ehrlichiosis has been feeding on you for at least 24 hours, the following flu-like signs and symptoms may appear within five to 14 days of the bite: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Joint pain &lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people infected with ehrlichiosis may have symptoms so mild that they never seek medical attention, and the body fights off the illness on its own. But untreated ehrlichiosis with persistent symptoms can result in an illness serious enough to require hospitalization. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+It may take 14 days after a tick bite for you to begin showing signs and symptoms of ehrlichiosis. If you get symptoms within two weeks of a tick bite, see your doctor. If you experience any of the above symptoms soon after you&apos;ve been in an area known to have ticks, see your doctor. Be sure to tell your doctor that you recently received a tick bite or visited an area with a high population of ticks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ehrlichiosis is caused by Ehrlichia chaffeensis bacteria and is transmitted primarily by the Lone Star tick. 
+&lt;/p&gt;
+&lt;p&gt;
+Ticks feed on blood, latching onto a host and feeding until they&apos;re swollen to many times their normal size. During feeding, ticks that carry disease-producing bacteria can transmit the bacteria to a healthy host. Or they may pick up bacteria themselves if the host, such as a white-tailed deer or a coyote, is infected. 
+&lt;/p&gt;
+&lt;p&gt;
+Usually, to get ehrlichiosis, you must be bitten by an infected tick. The bacteria enter your skin through the bite and eventually make their way into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+Before bacteria can be transmitted, a tick must be attached and feeding for at least 24 hours. An attached tick with a swollen appearance may indicate that the tick has been feeding long enough to have transmitted bacteria. Removing ticks as soon as possible may prevent infection. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible that ehrlichiosis may be transmitted through blood transfusions, from mother to fetus and through direct contact with an infected, slaughtered animal. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a Lone Star tick 
+" Caption="The adult female Lone Star tick displays a characteristic white spot on its back. 
+" Height="60" Title="Lone Star tick" URI="/images/image_popup/thumbs/mcdc7_lonestarthu.jpg" Width="60" />
+				<Image Alt="Photo of a Lone Star tick 
+" Caption="The adult female Lone Star tick displays a characteristic white spot on its back. 
+" Height="445" Title="Lone Star tick" URI="/images/image_popup/mcdc7_lonestar.jpg" Width="400" />
+				<HTML>
+					The adult female Lone Star tick displays a characteristic white spot on its back. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ehrlichiosis spreads when an infected tick, primarily the Lone Star tick, bites you and feeds on you for 24 hours or longer. The following factors may increase your risk of getting tick-borne infections: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being outdoors in warm weather.&lt;/strong&gt; Most cases of ehrlichiosis occur in the spring and summer months when populations of the Lone Star tick are at their peak and people are outside for activities such as hiking, golfing, gardening and camping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in or visiting an area with a high tick population.&lt;/strong&gt; You are at greater risk if you are in an area with a high Lone Star tick population. In the United States, Lone Star ticks are most common in southeastern, eastern and south-central states.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Ehrlichiosis infections are more common in males, likely because of increased time outdoors for work and recreation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ehrlichiosis can have serious effects on an otherwise healthy adult or child if you don&apos;t seek prompt treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+People with weakened immune systems are at an even higher risk of more-serious and potentially life-threatening consequences. Serious complications of untreated infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+	&lt;li&gt;Respiratory failure&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your primary care physician or possibly an emergency room doctor, depending on the severity of your signs and symptoms. However, you may then be referred to a doctor who specializes in infectious diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time before your appointment to prepare, it&apos;s helpful to have certain information at hand. Here&apos;s what you can do to help get ready for your appointment, and what you can expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent travel to areas where ticks might be common.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking, with dose information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For erhlichiosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did a tick bite cause these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Does this infection have lasting effects?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Can I get this infection again from another tick bite?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent this type of infection in the future?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor any other relevant questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently?&lt;/li&gt;
+	&lt;li&gt;Have you been hiking, golfing or participating in other outdoor activities recently?&lt;/li&gt;
+	&lt;li&gt;Have you found any ticks on you? If yes, when?&lt;/li&gt;
+	&lt;li&gt;Have you had any problems with antibiotics in the past?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tick-borne infections are difficult to diagnose based solely on signs and symptoms because the signs and symptoms, such as fever and muscle aches, are similar to many other common conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Abnormal findings on a number of blood tests, combined with your history of possible exposure, may lead your doctor to suspect a tick-borne illness. If you have ehrlichiosis, your blood tests will likely show: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A low white blood cell count &amp;mdash; these cells are the body&apos;s disease fighters&lt;/li&gt;
+	&lt;li&gt;A low platelet count &amp;mdash; platelets are essential to blood clotting&lt;/li&gt;
+	&lt;li&gt;Abnormal liver function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, there are other possible blood tests that may be done if you live in an area where they&apos;re available. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Polymerase chain reaction (PCR) test.&lt;/strong&gt; This test helps identify specific genes unique to ehrlichiosis. However, if you&apos;ve already started treatment, the results of this test may be affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Indirect fluorescent antibody (IFA) test.&lt;/strong&gt; This test, not used as commonly as the PCR test, measures the amount of antibody you have in your blood to the bacteria that causes ehrlichiosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you live in an area where ticks are common, your doctor may start you on antibiotics before the results of the blood tests return because earlier treatment results in a better outcome for some tick-borne diseases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects that you have ehrlichiosis or another tick-borne illness, you&apos;ll likely receive a prescription for the antibiotic doxycycline (Doryx, Periostat, others). You&apos;ll generally take the antibiotic for seven to 10 days and should see signs and symptoms begin to subside within two days. Your doctor may have you take antibiotics for a longer period if you&apos;re severely ill. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant, your doctor may prescribe the antibiotic rifampin (Rifadin, Rimactane) instead, because doxycycline isn&apos;t recommended during pregnancy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you find a tick on your body, don&apos;t be alarmed. If you remove the tick within 24 hours of its attachment, chances of transmission of ehrlichiosis or other tick-borne illnesses are slim. Follow these steps for safe removal of ticks: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use tweezers if possible.&lt;/strong&gt; Use a pair of flat-tipped tweezers or cover your hand with a tissue or glove to remove a tick. A tick&apos;s saliva and bodily fluids can carry the same bacterium that&apos;s found in their mouths and can enter your body through cuts or mucous membranes in your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove the tick slowly.&lt;/strong&gt; Grab the tick by its mouth parts where it has attached to your skin. Pull it up and out of your skin steadily and slowly without jerking or twisting it. If you pull too quickly or grab the tick by its body, the tick will likely separate, leaving the mouth parts in your skin. If the tick&apos;s mouth parts do break off in your skin, remove them with tweezers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Petroleum jelly and hot matches are not effective treatments for removing ticks or tick parts from your skin. These methods may make matters worse by triggering the tick to release more of its bodily fluids, and that could cause further infection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kill the tick.&lt;/strong&gt; Once you have successfully removed the tick, kill it by placing it in an alcohol solution. Don&apos;t crush the tick in your hands or with your fingernails because the fluids it releases may contain infected bacteria. If you want to save the tick for testing in the event you become ill, put it in a plastic bag or a jar, date the container and place it in the freezer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean the bite site.&lt;/strong&gt; Wash the bite site thoroughly with hand antiseptic or soap and water. And, thoroughly wash your hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor the bite site.&lt;/strong&gt; In the following days and weeks, watch the bite site for a rash and pay close attention to any signs and symptoms that develop such as fever, muscle aches or joint pain. If you notice anything out of the ordinary, see your doctor. If possible, bring the tick with you to your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to steer clear of ehrlichiosis is to avoid tick bites. 
+&lt;/p&gt;
+&lt;p&gt;
+Most ticks attach themselves to your lower legs and feet as you walk or work in grassy, wooded areas or overgrown fields. After a tick attaches to your body, it usually crawls upward to find a location to burrow into your skin. You may find a tick on the back of your knees, groin, underarms, ears, back of your neck and elsewhere. 
+&lt;/p&gt;
+&lt;p&gt;
+If you remove a tick in the first 24 hours after attachment, you reduce your risk of infection. While you may not be able to avoid going into areas where ticks are present, the following tips can make it easier to discover and remove ticks before they attach to your skin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear light-colored clothing.&lt;/strong&gt; Ticks are dark colored. Light clothing helps you and others notice ticks on your clothing before they can attach themselves to your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid open-toed shoes or sandals.&lt;/strong&gt; Ticks generally live in grassy areas or fields and can attach themselves to your feet and legs when you brush by. Wearing open-toed shoes or sandals increases the risk of a tick attaching to your bare skin and working its way under your clothes, out of sight from detection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply repellent.&lt;/strong&gt; Products containing DEET (Off! Deep Woods, Repel) or permethrin (Repel Permanone) often repel ticks. You can use DEET on your skin or clothing, but follow recommendations on the label. For children, use a DEET repellent containing less than 30 percent DEET, and use the product with caution. Don&apos;t use DEET on your or on children&apos;s hands or faces. Permethrin is for use on clothing only.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear long pants and a long-sleeved shirt.&lt;/strong&gt; The less skin you expose, the less area a tick has to bite. For added protection, wear shirts, pants and socks with permethrin impregnated in the fabric.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tuck your shirt into your pants and your pants into your socks.&lt;/strong&gt; By doing this, ticks will be less able to crawl onto exposed skin. However, be aware that if ticks get on your clothing, they&apos;ll climb upward until they reach exposed skin. Check your clothing often while you&apos;re outdoors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay on clear trails whenever possible.&lt;/strong&gt; Ticks prefer grassy areas and may be less common on well-beaten paths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pull back long hair.&lt;/strong&gt; Ticks may attach to dangling hair and work their way to your neck or scalp. Pulling back long hair helps you see ticks better on your neck and limits the chance of them attaching in the first place.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Inspect your body.&lt;/strong&gt; Do a complete visual inspection of your body. Be sure to check your head and neck because ticks will continue to climb upward until they find a suitable burrowing site. Use your hands to feel through your hair and in areas you can&apos;t see when you return from your outing or garden.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Ticks can be as small as a strawberry seed, and they usually attach to hidden skin. Be sure to check all the possibilities. A shower alone will rarely dislodge attached ticks from your head and body. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inspect your clothes and gear.&lt;/strong&gt; Check your clothes, backpacks and other gear when you get home to look for ticks that hitched a ride. Spinning your clothes in the dryer for 20 minutes will kill any ticks you missed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t forget your pets.&lt;/strong&gt; Do a daily inspection for ticks on any pet that spends time outdoors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ehrlichiosis
+	</Title>
+	<Abstract>
+		Ehrlichiosis &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this tick-borne disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

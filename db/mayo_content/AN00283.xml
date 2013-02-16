@@ -1,0 +1,119 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00283
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyperextended-knee/AN00283
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-10
+		</UpdateDate>
+		<PublicationDate>
+			2002-03-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2277" Title="Knee">
+						<Keyword MCVID="2628" Title="Hyperextended knee" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			882EDD4C-17A6-4501-8E3C5EE53DDECB91
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				knee
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperextended knee
+			</MetaKeyword>
+			<MetaKeyword>
+				knee pain
+			</MetaKeyword>
+			<MetaKeyword>
+				knee injury
+			</MetaKeyword>
+			<MetaKeyword>
+				sports injury
+			</MetaKeyword>
+			<MetaKeyword>
+				knee injuries
+			</MetaKeyword>
+			<MetaKeyword>
+				torn acl
+			</MetaKeyword>
+			<MetaKeyword>
+				acl injury
+			</MetaKeyword>
+			<MetaKeyword>
+				acl tear
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A hyperextended knee occurs when the knee is bent backward, often as a result of landing wrong after a jump. A hyperextended knee can damage ligaments, cartilage and other stabilizing structures in the knee. 
+&lt;/p&gt;
+&lt;p&gt;
+Young children have softer bones because they&apos;re still growing, so a hyperextended knee can result in a chip of bone being pulled away from the main bone when the ligaments stretch too far. In older children and adults, forceful hyperextension may tear one of the knee ligaments, particularly the anterior cruciate ligament (ACL). 
+&lt;/p&gt;
+&lt;p&gt;
+A knee injury severe enough to cause swelling, pain or instability should be evaluated by a doctor immediately. Even if the injury doesn&apos;t need surgical repair, physical therapy may be needed to help restore leg strength and stability. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hyperextended knee: Cause of serious injury?
+	</Title>
+	<Abstract>
+		A hyperextended knee may tear or detach some of the ligaments in the knee.
+	</Abstract>
+	<Question>
+		My daughter hyperextended her knee yesterday at school. Can this injury be serious?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+	</RelatedLinksBox>
+</Answer>

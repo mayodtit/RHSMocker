@@ -1,0 +1,641 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00178
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/high-blood-cholesterol/DS00178
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1744" Title="High blood cholesterol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BF6A0C4C-585D-48D0-9E5A06D9FB07644A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				dietary cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				hypercholesterolemia
+			</MetaKeyword>
+			<MetaKeyword>
+				fat
+			</MetaKeyword>
+			<MetaKeyword>
+				triglycerides
+			</MetaKeyword>
+			<MetaKeyword>
+				lipids
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				plaques
+			</MetaKeyword>
+			<MetaKeyword>
+				plaque
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol-lowering drugs
+			</MetaKeyword>
+			<MetaKeyword>
+				metabolic syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				triglicerides
+			</MetaKeyword>
+			<MetaKeyword>
+				colesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				high colesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				tryglicerides
+			</MetaKeyword>
+			<MetaKeyword>
+				cholestrol
+			</MetaKeyword>
+			<MetaKeyword>
+				tryglycerides
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesteral
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol guidelines
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperlipidemia
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease risk
+			</MetaKeyword>
+			<MetaKeyword>
+				lipidemia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholesterol is a waxy substance that&apos;s found in the fats (lipids) in your blood. While your body needs cholesterol to continue building healthy cells, having high cholesterol can increase your risk of heart disease.
+&lt;/p&gt;
+&lt;p&gt;
+When you have high cholesterol, you may develop fatty deposits in your blood vessels. Eventually, these deposits make it difficult for enough blood to flow through your arteries. Your heart may not get as much oxygen-rich blood as it needs, which increases the risk of a heart attack. Decreased blood flow to your brain can cause a stroke.
+&lt;/p&gt;
+&lt;p&gt;
+High cholesterol (hypercholesterolemia) can be inherited, but it&apos;s often the result of unhealthy lifestyle choices, and thus preventable and treatable. A healthy diet, regular exercise and sometimes medication can go a long way toward reducing high cholesterol.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High cholesterol has no symptoms. A blood test is the only way to detect high cholesterol.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Ask your doctor for a baseline cholesterol test at age 20 and then have your cholesterol retested at least every five years. If your test results aren&apos;t within desirable ranges, your doctor may recommend more frequent measurements. Your doctor may also suggest you have more frequent tests if you have a family history of high cholesterol, heart disease or other risk factors, such as smoking, diabetes or high blood pressure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholesterol is carried through your blood, attached to proteins. This combination of proteins and cholesterol is called a lipoprotein. You may have heard of different types of cholesterol, based on what type of cholesterol the lipoprotein carries. They are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low-density lipoprotein (LDL).&lt;/strong&gt; LDL, or &quot;bad,&quot; cholesterol transports cholesterol particles throughout your body. LDL cholesterol builds up in the walls of your arteries, making them hard and narrow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Very-low-density lipoprotein (VLDL).&lt;/strong&gt; This type of lipoprotein contains the most triglycerides, a type of fat, attached to the proteins in your blood. VLDL cholesterol makes LDL cholesterol larger in size, causing your blood vessels to narrow. If you&apos;re taking cholesterol-lowering medication but have a high VLDL level, you may need additional medication to lower your triglycerides.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High-density lipoprotein (HDL).&lt;/strong&gt; HDL, or &quot;good,&quot; cholesterol picks up excess cholesterol and takes it back to your liver.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Factors within your control &amp;mdash; such as inactivity, obesity and an unhealthy diet &amp;mdash; contribute to high LDL cholesterol and low HDL cholesterol. Factors beyond your control may play a role, too. For example, your genetic makeup may keep cells from removing LDL cholesterol from your blood efficiently or cause your liver to produce too much cholesterol.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re more likely to have high cholesterol that can lead to heart disease if you have any of these risk factors:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Cigarette smoking damages the walls of your blood vessels, making them likely to accumulate fatty deposits. Smoking may also lower your level of HDL, or &quot;good,&quot; cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Having a body mass index (BMI) of 30 or greater puts you at risk of high cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor diet.&lt;/strong&gt; Foods that are high in cholesterol, such as red meat and full-fat dairy products, will increase your total cholesterol. Eating saturated fat, found in animal products, and trans fats, found in some commercially baked cookies and crackers, also can raise your cholesterol level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of exercise.&lt;/strong&gt; Exercise helps boost your body&apos;s HDL &quot;good&quot; cholesterol while lowering your LDL &quot;bad&quot; cholesterol. Not getting enough exercise puts you at risk of high cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Increased pressure on your artery walls damages your arteries, which can speed the accumulation of fatty deposits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; High blood sugar contributes to higher LDL cholesterol and lower HDL cholesterol. High blood sugar also damages the lining of your arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of heart disease.&lt;/strong&gt; If a parent or sibling developed heart disease before age 55, high cholesterol levels place you at a greater than average risk of developing heart disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High cholesterol can cause atherosclerosis, a dangerous accumulation of cholesterol and other deposits on the walls of your arteries. These deposits (plaques) can reduce blood flow through your arteries, which can cause complications, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest pain.&lt;/strong&gt; If the arteries that supply your heart with blood (coronary arteries) are affected, you may have chest pain (angina) and other symptoms of coronary artery disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; If plaques tear or rupture, a blood clot may form at the plaque-rupture site &amp;mdash; blocking the flow of blood or breaking free and plugging an artery downstream. If blood flow to part of your heart stops, you&apos;ll have a heart attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; Similar to a heart attack, if blood flow to part of your brain is blocked by a blood clot, a stroke occurs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="60" Title="Development of atherosclerosis" URI="/images/image_popup/thumbs/mcdc7_atherosclerosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="479" Title="Development of atherosclerosis" URI="/images/image_popup/mcdc7_atherosclerosis.jpg" Width="400" />
+				<HTML>
+					Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have high cholesterol, or are worried about having high cholesterol because of a strong family history, make an appointment with your family doctor to have your cholesterol level checked.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. For a cholesterol test, you will likely have to avoid eating or drinking anything (other than water) for nine to 12 hours before the blood sample is taken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; High cholesterol itself has no symptoms, but high cholesterol is a risk factor for heart disease. Letting your doctor know if you have symptoms such as chest pains or shortness of breath can help your doctor decide how aggressively your high cholesterol needs to be treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of high cholesterol, heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes, as well as exposure to other cardiac risks, such as a personal history of smoking or exposure to family members who smoke (secondary exposure).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already exercise or eat a healthy diet, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For high cholesterol, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often do I need a cholesterol test?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;If I need medication, is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a family history of high cholesterol, high blood pressure, or heart disease or strokes?&lt;/li&gt;
+	&lt;li&gt;What are your diet and exercise habits like?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? Are you or were you around other smokers?&lt;/li&gt;
+	&lt;li&gt;Have you had a cholesterol test before? If so, when was your last test? What were your cholesterol levels?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+It&apos;s never too early to make healthy lifestyle changes, such as quitting smoking, eating healthy foods and becoming more physically active. These are primary lines of defense against high cholesterol and its complications, including heart attack and stroke.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A blood test to check cholesterol levels &amp;mdash; called a lipid panel or lipid profile &amp;mdash; typically reports: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Total cholesterol&lt;/li&gt;
+	&lt;li&gt;LDL cholesterol&lt;/li&gt;
+	&lt;li&gt;HDL cholesterol&lt;/li&gt;
+	&lt;li&gt;Triglycerides &amp;mdash; a type of fat in the blood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For the most accurate measurements, don&apos;t eat or drink anything (other than water) for nine to 12 hours before the blood sample is taken. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Interpreting the numbers&lt;/strong&gt;&lt;br /&gt;
+Cholesterol levels are measured in milligrams (mg) of cholesterol per deciliter (dL) of blood in the United States and some other countries. Canada and most European countries measure cholesterol in millimoles (mmol) per liter (L) of blood. Consider these general guidelines when you get your lipid panel (cholesterol test) results back to see if your cholesterol falls in ideal levels. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;Total cholesterol&lt;/strong&gt;&lt;br /&gt;
+			(U.S. and some other countries)&lt;/th&gt;&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;Total cholesterol*&lt;/strong&gt;&lt;br /&gt;
+			(Canada and most of Europe) &lt;/th&gt;&lt;th width=&quot;30%&quot;&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 200 mg/dL&lt;/td&gt;
+			&lt;td&gt;Below 5.2 mmol/L&lt;/td&gt;
+			&lt;td&gt;Best&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;200-239 mg/dL&lt;/td&gt;
+			&lt;td&gt;5.2-6.2 mmol/L&lt;/td&gt;
+			&lt;td&gt;Borderline high&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;240 mg/dL and above&lt;/td&gt;
+			&lt;td&gt;Above 6.2 mmol/L&lt;/td&gt;
+			&lt;td&gt;High&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;LDL cholesterol&lt;/strong&gt;&lt;br /&gt;
+			(U.S. and some other countries)&lt;/th&gt;&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;LDL cholesterol*&lt;/strong&gt;&lt;br /&gt;
+			(Canada and most of Europe)&lt;/th&gt;&lt;th width=&quot;30%&quot;&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 70 mg/dL&lt;/td&gt;
+			&lt;td&gt;Below 1.8 mmol/L&lt;/td&gt;
+			&lt;td&gt;Best for people with heart disease&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Below 100 mg/dL&lt;/td&gt;
+			&lt;td&gt;Below 2.6 mmol/L&lt;/td&gt;
+			&lt;td&gt;Best for people at risk of heart disease&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;100-129 mg/dL&lt;/td&gt;
+			&lt;td&gt;2.6-3.3 mmol/L&lt;/td&gt;
+			&lt;td&gt;Near ideal&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;130-159 mg/dL&lt;/td&gt;
+			&lt;td&gt;3.4-4.1 mmol/L&lt;/td&gt;
+			&lt;td&gt;Borderline high&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;160-189 mg/dL&lt;/td&gt;
+			&lt;td&gt;4.1-4.9 mmol/L&lt;/td&gt;
+			&lt;td&gt;High&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;190 mg/dL and above&lt;/td&gt;
+			&lt;td&gt;Above 4.9 mmol/L&lt;/td&gt;
+			&lt;td&gt;Very high&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;HDL cholesterol&lt;/strong&gt;&lt;br /&gt;
+			(U.S. and some other countries)&lt;/th&gt;&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;HDL cholesterol*&lt;/strong&gt;&lt;br /&gt;
+			(Canada and most of Europe)&lt;/th&gt;&lt;th width=&quot;30%&quot;&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 40 mg/dL (men)&lt;br /&gt;
+			Below 50 mg/dL (women)&lt;/td&gt;
+			&lt;td&gt;Below 1 mmol/L (men)&lt;br /&gt;
+			Below 1.3 mmol/L (women)&lt;/td&gt;
+			&lt;td&gt;Poor&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;50-59 mg/dL&lt;/td&gt;
+			&lt;td&gt;1.3-1.5 mmol/L&lt;/td&gt;
+			&lt;td&gt;Better&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;60 mg/dL and above&lt;/td&gt;
+			&lt;td&gt;Above 1.5 mmol/L&lt;/td&gt;
+			&lt;td&gt;Best&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;Triglycerides&lt;/strong&gt;&lt;br /&gt;
+			(U.S. and some other countries)&lt;/th&gt;&lt;th width=&quot;35%&quot;&gt;&lt;strong&gt;Triglycerides*&lt;/strong&gt;&lt;br /&gt;
+			(Canada and most of Europe)&lt;/th&gt;&lt;th width=&quot;30%&quot;&gt;&amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 150 mg/dL&lt;/td&gt;
+			&lt;td&gt;Below 1.7 mmol/L&lt;/td&gt;
+			&lt;td&gt;Best&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;150-199 mg/dL&lt;/td&gt;
+			&lt;td&gt;1.7-2.2 mmol/L&lt;/td&gt;
+			&lt;td&gt;Borderline high&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;200-499 mg/dL&lt;/td&gt;
+			&lt;td&gt;2.3-5.6 mmol/L&lt;/td&gt;
+			&lt;td&gt;High&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;500 mg/dL and above&lt;/td&gt;
+			&lt;td&gt;Above 5.6 mmol/L&lt;/td&gt;
+			&lt;td&gt;Very high&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The American Heart Association (AHA) recommends that a triglyceride level of 100 mg/dL (1.3 mmol/L) or lower is considered &quot;optimal.&quot; The AHA says this optimal level would improve your heart health. However, the AHA doesn&apos;t recommend drug treatment to reach this level. Instead, for those trying to lower their triglycerides to this level, lifestyle changes such as diet, weight loss and physical activity are encouraged. That&apos;s because triglycerides usually respond well to dietary and lifestyle changes. 
+&lt;/p&gt;
+&lt;p&gt;
+*Canadian and European guidelines differ slightly from U.S. guidelines. These conversions are based on U.S. guidelines. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;LDL targets differ&lt;/strong&gt;&lt;br /&gt;
+Because LDL cholesterol is a major risk factor for heart disease, it&apos;s the main focus of cholesterol-lowering treatment. Your target LDL number can vary, depending on your underlying risk of heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people should aim for an LDL level below 130 mg/dL (3.4 mmol/L). If you have other risk factors for heart disease, your target LDL may be below 100 mg/dL (2.6 mmol/L). If you&apos;re at very high risk of heart disease, you may need to aim for an LDL level below 70 mg/dL (1.8 mmol/L). In general, the lower your LDL cholesterol level is, the better. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;re considered to be at a high risk of heart disease if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have had a previous heart attack or stroke&lt;/li&gt;
+	&lt;li&gt;Have artery blockages in your neck (carotid artery disease)&lt;/li&gt;
+	&lt;li&gt;Have artery blockages in your arms or legs (peripheral artery disease)&lt;/li&gt;
+	&lt;li&gt;Have known diabetes that requires treatment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, two or more of the following risk factors might also place you in the high-risk group: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Low HDL cholesterol&lt;/li&gt;
+	&lt;li&gt;Family history of early heart disease&lt;/li&gt;
+	&lt;li&gt;Age older than 45 if you&apos;re a man, or older than 55 if you&apos;re a woman&lt;/li&gt;
+	&lt;li&gt;Elevated lipoprotein (a), another type of fat (lipid) in your blood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Children and cholesterol testing&lt;/strong&gt;&lt;br /&gt;
+Children as young as age 2 can have high cholesterol, but not all children need to be screened for high cholesterol. The American Academy of Pediatrics (AAP) recommends a cholesterol test (fasting lipid panel) for all children between the ages of 9 and 11. The AAP also recommends screening for children as young as 1 who have a known family history of high cholesterol or premature coronary artery disease. Your child&apos;s doctor may recommend retesting if your child&apos;s first test shows he or she has normal cholesterol levels. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Academy of Pediatrics also recommends testing if the child&apos;s family history for high cholesterol is unknown, but the child has risk factors for high cholesterol, such as obesity, high blood pressure or diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes such as exercising and eating a healthy diet are the first line of defense against high cholesterol. But, if you&apos;ve made these important lifestyle changes and your total cholesterol &amp;mdash; and particularly your LDL cholesterol &amp;mdash; remains high, your doctor may recommend medication.
+&lt;/p&gt;
+&lt;p&gt;
+The specific choice of medication or combination of medications depends on various factors, including your individual risk factors, your age, your current health and possible side effects. Common choices include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Statins.&lt;/strong&gt; Statins &amp;mdash; among the most commonly prescribed medications for lowering cholesterol &amp;mdash; block a substance your liver needs to make cholesterol. This causes your liver to remove cholesterol from your blood. Statins may also help your body reabsorb cholesterol from built-up deposits on your artery walls, potentially reversing coronary artery disease. Choices include atorvastatin (Lipitor), fluvastatin (Lescol), lovastatin (Altoprev, Mevacor), pravastatin (Pravachol), rosuvastatin (Crestor) and simvastatin (Zocor).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bile-acid-binding resins.&lt;/strong&gt; Your liver uses cholesterol to make bile acids, a substance needed for digestion. The medications cholestyramine (Prevalite), colesevelam (Welchol) and colestipol (Colestid) lower cholesterol indirectly by binding to bile acids. This prompts your liver to use excess cholesterol to make more bile acids, which reduces the level of cholesterol in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cholesterol absorption inhibitors.&lt;/strong&gt; Your small intestine absorbs the cholesterol from your diet and releases it into your bloodstream. The drug ezetimibe (Zetia) helps reduce blood cholesterol by limiting the absorption of dietary cholesterol. Zetia can be used in combination with any of the statin drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination cholesterol absorption inhibitor and statin.&lt;/strong&gt; The combination drug ezetimibe-simvastatin (Vytorin) decreases both absorption of dietary cholesterol in your small intestine and production of cholesterol in your liver. It&apos;s unknown whether Vytorin is more effective in reducing heart disease risk than taking simvastatin by itself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for high triglycerides&lt;/strong&gt;&lt;br /&gt;
+If you also have high triglycerides, your doctor may prescribe:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fibrates.&lt;/strong&gt; The medications fenofibrate (TriCor) and gemfibrozil (Lopid) decrease triglycerides by reducing your liver&apos;s production of very-low-density lipoprotein (VLDL) cholesterol and by speeding up the removal of triglycerides from your blood. VLDL cholesterol contains mostly triglycerides.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Niacin.&lt;/strong&gt; Niacin (Niaspan) decreases triglycerides by limiting your liver&apos;s ability to produce LDL and VLDL cholesterol. Prescription and over-the-counter niacin is available, but prescription niacin is preferred as it has the least side effects. Dietary supplements containing niacin that are available over-the-counter are not effective for lowering triglycerides, and may damage your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acid supplements.&lt;/strong&gt; Omega-3 fatty acid supplements can help lower your cholesterol. You can take over-the-counter supplements, or your doctor may prescribe Lovaza, a prescription omega-3 fatty acid supplement, as a way to lower your triglycerides. These supplements may be taken with another cholesterol-lowering medication, such as a statin. If you choose to take over-the-counter supplements, get your doctor&apos;s OK first. Omega-3 fatty acid supplements could affect other medications you&apos;re taking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tolerance varies&lt;/strong&gt;&lt;br /&gt;
+Tolerance of medications varies from person to person. The common side effects are muscle pains, stomach pain, constipation, nausea and diarrhea. If you decide to take cholesterol medication, your doctor may recommend liver function tests to monitor the medication&apos;s effect on your liver.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children and cholesterol treatment&lt;/strong&gt;&lt;br /&gt;
+Diet and exercise are the best initial treatment for children age 2 and older who have high cholesterol or who are obese. The American Academy of Pediatrics also recommends treatment with prescription drugs, such as statins, for children age 8 and older if a child has a high level of LDL cholesterol. However, this recommendation is controversial. The long-term effects of cholesterol-lowering drugs have not been extensively studied in children. In addition, certain cholesterol medications such as niacin are not recommended for children. Because of the disagreement in the medical community on this topic, talk to your child&apos;s doctor about the best way to lower your child&apos;s cholesterol.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes are essential to improve your cholesterol level. To bring your numbers down, lose excess weight, eat healthy foods and increase your physical activity. If you smoke, quit.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lose extra pounds&lt;/strong&gt;&lt;br /&gt;
+Excess weight contributes to high cholesterol. Losing even 5 to 10 pounds can help lower total cholesterol levels. Start by taking an honest look at your eating habits and daily routine. Consider your challenges to weight loss &amp;mdash; and ways to overcome them. Set long-term, sustainable goals.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eat heart-healthy foods&lt;/strong&gt;&lt;br /&gt;
+What you eat has a direct impact on your cholesterol level. In fact, a diet rich in fiber and other cholesterol-lowering foods may help lower cholesterol as much as statin medication for some people.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose healthier fats.&lt;/strong&gt; Saturated fat and trans fat raise your total cholesterol and LDL cholesterol. Get no more than 10 percent of your daily calories from saturated fat. Monounsaturated fat &amp;mdash; found in olive, peanut and canola oils &amp;mdash; is a healthier option. Almonds and walnuts are other sources of healthy fat.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Eliminate trans fats.&lt;/strong&gt; Trans fats, which are often found in margarines and commercially baked cookies, crackers and snack cakes, are particularly bad for your cholesterol levels. Not only do trans fats increase your total LDL (&quot;bad&quot;) cholesterol, but they also lower your HDL (&quot;good&quot;) cholesterol.
+	&lt;/p&gt;
+	&lt;p&gt;
+	You may have noticed more food labels now market their products as &quot;trans fat-free.&quot; But don&apos;t rely only on this label. In the United States, if a food contains less than 0.5 grams of trans fat a serving, it can be marked trans fat-free. It may not seem like much, but if you eat a lot of foods with a small amount of trans fat, it can add up quickly. Instead, read the ingredients list. If a food contains a partially hydrogenated oil, that&apos;s a trans fat, and you should look for an alternative.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your dietary cholesterol.&lt;/strong&gt; Aim for no more than 300 milligrams (mg) of cholesterol a day &amp;mdash; or less than 200 mg if you have heart disease. The most concentrated sources of cholesterol include organ meats, egg yolks and whole milk products. Use lean cuts of meat, egg substitutes and skim milk instead.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Select whole grains.&lt;/strong&gt; Various nutrients found in whole grains promote heart health. Choose whole-grain breads, whole-wheat pasta, whole-wheat flour and brown rice. Oatmeal and oat bran are other good choices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stock up on fruits and vegetables.&lt;/strong&gt; Fruits and vegetables are rich in dietary fiber, which can help lower cholesterol. Snack on seasonal fruits. Experiment with vegetable-based casseroles, soups and stir-fries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat heart-healthy fish.&lt;/strong&gt; Some types of fish &amp;mdash; such as cod, tuna and halibut &amp;mdash; have less total fat, saturated fat and cholesterol than do meat and poultry. Salmon, mackerel and herring are rich in omega-3 fatty acids, which help promote heart health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol only in moderation.&lt;/strong&gt; Moderate use of alcohol may increase your levels of HDL cholesterol &amp;mdash; but the benefits aren&apos;t strong enough to recommend alcohol for anyone who doesn&apos;t drink already. If you choose to drink, do so in moderation. This means no more than one drink a day for women and one to two drinks a day for men.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Exercise regularly&lt;/strong&gt;&lt;br /&gt;
+Regular exercise can help improve your cholesterol levels. With your doctor&apos;s OK, work up to 30 to 60 minutes of exercise a day. Take a brisk daily walk. Ride your bike. Swim laps. To maintain your motivation, keep it fun. Find an exercise buddy or join an exercise group. And, you don&apos;t need to get all 30 to 60 minutes in one exercise session. If you can squeeze in three to six 10-minute intervals of exercise, you&apos;ll still get some cholesterol-lowering benefits.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t smoke&lt;/strong&gt;&lt;br /&gt;
+If you smoke, stop. Quitting can improve your HDL cholesterol level. And the benefits don&apos;t end there. Just 20 minutes after quitting, your blood pressure decreases. Within 24 hours, your risk of a heart attack decreases. Within one year, your risk of heart disease is half that of a smoker&apos;s. Within 15 years, your risk of heart disease is similar to that of someone who&apos;s never smoked.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Few natural products have been proven to reduce cholesterol, but some might be helpful. With your doctor&apos;s OK, consider these cholesterol-lowering supplements and products:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Artichoke&lt;/li&gt;
+	&lt;li&gt;Barley&lt;/li&gt;
+	&lt;li&gt;Beta-sitosterol (found in oral supplements and some margarines, such as Promise Activ)&lt;/li&gt;
+	&lt;li&gt;Blond psyllium (found in seed husk and products such as Metamucil)&lt;/li&gt;
+	&lt;li&gt;Garlic&lt;/li&gt;
+	&lt;li&gt;Oat bran (found in oatmeal and whole oats)&lt;/li&gt;
+	&lt;li&gt;Sitostanol (found in oral supplements and some margarines, such as Benecol)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may have also heard of another supplement to reduce cholesterol, red yeast. Some brands of red yeast contain lovastatin, the active ingredient in the drug Mevacor. This can be unsafe, since there&apos;s no way to determine the quantity or quality of the lovastatin in the supplement.
+&lt;/p&gt;
+&lt;p&gt;
+If you choose to take cholesterol-lowering supplements, remember the importance of a healthy lifestyle. If your doctor prescribes medication to reduce your cholesterol, take it as directed. Make sure your doctor knows which supplements you&apos;re taking as well.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The same heart-healthy lifestyle changes that can lower your cholesterol can help prevent you from having high cholesterol in the first place. To help prevent high cholesterol, you can:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lose extra pounds and maintain a healthy weight&lt;/li&gt;
+	&lt;li&gt;Quit smoking&lt;/li&gt;
+	&lt;li&gt;Eat a low-fat, low-salt diet that includes many fruits, vegetables and whole grains&lt;/li&gt;
+	&lt;li&gt;Exercise on most days of the week for at least 30 minutes&lt;/li&gt;
+	&lt;li&gt;Drink alcohol in moderation, if at all&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		High cholesterol
+	</Title>
+	<Abstract>
+		High cholesterol &amp;mdash; Comprehensive overview covers diet, medication and other treatments to lower cholesterol.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00500" LinkType="Internal" ObjectID="ACA5E069-DFEE-9A46-E42C13E5816BAE0D" Title="Cholesterol test" Url="http://www.mayoclinic.com/health/cholesterol-test/MY00500" />
+		<LinkItem ContentType="Calculator" DocID="SM00083" LinkType="Internal" ObjectID="A2A6A209-EAAF-4B18-AEF17503DC91698C" Title="Tool: Target heart rate calculator" Url="http://www.mayoclinic.com/health/target-heart-rate/SM00083" />
+		<LinkItem ContentType="Answer" DocID="AN02193" LinkType="Internal" ObjectID="97CB9112-EF63-303D-A8892F7C9A02FEB4" Title="Does prickly pear cactus have health benefits?" Url="http://www.mayoclinic.com/health/prickly-pear-cactus/AN02193" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="Answer" DocID="AN02120" LinkType="Internal" ObjectID="66D95C41-0BD7-834E-D7AD6EC2D70B150B" Title="MUFAs: Why should my diet include these fats?" Url="http://www.mayoclinic.com/health/mufas/AN02120" />
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Article" DocID="MY02089" LinkType="Internal" ObjectID="CC778A22-B2D6-6E96-E37A7C52DBF5B7AD" Title="Healthy chicken recipes" Url="http://www.mayoclinic.com/health/healthy-chicken-recipes/MY02089" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="HB00085" LinkType="Internal" ObjectID="92DF9319-E7FF-0DBD-1F4D49DAC4DFC1AE" Title="Nuts and your heart: Eating nuts for heart health" Url="http://www.mayoclinic.com/health/nuts/HB00085" />
+		<LinkItem ContentType="Article" DocID="MY01874" LinkType="Internal" ObjectID="8CFB62FE-E33C-7457-779E0B9DE4B51EC3" Title="Herbal supplements may not mix with heart medicines" Url="http://www.mayoclinic.com/health/herbal-supplements/MY01874" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Answer" DocID="AN01227" LinkType="Internal" ObjectID="FC844FBC-2A5D-9994-E610287712676177" Title="Pomegranate juice: Can it lower cholesterol?" Url="http://www.mayoclinic.com/health/pomegranate-juice/AN01227" />
+		<LinkItem ContentType="Answer" DocID="AN01461" LinkType="Internal" ObjectID="F0DD1317-E7FF-0DBD-18939809A59672AE" Title="Cholesterol test kits: Are they accurate?" Url="http://www.mayoclinic.com/health/cholesterol-test-kits/AN01461" />
+		<LinkItem ContentType="Answer" DocID="AN01438" LinkType="Internal" ObjectID="CCAC41D9-E7FF-0DBD-1C2316005227744F" Title="High cholesterol treatment: Does cinnamon lower cholesterol?" Url="http://www.mayoclinic.com/health/cinnamon-lower-cholesterol/AN01438" />
+		<LinkItem ContentType="Answer" DocID="AN01335" LinkType="Internal" ObjectID="BDADAF2C-2A5D-9994-EF7BC1FEF527EF7F" Title="VLDL cholesterol: Is it harmful?" Url="http://www.mayoclinic.com/health/vldl-cholesterol/AN01335" />
+		<LinkItem ContentType="Answer" DocID="AN01761" LinkType="Internal" ObjectID="ABD1629F-E7FF-0DBD-15145D08E22D2C58" Title="Cholesterol ratio: Is it important?" Url="http://www.mayoclinic.com/health/cholesterol-ratio/AN01761" />
+		<LinkItem ContentType="Answer" DocID="AN01360" LinkType="Internal" ObjectID="8C1B2E8F-E7FF-0DBD-1F2BBD9DDA8A526D" Title="Statins: Do they cause ALS?" Url="http://www.mayoclinic.com/health/statins/AN01360" />
+		<LinkItem ContentType="Table" DocID="CL00013" LinkType="Internal" ObjectID="883F6CC1-E7FF-0DBD-1ACE6FB5C4900E52" Title="Cholesterol-lowering supplements: Lower your numbers without prescription medication" Url="http://www.mayoclinic.com/health/cholesterol-lowering-supplements/CL00013" />
+		<LinkItem ContentType="Answer" DocID="AN01541" LinkType="Internal" ObjectID="5ABF7900-E7FF-0DBD-13D33E4F58453DE5" Title="Coenzyme Q10: Can it prevent statin side effects?" Url="http://www.mayoclinic.com/health/coenzyme-q10/AN01541" />
+		<LinkItem ContentType="Answer" DocID="AN01394" LinkType="Internal" ObjectID="456F42B4-E7FF-0DBD-1C37C66F318B235B" Title="Cholesterol level: Can it be too low?" Url="http://www.mayoclinic.com/health/cholesterol-level/AN01394" />
+		<LinkItem ContentType="Answer" DocID="AN01644" LinkType="Internal" ObjectID="44D04790-E7FF-0DBD-13A069E721DE1F7C" Title="Niacin overdose: What are the symptoms?" Url="http://www.mayoclinic.com/health/niacin-overdose/AN01644" />
+		<LinkItem ContentType="Answer" DocID="HQ00608" LinkType="Internal" ObjectID="3EEB43C6-DB46-4EE4-B847A9005BDE94FB" Title="Eggs: Are they good or bad for my cholesterol?" Url="http://www.mayoclinic.com/health/cholesterol/HQ00608" />
+		<LinkItem ContentType="Table" DocID="HB00042" LinkType="Internal" ObjectID="3A470847-6B37-4990-B801483EE9993BEE" Title="Cholesterol medications: Consider the options" Url="http://www.mayoclinic.com/health/cholesterol-medications/HB00042" />
+		<LinkItem ContentType="Answer" DocID="AN01493" LinkType="Internal" ObjectID="30A6CFA4-E7FF-0DBD-1EF8BB48DA072920" Title="Arcus senilis: A sign of high cholesterol?" Url="http://www.mayoclinic.com/health/arcus-senilis/AN01493" />
+		<LinkItem ContentType="Answer" DocID="AN01413" LinkType="Internal" ObjectID="135EE4B9-E7FF-0DBD-141236526A600DB4" Title="Rhabdomyolysis from statins: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/rhabdomyolysis/AN01413" />
+		<LinkItem ContentType="Answer" DocID="AN01289" LinkType="Internal" ObjectID="03721906-2A5D-9994-E4D37100397DF581" Title="Soy: Does it reduce cholesterol?" Url="http://www.mayoclinic.com/health/soy/AN01289" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+		<LinkItem ContentType="Article" DocID="CL00001" LinkType="Internal" ObjectID="F008A4A7-A5A7-4BB5-B04222F223CD6AE1" Title="Cholesterol levels: What numbers should you aim for?" Url="http://www.mayoclinic.com/health/cholesterol-levels/CL00001" />
+		<LinkItem ContentType="Article" DocID="CL00015" LinkType="Internal" ObjectID="EE0D7DF0-E7FF-0DBD-169AC2820B289B32" Title="Triglycerides: Why do they matter?" Url="http://www.mayoclinic.com/health/triglycerides/CL00015" />
+		<LinkItem ContentType="Article" DocID="CL00030" LinkType="Internal" ObjectID="8806CE9F-E7FF-0DBD-152027FE481870F9" Title="HDL cholesterol: How to boost your &apos;good&apos; cholesterol" Url="http://www.mayoclinic.com/health/hdl-cholesterol/CL00030" />
+		<LinkItem ContentType="Article" DocID="CL00036" LinkType="Internal" ObjectID="7FD30B1C-E7FF-0DBD-1A4BD415229049AF" Title="Niacin to boost your HDL, &apos;good,&apos; cholesterol" Url="http://www.mayoclinic.com/health/niacin/CL00036" />
+		<LinkItem ContentType="Article" DocID="CL00032" LinkType="Internal" ObjectID="7A7C3A5D-E7FF-0DBD-17264FB5ECB54E78" Title="Trans fat is double trouble for your heart health" Url="http://www.mayoclinic.com/health/trans-fat/CL00032" />
+		<LinkItem ContentType="Article" DocID="MY00205" LinkType="Internal" ObjectID="749BB19A-E7FF-0DBD-1D5E87B2590271F3" Title="Statin side effects: Weigh the benefits and risks" Url="http://www.mayoclinic.com/health/statin-side-effects/MY00205" />
+		<LinkItem ContentType="Article" DocID="CL00012" LinkType="Internal" ObjectID="70E100F5-E7FF-0DBD-15A4B529F9E16744" Title="Top 5 lifestyle changes to reduce cholesterol" Url="http://www.mayoclinic.com/health/reduce-cholesterol/CL00012" />
+		<LinkItem ContentType="Article" DocID="CL00010" LinkType="Internal" ObjectID="69427ED3-2A5D-9994-E87FDBC7AE0819DE" Title="Statins: Are these cholesterol-lowering drugs right for you?" Url="http://www.mayoclinic.com/health/statins/CL00010" />
+		<LinkItem ContentType="Article" DocID="CL00002" LinkType="Internal" ObjectID="44BE5EA7-E8B5-427E-AD42AB3F49DE11D1" Title="Cholesterol: Top 5 foods to lower your numbers" Url="http://www.mayoclinic.com/health/cholesterol/CL00002" />
+	</RelatedLinksBox>
+</Disease>

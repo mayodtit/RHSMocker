@@ -1,0 +1,381 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00256
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/varicose-veins/DS00256
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-31
+		</UpdateDate>
+		<PublicationDate>
+			1999-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="1484" Title="Varicose veins" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A319313A-D75E-4E61-AC71435EC2C152BD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				varicose veins
+			</MetaKeyword>
+			<MetaKeyword>
+				varicose
+			</MetaKeyword>
+			<MetaKeyword>
+				vericose
+			</MetaKeyword>
+			<MetaKeyword>
+				vericose veins
+			</MetaKeyword>
+			<MetaKeyword>
+				spider veins
+			</MetaKeyword>
+			<MetaKeyword>
+				skin ulcers
+			</MetaKeyword>
+			<MetaKeyword>
+				sclerotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				veins
+			</MetaKeyword>
+			<MetaKeyword>
+				phlebectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				vein stripping
+			</MetaKeyword>
+			<MetaKeyword>
+				support stockings
+			</MetaKeyword>
+			<MetaKeyword>
+				compression stockings
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Varicose veins are gnarled, enlarged veins. Any vein may become varicose, but the veins most commonly affected are those in your legs and feet. That&apos;s because standing and walking upright increases the pressure in the veins of your lower body.
+&lt;/p&gt;
+&lt;p&gt;
+For many people, varicose veins and spider veins &amp;mdash; a common, mild variation of varicose veins &amp;mdash; are simply a cosmetic concern. For other people, varicose veins can cause aching pain and discomfort. Sometimes varicose veins lead to more-serious problems. Varicose veins may also signal a higher risk of other circulatory problems. Treatment may involve self-care measures or procedures by your doctor to close or remove veins. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing varicose veins 
+" Caption="Normally, veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Varicose veins may be caused by weakened valves (incompetent valves) within the veins that allow blood to pool in your veins instead of traveling to your heart. 
+" Height="60" Title="Varicose veins" URI="/images/image_popup/thumbs/ww5rp30t.jpg" Width="60" />
+				<Image Alt="Illustration showing varicose veins 
+" Caption="Normally, veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Varicose veins may be caused by weakened valves (incompetent valves) within the veins that allow blood to pool in your veins instead of traveling to your heart. 
+" Height="331" Title="Varicose veins" URI="/images/image_popup/ww5rp30.jpg" Width="400" />
+				<HTML>
+					Normally, veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Varicose ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Varicose veins usually don&apos;t cause any pain. Signs you may have varicose veins include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Veins that are dark purple or blue in color&lt;/li&gt;
+	&lt;li&gt;Veins that appear twisted and bulging; often like cords on your legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When painful signs and symptoms occur, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An achy or heavy feeling in your legs&lt;/li&gt;
+	&lt;li&gt;Burning, throbbing, muscle cramping and swelling in your lower legs&lt;/li&gt;
+	&lt;li&gt;Worsened pain after sitting or standing for a long time&lt;/li&gt;
+	&lt;li&gt;Itching around one or more of your veins&lt;/li&gt;
+	&lt;li&gt;Skin ulcers near your ankle, which can mean you have a serious form of vascular disease that requires medical attention&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Spider veins are similar to varicose veins, but they&apos;re smaller. Spider veins are found closer to the skin&apos;s surface and are often red or blue. They occur on the legs, but can also be found on the face. Spider veins vary in size and often look like a spider&apos;s web. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Self-care &amp;mdash; such as exercise, elevating your legs or wearing compression stockings &amp;mdash; can help you ease the pain of varicose veins and may prevent them from getting worse. But if you&apos;re concerned about how your veins look and feel and self-care measures haven&apos;t stopped your condition from getting worse, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Arteries carry blood from your heart to the rest of your tissues. Veins return blood from the rest of your body to your heart, so the blood can be recirculated. To return blood to your heart, the veins in your legs must work against gravity. Muscle contractions in your lower legs act as pumps, and elastic vein walls help blood return to your heart. Tiny valves in your veins open as blood flows toward your heart then close to stop blood from flowing backward. 
+&lt;/p&gt;
+&lt;p&gt;
+Causes of varicose veins can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; As you get older, your veins can lose elasticity causing them to stretch. The valves in your veins may become weak, allowing blood that should be moving toward your heart to flow backward. Blood pools in your veins, and your veins enlarge and become varicose. The veins appear blue because they contain deoxygenated blood, which is in the process of being recirculated through the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Some pregnant women develop varicose veins. Pregnancy increases the volume of blood in your body, but decreases the flow of blood from your legs to your pelvis. This circulatory change is designed to support the growing fetus, but it can produce an unfortunate side effect &amp;mdash; enlarged veins in your legs. Varicose veins may surface for the first time or may worsen during late pregnancy, when your uterus exerts greater pressure on the veins in your legs. Changes in your hormones during pregnancy also may play a role. Varicose veins that develop during pregnancy generally improve without medical treatment within three months after delivery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors increase your risk of developing varicose veins: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The risk of varicose veins increases with age. Aging causes wear and tear on the valves in your veins that help regulate blood flow. Eventually, that wear causes the valves to allow some blood to flow back into your veins where it collects instead of flowing up to your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are more likely to develop the condition. Hormonal changes during pregnancy, premenstruation or menopause may be a factor. Female hormones tend to relax vein walls. Taking hormone replacement therapy or birth control pills may increase your risk of varicose veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If other family members had varicose veins, there&apos;s a greater chance you will too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being overweight puts added pressure on your veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Standing or sitting for long periods of time.&lt;/strong&gt; Your blood doesn&apos;t flow as well if you&apos;re in the same position for long periods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of varicose veins, although rare, can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcers.&lt;/strong&gt; Extremely painful ulcers may form on the skin near varicose veins, particularly near the ankles. Ulcers are caused by long-term fluid buildup in these tissues, caused by increased pressure of blood within affected veins. A discolored spot on the skin usually begins before an ulcer forms. See your doctor immediately if you suspect you&apos;ve developed an ulcer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Occasionally, veins deep within the legs become enlarged. In such cases, the affected leg may swell considerably. Any sudden leg swelling warrants urgent medical attention because it may indicate a blood clot &amp;mdash; a condition known medically as thrombophlebitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no special preparations you&apos;ll need to make before your appointment. Your doctor will need to look at your bare legs and feet to diagnose varicose veins and figure out what treatment might be best for your condition.
+&lt;/p&gt;
+&lt;p&gt;
+Your primary care doctor may recommend that you see a doctor who specializes in vein conditions (phlebologist), a vascular surgeon or a doctor who treats skin conditions (dermatologist or dermatology surgeon). In the meantime, there are some steps you can take to prepare for your appointment and begin your self-care.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to varicose veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of varicose veins or spider veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. Some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my varicose veins?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;How are varicose veins treated?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist and treatments, if advised? (You may need to ask your insurance provider directly for information about coverage.)&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the varicose veins?&lt;/li&gt;
+	&lt;li&gt;Do you have any pain? If so, how severe is your pain?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything appear to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Even before your appointment, you can begin self-care. Try not to stand or sit in one position for more than 30 minutes or so, elevate your legs when you&apos;re seated, and avoid uncomfortable footwear and tight socks or hosiery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose varicose veins, your doctor will do a physical exam, including looking at your legs while you&apos;re standing to check for swelling. Your doctor may also ask you to describe any pain and aching in your legs.
+&lt;/p&gt;
+&lt;p&gt;
+You may also need an ultrasound test to see if the valves in your veins are functioning normally or if there&apos;s any evidence of a blood clot. In this noninvasive test, you lie on an examination table. A small amount of warm gel is applied to your skin. The gel helps eliminate the formation of air pockets between the transducer and your body. During an ultrasound, a technician trained in ultrasound imaging (sonographer) presses a small hand-held device (transducer), about the size of a bar of soap, against your skin over the area of your body being examined, moving from one area to another as necessary. The transducer transmits images of the veins in your legs to a monitor, so a technician and your doctor can see them.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fortunately, treatment usually doesn&apos;t mean a hospital stay or a long, uncomfortable recovery. Thanks to less invasive procedures, varicose veins can generally be treated on an outpatient basis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Self-care&lt;br /&gt;
+&lt;/strong&gt;Self-care &amp;mdash; such as exercising, losing weight, not wearing tight clothes, elevating your legs, and avoiding long periods of standing or sitting &amp;mdash; can ease pain and prevent varicose veins from getting worse.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Compression stockings&lt;br /&gt;
+&lt;/strong&gt;Wearing compression stockings is often the first approach to try before moving on to other treatments. Compression stockings are worn all day. They steadily squeeze your legs, helping veins and leg muscles move blood more efficiently. The amount of compression varies by type and brand.
+&lt;/p&gt;
+&lt;p&gt;
+You can buy compression stockings at most pharmacies and medical supply stores. Prices vary. Prescription-strength stockings also are available. 
+&lt;/p&gt;
+&lt;p&gt;
+When purchasing compression stockings, make sure that they fit properly. Using a tape measure, you or your pharmacist can measure your legs to ensure you get the right size and fit according to the size chart found on the stocking package. Compression stockings should be strong, but not necessarily tight. If you have weak hands or arthritis, getting these stockings on may be difficult. There are devices to make putting them on easier.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional treatments for more-severe varicose veins&lt;br /&gt;
+&lt;/strong&gt;If you don&apos;t respond to self-care, compression stockings, or if your condition is more severe, your doctor may suggest one of these varicose vein treatments:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sclerotherapy.&lt;/strong&gt; In this procedure, your doctor injects small- and medium-sized varicose veins with a solution that scars and closes those veins. In a few weeks, treated varicose veins should fade. Although the same vein may need to be injected more than once, sclerotherapy is effective if done correctly. Sclerotherapy doesn&apos;t require anesthesia and can be done in your doctor&apos;s office.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser surgeries.&lt;/strong&gt; Doctors are using new technology in laser treatments to close off smaller varicose veins and spider veins. Laser surgery works by sending strong bursts of light onto the vein, which makes the vein slowly fade and disappear. No incisions or needles are used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Catheter-assisted procedures.&lt;/strong&gt; In one of these treatments, your doctor inserts a thin tube (catheter) into an enlarged vein and heats the tip of the catheter. As the catheter is pulled out, the heat destroys the vein by causing it to collapse and seal shut. This procedure is usually done for larger varicose veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vein stripping.&lt;/strong&gt; This procedure involves removing a long vein through small incisions. This is an outpatient procedure for most people. Removing the vein won&apos;t adversely affect circulation in your leg because veins deeper in the leg take care of the larger volumes of blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ambulatory phlebectomy&lt;/strong&gt; (fluh-BEK-tuh-me). Your doctor removes smaller varicose veins through a series of tiny skin punctures. Only the parts of your leg that are being pricked are numbed in this outpatient procedure. Scarring is generally minimal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic vein surgery.&lt;/strong&gt; You might need this operation only in an advanced case involving leg ulcers. Your surgeon uses a thin video camera inserted in your leg to visualize and close varicose veins, and then removes the veins through small incisions. This procedure is performed on an outpatient basis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Varicose veins that develop during pregnancy generally improve without medical treatment within three to 12 months after delivery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Be a cautious consumer&lt;br /&gt;
+&lt;/strong&gt;When it comes to treatment options for varicose veins, it pays to be a cautious health consumer. Advertisements claiming &quot;unique,&quot; &quot;permanent&quot; or &quot;painless&quot; methods to remove varicose veins may be appealing, but they may not actually measure up to those claims. Before having any procedure, ask your doctor about any health risks and possible side effects.
+&lt;/p&gt;
+&lt;p&gt;
+You may want to inquire about treatment costs, as well. Many insurance policies don&apos;t cover the expense of elective cosmetic surgery for varicose veins. However, in many cases if you have signs or symptoms, such as swelling and bleeding, insurance may cover the treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Current treatments for varicose veins and spider veins are effective. However, it&apos;s possible that varicose veins can recur.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are some self-care measures you can take to decrease the discomfort that varicose veins can cause. These same measures can help prevent or slow the development of varicose veins, as well. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Get moving. Walking is a great way to encourage blood circulation in your legs. Your doctor can recommend an appropriate activity level for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch your weight, and your diet.&lt;/strong&gt; Shedding excess pounds takes unnecessary pressure off your veins. What you eat can help, too. Follow a low-salt diet to prevent swelling caused from water retention.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what you wear.&lt;/strong&gt; Avoid high heels. Low-heeled shoes work calf muscles more, which is better for your veins. Don&apos;t wear tight clothes around your waist, legs or groin. Tight panty-leg girdles, for instance, can cut off blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate your legs.&lt;/strong&gt; To improve the circulation in your legs, take several short breaks daily to elevate your legs above the level of your heart. For example, lie down with your legs resting on three or four pillows.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid long periods of sitting or standing.&lt;/strong&gt; Make a point of changing your position frequently to encourage blood flow. Try to move around at least every 30 minutes or so.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t sit with your legs crossed.&lt;/strong&gt; Some doctors believe this position can increase circulation problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Horse chestnut seed extract may be an effective treatment for chronic venous insufficiency, a condition associated with varicose veins in which leg veins have problems returning blood to the heart. The herb may help improve swelling and discomfort caused by varicose veins. Talk with your doctor before trying horse chestnut seed extract or any other herb or dietary supplement to make sure these products won&apos;t interfere with any medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to completely prevent varicose veins. But improving your circulation and muscle tone can reduce your risk of developing varicose veins or getting additional ones. The same measures you can take to treat the discomfort from varicose veins at home can help prevent varicose veins, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exercising&lt;/li&gt;
+	&lt;li&gt;Watching your weight&lt;/li&gt;
+	&lt;li&gt;Eating a high-fiber, low-salt diet&lt;/li&gt;
+	&lt;li&gt;Avoiding high heels and tight hosiery&lt;/li&gt;
+	&lt;li&gt;Elevating your legs&lt;/li&gt;
+	&lt;li&gt;Changing your sitting or standing position regularly&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Varicose veins
+	</Title>
+	<Abstract>
+		Varicose veins &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and self-care of this circulatory condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01302" LinkType="Internal" ObjectID="5073DC55-B11F-BC6D-89214315B39C113C" Title="Sclerotherapy" Url="http://www.mayoclinic.com/health/sclerotherapy/MY01302" />
+		<LinkItem ContentType="Article" DocID="PR00009" LinkType="Internal" ObjectID="9C045F97-F0AF-462C-A4714BA8E2C38767" Title="Third trimester pregnancy: What to expect" Url="http://www.mayoclinic.com/health/pregnancy/PR00009" />
+		<LinkItem ContentType="Answer" DocID="AN02027" LinkType="Internal" ObjectID="85A23D4D-AFC4-2E92-1BDC2D57231B3D54" Title="Spider veins: How are they removed?" Url="http://www.mayoclinic.com/health/spider-veins/AN02027" />
+		<LinkItem ContentType="Video" DocID="MM00798" LinkType="Internal" ObjectID="1B27921C-C8B2-11D1-6D27E09B0C54554C" Title="Video: Endovenous thermal ablation" Url="http://www.mayoclinic.com/health/endovenous-thermal-ablation/MM00798" />
+	</RelatedLinksBox>
+</Disease>

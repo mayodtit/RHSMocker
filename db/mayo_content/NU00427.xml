@@ -1,0 +1,198 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00427
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00427
+		</OriginalURL>
+		<UpdateDate>
+			2008-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			2204C7EE-C4BB-49DF-BE0D6141DE1C9D3B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Rhubarb pecan muffins
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		MAKES 12 MUFFINS
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Although pecans are high in fat and calories, a few sprinkled on top of these muffins goes a long way toward adding crunchy texture and robust flavor. Pecans are also a good source of fiber and the nutrients thiamin and copper.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 350 F. Line a muffin pan with paper or foil liners.&lt;/p&gt;
+
+&lt;p&gt;In a large mixing bowl, combine the flours, sugar, baking powder, baking soda and salt. Stir to mix evenly.&lt;/p&gt;
+
+&lt;p&gt;In a separate bowl, add the egg whites, canola oil, applesauce, orange peel and orange juice. Using an electric mixer, beat until smooth. Add to the flour mixture and blend just until moistened but still lumpy. Stir in the chopped rhubarb.&lt;/p&gt;
+
+&lt;p&gt;Spoon the batter into 12 muffin cups, filling each cup about 2/3 full. Sprinkle 1/2 teaspoon of chopped pecans onto each muffin and bake until springy to the touch, about 25 to 30 minutes. Let cool for 5 minutes, then transfer the muffins to a wire rack to cool completely.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 cup all-purpose (plain) flour&lt;br /&gt;
+1 cup whole-wheat (whole-meal) flour&lt;br /&gt;
+1/2 cup sugar&lt;br /&gt;
+1 1/2 teaspoons baking powder&lt;br /&gt;
+1/2 teaspoon baking soda&lt;br /&gt;
+1/2 teaspoon salt&lt;br /&gt;
+2 egg whites&lt;br /&gt;
+2 tablespoons canola oil&lt;br /&gt;
+2 tablespoons unsweetened applesauce&lt;br /&gt;
+2 teaspoons grated orange peel&lt;br /&gt;
+3/4 cup calcium-fortified orange juice&lt;br /&gt;
+1 1/4 cup finely chopped rhubarb&lt;br /&gt;
+2 tablespoons chopped pecans&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				144
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				26 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				&lt; 1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 muffin
+			</Servingsize>
+			<Sodium Label="Sodium">
+				190 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				3 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 12
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Breads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

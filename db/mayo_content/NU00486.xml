@@ -1,0 +1,193 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00486
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00486
+		</OriginalURL>
+		<UpdateDate>
+			2009-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			9153C84B-0802-4BCD-ACFF6BAF5A840278
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Chicken quesadillas
+	</Title>
+	<Abstract>
+		Chicken quesadillas &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Quesadillas can be filled with cheese, cooked meat, refried beans or veggies &amp;mdash; or any combination of these ingredients. This version uses chicken and cheddar. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 425 F. Lightly coat a baking sheet with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+Cut each chicken breast into cubes. In a large, nonstick frying pan, add the chicken and onions and saute until the onions are tender and the chicken is thoroughly cooked, about 5 to 7 minutes. Remove from heat. Stir in the salsa, tomatoes and cilantro. 
+&lt;/p&gt;
+&lt;p&gt;
+To assemble, lay a tortilla flat and rub the outside edge with water. Spread about 1/2 cup of the chicken mixture onto the tortilla, leaving about 1/2 inch free around the outer rim. Sprinkle with a spoonful of shredded cheese. Fold tortilla in half and seal. Place on a cookie sheet. Repeat with the remaining tortillas. Lightly coat the top of the tortillas with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+Bake until the quesadillas are lightly browned and crispy, about 5 to 7 minutes. Cut in half and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+4 boneless, skinless chicken breasts, each 4 ounces&lt;br /&gt;
+1 cup chopped onions&lt;br /&gt;
+1/2 cup smoky or hot salsa&lt;br /&gt;
+1 cup chopped fresh tomatoes&lt;br /&gt;
+1 cup chopped fresh cilantro&lt;br /&gt;
+6 flour tortillas, each 8 inches in diameter&lt;br /&gt;
+1 cup shredded reduced-fat cheddar cheese 
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)">
+				1/2
+			</Dairy>
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				3
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				3
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				444
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				55 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				51 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				32 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				3 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				2 halves
+			</Servingsize>
+			<Sodium Label="Sodium">
+				736 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				10 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

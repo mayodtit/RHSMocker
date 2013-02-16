@@ -1,0 +1,475 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01063
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/invasive-lobular-carcinoma/DS01063
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-22
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="3310" Title="Invasive lobular carcinoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C6FAE4FF-E7FF-0DBD-17689854551C4D1F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				invasive lobular carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				ILC
+			</MetaKeyword>
+			<MetaKeyword>
+				invasive breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				lobular breast cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Invasive lobular carcinoma is a type of breast cancer that begins in the milk-producing glands (lobules) of the breast. Invasive lobular carcinoma is invasive cancer. That means the cancer cells have broken out of the lobule where they began and have the potential to spread to other areas of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Invasive lobular carcinoma makes up a small portion of all breast cancers. The most common type of breast cancer begins in the breast ducts (ductal carcinoma). 
+&lt;/p&gt;
+&lt;p&gt;
+Invasive lobular carcinoma typically doesn&apos;t form a lump, as most women expect with breast cancer. Instead, invasive lobular carcinoma more often causes a thickening of the tissue or fullness in one part of the breast. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="60" Title="Breast anatomy" URI="/images/image_popup/thumbs/r7_breastthu.jpg" Width="60" />
+				<Image Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="300" Title="Breast anatomy" URI="/images/image_popup/r7_breast.jpg" Width="400" />
+				<HTML>
+					Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+At its earliest stages, invasive lobular carcinoma may cause no signs and symptoms. As it grows larger, invasive lobular carcinoma may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An area of thickening in part of the breast&lt;/li&gt;
+	&lt;li&gt;A new area of fullness or swelling in the breast&lt;/li&gt;
+	&lt;li&gt;A change in the texture or appearance of the skin over the breast, such as dimpling or thickening&lt;/li&gt;
+	&lt;li&gt;An inverted nipple &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Invasive lobular carcinoma is less likely than other forms of breast cancer to cause a firm breast lump. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor when to begin screening tests for breast cancer. Routine screening tests may include a physical exam and breast X-rays (mammograms). Various organizations differ on their screening recommendations, but many suggest women with an average risk of breast cancer consider beginning yearly mammograms in their 40s. If you have a family history of breast cancer or other factors that increase your risk of breast cancer, your doctor may recommend beginning screening mammograms or other tests at an earlier age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes invasive lobular carcinoma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How invasive lobular carcinoma forms&lt;/strong&gt; &lt;br /&gt;
+Doctors know that invasive lobular carcinoma begins when cells in one or more milk-producing glands of the breast develop mutations in their DNA. The mutations tell the cells to divide and grow rapidly. The cancer cells can spread to other parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Lobular carcinoma cells tend to invade surrounding breast tissue in a web-like manner. The affected area may have a different feel from the surrounding breast tissue, but it is unlikely to feel like a lump. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="60" Title="Breast anatomy" URI="/images/image_popup/thumbs/r7_breastthu.jpg" Width="60" />
+				<Image Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="300" Title="Breast anatomy" URI="/images/image_popup/r7_breast.jpg" Width="400" />
+				<HTML>
+					Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of invasive lobular carcinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women are more likely to develop breast cancer, but men can also develop breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Your risk of breast cancer increases as you age. Women with invasive lobular carcinoma tend to be a few years older than women diagnosed with other types of breast cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lobular carcinoma in situ (LCIS).&lt;/strong&gt; If you&apos;ve been diagnosed with LCIS &amp;mdash; abnormal cells confined within breast lobules &amp;mdash; your risk of developing invasive cancer in either breast is increased. LCIS isn&apos;t cancer, but is an indication of increased risk of breast cancer of any type. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Postmenopausal hormone use.&lt;/strong&gt; Use of the female hormones estrogen and progesterone during and after menopause has been shown to increase the risk of invasive lobular carcinoma. Researchers believe the hormones may stimulate tumor growth and also make tumors more difficult to see on mammograms. It&apos;s not clear whether newer hormone regimens, including lower dose combinations, could also increase the risk of invasive lobular carcinoma. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited genetic cancer syndromes.&lt;/strong&gt; Women with a rare inherited condition called hereditary diffuse gastric cancer syndrome have an increased risk of both stomach (gastric) cancer and invasive lobular carcinoma. Women with certain inherited genes may have an increased risk of breast and ovarian cancers. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of invasive lobular carcinoma may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer in the other breast.&lt;/strong&gt; Invasive lobular carcinoma is more likely to occur in both breasts compared with other types of breast cancer. If you&apos;re diagnosed with invasive lobular carcinoma in one breast, your doctor may recommend examination of the other breast to look for signs of cancer. The lifetime risk of developing cancer in your other breast after a diagnosis of invasive lobular breast cancer is about 15 percent, which is similar to the risk of developing invasive ductal cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that spreads to other areas of the body.&lt;/strong&gt; Invasive lobular carcinoma is slow to spread (metastasize) beyond the breast, but it can spread to other areas of the body. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. Your doctor may recommend tests to evaluate the area of the concern. If your doctor finds cancer, you may be referred to a doctor who specializes in treating cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For invasive lobular carcinoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have breast cancer?&lt;/li&gt;
+	&lt;li&gt;What is the size of my breast cancer?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my breast cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need additional tests?&lt;/li&gt;
+	&lt;li&gt;How will those tests help you determine the best treatments for me?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for my cancer?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;How will each treatment option affect my daily life? Can I continue working?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you recommend over the others?&lt;/li&gt;
+	&lt;li&gt;How do you know that these treatments will benefit me?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;How quickly do I need to make a decision about cancer treatment?&lt;/li&gt;
+	&lt;li&gt;Does my insurance plan cover the tests and treatment you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion? Will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites or books do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing invasive lobular carcinoma&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose invasive lobular carcinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mammogram.&lt;/strong&gt; A mammogram creates an X-ray image of your breast. Invasive lobular carcinoma is less likely to be detected on a mammogram than other types of breast cancer are. Still, a mammogram is a useful diagnostic test. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Ultrasound uses sound waves to create pictures of your breast. Invasive lobular carcinoma may be more difficult to detect with ultrasound than may other types of breast cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses a strong magnetic field to create a picture of your breast. A breast MRI may help in evaluating the extent of the disease within your breast if other imaging tests have been inconclusive. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of tissue for testing.&lt;/strong&gt; If an abnormality is detected, your doctor may recommend a biopsy procedure to remove a sample of suspicious breast tissue for laboratory testing. A breast biopsy can be done using a needle to draw out fluid or tissue from the breast, or breast tissue can be removed surgically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the extent of invasive lobular carcinoma&lt;/strong&gt; &lt;br /&gt;
+Once it&apos;s determined that you have invasive lobular carcinoma, your doctor works to learn the extent, or stage, of your cancer. Depending on your situation, your doctor may recommend imaging tests to stage your breast cancer, such as magnetic resonance imaging (MRI) and computerized tomography (CT), among others. 
+&lt;/p&gt;
+&lt;p&gt;
+Using this information, your doctor assigns your cancer a Roman numeral that indicates its stage. Breast cancer stages range from 0 to IV, with 0 indicating cancer that is very small and noninvasive. Stage IV breast cancer, also called metastatic breast cancer, indicates cancer that has spread to other areas of the body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of woman undergoing mammography exam 
+" Caption="During a mammogram, you stand in front of an X-ray machine designed for mammography. A technician places your breast on a platform that holds the X-ray film and positions the platform to match your height. The technician helps you position your head, arms and torso to allow an unobstructed view of your breast. 
+" Height="60" Title="Receiving a mammogram" URI="/images/image_popup/thumbs/mcdc7_mammography_techthu.jpg" Width="60" />
+				<Image Alt="Photo of woman undergoing mammography exam 
+" Caption="During a mammogram, you stand in front of an X-ray machine designed for mammography. A technician places your breast on a platform that holds the X-ray film and positions the platform to match your height. The technician helps you position your head, arms and torso to allow an unobstructed view of your breast. 
+" Height="261" Title="Receiving a mammogram" URI="/images/image_popup/mcdc7_mammography_tech.jpg" Width="400" />
+				<HTML>
+					During a mammogram, you stand in front of an X-ray machine designed for mammography. A technician places your breast on a platform that holds the X-ray film and positions the platform to match your ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
+				<Image Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="495" Title="Core needle biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
+				<HTML>
+					During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing breast MRI 
+" Caption="During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides into the large opening of the MRI machine. 
+" Height="60" Title="Breast MRI" URI="/images/image_popup/thumbs/mcdc7_breast_mrithu.jpg" Width="60" />
+				<Image Alt="Image showing breast MRI 
+" Caption="During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides into the large opening of the MRI machine. 
+" Height="328" Title="Breast MRI" URI="/images/image_popup/mcdc7_breast_mri.jpg" Width="400" />
+				<HTML>
+					During a breast MRI, you lie on your stomach on a padded scanning table. Your breasts fit into a hollow depression in the table, which contains coils that detect magnetic signals. The table slides ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options for invasive lobular carcinoma depend on your cancer, its stage, your overall health and your preferences. Treatment often consists of surgery and additional (adjuvant) therapy, which may include chemotherapy, radiation and hormone therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery for invasive lobular carcinoma may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the cancer and small portion of healthy tissue.&lt;/strong&gt; Called a lumpectomy or a wide local excision, this procedure allows you to keep most of your breast tissue. The surgeon removes the tumor itself, as well as a margin of normal tissue surrounding the tumor to make sure all the cancer that can be removed is taken out. Negative, or clean, margins reduce the chance of leaving any cancer in the breast. If the margins are positive, you may need additional surgery until negative margins are achieved. In some cases, this may mean removing the entire breast. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing all of the breast tissue.&lt;/strong&gt; Mastectomy is an operation to remove all of your breast tissue. Mastectomy can be simple, meaning the surgeon removes all of the breast tissue &amp;mdash; the lobules, ducts, fatty tissue and skin, including the nipple and areola. Another option is a modified radical mastectomy, which involves removing all of the breast tissue, as well as removing some of the skin and lymph nodes in the nearby armpit. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sentinel lymph node biopsy.&lt;/strong&gt; To determine whether cancer has spread to the lymph nodes near your breast, your surgeon identifies the first lymph nodes that receive the lymph drainage from your cancer. These lymph nodes are removed and tested for breast cancer cells (sentinel node biopsy). If no cancer is found, the chance of finding cancer in any of the remaining nodes is small and no other nodes need to be removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Axillary lymph node dissection.&lt;/strong&gt; If cancer is found in the sentinel node, then your surgeon may remove additional lymph nodes in your armpit (axillary lymph node dissection). Knowing if cancer has spread to the lymph nodes helps determine the best course of treatment, including whether you&apos;ll need chemotherapy or radiation therapy. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to destroy cancer cells. Treatment often involves receiving two or more drugs in different combinations. Chemotherapy can be given through a vein, in pill form or both ways. For invasive lobular carcinoma, chemotherapy is commonly used after surgery to kill any cells that may remain. Chemotherapy can also be used before surgery to shrink a tumor that is large. For women with large breast tumors, chemotherapy before surgery may make it possible to choose lumpectomy over mastectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. During radiation therapy, you lie on a table while a large machine moves around you directing energy beams at precise points in your breast. Radiation therapy may be recommended after a lumpectomy. It may also be recommended if your cancer was large or involved the lymph nodes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone therapy&lt;/strong&gt; &lt;br /&gt;
+Hormone therapy may be an option if your cancer cells are sensitive to hormones. Most invasive lobular carcinomas are hormone receptor positive, meaning they are sensitive to hormones. A sample of your tumor cells is tested to determine whether your cancer is hormone receptor positive. If it is, hormone therapies can block your body from producing hormones or block the cancer cells&apos; ability to use the hormones. One class of hormone therapy drugs called selective estrogen receptor modulators (SERMs), which includes tamoxifen, can be used in women who are premenopausal and in those who have experienced menopause. Another class of hormone therapy drugs called aromatase inhibitors is useful only in women who have experienced menopause. This class includes the drugs anastrozole (Arimidex), letrozole (Femara) and exemestane (Aromasin). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="60" Title="Lumpectomy" URI="/images/image_popup/thumbs/hdg7_lumpectomyincisionthu.jpg" Width="60" />
+				<Image Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="204" Title="Lumpectomy" URI="/images/image_popup/hdg7_lumpectomyincision.jpg" Width="400" />
+				<HTML>
+					During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="60" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/thumbs/hdg7_simplemastectomythu.jpg" Width="60" />
+				<Image Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="281" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/hdg7_simplemastectomy.jpg" Width="400" />
+				<HTML>
+					A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of radiation therapy for breast cancer 
+" Caption="External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+" Height="60" Title="Radiation therapy" URI="/images/image_popup/thumbs/mcdc7_breast_radiationthu.jpg" Width="60" />
+				<Image Alt="Illustration of radiation therapy for breast cancer 
+" Caption="External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+" Height="296" Title="Radiation therapy" URI="/images/image_popup/mcdc7_breast_radiation.jpg" Width="400" />
+				<HTML>
+					External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative medicine treatments can cure breast cancer. Instead, complementary and alternative treatments are most helpful for coping with the side effects of cancer and cancer treatment, such as hot flashes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alternative treatments for hot flashes&lt;/strong&gt; &lt;br /&gt;
+Hot flashes &amp;mdash; bouts of sudden, intense warmness that can leave you sweaty and uncomfortable &amp;mdash; can be a symptom of natural menopause or a side effect of hormone therapy for breast cancer. Women with breast cancers that use hormones for fuel may receive hormone therapy to block the interaction between hormones and cancer cells. Most invasive lobular carcinomas are hormone receptor positive. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor if you experience hot flashes. If hot flashes are mild, they&apos;re likely to subside over time. In most women, hot flashes eventually disappear. However, some women experience severe and bothersome hot flashes. Many treatments are available for hot flashes, including medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes treatments for hot flashes don&apos;t work as well as you&apos;d like. In those situations, it might help to add complementary and alternative treatments to make you feel better. 
+&lt;/p&gt;
+&lt;p&gt;
+Options might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; Hypnosis is a trance-like state that helps you concentrate and feel relaxed. You can undergo hypnosis with a therapist or by listening to recordings on your own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meditation.&lt;/strong&gt; Meditation is a deep state of concentration. Meditation is often used to promote relaxation and stress reduction. You can meditate with an instructor or you can do it on your own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation exercises.&lt;/strong&gt; Relaxation exercises are activities that help you relieve stress. Examples might include paced, deep breathing or closing your eyes and imagining a favorite place. You can learn relaxation exercises from a therapist or you can do them on your own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; During a yoga session, you move through a series of body positions while deep breathing. Yoga may help you feel relaxed. Yoga classes for all abilities are available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While none of these alternative treatments is proven to help control hot flashes, some preliminary evidence shows some breast cancer survivors have found them helpful. If you&apos;re interested in trying alternative treatment for hot flashes, talk to your doctor about your options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of breast cancer may be one of the most difficult situations you&apos;ll ever face. It can set off a roller coaster of emotions, from shock and fear to anger, anxiety or depression. There&apos;s no &quot;right&quot; way to feel and act when you&apos;re dealing with cancer. With time you&apos;ll find your own way of coping with your feelings. Until then, you may find comfort if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about your cancer to make treatment decisions.&lt;/strong&gt; Ask your doctor for details about your cancer &amp;mdash; the type, stage and treatment options. The more you know, the more comfortable you may feel when making treatment decisions. Ask your doctor to recommend good sources of information where you can learn more. Good places to start include the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support from family and friends.&lt;/strong&gt; Your close friends and family provide a support system that can help you cope during treatment. They can help you with the small tasks around the house you may not have the energy for during treatment. And they can be there to listen when you need someone to talk with.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; Other cancer survivors can offer unique support and insight because they understand what you&apos;re experiencing. Connect with other cancer survivors through support groups in your community. Ask your doctor about support groups or contact your local chapter of the American Cancer Society. Online support groups are also available at sites such as Breastcancer.org.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; During your treatment, allow yourself time to rest. Take good care of your body by getting enough sleep so you wake feeling rested, choosing a diet full of fruits and vegetables, staying as physically active as you&apos;re able, and taking time to relax. Try to maintain at least some of your daily routine, including social activities.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of breast cancer, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss the benefits and risks of hormone therapy with your doctor.&lt;/strong&gt; Combination hormone therapy may increase the risk of breast cancer. Talk with your doctor about the benefits and risks of hormone therapy. Some women experience bothersome signs and symptoms during menopause and, for these women, the increased risk of breast cancer may be acceptable in order to relieve menopause signs and symptoms. To reduce the risk of breast cancer, use the lowest dose of hormone therapy possible for the shortest amount of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Limit the amount of alcohol you drink to less than one drink a day, if you choose to drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Aim for at least 30 minutes of exercise on most days of the week. If you haven&apos;t been active lately, ask your doctor whether it&apos;s OK and start slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your current weight is healthy, work to maintain that weight. If you need to lose weight, ask your doctor about healthy strategies to accomplish this. Reduce the number of calories you eat each day and slowly increase the amount of exercise. Aim to lose weight slowly &amp;mdash; about 1 or 2 pounds a week.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a family history of breast cancer or feel you may have an increased risk of breast cancer, discuss this with your health care provider. Medications, surgery and more-frequent screening may be options for women with a high risk of breast cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Invasive lobular carcinoma
+	</Title>
+	<Abstract>
+		Invasive lobular carcinoma &amp;mdash; Comprehensive overview covers diagnosis, treatment of the lobular form of breast cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

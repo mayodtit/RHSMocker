@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00560
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dry-skin/DS00560
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-23
+		</UpdateDate>
+		<PublicationDate>
+			2004-12-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2863" Title="Dry skin" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E5B1B6E3-7EA4-4120-95D00FA32831AE44
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dry skin
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin
+			</MetaKeyword>
+			<MetaKeyword>
+				cracked skin
+			</MetaKeyword>
+			<MetaKeyword>
+				moisturizers
+			</MetaKeyword>
+			<MetaKeyword>
+				winter itch
+			</MetaKeyword>
+			<MetaKeyword>
+				xerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pruritis
+			</MetaKeyword>
+			<MetaKeyword>
+				ichtyhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				lamellar ichthyosis
+			</MetaKeyword>
+			<MetaKeyword>
+				asteatotic eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin care
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				dry hands
+			</MetaKeyword>
+			<MetaKeyword>
+				chapped hands
+			</MetaKeyword>
+			<MetaKeyword>
+				winter skin care
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ordinarily, dry skin isn&apos;t serious, but it can be uncomfortable and unsightly, turning plump cells into shriveled ones and creating fine lines and wrinkles.
+&lt;/p&gt;
+&lt;p&gt;
+Serious dry skin conditions &amp;mdash; an inherited group of disorders called ichthyosis &amp;mdash; can sometimes be disfiguring, causing psychological distress. Fortunately, most dry skin results from environmental factors that can be wholly or partially controlled. These include exposure to hot or cold weather with low humidity levels and excessive bathing.
+&lt;/p&gt;
+&lt;p&gt;
+Chronic or severe dry skin problems may require a dermatologist&apos;s evaluation. But first you can do a lot on your own to improve your skin, including using moisturizers, bathing less and avoiding harsh, drying soaps.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dry skin is often just a temporary problem &amp;mdash; one you experience only in winter, for example &amp;mdash; but it may be a lifelong concern. And although skin is often driest on your arms and lower legs, this pattern can vary considerably from person to person. What&apos;s more, signs and symptoms of dry skin depend on your age, your health status, your locale, the amount of time you spend outdoors and the cause of the problem.
+&lt;/p&gt;
+&lt;p&gt;
+If you have dry skin, you&apos;re likely to experience one or more of the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling of skin tightness, especially after showering, bathing or swimming&lt;/li&gt;
+	&lt;li&gt;Skin that appears shrunken or dehydrated&lt;/li&gt;
+	&lt;li&gt;Skin that feels and looks rough rather than smooth&lt;/li&gt;
+	&lt;li&gt;Itching (pruritus) that sometimes may be intense&lt;/li&gt;
+	&lt;li&gt;Slight to severe flaking, scaling or peeling&lt;/li&gt;
+	&lt;li&gt;Fine lines or cracks&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Deep fissures that may bleed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Most cases of dry skin respond well to lifestyle and home remedies. See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your skin doesn&apos;t improve in spite of your best efforts&lt;/li&gt;
+	&lt;li&gt;Dry skin is accompanied by redness&lt;/li&gt;
+	&lt;li&gt;Dryness and itching interfere with sleeping&lt;/li&gt;
+	&lt;li&gt;You have open sores or infections from scratching&lt;/li&gt;
+	&lt;li&gt;You have large areas of scaling or peeling skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Though most cases of dry skin (xerosis) are caused by environmental exposures, certain diseases also can significantly alter the function and appearance of your skin. Potential causes of dry skin include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weather.&lt;/strong&gt; In general, your skin is driest in winter, when temperatures and humidity levels plummet. Winter conditions also tend to make many existing skin conditions worse. But the reverse may be true if you live in desert regions, where temperatures can soar, but humidity levels remain low.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Central heating and air conditioning.&lt;/strong&gt; Central air and heating, wood-burning stoves, space heaters, and fireplaces all reduce humidity and dry your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hot baths and showers.&lt;/strong&gt; Frequent showering or bathing, especially if you like the water hot and your baths long, breaks down the lipid barriers in your skin. So does frequent swimming, particularly in heavily chlorinated pools.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Harsh soaps and detergents.&lt;/strong&gt; Many popular soaps and detergents strip lipids and water from your skin. Deodorant and antibacterial soaps are usually the most damaging, as are many shampoos that dry out your scalp.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sun exposure.&lt;/strong&gt; Like all types of heat, the sun dries your skin. Yet damage from ultraviolet (UV) radiation penetrates far beyond the top layer of skin (epidermis). The most significant damage occurs deep in the dermis, where collagen and elastin fibers break down much more quickly than they should, leading to deep wrinkles and loose, sagging skin (solar elastosis). Sun-damaged skin may have the appearance of dry skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis.&lt;/strong&gt; This is one of the more common types of eczema, and those affected have more sensitive and drier skin. Many persons with mild eczema confuse this skin condition with excessive dryness. Areas commonly affected include the face, sides of the neck, and fold areas around the elbows, wrists, knees and ankles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriasis.&lt;/strong&gt; This skin condition is marked by a rapid buildup of rough, dry, dead skin cells that form thick scales.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid disorders.&lt;/strong&gt; Hypothyroidism, a condition that occurs when your thyroid produces too little thyroid hormones, reduces the activity of your sweat and oil glands, leading to rough, dry skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop dry skin, you may be more likely to develop the condition if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are an older adult&lt;/li&gt;
+	&lt;li&gt;Live in dry, cold or low-humidity climates&lt;/li&gt;
+	&lt;li&gt;Bathe or shower frequently&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some people who have a tendency toward eczema, dry skin that&apos;s not cared for can lead to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis (eczema).&lt;/strong&gt; If you&apos;re prone to develop this condition, excessive dryness can lead to activation of the disease, causing redness, cracking and inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Folliculitis.&lt;/strong&gt; This is an inflammation of your hair follicles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cellulitis.&lt;/strong&gt; This is a potentially serious bacterial infection of the skin&apos;s underlying tissues; these bacteria may enter the lymphatic system and blood vessels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These complications are most likely to occur when your skin&apos;s normal protective mechanisms are severely compromised. For example, severely dry skin can cause deep cracks or fissures, which can open up and bleed, providing an avenue for invading bacteria.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, in some cases when you call to set up an appointment, you may be referred directly to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your appointment. List your questions from most important to least important in case time runs out. For dry skin, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing the dry skin?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend to improve my symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you several questions. Being ready to answer them may reserve time to go over any points you want to discuss more. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have other symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes it better?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes it worse?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+	&lt;li&gt;Do you have asthma or hay fever, or do these conditions run in your family?&lt;/li&gt;
+	&lt;li&gt;What is your typical bathing pattern, and which soaps and shampoos do you use?&lt;/li&gt;
+	&lt;li&gt;Do you use moisturizing creams? If so, which ones and how often do you use them?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Physical exam and medical history&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to conduct a thorough physical exam and to ask questions about your medical history, including when your dry skin started, what factors make it better or worse, your bathing habits, your diet, and how you care for your skin.
+&lt;/p&gt;
+&lt;p&gt;
+You may have certain diagnostic tests if your doctor suspects that your dry skin is the result of an underlying medical condition, such as hypothyroidism.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Related conditions&lt;/strong&gt;&lt;br /&gt;
+Through examination and tests, your doctor may determine that your dry skin is, in fact, a sign of another skin condition. Related dry skin conditions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keratosis pilaris.&lt;/strong&gt; Keratosis pilaris causes small, acne-like bumps, which usually appear on the upper arms, legs or buttocks; they usually don&apos;t hurt or itch. The bumps create rough patches and give skin a goose-flesh or sandpaper appearance. Typically, patches are skin colored, but they can, at times, be red and inflamed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ichthyosis vulgaris.&lt;/strong&gt; Sometimes also called fish-scale disease or fishskin disease, ichthyosis vulgaris develops when skin cells fail to shed normally and instead accumulate in thick, dry scales. The scales are small, polygonal in shape and range in color from white to brown. Ichthyosis vulgaris may also cause scalp flaking and deep, painful fissures on your palms and soles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asteatotic eczema (eczema craquele).&lt;/strong&gt; This condition causes dry, scaly, deeply fissured skin that some doctors have described as resembling cracked porcelain or a dry riverbed. The affected skin may become inflamed, itchy and may bleed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriasis.&lt;/strong&gt; A frustrating and sometimes disfiguring skin condition, psoriasis can be confused with dry skin conditions at times. This is because it&apos;s marked by reddened skin with dry, silvery scales that sometimes resemble dandruff. It is not caused by dry skin, but can result in areas of red, dry skin developing in certain areas. In severe cases, your skin may crack, bleed and form pus-filled blisters. Psoriasis is a persistent, chronic disease that tends to flare periodically, and although it may go into remission, it usually remains active for years.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, dry skin problems respond well to home and lifestyle measures, such as using moisturizers and avoiding long, hot showers and baths. If you have very dry and scaly skin, your doctor may recommend you use an over-the-counter (nonprescription) cream that contains lactic acid or lactic acid and urea.
+&lt;/p&gt;
+&lt;p&gt;
+If you have a more serious skin disease, such as atopic dermatitis, ichthyosis or psoriasis, your doctor may prescribe prescription creams and ointments or other treatments in addition to home care.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes dry skin leads to dermatitis, which causes red, itchy skin. In these cases, treatment may include hydrocortisone-containing lotions. If your skin cracks open, your doctor may prescribe wet dressings with mildly astringent properties to contract your skin and reduce secretions and prevent infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it may not be possible to achieve flawless skin, the following measures can help keep your skin moist and healthy:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your skin.&lt;/strong&gt; Moisturizers provide a seal over your skin to keep water from escaping. Thicker moisturizers work best, such as over-the-counter brands Eucerin and Cetaphil. You may also want to use cosmetics that contain moisturizers. If your skin is extremely dry, you may want to apply an oil, such as baby oil, while your skin is still moist. Oil has more staying power than moisturizers do and prevents the evaporation of water from the surface of your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use warm water and limit bath time.&lt;/strong&gt; Hot water and long showers or baths remove oils from your skin. Limit your bath or shower time to about 15 minutes or less, and use warm, rather than hot, water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harsh, drying soaps.&lt;/strong&gt; If you have dry skin, it&apos;s best to use cleansing creams or gentle skin cleansers and bath or shower gels with added moisturizers. Choose mild soaps that have added oils and fats, such as Neutrogena, Basis or Dove. Avoid deodorant and antibacterial detergents, which are especially harsh. You might want to experiment with several brands until you find one that works particularly well for you. A good rule of thumb is that your skin should feel soft and smooth after cleansing, never tight or dry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply moisturizers immediately after bathing.&lt;/strong&gt; After washing or bathing, gently pat or blot your skin dry with a towel so that some moisture remains on the skin. Immediately moisturize your skin with an oil or cream to help trap water in the surface cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Hot, dry indoor air can parch sensitive skin and worsen itching and flaking. A portable home humidifier or one attached to your furnace adds moisture to the air inside your home. Portable humidifiers come in many varieties. Choose one that meets your budget and any special needs. And be sure to keep your humidifier clean to ward off bacteria and fungi.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose fabrics that are kind to your skin.&lt;/strong&gt; Natural fibers, such as cotton and silk, allow your skin to breathe. But wool, although it certainly qualifies as natural, can irritate even normal skin. When you wash your clothes, try to use detergents without dyes or perfumes, both of which can irritate your skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If dry skin causes itching, apply cool compresses to the area. To reduce inflammation, use a nonprescription hydrocortisone cream or ointment, containing at least 1 percent hydrocortisone. If these measures don&apos;t relieve your symptoms or if your symptoms worsen, see your doctor or consult a dermatologist.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dry skin
+	</Title>
+	<Abstract>
+		Dry skin &amp;mdash; Comprehensive overview covers causes, treatments and tips for dry skin care.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02191" LinkType="Internal" ObjectID="2C6EEE2B-0CE6-841E-C6ED62C1E2F8E291" Title="Hydrated skin: Does drinking water help?" Url="http://www.mayoclinic.com/health/hydrated-skin/AN02191" />
+		<LinkItem ContentType="Article" DocID="SN00003" LinkType="Internal" ObjectID="EFC4004C-25CE-4C77-925237045078807F" Title="Skin care: 5 tips for healthy skin" Url="http://www.mayoclinic.com/health/skin-care/SN00003" />
+		<LinkItem ContentType="Answer" DocID="AN01440" LinkType="Internal" ObjectID="D60091A8-E7FF-0DBD-1C0C0DFB7657C55B" Title="Chapped lips: What&apos;s the best remedy?" Url="http://www.mayoclinic.com/health/chapped-lips/AN01440" />
+		<LinkItem ContentType="Disease" DocID="DS00193" LinkType="Internal" ObjectID="314A4C2A-D3AD-46E8-8730C1905D41C7CF" Title="Psoriasis" Url="http://www.mayoclinic.com/health/psoriasis/DS00193" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+		<LinkItem ContentType="Article" DocID="SN00042" LinkType="Internal" ObjectID="143B6EA6-E7FF-0DBD-1C63513A6294E009" Title="Moisturizers: Options for softer skin" Url="http://www.mayoclinic.com/health/moisturizers/SN00042" />
+	</RelatedLinksBox>
+</Disease>

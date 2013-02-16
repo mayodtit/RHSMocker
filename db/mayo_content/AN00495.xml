@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00495
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-cancer/AN00495
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-11
+		</UpdateDate>
+		<PublicationDate>
+			2003-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="2376" Title="HER2 positive invasive breast cancer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CC9793D7-4910-4916-9EEA92E19D8E463F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				HER2-positive breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				HER2 breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				HER-2 breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				her2
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+HER2-positive breast cancer is a breast cancer that tests positive for a protein called human epidermal growth factor receptor 2 (HER2), which promotes the growth of cancer cells. In about 1 of every 5 breast cancers, the cancer cells make an excess of HER2 due to a gene mutation. This gene mutation and the elevated levels of HER2 that it causes can occur in many types of cancer &amp;mdash; not only breast cancer. This is a gene mutation that occurs only in the cancer cells and is not a type of mutation that you can inherit from a parent. 
+&lt;/p&gt;
+&lt;p&gt;
+HER2-positive breast cancers tend to be more aggressive than other types of breast cancer. They&apos;re also less responsive to hormone treatment. However, treatments that specifically target HER2 are very effective. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trastuzumab (Herceptin).&lt;/strong&gt; Trastuzumab, which specifically targets HER2, kills these cancer cells and decreases the risk of recurrence. Trastuzumab is often used with chemotherapy. But it may also be used alone or in combination with hormone-blocking medications, such as an aromatase inhibitor or tamoxifen. Trastuzumab is usually well tolerated, but it does have some potential side effects, such as congestive heart failure and allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lapatinib (Tykerb).&lt;/strong&gt; Like trastuzumab, lapatinib is a HER2-specific drug. Lapatinib may be effective for HER2-positive breast cancer that doesn&apos;t respond to trastuzumab. Lapatinib is used in combination with the chemotherapy drug capecitabine (Xeloda) and the aromatase inhibitor letrozole (Femara). Lapatinib is also being studied in combination with trastuzumab. Common side effects include rash, loose stools and the potential risk of congestive heart failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, there are several new medications being developed that also target HER2 and are being tested in clinical trials. 
+&lt;/p&gt;
+&lt;p&gt;
+Standard chemotherapy agents such as doxorubicin (Adriamycin) also can be effective in treating HER2-positive breast cancers, although these drugs don&apos;t specifically target the HER2 protein. 
+&lt;/p&gt;
+&lt;p&gt;
+Routine testing for HER2 is recommended for most women diagnosed with invasive breast cancer because the results may affect treatment recommendations and decisions. HER2 testing is not done routinely for ductal carcinoma in situ but may be performed as part of a clinical trial. Whenever breast cancer recurs or spreads, the cancer cells should be retested for HER2 as well as for hormone receptor status, as these can change from the original cancer in up to 20 to 30 percent of cases. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		HER2-positive breast cancer: What is it?
+	</Title>
+	<Abstract>
+		HER2-positive breast cancer tends to be more aggressive than other types of breast cancer.
+	</Abstract>
+	<Question>
+		A friend of mine has HER2-positive breast cancer. Can you tell me what this means?
+	</Question>
+	<QuestionFirstName>
+		Terry
+	</QuestionFirstName>
+	<QuestionState>
+		Arizona
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</Answer>

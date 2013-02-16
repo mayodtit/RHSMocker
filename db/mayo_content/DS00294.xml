@@ -1,0 +1,521 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00294
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/eating-disorders/DS00294
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-08
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1567" Title="Eating disorders" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D95D8CE6-D330-4647-896530535E892A08
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eating disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				anorexia nervosa
+			</MetaKeyword>
+			<MetaKeyword>
+				self-starvation
+			</MetaKeyword>
+			<MetaKeyword>
+				anorexia
+			</MetaKeyword>
+			<MetaKeyword>
+				bulimia
+			</MetaKeyword>
+			<MetaKeyword>
+				bulimia nervosa
+			</MetaKeyword>
+			<MetaKeyword>
+				binge eating
+			</MetaKeyword>
+			<MetaKeyword>
+				binge eating disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				purge
+			</MetaKeyword>
+			<MetaKeyword>
+				binge
+			</MetaKeyword>
+			<MetaKeyword>
+				purging
+			</MetaKeyword>
+			<MetaKeyword>
+				bingeing
+			</MetaKeyword>
+			<MetaKeyword>
+				fasting
+			</MetaKeyword>
+			<MetaKeyword>
+				excessive exercise
+			</MetaKeyword>
+			<MetaKeyword>
+				body image
+			</MetaKeyword>
+			<MetaKeyword>
+				eating behavior
+			</MetaKeyword>
+			<MetaKeyword>
+				body shape
+			</MetaKeyword>
+			<MetaKeyword>
+				weight suppression
+			</MetaKeyword>
+			<MetaKeyword>
+				bulemia
+			</MetaKeyword>
+			<MetaKeyword>
+				self esteem
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eating disorders are a group of serious conditions in which you&apos;re so preoccupied with food and weight that you can often focus on little else. The main types of eating disorders are anorexia nervosa, bulimia nervosa and binge-eating disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Eating disorders can cause serious physical problems and, at their most severe, can even be life-threatening. Most people with eating disorders are females, but males can also have eating disorders. An exception is binge-eating disorder, which appears to affect almost as many males as females.
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for eating disorders usually involve psychotherapy, nutrition education, family counseling, medications and hospitalization. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eating disorders symptoms vary with the particular type of eating disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anorexia nervosa&lt;br /&gt;
+&lt;/strong&gt;When you have anorexia nervosa (an-o-REK-see-uh nur-VOH-suh), you&apos;re obsessed with food and being thin, sometimes to the point of deadly self-starvation. 
+&lt;/p&gt;
+&lt;p&gt;
+Anorexia signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Refusal to eat and denial of hunger&lt;/li&gt;
+	&lt;li&gt;An intense fear of gaining weight&lt;/li&gt;
+	&lt;li&gt;A negative or distorted self-image&lt;/li&gt;
+	&lt;li&gt;Excessive exercise&lt;/li&gt;
+	&lt;li&gt;Flat mood or lack of emotion&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Fear of eating in public&lt;/li&gt;
+	&lt;li&gt;Preoccupation with food&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+	&lt;li&gt;Thin appearance&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping&lt;/li&gt;
+	&lt;li&gt;Soft, downy hair present on the body (lanugo)&lt;/li&gt;
+	&lt;li&gt;Menstrual irregularities or loss of menstruation (amenorrhea)&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Dry skin&lt;/li&gt;
+	&lt;li&gt;Frequently being cold&lt;/li&gt;
+	&lt;li&gt;Irregular heart rhythms&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bulimia nervosa&lt;br /&gt;
+&lt;/strong&gt;When you have bulimia, you have episodes of bingeing and purging. During these episodes, you typically eat a large amount of food in a short duration and then try to rid yourself of the extra calories through vomiting or excessive exercise. You may be at a normal weight or even a bit overweight. 
+&lt;/p&gt;
+&lt;p&gt;
+Bulimia signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating until the point of discomfort or pain, often with high-fat or sweet foods&lt;/li&gt;
+	&lt;li&gt;Self-induced vomiting&lt;/li&gt;
+	&lt;li&gt;Laxative use&lt;/li&gt;
+	&lt;li&gt;Excessive exercise&lt;/li&gt;
+	&lt;li&gt;An unhealthy focus on body shape and weight&lt;/li&gt;
+	&lt;li&gt;A distorted, excessively negative body image&lt;/li&gt;
+	&lt;li&gt;Low self-esteem&lt;/li&gt;
+	&lt;li&gt;Going to the bathroom after eating or during meals&lt;/li&gt;
+	&lt;li&gt;A feeling that you can&apos;t control your eating behavior&lt;/li&gt;
+	&lt;li&gt;Abnormal bowel functioning&lt;/li&gt;
+	&lt;li&gt;Damaged teeth and gums&lt;/li&gt;
+	&lt;li&gt;Swollen salivary glands in the cheeks&lt;/li&gt;
+	&lt;li&gt;Sores in the throat and mouth&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Sores, scars or calluses on the knuckles or hands&lt;/li&gt;
+	&lt;li&gt;Menstrual irregularities or loss of menstruation (amenorrhea)&lt;/li&gt;
+	&lt;li&gt;Constant dieting or fasting&lt;/li&gt;
+	&lt;li&gt;Possibly, drug or alcohol abuse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Binge-eating disorder&lt;br /&gt;
+&lt;/strong&gt;When you have binge-eating disorder, you regularly eat excessive amounts of food (binge), but don&apos;t try to compensate for this behavior with exercise or purging as someone with bulimia or anorexia might. You may eat when you&apos;re not hungry and continue eating even long after you&apos;re uncomfortably full. After a binge, you may feel guilty or ashamed, which can trigger a new round of bingeing. You may be a normal weight, overweight or obese. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of binge-eating disorder may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating to the point of discomfort or pain&lt;/li&gt;
+	&lt;li&gt;Eating much more food during a binge episode than during a normal meal or snack&lt;/li&gt;
+	&lt;li&gt;Eating faster during binge episodes&lt;/li&gt;
+	&lt;li&gt;Feeling that your eating behavior is out of control&lt;/li&gt;
+	&lt;li&gt;Frequently eating alone&lt;/li&gt;
+	&lt;li&gt;Feeling depressed, disgusted or upset over the amount eaten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Because of its powerful pull, an eating disorder can be difficult to manage or overcome by yourself. Eating disorders can virtually take over your life. You may think about food all the time, spend hours agonizing over what to eat and exercise to exhaustion. You may feel ashamed, sad, hopeless, drained, irritable and anxious. You may also have a host of physical problems because of your eating disorder, such as irregular heartbeats, fatigue, and bowel or menstrual troubles. If you&apos;re experiencing any of these problems, or if you think you may have an eating disorder, seek medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Urging a loved one to seek treatment&lt;br /&gt;
+&lt;/strong&gt;Unfortunately, many people with eating disorders resist treatment. If you have a loved one you&apos;re worried about, urge him or her to talk to a doctor. Even if your loved one isn&apos;t ready to acknowledge having an issue with food, you may be able to open the door by expressing concern and a desire to listen. If you&apos;re concerned your child may have an eating disorder, contact his or her doctor about your concerns. You can get a referral to qualified mental health providers for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind, however, that in children it&apos;s sometimes hard to tell what&apos;s an eating disorder and what&apos;s simply a whim, a new fad, or experimentation with a vegetarian diet or other eating styles. In addition, many girls and sometimes boys go on diets to lose weight, but stop dieting after a short time. If you&apos;re a parent or guardian, be careful not to mistake occasional dieting with an eating disorder. On the other hand, be alert for eating patterns and beliefs that may signal unhealthy behavior, as well as peer pressure that may trigger eating disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Red flags that may indicate an eating disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skipping meals&lt;/li&gt;
+	&lt;li&gt;Making excuses for not eating&lt;/li&gt;
+	&lt;li&gt;Eating only a few certain &quot;safe&quot; foods, usually those low in fat and calories&lt;/li&gt;
+	&lt;li&gt;Adopting rigid meal or eating rituals, such as cutting food into tiny pieces or spitting food out after chewing&lt;/li&gt;
+	&lt;li&gt;Cooking elaborate meals for others, but refusing to eat them themselves&lt;/li&gt;
+	&lt;li&gt;Collecting recipes&lt;/li&gt;
+	&lt;li&gt;Withdrawing from normal social activities&lt;/li&gt;
+	&lt;li&gt;Persistent worry or complaining about being fat&lt;/li&gt;
+	&lt;li&gt;A distorted body image, such as complaining about being fat despite being underweight&lt;/li&gt;
+	&lt;li&gt;Not wanting to eat in public&lt;/li&gt;
+	&lt;li&gt;Frequent checking in the mirror for perceived flaws&lt;/li&gt;
+	&lt;li&gt;Wearing baggy or layered clothing&lt;/li&gt;
+	&lt;li&gt;Repeatedly eating large amounts of sweet or high-fat foods&lt;/li&gt;
+	&lt;li&gt;Use of syrup of ipecac, laxatives, the over-the-counter weight-loss drug orlistat (Alli), or over-the-counter drugs that can cause fluid loss, such as menstrual symptom relief medications&lt;/li&gt;
+	&lt;li&gt;Use of dietary supplements or herbal products for weight loss&lt;/li&gt;
+	&lt;li&gt;Food hoarding&lt;/li&gt;
+	&lt;li&gt;Leaving during meals to use the toilet&lt;/li&gt;
+	&lt;li&gt;Eating in secret&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of eating disorders is unknown. As with other mental illnesses, there may be many causes. Possible causes of eating disorders include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biology.&lt;/strong&gt; There may be genes that make certain people more vulnerable to developing eating disorders. People with first-degree relatives &amp;mdash; siblings or parents &amp;mdash; with an eating disorder may be more likely to develop an eating disorder, too, suggesting a possible genetic link. In addition, there&apos;s some evidence that serotonin, a naturally occurring brain chemical, may influence eating behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological and emotional health.&lt;/strong&gt; People with eating disorders may have psychological and emotional problems that contribute to the disorder. They may have low self-esteem, perfectionism, impulsive behavior and troubled relationships.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Society.&lt;/strong&gt; The modern Western cultural environment often cultivates and reinforces a desire for thinness. Success and worth are often equated with being thin in popular culture. Peer pressure and what people see in the media may fuel this desire to be thin, particularly among young girls.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain situations and events might increase the risk of developing an eating disorder. These risk factors may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Teenage girls and young women are more likely than are teenage boys and young men to have eating disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Although eating disorders can occur across a broad age range &amp;mdash; from pre-adolescents to older adults &amp;mdash; they are much more common during the teens and early 20s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Eating disorders are significantly more likely to occur in people who have parents or siblings who&apos;ve had an eating disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional disorders.&lt;/strong&gt; People with depression, anxiety disorders and obsessive-compulsive disorder are more likely to have an eating disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dieting.&lt;/strong&gt; People who lose weight are often reinforced by positive comments from others and by their changing appearance. This may cause some people to take dieting too far, leading to an eating disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transitions.&lt;/strong&gt; Whether it&apos;s heading off to college, moving, landing a new job or a relationship breakup, change can bring emotional distress, which may increase your susceptibility to an eating disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports, work and artistic activities.&lt;/strong&gt; Athletes, actors and television personalities, dancers, and models are at higher risk of eating disorders. Eating disorders are particularly common among ballerinas, gymnasts, runners and wrestlers. Coaches and parents may unwittingly contribute to eating disorders by encouraging young athletes to lose weight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eating disorders cause a wide variety of complications, some of them life-threatening. The more severe or long lasting the eating disorder, the more likely you are to experience serious complications. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Death&lt;/li&gt;
+	&lt;li&gt;Heart problems&lt;/li&gt;
+	&lt;li&gt;Multiple organ failure&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Suicidal thoughts or behavior&lt;/li&gt;
+	&lt;li&gt;Absence of menstruation (amenorrhea)&lt;/li&gt;
+	&lt;li&gt;Bone loss&lt;/li&gt;
+	&lt;li&gt;Stunted growth&lt;/li&gt;
+	&lt;li&gt;Digestive problems&lt;/li&gt;
+	&lt;li&gt;Kidney damage&lt;/li&gt;
+	&lt;li&gt;Severe tooth decay&lt;/li&gt;
+	&lt;li&gt;High or low blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of an eating disorder generally includes a team approach comprised of medical providers, mental health providers and dietitians, all with experience in eating disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointments, and what you might expect from your doctor and other health providers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot. A family member may also be able to give your doctor a fuller picture of your home life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor so that you&apos;ll remember to cover everything you wanted to.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some potential questions you might want to ask your doctor or other health care provider include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to gain weight as part of my treatment?&lt;/li&gt;
+	&lt;li&gt;Will my periods begin again?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting, if any?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask, don&apos;t hesitate to ask additional questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor or other health care provider is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been worried about your weight?&lt;/li&gt;
+	&lt;li&gt;Do you exercise? How often do you exercise and for how long?&lt;/li&gt;
+	&lt;li&gt;Have you found any other ways to lose weight?&lt;/li&gt;
+	&lt;li&gt;Are you having any physical symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever vomited because you were uncomfortably full?&lt;/li&gt;
+	&lt;li&gt;Have others expressed concern that you&apos;re too thin?&lt;/li&gt;
+	&lt;li&gt;Do you think about food often?&lt;/li&gt;
+	&lt;li&gt;Do you ever eat in secret?&lt;/li&gt;
+	&lt;li&gt;Have any of your family members ever had symptoms of an eating disorder or have any been diagnosed with an eating disorder?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eating disorders are diagnosed based on signs, symptoms and eating habits. When doctors suspect someone has an eating disorder, they typically run many tests or perform exams. These can help pinpoint a diagnosis and also check for related complications. You may see both a medical doctor and a mental health provider for a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical evaluations&lt;br /&gt;
+&lt;/strong&gt;These exams and tests generally include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; This may include measuring height, weight and body mass index; checking vital signs, such as heart rate, blood pressure and temperature; checking the skin for dryness or other problems; listening to the heart and lungs; and examining your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory tests.&lt;/strong&gt; These may include a complete blood count, as well as more-specialized blood tests to check electrolytes and protein, as well as liver, kidney and thyroid function. A urinalysis also may be done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other studies.&lt;/strong&gt; X-rays may be taken to check for pneumonia or heart problems. Electrocardiograms may be done to look for heart irregularities. You may also have a bone density test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychological evaluations&lt;br /&gt;
+&lt;/strong&gt;In addition to a physical exam, you&apos;ll have a thorough psychological evaluation. Your doctor or mental health provider may ask you a number of questions about your eating habits, beliefs and behavior. The questions may focus on your history of dieting, bingeing, purging and exercise. You&apos;ll explore how you perceive your body image and how you think others perceive your body image. You may also fill out psychological self-assessments and questionnaires. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria&lt;br /&gt;
+&lt;/strong&gt;To be diagnosed with an eating disorder, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM) published by the American Psychiatric Association. Each eating disorder has its own set of diagnostic criteria. Your mental health provider will review your signs and symptoms to see if you meet the necessary diagnostic criteria for a particular eating disorder. Some people may not meet all of the criteria but still have an eating disorder and need professional help to overcome or manage it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eating disorder treatment depends on your specific type of eating disorder. But in general, it typically includes psychotherapy, nutrition education and medication. If your life is at risk, you may need immediate hospitalization.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Individual psychotherapy can help you learn how to exchange unhealthy habits for healthy ones. You learn how to monitor your eating and your moods, develop problem-solving skills, and explore healthy ways to cope with stressful situations. Psychotherapy can also help improve your relationships and your mood. A type of psychotherapy called cognitive behavioral therapy is commonly used in eating disorder treatment, especially for bulimia nervosa and binge-eating disorder. Group therapy also may be helpful for some people. 
+&lt;/p&gt;
+&lt;p&gt;
+Family-based therapy is the only effective treatment for children and adolescents with eating disorders. This type of therapy begins with the assumption that the person with the eating disorder is no longer capable of making sound decisions regarding his or her health and needs help from the family. An important part of family-based therapy is that your family is involved in making sure that your child or other family member is following healthy-eating patterns and is restoring weight. This type of therapy can help encourage support from concerned family members. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Weight restoration and nutrition education&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re underweight due to an eating disorder, the first goal of treatment will be to start getting you back to a healthy weight. No matter what your weight, dietitians and other health care providers can give you information about a healthy diet and help design an eating plan that can help you achieve a healthy weight and instill normal-eating habits. If you have binge-eating disorder, you may benefit from medically supervised weight-loss programs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization&lt;br /&gt;
+&lt;/strong&gt;If you have serious health problems or if you have anorexia and refuse to eat or gain weight, your doctor may recommend hospitalization. Hospitalization may be on a medical or psychiatric ward. Some clinics specialize in treating people with eating disorders. Some may offer day programs, rather than full hospitalization. Specialized eating disorder programs may offer more intensive treatment over longer periods of time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medication can&apos;t cure an eating disorder. However, medications may help you control urges to binge or purge or to manage excessive preoccupations with food and diet. Medications such as antidepressants and anti-anxiety medications may also help with symptoms of depression or anxiety, which are frequently associated with eating disorders. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you have an eating disorder, taking care of your health needs often isn&apos;t one of your priorities. But proper self-care can help you feel better during and after treatment and help maintain your overall health. 
+&lt;/p&gt;
+&lt;p&gt;
+Try to make these steps a part of your daily routine: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Don&apos;t skip therapy sessions and try not to stray from meal plans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor&lt;/strong&gt; about appropriate vitamin and mineral supplements to make sure you&apos;re getting all the essential nutrients.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t isolate yourself&lt;/strong&gt; from caring family members and friends who want to see you get healthy and have your best interests at heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your health care providers&lt;/strong&gt; about what kind of exercise, if any, is appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Read self-help books&lt;/strong&gt; that offer sound, practical advice. Consider discussing the books with your health care providers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Resist urges&lt;/strong&gt; to weigh yourself or check yourself in the mirror frequently. Otherwise, you may simply fuel your drive to maintain unhealthy habits.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Usually, when people turn to alternative medicine it&apos;s to improve their health, but for people with eating disorders this isn&apos;t always the case. Alternative medicine treatments have both negative and positive consequences when it comes to eating disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The bad&lt;br /&gt;
+&lt;/strong&gt;There are numerous dietary supplements and herbal products designed to suppress the appetite or aid in weight loss, and these products may be abused by people with eating disorders. Many people with eating disorders have used such products. These products can have potentially dangerous interactions with other medications, such as laxatives or diuretics, that are commonly used by people with eating disorders. Additionally, weight-loss supplements or herbs can have serious side effects on their own, such as irregular heartbeats, tremors, hallucinations, insomnia, nausea, dizziness and nervousness. Discuss the potential risks of using dietary supplements or herbs for weight loss with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The good&lt;br /&gt;
+&lt;/strong&gt;Although no alternative or complementary therapies have been conclusively found to be helpful for people with eating disorders, some research has suggested that several treatments may provide benefits, particularly for reducing anxiety. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments generally considered safe that may help improve your mood and reduce stress and anxiety include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chamomile tea&lt;/li&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Yoga&lt;/li&gt;
+	&lt;li&gt;Biofeedback&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to getting professional treatment for your eating disorder, you can also follow these coping skills: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Boost your self-esteem.&lt;/strong&gt; Get involved in activities that interest you and that are personally rewarding. These may include learning a new skill, developing a hobby or participating in a social group in your church or community.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be realistic.&lt;/strong&gt; Don&apos;t accept what some of the media portray about what&apos;s a normal weight and what&apos;s an ideal body image.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Resist the urge to diet or skip meals.&lt;/strong&gt; Dieting actually triggers unhealthy eating and makes it difficult to cope with stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remind yourself what a healthy weight is for your body,&lt;/strong&gt; especially at times when you see images that may trigger your desire to binge and purge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t visit websites that advocate or glorify eating disorders.&lt;/strong&gt; These sites can encourage you to maintain dangerous habits and can trigger relapses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identify troublesome situations&lt;/strong&gt; that are likely to trigger thoughts or behavior that may contribute to your eating disorder so that you can develop a plan to deal with them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Look for positive role models,&lt;/strong&gt; even if they&apos;re not easy to find. Remind yourself that the ultrathin models or actresses showcased in popular magazines often don&apos;t represent healthy bodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acknowledge that you may not be the best judge&lt;/strong&gt; of whether your eating habits and weight are healthy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider journaling&lt;/strong&gt; about your feelings and behaviors. Journaling can make you more aware of your feelings and actions, and how they&apos;re connected.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no sure way to prevent eating disorders, some steps may help prevent an eating disorder in your loved ones: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Enlist the help of your child&apos;s doctor.&lt;/strong&gt; At well-child visits, doctors may be in a good position to identify early indicators of an eating disorder and prevent the development of full-blown illness. They can ask children questions about their eating habits and satisfaction with their appearance during routine medical appointments, for instance. These visits should include checks of body mass index and weight percentiles, which can alert you and your child&apos;s doctor to any significant changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage healthy-eating habits and avoid dieting around your children.&lt;/strong&gt; Family dining habits may also influence the relationships children develop with food. Eating meals together gives you an opportunity to teach children about the pitfalls of dieting, and encourage healthy eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep an eye on computer use.&lt;/strong&gt; Because there are numerous websites that promote anorexia (commonly called &quot;pro-ana&quot; sites) as a lifestyle choice rather than an eating disorder, it&apos;s important to monitor your child&apos;s computer use. You can do this by keeping the computer in a common location in the house, or by periodically checking the computer&apos;s history page to see what sites your child has visited.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cultivate and reinforce a healthy body image&lt;/strong&gt; in your children, whatever their shape or size. Talk to children about their self-image and offer reassurance that body shapes can vary. Don&apos;t criticize your own body in front of your children. Encourage your own children or family members to refrain from joking about other children or adults who are overweight or have a large body frame. These messages of acceptance and respect can help build healthy self-esteem and resilience that will carry children through the rocky periods of adolescence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reach out if you suspect trouble.&lt;/strong&gt; In addition, if you notice a family member or friend with low self-esteem, severe dieting, frequent overeating, hoarding of food or dissatisfaction with appearance, consider talking to him or her about these issues. Although you may not be able to prevent an eating disorder from developing, reaching out with compassion may encourage him or her to seek treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Eating disorders
+	</Title>
+	<Abstract>
+		Eating disorders &amp;mdash; Comprehensive overview covers symptoms, complications and treatment of these potentially life-threatening conditions..
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00606" LinkType="Internal" ObjectID="E86EC710-2A5D-9994-EE864ECCE60AB5A2" Title="Anorexia nervosa" Url="http://www.mayoclinic.com/health/anorexia/DS00606" />
+		<LinkItem ContentType="Disease" DocID="DS00607" LinkType="Internal" ObjectID="DAE125A5-2A5D-9994-E0984B6339C5EFF6" Title="Bulimia nervosa" Url="http://www.mayoclinic.com/health/bulimia/DS00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00814" LinkType="Internal" ObjectID="E0F45336-B87B-5407-FEA8BFFF3FEB95AD" Title="Family therapy" Url="http://www.mayoclinic.com/health/family-therapy/MY00814" />
+		<LinkItem ContentType="Article" DocID="MH00127" LinkType="Internal" ObjectID="BFA8F1BD-E7FF-0DBD-1267950515E55234" Title="Intervention: Help a loved one overcome addiction" Url="http://www.mayoclinic.com/health/intervention/MH00127" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="MY01650" LinkType="Internal" ObjectID="5727E251-F748-A208-60315DF916924E2B" Title="Mental health providers: Tips on finding one" Url="http://www.mayoclinic.com/health/mental-health-providers/MY01650" />
+		<LinkItem ContentType="Article" DocID="MY01225" LinkType="Internal" ObjectID="25725847-D6C4-2D4C-EEA6F394F9780447" Title="Healthy body image: Tips for guiding girls" Url="http://www.mayoclinic.com/health/healthy-body-image/MY01225" />
+		<LinkItem ContentType="Article" DocID="MY01156" LinkType="Internal" ObjectID="24532FA1-C14E-1FCB-925673F9574DFB86" Title="Teen eating disorders: Tips to protect your teen" Url="http://www.mayoclinic.com/health/teen-eating-disorders/MY01156" />
+		<LinkItem ContentType="Disease" DocID="DS00581" LinkType="Internal" ObjectID="A1BEB836-698F-4C05-B88D158D673829AB" Title="Amenorrhea" Url="http://www.mayoclinic.com/health/amenorrhea/DS00581" />
+		<LinkItem ContentType="Article" DocID="MY00794" LinkType="Internal" ObjectID="80539A05-F40B-ED5F-CEB8413867849E39" Title="Eating disorder treatment: Know your options" Url="http://www.mayoclinic.com/health/eating-disorder-treatment/MY00794" />
+	</RelatedLinksBox>
+</Disease>

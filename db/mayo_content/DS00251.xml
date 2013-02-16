@@ -1,0 +1,309 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00251
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sarcoidosis/DS00251
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-10
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2195" Title="Chronic lung">
+						<Keyword MCVID="2433" Title="Sarcoidosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C11A9E6B-D932-4C39-80A189346430E9B8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sarcoidosis
+			</MetaKeyword>
+			<MetaKeyword>
+				lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				granulomas
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune disease
+			</MetaKeyword>
+			<MetaKeyword>
+				erythema nodosum
+			</MetaKeyword>
+			<MetaKeyword>
+				shortness of breath
+			</MetaKeyword>
+			<MetaKeyword>
+				sarcoid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sarcoidosis is the growth of tiny collections of inflammatory cells in different parts of your body &amp;mdash; most commonly the lungs, lymph nodes, eyes and skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors believe sarcoidosis results from the body&apos;s immune system responding to an unknown substance, most likely something inhaled from the air. There is no cure for sarcoidosis, but most people do very well with modest treatment. Sarcoidosis often goes away on its own. Alternatively, signs and symptoms of sarcoidosis may last for years and sometimes lead to organ damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of sarcoidosis vary, depending on which organs are affected. Sarcoidosis sometimes develops gradually and produces symptoms that last for years. Other times, symptoms appear suddenly and then disappear just as quickly. Many people with sarcoidosis have no symptoms, so the disease may be discovered only when you have a chest X-ray for another reason. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Generalized symptoms&lt;/strong&gt;&lt;br /&gt;
+For many people, sarcoidosis begins with these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung symptoms&lt;/strong&gt;&lt;br /&gt;
+Almost everyone who has sarcoidosis eventually experiences lung problems, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent dry cough&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin symptoms&lt;/strong&gt;&lt;br /&gt;
+As many as 25 percent of people who have sarcoidosis develop skin problems, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rash.&lt;/strong&gt; A rash of red or reddish-purple bumps, usually located on the shins or ankles, which may be warm and tender to the touch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lesions.&lt;/strong&gt; Disfiguring skin sores may occur on your nose, cheeks and ears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Color change.&lt;/strong&gt; Areas of skin may get darker or lighter in color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nodules.&lt;/strong&gt; Growths just under the skin may develop, particularly around scars or tattoos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Eye symptoms&lt;/strong&gt;&lt;br /&gt;
+Sarcoidosis can affect the eyes without causing any symptoms, so it&apos;s important to have your eyes checked. When eye symptoms do occur, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Eye pain&lt;/li&gt;
+	&lt;li&gt;Severe redness&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although sarcoidosis is not always serious, it can cause long-term damage to your organs. See your doctor if you experience signs and symptoms suggestive of sarcoidosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t know the exact cause of sarcoidosis. Some people appear to have a genetic predisposition to developing the disease, which may be triggered by exposure to specific bacteria, viruses, dust or chemicals. Researchers are still trying to pinpoint the genes and trigger substances associated with sarcoidosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your immune system helps protect your body from foreign substances and invading microorganisms, such as bacteria and viruses. But in sarcoidosis, some immune cells collect in a pattern of inflammation called granulomas. As granulomas build up in an organ, the function of that organ can be affected. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While anyone can develop sarcoidosis, factors that may increase your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age and sex.&lt;/strong&gt; Sarcoidosis often occurs between the ages of 20 and 40. Women are slightly more likely to develop the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; African-Americans have a higher incidence of sarcoidosis than do white Americans. Also, sarcoidosis may be more severe and may be more likely to recur and cause lung problems in African-Americans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If someone in your family has had sarcoidosis, you are more likely to develop the disease yourself.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people with sarcoidosis, the condition resolves on its own with no lasting consequences. But sarcoidosis can be long-lasting (chronic) in some people and lead to complications that may affect different parts of your body: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lungs.&lt;/strong&gt; Untreated pulmonary sarcoidosis can lead to irreversible damage to the tissue between the air sacs in your lungs, making it difficult to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyes.&lt;/strong&gt; Inflammation can affect almost any part of your eye and can eventually cause blindness. Rarely, sarcoidosis also can cause cataracts and glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidneys.&lt;/strong&gt; Sarcoidosis can affect how your body handles calcium, which can lead to kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart.&lt;/strong&gt; Granulomas within your heart can interfere with the electrical signals that drive your heartbeat, causing abnormal heart rhythms and, in rare instances, death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nervous system.&lt;/strong&gt; A small number of people with sarcoidosis develop problems related to the central nervous system when granulomas form in the brain and spinal cord. Inflammation in the facial nerves can cause facial paralysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because sarcoidosis normally involves the lungs, you may be referred to a lung specialist (pulmonologist) to manage your care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all your medications,&lt;/strong&gt; vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other diagnosed conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments can help?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Be ready to answer questions your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of symptoms are you experiencing? When did they start?&lt;/li&gt;
+	&lt;li&gt;Have you ever been exposed to environmental toxins, perhaps in a manufacturing or farming job?&lt;/li&gt;
+	&lt;li&gt;Do you know if anyone in your family has ever had sarcoidosis?&lt;/li&gt;
+	&lt;li&gt;What types of medical conditions have you had in the past?&lt;/li&gt;
+	&lt;li&gt;What types of medications or supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sarcoidosis can be difficult to diagnose because the disease produces few signs and symptoms in its early stages. When symptoms do occur, they vary by organ system affected and can mimic those of other disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will likely start with a physical exam, including a close examination of any skin lesions you have. He or she will also listen carefully to your heart and lungs and check your lymph nodes for swelling. Your doctor may also be interested in seeing any previous chest X-rays, to check for signs of early sarcoidosis that may have been overlooked. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnostic tests can help exclude other disorders and determine what body systems may be affected by sarcoidosis. Your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray,&lt;/strong&gt; to check for evidence of lung damage or enlarged lymph nodes in your chest. Some people are diagnosed with the condition after chest X-rays taken for other reasons.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT scan,&lt;/strong&gt; if complications are suspected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;PET or MRI,&lt;/strong&gt; if sarcoidosis seems to be affecting your heart or central nervous system&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests,&lt;/strong&gt; to assess your overall health and how well your kidneys and liver are functioning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung function tests,&lt;/strong&gt; to measure lung volume and how much oxygen your lungs deliver to your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam,&lt;/strong&gt; to check for vision problems that may be caused by sarcoidosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biopsies&lt;/strong&gt;&lt;br /&gt;
+Your doctor may order a small sample of tissue (biopsy) be taken from a part of your body believed to be affected by sarcoidosis to look for the granulomas commonly seen in the condition. Biopsies can most easily be taken from your skin or the outer membrane of your eye. Tissue is sent to a laboratory for analysis. 
+&lt;/p&gt;
+&lt;p&gt;
+Lung biopsies or lymph node biopsies can be obtained through a procedure (bronchoscopy) in which a thin, flexible tube containing a camera is inserted down your throat. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for sarcoidosis. You may not need treatment if you don&apos;t have significant signs and symptoms of the condition. Sarcoidosis often goes away on its own. But you should be monitored closely with regular chest X-rays and exams of the eyes, skin and any other organ involved. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+If organ function is threatened, you will likely be treated with a medication. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; These powerful anti-inflammatory drugs are usually the first-line treatment for sarcoidosis. In some cases, corticosteroids can be applied directly to an affected area &amp;mdash; via a cream to a skin lesion or with an inhaler to your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-rejection medications.&lt;/strong&gt; These medications reduce inflammation by suppressing your immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-malarial medications.&lt;/strong&gt; These medications may be helpful for skin disease, nervous system involvement and elevated blood-calcium levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor necrosis factor-alpha (TNF-alpha) inhibitors.&lt;/strong&gt; These medications are most commonly used to treat the inflammation associated with rheumatoid arthritis. They can also be helpful in treating sarcoidosis that doesn&apos;t respond to other treatments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Organ transplant may be considered if sarcoidosis has severely damaged your lungs or liver. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although sarcoidosis usually goes away by itself within two years, some people&apos;s lives are forever altered by the disease. If you&apos;re having trouble coping, consider talking with a counselor. Participating in a sarcoidosis support group may also be helpful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sarcoidosis
+	</Title>
+	<Abstract>
+		Sarcoidosis &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this inflammatory disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00106" LinkType="Internal" ObjectID="C016ACE8-E7FF-0DBD-1F1C3E530B8ACD1B" Title="Lung transplant" Url="http://www.mayoclinic.com/health/lung-transplant/MY00106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,312 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00445
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/whooping-cough/DS00445
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-21
+		</UpdateDate>
+		<PublicationDate>
+			2002-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2553" Title="Whooping cough" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			63F18B7D-932F-440B-A55CCAB2E2FEEBFD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				whooping cough
+			</MetaKeyword>
+			<MetaKeyword>
+				pertussis
+			</MetaKeyword>
+			<MetaKeyword>
+				whooping
+			</MetaKeyword>
+			<MetaKeyword>
+				diphtheria-tetanus-pertussis vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				DTaP
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whooping cough (pertussis) is a highly contagious respiratory tract infection. In many people, it&apos;s marked by a severe hacking cough followed by a high-pitched intake of breath that sounds like &quot;whoop.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Before the vaccine was developed, whooping cough was considered a childhood disease. Now whooping cough primarily affects children too young to have completed the full course of vaccinations and teenagers and adults whose immunity has faded.
+&lt;/p&gt;
+&lt;p&gt;
+Deaths associated with whooping cough are rare but most commonly occur in infants. That&apos;s why it&apos;s so important for pregnant women &amp;mdash; and other people who will have close contact with an infant &amp;mdash; to be vaccinated against whooping cough.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once you become infected with whooping cough, it can take one to three weeks for signs and symptoms to appear. They&apos;re usually mild at first and resemble those of a common cold:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Runny nose&lt;/li&gt;
+	&lt;li&gt;Nasal congestion&lt;/li&gt;
+	&lt;li&gt;Sneezing&lt;/li&gt;
+	&lt;li&gt;Red, watery eyes&lt;/li&gt;
+	&lt;li&gt;A mild fever&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After a week or two, signs and symptoms worsen. Thick mucus accumulates inside your airways, causing uncontrollable coughing. Severe and prolonged coughing attacks may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Provoke vomiting&lt;/li&gt;
+	&lt;li&gt;Result in a red or blue face&lt;/li&gt;
+	&lt;li&gt;Cause extreme fatigue&lt;/li&gt;
+	&lt;li&gt;End with a high-pitched &quot;whoop&quot; sound during the next breath of air&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, many people don&apos;t develop the characteristic whoop. Sometimes, a persistent hacking cough is the only sign that an adolescent or adult has whooping cough.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Call your doctor if prolonged coughing spells cause you or your child to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vomit&lt;/li&gt;
+	&lt;li&gt;Turn red or blue&lt;/li&gt;
+	&lt;li&gt;Inhale with a whooping sound&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whooping cough is caused by bacteria. When an infected person coughs or sneezes, tiny germ-laden droplets are sprayed into the air and breathed into the lungs of anyone who happens to be nearby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whooping cough is thought to be on the rise for two main reasons. The whooping cough vaccine you receive as a child eventually wears off. This leaves most teenagers and adults susceptible to the infection during an outbreak &amp;mdash; and there continue to be regular outbreaks. In addition, children aren&apos;t fully immune to whooping cough until they&apos;ve received at least three shots, leaving those 6 months and younger at greatest risk of contracting the infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people recover from whooping cough with no problems. When complications occur, they tend to be side effects of the strenuous coughing, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bruised or cracked ribs&lt;/li&gt;
+	&lt;li&gt;Abdominal hernias&lt;/li&gt;
+	&lt;li&gt;Broken blood vessels in the skin or the whites of your eyes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infants&lt;br /&gt;
+&lt;/strong&gt;In infants &amp;mdash; especially those under 6 months of age &amp;mdash; complications from whooping cough are more severe and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ear infections&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Slowed or stopped breathing&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Brain damage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because infants and toddlers are at greatest risk of complications from whooping cough, they&apos;re more likely to need treatment in a hospital. Complications can be life-threatening for infants less than 6 months old.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you or your child has whooping cough, make an appointment with your family doctor or pediatrician. Severe symptoms may warrant a visit to an urgent care center or a hospital&apos;s emergency department. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of the signs and symptoms&lt;/li&gt;
+	&lt;li&gt;Information about past medical problems&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of parents or siblings&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will conduct a physical exam and will use a stethoscope to listen closely to the lungs. Questions your doctor may ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the cough start?&lt;/li&gt;
+	&lt;li&gt;How long does a coughing spell generally last?&lt;/li&gt;
+	&lt;li&gt;Does anything trigger the cough?&lt;/li&gt;
+	&lt;li&gt;Does the cough ever cause gagging or vomiting?&lt;/li&gt;
+	&lt;li&gt;Has the cough ever resulted in a red or blue face?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing whooping cough in its early stages can be difficult because the signs and symptoms resemble those of other common respiratory illnesses, such as a cold, the flu or bronchitis.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, doctors can diagnose whooping cough simply by asking about symptoms and listening to the cough. Medical tests may be needed to confirm the diagnosis. Such tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A nose or throat culture and test.&lt;/strong&gt; Your doctor takes a nose or throat swab or suction sample. The sample is then checked for evidence of the presence of whooping cough bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A blood sample may be drawn and sent to a lab to check for a high white blood cell count. White blood cells help the body fight infections, such as whooping cough. A high white blood cell count typically indicates the presence of infection or inflammation. This is a general test and not specific for whooping cough.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A chest X-ray.&lt;/strong&gt; Your doctor may order an X-ray to check for the presence of inflammation or fluid in the lungs, which can occur when pneumonia complicates whooping cough and other respiratory infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infants are typically hospitalized for treatment because whooping cough is more dangerous for that age group. If your child can&apos;t keep down liquids or food, intravenous fluids may be necessary. Your child will also be isolated from others to prevent the infection from spreading. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for older children and adults usually can be managed at home. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Antibiotics kill the bacteria causing whooping cough and help speed recovery. Family members may be given preventive antibiotics. Unfortunately, not much is available to relieve the cough. Over-the-counter cough medicines, for instance, have little effect on whooping cough and are discouraged. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips on dealing with coughing spells apply to anyone being treated for whooping cough at home: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; A cool, quiet and dark bedroom may help you relax and rest better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Water, juice and soups are good choices. In children, especially, watch for signs of dehydration, such as dry lips, crying without tears and infrequent urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller meals.&lt;/strong&gt; To avoid vomiting after coughing, eat smaller, more-frequent meals rather than large ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaporize the room.&lt;/strong&gt; Use a mist vaporizer to help soothe irritated lungs and to help loosen respiratory secretions. If you use a vaporizer, follow directions for keeping it clean. If you don&apos;t have a vaporizer, a warm shower or bath can temporarily help clear the lungs and ease breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean the air.&lt;/strong&gt; Keep your home free of irritants that can trigger coughing spells, such as tobacco smoke and fumes from fireplaces.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent transmission.&lt;/strong&gt; Cover your cough and wash your hands often; if you must be around others, wear a mask.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent whooping cough is with the pertussis vaccine, which doctors often give in combination with vaccines against two other serious diseases &amp;mdash; diphtheria and tetanus. Doctors recommend beginning vaccination during infancy. 
+&lt;/p&gt;
+&lt;p&gt;
+The vaccine consists of a series of five injections, typically given to children at these ages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;2 months&lt;/li&gt;
+	&lt;li&gt;4 months&lt;/li&gt;
+	&lt;li&gt;6 months&lt;/li&gt;
+	&lt;li&gt;15 to 18 months&lt;/li&gt;
+	&lt;li&gt;4 to 6 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccine side effects&lt;br /&gt;
+&lt;/strong&gt;Side effects of the vaccine may include fever, crankiness or soreness at the site of the injection. In rare cases, severe side effects may occur, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent crying, lasting more than three hours&lt;/li&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Seizures, shock or coma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Booster shots&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adolescents.&lt;/strong&gt; Because immunity from the pertussis vaccine tends to wane by age 11, doctors recommend a booster shot at that age to protect against whooping cough (pertussis), diphtheria and tetanus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adults.&lt;/strong&gt; Some varieties of the every-10-year tetanus and diphtheria vaccine also include protection against whooping cough (pertussis). In addition to protecting you against whooping cough, this vaccine will also reduce the risk of your transmitting whooping cough to infants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnant women.&lt;/strong&gt; The Centers for Disease Control and Prevention now recommends that pregnant women receive the pertussis vaccine after 20 weeks gestation. This may also give some protection to the infant during the first few months of life.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Whooping cough
+	</Title>
+	<Abstract>
+		Whooping cough &amp;mdash; Comprehensive overview covers symptoms, treatment of this vaccine-preventable lung infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+	</RelatedLinksBox>
+</Disease>

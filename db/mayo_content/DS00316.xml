@@ -1,0 +1,421 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00316
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gestational-diabetes/DS00316
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-24
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus">
+						<Keyword MCVID="2062" Title="Gestational" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F26EA786-DF0A-470F-BA3801EF0A7EE346
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gestational diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				glucose
+			</MetaKeyword>
+			<MetaKeyword>
+				insulin
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				gestational diabetes mellitus
+			</MetaKeyword>
+			<MetaKeyword>
+				GDM
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gestational diabetes develops during pregnancy (gestation). Like other types of diabetes, gestational diabetes affects how your cells use sugar (glucose) &amp;mdash; your body&apos;s main fuel. Gestational diabetes causes high blood sugar that can affect your pregnancy and your baby&apos;s health. 
+&lt;/p&gt;
+&lt;p&gt;
+Any pregnancy complication is concerning, but there&apos;s good news. Expectant moms can help control gestational diabetes by eating healthy foods, exercising and, if necessary, using medication. Taking good care of yourself can ensure a healthy pregnancy for you and a healthy start for your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+In gestational diabetes, blood sugar usually returns to normal soon after delivery. But if you&apos;ve had gestational diabetes, you&apos;re at risk for future type 2 diabetes. You&apos;ll continue working with your health care team to monitor and manage your blood sugar. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most women, gestational diabetes doesn&apos;t cause noticeable signs or symptoms. Rarely, gestational diabetes may cause excessive thirst or increased urination. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If possible, seek health care early &amp;mdash; when you first think about trying to get pregnant &amp;mdash; so your doctor can evaluate your risk of gestational diabetes as part of your overall childbearing wellness plan. Once you become pregnant, your doctor will address gestational diabetes as part of your regular prenatal care. If you develop gestational diabetes, you may need more frequent checkups. These are most likely to occur during the last three months of pregnancy, when your doctor will carefully monitor your blood sugar level and your baby&apos;s health. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may refer you to additional health professionals who specialize in diabetes management, such as an endocrinologist, a registered dietitian or a diabetes educator. They can help you learn to manage your blood sugar level during your pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+To make sure that your blood sugar level has returned to normal after your baby is born, your health care team will check your blood sugar right after delivery and again in six weeks. Once you&apos;ve had gestational diabetes, it&apos;s a good idea to have your blood sugar level tested regularly. The frequency of blood sugar tests will in part depend on your test results soon after you deliver your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Researchers don&apos;t yet know exactly why some women develop gestational diabetes. To understand how gestational diabetes occurs, it can help to understand how pregnancy affects your body&apos;s normal processing of glucose. 
+&lt;/p&gt;
+&lt;p&gt;
+Your body digests the food you eat to produce sugar (glucose) that enters your bloodstream. In response, your pancreas &amp;mdash; a large gland behind your stomach &amp;mdash; produces insulin. Insulin is a hormone that helps glucose move from your bloodstream into your body&apos;s cells, where it&apos;s used as energy. 
+&lt;/p&gt;
+&lt;p&gt;
+During pregnancy, the placenta that connects your growing baby to your blood supply produces high levels of various other hormones. Almost all of them impair the action of insulin in your cells, raising your blood sugar. Modest elevation of blood sugar after meals is normal during pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+As your baby grows, the placenta produces more and more insulin-blocking hormones. In gestational diabetes, the placental hormones provoke a rise in blood sugar to a level that can affect the growth and welfare of your baby. Gestational diabetes usually develops during the last half of pregnancy &amp;mdash; sometimes as early as the 20th week, but usually not until later. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Any woman can develop gestational diabetes, but some women are at greater risk. Risk factors for gestational diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age greater than 25.&lt;/strong&gt; Women older than age 25 are more likely to develop gestational diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family or personal health history.&lt;/strong&gt; Your risk of developing gestational diabetes increases if you have prediabetes &amp;mdash; slightly elevated blood sugar that may be a precursor to type 2 diabetes &amp;mdash; or if a close family member, such as a parent or sibling, has type 2 diabetes. You&apos;re also more likely to develop gestational diabetes if you had it during a previous pregnancy, if you delivered a baby who weighed more than 9 pounds (4.1 kilograms), or if you had an unexplained stillbirth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess weight.&lt;/strong&gt; You&apos;re more likely to develop gestational diabetes if you&apos;re significantly overweight with a body mass index (BMI) of 30 or higher.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonwhite race.&lt;/strong&gt; For reasons that aren&apos;t clear, women who are black, Hispanic, American Indian or Asian are more likely to develop gestational diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most women who have gestational diabetes deliver healthy babies. However, gestational diabetes that&apos;s not carefully managed can lead to uncontrolled blood sugar levels and cause problems for you and your baby, including an increased likelihood of needing delivery by C-section. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications that may affect your baby&lt;/strong&gt;&lt;br /&gt;
+If you have gestational diabetes, your baby may be at increased risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive birth weight.&lt;/strong&gt; Extra glucose in your bloodstream crosses the placenta, which triggers your baby&apos;s pancreas to make extra insulin. This can cause your baby to grow too large (macrosomia). Very large babies are more likely to become wedged in the birth canal, sustain birth injuries or require a C-section birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Early (preterm) birth and respiratory distress syndrome.&lt;/strong&gt; A mother&apos;s high blood sugar may increase her risk of going into labor early and delivering her baby before its due date. Or her doctor may recommend early delivery because the baby is growing so large. Babies born early may experience respiratory distress syndrome &amp;mdash; a condition that makes breathing difficult. Babies with this syndrome may need help breathing until their lungs mature and become stronger. Babies of mothers with gestational diabetes may experience respiratory distress syndrome even if they&apos;re not born early.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; Sometimes babies of mothers with gestational diabetes develop low blood sugar (hypoglycemia) shortly after birth because their own insulin production is high. Severe episodes of hypoglycemia may provoke seizures in the baby. Prompt feedings and sometimes an intravenous glucose solution can return the baby&apos;s blood sugar level to normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaundice.&lt;/strong&gt; This yellowish discoloration of the skin and the whites of the eyes may occur if a baby&apos;s liver isn&apos;t mature enough to break down a substance called bilirubin, which normally forms when the body recycles old or damaged red blood cells. Although jaundice usually isn&apos;t a cause for concern, careful monitoring is important.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2 diabetes later in life.&lt;/strong&gt; Babies of mothers who have gestational diabetes have a higher risk of developing obesity and type 2 diabetes later in life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Untreated gestational diabetes can result in a baby&apos;s death either before or shortly after birth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications that may affect you&lt;/strong&gt;&lt;br /&gt;
+Gestational diabetes may also increase the mother&apos;s risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure, preeclampsia and eclampsia.&lt;/strong&gt; Gestational diabetes increases your risk of developing high blood pressure during your pregnancy. It also raises your risk of preeclampsia and eclampsia &amp;mdash; two serious complications of pregnancy that cause high blood pressure and other symptoms that can threaten the lives of both mother and baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Future diabetes.&lt;/strong&gt; If you have gestational diabetes, it&apos;s more likely to happen again during a future pregnancy. You&apos;re also more likely to develop type 2 diabetes as you get older. However, making healthy lifestyle choices such as eating healthy foods and exercising can help reduce the risk of future type 2 diabetes. Of those women with a history of gestational diabetes who reach their ideal body weight after delivery, fewer than one in four develop type 2 diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most circumstances, you&apos;ll find out that you have gestational diabetes as the result of a screening test performed routinely during your pregnancy. If your blood sugar tests high, you&apos;ll likely be asked to come in for an appointment promptly. Your doctor will also schedule more-frequent regular prenatal appointments to monitor the course of your pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to prepare ahead of time for your appointment. Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, ask if you need to fast for blood work or if there&apos;s anything else you need to do to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to gestational diabetes. Although gestational diabetes often doesn&apos;t cause any noticeable symptoms, it&apos;s a good idea to keep a log of anything unusual that you notice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including over-the-counter drugs and vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt;&lt;br /&gt;
+Because time with your doctor is limited, writing down a list of questions will help you make the most of your appointment. List your questions from most important to least important in case time runs out. For gestational diabetes, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What can I do to help control my condition?&lt;/li&gt;
+	&lt;li&gt;Can you recommend a dietitian or diabetes educator who can help me plan meals, an exercise program, and coping strategies that will work best for me? Will my insurance cover this advice?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I need medication to control my blood sugar?&lt;/li&gt;
+	&lt;li&gt;What symptoms should prompt me to seek medical attention?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared ahead of time, don&apos;t hesitate to ask your doctor to clarify anything you don&apos;t understand. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is also likely to have questions for you, especially if you&apos;re seeing him or her for the first time. Being ready to respond may free up time to focus on any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced any increased thirst or excessive urination? If so, when did these symptoms start? How often do you have them?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any other unusual symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a parent or sibling who&apos;s ever been diagnosed with diabetes?&lt;/li&gt;
+	&lt;li&gt;Have you been pregnant before? Did you have gestational diabetes during your previous pregnancies?&lt;/li&gt;
+	&lt;li&gt;Did you have any other problems in earlier pregnancies?&lt;/li&gt;
+	&lt;li&gt;If you have other children, how much did each weigh at birth?&lt;/li&gt;
+	&lt;li&gt;Have you gained or lost a lot of weight at any time in your life?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+You can take steps to control gestational diabetes with healthy choices as soon as you&apos;re diagnosed. If your doctor recommends further evaluation, make your follow-up appointments as soon as possible. Every week counts for you and your baby. Follow your doctor&apos;s advice, and take good care of yourself. Eat healthy foods, exercise and take time to learn as much as you can about gestational diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medical experts haven&apos;t established a single set of screening guidelines for gestational diabetes. Some question whether gestational diabetes screening is needed if you&apos;re younger than 25 and have no risk factors. Others say that screening all pregnant women &amp;mdash; no matter their age &amp;mdash; is the best way to catch all cases of gestational diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to screen&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely evaluate your risk factors for gestational diabetes early in your pregnancy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re at high risk of gestational diabetes&lt;/strong&gt; &amp;mdash; for example, your body mass index (BMI) before pregnancy was 30 or higher or you have a mother, father, sibling or child with diabetes &amp;mdash; your doctor may test for diabetes at your first prenatal visit. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re at average risk of gestational diabetes,&lt;/strong&gt; you&apos;ll likely have a screening test for gestational diabetes sometime during your second trimester &amp;mdash; between 24 and 28 weeks of pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Routine screening for gestational diabetes&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Initial glucose challenge test.&lt;/strong&gt; You&apos;ll begin the glucose challenge test by drinking a syrupy glucose solution. One hour later, you&apos;ll have a blood test to measure your blood sugar level. A blood sugar level below 130 to 140 milligrams per deciliter (mg/dL), or 7.2 to 7.8 millimoles per liter (mmol/L), is usually considered normal on a glucose challenge test, although this may vary at specific clinics or labs. If your blood sugar level is higher than normal, it only means you have a higher risk of gestational diabetes. Your doctor will diagnose you after giving you a follow-up test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow-up glucose tolerance testing.&lt;/strong&gt; For the follow-up test, you&apos;ll be asked to fast overnight and then have your fasting blood sugar level measured. Then you&apos;ll drink another sweet solution &amp;mdash; this one containing a higher concentration of glucose &amp;mdash; and your blood sugar level will be checked every hour for a period of three hours. If at least two of the blood sugar readings are higher than normal, you&apos;ll be diagnosed with gestational diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;If you&apos;re diagnosed with gestational diabetes&lt;/strong&gt;&lt;br /&gt;
+If you have gestational diabetes, your doctor will likely recommend frequent checkups, especially during your last three months of pregnancy. During these exams, your doctor will carefully monitor your blood sugar. Your doctor may also ask you to monitor your own blood sugar daily as part of your treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having trouble controlling your blood sugar, or you need to take insulin, or you have other pregnancy complications, you may need additional tests to evaluate your baby&apos;s general health. These tests assess the function of the placenta, the organ that delivers oxygen and nutrients to your baby by connecting the baby&apos;s blood supply to yours. If your gestational diabetes is difficult to control, it may affect the placenta and endanger the delivery of oxygen and nutrients to the baby. Tests to monitor your baby&apos;s well-being include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonstress test.&lt;/strong&gt; Sensors are placed on your stomach and connected to a monitor to measure your baby&apos;s heart rate, which should increase when the baby moves. If your baby&apos;s heart doesn&apos;t beat faster during movement, the baby may not be getting enough oxygen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biophysical profile (BPP).&lt;/strong&gt; This test combines a nonstress test with an ultrasound study of your baby. There&apos;s a scoring system that enables your doctor to evaluate your baby&apos;s heartbeat, movements, breathing and overall muscle tone, and determine whether your baby is surrounded by a normal amount of amniotic fluid. Your baby&apos;s scores on heartbeat, breathing and movement help your doctor tell if the baby&apos;s getting enough oxygen. When the amniotic fluid is low, it may mean that your baby hasn&apos;t been urinating enough. This could indicate that over time the placenta has not been working as well as it should.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal movement counting.&lt;/strong&gt; You may perform this simple test at the same time as the nonstress test or the biophysical profile. You simply count how often your baby kicks over a set time. Infrequent movement may mean your baby isn&apos;t getting enough oxygen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood sugar testing after you give birth&lt;/strong&gt;&lt;br /&gt;
+Your doctor will check your blood sugar after delivery and again in six to 12 weeks to make sure that your level has returned to normal. If your tests are normal &amp;mdash; and most are &amp;mdash; you&apos;ll need to have your diabetes risk assessed at least every three years. If future tests indicate diabetes or prediabetes &amp;mdash; a condition in which your blood sugar is higher than normal, but not high enough to be considered diabetes &amp;mdash; talk with your doctor about increasing your prevention efforts or starting a diabetes management plan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s essential to monitor and control your blood sugar to keep your baby healthy and avoid complications during your pregnancy and delivery. You&apos;ll also want to keep a close eye on your future blood sugar levels. Your treatment strategies may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Monitoring your blood sugar.&lt;/strong&gt; While you&apos;re pregnant, your health care team may ask you to check your blood sugar four to five times a day &amp;mdash; first thing in the morning and after meals &amp;mdash; to make sure your level stays within a healthy range. This may sound inconvenient and difficult, but it&apos;ll get easier with practice. To test your blood sugar, you draw a drop of blood from your finger using a small needle (lancet), then place the blood on a test strip inserted into a blood glucose meter &amp;mdash; a device that measures and displays your blood sugar level. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your health care team will also monitor and manage your blood sugar during labor and delivery. If your blood sugar rises, your baby&apos;s body may release high levels of insulin &amp;mdash; which can cause low blood sugar in your baby right after birth. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Follow-up blood sugar checks are also important. After having gestational diabetes, you&apos;re at increased risk of later developing type 2 diabetes. Work with your health care team to keep an eye on your levels. Maintaining health-promoting lifestyle habits, such as a healthy diet and regular exercise, can help reduce your risk. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Healthy diet.&lt;/strong&gt; Eating the right kinds and quantity of food is one of the best ways to control your blood sugar. Doctors don&apos;t advise losing weight during pregnancy &amp;mdash; your body is working hard to support your growing baby. But your doctor can help you set weight gain goals based on your weight before pregnancy. Making healthy food choices can help prevent excessive weight gain, which can put you at higher risk of complications. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A healthy diet often focuses on fruits, vegetables and whole grains &amp;mdash; foods that are high in nutrition and fiber and low in fat and calories &amp;mdash; and limits highly refined carbohydrates, including sweets. No single diet is right for every woman. You may want to consult a registered dietitian or a diabetes educator to create a meal plan based on your current weight, pregnancy weight gain goals, blood sugar level, exercise habits, food preferences and budget. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Exercise.&lt;/strong&gt; Regular physical activity plays a key role in every woman&apos;s wellness plan before, during and after pregnancy. Exercise lowers your blood sugar by stimulating your body to move glucose into your cells, where it&apos;s used for energy. Exercise also increases your cells&apos; sensitivity to insulin, which means your body produces less insulin to transport sugar. As an added bonus, regular exercise can help relieve some common discomforts of pregnancy, including back pain, muscle cramps, swelling, constipation and trouble sleeping. Exercise can also help get you in shape for the hard work of labor and delivery. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	With your doctor&apos;s OK, aim for moderately vigorous exercise on most days of the week. If you haven&apos;t been active for a while, start slowly and build up gradually. Walking, cycling and swimming are often good choices during pregnancy. Everyday activities such as housework and gardening also count. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; If diet and exercise aren&apos;t enough, you may need insulin injections to lower your blood sugar. Between 10 and 20 percent of women with gestational diabetes need insulin to reach their blood sugar goals. Some doctors may prescribe an oral blood sugar control medication, such as glyburide. Other doctors feel more research is needed to confirm that oral drugs are as safe and as effective as injectable insulin to control gestational diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Close monitoring of your baby.&lt;/strong&gt; An important part of your treatment plan is close observation of your baby. Your doctor may monitor your baby&apos;s growth and development with repeated ultrasounds or other tests. If you don&apos;t go into labor by your due date &amp;mdash; or sometimes earlier &amp;mdash; your doctor may induce labor. Delivering after your due date may increase the risk of complications for you and your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast-feeding your baby.&lt;/strong&gt; If you&apos;re interested in breast-feeding and it fits with your work schedule and other obligations, it may help you achieve your post-pregnancy weight goals and avoid later type 2 diabetes. Breast-feeding may also help your baby avoid later obesity and type 2 diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not easy to learn you have a condition that can affect your unborn baby&apos;s health. And worrying about your baby can make it harder to take care of yourself. You may find yourself eating the wrong foods or lacking the energy to exercise. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that the very steps that will help control your blood sugar level &amp;mdash; such as eating healthy foods and exercising regularly &amp;mdash; can help relieve stress and nourish your baby. These activities can also help prevent type 2 diabetes in the future. That makes exercise and good nutrition powerful tools for a healthy pregnancy as well as a healthy life &amp;mdash; for you and your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll probably feel better if you learn as much as you can about gestational diabetes. Talk to your health care team. Read books and articles about gestational diabetes. Join a support group for women with gestational diabetes. The more you know, the more control you&apos;ll feel. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no guarantees when it comes to preventing gestational diabetes &amp;mdash; but the more healthy habits you can adopt before pregnancy, the better. If you&apos;ve had gestational diabetes, these healthy choices may also reduce your risk of having it again in future pregnancies or developing type 2 diabetes down the road. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Choose foods high in fiber and low in fat and calories. Focus on fruits, vegetables and whole grains. Strive for variety to help you achieve your goals without compromising taste or nutrition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep active.&lt;/strong&gt; Exercising before and during pregnancy can help protect you against developing gestational diabetes. Aim for 30 minutes of moderate activity on most days of your week. Take a brisk daily walk. Ride your bike. Swim laps. If you can&apos;t fit a single 30-minute workout into your busy day, several shorter sessions can do just as much good. Park in the distant lot when you run errands. Get off the bus one stop before you reach your destination. Every step you take increases your chances of staying healthy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose excess pounds before pregnancy.&lt;/strong&gt; Doctors don&apos;t recommend weight loss during pregnancy &amp;mdash; your body is already working overtime to support your baby&apos;s development. But if you&apos;re planning to get pregnant, losing extra weight beforehand may help you have a healthier pregnancy. Focus on permanent changes to your eating habits. Motivate yourself by remembering the long-term benefits of losing weight, such as a healthier heart, more energy and improved self-esteem.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gestational diabetes
+	</Title>
+	<Abstract>
+		Gestational diabetes &amp;mdash; Comprehensive overview covers symptoms, treatment of diabetes that develops during pregnancy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="DA00070" LinkType="Internal" ObjectID="FFECC864-B509-4016-A95B8B3063E225BD" Title="Exchange list: Fruits" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00070" />
+		<LinkItem ContentType="Table" DocID="DA00074" LinkType="Internal" ObjectID="E8B50501-6C24-4241-A1E8C169A2B950FE" Title="Exchange list: Meat and meat substitutes" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00074" />
+		<LinkItem ContentType="Table" DocID="DA00071" LinkType="Internal" ObjectID="DD69253A-E3DF-4F6A-8AE48AE0986EBA84" Title="Exchange list: Milk and yogurt" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00071" />
+		<LinkItem ContentType="Answer" DocID="AN00939" LinkType="Internal" ObjectID="D0BA0C8B-17C3-4C5E-BABD5DA735C80B61" Title="Diabetes treatment: Can cinnamon lower blood sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00939" />
+		<LinkItem ContentType="Table" DocID="DA00075" LinkType="Internal" ObjectID="CF972E06-29EF-4015-9A1C8613E800A73A" Title="Exchange list: Fats" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00075" />
+		<LinkItem ContentType="Answer" DocID="AN01509" LinkType="Internal" ObjectID="CECA1726-E7FF-0DBD-1DD8DA13038C98D1" Title="Diabetes: Are electric blankets off-limits?" Url="http://www.mayoclinic.com/health/diabetes/AN01509" />
+		<LinkItem ContentType="Answer" DocID="AN02011" LinkType="Internal" ObjectID="C0683904-0C4A-603E-4A007645231D330D" Title="Diabetes and depression: Coping with the two conditions" Url="http://www.mayoclinic.com/health/diabetes-and-depression/AN02011" />
+		<LinkItem ContentType="Answer" DocID="AN00845" LinkType="Internal" ObjectID="BA768AB8-55AC-44BE-B45CD8CE91F12909" Title="Vegetarian diet: Can it help me control my diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00845" />
+		<LinkItem ContentType="Answer" DocID="AN01958" LinkType="Internal" ObjectID="B00158B5-E7FF-0DBD-1534BED2254DFE59" Title="Diabetes management: Does aspirin therapy prevent heart problems?" Url="http://www.mayoclinic.com/health/aspirin-therapy/AN01958" />
+		<LinkItem ContentType="Answer" DocID="AN01213" LinkType="Internal" ObjectID="9AE4F795-2A5D-9994-E655F8F5BCE0FE85" Title="The dawn phenomenon: What can you do?" Url="http://www.mayoclinic.com/health/dawn-effect/AN01213" />
+		<LinkItem ContentType="Table" DocID="DA00069" LinkType="Internal" ObjectID="8CF7446C-571D-4B1F-A057D979AF6E5720" Title="Exchange list: Starches" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00069" />
+		<LinkItem ContentType="Answer" DocID="AN01691" LinkType="Internal" ObjectID="842617FF-E7FF-0DBD-1A64CA34C5DF5D28" Title="Diabetes diet: Should I avoid sweet fruits?" Url="http://www.mayoclinic.com/health/diabetes/AN01691" />
+		<LinkItem ContentType="Answer" DocID="AN00348" LinkType="Internal" ObjectID="72E5EDAD-7EEA-4F0E-88EB83087ACFF95F" Title="Artificial sweeteners: Any effect on blood sugar?" Url="http://www.mayoclinic.com/health/artificial-sweeteners/AN00348" />
+		<LinkItem ContentType="Answer" DocID="AN00193" LinkType="Internal" ObjectID="609C212D-35EF-4EE8-82502B1A9DD06CD5" Title="Diabetes: How do I help protect my liver?" Url="http://www.mayoclinic.com/health/diabetes/AN00193" />
+		<LinkItem ContentType="Table" DocID="DA00091" LinkType="Internal" ObjectID="5EBD4F51-485A-43CC-B9267FF9CF6E49F4" Title="Insulin: Compare common options for insulin therapy" Url="http://www.mayoclinic.com/health/insulin/DA00091" />
+		<LinkItem ContentType="Answer" DocID="AN02125" LinkType="Internal" ObjectID="53B81A0F-F957-5499-DAB3590605B0584D" Title="Avandia safety concerns: What should I do?" Url="http://www.mayoclinic.com/health/avandia/AN02125" />
+		<LinkItem ContentType="Table" DocID="DA00076" LinkType="Internal" ObjectID="50C876BB-9357-4523-98985FA091614048" Title="Exchange list: Free foods" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00076" />
+		<LinkItem ContentType="Table" DocID="DA00072" LinkType="Internal" ObjectID="42043545-A8FA-4F54-9B6A320BDFBEF75B" Title="Exchange list: Sweets, desserts and other carbohydrates" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00072" />
+		<LinkItem ContentType="Answer" DocID="AN00975" LinkType="Internal" ObjectID="3DA7267F-C9A3-43E6-A71669768F406A86" Title="Late-night eating: OK if you have diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00975" />
+		<LinkItem ContentType="Answer" DocID="AN00934" LinkType="Internal" ObjectID="336612B6-E243-4FD8-9AC9D79DDCC1C935" Title="Reactive hypoglycemia: What can I do?" Url="http://www.mayoclinic.com/health/reactive-hypoglycemia/AN00934" />
+		<LinkItem ContentType="Answer" DocID="HQ00384" LinkType="Internal" ObjectID="25FA95EB-E5BE-4749-A010272B67DFCEF4" Title="Managing diabetes: Looking beyond carbs" Url="http://www.mayoclinic.com/health/diabetes/HQ00384" />
+		<LinkItem ContentType="Answer" DocID="AN02037" LinkType="Internal" ObjectID="256FFF50-DE1F-04C7-CCF1C067D4816F2D" Title="Blood glucose monitors: What factors affect accuracy?" Url="http://www.mayoclinic.com/health/blood-glucose-monitors/AN02037" />
+		<LinkItem ContentType="SlideShow" DocID="DA00062" LinkType="Internal" ObjectID="146260D0-9910-47B2-9D58A9BC2C01AA12" Title="Slide show: Blood sugar testing" Url="http://www.mayoclinic.com/health/blood-sugar/DA00062" />
+		<LinkItem ContentType="Answer" DocID="AN00754" LinkType="Internal" ObjectID="0F07D463-CFF5-48B0-8023B589F97745E8" Title="Glycemic index diet: A helpful tool for diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00754" />
+		<LinkItem ContentType="Answer" DocID="AN00425" LinkType="Internal" ObjectID="0D5D69BC-AD00-4EF9-AA583AA7ECCCB5CE" Title="Diabetes foods: Is honey a good substitute for sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00425" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01072" LinkType="Internal" ObjectID="0D045347-D493-491D-87747DC88EF2FAA9" Title="Bone and joint problems associated with diabetes" Url="http://www.mayoclinic.com/health/diabetes/AN01072" />
+		<LinkItem ContentType="Video" DocID="MM00641" LinkType="Internal" ObjectID="0798BB8E-A076-4530-A813B1FE5D082347" Title="Video: How diabetes affects your blood sugar" Url="http://www.mayoclinic.com/health/blood-sugar/MM00641" />
+		<LinkItem ContentType="Article" DocID="DA00140" LinkType="Internal" ObjectID="F137A4D5-E7FF-0DBD-19EFDE501E927526" Title="Amputation and diabetes: How to protect your feet" Url="http://www.mayoclinic.com/health/amputation-and-diabetes/DA00140" />
+		<LinkItem ContentType="Article" DocID="DA00005" LinkType="Internal" ObjectID="DBF746E8-C262-42D5-B930E93CDA7EF2FC" Title="Diabetes management: How lifestyle, daily routine affect blood sugar" Url="http://www.mayoclinic.com/health/diabetes-management/DA00005" />
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+		<LinkItem ContentType="Article" DocID="DA00131" LinkType="Internal" ObjectID="CCD93E60-E7FF-0DBD-16D4DC756C95973A" Title="Diabetes nutrition: Eating out when you have diabetes" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00131" />
+		<LinkItem ContentType="Article" DocID="DA00130" LinkType="Internal" ObjectID="CCD8D0D2-E7FF-0DBD-1147590923E8C5D8" Title="Diabetes nutrition: Including sweets in your meal plan" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00130" />
+		<LinkItem ContentType="Article" DocID="DA00129" LinkType="Internal" ObjectID="CCD8574E-E7FF-0DBD-17D0E039BF826AA0" Title="Reading food labels: Tips if you have diabetes" Url="http://www.mayoclinic.com/health/food-labels/DA00129" />
+		<LinkItem ContentType="Article" DocID="DA00007" LinkType="Internal" ObjectID="92AC67F3-1213-490C-92B735ECBA4127FA" Title="Blood sugar testing: Why, when and how" Url="http://www.mayoclinic.com/health/blood-sugar/DA00007" />
+		<LinkItem ContentType="Article" DocID="MY00924" LinkType="Internal" ObjectID="857E4CB1-9711-9A15-FC482EF2F728CE05" Title="Blood glucose meter: How to choose" Url="http://www.mayoclinic.com/health/blood-glucose-meter/MY00924" />
+		<LinkItem ContentType="Article" DocID="DA00077" LinkType="Internal" ObjectID="77362434-F554-430A-921AFCFD1A1843D6" Title="Your diabetes diet: Exchange lists" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00077" />
+		<LinkItem ContentType="Article" DocID="DA00008" LinkType="Internal" ObjectID="6AEAFB6E-1AD3-4135-895FD14C6101E152" Title="Diabetes care: 10 ways to avoid diabetes complications" Url="http://www.mayoclinic.com/health/diabetes-management/DA00008" />
+		<LinkItem ContentType="Article" DocID="DA00105" LinkType="Internal" ObjectID="636D1AE8-2008-4B4F-97235C8819FC5DCD" Title="Diabetes and exercise: When to monitor your blood sugar" Url="http://www.mayoclinic.com/health/diabetes-and-exercise/DA00105" />
+		<LinkItem ContentType="Article" DocID="DA00073" LinkType="Internal" ObjectID="4C506041-DDCD-48C8-9EC11A94ABDC4AF9" Title="Exchange list: Nonstarchy vegetables" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00073" />
+		<LinkItem ContentType="Article" DocID="DA00038" LinkType="Internal" ObjectID="167CE011-22E6-46C5-BC2634387D8E47AC" Title="Diabetes and menopause: A twin challenge" Url="http://www.mayoclinic.com/health/diabetes/DA00038" />
+		<LinkItem ContentType="Article" DocID="DA00027" LinkType="Internal" ObjectID="15BFEA7A-0FD3-4F24-B4F777100DAF60F1" Title="Diabetes diet: Create your healthy-eating plan" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00027" />
+		<LinkItem ContentType="Article" DocID="DA00125" LinkType="Internal" ObjectID="147B55E4-E7FF-0DBD-1F6F914B34826B5D" Title="Diabetes symptoms: When diabetes symptoms are a concern" Url="http://www.mayoclinic.com/health/diabetes-symptoms/DA00125" />
+		<LinkItem ContentType="Article" DocID="DA00010" LinkType="Internal" ObjectID="0D683502-920C-47E6-AE42F3355B6B8816" Title="Diabetes treatment: Using insulin to manage blood sugar" Url="http://www.mayoclinic.com/health/diabetes-treatment/DA00010" />
+		<LinkItem ContentType="Article" DocID="DA00088" LinkType="Internal" ObjectID="02E539B2-398D-43D8-ABF8B817F1901492" Title="Intensive insulin therapy: Achieving tight blood sugar control" Url="http://www.mayoclinic.com/health/intensive-insulin-therapy/DA00088" />
+		<LinkItem ContentType="Article" DocID="DA00013" LinkType="Internal" ObjectID="019020A5-D8EF-44ED-A1FC275B92B2D1A7" Title="Diabetes and dental care: Guide to a healthy mouth" Url="http://www.mayoclinic.com/health/diabetes/DA00013" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00146" LinkType="Internal" ObjectID="DF9C1BB4-E7FF-0DBD-12AE768ED85E8088" Title="Glucose challenge test" Url="http://www.mayoclinic.com/health/glucose-challenge-test/MY00146" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01919" LinkType="Internal" ObjectID="8F721657-ED13-7D11-6153103214893F79" Title="Biophysical profile" Url="http://www.mayoclinic.com/health/biophysical-profile/MY01919" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00777" LinkType="Internal" ObjectID="563FCB9D-A538-2A78-5A61F27B1BD5D29F" Title="Fetal ultrasound" Url="http://www.mayoclinic.com/health/fetal-ultrasound/MY00777" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="Article" DocID="PR00111" LinkType="Internal" ObjectID="17A69035-EF4D-4811-985D00A6FCDDB751" Title="Pregnancy weight gain: What&apos;s healthy?" Url="http://www.mayoclinic.com/health/pregnancy-weight-gain/PR00111" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+	</RelatedLinksBox>
+</Disease>

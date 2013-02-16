@@ -1,0 +1,221 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00038
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00038
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-26
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			8C663C0D-E7FF-0DBD-1CF3EB2A15557DC0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayo clinic cookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				fruit
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				fruit sauce
+			</MetaKeyword>
+			<MetaKeyword>
+				raspberries
+			</MetaKeyword>
+			<MetaKeyword>
+				low-fat recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				low-sodium recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				no cook recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				heart-healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook,&lt;/em&gt; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Raspberry coulis
+	</Title>
+	<Abstract>
+		Raspberry coulis &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Sweet spices and a splash of balsamic vinegar add depth to this vividly colored sauce of pureed fresh raspberries. Stir it into yogurt or spoon it over fresh fruit. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a blender or food processor, combine all the ingredients and puree until smooth. 
+&lt;/p&gt;
+&lt;p&gt;
+Pass the puree through a fine-mesh sieve placed over a bowl, pressing firmly on the solids with a rubber spatula or the back of a wooden spoon to extract all the juice. Scrape the inside of the sieve periodically to dislodge any seeds that may be plugging the holes. Keep pushing the pulp firmly through the sieve until all that is left is a small number of seeds. 
+&lt;/p&gt;
+&lt;p&gt;
+Cover the puree and refrigerate until ready to use. Makes about 1 cup. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 cups fresh raspberries&lt;/li&gt;
+	&lt;li&gt;2 tablespoons honey&lt;/li&gt;
+	&lt;li&gt;1 tablespoon balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground cinnamon&lt;/li&gt;
+	&lt;li&gt;Generous pinch of ground nutmeg &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				85
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				21 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				trace
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				1 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1/4 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				2 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				9 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				0.5 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Course">
+			Sauces and dressings
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

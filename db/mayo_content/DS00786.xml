@@ -1,0 +1,350 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00786
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/retinoblastoma/DS00786
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-17
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="1941" Title="Retinoblastoma" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			31F37BC9-E7FF-0DBD-13EE9DE8C8CE29A8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				retinoblastoma
+			</MetaKeyword>
+			<MetaKeyword>
+				eye cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Retinoblastoma is an eye cancer that begins in the retina &amp;mdash; the sensitive lining on the inside of your eye. Retinoblastoma most commonly affects young children, but can rarely occur in adults. 
+&lt;/p&gt;
+&lt;p&gt;
+Your retina is made up of nerve tissue that senses light as it comes through the front of your eye. The retina sends signals through your optic nerve to your brain, where these signals are interpreted as images. 
+&lt;/p&gt;
+&lt;p&gt;
+A rare form of eye cancer, retinoblastoma is the most common form of cancer affecting the eye in children. Retinoblastoma may occur in one or both eyes. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs of retinoblastoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A white color in the center circle of the eye (pupil) when light is shone in the eye, such as when taking a flash photograph&lt;/li&gt;
+	&lt;li&gt;Eyes that appear to be looking in different directions&lt;/li&gt;
+	&lt;li&gt;Eye redness&lt;/li&gt;
+	&lt;li&gt;Eye swelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your child&apos;s doctor if you notice any changes to your child&apos;s eyes that concern you. Retinoblastoma is a rare cancer, so your child&apos;s doctor may explore other more common eye conditions first. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a family history of retinoblastoma, ask your pediatrician when your child should begin regular eye exams to screen for retinoblastoma.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Retinoblastoma occurs when nerve cells in the retina develop genetic mutations. These mutations cause the cells to continue growing and multiplying when healthy cells would die. This accumulating mass of cells forms a tumor. Retinoblastoma cells can invade further into the eye and nearby structures. Retinoblastoma can also spread (metastasize) to other areas of the body, including the brain and spine. 
+&lt;/p&gt;
+&lt;p&gt;
+In the majority of cases, it&apos;s not clear what causes the genetic mutations that lead to retinoblastoma. However, it&apos;s possible for children to inherit a genetic mutation from their parents. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Retinoblastoma that is inherited&lt;/strong&gt;&lt;br /&gt;
+Gene mutations that increase the risk of retinoblastoma and other cancers can be passed from parents to children. Hereditary retinoblastoma is passed from parents to children in an autosomal dominant pattern, which means only one parent needs a single copy of the mutated gene to pass the increased risk of retinoblastoma on to the children. If one parent carries a mutated gene, each child has a 50 percent chance of inheriting that gene. 
+&lt;/p&gt;
+&lt;p&gt;
+Although a genetic mutation increases a child&apos;s risk of retinoblastoma, it doesn&apos;t mean that cancer is inevitable. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with the inherited form of retinoblastoma tend to develop the disease at an earlier age. Hereditary retinoblastoma also tends to occur in both eyes, as opposed to just one eye. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children treated for retinoblastoma have a risk of cancer returning in and around the treated eye. For this reason, your child&apos;s doctor will schedule follow-up exams to check for recurrent retinoblastoma. The doctor may design a personalized follow-up exam schedule for your child. In most cases, this will likely involve eye exams every few months for the first few years after retinoblastoma treatment ends.
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, children with the inherited form of retinoblastoma have an increased risk of developing other types of cancers in any part of the body in the years after treatment. For this reason, children with inherited retinoblastoma may have regular exams to screen for other cancers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your child&apos;s doctor or pediatrician if your child has any signs or symptoms that worry you. If your child is thought to have an eye problem, you may be referred to a doctor who specializes in treating eye diseases (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your child&apos;s diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent changes in your child&apos;s life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your child&apos;s doctor is limited, so preparing a list of questions ahead of time can help you make the most of the time. List your questions from most important to least important in case time runs out. For retinoblastoma, some basic questions to ask your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Should my child see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your child&apos;s doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your child&apos;s doctor&lt;/strong&gt;&lt;br /&gt;
+Your child&apos;s doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points. Your child&apos;s doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your child begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose retinoblastoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam.&lt;/strong&gt; Your eye doctor will conduct an eye exam to determine what&apos;s causing your child&apos;s signs and symptoms. For a more thorough exam, the doctor may recommend using anesthetics to keep your child still.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Scans and other imaging tests can help your child&apos;s doctor determine whether retinoblastoma has grown to affect other structures around the eye. Imaging tests may include ultrasound, computerized tomography (CT) scan and magnetic resonance imaging (MRI), among others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consulting with other doctors.&lt;/strong&gt; Your child&apos;s doctor may refer you to other specialists, such as a doctor who specializes in treating cancer (oncologist), a genetic counselor or a surgeon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What treatments are best for your child&apos;s retinoblastoma depends on the size and location of the tumor, whether cancer has spread to areas other than the eye, your child&apos;s overall health and your own preferences. When possible, your child&apos;s doctor will work to preserve your child&apos;s vision. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt;&lt;br /&gt;
+Chemotherapy is a drug treatment that uses chemicals to kill cancer cells. Chemotherapy can be taken in pill form, or it can be given through a blood vessel. Chemotherapy drugs travel throughout the body to kill cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+In children with retinoblastoma, chemotherapy may help shrink a tumor so another treatment, such as radiation therapy, cryotherapy, thermotherapy or laser therapy, may be used to treat the remaining cancer cells. This may improve the chances that your child won&apos;t need surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy may also be used to treat retinoblastoma that has spread to tissues outside the eyeball or to other areas of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt;&lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays, to kill cancer cells. Two types of radiation therapy used in treating retinoblastoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Internal radiation (brachytherapy).&lt;/strong&gt; During internal radiation, the treatment device is temporarily placed in or near the tumor. Internal radiation for retinoblastoma uses a small disk made of radioactive material. The disk is stitched in place and left for a few days while it slowly gives off radiation to the tumor. Placing radiation near the tumor reduces the chance that treatment will affect healthy eye tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;External beam radiation.&lt;/strong&gt; External beam radiation delivers high-powered beams to the tumor from a large machine outside of the body. As your child lies on a table, the machine moves around your child, delivering the radiation. External beam radiation can cause side effects when radiation beams reach the delicate areas around the eye, such as the brain. For this reason, external beam radiation is typically reserved for children with advanced retinoblastoma and those for whom other treatments haven&apos;t worked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Laser therapy (laser photocoagulation)&lt;/strong&gt;&lt;br /&gt;
+During laser therapy, a laser is used to destroy blood vessels that supply oxygen and nutrients to the tumor. Without a source for fuel, cancer cells may die. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cold treatments (cryotherapy)&lt;/strong&gt;&lt;br /&gt;
+Cryotherapy uses extreme cold to kill cancer cells. During cryotherapy, a very cold substance, such as liquid nitrogen, is placed in or near the cancer cells. Once the cells freeze, the cold substance is removed and the cells thaw. This process of freezing and thawing, repeated a few times in each cryotherapy session, causes the cancerous cells to die. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heat treatments (thermotherapy)&lt;/strong&gt;&lt;br /&gt;
+Thermotherapy uses extreme heat to kill cancer cells. During thermotherapy, heat is directed at the cancer cells using ultrasound, microwaves or lasers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+When the tumor is too large to be treated by other methods, surgery may be used to treat retinoblastoma. In these situations, surgery to remove the eye may help prevent the spread of cancer to other parts of the body. Surgery for retinoblastoma includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the affected eye (enucleation).&lt;/strong&gt; During surgery to remove the eye, surgeons disconnect the muscles and tissue around the eye and remove the eyeball. A portion of the optic nerve, which extends from the back of the eye into the brain, also is removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to place an eye implant.&lt;/strong&gt; Immediately after the eyeball is removed, the surgeon places a special ball &amp;mdash; made of plastic or other materials &amp;mdash; in the eye socket. The muscles that control eye movement are attached to the implant. After your child heals, the eye muscles will adapt to the implanted eyeball, so it may move just as the natural eye did. However, the implanted eyeball cannot see.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fitting an artificial eye.&lt;/strong&gt; Several weeks after surgery, a custom-made artificial eye can be placed over the eye implant. The artificial eye can be made to match your child&apos;s healthy eye. The artificial eye sits behind the eyelids and clips onto the eye implant. As your child&apos;s eye muscles move the eye implant, it will appear that your child is moving the artificial eye.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Side effects of surgery include infection and bleeding. Removing an eye will affect your child&apos;s vision, though most children will adapt to the loss of an eye over time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt;&lt;br /&gt;
+Clinical trials are studies to test new treatments and new ways of using existing treatments. While clinical trials give your child a chance to try the latest in retinoblastoma treatments, they can&apos;t guarantee a cure. Ask your child&apos;s doctor whether your child is eligible to participate in clinical trials. Your child&apos;s doctor can discuss the benefits and risks of enrolling in a clinical trial. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your child is diagnosed with cancer, it&apos;s common to feel a range of emotions &amp;mdash; from shock and disbelief to guilt and anger. Everyone finds his or her own way of coping with stressful situations, but if you&apos;re feeling lost, you might try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gather all the information you need.&lt;/strong&gt; Find out enough about retinoblastoma to feel comfortable making decisions about your child&apos;s care. Talk with your child&apos;s health care team. Keep a list of questions to ask at the next appointment. Visit your local library and ask for help searching for information. Consult the websites of the National Cancer Institute and the American Cancer Society for more information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Organize a support network.&lt;/strong&gt; Find friends and family who can help support you as a caregiver. Loved ones can accompany your child to doctor visits or sit by his or her bedside in the hospital when you can&apos;t be there. When you&apos;re with your child, your friends and family can help out by spending time with your other children or helping around your house.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take advantage of resources for kids with cancer.&lt;/strong&gt; Seek out special resources for families of kids with cancer. Ask your clinic&apos;s social workers about what&apos;s available. Support groups for parents and siblings put you in touch with people who understand what you&apos;re feeling. Your family may be eligible for summer camps, temporary housing and other support.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Maintain normalcy as much as possible.&lt;/strong&gt; Small children can&apos;t understand what&apos;s happening to them as they undergo cancer treatment. To help your child cope, try to maintain a normal routine as much as possible. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Try to arrange appointments so that your child can have a set nap time each day. Have routine mealtimes. Allow time for play when your child feels up to it. If your child must spend time in the hospital, bring items from home that helps him or her feel more comfortable. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Ask your health care team about other ways to comfort your child through his or her treatment. Some hospitals have recreation therapists or child-life workers who can give you more specific ways to help your child to cope. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, doctors aren&apos;t sure what causes retinoblastoma, so there&apos;s no proven way to prevent the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevention for families with inherited retinoblastoma&lt;/strong&gt;&lt;br /&gt;
+In families with the inherited form of retinoblastoma, preventing retinoblastoma may not be possible. However, genetic testing enables families to know which children have an increased risk of retinoblastoma, so eye exams can begin at an early age. That way, retinoblastoma may be diagnosed very early &amp;mdash; when the tumor is small and a chance for a cure and preservation of vision is still possible. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor determines that your child&apos;s retinoblastoma was caused by an inherited genetic mutation, your family may be referred to a genetic counselor. 
+&lt;/p&gt;
+&lt;p&gt;
+Genetic testing can be used to determine whether:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your child with retinoblastoma is at risk of other related cancers&lt;/li&gt;
+	&lt;li&gt;Your other children are at risk of retinoblastoma and other related cancers, so they can start eye exams at an early age&lt;/li&gt;
+	&lt;li&gt;You and your partner have the possibility of passing the genetic mutation on to future children&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The genetic counselor can discuss the risks and benefits of genetic testing and help you decide whether you, your partner or your other children will be tested for the genetic mutation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Retinoblastoma
+	</Title>
+	<Abstract>
+		Retinoblastoma &amp;mdash; Comprehensive overview covers symptoms, treatment of this eye cancer that occurs in young children.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

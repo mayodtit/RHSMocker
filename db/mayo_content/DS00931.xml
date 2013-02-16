@@ -1,0 +1,586 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00931
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/type-1-diabetes-in-children/DS00931
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus">
+						<Keyword MCVID="4235" Title="Type 1 diabetes in children" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4F8D621E-E7FF-0DBD-19EFC96A161D6F1B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 1 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 1 diabetes in children
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile onset diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes in children
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes mellitus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 1 diabetes in children is a condition in which your child&apos;s pancreas no longer produces the insulin your child needs to survive, and you&apos;ll need to replace the missing insulin. Type 1 diabetes in children used to be known as juvenile diabetes or insulin-dependent diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+The diagnosis of type 1 diabetes in children can be overwhelming at first. Suddenly, you and your child &amp;mdash; depending on his or her age &amp;mdash; must learn how to give injections, count carbohydrates and monitor blood sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+Although type 1 diabetes in children requires consistent care, advances in blood sugar monitoring and insulin delivery have improved the daily management of type 1 diabetes in children. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of type 1 diabetes in children usually develop quickly, over a period of weeks. Look for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increased thirst and frequent urination.&lt;/strong&gt; As excess sugar builds up in your child&apos;s bloodstream, fluid is pulled from the tissues. This may leave your child thirsty. As a result, your child may drink &amp;mdash; and urinate &amp;mdash; more than usual.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Extreme hunger.&lt;/strong&gt; Without enough insulin to move sugar into your child&apos;s cells, your child&apos;s muscles and organs become energy depleted. This triggers intense hunger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; Despite eating more than usual to relieve hunger, your child may lose weight &amp;mdash; sometimes rapidly. Without the energy sugar supplies, muscle tissues and fat stores simply shrink. Unexplained weight loss is often the first sign to be noticed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; If your child&apos;s cells are deprived of sugar, he or she may become tired and lethargic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritability or unusual behavior.&lt;/strong&gt; Children with undiagnosed type 1 diabetes may suddenly seem moody or irritable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blurred vision.&lt;/strong&gt; If your child&apos;s blood sugar is too high, fluid may be pulled from the lenses of your child&apos;s eyes. This may affect your child&apos;s ability to focus clearly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yeast infection.&lt;/strong&gt; Girls with type 1 diabetes may have a genital yeast infection, and babies can develop diaper rash caused by yeast.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Talk to your child&apos;s doctor if you notice any of the signs or symptoms of type 1 diabetes &amp;mdash; increased thirst and frequent urination, extreme hunger, weight loss, blurred vision, or fatigue. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of type 1 diabetes is unknown. Scientists do know that in most people with type 1 diabetes, the body&apos;s own immune system &amp;mdash; which normally fights harmful bacteria and viruses &amp;mdash; mistakenly destroys the insulin-producing (islet) cells in the pancreas. Genetics may play a role in this process, and exposure to certain viruses may trigger the disease.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Insulin key to sugar entering cells&lt;/strong&gt; &lt;br /&gt;
+Whatever the cause, once the islet cells are destroyed, your child will produce little or no insulin. Normally, the hormone insulin helps glucose enter your child&apos;s cells to provide energy to the muscles and tissues. Insulin comes from the pancreas, a gland located just behind the stomach. When everything is working properly, once you eat, the pancreas secretes more insulin into the bloodstream. As insulin circulates, it acts like a key by unlocking microscopic doors that allow sugar to enter the body&apos;s cells. Insulin lowers the amount of sugar in the bloodstream, and as the blood sugar level drops, so does the secretion of insulin from the pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+The liver acts as a glucose storage and manufacturing center. When insulin levels are low &amp;mdash; when you haven&apos;t eaten in a while, for example &amp;mdash; the liver releases stored glycogen, which is then converted to glucose to keep your blood glucose level within a normal range. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dangerous sugar level in bloodstream&lt;/strong&gt; &lt;br /&gt;
+In type 1 diabetes, none of this occurs because there&apos;s no or very little insulin to let glucose into the cells. So instead of being transported into your child&apos;s cells, sugar builds up in your child&apos;s bloodstream, where it can cause life-threatening complications. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of type 1 diabetes is different from the more common type 2 diabetes. In type 2, the islet cells are still functioning, but the body becomes resistant to insulin or the pancreas doesn&apos;t produce enough insulin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t many known risk factors for type 1 diabetes, though researchers continue to find new possibilities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Known risk factors&lt;/strong&gt; &lt;br /&gt;
+These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A family history.&lt;/strong&gt; Anyone with a parent or siblings with type 1 diabetes has a slightly increased risk of developing the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genes.&lt;/strong&gt; The presence of certain genes indicates an increased risk of developing type 1 diabetes. In some cases &amp;mdash; usually through a clinical trial &amp;mdash; genetic testing can be done to determine if a child who has a family history of type 1 diabetes is at increased risk of developing the condition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible risk factors&lt;/strong&gt; &lt;br /&gt;
+Possible risk factors for type 1 diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Viral exposure.&lt;/strong&gt; Exposure to Epstein-Barr virus, coxsackievirus, mumps or cytomegalovirus may trigger the autoimmune destruction of the islet cells, or the virus may directly infect the islet cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low vitamin D levels.&lt;/strong&gt; Research suggests that vitamin D may protect against type 1 diabetes. However, early intake of cow&apos;s milk &amp;mdash; a common source of vitamin D &amp;mdash; has been linked to an increased risk of type 1 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other dietary factors.&lt;/strong&gt; Drinking water that contains nitrates may increase the risk of type 1 diabetes. The timing of the introduction of cereal into a baby&apos;s diet also may affect a child&apos;s risk of type 1 diabetes. One clinical trial found that between ages 4 and 7 months appears to be the optimal time for introducing cereal. Another study found that the type of baby formula babies consume also may affect diabetes risk. This research suggests that when special easier-to-digest formulas (hydrosolate) are given to babies when they&apos;re between ages 6 and 8 months instead of standard cow&apos;s milk formula, the risk of type 1 diabetes might be reduced. However, the study didn&apos;t link standard cow&apos;s milk formulas to the development of type 1 diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 1 diabetes can affect nearly every major organ in your child&apos;s body, including the heart, blood vessels, nerves, eyes and kidneys. The good news is that keeping your child&apos;s blood sugar level close to normal most of the time can dramatically reduce the risk of these complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Long-term complications of type 1 diabetes develop gradually. Eventually, if blood sugar levels aren&apos;t well controlled, diabetes complications may be disabling or even life-threatening.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart and blood vessel disease.&lt;/strong&gt; Diabetes dramatically increases your child&apos;s risk of various cardiovascular problems, including coronary artery disease with chest pain (angina), heart attack, stroke, narrowing of the arteries (atherosclerosis) and high blood pressure, later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage (neuropathy).&lt;/strong&gt; Excess sugar can injure the walls of the tiny blood vessels (capillaries) that nourish your child&apos;s nerves, especially in the legs. This can cause tingling, numbness, burning or pain. Nerve damage usually happens gradually, over a long period of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage (nephropathy).&lt;/strong&gt; Diabetes can damage the numerous tiny blood vessel clusters that filter waste from your child&apos;s blood. Severe damage can lead to kidney failure or irreversible end-stage kidney disease, requiring dialysis or a kidney transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye damage.&lt;/strong&gt; Diabetes can damage the blood vessels of the retina (diabetic retinopathy). Diabetic retinopathy can cause blindness. Diabetes can also lead to cataracts and a greater risk of glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foot damage.&lt;/strong&gt; Nerve damage in the feet or poor blood flow to the feet increases the risk of various foot complications. Left untreated, cuts and blisters can become serious infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin conditions.&lt;/strong&gt; Diabetes may leave your child more susceptible to skin problems, including bacterial infections, fungal infections and itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Diabetes may lead to lower than normal bone mineral density, increasing your child&apos;s risk of osteoporosis as an adult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain problems.&lt;/strong&gt; Although the exact reason for the link isn&apos;t clear, people with diabetes have an increased risk of dementia and Alzheimer&apos;s disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s family doctor or pediatrician will probably make the initial diagnosis of diabetes, and possibly send your child straight to the hospital. There, the staff will stabilize his or her blood sugar levels, and you and your child will learn about insulin delivery, carbohydrate counting and more. Diabetes education may also be done on an outpatient basis if your child&apos;s condition is stable. 
+&lt;/p&gt;
+&lt;p&gt;
+Once your child is discharged from the hospital, his or her diabetes care will likely be handled by a doctor who specializes in metabolic disorders in children (pediatric endocrinologist). Your child&apos;s health care team will also generally include a dietitian, a certified diabetes educator, and a doctor who specializes in eye care (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for any appointments you have with your child&apos;s health care team. Here&apos;s some information to help you get ready for your appointment, and what you can expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any concerns you have about your child&apos;s well-being&lt;/strong&gt; that you want to share with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to join you,&lt;/strong&gt; if possible. Managing diabetes well requires you to retain a lot of information, and it can sometimes be difficult to understand and remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook and a pen or pencil,&lt;/strong&gt; to write down important information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions that can help you clarify aspects of your child&apos;s care can be useful. Some of your concerns may be best addressed by a dietitian or a diabetes nurse educator. Ask your doctor for a referral. For type 1 diabetes in children, some topics you may want to address with your doctor, dietitian or diabetes educator include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The frequency and timing of blood glucose monitoring&lt;/li&gt;
+	&lt;li&gt;Insulin therapy &amp;mdash; types of insulin used, timing of dosing, amount of dose&lt;/li&gt;
+	&lt;li&gt;Insulin administration: shots versus pumps&lt;/li&gt;
+	&lt;li&gt;Low blood sugar &amp;mdash; how to recognize and treat&lt;/li&gt;
+	&lt;li&gt;High blood sugar &amp;mdash; how to recognize and treat&lt;/li&gt;
+	&lt;li&gt;Ketones &amp;mdash; testing and treatment&lt;/li&gt;
+	&lt;li&gt;Nutrition &amp;mdash; types of food and their effect on blood sugar&lt;/li&gt;
+	&lt;li&gt;Carbohydrate counting&lt;/li&gt;
+	&lt;li&gt;Exercise &amp;mdash; adjusting insulin and food intake for activity&lt;/li&gt;
+	&lt;li&gt;Dealing with diabetes at school, at summer camp and on special occasions, such as sleepovers&lt;/li&gt;
+	&lt;li&gt;Medical management &amp;mdash; how often to visit the doctor and other diabetes care specialists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How comfortable are you managing your child&apos;s diabetes?&lt;/li&gt;
+	&lt;li&gt;Has your child had any low blood sugar episodes?&lt;/li&gt;
+	&lt;li&gt;What&apos;s a typical day&apos;s diet like?&lt;/li&gt;
+	&lt;li&gt;Is your child exercising? If so, how often?&lt;/li&gt;
+	&lt;li&gt;On average, how much insulin are you using daily?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If your child&apos;s blood sugar isn&apos;t well controlled, or if you&apos;re not sure about what to do in a certain situation, don&apos;t hesitate to contact your child&apos;s doctor or diabetes educator in between appointments for advice and guidance. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child&apos;s doctor suspects diabetes, he or she will recommend a screening test. The primary test used to diagnose type 1 diabetes in children is the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Random blood sugar test.&lt;/strong&gt; A blood sample will be taken at a random time. Blood sugar values are expressed in milligrams per deciliter (mg/dL) or millimoles per liter (mmol/L). Regardless of when your child last ate, a random blood sugar level of 200 mg/dL (11.1 mmol/L) or higher suggests diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child&apos;s random blood sugar test results don&apos;t suggest diabetes, but your doctor still suspects it because of your child&apos;s symptoms, you doctor may do a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Glycated hemoglobin (A1C) test.&lt;/strong&gt; This blood test indicates an average blood sugar level for the past two to three months. It works by measuring the percentage of blood sugar attached to hemoglobin, the oxygen-carrying protein in red blood cells. The higher the blood sugar levels, the more hemoglobin that has sugar attached. An A1C level of 6.5 percent or higher on two separate tests indicates diabetes. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another test your doctor might use is a fasting blood sugar test. A blood sample will be taken after an overnight fast. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is normal. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. If it&apos;s 126 mg/dL (7 mmol/L) or higher on two separate tests, your child will be diagnosed with diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is diagnosed with diabetes, your doctor will also run blood tests to check for autoantibodies that are common in type 1 diabetes and help doctors distinguish between type 1 and type 2 diabetes. The presence of ketones &amp;mdash; byproducts from the breakdown of fat &amp;mdash; in your child&apos;s urine also suggests type 1 diabetes, rather than type 2. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the diagnosis&lt;/strong&gt; &lt;br /&gt;
+Once your child has been diagnosed with type 1 diabetes, he or she will regularly visit his or her doctor to ensure good diabetes management. 
+&lt;/p&gt;
+&lt;p&gt;
+During these visits, the doctor will also check your child&apos;s A1C levels. Your child&apos;s target A1C goal may vary depending on his or her age and various other factors. The American Diabetes Association (ADA) generally recommends slightly higher A1C levels for children and teens than for adults, because children are less likely to notice the symptoms of low blood sugar levels. For children younger than age 6, the ADA recommends an A1C of less than 8.5 percent. In children between ages 6 and 12, the recommendation is for an A1C under 8 percent, and teenagers are advised to try to keep their A1C under 7.5 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+Compared with repeated daily blood sugar tests, A1C testing better indicates how well your child&apos;s diabetes treatment plan is working. An elevated A1C level may signal the need for a change in your child&apos;s insulin regimen or meal plan. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to the A1C test, the doctor will also periodically check your child&apos;s cholesterol levels, thyroid function, liver function and kidney function using blood and urine samples, as well as periodically test for celiac disease. The doctor will also examine your child to assess his or her blood pressure and growth, and will check the sites where your child tests his or her blood sugar and delivers insulin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for type 1 diabetes is a lifelong commitment of blood sugar monitoring, insulin, healthy eating and regular exercise &amp;mdash; even for kids. And as your child grows and changes, so will his or her diabetes treatment plan. Over the years, your child may need different doses or types of insulin, a new meal plan or other treatment changes. 
+&lt;/p&gt;
+&lt;p&gt;
+If managing your child&apos;s diabetes seems overwhelming, take it one day at a time. Some days you&apos;ll manage your child&apos;s blood sugar perfectly. Other days, it may seem as if nothing works well. Don&apos;t forget that you&apos;re not alone. You&apos;ll work closely with your child&apos;s diabetes treatment team &amp;mdash; doctor, diabetes educator and registered dietitian &amp;mdash; to keep your child&apos;s blood sugar level as close to normal as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood sugar monitoring&lt;/strong&gt; &lt;br /&gt;
+Depending on what type of insulin therapy your child needs, you may need to check and record your child&apos;s blood sugar at least three times a day, but probably more often. This requires frequent finger sticks. Some blood glucose meters allow for testing at other sites. Frequent testing is the only way to make sure that your child&apos;s blood sugar level remains within his or her target range &amp;mdash; which may change as your child grows and changes. Your child&apos;s doctor will let you know what your child&apos;s blood sugar target range is. Your doctor may ask you to keep a log of the blood glucose readings, or he or she may download that information from the blood glucose meter. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Continuous glucose monitoring (CGM)&lt;/strong&gt; &lt;br /&gt;
+CGM is the newest way to monitor blood sugar levels, and may be most helpful for people who have developed hypoglycemia unawareness. CGM attaches to the body using a fine needle just under the skin that checks blood glucose level every few minutes. CGM isn&apos;t yet considered as accurate as standard blood sugar monitoring, so it&apos;s not considered a replacement method for keeping track of blood sugar, but is used as an additional tool. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Insulin and other medications&lt;/strong&gt;&lt;br /&gt;
+Anyone who has type 1 diabetes needs insulin treatment to survive. Because stomach enzymes interfere with insulin taken by mouth, oral insulin isn&apos;t an option for lowering blood sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+Many types of insulin are available, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rapid-acting insulin,&lt;/strong&gt; such as insulin lispro (Humalog) and insulin aspart (NovoLog), starts working in five to 15 minutes and peaks 30 to 90 minutes later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Short-acting insulin,&lt;/strong&gt; such as human insulin (Humulin R, Novolin R, others), starts working 30 to 60 minutes after injection and generally peaks in two to four hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-acting insulin,&lt;/strong&gt; such as insulin glargine (Lantus) and insulin detemir (Levemir), has almost no peak and may provide coverage for as long as 20 to 26 hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intermediate-acting insulin,&lt;/strong&gt; such as NPH insulin (Humulin N, Novolin N), starts working one to three hours after it&apos;s taken and peaks in eight hours. NPH insulin is similar in effectiveness to long-acting types of insulin, but may be more likely to cause low blood sugar. Using NPH insulin allows for less flexibility with mealtimes, as well as in the amount of carbohydrates your child can eat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on your child&apos;s age and needs, the doctor may prescribe a mixture of insulin types to use throughout the day and night. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Insulin delivery options&lt;/strong&gt; &lt;br /&gt;
+Often, insulin is injected using a fine needle and syringe or an insulin pen &amp;mdash; a device that looks like an ink pen, except the cartridge is filled with insulin. 
+&lt;/p&gt;
+&lt;p&gt;
+An insulin pump also may be an option for some children. The pump is a device about the size of a cell phone worn on the outside of the body. In most cases, a tube connects the reservoir of insulin to a catheter that&apos;s inserted under the skin of the abdomen. A wireless pump that uses small pods filled with insulin is another option that&apos;s now available. The pump is programmed to dispense specific amounts of insulin automatically. It can be adjusted to deliver more or less insulin depending on meals, activity level and blood sugar level. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Healthy eating&lt;/strong&gt; &lt;br /&gt;
+Contrary to popular perception, there&apos;s no diabetes diet. Your child won&apos;t be restricted to a lifetime of boring, bland foods. Instead, your child will need plenty of fruits, vegetables and whole grains &amp;mdash; foods that are high in nutrition and low in fat and calories. Your child&apos;s dietitian will likely suggest that your child &amp;mdash; and the rest of the family &amp;mdash; consume fewer animal products and sweets. In fact, it&apos;s the best eating plan for the entire family. Sugary foods are OK, once in a while, as long as they&apos;re included in your child&apos;s meal plan. 
+&lt;/p&gt;
+&lt;p&gt;
+Yet understanding what and how much to feed your child can be a challenge. A registered dietitian can help you create a meal plan that fits your child&apos;s health goals, food preferences and lifestyle. Certain foods, such as those with a high sugar or fat content, may be more difficult to incorporate into your child&apos;s meal plan than healthier choices. For example, high-fat foods &amp;mdash; because fat slows digestion &amp;mdash; may cause a spike in blood sugar several hours after your child has eaten. Unfortunately, there&apos;s no set formula to tell you how your child&apos;s body will process different foods. But, as time passes, you&apos;ll learn more about how your child&apos;s favorites affect his or her blood sugar, and then you can learn to compensate for them. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical activity&lt;/strong&gt; &lt;br /&gt;
+Everyone needs regular aerobic exercise, and children who have type 1 diabetes are no exception. Encourage your child to get regular physical activity. Sign up for a sports team or dance lessons. Better yet, exercise together. Play catch in the backyard. Walk or run through your neighborhood. Visit an indoor climbing wall or local pool. Make physical activity part of your child&apos;s daily routine. 
+&lt;/p&gt;
+&lt;p&gt;
+But remember that physical activity usually lowers blood sugar, and it can affect blood sugar levels for up to 12 hours after exercise. If your child begins a new activity, check your child&apos;s blood sugar more often than usual until you learn how his or her body reacts to the activity. You might need to adjust your child&apos;s meal plan or insulin doses to compensate for the increased activity. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Flexibility&lt;/strong&gt; &lt;br /&gt;
+Even if your child takes insulin and eats on a rigid schedule, the amount of sugar in his or her blood can change unpredictably. With help from your child&apos;s diabetes treatment team, you&apos;ll learn how your child&apos;s blood sugar level changes in response to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Food.&lt;/strong&gt; What and how much your child eats will affect your child&apos;s blood sugar level. Food can pose a particular challenge for parents of very young children with type 1 diabetes. That&apos;s because young children are notorious for not finishing what&apos;s on their plate, and that&apos;s a problem if you&apos;ve given the child an insulin injection to cover more food than he or she ate. If you know this will be an issue, let your child&apos;s doctor know so that he or she can work with you to come up with an insulin regimen that works for your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt; Physical activity moves sugar from your child&apos;s blood into his or her cells. The more active your child is, the lower his or her blood sugar level. To compensate, you might need to lower your child&apos;s insulin dose before unusual physical activity, or your child may need to have a snack before exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Your child needs insulin to lower his or her blood sugar. But any other medications your child takes may affect his or her blood sugar level as well &amp;mdash; sometimes requiring changes in your child&apos;s diabetes treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Illness.&lt;/strong&gt; During a cold or other illness, your child&apos;s body will produce hormones that raise his or her blood sugar level. In addition, a fever increases your child&apos;s metabolism. As a result, your child may need to take more frequent or larger doses of insulin. If your child has an illness that&apos;s causing vomiting and he or she can&apos;t keep any food down, his or her body still needs insulin to cover the glucose produced in the liver. Ask your doctor about coming up with a sick-day management plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth spurts and puberty.&lt;/strong&gt; Just when you&apos;ve mastered your child&apos;s insulin needs, he or she shoots up 2 inches seemingly overnight and suddenly isn&apos;t getting enough insulin. Hormones also can affect insulin requirements, particularly for teenage girls as they begin to menstruate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep.&lt;/strong&gt; Depending on your child&apos;s insulin regimen, he or she may be at risk of low blood sugar during the night. For that reason, your child&apos;s blood sugar levels should be slightly higher before bed than they are during the day. For children younger than age 6, a good pre-bedtime level is 110 to 200 mg/dL (6.1 to 11.1 mmol/L), while a child between ages 6 and 12 should be in the 100 to 180 mg/dL (5.6 to 10 mmol/L) range. Teenagers&apos; blood sugar levels should be between 90 and 150 mg/dL (5 to 8.3 mmol/L) before bed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Investigational treatments&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreas transplant.&lt;/strong&gt; With a successful pancreas transplant, your child would no longer need injected insulin. But pancreas transplants aren&apos;t always successful &amp;mdash; and the procedure poses serious risks. Your child would need a lifetime of potent immune-suppressing drugs to prevent organ rejection. These drugs can have serious side effects, including a high risk of infection and organ injury. Because the side effects can be more dangerous than the diabetes, pancreas transplants in children generally aren&apos;t done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Islet cell transplantation.&lt;/strong&gt; Researchers also are experimenting with islet cell transplantation, which provides new insulin-producing cells from a donor pancreas. Although this experimental procedure has met with problems in the past, new techniques and better drugs to prevent islet cell rejection may hold promise for the future. However, islet cell transplantation still requires the use of immune-suppressing medications, and just as it did with its own natural islet cells, the body often destroys transplanted islet cells, making the time off insulin short-lived.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs of trouble&lt;/strong&gt; &lt;br /&gt;
+Despite your best efforts, sometimes problems will arise. Certain short-term complications of type 1 diabetes require immediate care. Left untreated, these conditions can cause seizures and loss of consciousness (coma). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; If your child&apos;s blood sugar level drops below his or her target range, it&apos;s known as low blood sugar. Ask your doctor what&apos;s considered a low blood sugar level for your child. Blood sugar levels can drop for many reasons, including skipping a meal, getting more physical activity than normal or injecting too much insulin. Hypoglycemia occurs more frequently with intermediate-acting insulin, such as NPH. 
+&lt;/p&gt;
+&lt;p&gt;
+Teach your child the symptoms of low blood sugar, and that when in doubt, he or she should always do a blood sugar test. Early signs and symptoms of low blood sugar include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Shakiness&lt;/li&gt;
+	&lt;li&gt;Hunger&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Rapid or irregular heart rate&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Later signs and symptoms of low blood sugar, which are sometimes mistaken for alcohol intoxication in teens and adults, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lethargy&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Behavior changes, sometimes dramatic&lt;/li&gt;
+	&lt;li&gt;Poor coordination&lt;/li&gt;
+	&lt;li&gt;Convulsions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child develops hypoglycemia during the night, he or she might wake with sweat-soaked pajamas or a headache. Thanks to a natural rebound effect, nighttime hypoglycemia might cause an unusually high blood sugar reading first thing in the morning. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has a low blood sugar reading, give him or her fruit juice, glucose tablets, hard candy, regular (not diet) soda or another source of sugar. Then retest his or her blood sugar in about 15 minutes to make sure it has gone up into the normal range. If it&apos;s not in the normal range, re-treat with more sugar (juice, candy, glucose tablets or another source of sugar) and then retest in another 15 minutes. Keep doing this until you get a normal reading. It&apos;s a good idea to have your child eat another snack, this one containing a mixed food source, such as peanut butter and crackers, to help stabilize the blood sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+If a blood glucose meter isn&apos;t readily available, treat for low blood sugar anyway if your child has symptoms of hypoglycemia, and then test as soon as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Make sure your child always carries a source of fast-acting sugar with him or her. 
+&lt;/p&gt;
+&lt;p&gt;
+Left untreated, low blood sugar will cause your child to lose consciousness. If this occurs, he or she may need an emergency injection of glucagon &amp;mdash; a hormone that stimulates the release of sugar into the blood. Be sure your child always has a glucagon emergency kit available &amp;mdash; at home, at school, during sports, on sleepovers &amp;mdash; and make sure it hasn&apos;t expired. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;High blood sugar (hyperglycemia).&lt;/strong&gt; As with low blood sugar, your child&apos;s blood sugar can rise for many reasons, including eating too much, eating the wrong types of foods, not taking enough insulin or illness. 
+&lt;/p&gt;
+&lt;p&gt;
+Watch for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Increased thirst&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you suspect hyperglycemia, check your child&apos;s blood sugar. You might need to adjust your child&apos;s meal plan or medications. If your child&apos;s blood sugar is higher than his or her target range, you&apos;ll likely need to administer a &quot;correction&quot; using an insulin shot or through an insulin pump. A correction is an additional dose of insulin that should bring your child&apos;s blood sugar back into the normal range. High blood sugar levels don&apos;t come down as quickly as they go up. Ask your doctor how long to wait until you recheck. If your child uses an insulin pump, you may need to change the pump site if blood sugar levels don&apos;t come down. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has two consecutive blood sugar readings above 250 mg/dL (13.9 mmol/L), have your child test for ketones using a urine test stick. Don&apos;t allow your child to exercise if his or her blood sugar level is high or anytime ketones are present. If only a trace or small amount of ketones are present, have your child drink extra fluids to flush out the ketones. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child&apos;s blood sugar is persistently above 300 mg/dL (16.7 mmol/L), call your child&apos;s doctor or seek emergency care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Increased ketones in your child&apos;s urine (diabetic ketoacidosis).&lt;/strong&gt; If your child&apos;s cells are starved for energy, your child&apos;s body may begin to break down fat &amp;mdash; producing toxic acids known as ketones. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of this serious condition include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of appetite, weight loss&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;A sweet, fruity smell on your child&apos;s breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you suspect diabetic ketoacidosis, check your child&apos;s urine for excess ketones with an over-the-counter ketones test kit. If your child has a large amount of ketones in his or her urine, call your child&apos;s doctor right away or seek emergency care. Also, call your doctor if your child has vomited more than once in a four-hour period and has ketones in his or her urine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 1 diabetes is a serious disease. Helping your child follow his or her diabetes treatment plan takes round-the-clock commitment and will initially require some significant lifestyle changes. But your efforts are worthwhile. Careful management of type 1 diabetes can reduce your child&apos;s risk of serious &amp;mdash; even life-threatening &amp;mdash; complications. 
+&lt;/p&gt;
+&lt;p&gt;
+As your child gets older: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Encourage him or her to take an increasingly active role in diabetes management&lt;/li&gt;
+	&lt;li&gt;Stress the importance of lifelong diabetes care&lt;/li&gt;
+	&lt;li&gt;Teach your child how to test his or her blood sugar and inject insulin&lt;/li&gt;
+	&lt;li&gt;Help your child make wise food choices&lt;/li&gt;
+	&lt;li&gt;Encourage your child to remain physically active&lt;/li&gt;
+	&lt;li&gt;Foster a relationship between your child and his or her diabetes treatment team&lt;/li&gt;
+	&lt;li&gt;Make sure your child wears a medical identification tag&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Above all, stay positive. The habits you teach your child today will help him or her enjoy an active and healthy life with type 1 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;School and diabetes&lt;/strong&gt; &lt;br /&gt;
+Along with at-home care, you&apos;ll also need to work with your child&apos;s school nurse and teachers to make sure they know what the symptoms of high and low blood sugar levels are, and in some cases, the school nurse may need to administer insulin or check your child&apos;s blood sugar levels. Federal law protects children with diabetes, and schools must make reasonable accommodations to ensure that all children get a proper education. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with type 1 diabetes isn&apos;t easy &amp;mdash; for you or for your child. Good diabetes management requires a lot of time and effort, especially in the beginning. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your child&apos;s emotions&lt;/strong&gt; &lt;br /&gt;
+Diabetes can affect your child&apos;s emotions both directly and indirectly. Poorly controlled blood sugar can directly affect his or her emotions by causing behavior changes, such as irritability. And, if that happens at a birthday party because your child forgot to take insulin before having a piece of cake, he or she could end up fighting with friends. 
+&lt;/p&gt;
+&lt;p&gt;
+Another way diabetes can take a toll on your child&apos;s emotions is by making him or her feel different from other kids. Most of the time, children don&apos;t want to be different, and having to draw blood and give themselves shots definitely sets kids with diabetes apart from their peers. Getting your child together with other children who have diabetes may help make your child feel less alone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mental health and substance abuse&lt;/strong&gt; &lt;br /&gt;
+People with diabetes have an increased risk of depression and anxiety, which may be why many diabetes specialists regularly include a social worker or psychologist as part of their diabetes care team. 
+&lt;/p&gt;
+&lt;p&gt;
+Teenagers, in particular, may have a particularly hard time dealing with diabetes. A child who has been very good about sticking to his or her diabetes regimen may rebel in the teen years by ignoring his or her diabetes care. Teens may also have a harder time telling friends or boyfriends or girlfriends that they have diabetes because they want to fit in. They may also experiment with drugs or alcohol, behaviors that can be even more dangerous for someone with diabetes. Eating disorders and forgoing insulin to lose weight are other problems that can occur more often in the teen years.
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your teen, or ask your teen&apos;s doctor to talk to your teen, about the effects of drugs and alcohol on someone with diabetes. If you notice that your child or adolescent is persistently sad or pessimistic, or if you notice dramatic changes in his or her sleeping habits, friends or school performance, talk to your doctor or a therapist to have your teen assessed for depression. Additionally, let your child&apos;s doctor know if you notice that your son or daughter is losing weight or doesn&apos;t seem to be eating well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Support groups&lt;/strong&gt;&lt;br /&gt;
+Talking to a counselor or therapist may help your child or you to cope with the dramatic lifestyle changes that come with a type 1 diabetes diagnosis. Your child may find encouragement and understanding in a type 1 diabetes support group for children. Support groups for parents also are available. Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about the latest treatments and tend to share their own experiences or helpful information, such as where to find carbohydrate counts for your child&apos;s favorite takeout restaurant. If you&apos;re interested, your doctor may be able to recommend a group in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+Or, you can visit the websites of the American Diabetes Association, the Juvenile Diabetes Research Foundation or Children with Diabetes to find support and regional activities for people with type 1 diabetes and their families. The American Diabetes Association also offers diabetes camp programs that provide children and teens with diabetes education and support. And, these groups offer online information and forums for children and teens. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Putting information in context&lt;/strong&gt; &lt;br /&gt;
+Because complications from poorly controlled diabetes can be so frightening, it&apos;s important to remember that many studies &amp;mdash; and therefore, a lot of literature you may be reading &amp;mdash; were completed before many advances in diabetes care occurred. And that means many of those scary statistics don&apos;t necessarily apply to your child. If you and your child work with your child&apos;s doctor and do your best to control blood sugar levels, your child with likely live a long and normal life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no treatment that can replace insulin for anyone with type 1 diabetes. People who have type 1 diabetes must use injected insulin (exogenous insulin) every day to survive. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s been suggested that some substances may help with blood sugar control, but none have been proved to effectively manage or prevent type 1 diabetes. Some of the substances that have been tested and found ineffective for blood sugar control include nicotinamide, vitamin D, cinnamon, zinc and alpha-lipoic acid. 
+&lt;/p&gt;
+&lt;p&gt;
+There isn&apos;t yet enough evidence on vitamin E or chromium to assess whether or not these substances might be helpful in lowering blood sugar levels.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s nothing you or your child could have done to prevent type 1 diabetes; there is currently no known way to prevent type 1 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests can be done in children who have a high risk of developing type 1 diabetes to see if they have any of the antibodies associated with type 1. However, the presence of these antibodies doesn&apos;t mean that diabetes is a certainty, and there&apos;s currently no known way to prevent type 1 diabetes if the antibodies are found. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are working on preventing type 1 diabetes in people who have a high risk of developing the disease, such as those who have the type 1 antibodies, and others are working on preventing further destruction of the islet cells in people who are newly diagnosed. 
+&lt;/p&gt;
+&lt;p&gt;
+Some children with type 1 diabetes may be eligible for clinical trials, but carefully weigh the risks and benefits of any treatment available in a clinical trial with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+While there&apos;s nothing you could have done to prevent your child&apos;s diabetes, you can help your child prevent complications due to type 1 diabetes by helping him or her maintain good blood sugar control as much as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, be sure to schedule regular visits with your child&apos;s diabetes doctor and a yearly eye exam beginning no more than five years after the initial diabetes diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+And, like everyone else, people with type 1 diabetes should eat a healthy diet full of fruits, vegetables and whole grains, and participate in regular physical activity to help keep their hearts healthy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Type 1 diabetes in children
+	</Title>
+	<Abstract>
+		Type 1 diabetes in children &amp;mdash; Comprehensive overview covers symptoms, treatment of this endocrine condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+	</RelatedLinksBox>
+</Disease>

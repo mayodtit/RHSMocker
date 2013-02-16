@@ -1,0 +1,375 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00771
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pagets-disease-of-the-breast/DS00771
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-24
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="4051" Title="Paget&apos;s disease of the breast" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			31E48157-E7FF-0DBD-11978FEF0B3988C2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget&apos;s disease of the breast
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget&apos;s disease of the nipple
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Pagets disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Paget&apos;s (PAJ-its) disease of the breast is a rare form of breast cancer. Paget&apos;s disease of the breast starts on the nipple and extends to the dark circle of skin (areola) around the nipple. Paget&apos;s disease of the breast isn&apos;t related to Paget&apos;s disease of the bone, a metabolic bone disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Paget&apos;s disease of the breast occurs most often in women older than age 50. Most women with Paget&apos;s disease of the breast have underlying ductal breast cancer (in situ or, less commonly, invasive). Only in rare cases is the cancer confined to the nipple itself. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing nipple changes 
+" Caption="Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult your doctor. 
+" Height="60" Title="Nipple changes" URI="/images/image_popup/thumbs/w7_nipplechangesthu.jpg" Width="60" />
+				<Image Alt="Image showing nipple changes 
+" Caption="Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult your doctor. 
+" Height="400" Title="Nipple changes" URI="/images/image_popup/w7_nipplechanges.jpg" Width="400" />
+				<HTML>
+					Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Paget&apos;s disease of the breast affects your nipple and usually the skin (areola) surrounding it. It&apos;s easy to mistake the signs and symptoms of Paget&apos;s disease of the breast for skin irritation (dermatitis) or another noncancerous (benign) skin condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible signs and symptoms of Paget&apos;s disease of the breast include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flaky or scaly skin on your nipple&lt;/li&gt;
+	&lt;li&gt;Crusty, oozing or hardened skin resembling eczema on the nipple, areola or both&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;A tingling or burning sensation&lt;/li&gt;
+	&lt;li&gt;Straw-colored or bloody nipple discharge&lt;/li&gt;
+	&lt;li&gt;A flattened or turned-in nipple&lt;/li&gt;
+	&lt;li&gt;A lump in the breast&lt;/li&gt;
+	&lt;li&gt;Thickening skin on the breast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms usually occur in one breast only. The disease typically starts in the nipple and may spread to the areola and other areas of the breast. In rare cases, only the areola is affected. 
+&lt;/p&gt;
+&lt;p&gt;
+The skin changes may fluctuate early on, making it appear as if your skin is healing on its own. On average, women experience signs and symptoms for six to eight months before a diagnosis is made. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Check your nipple and areola on both breasts on a regular basis, such as during breast self-exams. If you feel a lump, or if you experience itching or skin irritation that persists for more than a month, see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re being treated for a skin injury on your breast, and the condition doesn&apos;t go away with treatment, make a follow-up appointment with your doctor. You may need a biopsy &amp;mdash; a procedure that collects a small tissue sample for microscopic analysis &amp;mdash; to evaluate the affected area. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing nipple changes 
+" Caption="Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult your doctor. 
+" Height="60" Title="Nipple changes" URI="/images/image_popup/thumbs/w7_nipplechangesthu.jpg" Width="60" />
+				<Image Alt="Image showing nipple changes 
+" Caption="Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult your doctor. 
+" Height="400" Title="Nipple changes" URI="/images/image_popup/w7_nipplechanges.jpg" Width="400" />
+				<HTML>
+					Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t know what causes Paget&apos;s disease of the breast. But the most widely accepted theory is that the disease results from an underlying ductal breast cancer. Cancer cells from the original tumor travel through milk ducts to the nipple and its surrounding skin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors that affect your likelihood of developing Paget&apos;s disease of the breast are the same factors that affect your risk of developing any other type of breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Some factors that make you more susceptible to breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Your chances of developing breast cancer increase as you get older.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A personal history of breast cancer.&lt;/strong&gt; If you&apos;ve had breast cancer in one breast, you have an increased risk of developing cancer in the other breast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A personal history of breast abnormalities.&lt;/strong&gt; If you&apos;ve had lobular carcinoma in situ or atypical hyperplasia, your risk of developing breast cancer is higher. Certain benign breast conditions also are associated with a slightly increased risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If you have a mother, sister or daughter with breast or ovarian cancer or both, or even a father or brother with breast cancer, you have a greater chance of developing breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic predisposition.&lt;/strong&gt; Defects in one of several genes, especially BRCA1 or BRCA2, put you at greater risk of developing breast cancer as well as ovarian and other cancers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dense breast tissue.&lt;/strong&gt; Women with dense breast tissue, as seen on a mammogram, face a higher risk of breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation exposure.&lt;/strong&gt; If you received radiation treatments to your chest as a child or young adult to treat another cancer, you&apos;re more likely to develop breast cancer later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess weight.&lt;/strong&gt; Weighing more than is healthy for your age and height increases your risk of breast cancer &amp;mdash; especially after menopause and if you gained weight as an adult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone replacement.&lt;/strong&gt; Taking estrogen after menopause increases the risk of breast cancer for some women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; White women are more likely to develop breast cancer than black or Hispanic women are, but black women are more likely to die of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Having one or more risk factors doesn&apos;t necessarily mean you&apos;ll develop breast cancer. Most women with breast cancer have no known risk factors. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect you have Paget&apos;s disease of the breast, your initial appointment might be with your family doctor. Or, when you call to set up an appointment, you may be referred directly to a doctor who specializes in treating breast conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+To prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take note of all your symptoms,&lt;/strong&gt; even if they seem unrelated to your breast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you regularly take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. List your questions from most important to least important in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor may ask you questions about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The nature of the skin changes on your nipple&lt;/li&gt;
+	&lt;li&gt;Whether you also experience nipple discharge, bleeding, burning or itching&lt;/li&gt;
+	&lt;li&gt;If you have any other breast signs and symptoms, such as a breast lump or area of thickening&lt;/li&gt;
+	&lt;li&gt;If you have any breast pain&lt;/li&gt;
+	&lt;li&gt;How long you&apos;ve experienced signs and symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also ask questions about your personal and family medical history and other possible risk factors for breast cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to evaluate your condition may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clinical breast exam and physical exam.&lt;/strong&gt; During this exam, your doctor physically checks for unusual areas in both breasts, noting the appearance of the skin on and around your nipples and feeling for any lumps or areas of thickening. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mammography.&lt;/strong&gt; Mammography &amp;mdash; an X-ray exam of your breast tissue &amp;mdash; may indicate whether the nipple and skin changes are linked to an underlying breast cancer, as is usually the case in Paget&apos;s disease of the breast. If results from mammography in both breasts don&apos;t reveal any signs of breast cancer, your doctor may follow up with magnetic resonance imaging (MRI), which may detect cancer that&apos;s not able to be seen on a mammogram. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast biopsy.&lt;/strong&gt; During a biopsy, your doctor obtains a small sample of tissue from the skin of your nipple for examination under a microscope. If you have nipple discharge, a sample of the discharge might also be collected. If you have a breast lump, a biopsy of that tissue will also be done. If cancer cells are detected in the samples collected, you may be referred to a breast surgeon to discuss treatment options. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sentinel lymph node biopsy. &lt;/strong&gt;If you have invasive breast cancer, the lymph nodes under your arm (axillary lymph nodes) need to be checked to see if the cancer has spread to this area. This can be done in a procedure known as a sentinel lymph node biopsy. During the biopsy, your surgeon locates the sentinel nodes &amp;mdash; the first lymph nodes to receive the drainage from breast tumors and therefore the first place cancer cells will travel. If a sentinel node is removed, examined and found to be normal, the chance of finding cancer in any of the remaining nodes is small and no other nodes need to be removed. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of woman undergoing mammography exam 
+" Caption="During a mammogram, you stand in front of an X-ray machine designed for mammography. A technician places your breast on a platform that holds the X-ray film and positions the platform to match your height. The technician helps you position your head, arms and torso to allow an unobstructed view of your breast. 
+" Height="60" Title="Receiving a mammogram" URI="/images/image_popup/thumbs/mcdc7_mammography_techthu.jpg" Width="60" />
+				<Image Alt="Photo of woman undergoing mammography exam 
+" Caption="During a mammogram, you stand in front of an X-ray machine designed for mammography. A technician places your breast on a platform that holds the X-ray film and positions the platform to match your height. The technician helps you position your head, arms and torso to allow an unobstructed view of your breast. 
+" Height="261" Title="Receiving a mammogram" URI="/images/image_popup/mcdc7_mammography_tech.jpg" Width="400" />
+				<HTML>
+					During a mammogram, you stand in front of an X-ray machine designed for mammography. A technician places your breast on a platform that holds the X-ray film and positions the platform to match your ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
+				<Image Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="495" Title="Core needle biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
+				<HTML>
+					During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Paget&apos;s disease of the breast usually requires surgery. Which type of surgery you need depends on the condition of the skin around your nipple and how advanced the underlying cancer is. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgical options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simple mastectomy.&lt;/strong&gt; This procedure involves removing your entire breast, but not the lymph nodes in your armpit (axillary lymph nodes). Simple mastectomy might be recommended in cases in which an underlying breast cancer exists but hasn&apos;t spread to the lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lumpectomy.&lt;/strong&gt; Breast-conserving surgery (lumpectomy) involves removing only the diseased portion of your breast. Your surgeon removes your nipple and areola along with a wedge- or cone-shaped section of your breast. The surgeon focuses on removing as little breast tissue as possible, while ensuring that the tissue removed includes an outer margin free of cancer cells so that only healthy cells remain. Lumpectomy to treat Paget&apos;s disease of the breast requires follow-up radiation therapy. Lumpectomy wouldn&apos;t be recommended if you can&apos;t have radiation therapy for some reason. Most women have nipple reconstruction after their treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adjuvant therapy&lt;/strong&gt; &lt;br /&gt;
+After your operation, your doctor may recommend additional treatment (adjuvant therapy) with anti-cancer drugs (chemotherapy), radiation therapy or hormone therapy to prevent a recurrence of breast cancer. Your specific treatment will depend on the extent of the cancer and whether your tumor tests positive for certain characteristics, such as having estrogen or progesterone receptors. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="60" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/thumbs/hdg7_simplemastectomythu.jpg" Width="60" />
+				<Image Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="281" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/hdg7_simplemastectomy.jpg" Width="400" />
+				<HTML>
+					A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="60" Title="Lumpectomy" URI="/images/image_popup/thumbs/hdg7_lumpectomyincisionthu.jpg" Width="60" />
+				<Image Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="204" Title="Lumpectomy" URI="/images/image_popup/hdg7_lumpectomyincision.jpg" Width="400" />
+				<HTML>
+					During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A breast cancer diagnosis can be overwhelming. And just when you&apos;re trying to cope with the shock and the fears about your future, you&apos;re asked to make important decisions about your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Every woman finds her own way of coping with a breast cancer diagnosis. Until you find what works for you, it might help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn what you need to know about your breast cancer.&lt;/strong&gt; If you&apos;d like to know more about your breast cancer, ask your doctor for the details of your cancer &amp;mdash; the type, stage and hormone receptor status. Ask for good sources of up-to-date information on your treatment options. Knowing more about your cancer and your options may help you feel more confident when making treatment decisions. Still, some women may not want to know the details of their cancer. If this is how you feel, let your doctor know that, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with other breast cancer survivors.&lt;/strong&gt; You may find it helpful and encouraging to talk to other women with breast cancer. Contact the American Cancer Society to find out about support groups in your area. Organizations that can connect you with other cancer survivors online or by phone include the Breast Cancer Network of Strength and CancerCare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk about your feelings with.&lt;/strong&gt; Find a friend or family member who is a good listener or talk with a clergy member or counselor. Ask your doctor for a referral to a counselor or other professional who works with cancer survivors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your friends and family close.&lt;/strong&gt; Your friends and family can provide a crucial support network for you during your cancer treatment. As you begin telling people about your breast cancer diagnosis, you&apos;ll likely get many offers for help. Think ahead about things you may want help with, whether it&apos;s having someone to talk to if you&apos;re feeling low or getting help preparing meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain intimacy with your partner.&lt;/strong&gt; In Western cultures, women&apos;s breasts are associated with attractiveness, femininity and sexuality. Because of these attitudes, breast cancer may affect your self-image and erode your confidence in intimate relationships. Talk to your partner about your insecurities and your feelings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Make your well-being a priority during cancer treatment. Get enough sleep so that you wake feeling rested, choose a diet full of fruits and vegetables, make time for gentle exercise on days you feel up to it and find time for things you enjoy, such as reading or listening to music. If you need to, be prepared to relinquish your role as caretaker for a while. This doesn&apos;t mean you&apos;re helpless or weak. It means you&apos;re using all your energy to get well.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can&apos;t avoid certain risk factors for breast cancer, such as your age, genetics or family history. But other factors that could increase your chances of developing breast cancer are within your control. Healthy lifestyle habits, such as getting enough exercise, limiting alcohol and eating a healthy diet, may offer you some protection from breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain medications and surgical procedures may help reduce your chance of developing breast cancer. Preventive medications do have potential side effects, however, and risk-reducing surgery isn&apos;t the best option for everyone. Discuss your personal risk of developing breast cancer with your doctor and ask whether you would be a candidate for therapy that may reduce that risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Paget&apos;s disease of the breast
+	</Title>
+	<Abstract>
+		Paget&apos;s disease of the breast &amp;mdash; Comprehensive overview covers symptoms, treatment of this rare cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</Disease>

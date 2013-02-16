@@ -1,0 +1,79 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00161
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00161
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			97C22F12-E7FF-0DBD-160D1D097220D85F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				recipe makeover
+			</MetaKeyword>
+			<MetaKeyword>
+				cooking
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy cooking
+			</MetaKeyword>
+			<MetaKeyword>
+				cooking techniques
+			</MetaKeyword>
+			<MetaKeyword>
+				cooking methods
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Healthier recipes? Delete 1 ingredient
+	</Title>
+	<Body>
+		&lt;p&gt;You don&apos;t have to use every ingredient that&apos;s in a recipe. Sometimes, leaving out an ingredient can decrease the calories, fat or sodium without diminishing the flavor. Likely candidates include decorations on baked goods, such as frosting, coconut and nuts. Other possibilities include condiments, such as pickles, olives, butter, mayonnaise, syrup, jelly and mustard.&lt;/p&gt;
+	</Body>
+</HealthTip>

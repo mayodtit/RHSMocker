@@ -1,0 +1,199 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00384
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00384
+		</OriginalURL>
+		<UpdateDate>
+			2007-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			7291C1D6-CE6B-49B8-8E19DF7BC2164782
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Cran-fruit coffeecake with crumb topping
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		10
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This coffeecake has a crumb topping made with pecans, which are good sources of iron, potassium, zinc, copper and phosphorus. Coffeecakes are best served warm.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 350 F. Lightly coat a 10-inch round pan with cooking spray.&lt;/p&gt;
+
+&lt;p&gt;To prepare the topping, combine flour, brown sugar and chopped pecans in a small bowl. Pour in melted margarine. Mix well &amp;mdash; it should look crumbly. Set aside.&lt;/p&gt;
+
+&lt;p&gt;In a large bowl, combine flour, sugar, baking powder and baking soda. Whisk to blend.&lt;/p&gt;
+
+&lt;p&gt;In a separate bowl, mix together vanilla, sour cream, egg whites and margarine. Using an electric mixer at low to medium speed, beat until well blended, about 2 minutes. Add flour mixture to sour cream mixture. Using a spoon, gently blend together until smooth.&lt;/p&gt;
+
+&lt;p&gt;Put half of the batter into the pan. Top with chopped cranberries and dried fruit. Spread the remaining batter over the cranberries and dried fruit. Sprinkle with topping. Bake until a wooden toothpick inserted into the center comes out clean, about 45 minutes.&lt;/p&gt;
+
+&lt;p&gt;Cut the coffeecake into 10 wedges and serve warm.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;For the topping&lt;br /&gt;
+1/4 cup all-purpose (plain) flour&lt;br /&gt;
+1/2 cup packed brown sugar&lt;br /&gt;
+1/4 cup chopped pecans&lt;br /&gt;
+2 tablespoons trans-free margarine, melted&lt;/p&gt;
+
+&lt;p&gt;3/4 cup all-purpose (plain) flour&lt;br /&gt;
+3/4 cup whole-wheat flour&lt;br /&gt;
+3/4 cup sugar&lt;br /&gt;
+1 1/2 teaspoons baking powder&lt;br /&gt;
+1/4 teaspoon baking soda&lt;br /&gt;
+1 1/4 teaspoons vanilla extract&lt;br /&gt;
+8 ounces fat-free sour cream&lt;br /&gt;
+2 egg whites&lt;br /&gt;
+4 tablespoons trans-free margarine&lt;br /&gt;
+1 cup chopped fresh cranberries&lt;br /&gt;
+1/2 cup chopped dried fruits, such as raisins, pineapple, apples and apricots&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				2
+			</Fats>
+			<Fruits Label="Fruits">
+				2
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Fruits Label="Fruits">
+				2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				340
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				59 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				5 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 wedge
+			</Servingsize>
+			<Sodium Label="Sodium">
+				190 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				9 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 10
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+	</Categorization>
+</Recipe>

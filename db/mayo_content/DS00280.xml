@@ -1,0 +1,360 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00280
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-failure/DS00280
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-06
+		</UpdateDate>
+		<PublicationDate>
+			2001-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="2212" Title="Kidney failure">
+							<Keyword MCVID="2213" Title="Acute kidney failure" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9E510C36-F9F7-4E3B-A7054C1D1F942043
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acute kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				acute kidney injury
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+			<MetaKeyword>
+				dialysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute kidney failure occurs when your kidneys suddenly become unable to filter waste products from your blood. When your kidneys lose their filtering ability, dangerous levels of wastes may accumulate and your blood&apos;s chemical makeup may get out of balance.
+&lt;/p&gt;
+&lt;p&gt;
+Acute kidney failure &amp;mdash; also called acute renal failure or acute kidney injury &amp;mdash; develops rapidly over a few hours or a few days. Acute kidney failure is most common in people who are already hospitalized, particularly in critically ill people who need intensive care.
+&lt;/p&gt;
+&lt;p&gt;
+Acute kidney failure can be fatal and requires intensive treatment. However, acute kidney failure may be reversible. If you&apos;re otherwise in good health, you may recover normal kidney function.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="60" Title="Kidney cross section" URI="/images/image_popup/thumbs/r7_kidneysection_bthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney cross section 
+" Caption="Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) that has a network of tiny blood vessels called capillaries. The glomeruli filter waste products and substances your body needs &amp;mdash; such as sodium, phosphorus and potassium &amp;mdash; which then pass through tiny tubules. The substances your body needs are reabsorbed into your bloodstream. The waste products flow through the ureters &amp;mdash; the tubes that lead to the bladder. 
+" Height="518" Title="Kidney cross section" URI="/images/image_popup/r7_kidneysection_b.jpg" Width="400" />
+				<HTML>
+					Blood enters your kidneys through your renal arteries. Your kidneys remove excess fluid and waste material from your blood through units called nephrons. Each nephron contains a filter (glomerulus) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of acute kidney failure may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Decreased urine output, although occasionally urine output remains normal&lt;/li&gt;
+	&lt;li&gt;Fluid retention, causing swelling in your legs, ankles or feet&lt;/li&gt;
+	&lt;li&gt;Drowsiness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Seizures or coma in severe cases&lt;/li&gt;
+	&lt;li&gt;Chest pain or pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes acute kidney failure causes no signs or symptoms and is detected through lab tests done for another reason.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms of acute kidney failure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute kidney failure can occur when:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a condition that slows blood flow to your kidneys&lt;/li&gt;
+	&lt;li&gt;You experience direct damage to your kidneys&lt;/li&gt;
+	&lt;li&gt;Your kidneys&apos; urine drainage tubes (ureters) become blocked and wastes can&apos;t leave your body through your urine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Impaired blood flow to the kidneys&lt;/strong&gt;&lt;br /&gt;
+Diseases and conditions that may slow blood flow to the kidneys and lead to kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood or fluid loss&lt;/li&gt;
+	&lt;li&gt;Blood pressure medications&lt;/li&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Liver failure&lt;/li&gt;
+	&lt;li&gt;Use of aspirin, ibuprofen (Advil, Motrin IB, others), naproxen (Aleve, others), or related drugs&lt;/li&gt;
+	&lt;li&gt;Severe allergic reaction (anaphylaxis)&lt;/li&gt;
+	&lt;li&gt;Severe burns&lt;/li&gt;
+	&lt;li&gt;Severe dehydration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Damage to the kidneys&lt;/strong&gt;&lt;br /&gt;
+These diseases, conditions and agents may damage the kidneys and lead to acute kidney failure:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots in the veins and arteries in and around the kidneys&lt;/li&gt;
+	&lt;li&gt;Cholesterol deposits that block blood flow in the kidneys&lt;/li&gt;
+	&lt;li&gt;Glomerulonephritis (gloe-mer-u-loe-nuh-FRY-tis), inflammation of the tiny filters in the kidneys (glomeruli)&lt;/li&gt;
+	&lt;li&gt;Hemolytic uremic syndrome, a condition that results from premature destruction of red blood cells&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Lupus, an immune system disorder causing glomerulonephritis&lt;/li&gt;
+	&lt;li&gt;Medications, such as certain chemotherapy drugs, antibiotics, dyes used during imaging tests and zoledronic acid (Reclast, Zometa), used to treat osteoporosis and high blood calcium levels (hypercalcemia)&lt;/li&gt;
+	&lt;li&gt;Multiple myeloma, a cancer of the plasma cells&lt;/li&gt;
+	&lt;li&gt;Scleroderma, a group of rare diseases affecting the skin and connective tissues&lt;/li&gt;
+	&lt;li&gt;Thrombotic thrombocytopenic purpura (TTP), a rare blood disorder&lt;/li&gt;
+	&lt;li&gt;Toxins, such as alcohol, heavy metals and cocaine&lt;/li&gt;
+	&lt;li&gt;Vasculitis, an inflammation of blood vessels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Urine blockage in the kidneys&lt;/strong&gt;&lt;br /&gt;
+Diseases and conditions that block the passage of urine out of the body (urinary obstructions) and can lead to acute kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bladder cancer&lt;/li&gt;
+	&lt;li&gt;Blood clots in the urinary tract&lt;/li&gt;
+	&lt;li&gt;Cervical cancer&lt;/li&gt;
+	&lt;li&gt;Colon cancer&lt;/li&gt;
+	&lt;li&gt;Enlarged prostate&lt;/li&gt;
+	&lt;li&gt;Kidney stones&lt;/li&gt;
+	&lt;li&gt;Nerve damage involving the nerves that control the bladder&lt;/li&gt;
+	&lt;li&gt;Prostate cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute kidney failure almost always occurs in connection with another medical condition or event. Conditions that can increase your risk of acute kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being hospitalized, especially for a serious condition that requires intensive care&lt;/li&gt;
+	&lt;li&gt;Advanced age&lt;/li&gt;
+	&lt;li&gt;Blockages in the blood vessels in your arms or legs (peripheral artery disease)&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Kidney diseases&lt;/li&gt;
+	&lt;li&gt;Liver diseases&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Potential complications of acute kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid buildup.&lt;/strong&gt; Acute kidney failure may lead to a buildup of fluid in your chest, which can cause shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest pain.&lt;/strong&gt; If the lining that covers your heart becomes inflamed, you may experience chest pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle weakness.&lt;/strong&gt; When your body&apos;s fluids and electrolytes &amp;mdash; your body&apos;s blood chemistry &amp;mdash; are out of balance, muscle weakness can result. Elevated levels of potassium in your blood are particularly dangerous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Permanent kidney damage.&lt;/strong&gt; Occasionally, acute kidney failure causes permanent loss of kidney function, or end-stage renal disease. People with end-stage renal disease require either permanent dialysis &amp;mdash; a mechanical filtration process used to remove toxins and wastes from your body &amp;mdash; or a kidney transplant to survive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; Acute kidney failure can lead to loss of kidney function and, ultimately, death. The risk of death is highest in people who had kidney problems before acute kidney failure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people are already hospitalized when they develop acute kidney failure. If you or a loved one develops signs and symptoms of kidney failure, bring up your concerns with your doctor or nurse.
+&lt;/p&gt;
+&lt;p&gt;
+If you aren&apos;t in the hospital, but have signs or symptoms of kidney failure, make an appointment with your family doctor or a general practitioner. If your doctor suspects you have kidney problems, you may be referred to a doctor who specializes in kidney disease (nephrologist).
+&lt;/p&gt;
+&lt;p&gt;
+Before your meeting with the doctor, write down your questions. Consider asking:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my kidneys working properly?&lt;/li&gt;
+	&lt;li&gt;Do I have kidney failure?&lt;/li&gt;
+	&lt;li&gt;What&apos;s causing my kidney problems?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Will my kidneys recover?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Do I need dialysis?&lt;/li&gt;
+	&lt;li&gt;Do I need to go to the hospital?&lt;/li&gt;
+	&lt;li&gt;How long will I need to stay in the hospital?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;Do I need to eat a special diet?&lt;/li&gt;
+	&lt;li&gt;Can you refer me to a dietitian to help me plan my diet?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? Will my insurance cover that?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Do you have any printed materials that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment as they occur to you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your signs and symptoms suggest that you have acute kidney failure, your doctor may recommend tests and procedures to verify your diagnosis. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine output measurements.&lt;/strong&gt; The amount of urine you excrete in a day may help your doctor determine the cause of your kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; Analyzing a sample of your urine, a procedure called urinalysis, may reveal abnormalities that suggest kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A sample of your blood may reveal rapidly rising levels of urea and creatinine &amp;mdash; two substances used to measure kidney function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests such as ultrasound and computerized tomography (CT) may be used to help your doctor see your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of kidney tissue for testing.&lt;/strong&gt; In certain situations, your doctor may recommend a kidney biopsy to remove a small sample of kidney tissue for lab testing. To remove a sample of kidney tissue, your doctor may insert a thin needle through your skin and into your kidney.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for acute kidney failure typically requires a hospital stay. Most people with acute kidney failure are already hospitalized. How long you&apos;ll stay in the hospital depends on the reason for your acute kidney failure and how quickly your kidneys recover.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating the underlying cause of your kidney failure&lt;/strong&gt;&lt;br /&gt;
+Treatment for acute kidney failure involves identifying the illness or injury that originally damaged your kidneys. Your treatment options will depend on what&apos;s causing your kidney failure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating complications until your kidneys recover&lt;/strong&gt;&lt;br /&gt;
+Your doctor will also work to prevent complications and allow your kidneys time to heal. Treatments that help prevent complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treatments to balance the amount of fluids in your blood.&lt;/strong&gt; If your acute kidney failure is caused by a lack of fluids in your blood, your doctor may recommend intravenous (IV) fluids. In other cases, acute kidney failure may cause you to have too much fluid, leading to swelling in your arms and legs. In these cases, your doctor may recommend medications (diuretics) to cause your body to expel extra fluids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control blood potassium.&lt;/strong&gt; If your kidneys aren&apos;t properly filtering potassium from your blood, your doctor may prescribe calcium, glucose or sodium polystyrene sulfonate (Kayexalate, Kionex) to prevent the accumulation of high levels of potassium in your blood. Too much potassium in the blood can cause dangerous irregular heartbeats (arrhythmias) and muscle weakness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to restore blood calcium levels.&lt;/strong&gt; If the levels of calcium in your blood drop too low, your doctor may recommend an infusion of calcium. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dialysis to remove toxins from your blood.&lt;/strong&gt; If toxins build up in your blood, you may need temporary hemodialysis &amp;mdash; often referred to simply as dialysis &amp;mdash; to help remove toxins and excess fluids from your body while your kidneys heal. Dialysis may also help remove excess potassium from your body. During dialysis, a machine pumps blood out of your body through an artificial kidney (dialyzer) that filters out waste. The blood is then returned to your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During your recovery from acute kidney failure, your doctor may recommend a special diet to help support your kidneys and limit the work they must do. Your doctor may refer you to a dietitian who can analyze your current diet and suggest ways to make your diet easier on your kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your situation, your dietitian may recommend that you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose lower potassium foods.&lt;/strong&gt; Your dietitian may recommend that you choose lower potassium foods. High-potassium foods include bananas, oranges, potatoes, spinach and tomatoes. Examples of low-potassium foods include apples, cabbage, green beans, grapes and strawberries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid products with added salt.&lt;/strong&gt; Lower the amount of sodium you eat each day by avoiding products with added salt, including many convenience foods, such as frozen dinners, canned soups and fast foods. Other foods with added salt include salty snack foods, canned vegetables, and processed meats and cheeses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit phosphorus.&lt;/strong&gt; Phosphorus is a mineral found in foods such as milk, cheese, dried beans, nuts and peanut butter. Too much phosphorus in your blood can weaken your bones and cause skin itchiness. Your dietitian can give you specific recommendations on phosphorus intake in your situation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As your kidneys recover, you may no longer need to eat a special diet, although healthy eating remains important.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute kidney failure is often difficult to predict or prevent. But you may reduce your risk by taking care of your kidneys. Try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow instructions on over-the-counter (OTC) medications.&lt;/strong&gt; Follow the instructions on OTC pain medications such as aspirin, acetaminophen (Tylenol, others) and ibuprofen (Advil, Motrin IB, others). Taking doses that are too high may increase your risk of acute kidney failure. This is especially true if you have pre-existing kidney disease, diabetes or high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work with your doctor to manage kidney problems.&lt;/strong&gt; If you have kidney disease or other diseases or conditions that increase your risk of acute kidney failure, such as diabetes or high blood pressure, follow your doctor&apos;s recommendations for managing your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a healthy lifestyle a priority.&lt;/strong&gt; Be active; eat a sensible, balanced diet; and drink alcohol only in moderation &amp;mdash; if at all.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acute kidney failure
+	</Title>
+	<Abstract>
+		Acute kidney failure &amp;mdash; Comprehensive overview covers symptoms, causes of sudden loss of kidney function.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00281" LinkType="Internal" ObjectID="90F35D04-E7FF-0DBD-1585584111C6DB49" Title="Hemodialysis" Url="http://www.mayoclinic.com/health/hemodialysis/MY00281" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+	</RelatedLinksBox>
+</Disease>

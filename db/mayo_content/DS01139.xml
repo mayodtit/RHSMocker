@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01139
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-palpitations/DS01139
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="4365" Title="Heart palpitations" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F2307212-92C3-1385-45C1D2731A905B7E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart palpitations
+			</MetaKeyword>
+			<MetaKeyword>
+				heart palpatations
+			</MetaKeyword>
+			<MetaKeyword>
+				heart skipping beats
+			</MetaKeyword>
+			<MetaKeyword>
+				skipped heartbeats
+			</MetaKeyword>
+			<MetaKeyword>
+				skip a heartbeat
+			</MetaKeyword>
+			<MetaKeyword>
+				heart beat
+			</MetaKeyword>
+			<MetaKeyword>
+				fluttering heartbeat
+			</MetaKeyword>
+			<MetaKeyword>
+				pounding heartbeat
+			</MetaKeyword>
+			<MetaKeyword>
+				racing heartbeat
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart palpitations (pal-pih-TA-shuns) are the feelings of having rapid, fluttering or pounding heartbeats. Heart palpitations can be triggered by stress, exercise, medication or, rarely, an underlying medical condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Although heart palpitations can be worrisome, they&apos;re usually harmless, since your heart is usually still pumping effectively. In rare cases, heart palpitations may be a symptom of a more serious heart condition, such as an irregular heartbeat (arrhythmia), that may require treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart palpitation symptoms can feel like: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skipped heartbeats&lt;/li&gt;
+	&lt;li&gt;Fluttering heartbeats&lt;/li&gt;
+	&lt;li&gt;Heartbeats that are too fast&lt;/li&gt;
+	&lt;li&gt;Heartbeats that are pumping harder than usual&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may feel heart palpitations in your throat or neck, as well as your chest. Heart palpitations can occur whether you&apos;re active or at rest, and whether you&apos;re standing, seated or lying down. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Palpitations that are infrequent and last only a few seconds usually do not require any evaluation. If you have a history of heart disease or have frequent palpitations, talk to your doctor. He or she may suggest heart-monitoring tests to see if your palpitations are caused by a more serious heart problem. Seek emergency medical attention if heart palpitations are accompanied by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest discomfort or pain&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Severe shortness of breath&lt;/li&gt;
+	&lt;li&gt;Severe dizziness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often the cause of your heart palpitations can&apos;t be found. Common causes of heart palpitations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Strong emotional responses, such as stress or anxiety&lt;/li&gt;
+	&lt;li&gt;Strenuous exercise&lt;/li&gt;
+	&lt;li&gt;Caffeine&lt;/li&gt;
+	&lt;li&gt;Nicotine&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Hormone changes associated with menstruation, pregnancy or menopause&lt;/li&gt;
+	&lt;li&gt;Taking cold and cough medications that contain pseudoephedrine, a stimulant&lt;/li&gt;
+	&lt;li&gt;Taking some asthma inhaler medications that contain stimulants&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, occasionally heart palpitations can be a sign of a serious, underlying problem, such as an overactive thyroid gland (hyperthyroidism) or an abnormal heart rhythm (arrhythmia). Arrhythmias may include very fast heart rates (tachycardia), unusually slow heart rates (bradycardia) or an irregular heart rhythm (atrial fibrillation). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at risk of developing palpitations if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are highly stressed&lt;/li&gt;
+	&lt;li&gt;Have an anxiety disorder or regularly experience panic attacks&lt;/li&gt;
+	&lt;li&gt;Are pregnant&lt;/li&gt;
+	&lt;li&gt;Take medicines that contain stimulants, such as some cold or asthma medications&lt;/li&gt;
+	&lt;li&gt;Have hyperthyroidism (overactive thyroid gland)&lt;/li&gt;
+	&lt;li&gt;Have other heart problems, such as an arrhythmia, a heart defect or a previous heart attack&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unless your heart palpitations are a sign of an underlying heart condition, there&apos;s little risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+If your palpitations are a sign of an underlying heart condition, possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fainting.&lt;/strong&gt; If your heart beats very quickly, your blood pressure may drop, causing you to faint. This may be more likely if you have a heart problem, such as congenital heart disease or certain valve problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac arrest.&lt;/strong&gt; Rarely, palpitations can be caused by life-threatening arrhythmias and can cause your heart to stop beating effectively (cardiac arrest).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; If palpitations are due to atrial fibrillation, a condition in which the upper chambers of the heart quiver instead of beating properly, blood can pool and cause clots to form. If a clot breaks loose, it can travel to and block a brain artery, causing a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; This can result if your heart is pumping ineffectively for a prolonged period due to an arrhythmia that&apos;s causing your palpitations, such as atrial fibrillation. Sometimes, controlling the rate of an arrhythmia that&apos;s causing heart failure can improve your heart&apos;s function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have heart palpitations with severe shortness of breath, chest pain or fainting, you should seek emergency medical attention immediately. If your palpitations are brief and there are no other worrisome signs or symptoms, make an appointment to see your doctor. Your doctor can help you find out if your palpitations are harmless or a symptom of a more serious heart condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to heart palpitations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, arrhythmias, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For heart palpitations, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What should I do if my symptoms return?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin having heart palpitations?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;Do your palpitations start and stop suddenly?&lt;/li&gt;
+	&lt;li&gt;Does it seem like your palpitations have a pattern, such as occurring the same time every day or every time you do a certain activity?&lt;/li&gt;
+	&lt;li&gt;Does your heart still beat steadily during the palpitations?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you having other symptoms such as shortness of breath, chest pain, fainting, or dizziness when you have palpitations?&lt;/li&gt;
+	&lt;li&gt;Have you ever had heart rhythm problems before, such as atrial fibrillation?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you can try to improve your symptoms by avoiding activities or stresses that might cause your palpitations. Some common triggers include anxiety or panic attacks, drinking too much caffeine or alcohol, or taking some medications or supplements that contain stimulants, such as energy drinks or some cold medicines. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor thinks you have heart palpitations, he or she will first listen to your heart using a stethoscope to see if your heart&apos;s beating irregularly or too quickly. Your doctor may also look for signs of medical conditions that can cause heart palpitations, such as a swollen thyroid gland. 
+&lt;/p&gt;
+&lt;p&gt;
+Other tests your doctor may perform include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, a technician will place probes on your chest that record the electrical impulses that make your heart beat. An ECG records these electrical signals and can help your doctor detect irregularities in your heart&apos;s rhythm and structure that could cause palpitations. You may have an ECG while you&apos;re at rest or while exercising (stress electrocardiogram).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitoring.&lt;/strong&gt; A Holter monitor is a portable device that you wear to record a continuous ECG, usually for 24 to 72 hours. Holter monitoring is used to detect heart palpitations that aren&apos;t found during a regular ECG exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recording.&lt;/strong&gt; If you don&apos;t have any irregular heart rhythms while you wear a Holter monitor, your doctor may then recommend an event recorder. You wear an event monitor as much as possible throughout the day, and push a button on a recording device you wear on your belt to record your heartbeat when you experience symptoms. You may need to wear an event monitor for several weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; A chest X-ray may be done to look at the size and shape of your heart to help determine if your heart structure is abnormal, which may cause palpitations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This noninvasive exam, which includes an ultrasound of your chest, shows detailed images of your heart&apos;s structure and function. Ultrasound waves are transmitted, and their echoes are recorded with a device called a transducer that&apos;s held outside your body. A computer uses the information from the transducer to create moving images on a video monitor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unless your doctor finds that you have an underlying heart condition, heart palpitations seldom require medications or surgery as treatment. Instead, your doctor may recommend ways for you to avoid the triggers that cause your palpitations. 
+&lt;/p&gt;
+&lt;p&gt;
+If your palpitations are caused by an underlying condition, such as an arrhythmia, your treatment will focus on correcting the underlying condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to treat palpitations at home is to avoid the triggers that may cause your symptoms. Some ways to avoid triggers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress or anxiety.&lt;/strong&gt; You&apos;re more likely to have palpitations if you&apos;re anxious or during times of stress. You can try to reduce these feelings through relaxation techniques, exercise or talking with a friend or family member.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid stimulants.&lt;/strong&gt; Stimulants, which can make your heart beat quickly or irregularly, may cause palpitations. Stimulants can include caffeine, nicotine, some cold medicines, and herbal supplements, such as those in energy drinks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid illegal drugs.&lt;/strong&gt; Illegal drugs, such as cocaine, can bring on heart palpitations.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart palpitations
+	</Title>
+	<Abstract>
+		Heart palpitations &amp;mdash; Comprehensive overview covers the causes and treatments for rapid or skipped heartbeats.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01906" LinkType="Internal" ObjectID="BCA75C74-E7FF-0DBD-154EF6A9D6F5403F" Title="Heart rate: What&apos;s normal?" Url="http://www.mayoclinic.com/health/heart-rate/AN01906" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00577" LinkType="Internal" ObjectID="A4969FF4-0BA0-85FA-2A7436104DFFF946" Title="Holter monitor" Url="http://www.mayoclinic.com/health/holter-monitor/MY00577" />
+		<LinkItem ContentType="Article" DocID="SR00030" LinkType="Internal" ObjectID="F7D2E95C-E7FF-0DBD-170B7DCE35CB9651" Title="Tips for coping with stress at work" Url="http://www.mayoclinic.com/health/coping-with-stress/SR00030" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Disease" DocID="DS00291" LinkType="Internal" ObjectID="F553CA62-FA20-4C2B-97C29F6EAF1F81EC" Title="Atrial fibrillation" Url="http://www.mayoclinic.com/health/atrial-fibrillation/DS00291" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+	</RelatedLinksBox>
+</Disease>

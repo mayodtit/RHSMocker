@@ -1,0 +1,214 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00034
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00034
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-30
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			02549358-E7FF-0DBD-128E766E9F7156EE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				biscuits
+			</MetaKeyword>
+			<MetaKeyword>
+				low-fat recipe
+			</MetaKeyword>
+			<MetaKeyword>
+				low fat
+			</MetaKeyword>
+			<MetaKeyword>
+				whole grains
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook,&lt;/em&gt; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Whole-grain buttermilk biscuits
+	</Title>
+	<Abstract>
+		Whole-grain buttermilk biscuits &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		MAKES 16 BISCUITS
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Buttermilk is made by adding special bacteria to fat-free or low-fat milk to give it more texture and a tangy taste. It may seem like buttermilk is high in fat, but in fact, most varieties aren&apos;t. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 400 F. Have ready an ungreased nonstick baking sheet. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, combine the flours, wheat germ, baking powder, baking soda and salt. Whisk to blend. Add the butter to the flour mixture. With a pastry blender or 2 knives, cut the butter into the dry ingredients until the mixture resembles coarse crumbs. Add the buttermilk and stir just until a moist dough forms. Don&apos;t overmix. Cover the bowl with plastic wrap and refrigerate for 30 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Turn the dough out onto a generously floured work surface and, with floured hands, knead gently for 6 to 8 times until smooth and manageable. 
+&lt;/p&gt;
+&lt;p&gt;
+Using a rolling pin, roll the dough into a rectangle 1/2-inch thick. Using a 2 1/2-inch round biscuit cutter dipped in flour, cut out biscuits. Cut close together for a minimum of scraps. Gather the scraps and roll out to make additional biscuits. 
+&lt;/p&gt;
+&lt;p&gt;
+Place the biscuits about 1 inch apart on the baking sheet. Bake until the biscuits rise to twice their unbaked height and are lightly golden, 8 to 10 minutes. Serve hot. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 cup whole-wheat (whole-meal) flour&lt;/li&gt;
+	&lt;li&gt;3/4 cup all-purpose (plain) flour, plus extra for kneading&lt;/li&gt;
+	&lt;li&gt;3 tablespoons wheat germ&lt;/li&gt;
+	&lt;li&gt;2 teaspoons baking powder&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon baking soda (bicarbonate of soda)&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;3 tablespoons chilled butter, cut into small pieces&lt;/li&gt;
+	&lt;li&gt;1 cup low-fat buttermilk &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				77
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				11 mg
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				7 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				&lt; 1 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 biscuit
+			</Servingsize>
+			<Sodium Label="Sodium">
+				165 mg
+			</Sodium>
+			<Sugars Label="Sugars" />
+			<TotalFat Label="Total fat">
+				3 g
+			</TotalFat>
+			<TransFat Label="Trans fat" />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 16
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Breads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

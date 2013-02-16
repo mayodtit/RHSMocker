@@ -1,0 +1,373 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00613
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rebound-headaches/DS00613
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-09
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="2039" Title="Other">
+							<Keyword MCVID="2078" Title="Rebound headaches" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0B0F15EB-2A5D-9994-E5379CF35EBE02F8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rebound headache
+			</MetaKeyword>
+			<MetaKeyword>
+				headache
+			</MetaKeyword>
+			<MetaKeyword>
+				rebound
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rebound headaches (medication-overuse headaches) are caused by frequent use of headache medication. Pain relievers offer relief for occasional headaches, but if you take them more than a couple of days a week, you may trigger rebound headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+How frequently rebound headaches occur depends on the type and dose of overused drug and the frequency of headaches. For example, for opiates, rebound headaches may occur after eight days of use a month, whereas for barbiturates it takes only about five days of use a month. This happens because your body adapts to the medication. 
+&lt;/p&gt;
+&lt;p&gt;
+To stop rebound headaches, reduce or stop taking the pain medication. It&apos;s tough in the short term, but your doctor can help you beat rebound headaches for long-term relief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rebound headaches tend to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Occur every day, often waking you in the early morning&lt;/li&gt;
+	&lt;li&gt;Improve with pain-relief medication but then return as your medication wears off&lt;/li&gt;
+	&lt;li&gt;Persist throughout the day&lt;/li&gt;
+	&lt;li&gt;Worsen with physical or mental exertion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Neck pain&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Restlessness and difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Unrestful sleep&lt;/li&gt;
+	&lt;li&gt;Stuffy nose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Occasional headaches are common. But it&apos;s important to take your headaches seriously. Some types of headaches can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek immediate medical care &lt;/strong&gt;if your headache:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is sudden and severe&lt;/li&gt;
+	&lt;li&gt;Accompanies a fever, stiff neck, rash, confusion, seizure, double vision, weakness, numbness or difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Follows a head injury&lt;/li&gt;
+	&lt;li&gt;Gets worse despite rest and pain medication&lt;/li&gt;
+	&lt;li&gt;Is a new type in someone over 50&lt;/li&gt;
+	&lt;li&gt;Wakes you from sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Consult your doctor&lt;/strong&gt; if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You usually have two or more headaches a week&lt;/li&gt;
+	&lt;li&gt;You take a pain reliever for your headaches more than twice a week&lt;/li&gt;
+	&lt;li&gt;You need more than the recommended dose of over-the-counter pain remedies to relieve your headaches&lt;/li&gt;
+	&lt;li&gt;Your headache pattern changes&lt;/li&gt;
+	&lt;li&gt;Your headaches are getting worse&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear why rebound headaches occur. However, scientists suspect that regular use of headache medications alters the way certain pain pathways and receptors work in the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Rebound headaches can develop if you frequently use headache medication. Although the risk of developing medication-overuse headache varies depending on the medication, any acute headache medication has the potential to lead to rebound headaches, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simple pain relievers.&lt;/strong&gt; Common pain relievers such as aspirin and acetaminophen (Tylenol, others) may contribute to rebound headaches &amp;mdash; especially if you exceed the recommended daily dosages. Pain relievers such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others) are considered low risk for development of medication-overuse headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination pain relievers.&lt;/strong&gt; Over-the-counter pain relievers that contain a combination of caffeine, aspirin and acetaminophen (Excedrin, others) are common culprits. This group also includes prescription medications such as Fioricet, Fiorinal and Esgic-Plus, which also contain the sedative butalbital. All of these medications are high risk for the development of medication-overuse headache. Some combination medications have even been withdrawn from the market in certain European countries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Migraine medications.&lt;/strong&gt; Various migraine medications have been linked with rebound headaches, including triptans (Imitrex, Zomig, others) and certain ergots &amp;mdash; such as ergotamine (Ergomar, others). These medications have a moderate risk of causing medication-overuse headaches. Interestingly, the ergot dihydroergotamine (D.H.E. 45) appears to have a lower potential for leading to this problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opiates.&lt;/strong&gt; Painkillers derived from opium or from synthetic opium compounds include combinations of codeine and acetaminophen (Tylenol with Codeine No. 3 and No. 4, others). These medications are considered high risk for the development of rebound headaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Daily doses of caffeine &amp;mdash; from your morning coffee, your afternoon soda, or any pain reliever or other product containing this mild stimulant &amp;mdash; may fuel rebound headaches as well. Read product labels to make sure you&apos;re not wiring your system with more caffeine than you realize. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for developing rebound headaches include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;History of chronic headaches.&lt;/strong&gt; Anyone who has a history of migraines, in particular, but also tension-type headaches or other chronic headaches is at risk of developing rebound headaches from the overuse of pain relievers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent use of headache medications.&lt;/strong&gt; Your risk increases if you use combination analgesics, ergotamine or triptans 10 or more days a month or simple analgesics more than 15 days a month &amp;mdash; especially if this regular use continues for three or more months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People who don&apos;t have frequent headaches but use pain medications daily to treat other conditions such as arthritis typically don&apos;t have rebound headaches.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in nervous system disorders (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s good to arrive at your appointment well prepared. Here&apos;s some information to help you get ready for your appointment, and to help you know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a headache diary.&lt;/strong&gt; Write down any symptoms you&apos;re experiencing, including any that may seem unrelated. Also, keep track of what you were doing, eating or drinking before the headache began. List the duration of the headache, as well as what medications and the dose you took to treat the headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For rebound headaches, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How could I cause a headache with medicine I took to treat a headache?&lt;/li&gt;
+	&lt;li&gt;Could there be any other reasons for my headaches?&lt;/li&gt;
+	&lt;li&gt;How can I stop these headaches?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What if my original headaches come back? How can I treat them?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;The doctor will ask a series of questions about your headaches, such as when they started and what they feel like. The more the doctor knows about your headaches and medication use, the better care he or she will be able to provide. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of headache do you usually experience?&lt;/li&gt;
+	&lt;li&gt;Has there been a change in your headaches during the past six months?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How do you normally treat your headaches?&lt;/li&gt;
+	&lt;li&gt;What types of headache medications do you use?&lt;/li&gt;
+	&lt;li&gt;How often do you take headache medication?&lt;/li&gt;
+	&lt;li&gt;Have you had to increase your dose of headache medication or take it more often?&lt;/li&gt;
+	&lt;li&gt;Have you used any different medications in the past for your headaches? What was the dose?&lt;/li&gt;
+	&lt;li&gt;How long did you use a previous medication?&lt;/li&gt;
+	&lt;li&gt;Did it help relieve your headaches? Why did you stop taking it?&lt;/li&gt;
+	&lt;li&gt;What types of side effects have you experienced from medications?&lt;/li&gt;
+	&lt;li&gt;Does anything help improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you&apos;re awaiting your appointment, try to take your medication only as directed by your doctor. Relax as much as you can, and try to take good care of yourself. Healthy lifestyle habits, such as adequate sleep, plenty of fruits and vegetables, and regular exercise, can help prevent headaches. In addition, be sure to avoid any known headache triggers.
+&lt;/p&gt;
+&lt;p&gt;
+A headache diary can be very helpful for your doctor. Try to keep track of when your headaches occur, their severity and duration, what you were doing when the headache began, and what your response to the headache was.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will probably do a physical exam to check for signs of illness, infection or neurological problems. The diagnosis of rebound headache usually is based on a history of chronic headache and frequent use of medication. Testing usually isn&apos;t necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To break the cycle of rebound headaches, you&apos;ll need to restrict how much pain medication you use. Depending on what drug you&apos;ve been taking, your doctor may recommend stopping the medication right away or gradually reducing the dose until you&apos;re taking the drug no more than twice a week, and possibly less if you&apos;re taking a medication that contains butalbital.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Breaking the cycle&lt;br /&gt;
+&lt;/strong&gt;Stopping pain medication isn&apos;t easy. Expect your headaches to get worse before they get better. Drug dependency may be a risk factor for any drug that results in rebound headaches, and you may experience withdrawal symptoms such as nervousness, restlessness, nausea, vomiting, insomnia or constipation. These symptoms generally last from two to 10 days, but they may persist for several weeks.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may prescribe various treatments to help alleviate headache pain and the side effects associated with drug withdrawal. Dihydroergotamine (D.H.E. 45), an injectable ergot, helps relieve rebound-headache pain during the withdrawal process. D.H.E. 45 also can be used later on for the treatment of migraines, because it doesn&apos;t have the same risk of rebound headaches as other medications do. However, doctors may use other treatments instead of D.H.E., such as brief courses of corticosteroids or nonsteroidal anti-inflammatory drugs (NSAIDs).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization&lt;br /&gt;
+&lt;/strong&gt;Sometimes it&apos;s best to be in a controlled environment when you stop taking pain medication. A short hospital stay may be recommended if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Haven&apos;t been able to stop using pain medication on your own&lt;/li&gt;
+	&lt;li&gt;Have other conditions, such as depression or anxiety&lt;/li&gt;
+	&lt;li&gt;Are taking high doses of drugs that contain opiates or the sedative butalbital&lt;/li&gt;
+	&lt;li&gt;Are abusing substances such as tranquilizers, opioids or barbiturates&lt;/li&gt;
+	&lt;li&gt;Are experiencing prolonged, unrelenting headaches with other signs and symptoms, such as nausea and vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive medications&lt;br /&gt;
+&lt;/strong&gt;After you&apos;ve broken the rebound-headache cycle, you and your doctor can find a safer way to manage your headaches. Before, during or after withdrawal, your doctor may prescribe any of the following daily preventive medication:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A tricyclic antidepressant such as amitriptyline or nortriptyline (Aventyl, Pamelor)&lt;/li&gt;
+	&lt;li&gt;An anticonvulsant such as divalproex (Depakote, others), topiramate (Topamax) or gabapentin (Gralise, Neurontin)&lt;/li&gt;
+	&lt;li&gt;A beta blocker such as propranolol (Inderal, InnoPran, others)&lt;/li&gt;
+	&lt;li&gt;A calcium channel blocker, such as verapamil (Calan, Verelan, others)&lt;/li&gt;
+	&lt;li&gt;Botulinum toxin type A (Botox)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These medications can help control your pain without risking another cycle of rebound headaches. If you&apos;re careful, you may be able to take a medication specifically meant for pain during future headache attacks. Be sure to take any medication exactly as prescribed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cognitive behavioral therapy (CBT)&lt;br /&gt;
+&lt;/strong&gt;During this talk therapy, you learn new or better ways to cope with your headaches. In CBT, you also work on healthy lifestyle habits and keeping a headache diary.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to continue to work with your doctor after you&apos;ve successfully withdrawn from your headache medications, because some people relapse and begin the rebound-headache cycle again.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For many people, complementary or alternative therapies offer welcome relief from headache pain. It&apos;s important to be cautious, however. Not all complementary or alternative therapies have been studied as headache treatments, and others need further research. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This ancient technique uses fine needles to promote the release of natural painkillers and other chemicals in the central nervous system. There is some evidence that it can help control headaches and other conditions that cause chronic pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; During a hypnosis session, a trained hypnotist might suggest ways to decrease your perception of pain and increase your ability to cope with it &amp;mdash; such as visualizing a calm, safe place when a headache strikes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; Biofeedback teaches you to control certain body responses that help reduce pain. During a biofeedback session, you&apos;re connected to devices that monitor and give you feedback on body functions, such as muscle tension, heart rate and blood pressure. You then learn how to reduce muscle tension and slow your heart rate and breathing to help you enter a relaxed state, which may help you to better cope with pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; Massage can reduce stress, relieve tension and promote relaxation. Although its value as a headache treatment hasn&apos;t been fully determined, massage may be particularly helpful if you have tight, tender muscles in the back of your head, neck and shoulders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbs, vitamins and minerals.&lt;/strong&gt; Some dietary supplements &amp;mdash; including magnesium, feverfew and butterbur &amp;mdash; seem to help prevent or treat some types of headaches, but there&apos;s little scientific support for these claims and there&apos;s often no long-term safety data available. If you&apos;re considering using supplements to treat headaches, check with your doctor. Some supplements may interfere with the effectiveness of prescription or over-the-counter drugs or have other harmful effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chiropractic care.&lt;/strong&gt; Spinal manipulation can effectively treat some types of pain, but studies don&apos;t support claims that chiropractic care relieves headaches. Chiropractic manipulation of the neck has been associated with injury to the blood vessels supplying the brain. Rarely, this may cause a stroke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;d like to try a complementary or alternative therapy, discuss the risks and benefits with your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with rebound headaches can be especially difficult. The same medication you&apos;ve relied on to bring you relief from your headache pain is now causing that pain. You may find it helpful or encouraging to talk to other people who&apos;ve been through the same experience. Ask your doctor if there are any support groups in your area, or contact the National Headache Foundation at www.headaches.org or 888-643-5552. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips can help you prevent rebound headaches: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take your headache medication exactly as prescribed.&lt;/li&gt;
+	&lt;li&gt;If you have to take headache medication more than twice a week, contact your doctor.&lt;/li&gt;
+	&lt;li&gt;Avoid the use of medications that contain butalbital or opioids.&lt;/li&gt;
+	&lt;li&gt;Limit your use of simple analgesics to less than 15 days a month.&lt;/li&gt;
+	&lt;li&gt;Limit the use of triptans or combination analgesics to no more than nine days a month.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Taking good care of yourself can help prevent most types of headaches. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid headache triggers.&lt;/strong&gt; If you&apos;re not sure what triggers your headaches, keep a headache diary. Include details about every headache. When did it start? What were you doing at the time? What did you eat that day? How did you sleep the night before? What&apos;s your stress level? How long did it last? What, if anything, provided relief? Eventually, you may begin to see a pattern &amp;mdash; and take steps to prevent future headaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough sleep.&lt;/strong&gt; Go to bed and wake up at the same time every day &amp;mdash; even on weekends. If you&apos;re not tired at bedtime, don&apos;t fight it. Read or watch television until you become drowsy and fall asleep naturally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t skip meals.&lt;/strong&gt; Start your day with a healthy breakfast. Eat lunch and dinner at about the same time every day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Physical activity causes your body to release chemicals that block pain signals to your brain. With your doctor&apos;s OK, choose activities you enjoy &amp;mdash; such as walking, swimming or cycling. To avoid injury, start slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; Get organized. Simplify your schedule. Plan ahead. When the going gets tough, try to stay positive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relax.&lt;/strong&gt; Try yoga, meditation or relaxation exercises. Set aside time to slow down. Listen to music, read a book or take a hot bath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; If you smoke, talk to your doctor about quitting. Smoking can trigger headaches or make them worse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rebound headaches
+	</Title>
+	<Abstract>
+		Rebound headaches &amp;mdash; Comprehensive overview covers symptoms, treatment of this often puzzling disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01107" LinkType="Internal" ObjectID="8DA2A369-EC32-C687-93EBBF23812A26E0" Title="Chiropractic adjustment" Url="http://www.mayoclinic.com/health/chiropractic-adjustment/MY01107" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+	</RelatedLinksBox>
+</Disease>

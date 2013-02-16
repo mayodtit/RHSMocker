@@ -1,0 +1,279 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00697
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cervical-spondylosis/DS00697
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-12
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="2718" Title="Cervical spondylosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87E739FC-2A5D-9994-EB1E51F9CC6CE0B9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cervical spondylosis
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical osteoarthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical spine degeneration
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, bone spurs and other signs of osteoarthritis develop. 
+&lt;/p&gt;
+&lt;p&gt;
+Cervical spondylosis is very common and worsens with age. There also appears to be a genetic component involved because some families will have more of these changes over time, while other families will develop less. 
+&lt;/p&gt;
+&lt;p&gt;
+More than 90 percent of people older than age 65 have evidence of cervical spondylosis and osteoarthritis that can be seen on neck X-rays. Most of these people experience no symptoms from these problems. When symptoms do occur, nonsurgical treatments often are effective.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, cervical spondylosis causes no symptoms. When symptoms do occur, they typically affect only the neck &amp;mdash; causing pain and stiffness.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, cervical spondylosis results in a narrowing of the space needed by the spinal cord and the nerve roots that originate at the spinal cord and pass through the spine to the rest of your body. If the spinal cord or nerve roots become pinched, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling, numbness and weakness in your arms, hands, legs or feet&lt;/li&gt;
+	&lt;li&gt;Lack of coordination and difficulty walking&lt;/li&gt;
+	&lt;li&gt;Loss of bladder or bowel control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical attention if you notice sudden onset of numbness or weakness, or loss of bladder or bowel control. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As you age, the bones and cartilage that make up your backbone and neck gradually develop wear and tear. These changes may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydrated disks.&lt;/strong&gt; Disks act like cushions between the vertebrae of your spine. By the age of 40, most people&apos;s spinal disks begin drying out and shrinking, which allows more bone-on-bone contact between the vertebrae.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herniated disks.&lt;/strong&gt; Age also affects the exterior of your spinal disks. Cracks often appear, leading to bulging or herniated disks &amp;mdash; which sometimes can press on the spinal cord and nerve roots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone spurs.&lt;/strong&gt; Disk degeneration often results in the spine producing extra amounts of bone, sometimes called bone spurs, in a misguided effort to shore up the spine&apos;s strength. These bone spurs can sometimes pinch the spinal cord and nerve roots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stiff ligaments.&lt;/strong&gt; Ligaments are cords of tissue that connect bone to bone. Increasing age can make spinal ligaments stiffen and calcify, making your neck less flexible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cervical spondylosis 
+" Caption="Cervical spondylosis is degeneration of the bones and disks in the neck, which can lead to a variety of problems, including herniated disks and bone spurs. 
+" Height="60" Title="Cervical spondylosis" URI="/images/image_popup/thumbs/mcdc_7_spondylosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cervical spondylosis 
+" Caption="Cervical spondylosis is degeneration of the bones and disks in the neck, which can lead to a variety of problems, including herniated disks and bone spurs. 
+" Height="400" Title="Cervical spondylosis" URI="/images/image_popup/mcdc_7_spondylosis.jpg" Width="400" />
+				<HTML>
+					Cervical spondylosis is degeneration of the bones and disks in the neck, which can lead to a variety of problems, including herniated disks and bone spurs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for cervical spondylosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Cervical spondylosis is a normal part of aging. Spinal disks tend to dehydrate and shrink with the passing years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupation.&lt;/strong&gt; Certain jobs may place extra stress on your neck. This may include repetitive neck motions, awkward positioning or a lot of overhead work.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neck injuries.&lt;/strong&gt; Previous neck injuries appear to increase the risk of cervical spondylosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic factors.&lt;/strong&gt; Some families will have more of these changes over time, while other families will develop less.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your spinal cord or nerve roots become severely compressed as a result of cervical spondylosis, the damage can be permanent.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely first bring your concerns to the attention of your family doctor. Depending on your signs and symptoms, he or she may refer you to a physical therapist or to doctors specializing in spine disorders or orthopedic surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you might want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your signs and symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does any type of movement or positioning make them better or worse?&lt;/li&gt;
+	&lt;li&gt;Do you know if your parents or siblings experienced neck problems?&lt;/li&gt;
+	&lt;li&gt;Have you ever had whiplash or any other neck injury?&lt;/li&gt;
+	&lt;li&gt;Do you have other health conditions?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you regularly take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;br /&gt;
+&lt;/strong&gt;A doctor who sees you for neck pain may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where exactly does your neck hurt?&lt;/li&gt;
+	&lt;li&gt;Have you had previous episodes of similar pain that eventually went away?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include any changes in your bladder or bowel control?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include any tingling or weakness in your arms, hands, legs or feet?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include difficulty walking?&lt;/li&gt;
+	&lt;li&gt;What treatments or self-care measures have you tried so far?&lt;/li&gt;
+	&lt;li&gt;Have any treatments or self-care measures helped?&lt;/li&gt;
+	&lt;li&gt;What is your occupation?&lt;/li&gt;
+	&lt;li&gt;What are your hobbies and recreational activities?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the exam, your doctor will check the range of motion in your neck. To find out if there&apos;s pressure on your spinal nerves or spinal cord, your doctor will test your reflexes and check the strength of your muscles. He or she may want to watch you walk to see if spinal compression is affecting your gait. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;A variety of imaging tests can provide details to guide diagnosis and treatment. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neck X-ray.&lt;/strong&gt; An X-ray may show abnormalities, such as bone spurs, that indicate cervical spondylosis. It is ordered primarily as a screening test to look for rare, serious causes for neck pain and stiffness &amp;mdash; such as tumors, infections or fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT scan).&lt;/strong&gt; This test takes X-rays from many different directions and then combines them into a cross-sectional view of the structures in your neck. It can provide much finer details than a plain X-ray, particularly of the bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses a magnetic field and radio waves and can produce detailed, cross-sectional images of both bone and soft tissues. This can help pinpoint areas where nerves may be getting pinched.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myelogram.&lt;/strong&gt; This test involves generating images using X-rays or CT scans after dye is injected into the spinal canal. The dye makes areas of your spine more visible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve function tests&lt;br /&gt;
+&lt;/strong&gt;In some cases, it may be helpful to determine if nerve signals are traveling properly to your muscles. Nerve function tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyogram (EMG).&lt;/strong&gt; This test measures the electrical activity in your nerves as they transmit messages to your muscles when the muscles are contracting and when they&apos;re at rest. The purpose of an EMG is to assess the health of your muscles and the nerves that control them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction study.&lt;/strong&gt; For this test, electrodes are attached to your skin above the nerve to be studied. A small shock is passed through the nerve to measure the strength and speed of nerve signals.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for cervical spondylosis depends on the severity of your signs and symptoms. The goal of treatment is to relieve pain, help you maintain your usual activities as much as possible, and prevent permanent injury to the spinal cord and nerves. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;If over-the-counter pain relievers don&apos;t help, your doctor might suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle relaxants.&lt;/strong&gt; Drugs such as cyclobenzaprine (Flexeril, Amrix) and methocarbamol (Robaxin) may help if you&apos;re having muscle spasms in your neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure drugs.&lt;/strong&gt; Some types of epilepsy drugs, such as gabapentin (Neurontin, Gralise, Horizant), and pregabalin (Lyrica), also work well to dull the pain of damaged nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narcotics.&lt;/strong&gt; Some prescription pain relievers contain narcotics, such as hydrocodone (Vicodin, Lortab, others) or oxycodone (Percocet, Roxicet, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid injections.&lt;/strong&gt; In some cases, injecting prednisone and a numbing agent into the area affected by cervical spondylosis may help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can teach you exercises to help stretch and strengthen the muscles in your neck and shoulders. Some people with cervical spondylosis may benefit from the use of traction, which can help provide more space within the spine if nerve roots are being pinched. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If conservative treatment fails or if your neurological signs and symptoms &amp;mdash; such as weakness in your arms or legs &amp;mdash; are getting worse, you may need surgery to create more room for your spinal cord and nerve roots. This may involve removing a herniated disk or bone spurs, or it could require the removal of part of a vertebra. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild cases of cervical spondylosis may respond to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Regular exercise. &lt;/strong&gt;Maintaining activity will help speed recovery, even if you have to temporarily modify some of your exercises because of neck pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter pain relievers.&lt;/strong&gt; Ibuprofen (Advil, Motrin, others), naproxen (Aleve) or acetaminophen (Tylenol, others) is often enough to control the pain associated with cervical spondylosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat or ice.&lt;/strong&gt; You might want to try applying heat or ice to your neck, especially if your neck muscles are sore.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soft neck brace. &lt;/strong&gt;These collars allow the muscles of your neck to rest, but they should be worn for only short periods of time because they can eventually weaken neck muscles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cervical spondylosis
+	</Title>
+	<Abstract>
+		Cervical spondylosis &amp;mdash; Comprehensive overview covers symptoms, treatment of neck osteoarthritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00674" LinkType="Internal" ObjectID="E8790835-BF32-DE70-BE0F8A0EE6E5510D" Title="Laminectomy" Url="http://www.mayoclinic.com/health/laminectomy/MY00674" />
+	</RelatedLinksBox>
+</Disease>

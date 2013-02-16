@@ -1,0 +1,300 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00882
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/optic-neuritis/DS00882
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2493" Title="Optic neuritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8A3FDEB3-E7FF-0DBD-12460F3B06F34632
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				optic neuritis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Optic neuritis is an inflammation of the optic nerve, the bundle of nerve fibers that transmit visual information to your brain from your eye. Pain and temporary vision loss are common symptoms of optic neuritis.
+&lt;/p&gt;
+&lt;p&gt;
+Optic neuritis usually develops in association with an autoimmune disorder that may be triggered by an infection. In some people, signs and symptoms of optic neuritis may be an indication of multiple sclerosis, a condition resulting in inflammation and damage to nerves in your brain and spinal cord.
+&lt;/p&gt;
+&lt;p&gt;
+Most people who experience a single episode of optic neuritis eventually recover their vision. Treatment with steroid medications may speed up vision recovery after optic neuritis.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing optic nerve" Caption="The optic nerve is a bundle of nerve fibers that serves as the communication cable between your eyes and your brain." Height="60" Title="Optic nerve" URI="/images/image_popup/thumbs/ans7_opticneuritisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing optic nerve" Caption="The optic nerve is a bundle of nerve fibers that serves as the communication cable between your eyes and your brain." Height="330" Title="Optic nerve" URI="/images/image_popup/ans7_opticneuritis.jpg" Width="400" />
+				<HTML>
+					The optic nerve is a bundle of nerve fibers that serves as the communication cable between your eyes and your brain....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Optic neuritis usually affects one eye, although it may occur in both eyes simultaneously. Optic neuritis symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Most people who develop optic neuritis experience eye pain that&apos;s worsened by eye movement. Pain associated with optic neuritis usually peaks within several days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision loss.&lt;/strong&gt; The extent of vision loss associated with optic neuritis varies. Most people experience at least some temporary reduction in vision. If noticeable vision loss occurs, it usually develops over the course of hours or days, and may be worsened by heat or exercise. Vision loss may be permanent in some cases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of color vision.&lt;/strong&gt; Optic neuritis often affects the perception of colors. You may notice that the colors of objects, particularly red ones, temporarily appear &quot;washed out&quot; or less vivid than normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flashing lights.&lt;/strong&gt; Some people with optic neuritis report seeing flashing or flickering lights.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The signs and symptoms of optic neuritis may be indications of an autoimmune disorder called multiple sclerosis. In 15 to 20 percent of people who eventually develop multiple sclerosis, optic neuritis is their first symptom.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Eye conditions can be serious. Some may cause you to permanently lose your vision and some are associated with other serious medical problems. Contact your doctor in the following situations:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;New symptoms.&lt;/strong&gt; Anytime you have eye pain or notice a change in your vision, make an appointment to see your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Worsening symptoms.&lt;/strong&gt; If you have optic neuritis and experience new eye pain, worsening vision or symptoms that don&apos;t improve with treatment, see your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unusual symptoms.&lt;/strong&gt; If you have unusual symptoms, including numbness or weakness in one or more limbs, which may be an indication of a neurological disorder, see your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of optic neuritis is unknown. However, optic neuritis is believed to develop when the immune system mistakenly targets the substance (myelin) covering your optic nerve, resulting in inflammation and damage to the myelin. Normally, the myelin helps electrical impulses travel quickly along the optic nerve, from the eye to the brain. In the brain, those electrical impulses are converted into visual information. Optic neuritis disrupts this process, affecting vision. It&apos;s not certain what causes your immune system to target the myelin.
+&lt;/p&gt;
+&lt;p&gt;
+The following autoimmune conditions are often associated with optic neuritis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Multiple sclerosis.&lt;/strong&gt; Multiple sclerosis is a disease in which your autoimmune system attacks the myelin sheath covering nerve fibers in your brain and spinal cord. In people with optic neuritis, the risk of developing multiple sclerosis following one episode of optic neuritis is about 50 percent over a lifetime. The presence of brain lesions on MRI images is also associated with an increased risk. People with optic neuritis and abnormal MRI scans are much more likely to develop multiple sclerosis compared with people with normal MRI scans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neuromyelitis optica.&lt;/strong&gt; Another autoimmune condition that may cause optic neuritis is neuromyelitis optica. In this condition, inflammation occurs in the optic nerve and spinal cord. Neuromyelitis optica has similarities to multiple sclerosis, but neuromyelitis optica doesn&apos;t cause damage to the nerves in the brain as often as multiple sclerosis does. Optic neuritis arising from neuromyelitis optica tends to be more severe than optic neuritis associated with multiple sclerosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other autoimmune conditions, such as sarcoidosis and systemic lupus erythematosus, have also been associated with optic neuritis.
+&lt;/p&gt;
+&lt;p&gt;
+Not all potential causes of optic neuritis are autoimmune diseases. Other factors that have been linked to the development of optic neuritis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Bacterial infections, including Lyme disease, cat scratch fever and syphilis, or viruses such as measles, mumps and herpes can cause optic neuritis. In addition, some infections may lead to a type of optic neuritis called neuroretinitis, which isn&apos;t believed to be associated with the risk of developing multiple sclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cranial arteritis.&lt;/strong&gt; This is an inflammation of the lining of the arteries in your head. Inflamed cranial arteries can block blood flow to your eyes and brain, which may cause permanent vision loss or a stroke. Cranial arteritis is most likely to occur in adults ages 70 to 80.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs.&lt;/strong&gt; Some drugs have been associated with the development of optic neuritis. One of these drugs is ethambutol (Myambutol), which is used to treat tuberculosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation to your head is an uncommon cause of optic neuritis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, any process resulting in inflammation or compression of the optic nerve, including tumors, nutritional deficiencies or toxins, can interfere with the nerve&apos;s ability to conduct electrical impulses. This may cause vision loss and other symptoms that may mimic optic neuritis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for optic neuritis arising from autoimmune disorders include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Optic neuritis can occur at any age, but most often affects young adults ages 20 to 40 years. The average age of onset is about 30 years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are more than twice as likely to develop optic neuritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Optic neuritis occurs more commonly in whites.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic mutations.&lt;/strong&gt; Certain genetic mutations may increase your risk of developing optic neuritis or multiple sclerosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications arising from optic neuritis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Optic nerve damage.&lt;/strong&gt; Most people have some permanent optic nerve damage following an episode of optic neuritis, but they may not have any symptoms resulting from this damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decreased visual acuity.&lt;/strong&gt; Most people regain normal or near normal vision within several months, but for some people, vision loss may persist even after the optic neuritis has improved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Side effects of treatment.&lt;/strong&gt; Steroid medications used to treat optic neuritis subdue your immune system, which causes your body to become more susceptible to infections. Long-term use of steroids may also cause thinning of your bones (osteoporosis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of optic neuritis, you may first see your family doctor or a general practitioner. However, when you call for an appointment, you may be referred immediately to a doctor who specializes in diagnosing and treating eye diseases (ophthalmologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. Be as specific as possible in describing your symptoms, including how you would rate the severity of your vision loss and whether your visual perception of colors has changed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent stresses or major life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information.&lt;/strong&gt; Your doctor will want to know about any recent infectious illnesses you&apos;ve had, as well as any other health conditions with which you&apos;ve been diagnosed or treated. Also write down the names of all prescription and over-the-counter medications and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out.
+&lt;/p&gt;
+&lt;p&gt;
+For optic neuritis, important questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;How fully do you expect I will recover, and how long will that take?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my progress?&lt;/li&gt;
+	&lt;li&gt;Does this condition put me at risk of other medical conditions?&lt;/li&gt;
+	&lt;li&gt;How will you evaluate my risk of related conditions?&lt;/li&gt;
+	&lt;li&gt;If tests indicate that I&apos;m at increased risk of other medical conditions, are there treatments that can help reduce my risk?&lt;/li&gt;
+	&lt;li&gt;Are genetic factors associated with my condition? Are my relatives at risk?&lt;/li&gt;
+	&lt;li&gt;Do you recommend genetic testing for my close family members?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk more about. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How would you describe your symptoms?&lt;/li&gt;
+	&lt;li&gt;How significantly has your vision decreased?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include seeing colors less vividly?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed or gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better, or worse, such as strenuous exercise or a hot shower?&lt;/li&gt;
+	&lt;li&gt;Have you noticed problems with movement and coordination?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any numbness or weakness in your arms or legs?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any infections?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have any close relatives been diagnosed with optic neuritis?&lt;/li&gt;
+	&lt;li&gt;Have any close relatives been diagnosed with multiple sclerosis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to see an ophthalmologist for a definitive diagnosis. The ophthalmologist may perform the following eye tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A routine eye exam.&lt;/strong&gt; Your eye doctor will check your vision and your ability to perceive different colors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ophthalmoscopy.&lt;/strong&gt; During this examination, your doctor shines a bright light into your eye and examines the structures at the back of your eye. This eye test evaluates the optic disk, which is the area where the optic nerve enters the retina in your eye. The optic disk becomes swollen in about one-third of people with optic neuritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pupillary light reaction test.&lt;/strong&gt; Your doctor may move a flashlight in front of your eyes to see how your pupils respond when they&apos;re exposed to bright light. Pupils in eyes affected by optic neuritis don&apos;t constrict as much as those in healthy eyes do when stimulated by light.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other tests to diagnose optic neuritis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Visual response test (Visual evoked potentials test).&lt;/strong&gt; To perform this test, you sit before a screen on which an alternating checkerboard pattern is displayed. Attached to your head are wires with small patches to record your brain&apos;s responses to the visual stimuli. This type of test is able to detect the slowing of electrical conduction resulting from damaged areas on the optic nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) scan.&lt;/strong&gt; An MRI scan is a test that uses a magnetic field and pulses of radio wave energy to make pictures of your body. During an MRI to check for optic neuritis, you may be injected with a contrast solution to make the optic nerve and other parts of your brain more visible on the pictures. An MRI is also important to determine whether there are areas in your brain where the myelin has been damaged (lesions), which indicate a high risk of developing multiple sclerosis. An MRI also can help rule out tumors or other conditions that can mimic optic neuritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A blood test is available to check for antibodies for neuromyelitis optica. People with severe optic neuritis may undergo this test to determine whether they&apos;re likely to develop neuromyelitis optica. An erythrocyte sedimentation rate (ESR) blood test is used to detect inflammation occurring in your body. This test may help determine whether optic neuritis is caused by inflamed cranial arteries (cranial arteritis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Optic neuritis usually gets better on its own. In some cases, steroid medications are used to treat optic neuritis, because they help reduce inflammation in the optic nerve. Possible side effects from steroid treatment include weight gain, mood changes, stomach upset and insomnia. If you receive steroids, your treatment may involve:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous steroids.&lt;/strong&gt; You&apos;ll likely receive steroid therapy by vein (intravenously) for a few days. Intravenous steroid therapy may accelerate vision recovery, but it doesn&apos;t appear to affect the ultimate extent to which you&apos;ll recover vision you may have lost.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral steroids.&lt;/strong&gt; After intravenous steroid therapy, your doctor may prescribe an oral steroid called prednisone for about two weeks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In instances in which steroid therapy has failed and severe vision loss persists, a treatment called plasma exchange therapy may help some people recover their vision.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing multiple sclerosis&lt;/strong&gt;&lt;br /&gt;
+If you have optic neuritis and you appear to have a high risk of developing multiple sclerosis based on your MRI results, you may benefit from drugs that help prevent multiple sclerosis. These drugs include interferon beta-1a (Avonex, Rebif) and interferon beta-1b (Betaseron). These injectable drugs are used to prevent or delay the development of multiple sclerosis in people with optic neuritis who have two or more brain lesions evident on MRI scans.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prognosis&lt;/strong&gt;&lt;br /&gt;
+The prognosis following optic neuritis is generally good. Most people regain close to normal vision within 12 months after an episode of optic neuritis.
+&lt;/p&gt;
+&lt;p&gt;
+People with multiple sclerosis or neuromyelitis optica may have a greater risk for recurrent attacks of optic neuritis. People without any underlying conditions also may have recurrent optic neuritis. But, these people generally have a better long-term prognosis for their vision than do people with multiple sclerosis or neuromyelitis optica.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Optic neuritis
+	</Title>
+	<Abstract>
+		Optic neuritis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this eye disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00564" LinkType="Internal" ObjectID="D2402B6B-5C7C-484F-8D1FD5DB29D11345" Title="Demyelinating disease: What causes it?" Url="http://www.mayoclinic.com/health/demyelinating-disease/AN00564" />
+	</RelatedLinksBox>
+</Disease>

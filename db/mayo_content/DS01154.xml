@@ -1,0 +1,458 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01154
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/esophagitis/DS01154
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-15
+		</UpdateDate>
+		<PublicationDate>
+			2009-09-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="4436" Title="Esophagitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E0E97137-C837-F3C0-F5F6D251364B4ED8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammation of the esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				inflamed esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				eosinophilic esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				reflux esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				drug-induced esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				medication-induced esophagitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophagitis is inflammation that damages tissues of the esophagus, the muscular tube that delivers food from your mouth to your stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+Esophagitis (uh-sof-uh-JI-tis) often causes painful, difficult swallowing and chest pain. Causes of esophagitis include stomach acids backing up into the esophagus, infection, oral medications and allergies. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for esophagitis depend on the underlying cause and the severity of tissue damage. If left untreated, esophagitis may change the structure and function of the esophagus. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of eosinophilic esophagitis 
+" Caption="Esophagitis is inflammation that damages the lining of the esophagus. An endoscope &amp;mdash; a long, flexible tube equipped with a camera &amp;mdash; may be used to see inside your esophagus. This endoscopic image of eosinophilic esophagitis shows rings of abnormal tissue (esophageal rings) resulting from chronic inflammation. 
+" Height="60" Title="Eosinophilic esophagitis" URI="/images/image_popup/thumbs/mcdc7_eosinophilic_esophagitisthu.jpg" Width="60" />
+				<Image Alt="Image of eosinophilic esophagitis 
+" Caption="Esophagitis is inflammation that damages the lining of the esophagus. An endoscope &amp;mdash; a long, flexible tube equipped with a camera &amp;mdash; may be used to see inside your esophagus. This endoscopic image of eosinophilic esophagitis shows rings of abnormal tissue (esophageal rings) resulting from chronic inflammation. 
+" Height="340" Title="Eosinophilic esophagitis" URI="/images/image_popup/mcdc7_eosinophilic_esophagitis.jpg" Width="388" />
+				<HTML>
+					Esophagitis is inflammation that damages the lining of the esophagus. An endoscope &amp;mdash; a long, flexible tube equipped with a camera &amp;mdash; may be used to see inside your esophagus. This ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs and symptoms of esophagitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficult swallowing (dysphagia)&lt;/li&gt;
+	&lt;li&gt;Painful swallowing (odynophagia)&lt;/li&gt;
+	&lt;li&gt;Chest pain, particularly behind the breastbone, that occurs with eating&lt;/li&gt;
+	&lt;li&gt;Swallowed food becoming stuck in the esophagus (food impaction)&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Decreased appetite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In young children, particularly those too young to explain their discomfort or pain, signs of esophagitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeding difficulties&lt;/li&gt;
+	&lt;li&gt;Failure to thrive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Most signs and symptoms of esophagitis can be caused by a number of different conditions affecting the digestive system. See your doctor if signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Last more than a few days&lt;/li&gt;
+	&lt;li&gt;Don&apos;t improve or go away with over-the-counter antacids&lt;/li&gt;
+	&lt;li&gt;Are severe enough to make eating difficult&lt;/li&gt;
+	&lt;li&gt;Are accompanied by flu symptoms, such as headache, fever and muscle aches&lt;/li&gt;
+	&lt;li&gt;Are accompanied by shortness of breath or chest pain not triggered immediately with eating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Get emergency care if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Experience pain in your chest that lasts more than a few minutes&lt;/li&gt;
+	&lt;li&gt;Suspect you have food lodged in your esophagus&lt;/li&gt;
+	&lt;li&gt;Have a history of heart disease and experience chest pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophagitis is generally categorized by the conditions that cause it. In some cases, more than one factor may be causing esophagitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reflux esophagitis&lt;/strong&gt; &lt;br /&gt;
+A valve-like structure called the lower esophageal sphincter usually keeps the acidic contents of the stomach out of the esophagus. If this valve opens when it shouldn&apos;t or doesn&apos;t close properly, the contents of the stomach may back up into the esophagus (gastroesophageal reflux). Gastroesophageal reflux disease (GERD) is a condition in which this backflow of acid is a frequent or ongoing problem. A complication of GERD is chronic inflammation and tissue damage in the esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eosinophilic esophagitis&lt;/strong&gt; &lt;br /&gt;
+Eosinophils (e-oh-SIN-oh-phils) are white blood cells that regulate inflammation and play a key role in allergic reactions. Eosinophilic esophagitis occurs with a high concentration of these white blood cells in the esophagus, most likely in response to an allergy-causing agent (allergen). 
+&lt;/p&gt;
+&lt;p&gt;
+In many cases, people who have this kind of esophagitis are allergic to one or more foods. Some foods that may cause eosinophilic esophagitis include milk, eggs, wheat, soy, peanuts, beans, rye and beef. People with eosinophilic esophagitis may have other nonfood allergies. For example, inhaled allergens, such as pollen, may be the cause in some cases. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drug-induced esophagitis&lt;/strong&gt; &lt;br /&gt;
+Several oral medications may cause tissue damage if they remain in contact with the lining of the esophagus for a prolonged period. For example, if a pill is swallowed with little or no water, the pill itself or residue from the pill may remain in the esophagus. Drugs that have been linked to esophagitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain-relieving medications, such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others)&lt;/li&gt;
+	&lt;li&gt;Antibiotics, such as tetracycline and doxycycline&lt;/li&gt;
+	&lt;li&gt;Potassium chloride, which is used to treat potassium deficiency&lt;/li&gt;
+	&lt;li&gt;Bisphosphonates, including alendronate (Fosamax), a treatment for weak and brittle bones (osteoporosis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infectious esophagitis&lt;/strong&gt; &lt;br /&gt;
+Esophagitis may also be caused by a bacterial, viral, fungal or parasitic infection in tissues of the esophagus. Infectious esophagitis is relatively rare and occurs most often in people with poor immune system function, such as people with HIV/AIDS or cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+A fungus normally present in the mouth called Candida albicans is a common cause of infectious esophagitis. Such infections are often associated with poor immune system function, diabetes, cancer and antibiotic use. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for esophagitis vary depending on the different causes of the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reflux esophagitis&lt;/strong&gt; &lt;br /&gt;
+Factors that increase the risk of gastroesophageal reflux disease (GERD) &amp;mdash; and therefore are factors in reflux esophagitis &amp;mdash; include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Hiatal hernia, a condition in which the stomach pushes through the opening in the diaphragm where the esophagus joins the stomach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A number of foods may worsen symptoms of GERD or reflux esophagitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tomato-based foods&lt;/li&gt;
+	&lt;li&gt;Citrus fruits&lt;/li&gt;
+	&lt;li&gt;Caffeine&lt;/li&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Spicy foods&lt;/li&gt;
+	&lt;li&gt;Garlic and onions&lt;/li&gt;
+	&lt;li&gt;Chocolate&lt;/li&gt;
+	&lt;li&gt;Mint-flavored foods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Eosinophilic esophagitis&lt;/strong&gt; &lt;br /&gt;
+Risk factors for eosinophilic esophagitis, or allergy-related esophagitis, may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A family history of the disorder, suggesting that a gene or genes may increase the risk of eosinophilic esophagitis&lt;/li&gt;
+	&lt;li&gt;A family history of allergies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Drug-induced esophagitis&lt;/strong&gt; &lt;br /&gt;
+Factors that may increase the risk of drug-induced esophagitis are generally related to issues that prevent quick and complete passage of a pill into the stomach. These factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swallowing a pill with little or no water&lt;/li&gt;
+	&lt;li&gt;Taking drugs while lying down&lt;/li&gt;
+	&lt;li&gt;Taking drugs right before sleep, probably due in part to the production of less saliva and swallowing less during sleep&lt;/li&gt;
+	&lt;li&gt;Older age, possibly because of age-related changes to the muscles of the esophagus or a decreased production of saliva&lt;/li&gt;
+	&lt;li&gt;Large or oddly shaped pills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infectious esophagitis&lt;/strong&gt; &lt;br /&gt;
+The primary risk factor for infectious esophagitis is poor immune system function due to such conditions as HIV/AIDS and certain cancers. Increased risk may also be due to certain cancer treatments, drugs that block immune system reactions to transplanted organs (immunosuppressants) and various immune system disorders. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, esophagitis can lead to changes in the structure and function of the esophagus. Possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Narrowing of the esophagus (esophageal stricture)&lt;/li&gt;
+	&lt;li&gt;Rings of abnormal tissue in the lining of the esophagus (esophageal rings)&lt;/li&gt;
+	&lt;li&gt;Barrett&apos;s esophagus, a condition in which the cells lining the esophagus are changed &amp;mdash; a condition that&apos;s a risk factor for esophageal cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re experiencing severe chest pain that lasts more than a few minutes or if you suspect you have food lodged in your esophagus or are unable to swallow, get emergency medical care. If you have other signs or symptoms of esophagitis, you&apos;ll likely start by seeing your primary care doctor. For some diagnostic tests, your doctor may refer you to a specialist in digestive system disorders (gastroenterologist) or an allergy specialist (allergist). Preparing for your appointment with your doctor or a specialist will help you make the best use of your time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Make a list ahead of time that you can share with your doctor. Your list should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms&lt;/strong&gt; you&apos;re experiencing, including any that may seem unrelated to pain, difficulty swallowing or reflux&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key personal information,&lt;/strong&gt; including any major stresses or recent life changes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications&lt;/strong&gt; that you&apos;re taking, including vitamins and other supplements&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history&lt;/strong&gt; of allergies and disorders of the esophagus or stomach&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions&lt;/strong&gt; to ask your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List questions for your doctor from most important to least important in case time runs out. If you think you have signs or symptoms of esophagitis, you may ask some of the following questions. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What tests will I need to diagnose the condition?&lt;/li&gt;
+	&lt;li&gt;Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How long will it take to find out the results of tests?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;How will we know if the treatment is working?&lt;/li&gt;
+	&lt;li&gt;Will I need follow-up tests?&lt;/li&gt;
+	&lt;li&gt;What steps can I take on my own to prevent a recurrence of the symptoms?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I best manage these conditions together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How severe is your pain or discomfort?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;How often do you experience symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to prompt or worsen symptoms, such as certain foods?&lt;/li&gt;
+	&lt;li&gt;Does anything lessen symptoms, such as taking over-the-counter antacids or avoiding certain foods?&lt;/li&gt;
+	&lt;li&gt;Are symptoms worse at certain times of the day?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms begin shortly after taking any medications? If so, which medications?&lt;/li&gt;
+	&lt;li&gt;Do you have any allergies, and do you take any allergy medication?&lt;/li&gt;
+	&lt;li&gt;Have you ever had food get stuck in your throat after swallowing?&lt;/li&gt;
+	&lt;li&gt;Do you ever have food come back up after swallowing?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you know that certain foods trigger or worsen symptoms, such as caffeine-containing drinks, alcohol or spicy foods, avoid them. Taking over-the-counter antacids may provide short-term relief of symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If you suspect that your symptoms are related to a prescription medication, don&apos;t stop taking the drug without first talking to your doctor. If possible, limit the use of over-the-counter medications that could be causing problems. When you take pills, drink a glass of water and avoid lying down immediately afterward. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor or specialist will likely make a diagnosis based on your answer to questions, a physical exam, and one or more tests. These tests may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Barium X-ray&lt;/strong&gt; &lt;br /&gt;
+For this test, you drink a solution containing a compound called barium or take a pill coated with barium. Barium coats the lining of the esophagus and stomach, and it enables the organs to be well outlined in a series of X-ray images. These images can help identify narrowing of the esophagus, other structural changes, a hiatal hernia, tumors or other abnormalities that could be causing symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Endoscopy&lt;/strong&gt; &lt;br /&gt;
+A long, thin tube equipped with a tiny camera (endoscope) is guided down your throat and into the esophagus. Using this instrument, your doctor can view irregularities in the tissues of the esophagus and remove small tissue samples for testing. The appearance of the esophagus may also provide clues to the cause of inflammation. For example, the condition of the esophagus may look different depending on whether you have drug-induced or reflux esophagitis. You&apos;ll be lightly sedated during this test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;/strong&gt; &lt;br /&gt;
+Small tissue samples removed during an endoscopic exam are sent to the lab for testing. Depending on the suspected cause of the disorder, tests may be used to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diagnose a bacterial, viral, fungal or parasitic infection&lt;/li&gt;
+	&lt;li&gt;Determine the concentration of allergy-related white blood cells (eosinophils)&lt;/li&gt;
+	&lt;li&gt;Identify abnormal cells that would indicate esophageal cancer or precancerous changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergy tests&lt;/strong&gt; &lt;br /&gt;
+You may undergo tests to determine if you&apos;re allergic to a food or another allergy-causing agent (allergen) that may be causing eosinophilic esophagitis. These tests may include one of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Elimination diet.&lt;/strong&gt; Your doctor may recommend a diet with certain foods removed, particularly those foods that are common allergens. Under your doctor&apos;s direction, you&apos;ll gradually add foods back into your diet and note when symptoms return.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; In this test, tiny drops of allergen extracts are pricked onto your skin&apos;s surface. This is usually carried out on the forearm, but it may be done on the upper back. The drops are left on your skin for 15 minutes before your skin is observed for signs of allergic reactions. If you&apos;re allergic to wheat, for example, you&apos;ll develop a red, itchy bump where the wheat protein extract was pricked onto your skin. Common side effects of these skin tests are temporary itching and redness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of eosinophilic esophagitis 
+" Caption="Esophagitis is inflammation that damages the lining of the esophagus. An endoscope &amp;mdash; a long, flexible tube equipped with a camera &amp;mdash; may be used to see inside your esophagus. This endoscopic image of eosinophilic esophagitis shows rings of abnormal tissue (esophageal rings) resulting from chronic inflammation. 
+" Height="60" Title="Eosinophilic esophagitis" URI="/images/image_popup/thumbs/mcdc7_eosinophilic_esophagitisthu.jpg" Width="60" />
+				<Image Alt="Image of eosinophilic esophagitis 
+" Caption="Esophagitis is inflammation that damages the lining of the esophagus. An endoscope &amp;mdash; a long, flexible tube equipped with a camera &amp;mdash; may be used to see inside your esophagus. This endoscopic image of eosinophilic esophagitis shows rings of abnormal tissue (esophageal rings) resulting from chronic inflammation. 
+" Height="340" Title="Eosinophilic esophagitis" URI="/images/image_popup/mcdc7_eosinophilic_esophagitis.jpg" Width="388" />
+				<HTML>
+					Esophagitis is inflammation that damages the lining of the esophagus. An endoscope &amp;mdash; a long, flexible tube equipped with a camera &amp;mdash; may be used to see inside your esophagus. This ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interventions for esophagitis are intended to lessen symptoms, manage complications and treat underlying causes of the disorder. Treatment strategies vary primarily based on the cause of the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reflux esophagitis&lt;/strong&gt; &lt;br /&gt;
+Treatment for reflux esophagitis may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Proton pump inhibitors&lt;/strong&gt; block acid production in the stomach and allow time for damaged esophageal tissue to heal. Drugs available by prescription include omeprazole (Prilosec), esomeprazole (Nexium) and lansoprazole (Prevacid). Over-the-counter proton pump inhibitors also are available. Other treatments for gastroesophageal reflux disease (GERD) may alleviate GERD symptoms temporarily, but generally have little effect on esophagitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fundoplication,&lt;/strong&gt; a surgical procedure, may be used to treat GERD and improve the condition of the esophagus if other interventions don&apos;t work. During this procedure, a portion of the stomach is wrapped around the valve separating the esophagus and stomach (lower esophageal sphincter). This strengthens the sphincter and prevents acid from backing up into the esophagus. Fundoplication may also correct problems related to a hiatal hernia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Eosinophilic esophagitis&lt;/strong&gt; &lt;br /&gt;
+Treatment for eosinophilic esophagitis is primarily avoiding the allergen and reducing the allergic reaction with medications. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral steroids.&lt;/strong&gt; Corticosteroids may lessen the inflammation associated with allergic reactions and allow for the esophagus to heal. Side effects associated with long-term use of oral steroids, however, can be severe. These effects include loss of bone density, slowed growth in children, diabetes, acne and mood disorders. Your doctor may first prescribe inhaled steroids to minimize these side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inhaled steroids.&lt;/strong&gt; Inhaled steroids are used to manage asthma. Some studies have shown that these medications may help treat eosinophilic esophagitis. Your doctor will instruct you on how to swallow the steroid preparation, rather than inhaling it, so that it coats your esophagus. This delivery system for steroids is much less likely to cause serious side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proton pump inhibitors.&lt;/strong&gt; If you&apos;ve been diagnosed with eosinophilic esophagitis and your doctor suspects that acid reflux may be involved, he or she may prescribe a proton pump inhibitor. These medications, such as esomeprazole (Nexium), lansoprazole (Prevacid), omeprazole (Prilosec), block acid production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Restricted diet.&lt;/strong&gt; If tests show that you have food allergies, your doctor may ask you to eliminate the problem foods from your diet. Your doctor may refer you to a dietitian, who can help you manage your diet and plan healthy meals. Your doctor may also recommend vitamins or supplements or special nutritional drinks if your allergies significantly limit your food choices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Drug-induced esophagitis&lt;/strong&gt; &lt;br /&gt;
+Treatment for drug-induced esophagitis is primarily avoiding the problem drug when possible and reducing the risk with better pill-taking habits. Your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Taking an alternative drug that is less likely to cause drug-induced esophagitis&lt;/li&gt;
+	&lt;li&gt;Taking a liquid version of a medication if possible&lt;/li&gt;
+	&lt;li&gt;Drinking an entire glass of water with a pill (unless you&apos;ve been told by your doctor to restrict your fluid intake because of another condition, such as kidney disease)&lt;/li&gt;
+	&lt;li&gt;Sitting or standing for at least 30 minutes after taking a pill&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infectious esophagitis&lt;/strong&gt; &lt;br /&gt;
+Your doctor may prescribe a medication to treat a bacterial, viral, fungal or parasitic infection causing infectious esophagitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating common complications&lt;/strong&gt; &lt;br /&gt;
+A gastroenterologist may perform a procedure to expand (dilate), the esophagus. This treatment is generally used only when the narrowing is very severe or food has become lodged in the esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+This procedure is performed with one or more endoscopic devices, small narrow tubes inserted through the esophagus. Versions of these devices may be equipped with a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tapered tip that starts with a rounded point that gradually widens&lt;/li&gt;
+	&lt;li&gt;Balloon that can be expanded after it&apos;s inserted in the esophagus&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the type of esophagitis you have, you may lessen symptoms or avoid recurring problems by following these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid food allergens.&lt;/strong&gt; Read food labels carefully to avoid food to which you have an allergy. Be careful when eating out. Ask about what ingredients are in a dish and how they&apos;re prepared.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid foods that may increase reflux.&lt;/strong&gt; Avoid foods that you know worsen your symptoms of gastroesophageal reflux. These may include alcohol, caffeine, citrus fruits, tomatoes and spicy foods. Eating smaller meals and not eating for at least three hours before going to bed can help reduce acid reflux.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use good pill-taking habits.&lt;/strong&gt; Always take a pill with plenty of water. Don&apos;t lie down for at least 30 minutes after taking a pill.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight.&lt;/strong&gt; Talk to your doctor about an appropriate diet and exercise routine to help you lose weight and maintain a healthy weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you smoke, quit.&lt;/strong&gt; Talk to your doctor if you need help ending a smoking habit.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Esophagitis
+	</Title>
+	<Abstract>
+		Esophagitis &amp;mdash; Comprehensive overview covers symptoms, causes, complications, treatments of inflammation of the esophagus.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+	</RelatedLinksBox>
+</Disease>

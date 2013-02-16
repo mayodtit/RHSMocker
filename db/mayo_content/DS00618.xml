@@ -1,0 +1,311 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00618
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/Varicocele/DS00618
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-10
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2055" Title="Scrotum">
+						<Keyword MCVID="2394" Title="Varicocele" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			43D97C63-2A5D-9994-E05C930C1F82F35F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				varicocele
+			</MetaKeyword>
+			<MetaKeyword>
+				testicular veins
+			</MetaKeyword>
+			<MetaKeyword>
+				infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				varicose scrotal veins
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A varicocele (VAR-ih-koe-seel) is an enlargement of the veins within the scrotum, the loose bag of skin that holds your testicles. A varicocele is similar to a varicose vein that can occur in your leg.
+&lt;/p&gt;
+&lt;p&gt;
+Varicoceles are a common cause of low sperm production and decreased sperm quality, which can cause infertility. However, not all varicoceles affect sperm production. Varicoceles can also cause testicles to shrink.
+&lt;/p&gt;
+&lt;p&gt;
+Most varicoceles develop over time. Fortunately, most varicoceles are easy to diagnose and many don&apos;t need treatment. If a varicocele causes symptoms, it often can be repaired surgically.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of varicocele 
+" Caption="A varicocele is enlargement of the veins that transport oxygen-depleted blood away from the testicle. 
+" Height="60" Title="Varicocele" URI="/images/image_popup/thumbs/r7_varicocelethu.jpg" Width="60" />
+				<Image Alt="Illustration of varicocele 
+" Caption="A varicocele is enlargement of the veins that transport oxygen-depleted blood away from the testicle. 
+" Height="400" Title="Varicocele" URI="/images/image_popup/r7_varicocele.jpg" Width="400" />
+				<HTML>
+					A varicocele is enlargement of the veins that transport oxygen-depleted blood away from the testicle. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A varicocele often produces no signs or symptoms. Rarely, it may cause pain. The pain may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vary from dull discomfort &amp;mdash; a feeling of heaviness &amp;mdash; to sharp&lt;/li&gt;
+	&lt;li&gt;Increase with sitting, standing or physical exertion, especially over long periods&lt;/li&gt;
+	&lt;li&gt;Worsen over the course of a day&lt;/li&gt;
+	&lt;li&gt;Be relieved when you lie on your back&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With time, varicoceles may enlarge and become more noticeable.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Because a varicocele usually causes no symptoms, it often requires no treatment. Varicoceles may be discovered during a fertility evaluation or a routine physical exam.
+&lt;/p&gt;
+&lt;p&gt;
+However, if you experience pain or swelling in your scrotum or you discover a mass on your scrotum, contact your doctor. A number of conditions can cause a scrotal mass or testicular pain, some of which require immediate treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your spermatic cord carries blood to and from your testicles. It&apos;s not certain what causes varicoceles, but many experts believe a varicocele forms when the valves inside the veins in the cord prevent your blood from flowing properly. The resulting backup causes the veins to widen (dilate).
+&lt;/p&gt;
+&lt;p&gt;
+Varicoceles often form during puberty. Varicoceles usually occur on the left side, most likely because of the position of the left testicular vein. However, a varicocele in one testicle can affect sperm production in both testicles.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="60" Title="Male reproductive system" URI="/images/image_popup/thumbs/r7_malereprothu.jpg" Width="60" />
+				<Image Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="283" Title="Male reproductive system" URI="/images/image_popup/r7_malerepro.jpg" Width="400" />
+				<HTML>
+					The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There don&apos;t appear to be any significant risk factors for developing a varicocele. However, some research suggests that being overweight may increase your risk.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A varicocele may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shrinkage of the affected testicle (atrophy).&lt;/strong&gt; The bulk of the testicle comprises sperm-producing tubules. When damaged, as from varicocele, the testicle shrinks and softens. It&apos;s not clear what causes the testicle to shrink, but the malfunctioning valves allow blood to pool in the veins, which can result in increased pressure in the veins and exposure to toxins in the blood that may cause testicular damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility.&lt;/strong&gt; It&apos;s not clear how varicoceles affect fertility. The testicular veins cool blood in the testicular artery, helping to maintain the proper temperature for optimal sperm production. By blocking blood flow, a varicocele may keep the local temperature too high, affecting sperm formation and movement (motility).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a urologist.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jot down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. List your questions from most important to least important. For varicocele, some questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or more permanent?&lt;/li&gt;
+	&lt;li&gt;Will this condition affect my fertility?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on sexual activity that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared, don&apos;t hesitate to ask questions that arise during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Take an over-the-counter pain reliever and wear an athletic supporter to relieve pressure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will conduct a physical exam, which may reveal a twisted, nontender mass above your testicle that may feel like what&apos;s been described as a bag of worms. If it&apos;s large enough, your doctor will be able to feel it. If you have a smaller varicocele, your doctor may ask you to stand, take a deep breath and hold it while you bear down (Valsalva maneuver). This helps your doctor detect abnormal enlargement of the veins.
+&lt;/p&gt;
+&lt;p&gt;
+If the physical exam is inconclusive, your doctor may order a scrotal ultrasound. This test, which uses high-frequency sound waves to create precise images of structures inside your body, may be used to ensure there isn&apos;t another reason for your symptoms. One such condition is a tumor that compresses the spermatic vein.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Varicocele treatment may not be necessary. However, if your varicocele causes pain, testicular atrophy or infertility, you may want to undergo varicocele repair. The purpose of surgery is to seal off the affected vein to redirect the blood flow into normal veins. However, the effect of varicocele repair on fertility is unclear.
+&lt;/p&gt;
+&lt;p&gt;
+Although varicoceles typically develop in adolescence, it&apos;s less clear whether you should have varicocele repair at that time. Indications for repairing a varicocele in adolescence include progressive testicular atrophy, pain or abnormal semen analysis results.
+&lt;/p&gt;
+&lt;p&gt;
+Varicocele repair presents relatively few risks, which may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Buildup of fluid around the testicles (hydrocele)&lt;/li&gt;
+	&lt;li&gt;Recurrence of varicoceles&lt;/li&gt;
+	&lt;li&gt;Damage to an artery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Repair methods include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Open surgery.&lt;/strong&gt; This treatment usually is done on an outpatient basis, using general anesthetic or local anesthetic. Commonly, your surgeon will approach the vein through your groin (transinguinal), but it&apos;s also possible to make an incision in your abdomen or below your groin.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Advances in varicocele repair have led to a reduction of post-surgical complications. One advance is the use of the surgical microscope, which enables the surgeon to see the treatment area better during surgery. Another is the use of Doppler ultrasound, which helps guide the procedure.
+	&lt;/p&gt;
+	&lt;p&gt;
+	You may be able to return to normal, nonstrenous activities after two days. As long as you&apos;re not uncomfortable, you may return to more strenuous activity, such as exercising, after two weeks.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Pain from this surgery generally is mild. Your doctor may prescribe pain medication for the first two days after surgery. After that, your doctor may advise you to take over-the-counter (OTC) painkillers, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) to relieve discomfort.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may advise you not to have sex for one to two weeks. You&apos;ll have to wait three or four months after surgery to get a semen analysis to determine whether the varicocele repair was successful in restoring your fertility.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopic surgery.&lt;/strong&gt; Your surgeon makes a small incision in your abdomen and passes a tiny instrument through the incision to see and to repair the varicocele. This procedure requires general anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Percutaneous embolization.&lt;/strong&gt; A radiologist inserts a tube into a vein in your groin or neck through which instruments can be passed. Viewing your enlarged veins on a monitor, the doctor releases coils or a solution that causes scarring to create a blockage in the testicular veins, which interrupts the blood flow and repairs the varicocele. This procedure is done with local anesthesia on an outpatient basis. This procedure isn&apos;t as widely used as surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a varicocele that causes you minor discomfort but doesn&apos;t affect your fertility, you might try the following for pain relief:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take over-the-counter painkillers,&lt;/strong&gt; such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear an athletic supporter&lt;/strong&gt; to relieve pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Varicocele
+	</Title>
+	<Abstract>
+		Varicocele &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this possible cause of infertility.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

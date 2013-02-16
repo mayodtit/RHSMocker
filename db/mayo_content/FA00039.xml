@@ -1,0 +1,136 @@
+<FirstAid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FirstAid.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			FirstAid
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FA00039
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/first-aid-bruise/FA00039
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-08
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid">
+					<Keyword MCVID="3162" Title="Skin problems" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3944" Title="Skin hair and nails">
+					<Keyword MCVID="3947" Title="Bruise" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			93911D82-330D-4DB6-A3C8CB33D1779E7D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bruise
+			</MetaKeyword>
+			<MetaKeyword>
+				bruises
+			</MetaKeyword>
+			<MetaKeyword>
+				bruising
+			</MetaKeyword>
+			<MetaKeyword>
+				brusing
+			</MetaKeyword>
+			<MetaKeyword>
+				bruses
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A bruise forms when a blow breaks blood vessels near your skin&apos;s surface, allowing a small amount of blood to leak into the tissues under your skin. The trapped blood appears as a black-and-blue mark.
+&lt;/p&gt;
+&lt;p&gt;
+If your skin isn&apos;t broken, you don&apos;t need a bandage, but you enhance bruise healing with these simple techniques: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Elevate the injured area.&lt;/li&gt;
+	&lt;li&gt;Apply ice or a cold pack several times a day for a day or two after the injury.&lt;/li&gt;
+	&lt;li&gt;Rest the bruised area, if possible.&lt;/li&gt;
+	&lt;li&gt;Consider acetaminophen (Tylenol, others) for pain relief, or ibuprofen (Advil, Motrin, others) for pain relief and to reduce swelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor if&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have unusually large or painful bruises &amp;mdash; particularly if your bruises seem to develop for no known reasons.&lt;/li&gt;
+	&lt;li&gt;You begin to bruise easily.&lt;/li&gt;
+	&lt;li&gt;You&apos;re experiencing abnormal bleeding elsewhere, such as from your nose or gums, or you notice blood in your eyes, stool or urine.&lt;/li&gt;
+	&lt;li&gt;You have no history of bruising, but suddenly experience bruises.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms may indicate a more serious problem, such as a blood-clotting problem or blood-related disease. Bruises accompanied by persistent pain or headache also may indicate a more serious underlying illness and require medical attention.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bruise
+	</Title>
+	<Abstract>
+		How to administer first aid for a bruise.
+	</Abstract>
+	<MobileBody>
+		&lt;p&gt;
+If your skin isn&apos;t broken, you don&apos;t need a bandage over a bruise. You can enhance bruise healing with these simple techniques: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Elevate the injured area.&lt;/li&gt;
+	&lt;li&gt;Apply ice or a cold pack several times a day for a day or two after the injury.&lt;/li&gt;
+	&lt;li&gt;Rest the bruised area, if possible.&lt;/li&gt;
+	&lt;li&gt;Consider acetaminophen (Tylenol, others) for pain relief.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor if&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have unusually large or painful bruises.&lt;/li&gt;
+	&lt;li&gt;You begin to bruise easily.&lt;/li&gt;
+	&lt;li&gt;You&apos;re experiencing abnormal bleeding elsewhere, such as from your nose or gums, or you notice blood in your eyes, stool or urine.&lt;/li&gt;
+	&lt;li&gt;You have no history of bruising, but suddenly experience bruises unrelated to recalled injuries.&lt;/li&gt;
+&lt;/ul&gt;
+	</MobileBody>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HQ00355" LinkType="Internal" ObjectID="693511F3-4A05-4A4F-AAA101D6FA26EAB2" Title="Easy bruising: Common as you age" Url="http://www.mayoclinic.com/health/easy-bruising/HQ00355" />
+	</RelatedLinksBox>
+</FirstAid>

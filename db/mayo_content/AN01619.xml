@@ -1,0 +1,114 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01619
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/weight-loss/AN01619
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-09
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1259" Title="Weight loss">
+					<Keyword MCVID="4021" Title="Diet and exercise" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7CD3EB4E-E7FF-0DBD-1A0CA768270F5259
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				calories
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Cutting calories through dietary changes seems to promote weight loss more effectively than does exercise and physical activity. But physical activity also is important in weight control. 
+&lt;/p&gt;
+&lt;p&gt;
+The key to weight loss is burning more calories than you consume. Because 3,500 calories equals about 1 pound (0.45 kilogram) of fat, you need to burn 3,500 calories more than you take in to lose 1 pound. So if you cut 500 calories from your diet each day, you&apos;d lose about 1 pound a week (500 calories x 7 days = 3,500 calories). 
+&lt;/p&gt;
+&lt;p&gt;
+For most people, it&apos;s probably too difficult to eliminate the amount of calories through exercise that you could through dieting. That&apos;s why cutting calories through dieting is generally more effective for weight loss. But doing both &amp;mdash; cutting calories and exercising &amp;mdash; can help give you the weight-loss edge. Exercise can help burn off even more calories than just dieting.
+&lt;/p&gt;
+&lt;p&gt;
+Exercise also is important because it can help you maintain your weight loss. Studies show that people who lose weight and keep it off over the long term get regular physical activity. If you lose weight by crash dieting or by drastically restricting yourself to 400 to 800 calories a day, you&apos;re more likely to regain weight quickly, often within six months after you stop dieting. Getting regular exercise also can help prevent excess weight gain in the first place.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Weight loss: Better to cut calories or exercise more?
+	</Title>
+	<Abstract>
+		Weight loss &amp;mdash; Understand how calorie restriction and exercise help you meet weight goals.
+	</Abstract>
+	<Question>
+		Which is better for weight loss &amp;mdash; cutting calories or increasing exercise?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="Article" DocID="HQ01543" LinkType="Internal" ObjectID="CC7F5299-FB76-45F6-99F3479FAE3C9385" Title="Fitness: Tips for staying motivated" Url="http://www.mayoclinic.com/health/fitness/HQ01543" />
+		<LinkItem ContentType="Article" DocID="HQ01627" LinkType="Internal" ObjectID="ADFA9F13-2B2C-46FF-AF328D2782CAF854" Title="Weight training: Improve your muscular fitness" Url="http://www.mayoclinic.com/health/weight-training/HQ01627" />
+		<LinkItem ContentType="Article" DocID="HQ01710" LinkType="Internal" ObjectID="97483C95-AD56-46CE-ADEAE6B6E90A1C15" Title="Strength training: Get stronger, leaner, healthier" Url="http://www.mayoclinic.com/health/strength-training/HQ01710" />
+		<LinkItem ContentType="Article" DocID="HQ01612" LinkType="Internal" ObjectID="81159EEB-F5A4-47A4-9DEAA5FAA077F76D" Title="Walking: Trim your waistline, improve your health" Url="http://www.mayoclinic.com/health/walking/HQ01612" />
+		<LinkItem ContentType="Article" DocID="EP00002" LinkType="Internal" ObjectID="581C52DA-A6DF-450B-9059119DF2BAA55C" Title="Aerobic exercise: Top 10 reasons to get physical" Url="http://www.mayoclinic.com/health/aerobic-exercise/EP00002" />
+		<LinkItem ContentType="Article" DocID="SM00085_D" LinkType="Internal" ObjectID="407F9221-3755-43F5-A9756F73BDE7ACFD" Title="Barriers to fitness: Overcoming common challenges" Url="http://www.mayoclinic.com/health/fitness/SM00085_D" />
+		<LinkItem ContentType="Article" DocID="SM00110" LinkType="Internal" ObjectID="21D106A8-2A5D-9994-EF64FB4F7F05E346" Title="Rev up your workout with interval training" Url="http://www.mayoclinic.com/health/interval-training/SM00110" />
+		<LinkItem ContentType="Article" DocID="HQ01217_D" LinkType="Internal" ObjectID="1D57DF72-3521-4A30-A70EAC25C8E03D63" Title="Fitting in fitness: Finding time for physical activity" Url="http://www.mayoclinic.com/health/fitness/HQ01217_D" />
+		<LinkItem ContentType="Table" DocID="SM00109" LinkType="Internal" ObjectID="E2BE73DA-2A5D-9994-EACCE469C3EED419" Title="Exercise for weight loss: Calories burned in 1 hour" Url="http://www.mayoclinic.com/health/exercise/SM00109" />
+		<LinkItem ContentType="Answer" DocID="AN01773" LinkType="Internal" ObjectID="AB70DCA0-E7FF-0DBD-14792C048DB38AD2" Title="Walking: Is it enough for weight loss?" Url="http://www.mayoclinic.com/health/walking/AN01773" />
+		<LinkItem ContentType="Answer" DocID="AN02040" LinkType="Internal" ObjectID="979FB026-C20C-1C1B-F72346BE505214FA" Title="Negative-calorie foods: Diet gimmick or weight-loss aid?" Url="http://www.mayoclinic.com/health/negative-calorie-foods/AN02040" />
+		<LinkItem ContentType="Answer" DocID="AN02100" LinkType="Internal" ObjectID="19268FC2-AB02-37DD-D26921029AA64417" Title="Can I use yoga for weight loss?" Url="http://www.mayoclinic.com/health/yoga-for-weight-loss/AN02100" />
+	</RelatedLinksBox>
+</Answer>

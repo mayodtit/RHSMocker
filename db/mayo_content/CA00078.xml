@@ -1,0 +1,204 @@
+<Article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Article.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Article
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			CA00078
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/personalized-medicine/CA00078
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="2291" Title="Medications" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			15DD2F80-E7FF-0DBD-1316BAAC79E66563
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				personalized medicine
+			</MetaKeyword>
+			<MetaKeyword>
+				pharmacogenomics
+			</MetaKeyword>
+			<MetaKeyword>
+				pharmacogenetics
+			</MetaKeyword>
+			<MetaKeyword>
+				medications
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				antidepressants
+			</MetaKeyword>
+			<MetaKeyword>
+				depression medications
+			</MetaKeyword>
+			<MetaKeyword>
+				cyp450
+			</MetaKeyword>
+			<MetaKeyword>
+				cytochrome
+			</MetaKeyword>
+			<MetaKeyword>
+				cytochrome P450
+			</MetaKeyword>
+			<MetaKeyword>
+				CYP2D6
+			</MetaKeyword>
+			<MetaKeyword>
+				mental health
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				tamoxifen
+			</MetaKeyword>
+			<MetaKeyword>
+				thiopurine methyltransferase
+			</MetaKeyword>
+			<MetaKeyword>
+				thiopurine methyltransferase test
+			</MetaKeyword>
+			<MetaKeyword>
+				UGT1A1 TA repeat genotype test
+			</MetaKeyword>
+			<MetaKeyword>
+				UGT1A1 test
+			</MetaKeyword>
+			<MetaKeyword>
+				dihydropyrimidine dehydrogenase test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Modern medications save millions of lives a year. Yet any one medication might not work for you, even if it works for other people. Or it might cause severe side effects for you but not for someone else. 
+&lt;/p&gt;
+&lt;p&gt;
+Your age, lifestyle and health all influence your response to medications. But so do your genes. Scientists are working to match specific gene variations with responses to particular medications. 
+&lt;/p&gt;
+&lt;p&gt;
+With that information, doctors can tailor treatments to individuals. That&apos;s what pharmacogenomics is all about. Part of a new field called personalized medicine, pharmacogenomics offers the promise of predicting whether a medication is likely to help or hurt you before you ever take it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Pharmacogenomics in action
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Imagine you&apos;ve had a heart attack and your doctor wants to give you medication to lower your risk of having another. Taking into account such factors as your weight, age and medical history, your doctor might prescribe a blood-thinning drug to help prevent blood clots from causing another heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Without testing, neither you nor your doctor knows exactly how you&apos;ll react to the medication. It may not work for you, or you may have serious side effects such as bleeding. You might have to try different doses &amp;mdash; or even different medications &amp;mdash; before finding a treatment that works for you. 
+&lt;/p&gt;
+&lt;p&gt;
+Pharmacogenomics speeds up that process. Before you take a single dose of medication, you can have a test to see how you&apos;re likely to respond to the medication. With that information, your doctor can tailor the dose or avoid that drug entirely and prescribe a different one. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How is pharmacogenomics used today?
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests are now available that can help predict whether people with cancer or other diseases are likely to have good responses &amp;mdash; or bad reactions &amp;mdash; to certain medications. 
+&lt;/p&gt;
+&lt;p&gt;
+One such test looks at a group of enzymes that are responsible for breaking down and eliminating more than 30 types of medications, including antidepressants, chemotherapy drugs and heart medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people, because of their genetic makeup, aren&apos;t able to break down these medications fast enough. The medications can then build up in the body and cause severe side effects. Conversely, some people break down these medications too quickly &amp;mdash; before they have a chance to work. 
+&lt;/p&gt;
+&lt;p&gt;
+Genetic testing can identify people with these genetic variations so that their doctors can make more-informed prescribing decisions, thus increasing the likelihood of treatment success and minimizing the risk of side effects. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				The future of pharmacogenomics
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although pharmacogenomics has much promise, it&apos;s still in its early stages. Millions of genetic variations exist, and identifying them could take many years. Research is under way, however, and pharmacogenomics may someday be part of routine medical care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Personalized medicine and pharmacogenomics
+	</Title>
+	<Abstract>
+		Personalized medicine means using tools, such as pharmacogenomics, to tailor treatment to you.
+	</Abstract>
+	<BenefitSummary>
+		Pharmacogenomics holds the promise that drugs might one day be tailored to your genetic makeup.
+	</BenefitSummary>
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02074" LinkType="Internal" ObjectID="DCF0D3E1-00D4-D3D6-A2BDDFE05BBEA4C2" Title="Mild depression: Are antidepressants effective?" Url="http://www.mayoclinic.com/health/mild-depression/AN02074" />
+		<LinkItem ContentType="Answer" DocID="AN01133" LinkType="Internal" ObjectID="6E39FA1F-FE8B-42DA-A77BBE5A0A8CF2EE" Title="Bioidentical hormones: Are they safer?" Url="http://www.mayoclinic.com/health/bioidentical-hormones/AN01133" />
+		<LinkItem ContentType="Answer" DocID="AN01467" LinkType="Internal" ObjectID="52A9B9F4-E7FF-0DBD-15D383AF16C11258" Title="Aspirin allergy: What are the symptoms?" Url="http://www.mayoclinic.com/health/aspirin-allergy/AN01467" />
+		<LinkItem ContentType="Answer" DocID="AN01802" LinkType="Internal" ObjectID="E64123F9-E7FF-0DBD-1247D84BB1F8E00B" Title="Antibiotics and alcohol: Should I avoid mixing them?" Url="http://www.mayoclinic.com/health/antibiotics-and-alcohol/AN01802" />
+		<LinkItem ContentType="Answer" DocID="AN00413" LinkType="Internal" ObjectID="030B3A25-E0B9-450A-BE55A9860E9889A9" Title="Grapefruit juice: Beware of dangerous medication interactions" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN00413" />
+		<LinkItem ContentType="Article" DocID="MY00815" LinkType="Internal" ObjectID="E0FA8565-E838-D404-52F31954617F14D0" Title="Medication errors: Cut your risk with these tips" Url="http://www.mayoclinic.com/health/medication-errors/MY00815" />
+		<LinkItem ContentType="Article" DocID="GA00042" LinkType="Internal" ObjectID="742D94B4-5542-4838-9BEDE54E3B724547" Title="Buying prescription drugs online: The do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/buying-prescription-drugs-online/GA00042" />
+		<LinkItem ContentType="Article" DocID="FL00075" LinkType="Internal" ObjectID="64AA7229-F0B8-4A77-9693F821552DF9D9" Title="Antibiotics: Misuse puts you and others at risk" Url="http://www.mayoclinic.com/health/antibiotics/FL00075" />
+	</RelatedLinksBox>
+</Article>

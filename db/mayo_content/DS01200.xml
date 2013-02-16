@@ -1,0 +1,283 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01200
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tongue-tie/DS01200
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-16
+		</UpdateDate>
+		<PublicationDate>
+			2012-05-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="4946" Title="Tongue-tie" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			54F3BDAF-D6C1-FE2B-D711758C89E296D6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tongue tie
+			</MetaKeyword>
+			<MetaKeyword>
+				tonguetie
+			</MetaKeyword>
+			<MetaKeyword>
+				tongue tied
+			</MetaKeyword>
+			<MetaKeyword>
+				tonguetied
+			</MetaKeyword>
+			<MetaKeyword>
+				ankyloglossia
+			</MetaKeyword>
+			<MetaKeyword>
+				attached frenulum
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tongue-tie (ankyloglossia) is a condition that restricts the tongue&apos;s range of motion.
+&lt;/p&gt;
+&lt;p&gt;
+With tongue-tie, an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. A person who has tongue-tie might have difficulty sticking out his or her tongue. Tongue-tie can also affect the way a child eats, speaks and swallows, as well as interfere with breast-feeding.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes the lingual frenulum loosens over time and tongue-tie resolves on its own. In other cases, tongue-tie persists without causing problems.
+&lt;/p&gt;
+&lt;p&gt;
+If necessary, tongue-tie can be treated with a simple surgical procedure called a frenotomy. If additional repair is needed or the lingual frenulum is too thick for frenotomy, a more extensive procedure known as frenuloplasty might be an option.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of tongue-tie and release of lingual frenulum 
+" Caption="Tongue-tie (ankyloglossia) is a condition in which an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. If necessary, tongue-tie can be treated with a surgical cut to release the frenulum (frenotomy). If additional repair is needed or the lingual frenulum is too thick for frenotomy, a more extensive procedure known as frenuloplasty might be an option.
+" Height="60" Title="Tongue-tie" URI="/images/image_popup/thumbs/mcdc7_tongue_tiethu.jpg" Width="60" />
+				<Image Alt="Image of tongue-tie and release of lingual frenulum 
+" Caption="Tongue-tie (ankyloglossia) is a condition in which an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. If necessary, tongue-tie can be treated with a surgical cut to release the frenulum (frenotomy). If additional repair is needed or the lingual frenulum is too thick for frenotomy, a more extensive procedure known as frenuloplasty might be an option.
+" Height="265" Title="Tongue-tie" URI="/images/image_popup/mcdc7_tongue_tie.jpg" Width="400" />
+				<HTML>
+					Tongue-tie (ankyloglossia) is a condition in which an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. If necessary, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of tongue-tie include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty lifting the tongue to the upper teeth or moving the tongue from side to side&lt;/li&gt;
+	&lt;li&gt;Trouble sticking out the tongue past the lower front teeth&lt;/li&gt;
+	&lt;li&gt;A tongue that appears notched or heart shaped when stuck out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If your baby is having trouble breast-feeding, talk to your baby&apos;s doctor or a lactation consultant.
+&lt;/p&gt;
+&lt;p&gt;
+Similarly, consult the doctor if your older child complains of problems with his or her tongue &amp;mdash; such as trouble reaching the back teeth &amp;mdash; or you&apos;re bothered by your own symptoms of tongue-tie.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Typically, the lingual frenulum separates before birth &amp;mdash; allowing the tongue free range of motion. With tongue-tie, the lingual frenulum remains attached to the bottom of the tongue. Why this happens is largely unknown, although some cases of tongue-tie have been associated with certain genetic factors.
+&lt;/p&gt;
+&lt;p&gt;
+When tongue-tie is present, it&apos;s apparent at birth.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although tongue-tie can affect anyone, it&apos;s more common in boys than girls. Tongue-tie sometimes runs in families.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tongue-tie can affect a baby&apos;s oral development, as well as the way he or she eats, speaks and swallows.
+&lt;/p&gt;
+&lt;p&gt;
+For example, tongue-tie can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breast-feeding problems.&lt;/strong&gt; Breast-feeding requires a baby to keep his or her tongue over the lower gum while sucking. If a baby isn&apos;t able to move or keep his or her tongue in the right position, he or she might chew instead of suck on the nipple. This can cause potentially significant nipple pain and interfere with a baby&apos;s ability to receive breast milk. Ultimately, poor breast-feeding can lead to inadequate nutrition and failure to thrive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech difficulties.&lt;/strong&gt; Tongue-tie can interfere with the ability to make certain sounds &amp;mdash; such as &quot;t,&quot; &quot;d,&quot; &quot;z,&quot; &quot;s,&quot; &quot;th&quot; and &quot;l.&quot; It can be especially challenging to roll an &quot;r.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor oral hygiene.&lt;/strong&gt; For an older child or adult, tongue-tie can complicate oral hygiene &amp;mdash; making it difficult to sweep food debris from the teeth. This can contribute to tooth decay and inflammation of the gums (gingivitis). Tongue-tie can also lead to the formation of a gap or space between the two bottom front teeth (lower central incisors).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Challenges with other oral activities.&lt;/strong&gt; Tongue-tie can interfere with activities such as licking an ice cream cone, licking the lips, kissing or playing a wind instrument.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Prepare a list of questions to help you make the most of your time with the doctor. For tongue-tie, you might ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How severe is the tongue-tie?&lt;/li&gt;
+	&lt;li&gt;Is treatment needed?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options?&lt;/li&gt;
+	&lt;li&gt;Should I consider surgical correction?&lt;/li&gt;
+	&lt;li&gt;What&apos;s involved in surgical correction?&lt;/li&gt;
+	&lt;li&gt;Is anesthesia necessary?&lt;/li&gt;
+	&lt;li&gt;Will surgical correction improve my ability to breast-feed?&lt;/li&gt;
+	&lt;li&gt;What are the risks of surgical correction?&lt;/li&gt;
+	&lt;li&gt;Can the procedure be done in the office or hospital nursery?&lt;/li&gt;
+	&lt;li&gt;Do I need to consult an ear, nose and throat doctor or other specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+The doctor is likely to ask you a number of questions. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If your infant has tongue-tie, are you having trouble breast-feeding him or her?&lt;/li&gt;
+	&lt;li&gt;If your older child has tongue-tie, is he or she having trouble making certain sounds or taking care of his or her teeth? Is a gap developing between your child&apos;s two bottom front teeth?&lt;/li&gt;
+	&lt;li&gt;If you have tongue-tie, are you concerned about activities you&apos;re not able to do because of limited tongue movement?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tongue-tie is typically diagnosed during a physical exam. For infants, the doctor might use a screening tool to score various aspects of the tongue&apos;s appearance and ability to move.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for tongue-tie is controversial. Some doctors and lactation consultants recommend correcting it right away &amp;mdash; even before a newborn is discharged from the hospital. Others prefer to take a wait-and-see approach.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes the lingual frenulum loosens over time and tongue-tie resolves on its own. In other cases, tongue-tie persists without causing problems.
+&lt;/p&gt;
+&lt;p&gt;
+If tongue-tie interferes with breast-feeding, it can be treated with a simple surgical procedure called a frenotomy. For older children or adults experiencing difficulties with tongue-tie, a more extensive procedure known as a frenuloplasty might be recommended.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical treatment for infants&lt;/strong&gt;&lt;br /&gt;
+Frenotomy alters the way a baby latches on to the breast. This helps promote successful breast-feeding.
+&lt;/p&gt;
+&lt;p&gt;
+Frenotomy can be done with or without anesthesia in the hospital nursery or doctor&apos;s office.
+&lt;/p&gt;
+&lt;p&gt;
+During the procedure, the baby will be swaddled or otherwise restrained on an exam surface. An assistant will hold the baby&apos;s head, and the doctor will examine the lingual frenulum and then use sterile scissors to snip the frenulum free. The procedure is quick, and discomfort is minimal since there are few nerve endings or blood vessels in the lingual frenulum.
+&lt;/p&gt;
+&lt;p&gt;
+If any bleeding is present, it&apos;s likely to be only a drop or two of blood. After the procedure, the baby can breast-feed immediately.
+&lt;/p&gt;
+&lt;p&gt;
+Complications of frenotomy are rare &amp;mdash; but could include bleeding, infection, or damage to the tongue or salivary glands. It&apos;s also possible for the frenulum to reattach to the base of the tongue.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical treatment for older children or adults&lt;/strong&gt;&lt;br /&gt;
+If additional repair is needed or the lingual frenulum is too thick for frenotomy, a more extensive procedure known as frenuloplasty might be an option.
+&lt;/p&gt;
+&lt;p&gt;
+Frenuloplasty is done under general anesthesia with surgical tools. After the frenulum is released, the wound is usually closed with sutures that absorb on their own as the tongue heals.
+&lt;/p&gt;
+&lt;p&gt;
+Complications of frenuloplasty are similar to frenotomy &amp;mdash; bleeding, infection, or damage to the tongue or salivary glands. Scarring is possible due to the more extensive nature of the procedure, as are reactions to the anesthesia.
+&lt;/p&gt;
+&lt;p&gt;
+After frenuloplasty, tongue exercises might be recommended to enhance tongue movement and reduce the potential for scarring.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of tongue-tie and release of lingual frenulum 
+" Caption="Tongue-tie (ankyloglossia) is a condition in which an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. If necessary, tongue-tie can be treated with a surgical cut to release the frenulum (frenotomy). If additional repair is needed or the lingual frenulum is too thick for frenotomy, a more extensive procedure known as frenuloplasty might be an option.
+" Height="60" Title="Tongue-tie" URI="/images/image_popup/thumbs/mcdc7_tongue_tiethu.jpg" Width="60" />
+				<Image Alt="Image of tongue-tie and release of lingual frenulum 
+" Caption="Tongue-tie (ankyloglossia) is a condition in which an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. If necessary, tongue-tie can be treated with a surgical cut to release the frenulum (frenotomy). If additional repair is needed or the lingual frenulum is too thick for frenotomy, a more extensive procedure known as frenuloplasty might be an option.
+" Height="265" Title="Tongue-tie" URI="/images/image_popup/mcdc7_tongue_tie.jpg" Width="400" />
+				<HTML>
+					Tongue-tie (ankyloglossia) is a condition in which an unusually short, thick or tight band of tissue (lingual frenulum) tethers the bottom of the tongue&apos;s tip to the floor of the mouth. If necessary, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Tongue-tie (ankyloglossia)
+	</Title>
+	<Abstract>
+		Tongue-tie &amp;mdash; Comprehensive overview covers symptoms and treatment options for an attached frenulum.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01940" LinkType="Internal" ObjectID="9F0872C0-E7FF-0DBD-1335A7E2A0606F7F" Title="Toddler speech development: Are 2-year-olds understandable?" Url="http://www.mayoclinic.com/health/toddler-speech-development/AN01940" />
+		<LinkItem ContentType="Article" DocID="PR00057" LinkType="Internal" ObjectID="CFBE6FC7-A9F2-4DD7-AD1EA9287BD29639" Title="Feeding your newborn: Tips for new parents" Url="http://www.mayoclinic.com/health/healthy-baby/PR00057" />
+	</RelatedLinksBox>
+</Disease>

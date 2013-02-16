@@ -1,0 +1,74 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00098
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00098
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2796" Title="Viral skin infection">
+							<Keyword MCVID="3001" Title="Common warts" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9B5FB03C-E7FF-0DBD-12B3A2A049882706
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				common warts
+			</MetaKeyword>
+			<MetaKeyword>
+				warts
+			</MetaKeyword>
+			<MetaKeyword>
+				wart
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Stop warts from spreading
+	</Title>
+	<Body>
+		&lt;p&gt;If you have warts, you can spread the virus to other places on your own body. Here&apos;s how to stop the spread: 1. Don&apos;t brush, clip, comb or shave areas with warts. 2. Don&apos;t use the same file or nail clipper on warts as you use on healthy nails. 3. Don&apos;t pick at warts. If you can&apos;t keep your hands off, cover your warts with an adhesive bandage. 4. Wash your hands carefully after touching your warts.&lt;/p&gt;
+	</Body>
+</HealthTip>

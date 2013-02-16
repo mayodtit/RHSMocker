@@ -1,0 +1,279 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00541
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coronary-angiogram/MY00541
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-17
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3090" Title="Coronary angiography" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			195133F5-B002-FC90-364C46B34EBBF4FA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				angiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary angiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				angiography
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary angiography
+			</MetaKeyword>
+			<MetaKeyword>
+				heart
+			</MetaKeyword>
+			<MetaKeyword>
+				catheterization
+			</MetaKeyword>
+			<MetaKeyword>
+				cath lab
+			</MetaKeyword>
+			<MetaKeyword>
+				cath
+			</MetaKeyword>
+			<MetaKeyword>
+				heart catheter
+			</MetaKeyword>
+			<MetaKeyword>
+				heart tests
+			</MetaKeyword>
+			<MetaKeyword>
+				heart procedures
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A coronary angiogram is a procedure that uses X-ray imaging to see your heart&apos;s blood vessels. Coronary angiograms are part of a general group of procedures known as cardiac catheterization.
+&lt;/p&gt;
+&lt;p&gt;
+Heart catheterization procedures can both diagnose and treat heart and blood vessel conditions. A coronary angiogram, which can help diagnose heart conditions, is the most common type of heart catheter procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+During a coronary angiogram, a type of dye that&apos;s visible by X-ray machine is injected into the blood vessels of your heart. The X-ray machine rapidly takes a series of images (angiograms), offering a detailed look at the inside of your blood vessels. If necessary, your doctor can perform procedures such as angioplasty during your coronary angiogram. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend that you have a coronary angiogram if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Symptoms of coronary artery disease, such as chest pain (angina)&lt;/li&gt;
+	&lt;li&gt;Pain in your chest, jaw, neck or arm that can&apos;t be explained by other tests&lt;/li&gt;
+	&lt;li&gt;New or increasing chest pain (unstable angina)&lt;/li&gt;
+	&lt;li&gt;A heart defect you were born with (congenital heart disease)&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Other blood vessel problems or a chest injury&lt;/li&gt;
+	&lt;li&gt;A heart valve problem that requires surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also need an angiogram if you&apos;re going to have surgery unrelated to your heart, but you&apos;re at high risk of having a heart problem during that surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Because there&apos;s a small risk of complications, angiograms are usually done after noninvasive heart tests have been performed, such as an electrocardiogram, an echocardiogram or a stress test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with most procedures done on your heart and blood vessels, coronary angiogram has some risks. Major complications are rare, though. Potential risks and complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Injury to the catheterized artery&lt;/li&gt;
+	&lt;li&gt;Irregular heart rhythms (arrhythmias)&lt;/li&gt;
+	&lt;li&gt;Allergic reactions to the dye or medications used during the procedure&lt;/li&gt;
+	&lt;li&gt;A tear in your heart or artery&lt;/li&gt;
+	&lt;li&gt;Kidney damage&lt;/li&gt;
+	&lt;li&gt;Excessive bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Radiation exposure from the X-rays&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, coronary angiograms are performed on an emergency basis. More commonly, though, they&apos;re scheduled in advance, giving you time to prepare. 
+&lt;/p&gt;
+&lt;p&gt;
+Angiograms are performed in the catheterization (cath) lab of a hospital. Usually you go to the hospital the morning of the procedure. Your health care team will give you specific instructions and talk to you about any medications you take. General guidelines include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t eat or drink anything after midnight the day before your angiogram. Angiograms are often scheduled during the morning hours.&lt;/li&gt;
+	&lt;li&gt;Take all your medications to the hospital with you &amp;mdash; in their original bottles. Ask your doctor about whether or not to take your usual morning medications.&lt;/li&gt;
+	&lt;li&gt;If you have diabetes, ask your doctor if you should take insulin or other oral medications before your angiogram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before your angiogram procedure starts, your health care team should review your medical history, including allergies and medications you take. The team may perform a physical exam and check your vital signs &amp;mdash; blood pressure and pulse. You empty your bladder and change into a hospital gown. You may have to remove contact lenses, eyeglasses, jewelry and hairpins. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+For the procedure, you lie on your back on an X-ray table. Because the table may be tilted during the procedure, safety straps may be fastened across your chest and legs. X-ray cameras may move over and around your head and chest to take pictures from many angles. 
+&lt;/p&gt;
+&lt;p&gt;
+An intravenous (IV) line is inserted into a vein in your arm. You may be given a sedative through the IV to help you relax, as well as other medications and fluids. You&apos;ll be awake during the procedure so that you can follow instructions. Throughout the procedure you may be asked to take deep breaths, hold your breath, cough or place your arms in various positions. 
+&lt;/p&gt;
+&lt;p&gt;
+Electrodes on your chest monitor your heart throughout the procedure. A blood pressure cuff tracks your blood pressure and another device, a pulse oximeter, measures the amount of oxygen in your blood. You may receive medication (anticoagulants) to help prevent your blood from clotting on the catheter and in your coronary arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+A small amount of hair may be shaved from your groin or arm where the catheter is to be inserted. The area is washed and disinfected and then numbed with an injection of local anesthetic. A small incision is made at the entry site and a short plastic tube (sheath) is inserted into your artery. The catheter is inserted through the sheath into your blood vessel and carefully threaded to your heart or coronary arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+Threading the catheter shouldn&apos;t cause pain, and you won&apos;t feel it moving through your body. Tell your health care team if you have any discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+Dye (contrast material) is injected through the catheter. When this happens, you may have a brief sensation of flushing or warmth. Don&apos;t be alarmed if you feel your heart skipping beats &amp;mdash; that&apos;s a frequent occurrence during angiograms. But again, tell your health care team if you feel pain or discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+The dye is easy to see on X-ray images, and as it moves through your blood vessels, your doctor can observe its flow and identify any blockages or constricted areas. Depending on what your doctor discovers during your angiogram, you may have additional catheter procedures at the same time, such as a balloon angioplasty or a stent placement to open up a narrowed artery. 
+&lt;/p&gt;
+&lt;p&gt;
+Having an angiogram takes about one hour, although it may be longer, especially if combined with other heart catheter procedures. Preparation and post-procedure care can add several more hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+When the angiogram is over, the catheter is removed from your arm or groin and the incision is closed with manual pressure, a clamp or a small plug. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be taken to a recovery area for observation and monitoring. When your condition is stable, you return to your own room, where you&apos;re monitored regularly. You&apos;ll need to lie flat for several hours to avoid bleeding. During this time, pressure may be applied to the incision to prevent bleeding and promote healing. Sometimes, the plastic sheath that was first inserted into your blood vessel is left in place for several hours or even overnight if you&apos;ve had angioplasty or stent placement. If you received anticoagulants during the procedure, removing the sheath too soon could trigger heavy bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+You may be able to go home the same day, or you may have to remain in the hospital for a day or longer. Drink plenty of fluids to help flush the dye from your body. If you&apos;re feeling up to it, have something to eat. Ask your health care team when you should resume taking your medications, bathe or shower, return to work, and resume other normal activities. Avoid strenuous activities and heavy lifting for several days. Your puncture site is likely to remain tender for a while. It may be slightly bruised and have a small bump. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Call your doctor&apos;s office if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You notice bleeding, new bruising or swelling at the catheter site&lt;/li&gt;
+	&lt;li&gt;You develop increasing pain or discomfort at the catheter site&lt;/li&gt;
+	&lt;li&gt;You have signs of infection, such as redness, drainage or fever&lt;/li&gt;
+	&lt;li&gt;There&apos;s a change in temperature or color of the leg or arm that was used for the procedure&lt;/li&gt;
+	&lt;li&gt;You feel faint or weak&lt;/li&gt;
+	&lt;li&gt;You develop chest pain or shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the catheter site is actively bleeding or begins swelling, apply pressure to the site and contact emergency medical services. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing catheterization for a coronary angiogram 
+" Caption="To complete a coronary angiogram, a catheter is inserted in an artery in your groin and threaded through your blood vessels to your heart. Your doctor uses the angiogram to check for blocked or narrowed blood vessels in your heart. 
+" Height="60" Title="Coronary angiogram" URI="/images/image_popup/thumbs/hb7_cardiaccaththu.jpg" Width="60" />
+				<Image Alt="Illustration showing catheterization for a coronary angiogram 
+" Caption="To complete a coronary angiogram, a catheter is inserted in an artery in your groin and threaded through your blood vessels to your heart. Your doctor uses the angiogram to check for blocked or narrowed blood vessels in your heart. 
+" Height="400" Title="Coronary angiogram" URI="/images/image_popup/hb7_cardiaccath.jpg" Width="400" />
+				<HTML>
+					To complete a coronary angiogram, a catheter is inserted in an artery in your groin and threaded through your blood vessels to your heart. Your doctor uses the angiogram to check for blocked or ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An angiogram can show doctors what&apos;s wrong with your blood vessels. It can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Show how many of your coronary arteries are blocked or narrowed by fatty plaques (atherosclerosis)&lt;/li&gt;
+	&lt;li&gt;Pinpoint where blockages are located in your blood vessels&lt;/li&gt;
+	&lt;li&gt;Show how much blood flow is blocked through your blood vessels&lt;/li&gt;
+	&lt;li&gt;Check the results of previous coronary bypass surgery&lt;/li&gt;
+	&lt;li&gt;Check the blood flow through your heart and blood vessels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Knowing this information can help your doctor determine what treatment is best for you and how much danger your heart condition poses to your health. Based on your results, your doctor may decide, for instance, that you would benefit from having coronary angioplasty to help unblock clogged arteries. It&apos;s also possible that angioplasty or stenting could be done during your angiogram to avoid needing another procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coronary angiogram
+	</Title>
+	<Abstract>
+		Coronary angiogram &amp;mdash; Overview covers preparation, risks and results of this heart disease test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00327" LinkType="Internal" ObjectID="E25BA260-E7FF-0DBD-1581C13DDA359B5C" Title="Heart scan (coronary calcium scan)" Url="http://www.mayoclinic.com/health/heart-scan/MY00327" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+	</RelatedLinksBox>
+</TestProcedure>

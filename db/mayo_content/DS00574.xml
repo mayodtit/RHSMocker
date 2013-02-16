@@ -1,0 +1,363 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00574
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dissociative-disorders/DS00574
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2840" Title="Dissociative disorders" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5B6E3D5F-22E7-4786-AC68E4FF3EAF59B1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dissociative disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				dissociative disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				dissociative amnesia
+			</MetaKeyword>
+			<MetaKeyword>
+				dissociative identity disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				dissociative fugue
+			</MetaKeyword>
+			<MetaKeyword>
+				depersonalization disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				split personality
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+We all get lost in a good book or movie. But someone with dissociative disorder escapes reality in ways that are involuntary and unhealthy. The symptoms of dissociative disorders &amp;mdash; ranging from amnesia to alternate identities &amp;mdash; usually develop as a reaction to trauma and help keep difficult memories at bay.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for dissociative disorders may include psychotherapy, hypnosis and medication. Although treating dissociative disorders can be difficult, many people with dissociative disorders are able to learn new ways of coping and lead healthy, productive lives.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are four major dissociative disorders defined in the current edition of the Diagnostic and Statistical Manual of Mental Disorders (DMS), published by the American Psychiatric Association: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dissociative amnesia&lt;/li&gt;
+	&lt;li&gt;Dissociative identity disorder&lt;/li&gt;
+	&lt;li&gt;Dissociative fugue&lt;/li&gt;
+	&lt;li&gt;Depersonalization disorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms common to all types of dissociative disorders include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Memory loss (amnesia) of certain time periods, events and people&lt;/li&gt;
+	&lt;li&gt;Mental health problems, including depression and anxiety&lt;/li&gt;
+	&lt;li&gt;A sense of being detached from yourself (depersonalization)&lt;/li&gt;
+	&lt;li&gt;A perception of the people and things around you as distorted and unreal (derealization)&lt;/li&gt;
+	&lt;li&gt;A blurred sense of identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dissociative disorder symptoms (depending on the type of disorder) may include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dissociative amnesia.&lt;/strong&gt; The main symptom of this condition is memory loss that&apos;s more severe than normal forgetfulness and that can&apos;t be explained by a medical condition. Amnesia that comes on suddenly following a traumatic event, such as a car accident, is rare. More commonly, you simply can&apos;t recall traumatic periods, events or people in your life, especially from childhood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dissociative identity disorder.&lt;/strong&gt; This condition, formerly known as multiple personality disorder, is characterized by &quot;switching&quot; to alternate identities when you&apos;re under stress. In dissociative identity disorder, you may feel the presence of one or more other people talking or living inside your head. Each of these identities may have a unique name, personal history and characteristics, including obvious differences in voice, gender, mannerisms and even such physical qualities as the need for corrective eyewear. There also are differences in how familiar each identity is with the others. People with dissociative identity disorder typically also have dissociative amnesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dissociative fugue.&lt;/strong&gt; The main sign of this condition is creating physical distance from your real identity. For example, you may abruptly leave home or work and travel away, forgetting who you are and possibly adopting a new identity in a new location. People experiencing dissociative fugue may be easily able to blend in wherever they end up. A fugue episode may last only a few hours or, rarely, as long as many months, and then end as abruptly as it began. When it lifts, you may feel intensely out of sorts, with no recollection of what happened during the fugue or how you arrived in your current circumstances.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depersonalization disorder.&lt;/strong&gt; This disorder is characterized by a sudden sense of being outside yourself, observing your actions from a distance as though watching a movie. The size and shape of things, such as your own body or other people and things around you may seem distorted. Time may seem to slow down, and the world may seem unreal. Symptoms may last only a few moments or may come and go over many years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you or someone you love has significant, unexplained memory loss or experiences a dramatic change in behavior when under stress, talk to a doctor. A chronic sense that your identity or the world around you is blurry or unreal also may be caused by a dissociative disorder. Effective treatment is available for these conditions. Seek medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child experiences abuse or another traumatic situation, talk to a doctor as soon as possible. Early intervention and counseling may help prevent the formation of dissociative disorders.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dissociative disorders usually develop as a way to cope with trauma. The disorders most often form in children subjected to chronic physical, sexual or emotional abuse or, less frequently, a home environment that is otherwise frightening or highly unpredictable.
+&lt;/p&gt;
+&lt;p&gt;
+Personal identity is still forming during childhood, so a child is more able than is an adult to step outside of himself or herself and observe trauma as though it&apos;s happening to a different person. A child who learns to dissociate in order to endure an extended period of his or her youth may use this coping mechanism in response to stressful situations throughout life.
+&lt;/p&gt;
+&lt;p&gt;
+Though it&apos;s rare, adults may develop dissociative disorders in response to severe trauma.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who experience chronic physical, sexual or emotional abuse during childhood are at greatest risk of developing dissociative disorders. Children and adults who experience other traumatic events, including war, natural disasters, kidnapping, torture and invasive medical procedures, also may develop these conditions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with a dissociative disorder are at increased risk of complications that include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Self-mutilation&lt;/li&gt;
+	&lt;li&gt;Suicide attempts&lt;/li&gt;
+	&lt;li&gt;Sexual dysfunction, including sexual addiction or avoidance&lt;/li&gt;
+	&lt;li&gt;Alcoholism and substance abuse&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Sleep disorders, including nightmares, insomnia and sleepwalking&lt;/li&gt;
+	&lt;li&gt;Anxiety disorders&lt;/li&gt;
+	&lt;li&gt;Eating disorders&lt;/li&gt;
+	&lt;li&gt;Severe headaches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Dissociative disorders are also associated with significant difficulties in relationships and at work. People with these conditions often aren&apos;t able to cope well with emotional or professional stress, and their dissociative reactions &amp;mdash; from tuning out to disappearing &amp;mdash; may worry loved ones and cause colleagues to view them as unreliable.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with a dissociative disorder first receive medical attention for their condition in an emergency room. Symptoms of a psychiatric crisis requiring urgent medical care include traumatic flashbacks that are overwhelming or are associated with unsafe behavior, such as a suicide attempt. Hallucinations or amnesia also require emergency care. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or a loved one has less urgent symptoms of a dissociative disorder, call your family doctor or a general practitioner. As a first step, your doctor may ask you to come in for a thorough examination to rule out possible physical causes of your symptoms. However, in some cases you may be referred immediately to a psychiatrist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any recent behavior you exhibited that caused confusion or concern for you or your loved ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key personal information,&lt;/strong&gt; including any major stresses or recent life changes. Also note events from your past, including your childhood, that caused physical or emotional trauma. If there are periods of your life for which you don&apos;t have any recall, write down the time frame and anything you can remember about the period leading up to your amnesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medical information,&lt;/strong&gt; including other physical or mental health conditions with which you&apos;ve been diagnosed. Also write down the names of any medications or supplements you are taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a trusted family member or friend along,&lt;/strong&gt; if possible. It can be difficult to soak up everything your doctor says, and a loved one can help remember the information. In addition, someone who has known you for a long time may be able to talk with the doctor about periods or events that you don&apos;t remember.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor in advance so that you can make the most of your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For dissociative disorders, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;How will you determine my diagnosis?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend for this disorder?&lt;/li&gt;
+	&lt;li&gt;How much can I expect my symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my progress?&lt;/li&gt;
+	&lt;li&gt;Will I need care for this condition for the rest of my life?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you or your loved ones first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there periods of time in your life for which you don&apos;t have any recall?&lt;/li&gt;
+	&lt;li&gt;Have you ever found yourself some distance away from your home or work, and not known how you got there?&lt;/li&gt;
+	&lt;li&gt;Do you ever feel like you are outside of your body, observing yourself?&lt;/li&gt;
+	&lt;li&gt;Do you feel as though there is more than one person, and perhaps many people, living inside your head?&lt;/li&gt;
+	&lt;li&gt;What other symptoms or behaviors are causing you or your loved ones distress?&lt;/li&gt;
+	&lt;li&gt;How often do you feel anxious or depressed?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms caused problems in your career and your personal relationships?&lt;/li&gt;
+	&lt;li&gt;Have you ever thought about harming yourself or others?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol or use illegal drugs? How often?&lt;/li&gt;
+	&lt;li&gt;Do you now or have you ever served in the military?&lt;/li&gt;
+	&lt;li&gt;Have you ever been touched against your will?&lt;/li&gt;
+	&lt;li&gt;Were you physically abused or neglected as a child?&lt;/li&gt;
+	&lt;li&gt;Was anyone in your family abused during your childhood?&lt;/li&gt;
+	&lt;li&gt;Are you currently being treated for any other medical conditions, including mental illness?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If you have fantasies about hurting yourself or someone else, go to an emergency room or call 911 or your local emergency number immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors diagnose dissociative disorders based on a review of your symptoms and your personal history. As part of your evaluation, your doctor may perform tests to rule out physical conditions &amp;mdash; including head injuries, certain brain diseases, sleep deprivation and intoxication &amp;mdash; that can cause symptoms such as memory loss and a sense of unreality. If your doctor rules out physical causes, he or she will likely refer you to a mental health specialist for an in-depth interview. 
+&lt;/p&gt;
+&lt;p&gt;
+To help diagnose dissociative identity disorder, some doctors use medication or hypnosis. These may help your doctor identify alternate personalities or may help you describe repressed memories that played a role in the development of dissociative patterns. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with a dissociative identity disorder, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DMS), published by the American Psychiatric Association. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for dissociative amnesia to be diagnosed include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have had one or more episodes in which you couldn&apos;t remember important personal information, usually something traumatic or stressful. This memory loss is too extensive to be explained by ordinary forgetfulness.&lt;/li&gt;
+	&lt;li&gt;Your episodes of memory loss do not occur only during the course of another mental health disorder, such as dissociative identity disorder, dissociative fugue or post-traumatic stress disorder. Your symptoms are also not explained by the direct effects of a substance, such as a prescription medication or recreational drug, or by a neurological or other general medical condition, such as amnesia related to head trauma.&lt;/li&gt;
+	&lt;li&gt;Your symptoms cause you significant stress or problems in your relationships, work or other important areas of your life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for dissociative identity disorder to be diagnosed include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You display the presence of two or more distinct identities or personalities, each with its own relatively stable pattern of perceiving, relating to, and thinking about yourself and the world.&lt;/li&gt;
+	&lt;li&gt;At least two of these identities or personality states repeatedly take control of your behavior.&lt;/li&gt;
+	&lt;li&gt;You can&apos;t recall important personal information that is too extensive to be explained by ordinary forgetfulness.&lt;/li&gt;
+	&lt;li&gt;Your symptoms are not due to the direct effects of a substance, such as alcohol, or a general medical condition, such as complex partial seizures. In children, symptoms are not due to imaginary playmates or other fantasy play.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for dissociative fugue to be diagnosed include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You experience sudden, unexpected travel away from your home or place of work, and can&apos;t remember your past.&lt;/li&gt;
+	&lt;li&gt;During fugue episodes, you are confused about your personal identity or you assume a partially or completely new identity.&lt;/li&gt;
+	&lt;li&gt;Your episodes of fugue do not occur only during the course of dissociative identity disorder. Your symptoms also are not explained by the direct effects of a substance, such as a prescription medication or recreational drug, or a general medical condition, such as temporal lobe epilepsy.&lt;/li&gt;
+	&lt;li&gt;Your symptoms cause you significant stress or problems in your relationships, work or other important areas of your life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for depersonalization disorder to be diagnosed include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have persistent or recurrent experiences of feeling detached from yourself, as if you are an outside observer of your mental processes or your body &amp;mdash; you feel as if you are in a dream.&lt;/li&gt;
+	&lt;li&gt;While you are experiencing an episode of depersonalization, you are aware that your feeling of being outside yourself isn&apos;t reality.&lt;/li&gt;
+	&lt;li&gt;Your symptoms cause you significant stress or problems in your relationships, work or other important areas of your life.&lt;/li&gt;
+	&lt;li&gt;Your depersonalization symptoms do not occur only during the course of another mental disorder, such as schizophrenia, panic disorder or acute stress disorder, or another dissociative disorder. Your symptoms also are not explained by the direct effects of a substance, such as a prescription medication or recreational drug, or a general medical condition, such as temporal lobe epilepsy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psychotherapy is the primary treatment for dissociative disorders. This form of therapy, also known as talk therapy, counseling or psychosocial therapy, involves talking about your disorder and related issues with a mental health provider. Your therapist will work to help you understand the cause of your condition and to form new ways of coping with stressful circumstances. 
+&lt;/p&gt;
+&lt;p&gt;
+Psychotherapy for dissociative disorders often involves techniques, such as hypnosis, that help you remember and work through the trauma that triggered your dissociative symptoms. The course of your psychotherapy may be long and painful, but this treatment approach often is very effective in treating dissociative disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Other dissociative disorder treatment may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Creative art therapy.&lt;/strong&gt; This type of therapy uses the creative process to help people who might have difficulty expressing their thoughts and feelings. Creative arts can help you increase self-awareness, cope with symptoms and traumatic experiences, and foster positive changes. Creative art therapy includes art, dance and movement, drama, music and poetry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive therapy.&lt;/strong&gt; This type of talk therapy helps you identify unhealthy, negative beliefs and behaviors and replace them with healthy, positive ones. It&apos;s based on the idea that your own thoughts &amp;mdash; not other people or situations &amp;mdash; determine how you behave. Even if an unwanted situation has not changed, you can change the way you think and behave in a positive way.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Although there are no medications that specifically treat dissociative disorders, your doctor may prescribe antidepressants, anti-anxiety medications or tranquilizers to help control the mental health symptoms associated with dissociative disorders.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your therapist may recommend using hypnosis, which is sometimes referred to as hypnotherapy or hypnotic suggestion, as part of your treatment for a dissociative disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Hypnosis creates a state of deep relaxation and quiets the mind. When you&apos;re hypnotized, you can concentrate intensely on a specific thought, memory, feeling or sensation while blocking out distractions. Because you&apos;re more open than usual to suggestions while under hypnosis, there is some controversy that therapists may unintentionally &quot;implant&quot; false memories by suggestion. However, when conducted under the care of a trained therapist, hypnosis is generally safe as a complementary treatment method.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children who are physically, emotionally or sexually abused are at increased risk of developing mental health disorders, including dissociative disorders. If stress or other personal issues are affecting the way you treat your child, seek help. Talk to a trusted person such as a friend, your doctor or a leader in your faith community. Ask for his or her help locating resources such as parenting support groups and family therapists. Many churches and community education programs offer parenting classes that also may help you learn a healthier parenting style. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has been abused or has experienced another traumatic event, see a doctor immediately. Your doctor can refer you to mental health providers who can help your child recover and adopt healthy coping skills.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dissociative disorders
+	</Title>
+	<Abstract>
+		Dissociative disorders &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of these mental health conditions.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,167 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02007
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/normal-weight-obesity/AN02007
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-05
+		</UpdateDate>
+		<PublicationDate>
+			2009-08-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1672" Title="Obesity" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8D083B5C-A8A9-A497-97B837A7B6548EEB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				normal weight obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				overweight
+			</MetaKeyword>
+			<MetaKeyword>
+				fat
+			</MetaKeyword>
+			<MetaKeyword>
+				bmi
+			</MetaKeyword>
+			<MetaKeyword>
+				body mass index
+			</MetaKeyword>
+			<MetaKeyword>
+				thin
+			</MetaKeyword>
+			<MetaKeyword>
+				normal weight obese
+			</MetaKeyword>
+			<MetaKeyword>
+				BMI
+			</MetaKeyword>
+			<MetaKeyword>
+				body fat
+			</MetaKeyword>
+			<MetaKeyword>
+				thin but fat
+			</MetaKeyword>
+			<MetaKeyword>
+				metabolically obese
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes. You can have a normal weight, but if your body fat percentage is high enough, you may be considered obese &amp;mdash; a situation known as normal weight obesity. Normal weight obesity means you may have the same serious health risks as does someone who&apos;s obese. Obesity is defined as having an excessive amount of body fat &amp;mdash; not as weighing too much.
+&lt;/p&gt;
+&lt;p&gt;
+A formula called body mass index (BMI) is used to determine whether you&apos;re at a healthy weight for your height. But BMI doesn&apos;t tell the whole story because it doesn&apos;t measure body fat. So you may have a normal BMI while your body fat percentage is high enough to increase health risks.
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are still trying to determine what percentage of body fat counts as obesity when your weight is normal, and whether guidelines should be different depending on your age and sex.
+&lt;/p&gt;
+&lt;p&gt;
+Like obesity, normal weight obesity may increase your risk of serious health problems, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Abnormal cholesterol level, in which your triglyceride level is high, but your HDL (&quot;good&quot;) cholesterol level is low&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Metabolic syndrome&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re concerned about your body fat percentage, talk to your doctor. Your doctor may want to measure your body fat and recommend additional tests to see if you&apos;re at risk of obesity-related conditions. Your doctor may also encourage you to start eating healthier and increase your activity level.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Normal weight obesity: A hidden health risk?
+	</Title>
+	<Abstract>
+		Normal weight obesity &amp;mdash; How can you be obese when your weight is normal?
+	</Abstract>
+	<Question>
+		Can you be considered obese if you have a normal body weight?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01715" LinkType="Internal" ObjectID="FA6BEB6E-E7FF-0DBD-146013DA12A2C9C6" Title="Phentermine for weight loss: Can it help?" Url="http://www.mayoclinic.com/health/phentermine/AN01715" />
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Calculator" DocID="SM00083" LinkType="Internal" ObjectID="A2A6A209-EAAF-4B18-AEF17503DC91698C" Title="Tool: Target heart rate calculator" Url="http://www.mayoclinic.com/health/target-heart-rate/SM00083" />
+		<LinkItem ContentType="Answer" DocID="AN02178" LinkType="Internal" ObjectID="A1139DD7-CDCB-DC39-3CA5A55B5497F085" Title="Sleep and weight gain: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/sleep-and-weight-gain/AN02178" />
+		<LinkItem ContentType="Answer" DocID="AN02189" LinkType="Internal" ObjectID="9BCE7986-0EA7-D614-E957237B3A9B2751" Title="How is brown fat different from other fat?" Url="http://www.mayoclinic.com/health/brown-fat/AN02189" />
+		<LinkItem ContentType="Answer" DocID="AN02193" LinkType="Internal" ObjectID="97CB9112-EF63-303D-A8892F7C9A02FEB4" Title="Does prickly pear cactus have health benefits?" Url="http://www.mayoclinic.com/health/prickly-pear-cactus/AN02193" />
+		<LinkItem ContentType="Answer" DocID="AN01621" LinkType="Internal" ObjectID="7CD4E80A-E7FF-0DBD-1C2A5D79F07E0BE1" Title="Fast weight loss: What&apos;s wrong with it?" Url="http://www.mayoclinic.com/health/fast-weight-loss/AN01621" />
+		<LinkItem ContentType="Answer" DocID="AN01619" LinkType="Internal" ObjectID="7CD3EB4E-E7FF-0DBD-1A0CA768270F5259" Title="Weight loss: Better to cut calories or exercise more?" Url="http://www.mayoclinic.com/health/weight-loss/AN01619" />
+		<LinkItem ContentType="Answer" DocID="AN01617" LinkType="Internal" ObjectID="7CD2DFFB-E7FF-0DBD-153B865BEBB7058B" Title="Weight-loss hypnosis: Does it work?" Url="http://www.mayoclinic.com/health/weight-loss-hypnosis/AN01617" />
+		<LinkItem ContentType="Answer" DocID="AN02187" LinkType="Internal" ObjectID="77CE84E7-09D1-7F6C-62A5E6E07D5009FF" Title="Low milk supply: What causes it?" Url="http://www.mayoclinic.com/health/low-milk-supply/AN02187" />
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="Answer" DocID="AN01119" LinkType="Internal" ObjectID="607F7A98-A79D-4A5F-ABED87EE6910E475" Title="Breakfast: How does it help weight control?" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN01119" />
+		<LinkItem ContentType="SlideShow" DocID="MY01153" LinkType="Internal" ObjectID="2309EF97-9AD9-2973-5604FE777654FB88" Title="Slide show: Low-calorie foods for weight control" Url="http://www.mayoclinic.com/health/low-calorie-foods/MY01153" />
+		<LinkItem ContentType="Answer" DocID="AN01378" LinkType="Internal" ObjectID="1C24032F-E7FF-0DBD-13439B7B6010D45C" Title="Gastric bypass surgery: What happens if I regain the weight?" Url="http://www.mayoclinic.com/health/gastric-bypass-surgery/AN01378" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00825" LinkType="Internal" ObjectID="063B6ABC-F842-575D-3C0FD980BF2360EA" Title="Gastric bypass surgery" Url="http://www.mayoclinic.com/health/gastric-bypass/MY00825" />
+		<LinkItem ContentType="Article" DocID="WT00030" LinkType="Internal" ObjectID="D8A48C83-E7FF-0DBD-192F9C010830E30B" Title="Alli weight-loss pill: Does it work?" Url="http://www.mayoclinic.com/health/alli/WT00030" />
+		<LinkItem ContentType="Article" DocID="MY02089" LinkType="Internal" ObjectID="CC778A22-B2D6-6E96-E37A7C52DBF5B7AD" Title="Healthy chicken recipes" Url="http://www.mayoclinic.com/health/healthy-chicken-recipes/MY02089" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="MY00731" LinkType="Internal" ObjectID="888784EA-0CA6-7CD9-0882E8A19A6B8E6D" Title="Couponing and other frugal food shopping tips" Url="http://www.mayoclinic.com/health/frugal-food/MY00731" />
+		<LinkItem ContentType="Article" DocID="WT00031" LinkType="Internal" ObjectID="84A6FD3C-E7FF-0DBD-13771DE6F11A352E" Title="Gastric bypass surgery: Who is it for?" Url="http://www.mayoclinic.com/health/gastric-bypass-surgery/WT00031" />
+		<LinkItem ContentType="Article" DocID="MY01594" LinkType="Internal" ObjectID="5B9DDB57-07FE-9503-B6566FF90ACCE59C" Title="Boiling down the dietary guidelines" Url="http://www.mayoclinic.com/health/dietary-guidelines/MY01594" />
+		<LinkItem ContentType="Article" DocID="MY00845" LinkType="Internal" ObjectID="4D35344B-DB3F-BFEF-E798D79A7289158D" Title="Added sugar: Don&apos;t get sabotaged by sweeteners" Url="http://www.mayoclinic.com/health/added-sugar/MY00845" />
+		<LinkItem ContentType="Calculator" DocID="NU00597" LinkType="Internal" ObjectID="D961CE75-9A59-42F0-B248EFA4B67765DB" Title="BMI calculator" Url="http://www.mayoclinic.com/health/bmi-calculator/NU00597" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Disease" DocID="DS00470" LinkType="Internal" ObjectID="375268B4-E673-4ADA-908E8B7EE2E4026A" Title="Cushing&apos;s syndrome" Url="http://www.mayoclinic.com/health/cushings-syndrome/DS00470" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+	</RelatedLinksBox>
+</Answer>

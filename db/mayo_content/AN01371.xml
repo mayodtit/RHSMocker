@@ -1,0 +1,165 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01371
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coronary-artery-spasm/AN01371
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-05
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease">
+						<Keyword MCVID="2267" Title="Coronary artery disease">
+							<Keyword MCVID="4049" Title="Angina" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CDD15CE4-E7FF-0DBD-141AB3025ECD1FDD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				coronary artery spasm
+			</MetaKeyword>
+			<MetaKeyword>
+				heart attack
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary spasm
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A coronary artery spasm is a temporary tightening (constriction) of the muscles in the wall of one of the arteries that supplies blood flow to your heart muscle. This can narrow and decrease or even completely prevent blood flow to part of the heart muscle. 
+&lt;/p&gt;
+&lt;p&gt;
+If the spasm lasts long enough, it can lead to chest pain (angina) and even a heart attack (myocardial infarction). These spasms are sometimes referred to as Prinzmetal&apos;s angina or variant angina. Unlike typical angina, which usually occurs with physical activity, coronary artery spasms often occur at rest. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary artery spasms are more common in people with risk factors for heart disease, such as high cholesterol and high blood pressure, but the spasms can happen in people who have no risk factors, too. Coronary artery spasms can also occur in people who have conditions that affect their immune systems, such as lupus. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary artery spasms may be triggered by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tobacco use&lt;/li&gt;
+	&lt;li&gt;Exposure to cold&lt;/li&gt;
+	&lt;li&gt;Extreme emotional stress&lt;/li&gt;
+	&lt;li&gt;Use of illegal stimulant drugs, such as amphetamines and cocaine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment of coronary artery spasms may include medications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nitrates, which can relieve chest pain&lt;/li&gt;
+	&lt;li&gt;Calcium channel blockers, which can help reduce muscle tightening in your chest&lt;/li&gt;
+	&lt;li&gt;L-arginine, a supplement that can help prevent spasms&lt;/li&gt;
+	&lt;li&gt;Statin medications, which not only lower cholesterol but have other beneficial effects on your heart arteries to prevent spasms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can reduce your risk of coronary artery spasms by quitting smoking and controlling high cholesterol and high blood pressure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing coronary artery spasm
+" Caption="A coronary artery spasm occurs when the muscles in one of your heart&apos;s arteries suddenly tighten up, restricting blood flow. This can cause chest pain, or possibly, a heart attack. 
+" Height="60" Title="Coronary artery spasm" URI="/images/image_popup/thumbs/mcdc7_coronaryspasmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing coronary artery spasm
+" Caption="A coronary artery spasm occurs when the muscles in one of your heart&apos;s arteries suddenly tighten up, restricting blood flow. This can cause chest pain, or possibly, a heart attack. 
+" Height="375" Title="Coronary artery spasm" URI="/images/image_popup/mcdc7_coronaryspasm.jpg" Width="400" />
+				<HTML>
+					A coronary artery spasm occurs when the muscles in one of your heart&apos;s arteries suddenly tighten up, restricting blood flow. This can cause chest pain, or possibly, a heart attack. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Coronary artery spasm: Cause for concern?
+	</Title>
+	<Abstract>
+		Coronary artery spasm is a sudden, temporary tightening of the muscles in the artery wall.
+	</Abstract>
+	<Question>
+		What is a coronary artery spasm?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01472" LinkType="Internal" ObjectID="52ABD89B-E7FF-0DBD-1417DAEB1C72968E" Title="Coronary artery disease: Angioplasty or bypass surgery?" Url="http://www.mayoclinic.com/health/coronary-artery-disease/AN01472" />
+		<LinkItem ContentType="Article" DocID="HB00091" LinkType="Internal" ObjectID="809C5571-E7FF-0DBD-150991E1095CE59D" Title="Angina treatment: Stents, drugs, lifestyle changes &amp;mdash; What&apos;s best?" Url="http://www.mayoclinic.com/health/angina-treatment/HB00091" />
+		<LinkItem ContentType="Article" DocID="HB00090" LinkType="Internal" ObjectID="371DD657-E7FF-0DBD-1735D7CA31827C52" Title="Drug-eluting stents: Do they increase heart attack risk?" Url="http://www.mayoclinic.com/health/drug-eluting-stents/HB00090" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00087" LinkType="Internal" ObjectID="A7E80DE5-E7FF-0DBD-1BA2159547DC1918" Title="Coronary bypass surgery" Url="http://www.mayoclinic.com/health/coronary-bypass-surgery/MY00087" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="Video" DocID="MM00048" LinkType="Internal" ObjectID="98A07B67-7CCA-41C5-BAFE4F4E2EA6C987" Title="Video: Coronary angioplasty" Url="http://www.mayoclinic.com/health/coronary-angioplasty/MM00048" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00994" LinkType="Internal" ObjectID="2FB32B7C-AA76-9270-67C8386DF3BCD3D1" Title="Nuclear stress test" Url="http://www.mayoclinic.com/health/nuclear-stress-test/MY00994" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00352" LinkType="Internal" ObjectID="29D3FABC-E7FF-0DBD-179ECD77A3838F48" Title="Coronary angioplasty and stents" Url="http://www.mayoclinic.com/health/angioplasty/MY00352" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00541" LinkType="Internal" ObjectID="195133F5-B002-FC90-364C46B34EBBF4FA" Title="Coronary angiogram" Url="http://www.mayoclinic.com/health/coronary-angiogram/MY00541" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Article" DocID="SR00030" LinkType="Internal" ObjectID="F7D2E95C-E7FF-0DBD-170B7DCE35CB9651" Title="Tips for coping with stress at work" Url="http://www.mayoclinic.com/health/coping-with-stress/SR00030" />
+		<LinkItem ContentType="Article" DocID="HQ00171" LinkType="Internal" ObjectID="F1FB9D13-6AA0-4980-A65137F158D7E135" Title="Fitness programs: 5 steps to getting started" Url="http://www.mayoclinic.com/health/fitness/HQ00171" />
+		<LinkItem ContentType="Article" DocID="WT00018" LinkType="Internal" ObjectID="EF8958C1-E7FF-0DBD-153A34E4DED46BA5" Title="Weight-loss goals: Set yourself up for success" Url="http://www.mayoclinic.com/health/weight-loss/WT00018" />
+		<LinkItem ContentType="Article" DocID="NU00204" LinkType="Internal" ObjectID="D56B9CBF-9BD4-4FF7-A7EC0D78F3EEFA7B" Title="Whole grains: Hearty options for a healthy diet" Url="http://www.mayoclinic.com/health/whole-grains/NU00204" />
+		<LinkItem ContentType="Article" DocID="NU00641" LinkType="Internal" ObjectID="841BB6FE-E7FF-0DBD-114C847F3AC3CC80" Title="Healthy eating: Jazz it up with these tips" Url="http://www.mayoclinic.com/health/healthy-eating/NU00641" />
+		<LinkItem ContentType="Article" DocID="SK00057" LinkType="Internal" ObjectID="51BBEF05-E7FF-0DBD-115668D65EC3E3BA" Title="Quitting smoking: 10 ways to resist tobacco cravings" Url="http://www.mayoclinic.com/health/nicotine-craving/SK00057" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Article" DocID="SM00085_D" LinkType="Internal" ObjectID="407F9221-3755-43F5-A9756F73BDE7ACFD" Title="Barriers to fitness: Overcoming common challenges" Url="http://www.mayoclinic.com/health/fitness/SM00085_D" />
+		<LinkItem ContentType="Article" DocID="SR00032" LinkType="Internal" ObjectID="15AC47CB-E7FF-0DBD-1E403F470F686D23" Title="Stress management: Re-examine your stress reactions" Url="http://www.mayoclinic.com/health/stress-management/SR00032" />
+		<LinkItem ContentType="Article" DocID="NU00266" LinkType="Internal" ObjectID="133EFC8C-293B-44C9-950E023544DB381C" Title="Weight loss: Assess your readiness to change" Url="http://www.mayoclinic.com/health/weight-loss/NU00266" />
+		<LinkItem ContentType="Article" DocID="SR00031" LinkType="Internal" ObjectID="11188EF9-E7FF-0DBD-1F000BF4D482945B" Title="Stress management: Identify your sources of stress" Url="http://www.mayoclinic.com/health/stress-management/SR00031" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00178" LinkType="Internal" ObjectID="BF6A0C4C-585D-48D0-9E5A06D9FB07644A" Title="High cholesterol" Url="http://www.mayoclinic.com/health/high-blood-cholesterol/DS00178" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+	</RelatedLinksBox>
+</Answer>

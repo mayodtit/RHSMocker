@@ -1,0 +1,412 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00447
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diabetic-retinopathy/DS00447
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-27
+		</UpdateDate>
+		<PublicationDate>
+			2002-05-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="4025" Title="Diabetic retinopathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F1FAEE7-FFC9-46BF-87BA35708C76CB97
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetic retinopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				retinopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				proliferative diabetic retinopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood sugar levels
+			</MetaKeyword>
+			<MetaKeyword>
+				blindness
+			</MetaKeyword>
+			<MetaKeyword>
+				vision loss
+			</MetaKeyword>
+			<MetaKeyword>
+				vision
+			</MetaKeyword>
+			<MetaKeyword>
+				blurred vision
+			</MetaKeyword>
+			<MetaKeyword>
+				poor vision
+			</MetaKeyword>
+			<MetaKeyword>
+				poor night vision
+			</MetaKeyword>
+			<MetaKeyword>
+				macular edema
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic retinopathy (die-uh-BET-ik ret-ih-NOP-uh-thee) is a complication of diabetes that affects the eyes. It&apos;s caused by damage to the blood vessels of the light-sensitive tissue at the back of the eye (retina). 
+&lt;/p&gt;
+&lt;p&gt;
+At first, diabetic retinopathy may cause no symptoms or only mild vision problems. Eventually, however, diabetic retinopathy can result in blindness. 
+&lt;/p&gt;
+&lt;p&gt;
+Diabetic retinopathy can develop in anyone who has type 1 diabetes or type 2 diabetes. The longer you have diabetes, and the less controlled your blood sugar is, the more likely you are to develop diabetic retinopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+To protect your vision, take prevention seriously. Start by carefully controlling your blood sugar level and scheduling yearly eye exams.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s possible to have diabetic retinopathy and not know it. In fact, it&apos;s uncommon to have symptoms in the early stages of diabetic retinopathy.
+&lt;/p&gt;
+&lt;p&gt;
+As the condition progresses, diabetic retinopathy symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spots or dark strings floating in your vision (floaters)&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Fluctuating vision&lt;/li&gt;
+	&lt;li&gt;Dark or empty areas in your vision&lt;/li&gt;
+	&lt;li&gt;Vision loss&lt;/li&gt;
+	&lt;li&gt;Difficulty with color perception&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diabetic retinopathy usually affects both eyes.
+&lt;/p&gt;
+&lt;p&gt;
+Diabetic retinopathy may be classified as early or advanced, depending on your signs and symptoms.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Early diabetic retinopathy.&lt;/strong&gt; This type of diabetic retinopathy is called nonproliferative diabetic retinopathy (NPDR). It&apos;s called that because at this point, new blood vessels aren&apos;t growing (proliferating). NPDR can be described as mild, moderate or severe. When you have NPDR, the walls of the blood vessels in your retina weaken. Tiny bulges (called microaneurysms) protrude from the vessel walls, sometimes leaking or oozing fluid and blood into the retina. As the condition progresses, the smaller vessels may close and the larger retinal vessels may begin to dilate and become irregular in diameter. Nerve fibers in the retina may begin to swell. Sometimes the central part of the retina (macula) begins to swell, too. This is known as macular edema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Advanced diabetic retinopathy.&lt;/strong&gt; Proliferative diabetic retinopathy (PDR) is the most severe type of diabetic retinopathy. It&apos;s called proliferative because at this stage, new blood vessels begin to grow in the retina. These new blood vessels are abnormal. They may grow or leak into the clear, jelly-like substance that fills the center of your eye (vitreous). Eventually, scar tissue stimulated by the growth of new blood vessels may cause the retina to detach from the back of your eye. If the new blood vessels interfere with the normal flow of fluid out of the eye, pressure may build up in the eyeball, causing glaucoma. This can damage the nerve that carries images from your eye to your brain (optic nerve).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Careful management of your diabetes is the best way to prevent vision loss. If you have diabetes, see your eye doctor for a yearly dilated eye exam &amp;mdash; even if your vision seems fine &amp;mdash; because it&apos;s important to detect diabetic retinopathy in the early stages. If you become pregnant, your eye doctor may recommend additional eye exams throughout your pregnancy, because pregnancy can sometimes worsen diabetic retinopathy.
+&lt;/p&gt;
+&lt;p&gt;
+Contact your eye doctor right away if you experience sudden vision changes or your vision becomes blurry, spotty or hazy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Too much sugar in your blood can damage the tiny blood vessels that nourish the retina. It may even block them completely. As more and more blood vessels become blocked, the blood supply to more of the retina is cutoff. This can result in vision loss. In response to the lack of blood supply, the eye attempts to grow new blood vessels. But, these new blood vessels don&apos;t develop properly and can leak easily. Leaking blood vessels can cause a loss of vision. Scar tissue may also form, which can pull on the retina. Sometimes, this can cause the retina to detach.
+&lt;/p&gt;
+&lt;p&gt;
+Elevated blood sugar levels can also affect the eyes&apos; lenses. With high levels of sugar over long periods of time, the lenses can swell, providing another cause of blurred vision.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing severe nonproliferative diabetic retinopathy 
+" Caption="In the early stages of diabetic retinopathy, the walls of the blood vessels in your retina weaken. Tiny bulges protrude from the vessel walls, sometimes leaking or oozing fluid and blood into the retina. Nerve fibers in the retina may swell, producing white spots in the retina. As diabetic retinopathy progresses, new blood vessels may grow and threaten your vision. 
+" Height="60" Title="Diabetic retinopathy" URI="/images/image_popup/thumbs/r7_retinopathythu.jpg" Width="60" />
+				<Image Alt="Illustration showing severe nonproliferative diabetic retinopathy 
+" Caption="In the early stages of diabetic retinopathy, the walls of the blood vessels in your retina weaken. Tiny bulges protrude from the vessel walls, sometimes leaking or oozing fluid and blood into the retina. Nerve fibers in the retina may swell, producing white spots in the retina. As diabetic retinopathy progresses, new blood vessels may grow and threaten your vision. 
+" Height="602" Title="Diabetic retinopathy" URI="/images/image_popup/r7_retinopathy.jpg" Width="400" />
+				<HTML>
+					In the early stages of diabetic retinopathy, the walls of the blood vessels in your retina weaken. Tiny bulges protrude from the vessel walls, sometimes leaking or oozing fluid and blood into the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic retinopathy can happen to anyone who has diabetes. These factors can increase your risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Duration of diabetes &amp;mdash; the longer you have diabetes, the greater your risk of diabetic retinopathy&lt;/li&gt;
+	&lt;li&gt;Poor control of your blood sugar level&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Tobacco use&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic retinopathy involves the abnormal growth of blood vessels in the retina. Complications can lead to serious vision problems:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vitreous hemorrhage.&lt;/strong&gt; The new blood vessels may bleed into the clear, jelly-like substance that fills the center of your eye. If the amount of bleeding is small, you might see only a few dark spots or floaters. In more-severe cases, blood can fill the vitreous cavity and completely block your vision. Vitreous hemorrhage by itself usually doesn&apos;t cause permanent vision loss. The blood often clears from the eye within a few weeks or months. Unless your retina is damaged, your vision may return to its previous clarity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Retinal detachment.&lt;/strong&gt; The abnormal blood vessels associated with diabetic retinopathy stimulate the growth of scar tissue, which can pull the retina away from the back of the eye. This may cause spots floating in your vision, flashes of light or severe vision loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glaucoma.&lt;/strong&gt; New blood vessels may grow in the front part of your eye and interfere with the normal flow of fluid out of the eye, causing pressure in the eye to build up (glaucoma). This pressure can damage the nerve that carries images from your eye to your brain (optic nerve).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blindness.&lt;/strong&gt; Eventually, diabetic retinopathy, glaucoma or both can lead to complete vision loss.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with type 1 or type 2 diabetes should have a dilated eye exam performed by an eye doctor (ophthalmologist) every year. The American Diabetes Association (ADA) recommends that anyone who&apos;s older than 10 with type 1 diabetes have his or her first eye exam within five years of being diagnosed with diabetes. For people with type 2 diabetes, the ADA advises getting the initial eye exam soon after you&apos;ve been diagnosed with diabetes, because you may have had diabetes for some time without knowing it. 
+&lt;/p&gt;
+&lt;p&gt;
+After the initial exam, the ADA recommends that people with either type 1 or type 2 diabetes get an annual eye exam. Some people who&apos;ve had repeated normal exams may be able to extend the time between exams to two to three years. Ask your eye doctor what he or she recommends. 
+&lt;/p&gt;
+&lt;p&gt;
+Women with diabetes who become pregnant need to have an eye exam during the first trimester of pregnancy and possibly again later in the pregnancy, depending on the results of the first exam. The reason for this is that pregnancy can sometimes worsen diabetic retinopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive prepared. Here&apos;s some information to help you get ready for your eye appointment and what to expect from your eye doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down a brief summary of your diabetes history,&lt;/strong&gt; including when you were diagnosed, what medications you currently take for diabetes, what medications you&apos;ve used in the past, your average blood sugar levels in recent weeks, and your last few hemoglobin A1C readings, if you know them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any other medications that you take,&lt;/strong&gt; along with the dosage information. Also write down the names and doses of any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; if any. Include any that may seem unrelated to potential eye problems, because other conditions can affect your eye health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you, and someone who accompanies you might remember something that you missed or forgot. In addition, because your eyes will stay dilated for some time after the exam, a companion would be available to drive you home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you cover all of the points that are important to you. For diabetic retinopathy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why is diabetes affecting my vision?&lt;/li&gt;
+	&lt;li&gt;Do I need any other tests?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;If I control my blood sugar, will my eye symptoms go away?&lt;/li&gt;
+	&lt;li&gt;What do my blood sugar goals need to be to protect my eyes?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are you having any eye symptoms, such as blurred vision or seeing floaters?&lt;/li&gt;
+	&lt;li&gt;How long have you been experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;In general, how is your diabetes management?&lt;/li&gt;
+	&lt;li&gt;What was your last hemoglobin A1C?&lt;/li&gt;
+	&lt;li&gt;Do you have any other health conditions, such as high blood pressure or abnormal cholesterol?&lt;/li&gt;
+	&lt;li&gt;Have you had any eye surgery?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic retinopathy is best diagnosed with a dilated eye exam. For this exam, your eye doctor will place drops in your eyes that make your pupils open widely. This allows your doctor to get a better view inside your eye. The drops may cause your close vision to be blurry until they wear off several hours later.
+&lt;/p&gt;
+&lt;p&gt;
+During the exam, your eye doctor will look for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Presence or absence of a cataract&lt;/li&gt;
+	&lt;li&gt;Abnormal blood vessels&lt;/li&gt;
+	&lt;li&gt;Swelling, blood or fatty deposits in the retina&lt;/li&gt;
+	&lt;li&gt;Growth of new blood vessels and scar tissue&lt;/li&gt;
+	&lt;li&gt;Bleeding in the clear, jelly-like substance that fills the center of the eye (vitreous)&lt;/li&gt;
+	&lt;li&gt;Retinal detachment&lt;/li&gt;
+	&lt;li&gt;Abnormalities in your optic nerve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your eye doctor may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Test your vision&lt;/li&gt;
+	&lt;li&gt;Measure your eye pressure to test for glaucoma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Fluorescein angiography&lt;/strong&gt;&lt;br /&gt;
+As part of the eye exam, your doctor may do a retinal photography test called fluorescein angiography. First, your doctor will dilate your pupils and take pictures of the inside of your eyes. Then your doctor will inject a special dye into your arm. More pictures will be taken as the dye circulates through your eyes. Your doctor can use the images to pinpoint blood vessels that are closed, broken down or leaking fluid.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Optical coherence tomography&lt;/strong&gt;&lt;br /&gt;
+Your eye doctor may request an optical coherence tomography (OCT) exam. This imaging test provides cross-sectional images of the retina that show the thickness of the retina, which will help determine whether fluid has leaked into retinal tissue. Later, OCT exams can be used to monitor how treatment is working.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends largely on the type of diabetic retinopathy you have. Your treatment will also be affected by how severe your retinopathy is, and how it has responded to previous treatments.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early diabetic retinopathy&lt;/strong&gt;&lt;br /&gt;
+If you have nonproliferative diabetic retinopathy, you may not need treatment right away. However, your eye doctor will closely monitor your eyes to determine if you need treatment.
+&lt;/p&gt;
+&lt;p&gt;
+It may also be helpful to work with your diabetes doctor (endocrinologist) to find out if there are any additional steps you can take to improve your diabetes management. The good news is that when diabetic retinopathy is in the mild or moderate stage, good blood sugar control can usually slow the progression of diabetic retinopathy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Advanced diabetic retinopathy&lt;/strong&gt;&lt;br /&gt;
+If you have proliferative diabetic retinopathy, you&apos;ll need prompt surgical treatment. Sometimes surgery is also recommended for severe nonproliferative diabetic retinopathy. Depending on the specific problems with your retina, options may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Focal laser treatment.&lt;/strong&gt; This laser treatment, also known as photocoagulation, can stop or slow the leakage of blood and fluid in the eye. It&apos;s done in your doctor&apos;s office or eye clinic. During the procedure, leaks from abnormal blood vessels are treated with laser burns. Focal laser treatment is usually done in a single session. Your vision will be blurry for about a day after the procedure. Sometimes you will be aware of small spots in your visual field that are related to the laser treatment. These usually disappear within weeks. If you had blurred vision from swelling of the central macula before surgery, however, you may not recover completely normal vision. But, in some cases, vision does improve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scatter laser treatment.&lt;/strong&gt; This laser treatment, also known as panretinal photocoagulation, can shrink the abnormal blood vessels. It&apos;s also done in your doctor&apos;s office or eye clinic. During the procedure, the areas of the retina away from the macula are treated with scattered laser burns. The burns cause the abnormal new blood vessels to shrink and scar. Scatter laser treatment is usually done in two or more sessions. Your vision will be blurry for about a day after the procedure. Some loss of peripheral vision or night vision after the procedure is possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitrectomy.&lt;/strong&gt; This procedure can be used to remove blood from the middle of the eye (vitreous) as well as any scar tissue that&apos;s tugging on the retina. It&apos;s done in a surgery center or hospital using local or general anesthesia. During the procedure, the doctor makes a tiny incision in your eye. Scar tissue and blood in the eye are removed with delicate instruments and replaced with a salt solution, which helps maintain your eye&apos;s normal shape. Sometimes a gas bubble must be placed in the cavity of the eye to help reattach the retina. If a gas bubble was placed in your eye, you may need to remain in a facedown position until the gas bubble dissipates &amp;mdash; often several days. You&apos;ll need to wear an eye patch and use medicated eyedrops for a few days or weeks. Vitrectomy may be followed or accompanied by laser treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery often slows or stops the progression of diabetic retinopathy, but it&apos;s not a cure. Because diabetes is a lifelong condition, future retinal damage and vision loss are possible. Even after treatment for diabetic retinopathy, you&apos;ll need regular eye exams. At some point, additional treatment may be recommended.
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are studying new treatments for diabetic retinopathy, including medications that may help prevent abnormal blood vessels from forming in the eye. Some of these medications are injected directly into the eye to treat existing swelling or abnormal blood vessels. These treatments appear promising, but they haven&apos;t been studied in long-term trials yet.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may hear or read about natural cures or home remedies, but currently there are no proven alternative or complementary therapies than can cure diabetes or diabetic retinopathy. It&apos;s important not to delay standard treatments to try unproven therapies. Early treatment is the best way to prevent vision loss.
+&lt;/p&gt;
+&lt;p&gt;
+Several alternative therapies have shown some benefits for people with diabetic retinopathy, but more research is needed to understand whether or not these treatments are effective and safe. Potential alternative therapies include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bilberry&lt;/li&gt;
+	&lt;li&gt;Butcher&apos;s broom&lt;/li&gt;
+	&lt;li&gt;Ginkgo&lt;/li&gt;
+	&lt;li&gt;Grape seed extract&lt;/li&gt;
+	&lt;li&gt;Pycnogenol (Pine bark)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Be sure to let your doctor know if you are taking any herbs or supplements. They have the potential to interact with other medications, or cause complications in surgery, such as excessive bleeding.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The thought that you might lose your sight can be frightening, and you may benefit from talking to a therapist. Your doctor can provide a referral. Or, you may find the camaraderie and encouragement that a support group can offer is helpful to you. Ask your doctor about support groups for people with diabetic retinopathy in your area.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve already lost some vision, ask your doctor about low vision products and services that can help make daily living easier. For example, special lenses, magnifiers and video magnifiers are available.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have diabetes, reduce your risk of getting diabetic retinopathy by doing the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a commitment to managing your diabetes.&lt;/strong&gt; Make healthy eating and physical activity part of your daily routine. Try to get at least 150 minutes of moderate aerobic activity, such as walking, each week. Take oral diabetes medications or insulin as directed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your blood sugar level.&lt;/strong&gt; You may need to check and record your blood sugar level several times a day &amp;mdash; more-frequent measurements may be required if you&apos;re ill or under stress. Careful monitoring is the only way to make sure that your blood sugar level remains within your target range. Ask your doctor how often you need to test your blood sugar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about a glycosylated hemoglobin test.&lt;/strong&gt; The glycosylated hemoglobin test, or hemoglobin A1C test, reflects your average blood sugar level for the two- to three-month period before the test. For most people, the A1C goal is to be under 7 percent. If you&apos;ve been meeting your blood sugar goals, your doctor will likely perform this test twice a year. But, if your A1C is higher than your goal, more frequent testing is recommended. Remember, keeping your blood sugar level as close to normal as possible slows the progression of diabetic retinopathy and reduces the need for surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your blood pressure and cholesterol under control.&lt;/strong&gt; High blood pressure and high cholesterol increase the risk of vision loss. Eating healthy foods, exercising regularly and losing excess weight can help. Sometimes medication is needed, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you smoke or use other types of tobacco, ask your doctor to help you quit.&lt;/strong&gt; Smoking increases your risk of various diabetes complications, including diabetic retinopathy. Talk to your doctor about ways to stop smoking or to stop using other types of tobacco.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to vision changes.&lt;/strong&gt; Yearly dilated eye exams are an important part of your diabetes treatment plan. Contact your eye doctor right away if you experience sudden vision changes or your vision becomes blurry, spotty or hazy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember, diabetes doesn&apos;t necessarily lead to poor vision. Taking an active role in diabetes management can go a long way toward preventing complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diabetic retinopathy
+	</Title>
+	<Abstract>
+		Diabetic retinopathy &amp;mdash; Comprehensive overview covers causes, diagnosis, treatment, prevention of this serious diabetes-related eye disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02048" LinkType="Internal" ObjectID="E00A39C1-0AFD-BFBA-988EF01B5E170D48" Title="Eye dilation: Necessary with every eye exam?" Url="http://www.mayoclinic.com/health/eye-dilation/AN02048" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Disease" DocID="DS00585" LinkType="Internal" ObjectID="67CDF280-4583-4E6E-A1DD12C8817E4302" Title="Type 2 diabetes" Url="http://www.mayoclinic.com/health/type-2-diabetes/DS00585" />
+	</RelatedLinksBox>
+</Disease>

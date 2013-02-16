@@ -1,0 +1,596 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00021
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/asthma/DS00021
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-26
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="4319" Title="Asthma attack">
+						<Keyword MCVID="1750" Title="Adult asthma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E05029A1-9E99-427B-BE47BA91B7BD70B5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				bronchial
+			</MetaKeyword>
+			<MetaKeyword>
+				breathing
+			</MetaKeyword>
+			<MetaKeyword>
+				trouble breathing
+			</MetaKeyword>
+			<MetaKeyword>
+				difficulty breathing
+			</MetaKeyword>
+			<MetaKeyword>
+				breath
+			</MetaKeyword>
+			<MetaKeyword>
+				respiratory
+			</MetaKeyword>
+			<MetaKeyword>
+				wheezing
+			</MetaKeyword>
+			<MetaKeyword>
+				wheeze
+			</MetaKeyword>
+			<MetaKeyword>
+				cough
+			</MetaKeyword>
+			<MetaKeyword>
+				peak flow meter
+			</MetaKeyword>
+			<MetaKeyword>
+				inhaler
+			</MetaKeyword>
+			<MetaKeyword>
+				bronchodilator
+			</MetaKeyword>
+			<MetaKeyword>
+				corticosteroid
+			</MetaKeyword>
+			<MetaKeyword>
+				bronchospasm
+			</MetaKeyword>
+			<MetaKeyword>
+				COPD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asthma is a condition in which your airways narrow and swell and produce extra mucus. This can make breathing difficult and trigger coughing, wheezing and shortness of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+For some people, asthma is a minor nuisance. For others, it can be a major problem that interferes with daily activities and may lead to a life-threatening asthma attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Asthma can&apos;t be cured, but its symptoms can be controlled. Because asthma often changes over time, it&apos;s important that you work with your doctor to track your signs and symptoms and adjust treatment as needed. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="60" Title="Asthma attack" URI="/images/image_popup/thumbs/ww5r370t.jpg" Width="60" />
+				<Image Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="475" Title="Asthma attack" URI="/images/image_popup/ww5r370.jpg" Width="400" />
+				<HTML>
+					If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asthma symptoms range from minor to severe and vary from person to person. You may have infrequent asthma attacks, have symptoms only at certain times &amp;mdash; such as when exercising &amp;mdash; or have symptoms all the time. 
+&lt;/p&gt;
+&lt;p&gt;
+Asthma signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest tightness or pain&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping caused by shortness of breath, coughing or wheezing&lt;/li&gt;
+	&lt;li&gt;A whistling or wheezing sound when exhaling (wheezing is a common sign of asthma in children)&lt;/li&gt;
+	&lt;li&gt;Coughing or wheezing attacks that are worsened by a respiratory virus, such as a cold or the flu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs that your asthma is probably worsening include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Asthma signs and symptoms that are more frequent and bothersome&lt;/li&gt;
+	&lt;li&gt;Increasing difficulty breathing (measurable with a peak flow meter, a device used to check how well your lungs are working)&lt;/li&gt;
+	&lt;li&gt;The need to use a quick-relief inhaler more often&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, asthma symptoms flare up in certain situations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise-induced asthma,&lt;/strong&gt; which may be worse when the air is cold and dry&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational asthma,&lt;/strong&gt; triggered by workplace irritants such as chemical fumes, gases or dust&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy-induced asthma,&lt;/strong&gt; triggered by particular allergens, such as pet dander, cockroaches or pollen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency treatment&lt;/strong&gt;&lt;br /&gt;
+Severe asthma attacks can be life-threatening. Work with your doctor ahead of time to determine what to do when your signs and symptoms worsen &amp;mdash; and when you need emergency treatment. Signs of an asthma emergency include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid worsening of shortness of breath or wheezing&lt;/li&gt;
+	&lt;li&gt;No improvement even after using a quick-relief inhaler, such as albuterol&lt;/li&gt;
+	&lt;li&gt;Shortness of breath when you are doing minimal physical activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Contact your doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you think you have asthma.&lt;/strong&gt; If you have frequent coughing or wheezing that lasts more than a few days or any other signs or symptoms of asthma, see your doctor. Treating asthma early may prevent long-term lung damage and help keep the condition from worsening over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To monitor your asthma after diagnosis.&lt;/strong&gt; If you know you have asthma, work with your doctor to keep it under control. Good long-term control helps you feel better on a daily basis and can prevent a life-threatening asthma attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If your asthma symptoms get worse.&lt;/strong&gt; Contact your doctor right away if your medication doesn&apos;t seem to ease your symptoms or if you need to use your quick-relief inhaler more often. Don&apos;t try to solve the problem by taking more medication without consulting your doctor. Overusing asthma medication can cause side effects and may make your asthma worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To review your treatment.&lt;/strong&gt; Asthma often changes over time. Meet with your doctor on a regular basis to discuss your symptoms and make any needed treatment adjustments.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="60" Title="Asthma attack" URI="/images/image_popup/thumbs/ww5r370t.jpg" Width="60" />
+				<Image Alt="Illustration of what happens during an asthma attack
+" Caption="If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma attack. During an asthma attack, your narrowed airways make it harder to breathe and you may cough and wheeze. 
+" Height="475" Title="Asthma attack" URI="/images/image_popup/ww5r370.jpg" Width="400" />
+				<HTML>
+					If you have asthma, the inside walls of the airways in your lungs can become inflamed and swollen. In addition, membranes in your airway linings may secrete excess mucus. The result is an asthma ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It isn&apos;t clear why some people get asthma and others don&apos;t, but it&apos;s probably due to a combination of environmental and genetic (inherited) factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Asthma triggers&lt;/strong&gt;&lt;br /&gt;
+Exposure to various substances that trigger allergies (allergens) and irritants can trigger signs and symptoms of asthma. Asthma triggers are different from person to person and can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Airborne allergens, such as pollen, animal dander, mold, cockroaches and dust mites&lt;/li&gt;
+	&lt;li&gt;Allergic reactions to some foods, such as peanuts or shellfish&lt;/li&gt;
+	&lt;li&gt;Respiratory infections, such as the common cold&lt;/li&gt;
+	&lt;li&gt;Physical activity (exercise-induced asthma)&lt;/li&gt;
+	&lt;li&gt;Cold air&lt;/li&gt;
+	&lt;li&gt;Air pollutants and irritants, such as smoke&lt;/li&gt;
+	&lt;li&gt;Certain medications, including beta blockers, aspirin, ibuprofen (Advil, Motrin, others) and naproxen (Aleve)&lt;/li&gt;
+	&lt;li&gt;Strong emotions and stress&lt;/li&gt;
+	&lt;li&gt;Sulfites and preservatives added to some types of foods and beverages&lt;/li&gt;
+	&lt;li&gt;Gastroesophageal reflux disease (GERD), a condition in which stomach acids back up into your throat&lt;/li&gt;
+	&lt;li&gt;Menstrual cycle in some women&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors are thought to increase your chances of developing asthma. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a blood relative (such as a parent or sibling) with asthma&lt;/li&gt;
+	&lt;li&gt;Having another allergic condition, such as atopic dermatitis or allergic rhinitis (hay fever)&lt;/li&gt;
+	&lt;li&gt;Being overweight&lt;/li&gt;
+	&lt;li&gt;Being a smoker&lt;/li&gt;
+	&lt;li&gt;Exposure to secondhand smoke&lt;/li&gt;
+	&lt;li&gt;Having a mother who smoked while pregnant&lt;/li&gt;
+	&lt;li&gt;Exposure to exhaust fumes or other types of pollution&lt;/li&gt;
+	&lt;li&gt;Exposure to occupational triggers, such as chemicals used in farming, hairdressing and manufacturing&lt;/li&gt;
+	&lt;li&gt;Low birth weight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Exposure to allergens, exposure to certain germs or parasites, and having some types of bacterial or viral infections also may be risk factors. However, more research is needed to determine what role they may play in developing asthma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asthma complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Symptoms that interfere with sleep, work or recreational activities&lt;/li&gt;
+	&lt;li&gt;Sick days from work or school during asthma flare-ups&lt;/li&gt;
+	&lt;li&gt;Permanent narrowing of the bronchial tubes (airway remodeling) that affects how well you can breathe&lt;/li&gt;
+	&lt;li&gt;Emergency room visits and hospitalizations for severe asthma attacks&lt;/li&gt;
+	&lt;li&gt;Side effects from long-term use of some medications used to stabilize severe asthma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Proper treatment makes a big difference in preventing both short-term and long-term complications caused by asthma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, when you call to set up an appointment, you may be referred to an allergist or a pulmonologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready for your appointment, as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+These steps can help you make the most of your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re having,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note when your symptoms bother you most&lt;/strong&gt; &amp;mdash; for example, if your symptoms tend to get worse at certain times of the day, during certain seasons, or when you&apos;re exposed to cold air, pollen or other triggers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to recall all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For asthma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is asthma the most likely cause of my breathing problems?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What exactly are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have breathing problems most of the time, or only at certain times or in certain situations?&lt;/li&gt;
+	&lt;li&gt;Do you have allergies, such as atopic dermatitis or hay fever?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do allergies or asthma run in your family?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic health problems?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Physical exam&lt;/strong&gt;&lt;br /&gt;
+To rule out other possible conditions &amp;mdash; such as a respiratory infection or chronic obstructive pulmonary disease (COPD) &amp;mdash; your doctor will do a physical exam and ask you questions about your signs and symptoms and about any other health problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to measure lung function&lt;/strong&gt;&lt;br /&gt;
+You may also be given lung (pulmonary) function tests to determine how much air moves in and out as you breathe. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spirometry.&lt;/strong&gt; This test estimates the narrowing of your bronchial tubes by checking how much air you can exhale after a deep breath and how fast you can breathe out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peak flow.&lt;/strong&gt; A peak flow meter is a simple device that measures how hard you can breathe out. Lower than usual peak flow readings are a sign your lungs may not be working as well and that your asthma may be getting worse. Your doctor will give you instructions on how to track and deal with low peak flow readings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Lung function tests often are done before and after taking a bronchodilator (brong-koh-DIE-lay-tur), such as albuterol, to open your airways. If your lung function improves with use of a bronchodilator, it&apos;s likely you have asthma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt;&lt;br /&gt;
+Other tests to diagnose asthma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Methacholine challenge.&lt;/strong&gt; Methacholine is a known asthma trigger that, when inhaled, will cause mild constriction of your airways. If you react to the methacholine, you likely have asthma. This test may be used even if your initial lung function test is normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nitric oxide test.&lt;/strong&gt; This test, though not widely available, measures the amount of the gas, nitric oxide, that you have in your breath. When your airways are inflamed &amp;mdash; a sign of asthma &amp;mdash; you may have higher than normal nitric oxide levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; A chest X-ray and high-resolution computerized tomography (CT) scan of your lungs and nose cavities (sinuses) can identify any structural abnormalities or diseases (such as infection) that can cause or aggravate breathing problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sputum eosinophils.&lt;/strong&gt; This test looks for certain white blood cells (eosinophils) in the mixture of saliva and mucus (sputum) you discharge during coughing. Eosinophils are present when symptoms develop and become visible when stained with a rose-colored dye (eosin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provocative testing for exercise and cold-induced asthma.&lt;/strong&gt; In these tests, your doctor measures your airway obstruction before and after you perform vigorous physical activity or take several breaths of cold air.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How asthma is classified&lt;/strong&gt;&lt;br /&gt;
+To classify your asthma severity, your doctor considers your answers to questions about symptoms (such as how often you have asthma attacks and how bad they are), along with the results of your physical exam and diagnostic tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Determining your asthma severity helps your doctor choose the best treatment. Asthma severity often changes over time, requiring treatment adjustments. 
+&lt;/p&gt;
+&lt;p&gt;
+Asthma is classified into four general categories: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Asthma classification&lt;/th&gt;&lt;th&gt;Signs and symptoms&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mild intermittent&lt;/td&gt;
+			&lt;td&gt;Mild symptoms up to 2 days a week and up to 2 nights a month&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Mild persistent&lt;/td&gt;
+			&lt;td&gt;Symptoms more than twice a week, but no more than once in a single day&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Moderate persistent&lt;/td&gt;
+			&lt;td&gt;Symptoms once a day and more than 1 night a week&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Severe persistent&lt;/td&gt;
+			&lt;td&gt;Symptoms throughout the day on most days and frequently at night&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prevention and long-term control are key in stopping asthma attacks before they start. Treatment usually involves learning to recognize your triggers and taking steps to avoid them, and tracking your breathing to make sure your daily asthma medications are keeping symptoms under control. In case of an asthma flare-up, you may need to use a quick-relief inhaler, such as albuterol. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+The right medications for you depend on a number of things, including your age, your symptoms, your asthma triggers and what seems to work best to keep your asthma under control. Preventive, long-term control medications reduce the inflammation in your airways that leads to symptoms. Quick-relief inhalers (bronchodilators) quickly open swollen airways that are limiting breathing. In some cases, allergy medications are necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term asthma control medications,&lt;/strong&gt; generally taken daily, are the cornerstone of asthma treatment. These medications keep asthma under control on a day-to-day basis and make it less likely you&apos;ll have an asthma attack. Types of long-term control medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inhaled corticosteroids.&lt;/strong&gt; These medications include fluticasone (Flovent Diskus, Flonase), budesonide (Pulmicort, Rhinocort), mometasone (Nasonex, Asmanex Twisthaler), ciclesonide (Alvesco, Omnaris), flunisolide (Aerobid, Aerospan HFA), beclomethasone (Qvar, Qnasl) and others. You may need to use these medications for several days to weeks before they reach their maximum benefit. Unlike oral corticosteroids, these corticosteroid medications have a relatively low risk of side effects and are generally safe for long-term use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leukotriene modifiers.&lt;/strong&gt; These oral medications &amp;mdash; including montelukast (Singulair), zafirlukast (Accolate) and zileuton (Zyflo) &amp;mdash; help relieve asthma symptoms for up to 24 hours. In rare cases, these medications have been linked to psychological reactions, such as agitation, aggression, hallucinations, depression and suicidal thinking. Seek medical advice right away for any unusual reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-acting beta agonists.&lt;/strong&gt; These inhaled medications, which include salmeterol (Serevent) and formoterol (Foradil, Perforomist), open the airways and reduce inflammation. Some research shows that they may increase the risk of a severe asthma attack, so take them only in combination with an inhaled corticosteroid. And because these drugs can mask asthma deterioration, don&apos;t use them for an acute asthma attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination inhalers.&lt;/strong&gt; These medications &amp;mdash; such as fluticasone-salmeterol (Advair Diskus), budesonide-formoterol (Symbicort) and mometasone-formoterol (Dulera) &amp;mdash; contain a long-acting beta agonist along with a corticosteroid. Because these combination inhalers contain long-acting beta agonists, they may increase your risk of having a severe asthma attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Theophylline.&lt;/strong&gt; Theophylline (Theo-24, Elixophyllin, others) is a daily pill that helps keep the airways open (bronchodilator) by relaxing the muscles around the airways. It&apos;s not used as often now as in past years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Quick-relief (rescue) medications &lt;/strong&gt;are used as needed for rapid, short-term symptom relief during an asthma attack &amp;mdash; or before exercise if your doctor recommends it. Types of quick-relief medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Short-acting beta agonists.&lt;/strong&gt; These inhaled, quick-relief bronchodilators act within minutes to rapidly ease symptoms during an asthma attack. They include albuterol (ProAir HFA, Ventolin HFA, others), levalbuterol (Xopenex HFA) and pirbuterol (Maxair). Short-acting beta agonists can be taken using a portable, hand-held inhaler or a nebulizer &amp;mdash; a machine that converts asthma medications to a fine mist, so they can be inhaled through a face mask or a mouthpiece.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ipratropium (Atrovent).&lt;/strong&gt; Like other bronchodilators, ipratropium acts quickly to immediately relax your airways, making it easier to breathe. Ipratropium is mostly used for emphysema and chronic bronchitis, but it&apos;s sometimes used to treat asthma attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral and intravenous corticosteroids.&lt;/strong&gt; These medications &amp;mdash; which include prednisone and methylprednisolone &amp;mdash; relieve airway inflammation caused by severe asthma. They can cause serious side effects when used long term, so they&apos;re used only on a short-term basis to treat severe asthma symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have an asthma flare-up, a quick-relief inhaler can ease your symptoms right away. But if your long-term control medications are working properly, you shouldn&apos;t need to use your quick-relief inhaler very often. Keep a record of how many puffs you use each week. If you need to use your quick-relief inhaler more often than your doctor recommends, see your doctor. You probably need to adjust your long-term control medication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergy medications&lt;/strong&gt; may help if your asthma is triggered or worsened by allergies. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy shots (immunotherapy).&lt;/strong&gt; Over time, allergy shots gradually reduce your immune system reaction to specific allergens. You generally receive shots once a week for a few months, then once a month for a period of three to five years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omalizumab (Xolair)&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; This medication, given as an injection every two to four weeks, is specifically for people who have allergies and severe asthma. It acts by altering the immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy medications.&lt;/strong&gt; These include oral and nasal spray antihistamines and decongestants as well as corticosteroid and cromolyn nasal sprays.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bronchial thermoplasty&lt;/strong&gt;&lt;br /&gt;
+This treatment &amp;mdash; which isn&apos;t widely available nor right for everyone &amp;mdash; is used for severe asthma that doesn&apos;t improve with inhaled corticosteroids or other long-term asthma medications. Generally, over the span of three outpatient visits, bronchial thermoplasty heats the insides of the airways in the lungs with an electrode, reducing the smooth muscle inside the airways. This limits the ability of the airways to tighten, making breathing easier and possibly reducing asthma attacks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treat by severity for better control: A stepwise approach&lt;/strong&gt;&lt;br /&gt;
+Your treatment should be flexible and based on changes in your symptoms, which should be assessed thoroughly each time you see your doctor. Then, your doctor can adjust your treatment accordingly. For example, if your asthma is well controlled, your doctor may prescribe less medicine. If your asthma isn&apos;t well controlled or is getting worse, your doctor may increase your medication and recommend more-frequent visits. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Asthma action plan&lt;/strong&gt;&lt;br /&gt;
+Work with your doctor to create an asthma action plan that outlines in writing when to take certain medications, or when to increase or decrease the dose of your medications based on your symptoms. Also include a list of your triggers and the steps you need to take to avoid them. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also recommend tracking your asthma symptoms or using a peak flow meter on a regular basis to monitor how well your treatment is controlling your asthma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although many people with asthma rely on medications to prevent and relieve symptoms, you can do several things on your own to maintain your health and lessen the possibility of asthma attacks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoid your triggers&lt;/strong&gt;&lt;br /&gt;
+Taking steps to reduce your exposure to things that trigger asthma symptoms is a key part of asthma control. It may help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use your air conditioner.&lt;/strong&gt; Air conditioning reduces the amount of airborne pollen from trees, grasses and weeds that finds its way indoors. Air conditioning also lowers indoor humidity and can reduce your exposure to dust mites. If you don&apos;t have air conditioning, try to keep your windows closed during pollen season.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decontaminate your decor.&lt;/strong&gt; Minimize dust that may worsen nighttime symptoms by replacing certain items in your bedroom. For example, encase pillows, mattresses and box springs in dust-proof covers. Remove carpeting and install hardwood or linoleum flooring. Use washable curtains and blinds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain optimal humidity.&lt;/strong&gt; If you live in a damp climate, talk to your doctor about using a dehumidifier.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent mold spores.&lt;/strong&gt; Clean damp areas in the bath, kitchen and around the house to keep mold spores from developing. Get rid of moldy leaves or damp firewood in the yard.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce pet dander.&lt;/strong&gt; If you&apos;re allergic to dander, avoid pets with fur or feathers. Having pets regularly bathed or groomed also may reduce the amount of dander in your surroundings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean regularly.&lt;/strong&gt; Clean your home at least once a week. If you&apos;re likely to stir up dust, wear a mask or have someone else do the cleaning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover your nose and mouth if it&apos;s cold out.&lt;/strong&gt; If your asthma is worsened by cold or dry air, wearing a face mask can help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stay healthy&lt;/strong&gt;&lt;br /&gt;
+Taking care of yourself and treating other conditions linked to asthma will help keep your symptoms under control. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Having asthma doesn&apos;t mean you have to be less active. Treatment can prevent asthma attacks and control symptoms during activity. Regular exercise can strengthen your heart and lungs, which helps relieve asthma symptoms. If you exercise in cold temperatures, wear a face mask to warm the air you breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight can worsen asthma symptoms, and it puts you at higher risk of other health problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat fruits and vegetables.&lt;/strong&gt; Eating plenty of fruits and vegetables may increase lung function and reduce asthma symptoms. These foods are rich in protective nutrients (antioxidants) that boost the immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control heartburn and gastroesophageal reflux disease (GERD).&lt;/strong&gt; It&apos;s possible that the acid reflux that causes heartburn may damage lung airways and worsen asthma symptoms. If you have frequent or constant heartburn, talk to your doctor about treatment options. You may need treatment for GERD before your asthma symptoms improve.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain alternative treatments may help with asthma symptoms. However, keep in mind that these treatments are not a replacement for medical treatment &amp;mdash; especially if you have severe asthma. Talk to your doctor before taking any herbs or supplements, as some may interact with medications you take. 
+&lt;/p&gt;
+&lt;p&gt;
+While some alternative remedies are used for asthma, in most cases more research is needed to see how well they work and to measure the extent of possible side effects. Alternative asthma treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing techniques.&lt;/strong&gt; Examples include the Buteyko breathing technique, the Papworth method and yoga breathing. These exercises may reduce the amount of medication you need to keep your asthma symptoms under control. Yoga classes increase fitness and reduce stress, which may help with asthma as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This technique involves placing very thin needles at strategic points on your body. It&apos;s safe and generally painless.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques.&lt;/strong&gt; Techniques such as meditation, biofeedback, hypnosis and progressive muscle relaxation may help with asthma by reducing tension and stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies.&lt;/strong&gt; A few herbal remedies that may help improve asthma symptoms include butterbur, Indian frankincense and pycnogenol. Blends of different types of herbs are commonly used in traditional Chinese, Indian and Japanese medicine. However, more studies are needed to determine how well herbal remedies and preparations work for asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acids.&lt;/strong&gt; Found in fish, flaxseed and other foods, these healthy oils may reduce the inflammation that leads to asthma symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Asthma can be challenging and stressful. You may sometimes become frustrated, angry or depressed because you need to cut back on your usual activities to avoid environmental triggers. You may also feel limited or embarrassed by the symptoms of the disease and by complicated management routines. 
+&lt;/p&gt;
+&lt;p&gt;
+But asthma doesn&apos;t have to be a limiting condition. The best way to overcome anxiety and a feeling of helplessness is to understand your condition and take control of your treatment. Here are some suggestions that may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pace yourself.&lt;/strong&gt; Take breaks between tasks and avoid activities that make your symptoms worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a daily to-do list.&lt;/strong&gt; This may help you avoid feeling overwhelmed. Reward yourself for accomplishing simple goals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to others with your condition.&lt;/strong&gt; Chat rooms and message boards on the Internet or support groups in your area can connect you with people facing similar challenges and let you know you&apos;re not alone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If your child has asthma, be encouraging.&lt;/strong&gt; Focus attention on the things your child can do, not on the things he or she can&apos;t. Involve teachers, school nurses, coaches, friends and relatives in helping your child manage asthma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Working together, you and your doctor can design a step-by-step plan for living with your condition and preventing asthma attacks. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your asthma action plan.&lt;/strong&gt; With your doctor and health care team, write a detailed plan for taking medications and managing an asthma attack. Then be sure to follow your plan. Asthma is an ongoing condition that needs regular monitoring and treatment. Taking control of your treatment can make you feel more in control of your life in general.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get immunizations for influenza and pneumonia.&lt;/strong&gt; Staying current with immunizations can prevent flu and pneumonia from triggering asthma flare-ups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identify and avoid asthma triggers.&lt;/strong&gt; A number of outdoor allergens and irritants &amp;mdash; ranging from pollen and mold to cold air and air pollution &amp;mdash; can trigger asthma attacks. Find out what causes or worsens your asthma, and take steps to avoid those triggers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your breathing.&lt;/strong&gt; You may learn to recognize warning signs of an impending attack, such as slight coughing, wheezing or shortness of breath. But because your lung function may decrease before you notice any signs or symptoms, regularly measure and record your peak airflow with a home peak flow meter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Identify and treat attacks early.&lt;/strong&gt; If you act quickly, you&apos;re less likely to have a severe attack. You also won&apos;t need as much medication to control your symptoms. When your peak flow measurements decrease and alert you to an oncoming attack, take your medication as instructed and immediately stop any activity that may have triggered the attack. If your symptoms don&apos;t improve, get medical help as directed in your action plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medication as prescribed.&lt;/strong&gt; Just because your asthma seems to be improving, don&apos;t change anything without first talking to your doctor. It&apos;s a good idea to bring your medications with you to each doctor visit, so your doctor can double-check that you&apos;re using your medications correctly and taking the right dose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to increasing quick-relief inhaler use.&lt;/strong&gt; If you find yourself relying on your quick-relief inhaler, such as albuterol, your asthma isn&apos;t under control. See your doctor about adjusting your treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Asthma
+	</Title>
+	<Abstract>
+		Asthma &amp;mdash; Comprehensive overview covers symptoms, treatment of this chronic lung condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00001" LinkType="Internal" ObjectID="E27C2AE8-3D69-4BB9-A282F7B9B3A1CDCD" Title="Video: An asthma attack" Url="http://www.mayoclinic.com/health/asthma/MM00001" />
+		<LinkItem ContentType="Answer" DocID="AN01065" LinkType="Internal" ObjectID="03D89E58-E09D-40DE-9E738FAA7BA17B0F" Title="Albuterol side effects: What&apos;s normal?" Url="http://www.mayoclinic.com/health/albuterol-side-effects/AN01065" />
+		<LinkItem ContentType="Article" DocID="AS00024" LinkType="Internal" ObjectID="0683DC75-2A5D-9994-E2AC997ACA8FF1D7" Title="Asthma: Limit asthma attacks caused by colds or flu" Url="http://www.mayoclinic.com/health/asthma/AS00024" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01116" LinkType="Internal" ObjectID="99522BB0-EE31-5EFB-3A28FB65E94DFB17" Title="Peak flow meter" Url="http://www.mayoclinic.com/health/peak-flow-meter/MY01116" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00179" LinkType="Internal" ObjectID="31CBA70A-E7FF-0DBD-141C42856C499305" Title="Nitric oxide test for asthma" Url="http://www.mayoclinic.com/health/nitric-oxide-test/MY00179" />
+		<LinkItem ContentType="Disease" DocID="DS01068" LinkType="Internal" ObjectID="18D5EF86-E7FF-0DBD-16B27CEA551E5776" Title="Asthma attack" Url="http://www.mayoclinic.com/health/asthma-attack/DS01068" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY02165" LinkType="Internal" ObjectID="78017033-F62A-355B-BD0EF7B977FA63C0" Title="Exercise and chronic disease: Get the facts" Url="http://www.mayoclinic.com/health/exercise-and-chronic-disease/MY02165" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN02020" LinkType="Internal" ObjectID="E71E0F8A-F71B-7178-521ACCA9714FEF95" Title="Vocal cord dysfunction: Is it a type of asthma?" Url="http://www.mayoclinic.com/health/vocal-cord-dysfunction/AN02020" />
+		<LinkItem ContentType="SelfAssessment" DocID="AS00031" LinkType="Internal" ObjectID="DB547277-E7FF-0DBD-181E1AF6B29F60FC" Title="Asthma control test" Url="http://www.mayoclinic.com/health/asthma-control-test/AS00031" />
+		<LinkItem ContentType="Answer" DocID="AN01999" LinkType="Internal" ObjectID="D9F05B8D-B7B0-DB95-1BAEBCBDC59E7DC9" Title="Asthma: Why are symptoms worse during my period?" Url="http://www.mayoclinic.com/health/asthma/AN01999" />
+		<LinkItem ContentType="Answer" DocID="AN01998" LinkType="Internal" ObjectID="D9ED2D87-0259-85A1-888C8FE8141819F1" Title="Asthma diet: Does what you eat make a difference?" Url="http://www.mayoclinic.com/health/asthma-diet/AN01998" />
+		<LinkItem ContentType="Video" DocID="MM00406" LinkType="Internal" ObjectID="AD335654-2368-4D7E-96973B55CF13F24D" Title="Video: How to use a single-dose dry powder inhaler" Url="http://www.mayoclinic.com/health/asthma/MM00406" />
+		<LinkItem ContentType="Video" DocID="MM00405" LinkType="Internal" ObjectID="A4FB4603-04ED-463F-91F53A563B7E518F" Title="Video: How to use a dry powder disk inhaler" Url="http://www.mayoclinic.com/health/asthma/MM00405" />
+		<LinkItem ContentType="Answer" DocID="AN01420" LinkType="Internal" ObjectID="60EA13C0-E7FF-0DBD-18107315C112747C" Title="Reactive airway disease: Is it asthma?" Url="http://www.mayoclinic.com/health/reactive-airway-disease/AN01420" />
+		<LinkItem ContentType="Answer" DocID="AN02105" LinkType="Internal" ObjectID="45FE4809-9A56-BAD2-2EC847EFB5C6F1B3" Title="LABAs for asthma &amp;mdash; Should I stop taking them?" Url="http://www.mayoclinic.com/health/laba-asthma/AN02105" />
+		<LinkItem ContentType="Video" DocID="MM00399" LinkType="Internal" ObjectID="3AD785AF-1857-42EC-8D59662871E2AB66" Title="Video: How to use a peak flow meter" Url="http://www.mayoclinic.com/health/asthma/MM00399" />
+		<LinkItem ContentType="Video" DocID="MM00404" LinkType="Internal" ObjectID="3A453589-FFCF-48EB-B040337C3938C13D" Title="Video: How to use a dry powder tube inhaler" Url="http://www.mayoclinic.com/health/asthma/MM00404" />
+		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="Video" DocID="MM00608" LinkType="Internal" ObjectID="29BD5C85-E7A4-4646-B6042EF92662E03A" Title="Video: Using a metered dose asthma inhaler and spacer" Url="http://www.mayoclinic.com/health/asthma/MM00608" />
+		<LinkItem ContentType="Answer" DocID="AN02116" LinkType="Internal" ObjectID="1E03EEC8-EFF4-3C10-42CBB4D0FA8BBC64" Title="Asthma and acid reflux: Are they linked?" Url="http://www.mayoclinic.com/health/asthma-and-acid-reflux/AN02116" />
+		<LinkItem ContentType="Answer" DocID="AN00443" LinkType="Internal" ObjectID="0B689DAB-0061-4909-8DA7ED35EA5FFE40" Title="Ozone air purifiers: Can they improve asthma symptoms?" Url="http://www.mayoclinic.com/health/asthma/AN00443" />
+		<LinkItem ContentType="Disease" DocID="DS00949" LinkType="Internal" ObjectID="E0E5CBB7-E7FF-0DBD-188377A3E7F15819" Title="Premature ventricular contractions (PVCs)" Url="http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Article" DocID="AA00045" LinkType="Internal" ObjectID="BFC355EF-E627-4E1E-BCFBD5F8874118DF" Title="Allergies and asthma: They often occur together" Url="http://www.mayoclinic.com/health/allergies-and-asthma/AA00045" />
+		<LinkItem ContentType="Article" DocID="HQ01081" LinkType="Internal" ObjectID="87D67A9F-B323-4C73-B42F99D100BE8D13" Title="Asthma inhalers: Which one&apos;s right for you?" Url="http://www.mayoclinic.com/health/asthma-inhalers/HQ01081" />
+		<LinkItem ContentType="Article" DocID="AP00008" LinkType="Internal" ObjectID="58BCFCCC-BB00-4E67-A29876A9D30B65ED" Title="Asthma medications: Know your options" Url="http://www.mayoclinic.com/health/asthma-medications/AP00008" />
+		<LinkItem ContentType="Article" DocID="AS00003" LinkType="Internal" ObjectID="44C12174-E008-4FB4-88842E1639396FBE" Title="Asthma: Steps in testing and diagnosis" Url="http://www.mayoclinic.com/health/asthma/AS00003" />
+		<LinkItem ContentType="Article" DocID="AS00002" LinkType="Internal" ObjectID="34C0BD4A-D30E-460A-8C6B1E0AB3772984" Title="Asthma in adults: Creating an asthma action plan" Url="http://www.mayoclinic.com/health/asthma/AS00002" />
+		<LinkItem ContentType="Article" DocID="AS00033" LinkType="Internal" ObjectID="1DDFAB7B-E7FF-0DBD-1C9A41714A06C9B4" Title="Asthma-friendly products: Do they help reduce symptoms?" Url="http://www.mayoclinic.com/health/asthma-friendly/AS00033" />
+		<LinkItem ContentType="Article" DocID="AS00032" LinkType="Internal" ObjectID="1DDAB32A-E7FF-0DBD-120B55C722F83925" Title="Asthma treatment: Do complementary and alternative approaches work?" Url="http://www.mayoclinic.com/health/asthma-treatment/AS00032" />
+		<LinkItem ContentType="Article" DocID="AS00011" LinkType="Internal" ObjectID="1595FEDA-E534-4CC3-9B3C7C1F84716B0B" Title="Asthma treatment: 3 steps to better asthma control" Url="http://www.mayoclinic.com/health/asthma-treatment/AS00011" />
+	</RelatedLinksBox>
+</Disease>

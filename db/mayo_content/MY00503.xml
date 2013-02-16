@@ -1,0 +1,214 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00503
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/focused-ultrasound-surgery/MY00503
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-31
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4213" Title="Surgery">
+							<Keyword MCVID="4333" Title="Focused ultrasound surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ACDFD5FB-B100-114E-B15396A88721DF14
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				focused ultrasound surgery for uterine fibroids
+			</MetaKeyword>
+			<MetaKeyword>
+				focused ultrasound ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				fibroids ultrasound surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				focused ultrasound surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Focused ultrasound surgery is a treatment option for uterine fibroids &amp;mdash; noncancerous growths of the uterus. The procedure is noninvasive and preserves your uterus. Focused ultrasound surgery &amp;mdash; also called focused ultrasound ablation &amp;mdash; is performed while you&apos;re inside a magnetic resonance (MR) scanner equipped with a high-energy ultrasound transducer for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+During the procedure, MR images give your doctor the precise location of the uterine fibroids to be treated and the locations of nearby structures, such as the bowel and bladder, to be avoided. Then the ultrasound transducer is used to send focused sound waves (sonications) into the fibroid to heat and destroy small areas of tissue. A pelvic magnetic resonance imaging (MRI) scan is typically performed before treatment to determine whether you&apos;re a good candidate for focused ultrasound surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing focused ultrasound surgery 
+" Caption="During focused ultrasound surgery, high-frequency, high-energy sound waves are used to target and destroy uterine fibroids. The procedure is performed while you&apos;re inside an MRI scanner. The equipment allows your doctor to visualize your uterus, locate any fibroids and destroy the fibroid tissue without making any incisions. 
+" Height="60" Title="Focused ultrasound surgery" URI="/images/image_popup/thumbs/mcdc7_focused_ultrasoundthu.jpg" Width="60" />
+				<Image Alt="Illustration showing focused ultrasound surgery 
+" Caption="During focused ultrasound surgery, high-frequency, high-energy sound waves are used to target and destroy uterine fibroids. The procedure is performed while you&apos;re inside an MRI scanner. The equipment allows your doctor to visualize your uterus, locate any fibroids and destroy the fibroid tissue without making any incisions. 
+" Height="196" Title="Focused ultrasound surgery" URI="/images/image_popup/mcdc7_focused_ultrasound.jpg" Width="400" />
+				<HTML>
+					During focused ultrasound surgery, high-frequency, high-energy sound waves are used to target and destroy uterine fibroids. The procedure is performed while you&apos;re inside an MRI scanner. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Focused ultrasound surgery is performed to ease bothersome symptoms associated with uterine fibroids, including heavy bleeding and pelvic pain and pressure. The procedure provides a noninvasive alternative to surgical treatment of fibroids.
+&lt;/p&gt;
+&lt;p&gt;
+Although focused ultrasound surgery offers many advantages over other fibroid treatment options, it&apos;s not the best option for everyone. It may not be a good choice for you if your fibroids are located behind heat-sensitive organs, such as your bowel. This treatment isn&apos;t intended for women who desire a future pregnancy. Long-term effects on a woman&apos;s ability to become pregnant and carry a fetus to term have not been studied adequately yet; however, a number of women have had successful pregnancies after treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rarely, MR-guided focused ultrasound may result in:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Burns to the skin on your abdomen&lt;/li&gt;
+	&lt;li&gt;Damage to tissues and structures near the fibroid targeted for treatment&lt;/li&gt;
+	&lt;li&gt;Severe discomfort or pain during the procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other drawbacks of MR-guided focused ultrasound surgery include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Some fibroids may not be able to be treated&lt;/li&gt;
+	&lt;li&gt;May require further treatment if your symptoms return&lt;/li&gt;
+	&lt;li&gt;Lacks long-term data on safety and effectiveness&lt;/li&gt;
+	&lt;li&gt;Not widely available, as it&apos;s limited to specialized clinics&lt;/li&gt;
+	&lt;li&gt;Not an option for women who want to optimize chance of a future pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor performs focused ultrasound surgery in an MR scanning room. It&apos;s an outpatient procedure. You&apos;ll be asked to fast the day of the treatment. You&apos;ll also need to shave your lower abdomen between your pubic bone and bellybutton just before the treatment.
+&lt;/p&gt;
+&lt;p&gt;
+At the hospital, you&apos;re given a gown and robe to wear. Before entering the MR scanning room, remove all accessories &amp;mdash; watch, jewelry, hairpins, wigs, dentures and hearing aids &amp;mdash; that may contain metal or electronics. Metal objects may interfere with the magnetic field used during the exam, affecting the quality of the MR images. The magnetic field may also damage electronic items. Be sure to tell the technologist if you have any metal or electronic devices inside your body as well &amp;mdash; metallic joint prostheses, artificial heart valves, implanted electronic devices, cochlear implants, body piercings or magnets in your dentures (most dental fillings don&apos;t cause a problem). The presence of metal inside your body may be a safety hazard or affect a portion of the MR image.
+&lt;/p&gt;
+&lt;p&gt;
+Shortly before the procedure begins, an intravenous line will be placed in one of your veins, usually on the back of your hand. The doctor or nurse will use this line to give you medication and to inject contrast material for MR images taken right after the treatment. The medication helps you relax, but you&apos;ll be awake during the procedure (conscious sedation).
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll also have a urinary catheter inserted into your bladder. This is done to keep the bladder stable during your treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Typically, it takes 50 to 80 sonications during a treatment session to destroy the core of a fibroid. However, depending on the size and number of fibroids you have, more sonications or a second treatment may be necessary. As your treatment progresses, the MR images allow doctors to evaluate the effects and define areas that need additional treatment. In the future, improved technology may shorten the length of each treatment and reduce the number of sessions required.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+During the procedure, you lie on your stomach on a movable table that slides into the opening of the MR imaging scanner. A technologist makes sure that you&apos;re comfortable inside the scanner. He or she leaves the room and monitors you from an adjoining room. You&apos;ll be able to talk with him or her by microphone. Because the internal part of the magnet produces repetitive tapping, thumping sounds and other noises, earplugs will be provided to help block your noise perception.
+&lt;/p&gt;
+&lt;p&gt;
+The treatment itself takes about three to four hours, but can vary depending on the size and number of fibroids you have.
+&lt;/p&gt;
+&lt;p&gt;
+Before any ultrasound sonications are delivered, you&apos;ll be given medication intravenously to help you relax and relieve possible heat and cramping discomfort. After each sonication, you will be asked about your level of discomfort so that your medication can be adjusted or other necessary changes can be made.
+&lt;/p&gt;
+&lt;p&gt;
+Each sonication lasts approximately 20 seconds. While each portion of the fibroid is heated, MR imaging is used to monitor tissue temperature and determine if the fibroid has been heated enough to achieve the desired results. The process is repeated until most of the fibroid has reached a temperature that should destroy the tissue.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After the procedure, your body naturally absorbs a small portion of the ablated tissue over a period of months. Fibroid-related symptoms usually subside or improve significantly in three to six months.
+&lt;/p&gt;
+&lt;p&gt;
+If you live within a short distance (usually about 40 miles) of the medical facility, you should be able to go home as soon as you&apos;ve rested for a short time after the procedure. If you&apos;re farther from home, you can arrange to stay in town and return home on the following day. You&apos;ll need a friend or family member to be with you and drive for the first 24 hours after your treatment, due to the medications you receive during the treatment.
+&lt;/p&gt;
+&lt;p&gt;
+When you get home, you can resume your normal daily activities. Although rare, pain near the treatment area, nausea and skin burns have been reported after focused ultrasound surgery in some cases. Because the procedure is so new, some complications and side effects may still be unknown.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+More than 70 percent of women experience significant improvement in the severity of their fibroid-related symptoms within the first three to six months after focused ultrasound surgery. Researchers also report symptom relief for up to 24 months &amp;mdash; the longest follow-up period to date.
+&lt;/p&gt;
+&lt;p&gt;
+There have been reports of successful pregnancies following focused ultrasound surgery, but more research is needed. In the meantime, doctors don&apos;t recommend focused ultrasound surgery for any woman who plans on future pregnancy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Focused ultrasound surgery for uterine fibroids
+	</Title>
+	<Abstract>
+		Focused ultrasound surgery &amp;mdash; Overview covers what to expect, risks, results of this uterine fibroid treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00705" LinkType="Internal" ObjectID="2DF8E363-E7FF-0DBD-16D727A77BC097F1" Title="Video: Uterine fibroids treatment: Focused ultrasound" Url="http://www.mayoclinic.com/health/uterine-fibroids-treatment/MM00705" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+	</RelatedLinksBox>
+</TestProcedure>

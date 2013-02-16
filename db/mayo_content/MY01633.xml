@@ -1,0 +1,225 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01633
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hormone-therapy-for-prostate-cancer/MY01633
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-24
+		</UpdateDate>
+		<PublicationDate>
+			2011-02-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4711" Title="Hormone therapy">
+							<Keyword MCVID="4797" Title="Hormone therapy for prostate cancer" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F017285C-C4C6-D533-24361BF6E21B57FB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hormone therapy for prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				androgen deprivation therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				ADT
+			</MetaKeyword>
+			<MetaKeyword>
+				androgen suppression therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate cancer treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hormone therapy for prostate cancer, also called androgen deprivation therapy, is treatment to stop your body from producing the male hormone testosterone. Prostate cancer cells rely on testosterone to help them grow. Hormone therapy for prostate cancer can cut off the supply of testosterone, causing cancer cells to die or to grow more slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormone therapy for prostate cancer is most often used in men with advanced prostate cancer to shrink the cancer and slow the growth of tumors. In men with early-stage cancer, hormone therapy for prostate cancer may be used to shrink tumors before radiation therapy or surgery. Hormone therapy for prostate cancer is sometimes used after surgery or radiation therapy to slow the growth of any cancer cells left behind. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The male hormone testosterone fuels the growth of prostate cancer cells. Hormone therapy for prostate cancer is used to stop your body from producing testosterone. Cutting off the supply of testosterone can cause prostate cancer cells to die or to grow more slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend hormone therapy for prostate cancer as an option at different times during your cancer treatment and for different reasons, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;In advanced cancer, to shrink the cancer and slow the growth of tumors &lt;/li&gt;
+	&lt;li&gt;After surgery, to slow the growth of any remaining cancer cells (adjuvant therapy)&lt;/li&gt;
+	&lt;li&gt;In combination with other treatments, such as radiation therapy, to destroy cancer cells&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Side effects of hormone therapy for prostate cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Erectile dysfunction&lt;/li&gt;
+	&lt;li&gt;Loss of sex drive&lt;/li&gt;
+	&lt;li&gt;Hot flashes&lt;/li&gt;
+	&lt;li&gt;Growth of breast tissue&lt;/li&gt;
+	&lt;li&gt;Loss of muscle and bone mass&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Liver problems&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Mood swings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Long-term use of hormone therapy and the low hormone levels that result may increase your risk of developing cardiovascular problems, including heart disease and heart attack. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are several options for hormone therapy for prostate cancer. Before you undergo hormone therapy for prostate cancer, talk to your doctor to decide which approach is best for you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that stop your body from producing testosterone. &lt;/strong&gt;This is the most common form of hormone therapy for prostate cancer. Medications known as luteinizing hormone-releasing hormone (LHRH)&lt;strong&gt; &lt;/strong&gt;agonists prevent the testicles from receiving messages to make testosterone, causing the production of testosterone in the testicles to stop. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block testosterone from reaching cancer cells. &lt;/strong&gt;Medications known as anti-androgens prevent testosterone from reaching your cancer cells. These medications can be used alone, but more often they are given in conjunction with LHRH agonists because LHRH agonists can cause a temporary increase in testosterone before testosterone levels decrease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the testicles (orchiectomy).&lt;/strong&gt; Removing your testicles significantly reduces testosterone levels in your body. Orchiectomy is the most straightforward method of hormone therapy for prostate cancer, and it can decrease testosterone levels quickly. But unlike medication options, surgery to remove the testicles is permanent and irreversible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Luteinizing hormone-releasing hormone agonists&lt;/strong&gt; &lt;br /&gt;
+LHRH agonist medications &amp;mdash; also called gonadotropin-releasing hormone (GnRH) agonists &amp;mdash; stop your body from producing testosterone. These medications are injected under your skin or into a muscle, or they can be placed as an implant under your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Drugs typically used in this type of hormone therapy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Leuprolide (Lupron, Eligard)&lt;/li&gt;
+	&lt;li&gt;Goserelin (Zoladex)&lt;/li&gt;
+	&lt;li&gt;Triptorelin (Trelstar)&lt;/li&gt;
+	&lt;li&gt;Histrelin (Vantas)&lt;/li&gt;
+	&lt;li&gt;Degarelix (Firmagon)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on your situation and the specific medication you receive, you may require a dose of an LHRH agonist as often as once a month or as infrequently as once a year. 
+&lt;/p&gt;
+&lt;p&gt;
+Testosterone levels may increase briefly (flare) after you receive an LHRH agonist. Anti-androgen medications can help decrease the risk of a flare, so your doctor may recommend you take an anti-androgen either before or along with an LHRH agonist. Protecting against effects of a flare is particularly important if you are experiencing pain or other symptoms due to cancer because an increase in testosterone can make those symptoms worse. In some cases, a flare may also cause prostate cancer to progress. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anti-androgens&lt;/strong&gt; &lt;br /&gt;
+These medications don&apos;t decrease hormone levels. Instead, anti-androgens block testosterone from reaching cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Drugs typically used in this type of hormone therapy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bicalutamide (Casodex)&lt;/li&gt;
+	&lt;li&gt;Flutamide&lt;/li&gt;
+	&lt;li&gt;Nilutamide (Nilandron) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Anti-androgens are given as oral medications. They are usually prescribed along with an LHRH agonist or before taking an LHRH agonist to decrease risks associated with the hormone flare that can be caused by an LHRH agonist. 
+&lt;/p&gt;
+&lt;p&gt;
+To minimize the side effects of LHRH agonists and anti-androgens, your doctor may recommend you take these medications only until prostate cancer responds to the treatment and stop taking them once the cancer is under control. You may need to resume these medications if the disease recurs or progresses. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to remove the testicles (orchiectomy)&lt;/strong&gt; &lt;br /&gt;
+To remove your testicle, your surgeon makes an incision in your groin and extracts the entire testicle through the opening. A prosthetic, saline-filled testicle can be inserted if you choose. You&apos;ll receive anesthetics during surgery. All surgical procedures carry a risk of pain, bleeding and infection. Orchiectomy is usually performed as an outpatient procedure and doesn&apos;t require hospitalization. Typically, no additional hormone therapy is required following orchiectomy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hormone therapy for prostate cancer doesn&apos;t cure the disease. Although this treatment can help to manage prostate cancer by causing cancer cells to die or grow more slowly, it isn&apos;t a permanent solution. Almost all prostate cancers eventually recur or progress despite hormone therapy. But hormone therapy may effectively slow prostate cancer for months or years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hormone therapy for prostate cancer
+	</Title>
+	<Abstract>
+		Hormone therapy for prostate cancer &amp;mdash; Overview covers risks, what to expect and results.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00162" LinkType="Internal" ObjectID="F52ADDE0-FE7E-4F9D-9ACB4F34354E023C" Title="Erectile dysfunction" Url="http://www.mayoclinic.com/health/erectile-dysfunction/DS00162" />
+	</RelatedLinksBox>
+</TestProcedure>

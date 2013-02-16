@@ -1,0 +1,204 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00315
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00315
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			DBECCD86-4AD7-41EB-889033B1D2B8913E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook&lt;/em&gt;, published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Greek salad
+	</Title>
+	<Abstract>
+		Greek salad &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Although spinach is a good source of iron and calcium, the oxalic acid in this vegetable prevents their absorption. Vitamin C can help reverse this. Eating this salad along with vitamin C-containing juice or fruit, such as oranges, can help improve absorption. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Position a rack in the lower third of the oven and preheat to 450 F (230 C). Lightly coat a baking sheet with olive oil cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+To make the vinaigrette, whisk together the vinegar, lemon juice, oregano, salt and pepper in a small bowl. While whisking, slowly add the olive oil in a thin stream until emulsified. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+Spread the eggplant cubes in a single layer on the prepared baking sheet. Spray the eggplant with olive oil cooking spray. Roast for 10 minutes. Turn the cubes and roast until softened and lightly golden, 8 to 10 minutes longer. Set aside and let cool completely. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, combine the spinach, cucumber, tomato, onion and cooled eggplant. Pour the vinaigrette over the salad and toss gently to mix well and coat evenly. Divide the salad among individual plates. Sprinkle with the olives and feta. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+For the vinaigrette 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1 tablespoon red wine vinegar&lt;/li&gt;
+	&lt;li&gt;1 tablespoon fresh lemon juice&lt;/li&gt;
+	&lt;li&gt;2 teaspoons chopped fresh oregano or 3/4 teaspoon dried oregano&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon freshly ground black pepper&lt;/li&gt;
+	&lt;li&gt;2 1/2 tablespoons extra-virgin olive oil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;1 large eggplant, about 1 1/2 pounds, trimmed and cut into 1/2-inch cubes&lt;/li&gt;
+	&lt;li&gt;1 pound spinach, stemmed and torn into bite-sized pieces &lt;/li&gt;
+	&lt;li&gt;1 English (hothouse) cucumber, peeled, seeded and diced&lt;/li&gt;
+	&lt;li&gt;1 tomato, seeded and diced&lt;/li&gt;
+	&lt;li&gt;1/2 red onion, diced&lt;/li&gt;
+	&lt;li&gt;2 tablespoons pitted, chopped black Greek olives&lt;/li&gt;
+	&lt;li&gt;2 tablespoons crumbled feta cheese&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				88
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				9 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				2 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				245 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

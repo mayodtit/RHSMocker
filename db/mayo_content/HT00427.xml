@@ -1,0 +1,79 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00427
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00427
+		</OriginalURL>
+		<UpdateDate>
+			2010-04-24
+		</UpdateDate>
+		<PublicationDate>
+			2008-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1100" Title="Aerobic exercise" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AEF5A72B-E7FF-0DBD-178E105AEB23B658
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				walking
+			</MetaKeyword>
+			<MetaKeyword>
+				athletic shoes
+			</MetaKeyword>
+			<MetaKeyword>
+				walking shoes
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise shoes
+			</MetaKeyword>
+			<MetaKeyword>
+				feet
+			</MetaKeyword>
+			<MetaKeyword>
+				foot
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Time for new tennies?
+	</Title>
+	<Body>
+		&lt;p&gt;If you exercise regularly, your athletic shoes are bound to show signs of wear. And even if they still feel comfortable, they might not be providing enough support or shock absorption. Pay attention to the condition of your athletic shoes. If the outsole is worn through, it&apos;s time for a new pair.&lt;/p&gt;
+	</Body>
+</HealthTip>

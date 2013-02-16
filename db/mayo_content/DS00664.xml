@@ -1,0 +1,359 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00664
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diabetic-hyperosmolar-syndrome/DS00664
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus">
+						<Keyword MCVID="4234" Title="Diabetic hyperosmolar" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E5EA160A-2A5D-9994-E3C942786D225A9D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hyperglycemia
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic hyperosmolar syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperosmolar hyperglycemic syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				nonketotic
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood glucose
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar monitoring
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar testing
+			</MetaKeyword>
+			<MetaKeyword>
+				blood glucose testing
+			</MetaKeyword>
+			<MetaKeyword>
+				DHS
+			</MetaKeyword>
+			<MetaKeyword>
+				HHS
+			</MetaKeyword>
+			<MetaKeyword>
+				HHNS
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic hyperosmolar (hi-pur-oz-MOE-lur) syndrome is a serious condition that develops when your blood sugar reaches a very high level. When your blood sugar gets to this level, your blood becomes thick and syrupy, causing diabetic hyperosmolar syndrome. Excess sugar passes from your blood into your urine, triggering a filtering process that draws tremendous amounts of fluid from your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Diabetic hyperosmolar syndrome usually affects people with type 2 diabetes, and may develop in people who haven&apos;t yet been diagnosed with diabetes.
+&lt;/p&gt;
+&lt;p&gt;
+Left untreated, diabetic hyperosmolar syndrome can lead to life-threatening dehydration. Prompt medical care is essential. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic hyperosmolar syndrome may take days or even weeks to develop. &amp;nbsp;Pay attention to possible signs and symptoms, which include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood sugar level&lt;/li&gt;
+	&lt;li&gt;Excessive thirst&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Increased urination &lt;/li&gt;
+	&lt;li&gt;Warm, dry skin with no sweating&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sleepiness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Vision loss&lt;/li&gt;
+	&lt;li&gt;Weakness on one side of the body&lt;/li&gt;
+	&lt;li&gt;Convulsions &lt;/li&gt;
+	&lt;li&gt;Coma &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Consult your doctor&lt;/strong&gt; &lt;strong&gt;if&lt;/strong&gt; your blood sugar is persistently higher than the target range your doctor has recommended, or if you experience any signs or symptoms of diabetic hyperosmolar syndrome, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Excessive thirst&lt;/li&gt;
+	&lt;li&gt;Increased urination &lt;/li&gt;
+	&lt;li&gt;Warm, dry skin without sweating&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care&lt;/strong&gt; &lt;strong&gt;if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your blood sugar level is 600 milligrams per decileter (mg/dL), or 33.3 millimoles per liter (mmol/L) or higher &lt;/li&gt;
+	&lt;li&gt;You experience confusion, vision changes or weakness on one side of the body&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic hyperosmolar syndrome may be triggered by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Illness&lt;/li&gt;
+	&lt;li&gt;An underlying infection, such as pneumonia, dental or a urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Not following your diabetes treatment plan &lt;/li&gt;
+	&lt;li&gt;Certain medications, such as water pills (diuretics) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes undiagnosed diabetes results in diabetic hyperosmolar syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors raise your risk of developing diabetic hyperosmolar syndrome, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having type 2 diabetes.&lt;/strong&gt; Although people with type 1 diabetes can be affected, hyperosmolar syndrome is much more common in people with type 2 diabetes. &amp;nbsp;If you have type 2 diabetes, and you don&apos;t monitor your blood sugar or you don&apos;t yet know you have type 2 diabetes, you have an even higher risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being middle-aged or older.&lt;/strong&gt; If you&apos;re in these age groups, you&apos;re more likely to develop diabetic hyperosmolar syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having another chronic health condition.&lt;/strong&gt; Your risk of hyperosmolar syndrome is increased if you have another chronic illness, such as congestive heart failure or kidney disease. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having an infection.&lt;/strong&gt; Having an illness, such as pneumonia or a virus, causes your blood sugar levels to rise and can increase your risk of diabetic hyperosmolar syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking certain medications.&lt;/strong&gt; Some drugs &amp;mdash; such as corticosteroids (prednisone), diuretics (hydrochlorothiazide and chlorthalidone) and the anti-seizure medication phenytoin (Dilantin) &amp;mdash; can increase your risk of developing hyperosmolar syndrome. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic hyperosmolar syndrome can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Convulsions &lt;/li&gt;
+	&lt;li&gt;Heart attack &lt;/li&gt;
+	&lt;li&gt;Stroke &lt;/li&gt;
+	&lt;li&gt;Coma &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Without prompt treatment, diabetic hyperosmolar syndrome can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic hyperosmolar syndrome is a medical emergency that you won&apos;t have time to prepare for. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been feeling the symptoms of high blood sugar, such as extreme thirst and excessive urination, for a few days, check your blood sugar level and call your doctor for advice. If you feel the symptoms of extreme high blood sugar (more than 600 mg/dL, or 33.3 mmol/L), call 911 or your local emergency number. Don&apos;t try to drive yourself to the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re with someone who has diabetes and is acting confused, has one-sided weakness or has passed out, call for immediate medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+After you&apos;ve received treatment and are feeling better, some questions you might want to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How can I better control my diabetes?&lt;/li&gt;
+	&lt;li&gt;What range does my blood sugar need to be in?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;What dietary changes do I need to follow?&lt;/li&gt;
+	&lt;li&gt;Can I get help from a dietitian?&lt;/li&gt;
+	&lt;li&gt;Does eating a meal with a lot of sugar bring on this syndrome?&lt;/li&gt;
+	&lt;li&gt;Do I need to consume fluids more regularly?&lt;/li&gt;
+	&lt;li&gt;Can diabetic hyperosmolar syndrome happen again?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience diabetic hyperosmolar syndrome, prompt diagnosis is critical. The emergency medical team will do a physical exam and may ask those who are with you about your medical history. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;/strong&gt; &lt;br /&gt;
+You may need various lab tests to measure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your current blood sugar level &lt;/li&gt;
+	&lt;li&gt;Glycated hemoglobin (A1C) &amp;mdash; a blood test that indicates your average blood sugar level for the past two to three months &lt;/li&gt;
+	&lt;li&gt;Whether or not ketones are present in your urine &amp;mdash; ketones are byproducts made when fat is used as fuel instead of glucose &lt;/li&gt;
+	&lt;li&gt;Your kidney function, by testing the amount of blood urea nitrogen or creatinine in your blood &lt;/li&gt;
+	&lt;li&gt;The amount of potassium, phosphate and sodium in your blood &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll be diagnosed with diabetic hyperosmolar syndrome if your blood sugar level is 600 mg/dL (33.3 mmol/L) or higher. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Emergency treatment can correct diabetic hyperosmolar syndrome within hours. Treatment typically includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Intravenous fluids &lt;/li&gt;
+	&lt;li&gt;Insulin to lower your blood sugar levels &lt;/li&gt;
+	&lt;li&gt;Possibly, potassium, sodium or phosphate replacement to help your cells function correctly &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have an infection, or an underlying health condition, such as congestive heart failure or kidney disease, these conditions will be treated as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Good day-to-day control of your diabetes can help you prevent diabetic hyperosmolar syndrome. Keep these tips in mind: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know the symptoms of high blood sugar.&lt;/strong&gt; Be alert for the warning symptoms of high blood sugar, as well as the situations that put you at risk of developing hyperosmolar syndrome, such as illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your meal plan.&lt;/strong&gt; Consistent snacks and meals can help keep your blood sugar level steady. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep an eye on your blood sugar level.&lt;/strong&gt; Blood sugar monitoring can tell you whether you&apos;re keeping your blood sugar level in your target range &amp;mdash; and alert you to dangerous highs, especially if you have an infection. Ask your doctor how often you should test your blood sugar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medication as directed.&lt;/strong&gt; If you have frequent episodes of high blood sugar, let your doctor know. He or she may need to adjust the dosage or timing of your medication. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Regular physical activity can help keep your blood sugar levels from going too high. Talk with your doctor before beginning any exercise plan, but for most people, experts recommend 150 minutes of moderate intensity exercise a week &amp;mdash; about 30 minutes a day. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Educate your loved ones, friends and co-workers.&lt;/strong&gt; Teach loved ones and other close contacts how to recognize early signs and symptoms of blood sugar extremes &amp;mdash; and how to summon emergency help should you pass out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a medical ID bracelet or necklace.&lt;/strong&gt; If you&apos;re unconscious, the ID can provide valuable information to your loved ones, co-workers and others &amp;mdash; including emergency personnel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay up to date on your vaccinations.&lt;/strong&gt; Be sure to get an annual flu shot, and ask your doctor if you need the pneumococcal vaccine, which protects against some forms of pneumonia. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diabetic hyperosmolar syndrome
+	</Title>
+	<Abstract>
+		Diabetic hyperosmolar syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this life-threatening diabetes complication.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="DA00070" LinkType="Internal" ObjectID="FFECC864-B509-4016-A95B8B3063E225BD" Title="Exchange list: Fruits" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00070" />
+		<LinkItem ContentType="Table" DocID="DA00074" LinkType="Internal" ObjectID="E8B50501-6C24-4241-A1E8C169A2B950FE" Title="Exchange list: Meat and meat substitutes" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00074" />
+		<LinkItem ContentType="Table" DocID="DA00071" LinkType="Internal" ObjectID="DD69253A-E3DF-4F6A-8AE48AE0986EBA84" Title="Exchange list: Milk and yogurt" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00071" />
+		<LinkItem ContentType="Answer" DocID="AN00939" LinkType="Internal" ObjectID="D0BA0C8B-17C3-4C5E-BABD5DA735C80B61" Title="Diabetes treatment: Can cinnamon lower blood sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00939" />
+		<LinkItem ContentType="Table" DocID="DA00075" LinkType="Internal" ObjectID="CF972E06-29EF-4015-9A1C8613E800A73A" Title="Exchange list: Fats" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00075" />
+		<LinkItem ContentType="Answer" DocID="AN01509" LinkType="Internal" ObjectID="CECA1726-E7FF-0DBD-1DD8DA13038C98D1" Title="Diabetes: Are electric blankets off-limits?" Url="http://www.mayoclinic.com/health/diabetes/AN01509" />
+		<LinkItem ContentType="Answer" DocID="AN02011" LinkType="Internal" ObjectID="C0683904-0C4A-603E-4A007645231D330D" Title="Diabetes and depression: Coping with the two conditions" Url="http://www.mayoclinic.com/health/diabetes-and-depression/AN02011" />
+		<LinkItem ContentType="Answer" DocID="AN00845" LinkType="Internal" ObjectID="BA768AB8-55AC-44BE-B45CD8CE91F12909" Title="Vegetarian diet: Can it help me control my diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00845" />
+		<LinkItem ContentType="Answer" DocID="AN01958" LinkType="Internal" ObjectID="B00158B5-E7FF-0DBD-1534BED2254DFE59" Title="Diabetes management: Does aspirin therapy prevent heart problems?" Url="http://www.mayoclinic.com/health/aspirin-therapy/AN01958" />
+		<LinkItem ContentType="Answer" DocID="AN01213" LinkType="Internal" ObjectID="9AE4F795-2A5D-9994-E655F8F5BCE0FE85" Title="The dawn phenomenon: What can you do?" Url="http://www.mayoclinic.com/health/dawn-effect/AN01213" />
+		<LinkItem ContentType="Table" DocID="DA00069" LinkType="Internal" ObjectID="8CF7446C-571D-4B1F-A057D979AF6E5720" Title="Exchange list: Starches" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00069" />
+		<LinkItem ContentType="Answer" DocID="AN01691" LinkType="Internal" ObjectID="842617FF-E7FF-0DBD-1A64CA34C5DF5D28" Title="Diabetes diet: Should I avoid sweet fruits?" Url="http://www.mayoclinic.com/health/diabetes/AN01691" />
+		<LinkItem ContentType="Answer" DocID="AN00348" LinkType="Internal" ObjectID="72E5EDAD-7EEA-4F0E-88EB83087ACFF95F" Title="Artificial sweeteners: Any effect on blood sugar?" Url="http://www.mayoclinic.com/health/artificial-sweeteners/AN00348" />
+		<LinkItem ContentType="Answer" DocID="AN00193" LinkType="Internal" ObjectID="609C212D-35EF-4EE8-82502B1A9DD06CD5" Title="Diabetes: How do I help protect my liver?" Url="http://www.mayoclinic.com/health/diabetes/AN00193" />
+		<LinkItem ContentType="Table" DocID="DA00091" LinkType="Internal" ObjectID="5EBD4F51-485A-43CC-B9267FF9CF6E49F4" Title="Insulin: Compare common options for insulin therapy" Url="http://www.mayoclinic.com/health/insulin/DA00091" />
+		<LinkItem ContentType="Answer" DocID="AN02125" LinkType="Internal" ObjectID="53B81A0F-F957-5499-DAB3590605B0584D" Title="Avandia safety concerns: What should I do?" Url="http://www.mayoclinic.com/health/avandia/AN02125" />
+		<LinkItem ContentType="Table" DocID="DA00076" LinkType="Internal" ObjectID="50C876BB-9357-4523-98985FA091614048" Title="Exchange list: Free foods" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00076" />
+		<LinkItem ContentType="Table" DocID="DA00072" LinkType="Internal" ObjectID="42043545-A8FA-4F54-9B6A320BDFBEF75B" Title="Exchange list: Sweets, desserts and other carbohydrates" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00072" />
+		<LinkItem ContentType="Answer" DocID="AN00975" LinkType="Internal" ObjectID="3DA7267F-C9A3-43E6-A71669768F406A86" Title="Late-night eating: OK if you have diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00975" />
+		<LinkItem ContentType="Answer" DocID="AN00934" LinkType="Internal" ObjectID="336612B6-E243-4FD8-9AC9D79DDCC1C935" Title="Reactive hypoglycemia: What can I do?" Url="http://www.mayoclinic.com/health/reactive-hypoglycemia/AN00934" />
+		<LinkItem ContentType="Answer" DocID="HQ00384" LinkType="Internal" ObjectID="25FA95EB-E5BE-4749-A010272B67DFCEF4" Title="Managing diabetes: Looking beyond carbs" Url="http://www.mayoclinic.com/health/diabetes/HQ00384" />
+		<LinkItem ContentType="Answer" DocID="AN02037" LinkType="Internal" ObjectID="256FFF50-DE1F-04C7-CCF1C067D4816F2D" Title="Blood glucose monitors: What factors affect accuracy?" Url="http://www.mayoclinic.com/health/blood-glucose-monitors/AN02037" />
+		<LinkItem ContentType="SlideShow" DocID="DA00062" LinkType="Internal" ObjectID="146260D0-9910-47B2-9D58A9BC2C01AA12" Title="Slide show: Blood sugar testing" Url="http://www.mayoclinic.com/health/blood-sugar/DA00062" />
+		<LinkItem ContentType="Answer" DocID="AN00754" LinkType="Internal" ObjectID="0F07D463-CFF5-48B0-8023B589F97745E8" Title="Glycemic index diet: A helpful tool for diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00754" />
+		<LinkItem ContentType="Answer" DocID="AN00425" LinkType="Internal" ObjectID="0D5D69BC-AD00-4EF9-AA583AA7ECCCB5CE" Title="Diabetes foods: Is honey a good substitute for sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00425" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01072" LinkType="Internal" ObjectID="0D045347-D493-491D-87747DC88EF2FAA9" Title="Bone and joint problems associated with diabetes" Url="http://www.mayoclinic.com/health/diabetes/AN01072" />
+		<LinkItem ContentType="Video" DocID="MM00641" LinkType="Internal" ObjectID="0798BB8E-A076-4530-A813B1FE5D082347" Title="Video: How diabetes affects your blood sugar" Url="http://www.mayoclinic.com/health/blood-sugar/MM00641" />
+		<LinkItem ContentType="Article" DocID="DA00140" LinkType="Internal" ObjectID="F137A4D5-E7FF-0DBD-19EFDE501E927526" Title="Amputation and diabetes: How to protect your feet" Url="http://www.mayoclinic.com/health/amputation-and-diabetes/DA00140" />
+		<LinkItem ContentType="Article" DocID="DA00005" LinkType="Internal" ObjectID="DBF746E8-C262-42D5-B930E93CDA7EF2FC" Title="Diabetes management: How lifestyle, daily routine affect blood sugar" Url="http://www.mayoclinic.com/health/diabetes-management/DA00005" />
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+		<LinkItem ContentType="Article" DocID="DA00131" LinkType="Internal" ObjectID="CCD93E60-E7FF-0DBD-16D4DC756C95973A" Title="Diabetes nutrition: Eating out when you have diabetes" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00131" />
+		<LinkItem ContentType="Article" DocID="DA00130" LinkType="Internal" ObjectID="CCD8D0D2-E7FF-0DBD-1147590923E8C5D8" Title="Diabetes nutrition: Including sweets in your meal plan" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00130" />
+		<LinkItem ContentType="Article" DocID="DA00129" LinkType="Internal" ObjectID="CCD8574E-E7FF-0DBD-17D0E039BF826AA0" Title="Reading food labels: Tips if you have diabetes" Url="http://www.mayoclinic.com/health/food-labels/DA00129" />
+		<LinkItem ContentType="Article" DocID="DA00007" LinkType="Internal" ObjectID="92AC67F3-1213-490C-92B735ECBA4127FA" Title="Blood sugar testing: Why, when and how" Url="http://www.mayoclinic.com/health/blood-sugar/DA00007" />
+		<LinkItem ContentType="Article" DocID="MY00924" LinkType="Internal" ObjectID="857E4CB1-9711-9A15-FC482EF2F728CE05" Title="Blood glucose meter: How to choose" Url="http://www.mayoclinic.com/health/blood-glucose-meter/MY00924" />
+		<LinkItem ContentType="Article" DocID="DA00077" LinkType="Internal" ObjectID="77362434-F554-430A-921AFCFD1A1843D6" Title="Your diabetes diet: Exchange lists" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00077" />
+		<LinkItem ContentType="Article" DocID="DA00008" LinkType="Internal" ObjectID="6AEAFB6E-1AD3-4135-895FD14C6101E152" Title="Diabetes care: 10 ways to avoid diabetes complications" Url="http://www.mayoclinic.com/health/diabetes-management/DA00008" />
+		<LinkItem ContentType="Article" DocID="DA00105" LinkType="Internal" ObjectID="636D1AE8-2008-4B4F-97235C8819FC5DCD" Title="Diabetes and exercise: When to monitor your blood sugar" Url="http://www.mayoclinic.com/health/diabetes-and-exercise/DA00105" />
+		<LinkItem ContentType="Article" DocID="DA00073" LinkType="Internal" ObjectID="4C506041-DDCD-48C8-9EC11A94ABDC4AF9" Title="Exchange list: Nonstarchy vegetables" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00073" />
+		<LinkItem ContentType="Article" DocID="DA00038" LinkType="Internal" ObjectID="167CE011-22E6-46C5-BC2634387D8E47AC" Title="Diabetes and menopause: A twin challenge" Url="http://www.mayoclinic.com/health/diabetes/DA00038" />
+		<LinkItem ContentType="Article" DocID="DA00027" LinkType="Internal" ObjectID="15BFEA7A-0FD3-4F24-B4F777100DAF60F1" Title="Diabetes diet: Create your healthy-eating plan" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00027" />
+		<LinkItem ContentType="Article" DocID="DA00125" LinkType="Internal" ObjectID="147B55E4-E7FF-0DBD-1F6F914B34826B5D" Title="Diabetes symptoms: When diabetes symptoms are a concern" Url="http://www.mayoclinic.com/health/diabetes-symptoms/DA00125" />
+		<LinkItem ContentType="Article" DocID="DA00010" LinkType="Internal" ObjectID="0D683502-920C-47E6-AE42F3355B6B8816" Title="Diabetes treatment: Using insulin to manage blood sugar" Url="http://www.mayoclinic.com/health/diabetes-treatment/DA00010" />
+		<LinkItem ContentType="Article" DocID="DA00088" LinkType="Internal" ObjectID="02E539B2-398D-43D8-ABF8B817F1901492" Title="Intensive insulin therapy: Achieving tight blood sugar control" Url="http://www.mayoclinic.com/health/intensive-insulin-therapy/DA00088" />
+		<LinkItem ContentType="Article" DocID="DA00013" LinkType="Internal" ObjectID="019020A5-D8EF-44ED-A1FC275B92B2D1A7" Title="Diabetes and dental care: Guide to a healthy mouth" Url="http://www.mayoclinic.com/health/diabetes/DA00013" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Disease" DocID="DS01168" LinkType="Internal" ObjectID="6A08F32B-C98C-76AC-13E6BEB06378AE2F" Title="Hyperglycemia in diabetes" Url="http://www.mayoclinic.com/health/hyperglycemia/DS01168" />
+	</RelatedLinksBox>
+</Disease>

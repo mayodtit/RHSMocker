@@ -1,0 +1,380 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00056
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/common-cold/DS00056
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1593" Title="Common cold" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7857D5F5-3E9F-4289-918B67FA9D0E63E2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				common cold
+			</MetaKeyword>
+			<MetaKeyword>
+				colds
+			</MetaKeyword>
+			<MetaKeyword>
+				cold
+			</MetaKeyword>
+			<MetaKeyword>
+				fever
+			</MetaKeyword>
+			<MetaKeyword>
+				sore throat
+			</MetaKeyword>
+			<MetaKeyword>
+				cough
+			</MetaKeyword>
+			<MetaKeyword>
+				sneezing
+			</MetaKeyword>
+			<MetaKeyword>
+				chills
+			</MetaKeyword>
+			<MetaKeyword>
+				flu
+			</MetaKeyword>
+			<MetaKeyword>
+				pneumonia
+			</MetaKeyword>
+			<MetaKeyword>
+				congestion
+			</MetaKeyword>
+			<MetaKeyword>
+				chest cold
+			</MetaKeyword>
+			<MetaKeyword>
+				phlem
+			</MetaKeyword>
+			<MetaKeyword>
+				phlegm
+			</MetaKeyword>
+			<MetaKeyword>
+				upper respiratory infection
+			</MetaKeyword>
+			<MetaKeyword>
+				uri
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The common cold is a viral infection of your upper respiratory tract &amp;mdash; your nose and throat. A common cold is usually harmless, although it may not feel that way. If it&apos;s not a runny nose, sore throat and cough, it&apos;s the watery eyes, sneezing and congestion &amp;mdash; or maybe all of the above. In fact, because any one of more than 100 viruses can cause a common cold, signs and symptoms tend to vary greatly. 
+&lt;/p&gt;
+&lt;p&gt;
+Preschool children are at greatest risk of frequent colds, but even healthy adults can expect to have a few colds each year. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people recover from a common cold in about a week or two. If symptoms don&apos;t improve, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of a common cold usually appear about one to three days after exposure to a cold-causing virus. Signs and symptoms of a common cold may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Runny or stuffy nose&lt;/li&gt;
+	&lt;li&gt;Itchy or sore throat&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Congestion&lt;/li&gt;
+	&lt;li&gt;Slight body aches or a mild headache&lt;/li&gt;
+	&lt;li&gt;Sneezing&lt;/li&gt;
+	&lt;li&gt;Watery eyes&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+	&lt;li&gt;Mild fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The discharge from your nose may become thicker and yellow or green in color as a common cold runs its course. What makes a cold different from other viral infections is that you generally won&apos;t have a high fever. You&apos;re also unlikely to experience significant fatigue from a common cold. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;For adults&lt;/strong&gt; &amp;mdash; seek medical attention if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever of 103 F (39.4 C) or higher &lt;/li&gt;
+	&lt;li&gt;Fever accompanied by sweating, chills and a cough with colored phlegm&lt;/li&gt;
+	&lt;li&gt;Significantly swollen glands&lt;/li&gt;
+	&lt;li&gt;Severe sinus pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For children&lt;/strong&gt; &amp;mdash; in general, children are sicker with a common cold than adults are and often develop complications, such as ear infections. Your child doesn&apos;t need to see the doctor for a routine common cold. But seek medical attention right away if your child has any of the following signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever of 103 F (39.4 C) or higher in children age 2 or older &lt;/li&gt;
+	&lt;li&gt;Fever of 102 F (38.9 C) or higher in children ages 6 weeks to 2 years &lt;/li&gt;
+	&lt;li&gt;Fever of 100 F (37.8 C) in newborns up to 6 weeks &lt;/li&gt;
+	&lt;li&gt;Signs of dehydration, such as urinating less often than usual &lt;/li&gt;
+	&lt;li&gt;Not drinking adequate fluids &lt;/li&gt;
+	&lt;li&gt;Fever that lasts more than three days&lt;/li&gt;
+	&lt;li&gt;Vomiting or abdominal pain&lt;/li&gt;
+	&lt;li&gt;Unusual sleepiness&lt;/li&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Stiff neck&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Persistent crying&lt;/li&gt;
+	&lt;li&gt;Ear pain&lt;/li&gt;
+	&lt;li&gt;Persistent cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If symptoms in a child or an adult last longer than 10 days, call your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although more than 100 viruses can cause a common cold, the rhinovirus is the most common culprit, and it&apos;s highly contagious. 
+&lt;/p&gt;
+&lt;p&gt;
+A cold virus enters your body through your mouth or nose. The virus can spread through droplets in the air when someone who is sick coughs, sneezes or talks. But it also spreads by hand-to-hand contact with someone who has a cold or by using shared objects, such as utensils, towels, toys or telephones. If you touch your eyes, nose or mouth after such contact or exposure, you&apos;re likely to &quot;catch&quot; a cold. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cold viruses are almost always present in the environment. But the following factors can increase your chances of getting a cold: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Infants and preschool children are especially susceptible to common colds because they haven&apos;t yet developed resistance to most of the viruses that cause them. But an immature immune system isn&apos;t the only thing that makes kids vulnerable. They also tend to spend lots of time with other children and frequently aren&apos;t careful about washing their hands and covering their mouth and nose when they cough and sneeze. Colds in newborns can be problematic if they interfere with nursing or breathing through the nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunity.&lt;/strong&gt; As you age, you develop immunity to many of the viruses that cause common colds. You&apos;ll have colds less frequently than you did as a child. However, you can still come down with a cold when you are exposed to cold viruses or have a weakened immune system. All of these factors increase your risk of a cold.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Time of year.&lt;/strong&gt; Both children and adults are more susceptible to colds in fall and winter. That&apos;s because children are in school, and most people are spending a lot of time indoors. In places where there is no winter season, colds are more frequent in the rainy season.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute ear infection (otitis media).&lt;/strong&gt; Ear infection occurs when bacteria or viruses infiltrate the space behind the eardrum. It&apos;s a frequent complication of common colds in children. Typical signs and symptoms include earaches and, in some cases, a green or yellow discharge from the nose or the return of a fever following a common cold. Children who are too young to verbalize their distress may simply cry or sleep restlessly. Ear pulling is not a reliable sign.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wheezing.&lt;/strong&gt; A cold can trigger wheezing in children with asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sinusitis.&lt;/strong&gt; In adults or children, a common cold that doesn&apos;t resolve may lead to sinusitis &amp;mdash; inflammation and infection of the sinuses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other secondary infections.&lt;/strong&gt; These include strep throat (streptococcal pharyngitis), pneumonia, bronchitis in adults, and croup or bronchiolitis in children. These infections need to be treated by a doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has a cold, you&apos;re likely to start by seeing your family doctor, a general practitioner or your child&apos;s pediatrician. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to prepare in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Write down any symptoms you or your child has had, and for how long.&lt;/li&gt;
+	&lt;li&gt;Note any recent exposure to people who&apos;ve been ill with similar signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;Write down key medical information, including any other health problems and the names of any medications you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;Write down your questions for the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For common cold, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Are any tests needed?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What treatments should be avoided?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect symptoms to improve?&lt;/li&gt;
+	&lt;li&gt;Am I or my child contagious? When is it safe to return to school or work?&lt;/li&gt;
+	&lt;li&gt;What self-care steps might help?&lt;/li&gt;
+	&lt;li&gt;I or my child has these other health conditions. How can they best be managed together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What signs and symptoms have you noticed, and how severe are they?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Did symptoms improve and then worsen?&lt;/li&gt;
+	&lt;li&gt;Have these signs and symptoms included a fever? How high?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been exposed to anyone with a similar illness in the last couple of weeks?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your or your child&apos;s symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;What medications are you or your child currently taking, including vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Has you or your child lost weight?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you&apos;re waiting for your appointment, get plenty of rest and drink lots of fluids. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for the common cold. Antibiotics are of no use against cold viruses. Over-the-counter (OTC) cold preparations won&apos;t cure a common cold or make it go away any sooner, and most have side effects. Here&apos;s a look at the pros and cons of some common cold remedies. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; For fever, sore throat and headache, many people turn to acetaminophen (Tylenol, others) or other mild pain relievers. Keep in mind that acetaminophen can cause liver damage, especially if taken frequently or in larger than recommended doses. Don&apos;t give acetaminophen to children under 3 months of age, and be especially careful when giving acetaminophen to older babies and children because the dosing guidelines can be confusing. For instance, the infant-drop formulation is much more concentrated than the syrup commonly used in older children. Never give aspirin to children. It has been associated with Reye&apos;s syndrome &amp;mdash; a rare but potentially fatal illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decongestant nasal sprays.&lt;/strong&gt; Adults shouldn&apos;t use decongestant drops or sprays for more than a few days because prolonged use can cause chronic rebound inflammation of mucous membranes. And children shouldn&apos;t use decongestant drops or sprays at all. There&apos;s little evidence that they work in young children, and they may cause side effects.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Cough syrups.&lt;/strong&gt; The Food and Drug Administration (FDA) and the American Academy of Pediatrics strongly recommend against giving OTC cough and cold medicines to children younger than age 2. Over-the-counter cough and cold medicines don&apos;t effectively treat the underlying cause of a child&apos;s cold, and won&apos;t cure a child&apos;s cold or make it go away any sooner. These medications also have potential side effects, including rapid heart rate and convulsions.
+	&lt;/p&gt;
+	&lt;p&gt;
+	In June 2008, the Consumer Healthcare Products Association voluntarily modified consumer product labels on OTC cough and cold medicines to state &quot;do not use&quot; in children under 4 years of age, and many companies have stopped manufacturing these products for young children. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	FDA experts are studying the safety of cough and cold medicines for children older than age 2. In the meantime, remember that cough and cold medicines won&apos;t make a cold go away any sooner &amp;mdash; and side effects are still possible. If you give cough or cold medicines to an older child, carefully follow the label directions. Don&apos;t give your child two medicines with the same active ingredient, such as an antihistamine, decongestant or pain reliever. Too much of a single ingredient could lead to an accidental overdose. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may not be able to cure your common cold, but you can make yourself as comfortable as possible. These tips may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink lots of fluids.&lt;/strong&gt; Water, juice, clear broth or warm lemon water are all good choices. They help replace fluids lost during mucus production or fever. Avoid alcohol and caffeine, which can cause dehydration, and cigarette smoke, which can aggravate your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try chicken soup.&lt;/strong&gt; Generations of parents have spooned chicken soup into their sick children&apos;s mouths. Now scientists have put chicken soup to the test, discovering that it does seem to help relieve cold and flu symptoms in two ways. First, it acts as an anti-inflammatory by inhibiting the movement of neutrophils &amp;mdash; immune system cells that help the body&apos;s response to inflammation. Second, it temporarily speeds up the movement of mucus through the nose, helping relieve congestion and limiting the time viruses are in contact with the nasal lining.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get some rest&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; If possible, stay home from work if you have a fever or a bad cough, or are drowsy after the medications. This will give you a chance to rest as well as reduce the chances that you&apos;ll infect others. Wear a mask when you have a cold if you live or work with someone with a chronic disease or compromised immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your room&apos;s temperature and humidity.&lt;/strong&gt; Keep your room warm, but not overheated. If the air is dry, a cool-mist humidifier or vaporizer can moisten the air and help ease congestion and coughing. Be sure to keep the humidifier clean to prevent the growth of bacteria and molds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soothe your throat.&lt;/strong&gt; A saltwater gargle &amp;mdash; 1/4 to 1/2 teaspoon (1.2 milliliters to 2.5 milliliters) salt dissolved in an 8-ounce (237 milliliters) glass of warm water &amp;mdash; can temporarily relieve a sore or scratchy throat. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use saline&lt;/strong&gt; &lt;strong&gt;nasal drops.&lt;/strong&gt; To help relieve nasal congestion, try saline nasal drops. You can buy these drops over-the-counter, and they&apos;re effective, safe and nonirritating, even for children. In infants, experts recommend instilling several saline drops into one nostril, then gently suctioning that nostril with a bulb syringe (push the bulb in about 1/4 to 1/2 inch, or about 6 to 12 millimeters). Doing this before feeding your baby can improve your child&apos;s ability to nurse or take a bottle, and before bedtime it may improve sleep. Saline nasal sprays may be used in older children. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Various herbs and supplements are popular for preventing or relieving colds, but scientific support is uneven for most. Here&apos;s an update on some popular choices: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Zinc.&lt;/strong&gt; A comprehensive analysis of clinical-trial data on zinc and colds concluded that zinc actually appears to be beneficial. The conclusion comes with a few caveats. Researchers haven&apos;t determined the most effective formulation, dose or duration of zinc treatment for colds. Zinc lozenges can leave a bad taste in your mouth, and some trial participants reported nausea as a side effect of the lozenges. Zinc-based nasal sprays, not included in the recent, positive analysis, pose a different problem. The FDA warns that these products can take away your sense of smell, possibly for good.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin C.&lt;/strong&gt; It appears that for the most part taking vitamin C won&apos;t help the average person prevent colds. However, taking vitamin C at the onset of cold symptoms may shorten the duration of symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echinacea.&lt;/strong&gt; Studies on the effectiveness of echinacea at preventing or shortening colds are mixed. Some studies show no benefit. Others show a significant reduction in the severity and duration of cold symptoms when taken in the early stages of a cold. One reason study results have been inconclusive may be that the type of echinacea plant and preparation used from one study to the next have varied considerably. Research on the role of echinacea in treating the common cold is ongoing. In the meantime, if your immune system is healthy and you are not taking prescription medications, using echinacea supplements is unlikely to cause harm.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No vaccine has been developed for the common cold, which can be caused by many different viruses. But you can take some common-sense precautions to slow the spread of cold viruses: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Clean your hands thoroughly and often, and teach your children the importance of hand washing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scrub your stuff.&lt;/strong&gt; Keep kitchen and bathroom countertops clean, especially when someone in your family has a common cold. Wash children&apos;s toys periodically.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use tissues.&lt;/strong&gt; Always sneeze and cough into tissues. Discard used tissues right away, and then wash your hands carefully. Teach children to sneeze or cough into the bend of their elbow when they don&apos;t have a tissue. That way they cover their mouths without using their hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share.&lt;/strong&gt; Don&apos;t share drinking glasses or utensils with other family members. Use your own glass or disposable cups when you or someone else is sick. Label the cup or glass with the name of the person with the cold.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steer clear of colds.&lt;/strong&gt; Avoid close, prolonged contact with anyone who has a cold.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose your child care center wisely.&lt;/strong&gt; Look for a child care setting with good hygiene practices and clear policies about keeping sick children at home.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Common cold
+	</Title>
+	<Abstract>
+		Common cold &amp;mdash; Comprehensive overview covers symptoms, causes and care of this common infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01097" LinkType="Internal" ObjectID="F7DE5864-56EF-48A0-B67BCE81FEF47855" Title="Exercise and illness: Work out with a cold?" Url="http://www.mayoclinic.com/health/exercise/AN01097" />
+		<LinkItem ContentType="Answer" DocID="AN02160" LinkType="Internal" ObjectID="3E154DC1-FC23-ED49-364492869F954F20" Title="Do the benefits of vitamin C include improved mood?" Url="http://www.mayoclinic.com/health/benefits-vitamin-c/AN02160" />
+		<LinkItem ContentType="Answer" DocID="AN01238" LinkType="Internal" ObjectID="35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D" Title="Flu germs: How long can they live outside the body?" Url="http://www.mayoclinic.com/health/infectious-disease/AN01238" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Answer" DocID="AN01755" LinkType="Internal" ObjectID="FCC83C08-E7FF-0DBD-16839B0D2043FFCB" Title="Neti pot: Can it clear your nose?" Url="http://www.mayoclinic.com/health/neti-pot/AN01755" />
+		<LinkItem ContentType="Answer" DocID="AN01879" LinkType="Internal" ObjectID="ED283AA7-E7FF-0DBD-153DE0C4079002D2" Title="Neti pot solution: Can I make my own?" Url="http://www.mayoclinic.com/health/neti-pot-solution/AN01879" />
+		<LinkItem ContentType="Answer" DocID="AN01982" LinkType="Internal" ObjectID="ECED1265-FF13-A459-4C2B047E9709A0C6" Title="Echinacea: Is it effective for the common cold?" Url="http://www.mayoclinic.com/health/echinacea/AN01982" />
+		<LinkItem ContentType="Answer" DocID="AN01799" LinkType="Internal" ObjectID="E57C0C3C-E7FF-0DBD-13BA07E16C070DAE" Title="Honey: An effective cough remedy?" Url="http://www.mayoclinic.com/health/honey/AN01799" />
+		<LinkItem ContentType="Answer" DocID="AN01455" LinkType="Internal" ObjectID="D61F8B02-E7FF-0DBD-1D4A1209DBE7C777" Title="Cold symptoms: Does drinking milk increase phlegm?" Url="http://www.mayoclinic.com/health/phlegm/AN01455" />
+		<LinkItem ContentType="Answer" DocID="AN01740" LinkType="Internal" ObjectID="B48EA41E-E7FF-0DBD-16AB3D080DA6A304" Title="Plugged ears: What is the remedy?" Url="http://www.mayoclinic.com/health/plugged-ears/AN01740" />
+		<LinkItem ContentType="Answer" DocID="AN02148" LinkType="Internal" ObjectID="7E87EACC-9889-8129-B34CF9FF468A6443" Title="Zinc for colds: The final word?" Url="http://www.mayoclinic.com/health/zinc-for-colds/AN02148" />
+		<LinkItem ContentType="Answer" DocID="AN01551" LinkType="Internal" ObjectID="5AC4578D-E7FF-0DBD-165C47E6A5914B0B" Title="Vicks VapoRub: An effective nasal decongestant?" Url="http://www.mayoclinic.com/health/nasal-decongestant/AN01551" />
+		<LinkItem ContentType="Answer" DocID="AN01229" LinkType="Internal" ObjectID="206620A6-2A5D-9994-E831783A747E7FD0" Title="Cold or allergy: Which is it?" Url="http://www.mayoclinic.com/health/common-cold/AN01229" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Article" DocID="HQ00076" LinkType="Internal" ObjectID="DF9C6CB0-CEE5-40D6-AFF0B81BF0BC3673" Title="Humidifiers: Air moisture eases skin, breathing symptoms" Url="http://www.mayoclinic.com/health/humidifiers/HQ00076" />
+		<LinkItem ContentType="Article" DocID="ID00036" LinkType="Internal" ObjectID="8821B915-2A5D-9994-EC57A408AADC554B" Title="Cold remedies: What works, what doesn&apos;t, what can&apos;t hurt" Url="http://www.mayoclinic.com/health/cold-remedies/ID00036" />
+	</RelatedLinksBox>
+</Disease>

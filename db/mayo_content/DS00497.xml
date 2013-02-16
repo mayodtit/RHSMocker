@@ -1,0 +1,415 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00497
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/interstitial-cystitis/DS00497
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-20
+		</UpdateDate>
+		<PublicationDate>
+			2003-05-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1508" Title="Bladder">
+						<Keyword MCVID="2202" Title="Cystitis">
+							<Keyword MCVID="2341" Title="Interstitial cystitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CBC4AE4E-273C-4A16-813E4F06BFB5F959
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cystitis
+			</MetaKeyword>
+			<MetaKeyword>
+				interstitial cystitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic bladder inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				painful bladder syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interstitial cystitis (in-tur-STISH-ul sis-TI-tis) is a chronic condition characterized by a combination of uncomfortable bladder pressure, bladder pain and sometimes pain in your pelvis, which can range from mild burning or discomfort to severe pain.
+&lt;/p&gt;
+&lt;p&gt;
+While interstitial cystitis &amp;mdash; also called painful bladder syndrome &amp;mdash; can affect children and men, most of those affected are women. Interstitial cystitis can have a long-lasting adverse effect on your quality of life.
+&lt;/p&gt;
+&lt;p&gt;
+The severity of symptoms caused by interstitial cystitis often fluctuates, and some people may experience periods of remission. Although there&apos;s no treatment that reliably eliminates interstitial cystitis, a variety of medications and other therapies offer relief.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing affect of interstitial cystitis on bladder 
+" Caption="Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those of a normal bladder (shown left). 
+" Height="60" Title="Interstitial cystitis" URI="/images/image_popup/thumbs/r7_interstitialcystitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing affect of interstitial cystitis on bladder 
+" Caption="Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those of a normal bladder (shown left). 
+" Height="420" Title="Interstitial cystitis" URI="/images/image_popup/r7_interstitialcystitis.jpg" Width="400" />
+				<HTML>
+					Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of interstitial cystitis vary from person to person. If you have interstitial cystitis, your symptoms may also vary over time, periodically flaring in response to common triggers, such as menstruation, sitting for a long time, stress, exercise and sexual activity. 
+&lt;/p&gt;
+&lt;p&gt;
+Interstitial cystitis symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in your pelvis (suprapubic) or between the vagina and anus in women or between the scrotum and anus in men (perineal).&lt;/li&gt;
+	&lt;li&gt;Chronic pelvic pain.&lt;/li&gt;
+	&lt;li&gt;A persistent, urgent need to urinate.&lt;/li&gt;
+	&lt;li&gt;Frequent urination, often of small amounts, throughout the day and night. People with severe interstitial cystitis may urinate as often as 60 times a day.&lt;/li&gt;
+	&lt;li&gt;Pain during sexual intercourse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people affected by interstitial cystitis experience only pain, and some experience pressure or discomfort along with frequent, urgent urination. Most affected people, however, experience both pain and frequent, urgent urination. 
+&lt;/p&gt;
+&lt;p&gt;
+Although signs and symptoms of interstitial cystitis may resemble those of a chronic urinary tract infection, urine cultures are usually free of bacteria. However, a worsening of symptoms may occur if a person with interstitial cystitis gets a urinary tract infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re experiencing chronic bladder pain or urinary urgency and frequency, contact your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your bladder is a hollow, muscular, balloon-shaped organ that stores urine until you&apos;re ready to empty it. In adults, the bladder expands until it&apos;s full and then signals the brain that it&apos;s time to urinate, by communicating through the pelvic nerves. This creates the urge to urinate in most people. With interstitial cystitis, these signals somehow get mixed up, and you feel the need to urinate more often and with smaller volumes of urine than most people.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s likely that many people with interstitial cystitis also have a defect in the protective lining (epithelium) of their bladder. A leak in the epithelium, for example, may allow toxic substances in urine to irritate your bladder wall.
+&lt;/p&gt;
+&lt;p&gt;
+Suggested but unproven factors that may contribute to interstitial cystitis include an autoimmune reaction, heredity, infection or allergy.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing affect of interstitial cystitis on bladder 
+" Caption="Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those of a normal bladder (shown left). 
+" Height="60" Title="Interstitial cystitis" URI="/images/image_popup/thumbs/r7_interstitialcystitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing affect of interstitial cystitis on bladder 
+" Caption="Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those of a normal bladder (shown left). 
+" Height="420" Title="Interstitial cystitis" URI="/images/image_popup/r7_interstitialcystitis.jpg" Width="400" />
+				<HTML>
+					Your bladder, kidneys, ureters and urethra make up your urinary system. When you have interstitial cystitis, the walls of your bladder become irritated and inflamed (shown right), compared with those ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors are associated with a higher risk of interstitial cystitis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are diagnosed with interstitial cystitis far more often than are men. Men can have nearly identical symptoms to those of interstitial cystitis, but they&apos;re more often associated with an inflammation of the prostate gland (prostatitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Most people with interstitial cystitis are diagnosed during their 40s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other chronic disorders.&lt;/strong&gt; Interstitial cystitis may be associated with other chronic pain syndromes, such as irritable bowel syndrome and fibromyalgia. Any common causal connection between these syndromes is unknown.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interstitial cystitis can result in a number of complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced bladder capacity.&lt;/strong&gt; Interstitial cystitis can lead to a stiffening of the wall of your bladder and reduced bladder capacity, meaning your bladder holds less urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lower quality of life.&lt;/strong&gt; Frequent urination and pain may interfere with social activities, work and other activities of daily life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relationship troubles.&lt;/strong&gt; Frequent urination and pain may strain your personal relationships, and sexual intimacy is commonly affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional troubles.&lt;/strong&gt; The chronic pain and interrupted sleep associated with interstitial cystitis may cause emotional stress and can lead to depression. Likewise, having depression or anxiety can worsen symptoms of interstitial cystitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may use a questionnaire to make a preliminary assessment of your symptoms. You may also be asked to keep a voiding diary for a few days, in which you record information, such as how frequently you urinate and how much and what kinds of fluid you consume.
+&lt;/p&gt;
+&lt;p&gt;
+For further testing, you may be referred to a specialist in urinary disorders (urologist) or urinary disorders in women (urologist or urogynecologist).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+To get the most from your visit to the doctor, prepare in advance:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; Include all of your symptoms, even if you don&apos;t think they&apos;re related.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications or vitamin supplements you take,&lt;/strong&gt; regardless of how common you think they are. Many over-the-counter supplements can irritate the urinary tract. Also write down doses and how often you take the medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a family member or close friend accompany you.&lt;/strong&gt; You may be given a lot of information at your visit, and it can be difficult to remember everything.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook or notepad with you.&lt;/strong&gt; Use it to write down important information during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare a list of questions to ask your doctor.&lt;/strong&gt; List your most important questions first, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For interstitial cystitis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Will my symptoms eventually go away?&lt;/li&gt;
+	&lt;li&gt;What kind of tests might I need to undergo?&lt;/li&gt;
+	&lt;li&gt;Will changing my diet help with my symptoms?&lt;/li&gt;
+	&lt;li&gt;Could the medicines I take be aggravating my condition?&lt;/li&gt;
+	&lt;li&gt;Are there any medications that would help ease my symptoms?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make sure that you understand what your doctor tells you. Don&apos;t hesitate to ask your doctor to repeat information or to ask follow-up questions for clarification.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Be prepared to answer questions from your doctor. Potential questions your doctor might ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do you feel the urge to urinate with little or no warning?&lt;/li&gt;
+	&lt;li&gt;Do you still feel the urge to urinate immediately after you&apos;ve urinated?&lt;/li&gt;
+	&lt;li&gt;Do you ever urinate less than two hours after you finished urinating?&lt;/li&gt;
+	&lt;li&gt;Do you wake up at night to urinate?&lt;/li&gt;
+	&lt;li&gt;Do you have pain or burning in your bladder?&lt;/li&gt;
+	&lt;li&gt;Do you feel pain in your abdomen or pelvis?&lt;/li&gt;
+	&lt;li&gt;Are you currently sexually active?&lt;/li&gt;
+	&lt;li&gt;How much do your symptoms bother you?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following may be helpful in diagnosing interstitial cystitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history and bladder diary.&lt;/strong&gt; Your doctor will ask you to describe your symptoms and may also request that you keep a bladder diary, recording the volume you drink and the volume of urine you pass.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complete pelvic exam.&lt;/strong&gt; During this exam, your doctor examines your external genitals, vagina and cervix and feels (palpates) your abdomen to assess your internal pelvic organs. Your doctor may also examine your anus and rectum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; A sample of your urine will be analyzed for evidence of a urinary tract infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Potassium sensitivity test.&lt;/strong&gt; In this test, your doctor places two solutions &amp;mdash; water and potassium chloride &amp;mdash; into your bladder, one at a time. You&apos;re asked to rate on a scale of 0 to 5 the pain and urgency you feel after each solution is instilled. If you feel noticeably more pain or urgency with the potassium solution than with the water, your doctor may diagnose interstitial cystitis. People with normal bladders can&apos;t tell the difference between the two solutions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystoscopy.&lt;/strong&gt; Doctors sometimes use this test to rule out other causes of bladder pain. Cystoscopy involves an examination of your bladder through a thin tube with a tiny camera (cystoscope) inserted through the urethra. Cystoscopy allows your doctor to see the lining of your bladder. In conjunction with cystocopy, your doctor may instill a liquid into your bladder to help measure your bladder capacity. This procedure, called hydrodistention, is generally performed with anesthetics to reduce discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; During cystoscopy under anesthesia, your doctor may remove a sample of tissue (biopsy) from the bladder and the urethra for examination under a microscope. This is to check for bladder cancer and other rare causes of bladder pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Researchers are trying to develop tests that will help confirm the diagnosis of interstitial cystitis without an invasive procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;/images/pdfs/w14_bladderdiary.pdf&quot; target=&quot;_self&quot;&gt;Sample Bladder Diary&lt;/a&gt; (PDF file requiring &lt;a href=&quot;http://www.adobe.com/products/acrobat/readstep2.html&quot; target=&quot;_blank&quot;&gt;Adobe Reader&lt;/a&gt;) 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No simple treatment exists to eliminate the signs and symptoms of interstitial cystitis, and no one treatment works for everyone. You may need to try various treatments or combinations of treatments before you find an approach that relieves your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oral medications&lt;/strong&gt;&lt;br /&gt;
+Oral medications that may improve the signs and symptoms of interstitial cystitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ibuprofen (Advil, Motrin, others), naproxen (Aleve, Anaprox) and other nonsteroidal anti-inflammatory drugs, to relieve pain.&lt;/li&gt;
+	&lt;li&gt;Tricyclic antidepressants, such as amitriptyline or imipramine (Tofranil), to help relax your bladder and block pain.&lt;/li&gt;
+	&lt;li&gt;Antihistamines, such as diphenhydramine (Benadryl, others) and loratadine (Claritin, others), which may reduce urinary urgency and frequency and relieve other symptoms.&lt;/li&gt;
+	&lt;li&gt;Pentosan (Elmiron), is the only oral drug approved by the Food and Drug Administration specifically for interstitial cystitis. How it works is unknown, but it may restore the inner surface of the bladder, which protects the bladder wall from substances in urine that could irritate it. It may take two to four months before you begin to feel pain relief and up to six months to experience a decrease in urinary frequency. Side effects include minor gastrointestinal disturbances and possible hair loss, which reverses when you stop taking the drug. Make sure your doctor knows if you&apos;re pregnant or planning to become pregnant before taking pentosan, because this medication hasn&apos;t been studied in pregnant women. You may also need to have your liver function tested while you&apos;re taking this medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve stimulation&lt;/strong&gt;&lt;br /&gt;
+Transcutaneous electrical nerve stimulation (TENS) uses mild electrical pulses to relieve pelvic pain and, in some cases, reduce urinary frequency. Electrical wires are placed on your lower back or just above your pubic area, and pulses are administered for minutes or hours, two or more times a day, depending on the length and frequency of therapy that works best for you. In some cases a TENS device may be inserted into a woman&apos;s vagina or a man&apos;s rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+Scientists believe that TENS may relieve pain and urinary frequency associated with interstitial cystitis by increasing blood flow to the bladder, strengthening the muscles that help control the bladder or triggering the release of substances that block pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Another possible nerve stimulation treatment is sacral nerve stimulation. Modulation of your sacral nerves &amp;mdash; a primary link between the spinal cord and nerves in your bladder &amp;mdash; may reduce feelings of urinary urgency that accompany interstitial cystitis. With sacral nerve stimulation, a thin wire placed near the sacral nerves delivers electrical impulses to your bladder, similar to what a pacemaker does for the heart. If the procedure successfully lessens your symptoms, a permanent device may be surgically implanted. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bladder distention&lt;/strong&gt;&lt;br /&gt;
+Some people notice a temporary improvement in symptoms after undergoing cystoscopy with bladder distention. Bladder distention is the stretching of the bladder with water or gas. The procedure may be repeated as a treatment if the response is long lasting. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications instilled into the bladder&lt;/strong&gt;&lt;br /&gt;
+In bladder instillation, the prescription medication dimethyl sulfoxide, or DMSO, (Rimso-50) is placed into your bladder through a thin, flexible tube (catheter) inserted through the urethra. The solution sometimes is mixed with other medications, such as a local anesthetic. After remaining in your bladder for 15 minutes, the solution is expelled through urination. Delivering DMSO directly to your bladder may reduce inflammation and possibly prevent muscle contractions that cause frequency, urgency and pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may initially perform DMSO treatment weekly for six to eight weeks, and then perform maintenance treatments as needed &amp;mdash; often, every couple of weeks &amp;mdash; for up to one year. 
+&lt;/p&gt;
+&lt;p&gt;
+A garlic-like taste and odor may last up to 7 hours after treatment. DMSO can affect your liver, so your doctor may monitor your liver function with blood tests. For some people, this procedure may be painful or it may worsen symptoms. Talk with your doctor about other treatment options if this happens to you. 
+&lt;/p&gt;
+&lt;p&gt;
+A newer approach to bladder instillation includes using a solution that contains a trio of medications: lidocaine, sodium bicarbonate and either pentosan or heparin to relieve urinary pain and urgency. Researchers are also testing a number of other solutions that may help relieve the symptoms of interstitial cystitis, including hyaluronan, chondroitin sulfate and oxybutynin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Doctors rarely use surgery as interstitial cystitis treatment because removal of part or all of the bladder doesn&apos;t relieve pain and can lead to other complications. People with severe pain and people whose bladders can hold only very small volumes of urine are possible candidates for surgery, but even then surgery is usually considered only after other treatments have failed. Surgical options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder augmentation.&lt;/strong&gt; In this procedure, surgeons remove the damaged portion of the bladder and replace it with a piece of the colon, but the pain still remains and some people need to empty their bladders with a catheter multiple times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fulguration.&lt;/strong&gt; This minimally invasive method involves insertion of instruments through the urethra to burn off ulcers that may be present with interstitial cystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Resection.&lt;/strong&gt; This is another minimally invasive method that involves insertion of instruments through the urethra to cut around any ulcers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing sacral nerve stimulation device 
+" Caption="During sacral nerve stimulation, a surgically implanted device delivers electrical impulses to the nerves (sacral nerves) that regulate bladder activity. The unit is placed beneath the skin of the buttocks, about where the back pocket is on a pair of pants. In this image, the device is shown out of place to allow a better view of the unit. 
+" Height="60" Title="Sacral nerve stimulation" URI="/images/image_popup/thumbs/w7_snsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing sacral nerve stimulation device 
+" Caption="During sacral nerve stimulation, a surgically implanted device delivers electrical impulses to the nerves (sacral nerves) that regulate bladder activity. The unit is placed beneath the skin of the buttocks, about where the back pocket is on a pair of pants. In this image, the device is shown out of place to allow a better view of the unit. 
+" Height="366" Title="Sacral nerve stimulation" URI="/images/image_popup/w7_sns.jpg" Width="400" />
+				<HTML>
+					During sacral nerve stimulation, a surgically implanted device delivers electrical impulses to the nerves (sacral nerves) that regulate bladder activity. The unit is placed beneath the skin of the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with interstitial cystitis find relief with self-care methods, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Dietary changes.&lt;/strong&gt; Although there&apos;s no scientific evidence that points to diet as the cause of interstitial cystitis, many people with the condition find that eliminating or reducing their intake of potential bladder irritants may help to relieve their discomfort.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some of the most irritating foods can be summarized as the &quot;four Cs.&quot; The four Cs include carbonated beverages, caffeine in all forms (including chocolate), citrus products and food containing high concentrations of vitamin C.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you find that your bladder is irritated by these things, you may also wish to avoid related foods, such as tomatoes, pickled foods, alcohol and spices. Artificial sweeteners may aggravate symptoms in some people, as well. If you think certain foods make you feel worse, try eliminating them from your diet. Reintroduce them one at a time to determine which, if any, affect your signs and symptoms.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder training.&lt;/strong&gt; These techniques may help reduce urinary frequency. The training involves timed urination &amp;mdash; going to the toilet according to the clock rather than waiting for the need to go. You start by urinating at set intervals, such as every half-hour &amp;mdash; whether you have to go or not. Then you gradually wait longer between bathroom visits. Bladder training may involve learning to control the urge to urinate by using relaxation techniques, such as breathing slowly and deeply or distracting yourself with another activity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These other self-care approaches may help you as well:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear loose clothing.&lt;/strong&gt; Avoid belts or clothes that put pressure on your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; Try methods such as visualization and biofeedback, and low-impact exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try pelvic floor exercises.&lt;/strong&gt; Gently stretching and strengthening the pelvic floor muscles, possibly with help from a physical therapist, may reduce muscle spasms. Sometimes this technique is combined with biofeedback.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you smoke, stop.&lt;/strong&gt; Smoking may worsen any painful condition, and smoking contributes to bladder cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Easy stretching exercises may help reduce your interstitial cystitis symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Two complementary and alternative therapies that have shown some promise in treating interstitial cystitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Guided imagery.&lt;/strong&gt; This type of therapy employs visualization and direct suggestions using imagery to help you imagine healing, with the hope that the body will follow the mind&apos;s suggestions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; During an acupuncture session, a practitioner places numerous thin needles in your skin at specific points on your body. According to traditional Chinese medicine, precisely placed acupuncture needles relieve pain and other symptoms by rebalancing the flow of life energy. Western medical practitioners tend to believe that acupuncture boosts the activity of your body&apos;s natural painkillers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These treatments have not been well-studied for interstitial cystitis, so be sure to discuss the use of these therapies with your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interstitial cystitis can have a profound adverse effect on your quality of life. Support from family and friends is important, but because the condition is a urinary problem, you may find the topic difficult to discuss.
+&lt;/p&gt;
+&lt;p&gt;
+Start with the simplest self-care strategies, such as wearing loose clothing and limiting or eliminating soda, caffeine and citrus. Wait a reasonable amount of time to see if these measures help, and keep trying new ones, as long as they don&apos;t disrupt your life even more than interstitial cystitis already has. Perhaps most important, find a supportive doctor who is concerned about your quality of life as well as your condition and will work with you to help alleviate your urinary frequency, urgency and bladder pain.
+&lt;/p&gt;
+&lt;p&gt;
+Also, you might benefit from joining a support group. Such a group can provide both sympathetic listening and useful information. For a list of interstitial cystitis support groups throughout the United States or for information on how to start a group in your area, contact the Interstitial Cystitis Association on the Web or call 800-HELP-ICA (800-435-7422).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Interstitial cystitis
+	</Title>
+	<Abstract>
+		Interstitial cystitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, self-care of this painful bladder inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HO00022" LinkType="Internal" ObjectID="B2A723B1-41A4-46C0-A8524374959D169B" Title="Bladder infection in men" Url="http://www.mayoclinic.com/health/bladder-infection/HO00022" />
+		<LinkItem ContentType="Answer" DocID="AN01683" LinkType="Internal" ObjectID="3B67C919-E7FF-0DBD-1A36A1D72E4EA2CA" Title="Chronic bladder infection: Is there a cure?" Url="http://www.mayoclinic.com/health/bladder-infection/AN01683" />
+	</RelatedLinksBox>
+</Disease>

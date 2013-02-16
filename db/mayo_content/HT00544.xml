@@ -1,0 +1,74 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00544
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00544
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="3571" Title="Environmental allergy">
+							<Keyword MCVID="2223" Title="Hay fever" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			162FD76E-E7FF-0DBD-1FF2F00DDC4FA970
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hay fever
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic rhinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hay fever prevention
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Hay fever: Trigger me not
+	</Title>
+	<Body>
+		&lt;p&gt;If you have hay fever, the best thing you can do is to take steps to lessen your exposure to allergens, such as pollen and mold: 1. Close doors and windows during pollen season. 2. Use air conditioning in your house and car. 3. Avoid outdoor activity in the early morning, when pollen counts are highest. 4. Use a dehumidifier to reduce indoor humidity. 5. Use a high-efficiency particulate air (HEPA) filter in your bedroom.&lt;/p&gt;
+	</Body>
+</HealthTip>

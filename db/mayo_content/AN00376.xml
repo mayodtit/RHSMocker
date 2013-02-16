@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00376
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/runners-diarrhea/AN00376
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-13
+		</UpdateDate>
+		<PublicationDate>
+			2002-09-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="1851" Title="Diarrhea">
+							<Keyword MCVID="2626" Title="Runner&apos;s diarrhea" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			638A0EBA-A885-4956-9916BDFD026636B6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				runner&apos;s diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				runner&apos;s trots
+			</MetaKeyword>
+			<MetaKeyword>
+				running
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Runner&apos;s diarrhea is characterized by frequent, loose bowel movements during or immediately after a run. Runner&apos;s diarrhea is most common in long-distance runners. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of runner&apos;s diarrhea isn&apos;t clear. Contributing factors likely include the physical jostling of the organs, decreased blood flow to the intestines, changes in intestinal hormone secretion and pre-race anxiety and stress. What is clear is that food moves more quickly through the bowels of athletes in training. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, simple dietary changes can help prevent runner&apos;s diarrhea: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;At least one day before running, limit or avoid high-fiber and gas-producing foods, such as beans, bran, fruit and salad. If you run every day, experiment to find a tolerable level of fiber. Otherwise, simply eat those foods after you run.&lt;/li&gt;
+	&lt;li&gt;At least one day before running, limit or avoid sweeteners called sugar alcohols &amp;mdash; most often found in sugar-free candies, gum and ice cream.&lt;/li&gt;
+	&lt;li&gt;For three to six hours before running, limit or avoid caffeine and high-fat foods.&lt;/li&gt;
+	&lt;li&gt;For at least two hours before running, don&apos;t eat anything at all.&lt;/li&gt;
+	&lt;li&gt;Before, during and after running, drink plenty of fluids. Dehydration can lead to diarrhea. Avoid warm liquids, however, which can speed food through the digestive tract.&lt;/li&gt;
+	&lt;li&gt;While running, use caution with energy gels and energy bars. In some people, these products can contribute to diarrhea.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re lactose intolerant, switch to lactose-reduced or lactose-free milk and milk products.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, wear comfortable, loosefitting clothing when you run. Clothing that&apos;s too tight around the waist may aggravate diarrhea. You might also consider reducing the intensity or distance of your runs until the diarrhea improves. Then gradually increase your activity as your signs and symptoms allow. If these tips don&apos;t seem to help, consult your doctor for additional suggestions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Runner&apos;s diarrhea: How can I prevent it?
+	</Title>
+	<Abstract>
+		Runner&apos;s diarrhea is characterized by loose bowel movements during or immediately after a run.
+	</Abstract>
+	<Question>
+		What causes runner&apos;s diarrhea? And what can I do about it?
+	</Question>
+	<QuestionFirstName>
+		Barbara
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+	</RelatedLinksBox>
+</Answer>

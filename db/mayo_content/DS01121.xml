@@ -1,0 +1,658 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01121
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diabetes/DS01121
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-31
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			544F6883-E7FF-0DBD-1230C80D45F96935
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 1 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 2 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				gestational diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				prediabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				pre-diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes mellitus
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes insipidus
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				insulin-dependent diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				adult-onset diabetes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetes mellitus refers to a group of diseases that affect how your body uses blood glucose, commonly called blood sugar. Glucose is vital to your health because it&apos;s an important source of energy for the cells that make up your muscles and tissues. It&apos;s also your brain&apos;s main source of fuel. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have diabetes, no matter what type, it means you have too much glucose in your blood, although the reasons may differ. Too much glucose can lead to serious health problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Chronic diabetes conditions include type 1 diabetes and type 2 diabetes. Potentially reversible diabetes conditions include prediabetes &amp;mdash; when your blood sugar levels are higher than normal, but not high enough to be classified as diabetes &amp;mdash; and gestational diabetes, which occurs during pregnancy but may resolve after the baby is delivered. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetes symptoms vary depending on how much your blood sugar is elevated. Some people, especially those with prediabetes or type 2 diabetes, may not experience symptoms initially. In type 1 diabetes, symptoms tend to come on quickly and be more severe. Some of the signs and symptoms of type 1 and type 2 diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased thirst&lt;/li&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Extreme hunger&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Presence of ketones in the urine (ketones are a byproduct of the breakdown of muscle and fat that happens when there&apos;s not enough insulin)&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Slow-healing sores&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Frequent infections, such as gums or skin infections and vaginal or bladder infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although type 1 diabetes can develop at any age, it typically appears during childhood or adolescence. Type 2 diabetes, the more common type, can develop at any age and is often preventable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you suspect you or your child may have diabetes.&lt;/strong&gt; If you notice any possible diabetes symptoms, contact your doctor. The earlier the condition is diagnosed, the sooner treatment can begin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;ve already been diagnosed with diabetes.&lt;/strong&gt; After you receive your diagnosis, you&apos;ll need close medical follow-up until your blood sugar levels stabilize.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To understand diabetes, first you must understand how glucose is normally processed in the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How insulin works&lt;/strong&gt; &lt;br /&gt;
+Insulin is a hormone that comes from the pancreas, a gland situated behind and below the stomach. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The pancreas secretes insulin into the bloodstream.&lt;/li&gt;
+	&lt;li&gt;The insulin circulates, enabling sugar to enter your cells.&lt;/li&gt;
+	&lt;li&gt;Insulin lowers the amount of sugar in your bloodstream.&lt;/li&gt;
+	&lt;li&gt;As your blood sugar level drops, so does the secretion of insulin from your pancreas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;The role of glucose&lt;/strong&gt; &lt;br /&gt;
+Glucose &amp;mdash; a sugar &amp;mdash; is a main source of energy for the cells that make up muscles and other tissues. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Glucose comes from two major sources: food and your liver.&lt;/li&gt;
+	&lt;li&gt;Sugar is absorbed into the bloodstream, where it enters cells with the help of insulin.&lt;/li&gt;
+	&lt;li&gt;Your liver stores and makes glucose.&lt;/li&gt;
+	&lt;li&gt;When your insulin levels are low, such as when you haven&apos;t eaten in a while, the liver metabolizes stored glycogen into glucose to keep your glucose level within a normal range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of type 1 diabetes&lt;/strong&gt; &lt;br /&gt;
+In type 1 diabetes, your immune system &amp;mdash; which normally fights harmful bacteria or viruses &amp;mdash; attacks and destroys your insulin-producing cells in the pancreas. This leaves you with little or no insulin. Instead of being transported into your cells, sugar builds up in your bloodstream. Type 1 is thought to be caused by a combination of genetic susceptibility and environmental factors, though exactly what many of those factors are is still unclear. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of prediabetes and type 2 diabetes&lt;/strong&gt; &lt;br /&gt;
+In prediabetes &amp;mdash; which can lead to type 2 diabetes &amp;mdash; and in type 2 diabetes, your cells become resistant to the action of insulin, and your pancreas is unable to make enough insulin to overcome this resistance. Instead of moving into your cells where it&apos;s needed for energy, sugar builds up in your bloodstream. Exactly why this happens is uncertain, although as in type 1 diabetes, it&apos;s believed that genetic and environmental factors play a role in the development of type 2. Being overweight is strongly linked to the development of type 2 diabetes, but not everyone with type 2 is overweight. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of gestational diabetes&lt;/strong&gt; &lt;br /&gt;
+During pregnancy, the placenta produces hormones to sustain your pregnancy. These hormones make your cells more resistant to insulin. As your placenta grows larger in the second and third trimesters, it secretes more of these hormones &amp;mdash; making it even harder for insulin to do its job. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your pancreas responds by producing enough extra insulin to overcome this resistance. But sometimes your pancreas can&apos;t keep up. When this happens, too little glucose gets into your cells and too much stays in your blood. This is gestational diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for diabetes depend on the type of diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors for type 1 diabetes&lt;/strong&gt;&lt;br /&gt;
+Although the exact cause of type 1 diabetes is unknown, genetic factors likely play a role. Your risk of developing type 1 diabetes increases if you have a parent or sibling who has type 1 diabetes. Environmental factors, such as exposure to a viral illness, also likely play some role in type 1 diabetes. Other factors that may increase your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The presence of damaging immune system cells that make autoantibodies.&lt;/strong&gt; Sometimes family members of people with type 1 diabetes are tested for the presence of diabetes autoantibodies. If you have these autoantibodies, you have an increased risk of developing type 1 diabetes. But, not everyone who has these autoantibodies develops type 1.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dietary factors.&lt;/strong&gt; A number of dietary factors have been linked to an increased risk of type 1 diabetes, such as low vitamin D consumption; early exposure to cow&apos;s milk or cow&apos;s milk formula; or exposure to cereals before 4 months of age. However, none of these factors has been shown to cause type 1 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Type 1 diabetes is more common in whites than in other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Geography.&lt;/strong&gt; Certain countries, such as Finland and Sweden, have higher rates of type 1 diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors for prediabetes and type 2 diabetes&lt;/strong&gt; &lt;br /&gt;
+Researchers don&apos;t fully understand why some people develop prediabetes and type 2 diabetes and others don&apos;t. It&apos;s clear that certain factors increase the risk, however, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weight.&lt;/strong&gt; The more fatty tissue you have, the more resistant your cells become to insulin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inactivity.&lt;/strong&gt; The less active you are, the greater your risk. Physical activity helps you control your weight, uses up glucose as energy and makes your cells more sensitive to insulin. Exercising less than three times a week may increase your risk of type 2 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Your risk increases if a parent or sibling has type 2 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Although it&apos;s unclear why, people of certain races &amp;mdash; including blacks, Hispanics, American Indians and Asians &amp;mdash; are at higher risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Your risk increases as you get older. This may be because you tend to exercise less, lose muscle mass and gain weight as you age. But type 2 diabetes is also increasing dramatically among children, adolescents and younger adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gestational diabetes.&lt;/strong&gt; If you developed gestational diabetes when you were pregnant, your risk of developing prediabetes and type 2 diabetes later increases. If you gave birth to a baby weighing more than 9 pounds (4 kilograms), you&apos;re also at risk of type 2 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polycystic ovary syndrome.&lt;/strong&gt; For women, having polycystic ovary syndrome &amp;mdash; a common condition characterized by irregular menstrual periods, excess hair growth and obesity &amp;mdash; increases the risk of diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Having blood pressure over 140/90mm Hg is linked to an increased risk of type 2 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal cholesterol levels.&lt;/strong&gt; If you have low levels of high-density lipoprotein (HDL), or &quot;good,&quot; cholesterol, your risk of type 2 diabetes is higher. Low levels of HDL are defined as below 35 mg/dL.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High levels of triglycerides.&lt;/strong&gt; Triglycerides are a fat carried in the blood. If your triglyceride levels are above 250 mg/dL, your risk of diabetes increases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors for gestational diabetes&lt;/strong&gt; &lt;br /&gt;
+Any pregnant woman can develop gestational diabetes, but some women are at greater risk than are others. Risk factors for gestational diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Women older than age 25 are at increased risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family or personal history.&lt;/strong&gt; Your risk increases if you have prediabetes &amp;mdash; a precursor to type 2 diabetes &amp;mdash; or if a close family member, such as a parent or sibling, has type 2 diabetes. You&apos;re also at greater risk if you had gestational diabetes during a previous pregnancy, if you delivered a very large baby or if you had an unexplained stillbirth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight.&lt;/strong&gt; Being overweight before pregnancy increases your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; For reasons that aren&apos;t clear, women who are black, Hispanic, American Indian or Asian are more likely to develop gestational diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Long-term complications of diabetes develop gradually. The longer you have diabetes &amp;mdash; and the less controlled your blood sugar &amp;mdash; the higher the risk of complications. Eventually, diabetes complications may be disabling or even life-threatening. Possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; Diabetes dramatically increases the risk of various cardiovascular problems, including coronary artery disease with chest pain (angina), heart attack, stroke and narrowing of arteries (atherosclerosis). If you have diabetes, you are more likely to have heart disease or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage (neuropathy).&lt;/strong&gt; Excess sugar can injure the walls of the tiny blood vessels (capillaries) that nourish your nerves, especially in the legs. This can cause tingling, numbness, burning or pain that usually begins at the tips of the toes or fingers and gradually spreads upward. Left untreated, you could lose all sense of feeling in the affected limbs. Damage to the nerves related to digestion can cause problems with nausea, vomiting, diarrhea or constipation. For men, it may lead to erectile dysfunction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage (nephropathy).&lt;/strong&gt; The kidneys contain millions of tiny blood vessel clusters (glomeruli) that filter waste from your blood. Diabetes can damage this delicate filtering system. Severe damage can lead to kidney failure or irreversible end-stage kidney disease, which may require dialysis or a kidney transplant. The rates of serious kidney disease have dropped significantly in recent years, likely due to improvements in diabetes management.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye damage (retinopathy).&lt;/strong&gt; Diabetes can damage the blood vessels of the retina (diabetic retinopathy), potentially leading to blindness. Diabetes also increases the risk of other serious vision conditions, such as cataracts and glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foot damage.&lt;/strong&gt; Nerve damage in the feet or poor blood flow to the feet increases the risk of various foot complications. Left untreated, cuts and blisters can become serious infections. Severe damage might require toe, foot or even leg amputation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin and mouth conditions.&lt;/strong&gt; Diabetes may leave you more susceptible to skin problems, including bacterial and fungal infections. Gum infections also may be a concern, especially if you have a history of poor dental hygiene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Diabetes may lead to lower than normal bone mineral density, increasing your risk of osteoporosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alzheimer&apos;s disease.&lt;/strong&gt; Type 2 diabetes may increase the risk of Alzheimer&apos;s disease. The poorer your blood sugar control, the greater the risk appears to be. One theory is that cardiovascular problems caused by diabetes could contribute to dementia by blocking blood flow to the brain or causing strokes. Other possibilities are that too much insulin in the blood leads to brain-damaging inflammation, or lack of insulin in the brain deprives brain cells of glucose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; People with diabetes have a higher risk of some cancers. But the reasons aren&apos;t clear. It may be that the factors that increase the risk of type 2 diabetes also increase the risk of cancer, or it may be a factor of the disease or its treatment. This is an active area of research, but in the meantime, no changes in treatment are recommended.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of gestational diabetes&lt;/strong&gt;&lt;br /&gt;
+Most women who have gestational diabetes deliver healthy babies. However, untreated or uncontrolled blood sugar levels can cause problems for you and your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications in your baby&lt;/strong&gt; can occur as a result of gestational diabetes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excess growth.&lt;/strong&gt; Extra glucose can cross the placenta, which triggers your baby&apos;s pancreas to make extra insulin. This can cause your baby to grow too large (macrosomia). Very large babies are more likely to require a C-section birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar.&lt;/strong&gt; Sometimes babies of mothers with gestational diabetes develop low blood sugar (hypoglycemia) shortly after birth because their own insulin production is high. Prompt feedings and sometimes an intravenous glucose solution can return the baby&apos;s blood sugar level to normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory distress syndrome.&lt;/strong&gt; If your baby is delivered early, respiratory distress syndrome &amp;mdash; a condition that makes breathing difficult &amp;mdash; is possible. Babies who have respiratory distress syndrome may need help breathing until their lungs become stronger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaundice.&lt;/strong&gt; This yellowish discoloration of the skin and the whites of the eyes may occur if a baby&apos;s liver isn&apos;t mature enough to break down a substance called bilirubin, which normally forms when the body recycles old or damaged red blood cells. Although jaundice usually isn&apos;t a cause for concern, careful monitoring is important.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2 diabetes later in life.&lt;/strong&gt; Babies of mothers who have gestational diabetes have a higher risk of developing obesity and type 2 diabetes later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; Untreated gestational diabetes can result in a baby&apos;s death either before or shortly after birth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications in you&lt;/strong&gt;&lt;strong&gt; can also occur as a result of gestational diabetes:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preeclampsia.&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;This condition is characterized by high blood pressure, excess protein in the urine, and swelling in the legs and feet. Preeclampsia can lead to serious or even life-threatening complications for both mother and baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Subsequent gestational diabetes.&lt;/strong&gt; Once you&apos;ve had gestational diabetes in one pregnancy, you&apos;re more likely to have it again with the next pregnancy. You&apos;re also more likely to develop diabetes &amp;mdash; typically type 2 diabetes &amp;mdash; as you get older.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of prediabetes&lt;/strong&gt; &lt;br /&gt;
+Prediabetes may develop into type 2 diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor if you&apos;re having diabetes symptoms. If your child is having diabetes symptoms, you might see your child&apos;s pediatrician. If blood sugar levels are extremely high, you&apos;ll likely be sent to the emergency room. If blood sugar levels aren&apos;t high enough to put you or your child immediately at risk, you may be referred to a doctor who specializes in diabetes, among other disorders (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and to know what to expect. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance. This will likely include restricting your diet, such as for a fasting blood sugar test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including major stresses or recent life changes. If you&apos;re monitoring your glucose values at home, bring a record of the glucose results, detailing the dates and times of testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any allergies you have and all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Record your family medical history.&lt;/strong&gt; In particular, note any relatives who have had diabetes, heart attacks or strokes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend,&lt;/strong&gt; if possible. Someone who accompanies you can help you remember information you need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Ask about aspects of your diabetes management you&apos;re unclear about.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware if you need any prescription refills.&lt;/strong&gt; Your doctor can renew your prescriptions while you&apos;re there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For diabetes, some questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are the symptoms I&apos;m having related to my diabetes or another condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need to best manage my diabetes?&lt;/li&gt;
+	&lt;li&gt;What else can I do to protect my health?&lt;/li&gt;
+	&lt;li&gt;What are other options to manage my diabetes?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see another specialist, such as a dietitian or diabetes educator?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin being concerned about having diabetes? What symptoms alerted you?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of preeclampsia or diabetes?&lt;/li&gt;
+	&lt;li&gt;Tell me about your diet.&lt;/li&gt;
+	&lt;li&gt;Do you exercise? What type and how much?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of type 1 diabetes often appear suddenly and are often the reason for checking blood sugar levels. Because symptoms of other types of diabetes and prediabetes come on more gradually or may not be evident, the American Diabetes Association (ADA) has recommended screening guidelines. The ADA recommends that the following people be screened for diabetes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anyone with a body mass index higher than 25, regardless of age,&lt;/strong&gt; who has additional risk factors, such as high blood pressure, a sedentary lifestyle, a history of polycystic ovary syndrome, having delivered a baby who weighed more than 9 pounds, a history of diabetes in pregnancy, high cholesterol levels, a history of heart disease, or having a close relative with diabetes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anyone older than age 45&lt;/strong&gt; is advised to receive an initial blood sugar screening, and then, if the results are normal, to be screened every three years thereafter. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for type 1 and type 2 diabetes&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Glycated hemoglobin (A1C) test.&lt;/strong&gt; This blood test indicates your average blood sugar level for the past two to three months. It measures the percentage of blood sugar attached to hemoglobin, the oxygen-carrying protein in red blood cells. The higher your blood sugar levels, the more hemoglobin you&apos;ll have with sugar attached. An A1C level of 6.5 percent or higher on two separate tests indicates that you have diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the A1C test results aren&apos;t consistent, the test isn&apos;t available, or if you have certain conditions that can make the A1C test inaccurate &amp;mdash; such as if you&apos;re pregnant or have an uncommon form of hemoglobin (known as a hemoglobin variant) &amp;mdash; your doctor may use the following tests to diagnose diabetes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Random blood sugar test.&lt;/strong&gt; A blood sample will be taken at a random time. Regardless of when you last ate, a random blood sugar level of 200 milligrams per deciliter (mg/dL) &amp;mdash; 11.1 millimoles per liter (mmol/L) &amp;mdash; or higher suggests diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fasting blood sugar test.&lt;/strong&gt; A blood sample will be taken after an overnight fast. A fasting blood sugar level between 100 and 125 mg/dL (5.6 and 6.9 mmol/L) is considered prediabetes. If it&apos;s 126 mg/dL (7 mmol/L) or higher on two separate tests, you&apos;ll be diagnosed with diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If type 1 diabetes is suspected, your urine will be tested to look for the presence of ketones, a byproduct produced when muscle and fat tissue are used for energy when the body doesn&apos;t have enough insulin to use the available glucose. Occasionally a C peptide level &amp;mdash; a test used to measure the ability of the pancreas to secrete insulin &amp;mdash; may be ordered. Levels of C peptide are usually low in people with type 1 diabetes, but may be normal or high in people with type 2 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for gestational diabetes&lt;/strong&gt;&lt;br /&gt;
+Medical experts haven&apos;t established a single set of screening guidelines for gestational diabetes. Some question whether gestational diabetes screening is needed if you&apos;re younger than 25 and have no risk factors. Others say that screening all pregnant women &amp;mdash; no matter their age &amp;mdash; is the best way to identify all cases of gestational diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will likely evaluate your risk factors for gestational diabetes early in your pregnancy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re at high risk of gestational diabetes&lt;/strong&gt; &amp;mdash; for example, your body mass index (BMI) before pregnancy was 30 or higher, you had gestational diabetes during a previous pregnancy or you have a mother, father, sibling or child with diabetes &amp;mdash; your doctor may test for diabetes at your first prenatal visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re at average risk of gestational diabetes,&lt;/strong&gt; you&apos;ll likely have a screening test for gestational diabetes sometime during your second trimester &amp;mdash; typically between 24 and 28 weeks of pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may use the following screening tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Initial glucose challenge test.&lt;/strong&gt; You&apos;ll begin the glucose challenge test by drinking a syrupy glucose solution. One hour later, you&apos;ll have a blood test to measure your blood sugar level. A blood sugar level below 130 to 140 mg/dL or 7.2 to 7.8 mmol/L, is usually considered normal on a glucose challenge test, although this may vary at specific clinics or labs. If your blood sugar level is higher than normal, it only means you have a higher risk of gestational diabetes. Your doctor will order a follow-up test to determine if you have gestational diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow-up glucose tolerance testing.&lt;/strong&gt; For the follow-up test, you&apos;ll be asked to fast overnight and then have your fasting blood sugar level measured. Then you&apos;ll drink another sweet solution &amp;mdash; this one containing a higher concentration of glucose &amp;mdash; and your blood sugar level will be checked every hour for a period of three hours. If at least two of the blood sugar readings are higher than the normal values established for each of the three hours of the test, you&apos;ll be diagnosed with gestational diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for prediabetes&lt;/strong&gt;&lt;br /&gt;
+The primary test to screen for prediabetes is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The glycated hemoglobin (A1C) test.&lt;/strong&gt; This blood test indicates your average blood sugar level for the past two to three months. It works by measuring the percentage of blood sugar attached to hemoglobin, the oxygen-carrying protein in red blood cells. The higher your blood sugar levels, the more hemoglobin you&apos;ll have with sugar attached. An A1C level between 5.7 and 6.4 percent suggests you have prediabetes. Normal levels are below 5.7 percent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the A1C test isn&apos;t available, or if you have certain conditions that can make the A1C test inaccurate &amp;mdash; such as if you&apos;re pregnant or have an uncommon form of hemoglobin (known as a hemoglobin variant) &amp;mdash; your doctor may use the following tests to diagnose diabetes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fasting blood sugar test.&lt;/strong&gt; A blood sample will be taken after an overnight fast. A blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes, sometimes referred to as impaired fasting glucose. Normal is below 100 mg/dL. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral glucose tolerance test.&lt;/strong&gt; A blood sample will be taken after you fast for at least eight hours or overnight. Then you&apos;ll drink a sugary solution, and your blood sugar level will be measured again after two hours. A blood sugar level less than 140 mg/dL (7.8 mmol/L) is normal. A blood sugar level from 140 to 199 mg/dL (7.8 to 11 mmol/L) is considered prediabetes. This is sometimes referred to as impaired glucose tolerance. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on what type of diabetes you have, blood sugar monitoring, insulin and oral medications may play a role in your treatment. But no matter what type of diabetes you have, eating a healthy diet, maintaining a healthy weight and monitoring your blood sugar levels are key to managing your diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for all types of diabetes&lt;/strong&gt;&lt;br /&gt;
+An important part of managing all types of diabetes is maintaining a healthy weight through a healthy diet and exercise plan: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Healthy eating.&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;Contrary to popular perception, there&apos;s no diabetes diet. You&apos;ll need to center your diet on more fruits, vegetables and whole grains &amp;mdash; foods that are high in nutrition and fiber and low in fat and calories &amp;mdash; and cut down on animal products, refined carbohydrates and sweets. In fact, it&apos;s the best eating plan for the entire family. Sugary foods are OK once in a while, as long as they&apos;re included in your meal plan. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Yet understanding what and how much to eat can be a challenge. A registered dietitian can help you create a meal plan that fits your health goals, food preferences and lifestyle. This may include carbohydrate counting, especially if you have type 1 diabetes. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;Everyone needs regular aerobic exercise, and people who have diabetes are no exception. Exercise lowers your blood sugar level by transporting sugar to your cells, where it&apos;s used for energy. Exercise also increases your sensitivity to insulin, which means your body needs less insulin to transport sugar to your cells. Get your doctor&apos;s OK to exercise. Then choose activities you enjoy, such as walking, swimming or biking. What&apos;s most important is making physical activity part of your daily routine. Aim for at least 30 minutes or more of aerobic exercise most days of the week. If you haven&apos;t been active for a while, start slowly and build up gradually.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for type 1 and type 2 diabetes&lt;/strong&gt;&lt;br /&gt;
+Treatment for type 1 diabetes involves insulin injections or the use of an insulin pump, frequent blood sugar checks and carbohydrate counting. Treatment of type 2 diabetes primarily involves monitoring of your blood sugar, along with diabetes medications, insulin or both. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Monitoring your blood sugar.&lt;/strong&gt; Depending on your treatment plan, you may check and record your blood sugar level several times a week to three or more times a day. Careful monitoring is the only way to make sure that your blood sugar level remains within your target range. People who receive insulin therapy may also choose to monitor their blood sugar levels with a continuous glucose monitor. Although this technology doesn&apos;t yet replace the glucose meter, it can provide important information about trends in blood sugar levels. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Even if you eat on a rigid schedule, the amount of sugar in your blood can change unpredictably. With help from your diabetes treatment team, you&apos;ll learn how your blood sugar level changes in response to food, physical activity, medications, illness, alcohol, stress and &amp;mdash; for women &amp;mdash; fluctuations in hormone levels. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In addition to daily blood sugar monitoring, your doctor may recommend regular A1C testing to measure your average blood sugar level for the past two to three months. Compared with repeated daily blood sugar tests, A1C testing better indicates how well your diabetes treatment plan is working overall. An elevated A1C level may signal the need for a change in your insulin regimen or meal plan. Your target A1C goal may vary depending on your age and various other factors. However, for most people with diabetes, the American Diabetes Association recommends an A1C of below 7 percent. Ask your doctor what your A1C target is. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Insulin.&lt;/strong&gt; Most people with type 1 diabetes need insulin therapy to survive. Some people with type 2 diabetes also need insulin therapy. Often insulin is injected using a fine needle and syringe or an insulin pen &amp;mdash; a device that looks like an ink pen, except the cartridge is filled with insulin. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	An insulin pump may also be an option. The pump is a device about the size of a cellphone worn on the outside of your body. A tube connects the reservoir of insulin to a catheter that&apos;s inserted under the skin of your abdomen. A tubeless pump that works wirelessly is also now available. You program an insulin pump to dispense specific amounts of insulin. It can be adjusted to deliver more or less insulin depending on meals, activity level and blood sugar level. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	An emerging treatment approach is the closed loop insulin delivery, also known as the artificial pancreas. It links a continuous glucose monitor to an insulin pump. The device automatically delivers the correct amount of insulin when the monitor indicates the need for it. Testing has shown encouraging results, but more research is needed. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Many types of insulin are available, including rapid-acting insulin, long-acting insulin and intermediate options. Depending on your needs, your doctor may prescribe a mixture of insulin types to use throughout the day and night. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral or other medications.&lt;/strong&gt; Sometimes other oral or injected medications are prescribed as well. Some diabetes medications stimulate your pancreas to produce and release more insulin. Others inhibit the production and release of glucose from your liver, which means you need less insulin to transport sugar into your cells. Still others block the action of stomach or intestinal enzymes that break down carbohydrates or make your tissues more sensitive to insulin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transplantation.&lt;/strong&gt; In some people who have type 1 diabetes, a pancreas transplant may be an option. Islet transplants are being studied as well.&lt;strong&gt; &lt;/strong&gt;With a successful pancreas transplant, you would no longer need insulin therapy. But transplants aren&apos;t always successful &amp;mdash; and these procedures pose serious risks. You need a lifetime of immune-suppressing drugs to prevent organ rejection. These drugs can have serious side effects, including a high risk of infection, organ injury and cancer. Because the side effects can be more dangerous than the diabetes, transplants are usually reserved for people whose diabetes can&apos;t be controlled or those who have serious complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bariatric surgery.&lt;/strong&gt; Although it is not specifically considered a treatment for type 2 diabetes, people with type 2 diabetes who also have a body mass index higher than 35 may benefit from this type of surgery. People who&apos;ve undergone gastric bypass have seen significant improvements in their blood sugar levels. However, this procedure&apos;s long-term risks and benefits for type 2 diabetes aren&apos;t yet known.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for gestational diabetes&lt;/strong&gt;&lt;br /&gt;
+Controlling your blood sugar level is essential to keeping your baby healthy and avoiding complications during delivery. In addition to maintaining a healthy diet and exercising, your treatment plan may include monitoring your blood sugar and, in some cases, using insulin. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider will also monitor your blood sugar level during labor. If your blood sugar rises, your baby may release high levels of insulin &amp;mdash; which can lead to low blood sugar right after birth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for prediabetes&lt;/strong&gt;&lt;br /&gt;
+If you have prediabetes, healthy lifestyle choices can help you bring your blood sugar level back to normal or at least keep it from rising toward the levels seen in type 2 diabetes. Maintaining a healthy weight through exercise and healthy eating can help. Exercising at least 150 minutes a week and losing 5 to 10 percent of your body weight may prevent or delay type 2 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes medications &amp;mdash; such as metformin (Glucophage, Glumetza, others) &amp;mdash; also are an option if you&apos;re at high risk of diabetes, including when your prediabetes is worsening or if you have cardiovascular disease, fatty liver disease or polycystic ovary syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+In other cases, medications to control cholesterol &amp;mdash; statins, in particular &amp;mdash; and high blood pressure medications are needed. Your doctor might prescribe low-dose aspirin therapy to help prevent cardiovascular disease if you&apos;re at high risk. Healthy lifestyle choices remain key, however. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs of trouble in any type of diabetes&lt;/strong&gt;&lt;br /&gt;
+Because so many factors can affect your blood sugar, problems sometimes arise. These conditions require immediate care, because if left untreated, seizures and loss of consciousness (coma) can occur. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood sugar (hyperglycemia).&lt;/strong&gt; Your blood sugar level can rise for many reasons, including eating too much, being sick or not taking enough glucose-lowering medication. Check your blood sugar level often, and watch for signs and symptoms of high blood sugar &amp;mdash; frequent urination, increased thirst, dry mouth, blurred vision, fatigue and nausea. If you have hyperglycemia, you&apos;ll need to adjust your meal plan, medications or both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased ketones in your urine (diabetic ketoacidosis).&lt;/strong&gt; If your cells are starved for energy, your body may begin to break down fat. This produces toxic acids known as ketones. Watch for loss of appetite, weakness, vomiting, fever, stomach pain and a sweet, fruity breath. You can check your urine for excess ketones with an over-the-counter ketones test kit. If you have excess ketones in your urine, consult your doctor right away or seek emergency care. This condition is more common in people with type 1 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperglycemic hyperosmolar nonketotic syndrome.&lt;/strong&gt; Signs and symptoms of this life-threatening condition include a blood sugar reading over 600 mg/dL (33.3 mmol/L), dry mouth, extreme thirst, fever, drowsiness, confusion, vision loss and hallucinations. Hyperosmolar syndrome is caused by sky-high blood sugar that turns blood thick and syrupy. It tends to be more common in people with type 2 diabetes, and it&apos;s often preceded by an illness. Call your doctor or seek immediate medical care if you have signs or symptoms of this condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; If your blood sugar level drops below your target range, it&apos;s known as low blood sugar. Your blood sugar level can drop for many reasons, including skipping a meal and getting more physical activity than normal. However, low blood sugar is most likely if you take glucose-lowering medications that promote the secretion of insulin or if you&apos;re receiving insulin therapy. Check your blood sugar level regularly, and watch for signs and symptoms of low blood sugar &amp;mdash; sweating, shakiness, weakness, hunger, dizziness, headache, blurred vision, heart palpitations, irritability, slurred speech, drowsiness, confusion, fainting and seizures. Low blood sugar is treated with quickly absorbed carbohydrates, such as fruit juice or glucose tablets.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetes is a serious disease. Following your diabetes treatment plan takes round-the-clock commitment. Careful management of diabetes can reduce your risk of serious &amp;mdash; even life-threatening &amp;mdash; complications. 
+&lt;/p&gt;
+&lt;p&gt;
+No matter what type of diabetes you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a commitment to managing your diabetes.&lt;/strong&gt; Learn all you can about diabetes. Establish a relationship with a diabetes educator, and ask your diabetes treatment team for help when you need it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose healthy foods and maintain a healthy weight.&lt;/strong&gt; Losing just 5 to 10 percent of your body weight if you&apos;re overweight can make a significant difference in your blood sugar control. A healthy diet is one with plenty of fruits, vegetables, whole grains and legumes, with a limited amount of saturated fat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make physical activity part of your daily routine.&lt;/strong&gt; Regular exercise can help prevent prediabetes and type 2 diabetes, and it can help those who already have diabetes to maintain better blood sugar control. Thirty minutes of moderate exercise -such as brisk walking &amp;mdash; most days of the week is recommended. A recent study found that a combination of exercises &amp;mdash; aerobic exercises, such as walking or dancing on most days, combined with resistance training, such as weightlifting or yoga twice a week &amp;mdash; helps control blood sugar more effectively than either type of exercise alone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle for type 1 and type 2 diabetes&lt;/strong&gt;&lt;br /&gt;
+In addition, if you have type 1 or type 2 diabetes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Identify yourself.&lt;/strong&gt; Wear a tag or bracelet that says you have diabetes. Keep a glucagon kit nearby in case of a low blood sugar emergency &amp;mdash; and make sure your friends and loved ones know how to use it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schedule a yearly physical and regular eye exams.&lt;/strong&gt; Your regular diabetes checkups aren&apos;t meant to replace yearly physicals or routine eye exams. During the physical, your doctor will look for any diabetes-related complications and screen for other medical problems. Your eye care specialist will check for signs of retinal damage, cataracts and glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your immunizations up to date.&lt;/strong&gt; High blood sugar can weaken your immune system. Get a flu shot every year, and get a tetanus booster shot every 10 years. Your doctor will likely recommend the pneumonia vaccine, as well. The Centers for Disease Control and Prevention (CDC) also currently recommends hepatitis B vaccination if you haven&apos;t previously been vaccinated against hepatitis B and you&apos;re an adult ages 19 to 59 with type 1 or type 2 diabetes. The most recent CDC guidelines advise vaccination as soon as possible after diagnosis with type 1 or type 2 diabetes. If you are age 60 or older, have diabetes and haven&apos;t previously received the vaccine, talk to your doctor about the whether it&apos;s right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to your feet.&lt;/strong&gt; Wash your feet daily in lukewarm water. Dry them gently, especially between the toes. Moisturize with lotion, but not between the toes. Check your feet every day for blisters, cuts, sores, redness or swelling. Consult your doctor if you have a sore or other foot problem that doesn&apos;t start to heal on its own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your blood pressure and cholesterol under control.&lt;/strong&gt; Eating healthy foods and exercising regularly can go a long way toward controlling high blood pressure and cholesterol. Medication may be needed, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your teeth.&lt;/strong&gt; Diabetes may leave you prone to gum infections. Brush and floss your teeth at least twice a day. And if you have type 1 or type 2 diabetes, schedule dental exams at least once a year. Consult your dentist right away if your gums bleed or look red or swollen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you smoke or use other types of tobacco, ask your doctor to help you quit.&lt;/strong&gt; Smoking increases your risk of various diabetes complications, including heart attack, stroke, nerve damage and kidney disease. Smokers who have diabetes are more likely to die of cardiovascular disease than are nonsmokers who have diabetes, according to the American Diabetes Association. Talk to your doctor about ways to stop smoking or to stop using other types of tobacco.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you drink alcohol, do so responsibly.&lt;/strong&gt; Alcohol can cause either high or low blood sugar, depending on how much you drink and if you eat at the same time. If you choose to drink, do so only in moderation &amp;mdash; one drink a day for women and two drinks a day for men &amp;mdash; and always with food. Remember to include the carbohydrates from any alcohol you drink in your daily carbohydrate count.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take stress seriously.&lt;/strong&gt; If you&apos;re stressed, it&apos;s easy to abandon your usual diabetes management routine. The hormones your body may produce in response to prolonged stress may prevent insulin from working properly, which only makes matters worse. To take control, set limits. Prioritize your tasks. Learn relaxation techniques. Get plenty of sleep.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Above all, stay positive. The good habits you adopt today can help you enjoy an active, healthy life with diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Numerous substances have been shown in some studies to improve insulin sensitivity, yet other studies have failed to find any benefit for blood sugar control or in lowering A1C levels. Because of the conflicting findings, no alternative therapies are currently recommended for diabetes control. Some of the substances that have shown promise in helping to control blood sugar include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alpha-lipoic acid&lt;/li&gt;
+	&lt;li&gt;Caffeine&lt;/li&gt;
+	&lt;li&gt;Cassia cinnamon&lt;/li&gt;
+	&lt;li&gt;Chromium&lt;/li&gt;
+	&lt;li&gt;Flaxseed&lt;/li&gt;
+	&lt;li&gt;Ginseng&lt;/li&gt;
+	&lt;li&gt;Glucomannan&lt;/li&gt;
+	&lt;li&gt;Guar gum&lt;/li&gt;
+	&lt;li&gt;Magnesium&lt;/li&gt;
+	&lt;li&gt;Oat bran&lt;/li&gt;
+	&lt;li&gt;Soy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you decide that you&apos;d like to try an alternative therapy, don&apos;t stop taking the medications that your doctor has prescribed, and discuss the use of any of these therapies with your doctor to be sure that they won&apos;t cause adverse reactions or interact with your current therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, there are no treatments &amp;mdash; alternative or conventional &amp;mdash; that can cure diabetes, so it&apos;s critical that people who are on insulin therapy for diabetes don&apos;t stop using insulin unless directed to do so by their physician. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with diabetes can be difficult and frustrating. Sometimes, even when you&apos;ve done everything right, your blood sugar levels may rise. But stick with your diabetes management plan, and you&apos;ll likely see a positive difference in your A1C when you visit your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Because good diabetes management can be time-consuming, and sometimes overwhelming, some people find it helps to talk to someone. Your doctor can probably recommend a mental health professional for you to speak with, or you may want to try a support group. Sharing your frustrations and your triumphs with people who understand what you&apos;re going through can be very helpful. And you may find that others have great tips to share about diabetes management. Your doctor may know of a local support group, or you can call the American Diabetes Association at 800-DIABETES (800-342-2383) or the Juvenile Diabetes Research Foundation at 800-533-CURE (800-533-2873). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 1 diabetes can&apos;t be prevented. However, the same healthy lifestyle choices that help treat prediabetes, type 2 diabetes and gestational diabetes can help prevent them. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Choose foods low in fat and calories. Focus on fruits, vegetables and whole grains. Strive for variety to prevent boredom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get more physical activity.&lt;/strong&gt; Aim for 30 minutes of moderate physical activity a day. Take a brisk daily walk. Ride your bike. Swim laps. If you can&apos;t fit in a long workout, break it up into smaller sessions spread throughout the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose excess pounds.&lt;/strong&gt; If you&apos;re overweight, losing even 5 percent of your body weight &amp;mdash; for example, 10 pounds (4.5 kilograms) if you weigh 200 pounds (90.7 kilograms) &amp;mdash; can reduce the risk of diabetes. To keep your weight in a healthy range, focus on permanent changes to your eating and exercise habits. Motivate yourself by remembering the benefits of losing weight, such as a healthier heart, more energy and improved self-esteem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes medication is an option as well. Oral diabetes drugs such as metformin (Glucophage, Glumetza, others) may reduce the risk of type 2 diabetes &amp;mdash; but healthy lifestyle choices remain essential. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diabetes
+	</Title>
+	<Abstract>
+		Diabetes &amp;mdash; Comprehensive overview covers symptoms, causes and treatments of several types of diabetes.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="DA00089" LinkType="Internal" ObjectID="EF8CDC2E-81D9-45DB-AD550699FFFD23A7" Title="Diabetes treatment: Medications for type 2 diabetes" Url="http://www.mayoclinic.com/health/diabetes-treatment/DA00089" />
+		<LinkItem ContentType="Answer" DocID="AN01804" LinkType="Internal" ObjectID="E641F31C-E7FF-0DBD-1880DF252C7EA4DB" Title="Caffeine: Does it affect blood sugar?" Url="http://www.mayoclinic.com/health/blood-sugar/AN01804" />
+		<LinkItem ContentType="Answer" DocID="AN00548" LinkType="Internal" ObjectID="92E1A72F-AC7B-4063-B69241A052D7DFF4" Title="Diabetes: Does alcohol and tobacco use increase my risk?" Url="http://www.mayoclinic.com/health/diabetes/AN00548" />
+		<LinkItem ContentType="Answer" DocID="AN01315" LinkType="Internal" ObjectID="47A65CC2-2A5D-9994-E3F86379E2EE836D" Title="Byetta, Victoza, Bydureon: Diabetes drugs and weight loss" Url="http://www.mayoclinic.com/health/byetta/AN01315" />
+		<LinkItem ContentType="Answer" DocID="HQ00896" LinkType="Internal" ObjectID="289A9E10-F8DB-4730-B3C3CE54F1DBAAED" Title="Hyperinsulinemia: Is it diabetes?" Url="http://www.mayoclinic.com/health/hyperinsulinemia/HQ00896" />
+		<LinkItem ContentType="Article" DocID="DA00127" LinkType="Internal" ObjectID="CCD6E42A-E7FF-0DBD-1CA7509B2FFC7DE6" Title="Diabetes prevention: 5 tips for taking control" Url="http://www.mayoclinic.com/health/diabetes-prevention/DA00127" />
+		<LinkItem ContentType="Disease" DocID="DS00316" LinkType="Internal" ObjectID="F26EA786-DF0A-470F-BA3801EF0A7EE346" Title="Gestational diabetes" Url="http://www.mayoclinic.com/health/gestational-diabetes/DS00316" />
+		<LinkItem ContentType="Disease" DocID="DS00664" LinkType="Internal" ObjectID="E5EA160A-2A5D-9994-E3C942786D225A9D" Title="Diabetic hyperosmolar syndrome" Url="http://www.mayoclinic.com/health/diabetic-hyperosmolar-syndrome/DS00664" />
+		<LinkItem ContentType="Disease" DocID="DS00656" LinkType="Internal" ObjectID="E5C5FD51-2A5D-9994-E9962415A70A4F89" Title="Diabetic coma" Url="http://www.mayoclinic.com/health/diabetic-coma/DS00656" />
+		<LinkItem ContentType="Disease" DocID="DS00329" LinkType="Internal" ObjectID="91E57DE9-7D24-4152-90B41D26B948426A" Title="Type 1 diabetes" Url="http://www.mayoclinic.com/health/type-1-diabetes/DS00329" />
+		<LinkItem ContentType="Disease" DocID="DS01045" LinkType="Internal" ObjectID="8B100B6D-E7FF-0DBD-1F560FC125F949B9" Title="Diabetic neuropathy" Url="http://www.mayoclinic.com/health/diabetic-neuropathy/DS01045" />
+		<LinkItem ContentType="Disease" DocID="DS00624" LinkType="Internal" ObjectID="72102949-2A5D-9994-E526941C6FAACB7D" Title="Prediabetes" Url="http://www.mayoclinic.com/health/prediabetes/DS00624" />
+		<LinkItem ContentType="Disease" DocID="DS00585" LinkType="Internal" ObjectID="67CDF280-4583-4E6E-A1DD12C8817E4302" Title="Type 2 diabetes" Url="http://www.mayoclinic.com/health/type-2-diabetes/DS00585" />
+		<LinkItem ContentType="Disease" DocID="DS00674" LinkType="Internal" ObjectID="4B4D9A97-2A5D-9994-E418E1B6A23F03EC" Title="Diabetic ketoacidosis" Url="http://www.mayoclinic.com/health/diabetic-ketoacidosis/DS00674" />
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00146" LinkType="Internal" ObjectID="DF9C1BB4-E7FF-0DBD-12AE768ED85E8088" Title="Glucose challenge test" Url="http://www.mayoclinic.com/health/glucose-challenge-test/MY00146" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00145" LinkType="Internal" ObjectID="DF9A81BC-E7FF-0DBD-1367F77269337881" Title="Glucose tolerance test" Url="http://www.mayoclinic.com/health/glucose-tolerance-test/MY00145" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00142" LinkType="Internal" ObjectID="DF92B575-E7FF-0DBD-1BAB5D415ACF9A14" Title="A1C test" Url="http://www.mayoclinic.com/health/a1c-test/MY00142" />
+		<LinkItem ContentType="Answer" DocID="AN02162" LinkType="Internal" ObjectID="87893559-01A2-8CF6-167156AE96DB6FFC" Title="After a flood, are food and medicine safe to use?" Url="http://www.mayoclinic.com/health/after-a-flood/AN02162" />
+		<LinkItem ContentType="Answer" DocID="AN02119" LinkType="Internal" ObjectID="66961E9B-ED5A-E9DC-94CA87543F3E14CC" Title="Sodium nitrate in meat: Heart disease risk factor?" Url="http://www.mayoclinic.com/health/sodium-nitrate/AN02119" />
+		<LinkItem ContentType="Answer" DocID="AN01974" LinkType="Internal" ObjectID="432B7FD2-A2A2-2EA0-8B6FA7F6B151F721" Title="Air pollution and exercise: Is outdoor exercise risky?" Url="http://www.mayoclinic.com/health/air-pollution-and-exercise/AN01974" />
+		<LinkItem ContentType="Answer" DocID="HQ01212" LinkType="Internal" ObjectID="3900044F-0479-4EE7-B69ABBDC41E64B93" Title="Low-phosphorus diet: Best for kidney disease?" Url="http://www.mayoclinic.com/health/food-and-nutrition/HQ01212" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00762" LinkType="Internal" ObjectID="2D195E5F-FD77-2D07-2C216068873F0C8E" Title="Pancreas transplant" Url="http://www.mayoclinic.com/health/pancreas-transplant/MY00762" />
+		<LinkItem ContentType="Article" DocID="MY00731" LinkType="Internal" ObjectID="888784EA-0CA6-7CD9-0882E8A19A6B8E6D" Title="Couponing and other frugal food shopping tips" Url="http://www.mayoclinic.com/health/frugal-food/MY00731" />
+		<LinkItem ContentType="Article" DocID="MY02165" LinkType="Internal" ObjectID="78017033-F62A-355B-BD0EF7B977FA63C0" Title="Exercise and chronic disease: Get the facts" Url="http://www.mayoclinic.com/health/exercise-and-chronic-disease/MY02165" />
+		<LinkItem ContentType="Article" DocID="DA00045" LinkType="Internal" ObjectID="062F28D4-2D61-4400-A41AAEFC8A0626A6" Title="Erectile dysfunction and diabetes: Take control today" Url="http://www.mayoclinic.com/health/erectile-dysfunction/DA00045" />
+		<LinkItem ContentType="Table" DocID="DA00070" LinkType="Internal" ObjectID="FFECC864-B509-4016-A95B8B3063E225BD" Title="Exchange list: Fruits" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00070" />
+		<LinkItem ContentType="Table" DocID="DA00074" LinkType="Internal" ObjectID="E8B50501-6C24-4241-A1E8C169A2B950FE" Title="Exchange list: Meat and meat substitutes" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00074" />
+		<LinkItem ContentType="Table" DocID="DA00071" LinkType="Internal" ObjectID="DD69253A-E3DF-4F6A-8AE48AE0986EBA84" Title="Exchange list: Milk and yogurt" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00071" />
+		<LinkItem ContentType="Answer" DocID="AN00939" LinkType="Internal" ObjectID="D0BA0C8B-17C3-4C5E-BABD5DA735C80B61" Title="Diabetes treatment: Can cinnamon lower blood sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00939" />
+		<LinkItem ContentType="Table" DocID="DA00075" LinkType="Internal" ObjectID="CF972E06-29EF-4015-9A1C8613E800A73A" Title="Exchange list: Fats" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00075" />
+		<LinkItem ContentType="Answer" DocID="AN01509" LinkType="Internal" ObjectID="CECA1726-E7FF-0DBD-1DD8DA13038C98D1" Title="Diabetes: Are electric blankets off-limits?" Url="http://www.mayoclinic.com/health/diabetes/AN01509" />
+		<LinkItem ContentType="Answer" DocID="AN02011" LinkType="Internal" ObjectID="C0683904-0C4A-603E-4A007645231D330D" Title="Diabetes and depression: Coping with the two conditions" Url="http://www.mayoclinic.com/health/diabetes-and-depression/AN02011" />
+		<LinkItem ContentType="Answer" DocID="AN00845" LinkType="Internal" ObjectID="BA768AB8-55AC-44BE-B45CD8CE91F12909" Title="Vegetarian diet: Can it help me control my diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00845" />
+		<LinkItem ContentType="Answer" DocID="AN01958" LinkType="Internal" ObjectID="B00158B5-E7FF-0DBD-1534BED2254DFE59" Title="Diabetes management: Does aspirin therapy prevent heart problems?" Url="http://www.mayoclinic.com/health/aspirin-therapy/AN01958" />
+		<LinkItem ContentType="Answer" DocID="AN01213" LinkType="Internal" ObjectID="9AE4F795-2A5D-9994-E655F8F5BCE0FE85" Title="The dawn phenomenon: What can you do?" Url="http://www.mayoclinic.com/health/dawn-effect/AN01213" />
+		<LinkItem ContentType="Table" DocID="DA00069" LinkType="Internal" ObjectID="8CF7446C-571D-4B1F-A057D979AF6E5720" Title="Exchange list: Starches" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00069" />
+		<LinkItem ContentType="Answer" DocID="AN01691" LinkType="Internal" ObjectID="842617FF-E7FF-0DBD-1A64CA34C5DF5D28" Title="Diabetes diet: Should I avoid sweet fruits?" Url="http://www.mayoclinic.com/health/diabetes/AN01691" />
+		<LinkItem ContentType="Answer" DocID="AN00348" LinkType="Internal" ObjectID="72E5EDAD-7EEA-4F0E-88EB83087ACFF95F" Title="Artificial sweeteners: Any effect on blood sugar?" Url="http://www.mayoclinic.com/health/artificial-sweeteners/AN00348" />
+		<LinkItem ContentType="Answer" DocID="AN00193" LinkType="Internal" ObjectID="609C212D-35EF-4EE8-82502B1A9DD06CD5" Title="Diabetes: How do I help protect my liver?" Url="http://www.mayoclinic.com/health/diabetes/AN00193" />
+		<LinkItem ContentType="Table" DocID="DA00091" LinkType="Internal" ObjectID="5EBD4F51-485A-43CC-B9267FF9CF6E49F4" Title="Insulin: Compare common options for insulin therapy" Url="http://www.mayoclinic.com/health/insulin/DA00091" />
+		<LinkItem ContentType="Answer" DocID="AN02125" LinkType="Internal" ObjectID="53B81A0F-F957-5499-DAB3590605B0584D" Title="Avandia safety concerns: What should I do?" Url="http://www.mayoclinic.com/health/avandia/AN02125" />
+		<LinkItem ContentType="Table" DocID="DA00076" LinkType="Internal" ObjectID="50C876BB-9357-4523-98985FA091614048" Title="Exchange list: Free foods" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00076" />
+		<LinkItem ContentType="Table" DocID="DA00072" LinkType="Internal" ObjectID="42043545-A8FA-4F54-9B6A320BDFBEF75B" Title="Exchange list: Sweets, desserts and other carbohydrates" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00072" />
+		<LinkItem ContentType="Answer" DocID="AN00975" LinkType="Internal" ObjectID="3DA7267F-C9A3-43E6-A71669768F406A86" Title="Late-night eating: OK if you have diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00975" />
+		<LinkItem ContentType="Answer" DocID="AN00934" LinkType="Internal" ObjectID="336612B6-E243-4FD8-9AC9D79DDCC1C935" Title="Reactive hypoglycemia: What can I do?" Url="http://www.mayoclinic.com/health/reactive-hypoglycemia/AN00934" />
+		<LinkItem ContentType="Answer" DocID="HQ00384" LinkType="Internal" ObjectID="25FA95EB-E5BE-4749-A010272B67DFCEF4" Title="Managing diabetes: Looking beyond carbs" Url="http://www.mayoclinic.com/health/diabetes/HQ00384" />
+		<LinkItem ContentType="Answer" DocID="AN02037" LinkType="Internal" ObjectID="256FFF50-DE1F-04C7-CCF1C067D4816F2D" Title="Blood glucose monitors: What factors affect accuracy?" Url="http://www.mayoclinic.com/health/blood-glucose-monitors/AN02037" />
+		<LinkItem ContentType="SlideShow" DocID="DA00062" LinkType="Internal" ObjectID="146260D0-9910-47B2-9D58A9BC2C01AA12" Title="Slide show: Blood sugar testing" Url="http://www.mayoclinic.com/health/blood-sugar/DA00062" />
+		<LinkItem ContentType="Answer" DocID="AN00754" LinkType="Internal" ObjectID="0F07D463-CFF5-48B0-8023B589F97745E8" Title="Glycemic index diet: A helpful tool for diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00754" />
+		<LinkItem ContentType="Answer" DocID="AN00425" LinkType="Internal" ObjectID="0D5D69BC-AD00-4EF9-AA583AA7ECCCB5CE" Title="Diabetes foods: Is honey a good substitute for sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00425" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01072" LinkType="Internal" ObjectID="0D045347-D493-491D-87747DC88EF2FAA9" Title="Bone and joint problems associated with diabetes" Url="http://www.mayoclinic.com/health/diabetes/AN01072" />
+		<LinkItem ContentType="Video" DocID="MM00641" LinkType="Internal" ObjectID="0798BB8E-A076-4530-A813B1FE5D082347" Title="Video: How diabetes affects your blood sugar" Url="http://www.mayoclinic.com/health/blood-sugar/MM00641" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+		<LinkItem ContentType="Disease" DocID="DS00447" LinkType="Internal" ObjectID="7F1FAEE7-FFC9-46BF-87BA35708C76CB97" Title="Diabetic retinopathy" Url="http://www.mayoclinic.com/health/diabetic-retinopathy/DS00447" />
+		<LinkItem ContentType="Disease" DocID="DS00561" LinkType="Internal" ObjectID="5C302784-080C-4278-B4953F801900B4F2" Title="Dehydration" Url="http://www.mayoclinic.com/health/dehydration/DS00561" />
+		<LinkItem ContentType="Article" DocID="DA00140" LinkType="Internal" ObjectID="F137A4D5-E7FF-0DBD-19EFDE501E927526" Title="Amputation and diabetes: How to protect your feet" Url="http://www.mayoclinic.com/health/amputation-and-diabetes/DA00140" />
+		<LinkItem ContentType="Article" DocID="DA00005" LinkType="Internal" ObjectID="DBF746E8-C262-42D5-B930E93CDA7EF2FC" Title="Diabetes management: How lifestyle, daily routine affect blood sugar" Url="http://www.mayoclinic.com/health/diabetes-management/DA00005" />
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+		<LinkItem ContentType="Article" DocID="DA00131" LinkType="Internal" ObjectID="CCD93E60-E7FF-0DBD-16D4DC756C95973A" Title="Diabetes nutrition: Eating out when you have diabetes" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00131" />
+		<LinkItem ContentType="Article" DocID="DA00130" LinkType="Internal" ObjectID="CCD8D0D2-E7FF-0DBD-1147590923E8C5D8" Title="Diabetes nutrition: Including sweets in your meal plan" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00130" />
+		<LinkItem ContentType="Article" DocID="DA00129" LinkType="Internal" ObjectID="CCD8574E-E7FF-0DBD-17D0E039BF826AA0" Title="Reading food labels: Tips if you have diabetes" Url="http://www.mayoclinic.com/health/food-labels/DA00129" />
+		<LinkItem ContentType="Article" DocID="DA00007" LinkType="Internal" ObjectID="92AC67F3-1213-490C-92B735ECBA4127FA" Title="Blood sugar testing: Why, when and how" Url="http://www.mayoclinic.com/health/blood-sugar/DA00007" />
+		<LinkItem ContentType="Article" DocID="MY00924" LinkType="Internal" ObjectID="857E4CB1-9711-9A15-FC482EF2F728CE05" Title="Blood glucose meter: How to choose" Url="http://www.mayoclinic.com/health/blood-glucose-meter/MY00924" />
+		<LinkItem ContentType="Article" DocID="DA00077" LinkType="Internal" ObjectID="77362434-F554-430A-921AFCFD1A1843D6" Title="Your diabetes diet: Exchange lists" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00077" />
+		<LinkItem ContentType="Article" DocID="DA00008" LinkType="Internal" ObjectID="6AEAFB6E-1AD3-4135-895FD14C6101E152" Title="Diabetes care: 10 ways to avoid diabetes complications" Url="http://www.mayoclinic.com/health/diabetes-management/DA00008" />
+		<LinkItem ContentType="Article" DocID="DA00105" LinkType="Internal" ObjectID="636D1AE8-2008-4B4F-97235C8819FC5DCD" Title="Diabetes and exercise: When to monitor your blood sugar" Url="http://www.mayoclinic.com/health/diabetes-and-exercise/DA00105" />
+		<LinkItem ContentType="Article" DocID="DA00073" LinkType="Internal" ObjectID="4C506041-DDCD-48C8-9EC11A94ABDC4AF9" Title="Exchange list: Nonstarchy vegetables" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00073" />
+		<LinkItem ContentType="Article" DocID="DA00038" LinkType="Internal" ObjectID="167CE011-22E6-46C5-BC2634387D8E47AC" Title="Diabetes and menopause: A twin challenge" Url="http://www.mayoclinic.com/health/diabetes/DA00038" />
+		<LinkItem ContentType="Article" DocID="DA00027" LinkType="Internal" ObjectID="15BFEA7A-0FD3-4F24-B4F777100DAF60F1" Title="Diabetes diet: Create your healthy-eating plan" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00027" />
+		<LinkItem ContentType="Article" DocID="DA00125" LinkType="Internal" ObjectID="147B55E4-E7FF-0DBD-1F6F914B34826B5D" Title="Diabetes symptoms: When diabetes symptoms are a concern" Url="http://www.mayoclinic.com/health/diabetes-symptoms/DA00125" />
+		<LinkItem ContentType="Article" DocID="DA00010" LinkType="Internal" ObjectID="0D683502-920C-47E6-AE42F3355B6B8816" Title="Diabetes treatment: Using insulin to manage blood sugar" Url="http://www.mayoclinic.com/health/diabetes-treatment/DA00010" />
+		<LinkItem ContentType="Article" DocID="DA00088" LinkType="Internal" ObjectID="02E539B2-398D-43D8-ABF8B817F1901492" Title="Intensive insulin therapy: Achieving tight blood sugar control" Url="http://www.mayoclinic.com/health/intensive-insulin-therapy/DA00088" />
+		<LinkItem ContentType="Article" DocID="DA00013" LinkType="Internal" ObjectID="019020A5-D8EF-44ED-A1FC275B92B2D1A7" Title="Diabetes and dental care: Guide to a healthy mouth" Url="http://www.mayoclinic.com/health/diabetes/DA00013" />
+	</RelatedLinksBox>
+</Disease>

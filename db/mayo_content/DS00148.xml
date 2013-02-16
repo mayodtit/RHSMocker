@@ -1,0 +1,462 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00148
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sleep-apnea/DS00148
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-24
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1156" Title="Sleep disorders">
+						<Keyword MCVID="1935" Title="Sleep apnea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			46007B8E-E80F-4754-ADF482B2CB33E645
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sleep apnea
+			</MetaKeyword>
+			<MetaKeyword>
+				snoring
+			</MetaKeyword>
+			<MetaKeyword>
+				insomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				breathing
+			</MetaKeyword>
+			<MetaKeyword>
+				breathe
+			</MetaKeyword>
+			<MetaKeyword>
+				breath
+			</MetaKeyword>
+			<MetaKeyword>
+				sleepiness
+			</MetaKeyword>
+			<MetaKeyword>
+				CPAP
+			</MetaKeyword>
+			<MetaKeyword>
+				narcolepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apnia
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apena
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sleep apnea is a potentially serious sleep disorder in which breathing repeatedly stops and starts. You may have sleep apnea if you snore loudly and you feel tired even after a full night&apos;s sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+There are two main types of sleep apnea: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obstructive sleep apnea,&lt;/strong&gt; the more common form that occurs when throat muscles relax&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Central sleep apnea,&lt;/strong&gt; which occurs when your brain doesn&apos;t send proper signals to the muscles that control breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you think you might have sleep apnea, see your doctor. Treatment is necessary to avoid heart problems and other complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of obstructive and central sleep apneas overlap, sometimes making the type of sleep apnea more difficult to determine. The most common signs and symptoms of obstructive and central sleep apneas include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Excessive daytime sleepiness (hypersomnia)&lt;/li&gt;
+	&lt;li&gt;Loud snoring, which is usually more prominent in obstructive sleep apnea&lt;/li&gt;
+	&lt;li&gt;Episodes of breathing cessation during sleep witnessed by another person&lt;/li&gt;
+	&lt;li&gt;Abrupt awakenings accompanied by shortness of breath, which more likely indicates central sleep apnea&lt;/li&gt;
+	&lt;li&gt;Awakening with a dry mouth or sore throat&lt;/li&gt;
+	&lt;li&gt;Morning headache&lt;/li&gt;
+	&lt;li&gt;Difficulty staying asleep (insomnia)&lt;/li&gt;
+	&lt;li&gt;Attention problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult a medical professional if you experience, or if your partner notices, the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Snoring loud enough to disturb the sleep of others or yourself&lt;/li&gt;
+	&lt;li&gt;Shortness of breath that awakens you from sleep&lt;/li&gt;
+	&lt;li&gt;Intermittent pauses in your breathing during sleep&lt;/li&gt;
+	&lt;li&gt;Excessive daytime drowsiness, which may cause you to fall asleep while you&apos;re working, watching television or even driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people don&apos;t think of snoring as a sign of something potentially serious, and not everyone who has sleep apnea snores. But be sure to talk to your doctor if you experience loud snoring, especially snoring that&apos;s punctuated by periods of silence.
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about any sleep problem that leaves you chronically fatigued, sleepy and irritable. Excessive daytime drowsiness (hypersomnia) may be due to other disorders, such as narcolepsy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Causes of obstructive sleep apnea&lt;br /&gt;
+&lt;/strong&gt;Obstructive sleep apnea occurs when the muscles in the back of your throat relax. These muscles support the soft palate, the triangular piece of tissue hanging from the soft palate (uvula), the tonsils, the side walls of the throat and the tongue. 
+&lt;/p&gt;
+&lt;p&gt;
+When the muscles relax, your airway narrows or closes as you breathe in, and you can&apos;t get an adequate breath in. This may lower the level of oxygen in your blood. Your brain senses this inability to breathe and briefly rouses you from sleep so you can reopen your airway. This awakening is usually so brief that you don&apos;t remember it.
+&lt;/p&gt;
+&lt;p&gt;
+You may make a snorting, choking or gasping sound. This pattern can repeat itself five to 30 times or more each hour, all night long. These disruptions impair your ability to reach the desired deep, restful phases of sleep, and you&apos;ll probably feel sleepy during your waking hours.
+&lt;/p&gt;
+&lt;p&gt;
+People with obstructive sleep apnea may not be aware that their sleep was interrupted. In fact, some people with this type of sleep apnea think they sleep well all night.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of central sleep apnea&lt;br /&gt;
+&lt;/strong&gt;Central sleep apnea, which is much less common, occurs when your brain fails to transmit signals to your breathing muscles. You may awaken with shortness of breath or have a difficult time getting to sleep or staying asleep. Like with obstructive sleep apnea, snoring and daytime sleepiness can occur. The most common cause of central sleep apnea is heart failure and, less commonly, a stroke. People with central sleep apnea may be more likely to remember awakening than are people with obstructive sleep apnea.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing soft tissues of the throat 
+" Caption="Obstructive sleep apnea occurs when the muscles that support the soft tissues in your throat, such as your tongue and soft palate, temporarily relax. When these muscles relax, your airway is narrowed or closed, and breathing is momentarily cut off. 
+" Height="60" Title="Obstructive sleep apnea" URI="/images/image_popup/thumbs/sl7_sleep_apneathu.jpg" Width="60" />
+				<Image Alt="Illustration showing soft tissues of the throat 
+" Caption="Obstructive sleep apnea occurs when the muscles that support the soft tissues in your throat, such as your tongue and soft palate, temporarily relax. When these muscles relax, your airway is narrowed or closed, and breathing is momentarily cut off. 
+" Height="589" Title="Obstructive sleep apnea" URI="/images/image_popup/sl7_sleep_apnea.jpg" Width="400" />
+				<HTML>
+					Obstructive sleep apnea occurs when the muscles that support the soft tissues in your throat, such as your tongue and soft palate, temporarily relax. When these muscles relax, your airway is narrowed ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sleep apnea can affect anyone. Even children can have sleep apnea. But certain factors put you at increased risk: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Obstructive sleep apnea&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excess weight.&lt;/strong&gt; Fat deposits around your upper airway may obstruct your breathing. However, not everyone who has sleep apnea is overweight. Thin people develop this disorder, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neck circumference.&lt;/strong&gt; People with a thicker neck may have a narrower airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A narrowed airway.&lt;/strong&gt; You may have inherited a naturally narrow throat. Or, your tonsils or adenoids may become enlarged, which can block your airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Men are twice as likely to have sleep apnea. However, women increase their risk if they&apos;re overweight, and their risk also appears to rise after menopause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being older.&lt;/strong&gt; Sleep apnea occurs significantly more often in adults older than 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If you have family members with sleep apnea, you may be at increased risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; In people under 35 years old, blacks are more likely to have obstructive sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of alcohol, sedatives or tranquilizers.&lt;/strong&gt; These substances relax the muscles in your throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smokers are three times more likely to have obstructive sleep apnea than are people who&apos;ve never smoked. Smoking may increase the amount of inflammation and fluid retention in the upper airway. This risk likely drops after you quit smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal congestion.&lt;/strong&gt; If you have difficulty breathing through your nose &amp;mdash; whether it&apos;s from an anatomical problem or allergies &amp;mdash; you&apos;re more likely to develop obstructive sleep apnea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Central sleep apnea&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Males are more likely to develop central sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being older.&lt;/strong&gt; People older than 65 years of age have a higher risk of having central sleep apnea, especially if they also have other risk factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart disorders.&lt;/strong&gt; People with atrial fibrillation or congestive heart failure are more at risk of central sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke or brain tumor.&lt;/strong&gt; These conditions can impair the brain&apos;s ability to regulate breathing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sleep apnea is considered a serious medical condition. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure or heart problems.&lt;/strong&gt; Sudden drops in blood oxygen levels that occur during sleep apnea increase blood pressure and strain the cardiovascular system. If you have obstructive sleep apnea, your risk of high blood pressure (hypertension) is greater than if you don&apos;t. The more severe your sleep apnea, the greater the risk of high blood pressure. However, obstructive sleep apnea increases the risk of stroke, regardless of whether or not you have high blood pressure. If there&apos;s underlying heart disease, these multiple episodes of low blood oxygen (hypoxia or hypoxemia) can lead to sudden death from a cardiac event. Studies also show that obstructive sleep apnea is associated with increased risk of atrial fibrillation, congestive heart failure and other vascular diseases. In contrast, central sleep apnea usually is the result, rather than the cause, of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Daytime fatigue.&lt;/strong&gt; The repeated awakenings associated with sleep apnea make normal, restorative sleep impossible. People with sleep apnea often experience severe daytime drowsiness, fatigue and irritability. You may have difficulty concentrating and find yourself falling asleep at work, while watching TV or even when driving. You may also feel irritable, moody or depressed. Children and adolescents with sleep apnea may do poorly in school or have behavior problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complications with medications and surgery.&lt;/strong&gt; Obstructive sleep apnea is also a concern with certain medications and general anesthesia. People with sleep apnea may be more likely to experience complications following major surgery because they&apos;re prone to breathing problems, especially when sedated and lying on their backs. Before you have surgery, tell your doctor that you have sleep apnea and how it&apos;s treated. Undiagnosed sleep apnea is especially risky in this situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver problems.&lt;/strong&gt; People with sleep apnea are more likely to have abnormal results on liver function tests, and their livers are more likely to show signs of scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep-deprived partners.&lt;/strong&gt; Loud snoring can keep those around you from getting good rest and eventually disrupt your relationships. It&apos;s not uncommon for a partner to go to another room, or even on another floor of the house, to be able to sleep. Many bed partners of people who snore are sleep-deprived as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People with sleep apnea may also complain of memory problems, morning headaches, mood swings or feelings of depression, a need to urinate frequently at night (nocturia), and a decreased interest in sex. Children with untreated sleep apnea may be hyperactive and may be diagnosed with attention-deficit/hyperactivity disorder (ADHD). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your partner suspects that you have sleep apnea, you&apos;ll probably first see your primary care doctor. However, in some cases when you call to set up an appointment, you may be referred immediately to a sleep specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as modify your diet or keep a sleep diary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; &lt;strong&gt;vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember information that you missed or forgot. And, because your bed partner may be more aware of your symptoms than you are, it may help to have him or her along.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your visit. For sleep apnea, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Which treatment do you think would be best for me?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine or product you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How does your partner describe your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you know if you stop breathing during sleep? If so, how many times a night?&lt;/li&gt;
+	&lt;li&gt;Is there anything that has helped your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything worsen your symptoms, such as sleep position or alcohol consumption?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to sleep on your side.&lt;/strong&gt; Most forms of sleep apnea are milder when you sleep on your side.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol close to bedtime.&lt;/strong&gt; Alcohol worsens obstructive and complex sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sedative medications.&lt;/strong&gt; Drugs that relax you or make you sleepy can also worsen sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re drowsy, avoid driving.&lt;/strong&gt; If you have sleep apnea you may be abnormally sleepy, which can put you at higher risk of motor vehicle accidents. At times, a close friend or family member might tell you that you appear sleepier than you feel. If this is true, try to avoid driving at all.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may make an evaluation based on your signs and symptoms or may refer you to a sleep disorder center. There, a sleep specialist can help you decide on your need for further evaluation. Such an evaluation often involves overnight monitoring of your breathing and other body functions during sleep. Home sleep testing is gaining in popularity, because it&apos;s often easier for you and less expensive. Tests to detect sleep apnea may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nocturnal polysomnography.&lt;/strong&gt; During this test, you&apos;re hooked up to equipment that monitors your heart, lung and brain activity, breathing patterns, arm and leg movements, and blood oxygen levels while you sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Home sleep tests.&lt;/strong&gt; In some cases, your doctor may provide you with simplified tests to be used at home to diagnose sleep apnea. These tests usually involve measuring your heart rate, blood oxygen level, airflow and breathing patterns. If you have sleep apnea, the test results will show drops in your oxygen level during apneas and subsequent rises with awakenings. If the results are abnormal, your doctor may be able to prescribe a therapy without further testing. Portable monitoring devices don&apos;t detect all cases of sleep apnea, so your doctor may still recommend polysomnography even if your initial results are normal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have obstructive sleep apnea, your doctor may refer you to an ear, nose and throat doctor (otolaryngologist) to rule out any blockage in your nose or throat. An evaluation by a heart doctor (cardiologist) or a doctor who specializes in the nervous system (neurologist) may be necessary to look for causes of central sleep apnea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For milder cases of sleep apnea, your doctor may recommend only lifestyle changes, such as losing weight or quitting smoking. If these measures don&apos;t improve your signs and symptoms or if your apnea is moderate to severe, a number of other treatments are available. Certain devices can help open up a blocked airway. In other cases, surgery may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for obstructive sleep apnea may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Continuous positive airway pressure (CPAP).&lt;/strong&gt; If you have moderate to severe sleep apnea, you may benefit from a machine that delivers air pressure through a mask placed over your nose while you sleep. With CPAP (SEE-pap), the air pressure is somewhat greater than that of the surrounding air, and is just enough to keep your upper airway passages open, preventing apnea and snoring. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although CPAP is the most common and reliable method of treating sleep apnea, some people find it cumbersome or uncomfortable. Many people give up on CPAP, but with some practice, most people learn to adjust the tension of the straps to obtain a comfortable and secure fit. You may need to try more than one type of mask to find one that&apos;s comfortable. Some people benefit from also using a humidifier along with their CPAP system. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Don&apos;t just stop using the CPAP machine if you experience problems. Check with your doctor to see what modifications can be made to make you more comfortable. Additionally, contact your doctor if you are still snoring despite treatment or begin snoring again. If your weight changes, the pressure settings may need to be adjusted. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjustable airway pressure devices.&lt;/strong&gt; If CPAP continues to be a problem for you, you may be able to use a different type of airway pressure device that automatically adjusts the pressure while you&apos;re sleeping. For example, units that supply bilevel positive airway pressure (BPAP) are available. These provide more pressure when you inhale and less when you exhale.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Expiratory positive airway pressure (EPAP).&lt;/strong&gt; This is the most recent treatment approved by the Food and Drug Administration (FDA). These small, single-use devices are placed over each nostril before you go to sleep. The device is a valve that allows air to move freely in, but when you exhale, air must go through small holes in the valve. This increases pressure in the airway and keeps it open. The device helped reduce snoring and daytime sleepiness when compared to a sham device. And, it may be an option for some who can&apos;t tolerate CPAP.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral appliances.&lt;/strong&gt; Another option is wearing an oral appliance designed to keep your throat open. CPAP is more reliably effective than oral appliances, but oral appliances may be easier to use. Some are designed to open your throat by bringing your jaw forward, which can sometimes relieve snoring and mild obstructive sleep apnea. 
+	&lt;p&gt;
+	A number of devices are available from your dentist. You may need to try different devices before finding one that works for you. Once you find the right fit, you&apos;ll still need to follow up with your dentist at least every six months during the first year and then at least once a year after that to ensure that the fit is still good and to reassess your signs and symptoms. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery is usually only an option after other treatments have failed. Generally, at least a three-month trial of other treatment options is suggested before considering surgery. However, for those few people with certain jaw structure problems, it&apos;s a good first option. The goal of surgery for sleep apnea is to enlarge the airway through your nose or throat that may be vibrating and causing you to snore or that may be blocking your upper air passages and causing sleep apnea. Surgical options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Tissue removal.&lt;/strong&gt; During this procedure, which is called uvulopalatopharyngoplasty (UPPP), your doctor removes tissue from the rear of your mouth and top of your throat. Your tonsils and adenoids usually are removed as well. This type of surgery may be successful in stopping throat structures from vibrating and causing snoring. However, it may be less successful in treating sleep apnea because tissue farther down your throat may still block your air passage. UPPP usually is performed in a hospital and requires a general anesthetic.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Removing tissues in the back of your throat with a laser (laser-assisted uvulopalatoplasty) isn&apos;t a recommended treatment for sleep apnea. Radiofrequency energy (radiofrequency ablation) may be an option for people who can&apos;t tolerate CPAP or oral appliances. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaw repositioning.&lt;/strong&gt; In this procedure, your jaw is moved forward from the remainder of your face bones. This enlarges the space behind the tongue and soft palate, making obstruction less likely. This procedure, which is known as maxillomandibular advancement, may require the cooperation of an oral surgeon and an orthodontist, and at times may be combined with another procedure to improve the likelihood of success.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Implants.&lt;/strong&gt; Plastic rods are surgically implanted into the soft palate while you&apos;re under local anesthetic. This procedure may be an option for those with snoring or milder sleep apnea who can&apos;t tolerate CPAP.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Creating a new air passageway (tracheostomy).&lt;/strong&gt; You may need this form of surgery if other treatments have failed and you have severe, life-threatening sleep apnea. In this procedure, your surgeon makes an opening in your neck and inserts a metal or plastic tube through which you breathe. You keep the opening covered during the day. But at night you uncover it to allow air to pass in and out of your lungs, bypassing the blocked air passage in your throat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other types of surgery may help reduce snoring and contribute to the treatment of sleep apnea by clearing or enlarging air passages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nasal surgery to remove polyps or straighten a crooked partition between your nostrils (deviated nasal septum)&lt;/li&gt;
+	&lt;li&gt;Surgery to remove enlarged tonsils or adenoids&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatments for central and complex sleep apnea may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment for associated medical problems.&lt;/strong&gt; Possible causes of central sleep apnea include heart or neuromuscular disorders, and treating those conditions may help. For example, optimizing therapy for heart failure may eliminate central sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supplemental oxygen.&lt;/strong&gt; Using supplemental oxygen while you sleep may help if you have central sleep apnea. Various forms of oxygen are available as well as different devices to deliver oxygen to your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continuous positive airway pressure (CPAP).&lt;/strong&gt; This method, also used in obstructive sleep apnea, involves wearing a pressurized mask over your nose while you sleep. The mask is attached to a small pump that forces air through your airway to keep it from collapsing. CPAP may eliminate snoring and prevent sleep apnea. As with obstructive sleep apnea, it&apos;s important that you use the device as directed. If your mask is uncomfortable or the pressure feels too strong, talk with your doctor so that adjustments can be made.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bilevel positive airway pressure (BPAP).&lt;/strong&gt; Unlike CPAP, which supplies steady, constant pressure to your upper airway as you breathe in and out, BPAP builds to a higher pressure when you inhale and decreases to a lower pressure when you exhale. The goal of this treatment is to assist the weak breathing pattern of central sleep apnea. Some BPAP devices can be set to automatically deliver a breath if the device detects you haven&apos;t taken one after so many seconds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adaptive servo-ventilation (ASV).&lt;/strong&gt; This more recently approved airflow device learns your normal breathing pattern and stores the information in a built-in computer. After you fall asleep, the machine uses pressure to normalize your breathing pattern and prevent pauses in your breathing. ASV appears to be more successful than other forms of positive airway pressure at treating central sleep apnea in some people.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Along with these treatments, you may read or hear about different treatments for sleep apnea, such as implants. Although a number of medical devices and procedures have received Food and Drug Administration clearance, there&apos;s limited published research regarding how useful they are, and they aren&apos;t generally recommended as sole therapies. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of continuous positive airway pressure (CPAP) mask 
+" Caption="Your doctor may recommend continuous positive airway pressure (CPAP) to eliminate snoring and prevent sleep apnea. A CPAP machine delivers just enough air pressure to a mask to keep your upper airway passages open. 
+" Height="60" Title="Continuous positive airway pressure (CPAP)" URI="/images/image_popup/thumbs/r7_cpapthu.jpg" Width="60" />
+				<Image Alt="Illustration of continuous positive airway pressure (CPAP) mask 
+" Caption="Your doctor may recommend continuous positive airway pressure (CPAP) to eliminate snoring and prevent sleep apnea. A CPAP machine delivers just enough air pressure to a mask to keep your upper airway passages open. 
+" Height="400" Title="Continuous positive airway pressure (CPAP)" URI="/images/image_popup/r7_cpap.jpg" Width="400" />
+				<HTML>
+					Your doctor may recommend continuous positive airway pressure (CPAP) to eliminate snoring and prevent sleep apnea. A CPAP machine delivers just enough air pressure to a mask to keep your upper airway ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, self-care may be the most appropriate way for you to deal with obstructive sleep apnea and possibly central sleep apnea. Try these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lose excess weight.&lt;/strong&gt; Even a slight loss in excess weight may help relieve constriction of your throat. Sleep apnea may be cured in some cases by a return to a healthy weight. If you don&apos;t already have a weight-loss program, talk to your doctor about the best course of action for weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Getting 30 minutes of moderate activity, such as a brisk walk, most days of the week may help ease obstructive sleep apnea symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol and certain medications such as tranquilizers and sleeping pills.&lt;/strong&gt; These relax the muscles in the back of your throat, interfering with breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep on your side or abdomen rather than on your back.&lt;/strong&gt; Sleeping on your back can cause your tongue and soft palate to rest against the back of your throat and block your airway. To prevent sleeping on your back, try sewing a tennis ball in the back of your pajama top.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your nasal passages open at night.&lt;/strong&gt; Use a saline nasal spray to help keep your nasal passages open. Talk to your doctor about using any nasal decongestants or antihistamines because these medications are generally recommended only for short-term use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking, if you&apos;re a smoker.&lt;/strong&gt; Smoking worsens obstructive sleep apnea.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most alternative medicines for sleep apnea haven&apos;t been well studied. Acupuncture has shown some benefit in studies, but it still needs more study. Although it may be used in conjunction with standard treatments, acupuncture should not replace them. Talk to your doctor about any alternative treatment approaches you&apos;re considering.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sleep apnea
+	</Title>
+	<Abstract>
+		Sleep apnea &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of central and obstructive sleep apnea.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00995" LinkType="Internal" ObjectID="527F2C24-E7FF-0DBD-179189C48F92AC84" Title="Central sleep apnea" Url="http://www.mayoclinic.com/health/central-sleep-apnea/DS00995" />
+		<LinkItem ContentType="Disease" DocID="DS00297" LinkType="Internal" ObjectID="48D50376-6042-4011-A627317A9C08F538" Title="Snoring" Url="http://www.mayoclinic.com/health/snoring/DS00297" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00516" LinkType="Internal" ObjectID="D1740644-D893-0B62-2AFBC53A14632E39" Title="Pillar procedure" Url="http://www.mayoclinic.com/health/pillar-procedure/MY00516" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+		<LinkItem ContentType="SlideShow" DocID="SL00018" LinkType="Internal" ObjectID="D9D278B9-E7FF-0DBD-1AECC7BB36F93030" Title="Slide show: Which CPAP masks are best for you?" Url="http://www.mayoclinic.com/health/cpap-masks/SL00018" />
+		<LinkItem ContentType="Answer" DocID="AN01907" LinkType="Internal" ObjectID="BCCD80B2-E7FF-0DBD-1280152BEC2FBF6E" Title="Sleep apnea and caffeine: Any connection?" Url="http://www.mayoclinic.com/health/sleep-apnea/AN01907" />
+		<LinkItem ContentType="Video" DocID="MM00716" LinkType="Internal" ObjectID="84A0D09E-E7FF-0DBD-1613202322835EE6" Title="Video: How CPAP controls sleep apnea" Url="http://www.mayoclinic.com/health/cpap/MM00716" />
+		<LinkItem ContentType="Video" DocID="MM00715" LinkType="Internal" ObjectID="84A00292-E7FF-0DBD-1558C73C92018919" Title="Video: What happens during obstructive sleep apnea?" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/MM00715" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Article" DocID="SL00017" LinkType="Internal" ObjectID="113C1058-E7FF-0DBD-14B892FF2F58C60B" Title="CPAP machines: Tips for avoiding 10 common problems" Url="http://www.mayoclinic.com/health/cpap/SL00017" />
+	</RelatedLinksBox>
+</Disease>

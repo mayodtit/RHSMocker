@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00563
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/primary-aldosteronism/DS00563
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-06
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1496" Title="Adrenal">
+						<Keyword MCVID="2460" Title="Primary aldosteronism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			36E7D8E1-3993-40AC-B1658D26794AFE2B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aldosteronism
+			</MetaKeyword>
+			<MetaKeyword>
+				primary aldosteronism
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperaldosteronism
+			</MetaKeyword>
+			<MetaKeyword>
+				Conn&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				glucocorticoid-remediable aldosteronism
+			</MetaKeyword>
+			<MetaKeyword>
+				aldosteronoma
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				resistant hypertension
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary aldosteronism (al-DOS-tuh-ro-niz-um) is a type of hormonal disorder that leads to high blood pressure. Your adrenal glands produce a number of essential hormones. One of these is aldosterone, which balances sodium and potassium in your blood. In primary aldosteronism, your adrenal glands produce too much aldosterone, causing you to lose potassium and retain sodium. The excess sodium in turn holds onto water, increasing your blood volume and blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnosis and treatment of primary aldosteronism are important because people with this form of high blood pressure have a higher risk of heart disease and stroke. Also, the high blood pressure associated with primary aldosteronism may be curable. Options for people with primary aldosteronism include medications, lifestyle modifications and surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main signs of primary aldosteronism are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Moderate to severe high blood pressure&lt;/li&gt;
+	&lt;li&gt;High blood pressure that takes several medications to control&lt;/li&gt;
+	&lt;li&gt;High blood pressure along with a low potassium level (hypokalemia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Have your blood pressure checked regularly, especially if you have risk factors for high blood pressure, for example if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re age 45 or older&lt;/li&gt;
+	&lt;li&gt;You have a family history of high blood pressure&lt;/li&gt;
+	&lt;li&gt;You&apos;re overweight&lt;/li&gt;
+	&lt;li&gt;You have a sedentary lifestyle&lt;/li&gt;
+	&lt;li&gt;You use tobacco&lt;/li&gt;
+	&lt;li&gt;You drink a lot of alcohol&lt;/li&gt;
+	&lt;li&gt;You have dietary imbalances (too much salt, not enough potassium)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common conditions causing the overproduction of aldosterone include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A benign growth (aldosteronoma or adrenal adenoma) in an adrenal gland &amp;mdash; a condition also known as Conn&apos;s syndrome&lt;/li&gt;
+	&lt;li&gt;Overactivity of both adrenal glands (bilateral adrenal hyperplasia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In rare cases, primary aldosteronism may be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancerous (malignant) growths in the outer layer (cortex) of the adrenal gland&lt;/li&gt;
+	&lt;li&gt;A rare type of primary aldosteronism called glucocorticoid-remediable aldosteronism (GRA) that runs in families and causes high blood pressure in children and young adults&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary aldosteronism can lead to high blood pressure and low potassium levels. These complications in turn can lead to other problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Problems related to high blood pressure&lt;/strong&gt; &lt;br /&gt;
+Persistently elevated blood pressure can lead to problems with your heart and kidneys, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Left ventricular hypertrophy &amp;mdash; enlargement of the muscle that makes up the wall of the left ventricle, your heart&apos;s main pumping chamber&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Kidney disease or kidney failure&lt;/li&gt;
+	&lt;li&gt;Premature death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+High blood pressure caused by primary aldosteronism carries a higher risk of cardiovascular complications than do other types of high blood pressure. This excess risk is due to the high aldosterone levels, which can cause heart and blood vessel damage independently of complications related to high blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Problems related to low potassium levels&lt;/strong&gt; &lt;br /&gt;
+Some, but not all, people with primary aldosteronism have low potassium levels (hypokalemia). Mild hypokalemia may not cause any symptoms, but very low levels of potassium can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Cardiac arrhythmias&lt;/li&gt;
+	&lt;li&gt;Muscle cramps&lt;/li&gt;
+	&lt;li&gt;Excess thirst or urination&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Since the symptoms of primary aldosteronism aren&apos;t always obvious, your doctor may be the one to suggest you set up an appointment to get screened for the condition. Your doctor may suspect primary aldosteronism if you have high blood pressure and: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your blood pressure remains persistently high, especially if you&apos;re already taking at least three medications for it (resistant hypertension)&lt;/li&gt;
+	&lt;li&gt;You have low blood potassium, although many people with primary aldosteronism have normal potassium levels, especially in the early stages of the disease&lt;/li&gt;
+	&lt;li&gt;An imaging test taken for another reason incidentally shows a growth on one of your adrenal glands&lt;/li&gt;
+	&lt;li&gt;You have a personal or family history of high blood pressure or stroke at a young age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The screening test for primary aldosteronism may require some advanced planning. The test can be performed while you&apos;re taking most blood pressure medications, but you may need to discontinue taking certain drugs, such as spironolactone (Aldactone) and eplerenone (Inspra), up to six weeks before testing. Your doctor may also ask you to avoid hard licorice products for a couple of weeks before the test, as these can affect aldosterone levels. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A variety of tests are available to help diagnose primary aldosteronism. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening test&lt;/strong&gt; &lt;br /&gt;
+Initially, your doctor is likely to measure the levels of aldosterone and ludro in your blood. Renin is an enzyme released by your kidneys that helps regulate blood pressure. The combination of a very low ludro level with a high aldosterone level indicates that primary aldosteronism may be the cause of your high blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Confirmation tests&lt;/strong&gt; &lt;br /&gt;
+If the aldosterone-renin test suggests that you might have primary aldosteronism, you&apos;ll need another test to confirm the diagnosis, such as one of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral salt loading.&lt;/strong&gt; You&apos;ll follow a high-sodium diet for three days before your doctor measures aldosterone and sodium levels in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Saline loading.&lt;/strong&gt; Your aldosterone levels are tested after sodium mixed with water (saline) is infused into your bloodstream for several hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fludrocortisone suppression test (FST).&lt;/strong&gt; After you&apos;ve followed a high-sodium diet and taken ludrocortisones &amp;mdash; which mimics the action of aldosterone &amp;mdash; for several days, aldosterone levels in your blood are measured.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt; &lt;br /&gt;
+If you receive a diagnosis of primary aldosteronism, your doctor will run additional tests to determine whether the underlying cause is an aldosteronoma or overactivity of both adrenal glands. Tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal computerized tomography (CT). &lt;/strong&gt;A CT scan can help identify a tumor on your adrenal gland or an enlargement that suggests overactivity. You may still need additional testing after a CT scan because this imaging test may miss small but important abnormalities or find tumors that don&apos;t produce aldosterone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adrenal vein sampling.&lt;/strong&gt; A radiologist draws blood from both your right and left adrenal veins and compares the two samples. Aldosterone levels that are significantly higher on one side indicate the presence of an aldosteronoma on that side. Aldosterone levels that are similar on both sides point to overactivity in both glands. Though essential for determining the appropriate treatment, this test increases your risk of a blood clot at the site where the blood is drawn.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for primary aldosteronism depends on the underlying cause but its basic goal is to normalize, or block the effect of, high aldosterone levels and prevent the potential complications of high blood pressure and low potassium levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for an adrenal gland tumor&lt;/strong&gt; &lt;br /&gt;
+An adrenal gland tumor may be treated with surgery or medications and lifestyle changes. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgical removal of the gland.&lt;/strong&gt; Surgical removal of the adrenal gland containing the tumor (adrenalectomy) is usually recommended because it may permanently resolve high blood pressure and potassium deficiency, and it can bring aldosterone levels back to normal. Blood pressure usually drops gradually after a unilateral adrenalectomy. Your doctor will follow you closely after surgery and progressively adjust or eliminate your high blood pressure medications.
+	&lt;/p&gt;
+	&lt;p&gt;
+	An adrenalectomy carries the usual risks of abdominal surgery, including bleeding and infection. However, adrenal hormone replacement is not necessary after a unilateral adrenalectomy because the other adrenal gland is able to produce adequate amounts of all the hormones on its own. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aldosterone-blocking drugs.&lt;/strong&gt; If you&apos;re unable to have surgery or prefer not to, primary aldosteronism caused by a benign tumor can also be effectively treated with aldosterone-blocking drugs (mineralocorticoid receptor antagonists) and lifestyle changes. But high blood pressure and low potassium will return if you stop taking your medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for overactivity of both adrenal glands&lt;/strong&gt; &lt;br /&gt;
+A combination of medications and lifestyle modifications can effectively treat primary aldosteronism caused by overactivity of both adrenal glands (bilateral adrenal hyperplasia). 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications.&lt;/strong&gt; Mineralocorticoid receptor antagonists block the action of aldosterone in your body. Your doctor may first prescribe spironolactone (Aldactone). This medication helps correct high blood pressure and low potassium, but it may cause problems. In addition to blocking aldosterone receptors, spironolactone blocks androgen and progesterone receptors and may inhibit the action of these hormones. Side effects can include male breast enlargement (gynecomastia), decreased sexual desire (libido), impotence, menstrual irregularities and gastrointestinal distress.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A newer, more expensive mineralocorticoid receptor antagonist called eplerenone (Inspra) acts just on aldosterone receptors, eliminating the sex hormone side effects associated with spironolactone. Your doctor may recommend eplerenone if you experience serious side effects with spironolactone. In addition to spironolactone or eplerenone, you may need further treatment for high blood pressure. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lifestyle changes.&lt;/strong&gt; High blood pressure medications are more effective when combined with a healthy diet and lifestyle. Work with your doctor to create a plan to reduce the sodium in your diet and maintain a healthy body weight. Getting regular exercise, limiting the amount of alcohol you drink and stopping smoking also may improve your response to medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A healthy lifestyle is essential for keeping blood pressure low and maintaining long-term heart health. Here are some healthy lifestyle suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a healthy diet.&lt;/strong&gt; Limit the sodium in your diet by focusing on fresh foods and reduced-sodium products, avoiding condiments, and removing salt from recipes. Diets that also emphasize a healthy variety of foods &amp;mdash; including grains, fruits, vegetables and low-fat dairy products &amp;mdash; can promote weight loss and help to lower blood pressure. Try the Dietary Approaches to Stop Hypertension (DASH) diet &amp;mdash; it has proven benefits for your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Achieve a healthy weight.&lt;/strong&gt; If your body mass index (BMI) is 25 or more, losing as few as 10 pounds (4.5 kilograms) may reduce your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Regular aerobic exercise can help lower blood pressure. You don&apos;t have to hit the gym &amp;mdash; taking vigorous walks most days of the week can significantly improve your health. Try walking with a friend at lunch instead of dining out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Quitting smoking will improve your overall cardiovascular health. Nicotine in tobacco makes your heart work harder by temporarily constricting your blood vessels and increasing your heart rate and blood pressure. Talk to your doctor about medications that can help you stop smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol and caffeine.&lt;/strong&gt; Both substances can raise your blood pressure, and alcohol can interfere with the effectiveness of some blood pressure medications. Ask your doctor whether moderate alcohol consumption is safe for you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Primary aldosteronism
+	</Title>
+	<Abstract>
+		Primary aldosteronism &amp;mdash; Comprehensive overview covers symptoms, treatment of this adrenal gland disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="HI00048" LinkType="Internal" ObjectID="BF9EC580-06B1-40EC-B4FD27D51F856FBB" Title="DASH diet: Guide to recommended servings" Url="http://www.mayoclinic.com/health/dash-diet/HI00048" />
+		<LinkItem ContentType="Article" DocID="HI00021" LinkType="Internal" ObjectID="2CEE92F2-74A2-468C-8DC51ED91D249468" Title="DASH diet: Top 5 tips for dining out" Url="http://www.mayoclinic.com/health/dash-diet/HI00021" />
+	</RelatedLinksBox>
+</Disease>

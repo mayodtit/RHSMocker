@@ -1,0 +1,129 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01948
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/asthma-triggers/AN01948
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-29
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="4319" Title="Asthma attack">
+						<Keyword MCVID="3346" Title="Childhood asthma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BDBF376B-E7FF-0DBD-14F4B77E3A464B2F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				asthma triggers
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				carpet
+			</MetaKeyword>
+			<MetaKeyword>
+				flooring
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Reducing exposure to asthma triggers is one of the most important steps you can take to prevent asthma flare-ups. 
+&lt;/p&gt;
+&lt;p&gt;
+Carpeting can be a reservoir for allergy-causing substances (allergens) that trigger asthma. Carpeting in the bedroom can be especially problematic because it exposes you to carpet dust throughout the night. Hard-surface flooring such as vinyl, tile or wood is much easier to keep free of dust mites, pollen, pet dander and other allergens. 
+&lt;/p&gt;
+&lt;p&gt;
+Steam cleaning carpet on a regular basis can help reduce the presence of dust mites and other allergens in your home. If that isn&apos;t enough, replacing carpeting with hard flooring may be a good idea. 
+&lt;/p&gt;
+&lt;p&gt;
+If you do put in hard flooring, keep in mind that all synthetic flooring initially releases gasses known as volatile organic compounds (VOCs) that can worsen asthma. In most cases, products stop releasing VOCs after several days. However, some release more VOCs than others. You may want to look into low-VOC flooring if this is a concern. 
+&lt;/p&gt;
+&lt;p&gt;
+It might be worthwhile having your daughter see an allergist for allergy skin testing. There may be individualized steps you can take to reduce allergen exposure once you know exactly what your daughter is allergic to. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Asthma triggers: Are hard flooring surfaces better than carpet?
+	</Title>
+	<Abstract>
+		Replacing carpet with hard flooring may be a good idea if you have asthma.
+	</Abstract>
+	<Question>
+		My daughter has asthma. Should we replace the carpeting in our home with vinyl or wood flooring?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00001" LinkType="Internal" ObjectID="E27C2AE8-3D69-4BB9-A282F7B9B3A1CDCD" Title="Video: An asthma attack" Url="http://www.mayoclinic.com/health/asthma/MM00001" />
+		<LinkItem ContentType="Article" DocID="AS00024" LinkType="Internal" ObjectID="0683DC75-2A5D-9994-E2AC997ACA8FF1D7" Title="Asthma: Limit asthma attacks caused by colds or flu" Url="http://www.mayoclinic.com/health/asthma/AS00024" />
+		<LinkItem ContentType="Answer" DocID="AN01092" LinkType="Internal" ObjectID="AA54770F-4274-4F78-9ECEA698C350FEEF" Title="Wheezing in children: Could it be asthma?" Url="http://www.mayoclinic.com/health/asthma/AN01092" />
+		<LinkItem ContentType="Answer" DocID="AN02114" LinkType="Internal" ObjectID="F198441F-EB2F-349D-1E086E717D471A58" Title="Hygiene hypothesis: Early germ exposure prevents asthma?" Url="http://www.mayoclinic.com/health/hygiene-hypothesis/AN02114" />
+		<LinkItem ContentType="Answer" DocID="AN01973" LinkType="Internal" ObjectID="2441A9D5-D5B1-4F3C-387DADE428A87A2F" Title="Will my child outgrow asthma?" Url="http://www.mayoclinic.com/health/outgrow-asthma/AN01973" />
+		<LinkItem ContentType="Disease" DocID="DS00842" LinkType="Internal" ObjectID="6ABB9250-E7FF-0DBD-150E349EBF322EDC" Title="Dust mite allergy" Url="http://www.mayoclinic.com/health/dust-mites/DS00842" />
+		<LinkItem ContentType="Disease" DocID="DS00859" LinkType="Internal" ObjectID="09A73EDE-E7FF-0DBD-1B76266DAA90422D" Title="Pet allergy" Url="http://www.mayoclinic.com/health/pet-allergy/DS00859" />
+		<LinkItem ContentType="Article" DocID="AS00036" LinkType="Internal" ObjectID="18D94E87-E7FF-0DBD-182EF79C6665B922" Title="Treating asthma in children ages 12 and older" Url="http://www.mayoclinic.com/health/asthma-in-children/AS00036" />
+		<LinkItem ContentType="Article" DocID="AS00035" LinkType="Internal" ObjectID="18D87FCB-E7FF-0DBD-15D7876BFFBBFE5E" Title="Treating asthma in children ages 5 to 11" Url="http://www.mayoclinic.com/health/asthma-in-children/AS00035" />
+		<LinkItem ContentType="Article" DocID="AS00034" LinkType="Internal" ObjectID="18D74AF8-E7FF-0DBD-14F56C0A875E33A5" Title="Treating asthma in children under 5" Url="http://www.mayoclinic.com/health/asthma-in-children/AS00034" />
+		<LinkItem ContentType="Article" DocID="HQ00273" LinkType="Internal" ObjectID="0ABF38F7-534D-4168-8B7342231FEA21D5" Title="Asthma in children: Creating an asthma action plan" Url="http://www.mayoclinic.com/health/asthma/HQ00273" />
+		<LinkItem ContentType="Disease" DocID="DS00849" LinkType="Internal" ObjectID="ADB05F4D-E7FF-0DBD-1C0A6384E4958FE4" Title="Childhood asthma" Url="http://www.mayoclinic.com/health/childhood-asthma/DS00849" />
+	</RelatedLinksBox>
+</Answer>

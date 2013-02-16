@@ -1,0 +1,151 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00758
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hepatitis-c/AN00758
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-10
+		</UpdateDate>
+		<PublicationDate>
+			2004-02-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1858" Title="Hepatitis">
+							<Keyword MCVID="2427" Title="Hepatitis C" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F7370FBF-65CF-4A67-89AD8C9FAAAEF7B9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hepatitis C
+			</MetaKeyword>
+			<MetaKeyword>
+				hep c
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitus c
+			</MetaKeyword>
+			<MetaKeyword>
+				hepititis c
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+End-stage hepatitis C means the liver has been severely damaged by the hepatitis C virus. The hepatitis C virus slowly damages the liver over many years, often progressing from inflammation to scarring (fibrosis) to permanent, irreversible scarring (cirrhosis). A majority of infected people don&apos;t even realize the damage has occurred. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you have cirrhosis, the liver is unable to heal itself. Treatment just tries to keep damage from worsening. (Although, in rare cases, cirrhosis can be reversed.) Symptoms of serious end-stage liver disease can begin to appear: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Persistent or recurring yellowing of your skin and eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Abdominal swelling due to fluid accumulation (ascites)&lt;/li&gt;
+	&lt;li&gt;Disturbances of thinking &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, the cirrhosis leads to liver cancer. More often, your liver continues to deteriorate to the point where the liver loses most or all of its function &amp;mdash; liver failure. In addition, people with cirrhosis may also develop: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gastrointestinal bleeding due to enlarged veins in the esophagus (esophageal varices)&lt;/li&gt;
+	&lt;li&gt;Brain and nervous system damage due to the accumulation of toxins in the bloodstream (hepatic encephalopathy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The only effective treatment for people with end-stage liver disease is a liver transplant. Chronic hepatitic C virus is the most frequent cause of liver transplantation in the United States. Most people who receive a liver transplant for hepatitis C survive for at least five years after their transplant, but almost always, the hepatitis C virus returns. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with hepatitis C or end-stage liver disease, it&apos;s very important that you see a doctor who specializes in gastrointestinal diseases or liver diseases (hepatologist). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="60" Title="Esophageal varices" URI="/images/image_popup/thumbs/ans7_esphogeal_varicesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="375" Title="Esophageal varices" URI="/images/image_popup/ans7_esphogeal_varices.jpg" Width="400" />
+				<HTML>
+					Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Hepatitis C: What happens in end-stage liver disease?
+	</Title>
+	<Abstract>
+		End-stage complications of hepatitis C include liver failure and liver cancer.
+	</Abstract>
+	<Question>
+		My brother has been told he has end-stage hepatitis C. What does this mean?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00094" LinkType="Internal" ObjectID="B729B58C-E7FF-0DBD-12F16E2756745D18" Title="Bilirubin test" Url="http://www.mayoclinic.com/health/bilirubin/MY00094" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00093" LinkType="Internal" ObjectID="B727321E-E7FF-0DBD-1CADFEB8D4A46579" Title="Liver function tests" Url="http://www.mayoclinic.com/health/liver-function-tests/MY00093" />
+		<LinkItem ContentType="Answer" DocID="AN00701" LinkType="Internal" ObjectID="4B441C27-43B2-4498-81579FE52DC2A001" Title="Hepatitis C: How common is sexual transmission?" Url="http://www.mayoclinic.com/health/hepatitis-c/AN00701" />
+		<LinkItem ContentType="Disease" DocID="DS00097" LinkType="Internal" ObjectID="7235BE2E-BEC1-40BE-971C851E75A0FDC5" Title="Hepatitis C" Url="http://www.mayoclinic.com/health/hepatitis-c/DS00097" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,227 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00887
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lazy-eye/DS00887
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2488" Title="Lazy eye" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A055970E-E7FF-0DBD-14D70DA45310E3A4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lazy eye
+			</MetaKeyword>
+			<MetaKeyword>
+				wandering eye
+			</MetaKeyword>
+			<MetaKeyword>
+				amblyopia
+			</MetaKeyword>
+			<MetaKeyword>
+				strabismus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lazy eye (amblyopia) is a reduction in visual acuity that results from abnormal visual development during infancy and early childhood. Lazy eye usually affects just one eye, but it may affect both eyes. With lazy eye, there is no apparent damage or abnormality to the eye. Lazy eye is the leading cause of decreased vision among children. Left untreated, the loss of vision may range from mild to severe.
+&lt;/p&gt;
+&lt;p&gt;
+Lazy eye develops when nerve pathways between the brain and the eye aren&apos;t properly stimulated. This can lead to a condition in which the brain favors one eye, usually due to poor vision in the other eye. The weaker eye tends to wander. Eventually, the brain may ignore the signals received from the weaker &amp;mdash; or lazy &amp;mdash; eye.
+&lt;/p&gt;
+&lt;p&gt;
+Conservative treatments such as corrective eye wear or eye patches can often correct lazy eye. Sometimes, lazy eye requires surgical treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of lazy eye include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An eye that wanders inward or outward&lt;/li&gt;
+	&lt;li&gt;Eyes that may not appear to work together&lt;/li&gt;
+	&lt;li&gt;Poor depth perception&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although lazy eye usually affects just one eye, it&apos;s possible for both eyes to be affected.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Vision checks are often a routine part of well-child checkups &amp;mdash; especially if there&apos;s a family history of crossed eyes, childhood cataracts or other eye conditions. For all children, a complete eye exam is usually recommended between ages 3 and 5. If you notice your child&apos;s eye wandering at any time beyond the first few weeks of life, consult your child&apos;s doctor for an evaluation. Depending on the circumstances, he or she may refer your child to a doctor who specializes in eye conditions (ophthalmologist or optometrist).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anything that blurs a child&apos;s vision or causes the eyes to cross or turn out may cause lazy eye. Some of the more common causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Strabismus.&lt;/strong&gt; The most common cause of lazy eye is strabismus &amp;mdash; an imbalance in the muscles responsible for positioning of the eyes. This imbalance can cause the eyes to cross in or turn out. The muscle imbalance prevents the eyes from tracking in a coordinated way with each other.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anatomic or structural abnormality of the eye.&lt;/strong&gt; Sometimes lazy eye is the result of an abnormality, such as an abnormal central retina or a cloudy area in the lens of the eye (cataract). In other cases, an abnormal eye shape or a size difference between the eyes contributes to lazy eye.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor.&lt;/strong&gt; Occasionally, a wandering eye is the first sign of an eye tumor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lazy eye tends to run in families. Lazy eye may be more likely among children who were born prematurely or those who have developmental delays as they get older.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, lazy eye can cause permanent vision loss. In fact, lazy eye is the most common cause of single-eye vision impairment in young and middle-aged adults, according to the National Eye Institute.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child is most likely to be diagnosed with lazy eye during a comprehensive vision exam. Every child should have a complete eye exam between ages 3 and 5. If your child is in this age range or has any symptoms of eye or vision problems, make an appointment with your doctor. You may be referred to an ophthalmologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Before the appointment, write down your child&apos;s medical history and make a list of your questions. Your time with the doctor is limited and appointments can go fast, so it helps to be prepared. 
+&lt;/p&gt;
+&lt;p&gt;
+Plan to tell the doctor about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Any other medical issues,&lt;/strong&gt; including other eye problems, your child has had&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;All medications,&lt;/strong&gt; vitamins and supplements your child is taking&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Any allergies to medications,&lt;/strong&gt; food or other substances your child may have&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Any family history&lt;/strong&gt; of eye problems, such as lazy eye, cataracts or glaucoma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your questions for the doctor about lazy eye might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my child have lazy eye?&lt;/li&gt;
+	&lt;li&gt;Other than lazy eye, is there any other possible diagnosis?&lt;/li&gt;
+	&lt;li&gt;If this is lazy eye, what is the likely cause?&lt;/li&gt;
+	&lt;li&gt;Is lazy eye associated with any other health conditions?&lt;/li&gt;
+	&lt;li&gt;What treatment options are most likely to help my child?&lt;/li&gt;
+	&lt;li&gt;How much improvement can we expect with treatment?&lt;/li&gt;
+	&lt;li&gt;Is my child at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Is my child at risk of a recurrence of this condition?&lt;/li&gt;
+	&lt;li&gt;What treatment options are available if there is a recurrence?&lt;/li&gt;
+	&lt;li&gt;How often should my child be seen for follow-up visits?&lt;/li&gt;
+	&lt;li&gt;When would you recommend seeing another specialist, such as a pediatric ophthalmologist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lazy eye is diagnosed with a thorough eye exam. Your doctor will look for a wandering eye, as well as a difference in vision between the eyes or poor vision in both eyes. Special diagnostic tests aren&apos;t usually needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ideally, lazy eye treatment begins in early childhood &amp;mdash; when the complicated connections between the eye and the brain are forming. Depending on the cause and the degree to which your child&apos;s vision is affected, treatment options may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corrective eye wear.&lt;/strong&gt; If a condition such as nearsightedness, farsightedness or astigmatism is contributing to lazy eye, corrective glasses or contact lenses will likely be prescribed. Sometimes corrective eyewear is all that&apos;s needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye patches.&lt;/strong&gt; To stimulate the weaker eye, your child may wear an eye patch over the stronger eye &amp;mdash; possibly for two or more hours a day depending on the severity of the lazy eye. This helps the part of the brain that manages vision develop more completely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eyedrops.&lt;/strong&gt; A daily or twice-weekly drop of a drug called atropine can temporarily blur vision in the stronger eye. This will encourage use of the weaker eye, and offers an alternative to wearing a patch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If your child has crossed or outwardly deviating eyes, the eye muscles may benefit from surgical repair. Droopy eyelids or cataracts also may need surgical intervention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For most children with lazy eye, proper treatment improves vision within weeks to several months &amp;mdash; and the earlier treatment begins, the better. Although research suggests that the treatment window extends through at least age 17, results are better when treatment begins in early childhood.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lazy eye (amblyopia)
+	</Title>
+	<Abstract>
+		Lazy eye &amp;mdash; Comprehensive overview covers symptoms and treatment of this childhood vision problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+	</RelatedLinksBox>
+</Disease>

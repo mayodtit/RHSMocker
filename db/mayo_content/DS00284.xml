@@ -1,0 +1,437 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00284
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/macular-degeneration/DS00284
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-20
+		</UpdateDate>
+		<PublicationDate>
+			2001-02-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="1795" Title="Dry macular degeneration" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			21C07C90-1034-44F9-9CFDC922CEC3A6BA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				macular degeneration
+			</MetaKeyword>
+			<MetaKeyword>
+				dry macular degeneration
+			</MetaKeyword>
+			<MetaKeyword>
+				AMD
+			</MetaKeyword>
+			<MetaKeyword>
+				ARMD
+			</MetaKeyword>
+			<MetaKeyword>
+				age-related macular degeneration
+			</MetaKeyword>
+			<MetaKeyword>
+				retina
+			</MetaKeyword>
+			<MetaKeyword>
+				macula
+			</MetaKeyword>
+			<MetaKeyword>
+				central vision
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dry macular degeneration is a chronic eye disease that causes vision loss in the center of your field of vision. Dry macular degeneration is marked by deterioration of the macula (MAK-u-luh), which is in the center of the retina. The layer of tissue on the inside back wall of your eyeball. 
+&lt;/p&gt;
+&lt;p&gt;
+Dry macular degeneration is one of two types of age-related macular degeneration. The other type &amp;mdash; wet macular degeneration &amp;mdash; is characterized by blood vessels that grow under the retina in the back of the eye, leaking blood and fluid. Dry macular degeneration is the more common form of the disease.
+&lt;/p&gt;
+&lt;p&gt;
+Dry macular degeneration may worsen your quality of life by causing blurred central vision or a blind spot in your central vision. You need clear central vision for many tasks, such as reading, driving and recognizing faces.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="60" Title="Vision with macular degeneration" URI="/images/image_popup/thumbs/vi7_macular_degenerationthu.jpg" Width="60" />
+				<Image Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="200" Title="Vision with macular degeneration" URI="/images/image_popup/vi7_macular_degeneration.jpg" Width="400" />
+				<HTML>
+					As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dry macular degeneration symptoms usually develop gradually. You may notice these vision changes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The need for brighter light when reading or doing close work&lt;/li&gt;
+	&lt;li&gt;Increasing difficulty adapting to low light levels, such as when entering a dimly lit restaurant&lt;/li&gt;
+	&lt;li&gt;Increasing blurriness of printed words&lt;/li&gt;
+	&lt;li&gt;A decrease in the intensity or brightness of colors&lt;/li&gt;
+	&lt;li&gt;Difficulty recognizing faces&lt;/li&gt;
+	&lt;li&gt;A gradual increase in the haziness of your central or overall vision&lt;/li&gt;
+	&lt;li&gt;Crooked central vision&lt;/li&gt;
+	&lt;li&gt;A blurred or blind spot in the center of your field of vision&lt;/li&gt;
+	&lt;li&gt;Hallucinations of geometric shapes or people, in case of advanced macular degeneration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Dry macular degeneration may affect one or both eyes. If only one eye is affected, you may not notice any changes in your vision because your good eye may compensate for the weak eye.
+&lt;/p&gt;
+&lt;p&gt;
+See your eye doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You notice changes in your central vision&lt;/li&gt;
+	&lt;li&gt;Your ability to see colors and fine detail becomes impaired&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These changes may be the first indication of macular degeneration, particularly if you&apos;re older than age 50.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="60" Title="Vision with macular degeneration" URI="/images/image_popup/thumbs/vi7_macular_degenerationthu.jpg" Width="60" />
+				<Image Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="200" Title="Vision with macular degeneration" URI="/images/image_popup/vi7_macular_degeneration.jpg" Width="400" />
+				<HTML>
+					As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of dry macular degeneration is unknown, but the condition develops as the eye ages. Dry macular degeneration affects the macula &amp;mdash; an area located at the center of your retina that is responsible for clear vision in your direct line of sight. Over time tissue in your macula may thin and break down.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parts of the inner eye 
+" Caption="Located at the back of your eye in the center of your retina, a healthy macula allows for normal central vision acuity. The macula is made up of densely packed light-sensitive cells called cones and rods. Cones are responsible for color vision and rods enable you to see shades of gray. 
+" Height="60" Title="Parts of the eye" URI="/images/image_popup/thumbs/vi7_inner_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing parts of the inner eye 
+" Caption="Located at the back of your eye in the center of your retina, a healthy macula allows for normal central vision acuity. The macula is made up of densely packed light-sensitive cells called cones and rods. Cones are responsible for color vision and rods enable you to see shades of gray. 
+" Height="306" Title="Parts of the eye" URI="/images/image_popup/vi7_inner_eye.jpg" Width="400" />
+				<HTML>
+					Located at the back of your eye in the center of your retina, a healthy macula allows for normal central vision acuity. The macula is made up of densely packed light-sensitive cells called cones and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of macular degeneration include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Your risk of macular degeneration increases as you age, especially after age 50. Macular degeneration is most common in people older than 65. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of macular degeneration.&lt;/strong&gt; If someone in your family had macular degeneration, you&apos;re more likely to develop the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Macular degeneration is more common in whites (Caucasians) than it is in other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Smoking cigarettes increases your risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being severely overweight increases the chance that early or intermediate macular degeneration will progress to the more severe form of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unhealthy diet.&lt;/strong&gt; A poor diet that includes few fruits and vegetables may increase the risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; If you have had diseases that affected your heart and blood vessels (cardiovascular disease), you may be at higher risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevated cholesterol.&lt;/strong&gt; Elevated cholesterol may be associated with a higher risk of macular degeneration.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Progression to wet macular degeneration&lt;br /&gt;
+&lt;/strong&gt;At any time, dry macular degeneration can progress to wet macular degeneration, which causes rapid vision loss. Doctors can&apos;t predict whether you&apos;ll develop wet macular degeneration. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with dry macular degeneration may experience severe vision loss.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To check for macular degeneration, a dilated eye exam is generally necessary. Make an appointment with a doctor who specializes in eye care &amp;mdash; an optometrist or an ophthalmologist &amp;mdash; who can evaluate your condition and perform a comprehensive eye exam. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Appointments can be brief. Make the best use of the limited time by preparing beforehand. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to your vision problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to accompany you.&lt;/strong&gt; Having your pupils dilated for the eye exam may compromise your vision for a time afterward. You may need someone to drive or accompany you home from your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your eye doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kind of macular degeneration do I have?&lt;/li&gt;
+	&lt;li&gt;What is the visual acuity in my central vision?&lt;/li&gt;
+	&lt;li&gt;How advanced is my macular degeneration?&lt;/li&gt;
+	&lt;li&gt;Is it safe for me to drive?&lt;/li&gt;
+	&lt;li&gt;Will I experience further vision loss?&lt;/li&gt;
+	&lt;li&gt;Will taking a vitamin or mineral supplement help prevent further vision loss?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best way to monitor my vision for any changes?&lt;/li&gt;
+	&lt;li&gt;What low vision aids or adaptive devices might be helpful to me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions your eye doctor may ask&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your vision problem?&lt;/li&gt;
+	&lt;li&gt;Does the condition affect one or both eyes?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble seeing things near to you, at a distance or both?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Do you have other medical problems such as high cholesterol, high blood pressure or diabetes?&lt;/li&gt;
+	&lt;li&gt;Do you take any vitamins or supplements?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;What types of foods do you eat?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of macular degeneration?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors will review your medical history and family history, and conduct a comprehensive eye exam to diagnose your condition. Doctors may conduct several tests to diagnose dry macular degeneration, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examination of the back of your eye.&lt;/strong&gt; Your eye doctor will examine the back of your eye to look for a mottled appearance that&apos;s caused by drusen &amp;mdash; yellow deposits that form under the retina in people with macular degeneration. Your eye doctor will put drops in your eyes to dilate your eyes and use a special instrument to examine the back of your eye.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Test for defects in the center of your vision.&lt;/strong&gt; During an eye examination, your eye doctor may use an Amsler grid to test for defects in the center of your vision. You may have macular degeneration if some of the straight lines in the grid look faded, broken or distorted.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Fluorescein angiogram.&lt;/strong&gt; During an angiogram of your eye, your doctor injects a colored dye into a vein in your arm. The dye travels to and highlights the blood vessels in your eye.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A special camera takes several pictures of the blood vessels in your eye as the dye travels through the blood vessels. The images will show if you have abnormal blood vessel or retinal abnormalities in your eye, such as those associated with wet macular degeneration.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Optical coherence tomography (OCT).&lt;/strong&gt; This noninvasive imaging test displays detailed cross-sectional images of the retina. The test identifies areas of retina thinning, thickening or swelling. These are caused by fluid accumulations from leaking blood vessels in and under your retina. In addition to its value in an initial evaluation, OCT is also often used to help monitor the response of the retina to macular degeneration treatments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the stage of your dry macular degeneration&lt;br /&gt;
+&lt;/strong&gt;Dry macular degeneration is categorized in three stages based on the progression of damage in your eye:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Early stage.&lt;/strong&gt; In early macular degeneration, doctors may detect several small drusen or a few medium-sized drusen under the retina in one or both eyes. Generally, you won&apos;t experience any vision loss in the earliest stage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intermediate stage.&lt;/strong&gt; In intermediate macular degeneration, doctors detect a large number of medium-sized drusen or one or more large drusen in one or both eyes. At this stage, you may not have symptoms. However, you may notice your central vision is blurred, or you may need extra light for reading or doing detail work or it may take you longer to recover your vision when entering a room that is not well illuminated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Advanced stage.&lt;/strong&gt; In advanced macular degeneration, doctors detect several large drusen, as well as extensive breakdown of cells in the macula. You may have a well-defined area of blurring in your central vision, which may gradually grow larger.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Amsler grid 
+" Caption="Viewing an Amsler grid in an advanced stage of macular degeneration, you may see distorted grid lines or a blank spot near the center of the grid (right). 
+" Height="60" Title="Amsler grid" URI="/images/image_popup/thumbs/r7_amslergridthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Amsler grid 
+" Caption="Viewing an Amsler grid in an advanced stage of macular degeneration, you may see distorted grid lines or a blank spot near the center of the grid (right). 
+" Height="220" Title="Amsler grid" URI="/images/image_popup/vi7_amsler_grid.jpg" Width="400" />
+				<HTML>
+					Viewing an Amsler grid in an advanced stage of macular degeneration, you may see distorted grid lines or a blank spot near the center of the grid (right). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs of maculas showing drusen 
+" Caption="The appearance of drusen &amp;mdash; yellow deposits &amp;mdash; on color photographs of the retina indicates the development of early-stage dry macular degeneration (left). As the condition progresses to the advanced stage (right), large drusen develop and the light-sensitive cells that make up the macula break down. 
+" Height="60" Title="Drusen" URI="/images/image_popup/thumbs/vi7_drusenthu.jpg" Width="60" />
+				<Image Alt="Photographs of maculas showing drusen 
+" Caption="The appearance of drusen &amp;mdash; yellow deposits &amp;mdash; on color photographs of the retina indicates the development of early-stage dry macular degeneration (left). As the condition progresses to the advanced stage (right), large drusen develop and the light-sensitive cells that make up the macula break down. 
+" Height="158" Title="Drusen" URI="/images/image_popup/vi7_drusen.jpg" Width="400" />
+				<HTML>
+					The appearance of drusen &amp;mdash; yellow deposits &amp;mdash; on color photographs of the retina indicates the development of early-stage dry macular degeneration (left). As the condition progresses to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment can&apos;t reverse dry macular degeneration. But this doesn&apos;t mean you&apos;ll eventually lose all of your sight. Dry macular degeneration usually progresses slowly, and many people with the condition can live relatively normal, productive lives, especially if only one eye is affected. Your doctor may recommend annual eye exams to see if your condition is progressing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Increased vitamin intake&lt;br /&gt;
+&lt;/strong&gt;Taking a high-dose formulation of antioxidant vitamins and zinc may reduce the progression of dry macular degeneration to vision loss, according to research by the National Eye Institute (NEI). In its research, the NEI used a formulation that included: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;500 milligrams (mg) of vitamin C&lt;/li&gt;
+	&lt;li&gt;400 international units (IU) of vitamin E&lt;/li&gt;
+	&lt;li&gt;15 mg of beta carotene (often as vitamin A &amp;mdash; up to 25,000 IU)&lt;/li&gt;
+	&lt;li&gt;80 mg of zinc (as zinc oxide)&lt;/li&gt;
+	&lt;li&gt;2 mg of copper (as cupric oxide)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your doctor whether this formulation may help you reduce your risk of vision loss. Studies found this specific combination of vitamins can&apos;t cure severe vision loss, but it may reduce the risk of vision loss in people with intermediate macular degeneration. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have advanced stage macular degeneration in one eye, this combination of vitamins may reduce the risk that you&apos;ll develop vision loss in your other eye. But for people with early-stage dry macular degeneration, there&apos;s no evidence that these vitamins provide a benefit.
+&lt;/p&gt;
+&lt;p&gt;
+Some vitamin supplements may have complications and risks. Tell your doctor if you smoke or have smoked in the past, because beta carotene supplements have been associated with a higher risk of lung cancer in smokers. Beta carotene also may increase the risk of coronary artery disease. Also, high doses of vitamin E may increase the risk of heart failure and other complications.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend lifestyle changes to include more of the fruits and vegetables that contain these vitamins into your diet, along with other foods that contain nutrients believed to contribute to eye health. Some people may prefer to make lifestyle changes rather than take supplements. Others may wish to combine supplements with lifestyle changes. Discuss your options with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers continue to study the benefits of omega-3 fatty acids and lutein&amp;nbsp; in people with macular degeneration.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to implant a telescopic lens in one eye&lt;br /&gt;
+&lt;/strong&gt;For selected people with advanced macular degeneration in both eyes, one option to improve vision may be surgery to implant a telescopic lens in one eye. The telescopic lens, which looks like a tiny plastic tube, is equipped with lenses that magnify your field of vision. The telescopic lens implant may improve both distance and close-up vision.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Changing your diet to include more fruits and vegetables and other healthy foods may help prevent vision loss if you&apos;ve been diagnosed with macular degeneration. Try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Include a variety of colorful fruits and vegetables in your diet.&lt;/strong&gt; The antioxidant vitamins in fruits and vegetables contribute to eye health. Eating a variety of colors ensures that you&apos;re getting a variety of vitamins. Eating kale, spinach, broccoli, peas and other vegetables, which have high levels of antioxidants, including lutein and zeaxanthin, may also benefit people with macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose healthy fats.&lt;/strong&gt; Healthy unsaturated fats, such as the fats found in olive oil, may help protect your vision. Choose these healthy fats over saturated fats, such as butter and trans fats, and partially hydrogenated oils found in packaged foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose whole grains over refined grains.&lt;/strong&gt; Choose whole grains, such as whole-wheat bread, over refined grains, such as white bread.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add fish to your diet.&lt;/strong&gt; Fish, such as salmon, sardines and tuna, contain omega-3 fatty acids that may help reduce the risk of vision loss related to macular degeneration. Omega-3 fatty acids also can be found in supplements and nuts, such as walnuts. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Macular degeneration doesn&apos;t affect your side (peripheral) vision and usually doesn&apos;t cause total blindness. But it can reduce or eliminate your central vision &amp;mdash; which is important for driving, reading and recognizing people&apos;s faces. It may be beneficial for you to work with a low vision rehabilitation specialist, occupational therapist, your eye doctor and others trained in low vision rehabilitation who can help you find ways to adapt to your changing vision. 
+&lt;/p&gt;
+&lt;p&gt;
+Ways to cope with your changing vision might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your eye doctor to check your eyeglasses.&lt;/strong&gt; Optimize the vision you have by getting the most appropriate prescription lenses for your eye glasses.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Use magnifiers.&lt;/strong&gt; A variety of magnifying devices can help you with reading and other close-up work, such as sewing. Magnifying devices may include traditional hand-held magnifying lenses or special magnifying lenses you wear just like glasses. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A closed-circuit television system that uses a video camera to magnify reading material and project it on a video screen also may be an option for you. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change your computer display and add audio systems.&lt;/strong&gt; Adjust the font size in your computer&apos;s settings. Adjust your monitor to show more contrast. You may also add speech-output systems or other technologies to your computer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use alternative options for books.&lt;/strong&gt; To read, use large-print books, electronic readers, tablets or audio books. Some tablets and smartphones have applications that can be added to assist people with low vision, such as magnifying text.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Select special appliances made for low vision.&lt;/strong&gt; Some clocks, radios, telephones and other appliances have extra-large numbers. Other gadgets can speak the time or other important information. You may find it easier to watch a television with a larger high definition screen, or you may want to sit closer to the screen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use brighter lights in your home.&lt;/strong&gt; Brighter lights will help with reading and other daily activities in your home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution when driving.&lt;/strong&gt; First, check with your doctor to see if driving is still safe based on your current visual acuity. When you do drive, you may need to use extra caution in certain situations, such as driving at night, in heavy traffic or in bad weather.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider other travel options.&lt;/strong&gt; Use public transportation or ask family members to help, especially with night driving. Make arrangements to use local van or shuttle services, volunteer driving networks, or rideshares.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get support.&lt;/strong&gt; Having macular degeneration can be difficult, and you may need to make many changes in your life. You may go through many emotions as you adjust to having macular degeneration. Consider talking to a counselor or joining a support group to help adjust to your condition and life changes. Spend time with your family and friends, who can offer you support.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you avoid macular degeneration:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have routine eye exams.&lt;/strong&gt; Ask your eye doctor how often you should undergo routine eye exams. A dilated eye exam can identify macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage your other diseases.&lt;/strong&gt; For example, if you have cardiovascular disease or high blood pressure, take your medication and follow your doctor&apos;s instructions for controlling the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smokers are more likely to develop macular degeneration than are nonsmokers. Ask your doctor for help to stop smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight and exercise regularly.&lt;/strong&gt; If you need to lose weight, reduce the number of calories you eat and increase the amount of exercise you get each day. Maintain a healthy weight by exercising regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a diet rich in fruits and vegetables.&lt;/strong&gt; Choose a healthy diet that&apos;s full of a variety of fruits, vegetables and leafy greens. These foods contain antioxidant vitamins that may reduce your risk of developing dry macular degeneration. Eating kale, spinach, broccoli, peas and other vegetables, which have high levels of antioxidants, including lutein and zeaxanthin, may also reduce the risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Include fish in your diet.&lt;/strong&gt; Omega-3 fatty acids, which are found in fish, may reduce the risk of dry macular degeneration. Nuts, such as walnuts, also contain omega-3 fatty acids.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dry macular degeneration
+	</Title>
+	<Abstract>
+		Macular degeneration &amp;mdash; Comprehensive overview covers symptoms, risk factors, treatment of dry macular degeneration.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01086" LinkType="Internal" ObjectID="35BF9702-E7FF-0DBD-19875030282DC469" Title="Wet macular degeneration" Url="http://www.mayoclinic.com/health/wet-macular-degeneration/DS01086" />
+		<LinkItem ContentType="Answer" DocID="AN02048" LinkType="Internal" ObjectID="E00A39C1-0AFD-BFBA-988EF01B5E170D48" Title="Eye dilation: Necessary with every eye exam?" Url="http://www.mayoclinic.com/health/eye-dilation/AN02048" />
+		<LinkItem ContentType="Answer" DocID="AN01663" LinkType="Internal" ObjectID="B7146E9A-E7FF-0DBD-143E8D2E399E32C6" Title="Eye exam: Is a laser retina scan worthwhile?" Url="http://www.mayoclinic.com/health/eye-exam/AN01663" />
+		<LinkItem ContentType="SlideShow" DocID="MY01108" LinkType="Internal" ObjectID="92C93DC5-F40E-7C43-652568782BBCDBD5" Title="Slide show: 10 great health foods for eating well" Url="http://www.mayoclinic.com/health/health-foods/MY01108" />
+		<LinkItem ContentType="SlideShow" DocID="MY01593" LinkType="Internal" ObjectID="5B96B16B-D098-F54B-59BF3E3CCCC550AD" Title="Slide show: Add antioxidants to your diet" Url="http://www.mayoclinic.com/health/antioxidants/MY01593" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Article" DocID="SA00044" LinkType="Internal" ObjectID="99B5C7CE-FE7B-4B72-A57D4B36C77A8D7C" Title="Herbal supplements: What to know before you buy" Url="http://www.mayoclinic.com/health/herbal-supplements/SA00044" />
+		<LinkItem ContentType="Article" DocID="HB00040" LinkType="Internal" ObjectID="7D6EE7E9-8240-4D04-AAA71F42515DDA8D" Title="Heart disease in women: Understand symptoms and risk factors" Url="http://www.mayoclinic.com/health/heart-disease/HB00040" />
+		<LinkItem ContentType="Article" DocID="SK00057" LinkType="Internal" ObjectID="51BBEF05-E7FF-0DBD-115668D65EC3E3BA" Title="Quitting smoking: 10 ways to resist tobacco cravings" Url="http://www.mayoclinic.com/health/nicotine-craving/SK00057" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00233" LinkType="Internal" ObjectID="373C37BE-3C76-4DE1-A255EDCA17BBD5A6" Title="Poor color vision" Url="http://www.mayoclinic.com/health/poor-color-vision/DS00233" />
+	</RelatedLinksBox>
+</Disease>

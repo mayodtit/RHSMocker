@@ -1,0 +1,405 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00580
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/crest-syndrome/DS00580
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-02
+		</UpdateDate>
+		<PublicationDate>
+			2005-06-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="2712" Title="CREST syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3441DFC3-FF84-4AF1-B7342DE6A228E064
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				limited scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				CREST
+			</MetaKeyword>
+			<MetaKeyword>
+				calcinosis
+			</MetaKeyword>
+			<MetaKeyword>
+				Raynaud&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				telangiectasis
+			</MetaKeyword>
+			<MetaKeyword>
+				sclerodactyly
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Limited scleroderma, or CREST syndrome, is one subtype of scleroderma &amp;mdash; a condition that literally means &quot;hardened skin.&quot;
+&lt;/p&gt;
+&lt;p&gt;
+The skin changes associated with limited scleroderma typically occur only in the lower arms and legs, and sometimes the face and throat. Limited scleroderma can also affect your digestive tract and can cause serious heart and lung disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+The problems caused by limited scleroderma may be minor. In some cases, however, the disease affects the lungs or heart, with potentially serious results. Limited scleroderma has no known cure, and treatments focus on managing symptoms and preventing serious complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While some varieties of scleroderma occur rapidly, signs and symptoms of limited scleroderma usually develop gradually. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tight, hardened skin.&lt;/strong&gt; In limited scleroderma, skin changes typically affect only the lower arms and legs, including fingers and toes, and sometimes the face and throat. Skin can look shiny from being pulled taut over underlying bone. It may become difficult to bend your fingers or to open your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Raynaud&apos;s phenomenon.&lt;/strong&gt; This condition occurs when small blood vessels in your fingers and toes go into spasms in response to cold or emotional stress, blocking the flow of blood. In most people, the skin turns white before becoming blue, cold and numb. When circulation improves, the skin usually reddens and may throb or tingle. Raynaud&apos;s phenomenon is often one of the earliest signs of limited scleroderma, but many people have only Raynaud&apos;s and never develop scleroderma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red spots or lines on skin.&lt;/strong&gt; These small red spots or lines (telangiectasias) are caused by the swelling of tiny blood vessels near the skin&apos;s surface. They are not painful and occur primarily on the hands and face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bumps under the skin.&lt;/strong&gt; Limited scleroderma may cause tiny calcium deposits (calcinosis) to develop under your skin, mainly on your elbows, knees and fingers. You can see and feel these deposits, which sometimes may be tender or become infected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowing difficulties.&lt;/strong&gt; People with limited scleroderma commonly experience problems with their esophagus &amp;mdash; the tube that connects the mouth and stomach. Poor functioning of the muscles in the upper and lower esophagus can make swallowing difficult and allow stomach acids to back up into the esophagus, leading to heartburn, inflammation and scarring of esophageal tissues.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing finger affected by limited scleroderma 
+" Caption="In limited scleroderma, dry ulcers can develop on fingers and toes. The skin can become taut and shiny. Also, dilated blood vessels can collect on the surface of the skin. 
+" Height="60" Title="Limited scleroderma" URI="/images/image_popup/thumbs/r7_limitedsclerodermathu.jpg" Width="60" />
+				<Image Alt="Photograph showing finger affected by limited scleroderma 
+" Caption="In limited scleroderma, dry ulcers can develop on fingers and toes. The skin can become taut and shiny. Also, dilated blood vessels can collect on the surface of the skin. 
+" Height="288" Title="Limited scleroderma" URI="/images/image_popup/r7_limitedscleroderma.jpg" Width="400" />
+				<HTML>
+					In limited scleroderma, dry ulcers can develop on fingers and toes. The skin can become taut and shiny. Also, dilated blood vessels can collect on the surface of the skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing hands affected by Raynaud&apos;s disease 
+" Caption="Raynaud&apos;s disease is a vascular disorder that causes intermittent interruption of blood flow to the extremities. The affected body part may turn white or blue and feel cold and numb until circulation improves. 
+" Height="60" Title="Raynaud&apos;s disease" URI="/images/image_popup/thumbs/ans7_raynaudsdiseasethu.jpg" Width="60" />
+				<Image Alt="Photograph showing hands affected by Raynaud&apos;s disease 
+" Caption="Raynaud&apos;s disease is a vascular disorder that causes intermittent interruption of blood flow to the extremities. The affected body part may turn white or blue and feel cold and numb until circulation improves. 
+" Height="291" Title="Raynaud&apos;s disease" URI="/images/image_popup/ans7_raynaudsdisease.jpg" Width="400" />
+				<HTML>
+					Raynaud&apos;s disease is a vascular disorder that causes intermittent interruption of blood flow to the extremities. The affected body part may turn white or blue and feel cold and numb until circulation ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing woman&apos;s face with telangiectasias 
+" Caption="Telangiectasias are permanently dilated small blood vessels. They can develop externally in the skin and may appear as a group of red lines. 
+" Height="60" Title="Telangiectasia" URI="/images/image_popup/thumbs/r7_telangiectasiathu.jpg" Width="60" />
+				<Image Alt="Photograph showing woman&apos;s face with telangiectasias 
+" Caption="Telangiectasias are permanently dilated small blood vessels. They can develop externally in the skin and may appear as a group of red lines. 
+" Height="288" Title="Telangiectasia" URI="/images/image_popup/r7_telangiectasia.jpg" Width="400" />
+				<HTML>
+					Telangiectasias are permanently dilated small blood vessels. They can develop externally in the skin and may appear as a group of red lines. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Limited scleroderma is believed to be an autoimmune disorder &amp;mdash; one in which your immune system turns against your own body. In limited scleroderma, the immune system appears to stimulate the production of too much collagen, a key component of connective tissue. This overproduction of collagen builds up in the skin and internal organs, impairing their function.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are far more likely to develop limited scleroderma than men are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; In the United States, limited scleroderma affects women of African descent more often than women of European descent. Choctaw Native Americans also have higher rates of limited scleroderma than other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic factors.&lt;/strong&gt; If someone in your family has an autoimmune disease &amp;mdash; such as lupus, rheumatoid arthritis or Hashimoto&apos;s disease &amp;mdash; you have an increased risk of developing limited scleroderma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to toxins.&lt;/strong&gt; Toxic substances, such as polyvinyl chloride, benzene, silica and trichloroethylene, may trigger scleroderma in people with a genetic predisposition to the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The visible signs of limited scleroderma &amp;mdash; tight, thick skin on your fingers, hands and face &amp;mdash; can affect the way you feel about your appearance; make everyday tasks, such as opening a jar or shaving, more difficult; and even affect your speech. But the most serious complications tend to occur beneath your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Gastrointestinal problems&lt;br /&gt;
+&lt;/strong&gt;Changes in the functioning of esophageal muscles can cause difficulty swallowing and chronic heartburn. When limited scleroderma affects your intestine, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constipation or diarrhea&lt;/li&gt;
+	&lt;li&gt;Bloating after meals&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Malnutrition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ulcers on fingers and toes&lt;br /&gt;
+&lt;/strong&gt;Severe Raynaud&apos;s phenomenon can obstruct blood flow to your extremities and may cause ulcers of the fingers and toes. These ulcers can be difficult to heal. Additionally, abnormal or narrowed blood vessels combined with severe Raynaud&apos;s phenomenon can lead to gangrene of fingers or toes, which may require amputation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung damage&lt;br /&gt;
+&lt;/strong&gt;Limited scleroderma can cause a variety of problems with your lungs, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Interstitial lung disease.&lt;/strong&gt; This disorder occurs when excess collagen collects in the tissue between the lungs&apos; air sacs, making the lung tissue stiffer and less able to work properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary hypertension.&lt;/strong&gt; Increased pressure in the arteries between your heart and lungs makes the heart work harder and eventually weakens it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart problems&lt;br /&gt;
+&lt;/strong&gt;Scarring of heart tissue can lead to abnormal heart rhythms (arrhythmias) and, in rare cases, to an inflamed heart muscle (myocarditis). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dental problems&lt;br /&gt;
+&lt;/strong&gt;Severe tightening of facial skin can cause your mouth to become smaller and narrower, putting you at risk of serious dental problems. A measurably smaller mouth makes it hard to brush your teeth or have them professionally cleaned, increasing your risk of tooth decay. And because people with limited scleroderma often don&apos;t produce normal amounts of saliva, the risk of decay increases even more. In addition, acid reflux can destroy tooth enamel, and changes in gum tissue may cause your teeth to become loose or even fall out. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dry eyes and mouth&lt;br /&gt;
+&lt;/strong&gt;Many people with limited scleroderma experience very dry eyes and mouth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because limited scleroderma can affect so many different parts of your body, you may need to be seen by doctors in a variety of specialties, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rheumatology, the treatment of arthritis and other musculoskeletal disorders&lt;/li&gt;
+	&lt;li&gt;Dermatology, the treatment of skin disorders&lt;/li&gt;
+	&lt;li&gt;Pulmonology, the treatment of lung disorders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Since your time with your doctor is limited, preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For limited scleroderma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What self-care steps may help manage my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;How often will you see me for follow-up visits?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor will look for changes in the texture, color and appearance of your skin. He or she may also ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are you symptoms, and when did you first notice them?&lt;/li&gt;
+	&lt;li&gt;How have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Are you having problems with heartburn?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble swallowing?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing extra fatigue or achiness?&lt;/li&gt;
+	&lt;li&gt;Do your fingers change color when they get cold?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your bowel habits?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Like other unusual and complex disorders, limited scleroderma can be difficult to diagnose. Signs and symptoms vary widely and often resemble those of other connective tissue and autoimmune diseases. Further complicating matters is that limited scleroderma sometimes occurs with other autoimmune conditions &amp;mdash; such as polymyositis, lupus and rheumatoid arthritis.
+&lt;/p&gt;
+&lt;p&gt;
+Tests that may be used in the diagnosis of limited scleroderma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lab tests.&lt;/strong&gt; A sample of your blood can be tested for antibodies that are frequently found in the blood of people with limited scleroderma. But this isn&apos;t a definitive test because not everyone with limited scleroderma has these antibodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; Sometimes doctors take a small sample of skin that&apos;s then examined under a microscope in a laboratory. Although biopsies can be helpful, they can&apos;t definitively diagnose limited scleroderma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to tests that may help diagnose limited scleroderma itself, your doctor may recommend additional tests to identify any lung, heart or gastrointestinal complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Limited scleroderma has no known cure. Treatment focuses on relieving signs and symptoms and preventing complications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antacid drugs.&lt;/strong&gt; If limited scleroderma is giving you heartburn, your doctor may suggest drugs that reduce the production of stomach acid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure lowering drugs.&lt;/strong&gt; Medications that open small blood vessels and increase circulation may help relieve Raynaud&apos;s symptoms and reduce increased pressure in the arteries between the heart and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs to suppress the immune system.&lt;/strong&gt; These types of medications have shown promise in preventing interstitial lung disease, a condition in which excess collagen collects in the tissue between the lungs&apos; air sacs, in some people with limited scleroderma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Stretching exercises are important to help prevent loss of mobility in your finger joints. A physical therapist can also show you facial exercises that may help keep your face and mouth flexible as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy.&lt;/strong&gt; If limited scleroderma is making it difficult for you to perform daily tasks, an occupational therapist can help you learn new ways of doing things. For example, special toothbrushes and flossing devices can make it easier for you to care for your teeth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium deposits.&lt;/strong&gt; Large or painful calcium deposits are sometimes surgically removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red spots or lines.&lt;/strong&gt; Laser surgery can reduce the appearance of red spots or lines caused by swollen blood vessels near the surface of the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gangrene in fingers.&lt;/strong&gt; Amputation of fingertips may be necessary if skin ulcers progress to gangrene.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Keep warm&lt;br /&gt;
+&lt;/strong&gt;To reduce Raynaud&apos;s symptoms, wear gloves or mittens outdoors when the weather is cool and indoors when you reach into the freezer. To maintain your body&apos;s core temperature, dress in layers and wear a hat or scarf, thermal socks, and well-fitting boots or shoes that don&apos;t cut off your circulation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t&lt;/strong&gt; &lt;strong&gt;smoke&lt;br /&gt;
+&lt;/strong&gt;If you smoke, talk to your doctor about the best ways to quit. Nicotine constricts your blood vessels, making Raynaud&apos;s phenomenon worse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Change eating habits&lt;br /&gt;
+&lt;/strong&gt;If you have difficulty swallowing, choose soft, moist foods and chew them well. To minimize acid reflux:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat small, frequent meals&lt;/li&gt;
+	&lt;li&gt;Avoid spicy or fatty foods, chocolate, caffeine, and alcohol&lt;/li&gt;
+	&lt;li&gt;Don&apos;t exercise immediately before or after eating&lt;/li&gt;
+	&lt;li&gt;Sit upright for two or three hours after a meal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Protect your skin&lt;br /&gt;
+&lt;/strong&gt;Excess collagen destroys sweat and oil glands, leaving your skin stiff and dry. To help soften your skin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harsh soaps and detergents.&lt;/strong&gt; Choose cleansing creams or gentle skin cleansers and bath or shower gels with added moisturizers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce bathing frequency.&lt;/strong&gt; Bathe just once a day or every other day, and take brief baths and showers, using warm rather than hot water. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize.&lt;/strong&gt; Apply a rich oil-based moisturizer immediately after washing your hands or bathing, while your skin is still damp.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply sunscreen.&lt;/strong&gt; To prevent further damage to your skin, apply sunscreen before you go outside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Increase moisture levels in your home by using a humidifier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Practice good oral hygiene&lt;br /&gt;
+&lt;/strong&gt;Be sure to have regular checkups and use any special rinses or toothpastes your dentist recommends. If your mouth is chronically dry, try drinking more water and sucking on ice chips or hard, sugarless candy. When these measures fail, your dentist may prescribe a medication to stimulate the flow of saliva. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help boost blood flow to extremities, you might try hypnosis or biofeedback, a technique that teaches you to control certain body responses.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because limited scleroderma can affect your appearance and your ability to perform simple tasks, your self-esteem may suffer. It&apos;s common for people with limited scleroderma to become depressed. 
+&lt;/p&gt;
+&lt;p&gt;
+Talking with a counselor may help you come to grips with the changes caused by this disease. Communicating with people facing the same illness, either through online or in-person support groups, may also be helpful.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Limited scleroderma (CREST syndrome)
+	</Title>
+	<Abstract>
+		Limited scleroderma (CREST syndrome) &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this autoimmune disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="Article" DocID="HQ00076" LinkType="Internal" ObjectID="DF9C6CB0-CEE5-40D6-AFF0B81BF0BC3673" Title="Humidifiers: Air moisture eases skin, breathing symptoms" Url="http://www.mayoclinic.com/health/humidifiers/HQ00076" />
+		<LinkItem ContentType="Article" DocID="SN00042" LinkType="Internal" ObjectID="143B6EA6-E7FF-0DBD-1C63513A6294E009" Title="Moisturizers: Options for softer skin" Url="http://www.mayoclinic.com/health/moisturizers/SN00042" />
+		<LinkItem ContentType="Disease" DocID="DS00433" LinkType="Internal" ObjectID="BEC8E664-5EE6-41C1-8955642FA71A0EEF" Title="Raynaud&apos;s disease" Url="http://www.mayoclinic.com/health/raynauds-disease/DS00433" />
+		<LinkItem ContentType="Disease" DocID="DS00592" LinkType="Internal" ObjectID="9B837E55-DC5F-476C-AD26B28377EC4D62" Title="Interstitial lung disease" Url="http://www.mayoclinic.com/health/interstitial-lung-disease/DS00592" />
+		<LinkItem ContentType="Disease" DocID="DS00523" LinkType="Internal" ObjectID="7F63DE3D-2EC2-4360-AF54FB7E1C39A350" Title="Difficulty swallowing" Url="http://www.mayoclinic.com/health/difficulty-swallowing/DS00523" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,376 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00446
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/trigeminal-neuralgia/DS00446
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-10
+		</UpdateDate>
+		<PublicationDate>
+			2002-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="2336" Title="Trigeminal neuralgia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3454D91F-85AA-4775-8AACF811D6C5723A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				trigeminal neuralgia
+			</MetaKeyword>
+			<MetaKeyword>
+				face pain
+			</MetaKeyword>
+			<MetaKeyword>
+				trigeminal nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				neuralgia
+			</MetaKeyword>
+			<MetaKeyword>
+				tic doloreaux
+			</MetaKeyword>
+			<MetaKeyword>
+				cranial nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				TN
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trigeminal neuralgia is a chronic pain condition that affects the trigeminal nerve, which carries sensation from your face to your brain. If you have trigeminal neuralgia, even mild stimulation of your face &amp;mdash; such as from brushing your teeth or putting on makeup &amp;mdash; may trigger a jolt of excruciating pain. 
+&lt;/p&gt;
+&lt;p&gt;
+You may initially experience short, mild attacks, but trigeminal neuralgia can progress, causing longer, more frequent bouts of searing pain. Trigeminal neuralgia affects women more often than men, and it&apos;s more likely to occur in people who are older than 50. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the variety of treatment options available, having trigeminal neuralgia doesn&apos;t necessarily mean you&apos;re doomed to a life of pain. Doctors usually can effectively manage trigeminal neuralgia with medications, injections or surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing branches of the trigeminal nerve 
+" Caption="Trigeminal neuralgia results in pain occurring in an area of the face supplied by one or more of the three branches of the trigeminal nerve. 
+" Height="60" Title="Branches of the trigeminal nerve" URI="/images/image_popup/thumbs/bn7_trigemneuralgiathu.jpg" Width="60" />
+				<Image Alt="Illustration showing branches of the trigeminal nerve 
+" Caption="Trigeminal neuralgia results in pain occurring in an area of the face supplied by one or more of the three branches of the trigeminal nerve. 
+" Height="340" Title="Branches of the trigeminal nerve" URI="/images/image_popup/bn7_trigemneuralgia.jpg" Width="400" />
+				<HTML>
+					Trigeminal neuralgia results in pain occurring in an area of the face supplied by one or more of the three branches of the trigeminal nerve. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trigeminal neuralgia symptoms may include one or more of these patterns: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Occasional twinges of mild pain&lt;/li&gt;
+	&lt;li&gt;Episodes of severe, shooting or jabbing pain that may feel like an electric shock&lt;/li&gt;
+	&lt;li&gt;Spontaneous attacks of pain or attacks triggered by things such as touching the face, chewing, speaking and brushing teeth&lt;/li&gt;
+	&lt;li&gt;Bouts of pain lasting from a few seconds to several seconds&lt;/li&gt;
+	&lt;li&gt;Episodes of several attacks lasting days, weeks, months or longer &amp;mdash; some people have periods when they experience no pain&lt;/li&gt;
+	&lt;li&gt;Pain in areas supplied by the trigeminal nerve, including the cheek, jaw, teeth, gums, lips, or less often the eye and forehead&lt;/li&gt;
+	&lt;li&gt;Pain affecting one side of your face at a time&lt;/li&gt;
+	&lt;li&gt;Pain focused in one spot or spread in a wider pattern&lt;/li&gt;
+	&lt;li&gt;Attacks becoming more frequent and intense over time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you experience facial pain, particularly prolonged or recurring pain or pain unrelieved by over-the-counter pain relievers, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing branches of the trigeminal nerve 
+" Caption="Trigeminal neuralgia results in pain occurring in an area of the face supplied by one or more of the three branches of the trigeminal nerve. 
+" Height="60" Title="Branches of the trigeminal nerve" URI="/images/image_popup/thumbs/bn7_trigemneuralgiathu.jpg" Width="60" />
+				<Image Alt="Illustration showing branches of the trigeminal nerve 
+" Caption="Trigeminal neuralgia results in pain occurring in an area of the face supplied by one or more of the three branches of the trigeminal nerve. 
+" Height="340" Title="Branches of the trigeminal nerve" URI="/images/image_popup/bn7_trigemneuralgia.jpg" Width="400" />
+				<HTML>
+					Trigeminal neuralgia results in pain occurring in an area of the face supplied by one or more of the three branches of the trigeminal nerve. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In trigeminal neuralgia, also called tic douloureux, the trigeminal nerve&apos;s function is disrupted. Usually, the problem is contact between a normal blood vessel &amp;mdash; in this case, an artery or a vein &amp;mdash; and the trigeminal nerve, at the base of your brain. This contact puts pressure on the nerve and causes it to malfunction. 
+&lt;/p&gt;
+&lt;p&gt;
+Trigeminal neuralgia can occur as a result of aging, or it can be related to multiple sclerosis or a similar disorder that damages the myelin sheath protecting certain nerves. Less commonly, trigeminal neuralgia can be caused by a tumor compressing the trigeminal nerve. Some people may experience trigeminal neuralgia due to a brain lesion or other abnormalities. In other cases, a cause can&apos;t be found. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Triggers&lt;/strong&gt; &lt;br /&gt;
+A variety of triggers may set off the pain of trigeminal neuralgia, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shaving&lt;/li&gt;
+	&lt;li&gt;Stroking your face&lt;/li&gt;
+	&lt;li&gt;Eating&lt;/li&gt;
+	&lt;li&gt;Drinking&lt;/li&gt;
+	&lt;li&gt;Brushing your teeth&lt;/li&gt;
+	&lt;li&gt;Talking&lt;/li&gt;
+	&lt;li&gt;Putting on makeup&lt;/li&gt;
+	&lt;li&gt;Encountering a breeze&lt;/li&gt;
+	&lt;li&gt;Smiling&lt;/li&gt;
+	&lt;li&gt;Washing your face&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or primary care provider if you have symptoms common to trigeminal neuralgia. After your initial appointment, you may see a doctor trained in the diagnosis and treatment of brain and nervous system conditions (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do to prepare&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been having,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note the triggers,&lt;/strong&gt; such as triggers that bring on your attacks of facial pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions in advance,&lt;/strong&gt; to ask your doctor at your appointment. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For possible trigeminal neuralgia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my pain?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any diagnostic tests?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for surgery? Why or why not?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment for the rest of my life?&lt;/li&gt;
+	&lt;li&gt;How much do you expect my symptoms will improve with treatment?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may give you more time to go over points you want to discuss further. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Where are your symptoms located?&lt;/li&gt;
+	&lt;li&gt;Are both sides of your face affected?&lt;/li&gt;
+	&lt;li&gt;When did you first develop these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;How often do you experience bouts of facial pain?&lt;/li&gt;
+	&lt;li&gt;What seems to trigger your facial pain?&lt;/li&gt;
+	&lt;li&gt;How long does an attack of facial pain typically last?&lt;/li&gt;
+	&lt;li&gt;How much are these symptoms affecting your quality of life?&lt;/li&gt;
+	&lt;li&gt;Do you have any other signs or symptoms in addition to facial pain?&lt;/li&gt;
+	&lt;li&gt;Have you ever had dental surgery or surgery on or near your face, such as sinus surgery?&lt;/li&gt;
+	&lt;li&gt;Have you had any facial trauma, such as an injury or accident that affected your face?&lt;/li&gt;
+	&lt;li&gt;Are you currently being treated or have you recently been treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including prescription and over-the-counter drugs as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Have you tried any treatments for your facial pain so far? Has anything helped?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will diagnose trigeminal neuralgia mainly based on your description of the pain, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type.&lt;/strong&gt; Pain related to trigeminal neuralgia is sudden, shock-like and brief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Location.&lt;/strong&gt; The parts of your face that are affected by pain will tell your doctor if the trigeminal nerve is involved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Triggers.&lt;/strong&gt; Trigeminal neuralgia-related pain usually is brought on by light stimulation of your cheeks, such as from eating, talking or even encountering a cool breeze.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may conduct many tests to diagnose trigeminal neuralgia and determine underlying causes for your condition, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A neurological examination.&lt;/strong&gt; Touching and examining parts of your face can help your doctor determine exactly where the pain is occurring and &amp;mdash; if you appear to have trigeminal neuralgia &amp;mdash; which branches of the trigeminal nerve may be affected. Your doctor also may conduct reflex tests to determine if your symptoms are caused by a compressed nerve, or if another condition is causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Your doctor may order an MRI scan of your head to determine if multiple sclerosis or a tumor is causing trigeminal neuralgia. Sometimes your doctor may inject a dye into a blood vessel to view the arteries and veins and highlight blood flow (magnetic resonance angiogram).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your facial pain may be caused by many different conditions, so an accurate diagnosis is important. Your doctor may order additional tests to rule out other conditions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trigeminal neuralgia treatment usually starts with medications, and many people require no additional treatment. However, over time, some people with the condition may stop responding to medications, or they may experience unpleasant side effects. For those people, injections or surgery provide other trigeminal neuralgia treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+If your condition is due to another cause, such as multiple sclerosis, your doctor will treat the underlying condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+To treat trigeminal neuralgia, your doctor usually will prescribe medications to lessen or block the pain signals sent to your brain. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Anticonvulsants.&lt;/strong&gt; Doctors usually prescribe carbamazepine (Tegretol, Carbatrol, others) for trigeminal neuralgia, and it&apos;s been shown to be effective in treating the condition. Other anticonvulsant drugs that may be used to treat trigeminal neuralgia include oxcarbazepine (Trileptal). Other drugs, including clonazepam (Klonopin) and gabapentin (Neurontin, Gralise, others), also may be used.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If the anticonvulsant you&apos;re using begins to lose effectiveness, your doctor may increase the dose or switch to another type. Side effects of anticonvulsants may include dizziness, confusion, drowsiness, double vision and nausea. Also, carbamazepine can trigger a serious drug reaction in some people, mainly those of Asian descent, so genetic testing may be recommended before you start carbamazepine. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antispasmodic agents.&lt;/strong&gt; Muscle-relaxing agents such as baclofen (Gablofen, Lioresal) may be used alone or in combination with carbamazepine. Side effects may include confusion, nausea and drowsiness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+In trigeminal neuralgia surgery, surgeons&apos; goals are to stop the blood vessel from compressing the trigeminal nerve or to damage the trigeminal nerve to keep it from malfunctioning. Damaging the nerve often causes temporary or permanent facial numbness, and with any of the surgical procedures, the pain can return months or years later. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgical options for trigeminal neuralgia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Microvascular decompression.&lt;/strong&gt; This procedure involves relocating or removing blood vessels that are in contact with the trigeminal root. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	During microvascular decompression, your doctor makes an incision behind the ear on the side of your pain. Then, through a small hole in your skull, your surgeon moves any arteries that are in contact with the trigeminal nerve away from the nerve, and places a pad between the nerve and the arteries. If a vein is compressing the nerve, your surgeon may remove it. Doctors also may cut part of the trigeminal nerve (neurectomy) during this procedure, if arteries aren&apos;t pressing on the nerve. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Microvascular decompression can successfully eliminate or reduce pain most of the time, but pain can recur in some people. Microvascular decompression has some risks, including small chances of decreased hearing, facial weakness, facial numbness, double vision, a stroke or other complications. Most people who have this procedure have no facial numbness afterward. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gamma Knife radiosurgery.&lt;/strong&gt; In this procedure, a surgeon directs a focused dose of radiation to the root of your trigeminal nerve. This procedure uses radiation to damage the trigeminal nerve and reduce or eliminate pain. Relief occurs gradually and may take several weeks. Gamma Knife radiosurgery is successful in eliminating pain for the majority of people. If pain recurs, the procedure can be repeated. Because Gamma Knife radiosurgery is effective and safe compared with other surgical options, it is becoming widely used and may be offered instead of other surgical procedures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other procedures may be used to treat trigeminal neuralgia, such as a rhizotomy. In a rhizotomy, your surgeon destroys nerve fibers, which causes some facial numbness. Types of rhizotomy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Glycerol injection.&lt;/strong&gt; During this procedure, your doctor inserts a needle through your face and into an opening in the base of your skull. Your doctor guides the needle into the trigeminal cistern, a small sac of spinal fluid that surrounds the trigeminal nerve ganglion &amp;mdash; where the trigeminal nerve divides into three branches &amp;mdash; and part of its root. Doctors inject a small amount of sterile glycerol, which damages the trigeminal nerve and blocks pain signals. This procedure often relieves pain. However, some people have a later recurrence of pain, and many experience facial numbness or tingling. &lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Balloon compression.&lt;/strong&gt; In balloon compression, your doctor inserts a hollow needle through your face and guides it to a part of your trigeminal nerve that goes through the base of your skull. Then, your doctor threads a thin, flexible tube (catheter) with a balloon on the end through the needle. Your doctor inflates the balloon with enough pressure to damage the trigeminal nerve and block pain signals.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Balloon compression successfully controls pain in most people, at least for a period of time. Most people undergoing this procedure experience some facial numbness, and some experience temporary or permanent weakness of the muscles used to chew. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Radiofrequency thermal lesioning.&lt;/strong&gt; This procedure selectively destroys nerve fibers associated with pain. While you&apos;re sedated, your surgeon inserts a hollow needle through your face and guides it to a part of the trigeminal nerve that goes through an opening at the base of your skull.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Once the needle is positioned, your surgeon will wake you from sedation. Your surgeon inserts an electrode through the needle and sends a mild electrical current through the tip of the electrode. You&apos;ll be asked to indicate when and where you feel tingling. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	When your neurosurgeon locates the part of the nerve involved in your pain, you&apos;re returned to sedation. Then the electrode is heated until it damages the nerve fibers, creating an area of injury (lesion). If your pain isn&apos;t eliminated, your doctor may create additional lesions. Radiofrequency thermal lesioning usually results in some temporary facial numbness after the procedure. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Few clinical studies have been done on the effectiveness of alternative treatments for trigeminal neuralgia, so there&apos;s little evidence to support their use. However, some people have found improvement with these treatments. Always ask your doctor before trying an alternative treatment because it may interact with your other medications.
+&lt;/p&gt;
+&lt;p&gt;
+Complementary and alternative treatments for trigeminal neuralgia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Biofeedback&lt;/li&gt;
+	&lt;li&gt;Vitamin therapy&lt;/li&gt;
+	&lt;li&gt;Nutritional therapy&lt;/li&gt;
+	&lt;li&gt;Electrical stimulation of nerves&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with trigeminal neuralgia can be difficult. The disorder may affect your interaction with friends and family, your productivity at work, and the overall quality of your life.
+&lt;/p&gt;
+&lt;p&gt;
+You may find encouragement and understanding in a support group. Group members often know about the latest treatments and tend to share their own experiences. If you&apos;re interested, your doctor may be able to recommend a group in your area.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Trigeminal neuralgia
+	</Title>
+	<Abstract>
+		Trigeminal neuralgia &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this painful nerve condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma-knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+	</RelatedLinksBox>
+</Disease>

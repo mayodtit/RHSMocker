@@ -1,0 +1,371 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00368
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lice/DS00368
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-22
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="2900" Title="Lice" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3664582E-147C-4423-B9F5EFF661D9A265
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lice
+			</MetaKeyword>
+			<MetaKeyword>
+				nits
+			</MetaKeyword>
+			<MetaKeyword>
+				head lice
+			</MetaKeyword>
+			<MetaKeyword>
+				body lice
+			</MetaKeyword>
+			<MetaKeyword>
+				pubic lice
+			</MetaKeyword>
+			<MetaKeyword>
+				crabs
+			</MetaKeyword>
+			<MetaKeyword>
+				louse
+			</MetaKeyword>
+			<MetaKeyword>
+				pediculosis
+			</MetaKeyword>
+			<MetaKeyword>
+				head louse
+			</MetaKeyword>
+			<MetaKeyword>
+				lice control
+			</MetaKeyword>
+			<MetaKeyword>
+				lice treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				headlice
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lice are tiny, wingless, parasitic insects that feed on your blood. Lice are easily spread &amp;mdash; especially by schoolchildren &amp;mdash; through close personal contact and by sharing belongings. 
+&lt;/p&gt;
+&lt;p&gt;
+Several types of lice exist: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Head lice.&lt;/strong&gt; These lice develop on your scalp. They&apos;re easiest to see at the nape of your neck and over your ears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Body lice.&lt;/strong&gt; These lice live in clothing and on bedding and move on to your skin to feed. Body lice most often affect people &amp;mdash; such as homeless or transient individuals &amp;mdash; who aren&apos;t able to bathe or launder clothing regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pubic lice.&lt;/strong&gt; Commonly called crabs, these lice occur on the skin and hair of your pubic area and, less frequently, on coarse body hair, such as chest hair, eyebrows or eyelashes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You or your child can have good personal hygiene habits and still get lice. Unless treated properly, this condition can become a recurring problem. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of head lice
+" Caption="Head lice occur on the scalp and are easiest to see at the nape of the neck and over the ears. Small nits (eggs) resembling tiny pussy willow buds about the size of dandruff flakes are visible on hair shafts. 
+" Height="60" Title="Head lice" URI="/images/image_popup/thumbs/r7_headlicethu.jpg" Width="60" />
+				<Image Alt="Photo of head lice
+" Caption="Head lice occur on the scalp and are easiest to see at the nape of the neck and over the ears. Small nits (eggs) resembling tiny pussy willow buds about the size of dandruff flakes are visible on hair shafts. 
+" Height="290" Title="Head lice" URI="/images/image_popup/r7_headlice.jpg" Width="400" />
+				<HTML>
+					Head lice occur on the scalp and are easiest to see at the nape of the neck and over the ears. Small nits (eggs) resembling tiny pussy willow buds about the size of dandruff flakes are visible on ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of lice include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Intense itching.&lt;/li&gt;
+	&lt;li&gt;Tickling feeling from movement of hair.&lt;/li&gt;
+	&lt;li&gt;Lice on your scalp, body, clothing, or pubic or other body hair. Adult lice may be about the size of a sesame seed or slightly larger.&lt;/li&gt;
+	&lt;li&gt;Lice eggs (nits) on hair shafts. Nits resemble tiny pussy willow buds. Nits can be mistaken for dandruff, but unlike dandruff, they can&apos;t be easily brushed out of hair.&lt;/li&gt;
+	&lt;li&gt;Small, red bumps on the scalp, neck and shoulders.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Usually you can get rid of lice by taking self-care steps that include using nonprescription shampoo that&apos;s specifically formulated to kill lice. 
+&lt;/p&gt;
+&lt;p&gt;
+However, see your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nonprescription shampoo doesn&apos;t kill the lice &amp;mdash; your doctor can prescribe a stronger, prescription shampoo&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant &amp;mdash; don&apos;t use any anti-lice shampoo until you talk to your doctor&lt;/li&gt;
+	&lt;li&gt;You have any infected hives or skin abrasions from scratching&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nits on hair
+" Caption="Head lice occur on the scalp and are easiest to see at the nape of the neck and over the ears. Small oval nits (eggs) resembling tiny pussy willow buds are visible on the hair shafts. 
+" Height="60" Title="Head lice" URI="/images/image_popup/thumbs/r7_headlice2thu.jpg" Width="60" />
+				<Image Alt="Illustration showing nits on hair
+" Caption="Head lice occur on the scalp and are easiest to see at the nape of the neck and over the ears. Small oval nits (eggs) resembling tiny pussy willow buds are visible on the hair shafts. 
+" Height="600" Title="Head lice" URI="/images/image_popup/r7_headlice2.jpg" Width="398" />
+				<HTML>
+					Head lice occur on the scalp and are easiest to see at the nape of the neck and over the ears. Small oval nits (eggs) resembling tiny pussy willow buds are visible on the hair shafts. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can get lice by coming into contact with either lice or their eggs. Eggs hatch in about one week. Lice can&apos;t fly or walk on the ground. They spread through: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Head-to-head or body-to-body contact.&lt;/strong&gt; This may occur as children or family members play or interact closely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proximity of stored belongings.&lt;/strong&gt; Storing infested clothing in closets, in lockers or on side-by-side hooks at school, or storing personal items such as pillows, blankets, combs and stuffed toys in proximity at home can permit lice to spread.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Items shared among friends or family members.&lt;/strong&gt; These may include clothing, headphones, brushes, combs, hair decorations, towels, blankets, pillows and stuffed toys. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contact with contaminated furniture.&lt;/strong&gt; Lying on a bed or sitting in overstuffed, cloth-covered furniture recently used by someone with lice can spread them. Lice can live for one to two days off the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual contact.&lt;/strong&gt; Pubic lice usually spread through sexual contact and most commonly affect adults. Pubic lice found on children may be a sign of sexual exposure or abuse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, you can get rid of lice with over-the-counter treatments and by properly washing contaminated household items, such as sheets, towels and clothes. If these measures don&apos;t work, see your primary care medical provider. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including when you might have been exposed to lice, whom you might have exposed, and what household items might be contaminated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How do I treat lice?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How do I rid my household items of lice?&lt;/li&gt;
+	&lt;li&gt;Who do I need to inform about my condition?&lt;/li&gt;
+	&lt;li&gt;What other measures do I need to take to avoid re-infesting myself or others?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment when you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How were you exposed to lice?&lt;/li&gt;
+	&lt;li&gt;Is there anyone you might have exposed to lice?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you think or know you have lice, avoid sharing personal items, bedding, towels or clothing. Bathe and follow self-care measures, including washing contaminated items in hot water. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think or know you have a pubic lice infestation, also avoid sexual activity until you&apos;ve been treated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During an examination, your doctor may examine you for lice using a magnifying lens and check for nits using a special light, called a Wood&apos;s light, which makes the nits look pale blue. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Head lice&lt;/strong&gt; &lt;br /&gt;
+A diagnosis of head lice can be made after a live young or adult louse in the hair or on the scalp is found, or after one or more nits is seen on hair shafts located within 1/4 inch (6.4 millimeters) of the scalp. 
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t see any live lice or you see nits that are more than 1/4 inch away from the scalp, the infestation is no longer active and you don&apos;t need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Body lice&lt;/strong&gt; &lt;br /&gt;
+A diagnosis of body lice may be made if eggs or crawling lice are found in the seams of clothing or on bedding. It&apos;s possible to see a body louse on skin if it crawls there to feed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pubic lice&lt;/strong&gt; &lt;br /&gt;
+Pubic lice are diagnosed when moving lice or nits are seen on hair in the pubic area or on other areas of coarse hair, such as chest hair, eyebrows or eyelashes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Use medications that treat lice only as directed. Applying too much can cause red, irritated skin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Head lice&lt;/strong&gt; &lt;br /&gt;
+Treatment for head lice may involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter products.&lt;/strong&gt; Shampoos containing pyrethrin (Rid, others) or permethrin (Nix) are usually the first option used to combat lice infestations. These work best if you follow the directions very closely. In some geographical locations, lice have grown resistant to the ingredients in over-the-counter lice treatments. If over-the-counter preparations don&apos;t work, your doctor can prescribe shampoos or lotions that contain different ingredients. &lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Prescription medications.&lt;/strong&gt; Malathion (Ovide) is a prescription medication that you apply to your hair and then rub into your hair and scalp. Malathion is flammable, so keep it away from heat sources such as hair dryers, electric curlers and cigarettes. If you&apos;re pregnant or breast-feeding, talk to your doctor before using this product. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Benzyl alcohol lotion (Ulesfia) is a newer prescription treatment for head lice. You apply the lotion to the scalp and hair for 10 minutes and then rinse it off with water. Seven days later you repeat the treatment. Possible side effects include irritation of the skin, scalp and eyes as well as numbness at the application site. This medication isn&apos;t recommended for children younger than 6 months of age. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Finally, lindane is a prescription shampoo that&apos;s sometimes prescribed when other measures fail. However, due to increasing resistance of lice to this medication and to serious neurological side effects, lindane is no longer recommended as a first line treatment for head lice. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Body lice&lt;/strong&gt; &lt;br /&gt;
+If you have body lice, you don&apos;t need treatment. However, you must take the same self-care measures, such as treating clothing and other items, as you would for head lice. If self-care measures fail to get rid of the lice, your doctor might recommend trying one of the nonprescription or prescription treatments for head lice. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pubic lice&lt;/strong&gt; &lt;br /&gt;
+Pubic lice can be treated with the same nonprescription and prescription treatments used for head lice. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Self-care important&lt;/strong&gt; &lt;br /&gt;
+Whether you use over-the-counter or prescription shampoo to kill lice, much of the treatment involves self-care steps you can take at home. These include making sure all the nits are removed and that all clothing, bedding, personal items and furniture are decontaminated. In most cases, killing lice on your body isn&apos;t difficult. The challenge is getting rid of all the nits and avoiding contact with other lice at home or school. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can get rid of lice with a patient, thorough approach that involves cleaning yourself or your child and any personal belongings that may be contaminated. 
+&lt;/p&gt;
+&lt;p&gt;
+These steps may help you eliminate lice infestations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use lotions and shampoos.&lt;/strong&gt; Choose from among several over-the-counter lotions and shampoos (Nix, Rid, others) designed to kill lice. Apply the product according to package instructions. You may need to repeat treatment with the lotion or shampoo in seven to 10 days. These lotions and shampoos typically aren&apos;t recommended for children under age 2. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;After shampoo treatment, rinse your hair with vinegar.&lt;/strong&gt; Grasp a lock of hair with a cloth saturated with vinegar and strip the lock downward to remove nits. Repeat until you&apos;ve treated all the hair in this way. Or soak hair with vinegar and leave it on for a few minutes before combing. Then towel-dry the hair. These methods can help remove nits from the hair shaft. Cutting hair very short also can help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Comb wet hair.&lt;/strong&gt; Use a fine-toothed or nit comb to physically remove the lice from wet hair. Repeat every three to four days for at least two weeks. This method may be used in combination with other treatments and is usually recommended as the first line treatment for children under age 2. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash&lt;/strong&gt;&lt;strong&gt; contaminated items.&lt;/strong&gt; Wash bedding, stuffed animals, clothing and hats with hot, soapy water &amp;mdash; at least 130 F (54 C) &amp;mdash; and dry them at high heat for at least 20 minutes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seal unwashable items.&lt;/strong&gt; Place them in an airtight bag for two weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vacuum.&lt;/strong&gt; Give the floor and furniture a good vacuuming. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover furniture.&lt;/strong&gt; Use a plastic painter&apos;s dropcloth to cover furniture for two weeks to prevent acquiring another case of lice. Don&apos;t do this if you have a toddler who may become tangled in a plastic sheet and suffocate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash combs and brushes.&lt;/strong&gt; Use very hot, soapy water &amp;mdash; at least 130 F (54 C) &amp;mdash; or soak combs and brushes in rubbing alcohol for an hour. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s difficult to prevent the spread of head lice among children in child care and school settings. There&apos;s so much close contact among children and their belongings that lice can spread easily. It&apos;s no reflection on your hygiene habits or those of your children, and it&apos;s not a failure on your part as a parent if your child gets head lice. 
+&lt;/p&gt;
+&lt;p&gt;
+Some over-the-counter products claim to repel lice, but more scientific research is needed to prove their safety and effectiveness. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of small studies have shown that ingredients in some of these products &amp;mdash; mostly plant oils such as rosemary, citronella, eucalyptus, tea tree and lemon grass &amp;mdash; may work to repel lice. However, these products are classified as &quot;natural&quot; so they aren&apos;t regulated by the Food and Drug Administration (FDA), and their safety and effectiveness haven&apos;t been tested to FDA standards. 
+&lt;/p&gt;
+&lt;p&gt;
+Until more research proves the effectiveness of head lice prevention products, the best approach is simply to take thorough steps to get rid of the lice &amp;mdash; and their eggs &amp;mdash; so that you don&apos;t have more lice to deal with. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your child to avoid head-to-head contact&lt;/strong&gt; with classmates during play and other activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Instruct your child not to share personal belongings&lt;/strong&gt; such as hats, scarves, coats, combs, brushes, hair accessories and headphones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Instruct your child to avoid shared spaces &lt;/strong&gt;where hats and clothing from more than one student are hung on a common hook or kept in a locker.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, it&apos;s not realistic to expect that you and your child can eliminate all the types of contact that may result in the spread of lice. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child may have nits in his or her hair but not necessarily develop a case of head lice. Some nits are empty eggs. However, nits that are found within 1/4 inch (6.4 millimeters) of the scalp should be treated &amp;mdash; even if you find only one &amp;mdash; to prevent the possibility of hatching. Nits that are farther away from the scalp are probably from an old infestation and don&apos;t need to be treated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lice
+	</Title>
+	<Abstract>
+		Lice &amp;mdash; Comprehensive overview covers treatment, prevention of infection with these tiny, wingless, parasitic insects.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00953" LinkType="Internal" ObjectID="EFE712B5-E7FF-0DBD-17579B80A2687C9C" Title="Head lice" Url="http://www.mayoclinic.com/health/head-lice/DS00953" />
+		<LinkItem ContentType="Disease" DocID="DS01073" LinkType="Internal" ObjectID="2EAB30EF-E7FF-0DBD-1E7FD1BE5FAA36D4" Title="Body lice" Url="http://www.mayoclinic.com/health/body-lice/DS01073" />
+		<LinkItem ContentType="Disease" DocID="DS01072" LinkType="Internal" ObjectID="2EA75746-E7FF-0DBD-1E595AB3D4B0E8C8" Title="Pubic lice (crabs)" Url="http://www.mayoclinic.com/health/pubic-lice-crabs/DS01072" />
+	</RelatedLinksBox>
+</Disease>

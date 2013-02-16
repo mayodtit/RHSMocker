@@ -1,0 +1,350 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00153
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tendinitis/DS00153
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-08
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2901" Title="Tendinitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			03381842-FED6-42A1-97E232E9465840BD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tendinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tendon
+			</MetaKeyword>
+			<MetaKeyword>
+				tennis elbow
+			</MetaKeyword>
+			<MetaKeyword>
+				synovium
+			</MetaKeyword>
+			<MetaKeyword>
+				Achilles tendon rupture
+			</MetaKeyword>
+			<MetaKeyword>
+				patellar
+			</MetaKeyword>
+			<MetaKeyword>
+				trigger finger
+			</MetaKeyword>
+			<MetaKeyword>
+				tendonosis
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				tendonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tendenitis
+			</MetaKeyword>
+			<MetaKeyword>
+				achilles tendonitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tendinitis is inflammation or irritation of a tendon &amp;mdash; any one of the thick fibrous cords that attaches muscle to bone. The condition causes pain and tenderness just outside a joint. While tendinitis can occur in any of your body&apos;s tendons, it&apos;s most common around your shoulders, elbows, wrists and heels.
+&lt;/p&gt;
+&lt;p&gt;
+Some common names for various tendinitis problems are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tennis elbow&lt;/li&gt;
+	&lt;li&gt;Golfer&apos;s elbow&lt;/li&gt;
+	&lt;li&gt;Pitcher&apos;s shoulder&lt;/li&gt;
+	&lt;li&gt;Swimmer&apos;s shoulder&lt;/li&gt;
+	&lt;li&gt;Jumper&apos;s knee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If tendinitis is severe and leads to the rupture of a tendon, you may need surgical repair. But most cases of tendinitis can be successfully treated with rest, physical therapy and medications to reduce pain. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tendon in shoulder 
+" Caption="Tendons are thick fibrous cords that attach muscles to bone. Overuse or strain on a joint can irritate tendons and result in tendinitis. 
+" Height="60" Title="Shoulder joint" URI="/images/image_popup/thumbs/mcdc7_shoulderjointthu.jpg" Width="60" />
+				<Image Alt="Illustration showing tendon in shoulder 
+" Caption="Tendons are thick fibrous cords that attach muscles to bone. Overuse or strain on a joint can irritate tendons and result in tendinitis. 
+" Height="380" Title="Shoulder joint" URI="/images/image_popup/mcdc7_shoulderjoint.jpg" Width="400" />
+				<HTML>
+					Tendons are thick fibrous cords that attach muscles to bone. Overuse or strain on a joint can irritate tendons and result in tendinitis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of tendinitis occur at the point where a tendon attaches to a bone and typically include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain, often described as a dull ache, especially when moving the affected limb or joint&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Mild swelling, possibly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Most cases of tendinitis can respond to self-care measures. See your doctor if your signs and symptoms persist and interfere with your day-to-day activities for more than a few days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although tendinitis can be caused by a sudden injury, the condition is much more likely to stem from the repetition of a particular movement over time. Most people develop tendinitis because their jobs or hobbies involve repetitive motions, which put stress on the tendons needed to perform the tasks. Using proper technique is especially important when performing repetitive sports movements or job-related activities. Improper technique can overload the tendon &amp;mdash; which can occur, for instance, with tennis elbow &amp;mdash; and lead to tendinitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for developing tendinitis include age, working in particular jobs or participating in certain sports.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Age&lt;br /&gt;
+&lt;/strong&gt;As people get older, their tendons become less flexible &amp;mdash; which makes them easier to injure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Occupations&lt;br /&gt;
+&lt;/strong&gt;Tendinitis is more common in people whose jobs involve:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Repetitive motions&lt;/li&gt;
+	&lt;li&gt;Awkward positions&lt;/li&gt;
+	&lt;li&gt;Frequent overhead reaching&lt;/li&gt;
+	&lt;li&gt;Vibration&lt;/li&gt;
+	&lt;li&gt;Forceful exertion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sports&lt;br /&gt;
+&lt;/strong&gt;You may be more likely to develop tendinitis if you participate in certain sports that involve repetitive motions, especially if your technique isn&apos;t optimal. This can occur with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Baseball&lt;/li&gt;
+	&lt;li&gt;Basketball&lt;/li&gt;
+	&lt;li&gt;Bowling&lt;/li&gt;
+	&lt;li&gt;Golf&lt;/li&gt;
+	&lt;li&gt;Running&lt;/li&gt;
+	&lt;li&gt;Swimming&lt;/li&gt;
+	&lt;li&gt;Tennis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Without proper treatment, tendinitis can increase your risk of experiencing tendon rupture &amp;mdash; a much more serious condition that may require surgical repair.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may initially bring your signs and symptoms to the attention of your family physician, but he or she may refer you to a doctor who specializes in sports medicine or rheumatology &amp;mdash; the treatment of conditions that affect the joints. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For tendinitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will I need to have any tests done?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems. How best can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Will I need to limit my activities?&lt;/li&gt;
+	&lt;li&gt;Are there any self-care measures I can try?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material I can take with me? What websites do you recommend for information about my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor will check for points of tenderness around the affected area. The precise location of your pain can help determine if it&apos;s caused by other problems. Your doctor will also move your affected joint into different positions, to try to replicate your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Questions your doctor may ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where do you feel pain?&lt;/li&gt;
+	&lt;li&gt;When did your pain begin?&lt;/li&gt;
+	&lt;li&gt;Did it begin suddenly or occur gradually?&lt;/li&gt;
+	&lt;li&gt;What kind of work do you do?&lt;/li&gt;
+	&lt;li&gt;What hobbies or recreational activities do you participate in?&lt;/li&gt;
+	&lt;li&gt;Have you been instructed in proper technique for your activity?&lt;/li&gt;
+	&lt;li&gt;Does your pain occur or worsen during certain activities, such as kneeling or climbing stairs?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced a fall or any other kind of injury?&lt;/li&gt;
+	&lt;li&gt;What kind of treatments have you tried at home?&lt;/li&gt;
+	&lt;li&gt;What effect did those treatments have?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tendinitis can usually be diagnosed during the physical exam alone. Your doctor may order X-rays or other imaging tests if he or she needs to rule out other conditions that may be causing your signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goals of tendinitis treatment are to relieve your pain and reduce inflammation. Often, taking care of tendinitis on your own &amp;mdash; including rest, ice and over-the-counter pain relievers &amp;mdash; may be all the treatment that you need.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;For tendinitis, your doctor may recommend these medications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Sometimes your doctor may inject a corticosteroid medication around a tendon to relieve tendinitis. Injections of cortisone reduce inflammation and can help ease pain. However, repeated injections may weaken a tendon, increasing your risk of rupturing the tendon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Taking aspirin, naproxen (Aleve) or ibuprofen (Advil, Motrin, others) may relieve discomfort associated with tendinitis. Topical creams with anti-inflammatory medication &amp;mdash; popular in Europe and becoming increasingly available in the United States &amp;mdash; may also be effective in relieving pain without the potential side effects of taking anti-inflammatory medications by mouth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;You might benefit from a program of specific exercise designed to stretch and strengthen the affected muscle-tendon unit. For instance, eccentric strengthening &amp;mdash; which emphasizes contraction of a muscle while it&apos;s lengthening &amp;mdash; has been shown to be effective in treating chronic tendon inflammation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Depending on the severity of your tendon injury, surgical repair may be needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To treat tendinitis at home, R.I.C.E. is the acronym to remember &amp;mdash; rest, ice, compression and elevation. This treatment can help speed your recovery and help prevent further problems. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Avoid activities that increase the pain or swelling. Don&apos;t try to work or play through the pain. Rest is essential to tissue healing. But it doesn&apos;t mean complete bed rest. You can do other activities and exercises that don&apos;t stress the injured tendon. Swimming and water exercise may be well tolerated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; To decrease pain, muscle spasm and swelling, apply ice to the injured area for up to 20 minutes, several times a day. Ice packs, ice massage or slush baths with ice and water all can help. For an ice massage, freeze a plastic foam cup full of water so that you can hold the cup while applying the ice directly to the skin. For more chronic tendon conditions, heat can be helpful in increasing blood flow to the muscle and tendon. This includes deep heat, from a therapy such as ultrasound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; Because swelling can result in loss of motion in an injured joint, compress the area until the swelling has ceased. Wraps or compressive elastic bandages are best.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; If tendinitis affects your knee, raise the affected leg above the level of your heart to reduce swelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although rest is a key part of treating tendinitis, prolonged inactivity can cause stiffness in your joints. After a few days of completely resting the injured area, gently move it through its full range of motion to maintain joint flexibility.
+&lt;/p&gt;
+&lt;p&gt;
+You can also try over-the-counter medications, such as aspirin, ibuprofen (Advil, Motrin, others), naproxen (Aleve) or acetaminophen (Tylenol, others), in an attempt to reduce the discomfort associated with tendinitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your chance of developing tendinitis, follow these suggestions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ease up.&lt;/strong&gt; Avoid activities that place excessive stress on your tendons, especially for prolonged periods. If you notice pain during a particular exercise, stop and rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mix it up.&lt;/strong&gt; If one exercise or activity causes you a particular, persistent pain, try something else. Cross-training can help you mix up an impact-loading exercise, such as running, with lower impact exercise, such as biking or swimming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improve your technique.&lt;/strong&gt; If your technique in an activity or exercise is flawed, you could be setting yourself up for problems with your tendons. Consider taking lessons or getting professional instructions when starting a new sport or using exercise equipment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch first.&lt;/strong&gt; Before you exercise, take time to stretch in order to maximize the range of motion of your joints. This can help to minimize repetitive microtrauma on tight tissues. Remember to stretch after exercise, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use proper workplace ergonomics.&lt;/strong&gt; If possible, get an ergonomic assessment of your work space and adjust your chair, keyboard and desktop as recommended for your height, arm length and usual tasks. This will help protect all your joints and tendons from excessive stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare your muscles to play.&lt;/strong&gt; Strengthening muscles used in your activity or sport can help them better withstand stress and load.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tendinitis
+	</Title>
+	<Abstract>
+		Tendinitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this painful condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00625" LinkType="Internal" ObjectID="4F1239B5-2A5D-9994-E667C498C2D09836" Title="Patellar tendinitis" Url="http://www.mayoclinic.com/health/patellar-tendinitis/DS00625" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Answer" DocID="AN01695" LinkType="Internal" ObjectID="8428F452-E7FF-0DBD-1E7E08AA4ABBCA98" Title="Tendinitis pain: Should I apply ice or heat?" Url="http://www.mayoclinic.com/health/tendinitis/AN01695" />
+	</RelatedLinksBox>
+</Disease>

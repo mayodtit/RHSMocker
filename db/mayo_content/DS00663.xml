@@ -1,0 +1,307 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00663
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bedbugs/DS00663
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-16
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1753" Title="Insect and mite infestations">
+						<Keyword MCVID="2534" Title="Bedbugs" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			306FC3B6-2A5D-9994-E1C675FB933D05C4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bed bugs
+			</MetaKeyword>
+			<MetaKeyword>
+				bedbugs
+			</MetaKeyword>
+			<MetaKeyword>
+				bug bites
+			</MetaKeyword>
+			<MetaKeyword>
+				pest control
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bedbugs bite the exposed skin of sleeping humans to feed on their blood. Decades ago, bedbugs were eradicated from most developed nations using DDT &amp;mdash; a pesticide that&apos;s since been banned because it&apos;s so toxic. 
+&lt;/p&gt;
+&lt;p&gt;
+Spurred perhaps by increases in international travel, bedbugs are becoming a problem once again. The risk of encountering bedbugs increases if you spend time in places with high turnovers of nighttime guests &amp;mdash; such as hotels, hospitals or homeless shelters. 
+&lt;/p&gt;
+&lt;p&gt;
+Bedbugs are reddish brown, oval and flat, about the size of an apple seed. During the day, they hide in the cracks and crevices of beds, box springs, headboards and bed frames. If you have bedbugs in your home, professional extermination is recommended. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a bedbug 
+" Caption="Bedbugs are reddish brown, oval and flat, about the size of an apple seed. During the day, they hide in the cracks and crevices of beds, box springs, headboards and bed frames. 
+" Height="60" Title="Bedbug" URI="/images/image_popup/thumbs/ans7_bedbugthu.jpg" Width="60" />
+				<Image Alt="Image of a bedbug 
+" Caption="Bedbugs are reddish brown, oval and flat, about the size of an apple seed. During the day, they hide in the cracks and crevices of beds, box springs, headboards and bed frames. 
+" Height="400" Title="Bedbug" URI="/images/image_popup/ans7_bedbug.jpg" Width="400" />
+				<HTML>
+					Bedbugs are reddish brown, oval and flat, about the size of an apple seed. During the day, they hide in the cracks and crevices of beds, box springs, headboards and bed frames. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It can be difficult to distinguish bedbug bites from other insect bites. In general, the sites of bedbug bites usually are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red, often with a darker red spot in the middle&lt;/li&gt;
+	&lt;li&gt;Itchy&lt;/li&gt;
+	&lt;li&gt;Arranged in a rough line or in a cluster&lt;/li&gt;
+	&lt;li&gt;Located on the face, neck, arms and hands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people have no reaction at all to bedbug bites, while others experience an allergic reaction that can include severe itching, blisters or hives. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you experience allergic reactions or severe skin reactions to your bedbug bites, see your doctor for professional treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of bedbug bites
+" Caption="It can be difficult to tell bedbug bites from other types of insect bites. However, they are typically itchy, and they may appear clustered or lined up in rough rows. 
+" Height="60" Title="Bedbug bites" URI="/images/image_popup/thumbs/id7_bedbug2007thu.jpg" Width="60" />
+				<Image Alt="Image of bedbug bites
+" Caption="It can be difficult to tell bedbug bites from other types of insect bites. However, they are typically itchy, and they may appear clustered or lined up in rough rows. 
+" Height="260" Title="Bedbug bites" URI="/images/image_popup/id7_bedbug2007.jpg" Width="400" />
+				<HTML>
+					It can be difficult to tell bedbug bites from other types of insect bites. However, they are typically itchy, and they may appear clustered or lined up in rough rows. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The resurgence of bedbugs in developed countries may be linked to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased international travel&lt;/li&gt;
+	&lt;li&gt;Changes in pest control practices&lt;/li&gt;
+	&lt;li&gt;Insecticide resistance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Where do they hide?&lt;/strong&gt; &lt;br /&gt;
+During the day, bedbugs hide in the cracks and crevices of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mattresses&lt;/li&gt;
+	&lt;li&gt;Box springs&lt;/li&gt;
+	&lt;li&gt;Bed frames&lt;/li&gt;
+	&lt;li&gt;Headboards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+They also can be found: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Under peeling paint and loose wallpaper&lt;/li&gt;
+	&lt;li&gt;Under carpeting near baseboards&lt;/li&gt;
+	&lt;li&gt;In upholstered furniture seams&lt;/li&gt;
+	&lt;li&gt;Under light switch plates or electrical outlets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How do they spread?&lt;/strong&gt; &lt;br /&gt;
+Bedbugs don&apos;t usually stay on their human hosts after their meal, but they might take refuge in clothes or luggage left nearby on the floor. If you&apos;re traveling and bedbugs get into your luggage, you might bring them home. 
+&lt;/p&gt;
+&lt;p&gt;
+While bedbugs may hitchhike on your belongings, they can also crawl about as fast as a ladybug. So they can easily travel between floors and rooms in hotels or apartment complexes. 
+&lt;/p&gt;
+&lt;p&gt;
+Some varieties of bedbugs prefer to feed on birds or bats, so they may take up residence in your attics or eaves. If their preferred prey migrates south, these bedbugs will settle for feeding on the humans in the house. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sign of uncleanliness?&lt;/strong&gt; &lt;br /&gt;
+Bedbugs don&apos;t care if their environment is clean or dirty. All they need is a warm host and plenty of hiding places. Even pristine homes and hotels can harbor bedbugs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bedbugs are more common in crowded lodgings that experience high turnover in occupancy, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Apartment complexes&lt;/li&gt;
+	&lt;li&gt;Dormitories&lt;/li&gt;
+	&lt;li&gt;Homeless shelters&lt;/li&gt;
+	&lt;li&gt;Hotels&lt;/li&gt;
+	&lt;li&gt;Military barracks&lt;/li&gt;
+	&lt;li&gt;Refugee camps&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most bedbug bites require no medical treatment. You may want to consult your family doctor if you experience an allergic reaction to the bites or if you develop a skin infection after scratching the bites. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+You may want to prepare a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A detailed description of your symptoms&lt;/li&gt;
+	&lt;li&gt;History of recent international travel&lt;/li&gt;
+	&lt;li&gt;History of recent hotel stays&lt;/li&gt;
+	&lt;li&gt;All the drugs and supplements you take&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will carefully examine your bite sites and ask questions about the types of insects you might have been exposed to recently. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you&apos;re being bitten by bedbugs, immediately inspect your home for the insects. Thoroughly examine crevices in walls, mattresses and furniture. You may need to perform your inspection at night when bedbugs are active. 
+&lt;/p&gt;
+&lt;p&gt;
+Look for these signs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dark specks.&lt;/strong&gt; Typically found along mattress seams, these specks are bedbug excrement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Empty exoskeletons.&lt;/strong&gt; Bedbugs molt five times before becoming adults. These empty skins are light brown.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bloody smears.&lt;/strong&gt; You may find small smears of blood on the sheets where you accidentally crushed an engorged bedbug.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The itchy red spots associated with bedbug bites usually disappear on their own within a week or two. You might speed your recovery by using: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A skin cream containing hydrocortisone&lt;/li&gt;
+	&lt;li&gt;An oral antihistamine, such as diphenhydramine (Benadryl)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you develop a skin infection from scratching bedbug bites, your doctor may prescribe an antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating your home&lt;/strong&gt; &lt;br /&gt;
+Once your symptoms are treated, you must tackle the underlying infestation. This can be difficult because bedbugs hide so well and can live for months without eating. Your best bet may be to hire a professional exterminator, who may use a combination of pesticides and nonchemical treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Nonchemical treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vacuuming.&lt;/strong&gt; A thorough vacuuming of cracks and crevices can physically remove bedbugs from an area. But vacuum cleaners can&apos;t reach all hiding places.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hot water.&lt;/strong&gt; Washing clothes and other items in water at least 120 F (49 C) can kill bedbugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clothes dryer.&lt;/strong&gt; Placing wet or dry items in a clothes dryer set at medium to high heat for 20 minutes will kill bedbugs and their eggs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing.&lt;/strong&gt; Bedbugs are also vulnerable to temperatures below 32 F (0 C), but you&apos;d need to leave the items outdoors or in the freezer for several days.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some professional exterminators use portable devices to raise the temperature of a room to a lethal temperature. All stages of bedbugs can be killed at 122 F (50 C). In some cases, you may have to throw out heavily infested items such as mattresses or couches. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Preventing bites&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up.&lt;/strong&gt; Because bedbugs don&apos;t tend to burrow under clothing, you may be able to avoid bites by wearing pajamas that cover as much skin as possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mosquito netting.&lt;/strong&gt; Some studies indicate that bed nets impregnated with the pesticide permethrin may help protect sleepers against bedbug bites. However, this practice may be helping bedbugs develop resistance to this pesticide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing infestations&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Secondhand items.&lt;/strong&gt; Inspect used mattresses or upholstered furniture carefully before bringing them into your home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hotel precautions.&lt;/strong&gt; Check mattress seams for bedbug excrement and place your luggage on tables or dressers instead of on the floor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birds and bats.&lt;/strong&gt; Eliminate any neighboring bird and bat habitats that may serve as a refuge for bedbugs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Insect repellents designed to protect against mosquitos or ticks aren&apos;t very effective against bedbugs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bedbugs
+	</Title>
+	<Abstract>
+		Bedbugs &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention, pictures of these insects and their bites.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

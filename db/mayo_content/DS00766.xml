@@ -1,0 +1,281 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00766
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/familial-mediterranean-fever/DS00766
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-09
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="3149" Title="Genetic disorders">
+						<Keyword MCVID="3150" Title="Familial Mediterranean fever" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7CEA2E56-E7FF-0DBD-190966F90B73C111
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				familial Mediterranean fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Mediterranean fever
+			</MetaKeyword>
+			<MetaKeyword>
+				FMF
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Familial Mediterranean fever is an inflammatory disorder that causes recurrent fevers and painful inflammation of your abdomen, lungs and joints. 
+&lt;/p&gt;
+&lt;p&gt;
+Familial Mediterranean fever is an inherited disorder that usually occurs in people of Mediterranean origin &amp;mdash; including Sephardic Jews, Arabs, Italians, Armenians and Turks. But it may affect any ethnic group. 
+&lt;/p&gt;
+&lt;p&gt;
+Familial Mediterranean fever is typically diagnosed during childhood. While there&apos;s no cure for this disorder, you may be able to relieve signs and symptoms of familial Mediterranean fever &amp;mdash; or even prevent them altogether &amp;mdash; by sticking to your treatment plan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of familial Mediterranean fever usually begin during childhood. Signs and symptoms occur in bouts called attacks that last one to three days. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of familial Mediterranean fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Achy, swollen joints&lt;/li&gt;
+	&lt;li&gt;Constipation followed by diarrhea&lt;/li&gt;
+	&lt;li&gt;A red rash on your legs, especially below your knees&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;A swollen, tender scrotum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Between attacks, you&apos;ll likely feel normal. Symptom-free periods may be as short as a week or as long as months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you or your child experiences sudden worrisome signs or symptoms, such as shortness of breath or passing out, call 911 or emergency medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+See your doctor if you or your child has a sudden fever accompanied by pain in the abdomen, chest and joints. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Familial Mediterranean fever is caused by a gene mutation that&apos;s passed from parents to children. The gene mutation causes problems in regulating inflammation in the body. 
+&lt;/p&gt;
+&lt;p&gt;
+In people with familial Mediterranean fever, the gene mutation occurs in a gene called MEFV. Many different mutations in MEFV are linked to familial Mediterranean fever. Some mutations may cause very severe cases, while others may be milder. 
+&lt;/p&gt;
+&lt;p&gt;
+Familial Mediterranean fever is inherited as an autosomal recessive trait, meaning that you must inherit the mutated gene from both parents in order to develop the condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of familial Mediterranean fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having a family history of the disease.&lt;/strong&gt; If you have a family history of familial Mediterranean fever, your risk of the disease is increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being of Mediterranean ancestry.&lt;/strong&gt; If your family can trace its history to the Mediterranean region, your risk of the disease may be increased. Familial Mediterranean fever can affect any ethnic group, but it may be more likely in Sephardic Jews, Arabs, Italians, Armenians and Turks. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications can occur if familial Mediterranean fever isn&apos;t treated. Complications can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal protein in the blood.&lt;/strong&gt; During attacks of familial Mediterranean fever, your body may produce an abnormal protein (amyloid A). The protein can accumulate in your body and cause organ damage (amyloidosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage.&lt;/strong&gt; Amyloidosis can damage the kidneys, causing nephrotic syndrome. Nephrotic syndrome occurs when your kidneys&apos; filtering systems (glomeruli) are damaged. People with this condition may lose large amounts of protein in their urine. Nephrotic syndrome can lead to blood clots in your kidneys (renal vein thrombosis) or kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility in women.&lt;/strong&gt; Inflammation caused by familial Mediterranean fever may also affect the female reproductive organs, causing infertility. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint pain.&lt;/strong&gt; Arthritis is common in people with familial Mediterranean fever. The most commonly affected joints are the knees, ankles and hips. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of familial Mediterranean fever, you may begin by seeing your family doctor. You may be referred to a doctor who specializes in inflammatory diseases (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive prepared. Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. Questions you might want to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is causing my or my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What caused this condition?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible treatments?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on activity?&lt;/li&gt;
+	&lt;li&gt;Should my other children be tested?&lt;/li&gt;
+	&lt;li&gt;If I want to have more children, can I protect them from the disease?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or do they come and go?&lt;/li&gt;
+	&lt;li&gt;How long do your symptoms last?&lt;/li&gt;
+	&lt;li&gt;What seems to trigger your symptoms, and what warning signs help you predict when they will occur?&lt;/li&gt;
+	&lt;li&gt;Is there anything you do to stop or lessen the severity of your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to follow a pattern?&lt;/li&gt;
+	&lt;li&gt;Do you have blood relatives with familial Mediterranean fever?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose familial Mediterranean fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor may ask you about your signs and symptoms and conduct a physical exam to gather more information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Review of your family medical history.&lt;/strong&gt; A family history of familial Mediterranean fever increases your likelihood of developing the condition because this genetic mutation is passed from parents to their children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; During an attack, blood tests may show elevated levels of certain markers that indicate an inflammatory condition in your body. An elevated level of white blood cells, which fight infections, is one such marker.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; Genetic testing may determine if your MEFV gene contains a mutation that is associated with familial Mediterranean fever. Genetic tests aren&apos;t advanced enough to test for every gene mutation that&apos;s linked to familial Mediterranean fever, so there is a possibility of false-negative results. For this reason, doctors typically don&apos;t use genetic tests as the sole method of diagnosing familial Mediterranean fever. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for familial Mediterranean fever. However, treatment can help prevent signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to control signs and symptoms of familial Mediterranean fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Colchicine.&lt;/strong&gt; This drug, taken in pill form, reduces inflammation in your body and helps prevent attacks. Work with your doctor to determine the best dosing strategy for you. Some people take one dose a day, while others need smaller, more-frequent doses. Potential side effects include diarrhea, muscle weakness, and numbness in your hands or feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other drugs to prevent inflammation.&lt;/strong&gt; For people whose signs and symptoms aren&apos;t controlled with colchicine, other medications that control inflammation may be options, though these treatments are considered experimental. Other medications include rilonacept (Arcalyst) and anakinra (Kineret). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning that you or your child has a chronic illness, such as familial Mediterranean fever, can be upsetting and frustrating. Here are some tips that may help you cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about familial Mediterranean fever.&lt;/strong&gt; Find out enough about familial Mediterranean fever so that you feel comfortable making decisions about your child&apos;s care. Ask your doctor for good sources of information to get you started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Talking to a family member, trusted friend, or a counselor or therapist can allow you to express your fears and frustrations. Some people also find support groups helpful because members truly understand what you&apos;re going through. Ask your doctor if there is a support group for people affected by familial Mediterranean fever in your area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Familial Mediterranean fever
+	</Title>
+	<Abstract>
+		Familial Mediterranean fever &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this inherited inflammatory disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+	</RelatedLinksBox>
+</Disease>

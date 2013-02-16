@@ -1,0 +1,206 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00516
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00516
+		</OriginalURL>
+		<UpdateDate>
+			2010-02-02
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			CD7A7226-D64B-4575-BBAD8B64822ADF15
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Hearty turkey chili
+	</Title>
+	<Abstract>
+		Hearty turkey chili &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This chili uses roasted vegetables and turkey meat instead of ground beef for a full, hearty flavor. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 475 F. 
+&lt;/p&gt;
+&lt;p&gt;
+Spray a glass baking dish with cooking spray. Arrange the zucchini in a single layer in the baking dish. Roast for 8 to 10 minutes until slightly tender and lightly browned. 
+&lt;/p&gt;
+&lt;p&gt;
+While the zucchini is roasting, add the oil and chopped onions to a dutch oven or soup pot. Saute over low heat until the onions are browned. Add the celery and peppers and continue to saute. Add garlic, turkey, chili powder and cumin seed. Cover and simmer for about 5 minutes. Stir in the tomatoes, kidney beans, vegetable broth, brown sugar and the roasted zucchini. Cover and simmer for 15 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Ladle into warmed individual bowls. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+2 cups chopped zucchini&lt;br /&gt;
+1 teaspoon olive oil&lt;br /&gt;
+1 cup chopped onion&lt;br /&gt;
+2 cups chopped celery&lt;br /&gt;
+1 cup chopped bell peppers&lt;br /&gt;
+2 teaspoons chopped fresh garlic&lt;br /&gt;
+1 pound chopped cooked turkey&lt;br /&gt;
+1 1/2 tablespoons chili powder&lt;br /&gt;
+1 teaspoon cumin seed&lt;br /&gt;
+2 cups diced canned tomatoes, no-salt-added variety&lt;br /&gt;
+4 cups canned kidney beans, rinsed and drained&lt;br /&gt;
+2 cups low-sodium vegetable broth&lt;br /&gt;
+1 teaspoon brown sugar 
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				2
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				277
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				32 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				43 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				9 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				26 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1.5 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				315 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Slow cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

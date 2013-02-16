@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00659
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tapeworm/DS00659
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="2555" Title="Tapeworm" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1BD1DBFE-2A5D-9994-EC4E231EE7F0FA52
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tapeworm
+			</MetaKeyword>
+			<MetaKeyword>
+				tape worm
+			</MetaKeyword>
+			<MetaKeyword>
+				parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				parasitic infection
+			</MetaKeyword>
+			<MetaKeyword>
+				helminth
+			</MetaKeyword>
+			<MetaKeyword>
+				global health
+			</MetaKeyword>
+			<MetaKeyword>
+				cestode
+			</MetaKeyword>
+			<MetaKeyword>
+				cestode infection
+			</MetaKeyword>
+			<MetaKeyword>
+				tapeworm infection
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal tapeworm
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal cestode
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tapeworm infection is caused by ingesting food or water contaminated with tapeworm eggs or larvae. If you ingest certain tapeworm eggs, they can migrate outside your intestines and form larval cysts in body tissues and organs (invasive infection). If you ingest tapeworm larvae, however, they develop into adult tapeworms in your intestines (intestinal infection). 
+&lt;/p&gt;
+&lt;p&gt;
+An adult tapeworm consists of a head, neck and chain of segments called proglottids. When you have an intestinal tapeworm infection, the tapeworm head adheres to the intestine wall, and the proglottids grow and produce eggs. Adult tapeworms can live for up to 20 years in a host. Intestinal tapeworm infections are usually mild, but invasive larval infections can cause serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with intestinal tapeworm infection have no symptoms. If you do feel the effects, your symptoms will depend on the type of tapeworm you have and its location. Invasive tapeworm infection symptoms vary depending on where the larvae have migrated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Intestinal infection&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of intestinal infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Weight loss and inadequate absorption of nutrients from food&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Invasive infection&lt;/strong&gt; &lt;br /&gt;
+If tapeworm larvae have migrated out of your intestines and formed cysts in other tissues, they can eventually cause organ and tissue damage, resulting in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Cystic masses or lumps&lt;/li&gt;
+	&lt;li&gt;Allergic reactions to the larvae&lt;/li&gt;
+	&lt;li&gt;Bacterial infections&lt;/li&gt;
+	&lt;li&gt;Neurological symptoms, including seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you experience any of the signs or symptoms of tapeworm infection, seek medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tapeworm infection starts after ingestion of tapeworm eggs or larvae. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ingestion of eggs.&lt;/strong&gt; If you eat food or drink water contaminated with feces from a person or animal with tapeworm, you ingest microscopic tapeworm eggs. For example, a pig infected with tapeworm will pass tapeworm eggs in its feces, which gets into the soil. If this same soil comes in contact with a food or water source, it becomes contaminated. You can then be infected when you eat or drink something from the contaminated source. Once inside your intestines, the eggs develop into larvae. At this stage, the larvae become mobile. If they migrate out of your intestines, they form cysts in other tissues, such as your lungs, central nervous system or liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ingestion of larvae cysts in meat or muscle tissue.&lt;/strong&gt; When an animal has a tapeworm infection, it has tapeworm larvae in its muscle tissue. If you eat raw or undercooked meat from an infected animal, you ingest the larvae, which then develop into adult tapeworms in your intestines. Adult tapeworms can measure up to 50 feet (15.2 meters) long and can survive as long as 20 years in a host. Some tapeworms attach themselves to the walls of the intestines, where they cause irritation or mild inflammation, while others may pass through to your stool and exit your body. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may put you at greater risk of tapeworm infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor hygiene.&lt;/strong&gt; Infrequent washing and bathing increases the risk of accidental transfer of contaminated matter to your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to livestock.&lt;/strong&gt; This is especially problematic in areas where human and animal feces are not disposed of properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Traveling to developing countries.&lt;/strong&gt; Infection occurs more frequently in areas with poor sanitation practices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating raw or undercooked meats.&lt;/strong&gt; Improper cooking may fail to kill tapeworm eggs and larvae contained in contaminated pork or beef.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in endemic areas.&lt;/strong&gt; In certain parts of the world, exposure to tapeworm eggs is more likely. For instance, your risk of coming into contact with eggs of the pork tapeworm (Taenia solium) is greater in areas of Latin America, China or Southeast Asia where free-range pigs are common.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intestinal tapeworm infections usually aren&apos;t complicated. The complications that do sometimes develop include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive blockage.&lt;/strong&gt; If tapeworms grow large enough, they can block your appendix, leading to infection (appendicits); your bile ducts, which carry bile from your liver and gallbladder to your intestine; or your pancreatic duct, which carries digestive fluids from your pancreas to your intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain and central nervous system impairment.&lt;/strong&gt; Called neurocysticercosis (noor-o-sis-tih-sur-KOE-sis), this especially dangerous complication of invasive pork tapeworm infection can result in headaches and visual impairment, as well as seizures, meningitis, hydrocephalus or dementia. Death can occur in severe cases of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Organ function disruption.&lt;/strong&gt; When larvae migrate to the liver, lungs or other organs, they become cysts. Over time, these cysts grow, sometimes large enough to crowd the functioning parts of the organ or reduce its blood supply. Tapeworm cysts sometimes rupture, releasing more larvae, which can move to other organs and form additional cysts. A ruptured or leaking cyst can cause an allergy-like reaction, with itching, hives, swelling and difficulty breathing. Surgery or organ transplantation may be needed in severe cases. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For a tapeworm infection, you might first see your primary physician. However, in some cases, he or she may refer you to a doctor who specializes in infectious diseases or a doctor who specializes in disorders of the gastrointestinal tract (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what you can expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent travel, especially to other countries. Tell your doctor if you believe you&apos;ve been exposed to food or water contaminated with tapeworm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For tapeworm infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need, if any?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor may ask that you bring a stool sample to your appointment for testing. Your doctor may also ask you questions about your condition, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently? To what areas?&lt;/li&gt;
+	&lt;li&gt;Could you have been exposed to food or drink contaminated with tapeworm?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you&apos;re waiting to see your doctor, try to stay well hydrated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose a tapeworm infection, your doctor may rely on one of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stool sample analysis.&lt;/strong&gt; For an intestinal tapeworm infection, your doctor may check your stool or send samples to a laboratory for testing. A laboratory uses microscopic identification techniques to check for eggs or tapeworm segments in your feces. Because the eggs and segments are passed irregularly, the lab may need to collect two to three samples over a period of time to detect the parasite. Eggs are sometimes present at the anus, so your doctor may use a piece of transparent adhesive tape pressed to the anus to collect eggs for microscopic identification.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; For tissue-invasive infections, your doctor may also test your blood for antibodies your body may have produced to fight tapeworm infection. The presence of these antibodies indicates tapeworm infestation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging exam.&lt;/strong&gt; Certain types of imaging, such as CT or MRI scans, X-rays or ultrasounds of cysts, may suggest invasive tapeworm infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with tapeworm infections never need treatment, for the tapeworm exits the body on its own. Others don&apos;t realize they have it because they have no symptoms. However, if you&apos;re diagnosed with intestinal tapeworm infection, medication will likely be prescribed to get rid of it. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for intestinal infections&lt;/strong&gt; &lt;br /&gt;
+The most common treatment for tapeworm infection involves oral medications that are toxic to the adult tapeworm, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Praziquantel (Biltricide)&lt;/li&gt;
+	&lt;li&gt;Albendazole (Albenza)&lt;/li&gt;
+	&lt;li&gt;Nitazoxanide (Alinia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Which medication your doctor prescribes depends on the species of tapeworm involved and the site of the infection. These drugs target the adult tapeworm, not the eggs, so it&apos;s important to avoid reinfecting yourself. Always wash your hands after using the toilet and before eating. 
+&lt;/p&gt;
+&lt;p&gt;
+To be certain that your tapeworm infection has cleared, your doctor will probably have your stool samples checked at certain intervals after you&apos;ve finished taking your medication. Successful treatment &amp;mdash; meaning that your stool is free of tapeworm eggs, larvae or proglottids &amp;mdash; is most likely if you receive appropriate treatment for the type of tapeworm causing your infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for invasive infections&lt;/strong&gt; &lt;br /&gt;
+Treating an invasive infection depends on the location and effects of the infection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anthelmintic drugs.&lt;/strong&gt; Albendazole (Albenza) can shrink some tapeworm cysts. Your doctor may monitor the cysts periodically using imaging studies such as ultrasound or X-ray to be sure the drug is effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-inflammatory therapy.&lt;/strong&gt; Dying tapeworm cysts can cause swelling or inflammation in tissues or organs, so your doctor may recommend prescription corticosteroid medication, such as prednisone or dexamethasone, to reduce inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-epileptic therapy.&lt;/strong&gt; If the disease is causing seizures, anti-epileptic medications can stop them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shunt placement.&lt;/strong&gt; One type of invasive infection can cause too much fluid on the brain, called hydrocephalus. Your doctor may recommend placing a permanent shunt, or tube, in your head to drain the fluid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Whether cysts can be removed surgically depends on their location and symptoms. Cysts that develop in the liver, lungs and eyes are typically removed, since they can eventually threaten organ function. Your doctor might recommend a drainage tube as an alternative to surgery. The tube allows aggressive rinsing (irrigation) of the area with anti-parasitic solutions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent tapeworm infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash your hands with soap and water before eating or handling food and after using the toilet.&lt;/li&gt;
+	&lt;li&gt;When traveling in areas where tapeworm is more common, wash and cook all fruits and vegetables with safe water before eating.&lt;/li&gt;
+	&lt;li&gt;Eliminate livestock exposure to tapeworm eggs by properly disposing of animal and human feces.&lt;/li&gt;
+	&lt;li&gt;Thoroughly cook meat at temperatures of at least 125 F (52 C) to kill tapeworm eggs or larvae.&lt;/li&gt;
+	&lt;li&gt;Freeze meat for at least 12 hours and fish for at least 24 hours to kill tapeworm eggs and larvae.&lt;/li&gt;
+	&lt;li&gt;Avoid eating raw or undercooked pork, beef and fish.&lt;/li&gt;
+	&lt;li&gt;Promptly treat dogs infected with tapeworm.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tapeworm infection
+	</Title>
+	<Abstract>
+		Tapeworm infection &amp;mdash; Comprehensive overview covers symptoms, treatments and complications of harboring these parasites.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

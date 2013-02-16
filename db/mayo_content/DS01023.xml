@@ -1,0 +1,434 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01023
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/complicated-grief/DS01023
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-29
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3776" Title="Complicated grief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3BA7BEF0-E7FF-0DBD-1D9EBEBA8524182D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				grief
+			</MetaKeyword>
+			<MetaKeyword>
+				grieving
+			</MetaKeyword>
+			<MetaKeyword>
+				complicated grief
+			</MetaKeyword>
+			<MetaKeyword>
+				stages of grief
+			</MetaKeyword>
+			<MetaKeyword>
+				grief stages
+			</MetaKeyword>
+			<MetaKeyword>
+				dealing with grief
+			</MetaKeyword>
+			<MetaKeyword>
+				complicated grief treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				complicated grief therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				traumatic grief
+			</MetaKeyword>
+			<MetaKeyword>
+				bereavement
+			</MetaKeyword>
+			<MetaKeyword>
+				mourning
+			</MetaKeyword>
+			<MetaKeyword>
+				grief support
+			</MetaKeyword>
+			<MetaKeyword>
+				grief counseling
+			</MetaKeyword>
+			<MetaKeyword>
+				grief recovery
+			</MetaKeyword>
+			<MetaKeyword>
+				grief process
+			</MetaKeyword>
+			<MetaKeyword>
+				effects of grief
+			</MetaKeyword>
+			<MetaKeyword>
+				grief support groups
+			</MetaKeyword>
+			<MetaKeyword>
+				grieving process
+			</MetaKeyword>
+			<MetaKeyword>
+				stages of grieving
+			</MetaKeyword>
+			<MetaKeyword>
+				maladaptive grief reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				grief reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				coping with grief
+			</MetaKeyword>
+			<MetaKeyword>
+				pathological grief
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal grief
+			</MetaKeyword>
+			<MetaKeyword>
+				atypical grief
+			</MetaKeyword>
+			<MetaKeyword>
+				pathological mourning
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic mourning
+			</MetaKeyword>
+			<MetaKeyword>
+				complicated bereavement
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Losing a loved one is one of the most distressing and, unfortunately, common experiences people face. Most people experiencing normal grief and bereavement have a period of sorrow, numbness, and even guilt and anger. Gradually these feelings ease, and it&apos;s possible to accept loss and move forward. 
+&lt;/p&gt;
+&lt;p&gt;
+For some people, feelings of loss are debilitating and don&apos;t improve even after time passes. This is known as complicated grief. In complicated grief, painful emotions are so long lasting and severe that you have trouble accepting the loss and resuming your own life. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have complicated grief, seek treatment. It can help you come to terms with your loss and reclaim a sense of acceptance and peace. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the first few months after a loss, many signs and symptoms of normal grief are the same as those of complicated grief. However, while normal grief symptoms gradually start to fade over a few months, those of complicated grief linger or get worse. Complicated grief is like being in a chronic, heightened state of mourning. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of complicated grief can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme focus on the loss and reminders of the loved one&lt;/li&gt;
+	&lt;li&gt;Intense longing or pining for the deceased&lt;/li&gt;
+	&lt;li&gt;Problems accepting the death&lt;/li&gt;
+	&lt;li&gt;Numbness or detachment&lt;/li&gt;
+	&lt;li&gt;Preoccupation with your sorrow&lt;/li&gt;
+	&lt;li&gt;Bitterness about your loss&lt;/li&gt;
+	&lt;li&gt;Inability to enjoy life&lt;/li&gt;
+	&lt;li&gt;Depression or deep sadness&lt;/li&gt;
+	&lt;li&gt;Trouble carrying out normal routines&lt;/li&gt;
+	&lt;li&gt;Withdrawing from social activities&lt;/li&gt;
+	&lt;li&gt;Feeling that life holds no meaning or purpose&lt;/li&gt;
+	&lt;li&gt;Irritability or agitation&lt;/li&gt;
+	&lt;li&gt;Lack of trust in others&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It&apos;s normal to experience grief after a significant loss. Most people who experience normal or uncomplicated grief can move forward eventually with support from family and friends. But if it&apos;s been several months or more since your loss and your emotions remain so intense or debilitating that you have trouble going about your normal routine, talk to your health care provider.
+&lt;/p&gt;
+&lt;p&gt;
+Specifically, you may benefit from professional help if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can focus on little else but your loved one&apos;s death&lt;/li&gt;
+	&lt;li&gt;Have persistent pining or longing for the deceased person&lt;/li&gt;
+	&lt;li&gt;Have thoughts of guilt or self-blame&lt;/li&gt;
+	&lt;li&gt;Believe that you did something wrong or could have prevented the death&lt;/li&gt;
+	&lt;li&gt;Feel as if life isn&apos;t worth living&lt;/li&gt;
+	&lt;li&gt;Have lost your sense of purpose in life&lt;/li&gt;
+	&lt;li&gt;Wish you had died along with your loved one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At times, people with complicated grief may consider suicide. If you&apos;re thinking about suicide, talk to someone you trust. If you think you may act on suicidal feelings, call 911 or your local emergency services number right away.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not known what causes complicated grief. As with many mental health disorders, it may involve an interaction between inherited traits, your environment, your body&apos;s natural chemical makeup and your personality. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers used to believe that all people moved through five specific stages of grief, in order. Today it&apos;s accepted that different people follow different paths through these experiences of grieving: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Accepting the reality of your loss&lt;/li&gt;
+	&lt;li&gt;Allowing yourself to experience the pain of your loss&lt;/li&gt;
+	&lt;li&gt;Adjusting to a new reality in which the deceased is no longer present&lt;/li&gt;
+	&lt;li&gt;Having other relationships&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may accomplish these in a different order or on a different timeline than another person grieving a similar loss. These differences are normal. But if you&apos;re unable to move through one or more of these stages after a considerable amount of time, you may have complicated grief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While it&apos;s not known specifically what causes complicated grief, researchers continue to learn more about the factors that may increase the risk of developing it. These risk factors may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An unexpected or violent death&lt;/li&gt;
+	&lt;li&gt;Suicide of a loved one&lt;/li&gt;
+	&lt;li&gt;Lack of a support system or friendships&lt;/li&gt;
+	&lt;li&gt;Traumatic childhood experiences, such as abuse or neglect&lt;/li&gt;
+	&lt;li&gt;Childhood separation anxiety&lt;/li&gt;
+	&lt;li&gt;Close or dependent relationship to the deceased person&lt;/li&gt;
+	&lt;li&gt;Being unprepared for the death&lt;/li&gt;
+	&lt;li&gt;Lack of resilience or adaptability to life changes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complicated grief can affect you physically, mentally and socially. Without appropriate treatment, these complications can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Suicidal thoughts or behaviors&lt;/li&gt;
+	&lt;li&gt;Increased risk of physical illness, including heart disease, cancer and high blood pressure&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Long-term difficulty with daily living&lt;/li&gt;
+	&lt;li&gt;Post-traumatic stress disorder&lt;/li&gt;
+	&lt;li&gt;Substance abuse&lt;/li&gt;
+	&lt;li&gt;Nicotine use, such as smoking&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your doctor if you&apos;ve recently lost a loved one and are feeling such profound disbelief, hopelessness or intense yearning for your loved one that you can&apos;t function in daily life, or if intense grief doesn&apos;t improve over time. 
+&lt;/p&gt;
+&lt;p&gt;
+After your initial appointment, your doctor may refer you to a mental health provider who can help diagnose your symptoms and provide a treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing,&lt;/strong&gt; and for how long. Your doctor will want to know the extent to which these symptoms are affecting your daily life, including work and personal relationships.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key personal information,&lt;/strong&gt; especially any additional major stress or change you&apos;ve experienced since your loved one died. For example, tell your doctor if you or someone close to you has had a serious illness since your loved one&apos;s death, or if you&apos;ve had significant family disruptions or financial problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all of your medical information,&lt;/strong&gt; including other physical or mental health conditions with which you&apos;ve been diagnosed. Also write down the names and dosages of any medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a trusted family member or friend to be present for your appointment,&lt;/strong&gt; if possible. Sometimes it can be difficult to take in all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor or mental health provider include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you think my symptoms are more severe than what&apos;s typical after a loved one&apos;s death?&lt;/li&gt;
+	&lt;li&gt;Do you think psychological counseling (psychotherapy) would help me?&lt;/li&gt;
+	&lt;li&gt;Are there local support groups or online support groups that might help me?&lt;/li&gt;
+	&lt;li&gt;Are medications available that could improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of those medications?&lt;/li&gt;
+	&lt;li&gt;What self-care steps are most likely to help me?&lt;/li&gt;
+	&lt;li&gt;How long do you expect it will take me to feel better with treatment?&lt;/li&gt;
+	&lt;li&gt;Will I eventually feel like myself again?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared in advance, don&apos;t hesitate to ask for more information at any time during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;A doctor or mental health provider who sees you for possible complicated grief may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do you think about your deceased loved one?&lt;/li&gt;
+	&lt;li&gt;Do you believe you could have prevented your loved one&apos;s death?&lt;/li&gt;
+	&lt;li&gt;Do you ever wish that you had died along with your loved one?&lt;/li&gt;
+	&lt;li&gt;Would you say you&apos;ve accepted that your loved one is gone?&lt;/li&gt;
+	&lt;li&gt;How well are you functioning in your daily life, including work, household maintenance and other relationships?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any other major stresses, changes or loss since your loved one died?&lt;/li&gt;
+	&lt;li&gt;Have you had trouble eating or sleeping since your loved one died?&lt;/li&gt;
+	&lt;li&gt;How much social support would you say you have, such as from relatives, friends or a church community?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for other psychiatric symptoms or mental illness in the past? If yes, what type of therapy was most beneficial?&lt;/li&gt;
+	&lt;li&gt;Have you ever thought about harming yourself or others?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol or use illegal drugs? If so, how often?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you&apos;re waiting for your doctor appointment, reach out to your friends or family. Talking about your feelings and asking for help is essential to healthy grieving.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complicated grief isn&apos;t a clear-cut disorder. It&apos;s not clear on exactly which signs and symptoms indicate a diagnosis of complicated grief. There are also many similarities between complicated grief and major depression, and researchers are working to clarify the key differences between these conditions. In some cases, clinical depression and complicated grief occur together. 
+&lt;/p&gt;
+&lt;p&gt;
+Some factors that may help identify complicated grief include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inability to trust others&lt;/li&gt;
+	&lt;li&gt;Emotional numbness or detachment from others&lt;/li&gt;
+	&lt;li&gt;A sense that life is now meaningless&lt;/li&gt;
+	&lt;li&gt;Belief that the future won&apos;t be fulfilling&lt;/li&gt;
+	&lt;li&gt;Agitation or jumpiness&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These symptoms sometimes occur during the normal process of grieving. In complicated grief, however, they show no signs of improvement over time. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s currently no consensus among mental health experts about how much time must pass, exactly, before complicated grief can be diagnosed. Some experts recommend diagnosing complicated grief when two or more months have passed without any improvement in symptoms, while others recommend waiting six or more months. While researchers continue to try to pin down a time frame for this diagnosis, their work is made challenging by the fact that grieving is a highly individual process. 
+&lt;/p&gt;
+&lt;p&gt;
+Rather than looking at the exact time period, a mental health provider is more likely to diagnose complicated grief based on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A lack of any improvement in your symptoms over time&lt;/li&gt;
+	&lt;li&gt;A significant impact on your ability to function in daily life&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complicated grief treatment hasn&apos;t been standardized because mental health providers are still learning about the condition. Your doctor or mental health provider will determine what treatment is likely to work best for you based on your particular symptoms and circumstances. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Complicated grief is sometimes treated with a type of psychological counseling (psychotherapy) called complicated grief therapy. It&apos;s similar to psychotherapy techniques used for post-traumatic stress disorder (PTSD). You may explore such topics as grief reactions, complicated grief symptoms, adjusting to your loss and redefining your life&apos;s goals. You may also hold imagined conversations with your loved one and retell the circumstances of the death to help you become less distressed by images and thoughts of your loved one. 
+&lt;/p&gt;
+&lt;p&gt;
+Other counseling approaches also may be effective. Therapy can help you explore and process emotions, improve coping skills, and reduce feelings of blame and guilt. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;There&apos;s little solid research on the use of psychiatric medications to treat complicated grief. However, antidepressants may be helpful in people who have clinical depression as well as complicated grief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s important to get professional treatment for complicated grief, you can take steps on your own to cope, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Take medications as directed and attend therapy appointments as scheduled.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Physical exercise helps relieve depression, stress and anxiety and can redirect your mind to the activity at hand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Get enough rest, eat a balanced diet and take time to relax. Don&apos;t turn to alcohol or illegal drugs for relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reach out to your faith community.&lt;/strong&gt; If you follow religious practices or traditions, you may gain comfort from rituals or guidance from a spiritual leader.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice stress management.&lt;/strong&gt; Learn how to better manage stress. Unmanaged stress can lead to depression, overeating, or other unhealthy thoughts and behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Socialize.&lt;/strong&gt; Stay connected with people you enjoy being around. They can offer support, a shoulder to cry on or a joke to give you a little boost.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan ahead for special dates or anniversaries.&lt;/strong&gt; Holidays, anniversaries and special occasions can trigger painful reminders of your loved one. Find new ways to celebrate or acknowledge your loved one that provide you comfort and hope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn new skills.&lt;/strong&gt; If you were highly dependent on your loved one, perhaps to handle the cooking or finances, for example, try to master these tasks yourself. Ask family, friends or professionals for guidance, if necessary. Seek out community classes and resources, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; You may not be ready to join a support group immediately after your loss, but over time you may find shared experiences comforting and you may form meaningful new relationships.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear how to prevent complicated grief. Participating in a brief course of counseling or psychotherapy soon after a loss may help, especially for people at increased risk of developing complicated grief. In addition, caregivers providing end-of-life care for a loved one may benefit from counseling and support to help prepare for death and its emotional aftermath.
+&lt;/p&gt;
+&lt;p&gt;
+Through early counseling, you can explore emotions surrounding your loss and learn healthy coping skills. This may help prevent negative beliefs about your loss from gaining such a strong hold that they&apos;re difficult to overcome. Talking about your grief and allowing yourself to cry also will help prevent you from getting stuck in your sadness. As painful as it is, trust that in most cases, your pain will start to lift if you allow yourself to feel it. 
+&lt;/p&gt;
+&lt;p&gt;
+Family members, friends, group therapy and social support groups are all good options to help you work through your grief. You may be able to find a support group focused on a particular type of loss, such as death of a spouse or a child. Ask your doctor to recommend local resources. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Complicated grief
+	</Title>
+	<Abstract>
+		Complicated grief &amp;mdash; Comprehensive overview covers symptoms, treatment and coping skills.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="SR00043" LinkType="Internal" ObjectID="D966FE05-E7FF-0DBD-144FAEB77B9F567A" Title="Denial: When it helps, when it hurts" Url="http://www.mayoclinic.com/health/denial/SR00043" />
+		<LinkItem ContentType="Article" DocID="MY02337" LinkType="Internal" ObjectID="B3B298AB-D50E-91B3-61078FD26905C7DC" Title="Dealing with grief: Confronting painful emotions" Url="http://www.mayoclinic.com/health/grief/MY02337" />
+		<LinkItem ContentType="Article" DocID="MH00042" LinkType="Internal" ObjectID="0D9E914C-486D-425E-A823B1FC0A2EB794" Title="Mental health: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/mental-health/MH00042" />
+	</RelatedLinksBox>
+</Disease>

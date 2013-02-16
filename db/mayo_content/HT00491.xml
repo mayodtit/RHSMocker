@@ -1,0 +1,67 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00491
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00491
+		</OriginalURL>
+		<UpdateDate>
+			2010-06-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1100" Title="Aerobic exercise" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			86464C82-E7FF-0DBD-10E4CC07A11187A0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				walking
+			</MetaKeyword>
+			<MetaKeyword>
+				pedometer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Want to step it up? Try a pedometer
+	</Title>
+	<Body>
+		&lt;p&gt;Want to get more active and fit? Use a pedometer! You can buy inexpensive pedometers at most fitness and sporting goods stores. Once you have your pedometer, set a goal, such as increasing your number of steps a day to reach a goal of 10,000 steps each day. The simple process of counting and recording your steps may help you increase your physical activity.&lt;/p&gt;
+	</Body>
+</HealthTip>

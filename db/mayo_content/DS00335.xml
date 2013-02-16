@@ -1,0 +1,354 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00335
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dermatomyositis/DS00335
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2726" Title="Dermatomyositis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7ABE73D8-D64C-4B89-B9DE96D76F6BBFE7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dermatomyositis
+			</MetaKeyword>
+			<MetaKeyword>
+				polymyositis
+			</MetaKeyword>
+			<MetaKeyword>
+				connective tissue
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle weakness
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				myopathies
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammatory myopathies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermatomyositis (dur-muh-toe-mi-uh-SI-tis) is an uncommon inflammatory disease marked by muscle weakness and a distinctive skin rash. Medically, polymyositis is classified as a chronic inflammatory myopathy &amp;mdash; one of only three such diseases.
+&lt;/p&gt;
+&lt;p&gt;
+Dermatomyositis affects adults and children alike. In adults, dermatomyositis usually occurs from the late 40s to early 60s; in children, the disease most often appears between 5 and 15 years of age. Dermatomyositis affects more females than males.
+&lt;/p&gt;
+&lt;p&gt;
+Periods of remission, when symptoms of dermatomyositis improve spontaneously, may occur. Treatment can clear the skin rash and help you regain muscle strength and function.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common signs and symptoms of dermatomyositis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin changes.&lt;/strong&gt; A violet-colored or dusky red rash develops, most commonly on your face and eyelids and on areas around your nails, knuckles, elbows, knees, chest and back. The rash, which can be patchy with bluish-purple discolorations, is often the first sign of dermatomyositis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle weakness.&lt;/strong&gt; Progressive muscle weakness involves the muscles closest to the trunk, such as those in your hips, thighs, shoulders, upper arms and neck. The weakness is symmetrical, affecting both the left and right sides of your body, and tends to gradually worsen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other dermatomyositis signs and symptoms that may occur include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty swallowing (dysphagia)&lt;/li&gt;
+	&lt;li&gt;Muscle pain or tenderness&lt;/li&gt;
+	&lt;li&gt;Fatigue, fever and weight loss&lt;/li&gt;
+	&lt;li&gt;Hardened deposits of calcium under the skin (calcinosis), especially in children &lt;/li&gt;
+	&lt;li&gt;Gastrointestinal ulcers and intestinal perforations, also more common in children&lt;/li&gt;
+	&lt;li&gt;Lung problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you develop signs and symptoms associated with dermatomyositis, see your doctor for an evaluation and diagnosis. If you&apos;ve already been diagnosed with the condition, contact your doctor if new symptoms occur or if existing symptoms worsen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of dermatomyositis is unknown, but the disease shares many characteristics with autoimmune disorders, in which your immune system attacks normal body components. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your immune system works to protect your healthy cells from attacks by foreign substances, such as bacteria and viruses. If you have polymyositis, an unknown cause may act as a trigger for your immune system to begin producing autoimmune antibodies (autoantibodies) that attack your body&apos;s own tissues. Many people with polymyositis show a detectable level of autoantibodies in their blood.
+&lt;/p&gt;
+&lt;p&gt;
+Small blood vessels in muscular tissue are particularly affected in dermatomyositis. Inflammatory cells surround the blood vessels and eventually lead to degeneration of muscle fibers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of dermatomyositis include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Muscle weakness complications&lt;br /&gt;
+&lt;/strong&gt;Dermatomyositis muscle weakness can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty swallowing.&lt;/strong&gt; If the muscles in your esophagus are affected, you may have problems swallowing (dysphagia), which in turn may cause weight loss and malnutrition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspiration pneumonia.&lt;/strong&gt; Difficulty swallowing may also cause you to breathe (aspirate) food or liquids, including saliva, into your lungs, which can lead to pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; If your chest muscles are affected by the disease, you may experience breathing problems, such as shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastrointestinal problems.&lt;/strong&gt; Ulcers may form and bleeding can occur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin symptom complications&lt;br /&gt;
+&lt;/strong&gt;Problems associated with dermatomyositis that can affect your skin include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium deposits.&lt;/strong&gt; Deposits of calcium can occur in your muscles, skin and connective tissues (calcinosis) as the disease progresses. These deposits develop earlier and are more common in children with dermatomyositis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Dermatomyositis puts you at increased risk of infections, particularly of the respiratory and digestive tracts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Associated conditions&lt;br /&gt;
+&lt;/strong&gt;Dermatomyositis may cause other conditions, or put you at higher risk of developing them. These conditions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Raynaud&apos;s phenomenon.&lt;/strong&gt; This is a condition in which your fingers, toes, cheeks, nose and ears turn pale when exposed to cold temperatures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other connective tissue diseases.&lt;/strong&gt; Other conditions, such as lupus, rheumatoid arthritis, scleroderma and Sjogren&apos;s syndrome, can occur in combination with dermatomyositis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; Dermatomyositis may cause the muscle of your heart to become inflamed (myocarditis). In a small number of people who have dermatomyositis, congestive heart failure and heart arrhythmias may develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung disease.&lt;/strong&gt; A condition called interstitial lung disease may occur with dermatomyositis. Interstitial lung disease refers to a group of disorders that cause scarring (fibrosis) of lung tissue, making lungs stiff and inelastic. Signs and symptoms include a dry cough and shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Dermatomyositis in adults has been linked to an increased likelihood of developing cancer, particularly of the cervix, lungs, pancreas, breasts, ovaries and gastrointestinal tract. Risk of cancer increases with age, although it appears to level off three years or so after a diagnosis of dermatomyositis. The diagnosis of cancer may also happen before you develop dermatomyositis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Concerns during pregnancy&lt;br /&gt;
+&lt;/strong&gt;Pregnancy may worsen signs and symptoms in women with active disease. Active dermatomyositis can also increase the risk of premature birth or stillbirth. If the disease is in remission, the risk isn&apos;t as great.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your symptoms to the attention of your family doctor, who may refer you to a rheumatologist &amp;mdash; a doctor who specializes in the treatment of arthritis and other diseases of the joints, muscles and bone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;When you go in to see your doctor, be sure to have a record of your symptoms. Although it may be difficult to pinpoint when symptoms started, try to estimate when your symptoms first started and which parts of your body are affected. You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions ahead of time to help make the most of your limited time with your doctor. For dermatomyositis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are my symptoms likely to change over time?&lt;/li&gt;
+	&lt;li&gt;What kind of tests might I need? Are any special preparations required?&lt;/li&gt;
+	&lt;li&gt;Are treatments available for my condition? What treatments do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared in advance, don&apos;t hesitate to ask your doctor questions during your appointment if you think of something new. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will likely ask you several questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Did your condition developing gradually or did it come on suddenly?&lt;/li&gt;
+	&lt;li&gt;Are you easily fatigued during waking hours?&lt;/li&gt;
+	&lt;li&gt;What other symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Does your condition limit your activities?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with a disease or condition that affects the muscles?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications or dietary supplements?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermatomyositis is the most easily recognized of the inflammatory muscle diseases because of its characteristic rash. Occasionally, a rash alone may prompt a diagnosis of dermatomyositis (called amyopathic dermatomyositis), even if you don&apos;t have any muscle weakness. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to assessing your signs and symptoms, your doctor may use other tests to confirm a diagnosis of dermatomyositis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; A scanner creates cross-sectional images of your muscles from data generated by a powerful magnetic field and radio waves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography.&lt;/strong&gt; A doctor with specialized training inserts a thin needle electrode through the skin into the muscle to be tested. Electrical activity is measured as you relax or tighten the muscle, and changes in the pattern of electrical activity can confirm a muscle disease. The doctor can determine the distribution of the disease by testing different muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle biopsy.&lt;/strong&gt; A small piece of muscle tissue is removed surgically for laboratory analysis. In dermatomyositis, inflammatory cells surround and damage the capillary blood vessels in the muscle. A muscle biopsy may reveal inflammation in your muscles or other problems, like damage or infection. The tissue sample can also be examined for the presence of abnormal proteins and checked for enzyme deficiencies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood analysis.&lt;/strong&gt; A blood test will let your doctor know if you have elevated levels of muscle enzymes, such as creatine kinase (CK) and aldolase. Increased CK and aldolase levels can indicate muscle damage. A blood test can also detect specific autoantibodies associated with different symptoms of dermatomyositis, which can help in determining the best medication and treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; A small piece of skin is removed for laboratory analysis. The skin sample can confirm the diagnosis of dermatomyositis and rule out other disorders, such as lupus. If the skin biopsy confirms the diagnosis, a muscle biopsy may not be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for dermatomyositis, but treatment can improve your skin and your muscle strength and function. The earlier treatment is started in the course of dermatomyositis, the more effective it is, leading to fewer complications. 
+&lt;/p&gt;
+&lt;p&gt;
+However, as with many conditions, no single approach is best; your doctor will tailor your treatment strategy based on your symptoms and how well they respond to therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;br /&gt;
+&lt;/strong&gt;For most people, the first step in treatment for dermatomyositis is to take a corticosteroid medication. Usually for dermatomyositis, the chosen medication is prednisone. 
+&lt;/p&gt;
+&lt;p&gt;
+Corticosteroids are medications that suppress your immune system, limiting the production of antibodies and reducing muscle inflammation, as well as improving muscle strength and function. Your doctor may also prescribe topical corticosteroids for your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may prescribe a high dose to begin with, and then decrease it as your signs and symptoms improve. Improvement generally takes about two to four weeks, but you may take the medication for several months. Prolonged use of corticosteroids can have serious and wide-ranging side effects, which is why your doctor may gradually taper the dose of medication down to low levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the potential for serious side effects, your doctor may recommend supplements to combat them, such as calcium and vitamin D. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional immunosuppressive therapies&lt;br /&gt;
+&lt;/strong&gt;If a corticosteroid medication doesn&apos;t seem to be working effectively in your case, as a secondary approach your doctor may recommend that you add or switch to another medication: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid-sparing agents.&lt;/strong&gt; When used in combination with a corticosteroid, a corticosteroid-sparing medication can decrease the dose and potential side effects of the corticosteroid. These medications include azathioprine (Azasan, Imuran) or methotrexate (Trexall, Methotrexate, Rheumatrex). Your doctor may prescribe azathioprine or methotrexate initially along with prednisone if your disease is very progressive or if you have complicating factors. Some doctors prescribe these medications as a first line treatment for people in whom corticosteroids aren&apos;t recommended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous immunoglobulin (IVIG).&lt;/strong&gt; IVIG is a purified blood product that contains healthy antibodies from thousands of blood donors. The healthy antibodies in IVIG can block the damaging antibodies that attack muscle and skin in dermatomyositis. This treatment is given as an infusion through a vein. The effects of IVIG are beneficial but don&apos;t last very long. Repeat infusions every six to eight weeks are often necessary.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Other immunosuppressive medicine.&lt;/strong&gt; Tacrolimus (Prograf) is a transplant-rejection drug that may work to inhibit the immune system. Tacrolimus is often used topically to treat dermatomyositis and other skin problems. When taken orally, it may be helpful in treating people who have dermatomyositis complicated by interstitial lung disease. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Immunosuppressants, such as cyclophosphamide (Cytoxan) and cyclosporine (Gengraf, Neoral, Sandimmune), may improve signs and symptoms of dermatomyositis and interstitial lung disease. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biological therapies&lt;br /&gt;
+&lt;/strong&gt;If your case is severe and other treatment options have failed, your doctor may recommend one of these investigational medications as a third line approach to treating dermatomyositis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rituximab (Rituxan)&lt;/strong&gt; has been studied in small numbers of people with polymyositis and dermatomyositis and shown to improve muscle strength, lung involvement and skin rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor necrosis factor (TNF) inhibitors,&lt;/strong&gt; such as etanercept (Enbrel) and infliximab (Remicade), are medicines that target key proteins associated with inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, there aren&apos;t many scientific studies to date about the effectiveness of these agents on dermatomyositis. If your doctor prescribes one of these medications, he or she will closely monitor you to make sure the medication is working and to check for side effects. These medications can be expensive and, because they&apos;re experimental for treating dermatomyositis, may not be covered by insurance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatment approaches&lt;br /&gt;
+&lt;/strong&gt;Other treatment options your doctor might recommend include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antimalarial medications.&lt;/strong&gt; For a persistent rash, your doctor may prescribe an antimalarial medication, such as hydroxychloroquine (Plaquenil) or chloroquine (Aralen).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Over-the-counter drugs such as aspirin, ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others) can be used to treat pain. If these aren&apos;t sufficient, your doctor may prescribe a stronger pain reliever, such as codeine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; A physical therapist can show you exercises to maintain and improve your strength and flexibility and advise an appropriate level of activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech therapy.&lt;/strong&gt; If your swallowing muscles are weakened by dermatomyositis, speech therapy can help you learn how to compensate for those changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dietetic assessment.&lt;/strong&gt; Later in the course of dermatomyositis, chewing and swallowing can become more difficult. A registered dietitian can teach you how to prepare easy-to-eat foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Surgery may be an option to remove painful calcium deposits and prevent recurrent skin infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With dermatomyositis, areas affected by your rash are more sensitive to the sun. As a precaution, wear protective clothing or high-protection sunscreen when you go out.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic autoimmune disease can make you wonder at times whether you&apos;re up to the challenge. To help you cope, try supplementing your medical care with the following suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know your illness.&lt;/strong&gt; Read all you can about dermatomyositis and other muscle and autoimmune disorders. Talk to other people who have a similar condition. Don&apos;t be afraid to ask your doctor any questions that you may have concerning your illness, diagnosis or treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be a part of your medical team.&lt;/strong&gt; Consider yourself, your doctor and any other medical experts involved as a united front in the fight against your disease. Following the treatment plan you agreed to is vital. Keep your doctor updated on any new signs or symptoms you may experience.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get active.&lt;/strong&gt; Maintaining an exercise routine can help you maintain and build your muscle strength. Just be sure that you get a detailed plan and recommendations from your doctor or physical therapist before starting an exercise program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest when you&apos;re tired.&lt;/strong&gt; Don&apos;t wait until you&apos;re exhausted. This will only set you back further as your body tries to recuperate. Learning to pace yourself can help you maintain a consistent level of energy, accomplish just as much and feel better emotionally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acknowledge your emotions.&lt;/strong&gt; Denial, anger and frustration are normal feelings when you must deal with an illness. Things don&apos;t seem normal or fair and likely seem out of your control. Feelings of fear and isolation are common, so stay close to your family and friends. Try to maintain your daily routine as best you can and don&apos;t neglect doing those things you enjoy. Many people find support groups to be a helpful resource.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dermatomyositis
+	</Title>
+	<Abstract>
+		Dermatomyositis &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this inflammatory muscle disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,321 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00568
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/actinic-keratosis/DS00568
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-07
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2967" Title="Actinic keratoses" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F62EE382-1FF5-4C71-AC602F42B384F542
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				actinic keratosis
+			</MetaKeyword>
+			<MetaKeyword>
+				actinic keratoses
+			</MetaKeyword>
+			<MetaKeyword>
+				skin cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				solar keratosis
+			</MetaKeyword>
+			<MetaKeyword>
+				solar keratoses
+			</MetaKeyword>
+			<MetaKeyword>
+				sun exposure
+			</MetaKeyword>
+			<MetaKeyword>
+				squamous cell carcinoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An actinic keratosis (ak-TIN-ik ker-uh-TOE-sis) is a rough, scaly patch on your skin that develops from years of exposure to the sun. It&apos;s most commonly found on your face, lips, ears, back of your hands, forearms, scalp or neck &amp;mdash; areas of skin typically exposed to the sun. 
+&lt;/p&gt;
+&lt;p&gt;
+An actinic keratosis, also known as solar keratosis, enlarges slowly and usually causes no signs or symptoms other than a patch or small spot on your skin. An actinic keratosis takes years to develop, usually first appearing in older adults. Many doctors consider an actinic keratosis to be precancerous because it can develop into skin cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+You can reduce your risk of actinic keratosis by minimizing your sun exposure and protecting your skin from ultraviolet (UV) rays. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing an actinic keratosis 
+" Caption="Actinic keratoses are characterized by one or more scaly spots or patches on the top layer of skin. With time the spots or patches may become hard with a wart-like surface. 
+" Height="60" Title="Actinic keratosis" URI="/images/image_popup/thumbs/sn7_actinic_keratosisthu.jpg" Width="60" />
+				<Image Alt="Image showing an actinic keratosis 
+" Caption="Actinic keratoses are characterized by one or more scaly spots or patches on the top layer of skin. With time the spots or patches may become hard with a wart-like surface. 
+" Height="216" Title="Actinic keratosis" URI="/images/image_popup/sn7_actinic_keratosis.jpg" Width="320" />
+				<HTML>
+					Actinic keratoses are characterized by one or more scaly spots or patches on the top layer of skin. With time the spots or patches may become hard with a wart-like surface. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of an actinic keratosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rough, dry or scaly patch of skin, usually less than 1 inch (2.5 centimeters) in diameter&lt;/li&gt;
+	&lt;li&gt;Flat to slightly raised patch or bump on the top layer of skin&lt;/li&gt;
+	&lt;li&gt;In some cases, a hard, wart-like surface&lt;/li&gt;
+	&lt;li&gt;Color ranging from pink to red to brown, or flesh-colored&lt;/li&gt;
+	&lt;li&gt;Itching or burning in the affected area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Actinic keratoses are found primarily on areas exposed to the sun, including your face, lips, ears, back of your hands, forearms, scalp and neck. 
+&lt;/p&gt;
+&lt;p&gt;
+An actinic keratosis sometimes resolves on its own, but typically returns again after additional sun exposure. If just scratched or picked off, an actinic keratosis will return. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Because it can be difficult to distinguish between noncancerous spots and cancerous ones, it&apos;s best to have new skin changes evaluated by a doctor, especially if a spot or lesion persists, grows or bleeds. See your doctor or ask for a referral to a dermatologist if a skin lesion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is painful&lt;/li&gt;
+	&lt;li&gt;Itches or burns&lt;/li&gt;
+	&lt;li&gt;Oozes or bleeds&lt;/li&gt;
+	&lt;li&gt;Becomes scaly or crusty&lt;/li&gt;
+	&lt;li&gt;Changes in size, shape, color or elevation&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing an actinic keratosis 
+" Caption="Actinic keratoses are characterized by one or more scaly spots or patches on the top layer of skin. With time the spots or patches may become hard with a wart-like surface. 
+" Height="60" Title="Actinic keratosis" URI="/images/image_popup/thumbs/sn7_actinic_keratosisthu.jpg" Width="60" />
+				<Image Alt="Image showing an actinic keratosis 
+" Caption="Actinic keratoses are characterized by one or more scaly spots or patches on the top layer of skin. With time the spots or patches may become hard with a wart-like surface. 
+" Height="216" Title="Actinic keratosis" URI="/images/image_popup/sn7_actinic_keratosis.jpg" Width="320" />
+				<HTML>
+					Actinic keratoses are characterized by one or more scaly spots or patches on the top layer of skin. With time the spots or patches may become hard with a wart-like surface. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frequent or intense exposure to UV rays, typically from the sun, causes an actinic keratosis. 
+&lt;/p&gt;
+&lt;p&gt;
+An actinic keratosis begins in your skin&apos;s top layer &amp;mdash; the epidermis. The epidermis is as thin as a pencil line, and it provides a protective layer of skin cells that your body continually sheds. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, skin cells within the epidermis develop in a controlled and orderly way. In general, healthy new cells push older cells toward the skin&apos;s surface, where they die and eventually are sloughed off. When skin cells are damaged through UV radiation, changes occur in the skin&apos;s texture and color, causing blotchiness and bumps or lesions. 
+&lt;/p&gt;
+&lt;p&gt;
+Most of the damage to skin cells results from exposure to UV radiation from sunlight and commercial tanning lamps and beds. The damage adds up over time, so the more time you spend in the sun or in a tanning booth, the greater your chance of developing skin cancer. Your risk increases even more if most of your outdoor exposure occurs at times of the day or in locations where the sunlight is most intense. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing basic skin layers 
+" Caption="Frequent or intense sun exposure damages cells in the skin&apos;s top layer &amp;mdash; the epidermis &amp;mdash; causing actinic keratoses. 
+" Height="60" Title="Basic skin layers" URI="/images/image_popup/thumbs/sn7_basicskinlayersthu.jpg" Width="60" />
+				<Image Alt="Illustration showing basic skin layers 
+" Caption="Frequent or intense sun exposure damages cells in the skin&apos;s top layer &amp;mdash; the epidermis &amp;mdash; causing actinic keratoses. 
+" Height="326" Title="Basic skin layers" URI="/images/image_popup/sn7_basicskinlayers.jpg" Width="400" />
+				<HTML>
+					Frequent or intense sun exposure damages cells in the skin&apos;s top layer &amp;mdash; the epidermis &amp;mdash; causing actinic keratoses. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop actinic keratoses, you may be more likely to develop the condition if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are over age 40&lt;/li&gt;
+	&lt;li&gt;Live in a sunny climate&lt;/li&gt;
+	&lt;li&gt;Have a history of frequent or intense sun exposure or sunburn&lt;/li&gt;
+	&lt;li&gt;Have pale skin, red or blond hair, and blue or light-colored eyes&lt;/li&gt;
+	&lt;li&gt;Tend to freckle or burn when exposed to sunlight&lt;/li&gt;
+	&lt;li&gt;Have a personal history of an actinic keratosis or skin cancer&lt;/li&gt;
+	&lt;li&gt;Have a weak immune system as a result of chemotherapy, chronic leukemia, AIDS or organ transplant medications&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If treated early, almost all actinic keratoses can be eliminated before developing into skin cancer. However, if left untreated some of these spots or patches may progress to squamous cell carcinoma, a serious form of skin cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+An actinic keratosis may be the earliest form of squamous cell carcinoma. This type of cancer usually isn&apos;t life-threatening if detected and treated early. In a few cases, however, squamous cell carcinoma can grow to be large and invade surrounding tissues, with some even spreading (metastasizing) to other parts of your body.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care doctor. However, in some cases when you call to set up an appointment, you may be referred directly to a specialist in skin diseases (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your appointment. List your questions from most important to least important in case time runs out. For actinic keratoses, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What suspicious changes in my skin should I look for?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up should I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask follow-up questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Questions your doctor may ask you include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the lesions?&lt;/li&gt;
+	&lt;li&gt;Have you noticed multiple lesions?&lt;/li&gt;
+	&lt;li&gt;Is the condition bothersome?&lt;/li&gt;
+	&lt;li&gt;Have you experienced frequent or severe sunburns?&lt;/li&gt;
+	&lt;li&gt;How often are you exposed to sun or UV radiation?&lt;/li&gt;
+	&lt;li&gt;Do you regularly protect your skin from UV radiation?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose actinic keratoses by inspecting the skin. If there&apos;s any doubt, your doctor may do other tests, such as a skin biopsy. During a skin biopsy, your doctor takes a small sample of your skin (biopsy) for analysis in a lab. A biopsy can usually be done in a doctor&apos;s office using a local anesthetic. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s impossible to tell exactly which patches or lesions will develop into skin cancer. Therefore, actinic keratoses are usually removed as a precaution. Your doctor can discuss with you which treatment is appropriate for you. With most of these procedures, the treated area takes a few days to several weeks to heal. 
+&lt;/p&gt;
+&lt;p&gt;
+Actinic keratosis treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing (cryotherapy).&lt;/strong&gt; An extremely cold substance, such as liquid nitrogen, is applied to skin lesions. The substance freezes the skin surface, causing blistering or peeling. As your skin heals, the lesions slough off, allowing new skin to appear. This is the most common treatment, takes only a few minutes and can be performed in your doctor&apos;s office. Side effects may include blisters, scarring, changes to skin texture, infection and darkening of the skin at the site of treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scraping (curettage).&lt;/strong&gt; In this procedure, your surgeon uses a device called a curet to scrape off damaged cells. Scraping may be followed by electrosurgery, in which a pencil-shaped instrument is used to cut and destroy the affected tissue with an electric current. This procedure requires a local anesthetic. Side effects may include infection, scarring and changes in skin coloration at the site of treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Creams or ointments.&lt;/strong&gt; Some topical medications contain fluorouracil (Carac, Fluoroplex, Efudex), a chemotherapy drug. The medication destroys actinic keratosis cells by blocking essential cellular functions within them. Another treatment option is imiquimod (Aldara), a topical cream that modifies the skin&apos;s immune system to stimulate your body&apos;s own rejection of precancerous cells. Diclofenac gel (Voltaren, Solaraze), a nonsteroidal anti-inflammatory topical drug, may help, too. Side effects may include skin irritation such as pain, itching, stinging or burning sensation, crusting, and sensitivity to sun exposure at the site of treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical peeling.&lt;/strong&gt; This involves applying one or more chemical solutions &amp;mdash; trichloroacetic acid (Tri-Chlor), for example &amp;mdash; to the lesions. The chemicals cause your skin to blister and eventually peel, allowing new skin to form. Skin peeling usually lasts for five to seven days. Other side effects may include stinging or burning sensation, redness, crusting, changes in skin coloration, infections and, rarely, scarring. This procedure may not be covered by insurance, as it&apos;s often considered cosmetic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Photodynamic therapy.&lt;/strong&gt; With this procedure, an agent that makes your damaged skin cells sensitive to light (photosensitizing agent) is either injected or applied topically. Your skin is then exposed to intense laser light to destroy the damaged skin cells. Side effects may include redness, swelling and a burning sensation during therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser therapy.&lt;/strong&gt; A special laser is used to precisely remove the actinic keratoses and the affected skin underneath. Local anesthesia is often used to make the procedure more comfortable. Some pigment loss and scarring may result from laser therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dermabrasion.&lt;/strong&gt; In this procedure, the affected skin is removed using a rapidly moving brush. Local anesthetic is used to make the procedure more tolerable. The procedure leaves skin red and raw-looking. It takes several months for the skin to heal, but the new skin generally appears smoother.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor about your treatment options. The procedures have various advantages and disadvantages, including side effects, risk of scarring, and the number of treatment sessions required. Afterward you&apos;ll likely have regular follow-up visits to check for new patches or lesions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prevention of actinic keratoses is important because this condition can be precancerous or an early form of skin cancer. Sun safety is necessary to help prevent development and recurrence of patches and lesions caused by an actinic keratosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Take these steps to protect your skin from the sun: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your time in the sun.&lt;/strong&gt; Avoid staying in the sun so long that you get a sunburn or a suntan. Both result in skin damage that can increase your risk of developing actinic keratoses and skin cancer. Sun exposure accumulated over time may also cause an actinic keratosis. Set time limits when at the pool or beach or when you&apos;re spending time outdoors in the winter. Snow, water and ice all reflect and intensify the sun&apos;s harmful rays, and UV rays are most intense between 10 a.m. and 4 p.m. Clouds block only a small portion of UV radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen.&lt;/strong&gt; Regular use of sunscreen reduces the development of actinic keratoses. Before spending time outdoors, apply a broad-spectrum sunscreen with a sun protection factor (SPF) of at least 30. Use sunscreen on all exposed skin, including your lips. Apply sunscreen 20 minutes before sun exposure and reapply it every two hours or more often if you swim or sweat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up.&lt;/strong&gt; For extra protection from the sun, wear tightly woven clothing that covers your arms and legs and a broad-brimmed hat, which provides more protection than does a baseball cap or golf visor. You might also consider wearing clothing or outdoor gear specially designed to provide sun protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tanning beds and tan-accelerating agents.&lt;/strong&gt; Tanning beds emit ultraviolet A (UVA) rays, which are often touted as less dangerous than are ultraviolet B (UVB) rays. But UVA light penetrates deeper into your skin, causes actinic keratoses and increases your risk of skin cancer. Sunless tanning lotions or bronzing lotions that produce a tanned look without sun exposure are a safe choice, if you continue to use sunscreen when outdoors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your skin regularly and report changes to your doctor.&lt;/strong&gt; Examine your skin regularly, looking for the development of new skin growths or changes in existing moles, freckles, bumps and birthmarks. With the help of mirrors, check your face, neck, ears and scalp. Examine the tops and undersides of your arms and hands.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Actinic keratosis
+	</Title>
+	<Abstract>
+		Actinic keratosis &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of a potentially precancerous skin patch.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02019" LinkType="Internal" ObjectID="A17FD5F4-0368-EB6D-C682D15494E9D436" Title="Chemical peel" Url="http://www.mayoclinic.com/health/chemical-peel/MY02019" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02017" LinkType="Internal" ObjectID="A17AC65B-B476-506E-F9A111DA92E98CA4" Title="Dermabrasion" Url="http://www.mayoclinic.com/health/dermabrasion/MY02017" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+	</RelatedLinksBox>
+</Disease>

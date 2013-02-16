@@ -1,0 +1,293 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01156
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polyhydramnios/DS01156
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4488" Title="Polyhydramnios" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E220BEBA-9168-96EB-DF32C65DCEFED58E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polyhydramnios
+			</MetaKeyword>
+			<MetaKeyword>
+				polyhydramnios causes
+			</MetaKeyword>
+			<MetaKeyword>
+				causes of polyhydramnios
+			</MetaKeyword>
+			<MetaKeyword>
+				excess amniotic fluid
+			</MetaKeyword>
+			<MetaKeyword>
+				hydramnios
+			</MetaKeyword>
+			<MetaKeyword>
+				too much amniotic fluid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polyhydramnios (pol-ee-hy-DRAM-nee-os) is the excessive accumulation of amniotic fluid &amp;mdash; the fluid that surrounds the baby in the uterus during pregnancy. Polyhydramnios occurs in about 1 percent of pregnancies.
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of polyhydramnios are mild and result from a gradual buildup of amniotic fluid during the second half of pregnancy. Severe polyhydramnios may cause shortness of breath, preterm labor or other signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with polyhydramnios, your health care provider will carefully monitor your pregnancy to help prevent complications. Treatment depends on the severity of the condition. Mild polyhydramnios may go away on its own. Severe polyhydramnios may require treatment, such as draining the excess amniotic fluid.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing polyhydramnios during pregnancy 
+" Caption="In polyhydramnios, excessive amniotic fluid accumulates in the uterus during pregnancy. Mild cases of polyhydramnios may go away on their own. Severe cases may require treatment. 
+" Height="60" Title="Polyhydramnios during pregnancy" URI="/images/image_popup/thumbs/mcdc7_polyhydramnios_pregnancythu.jpg" Width="60" />
+				<Image Alt="Illustration showing polyhydramnios during pregnancy 
+" Caption="In polyhydramnios, excessive amniotic fluid accumulates in the uterus during pregnancy. Mild cases of polyhydramnios may go away on their own. Severe cases may require treatment. 
+" Height="401" Title="Polyhydramnios during pregnancy" URI="/images/image_popup/mcdc7_polyhydramnios_pregnancy.jpg" Width="400" />
+				<HTML>
+					In polyhydramnios, excessive amniotic fluid accumulates in the uterus during pregnancy. Mild cases of polyhydramnios may go away on their own. Severe cases may require treatment. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polyhydramnios symptoms are a result of pressure being exerted within the uterus and on nearby organs. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild polyhydramnios may cause few &amp;mdash; if any &amp;mdash; signs or symptoms. Severe polyhydramnios may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath or the inability to breathe, except when upright&lt;/li&gt;
+	&lt;li&gt;Swelling in the lower extremities, vulva and abdominal wall&lt;/li&gt;
+	&lt;li&gt;Decreased urine production&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider may also suspect polyhydramnios if your uterus is enlarged but the baby&apos;s heartbeat and body contours are difficult to assess. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Known causes of polyhydramnios include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A birth defect that affects the baby&apos;s gastrointestinal tract or central nervous system&lt;/li&gt;
+	&lt;li&gt;Maternal diabetes&lt;/li&gt;
+	&lt;li&gt;Twin-twin transfusion &amp;mdash; a possible complication of identical-twin pregnancies in which one twin receives too much blood and the other too little&lt;/li&gt;
+	&lt;li&gt;A lack of red blood cells in the baby (fetal anemia)&lt;/li&gt;
+	&lt;li&gt;Blood incompatibilities between mother and baby&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, however, the cause of polyhydramnios isn&apos;t clear.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polyhydramnios is associated with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Premature birth&lt;/li&gt;
+	&lt;li&gt;Pregnancy-induced high blood pressure&lt;/li&gt;
+	&lt;li&gt;Urinary tract infections during pregnancy&lt;/li&gt;
+	&lt;li&gt;Premature rupture of membranes &amp;mdash; when your water breaks early&lt;/li&gt;
+	&lt;li&gt;Excess fetal growth&lt;/li&gt;
+	&lt;li&gt;Placental abruption &amp;mdash; when the placenta peels away from the inner wall of the uterus before delivery&lt;/li&gt;
+	&lt;li&gt;Umbilical cord prolapse &amp;mdash; when the umbilical cord drops into the vagina ahead of the baby&lt;/li&gt;
+	&lt;li&gt;C-section delivery&lt;/li&gt;
+	&lt;li&gt;Stillbirth&lt;/li&gt;
+	&lt;li&gt;Heavy bleeding due to lack of uterine muscle tone after delivery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The earlier that polyhydramnios occurs in pregnancy and the greater the amount of excess amniotic fluid, the higher the risk of complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by talking with your family doctor or pregnancy care provider. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including when they first started and how they&apos;ve changed over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any other medical conditions for which you&apos;re being treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a friend or family member to accompany you,&lt;/strong&gt; if possible, to your appointment. Having someone else there may help you remember something that you forgot or missed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For polyhydramnios, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kind of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What needs to be done now?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;What emergency signs and symptoms should I watch for at home?&lt;/li&gt;
+	&lt;li&gt;How will this condition affect my baby?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or printed material that I can take along with me? What websites do you recommend for more information?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely perform a physical exam and run some tests, including an ultrasound exam. He or she may also ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;Do you have shortness of breath?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any lightheadedness or dizziness?&lt;/li&gt;
+	&lt;li&gt;Have you noticed an increase in swelling? Does it seem like you&apos;re retaining more fluid than usual?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to make your symptoms better?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your health care provider suspects polyhydramnios, he or she will do a fetal ultrasound. This test uses high-frequency sound waves to produce images of your baby on a monitor. 
+&lt;/p&gt;
+&lt;p&gt;
+If the initial ultrasound shows evidence of polyhydramnios, your health care provider may do a more detailed ultrasound. He or she will estimate the volume of amniotic fluid by measuring the deepest pocket in four specific parts of your uterus. The sum of these measurements is the amniotic fluid index (AFI). An AFI of 25 centimeters (9.8 inches) or more indicates polyhydramnios. Your health care provider will also use a detailed ultrasound to diagnose or rule out birth defects and other complications. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need additional tests as well, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Amniocentesis.&lt;/strong&gt; Amniocentesis is a procedure in which a sample of amniotic fluid &amp;mdash; which contains fetal cells and various chemicals produced by the baby &amp;mdash; is removed from the uterus for testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glucose challenge test.&lt;/strong&gt; The glucose challenge test is a screening test for gestational diabetes, a type of diabetes that develops during pregnancy. After an overnight fast, you drink a syrupy glucose solution. Your blood sugar level will be checked every hour for a period of three hours. If at least two of the readings are higher than normal, you&apos;ll be diagnosed with gestational diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Karyotype.&lt;/strong&gt; Karyotype testing is used to screen the baby&apos;s chromosomes for abnormalities. The cells needed for testing can be taken from a sample of amniotic fluid or the placenta during amniocentesis or chorionic villus sampling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with polyhydramnios, your health care provider will closely monitor your pregnancy, possibly with weekly ultrasounds to measure your level of amniotic fluid. Your health care provider may also do regular tests to check on your baby&apos;s health, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonstress test.&lt;/strong&gt; This test checks how your baby&apos;s heart rate reacts when your baby moves. During the test, you&apos;ll wear a special device on your abdomen to measure the baby&apos;s heart rate. You may be asked to eat or drink something to make the baby active. A buzzer-like device also may be used to wake the baby and encourage movement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biophysical profile.&lt;/strong&gt; This test combines an ultrasound with a nonstress test to provide more information about your baby&apos;s breathing and movement, as well as the volume of amniotic fluid in your uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doppler ultrasound.&lt;/strong&gt; This specialized type of ultrasound can provide details about your baby&apos;s circulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contraction stress test.&lt;/strong&gt; This test checks how the baby&apos;s heart reacts when your uterus contracts. To make your uterus contract, you may be asked to stimulate your nipples &amp;mdash; or your health care provider may give you an injection of the synthetic version of the hormone oxytocin. This test isn&apos;t often used with polyhydramnios due to concerns about preterm labor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild cases of polyhydramnios rarely require treatment and may go away on their own. Even cases that cause discomfort can usually be managed without intervention.
+&lt;/p&gt;
+&lt;p&gt;
+In other cases, treatment for an underlying condition &amp;mdash; such as diabetes &amp;mdash; may help resolve polyhydramnios.
+&lt;/p&gt;
+&lt;p&gt;
+If you experience preterm labor, shortness of breath or abdominal pain, you may need treatment &amp;mdash; potentially in the hospital. Treatment may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drainage of excess amniotic fluid.&lt;/strong&gt; Your health care provider may use amniocentesis to drain excess amniotic fluid from your uterus. You may need to repeat the procedure &amp;mdash; sometimes referred to as amnioreduction &amp;mdash; multiple times as your pregnancy progresses. Amnioreduction carries a small risk of complications, including preterm labor, placental abruption and premature rupture of the membranes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Your health care provider may prescribe the oral medication indomethacin (Indocin) to help reduce fetal urine production and amniotic fluid volume. Indomethacin isn&apos;t recommended beyond 31 weeks of pregnancy. Due to the risk of fetal heart problems, your baby&apos;s heart may need to be monitored with a fetal echocardiogram and Doppler ultrasound. Other side effects may include nausea, vomiting, acid reflux and inflammation of the lining of the stomach (gastritis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polyhydramnios
+	</Title>
+	<Abstract>
+		Polyhydramnios &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of excessive amniotic fluid in pregnancy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00155" LinkType="Internal" ObjectID="E4636F2E-E7FF-0DBD-19D23492870EE783" Title="Amniocentesis" Url="http://www.mayoclinic.com/health/amniocentesis/MY00155" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00146" LinkType="Internal" ObjectID="DF9C1BB4-E7FF-0DBD-12AE768ED85E8088" Title="Glucose challenge test" Url="http://www.mayoclinic.com/health/glucose-challenge-test/MY00146" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01919" LinkType="Internal" ObjectID="8F721657-ED13-7D11-6153103214893F79" Title="Biophysical profile" Url="http://www.mayoclinic.com/health/biophysical-profile/MY01919" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00777" LinkType="Internal" ObjectID="563FCB9D-A538-2A78-5A61F27B1BD5D29F" Title="Fetal ultrasound" Url="http://www.mayoclinic.com/health/fetal-ultrasound/MY00777" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Disease" DocID="DS00316" LinkType="Internal" ObjectID="F26EA786-DF0A-470F-BA3801EF0A7EE346" Title="Gestational diabetes" Url="http://www.mayoclinic.com/health/gestational-diabetes/DS00316" />
+		<LinkItem ContentType="Disease" DocID="DS00623" LinkType="Internal" ObjectID="E867E65F-2A5D-9994-E2970FB692F252C3" Title="Placental abruption" Url="http://www.mayoclinic.com/health/placental-abruption/DS00623" />
+		<LinkItem ContentType="Disease" DocID="DS00137" LinkType="Internal" ObjectID="DB81ABF4-378D-453B-AFD7BF32AD6F01E7" Title="Premature birth" Url="http://www.mayoclinic.com/health/premature-birth/DS00137" />
+		<LinkItem ContentType="Disease" DocID="DS00286" LinkType="Internal" ObjectID="364657CC-439E-4166-843C62403DD3A8D9" Title="Urinary tract infection (UTI)" Url="http://www.mayoclinic.com/health/urinary-tract-infection/DS00286" />
+	</RelatedLinksBox>
+</Disease>

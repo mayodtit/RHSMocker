@@ -1,0 +1,111 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01545
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/presbyopia-symptom/AN01545
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="2224" Title="Refractive error">
+						<Keyword MCVID="2365" Title="Presbyopia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5AC14E4A-E7FF-0DBD-121CFE9E40D509EB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				presbyopia
+			</MetaKeyword>
+			<MetaKeyword>
+				presbyopia symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				presbyopic symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				blurred vision
+			</MetaKeyword>
+			<MetaKeyword>
+				blurry vision
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+The focusing problem you describe may be an early symptom of presbyopia, an age-related change in vision. Presbyopia is not the same as farsightedness. In presbyopia, your eyes gradually lose the ability to adjust to see objects clearly at different distances. Although the most common presbyopic symptom is blurry close-up vision, you may also experience blurred distance vision when changing your focus from near to far objects.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re experiencing this problem after prolonged close-up work, such as reading or working at a computer, try resting your eyes every 10 to 20 minutes by closing them for 20 to 30 seconds. This may help minimize the symptoms. If you don&apos;t normally wear prescription glasses, you may consider getting a pair of nonprescription reading glasses that can be used for close-up work.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re concerned about these vision changes, make an appointment with your eye doctor. An eye exam can identify potential eye or vision problems that may require further evaluation and treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Presbyopia: A cause of blurred distance vision?
+	</Title>
+	<Abstract>
+		The most common symptom of presbyopia is blurry close-up vision.
+	</Abstract>
+	<Question>
+		As I get older, it takes longer for my eyes to adjust when I change focus on close-up work and look into the distance. I notice for a short while that distant objects appear blurry. What causes this?
+	</Question>
+	<QuestionFirstName>
+		Betsy
+	</QuestionFirstName>
+	<QuestionState>
+		Virginia
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00376" LinkType="Internal" ObjectID="68778E64-E7FF-0DBD-162052263753DD62" Title="LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MY00376" />
+		<LinkItem ContentType="Video" DocID="MM00607" LinkType="Internal" ObjectID="3F706153-C6A9-4A52-B0F4B679D8D3DD99" Title="Video: LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MM00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Article" DocID="WL00010" LinkType="Internal" ObjectID="82C0A0DA-CEAC-417F-88C5AD9CC8FA4765" Title="Contact lenses: What to know before you buy" Url="http://www.mayoclinic.com/health/contact-lenses/WL00010" />
+		<LinkItem ContentType="Disease" DocID="DS00589" LinkType="Internal" ObjectID="3C47BCF7-47AA-4260-AC1F80C40D526EDF" Title="Presbyopia" Url="http://www.mayoclinic.com/health/presbyopia/DS00589" />
+	</RelatedLinksBox>
+</Answer>

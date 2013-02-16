@@ -1,0 +1,237 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00814
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/clubfoot/DS00814
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-06
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="1749" Title="Birth defects/malformations">
+						<Keyword MCVID="1945" Title="Clubfoot" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			75977565-E7FF-0DBD-17AB87A28FB4FFCF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				clubfoot
+			</MetaKeyword>
+			<MetaKeyword>
+				club foot
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Clubfoot describes a range of foot abnormalities usually present at birth (congenital) in which your baby&apos;s foot is twisted out of shape or position. The term &quot;clubfoot&quot; refers to the way the foot is positioned at a sharp angle to the ankle, like the head of a golf club. Clubfoot is a relatively common birth defect and is usually an isolated problem for an otherwise healthy newborn. 
+&lt;/p&gt;
+&lt;p&gt;
+Clubfoot can be mild or severe, affecting one or both feet. Clubfoot will hinder your child&apos;s development once it&apos;s time for your child to walk, so treating clubfoot soon after birth is generally recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment is usually successful, and the appearance and function of your child&apos;s foot should show improvement. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing clubfoot 
+" Caption="Doctors use the term &quot;clubfoot&quot; to describe a range of foot abnormalities usually present at birth (congenital). In most cases, the front of the foot is twisted downward and inward, the arch is increased, and the heel is turned inward. Untreated, the foot can&apos;t move up and down as it normally would. This causes an awkward gait. 
+" Height="60" Title="Clubfoot" URI="/images/image_popup/thumbs/ans7_clubfootthu.jpg" Width="60" />
+				<Image Alt="Illustration showing clubfoot 
+" Caption="Doctors use the term &quot;clubfoot&quot; to describe a range of foot abnormalities usually present at birth (congenital). In most cases, the front of the foot is twisted downward and inward, the arch is increased, and the heel is turned inward. Untreated, the foot can&apos;t move up and down as it normally would. This causes an awkward gait. 
+" Height="367" Title="Clubfoot" URI="/images/image_popup/ans7_clubfoot.jpg" Width="400" />
+				<HTML>
+					Doctors use the term &quot;clubfoot&quot; to describe a range of foot abnormalities usually present at birth (congenital). In most cases, the front of the foot is twisted downward and inward, the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, clubfoot twists the top of your baby&apos;s foot downward and inward, increasing the arch and turning the heel inward. The foot may be turned so severely that it actually looks as if it&apos;s upside-down. Also, the calf muscles in your child&apos;s affected leg are usually underdeveloped, and the affected foot may be up to 1 centimeter (about .4 inches) shorter than the other foot. Despite its look, however, clubfoot itself doesn&apos;t cause any discomfort or pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+More than likely your doctor will notice clubfoot soon after the birth of your child. Your doctor can then advise you on the most appropriate treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing clubfoot 
+" Caption="Doctors use the term &quot;clubfoot&quot; to describe a range of foot abnormalities usually present at birth (congenital). In most cases, the front of the foot is twisted downward and inward, the arch is increased, and the heel is turned inward. Untreated, the foot can&apos;t move up and down as it normally would. This causes an awkward gait. 
+" Height="60" Title="Clubfoot" URI="/images/image_popup/thumbs/ans7_clubfootthu.jpg" Width="60" />
+				<Image Alt="Illustration showing clubfoot 
+" Caption="Doctors use the term &quot;clubfoot&quot; to describe a range of foot abnormalities usually present at birth (congenital). In most cases, the front of the foot is twisted downward and inward, the arch is increased, and the heel is turned inward. Untreated, the foot can&apos;t move up and down as it normally would. This causes an awkward gait. 
+" Height="367" Title="Clubfoot" URI="/images/image_popup/ans7_clubfoot.jpg" Width="400" />
+				<HTML>
+					Doctors use the term &quot;clubfoot&quot; to describe a range of foot abnormalities usually present at birth (congenital). In most cases, the front of the foot is twisted downward and inward, the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of clubfoot isn&apos;t known (idiopathic). But scientists do know that clubfoot isn&apos;t caused by the position of the fetus in the uterus. In some cases, clubfoot can be associated with other congenital abnormalities of the skeleton, such as spina bifida, a serious birth defect that occurs when the tissue surrounding the developing spinal cord of a fetus doesn&apos;t close properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Environmental factors play a role in causing clubfoot. Studies have strongly linked clubfoot to cigarette smoking during pregnancy, especially when a family history of clubfoot is already present. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Clubfoot is more common in males.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If you, your spouse or your other children have had clubfoot, your baby is more likely to have it as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking during pregnancy.&lt;/strong&gt; If a woman with a family history of clubfoot smokes during pregnancy, her baby&apos;s risk of the condition may be 20 times greater than average.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Clubfoot typically causes no problems until your child starts to stand and walk. While your child&apos;s mobility may be slightly limited and the affected foot may be up to 1 1/2 shoe sizes smaller than the unaffected foot, treating clubfoot generally ends with your child having a relatively normal foot, both in the way it looks and functions. 
+&lt;/p&gt;
+&lt;p&gt;
+Left untreated, however, clubfoot can become a burden. Not only is your child likely to have arthritis, but the unusual appearance of the foot may make body image a concern during the teen years. The twist of the ankle may not allow your child to walk on the soles of the feet. To compensate, he or she may walk on the balls of the feet, the outside of the feet or even the top of the feet in severe cases. These adjustments may inhibit natural growth of the calf muscles, cause large sores or calluses on the feet, and result in an awkward gait. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your baby is born with clubfoot, he or she will likely be diagnosed soon after birth. In some cases, your baby&apos;s doctor may refer you to a pediatric orthopedist, a doctor who specializes in bone and muscle (musculoskeletal) problems. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time before meeting with your child&apos;s doctor, it&apos;s a good idea to make a list of questions. Your time with the doctor may be limited and appointments can go fast, so it helps to be prepared. Here are some questions to consider asking: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of corrective treatment are available for my child&apos;s condition?&lt;/li&gt;
+	&lt;li&gt;Will my child need surgery? &lt;/li&gt;
+	&lt;li&gt;What kind of follow-up care will my child need?&lt;/li&gt;
+	&lt;li&gt;Should I get a second opinion before beginning my child&apos;s treatment? Will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Can you tell how complete a recovery my child will have and whether he or she will have a normal gait?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, tell your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you have family members &amp;mdash; including extended family &amp;mdash; who&apos;ve had clubfoot&lt;/li&gt;
+	&lt;li&gt;If you had any medical issues or problems during your pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s also a good idea to ask your doctor if he or she commonly treats newborns with clubfoot, or if you should get a referral to another doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most commonly, a doctor recognizes clubfoot after birth just from looking at the shape and positioning of the newborn&apos;s feet. The doctor may request X-rays to fully understand the severity of the deformity. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s possible to clearly see some cases of clubfoot before birth during a baby&apos;s ultrasound examination. If clubfoot affects both feet, it&apos;s more likely to be apparent in an ultrasound. While nothing can be done before birth to solve the problem, knowing about the defect may give you time to learn more about clubfoot and get in touch with appropriate health experts, such as a genetic counselor or an orthopedic surgeon. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because your newborn&apos;s bones and joints are extremely flexible, treatment for clubfoot usually begins soon after birth. The goal of treatment is to restore the look and function of the foot before your child learns to walk, in hopes of preventing long-term disabilities. Treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stretching and casting (Ponseti method).&lt;/strong&gt; This treatment entails manipulating the foot into a correct position and then placing it in a cast to maintain that position. Repositioning and recasting occurs every week for several weeks. After the shape of the foot is realigned, it&apos;s maintained through stretching exercises, special shoes or splinting with braces at night for up to three years. For this method to work effectively, you&apos;ll need to apply your child&apos;s braces according to your doctor&apos;s specifications so that the foot doesn&apos;t return to its original position.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretching and taping (French method).&lt;/strong&gt; This approach involves daily manipulation of the foot, followed by the use of adhesive tape to maintain the correct position until the next day. After two months, treatments are reduced to three times each week until the baby is 6 months old. Once the foot&apos;s shape is corrected, parents continue to perform daily exercises and use night splints until their baby is walking age. This method requires commitment to very frequent appointments for six months. Some providers combine the French method and the Ponseti method.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In some cases, when clubfoot is severe or doesn&apos;t respond to nonsurgical treatments, your baby may need surgery. An orthopedic surgeon can lengthen tendons to help ease the foot into a more appropriate position. After surgery, your child will need to wear a brace for a year or so to prevent recurrence of the deformities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even with treatment, clubfoot may not be totally correctable. But in most cases babies who are treated early grow up to wear normal shoes and lead normal, active lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the cause of clubfoot is unknown, you can&apos;t take absolute measures to prevent it. However, if you&apos;re pregnant, you can take steps to limit your baby&apos;s risk of birth defects, such as clubfoot. These steps include not smoking or spending time in smoky environments, not consuming alcohol, and avoiding drugs not approved by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Clubfoot
+	</Title>
+	<Abstract>
+		Clubfoot &amp;mdash; Comprehensive overview covers diagnosis, treatment of this common birth defect of the foot.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

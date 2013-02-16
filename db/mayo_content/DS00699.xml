@@ -1,0 +1,336 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00699
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/uterine-polyps/DS00699
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-25
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2049" Title="Uterus">
+						<Keyword MCVID="2674" Title="Uterine polyps" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ADB14E63-2A5D-9994-E8194C14C1828C83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				uterine
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine lining
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal uterine bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				dysfunctional uterine bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				endometrial polyp
+			</MetaKeyword>
+			<MetaKeyword>
+				endometrial polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding between periods
+			</MetaKeyword>
+			<MetaKeyword>
+				irregular vaginal bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				breakthrough bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				post menopausal bleeding
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Uterine polyps are growths attached to the inner wall of the uterus that extend into the uterine cavity. Overgrowth of cells in the lining of the uterus (endometrium) leads to the formation of uterine polyps, also known as endometrial polyps. These polyps are usually noncancerous (benign), although some can be cancerous or can eventually turn into cancer (precancerous polyps).
+&lt;/p&gt;
+&lt;p&gt;
+The sizes of uterine polyps range from a few millimeters &amp;mdash; no larger than a sesame seed &amp;mdash; to several centimeters &amp;mdash; golf ball sized or larger. They attach to the uterine wall by a large base or a thin stalk.
+&lt;/p&gt;
+&lt;p&gt;
+You can have one or many uterine polyps. They usually stay contained within your uterus, but occasionally, they may slip down through the opening of the uterus (cervix) into your vagina. Uterine polyps most commonly occur in women who are going through or have completed menopause (peri- and postmenopausal women), although younger women can get them, too.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of uterine polyps
+" Caption="Uterine polyps attach to your uterus by a large base or a thin stalk and can grow to be several centimeters in size. Irregular menstrual bleeding, excessively heavy menstrual flow or bleeding between periods could signal the presence of uterine polyps.
+" Height="60" Title="Uterine polyps" URI="/images/image_popup/thumbs/w7_uterinepolypsthu.jpg" Width="60" />
+				<Image Alt="Illustration of uterine polyps
+" Caption="Uterine polyps attach to your uterus by a large base or a thin stalk and can grow to be several centimeters in size. Irregular menstrual bleeding, excessively heavy menstrual flow or bleeding between periods could signal the presence of uterine polyps.
+" Height="382" Title="Uterine polyps" URI="/images/image_popup/w7_uterinepolyps.jpg" Width="400" />
+				<HTML>
+					Uterine polyps attach to your uterus by a large base or a thin stalk and can grow to be several centimeters in size. Irregular menstrual bleeding, excessively heavy menstrual flow or bleeding between ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs of uterine polyps include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irregular menstrual bleeding &amp;mdash; for example, having frequent, unpredictable periods of variable length and heaviness&lt;/li&gt;
+	&lt;li&gt;Bleeding between menstrual periods&lt;/li&gt;
+	&lt;li&gt;Excessively heavy menstrual periods&lt;/li&gt;
+	&lt;li&gt;Vaginal bleeding after menopause&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some women may experience only light bleeding or spotting or may even be symptom-free.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek medical care if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vaginal bleeding after menopause&lt;/li&gt;
+	&lt;li&gt;Bleeding between menstrual periods&lt;/li&gt;
+	&lt;li&gt;Irregular menstrual bleeding&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the exact cause of uterine polyps is unknown, hormonal factors appear to play a role. Uterine polyps are estrogen-sensitive, meaning that they respond to estrogen in the same way that the lining of your uterus does &amp;mdash; growing in response to circulating estrogen.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for developing uterine polyps include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Peri- or postmenopausal age&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Tamoxifen, a drug therapy for breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Uterine polyps may be associated with infertility. If you have uterine polyps and you experience infertility, removal of the polyps might allow you to become pregnant.
+&lt;/p&gt;
+&lt;p&gt;
+Uterine polyps also may present an increased risk of miscarriage in women who undergo in vitro fertilization (IVF). If you&apos;re considering IVF treatment and you have uterine polyps, your doctor may recommend polyp removal before embryo transfer.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your first appointment will likely be with either your primary care provider or a gynecologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and it can be difficult to remember everything you want to discuss, it&apos;s a good idea to prepare ahead of time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; Include all of your symptoms, even if you don&apos;t think they&apos;re related.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications and vitamin supplements you take.&lt;/strong&gt; Write down doses and how often you take them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a family member or close friend accompany you, if possible.&lt;/strong&gt; You may be given a lot of information at your visit, and it can be difficult to remember everything.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook or notepad with you.&lt;/strong&gt; Use it to take down important information during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare a list of questions to ask your doctor.&lt;/strong&gt; List your most important questions first, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For uterine polyps, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What could be causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests might I need?&lt;/li&gt;
+	&lt;li&gt;Are medications available to treat my condition?&lt;/li&gt;
+	&lt;li&gt;What side effects can I expect from medication use?&lt;/li&gt;
+	&lt;li&gt;Under what circumstances do you recommend surgery?&lt;/li&gt;
+	&lt;li&gt;Could uterine polyps affect my ability to become pregnant?&lt;/li&gt;
+	&lt;li&gt;Will treatment of uterine polyps improve my fertility?&lt;/li&gt;
+	&lt;li&gt;Can uterine polyps be cancerous?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask follow-up questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Some potential questions your doctor might ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you have these symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for uterine polyps or cervical polyps in the past?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any issues with infertility? Do you want to become pregnant?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects that you have uterine polyps, he or she might perform one of the following tests or procedures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Transvaginal ultrasound.&lt;/strong&gt; A slender, wand-like device placed in your vagina sends out sound waves and creates an image of your uterus, including its interior. A related procedure, known as hysterosonography (his-tur-o-suh-NOG-ruh-fee), involves having salt water (saline) injected into your uterus through a small tube threaded through your vagina and cervix. The saline expands your uterine cavity, which gives the doctor a clearer view of the inside of your uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hysteroscopy.&lt;/strong&gt; Doctors may perform a procedure called hysteroscopy to diagnose and treat uterine polyps. In a hysteroscopy, your doctor inserts a thin, flexible, lighted telescope (hysteroscope) through your vagina and cervix into your uterus. Hysteroscopy allows your doctor to examine the inside of your uterus and remove any polyps that are found. This eliminates the need for a follow-up procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Curettage.&lt;/strong&gt; During curettage, your doctor uses a long metal instrument with a loop on the end to scrape the inside walls of your uterus. This may be done to collect a specimen for lab testing or to remove a polyp. Your doctor may perform curettage with the assistance of a hysteroscope, which lets your doctor view the inside of your uterus before and after the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most uterine polyps are noncancerous (benign). However, some precancerous changes of the uterus (endometrial hyperplasia) or uterine cancers (endometrial carcinomas) appear as uterine polyps. Your doctor may send a tissue sample for lab analysis to be certain you don&apos;t have uterine cancer.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing transvaginal ultrasound 
+" Caption="During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound waves that generate images of your pelvic organs. 
+" Height="60" Title="Transvaginal ultrasound" URI="/images/image_popup/thumbs/mcdc7_vaginal_ultrasoundthu.jpg" Width="60" />
+				<Image Alt="Illustration showing transvaginal ultrasound 
+" Caption="During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound waves that generate images of your pelvic organs. 
+" Height="324" Title="Transvaginal ultrasound" URI="/images/image_popup/mcdc7_vaginal_ultrasound.jpg" Width="400" />
+				<HTML>
+					During a transvaginal ultrasound, your doctor or a medical technician inserts a wand-like device (transducer) into your vagina while you lie on your back on an exam table. The transducer emits sound ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hysterosonography 
+" Caption="During hysterosonography (his-tur-o-suh-NOG-ruh-fee), your doctor uses a thin, flexible tube (catheter) to inject salt water (saline) into the hollow part of your uterus. Using an ultrasound probe, your doctor obtains images of the inside of your uterus and checks for any irregularities.
+" Height="60" Title="Hysterosonography" URI="/images/image_popup/thumbs/hdg7_hysterosonogramthu.jpg" Width="60" />
+				<Image Alt="Illustration showing hysterosonography 
+" Caption="During hysterosonography (his-tur-o-suh-NOG-ruh-fee), your doctor uses a thin, flexible tube (catheter) to inject salt water (saline) into the hollow part of your uterus. Using an ultrasound probe, your doctor obtains images of the inside of your uterus and checks for any irregularities.
+" Height="387" Title="Hysterosonography" URI="/images/image_popup/hdg7_hysterosonogram.jpg" Width="400" />
+				<HTML>
+					During hysterosonography (his-tur-o-suh-NOG-ruh-fee), your doctor uses a thin, flexible tube (catheter) to inject salt water (saline) into the hollow part of your uterus. Using an ultrasound probe, ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hysteroscopy 
+" Caption="During hysteroscopy, your doctor uses a thin, lighted instrument (hysteroscope) to view the inside of your uterus.
+" Height="60" Title="Hysteroscopy" URI="/images/image_popup/thumbs/hdg7_hysteroscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing hysteroscopy 
+" Caption="During hysteroscopy, your doctor uses a thin, lighted instrument (hysteroscope) to view the inside of your uterus.
+" Height="332" Title="Hysteroscopy" URI="/images/image_popup/hdg7_hysteroscopy.jpg" Width="400" />
+				<HTML>
+					During hysteroscopy, your doctor uses a thin, lighted instrument (hysteroscope) to view the inside of your uterus.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For uterine polyps, your doctor might recommend:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Watchful waiting.&lt;/strong&gt; Small polyps without symptoms (asymptomatic) may resolve on their own. Treatment is unnecessary unless you&apos;re at risk of uterine cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Certain hormonal medications, including progestins and gonadotropin-releasing hormone agonists, may shrink a uterine polyp and lessen symptoms. But taking such medications is usually a short-term solution at best &amp;mdash; symptoms typically recur once you stop taking the medicine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Curettage.&lt;/strong&gt; Your doctor uses a long metal instrument with a loop on the end to scrape the inside walls of your uterus. This may be done to collect a specimen for lab testing or to remove a polyp. Your doctor may perform curettage with the assistance of a hysteroscope, which allows your doctor to view the inside of your uterus before and after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical removal.&lt;/strong&gt; During hysteroscopy, instruments inserted through the hysteroscope &amp;mdash; the device your doctor uses to see inside your uterus &amp;mdash; make it possible to remove polyps once they&apos;re identified. The removed polyp may be sent to a lab for microscopic examination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If a uterine polyp contains cancerous cells, your doctor will talk with you about the next steps in evaluation and treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, uterine polyps can recur. If they do, you might need more treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Uterine polyps
+	</Title>
+	<Abstract>
+		Uterine polyps &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of these uterine growths.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00345" LinkType="Internal" ObjectID="06AC3953-E7FF-0DBD-195336DCB709FF7B" Title="Dilation and curettage (D&amp;amp;C)" Url="http://www.mayoclinic.com/health/dilation-and-curettage/MY00345" />
+		<LinkItem ContentType="Disease" DocID="DS00394" LinkType="Internal" ObjectID="B7ACC24F-E124-4B69-A0231E7FEB5ECEC8" Title="Menorrhagia (heavy menstrual bleeding)" Url="http://www.mayoclinic.com/health/menorrhagia/DS00394" />
+	</RelatedLinksBox>
+</Disease>

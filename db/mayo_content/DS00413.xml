@@ -1,0 +1,384 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00413
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/guillain-barre-syndrome/DS00413
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-28
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="2770" Title="Guillain Barre syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8510BDEE-6A0E-41B5-822E98B643884C0E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Guillain-Barre
+			</MetaKeyword>
+			<MetaKeyword>
+				Guillain-Barre syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				GBS
+			</MetaKeyword>
+			<MetaKeyword>
+				Guillain Barre
+			</MetaKeyword>
+			<MetaKeyword>
+				Guillain Barre syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				guillian barre
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Guillain-Barre (ghee-YA-buh-RAY) syndrome is a disorder in which your body&apos;s immune system attacks your nerves. Weakness and tingling in your extremities are usually the first symptoms. These sensations can quickly spread, eventually paralyzing your whole body. In its most severe form, Guillain-Barre syndrome is a medical emergency requiring hospitalization. 
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause of Guillain-Barre syndrome is unknown, but it is often preceded by an infectious illness such as a respiratory infection or the stomach flu. Luckily, Guillain-Barre syndrome is uncommon, affecting only 1 or 2 people per 100,000. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no known cure for Guillain-Barre syndrome, but several treatments can ease symptoms and reduce the duration of the illness. Most people recover from Guillain-Barre syndrome, though some may experience lingering effects from it, such as weakness, numbness or fatigue.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerve and damaged myelin sheath 
+" Caption="Guillain-Barre syndrome destroys the protective covering of the peripheral nerves (myelin sheath), preventing the nerves from transmitting signals to the brain.
+" Height="60" Title="Nerve and myelin sheath" URI="/images/image_popup/thumbs/r7_myelinsheaththu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerve and damaged myelin sheath 
+" Caption="Guillain-Barre syndrome destroys the protective covering of the peripheral nerves (myelin sheath), preventing the nerves from transmitting signals to the brain.
+" Height="266" Title="Nerve and myelin sheath" URI="/images/image_popup/r7_myelinsheath.jpg" Width="400" />
+				<HTML>
+					Guillain-Barre syndrome destroys the protective covering of the peripheral nerves (myelin sheath), preventing the nerves from transmitting signals to the brain.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Guillain-Barre syndrome often begins with tingling and weakness starting in your feet and legs and spreading to your upper body and arms. These symptoms may begin &amp;mdash; often not causing much notice &amp;mdash; in your fingers and toes. In some people, symptoms begin in the arms or even the face. As the disorder progresses, muscle weakness can evolve into paralysis. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of Guillain-Barre syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prickling, &quot;pins and needles&quot; sensations in your fingers, toes or both&lt;/li&gt;
+	&lt;li&gt;Weakness or tingling sensations in your legs that spread to your upper body&lt;/li&gt;
+	&lt;li&gt;Unsteady walking or inability to walk&lt;/li&gt;
+	&lt;li&gt;Difficulty with eye movement, facial movement, speaking, chewing or swallowing&lt;/li&gt;
+	&lt;li&gt;Severe pain in your lower back&lt;/li&gt;
+	&lt;li&gt;Difficulty with bladder control or intestinal functions&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Low or high blood pressure&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people with Guillain-Barre syndrome experience their most significant weakness within four weeks after symptoms begin. In some cases, signs and symptoms may progress very rapidly, with complete paralysis of legs, arms and breathing muscles over the course of a few hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if you have mild tingling in your toes or fingers that doesn&apos;t seem to be spreading or getting worse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency medical help&lt;/strong&gt; if you have any of the following severe signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling that started in your feet or toes and is now ascending through your body&lt;/li&gt;
+	&lt;li&gt;Tingling or weakness that&apos;s spreading rapidly&lt;/li&gt;
+	&lt;li&gt;Tingling that involves both your hands and feet&lt;/li&gt;
+	&lt;li&gt;Difficulty catching your breath&lt;/li&gt;
+	&lt;li&gt;Choking on saliva&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Guillain-Barre syndrome is a serious disease that requires immediate hospitalization because of the rapid rate at which it worsens. The sooner appropriate treatment is started, the better the chance of a good outcome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of Guillain-Barre syndrome is unknown. In about 60 percent of cases, an infection affecting either the lungs or the digestive tract precedes the disorder. Recent surgery, immunization and pregnancy have also been associated with Guillain-Barre syndrome. But scientists don&apos;t know why such an infection can lead to Guillain-Barre syndrome for some people and not for others. Many cases appear to occur without any triggers. 
+&lt;/p&gt;
+&lt;p&gt;
+In Guillain-Barre syndrome, your immune system &amp;mdash; which usually attacks only foreign material and invading organisms &amp;mdash; begins attacking the nerves that carry signals to your brain. In the most common form of Guillain-Barre syndrome in North America, the nerves&apos; protective covering (myelin sheath) is damaged, and this interferes with the signaling process, causing weakness, numbness or paralysis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerve and damaged myelin sheath 
+" Caption="Guillain-Barre syndrome destroys the protective covering of the peripheral nerves (myelin sheath), preventing the nerves from transmitting signals to the brain.
+" Height="60" Title="Nerve and myelin sheath" URI="/images/image_popup/thumbs/r7_myelinsheaththu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerve and damaged myelin sheath 
+" Caption="Guillain-Barre syndrome destroys the protective covering of the peripheral nerves (myelin sheath), preventing the nerves from transmitting signals to the brain.
+" Height="266" Title="Nerve and myelin sheath" URI="/images/image_popup/r7_myelinsheath.jpg" Width="400" />
+				<HTML>
+					Guillain-Barre syndrome destroys the protective covering of the peripheral nerves (myelin sheath), preventing the nerves from transmitting signals to the brain.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Guillain-Barre syndrome can affect all age groups, but you&apos;re at greater risk if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re a young adult&lt;/li&gt;
+	&lt;li&gt;You&apos;re an older adult&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Guillain-Barre syndrome may be triggered by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Most commonly, infection with campylobacter, a type of bacteria often found in undercooked food, especially poultry&lt;/li&gt;
+	&lt;li&gt;Mycoplasma pneumonia&lt;/li&gt;
+	&lt;li&gt;Surgery&lt;/li&gt;
+	&lt;li&gt;Epstein-Barr virus&lt;/li&gt;
+	&lt;li&gt;Influenza virus&lt;/li&gt;
+	&lt;li&gt;Hodgkin&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Mononucleosis&lt;/li&gt;
+	&lt;li&gt;HIV, the virus that causes AIDS&lt;/li&gt;
+	&lt;li&gt;Rarely, rabies or influenza immunizations&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Guillain-Barre syndrome affects your nerves and may prompt a domino-like effect on other systems in your body, such as your breathing and cardiovascular functions, among others. Complications of Guillain-Barre syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing difficulties.&lt;/strong&gt; A potentially deadly complication of Guillain-Barre syndrome is that the weakness or paralysis can spread to the muscles that control your breathing. You may need temporary help from a machine to breathe when you&apos;re hospitalized for treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Residual numbness or other sensations.&lt;/strong&gt; Most people with Guillain-Barre syndrome recover completely or have only minor, residual weakness or abnormal sensations, such as numbness or tingling. However, full recovery may be slow, often taking a year or longer, with between 20 and 30 percent of people having an incomplete recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular problems.&lt;/strong&gt; Blood pressure fluctuations and cardiac arrhythmias are common side effects of Guillain-Barre syndrome, often requiring pulse and blood pressure monitoring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Up to half of people with Guillain-Barre syndrome experience neuropathic pain, which may be relieved by nonprescription or prescription painkillers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bowel and bladder function problems.&lt;/strong&gt; Sluggish bowel function and urine retention may result from Guillain-Barre syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; People who are immobile due to Guillain-Barre syndrome are at risk of developing blood clots. Until you&apos;re able to walk independently, taking blood thinners and wearing support stockings may be recommended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pressure sores.&lt;/strong&gt; Being immobile also puts you at risk of developing pressure sores, or bedsores. Frequent repositioning may help avoid this problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relapse.&lt;/strong&gt; Up to 10 percent of people with Guillain-Barre syndrome experience a relapse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Severe, early symptoms of Guillain-Barre syndrome significantly increase the risk of serious long-term complications. Rarely, death may occur from complications such as respiratory distress syndrome and heart attack.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your doctor if you have mild symptoms that might represent Guillain-Barre syndrome, such as a prickling sensation in your toes or fingers. In some cases, your doctor may recommend that you seek immediate medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency medical help&lt;/strong&gt; if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tingling or weakness&lt;/strong&gt; that affects your feet and hands, is rapidly spreading, or is spreading upward&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty breathing&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choking on saliva&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. It will help your doctor to have as many details as possible about when your symptoms first appeared and how they may have worsened or spread over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including any recent infectious illness or medical procedures you&apos;ve had, including vaccinations and surgery. Also write down all medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Guillain-Barre syndrome is a medical emergency. Take someone who can soak up all the information your doctor provides and who can stay with you if you need immediate treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions so that you can make the most of your time with your doctor. For Guillain-Barre syndrome, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to be hospitalized?&lt;/li&gt;
+	&lt;li&gt;What treatments do I need?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms will improve with treatment?&lt;/li&gt;
+	&lt;li&gt;How fully do you expect I&apos;ll recover?&lt;/li&gt;
+	&lt;li&gt;How long will recovery take?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them will help your doctor quickly determine next steps in making your diagnosis and starting care. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What parts of your body are affected?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms come on gradually or suddenly?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to be spreading or getting worse?&lt;/li&gt;
+	&lt;li&gt;If your symptoms include weakness, does it affect just one or both sides of your body?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include any problems with bladder or bowel control?&lt;/li&gt;
+	&lt;li&gt;Have you had any vision problems?&lt;/li&gt;
+	&lt;li&gt;Have you had any difficulty chewing or swallowing?&lt;/li&gt;
+	&lt;li&gt;Are you having difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Have you recently had an infectious illness?&lt;/li&gt;
+	&lt;li&gt;Have you recently spent time in a forested area?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled abroad? Where?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any medical procedures, including vaccinations?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Is anyone else you know having similar symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Guillain-Barre syndrome can be difficult to diagnose in its earliest stages. Its signs and symptoms are similar to those of other neurological disorders and may vary from person to person. 
+&lt;/p&gt;
+&lt;p&gt;
+The first step in diagnosing Guillain-Barre syndrome is for your doctor to take a careful medical history to fully understand the cluster of signs and symptoms you&apos;re experiencing. 
+&lt;/p&gt;
+&lt;p&gt;
+A spinal tap (lumbar puncture) and nerve function tests are commonly used to help confirm a diagnosis of Guillain-Barre syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Spinal tap (lumbar puncture)&lt;br /&gt;
+&lt;/strong&gt;This procedure involves withdrawing a small amount of fluid from your spinal canal at your low back (lumbar) level. This cerebrospinal fluid is then tested for a specific type of change that commonly occurs in people who have Guillain-Barre syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve function tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor may want information from two types of nerve function tests &amp;mdash; electromyography and nerve conduction velocity: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography&lt;/strong&gt; reads electrical activity in your muscles to determine if your weakness is caused by muscle damage or nerve damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction studies&lt;/strong&gt; assess how your nerves and muscles respond to small electrical stimuli.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although some people can take months and even years to recover, most cases of Guillain-Barre syndrome follow this general timeline: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Following the first symptoms, the condition tends to progressively worsen for about two weeks.&lt;/li&gt;
+	&lt;li&gt;Symptoms reach a plateau within four weeks.&lt;/li&gt;
+	&lt;li&gt;Recovery begins, usually lasting six to 12 months, though for some people it could take as long as three years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There&apos;s no cure for Guillain-Barre syndrome. But two types of treatments may speed recovery and reduce the severity of Guillain-Barre syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plasmapheresis.&lt;/strong&gt; This treatment &amp;mdash; also known as plasma exchange &amp;mdash; is a type of &quot;blood cleansing.&quot; Plasmapheresis consists of removing the liquid portion of your blood (plasma) and separating it from the actual blood cells. The blood cells are then put back into your body, which manufactures more plasma to make up for what was removed. It&apos;s not clear why this treatment works, but scientists believe that plasmapheresis rids plasma of certain antibodies that contribute to the immune system attack on the peripheral nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous immunoglobulin.&lt;/strong&gt; Immunoglobulin contains healthy antibodies from blood donors. High doses of immunoglobulin can block the damaging antibodies that may contribute to Guillain-Barre syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These treatments are equally effective. Mixing the treatments or administering one after the other is no more effective than using either method alone.
+&lt;/p&gt;
+&lt;p&gt;
+Often, before recovery begins, caregivers may need to manually move your arms and legs to help keep your muscles flexible and strong. After recovery has begun, you&apos;ll likely need physical therapy to help regain strength and proper movement so that you&apos;ll be able to function on your own. You may need training with adaptive devices, such as a wheelchair or braces, to give you mobility and self-care skills.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The emotional impact of Guillain-Barre syndrome can be devastating. In severe cases, Guillain-Barre syndrome can transform you from healthy and independent to critically ill and physically helpless &amp;mdash; suddenly, and without warning. 
+&lt;/p&gt;
+&lt;p&gt;
+Although most people eventually recover fully, a diagnosis of Guillain-Barre syndrome means confronting the possibility of long-term disability or paralysis. And those who do develop these complications must adjust to lasting, limited mobility and dependence on others to help manage daily activities. 
+&lt;/p&gt;
+&lt;p&gt;
+Talking with a mental health provider can play a critically important role in helping you cope with the mental and emotional strain of this illness. In some cases, your therapist may recommend family counseling to help you and your loved ones adjust to the changes caused by Guillain-Barre syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also benefit from talking with others who have experienced this illness. Ask your doctor or mental health provider to recommend a support group for people and families coping with Guillain-Barre syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Guillain-Barre syndrome
+	</Title>
+	<Abstract>
+		Guillain-Barre syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment of this potentially deadly muscle disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Disease" DocID="DS00186" LinkType="Internal" ObjectID="A0FF52F1-F396-4240-BF1993EB72EF4C80" Title="Hodgkin&apos;s lymphoma (Hodgkin&apos;s disease)" Url="http://www.mayoclinic.com/health/hodgkins-disease/DS00186" />
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+		<LinkItem ContentType="Disease" DocID="DS00352" LinkType="Internal" ObjectID="5C599D1E-4331-44F9-A48CE7EB9F7F2759" Title="Mononucleosis" Url="http://www.mayoclinic.com/health/mononucleosis/DS00352" />
+		<LinkItem ContentType="Disease" DocID="DS00131" LinkType="Internal" ObjectID="299185F1-834D-4191-9573A9B58C3D3D6B" Title="Peripheral neuropathy" Url="http://www.mayoclinic.com/health/peripheral-neuropathy/DS00131" />
+	</RelatedLinksBox>
+</Disease>

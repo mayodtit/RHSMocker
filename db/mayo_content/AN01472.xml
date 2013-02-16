@@ -1,0 +1,155 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01472
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coronary-artery-disease/AN01472
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-12
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease">
+						<Keyword MCVID="2267" Title="Coronary artery disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			52ABD89B-E7FF-0DBD-1417DAEB1C72968E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				coronary artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				bypass surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				angioplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				heart bypass surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+During cardiac catheterization, your doctor will examine images of the inside of your coronary arteries. If cholesterol plaques in these arteries (coronary artery disease) have caused areas of narrowing, treatment options depend on various factors, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severity and extent of coronary artery disease&lt;/li&gt;
+	&lt;li&gt;Symptoms, such as chest pain and shortness of breath&lt;/li&gt;
+	&lt;li&gt;Overall heart function&lt;/li&gt;
+	&lt;li&gt;Other medical conditions, such as heart valve disease, diabetes, kidney disease, peripheral artery disease, or prior stroke or heart attack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, medications and lifestyle changes may be the treatment of choice &amp;mdash; especially if only one artery is narrowed. 
+&lt;/p&gt;
+&lt;p&gt;
+In other cases, angioplasty may be recommended to open the clogged arteries &amp;mdash; especially if blood flow to the heart is reduced while you&apos;re at rest. During angioplasty, a tiny balloon is inserted and expanded at the site of the blockage to widen the narrowed artery. Typically, a small metal coil called a stent is implanted in the clogged artery to help prop the artery open and reduce the risk of it narrowing again. It&apos;s possible you may even have angioplasty during your cardiac catheterization, if your doctor thinks it&apos;s the best treatment option for you. 
+&lt;/p&gt;
+&lt;p&gt;
+If your arteries are narrowed or blocked in multiple areas, coronary bypass surgery may be necessary. During bypass surgery, a section of healthy blood vessel &amp;mdash; often taken from inside the chest wall or the lower leg &amp;mdash; is attached above and below the blocked artery. This allows blood to bypass the blocked area and flow to the heart muscle. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coronary artery disease: Angioplasty or bypass surgery?
+	</Title>
+	<Abstract>
+		The best treatment for coronary artery disease varies, depending on the circumstances.
+	</Abstract>
+	<Question>
+		I&apos;m getting a cardiac catheterization. If blockages are found, what&apos;s the best treatment, angioplasty or stenting?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01371" LinkType="Internal" ObjectID="CDD15CE4-E7FF-0DBD-141AB3025ECD1FDD" Title="Coronary artery spasm: Cause for concern?" Url="http://www.mayoclinic.com/health/coronary-artery-spasm/AN01371" />
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="Calculator" DocID="HB00047" LinkType="Internal" ObjectID="B45BEB09-FD1A-459D-81A0DA5E0DC803C1" Title="Heart disease risk calculator" Url="http://www.mayoclinic.com/health/heart-disease-risk/HB00047" />
+		<LinkItem ContentType="Answer" DocID="AN01980" LinkType="Internal" ObjectID="A4DC81BE-9CE9-6A63-48B78D4984D6453A" Title="Can vitamins help prevent a heart attack?" Url="http://www.mayoclinic.com/health/prevent-heart-attack/AN01980" />
+		<LinkItem ContentType="Answer" DocID="AN02030" LinkType="Internal" ObjectID="9B86E828-F147-D064-F1F30CF81E1DCE50" Title="Omega-6 fatty acids: Can they cause heart disease?" Url="http://www.mayoclinic.com/health/omega-6/AN02030" />
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
+		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+		<LinkItem ContentType="Article" DocID="HB00089" LinkType="Internal" ObjectID="F3B561EB-E7FF-0DBD-12ACC7FD196B1ED3" Title="Red wine and resveratrol: Good for your heart?" Url="http://www.mayoclinic.com/health/red-wine/HB00089" />
+		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
+		<LinkItem ContentType="Article" DocID="HB00073" LinkType="Internal" ObjectID="9CD00E35-2A5D-9994-EF86A3EE674B8F8C" Title="Daily aspirin therapy: Understand the benefits and risks" Url="http://www.mayoclinic.com/health/daily-aspirin-therapy/HB00073" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="Article" DocID="HB00085" LinkType="Internal" ObjectID="92DF9319-E7FF-0DBD-1F4D49DAC4DFC1AE" Title="Nuts and your heart: Eating nuts for heart health" Url="http://www.mayoclinic.com/health/nuts/HB00085" />
+		<LinkItem ContentType="Article" DocID="WO00041" LinkType="Internal" ObjectID="8D26F094-D5A5-45D8-90A4CB187A60091B" Title="5 medication-free strategies to help prevent heart disease" Url="http://www.mayoclinic.com/health/heart-disease-prevention/WO00041" />
+		<LinkItem ContentType="Article" DocID="HB00040" LinkType="Internal" ObjectID="7D6EE7E9-8240-4D04-AAA71F42515DDA8D" Title="Heart disease in women: Understand symptoms and risk factors" Url="http://www.mayoclinic.com/health/heart-disease/HB00040" />
+		<LinkItem ContentType="Article" DocID="HB00087" LinkType="Internal" ObjectID="5CF09E7C-E7FF-0DBD-1B0E1EC13D2882D5" Title="Omega-3 in fish: How eating fish helps your heart" Url="http://www.mayoclinic.com/health/omega-3/HB00087" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00336" LinkType="Internal" ObjectID="F7E31C25-E7FF-0DBD-1BF7D5EEFB17EB69" Title="Implantable cardioverter-defibrillators (ICDs)" Url="http://www.mayoclinic.com/health/implantable-cardioverter-defibrillator/MY00336" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00327" LinkType="Internal" ObjectID="E25BA260-E7FF-0DBD-1581C13DDA359B5C" Title="Heart scan (coronary calcium scan)" Url="http://www.mayoclinic.com/health/heart-scan/MY00327" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="Answer" DocID="AN01585" LinkType="Internal" ObjectID="BDB43F9B-E7FF-0DBD-1AA1144D6F65930B" Title="Arthritis pain medications: Do they raise blood pressure?" Url="http://www.mayoclinic.com/health/arthritis-pain-medications/AN01585" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00087" LinkType="Internal" ObjectID="A7E80DE5-E7FF-0DBD-1BA2159547DC1918" Title="Coronary bypass surgery" Url="http://www.mayoclinic.com/health/coronary-bypass-surgery/MY00087" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="Video" DocID="MM00048" LinkType="Internal" ObjectID="98A07B67-7CCA-41C5-BAFE4F4E2EA6C987" Title="Video: Coronary angioplasty" Url="http://www.mayoclinic.com/health/coronary-angioplasty/MM00048" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00361" LinkType="Internal" ObjectID="3FDA96F4-E7FF-0DBD-16E85B989BB8D9C5" Title="Heart transplant" Url="http://www.mayoclinic.com/health/heart-transplant/MY00361" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00994" LinkType="Internal" ObjectID="2FB32B7C-AA76-9270-67C8386DF3BCD3D1" Title="Nuclear stress test" Url="http://www.mayoclinic.com/health/nuclear-stress-test/MY00994" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00541" LinkType="Internal" ObjectID="195133F5-B002-FC90-364C46B34EBBF4FA" Title="Coronary angiogram" Url="http://www.mayoclinic.com/health/coronary-angiogram/MY00541" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Article" DocID="CL00036" LinkType="Internal" ObjectID="7FD30B1C-E7FF-0DBD-1A4BD415229049AF" Title="Niacin to boost your HDL, &apos;good,&apos; cholesterol" Url="http://www.mayoclinic.com/health/niacin/CL00036" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00949" LinkType="Internal" ObjectID="E0E5CBB7-E7FF-0DBD-188377A3E7F15819" Title="Premature ventricular contractions (PVCs)" Url="http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+		<LinkItem ContentType="Article" DocID="HB00091" LinkType="Internal" ObjectID="809C5571-E7FF-0DBD-150991E1095CE59D" Title="Angina treatment: Stents, drugs, lifestyle changes &amp;mdash; What&apos;s best?" Url="http://www.mayoclinic.com/health/angina-treatment/HB00091" />
+		<LinkItem ContentType="Article" DocID="HB00090" LinkType="Internal" ObjectID="371DD657-E7FF-0DBD-1735D7CA31827C52" Title="Drug-eluting stents: Do they increase heart attack risk?" Url="http://www.mayoclinic.com/health/drug-eluting-stents/HB00090" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+	</RelatedLinksBox>
+</Answer>

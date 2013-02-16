@@ -1,0 +1,368 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00085
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/viral-gastroenteritis/DS00085
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-11
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3115" Title="Gastroenteritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E31CB1FE-4C04-4B05-A67DF0EEF09823B7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				viral gastroenteritis
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach flu
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach virus
+			</MetaKeyword>
+			<MetaKeyword>
+				rotavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				norwalk virus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Viral gastroenteritis is an intestinal infection marked by watery diarrhea, abdominal cramps, nausea or vomiting, and sometimes fever. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common way to develop viral gastroenteritis &amp;mdash; often called stomach flu &amp;mdash; is through contact with an infected person or ingestion of contaminated food or water. If you&apos;re otherwise healthy, you&apos;ll likely recover without complications. But for infants, older adults and people with compromised immune systems, viral gastroenteritis can be deadly. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no effective treatment for viral gastroenteritis, so prevention is key. In addition to avoiding food and water that may be contaminated, thorough and frequent hand-washing is your best defense. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s commonly called stomach flu, gastroenteritis isn&apos;t the same as influenza. Real flu (influenza) affects your respiratory system &amp;mdash; your nose, throat and lungs. Gastroenteritis, on the other hand, attacks your intestines, causing signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery, usually nonbloody diarrhea &amp;mdash; bloody diarrhea usually means you have a different, more severe infection&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps and pain&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or both&lt;/li&gt;
+	&lt;li&gt;Occasional muscle aches or headache&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the cause, viral gastroenteritis symptoms may appear within one to three days after you&apos;re infected and can range from mild to severe. Symptoms usually last just a day or two, but occasionally they may persist as long as 10 days. 
+&lt;/p&gt;
+&lt;p&gt;
+Because the symptoms are similar, it&apos;s easy to confuse viral diarrhea with diarrhea caused by bacteria such as salmonella and E. coli or parasites such as giardia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re an adult, call your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re not able to keep liquids down for 24 hours&lt;/li&gt;
+	&lt;li&gt;You&apos;ve been vomiting for more than two days&lt;/li&gt;
+	&lt;li&gt;You&apos;re vomiting blood&lt;/li&gt;
+	&lt;li&gt;You&apos;re dehydrated &amp;mdash; signs of dehydration include excessive thirst, dry mouth, deep yellow urine or little or no urine, and severe weakness, dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;You notice blood in your bowel movements&lt;/li&gt;
+	&lt;li&gt;You have a fever above 104 F (40 C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For infants and children&lt;/strong&gt; &lt;br /&gt;
+See your doctor right away if your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has a fever of 102 F (38.9 C) or higher&lt;/li&gt;
+	&lt;li&gt;Seems lethargic or very irritable&lt;/li&gt;
+	&lt;li&gt;Is in a lot of discomfort or pain&lt;/li&gt;
+	&lt;li&gt;Has bloody diarrhea&lt;/li&gt;
+	&lt;li&gt;Seems dehydrated &amp;mdash; watch for signs of dehydration in sick infants and children by comparing how much they drink and urinate with how much is normal for them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have an infant, remember that while spitting up may be an everyday occurrence for your baby, vomiting is not. Babies vomit for a variety of reasons, many of which may require medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+Call your baby&apos;s doctor right away if your baby: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has vomiting that lasts more than several hours&lt;/li&gt;
+	&lt;li&gt;Hasn&apos;t had a wet diaper in six hours&lt;/li&gt;
+	&lt;li&gt;Has bloody stools or severe diarrhea&lt;/li&gt;
+	&lt;li&gt;Has a sunken fontanel &amp;mdash; the soft spot on the top of your baby&apos;s head&lt;/li&gt;
+	&lt;li&gt;Has a dry mouth or cries without tears&lt;/li&gt;
+	&lt;li&gt;Is unusually sleepy, drowsy or unresponsive&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of stomach and intestines 
+" Caption="Viral gastroenteritis is an infection of the intestines that causes watery diarrhea, abdominal cramps, and nausea or vomiting. 
+" Height="60" Title="Viral gastroenteritis" URI="/images/image_popup/thumbs/mcdc7_viral_gastroenteritisthu.jpg" Width="60" />
+				<Image Alt="Illustration of stomach and intestines 
+" Caption="Viral gastroenteritis is an infection of the intestines that causes watery diarrhea, abdominal cramps, and nausea or vomiting. 
+" Height="542" Title="Viral gastroenteritis" URI="/images/image_popup/mcdc7_viral_gastroenteritis.jpg" Width="400" />
+				<HTML>
+					Viral gastroenteritis is an infection of the intestines that causes watery diarrhea, abdominal cramps, and nausea or vomiting. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re most likely to contract viral gastroenteritis when you eat or drink contaminated food or water, or if you share utensils, towels or food with someone who&apos;s infected. 
+&lt;/p&gt;
+&lt;p&gt;
+Viruses that can cause gastroenteritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rotavirus.&lt;/strong&gt; Children are usually infected when they put their fingers or other objects contaminated with the virus into their mouths. Adults infected with rotavirus may not have symptoms, but can still spread the illness &amp;mdash; of particular concern in institutional settings because infected adults unknowingly can pass the virus along to others. Some people, particularly those in institutional settings, may spread the virus even though they don&apos;t have any symptoms of illness themselves. A vaccine against rotaviral gastroenteritis is available in some countries, including the United States, and appears to be effective in preventing severe symptoms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Noroviruses.&lt;/strong&gt; Both children and adults are affected by noroviruses. Norovirus infection can sweep through families and communities. It&apos;s especially likely to spread among people in confined spaces. In most cases you pick up the virus from contaminated food or water, although person-to-person transmission also is possible. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some shellfish, especially raw or undercooked oysters, also can make you sick. Contaminated drinking water is another cause of viral diarrhea. But in many cases, the virus is passed through the fecal-oral route &amp;mdash; that is, someone with the virus handles food you eat without washing his or her hands after using the toilet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gastroenteritis occurs all over the world, affecting people of every age, race and background. 
+&lt;/p&gt;
+&lt;p&gt;
+People who may be more susceptible to gastroenteritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young children.&lt;/strong&gt; Children in child care centers or elementary schools may be especially vulnerable because it takes time for a child&apos;s immune system to mature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older adults.&lt;/strong&gt; Adult immune systems tend to become less efficient later in life. Older adults in nursing homes, in particular, are vulnerable because their immune systems weaken and they live in close contact with others who may pass along germs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schoolchildren, churchgoers or dormitory residents.&lt;/strong&gt; Anywhere that groups of people come together in close quarters can be an environment for an intestinal infection to get passed along &amp;mdash; and flourish.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anyone with a weakened immune system.&lt;/strong&gt; If your resistance to infection is low &amp;mdash; for instance, if your immune system is compromised by HIV/AIDS, chemotherapy or another medical condition &amp;mdash; you may be especially at risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Each gastrointestinal virus has a season when it&apos;s most active. If you live in the Northern Hemisphere, for instance, you&apos;re more likely to have rotavirus or norovirus infections between October and April. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main complication of viral gastroenteritis is dehydration &amp;mdash; a severe loss of water and essential salts and minerals. If you&apos;re healthy and drink enough to replace fluids you lose from vomiting and diarrhea, dehydration shouldn&apos;t be a problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Infants, older adults and people with suppressed immune systems may become severely dehydrated when they lose more fluids than they can replace. If that&apos;s the case, hospitalization might be needed so that lost fluids can be replaced intravenously. Rarely, dehydration can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child needs to see a doctor, you&apos;ll likely see your primary care provider first. If there are questions about the diagnosis, your doctor may refer you to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is often limited, so preparing a list of questions will help you make the most of your time together. Some questions you might want to ask your doctor or your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the likely cause of the symptoms? Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;Is there a need for any tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment approach? Are there any alternatives?&lt;/li&gt;
+	&lt;li&gt;Is there a need to take any medicine?&lt;/li&gt;
+	&lt;li&gt;What can I do at home to ease the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Some questions the doctor may ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did symptoms first begin?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or do they come and go?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Drink plenty of fluids. Stick with bland foods to reduce stress on your digestive system. If your child is sick, follow the same approach &amp;mdash; offer plenty of fluids and bland food. If you&apos;re breast-feeding or using formula, continue to feed your child as usual. Ask your child&apos;s doctor if giving your child an oral rehydration solution such as Pedialyte would help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely diagnose gastroenteritis based on symptoms, a physical exam and sometimes on the presence of similar cases in your community. A rapid stool test can detect rotavirus or norovirus, but there are no quick tests for other viruses that cause gastroenteritis. In some cases, your doctor may have you submit a stool sample to rule out a possible bacterial or parasitic infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s often no specific medical treatment for viral gastroenteritis. Antibiotics aren&apos;t effective against viruses, and overusing them can contribute to the development of antibiotic-resistant strains of bacteria. Treatment consists of self-care measures. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help keep yourself more comfortable and prevent dehydration while you recover, try the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Let your stomach settle.&lt;/strong&gt; Stop eating solid foods for a few hours. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try sucking on ice chips or taking small sips of water.&lt;/strong&gt; You might also try drinking clear soda, such as 7UP or Sprite; clear broths; or noncaffeinated sports drinks, such as Gatorade. Drink plenty of liquid every day, taking small, frequent sips.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ease back into eating.&lt;/strong&gt; Gradually begin to eat bland, easy-to-digest foods such as soda crackers, toast, gelatin, bananas, rice and chicken. Stop eating if your nausea returns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain foods and substances until you feel better.&lt;/strong&gt; These include dairy products, caffeine, alcohol, nicotine, and fatty or highly seasoned foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; The illness and dehydration may have made you weak and tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious with medications.&lt;/strong&gt; Use medications such as ibuprofen (Advil, Motrin, others) sparingly, if at all. They can make your stomach more upset. Use acetaminophen (Tylenol, others) cautiously, for it sometimes can cause liver toxicity, especially in children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For infants and children&lt;/strong&gt; &lt;br /&gt;
+When your child has an intestinal infection, the most important goal is to replace lost fluids and salts. These suggestions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Help your child rehydrate.&lt;/strong&gt; Give your child an oral rehydration solution such as Pedialyte. Don&apos;t use only water &amp;mdash; in children with gastroenteritis, water isn&apos;t absorbed well and won&apos;t adequately replace lost electrolytes. You can find oral rehydration solutions in most grocery stores. Talk to your doctor if you have questions about how to use them. Avoid giving your child apple juice for rehydration &amp;mdash; it can make diarrhea worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get back to a normal diet slowly.&lt;/strong&gt; Gradually introduce bland, easy-to-digest foods, such as toast, rice, bananas and potatoes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain foods.&lt;/strong&gt; Don&apos;t give your child dairy products and sugary foods, such as ice cream, sodas and candy. These can make diarrhea worse. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure your child gets plenty of rest.&lt;/strong&gt; The illness and dehydration may have made your child weak and tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t give children or teenagers aspirin.&lt;/strong&gt; It may cause Reye&apos;s syndrome, a rare, but potentially fatal, disease. Avoid giving your child over-the-counter anti-diarrheal medications such as Imodium unless advised by your doctor. They can make it harder for your child&apos;s body to eliminate the virus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a sick infant, let your baby&apos;s stomach rest for 15 to 20 minutes after vomiting or a bout of diarrhea, then offer small amounts of liquid. If you&apos;re breast-feeding, let your baby nurse. If your baby is bottle-fed, offer a small amount of an oral rehydration solution or regular formula. Don&apos;t dilute your baby&apos;s already-prepared formula.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent the spread of intestinal infections is to follow these common-sense precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands thoroughly.&lt;/strong&gt; And make sure your children do, too. If your children are older, teach them to wash their hands, especially after using the toilet. It&apos;s best to use warm water and soap and to rub hands vigorously for at least 20 seconds, remembering to wash around cuticles, beneath fingernails and in the creases of the hands. Then rinse thoroughly. Carry towelettes or hand sanitizer for times when soap and water aren&apos;t available. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use separate personal items around your home.&lt;/strong&gt; Avoid sharing eating utensils, glasses and plates. Use separate towels in the bathroom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your distance.&lt;/strong&gt; Avoid close contact with anyone who has the virus, if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check out your child care center.&lt;/strong&gt; Make sure the center has separate rooms for changing diapers and preparing or serving food. The room with the diaper-changing table should have a sink as well as a sanitary way to dispose of diapers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Take precautions when traveling&lt;/strong&gt; &lt;br /&gt;
+When you&apos;re traveling in other countries, you can become sick from contaminated food or water. You may be able to reduce your risk by following these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drink only well-sealed bottled or carbonated water.&lt;/li&gt;
+	&lt;li&gt;Avoid ice cubes, because ice cubes may be made from contaminated water.&lt;/li&gt;
+	&lt;li&gt;Use bottled water to brush your teeth.&lt;/li&gt;
+	&lt;li&gt;Avoid raw food &amp;mdash; including peeled fruits, raw vegetables and salads &amp;mdash; that has been touched by human hands.&lt;/li&gt;
+	&lt;li&gt;Avoid undercooked meat and fish.&lt;/li&gt;
+	&lt;li&gt;Get vaccinated. A vaccine against gastroenteritis caused by the rotavirus is available in some countries, including the United States, and appears to be effective in preventing severe symptoms of this illness. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Viral gastroenteritis (stomach flu)
+	</Title>
+	<Abstract>
+		Viral gastroenteritis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of condition often called stomach flu.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00942" LinkType="Internal" ObjectID="5110957F-E7FF-0DBD-1118AB40C328C978" Title="Norovirus infection" Url="http://www.mayoclinic.com/health/norovirus/DS00942" />
+		<LinkItem ContentType="Disease" DocID="DS00783" LinkType="Internal" ObjectID="22F3B224-E7FF-0DBD-1E77C66BE8B8C85F" Title="Rotavirus" Url="http://www.mayoclinic.com/health/rotavirus/DS00783" />
+		<LinkItem ContentType="FirstAid" DocID="FA00030" LinkType="Internal" ObjectID="0F49E27F-17C5-40D6-B5929A22CE288C23" Title="Gastroenteritis: First aid" Url="http://www.mayoclinic.com/health/first-aid-gastroenteritis/FA00030" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Answer" DocID="AN01778" LinkType="Internal" ObjectID="B65EC8CB-E7FF-0DBD-18D7DBC69F998382" Title="Flu shot: Will it prevent the stomach flu?" Url="http://www.mayoclinic.com/health/flu-shot/AN01778" />
+		<LinkItem ContentType="Answer" DocID="AN01758" LinkType="Internal" ObjectID="ABCF63F3-E7FF-0DBD-176D82683714609A" Title="Stomach flu: How long am I contagious?" Url="http://www.mayoclinic.com/health/stomach-flu/AN01758" />
+		<LinkItem ContentType="Disease" DocID="DS00142" LinkType="Internal" ObjectID="E9612586-2CF3-4EA2-8AC437141CB43D0E" Title="Reye&apos;s syndrome" Url="http://www.mayoclinic.com/health/reyes-syndrome/DS00142" />
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+		<LinkItem ContentType="Disease" DocID="DS00561" LinkType="Internal" ObjectID="5C302784-080C-4278-B4953F801900B4F2" Title="Dehydration" Url="http://www.mayoclinic.com/health/dehydration/DS00561" />
+		<LinkItem ContentType="Disease" DocID="DS00005" LinkType="Internal" ObjectID="32278E96-F109-4807-8738841CD620091B" Title="HIV/AIDS" Url="http://www.mayoclinic.com/health/hiv-aids/DS00005" />
+	</RelatedLinksBox>
+</Disease>

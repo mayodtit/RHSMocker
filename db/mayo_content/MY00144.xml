@@ -1,0 +1,191 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00144
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/creatinine/MY00144
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-01
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3854" Title="Endocrine system">
+						<Keyword MCVID="3856" Title="Creatinine test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF99648F-E7FF-0DBD-1A312E6A69DDB204
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				creatinine
+			</MetaKeyword>
+			<MetaKeyword>
+				creatinine test
+			</MetaKeyword>
+			<MetaKeyword>
+				serum creatinine
+			</MetaKeyword>
+			<MetaKeyword>
+				serum creatinine test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes complications
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes care
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A creatinine test reveals important information about your kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+Creatinine is a chemical waste product that&apos;s produced by your muscle metabolism and to a smaller extent by eating meat. Healthy kidneys filter creatinine and other waste products from your blood. The filtered waste products leave your body in your urine.
+&lt;/p&gt;
+&lt;p&gt;
+If your kidneys aren&apos;t functioning properly, an increased level of creatinine may accumulate in your blood. A serum creatinine test measures the level of creatinine in your blood and gives you an estimate of how well your kidneys filter (glomerular filtration rate). A creatinine urine test can measure creatinine in your urine.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A serum creatinine test &amp;mdash; which measures the level of creatinine in your blood &amp;mdash; can indicate whether your kidneys are working properly. How often you need creatinine tests depends on any underlying conditions and your risk of kidney damage. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you have type 1 or type 2 diabetes,&lt;/strong&gt; your doctor may recommend a creatinine test at least once a year.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have kidney disease,&lt;/strong&gt; your doctor may recommend creatinine tests at regular intervals to monitor your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have an illness that may affect your kidneys &lt;/strong&gt;&amp;mdash; such as high blood pressure or diabetes &amp;mdash; or you&apos;re taking medication that may affect your kidneys, your doctor may recommend creatinine tests.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The serum creatinine test is a common blood test. If your blood sample is being tested only for creatinine, you can eat and drink normally before the test. If your blood sample will be used for additional tests, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the serum creatinine test, a member of your health care team simply takes a sample of blood by inserting a needle into a vein in your arm. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your doctor may measure the level of creatinine in your urine as well. For this test, part of a creatinine clearance test, your doctor may ask you to collect 24 hours&apos; worth of urine in a special container and submit it for analysis. The urine creatinine test can help your doctor more accurately assess the presence or degree of kidney failure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of the creatinine blood test are measured in milligrams per deciliter or micromoles per liter. The normal range for creatinine in the blood may be 0.6 to 1.3 milligrams per deciliter (53 to 115 micromoles per liter), although this can vary from lab to lab, between men and women, and by age. Since the amount of creatinine in the blood increases with muscle mass, men usually have higher creatinine levels than do women.
+&lt;/p&gt;
+&lt;p&gt;
+Generally, a high serum creatinine level means that your kidneys aren&apos;t working well. Your creatinine level may temporarily increase if you&apos;re dehydrated, have a low blood volume, eat a large amount of meat or take certain medications. The dietary supplement creatine can have the same effect.
+&lt;/p&gt;
+&lt;p&gt;
+If your serum creatinine level is higher than normal, your doctor may want to confirm the results with another blood or urine test. If kidney damage is a concern, it&apos;s important to control any conditions that may be contributing to the damage. It&apos;s especially important to manage your blood pressure, which often requires medication. You can&apos;t undo permanent kidney damage, but with appropriate treatment you may be able to prevent further damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Creatinine test
+	</Title>
+	<Abstract>
+		Creatinine test &amp;mdash; Overview covers definition, preparation, results of this common blood test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

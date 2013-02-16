@@ -1,0 +1,507 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00598
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ulcerative-colitis/DS00598
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1452" Title="Intestines">
+						<Keyword MCVID="1852" Title="Inflammatory bowel disease">
+							<Keyword MCVID="2643" Title="Ulcerative colitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CCF3D401-FC1F-4E91-AF769F114D0381F8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ulcerative colitis
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammatory bowel disease
+			</MetaKeyword>
+			<MetaKeyword>
+				colon
+			</MetaKeyword>
+			<MetaKeyword>
+				large intestine
+			</MetaKeyword>
+			<MetaKeyword>
+				rectum
+			</MetaKeyword>
+			<MetaKeyword>
+				digestive tract
+			</MetaKeyword>
+			<MetaKeyword>
+				diarrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				Crohn&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Chron&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Chrones disease
+			</MetaKeyword>
+			<MetaKeyword>
+				crones
+			</MetaKeyword>
+			<MetaKeyword>
+				colitus
+			</MetaKeyword>
+			<MetaKeyword>
+				inflamatory bowel disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ulcerative colitis (UL-sur-uh-tiv koe-LIE-tis) is an inflammatory bowel disease (IBD) that causes long-lasting inflammation in part of your digestive tract. 
+&lt;/p&gt;
+&lt;p&gt;
+Like Crohn&apos;s disease, another common IBD, ulcerative colitis can be debilitating and sometimes can lead to life-threatening complications. Because ulcerative colitis is a chronic condition, symptoms usually develop over time, rather than suddenly. 
+&lt;/p&gt;
+&lt;p&gt;
+Ulcerative colitis usually affects only the innermost lining of your large intestine (colon) and rectum. It occurs only through continuous stretches of your colon, unlike Crohn&apos;s disease, which occurs anywhere in the digestive tract and often spreads deeply into the affected tissues. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no known cure for ulcerative colitis, but therapies are available that may dramatically reduce the signs and symptoms of ulcerative colitis and even bring about a long-term remission. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ulcerative colitis symptoms can vary, depending on the severity of inflammation and where it occurs. For these reasons, doctors often classify ulcerative colitis according to its location. 
+&lt;/p&gt;
+&lt;p&gt;
+Here are the signs and symptoms that may accompany ulcerative colitis, depending on its classification: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcerative proctitis.&lt;/strong&gt; In this form of ulcerative colitis, inflammation is confined to the area closest to the anus (rectum), and for some people, rectal bleeding may be the only sign of the disease. Others may have rectal pain and a feeling of urgency. This form of ulcerative colitis tends to be the mildest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proctosigmoiditis.&lt;/strong&gt; This form involves the rectum and the lower end of the colon, known as the sigmoid colon. Bloody diarrhea, abdominal cramps and pain, and an inability to move the bowels in spite of the urge to do so (tenesmus) are common problems associated with this form of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Left-sided colitis.&lt;/strong&gt; As the name suggests, inflammation extends from the rectum up through the sigmoid and descending colon, which are located in the upper left part of the abdomen. Signs and symptoms include bloody diarrhea, abdominal cramping and pain on the left side, and unintended weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancolitis.&lt;/strong&gt; Affecting more than the left colon and often the entire colon, pancolitis causes bouts of bloody diarrhea that may be severe, abdominal cramps and pain, fatigue, and significant weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fulminant colitis.&lt;/strong&gt; This rare, life-threatening form of colitis affects the entire colon and causes severe pain, profuse diarrhea and, sometimes, dehydration and shock. People with fulminant colitis are at risk of serious complications, including colon rupture and toxic megacolon, a condition that causes the colon to rapidly expand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The course of ulcerative colitis varies, with periods of acute illness often alternating with periods of remission. But over time, the severity of the disease usually remains the same. Most people with a milder condition, such as ulcerative proctitis, won&apos;t go on to develop more-severe signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you experience a persistent change in your bowel habits or if you have any of the signs and symptoms of ulcerative colitis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Blood in your stool&lt;/li&gt;
+	&lt;li&gt;Ongoing bouts of diarrhea that don&apos;t respond to over-the-counter (OTC) medications&lt;/li&gt;
+	&lt;li&gt;An unexplained fever lasting more than a day or two&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although ulcerative colitis usually isn&apos;t fatal, it&apos;s a serious disease that, in some cases, may cause life-threatening complications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Like Crohn&apos;s disease, ulcerative colitis causes inflammation and ulcers in your intestine. But unlike Crohn&apos;s, which can affect the colon in various, separate sections, ulcerative colitis usually affects one continuous section of the inner lining of the colon beginning with the rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+No one is quite sure what triggers ulcerative colitis, but there&apos;s a consensus as to what doesn&apos;t. Researchers no longer believe that stress is the main cause, although stress can often aggravate symptoms. Instead, current thinking focuses on the following possibilities: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system.&lt;/strong&gt; Some scientists think a virus or bacterium may trigger ulcerative colitis. The digestive tract becomes inflamed when your immune system tries to fight off the invading microorganism (pathogen). It&apos;s also possible that inflammation may stem from an autoimmune reaction in which your body mounts an immune response even though no pathogen is present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Because you&apos;re more likely to develop ulcerative colitis if you have a parent or sibling with the disease, scientists suspect that genetic makeup may play a contributing role. However, most people who have ulcerative colitis don&apos;t have a family history of this disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ulcerative colitis affects about the same number of women and men. Risk factors may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Ulcerative colitis usually begins before the age of 30. But, it can occur at any age, and some people may not develop the disease until their 50s or 60s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race or ethnicity.&lt;/strong&gt; Although whites have the highest risk of the disease, it can occur in any race. If you&apos;re of Ashkenazi Jewish descent, your risk is even higher.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; You&apos;re at higher risk if you have a close relative, such as a parent, sibling or child, with the disease.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Isotretinoin use.&lt;/strong&gt; Isotretinoin is a medication sometimes used to treat scarring cystic acne or acne that doesn&apos;t respond to other treatments. It used to be sold under the brand name Accutane, but that brand has been discontinued, and it&apos;s now sold under the brand names Amnesteem, Claravis and Sotret.
+	&lt;/p&gt;
+	&lt;p&gt;
+	There is conflicting information as to whether isotretinoin use can increase the risk of inflammatory bowel disease. Some studies have suggested a possible link, while other studies have found no such evidence. The question of whether or not there is a link is further complicated by research that suggests a possible connection between the use of tetracycline class antibiotics and the development of IBD. Many people who have been treated with isotretinoin for acne also have received tetracyclines as part of their acne therapy. Studies that have examined the possible link between isotretinoin and IBD have not addressed the question of whether antibiotics used for acne may have played a role in increasing risk. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of ulcerative colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe bleeding&lt;/li&gt;
+	&lt;li&gt;A hole in the colon (perforated colon)&lt;/li&gt;
+	&lt;li&gt;Severe dehydration&lt;/li&gt;
+	&lt;li&gt;Liver disease (rare)&lt;/li&gt;
+	&lt;li&gt;Kidney stones&lt;/li&gt;
+	&lt;li&gt;Osteoporosis&lt;/li&gt;
+	&lt;li&gt;Inflammation of your skin, joints and eyes&lt;/li&gt;
+	&lt;li&gt;An increased risk of colon cancer&lt;/li&gt;
+	&lt;li&gt;A rapidly swelling colon (toxic megacolon)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you have ulcerative colitis, you&apos;re likely to start by first seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in digestive disorders (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking. Be sure to let your doctor know if you&apos;re taking any herbal preparations, as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time can help you make the most of your time. List your questions from most important to least important in case time runs out. For ulcerative colitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any prescription or over-the-counter medications I need to avoid?&lt;/li&gt;
+	&lt;li&gt;What sort of follow-up care do I need? How often do I need a colonoscopy?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there certain foods I can&apos;t eat anymore?&lt;/li&gt;
+	&lt;li&gt;Will I be able to keep working?&lt;/li&gt;
+	&lt;li&gt;Can I have children?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have abdominal pain?&lt;/li&gt;
+	&lt;li&gt;Have you had diarrhea? How often?&lt;/li&gt;
+	&lt;li&gt;Have you recently lost any weight unintentionally?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever experienced liver problems, hepatitis or jaundice?&lt;/li&gt;
+	&lt;li&gt;Have you ever taken the acne medication isotretinoin?&lt;/li&gt;
+	&lt;li&gt;Have you had any problems with your joints, eyes, skin rashes or sores, or had sores in your mouth?&lt;/li&gt;
+	&lt;li&gt;Do you awaken from sleep during the night because of diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled? If so, where?&lt;/li&gt;
+	&lt;li&gt;Is anyone else in your home sick with diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you taken antibiotics recently?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely diagnose ulcerative colitis only after ruling out other possible causes for your signs and symptoms, including Crohn&apos;s disease, ischemic colitis, infection, irritable bowel syndrome (IBS), diverticulitis and colon cancer. To help confirm a diagnosis of ulcerative colitis, you may have one or more of the following tests and procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may suggest blood tests to check for anemia or infection. Tests that look for the presence of certain antibodies can sometimes help diagnose which type of inflammatory bowel disease you have, but these tests can&apos;t definitely make the diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool sample.&lt;/strong&gt; The presence of white blood cells in your stool indicates an inflammatory disease, possibly ulcerative colitis. A stool sample can also help rule out other disorders, such as those caused by bacteria, viruses and parasites. In particular, infection with the bacterium Clostridium difficile can be responsible for diarrhea, but it&apos;s also more common among people with ulcerative colitis. Your doctor can also check for a bowel infection, which is more likely to occur in people with ulcerative colitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy.&lt;/strong&gt; This exam allows your doctor to view your entire colon using a thin, flexible, lighted tube with an attached camera. During the procedure, your doctor can also take small samples of tissue (biopsy) for laboratory analysis. Sometimes a tissue sample can help confirm a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flexible sigmoidoscopy.&lt;/strong&gt; In this procedure, your doctor uses a slender, flexible, lighted tube to examine the sigmoid, the last portion of your colon. The test may miss problems higher up in your colon and it doesn&apos;t give a full picture of how much of the colon has been affected. But, if your colon is severely inflamed, your doctor may perform this test instead of a full colonoscopy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Barium enema.&lt;/strong&gt; This diagnostic test allows your doctor to evaluate your entire large intestine with an X-ray. Barium, a contrast solution, is placed into your bowel using an enema. Sometimes air is added as well. The barium coats the lining, creating a silhouette of your rectum, colon and a portion of your small intestine. This test is rarely used anymore, and it can be dangerous because the pressure required to inflate and coat the colon can lead to rupture of the colon. For people with severe symptoms, flexible sigmoidoscopy combined with a CT scan is a better alternative.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; A standard X-ray of your abdominal area may be done to rule out toxic megacolon or a perforation if these conditions are suspected because of severe symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT scan.&lt;/strong&gt; A CT scan of your abdomen or pelvis may be performed if your doctor suspects a complication from ulcerative colitis or inflammation of the small intestine that might suggest Crohn&apos;s disease. A CT scan may also reveal how much of the colon is inflamed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of medical treatment is to reduce the inflammation that triggers your signs and symptoms. In the best cases, this may lead not only to symptom relief but also to long-term remission. Ulcerative colitis treatment usually involves either drug therapy or surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors use several categories of drugs that control inflammation in different ways. But drugs that work well for some people may not work for others, so it may take time to find a medication that helps you. In addition, because some drugs have serious side effects, you&apos;ll need to weigh the benefits and risks of any treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anti-inflammatory drugs&lt;/strong&gt; &lt;br /&gt;
+Anti-inflammatory drugs are often the first step in the treatment of inflammatory bowel disease. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sulfasalazine (Azulfidine).&lt;/strong&gt; Sulfasalazine can be effective in reducing symptoms of ulcerative colitis, but it has a number of side effects, including nausea, vomiting, diarrhea, heartburn and headache. Don&apos;t take this medication if you&apos;re allergic to sulfa medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mesalamine (Asacol, Lialda, others), balsalazide (Colazal) and olsalazine (Dipentum).&lt;/strong&gt; These medications are available in oral forms and also in topical forms, such as enemas and suppositories. Which form you take depends on the area of your colon that&apos;s affected by ulcerative colitis. These medications tend to have fewer side effects than sulfasalazine and are generally very well tolerated. Your doctor may prescribe a combination of two different forms, such as an oral medication and an enema or suppository. Mesalamine can relieve signs and symptoms in more than 90 percent of people with mild ulcerative colitis. People with proctitis tend to respond better to combination therapy with oral mesalamine and suppositories. For left-sided colitis, a combination of oral mesalamine and mesalamine enemas seems to work better than either agent alone if symptoms are mild to moderate. Rare side effects include headache, kidney problems and pancreas problems (pancreatitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Corticosteroids can help reduce inflammation, but they have numerous side effects, including weight gain, excessive facial hair, mood swings, high blood pressure, type 2 diabetes, osteoporosis, bone fractures, cataracts, glaucoma and an increased susceptibility to infections. Doctors generally use corticosteroids only if you have moderate to severe inflammatory bowel disease that doesn&apos;t respond to other treatments. Corticosteroids aren&apos;t for long-term use, and the dose is usually tapered down over two to three months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+They may also be used in conjunction with other medications as a means to induce remission. For example, corticosteroids may be used with an immune system suppressor &amp;mdash; the corticosteroids can induce remission, while the immune system suppressors can help maintain remission. Occasionally, your doctor may also prescribe short-term use of steroid enemas to treat disease in your lower colon or rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immune system suppressors&lt;/strong&gt; &lt;br /&gt;
+These drugs also reduce inflammation, but they target your immune system rather than treating inflammation itself. Because immune suppressors can be effective in treating ulcerative colitis, scientists theorize that damage to digestive tissues is caused by your body&apos;s immune response to an invading virus or bacterium or even to your own tissue. By suppressing this response, inflammation is also reduced. Immunosuppressant drugs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Azathioprine (Azasan, Imuran) and mercaptopurine (Purinethol).&lt;/strong&gt; Because azathioprine and mercaptopurine act slowly &amp;mdash; taking three months or longer to start working &amp;mdash; they&apos;re sometimes initially combined with a corticosteroid, but in time, they seem to produce benefits on their own and the steroids can be tapered off. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Side effects can include allergic reactions, bone marrow suppression, infections, and inflammation of the liver and pancreas. There also is a small risk of development of cancer with these medications. If you&apos;re taking either of these medications, you&apos;ll need to follow up closely with your doctor and have your blood checked regularly to look for side effects. If you&apos;ve had cancer, discuss this with your doctor before starting these medications. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclosporine (Gengraf, Neoral, Sandimmune).&lt;/strong&gt; This potent drug is normally reserved for people who don&apos;t respond well to other medications or who face possible surgery because of severe ulcerative colitis. In some cases, cyclosporine may be used to delay surgery until you&apos;re strong enough to undergo the procedure. In others, it&apos;s used to control signs and symptoms until less toxic drugs start working. Cyclosporine begins working in one to two weeks, but because it has the potential for severe side effects, including kidney damage, seizures and fatal infections, talk to your doctor about the risks and benefits of treatment. There&apos;s also a small risk of cancer with these medications, so let your doctor know if you&apos;ve previously had cancer.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Infliximab (Remicade).&lt;/strong&gt; This drug is specifically for those with moderate to severe ulcerative colitis who don&apos;t respond to or can&apos;t tolerate other treatments. It works quickly to bring on remission, especially for people who haven&apos;t responded well to corticosteroids. This drug can sometimes prevent surgery for some people. It works by neutralizing a protein produced by your immune system known as tumor necrosis factor (TNF). Infliximab finds TNF in your bloodstream and removes it before it causes inflammation in your intestinal tract. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Some people with heart failure, people with multiple sclerosis, and people with cancer or a history of cancer can&apos;t take infliximab. The drug has been linked to an increased risk of infection, especially tuberculosis and reactivation of viral hepatitis, and may increase your risk of blood problems and cancer. You&apos;ll need to have a skin test for tuberculosis, a chest X-ray and a test for hepatitis B before taking infliximab. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Also, because infliximab contains mouse protein, it can cause serious allergic reactions in some people &amp;mdash; reactions that may be delayed for days to weeks after starting treatment. Once started, infliximab is generally continued as long-term therapy, although its effectiveness may decrease over time. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adalimumab (Humira)&lt;/strong&gt; is an alternative to inflixmab for people whose ulcerative colitis has not been helped by other medications such as azathioprine or 6 mercaptopurine. It may also be considered for people who initially improve with infliximab but then improvement stops; but its benefit in this situation remains unproven. Adalimumab, like infliximab, carries a small risk of infections, including tuberculosis and serious fungal infections. Before taking adalimumab, you should have a skin test for tuberculosis, a chest X-ray and a test for hepatitis B. The most common side effects of adalimumab are skin irritation and pain at the injection site, nausea, runny nose and upper respiratory infection. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other medications&lt;/strong&gt; &lt;br /&gt;
+In addition to controlling inflammation, some medications may help relieve your signs and symptoms. Depending on the severity of your ulcerative colitis, your doctor may recommend one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; People with ulcerative colitis who run fevers will likely be given antibiotics to help prevent or control infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-diarrheals.&lt;/strong&gt; For severe diarrhea, loperamide (Imodium) may be effective. Use anti-diarrheal medications with great caution, however, because they increase the risk of toxic megacolon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; For mild pain, your doctor may recommend acetaminophen (Tylenol, others). Don&apos;t use ibuprofen (Advil, Motrin, others), naproxen (Aleve) or aspirin. These are likely to make your symptoms worse.&lt;/li&gt;
+	&lt;li&gt;Iron supplements. If you have chronic intestinal bleeding, you may develop iron deficiency anemia. Taking iron supplements may help restore your iron levels to normal and reduce this type of anemia once your bleeding has stopped or diminished.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If diet and lifestyle changes, drug therapy, or other treatments don&apos;t relieve your signs and symptoms, your doctor may recommend surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery can often eliminate ulcerative colitis. But that usually means removing your entire colon and rectum (proctocolectomy). In the past, after this surgery you would wear a small bag over an opening in your abdomen (ileal stoma) to collect stool. But a procedure called ileoanal anastomosis eliminates the need to wear a bag. Instead, your surgeon constructs a pouch from the end of your small intestine. The pouch is then attached directly to your anus. This allows you to expel waste more normally, although you may have more-frequent bowel movements that are soft or watery because you no longer have your colon to absorb water. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy&lt;/strong&gt; &lt;br /&gt;
+Women with ulcerative colitis can usually have successful pregnancies, especially if they can keep the disease in remission during pregnancy. Ideally, you&apos;ll become pregnant when your disease is in remission. Some medications may not be indicated for use in pregnancy, especially during the first trimester, and the effects of certain medications may linger after you stop them. Talk with your doctor about the best way to manage your illness before you conceive. If you stop certain medications, their effects may linger. It&apos;s estimated that the risk of passing ulcerative colitis to your unborn child if your partner doesn&apos;t have ulcerative colitis is less than 10 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer surveillance&lt;/strong&gt; &lt;br /&gt;
+Screening for colon cancer often needs to be done more frequently because people who have ulcerative colitis have an increased risk of colon cancer. It&apos;s recommended that people with pancolitis begin colon cancer screening with a colonoscopy eight years after diagnosis. For those who have left-sided colitis, screening with colonoscopy is recommended beginning 10 years after diagnosis. People with proctitis can follow the usual colon cancer screening guidelines that call for a colonoscopy every 10 years beginning at age 50. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes you may feel helpless when facing ulcerative colitis. But changes in your diet and lifestyle may help control your symptoms and lengthen the time between flare-ups. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diet&lt;/strong&gt; &lt;br /&gt;
+There&apos;s no firm evidence that what you eat causes inflammatory bowel disease. But certain foods and beverages can aggravate your symptoms, especially during a flare-up in your condition. It&apos;s a good idea to try eliminating from your diet anything that seems to make your signs and symptoms worse. Here are some suggestions that may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit dairy products.&lt;/strong&gt; If you suspect that you may be lactose intolerant, you may find that diarrhea, abdominal pain and gas improve when you limit or eliminate dairy products. You may be lactose intolerant &amp;mdash; that is, your body can&apos;t digest the milk sugar (lactose) in dairy foods. If so, try using an enzyme product, such as Lactaid, to help break down lactose. If you need help, a registered dietitian can help you design a healthy diet that&apos;s low in lactose. Keep in mind that with limiting your dairy intake, you&apos;ll need to find other sources of calcium, such as supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Experiment with fiber.&lt;/strong&gt; For most people, high-fiber foods, such as fresh fruits and vegetables and whole grains, are the foundation of a healthy diet. But if you have inflammatory bowel disease, fiber may make diarrhea, pain and gas worse. If raw fruits and vegetables bother you, try steaming, baking or stewing them. Check with your doctor before adding significant amounts of fiber to your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid problem foods.&lt;/strong&gt; Eliminate any other foods that seem to make your symptoms worse. These may include &quot;gassy&quot; foods, such as beans, cabbage and broccoli, raw fruit juices and fruits, popcorn, caffeine, and carbonated beverages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat small meals.&lt;/strong&gt; You may find that you feel better eating five or six small meals rather than two or three larger ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids.&lt;/strong&gt; Try to drink plenty of fluids daily. Water is best. Beverages that contain caffeine stimulate your intestines and can make diarrhea worse, while carbonated drinks frequently produce gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about multivitamins.&lt;/strong&gt; Because ulcerative colitis can interfere with your ability to absorb nutrients and because your diet may be limited, vitamin and mineral supplements can play a key role in supplying missing nutrients. They don&apos;t provide essential protein and calories, however, and shouldn&apos;t be a substitute for meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to a dietitian.&lt;/strong&gt; If you begin to lose weight or your diet has become very limited, talk to a registered dietitian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stress&lt;/strong&gt; &lt;br /&gt;
+Although stress doesn&apos;t cause inflammatory bowel disease, it can make your signs and symptoms much worse and may trigger flare-ups. Stressful events can range from minor annoyances to a move, job loss or the death of a loved one. 
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;re stressed, your normal digestive process can change, causing your stomach to empty more slowly and secrete more acids. Stress can also speed or slow the passage of intestinal contents. It may also cause changes in intestinal tissue itself. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s not always possible to avoid stress, you can learn ways to help manage it. Some of these include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Even mild exercise can help reduce stress, relieve depression and normalize bowel function. Talk to your doctor about an exercise plan that&apos;s right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; This stress-reduction technique helps you reduce muscle tension and slow your heart rate with the help of a feedback machine. You&apos;re then taught how to produce these changes yourself. The goal is to help you enter a relaxed state so that you can cope more easily with stress. Biofeedback is usually taught in hospitals and medical centers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Regular relaxation and breathing exercises.&lt;/strong&gt; An effective way to cope with stress is to perform relaxation and breathing exercises. You can take classes in yoga and meditation or practice at home using books, CDs or DVDs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; Hypnosis may reduce abdominal pain and bloating. A trained professional can teach you how to enter a relaxed state.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other techniques.&lt;/strong&gt; Set aside time every day for activities you find relaxing &amp;mdash; listening to music, reading, playing computer games or just soaking in a warm bath.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with inflammatory bowel diseases, such as ulcerative colitis or Crohn&apos;s disease, have used some form of alternative or complementary therapy. Side effects and ineffectiveness of conventional therapies may be among the reasons for seeking alternative care. 
+&lt;/p&gt;
+&lt;p&gt;
+These therapies generally aren&apos;t regulated by the Food and Drug Administration. Manufacturers can claim that their therapies are safe and effective, but don&apos;t need to prove it. Because even natural herbs can have side effects and cause dangerous interactions, talk to your doctor before trying any alternative or complementary therapies. 
+&lt;/p&gt;
+&lt;p&gt;
+Currently, no alternative therapies have good evidence supporting their use in treating ulcerative colitis, but some that may eventually prove beneficial include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Probiotics.&lt;/strong&gt; Because bacteria in the intestine have been implicated in ulcerative colitis, researchers suspect that adding more of the beneficial bacteria (probiotics) that are normally found in the digestive tract might help combat the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fish oil.&lt;/strong&gt; Fish oil acts as an anti-inflammatory, but studies on its possible benefits for people with ulcerative colitis have had conflicting results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aloe vera.&lt;/strong&gt; Aloe vera juice has been purported to have an anti-inflammatory effect for people with ulcerative colitis, but there&apos;s no strong evidence to back this claim. In addition, when ingested, aloe vera can have a laxative effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Several studies have found acupuncture to be of benefit to people with ulcerative colitis. The procedure involves the insertion of fine needles into the skin, which may stimulate the release of the body&apos;s natural painkillers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumeric.&lt;/strong&gt; Curcumin, a compound found in the spice turmeric, has been combined with standard ulcerative colitis therapies, such as corticosteroids or sulfasalazine, in clinical trials. This combination helped improve symptoms and allowed smaller doses of the standard drugs to be used. This evidence comes from two small studies, however. More research is needed before this treatment can be recommended.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you decide to try an alternative therapy, be sure to tell your doctor so that he or she can let you know about any potential interactions. You can also find out if a particular therapy has been studied in reputable trials by calling the National Center for Complementary and Alternative Medicine at 888-644-6226 or by looking on its website. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ulcerative colitis doesn&apos;t just affect you physically &amp;mdash; it takes an emotional toll as well. If signs and symptoms are severe, your life may revolve around a constant need to run to the toilet. In some cases, you may barely be able to leave the house. When you do, you might worry about an accident, and this anxiety likely makes your symptoms worse. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if your symptoms are mild, gas and abdominal pain can make it difficult to be out in public. You may also feel hampered by dietary restrictions or embarrassed by the nature of your disease. All of these factors &amp;mdash; isolation, embarrassment and anxiety &amp;mdash; can severely alter your life. Sometimes they may lead to depression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Support groups&lt;/strong&gt; &lt;br /&gt;
+One of the best ways to feel more in control is to find out as much as possible about ulcerative colitis. Organizations such as the Crohn&apos;s &amp; Colitis Foundation of America have chapters across the country to provide information and access to support groups. Ask your doctor, nurse or dietitian to locate the chapter nearest you, or contact the organization directly at 888-MY-GUT-PAIN (888-694-8872). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Counseling&lt;/strong&gt; &lt;br /&gt;
+Some people find it helpful to consult a psychologist or psychiatrist who&apos;s familiar with inflammatory bowel disease and the emotional difficulties it can cause. Ask your doctor for a referral if you think counseling might be helpful for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ulcerative colitis
+	</Title>
+	<Abstract>
+		Ulcerative colitis &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this inflammatory bowel disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00141" LinkType="Internal" ObjectID="DF5EAE47-E7FF-0DBD-14C2E4C1FE5519D4" Title="Colectomy" Url="http://www.mayoclinic.com/health/colectomy/MY00141" />
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+	</RelatedLinksBox>
+</Disease>

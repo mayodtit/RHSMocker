@@ -1,0 +1,270 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01172
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/alcohol-intolerance/DS01172
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4677" Title="Small intestine">
+						<Keyword MCVID="4680" Title="Alcohol intolerance" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2DFD1F9D-C4A7-A81C-802DBE8E120BED1C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				alcohol intolerance
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				beer allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				wine allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol hypersensitivity
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol intolerance can cause immediate, unpleasant reactions after you consume alcohol. The most common signs and symptoms of alcohol intolerance are nasal congestion and skin flushing. This condition is sometimes inaccurately referred to as an alcohol allergy. Alcohol intolerance is caused by a genetic condition in which the body is unable to break down alcohol. The only way to prevent alcohol intolerance is to avoid alcohol altogether. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, what may seem to be alcohol intolerance is caused by a reaction to something else in an alcoholic beverage &amp;mdash; such as chemicals, grains or preservatives. In other cases, reactions are caused by combining alcohol with certain medications. In rare instances, reactions to alcohol can be a sign of a serious underlying health problem that requires diagnosis and treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol intolerance symptoms &amp;mdash; or symptoms of a reaction to ingredients in an alcoholic beverage &amp;mdash; can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Facial redness (flushing) &lt;/li&gt;
+	&lt;li&gt;Warm, red, itchy bumps on the skin (hives) &lt;/li&gt;
+	&lt;li&gt;Worsening of pre-existing asthma &lt;/li&gt;
+	&lt;li&gt;Runny or stuffy nose&lt;/li&gt;
+	&lt;li&gt;Headache &lt;/li&gt;
+	&lt;li&gt;Low blood pressure &lt;/li&gt;
+	&lt;li&gt;Nausea &lt;/li&gt;
+	&lt;li&gt;Vomiting &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+You may not need to see a doctor if you have a mild intolerance to alcohol or something else in alcoholic beverages. You may simply need to avoid alcohol, limit how much you drink or avoid certain types of alcoholic beverages that seem to be causing your symptoms. However, if you have a serious reaction or you suspect your symptoms could be linked to an allergy or underlying health problem or a medication you&apos;re taking, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol intolerance occurs when your body doesn&apos;t have the proper enzymes to break down (metabolize) the toxins in alcohol. This is caused by inherited (genetic) traits. 
+&lt;/p&gt;
+&lt;p&gt;
+Intolerance reactions can also be caused by a number of other ingredients commonly found in alcoholic beverages, especially in beer or wine. &amp;nbsp;These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sulfites or other preservatives &lt;/li&gt;
+	&lt;li&gt;Chemicals, grains or other ingredients &lt;/li&gt;
+	&lt;li&gt;Histamine, a byproduct of fermentation or brewing &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, reactions can be triggered by an allergy to a grain such as corn, wheat or rye or to another substance contained in alcoholic beverages. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, severe pain after drinking alcohol is a sign of a more serious underlying disorder, such as Hodgkin lymphoma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for alcohol intolerance or other reactions to alcoholic beverages include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being of Asian descent. Some people of Asian descent have flushing and other intolerance symptoms after drinking alcohol.&lt;/li&gt;
+	&lt;li&gt;Having an allergy to grains or to another food.&lt;/li&gt;
+	&lt;li&gt;Having Hodgkin lymphoma. &lt;/li&gt;
+	&lt;li&gt;Taking certain antibiotic or antifungal medications.&lt;/li&gt;
+	&lt;li&gt;Taking disulfiram (Antabuse) for alcohol abuse or alcohol dependence. When you drink, disulfiram can cause reactions that include flushing, racing heartbeat, nausea and vomiting.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the cause, complications of alcohol intolerance or other reactions to alcoholic beverages can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Migraines.&lt;/strong&gt; Histamines, contained in some alcoholic beverages and also released by your immune system during an allergic reaction, may trigger migraines in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A severe allergic reaction.&lt;/strong&gt; In very rare cases, an allergic reaction can be life-threatening (anaphylactic reaction) and require emergency treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although alcohol intolerance usually isn&apos;t a serious issue, you may want to discuss it with your doctor at your next appointment. Because appointments can be brief, it&apos;s a good idea to prepare ahead of time. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes. Stress can sometimes worsen allergic reactions or sensitivities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my reaction to alcoholic beverages likely due to an allergy or something else?&lt;/li&gt;
+	&lt;li&gt;Are any of my medications likely causing or worsening my reaction to alcohol?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Do I need to give up alcohol altogether?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Being ready to answer your doctor&apos;s questions can save time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice a reaction to alcoholic beverages?&lt;/li&gt;
+	&lt;li&gt;What beverages seem to trigger your symptoms? For example, are they triggered by beer, wine, or a particular type of liquor or mixed drink?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How long does it take for symptoms to appear after drinking the beverage?&lt;/li&gt;
+	&lt;li&gt;How much of the beverage do you drink before you notice a reaction?&lt;/li&gt;
+	&lt;li&gt;Have you tried any over-the-counter allergy medications, such as antihistamines, for your reaction, and if so, did they help?&lt;/li&gt;
+	&lt;li&gt;Do you have any known food allergies or other allergies?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Avoid the beverage or beverages that seem to cause your reaction until your doctor&apos;s appointment. If you do drink an alcoholic beverage that causes a mild reaction, over-the-counter antihistamines may help relieve symptoms. If you have a more severe reaction &amp;mdash; such as a severe skin reaction, weak pulse, vomiting or trouble breathing &amp;mdash; seek emergency help right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will try to figure out whether you have an intolerance, or if your symptoms are caused by something else, such as a reaction to other ingredients in alcoholic beverages. The following may help determine the cause of your symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Description of your symptoms.&lt;/strong&gt; Be prepared to tell your doctor exactly what symptoms you have and what drinks cause them. Your doctor may want to know whether you have any blood relatives with food allergies or other allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; A careful exam can identify or exclude other medical problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; A skin prick test can determine whether you may be allergic to something in alcoholic beverages &amp;mdash; for example, grains in beer. In this test, your skin is pricked with a tiny amount of a substance that could be causing your reaction. If you&apos;re allergic to the substance being tested, you&apos;ll develop a raised bump or other skin reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A blood test can measure your immune system&apos;s response to a particular substance by checking the amount of allergy-type antibodies in your bloodstream known as immunoglobulin E (IgE) antibodies. For this test, a blood sample is sent to a laboratory to check reactions to certain foods. However, these blood tests aren&apos;t always accurate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only way to avoid alcohol intolerance symptoms or an allergic reaction is to avoid alcohol or the particular beverage or ingredients that cause the problem. For a minor reaction, over-the-counter or prescription antihistamines may help reduce symptoms, such as itching or hives. However, antihistamines can&apos;t treat a serious allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had a severe allergic reaction to a certain food, wear a medical alert bracelet or necklace that lets others know that you have an allergy in case you have a reaction and you&apos;re unable to communicate. Ask your doctor if you need to carry emergency epinephrine (adrenaline) in the form of an autoinjector (EpiPen, Twinject). This prescription device has a concealed needle that injects a single dose of epinephrine when you press it against your thigh. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unfortunately, no medications or other treatments can prevent reactions to alcohol or other ingredients in alcoholic beverages. The only way to avoid a reaction is to avoid alcohol completely or avoid whatever particular substance causes your reaction. Read beverage labels carefully to see whether they contain ingredients or additives you know cause a reaction, such as sulfites or certain grains. But, be aware that labels may not list the ingredient or ingredients that cause your reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+The key treatment is to do your best to avoid the beverage in question. Work with your doctor to identify what steps you can take to relieve your symptoms and how to spot and respond to a severe reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Alcohol intolerance
+	</Title>
+	<Abstract>
+		Alcohol intolerance &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of reactions to alcoholic beverages.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Disease" DocID="DS00186" LinkType="Internal" ObjectID="A0FF52F1-F396-4240-BF1993EB72EF4C80" Title="Hodgkin&apos;s lymphoma (Hodgkin&apos;s disease)" Url="http://www.mayoclinic.com/health/hodgkins-disease/DS00186" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+	</RelatedLinksBox>
+</Disease>

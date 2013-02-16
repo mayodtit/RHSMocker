@@ -1,0 +1,80 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00336
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00336
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-08
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2863" Title="Dry skin" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3278" Title="Winter" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			16F89139-E7FF-0DBD-1D94DE04C20ADD98
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dry air
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin
+			</MetaKeyword>
+			<MetaKeyword>
+				humidifier
+			</MetaKeyword>
+			<MetaKeyword>
+				humidifiers
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Humidifier care 101
+	</Title>
+	<Body>
+		&lt;p&gt;Dry winter air can take a toll on your skin, nose and lips. To increase the humidity indoors, try a portable home humidifier. Set the humidity level between 30 and 50 percent, and fill the humidifier with distilled or demineralized water. Change the humidifier water often. Clean the humidifier every three days. If the humidifier has a filter, change it at least as often as the manufacturer recommends.&lt;/p&gt;
+	</Body>
+</HealthTip>

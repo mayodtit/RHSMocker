@@ -1,0 +1,362 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00250
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rheumatic-fever/DS00250
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-21
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1488" Title="Heart valve disease">
+						<Keyword MCVID="1493" Title="Rheumatic fever" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4B5E6D6E-E6C5-4431-AD57686342CD7695
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rheumatic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				strep throat
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				strep infection
+			</MetaKeyword>
+			<MetaKeyword>
+				rumatic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatic heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				group a streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				group a strep
+			</MetaKeyword>
+			<MetaKeyword>
+				GAS
+			</MetaKeyword>
+			<MetaKeyword>
+				acute rheumatic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				ARF
+			</MetaKeyword>
+			<MetaKeyword>
+				scarlet fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatic fever is an inflammatory disease that can develop as a complication of inadequately treated strep throat. Strep throat is caused by infection with group A streptococcus bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+Rheumatic fever is most common in 5- to 15-year-old children, though it can develop in younger children and adults. Although it&apos;s very rare in United States and other developed countries, rheumatic fever remains common in many developing nations. 
+&lt;/p&gt;
+&lt;p&gt;
+Rheumatic fever can cause permanent damage to the heart, including damaged heart valves and heart failure. Treatments can reduce tissue damage from inflammation, lessen pain and other symptoms, and prevent the recurrence of rheumatic fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatic fever symptoms may vary. Some people may have several symptoms, while others experience only a few. The symptoms may also change during the course of the disease. The onset of rheumatic fever usually occurs about two to four weeks after a strep throat infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Rheumatic fever signs and symptoms &amp;mdash; which result from inflammation in the heart, joints, skin or central nervous system &amp;mdash; may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Painful and tender joints &amp;mdash; most often the ankles, knees, elbows or wrists; less often the shoulders, hips, hands and feet&lt;/li&gt;
+	&lt;li&gt;Pain in one joint that migrates to another joint&lt;/li&gt;
+	&lt;li&gt;Red, hot or swollen joints&lt;/li&gt;
+	&lt;li&gt;Small, painless nodules beneath the skin&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Sensation of rapid, fluttering or pounding heartbeats (palpitations)&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Flat or slightly raised, painless rash with a ragged edge (erythema marginatum)&lt;/li&gt;
+	&lt;li&gt;Jerky, uncontrollable body movements (Sydenham chorea or St. Vitus&apos; dance) &amp;mdash; most often in the hands, feet and face &lt;/li&gt;
+	&lt;li&gt;Outbursts of unusual behavior, such as crying or inappropriate laughing, that accompanies Sydenham chorea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Your child should see a doctor if he or she has signs or symptoms of strep throat. Proper treatment of strep can prevent rheumatic fever. Call your doctor if your child has any of the following signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sore throat without cold symptoms, such as a runny nose&lt;/li&gt;
+	&lt;li&gt;A sore throat accompanied by tender, swollen lymph glands (nodes)&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing anything, including saliva&lt;/li&gt;
+	&lt;li&gt;Thick or bloody discharge from the nose, which is more likely in children under 3 years of age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Call your doctor about a fever in the following situations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Newborns up to 6 weeks with a fever of 100 F (37.8 C)&lt;/li&gt;
+	&lt;li&gt;Children ages 6 weeks to 2 years with a temperature of 102 F (38.9 C) or higher&lt;/li&gt;
+	&lt;li&gt;Children age 2 or older with a fever of 103 F (39.4 C) or higher&lt;/li&gt;
+	&lt;li&gt;Any fever that lasts more than three days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, see your doctor if your child shows any other signs or symptoms of rheumatic fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatic fever can occur after an infection of the throat with a bacterium called Streptococcus pyogenes, or group A streptococcus. Group A streptococcus infections of the throat cause strep throat or, less commonly, scarlet fever. Group A streptococcus infections of the skin or other parts of the body rarely trigger rheumatic fever. 
+&lt;/p&gt;
+&lt;p&gt;
+The exact link between strep infection and rheumatic fever isn&apos;t clear, but it appears that the bacterium &quot;plays tricks&quot; on the immune system. The strep bacterium contains a protein similar to one found in certain tissues of the body. Therefore, immune system cells that would normally target the bacterium may treat the body&apos;s own tissues as if they were infectious agents &amp;mdash; particularly tissues of the heart, joints, skin and central nervous system. This immune system reaction results in inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child receives prompt and complete treatment with an antibiotic to eliminate strep bacteria &amp;mdash; in other words, taking all doses of the medication as prescribed &amp;mdash; there&apos;s little to no chance of developing rheumatic fever. If your child has one or more episodes of strep throat or scarlet fever that aren&apos;t treated or not treated completely, he or she may &amp;mdash; but won&apos;t necessarily &amp;mdash; develop rheumatic fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of rheumatic fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Some people may carry a gene or genes that make them more likely to develop rheumatic fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type of strep bacteria.&lt;/strong&gt; Certain strains of strep bacteria are more likely to contribute to rheumatic fever than are other strains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Environmental factors.&lt;/strong&gt; A greater risk of rheumatic fever is associated with overcrowding, poor sanitation, and other conditions that may easily result in the rapid transmission or multiple exposures to strep bacteria.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Inflammation caused by rheumatic fever may last for a few weeks to several months. In some cases, the inflammation may cause long-term complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Rheumatic heart disease is permanent damage to the heart caused by the inflammation of rheumatic fever. Problems are most common with the valve between the two left chambers of the heart (mitral valve), but the other valves may be affected. The damage may result in one of the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Valve stenosis.&lt;/strong&gt; This condition is a narrowing of the valve, which results in decreased blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valve regurgitation.&lt;/strong&gt; This condition is a leak in the valve, which allows blood to flow in the wrong direction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to heart muscle.&lt;/strong&gt; The inflammation associated with rheumatic fever can weaken the heart muscle, resulting in poor pumping function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Damage to the mitral valve, other heart valves or other heart tissues can cause problems with the heart later in life. Resulting conditions may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial fibrillation,&lt;/strong&gt; an irregular and chaotic beating of the upper chambers of the heart (atria)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure,&lt;/strong&gt; an inability of the heart to pump enough blood to the body&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has signs or symptoms of rheumatic fever, you&apos;re likely to start by seeing your family doctor or a specialist in children&apos;s medicine (pediatrician). However, your doctor may refer you to a heart specialist (pediatric cardiologist) for some diagnostic tests. Because appointments can be brief, it&apos;s a good idea to prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Make a list ahead of time that you can share with your doctor. Your list should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Symptoms your child is experiencing or has recently experienced, even if the symptoms don&apos;t seem related to each other&lt;/li&gt;
+	&lt;li&gt;Recent illnesses your child has had&lt;/li&gt;
+	&lt;li&gt;Medications, including vitamins or supplements, that your child takes or has recently taken&lt;/li&gt;
+	&lt;li&gt;Questions for your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List questions for your doctor from most important to least important in case time runs out. If you think your child is showing signs or symptoms of rheumatic fever, you may ask some of the following questions. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my child have rheumatic fever?&lt;/li&gt;
+	&lt;li&gt;What other conditions could cause these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will my child need now and in the future?&lt;/li&gt;
+	&lt;li&gt;What is the best treatment?&lt;/li&gt;
+	&lt;li&gt;Will rheumatic fever or its treatment have any effect on my child&apos;s other health conditions?&lt;/li&gt;
+	&lt;li&gt;How much do I need to restrict my child&apos;s activities?&lt;/li&gt;
+	&lt;li&gt;Is my child still contagious? For how long?&lt;/li&gt;
+	&lt;li&gt;What type of follow-up is needed?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your child&apos;s signs and symptoms first appear?&lt;/li&gt;
+	&lt;li&gt;How have these signs and symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Has your child had a cold or flu recently? What were the symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child been exposed to a known case of strep throat?&lt;/li&gt;
+	&lt;li&gt;Was your child recently diagnosed with strep throat or scarlet fever?&lt;/li&gt;
+	&lt;li&gt;Did your child take all of the antibiotics to treat strep throat or scarlet fever as prescribed?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor makes a diagnosis of rheumatic fever based on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Signs and symptoms you report&lt;/li&gt;
+	&lt;li&gt;Evidence of inflammation&lt;/li&gt;
+	&lt;li&gt;Evidence of recent group A streptococcal infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical exam&lt;/strong&gt; &lt;br /&gt;
+Your child&apos;s doctor will conduct a thorough physical examination that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Checking the joints for signs of inflammation&lt;/li&gt;
+	&lt;li&gt;Examining the skin for nodules under the skin or a rash&lt;/li&gt;
+	&lt;li&gt;Listening to the heart for abnormal rhythms, murmurs or muffled sounds that may indicate inflammation of the heart&lt;/li&gt;
+	&lt;li&gt;Conducting a series of simple movement tests to detect indirect evidence of inflammation of the central nervous system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for strep infection&lt;/strong&gt; &lt;br /&gt;
+If your child was already diagnosed with a strep infection, your doctor may not order any additional tests for the bacterium. If your doctor orders a test, it will most likely be a blood test that can detect antibodies to strep bacteria circulating in the blood. The actual bacteria may no longer be detected in your child&apos;s throat tissues or blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram (ECG)&lt;/strong&gt;&lt;br /&gt;
+An electrocardiogram &amp;mdash; also called an ECG or EKG &amp;mdash; records electrical signals as they travel through your child&apos;s heart. Your doctor can look for patterns among these signals that indicate inflammation of the heart or poor heart function. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Echocardiography&lt;/strong&gt;&lt;br /&gt;
+An echocardiogram uses sound waves to produce live-action images of the heart. This common test may enable your doctor to detect altered structures within the heart. Damage to heart valves isn&apos;t likely to occur early in the disease, but an echocardiogram can show such problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goals of treatment for rheumatic fever are to destroy any remaining group A streptococcal bacteria, relieve symptoms, control inflammation and prevent recurring episodes of rheumatic fever. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments used for rheumatic fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Antibiotics.&lt;/strong&gt; Your child&apos;s doctor will prescribe penicillin or another antibiotic to eliminate any remaining strep bacteria that may exist in your child&apos;s body.
+	&lt;/p&gt;
+	&lt;p&gt;
+	After your child has completed the full antibiotic treatment, your doctor will begin another course of antibiotics to prevent recurrence of rheumatic fever. This preventive treatment usually continues until your child is at least 20 years old. If an older teenager has had rheumatic fever, he or she may continue taking the antibiotics past age 20 to complete a minimum five-year course of preventive treatment. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	People who experienced inflammation of the heart when they had rheumatic fever may be advised to take the preventive antibiotic treatment much longer or even for life. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-inflammatory treatment.&lt;/strong&gt; Your doctor will prescribe a pain reliever, such as aspirin or naproxen (Anaprox, Naprosyn, others), to reduce inflammation, fever and pain. If symptoms are severe or your child isn&apos;t responding to the anti-inflammatory drugs, your doctor may prescribe a corticosteroid, such as prednisone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsant medications.&lt;/strong&gt; If the involuntary movements of Sydenham chorea are severe, your doctor may prescribe an anticonvulsant, such as valproic acid (Depakene, Stavzor) or carbamazepine (Carbatrol, Equetro, others).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Long term care&lt;/strong&gt;&lt;br /&gt;
+Discuss with your doctor what type of follow-up and long term care your child will need. Heart damage from rheumatic fever may not show up until many years after the acute illness. Your child should be informed that he or she had rheumatic fever, and when an adult should discuss this with his or her doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend bed rest for your child and may ask you to restrict his or her activities until inflammation, pain and other symptoms have improved. If inflammation is present in heart tissues, your doctor may recommend strict bed rest for a few weeks to a few months, depending on the degree of inflammation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only known way to prevent rheumatic fever is to treat strep throat infections or scarlet fever promptly with a full course of appropriate antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rheumatic fever
+	</Title>
+	<Abstract>
+		Rheumatic fever &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this strep throat complication.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

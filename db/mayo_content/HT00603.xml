@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00603
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00603
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3866" Title="Mental health">
+						<Keyword MCVID="4387" Title="Anger management" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			421FCDEA-E7FF-0DBD-14E85A815ECEEC03
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anger
+			</MetaKeyword>
+			<MetaKeyword>
+				anger management
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Put a leash on anger
+	</Title>
+	<Body>
+		&lt;p&gt;Do you find yourself fuming when someone cuts you off in traffic? Anger is a normal and even healthy emotion, but it&apos;s important to deal with it in a positive way. Uncontrolled anger can take a toll on your health and your relationships. To get your anger under control, follow these steps: 1.Take a timeout from the situation. 2. When you&apos;re calm, express your concern. 3. Use humor to defuse tensions. It may be challenging at first, but with time and effort, healthy responses may come naturally.&lt;/p&gt;
+	</Body>
+</HealthTip>

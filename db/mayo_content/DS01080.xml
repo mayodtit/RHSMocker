@@ -1,0 +1,363 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01080
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/small-vessel-disease/DS01080
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease">
+						<Keyword MCVID="3522" Title="Small vessel heart disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8715E92A-E7FF-0DBD-141A1CF8BE0E5A87
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				small vessel disease
+			</MetaKeyword>
+			<MetaKeyword>
+				small vessel heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				microvascular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary microvascular disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Small vessel disease, also known as coronary microvascular disease or small vessel heart disease, is a condition in which the small arteries in the heart become narrowed. Small vessel disease causes signs and symptoms of heart disease, such as chest pain (angina). Small vessel disease is usually diagnosed after a doctor checks for blockages in the main arteries of the heart that cause coronary artery disease, but finds little or no narrowing in the large vessels even though your symptoms persist. 
+&lt;/p&gt;
+&lt;p&gt;
+Although anyone can have small vessel disease, it&apos;s more common in women and in people who have diabetes. Small vessel disease is treatable, but can be difficult to detect. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing small vessel disease
+" Caption="Clogging or narrowing of the arteries that supply blood to your heart can occur not only in your heart&apos;s largest arteries (the coronary arteries), but also in your heart&apos;s smaller blood vessels. 
+" Height="60" Title="Small vessel disease" URI="/images/image_popup/thumbs/hb7_smallvesselthu.jpg" Width="60" />
+				<Image Alt="Illustration showing small vessel disease
+" Caption="Clogging or narrowing of the arteries that supply blood to your heart can occur not only in your heart&apos;s largest arteries (the coronary arteries), but also in your heart&apos;s smaller blood vessels. 
+" Height="290" Title="Small vessel disease" URI="/images/image_popup/hb7_smallvessel.jpg" Width="400" />
+				<HTML>
+					Clogging or narrowing of the arteries that supply blood to your heart can occur not only in your heart&apos;s largest arteries (the coronary arteries), but also in your heart&apos;s smaller blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Small vessel disease symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain, squeezing or discomfort over your central or left chest&lt;/li&gt;
+	&lt;li&gt;Chest pain associated with discomfort in your left arm or jaw&lt;/li&gt;
+	&lt;li&gt;Chest pain that worsens with activity, though eventually it may occur at rest too&lt;/li&gt;
+	&lt;li&gt;Neck, shoulder, upper back or abdominal discomfort&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Unusual fatigue&lt;/li&gt;
+	&lt;li&gt;A lack of energy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve been treated for coronary artery disease with angioplasty and stents, and your signs and symptoms haven&apos;t gone away, you may also have small vessel disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+It might be difficult to tell if your signs and symptoms are due to small vessel disease, but if you have chest pain, see your doctor to find out the cause. If you&apos;re having other signs and symptoms, such as shortness of breath, sweating, nausea, dizziness or pain that radiates beyond your chest to one or both of your arms or your neck &amp;mdash; seek emergency medical care immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While the larger arteries in the heart are responsible for pumping blood through your heart, the small vessels expand when you&apos;re active and need more oxygen in your blood, and then contract while you&apos;re at rest. 
+&lt;/p&gt;
+&lt;p&gt;
+The large vessels in your heart can become narrowed or blocked through atherosclerosis, a condition in which fatty deposits build up in the arteries. In small vessel disease, the narrowing of the small vessels in the heart makes it so they can&apos;t expand properly when you&apos;re active. As a result, you don&apos;t get an adequate supply of oxygen-rich blood. This inability to expand is called endothelial dysfunction. This problem may cause your small vessels to actually become smaller when you&apos;re active or under emotional stress. The reduced blood flow through the small vessels causes chest pain and other symptoms similar to those you&apos;d have if you were having angina or a heart attack. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing small vessel disease
+" Caption="Clogging or narrowing of the arteries that supply blood to your heart can occur not only in your heart&apos;s largest arteries (the coronary arteries), but also in your heart&apos;s smaller blood vessels. 
+" Height="60" Title="Small vessel disease" URI="/images/image_popup/thumbs/hb7_smallvesselthu.jpg" Width="60" />
+				<Image Alt="Illustration showing small vessel disease
+" Caption="Clogging or narrowing of the arteries that supply blood to your heart can occur not only in your heart&apos;s largest arteries (the coronary arteries), but also in your heart&apos;s smaller blood vessels. 
+" Height="290" Title="Small vessel disease" URI="/images/image_popup/hb7_smallvessel.jpg" Width="400" />
+				<HTML>
+					Clogging or narrowing of the arteries that supply blood to your heart can occur not only in your heart&apos;s largest arteries (the coronary arteries), but also in your heart&apos;s smaller blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for small vessel disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tobacco smoking&lt;/li&gt;
+	&lt;li&gt;Total blood cholesterol over 240 mg/dL (6.2 mmol/L)&lt;/li&gt;
+	&lt;li&gt;Systolic blood pressure over 140 millimeters of mercury (mm Hg) or diastolic blood pressure over 90 mm Hg&lt;/li&gt;
+	&lt;li&gt;Obesity (body mass index of 30 or higher)&lt;/li&gt;
+	&lt;li&gt;Inactive lifestyle&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Insulin resistance&lt;/li&gt;
+	&lt;li&gt;Being female&lt;/li&gt;
+	&lt;li&gt;An estrogen deficiency, in women&lt;/li&gt;
+	&lt;li&gt;Increasing age, over 45 in men and over 55 in women&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s not clear why the same risk factors, such as obesity or an inactive lifestyle, cause some people to develop small vessel disease instead of large vessel coronary artery disease. Because women are more likely to develop small vessel disease than are men, the following conditions, which occur more commonly in women, may play a role in the development of small vessel disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Polycystic ovarian syndrome&lt;/li&gt;
+	&lt;li&gt;Inflammation due to an autoimmune disease, such as rheumatoid arthritis or lupus&lt;/li&gt;
+	&lt;li&gt;Migraine with aura&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because small vessel disease can make it harder for the heart to pump blood to the rest of the body, small vessel disease can cause serious problems if left untreated, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coronary artery spasm&lt;/li&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Sudden cardiac death&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having chest pains, see your primary care doctor. Because large vessel coronary artery disease and small vessel disease have the same signs and symptoms, it&apos;s likely you&apos;ll be tested for large vessel coronary artery disease by checking the main arteries in your heart first. If no problems are found, then your doctor may do additional tests for small vessel disease. Or, he or she might refer you to a doctor who specializes in treating disorders of the heart and circulatory system (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet for some time before the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; you take, as well as information about the dose you normally take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. For small vessel disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is small vessel disease temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available to treat small vessel disease, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to limit my activity in any way?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Has the severity of your symptoms worsened?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms get worse when you&apos;re active?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with high blood pressure, diabetes or high cholesterol?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose small vessel disease, you&apos;ll need a physical exam. Your doctor will also ask you about your medical history and any family history of heart disease. Your doctor will likely check your cholesterol levels to see if high cholesterol could be clogging your arteries and causing chest pain. 
+&lt;/p&gt;
+&lt;p&gt;
+The tests for small vessel disease are similar to those for other types of heart disease and include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, a technician will place probes on your chest that record the electrical impulses that make your heart beat. An ECG records these electrical signals and can help your doctor detect irregularities in your heart&apos;s rhythm and structure that might indicate narrowed or blocked arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test with imaging.&lt;/strong&gt; Your doctor may perform an exercise stress test when checking for coronary artery disease, but without any images of the heart, it&apos;s usually not enough to diagnose small vessel disease. For this type of stress test, you&apos;ll either exercise on a treadmill or a bike, or take a medication that raises your heart rate to mimic the effect of exercise. Then, your doctor will take images of your heart using ultrasound images (echocardiogram) or with nuclear imaging scans to check your heart&apos;s function and assess the blood flow to your heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Positron emission tomography (PET).&lt;/strong&gt; This test can show your heart&apos;s blood flow to other parts of your body. In this test, you&apos;ll have a radioactive dye injected so that your heart will show on the scan. Then, you&apos;ll lie in a doughnut-shaped machine to have images taken of your heart, which will be sent to a computer monitor for your doctor to see. PET scans may help your doctor diagnose small vessel disease, but the test is expensive and not widely used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) angiogram.&lt;/strong&gt; A CT angiogram allows your doctor to check your large arteries to see if they&apos;re narrowed or blocked. In this minimally invasive test, you&apos;ll change into a hospital gown and lie on a table that&apos;s part of the CT scanning machine. You&apos;ll receive an injection of a radioactive dye, and the doughnut-shaped CT scanner will be moved to take images of the arteries in your heart. The images are then sent to a computer screen for your doctor to view.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; In a cardiac MRI, you lie on a table inside a long tube-like machine that produces a magnetic field. The magnetic field aligns atomic particles in some of your cells. When radio waves are broadcast toward these aligned particles, they produce signals that vary according to the type of tissue they are. Images of your heart are created from these signals, which your doctor will look at to determine if the main arteries in your heart are blocked.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary angiogram.&lt;/strong&gt; This test helps doctors determine if the main arteries to your heart are narrowed or blocked. A liquid dye is injected into the arteries of your heart through a catheter &amp;mdash; a long, thin tube that&apos;s fed through an artery, usually in your groin, to arteries in your heart. As the dye fills your arteries, they become visible on X-ray and video.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor can&apos;t find any blockages in your main arteries based on these tests, you&apos;ll have an additional test to check for blockages in the smaller arteries of your heart: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Endothelial dysfunction test.&lt;/strong&gt; In this test, a wire will be threaded through a catheter inserted in one of your coronary arteries. Your doctor will then inject a medication into the artery that causes the small vessels in your heart to open and let blood rush through, and then the blood flow through those vessels is measured. Although this test is invasive, it&apos;s a good way to detect small vessel disease. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment for small vessel disease involves medications to control the narrowing of your small blood vessels that could lead to a heart attack. Your doctor could prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nitroglycerin.&lt;/strong&gt; Nitroglycerin tablets, sprays and patches can ease chest pain by opening up your coronary arteries and reducing your heart&apos;s demand for blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These drugs slow your heart rate and decrease your blood pressure, which decreases your heart&apos;s demand for oxygen-rich blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers.&lt;/strong&gt; These medications relax the muscles that surround your coronary arteries and cause the vessels to open, increasing blood flow to your heart. They also control high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Statins.&lt;/strong&gt; These medications affect the way your body uses cholesterol, which contributes to the narrowing of your arteries. Statins also help relax the blood vessels of your heart and treat blood vessel damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors.&lt;/strong&gt; These medications help open your blood vessels, making it easier for blood to flow through, lowering your blood pressure and decreasing your risk of a heart attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers (ARBs).&lt;/strong&gt; These medications relax your blood vessels, which lowers your blood pressure and makes it easier for your heart to pump blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because the blocked or narrowed blood vessels that cause the disease are so small, surgery is usually not a treatment option. If you&apos;re diagnosed with small vessel disease, you&apos;ll need to see your doctor regularly for checkups. Your doctor will determine how often you&apos;ll need to be examined, depending on the severity of your condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dietary supplements that may be helpful for people with small vessel disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Coenzyme Q10.&lt;/strong&gt; This coenzyme, which is naturally present in your body, can improve blood pressure and circulation when taken as a supplement. Coenzyme Q10, taken in daily doses up to 200 milligrams, may improve small vessel blood flow in people with diabetes and coronary artery disease, and could have a similar effect in people with small vessel disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;L-arginine.&lt;/strong&gt; This amino acid that&apos;s normally used by the body to help metabolize protein may help treat symptoms of small vessel disease by relaxing your blood vessels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As with any other alternative therapy, talk to your doctor before adding any supplements to your treatment to ensure that they won&apos;t interfere with any medications you&apos;re already taking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There haven&apos;t been any scientific studies to show what you can do to prevent small vessel disease, but it seems that controlling the disease&apos;s major risk factors &amp;mdash; high blood pressure, high cholesterol and obesity &amp;mdash; can help. Things you can do that may help reduce your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you smoke, the most important thing you can do to improve your heart&apos;s health is to stop. Talk to your doctor if you&apos;re having trouble with quitting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a heart-healthy diet.&lt;/strong&gt; Too much saturated fat and cholesterol in your diet can narrow arteries to your heart. Follow your doctor&apos;s and dietitian&apos;s advice on eating a heart-healthy diet that includes plenty of whole grains, lean meat, low-fat dairy, and fruits and vegetables. Also, watch your salt and fat intake. Eating too much salt and saturated or trans fats will increase your blood pressure and cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Regular exercise helps improve heart muscle function and keeps blood flowing through your arteries. It can also prevent a heart attack by helping you to achieve and maintain a healthy weight and control diabetes, elevated cholesterol and high blood pressure. Exercise doesn&apos;t have to be vigorous. For example, walking 30 minutes a day, five days a week can improve your health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your cholesterol.&lt;/strong&gt; Have your blood cholesterol levels checked regularly, through a blood test at your doctor&apos;s office. If your bad cholesterol levels are undesirably high, your doctor can prescribe changes to your diet and medications to help lower the numbers and protect your cardiovascular health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control your blood pressure.&lt;/strong&gt; Ask your doctor how frequently you need to have your blood pressure checked. Your doctor may recommend more frequent checks if you have high blood pressure or a history of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Excess weight strains your heart and can contribute to high cholesterol, high blood pressure and diabetes. Losing weight can lower your risk of small vessel disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; To reduce your risk of a heart attack, reduce stress in your day-to-day activities. Rethink workaholic habits and find healthy ways to minimize or deal with stressful events in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control blood sugar levels if you have diabetes.&lt;/strong&gt; If you have diabetes, keeping your blood sugar at appropriate levels can help reduce the risk of complications. Work with your doctor to establish blood sugar goals that are right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have polycystic ovary syndrome, ask your doctor if metformin could help.&lt;/strong&gt; Treatment with metformin (Glucophage, Glumetza), a medication that helps reduce insulin resistance, may reduce the risk of small vessel disease in women with polycystic ovary syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Small vessel disease
+	</Title>
+	<Abstract>
+		Small vessel disease &amp;mdash; Comprehensive overview covers symptoms and treatment of this heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="Calculator" DocID="HB00047" LinkType="Internal" ObjectID="B45BEB09-FD1A-459D-81A0DA5E0DC803C1" Title="Heart disease risk calculator" Url="http://www.mayoclinic.com/health/heart-disease-risk/HB00047" />
+		<LinkItem ContentType="Answer" DocID="AN01980" LinkType="Internal" ObjectID="A4DC81BE-9CE9-6A63-48B78D4984D6453A" Title="Can vitamins help prevent a heart attack?" Url="http://www.mayoclinic.com/health/prevent-heart-attack/AN01980" />
+		<LinkItem ContentType="Answer" DocID="AN02030" LinkType="Internal" ObjectID="9B86E828-F147-D064-F1F30CF81E1DCE50" Title="Omega-6 fatty acids: Can they cause heart disease?" Url="http://www.mayoclinic.com/health/omega-6/AN02030" />
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
+		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
+		<LinkItem ContentType="Article" DocID="HB00089" LinkType="Internal" ObjectID="F3B561EB-E7FF-0DBD-12ACC7FD196B1ED3" Title="Red wine and resveratrol: Good for your heart?" Url="http://www.mayoclinic.com/health/red-wine/HB00089" />
+		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
+		<LinkItem ContentType="Article" DocID="HB00073" LinkType="Internal" ObjectID="9CD00E35-2A5D-9994-EF86A3EE674B8F8C" Title="Daily aspirin therapy: Understand the benefits and risks" Url="http://www.mayoclinic.com/health/daily-aspirin-therapy/HB00073" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="Article" DocID="HB00085" LinkType="Internal" ObjectID="92DF9319-E7FF-0DBD-1F4D49DAC4DFC1AE" Title="Nuts and your heart: Eating nuts for heart health" Url="http://www.mayoclinic.com/health/nuts/HB00085" />
+		<LinkItem ContentType="Article" DocID="WO00041" LinkType="Internal" ObjectID="8D26F094-D5A5-45D8-90A4CB187A60091B" Title="5 medication-free strategies to help prevent heart disease" Url="http://www.mayoclinic.com/health/heart-disease-prevention/WO00041" />
+		<LinkItem ContentType="Article" DocID="HB00040" LinkType="Internal" ObjectID="7D6EE7E9-8240-4D04-AAA71F42515DDA8D" Title="Heart disease in women: Understand symptoms and risk factors" Url="http://www.mayoclinic.com/health/heart-disease/HB00040" />
+		<LinkItem ContentType="Article" DocID="HB00087" LinkType="Internal" ObjectID="5CF09E7C-E7FF-0DBD-1B0E1EC13D2882D5" Title="Omega-3 in fish: How eating fish helps your heart" Url="http://www.mayoclinic.com/health/omega-3/HB00087" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+	</RelatedLinksBox>
+</Disease>

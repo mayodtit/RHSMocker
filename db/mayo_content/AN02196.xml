@@ -1,0 +1,123 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02196
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thyroid-guard/AN02196
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2012-11-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3093" Title="Mammogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5661182E-EE32-C2FA-42793E130F959800
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thyroid guard
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid shield
+			</MetaKeyword>
+			<MetaKeyword>
+				mammogram
+			</MetaKeyword>
+			<MetaKeyword>
+				X-ray
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Probably not, as there is little chance that a breast X-ray (mammogram) will cause thyroid cancer. In addition, a thyroid guard could interfere with the accuracy of your mammogram.
+&lt;/p&gt;
+&lt;p&gt;
+A thyroid guard or thyroid shield is a lead collar that wraps around your neck to block the radiation that&apos;s generated in making X-ray images. 
+&lt;/p&gt;
+&lt;p&gt;
+During an X-ray, the majority of radiation needed to create the images goes exactly where it&apos;s aimed. In the case of a mammogram, most radiation exposure occurs in your breast. But the rest of your body is often exposed to small amounts of what&apos;s called scatter radiation. Scatter radiation during a mammogram is often a fraction of the natural radiation you&apos;d receive in one day. 
+&lt;/p&gt;
+&lt;p&gt;
+One study estimated that during a mammogram, which usually involves two X-rays, a woman&apos;s thyroid is exposed to the equivalent of 30 minutes of natural radiation. Even over many years of annual mammograms, this amount of additional radiation is considered tiny. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, don&apos;t let a fear of thyroid cancer keep you from having a mammogram. If you choose to use a thyroid guard, many facilities have them available. Call ahead to make sure one is available at your facility. 
+&lt;/p&gt;
+&lt;p&gt;
+Discuss the benefits and risks of thyroid guards with your breast-imaging specialist. Thyroid guards can sometimes block breast tissue, making the mammogram images incomplete. Thyroid guards can also distort the appearance of the mammogram. In these cases, the mammogram images often need to be repeated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thyroid guard: Do I need one during a mammogram?
+	</Title>
+	<Abstract>
+		Thyroid guard &amp;mdash; A Mayo Clinic expert discusses using thyroid guards during mammograms to reduce the risk of thyroid cancer from radiation.
+	</Abstract>
+	<Question>
+		I&apos;m concerned that radiation during a mammogram may increase my risk of thyroid cancer. Should I request a thyroid guard?
+	</Question>
+	<QuestionFirstName />
+	<QuestionState />
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="Answer" DocID="AN00419" LinkType="Internal" ObjectID="FC5332DF-AF1C-4812-81711A4E32EB40A6" Title="Breast implants: Do they interfere with mammograms?" Url="http://www.mayoclinic.com/health/breast-implants/AN00419" />
+		<LinkItem ContentType="Video" DocID="MM00639" LinkType="Internal" ObjectID="BE7A2D47-2A5D-9994-ED3CA13FF3C78E1F" Title="Video: Mammogram for breast cancer &amp;mdash; What to expect" Url="http://www.mayoclinic.com/health/mammogram/MM00639" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="Answer" DocID="AN01137" LinkType="Internal" ObjectID="58D6580B-0464-44C3-B42E52E54440F067" Title="Mammogram: Can it find cancer in dense breasts?" Url="http://www.mayoclinic.com/health/mammogram/AN01137" />
+		<LinkItem ContentType="Answer" DocID="AN01851" LinkType="Internal" ObjectID="10E30AA5-E7FF-0DBD-16106C84F24CAF6F" Title="Conflicting mammogram results: What can I do?" Url="http://www.mayoclinic.com/health/mammogram-results/AN01851" />
+		<LinkItem ContentType="Answer" DocID="AN02052" LinkType="Internal" ObjectID="02595D0A-9DD3-ED31-69F5C7C43B2CC0C7" Title="Mammogram guidelines: What are they?" Url="http://www.mayoclinic.com/health/mammogram-guidelines/AN02052" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,186 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00388
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00388
+		</OriginalURL>
+		<UpdateDate>
+			2007-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			538F6A8E-D1DE-4DF0-B4F0C1F3A6B29DC9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Curried pork tenderloin in apple cider
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Apple cider is unfiltered juice from apples. In the United States, cider is referred to as &quot;sweet&quot; (unfermented and alcohol-free) or &quot;hard&quot; (fermented and contains alcohol). In this recipe, the sweet flavor of the apple cider and chopped apples nicely complement the pork tenderloin.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Season the pork tenderloin with curry powder and let stand for 15 minutes.&lt;/p&gt;
+
+&lt;p&gt;In a large, heavy skillet, heat the olive oil over medium-high heat. Add the tenderloin and cook, turning once, until browned on both sides, about 5 to 10 minutes. Remove the meat from the skillet and set aside.&lt;/p&gt;
+
+&lt;p&gt;Add the onions to skillet and saute until soft and golden. Add 1 1/2 cups of the apple cider, reduce the heat and simmer until the liquid is half the volume.&lt;/p&gt;
+
+&lt;p&gt;Add the chopped apple, cornstarch and the remaining 1/2 cup apple cider. Stir and simmer while the sauce thickens, about 2 minutes. Return the tenderloin to the skillet and simmer for the final 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;To serve, arrange tenderloin on a serving platter or divide onto individual plates. Pour thickened sauce over meat and serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;16 ounces pork tenderloin, cut into 6 pieces&lt;br /&gt;
+1 1/2 tablespoons curry powder&lt;br /&gt;
+1 tablespoon extra-virgin olive oil&lt;br /&gt;
+2 medium yellow onions, chopped (about 2 cups)&lt;br /&gt;
+2 cups apple cider, divided&lt;br /&gt;
+1 tart apple, peeled, seeded and chopped into chunks&lt;br /&gt;
+1 tablespoon cornstarch&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				243
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				19 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				70 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				24 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				48 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				8 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="" height="100" uri="/images/billboardsmall/re1_curriedporktenderloin.jpg" width="100" />
+</Recipe>

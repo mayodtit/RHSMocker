@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00345
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00345
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1593" Title="Common cold" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			170C796E-E7FF-0DBD-11763AFBB28196B5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				zinc
+			</MetaKeyword>
+			<MetaKeyword>
+				common cold
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Zinc: Does it work for colds?
+	</Title>
+	<Body>
+		&lt;p&gt;The jury is still out on that question because many zinc studies, both those that find it beneficial and those that don&apos;t, are flawed. However, the highest quality randomized trials generally show no benefit. In studies with positive results, zinc seemed most effective taken within 24 hours of the start of cold symptoms. Taking zinc lozenges with food may reduce side effects, such as a bad taste and nausea. Intranasal zinc isn&apos;t a good option because it may damage the sense of smell.&lt;/p&gt;
+	</Body>
+</HealthTip>

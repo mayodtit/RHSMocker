@@ -1,0 +1,311 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00265
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/complex-regional-pain-syndrome/DS00265
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-31
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1770" Title="Pain">
+						<Keyword MCVID="3000" Title="Complex regional pain syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8F3237C2-D7C0-4063-AE87DC86D78085FE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				complex regional pain syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic pain
+			</MetaKeyword>
+			<MetaKeyword>
+				reflex sympathetic dystrophy syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				CRPS
+			</MetaKeyword>
+			<MetaKeyword>
+				RSDS
+			</MetaKeyword>
+			<MetaKeyword>
+				sympathetic nervous system
+			</MetaKeyword>
+			<MetaKeyword>
+				RSD
+			</MetaKeyword>
+			<MetaKeyword>
+				limb pain
+			</MetaKeyword>
+			<MetaKeyword>
+				causalgia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complex regional pain syndrome is an uncommon form of chronic pain that usually affects an arm or leg. Complex regional pain syndrome typically develops after an injury, surgery, stroke or heart attack, but the pain is out of proportion to the severity of the initial injury, if any. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of complex regional pain syndrome isn&apos;t clearly understood. Treatment for complex regional pain syndrome is most effective when started early. In such cases, improvement and even remission are possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of complex regional pain syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Continuous burning or throbbing pain, usually in your arm, leg, hand or foot&lt;/li&gt;
+	&lt;li&gt;Sensitivity to touch or cold&lt;/li&gt;
+	&lt;li&gt;Swelling of the painful area&lt;/li&gt;
+	&lt;li&gt;Changes in skin temperature &amp;mdash; at times your skin may be sweaty; at other times it may be cold &lt;/li&gt;
+	&lt;li&gt;Changes in skin color, which can range from white and mottled to red or blue&lt;/li&gt;
+	&lt;li&gt;Changes in skin texture, which may become tender, thin or shiny in the affected area&lt;/li&gt;
+	&lt;li&gt;Changes in hair and nail growth&lt;/li&gt;
+	&lt;li&gt;Joint stiffness, swelling and damage&lt;/li&gt;
+	&lt;li&gt;Muscle spasms, weakness and loss (atrophy)&lt;/li&gt;
+	&lt;li&gt;Decreased ability to move the affected body part&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms may change over time and vary from person to person. Most commonly, pain, swelling, redness, noticeable changes in temperature and hypersensitivity (particularly to cold and touch) occur first. Over time, the affected limb can become cold and pale and undergo skin and nail changes as well as muscle spasms and tightening. Once these changes occur, the condition is often irreversible.
+&lt;/p&gt;
+&lt;p&gt;
+Complex regional pain syndrome occasionally may spread from its source to elsewhere in your body, such as the opposite limb. The pain may be worsened by emotional stress.
+&lt;/p&gt;
+&lt;p&gt;
+In some people, signs and symptoms of complex regional pain syndrome go away on their own. In others, signs and symptoms may persist for months to years. Treatment is likely to be most effective when started early in the course of the illness.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience constant, severe pain that affects a limb and makes touching or moving that limb seem intolerable, see your doctor to determine the cause. It&apos;s important to treat complex regional pain syndrome early. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complex regional pain syndrome occurs in two types, with similar signs and symptoms, but different causes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type 1.&lt;/strong&gt; Previously known as reflex sympathetic dystrophy syndrome, this type occurs after an illness or injury that didn&apos;t directly damage the nerves in your affected limb. About 90 percent of people with complex regional pain syndrome have type 1.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2.&lt;/strong&gt; Once referred to as causalgia, this type follows a distinct nerve injury.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many cases of complex regional pain syndrome occur after a forceful trauma to an arm or a leg, such as a crush injury, fracture or amputation. Other major and minor traumas &amp;mdash; such as surgery, heart attacks, infections and even sprained ankles &amp;mdash; also can lead to complex regional pain syndrome. Emotional stress may be a precipitating factor, as well. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not well understood why these injuries can trigger complex regional pain syndrome, but it may be due to a dysfunctional interaction between your central and peripheral nervous systems and inappropriate inflammatory responses.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If complex regional pain syndrome isn&apos;t diagnosed and treated early, the disease may progress to more disabling signs and symptoms. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue wasting (atrophy).&lt;/strong&gt; If you avoid moving an arm or a leg because of pain or if you have trouble moving a limb because of stiffness, your skin, bones and muscles may begin to deteriorate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle tightening (contracture)&lt;/strong&gt;. You may also experience tightening of your muscles. This may lead to a condition in which your hand and fingers or your foot and toes contract into a fixed position.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To get the best medical care, take time to prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do &lt;br /&gt;
+&lt;/strong&gt;Write down any symptoms you&apos;re experiencing &amp;mdash; including the severity and location of your pain, stiffness or sensitivity. It&apos;s also a good idea to write down any questions you have for your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of questions you might ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the likely cause of the symptoms I&apos;m experiencing?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests, if any, do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What types of treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor &lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. For complex regional pain syndrome, your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you had a recent accident, illness or injury, such as trauma to your limbs, a heart attack or an infection?&lt;/li&gt;
+	&lt;li&gt;Have you had surgery recently?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing pain or burning?&lt;/li&gt;
+	&lt;li&gt;How long have you been experiencing your symptoms?&lt;/li&gt;
+	&lt;li&gt;Is the pain occasional or continuous?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you experienced similar symptoms after past injuries?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of complex regional pain syndrome is based on a physical exam and your medical history. There&apos;s no single test that can definitively diagnose complex regional pain syndrome, but the following procedures may provide important clues: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; This procedure may help detect bone changes. A radioactive substance injected into one of your veins permits viewing of your bones with a special camera.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sympathetic nervous system tests.&lt;/strong&gt; These tests look for disturbances in your sympathetic nervous system. For example, thermography measures the skin temperature and blood flow of your affected and unaffected limbs. Other tests can measure the amount of sweat on both limbs. Dissimilar results can indicate complex regional pain syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Loss of minerals from your bones may show up on an X-ray in later stages of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Images captured by an MRI device may show a number of tissue changes. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Improvement and even remission of complex regional pain syndrome is possible if treatment begins within a few months of your first symptoms. Often, a combination of various therapies is necessary. Your doctor will tailor your treatment based on your specific case. Treatment options include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Doctors use various medications to treat the symptoms of complex regional pain syndrome. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Over-the-counter (OTC) pain relievers, such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen (Aleve), may ease pain and inflammation. Your doctor may prescribe stronger pain relievers if OTC ones aren&apos;t helpful. Opioid medications may be an option. Taken in appropriate doses, they may provide acceptable control of pain. Some pain medications, such as celecoxib (Celebrex), may increase your risk of heart attack and stroke. Be sure to discuss your individual risks with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants and anticonvulsants.&lt;/strong&gt; Sometimes antidepressants, such as amitriptyline, and anticonvulsants, such as gabapentin (Neurontin), are used to treat pain that originates from a damaged nerve (neuropathic pain).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Steroid medications, such as prednisone, may reduce inflammation and improve mobility in the affected limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone-loss medications.&lt;/strong&gt; Your doctor may suggest medications to prevent or stall bone loss, such as alendronate (Fosamax) and calcitonin (Miacalcin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sympathetic nerve-blocking medication.&lt;/strong&gt; Injection of an anesthetic to block pain fibers in your affected nerves may relieve pain in some people.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Applying heat and cold.&lt;/strong&gt; Applying cold may relieve swelling and sweating. If the affected area is cool, applying heat may offer relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical analgesics.&lt;/strong&gt; Various creams are available that may reduce hypersensitivity, such as lidocaine or a combination of ketamine, clonidine and amitriptyline.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Gentle, guided exercising of the affected limbs may help decrease pain and improve range of motion and strength. The earlier the disease is diagnosed, the more effective exercises may be.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transcutaneous electrical nerve stimulation (TENS).&lt;/strong&gt; Chronic pain is sometimes eased by applying electrical impulses to nerve endings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; In some cases, learning biofeedback techniques may help. In biofeedback, you learn to become more aware of your body so that you can relax your body and relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal cord stimulation.&lt;/strong&gt; Your doctor inserts tiny electrodes along your spinal cord. A small electrical current delivered to the spinal cord results in pain relief.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Recurrences of complex regional pain syndrome do occur, sometimes due to a trigger such as exposure to cold or an intense emotional stressor. Recurrences may be treated with small doses of antidepressant or other medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic, painful condition can be challenging, especially when &amp;mdash; as is often the case with complex regional pain syndrome &amp;mdash; your friends and family don&apos;t believe you could be feeling as much pain as you describe. Share information from reliable sources about complex regional pain syndrome with those close to you to help them understand what you&apos;re experiencing. 
+&lt;/p&gt;
+&lt;p&gt;
+Take care of your physical and mental health by following these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maintain normal daily activities as best you can.&lt;/li&gt;
+	&lt;li&gt;Pace yourself and be sure to get the rest that you need.&lt;/li&gt;
+	&lt;li&gt;Stay connected with friends and family.&lt;/li&gt;
+	&lt;li&gt;Continue to pursue hobbies that you enjoy and are able to do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If complex regional pain syndrome makes it difficult for you to do things you enjoy, ask your doctor about ways to get around the obstacles. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that your physical health can directly affect your mental health. Denial, anger and frustration are common with chronic illnesses. At times, you may need more tools to deal with your emotions. A therapist, behavioral psychologist or other professional may be able to help you put things in perspective. They also may be able to teach you coping skills, such as relaxation or meditation techniques. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes joining a support group, where you can share experiences and feelings with other people, is a good approach. Ask your doctor what support groups are available in your community. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you reduce the risk of developing complex regional pain syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Taking vitamin C after a wrist fracture.&lt;/strong&gt; Studies have shown that people who take daily vitamin C supplements after a wrist fracture have a lower risk of complex regional pain syndrome compared with those who don&apos;t take vitamin C.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Early mobilization after a stroke.&lt;/strong&gt; Some research suggests that people who get out of bed and walk around soon after a stroke (early mobilization) lower their risk of complex regional pain syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Complex regional pain syndrome
+	</Title>
+	<Abstract>
+		Complex regional pain syndrome &amp;mdash; Comprehensive overview covers diagnosis, treatment of this nervous system problem.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

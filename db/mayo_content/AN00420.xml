@@ -1,0 +1,159 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00420
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/calcium-supplements/AN00420
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-18
+		</UpdateDate>
+		<PublicationDate>
+			2002-11-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1242" Title="Nutritional supplements" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7C1F591B-60AB-4F00-8259E87331F14D51
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				calcium supplements
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin D
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoporosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bone loss
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Most healthy men don&apos;t need to take calcium supplements.
+&lt;/p&gt;
+&lt;p&gt;
+Calcium is important for men for optimal bone health, but in general it&apos;s best to get calcium from foods. Dairy products have calcium and so do dark green leafy vegetables and fortified foods.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s the daily Recommended Dietary Allowance (RDA) for healthy adult men. Note that the upper limit represents the safe boundary &amp;mdash; it&apos;s not how much you should aim to get. Exceeding the upper limit increases your risk of health problems.
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;3&quot; width=&quot;535&quot; valign=&quot;top&quot;&gt;&lt;strong&gt;Calcium: RDA for men&lt;/strong&gt; &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;33%&quot;&gt;&lt;strong&gt;Age (years)&lt;/strong&gt; &lt;/td&gt;
+			&lt;td width=&quot;33%&quot;&gt;&lt;strong&gt;RDA (milligrams each day)&lt;/strong&gt; &lt;/td&gt;
+			&lt;td width=&quot;34%&quot;&gt;&lt;strong&gt;Upper limit (milligrams each day)&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;19-50 &lt;/td&gt;
+			&lt;td&gt;1,000&lt;/td&gt;
+			&lt;td&gt;2,500&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;51-70&lt;/td&gt;
+			&lt;td&gt;1,000&lt;/td&gt;
+			&lt;td&gt;2,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;71 and older&lt;/td&gt;
+			&lt;td&gt;1,200 &lt;/td&gt;
+			&lt;td&gt;2,000 &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Sources: Dietary Guidelines for Americans, 2012; Institute of Medicine, 2012 
+&lt;/p&gt;
+&lt;p&gt;
+Don&apos;t forget vitamin D, which helps your body absorb calcium. Food sources of vitamin D include egg yolks and fatty fish, such as salmon and tuna. You can also get vitamin D through fortified foods and even from sun exposure. In addition, some calcium supplements include vitamin D.
+&lt;/p&gt;
+&lt;p&gt;
+Remember, these guidelines are for healthy adult men in general. Talk to your doctor if you are concerned about not getting enough calcium.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Calcium supplements: Do men need them too?
+	</Title>
+	<Abstract>
+		Do guys need calcium supplements for bone health?
+	</Abstract>
+	<Question>
+		Should men take calcium supplements?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01763" LinkType="Internal" ObjectID="ABD4B650-E7FF-0DBD-1D1F91CDF76D3196" Title="Eye vitamins: Can they prevent or treat glaucoma?" Url="http://www.mayoclinic.com/health/eye-vitamins/AN01763" />
+		<LinkItem ContentType="Answer" DocID="AN01980" LinkType="Internal" ObjectID="A4DC81BE-9CE9-6A63-48B78D4984D6453A" Title="Can vitamins help prevent a heart attack?" Url="http://www.mayoclinic.com/health/prevent-heart-attack/AN01980" />
+		<LinkItem ContentType="Answer" DocID="AN01801" LinkType="Internal" ObjectID="E57D34D8-E7FF-0DBD-19F3F82F71496578" Title="Too much vitamin C: Harmful?" Url="http://www.mayoclinic.com/health/vitamin-c/AN01801" />
+		<LinkItem ContentType="Answer" DocID="AN01258" LinkType="Internal" ObjectID="DF292251-2A5D-9994-E47E27D6641BDACA" Title="Ground flaxseed: Better than whole?" Url="http://www.mayoclinic.com/health/flaxseed/AN01258" />
+		<LinkItem ContentType="Answer" DocID="AN01294" LinkType="Internal" ObjectID="DAF2D3B5-2A5D-9994-E4E251AC16ECC18F" Title="Chocolate: Does it impair calcium absorption?" Url="http://www.mayoclinic.com/health/calcium/AN01294" />
+		<LinkItem ContentType="Answer" DocID="AN02182" LinkType="Internal" ObjectID="CC7E53F6-98D8-CA08-60C91AF082F28449" Title="Vitamin D deficiency" Url="http://www.mayoclinic.com/health/vitamin-d-deficiency/AN02182" />
+		<LinkItem ContentType="Answer" DocID="AN00130" LinkType="Internal" ObjectID="BFE54BCA-6E22-4924-A0551D75254C4CD8" Title="Fiber supplements: Safe to take every day?" Url="http://www.mayoclinic.com/health/fiber-supplements/AN00130" />
+		<LinkItem ContentType="Answer" DocID="AN01665" LinkType="Internal" ObjectID="BB9D7FA5-E7FF-0DBD-1CE75C2F676BB573" Title="Prenatal vitamins: OK for women who aren&apos;t pregnant?" Url="http://www.mayoclinic.com/health/prenatal-vitamins/AN01665" />
+		<LinkItem ContentType="Answer" DocID="AN02108" LinkType="Internal" ObjectID="B387B232-EF05-648D-C79715DAD2113103" Title="What is wheatgrass &amp;mdash; And why is it in my drink?" Url="http://www.mayoclinic.com/health/wheatgrass/AN02108" />
+		<LinkItem ContentType="Answer" DocID="AN01428" LinkType="Internal" ObjectID="AD96291C-E7FF-0DBD-10D7DC5F32F10A89" Title="Calcium supplements: When should they be taken?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01428" />
+		<LinkItem ContentType="Answer" DocID="AN01734" LinkType="Internal" ObjectID="94A98697-E7FF-0DBD-158AD986A9B2AA35" Title="Vitamin water: Better than plain water?" Url="http://www.mayoclinic.com/health/vitamin-water/AN01734" />
+		<LinkItem ContentType="Answer" DocID="AN02008" LinkType="Internal" ObjectID="8D0BF205-EDEB-2856-28782D437EBDB4EE" Title="Vitamin D toxicity: What if you get too much?" Url="http://www.mayoclinic.com/health/vitamin-d-toxicity/AN02008" />
+		<LinkItem ContentType="Answer" DocID="AN02160" LinkType="Internal" ObjectID="3E154DC1-FC23-ED49-364492869F954F20" Title="Do the benefits of vitamin C include improved mood?" Url="http://www.mayoclinic.com/health/benefits-vitamin-c/AN02160" />
+		<LinkItem ContentType="Answer" DocID="AN00284" LinkType="Internal" ObjectID="37D0810D-DAD1-43A8-BAAA22400FA9FF37" Title="Percent Daily Value: What does it mean?" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN00284" />
+		<LinkItem ContentType="Article" DocID="MY01540" LinkType="Internal" ObjectID="ABBC3E86-96D9-BBB8-5F6BC9998E0AF0F6" Title="Calcium and calcium supplements: Achieving the right balance" Url="http://www.mayoclinic.com/health/calcium-supplements/MY01540" />
+		<LinkItem ContentType="Article" DocID="SA00044" LinkType="Internal" ObjectID="99B5C7CE-FE7B-4B72-A57D4B36C77A8D7C" Title="Herbal supplements: What to know before you buy" Url="http://www.mayoclinic.com/health/herbal-supplements/SA00044" />
+		<LinkItem ContentType="Article" DocID="NU00198" LinkType="Internal" ObjectID="3549DCAA-3380-4B0B-86EB23C76CA5FAE3" Title="Supplements: Nutrition in a pill?" Url="http://www.mayoclinic.com/health/supplements/NU00198" />
+	</RelatedLinksBox>
+</Answer>

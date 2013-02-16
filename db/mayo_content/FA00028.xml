@@ -1,0 +1,118 @@
+<FirstAid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FirstAid.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			FirstAid
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FA00028
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/first-aid-sunburn/FA00028
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-09
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid">
+					<Keyword MCVID="3160" Title="Hot and cold weather related problems" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3944" Title="Skin hair and nails">
+					<Keyword MCVID="3958" Title="Sunburn" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5CCDEA1D-9195-4ACA-8632D82CCB63B06A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sunburn
+			</MetaKeyword>
+			<MetaKeyword>
+				sun burn
+			</MetaKeyword>
+			<MetaKeyword>
+				sunscreen
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of sunburn usually appear within a few hours of exposure, bringing pain, redness, swelling and occasional blistering. Because exposure often affects a large area of your skin, sunburn can cause headache, fever and fatigue.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you have a sunburn&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take a cool bath &lt;/strong&gt;or shower. You can also apply a clean towel dampened with cool water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an aloe vera or moisturizing lotion&lt;/strong&gt; several times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leave blisters intact&lt;/strong&gt; to speed healing and avoid infection. If they burst on their own, apply an antibacterial ointment on the open areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If needed, take an over-the-counter pain reliever&lt;/strong&gt; such as aspirin, ibuprofen (Advil, Motrin, others), naproxen (Aleve) or acetaminophen (Tylenol, others). Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t use petroleum jelly, butter, egg whites or other home remedies on your sunburn. They can prevent or delay healing.
+&lt;/p&gt;
+&lt;p&gt;
+If your sunburn begins to blister or if you experience immediate complications, such as rash, itching or fever, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sunburn
+	</Title>
+	<Abstract>
+		How to administer first aid for sunburn.
+	</Abstract>
+	<MobileBody>
+		&lt;p&gt;
+Signs and symptoms of sunburn usually appear within a few hours of exposure, bringing pain, redness, swelling and occasional blistering. Because exposure often affects a large area of your skin, sunburn can cause headache, fever and fatigue.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you have a sunburn&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take a cool bath&lt;/strong&gt; or shower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an aloe vera&lt;/strong&gt; lotion several times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leave blisters intact&lt;/strong&gt; to speed healing and avoid infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an over-the-counter pain reliever&lt;/strong&gt; if needed for pain. But use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your sunburn begins to blister or if you experience immediate complications, such as rash, itching or fever, see your doctor.
+&lt;/p&gt;
+	</MobileBody>
+	<BenefitSummary />
+</FirstAid>

@@ -1,0 +1,590 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00404
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/urinary-incontinence/DS00404
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-25
+		</UpdateDate>
+		<PublicationDate>
+			2001-10-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1508" Title="Bladder">
+						<Keyword MCVID="2205" Title="Urinary incontinence" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			256654C2-982F-4C33-B5E40B0F7A6C9C68
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				urinary incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				incontinent
+			</MetaKeyword>
+			<MetaKeyword>
+				urine
+			</MetaKeyword>
+			<MetaKeyword>
+				stress incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				urge incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				overactive bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				irritable bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				overflow incontinence
+			</MetaKeyword>
+			<MetaKeyword>
+				urethra
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary sphincter
+			</MetaKeyword>
+			<MetaKeyword>
+				pelvic floor muscles
+			</MetaKeyword>
+			<MetaKeyword>
+				uretha
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder control
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary incontinence &amp;mdash; the loss of bladder control &amp;mdash; is a common and often embarrassing problem. The severity of urinary incontinence ranges from occasionally leaking urine when you cough or sneeze to having an urge to urinate that&apos;s so sudden and strong you don&apos;t get to a toilet in time.
+&lt;/p&gt;
+&lt;p&gt;
+If urinary incontinence affects your day-to-day activities, don&apos;t hesitate to see your doctor. In most cases, simple lifestyle changes or medical treatment can ease your discomfort or stop urinary incontinence.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary incontinence is the inability to control the release of urine from your bladder. Some people experience occasional, minor leaks &amp;mdash; or dribbles &amp;mdash; of urine. Others wet their clothes frequently. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of urinary incontinence include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress incontinence.&lt;/strong&gt; This is loss of urine when you exert pressure &amp;mdash; stress &amp;mdash; on your bladder by coughing, sneezing, laughing, exercising or lifting something heavy. Stress incontinence occurs when the sphincter muscle of the bladder is weakened. In women, physical changes resulting from pregnancy, childbirth and menopause can cause stress incontinence. In men, removal of the prostate gland can lead to stress incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urge incontinence.&lt;/strong&gt; This is a sudden, intense urge to urinate, followed by an involuntary loss of urine. Your bladder muscle contracts and may give you a warning of only a few seconds to a minute to reach a toilet. With urge incontinence, you may need to urinate often, including throughout the night. Urge incontinence may be caused by urinary tract infections, bladder irritants, bowel problems, Parkinson&apos;s disease, Alzheimer&apos;s disease, stroke, injury or nervous system damage associated with multiple sclerosis. If there&apos;s no known cause, urge incontinence is also called overactive bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overflow incontinence.&lt;/strong&gt; If you frequently or constantly dribble urine, you may have overflow incontinence, which is an inability to empty your bladder. Sometimes you may feel as if you never completely empty your bladder. When you try to urinate, you may produce only a weak stream of urine. This type of incontinence may occur in people with a damaged bladder, blocked urethra or nerve damage from diabetes, multiple sclerosis or spinal cord injury. In men, overflow incontinence can also be associated with prostate gland problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mixed incontinence.&lt;/strong&gt; If you experience symptoms of more than one type of urinary incontinence, such as stress incontinence and urge incontinence, you have mixed incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Functional incontinence.&lt;/strong&gt; Many older adults, especially people in nursing homes, experience incontinence simply because a physical or mental impairment keeps them from making it to the toilet in time. For example, a person with severe arthritis may not be able to unbutton his or her pants quickly enough. This is called functional incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Total incontinence.&lt;/strong&gt; This term is sometimes used to describe continuous leaking of urine, day and night, or the periodic uncontrollable leaking of large volumes of urine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+You may feel uncomfortable discussing incontinence with your doctor. But if incontinence is frequent or is affecting your quality of life, seeking medical advice is important for several reasons:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Urinary incontinence may indicate a more serious underlying condition, especially if it&apos;s associated with blood in your urine.&lt;/li&gt;
+	&lt;li&gt;Urinary incontinence may be causing you to restrict your activities and limit your social interactions to avoid embarrassment.&lt;/li&gt;
+	&lt;li&gt;Urinary incontinence may increase the risk of falls in older adults as they rush to make it to the toilet.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary incontinence isn&apos;t a disease, it&apos;s a symptom. It can be caused by everyday habits, underlying medical conditions or physical problems. A thorough evaluation by your doctor can help determine what&apos;s behind your incontinence.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of temporary urinary incontinence&lt;/strong&gt;&lt;br /&gt;
+Certain foods, drinks and medications can cause temporary urinary incontinence. A simple change in habits can bring relief.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol.&lt;/strong&gt; Alcohol acts as a bladder stimulant and a diuretic, which can cause an urgent need to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overhydration.&lt;/strong&gt; Drinking a lot of fluids, especially in a short period of time, increases the amount of urine your bladder has to deal with.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Caffeine.&lt;/strong&gt; Caffeine is a diuretic and a bladder stimulant that can cause a sudden need to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder irritation.&lt;/strong&gt; Carbonated drinks, tea and coffee &amp;mdash; with or without caffeine &amp;mdash; artificial sweeteners, corn syrup, and foods and beverages that are high in spice, sugar and acid, such as citrus and tomatoes, can aggravate your bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Heart medications, blood pressure drugs, sedatives, muscle relaxants and other medications may contribute to bladder control problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Easily treatable medical conditions also may be responsible for urinary incontinence.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract infection.&lt;/strong&gt; Infections can irritate your bladder, causing you to have strong urges to urinate. These urges may result in episodes of incontinence, which may be your only warning sign of a urinary tract infection. Other possible signs and symptoms include a burning sensation when you urinate and foul-smelling urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Constipation.&lt;/strong&gt; The rectum is located near the bladder and shares many of the same nerves. Hard, compacted stool in your rectum causes these nerves to be overactive and increase urinary frequency. In addition, compacted stool can sometimes interfere with the emptying of the bladder, which may cause overflow incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of persistent urinary incontinence&lt;/strong&gt;&lt;br /&gt;
+Urinary incontinence can also be a persistent condition caused by underlying physical problems or changes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy and childbirth.&lt;/strong&gt; Pregnant women may experience stress incontinence because of hormonal changes and the increased weight of an enlarging uterus. In addition, the stress of a vaginal delivery can weaken muscles needed for bladder control. The changes that occur during childbirth can also damage bladder nerves and supportive tissue, leading to a dropped (prolapsed) pelvic floor. With prolapse, your bladder, uterus, rectum or small bowel can get pushed down from the usual position and protrude into your vagina. Such protrusions can be associated with incontinence.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Changes with aging.&lt;/strong&gt; Aging of the bladder muscle leads to a decrease in the bladder&apos;s capacity to store urine and an increase in overactive bladder symptoms. Risk of overactive bladder increases if you have blood vessel disease, so maintaining good overall health &amp;mdash; including stopping smoking, treating high blood pressure and keeping your weight within a healthy range &amp;mdash; can help curb symptoms of overactive bladder.
+	&lt;/p&gt;
+	&lt;p&gt;
+	After menopause women produce less estrogen, a hormone that helps keep the lining of the bladder and urethra healthy. With less estrogen, these tissues may deteriorate, which can aggravate incontinence.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hysterectomy.&lt;/strong&gt; In women, the bladder and uterus lie close to one another and are supported by many of the same muscles and ligaments. Any surgery that involves a woman&apos;s reproductive system &amp;mdash; for example, removal of the uterus (hysterectomy) &amp;mdash; may damage the supporting pelvic floor muscles, which can lead to incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Painful bladder syndrome (interstitial cystitis).&lt;/strong&gt; This chronic condition causes painful and frequent urination, and rarely, urinary incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostatitis.&lt;/strong&gt; Loss of bladder control isn&apos;t a typical sign of prostatitis, which is inflammation of the prostate gland &amp;mdash; a walnut-sized organ located just below the male bladder. Even so, urinary incontinence sometimes occurs with this common condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged prostate.&lt;/strong&gt; In older men, incontinence often stems from enlargement of the prostate gland, a condition also known as benign prostatic hyperplasia (BPH).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate cancer.&lt;/strong&gt; In men, stress incontinence or urge incontinence can be associated with untreated prostate cancer. However, more often, incontinence is a side effect of treatments &amp;mdash; surgery or radiation &amp;mdash; for prostate cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder cancer or bladder stones.&lt;/strong&gt; Incontinence, urinary urgency and burning with urination can be signs and symptoms of bladder cancer or bladder stones. Other signs and symptoms include blood in the urine and pelvic pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological disorders.&lt;/strong&gt; Multiple sclerosis, Parkinson&apos;s disease, stroke, a brain tumor or a spinal injury can interfere with nerve signals involved in bladder control, causing urinary incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obstruction.&lt;/strong&gt; A tumor anywhere along your urinary tract can block the normal flow of urine and cause incontinence, usually overflow incontinence. Urinary stones &amp;mdash; hard, stone-like masses that can form in the bladder &amp;mdash; may be to blame for urine leakage. Stones can be present in your kidneys, bladder or ureters.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors increase your risk of developing urinary incontinence:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are more likely than men are to have stress incontinence. Pregnancy, childbirth, menopause and normal female anatomy account for this difference. However, men with prostate gland problems are at increased risk of urge and overflow incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; As you get older, the muscles in your bladder and urethra lose some of their strength. Changes with age reduce how much your bladder can hold and increase the chances of involuntary urine release. However, getting older doesn&apos;t necessarily mean that you&apos;ll have incontinence. Incontinence isn&apos;t normal at any age &amp;mdash; except during infancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being overweight.&lt;/strong&gt; Being obese or overweight increases the pressure on your bladder and surrounding muscles, which weakens them and allows urine to leak out when you cough or sneeze.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; A chronic cough associated with smoking can cause episodes of incontinence or aggravate incontinence that has other causes. Constant coughing puts stress on your urinary sphincter, leading to stress incontinence. Smoking may also increase the risk of overactive bladder by causing bladder contractions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; Kidney disease or diabetes may increase your risk for incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of chronic urinary incontinence include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin problems.&lt;/strong&gt; Urinary incontinence can lead to rashes, skin infections and sores (skin ulcers) from constantly wet skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract infections.&lt;/strong&gt; Incontinence increases your risk of repeated urinary tract infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in your activities.&lt;/strong&gt; Urinary incontinence may keep you from participating in normal activities. You may stop exercising, quit attending social gatherings or even stop venturing away from familiar areas where you know the locations of toilets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in your work life.&lt;/strong&gt; Urinary incontinence may negatively affect your work life. Your urge to urinate may cause you to have to get up often during meetings. The problem may disrupt your concentration at work or keep you awake at night, causing fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in your personal life.&lt;/strong&gt; Perhaps most distressing is the impact incontinence can have on your personal life. Your family may not understand your behavior or may grow frustrated at your many trips to the toilet. You may avoid sexual intimacy because of embarrassment caused by urine leakage. It&apos;s not uncommon to experience anxiety and depression along with incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have urinary incontinence, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a urologist or a urogynecologist if you are a woman.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well-prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to urinary incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time can help you make the most of your time together. List your questions from most important to least important in case time runs out. For urinary incontinence, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my incontinence temporary or will I always have it?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is also likely to ask you questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first experience symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you need to urinate?&lt;/li&gt;
+	&lt;li&gt;When do you leak urine?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble emptying your bladder?&lt;/li&gt;
+	&lt;li&gt;Have you noticed blood in your urine?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;How often do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;How often do you drink caffeinated beverages?&lt;/li&gt;
+	&lt;li&gt;How often do you eat spicy, acidic or sugary foods?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common tests and processes for urinary incontinence include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder diary.&lt;/strong&gt; Your doctor may ask you to keep a bladder diary for several days. You record how much you drink, when you urinate, the amount of urine you produce, whether you had an urge to urinate and the number of incontinence episodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis.&lt;/strong&gt; A sample of your urine is sent to a laboratory, where it&apos;s checked for signs of infection, traces of blood or other abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Your doctor may have a sample of your blood drawn and sent to a laboratory for analysis. Your blood is checked for various chemicals and substances related to causes of incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Specialized testing&lt;/strong&gt;&lt;br /&gt;
+If further information is needed, you may undergo additional testing, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Postvoid residual (PVR) measurement.&lt;/strong&gt; For this procedure, you&apos;re asked to urinate (void) into a container that measures urine output. Then your doctor checks the amount of leftover (residual) urine in your bladder using a catheter or ultrasound test. A catheter is a thin, soft tube that&apos;s inserted into your urethra and bladder to drain any remaining urine. For an ultrasound, a wand-like device is placed over your abdomen. Using sound waves and a computer, the ultrasound creates an image of your bladder. A large amount of leftover urine in your bladder may mean that you have an obstruction in your urinary tract or a problem with your bladder nerves or muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic ultrasound.&lt;/strong&gt; Ultrasound also may be used to view other parts of your urinary tract or genitals to check for abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; For this test, you&apos;re asked to cough vigorously or bear down as your doctor examines you and watches for loss of urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urodynamic testing.&lt;/strong&gt; These tests measure pressure in your bladder when it&apos;s at rest and when it&apos;s filling. A doctor or nurse inserts a catheter into your urethra and bladder to fill your bladder with water. Meanwhile, a pressure monitor measures and records the pressure within your bladder. This test helps measure your bladder strength and urinary sphincter health, and it&apos;s an important tool for distinguishing the type of incontinence you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystogram.&lt;/strong&gt; In this X-ray of your bladder, a catheter is inserted into your urethra and bladder. Through the catheter, your doctor injects a fluid containing a special dye. As you urinate and expel this fluid, images show up on a series of X-rays. These images help reveal problems with your urinary tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cystoscopy.&lt;/strong&gt; A thin tube with a tiny lens (cystoscope) is inserted into your urethra. During cystoscopy, your doctor can check for &amp;mdash; and potentially remove &amp;mdash; abnormalities in your urinary tract.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for urinary incontinence depends on the type of incontinence, the severity of your problem and the underlying cause. Your doctor will recommend the approaches best suited to your condition. A combination of treatments may be needed.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, your doctor will suggest the least invasive treatments first, so you&apos;ll try behavioral techniques and physical therapy first and move on to other options only if these techniques fail.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavioral techniques&lt;/strong&gt;&lt;br /&gt;
+Behavioral techniques and lifestyle changes work well for certain types of urinary incontinence. They may be the only treatment you need.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Bladder training.&lt;/strong&gt; Your doctor may recommend bladder training &amp;mdash; alone or in combination with other therapies &amp;mdash; to control urge and other types of incontinence. Bladder training involves learning to delay urination after you get the urge to go. You may start by trying to hold off for 10 minutes every time you feel an urge to urinate. The goal is to lengthen the time between trips to the toilet until you&apos;re urinating every two to four hours.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Bladder training may also involve double voiding &amp;mdash; urinating, then waiting a few minutes and trying again. This exercise can help you learn to empty your bladder more completely to avoid overflow incontinence. In addition, bladder training may involve learning to control urges to urinate. When you feel the urge to urinate, you&apos;re instructed to relax &amp;mdash; breathe slowly and deeply &amp;mdash; or to distract yourself with an activity.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scheduled toilet trips.&lt;/strong&gt; This means timed urination &amp;mdash; going to the toilet according to the clock rather than waiting for the need to go. Following this technique, you go to the toilet on a routine, planned basis &amp;mdash; usually every two to four hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid and diet management.&lt;/strong&gt; In some cases, you can simply modify your daily habits to regain control of your bladder. You may need to cut back on or avoid alcohol, caffeine or acidic foods. Reducing liquid consumption, losing weight or increasing physical activity are other lifestyle changes that can eliminate the problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Pelvic floor muscle exercises.&lt;/strong&gt; These exercises strengthen your urinary sphincter and pelvic floor muscles &amp;mdash; the muscles that help control urination. Your doctor may recommend that you do these exercises frequently. They are especially effective for stress incontinence, but may also help urge incontinence.
+	&lt;/p&gt;
+	&lt;p&gt;
+	To do pelvic floor muscle exercises (Kegel exercises), imagine that you&apos;re trying to stop your urine flow. Squeeze the muscles you would use to stop urinating and hold for a count of three and repeat.
+	&lt;/p&gt;
+	&lt;p&gt;
+	With Kegel exercises, it can be difficult to know whether you&apos;re contracting the right muscles and in the right manner. In general, if you sense a pulling-up feeling when you squeeze, you&apos;re using the right muscles. Men may feel their penises pull in slightly toward their bodies. To double-check that you&apos;re contracting the right muscles, try the exercises in front of a mirror. Your abdominal, buttock or leg muscles shouldn&apos;t tighten if you&apos;re isolating the muscles of the pelvic floor.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you&apos;re still not sure whether you&apos;re contracting the right muscles, ask your doctor for help. Your doctor may suggest you work with a physical therapist or try biofeedback techniques to help you identify and contract the right muscles. Your doctor may also suggest vaginal cones, which are weights that help women strengthen the pelvic floor.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrical stimulation.&lt;/strong&gt; In this procedure, electrodes are temporarily inserted into your rectum or vagina to stimulate and strengthen pelvic floor muscles. Gentle electrical stimulation can be effective for stress incontinence and urge incontinence, but it takes several months and multiple treatments to work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Often, medications are used in conjunction with behavioral techniques. Drugs commonly used to treat incontinence include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anticholinergics.&lt;/strong&gt; These prescription medications calm an overactive bladder, so they may be helpful for urge incontinence. Several drugs fall under this category, including oxybutynin (Ditropan), tolterodine (Detrol), darifenacin (Enablex), fesoterodine (Toviaz), solifenacin (Vesicare) and trospium (Sanctura). Possible side effects of these medications include dry mouth, constipation, blurred vision and flushing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical estrogen.&lt;/strong&gt; Applying low-dose, topical estrogen in the form of a vaginal cream, ring or patch may help tone and rejuvenate tissues in the urethra and vaginal areas. This may reduce some of the symptoms of incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imipramine.&lt;/strong&gt; Imipramine (Tofranil) is a tricyclic antidepressant that may be used to treat mixed &amp;mdash; urge and stress &amp;mdash; incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Duloxetine.&lt;/strong&gt; The antidepressant medication duloxetine (Cymbalta) is sometimes used to treat stress incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical devices&lt;/strong&gt;&lt;br /&gt;
+Several medical devices are available to help treat incontinence. They&apos;re designed specifically for women and include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urethral insert.&lt;/strong&gt; This small tampon-like disposable device inserted into the urethra acts as a plug to prevent leakage. It&apos;s usually used to prevent incontinence during a specific activity, but it may be worn throughout the day. Urethral inserts aren&apos;t meant to be worn 24 hours a day. They are available by prescription and may work best for women who have predictable incontinence during certain activities, such as playing tennis. The device is inserted before the activity and removed before urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pessary (PES-uh-re).&lt;/strong&gt; Your doctor may prescribe a pessary &amp;mdash; a stiff ring that you insert into your vagina and wear all day. The device helps hold up your bladder, which lies near the vagina, to prevent urine leakage. You need to regularly remove the device to clean it. You may benefit from a pessary if you have incontinence due to a dropped (prolapsed) bladder or uterus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Interventional therapies&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bulking material injections.&lt;/strong&gt; Bulking agents are materials, such as carbon-coated zirconium beads (Durasphere), calcium hydroxylapatite (Coaptite) or polydimethylsiloxane (Macroplastique), that are injected into tissue surrounding the urethra. This helps keep the urethra closed and reduce urine leakage. The procedure &amp;mdash; usually done in a doctor&apos;s office &amp;mdash; requires minimal anesthesia and takes about five minutes. The downside is that repeat injections are usually needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Botulinum toxin type A.&lt;/strong&gt; Injections of onabotulinumtoxinA (Botox) into the bladder muscle may benefit people who have an overactive bladder. Researchers have found this to be a promising therapy, but the Food and Drug Administration (FDA) has not yet approved this drug for incontinence. These injections may cause urinary retention that&apos;s severe enough to require self-catheterization. In addition, repeat injections are needed every six to nine months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve stimulators.&lt;/strong&gt; Sacral nerve stimulators can help control your bladder function. The device,which resembles a pacemaker, is implanted under the skin in your buttock. A wire from the device is connected to a sacral nerve &amp;mdash; an important nerve in bladder control that runs from your lower spinal cord to your bladder. Through the wire, the device emits painless electrical pulses that stimulate the nerve and help control the bladder. Another device, the tibial nerve stimulator, is approved for treating overactive bladder symptoms. Instead of directly stimulating the sacral nerve, this device uses an electrode placed underneath the skin to deliver electrical pulses to the tibial nerve in the ankle. These pulses then travel along the tibial nerve to the sacral nerve, where they help control overactive bladder symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+If other treatments aren&apos;t working, several surgical procedures have been developed to fix problems that cause urinary incontinence.
+&lt;/p&gt;
+&lt;p&gt;
+Some of the commonly used procedures include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sling procedures.&lt;/strong&gt; A sling procedure uses strips of your body&apos;s tissue, synthetic material or mesh to create a pelvic sling or hammock around your bladder neck and urethra. The sling helps keep the urethra closed, especially when you cough or sneeze. There are many types of slings, including tension-free, adjustable and conventional.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder neck suspension.&lt;/strong&gt; This procedure is designed to provide support to your urethra and bladder neck &amp;mdash; an area of thickened muscle where the bladder connects to the urethra. It involves an abdominal incision, so it&apos;s done using general or spinal anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Artificial urinary sphincter.&lt;/strong&gt; This small device is particularly helpful for men who have weakened urinary sphincters from treatment of prostate cancer or an enlarged prostate gland. Shaped like a doughnut, the device is implanted around the neck of your bladder. The fluid-filled ring keeps your urinary sphincter shut tight until you&apos;re ready to urinate. To urinate, you press a valve implanted under your skin that causes the ring to deflate and allows urine from your bladder to flow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Absorbent pads and catheters&lt;/strong&gt;&lt;br /&gt;
+If medical treatments can&apos;t completely eliminate your incontinence &amp;mdash; or you need help until a treatment starts to take effect &amp;mdash; you can try products that help ease the discomfort and inconvenience of leaking urine.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pads and protective garments.&lt;/strong&gt; Various absorbent pads are available to help you manage urine loss. Most products are no more bulky than normal underwear, and you can wear them easily under everyday clothing. Men who have problems with dribbles of urine can use a drip collector &amp;mdash; a small pocket of absorbent padding that&apos;s worn over the penis and held in place by closefitting underwear. Men and women can wear adult diapers, pads or panty liners, which can be purchased at drugstores, supermarkets and medical supply stores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Catheter.&lt;/strong&gt; If you&apos;re incontinent because your bladder doesn&apos;t empty properly, your doctor may recommend that you learn to insert a soft tube (catheter) into your urethra several times a day to drain your bladder (self-intermittent catheterization). This should give you more control of your leakage, especially if you have overflow incontinence. You&apos;ll be instructed on how to clean these catheters for safe reuse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pelvic floor muscles 
+" Caption="Your pelvic floor muscles comprise several layers of muscle attached to the front, back and sides of your pelvic bone. These muscles help control urination. 
+" Height="60" Title="Pelvic floor muscles" URI="/images/image_popup/thumbs/w7_pelvicfloormusclesthu.jpg" Width="60" />
+				<Image Alt="Illustration of pelvic floor muscles 
+" Caption="Your pelvic floor muscles comprise several layers of muscle attached to the front, back and sides of your pelvic bone. These muscles help control urination. 
+" Height="344" Title="Pelvic floor muscles" URI="/images/image_popup/w7_pelvicfloormuscles.jpg" Width="400" />
+				<HTML>
+					Your pelvic floor muscles comprise several layers of muscle attached to the front, back and sides of your pelvic bone. These muscles help control urination. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing sacral nerve stimulation device 
+" Caption="During sacral nerve stimulation, a surgically implanted device delivers electrical impulses to the nerves (sacral nerves) that regulate bladder activity. The unit is placed beneath the skin of the buttocks, about where the back pocket is on a pair of pants. In this image, the device is shown out of place to allow a better view of the unit. 
+" Height="60" Title="Sacral nerve stimulation" URI="/images/image_popup/thumbs/w7_snsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing sacral nerve stimulation device 
+" Caption="During sacral nerve stimulation, a surgically implanted device delivers electrical impulses to the nerves (sacral nerves) that regulate bladder activity. The unit is placed beneath the skin of the buttocks, about where the back pocket is on a pair of pants. In this image, the device is shown out of place to allow a better view of the unit. 
+" Height="366" Title="Sacral nerve stimulation" URI="/images/image_popup/w7_sns.jpg" Width="400" />
+				<HTML>
+					During sacral nerve stimulation, a surgically implanted device delivers electrical impulses to the nerves (sacral nerves) that regulate bladder activity. The unit is placed beneath the skin of the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sling procedures 
+" Caption="A sling is a piece of human or animal tissue or a synthetic tape that a surgeon places to support the bladder neck and urethra. Two sling techniques are shown &amp;mdash; the retropubic and transobturator. Both are designed to reduce or eliminate stress incontinence in women. 
+" Height="60" Title="Sling procedures" URI="/images/image_popup/thumbs/w7_slingproceduresthu.jpg" Width="60" />
+				<Image Alt="Illustration of sling procedures 
+" Caption="A sling is a piece of human or animal tissue or a synthetic tape that a surgeon places to support the bladder neck and urethra. Two sling techniques are shown &amp;mdash; the retropubic and transobturator. Both are designed to reduce or eliminate stress incontinence in women. 
+" Height="412" Title="Sling procedures" URI="/images/image_popup/w7_slingprocedures.jpg" Width="399" />
+				<HTML>
+					A sling is a piece of human or animal tissue or a synthetic tape that a surgeon places to support the bladder neck and urethra. Two sling techniques are shown &amp;mdash; the retropubic and ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of bladder neck suspension procedures 
+" Caption="Bladder neck suspension surgery adds support to the bladder neck and urethra, reducing the risk of stress incontinence. The Burch procedure involves placing sutures in vaginal tissue near the neck of the bladder &amp;mdash; where the bladder and urethra meet &amp;mdash; and attaching them to ligaments near the pubic bone. In a variation of this procedure &amp;mdash; known as the Marshall-Marchetti-Krantz (MMK) operation &amp;mdash; sutures placed in vaginal tissue are secured directly to the pubic bone. 
+" Height="60" Title="Bladder neck suspension" URI="/images/image_popup/thumbs/w7_bladdersuspensionthu.jpg" Width="60" />
+				<Image Alt="Illustration of bladder neck suspension procedures 
+" Caption="Bladder neck suspension surgery adds support to the bladder neck and urethra, reducing the risk of stress incontinence. The Burch procedure involves placing sutures in vaginal tissue near the neck of the bladder &amp;mdash; where the bladder and urethra meet &amp;mdash; and attaching them to ligaments near the pubic bone. In a variation of this procedure &amp;mdash; known as the Marshall-Marchetti-Krantz (MMK) operation &amp;mdash; sutures placed in vaginal tissue are secured directly to the pubic bone. 
+" Height="454" Title="Bladder neck suspension" URI="/images/image_popup/w7_bladdersuspension.jpg" Width="400" />
+				<HTML>
+					Bladder neck suspension surgery adds support to the bladder neck and urethra, reducing the risk of stress incontinence. The Burch procedure involves placing sutures in vaginal tissue near the neck of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Protecting your skin&lt;/strong&gt;&lt;br /&gt;
+Problems with urine leakage may require you to take extra care to prevent skin irritation. Some things you can do to protect your skin include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use a washcloth to clean yourself.&lt;/li&gt;
+	&lt;li&gt;Allow your skin to air dry.&lt;/li&gt;
+	&lt;li&gt;Avoid frequent washing and douching because these can overwhelm your body&apos;s natural defenses against bladder infections.&lt;/li&gt;
+	&lt;li&gt;Consider using a barrier cream, such as petroleum jelly or cocoa butter, to protect your skin from urine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Making the toilet more convenient&lt;/strong&gt;&lt;br /&gt;
+If you have urge incontinence or nighttime incontinence:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Move any rugs or furniture you might trip over or collide with on the way to the toilet.&lt;/li&gt;
+	&lt;li&gt;Use a night light to illuminate your path and reduce your risk of falling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have functional incontinence, possible changes may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Keeping a bedpan in your bedroom&lt;/li&gt;
+	&lt;li&gt;Installing an elevated toilet seat&lt;/li&gt;
+	&lt;li&gt;Adding a bathroom in a more convenient location&lt;/li&gt;
+	&lt;li&gt;Widening an existing bathroom doorway&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no alternative medicine therapies that have been proven to cure urinary incontinence. Some treatments, such as hypnotherapy, magnetic stimulation and reflexology, have been tried, but there is no definitive evidence that any of these therapies can help reduce symptoms. One therapy that has shown some promise in reducing the symptoms of urinary incontinence is acupuncture. However, more research is needed before it can be recommended as a treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re embarrassed about having a bladder control problem, you may try to cope on your own &amp;mdash; wearing absorbent pads, carrying extra clothes, avoiding going out. You may even cut back on drinking liquids &amp;mdash; and risk dehydration &amp;mdash; to avoid wetting episodes.
+&lt;/p&gt;
+&lt;p&gt;
+But there are better ways to manage urinary incontinence, and effective treatments are available. That&apos;s why it&apos;s important to see your doctor and ask about treatment. You&apos;ll be on your way to regaining an active and confident life &amp;mdash; and control of your bladder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinary incontinence is not always preventable. However, you may be able to decrease your risk of incontinence with these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you&apos;re overweight, reaching a healthy weight may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Get help with quitting if you do smoke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice Kegel exercises.&lt;/strong&gt; Doctors often advise pregnant women to do Kegel exercises during pregnancy as a preventive measure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid bladder irritants.&lt;/strong&gt; Avoiding or limiting certain foods and drinks may help prevent or limit urinary incontinence. For example, if you know that drinking more than two cups of coffee makes you have to urinate uncontrollably, cutting back to one cup of coffee or forgoing caffeine-containing drinks may be all that you need to do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat more fiber.&lt;/strong&gt; Including more fiber in your diet or taking fiber supplements can help prevent constipation, a risk factor for urinary incontinence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Physical activity reduces your risk of developing incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Urinary incontinence
+	</Title>
+	<Abstract>
+		Urinary incontinence &amp;mdash; Comprehensive overview covers causes, treatment of loss of bladder control.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00828" LinkType="Internal" ObjectID="1A07481E-E7FF-0DBD-1A25151097FF55FF" Title="Stress incontinence" Url="http://www.mayoclinic.com/health/stress-incontinence/DS00828" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="Answer" DocID="AN02194" LinkType="Internal" ObjectID="97DB1E66-C0DF-846A-EDC3AE6812E0E8C9" Title="What is reflexology?" Url="http://www.mayoclinic.com/health/what-is-reflexology/AN02194" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN01787" LinkType="Internal" ObjectID="59D5B6F9-E7FF-0DBD-146590EB8213E46D" Title="Coughing after quitting smoking: What&apos;s the deal?" Url="http://www.mayoclinic.com/health/quit-smoking/AN01787" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00488" LinkType="Internal" ObjectID="4723B235-F3F0-E282-0063AC485F6995C7" Title="Urinalysis" Url="http://www.mayoclinic.com/health/urinalysis/MY00488" />
+		<LinkItem ContentType="Article" DocID="HA00040" LinkType="Internal" ObjectID="78D032F9-F542-4DE0-B6E3BC5B35E92C02" Title="Aging: What to expect" Url="http://www.mayoclinic.com/health/aging/HA00040" />
+		<LinkItem ContentType="Article" DocID="WO00119" LinkType="Internal" ObjectID="4A3C4537-E7FF-0DBD-1C6A21B102911FE1" Title="Kegel exercises: A how-to guide for women" Url="http://www.mayoclinic.com/health/kegel-exercises/WO00119" />
+		<LinkItem ContentType="Article" DocID="MY01402" LinkType="Internal" ObjectID="3DD83860-CD8B-DD38-0EC8B8144593C564" Title="Kegel exercises for men: Understand the benefits" Url="http://www.mayoclinic.com/health/kegel-exercises-for-men/MY01402" />
+		<LinkItem ContentType="Article" DocID="NU00033" LinkType="Internal" ObjectID="07E90B30-4B75-4344-A5BC001808B56D0A" Title="Dietary fiber: Essential for a healthy diet" Url="http://www.mayoclinic.com/health/fiber/NU00033" />
+		<LinkItem ContentType="Answer" DocID="AN00688" LinkType="Internal" ObjectID="31607876-57B7-44ED-B1049C2C0294DACF" Title="Adult bed-wetting: A concern?" Url="http://www.mayoclinic.com/health/adult-bed-wetting/AN00688" />
+		<LinkItem ContentType="Disease" DocID="DS00460" LinkType="Internal" ObjectID="FF176B51-D345-4049-99F4E7BC2B3E4A27" Title="Spinal cord injury" Url="http://www.mayoclinic.com/health/spinal-cord-injury/DS00460" />
+		<LinkItem ContentType="Disease" DocID="DS00027" LinkType="Internal" ObjectID="E569D2C1-B4F8-4E5E-B7D8534A26D35B37" Title="Prostate gland enlargement" Url="http://www.mayoclinic.com/health/prostate-gland-enlargement/DS00027" />
+		<LinkItem ContentType="Disease" DocID="DS00188" LinkType="Internal" ObjectID="CEC491ED-C3B3-4B39-9E747386136032B4" Title="Multiple sclerosis" Url="http://www.mayoclinic.com/health/multiple-sclerosis/DS00188" />
+		<LinkItem ContentType="Disease" DocID="DS00497" LinkType="Internal" ObjectID="CBC4AE4E-273C-4A16-813E4F06BFB5F959" Title="Interstitial cystitis" Url="http://www.mayoclinic.com/health/interstitial-cystitis/DS00497" />
+		<LinkItem ContentType="Disease" DocID="DS00341" LinkType="Internal" ObjectID="8754C233-295A-4871-BB6EAE0904F9233A" Title="Prostatitis" Url="http://www.mayoclinic.com/health/prostatitis/DS00341" />
+		<LinkItem ContentType="Disease" DocID="DS00043" LinkType="Internal" ObjectID="19DD7485-629A-44DE-A9B65BAC360EF5B3" Title="Prostate cancer" Url="http://www.mayoclinic.com/health/prostate-cancer/DS00043" />
+		<LinkItem ContentType="Disease" DocID="DS00177" LinkType="Internal" ObjectID="0310B0B3-9172-43A2-80019DC5BACB347D" Title="Bladder cancer" Url="http://www.mayoclinic.com/health/bladder-cancer/DS00177" />
+		<LinkItem ContentType="Article" DocID="WO00124" LinkType="Internal" ObjectID="AFBCDFD8-E7FF-0DBD-175A5B4B919082B9" Title="Urinary incontinence: Incontinence products to help keep you dry" Url="http://www.mayoclinic.com/health/incontinence-products/WO00124" />
+		<LinkItem ContentType="Article" DocID="WO00126" LinkType="Internal" ObjectID="A04645D6-E7FF-0DBD-1DA6BBA55DAA2093" Title="Urinary incontinence surgery: When other treatments aren&apos;t enough" Url="http://www.mayoclinic.com/health/urinary-incontinence-surgery/WO00126" />
+		<LinkItem ContentType="Article" DocID="WO00122" LinkType="Internal" ObjectID="8F1FAF2D-E7FF-0DBD-1CC78140B8CB997C" Title="Bladder control problems in women: Lifestyle strategies for relief" Url="http://www.mayoclinic.com/health/bladder-control-problem/WO00122" />
+		<LinkItem ContentType="Article" DocID="WO00117" LinkType="Internal" ObjectID="13FCB22A-E7FF-0DBD-1E65C212C48A8363" Title="Bladder control problems in women: Seek treatment" Url="http://www.mayoclinic.com/health/bladder-control-problems/WO00117" />
+		<LinkItem ContentType="Article" DocID="WO00123" LinkType="Internal" ObjectID="13F0A4E6-E7FF-0DBD-11D26F15C59BFC0F" Title="Bladder control problems: Medications for treating urinary incontinence" Url="http://www.mayoclinic.com/health/bladder-control-problems/WO00123" />
+	</RelatedLinksBox>
+</Disease>

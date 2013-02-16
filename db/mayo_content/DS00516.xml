@@ -1,0 +1,365 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00516
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sciatica/DS00516
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-19
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="2458" Title="Sciatica" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BBE9CE6F-FF7D-4715-A30693A2BF77474F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sciatica
+			</MetaKeyword>
+			<MetaKeyword>
+				back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				siatic nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				siatica
+			</MetaKeyword>
+			<MetaKeyword>
+				leg numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				syatic nerve
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sciatica refers to pain that radiates along the path of the sciatic nerve &amp;mdash; which branches from your lower back through your hips and buttocks and down each leg. Typically, sciatica affects only one side of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Sciatica most commonly occurs when a herniated disk or a bone spur on the spine compresses part of the nerve. This causes inflammation, pain and often some numbness in the affected leg.
+&lt;/p&gt;
+&lt;p&gt;
+Although the pain associated with sciatica can be severe, most cases resolve with just conservative treatments in a few weeks. People who continue to have severe sciatica after six weeks of treatment might be helped by surgery to relieve the pressure on the nerve. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing sciatic nerve 
+" Caption="The sciatic nerves branches from your lower back through your hips and buttocks and down each leg. 
+" Height="60" Title="Sciatic nerve" URI="/images/image_popup/thumbs/mcdc7_sciaticathu.jpg" Width="60" />
+				<Image Alt="Illustration showing sciatic nerve 
+" Caption="The sciatic nerves branches from your lower back through your hips and buttocks and down each leg. 
+" Height="359" Title="Sciatic nerve" URI="/images/image_popup/mcdc7_sciatica.jpg" Width="400" />
+				<HTML>
+					The sciatic nerves branches from your lower back through your hips and buttocks and down each leg. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pain that radiates from your lower (lumbar) spine to your buttock and down the back of your leg is the hallmark of sciatica. You may feel the discomfort almost anywhere along the nerve pathway, but it&apos;s especially likely to follow a path from your low back to your buttock and the back of your thigh and calf. 
+&lt;/p&gt;
+&lt;p&gt;
+The pain can vary widely, from a mild ache to a sharp, burning sensation or excruciating discomfort. Sometimes it may feel like a jolt or electric shock. It may be worse when you cough or sneeze, and prolonged sitting can aggravate symptoms. Usually only one side of your body is affected. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people also experience numbness, tingling or muscle weakness in the affected leg or foot. You may have pain in one part of your leg and numbness in another. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Mild sciatica usually goes away given time and patience. Call your doctor if self-care measures fail to ease your symptoms or if your pain lasts longer than a week, is severe or becomes progressively worse. Get immediate medical care if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You experience sudden, severe pain in your low back or leg and numbness or muscle weakness in your leg&lt;/li&gt;
+	&lt;li&gt;The pain follows a violent injury, such as a traffic accident&lt;/li&gt;
+	&lt;li&gt;You have trouble controlling your bowels or bladder&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sciatica occurs when the sciatic nerve becomes pinched, usually by a herniated disk in your spine or by an overgrowth of bone (bone spur) on your vertebrae. More rarely, the nerve can be compressed by a tumor or damaged by a disease such as diabetes. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a herniated disk 
+" Caption="The rubbery disks that lie between the vertebrae in your spine consist of a soft center (nucleus) surrounded by a tougher exterior (annulus). A herniated disk occurs when a portion of the nucleus pushes through a crack in the annulus. Symptoms may occur if the herniation compresses a nerve. 
+" Height="60" Title="Herniated disk" URI="/images/image_popup/thumbs/mcdc7_herniated_diskthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a herniated disk 
+" Caption="The rubbery disks that lie between the vertebrae in your spine consist of a soft center (nucleus) surrounded by a tougher exterior (annulus). A herniated disk occurs when a portion of the nucleus pushes through a crack in the annulus. Symptoms may occur if the herniation compresses a nerve. 
+" Height="459" Title="Herniated disk" URI="/images/image_popup/mcdc7_herniated_disk.jpg" Width="400" />
+				<HTML>
+					The rubbery disks that lie between the vertebrae in your spine consist of a soft center (nucleus) surrounded by a tougher exterior (annulus). A herniated disk occurs when a portion of the nucleus ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bone spurs on spine 
+" Caption="As your spine ages, it&apos;s more likely to experience bone spurs or herniated disks. These problems can reduce the amount of space available for your spinal cord and the nerves that branch off it. 
+" Height="60" Title="Bone spurs on spine" URI="/images/image_popup/thumbs/mcdc7_degenerative_spinethu.jpg" Width="60" />
+				<Image Alt="Illustration showing bone spurs on spine 
+" Caption="As your spine ages, it&apos;s more likely to experience bone spurs or herniated disks. These problems can reduce the amount of space available for your spinal cord and the nerves that branch off it. 
+" Height="300" Title="Bone spurs on spine" URI="/images/image_popup/mcdc7_degenerative_spine.jpg" Width="400" />
+				<HTML>
+					As your spine ages, it&apos;s more likely to experience bone spurs or herniated disks. These problems can reduce the amount of space available for your spinal cord and the nerves that branch off it. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for sciatica include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Age-related changes in the spine, such as herniated disks and bone spurs, are the most common causes of sciatica.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; By increasing the stress on your spine, excess body weight may contribute to the spinal changes that trigger sciatica.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupation.&lt;/strong&gt; A job that requires you to twist your back, carry heavy loads or drive a motor vehicle for long periods may play a role in sciatica, but there&apos;s no conclusive evidence of this link.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged sitting.&lt;/strong&gt; People who sit for prolonged periods or have a sedentary lifestyle are more likely to develop sciatica than active people are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; This condition, which affects the way your body uses blood sugar, increases your risk of nerve damage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although most people recover fully from sciatica, often without any specific treatment, sciatica can potentially cause permanent nerve damage. Seek immediate medical attention if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of feeling in the affected leg&lt;/li&gt;
+	&lt;li&gt;Weakness in the affected leg&lt;/li&gt;
+	&lt;li&gt;Loss of bowel or bladder function&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Not everyone who has sciatica needs medical care. If your symptoms are severe or persist for more than a month, though, make an appointment with your primary doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been having&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any recent accidents or injuries&lt;/strong&gt; that may have damaged your back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For radiating low back pain, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my back pain?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any diagnostic tests?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;For how long will I need to take medication?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for surgery? Why or why not?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;What self-care measures should I be taking?&lt;/li&gt;
+	&lt;li&gt;Is there anything else I can do to help prevent a recurrence of these symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that arise during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do your symptoms include any numbness or weakness in your legs?&lt;/li&gt;
+	&lt;li&gt;Do any body positions or activities make your pain better or worse?&lt;/li&gt;
+	&lt;li&gt;How much is your pain limiting your ability to function?&lt;/li&gt;
+	&lt;li&gt;Does your work or recreational activities involve any heavy physical work?&lt;/li&gt;
+	&lt;li&gt;Do you exercise regularly? If yes, with what types of activities?&lt;/li&gt;
+	&lt;li&gt;What treatments or self-care measures have you tried so far? Has anything helped?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may check your muscle strength and reflexes. For example, you may be asked to walk on your toes or heels, rise from a squatting position and, while lying on your back, lift your legs one at a time straight in the air. Pain that results from sciatica will usually become worse during these activities.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Many people have herniated disks or bone spurs that will show up on X-rays and other imaging tests but cause no symptoms. So doctors don&apos;t typically order these types of tests unless your pain is very severe or it doesn&apos;t improve within a few weeks.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; An X-ray of your spine may reveal an overgrowth of bone (bone spur) that may be pressing on a nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This procedure uses a powerful magnet and radio waves to produce cross-sectional images of your back. MRI produces detailed images of bone and soft tissues such as herniated disks. During the test, you lie on a movable table inside the MRI machine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; When CT is used to image the spine, you may have a contrast dye injected into your spinal canal before the X-rays are taken &amp;mdash; a procedure called a CT myelogram. The dye then circulates around your spinal cord and spinal nerves, which appear white on the scan.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your pain doesn&apos;t improve with self-care measures, your doctor may suggest some of the following treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;The types of drugs that might be prescribed for sciatica pain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anti-inflammatories&lt;/li&gt;
+	&lt;li&gt;Muscle relaxants&lt;/li&gt;
+	&lt;li&gt;Narcotics&lt;/li&gt;
+	&lt;li&gt;Tricyclic antidepressants&lt;/li&gt;
+	&lt;li&gt;Anti-seizure medications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;Once your acute pain improves, your doctor or a physical therapist can design a rehabilitation program to help you prevent recurrent injuries. This typically includes exercises to help correct your posture, strengthen the muscles supporting your back and improve your flexibility.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Steroid injections&lt;br /&gt;
+&lt;/strong&gt;In some cases, your doctor may recommend injection of a corticosteroid medication into the area around the involved nerve root. Corticosteroids help reduce pain by suppressing inflammation around the irritated nerve. The effects usually wear off in a few months. The number of steroid injections you can receive is limited because the risk of serious side effects increases when the injections occur too frequently.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;This option is usually reserved for times when the compressed nerve causes significant weakness, bowel or bladder incontinence or when you have pain that progressively worsens or doesn&apos;t improve with other therapies. Surgeons can remove the bone spur or the portion of the herniated disk that&apos;s pressing on the pinched nerve.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, sciatica responds well to self-care measures. You&apos;ll heal more quickly if you continue with your usual activities but avoid what may have triggered the pain in the first place. Although resting for a day or so may provide some relief, prolonged inactivity will make your signs and symptoms worse.
+&lt;/p&gt;
+&lt;p&gt;
+Other self-care treatments that may be helpful include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cold packs.&lt;/strong&gt; Initially, you may get relief from a cold pack placed on the painful area for up 20 minutes several times a day. Use an ice pack or a package of frozen peas wrapped in a clean towel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hot packs.&lt;/strong&gt; After two to three days, apply heat to the areas that hurt. Use hot packs, a heat lamp or a heating pad on the lowest setting. If you continue to have pain, try alternating warm and cold packs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretching.&lt;/strong&gt; Stretching exercises for your low back can help you feel better and may help relieve nerve root compression. Avoid jerking, bouncing or twisting during the stretch and try to hold the stretch at least 30 seconds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter medications.&lt;/strong&gt; Pain relievers such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve) are sometimes helpful for sciatica.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative therapies commonly used for low back pain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; In acupuncture, the practitioner inserts hair-thin needles into your skin at specific points on your body. Some studies have suggested that acupuncture can help back pain, while others have found no benefit. If you decide to try acupuncture, choose a licensed practitioner to ensure that he or she has had extensive training. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chiropractic.&lt;/strong&gt; Spinal adjustment (manipulation) is one form of therapy chiropractors use to treat restricted spinal mobility. The goal is to restore spinal movement and, as a result, improve function and decrease pain. Spinal manipulation appears to be as effective and safe as standard treatments for low back pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not always possible to prevent sciatica, and the condition may recur. The following suggestions can play a key role in protecting your back:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; This is the most important thing you can do for your overall health as well as for your back. Pay special attention to your core muscles &amp;mdash; the muscles in your abdomen and lower back that are essential for proper posture and alignment. Ask your doctor to recommend specific activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain proper posture when you sit.&lt;/strong&gt; Choose a seat with good lower back support, arm rests and a swivel base. Consider placing a pillow or rolled towel in the small of your back to maintain its normal curve. Keep your knees and hips level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use good body mechanics.&lt;/strong&gt; If you stand for long periods, rest one foot on a stool or small box from time to time. When you lift something heavy, let your lower extremities do the work. Move straight up and down. Keep your back straight and bend only at the knees. Hold the load close to your body. Avoid lifting and twisting simultaneously. Find a lifting partner if the object is heavy or awkward.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sciatica
+	</Title>
+	<Abstract>
+		Sciatica &amp;mdash; Comprehensive overview covers symptoms, treatment of this acute back, pelvic and leg pain.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00673" LinkType="Internal" ObjectID="E8746993-A9A7-0BD8-DD7E1C57B75A7E36" Title="Diskectomy" Url="http://www.mayoclinic.com/health/diskectomy/MY00673" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01107" LinkType="Internal" ObjectID="8DA2A369-EC32-C687-93EBBF23812A26E0" Title="Chiropractic adjustment" Url="http://www.mayoclinic.com/health/chiropractic-adjustment/MY01107" />
+		<LinkItem ContentType="Answer" DocID="AN01620" LinkType="Internal" ObjectID="7CD469B3-E7FF-0DBD-1ACA3D6BF71125B0" Title="Elliptical machines: Better than treadmills?" Url="http://www.mayoclinic.com/health/elliptical-machines/AN01620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Disease" DocID="DS00893" LinkType="Internal" ObjectID="C4365106-E7FF-0DBD-12B00DF65C5F9CC4" Title="Herniated disk" Url="http://www.mayoclinic.com/health/herniated-disk/DS00893" />
+	</RelatedLinksBox>
+</Disease>

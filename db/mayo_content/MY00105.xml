@@ -1,0 +1,209 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00105
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gene-therapy/MY00105
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-05
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3858" Title="Genetics/Birth defects">
+						<Keyword MCVID="3859" Title="Gene therapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C0133EF8-E7FF-0DBD-169C6332C6D45953
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gene therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				genes
+			</MetaKeyword>
+			<MetaKeyword>
+				DNA
+			</MetaKeyword>
+			<MetaKeyword>
+				vector
+			</MetaKeyword>
+			<MetaKeyword>
+				viral vector
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gene therapy is a treatment that involves altering the genes inside your body&apos;s cells to stop disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Genes contain your DNA &amp;mdash; the code that controls much of your body&apos;s form and function, from making you grow taller to regulating your body systems. Genes that don&apos;t work properly can cause disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Gene therapy replaces a faulty gene or adds a new gene in an attempt to cure disease or improve your body&apos;s ability to fight disease. Gene therapy holds promise for treating a wide range of diseases, including cancer, cystic fibrosis, heart disease, diabetes, hemophilia and AIDS. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are still studying how and when to use gene therapy. Currently, in the United States, gene therapy is available only as part of a clinical trial. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gene therapy is used to correct defective genes in order to cure a disease or to help your body better fight disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are investigating several ways to do this, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Replacing mutated genes.&lt;/strong&gt; Some cells become diseased because certain genes work incorrectly or no longer work at all. Replacing the defective genes may help treat certain diseases.
+	&lt;/p&gt;
+	&lt;p&gt;
+	For instance, a gene called p53 normally prevents tumor growth in your body. Several types of cancer have been linked to problems with the p53 gene. If doctors could replace the defective p53 gene, that might trigger the cancer cells to die. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fixing mutated genes.&lt;/strong&gt; Mutated genes that cause disease could be turned off so that they no longer promote disease, or healthy genes that help prevent disease could be turned on so that they can inhibit the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Making diseased cells more evident to the immune system.&lt;/strong&gt; In some cases, your immune system doesn&apos;t attack diseased cells because it doesn&apos;t recognize them as intruders. Doctors could use gene therapy to train your immune system to recognize the cells that are a threat.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gene therapy has some potential risks. A gene can&apos;t easily be inserted directly into your cells. Rather, it usually has to be delivered using a carrier, called a vector. The most common gene therapy vectors are viruses because they can recognize certain cells and carry genetic material into the cells&apos; genes. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers remove the original disease-causing genes from the viruses, replacing them with the genes needed to stop disease. 
+&lt;/p&gt;
+&lt;p&gt;
+This technique presents the following risks: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Unwanted immune system reaction.&lt;/strong&gt; Your body&apos;s immune system may see the newly introduced viruses as intruders and attack them. This may cause inflammation and, in severe cases, organ failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Targeting the wrong cells.&lt;/strong&gt; Because viruses can affect more than one type of cells, it&apos;s possible that the altered viruses may infect additional cells &amp;mdash; not just the targeted cells containing mutated genes. If this happens, healthy cells may be damaged, causing other illness or diseases, including cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection caused by the virus.&lt;/strong&gt; It&apos;s possible that once introduced into the body, the viruses may recover their original ability to cause disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Possibility of causing a tumor.&lt;/strong&gt; If the new genes get inserted in the wrong spot in your DNA, there is a chance that the insertion might lead to tumor formation. This has occurred occasionally in some clinical trials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The gene therapy clinical trials under way in the U.S. are closely monitored by the Food and Drug Administration and the National Institutes of Health to ensure the safety of those who participate in the studies. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Currently, the only way for you to receive gene therapy is to participate in a clinical trial. Clinical trials are research studies that help doctors determine whether a gene therapy approach is safe for people. They also help doctors understand the effects of gene therapy on the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Your specific procedure will depend on the disease you have and the type of gene therapy being used. 
+&lt;/p&gt;
+&lt;p&gt;
+As an example of one type of gene therapy, you may have blood drawn or you may need bone marrow removed from your hipbone with a large needle. Then, in a laboratory, cells from the blood or bone marrow are exposed to a virus or another type of vector that contains the desired genetic material. 
+&lt;/p&gt;
+&lt;p&gt;
+Once the vector has entered the cells in the laboratory, those cells are injected back into your body into a vein or into tissue, where your cells take up the vector along with the altered genes. 
+&lt;/p&gt;
+&lt;p&gt;
+Viruses aren&apos;t the only vectors that can be used to carry altered genes into your body&apos;s cells. Other vectors being studied in clinical trials include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cells.&lt;/strong&gt; Stem cells are the cells from which all other cells in your body are created. For gene therapy, stem cells can be trained in a laboratory to become cells that can help fight disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liposomes.&lt;/strong&gt; These fatty particles have the ability to carry the new, therapeutic genes to the target cells and pass the genes into your cells&apos; DNA.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The possibilities of gene therapy hold much promise. To date, however, that promise has not been realized. 
+&lt;/p&gt;
+&lt;p&gt;
+Clinical trials of gene therapy in people have shown some success in treating: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe combined immune deficiency&lt;/li&gt;
+	&lt;li&gt;Hemophilia&lt;/li&gt;
+	&lt;li&gt;Blindness caused by retinitis pigmentosa&lt;/li&gt;
+	&lt;li&gt;Leukemia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+But, several significant barriers stand in the way of gene therapy becoming a reliable form of treatment, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Finding a reliable way to get genetic material into cells&lt;/li&gt;
+	&lt;li&gt;Reducing the risk of side effects&lt;/li&gt;
+	&lt;li&gt;Targeting the correct cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Gene therapy continues to be a very active area of research. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gene therapy
+	</Title>
+	<Abstract>
+		Gene therapy &amp;mdash; Overview covers definition, risk, results of this experimental procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00218" LinkType="Internal" ObjectID="F06A4B68-94D1-418C-827D409C656EC798" Title="Hemophilia" Url="http://www.mayoclinic.com/health/hemophilia/DS00218" />
+	</RelatedLinksBox>
+</TestProcedure>

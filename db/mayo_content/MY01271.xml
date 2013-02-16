@@ -1,0 +1,228 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01271
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/splenectomy/MY01271
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-20
+		</UpdateDate>
+		<PublicationDate>
+			2010-05-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3783" Title="Blood and lymphatic system">
+						<Keyword MCVID="4359" Title="Surgery">
+							<Keyword MCVID="3787" Title="Splenectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D870A127-09C3-EB7A-05D2BDC60612CD97
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				splenectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				spleen removal
+			</MetaKeyword>
+			<MetaKeyword>
+				ruptured spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				splenomegaly
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Splenectomy is a surgical procedure to remove your spleen &amp;mdash; an organ that sits under your rib cage on the left side of your abdomen. The spleen helps fight infection and filters unneeded material, such as old or damaged blood cells. Although your bone marrow produces most of your blood products, the spleen also produces red blood cells and certain types of white blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common reason for splenectomy is to treat a ruptured spleen, often caused by an abdominal injury. Splenectomy may be used to treat other conditions, including enlarged spleen (splenomegaly), some blood disorders, certain cancers, infection, and noncancerous cysts or tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+Splenectomy is most commonly performed using a tiny video camera and special surgical tools (laparoscopic splenectomy). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Splenectomy is used to treat a wide variety of diseases and conditions. Your doctor may recommend splenectomy if you have one of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ruptured spleen.&lt;/strong&gt; If your spleen ruptures due to a severe abdominal injury or because of enlargement of your spleen (splenomegaly), the result may be life-threatening, internal bleeding. Splenectomy is frequently required to treat a ruptured spleen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood disorder.&lt;/strong&gt; Severe cases of certain blood disorders, such as idiopathic thrombocytopenic purpura (ITP), polycythemia vera, thalassemia and sickle cell anemia, may require splenectomy. But splenectomy is typically used only after other treatments have failed to reduce the symptoms of these disorders. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Chronic lymphocytic leukemia, Hodgkin lymphoma and non-Hodgkin lymphoma are cancers that can affect the spleen. If cancer is found in the spleen, or if spleen enlargement occurs as a result of cancer, your spleen may need to be removed. Splenectomy also is often used as treatment for hairy cell leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; A severe infection or a large collection of pus surrounded by inflammation (abscess) within your spleen that doesn&apos;t respond to other treatment may require splenectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyst or tumor.&lt;/strong&gt; Noncancerous cysts or tumors inside the spleen may require splenectomy if they become large or are difficult to remove completely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although it&apos;s uncommon, your doctor may recommend splenectomy if your spleen is enlarged and no cause for the enlargement can be found using diagnostic tests such as blood work or imaging exams. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Splenectomy is generally a safe procedure. But as with any surgery, splenectomy carries the potential risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Injury to other organs nearby, including your stomach, pancreas and colon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term risk of infection&lt;/strong&gt;&lt;br /&gt;
+After spleen removal, you&apos;re more likely to contract serious or even life-threatening infections. Following splenectomy, your doctor may recommend you receive a pneumonia vaccine and yearly flu vaccines. In some cases, preventive antibiotics may be recommended as well, especially if you have other conditions that increase your risk of serious infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for splenectomy and if there is time before the surgery, you may need to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Receive blood transfusions before surgery to ensure you have enough blood cells following removal of your spleen&lt;/li&gt;
+	&lt;li&gt;Receive a pneumococcal vaccine to help prevent infection after your spleen is removed&lt;/li&gt;
+	&lt;li&gt;Temporarily stop taking certain medications and supplements&lt;/li&gt;
+	&lt;li&gt;Avoid eating or drinking for a certain amount of time before the surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will give you specific instructions to help you prepare. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During splenectomy&lt;/strong&gt;&lt;br /&gt;
+Surgeons perform splenectomy during general anesthesia, so you won&apos;t be awake during the procedure. The anesthesiologist or anesthetist gives you an anesthetic medication as a gas &amp;mdash; to breathe through a mask &amp;mdash; or injects a liquid medication into a vein. The surgical team monitors your heart rate, blood pressure and blood oxygen throughout the procedure with a blood pressure cuff on your arm and heart-monitor leads attached to your chest. After you&apos;re unconscious, your surgeon begins the surgery using either a laparoscopic or open procedure. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Minimally invasive (laparoscopic) splenectomy.&lt;/strong&gt; During laparoscopic splenectomy, the surgeon makes four small incisions in your abdomen. A tube with a tiny video camera is inserted into your abdomen through one of the incisions. Your surgeon watches the video images on a monitor in the operating room as special surgical tools are inserted through the other incisions in your abdomen and your spleen is removed. The incisions are then closed.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Laparoscopic splenectomy isn&apos;t appropriate for everyone. A ruptured spleen usually requires open splenectomy. In some cases your surgeon may begin with a laparoscopic approach and find it necessary to make a larger incision because of scar tissue from previous operations or other complications. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Traditional (open) splenectomy&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; During open splenectomy, your surgeon makes an incision in the middle of your abdomen. Muscle and other tissue are moved aside to reveal your spleen. Your surgeon then removes the spleen, and closes the incision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After splenectomy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;In the hospital.&lt;/strong&gt; After surgery, you&apos;re moved to a recovery room where the health care team watches for complications from the surgery and anesthesia. A hospital stay of two to six days is usually required after splenectomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;After you go home.&lt;/strong&gt; Talk to your doctor about how long to wait until resuming your normal daily activities. Doctors usually recommend staying home from work or school and not driving for at least one week after surgery, but it may be longer depending on your situation. Full recovery from splenectomy typically takes from four to six weeks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a splenectomy due to a ruptured spleen, further treatment usually isn&apos;t necessary. If splenectomy was performed to treat another disorder, additional treatment may be required, depending on your medical situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Life without a spleen&lt;/strong&gt;&lt;br /&gt;
+After splenectomy, other organs in your body take over most of the functions previously performed by your spleen. You can live an active life without a spleen, but you&apos;re more likely to contract serious or even life-threatening infections. To guard against infections, your doctor may recommend a pneumonia vaccine, as well as yearly flu vaccines. In some cases, preventive antibiotics may be recommended as well, especially if you have other conditions that increase your risk of serious infections. 
+&lt;/p&gt;
+&lt;p&gt;
+After a splenectomy, notify your doctor at the first sign of an infection. Make sure anyone caring for you knows that you&apos;ve had your spleen removed. Consider wearing a medical alert bracelet that indicates you don&apos;t have a spleen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Splenectomy
+	</Title>
+	<Abstract>
+		Splenectomy &amp;mdash; Overview covers definition, risks and results of this surgery to remove the spleen.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS00565" LinkType="Internal" ObjectID="CCA7A9A1-ABB6-4E7B-BE47CD881F53F105" Title="Chronic lymphocytic leukemia" Url="http://www.mayoclinic.com/health/chronic-lymphocytic-leukemia/DS00565" />
+		<LinkItem ContentType="Disease" DocID="DS00186" LinkType="Internal" ObjectID="A0FF52F1-F396-4240-BF1993EB72EF4C80" Title="Hodgkin&apos;s lymphoma (Hodgkin&apos;s disease)" Url="http://www.mayoclinic.com/health/hodgkins-disease/DS00186" />
+		<LinkItem ContentType="Disease" DocID="DS00919" LinkType="Internal" ObjectID="87E17B30-E7FF-0DBD-1BE7B8A63AD8BCD1" Title="Polycythemia vera" Url="http://www.mayoclinic.com/health/polycythemia-vera/DS00919" />
+		<LinkItem ContentType="Disease" DocID="DS00844" LinkType="Internal" ObjectID="7E60522D-E7FF-0DBD-1EE338C798DF682B" Title="Idiopathic thrombocytopenic purpura (ITP)" Url="http://www.mayoclinic.com/health/idiopathic-thrombocytopenic-purpura/DS00844" />
+		<LinkItem ContentType="Disease" DocID="DS00350" LinkType="Internal" ObjectID="70E97E5E-A99F-4E7F-B0F3C703097D591A" Title="Non-Hodgkin&apos;s lymphoma" Url="http://www.mayoclinic.com/health/non-hodgkins-lymphoma/DS00350" />
+		<LinkItem ContentType="Disease" DocID="DS00872" LinkType="Internal" ObjectID="43509E63-E7FF-0DBD-18B58D9B2745F792" Title="Ruptured spleen" Url="http://www.mayoclinic.com/health/ruptured-spleen/DS00872" />
+		<LinkItem ContentType="Disease" DocID="DS00871" LinkType="Internal" ObjectID="434E8104-E7FF-0DBD-13EABF19F89B5A72" Title="Enlarged spleen (splenomegaly)" Url="http://www.mayoclinic.com/health/enlarged-spleen/DS00871" />
+		<LinkItem ContentType="Disease" DocID="DS00905" LinkType="Internal" ObjectID="396C1D57-E7FF-0DBD-19B1DA705DA2F148" Title="Thalassemia" Url="http://www.mayoclinic.com/health/thalassemia/DS00905" />
+		<LinkItem ContentType="Disease" DocID="DS00673" LinkType="Internal" ObjectID="1C911879-2A5D-9994-E350527C9298EE65" Title="Hairy cell leukemia" Url="http://www.mayoclinic.com/health/hairy-cell-leukemia/DS00673" />
+		<LinkItem ContentType="Disease" DocID="DS00324" LinkType="Internal" ObjectID="193554B1-F187-461C-9041DDD189B031A6" Title="Sickle cell anemia" Url="http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,363 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00194
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/scoliosis/DS00194
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-03
+		</UpdateDate>
+		<PublicationDate>
+			2000-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="1731" Title="Scoliosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7DBFF2C2-87DE-43DE-8FB57941FC1AC5F6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				scoliosis
+			</MetaKeyword>
+			<MetaKeyword>
+				spine
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord
+			</MetaKeyword>
+			<MetaKeyword>
+				school screening
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal curvature
+			</MetaKeyword>
+			<MetaKeyword>
+				curvature of the spine
+			</MetaKeyword>
+			<MetaKeyword>
+				Milwaukee brace
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic scoliosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scoliosis is a sideways curvature of the spine that occurs most often during the growth spurt just before puberty. While scoliosis can be caused by conditions such as cerebral palsy and muscular dystrophy, the cause of most scoliosis is unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of scoliosis are mild, but some children develop spine deformities that continue to get more severe as they grow. Severe scoliosis can be disabling. An especially severe spinal curve can reduce the amount of space within the chest, making it difficult for the lungs to function properly.
+&lt;/p&gt;
+&lt;p&gt;
+Children who have mild scoliosis are monitored closely, usually with X-rays, to see if the curve is getting worse. In many cases, no treatment is necessary. Some children will need to wear a brace to stop the curve from worsening. Others may need surgery to keep the scoliosis from worsening and to straighten severe cases of scoliosis.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration comparing normal curves in spine to scoliosis 
+" Caption="Viewed from the side, the normal spine takes the form of an elongated S, the upper back bowing outward and the lower back curving slightly inward. Viewed from behind though, the spine should appear as a straight line from the base of the neck to the tailbone. Scoliosis is a sideways curvature of the spine. 
+" Height="60" Title="Scoliosis" URI="/images/image_popup/thumbs/mcdc7_scoliosisthu.jpg" Width="60" />
+				<Image Alt="Illustration comparing normal curves in spine to scoliosis 
+" Caption="Viewed from the side, the normal spine takes the form of an elongated S, the upper back bowing outward and the lower back curving slightly inward. Viewed from behind though, the spine should appear as a straight line from the base of the neck to the tailbone. Scoliosis is a sideways curvature of the spine. 
+" Height="448" Title="Scoliosis" URI="/images/image_popup/mcdc7_scoliosis.jpg" Width="400" />
+				<HTML>
+					Viewed from the side, the normal spine takes the form of an elongated S, the upper back bowing outward and the lower back curving slightly inward. Viewed from behind though, the spine should appear ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of scoliosis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Uneven shoulders&lt;/li&gt;
+	&lt;li&gt;One shoulder blade that appears more prominent than the other&lt;/li&gt;
+	&lt;li&gt;Uneven waist&lt;/li&gt;
+	&lt;li&gt;One hip higher than the other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If a scoliosis curve gets worse, the spine will also rotate or twist, in addition to curving side to side. This causes the ribs on one side of the body to stick out farther than on the other side. Severe scoliosis can cause back pain and difficulty breathing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Go to your doctor if you notice signs or symptoms of scoliosis in your child. Mild curves, however, can develop without the parent or child knowing it because they appear gradually and usually don&apos;t cause pain. Occasionally, teachers, friends and sports teammates are the first to notice a child&apos;s scoliosis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t know what causes the most common type of scoliosis &amp;mdash; although it appears to involve hereditary factors, because the disorder tends to run in families. Less common types of scoliosis may be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Neuromuscular conditions, such as cerebral palsy or muscular dystrophy&lt;/li&gt;
+	&lt;li&gt;Birth defects affecting the development of the bones of the spine&lt;/li&gt;
+	&lt;li&gt;Injuries to or infections of the spine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for developing the most common type of scoliosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Signs and symptoms typically begin during the growth spurt that occurs just prior to puberty. This is usually between the ages of 9 and 15 years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Although both boys and girls develop mild scoliosis at about the same rate, girls have a much higher risk of the curve worsening and requiring treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Scoliosis can run in families, but most children with scoliosis don&apos;t have a family history of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While most people with scoliosis have a mild form of the disorder, scoliosis may sometimes cause complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lung and heart damage.&lt;/strong&gt; In severe scoliosis, the rib cage may press against the lungs and heart, making it more difficult to breathe and harder for the heart to pump.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Back problems.&lt;/strong&gt; Adults who had scoliosis as children are more likely to have chronic back pain than are people in the general population.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Appearance.&lt;/strong&gt; As scoliosis worsens, it can cause more noticeable changes &amp;mdash; including unlevel shoulders, prominent ribs, uneven hips, and a shift of the waist and trunk to the side. Individuals with scoliosis often become self-conscious about their appearance.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor may check for scoliosis at routine well-child visits. Many schools also have screening programs for scoliosis. Physical examinations prior to sports participation often detect scoliosis. If you are informed that your child might have scoliosis, see your doctor to confirm the condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before the appointment, write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your child&apos;s signs and symptoms, if any are present&lt;/li&gt;
+	&lt;li&gt;Information about medical problems your child has had in the past&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems that tend to run in your family&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the problem?&lt;/li&gt;
+	&lt;li&gt;Is it causing any pain?&lt;/li&gt;
+	&lt;li&gt;Is your child experiencing any breathing difficulties?&lt;/li&gt;
+	&lt;li&gt;Has anyone in the family been treated for scoliosis?&lt;/li&gt;
+	&lt;li&gt;Has your child grown rapidly during the past six months?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The doctor will initially take a detailed medical history and may ask questions about recent growth. During the physical exam, your doctor may have your child stand and then bend forward from the waist, with arms hanging loosely, to see if one side of the rib cage is more prominent than the other.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also perform a neurological exam to check for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Numbness&lt;/li&gt;
+	&lt;li&gt;Abnormal reflexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Plain X-rays can confirm the diagnosis of scoliosis and reveal the severity of the spinal curvature. If a doctor suspects that an underlying condition &amp;mdash; such as a tumor &amp;mdash; is causing the scoliosis, he or she may recommend additional imaging tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses radio waves and a strong magnetic field to produce very detailed images of bones and soft tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans combine X-rays taken from many different directions to produce more-detailed images than do plain X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; Bone scans involve the injection of a radioactive material, which travels to the parts of your bones that are injured or healing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most children with scoliosis have mild curves and probably won&apos;t need treatment with a brace or surgery. Children who have mild scoliosis may need checkups every four to six months to see if there have been changes in the curvature of their spines. 
+&lt;/p&gt;
+&lt;p&gt;
+While there are guidelines for mild, moderate and severe curves, the decision to begin treatment is always made on an individual basis. Factors to be considered include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Girls have a much higher risk of progression than do boys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severity of curve.&lt;/strong&gt; Larger curves are more likely to worsen with time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Curve pattern.&lt;/strong&gt; Double curves, also known as S-shaped curves, tend to worsen more often than do C-shaped curves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Location of curve.&lt;/strong&gt; Curves located in the center (thoracic) section of the spine worsen more often than do curves in the upper or lower sections of the spine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maturity.&lt;/strong&gt; If a child&apos;s bones have stopped growing, the risk of curve progression is low. That also means that braces have the most effect in children whose bones are still growing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Braces&lt;/strong&gt;&lt;br /&gt;
+If your child&apos;s bones are still growing and he or she has moderate scoliosis, your doctor may recommend a brace. Wearing a brace won&apos;t cure scoliosis, or reverse the curve, but it usually prevents further progression of the curve. 
+&lt;/p&gt;
+&lt;p&gt;
+Most braces are worn day and night. A brace&apos;s effectiveness increases with the number of hours a day it&apos;s worn. Children who wear braces can usually participate in most activities and have few restrictions. If necessary, kids can take off the brace to participate in sports or other physical activities. 
+&lt;/p&gt;
+&lt;p&gt;
+Braces are discontinued after the bones stop growing. This typically occurs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;About two years after girls begin to menstruate&lt;/li&gt;
+	&lt;li&gt;When boys need to shave daily&lt;/li&gt;
+	&lt;li&gt;When there are no further changes in height&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Braces are of two main types: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Underarm or low-profile brace.&lt;/strong&gt; This type of brace is made of modern plastic materials and is contoured to conform to the body. Also called a thoracolumbosacral orthosis, this close-fitting brace is almost invisible under the clothes, as it fits under the arms and around the rib cage, lower back and hips. Underarm braces are not helpful for curves in the upper spine or neck. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Milwaukee&lt;/strong&gt;&lt;strong&gt; brace.&lt;/strong&gt; This full-torso brace has a neck ring with rests for the chin and for the back of the head. The brace has a flat bar in the front and two flat bars in the back. Because they are more cumbersome, Milwaukee braces usually are used only in situations where an underarm brace won&apos;t help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Severe scoliosis typically progresses with time, so your doctor might suggest scoliosis surgery to reduce the severity of the spinal curve and to prevent it from getting worse. The most common type of scoliosis surgery is called spinal fusion. 
+&lt;/p&gt;
+&lt;p&gt;
+In spinal fusion, surgeons connect two or more of the bones in the spine (vertebrae) together, so they can&apos;t move independently. Pieces of bone or a bone-like material are placed between the vertebrae. Metal rods, hooks, screws or wires typically hold that part of the spine straight and still while the old and new bone material fuses together. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery is usually postponed until after a child&apos;s bones have stopped growing. If the scoliosis is progressing rapidly at a young age, surgeons can install a rod that can adjust in length as the child grows. This growing rod is attached to the top and bottom sections of the spinal curvature, and is usually lengthened every six months. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications of spinal surgery may include bleeding, infection, pain or nerve damage. Rarely, the bone fails to heal and another surgery may be needed. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a scoliosis brace 
+" Caption="This low-profile brace is made of plastic materials and is contoured to conform to the body. 
+" Height="60" Title="Scoliosis brace" URI="/images/image_popup/thumbs/r7_scoliosisbracethu.jpg" Width="60" />
+				<Image Alt="Illustration of a scoliosis brace 
+" Caption="This low-profile brace is made of plastic materials and is contoured to conform to the body. 
+" Height="400" Title="Scoliosis brace" URI="/images/image_popup/r7_scoliosisbrace.jpg" Width="400" />
+				<HTML>
+					This low-profile brace is made of plastic materials and is contoured to conform to the body. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="X-rays showing spine before and after scoliosis surgery 
+" Caption="These X-ray images show the type of correction that can be achieved with scoliosis surgery. 
+" Height="60" Title="Scoliosis surgery" URI="/images/image_popup/thumbs/mcdc7_scoliosis_surgerythu.jpg" Width="60" />
+				<Image Alt="X-rays showing spine before and after scoliosis surgery 
+" Caption="These X-ray images show the type of correction that can be achieved with scoliosis surgery. 
+" Height="400" Title="Scoliosis surgery" URI="/images/image_popup/mcdc7_scoliosis_surgery.jpg" Width="400" />
+				<HTML>
+					These X-ray images show the type of correction that can be achieved with scoliosis surgery. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although physical therapy exercises can&apos;t stop scoliosis, general exercise or participating in sports may have the benefit of improving overall health and well-being.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Studies indicate that the following treatments for scoliosis are ineffective: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chiropractic manipulation&lt;/li&gt;
+	&lt;li&gt;Electrical stimulation of muscles&lt;/li&gt;
+	&lt;li&gt;Biofeedback&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with scoliosis is difficult for a young person in an already complicated stage of life. Teens are bombarded with physical changes and emotional and social challenges. With the added diagnosis of scoliosis, anger, insecurity and fear may occur. 
+&lt;/p&gt;
+&lt;p&gt;
+A strong supportive peer group can have a significant impact on a child&apos;s or teen&apos;s acceptance of scoliosis, bracing or surgical treatment. Encourage your child to talk to his or her friends and ask for their support. 
+&lt;/p&gt;
+&lt;p&gt;
+Consider joining a support group for parents and kids with scoliosis. Support group members can provide advice, relay real-life experiences and help you connect with others facing similar challenges. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Scoliosis
+	</Title>
+	<Abstract>
+		Scoliosis &amp;mdash; Comprehensive overview covers symptoms, causes, screening, treatment of this abnormal spine curvature.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

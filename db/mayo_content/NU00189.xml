@@ -1,0 +1,107 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00189
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stomach-noise/NU00189
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-15
+		</UpdateDate>
+		<PublicationDate>
+			2001-01-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="2937" Title="General" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			798C64B2-0E87-4E72-80AF785F035FE2BC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stomach noise
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach making noise
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach gurgling
+			</MetaKeyword>
+			<MetaKeyword>
+				rumbling stomach
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach growling
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Stomach noise &amp;mdash; such as rumbling, gurgling and growling &amp;mdash; typically is due to normal digestion. Stomach growling can occur when you&apos;re hungry. But it can also occur after eating or between meals when food is being digested. 
+&lt;/p&gt;
+&lt;p&gt;
+Hunger and appetite are controlled by a complex system of nerve signals and hormone-like substances primarily made by your digestive system. When you haven&apos;t eaten for a while, these substances are released and cause a part of your brain called the hypothalamus to &quot;switch on&quot; your desire to eat. A message is then sent to your stomach and intestines. This triggers muscle contractions and the release of acids and other digestive fluids &amp;mdash; which causes the rumbling, grumbling sounds you hear &amp;mdash; as your body prepares for you to eat. The thought, sight or smell of food also can trigger this response. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes excessive stomach noise can be a symptom of an underlying gastrointestinal disorder, such as irritable bowel syndrome. But in such cases, stomach noise usually is accompanied by other signs and symptoms such as bloating, cramping, diarrhea or excess gas. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stomach noise: What makes my stomach growl?
+	</Title>
+	<Abstract>
+		Stomach noise can occur when you&apos;re hungry, but also after and between meals.
+	</Abstract>
+	<Question>
+		What makes my stomach growl when I&apos;m hungry?
+	</Question>
+	<QuestionFirstName>
+		Lisa
+	</QuestionFirstName>
+	<QuestionState>
+		Toronto
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="DG00021" LinkType="Internal" ObjectID="4B925B3C-AF92-4377-94FD4524605D68C4" Title="Slide show: See how your digestive system works" Url="http://www.mayoclinic.com/health/digestive-system/DG00021" />
+		<LinkItem ContentType="Answer" DocID="AN01006" LinkType="Internal" ObjectID="242762BC-2EB2-4E5D-B0568BC3F5F6C615" Title="Swallowing gum: Is it harmful?" Url="http://www.mayoclinic.com/health/digestive-system/AN01006" />
+		<LinkItem ContentType="Answer" DocID="AN00896" LinkType="Internal" ObjectID="23E568F4-2B23-4E4E-B9ECC092B06F5730" Title="Digestion: How long does it take?" Url="http://www.mayoclinic.com/health/digestive-system/AN00896" />
+	</RelatedLinksBox>
+</Answer>

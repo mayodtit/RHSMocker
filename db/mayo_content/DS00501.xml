@@ -1,0 +1,193 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00501
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sars/DS00501
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-06
+		</UpdateDate>
+		<PublicationDate>
+			2003-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2548" Title="SARS" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9793738E-E555-4484-A89C517AC2D58EC9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				SARS
+			</MetaKeyword>
+			<MetaKeyword>
+				acute respiratory
+			</MetaKeyword>
+			<MetaKeyword>
+				coronavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				respiratory
+			</MetaKeyword>
+			<MetaKeyword>
+				severe acute respiratory syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				respiratory disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Severe acute respiratory syndrome (SARS) is a contagious and sometimes fatal respiratory illness. SARS first appeared in China in November 2002. Within a few months, SARS spread worldwide, carried by unsuspecting travelers. 
+&lt;/p&gt;
+&lt;p&gt;
+SARS showed how quickly infection can spread in a highly mobile and interconnected world. The SARS epidemic also demonstrated that international cooperation among health experts can effectively contain the spread of the disease. Since 2004, known instances of SARS transmission have fallen to zero worldwide. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+SARS typically begins with flu-like signs and symptoms &amp;mdash; fever, chills, muscle aches and occasionally diarrhea. After about a week, signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever of 100.4 F (38 C) or higher&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you think you&apos;ve been exposed to or have SARS, see your doctor right away. SARS is a serious illness that can lead to death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+SARS is caused by a strain of coronavirus, the same family of viruses that causes the common cold. Until now, these viruses have never been particularly dangerous in humans, although they can cause severe disease in animals. For that reason, scientists originally thought that the SARS virus might have crossed from animals to humans. It now seems likely that it evolved from one or more animal viruses into a completely new strain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How SARS spreads&lt;/strong&gt; &lt;br /&gt;
+Most respiratory illnesses, including SARS, spread through droplets that enter the air when someone with the disease coughs, sneezes or talks. Most experts think SARS spreads mainly through face-to-face contact, but the virus also may be spread on contaminated objects &amp;mdash; such as doorknobs, telephones and elevator buttons. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, people at greatest risk of SARS have had direct, close contact with someone who&apos;s infected, such as family members and health care workers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with SARS develop pneumonia. Breathing problems can become so severe that a mechanical respirator is required. SARS is fatal in some cases, often due to respiratory failure. Other possible complications include heart and liver failure. 
+&lt;/p&gt;
+&lt;p&gt;
+People older than the age of 60 &amp;mdash; especially those with underlying conditions such as diabetes or hepatitis &amp;mdash; are at highest risk of serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When SARS first surfaced, no specific tests were available to help doctors diagnose the disease. Now several laboratory tests can help detect the virus. But no known transmission of SARS has occurred anywhere in the world since 2004. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In spite of a concerted global effort, scientists have yet to find an effective treatment for SARS. Antibiotic drugs don&apos;t work against viruses and antiviral drugs haven&apos;t shown much benefit. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Researchers are working on several types of vaccines for SARS, but none has been tested in humans. If SARS infections resume, follow these safety guidelines if you&apos;re caring for an infected person: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Clean your hands frequently with soap and hot water or use an alcohol-based hand rub containing at least 60 percent alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear disposable gloves.&lt;/strong&gt; If you have contact with the person&apos;s body fluids or feces, wear disposable gloves. Throw the gloves away immediately after use and wash your hands thoroughly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a surgical mask.&lt;/strong&gt; When you&apos;re in the same room as a person with SARS, cover your mouth and nose with a surgical mask. Wearing eye glasses also may offer some protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash personal items.&lt;/strong&gt; Use soap and hot water to wash the utensils, towels, bedding and clothing of someone with SARS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disinfect surfaces.&lt;/strong&gt; Use a household disinfectant to clean any surfaces that may have been contaminated with sweat, saliva, mucus, vomit, stool or urine. Wear disposable gloves while you clean and throw the gloves away when you&apos;re done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Follow all precautions for at least 10 days after the person&apos;s signs and symptoms have disappeared. Keep children home from school if they develop a fever or respiratory symptoms within 10 days of being exposed to someone with SARS. Children can return to school if signs and symptoms go away after three days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Severe acute respiratory syndrome (SARS)
+	</Title>
+	<Abstract>
+		SARS &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and prevention of this respiratory illness.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

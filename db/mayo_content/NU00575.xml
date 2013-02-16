@@ -1,0 +1,219 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00575
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00575
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			A0E4447E-C33A-4664-A280E2E0EA241DF1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Vegetable and garlic calzone
+	</Title>
+	<Abstract>
+		Vegetable and garlic calzone &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Instead of high-fat meats, this calzone is stuffed with fresh vegetables, which significantly reduces the amount of fat and calories. Serve with a salad and fruit. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 400 F. Lightly coat a baking sheet with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a medium bowl, add the asparagus, spinach, broccoli, mushrooms and garlic. Drizzle 1 teaspoon of the olive oil over the vegetables and toss to mix well. 
+&lt;/p&gt;
+&lt;p&gt;
+Heat a large, nonstick frying pan over medium-high heat. Add the vegetables and saute for 4 to 5 minutes, stirring frequently. Remove from heat and set aside to cool. 
+&lt;/p&gt;
+&lt;p&gt;
+On a floured surface, cut the bread dough in half. Press each half into a circle. Using a rolling pin, roll the dough into an oval. On half of the oval, add 1/2 of the sauteed vegetables, 1/2 of the tomato slices and 1/4 cup cheese. Wet your finger and rub the edge of the dough that has the filling on it. Fold the dough over the filling, pressing the edges together. Roll the edges and then press them down with a fork. Place the calzone on the prepared baking sheet. Repeat to make the other calzone. 
+&lt;/p&gt;
+&lt;p&gt;
+Brush the calzones with the remaining 1 teaspoon olive oil. Bake until golden brown, about 20 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Heat the pizza sauce in the microwave or on the stove top. Place each calzone on a plate. Serve with 1/3 cup pizza sauce on the side or pour the sauce over the calzones. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 asparagus stalks, cut into 1-inch pieces&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped spinach&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped broccoli&lt;/li&gt;
+	&lt;li&gt;1/2 cup sliced mushrooms&lt;/li&gt;
+	&lt;li&gt;2 tablespoons garlic, minced&lt;/li&gt;
+	&lt;li&gt;2 teaspoons olive oil&lt;/li&gt;
+	&lt;li&gt;1/2 pound frozen whole-wheat bread dough loaf, thawed&lt;/li&gt;
+	&lt;li&gt;1 medium tomato, sliced&lt;/li&gt;
+	&lt;li&gt;1/2 cup mozzarella cheese, shredded&lt;/li&gt;
+	&lt;li&gt;2/3 cup pizza sauce &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				1
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				256
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				34 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				8 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				12 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 calzone
+			</Servingsize>
+			<Sodium Label="Sodium">
+				535 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				8 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Dairy
+		</Category>
+	</Categorization>
+</Recipe>

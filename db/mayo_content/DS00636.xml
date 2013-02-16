@@ -1,0 +1,311 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00636
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/Adenomyosis/DS00636
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-07
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2050" Title="Endometrium">
+						<Keyword MCVID="2677" Title="Adenomyosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6F358D77-2A5D-9994-E73AA612A09DDB62
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				adenomyosis
+			</MetaKeyword>
+			<MetaKeyword>
+				menstrual cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				menstrual bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				irregular menstruation
+			</MetaKeyword>
+			<MetaKeyword>
+				menstrual periods
+			</MetaKeyword>
+			<MetaKeyword>
+				heavy menstrual bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding between periods
+			</MetaKeyword>
+			<MetaKeyword>
+				heavy periods
+			</MetaKeyword>
+			<MetaKeyword>
+				spotting between periods
+			</MetaKeyword>
+			<MetaKeyword>
+				menstral cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				adnomyosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adenomyosis (ad-uh-no-my-O-sis) occurs when endometrial tissue, which normally lines the uterus, exists within and grows into the muscular wall of the uterus. This happens most often late in your childbearing years after having children.
+&lt;/p&gt;
+&lt;p&gt;
+Adenomyosis differs from endometriosis &amp;mdash; a condition in which the uterine lining becomes implanted outside the uterus &amp;mdash; although women with adenomyosis often also have endometriosis. The cause of adenomyosis remains unknown, but the disease typically disappears after menopause. For women who experience severe discomfort from adenomyosis, certain treatments can help, but hysterectomy is the only cure.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal uterus vs. uterus with adenomyosis
+" Caption="With adenomyosis, the same tissue that lines the uterus (endometrial tissue) is present within and grows into the muscular walls of your uterus.
+" Height="60" Title="Adenomyosis" URI="/images/image_popup/thumbs/mcdc7_adenomyosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal uterus vs. uterus with adenomyosis
+" Caption="With adenomyosis, the same tissue that lines the uterus (endometrial tissue) is present within and grows into the muscular walls of your uterus.
+" Height="201" Title="Adenomyosis" URI="/images/image_popup/mcdc7_adenomyosis.jpg" Width="400" />
+				<HTML>
+					With adenomyosis, the same tissue that lines the uterus (endometrial tissue) is present within and grows into the muscular walls of your uterus.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes, adenomyosis is silent &amp;mdash; causing no signs or symptoms &amp;mdash; or only mildly uncomfortable. In other cases, adenomyosis may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heavy or prolonged menstrual bleeding&lt;/li&gt;
+	&lt;li&gt;Severe cramping or sharp, knife-like pelvic pain during menstruation (dysmenorrhea)&lt;/li&gt;
+	&lt;li&gt;Menstrual cramps that last throughout your period and worsen as you get older&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+	&lt;li&gt;Bleeding between periods&lt;/li&gt;
+	&lt;li&gt;Passing blood clots during your period&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your uterus may double or triple in size. Although you might not know if your uterus is enlarged, you may notice that your lower abdomen seems bigger or feels tender.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience any signs or symptoms of adenomyosis, such as prolonged, heavy bleeding during your periods or severe cramping, and they interfere with regular activities, make an appointment to see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of adenomyosis isn&apos;t known. Expert theories about a possible cause include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Invasive tissue growth.&lt;/strong&gt; Some experts believe that adenomyosis results from the direct invasion of endometrial cells from the surface of the uterus into the muscle that forms the uterine walls. Uterine incisions made during an operation such as a cesarean section (C-section) may promote the direct invasion of the endometrial cells into the wall of the uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental origins.&lt;/strong&gt; Other experts speculate that adenomyosis originates within the uterine muscle from endometrial tissue deposited there when the uterus first formed in the female fetus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine inflammation related to childbirth.&lt;/strong&gt; Another theory suggests a link between adenomyosis and childbirth. An inflammation of the uterine lining during the postpartum period might cause a break in the normal boundary of cells that line the uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stem cell origins.&lt;/strong&gt; A recent theory proposes that bone marrow stem cells may invade the uterine muscle, causing adenomyosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Regardless of how adenomyosis develops, its growth depends on the circulating estrogen in a woman&apos;s body. When estrogen production decreases at menopause, adenomyosis eventually goes away.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for adenomyosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prior uterine surgery, such as a C-section or fibroid removal&lt;/li&gt;
+	&lt;li&gt;Childbirth&lt;/li&gt;
+	&lt;li&gt;Middle age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most cases of adenomyosis, which depends on estrogen, are found in women in their 40s and 50s, with a low incidence after menopause. Finding adenomyosis in middle-aged women could relate to longer exposure to estrogen compared with that of younger women.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although not harmful, the pain and excessive bleeding associated with adenomyosis can have a negative effect on your lifestyle. You may find yourself avoiding activities that you previously enjoyed because you have no idea when or where you might start bleeding. Painful periods can cause you to miss work or school and can strain relationships. Recurring pain can lead to depression, irritability, anxiety, anger and feelings of helplessness. That&apos;s why it&apos;s important to seek medical evaluation if you suspect you may have adenomyosis.
+&lt;/p&gt;
+&lt;p&gt;
+If you experience prolonged, heavy bleeding, chronic anemia may result.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your first appointment will be with either your primary care physician or your gynecologist. To save time and make sure you cover everything you want to discuss, it&apos;s a good idea to prepare for your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; Include those that may seem unrelated to your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications or vitamin supplements you take.&lt;/strong&gt; Write down doses and how often you take them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook or electronic notepad with you.&lt;/strong&gt; Use it to write down important information during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Think about questions to ask your doctor.&lt;/strong&gt; Write down any questions, listing the most important ones first, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For adenomyosis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How is adenomyosis diagnosed?&lt;/li&gt;
+	&lt;li&gt;How much experience do you have in diagnosing and treating adenomyosis?&lt;/li&gt;
+	&lt;li&gt;Are there any medications I can take to improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;What side effects can I expect from medication use?&lt;/li&gt;
+	&lt;li&gt;Under what circumstances do you recommend surgery?&lt;/li&gt;
+	&lt;li&gt;Will I take a medication before or after surgery?&lt;/li&gt;
+	&lt;li&gt;Could my condition affect my ability to become pregnant?&lt;/li&gt;
+	&lt;li&gt;Are there any alternative treatments I might try?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you don&apos;t understand something, ask your doctor to repeat the information, or ask follow-up questions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Some questions your doctor might ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;When do symptoms typically occur?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When was your last period?&lt;/li&gt;
+	&lt;li&gt;Could you be pregnant?&lt;/li&gt;
+	&lt;li&gt;What birth control method are you using?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to be related to your menstrual cycle?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms worse?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect adenomyosis based on:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Signs and symptoms&lt;/li&gt;
+	&lt;li&gt;A pelvic exam that reveals an enlarged, tender uterus&lt;/li&gt;
+	&lt;li&gt;Ultrasound imaging of the uterus&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI) of the uterus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some instances, your doctor may take a biopsy of endometrial tissue &amp;mdash; a sample of cells from your uterine lining for testing &amp;mdash; to verify that your abnormal uterine bleeding isn&apos;t associated with any other serious condition. However, such a biopsy won&apos;t help your doctor confirm a diagnosis of adenomyosis. The only way to be certain of adenomyosis is to examine uterine tissue using a microscope after removal of the uterus (hysterectomy).
+&lt;/p&gt;
+&lt;p&gt;
+Many women have other uterine diseases that cause signs and symptoms similar to adenomyosis, making adenomyosis more difficult to diagnose. Such conditions include fibroid tumors (leiomyomas), uterine cells growing outside the uterus (endometriosis) and growths in the uterine lining (endometrial polyps). Your doctor may diagnose adenomyosis only after he or she determines there are no other causes for your signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adenomyosis usually goes away after menopause, so treatment may depend on how close you are to that stage of life.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options for adenomyosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-inflammatory drugs.&lt;/strong&gt; If you&apos;re nearing menopause, your doctor may have you try anti-inflammatory medications, such as ibuprofen (Advil, Motrin IB, others), to control the pain. By starting an anti-inflammatory medicine two to three days before your period begins and continuing to take it during your period, you can reduce menstrual blood flow and help relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone medications.&lt;/strong&gt; Controlling your menstrual cycle through combined estrogen-progestin oral contraceptives or through hormone-containing patches or vaginal rings may lessen the heavy bleeding and pain associated with adenomyosis. Progestin-only contraception, such as an intrauterine device containing progestin or a continuous-use birth control pill, often leads to amenorrhea &amp;mdash; the absence of your menstrual periods &amp;mdash; which may provide relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hysterectomy.&lt;/strong&gt; If your pain is severe and menopause is years away, your doctor may suggest surgery to remove your uterus (hysterectomy). Removing your ovaries isn&apos;t necessary to control adenomyosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If cramping and pelvic pain related to adenomyosis bother you, try these self-care measures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soak in a warm bath.&lt;/li&gt;
+	&lt;li&gt;Use a heating pad on your abdomen.&lt;/li&gt;
+	&lt;li&gt;Take an over-the-counter anti-inflammatory medication, such as ibuprofen (Advil, Motrin IB, others).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Adenomyosis
+	</Title>
+	<Abstract>
+		Adenomyosis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment for this uterine condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01008" LinkType="Internal" ObjectID="304B9C37-AA38-5EDA-C217CCCA0C2BEF2D" Title="NuvaRing (vaginal ring)" Url="http://www.mayoclinic.com/health/nuvaring/MY01008" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01006" LinkType="Internal" ObjectID="30457935-E800-7211-0CCCDE453D3AD193" Title="Ortho Evra (contraceptive patch)" Url="http://www.mayoclinic.com/health/ortho-evra/MY01006" />
+	</RelatedLinksBox>
+</Disease>

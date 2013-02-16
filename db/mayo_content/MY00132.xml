@@ -1,0 +1,291 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00132
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tonsillectomy/MY00132
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3883" Title="Ears nose and throat">
+						<Keyword MCVID="4183" Title="Surgery">
+							<Keyword MCVID="3885" Title="Tonsillectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CADB25E5-E7FF-0DBD-15BB7F1EA96F3E3C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tonsillectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsil removal
+			</MetaKeyword>
+			<MetaKeyword>
+				adenoidectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsil
+			</MetaKeyword>
+			<MetaKeyword>
+				adenoid
+			</MetaKeyword>
+			<MetaKeyword>
+				strep throat
+			</MetaKeyword>
+			<MetaKeyword>
+				throat
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apnea
+			</MetaKeyword>
+			<MetaKeyword>
+				sore throat
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsillitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tonsillectomy (ton-sih-LEK-tuh-me) is the surgical removal of the tonsils, two oval-shaped pads of tissue at the back of the throat &amp;mdash; one tonsil on each side. 
+&lt;/p&gt;
+&lt;p&gt;
+A tonsillectomy was once a common procedure to treat infection and inflammation of the tonsils (tonsillitis). Today, a tonsillectomy is usually performed for sleep-disordered breathing but may still be a treatment when tonsillitis occurs frequently or doesn&apos;t respond to other treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+A tonsillectomy may also be necessary to treat breathing and other problems related to enlarged tonsils and to treat rare diseases of the tonsils. 
+&lt;/p&gt;
+&lt;p&gt;
+Recovery time for a tonsillectomy is usually at least 10 days to two weeks. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="60" Title="Inflamed tonsils" URI="/images/image_popup/thumbs/r7_tonsillitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="281" Title="Inflamed tonsils" URI="/images/image_popup/r7_tonsillitis2.jpg" Width="400" />
+				<HTML>
+					Tonsils are fleshy pads located at each side of the back of the throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tonsillectomy is used to treat: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurring, chronic or severe tonsillitis&lt;/li&gt;
+	&lt;li&gt;Complications of enlarged tonsils&lt;/li&gt;
+	&lt;li&gt;Other rare diseases of the tonsils&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tonsillitis&lt;/strong&gt;&lt;br /&gt;
+Tonsils produce certain types of disease-fighting white blood cells. Therefore, the tonsils are believed to act as the immune system&apos;s first line of defense against bacteria and viruses that enter your mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+This function may make them particularly vulnerable to infection and inflammation. The problem is more common in children because the immune system function of tonsils is most active before puberty. Also, unlike an adult&apos;s immune system, a child&apos;s system has had less exposure to bacteria and viruses and has yet to develop immunities to them. 
+&lt;/p&gt;
+&lt;p&gt;
+A tonsillectomy may be recommended to prevent frequent, recurring episodes of tonsillitis. Frequent is generally defined as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;More than seven episodes a year&lt;/li&gt;
+	&lt;li&gt;More than five episodes a year in each of the preceding two years&lt;/li&gt;
+	&lt;li&gt;More than three episodes a year in each of the preceding three years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The procedure may also be recommended if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A bacterial infection causing tonsillitis doesn&apos;t improve with antibiotic treatment&lt;/li&gt;
+	&lt;li&gt;An infection that results in a collection of pus behind a tonsil (tonsillar abscess) doesn&apos;t improve with drug treatment or a drainage procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of enlarged tonsils&lt;/strong&gt;&lt;br /&gt;
+Tonsils may become enlarged after frequent or persistent infections, or they may be naturally large. A tonsillectomy may be used to treat the following problems caused or complicated by enlarged tonsils: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Disrupted breathing during sleep&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other diseases of the tonsils&lt;/strong&gt;&lt;br /&gt;
+A tonsillectomy may also be used to treat other rare diseases or conditions of the tonsils, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancerous tissue in one or both tonsils&lt;/li&gt;
+	&lt;li&gt;Recurrent bleeding from blood vessels near the surface of the tonsils&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="60" Title="Inflamed tonsils" URI="/images/image_popup/thumbs/r7_tonsillitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of inflamed tonsils
+" Caption="Tonsils are fleshy pads located at each side of the back of the throat. 
+" Height="281" Title="Inflamed tonsils" URI="/images/image_popup/r7_tonsillitis2.jpg" Width="400" />
+				<HTML>
+					Tonsils are fleshy pads located at each side of the back of the throat. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tonsillectomy, like other surgeries, has certain risks: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reactions to anesthetics.&lt;/strong&gt; Medication to make you sleep during surgery often causes minor, short-term problems, such as headache, nausea, vomiting or muscle soreness. Serious, long-term problems are rare, though general anesthesia is not without the risk of death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling.&lt;/strong&gt; Swelling of the tongue and soft roof of the mouth (soft palate) can cause breathing problems, particularly during the first few hours after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding during surgery.&lt;/strong&gt; In rare cases, severe bleeding occurs during surgery and requires additional treatment and a longer hospital stay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding during healing.&lt;/strong&gt; Bleeding can occur during the healing process, particularly if the scab from the wound is dislodged too soon. Emergency surgery to stop the bleeding is riskier than scheduled surgeries that allow for appropriate pre-surgical safeguards, such as fasting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, surgery can lead to an infection that requires further treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll receive instructions from the hospital on how to prepare yourself or your child for a tonsillectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information&lt;/strong&gt; you&apos;ll likely be asked to provide includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;All medications, including over-the-counter drugs and dietary supplements, taken regularly&lt;/li&gt;
+	&lt;li&gt;Personal or family history of adverse reactions to anesthetics&lt;/li&gt;
+	&lt;li&gt;Personal or family history of bleeding disorders&lt;/li&gt;
+	&lt;li&gt;Known allergy or other negative reactions to medications, such as antibiotics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Instructions&lt;/strong&gt; for preparing will include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t take aspirin or other medications containing aspirin for at least two weeks prior to surgery.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t eat anything after midnight before the scheduled surgery. Your surgeon should provide you instructions about drinking liquids prior to reporting to the hospital.&lt;/li&gt;
+	&lt;li&gt;Make arrangements for a ride home.&lt;/li&gt;
+	&lt;li&gt;Plan for 10 days to two weeks or more of recovery time. Adults may need more time than children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions&lt;/strong&gt; to ask your doctor or the hospital staff for yourself or on behalf of your child include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are my dietary restrictions before surgery?&lt;/li&gt;
+	&lt;li&gt;When should I arrive at the hospital?&lt;/li&gt;
+	&lt;li&gt;Where do I need to check in?&lt;/li&gt;
+	&lt;li&gt;Can I take other prescription medications in the days before surgery? When can I take the last dose?&lt;/li&gt;
+	&lt;li&gt;What is the expected recovery time?&lt;/li&gt;
+	&lt;li&gt;What restrictions to activities or diet should I expect during recovery?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tonsillectomy is usually done as an outpatient procedure. That means you&apos;ll be able to go home the day of the surgery. An overnight stay is possible if complications arise of if the surgery is done on a young child or on someone who has a complex medical condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the surgery&lt;/strong&gt;&lt;br /&gt;
+Because a tonsillectomy is performed under general anesthesia, you or your child won&apos;t be aware of the procedure or experience pain during the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgeon may cut out the tonsils using a blade (scalpel) or a specialized surgical tool that uses heat or high-energy heat or sound waves to remove or destroy tissues and stop bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During recovery&lt;/strong&gt;&lt;br /&gt;
+Nearly everyone experiences pain after a tonsillectomy. Pain is most often in the throat, but it may also be located in the ears, jaw or neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Steps that you can take to reduce pain, promote recovery and prevent complications include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Take pain medications as directed by your surgeon or the hospital staff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluids.&lt;/strong&gt; It&apos;s important to get plenty of fluids after surgery. Water and ice pops are good choices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food.&lt;/strong&gt; Bland foods that are easy to swallow, such as applesauce or broth, are the best choices immediately after surgery. Foods such as ice cream and pudding can be added to the diet if they&apos;re tolerated. Foods that are easy to chew and swallow should be added to the diet as soon as possible. Avoid spicy, hard or crunchy foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Bed rest is important for several days after surgery, and strenuous activities &amp;mdash; such as running and bike riding &amp;mdash; should be avoided for two weeks after surgery. You or your child should be able to return to work or school after resuming a normal diet, sleeping normally through the night and not needing pain medication. Talk to your doctor about any activities that should be avoided.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see the doctor or get emergency care&lt;/strong&gt;&lt;br /&gt;
+Watch for the following complications that require prompt medical care: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Any bleeding requires a trip to the emergency room for a prompt evaluation and treatment. Surgery to stop bleeding may be necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fever.&lt;/strong&gt; Call your doctor if you or your child has a fever of 102 F (38.9 C) or higher.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Call your doctor if you observe signs of dehydration, such as reduced urination, thirst, weakness, headache, dizziness or lightheadedness. Common signs of dehydration in children include urinating fewer than two or three times a day or crying with no tears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; Snoring or noisy breathing is common during the first week or so of recovery. However, if you or your child is having difficulty breathing, get emergency care.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tonsillectomy
+	</Title>
+	<Abstract>
+		Tonsillectomy &amp;mdash; Overview covers definition, risks of procedure to remove tonsils.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01626" LinkType="Internal" ObjectID="E05C66DA-E7FF-0DBD-1886A88717D8743C" Title="Recurring strep throat: When is tonsillectomy useful?" Url="http://www.mayoclinic.com/health/recurring-strep-throat/AN01626" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+	</RelatedLinksBox>
+</TestProcedure>

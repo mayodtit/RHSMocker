@@ -1,0 +1,249 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00100
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/anesthesia/MY00100
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3880" Title="Nervous system">
+						<Keyword MCVID="3879" Title="General anesthesia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BC0DF66E-E7FF-0DBD-17A540C98208D9BC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				general anesthesia
+			</MetaKeyword>
+			<MetaKeyword>
+				anesthesia
+			</MetaKeyword>
+			<MetaKeyword>
+				anesthetics
+			</MetaKeyword>
+			<MetaKeyword>
+				anesthetic drugs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+General anesthesia makes you both unconscious and unable to feel pain during medical procedures. General anesthesia is commonly produced by a combination of intravenous drugs and inhaled gasses (anesthetics).
+&lt;/p&gt;
+&lt;p&gt;
+The &quot;sleep&quot; you experience under general anesthesia is different from regular sleep. The anesthetized brain doesn&apos;t respond to pain signals or surgical manipulations.
+&lt;/p&gt;
+&lt;p&gt;
+An anesthesiologist is a specially trained doctor who specializes in all types of anesthesia, including general anesthesia. After you&apos;re asleep (unconscious), your body&apos;s vital functions are monitored and your breathing is assisted and controlled.
+&lt;/p&gt;
+&lt;p&gt;
+In many hospitals, an anesthesiologist and another team member, a certified registered nurse anesthetist (CRNA), work together throughout your procedure to carry out these tasks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Why general anesthesia?&lt;br /&gt;
+&lt;/strong&gt;Besides general anesthesia, other forms of anesthesia may provide only light sedation or use injections to numb only a small area (local anesthesia) or a larger region (regional anesthesia) of your body.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will discuss with you the risks and benefits of the various options for anesthesia. He or she may recommend general anesthesia for procedures that: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take a long time&lt;/li&gt;
+	&lt;li&gt;Include significant blood loss&lt;/li&gt;
+	&lt;li&gt;Expose you to a cold environment&lt;/li&gt;
+	&lt;li&gt;Affect your breathing, such as chest or upper abdominal surgery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most healthy people don&apos;t have any problems with general anesthesia. Although many people may have mild, temporary symptoms, general anesthesia itself is exceptionally safe, even for the sickest patients. The risk of long-term complications, much less death, is very small. In general, the risk of complications is more closely related to the type of procedure you&apos;re undergoing, and your general physical health, than to the anesthesia itself.
+&lt;/p&gt;
+&lt;p&gt;
+Some of the factors that can increase your risk of complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Obstructive sleep apnea&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Other medical conditions involving your heart, lungs or kidneys&lt;/li&gt;
+	&lt;li&gt;Medications, such as aspirin, that can increase bleeding&lt;/li&gt;
+	&lt;li&gt;History of heavy alcohol use&lt;/li&gt;
+	&lt;li&gt;Drug allergies&lt;/li&gt;
+	&lt;li&gt;History of adverse reactions to anesthesia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rare complications, which may occur more frequently in older adults or in people with serious medical problems, include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Temporary mental confusion&lt;/li&gt;
+	&lt;li&gt;Lung infections&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anesthesia awareness&lt;br /&gt;
+&lt;/strong&gt;Estimates vary, but about 1 or 2 people in every 1,000 may wake up briefly while receiving general anesthesia. The person usually doesn&apos;t feel pain, but is aware of his or her surroundings.
+&lt;/p&gt;
+&lt;p&gt;
+In very rare situations, some people experience excruciating pain in spite of general anesthesia. In this situation, because of muscle relaxants given prior to surgery, people aren&apos;t able to move or speak or make others aware of their distress. Some people may develop long-term psychological problems, similar to post-traumatic stress disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+The following factors appear to make this phenomenon &amp;mdash; also called unintended intraoperative awareness &amp;mdash; more likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Emergency surgery&lt;/li&gt;
+	&lt;li&gt;Cesarean surgery&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Use of certain medications&lt;/li&gt;
+	&lt;li&gt;Heart or lung problems&lt;/li&gt;
+	&lt;li&gt;Daily alcohol use&lt;/li&gt;
+	&lt;li&gt;Lower anesthesia doses than necessary used during procedure&lt;/li&gt;
+	&lt;li&gt;Errors by the anesthesiologist, such as not monitoring the patient or measuring the amount of anesthesia in the patient&apos;s system throughout procedure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+General anesthesia relaxes the muscles in your digestive tract and airway that keeps food and acid in your stomach and out of your lungs. That&apos;s why it&apos;s important to follow your doctor&apos;s instructions about when to stop eating and drinking prior to surgery. In most cases, you should start fasting about six hours before your procedure. You may be able to drink fluids, such as coffee, until a few hours before your surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may tell you to take certain medications with a small sip of water during your fasting time. Discuss your medications with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need to avoid some medications, such as aspirin and some other over-the-counter blood thinners, for at least a week before your procedure, as these can cause surgical complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Some vitamins and herbal remedies, such as ginseng, garlic, Ginkgo biloba, fish oil or others, may also keep your blood from clotting normally, interact with other medications or cause other complications. Discuss the types of dietary supplements you take with your doctor before your surgery.
+&lt;/p&gt;
+&lt;p&gt;
+If you have diabetes, talk with your doctor about altering your diabetes medication during the fasting period. Usually you won&apos;t take oral diabetes medication the morning of your surgery, and if you take insulin your doctor may recommend a reduced dose. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have sleep apnea, discuss your condition with your doctor. The anesthesiologist or anesthetist will need to carefully watch and manage your breathing during and after your surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Before general anesthesia&lt;br /&gt;
+&lt;/strong&gt;Before you undergo general anesthesia, your anesthesiologist will talk with you and may ask questions about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your health history&lt;/li&gt;
+	&lt;li&gt;Your prescription medications, over-the-counter medications and herbal supplements&lt;/li&gt;
+	&lt;li&gt;Allergies&lt;/li&gt;
+	&lt;li&gt;Your past experiences with anesthesia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The information you provide will help your anesthesiologist choose the medications that will be most appropriate and safe for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During general anesthesia&lt;br /&gt;
+&lt;/strong&gt;In most cases, your anesthesiologist delivers the anesthesia medications through an intravenous line in your arm, but sometimes the anesthesia may be given as a gas that you breathe from a mask. For example, children may prefer to go to sleep with a mask. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;re asleep, a tube may be inserted into your mouth and down your windpipe to ensure you get enough oxygen and to protect your lungs from blood or body secretions, such as from your stomach. You&apos;ll be given muscle relaxants before doctors insert the tube, to relax the muscles in your windpipe. In some cases this breathing tube isn&apos;t needed, which reduces your chance of a sore throat after surgery.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may use other options, such as a laryngeal airway mask, to help manage your breathing during surgery.
+&lt;/p&gt;
+&lt;p&gt;
+A member of the anesthesia care team monitors you continuously during your procedure, adjusting your medications, breathing, temperature, fluids and blood pressure as needed. Any abnormalities that occur during the surgery are corrected by administering additional medications, fluids and, sometimes, blood transfusions. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood transfusions may be necessary in some situations, such as complex surgeries. Anesthesiologists and other members of the anesthesia care team monitor your condition and deliver blood transfusions when necessary. However, blood transfusions may involve risks, particularly in people who are older, who have low blood red cell volume or who are undergoing complex heart surgeries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After general anesthesia&lt;br /&gt;
+&lt;/strong&gt;When the surgery is complete, the anesthesia medications are discontinued, and you gradually awaken either in the operating room or the recovery room. You&apos;ll probably feel groggy and a little confused when you first awaken. You may experience common side effects such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Shivering&lt;/li&gt;
+	&lt;li&gt;Sleepiness&lt;/li&gt;
+	&lt;li&gt;Mild hoarseness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also experience other side effects after you awaken from anesthesia, such as pain. Side effects depend on your individual condition and the type of surgery. Your doctor may give you medications after your procedure to reduce pain and nausea.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		General anesthesia
+	</Title>
+	<Abstract>
+		General anesthesia &amp;mdash; Overview covers risks, results of this procedure to put you to sleep.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

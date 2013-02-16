@@ -1,0 +1,294 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00173
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chlamydia/DS00173
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-29
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1590" Title="Sexually transmitted">
+						<Keyword MCVID="2414" Title="Chlamydia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			76877F15-F95F-44BB-85C8B47F756CBA49
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chlamydia
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				STD
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted disease
+			</MetaKeyword>
+			<MetaKeyword>
+				STDs
+			</MetaKeyword>
+			<MetaKeyword>
+				clamidia
+			</MetaKeyword>
+			<MetaKeyword>
+				clamydia
+			</MetaKeyword>
+			<MetaKeyword>
+				STD&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphogranuloma venereum
+			</MetaKeyword>
+			<MetaKeyword>
+				LGV
+			</MetaKeyword>
+			<MetaKeyword>
+				sexual diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				pinkeye
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chlamydia (kluh-MID-ee-uh) is a common sexually transmitted illness. You may not know you have chlamydia because many people never develop the signs or symptoms, which may include genital pain and a discharge from the vagina or penis. 
+&lt;/p&gt;
+&lt;p&gt;
+Chlamydia affects both men and women and occurs in all age groups, though it&apos;s most prevalent among young women. Chlamydia isn&apos;t difficult to treat once you know you have it. If it&apos;s left untreated, however, chlamydia can lead to more-serious health problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Early-stage chlamydia infections often cause few or no signs and symptoms. When signs or symptoms do occur, they usually start one to three weeks after you&apos;ve been exposed to chlamydia. Even when signs and symptoms do occur, they&apos;re often mild and passing, making them easy to overlook. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of chlamydia infection may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Lower abdominal pain&lt;/li&gt;
+	&lt;li&gt;Vaginal discharge in women&lt;/li&gt;
+	&lt;li&gt;Discharge from the penis in men&lt;/li&gt;
+	&lt;li&gt;Painful sexual intercourse in women&lt;/li&gt;
+	&lt;li&gt;Testicular pain in men &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you have a discharge from your vagina or penis or if you have pain during urination. Also, see your doctor if your sexual partner reveals that he or she has chlamydia, because you should receive antibiotic treatment even if you have no symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chlamydia is caused by bacteria and is most commonly spread through vaginal, oral and anal sex. It&apos;s also possible for a mother to spread chlamydia to her child during delivery, causing pneumonia or a serious eye infection in her newborn. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of chlamydia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Age under 24&lt;/li&gt;
+	&lt;li&gt;Multiple sex partners within the past year&lt;/li&gt;
+	&lt;li&gt;No or infrequent condom use&lt;/li&gt;
+	&lt;li&gt;History of prior sexually transmitted infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chlamydia can be associated with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Other sexually transmitted infections.&lt;/strong&gt; People who have chlamydia are at higher risk of also having other sexually transmitted infections &amp;mdash; including gonorrhea and HIV, the virus that causes AIDS. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic inflammatory disease (PID).&lt;/strong&gt; PID is an infection of the uterus and fallopian tubes that causes pelvic pain and fever. Severe infections may require hospitalization for intravenous antibiotics. PID can damage the fallopian tubes, ovaries and uterus, including the cervix. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection near the testicles.&lt;/strong&gt; A chlamydia infection can inflame the epididymis, a coiled tube located beside each testicle. The infection may result in fever, scrotal pain and swelling. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate gland infection.&lt;/strong&gt; The chlamydia organism can spread to a man&apos;s prostate gland. Prostatitis may result in pain during or after sex, fever and chills, painful urination, and lower back pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections in newborns.&lt;/strong&gt; The chlamydia infection can pass from the vaginal canal to your child during delivery, causing pneumonia or a serious eye infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infertility.&lt;/strong&gt; Chlamydia infections &amp;mdash; even those that produce no signs or symptoms &amp;mdash; can cause scarring and obstruction in the fallopian tubes, which may make you infertile. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reactive arthritis.&lt;/strong&gt; People who have chlamydia are at higher risk of developing reactive arthritis, also known as Reiter&apos;s syndrome. This condition typically affects the joints, eyes and urethra &amp;mdash; the tube that connects your bladder to the outside world.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you have a sexually transmitted illness, such as chlamydia, make an appointment to see your family doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does anything make them better or worse?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You also might want to prepare a list of questions to ask your doctor. Sample questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Should I be tested for other sexually transmitted illnesses?&lt;/li&gt;
+	&lt;li&gt;Should my partner be tested or treated for chlamydia infection?&lt;/li&gt;
+	&lt;li&gt;Should I abstain from sexual activity during treatment? How long should I wait?&lt;/li&gt;
+	&lt;li&gt;How can I prevent chlamydia infection in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a new sexual partner or multiple partners?&lt;/li&gt;
+	&lt;li&gt;Do you use condoms?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any pelvic pain?&lt;/li&gt;
+	&lt;li&gt;Do you have any pain while urinating?&lt;/li&gt;
+	&lt;li&gt;Do you have any sores or unusual discharge?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because of the chance of other health problems if you contract chlamydia, ask your doctor how often you should have chlamydia screening tests if you&apos;re at risk. The Centers for Disease Control and Prevention recommends chlamydia screening for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sexually active women age 25 or younger.&lt;/strong&gt; The rate of chlamydia infection is highest in this group, so a yearly screening test is recommended. Even if you&apos;ve been tested in the past year, get tested when you have a new sex partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnant women.&lt;/strong&gt; You should be tested for chlamydia during your first prenatal exam. If you have a high risk of infection &amp;mdash; from changing sex partners or from your regular partner&apos;s possible infection &amp;mdash; get tested again later during the pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Women and men at high risk.&lt;/strong&gt; Consider frequent chlamydia screening if you have multiple sex partners or if you don&apos;t always use a condom during sex. Other markers of high risk are current infection with another sexually transmitted illness and possible exposure to any STI through an infected partner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Screening and diagnosis of chlamydia is relatively simple. Tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A swab.&lt;/strong&gt; For women, your doctor may take a swab of the discharge from your cervix for culture or antigen testing for chlamydia. This can be done at the same time your doctor does a routine Pap test. For men, your doctor may insert a slim swab into the end of your penis to get a sample from the urethra. In some cases, your doctor may swab the anus to test for the presence of chlamydia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A urine test.&lt;/strong&gt; A sample of your urine analyzed in the laboratory may indicate the presence of this infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="60" Title="Pap test" URI="/images/image_popup/thumbs/mcdc7_paptestthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="463" Title="Pap test" URI="/images/image_popup/mcdc7_pap_test.jpg" Width="400" />
+				<HTML>
+					In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chlamydia is treated with antibiotics. You may be asked to take your medication in a one-time dose, or you may need to take the medication daily or multiple times a day for five to 10 days. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, the infection resolves within one to two weeks. During that time you should abstain from sex. Your sexual partner or partners also need treatment even though they may not have signs or symptoms. Otherwise, the infection can be passed back and forth between sexual partners. Having chlamydia or being treated for it in the past provides no immunity against possible reinfection in the future. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The surest way to prevent a chlamydia infection is to abstain from sexual activities. Short of that, you can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use condoms.&lt;/strong&gt; Use a male latex condom or a female polyurethane condom during each sexual contact. Condoms used properly during every sexual encounter reduce but don&apos;t eliminate the risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your number of sex partners.&lt;/strong&gt; Having multiple sex partners puts you at a high risk of contracting chlamydia and other sexually transmitted illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular screenings.&lt;/strong&gt; If you&apos;re sexually active, particularly if you have multiple partners, talk with your doctor about how often you should be screened for chlamydia and other sexually transmitted illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid douching.&lt;/strong&gt; Women shouldn&apos;t douche because it decreases the number of good bacteria present in the vagina, which may increase the risk of infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chlamydia
+	</Title>
+	<Abstract>
+		Chlamydia &amp;mdash; Comprehensive overview includes symptoms, treatment and testing for men and women.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="ID00053" LinkType="Internal" ObjectID="AB2D594E-E7FF-0DBD-1159C5056649527A" Title="STD symptoms: Common STDs and their symptoms" Url="http://www.mayoclinic.com/health/std-symptoms/ID00053" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00985" LinkType="Internal" ObjectID="2B713E81-BB64-E856-EAA775C6C758BE4A" Title="Female condom" Url="http://www.mayoclinic.com/health/female-condom/MY00985" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+	</RelatedLinksBox>
+</Disease>

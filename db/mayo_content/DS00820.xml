@@ -1,0 +1,344 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00820
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/esophageal-varices/DS00820
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-30
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="2931" Title="Esophageal varices" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			855B6D4F-E7FF-0DBD-135341D651BFD922
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				esophageal varices
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding esophageal varices
+			</MetaKeyword>
+			<MetaKeyword>
+				cirrhosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophageal varices are abnormal, enlarged veins in the lower part of the esophagus &amp;mdash; the tube that connects the throat and stomach. Esophageal varices occur most often in people with serious liver diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+Esophageal varices develop when normal blood flow to your liver is slowed. The blood then backs up into nearby smaller blood vessels, such as those in your esophagus, causing the vessels to swell. Sometimes, esophageal varices can rupture, causing life-threatening bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of drugs and medical procedures are available to stop bleeding from esophageal varices. These same treatments can help prevent bleeding in people diagnosed with esophageal varices. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="60" Title="Esophageal varices" URI="/images/image_popup/thumbs/ans7_esphogeal_varicesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="375" Title="Esophageal varices" URI="/images/image_popup/ans7_esphogeal_varices.jpg" Width="400" />
+				<HTML>
+					Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophageal varices usually don&apos;t cause signs and symptoms unless they bleed. Signs and symptoms of bleeding esophageal varices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vomiting blood&lt;/li&gt;
+	&lt;li&gt;Black, tarry or bloody stools&lt;/li&gt;
+	&lt;li&gt;Shock, in severe cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. If you&apos;ve been diagnosed with liver disease, ask your doctor about your risk of esophageal varices and how you may reduce your risk of these complications. Ask your doctor whether you should undergo an endoscopy procedure to check for esophageal varices. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been diagnosed with esophageal varices, your doctor may instruct you to be vigilant for signs of bleeding. Bleeding esophageal varices are an emergency. Call 911 or your local emergency services right away if you experience bloody vomit or bloody stools. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The enlarged veins of esophageal varices form when blood flow to your liver is slowed. Often the flow of blood is slowed by scar tissue in the liver caused by liver disease. When the blood to your liver is slowed, it begins to back up, leading to increased pressure within a major vein (portal vein) that carries blood to your liver. This pressure forces the blood into the nearby smaller veins, such as those in your esophagus. These fragile, thin-walled veins begin to balloon with the added blood. Sometimes the veins can rupture and bleed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver diseases and other causes of esophageal varices&lt;/strong&gt; &lt;br /&gt;
+Esophageal varices are most often a complication of cirrhosis &amp;mdash; irreversible scarring of the liver. Other diseases and conditions also can cause esophageal varices. Causes can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Severe liver scarring (cirrhosis).&lt;/strong&gt; A number of liver diseases can result in cirrhosis, such as hepatitis infection, alcoholic liver disease and a bile duct disorder called primary biliary cirrhosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clot (thrombosis).&lt;/strong&gt; A blood clot in the portal vein or in a vein that feeds into the portal vein called the splenic vein can cause esophageal varices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A parasitic infection.&lt;/strong&gt; Schistosomiasis is a parasitic infection found in parts of Africa, South America, the Caribbean, the Middle East and Southeast Asia. The parasite can damage the liver, as well as the lungs, intestine and bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A syndrome that causes blood to back up in your liver.&lt;/strong&gt; Budd-Chiari syndrome is a rare condition that causes blood clots that can block the veins that carry blood out of your liver.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="60" Title="Esophageal varices" URI="/images/image_popup/thumbs/ans7_esphogeal_varicesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="375" Title="Esophageal varices" URI="/images/image_popup/ans7_esphogeal_varices.jpg" Width="400" />
+				<HTML>
+					Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="60" Title="Esophagus" URI="/images/image_popup/thumbs/dysphagiathu.jpg" Width="60" />
+				<Image Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="460" Title="Esophagus" URI="/images/image_popup/dysphagia.jpg" Width="400" />
+				<HTML>
+					The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although many people with advanced liver disease develop esophageal varices, most won&apos;t experience bleeding. Varices are more likely to bleed if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High portal vein pressure.&lt;/strong&gt; The risk of bleeding increases with the amount of pressure in the portal vein.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Large varices.&lt;/strong&gt; The larger the varices, the more likely they are to bleed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red marks on the varices.&lt;/strong&gt; When viewed through an endoscope &amp;mdash; a lighted tube that&apos;s passed down your throat &amp;mdash; some varices show long, red streaks or red spots. These marks indicate a high risk of bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe cirrhosis or liver failure.&lt;/strong&gt; Most often, the more severe your liver disease, the more likely varices are to bleed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continued alcohol use.&lt;/strong&gt; If your liver disease is alcohol related, your risk of variceal bleeding is far greater if you continue to drink than if you stop. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Bleeding&lt;/strong&gt; &lt;br /&gt;
+The most serious complication of esophageal varices is bleeding. Once you have had a bleeding episode, your risk of another is greatly increased. In some cases, bleeding can cause the loss of so much blood volume that you go into shock. This can lead to death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or a general practitioner if you think you may have a disease or condition that could lead to esophageal varices. If you&apos;re experiencing signs and symptoms of bleeding esophageal varices, you may be told to immediately call 911 or your local emergency number to be taken to the hospital for urgent care. There you will be evaluated by a doctor who specializes in digestive disorders (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance. For example, you may need to stop eating and drinking the night before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes or recent travels. Also note your diet and exercise habits, including whether you use alcohol and if so, how much.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions you&apos;re being treated for and the names of the medications that you&apos;re taking. Include on your list every prescription and over-the-counter drug you use, as well as any vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For esophageal varices, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments do you recommend right now?&lt;/li&gt;
+	&lt;li&gt;What is the risk of my symptoms recurring?&lt;/li&gt;
+	&lt;li&gt;If I develop bleeding again, what treatments will we try next?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of the treatments for this condition?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to prevent a recurrence of this problem?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms stayed the same or gotten worse?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What have your stools looked like recently? Have they contained blood or are they black?&lt;/li&gt;
+	&lt;li&gt;Have you been vomiting blood or black material?&lt;/li&gt;
+	&lt;li&gt;Have you had symptoms of vomiting blood in the past?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a decrease in how often you urinate?&lt;/li&gt;
+	&lt;li&gt;Have you been more thirsty than usual?&lt;/li&gt;
+	&lt;li&gt;Have you felt fatigued or lightheaded?&lt;/li&gt;
+	&lt;li&gt;Have you felt more forgetful, confused or less able to concentrate?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any swelling of your abdomen or legs?&lt;/li&gt;
+	&lt;li&gt;Have you ever had hepatitis or yellowing of your eyes or skin (jaundice)?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently? Where?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other medical conditions? When?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+	&lt;li&gt;Do you or did you drink alcohol? How much?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you develop bloody vomit or stools while you&apos;re waiting for your appointment, call 911 or your local emergency number or go to an emergency room immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have cirrhosis or another serious liver disease, your doctor may screen you for esophageal varices. How often you&apos;ll undergo screening tests depends on your condition. Tests used to diagnose esophageal varices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine your esophagus.&lt;/strong&gt; During an endoscopy exam, your doctor inserts a thin, flexible, lighted tube (endoscope) through your mouth and into your esophagus. If any dilated veins are found, they&apos;re graded according to their size and checked for red streaks, which usually indicate a significant risk of bleeding. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Both computerized tomography (CT) scans and magnetic resonance imaging (MRI) may be used to diagnose esophageal varices. These tests also allow your doctor to examine your liver and circulation in the portal vein. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary aim in treating esophageal varices is to prevent bleeding. Bleeding esophageal varices are life-threatening. If bleeding occurs, treatments are available to try to stop the bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments to prevent bleeding&lt;/strong&gt; &lt;br /&gt;
+Treatments to lower blood pressure in the portal vein may reduce the risk of bleeding esophageal varices. Treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to slow flow of blood in the portal vein.&lt;/strong&gt; A type of blood pressure drug called a beta blocker may help reduce blood pressure in your portal vein, reducing the likelihood of bleeding. These medications include propranolol (Inderal, Innopran) and nadolol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to access your esophagus and treat varices.&lt;/strong&gt; If your esophageal varices appear to have a very high risk of bleeding, your doctor may recommend some of the same treatments that are used to stop active bleeding. Treatments may involve using an endoscope to see inside your esophagus and inject a medication or tie off veins with an elastic band.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments to stop bleeding&lt;/strong&gt; &lt;br /&gt;
+Bleeding varices are life-threatening, and immediate treatment is essential. Treatments used to stop bleeding include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using elastic bands to tie off bleeding veins.&lt;/strong&gt; During variceal ligation, your doctor uses an endoscope to snare the varices and wrap them with an elastic band, which essentially &quot;strangles&quot; the veins so they can&apos;t bleed. Variceal ligation carries a small risk of complications, such as scarring of the esophagus. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injecting a solution into bleeding veins.&lt;/strong&gt; In a procedure called endoscopic injection therapy, the bleeding varices are injected with a solution that shrinks them. Complications can include perforation of the esophagus and scarring of the esophagus that can lead to trouble swallowing (dysphagia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to slow blood flow into the portal vein.&lt;/strong&gt; Medications can slow the flow of blood from the internal organs to the portal vein, reducing the pressure in the vein. A drug called octreotide (Sandostatin) is often used in combination with endoscopic therapy to treat bleeding from esophageal varices. The drug is usually continued for five days after a bleeding episode. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diverting blood flow away from the portal vein.&lt;/strong&gt; A transjugular intrahepatic portosystemic shunt (TIPS) is&lt;strong&gt; &lt;/strong&gt;a small tube that is placed between the portal vein and the hepatic vein, which carries blood from your liver back to your heart. By providing an additional path for blood, the shunt often can control bleeding from esophageal varices. But TIPS can cause a number of serious complications, including liver failure and mental confusion, which may develop when toxins that would normally be filtered by the liver are passed through the shunt directly into the bloodstream. TIPS is mainly used when all other treatments have failed or as a temporary measure in people awaiting a liver transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replacing the diseased liver with a healthy one.&lt;/strong&gt; Liver transplant is an option for people with severe liver disease or those who experience recurrent bleeding of esophageal varices. Although liver transplantation is often successful, the number of people awaiting transplants far outnumbers the available organs. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with liver disease, you may worry about your risk of complications if your liver disease worsens. Ask your doctor about strategies to avoid liver disease complications. It may help to take steps to keep your liver as healthy as possible, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink alcohol.&lt;/strong&gt; People with liver disease are often advised to stop drinking alcohol, since alcohol is processed by the liver. Drinking alcohol may stress an already vulnerable liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Choose a plant-based diet that&apos;s full of fruits and vegetables. Select whole grains and lean sources of protein. Reduce the amount of fatty and fried foods you eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; An excess amount of body fat can damage your liver. Lose weight if you are obese or overweight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use chemicals sparingly and carefully.&lt;/strong&gt; Follow the directions on household chemicals, such as cleaning supplies and insect sprays. If you work around chemicals, follow all safety precautions. Your liver removes toxins from your body, so give it a break by limiting the amount of toxins it must process.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your risk of hepatitis.&lt;/strong&gt; Sharing needles and having unprotected sex can increase your risk of hepatitis B and C. Protect yourself by abstaining from sex or using a condom if you choose to have sex. Ask your doctor whether you should be vaccinated for hepatitis B.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Esophageal varices
+	</Title>
+	<Abstract>
+		Esophageal varices &amp;mdash; Comprehensive overview covers symptoms, treatment of this life-threatening condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

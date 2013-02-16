@@ -1,0 +1,125 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00589
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tanning/AN00589
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-06
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="3006" Title="Skin injury">
+						<Keyword MCVID="3208" Title="UV skin damage">
+							<Keyword MCVID="4288" Title="Sunburn" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6412E5C3-DA2C-46BB-A65210FE04F0DD91
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tanning
+			</MetaKeyword>
+			<MetaKeyword>
+				tanning beds
+			</MetaKeyword>
+			<MetaKeyword>
+				sunburn
+			</MetaKeyword>
+			<MetaKeyword>
+				sunburns
+			</MetaKeyword>
+			<MetaKeyword>
+				sun burn
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Many people go to tanning salons to get a so-called &quot;base tan&quot; before leaving on a beach vacation. The theory behind this is a few sessions of indoor tanning will protect your skin from sunburn. But there&apos;s little evidence that this is true.
+&lt;/p&gt;
+&lt;p&gt;
+Tanning under the sun or a sunlamp gives protection that is equivalent to a sun protection factor (SPF) of 4 or less, which translates into a little extra time in the sun before you start to burn. But the larger issue is that any change in skin color is a sign of damage from ultraviolet (UV) radiation. Repeated exposure to UV radiation &amp;mdash; whether from the sun or a tanning bed &amp;mdash; increases your risk of premature skin aging and skin cancer.
+&lt;/p&gt;
+&lt;p&gt;
+To prevent sunburn and other skin conditions, use these sun protection methods:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid extended sun exposure between 10 a.m. and 4 p.m.&lt;/strong&gt; The sun&apos;s rays are much stronger during these hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up.&lt;/strong&gt; Wear tightly woven clothing that covers your arms and legs and a broad-brimmed hat. Clothing specifically designed to protect from UV exposure is also available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen frequently and liberally.&lt;/strong&gt; Apply sunscreen 30 minutes before going outdoors and reapply about every two hours.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people have medical conditions, such as polymorphous light eruption, that may require small, incremental exposures to UV light before a vacation to prevent flare-ups. Talk to your doctor before beginning a regimented sunbathing program if you need to treat or prevent a skin condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tanning: Does a &apos;base tan&apos; prevent sunburn?
+	</Title>
+	<Abstract>
+		There&apos;s no proof that a &quot;base tan&quot; protects against sunburn.
+	</Abstract>
+	<Question>
+		Should I go to a tanning salon before a sunny vacation to help prevent sunburn?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00021" LinkType="Internal" ObjectID="D27B8DD9-D663-4355-A28B3B5BDD180A45" Title="Slide show: Sun damage" Url="http://www.mayoclinic.com/health/sun-damage/SN00021" />
+		<LinkItem ContentType="Answer" DocID="HQ01487" LinkType="Internal" ObjectID="F58668C3-771A-4746-859DE270E0B09AC4" Title="Tanning beds: Safer than the sun?" Url="http://www.mayoclinic.com/health/tanning/HQ01487" />
+		<LinkItem ContentType="Answer" DocID="AN01968" LinkType="Internal" ObjectID="BC934B30-D50D-0DC1-4C34D19CEEDDD64B" Title="Does sunscreen expire?" Url="http://www.mayoclinic.com/health/sunscreen-expire/AN01968" />
+		<LinkItem ContentType="FirstAid" DocID="FA00028" LinkType="Internal" ObjectID="5CCDEA1D-9195-4ACA-8632D82CCB63B06A" Title="Sunburn: First aid" Url="http://www.mayoclinic.com/health/first-aid-sunburn/FA00028" />
+		<LinkItem ContentType="Article" DocID="HQ00316" LinkType="Internal" ObjectID="ECAFE3E7-C215-41DA-9F75A2087398E84C" Title="Heat and exercise: Keeping cool in hot weather" Url="http://www.mayoclinic.com/health/exercise/HQ00316" />
+		<LinkItem ContentType="Article" DocID="SN00037" LinkType="Internal" ObjectID="9DE6F55B-2A5D-9994-E146B034251868BB" Title="Sunless tanning: A safe alternative to sunbathing" Url="http://www.mayoclinic.com/health/sunless-tanning/SN00037" />
+		<LinkItem ContentType="Article" DocID="MY01350" LinkType="Internal" ObjectID="411E3C71-B074-4E63-341FF33B9CD3722C" Title="Best sunscreen: Understand sunscreen options" Url="http://www.mayoclinic.com/health/best-sunscreen/MY01350" />
+		<LinkItem ContentType="Answer" DocID="AN01423" LinkType="Internal" ObjectID="1354C93D-E7FF-0DBD-1BDC98CCF6FF6DE7" Title="Sunburn treatment: What works?" Url="http://www.mayoclinic.com/health/sunburn-treatment/AN01423" />
+		<LinkItem ContentType="Disease" DocID="DS00964" LinkType="Internal" ObjectID="2C9B4EAD-E7FF-0DBD-11FE616BB5B7F712" Title="Sunburn" Url="http://www.mayoclinic.com/health/sunburn/DS00964" />
+	</RelatedLinksBox>
+</Answer>

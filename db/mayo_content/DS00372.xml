@@ -1,0 +1,401 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00372
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tuberculosis/DS00372
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-26
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2530" Title="Tuberculosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C4159AB7-808A-421E-8165A7517305831E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tuberculosis
+			</MetaKeyword>
+			<MetaKeyword>
+				TB
+			</MetaKeyword>
+			<MetaKeyword>
+				lung disease
+			</MetaKeyword>
+			<MetaKeyword>
+				lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV/AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV-AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				AIDS
+			</MetaKeyword>
+			<MetaKeyword>
+				XDRTB
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tuberculosis (TB) is a potentially serious infectious disease that mainly affects your lungs. The bacteria that cause tuberculosis are spread from one person to another through tiny droplets released into the air via coughs and sneezes. 
+&lt;/p&gt;
+&lt;p&gt;
+Once rare in developed countries, tuberculosis infections began increasing in 1985, partly because of the emergence of HIV, the virus that causes AIDS. HIV weakens a person&apos;s immune system so it can&apos;t fight the TB germs. In the United States, because of stronger control programs, tuberculosis began to decrease again in 1993, but remains a concern. 
+&lt;/p&gt;
+&lt;p&gt;
+Many strains of tuberculosis resist the drugs most used to treat the disease. People with active tuberculosis must take several types of medications for many months to eradicate the infection and prevent development of antibiotic resistance.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although your body may harbor the bacteria that cause tuberculosis, your immune system usually can prevent you from becoming sick. For this reason, doctors make a distinction between: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Latent TB.&lt;/strong&gt; In this condition, you have a TB infection, but the bacteria remain in your body in an inactive state and cause no symptoms. Latent TB, also called inactive TB or TB infection, isn&apos;t contagious. However, it can turn into active TB, so treatment is important for the person with latent TB and to help control the spread of TB in general. An estimated one-third of the world&apos;s population has latent TB.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Active TB.&lt;/strong&gt; This condition makes you sick and can spread to others. It can occur in the first few weeks after infection with the TB bacteria, or it might occur years later.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of active TB include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Unintentional weight loss&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What organs are affected?&lt;/strong&gt;&lt;br /&gt;
+Tuberculosis usually attacks your lungs. Signs and symptoms of TB of the lungs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coughing that lasts three or more weeks&lt;/li&gt;
+	&lt;li&gt;Coughing up blood or sputum&lt;/li&gt;
+	&lt;li&gt;Chest pain, or pain with breathing or coughing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tuberculosis can also affect other parts of your body, including your kidneys, spine or brain. When TB occurs outside your lungs, signs and symptoms vary according to the organs involved. For example, tuberculosis of the spine may give you back pain, and tuberculosis in your kidneys might cause blood in your urine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you have a fever, unexplained weight loss, drenching night sweats or a persistent cough. These are often signs of TB, but they can also result from other medical problems. Your doctor can perform tests to help determine the cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tuberculosis is caused by bacteria that spread from person to person through microscopic droplets released into the air. This can happen when someone with the untreated, active form of tuberculosis coughs, speaks, sneezes, spits, laughs or sings. 
+&lt;/p&gt;
+&lt;p&gt;
+Although tuberculosis is contagious, it&apos;s not easy to catch. You&apos;re much more likely to get tuberculosis from someone you live with or work with than from a stranger. Most people with active TB who&apos;ve had appropriate drug treatment for at least two weeks are no longer contagious. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;HIV and TB&lt;/strong&gt;&lt;br /&gt;
+Since the 1980s, the number of cases of tuberculosis has increased dramatically because of the spread of HIV, the virus that causes AIDS. Tuberculosis and HIV have a deadly relationship &amp;mdash; each drives the progress of the other. 
+&lt;/p&gt;
+&lt;p&gt;
+Infection with HIV suppresses the immune system, making it difficult for the body to control TB bacteria. As a result, people with HIV are many times more likely to get TB and to progress from latent to active disease than are people who aren&apos;t HIV positive. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drug-resistant TB&lt;/strong&gt;&lt;br /&gt;
+Another reason tuberculosis remains a major killer is the increase in drug-resistant strains of the bacterium&lt;strong&gt;.&lt;/strong&gt; Since the first antibiotics were used to fight tuberculosis 60 years ago, some TB germs have developed the ability to survive, and that ability gets passed on to their descendants. Drug-resistant strains of tuberculosis emerge when an antibiotic fails to kill all of the bacteria it targets. The surviving bacteria become resistant to that particular drug and frequently other antibiotics as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can get tuberculosis, but certain factors can increase your risk of the disease. These factors include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Weakened immune system&lt;/strong&gt;&lt;br /&gt;
+A healthy immune system often successfully fights TB bacteria, but your body can&apos;t mount an effective defense if your resistance is low. A number of diseases and medications can weaken your immune system, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;End-stage kidney disease&lt;/li&gt;
+	&lt;li&gt;Certain cancers&lt;/li&gt;
+	&lt;li&gt;Cancer treatment, such as chemotherapy&lt;/li&gt;
+	&lt;li&gt;Drugs to prevent rejection of transplanted organs&lt;/li&gt;
+	&lt;li&gt;Some drugs used to treat rheumatoid arthritis, Crohn&apos;s disease and psoriasis&lt;/li&gt;
+	&lt;li&gt;Malnutrition&lt;/li&gt;
+	&lt;li&gt;Very young or advanced age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;International connections&lt;/strong&gt;&lt;br /&gt;
+TB risk is higher for people who live in or travel to countries that have high rates of tuberculosis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sub-Saharan Africa&lt;/li&gt;
+	&lt;li&gt;India&lt;/li&gt;
+	&lt;li&gt;China&lt;/li&gt;
+	&lt;li&gt;Mexico&lt;/li&gt;
+	&lt;li&gt;The islands of Southeast Asia and Micronesia&lt;/li&gt;
+	&lt;li&gt;Parts of the former Soviet Union&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Poverty and substance abuse&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of medical care.&lt;/strong&gt; If you are on a low or fixed income, live in a remote area, have recently immigrated to the United States, or are homeless, you may lack access to the medical care needed to diagnose and treat TB.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Substance abuse.&lt;/strong&gt; Long-term drug or alcohol use weakens your immune system and makes you more vulnerable to tuberculosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco use.&lt;/strong&gt; Using tobacco greatly increases the risk of getting TB and dying of it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Where you work or live&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Health care work.&lt;/strong&gt; Regular contact with people who are ill increases your chances of exposure to TB bacteria. Wearing a mask and frequent hand-washing greatly reduce your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living or working in a residential care facility.&lt;/strong&gt; People who live or work in prisons, immigration centers or nursing homes are all at risk of tuberculosis. That&apos;s because the risk of the disease is higher anywhere there is overcrowding and poor ventilation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in a refugee camp or shelter.&lt;/strong&gt; Weakened by poor nutrition and ill health and living in crowded, unsanitary conditions, refugees are at especially high risk of tuberculosis infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Without treatment, tuberculosis can be fatal. Untreated active disease typically affects your lungs, but it can spread to other parts of the body through your bloodstream. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bones.&lt;/strong&gt; Spinal pain and joint destruction may result from TB that infects your bones. In many cases, the ribs are affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain.&lt;/strong&gt; Tuberculosis in your brain can cause meningitis, a sometimes fatal swelling of the membranes that cover your brain and spinal cord.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver or kidneys.&lt;/strong&gt; Your liver and kidneys help filter waste and impurities from your bloodstream. These functions become impaired if the liver or kidneys are affected by tuberculosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart.&lt;/strong&gt; Tuberculosis can infect the tissues that surround your heart, causing inflammation and fluid collections that may interfere with your heart&apos;s ability to pump effectively. This condition, called cardiac tamponade, can be fatal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you have tuberculosis, contact your family doctor or your state health department. You may be referred to a doctor who specializes in infectious diseases or lung diseases (pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you might want to write a list answering the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did they start?&lt;/li&gt;
+	&lt;li&gt;Were you vaccinated against tuberculosis as an infant?&lt;/li&gt;
+	&lt;li&gt;Have you ever had tuberculosis or a positive skin test?&lt;/li&gt;
+	&lt;li&gt;Have you ever taken medicine for TB? If so, what kind and for how long?&lt;/li&gt;
+	&lt;li&gt;Do you have other health problems?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you regularly take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does anyone you know have active tuberculosis?&lt;/li&gt;
+	&lt;li&gt;Do you have HIV or AIDS?&lt;/li&gt;
+	&lt;li&gt;Were you born in another country, or have you traveled in another country?&lt;/li&gt;
+	&lt;li&gt;Have you ever lived with someone who had tuberculosis?&lt;/li&gt;
+	&lt;li&gt;What kind of work do you do?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or recreational drugs?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check your lymph nodes for swelling and use a stethoscope to listen carefully to the sounds your lungs make when you breathe. 
+&lt;/p&gt;
+&lt;p&gt;
+The most commonly used diagnostic tool for tuberculosis is a simple skin test. A small amount of a substance called PPD tuberculin is injected just below the skin of your inside forearm. You should feel only a slight needle prick. 
+&lt;/p&gt;
+&lt;p&gt;
+Within 48 to 72 hours, a health care professional will check your arm for swelling at the injection site. A hard, raised red bump means you&apos;re likely to have TB infection. The size of the bump determines whether the test results are significant. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Results can be wrong&lt;/strong&gt;&lt;br /&gt;
+The TB skin test isn&apos;t perfect. Sometimes, it suggests that people have TB when they really don&apos;t. It can also indicate that people don&apos;t have TB when they really do. 
+&lt;/p&gt;
+&lt;p&gt;
+A false-positive test may happen if you&apos;ve been vaccinated recently with the bacille Calmette-Guerin (BCG) vaccine. This tuberculosis vaccine is seldom used in the United States but is widely used in countries with high TB infection rates. 
+&lt;/p&gt;
+&lt;p&gt;
+False-negative results may occur in certain populations &amp;mdash; including children, older people and people with AIDS &amp;mdash; who sometimes don&apos;t respond to the TB skin test. A false-negative result can also occur in people who&apos;ve recently been infected with TB, but whose immune systems haven&apos;t yet reacted to the bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt;&lt;br /&gt;
+Blood tests may be used to confirm or rule out latent or active tuberculosis. These tests use sophisticated technology to measure your immune system&apos;s reaction to TB bacteria. These tests may be useful if you&apos;re at high risk of TB infection, but have a negative response to the skin test, or if you received the BCG vaccine. Because these tests are relatively new, many health departments don&apos;t have them. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chest X-ray&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve had a positive skin test, your doctor is likely to order a chest X-ray. This may show white spots in your lungs where your immune system has walled off TB bacteria, or it may reveal changes in your lungs caused by active tuberculosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sputum tests&lt;/strong&gt;&lt;br /&gt;
+If your chest X-ray shows signs of tuberculosis, your doctor may take a samples of your sputum &amp;mdash; the mucus that comes up when you cough. The samples are tested for TB bacteria. These bacteria can also be tested to see if they are resistant to the effects of medications commonly used to treat tuberculosis. This helps your doctor choose the medications that are most likely to work. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medications are the cornerstone of tuberculosis treatment. But treating TB takes much longer than treating other types of bacterial infections. With tuberculosis, you must take antibiotics for at least six to nine months. The exact drugs and length of treatment depend on your age, overall health, possible drug resistance, the form of TB (latent or active) and the infection&apos;s location in the body. 
+&lt;/p&gt;
+&lt;p&gt;
+A recent study suggests that a shorter term of treatment &amp;mdash; three months instead of nine &amp;mdash; with combined medication may be effective in keeping latent TB from becoming active TB. With the shorter course of treatment, people are more likely to take all their medication and the risk of side effects is lessened. More study is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Most common TB drugs&lt;/strong&gt;&lt;br /&gt;
+If you have latent tuberculosis, you may need to take just one type of TB drug. Active tuberculosis, particularly if it&apos;s a drug-resistant strain, will require several drugs at once. The most common medications used to treat tuberculosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Isoniazid&lt;/li&gt;
+	&lt;li&gt;Rifampin (Rifadin, Rimactane)&lt;/li&gt;
+	&lt;li&gt;Ethambutol (Myambutol)&lt;/li&gt;
+	&lt;li&gt;Pyrazinamide&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There&apos;s some evidence that taking vitamin D during tuberculosis treatment enhances some of the effects of the drugs. More study is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication side effects&lt;/strong&gt;&lt;br /&gt;
+Side effects of TB drugs aren&apos;t common but can be serious when they do occur. All tuberculosis medications can be highly toxic to your liver. When taking these medications, call your doctor immediately if you experience any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;A yellow color to your skin (jaundice)&lt;/li&gt;
+	&lt;li&gt;Dark urine&lt;/li&gt;
+	&lt;li&gt;A fever that lasts three or more days and has no obvious cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Completing treatment is essential&lt;/strong&gt;&lt;br /&gt;
+After a few weeks, you won&apos;t be contagious, and you may start to feel better. It might be tempting to stop taking your TB drugs. But it is crucial that you finish the full course of therapy and take the medications exactly as prescribed by your doctor. Stopping treatment too soon or skipping doses can allow the bacteria that are still alive to become resistant to those drugs, leading to TB that is much more dangerous and difficult to treat. 
+&lt;/p&gt;
+&lt;p&gt;
+To help people stick with their treatment, a program called directly observed therapy (DOT) is sometimes recommended. In this approach, a health care worker administers your medication so that you don&apos;t have to remember to take it on your own. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you test positive for latent TB infection, your doctor may advise you to take medications to reduce your risk of developing active tuberculosis. The only type of tuberculosis that is contagious is the active variety, when it affects the lungs. So if you can prevent your latent tuberculosis from becoming active, you won&apos;t transmit tuberculosis to anyone else. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Protect your family and friends&lt;/strong&gt;&lt;br /&gt;
+If you have active TB, keep your germs to yourself. It generally takes a few weeks of treatment with TB medications before you&apos;re not contagious anymore. Follow these tips to help keep your friends and family from getting sick: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay home.&lt;/strong&gt; Don&apos;t go to work or school or sleep in a room with other people during the first few weeks of treatment for active tuberculosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ventilate the room.&lt;/strong&gt; Tuberculosis germs spread more easily in small closed spaces where air doesn&apos;t move. If it&apos;s not too cold outdoors, open the windows and use a fan to blow indoor air outside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover your mouth.&lt;/strong&gt; Use a tissue to cover your mouth anytime you laugh, sneeze or cough. Put the dirty tissue in a bag, seal it and throw it away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a mask.&lt;/strong&gt; Wearing a surgical mask when you&apos;re around other people during the first three weeks of treatment may help lessen the risk of transmission.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Finish your entire course of medication&lt;/strong&gt;&lt;br /&gt;
+This is the most important step you can take to protect yourself and others from tuberculosis. When you stop treatment early or skip doses, TB bacteria have a chance to develop mutations that allow them to survive the most potent TB drugs. The resulting drug-resistant strains are much more deadly and difficult to treat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccinations&lt;/strong&gt;&lt;br /&gt;
+In countries where tuberculosis is more common, infants often are vaccinated with bacille Calmette-Guerin (BCG) vaccine because it can prevent severe tuberculosis in children. The BCG vaccine isn&apos;t recommended for general use in the United States because it isn&apos;t very effective in adults, and it causes a false-positive result on a TB skin test. Researchers are working on developing a more effective TB vaccine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for tuberculosis is a complicated and lengthy process. But the only way to cure the disease is to stick with your treatment. You may find it helpful to have your medication given by a nurse or other health care professional so that you don&apos;t have to remember to take it on your own. In addition, try to maintain your normal activities and hobbies, and stay connected with family and friends. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that your physical health can affect your mental health. Denial, anger and frustration are normal when you must deal with something difficult and unexpected. At times, you may need more tools to deal with these or other emotions. Professionals, such as therapists or behavioral psychologists, can help you develop positive coping strategies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tuberculosis
+	</Title>
+	<Abstract>
+		Tuberculosis &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this common infectious disease.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,345 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00116
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lyme-disease/DS00116
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-03
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2531" Title="Lyme disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0C0D0DE5-C2B4-4DCE-A15451078402A989
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lyme disease
+			</MetaKeyword>
+			<MetaKeyword>
+				lyme disease symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				lyme disease
+			</MetaKeyword>
+			<MetaKeyword>
+				deer tick
+			</MetaKeyword>
+			<MetaKeyword>
+				Ixodes
+			</MetaKeyword>
+			<MetaKeyword>
+				LYMErix
+			</MetaKeyword>
+			<MetaKeyword>
+				lymerix
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				lime disease
+			</MetaKeyword>
+			<MetaKeyword>
+				tick bites
+			</MetaKeyword>
+			<MetaKeyword>
+				bismacine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lyme disease is the most common tick-borne illness in North America and Europe. Lyme disease is caused by the bacterium Borrelia burgdorferi. Deer ticks, which feed on the blood of animals and humans, can harbor the bacteria and spread it when feeding. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;re more likely to get Lyme disease if you live or spend time in grassy and heavily wooded areas where ticks carrying the disease thrive. It&apos;s important to take common-sense precautions in areas where Lyme disease is prevalent. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re treated with appropriate antibiotics in the early stages of the disease, you&apos;re likely to recover completely. In later stages, response to treatment may be slower, but the majority of people with Lyme disease recover completely with appropriate treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of Lyme disease vary and usually affect more than one system. The skin, joints and nervous system are affected most often. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+These signs and symptoms may occur within a month after you&apos;ve been infected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rash.&lt;/strong&gt; A small, red bump may appear at the site of the tick bite. This small bump is normal after a tick bite and doesn&apos;t indicate Lyme disease. However, over the next few days, the redness may expand forming a rash in a bull&apos;s&lt;strong&gt;-&lt;/strong&gt;eye pattern, with a red outer ring surrounding a clear area. The rash, called erythema migrans, is one of the hallmarks of Lyme disease. Some people develop this rash at more than one place on their bodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flu-like symptoms.&lt;/strong&gt; Fever, chills, fatigue, body aches and a headache may accompany the rash.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Later signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+In some people, the rash may spread to other parts of the body and, several weeks to months after you&apos;ve been infected, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joint pain.&lt;/strong&gt; You may develop bouts of severe joint pain and swelling. Your knees are especially likely to be affected, but the pain can shift from one joint to another.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological problems.&lt;/strong&gt; Weeks, months or even years after you were infected, you may experience inflammation of the membranes surrounding your brain (meningitis), temporary paralysis of one side of your face (Bell&apos;s palsy), numbness or weakness in your limbs, and impaired muscle movement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Less common signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+Several weeks after infection, some people develop: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart problems, such as an irregular heartbeat. Heart problems rarely last more than a few days or weeks.&lt;/li&gt;
+	&lt;li&gt;Eye inflammation.&lt;/li&gt;
+	&lt;li&gt;Liver inflammation (hepatitis).&lt;/li&gt;
+	&lt;li&gt;Severe fatigue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;If you&apos;ve been bitten by a tick and experience symptoms&lt;/strong&gt; &lt;br /&gt;
+Only a minority of deer tick bites leads to Lyme disease. The longer the tick remains attached to your skin, the greater your risk of getting the disease. If you think you&apos;ve been bitten and experience signs and symptoms of Lyme disease &amp;mdash; particularly if you live in an area where Lyme disease is prevalent &amp;mdash; contact your doctor immediately. Treatment for Lyme disease is most effective if begun early. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor even if symptoms disappear&lt;/strong&gt; &lt;br /&gt;
+It&apos;s important to consult your doctor even if signs and symptoms disappear because the absence of symptoms doesn&apos;t mean the disease is gone. Left untreated, Lyme disease can spread to other parts of your body from several months to years after infection &amp;mdash; causing arthritis and nervous system problems. Ticks also can transmit other illnesses, such as babesiosis and Colorado tick fever. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of the bull&apos;s-eye rash characteristic of Lyme disease
+" Caption="People with Lyme disease may experience a characteristic bull&apos;s-eye rash. The rash gradually spreads over a period of days and may eventually reach up to 12 inches (30 centimeters) across. 
+" Height="60" Title="Lyme disease rash" URI="/images/image_popup/thumbs/r7_lymerashthu.jpg" Width="60" />
+				<Image Alt="Photo of the bull&apos;s-eye rash characteristic of Lyme disease
+" Caption="People with Lyme disease may experience a characteristic bull&apos;s-eye rash. The rash gradually spreads over a period of days and may eventually reach up to 12 inches (30 centimeters) across. 
+" Height="400" Title="Lyme disease rash" URI="/images/image_popup/r7_lymerash.jpg" Width="400" />
+				<HTML>
+					People with Lyme disease may experience a characteristic bull&apos;s-eye rash. The rash gradually spreads over a period of days and may eventually reach up to 12 inches (30 centimeters) across. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the United States, Lyme disease is caused by the bacterium Borrelia burgdorferi, which is carried primarily by deer ticks. The ticks are brown and when young, they&apos;re often no bigger than the head of a pin, which can make them nearly impossible to spot. 
+&lt;/p&gt;
+&lt;p&gt;
+To contract Lyme disease, an infected deer tick must bite you. The bacteria enter your skin through the bite and eventually make their way into your bloodstream. In most cases, to transmit Lyme disease, a deer tick must be attached for 36 to 48 hours. If you find an attached tick that looks swollen, it may have fed long enough to transmit bacteria. Removing the tick as soon as possible may prevent infection. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of the deer tick
+" Caption="The deer tick (Ixodes scapularis) goes through three life stages. Shown from left to right is the adult female, adult male, nymph and larva on a centimeter scale.
+" Height="60" Title="Deer tick" URI="/images/image_popup/thumbs/id7_deertickthu.jpg" Width="60" />
+				<Image Alt="Photo of the deer tick
+" Caption="The deer tick (Ixodes scapularis) goes through three life stages. Shown from left to right is the adult female, adult male, nymph and larva on a centimeter scale.
+" Height="273" Title="Deer tick" URI="/images/image_popup/id7_deertick.jpg" Width="400" />
+				<HTML>
+					The deer tick (Ixodes scapularis) goes through three life stages. Shown from left to right is the adult female, adult male, nymph and larva on a centimeter scale.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Where you live or vacation can affect your chances of getting Lyme disease. So can your profession and the type of outdoor activities you enjoy. The most common risk factors for Lyme disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spending&lt;/strong&gt; &lt;strong&gt;time in wooded or grassy areas.&lt;/strong&gt; In the United States, deer ticks are most prevalent in the Northeast and Midwest regions, which have heavily wooded areas where deer ticks thrive. Children who spend a lot of time outdoors in these regions are especially at risk. Adults with outdoor occupations are also at increased risk. In the first two stages of life, deer ticks in the United States feed on mice and other rodents, which are a prime reservoir for Lyme disease bacteria. Adult deer ticks feed primarily on white-tailed deer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having exposed skin.&lt;/strong&gt; Ticks attach easily to bare flesh. If you&apos;re in an area where ticks are common, protect yourself and your children by wearing long sleeves and long pants. Don&apos;t allow your pets to wander in tall weeds and grasses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Not removing ticks promptly or properly.&lt;/strong&gt; Bacteria from a tick bite can enter your bloodstream only if the tick stays attached to your skin for 36 to 48 hours or longer. If you remove a tick within two days, your risk of acquiring Lyme disease is low.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, Lyme disease can cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic joint inflammation (Lyme arthritis), particularly of the knee&lt;/li&gt;
+	&lt;li&gt;Neurological symptoms, such as facial palsy and neuropathy&lt;/li&gt;
+	&lt;li&gt;Cognitive defects, such as impaired memory&lt;/li&gt;
+	&lt;li&gt;Heart rhythm irregularities&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may be referred immediately to a rheumatologist, infectious disease specialist or other specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for you appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing&lt;/strong&gt;, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt;, if possible. Sometimes it can be difficult to absorb all the information you get during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For Lyme disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions during your appointment at any time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Did a tick bite you?&lt;/li&gt;
+	&lt;li&gt;Have you been in wooded areas?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The variable signs and symptoms of Lyme disease are nonspecific and often are found in other conditions, so diagnosis can be difficult. What&apos;s more, the ticks that transmit Lyme disease also can in some cases spread other diseases at the same time. 
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t have the characteristic Lyme disease rash, your doctor may ask detailed questions about your medical history, including whether you&apos;ve been outdoors in the summer where Lyme disease is common, and do a physical exam. Lab tests to identify antibodies to the bacteria may be used to help confirm the diagnosis. These tests are most reliable a few weeks after an infection, after your body has time to develop antibodies. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Enzyme-linked immunosorbent assay (ELISA) test.&lt;/strong&gt; The test used most often to detect Lyme disease, ELISA detects antibodies to B. burgdorferi. But because it can sometimes provide false-positive results, it&apos;s not used as the sole basis for diagnosis. This test may not be positive during the early stage of Lyme disease, but the rash is distinctive enough to make the diagnosis without further testing in people who live in areas infested with ticks that transmit Lyme disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Western blot test.&lt;/strong&gt; If the ELISA test is positive, another test &amp;mdash; the Western blot &amp;mdash; is usually done to confirm the diagnosis. In this two-step approach, the Western blot detects antibodies to several proteins of B. burgdorferi.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polymerase chain reaction (PCR).&lt;/strong&gt; This test helps detect bacterial DNA in fluid drawn from an infected joint. It&apos;s not as effective at detecting infection of blood or urine. It&apos;s used for people who may have chronic Lyme arthritis. It may also be used to detect persistent infection in the cerebrospinal fluid of people who have nervous system symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antibiotics are used to treat Lyme disease. In general, recovery will be quicker and more complete the sooner treatment begins. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral antibiotics.&lt;/strong&gt; These are the standard treatment for early-stage Lyme disease. These usually include doxycycline for adults and children older than 8, or amoxicillin or cefuroxime for adults, younger children, and pregnant or breast-feeding women. A 14- to 21-day course of antibiotics is usually recommended, but some studies suggest that courses lasting 10 to 14 days are equally effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous antibiotics.&lt;/strong&gt; If the disease involves the central nervous system, your doctor may recommend treatment with an intravenous antibiotic for 14 to 28 days. This is effective in eliminating infection, although it may take some time to recover from your symptoms. Intravenous antibiotics can cause various side effects, including a lower white blood cell count, mild to severe diarrhea, or colonization or infection with other antibiotic resistant organisms unrelated to Lyme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After treatment, a small number of people still experience some symptoms, such as muscle aches and fatigue. The cause of these continuing symptoms is unknown, and treating with more antibiotics doesn&apos;t help. Some experts believe that certain people who get Lyme disease are predisposed to develop an autoimmune response that contributes to their symptoms. More research is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bismacine&lt;/strong&gt; &lt;br /&gt;
+The Food and Drug Administration warns against the use of bismacine, an injectable compound prescribed by some alternative medicine practitioners to treat Lyme disease. Bismacine, also known as chromacine, contains high levels of the metal bismuth. Although bismuth is safely used in some oral medications for stomach ulcers, it&apos;s not approved for use in injectable form or as a treatment for Lyme disease. Bismacine can cause bismuth poisoning, which may lead to heart and kidney failure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent Lyme disease is to avoid areas where deer ticks live, especially wooded, bushy areas with long grass. You can decrease your risk of getting Lyme disease with some simple precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear long pants and long sleeves.&lt;/strong&gt; When walking in wooded or grassy areas, wear shoes, long pants tucked into your socks, a long-sleeved shirt, a hat and gloves. Try to stick to trails and avoid walking through low bushes and long grass. Keep your dog on a leash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use insect repellents.&lt;/strong&gt; Apply an insect repellent with a 20 percent or higher concentration of DEET to your skin. Parents should apply to their children, avoiding their hands, eyes and mouth. Keep in mind that chemical repellents can be toxic, so follow directions carefully. Apply products with permethrin to clothing or buy pretreated clothing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do your best to tick-proof your yard.&lt;/strong&gt; Clear brush and leaves where ticks live. Keep woodpiles in sunny areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check yourself, your children and your pets for ticks.&lt;/strong&gt; Be especially vigilant after spending time in wooded or grassy areas. Deer ticks are often no bigger than the head of a pin, so you may not discover them unless you search carefully. It&apos;s helpful to shower as soon as you come indoors. Ticks often remain on your skin for hours before attaching themselves. Showering and using a washcloth may be enough to remove any unattached ticks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t assume you&apos;re immune.&lt;/strong&gt; Even if you&apos;ve had Lyme disease before, you can get it again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove a tick as soon as possible with tweezers.&lt;/strong&gt; Gently grasp the tick near its head or mouth. Don&apos;t squeeze or crush the tick, but pull carefully and steadily. Once you&apos;ve removed the entire tick, dispose of it and apply antiseptic to the bite area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lyme disease
+	</Title>
+	<Abstract>
+		Lyme disease &amp;mdash; Comprehensive overview covers symptoms, treatment, complications of this tick-borne illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+	</RelatedLinksBox>
+</Disease>

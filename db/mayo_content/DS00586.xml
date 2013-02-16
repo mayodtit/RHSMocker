@@ -1,0 +1,403 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00586
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vitiligo/DS00586
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2890" Title="Vitiligo" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1AE4A71D-68CE-40F1-ACCC990F74F2BBB3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vitiligo
+			</MetaKeyword>
+			<MetaKeyword>
+				skin pigmentation
+			</MetaKeyword>
+			<MetaKeyword>
+				skin discoloration
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin spots
+			</MetaKeyword>
+			<MetaKeyword>
+				white patches
+			</MetaKeyword>
+			<MetaKeyword>
+				vitaligo
+			</MetaKeyword>
+			<MetaKeyword>
+				leukoderma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vitiligo (vit-ih-LI-go) is a condition in which your skin loses melanin, the pigment that determines the color of your skin, hair and eyes. Vitiligo occurs when the cells that produce melanin die or no longer form melanin, causing slowly enlarging white patches of irregular shapes to appear on your skin.
+&lt;/p&gt;
+&lt;p&gt;
+Vitiligo affects all races, but may be more noticeable in people with darker skin. Vitiligo usually starts as small areas of pigment loss that spread with time. There is no cure for vitiligo. The goal of treatment is to stop or slow the progression of pigment loss and, if you desire, attempt to return some color to your skin.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture showing vitiligo patches on top of the hand" Caption="Vitiligo is a condition in which the skin loses its pigment cells (melanocytes). This results in white patches appearing on the skin in different areas of the body. Vitiligo can affect any part of the body." Height="60" Title="Vitiligo" URI="/images/image_popup/thumbs/r7_vitiligothu.jpg" Width="60" />
+				<Image Alt="Picture showing vitiligo patches on top of the hand" Caption="Vitiligo is a condition in which the skin loses its pigment cells (melanocytes). This results in white patches appearing on the skin in different areas of the body. Vitiligo can affect any part of the body." Height="235" Title="Vitiligo" URI="/images/image_popup/r7_vitiligo.jpg" Width="400" />
+				<HTML>
+					Vitiligo is a condition in which the skin loses its pigment cells (melanocytes). This results in white patches appearing on the skin in different areas of the body. Vitiligo can affect any part of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main sign of vitiligo is:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pigment loss that produces milky-white patches (depigmentation) on your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other less common signs may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Premature whitening or graying of the hair on your scalp, eyelashes, eyebrows or beard&lt;/li&gt;
+	&lt;li&gt;Loss of color in the tissues that line the inside of your mouth (mucous membranes)&lt;/li&gt;
+	&lt;li&gt;Loss of or change in color of the inner layer of your eye (retina)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although any part of your body may be affected by vitiligo, depigmentation usually develops first on sun-exposed areas of your skin, such as your hands, feet, arms, face and lips. Genitals also may be affected. Although it can start at any age, vitiligo often first appears between the ages of 10 and 30. Vitiligo generally appears in one of three patterns:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Generalized.&lt;/strong&gt; In this most common subtype, pigment loss is widespread across many parts of your body, often symmetrically.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Segmental.&lt;/strong&gt; Loss of skin color occurs on only one side of your body. This type tends to occur at a younger age, progress for a year or two, then stop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Focal.&lt;/strong&gt; Depigmentation is limited to one or a few areas of your body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The natural course of vitiligo is difficult to predict. Sometimes the patches stop forming without treatment. In most cases, pigment loss spreads and can eventually involve most of the surface of your skin.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if areas of your skin, hair or eyes lose coloring. Although there&apos;s no cure for vitiligo, treatments exist that may help to stop or slow the process of depigmentation and attempt to return some color to your skin.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture showing vitiligo patches on top of the hand" Caption="Vitiligo is a condition in which the skin loses its pigment cells (melanocytes). This results in white patches appearing on the skin in different areas of the body. Vitiligo can affect any part of the body." Height="60" Title="Vitiligo" URI="/images/image_popup/thumbs/r7_vitiligothu.jpg" Width="60" />
+				<Image Alt="Picture showing vitiligo patches on top of the hand" Caption="Vitiligo is a condition in which the skin loses its pigment cells (melanocytes). This results in white patches appearing on the skin in different areas of the body. Vitiligo can affect any part of the body." Height="235" Title="Vitiligo" URI="/images/image_popup/r7_vitiligo.jpg" Width="400" />
+				<HTML>
+					Vitiligo is a condition in which the skin loses its pigment cells (melanocytes). This results in white patches appearing on the skin in different areas of the body. Vitiligo can affect any part of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vitiligo occurs when melanin-forming cells (melanocytes) fail to produce melanin &amp;mdash; the dark pigment in the epidermis that gives your skin its normal color. The involved patch of skin then becomes white. It isn&apos;t known why this occurs.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors and scientists have theories as to what causes vitiligo. It may be due to an immune system disorder. Heredity may be a factor because there&apos;s an increased incidence of vitiligo in some families. Some people have reported a single event, such as sunburn or emotional distress, that triggered the condition. Sometimes pigment loss can occur in someone who&amp;rsquo;s had a melanoma, a malignancy of the cells that produce melanin (melanocytes). However, none of these theories has been proved as a definite cause of vitiligo.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing layers of skin 
+" Caption="Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+" Height="60" Title="Skin layers" URI="/images/image_popup/thumbs/mcdc7_skin_layersthu.jpg" Width="60" />
+				<Image Alt="Illustration showing layers of skin 
+" Caption="Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+" Height="343" Title="Skin layers" URI="/images/image_popup/mcdc7_skin_layers.jpg" Width="400" />
+				<HTML>
+					Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the layers of your skin 
+" Caption="Melanin is a natural pigment that gives your skin its color. It&apos;s produced in cells called melanocytes. 
+" Height="60" Title="Skin layers and melanin" URI="/images/image_popup/thumbs/sn7_skinlayersthu.jpg" Width="60" />
+				<Image Alt="Illustration of the layers of your skin 
+" Caption="Melanin is a natural pigment that gives your skin its color. It&apos;s produced in cells called melanocytes. 
+" Height="424" Title="Skin layers and melanin" URI="/images/image_popup/sn7_skinlayers.jpg" Width="400" />
+				<HTML>
+					Melanin is a natural pigment that gives your skin its color. It&apos;s produced in cells called melanocytes. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in skin disorders (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Compile your family medical history.&lt;/strong&gt; Find out if anyone in your family has a history of vitiligo, or a history of any thyroid or autoimmune disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes, or recent sunburns or skin rashes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions may help you make the most of your time together. For vitiligo, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests? &lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow, such as avoiding the sun at certain times or wearing a specific sunscreen?&lt;/li&gt;
+	&lt;li&gt;Can you recommend a cover-up or self-tanning product?&lt;/li&gt;
+	&lt;li&gt;Do you have brochures or other printed material I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that arise.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin losing pigment?&lt;/li&gt;
+	&lt;li&gt;Did you have a sunburn or skin rash before you noticed your pigment loss?&lt;/li&gt;
+	&lt;li&gt;Do the areas of pigment loss itch or cause any other symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had this type of change before?&lt;/li&gt;
+	&lt;li&gt;Have you had a diagnosis of melanoma in the past?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have a history of vitiligo, autoimmune diseases or both?&lt;/li&gt;
+	&lt;li&gt;What is your occupation and what are your hobbies? Are you exposed to any harsh chemicals in either?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you&apos;re waiting to see the doctor, limit your sun exposure and wear a broad-spectrum sunscreen with a sunburn protection factor (SPF) of at least 30. If you&apos;re feeling self-conscious about the changes in your skin, you can use cosmetics or sunless tanning products (self-tanners) to cover the depigmented areas.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Medical history and exam&lt;/strong&gt;&lt;br /&gt;
+If your doctor suspects you have vitiligo, he or she will ask about your medical history and examine you. Important factors in your medical history include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A family history of vitiligo or an autoimmune disease&lt;/li&gt;
+	&lt;li&gt;A personal history of sun sensitivity or other skin conditions&lt;/li&gt;
+	&lt;li&gt;A rash, sunburn or other skin trauma within two to three months of the start of pigment loss&lt;/li&gt;
+	&lt;li&gt;A history of melanoma or multiple, atypical moles&lt;/li&gt;
+	&lt;li&gt;Premature graying of the hair (before age 35)&lt;/li&gt;
+	&lt;li&gt;Stress or physical illness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will also examine you to rule out other medical problems or skin conditions, such as dermatitis or psoriasis. He or she may use a device called a Woods lamp, which shines ultraviolet (UV) light onto the skin, to determine whether you have vitiligo.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin biopsy and blood draw&lt;/strong&gt;&lt;br /&gt;
+In addition to gathering your personal and family medical history and examining your skin, your doctor may also:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take a small sample (biopsy) of your affected skin&lt;/li&gt;
+	&lt;li&gt;Draw blood to check your blood cell count, thyroid function and to look for the presence of anti-nuclear antibodies (a type of autoantibody) that would indicate an autoimmune disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, your doctor may recommend that you see an eye specialist (ophthalmologist) for an eye examination to check for inflammation in your eye (uveitis).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medical treatment for vitiligo isn&apos;t always necessary. For some, skin color returns without treatment. For others, self-care steps, such as using sunscreen and applying cosmetic camouflage cream, may improve the appearance of your skin. For fair-skinned individuals, avoiding tanning can make the areas almost unnoticeable. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the number, size and location of the white patches, you may decide to seek medical treatment. Medical treatments for vitiligo aim to even out skin tone, either by restoring color (pigment) or by destroying the remaining color. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for vitiligo may take as long as six to 18 months, and you may have to try more than one treatment before you find the one that works best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical corticosteroid therapy.&lt;/strong&gt; Corticosteroids may help return color to your skin (repigmentation), particularly if the medication is started early in the disease. Milder topical corticosteroid cream or ointment may be prescribed for children and for people who have large areas of depigmented skin. It may take as long as three months of treatment before you begin to see any changes in your skin&apos;s color. This treatment is easy and effective, but your doctor needs to monitor you closely for side effects, such as thinning of the skin (atrophy) and streaks or lines on your skin (skin striae). Calcipotriene (Dovonex), a vitamin D derivative, also may be used topically and is sometimes used with corticosteroids or ultraviolet light.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical immunomodulators.&lt;/strong&gt; Topical ointments containing tacrolimus or pimecrolimus are effective for people with small areas of depigmentation, especially on the face and neck. This treatment may have fewer side effects than corticosteroids and can be used in combination with ultraviolet B (UVB) treatments. However, studies conducted on these treatments have been small, and there is concern that they may be associated with an increased risk of lymphoma and skin cancer.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Topical psoralen plus ultraviolet A (PUVA).&lt;/strong&gt; This option, which is also called photochemotherapy, may be effective for you if less than 20 percent of your body has depigmented patches. You&apos;ll have to visit the doctor once or twice a week for treatment. Your doctor or nurse applies a thin coating of the topical psoralen about 30 minutes before the light exposure. Psoralen makes your skin more sensitive to ultraviolet light. Your skin is then exposed to UVA light, which turns the treated areas pink. As the skin heals, a more normal skin color appears. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A variation is known as water bath PUVA, in which you lie in a tub of water containing psoralen for 15 minutes before you&apos;re exposed to the light. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Possible side effects include severe sunburn and blistering, though you can minimize your risk of complications by avoiding direct sunlight after each treatment. Hyperpigmentation &amp;mdash; overdarkening of the skin &amp;mdash; is usually temporary and eventually lightens when treatment stops. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Oral psoralen photochemotherapy (oral PUVA).&lt;/strong&gt; If you have depigmented areas that cover more than 20 percent of your body, your doctor may recommend oral psoralen. For this treatment, you take the oral psoralen about two hours before exposure to UVA light. You&apos;ll have to visit the doctor two or three times a week, allowing for at least a day in between treatments. As with topical psoralen, the treated skin becomes pink after UVA exposure, and then eventually fades to a more normal skin tone. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	This treatment can also be done using natural sunlight if you don&apos;t have access to a doctor&apos;s office with the proper equipment. Your doctor will let you know how much exposure you need and will want to monitor your skin changes frequently. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Sunburn, nausea, vomiting, itching, abnormal hair growth and overdarkening of the skin are potential short-term side effects of this treatment, whether it&apos;s done in the doctor&apos;s office or using natural sun. Your risk of skin cancer may be increased if you use this therapy long term. Oral PUVA is not recommended for children under 10 due to a greater risk of damage to the eyes, such as cataracts. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	You can reduce your odds of skin cancer and sunburn by staying out of direct sunlight for one to two full days after treatment. The use of sunscreen can also help reduce your risk of side effects. To protect your eyes from serious damage, such as cataracts, wear UV-protective sunglasses for up to 24 hours after each treatment when you&apos;re exposed to the sun. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowband ultraviolet B (UVB) therapy.&lt;/strong&gt; Narrowband UVB, a special form of UVB light that uses a more specific wavelength of ultraviolet B, is an alternative to PUVA. This type of therapy can be administered like PUVA and given up to three times a week. However, no pre-application of psoralen is required, which simplifies the treatment process. Because it is simpler to administer, this type of phototherapy is gaining wide acceptance. However, more research is needed to determine if it is superior to PUVA and to assess its long-term safety. Narrowband wavelengths of light can also be delivered to smaller areas of vitiligo using either an intense light source (focal) or a laser. Small trials have shown positive results. However, due to the added expense of these devices they may not be available in all dermatologists&apos; offices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excimer laser.&lt;/strong&gt; This type of laser delivers controlled beams of a specific wavelength of UVB light to the skin. It can be used only on small areas of vitiligo, and it&apos;s often used in combination with topical drugs. Side effects can include redness and blistering.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Depigmentation.&lt;/strong&gt; Depigmentation may be an option for you if you have vitiligo that covers more than half of your skin. Depigmentation therapy lightens the unaffected parts of your skin to match the areas that have already lost color. For this treatment, you apply a medication called monobenzone ether of hydroquinone twice a day to the areas of your skin that still have pigment. Treatment continues until the darker areas of your skin match the already-depigmented areas. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Redness and swelling are potential side effects of depigmentation therapy, and you have to be careful to avoid skin-to-skin contact with other people for at least two hours after you&apos;ve applied the drug, so you don&apos;t transfer it to them. Other potential side effects include itching and dry skin. Depigmentation is permanent and will make you extremely sensitive to sunlight permanently. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Autologous skin grafts.&lt;/strong&gt; This type of skin grafting uses your own tissues (autologous). Your doctor removes tiny pieces of skin from one area of your body and attaches them to another. This procedure is sometimes used if you have small patches of vitiligo. Your doctor removes very small sections of your normal, pigmented skin, often containing a small hair, and places them on areas that have lost pigment. Possible complications include scarring, a cobblestone appearance, spotty pigmentation or failure of the transferred skin to repigment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blister grafting.&lt;/strong&gt; In this procedure, your doctor creates blisters on your pigmented skin, primarily by using suction. The tops of the blisters are removed and transplanted where a blister of equal size has been created and removed in an area that has no pigment. Blister grafting may cause a cobblestone appearance and scarring, and the area may not repigment. However, there&apos;s less risk of scarring with this procedure than with other types of skin grafting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tattooing (micropigmentation).&lt;/strong&gt; Tattooing implants pigment into your skin with a special surgical instrument. For the treatment of vitiligo, tattooing is most effective around the lips and in people with dark skin. Sometimes the tattoo color doesn&apos;t match skin color closely enough. Additionally, tattoo colors fade and they don&apos;t tan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Experimental therapies&lt;/strong&gt;&lt;br /&gt;
+Doctors are continuing to try to find better ways to treat vitiligo. One newer option is a procedure called an autologous melanocyte transplant. Using a sample of your normal skin, researchers can grow melanocytes in the lab. These newly developed melanocytes are then transplanted to the areas on your body that lack pigment. This treatment is still considered experimental and isn&apos;t widely available. 
+&lt;/p&gt;
+&lt;p&gt;
+Another treatment in development uses a compound found in black pepper called piperine. In trials on mice, piperine was found to be effective at causing repigmentation. Piperine was even more effective when it was used in combination with UV light. Redness and skin peeling were temporary side effects of this treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain self-care tactics may help you care for your skin and improve its appearance:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your skin.&lt;/strong&gt; If you have vitiligo, particularly if you have fair skin, use a sunscreen with an SPF of at least 30 that protects against both UVA and UVB light to protect your skin from the sun&apos;s harmful rays. Sunscreen helps protect your skin from sunburn and long-term damage. Sunscreen also minimizes tanning, which makes the contrast between normal and depigmented skin less noticeable. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conceal imperfections.&lt;/strong&gt; Concealing cosmetics may lessen the appearance of the white patches and help you feel better about yourself, especially if your vitiligo patches are on exposed skin. You may need to experiment with several brands of concealing cosmetics before finding a product that blends best with your normal skin tone. Sunless tanning products (self-tanners) also may help conceal imperfections by adding color to depigmented areas. The coloring doesn&apos;t wash off, but it gradually fades as the dead skin cells slough off in several days.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In people with slow-spreading vitiligo, treatment with 40 milligrams of ginkgo three times a day may stop the spread of vitiligo. And, in one small placebo-controlled trial, ginkgo caused repigmentation in some cases. However, this treatment is not well studied, and as with any over-the-counter treatment, check with your doctor before taking ginkgo to be sure it won&apos;t adversely interact with any other treatments you may be on.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The change in appearance caused by vitiligo can affect your emotional and psychological well-being. You may experience emotional stress, particularly if vitiligo develops on visible areas of your body, such as your face, hands, arms or feet. You may feel embarrassed, ashamed, depressed or worried about how others will react. Young people, who are often particularly concerned about their appearance, can be devastated by widespread vitiligo.
+&lt;/p&gt;
+&lt;p&gt;
+Certain strategies may help you cope with vitiligo. Consider these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a good connection.&lt;/strong&gt; Find a doctor who&apos;s knowledgeable about vitiligo. A dermatologist is a doctor who specializes in the care of skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn all about it.&lt;/strong&gt; Find out as much as you can about vitiligo and its treatment options so that you can participate in making important decisions about your health care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Communicate your feelings.&lt;/strong&gt; Let your doctor know if you&apos;re feeling depressed. He or she can refer you to mental health providers who specialize in helping people deal with depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with others.&lt;/strong&gt; Ask your doctor about support groups in your area for people who have vitiligo. You can also contact the National Vitiligo Foundation at 513-541-3903 or Vitiligo Support International at 818-752-9002 to find support groups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Confide in loved ones.&lt;/strong&gt; Seek understanding and support from your family and friends.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vitiligo
+	</Title>
+	<Abstract>
+		Vitiligo &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this skin pigment condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+	</RelatedLinksBox>
+</Disease>

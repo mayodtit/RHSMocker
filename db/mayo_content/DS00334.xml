@@ -1,0 +1,326 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00334
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polymyositis/DS00334
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="3112" Title="Polymyositis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			99113EB3-F398-4CFD-A285ECEC082DDD9E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polymyositis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatomyositis
+			</MetaKeyword>
+			<MetaKeyword>
+				connective tissue
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle weakness
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				calcinosis
+			</MetaKeyword>
+			<MetaKeyword>
+				myopathies
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammatory myopathies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polymyositis (pol-e-mi-o-SI-tis) is a persistent inflammatory muscle disease that causes weakness of the skeletal muscles, which control movement. Medically, polymyositis is classified as a chronic inflammatory myopathy &amp;mdash; one of only three such diseases.
+&lt;/p&gt;
+&lt;p&gt;
+Polymyositis can occur at any age, but it mostly affects adults in their 30s, 40s or 50s. It&apos;s more common in blacks than in whites, and women are affected more often than men are. Polymyositis signs and symptoms usually develop gradually, over weeks or months.
+&lt;/p&gt;
+&lt;p&gt;
+Remissions &amp;mdash; periods during which symptoms spontaneously disappear &amp;mdash; are rare in polymyositis. However, treatment can improve your muscle strength and function.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of polymyositis appear gradually, so it may be difficult to pinpoint when they first started. They may also fluctuate from week to week or month to month. 
+&lt;/p&gt;
+&lt;p&gt;
+Polymyositis signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Progressive muscle weakness&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing (dysphagia)&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Mild joint or muscle tenderness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Polymyositis typically affects the muscles closest to the trunk, particularly those in your hips, thighs, shoulders, upper arms and neck. The weakness is symmetrical, meaning it involves muscles on both the left and right sides of your body.
+&lt;/p&gt;
+&lt;p&gt;
+The disease worsens over time. As muscle weakness progresses, you might find it difficult to climb stairs, rise from a seated position, lift objects or reach overhead. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you develop signs and symptoms associated with polymyositis, see your doctor for an evaluation and diagnosis. If you&apos;ve already been diagnosed with the condition, contact your doctor if new symptoms occur or if existing symptoms worsen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of polymyositis is unknown, but the disease shares many characteristics with autoimmune disorders, in which your immune system attacks normal body components. Normally, your immune system works to protect your healthy cells from attacks by foreign substances, such as bacteria and viruses. If you have polymyositis, an unknown cause may act as a trigger for your immune system to begin producing autoimmune antibodies (autoantibodies) that attack your body&apos;s own tissues. Many people with polymyositis show a detectable level of autoantibodies in their blood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of polymyositis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty swallowing.&lt;/strong&gt; If the muscles in your esophagus are affected, you may have problems swallowing (dysphagia), which in turn may cause weight loss and malnutrition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspiration pneumonia.&lt;/strong&gt; Difficulty swallowing may also cause you to breathe food or liquids, including saliva, into your lungs (aspiration), which can lead to pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; If your chest muscles are affected by the disease, you may experience breathing problems, such as shortness of breath or, in severe cases, respiratory failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium deposits.&lt;/strong&gt; Late in the disease, particularly if you&apos;ve had the disease for a long time, deposits of calcium can occur in your muscles, skin and connective tissues (calcinosis).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Associated conditions &lt;br /&gt;
+&lt;/strong&gt;Although these are not complications, polymyositis is often associated with other conditions that may cause further complications of their own, or in combination with polymyositis symptoms. Associated conditions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Raynaud&apos;s phenomenon.&lt;/strong&gt; This is a condition in which your fingers, toes, cheeks, nose and ears initially turn pale when exposed to cold temperatures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other connective tissue diseases.&lt;/strong&gt; Other conditions, such as lupus, rheumatoid arthritis, scleroderma and Sjogren&apos;s syndrome, can occur in combination with polymyositis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; Polymyositis may cause the muscle of your heart to become inflamed (myocarditis). In a small number of people who have polymyositis, congestive heart failure and heart arrhythmias may develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung disease.&lt;/strong&gt; A condition called interstitial lung disease may occur with polymyositis. Interstitial lung disease refers to a group of disorders that cause scarring (fibrosis) of lung tissue, making lungs stiff and inelastic. Signs and symptoms include a dry cough and shortness of breath.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Concerns during pregnancy&lt;br /&gt;
+&lt;/strong&gt;Pregnancy may worsen signs and symptoms in women whose disease is active. Active polymyositis can also increase the risk of premature birth or stillbirth. If the disease is in remission, the risk isn&apos;t as great. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your symptoms to the attention of your family doctor, who may refer you to a rheumatologist &amp;mdash; a doctor who specializes in the treatment of arthritis and other diseases of the joints, muscles and bone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;When you go in to see your doctor, be sure to have a record of your symptoms. Although it may be difficult to pinpoint when symptoms started, try to estimate when you first noticed weakness, and which muscles have been affected. You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms, including which muscles are affected&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions ahead of time to help make the most of your limited time with your doctor. For polymyositis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are my symptoms likely to change over time?&lt;/li&gt;
+	&lt;li&gt;What kind of tests might I need? Are any special preparations required?&lt;/li&gt;
+	&lt;li&gt;Are treatments available for my condition? What treatments do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will likely ask you several questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice muscle weakness?&lt;/li&gt;
+	&lt;li&gt;Did your condition develop gradually or did it come on suddenly?&lt;/li&gt;
+	&lt;li&gt;Are you easily fatigued during waking hours?&lt;/li&gt;
+	&lt;li&gt;What other symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Does your condition limit your activities?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with a disease or condition that affects the muscles?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications or dietary supplements?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of polymyositis isn&apos;t always easy and can be a lengthy process. Even though the attempt to diagnose your condition may be frustrating, remember that an accurate diagnosis is necessary to receive appropriate treatment.
+&lt;/p&gt;
+&lt;p&gt;
+In addition to a thorough physical exam, your doctor will likely use other tests to confirm a diagnosis of polymyositis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; A scanner creates cross-sectional images of your muscles from data generated by a powerful magnetic field and radio waves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography.&lt;/strong&gt; A doctor with specialized training inserts a thin needle electrode through the skin into the muscle to be tested. Electrical activity is measured as you relax or tighten the muscle, and changes in the pattern of electrical activity can confirm a muscle disease. The doctor can determine the distribution of the disease by testing different muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle biopsy.&lt;/strong&gt; A small piece of muscle tissue is removed surgically for laboratory analysis. A muscle biopsy may reveal abnormalities in your muscles, such as inflammation, damage or infection. The tissue sample can also be examined for the presence of abnormal proteins and checked for enzyme deficiencies. In polymyositis, a muscle biopsy typically shows inflammation, dead muscle cells (necrosis), and degeneration and regeneration of muscle fibers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A blood test will let your doctor know if you have elevated levels of muscle enzymes, such as creatine kinase (CK) and aldolase. Increased CK and aldolase levels can indicate muscle damage. A blood test can also detect specific autoantibodies associated with different symptoms of polymyositis, which can help in determining the best medication and treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no cure for polymyositis, treatment can improve your muscle strength and function. The earlier treatment is started in the course of polymyositis, the more effective it is, leading to fewer complications. However, as with many conditions, no single approach is best; your doctor will tailor your treatment strategy based on your symptoms and how well they respond to therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;br /&gt;
+&lt;/strong&gt;For most people, the first step in treatment for polymyositis is to take a corticosteroid medication. Usually for polymyositis, the chosen medication is prednisone. 
+&lt;/p&gt;
+&lt;p&gt;
+Corticosteroids are medications that suppress your immune system, limiting the production of antibodies and reducing muscle inflammation, as well as improving muscle strength and function. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may prescribe a very high dose to begin with, and then decrease it as your signs and symptoms improve. Improvement generally takes about two to four weeks, but you may take the medication for several months. Prolonged use of corticosteroids can have serious and wide-ranging side effects, which is why your doctor may gradually taper the dose of medication down to low levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the potential for serious side effects, your doctor may recommend supplements to combat them, such as calcium and vitamin D, and may prescribe medications to help protect your bones. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional immunosuppressive therapies&lt;br /&gt;
+&lt;/strong&gt;If a corticosteroid medication doesn&apos;t seem to be working effectively in your case, as a secondary approach your doctor may recommend that you add or switch to another medication: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid-sparing agents.&lt;/strong&gt; When used in combination with a corticosteroid, a corticosteroid-sparing medication can decrease the dose and potential side effects of the corticosteroid. These medications include azathioprine (Azasan, Imuran) or methotrexate (Trexall, Methotrexate, Rheumatrex). Your doctor may prescribe azathioprine or methotrexate initially along with prednisone if your disease is very progressive or if you have complicating factors. Some doctors prescribe these medications as a first line treatment for people in whom corticosteroids aren&apos;t recommended.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous immunoglobulin (IVIG).&lt;/strong&gt; IVIG is a purified blood product that contains healthy antibodies from thousands of blood donors. The healthy antibodies in IVIG can block the damaging antibodies that attack muscle in polymyositis. This treatment is given as an infusion through a vein. The effects of IVIG are beneficial, but don&apos;t last very long. Repeat infusions every six to eight weeks are often necessary.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Other immunosuppressive medicine.&lt;/strong&gt; Tacrolimus (Prograf) is a transplant-rejection drug that may work to inhibit the immune system. Tacrolimus is often used topically to treat dermatomyositis and other skin problems. When taken orally, it may be helpful in treating people who have polymyositis complicated by interstitial lung disease. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Immunosuppressants, such as cyclophosphamide (Cytoxan) and cyclosporine (Gengraf, Neoral, Sandimmune), may improve signs and symptoms of polymyositis and interstitial lung disease. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biological therapies&lt;br /&gt;
+&lt;/strong&gt;If your case is severe and other treatment options have failed, your doctor may recommend one of these investigational medications as a third line approach to treating polymyositis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rituximab (Rituxan)&lt;/strong&gt; has been studied in small numbers of people with polymyositis and dermatomyositis and shown to improve muscle strength, lung involvement and skin rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor necrosis factor (TNF) inhibitors&lt;/strong&gt;, such as etanercept (Enbrel) and infliximab (Remicade), are medicines that target key proteins associated with inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, there aren&apos;t many scientific studies to date about the effectiveness of these agents on polymyositis. If your doctor prescribes one of these medications, you&apos;ll be closely monitored for side effects. These medications can be expensive and, because they&apos;re experimental for treating polymyositis, may not be covered by insurance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatment approaches&lt;br /&gt;
+&lt;/strong&gt;Besides taking medication, your doctor may recommend additional therapies for polymyositis treatment, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; A physical therapist can show you exercises to maintain and improve your strength and flexibility and advise an appropriate level of activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dietetic assessment.&lt;/strong&gt; Later in polymyositis, chewing and swallowing can become more difficult. A registered dietitian can teach you how to prepare easy-to-eat foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech therapy.&lt;/strong&gt; If your swallowing muscles are weakened by polymyositis, speech therapy can help you learn how to compensate for those changes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic autoimmune disease can make you wonder at times whether you&apos;re up to the challenge. To help you cope, try supplementing your medical care with the following suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know your illness.&lt;/strong&gt; Read all you can about polymyositis and other muscle and autoimmune disorders. Talk to other people who have a similar condition. Don&apos;t be afraid to ask your doctor any questions that you may have concerning your illness, diagnosis or treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be a part of your medical team.&lt;/strong&gt; Consider yourself, your doctor and any other medical experts involved as a united front in the fight against your disease. Following the treatment plan you agreed to is vital. Keep your doctor updated on any new signs or symptoms you may experience.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know and assert your limits.&lt;/strong&gt; Learn to say no effectively and ask for help when you need it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest when you&apos;re tired.&lt;/strong&gt; Don&apos;t wait until you&apos;re exhausted. This will only set you back further as your body tries to recuperate. Learning to pace yourself can help you maintain a consistent level of energy, accomplish just as much and feel better emotionally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acknowledge your emotions.&lt;/strong&gt; Denial, anger and frustration are normal feelings when you must deal with an illness. Things don&apos;t seem normal or fair and likely seem out of your control. Feelings of fear and isolation are common, so stay close to your family and friends. Try to maintain your daily routine as best you can and don&apos;t neglect doing those things you enjoy. Many people find support groups to be a helpful resource.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polymyositis
+	</Title>
+	<Abstract>
+		Polymyositis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this inflammatory muscle disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00572" LinkType="Internal" ObjectID="2C7914A0-B0BC-494F-99E635E574CA1CCE" Title="Polymyositis: Can a gluten-free diet reduce symptoms?" Url="http://www.mayoclinic.com/health/polymyositis/AN00572" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,289 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00804
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dyshidrosis/DS00804
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="1839" Title="Allergic skin conditions">
+							<Keyword MCVID="2123" Title="Dyshidrosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CC699EBD-E7FF-0DBD-154D4E2C143E73D1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dyshidrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pompholyx
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				dyshidrotic eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				dyshidrotic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hand rash
+			</MetaKeyword>
+			<MetaKeyword>
+				foot rash
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dyshidrosis, also known as dyshidrotic eczema or pompholyx, is a skin condition in which small, fluid-filled blisters (vesicles) occur on the palms of your hands or the soles of your feet, or both.
+&lt;/p&gt;
+&lt;p&gt;
+The blisters that occur in dyshidrosis generally last around three weeks and cause intense itching. Once the blisters of dyshidrosis dry, cracks and grooves (fissures) form, which can be painful.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for dyshidrosis most often includes topical creams, wet compresses and ultraviolet light therapy to improve appearance and ease symptoms.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing dyshidrosis 
+" Caption="Dyshidrosis is a type of dermatitis in which small, fluid-filled blisters (vesicles) occur on the palms of the hands or the soles of the feet, or both. The cause isn&apos;t known. 
+" Height="60" Title="Dyshidrosis" URI="/images/image_popup/thumbs/ans7_dyshidrosisthu.jpg" Width="60" />
+				<Image Alt="Image showing dyshidrosis 
+" Caption="Dyshidrosis is a type of dermatitis in which small, fluid-filled blisters (vesicles) occur on the palms of the hands or the soles of the feet, or both. The cause isn&apos;t known. 
+" Height="488" Title="Dyshidrosis" URI="/images/image_popup/ans7_dyshidrosis.jpg" Width="400" />
+				<HTML>
+					Dyshidrosis is a type of dermatitis in which small, fluid-filled blisters (vesicles) occur on the palms of the hands or the soles of the feet, or both. The cause isn&apos;t known. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In dyshidrosis, the affected skin becomes inflamed (dermatitis). As a result, the junctions between the skin cells open and allow fluid (serum) to fill the spaces. Doctors refer to this process as spongiosis because, when viewed under a microscope, the skin becomes more sponge-like with these many fluid-filled spaces. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of dyshidrosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small, itchy bumps that gradually progress to a rash made up of fluid-filled blisters (vesicles)&lt;/li&gt;
+	&lt;li&gt;Intense itching&lt;/li&gt;
+	&lt;li&gt;Cracks or grooves (fissures) on your fingers or toes&lt;/li&gt;
+	&lt;li&gt;Pain, especially with large blisters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The small, fluid-filled blisters (vesicles) most commonly occur on the palms and fingers of your hands. They may also occur on the soles and toes of your feet. The blisters usually last about three weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if you have a rash on your hands or feet that doesn&apos;t go away on its own. Also contact your doctor if you&apos;ve been diagnosed with dyshidrosis and have signs and symptoms of an infection, including fever, or pain or inflammation at the rash site. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing dyshidrosis 
+" Caption="Dyshidrosis is a type of dermatitis in which small, fluid-filled blisters (vesicles) occur on the palms of the hands or the soles of the feet, or both. The cause isn&apos;t known. 
+" Height="60" Title="Dyshidrosis" URI="/images/image_popup/thumbs/ans7_dyshidrosisthu.jpg" Width="60" />
+				<Image Alt="Image showing dyshidrosis 
+" Caption="Dyshidrosis is a type of dermatitis in which small, fluid-filled blisters (vesicles) occur on the palms of the hands or the soles of the feet, or both. The cause isn&apos;t known. 
+" Height="488" Title="Dyshidrosis" URI="/images/image_popup/ans7_dyshidrosis.jpg" Width="400" />
+				<HTML>
+					Dyshidrosis is a type of dermatitis in which small, fluid-filled blisters (vesicles) occur on the palms of the hands or the soles of the feet, or both. The cause isn&apos;t known. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of dyshidrosis is unknown. However, it can be associated with a similar skin disorder called atopic dermatitis and allergic conditions, such as asthma and hay fever (allergic rhinitis). Eruptions may be seasonal in people with allergies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for dyshidrosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women appear to have a higher incidence of dyshidrosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Dyshidrosis appears to be more common during times of stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to metal salts.&lt;/strong&gt; These include chromium, cobalt and nickel &amp;mdash; usually through cement or mechanical work.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having seasonal allergies.&lt;/strong&gt; One example is hay fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to moisture.&lt;/strong&gt; Frequently exposing your skin to water or other wet substances can trigger dyshidrosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, dyshidrosis is just an itchy inconvenience. For some, however, the pain and itching may limit the use of their hands. In some cases, skin damage (including thickening of your skin) or a bacterial infection may occur as a result of the open, sponge-like skin or due to intense scratching. This can make treatment lengthier and more difficult.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner, who may refer you to a dermatologist. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any questions you&apos;d like to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had eczema or other allergic conditions in the past?&lt;/li&gt;
+	&lt;li&gt;Do you have specific allergies to certain substances such as rubber, glues, fragrances, for example?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Until your doctor&apos;s appointment, you can take over-the-counter antihistamines, such as Benadryl, to help control the itching. You may also find that wet or cold compresses may ease your symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, your doctor can diagnose dyshidrosis based on a physical exam.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Potassium hydroxide (KOH) test.&lt;/strong&gt; Your doctor may recommend a procedure called a KOH test to rule out other conditions, such as a fungal infection or contact dermatitis. To perform a KOH test, your doctor scrapes your skin with a glass slide to collect dead skin cells. The skin cells are mixed with potassium hydroxide (KOH) and viewed under a microscope to help single out a fungal infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contact hypersensitivity allergy test (patch test).&lt;/strong&gt; If an allergy is suspected to cause dyshidrosis, a patch test may help determine a possible cause. During a patch test, potential allergens are applied to a patch, which is then placed on your skin to check for a reaction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A treatment plan for dyshidrosis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid creams or ointments.&lt;/strong&gt; Your doctor may prescribe high-potency corticosteroid topical creams to help speed the disappearance and improve the appearance of the blisters, and to treat the cracks and fissures that occur after the blisters have dried. In severe cases, your doctor may prescribe oral steroids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compresses.&lt;/strong&gt; Wet or cold compresses can help alleviate itching, increase the effectiveness of the topical creams and minimize blisters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines.&lt;/strong&gt; Your doctor may recommend anti-itching medications called anti-pruritics or antihistamines, such as diphenhydramine (Benadryl) or loratadine (Claritin, Alavert, others), to help alleviate itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Phototherapy.&lt;/strong&gt; If these treatments aren&apos;t effective, your doctor may recommend a special kind of ultraviolet light therapy called psoralen plus ultraviolet A (PUVA). This treatment combines exposure to ultraviolet light (phototherapy) with drugs that help make your skin more receptive to the effects of ultraviolet light (psoralens). A newer type of ultraviolet B light known as narrow-band ultraviolet B also may be of help in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune-suppressing ointments.&lt;/strong&gt; These medications, such as tacrolimus (Protopic) and pimecrolimus (Elidel), may be helpful when other treatment options haven&apos;t worked. But because they suppress the immune system, skin infections may be more likely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Botulinum toxin injections.&lt;/strong&gt; Some doctors may consider recommending botulinum toxin injections to treat severe cases of dyshidrosis. However, this is a relatively new treatment option that has not yet gained acceptance among all physicians.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have dyshidrosis, the following self-care measures may help:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid scratching the rash.&lt;/li&gt;
+	&lt;li&gt;Limit your skin exposure to water.&lt;/li&gt;
+	&lt;li&gt;Moisturize with a hand cream after washing your hands.&lt;/li&gt;
+	&lt;li&gt;Take measures to protect your hands from irritants, such as perfumed lotions or dishwashing soap.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the cause of dyshidrosis is generally unknown, there&apos;s no proven way to prevent this condition. However, managing stress and avoiding exposure to metal salts, such as chromium and nickel, may help prevent dyshidrosis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dyshidrosis
+	</Title>
+	<Abstract>
+		Dyshidrosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

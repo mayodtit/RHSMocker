@@ -1,0 +1,297 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01065
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rectovaginal-fistula/DS01065
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="3317" Title="Rectovaginal fistula" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C6FC095A-E7FF-0DBD-13E93D8470E403B2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rectovaginal fistula
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal vaginal fistula
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A rectovaginal fistula is an abnormal connection between the lower portion of your large intestine &amp;mdash; your rectum &amp;mdash; and your vagina. Contents of your bowel can leak through the fistula, meaning you might pass gas or stool through your vagina.
+&lt;/p&gt;
+&lt;p&gt;
+A rectovaginal fistula may result from an injury during childbirth, Crohn&apos;s disease or other inflammatory bowel disease, radiation treatment or cancer in the pelvic area, or a complication following surgery in the pelvic area.
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms of a rectovaginal fistula often cause emotional distress as well as physical discomfort, which can impact self-esteem and intimate relationships. Though bringing up the subject with your doctor may be difficult, it&apos;s important to have a rectovaginal fistula evaluated. Some rectovaginal fistulas may close on their own, but most need to be repaired surgically.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the size and location of the fistula, you may have minor symptoms or significant problems with continence and hygiene. Signs and symptoms of a rectovaginal fistula may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Passage of gas, stool or pus from your vagina&lt;/li&gt;
+	&lt;li&gt;A foul-smelling vaginal discharge&lt;/li&gt;
+	&lt;li&gt;Recurrent vaginal or urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Irritation or pain in the vulva, vagina and the area between your vagina and anus (perineum)&lt;/li&gt;
+	&lt;li&gt;Pain during sexual intercourse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience any signs or symptoms of rectovaginal fistula, make an appointment to see your doctor. A fistula may be the first indication of a more serious problem, such as an area of infection where pus has collected (abscess) or cancer. It&apos;s important that your doctor identify the cause of the fistula and determine whether and when it should be repaired. Depending on the cause, your doctor may refer you to a colorectal or gynecologic surgeon.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A rectovaginal fistula may form as a result of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injuries during childbirth.&lt;/strong&gt; Injuries during delivery are the most common cause of rectovaginal fistulas. Such injuries include tears in the perineum that extend to the bowel or an infection or tear of an episiotomy &amp;mdash; a surgical incision to enlarge the perineum during vaginal delivery. These may happen following a long, difficult labor. Fistulas occurring from childbirth may also involve injury to your anal sphincter, the rings of muscle at the end of the rectum that help you hold in stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crohn&apos;s disease.&lt;/strong&gt; The second most common cause of rectovaginal fistulas, Crohn&apos;s disease is a type of inflammatory bowel disease in which the lining of your digestive tract becomes inflamed. Most women with Crohn&apos;s disease never develop a rectovaginal fistula, but having Crohn&apos;s disease does increase your risk of the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer or radiation treatment in your pelvic area.&lt;/strong&gt; A cancerous tumor in your rectum, cervix, vagina, uterus or anal canal can lead to development of a rectovaginal fistula. Radiation therapy for cancers in these areas can also put you at risk of developing a fistula. A fistula caused by radiation usually forms within two years following the treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery involving your vagina, perineum, rectum or anus.&lt;/strong&gt; Prior surgery in your lower pelvic region, such as removal of your uterus (hysterectomy), in rare cases can lead to development of a fistula.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other causes.&lt;/strong&gt; Rarely, a rectovaginal fistula may be caused by infections in your anus or rectum; infections of small, bulging pouches in your digestive tract (diverticulitis); long-term inflammation of your colon and rectum (ulcerative colitis); or vaginal injury other than during childbirth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Physical complications of rectovaginal fistula may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Incontinence&lt;/li&gt;
+	&lt;li&gt;Problems with hygiene&lt;/li&gt;
+	&lt;li&gt;Recurrent vaginal or urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Irritation or inflammation of your vagina, perineum or the skin around your anus&lt;/li&gt;
+	&lt;li&gt;Infected fistula that forms an abscess, a problem that can become life-threatening if not treated&lt;/li&gt;
+	&lt;li&gt;Fistula recurrence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Among women with Crohn&apos;s disease who develop a fistula, the chance of another fistula forming later is high. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care provider. However, in some cases when you call to set up an appointment you may be referred immediately to a doctor who specializes in conditions affecting the female reproductive tract (gynecologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of symptoms you&apos;re experiencing.&lt;/strong&gt; Include any that may seem unrelated to the reason for your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information.&lt;/strong&gt; Include any other conditions for which you&apos;re being treated, all past surgeries, and the names of any medications, vitamins, herbal remedies or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider questions to ask your doctor.&lt;/strong&gt; Make a list, take it with you to your appointment, and make notes as your doctor answers your questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For rectovaginal fistula, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the treatment you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to focus on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you able to have regular bowel movements?&lt;/li&gt;
+	&lt;li&gt;Do you experience uncontrolled loss of stool, also called fecal incontinence?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty with constipation that requires excessive straining?&lt;/li&gt;
+	&lt;li&gt;Have you given birth vaginally? Were there any complications?&lt;/li&gt;
+	&lt;li&gt;Have you ever had pelvic surgery?&lt;/li&gt;
+	&lt;li&gt;Have you ever been treated for a gynecologic cancer?&lt;/li&gt;
+	&lt;li&gt;Have you had pelvic radiation therapy?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions, such as Crohn&apos;s disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can expect a physical exam and certain tests, explained below, depending on your needs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical exam&lt;br /&gt;
+&lt;/strong&gt;Your doctor will perform a physical exam to try to locate the rectovaginal fistula and check for a possible tumor mass, infection or abscess. The doctor&apos;s exam includes inspecting your vagina, anus and the area between them (perineum) with a gloved hand. 
+&lt;/p&gt;
+&lt;p&gt;
+Unless the fistula is very low in the vagina and readily visible, your doctor may use a speculum to see the inside of your vagina. An instrument similar to a speculum, called a proctoscope, may be inserted into your anus and rectum to check for problems. Your doctor may take a sample of tissue for lab analysis (biopsy) during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for identifying fistulas&lt;br /&gt;
+&lt;/strong&gt;Often a fistula isn&apos;t found during the physical exam. Your doctor may recommend other tests, such as those below, to locate and evaluate a rectovaginal fistula. These tests can also help your medical team in planning for surgery. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Contrast tests.&lt;/strong&gt; A vaginogram or a barium enema can help identify a fistula located in the upper rectum. These tests use a contrast material to show either the vagina or the bowel on an X-ray image.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blue dye test.&lt;/strong&gt; This test involves placing a tampon into your vagina, then injecting blue dye into your rectum. Blue staining on the tampon shows the presence of a fistula.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan of your abdomen and pelvis provides more detail than a standard X-ray does. The CT scan can help locate a fistula and determine its cause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This test creates images of soft tissues in your body. MRI can show the location of a fistula, as well as involvement of pelvic organs or the presence of a tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anorectal ultrasound.&lt;/strong&gt; This procedure uses sound waves to produce a video image of your anus and rectum. Your doctor inserts a narrow, wand-like instrument into your anus and rectum. Anorectal ultrasound can evaluate the structure of your anal sphincter and may show injury caused during childbirth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anorectal manometry.&lt;/strong&gt; This test measures the sensitivity and function of your rectum and can provide useful information about your rectal sphincter and your ability to control stool passage. This test does not locate fistulas, but it can help in planning to repair the fistula.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other tests.&lt;/strong&gt; If your doctor suspects you have inflammatory bowel disease, he or she may order a colonoscopy to view your colon. During the procedure, your doctor can take small samples of tissue (biopsy) for lab analysis, which can help confirm the diagnosis of Crohn&apos;s disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of a rectovaginal fistula can be very distressing, but treatment generally offers good results. Treatment for the fistula depends on its cause, size, location and effect on surrounding tissues.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Depending on your circumstances, your doctor may recommend medications. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If the area around your fistula is infected, you&apos;ll be given a course of antibiotics before surgery. Antibiotics may also be recommended for women with Crohn&apos;s disease who develop a fistula.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infliximab.&lt;/strong&gt; Another medication that may help heal a fistula in women with Crohn&apos;s disease is infliximab (Remicade), which can help reduce inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Sometimes fistulas heal on their own, but most people need surgery to close or repair the abnormal connection. Before an operation can be done, the skin and other tissue around the fistula must be healthy, with no signs of infection or inflammation. Your doctor may advise a waiting period of three to six months before surgery to ensure the surrounding tissue is healthy and see if the fistula closes on its own.
+&lt;/p&gt;
+&lt;p&gt;
+Surgery to close a fistula may be done by a gynecologic or colorectal surgeon. The goal is to remove the fistula tract and close the opening by sewing together healthy tissue. Surgical options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sewing an anal fistula plug or patch of biologic tissue into the fistula to allow your tissue to grow into the patch and heal the fistula.&lt;/li&gt;
+	&lt;li&gt;Using a tissue graft taken from a nearby part of your body or folding a flap of healthy tissue over the fistula opening.&lt;/li&gt;
+	&lt;li&gt;Doing more complicated surgical repair if the anal sphincter muscles also are damaged or if there&apos;s scarring or tissue damage from radiation or Crohn&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;Performing a colostomy before repairing a fistula in more complex or recurrent cases to divert stool through an opening in your abdomen instead of through your rectum. This may be needed if you&apos;ve had tissue damage or scarring from previous surgery or radiation treatment, an ongoing infection or significant fecal contamination, a cancerous tumor, or an abscess. If a colostomy is needed, your surgeon may wait eight to 12 weeks before repairing the fistula. Usually after about three to six months and confirmation that your fistula has healed, the colostomy can be reversed and normal bowel function is restored.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Good hygiene can help ease discomfort and reduce the chance of vaginal or urinary tract infections while waiting for repair. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash with water.&lt;/strong&gt; Gently wash your outer genital area with warm water each time you experience vaginal discharge or passage of stool. A shower is a good option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; Soap can dry and irritate your skin, but a gentle unscented soap may be necessary in moderation. Avoid harsh or scented soap and scented tampons and pads. Vaginal douches can increase your chance of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry thoroughly.&lt;/strong&gt; Allow the area to air-dry after washing, or gently pat the area dry with toilet paper or a clean washcloth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid rubbing with dry toilet paper.&lt;/strong&gt; Pre-moistened, alcohol-free, unscented towelettes or wipes or moistened cotton balls may be a good alternative for cleaning the area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a cold compress.&lt;/strong&gt; Apply a cold compress, such as a washcloth, to the folds at the opening of the vagina (labia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a cream or powder.&lt;/strong&gt; Moisture-barrier creams help keep irritated skin from having direct contact with liquid or stool. Nonmedicated talcum powder or cornstarch also may help relieve discomfort. Ask your doctor to recommend a product. Be sure the area is clean and dry before you apply any cream or powder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear cotton underwear and loose clothing.&lt;/strong&gt; Tight clothing can restrict airflow, making skin problems worse. Change soiled underwear quickly. Products such as absorbent pads, disposable underwear or adult diapers can help if you&apos;re passing liquid or stool, but be sure they have an absorbent wicking layer on top.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For best results, be sure to follow any other recommendations from your health care team. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rectovaginal fistula
+	</Title>
+	<Abstract>
+		Rectovaginal fistula &amp;mdash; Comprehensive overview explains treatment of this complication due to childbirth, Crohn&apos;s disease, cancer or other causes.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS00070" LinkType="Internal" ObjectID="82C205AC-1DE9-41F7-AE8F092447A0648A" Title="Diverticulitis" Url="http://www.mayoclinic.com/health/diverticulitis/DS00070" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

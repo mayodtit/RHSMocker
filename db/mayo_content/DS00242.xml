@@ -1,0 +1,401 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00242
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peptic-ulcer/DS00242
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-06
+		</UpdateDate>
+		<PublicationDate>
+			2000-02-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="2981" Title="Peptic ulcer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F16A6FF2-4069-4473-B642BD6F4AE669C0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peptic ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				Helicobacter pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				duodenal ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				esophageal ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach pain
+			</MetaKeyword>
+			<MetaKeyword>
+				H. pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				Hpylori
+			</MetaKeyword>
+			<MetaKeyword>
+				ulcer symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				ulser
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peptic ulcers are open sores that develop on the inside lining of your esophagus, stomach and the upper portion of your small intestine. The most common symptom of a peptic ulcer is abdominal pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Peptic ulcers that occur on the inside of the stomach are called gastric ulcers. Peptic ulcers that occur inside the hollow tube (esophagus) where food travels from your throat to your stomach are called esophageal ulcers. Peptic ulcers that affect the inside of the upper portion of your small intestine (duodenum) are called duodenal ulcers. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a myth that spicy foods or a stressful job can cause peptic ulcers. Doctors now know that a bacterial infection or some medications &amp;mdash; not stress or diet &amp;mdash; cause most peptic ulcers. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ulcers 
+" Caption="A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the first part of the small intestine (duodenum). An esophageal ulcer occurs in the lower part of your esophagus. 
+" Height="60" Title="Ulcers" URI="/images/image_popup/thumbs/r7_ulcersthhu.jpg" Width="60" />
+				<Image Alt="Illustration showing ulcers 
+" Caption="A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the first part of the small intestine (duodenum). An esophageal ulcer occurs in the lower part of your esophagus. 
+" Height="300" Title="Ulcers" URI="/images/image_popup/r7_ulcers.jpg" Width="400" />
+				<HTML>
+					A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Pain is the most common symptom&lt;/strong&gt; &lt;br /&gt;
+Burning pain is the most common peptic ulcer symptom. The pain is caused by the ulcer and is aggravated by stomach acid coming in contact with the ulcerated area. The pain typically may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be felt anywhere from your navel up to your breastbone&lt;/li&gt;
+	&lt;li&gt;Be worse when your stomach is empty&lt;/li&gt;
+	&lt;li&gt;Flare at night&lt;/li&gt;
+	&lt;li&gt;Often be temporarily relieved by eating certain foods that buffer stomach acid or by taking an acid-reducing medication&lt;/li&gt;
+	&lt;li&gt;Disappear and then return for a few days or weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other signs and symptoms &lt;br /&gt;
+&lt;/strong&gt;Less often, ulcers may cause severe signs or symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The vomiting of blood &amp;mdash; which may appear red or black&lt;/li&gt;
+	&lt;li&gt;Dark blood in stools or stools that are black or tarry&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Appetite changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;br /&gt;
+&lt;/strong&gt;See your doctor if you have persistent signs and symptoms that worry you. Over-the-counter antacids and acid blockers may relieve the gnawing pain, but the relief is short-lived. If your pain persists, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peptic ulcers occur when acid in the digestive tract eats away at the inner surface of the esophagus, stomach or small intestine. The acid can create a painful open sore that may bleed. 
+&lt;/p&gt;
+&lt;p&gt;
+Your digestive tract is coated with a mucous layer that normally protects against acid. But if the amount of acid is increased or the amount of mucus is decreased, you could develop an ulcer. Causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A bacterium.&lt;/strong&gt; A common cause of ulcers is the corkscrew-shaped bacterium Helicobacter pylori. H. pylori bacteria commonly live and multiply within the mucous layer that covers and protects tissues that line the stomach and small intestine. Often, H. pylori causes no problems. But sometimes it can disrupt the mucous layer and inflame the lining of your stomach or duodenum, producing an ulcer. It&apos;s not clear how H. pylori spreads. It may be transmitted from person to person by close contact, such as kissing. People may also contract H. pylori through food and water. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Regular use of pain relievers.&lt;/strong&gt; Certain over-the-counter and prescription pain medications can irritate or inflame the lining of your stomach and small intestine. These medications include aspirin, ibuprofen (Advil, Motrin, others), naproxen (Aleve, Anaprox, others), ketoprofen and others. Peptic ulcers are more common in older adults who take pain medications frequently, such as might be common in people with osteoarthritis. To help avoid digestive upset, take pain relievers with meals. If you have been diagnosed with an ulcer, make sure your doctor knows this when prescribing any pain reliever. The pain reliever acetaminophen (Tylenol, others) doesn&apos;t cause peptic ulcers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications.&lt;/strong&gt; Other prescription medications that can also lead to ulcers include medications used to treat osteoporosis called bisphosphonates (Actonel, Fosamax, others).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ulcers 
+" Caption="A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the first part of the small intestine (duodenum). An esophageal ulcer occurs in the lower part of your esophagus. 
+" Height="60" Title="Ulcers" URI="/images/image_popup/thumbs/r7_ulcersthhu.jpg" Width="60" />
+				<Image Alt="Illustration showing ulcers 
+" Caption="A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the first part of the small intestine (duodenum). An esophageal ulcer occurs in the lower part of your esophagus. 
+" Height="300" Title="Ulcers" URI="/images/image_popup/r7_ulcers.jpg" Width="400" />
+				<HTML>
+					A peptic ulcer is a sore on the lining of your stomach, small intestine or esophagus. A peptic ulcer in the stomach is called a gastric ulcer. A duodenal ulcer is a peptic ulcer that develops in the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have an increased risk of peptic ulcers if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Smoke.&lt;/strong&gt; Smoking may increase the risk of peptic ulcers in people who are infected with H. pylori.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol.&lt;/strong&gt; Alcohol can irritate and erode the mucous lining of your stomach, and it increases the amount of stomach acid that&apos;s produced.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have uncontrolled stress.&lt;/strong&gt; Although stress alone isn&apos;t a cause of peptic ulcers, it&apos;s a contributing factor. You may undergo stress for a number of reasons &amp;mdash; an emotionally disturbing circumstance or event, surgery, or a physical trauma, such as a burn or other severe injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, peptic ulcers can result in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Internal bleeding.&lt;/strong&gt; Bleeding can occur as slow blood loss that leads to anemia or as severe blood loss that may require hospitalization or a blood transfusion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Peptic ulcers can eat a hole through the wall of your stomach or small intestine, putting you at risk of serious infection of your abdominal cavity (peritonitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scar tissue.&lt;/strong&gt; Peptic ulcers can also produce scar tissue that can block passage of food through the digestive tract, causing you to become full easily, to vomit and to lose weight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or a general practitioner if you have any signs or symptoms that worry you. If you&apos;re thought to have a peptic ulcer, you may be referred to a doctor who specializes in the digestive system (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what you can expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. Certain medications can affect peptic ulcer tests, so your doctor may want you to stop taking them, and he or she may be able to suggest alternatives to these drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. It&apos;s also a good idea to keep written track of your symptoms as well as the food you&apos;re eating. People with peptic ulcers often experience more symptoms when their stomachs are empty.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any other medical problems, past surgeries, major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including over-the-counter medications, as well as any vitamins or supplements, that you&apos;re taking. It&apos;s especially important to note any pain reliever use and the usual dose that you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time will help you make the most of your limited time with your doctor. List your questions from most important to least important in case time runs out. For peptic ulcers, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need, and how do I need to prepare for them?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend? How quickly will I start to feel better?&lt;/li&gt;
+	&lt;li&gt;What if my symptoms don&apos;t improve?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic or over-the-counter alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What caused me to develop this ulcer?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to cover. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or intermittent?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse when you&apos;re hungry?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you take pain relievers or aspirin? If yes, how often?&lt;/li&gt;
+	&lt;li&gt;Do you feel nauseated or have you been vomiting?&lt;/li&gt;
+	&lt;li&gt;Have you ever vomited blood or black material?&lt;/li&gt;
+	&lt;li&gt;Have you noticed blood in your stool or black stools?&lt;/li&gt;
+	&lt;li&gt;What, if anything, have you been taking to relieve your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you&apos;re waiting to see your doctor, avoiding smoking, alcohol, spicy foods and stress may help lessen your discomfort. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In order to detect an ulcer, you may have to undergo diagnostic tests, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tests for H. pylori.&lt;/strong&gt; Your doctor may recommend tests to determine whether the bacterium H. pylori is present in your body. Which type of test you undergo depends on your situation. H. pylori may be detected in a blood test, a stool test or a breath test. For the breath test, you drink a small glass of clear, tasteless liquid that contains radioactive carbon. H. pylori breaks down the substance in your stomach. Later, you blow into a bag, which is then sealed. If you&apos;re infected with H. pylori, your breath sample will contain the radioactive carbon in the form of carbon dioxide. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine your upper digestive system (endoscopy).&lt;/strong&gt; During endoscopy, your doctor passes a hollow tube equipped with a lens (endoscope) down your throat and into your esophagus, stomach and small intestine. Using the endoscope, your doctor looks for ulcers. If your doctor detects an ulcer, he or she may remove small tissue samples (biopsy) for laboratory examination. A biopsy can also identify the presence of H. pylori in your stomach lining. Your doctor is more likely to recommend endoscopy if you are older, have signs of bleeding, or have experienced recent weight loss or difficulty eating and swallowing. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray of your upper digestive system.&lt;/strong&gt; Sometimes called a barium swallow or upper gastrointestinal series, this series of X-rays creates images of your esophagus, stomach and small intestine. During the X-ray, you swallow a white liquid (containing barium) that coats your digestive tract and makes an ulcer more visible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for peptic ulcers typically involves antibiotics to kill the H. pylori bacterium and other medications to reduce the level of acid in your digestive system to relieve pain and encourage healing. You may take antibiotics for two weeks and acid-reducing medications for about two months. 
+&lt;/p&gt;
+&lt;p&gt;
+If your peptic ulcer isn&apos;t caused by H. pylori, you won&apos;t need antibiotics. Instead, your doctor may recommend treatments for your specific situation. For instance, if pain relievers caused your ulcer, your doctor may recommend a different pain reliever or a different dose. Your doctor may also recommend acid-reducing medications to allow your ulcer to heal. You may take these medications for two months or more. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for peptic ulcer can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic medications to kill H. pylori.&lt;/strong&gt; If H. pylori is found in your digestive tract, your doctor may recommend a combination of antibiotics to kill the bacterium. Antibiotic regimens are different throughout the world. In the United States, antibiotics prescribed for treatment of H. pylori include amoxicillin, clarithromycin (Biaxin), metronidazole (Flagyl) and tetracycline. You&apos;ll likely need to take antibiotics for two weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block acid production and promote healing.&lt;/strong&gt; Proton pump inhibitors reduce acid by blocking the action of the parts of cells that produce acid. These drugs include the prescription and over-the-counter medications omeprazole (Prilosec), lansoprazole (Prevacid), rabeprazole (Aciphex), esomeprazole (Nexium) and pantoprazole (Protonix). Long-term use of proton pump inhibitors, particularly at high doses, may increase your risk of hip, wrist and spine fracture. Ask your doctor whether a calcium supplement may reduce this risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce acid production.&lt;/strong&gt; Acid blockers &amp;mdash; also called histamine (H-2) blockers &amp;mdash; reduce the amount of acid released into your digestive tract, which relieves ulcer pain and encourages healing. Available by prescription or over-the-counter (OTC), acid blockers include the medications ranitidine (Zantac), famotidine (Pepcid), cimetidine (Tagamet) and nizatidine (Axid). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids that neutralize stomach acid.&lt;/strong&gt; Your doctor may include an antacid in your drug regimen. Antacids neutralize existing stomach acid and can provide rapid pain relief. Side effects can include constipation or diarrhea, depending on the main ingredients. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that protect the lining of your stomach and small intestine.&lt;/strong&gt; In some cases, your doctor may prescribe medications called cytoprotective agents that help protect the tissues that line your stomach and small intestine. They include the prescription medications sucralfate (Carafate) and misoprostol (Cytotec). Another nonprescription cytoprotective agent is bismuth subsalicylate (Pepto-Bismol).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up after initial treatment&lt;/strong&gt; &lt;br /&gt;
+Treatment for peptic ulcers is often successful, leading to ulcer healing. But if your symptoms are severe or if they continue despite treatment, your doctor may recommend endoscopy to rule out other possible causes for your symptoms. If an ulcer is detected during endoscopy, your doctor may recommend another endoscopy after your treatment to make sure your ulcer has healed. Ask your doctor whether you should undergo follow-up tests after your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ulcers that fail to heal&lt;/strong&gt; &lt;br /&gt;
+Peptic ulcers that don&apos;t heal with treatment are called refractory ulcers. There are many reasons why an ulcer may fail to heal. These reasons may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Not taking medications according to directions.&lt;/li&gt;
+	&lt;li&gt;The fact that some types of H. pylori are resistant to antibiotics.&lt;/li&gt;
+	&lt;li&gt;Regular use of tobacco.&lt;/li&gt;
+	&lt;li&gt;Regular use of pain relievers that increase the risk of ulcers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less often, refractory ulcers may be a result of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme overproduction of stomach acid, such as occurs in Zollinger-Ellison syndrome&lt;/li&gt;
+	&lt;li&gt;An infection other than H. pylori&lt;/li&gt;
+	&lt;li&gt;Stomach cancer&lt;/li&gt;
+	&lt;li&gt;Other diseases that may cause ulcer-like sores in the stomach and small intestine, such as Crohn&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment for refractory ulcers generally involves eliminating factors that may interfere with healing, along with using different antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find relief from the pain of a stomach ulcer if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Choose a healthy diet full of fruits, vegetables and whole grains. Not eating vitamin-rich foods may make it difficult for your body to heal your ulcer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider switching pain relievers.&lt;/strong&gt; If you use pain relievers regularly, ask your doctor whether acetaminophen (Tylenol, others) may be an option for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control stress.&lt;/strong&gt; Stress may worsen the signs and symptoms of a peptic ulcer. Examine your life to determine the sources of your stress and do what you can to address those causes. Some stress is unavoidable, but you can learn to cope with stress with exercise, spending time with friends or writing in a journal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking may interfere with the protective lining of the stomach, making your stomach more susceptible to the development of an ulcer. Smoking also increases stomach acid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit or avoid alcohol.&lt;/strong&gt; Excessive use of alcohol can irritate and erode the mucous lining in your stomach and intestines, causing inflammation and bleeding.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may reduce your risk of peptic ulcer if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect yourself from infections.&lt;/strong&gt; It&apos;s not clear just how H. pylori spreads, but there&apos;s some evidence that it could be transmitted from person to person or through food and water. You can take steps to protect yourself from infections, such as H. pylori, by frequently washing your hands with soap and water and by eating foods that have been cooked completely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution with pain relievers.&lt;/strong&gt; If you regularly use pain relievers that increase your risk of peptic ulcer, take steps to reduce your risk of stomach problems. For instance, take your medication with meals. Work with your doctor to find the lowest dose possible that still gives you pain relief. Avoid drinking alcohol when taking your medication, since the two can combine to increase your risk of stomach upset. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peptic ulcer
+	</Title>
+	<Abstract>
+		Peptic ulcer &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and self-care of this digestive condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="Disease" DocID="DS00958" LinkType="Internal" ObjectID="EFE8F24E-E7FF-0DBD-16E3807063685CFC" Title="H. pylori infection" Url="http://www.mayoclinic.com/health/h-pylori/DS00958" />
+		<LinkItem ContentType="Disease" DocID="DS00396" LinkType="Internal" ObjectID="0487CA33-EE6D-4E87-93CB56C658CA5FB5" Title="Hyperparathyroidism" Url="http://www.mayoclinic.com/health/hyperparathyroidism/DS00396" />
+	</RelatedLinksBox>
+</Disease>

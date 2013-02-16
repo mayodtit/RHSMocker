@@ -1,0 +1,488 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00319
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/celiac-disease/DS00319
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-13
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4677" Title="Small intestine">
+						<Keyword MCVID="2954" Title="Celiac disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0B50B26D-34AE-4F43-843BDA653DDEF6E3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				celiac disease
+			</MetaKeyword>
+			<MetaKeyword>
+				spruegluten
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten-free diet
+			</MetaKeyword>
+			<MetaKeyword>
+				nontropical sprue
+			</MetaKeyword>
+			<MetaKeyword>
+				celiac sprue
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten-sensitive enteropathy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Celiac (SEE-lee-ak) disease is a digestive condition triggered by consumption of the protein gluten, which is primarily found in bread, pasta, cookies, pizza crust and many other foods containing wheat, barley or rye. People with celiac disease who eat foods containing gluten experience an immune reaction in their small intestines, causing damage to the inner surface of the small intestine and an inability to absorb certain nutrients. 
+&lt;/p&gt;
+&lt;p&gt;
+Celiac disease can cause abdominal pain and diarrhea. Eventually, the decreased absorption of nutrients (malabsorption) that occurs with celiac disease can cause vitamin deficiencies that deprive your brain, peripheral nervous system, bones, liver and other organs of vital nourishment. 
+&lt;/p&gt;
+&lt;p&gt;
+No treatment can cure celiac disease. However, you can effectively manage celiac disease by changing your diet. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing celiac disease
+" Caption="Your small intestine is lined with tiny hair-like projections called villi, which work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the villi that leaves your body unable to absorb nutrients necessary for health and growth. 
+" Height="60" Title="Celiac disease" URI="/images/image_popup/thumbs/mcdc7_celiac_diseasethu.jpg" Width="60" />
+				<Image Alt="Illustration showing celiac disease
+" Caption="Your small intestine is lined with tiny hair-like projections called villi, which work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the villi that leaves your body unable to absorb nutrients necessary for health and growth. 
+" Height="518" Title="Celiac disease" URI="/images/image_popup/mcdc7_celiac_disease.jpg" Width="400" />
+				<HTML>
+					Your small intestine is lined with tiny hair-like projections called villi, which work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no typical signs and symptoms of celiac disease. Most people with the disease have general complaints, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Intermittent diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Bloating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes people with celiac disease may have no gastrointestinal symptoms at all. Celiac disease symptoms can also mimic those of other conditions, such as irritable bowel syndrome, gastric ulcers, Crohn&apos;s disease, parasite infections and anemia. 
+&lt;/p&gt;
+&lt;p&gt;
+Celiac disease may also present itself in less obvious ways, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irritability or depression&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+	&lt;li&gt;Stomach upset&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Muscle cramps&lt;/li&gt;
+	&lt;li&gt;Skin rash&lt;/li&gt;
+	&lt;li&gt;Mouth sores&lt;/li&gt;
+	&lt;li&gt;Dental and bone disorders (such as osteoporosis)&lt;/li&gt;
+	&lt;li&gt;Tingling in the legs and feet (neuropathy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some indications of malabsorption of nutrients that may result from celiac disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps, gas and bloating&lt;/li&gt;
+	&lt;li&gt;General weakness and fatigue&lt;/li&gt;
+	&lt;li&gt;Foul-smelling or grayish stools that may be fatty or oily&lt;/li&gt;
+	&lt;li&gt;Stunted growth (in children)&lt;/li&gt;
+	&lt;li&gt;Osteoporosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Another gluten-related condition&lt;/strong&gt; &lt;br /&gt;
+Dermatitis herpetiformis is an itchy, blistering skin disease that also stems from gluten intolerance. The rash usually occurs on the torso, scalp and buttocks. Dermatitis herpetiformis can cause changes to the lining of the small intestine similar to that of celiac disease. However, it may not produce noticeable digestive symptoms. This disease is treated with a gluten-free diet, in addition to medication to control the rash. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. If someone in your family has celiac disease, ask your doctor whether you may be at risk of the disease. Your doctor may recommend testing, because celiac disease tends to run in families. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek medical attention for a child who is pale, irritable and fails to grow, and who has a potbelly and foul-smelling, bulky stools. Other conditions can cause these same signs and symptoms, so discuss it with your child&apos;s doctor before trying a gluten-free diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes celiac disease, which is also known as celiac sprue, nontropical sprue and gluten-sensitive enteropathy. Doctors know that something happens in people with celiac disease to cause the body&apos;s immune system to overreact in response to gluten in food. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your small intestine is lined with tiny, hair-like projections called villi. Resembling the deep pile of a plush carpet on a microscopic scale, villi work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the villi. Without prominent villi, the inner surface of the small intestine becomes less like a plush carpet and more like a tile floor, and your body is unable to absorb nutrients necessary for health and growth. Instead, nutrients such as fat, protein, vitamins and minerals are eliminated with your stool. 
+&lt;/p&gt;
+&lt;p&gt;
+While the exact cause of celiac disease is unknown, doctors have discovered that it often runs in families. If someone in your family has been diagnosed with celiac disease, you may have an increased risk of the disease. Researchers have discovered that some gene mutations seem to increase the risk of celiac disease, but having those gene mutations doesn&apos;t mean you&apos;re certain to have celiac disease. This means that other risk factors play a role in whether you&apos;ll develop celiac disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing celiac disease
+" Caption="Your small intestine is lined with tiny hair-like projections called villi, which work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the villi that leaves your body unable to absorb nutrients necessary for health and growth. 
+" Height="60" Title="Celiac disease" URI="/images/image_popup/thumbs/mcdc7_celiac_diseasethu.jpg" Width="60" />
+				<Image Alt="Illustration showing celiac disease
+" Caption="Your small intestine is lined with tiny hair-like projections called villi, which work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the villi that leaves your body unable to absorb nutrients necessary for health and growth. 
+" Height="518" Title="Celiac disease" URI="/images/image_popup/mcdc7_celiac_disease.jpg" Width="400" />
+				<HTML>
+					Your small intestine is lined with tiny hair-like projections called villi, which work to absorb vitamins, minerals and other nutrients from the food you eat. Celiac disease results in damage to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although celiac disease can affect anyone, it tends to be more common in people who have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Type 1 diabetes&lt;/li&gt;
+	&lt;li&gt;Autoimmune thyroid disease&lt;/li&gt;
+	&lt;li&gt;Down syndrome&lt;/li&gt;
+	&lt;li&gt;Microscopic colitis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, celiac disease can lead to several complications:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Malnutrition.&lt;/strong&gt; Untreated celiac disease can lead to malabsorption, which in turn can lead to malnutrition. This occurs in spite of what appears to be an adequate diet. Because vital nutrients are lost in the stool rather than absorbed in the bloodstream, malabsorption can cause a deficiency in vitamins and minerals, vitamin D, folate and iron, resulting in anemia and weight loss. Malnutrition can cause stunted growth and delayed development in children. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of calcium and bone density.&lt;/strong&gt; With continued loss of fat in the stool, calcium and vitamin D may be lost in excessive amounts. This may result in osteomalacia, a softening of the bone that in children is also known as rickets, and loss of bone density (osteoporosis), a condition that leaves your bones fragile and prone to fracture. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lactose intolerance.&lt;/strong&gt; Because of damage to your small intestine from gluten, foods that don&apos;t contain gluten also may cause abdominal pain and diarrhea. Some people with celiac disease aren&apos;t able to tolerate milk sugar (lactose) found in dairy products, a condition called lactose intolerance. If this is the case, you need to limit food and beverages containing lactose as well as those containing gluten. Once your intestine has healed, you may be able to tolerate dairy products again. However, some people may continue to experience lactose intolerance despite successful management of celiac disease. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; People with celiac disease who don&apos;t maintain a gluten-free diet also have a greater chance of getting one of several forms of cancer, including intestinal lymphoma and bowel cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological complications. &lt;/strong&gt;Celiac disease has also been associated with disorders of the nervous system, including seizures and nerve damage (peripheral neuropathy). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or general practitioner if you have signs or symptoms that worry you. If you&apos;re thought to have celiac disease, you may be referred to a doctor who treats diseases of the digestive tract (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance to prepare for any potential tests. One thing you won&apos;t want to do is to restrict your diet. If you stop eating foods that contain gluten prior to getting tested for celiac disease, you may alter the test results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For celiac disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do I need to do any special preparation for these tests?&lt;/li&gt;
+	&lt;li&gt;Are blood tests enough or do I need an endoscopy?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;How do I treat celiac disease?&lt;/li&gt;
+	&lt;li&gt;Are there any other types of treatments available?&lt;/li&gt;
+	&lt;li&gt;How will I learn which foods contain gluten? Should I see a nutritionist?&lt;/li&gt;
+	&lt;li&gt;What foods can I eat?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;If I have celiac disease, will you also test for other conditions such as osteoporosis, diabetes, thyroid problems or microscopic colitis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms? Does avoiding certain foods make you feel better?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms? Does eating certain foods make you feel worse?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have celiac disease?&lt;/li&gt;
+	&lt;li&gt;Do you have an autoimmune disease?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have an autoimmune disease?&lt;/li&gt;
+	&lt;li&gt;Have you ever had surgery on your abdomen?&lt;/li&gt;
+	&lt;li&gt;Have you ever had pancreas problems, such as pancreatitis?&lt;/li&gt;
+	&lt;li&gt;Have you had any blistering or itchy skin rashes with your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been told you have anemia and been given iron therapy?&lt;/li&gt;
+	&lt;li&gt;Do you have osteoporosis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose celiac disease include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests can detect higher than normal levels of certain antibodies (anti-endomysium and anti-tissue transglutaminase) in people with celiac disease. Antibodies are specialized proteins that are part of your immune system and work to eliminate foreign substances in your body. In people with celiac disease, their immune systems may be recognizing gluten as a foreign substance and producing elevated levels of antibodies to get rid of it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collecting a sample of small intestine for testing.&lt;/strong&gt; To confirm the diagnosis, your doctor may want to examine a small portion of intestinal tissue to check for damage to the villi. To do this, your doctor inserts a thin, flexible tube (endoscope) through your mouth, esophagus and stomach into your small intestine and takes a sample of intestinal tissue to examine under a microscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowing a camera pill that collects pictures of the small intestine.&lt;/strong&gt; In some cases your doctor may want to examine the entire small intestine with a capsule endoscopy. This procedure involves swallowing a pill-sized capsule that contains a tiny camera. As the camera travels through your digestive tract, it takes thousands of images and sends them to a recorder you wear on a belt. Your doctor reviews the pictures to see the inside of your small intestine. The capsule leaves your body in your stool and can be flushed down the toilet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people try a gluten-free diet on their own, to see if that helps relieve their signs and symptoms. But doing so may change the results of blood tests so that they appear to be normal. So see your doctor for testing first, before you try a gluten-free diet. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="&amp;nbsp;Illustration of a capsule endoscopy camera
+" Caption="During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images and an antenna that sends those images to a recorder you carry with you.
+" Height="60" Title="Capsule endoscopy camera" URI="/images/image_popup/thumbs/mcdc7_capsuleendoscopythu.jpg" Width="60" />
+				<Image Alt="&amp;nbsp;Illustration of a capsule endoscopy camera
+" Caption="During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images and an antenna that sends those images to a recorder you carry with you.
+" Height="420" Title="Capsule endoscopy camera" URI="/images/image_popup/mcdc7_capsule_endoscopy.jpg" Width="400" />
+				<HTML>
+					During a capsule endoscopy procedure, you swallow a tiny camera that&apos;s about the size of a large vitamin pill. The capsule contains lights to illuminate your digestive system, a camera to take images ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Celiac disease has no cure, but you can effectively manage the disease through changing your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Changes to your diet to avoid gluten&lt;/strong&gt; &lt;br /&gt;
+To manage the disease and prevent complications, it&apos;s crucial that you avoid all foods that contain gluten, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Barley&lt;/li&gt;
+	&lt;li&gt;Bulgur&lt;/li&gt;
+	&lt;li&gt;Durum&lt;/li&gt;
+	&lt;li&gt;Farina&lt;/li&gt;
+	&lt;li&gt;Graham flour&lt;/li&gt;
+	&lt;li&gt;Rye&lt;/li&gt;
+	&lt;li&gt;Semolina&lt;/li&gt;
+	&lt;li&gt;Spelt (a form of wheat)&lt;/li&gt;
+	&lt;li&gt;Triticale&lt;/li&gt;
+	&lt;li&gt;Wheat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may refer you to a dietitian, who can help you plan a healthy gluten-free diet. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;ve removed gluten from your diet, inflammation in your small intestine will begin to subside, usually within several weeks, though you may start to feel better in just a few days. Complete healing and regrowth of the villi may take several months, or as long as two to three years. Healing in the small intestine tends to occur more quickly in children than it does in adults. 
+&lt;/p&gt;
+&lt;p&gt;
+If you accidentally eat a product that contains gluten, you may experience abdominal pain and diarrhea. Some people experience no signs or symptoms after eating gluten, but this doesn&apos;t mean it&apos;s not harmful. Even trace amounts of gluten in your diet can be damaging, whether or not they cause signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vitamin supplements to combat malnutrition &lt;br /&gt;
+&lt;/strong&gt;If your nutritional deficiencies are severe, you may need to take vitamin and mineral supplements recommended by your doctor or dietitian to help correct these deficiencies. Your doctor may recommend supplements to increase your levels of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Calcium&lt;/li&gt;
+	&lt;li&gt;Folate&lt;/li&gt;
+	&lt;li&gt;Iron&lt;/li&gt;
+	&lt;li&gt;Vitamin B-12&lt;/li&gt;
+	&lt;li&gt;Vitamin D&lt;/li&gt;
+	&lt;li&gt;Vitamin K&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Vitamin supplements can be taken in pill form. But in some situations, your digestive tract may have trouble absorbing vitamins. In these cases, your doctor may give the vitamins by injection. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications to control intestinal inflammation &lt;br /&gt;
+In cases of severe inflammation in the small intestine, your doctor may recommend medications called steroids to control inflammation. Steroids may be used to give you relief from severe signs and symptoms until the effects of a gluten-free diet begin to become apparent. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with celiac disease, you&apos;ll need to avoid all foods that contain gluten. Ask your doctor for a referral to a dietitian, who can help you plan a healthy gluten-free diet. Here&apos;s an overview of foods that contain gluten and gluten-free foods that are safe to eat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Always avoid&lt;/strong&gt; &lt;br /&gt;
+In order to avoid eating gluten, avoid food and drinks containing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Barley&lt;/li&gt;
+	&lt;li&gt;Bulgur&lt;/li&gt;
+	&lt;li&gt;Durum&lt;/li&gt;
+	&lt;li&gt;Farina&lt;/li&gt;
+	&lt;li&gt;Graham flour&lt;/li&gt;
+	&lt;li&gt;Rye&lt;/li&gt;
+	&lt;li&gt;Semolina&lt;/li&gt;
+	&lt;li&gt;Spelt (a form of wheat)&lt;/li&gt;
+	&lt;li&gt;Triticale&lt;/li&gt;
+	&lt;li&gt;Wheat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoid unless labeled &apos;gluten-free&apos;&lt;/strong&gt; &lt;br /&gt;
+Avoid these foods unless they&apos;re labeled as gluten-free or made with corn, rice, soy or other gluten-free grain. Also check the label to see that they&apos;re processed in a facility that is free of wheat or other contaminating products: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Beers&lt;/li&gt;
+	&lt;li&gt;Breads&lt;/li&gt;
+	&lt;li&gt;Cakes and pies&lt;/li&gt;
+	&lt;li&gt;Candies&lt;/li&gt;
+	&lt;li&gt;Cereals&lt;/li&gt;
+	&lt;li&gt;Cookies&lt;/li&gt;
+	&lt;li&gt;Crackers&lt;/li&gt;
+	&lt;li&gt;Croutons&lt;/li&gt;
+	&lt;li&gt;Gravies&lt;/li&gt;
+	&lt;li&gt;Imitation meats or seafood&lt;/li&gt;
+	&lt;li&gt;Oats&lt;/li&gt;
+	&lt;li&gt;Pastas&lt;/li&gt;
+	&lt;li&gt;Processed luncheon meats&lt;/li&gt;
+	&lt;li&gt;Salad dressings&lt;/li&gt;
+	&lt;li&gt;Sauces (including soy sauce)&lt;/li&gt;
+	&lt;li&gt;Self-basting poultry&lt;/li&gt;
+	&lt;li&gt;Soups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain grains, such as oats, can be contaminated with wheat during growing and processing stages of production. It&apos;s not clear whether oats are harmful for most people with celiac disease, but doctors generally recommend avoiding oats unless they are specifically labeled gluten-free. The question of whether people eating a gluten-free diet can consume pure oat products remains a subject of scientific debate. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allowed foods&lt;/strong&gt; &lt;br /&gt;
+There are still many basic foods allowed in a gluten-free diet. With all foods, check the label to see that each is labeled gluten-free or call the manufacturer to double-check. 
+&lt;/p&gt;
+&lt;p&gt;
+Grains and starches allowed in a gluten-free diet include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Amaranth&lt;/li&gt;
+	&lt;li&gt;Arrowroot&lt;/li&gt;
+	&lt;li&gt;Buckwheat&lt;/li&gt;
+	&lt;li&gt;Corn&lt;/li&gt;
+	&lt;li&gt;Cornmeal&lt;/li&gt;
+	&lt;li&gt;Gluten-free flours (rice, soy, corn, potato, bean)&lt;/li&gt;
+	&lt;li&gt;Pure corn tortillas&lt;/li&gt;
+	&lt;li&gt;Quinoa&lt;/li&gt;
+	&lt;li&gt;Rice&lt;/li&gt;
+	&lt;li&gt;Tapioca&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other gluten-free foods include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fresh meats, fish and poultry (not breaded, batter-coated or marinated)&lt;/li&gt;
+	&lt;li&gt;Fruits&lt;/li&gt;
+	&lt;li&gt;Most dairy products&lt;/li&gt;
+	&lt;li&gt;Potatoes&lt;/li&gt;
+	&lt;li&gt;Rice&lt;/li&gt;
+	&lt;li&gt;Vegetables&lt;/li&gt;
+	&lt;li&gt;Wine and distilled liquors, ciders and spirits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Fortunately for bread and pasta lovers with celiac disease, there are an increasing number of gluten-free products on the market. If you can&apos;t find any at your local bakery or grocery store, check with a celiac support group or the Internet for availability. In fact, there are gluten-free substitutes for many gluten-containing foods. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with celiac disease can be difficult. Every day can be a challenge. Over time, however, managing your disease will become second nature. In the meantime, these suggestions may help you manage more easily: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gather information about celiac disease.&lt;/strong&gt; Talk to your doctor, look for information on the Internet, and read books and pamphlets. Ask your doctor for advice about reliable resources. Find cookbooks featuring gluten-free ingredients. Being informed about your condition can help you take better charge of it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out others with celiac disease.&lt;/strong&gt; Talking to people who know what you&apos;re going through can be reassuring and informative. Your doctor may be able to refer you to a celiac disease support group in your community, or you may find one listed on the Internet or in your local paper.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t hesitate to seek guidance.&lt;/strong&gt; If you&apos;re having difficulty coming up with suitable menus, talk to a registered dietitian. A dietitian has extensive knowledge of the nutritional aspects of food and what you can and can&apos;t eat. He or she can help you think in more creative ways about your favorite foods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Celiac disease
+	</Title>
+	<Abstract>
+		Celiac disease &amp;mdash; Comprehensive overview covers symptoms, treatment of this digestive condition affecting children, adults.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00139" LinkType="Internal" ObjectID="DF5B6DD3-E7FF-0DBD-18A888DA7E767449" Title="Capsule endoscopy" Url="http://www.mayoclinic.com/health/capsule-endoscopy/MY00139" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+		<LinkItem ContentType="Answer" DocID="AN00303" LinkType="Internal" ObjectID="AF6D337A-133D-45D2-93D11B9299FFBE3A" Title="Celiac disease diet: How do I get enough grains?" Url="http://www.mayoclinic.com/health/celiac-disease/AN00303" />
+		<LinkItem ContentType="Answer" DocID="AN01623" LinkType="Internal" ObjectID="2AABF549-E7FF-0DBD-1EF444B33AACC738" Title="Celiac disease: Can gluten be absorbed through the skin?" Url="http://www.mayoclinic.com/health/celiac-disease/AN01623" />
+		<LinkItem ContentType="Disease" DocID="DS00824" LinkType="Internal" ObjectID="EC27D066-E7FF-0DBD-1AB8980523A25E16" Title="Microscopic colitis" Url="http://www.mayoclinic.com/health/microscopic-colitis/DS00824" />
+	</RelatedLinksBox>
+</Disease>

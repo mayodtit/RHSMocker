@@ -1,0 +1,461 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00177
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bladder-cancer/DS00177
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-19
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3098" Title="Bladder cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0310B0B3-9172-43A2-80019DC5BACB347D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bladder cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				transitional cell carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				transitional cell cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bladder cancer is a type of cancer that begins in your bladder &amp;mdash; a balloon-shaped organ in your pelvic area that stores urine. Bladder cancer begins most often in the cells that line the inside of the bladder. Bladder cancer typically affects older adults, though it can occur at any age. 
+&lt;/p&gt;
+&lt;p&gt;
+The great majority of bladder cancers are diagnosed at an early stage &amp;mdash; when bladder cancer is highly treatable. However, even early-stage bladder cancer is likely to recur. For this reason, bladder cancer survivors often undergo follow-up tests to look for bladder cancer recurrence for years after treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bladder cancer signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood in urine (hematuria) &amp;mdash; urine may appear dark yellow, bright red or cola colored. Or urine may appear normal, but blood may be detected in a microscopic examination of the urine&lt;/li&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Back pain&lt;/li&gt;
+	&lt;li&gt;Pelvic pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you, such as blood in your urine. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not always clear what causes bladder cancer. Bladder cancer has been linked to smoking, a parasitic infection, radiation and chemical exposure. 
+&lt;/p&gt;
+&lt;p&gt;
+Bladder cancer develops when cells in the bladder begin to grow abnormally. Rather than grow and divide in an orderly way, these cells develop mutations that cause them to grow out of control and not die. These abnormal cells form a tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of bladder cancer&lt;/strong&gt; &lt;br /&gt;
+Different types of cells in your bladder can become cancerous. The type of bladder cell where cancer begins determines the type of bladder cancer. Your bladder cancer type determines which treatments may work best for you. Types of bladder cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Transitional cell carcinoma.&lt;/strong&gt; Transitional cell carcinoma occurs in the cells that line the inside of your bladder. Transitional cells expand when your bladder is full and contract when your bladder is empty. These same cells line the inside of your ureters and your urethra, and tumors can form in those places as well. Transitional cell carcinoma is the most common type of bladder cancer in the United States.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Squamous cell carcinoma.&lt;/strong&gt; Squamous cells appear in your bladder in response to infection and irritation. Over time they can become cancerous. Squamous cell bladder cancer is rare in the United States. It&apos;s more common in parts of the world where a certain parasitic infection (schistosomiasis) is a prevalent cause of bladder infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adenocarcinoma.&lt;/strong&gt; Adenocarcinoma begins in cells that make up mucus-secreting glands in the bladder. Adenocarcinoma of the bladder is rare in the United States.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some bladder cancers include more than one type of cell. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of bladder cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking cigarettes, cigars or pipes may increase your risk of bladder cancer by causing harmful chemicals to accumulate in your urine. When you smoke, your body processes the chemicals in the smoke and excretes some of them in your urine. These harmful chemicals may damage the lining of your bladder, which can increase your risk of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; Your risk of bladder cancer increases as you age. Bladder cancer can occur at any age, but it&apos;s rarely found in people younger than 40. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being white.&lt;/strong&gt; Whites have a greater risk of bladder cancer than do people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being a man.&lt;/strong&gt; Men are more likely to develop bladder cancer than women are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain chemicals.&lt;/strong&gt; Your kidneys play a key role in filtering harmful chemicals from your bloodstream and moving them into your bladder. Because of this, it&apos;s thought that being around certain chemicals may increase your risk of bladder cancer. Chemicals linked to bladder cancer risk include arsenic and chemicals used in the manufacture of dyes, rubber, leather, textiles and paint products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous cancer treatment.&lt;/strong&gt; Treatment with the anti-cancer drug cyclophosphamide (Cytoxan) increases your risk of bladder cancer. People who received radiation treatments aimed at the pelvis for a previous cancer may have an elevated risk of developing bladder cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking a certain diabetes medication.&lt;/strong&gt; People who take the diabetes medication pioglitazone (Actos) for more than a year may have an increased risk of bladder cancer. Other diabetes medications contain pioglitazone, including pioglitazone and metformin (Actoplus Met) and pioglitazone and glimepiride (Duetact).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic bladder inflammation.&lt;/strong&gt; Chronic or repeated urinary infections or inflammations (cystitis), such as may happen with long-term use of a urinary catheter, may increase your risk of a squamous cell bladder cancer. In some areas of the world, squamous cell carcinoma is linked to chronic bladder inflammation caused by the parasitic infection known as schistosomiasis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Personal or family history of cancer.&lt;/strong&gt; If you&apos;ve had bladder cancer, you&apos;re more likely to get it again. If one or more of your immediate relatives have a history of bladder cancer, you may have an increased risk of the disease, although it&apos;s rare for bladder cancer to run in families. A family history of hereditary nonpolyposis colorectal cancer, also called Lynch syndrome, can increase your risk of cancer in your urinary system, as well as in your colon, uterus, ovaries and other organs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bladder cancer often recurs. Because of this, bladder cancer survivors often undergo follow-up testing for years after successful treatment. What tests you&apos;ll undergo and how often will depend on your type of bladder cancer and your treatment, among other factors. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor to create a follow-up plan for you. In general, doctors recommend a test to examine the inside of your urethra and bladder (cystoscopy) every three to six months for the first few years after bladder cancer treatment. Then you may undergo cystoscopy every year. Your doctor may recommend other tests at various intervals as well. 
+&lt;/p&gt;
+&lt;p&gt;
+People with aggressive cancers may undergo more frequent screening. Those with less aggressive cancers may undergo screening tests less often. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. Your doctor may suggest tests and procedures to investigate your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects you may have bladder cancer, you may be referred to a doctor who specializes in treating diseases and conditions of the urinary tract (urologist). In some cases, you may be referred to other specialists, such as doctors who treat cancer (oncologists). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For bladder cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have bladder cancer?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need any additional tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can any treatments cure my bladder cancer?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing bladder cancer&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose bladder cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cystoscopy.&lt;/strong&gt; During cystoscopy, your doctor inserts a narrow tube (cystoscope) through your urethra. The cystoscope has a lens and fiber-optic lighting system, allowing your doctor to see the inside of your urethra and bladder. You usually receive a local anesthetic during cystoscopy to help make you comfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; During cystoscopy, your doctor may pass a special tool through the scope and into your bladder in order to collect a cell sample (biopsy) for testing. This procedure is sometimes called transurethral resection (TUR). TUR can also be used to treat bladder cancer. TUR is usually performed under general anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine cytology.&lt;/strong&gt; A sample of your urine is analyzed under a microscope to check for cancer cells in a procedure called urine cytology.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests allow your doctor to examine the structures of your urinary tract. Tests to highlight the urinary tract sometimes use a dye, which is injected into a vein before the procedure. An intravenous pyelogram is a type of X-ray imaging test that uses a dye to highlight your kidneys, ureters and bladder. A computerized tomography (CT) scan&lt;strong&gt; &lt;/strong&gt;is a type of X-ray test that allows your doctor to better see your urinary tract and the surrounding tissues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging bladder cancer&lt;/strong&gt; &lt;br /&gt;
+Once it&apos;s confirmed that you have bladder cancer, your doctor may order additional tests to determine the extent (stage) of the cancer.&lt;strong&gt; &lt;/strong&gt;Staging tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;CT scan&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+	&lt;li&gt;Bone scan&lt;/li&gt;
+	&lt;li&gt;Chest X-ray&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bladder cancer stages&lt;/strong&gt; &lt;br /&gt;
+The stages of bladder cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Cancer at this stage occurs in the bladder&apos;s inner lining but hasn&apos;t invaded the muscular bladder wall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; At this stage, cancer has invaded the bladder wall but is still confined to the bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; The cancer cells have spread through the bladder wall to surrounding tissue. They may also have spread to the prostate in men or the uterus or vagina in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; By this stage, cancer cells may have spread to the lymph nodes and other organs, such as your lungs, bones or liver. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Female cystoscopy" URI="/images/image_popup/thumbs/r7_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="339" Title="Female cystoscopy" URI="/images/image_popup/r7_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Male cystoscopy" URI="/images/image_popup/thumbs/r7_flexible_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="394" Title="Male cystoscopy" URI="/images/image_popup/r7_flexible_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options for bladder cancer depend on a number of factors, including the type and stage of the cancer, your overall health, and your treatment preferences. Discuss your options with your doctor to determine what treatments are best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical procedures&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+The types of surgical procedures available to you may be based on factors such as the stage of your bladder cancer, your overall health and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for early-stage bladder cancer&lt;/strong&gt; &lt;br /&gt;
+If your cancer is very small and hasn&apos;t invaded the wall of your bladder, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the tumor.&lt;/strong&gt; Transurethral resection (TUR) is often used to remove bladder cancers that are confined to the inner layers of the bladder. During TUR, your doctor passes a small wire loop through a cystoscope and into your bladder. The loop is used to burn away cancer cells with an electric current. In some cases, a high-energy laser may be used instead of electric current. TUR may cause painful or bloody urination for a few days following the procedure. &lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery to remove the tumor and a small portion of the bladder.&lt;/strong&gt; During segmental cystectomy, sometimes called partial cystectomy, the surgeon removes only the portion of the bladder that contains cancer cells. Segmental cystectomy may be an option if your cancer is limited to one area of the bladder that can easily be removed without harming bladder function.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Surgery carries a risk of bleeding and infection. You may experience more frequent urination after segmental cystectomy, since the operation reduces the size of your bladder. Over time, this may improve. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for invasive bladder cancer&lt;/strong&gt; &lt;br /&gt;
+If your cancer has invaded the deeper layers of the bladder wall, you may consider: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery to remove the entire bladder.&lt;/strong&gt; A radical cystectomy is an operation to remove the entire bladder, as well as surrounding lymph nodes. In men, radical cystectomy typically includes removal of the prostate and seminal vesicles. In women, radical cystectomy involves removal of the uterus, ovaries and part of the vagina.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Cystectomy carries a risk of infection and bleeding. In men, removal of the prostate and seminal vesicles may cause erectile dysfunction. But in many cases, your surgeon can attempt to spare the nerves necessary for an erection. In women, removal of the ovaries causes infertility and premature menopause. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery to create a new way for urine to leave your body.&lt;/strong&gt; Immediately after your radical cystectomy, your surgeon works to create a new way for you to expel urine. Several options exist. Which option is best for you depends on your situation and your preferences. Your surgeon may create a tube (urinary conduit) using a piece of your intestine. The tube runs from your kidneys to the outside of your body, where your urine drains into a pouch (urostomy bag) you wear on your abdomen.
+	&lt;/p&gt;
+	&lt;p&gt;
+	In another procedure, your surgeon may use a section of intestine to create a small reservoir for urine inside your body (cutaneous continent urinary diversion). You can drain urine from the reservoir through a hole in your abdomen using a catheter a few times each day. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In select cases, your surgeon may create a bladder-like reservoir out of a piece of your intestine (neobladder). This reservoir sits inside your body and is attached to your urethra, which allows you to urinate normally. You may need to use a catheter to drain all the urine from your neobladder. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biological therapy (immunotherapy)&lt;/strong&gt; &lt;br /&gt;
+Biological therapy, sometimes called immunotherapy, works by signaling your body&apos;s immune system to help fight cancer cells. Biological therapy for bladder cancer is typically administered through your urethra and directly into the bladder (intravesical therapy). 
+&lt;/p&gt;
+&lt;p&gt;
+Biological therapy drugs used to treat bladder cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An immune-stimulating bacterium.&lt;/strong&gt; Bacille Calmette-Guerin (BCG) is a bacterium used in tuberculosis vaccines. BCG can cause bladder irritation and blood in your urine. Some people feel as if they have the flu after treatment with BCG. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A synthetic version of an immune system protein.&lt;/strong&gt; Interferon is a protein that your immune system makes to help your body fight infections. A synthetic version of interferon, called interferon alfa-2b (Intron A), may be used to treat bladder cancer. Interferon alfa-2b is sometimes used in combination with BCG. Interferon alfa-2b can cause flu-like symptoms. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Biological therapy can be administered after TUR to reduce the risk that cancer will recur. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to kill cancer cells. Chemotherapy treatment for bladder cancer usually involves two or more chemotherapy drugs used in combination. Drugs can be given through a vein in your arm (intravenously), or they can be administered directly to your bladder by passing a tube through your urethra (intravesical therapy). 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy may be used to kill cancer cells that might remain after surgery. It may also be used before surgery. In this case, chemotherapy may shrink a tumor enough to allow the surgeon to perform a less invasive surgery. Chemotherapy is sometimes combined with radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy is used infrequently in people with bladder cancer. Radiation therapy uses high-energy beams aimed at your cancer to destroy the cancer cells. Radiation therapy for bladder cancer usually comes from a machine that moves around your body, directing the energy beams to precise points. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy can be used after surgery to kill cancer cells that might remain. Radiation therapy is sometimes combined with chemotherapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with the concern that your bladder cancer may recur can leave you feeling as if you have little control over your future. But while there&apos;s no way to ensure that your bladder cancer won&apos;t recur, you can take steps to manage the stress.
+&lt;/p&gt;
+&lt;p&gt;
+Over time you&apos;ll find what works for you, but until then, you might:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have a schedule of follow-up tests and go to each appointment.&lt;/strong&gt; When you finish bladder cancer treatment, ask your doctor to create a personalized schedule of follow-up tests. Before each follow-up cystoscopy exam, expect to have some anxiety. You may fear that cancer has come back or worry about the uncomfortable exam. But don&apos;t let this stop you from going to your appointment. Instead, plan ways to cope with your concerns. Write your thoughts in a journal, talk with a friend or use relaxation techniques, such as meditation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself so that you&apos;re ready to fight cancer if it comes back.&lt;/strong&gt; Take care of yourself by adjusting your diet to include plenty of fruits, vegetables and whole grains. Exercise for at least 30 minutes most days of the week. Get enough sleep so you wake feeling rested.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with other bladder cancer survivors.&lt;/strong&gt; Connect with bladder cancer survivors who are experiencing the same fears you&apos;re feeling. Contact your local chapter of the American Cancer Society to ask about support groups in your area. Or contact CancerCare at 800-813-HOPE (800-813-4673) for information on telephone-based support groups. Online message boards, such as the American Cancer Society&apos;s Cancer Survivors Network and the Bladder Cancer WebCafe, are another option.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no guaranteed way to prevent bladder cancer, you can take steps to help reduce your risk. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Not smoking means that cancer-causing chemicals in smoke can&apos;t collect in your bladder. If you don&apos;t smoke, don&apos;t start. If you smoke, talk to your doctor about a plan to help you stop. Support groups, medications and other methods may help you quit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take caution with chemicals.&lt;/strong&gt; If you work with chemicals, follow all safety instructions to avoid exposure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink water throughout the day.&lt;/strong&gt; In theory, drinking liquids, especially water, may dilute toxic substances that may be concentrated in your urine and flush them out of your bladder more quickly. Studies have been inconclusive as to whether drinking water will decrease your risk of bladder cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a variety of fruits and vegetables.&lt;/strong&gt; Choose a diet rich in a variety of colorful fruits and vegetables. The antioxidants in fruits and vegetables may help reduce your risk of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bladder cancer
+	</Title>
+	<Abstract>
+		Bladder cancer &amp;mdash; Comprehensive overview covers symptoms and treatment of bladder cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00948" LinkType="Internal" ObjectID="B9A45BEC-D558-080E-E9162D1A2241137C" Title="Urine cytology" Url="http://www.mayoclinic.com/health/urine-cytology/MY00948" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+	</RelatedLinksBox>
+</Disease>

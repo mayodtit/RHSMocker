@@ -1,0 +1,253 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00372
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cholecystectomy/MY00372
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-28
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3791" Title="Digestive system">
+						<Keyword MCVID="4175" Title="Surgery">
+							<Keyword MCVID="3894" Title="Cholecystectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			63107CB6-E7FF-0DBD-13EE267CA11A29E0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholecystectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder removal
+			</MetaKeyword>
+			<MetaKeyword>
+				gallstones
+			</MetaKeyword>
+			<MetaKeyword>
+				gallstone
+			</MetaKeyword>
+			<MetaKeyword>
+				gallstone treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystectomy (koh-luh-sis-TEK-tuh-me) is a surgical procedure to remove your gallbladder &amp;mdash; a pear-shaped organ that sits just below your liver on the upper right side of your abdomen. Your gallbladder collects and stores bile &amp;mdash; a digestive fluid produced in your liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholecystectomy may be necessary if you experience pain from gallstones that block the flow of bile. Cholecystectomy is a common surgery, and it carries only a small risk of complications. In most cases, you can go home the same day of your cholecystectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholecystectomy is most commonly performed by inserting a tiny video camera and special surgical tools through four small incisions to see inside your abdomen and remove the gallbladder. Doctors call this laparoscopic cholecystectomy. In some cases, one large incision may be used to remove the gallbladder. This is called an open cholecystectomy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="60" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/thumbs/d7_cholecystectomythu.jpg" Width="60" />
+				<Image Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="360" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/d7_cholecystectomy.jpg" Width="400" />
+				<HTML>
+					Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystectomy is used to treat gallstones and the complications they cause. Your doctor may recommend cholecystectomy if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gallstones in the gallbladder (cholelithiasis)&lt;/li&gt;
+	&lt;li&gt;Gallstones in the bile duct (choledocholithiasis)&lt;/li&gt;
+	&lt;li&gt;Gallbladder inflammation (cholecystitis)&lt;/li&gt;
+	&lt;li&gt;Pancreas inflammation (pancreatitis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing gallbladder and gallstones 
+" Caption="Gallstones are hardened deposits of bile that can form in your gallbladder. Bile is a digestive fluid produced in your liver and stored in your gallbladder. When you eat, your gallbladder contracts and empties bile into your small intestine (duodenum). 
+" Height="60" Title="Gallstones" URI="/images/image_popup/thumbs/tn990318.gif" Width="60" />
+				<Image Alt="Illustration showing gallbladder and gallstones 
+" Caption="Gallstones are hardened deposits of bile that can form in your gallbladder. Bile is a digestive fluid produced in your liver and stored in your gallbladder. When you eat, your gallbladder contracts and empties bile into your small intestine (duodenum). 
+" Height="333" Title="Gallstones" URI="/images/image_popup/ww990318.jpg" Width="400" />
+				<HTML>
+					Gallstones are hardened deposits of bile that can form in your gallbladder. Bile is a digestive fluid produced in your liver and stored in your gallbladder. When you eat, your gallbladder contracts ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystectomy carries a small risk of complications including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bile leak&lt;/li&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Death&lt;/li&gt;
+	&lt;li&gt;Heart problems&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Injury to nearby structures, such as the bile duct, liver and small intestine&lt;/li&gt;
+	&lt;li&gt;Pancreatitis&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your risk of complications depends on your overall health and the reason for your cholecystectomy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for cholecystectomy, your surgeon may ask you to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink a solution to clean out your intestines.&lt;/strong&gt; In the days before your procedure you may be given a prescription solution that flushes stool out of your intestines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat nothing the night before your surgery.&lt;/strong&gt; You may drink a sip of water with your medications, but avoid eating and drinking at least four hours before your surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking certain medications and supplements.&lt;/strong&gt; Tell your doctor about all the medications and supplements you take. Continue taking most medications as prescribed. Your doctor may ask you to stop taking certain medications and supplements because they may increase your risk of bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shower using a special soap.&lt;/strong&gt; Your doctor may give you a special antibacterial soap to use before your surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare for your recovery&lt;/strong&gt; &lt;br /&gt;
+Plan ahead for your recovery after surgery. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plan for a hospital stay.&lt;/strong&gt; Most people go home the same day of their cholecystectomy, but complications can occur that require one or more nights in the hospital. If the surgeon needs to make a long incision in your abdomen to remove your gallbladder, you may need to stay in the hospital longer. It&apos;s not always possible to know ahead of time what procedure will be used. Plan ahead in case you need to stay in the hospital by bringing personal items, such as your toothbrush, comfortable clothing, and books or magazines to pass the time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to drive you home and stay with you.&lt;/strong&gt; Ask a friend or family member to drive you home and stay close the first night after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your cholecystectomy&lt;/strong&gt; &lt;br /&gt;
+Cholecystectomy is performed using general anesthesia, so you won&apos;t be aware during the procedure. Anesthesia drugs are given through a vein in your arm. Once the drugs take effect, your health care team will insert a tube down your throat to help you breathe. Your surgeon then performs the cholecystectomy using either a laparoscopic or open procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Minimally invasive (laparoscopic) cholecystectomy&lt;/strong&gt; &lt;br /&gt;
+During laparoscopic cholecystectomy, the surgeon makes four small incisions in your abdomen. A tube with a tiny video camera is inserted into your abdomen through one of the incisions. Your surgeon watches a video monitor in the operating room as special surgical tools are inserted through the other incisions in your abdomen and your gallbladder is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+Next you&apos;ll undergo cholangiography, a special X-ray to check your bile duct for abnormalities. If your surgeon finds gallstones or other problems in your bile duct, those may be remedied. Then your incisions are sutured, and you&apos;re taken to a recovery area. Laparoscopic cholecystectomy takes one or two hours. 
+&lt;/p&gt;
+&lt;p&gt;
+Laparoscopic cholecystectomy isn&apos;t appropriate for everyone. In some cases your surgeon may begin with a laparoscopic approach and find it necessary to make a larger incision because of scar tissue from previous operations or complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Traditional (open) cholecystectomy&lt;/strong&gt; &lt;br /&gt;
+During open cholecystectomy your surgeon makes a 6-inch (15-centimeter) incision in your abdomen below your ribs on your right side. The muscle and tissue are pulled back to reveal your liver and gallbladder. Your surgeon then removes the gallbladder. The incision is sutured, and you&apos;re taken to a recovery area. Open cholecystectomy takes one or two hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After cholecystectomy&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll be taken to a recovery area as the anesthesia drugs wear off. Then you&apos;ll be taken to a hospital room to continue recovery. Recovery varies depending on your procedure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laparoscopic cholecystectomy.&lt;/strong&gt; People are often allowed to go home the same day as their surgery, though sometimes a one-night stay in the hospital is needed. In general, you can expect to go home once you&apos;re able to eat and drink without pain and are able to walk unaided. It takes about a week to fully recover.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open cholecystectomy.&lt;/strong&gt; Expect to spend two or three days in the hospital recovering. Once at home, it may take four to six weeks to fully recover.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="60" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/thumbs/d7_cholecystectomythu.jpg" Width="60" />
+				<Image Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="360" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/d7_cholecystectomy.jpg" Width="400" />
+				<HTML>
+					Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystectomy can relieve the pain and discomfort of gallstones. Conservative treatments, such as dietary modifications, usually can&apos;t stop gallstones from recurring. Cholecystectomy is the only way to prevent gallstones. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people experience mild diarrhea after cholecystectomy, though this usually goes away with time. Most people won&apos;t experience digestive problems after cholecystectomy. Your gallbladder isn&apos;t essential to healthy digestion. 
+&lt;/p&gt;
+&lt;p&gt;
+How quickly you can return to normal activities after cholecystectomy depends on which procedure your surgeon uses and your overall health. People undergoing laparoscopic cholecystectomy may be able to go back to work in a matter of days. Those undergoing open cholecystectomy may need a week or more to recover enough to return to work. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cholecystectomy (gallbladder removal)
+	</Title>
+	<Abstract>
+		Cholecystectomy &amp;mdash; Overview covers definitions, risks of open and laparoscopic gallbladder surgery for gallbladder removal.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Answer" DocID="AN02176" LinkType="Internal" ObjectID="87A7D4F8-9CD6-5FC3-A89E583CA33FF4FE" Title="Can you recommend a diet after gallbladder removal?" Url="http://www.mayoclinic.com/health/gallbladder-removal-diet/AN02176" />
+		<LinkItem ContentType="Answer" DocID="AN00067" LinkType="Internal" ObjectID="2F5BC8D1-F09D-495F-B0D4A305788B7E81" Title="Chronic diarrhea: A concern after gallbladder removal?" Url="http://www.mayoclinic.com/health/gallbladder-removal/AN00067" />
+	</RelatedLinksBox>
+</TestProcedure>

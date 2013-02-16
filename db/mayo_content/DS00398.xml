@@ -1,0 +1,498 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00398
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hepatitis-b/DS00398
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2001-12-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1858" Title="Hepatitis">
+							<Keyword MCVID="2426" Title="Hepatitis B" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3D667EE6-C73C-4933-8C06F75454372E96
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hepatitis B
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis B vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitus B
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis B symptoms
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hepatitis B is a serious liver infection caused by the hepatitis B virus (HBV). For some people, hepatitis B infection becomes chronic, leading to liver failure, liver cancer or cirrhosis &amp;mdash; a condition that causes permanent scarring of the liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people infected with hepatitis B as adults recover fully, even if their signs and symptoms are severe. Infants and children are much more likely to develop a chronic hepatitis B infection. Although no cure exists for hepatitis B, a vaccine can prevent the disease. If you&apos;re already infected, taking certain precautions can help prevent spreading HBV to others. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of hepatitis B usually appear about three months after you&apos;ve been infected and can range from mild to severe. Signs and symptoms of hepatitis B may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Dark urine&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Weakness and fatigue&lt;/li&gt;
+	&lt;li&gt;Yellowing of your skin and the whites of your eyes (jaundice)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most infants and children with hepatitis B never develop signs and symptoms. The same is true for some adults. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek medical care if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you know you&apos;ve been exposed to hepatitis B, contact your doctor immediately. A preventive treatment may reduce the risk that the virus will infect your body. But the treatment must be given within 24 hours of exposure to the hepatitis B virus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hepatitis B infection is caused by the hepatitis B virus (HBV). The virus is passed from person to person through blood, semen or other body fluids. When HBV enters your liver, it invades the liver cells and begins to multiply. This causes inflammation in the liver and leads to the signs and symptoms of hepatitis B infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Common ways HBV is transmitted include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual contact.&lt;/strong&gt; You may become infected if you have unprotected sexual contact with an infected partner whose blood, saliva, semen or vaginal secretions enter your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sharing of needles.&lt;/strong&gt; HBV is easily transmitted through needles and syringes contaminated with infected blood. Sharing intravenous (IV) drug paraphernalia puts you at high risk of hepatitis B.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accidental needle sticks.&lt;/strong&gt; Hepatitis B is a concern for health care workers and anyone else who comes in contact with human blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mother to child.&lt;/strong&gt; Pregnant women infected with HBV can pass the virus to their babies during childbirth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute vs. chronic hepatitis B&lt;/strong&gt;&lt;br /&gt;
+Hepatitis B infection may be either short-lived (acute hepatitis B) or long lasting (chronic hepatitis B). 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute hepatitis B infection&lt;/strong&gt; lasts less than six months. If the disease is acute, your immune system is usually able to clear the virus from your body, and you should recover completely within a few months. Most people who acquire hepatitis B as adults have an acute infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic hepatitis B infection&lt;/strong&gt; lasts six months or longer. When your immune system can&apos;t fight off the virus, hepatitis B infection may become lifelong, possibly leading to serious illnesses such as cirrhosis and liver cancer. Most infants infected with HBV at birth and many children infected between 1 and 5 years of age become chronically infected. Chronic infection may go undetected for decades until a person becomes seriously ill from liver disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of hepatitis B infection is increased if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have unprotected sex with more than one partner&lt;/li&gt;
+	&lt;li&gt;Have unprotected sex with someone who&apos;s infected with HBV&lt;/li&gt;
+	&lt;li&gt;Have a sexually transmitted infection such as gonorrhea or chlamydia&lt;/li&gt;
+	&lt;li&gt;Are a man who has sexual contact with other men&lt;/li&gt;
+	&lt;li&gt;Share needles during intravenous (IV) drug use&lt;/li&gt;
+	&lt;li&gt;Share a household with someone who has a chronic HBV infection&lt;/li&gt;
+	&lt;li&gt;Have a job that exposes you to human blood&lt;/li&gt;
+	&lt;li&gt;Receive hemodialysis for end-stage kidney (renal) disease&lt;/li&gt;
+	&lt;li&gt;Travel to regions with high infection rates of HBV, such as Africa, Central and Southeast Asia, and Eastern Europe&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a chronic HBV infection can lead to serious complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring of the liver (cirrhosis).&lt;/strong&gt; Hepatitis B infection may cause inflammation that leads to extensive scarring of the liver (cirrhosis). Scarring in the liver may impair the liver&apos;s ability to function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver cancer.&lt;/strong&gt; People with chronic hepatitis B infection have an increased risk of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver failure.&lt;/strong&gt; Acute liver failure is a condition in which the vital functions of the liver shut down. When that occurs, a liver transplant is necessary to sustain life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis D infection.&lt;/strong&gt; Anyone chronically infected with HBV is also susceptible to infection with another strain of viral hepatitis &amp;mdash; hepatitis D. You can&apos;t become infected with hepatitis D unless you&apos;re already infected with HBV. Having both hepatitis B and hepatitis D makes it more likely you&apos;ll develop complications of hepatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney problems.&lt;/strong&gt; Hepatitis B infection can cause kidney problems that may lead eventually to kidney failure. Children are more likely to recover from these kidney problems than are adults, who may experience kidney failure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="60" Title="Liver cancer" URI="/images/image_popup/thumbs/mcdc7_liver_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="320" Title="Liver cancer" URI="/images/image_popup/mcdc7_liver_cancer.jpg" Width="400" />
+				<HTML>
+					Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Whom to see&lt;/strong&gt; &lt;br /&gt;
+If your family doctor suspects you may have hepatitis B, you may be referred to a specialist. Doctors who specialize in treating people who have hepatitis B include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctors who treat digestive diseases (gastroenterologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat liver diseases (hepatologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat infectious diseases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to recall all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For hepatitis B infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have hepatitis B?&lt;/li&gt;
+	&lt;li&gt;Has the hepatitis B virus damaged my liver?&lt;/li&gt;
+	&lt;li&gt;How much hepatitis B virus do I have in my body?&lt;/li&gt;
+	&lt;li&gt;Has the hepatitis B infection caused any other complications, such as kidney disease?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for hepatitis B infection?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the benefits of each treatment option?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you think is best for me?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should my family be tested for hepatitis B?&lt;/li&gt;
+	&lt;li&gt;Is it possible for me to spread hepatitis B to others?&lt;/li&gt;
+	&lt;li&gt;How can I protect the people around me from hepatitis B?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I be tested for other infections, such as hepatitis C and HIV?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a blood transfusion?&lt;/li&gt;
+	&lt;li&gt;Do you inject drugs?&lt;/li&gt;
+	&lt;li&gt;Does your sexual partner have hepatitis B?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with hepatitis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Screening healthy people for hepatitis B&lt;/strong&gt; &lt;br /&gt;
+Doctors sometimes test certain healthy people for hepatitis B infection. This is recommended because hepatitis B infection often begins damaging the liver before it causes signs and symptoms. Testing for hepatitis B infection in people who have a high risk of coming in contact with the virus may help doctors begin treatment or recommend lifestyle changes that may slow liver damage. 
+&lt;/p&gt;
+&lt;p&gt;
+People who may want to talk to their doctors about screening for hepatitis B infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anyone who lives with a person who has hepatitis B infection&lt;/li&gt;
+	&lt;li&gt;Anyone who has had sex with a person who has hepatitis B infection&lt;/li&gt;
+	&lt;li&gt;Anyone with an unexplained, abnormal liver enzyme test&lt;/li&gt;
+	&lt;li&gt;Anyone infected with HIV&lt;/li&gt;
+	&lt;li&gt;Immigrants, including internationally adopted children, from areas of the world where hepatitis B is more common, including Asia, the Pacific Islands, Africa and Eastern Europe&lt;/li&gt;
+	&lt;li&gt;People who inject drugs&lt;/li&gt;
+	&lt;li&gt;Inmates&lt;/li&gt;
+	&lt;li&gt;Men who have sex with men&lt;/li&gt;
+	&lt;li&gt;People who have one or both parents from an area of the world where hepatitis B is more common&lt;/li&gt;
+	&lt;li&gt;People who receive kidney dialysis&lt;/li&gt;
+	&lt;li&gt;People who take medications that suppress the immune system, such as anti-rejection medications used after an organ transplant&lt;/li&gt;
+	&lt;li&gt;Pregnant women&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests to detect hepatitis B infection&lt;/strong&gt; &lt;br /&gt;
+Blood tests used to diagnose hepatitis B infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A test to determine whether you can easily pass HBV to others.&lt;/strong&gt; The hepatitis B surface antigen (HBsAg) test looks for hepatitis B surface antigen &amp;mdash; part of the outer surface of the virus. Testing positive for this antigen means you have an active hepatitis B infection and can easily pass the virus to others. A negative test means you&apos;re probably not currently infected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to determine whether you&apos;re immune to HBV.&lt;/strong&gt; The antibody to hepatitis B surface antigen (anti-HBs) test determines if you have antibodies to HBV. Having antibodies can be due to a prior HBV infection from which you&apos;ve recovered. Or, it can mean you may already have been vaccinated. In either case, a positive anti-HBs test means you can&apos;t infect others or become infected yourself because you&apos;re protected by the vaccine or your own natural immunity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to determine whether you have had or currently have a hepatitis B infection.&lt;/strong&gt; The antibody to hepatitis B core antigen (anti-HBc) test identifies people who have an HBV infection. If you test positive for hepatitis B core antibodies, you may have a chronic infection that you can transmit to others. A positive result may also mean you&apos;re recovering from an acute infection or have a slight immunity to HBV that can&apos;t otherwise be detected. How this test is interpreted often depends on the results of the other two tests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests to gauge liver health and infection severity&lt;/strong&gt; &lt;br /&gt;
+If you receive a diagnosis of hepatitis B, your doctor may perform tests to check the severity of the HBV infection as well as the health of your liver. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A test to determine how likely you are to spread HBV to others.&lt;/strong&gt; The E antigen blood test looks for the presence of a protein secreted by HBV-infected cells. A positive result means you have high levels of the virus in your blood and can easily infect others. If the test is negative, you have lower blood levels of HBV and are less likely to spread the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to determine how much HBV DNA is in your blood.&lt;/strong&gt; The hepatitis B DNA test detects parts of HBV DNA in your blood, indicating how much virus is present (viral load). Assessing your viral load can help monitor how well antiviral therapy is working.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to measure liver function.&lt;/strong&gt; Liver function tests may gauge the amount of damage that has occurred in your liver cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Removing a sample of liver tissue for testing&lt;/strong&gt; &lt;br /&gt;
+During a liver biopsy, your doctor inserts a thin needle through your skin and into your liver. A small sample of liver tissue is removed for laboratory analysis. A biopsy may show the extent of any liver damage and may help determine the best treatment for you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment to prevent hepatitis B infection after exposure&lt;/strong&gt; &lt;br /&gt;
+If you know you&apos;ve been exposed to the hepatitis B virus, call your doctor immediately. Receiving an injection of hepatitis B immune globulin within 24 hours of coming in contact with the virus may help protect you from developing hepatitis B. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for acute hepatitis B infection&lt;/strong&gt; &lt;br /&gt;
+If your doctor determines your hepatitis B infection is acute &amp;mdash; meaning it is short-lived and will go away on its own &amp;mdash; you may not need treatment. Instead, your doctor will work to reduce any signs and symptoms you experience while your body fights the infection. Your doctor may recommend follow-up blood tests to make sure the virus has left your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for chronic hepatitis B infection&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve been diagnosed with chronic hepatitis B infection, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antiviral medications.&lt;/strong&gt; Antiviral medications help fight the virus and slow its ability to damage your liver. Several medications are available. Your doctor can suggest which medications may be most appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver transplant.&lt;/strong&gt; If your liver has been severely damaged, a liver transplant may be an option. During a liver transplant, the surgeon removes your damaged liver and replaces it with a healthy liver. Most transplanted livers come from deceased donors, though a small number come from living donors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="60" Title="Living liver transplant" URI="/images/image_popup/thumbs/d7_livinglivertransplantthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="230" Title="Living liver transplant" URI="/images/image_popup/d7_living_liver_transplant.jpg" Width="400" />
+				<HTML>
+					A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been infected with hepatitis B, take steps to protect others from the virus. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take precautions to make sex safer.&lt;/strong&gt; The only way to protect your sexual partner or partners from your hepatitis B infection is to avoid sexual contact. If you choose to have sex, talk to your partners about the risk of transmitting HBV. Use a new latex condom every time you have sexual contact. But remember that while condoms may reduce the risk of spreading HBV, they don&apos;t eliminate the risk completely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tell your sexual partner(s) you have HBV.&lt;/strong&gt; Let anyone with whom you&apos;ve had sex know that you have HBV. Your partners need to be tested and receive medical care if they have the virus. They also need to know their HBV status so that they don&apos;t infect others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share needles or syringes.&lt;/strong&gt; If you use IV drugs, never share your needles and syringes with anyone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t donate blood or organs.&lt;/strong&gt; Donating infected blood or organs spreads the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share razor blades or toothbrushes.&lt;/strong&gt; These items may carry traces of infected blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re pregnant, tell your doctor you have HBV.&lt;/strong&gt; That way, your baby can be treated soon after birth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No complementary or alternative medicine treatments have proved helpful in preventing or treating hepatitis B infection. 
+&lt;/p&gt;
+&lt;p&gt;
+One herb that continues to attract attention for its touted liver-health properties is milk thistle. Proponents of milk thistle recommend the herb to treat jaundice and other liver disorders. People take milk thistle as a capsule, extract or infusion. 
+&lt;/p&gt;
+&lt;p&gt;
+Small studies of milk thistle treatment for liver disease have had mixed results. Many of the studies have been poorly designed, making it difficult for researchers to draw conclusions about the usefulness of milk thistle. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re interested in trying milk thistle, discuss the benefits and risks with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with hepatitis B infection, you may worry about what it means for your health. You may also worry about spreading hepatitis B to those close to you. To help you cope with your feelings, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn more about hepatitis B.&lt;/strong&gt; Finding out more about hepatitis B can help you understand what this infection means for your overall health. Ask your doctor about good sources of information you can turn to in order to learn more about hepatitis B. The Centers for Disease Control and Prevention is a good place to start.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay connected to your friends and family.&lt;/strong&gt; You can&apos;t spread hepatitis B through casual contact, such as hugging, dancing or shaking hands. And you can&apos;t spread hepatitis B through a swimming pool, telephone, toilet seat or shared eating utensils. Don&apos;t be afraid to spend time with your friends and family. Having them close may be a good source of support for you. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Make lifestyle changes that help you improve your overall health. For instance, choose a diet full of fruits and vegetables. Try to exercise most days of the week. Get enough sleep so that you wake feeling rested.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your liver.&lt;/strong&gt; Care for your liver to help prolong its function. Don&apos;t drink alcohol. Don&apos;t take prescription or over-the-counter drugs without first consulting your doctor to make sure they&apos;re safe for your liver. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Consider the hepatitis B vaccine&lt;/strong&gt; &lt;br /&gt;
+The hepatitis B vaccine is typically given as a series of three or four injections over a period of six months. You can&apos;t get hepatitis B from the vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+The hepatitis B vaccine is recommended for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;All infants, beginning at birth&lt;/li&gt;
+	&lt;li&gt;All children and adolescents who weren&apos;t vaccinated at birth&lt;/li&gt;
+	&lt;li&gt;Anyone being treated for a sexually transmitted infection&lt;/li&gt;
+	&lt;li&gt;Developmentally disabled people who live in an institutional setting&lt;/li&gt;
+	&lt;li&gt;Health care workers, emergency workers and other people who come into contact with blood on the job&lt;/li&gt;
+	&lt;li&gt;Anyone infected with HIV&lt;/li&gt;
+	&lt;li&gt;Men who have sex with men&lt;/li&gt;
+	&lt;li&gt;People who have multiple sexual partners&lt;/li&gt;
+	&lt;li&gt;People with chronic liver disease&lt;/li&gt;
+	&lt;li&gt;People who inject illicit drugs&lt;/li&gt;
+	&lt;li&gt;People who live with someone who has hepatitis B&lt;/li&gt;
+	&lt;li&gt;People with end-stage kidney disease&lt;/li&gt;
+	&lt;li&gt;Sexual partners of someone who has hepatitis B&lt;/li&gt;
+	&lt;li&gt;Travelers planning to go to an area of the world with a high hepatitis B infection rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Take precautions to avoid HBV&lt;/strong&gt; &lt;br /&gt;
+Other ways to reduce your risk of HBV include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know the HBV status of any sexual partner.&lt;/strong&gt; Don&apos;t engage in unprotected sex unless you&apos;re absolutely certain your partner isn&apos;t infected with HBV or any other sexually transmitted infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a new latex or polyurethane condom every time you have sex.&lt;/strong&gt; If you don&apos;t know the health status of your partner, use a new latex condom every time you have sexual contact. Remember that although condoms can reduce your risk of contracting HBV, they don&apos;t eliminate the risk entirely. Condoms can break or develop small tears, and people don&apos;t always use them properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop using illicit drugs.&lt;/strong&gt; If you use illicit drugs, get help to stop. If you can&apos;t stop, use a sterile needle each time you inject illicit drugs. Never share needles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious about body piercing and tattooing.&lt;/strong&gt; If you choose to undergo piercing or tattooing, look for a reputable shop. Ask questions beforehand about how the equipment is cleaned. Make sure the employees use sterile needles. If the staff won&apos;t answer your questions, look for another shop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about the hepatitis B vaccine before you travel.&lt;/strong&gt; If you&apos;re planning an extended trip to a region where hepatitis B is more common, ask your doctor about the hepatitis B vaccine well in advance. It&apos;s usually given in a series of three injections over a six-month period.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hepatitis B
+	</Title>
+	<Abstract>
+		Hepatitis B &amp;mdash; Comprehensive overview covers symptoms, vaccine prevention of this sometimes-chronic liver disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00094" LinkType="Internal" ObjectID="B729B58C-E7FF-0DBD-12F16E2756745D18" Title="Bilirubin test" Url="http://www.mayoclinic.com/health/bilirubin/MY00094" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00093" LinkType="Internal" ObjectID="B727321E-E7FF-0DBD-1CADFEB8D4A46579" Title="Liver function tests" Url="http://www.mayoclinic.com/health/liver-function-tests/MY00093" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+	</RelatedLinksBox>
+</Disease>

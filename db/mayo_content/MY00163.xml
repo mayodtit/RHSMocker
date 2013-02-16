@@ -1,0 +1,311 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00163
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hysterectomy/MY00163
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-11
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4213" Title="Surgery">
+							<Keyword MCVID="3985" Title="Abdominal hysterectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0E226CE2-E7FF-0DBD-196F87E5F4E1B54F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				total hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				radical hysterectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				salpingo-oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				uterine cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				pelvic pain
+			</MetaKeyword>
+			<MetaKeyword>
+				uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				gynecologic cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hystorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				prolapsed uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				historectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Abdominal hysterectomy is a surgical procedure that removes your uterus through an incision in your lower abdomen. Your uterus &amp;mdash; or womb &amp;mdash; is where a baby grows if you&apos;re pregnant. A partial hysterectomy removes just the uterus, and a total hysterectomy removes the uterus and the cervix. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes a hysterectomy includes removal of one or both ovaries and fallopian tubes, a procedure called total hysterectomy with salpingo-oophorectomy (sal-ping-go-o-of-uh-REK-tuh-me). 
+&lt;/p&gt;
+&lt;p&gt;
+Hysterectomy can also be performed through an incision in the vagina (vaginal hysterectomy) or by a laparoscopic or robotic surgical approach &amp;mdash; which uses long, thin instruments passed through small abdominal incisions. Abdominal hysterectomy may be recommended over other types of hysterectomy if you have a large uterus or if your doctor wants to check other pelvic organs for signs of disease.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of hysterectomy types 
+" Caption="A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ovaries and fallopian tubes (right). 
+" Height="60" Title="Types of hysterectomy surgery" URI="/images/image_popup/thumbs/hdg7_hysterecomytypethu.jpg" Width="60" />
+				<Image Alt="Illustration of hysterectomy types 
+" Caption="A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ovaries and fallopian tubes (right). 
+" Height="389" Title="Types of hysterectomy surgery" URI="/images/image_popup/hdg7_hysterecomytype.jpg" Width="400" />
+				<HTML>
+					A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hysterectomy may be needed if you have one of the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gynecologic cancer.&lt;/strong&gt; If you have a gynecologic cancer &amp;mdash; such as cancer of the uterus or cervix &amp;mdash; a hysterectomy may be your best treatment option. Depending on the specific cancer you have and how advanced it is, your other options might include radiation or chemotherapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fibroids.&lt;/strong&gt; Hysterectomy is the only certain, permanent solution for fibroids &amp;mdash; benign uterine tumors that often cause persistent bleeding, anemia, pelvic pain or bladder pressure. Nonsurgical treatments of fibroids are a possibility, depending on your discomfort level and tumor size. Many women with fibroids have minimal symptoms and require no treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometriosis.&lt;/strong&gt; In endometriosis, the tissue lining the inside of your uterus (endometrium) grows outside the uterus on your ovaries, fallopian tubes, or other pelvic or abdominal organs. When medication or conservative surgery doesn&apos;t improve endometriosis, you might need a hysterectomy along with removal of your ovaries and fallopian tubes (bilateral salpingo-oophorectomy). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine prolapse.&lt;/strong&gt; Descent of the uterus into your vagina can happen when the supporting ligaments and tissues weaken. Uterine prolapse can lead to urinary incontinence, pelvic pressure or difficulty with bowel movements. Hysterectomy may be necessary to achieve satisfactory repair of these conditions. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal vaginal bleeding.&lt;/strong&gt; If your periods are heavy, irregular or prolonged each cycle, a hysterectomy may bring relief when the bleeding can&apos;t be controlled by other methods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic pelvic pain.&lt;/strong&gt; Occasionally, surgery is a necessary last resort for women who experience chronic pelvic pain that clearly arises in the uterus. However, hysterectomy provides no relief from many forms of pelvic pain, and an unnecessary hysterectomy may create new problems. Seek careful evaluation before proceeding with such major surgery. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hysterectomy ends your ability to become pregnant. If you think you might want to become pregnant, ask your doctor about alternatives to this surgery. In the case of cancer, hysterectomy might be the only option. But for other conditions &amp;mdash; including fibroids, endometriosis and uterine prolapse &amp;mdash; you may be able to try less invasive treatments first. 
+&lt;/p&gt;
+&lt;p&gt;
+During hysterectomy surgery, your surgeon might also perform a related procedure that removes both of your ovaries and your fallopian tubes (bilateral salpingo-oophorectomy). You and your doctor should discuss ahead of time whether you need this procedure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hysterectomy is generally very safe, but with any major surgery comes the risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Risks associated with abdominal hysterectomy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Excessive bleeding&lt;/li&gt;
+	&lt;li&gt;Adverse reaction to anesthesia&lt;/li&gt;
+	&lt;li&gt;Damage to your urinary tract, bladder, rectum or other pelvic structures during surgery, which may require further surgical repair&lt;/li&gt;
+	&lt;li&gt;Earlier onset of menopause even if the ovaries aren&apos;t removed&lt;/li&gt;
+	&lt;li&gt;Rarely, death&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s normal to feel anxious about having a hysterectomy. Here&apos;s what you can do to prepare: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gather information.&lt;/strong&gt; Before surgery, get all the information you need to feel confident about your decision to have a hysterectomy. Ask your doctor and surgeon questions. Learn about the procedure, including all the steps involved if it makes you feel more comfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your doctor&apos;s instructions about medication.&lt;/strong&gt; Find out whether you should change your usual medication routine in the days leading up to your hysterectomy. Be sure to tell your doctor about any over-the-counter medications, dietary supplements or herbal preparations that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss what type of anesthesia you&apos;ll have.&lt;/strong&gt; Abdominal hysterectomy requires you to have general anesthesia, which makes you unconscious during surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan for a hospital stay.&lt;/strong&gt; How long you&apos;ll be in the hospital depends on what type of hysterectomy you have and what your doctor recommends. Generally, abdominal hysterectomy requires a hospital stay of at least one to two days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for help.&lt;/strong&gt; Full recovery could take several weeks. Your doctor may recommend restricting your activities during your recovery, such as avoiding driving or lifting heavy objects. Arrange for help at home if you think you&apos;ll need it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During abdominal hysterectomy, your surgeon detaches your uterus from the ovaries, fallopian tubes and upper vagina, as well as from the blood vessels and connective tissue that support it. The lower part of your uterus (cervix) is usually removed (total hysterectomy) but may sometimes be left in place (partial hysterectomy). If necessary, your surgeon may remove additional pelvic organs and tissue, such as your ovaries and fallopian tubes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Before the hysterectomy&lt;br /&gt;
+&lt;/strong&gt;Before surgery, you may have tests done to check for cancer, which could change your surgeon&apos;s approach to surgery. Tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pap test,&lt;/strong&gt; which detects the presence of abnormal cervical cells or cervical cancer&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometrial biopsy,&lt;/strong&gt; which detects abnormal cells in the uterine lining or endometrial cancer&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic ultrasound,&lt;/strong&gt; which may show the size of uterine fibroids, endometrial polyps or ovarian cysts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The day before your surgery, you may be instructed to take a medication or drink a solution to empty your digestive tract to prepare for surgery. A preoperative cleansing of your vagina (vaginal douche) may be done to reduce your risk of infection. Immediately before surgery, you&apos;ll also be given an intravenous antibiotic medication to minimize your risk of infection after the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the hysterectomy&lt;br /&gt;
+&lt;/strong&gt;A hysterectomy typically is performed under general anesthesia, so you won&apos;t be awake during the surgery. The procedure itself lasts about one to two hours, although you&apos;ll spend some time beforehand getting ready to go into the operating room. 
+&lt;/p&gt;
+&lt;p&gt;
+To begin the procedure, a member of your surgical team passes a urinary catheter through your urethra to empty your bladder. The catheter remains in place during surgery and for a short time afterward. Your abdomen and vagina are cleaned with a sterile solution before surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+To perform the hysterectomy, your surgeon makes a cut (incision) in your lower abdomen, using one of two approaches:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A vertical incision,&lt;/strong&gt; which starts in the middle of your abdomen and extends from just below your navel to just above your pubic bone&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A horizontal bikini-line incision,&lt;/strong&gt; which lies about an inch above your pubic bone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of incision depends on many factors, including the reason for your hysterectomy, the need to explore the upper abdomen, the size of your uterus and the presence of any scars from prior abdominal surgeries. For instance, hysterectomies performed for endometriosis, large fibroids and gynecologic cancers are done mainly through a vertical incision. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the hysterectomy&lt;br /&gt;
+&lt;/strong&gt;After surgery, you&apos;ll remain in the recovery room for a few hours. Your health care team will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Monitor you for signs of pain&lt;/li&gt;
+	&lt;li&gt;Give you medicine for pain and to prevent infection&lt;/li&gt;
+	&lt;li&gt;Encourage you to get up and walk around soon after surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Abdominal hysterectomy usually requires a hospital stay of one to two days, but it could be longer. You&apos;ll need to use sanitary pads for vaginal bleeding and discharge. It&apos;s normal to have bloody vaginal drainage for several days to weeks after a hysterectomy. However, let your surgeon know if you have bleeding that&apos;s as heavy as a menstrual period.
+&lt;/p&gt;
+&lt;p&gt;
+The abdominal incision will gradually heal, but a visible scar on your abdomen will remain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Recovering from a hysterectomy&lt;br /&gt;
+&lt;/strong&gt;It takes time to get back to your usual self after an abdominal hysterectomy &amp;mdash; about six weeks for most women. During that time:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Get plenty of rest.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t lift anything heavy for a full six weeks after the operation.&lt;/li&gt;
+	&lt;li&gt;Stay active after your surgery, but avoid strenuous physical activity for the first six weeks.&lt;/li&gt;
+	&lt;li&gt;Wait six weeks to resume sexual activity.&lt;/li&gt;
+	&lt;li&gt;Follow your doctor&apos;s recommendations about returning to your other normal activities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Life after a hysterectomy&lt;br /&gt;
+&lt;/strong&gt;A hysterectomy permanently changes some aspects of your life. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ll no longer have menstrual periods.&lt;/li&gt;
+	&lt;li&gt;Most of the time, you&apos;ll get relief from the symptoms that made your surgery necessary.&lt;/li&gt;
+	&lt;li&gt;You won&apos;t be able to become pregnant.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re premenopausal, having your ovaries removed along with hysterectomy starts menopause.&lt;/li&gt;
+	&lt;li&gt;If you have a hysterectomy before menopause and you keep your ovaries, you may experience menopause at a younger than average age.&lt;/li&gt;
+	&lt;li&gt;If you have a partial hysterectomy, your cervix remains in place, so you&apos;re still at risk of cervical cancer. You need regular Pap tests to screen for cervical cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other parts of your life will likely return to normal or perhaps improve once you&apos;ve recovered from your hysterectomy. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you had a good sex life before hysterectomy, chances are you&apos;ll maintain it afterward. Some women even experience more sexual pleasure after hysterectomy. This may be due to relief from the chronic pain or heavy bleeding that was caused by a uterine problem. &lt;/li&gt;
+	&lt;li&gt;The relief of symptoms may greatly enhance your quality of life. You may have an improved sense of well-being and a chance to get on with your life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+On the other hand, you may feel a sense of loss after hysterectomy. Premenopausal women who must have a hysterectomy to treat gynecological cancer may experience grief and possibly depression over the loss of fertility. If sadness or negative feelings begin to interfere with your enjoyment of everyday life, talk with your doctor.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vertical, horizontal abdominal incisions 
+" Caption="During abdominal hysterectomy, your surgeon makes a vertical or a horizontal incision in your lower abdomen. A vertical incision (left) gives the surgeon greater access to your pelvis. A horizontal incision (right) follows your skin&apos;s natural lines, usually leaving a thinner scar. 
+" Height="60" Title="Abdominal hysterectomy incisions" URI="/images/image_popup/thumbs/w7_abdominal_incisionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing vertical, horizontal abdominal incisions 
+" Caption="During abdominal hysterectomy, your surgeon makes a vertical or a horizontal incision in your lower abdomen. A vertical incision (left) gives the surgeon greater access to your pelvis. A horizontal incision (right) follows your skin&apos;s natural lines, usually leaving a thinner scar. 
+" Height="312" Title="Abdominal hysterectomy incisions" URI="/images/image_popup/w7_abdominal_incision.jpg" Width="400" />
+				<HTML>
+					During abdominal hysterectomy, your surgeon makes a vertical or a horizontal incision in your lower abdomen. A vertical incision (left) gives the surgeon greater access to your pelvis. A horizontal ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Abdominal hysterectomy
+	</Title>
+	<Abstract>
+		Abdominal hysterectomy &amp;mdash; Surgery that removes the uterus and treats gynecologic conditions, such as uterine cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00807" LinkType="Internal" ObjectID="E711535B-DE8A-B15E-A0233CCEE43B209D" Title="Video: Causes of endometriosis" Url="http://www.mayoclinic.com/health/cause-of-endometriosis/MM00807" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+	</RelatedLinksBox>
+</TestProcedure>

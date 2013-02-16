@@ -1,0 +1,431 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00915
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/congenital-adrenal-hyperplasia/DS00915
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-04
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="1749" Title="Birth defects/malformations">
+						<Keyword MCVID="3111" Title="Congenital adrenal hyperplasia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87E00EE1-E7FF-0DBD-1DF8D67F606E7389
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				congenital adrenal hyperplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal glands
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Congenital adrenal hyperplasia (kun-JEN-i-tul uh-DRE-nul hi-pur-PLA-zhuh) is a collection of genetic conditions that limit your adrenal glands&apos; ability to make certain vital hormones. In most cases of congenital adrenal hyperplasia, the adrenal glands don&apos;t produce enough cortisol. The production of two other classes of hormones also may be affected, including mineralocorticoids (for example, aldosterone) and androgens (for example, testosterone). 
+&lt;/p&gt;
+&lt;p&gt;
+Congenital adrenal hyperplasia can cause problems with normal growth and development in children &amp;mdash; including normal development of the genitals. It affects both males and females. 
+&lt;/p&gt;
+&lt;p&gt;
+Although congenital adrenal hyperplasia can be life-threatening, most people with it can lead normal lives with proper treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are two major types of congenital adrenal hyperplasia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Classic congenital adrenal hyperplasia.&lt;/strong&gt; This more severe form of the disease is usually detected in infancy or early childhood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonclassic congenital adrenal hyperplasia.&lt;/strong&gt; This milder form usually develops in late childhood or early adulthood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Classic congenital adrenal hyperplasia&lt;/strong&gt;&lt;br /&gt;
+The most obvious sign of classic congenital adrenal hyperplasia in girls is often abnormal-appearing genitals that look more male than female, which may include an enlarged clitoris &amp;mdash; a condition called ambiguous external genitalia. Other signs and symptoms in girls also reflect exposure to elevated levels of male sex hormones (androgens) while in the womb. 
+&lt;/p&gt;
+&lt;p&gt;
+The condition is not typically as visually evident in baby boys, although some affected male infants have an enlarged penis. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of classic congenital adrenal hyperplasia in infants include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ambiguous genitalia in girls&lt;/li&gt;
+	&lt;li&gt;Enlarged penis in boys&lt;/li&gt;
+	&lt;li&gt;Poor weight gain &lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of classic congenital adrenal hyperplasia in children and adults include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Very early puberty&lt;/li&gt;
+	&lt;li&gt;Rapid growth during childhood, but shorter than average final height&lt;/li&gt;
+	&lt;li&gt;Irregular menstrual cycles in women&lt;/li&gt;
+	&lt;li&gt;Infertility in women and men&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonclassic congenital adrenal hyperplasia&lt;/strong&gt; &lt;br /&gt;
+This form of congenital adrenal hyperplasia is milder and usually develops in late childhood or early adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms are typically most apparent in adolescent girls and women and often include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irregular or absent menstruation&lt;/li&gt;
+	&lt;li&gt;Masculine characteristics such as facial hair, excessive body hair and a deepening voice&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In both females and males, signs and symptoms of nonclassic congenital adrenal hyperplasia also may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Early puberty&lt;/li&gt;
+	&lt;li&gt;Rapid growth during childhood, but shorter than average final height&lt;/li&gt;
+	&lt;li&gt;Severe acne&lt;/li&gt;
+	&lt;li&gt;Low bone density&lt;/li&gt;
+	&lt;li&gt;High blood cholesterol&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your child&apos;s pediatrician if your child has signs and symptoms that seem to suggest congenital adrenal hyperplasia. Also, if you&apos;re pregnant and may be in a high-risk group for congenital adrenal hyperplasia because of your own medical history or your ethnicity, ask your doctor about genetic counseling. Your doctor can also discuss with you possible treatment of your fetus before birth (prenatal treatment). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Congenital adrenal hyperplasia affects your adrenal glands, a pair of walnut-sized organs located above your kidneys. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inherited defect affects cortisol production&lt;/strong&gt; &lt;br /&gt;
+The cause of congenital adrenal hyperplasia is an inherited genetic defect that limits production of one of the many enzymes the adrenal glands use to make cortisol. The enzyme most commonly lacking in congenital adrenal hyperplasia is 21-hydroxylase. Congenital adrenal hyperplasia may sometimes be called 21-hydroxylase deficiency. Signs and symptoms of congenital adrenal hyperplasia are worst when the enzyme deficiency is severe. 
+&lt;/p&gt;
+&lt;p&gt;
+Most of the problems caused by classic congenital adrenal hyperplasia are related to a lack of cortisol, which plays an important role in regulating your blood pressure, maintaining blood sugar and energy levels, and protecting your body against stress. 
+&lt;/p&gt;
+&lt;p&gt;
+A child with classic congenital adrenal hyperplasia may also experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A lack in the adrenal glands&apos; production of aldosterone.&lt;/strong&gt; This can lead to low blood pressure, lower sodium level and higher potassium level. Sodium and potassium normally work together to help maintain the right balance of fluids in your body, transmit nerve impulses, and contract and relax your muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess production of the male sex hormones (androgens such as testosterone).&lt;/strong&gt; This can result in short height, early puberty in boys, abnormal genital development in girls and severe acne. Signs and symptoms may vary, depending on which specific gene is defective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The condition is passed along in an inheritance pattern called autosomal recessive. Children who have the disorder have two parents who either have the condition themselves or who are both carriers of the genetic mutation that causes the condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you and your spouse have congenital adrenal hyperplasia or if both of you are carriers of the genetic defect for the disease, your child is at increased risk of having the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+People in some ethnic groups are more likely to develop this disorder, particularly Ashkenazi Jews. The condition is also more common among Hispanics, Yugoslavs and Eskimos. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Babies, children or adults with classic congenital adrenal hyperplasia could experience a life-threatening &quot;adrenal crisis,&quot; due to inadequate production of cortisol from the adrenal glands. An adrenal crisis can result in a seriously low level of sodium in the blood, diarrhea, vomiting, dehydration, low blood sugar levels and shock. People experiencing an adrenal crisis need immediate treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Adrenal crisis does not occur in adults with the nonclassic form of congenital adrenal hyperplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+Long-term complications of congenital adrenal hyperplasia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ongoing risk of adrenal crisis&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;Sexual problems, such as pain during intercourse and embarrassment about genitals&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Classic congenital adrenal hyperplasia is usually detected at birth or in early infancy when baby girls show ambiguous genitalia or when babies of both sexes show signs of severe illness. If your baby is vomiting, lethargic or showing other signs of severe illness, seek immediate medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+In nonclassic congenital adrenal hyperplasia, you may first make an appointment when you notice signs and symptoms of early puberty &amp;mdash; sometimes very early &amp;mdash; in your toddler or older child. After your family doctor or your child&apos;s pediatrician evaluates your child, your child may be referred to a doctor who specializes in the diagnosis and treatment of conditions related to the adrenal glands (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, signs and symptoms of nonclassic congenital adrenal hyperplasia may not develop in women until the teenage or young adult years. Indications of the condition in these cases may include irregular or lack of menstruation, unwanted male-pattern hair growth in women (hirsutism) or infertility. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out if your child needs to follow any pre-appointment restrictions,&lt;/strong&gt; such as changing his or her food or liquid intake to get ready for blood and urine tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms your child has been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your child&apos;s key medical information,&lt;/strong&gt; including recent illnesses your child has had and the names of any medications he or she is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For congenital adrenal hyperplasia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my child&apos;s signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will treatment slow down the rate at which my child is sexually maturing?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of treatment?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my child&apos;s health over time?&lt;/li&gt;
+	&lt;li&gt;What is my child&apos;s risk of long-term complications?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that my child receive psychological counseling?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that our family meet with a genetic counselor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When did your first begin noticing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your child&apos;s symptoms include feeling fatigued or faint?&lt;/li&gt;
+	&lt;li&gt;Do your child&apos;s symptoms include feeling nauseous?&lt;/li&gt;
+	&lt;li&gt;Is your child experiencing any social problems related to his or her early sexual development?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family been diagnosed with congenital adrenal hyperplasia?&lt;/li&gt;
+	&lt;li&gt;Are you planning to have more children?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to diagnose congenital adrenal hyperplasia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your child&apos;s doctor will examine your child and evaluate symptoms. If, based on these findings, the doctor suspects congenital adrenal hyperplasia, the next step is to confirm the diagnosis with blood and urine tests.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; Tests used to diagnose congenital adrenal hyperplasia measure levels of hormones manufactured by the adrenal glands &amp;mdash; cortisol, aldosterone and androgens. A diagnosis can be made when there are abnormal levels of these hormones. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In many states, doctors are required to conduct hormonal tests for congenital adrenal hyperplasia in newborns during the first few days of life. Blood is drawn with a heel prick of the newborn and analyzed. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prenatal testing&lt;/strong&gt; &lt;br /&gt;
+Doctors have the tools to screen and diagnose congenital adrenal hyperplasia in fetuses. These tools are used most often when siblings have the disease or family members are known to carry the gene defect. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant and have the condition or a family history of the condition, your doctor may recommend one of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Amniocentesis.&lt;/strong&gt; This procedure uses a needle to withdraw a sample of cells from the amniotic fluid in the womb and determine in the laboratory whether the condition is present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chorionic villus sampling.&lt;/strong&gt; This test involves withdrawing cells from the placenta for analysis in the laboratory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the condition is diagnosed before birth, treatment can be started in the womb. Prenatal diagnosis and therapy may be able to reduce the risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Testing to determine a child&apos;s sex&lt;/strong&gt; &lt;br /&gt;
+After birth, your child may have ambiguous external genitalia, so you may not sure of your child&apos;s sex. In that case, genetic blood tests can analyze chromosomes &amp;mdash; in a test called karyotyping &amp;mdash; to determine the sex of your child. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, a pelvic ultrasound can be used to produce images of female reproductive structures &amp;mdash; the cervix, uterus and fallopian tubes &amp;mdash; to confirm whether your child is a girl. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To treat congenital adrenal hyperplasia, it&apos;s best to get a referral to a specialist in childhood hormonal issues (pediatric endocrinologist). Treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications.&lt;/strong&gt; In most cases, your child&apos;s doctor will prescribe replacement hormone medication to boost the levels of deficient hormones in your child and restore them to normal levels. For example, your child may take an oral drug &amp;mdash; such as hydrocortisone or dexamethasone to replace cortisol and fludrocortisone to replace aldosterone &amp;mdash; on a daily basis. At times, children with congenital adrenal hyperplasia need multiple drugs, with even higher doses prescribed during periods of illness or severe stress, including surgery.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Steroid-type replacement medications may cause side effects, particularly if the doses are high and are used long term. Your doctor will monitor your child for medication side effects, such as the loss of bone mass and impaired growth, and will also order regular blood tests to see if medications need adjusting. Keep all scheduled appointments so that your doctor can regularly check your child&apos;s progress, including monitoring changes in height, weight and blood pressure. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Treatment for girls with classic congenital adrenal hyperplasia involves a careful balance of the right amount of cortisone medications. Adequate cortisone replacement is needed to suppress androgens, allowing for normal height and minimizing masculine characteristics. However, too much cortisone may cause Cushing&apos;s syndrome. Your doctor will schedule regular tests to monitor your child for these side effects. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	As adults, some men and women with congenital adrenal hyperplasia are able to stop taking their replacement hormone medications. However, others, particularly people with the classic form of the disease, may need to take replacement hormone medications indefinitely. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In some infant girls who have ambiguous external genitalia, doctors recommend reconstructive surgery to correct the appearance and function of the genitals. This procedure may involve reduction of the clitoris size and reconstruction of the vaginal opening. The surgery is typically performed between 2 and 6 months of age.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prenatal management&lt;/strong&gt;&lt;br /&gt;
+Sometimes, treatment for congenital adrenal hyperplasia can begin before your child is born. 
+&lt;/p&gt;
+&lt;p&gt;
+When congenital adrenal hyperplasia is diagnosed in the fetus, one option is for the pregnant mother to take a powerful corticosteroid drug, such as dexamethasone, before giving birth. Corticosteroids can cross the placenta and suppress the activity of the fetus&apos;s own adrenal glands. By reducing the secretion of male hormones (androgens), this approach may allow female genitals to develop normally. It can also reduce the masculine features that may develop later in female fetuses. When the fetus is male, doctors may recommend a shorter course of lower dose dexamethasone treatment during pregnancy to keep the adrenal glands functioning as normally as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Although the use of dexamethasone can be effective, many doctors prescribe it with caution, as there&apos;s no clear evidence yet about the long-term safety of this drug in children with this condition. The medication can also cause side effects in the pregnant mother, including excess weight gain, mood swings and high blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prognosis&lt;/strong&gt; &lt;br /&gt;
+Many children with congenital adrenal hyperplasia can successfully manage the condition by staying on their replacement hormone medications. They grow up to lead lives in good health and with a normal life expectancy. However, they may be shorter than their parents. And both men and women may have fertility problems in adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+Girls who have corrective genital surgery may need further cosmetic surgery later in life. When they become sexually active, they&apos;re more likely than are women who have not had genital surgery to experience sexual problems such as pain during intercourse. 
+&lt;/p&gt;
+&lt;p&gt;
+Some advocates of children with ambiguous genitalia argue that corrective surgery shouldn&apos;t be performed until a child is old enough to understand the risks and choose his or her own gender assignment. However, most experts recommend performing corrective genital surgery when girls are very young because the surgery is technically less challenging than in later years. 
+&lt;/p&gt;
+&lt;p&gt;
+Before making decisions about the best treatment approach for your daughter, talk with your doctor about these issues. Working together, you and your doctor can make informed choices that will help your daughter thrive. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Females with classic congenital adrenal hyperplasia &amp;mdash; who are exposed in the womb to elevated levels of male sex hormones &amp;mdash; are more likely than are girls without this condition to prefer typically male-gender roles and activities throughout their life. They may be more likely to identify as bisexual or homosexual. 
+&lt;/p&gt;
+&lt;p&gt;
+Sexual problems are common among girls and women with congenital adrenal hyperplasia, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Embarrassment about the appearance of genitals&lt;/li&gt;
+	&lt;li&gt;Uncertainty that intercourse will be possible&lt;/li&gt;
+	&lt;li&gt;Pain and bleeding during intercourse&lt;/li&gt;
+	&lt;li&gt;Discomfort telling a new partner about the disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Early and steady support from family and health care providers can help girls grow up to have normal self-esteem and a satisfying social life. Make sure counseling is included in your child&apos;s treatment plan, and that you and your child&apos;s health care providers pay attention to her mental and emotional health as well as her physical well-being. 
+&lt;/p&gt;
+&lt;p&gt;
+You can also help your child by resisting the urge to over-protect her, which may only convince her that she is different or limited. If you&apos;re having trouble coping with your child&apos;s condition or feel overwhelmed by worry, ask your doctor to refer you to a mental health professional. An experienced therapist can help you deal with your feelings and develop healthy parenting strategies. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors often recommend genetic counseling for parents who have congenital adrenal hyperplasia and are contemplating starting a family. The disorder can be diagnosed in fetuses, and prompt treatment, most often beginning in the first or second trimester, can reduce or even eliminate symptoms after birth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Congenital adrenal hyperplasia
+	</Title>
+	<Abstract>
+		Congenital adrenal hyperplasia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this adrenal gland disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

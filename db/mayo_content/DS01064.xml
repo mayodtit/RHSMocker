@@ -1,0 +1,391 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01064
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/delirium/DS01064
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1572" Title="Psychotic disorders">
+						<Keyword MCVID="3313" Title="Delirium" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C6FB83A7-E7FF-0DBD-1F62319C1EA0A393
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				delirium
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Delirium is a serious disturbance in a person&apos;s mental abilities that results in a decreased awareness of one&apos;s environment and confused thinking. The onset of delirium is usually sudden, often within hours or a few days. 
+&lt;/p&gt;
+&lt;p&gt;
+Delirium can often be traced to one or more contributing factors, such as a severe or chronic medical illness, medication, infection, surgery, or drug or alcohol abuse. 
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms of delirium and dementia can be similar, and input from a family member or caregiver may be important for a doctor to make an accurate diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of delirium appear over a short period of time, from a few hours to a few days. They often fluctuate throughout the day, so a person may have periods of no symptoms. Primary signs and symptoms include those below. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reduced awareness of the environment&lt;/strong&gt; &lt;br /&gt;
+This may result in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An inability to stay focused on a topic or to change topics&lt;/li&gt;
+	&lt;li&gt;Wandering attention&lt;/li&gt;
+	&lt;li&gt;Getting stuck on an idea rather than responding to questions or conversation&lt;/li&gt;
+	&lt;li&gt;Being easily distracted by unimportant things&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being withdrawn, with little or no activity or little response to the environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Poor thinking skills (cognitive impairment)&lt;/strong&gt; &lt;br /&gt;
+This may appear as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor memory, particularly of recent events&lt;/li&gt;
+	&lt;li&gt;Disorientation, or not knowing where one is, who one is or what time of day it is&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking or recalling words&lt;/li&gt;
+	&lt;li&gt;Rambling or nonsense speech&lt;/li&gt;
+	&lt;li&gt;Difficulty understanding speech&lt;/li&gt;
+	&lt;li&gt;Difficulty reading or writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior changes&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seeing things that don&apos;t exist (hallucinations)&lt;/li&gt;
+	&lt;li&gt;Restlessness, agitation, irritability or combative behavior&lt;/li&gt;
+	&lt;li&gt;Disturbed sleep habits&lt;/li&gt;
+	&lt;li&gt;Extreme emotions, such as fear, anxiety, anger or depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Delirium and dementia&lt;/strong&gt; &lt;br /&gt;
+Other medical conditions can result in symptoms associated with delirium. Dementia and delirium may be particularly difficult to distinguish, and a person may have both. In fact, frequently delirium occurs in people with dementia. 
+&lt;/p&gt;
+&lt;p&gt;
+Dementia is the progressive decline of memory and other thinking skills due to the gradual dysfunction and loss of brain cells. The most common cause of dementia is Alzheimer&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Some differences between the symptoms of delirium and dementia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Onset.&lt;/strong&gt; The onset of delirium occurs within a short time, while dementia usually begins with relatively minor symptoms that gradually worsen over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Attention.&lt;/strong&gt; The inability to stay focused or maintain attention is significantly impaired with delirium. A person in the early stages of dementia remains generally alert.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluctuation.&lt;/strong&gt; The appearance of delirium symptoms can fluctuate significantly and often throughout the day. While people with dementia have better and worse times of day, their memory and thinking skills stay at a fairly constant level during the course of a day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If a relative, friend or someone in your care shows any signs or symptoms of delirium, see a doctor. If the person has dementia, be aware of relatively sudden changes in overall awareness and engagement, which may signal delirium. Your input about the person&apos;s symptoms, as well as his or her typical thinking and everyday abilities, will be important for a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Older people recovering in the hospital or living in a long-term care facility are particularly at risk of delirium. Because symptoms can fluctuate and some symptoms are &quot;quiet&quot; &amp;mdash; such as social withdrawal or poor responsiveness &amp;mdash; delirium may be missed. If you notice signs and symptoms of delirium in a person in a hospital or nursing home, report your concerns to the nursing staff or doctor rather than assuming that those problems have been observed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Delirium occurs when the normal sending and receiving of signals in the brain becomes impaired. This impairment is most likely caused by a combination of factors that make the brain vulnerable and trigger a malfunction in brain activity. 
+&lt;/p&gt;
+&lt;p&gt;
+Any condition that results in a hospital stay, especially in intensive care, increases the risk of delirium. Common causes include dehydration and infections, such as urinary tract infection, pneumonia, and skin and abdominal infections. Examples of other conditions that increase the risk of delirium include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dementia&lt;/li&gt;
+	&lt;li&gt;Older age&lt;/li&gt;
+	&lt;li&gt;Fever and acute infection, particularly in children &lt;/li&gt;
+	&lt;li&gt;Previous delirium episodes&lt;/li&gt;
+	&lt;li&gt;Visual or hearing impairment&lt;/li&gt;
+	&lt;li&gt;Poor nutrition or dehydration&lt;/li&gt;
+	&lt;li&gt;Severe, chronic or terminal illness&lt;/li&gt;
+	&lt;li&gt;Multiple medical problems or procedures &lt;/li&gt;
+	&lt;li&gt;Treatment with multiple drugs &lt;/li&gt;
+	&lt;li&gt;Alcohol or drug abuse or withdrawal &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A number of medications or combinations of medications can trigger delirium, including some types of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain medications&lt;/li&gt;
+	&lt;li&gt;Sleep medications&lt;/li&gt;
+	&lt;li&gt;Allergy medications (antihistamines)&lt;/li&gt;
+	&lt;li&gt;Medications for mood disorders, such as anxiety and depression&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease medications&lt;/li&gt;
+	&lt;li&gt;Drugs for treating spasms or convulsions&lt;/li&gt;
+	&lt;li&gt;Asthma medications &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Delirium may have more than one cause, such as a medical condition and medication toxicity. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Delirium may last only a few hours or as long as several weeks or months. If factors contributing to delirium are addressed, the recovery time is often shorter.
+&lt;/p&gt;
+&lt;p&gt;
+The degree of recovery depends to some extent on the health and mental status before the onset of delirium. People with dementia, for example, may experience a significant overall decline in memory and thinking skills. People in better health are more likely to recover fully. 
+&lt;/p&gt;
+&lt;p&gt;
+People with other serious, chronic or terminal illnesses may not regain the levels of thinking skills or functioning that they had before the onset of delirium. Delirium in seriously ill people is also more likely to lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;General decline in health&lt;/li&gt;
+	&lt;li&gt;Poor recovery from surgery&lt;/li&gt;
+	&lt;li&gt;Need for institutional care&lt;/li&gt;
+	&lt;li&gt;Increased risk of death &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re the relative or primary caregiver of a person with delirium, you&apos;ll likely play a role in making an appointment or providing information to the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+You can prepare for the appointment &amp;mdash; or for a meeting with a doctor if the person is hospitalized &amp;mdash; by making a list of these items: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Include all prescriptions and over-the-counter medications, as well as dietary supplements, the person takes. Pay special attention to recent medication changes, including additions or deletions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doctors.&lt;/strong&gt; Provide the names and contact information of any doctors, therapists or other clinicians who provide care for the person.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms.&lt;/strong&gt; Record the time of onset, a description of all symptoms and minor changes in behaviors that may have preceded the onset of delirium symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions.&lt;/strong&gt; List questions from most to least important, because you may have limited time with the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;/strong&gt; &lt;br /&gt;
+Be prepared to answer the following questions, which may help the doctor assess the person&apos;s condition and make a diagnosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the symptoms and when did they begin?&lt;/li&gt;
+	&lt;li&gt;Has the person been diagnosed with dementia?&lt;/li&gt;
+	&lt;li&gt;Has the person been ill recently with a fever, cough or urinary symptoms?&lt;/li&gt;
+	&lt;li&gt;Has the person experienced a recent head injury or other trauma?&lt;/li&gt;
+	&lt;li&gt;What were the person&apos;s memory and other thinking skills like before the onset of symptoms?&lt;/li&gt;
+	&lt;li&gt;How well did the person perform everyday activities before the onset of symptoms?&lt;/li&gt;
+	&lt;li&gt;Can he or she usually function independently?&lt;/li&gt;
+	&lt;li&gt;What other medical conditions have been diagnosed?&lt;/li&gt;
+	&lt;li&gt;Does the person take prescription medications as directed? When was the most recent dose?&lt;/li&gt;
+	&lt;li&gt;Do you know if the person recently used or has a history of alcohol or recreational drug use?&lt;/li&gt;
+	&lt;li&gt;Has the person recently appeared depressed, extremely sad or withdrawn?&lt;/li&gt;
+	&lt;li&gt;Has the person indicated that he or she does not feel safe?&lt;/li&gt;
+	&lt;li&gt;Has the person shown any signs of paranoia? &lt;/li&gt;
+	&lt;li&gt;Has the person seen or heard things that no one else does?&lt;/li&gt;
+	&lt;li&gt;Does the person have any new physical symptoms? &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor will diagnose delirium based on the answers to questions about a person&apos;s medical history, tests to assess mental status and the identification of possible contributing factors. An examination may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mental status assessment.&lt;/strong&gt; A doctor starts by assessing awareness, attention and thinking. This can be done informally through conversation, or more formally with tests or screening checklists that assess mental state, confusion, perception and memory.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical and neurological exams.&lt;/strong&gt; The doctor will perform a physical exam, checking for signs of dehydration, infection, alcohol withdrawal and other problems. The physical exam can also help detect underlying disease. Delirium may be the first or only sign of a serious condition, such as respiratory failure or heart failure. A neurological exam &amp;mdash; checking vision, balance, coordination and reflexes &amp;mdash; can help determine if a stroke or another neurological disease is causing the delirium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other possible tests.&lt;/strong&gt; If the cause or trigger of delirium can&apos;t be determined from the medical history or exam, the doctor may order blood, urine and other diagnostic tests. Brain-imaging tests may be used when a diagnosis can&apos;t be made with other available information. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first goal of treatment for delirium is to address any underlying causes or triggers &amp;mdash; by stopping use of a particular medication, for example, or treating an infection. Treatment then focuses on creating the best environment for healing the body and calming the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive care&lt;/strong&gt; &lt;br /&gt;
+Supportive care aims to prevent complications by protecting the airway, providing fluids and nutrition, assisting with movement, treating pain, addressing incontinence and keeping people with delirium oriented to their surroundings. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of simple, nondrug approaches may be of some help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clocks and calendars to help a person stay oriented&lt;/li&gt;
+	&lt;li&gt;A calm, comfortable environment that includes familiar objects from home &lt;/li&gt;
+	&lt;li&gt;Regular verbal reminders of current location and what&apos;s happening &lt;/li&gt;
+	&lt;li&gt;Involvement of family members &lt;/li&gt;
+	&lt;li&gt;Avoidance of change in surroundings and caregivers &lt;/li&gt;
+	&lt;li&gt;Uninterrupted periods of sleep at night, with low levels of noise and minimal light&lt;/li&gt;
+	&lt;li&gt;Open blinds during the day to promote daytime alertness and a regular sleep-wake cycle &lt;/li&gt;
+	&lt;li&gt;Avoidance of physical restraints and bladder tubes&lt;/li&gt;
+	&lt;li&gt;Adequate nutrition and fluid &lt;/li&gt;
+	&lt;li&gt;Use of adequate light, music, massage and relaxation techniques to ease agitation&lt;/li&gt;
+	&lt;li&gt;Opportunities to get out of bed, walk and perform self-care activities &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Provision of eyeglasses, hearing aids and other adaptive equipment as needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Talk with the doctor about avoiding or minimizing the use of drugs that may trigger delirium. However, certain drug treatment may calm a person who misinterprets the environment in a way that leads to severe paranoia, fear or hallucinations, and when severe agitation or confusion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prevents the performance of a necessary medical exam or treatment&lt;/li&gt;
+	&lt;li&gt;Endangers the person or threatens the safety of others&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t lessen with nondrug treatments&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re a relative or caregiver of someone at risk of or recovering from delirium, you can take steps to improve the person&apos;s health, prevent a recurrence and help manage responsibilities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Promote good sleep habits&lt;/strong&gt; &lt;br /&gt;
+To promote good sleep habits: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Keep inside lighting appropriate for the time of day&lt;/li&gt;
+	&lt;li&gt;Encourage exercise and activity during the day&lt;/li&gt;
+	&lt;li&gt;Offer warm, soothing, noncaffeinated beverages before bedtime&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Promote calmness and orientation&lt;/strong&gt; &lt;br /&gt;
+To help the person remain calm and well oriented: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Provide a clock and calendar and refer to them regularly throughout the day&lt;/li&gt;
+	&lt;li&gt;Communicate simply about any change in activity, such as time for lunch or time for bed&lt;/li&gt;
+	&lt;li&gt;Keep familiar and favorite objects around, but avoid a cluttered environment&lt;/li&gt;
+	&lt;li&gt;Approach the person calmly&lt;/li&gt;
+	&lt;li&gt;Identify yourself or other people regularly&lt;/li&gt;
+	&lt;li&gt;Avoid arguments&lt;/li&gt;
+	&lt;li&gt;Keep noise levels and other distractions to a minimum&lt;/li&gt;
+	&lt;li&gt;Help the person keep a regular daytime schedule&lt;/li&gt;
+	&lt;li&gt;Maintain and provide eyeglasses and hearing aids&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevent complicating problems&lt;/strong&gt; &lt;br /&gt;
+Help prevent medical problems by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Giving the person his or her medication on a regular schedule&lt;/li&gt;
+	&lt;li&gt;Providing plenty of fluids and a healthy diet&lt;/li&gt;
+	&lt;li&gt;Encouraging regular exercise and activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Caring for the caregiver&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re providing regular care for a person with or at risk of delirium, consider support groups, educational materials or other resources offered by the person&apos;s health care provider, nonprofit organizations, community health services and government agencies. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of organizations that may provide helpful information include the National Family Caregivers Association and the National Institute on Aging. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most successful approach to preventing delirium is to target risk factors that might trigger an episode. Hospital environments present a special challenge &amp;mdash; frequent room changes, invasive procedures, loud noises, poor lighting and lack of natural light can worsen confusion. 
+&lt;/p&gt;
+&lt;p&gt;
+Evidence indicates that these strategies help prevent or reduce the severity of delirium in hospitalized people: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Provide adequate fluids&lt;/li&gt;
+	&lt;li&gt;Provide stimulating activities and familiar objects&lt;/li&gt;
+	&lt;li&gt;Encourage the use of eyeglasses and hearing aids, if applicable&lt;/li&gt;
+	&lt;li&gt;Use simple and regular communication about people, current place and time&lt;/li&gt;
+	&lt;li&gt;Provide mobility and range-of-motion exercises &lt;/li&gt;
+	&lt;li&gt;Reduce noise and avoid sleep interruptions&lt;/li&gt;
+	&lt;li&gt;Provide appropriate pain management and offer nondrug treatment for sleep problems or anxiety &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Delirium
+	</Title>
+	<Abstract>
+		Delirium &amp;mdash; Comprehensive overview covers delirium symptoms, causes, treatment and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00183" LinkType="Internal" ObjectID="23246C2F-131D-4391-BB2A6B3E819A126F" Title="Drug addiction" Url="http://www.mayoclinic.com/health/drug-addiction/DS00183" />
+	</RelatedLinksBox>
+</Disease>

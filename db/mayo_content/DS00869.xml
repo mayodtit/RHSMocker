@@ -1,0 +1,212 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00869
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/conjoined-twins/DS00869
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="1749" Title="Birth defects/malformations">
+						<Keyword MCVID="3193" Title="Conjoined twins" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3E522E65-E7FF-0DBD-1ABD7253381866EF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				conjoined twins
+			</MetaKeyword>
+			<MetaKeyword>
+				Siamese twins
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Conjoined twins are two babies that are born physically connected to each other. 
+&lt;/p&gt;
+&lt;p&gt;
+Conjoined twins develop when a single fertilized egg only partially splits. Although two fetuses will develop from this egg, they will remain physically connected &amp;mdash; most often at the head, chest or pelvis. Conjoined twins may also share one or more internal organs. 
+&lt;/p&gt;
+&lt;p&gt;
+Most conjoined twins are stillborn or die shortly after birth. Some surviving conjoined twins can be surgically separated. The success of surgery to separate conjoined twins depends on where the twins are joined and how many organs are shared, as well as on the experience and skill of the surgical team. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t any specific signs and symptoms that indicate a woman is carrying conjoined twins. As with other twin pregnancies, the uterus may grow more rapidly than expected, and mothers of twins may also have more fatigue, nausea and vomiting early in the pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How twins are joined&lt;/strong&gt;&lt;br /&gt;
+Conjoined twins are usually classified according to where they&apos;re joined, and there are many ways that conjoined twins may be connected. Some of the more common include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joined at the chest.&lt;/strong&gt; One of the most common of conjoined twins, thoracopagus twins are joined at the chest. They have a shared heart and may also share one liver and upper intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joined near the bellybutton.&lt;/strong&gt; Omphalopagus twins are joined near the bellybutton. Many omphalopagus twins share the liver, and some share the lower part of the small intestine (ileum) and colon. They do not, however, share a heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joined at the base of the spine.&lt;/strong&gt; Pygopagus twins are joined at the base of the spine. Some pygopagus twins share the lower gastrointestinal tract, and a few share the genital and urinary organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joined at the pelvis.&lt;/strong&gt; Ischiopagus twins are joined at the pelvis. Many ischiopagus twins share the lower gastrointestinal tract, as well as the genital and urinary tract organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joined at the head.&lt;/strong&gt; Craniopagus twins are joined at the head. Craniopagus twins share the skull, and possibly brain tissue. Some also share the cerebral cortex &amp;mdash; the part of the brain that plays a central role in memory, language and perception.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many conjoined twins have separate arms and legs, but in some cases, limbs are shared. In rare cases, twins may be asymmetrically conjoined, with one twin smaller and less fully formed than the other (parasitic twins). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Identical twins (monozygotic twins) occur when a single fertilized egg splits and develops into two fetuses. The split normally happens during the first 12 days after conception. It&apos;s believed that when the fertilized egg splits later than this &amp;mdash; usually between 13 and 14 days after conception &amp;mdash; separation stops before the process is complete, and the resulting twins are conjoined. The degree to which the egg splits and when the split happens determines how and where the twins will be joined. 
+&lt;/p&gt;
+&lt;p&gt;
+But, another theory suggests that two separate embryos may somehow fuse together in early development. 
+&lt;/p&gt;
+&lt;p&gt;
+What might cause either scenario to occur is unknown. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because conjoined twins are so rare, and the cause isn&apos;t clear, it&apos;s unknown what might make some couples more likely to have conjoined twins. It is known, however, that conjoined twins occur more often in India and Africa than they do in the United States or Europe. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most conjoined twins die in the womb (stillborn) or soon after birth. 
+&lt;/p&gt;
+&lt;p&gt;
+Vaginal delivery is rarely possible for conjoined twins. About 40 percent of conjoined twins are stillborn. Of conjoined twins born alive, less than half survive long enough to be candidates for separation surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Conjoined twins can be diagnosed using standard ultrasound by midpregnancy. The use of high-resolution and transvaginal ultrasound &amp;mdash; an imaging method in which the ultrasound probe is placed in the vagina &amp;mdash; makes it possible to diagnose conjoined twins during the first trimester. False-positive results can occur before 10 weeks, however, when identical twins who share an amniotic sac (monoamniotic twins) may appear conjoined.
+&lt;/p&gt;
+&lt;p&gt;
+If an ultrasound detects conjoined twins, a magnetic resonance imaging (MRI) scan may be done, as it can provide greater detail about where the conjoined twins are connected. 
+&lt;/p&gt;
+&lt;p&gt;
+If the twins are connected in a way that leaves them with no possibility of life outside the uterus, parents face the difficult decision of whether to continue the pregnancy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of conjoined twins varies greatly depending on the circumstances. 
+&lt;/p&gt;
+&lt;p&gt;
+Many parents make the difficult decision to end the pregnancy. Prognosis and quality-of-life issues weigh heavily in the decision, as well as the likelihood of successful separation. If the babies share a heart or brain, for example, separation surgery may not be possible. 
+&lt;/p&gt;
+&lt;p&gt;
+If the parents choose to continue the pregnancy, mother and babies will be closely monitored throughout the pregnancy. A surgical (C-section) delivery is planned ahead of time, often two to four weeks before the due date.
+&lt;/p&gt;
+&lt;p&gt;
+After the conjoined twins are born, the parents and doctors must decide whether to attempt separation surgery. An emergency separation may be needed if one of the twins dies, develops a life-threatening condition or threatens the survival of the other twin. More often, however, separation surgery is an elective procedure done two to four months after birth. 
+&lt;/p&gt;
+&lt;p&gt;
+Many factors weigh heavily in the decision to pursue separation surgery, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do the twins share vital organs?&lt;/li&gt;
+	&lt;li&gt;Are the twins healthy enough to withstand separation surgery?&lt;/li&gt;
+	&lt;li&gt;What are the odds of successful separation?&lt;/li&gt;
+	&lt;li&gt;What type of reconstructive surgery might be needed for each twin after successful separation?&lt;/li&gt;
+	&lt;li&gt;What issues would the twins face if left conjoined?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If separation surgery isn&apos;t possible or the parents decide not to pursue the surgery, comfort care &amp;mdash; such as nutrition, fluids, human touch and pain relief &amp;mdash; is provided as needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Few things are harder than for expectant parents to learn that their unborn child has a life-threatening condition. In the case of conjoined twins, this is doubly difficult &amp;mdash; not just because there are two babies involved, but also because the children who survive may face tremendous obstacles. Parents in these situations must grapple with very difficult decisions. 
+&lt;/p&gt;
+&lt;p&gt;
+Because conjoined twins are rare, it may be difficult to find resources specifically for conjoined twins or their families. But there are a number of organizations that support parents who have lost children or who have children with grave physical problems. Your medical team can put you in touch with some of these groups as well as with medical social workers and counselors. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Conjoined twins
+	</Title>
+	<Abstract>
+		Conjoined twins &amp;mdash; Comprehensive overview covers diagnosis and treatment for these rare identical twins.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

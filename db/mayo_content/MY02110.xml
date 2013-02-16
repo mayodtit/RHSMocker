@@ -1,0 +1,251 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY02110
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/otoplasty/MY02110
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2012-08-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3967" Title="Life stage">
+						<Keyword MCVID="3968" Title="Adult">
+							<Keyword MCVID="5008" Title="Otoplasty" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4D6A4B03-F668-862A-BF7851DE2F4F7281
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				otoplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				ear surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				cosmetic ear surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				ear pinning surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				ear plastic surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				ear pinning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Otoplasty &amp;mdash; also known as cosmetic ear surgery &amp;mdash; is a procedure to change the shape, position or size of the ears. 
+&lt;/p&gt;
+&lt;p&gt;
+You might choose to have otoplasty if you&apos;re bothered by how far your ears stick out from your head. You might also consider otoplasty if your ear or ears are misshapen due to an injury or birth defect. 
+&lt;/p&gt;
+&lt;p&gt;
+Otoplasty can be done at any age after the ears have reached their full size &amp;mdash; usually after age 5 &amp;mdash; through adulthood. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of otoplasty results 
+" Caption="During otoplasty, your doctor will surgically change the shape, position or size of your ears. Incisions can be made on the backs of the ears, as shown above, or within the inner creases of the ears. 
+" Height="60" Title="Otoplasty" URI="/images/image_popup/thumbs/mcdc7_otoplastythu.jpg" Width="60" />
+				<Image Alt="Illustration of otoplasty results 
+" Caption="During otoplasty, your doctor will surgically change the shape, position or size of your ears. Incisions can be made on the backs of the ears, as shown above, or within the inner creases of the ears. 
+" Height="494" Title="Otoplasty" URI="/images/image_popup/mcdc7_otoplasty.jpg" Width="400" />
+				<HTML>
+					During otoplasty, your doctor will surgically change the shape, position or size of your ears. Incisions can be made on the backs of the ears, as shown above, or within the inner creases of the ears. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might consider otoplasty if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your ear or ears stick out too far from your head&lt;/li&gt;
+	&lt;li&gt;Your ears are large in proportion to your head&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Otoplasty is typically done on both ears to optimize symmetry. 
+&lt;/p&gt;
+&lt;p&gt;
+Otoplasty can be done at any age after the ears have reached their full size &amp;mdash; usually after age 5. 
+&lt;/p&gt;
+&lt;p&gt;
+Otoplasty won&apos;t change the location of your ears or alter your ability to hear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Otoplasty poses various risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring.&lt;/strong&gt; While scars are permanent, they&apos;ll likely be hidden behind your ears or within your ears&apos; inner creases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asymmetry in ear placement.&lt;/strong&gt; This could occur as a result of changes during the healing process. Also, surgery might not successfully correct pre-existing asymmetry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in skin sensation.&lt;/strong&gt; During otoplasty, the repositioning of your ears can temporarily affect skin sensation in the area. Rarely, changes are permanent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems with stitches.&lt;/strong&gt; Stitches used to secure the ear&apos;s new shape might work their way to the surface of the skin and need to be removed. This can cause inflammation of the affected skin. As a result, you might need additional surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overcorrection.&lt;/strong&gt; Otoplasty can create unnatural contours that make ears appear to be pinned back.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Like any other type of major surgery, otoplasty poses a risk of bleeding, infection and an adverse reaction to anesthesia. It&apos;s also possible to have an allergic reaction to the surgical tape or other materials used during or after the procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Initially, you&apos;ll talk to a plastic surgeon about otoplasty. During your first visit, your plastic surgeon will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Review your medical history.&lt;/strong&gt; Be prepared to answer questions about current and past medical conditions, especially any ear infections. Talk about any medications you&apos;re taking or have taken recently, as well as any surgeries you&apos;ve had.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do a physical exam.&lt;/strong&gt; To determine your treatment options, the doctor will examine your ears &amp;mdash; including their placement, size, shape and symmetry. The doctor might also take pictures of your ears for your medical record.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss your expectations.&lt;/strong&gt; Explain why you want otoplasty and what you&apos;re hoping for in terms of appearance after the procedure. Make sure you understand the risks, such as possible overcorrection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before otoplasty you might also need to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking decreases blood flow in the skin and can slow the healing process. If you smoke, your doctor will recommend that you stop smoking before surgery and during recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain medications.&lt;/strong&gt; You&apos;ll likely need to avoid aspirin, anti-inflammatory drugs and herbal supplements, which can increase bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for help during recovery.&lt;/strong&gt; Make plans for someone to drive you home after surgery and stay with you for the first night of your recovery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Otoplasty can be done in a hospital or an outpatient surgical facility. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes the procedure is done with sedation and local anesthesia, which numbs only part of your body. In other cases, general anesthesia &amp;mdash; which renders you unconscious &amp;mdash; is recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+Otoplasty techniques vary based on what kind of correction is needed. The specific technique your plastic surgeon chooses will determine the location of the incisions and the resulting scars. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor might make incisions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;On the backs of your ears&lt;/li&gt;
+	&lt;li&gt;Within the inner creases of your ears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After making incisions, your doctor might remove excess cartilage and skin. He or she will then fold the cartilage into the proper position and secure it with internal stitches. Additional stitches will be used to close the incisions. 
+&lt;/p&gt;
+&lt;p&gt;
+The procedure typically takes about two hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After otoplasty, your ears will be covered in bandages for protection and support. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll likely feel some discomfort and itching. Take pain medication as recommended by your doctor. If you take pain medication and your discomfort increases, contact your doctor immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+To keep pressure off your ears, avoid sleeping on your side. Also try not to rub or place excessive force on the incisions. Consider wearing button-down shirts or shirts with loosefitting collars. 
+&lt;/p&gt;
+&lt;p&gt;
+A few days after otoplasty, your doctor will remove your bandages. Your ears will likely be swollen and red. You&apos;ll need to wear a loose headband that covers your ears at night for two to six weeks. This will help keep you from pulling your ears forward when rolling over in bed. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about when &amp;mdash; or if &amp;mdash; your stitches will be removed. Some stitches dissolve on their own. Others must be removed in the doctor&apos;s office in the weeks after the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor when it&apos;s OK to resume daily activities, such as bathing and physical activity. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your bandages are removed, you&apos;ll notice an immediate change in the appearance of your ears. These changes are permanent. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re not satisfied with your results, check with your surgeon about the possibility of revision surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Otoplasty
+	</Title>
+	<Abstract>
+		Otoplasty &amp;mdash; Overview covers how it&apos;s done, plus risks and results of this cosmetic procedure to change the appearance of your ears.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

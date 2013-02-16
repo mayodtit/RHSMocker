@@ -1,0 +1,245 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00312
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rectal-prolapse-surgery/MY00312
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-03
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3791" Title="Digestive system">
+						<Keyword MCVID="4175" Title="Surgery">
+							<Keyword MCVID="3895" Title="Rectal prolapse surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9F0F1D91-E7FF-0DBD-164BF372AB5A34FD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rectal prolapse surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal prolapse
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal prolapse repair
+			</MetaKeyword>
+			<MetaKeyword>
+				rectopexy
+			</MetaKeyword>
+			<MetaKeyword>
+				rectosigmoidectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rectal prolapse surgery is a procedure to repair rectal prolapse. Rectal prolapse occurs when part of the rectum &amp;mdash; the last several inches of the large intestine (colon) &amp;mdash; protrudes from the anus. Rectal prolapse surgery can relieve discomfort and reduce fecal incontinence in some people with rectal prolapse. 
+&lt;/p&gt;
+&lt;p&gt;
+Several techniques of performing rectal prolapse surgery exist. Your surgeon will suggest the appropriate rectal prolapse surgery approach for you based on your condition and your overall health. Rectal prolapse surgery is typically done under general anesthesia and requires you to stay in the hospital for a few days. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal rectum and rectal prolapse 
+" Caption="Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+" Height="60" Title="Rectal prolapse" URI="/images/image_popup/thumbs/d7_rectal_prolapsethu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal rectum and rectal prolapse 
+" Caption="Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+" Height="330" Title="Rectal prolapse" URI="/images/image_popup/d7_rectal_prolapse.jpg" Width="400" />
+				<HTML>
+					Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rectal prolapse surgery is performed in people with chronic rectal prolapse. Surgery is done to relieve the discomfort of rectal prolapse. Rectal prolapse surgery may also reduce fecal incontinence. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For occasional rectal prolapse, self-care measures may help&lt;/strong&gt; &lt;br /&gt;
+For some people, minor rectal prolapse occurs occasionally when they strain to have a bowel movement. In these people, rectal prolapse may go away on its own. Rectal prolapse may be prevented by eating a high-fiber diet, drinking plenty of liquids, and taking laxatives, stool softeners and stool-bulking agents. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal rectum and rectal prolapse 
+" Caption="Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+" Height="60" Title="Rectal prolapse" URI="/images/image_popup/thumbs/d7_rectal_prolapsethu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal rectum and rectal prolapse 
+" Caption="Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+" Height="330" Title="Rectal prolapse" URI="/images/image_popup/d7_rectal_prolapse.jpg" Width="400" />
+				<HTML>
+					Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rectal prolapse surgery carries a risk of serious complications. Each technique for repairing rectal prolapse has its own risks. But in general, rectal prolapse surgery risks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Bowel obstruction&lt;/li&gt;
+	&lt;li&gt;Damage to nearby structures, such as nerves and organs&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Narrowing of the rectum&lt;/li&gt;
+	&lt;li&gt;Recurrence of rectal prolapse&lt;/li&gt;
+	&lt;li&gt;Worsened constipation&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for rectal prolapse surgery, your doctor may ask that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink a liquid to clean out your intestines.&lt;/strong&gt; You&apos;ll be asked to drink a solution that flushes food and stool from your colon and rectum in the days before your surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shower using special soap.&lt;/strong&gt; Before your surgery, you&apos;ll be asked to take a shower using special antibacterial soap to help prevent germs on your skin from causing infection after your surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking certain medications.&lt;/strong&gt; Depending on your procedure, you may be asked to stop taking certain medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare for your hospital stay&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll likely spend a few days in the hospital after rectal prolapse surgery. Plan ahead so that you&apos;ll be as comfortable as possible during your stay. Consider bringing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Personal care items, such as your toothbrush or your shaving supplies&lt;/li&gt;
+	&lt;li&gt;Comfortable clothes, such as a robe and slippers&lt;/li&gt;
+	&lt;li&gt;Entertainment, such as books and games&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During rectal prolapse surgery&lt;/strong&gt; &lt;br /&gt;
+A number of different surgical techniques are used to repair rectal prolapse. Which approach your surgeon uses depends on a number of factors, such as the suspected cause of rectal prolapse, your other health problems, and your surgeon&apos;s experience and preferences. Discuss your options with your surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, types of rectal prolapse surgery include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rectal prolapse repair through the anus&lt;/strong&gt; &lt;br /&gt;
+One type of rectal prolapse surgery involves performing surgery through the anus. Rectal prolapse surgery through the anus is sometimes called perineal rectosigmoidectomy. During this procedure, the surgeon removes a portion of the rectum and stitches the colon to the remaining rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+Perineal rectosigmoidectomy can be performed using regional anesthesia, during which you remain awake. This approach to rectal prolapse surgery generally carries a smaller risk of complications and requires less time in the hospital. However, there is some concern that this procedure carries a higher risk of rectal prolapse recurrence. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rectal prolapse repair through the abdomen&lt;/strong&gt; &lt;br /&gt;
+Rectal prolapse surgery can also be performed by making an incision in the abdomen. In this procedure, sometimes called rectopexy, the surgeon pulls the rectum back inside the body and secures the rectum to the tissue around the sacrum &amp;mdash; the bony structure above your tailbone and below your spine. The surgeon secures the rectum with sutures or with a mesh sling that supports the rectum. In some cases, the surgeon may also remove a portion of the colon in a procedure called resection rectopexy. 
+&lt;/p&gt;
+&lt;p&gt;
+The abdominal approach to rectal prolapse surgery requires general anesthesia to put you in a sleep-like state, so you won&apos;t be aware during the procedure. The abdominal approach carries a higher risk of complications, but some evidence suggests rectal prolapse may be less likely to recur using this technique. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Minimally invasive rectal prolapse surgery&lt;/strong&gt; &lt;br /&gt;
+Rectal prolapse surgery may also be performed using several smaller incisions in the abdomen. This procedure is sometimes called laparoscopic rectal prolapse surgery. The surgeon inserts special surgical tools and a tiny camera through the abdominal incisions to repair the rectal prolapse. 
+&lt;/p&gt;
+&lt;p&gt;
+Laparoscopic rectal prolapse surgery requires general anesthesia. The minimally invasive approach may reduce the risk of complications and speed recovery, but it isn&apos;t appropriate for everyone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After rectal prolapse surgery&lt;/strong&gt; &lt;br /&gt;
+After surgery you&apos;ll spend a few days in the hospital while you recover and regain your bowel function. You may begin by drinking clear liquids and eventually transition to solid foods. How much time you spend in the hospital will depend on what procedure was used for your rectal prolapse surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rectal prolapse surgery can relieve the discomfort of rectal prolapse. For many people, rectal prolapse surgery may also reduce fecal incontinence associated with rectal prolapse. However, it may take a year to assess how surgery has affected bowel function. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rectal prolapse recurrence&lt;/strong&gt; &lt;br /&gt;
+Even after rectal prolapse surgery, there&apos;s still a chance that rectal prolapse could occur again. Talk with your doctor about your risk of recurrence and what you can do to reduce your risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rectal prolapse surgery
+	</Title>
+	<Abstract>
+		Rectal prolapse surgery &amp;mdash; Overview covers definition, risks, results of surgery for rectal prolapse.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,308 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00950
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/aspergillosis/DS00950
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-29
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="3571" Title="Environmental allergy">
+							<Keyword MCVID="2782" Title="Aspergillosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE5DF77-E7FF-0DBD-1334DE400A64C3F0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aspergillosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aspergillus
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic bronchopulmonary aspergillosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aspgilloma
+			</MetaKeyword>
+			<MetaKeyword>
+				invasive aspergillosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aspergillosis is a group of illnesses caused by a certain type of mold. These illnesses usually affect the respiratory system. The mold that triggers the illnesses, aspergillus, occurs widely indoors and outdoors. Most strains of this mold are harmless. But a few can cause serious illnesses when their spores are inhaled by people with a weakened immune system, underlying lung disease or asthma. 
+&lt;/p&gt;
+&lt;p&gt;
+In some people, the spores trigger an allergic reaction. Other people develop mild to serious lung infections. The most serious form of aspergillosis &amp;mdash; invasive aspergillosis &amp;mdash; occurs when the infection spreads to blood vessels and beyond. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the type of aspergillosis, treatment may involve observation, antifungal medications or, in rare cases, surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of aspergillosis vary with the type of illness you develop:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergic reaction&lt;/strong&gt;&lt;br /&gt;
+Some people with asthma or cystic fibrosis have an allergic reaction to aspergillus mold. Signs and symptoms of this condition, known as allergic bronchopulmonary aspergillosis, include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;A cough that may bring up blood or plugs of mucus&lt;/li&gt;
+	&lt;li&gt;Worsening asthma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Fungal mass&lt;/strong&gt;&lt;br /&gt;
+A growth of tangled fungus fibers (fungus ball) may develop if there are air spaces (cavities) in the lungs. This type of aspergillosis is called aspergilloma. Lung cavities may develop in people with pre-existing lung conditions, such as emphysema, tuberculosis or advanced sarcoidosis. Aspergilloma is a benign condition that may not initially produce symptoms, but over time it can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cough that often brings up blood (hemoptysis), sometimes large amounts&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Unintentional weight loss&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infection&lt;/strong&gt;&lt;br /&gt;
+The most severe form of aspergillosis, invasive pulmonary aspergillosis, occurs when the infection spreads rapidly from the lungs through your bloodstream to your brain, heart, kidneys or skin. This occurs only in people whose immune system is weakened, commonly from chemotherapy. Signs and symptoms depend on which organs are affected, but in general, invasive aspergillosis can cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;Cough that brings up blood-streaked sputum (hemoptysis)&lt;/li&gt;
+	&lt;li&gt;Severe bleeding from your lungs&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest or joint pain&lt;/li&gt;
+	&lt;li&gt;Nosebleed&lt;/li&gt;
+	&lt;li&gt;Facial swelling on one side&lt;/li&gt;
+	&lt;li&gt;Skin lesions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of aspergillosis&lt;/strong&gt;&lt;br /&gt;
+In addition to your lungs, aspergillus can invade other areas of the body, such as your sinuses. In your sinuses, it can cause a stuffy nose, drainage (possibly bloody), inflammation, fever, facial pain and headache. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have asthma or cystic fibrosis, see your doctor whenever you notice a change in your symptoms. Although aspergillosis may not be the cause, it&apos;s important to have any problems evaluated. If you have a weakened immune system and develop an unexplained fever, shortness of breath or a cough that brings up blood, get immediate medical care. In the case of invasive aspergillosis, prompt treatment is so crucial that treatment is often started before the infection is diagnosed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aspergillus mold is virtually unavoidable. Outdoors, it&apos;s found in decaying leaves and compost and on plants, trees and grain crops. Inside, the spores &amp;mdash; the reproductive parts of mold &amp;mdash; thrive in air conditioning and heating ducts, insulation, and some food and spices. Aspergillus is so common in old buildings, even in older hospitals, that small epidemics have occurred among people with weakened immune systems when nearby buildings have been torn down. 
+&lt;/p&gt;
+&lt;p&gt;
+Everyday exposure to aspergillus is rarely a problem for people with healthy immune systems. When mold spores are inhaled, immune system cells simply surround and destroy them. But people who have a weakened immune system from illness or immunosuppressant medications have fewer infection-fighting cells. This allows aspergillus to take hold, invading the lungs and, in the most serious cases, other parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Aspergillosis is not contagious from person to person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of developing aspergillosis depends on your overall health and the extent of your exposure to mold, but in general, these factors make you more vulnerable to infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; This is the greatest risk factor for invasive aspergillosis. People taking immune-suppressing drugs after undergoing transplant surgery &amp;mdash; especially bone marrow or stem cell transplants &amp;mdash; or people who have certain cancers of the blood are the most severely affected. People with later stage AIDS also may be at increased risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low white blood cell level.&lt;/strong&gt; White blood cells called neutrophils play a key role in fighting fungal infections. Having a very low level of these cells (neutropenia) due to chemotherapy, an organ transplant or leukemia makes you much more susceptible to invasive aspergillosis. So does having chronic granulomatous disease &amp;mdash; an inherited disorder that affects immune system cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung cavities.&lt;/strong&gt; A mass of tangled fungus fibers (aspergilloma) can develop when mold spores germinate in a healed air space (cavity) in your lungs. Cavities are areas that have been damaged by radiation to the lung or by serious lung diseases such as tuberculosis or sarcoidosis &amp;mdash; a noncancerous illness that causes inflammation in your lungs and other organs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma or cystic fibrosis&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; People with asthma and cystic fibrosis are more likely to have an allergic response to aspergillus mold. This may be more likely to occur in people whose lung problems are long-standing or hard to control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ankylosing spondylitis.&lt;/strong&gt; This is an uncommon rheumatologic lung disease that affects primarily the spine. People with this disorder are more likely to develop aspergillomas, particularly if they&apos;re male smokers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-term corticosteroid therapy.&lt;/strong&gt; Long-term use of corticosteroids may increase the risk of opportunistic infections, depending on the underlying disease being treated and what other drugs are being used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A hospital stay.&lt;/strong&gt; Aspergillus mold is found on many hospital surfaces &amp;mdash; bedrails, plants, surgical instruments, air conditioning ducts and insulation. Though healthy people aren&apos;t likely to be affected, people with a weakened immune system or serious illness are highly susceptible to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic makeup.&lt;/strong&gt; Genetic factors may make certain people more prone to aspergillosis infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the type of infection, aspergillosis can cause a variety of serious complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone destruction and spread of infection.&lt;/strong&gt; An aspergillus infection in your sinuses can destroy facial bones. It can also spread beyond your sinuses and may be life-threatening if you have a weakened immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Both aspergillomas and invasive aspergillosis can cause severe, and sometimes fatal, bleeding in your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Systemic infection.&lt;/strong&gt; The most serious complication of invasive aspergillosis is the spread of the infection to other parts of your body, especially your brain, heart and kidneys. Invasive aspergillosis spreads rapidly and is often fatal in spite of early treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who develop aspergillosis usually have an underlying condition, such as asthma or cystic fibrosis, or have a weakened immune system due to an illness or to immune-suppressing medications. If you have symptoms of aspergillosis and are already being treated for a medical condition, call the doctor who normally provides your care for that condition. In some cases, when you call to set up an appointment, your doctor may recommend urgent medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a weakened immune system and develop an unexplained fever, shortness of breath or a cough that brings up blood, seek immediate medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time to prepare before seeing your doctor, here&apos;s some information to help you get ready for your appointment, and what you might expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre- or post-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information.&lt;/strong&gt; If you are going to see a new doctor, bring a summary of other conditions for which you&apos;re being treated, as well as recent medical appointments or hospitalizations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring all of your medications with you,&lt;/strong&gt; preferably in their original bottles. If the doctor you are going to see doesn&apos;t have access to your medical records or previous imaging tests, such as X-rays or CT scans, try to get copies of these to take with you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along a family member or friend.&lt;/strong&gt; Aspergillosis can be a medical emergency. Take someone who can understand and recall all the information your doctor provides and who can stay with you if you need immediate treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions so that you can make the most of your time with your doctor. For aspergillosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms? Would you write that down for me?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to be hospitalized?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;If the first treatment isn&apos;t effective, what will you try next?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of side effects from the medications you&apos;re recommending? What are they?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my response to treatment?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. How can I best manage these conditions together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor your doctor is likely to ask you some questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Do they seem to be getting worse?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever?&lt;/li&gt;
+	&lt;li&gt;Are you having difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Are you coughing up blood?&lt;/li&gt;
+	&lt;li&gt;What else concerns you?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing an infection caused by aspergillus mold can be difficult. Aspergillus is common in the environment and is sometimes found in the saliva and sputum of healthy people. What&apos;s more, it&apos;s hard to distinguish aspergillus from other molds under the microscope, and symptoms of the infection are similar to those of conditions such as tuberculosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to use one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging test.&lt;/strong&gt; A chest X-ray or computerized tomography (CT) scan &amp;mdash; a type of X-ray that produces more-detailed images than conventional X-rays do &amp;mdash; can usually reveal a fungal mass (aspergilloma), as well as characteristic signs of invasive and allergic bronchopulmonary aspergillosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory secretion (sputum) test.&lt;/strong&gt; In this test, a sample of your sputum is stained with a dye and checked for the presence of aspergillus filaments. The specimen is then placed in a substance that encourages the mold to grow to help confirm the diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue and blood tests.&lt;/strong&gt; Diagnosing allergic bronchopulmonary aspergillosis usually requires skin and blood tests. For the skin test, a small amount of aspergillus antigen is injected into the skin of your forearm. If your blood has antibodies to the mold, you&apos;ll develop a hard, red bump at the injection site. Blood tests look for high levels of certain antibodies, indicating an allergic response.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; Examining a sample of tissue from your lungs or sinuses under a microscope is usually necessary to confirm a diagnosis of invasive aspergillosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aspergillosis treatments vary with the type of disease. Possible treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Observation.&lt;/strong&gt; Aspergillomas often don&apos;t need treatment, and medications aren&apos;t usually effective in treating these fungal masses. Instead, aspergillomas that don&apos;t cause symptoms may simply be closely monitored by chest X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral corticosteroids.&lt;/strong&gt; The goal in treating allergic bronchopulmonary aspergillosis is to prevent existing asthma or cystic fibrosis from becoming worse. The best way to do this is with oral corticosteroids. Antifungal medications by themselves aren&apos;t helpful for allergic bronchopulmonary aspergillosis, but they may be used in combination with corticosteroids to reduce the dose of steroids and improve lung function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antifungal medications.&lt;/strong&gt; These drugs are the standard treatment for invasive pulmonary aspergillosis. Historically, the drug of choice has been amphotericin B, but the newer medication voriconazole (Vfend) is now preferred because it appears more effective and may have fewer side effects. All antifungals can cause serious problems, however, including kidney and liver damage, and they frequently interact with other medications given to people who have weakened immune systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Because antifungal medications don&apos;t penetrate aspergillomas very well, surgery to remove the fungal mass is the first-choice treatment when bleeding from the mass in the lungs occurs. But the surgery is risky, and your doctor may instead suggest embolization. In this procedure, your doctor, usually a radiologist, threads a small catheter into the artery that supplies blood to the cavity containing the fungus ball, and injects a special material that clogs the artery. Though this procedure can stop massive bleeding, it doesn&apos;t prevent it from recurring, so it&apos;s generally considered a temporary treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s nearly impossible to avoid aspergillus entirely, but if you&apos;ve had a transplant or are undergoing chemotherapy, try to stay away from the most obvious sources of mold, such as construction sites, compost piles and stored grain. If you have a weakened immune system, your doctor may advise you to wear a face mask to avoid being exposed to infectious agents. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Aspergillosis
+	</Title>
+	<Abstract>
+		Aspergillosis &amp;mdash; Comprehensive overview covers symptoms, causes, risk factors for this serious lung infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00773" LinkType="Internal" ObjectID="E5C32CAD-E7FF-0DBD-18D339ADF3675CBB" Title="Mold allergy" Url="http://www.mayoclinic.com/health/mold-allergy/DS00773" />
+		<LinkItem ContentType="Disease" DocID="DS00287" LinkType="Internal" ObjectID="2CEBF76F-D36A-4D15-B937BFF91AB51438" Title="Cystic fibrosis" Url="http://www.mayoclinic.com/health/cystic-fibrosis/DS00287" />
+	</RelatedLinksBox>
+</Disease>

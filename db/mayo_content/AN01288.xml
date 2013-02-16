@@ -1,0 +1,110 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01288
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-cancer/AN01288
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-12
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2912" Title="Heart cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8880A73B-2A5D-9994-E32F938231172855
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				heart tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer of the heart
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Heart cancer (primary cardiac tumor) is cancer that arises in the heart. Cancerous (malignant) tumors that begin in the heart are most often sarcomas, a type of cancer that originates in the soft tissues of the body. The vast majority of heart tumors are noncancerous (benign). 
+&lt;/p&gt;
+&lt;p&gt;
+Heart cancer is extremely rare. For example, a review of more than 12,000 autopsies identified only seven cases of primary cardiac tumor &amp;mdash; an incidence of less than 0.1 percent. At Mayo Clinic, on average only one case of heart cancer is seen each year. 
+&lt;/p&gt;
+&lt;p&gt;
+Although still rare, most cancers found in the heart have come from elsewhere in the body. These include lymphomas that originate in the chest near the heart. Other cancers that can spread to the heart include melanomas and sarcomas. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart cancer may cause the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Obstruction of blood flow through the heart&lt;/li&gt;
+	&lt;li&gt;Stiffening of the heart muscle (cardiac fibrosis)&lt;/li&gt;
+	&lt;li&gt;Interference with heart valves (marantic endocarditis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In cases of marantic endocarditis, the heart valves are damaged by the cancer, and it may cause the valves to malfunction. In severe cases, the heart valves may need to be replaced. Unfortunately, this is often a sign of very advanced cancer and carries a poor prognosis. Another rare type of cancer known as carcinoid tumor at times produces hormones that can damage heart valves. 
+&lt;/p&gt;
+&lt;p&gt;
+Cancer treatments also can affect the heart. Certain chemotherapy drugs can cause damage to the heart. Radiation therapy directed at or near the heart also can cause damage to the heart muscle and increase the risk of coronary artery disease later in life. Data also suggests that some hormonal cancer therapies may increase the risk of heart disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart cancer: Is there such a thing?
+	</Title>
+	<Abstract>
+		Although heart tumors do occur, the vast majority of them are noncancerous (benign).
+	</Abstract>
+	<Question>
+		Is there such a thing as heart cancer?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

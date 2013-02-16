@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01182
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/yeast-infection/DS01182
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2010-05-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2410" Title="Vaginitis">
+							<Keyword MCVID="4698" Title="Vaginal yeast infection" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CEDDE35C-0B46-0928-1C127105C3D6DC38
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				yeast infection
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal yeast infection
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				candidiasis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A vaginal yeast infection is a type of vaginitis &amp;mdash; inflammation of the vagina &amp;mdash; characterized by vaginal irritation, intense itchiness and vaginal discharge. A vaginal yeast infection affects your vagina and the tissues at the opening to your vagina (vulva).
+&lt;/p&gt;
+&lt;p&gt;
+Vaginal yeast infection &amp;mdash; also called vaginal candidiasis &amp;mdash; is very common. As many as 3 out of 4 women experience a yeast infection at some point in their lifetimes. Many women experience two or more yeast infections.
+&lt;/p&gt;
+&lt;p&gt;
+A vaginal yeast infection isn&apos;t considered a sexually transmitted infection, although the fungus that causes the condition can be spread through oral-genital contact. Simple treatment is usually effective, unless you have recurrent yeast infections &amp;mdash; four or more in a single year. In that case, you may need a longer course of therapy and a maintenance plan.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Yeast infection symptoms can range from mild to moderate and include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching and irritation in the vagina and at the entrance to the vagina (vulva)&lt;/li&gt;
+	&lt;li&gt;A burning sensation, especially during intercourse or while urinating&lt;/li&gt;
+	&lt;li&gt;Redness and swelling of the vulva&lt;/li&gt;
+	&lt;li&gt;Vaginal pain and soreness&lt;/li&gt;
+	&lt;li&gt;Thick, white, odor-free vaginal discharge with a cottage cheese appearance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complicated yeast infection&lt;br /&gt;
+&lt;/strong&gt;You might have a complicated yeast infection if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have severe signs and symptoms, such as extensive redness, swelling and itching that leads to the development of tears or cracks (fissures) or sores&lt;/li&gt;
+	&lt;li&gt;You have recurrent yeast infections &amp;mdash; four or more in a single year&lt;/li&gt;
+	&lt;li&gt;Your infection is caused by a type of candida other than Candida albicans&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant&lt;/li&gt;
+	&lt;li&gt;You have uncontrolled diabetes&lt;/li&gt;
+	&lt;li&gt;You have lowered immunity due to use of certain medications or a condition such as HIV infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;This is the first time you&apos;ve experienced yeast infection symptoms&lt;/li&gt;
+	&lt;li&gt;You&apos;re not sure whether you have a yeast infection&lt;/li&gt;
+	&lt;li&gt;Your symptoms don&apos;t go away after self-treating with over-the-counter antifungal vaginal creams or suppositories&lt;/li&gt;
+	&lt;li&gt;You develop other symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A vaginal yeast infection is caused by the fungus candida. Candida is a microorganism that&apos;s normally present in your vagina, along with bacteria. Your vagina naturally contains a balanced mix of yeast and bacteria. Lactobacillus bacteria produce acid, which discourages overgrowth of yeast in the vagina. But disruption of the healthy balance can result in an overgrowth of yeast. Too much yeast in your vagina can lead to vaginal itching, burning, and other classic signs and symptoms of a yeast infection.
+&lt;/p&gt;
+&lt;p&gt;
+Overgrowth of yeast can result from:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Antibiotic use, which leads to a decrease in the amount of lactobacillus bacteria in your vagina and a change in your vaginal pH that allows yeast to overgrow&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Uncontrolled diabetes&lt;/li&gt;
+	&lt;li&gt;Impaired immune system&lt;/li&gt;
+	&lt;li&gt;Anything that changes the type and amount of bacteria normally present in the vagina, such as douching or irritation from inadequate vaginal lubrication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most often, yeast infection results from a type of candida fungus known as Candida albicans. Sometimes, however, a different type of candida fungus might be the cause of symptoms. Candida albicans responds well to typical treatments for yeast infections. Other types of candida, however, sometimes respond poorly to conventional therapies and may require more aggressive treatment.
+&lt;/p&gt;
+&lt;p&gt;
+A yeast infection can be sexually transmitted, especially through oral-genital sexual contact. However, yeast infection isn&apos;t considered a sexually transmitted infection because it happens in women who aren&apos;t sexually active and the candida fungus is naturally present in the vagina.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of developing a yeast infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic use.&lt;/strong&gt; Yeast infections are common in women who take antibiotics. Broad-spectrum antibiotics &amp;mdash; those that are effective against a wide range of bacteria &amp;mdash; kill healthy bacteria in your vagina, which can lead to the overgrowth of yeast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased estrogen levels.&lt;/strong&gt; Yeast infections appear to occur more frequently in women with increased estrogen levels &amp;mdash; for instance, in women who are pregnant, those taking high-dose estrogen birth control pills or those taking estrogen hormone therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uncontrolled diabetes.&lt;/strong&gt; In women who have diabetes, those with poorly controlled blood sugar levels are more likely to develop yeast infections than are women who have diabetes under control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired immune system.&lt;/strong&gt; Women with lowered immunity &amp;mdash; such as from corticosteroid therapy or HIV infection &amp;mdash; are more likely to get yeast infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual activity.&lt;/strong&gt; Although yeast infections aren&apos;t considered sexually transmitted infections, one way the candida organism can be introduced into your vagina is through sexual contact.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been treated for a yeast infection in the past, your doctor may not need to see you and may prescribe a treatment over the phone. Otherwise, you&apos;ll likely see your family doctor or gynecologist to treat your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;So that your doctor can observe and evaluate your vaginal discharge, avoid using tampons and don&apos;t douche before your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any symptoms you&apos;ve had&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make note of key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid using tampons or douching&lt;/strong&gt; before your appointment so that your doctor can assess any vaginal discharge you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of questions to ask your doctor,&lt;/strong&gt; putting the most important ones first in case time runs short.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For yeast infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How can I prevent yeast infections?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch out for?&lt;/li&gt;
+	&lt;li&gt;Do I need to take medicine?&lt;/li&gt;
+	&lt;li&gt;Does my partner also need to be tested or treated?&lt;/li&gt;
+	&lt;li&gt;Are there any special instructions for taking the medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any over-the-counter products that will treat my condition?&lt;/li&gt;
+	&lt;li&gt;What can I do if my symptoms return after treatment?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During your appointment, don&apos;t hesitate to ask other questions as they occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What vaginal symptoms do you have?&lt;/li&gt;
+	&lt;li&gt;Do you notice a strong vaginal odor?&lt;/li&gt;
+	&lt;li&gt;How long have you had your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever been treated for a vaginal infection?&lt;/li&gt;
+	&lt;li&gt;Have you tried any over-the-counter products to treat your condition?&lt;/li&gt;
+	&lt;li&gt;Have you recently taken antibiotics?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;Do you use scented soap or bubble bath?&lt;/li&gt;
+	&lt;li&gt;Do you douche or use feminine hygiene spray?&lt;/li&gt;
+	&lt;li&gt;What medications or vitamin supplements do you regularly take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose a yeast infection, your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask questions about your medical history.&lt;/strong&gt; This might include gathering information about past vaginal infections or sexually transmitted infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perform a pelvic exam.&lt;/strong&gt; Your doctor visually examines your external genitals for signs of infection. Next, your doctor places an instrument (speculum) into your vagina to hold the vaginal walls open so that he or she can examine the vagina and cervix. Your doctor may collect a sample of any vaginal discharge for examination under a microscope or to perform a vaginal culture test, if needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Send a sample of vaginal secretions for testing.&lt;/strong&gt; For uncomplicated yeast infections, your doctor probably won&apos;t perform any lab tests. However, if you have recurrent yeast infections, your doctor may be able to prescribe more effective treatment if he or she knows the specific type of yeast that&apos;s causing the infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Yeast infection treatment depends on whether you have an uncomplicated or a complicated infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Uncomplicated yeast infection&lt;br /&gt;
+&lt;/strong&gt;For mild to moderate symptoms and infrequent episodes of yeast infection, your doctor might recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Short-course vaginal therapy.&lt;/strong&gt; A one-time application or one-to-three-day regimen of an antifungal cream, ointment, tablet or suppository effectively clears a yeast infection in most cases. The medication of choice is from a class of drugs called the azoles; these include butoconazole (Gynazole-1), clotrimazole (Gyne-Lotrimin), miconazole (Monistat 3) and terconazole (Terazol 3). These medications are available by prescription or over-the-counter. The oil-based nature of these agents in cream and suppository form could potentially weaken latex condoms and diaphragms. Side effects might include slight burning or irritation during application.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Single-dose oral medication.&lt;/strong&gt; Your doctor might prescribe a one-time single dose of the antifungal medication fluconazole (Diflucan) to be taken by mouth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make a follow-up appointment with your doctor if you&apos;ve finished your treatment and your symptoms haven&apos;t gone away or if your symptoms return within two months of being treated.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complicated yeast infection&lt;br /&gt;
+&lt;/strong&gt;Treatment for a complicated yeast infection might include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Long-course vaginal therapy.&lt;/strong&gt; Vaginal treatment for complicated yeast infections includes an azole medication in the form of a vaginal cream, ointment, tablet or suppository. The duration of treatment is usually seven to 14 days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multidose oral medication.&lt;/strong&gt; Instead of vaginal therapy, your doctor might prescribe two or three doses of fluconazole to be taken by mouth. However, this therapy isn&apos;t recommended for pregnant women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintenance plan.&lt;/strong&gt; For recurrent yeast infections, your doctor might recommend a medication routine to keep yeast overgrowth in check and prevent future infections. Maintenance therapy starts after the initial treatment clears the yeast infection and may include fluconazole tablets taken by mouth once a week for six months. Some doctors prescribe clotrimazole as a vaginal tablet (suppository) used once a week instead of an oral medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Usually, your sex partner doesn&apos;t also need to be treated for a yeast infection. If you have recurrent yeast infections, your doctor might recommend treating your partner if your partner has signs or symptoms of a genital yeast infection &amp;mdash; for instance, jock itch in a male partner &amp;mdash; or using condoms during intercourse.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although some studies on alternative therapies for yeast infection have been done, well-designed and controlled trials are needed to investigate these therapies before experts can make any recommendations. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Boric acid.&lt;/strong&gt; Boric acid &amp;mdash; a vaginal insert (suppository) available by prescription &amp;mdash; may be an effective alternative to conventional treatment if you have recurrent yeast infections or ongoing (chronic) symptoms that don&apos;t respond to treatment. Boric acid may be effective against the less common strains of candida and candida that&apos;s become resistant to azole medications. However, boric acid can irritate your skin and it&apos;s toxic if accidentally ingested, especially by children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yogurt.&lt;/strong&gt; Anecdotally, some women report success with lactobacillus-containing yogurt, taken by mouth or applied vaginally. However, this approach remains unproved. Studies that showed yogurt to be effective for reducing vaginal yeast cultures and providing symptom relief were done in a small number of women, with no control groups. Other studies haven&apos;t been able to confirm those results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before trying any alternative therapy, check with your doctor to weigh the pros and cons in your situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of vaginal yeast infection:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid douching.&lt;/li&gt;
+	&lt;li&gt;Wear cotton underwear and loosefitting pants or skirts.&lt;/li&gt;
+	&lt;li&gt;Avoid tight-fitting underwear or pantyhose.&lt;/li&gt;
+	&lt;li&gt;Change out of wet clothes, such as swimsuits or workout attire, as soon as possible.&lt;/li&gt;
+	&lt;li&gt;Stay out of hot tubs or very hot baths.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Yeast infection (vaginal)
+	</Title>
+	<Abstract>
+		Yeast infection (vaginal) &amp;mdash; Comprehensive overview covers symptoms, treatments, home remedies for vaginal yeast infections.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01965" LinkType="Internal" ObjectID="AD43D04E-E18E-81A2-9D97364A89639E83" Title="Sex during vaginal infection: Is it harmful?" Url="http://www.mayoclinic.com/health/vaginal-infection/AN01965" />
+		<LinkItem ContentType="Answer" DocID="AN02076" LinkType="Internal" ObjectID="24B6696E-E700-EF65-D742567522069836" Title="Yeast infection during pregnancy: Are over-the-counter treatments OK?" Url="http://www.mayoclinic.com/health/yeast-infection-during-pregnancy/AN02076" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Disease" DocID="DS00255" LinkType="Internal" ObjectID="B5642F87-B29F-4065-A60FC82B39C4CD8B" Title="Vaginitis" Url="http://www.mayoclinic.com/health/vaginitis/DS00255" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Disease" DocID="DS00159" LinkType="Internal" ObjectID="2353AEF1-09C7-4605-96B03B3BEE7DF496" Title="Vulvodynia" Url="http://www.mayoclinic.com/health/vulvodynia/DS00159" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,274 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00726
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sacroiliitis/DS00726
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-09
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="3153" Title="Sacroiliitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1ADA88F6-E7FF-0DBD-185ACD34B0779DBC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sacroiliitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sacroilitis
+			</MetaKeyword>
+			<MetaKeyword>
+				spine
+			</MetaKeyword>
+			<MetaKeyword>
+				low back
+			</MetaKeyword>
+			<MetaKeyword>
+				pelvis
+			</MetaKeyword>
+			<MetaKeyword>
+				sacrum
+			</MetaKeyword>
+			<MetaKeyword>
+				sacroiliac joint
+			</MetaKeyword>
+			<MetaKeyword>
+				joints
+			</MetaKeyword>
+			<MetaKeyword>
+				SI joints
+			</MetaKeyword>
+			<MetaKeyword>
+				sacroiliac joint pain
+			</MetaKeyword>
+			<MetaKeyword>
+				sacroiliac pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sacroiliitis (say-kroe-il-e-I-tis) is an inflammation of one or both of your sacroiliac joints &amp;mdash; the places where your lower spine and pelvis connect. Sacroiliitis can cause pain in your buttocks or lower back, and may even extend down one or both legs. The pain associated with sacroiliitis is often aggravated by prolonged standing or by stair climbing. 
+&lt;/p&gt;
+&lt;p&gt;
+Sacroiliitis can be difficult to diagnose, because it may be mistaken for other causes of low back pain. It&apos;s been linked to a group of diseases that cause inflammatory arthritis of the spine. Treatment of sacroiliitis may involve a combination of rest, physical therapy and medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing sacroiliac joints 
+" Caption="The sacroiliac joints link your pelvis and lower spine. They&apos;re made up of the sacrum &amp;mdash; the bony structure above your tailbone and below your lower vertebrae &amp;mdash; and the top part (ilium) of your pelvis. There are sacroiliac joints in both the right and left sides of your lower back. Strong ligaments hold these joints in place. The sacroiliac joints support the weight of your upper body when you stand. 
+" Height="60" Title="Sacroiliac joints" URI="/images/image_popup/thumbs/r7_sacroiliacjointthu.jpg" Width="60" />
+				<Image Alt="Illustration showing sacroiliac joints 
+" Caption="The sacroiliac joints link your pelvis and lower spine. They&apos;re made up of the sacrum &amp;mdash; the bony structure above your tailbone and below your lower vertebrae &amp;mdash; and the top part (ilium) of your pelvis. There are sacroiliac joints in both the right and left sides of your lower back. Strong ligaments hold these joints in place. The sacroiliac joints support the weight of your upper body when you stand. 
+" Height="314" Title="Sacroiliac joints" URI="/images/image_popup/r7_sacroiliacjoint.jpg" Width="400" />
+				<HTML>
+					The sacroiliac joints link your pelvis and lower spine. They&apos;re made up of the sacrum &amp;mdash; the bony structure above your tailbone and below your lower vertebrae &amp;mdash; and the top part (ilium) of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The pain associated with sacroiliitis most commonly occurs in the buttocks and lower back. It can also affect the legs, groin and even the feet. Sacroiliitis pain can be aggravated by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prolonged standing&lt;/li&gt;
+	&lt;li&gt;Bearing more weight on one leg than the other&lt;/li&gt;
+	&lt;li&gt;Stair climbing&lt;/li&gt;
+	&lt;li&gt;Running&lt;/li&gt;
+	&lt;li&gt;Taking large strides&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A wide range of factors or events may cause sacroiliac joint dysfunction, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Traumatic injury.&lt;/strong&gt; A&lt;strong&gt; &lt;/strong&gt;sudden impact, such as a motor vehicle accident or a fall, can damage your sacroiliac joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; Wear-and-tear arthritis (osteoarthritis) can occur in sacroiliac joints, as can ankylosing spondylitis &amp;mdash; a type of inflammatory arthritis that affects the spine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; The sacroiliac joints must loosen and stretch to accommodate childbirth. The added weight and altered gait during pregnancy can cause additional stress on these joints and can lead to abnormal wear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; In rare cases, the sacroiliac joint can become infected.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sacroiliitis may be part of an inflammatory arthritic condition known as ankylosing spondylitis. Complications of this condition can be very serious, including difficulty breathing, spine deformities, lung infections and heart problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, he or she may refer you to a rheumatologist or an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has anyone in your immediate family had similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you fallen or been in a car accident recently?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms start?&lt;/li&gt;
+	&lt;li&gt;Where exactly does the pain occur?&lt;/li&gt;
+	&lt;li&gt;Does any type of activity worsen or lessen the pain?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may try to pinpoint the cause of your pain by pressing directly on various places on your hips and buttocks. He or she may also move your legs into a variety of positions that will gently stress your sacroiliac joints. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;An X-ray of your pelvis can reveal signs of damage to the sacroiliac joint. If ankylosing spondylitis is suspected, your doctor might recommend magnetic resonance imaging (MRI) &amp;mdash; a test that uses radio waves and a strong magnetic field to produce very detailed cross-sectional images of both bone and soft tissues.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anesthetic injections&lt;br /&gt;
+&lt;/strong&gt;Because low back pain can be caused by so many different types of problems, your doctor may suggest using injections of anesthetics to help pinpoint the diagnosis. For example, if an injection of numbing medicine into your sacroiliac joint stops your pain, it&apos;s likely that the problem is in your sacroiliac joint. However, the numbing medicine can leak into nearby structures, and that can reduce the reliability of this test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The type of treatment your doctor will recommend depends on the signs and symptoms you&apos;re having, as well as the underlying cause of your sacroiliitis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Depending on the cause of your pain, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; If over-the-counter pain medications don&apos;t provide enough relief, your doctor may prescribe stronger versions of these drugs. Occasionally, a short course of narcotics may be prescribed. Narcotics are habit-forming and shouldn&apos;t be used for long periods of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle relaxants.&lt;/strong&gt; Medications such as cyclobenzaprine (Flexeril, Amrix) may help reduce the muscle spasms often associated with sacroiliitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;TNF inhibitors.&lt;/strong&gt; Tumor necrosis factor (TNF) inhibitors &amp;mdash; such as etanercept (Enbrel), adalimumab (Humira) and infliximab (Remicade) &amp;mdash; often help relieve the type of sacroiliitis that&apos;s associated with ankylosing spondylitis. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Your doctor or physical therapist can help you learn range-of-motion and stretching exercises to maintain joint flexibility, and strengthening exercises to give your muscles additional stability. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;If other methods haven&apos;t relieved your pain, you doctor might suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joint injections.&lt;/strong&gt; Corticosteroids can be injected directly into the joint to reduce inflammation and pain. But you can receive only a few joint injections a year because the steroids can weaken your joint&apos;s bones and tendons.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiofrequency denervation.&lt;/strong&gt; Radiofrequency energy can damage or destroy the nerve tissue causing your pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrical stimulation.&lt;/strong&gt; Implanting an electrical stimulator into the sacrum may help reduce pain caused by sacroiliitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint fusion.&lt;/strong&gt; Although surgery is rarely used to treat sacroiliitis, fusing the two bones together with metal hardware can sometimes relieve sacroiliitis pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing placement of sacroiliac injection 
+" Caption="Corticosteroids can be injected directly into the sacroiliac joint to reduce inflammation and pain. In some cases, your doctor might inject an anesthetic into the joint to help confirm the diagnosis. 
+" Height="60" Title="Sacroiliac injection" URI="/images/image_popup/thumbs/mcdc7_sacroiliac_injectionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing placement of sacroiliac injection 
+" Caption="Corticosteroids can be injected directly into the sacroiliac joint to reduce inflammation and pain. In some cases, your doctor might inject an anesthetic into the joint to help confirm the diagnosis. 
+" Height="572" Title="Sacroiliac injection" URI="/images/image_popup/mcdc7_sacroiliac_injection.jpg" Width="400" />
+				<HTML>
+					Corticosteroids can be injected directly into the sacroiliac joint to reduce inflammation and pain. In some cases, your doctor might inject an anesthetic into the joint to help confirm the diagnosis. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Home treatments for sacroiliitis pain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter pain relievers.&lt;/strong&gt; Drugs such as ibuprofen (Advil, Motrin IB, others) and acetaminophen (Tylenol, others) may help relieve pain associated with sacroiliitis. Some of these drugs can cause stomach upset, or kidney or liver problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Modifying or avoiding the types of activities that aggravate your pain may help reduce the inflammation in your sacroiliac joints. Proper posture is important.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice and heat.&lt;/strong&gt; Alternating ice and heat may help relieve sacroiliac pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sacroiliitis
+	</Title>
+	<Abstract>
+		Sacroiliitis &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis, treatment of inflammation of the sacroiliac joints.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00476" LinkType="Internal" ObjectID="91BACD0E-0792-44DD-9005DD8966E2754B" Title="Psoriatic arthritis" Url="http://www.mayoclinic.com/health/psoriatic-arthritis/DS00476" />
+	</RelatedLinksBox>
+</Disease>

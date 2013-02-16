@@ -1,0 +1,67 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00350
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00350
+		</OriginalURL>
+		<UpdateDate>
+			2010-02-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="4022" Title="Nutrition basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA568A7E-E7FF-0DBD-18222B82DEEB3231
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				trans fat
+			</MetaKeyword>
+			<MetaKeyword>
+				trans fatty acid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Eating out? Watch for trans fat
+	</Title>
+	<Body>
+		&lt;p&gt;Have you been trying to keep foods that contain trans fat out of your kitchen? Good move! But what about when you&apos;re eating in a restaurant? Some restaurants still use trans fat when frying food. For example, a large serving of french fries at some fast-food restaurants might contain 5 grams or more of trans fat. When dining out, read menu labels or ask the staff for nutritional information. Arm yourself with the details you need to order wisely.&lt;/p&gt;
+	</Body>
+</HealthTip>

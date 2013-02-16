@@ -1,0 +1,268 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00556
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stress-fractures/DS00556
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-07
+		</UpdateDate>
+		<PublicationDate>
+			2004-11-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="2350" Title="Stress fracture" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9E72D9B8-3426-4B7E-95461484E5444B83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stress fractures
+			</MetaKeyword>
+			<MetaKeyword>
+				fractures
+			</MetaKeyword>
+			<MetaKeyword>
+				shin splints
+			</MetaKeyword>
+			<MetaKeyword>
+				fracture
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stress fractures are tiny cracks in a bone. Stress fractures are caused by the repetitive application of force, often by overuse &amp;mdash; such as repeatedly jumping up and down or running long distances. Stress fractures can also arise from normal use of a bone that&apos;s been weakened by a condition such as osteoporosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Stress fractures are most common in the weight-bearing bones of the lower leg and foot. &amp;nbsp;Track and field athletes are particularly susceptible to stress fractures, but anyone can experience a stress fracture. If you&apos;re starting a new exercise program, for example, you may be at risk if you do too much too soon. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Stress fracture 
+" Caption="Stress fractures are tiny cracks in a bone &amp;mdash; most commonly, in the weight-bearing bones of the lower leg and foot. 
+" Height="60" Title="Stress fracture" URI="/images/image_popup/thumbs/mcdc7_stress_fracturethu.jpg" Width="60" />
+				<Image Alt="Stress fracture 
+" Caption="Stress fractures are tiny cracks in a bone &amp;mdash; most commonly, in the weight-bearing bones of the lower leg and foot. 
+" Height="590" Title="Stress fracture" URI="/images/image_popup/mcdc7_stress_fracture.jpg" Width="400" />
+				<HTML>
+					Stress fractures are tiny cracks in a bone &amp;mdash; most commonly, in the weight-bearing bones of the lower leg and foot. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of a stress fracture include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Tenderness in a specific spot&lt;/li&gt;
+	&lt;li&gt;Increased swelling and pain with activity &lt;/li&gt;
+	&lt;li&gt;Decreased swelling and pain with rest&lt;/li&gt;
+	&lt;li&gt;Earlier onset of pain with each successive workout&lt;/li&gt;
+	&lt;li&gt;Continued pain at rest as the damage progresses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At first, stress fractures may be barely noticeable. But pay attention to the pain. Proper self-care and treatment can keep the stress fracture from worsening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Contact your doctor if your pain becomes severe or persists even at rest.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stress fractures are caused by the repetitive application of a greater amount of force than the bones of your feet and lower legs normally bear. This force causes an imbalance between the resorption and growth of bone, both of which go on all the time. Repetitive force promotes the turnover of bone cells, but you add new bone cells when you&apos;re at rest.
+&lt;/p&gt;
+&lt;p&gt;
+If your bones are subjected to unaccustomed force without enough time for recovery, you&apos;ll resorb bone cells faster than you can replace them. As a result, you develop &quot;bone fatigue.&quot; Continued, repetitive force causes tiny cracks in fatigued bones. These cracks progress to become stress fractures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of stress fractures include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Certain sports.&lt;/strong&gt; Stress fractures are more common in people who participate in sports such as track and field, basketball, tennis or gymnastics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased activity.&lt;/strong&gt; Stress fractures often occur in people who suddenly shift from a sedentary lifestyle to an active training regimen &amp;mdash; such as a military recruit subjected to intense marching exercises or an athlete who rapidly increases the intensity, duration or frequency of training sessions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women who have abnormal or absent menstrual periods are at higher risk of developing stress fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foot problems.&lt;/strong&gt; People who have flat feet or high, rigid arches are more likely to develop stress fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened bones.&lt;/strong&gt; Conditions such as osteoporosis can weaken your bones and make it easier for stress fractures to occur.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some stress fractures don&apos;t heal properly. This may lead to chronic pain. If underlying causes are not addressed, you may be at higher risk of additional stress fractures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first bring your concerns to the attention of your family doctor. If you are a competitive athlete, you might go directly to a doctor who specializes in musculoskeletal problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before the appointment, you may want to write a list that answers the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does any activity make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;What types of sports and activities do you enjoy?&lt;/li&gt;
+	&lt;li&gt;Have you recently increased your physical activity?&lt;/li&gt;
+	&lt;li&gt;What other types of medical problems do you have?&lt;/li&gt;
+	&lt;li&gt;What types of medicines and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the exam, your doctor will ask about your symptoms, physical activities and general health. He or she will press on the bones and soft tissues around the site of your pain, to try to pinpoint what exactly has been injured.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While doctors can sometimes diagnose a stress fracture from the medical history and physical exam alone, imaging tests are often needed to confirm the diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; In many cases, stress fractures aren&apos;t apparent on regular X-rays taken shortly after the time your signs and symptoms begin. It often takes several weeks &amp;mdash; and sometimes longer than a month &amp;mdash; for evidence of stress fractures to show up on X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; A few hours before a bone scan, you&apos;ll receive a small dose of radioactive material through an intravenous line. The radioactive substance accumulates most in areas where bones are being repaired &amp;mdash; showing up on the scan image as a bright white spot. However, many types of bone problems look alike on bone scans, so the test isn&apos;t very specific for stress fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses radio waves and a strong magnetic field to produce detailed images of your internal structures. MRI usually can visualize stress fractures within the first week of injury and this type of test is better able to distinguish between stress fractures and soft tissue injuries.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment varies depending on the location of the stress fracture and on how quickly you need to resume activity. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;If needed, take acetaminophen (Tylenol, others) to relieve pain. Some research suggests that pain relievers such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others) can interfere with bone healing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;To reduce the bone&apos;s weight-bearing load until healing occurs, you may need to wear a walking boot or brace, or use crutches. In severe cases, the doctor may need to immobilize the affected bone with a splint or cast. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Although it&apos;s unusual, surgery is sometimes necessary to ensure complete healing of some types of stress fractures, especially those that occur in areas with a poor blood supply. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s important to give the bone time to heal. This may take several months or even longer. In the meantime: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Stay off the affected limb as directed by your doctor until you are cleared to bear normal weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; To reduce swelling and relieve pain, your doctor may recommend applying ice packs to the injured area as needed &amp;mdash; up to three or four times a day for 10 minutes at a time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Resume activity slowly.&lt;/strong&gt; When your doctor gives the OK, slowly progress from non-weight-bearing activities &amp;mdash; such as swimming &amp;mdash; to your usual activities. High-impact activities, such as running, should be resumed on a gradual basis, with careful progression of time and distance.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Simple steps can help you prevent stress fractures.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make changes slowly.&lt;/strong&gt; Start any new exercise program slowly and progress gradually.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use proper footwear.&lt;/strong&gt; Make sure your shoes fit well and are appropriate for your activity. If you have flat feet, ask your doctor about arch supports for your shoes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cross-train.&lt;/strong&gt; Add low-impact activities to your exercise regimen to avoid repetitively stressing a particular part of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get proper nutrition. &lt;/strong&gt;To keep your bones strong, make sure your diet includes plenty of calcium and other nutrients.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stress fractures
+	</Title>
+	<Abstract>
+		Stress fractures &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this common overuse injury.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,343 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00588
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/placenta-previa/DS00588
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-02
+		</UpdateDate>
+		<PublicationDate>
+			2005-06-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4042" Title="Placenta previa" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			827D77E5-9B63-44BA-A298CD99329BB784
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				placenta previa
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding during pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding in pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal bleeding in pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginal bleeding during pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				low placenta
+			</MetaKeyword>
+			<MetaKeyword>
+				low lying placenta
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Placenta previa (pluh-SEN-tuh PREH-vee-uh) occurs when a baby&apos;s placenta partially or totally covers the mother&apos;s cervix &amp;mdash; the doorway between the uterus and the vagina. Placenta previa can cause severe bleeding before or during delivery.
+&lt;/p&gt;
+&lt;p&gt;
+The placenta provides oxygen and nutrients to your growing baby and removes waste products from your baby&apos;s blood. It attaches to the wall of your uterus, and your baby&apos;s umbilical cord arises from it. In most pregnancies, the placenta attaches at the top or side of the uterus. In placenta previa, the placenta attaches to the lower area of the uterus.
+&lt;/p&gt;
+&lt;p&gt;
+If you have placenta previa, you&apos;ll probably be restricted to bed rest for a portion of your pregnancy and you&apos;ll likely require a caesarean section (C-section) to safely deliver your baby.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing placement of normal placenta and placenta previa
+" Caption="The placenta is a structure that develops in the uterus during pregnancy. In most pregnancies, the placenta is located at the top or side of the uterus. In placenta previa, the placenta is located low in the uterus. The placenta might partially or completely cover the cervix, as shown here. Placenta previa can cause severe bleeding in the mother before or during delivery. A C-section delivery might be required.
+" Height="60" Title="Placenta previa" URI="/images/image_popup/thumbs/r7_placentapreviathu.jpg" Width="60" />
+				<Image Alt="Illustration showing placement of normal placenta and placenta previa
+" Caption="The placenta is a structure that develops in the uterus during pregnancy. In most pregnancies, the placenta is located at the top or side of the uterus. In placenta previa, the placenta is located low in the uterus. The placenta might partially or completely cover the cervix, as shown here. Placenta previa can cause severe bleeding in the mother before or during delivery. A C-section delivery might be required.
+" Height="305" Title="Placenta previa" URI="/images/image_popup/r7_placentaprevia.jpg" Width="400" />
+				<HTML>
+					The placenta is a structure that develops in the uterus during pregnancy. In most pregnancies, the placenta is located at the top or side of the uterus. In placenta previa, the placenta is located ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Painless, bright red vaginal bleeding during the second half of pregnancy is the main sign of placenta previa. The amount of bleeding may range from light to heavy. The bleeding usually stops without treatment, but it nearly always recurs days or weeks later. Some women also experience contractions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience any vaginal bleeding during your second or third trimester, call your doctor right away. If the bleeding is severe, seek emergency medical care.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The placenta grows wherever the embryo implants itself in the uterus. If the embryo implants itself in the lower portion of the uterus, the placenta might grow over the cervix &amp;mdash; causing placenta previa.
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of placenta previa are diagnosed at the time of a second trimester ultrasound examination. If the placenta is just barely reaching the cervix, the situation will resolve itself because expansion of the uterus pulls the area of placental attachment higher up in the uterus, away from the cervical opening. If the placenta is found to be all the way across the cervix, however, it is unlikely to resolve with time.
+&lt;/p&gt;
+&lt;p&gt;
+Persistent types of placenta previa have been associated with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scars in the lining of the uterus&lt;/li&gt;
+	&lt;li&gt;A large placenta, such as with a multiple pregnancy&lt;/li&gt;
+	&lt;li&gt;An abnormally shaped uterus&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing placement of normal placenta and placenta previa
+" Caption="The placenta is a structure that develops in the uterus during pregnancy. In most pregnancies, the placenta is located at the top or side of the uterus. In placenta previa, the placenta is located low in the uterus. The placenta might partially or completely cover the cervix, as shown here. Placenta previa can cause severe bleeding in the mother before or during delivery. A C-section delivery might be required.
+" Height="60" Title="Placenta previa" URI="/images/image_popup/thumbs/r7_placentapreviathu.jpg" Width="60" />
+				<Image Alt="Illustration showing placement of normal placenta and placenta previa
+" Caption="The placenta is a structure that develops in the uterus during pregnancy. In most pregnancies, the placenta is located at the top or side of the uterus. In placenta previa, the placenta is located low in the uterus. The placenta might partially or completely cover the cervix, as shown here. Placenta previa can cause severe bleeding in the mother before or during delivery. A C-section delivery might be required.
+" Height="305" Title="Placenta previa" URI="/images/image_popup/r7_placentaprevia.jpg" Width="400" />
+				<HTML>
+					The placenta is a structure that develops in the uterus during pregnancy. In most pregnancies, the placenta is located at the top or side of the uterus. In placenta previa, the placenta is located ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Women are at higher risk for placenta previa if they&apos;ve had previous surgeries involving the uterus, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A C-section&lt;/li&gt;
+	&lt;li&gt;Surgery to remove uterine fibroids&lt;/li&gt;
+	&lt;li&gt;Dilation and curettage (D&amp;C), though this is a much lower risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Placenta previa is also more common among women who:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have already delivered at least one baby&lt;/li&gt;
+	&lt;li&gt;Had placenta previa with a previous pregnancy&lt;/li&gt;
+	&lt;li&gt;Are carrying twins, triplets or other multiples&lt;/li&gt;
+	&lt;li&gt;Are age 35 or older&lt;/li&gt;
+	&lt;li&gt;Are Asian&lt;/li&gt;
+	&lt;li&gt;Smoke&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have placenta previa, your health care provider will monitor you and your baby carefully to reduce the risk of these serious complications:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; One of the biggest concerns with placenta previa is the risk of severe vaginal bleeding (hemorrhage) during labor, delivery or the first few hours after delivery. The bleeding can be heavy enough to be life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preterm birth.&lt;/strong&gt; Severe bleeding may prompt an emergency C-section before your baby is full term.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been pregnant for more than 12 weeks and you develop any vaginal bleeding, call your pregnancy health care provider. He or she may recommend immediate medical care &amp;mdash; depending on your symptoms, your personal health history and how far along you are in the pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you may want to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about pre-appointment restrictions.&lt;/strong&gt; In most cases, you&apos;ll be seen immediately. However, if your appointment will be delayed for a day or two, ask whether you should restrict your activity while you wait to come in.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange to bring a family member or friend.&lt;/strong&gt; The fear you may be feeling about bleeding during pregnancy can make it difficult to focus on what your health care provider says. Take someone along who can help listen to all the information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your questions.&lt;/strong&gt; Creating your list of questions in advance can help you make the most of your time with your health care provider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your health care provider about placenta previa. If any additional questions occur to you during your visit, don&apos;t hesitate to ask.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have placenta previa?&lt;/li&gt;
+	&lt;li&gt;Is there a chance it could resolve on its own?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What follow-up care will I need during the rest of my pregnancy?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to help prolong my pregnancy?&lt;/li&gt;
+	&lt;li&gt;Do I need to be on bed rest? For how long?&lt;/li&gt;
+	&lt;li&gt;What signs or symptoms, if they occur, should cause me to call you?&lt;/li&gt;
+	&lt;li&gt;What signs or symptoms, if they occur, should cause me to go to the hospital?&lt;/li&gt;
+	&lt;li&gt;Will I be able to deliver vaginally?&lt;/li&gt;
+	&lt;li&gt;Does this condition increase the risk of complications during future pregnancies?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your health care provider is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice vaginal bleeding?&lt;/li&gt;
+	&lt;li&gt;Did you bleed only once, or has the bleeding come and gone?&lt;/li&gt;
+	&lt;li&gt;How heavy is the bleeding?&lt;/li&gt;
+	&lt;li&gt;Is the bleeding accompanied by any pain or contractions?&lt;/li&gt;
+	&lt;li&gt;Have you had any previous pregnancies that I&apos;m not aware of?&lt;/li&gt;
+	&lt;li&gt;Have you had any uterine surgeries that I&apos;m not aware of, including C-section, fibroid removal or dilation and curettage (D&amp;C) after a miscarriage or abortion?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;How far do you live from the hospital?&lt;/li&gt;
+	&lt;li&gt;How long would it take to get to the hospital in an emergency, including time to arrange child care and transportation?&lt;/li&gt;
+	&lt;li&gt;Do you have friends or family nearby who could care for you if you need bed rest?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Placenta previa is diagnosed through ultrasound, either during a routine prenatal appointment or after an episode of vaginal bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+A definitive diagnosis may require a combination of abdominal ultrasound and transvaginal ultrasound, which is done through a wand-like device placed inside your vagina. Your health care provider will closely monitor the location of the transducer in your vagina to prevent any bleeding. In rare instances, magnetic resonance imaging (MRI) may be used to clearly determine the placental location.
+&lt;/p&gt;
+&lt;p&gt;
+If your health care provider suspects that you may have placenta previa, he or she will avoid routine vaginal exams to reduce the risk of heavy bleeding. You may need additional ultrasounds to determine the exact location of your placenta before delivery. Your baby&apos;s heartbeat may be tracked as well.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for placenta previa depends on various factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The amount of vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Whether the bleeding has stopped&lt;/li&gt;
+	&lt;li&gt;How far along you are in your pregnancy&lt;/li&gt;
+	&lt;li&gt;Your health&lt;/li&gt;
+	&lt;li&gt;Your baby&apos;s health&lt;/li&gt;
+	&lt;li&gt;The position of the placenta and the baby&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For little or no bleeding&lt;/strong&gt;&lt;br /&gt;
+If you have little or no bleeding, your health care provider may recommend bed rest at home. Depending on the circumstances, you may need to lie in bed most of the time &amp;mdash; sitting and standing only when necessary. You&apos;ll need to avoid sex, which can trigger bleeding. Exercise is usually off-limits, too. Be prepared to seek emergency medical care if you begin to bleed.
+&lt;/p&gt;
+&lt;p&gt;
+If the placenta doesn&apos;t completely cover your cervix, you may be allowed to attempt a vaginal delivery. If you begin to bleed heavily, you may need an emergency C-section.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For heavy bleeding&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re bleeding, you may need bed rest in the hospital. If the bleeding is severe, you may need a blood transfusion to replace lost blood. You may also benefit from medications to prevent premature labor.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider will likely plan a C-section as soon as the baby can be safely delivered, ideally after 36 weeks of pregnancy. If it&apos;s not possible to wait, you will need an earlier C-section. In this case, you may be given corticosteroids to speed your baby&apos;s lung development.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For bleeding that won&apos;t stop&lt;/strong&gt;&lt;br /&gt;
+If your bleeding can&apos;t be controlled or your baby is in distress, you may need an emergency C-section &amp;mdash; even if the baby is premature.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pregnancy is supposed to be a time of happy anticipation. If you&apos;re diagnosed with placenta previa, you&apos;re sure to be worried about how your condition will affect your baby. Some of these strategies may help:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about placenta previa.&lt;/strong&gt; Gathering information about your condition may help you feel less scared. Talk to your health care provider, do some research on your own and connect with other women who&apos;ve had placenta previa.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare for a C-section.&lt;/strong&gt; Placenta previa may prevent you from delivering your baby vaginally. If you&apos;re disappointed that you may not have a vaginal birth, remind yourself that your baby&apos;s health and your health are more important than the method of delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make the best of bed rest.&lt;/strong&gt; If your health care provider recommends bed rest, fill your days by planning for your baby&apos;s arrival. Read about newborn care or purchase newborn necessities, either online or from catalogs. Or use the time to balance your checkbook, organize old photo albums or catch up on thank-you notes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Surround yourself with things that bring you comfort, such as a good book or a favorite pair of pajamas. Give your partner, friends and loved ones concrete suggestions for ways to help, such as bringing a favorite food or simply stopping by for a visit.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Placenta previa
+	</Title>
+	<Abstract>
+		Placenta previa &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of this potentially dangerous pregnancy complication.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00531" LinkType="Internal" ObjectID="E8BBC7AF-DD41-4103-B825EE50ADA88774" Title="Video: C-section" Url="http://www.mayoclinic.com/health/c-section/MM00531" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00214" LinkType="Internal" ObjectID="C2CFE268-E7FF-0DBD-18FA5858F40AF065" Title="C-section" Url="http://www.mayoclinic.com/health/c-section/MY00214" />
+		<LinkItem ContentType="Calculator" DocID="PR00099" LinkType="Internal" ObjectID="B0EB2B6A-48BF-4656-AD2A27E956F02A3B" Title="Pregnancy due date calculator" Url="http://www.mayoclinic.com/health/due-date-calculator/PR00099" />
+		<LinkItem ContentType="Article" DocID="PR00120" LinkType="Internal" ObjectID="EC47EF57-2A5D-9994-EC289CAA22CD0366" Title="Twin pregnancy: What multiples mean for mom" Url="http://www.mayoclinic.com/health/twin-pregnancy/PR00120" />
+		<LinkItem ContentType="Article" DocID="PR00107" LinkType="Internal" ObjectID="DF1F8E53-CE59-4A8B-9204923F7DA89C84" Title="Bed rest during pregnancy: Get the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00107" />
+		<LinkItem ContentType="Article" DocID="MY01924" LinkType="Internal" ObjectID="A936A6CB-EBE3-75E1-8149D2118AC8AA6F" Title="Smoking and pregnancy: Understand the risks" Url="http://www.mayoclinic.com/health/smoking-and-pregnancy/MY01924" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="PR00125" LinkType="Internal" ObjectID="7A28001E-F8AD-4174-AF785E26EEE1A1D5" Title="High blood pressure and pregnancy: Know the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00125" />
+		<LinkItem ContentType="Article" DocID="MY01945" LinkType="Internal" ObjectID="1A1EE92E-FB0A-795B-CEB7BDD5607624A1" Title="Placenta: How it works, what&apos;s normal" Url="http://www.mayoclinic.com/health/placenta/MY01945" />
+		<LinkItem ContentType="Article" DocID="MY01691" LinkType="Internal" ObjectID="0C5B6C3B-A65E-7D18-492171BE49CF8E3D" Title="Family planning: Get the facts about pregnancy spacing" Url="http://www.mayoclinic.com/health/family-planning/MY01691" />
+		<LinkItem ContentType="Disease" DocID="DS00137" LinkType="Internal" ObjectID="DB81ABF4-378D-453B-AFD7BF32AD6F01E7" Title="Premature birth" Url="http://www.mayoclinic.com/health/premature-birth/DS00137" />
+		<LinkItem ContentType="Disease" DocID="DS01207" LinkType="Internal" ObjectID="A43C6661-B9F9-3BE6-3A41FE6D24724FDD" Title="Amniotic fluid embolism" Url="http://www.mayoclinic.com/health/amniotic-fluid-embolism/DS01207" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+	</RelatedLinksBox>
+</Disease>

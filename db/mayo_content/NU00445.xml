@@ -1,0 +1,210 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00445
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00445
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F24704B6-9210-4863-BFC103412B23FEF4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Stuffed eggplant
+	</Title>
+	<Abstract>
+		Stuffed eggplant &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; For a meatless version, saute extra-firm tofu instead of chicken breast along with the vegetables. For another variation, add tarragon and lemon or Cajun spices to jazz up the eggplant stuffing. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 350 F. Lightly coat a baking dish with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+Trim the ends off the eggplant and cut in half lengthwise. Using a spoon, scoop out the pulp, leaving a shell 1/4 inch thick. Place the shells in the baking dish and add the water to the bottom of the dish. Chop the eggplant pulp into cubes. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large, nonstick frying pan, heat the olive oil over medium-high heat. Add the chicken strips and saute until the chicken is lightly browned and no longer pink, about 5 minutes. Add the diced eggplant, onion, peppers, tomatoes and reserved tomato juice, celery, and mushrooms to the chicken. Reduce heat and simmer until the vegetables are tender, about 10 minutes. Stir in the bread crumbs and black pepper. Scoop half the mixture into each eggplant shell. 
+&lt;/p&gt;
+&lt;p&gt;
+Cover with aluminum foil and bake until the eggplant is softened and the stuffing is warmed through, about 15 minutes. Transfer the eggplant to warmed individual plates and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 medium eggplant&lt;/li&gt;
+	&lt;li&gt;1 cup water&lt;/li&gt;
+	&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
+	&lt;li&gt;6 ounces boneless, skinless chicken breast, cut into strips 1/2 inch wide and 2 inches long&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped onion&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped red, green or yellow bell peppers&lt;/li&gt;
+	&lt;li&gt;1 cup canned unsalted tomatoes, drained except for 1/4 cup liquid&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped celery&lt;/li&gt;
+	&lt;li&gt;1/2 cup sliced fresh mushrooms&lt;/li&gt;
+	&lt;li&gt;1 cup whole-wheat bread crumbs&lt;/li&gt;
+	&lt;li&gt;Freshly ground black pepper, to taste &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				2
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				4
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				2
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				4
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1/2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				4
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				346
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				37 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				49 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber" />
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				6 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				27 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 eggplant half
+			</Servingsize>
+			<Sodium Label="Sodium">
+				200 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				10 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

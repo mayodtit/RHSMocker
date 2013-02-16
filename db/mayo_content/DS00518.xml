@@ -1,0 +1,312 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00518
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cervicitis/DS00518
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-22
+		</UpdateDate>
+		<PublicationDate>
+			2004-02-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2048" Title="Cervix">
+						<Keyword MCVID="2923" Title="Cervicitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1CB439AC-716E-4302-935EC5DA37A46B67
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cervicitis
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical infection
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cervicitis is an inflammation of the cervix, the lower, narrow end of your uterus that opens into the vagina. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s possible to have cervicitis and not experience any signs or symptoms. Among the signs and symptoms women sometimes notice are bleeding between menstrual periods and changes in vaginal discharge. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, cervicitis results from a sexually transmitted infection, such as chlamydia or gonorrhea. Cervicitis can develop from noninfectious causes, too. 
+&lt;/p&gt;
+&lt;p&gt;
+Successful treatment of cervicitis involves treating the underlying cause of the inflammation. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most often, cervicitis causes no signs and symptoms, and you may only learn you have the condition after a Pap test or a biopsy for another condition. If you do have signs and symptoms, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Large amounts of vaginal discharge that&apos;s grayish or yellow and pus-like (mucopurulent discharge) and that sometimes has an unpleasant odor&lt;/li&gt;
+	&lt;li&gt;Frequent, painful urination&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+	&lt;li&gt;Vaginal bleeding after intercourse, between menstrual periods or after menopause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent, unusual vaginal discharge&lt;/li&gt;
+	&lt;li&gt;Nonmenstrual vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Often, cervicitis produces no signs and symptoms and may be discovered only in the course of a routine Pap test &amp;mdash; a good reason to have regular pelvic exams and Pap tests. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of normal cervix and cervix with cervicitis 
+" Caption="With cervicitis, an inflammation of your cervix, your cervix appears red and irritated and may produce a gray or yellow pus-like discharge. 
+" Height="60" Title="Cervicitis" URI="/images/image_popup/thumbs/mcdc7_cervicitisthu.jpg" Width="60" />
+				<Image Alt="Illustration of normal cervix and cervix with cervicitis 
+" Caption="With cervicitis, an inflammation of your cervix, your cervix appears red and irritated and may produce a gray or yellow pus-like discharge. 
+" Height="219" Title="Cervicitis" URI="/images/image_popup/mcdc7_cervicitis.jpg" Width="400" />
+				<HTML>
+					With cervicitis, an inflammation of your cervix, your cervix appears red and irritated and may produce a gray or yellow pus-like discharge. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Two types of cells line your cervix: flat, skin-like cells (squamous cells) and glandular cells that secrete mucus. The same organisms responsible for vaginitis, an inflammation of the vagina, can cause cervicitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Your cervix acts as a barrier to keep bacteria and viruses from entering your uterus. When the cervix is infected, there is an increased risk that the infection will travel into your uterus. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible causes of cervicitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sexually transmitted infections.&lt;/strong&gt; Most often, the bacterial and viral infections that cause cervicitis are transmitted by sexual contact. Cervicitis can result from common sexually transmitted infections (STIs), including gonorrhea, chlamydia, trichomoniasis and genital herpes. There&apos;s no evidence that human papillomavirus (HPV), another common sexually transmitted infection, causes cervicitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic reactions.&lt;/strong&gt; An allergy, either to contraceptive spermicides or to latex in condoms, may lead to cervicitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial overgrowth.&lt;/strong&gt; An overgrowth of some of the bacteria that are normally present in the vagina (bacterial vaginosis) also can lead to cervicitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re at greater risk of cervicitis if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Engage in high-risk sexual behavior, such as unprotected sex or sex with multiple partners&lt;/li&gt;
+	&lt;li&gt;Began having sexual intercourse at an early age&lt;/li&gt;
+	&lt;li&gt;Have a history of sexually transmitted infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also be at increased risk if you have sex with a partner who has engaged in high-risk sexual behavior or has had a sexually transmitted infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cervicitis that&apos;s caused by gonorrhea or chlamydia can spread to the uterine lining and the fallopian tubes, resulting in pelvic inflammatory disease (PID), an infection of the female reproductive organs. Women who develop PID may have pelvic pain, fever and vaginal discharge. Sometimes, however, there are no signs or symptoms. Untreated PID can cause fertility problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cervicitis is most often discovered incidentally during a routine pelvic exam and Pap test and may not require treatment. If, however, you experience unusual vaginal symptoms that lead you to schedule an appointment, you&apos;ll most likely see a gynecologist, family doctor or other health care provider. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+So that your doctor can observe and evaluate any vaginal discharge you have, avoid using tampons and don&apos;t douche before your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+Also make a list of all medications or supplements you&apos;re taking or any allergies you have. Write down questions to ask your doctor. Some basic questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can I do anything to prevent this condition?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch out for?&lt;/li&gt;
+	&lt;li&gt;Do I need to take medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any special instructions for taking the medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any over-the-counter products that will treat my condition?&lt;/li&gt;
+	&lt;li&gt;Does my partner also need to be tested or treated?&lt;/li&gt;
+	&lt;li&gt;What should I do if my symptoms return after treatment?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you think of something else. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely perform a physical exam that may include a pelvic exam and Pap test. He or she may collect a fluid specimen from your vagina or cervix to send for testing. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also ask you a number of questions about your condition, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What vaginal symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Do you notice a strong vaginal odor?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing any urinary problems, such as pain during urination?&lt;/li&gt;
+	&lt;li&gt;How long have you had your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Have you or your partner ever had a sexually transmitted infection?&lt;/li&gt;
+	&lt;li&gt;Do you experience pain or bleeding during intercourse?&lt;/li&gt;
+	&lt;li&gt;Do you have abdominal pain? Where, exactly?&lt;/li&gt;
+	&lt;li&gt;Do you douche or use any feminine hygiene products?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;Have you tried any over-the-counter products to treat your symptoms?&lt;/li&gt;
+	&lt;li&gt;What medications or vitamin supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely perform a physical examination, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A pelvic exam.&lt;/strong&gt; During this exam, your doctor manually checks your pelvic organs for areas of swelling and tenderness. He or she also may place a speculum in your vagina to expose the upper part of the vagina and the cervix for visual examination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A specimen collection.&lt;/strong&gt; In a process similar to a Pap test, your doctor uses a small cotton swab or a brush to gently remove a sample of cervical and vaginal fluid. The procedure generally takes only a few minutes. Your doctor sends the sample to a laboratory to test for infections. Lab tests also may be performed on a urine sample.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="60" Title="Pelvic examination" URI="/images/image_popup/thumbs/mcdc7_pelvicexamthu.jpg" Width="60" />
+				<Image Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="300" Title="Pelvic examination" URI="/images/image_popup/mcdc7_pelvic_exam.jpg" Width="400" />
+				<HTML>
+					In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may not need treatment for cervicitis that&apos;s not caused by a sexually transmitted infection (STI). If the cause is an STI, both you and your partner are likely to need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Prescription medications often can clear up the inflammation of cervicitis. Treatment for a bacterial infection is with an antibiotic. If the cause is viral, such as genital herpes, the treatment is an antiviral medication. However, antiviral medication doesn&apos;t cure herpes, which is a chronic condition and may be passed on to your partner at any time. 
+&lt;/p&gt;
+&lt;p&gt;
+To avoid passing a bacterial infection along to your partner, abstain from sexual intercourse until you&apos;re finished with the treatment recommended by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the best ways to reduce your risk of cervicitis from sexually transmitted infections is to use condoms consistently and correctly each time you have sex. Condoms are very effective against the spread of sexually transmitted infections, such as gonorrhea and chlamydia, which can lead to cervicitis. Being in a long-term mutually monogamous relationship with an uninfected partner can also diminish your odds of a sexually transmitted infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cervicitis
+	</Title>
+	<Abstract>
+		Cervicitis &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this female infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Disease" DocID="DS01193" LinkType="Internal" ObjectID="950F8BC6-AC69-9B2C-C09ED47E7E5114A9" Title="Bacterial vaginosis" Url="http://www.mayoclinic.com/health/bacterial-vaginosis/DS01193" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+	</RelatedLinksBox>
+</Disease>

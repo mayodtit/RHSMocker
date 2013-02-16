@@ -1,0 +1,144 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01640
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lentils/AN01640
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			25D89458-E7FF-0DBD-1E170C1B28D662C6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lentil
+			</MetaKeyword>
+			<MetaKeyword>
+				lentils
+			</MetaKeyword>
+			<MetaKeyword>
+				meat substitute
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetarian
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetarian diet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Lentils are grouped with beans and peas as part of the legume family because, like all legumes, they grow in pods. Lentils are high in protein and fiber and low in fat, which makes them a healthy substitute for meat. They&apos;re also packed with folate, iron, phosphorus, potassium and fiber.
+&lt;/p&gt;
+&lt;p&gt;
+Lentils come in three main varieties: brown, green and red. Most grocery stores carry brown lentils, usually dried. Green and red lentils may be found at specialty food markets. Here are some tips for choosing your color:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brown lentils.&lt;/strong&gt; The least expensive, they soften when cooked and can become mushy. Use for soups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Green lentils.&lt;/strong&gt; Also called French lentils, these have a nuttier flavor and stay firm when cooked. Green lentils are the best choice for salads.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red lentils.&lt;/strong&gt; The fastest cooking, these lose their shape and turn golden when cooked. They taste milder and sweeter than green lentils. Use them for purees and Indian dals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unlike other legumes, lentils cook quickly without pre-soaking. Just make sure to rinse away any dirt, dust or debris before adding them to recipes. Lentils work well in soups, stews and salads. Or you boil them for 15 to 30 minutes, add turmeric, ginger or other seasonings, and serve over rice or mix with other vegetables and enjoy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lentils: How do I cook with them?
+	</Title>
+	<Abstract>
+		Unlike other legumes, lentils cook quickly without pre-soaking.
+	</Abstract>
+	<Question>
+		I know lentils are supposed to be good for me. But what are they and how do I prepare them?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00043" LinkType="Internal" ObjectID="DA9E0A5E-AA38-4E09-808B770F73416D0A" Title="Food-borne illness: First aid" Url="http://www.mayoclinic.com/health/first-aid-food-borne-illness/FA00043" />
+		<LinkItem ContentType="SlideShow" DocID="MY00612" LinkType="Internal" ObjectID="0FD2D431-A972-ACFC-0DB6582BC92452DE" Title="Slide show: Guide to beans and legumes" Url="http://www.mayoclinic.com/health/beans-and-legumes/MY00612" />
+		<LinkItem ContentType="Answer" DocID="AN01754" LinkType="Internal" ObjectID="FCC73CB5-E7FF-0DBD-1154B40421860062" Title="Canned pumpkin: Better than fresh?" Url="http://www.mayoclinic.com/health/pumpkin/AN01754" />
+		<LinkItem ContentType="Answer" DocID="AN01095" LinkType="Internal" ObjectID="F95EEF99-1547-4C91-A3AB30396ADB076C" Title="Food poisoning: How long can you safely keep leftovers?" Url="http://www.mayoclinic.com/health/food-safety/AN01095" />
+		<LinkItem ContentType="SlideShow" DocID="MY01726" LinkType="Internal" ObjectID="EDD653A9-B101-97B5-FD666710C6590CD8" Title="Slide show: Tips for cooking fish" Url="http://www.mayoclinic.com/health/cooking-fish/MY01726" />
+		<LinkItem ContentType="Video" DocID="MM00720" LinkType="Internal" ObjectID="CD392581-E7FF-0DBD-1F128041B896D0A9" Title="Video: Making healthy turkey and turkey gravy" Url="http://www.mayoclinic.com/health/turkey-gravy/MM00720" />
+		<LinkItem ContentType="SlideShow" DocID="MY01545" LinkType="Internal" ObjectID="BFCE55C5-B519-F765-BDC2844F6456070C" Title="Slide show: Your guide to herbs" Url="http://www.mayoclinic.com/health/herbs/MY01545" />
+		<LinkItem ContentType="Video" DocID="MM00762" LinkType="Internal" ObjectID="BAA1F46D-E7FF-0DBD-1AE91C6522CA36E3" Title="Video: Caesar salad with grilled chicken" Url="http://www.mayoclinic.com/health/caesar-salad/MM00762" />
+		<LinkItem ContentType="Video" DocID="MM00767" LinkType="Internal" ObjectID="A214DA78-E7FF-0DBD-10C73B967B8D334C" Title="Video: Mediterranean-style grilled salmon" Url="http://www.mayoclinic.com/health/grilled-salmon/MM00767" />
+		<LinkItem ContentType="Video" DocID="MM00766" LinkType="Internal" ObjectID="A1F60308-E7FF-0DBD-1186B88F6746D7DC" Title="Video: Jamaican barbecued pork tenderloin" Url="http://www.mayoclinic.com/health/pork-tenderloin/MM00766" />
+		<LinkItem ContentType="Video" DocID="MM00765" LinkType="Internal" ObjectID="A1F16260-E7FF-0DBD-1B503B5945D07944" Title="Video: Grilled pineapple" Url="http://www.mayoclinic.com/health/grilled-pineapple/MM00765" />
+		<LinkItem ContentType="Answer" DocID="AN01483" LinkType="Internal" ObjectID="A04AF227-E7FF-0DBD-14F15E833A88169C" Title="Thanksgiving turkey: Can you cook it frozen?" Url="http://www.mayoclinic.com/health/thanksgiving-turkey/AN01483" />
+		<LinkItem ContentType="SlideShow" DocID="MY01703" LinkType="Internal" ObjectID="73385B6A-07F5-670B-16F17952FFBC18EF" Title="Slide show: 5 healthy recipes for fresh fruit" Url="http://www.mayoclinic.com/health/fresh-fruit/MY01703" />
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="Answer" DocID="AN01781" LinkType="Internal" ObjectID="59D45475-E7FF-0DBD-1F01B7A4F60820CF" Title="E. coli: How can I tell if food is contaminated?" Url="http://www.mayoclinic.com/health/e-coli/AN01781" />
+		<LinkItem ContentType="InteractiveTable" DocID="NU00201" LinkType="Internal" ObjectID="4B7AA3B7-C093-42A7-90E68FCFB2F38388" Title="Healthy cooking techniques: Boost flavor and cut calories" Url="http://www.mayoclinic.com/health/healthy-cooking/NU00201" />
+		<LinkItem ContentType="Video" DocID="MM00769" LinkType="Internal" ObjectID="439F91D8-E7FF-0DBD-1C9EF1246D99CD15" Title="Video: Apple berry cobbler" Url="http://www.mayoclinic.com/health/apple-berry-cobbler/MM00769" />
+		<LinkItem ContentType="Video" DocID="MM00768" LinkType="Internal" ObjectID="439C4065-E7FF-0DBD-1FB694FE9BEB03B7" Title="Video: Hearty turkey chili" Url="http://www.mayoclinic.com/health/turkey-chili/MM00768" />
+		<LinkItem ContentType="SlideShow" DocID="MY00769" LinkType="Internal" ObjectID="3CDBF141-C2AF-4FE6-CAD97A63BC955462" Title="Slide show: Guide to gourmet salt" Url="http://www.mayoclinic.com/health/gourmet-salt/MY00769" />
+		<LinkItem ContentType="Video" DocID="MM00764" LinkType="Internal" ObjectID="2BC385F1-E7FF-0DBD-12288560BCB15F8E" Title="Video: Pineapple chicken stir-fry" Url="http://www.mayoclinic.com/health/pineapple-chicken-stir-fry/MM00764" />
+		<LinkItem ContentType="Video" DocID="MM00763" LinkType="Internal" ObjectID="2BC16E72-E7FF-0DBD-19A2BBFFAB258214" Title="Video: Honey crusted chicken" Url="http://www.mayoclinic.com/health/honey-crusted-chicken/MM00763" />
+		<LinkItem ContentType="Answer" DocID="AN01024" LinkType="Internal" ObjectID="0AC2B547-5A12-493D-A2EE25521E535348" Title="Moldy cheese: Is it OK to eat?" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN01024" />
+		<LinkItem ContentType="SlideShow" DocID="MY01566" LinkType="Internal" ObjectID="084C59EA-AF54-0FA6-B0EE3FF2FFDDB35B" Title="Slide show: Your guide to spices" Url="http://www.mayoclinic.com/health/spices/MY01566" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+		<LinkItem ContentType="Disease" DocID="DS00963" LinkType="Internal" ObjectID="148A1DFD-E7FF-0DBD-126AFDE89E532E0A" Title="Listeria infection" Url="http://www.mayoclinic.com/health/listeria-infection/DS00963" />
+		<LinkItem ContentType="Article" DocID="MY00754" LinkType="Internal" ObjectID="EF7A748E-0598-8C6B-492A384AB6D0CDFF" Title="Summer recipes: Celebrate the season" Url="http://www.mayoclinic.com/health/summer-recipes/MY00754" />
+		<LinkItem ContentType="Article" DocID="MY00752" LinkType="Internal" ObjectID="EE5A6DA8-945A-7BFA-9435E393A83B0F22" Title="Meatless meals: The benefits of eating less meat" Url="http://www.mayoclinic.com/health/meatless-meals/MY00752" />
+		<LinkItem ContentType="Article" DocID="NU00204" LinkType="Internal" ObjectID="D56B9CBF-9BD4-4FF7-A7EC0D78F3EEFA7B" Title="Whole grains: Hearty options for a healthy diet" Url="http://www.mayoclinic.com/health/whole-grains/NU00204" />
+		<LinkItem ContentType="Article" DocID="MY02089" LinkType="Internal" ObjectID="CC778A22-B2D6-6E96-E37A7C52DBF5B7AD" Title="Healthy chicken recipes" Url="http://www.mayoclinic.com/health/healthy-chicken-recipes/MY02089" />
+		<LinkItem ContentType="Article" DocID="NU00585" LinkType="Internal" ObjectID="B20BD1C9-15FF-4DAF-A736C80FA0592CA4" Title="Healthy recipes: A guide to ingredient substitutions" Url="http://www.mayoclinic.com/health/healthy-recipes/NU00585" />
+		<LinkItem ContentType="Article" DocID="NU00584" LinkType="Internal" ObjectID="A915C235-9237-4A91-B9B9F8AAC1753971" Title="Recipe makeovers: 5 ways to create healthy recipes" Url="http://www.mayoclinic.com/health/healthy-recipes/NU00584" />
+		<LinkItem ContentType="Article" DocID="HQ00474" LinkType="Internal" ObjectID="8B847AAE-5000-4419-996F548C91647C34" Title="Healthy cooking for 1 or 2" Url="http://www.mayoclinic.com/health/healthy-cooking/HQ00474" />
+		<LinkItem ContentType="Article" DocID="NU00641" LinkType="Internal" ObjectID="841BB6FE-E7FF-0DBD-114C847F3AC3CC80" Title="Healthy eating: Jazz it up with these tips" Url="http://www.mayoclinic.com/health/healthy-eating/NU00641" />
+		<LinkItem ContentType="Article" DocID="MY01595" LinkType="Internal" ObjectID="5BA1759D-95A5-BEBE-818424904830557F" Title="Soup recipes: Explore the possibilities" Url="http://www.mayoclinic.com/health/soup-recipes/MY01595" />
+		<LinkItem ContentType="Article" DocID="NU00260" LinkType="Internal" ObjectID="155D6641-E93A-4470-B5DAB36AA0A92239" Title="Beans and other legumes: Types and cooking tips" Url="http://www.mayoclinic.com/health/legumes/NU00260" />
+	</RelatedLinksBox>
+</Answer>

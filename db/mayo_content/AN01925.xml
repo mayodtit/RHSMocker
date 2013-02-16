@@ -1,0 +1,165 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01925
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vitamin-d-deficiency/AN01925
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease">
+						<Keyword MCVID="2269" Title="Heart attack" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			33ECCF95-E7FF-0DBD-1E97E440C48C2B1B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vitamin D deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin D
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin D and high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin D and hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It&apos;s long been known that getting too little vitamin D weakens bones. The role vitamin D may play in developing high blood pressure and heart disease is less clear.
+&lt;/p&gt;
+&lt;p&gt;
+Vitamin D deficiency may be linked to heart disease and a higher risk of high blood pressure (hypertension). It&apos;s too early to say whether too little vitamin D causes high blood pressure &amp;mdash; or whether vitamin D supplements may have any role in the treatment of high blood pressure.
+&lt;/p&gt;
+&lt;p&gt;
+Still, vitamin D remains an important nutrient for overall good health. The Institute of Medicine recommends 600 international units (IU) of vitamin D a day for adults ages 19 to 70. For adults age 71 and older, the recommendation increases to 800 IU a day. Some doctors question whether these levels are adequate and think that getting more vitamin D would benefit many people. However, the Institute of Medicine recommends that adults avoid taking more than 4,000 IUs a day.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re concerned that you&apos;re getting too little &amp;mdash; or too much &amp;mdash; vitamin D, contact your doctor. He or she may recommend a blood test to check the level of vitamin D in your blood.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vitamin D deficiency: Can it cause high blood pressure?
+	</Title>
+	<Abstract>
+		Vitamin D deficiency may be associated with high blood pressure.
+	</Abstract>
+	<Question>
+		Can vitamin D deficiency cause high blood pressure?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="Calculator" DocID="HB00047" LinkType="Internal" ObjectID="B45BEB09-FD1A-459D-81A0DA5E0DC803C1" Title="Heart disease risk calculator" Url="http://www.mayoclinic.com/health/heart-disease-risk/HB00047" />
+		<LinkItem ContentType="Answer" DocID="AN01980" LinkType="Internal" ObjectID="A4DC81BE-9CE9-6A63-48B78D4984D6453A" Title="Can vitamins help prevent a heart attack?" Url="http://www.mayoclinic.com/health/prevent-heart-attack/AN01980" />
+		<LinkItem ContentType="Answer" DocID="AN02030" LinkType="Internal" ObjectID="9B86E828-F147-D064-F1F30CF81E1DCE50" Title="Omega-6 fatty acids: Can they cause heart disease?" Url="http://www.mayoclinic.com/health/omega-6/AN02030" />
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
+		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
+		<LinkItem ContentType="Disease" DocID="DS01152" LinkType="Internal" ObjectID="9F0E8FB3-F199-7773-924ECC6AE64AD0B5" Title="Cardiogenic shock" Url="http://www.mayoclinic.com/health/cardiogenic-shock/DS01152" />
+		<LinkItem ContentType="Article" DocID="HB00089" LinkType="Internal" ObjectID="F3B561EB-E7FF-0DBD-12ACC7FD196B1ED3" Title="Red wine and resveratrol: Good for your heart?" Url="http://www.mayoclinic.com/health/red-wine/HB00089" />
+		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
+		<LinkItem ContentType="Article" DocID="HB00073" LinkType="Internal" ObjectID="9CD00E35-2A5D-9994-EF86A3EE674B8F8C" Title="Daily aspirin therapy: Understand the benefits and risks" Url="http://www.mayoclinic.com/health/daily-aspirin-therapy/HB00073" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="Article" DocID="HB00085" LinkType="Internal" ObjectID="92DF9319-E7FF-0DBD-1F4D49DAC4DFC1AE" Title="Nuts and your heart: Eating nuts for heart health" Url="http://www.mayoclinic.com/health/nuts/HB00085" />
+		<LinkItem ContentType="Article" DocID="WO00041" LinkType="Internal" ObjectID="8D26F094-D5A5-45D8-90A4CB187A60091B" Title="5 medication-free strategies to help prevent heart disease" Url="http://www.mayoclinic.com/health/heart-disease-prevention/WO00041" />
+		<LinkItem ContentType="Article" DocID="HB00040" LinkType="Internal" ObjectID="7D6EE7E9-8240-4D04-AAA71F42515DDA8D" Title="Heart disease in women: Understand symptoms and risk factors" Url="http://www.mayoclinic.com/health/heart-disease/HB00040" />
+		<LinkItem ContentType="Article" DocID="HB00087" LinkType="Internal" ObjectID="5CF09E7C-E7FF-0DBD-1B0E1EC13D2882D5" Title="Omega-3 in fish: How eating fish helps your heart" Url="http://www.mayoclinic.com/health/omega-3/HB00087" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00327" LinkType="Internal" ObjectID="E25BA260-E7FF-0DBD-1581C13DDA359B5C" Title="Heart scan (coronary calcium scan)" Url="http://www.mayoclinic.com/health/heart-scan/MY00327" />
+		<LinkItem ContentType="FirstAid" DocID="FA00050" LinkType="Internal" ObjectID="CFC8A2A8-B211-482E-BFEED59D7FAAD6C9" Title="Heart attack: First aid" Url="http://www.mayoclinic.com/health/first-aid-heart-attack/FA00050" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01018" LinkType="Internal" ObjectID="54EAD155-D909-7FE2-44C4EB2D320BB269" Title="C-reactive protein test" Url="http://www.mayoclinic.com/health/c-reactive-protein/MY01018" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00771" LinkType="Internal" ObjectID="501AEB1F-0C51-8CCA-8F66232AC95B25F3" Title="Cardiac rehabilitation" Url="http://www.mayoclinic.com/health/cardiac-rehabilitation/MY00771" />
+		<LinkItem ContentType="Answer" DocID="AN00360" LinkType="Internal" ObjectID="49DC83AF-CC93-4E65-8E3AE20DAC235EF5" Title="Ejection fraction: What does it measure?" Url="http://www.mayoclinic.com/health/ejection-fraction/AN00360" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00994" LinkType="Internal" ObjectID="2FB32B7C-AA76-9270-67C8386DF3BCD3D1" Title="Nuclear stress test" Url="http://www.mayoclinic.com/health/nuclear-stress-test/MY00994" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="FirstAid" DocID="FA00061" LinkType="Internal" ObjectID="103C3F3D-1A3B-4549-A2B5DF1D25D31BB5" Title="Cardiopulmonary resuscitation (CPR): First aid" Url="http://www.mayoclinic.com/health/first-aid-cpr/FA00061" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="Calculator" DocID="CL00034" LinkType="Internal" ObjectID="01F97204-E7FF-0DBD-10ED8C5F6FEF9742" Title="LDL cholesterol calculator" Url="http://www.mayoclinic.com/health/ldl-cholesterol/CL00034" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Article" DocID="CL00036" LinkType="Internal" ObjectID="7FD30B1C-E7FF-0DBD-1A4BD415229049AF" Title="Niacin to boost your HDL, &apos;good,&apos; cholesterol" Url="http://www.mayoclinic.com/health/niacin/CL00036" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN02146" LinkType="Internal" ObjectID="C4A291E6-F30F-C699-43BAE9A3182DF640" Title="Silent heart attack: What are the risks?" Url="http://www.mayoclinic.com/health/silent-heart-attack/AN02146" />
+		<LinkItem ContentType="Answer" DocID="AN02063" LinkType="Internal" ObjectID="994B809F-0EC7-E98C-03355F4D9A708740" Title="Heart attack prevention: Should I avoid secondhand smoke?" Url="http://www.mayoclinic.com/health/secondhand-smoke/AN02063" />
+		<LinkItem ContentType="Answer" DocID="AN01928" LinkType="Internal" ObjectID="474BA1DA-E7FF-0DBD-1A970678D637C547" Title="Calcium supplements: A risk factor for heart attack?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01928" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+		<LinkItem ContentType="Disease" DocID="DS01158" LinkType="Internal" ObjectID="0F4A255E-9C7E-F680-E610EF8AADF137EC" Title="Ventricular fibrillation" Url="http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158" />
+		<LinkItem ContentType="Article" DocID="HB00054" LinkType="Internal" ObjectID="CFCD79B0-BCF6-4D27-88093ABCD237E6A9" Title="Heart attack symptoms: Know what&apos;s a medical emergency" Url="http://www.mayoclinic.com/health/heart-attack-symptoms/HB00054" />
+		<LinkItem ContentType="Disease" DocID="DS00094" LinkType="Internal" ObjectID="335BD208-F892-4D6A-A14CBCB0FBF85238" Title="Heart attack" Url="http://www.mayoclinic.com/health/heart-attack/DS00094" />
+	</RelatedLinksBox>
+</Answer>

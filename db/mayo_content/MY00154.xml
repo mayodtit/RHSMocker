@@ -1,0 +1,279 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00154
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chorionic-villus-sampling/MY00154
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="3730" Title="Chorionic villus sampling" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E457E151-E7FF-0DBD-1ACADCF6AE70EE0B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+			<MetaKeyword>
+				chorionic villus sampling
+			</MetaKeyword>
+			<MetaKeyword>
+				CVS
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal care
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+			<MetaKeyword>
+				Down syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chorionic villus sampling (CVS) is a prenatal test in which a sample of chorionic villi is removed from the placenta for testing.
+&lt;/p&gt;
+&lt;p&gt;
+During pregnancy, the placenta provides oxygen and nutrients to the growing baby and removes waste products from the baby&apos;s blood. The chorionic villi are wispy projections that make up most of the placenta and share the baby&apos;s genetic makeup.
+&lt;/p&gt;
+&lt;p&gt;
+Chorionic villus sampling can reveal whether a baby has a chromosomal condition, such as Down syndrome. Chorionic villus sampling can also be used to test for other genetic conditions, such as cystic fibrosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Although chorionic villus sampling can provide valuable information about your baby&apos;s health, the decision to pursue invasive diagnostic testing is serious. It&apos;s important to understand the risks of chorionic villus sampling &amp;mdash; and be prepared for the results. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of chorionic villus sampling 
+" Caption="During chorionic villus sampling, a thin tube is guided through the cervix (shown above) or a needle is inserted into the uterus to remove a sample of chorionic villus cells from the placenta. These cells contain a baby&apos;s genetic information. 
+" Height="60" Title="Chorionic villus sampling" URI="/images/image_popup/thumbs/pr7_cvsthu.jpg" Width="60" />
+				<Image Alt="Illustration of chorionic villus sampling 
+" Caption="During chorionic villus sampling, a thin tube is guided through the cervix (shown above) or a needle is inserted into the uterus to remove a sample of chorionic villus cells from the placenta. These cells contain a baby&apos;s genetic information. 
+" Height="345" Title="Chorionic villus sampling" URI="/images/image_popup/pr7_cvs.jpg" Width="400" />
+				<HTML>
+					During chorionic villus sampling, a thin tube is guided through the cervix (shown above) or a needle is inserted into the uterus to remove a sample of chorionic villus cells from the placenta. These ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chorionic villus sampling can provide information about your baby&apos;s genetic makeup. Generally, chorionic villus sampling is offered when the test results might have a significant impact on the management of the pregnancy &amp;mdash; or your desire to continue the pregnancy. Typically, the value of this information can be assessed only by you and your partner. 
+&lt;/p&gt;
+&lt;p&gt;
+Chorionic villus sampling is usually done between weeks 10 and 12 of pregnancy &amp;mdash; earlier than other prenatal diagnostic tests, such as amniocentesis. 
+&lt;/p&gt;
+&lt;p&gt;
+You might consider chorionic villus sampling if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You had positive results from a prenatal screening test.&lt;/strong&gt; If the results of a screening test &amp;mdash; such as the first trimester screen or noninvasive prenatal testing &amp;mdash; are positive or worrisome, you might opt for chorionic villus sampling to confirm or rule out a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You had a chromosomal condition in a previous pregnancy.&lt;/strong&gt; If a previous pregnancy was affected by Down syndrome or another chromosomal condition, this pregnancy is at higher risk, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re 35 or older.&lt;/strong&gt; Babies born to women 35 and older have a higher risk of chromosomal conditions, such as Down syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have a family history of a specific genetic condition, or you or your partner is a known carrier of a genetic condition.&lt;/strong&gt; In addition to identifying Down syndrome, chorionic villus sampling can be used to diagnose many other genetic conditions &amp;mdash; such as Tay-Sachs and cystic fibrosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Chorionic villus sampling can&apos;t detect neural tube defects, such as spina bifida. If neural tube defects are a concern, an ultrasound or genetic amniocentesis might be recommended instead. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might caution against transcervical chorionic villus sampling &amp;mdash; which is done through the vagina &amp;mdash; if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vaginal bleeding or spotting in the previous two weeks&lt;/li&gt;
+	&lt;li&gt;A cervical infection&lt;/li&gt;
+	&lt;li&gt;Cervical narrowing or blockage (cervical stenosis)&lt;/li&gt;
+	&lt;li&gt;Involuntary spasms of the muscles of the vaginal wall (vaginismus)&lt;/li&gt;
+	&lt;li&gt;An inaccessible placenta, due to a tilted uterus or noncancerous growths in the lower part of your uterus (uterine fibroids)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, your health care provider might caution against transabdominal chorionic villus sampling &amp;mdash; which is done through the abdominal wall &amp;mdash; if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your uterus is severely titled backward and you have intestinal loops between your abdominal wall and uterus&lt;/li&gt;
+	&lt;li&gt;Your placenta is located at the back of your uterus and your baby is blocking access to it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rhesus (Rh) factor &amp;mdash; an inherited trait that refers to a specific protein found on the surface of red blood cells &amp;mdash; matters, too. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might caution against both types of chorionic villus sampling if you&apos;re Rh negative, your baby&apos;s father is Rh positive and you&apos;re sensitized &amp;mdash; your body has already begun to produce antibodies after exposure to the baby&apos;s red blood cells at some point during pregnancy. If you&apos;re sensitized and have chorionic villus sampling, you&apos;re at increased risk of complications following chorionic villus sampling. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chorionic villus sampling carries various risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Miscarriage.&lt;/strong&gt; Overall, chorionic villus sampling carries a 1 in 100 risk of miscarriage. The risk of miscarriage appears to be slightly higher when the tissue sample is taken through the cervix (transcervical) rather than the abdominal wall (transabdominal). The risk of miscarriage also increases if the baby is smaller than normal for his or her gestational age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rh sensitization.&lt;/strong&gt; Chorionic villus sampling might cause some of the baby&apos;s blood cells to enter your bloodstream. If you have Rh negative blood and you haven&apos;t developed antibodies to Rh positive blood, you&apos;ll be given a drug called Rh immunoglobulin after the test to prevent you from producing antibodies against your baby&apos;s blood cells. A blood test can detect if you&apos;ve begun to produce antibodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, chorionic villus sampling might trigger a uterine infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some older studies suggested that chorionic villus sampling might cause defects in a baby&apos;s fingers or toes. However, the risk appears to be a concern only if the procedure is done before week nine of pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, chorionic villus sampling is typically offered when the test results might have a significant impact on the management of the pregnancy. Ultimately, the decision to have chorionic villus sampling is up to you. Your health care provider or genetic counselor can help you weigh all the factors in the decision. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might need to have a full bladder for chorionic villus sampling, so drink plenty of fluids before your appointment. Depending on the position of the placenta, however, you might be asked to empty your bladder just before the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might ask you to sign a consent form before the procedure begins. Consider asking someone to accompany you to the appointment for emotional support or to drive you home afterward.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chorionic villus sampling is usually done in an outpatient facility or the health care provider&apos;s office.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;First, your health care provider will use ultrasound to determine your baby&apos;s gestational age and the position of the placenta. You&apos;ll lie on your back on an exam table and lift your shirt to expose your abdomen. Your health care provider will apply a special gel to your abdomen, and then use a small device known as an ultrasound transducer to show your baby&apos;s position on a monitor.
+&lt;/p&gt;
+&lt;p&gt;
+Next, your health care provider will use the ultrasound image as a guide and take the tissue sample from the placenta. This can be done through your cervix (transcervical) or your abdominal wall (transabdominal).
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Transcervical chorionic villus sampling.&lt;/strong&gt; If the placenta is in a favorable position, your health care provider might take the sample through your cervix. After cleansing your vagina and cervix with an antiseptic, he or she will open your vagina with a speculum and insert a thin, hollow tube through your cervix. When the catheter reaches the placenta, gentle suction will be used to remove a small tissue sample. You might feel cramping while the tissue sample is removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transabdominal chorionic villus sampling.&lt;/strong&gt; If the placenta isn&apos;t clearly accessible through the cervix or you have a cervical infection, such as herpes, your health care provider might take the sample through a needle inserted into your uterus. After cleansing your abdomen with an antiseptic, he or she will insert a long, thin needle through your abdominal wall and into your uterus. You might notice a stinging sensation when the needle enters your skin, and you might feel cramping when the needle enters your uterus. The tissue sample from the placenta will be withdrawn into a syringe, and the needle will be removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll need to lie still while the tissue sample is removed. The entire procedure usually takes about 30 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+If your health care provider isn&apos;t able to remove an adequate amount of tissue on the first try, the procedure might need to be repeated.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;After the tissue sample is removed, your health care provider might use ultrasound to monitor your baby&apos;s heart rate. You might experience a small amount of vaginal bleeding immediately after the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+The tissue sample will be analyzed in a lab. Results might take a few days or a couple of weeks, depending on the complexity of the lab analysis.
+&lt;/p&gt;
+&lt;p&gt;
+Contact your health care provider if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fluid leaking from your vagina&lt;/li&gt;
+	&lt;li&gt;Heavy bleeding&lt;/li&gt;
+	&lt;li&gt;A fever&lt;/li&gt;
+	&lt;li&gt;Uterine contractions&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of chorionic villus sampling 
+" Caption="During chorionic villus sampling, a thin tube is guided through the cervix (shown above) or a needle is inserted into the uterus to remove a sample of chorionic villus cells from the placenta. These cells contain a baby&apos;s genetic information. 
+" Height="60" Title="Chorionic villus sampling" URI="/images/image_popup/thumbs/pr7_cvsthu.jpg" Width="60" />
+				<Image Alt="Illustration of chorionic villus sampling 
+" Caption="During chorionic villus sampling, a thin tube is guided through the cervix (shown above) or a needle is inserted into the uterus to remove a sample of chorionic villus cells from the placenta. These cells contain a baby&apos;s genetic information. 
+" Height="345" Title="Chorionic villus sampling" URI="/images/image_popup/pr7_cvs.jpg" Width="400" />
+				<HTML>
+					During chorionic villus sampling, a thin tube is guided through the cervix (shown above) or a needle is inserted into the uterus to remove a sample of chorionic villus cells from the placenta. These ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider or a genetic counselor will help you understand your chorionic villus sampling results. Occasionally, test results are unclear and amniocentesis &amp;mdash; another prenatal diagnostic test &amp;mdash; is needed to clarify the diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+With chorionic villus sampling, there&apos;s a rare chance of a false-positive test &amp;mdash; when the test is positive, but no disease exists. It&apos;s also important to remember that chorionic villus sampling can&apos;t identify all birth defects, including spina bifida and other neural tube defects. 
+&lt;/p&gt;
+&lt;p&gt;
+If chorionic villus sampling indicates that your baby has a chromosomal or genetic condition that can&apos;t be treated, you might be faced with wrenching decisions &amp;mdash; such as whether to continue the pregnancy. Seek support from your health care team and your loved ones during this difficult time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chorionic villus sampling
+	</Title>
+	<Abstract>
+		Chorionic villus sampling &amp;mdash; Overview covers definition, risks, results of this early prenatal test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00777" LinkType="Internal" ObjectID="563FCB9D-A538-2A78-5A61F27B1BD5D29F" Title="Fetal ultrasound" Url="http://www.mayoclinic.com/health/fetal-ultrasound/MY00777" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="MY01403" LinkType="Internal" ObjectID="480AFA5C-FC69-E2EB-186342987BB11520" Title="Prenatal testing: Quick guide to common tests" Url="http://www.mayoclinic.com/health/prenatal-testing/MY01403" />
+	</RelatedLinksBox>
+</TestProcedure>

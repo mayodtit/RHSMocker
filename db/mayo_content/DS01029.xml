@@ -1,0 +1,414 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01029
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dilated-cardiomyopathy/DS01029
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1470" Title="Heart muscle and lining">
+						<Keyword MCVID="1471" Title="Cardiomyopathy">
+							<Keyword MCVID="4261" Title="Dilated cardiomyopathy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			74364EB9-E7FF-0DBD-134AB71F5234CD0A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dilated cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged heart
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				left ventricle
+			</MetaKeyword>
+			<MetaKeyword>
+				systolic function
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dilated cardiomyopathy is a disease of the heart muscle, primarily affecting your heart&apos;s main pumping chamber (left ventricle). The left ventricle becomes enlarged (dilated) and can&apos;t pump blood to your body with as much force as a healthy heart can. 
+&lt;/p&gt;
+&lt;p&gt;
+Dilated cardiomyopathy doesn&apos;t necessarily cause symptoms, but for some people the disease is life-threatening. Dilated cardiomyopathy is a common cause of heart failure, the inability of the heart to supply the body&apos;s tissue and organs with enough blood. Dilated cardiomyopathy may also cause irregular heartbeats (arrhythmia), blood clots or sudden death. 
+&lt;/p&gt;
+&lt;p&gt;
+Dilated cardiomyopathy may affect people of all ages, including infants and children. Treatments may be available for the underlying cause of dilated cardiomyopathy, or to improve blood flow and reduce symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have dilated cardiomyopathy, you&apos;re likely to have signs and symptoms when the disease has caused heart failure or arrhythmias. Dilated cardiomyopathy symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue and weakness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath (dyspnea) when you&apos;re active or lying down&lt;/li&gt;
+	&lt;li&gt;Reduced ability to exercise&lt;/li&gt;
+	&lt;li&gt;Lightheadedness, dizziness or fainting&lt;/li&gt;
+	&lt;li&gt;Persistent cough or wheezing, especially when lying down&lt;/li&gt;
+	&lt;li&gt;Swelling (edema) in your legs, ankles and feet&lt;/li&gt;
+	&lt;li&gt;Swelling of your abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Sudden weight gain from fluid retention&lt;/li&gt;
+	&lt;li&gt;Lack of appetite&lt;/li&gt;
+	&lt;li&gt;Sensation of rapid, fluttering or pounding heartbeats (palpitations)&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience shortness of breath or other symptoms of dilated cardiomyopathy, see your doctor. Call 911 or your local emergency number if you feel chest pain that lasts more than a few minutes or have severe difficulty breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+If a member of your family has been diagnosed with dilated cardiomyopathy, talk to your doctor about having you or other family members screened for dilated cardiomyopathy. Early detection may benefit people with inherited forms of dilated cardiomyopathy who have no apparent signs or symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dilated cardiomyopathy occurs when your heart&apos;s main pumping chamber (the left ventricle) doesn&apos;t pump as efficiently as a healthy heart. The muscles of the left ventricle stretch and become thinner (dilate). Dilating causes the heart muscle to weaken, and over time, the condition can cause heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, the cause of dilated cardiomyopathy can&apos;t be determined. Such cases are called idiopathic dilated cardiomyopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+There are numerous conditions that can cause the left ventricle to dilate and weaken. One example is damage that occurs during a heart attack. Strictly speaking, this isn&apos;t cardiomyopathy. Cardiomyopathy is a primary problem affecting the heart muscle. Damage that occurs after a problem such as a heart attack is considered a secondary cause. Still, many people use the term cardiomyopathy to describe secondary causes of heart muscle weakness. 
+&lt;/p&gt;
+&lt;p&gt;
+Some known causes of dilated cardiomyopathy are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; A number of genes are linked to dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth defects.&lt;/strong&gt; Certain heart defects that are present at birth (congenital) may cause dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Many different types of infections, including those caused by bacteria, viruses, fungi and parasites, can cause dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug and alcohol abuse.&lt;/strong&gt; Dilated cardiomyopathy can be caused by long-term use of alcohol or illegal drugs, such as cocaine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain cancer medications.&lt;/strong&gt; Some drugs that are used in chemotherapy may cause dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to toxins.&lt;/strong&gt; This condition can also be caused by exposure to some metals and toxic compounds, such as lead, mercury and cobalt.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing dilated cardiomyopathy 
+" Caption="Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+" Height="60" Title="Dilated cardiomyopathy" URI="/images/image_popup/thumbs/mcdc7_dilatedcardiomyopathythu.jpg" Width="60" />
+				<Image Alt="Illustration showing dilated cardiomyopathy 
+" Caption="Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+" Height="359" Title="Dilated cardiomyopathy" URI="/images/image_popup/mcdc7_dilatedcardiomyopathy.jpg" Width="400" />
+				<HTML>
+					Compared with a healthy heart, dilated cardiomyopathy causes the chambers of the heart to enlarge, which can lead to heart failure if left untreated. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many factors can change and enlarge your heart&apos;s main pumping chamber (left ventricle). The risk factors for dilated cardiomyopathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Hardening and narrowing of arteries (atherosclerosis)&lt;/li&gt;
+	&lt;li&gt;Heart valve problems&lt;/li&gt;
+	&lt;li&gt;Damage to the heart muscle from a previous heart attack&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate (tachycardia)&lt;/li&gt;
+	&lt;li&gt;Family history of dilated cardiomyopathy&lt;/li&gt;
+	&lt;li&gt;Alcoholism&lt;/li&gt;
+	&lt;li&gt;Certain chemotherapy drugs for treating cancer&lt;/li&gt;
+	&lt;li&gt;Cocaine abuse&lt;/li&gt;
+	&lt;li&gt;Viral or bacterial infections of the heart muscle&lt;/li&gt;
+	&lt;li&gt;Metabolic disorders, such as thyroid disease or diabetes&lt;/li&gt;
+	&lt;li&gt;Absorbing too much iron from the food you eat (hemachromatosis)&lt;/li&gt;
+	&lt;li&gt;Nutritional deficiencies of essential vitamins and minerals&lt;/li&gt;
+	&lt;li&gt;Inflammation of heart muscle from immune system disorders&lt;/li&gt;
+	&lt;li&gt;Metals and other toxic compounds, such as lead, mercury and arsenic&lt;/li&gt;
+	&lt;li&gt;Neuromuscular disorders, such as muscular dystrophy&lt;/li&gt;
+	&lt;li&gt;Pregnancy &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Enlargement of the left ventricle and its inability to pump blood efficiently can cause any of the following complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Dilated cardiomyopathy can cause poor blood flow from the left ventricle, leading to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart valve regurgitation.&lt;/strong&gt; Enlargement of the left ventricle may make it harder for your heart valves to close, causing a backward flow of blood. This makes the heart pump less effectively, which can lead to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Edema.&lt;/strong&gt; Dilated cardiomyopathy can cause fluid buildup in the lungs, abdomen, legs and feet (edema), because your heart can&apos;t pump as effectively as a healthy heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal heart rhythm (arrhythmias).&lt;/strong&gt; Changes in heart structure and changes in pressure on the heart&apos;s chambers can cause heart rhythm problems (arrhythmia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden cardiac arrest.&lt;/strong&gt; Dilated cardiomyopathy can cause your heart to suddenly stop beating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Embolism.&lt;/strong&gt; Pooling of blood (stasis) in the left ventricle can lead to blood clots (emboli), which may enter the bloodstream, cut off the blood supply to vital organs, and cause stroke, heart attack or damage to other organs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have dilated cardiomyopathy, or are worried about your risk because of a family history, make an appointment with your family doctor. If dilated cardiomyopathy is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For dilated cardiomyopathy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened?&lt;/li&gt;
+	&lt;li&gt;Should I tell my family members to be screened for dilated cardiomyopathy?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do any of your blood relatives have dilated cardiomyopathy or other types of heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have symptoms associated with heart failure or arrhythmia &amp;mdash; such as shortness of breath or fatigue &amp;mdash; your doctor will order tests to check your heart&apos;s function, identify possible causes of your illness and decide on treatment. For some of the exams, your doctor may refer you to a heart specialist (cardiologist) or specialized technicians. 
+&lt;/p&gt;
+&lt;p&gt;
+The results of some tests may help your doctor decide what additional tests to order. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor will review your lifestyle habits (such as exercise, diet, smoking history and alcohol use), recent changes in weight, any signs and symptoms you&apos;ve observed, and the history of heart disease and other medical conditions in your family. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor will also check for signs such as irregular heartbeats, abnormal heart sounds (heart murmurs), the accumulation of fluids in the lungs, swelling in the legs or feet, or coolness in the limbs due to poor blood circulation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may order a series of blood tests that may show evidence of poor heart function or factors that can cause dilated cardiomyopathy. These tests may reveal if you have an infection, a metabolic disorder or toxins in your blood that can cause dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Your doctor may order a chest X-ray to check your heart and lungs. Although these images don&apos;t provide enough information alone for making a diagnosis, they can reveal abnormalities in the heart&apos;s structure and size and can detect fluid in or around your lungs. The chest X-ray can provide a baseline record of your heart from which to check for subsequent changes associated with your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; An electrocardiogram &amp;mdash; also called an ECG or EKG &amp;mdash; records electrical signals as they travel through your heart. Your doctor can look for patterns among these signals that show an abnormal heart rhythm or problems with the left ventricle. Your doctor may ask you to wear a portable ECG device known as a Holter monitor to record your heart rhythm for a day or two.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Echocardiography.&lt;/strong&gt; An echocardiogram uses sound waves to produce images of the heart. This common test lets your doctor see your ventricles squeezing and relaxing and valves opening and closing in rhythm with your heartbeat.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The echocardiogram is the primary tool for diagnosing dilated cardiomyopathy. If you have dilated cardiomyopathy, your doctor will be able to observe enlargement of the left ventricle. An echocardiogram can also reveal how much blood is ejected from the heart with each beat and whether blood is flowing in the right direction. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise stress test.&lt;/strong&gt; Your doctor may have you perform an exercise test, either walking on a treadmill or riding a stationary bike. Electrodes attached to you during the test help your doctor measure your heart rate and oxygen use. This type of test can show the severity of problems caused by dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) or magnetic resonance imaging (MRI) scan.&lt;/strong&gt; In some situations your doctor may order a computerized tomography (CT) or a magnetic resonance imaging (MRI) scan of your heart. These tests can check the size and function of your heart&apos;s pumping chambers and can sometimes provide clues to suggest unusual disorders that cause dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; Your doctor may order a procedure called cardiac catheterization, which is used to check for factors that may cause dilated cardiomyopathy. A long, narrow tube is threaded through a blood vessel and into the heart with the use of X-ray technology to guide the cardiologist. The test can be used to see your coronary arteries on an X-ray, measure pressure in your heart, and collect a sample of muscle tissue to check for damage that shows you have dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Genetic screening or counseling.&lt;/strong&gt; If your doctor can&apos;t identify the cause of dilated cardiomyopathy, he or she may suggest screening of other family members to see if the disease is inherited in your family.
+	&lt;/p&gt;
+	&lt;p&gt;
+	No single test can determine if you carry a disease-related gene mutation. However, a thorough and detailed family history may reveal who&apos;s most at risk of dilated cardiomyopathy or whether there&apos;s evidence of other conditions that may contribute to the disease. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goals of treatment for dilated cardiomyopathy are to treat an underlying cause if it&apos;s known, improve blood flow, reduce symptoms and prevent further heart damage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Doctors usually treat dilated cardiomyopathy with a combination of medications. Depending on your symptoms, you might need two or more of these drugs. Several types of drugs have proved useful in the treatment of heart failure and dilated cardiomyopathy. These medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors.&lt;/strong&gt; ACE inhibitors are a type of vasodilator, a drug that widens or dilates blood vessels to lower blood pressure, improve blood flow and decrease the workload on the heart. Examples include enalapril (Vasotec), lisinopril (Prinivil, Zestril) and captopril (Capoten).
+	&lt;/p&gt;
+	&lt;p&gt;
+	ACE inhibitors cause an irritating cough in some people. It may be best to put up with the cough, if you can. Discuss this side effect with your doctor. Switching to another ACE inhibitor or an angiotensin II receptor blocker may relieve the cough.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers.&lt;/strong&gt; These drugs, which include losartan (Cozaar) and valsartan (Diovan), have many of the beneficial effects of ACE inhibitors, but they don&apos;t cause a persistent cough. They may be an alternative for people who can&apos;t tolerate ACE inhibitors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; A beta blocker slows your heart rate, reduces blood pressure and prevents some the harmful effects of stress hormones, substances produced by your body that can make heart failure worse and can trigger abnormal heart rhythms. Beta blockers may reduce signs and symptoms of heart failure and improve heart function. Examples of beta blockers include carvedilol (Coreg), metoprolol (Toprol XL) and bisoprolol (Zebeta).&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Diuretics.&lt;/strong&gt; Often called water pills, diuretics make you urinate more frequently and keep fluid from collecting in your body. The drugs also decrease fluid in your lungs, so you can breathe more easily. Commonly prescribed diuretics for heart failure include bumetanide (Bumex) and furosemide (Lasix).
+	&lt;/p&gt;
+	&lt;p&gt;
+	Because some diuretics make your body lose potassium and magnesium, your doctor may also prescribe supplements of these minerals. If you&apos;re taking a diuretic, your doctor will likely monitor levels of potassium and magnesium in your blood through regular blood tests.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aldosterone antagonists.&lt;/strong&gt; These drugs include spironolactone (Aldactone) and eplerenone (Inspra). These medications are diuretics, but they don&apos;t reduce potassium levels as much as some other diuretics do. They also may help the heart work better, may reverse scarring of the heart and may help people with severe heart failure live longer. Unlike some other diuretics, spironolactone can raise the level of potassium in your blood to dangerous levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digoxin (Lanoxin).&lt;/strong&gt; This drug, also referred to as digitalis, increases the strength of your heart muscle contractions. It also tends to slow the heartbeat. Digoxin reduces heart failure symptoms and improves your ability to live with dilated cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood thinning medications.&lt;/strong&gt; Your doctor may prescribe drugs that thin your blood (anticoagulants). These medications help prevent blood clots. Examples include aspirin and warfarin (Coumadin).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Devices&lt;/strong&gt;&lt;br /&gt;
+Implantable devices used to treat dilated cardiomyopathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biventricular pacemakers,&lt;/strong&gt; which use electrical shocks to coordinate the actions of the left and right ventricle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Implantable cardioverter-defibrillators (ICDs),&lt;/strong&gt; which monitor heart rhythm and deliver electrical shocks when needed to control abnormal, rapid heartbeats, including those that cause the heart to stop. They can also function as pacemakers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart pumps (left ventricular assist devices, or LVADs).&lt;/strong&gt; These mechanical devices are implanted into the abdomen or chest and attached to a weakened heart to help it pump.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart transplant&lt;/strong&gt;&lt;br /&gt;
+You may be a candidate for a heart transplant if medications and other treatments are no longer effective. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have dilated cardiomyopathy, these self-care strategies may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor&lt;/strong&gt; about what kind of exercise and activities would be safe and beneficial for you. In general, competitive sports aren&apos;t recommended because they can increase the risk of the heart stopping and causing sudden death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re a smoker, quit smoking.&lt;/strong&gt; Your doctor can give you advice on what methods can help you successfully stop smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use illegal drugs or drink alcohol excessively.&lt;/strong&gt; Using cocaine or other illegal drugs can strain your heart. Seek psychotherapy or other treatments to recover from drug or alcohol abuse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medications&lt;/strong&gt; as directed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a well-balanced diet and maintain a healthy weight.&lt;/strong&gt; Extra weight makes the heart work harder, so try to lose weight if you need to. A healthy diet full of fruits, vegetables and whole grains is good for your heart and the rest of your body. Ask your doctor for a referral to a dietitian if you need help planning your diet.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you eliminate lifestyle habits that can contribute to dilated cardiomyopathy, you may prevent or minimize effects of the disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you smoke, quit.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t drink alcohol, or drink in moderation.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use cocaine or other illegal drugs.&lt;/li&gt;
+	&lt;li&gt;Eat a healthy diet.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight.&lt;/li&gt;
+	&lt;li&gt;Follow an exercise regimen recommended by your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dilated cardiomyopathy
+	</Title>
+	<Abstract>
+		Dilated cardiomyopathy &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis and treatment of this heart disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS00519" LinkType="Internal" ObjectID="409898DA-8C14-4EAB-975D5E4217CEDB49" Title="Cardiomyopathy" Url="http://www.mayoclinic.com/health/cardiomyopathy/DS00519" />
+	</RelatedLinksBox>
+</Disease>

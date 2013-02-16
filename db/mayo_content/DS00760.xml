@@ -1,0 +1,321 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00760
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-pain/DS00760
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-16
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2374" Title="Breast">
+						<Keyword MCVID="2689" Title="Breast pain" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3FDF1A83-E7FF-0DBD-158B6205148BC15B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast pain
+			</MetaKeyword>
+			<MetaKeyword>
+				mastalgia
+			</MetaKeyword>
+			<MetaKeyword>
+				mastodynia
+			</MetaKeyword>
+			<MetaKeyword>
+				painful breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				sore breast
+			</MetaKeyword>
+			<MetaKeyword>
+				sharp breast pain
+			</MetaKeyword>
+			<MetaKeyword>
+				pain in breast
+			</MetaKeyword>
+			<MetaKeyword>
+				aching breasts
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast pain (mastalgia) &amp;mdash; a common complaint among women &amp;mdash; can include breast tenderness, sharp burning pain or tightness in your breast tissue. The pain may be constant or it may occur only occasionally.
+&lt;/p&gt;
+&lt;p&gt;
+Breast pain can range from mild to severe. It can affect you just a few days a month, for instance just before your period, or can last for seven days or more each month. Breast pain may affect you just before your period or it may continue throughout the menstrual cycle. Postmenopausal women sometimes have breast pain, but breast pain is more common in younger, premenopausal women and perimenopausal women. 
+&lt;/p&gt;
+&lt;p&gt;
+Most times, breast pain signals a noncancerous (benign) breast condition and rarely indicates breast cancer. Still, unexplained breast pain that doesn&apos;t go away after one or two menstrual cycles or that persists after menopause and occurs in one specific area of your breast needs to be evaluated by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of breast pain are classified as either cyclic or noncyclic. Each type of breast pain has distinct characteristics. 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot;&gt;Breast pain characteristics&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td width=&quot;50%&quot;&gt;Cyclic breast pain&lt;/td&gt;
+			&lt;td&gt;Noncyclic breast pain&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Clearly related to the menstrual cycle&lt;/li&gt;
+				&lt;li&gt;Described as dull, heavy or aching&lt;/li&gt;
+				&lt;li&gt;Often accompanied by breast swelling or lumpiness&lt;/li&gt;
+				&lt;li&gt;Usually affects both breasts, particularly the upper, outer portions, and can radiate to the underarm&lt;/li&gt;
+				&lt;li&gt;Intensifies during the two weeks leading up to the start of your period, then eases up afterward&lt;/li&gt;
+				&lt;li&gt;More likely to affect women in their 20s and 30s before menopause as well as women in their 40s who are transitioning to menopause&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+			&lt;td&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Unrelated to the menstrual cycle&lt;/li&gt;
+				&lt;li&gt;Described as tight, burning or sore&lt;/li&gt;
+				&lt;li&gt;Constant or intermittent&lt;/li&gt;
+				&lt;li&gt;Usually affects one breast, in a localized area, but may spread more diffusely across the breast&lt;/li&gt;
+				&lt;li&gt;Most likely to affect women after menopause&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;Extramammary breast pain&lt;br /&gt;
+&lt;/strong&gt;The term extramammary means &quot;outside the breast.&quot; Extramammary breast pain feels like it starts in the breast, but its source is actually somewhere else. Pulling a muscle in your chest, for example, can cause pain in your chest wall or rib cage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if breast pain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Continues daily for more than a couple of weeks&lt;/li&gt;
+	&lt;li&gt;Occurs in one specific area of your breast&lt;/li&gt;
+	&lt;li&gt;Seems to be getting worse over time&lt;/li&gt;
+	&lt;li&gt;Interferes with daily activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although breast cancer risk is low in women whose main symptom is breast pain, if your doctor recommends an evaluation, it&apos;s important to follow through. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes, it&apos;s not possible to identify the exact cause of breast pain. Contributing factors may include one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reproductive hormones.&lt;/strong&gt; Cyclic breast pain appears to have a strong link to hormones and your menstrual cycle. Cyclic breast pain often decreases or disappears with pregnancy or menopause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast structure.&lt;/strong&gt; Noncyclic breast pain often results from things that affect the structure of the breast, such as breast cysts, breast trauma, prior breast surgery or other factors localized to the breast. Breast pain may also start outside the breast &amp;mdash; in the chest wall, muscles, joints or heart, for example &amp;mdash; and radiate to the breast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fatty acid imbalance.&lt;/strong&gt; An imbalance of fatty acids within the cells may affect the sensitivity of breast tissue to circulating hormones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication use.&lt;/strong&gt; Certain hormonal medications, including some infertility treatments and oral birth control pills, may be associated with breast pain. Also, breast tenderness is a possible side effect of estrogen and progesterone hormone therapy. Breast pain may be associated with certain antidepressants, including selective serotonin reuptake inhibitor (SSRI) antidepressants, such as fluoxetine (Prozac, Prozac Weekly, Sarafem) and sertraline (Zoloft).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast size.&lt;/strong&gt; Women with large breasts may have noncyclic breast pain related to the size of their breasts. Neck, shoulder and back pain may accompany breast pain due to large breasts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast surgery.&lt;/strong&gt; Breast pain associated with breast surgery can sometimes linger after incisions have healed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor, a general practitioner or other care provider. In some cases, when you call to set up an appointment, you may be referred immediately to a breast health specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;The initial evaluation of your breast pain focuses on your medical history. You&apos;ll discuss with your doctor the location of the breast pain, its relation to your menstrual cycle and any other relevant breast history that might explain the cause of your pain. To prepare for this discussion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take note of all your symptoms,&lt;/strong&gt; even if they seem unrelated to your breast pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Review key personal information,&lt;/strong&gt; including major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List all the medications,&lt;/strong&gt; vitamins and supplements that you regularly take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List questions to ask&lt;/strong&gt; your doctor, from most important to least important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For breast pain, basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests might I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend for my condition?&lt;/li&gt;
+	&lt;li&gt;Are there any home remedies I might try?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask you questions such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where in your breast do you feel pain?&lt;/li&gt;
+	&lt;li&gt;How long have you had breast pain?&lt;/li&gt;
+	&lt;li&gt;On a 10-point scale, how severe is your pain?&lt;/li&gt;
+	&lt;li&gt;Do you have pain in one or both breasts?&lt;/li&gt;
+	&lt;li&gt;Does the pain seem to occur in any sort of pattern?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a mammogram? When was your last one?&lt;/li&gt;
+	&lt;li&gt;Do you have any other signs or symptoms, such as a breast lump, area of thickening or nipple discharge?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any skin changes, such as redness or a rash?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a baby? Or have you experienced a pregnancy loss or termination?&lt;/li&gt;
+	&lt;li&gt;Does your pain make you less able to perform daily activities?&lt;/li&gt;
+	&lt;li&gt;Have you been involved in any activities or had a recent injury to your chest that may contribute to your breast pain?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also assess your personal risk of breast cancer, based on factors such as your age, family medical history and prior history of precancerous breast lesions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to evaluate your condition may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clinical breast exam.&lt;/strong&gt; Your doctor checks for changes in your breasts, looking at and feeling your breasts and the lymph nodes in your lower neck and underarm. Your doctor will likely listen to your heart and lungs and check your chest and abdomen to determine whether the pain could be related to another condition. If your medical history and the breast and physical exam reveal nothing unusual, you may not need additional tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mammogram.&lt;/strong&gt; If your doctor feels a breast lump or unusual thickening, or detects a focused area of pain in your breast tissue, you&apos;ll need an X-ray exam of your breast that evaluates the area of concern found during the breast exam (diagnostic mammogram).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; An ultrasound exam uses sound waves to produce images of your breasts, and it&apos;s often done along with a mammogram. You might need an ultrasound to evaluate a focused area of pain even if the mammogram appears normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast biopsy.&lt;/strong&gt; Suspicious breast lumps, areas of thickening or unusual areas seen during imaging exams may require a biopsy before your doctor can make a diagnosis. During a biopsy, your doctor obtains a small sample of breast tissue from the area in question and sends it for lab analysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For many women, breast pain resolves on its own over time. You may not need any treatment.
+&lt;/p&gt;
+&lt;p&gt;
+If you do require treatment, your doctor might recommend that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eliminate an underlying cause or aggravating factor.&lt;/strong&gt; This may involve a simple adjustment, such as wearing a bra with extra support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a topical nonsteroidal anti-inflammatory (NSAID) medication.&lt;/strong&gt; You apply the medication directly to the area where you feel pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust birth control pills.&lt;/strong&gt; If you take birth control pills, skipping the pill-free week or switching birth control methods may help breast pain symptoms. But don&apos;t try this without your doctor&apos;s advice. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce the dose of menopausal hormone therapy.&lt;/strong&gt; You might consider lowering the dose of menopausal hormone therapy or stopping it entirely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a prescription medication.&lt;/strong&gt; Danazol is the only prescription medication approved by the Food and Drug Administration for treating breast pain and tenderness. However, danazol carries the risk of potentially severe side effects, such as acne, weight gain and voice changes, which limit its use. Tamoxifen, a prescription medication for breast cancer treatment and prevention, may be recommended for some women, but this drug also carries the potential for side effects that may be more bothersome than the breast pain itself. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even though there is little research to show the effectiveness of these self-care remedies, some may be worth a try: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use hot or cold compresses&lt;/strong&gt; on your breasts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a firm support bra,&lt;/strong&gt; fitted by a professional if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a sports bra during exercise,&lt;/strong&gt; especially when your breasts may be more sensitive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Experiment with relaxation therapy,&lt;/strong&gt; which can help control the high levels of anxiety associated with severe breast pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit or eliminate caffeine,&lt;/strong&gt; a dietary change some women find helpful, although medical studies of caffeine&apos;s effect on breast pain and other premenstrual symptoms have been inconclusive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a low-fat diet&lt;/strong&gt; and eat more complex carbohydrates, a strategy that&apos;s helped some women with breast pain in observational studies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider using an over-the-counter pain reliever,&lt;/strong&gt; such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others) &amp;mdash; but ask your doctor how much to take, as long-term use may increase your risk of liver problems and other side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a journal,&lt;/strong&gt; noting when you experience breast pain and other symptoms, to determine if your pain is cyclic or noncyclic.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vitamins and dietary supplements may lessen breast pain symptoms and severity for some women. Ask your doctor if one of these might help you &amp;mdash; and ask about doses and any possible side effects: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Evening primrose oil.&lt;/strong&gt; This supplement may change the balance of fatty acids in your cells, which may reduce breast pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin E.&lt;/strong&gt; Early studies showed a possible beneficial effect of vitamin E on breast pain in premenstrual women who experience breast pain that fluctuates during the menstrual cycle, but research to date remains inconclusive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you try a supplement for breast pain, stop taking it if you don&apos;t notice any improvement in your breast pain after a few months. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Breast pain
+	</Title>
+	<Abstract>
+		Breast pain &amp;mdash; Comprehensive overview covers possible causes, treatments and self-care remedies.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00778" LinkType="Internal" ObjectID="5642F4C9-0243-13D3-91B161F6F03C7D26" Title="Breast reduction surgery" Url="http://www.mayoclinic.com/health/breast-reduction-surgery/MY00778" />
+	</RelatedLinksBox>
+</Disease>

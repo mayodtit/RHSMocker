@@ -1,0 +1,436 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00050
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cataracts/DS00050
+		</OriginalURL>
+		<UpdateDate>
+			2010-05-20
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="1794" Title="Cataracts" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			00641799-FDF7-48C1-946D319041BA9D50
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cataracts
+			</MetaKeyword>
+			<MetaKeyword>
+				cataract
+			</MetaKeyword>
+			<MetaKeyword>
+				blurred vision
+			</MetaKeyword>
+			<MetaKeyword>
+				blurry vision
+			</MetaKeyword>
+			<MetaKeyword>
+				loss of vision
+			</MetaKeyword>
+			<MetaKeyword>
+				vision problems
+			</MetaKeyword>
+			<MetaKeyword>
+				cloudy vision
+			</MetaKeyword>
+			<MetaKeyword>
+				night vision
+			</MetaKeyword>
+			<MetaKeyword>
+				double vision
+			</MetaKeyword>
+			<MetaKeyword>
+				light sensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				sensitivity to light
+			</MetaKeyword>
+			<MetaKeyword>
+				eye problems
+			</MetaKeyword>
+			<MetaKeyword>
+				eye disease
+			</MetaKeyword>
+			<MetaKeyword>
+				eye conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				eye disorders
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A cataract is a clouding of the normally clear lens of your eye. For people who have cataracts, seeing through cloudy lenses is a bit like looking through a frosty or fogged-up window. Clouded vision caused by cataracts can make it more difficult to read, drive a car &amp;mdash; especially at night &amp;mdash; or see the expression on a friend&apos;s face.
+&lt;/p&gt;
+&lt;p&gt;
+Most cataracts develop slowly and don&apos;t disturb your eyesight early on. But with time, cataracts will eventually interfere with your vision.
+&lt;/p&gt;
+&lt;p&gt;
+At first, stronger lighting and eyeglasses can help you deal with cataracts. But if impaired vision interferes with your usual activities, you might need cataract surgery. Fortunately, cataract surgery is generally a safe, effective procedure.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing a person with a cataract
+" Caption="A cataract occurs when the lens of your eye becomes cloudy. Eventually, a cataract can advance to the degree of the one shown in this person&apos;s right eye.
+" Height="60" Title="What a cataract looks like" URI="/images/image_popup/thumbs/vi7_cataractthu.jpg" Width="60" />
+				<Image Alt="Photo showing a person with a cataract
+" Caption="A cataract occurs when the lens of your eye becomes cloudy. Eventually, a cataract can advance to the degree of the one shown in this person&apos;s right eye.
+" Height="236" Title="What a cataract looks like" URI="/images/image_popup/vi7_cataract.jpg" Width="400" />
+				<HTML>
+					A cataract occurs when the lens of your eye becomes cloudy. Eventually, a cataract can advance to the degree of the one shown in this person&apos;s right eye.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo depicting how a cataract affects vision 
+" Caption="Normal vision (left) becomes blurred as a cataract forms (right). 
+" Height="60" Title="How a cataract affects your vision" URI="/images/image_popup/thumbs/vi7_blurredvisionthu.jpg" Width="60" />
+				<Image Alt="Photo depicting how a cataract affects vision 
+" Caption="Normal vision (left) becomes blurred as a cataract forms (right). 
+" Height="220" Title="How a cataract affects your vision" URI="/images/image_popup/vi7_blurredvision.jpg" Width="400" />
+				<HTML>
+					Normal vision (left) becomes blurred as a cataract forms (right). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of cataracts include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clouded, blurred or dim vision&lt;/li&gt;
+	&lt;li&gt;Increasing difficulty with vision at night&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light and glare&lt;/li&gt;
+	&lt;li&gt;Seeing &quot;halos&quot; around lights&lt;/li&gt;
+	&lt;li&gt;Frequent changes in eyeglass or contact lens prescription&lt;/li&gt;
+	&lt;li&gt;Fading or yellowing of colors&lt;/li&gt;
+	&lt;li&gt;Double vision in a single eye&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At first, the cloudiness in your vision caused by a cataract may affect only a small part of the eye&apos;s lens and you may be unaware of any vision loss. As the cataract grows larger, it clouds more of your lens and distorts the light passing through the lens. This may lead to signs and symptoms you&apos;re more likely to notice.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment for an eye exam if you notice any changes in your vision. If you develop sudden vision changes, such as double vision or blurriness, see your doctor right away.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing a person with a cataract
+" Caption="A cataract occurs when the lens of your eye becomes cloudy. Eventually, a cataract can advance to the degree of the one shown in this person&apos;s right eye.
+" Height="60" Title="What a cataract looks like" URI="/images/image_popup/thumbs/vi7_cataractthu.jpg" Width="60" />
+				<Image Alt="Photo showing a person with a cataract
+" Caption="A cataract occurs when the lens of your eye becomes cloudy. Eventually, a cataract can advance to the degree of the one shown in this person&apos;s right eye.
+" Height="236" Title="What a cataract looks like" URI="/images/image_popup/vi7_cataract.jpg" Width="400" />
+				<HTML>
+					A cataract occurs when the lens of your eye becomes cloudy. Eventually, a cataract can advance to the degree of the one shown in this person&apos;s right eye.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo depicting how a cataract affects vision 
+" Caption="Normal vision (left) becomes blurred as a cataract forms (right). 
+" Height="60" Title="How a cataract affects your vision" URI="/images/image_popup/thumbs/vi7_blurredvisionthu.jpg" Width="60" />
+				<Image Alt="Photo depicting how a cataract affects vision 
+" Caption="Normal vision (left) becomes blurred as a cataract forms (right). 
+" Height="220" Title="How a cataract affects your vision" URI="/images/image_popup/vi7_blurredvision.jpg" Width="400" />
+				<HTML>
+					Normal vision (left) becomes blurred as a cataract forms (right). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cataracts develop when aging or injury changes the tissue that makes up your eye&apos;s lens. Some cataracts are caused by inherited genetic disorders that cause other health problems and increase your risk of cataracts. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How a cataract forms&lt;/strong&gt;&lt;br /&gt;
+The lens, where cataracts form, is positioned behind the colored part of your eye (iris). The lens focuses light that passes into your eye, producing clear, sharp images on the retina &amp;mdash; the light-sensitive membrane on the back inside wall of your eyeball that functions like the film of a camera. A cataract scatters the light as it passes through the lens, preventing a sharply defined image from reaching your retina. As a result, your vision becomes blurred. 
+&lt;/p&gt;
+&lt;p&gt;
+As you age, the lenses in your eyes become less flexible, less transparent and thicker. Aging-related changes to the lens cause tissues to break down and to clump together, clouding small areas of the lens. As the cataract continues to develop, the clouding becomes denser and involves a greater part of the lens. 
+&lt;/p&gt;
+&lt;p&gt;
+A cataract can develop in one or both of your eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of cataracts&lt;/strong&gt;&lt;br /&gt;
+Cataract types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cataracts that affect the center of the lens (nuclear cataracts).&lt;/strong&gt; A nuclear cataract may at first cause you to become more nearsighted or even experience a temporary improvement in your reading vision. But with time, the lens gradually turns more densely yellow and further clouds your vision. Nuclear cataracts sometimes cause you to see double or multiple images. As the cataract progresses, the lens may even turn brown. Advanced yellowing or browning of the lens can lead to difficulty distinguishing between shades of color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cataracts that affect the edges of the lens (cortical cataracts).&lt;/strong&gt; A cortical cataract begins as whitish, wedge-shaped opacities or streaks on the outer edge of the lens cortex. As it slowly progresses, the streaks extend to the center and interfere with light passing through the center of the lens. Problems with glare are common for people with this type of cataract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cataracts that affect the back of the lens (posterior subcapsular cataracts).&lt;/strong&gt; A posterior subcapsular cataract starts as a small, opaque area that usually forms near the back of the lens, right in the path of light on its way to the retina. A subcapsular cataract often interferes with your reading vision, reduces your vision in bright light and causes glare or halos around lights at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cataracts you&apos;re born with (congenital cataracts).&lt;/strong&gt; Some people are born with cataracts or develop them during childhood. Such cataracts may be the result of the mother having contracted an infection during pregnancy. They may also be due to certain inherited syndromes, such as Alport&apos;s syndrome, Fabry&apos;s disease and galactosemia. Congenital cataracts, as they&apos;re called, don&apos;t always affect vision, but if they do they&apos;re usually removed soon after detection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how cataracts obscure vision
+" Caption="The image on the upper left shows light properly focused by a clear lens. The image on the lower right shows scattered and nonfocused light caused by a cataract.
+" Height="60" Title="How cataracts obscure vision" URI="/images/image_popup/thumbs/cataract_small.jpg" Width="60" />
+				<Image Alt="Illustration showing how cataracts obscure vision
+" Caption="The image on the upper left shows light properly focused by a clear lens. The image on the lower right shows scattered and nonfocused light caused by a cataract.
+" Height="300" Title="How cataracts obscure vision" URI="/images/image_popup/cataract1_big.jpg" Width="400" />
+				<HTML>
+					The image on the upper left shows light properly focused by a clear lens. The image on the lower right shows scattered and nonfocused light caused by a cataract.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of cataracts include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increasing age&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Drinking excessive amounts of alcohol&lt;/li&gt;
+	&lt;li&gt;Excessive exposure to sunlight&lt;/li&gt;
+	&lt;li&gt;Exposure to ionizing radiation, such as that used in X-rays and cancer radiation therapy&lt;/li&gt;
+	&lt;li&gt;Family history of cataracts&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Previous eye injury or inflammation&lt;/li&gt;
+	&lt;li&gt;Previous eye surgery&lt;/li&gt;
+	&lt;li&gt;Prolonged use of corticosteroid medications&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your usual eye care provider if you notice changes in your vision. If it&apos;s determined that you have cataracts, you may be referred to an eye specialist who can perform cataract surgery (ophthalmologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For cataracts, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are cataracts causing my vision problems?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my vision problems?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need cataract surgery?&lt;/li&gt;
+	&lt;li&gt;Will cataract surgery correct my vision problems?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of cataract surgery?&lt;/li&gt;
+	&lt;li&gt;Can I drive myself home after cataract surgery?&lt;/li&gt;
+	&lt;li&gt;How much time will I need to recover from cataract surgery?&lt;/li&gt;
+	&lt;li&gt;Will any usual activities be restricted after cataract surgery? For how long?&lt;/li&gt;
+	&lt;li&gt;After cataract surgery, how long should I wait before getting new glasses?&lt;/li&gt;
+	&lt;li&gt;If I use Medicare, will it cover the cost of cataract surgery? Does Medicare cover the cost of new glasses after surgery?&lt;/li&gt;
+	&lt;li&gt;How long can I take to decide about cataract surgery?&lt;/li&gt;
+	&lt;li&gt;If I wait a year or more before having surgery, will this make it more likely that surgery won&apos;t restore my vision?&lt;/li&gt;
+	&lt;li&gt;If I don&apos;t want surgery right now, what else can I do to cope with my vision changes?&lt;/li&gt;
+	&lt;li&gt;How will I know if my cataracts are getting worse?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What Web sites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do you experience vision problems in bright light?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your vision problems make it difficult for you to drive?&lt;/li&gt;
+	&lt;li&gt;Do your vision problems make it difficult to read?&lt;/li&gt;
+	&lt;li&gt;Do your vision problems make it difficult to do your job?&lt;/li&gt;
+	&lt;li&gt;Have you ever had eye surgery?&lt;/li&gt;
+	&lt;li&gt;Have you ever had an eye injury?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with an eye problem, such as iritis?&lt;/li&gt;
+	&lt;li&gt;Have you ever received radiation therapy to your head or neck?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether you have a cataract, your doctor will perform an eye exam that may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Asking you to read an eye chart (visual acuity test).&lt;/strong&gt; A visual acuity test uses an eye chart to measure how well you can read a series of letters. Your eyes are tested one at a time, while the other eye is covered. Using a chart or a viewing device with progressively smaller letters, your eye doctor determines if you have 20/20 vision or if your vision shows signs of impairment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a light and magnification to examine your eye (slit-lamp examination).&lt;/strong&gt; A slit lamp allows your eye doctor to see the structures at the front of your eye under magnification. The microscope is called a slit lamp because it uses an intense line of light &amp;mdash; a slit &amp;mdash; to illuminate your cornea, iris, lens, and the space between your iris and cornea. The slit allows your doctor to view these structures in small sections, which makes it easier to detect any tiny abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dilating your eyes (retinal examination).&lt;/strong&gt; To prepare for a retinal examination, your eye doctor puts dilating drops in your eyes to open your pupils wide. This makes it easier to examine the back of your eyes (retina). Using a slit lamp or a special device called an ophthalmoscope, your eye doctor can examine your lens for signs of a cataract.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only effective treatment for cataracts is surgery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to consider cataract surgery&lt;/strong&gt;&lt;br /&gt;
+Talk with your eye doctor about whether surgery is right for you. Most eye doctors suggest considering cataract surgery when your cataracts begin to affect your quality of life or interfere with your ability to perform normal daily activities, such as reading or driving at night.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s up to you and your doctor to decide when cataract surgery is right for you. For most people, there is no rush to remove cataracts because they usually don&apos;t harm the eye. Delaying the procedure won&apos;t make it more likely that you won&apos;t recover your vision if you eventually decide to have cataract surgery. Take time to consider the benefits and risks of cataract surgery with your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+If you choose not to undergo cataract surgery for now, your eye doctor may recommend periodic follow-up exams to see if your cataracts are progressing. How often you&apos;ll see your eye doctor depends on your situation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What happens during cataract surgery&lt;/strong&gt;&lt;br /&gt;
+Cataract surgery involves removing the clouded lens and replacing it with a plastic lens implant. The replacement lens sits in the same place as your natural lens and becomes part of your eye.
+&lt;/p&gt;
+&lt;p&gt;
+For some people, other eye problems prohibit the use of a replacement lens. In these situations, once the cataract is removed, vision can be corrected with eyeglasses or contact lenses.
+&lt;/p&gt;
+&lt;p&gt;
+Surgery is usually done on one eye at a time, with a few weeks between surgeries. It&apos;s generally done on an outpatient basis, which means you won&apos;t need to stay in a hospital after the surgery. During cataract surgery your eye doctor uses local anesthesia to numb the area around your eye, but you stay awake during the procedure. Cataract surgery is generally safe, but carries a risk of infection and bleeding. Cataract surgery increases the risk of retinal detachment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cataract surgery 
+" Caption="During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top). After removing the cataract, your surgeon inserts the lens implant into the empty capsule where the natural lens used to be (bottom). 
+" Height="60" Title="Cataract surgery" URI="/images/image_popup/thumbs/vi7_cataractsurgerythu.jpg" Width="60" />
+				<Image Alt="Illustration showing cataract surgery 
+" Caption="During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top). After removing the cataract, your surgeon inserts the lens implant into the empty capsule where the natural lens used to be (bottom). 
+" Height="396" Title="Cataract surgery" URI="/images/image_popup/vi7_cataractsurgery.jpg" Width="400" />
+				<HTML>
+					During phacoemulsification &amp;mdash; the most common type of cataract surgery &amp;mdash; the rapidly vibrating tip of the ultrasound probe breaks up the cataract, which your surgeon then suctions out (top)...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To deal with symptoms of cataracts until you decide to have surgery, try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Make sure your eyeglasses or contact lenses are the most accurate prescription possible&lt;/li&gt;
+	&lt;li&gt;Use a magnifying glass to read&lt;/li&gt;
+	&lt;li&gt;Improve the lighting in your home with more or brighter lamps&lt;/li&gt;
+	&lt;li&gt;When you go outside during the day, wear sunglasses or a broad-brimmed hat to reduce glare&lt;/li&gt;
+	&lt;li&gt;Limit your night driving&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Self-care measures may help for a while, but as the cataract progresses, your vision may deteriorate further. When vision loss starts to interfere with your everyday activities, consider cataract surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes cataracts, but doctors think you may be able to reduce your risk of cataracts if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have regular eye exams.&lt;/strong&gt; Eye exams can help detect cataracts and other eye problems at their earliest stages. Ask your doctor how often you should have an eye exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; Ask your doctor for help to stop smoking. Medications, counseling and other strategies are available to help you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear sunglasses.&lt;/strong&gt; Ultraviolet light from the sun may contribute to the development of cataracts. Wear sunglasses that block ultraviolet B (UVB) rays when you&apos;re outdoors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of other health problems.&lt;/strong&gt; Follow your treatment plan if you have diabetes or other medical conditions that can increase your risk of cataracts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your current weight is a healthy one, work to maintain it by exercising most days of the week. If you&apos;re overweight or obese, work to lose weight slowly by reducing your calorie intake and increasing the amount of exercise you get each day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet that includes plenty of fruits and vegetables.&lt;/strong&gt; Adding a variety of colorful fruits and vegetables to your diet ensures that you&apos;re getting a lot of vitamins and nutrients. Fruits and vegetables are full of antioxidants, which in theory could prevent damage to your eye&apos;s lens. Studies haven&apos;t proven that antioxidants in pill form can prevent cataracts. But fruits and vegetables have many proven health benefits and are a safe way to increase the amount of vitamins in your diet.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cataracts
+	</Title>
+	<Abstract>
+		Cataracts &amp;mdash; Comprehensive overview covers symptoms, causes and treatments, including cataract removal.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01569" LinkType="Internal" ObjectID="C68515D2-E7FF-0DBD-1974A28FE5B7FC85" Title="Cataract surgery: Does the artificial lens deteriorate over time?" Url="http://www.mayoclinic.com/health/cataract-surgery/AN01569" />
+		<LinkItem ContentType="SlideShow" DocID="MY01593" LinkType="Internal" ObjectID="5B96B16B-D098-F54B-59BF3E3CCCC550AD" Title="Slide show: Add antioxidants to your diet" Url="http://www.mayoclinic.com/health/antioxidants/MY01593" />
+		<LinkItem ContentType="Video" DocID="MM00780" LinkType="Internal" ObjectID="31E3786F-DA2B-6EDD-A62B3B6E834FF7C3" Title="Video: Cataract surgery" Url="http://www.mayoclinic.com/health/cataract-surgery/MM00780" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00164" LinkType="Internal" ObjectID="126BAB8B-E7FF-0DBD-17C64C384E96EDA7" Title="Cataract surgery" Url="http://www.mayoclinic.com/health/cataract-surgery/MY00164" />
+	</RelatedLinksBox>
+</Disease>

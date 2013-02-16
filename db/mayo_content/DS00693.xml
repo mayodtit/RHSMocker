@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00693
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bundle-branch-block/DS00693
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1468" Title="Conduction system disease">
+							<Keyword MCVID="4270" Title="Bundle branch block" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DA1D1E7A-2A5D-9994-E4CF3842A995026D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bundle branch block
+			</MetaKeyword>
+			<MetaKeyword>
+				bundle branch
+			</MetaKeyword>
+			<MetaKeyword>
+				atria
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				BBB
+			</MetaKeyword>
+			<MetaKeyword>
+				electrocardiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				pacemaker
+			</MetaKeyword>
+			<MetaKeyword>
+				reperfusion therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricle
+			</MetaKeyword>
+			<MetaKeyword>
+				syncope
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bundle branch block is a condition in which there&apos;s a delay or obstruction along the pathway that electrical impulses travel to make your heart beat. The delay or blockage may occur on the pathway that sends electrical impulses to the left or the right side of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Bundle branch block sometimes makes it harder for your heart to pump blood efficiently through your circulatory system.
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no specific treatment for bundle branch block itself. However, any underlying health condition that caused bundle branch block, such as heart disease, will need to be treated. Sometimes, bundle branch block is associated with other problems in the heart&apos;s electrical system that can lead to dangerously slow heartbeats that need treatment with a temporary or permanent pacemaker. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bundle branch block 
+" Caption="Electrical impulses that cause your heart to beat (contract) originate in the upper right chamber (right atrium) of the heart and travel to the lower chambers (ventricles). In bundle branch block, the pathway that these impulses travel on is blocked, meaning your heart may not beat properly.
+" Height="60" Title="Bundle branch block" URI="/images/image_popup/thumbs/ans7_heartblockthu.jpg" Width="60" />
+				<Image Alt="Illustration showing bundle branch block 
+" Caption="Electrical impulses that cause your heart to beat (contract) originate in the upper right chamber (right atrium) of the heart and travel to the lower chambers (ventricles). In bundle branch block, the pathway that these impulses travel on is blocked, meaning your heart may not beat properly.
+" Height="400" Title="Bundle branch block" URI="/images/image_popup/ans7_heartblock.jpg" Width="400" />
+				<HTML>
+					Electrical impulses that cause your heart to beat (contract) originate in the upper right chamber (right atrium) of the heart and travel to the lower chambers (ventricles). In bundle branch block, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most people, bundle branch block doesn&apos;t cause any symptoms. Sometimes, people with the condition don&apos;t even know they have a bundle branch block.
+&lt;/p&gt;
+&lt;p&gt;
+For those people who do have signs and symptoms, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+	&lt;li&gt;Feeling as if you&apos;re going to faint (presyncope)&lt;/li&gt;
+	&lt;li&gt;Having a slow heart rate (bradycardia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you&apos;ve fainted, see your doctor to rule out any serious, underlying causes. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have heart disease, or if your doctor has already diagnosed you as having bundle branch block, ask your doctor how often you should have follow-up visits. You might want to carry a medical alert card that identifies you as having bundle branch block in case you&apos;re seen in an emergency by a doctor who isn&apos;t familiar with your medical history.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Normally, electrical impulses within your heart&apos;s muscle signal it to beat (contract). These impulses travel along a pathway, including a slender cluster of cardiac fibers of the heart&apos;s electrical system. One area of these fibers is called the bundle of His. This bundle divides into two branches &amp;mdash; the right and the left bundles &amp;mdash; one for each of your heart&apos;s two lower chambers (ventricles). 
+&lt;/p&gt;
+&lt;p&gt;
+If one or both of these branch bundles become damaged &amp;mdash; due to a heart attack, for example &amp;mdash; this change can prevent your heart from beating normally. The heart&apos;s electrical impulses that make your heart beat may be slowed down or blocked. When this occurs, your heart&apos;s ventricles no longer contract in perfect coordination with one another. 
+&lt;/p&gt;
+&lt;p&gt;
+The underlying cause for bundle branch blocks may differ depending on whether the left or right bundle branch is affected. Most cases of left bundle branch block are due to some type of heart disease. Some people with right bundle branch block do not have any other obvious heart problems. Specific causes may include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Left bundle branch block&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart disease &lt;/li&gt;
+	&lt;li&gt;Congestive heart failure&lt;/li&gt;
+	&lt;li&gt;Thickened, stiffened or weakened heart muscle (cardiomyopathy)&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Right bundle branch block&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A heart abnormality that&apos;s present at birth (congenital) &amp;mdash; such as atrial septal defect, a hole in the wall separating the upper chambers of the heart&lt;/li&gt;
+	&lt;li&gt;A heart attack (myocardial infarction)&lt;/li&gt;
+	&lt;li&gt;A viral or bacterial infection of the heart muscle (myocarditis)&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Scar tissue that develops after heart surgery&lt;/li&gt;
+	&lt;li&gt;A blood clot in the lungs (pulmonary embolism)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bundle branch block 
+" Caption="Electrical impulses that cause your heart to beat (contract) originate in the upper right chamber (right atrium) of the heart and travel to the lower chambers (ventricles). In bundle branch block, the pathway that these impulses travel on is blocked, meaning your heart may not beat properly.
+" Height="60" Title="Bundle branch block" URI="/images/image_popup/thumbs/ans7_heartblockthu.jpg" Width="60" />
+				<Image Alt="Illustration showing bundle branch block 
+" Caption="Electrical impulses that cause your heart to beat (contract) originate in the upper right chamber (right atrium) of the heart and travel to the lower chambers (ventricles). In bundle branch block, the pathway that these impulses travel on is blocked, meaning your heart may not beat properly.
+" Height="400" Title="Bundle branch block" URI="/images/image_popup/ans7_heartblock.jpg" Width="400" />
+				<HTML>
+					Electrical impulses that cause your heart to beat (contract) originate in the upper right chamber (right atrium) of the heart and travel to the lower chambers (ventricles). In bundle branch block, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main complication of bundle branch block is a slow heart rate, which can sometimes require a pacemaker. A slow heart rate can occur whether the blockage is on the right or left side of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have a heart attack and develop a bundle branch block have a higher chance of complications, including sudden cardiac death, than do people who have heart attacks and don&apos;t develop a bundle branch block. Some people with bundle branch block after a heart attack need a temporary or permanent pacemaker.
+&lt;/p&gt;
+&lt;p&gt;
+Because bundle branch block affects the electrical activity of your heart, it can sometimes complicate the accurate diagnosis of other heart conditions, especially heart attacks, and lead to delays in proper management of those problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in heart disorders (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your caffeine intake prior to having heart function tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins and supplements&lt;/strong&gt; that you&apos;re taking. Also, write down the dose that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For bundle branch block, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will the bundle branch block return after treatment?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has a doctor ever told you that you have a bundle branch block?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Electrocardiogram&lt;br /&gt;
+&lt;/strong&gt;An electrocardiogram (ECG) is the test used to diagnose bundle branch block. This noninvasive test is an electrical recording of your heart&apos;s activity. In this test, a technician places probes on the skin of your chest that will show the patterns of electrical impulses through your heart as wave patterns. Abnormalities in the waves may indicate the presence of bundle branch block. These electrical patterns can also point to whether the block is affecting the right or the left bundle branch. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible your doctor will discover you have a bundle branch block incidentally &amp;mdash; meaning the condition could be found while you&apos;re having an ECG to diagnose another heart condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Echocardiogram&lt;br /&gt;
+&lt;/strong&gt;Once you have been diagnosed with bundle branch block, your doctor may order other tests, such an echocardiogram. An echocardiogram uses sound waves to produce images of the heart. An echocardiogram allows the doctor to see the complicated movement of the heart in motion. An echocardiogram provides detailed images of the heart&apos;s structure and shows the thickness of your heart muscle and whether your heart valves are moving normally. Congenital heart defects, such as a hole between the upper chambers of the heart (atrial septal defect), can be diagnosed with an echocardiogram. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific treatment for many cases of bundle branch block. Most people with bundle branch block are symptom-free and don&apos;t need treatment.
+&lt;/p&gt;
+&lt;p&gt;
+However, if you have an underlying heart condition causing bundle branch block, treatment of the underlying condition is recommended. Treatment of underlying conditions may involve using medications to reduce high blood pressure or lessen the effects of heart failure, or the use of a coronary angioplasty to open up the artery leading to your heart.
+&lt;/p&gt;
+&lt;p&gt;
+And, if you have signs or symptoms, such as fainting, your doctor may recommend an artificial pacemaker to keep your heartbeat regular.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Artificial pacemakers&lt;br /&gt;
+&lt;/strong&gt;For some people with bundle branch block and a history of fainting, doctors may recommend implanting an artificial pacemaker. This pacemaker is a compact device that is implanted under the skin of your upper chest (internal pacemaker). 
+&lt;/p&gt;
+&lt;p&gt;
+Internal pacemakers are placed near your collarbone during surgery performed using local anesthesia. The pacemaker generator connects to wires that go into your heart. The pacemaker provides electrical impulses when needed to keep your heart beating regularly. These devices have sensors that can detect when your heart is going too slow and needs a signal from the pacemaker to make your heart beat.
+&lt;/p&gt;
+&lt;p&gt;
+If you need a pacemaker, your doctor can explain any precautions you need to take in order to keep the device working properly and to reduce risks associated with its use.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some forms of bundle branch block can&apos;t be prevented. However, keeping your heart healthy generally helps prevent conditions that increase your risk of bundle branch block, such as coronary artery disease. To reduce your risk of coronary artery diseases that can lead to bundle branch block, you can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stop smoking if you&apos;re a smoker&lt;/li&gt;
+	&lt;li&gt;Reduce the dietary cholesterol and fat in your meals&lt;/li&gt;
+	&lt;li&gt;Keep your weight at normal levels&lt;/li&gt;
+	&lt;li&gt;Exercise regularly, aiming for at least 30 minutes of moderate exercise most days of the week&lt;/li&gt;
+	&lt;li&gt;Control any underlying health conditions, such as high blood pressure, high cholesterol and diabetes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bundle branch block
+	</Title>
+	<Abstract>
+		Bundle branch block &amp;mdash; Comprehensive overview covers symptoms and causes of this heart condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,432 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00582
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brain-aneurysm/DS00582
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="3014" Title="Brain aneurysm" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			27C87FA4-C560-4F97-B5B680BD5D09F585
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				brain aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebral aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				intracranial aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				hemorrhagic stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				subarachnoid hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebral hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				brain aneurism
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding in the brain
+			</MetaKeyword>
+			<MetaKeyword>
+				brain hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				brain bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				aneurysm brain
+			</MetaKeyword>
+			<MetaKeyword>
+				brain hemmorage
+			</MetaKeyword>
+			<MetaKeyword>
+				brain bleed
+			</MetaKeyword>
+			<MetaKeyword>
+				anuerism
+			</MetaKeyword>
+			<MetaKeyword>
+				anuerysm
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain aneurysm (AN-u-rizm) is a bulge or ballooning in a blood vessel in the brain. It often looks like a berry hanging on a stem. 
+&lt;/p&gt;
+&lt;p&gt;
+A brain aneurysm can leak or rupture, causing bleeding into the brain (hemorrhagic stroke). Most often a ruptured brain aneurysm occurs in the space between the brain and the thin tissues covering the brain. This type of hemorrhagic stroke is called a subarachnoid hemorrhage. A ruptured aneurysm quickly becomes life-threatening and requires prompt medical treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Most brain aneurysms, however, don&apos;t rupture, create health problems or cause symptoms. Such aneurysms are often detected during tests for other conditions. Treatment for an unruptured brain aneurysm may be appropriate in some cases and may prevent a rupture in the future. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a brain aneurysm 
+" Caption="An aneurysm is a ballooning at a weak spot in an artery wall. An aneurysm&apos;s walls can be thin enough to rupture. The illustration shows a woman with an unruptured aneurysm. The inset shows the aneurysm before and after rupture. 
+" Height="60" Title="Brain aneurysm" URI="/images/image_popup/thumbs/r7_brainaneurysmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a brain aneurysm 
+" Caption="An aneurysm is a ballooning at a weak spot in an artery wall. An aneurysm&apos;s walls can be thin enough to rupture. The illustration shows a woman with an unruptured aneurysm. The inset shows the aneurysm before and after rupture. 
+" Height="380" Title="Brain aneurysm" URI="/images/image_popup/r7_brainaneurysm.jpg" Width="400" />
+				<HTML>
+					An aneurysm is a ballooning at a weak spot in an artery wall. An aneurysm&apos;s walls can be thin enough to rupture. The illustration shows a woman with an unruptured aneurysm. The inset shows the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Ruptured aneurysm&lt;br /&gt;
+&lt;/strong&gt;A sudden, severe headache is the key symptom of a ruptured aneurysm. This headache is often described as the &quot;worst headache&quot; ever experienced. Common signs and symptoms of a ruptured aneurysm include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, extremely severe headache&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Stiff neck&lt;/li&gt;
+	&lt;li&gt;Blurred or double vision&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light&lt;/li&gt;
+	&lt;li&gt;Seizure&lt;/li&gt;
+	&lt;li&gt;A drooping eyelid&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;&apos;Leaking&apos; aneurysm&lt;br /&gt;
+&lt;/strong&gt;In some cases, an aneurysm may leak a slight amount of blood. This leaking (sentinel bleed) may cause only a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, extremely severe headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A more severe rupture almost always follows leaking.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Unruptured aneurysm&lt;br /&gt;
+&lt;/strong&gt;An unruptured brain aneurysm may produce no symptoms, particularly if it&apos;s small. However, a large unruptured aneurysm may press on brain tissues and nerves, possibly causing:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain above and behind an eye&lt;/li&gt;
+	&lt;li&gt;A dilated pupil&lt;/li&gt;
+	&lt;li&gt;Change in vision or double vision&lt;/li&gt;
+	&lt;li&gt;Numbness, weakness or paralysis of one side of the face&lt;/li&gt;
+	&lt;li&gt;A drooping eyelid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;A ruptured aneurysm is a medical emergency. In about 30 percent of cases, ruptured brain aneurysms are fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek immediate medical attention&lt;/strong&gt; if you develop a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, extremely severe headache &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re with someone who complains of a sudden, severe headache or who loses consciousness or has a seizure, call 911 or your local emergency number.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brain aneurysms develop as a result of thinning and degenerating artery walls. Aneurysms often form at forks or branches in arteries because those sections of the vessel are weaker. Although aneurysms can appear anywhere in the brain, they are most common in arteries at the base of the brain.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a brain aneurysm 
+" Caption="An aneurysm is a ballooning at a weak spot in an artery wall. An aneurysm&apos;s walls can be thin enough to rupture. The illustration shows a woman with an unruptured aneurysm. The inset shows the aneurysm before and after rupture. 
+" Height="60" Title="Brain aneurysm" URI="/images/image_popup/thumbs/r7_brainaneurysmthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a brain aneurysm 
+" Caption="An aneurysm is a ballooning at a weak spot in an artery wall. An aneurysm&apos;s walls can be thin enough to rupture. The illustration shows a woman with an unruptured aneurysm. The inset shows the aneurysm before and after rupture. 
+" Height="380" Title="Brain aneurysm" URI="/images/image_popup/r7_brainaneurysm.jpg" Width="400" />
+				<HTML>
+					An aneurysm is a ballooning at a weak spot in an artery wall. An aneurysm&apos;s walls can be thin enough to rupture. The illustration shows a woman with an unruptured aneurysm. The inset shows the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors can contribute to weakness in an artery wall and increase the risk of a brain aneurysm. Brain aneurysms are more common in adults than in children and more common in women than in men. Some of these risk factors develop over time; others are present at birth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors that develop over time&lt;br /&gt;
+&lt;/strong&gt;These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Older age&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Hardening of the arteries (arteriosclerosis)&lt;/li&gt;
+	&lt;li&gt;Drug abuse, particularly the use of cocaine&lt;/li&gt;
+	&lt;li&gt;Head injury&lt;/li&gt;
+	&lt;li&gt;Heavy alcohol consumption&lt;/li&gt;
+	&lt;li&gt;Certain blood infections&lt;/li&gt;
+	&lt;li&gt;Lower estrogen levels after menopause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors present at birth&lt;br /&gt;
+&lt;/strong&gt;These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited connective tissue disorders,&lt;/strong&gt; such as Ehlers-Danlos syndrome, that weaken blood vessels&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polycystic kidney disease,&lt;/strong&gt; an inherited disorder that results in fluid-filled sacs in the kidneys and usually increases blood pressure&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormally narrow aorta&lt;/strong&gt; (coarctation of the aorta), the large blood vessel that delivers oxygen-rich blood from the heart to the body&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral arteriovenous malformation&lt;/strong&gt; (brain AVM), an abnormal connection between arteries and veins in the brain that interrupts the normal flow of blood between them&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of brain aneurysm,&lt;/strong&gt; particularly a first-degree relative, such as a parent,&amp;nbsp; brother or sister&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When a brain aneurysm ruptures, the bleeding usually lasts only a few seconds. The blood can cause direct damage to surrounding cells, and the bleeding can damage or kill other cells. It also increases pressure inside the skull. If the pressure becomes too elevated, the blood and oxygen supply to the brain may be disrupted to the point that loss of consciousness or even death may occur. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications that can develop after the rupture of an aneurysm include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Re-bleeding.&lt;/strong&gt; An aneurysm that has ruptured or leaked is at risk of bleeding again. Re-bleeding can cause further damage to brain cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vasospasm.&lt;/strong&gt; After a brain aneurysm ruptures, blood vessels in your brain may narrow erratically (vasospasm). This condition can limit blood flow to brain cells (ischemic stroke) and cause additional cell damage and loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hydrocephalus.&lt;/strong&gt; When an aneurysm rupture results in bleeding in the space between the brain and surrounding tissue (subarachnoid hemorrhage) &amp;mdash; most often the case &amp;mdash; the blood can block circulation of the fluid surrounding the brain and spinal cord (cerebrospinal fluid). This condition can result in hydrocephalus, an excess of cerebrospinal fluid that increases pressure on the brain and can damage tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyponatremia.&lt;/strong&gt; Subarachnoid hemorrhage from a ruptured brain aneurysm can disrupt the balance of sodium in the blood supply. This may occur from damage to the hypothalamus, an area near the base of the brain. A drop in blood sodium levels (hyponatremia) can lead to swelling of brain cells and permanent damage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brain aneurysms are most often detected after they&apos;ve ruptured and become medical emergencies. However, a brain aneurysm may be detected when you&apos;ve undergone head-imaging tests for another condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If such test results indicate you have a brain aneurysm, you&apos;ll need to discuss the results with a specialist in brain and nervous system disorders (neurologist or neurosurgeon). 
+&lt;/p&gt;
+&lt;p&gt;
+To make the best use of your time with your doctor, you may want to prepare a list of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you know about the size and location of the aneurysm?&lt;/li&gt;
+	&lt;li&gt;Do the imaging test results provide evidence of how likely it is to rupture?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend at this time?&lt;/li&gt;
+	&lt;li&gt;If we wait, how often will I need to have follow-up tests?&lt;/li&gt;
+	&lt;li&gt;What steps can I take to lower the risk of an aneurysm rupturing?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your neurologist or neurosurgeon may ask you the following questions to help determine the best course of action: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;How much do you drink?&lt;/li&gt;
+	&lt;li&gt;Do you use recreational drugs?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for high blood pressure, high cholesterol or other conditions that increase the risk of cardiovascular disease?&lt;/li&gt;
+	&lt;li&gt;Do you take your medications as prescribed by your doctor?&lt;/li&gt;
+	&lt;li&gt;Is there a history of brain aneurysms in your family?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a sudden, severe headache or other symptoms possibly related to a ruptured aneurysm, you will have a test or series of tests to determine if you have had bleeding into the space between your brain and surrounding tissues (subarachnoid hemorrhage) or another type of stroke. If bleeding has occurred, then your emergency care team will determine if a ruptured aneurysm is the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have symptoms of an unruptured brain aneurysm &amp;mdash; such as pain behind the eye, changes in vision and paralysis on one side of the face &amp;mdash; you will likely have the same tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnostic tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A CT scan, a specialized X-ray exam, is usually the first test used to determine if you have bleeding in the brain. The test produces images that are 2-D &quot;slices&quot; of the brain. With this test, you may also receive an injection of a dye that makes it easier to observe blood flow in the brain and may indicate the site of a ruptured aneurysm. This variation of the test is called CT angiography.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebrospinal fluid test.&lt;/strong&gt; If you&apos;ve had a subarachnoid hemorrhage, there will mostly likely be red blood cells in the fluid surrounding your brain and spine (cerebrospinal fluid). Your doctor will order a test of the cerebrospinal fluid if you have symptoms of a ruptured aneurysm, but a CT scan hasn&apos;t shown evidence of bleeding. The procedure to draw cerebrospinal fluid from your back with a needle is called a lumbar puncture or spinal tap.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses a magnetic field and radio waves to create detailed images of the brain, either 2-D slices or 3-D images. The use of a dye (MRI angiography) can enhance images of blood vessels and the site of a ruptured aneurysm. This imaging test may provide a clearer picture than a CT scan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral angiogram.&lt;/strong&gt; During this procedure, also called a cerebral arteriogram, your doctor inserts a thin, flexible tube (catheter) into a large artery &amp;mdash; usually in your groin &amp;mdash; and threads it past your heart to the arteries in your brain. A special dye injected into the catheter travels to arteries throughout your brain. A series of X-ray images can then reveal details about the conditions of your arteries and the site of a ruptured aneurysm. This test is more invasive than others and is usually used when other diagnostic tests don&apos;t provide enough information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening for brain aneurysms&lt;br /&gt;
+&lt;/strong&gt;The use of imaging tests to screen for unruptured brain aneurysms is generally not recommended. However, you may want to discuss with your doctor the potential benefit of a screening test if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A parent or sibling who has had a ruptured brain aneurysm, particularly if you have two such first-degree family members with brain aneurysms&lt;/li&gt;
+	&lt;li&gt;A congenital disorder that increases your risk of a brain aneurysm&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;There are two common treatment options for a ruptured brain aneurysm.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical clipping&lt;/strong&gt; is a procedure to close off an aneurysm. The neurosurgeon removes a section of your skull to access the aneurysm and locates the blood vessel that feeds the aneurysm. Then he or she places a tiny metal clip on the neck of the aneurysm to stop blood flow to it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endovascular coiling&lt;/strong&gt; is a less invasive procedure than surgical clipping. The surgeon inserts a hollow plastic tube (catheter) into an artery, usually in your groin, and threads it through your body to the aneurysm. He or she then uses a guide wire to push a soft platinum wire through the catheter and into the aneurysm. The wire coils up inside the aneurysm, disrupts the blood flow and causes blood to clot. This clotting essentially seals off the aneurysm from the artery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Both procedures pose risks, particularly bleeding in the brain or loss of blood flow to the brain. The endovascular coil is less invasive and may be initially safer, but it also has a higher risk of subsequent re-bleeding, and additional procedures may be necessary. Your neurosurgeon will make a recommendation based on the size of the brain aneurysm, your ability to undergo surgery and other factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments&lt;br /&gt;
+&lt;/strong&gt;Other treatments for ruptured brain aneurysms are aimed at relieving symptoms and managing complications.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers,&lt;/strong&gt; such as acetaminophen (Tylenol, others), may be used to treat headache pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers&lt;/strong&gt; prevent calcium from entering cells of the blood vessel walls. These medications may lessen vasospasm, the erratic narrowing of blood vessels that may be a complication of a ruptured aneurysm. One of these medications, nimodipine, has been shown to reduce the risk of delayed brain injury caused by insufficient blood flow after subarachnoid hemorrhage of a ruptured aneurysm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Interventions to prevent stroke from insufficient blood flow&lt;/strong&gt; include intravenous injections of a drug called a vasopressor, which elevates blood pressure to overcome the resistance of narrowed blood vessels. An alternative intervention to prevent stroke is angioplasty. In this procedure, a surgeon uses a catheter to inflate a tiny balloon that expands a narrowed blood vessel in the brain. A catheter may also be used to deliver to the brain a drug called a vasodilator, which causes blood vessels to expand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure&lt;/strong&gt; &lt;strong&gt;medications&lt;/strong&gt; may be used to treat seizures related to a ruptured aneurysm. These medications include levetiracetam (Keppra), phenytoin (Dilantin, Phenytek, others) and valproic acid (Depakene).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular or lumbar draining catheters and shunt surgery&lt;/strong&gt; can lessen pressure on the brain from excess cerebrospinal fluid (hydrocephalus) associated with a ruptured aneurysm. A catheter may be placed in the spaces filled with fluid inside of the brain (ventricles) or surrounding your brain and spinal cord to drain the excess fluid into an external bag. Sometimes, it may then be necessary to introduce a shunt system &amp;mdash; which consists of a flexible silicone rubber tube (shunt) and a valve &amp;mdash; that creates a drainage channel starting in your brain and ending in your abdominal cavity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rehabilitative therapy.&lt;/strong&gt; Damage to the brain from a subarachnoid hemorrhage usually results in the need for physical, speech and occupational therapy to relearn skills.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating unruptured brain aneurysms&lt;br /&gt;
+&lt;/strong&gt;Surgical clipping or endovascular coiling can be used to seal off an unruptured brain aneurysm and help prevent a future rupture. However, the known risks of the procedures may outweigh the potential benefit.
+&lt;/p&gt;
+&lt;p&gt;
+A neurologist and a neurosurgeon can help you determine whether the treatment is appropriate for you. Factors that they would consider in making a recommendation include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The size and location of the aneurysm&lt;/li&gt;
+	&lt;li&gt;Your age and general health&lt;/li&gt;
+	&lt;li&gt;Family history of ruptured aneurysms&lt;/li&gt;
+	&lt;li&gt;Congenital conditions that increase the risk of a ruptured aneurysm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have high blood pressure, talk to your doctor about medication to manage the condition. If you have a brain aneurysm, proper control of blood pressure may lower the risk of rupture.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of aneurysm clip 
+" Caption="A surgical procedure to treat brain aneurysms involves opening the skull, finding the affected artery and then placing a metal clip over the narrow neck of the aneurysm. 
+" Height="60" Title="Aneurysm clip" URI="/images/image_popup/thumbs/bn7_clipthu.jpg" Width="60" />
+				<Image Alt="Illustration of aneurysm clip 
+" Caption="A surgical procedure to treat brain aneurysms involves opening the skull, finding the affected artery and then placing a metal clip over the narrow neck of the aneurysm. 
+" Height="400" Title="Aneurysm clip" URI="/images/image_popup/bn7_clip.jpg" Width="400" />
+				<HTML>
+					A surgical procedure to treat brain aneurysms involves opening the skull, finding the affected artery and then placing a metal clip over the narrow neck of the aneurysm. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of aneurysm coil 
+" Caption="With endovascular coiling, the surgeon feeds a soft, flexible wire into the aneurysm via a catheter. The wire coils inside the aneurysm, causing a blood clot that seals off the aneurysm from the artery. 
+" Height="60" Title="Aneurysm coil" URI="/images/image_popup/thumbs/bn7_coilthu.jpg" Width="60" />
+				<Image Alt="Illustration of aneurysm coil 
+" Caption="With endovascular coiling, the surgeon feeds a soft, flexible wire into the aneurysm via a catheter. The wire coils inside the aneurysm, causing a blood clot that seals off the aneurysm from the artery. 
+" Height="400" Title="Aneurysm coil" URI="/images/image_popup/bn7_coil.jpg" Width="400" />
+				<HTML>
+					With endovascular coiling, the surgeon feeds a soft, flexible wire into the aneurysm via a catheter. The wire coils inside the aneurysm, causing a blood clot that seals off the aneurysm from the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have an unruptured brain aneurysm, you may lower the risk of its rupture by making these lifestyle changes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke or use recreational drugs.&lt;/strong&gt; If you smoke or use recreational drugs, talk to your doctor about strategies or an appropriate treatment program to help you quit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet and exercise.&lt;/strong&gt; Changes in diet and exercise can help lower blood pressure. Talk to your doctor about changes appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit caffeine.&lt;/strong&gt; Caffeine is a stimulant that can cause a sudden increase in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid straining.&lt;/strong&gt; Sudden, forceful and sustained exertion of the type you expend when you lift heavy weights can cause a sudden increase in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious of aspirin use.&lt;/strong&gt; Talk to your doctor before taking aspirin or other drugs that inhibit blood clotting, because they may increase blood loss if you do have a ruptured aneurysm.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Brain aneurysm
+	</Title>
+	<Abstract>
+		Brain aneurysm &amp;mdash; Comprehensive overview covers symptoms, treatment of this potentially life-threatening disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Article" DocID="NU00600" LinkType="Internal" ObjectID="62AE248C-7395-4CF6-9ADD5159CDA5A865" Title="Caffeine: How much is too much?" Url="http://www.mayoclinic.com/health/caffeine/NU00600" />
+		<LinkItem ContentType="Article" DocID="SK00057" LinkType="Internal" ObjectID="51BBEF05-E7FF-0DBD-115668D65EC3E3BA" Title="Quitting smoking: 10 ways to resist tobacco cravings" Url="http://www.mayoclinic.com/health/nicotine-craving/SK00057" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00706" LinkType="Internal" ObjectID="8F79D68B-2A5D-9994-ECE7BBCAAF48A5AE" Title="Ehlers-Danlos syndrome" Url="http://www.mayoclinic.com/health/ehlers-danlos-syndrome/DS00706" />
+		<LinkItem ContentType="Disease" DocID="DS00245" LinkType="Internal" ObjectID="821423B5-5A42-4E3D-B75593AEA91D1DD2" Title="Polycystic kidney disease" Url="http://www.mayoclinic.com/health/polycystic-kidney-disease/DS00245" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+	</RelatedLinksBox>
+</Disease>

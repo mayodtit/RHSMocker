@@ -1,0 +1,344 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01129
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/enlarged-heart/DS01129
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-21
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1470" Title="Heart muscle and lining">
+						<Keyword MCVID="3194" Title="Enlarged heart" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			18047987-0FF0-30B7-30826F629576DC5D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				enlarged heart
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiomegaly
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				left ventricular hypertrophy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Enlarged heart (cardiomegaly) isn&apos;t a disease, but rather a symptom of another condition. 
+&lt;/p&gt;
+&lt;p&gt;
+The term &quot;cardiomegaly&quot; most commonly refers to an enlarged heart seen on chest X-ray before other tests are performed to diagnose the specific condition causing your cardiomegaly. You may develop an enlarged heart temporarily because of a stress on your body, such as pregnancy, or because of a medical condition, such as the weakening of the heart muscle, coronary artery disease, heart valve problems or abnormal heart rhythms. 
+&lt;/p&gt;
+&lt;p&gt;
+While having an enlarged heart may not always be preventable, it&apos;s usually treatable. Treatment for enlarged heart is aimed at correcting the underlying cause. Treatment for an enlarged heart can include medications, medical procedures or surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some people, an enlarged heart causes no signs or symptoms. Others may have these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Abnormal heart rhythm (arrhythmia)&lt;/li&gt;
+	&lt;li&gt;Swelling (edema)&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Enlarged heart is easier to treat when it&apos;s detected early, so talk to your doctor about any concerns you have about your heart health. If you don&apos;t have an enlarged heart, but are concerned about developing the condition, talk to your doctor about steps you can take to reduce your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think you may have a problem with your heart based on new signs or symptoms you&apos;ve been having, make an appointment to see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency medical care if you have any of these signs and symptoms, which may mean you&apos;re having a heart attack: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Severe shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An enlarged heart can be caused by conditions that cause your heart to pump harder than usual or that damage your heart muscle. Sometimes the heart enlarges and becomes weak for unknown reasons (idiopathic). 
+&lt;/p&gt;
+&lt;p&gt;
+Conditions associated with an enlarged heart include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Having high blood pressure can make it so that your heart has to pump harder to deliver blood to the rest of your body, enlarging and thickening the muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart valve disease.&lt;/strong&gt; Four valves within your heart keep blood flowing in the right direction. If the valves are damaged by such conditions as rheumatic fever, a heart defect, infections (infectious endocarditis), connective tissue disorders, certain medications or radiation treatments for cancer, your heart may enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease of the heart muscle (cardiomyopathy).&lt;/strong&gt; Cardiomyopathy is the thickening and stiffening of heart muscle. In early stages of cardiomyopathy, you may have no symptoms. As the condition worsens, your heart may enlarge to try to pump more blood to your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; Damage done during a heart attack may cause an enlarged heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A heart condition you&apos;re born with (congenital heart defect).&lt;/strong&gt; Many types of congenital heart defects may lead to an enlarged heart, as defects can affect blood flow through the heart, forcing it to pump harder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal heartbeat (arrhythmia).&lt;/strong&gt; If you have an arrhythmia, your heart may not pump blood as effectively as it would if your heart rhythm were normal. The extra work your heart has to do to pump blood to your body may cause it to enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure in the artery connecting your heart and lungs (pulmonary hypertension).&lt;/strong&gt; If you have pulmonary hypertension, your heart may need to pump harder to move blood between your lungs and your heart. As a result, the right side of your heart may enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low red blood cell count (anemia).&lt;/strong&gt; Anemia is a condition in which there aren&apos;t enough healthy red blood cells to carry adequate oxygen to your tissues. Left untreated, chronic anemia can lead to a rapid or irregular heartbeat. Your heart must pump more blood to make up for the lack of oxygen in the blood when you&apos;re anemic. Rarely, your heart can enlarge if you have anemia for a long time and you don&apos;t seek treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid disorders.&lt;/strong&gt; Both an underactive thyroid gland (hypothyroidism) and an overactive thyroid gland (hyperthyroidism) can lead to heart problems, including an enlarged heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive iron in the body (hemochromatosis).&lt;/strong&gt; Hemochromatosis is a disorder in which your body doesn&apos;t properly metabolize iron, causing it to build up in various organs, including your heart muscle. This can cause an enlarged left ventricle due to weakening of the heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rare diseases that can affect your heart, such as amyloidosis.&lt;/strong&gt; Amyloidosis is a condition in which abnormal proteins circulate in the blood and may be deposited in the heart, interfering with your heart&apos;s function. If amyloid builds up in your heart, it can cause it to enlarge.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have a greater risk of developing an enlarged heart if you have any of the following risk factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Having a blood pressure measurement higher than 140/90 millimeters of mercury puts you at an increased risk of developing an enlarged heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history of enlarged heart or cardiomyopathy.&lt;/strong&gt; If an immediate family member, such as a parent or sibling, has had an enlarged heart, you may be more susceptible to developing an enlarged heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blocked arteries in your heart (coronary artery disease).&lt;/strong&gt; If you have coronary artery disease, fatty plaques in the arteries of your heart make it so blood can&apos;t easily flow through the vessels of your heart. Sometimes this leads to a heart attack, where a section of heart muscle dies. If this happens, your heart has to pump harder to get an adequate amount of blood to the rest of your body, causing it to enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital heart disease.&lt;/strong&gt; If you&apos;re born with a condition that affects the structure of your heart, you may be at risk for developing an enlarged heart, especially if your condition isn&apos;t treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valvular heart disease.&lt;/strong&gt; The heart has four valves &amp;mdash; the aortic, mitral, pulmonary and tricuspid valves &amp;mdash; that open and close to direct blood flow through your heart. Valves may be damaged by a variety of conditions leading to narrowing (stenosis), leaking (regurgitation or insufficiency) or improper closing (prolapse). Any of these conditions may cause the heart to enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; Having a heart attack increases your risk of developing an enlarged heart.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk of complications from an enlarged heart depends on the part of the heart that is enlarged and the underlying cause. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications of enlarged heart can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; One of most serious types of enlarged heart, an enlarged left ventricle, increases the risk of heart failure. Heart failure occurs when your heart can&apos;t pump enough blood to meet your body&apos;s needs. Over time, the heart can no longer keep up with the normal demands placed on it. The heart muscle will weaken, and the ventricles stretch (dilate) to the point that the heart can&apos;t pump blood efficiently throughout your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Having an enlarged heart may make you more susceptible to forming small blood clots in the lining of your heart. If clots are pumped out of the heart and enter your circulatory system, they can block the blood flow to vital organs, including your heart and brain causing a heart attack or stroke. If clots develop on the right side of your heart, they may travel to your lungs, a dangerous condition called pulmonary embolism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart murmur.&lt;/strong&gt; For people who have an enlarged heart, two of the heart&apos;s four valves &amp;mdash; the mitral and tricuspid valves &amp;mdash; may not close properly because they become dilated, leading to a backflow of blood. This flow creates sounds called heart murmurs. Heart murmurs are not necessarily harmful, but they should be monitored by your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac arrest and sudden death.&lt;/strong&gt; Some forms of enlarged heart can lead to disruptions in your heart&apos;s beating rhythm. Some of these heart rhythms are too slow to move your blood, and some are too fast to allow the heart to beat properly. In either case, these abnormal heart rhythms can result in fainting or, in some cases, cardiac arrest or sudden death.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have heart disease, or are worried about your heart disease risk because of a strong family history, make an appointment with your family doctor. If heart disease is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. For a cholesterol test, for example, you may need to fast for a period of time beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to coronary artery disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For heart disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;Are there any other restrictions I should follow?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for heart disease? For example, how often do I need a cholesterol test?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Should my children be screened for this condition?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? How much?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Are you physically active? If yes, how often do you exercise?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of heart disease?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications, vitamins or supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have symptoms of a heart problem, your doctor will perform tests to determine if your heart is enlarged and to find out the underlying cause of your condition. In addition to a physical exam, these tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; X-ray images help your doctor see the condition of your lungs and heart. If your heart is enlarged, it might first be detected by a chest X-ray, but other tests will usually be needed to find out the specific cause. Your doctor can also use an X-ray to diagnose conditions other than enlarged heart that may explain your signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram.&lt;/strong&gt; This test records the electrical activity of your heart through electrodes attached to your skin. Impulses are recorded as waves and displayed on a monitor or printed on paper. This test helps your doctor diagnose heart rhythm problems and damage to your heart from a heart attack as well as give clues to other types of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An important test for diagnosing and monitoring an enlarged heart is the echocardiogram. An echocardiogram uses sound waves to produce a video image of your heart. In this test, all of the chambers of the heart can be evaluated to determine if you do have an enlarged heart and to try and determine the cause. This test determines how efficiently your heart is pumping, assesses your heart valves, can look for evidence of previous heart attacks and can determine if you have congenital heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; A stress test, also called an exercise stress test, is used to gather information about how well your heart works during physical activity. Because exercise makes your heart pump harder and faster than it does during most daily activities, an exercise stress test can reveal problems within your heart that might not be noticeable otherwise. An exercise stress test usually involves walking on a treadmill or riding a stationary bike while your heart rhythm, blood pressure and breathing are monitored.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac computerized tomography (CT) or magnetic resonance imaging (MRI).&lt;/strong&gt; In a cardiac CT scan, you lie on a table inside a doughnut-shaped machine called a gantry. An X-ray tube inside the machine rotates around your body and collects images of your heart and chest. In a cardiac MRI, you lie on a table inside a long tube-like machine that produces a magnetic field. The magnetic field aligns atomic particles in some of your cells. When radio waves are broadcast toward these aligned particles, they produce signals that vary according to the type of tissue they are. Images of your heart are created from these signals, which your doctor will look at to determine the cause of your enlarged heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may order blood tests to check the levels of certain substances in your blood that may signal that you have a heart problem. Blood tests can also help your doctor rule out other conditions that may cause your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization and biopsy.&lt;/strong&gt; In this procedure, a thin tube (catheter) is inserted in your groin and threaded through your blood vessels to your heart, where a small sample (biopsy) of your heart can be extracted for analysis in the laboratory. Pressure within the chambers of your heart can be measured to see how forcefully blood pumps through your heart. Pictures of the arteries of the heart can be taken during the procedure (coronary angiogram) to ensure that you do not have any blockage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for enlarged heart focus on correcting the underlying cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+If cardiomyopathy or another type of heart condition is to blame for your enlarged heart, your doctor may recommend medications. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics&lt;/strong&gt; to lower the amount of sodium and water in your body, which can help lower the pressure in your arteries and heart, such as furosemide (Lasix), or other diuretics, such as spironolactone (Aldactone), which can help prevent further scarring of your heart tissue&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors&lt;/strong&gt; to lower your blood pressure and improve your heart&apos;s pumping capability, such as enalapril (Vasotec), lisinopril (Zestril), ramipril (Altace) or captopril (Capoten)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin receptor blockers (ARBs)&lt;/strong&gt;, such as losartan (Cozaar) and valsartan (Diovan), for those who can&apos;t take ACE inhibitors&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers&lt;/strong&gt; to lower blood pressure and improve heart function, such as carvedilol (Coreg) and metoprolol (Lopressor)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digoxin&lt;/strong&gt;, which can help improve the pumping function of your heart and lessen the need for hospitalization for heart failure&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticoagulants&lt;/strong&gt;, such as warfarin (Coumadin), to reduce the risk of blood clots that could cause a heart attack or stroke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical procedures and surgeries &lt;/strong&gt;&lt;br /&gt;
+If medications aren&apos;t enough to treat your enlarged heart, medical procedures or surgery may be necessary. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical devices to regulate your heartbeat.&lt;/strong&gt; For people who have a certain type of enlarged heart (dilated cardiomyopathy), a special pacemaker that coordinates the contractions between the left and right ventricle (biventricular pacing) may be necessary. In people who may be at risk of serious arrhythmias, drug therapy or an implantable cardioverter-defibrillator (ICD) may be an option. ICDs are small devices &amp;mdash; about the size of a pager &amp;mdash; implanted in your chest to continuously monitor your heart rhythm and deliver electrical shocks when needed to control abnormal, rapid heartbeats. The devices can also work as pacemakers. If the main cause of your enlarged heart is due to atrial fibrillation, then you may need procedures to return your heart to regular rhythm or to keep your heart from beating too quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart valve surgery.&lt;/strong&gt; If your enlarged heart is caused by a problem with one of your heart valves, you may have surgery to remove the narrow valve and replace it with either an artificial valve or a tissue valve from a pig, cow or human-cadaver donor. If you have valve regurgitation, in which blood leaks backward through your valve, the leaky valve may be surgically repaired or replaced.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary bypass surgery.&lt;/strong&gt; If your enlarged heart is related to coronary artery disease, your doctor may recommend coronary artery bypass surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Left ventricular assist device (LVAD).&lt;/strong&gt; If you have heart failure, you may need this implantable mechanical pump to help your weakened heart pump. You may have an LVAD implanted while you wait for a heart transplant or as a long-term treatment if you have heart failure and you&apos;re not a good candidate for a heart transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart transplant. &lt;/strong&gt;If medications can&apos;t control your symptoms, a heart transplant may be a final option. Because of the shortage of donor hearts, even people who are critically ill may have a long wait before having a heart transplant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you can&apos;t cure your enlarged heart with home remedies, there are some things you can do to improve your condition. Your doctor may recommend adopting the following lifestyle changes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quit smoking.&lt;/li&gt;
+	&lt;li&gt;Lose excess weight.&lt;/li&gt;
+	&lt;li&gt;Eat a low-salt diet.&lt;/li&gt;
+	&lt;li&gt;Control diabetes.&lt;/li&gt;
+	&lt;li&gt;Monitor your own blood pressure.&lt;/li&gt;
+	&lt;li&gt;Get modest exercise, after discussing with your doctor the most appropriate program of physical activity.&lt;/li&gt;
+	&lt;li&gt;Eliminate or reduce the amount of alcohol you drink.&lt;/li&gt;
+	&lt;li&gt;Try to sleep eight hours each night.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases you can&apos;t prevent your heart from enlarging. Let your doctor know if you have a family history of conditions that can cause an enlarged heart, such as cardiomyopathy. If cardiomyopathy or other heart conditions are diagnosed early, treatments may prevent the disease from worsening. 
+&lt;/p&gt;
+&lt;p&gt;
+You can help reduce your chance of developing heart failure by avoiding some of the conditions that can contribute to a weak heart, including the abuse of alcohol or cocaine, or not getting enough vitamins and minerals. Controlling high blood pressure with diet, exercise and possibly medications also prevents many people who have an enlarged heart from developing heart failure later in life. 
+&lt;/p&gt;
+&lt;p&gt;
+Controlling risk factors for coronary artery disease &amp;mdash; tobacco use, high blood pressure, high cholesterol and diabetes &amp;mdash; helps to reduce your risk of an enlarged heart and heart failure by reducing your risk of heart attack. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Enlarged heart
+	</Title>
+	<Abstract>
+		Enlarged heart &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment for this heart muscle condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+	</RelatedLinksBox>
+</Disease>

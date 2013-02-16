@@ -1,0 +1,208 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00545
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00545
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			0863AE3F-8051-4C6B-A35C5BB205C36624
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Rustic apple-cranberry tart
+	</Title>
+	<Abstract>
+		Rustic apple-cranberry tart &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		8
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Any tart baking apple &amp;mdash; such as Granny Smith, R.I. Greening or Northern Spy &amp;mdash; works well in this rustic tart. Serve the tart with a scoop of fat-free frozen yogurt or a dollop of light or fat-free whipped topping. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 375 F. In a small microwave-safe bowl, combine the cranberries and apple juice. Cook on high for 1 minute, then stir. Heat for 30 seconds at a time &amp;mdash; stirring after each interval &amp;mdash; until the apple juice is very hot. Cover and set aside until the mixture is close to room temperature, about 1 hour. In a large bowl, combine the cornstarch and apple slices. Toss well to coat evenly. Add the cranberries and juice. Mix well. Stir in the vanilla and cinnamon. Set aside. To prepare the crust, add flour and sugar in a large mixing bowl. Using a fork or pastry cutter, cut in the margarine until the mixture is crumbly. Add the ice water 1 tablespoon at a time and mix with a fork until the dough begins to form a rough mass.&amp;nbsp; Tape a large piece of aluminum foil to the countertop. Sprinkle it with flour. Place the dough in center of the foil and flatten. Using a rolling pin, roll the dough from the center to the edges, making a circle about 13 inches in diameter. Place the fruit filling in the center of the dough. Spread the filling over the dough, leaving a 1- to 2-inch border. Fold the edges of the crust up and over the filling. The pastry won&apos;t cover all of the filling &amp;mdash; it should look rustic. Sprinkle with 2 teaspoons sugar.&amp;nbsp; Remove tape from the foil and countertop. Place another piece of foil over the tart to protect the exposed fruit. Slide tart, bottom and top foil included, onto a cookie sheet and bake about 30 minutes. Remove the top foil and continue baking until browned, about 10 minutes. Cut into 8 wedges and serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+For the filling 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1/2 cup dried cranberries &lt;/li&gt;
+	&lt;li&gt;1/4 cup apple juice&lt;/li&gt;
+	&lt;li&gt;2 tablespoons cornstarch&lt;/li&gt;
+	&lt;li&gt;4 large tart apples, cored, peeled and sliced&lt;/li&gt;
+	&lt;li&gt;1 teaspoon vanilla extract&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground cinnamon&lt;/li&gt;
+	&lt;li&gt;2 teaspoons sugar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For the crust 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1 1/4 cups whole-wheat (whole-meal) flour&lt;/li&gt;
+	&lt;li&gt;2 teaspoons sugar&lt;/li&gt;
+	&lt;li&gt;3 tablespoons trans-free margarine&lt;/li&gt;
+	&lt;li&gt;1/4 cup ice water&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1.5
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1.5
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1.5
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				197
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				35 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3.5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 wedge (1/8 of pie)
+			</Servingsize>
+			<Sodium Label="Sodium">
+				52 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 8
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

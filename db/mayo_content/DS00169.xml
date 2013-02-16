@@ -1,0 +1,490 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00169
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/acne/DS00169
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2833" Title="Acne" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			62FDAD7E-9D53-461A-9A756767E06D35A2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acne
+			</MetaKeyword>
+			<MetaKeyword>
+				acne treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				acne treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				whitehead
+			</MetaKeyword>
+			<MetaKeyword>
+				blackhead
+			</MetaKeyword>
+			<MetaKeyword>
+				pimple
+			</MetaKeyword>
+			<MetaKeyword>
+				skin pores
+			</MetaKeyword>
+			<MetaKeyword>
+				follicle
+			</MetaKeyword>
+			<MetaKeyword>
+				sebum
+			</MetaKeyword>
+			<MetaKeyword>
+				sebaceous
+			</MetaKeyword>
+			<MetaKeyword>
+				adult acne
+			</MetaKeyword>
+			<MetaKeyword>
+				acne vulgaris
+			</MetaKeyword>
+			<MetaKeyword>
+				acne care
+			</MetaKeyword>
+			<MetaKeyword>
+				acne solutions
+			</MetaKeyword>
+			<MetaKeyword>
+				acne scars
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment acne
+			</MetaKeyword>
+			<MetaKeyword>
+				treatments acne
+			</MetaKeyword>
+			<MetaKeyword>
+				solutions acne
+			</MetaKeyword>
+			<MetaKeyword>
+				acne free
+			</MetaKeyword>
+			<MetaKeyword>
+				how to get rid of acne
+			</MetaKeyword>
+			<MetaKeyword>
+				cystic acne
+			</MetaKeyword>
+			<MetaKeyword>
+				pimples
+			</MetaKeyword>
+			<MetaKeyword>
+				zits
+			</MetaKeyword>
+			<MetaKeyword>
+				acne medications
+			</MetaKeyword>
+			<MetaKeyword>
+				severe acne
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. Acne most commonly appears on your face, neck, chest, back and shoulders. Acne can be distressing and annoyingly persistent. Acne lesions heal slowly, and when one begins to resolve, others seem to crop up. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on its severity, acne can cause emotional distress and lead to scarring of the skin. The good news is that effective treatments are available &amp;mdash; and the earlier treatment is started, the lower your risk of lasting physical and emotional damage.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing common acne 
+" Caption="Acne occurs when the openings of hair follicles become clogged and blocked with oil secretions and dead skin cells. If the clogged pore becomes infected with bacteria, inflammation results. 
+" Height="60" Title="Common acne" URI="/images/image_popup/thumbs/sn7_commonacnethu.jpg" Width="60" />
+				<Image Alt="Image showing common acne 
+" Caption="Acne occurs when the openings of hair follicles become clogged and blocked with oil secretions and dead skin cells. If the clogged pore becomes infected with bacteria, inflammation results. 
+" Height="400" Title="Common acne" URI="/images/image_popup/sn7_commonacne.jpg" Width="400" />
+				<HTML>
+					Acne occurs when the openings of hair follicles become clogged and blocked with oil secretions and dead skin cells. If the clogged pore becomes infected with bacteria, inflammation results. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing cystic acne 
+" Caption="Cystic acne &amp;mdash; the most severe form of acne &amp;mdash; occurs when oil and dead skin cells build up deep within hair follicles. The resulting rupture within your skin may form boil-like infections. 
+" Height="60" Title="Cystic acne" URI="/images/image_popup/thumbs/sn7_cysticacnethu.jpg" Width="60" />
+				<Image Alt="Image showing cystic acne 
+" Caption="Cystic acne &amp;mdash; the most severe form of acne &amp;mdash; occurs when oil and dead skin cells build up deep within hair follicles. The resulting rupture within your skin may form boil-like infections. 
+" Height="400" Title="Cystic acne" URI="/images/image_popup/sn7_cysticacne.jpg" Width="400" />
+				<HTML>
+					Cystic acne &amp;mdash; the most severe form of acne &amp;mdash; occurs when oil and dead skin cells build up deep within hair follicles. The resulting rupture within your skin may form boil-like infections. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acne typically appears on your face, neck, chest, back and shoulders, which are the areas of your skin with the largest number of functional oil glands. Acne can take the following forms: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Noninflammatory lesions&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Comedones (whiteheads and blackheads)&lt;/strong&gt; are created when the openings of hair follicles become clogged and blocked with oil secretions, dead skin cells and sometimes bacteria. When comedones (koe-muh-DOE-neez) are open at the skin surface, they&apos;re called blackheads because of the dark appearance of the plugs in the hair follicles. When comedones are closed, they&apos;re called whiteheads &amp;mdash; slightly raised, skin-colored bumps.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Inflammatory lesions&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Papules&lt;/strong&gt; are small raised bumps that signal inflammation or infection in the hair follicles. Papules may be red and tender.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pustules (pimples)&lt;/strong&gt; are red, tender bumps with white pus at their tips.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nodules&lt;/strong&gt; are large, solid, painful lumps beneath the surface of the skin. They&apos;re formed by the buildup of secretions deep within hair follicles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cysts&lt;/strong&gt; are painful, pus-filled lumps beneath the surface of the skin. These boil-like infections can cause scars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Acne usually isn&apos;t a serious medical condition. But you may want to seek medical treatment from a dermatologist for persistent pimples or inflamed cysts to avoid scarring or other damage to your skin. If acne and the scars it may have left are affecting your social relationships or self-esteem, you may also want to ask a dermatologist if your acne can be controlled or if your scars can be diminished.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing common acne 
+" Caption="Acne occurs when the openings of hair follicles become clogged and blocked with oil secretions and dead skin cells. If the clogged pore becomes infected with bacteria, inflammation results. 
+" Height="60" Title="Common acne" URI="/images/image_popup/thumbs/sn7_commonacnethu.jpg" Width="60" />
+				<Image Alt="Image showing common acne 
+" Caption="Acne occurs when the openings of hair follicles become clogged and blocked with oil secretions and dead skin cells. If the clogged pore becomes infected with bacteria, inflammation results. 
+" Height="400" Title="Common acne" URI="/images/image_popup/sn7_commonacne.jpg" Width="400" />
+				<HTML>
+					Acne occurs when the openings of hair follicles become clogged and blocked with oil secretions and dead skin cells. If the clogged pore becomes infected with bacteria, inflammation results. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing cystic acne 
+" Caption="Cystic acne &amp;mdash; the most severe form of acne &amp;mdash; occurs when oil and dead skin cells build up deep within hair follicles. The resulting rupture within your skin may form boil-like infections. 
+" Height="60" Title="Cystic acne" URI="/images/image_popup/thumbs/sn7_cysticacnethu.jpg" Width="60" />
+				<Image Alt="Image showing cystic acne 
+" Caption="Cystic acne &amp;mdash; the most severe form of acne &amp;mdash; occurs when oil and dead skin cells build up deep within hair follicles. The resulting rupture within your skin may form boil-like infections. 
+" Height="400" Title="Cystic acne" URI="/images/image_popup/sn7_cysticacne.jpg" Width="400" />
+				<HTML>
+					Cystic acne &amp;mdash; the most severe form of acne &amp;mdash; occurs when oil and dead skin cells build up deep within hair follicles. The resulting rupture within your skin may form boil-like infections. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Three factors contribute to the formation of acne: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Overproduction of oil (sebum)&lt;/li&gt;
+	&lt;li&gt;Irregular shedding of dead skin cells resulting in irritation of the hair follicles of your skin&lt;/li&gt;
+	&lt;li&gt;Buildup of bacteria&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Acne occurs when the hair follicles become plugged with oil and dead skin cells. Hair follicles are connected to sebaceous glands. These glands secrete an oily substance known as sebum to lubricate your hair and skin. Sebum normally travels up along the hair shafts and then out through the openings of the hair follicles onto the surface of your skin. When your body produces an excess amount of sebum and dead skin cells, the two can build up in the hair follicles and form together as a soft plug, creating an environment where bacteria can thrive. 
+&lt;/p&gt;
+&lt;p&gt;
+This plug may cause the follicle wall to bulge and produce a whitehead. Or, the plug may be open to the surface and may darken, causing a blackhead. Pimples are raised red spots with a white center that develop when blocked hair follicles become inflamed or infected. Blockages and inflammation that develop deep inside hair follicles produce lumps beneath the surface of your skin called cysts. Other pores in your skin, which are the openings of the sweat glands onto your skin, aren&apos;t normally involved in acne. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Factors that may worsen acne&lt;br /&gt;
+&lt;/strong&gt;These factors can trigger or aggravate an existing case of acne: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hormones.&lt;/strong&gt; Androgens are hormones that increase in boys and girls during puberty and cause the sebaceous glands to enlarge and make more sebum. Hormonal changes related to pregnancy and the use of oral contraceptives can also affect sebum production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Drugs containing corticosteroids, androgens or lithium are known to cause acne.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; Studies indicate that certain dietary factors, including dairy products and carbohydrate-rich foods &amp;mdash; such as bread, bagels and chips, which increase blood sugar &amp;mdash; may trigger acne.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Acne myths&lt;br /&gt;
+&lt;/strong&gt;Contrary to what some people think, these factors have little effect on acne: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Greasy foods and chocolate&lt;/strong&gt; have proved to have little to no effect on the development or course of acne.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dirty skin.&lt;/strong&gt; Acne isn&apos;t caused by dirt. In fact, scrubbing the skin too hard or cleansing with harsh soaps or chemicals irritates the skin and can make acne worse. Simple cleansing of the skin to remove excess oil and dead skin cells is all that&apos;s required. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing how acne develops 
+" Caption="Acne develops when an oily substance that lubricates your hair and skin (sebum) plugs the hair follicles. Bacteria can trigger inflammation and infection.
+" Height="60" Title="How acne develops" URI="/images/image_popup/thumbs/sn7_acnethu.jpg" Width="60" />
+				<Image Alt="Image showing how acne develops 
+" Caption="Acne develops when an oily substance that lubricates your hair and skin (sebum) plugs the hair follicles. Bacteria can trigger inflammation and infection.
+" Height="400" Title="How acne develops" URI="/images/image_popup/sn7_acne.jpg" Width="400" />
+				<HTML>
+					Acne develops when an oily substance that lubricates your hair and skin (sebum) plugs the hair follicles. Bacteria can trigger inflammation and infection.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hormonal changes in your body can provoke or aggravate acne. Such changes are common in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Teenagers&lt;/li&gt;
+	&lt;li&gt;Women and girls, two to seven days before their periods&lt;/li&gt;
+	&lt;li&gt;Pregnant women&lt;/li&gt;
+	&lt;li&gt;People using certain medications, including those containing corticosteroids, androgens or lithium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Direct skin contact with greasy or oily substances, or to certain cosmetics applied directly to the skin&lt;/li&gt;
+	&lt;li&gt;A family history of acne &amp;mdash; if your parents had acne, you&apos;re likely to develop it, too&lt;/li&gt;
+	&lt;li&gt;Friction or pressure on your skin caused by various items, such as telephones or cellphones, helmets, tight collars and backpacks&lt;/li&gt;
+	&lt;li&gt;Stress doesn&apos;t cause acne, but if you have acne already, stress may make it worse &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have acne that&apos;s not responding to home and over-the-counter treatments, make an appointment with your doctor. Early, effective treatment of acne reduces the risk of scarring and of lasting damage to your self-esteem. After an initial examination, your doctor may refer you to a specialist in the diagnosis and treatment of skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; such as other conditions with which you&apos;ve been diagnosed and any prescription or over-the-counter medications you&apos;re taking, including vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about acne. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What treatment approach do you recommend for me?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the medications you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How long can I safely use the medications you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How soon after beginning treatment should my symptoms start to improve?&lt;/li&gt;
+	&lt;li&gt;When will you see me again to evaluate whether my treatment is working?&lt;/li&gt;
+	&lt;li&gt;Is it safe to stop my medications if they don&apos;t seem to be working?&lt;/li&gt;
+	&lt;li&gt;Are there any self-care steps I can take to improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any changes to my diet?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any changes to the over-the-counter products I&apos;m using on my skin, including soaps, lotions and cosmetics?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first develop acne?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger an acne flare, such as stress or &amp;mdash; in girls and women &amp;mdash; your menstrual cycle?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including over-the-counter and prescription drugs as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;In girls and women: Do you use oral contraceptives?&lt;/li&gt;
+	&lt;li&gt;In girls and women: Do you have regular menstrual periods?&lt;/li&gt;
+	&lt;li&gt;In girls and women: Are you pregnant, or do you plan to become pregnant soon?&lt;/li&gt;
+	&lt;li&gt;What types of soaps, lotions, hair products or cosmetics do you use?&lt;/li&gt;
+	&lt;li&gt;How is acne affecting your self-esteem and your confidence in social situations?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of acne?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried so far? Have any been effective?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acne treatments work by reducing oil production, speeding up skin cell turnover, fighting bacterial infection, reducing the inflammation or doing all four. With most prescription acne treatments, you may not see results for four to eight weeks, and your skin may get worse before it gets better. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor or dermatologist may recommend a prescription medication you apply to your skin (topical medication) or take by mouth (oral medication). Oral prescription medications for acne should not be used during pregnancy, especially during the first trimester. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of acne treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter topical treatments.&lt;/strong&gt; Acne lotions may dry up the oil, kill bacteria and promote sloughing of dead skin cells. Over-the-counter (OTC) lotions are generally mild and contain benzoyl peroxide, sulfur, resorcinol, salicylic acid or sulfur as their active ingredient. These products can be helpful for very mild acne. OTC acne medications may cause initial side effects &amp;mdash; such as skin irritation, dryness and flaking &amp;mdash; that often improve after the first month of therapy.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Topical treatments available by prescription.&lt;/strong&gt; If your acne doesn&apos;t respond to OTC treatments, consider seeing a doctor or dermatologist to get a stronger prescription lotion. Tretinoin (Avita, Retin-A, others), adapalene (Differin) and tazarotene (Tazorac, Avage) are examples of topical prescription products derived from vitamin A. They work by promoting cell turnover and preventing plugging of the hair follicles. A number of topical antibiotics also are available. They work by killing excess skin bacteria. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Often, a combination of such products is required to achieve optimal results. A number of benzoyl peroxide and antibiotic combination medications are available, including different dose combinations of benzoyl peroxide and clindamycin (Benzaclin, Duac, Acanya) and benzoyl peroxide and erythromycin (Benzamycin). Dapsone gel (Aczone) is a newer acne treatment that&apos;s particularly effective in treating inflammatory acne. Prescription topical treatments for acne may cause skin side effects, such as stinging, burning, redness or peeling. Your doctor may recommend steps to minimize these side effects, including using a gradually increased dose, washing off the medication after a short application or switching to another medication. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; For moderate to severe acne, you may need a short course of prescription oral antibiotics to reduce bacteria and fight inflammation. Since oral antibiotics were first used to treat acne, antibiotic resistance has increased significantly in people with acne. For this reason, your doctor likely will recommend tapering off these medications as soon as your symptoms begin to improve, or as soon as it becomes clear the drugs aren&apos;t helping &amp;mdash; usually, within three to four months. In most cases, you&apos;ll use topical medications and oral antibiotics together. Studies have found that using topical benzoyl peroxide along with oral antibiotics may reduce the risk of developing antibiotic resistance. Antibiotics may cause side effects, such as an upset stomach, dizziness or skin discoloration. These drugs also increase your skin&apos;s sun sensitivity and may reduce the effectiveness of oral contraceptives.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Isotretinoin.&lt;/strong&gt; For deep cysts, antibiotics may not be enough. Isotretinoin (Amnesteem, Claravis, Sotret) is a powerful medication available for scarring cystic acne or acne that doesn&apos;t respond to other treatments. This medicine is reserved for the most severe forms of acne. It&apos;s very effective, but people who take it need close monitoring by a dermatologist because of the possibility of severe side effects. Isotretinoin is associated with severe birth defects, so it can&apos;t be safely taken by pregnant women or women who may become pregnant during the course of treatment or within several weeks of concluding treatment. In fact, the drug carries such serious potential side effects that women of reproductive age must participate in a Food and Drug Administration-approved monitoring program to receive a prescription for the drug.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Isotretinoin commonly causes side effects &amp;mdash; such as dry eyes, mouth, lips, nose and skin, as well as itching, nosebleeds, muscle aches, sun sensitivity and poor night vision. The drug may also increase the levels of triglycerides and cholesterol in the blood and may increase liver enzyme levels. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In addition, isotretinoin may be associated with an increased risk of depression and suicide. Although this causal relationship has not been proved, doctors remain on alert for these signs in people who are taking isotretinoin. If you feel unusually sad or unable to cope while taking this drug, tell your doctor immediately. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral contraceptives.&lt;/strong&gt; Oral contraceptives, including a combination of norgestimate and ethinyl estradiol (Ortho Tri-Cyclen, Previfem, others), can improve acne in women. However, oral contraceptives may cause other side effects &amp;mdash; such as headaches, breast tenderness, nausea and depression &amp;mdash; that you&apos;ll want to discuss with your doctor. The most serious potential complication is a slightly increased risk of heart disease, high blood pressure and blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser and light therapy.&lt;/strong&gt; Laser- and light-based therapies reach the deeper layers of skin without harming the skin&apos;s surface. Laser treatment is thought to damage the oil (sebaceous) glands, causing them to produce less oil. Light therapy targets the bacteria that cause acne inflammation. These therapies can also improve skin texture and lessen the appearance of scars. More research is needed to understand the most effective use of light and laser therapies in acne treatment, and experts currently recommend these approaches as stand-alone therapy only in people who can&apos;t tolerate approved acne medications. These therapies may be uncomfortable and may cause temporary skin problems that mimic a severe sunburn.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cosmetic procedures.&lt;/strong&gt; Chemical peels and microdermabrasion may be helpful in controlling acne. These cosmetic procedures &amp;mdash; which have traditionally been used to lessen the appearance of fine lines, sun damage and minor facial scars &amp;mdash; are most effective when used in combination with other acne treatments. They may cause temporary, severe redness, scaling and blistering, and long-term discoloration of the skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Acne scar treatment&lt;br /&gt;
+&lt;/strong&gt;Doctors may be able to use certain procedures to diminish scars left by acne. These include fillers, dermabrasion, intense light therapy and laser resurfacing. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Soft tissue fillers.&lt;/strong&gt; Collagen or fat can be injected under the skin and into scars to fill out or stretch the skin, making the scars less noticeable. Results from this acne scar treatment are temporary, so you need to repeat the injections periodically.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical peels.&lt;/strong&gt; High-potency acid is applied to your skin to remove the top layer and minimize deeper scars. Some stronger peels reach even deeper into the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dermabrasion.&lt;/strong&gt; Usually reserved for more severe scarring, dermabrasion involves removing the top layer of skin with a rapidly rotating wire brush. Surface scars may be completely removed, and deeper acne scars may appear less noticeable. Dermabrasion may cause pigmentation changes for people with darker skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Microdermabrasion.&lt;/strong&gt; This newer acne scar treatment involves a hand-held device that blows crystals onto skin. These crystals gently abrade or &quot;polish&quot; the skin&apos;s surface. Then, a vacuum tube removes the crystals and skin cells. Because just the surface cells are removed, the skin isn&apos;t damaged. However, results are subtle and scars may still be noticeable, even after several sessions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser, light source and radiofrequency treatments.&lt;/strong&gt; In laser resurfacing, a laser beam destroys the outer layer of skin (epidermis) and heats the underlying skin (dermis). As the wound heals, new skin forms. Less intense lasers (nonablative lasers), pulsed light sources and radiofrequency devices don&apos;t injure the epidermis. These treatments heat the dermis and cause new skin formation. After several treatments, acne scars may appear less noticeable. This means shorter recovery times, but treatment typically needs to be repeated more often and results are subtle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin surgery.&lt;/strong&gt; A minor procedure (punch excision) cuts out individual acne scars. Stitches or a skin graft repairs the hole left at the scar site.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can avoid or control most acne with good basic skin care and the following self-care techniques: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash problem areas with a gentle cleanser.&lt;/strong&gt; Products such as facial scrubs, astringents and masks generally aren&apos;t recommended because they tend to irritate skin, which can worsen acne. Excessive washing and scrubbing also can irritate skin. If you tend to develop acne around your hairline, shampoo your hair frequently.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter acne lotion to dry excess oil and promote peeling.&lt;/strong&gt; Look for products containing benzoyl peroxide or salicylic acid as the active ingredient.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; You may want to avoid oily or greasy cosmetics, sunscreens, hairstyling products or acne concealers. Use products labeled &quot;water-based&quot; or &quot;noncomedogenic.&quot; For some people, the sun worsens acne. Additionally, some acne medications can make you more susceptible to the sun&apos;s rays. Check with your doctor to see if your medication is one of these, and if so, stay out of the sun as much as possible and anytime you have to be in the sun, use sunscreen that doesn&apos;t clog your pores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what touches your face.&lt;/strong&gt; Keep your hair clean and off your face. Also avoid resting your hands or objects, such as telephone receivers, on your face. Tight clothing or hats also can pose a problem, especially if you&apos;ll be sweating. Sweat, dirt and oils can contribute to acne.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t pick or squeeze blemishes.&lt;/strong&gt; Picking or squeezing can cause infection or scarring. If you need aggressive treatment, see your doctor or dermatologist.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some studies suggest that taking the following supplements may help treat acne: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tea tree oil.&lt;/strong&gt; Gels containing 5 percent tea tree oil may be as effective as are lotions containing 5 percent benzoyl peroxide, although tea tree oil might work more slowly. Tea tree oil may cause a skin reaction known as contact dermatitis. There&apos;s also some concern that topical products containing tea tree oil might cause breast development in young boys. Don&apos;t use tea tree oil if you have acne rosacea because it can worsen symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha hydroxy acids.&lt;/strong&gt; These natural acids &amp;mdash; found in foods such as citrus fruits, sugar cane, apples and grapes &amp;mdash; help remove dead skin cells and unclog pores when applied topically. Alpha hydroxy acids may also improve the appearance of acne scars. Adverse reactions to alpha hydroxy acids include redness, mild stinging and skin irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Azelaic acid.&lt;/strong&gt; This naturally occurring acid is found in whole-grain cereals and animal products and has antibacterial properties. A 20 percent azelaic acid cream seems to be as effective as many other conventional acne treatments, including 5 percent benzoyl peroxide and oral tetracycline.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Zinc supplements.&lt;/strong&gt; The mineral zinc plays a role in wound healing and reduces inflammation, which could help improve acne. Taking a zinc supplement with food may reduce side effects, including a bad taste in your mouth and nausea. Zinc can also be added to lotions or creams and may reduce acne breakouts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brewer&apos;s yeast.&lt;/strong&gt; A specific strain of brewer&apos;s yeast, called CBS 5926, seems to help decrease acne. Brewer&apos;s yeast may cause migraines in susceptible people and may cause intestinal upset.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More research is needed to understand the potential role of these and other dietary supplements in the treatment of acne. 
+&lt;/p&gt;
+&lt;p&gt;
+Always talk with your doctor before trying a natural remedy. Dietary supplements can cause side effects and may alter the safety and effectiveness of certain medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once your acne improves or clears, you may need to continue your acne medication or other treatment to prevent new acne breakouts. In some cases, you might need to use a topical medication on acne-prone areas, continue taking oral contraceptives or attend ongoing light therapy sessions to keep your skin clear. Talk to your doctor about how you can prevent new eruptions. 
+&lt;/p&gt;
+&lt;p&gt;
+You can also prevent new acne breakouts with self-care measures, such as washing your skin with a gentle cleanser and avoiding touching or picking at the problem areas. Other acne-prevention tips include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash acne-prone areas only twice a day.&lt;/strong&gt; Washing removes excess oil and dead skin cells. But too much washing can irritate the skin. Wash areas with a gentle cleanser and use oil-free, water-based skin care products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use an over-the-counter acne cream or gel to help dry excess oil.&lt;/strong&gt; Look for products containing benzoyl peroxide or salicylic acid as the active ingredient.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid heavy foundation makeup.&lt;/strong&gt; Choose powder cosmetics over cream products because they&apos;re less irritating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove makeup before going to bed.&lt;/strong&gt; Going to sleep with cosmetics on your skin can clog tiny openings of the hair follicles (pores). Also, be sure to throw out old makeup and clean your cosmetic brushes and applicators regularly with soapy water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear loosefitting clothing.&lt;/strong&gt; Tightfitting clothing traps heat and moisture and can irritate your skin. Also, whenever possible, avoid tightfitting straps, backpacks, helmets or sports equipment to prevent friction against your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shower after exercising or doing strenuous work.&lt;/strong&gt; Oil and sweat on your skin can trap dirt and bacteria.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acne
+	</Title>
+	<Abstract>
+		Acne &amp;mdash; Comprehensive overview covers causes, acne treatments, and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00818" LinkType="Internal" ObjectID="C17C47BA-E7FF-0DBD-1B9FF3B89B16C294" Title="Hidradenitis suppurativa" Url="http://www.mayoclinic.com/health/hidradenitis-suppurativa/DS00818" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02019" LinkType="Internal" ObjectID="A17FD5F4-0368-EB6D-C682D15494E9D436" Title="Chemical peel" Url="http://www.mayoclinic.com/health/chemical-peel/MY02019" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02017" LinkType="Internal" ObjectID="A17AC65B-B476-506E-F9A111DA92E98CA4" Title="Dermabrasion" Url="http://www.mayoclinic.com/health/dermabrasion/MY02017" />
+		<LinkItem ContentType="Answer" DocID="AN02106" LinkType="Internal" ObjectID="4CD7951E-E4A3-AB95-961F4C48E0073E2A" Title="Pregnancy acne: What&apos;s the best treatment?" Url="http://www.mayoclinic.com/health/pregnancy-acne/AN02106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00560" LinkType="Internal" ObjectID="4C6589A4-D708-3450-0D8FE75D27CACA0A" Title="Laser resurfacing" Url="http://www.mayoclinic.com/health/laser-resurfacing/MY00560" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Answer" DocID="AN01716" LinkType="Internal" ObjectID="FA6C603F-E7FF-0DBD-1B9FB80FA60E4697" Title="Natural acne treatment: What&apos;s most effective?" Url="http://www.mayoclinic.com/health/natural-acne-treatment/AN01716" />
+		<LinkItem ContentType="Answer" DocID="AN01762" LinkType="Internal" ObjectID="ABD236EF-E7FF-0DBD-1382AC3A91DC0A9C" Title="Adult acne: Can natural hormone treatments help?" Url="http://www.mayoclinic.com/health/adult-acne/AN01762" />
+		<LinkItem ContentType="Answer" DocID="AN02016" LinkType="Internal" ObjectID="324520C7-B7C9-CD4F-2288B0A0B05269F3" Title="Birth control pills for acne?" Url="http://www.mayoclinic.com/health/birth-control-pills-for-acne/AN02016" />
+		<LinkItem ContentType="Answer" DocID="AN01835" LinkType="Internal" ObjectID="0F62BDED-E7FF-0DBD-158CCC229E57482A" Title="Acne scars: What&apos;s the best treatment?" Url="http://www.mayoclinic.com/health/acne-scars/AN01835" />
+		<LinkItem ContentType="Article" DocID="SN00038" LinkType="Internal" ObjectID="6F661AD5-2A5D-9994-E5896F460E694B4B" Title="Acne treatments: Medical procedures may help clear skin" Url="http://www.mayoclinic.com/health/acne-treatments/SN00038" />
+		<LinkItem ContentType="Article" DocID="SN00039" LinkType="Internal" ObjectID="6BB65C35-2A5D-9994-E2DB4E058F7EDD9E" Title="Over-the-counter acne products: What works and why" Url="http://www.mayoclinic.com/health/acne-products/SN00039" />
+	</RelatedLinksBox>
+</Disease>

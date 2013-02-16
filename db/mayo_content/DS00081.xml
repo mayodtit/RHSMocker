@@ -1,0 +1,285 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00081
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/influenza/DS00081
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-20
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1594" Title="Influenza" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5CB89570-8B46-4961-8BFE66D06D5BDD1B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				influenza
+			</MetaKeyword>
+			<MetaKeyword>
+				flu
+			</MetaKeyword>
+			<MetaKeyword>
+				flu shot
+			</MetaKeyword>
+			<MetaKeyword>
+				flu vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				flue
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Influenza is a viral infection that attacks your respiratory system &amp;mdash; your nose, throat and lungs. Influenza, commonly called the flu, is not the same as the stomach &quot;flu&quot; viruses that cause diarrhea and vomiting. 
+&lt;/p&gt;
+&lt;p&gt;
+Influenza and its complications can be deadly. People at higher risk of developing flu complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Young children&lt;/li&gt;
+	&lt;li&gt;Older adults&lt;/li&gt;
+	&lt;li&gt;Pregnant women&lt;/li&gt;
+	&lt;li&gt;People with weakened immune systems&lt;/li&gt;
+	&lt;li&gt;People who have chronic illnesses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your best defense against influenza is to receive an annual vaccination. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Initially, the flu may seem like a common cold with a runny nose, sneezing and sore throat. But colds usually develop slowly, whereas the flu tends to come on suddenly. And although a cold can be a nuisance, you usually feel much worse with the flu. 
+&lt;/p&gt;
+&lt;p&gt;
+Common signs and symptoms of the flu include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever over 100 F (38 C)&lt;/li&gt;
+	&lt;li&gt;Aching muscles, especially in your back, arms and legs&lt;/li&gt;
+	&lt;li&gt;Chills and sweats&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Fatigue and weakness&lt;/li&gt;
+	&lt;li&gt;Nasal congestion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have flu symptoms and are at risk of complications, see your doctor right away. Taking antiviral drugs within the first 48 hours after you first notice symptoms may reduce the length of your illness and help prevent more-serious problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Flu viruses travel through the air in droplets when someone with the infection coughs, sneezes or talks. You can inhale the droplets directly, or you can pick up the germs from an object &amp;mdash; such as a telephone or computer keyboard &amp;mdash; and then transfer them to your eyes, nose or mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+Influenza viruses are constantly changing, with new strains appearing regularly. If you&apos;ve had influenza in the past, your body has already made antibodies to fight that particular strain of the virus. If future influenza viruses are similar to what you had before, either by having the disease or by vaccination, those antibodies may prevent infection or lessen its severity. 
+&lt;/p&gt;
+&lt;p&gt;
+But antibodies against flu viruses you&apos;ve encountered in the past can&apos;t protect you from new influenza subtypes that are very different immunologically from what you had before. Four such different (novel) virus subtypes have appeared in humans since the global epidemic (pandemic) of 1918, which killed tens of millions of people. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing influenza or its complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Seasonal influenza tends to target young children and people over 65. The pandemic H1N1 virus that surfaced in 2009, however, appeared to be most common in teenagers and young adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupation.&lt;/strong&gt; Health care workers and child care personnel are more likely to have close contact with people infected with influenza.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living conditions.&lt;/strong&gt; People who live in facilities along with many other residents, such as nursing homes or military barracks, are more likely to develop influenza.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; Cancer treatments, anti-rejection drugs, corticosteroids and HIV/AIDS can weaken your immune system. This can make it easier for you to catch influenza and may also increase your risk of developing complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic illnesses.&lt;/strong&gt; Chronic conditions, such as asthma, diabetes or heart problems, may increase your risk of influenza complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Pregnant women are more likely to develop influenza complications, particularly in the second and third trimesters.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re young and healthy, seasonal influenza usually isn&apos;t serious. Although you may feel miserable while you have it, the flu usually goes away with no lasting effects. But high-risk children and adults may develop complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Bronchitis&lt;/li&gt;
+	&lt;li&gt;Sinus infections&lt;/li&gt;
+	&lt;li&gt;Ear infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pneumonia is the most common and most serious. For older adults and people with a chronic illness, pneumonia can be deadly. The best protection is vaccination against both pneumococcal pneumonia and influenza. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Usually, you&apos;ll need nothing more than bed rest and plenty of fluids to treat the flu. But in some cases, your doctor may prescribe an antiviral medication, such as oseltamivir (Tamiflu) or zanamivir (Relenza). If taken soon after you notice symptoms, these drugs may shorten your illness by a day or so and help prevent serious complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Oseltamivir is an oral medication. Zanamivir is inhaled through a device similar to an asthma inhaler and shouldn&apos;t be used by anyone with respiratory problems, such as asthma and lung disease. Antiviral side effects may include nausea and vomiting. Oseltamivir has also been associated with delirium and self-harm behaviors in teenagers. 
+&lt;/p&gt;
+&lt;p&gt;
+Some strains of influenza have become resistant to oseltamivir and to amantadine, which is an older antiviral drug. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you do come down with the flu, these measures may help ease your symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids.&lt;/strong&gt; Choose water, juice and warm soups to prevent dehydration. Drink enough so that your urine is clear or pale yellow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Get more sleep to help your immune system fight infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider pain relievers.&lt;/strong&gt; Use an over-the-counter pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others), to combat the achiness associated with influenza. Don&apos;t give aspirin to children or teens because of the risk of Reye&apos;s syndrome, a rare but potentially fatal disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The Centers for Disease Control and Prevention now recommends annual flu vaccination for all Americans over the age of 6 months. 
+&lt;/p&gt;
+&lt;p&gt;
+Each year&apos;s seasonal flu vaccine contains protection from the three influenza viruses that are expected to be the most common during that year&apos;s flu season. The vaccine is typically available as an injection or as a nasal spray. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Controlling the spread of infection&lt;/strong&gt; &lt;br /&gt;
+The influenza vaccine isn&apos;t 100 percent effective, so it&apos;s also important to take measures to reduce the spread of infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Thorough and frequent hand-washing is the best way to prevent many common infections. Scrub your hands vigorously for at least 15 seconds. Or use alcohol-based hand sanitizers if soap and water aren&apos;t readily available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contain your coughs and sneezes.&lt;/strong&gt; Cover your mouth and nose when you sneeze or cough. To avoid contaminating your hands, cough or sneeze into a tissue or into the inner crook of your elbow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid crowds.&lt;/strong&gt; Flu spreads easily wherever people congregate &amp;mdash; in child care centers, schools, office buildings, auditoriums and public transportation. By avoiding crowds during peak flu season, you reduce your chances of infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Influenza (flu)
+	</Title>
+	<Abstract>
+		Influenza &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention and self-care of the flu.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02035" LinkType="Internal" ObjectID="DE56047D-E433-C93E-10ADFA3ED4A40D05" Title="Flu mask: Should I wear one?" Url="http://www.mayoclinic.com/health/flu-mask/AN02035" />
+		<LinkItem ContentType="Answer" DocID="AN02034" LinkType="Internal" ObjectID="DE53A8C6-016A-7AA9-C1D8D5A0B27014B5" Title="Flu symptoms: Self-care for the flu" Url="http://www.mayoclinic.com/health/swine-flu-symptoms/AN02034" />
+		<LinkItem ContentType="Answer" DocID="AN02033" LinkType="Internal" ObjectID="C9C8E8ED-C14F-ECCE-A9DCBC0BDECF2608" Title="Flu vaccine: Safe for people with egg allergy?" Url="http://www.mayoclinic.com/health/flu-vaccine-egg-allergy/AN02033" />
+		<LinkItem ContentType="Answer" DocID="AN02041" LinkType="Internal" ObjectID="B659EB88-09E2-708B-ED5C810B3C72C0DB" Title="What&apos;s the difference between H1N1 flu and influenza A?" Url="http://www.mayoclinic.com/health/influenza-a/AN02041" />
+		<LinkItem ContentType="Article" DocID="MY00675" LinkType="Internal" ObjectID="ED89FA7E-E747-57F6-4AC2FB8C523175DF" Title="H1N1 flu (swine flu): What&apos;s happening now" Url="http://www.mayoclinic.com/health/swine-flu/MY00675" />
+		<LinkItem ContentType="Disease" DocID="DS01144" LinkType="Internal" ObjectID="ED85EF12-D20D-C00F-95E27F2334B0258D" Title="Swine flu (H1N1 flu)" Url="http://www.mayoclinic.com/health/swine-flu/DS01144" />
+		<LinkItem ContentType="Disease" DocID="DS00566" LinkType="Internal" ObjectID="38B600EE-82BE-425D-A857F9E9F51D69E6" Title="Bird flu (avian influenza)" Url="http://www.mayoclinic.com/health/bird-flu/DS00566" />
+		<LinkItem ContentType="Table" DocID="ID00052" LinkType="Internal" ObjectID="D4B6C0FD-E7FF-0DBD-1A596B7BF40D94B8" Title="Fever treatment: Quick guide to treating a fever" Url="http://www.mayoclinic.com/health/fever/ID00052" />
+		<LinkItem ContentType="Answer" DocID="AN02177" LinkType="Internal" ObjectID="A0AD14E9-9C6D-449F-29F7CA3E69C8F2BC" Title="Flu and pregnancy: Is antiviral medication safe?" Url="http://www.mayoclinic.com/health/flu-and-pregnancy/AN02177" />
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Article" DocID="CC00059" LinkType="Internal" ObjectID="0F9A2891-96D3-4EC6-B538CC5C89926A4E" Title="Staying healthy in school: Kid-friendly tips" Url="http://www.mayoclinic.com/health/childrens-conditions/CC00059" />
+		<LinkItem ContentType="Article" DocID="MY02043" LinkType="Internal" ObjectID="07B557F4-A2B9-043C-78D72A34E46D527E" Title="Breast-feeding and medications: What&apos;s safe?" Url="http://www.mayoclinic.com/health/breastfeeding-and-medications/MY02043" />
+		<LinkItem ContentType="Answer" DocID="AN02149" LinkType="Internal" ObjectID="7EA8FEFA-0BD9-FA88-25F60FD3C7098E38" Title="Fluzone High-Dose: What distinguishes it from other flu vaccines?" Url="http://www.mayoclinic.com/health/fluzone/AN02149" />
+		<LinkItem ContentType="SelfAssessment" DocID="FU00013" LinkType="Internal" ObjectID="491D1E3C-E7FF-0DBD-1F7CA70710272614" Title="Flu symptoms self-assessment: Do you have the flu?" Url="http://www.mayoclinic.com/health/flu-symptoms/FU00013" />
+		<LinkItem ContentType="Answer" DocID="AN01238" LinkType="Internal" ObjectID="35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D" Title="Flu germs: How long can they live outside the body?" Url="http://www.mayoclinic.com/health/infectious-disease/AN01238" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+		<LinkItem ContentType="Article" DocID="ID00017" LinkType="Internal" ObjectID="DF0C9B47-E104-40E7-99D4923ED6D7FD1E" Title="Flu shot: Your best bet for avoiding influenza" Url="http://www.mayoclinic.com/health/flu-shots/ID00017" />
+	</RelatedLinksBox>
+</Disease>

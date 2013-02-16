@@ -1,0 +1,389 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00473
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/swimmers-ear/DS00473
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-15
+		</UpdateDate>
+		<PublicationDate>
+			2002-12-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="1783" Title="Ear infections">
+							<Keyword MCVID="2461" Title="Swimmer&apos;s ear" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3276" Title="Summer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			175EBBB9-3436-4B88-B7AC655D9A36341F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				swimmer&apos;s ear
+			</MetaKeyword>
+			<MetaKeyword>
+				otitis externa
+			</MetaKeyword>
+			<MetaKeyword>
+				external otitis
+			</MetaKeyword>
+			<MetaKeyword>
+				outer ear infection
+			</MetaKeyword>
+			<MetaKeyword>
+				swimmers ear
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s ear is an infection in the outer ear canal, which runs from your eardrum to the outside of your head. It&apos;s often brought on by water that remains in your ear after swimming, creating a moist environment that aids bacterial growth.
+&lt;/p&gt;
+&lt;p&gt;
+Putting fingers, cotton swabs or other objects in your ears also can lead to swimmer&apos;s ear by damaging the thin layer of skin lining your ear canal.
+&lt;/p&gt;
+&lt;p&gt;
+Swimmer&apos;s ear is also known as acute external otitis or otitis externa. The most common cause of this infection is bacteria invading the skin inside your ear canal. Swimmer&apos;s ear is usually treated successfully with eardrops. Prompt treatment can help prevent complications and more-serious infections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s ear symptoms are usually mild at first, but they may get worse if your infection isn&apos;t treated or spreads. Doctors often classify swimmer&apos;s ear according to mild, moderate and advanced stages of progression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mild signs and symptoms&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching in your ear canal&lt;/li&gt;
+	&lt;li&gt;Slight redness inside your ear&lt;/li&gt;
+	&lt;li&gt;Mild discomfort that&apos;s made worse by pulling on your outer ear (pinna, or auricle) or pushing on the little &quot;bump&quot; (tragus) in front of your ear&lt;/li&gt;
+	&lt;li&gt;Some drainage of clear, odorless fluid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Moderate progression&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;More intense itching&lt;/li&gt;
+	&lt;li&gt;Increasing pain&lt;/li&gt;
+	&lt;li&gt;More extensive redness in your ear&lt;/li&gt;
+	&lt;li&gt;Excessive fluid drainage&lt;/li&gt;
+	&lt;li&gt;Discharge of pus&lt;/li&gt;
+	&lt;li&gt;Feeling of fullness inside your ear and partial blockage of your ear canal by swelling, fluid and debris&lt;/li&gt;
+	&lt;li&gt;Decreased or muffled hearing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Advanced progression&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain that may radiate to your face, neck or side of your head&lt;/li&gt;
+	&lt;li&gt;Complete blockage of your ear canal&lt;/li&gt;
+	&lt;li&gt;Redness or swelling of your outer ear&lt;/li&gt;
+	&lt;li&gt;Swelling in the lymph nodes in your neck&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Contact your doctor if&lt;/strong&gt; you&apos;re experiencing any signs or symptoms of swimmer&apos;s ear, even if they&apos;re mild. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Call your doctor right away&lt;/strong&gt; or visit the emergency room if you have severe pain or a fever. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing outer ear infection 
+" Caption="Redness of the ear canal, draining fluids and discharge of pus are signs of swimmer&apos;s ear (otitis externa). Untreated, the infection can spread to nearby tissue and bone. 
+" Height="60" Title="Outer ear infection" URI="/images/image_popup/thumbs/r7_outerearthu.jpg" Width="60" />
+				<Image Alt="Illustration showing outer ear infection 
+" Caption="Redness of the ear canal, draining fluids and discharge of pus are signs of swimmer&apos;s ear (otitis externa). Untreated, the infection can spread to nearby tissue and bone. 
+" Height="554" Title="Outer ear infection " URI="/images/image_popup/r7_outerear.jpg" Width="400" />
+				<HTML>
+					Redness of the ear canal, draining fluids and discharge of pus are signs of swimmer&apos;s ear (otitis externa). Untreated, the infection can spread to nearby tissue and bone. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s ear is an infection that&apos;s usually caused by bacteria commonly found in water and soil. Infections caused by a fungus or a virus are less common. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your ear&apos;s natural defenses&lt;/strong&gt; &lt;br /&gt;
+Your outer ear canals have natural defenses that help keep them clean and prevent infection. Protective features include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Glands that secrete a waxy substance (cerumen).&lt;/strong&gt; These secretions form a thin, water-repellant film on the skin inside your ear. Cerumen is also slightly acidic, which helps further discourage bacterial growth. In addition, cerumen collects dirt, dead skin cells and other debris and helps move these particles out of your ear. The waxy clump that results is the familiar earwax you find at the opening of your ear canal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Downward slope of your ear canal.&lt;/strong&gt; Your ear canal slopes down slightly from your middle ear to your outer ear, helping water drain out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How the infection occurs&lt;/strong&gt; &lt;br /&gt;
+If you have swimmer&apos;s ear, your natural defenses have been overwhelmed. Conditions that can weaken your ear&apos;s defenses and promote bacterial growth include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excess moisture in your ear.&lt;/strong&gt; Heavy perspiration, prolonged humid weather or water that remains in your ear after swimming can create a favorable environment for bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scratches or abrasions in your ear canal.&lt;/strong&gt; Cleaning your ear with a cotton swab or hairpin, scratching inside your ear with a finger, or wearing headphones or hearing aids can cause small breaks in the skin that allow bacteria to grow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensitivity reactions.&lt;/strong&gt; Hair products or jewelry can cause allergies and skin conditions that promote infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of swimmer&apos;s ear include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swimming&lt;/li&gt;
+	&lt;li&gt;Swimming in water with elevated bacteria levels, such as a lake rather than a well-maintained pool&lt;/li&gt;
+	&lt;li&gt;A narrow ear canal &amp;mdash; for example, in a child &amp;mdash; that can more easily trap water&lt;/li&gt;
+	&lt;li&gt;Excessive earwax production&lt;/li&gt;
+	&lt;li&gt;Aggressive cleaning of the ear canal with cotton swabs or other objects&lt;/li&gt;
+	&lt;li&gt;Use of devices such as headphones, a hearing aid or a swim cap&lt;/li&gt;
+	&lt;li&gt;Skin allergies or irritation from jewelry, hair spray or hair dyes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s ear usually isn&apos;t serious if treated promptly, but complications can occur: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Temporary hearing loss.&lt;/strong&gt; You may experience muffled hearing that usually gets better after the infection clears up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-term infection (chronic otitis externa).&lt;/strong&gt; An outer ear infection is usually considered chronic if signs and symptoms persist for more than three months. Chronic infections are more common if there are conditions that make treatment difficult, such as a rare strain of bacteria, an allergic skin reaction, an allergic reaction to antibiotic eardrops, or a combination of a bacterial and fungal infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deep-tissue infection (cellulitis).&lt;/strong&gt; Chronic swimmer&apos;s ear may result in the spread of infection into deep layers and connective tissues of the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone and cartilage damage (necrotizing otitis externa).&lt;/strong&gt; An outer ear infection that spreads can cause inflammation and damage to the skin and cartilage of the outer ear and bones of the lower part of the skull, causing increasingly severe pain. Older adults, people with diabetes or people with weakened immune systems are at increased risk of this complication. Necrotizing otitis externa is also known as malignant otitis externa, but it&apos;s not a cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;More widespread infection.&lt;/strong&gt; If swimmer&apos;s ear develops into necrotizing otitis externa, the infection may spread and affect other parts of your body, such as the brain or nearby nerves. This rare complication can be life-threatening.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to prepare in advance. Here are some suggestions to help you get ready for your appointment and understand what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, ask if you need to fast for blood work or if there&apos;s anything else you need to do to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all the symptoms you&apos;re experiencing and when they started.&lt;/strong&gt; Include any that may seem unrelated to problems with your ears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; including any over-the-counter drugs and vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any known allergies,&lt;/strong&gt; such as skin reactions or drug allergies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re experiencing any signs or symptoms of swimmer&apos;s ear, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing problems with my ear?&lt;/li&gt;
+	&lt;li&gt;What is the best treatment?&lt;/li&gt;
+	&lt;li&gt;When should I expect improvement?&lt;/li&gt;
+	&lt;li&gt;Are there treatment side effects I should watch for? Should I notify you if they occur?&lt;/li&gt;
+	&lt;li&gt;Do I need to make a follow-up appointment?&lt;/li&gt;
+	&lt;li&gt;If I have swimmer&apos;s ear, how can I prevent getting it again?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared in advance, don&apos;t hesitate to ask questions about anything that comes up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse?&lt;/li&gt;
+	&lt;li&gt;Have you been swimming lately?&lt;/li&gt;
+	&lt;li&gt;Do you swim often?&lt;/li&gt;
+	&lt;li&gt;Where do you swim?&lt;/li&gt;
+	&lt;li&gt;Have you ever had swimmer&apos;s ear before?&lt;/li&gt;
+	&lt;li&gt;Do you have any allergies or chronic skin conditions?&lt;/li&gt;
+	&lt;li&gt;Do you use cotton swabs or other objects to clean your ears?&lt;/li&gt;
+	&lt;li&gt;Do you use headphones or any other ear devices?&lt;/li&gt;
+	&lt;li&gt;Have you had any other recent ear examinations or procedures?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors can usually diagnose swimmer&apos;s ear during an office visit. If your infection is at an advanced stage or persists, you may need further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial testing&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely diagnose swimmer&apos;s ear based on symptoms you report, questions he or she asks and an office examination. You probably won&apos;t need a lab test at your first visit. Your doctor&apos;s initial evaluation will include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examination of your ear canal &lt;/strong&gt;with a lighted instrument (otoscope). Your ear canal may appear red, swollen and scaly. Flakes of skin and other debris may be present in the ear canal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visualization of your eardrum (tympanic membrane)&lt;/strong&gt; to be sure it isn&apos;t torn or damaged. If the view of your eardrum is blocked, your doctor will clear your ear canal with a small suction device or an instrument with a tiny loop or scoop on the end (ear curette).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Further testing&lt;/strong&gt; &lt;br /&gt;
+Depending on initial assessment, symptom severity or the stage of your swimmer&apos;s ear, your doctor may recommend additional evaluation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If your eardrum is damaged or torn,&lt;/strong&gt; your doctor will likely refer you to an ear, nose and throat specialist (ENT, or otolaryngologist). The specialist will examine the condition of your middle ear to determine if that&apos;s the primary site of infection. This examination is important because some treatments intended for an infection in the outer ear canal aren&apos;t appropriate for treating the middle ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If your infection doesn&apos;t respond to treatment,&lt;/strong&gt; your doctor may take a sample of discharge or debris from your ear at a later appointment and send it to a lab to identify the exact microorganism causing your infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to stop the infection and allow your ear canal to heal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cleaning&lt;/strong&gt; &lt;br /&gt;
+Cleaning your outer ear canal is necessary to help eardrops flow to all infected areas. Your doctor will use a suction device or ear curette to clean away any discharge, clumps of earwax, flaky skin and other debris. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for infection&lt;/strong&gt; &lt;br /&gt;
+For most cases of swimmer&apos;s ear, your doctor will prescribe eardrops that have some combination of the following ingredients, depending on the type and seriousness of your infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acidic solution&lt;/strong&gt; to help restore your ear&apos;s normal antibacterial environment&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid&lt;/strong&gt; to reduce inflammation&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic&lt;/strong&gt; to fight bacteria&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antifungal medication&lt;/strong&gt; to fight an infection caused by a fungus &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your doctor about the best method for taking your eardrops. Some ideas that may help you use eardrops include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce the discomfort of cool drops&lt;/strong&gt; by holding the bottle in your hand for a few minutes to bring the temperature closer to body temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lie on your side with your infected ear up&lt;/strong&gt; to help medication travel through the full length of your ear canal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If possible, have someone help you&lt;/strong&gt; put the drops in your ear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your ear canal is completely blocked by swelling, inflammation or excess discharge, your doctor may insert a wick made of cotton or gauze to promote drainage and help draw medication into your ear canal. 
+&lt;/p&gt;
+&lt;p&gt;
+If your infection is more advanced or doesn&apos;t respond to treatment with eardrops, your doctor may prescribe oral antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for pain&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend easing the discomfort of swimmer&apos;s ear with over-the-counter pain relievers, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others), or acetaminophen (Tylenol, others). 
+&lt;/p&gt;
+&lt;p&gt;
+If your pain is severe or your swimmer&apos;s ear is at a more advanced stage, your doctor may prescribe a stronger medication for pain relief. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Helping your treatment work&lt;/strong&gt; &lt;br /&gt;
+During treatment, the following steps will help keep your ears dry and avoid further irritation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t swim or scuba dive.&lt;/li&gt;
+	&lt;li&gt;Avoid flying.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t wear an earplug, hearing aid or headphones before pain or discharge has stopped.&lt;/li&gt;
+	&lt;li&gt;Avoid getting water in your ear canal when bathing. Use a cotton ball coated with petroleum jelly to protect your ear during a bath.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow these tips to avoid swimmer&apos;s ear: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your ears dry.&lt;/strong&gt; Dry your ears thoroughly after exposure to moisture from swimming or bathing. Dry only your outer ear, wiping it slowly and gently with a soft towel or cloth. Tip your head to the side to help water drain from your ear canal. You can dry your ears with a blow-dryer if you put it on the lowest setting and hold it at least a foot (0.3 meters) away from the ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;At-home preventive treatment.&lt;/strong&gt; If you know you don&apos;t have a punctured eardrum, you can use homemade preventive eardrops before and after swimming. A mixture of 1 part white vinegar and 1 part rubbing alcohol may help promote drying and prevent the growth of bacteria and fungi that can cause swimmer&apos;s ear. Pour 1 teaspoon (5 milliliters) of the solution into each ear and let it drain back out. Similar over-the-counter solutions may be available at your drugstore.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swim wisely.&lt;/strong&gt; Watch for signs alerting swimmers to high bacterial counts and don&apos;t swim on those days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid putting foreign objects in your ear.&lt;/strong&gt; Never attempt to scratch an itch or dig out earwax with items such as a cotton swab, paper clip or hairpin. Using these items can pack material deeper into your ear canal, irritate the thin skin inside your ear or break the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your ears from irritants.&lt;/strong&gt; Put cotton balls in your ears while applying products such as hair sprays and hair dyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution after an ear infection or surgery.&lt;/strong&gt; If you&apos;ve recently had an ear infection or ear surgery, talk to your doctor before you go swimming.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Swimmer&apos;s ear
+	</Title>
+	<Abstract>
+		Swimmer&apos;s ear &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this outer ear infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00303" LinkType="Internal" ObjectID="26E2955E-F791-43E3-BDA4C0F4182A9376" Title="Ear infection (middle ear)" Url="http://www.mayoclinic.com/health/ear-infections/DS00303" />
+	</RelatedLinksBox>
+</Disease>

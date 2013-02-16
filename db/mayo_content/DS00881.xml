@@ -1,0 +1,304 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00881
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mesenteric-lymphadenitis/DS00881
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-04
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="2571" Title="Lymphadenitis">
+						<Keyword MCVID="2572" Title="Mesenteric lymphadenitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8A3B9939-E7FF-0DBD-1FF1260DE604779B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mesenteric lymphadenitis
+			</MetaKeyword>
+			<MetaKeyword>
+				mesenteric adenitis
+			</MetaKeyword>
+			<MetaKeyword>
+				adenitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lymphadenitis is a condition in which your lymph nodes &amp;mdash; tissues that help your body fight off illness &amp;mdash; become inflamed. Mesenteric lymphadenitis (mez-un-TER-ik lim-fad-uh-NIE-tis) is an inflammation of the lymph nodes in the membrane that attaches your intestine, or bowel, to your abdominal wall (mesentery). Mesenteric lymphadenitis usually results from an intestinal infection. 
+&lt;/p&gt;
+&lt;p&gt;
+There are about 26 feet of bowel in your abdominal cavity. The bowel is the only organ in your body that &quot;is free to move about its cavity,&quot; but the mesentery limits that movement. If not for the mesentery, the bowel likely would twist upon itself, causing obstruction. 
+&lt;/p&gt;
+&lt;p&gt;
+Mesenteric lymphadenitis occurs mainly in children and teens and often mimics the signs and symptoms of appendicitis. Unlike appendicitis, however, mesenteric lymphadenitis is seldom serious and clears on its own. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing mesentery
+" Caption="The mesentery is a fold of membrane that attaches the intestine to the abdominal wall and holds it in place. Mesenteric lymphadenitis is an inflammation of the lymph nodes in the mesentery. 
+" Height="60" Title="Mesentery" URI="/images/image_popup/thumbs/ans7_mesenterythu.jpg" Width="60" />
+				<Image Alt="Illustration showing mesentery
+" Caption="The mesentery is a fold of membrane that attaches the intestine to the abdominal wall and holds it in place. Mesenteric lymphadenitis is an inflammation of the lymph nodes in the mesentery. 
+" Height="410" Title="Mesentery" URI="/images/image_popup/ans7_mesentery.jpg" Width="400" />
+				<HTML>
+					The mesentery is a fold of membrane that attaches the intestine to the abdominal wall and holds it in place. Mesenteric lymphadenitis is an inflammation of the lymph nodes in the mesentery. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of mesenteric lymphadenitis may last a few days or rarely as long as a few weeks. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain, often centered on the lower, right side, but the pain can sometimes be more widespread&lt;/li&gt;
+	&lt;li&gt;General abdominal tenderness&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on what&apos;s causing the ailment, other signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;General feeling of being unwell (malaise)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, swollen lymph nodes are found on imaging tests for another problem. Mesenteric lymphadenitis that doesn&apos;t cause symptoms may need further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Abdominal pain is common in children and teens, and it can be hard to know when it&apos;s a problem that needs medical attention.
+&lt;/p&gt;
+&lt;p&gt;
+In general, call your doctor right away if your child has episodes of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, severe abdominal pain&lt;/li&gt;
+	&lt;li&gt;Abdominal pain with fever&lt;/li&gt;
+	&lt;li&gt;Abdominal pain with diarrhea or vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, call your doctor if your child has episodes of the following signs and symptoms that don&apos;t get better within a few days:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain with a change in bowel habits&lt;/li&gt;
+	&lt;li&gt;Abdominal pain with loss of appetite (anorexia)&lt;/li&gt;
+	&lt;li&gt;Abdominal pain that interferes with sleep&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing mesentery
+" Caption="The mesentery is a fold of membrane that attaches the intestine to the abdominal wall and holds it in place. Mesenteric lymphadenitis is an inflammation of the lymph nodes in the mesentery. 
+" Height="60" Title="Mesentery" URI="/images/image_popup/thumbs/ans7_mesenterythu.jpg" Width="60" />
+				<Image Alt="Illustration showing mesentery
+" Caption="The mesentery is a fold of membrane that attaches the intestine to the abdominal wall and holds it in place. Mesenteric lymphadenitis is an inflammation of the lymph nodes in the mesentery. 
+" Height="410" Title="Mesentery" URI="/images/image_popup/ans7_mesentery.jpg" Width="400" />
+				<HTML>
+					The mesentery is a fold of membrane that attaches the intestine to the abdominal wall and holds it in place. Mesenteric lymphadenitis is an inflammation of the lymph nodes in the mesentery. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your lymph nodes play a vital role in your body&apos;s ability to fight off illness. Approximately 600 nodes, scattered throughout your body, trap and destroy viruses, bacteria and other harmful organisms. In the process, the nodes closest to the infection can become sore and swollen &amp;mdash; for instance, the lymph nodes in your neck may swell when you have a sore throat. Other nodes that commonly swell are located under your chin and in your armpits and groin. 
+&lt;/p&gt;
+&lt;p&gt;
+Although less well known, you also have lymph nodes in the mesentery &amp;mdash; the thin tissue that attaches your intestine to the back of your abdominal wall. The most common cause of swollen mesenteric nodes is a viral infection, such as gastroenteritis &amp;mdash; commonly but incorrectly known as stomach flu. 
+&lt;/p&gt;
+&lt;p&gt;
+Some children develop an upper respiratory infection before or during a bout of mesenteric lymphadenitis, and experts speculate that there may be a link between the two. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mesenteric lymphadenitis &amp;mdash; with or without symptoms &amp;mdash; occurs mainly in children and adolescents. The condition may be more common in young boys than it is in girls. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mesenteric lymphadenitis usually goes away on its own and rarely causes complications. But if swollen lymph nodes are caused by a serious bacterial infection that isn&apos;t treated, the bacteria could spread to your bloodstream, causing a potentially life-threatening infection (sepsis). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has signs and symptoms common to mesenteric lymphadenitis, make an appointment with your family doctor or a pediatrician. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your child&apos;s symptoms,&lt;/strong&gt; including nonabdominal symptoms. Include details about when you first noticed these symptoms and how they may have changed or worsened over time. If possible, take your child&apos;s temperature several times before your appointment and record the results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your child&apos;s key medical information,&lt;/strong&gt; including any other health conditions and the names of all medications, vitamins and supplements your child is taking. Also bring a record of your child&apos;s recent vaccinations. If your child has been seen for similar signs and symptoms in the past, bring those medical records, if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your child&apos;s life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating a list of questions in advance can help you make the most of the time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For possible mesenteric lymphadenitis, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my child&apos;s condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What tests does my child need?&lt;/li&gt;
+	&lt;li&gt;Should I feel his or her abdomen for tenderness? If so, how do I do this?&lt;/li&gt;
+	&lt;li&gt;Is my child at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Does my child need treatment? If this is due to an infection, should my child be on antibiotics?&lt;/li&gt;
+	&lt;li&gt;What can I do to help make my child more comfortable? What foods should my child avoid?&lt;/li&gt;
+	&lt;li&gt;What signs or symptoms should prompt me to call you while my child is recovering?&lt;/li&gt;
+	&lt;li&gt;Is my child contagious? Should our family be using antibacterial hand lotion?&lt;/li&gt;
+	&lt;li&gt;When can my child return to school?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to speak up if you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+To help in diagnosing your child&apos;s condition, your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your child begin experiencing abdominal pain?&lt;/li&gt;
+	&lt;li&gt;Where is the pain located?&lt;/li&gt;
+	&lt;li&gt;Has the pain moved from one part of your child&apos;s abdomen to another part?&lt;/li&gt;
+	&lt;li&gt;How severe is the pain? Does your child cry with pain?&lt;/li&gt;
+	&lt;li&gt;What makes the pain more severe?&lt;/li&gt;
+	&lt;li&gt;What helps relieve the pain?&lt;/li&gt;
+	&lt;li&gt;Do your child&apos;s symptoms include nausea? Vomiting?&lt;/li&gt;
+	&lt;li&gt;What other signs and symptoms does your child have?&lt;/li&gt;
+	&lt;li&gt;Has your child had similar problems before? Did you seek medical care for him or her? If so, do you have medical records of that visit.&lt;/li&gt;
+	&lt;li&gt;Do any other children in your family or at school or child care have similar but milder symptoms that you know of?&lt;/li&gt;
+	&lt;li&gt;Has your child been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications is your child taking?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnosis your child&apos;s condition, your doctor is likely to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take your child&apos;s medical history.&lt;/strong&gt; In addition to gathering details about your child&apos;s current signs and symptoms, your doctor likely will ask about any other medical conditions for which your child has been treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Request laboratory tests.&lt;/strong&gt; Certain blood tests can help determine whether your child has an infection and what type of infection it is.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Order imaging studies.&lt;/strong&gt; A computerized tomography (CT) scan of your child&apos;s abdomen can help differentiate between appendicitis and mesenteric lymphadenitis. Abdominal ultrasound also may be used.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild, uncomplicated cases of mesenteric lymphadenitis and those caused by a virus usually go away on their own within a few days or weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to treat mesenteric lymphadenitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Over-the-counter (OTC) pain relievers and fever reducers may help relieve discomfort. However, avoid giving aspirin as this increases the risk of Reye&apos;s syndrome in children.&lt;/li&gt;
+	&lt;li&gt;Antibiotics may be prescribed for a moderate to severe bacterial infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For the pain and fever of mesenteric lymphadenitis, have your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; Adequate rest can help your child recover.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink fluids.&lt;/strong&gt; Liquids help prevent dehydration from fever, vomiting and diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply moist heat.&lt;/strong&gt; A warm moist washcloth applied to the abdomen can help ease discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mesenteric lymphadenitis
+	</Title>
+	<Abstract>
+		Mesenteric lymphadenitis &amp;mdash; Comprehensive overview covers causes and treatments of this lymph node inflammation.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

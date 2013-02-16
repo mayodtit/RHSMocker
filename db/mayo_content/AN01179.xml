@@ -1,0 +1,105 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01179
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/leg-pain/AN01179
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-05
+		</UpdateDate>
+		<PublicationDate>
+			2005-09-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3328" Title="Symptom">
+				<Keyword MCVID="3342" Title="Bones joints and muscles">
+					<Keyword MCVID="3558" Title="Leg pain" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E0F12C22-F693-432F-B4E7A075E9231DD8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				leg pain
+			</MetaKeyword>
+			<MetaKeyword>
+				leg aches
+			</MetaKeyword>
+			<MetaKeyword>
+				leg ache
+			</MetaKeyword>
+			<MetaKeyword>
+				aching legs
+			</MetaKeyword>
+			<MetaKeyword>
+				leg pains
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+New, persistent leg pain certainly warrants a visit to your doctor for evaluation. Leg pain can have many causes, but your description of aching after prolonged standing or sitting suggests a possible buildup of fluid in the leg veins (venous congestion).
+&lt;/p&gt;
+&lt;p&gt;
+Venous congestion occurs when the valves in your leg veins don&apos;t work properly to keep blood moving efficiently from your legs to your heart &amp;mdash; a condition called venous insufficiency. Instead, blood pools in your legs and feet, causing pain and, frequently, swelling. People with venous congestion typically describe the pain as a burning or cramping sensation, mainly in the calf.
+&lt;/p&gt;
+&lt;p&gt;
+Past inflammation of a vein (phlebitis) may damage the valves and lead to venous congestion. Poor function of the valves in the leg veins also contributes to varicose veins &amp;mdash; distended veins visible just beneath the skin. Varicose veins also may lead to venous congestion. 
+&lt;/p&gt;
+&lt;p&gt;
+Wearing knee-high support hose may be worth a try to ease discomfort associated with fluid buildup in the legs. Ask your doctor for a recommendation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Leg pain after prolonged standing or sitting: A concern?
+	</Title>
+	<Abstract>
+		New, persistent leg pain or aching may indicate an underlying circulation problem.
+	</Abstract>
+	<Question>
+		Lately, I&apos;ve had a lot of leg pain, especially when sitting at my desk or standing in line at the store. Should I be concerned about this new aching?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

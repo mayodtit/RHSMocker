@@ -1,0 +1,286 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00449
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/flatfeet/DS00449
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-18
+		</UpdateDate>
+		<PublicationDate>
+			2002-08-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2345" Title="Ankle and foot">
+						<Keyword MCVID="2665" Title="Flatfeet" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3E3CCFF7-BD15-4D9A-8231C8AA76678B6B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				flatfeet
+			</MetaKeyword>
+			<MetaKeyword>
+				flat feet
+			</MetaKeyword>
+			<MetaKeyword>
+				foot
+			</MetaKeyword>
+			<MetaKeyword>
+				feet
+			</MetaKeyword>
+			<MetaKeyword>
+				arch
+			</MetaKeyword>
+			<MetaKeyword>
+				arches
+			</MetaKeyword>
+			<MetaKeyword>
+				fallen arches
+			</MetaKeyword>
+			<MetaKeyword>
+				posterior tibial tendon
+			</MetaKeyword>
+			<MetaKeyword>
+				custom designed arch support
+			</MetaKeyword>
+			<MetaKeyword>
+				arch support
+			</MetaKeyword>
+			<MetaKeyword>
+				shoe insert
+			</MetaKeyword>
+			<MetaKeyword>
+				custom orthotic
+			</MetaKeyword>
+			<MetaKeyword>
+				custom orthotics
+			</MetaKeyword>
+			<MetaKeyword>
+				feet pain
+			</MetaKeyword>
+			<MetaKeyword>
+				foot pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You have flatfeet when the arch on the inside of your feet is flattened, allowing the entire sole of your foot to touch the floor when you stand up.
+&lt;/p&gt;
+&lt;p&gt;
+A common and usually painless condition, flatfeet may occur when the arches don&apos;t develop during childhood. In other cases, flatfeet may develop after an injury or from the simple wear-and-tear stresses of age. 
+&lt;/p&gt;
+&lt;p&gt;
+Flatfeet can sometimes contribute to problems in your ankles and knees because the condition can alter optimal alignment of your legs. If you aren&apos;t experiencing any pain, no treatment is usually necessary for flatfeet.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration comparing normal and flatfeet footprints 
+" Caption="A normal arch leaves a footprint similar to the one depicted on the left, while flatfeet typically produces a footprint such as the one pictured on the right. 
+" Height="60" Title="Flatfeet" URI="/images/image_popup/thumbs/mcdc7_flatfeetthu.jpg" Width="60" />
+				<Image Alt="Illustration comparing normal and flatfeet footprints 
+" Caption="A normal arch leaves a footprint similar to the one depicted on the left, while flatfeet typically produces a footprint such as the one pictured on the right. 
+" Height="311" Title="Flatfeet" URI="/images/image_popup/mcdc7_flatfeet.jpg" Width="400" />
+				<HTML>
+					A normal arch leaves a footprint similar to the one depicted on the left, while flatfeet typically produces a footprint such as the one pictured on the right. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people have no signs or symptoms associated with flatfeet. But some people with flatfeet experience foot pain, particularly in the heel or arch area. Swelling along the inside of the ankle may also occur.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if you or your child is experiencing foot pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A flat foot is normal in infants and toddlers, because the foot&apos;s arch hasn&apos;t yet developed. Most people&apos;s arches develop throughout childhood, but some people never develop arches. This is a normal variation in foot type, and people without arches may or may not have problems.
+&lt;/p&gt;
+&lt;p&gt;
+Arches can also fall over time. Years of wear and tear can weaken the tendon that runs along the inside of your ankle and helps support your arch.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration comparing normal and flatfeet footprints 
+" Caption="A normal arch leaves a footprint similar to the one depicted on the left, while flatfeet typically produces a footprint such as the one pictured on the right. 
+" Height="60" Title="Flatfeet" URI="/images/image_popup/thumbs/mcdc7_flatfeetthu.jpg" Width="60" />
+				<Image Alt="Illustration comparing normal and flatfeet footprints 
+" Caption="A normal arch leaves a footprint similar to the one depicted on the left, while flatfeet typically produces a footprint such as the one pictured on the right. 
+" Height="311" Title="Flatfeet" URI="/images/image_popup/mcdc7_flatfeet.jpg" Width="400" />
+				<HTML>
+					A normal arch leaves a footprint similar to the one depicted on the left, while flatfeet typically produces a footprint such as the one pictured on the right. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of flatfeet include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Traumatic injury to your foot or ankle&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis&lt;/li&gt;
+	&lt;li&gt;Aging&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your feet are causing you significant pain, your family doctor may refer you to a doctor specializing in foot disorders (podiatrist) or sports medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;When you go to your appointment, wear your everyday shoes because the doctor may want to look at the wear patterns on the soles. Before the appointment, you may want to write down answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice problems with your feet?&lt;/li&gt;
+	&lt;li&gt;What other medical problems, if any, do you have?&lt;/li&gt;
+	&lt;li&gt;Do your parents or siblings have flatfeet?&lt;/li&gt;
+	&lt;li&gt;Have you ever injured your foot or ankle?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where exactly does it hurt?&lt;/li&gt;
+	&lt;li&gt;Does any specific motion or position ease the pain or worsen it?&lt;/li&gt;
+	&lt;li&gt;Does the type of shoe you wear change the pain?&lt;/li&gt;
+	&lt;li&gt;Can you stand on tiptoe on one foot?&lt;/li&gt;
+	&lt;li&gt;Have you tried arch supports?&lt;/li&gt;
+	&lt;li&gt;How is this pain affecting your daily life?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will observe your feet from the front and the back and ask you to stand on your toes so he or she can view the mechanics of your feet. He or she may also want to look at the wear pattern on your shoes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re having a lot of pain in your feet, your doctor may order tests such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; A simple X-ray uses a small amount of radiation to produce images of the bones and joints in your feet. It&apos;s particularly useful in detecting arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT scan).&lt;/strong&gt; This test takes X-rays of your foot from many different angles and provides much more detail than a standard X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; If your doctor suspects an injured tendon, he or she may request an ultrasound test &amp;mdash; which uses sound waves to produce detailed images of soft tissues within the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Using radio waves and a strong magnet, MRIs provide excellent detail for both hard and soft tissues.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatment is necessary for flatfeet if you aren&apos;t experiencing any pain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;If your flatfeet are painful, your doctor might suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Arch supports (orthotic devices).&lt;/strong&gt; Over-the-counter arch supports may help relieve the pain caused by flatfeet. Or your doctor might suggest custom-designed arch supports, which are molded to the contours of your feet. Arch supports won&apos;t cure flatfeet, but they often reduce symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretching exercises.&lt;/strong&gt; Some people with flatfeet also have a shortened Achilles tendon. Exercises to stretch this tendon may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proper shoe wear.&lt;/strong&gt; A structurally supportive shoe may be better tolerated than sandals or shoes with minimal support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery is not performed solely for the purpose of correcting flat feet. Surgery may be performed for an associated problem such as a tendon tear or rupture.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re experiencing minor pain from flatfeet, you might want to try: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Avoid activities that aggravate your condition. Participate in low-impact activities &amp;mdash; such as walking, biking or swimming &amp;mdash; rather than jumping and running activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arch supports.&lt;/strong&gt; A trial of over-the-counter arch supports is reasonable to consider.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Over-the-counter pain relievers may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; Losing weight can reduce the amount of stress on your feet.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Flatfeet
+	</Title>
+	<Abstract>
+		Flatfeet &amp;mdash; Comprehensive overview covers causes, treatment of this often symptomless foot condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

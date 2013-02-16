@@ -1,0 +1,225 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00107
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/emg/MY00107
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-26
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3851" Title="Nervous system">
+						<Keyword MCVID="3063" Title="Electromyography" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C019023D-E7FF-0DBD-10F82974DF8D3D59
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				EMG
+			</MetaKeyword>
+			<MetaKeyword>
+				electromyography
+			</MetaKeyword>
+			<MetaKeyword>
+				electromyogram
+			</MetaKeyword>
+			<MetaKeyword>
+				needle EMG
+			</MetaKeyword>
+			<MetaKeyword>
+				nerve conduction study
+			</MetaKeyword>
+			<MetaKeyword>
+				NCS
+			</MetaKeyword>
+			<MetaKeyword>
+				muscular dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				myasthenia gravis
+			</MetaKeyword>
+			<MetaKeyword>
+				polymyositis
+			</MetaKeyword>
+			<MetaKeyword>
+				carpal tunnel syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				amyotrophic lateral sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				ALS
+			</MetaKeyword>
+			<MetaKeyword>
+				herniated disk
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Electromyography (EMG) is a diagnostic procedure to assess the health of muscles and the nerve cells that control them (motor neurons). 
+&lt;/p&gt;
+&lt;p&gt;
+Motor neurons transmit electrical signals that cause muscles to contract. An EMG translates these signals into graphs, sounds or numerical values that a specialist interprets. 
+&lt;/p&gt;
+&lt;p&gt;
+An EMG uses tiny devices called electrodes to transmit or detect electrical signals. During a needle EMG, a needle electrode inserted directly into a muscle records the electrical activity in that muscle. 
+&lt;/p&gt;
+&lt;p&gt;
+A nerve conduction study, another part of an EMG, uses surface electrodes &amp;mdash; electrodes taped to the skin &amp;mdash; to measure the speed and strength of signals traveling between two or more points. 
+&lt;/p&gt;
+&lt;p&gt;
+EMG results can reveal nerve dysfunction, muscle dysfunction or problems with nerve-to-muscle signal transmission.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may order an EMG if you have signs or symptoms that may indicate a nerve or muscle disorder. Such symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling&lt;/li&gt;
+	&lt;li&gt;Numbness&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Muscle pain or cramping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+EMG results are often necessary to help diagnose or rule out a number of conditions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle disorders, such as muscular dystrophy or polymyositis&lt;/li&gt;
+	&lt;li&gt;Diseases affecting the connection between the nerve and the muscle, such as myasthenia gravis&lt;/li&gt;
+	&lt;li&gt;Disorders of nerves outside the spinal cord (peripheral nerves), such as carpal tunnel syndrome or peripheral neuropathies&lt;/li&gt;
+	&lt;li&gt;Disorders that affect the motor neurons in the brain or spinal cord, such as amyotrophic lateral sclerosis or a herniated disk in the spine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+EMG is a low-risk procedure, and complications are rare. There&apos;s a very small risk of bleeding, infection and nerve injury where a needle electrode is inserted. When muscles along the chest wall are examined with a needle electrode, there&apos;s a very small risk that it could cause air to leak into the area between the lungs and chest wall, causing a lung to collapse (pneumothorax). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Precautions&lt;br /&gt;
+&lt;/strong&gt;The nervous system specialist (neurologist) conducting the EMG will need to know if you have certain medical conditions. Tell the neurologist and other EMG lab personnel if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a pacemaker or any other electrical medical device&lt;/li&gt;
+	&lt;li&gt;Take blood-thinning medications&lt;/li&gt;
+	&lt;li&gt;Have hemophilia, a blood-clotting disorder that causes prolonged bleeding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;br /&gt;
+&lt;/strong&gt;When you schedule your EMG, you may want to ask the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What time do I need to arrive?&lt;/li&gt;
+	&lt;li&gt;Where is the EMG lab, and what&apos;s the best way to find it in the hospital or clinic?&lt;/li&gt;
+	&lt;li&gt;Do I need to stop taking any prescription or over-the-counter medications before the exam?&lt;/li&gt;
+	&lt;li&gt;Can a friend or relative be with me during the exam?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bathing&lt;br /&gt;
+&lt;/strong&gt;Take a shower or bath shortly before your exam to remove oils from your skin. Do not apply lotions or creams before the exam.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your EMG&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll likely be asked to change into a hospital gown for the procedure and lie down on an examination table. The following explanations can help you understand what will happen during the exam: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrodes.&lt;/strong&gt; The neurologist or a technician places surface electrodes at various locations on your skin depending on where you&apos;re experiencing symptoms. Or the neurologist may insert needle electrodes at different sites depending on your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensations.&lt;/strong&gt; The electrodes will at times transmit a tiny electrical current that you may feel as a twinge or spasm. The needle electrode may cause discomfort or pain that usually ends shortly after the needle is removed. If you&apos;re concerned about discomfort or pain, you may want to talk to the neurologist about taking a short break during the exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Instructions.&lt;/strong&gt; During the needle EMG, the neurologist will assess whether there is any spontaneous electrical activity when the muscle is at rest &amp;mdash; activity that isn&apos;t present in healthy muscle tissue &amp;mdash; and the degree of activity when you slightly contract the muscle. He or she will give you instructions on resting and contracting a muscle at appropriate times. Depending on what muscles and nerves the neurologist is examining, he or she may ask you to change positions during the exam, such as rolling onto your side.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After your EMG&lt;br /&gt;
+&lt;/strong&gt;You may experience some temporary, minor bruising where the needle electrode was inserted into your muscle. This bruising should fade within several days. If it persists, contact your primary care doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The neurologist will interpret the results of your exam and prepare a report. Your primary care doctor, or the doctor who ordered the EMG, will discuss the report with you at a follow-up appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Electromyography (EMG)
+	</Title>
+	<Abstract>
+		Electromyography (EMG) &amp;mdash; Overview covers definition, risks of this study of the nerves and muscles.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

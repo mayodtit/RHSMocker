@@ -1,0 +1,414 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00362
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/scleroderma/DS00362
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-16
+		</UpdateDate>
+		<PublicationDate>
+			1999-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1420" Title="Connective tissue">
+						<Keyword MCVID="1738" Title="Scleroderma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3830E935-0B28-4EE9-85E99C261470826D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				hardened skin
+			</MetaKeyword>
+			<MetaKeyword>
+				hardening of skin
+			</MetaKeyword>
+			<MetaKeyword>
+				connective tissue
+			</MetaKeyword>
+			<MetaKeyword>
+				connective tissues
+			</MetaKeyword>
+			<MetaKeyword>
+				connective tissue disease
+			</MetaKeyword>
+			<MetaKeyword>
+				mixed connective tissue disease
+			</MetaKeyword>
+			<MetaKeyword>
+				MCTD
+			</MetaKeyword>
+			<MetaKeyword>
+				localized scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				systemic scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				diffuse cutaneous systemic sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				limited cutaneous systemic sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				CREST
+			</MetaKeyword>
+			<MetaKeyword>
+				CREST syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				morphea
+			</MetaKeyword>
+			<MetaKeyword>
+				linear scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				limited scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				diffuse scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				sine scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				undifferentiated connective tissue disease
+			</MetaKeyword>
+			<MetaKeyword>
+				overlap syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				scleraderma
+			</MetaKeyword>
+			<MetaKeyword>
+				schleroderma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scleroderma (skleer-oh-DUR-muh) is a group of rare, progressive diseases that involve the hardening and tightening of the skin and connective tissues &amp;mdash; the fibers that provide the framework and support for your body.
+&lt;/p&gt;
+&lt;p&gt;
+Localized scleroderma affects only the skin. Systemic scleroderma also harms internal organs, such as the heart, lungs, kidneys and digestive tract.
+&lt;/p&gt;
+&lt;p&gt;
+Scleroderma can happen to anyone at any time in any geographical area. However, the disease affects women more often than men and most commonly occurs between the ages of 30 and 50. Scleroderma can run in families, but in most cases it occurs without any known family tendency for the disease. Scleroderma isn&apos;t considered contagious, but it can greatly affect self-esteem and the ability to accomplish everyday tasks.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of the hands and legs of a person with scleroderma 
+" Caption="Scleroderma is a progressive disorder characterized by thickening and tightening of the skin &amp;mdash; especially on the arms, face and hands &amp;mdash; which results in loss of flexibility. 
+" Height="60" Title="Scleroderma" URI="/images/image_popup/thumbs/ww5rm55t.jpg" Width="60" />
+				<Image Alt="Photograph of the hands and legs of a person with scleroderma 
+" Caption="Scleroderma is a progressive disorder characterized by thickening and tightening of the skin &amp;mdash; especially on the arms, face and hands &amp;mdash; which results in loss of flexibility. 
+" Height="286" Title="Scleroderma" URI="/images/image_popup/ww5rm55.jpg" Width="400" />
+				<HTML>
+					Scleroderma is a progressive disorder characterized by thickening and tightening of the skin &amp;mdash; especially on the arms, face and hands &amp;mdash; which results in loss of flexibility. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scleroderma symptoms vary, depending on which organ systems are involved. Diagnosis can be difficult because some of the early symptoms are common in the general population and aren&apos;t always associated with scleroderma. The most prevalent signs and symptoms of scleroderma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Raynaud&apos;s phenomenon.&lt;/strong&gt; An exaggerated response to cold temperatures or emotional distress, this condition constricts the small blood vessels in the hands and feet and causes numbness, pain or color changes in the fingers or toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastroesophageal reflux disease (GERD).&lt;/strong&gt; In addition to acid reflux, which can damage the section of esophagus nearest your stomach, you may also have problems absorbing nutrients if your intestinal muscles aren&apos;t moving food properly through your intestines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin changes.&lt;/strong&gt; These changes may include swollen fingers and hands; thickened patches of skin, particularly on the fingers; and tight skin around the hands, face or mouth. Skin can appear shiny because it&apos;s so tight, and movement of the affected area may be restricted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Localized scleroderma&lt;br /&gt;
+&lt;/strong&gt;The two main varieties of localized scleroderma, which affects only the skin, are distinguished by very distinctive signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Morphea.&lt;/strong&gt; This variety features oval-shaped thickened patches of skin that are white in the middle, with a purple border. Skin patches could appear in only a few spots on your body or be more widespread, appearing all over your body. Morphea generally fades out after three to five years, but you may retain areas of darkened skin where the areas of thickened skin appeared.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Linear scleroderma.&lt;/strong&gt; This variety, which is more common in children, features bands or streaks of hardened skin on one or both arms or legs, or on the forehead. Linear scleroderma often appears mostly on one side of the body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With localized scleroderma, the first signs of disease may be the presence of Raynaud&apos;s phenomenon and may develop several years before you notice any other symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Systemic scleroderma&lt;br /&gt;
+&lt;/strong&gt;This type of scleroderma, also called systemic sclerosis, affects not only your skin but also your blood vessels and internal organs. Subcategories are defined by what portions of your body are affected. One variation is known as limited scleroderma, or CREST syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+With systemic scleroderma, skin changes may occur suddenly and progressively worsen during the first one to two years of the disease. After that, changes level off or subside, and sometimes even resolve on their own without treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scleroderma results from an overproduction and accumulation of collagen in body tissues. Collagen is a fibrous type of protein that makes up your body&apos;s connective tissues, including your skin.
+&lt;/p&gt;
+&lt;p&gt;
+Although doctors aren&apos;t sure what prompts this abnormal collagen production, the body&apos;s immune system appears to play a role. For unknown reasons, the immune system turns against the body, producing inflammation and the overproduction of collagen.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors appear to increase the risk of certain types of scleroderma: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Race and ethnicity&lt;br /&gt;
+&lt;/strong&gt;Certain groups of people are more likely to develop scleroderma than are others: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Native Americans.&lt;/strong&gt; Choctaw Native Americans in Oklahoma are at least 20 times as likely as is the general population to develop systemic scleroderma. Oddly enough, this increased risk doesn&apos;t apply to Choctaws living in Mississippi.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;African-Americans.&lt;/strong&gt; Systemic scleroderma is more common in African-Americans than it is in Americans of European descent. And the African-Americans who have systemic scleroderma are more likely to develop severe lung complications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Gender&lt;br /&gt;
+&lt;/strong&gt;Scleroderma occurs at least four times as often in women as it does in men.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Environmental factors&lt;br /&gt;
+&lt;/strong&gt;Exposure to a variety of substances may be linked to the development of scleroderma. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Silica dust, which is common in coal mines and rock quarries&lt;/li&gt;
+	&lt;li&gt;Some industrial solvents, such as paint thinners&lt;/li&gt;
+	&lt;li&gt;Certain chemotherapy drugs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scleroderma complications range from mild to severe. Some may even become life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Circulatory complications&lt;br /&gt;
+&lt;/strong&gt;The variety of Raynaud&apos;s phenomenon that occurs with scleroderma can be so severe that the restricted blood flow permanently damages the tissue at the fingertips, causing pits or skin sores (ulcers). In some cases, gangrene and amputation may follow.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung complications&lt;br /&gt;
+&lt;/strong&gt;Scarring of lung tissue (pulmonary fibrosis) can result in reduced lung function, reduced ability to breathe and reduced tolerance for exercise. You may also develop high blood pressure in the arteries to your lungs (pulmonary hypertension).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Kidney complications&lt;br /&gt;
+&lt;/strong&gt;When scleroderma affects your kidneys, you can develop an elevated blood pressure and an increased level of protein in your urine. More serious effects of kidney complications may include renal crisis, which involves a sudden increase in blood pressure and rapid kidney failure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart complications&lt;br /&gt;
+&lt;/strong&gt;Scarring of heart tissue increases your risk of abnormal heartbeats (arrhythmias) and congestive heart failure, and can cause inflammation of the membranous sac surrounding your heart (pericarditis).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dental complications&lt;br /&gt;
+&lt;/strong&gt;Severe tightening of facial skin can cause your mouth to become smaller and narrower, which may make it hard to brush your teeth or to even have them professionally cleaned. People who have scleroderma often don&apos;t produce normal amounts of saliva, so the risk of decay increases even more. In addition, acid reflux can destroy tooth enamel, and changes in gum tissue may cause your teeth to become loose or even fall out. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Digestive complications&lt;br /&gt;
+&lt;/strong&gt;Scleroderma can affect your upper and lower digestive tracts. Digestive problems associated with scleroderma can lead to acid reflux and difficulty swallowing &amp;mdash; some describe feeling as if food gets stuck midway down the esophagus &amp;mdash; as well as bouts of constipation alternating with episodes of diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sexual complications&lt;br /&gt;
+&lt;/strong&gt;Men who have scleroderma often experience erectile dysfunction. Scleroderma may also affect the sexual function of women, by decreasing sexual lubrication and constricting the vaginal opening.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your symptoms to the attention of your family doctor, who may refer you to a rheumatologist &amp;mdash; a doctor specializing in the treatment of arthritis and other diseases of the joints, muscles and bone. Because scleroderma can affect many organ systems, you may need to see a variety of medical specialists.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Appointments can be brief. To make the best use of the limited time, plan ahead and write lists of important information, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of all your symptoms&lt;/li&gt;
+	&lt;li&gt;A list of all your medications and dosages, including nonprescription drugs and supplements&lt;/li&gt;
+	&lt;li&gt;Questions for the doctor, such as what tests or treatments he or she may recommend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will review your medical history and conduct a physical examination, which may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Checking your skin for thickened and hardened areas&lt;/li&gt;
+	&lt;li&gt;Feeling some of your joints and tendons to check for possible changes in connective tissue beneath your skin&lt;/li&gt;
+	&lt;li&gt;Inspecting your fingers for changes that may indicate Raynaud&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may conduct the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; People with scleroderma usually have elevated blood levels of certain antibodies produced by the immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue sample.&lt;/strong&gt; Your doctor may remove a small tissue sample (biopsy) of your affected skin to be examined in the laboratory for abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin assessment.&lt;/strong&gt; Your doctor ideally evaluates the condition of your skin in 17 specific areas to determine the level of skin involvement, which provides a clue to the likelihood that you also have life-threatening changes happening to internal organs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Based on the outcome of your initial evaluation, your doctor may also recommend other diagnostic tests to identify any lung, heart, kidney or gastrointestinal complications accompanying scleroderma.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scleroderma has no known cure &amp;mdash; no drug will stop the overproduction of collagen. But the localized variety of scleroderma sometimes resolves on its own. And a variety of medications can help control the symptoms of scleroderma or help prevent complications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dilating the blood vessels.&lt;/strong&gt; Blood pressure medications that dilate blood vessels may help prevent lung and kidney problems and may help treat Raynaud&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Suppressing the immune system.&lt;/strong&gt; Drugs that suppress the immune system, such as those taken after organ transplants, may help reduce scleroderma symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical or occupational therapy.&lt;/strong&gt; Therapists can help you to manage pain, improve your strength and mobility, and work on performing essential daily tasks to maintain your independence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cosmetic procedures.&lt;/strong&gt; The appearance of skin lesions associated with scleroderma may be helped by exposure to ultraviolet light. Laser surgery also may help camouflage or eliminate these lesions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Amputation.&lt;/strong&gt; If finger ulcers caused by severe Raynaud&apos;s disease have developed gangrene, amputation may be necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung transplants.&lt;/strong&gt; People who have developed high blood pressure in the arteries to their lungs (pulmonary hypertension) may be candidates for lung transplants.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take a number of steps to help manage your symptoms of scleroderma:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Exercise keeps your body flexible, improves circulation and relieves stiffness. Range-of-motion exercises can help keep your skin and joints flexible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Nicotine causes blood vessels to contract, making Raynaud&apos;s phenomenon worse. Smoking can also cause permanent narrowing of your blood vessels. Quitting smoking is difficult &amp;mdash; ask your doctor for help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage heartburn.&lt;/strong&gt; Avoid foods that give you heartburn or gas. Also avoid late-night meals. Elevate the head of your bed to keep stomach acid from backing up into your esophagus (reflux) as you sleep. Antacids may help relieve symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect yourself from the cold.&lt;/strong&gt; Wear warm mittens for protection anytime your hands are exposed to cold &amp;mdash; even when you reach into a freezer. When you&apos;re outside in the cold, cover your face and head and wear layers of warm clothing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Meditation and relaxation techniques can help you cope with the frustrations of scleroderma, and help relieve pain and fatigue.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As is true with other chronic diseases, living with scleroderma can place you on a roller coaster of emotions. Here are some suggestions to help you even out the ups and downs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maintain normal daily activities as best you can.&lt;/li&gt;
+	&lt;li&gt;Pace yourself and be sure to get the rest that you need.&lt;/li&gt;
+	&lt;li&gt;Stay connected with friends and family.&lt;/li&gt;
+	&lt;li&gt;Continue to pursue hobbies that you enjoy and are able to do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If scleroderma makes it difficult for you to do things you enjoy, ask your doctor about ways to get around the obstacles.
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that your physical health can have a direct impact on your mental health. Denial, anger and frustration are common with chronic illnesses. 
+&lt;/p&gt;
+&lt;p&gt;
+At times, you may need additional tools to deal with your emotions. Professionals, such as therapists or behavior psychologists, may be able to help you put things in perspective. They can also help you develop coping skills, including relaxation techniques. 
+&lt;/p&gt;
+&lt;p&gt;
+Joining a support group, where you can share experiences and feelings with other people, is often a good approach. Ask your doctor what support groups are available in your community. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Scleroderma
+	</Title>
+	<Abstract>
+		Scleroderma &amp;mdash; Comprehensive overview covers symptoms and treatment of this disease that involves skin thickening.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01208" LinkType="Internal" ObjectID="FCC5AED0-BABC-909A-06AABAF8B6297351" Title="Esophageal manometry" Url="http://www.mayoclinic.com/health/esophageal-manometry/MY01208" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+		<LinkItem ContentType="Disease" DocID="DS00580" LinkType="Internal" ObjectID="3441DFC3-FF84-4AF1-B7342DE6A228E064" Title="Limited scleroderma (CREST syndrome)" Url="http://www.mayoclinic.com/health/crest-syndrome/DS00580" />
+	</RelatedLinksBox>
+</Disease>

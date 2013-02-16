@@ -1,0 +1,342 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00886
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/myelofibrosis/DS00886
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-13
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2145" Title="Leukemia">
+						<Keyword MCVID="2289" Title="Myelofibrosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			99A09587-E7FF-0DBD-19E67F95AB34B286
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				myelofibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic myelofibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic idiopathic myelofibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				agnogenic myeloid metaplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				AMM
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myeloproliferative diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged spleen
+			</MetaKeyword>
+			<MetaKeyword>
+				anemia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myelofibrosis is a serious bone marrow disorder that disrupts your body&apos;s normal production of blood cells. The result is extensive scarring in your bone marrow, leading to severe anemia, weakness, fatigue, and often, an enlarged spleen and liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Myelofibrosis is a type of chronic leukemia &amp;mdash; a cancer that affects the blood-forming tissues in the body. Myelofibrosis can occur on its own (primary myelofibrosis) or it can occur as a result of another bone marrow disorder (secondary myelofibrosis). 
+&lt;/p&gt;
+&lt;p&gt;
+Many people with myelofibrosis get progressively worse, and some may eventually develop a more serious form of leukemia. Yet it&apos;s also possible to have myelofibrosis and live symptom-free for years. Treatment for myelofibrosis, which focuses on relieving symptoms, can involve a variety of options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myelofibrosis usually develops slowly. In its very early stages, many people don&apos;t experience signs or symptoms. But as disruption of normal blood cell production increases, signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeling tired, weak or short of breath, usually because of anemia&lt;/li&gt;
+	&lt;li&gt;Pain or fullness below your ribs on the left side, due to enlarged spleen&lt;/li&gt;
+	&lt;li&gt;Enlarged liver&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Easy bruising&lt;/li&gt;
+	&lt;li&gt;Easy bleeding&lt;/li&gt;
+	&lt;li&gt;Excessive sweating during sleep (night sweats)&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Frequent infections&lt;/li&gt;
+	&lt;li&gt;Bone pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs and symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myelofibrosis occurs when a genetic mutation occurs in blood stem cells. Blood stem cells have the ability to replicate and divide into the multiple specialized cells that make up your blood &amp;mdash; red blood cells, white blood cells and platelets. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not clear what causes the genetic mutation in blood stem cells. As the mutated blood stem cells replicate and divide, they pass along the mutation to the new cells. As more and more of these mutated cells are created, they begin to have serious effects on blood production. The end result is usually a lack of red blood cells &amp;mdash; which causes the anemia characteristic of myelofibrosis &amp;mdash; and an overabundance of white blood cells with varying levels of platelets. In people with myelofibrosis, the normally spongy bone marrow becomes scarred. 
+&lt;/p&gt;
+&lt;p&gt;
+The gene mutation that occurs in most people affected by myelofibrosis is sometimes referred to as JAK2. Other gene mutations also may be associated with myelofibrosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the cause of myelofibrosis often isn&apos;t known, certain factors are known to increase your risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Myelofibrosis can affect anyone, but it&apos;s most often diagnosed in people between the ages of 50 and 70.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Another blood cell disorder.&lt;/strong&gt; A small portion of people with myelofibrosis develop the condition as a complication of essential thrombocythemia or polycythemia vera. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to certain chemicals.&lt;/strong&gt; Myelofibrosis has been linked to exposure to industrial chemicals such as toluene and benzene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to radiation.&lt;/strong&gt; People exposed to high levels of radiation, such as survivors of atomic bomb attacks, have had an increased risk of myelofibrosis. Some people who received a radioactive contrast material called Thorotrast, used from the 1920s to the 1950s, have since developed myelofibrosis. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications that may result from myelofibrosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increased pressure on blood flowing into your liver.&lt;/strong&gt; Normally, blood flow from the spleen enters your liver through a large blood vessel called the portal vein. Increased blood flow from an enlarged spleen can lead to high blood pressure in the portal vein (portal hypertension). This in turn can force excess blood into smaller veins in your stomach and esophagus, potentially causing these veins to rupture and bleed. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; A severely enlarged spleen can cause abdominal pain and back pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growths in other areas of your body.&lt;/strong&gt; Formation of blood cells outside the bone marrow (extramedullary hematopoiesis) may create clumps (tumors) of developing blood cells in other areas of your body. These tumors may cause problems such as bleeding in your gastrointestinal system, coughing or spitting up of blood, compression of your spinal cord, or seizures. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Myelofibrosis can cause the overproduction of white blood cells, which help fight infection. But in myelofibrosis, these blood cells often aren&apos;t fully formed or are mutated so that they become ineffective, actually decreasing your ability to fight off infections. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding complications.&lt;/strong&gt; As the disease progresses, your platelet count tends to drop below normal (thrombocytopenia) and platelet function becomes impaired. An insufficient number of platelets can lead to easy bleeding &amp;mdash; an issue that you and your doctor will want to discuss if you&apos;re contemplating any type of surgical procedure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hardening and inflammation of bone tissue.&lt;/strong&gt; Myelofibrosis can lead to hardening of your bone marrow as well as inflammation of the connective tissue that surrounds your bones, leading to severe bone and joint pain and tenderness. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gout.&lt;/strong&gt; Myelofibrosis increases your body&apos;s production of uric acid, a byproduct of the breakdown of purines &amp;mdash; a substance found naturally in your body and in many foods. Overproduction of uric acid can lead to needle-like deposits of the substance in your joints, causing joint pain and inflammation (gout). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute leukemia.&lt;/strong&gt; Some people with myelofibrosis eventually develop acute myelogenous leukemia, a type of blood and bone marrow cancer that progresses rapidly. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your primary doctor suspects that you have myelofibrosis &amp;mdash; often based on an enlarged spleen and abnormal blood tests &amp;mdash; you&apos;re likely to be referred to a doctor who specializes in blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For myelofibrosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In people who have no symptoms, a routine medical checkup revealing an enlarged spleen and abnormal blood test results may prompt suspicions of a medical problem. If you come to your doctor because of troublesome symptoms, a physical exam and blood tests are likely the first steps your doctor will take. 
+&lt;/p&gt;
+&lt;p&gt;
+To confirm a diagnosis of myelofibrosis, you may have imaging studies of your bones, spleen and liver, and examination of a sample of your bone marrow. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will perform a thorough physical exam. This includes a check of such vital signs as pulse and blood pressure, as well as checks of your lymph nodes, spleen and abdomen. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; In myelofibrosis, a complete blood count typically shows abnormally low levels of red blood cells, a sign of anemia common in people with myelofibrosis. White blood cell and platelet counts are usually abnormal, too. Often, white blood cell levels are higher than normal, although in some people they may be normal or even lower than normal. Platelet counts may be higher or lower than normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests, such as ultrasound, may be used to determine the size of your spleen and others, such as magnetic resonance imaging (MRI), can identify changes in your bones that indicate myelofibrosis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow examination.&lt;/strong&gt; Bone marrow biopsy and aspiration can confirm a diagnosis of myelofibrosis. In a bone marrow biopsy, a needle is used to draw a sample of hardened bone marrow from your hipbone. During the same procedure, another type of needle may be used to withdraw a sample of the liquid portion of your bone marrow. The samples are studied in a laboratory to determine the numbers and types of cells found. Studying genetic components of the bone marrow cells can reveal mutations in the cells that may help to rule out other kinds of bone marrow disorders. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gene tests.&lt;/strong&gt; A sample of your blood or bone marrow may be analyzed in a laboratory to look for gene mutations in your blood cells that are associated with myelofibrosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="60" Title="Bone marrow biopsy" URI="/images/image_popup/thumbs/r7_bonemarrowaspirationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="400" Title="Bone marrow biopsy" URI="/images/image_popup/r7_bonemarrowaspiration.jpg" Width="400" />
+				<HTML>
+					In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Immediate treatment may not be necessary&lt;/strong&gt; &lt;br /&gt;
+If you aren&apos;t experiencing symptoms and don&apos;t show signs of anemia, an enlarged spleen or other complications, treatment usually isn&apos;t necessary. Instead, your doctor is likely to monitor your health closely through regular checkups and exams, watching for any signs of disease progression. Some people remain symptom-free for years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for myelofibrosis&lt;/strong&gt; &lt;br /&gt;
+Researchers are working to develop medications that target the JAK2 gene mutation that&apos;s thought to be responsible for myelofibrosis. The first of these medications approved by the Food and Drug Administration is ruxolitinib (Jakafi). Ruxolitinib and the other medications being developed and tested in clinical trials have been helpful in decreasing enlarged spleens and reducing symptoms associated with myelofibrosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Ruxolitinib works by stopping the action of all JAK-related genes in the body, including those found in both healthy and diseased cells. Because healthy cells that contain JAK genes are affected, low levels of platelets and red blood cells can occur. This can cause an increased risk of bleeding and infection. Other side effects include bruising, dizziness and headaches.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for anemia&lt;/strong&gt; &lt;br /&gt;
+If myelofibrosis is causing severe anemia, you may consider treatment, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood transfusions.&lt;/strong&gt; If you have severe anemia, periodic blood transfusions can increase your red blood cell count and ease anemia symptoms, such as fatigue and weakness. Sometimes, medications can help improve anemia so that you don&apos;t need blood transfusions. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Androgen therapy.&lt;/strong&gt; Taking a synthetic version of the male hormone androgen may promote red blood cell production and may improve severe anemia in some people. Androgen therapy does have risks, including liver damage, masculinizing effects in women and growth of prostate cancer cells in men. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thalidomide and related medications.&lt;/strong&gt; Thalidomide (Thalomid) and the related drug lenalidomide (Revlimid) may help improve blood cell counts and may also relieve an enlarged spleen. These drugs may be combined with steroid medications. Thalidomide and related drugs carry a risk of serious birth defects and require special precautions. This type of treatment is being studied in clinical trials. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for enlarged spleen&lt;/strong&gt; &lt;br /&gt;
+If an enlarged spleen is causing complications, your doctor may recommend treatment. Your options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical removal of the spleen (splenectomy).&lt;/strong&gt; If the size of your spleen becomes painful and begins to cause harmful complications, and if you don&apos;t respond to other forms of therapy, you may benefit from having your spleen surgically removed. Risks include infection, excessive bleeding and blood clot formation leading to stroke or pulmonary embolism. After the procedure, some people experience liver enlargement and an abnormal increase in platelet count.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy drugs may reduce the size of an enlarged spleen and relieve related symptoms, such as pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation uses high-powered beams, such as X-rays, to kill cells. Radiation therapy can help reduce the size of the spleen, when surgical removal isn&apos;t an option. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stem cells transplant&lt;/strong&gt; &lt;br /&gt;
+Allogeneic stem cell transplantation &amp;mdash; stem cell transplantation from a suitable donor &amp;mdash; is the only treatment that has the potential to cure myelofibrosis. But it also has a high risk of life-threatening side effects. Most people with myelofibrosis, because of age, stability of the disease or other health problems, don&apos;t qualify for this treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Prior to a stem cell transplant, also called a bone marrow transplant, you receive very high doses of chemotherapy or radiation therapy to destroy your diseased bone marrow. Then you receive infusions of stem cells from a compatible donor. After the procedure, there&apos;s a risk that the new stem cells will react against your body&apos;s healthy tissues, causing potentially fatal damage (graft-versus-host disease). Other risks include organ or blood vessel damage, cataracts and the development of a different cancer later on. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors are studying a reduced-intensity transplant, also called a nonmyeloablative transplant or minitransplant. Reduced-intensity transplants use lower doses of pre-transplant chemotherapy and radiation. Although reduced-intensity transplantation has side effects, doctors hope that it will one day be a safer option for older adults. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with myelofibrosis may involve coping with pain, discomfort, uncertainty and the side effects of long-term treatments. The following steps may help ease the challenge and make you feel more comfortable and in charge of your health: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about your condition.&lt;/strong&gt; Myelofibrosis is fairly uncommon. To help you find accurate and trustworthy information, ask your health care professionals to direct you toward appropriate sources. Based on these sources, find out as much as you can about myelofibrosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get support.&lt;/strong&gt; Take this opportunity to lean on family and friends. It can be tough to talk about your diagnosis, and you&apos;ll likely get a range of reactions when you share the news. But talking about your diagnosis and passing along information about your condition can help. So can the offers of help that often result. You may also benefit from joining a support group, either in your community or on the Internet. A support group of people with the same or a similar diagnosis, such as a myeloproliferative disorder or another rare disease, can be a source of useful information, practical tips and encouragement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Explore ways to cope with the disease.&lt;/strong&gt; If you have myelofibrosis, you may face frequent blood work and medical appointments and regular bone marrow exams. Some days, you may feel sick even if you don&apos;t look sick. And some days, you may just be sick of being sick. Try to find some activities that help, whether it&apos;s yoga, exercise, social outings or adopting a more flexible work schedule. Talk to a counselor, therapist or oncology social worker if you need help dealing with the emotional challenges of this disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Myelofibrosis
+	</Title>
+	<Abstract>
+		Myelofibrosis &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this bone marrow disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01271" LinkType="Internal" ObjectID="D870A127-09C3-EB7A-05D2BDC60612CD97" Title="Splenectomy" Url="http://www.mayoclinic.com/health/splenectomy/MY01271" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="Video" DocID="MM00787" LinkType="Internal" ObjectID="255D3C99-F208-37DF-CDFEAEEC6D81B5A7" Title="Video: How a stem cell transplant works" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MM00787" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00351" LinkType="Internal" ObjectID="97C21193-86CD-4C2D-A18052CFD8125EBF" Title="Leukemia" Url="http://www.mayoclinic.com/health/leukemia/DS00351" />
+	</RelatedLinksBox>
+</Disease>

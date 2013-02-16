@@ -1,0 +1,353 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00603
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/epididymitis/DS00603
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2054" Title="Testes">
+						<Keyword MCVID="2407" Title="Epididymitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B420BC7E-2A5D-9994-EC56FA7314E1B79A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				epididymitis
+			</MetaKeyword>
+			<MetaKeyword>
+				epididymo-orchitis
+			</MetaKeyword>
+			<MetaKeyword>
+				epididymis infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epididymitis is an inflammation of the coiled tube (epididymis) at the back of the testicle that stores and carries sperm. Pain and swelling are the most common signs and symptoms of epididymitis. Males of any age can get epididymitis, but it&apos;s most common in men between the ages of 14 and 35.
+&lt;/p&gt;
+&lt;p&gt;
+Epididymitis is most often caused by a bacterial infection or by a sexually transmitted infection (STI), such as gonorrhea or chlamydia. In some cases, the testicle also may become inflamed &amp;mdash; a condition called epididymo-orchitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epididymitis symptoms depend on the cause. They can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A tender, swollen, red or warm scrotum&lt;/li&gt;
+	&lt;li&gt;Testicle pain and tenderness, usually on one side &amp;mdash; the pain may get worse when you have a bowel movement&lt;/li&gt;
+	&lt;li&gt;Painful urination or an urgent or frequent need to urinate&lt;/li&gt;
+	&lt;li&gt;Painful intercourse or ejaculation&lt;/li&gt;
+	&lt;li&gt;Chills and a fever&lt;/li&gt;
+	&lt;li&gt;A lump on the testicle&lt;/li&gt;
+	&lt;li&gt;Enlarged lymph nodes in the groin (inguinal nodes)&lt;/li&gt;
+	&lt;li&gt;Pain or discomfort in the lower abdomen or pelvic area&lt;/li&gt;
+	&lt;li&gt;Discharge from the penis&lt;/li&gt;
+	&lt;li&gt;Blood in the semen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic epididymitis&lt;/strong&gt;&lt;br /&gt;
+Signs and symptoms of epididymitis usually develop over a day or two and get better with treatment. In some cases, epididymitis may not clear up completely or may recur. This is known as chronic epididymitis. Symptoms of chronic epididymitis may come on gradually. Sometimes the cause of chronic epididymitis is not identified.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Never ignore scrotal pain or swelling. A number of conditions can cause testicular pain, and some of the conditions require immediate treatment. Some conditions that cause scrotal pain or swelling can get worse or cause permanent damage if not treated promptly.
+&lt;/p&gt;
+&lt;p&gt;
+Testicular torsion, caused by a twisted spermatic cord, can cause pain similar to that caused by epididymitis and requires emergency treatment because it blocks blood flow to the testicle.
+&lt;/p&gt;
+&lt;p&gt;
+See a doctor if you have discharge from your penis or pain when you urinate.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the scrotum, testicle and epididymis 
+" Caption="Epididymitis is an inflammation of the epididymis, a small, coiled tube at the back of the testicle. 
+" Height="60" Title="Scrotum, testicle and epididymis" URI="/images/image_popup/thumbs/m7_epididymisthu.jpg" Width="60" />
+				<Image Alt="Illustration of the scrotum, testicle and epididymis 
+" Caption="Epididymitis is an inflammation of the epididymis, a small, coiled tube at the back of the testicle. 
+" Height="363" Title="Scrotum, testicle and epididymis" URI="/images/image_popup/m7_epididymis.jpg" Width="400" />
+				<HTML>
+					Epididymitis is an inflammation of the epididymis, a small, coiled tube at the back of the testicle. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epididymitis has a number of causes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sexually transmitted infections (STIs).&lt;/strong&gt; STIs, particularly gonorrhea and chlamydia, are the most common cause of epididymitis in young, sexually active men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other infections.&lt;/strong&gt; Boys, older men and homosexual men are more likely to have epididymitis caused by a nonsexually transmitted bacterial infection. For men and boys who&apos;ve had urinary tract infections or prostate infections, bacteria may spread from the infected site to the epididymis. Rarely, epididymitis is caused by a fungal infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The heart medication amiodarone (Pacerone).&lt;/strong&gt; In some cases, this anti-arrhythmic medication causes inflammation of the epididymis. Epididymitis caused by amiodarone is treated by temporarily discontinuing the drug or reducing the dose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tuberculosis.&lt;/strong&gt; In some cases, tuberculosis can cause epididymitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine in the epididymis.&lt;/strong&gt; Known as chemical epididymitis, this occurs when urine flows backward into the epididymis. It may occur with heavy lifting or straining.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="60" Title="Male reproductive system" URI="/images/image_popup/thumbs/r7_malereprothu.jpg" Width="60" />
+				<Image Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="283" Title="Male reproductive system" URI="/images/image_popup/r7_malerepro.jpg" Width="400" />
+				<HTML>
+					The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Sexually transmitted epididymitis&lt;/strong&gt;&lt;br /&gt;
+Several factors increase your risk of getting epididymitis caused by a sexually transmitted infection (STI), including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High-risk sexual behaviors,&lt;/strong&gt; such as having multiple sex partners, having sex with a partner with an STI and having sex without a condom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Personal history of an STI.&lt;/strong&gt; You&apos;re at increased risk of an infection that causes epididymitis if you&apos;ve had an STI in the past.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Non-STI infections&lt;/strong&gt;&lt;br /&gt;
+Several things increase your risk of epididymitis caused by an infection other than an STI, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Past prostate or urinary tract infections.&lt;/strong&gt; Chronic urinary tract infections or prostate infections are linked to bacterial infections that can cause epididymitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An uncircumcised penis or an anatomical abnormality of the urinary tract.&lt;/strong&gt; These conditions increase your risk of epididymitis caused by a bacterial infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical procedures that affect the urinary tract.&lt;/strong&gt; Some procedures, such as surgery or having a urinary catheter or scope inserted into the penis, can introduce bacteria into the genital-urinary tract, leading to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prostate enlargement.&lt;/strong&gt; Having an enlarged prostate that obstructs bladder function and causes urine to remain in the bladder puts you at higher risk of bladder infections, which increases the risk of epididymitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epididymitis may eventually cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scrotal abscess, when infected tissue fills with pus&lt;/li&gt;
+	&lt;li&gt;Chronic epididymitis, which can occur when untreated acute epididymitis leads to recurrent episodes&lt;/li&gt;
+	&lt;li&gt;Shrinkage of the affected testicle (atrophy)&lt;/li&gt;
+	&lt;li&gt;Reduced fertility, but this is rare&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the condition spreads from your epididymis to your testicle, the resulting condition is known as epididymo-orchitis. Signs, symptoms and treatment options are basically the same as they are for epididymitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Get immediate medical treatment if you develop sudden, severe scrotal pain or swelling, especially within several hours of an injury to your scrotum. This may indicate testicular torsion, an emergency medical condition.
+&lt;/p&gt;
+&lt;p&gt;
+If you have other symptoms common to epididymitis, call your doctor. After your initial appointment, your doctor may refer you to a doctor who specializes in urinary tract and male sexual disorders (urologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note possible sources of infection.&lt;/strong&gt; These may include engaging in unprotected sex, having multiple sex partners or having sex with a new partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions you&apos;re being treated for and the names of any medications, vitamins or supplements that you&apos;re taking. Tell your doctor if you are taking a heart medication called amiodarone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For suspected epididymitis, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have epididymitis?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should my partner be tested for STIs?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should my partner also be treated?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment can I expect improvement?&lt;/li&gt;
+	&lt;li&gt;When can I safely resume sexual activity?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications related to epididymitis?&lt;/li&gt;
+	&lt;li&gt;If I have an underlying infection, how can I reduce the risk of passing it to others?&lt;/li&gt;
+	&lt;li&gt;I have these other medical problems. How can I best treat them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first develop symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to come and go?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include discharge from your penis?&lt;/li&gt;
+	&lt;li&gt;Have you ever noticed blood in your semen?&lt;/li&gt;
+	&lt;li&gt;Do you have pain in your lower abdomen?&lt;/li&gt;
+	&lt;li&gt;Do you have pain during intercourse or when you ejaculate?&lt;/li&gt;
+	&lt;li&gt;Do you have a frequent or urgent need to urinate?&lt;/li&gt;
+	&lt;li&gt;Does it hurt when you urinate?&lt;/li&gt;
+	&lt;li&gt;Do you practice safe sex?&lt;/li&gt;
+	&lt;li&gt;How many sexual partners have you had?&lt;/li&gt;
+	&lt;li&gt;Have you ever been tested for STIs?&lt;/li&gt;
+	&lt;li&gt;Has your partner been tested for STIs?&lt;/li&gt;
+	&lt;li&gt;Do your hobbies or work involve heavy lifting?&lt;/li&gt;
+	&lt;li&gt;Have you had one or more prostate or urinary tract infections in the past?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other prostate conditions?&lt;/li&gt;
+	&lt;li&gt;Have you ever had surgery in or near your urinary tract, or had surgery that required the insertion of a catheter?&lt;/li&gt;
+	&lt;li&gt;Are you taking any medications?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, avoid all sexual contact that could put your partner at risk of contracting an STI. This includes sexual intercourse, oral sex and any skin-to-skin contact with your genitals. Let your sex partner or partners know about your signs and symptoms, so they can also seek testing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will do a physical exam, which may reveal enlarged lymph nodes in your groin and an enlarged testicle on the affected side. Your doctor also may do a rectal examination to check for prostate enlargement or tenderness and order blood and urine tests to check for infection and other abnormalities.
+&lt;/p&gt;
+&lt;p&gt;
+Other tests your doctor might order include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sexually transmitted infection (STI) screening.&lt;/strong&gt; This involves obtaining a sample of discharge from your urethra. Your doctor may insert a narrow swab into the end of your penis to obtain the sample, which is then tested for the presence of bacteria or other infectious organisms. The results can be used to select the most effective antibiotic for treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound imaging.&lt;/strong&gt; This noninvasive test uses high-frequency sound waves to create images of structures inside your body and is used to rule out conditions, such as twisting of the spermatic cord (testicular torsion) or a testicular tumor. Your doctor may use this test if your symptoms began with sudden, severe pain and other tests have not been definitive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nuclear scan of the testicles.&lt;/strong&gt; Also used to rule out testicular torsion, this test involves injecting trace amounts of radioactive material into your bloodstream. Special cameras then can detect areas in your testicles that receive less blood flow, indicating torsion, or more blood flow, supporting the diagnosis of epididymitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epididymitis caused by a sexually transmitted infection (STI) or other infection is treated with antibiotic medications. Your sexual partner will also need treatment. Make sure your doctor is aware of any other medications you&apos;re taking or any allergies you have. This information, as well as determining what type of infection you have, will help your doctor select the best treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to take the entire course of antibiotics prescribed by your doctor, even though you may feel better in one to three days after you start treatment. If you&apos;re not feeling better in that time, contact your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+When you&apos;ve finished your medication, it&apos;s a good idea to return to your doctor for a follow-up visit to be sure that the infection has cleared up. If it hasn&apos;t, your doctor may try another antibiotic. If the infection still doesn&apos;t clear, your doctor may do further tests to determine whether your epididymitis is caused by something other than a bacterial infection or an STI.
+&lt;/p&gt;
+&lt;p&gt;
+If a pocket of pus (abscess) has formed, it may need to be drained, and in some cases part or all of the epididymis needs to be removed surgically (epididymectomy). Surgery may also be considered if epididymitis is due to underlying physical defects, but many people continue to have scrotal pain following epididymectomy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having epididymitis usually means you&apos;re experiencing considerable pain and discomfort. To ease your symptoms, try these suggestions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest in bed.&lt;/strong&gt; Depending on the severity of your discomfort, you may want to stay in bed one or two days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate your scrotum.&lt;/strong&gt; While lying down, place a folded towel under your scrotum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear an athletic supporter.&lt;/strong&gt; A supporter provides better support than boxers do for the scrotum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cold packs to your scrotum.&lt;/strong&gt; Wrap the pack in a thin towel and remove the cold pack every 30 minutes or so to avoid damaging your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t have sex until your infection has cleared up.&lt;/strong&gt; Ask your doctor when you can have sex again.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your epididymitis was caused by a sexually transmitted infection (STI), your partner also will need treatment. If your partner doesn&apos;t get treatment, you may get the STI again. Safer sexual practices, such as monogamous sex and condom use, help protect against STIs that can cause epididymitis.
+&lt;/p&gt;
+&lt;p&gt;
+If you have recurrent urninary tract infections or other risk factors for epididymitis, your doctor may discuss with you other ways to prevent epididymitis from recurring.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Epididymitis
+	</Title>
+	<Abstract>
+		Epididymitis &amp;mdash; Comprehensive overview covers symptoms, treatment of this inflamed testicle condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+	</RelatedLinksBox>
+</Disease>

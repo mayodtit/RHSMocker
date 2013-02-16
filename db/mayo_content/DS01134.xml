@@ -1,0 +1,245 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01134
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/black-hairy-tongue/DS01134
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-22
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="2237" Title="Black hairy tongue" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BCF5E1F8-C633-7457-D8ED5A10205CB476
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				black hairy tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				black tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				coated tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				hairy tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				black coated tongue
+			</MetaKeyword>
+			<MetaKeyword>
+				tongue disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				tongue problems
+			</MetaKeyword>
+			<MetaKeyword>
+				lingua villosa nigra
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Black, hairy tongue is a temporary, harmless (benign), painless oral condition that gives your tongue a dark, furry appearance. The distinct look of black, hairy tongue usually results from an overgrowth of bacteria in the mouth.
+&lt;/p&gt;
+&lt;p&gt;
+Although black, hairy tongue may look alarming, it doesn&apos;t cause any health problems. Black, hairy tongue usually resolves without medical treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing black, hairy tongue 
+" Caption="A black, hairy-looking tongue typically is caused by an overgrowth of bacteria and sometimes yeast in the mouth. 
+" Height="60" Title="Black, hairy tongue" URI="/images/image_popup/thumbs/de7_black_hairy_tonguethu.jpg" Width="60" />
+				<Image Alt="Photo showing black, hairy tongue 
+" Caption="A black, hairy-looking tongue typically is caused by an overgrowth of bacteria and sometimes yeast in the mouth. 
+" Height="300" Title="Black, hairy tongue" URI="/images/image_popup/de7_black_hairy_tongue.jpg" Width="400" />
+				<HTML>
+					A black, hairy-looking tongue typically is caused by an overgrowth of bacteria and sometimes yeast in the mouth. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of black, hairy tongue include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Black, yellow or brown discoloration of the tongue&lt;/li&gt;
+	&lt;li&gt;A hairy or furry appearance of the tongue&lt;/li&gt;
+	&lt;li&gt;Altered taste or metallic taste in mouth&lt;/li&gt;
+	&lt;li&gt;Bad breath (halitosis)&lt;/li&gt;
+	&lt;li&gt;Gagging sensation in some people&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Though unattractive, black, hairy tongue is usually a temporary, harmless condition. See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re concerned about the appearance of your tongue&lt;/li&gt;
+	&lt;li&gt;Your signs and symptoms persist for more than 10 days&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing black, hairy tongue 
+" Caption="A black, hairy-looking tongue typically is caused by an overgrowth of bacteria and sometimes yeast in the mouth. 
+" Height="60" Title="Black, hairy tongue" URI="/images/image_popup/thumbs/de7_black_hairy_tonguethu.jpg" Width="60" />
+				<Image Alt="Photo showing black, hairy tongue 
+" Caption="A black, hairy-looking tongue typically is caused by an overgrowth of bacteria and sometimes yeast in the mouth. 
+" Height="300" Title="Black, hairy tongue" URI="/images/image_popup/de7_black_hairy_tongue.jpg" Width="400" />
+				<HTML>
+					A black, hairy-looking tongue typically is caused by an overgrowth of bacteria and sometimes yeast in the mouth. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Black, hairy tongue typically results when projections on the tongue called papillae grow longer (elongate) and don&apos;t shed like normal. This makes the tongue look hairy. Debris, bacteria or other organisms can collect on the papillae and result in black, yellow or brown discoloration.
+&lt;/p&gt;
+&lt;p&gt;
+The cause of black, hairy tongue can&apos;t always be determined. However, potential causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Changes in the normal bacteria or yeast content of the mouth following antibiotic use&lt;/li&gt;
+	&lt;li&gt;Poor oral hygiene&lt;/li&gt;
+	&lt;li&gt;Breathing through your mouth&lt;/li&gt;
+	&lt;li&gt;Medications containing bismuth, such as Pepto-Bismol&lt;/li&gt;
+	&lt;li&gt;Regular use of mouthwashes containing oxidizing agents, such as peroxide, or astringent agents, such as witch hazel or menthol&lt;/li&gt;
+	&lt;li&gt;Heavy tobacco use&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If black, hairy tongue persists despite brushing your teeth and tongue twice daily, make an appointment with your doctor or dentist. Here&apos;s information to help you get ready for your appointment, and to know what to expect from your doctor or dentist.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Consider preparing a list of questions to ask your doctor or dentist. Some questions you may want to discuss include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition clears up on its own?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor or dentist&lt;/strong&gt;&lt;br /&gt;
+Your doctor or dentist may ask you questions about your symptoms and dental care practices. He or she may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the symptoms?&lt;/li&gt;
+	&lt;li&gt;Is the condition bothersome?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms occasional or continuous?&lt;/li&gt;
+	&lt;li&gt;How often do you brush your teeth or clean your dentures?&lt;/li&gt;
+	&lt;li&gt;How often do you floss?&lt;/li&gt;
+	&lt;li&gt;What kind of mouthwash do you use?&lt;/li&gt;
+	&lt;li&gt;How much coffee or tea do you drink?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco products?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;Do you breathe through your mouth?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Black, hairy tongue typically doesn&apos;t require medical treatment. Though unattractive, it&apos;s a temporary, harmless condition.
+&lt;/p&gt;
+&lt;p&gt;
+Practicing good oral hygiene and eliminating factors that potentially contribute to the condition &amp;mdash; such as tobacco use or medications that contain bismuth &amp;mdash; help resolve black, hairy tongue. Talk to your doctor or dentist before discontinuing a prescribed medication.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To practice good oral health and to remove the tongue discoloration:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brush your tongue.&lt;/strong&gt; Giving your tongue a gentle brushing whenever you brush your teeth removes dead cells, bacteria and food debris. Use a soft-bristled toothbrush or a flexible tongue scraper.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brush after eating or drinking.&lt;/strong&gt; Brush your teeth at least twice a day and ideally after every meal, using a fluoride toothpaste. If you can&apos;t brush after eating, at least try to rinse your mouth with water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Floss at least once a day.&lt;/strong&gt; Proper flossing removes food particles and plaque from between your teeth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visit your dentist regularly.&lt;/strong&gt; Get professional tooth cleanings and regular oral exams, which can help your dentist prevent problems or spot them early. Your dentist can recommend a schedule for your situation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Black, hairy tongue
+	</Title>
+	<Abstract>
+		Black, hairy tongue &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+	</RelatedLinksBox>
+</Disease>

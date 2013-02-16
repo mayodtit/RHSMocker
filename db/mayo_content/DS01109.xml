@@ -1,0 +1,420 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01109
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chemo-brain/DS01109
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-02
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2082" Title="General">
+						<Keyword MCVID="3594" Title="Chemo brain" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EAE2DEEA-E7FF-0DBD-1057144038EA6323
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chemo brain
+			</MetaKeyword>
+			<MetaKeyword>
+				chemobrain
+			</MetaKeyword>
+			<MetaKeyword>
+				chemo fog
+			</MetaKeyword>
+			<MetaKeyword>
+				chemo side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				side effects of chemo
+			</MetaKeyword>
+			<MetaKeyword>
+				chemotherapy side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				side effects of chemotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				chemofog
+			</MetaKeyword>
+			<MetaKeyword>
+				cognitive dysfunction
+			</MetaKeyword>
+			<MetaKeyword>
+				mild cognitive impairment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chemo brain is a common term used by cancer survivors to describe thinking and memory problems that can occur after cancer treatment. Chemo brain can also be called chemo fog, chemotherapy-related cognitive impairment or cognitive dysfunction. 
+&lt;/p&gt;
+&lt;p&gt;
+Though chemo brain is a widely used term, it&apos;s misleading. It&apos;s unlikely that chemotherapy is the sole cause of concentration and memory problems in cancer survivors. 
+&lt;/p&gt;
+&lt;p&gt;
+Despite the many questions, it&apos;s clear that the memory problems commonly called chemo brain can be a frustrating and debilitating side effect of cancer and its treatment. More study is needed to understand this condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of chemo brain may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being unusually disorganized&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Difficulty finding the right word&lt;/li&gt;
+	&lt;li&gt;Difficulty learning new skills&lt;/li&gt;
+	&lt;li&gt;Difficulty multitasking&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Feeling of mental fogginess&lt;/li&gt;
+	&lt;li&gt;Short attention span&lt;/li&gt;
+	&lt;li&gt;Short-term memory problems&lt;/li&gt;
+	&lt;li&gt;Taking longer than usual to complete routine tasks&lt;/li&gt;
+	&lt;li&gt;Trouble with verbal memory, such as remembering a conversation&lt;/li&gt;
+	&lt;li&gt;Trouble with visual memory, such as recalling an image or list of words&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience troubling memory or thinking problems, make an appointment with your doctor. Keep a journal of your signs and symptoms so that your doctor can better understand how your memory problems are affecting your everyday life.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes signs and symptoms of memory problems in cancer survivors. Cancer-related causes could include:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer treatments&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chemotherapy&lt;/li&gt;
+	&lt;li&gt;Hormone therapy&lt;/li&gt;
+	&lt;li&gt;Immunotherapy&lt;/li&gt;
+	&lt;li&gt;Radiation therapy&lt;/li&gt;
+	&lt;li&gt;Stem cell transplant&lt;/li&gt;
+	&lt;li&gt;Surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of cancer treatment&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Menopause (associated with hormone therapy)&lt;/li&gt;
+	&lt;li&gt;Nutritional deficiencies&lt;/li&gt;
+	&lt;li&gt;Sleep problems, such as insomnia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emotional reactions to cancer diagnosis and treatment&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inherited susceptibility to chemo brain&lt;/li&gt;
+	&lt;li&gt;Medications for other cancer-related signs and symptoms, such as pain medications&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of memory problems in cancer survivors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brain cancer&lt;/li&gt;
+	&lt;li&gt;Chemotherapy given directly to the central nervous system&lt;/li&gt;
+	&lt;li&gt;Chemotherapy combined with whole-brain radiation&lt;/li&gt;
+	&lt;li&gt;Higher doses of chemotherapy or radiation&lt;/li&gt;
+	&lt;li&gt;Radiation therapy to the brain&lt;/li&gt;
+	&lt;li&gt;Younger age at time of cancer diagnosis and treatment&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The severity and duration of the symptoms sometimes described as chemo brain differ from person to person. Some cancer survivors may return to work, but find tasks take extra concentration or time. Others will be unable to return to work. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience severe memory or concentration problems that make it difficult to do your job, tell your doctor. You may be referred to an occupational therapist, who can help you adjust to your current job or identify your strengths so that you may find a new job. 
+&lt;/p&gt;
+&lt;p&gt;
+In rare cases, people with memory and concentration problems are unable to work and must file for disability benefits. Ask your health care team for a referral to an oncology social worker or a similar professional who can help you understand your options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re currently undergoing cancer treatment, talk to your oncologist about your signs and symptoms. If you&apos;ve completed treatment, you might start by making an appointment with your family doctor or a general practitioner. In some cases, you may be referred to a professional who specializes in helping people cope with memory difficulties (neuropsychologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a journal of your memory lapses.&lt;/strong&gt; Describe the situations in which you experience memory problems. Note what you were doing and what type of difficulty you experienced.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along or bring a recorder.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot. Record the conversation with your doctor so you can listen to it later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your visit. List your questions from most important to least important in case time runs out. For chemo brain, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;How long do symptoms typically last?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests can help determine whether my symptoms are caused by cancer treatment?&lt;/li&gt;
+	&lt;li&gt;Should I see a neuropsychologist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;What is the best treatment for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there things I can do on my own, in addition to the treatment you&apos;re suggesting, to help improve my memory problems?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How do your symptoms affect your everyday life?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Track your symptoms in a journal. Note the time of day and the situations when memory problems occur. Patterns in your symptoms may help your doctor better understand what could be causing your symptoms and the best way to help you cope. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no clear definition of chemo brain, so no tests exist to diagnose this condition. Cancer survivors who experience these symptoms often score in normal ranges on memory tests.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend blood tests, brain scans or other tests to rule out other causes of memory problems. But if no apparent cause can be found for your symptoms, your doctor may refer you to a specialist who can help you cope with memory changes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes chemo brain, and no cure has been identified. In most cases, cancer-related memory problems are temporary, so treatment focuses on coping with symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+No standard treatment has been developed for cancer-related memory problems. Because symptoms and severity differ from person to person, your doctor can work with you to develop an individualized approach to coping.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Controlling other causes of memory problems&lt;br /&gt;
+&lt;/strong&gt;Cancer and cancer treatment can lead to other conditions, such as anemia, depression, sleep problems and early menopause, which can contribute to memory problems. Controlling these other factors may make it easier to cope with these symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Learning to adapt and cope with memory changes&lt;br /&gt;
+&lt;/strong&gt;A neuropsychologist, who specializes in diagnosing and treating conditions that affect memory and thinking, can create a plan to help you cope with chemo brain symptoms. Doctors sometimes refer to this as cognitive rehabilitation or cognitive remediation.
+&lt;/p&gt;
+&lt;p&gt;
+Learning to adapt and cope with memory changes may involve:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Repetitive exercises to train your brain.&lt;/strong&gt; Memory and thinking exercises may help your brain repair broken circuits that may contribute to chemo brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tracking and understanding what influences memory problems.&lt;/strong&gt; Carefully tracking your memory problems may reveal ways to cope. For instance, if you become more easily distracted when you&apos;re hungry or tired, you could schedule difficult tasks that require extra concentration for the time of day when you feel your best.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learning coping strategies.&lt;/strong&gt; You may learn new ways of doing everyday tasks to help you concentrate. For instance, you may learn to take notes or make an outline of written material as you read. Or a therapist may help you learn ways of speaking that help you commit conversations to memory and then retrieve those memories later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress-relief techniques.&lt;/strong&gt; Stressful situations can make memory problems more likely. And having memory problems can be stressful. To end the cycle, you may learn relaxation techniques. These techniques, such as progressive muscle relaxation, may help you identify stress and help you cope.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;No medications have been approved to treat chemo brain. But medications approved for other conditions may be considered if you and your doctor agree they may offer some benefit. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications that are sometimes used in people with these symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Methylphenidate (Concerta, Ritalin, others), a drug used to treat attention-deficit/hyperactivity disorder (ADHD)&lt;/li&gt;
+	&lt;li&gt;Donepezil (Aricept), a drug used in people with Alzheimer&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Modafinil (Provigil), a drug used in people with certain sleep disorders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More study is needed to understand how or if these drugs may be helpful for people with these types of memory problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps to ease chemo brain symptoms on your own. For instance, try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Control what you can about your working environment.&lt;/strong&gt; If noise and commotion are contributing to your distraction, try to find a quiet corner where you can concentrate. Soft music may help drown out other noises.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare yourself for success.&lt;/strong&gt; Before tackling a complicated task that requires concentration, take steps to ensure that you will have the best chance for success. Eat so you won&apos;t be distracted by hunger. Pick a time of day when you&apos;ll be the most alert. Get a good night&apos;s sleep. Have a plan so you know exactly what you&apos;ll need to do in order to complete your task.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay organized.&lt;/strong&gt; Use calendars or planners to keep on task. That way you won&apos;t spend time wondering if you&apos;re forgetting an appointment or an item on your to-do list. Write everything down in your planner. Make organization a priority at home and at work, too. Having an organized work space means you can spend more time on tasks that you need to accomplish.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clear your mind of distractions.&lt;/strong&gt; When distracting thoughts pop up, write them down in your planner. Recording your thoughts will help to quickly clear them and ensure that you remember them later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take frequent breaks.&lt;/strong&gt; Divide your tasks into manageable portions and take a break each time you complete one part. Give yourself a short rest so that you&apos;ll be able to continue later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise your brain.&lt;/strong&gt; Try crossword puzzles or number games to exercise your brain. Take up a new hobby or master a new skill, such as learning to play a musical instrument or learning a language.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise your body.&lt;/strong&gt; Moderate exercise, such as brisk walking, can help you cope with stress, fatigue and depression. All can contribute to memory problems. If you haven&apos;t been active lately, get the OK from your doctor first.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative treatments have been found to cure chemo brain. If you&apos;re interested in trying alternative treatments for your symptoms, discuss the risks and benefits with your doctor. Alternative treatments for other types of memory problems are also touted as helpful for chemo brain, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ginkgo.&lt;/strong&gt; Supplements containing ginkgo leaves have shown some promise in treating age-related memory changes in older adults, but more study is needed. Ginkgo supplements are generally safe, but they can interfere with some common medications, including blood thinners. Talk to your doctor before beginning ginkgo supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin E.&lt;/strong&gt; Vitamin E may be beneficial for brain cells, but more study is needed. Vitamin E supplements are generally safe when taken in recommended doses, but they can interfere with common medications, including blood thinners and chemotherapy drugs. It may be easier and safer to choose foods that are high in vitamin E, such as vegetable oils and eggs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chemo brain symptoms can be frustrating and debilitating. With time, you&apos;ll find ways to adapt so that concentration will become easier and memory problems may fade. Until then, there are ways to cope. Try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Understand that memory problems happen to everyone.&lt;/strong&gt; Despite your best strategies for dealing with your memory changes, you&apos;ll still have the occasional lapse. It happens to everyone. While you may have little control over the cancer-treatment-related memory changes, you can control other causes of memory lapses that are common to everyone, such as being overly tired, distracted or disorganized.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time each day to relax.&lt;/strong&gt; Stress can contribute to memory and concentration problems. Devote time each day to stress-relief activities, such as exercise, listening to music, meditation or writing in a journal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be honest with others about your symptoms.&lt;/strong&gt; Be open and honest with the people who are close to you about your chemo brain symptoms. Explain your symptoms and also suggest ways friends and family can help. For instance, you might ask a friend to remind you of plans by both phone and email.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chemo brain
+	</Title>
+	<Abstract>
+		Chemo brain &amp;mdash; Comprehensive overview covers symptoms, treatment of memory changes associated with cancer treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01407" LinkType="Internal" ObjectID="D02CD117-E7FF-0DBD-1B172C8988F7AFB1" Title="Chemotherapy side effects: A cause of heart disease?" Url="http://www.mayoclinic.com/health/chemotherapy-side-effects/AN01407" />
+		<LinkItem ContentType="Answer" DocID="AN01572" LinkType="Internal" ObjectID="C68DEC56-E7FF-0DBD-1941747CC18DBFD1" Title="High-dose vitamin C: Can it kill cancer cells?" Url="http://www.mayoclinic.com/health/alternative-cancer-treatment/AN01572" />
+		<LinkItem ContentType="Answer" DocID="AN00463" LinkType="Internal" ObjectID="C2D4FA32-ED4B-4789-9CB4AED6DF757672" Title="Tumor vs. cyst: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/tumor/AN00463" />
+		<LinkItem ContentType="Answer" DocID="AN01741" LinkType="Internal" ObjectID="B48F4362-E7FF-0DBD-1E1B9FD0D1788369" Title="Curcumin: Can it slow cancer growth?" Url="http://www.mayoclinic.com/health/curcumin/AN01741" />
+		<LinkItem ContentType="Video" DocID="MM00638" LinkType="Internal" ObjectID="B3684D67-2A5D-9994-E3BD8051DE32E1D8" Title="Video: How cancer spreads" Url="http://www.mayoclinic.com/health/cancer/MM00638" />
+		<LinkItem ContentType="Answer" DocID="AN00654" LinkType="Internal" ObjectID="8022D52A-A7C9-4E25-A903FCD7053AB998" Title="Small cell, large cell cancer: What this means" Url="http://www.mayoclinic.com/health/cancer/AN00654" />
+		<LinkItem ContentType="Answer" DocID="AN01111" LinkType="Internal" ObjectID="6B497AE4-CE04-4860-9C20CAF35CFD35FE" Title="Atypical cells: Are they cancer?" Url="http://www.mayoclinic.com/health/atypical-cells/AN01111" />
+		<LinkItem ContentType="SlideShow" DocID="CA00075" LinkType="Internal" ObjectID="491544AC-2A5D-9994-EBE274EA4E6F431B" Title="Slide show: Radiation therapy treatment planning" Url="http://www.mayoclinic.com/health/radiation-therapy/CA00075" />
+		<LinkItem ContentType="Video" DocID="MM00781" LinkType="Internal" ObjectID="326F4A39-AAE6-1726-5451D1A058D6D11F" Title="Video: PICC line placement" Url="http://www.mayoclinic.com/health/picc-line-placement/MM00781" />
+		<LinkItem ContentType="Article" DocID="CA00082" LinkType="Internal" ObjectID="D40A35C4-E7FF-0DBD-1DF17BA0656E9D5C" Title="Monoclonal antibody drugs for cancer treatment: How they work" Url="http://www.mayoclinic.com/health/monoclonal-antibody/CA00082" />
+		<LinkItem ContentType="Article" DocID="CA00032" LinkType="Internal" ObjectID="CF461BE7-A93A-431C-A5C6BE169724D763" Title="Cancer fatigue: Why it occurs and how to cope" Url="http://www.mayoclinic.com/health/cancer-fatigue/CA00032" />
+		<LinkItem ContentType="Article" DocID="HQ01135" LinkType="Internal" ObjectID="C596EDA8-DEBC-444F-B01153A818A2C304" Title="Eating during cancer treatment: Tips to make food tastier" Url="http://www.mayoclinic.com/health/cancer/HQ01135" />
+		<LinkItem ContentType="Article" DocID="CA00027" LinkType="Internal" ObjectID="B6D4F8E1-4012-435D-899FEE1C9F28DDE1" Title="Cancer treatment decisions: 5 steps to help you decide" Url="http://www.mayoclinic.com/health/cancer-treatment/CA00027" />
+		<LinkItem ContentType="Article" DocID="CM00002" LinkType="Internal" ObjectID="B3599E9F-4C7B-4CA3-86132BAA54B5B549" Title="Alternative cancer treatments: 11 options to consider" Url="http://www.mayoclinic.com/health/cancer-treatment/CM00002" />
+		<LinkItem ContentType="Article" DocID="SA00071" LinkType="Internal" ObjectID="B2DAA3D8-7A1F-411A-A37EF20E6550B858" Title="Cancer treatment for women: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00071" />
+		<LinkItem ContentType="Article" DocID="CA00071" LinkType="Internal" ObjectID="AE7710F9-DC59-4055-AE4FFE4DE8279DE3" Title="Cancer survivors: Managing your emotions after cancer treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00071" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+		<LinkItem ContentType="Article" DocID="CA00012" LinkType="Internal" ObjectID="987C514C-6756-4FF5-8B85CDD6F07F4227" Title="Adjuvant therapy: Treatment to keep cancer from returning" Url="http://www.mayoclinic.com/health/adjuvant-therapy/CA00012" />
+		<LinkItem ContentType="Article" DocID="HQ01507" LinkType="Internal" ObjectID="8DFF08EE-3CD0-429C-BF5E145C5669616D" Title="Thalidomide: Research advances in cancer and other conditions" Url="http://www.mayoclinic.com/health/thalidomide/HQ01507" />
+		<LinkItem ContentType="Article" DocID="HQ00379" LinkType="Internal" ObjectID="8DDBC22A-9DEB-49E4-B2DBFDCF6DA2411C" Title="Cancer diagnosis? Advice for dealing with what comes next" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ00379" />
+		<LinkItem ContentType="Article" DocID="CA00028" LinkType="Internal" ObjectID="8B47B93F-CC17-45BA-800A98CABFB05DD9" Title="Cancer blood tests: Lab tests used in cancer diagnosis" Url="http://www.mayoclinic.com/health/cancer-diagnosis/CA00028" />
+		<LinkItem ContentType="Article" DocID="CA00066" LinkType="Internal" ObjectID="7E5CD33E-822C-42B8-B199DEEF17241AA7" Title="Low blood cell counts: Side effect of cancer treatment" Url="http://www.mayoclinic.com/health/cancer-treatment/CA00066" />
+		<LinkItem ContentType="Article" DocID="CA00073" LinkType="Internal" ObjectID="5641F40F-D5E8-4D05-8D40E46BE23F8137" Title="Cancer survivors: Late effects of cancer treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00073" />
+		<LinkItem ContentType="Article" DocID="CA00054" LinkType="Internal" ObjectID="541725B4-E0E9-4E51-B6F11C30D8E481F0" Title="Mouth sores caused by cancer treatment: How to cope" Url="http://www.mayoclinic.com/health/mouth-sores/CA00054" />
+		<LinkItem ContentType="Article" DocID="SA00070" LinkType="Internal" ObjectID="50A88AAB-332D-4808-88247DA44ACE9849" Title="Cancer treatment for men: Possible sexual side effects" Url="http://www.mayoclinic.com/health/cancer-treatment/SA00070" />
+		<LinkItem ContentType="Article" DocID="CA00072" LinkType="Internal" ObjectID="4F532516-442A-4E9C-81344F818612FFC0" Title="Cancer survivors: Reconnecting with loved ones after treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00072" />
+		<LinkItem ContentType="Article" DocID="CA00021" LinkType="Internal" ObjectID="41AA58E8-49DF-4BD4-A186762D5AA2A009" Title="Cancer pain: Relief is possible" Url="http://www.mayoclinic.com/health/cancer-pain/CA00021" />
+		<LinkItem ContentType="Article" DocID="HQ01134" LinkType="Internal" ObjectID="3CD37714-A615-4D4A-BA2448B558BD4212" Title="No appetite? How to get nutrition during cancer treatment" Url="http://www.mayoclinic.com/health/cancer/HQ01134" />
+		<LinkItem ContentType="Article" DocID="CA00040" LinkType="Internal" ObjectID="2F9D923E-FABA-4607-97D0814475A93176" Title="Diarrhea: Cancer-related causes and how to cope" Url="http://www.mayoclinic.com/health/diarrhea/CA00040" />
+		<LinkItem ContentType="Article" DocID="CA00085" LinkType="Internal" ObjectID="27E0CC33-E7FF-0DBD-19A935FF90056FA0" Title="Cancer causes: Popular myths about the causes of cancer" Url="http://www.mayoclinic.com/health/cancer-causes/CA00085" />
+		<LinkItem ContentType="Article" DocID="CA00050" LinkType="Internal" ObjectID="20364489-D7FF-47AF-8865618B4A679A74" Title="When cancer returns: How to cope with cancer recurrence" Url="http://www.mayoclinic.com/health/cancer/CA00050" />
+		<LinkItem ContentType="Article" DocID="HQ01306" LinkType="Internal" ObjectID="1D66B64D-F30C-436E-ABFFEC8971616F07" Title="Cancer diagnosis: 11 tips for coping" Url="http://www.mayoclinic.com/health/cancer-diagnosis/HQ01306" />
+		<LinkItem ContentType="Article" DocID="CA00049" LinkType="Internal" ObjectID="1CB388B3-2A33-495C-8A9BBFD0FE28FB03" Title="Cancer survival rate: What it means for your prognosis" Url="http://www.mayoclinic.com/health/cancer/CA00049" />
+		<LinkItem ContentType="Article" DocID="CA00033" LinkType="Internal" ObjectID="11596689-42CD-4CD1-9FA79B307C030A01" Title="Cancer surgery: Physically removing cancer" Url="http://www.mayoclinic.com/health/cancer-surgery/CA00033" />
+		<LinkItem ContentType="Article" DocID="CA00053" LinkType="Internal" ObjectID="0D7A3614-9863-437D-BFAEFD1407AC82FA" Title="Cancer risk: What the numbers mean" Url="http://www.mayoclinic.com/health/cancer/CA00053" />
+		<LinkItem ContentType="Article" DocID="CA00070" LinkType="Internal" ObjectID="0A0DD8B4-F849-4271-A37B87F6CC511AB4" Title="Cancer survivors: Care for your body after treatment" Url="http://www.mayoclinic.com/health/cancer-survivor/CA00070" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Disease" DocID="DS01076" LinkType="Internal" ObjectID="63426615-E7FF-0DBD-1994B85EEA8B6116" Title="Cancer" Url="http://www.mayoclinic.com/health/cancer/DS01076" />
+	</RelatedLinksBox>
+</Disease>

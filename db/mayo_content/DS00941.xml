@@ -1,0 +1,345 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00941
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/albinism/DS00941
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="3149" Title="Genetic disorders">
+						<Keyword MCVID="3231" Title="Albinism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			510F2336-E7FF-0DBD-17147D4EC8F32063
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				albinism
+			</MetaKeyword>
+			<MetaKeyword>
+				oculocutaneous albinism
+			</MetaKeyword>
+			<MetaKeyword>
+				ocular albinism
+			</MetaKeyword>
+			<MetaKeyword>
+				hypopigmentation
+			</MetaKeyword>
+			<MetaKeyword>
+				albino
+			</MetaKeyword>
+			<MetaKeyword>
+				Hermansky-Pudlak syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Chediak-Higashi syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Albinism, a group of inherited disorders, results in little or no production of the pigment melanin. The type and amount of melanin your body produces determines the color of your skin, hair and eyes. Most people with albinism are sensitive to sun exposure and are at increased risk of developing skin cancer.
+&lt;/p&gt;
+&lt;p&gt;
+Melanin also plays a role in the development of certain optical nerves. All forms of albinism cause problems with the development and function of the eyes.
+&lt;/p&gt;
+&lt;p&gt;
+Although there&apos;s no cure for albinism, people with the disorder can take steps to improve vision and avoid too much sun exposure. Albinism doesn&apos;t limit intellectual development, though people with albinism often feel socially isolated and may experience discrimination.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs of albinism are usually, but not always, apparent in a person&apos;s skin, hair and eye color. Regardless of the effect of albinism on appearance, all people with the disorder experience vision impairments.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin&lt;/strong&gt;&lt;br /&gt;
+Although the most recognizable form of albinism results in milky white skin, skin pigmentation can range from white to brown, and may be nearly the same as that of parents or siblings without albinism.
+&lt;/p&gt;
+&lt;p&gt;
+For some people with albinism, skin pigmentation never changes. For others, melanin production may begin or increase during childhood and adolescence, resulting in slight changes in pigmentation. With exposure to the sun, some people may develop:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Freckles&lt;/li&gt;
+	&lt;li&gt;Moles, with or without pigment&lt;/li&gt;
+	&lt;li&gt;Large freckle-like spots (lentigines)&lt;/li&gt;
+	&lt;li&gt;The ability to tan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hair&lt;/strong&gt;&lt;br /&gt;
+Hair color can range from very white to brown. People of African or Asian descent who have albinism may have hair color that is yellow, reddish or brown. Hair color may also change by early adulthood.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eye color&lt;/strong&gt;&lt;br /&gt;
+Eye color can range from very light blue to brown and may change with age.
+&lt;/p&gt;
+&lt;p&gt;
+The lack of pigment in the colored part of the eyes (irises) makes them somewhat translucent. This means that the irises can&apos;t completely block light from entering the eye. Because of this translucence, very light-colored eyes may appear red in some lighting. This occurs because you&apos;re seeing light reflected off the back of the eye and passing back out through the iris again &amp;mdash; similar to red eye that occurs in a flash photograph.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vision&lt;/strong&gt;&lt;br /&gt;
+Signs and symptoms of albinism related to eye function include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid, involuntary back-and-forth movement of the eyes (nystagmus)&lt;/li&gt;
+	&lt;li&gt;Inability of both eyes to stay directed at the same point or to move in unison (strabismus)&lt;/li&gt;
+	&lt;li&gt;Extreme nearsightedness or farsightedness&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light (photophobia)&lt;/li&gt;
+	&lt;li&gt;Astigmatism&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If your child lacks pigment in his or her hair or skin at birth &amp;mdash; as is often the case in infants with albinism &amp;mdash; your doctor will order an eye examination and closely follow any changes in your child&apos;s pigmentation.
+&lt;/p&gt;
+&lt;p&gt;
+For some infants the first sign of albinism is a rapid back-and-forth shifting (nystagmus) in the eyes, particularly if the type of albinism has little effect on pigmentation or if the family is mostly fair-skinned. If you observe nystagmus in your child&apos;s eyes, talk to your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Contact your doctor if your child with albinism experiences frequent nosebleeds, easy bruising or chronic infections, as these signs and symptoms may indicate the presence of Hermansky-Pudlak or Chediak-Higashi syndromes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of albinism is a mutation in one of several genes. Each of these genes provides the chemically coded instructions for making one of several proteins involved in the production of melanin. Melanin is produced by cells called melanocytes, which are found in your skin and eyes. A mutation may result in no melanin production at all or a significant decline in the amount of melanin. 
+&lt;/p&gt;
+&lt;p&gt;
+In most types of albinism, a person must inherit two copies of a mutated gene &amp;mdash; one from each parent &amp;mdash; in order to have albinism (recessive inheritance). If a person has only one copy, then he or she won&apos;t have the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Impact of mutations on eye development&lt;/strong&gt; &lt;br /&gt;
+Regardless of which gene mutation is present, vision impairment is a common characteristic with all types of albinism. These impairments are caused by irregular development of the nerve pathways from the eye to the brain and from abnormal development of the retina. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of albinism&lt;/strong&gt; &lt;br /&gt;
+The system for classifying types of albinism is based primarily on which mutated gene caused the disorder rather than by outward signs. Nonetheless, most types of albinism have some features that distinguish them from each other. Types of albinism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Oculocutaneous albinism.&lt;/strong&gt; Oculocutaneous albinism is caused by a mutation in one of four genes. These mutations result in signs and symptoms related to vision (ocular) and those related to skin (cutaneous), hair and iris color. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Oculocutaneous albinism type 1 is caused by a mutation in a gene on chromosome 11. Most people with this type of albinism have milky white skin, white hair and blue eyes at birth. Some people with this disorder never experience changes in pigmentation, but others begin to produce melanin during childhood and adolescence. Their hair may become a golden blond or brown. Their skin usually doesn&apos;t change color, but it may tan somewhat. The irises may also change color and lose some of their translucence. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Oculocutaneous albinism type 2 is caused by a mutation in a gene on chromosome 15. It&apos;s more common in Sub-Saharan Africans, African-Americans and Native Americans than in other population groups. The hair may be yellow, auburn, ginger or red, the eyes can be blue-gray or tan, and the skin is white at birth. In people of African descent, the skin may be light brown, and in those of Asian or Northern European descent, the skin is usually white. In either case, the skin color is generally close to the family&apos;s coloring, but a little bit lighter. With sun exposure, the skin may over time develop freckles, moles or lentigines. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The rarer oculocutaneous albinism type 3 is caused by a gene mutation on chromosome 9 and has been primarily identified in black South Africans. People with this disorder usually have reddish-brown skin, ginger or reddish hair, and hazel or brown eyes. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Oculocutaneous albinism type 4, caused by a gene mutation on chromosome 5, is an uncommon form of the disorder generally presenting signs and symptoms similar to those of type 2. This type of albinism may be one of the most common forms among people of East Asian descent. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-linked ocular albinism.&lt;/strong&gt; The cause of&lt;strong&gt; &lt;/strong&gt;X-linked ocular albinism, which occurs almost exclusively in males, is a gene mutation on the X chromosome. People who have ocular albinism have the developmental and functional vision problems of albinism. But skin, hair and eye color are generally in the normal range or slightly lighter than that of others in the family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hermansky-Pudlak syndrome.&lt;/strong&gt; Hermansky-Pudlak syndrome is a rare albinism disorder caused by a mutation in one of at least eight genes associated with this syndrome. People with this disorder have signs and symptoms like those of oculocutaneous albinism, but they also develop lung and bowel diseases and a bleeding disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chediak-Higashi syndrome.&lt;/strong&gt; Chediak-Higashi syndrome is a rare form of albinism that&apos;s associated with a mutation in the LYST gene. Signs and symptoms are similar to those of oculocutaneous albinism. The hair is usually brown or blond with a silvery sheen, and the skin is usually creamy white to grayish. People with this syndrome have a defect with white blood cells that results in a susceptibility to infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing layers of skin 
+" Caption="Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+" Height="60" Title="Skin layers" URI="/images/image_popup/thumbs/mcdc7_skin_layersthu.jpg" Width="60" />
+				<Image Alt="Illustration showing layers of skin 
+" Caption="Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+" Height="343" Title="Skin layers" URI="/images/image_popup/mcdc7_skin_layers.jpg" Width="400" />
+				<HTML>
+					Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of albinism include physical risks as well as social and emotional challenges. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin disorders&lt;/strong&gt; &lt;br /&gt;
+One of the most serious complications associated with albinism is the risk of sunburn and skin cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Social and emotional factors&lt;/strong&gt; &lt;br /&gt;
+The reactions of other people to those with albinism can often have a negative impact on people with the condition: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Children with albinism may experience name-calling, teasing or questions regarding their appearance, eyewear or visual aid devices.&lt;/li&gt;
+	&lt;li&gt;Many people with albinism find the word &quot;albino&quot; hurtful because they&apos;re being labeled simply on the basis of a condition rather than being thought of as individuals.&lt;/li&gt;
+	&lt;li&gt;A long history of myths has attributed supernatural powers or deviant personalities to people with albinism.&lt;/li&gt;
+	&lt;li&gt;People with albinism usually look very different from members of their own families or ethnic groups and, therefore, may either feel like outsiders or be treated like outsiders.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All of these factors may contribute to social isolation, poor self-esteem and stress. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A complete diagnostic work-up for albinism includes a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical examination&lt;/li&gt;
+	&lt;li&gt;Description of changes in pigmentation&lt;/li&gt;
+	&lt;li&gt;Thorough examination of the eyes&lt;/li&gt;
+	&lt;li&gt;Comparison of your child&apos;s pigmentation to that of other family members&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A medical doctor specializing in vision and eye disorders (ophthalmologist) will conduct your child&apos;s eye exam. The exam will include an assessment of potential nystagmus, strabismus and photophobia. The doctor will also use a device to visually inspect the retina and determine if there are signs of abnormal development. A test called an electroretinogram, which measures brain waves produced when light is shined into the eyes, can indicate the presence of misrouted optical nerves. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has only one eye impairment, such as nystagmus, another condition may be the cause. Disorders other than albinism may affect skin pigmentation, but these wouldn&apos;t cause all of the visual problems associated with albinism. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because albinism is a genetic disorder, treatment is limited. Your child will most likely need to wear prescription lenses, which provide improvements in vision, and he or she should receive annual examinations by an ophthalmologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Although surgery is rarely part of treatment for albinism, your ophthalmologist may recommend surgery on optical muscles that minimizes nystagmus. Surgery to correct strabismus may make the condition less noticeable, but it won&apos;t improve vision. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will also conduct an annual assessment of your child&apos;s skin to screen for skin cancer or lesions that can lead to cancer. Adults with albinism need annual eye and skin exams throughout their lives. 
+&lt;/p&gt;
+&lt;p&gt;
+People with Hermansky-Pudlak and Chediak-Higashi syndromes usually require regular specialized care to prevent complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can help your child learn self-care practices that should continue into adulthood: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use low vision aids,&lt;/strong&gt; such as a hand-held magnifying glass, a monocular or a magnifier that attaches to glasses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply sunscreens&lt;/strong&gt; with a sun protection factor (SPF) of at least 30 that protects against both UVA and UVB light.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid high-risk sun exposure,&lt;/strong&gt; such as being outside in the middle of the day, at high altitudes and on sunny days with thin cloud cover.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective clothing,&lt;/strong&gt; including long-sleeved shirts, long pants and broad-rimmed hats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your eyes&lt;/strong&gt; by wearing dark, UV-blocking sunglasses.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Coping with vision impairment&lt;/strong&gt; &lt;br /&gt;
+Many people with albinism develop coping skills to adjust to vision impairments. Tilting the head to one side can minimize the effect of nystagmus and improve vision. Holding a book very close can make it easier to read without causing any harm to the eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Coping with educational challenges&lt;/strong&gt; &lt;br /&gt;
+If your child has albinism, begin early to work with teachers, special education instructors and school administrators. If necessary, start with educating the school professionals about what albinism is and how it affects your child. Also inquire about services the school can provide to assess your child&apos;s needs. 
+&lt;/p&gt;
+&lt;p&gt;
+Adjustments to the classroom environment that may help your child include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A seat near the front of the classroom&lt;/li&gt;
+	&lt;li&gt;Handouts of the content written on boards or overhead screens&lt;/li&gt;
+	&lt;li&gt;High-contrast printed documents, such as black type on white paper rather than colored print or paper&lt;/li&gt;
+	&lt;li&gt;Large-print textbooks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Coping with teasing and social isolation&lt;/strong&gt; &lt;br /&gt;
+Help your child develop skills to deal with other people&apos;s reactions to albinism: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage your child to talk&lt;/strong&gt; to you about his or her experiences or feelings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice responses&lt;/strong&gt; to teasing or embarrassing questions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a peer support group&lt;/strong&gt; or online community through agencies such as the National Organization for Albinism and Hypopigmentation (NOAH). You can reach NOAH at 800-473-2310.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek the services of a psychotherapist,&lt;/strong&gt; who can help you and your child develop healthy communication and coping skills.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Albinism generally can&apos;t be prevented. It often occurs in families who have no history of the disorder. However, in cases where parents suspect that they may be carriers because of a family history, genetic testing may help identify whether or not both parents carry a certain genetic mutation that could cause albinism in their children. In addition, if both parents know they are carriers, prenatal tests can be done to determine if a fetus has inherited the mutations that can cause albinism. 
+&lt;/p&gt;
+&lt;p&gt;
+A genetic counselor can help you understand your chances of having a child with albinism. He or she can also explain the available tests and help you figure out the pros and cons of testing for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Albinism
+	</Title>
+	<Abstract>
+		Albinism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, self-care and coping skills.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

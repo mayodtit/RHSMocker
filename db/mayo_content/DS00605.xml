@@ -1,0 +1,279 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00605
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/aortic-dissection/DS00605
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-11
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="4334" Title="Aortic dissection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D81D5EF7-2A5D-9994-EC167F31EFB2A181
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aortic dissection
+			</MetaKeyword>
+			<MetaKeyword>
+				chest pain
+			</MetaKeyword>
+			<MetaKeyword>
+				aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				dissection of the aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				dissecting aneurysm
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An aortic dissection is a serious condition in which a tear develops in the inner layer of the aorta, the large blood vessel branching off the heart. Blood surges through this tear into the middle layer of the aorta, causing the inner and middle layers to separate (dissect). If the blood-filled channel ruptures through the outside aortic wall, aortic dissection is often fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+Aortic dissection, also called dissecting aneurysm, is relatively uncommon. Anyone can develop the condition, but it most frequently occurs in men between 60 and 70 years of age. Symptoms of aortic dissection may mimic those of other diseases, often leading to delays in diagnosis. However, when an aortic dissection is detected early and treated promptly, your chance of survival greatly improves. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing aortic dissection 
+" Caption="Aortic dissection occurs when a tear develops in the inner layer of the aorta, a large blood vessel branching off the heart. 
+" Height="60" Title="Aortic dissection" URI="/images/image_popup/thumbs/mcdc7_aorticdissectionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing aortic dissection 
+" Caption="Aortic dissection occurs when a tear develops in the inner layer of the aorta, a large blood vessel branching off the heart. 
+" Height="400" Title="Aortic dissection" URI="/images/image_popup/mcdc7_aorticdissection.jpg" Width="400" />
+				<HTML>
+					Aortic dissection occurs when a tear develops in the inner layer of the aorta, a large blood vessel branching off the heart. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic dissection symptoms may be similar to those of other heart problems, such as a heart attack. Typical signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden severe chest or upper back pain, often described as a tearing, ripping or shearing sensation, that radiates to the neck or down the back&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness (fainting)&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Sudden difficulty speaking, loss of vision, weakness, or paralysis of one side of your body, such as having a stroke&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Weak pulse in one arm compared to the other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have signs or symptoms such as severe chest pain, fainting, sudden onset of shortness of breath, or symptoms of a stroke, call 911 or emergency medical assistance. While experiencing such symptoms doesn&apos;t always mean that you have a serious problem, it&apos;s best to get checked out quickly. Early detection and treatment may help save your life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An aortic dissection occurs in a weakened area of the aortic wall. Chronic high blood pressure may stress the aortic tissue, making it more susceptible to tearing. You can also be born with a condition associated with a weakened and enlarged aorta, such as Marfan syndrome or bicuspid aortic valve. Rarely, aortic dissections may be caused by traumatic injury to the chest area, such as during motor vehicle accidents. 
+&lt;/p&gt;
+&lt;p&gt;
+Aortic dissections are divided into two groups, depending on which part of the aorta is affected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type A.&lt;/strong&gt; This is the more common and dangerous type of aortic dissection. It involves a tear in the part of the aorta just where it exits the heart or a tear extending from the upper to lower parts of the aorta, which may extend into the abdomen. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type B.&lt;/strong&gt; This type involves a tear in the lower aorta only, which may also extend into the abdomen.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing aortic dissection 
+" Caption="Aortic dissection occurs when a tear develops in the inner layer of the aorta, a large blood vessel branching off the heart. 
+" Height="60" Title="Aortic dissection" URI="/images/image_popup/thumbs/mcdc7_aorticdissectionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing aortic dissection 
+" Caption="Aortic dissection occurs when a tear develops in the inner layer of the aorta, a large blood vessel branching off the heart. 
+" Height="400" Title="Aortic dissection" URI="/images/image_popup/mcdc7_aorticdissection.jpg" Width="400" />
+				<HTML>
+					Aortic dissection occurs when a tear develops in the inner layer of the aorta, a large blood vessel branching off the heart. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for aortic dissection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Uncontrolled high blood pressure (hypertension), found in at least two-thirds of all cases&lt;/li&gt;
+	&lt;li&gt;Hardening of the arteries (atherosclerosis)&lt;/li&gt;
+	&lt;li&gt;Weakened and bulging artery (pre-existing aortic aneurysm)&lt;/li&gt;
+	&lt;li&gt;An aortic valve defect (bicuspid aortic valve)&lt;/li&gt;
+	&lt;li&gt;A narrowing of the aorta you&apos;re born with (aortic coarctation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People with certain genetic diseases are more likely to have an aortic dissection than are people in the general population. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Turner&apos;s syndrome.&lt;/strong&gt; High blood pressure, heart problems and a number of other health conditions may result from this disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Marfan syndrome.&lt;/strong&gt; This is a condition in which connective tissue, which supports various structures in the body, is weak. People with this disorder often have a family history of aneurysms of the aorta and other blood vessels. These weak blood vessels are prone to tears (dissection) and rupture easily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ehlers-Danlos syndrome.&lt;/strong&gt; This group of connective tissue disorders is characterized by skin that bruises or tears easily, loose joints and fragile blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loeys-Dietz syndrome.&lt;/strong&gt; This is a connective tissue disorder marked by twisted arteries, especially in the neck. People who have Loeys-Dietz syndrome are thought to be at risk for developing aortic dissections and aneurysms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other potential risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Men have about double the incidence of aortic dissection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The incidence of aortic dissection peaks in the 60s and 70s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cocaine use.&lt;/strong&gt; This drug may be a risk factor for aortic dissection because it temporarily raises blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Infrequently, aortic dissections occur in otherwise healthy women during pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An aortic dissection can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Death, due to severe internal bleeding, including into the lining around the heart (pericardial sac)&lt;/li&gt;
+	&lt;li&gt;Organ damage, such as kidney failure or life-threatening damage to the intestines&lt;/li&gt;
+	&lt;li&gt;Stroke, possibly including paralysis&lt;/li&gt;
+	&lt;li&gt;Aortic valve damage, such as causing the aortic valve to leak (aortic regurgitation)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Detecting an aortic dissection can be tricky because the symptoms are similar to those of a variety of health problems. Doctors often suspect an aortic dissection if the following signs and symptoms are present: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden tearing or ripping chest pain&lt;/li&gt;
+	&lt;li&gt;Widening of the aorta on chest X-ray&lt;/li&gt;
+	&lt;li&gt;Blood pressure difference between right and left arms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although these signs and symptoms suggest aortic dissection, more-sensitive imaging techniques are usually needed. The most frequently used imaging procedures include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; CT scanning uses a machine that generates X-rays to produce cross-sectional images of the body. In order to diagnose an aortic dissection, a CT scan of the chest is taken. A contrast liquid that contains iodine may be injected into the blood during a CT scan. Contrast makes the heart, aorta and other blood vessels more visible on the CT pictures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiogram (MRA).&lt;/strong&gt; A magnetic resonance imaging (MRI) scan is a test that uses a magnetic field and pulses of radio wave energy to make pictures of the body. MRA refers to the use of this technique specifically to look at blood vessels. An MRA of the chest can be used to diagnose aortic dissection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transesophageal echocardiogram (TEE).&lt;/strong&gt; An echocardiogram is a type of test that uses high-pitched sound waves to produce an image of the heart. A TEE is a special type of echocardiogram in which an ultrasound probe is inserted through the esophagus. Since the ultrasound probe is placed close to the heart and the aorta, it provides a clearer picture of your heart and its structures than would a regular echocardiogram.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An aortic dissection is a medical emergency requiring immediate treatment. Therapy may include surgery or medications, depending on the area of the aorta involved. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Type A aortic dissection&lt;/strong&gt;&lt;br /&gt;
+Type A aortic dissections are the more common and dangerous type of aortic dissection. These dissections involve a tear in the ascending portion of the aorta just where it exits the heart or a tear extending from the ascending portion down to the descending portion of the aorta, which may extend into the abdomen. Surgery is the preferred treatment for type A aortic dissections. 
+&lt;/p&gt;
+&lt;p&gt;
+During the surgical procedure, surgeons remove as much of the dissected aorta as possible, block the entry of blood into the aortic wall and reconstruct the aorta with a synthetic tube called a graft. Some people with type A aortic dissection will need to have their aortic valve replaced at the same time if there&apos;s valve leakage related to the damaged aorta. If aortic valve replacement is required, the valve is placed within the graft that is used to reconstruct the aorta. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Type B aortic dissection&lt;/strong&gt;&lt;br /&gt;
+This type of aortic dissection involves a tear in the descending aorta only, which may also extend into the abdomen. People with type B aortic dissection can be treated medically or with surgery. Surgical options for type B aortic dissection are similar to the procedures used to correct a type A aortic dissection. Sometimes stents &amp;mdash; small wire mesh tubes that act as a sort of scaffolding &amp;mdash; may be placed in the aorta to repair type B aortic dissections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for aortic dissection&lt;/strong&gt;&lt;br /&gt;
+Aortic dissections may be treated with medications, such as beta blockers and sodium nitroprusside (Nitropress), to relieve the force of blood on the aortic wall by reducing the heart rate and lowering blood pressure. With reduced blood force, the aortic dissection is less likely to worsen. These medications may be used to prepare a person for surgery. Most people with type B dissections can be treated with medications alone. 
+&lt;/p&gt;
+&lt;p&gt;
+After treatment many people with aortic dissections need to take blood pressure lowering medication for the rest of their lives. In addition, they&apos;ll often need follow-up CT or MRI scans periodically to monitor their condition. How often you&apos;ll need imaging tests depends on your underlying condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most important way to help prevent an aortic dissection is to keep your blood pressure under control. Here are a few tips to reduce your risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Control your blood pressure.&lt;/strong&gt; If you have high blood pressure, get a home blood pressure measuring device to help you monitor and keep your blood pressure well controlled.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Or, if you do, take steps to stop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain an ideal weight.&lt;/strong&gt; Follow a low-salt diet and exercise regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a seat belt.&lt;/strong&gt; This reduces the risk of traumatic injury to your chest area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your doctor well-informed.&lt;/strong&gt; If you have a family history of aortic dissection, a connective tissue disorder or a bicuspid aortic valve, let your doctor know. If you have a known aortic aneurysm, find out how often you need monitoring and if surgery is necessary to repair your aneurysm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a genetic condition that increases your risk of aortic dissection, your doctor may recommend medications, even if your blood pressure is normal. Talk to your doctor about which method or combination of methods is best for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Aortic dissection
+	</Title>
+	<Abstract>
+		Aortic dissection &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this serious circulatory problem.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

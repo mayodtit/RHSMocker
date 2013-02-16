@@ -1,0 +1,447 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00349
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/oral-and-throat-cancer/DS00349
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-13
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="1605" Title="Oral and throat">
+						<Keyword MCVID="3325" Title="Throat cancer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4937" Title="Pfizer Nicotrol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F4D66AB7-A46B-46EF-BC71F844B12232A0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				throat cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				oropharyngeal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				pharyngeal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hypopharyngeal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				laryngeal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				squamous cell carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				throat
+			</MetaKeyword>
+			<MetaKeyword>
+				voice box
+			</MetaKeyword>
+			<MetaKeyword>
+				tonsil cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Throat cancer refers to cancerous tumors that develop in your throat (pharynx), voice box (larynx) or tonsils. 
+&lt;/p&gt;
+&lt;p&gt;
+Your throat is a muscular tube that begins behind your nose and ends in your neck. Your voice box sits just below your throat and is also susceptible to throat cancer. The voice box is made of cartilage and contains the vocal cords that vibrate to make sound when you talk. Throat cancer can also affect the piece of cartilage (epiglottis) that acts as a lid for your windpipe. Tonsil cancer, another form of throat cancer, affects the tonsils, which are located on the back of the throat. 
+&lt;/p&gt;
+&lt;p&gt;
+You can reduce your risk of throat cancer by not smoking, not chewing tobacco and limiting alcohol use. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sections of the throat 
+" Caption="The throat (pharynx) is a muscular tube that runs from the back of your nose down into your neck. It contains three sections: the nasopharynx, oropharynx and laryngopharynx, which is also called the hypopharynx.
+" Height="60" Title="Parts of the throat (pharynx)" URI="/images/image_popup/thumbs/c7_nasopharynxthu.jpg" Width="60" />
+				<Image Alt="Illustration of sections of the throat 
+" Caption="The throat (pharynx) is a muscular tube that runs from the back of your nose down into your neck. It contains three sections: the nasopharynx, oropharynx and laryngopharynx, which is also called the hypopharynx.
+" Height="352" Title="Parts of the throat (pharynx)" URI="/images/image_popup/c7_nasopharynx.jpg" Width="400" />
+				<HTML>
+					The throat (pharynx) is a muscular tube that runs from the back of your nose down into your neck. It contains three sections: the nasopharynx, oropharynx and laryngopharynx, which is also called the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of throat cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cough&lt;/li&gt;
+	&lt;li&gt;Changes in your voice, such as hoarseness&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Ear pain&lt;/li&gt;
+	&lt;li&gt;A lump or sore that doesn&apos;t heal&lt;/li&gt;
+	&lt;li&gt;A sore throat&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice any new signs and symptoms that are persistent. Most throat cancer symptoms aren&apos;t specific to cancer, so your doctor will likely investigate other more common causes first. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Throat cancer occurs when cells in your throat develop genetic mutations. These mutations cause cells to grow uncontrollably and continue living after healthy cells would normally die. The accumulating cells can form a tumor in your throat. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not clear what causes the mutation that causes throat cancer. But doctors have identified factors that may increase your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of throat cancer&lt;/strong&gt; &lt;br /&gt;
+Throat cancer is a general term that applies to cancer that develops in the throat (pharyngeal cancer) or in the voice box (laryngeal cancer). The throat and the voice box are closely connected, with the voice box located just below the throat. 
+&lt;/p&gt;
+&lt;p&gt;
+Though most throat cancers involve the same types of cells, specific terms are used to differentiate the part of the throat where cancer originated. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nasopharyngeal cancer&lt;/strong&gt; begins in the nasopharynx &amp;mdash; the part of your throat just behind your nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oropharyngeal cancer&lt;/strong&gt; begins in the oropharynx &amp;mdash; the part of your throat right behind your mouth that includes your tonsils.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypopharyngeal cancer (laryngopharyngeal cancer)&lt;/strong&gt; begins in the hypopharynx (laryngopharynx) &amp;mdash; the lower part of your throat, just above your esophagus and windpipe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glottic cancer&lt;/strong&gt; begins in the vocal cords.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supraglottic cancer&lt;/strong&gt; begins in the upper portion of the larynx and includes cancer that affects the epiglottis, which is a piece of cartilage that blocks food from going into your windpipe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Subglottic cancer&lt;/strong&gt; begins in the lower portion of your voice box, below your vocal cords.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sections of the throat 
+" Caption="The throat (pharynx) is a muscular tube that runs from the back of your nose down into your neck. It contains three sections: the nasopharynx, oropharynx and laryngopharynx, which is also called the hypopharynx.
+" Height="60" Title="Parts of the throat (pharynx)" URI="/images/image_popup/thumbs/c7_nasopharynxthu.jpg" Width="60" />
+				<Image Alt="Illustration of sections of the throat 
+" Caption="The throat (pharynx) is a muscular tube that runs from the back of your nose down into your neck. It contains three sections: the nasopharynx, oropharynx and laryngopharynx, which is also called the hypopharynx.
+" Height="352" Title="Parts of the throat (pharynx)" URI="/images/image_popup/c7_nasopharynx.jpg" Width="400" />
+				<HTML>
+					The throat (pharynx) is a muscular tube that runs from the back of your nose down into your neck. It contains three sections: the nasopharynx, oropharynx and laryngopharynx, which is also called the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of throat cancer include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tobacco use, including smoking and chewing tobacco&lt;/li&gt;
+	&lt;li&gt;Excessive alcohol use&lt;/li&gt;
+	&lt;li&gt;A virus called human papillomavirus (HPV)&lt;/li&gt;
+	&lt;li&gt;A diet lacking in fruits and vegetables&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If your doctor suspects you may have cancer or another disease that affects your throat, you may be referred to a doctor who specializes in diseases and conditions that affect the ears, nose or throat (otolaryngologist, or ENT specialist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For throat cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you use tobacco, stop. Avoid doing things that worsen your symptoms. If you have throat pain, avoid foods and drinks that cause further irritation. If you&apos;re having trouble eating because of throat pain, consider nutritional supplement drinks. These may be less irritating to your throat, while still offering the calories and nutrients you need. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In order to diagnose throat cancer, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to get a closer look at your throat.&lt;/strong&gt; Your doctor may use a special lighted scope (endoscope) to get a close look at your throat during a procedure called endoscopy. A tiny camera at the end of the endoscope transmits images to a video screen that your doctor watches for signs of abnormalities in your throat. Another type of scope (laryngoscope) can be inserted in your voice box. It uses a magnifying lens to help your doctor examine your vocal cords. This procedure is called laryngoscopy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a tissue sample for testing.&lt;/strong&gt; If abnormalities are found during endoscopy or laryngoscopy, your doctor can pass surgical instruments through the scope to collect a tissue sample (biopsy). The sample is sent to a laboratory for testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests, including X-ray, computerized tomography (CT), magnetic resonance imaging (MRI) and positron emission tomography (PET), may help your doctor determine the extent of your cancer beyond the surface of your throat or voice box. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging&lt;/strong&gt; &lt;br /&gt;
+Once throat cancer is diagnosed, the next step is to determine the extent, or stage, of the cancer. Knowing the stage helps determine your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+The stage of throat cancer is characterized with the Roman numerals I through IV. Each subtype of throat cancer has its own criteria for each stage. In general, stage I throat cancer indicates a smaller tumor confined to one area of the throat. Later stages indicate more advanced cancer, with stage IV being the most advanced. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options are based on many factors, such as the location and stage of your throat cancer, the type of cells involved, your overall health, and your personal preferences. Discuss the benefits and risks of each of your options with your doctor. Together you can determine what treatments will be most appropriate for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays, to deliver radiation to the cancer cells, causing them to die. Radiation therapy can come from a large machine outside your body (external beam radiation). Or radiation therapy can come from small radioactive seeds and wires that can be placed inside your body, near your cancer (brachytherapy). 
+&lt;/p&gt;
+&lt;p&gt;
+For early-stage throat cancers, radiation therapy may be the only treatment necessary. For more advanced throat cancers, radiation therapy may be combined with chemotherapy or surgery. In very advanced throat cancers, radiation therapy may be used to reduce signs and symptoms and make you more comfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+The types of surgical procedures you may consider to treat your throat cancer depend on the location and stage of your cancer. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery for early-stage throat cancer.&lt;/strong&gt; Throat cancer that is confined to the surface of the throat or the vocal cords may be treated surgically using endoscopy. Your doctor may insert a hollow endoscope into your throat or voice box and then pass special surgical tools or a laser through the scope. Using these tools, your doctor can scrape off, cut out or, in the case of the laser, vaporize very superficial cancers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove all or part of the voice box (laryngectomy).&lt;/strong&gt; For smaller tumors, your doctor may remove the part of your voice box that is affected by cancer, leaving as much of the voice box as possible. Your doctor may be able to preserve your ability to speak and breathe normally. For larger, more-extensive tumors, it may be necessary to remove your entire voice box. Your windpipe is then attached to a hole (stoma) in your throat to allow you to breathe (tracheotomy). If your entire larynx is removed, you have several options for restoring your speech. You can work with a speech pathologist to learn to speak without your voice box. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove all or part of the throat (pharyngectomy).&lt;/strong&gt; Smaller throat cancers may require removing only part of your throat during surgery. Parts that are removed may be reconstructed in order to allow you to swallow food normally. Surgery to remove your entire throat usually includes removal of your voice box as well. Your doctor may be able to reconstruct your throat to allow you to swallow food.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove cancerous lymph nodes (neck dissection).&lt;/strong&gt; If throat cancer has spread deep within your neck, your doctor may recommend surgery to remove some or all of the lymph nodes to see if they contain cancer cells. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery carries a risk of bleeding and infection. Other possible complications, such as difficulty speaking or swallowing, will depend on the specific procedure you undergo. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses chemicals to kill cancer cells. Chemotherapy is often used along with radiation therapy in treating throat cancers. Certain chemotherapy drugs make cancer cells more sensitive to radiation therapy. But combining chemotherapy and radiation therapy increases the side effects of both treatments. Discuss with your doctor the side effects you&apos;re likely to experience and whether combined treatments will offer benefits that outweigh those effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drug therapy&lt;/strong&gt; &lt;br /&gt;
+Targeted drugs treat throat cancer by taking advantage of specific defects in cancer cells that fuel the cells&apos; growth. Cetuximab (Erbitux) is one targeted therapy approved for treating throat cancer in certain situations. Cetuximab stops the action of a protein that&apos;s found in many types of healthy cells, but is more prevalent in certain types of throat cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Other targeted drugs are being studied in clinical trials. Targeted drugs can be used in combination with chemotherapy or radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rehabilitation after treatment&lt;/strong&gt; &lt;br /&gt;
+Treatment for throat cancer often causes complications that may require working with specialists to regain the ability to swallow, eat solid foods and talk. During and after throat cancer treatment, your doctor may have you seek help for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The care of a surgical opening in your throat (stoma) if you had a tracheotomy&lt;/li&gt;
+	&lt;li&gt;Eating difficulties&lt;/li&gt;
+	&lt;li&gt;Swallowing difficulties&lt;/li&gt;
+	&lt;li&gt;Stiffness and pain in your neck&lt;/li&gt;
+	&lt;li&gt;Speech problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can discuss the potential side effects and complications of your treatments with you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Quit smoking&lt;/strong&gt; &lt;br /&gt;
+Throat cancers are closely linked to smoking. Not everyone with throat cancer smokes. But if you do smoke, now is the time to stop because: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smoking makes treatment less effective.&lt;/li&gt;
+	&lt;li&gt;Smoking makes it harder for your body to heal after surgery.&lt;/li&gt;
+	&lt;li&gt;Smoking increases your risk of getting another cancer in the future.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stopping smoking can be very difficult. And it&apos;s that much harder when you&apos;re trying to cope with a stressful situation, such as a cancer diagnosis. Your doctor can discuss all of your options, including medications, nicotine replacement products and counseling. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Quit drinking alcohol&lt;/strong&gt; &lt;br /&gt;
+Alcohol, particularly when combined with smoking or chewing tobacco, greatly increases the risk of throat cancer. If you drink alcohol, stop now. This may help reduce your risk of a second cancer. Stopping drinking may also help you better tolerate your throat cancer treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative treatments have proved helpful in treating throat cancer. However, some complementary and alternative treatments may help you cope with your diagnosis and with the side effects of throat cancer treatment. Talk to your doctor about your options. 
+&lt;/p&gt;
+&lt;p&gt;
+Alternative treatments you may find helpful include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Massage therapy&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Being diagnosed with cancer can be devastating. Throat cancer affects a part of your body that is vital to everyday activities, such as breathing, eating and talking. In addition to worrying about how these basic activities may be affected, you may also be concerned about your treatments and chances for survival. 
+&lt;/p&gt;
+&lt;p&gt;
+Though you may feel like your life &amp;mdash; your survival &amp;mdash; is out of your hands, you can take steps to feel more in control and to cope with your throat cancer diagnosis. To cope, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about throat cancer to make treatment decisions.&lt;/strong&gt; Write down a list of questions to ask your doctor at your next appointment. Ask your doctor about further sources of information about your cancer. Knowing more about your specific condition may help you feel more comfortable when making treatment decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Seek out sources of support that can help you deal with the emotions you&apos;re feeling. You may have a close friend or family member who is a good listener. Clergy members and counselors are other options. Consider joining a support group for people with cancer. Contact your local chapter of the American Cancer Society (ACS) or Support for People with Oral and Head and Neck Cancer. The ACS&apos;s Cancer Survivors Network offers online message boards and chat rooms that you can use to connect with others with throat cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself during cancer treatment.&lt;/strong&gt; Make keeping your body healthy during treatment a priority. Avoid extra stress. Get enough sleep each night so that you wake feeling rested. Take a walk or find time to exercise when you feel up to it. Make time for relaxing, such as listening to music or reading a book.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go to all of your follow-up appointments.&lt;/strong&gt; Your doctor will schedule follow-up exams every few months during the first two years after treatment, and then less frequently after that. These exams allow your doctor to monitor your recovery and check for a cancer recurrence. Follow-up exams can make you nervous, since they may remind you of your initial diagnosis and treatment. You may fear that your cancer has come back. Expect some anxiety around the time of each follow-up appointment. Plan ahead by finding relaxing activities that can help redirect your mind away from your fears. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no proven way to prevent throat cancer from occurring. But in order to reduce your risk of throat cancer, you can:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking or don&apos;t start smoking.&lt;/strong&gt; If you smoke, quit. If you don&apos;t smoke, don&apos;t start. Stopping smoking can be very difficult, so get some help. Your doctor can discuss the benefits and risks of the many stop-smoking strategies, such as medication, nicotine replacement products and counseling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol only in moderation, if at all.&lt;/strong&gt; For women, this means one drink a day. For men, moderate drinking means no more than two drinks a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet full of fruits and vegetables.&lt;/strong&gt; The vitamins and antioxidants in fruits and vegetables may reduce your risk of throat cancer. Eat a variety of colorful fruits and vegetables. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect yourself from HPV.&lt;/strong&gt; Some throat cancers are thought to be caused by the sexually transmitted infection human papillomavirus HPV. You can reduce your risk of HPV by limiting your number of sexual partners and using a condom every time you have sex. Also consider the HPV vaccine, which is available to boys, girls, and young women and men. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Throat cancer
+	</Title>
+	<Abstract>
+		Throat cancer &amp;mdash; Comprehensive overview covers symptoms, treatment of pharyngeal cancer and laryngeal cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="Answer" DocID="AN01704" LinkType="Internal" ObjectID="842D1306-E7FF-0DBD-1510AB6D84E0CFDA" Title="Oral cancer screening: What tests are recommended?" Url="http://www.mayoclinic.com/health/oral-cancer/AN01704" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00261" LinkType="Internal" ObjectID="5309DECB-E7FF-0DBD-184F285B0CDD719E" Title="Tracheostomy" Url="http://www.mayoclinic.com/health/tracheostomy/MY00261" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,123 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01617
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/weight-loss-hypnosis/AN01617
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1259" Title="Weight loss">
+					<Keyword MCVID="4020" Title="Weight-loss basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7CD2DFFB-E7FF-0DBD-153B865BEBB7058B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				hypnosis
+			</MetaKeyword>
+			<MetaKeyword>
+				weight loss hypnosis
+			</MetaKeyword>
+			<MetaKeyword>
+				weight-loss hypnosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Weight-loss hypnosis may help you shed an extra few pounds when it&apos;s part of a weight-loss plan that includes diet, exercise and counseling. But it&apos;s hard to say definitively because there isn&apos;t enough solid scientific evidence about weight-loss hypnosis alone.
+&lt;/p&gt;
+&lt;p&gt;
+Hypnosis is a state of inner absorption and concentration, like being in a trance. Hypnosis is usually done with the help of a hypnotherapist using verbal repetition and mental images. When you&apos;re under hypnosis, your attention is highly focused, and you&apos;re more responsive to suggestions, including behavior changes that can help you lose weight.
+&lt;/p&gt;
+&lt;p&gt;
+A few studies have evaluated the use of weight-loss hypnosis. Most studies showed only slight weight loss, with an average loss of about 6 pounds (2.7 kilograms). But the quality of some of these studies has been questioned, making it hard to determine the true effectiveness of weight-loss hypnosis.
+&lt;/p&gt;
+&lt;p&gt;
+Weight loss is usually best achieved with diet and exercise. If you&apos;ve tried diet and exercise but are still struggling to meet your weight-loss goal, talk to your health care provider about other options or lifestyle changes that you can make. Don&apos;t rely on weight-loss hypnosis alone because it&apos;s unlikely to lead to significant weight loss.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Weight-loss hypnosis: Does it work?
+	</Title>
+	<Abstract>
+		Weight-loss hypnosis might be another weight-loss tool, but don&apos;t forget the basics.
+	</Abstract>
+	<Question>
+		Is weight-loss hypnosis effective?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Calculator" DocID="NU00597" LinkType="Internal" ObjectID="D961CE75-9A59-42F0-B248EFA4B67765DB" Title="BMI calculator" Url="http://www.mayoclinic.com/health/bmi-calculator/NU00597" />
+		<LinkItem ContentType="Answer" DocID="AN02178" LinkType="Internal" ObjectID="A1139DD7-CDCB-DC39-3CA5A55B5497F085" Title="Sleep and weight gain: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/sleep-and-weight-gain/AN02178" />
+		<LinkItem ContentType="Calculator" DocID="NU00598" LinkType="Internal" ObjectID="4C466CA1-0148-4A4B-87781B6DE512E057" Title="Calorie calculator" Url="http://www.mayoclinic.com/health/calorie-calculator/NU00598" />
+		<LinkItem ContentType="Article" DocID="PR00147" LinkType="Internal" ObjectID="D43E78EC-E7FF-0DBD-161C8E881EA36900" Title="Weight loss after pregnancy: Reclaiming your body" Url="http://www.mayoclinic.com/health/weight-loss-after-pregnancy/PR00147" />
+		<LinkItem ContentType="Article" DocID="HQ01076" LinkType="Internal" ObjectID="7878C26C-47F2-4F1F-BF04FCEB2D9C6589" Title="Menopause weight gain: Stop the middle age spread" Url="http://www.mayoclinic.com/health/menopause-weight-gain/HQ01076" />
+		<LinkItem ContentType="Article" DocID="MY01458" LinkType="Internal" ObjectID="637AC27D-A704-FAD2-716B4D3DE00ACA6D" Title="Carbohydrates: How carbs fit into a healthy diet" Url="http://www.mayoclinic.com/health/carbohydrates/MY01458" />
+		<LinkItem ContentType="Answer" DocID="AN00618" LinkType="Internal" ObjectID="C7CE535E-343C-48B4-8AC6F8CD37DB998B" Title="Slow metabolism: Is it to blame for weight gain?" Url="http://www.mayoclinic.com/health/slow-metabolism/AN00618" />
+		<LinkItem ContentType="Answer" DocID="AN01327" LinkType="Internal" ObjectID="B3B045DE-2A5D-9994-EAA9B4AF90D2C86B" Title="Body fat: What happens to lost fat?" Url="http://www.mayoclinic.com/health/body-fat/AN01327" />
+		<LinkItem ContentType="Answer" DocID="AN01772" LinkType="Internal" ObjectID="AB704680-E7FF-0DBD-15C402E8FE80D021" Title="Metabolism and weight" Url="http://www.mayoclinic.com/health/metabolism/AN01772" />
+		<LinkItem ContentType="Answer" DocID="AN02189" LinkType="Internal" ObjectID="9BCE7986-0EA7-D614-E957237B3A9B2751" Title="How is brown fat different from other fat?" Url="http://www.mayoclinic.com/health/brown-fat/AN02189" />
+		<LinkItem ContentType="Answer" DocID="AN01621" LinkType="Internal" ObjectID="7CD4E80A-E7FF-0DBD-1C2A5D79F07E0BE1" Title="Fast weight loss: What&apos;s wrong with it?" Url="http://www.mayoclinic.com/health/fast-weight-loss/AN01621" />
+		<LinkItem ContentType="Answer" DocID="AN01119" LinkType="Internal" ObjectID="607F7A98-A79D-4A5F-ABED87EE6910E475" Title="Breakfast: How does it help weight control?" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN01119" />
+		<LinkItem ContentType="SlideShow" DocID="MY01153" LinkType="Internal" ObjectID="2309EF97-9AD9-2973-5604FE777654FB88" Title="Slide show: Low-calorie foods for weight control" Url="http://www.mayoclinic.com/health/low-calorie-foods/MY01153" />
+		<LinkItem ContentType="Article" DocID="WT00018" LinkType="Internal" ObjectID="EF8958C1-E7FF-0DBD-153A34E4DED46BA5" Title="Weight-loss goals: Set yourself up for success" Url="http://www.mayoclinic.com/health/weight-loss/WT00018" />
+		<LinkItem ContentType="Article" DocID="WT00011" LinkType="Internal" ObjectID="E246F1FA-2A5D-9994-EE72B9B700C582EF" Title="Counting calories: Get back to weight-loss basics" Url="http://www.mayoclinic.com/health/calories/WT00011" />
+		<LinkItem ContentType="Article" DocID="HQ01625" LinkType="Internal" ObjectID="CFD9CF34-F700-4F2F-B9572D428BA62671" Title="Weight loss: 6 strategies for success" Url="http://www.mayoclinic.com/health/weight-loss/HQ01625" />
+		<LinkItem ContentType="Article" DocID="WT00006" LinkType="Internal" ObjectID="8D7C8A8C-63CD-4207-A7AA6EFFC139343D" Title="Metabolism and weight loss: How you burn calories" Url="http://www.mayoclinic.com/health/metabolism/WT00006" />
+		<LinkItem ContentType="Article" DocID="MY01152" LinkType="Internal" ObjectID="2305D7DF-ADD4-142C-72C56CF4BB3FA216" Title="Getting past a weight-loss plateau" Url="http://www.mayoclinic.com/health/weight-loss-plateau/MY01152" />
+		<LinkItem ContentType="Article" DocID="NU00266" LinkType="Internal" ObjectID="133EFC8C-293B-44C9-950E023544DB381C" Title="Weight loss: Assess your readiness to change" Url="http://www.mayoclinic.com/health/weight-loss/NU00266" />
+	</RelatedLinksBox>
+</Answer>

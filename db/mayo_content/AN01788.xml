@@ -1,0 +1,123 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01788
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ovarian-cancer-vaccine/AN01788
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2386" Title="Ovarian cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			59D6ADA7-E7FF-0DBD-10EEF5466C67A33E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ovarian cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian cancer vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian cancer recurrence
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Research continues in the development of a number of vaccines designed to prevent the recurrence of ovarian cancer. So far, ovarian cancer vaccines are available only in clinical trial studies. 
+&lt;/p&gt;
+&lt;p&gt;
+One theory behind ovarian cancer vaccines is that they stimulate the immune system to detect and eliminate any cancer cells that reappear after initial treatment has been completed. Vaccines under study include abagovomab and oregovomab. 
+&lt;/p&gt;
+&lt;p&gt;
+Abagovomab has been shown to elicit an immune response in women with ovarian cancer, but it&apos;s not known if this improves the outcome. Major clinical trials studying abagovomab are currently underway. Oregovomab also has been tested and has been shown to elicit an immune response. But one study showed no difference in the recurrence rate in women who got oregovomab as compared with a placebo. Other vaccines are also being studied, as are ways to help boost the effectiveness of the vaccines. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery followed by chemotherapy remains the standard primary treatment for ovarian cancer. One aspect of ovarian cancer vaccine research includes examining how best to use these vaccines in combination with chemotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Although research has shown that ovarian cancer vaccines may hold promise, these studies have involved only small numbers of participants. More and larger studies are needed to further evaluate the potential role that vaccines may play in preventing recurrent ovarian cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ovarian cancer vaccine: Can it prevent recurrence?
+	</Title>
+	<Abstract>
+		Research continues to evaluate the role of an ovarian cancer vaccine to prevent recurrence.
+	</Abstract>
+	<Question>
+		Tell me about ovarian cancer vaccines that are supposed to prevent recurrence of ovarian cancer. Do they work?
+	</Question>
+	<QuestionFirstName>
+		Karen
+	</QuestionFirstName>
+	<QuestionState>
+		West Virginia
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00554" LinkType="Internal" ObjectID="3DBBC50B-9EAA-08E9-438DD8EDF1A92A3F" Title="Oophorectomy (ovary removal surgery)" Url="http://www.mayoclinic.com/health/oophorectomy/MY00554" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01000" LinkType="Internal" ObjectID="30194BFB-F5E3-3609-514F36741D3FB1BE" Title="Tubal ligation" Url="http://www.mayoclinic.com/health/tubal-ligation/MY01000" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="WO00095" LinkType="Internal" ObjectID="B61BA82F-1499-4884-B50A819DB83A87CE" Title="Prophylactic oophorectomy: Preventing cancer by surgically removing your ovaries" Url="http://www.mayoclinic.com/health/breast-cancer/WO00095" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Answer" DocID="AN01810" LinkType="Internal" ObjectID="E6445E06-E7FF-0DBD-102B681AB262F6E4" Title="Pap smear: Can it detect ovarian cancer?" Url="http://www.mayoclinic.com/health/ovarian-cancer/AN01810" />
+		<LinkItem ContentType="Answer" DocID="AN01018" LinkType="Internal" ObjectID="D547C3B0-C9D2-4105-92C9183284AA354C" Title="Ovarian cancer: Still possible after hysterectomy?" Url="http://www.mayoclinic.com/health/ovarian-cancer/AN01018" />
+		<LinkItem ContentType="Answer" DocID="HQ00366" LinkType="Internal" ObjectID="A8C71D2D-D06B-4948-A68238AD2D1FC622" Title="CA 125 test: A screening test for ovarian cancer?" Url="http://www.mayoclinic.com/health/ca-125/HQ00366" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00293" LinkType="Internal" ObjectID="EF55BD38-2667-4900-ACA0A74BD6F570D1" Title="Ovarian cancer" Url="http://www.mayoclinic.com/health/ovarian-cancer/DS00293" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00590" LinkType="Internal" ObjectID="C8FFB9B3-00AC-2863-299CEB1E08E1A0A5" Title="CA 125 test" Url="http://www.mayoclinic.com/health/ca-125-test/MY00590" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+	</RelatedLinksBox>
+</Answer>

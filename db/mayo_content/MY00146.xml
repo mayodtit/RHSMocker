@@ -1,0 +1,221 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00146
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/glucose-challenge-test/MY00146
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3369" Title="Risk level">
+						<Keyword MCVID="3379" Title="High risk" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3414" Title="Week 23" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="3661" Title="Glucose challenge test" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3369" Title="Risk level">
+						<Keyword MCVID="4414" Title="Low risk" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5210" Title="Prenatal care">
+							<Keyword MCVID="5211" Title="Medical tests" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF9C1BB4-E7FF-0DBD-12AE768ED85E8088
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				glucose challenge test
+			</MetaKeyword>
+			<MetaKeyword>
+				glucose challenge
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes complications
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes care
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The glucose challenge test measures your body&apos;s response to sugar (glucose). The glucose challenge test is done during pregnancy to screen for gestational diabetes &amp;mdash; diabetes that develops during pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+The glucose challenge test is done in two steps. First you drink a sugary solution. One hour later, your blood sugar level is measured. The results of the glucose challenge test indicate whether you might have gestational diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+If the test results are above normal, you&apos;ll need to have further testing to determine the diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The glucose challenge test is used to screen for gestational diabetes. The test is generally done between weeks 24 and 28 of pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+However, it can be done as early as your first prenatal visit if you&apos;re at high risk of gestational diabetes due to obesity, a personal history of gestational diabetes, a family history of diabetes or other factors. Abnormal test results early in pregnancy might indicate that you have pre-existing type 2 diabetes that wasn&apos;t previously recognized &amp;mdash; not gestational diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Most women who have gestational diabetes deliver healthy babies. However, without careful management, gestational diabetes can lead to various pregnancy complications, such as excess fetal growth &amp;mdash; which might increase the risk of birth injuries or prompt a C-section delivery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can eat and drink normally before the glucose challenge test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The glucose challenge test is done in two steps. When you arrive at your health care provider&apos;s office or lab, you&apos;ll drink about 5 ounces (about 148 milliliters) of a syrupy glucose solution that contains 1.8 ounces (50 grams) of sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll need to remain in your health care provider&apos;s office or lab while you wait for your blood sugar level to be tested. Consider bringing a quiet activity with you. 
+&lt;/p&gt;
+&lt;p&gt;
+One hour later, a blood sample will be taken from a vein in your arm. This blood sample will be used to measure your blood sugar level. 
+&lt;/p&gt;
+&lt;p&gt;
+After the glucose challenge test, you can return to your usual activities immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of the glucose challenge test are given in milligrams per deciliter (mg/dL) or millimoles per liter (mmol/L). 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A blood sugar level below 140 mg/dL (7.8 mmol/L) is considered normal.&lt;/li&gt;
+	&lt;li&gt;A blood sugar level of 140 mg/dL (7.8 mmol/L) or higher might indicate gestational diabetes. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some clinics or labs use a lower threshold of 130 mg/dL (7.2 mmol/L) when screening for gestational diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+If the results of your glucose challenge test indicate the possibility of gestational diabetes, your health care provider will do another test &amp;mdash; typically the glucose tolerance test, which is done over the course of three hours &amp;mdash; to determine the diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Glucose challenge test
+	</Title>
+	<Abstract>
+		Time for your glucose challenge test? Know how to prepare for this gestational diabetes screening.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

@@ -1,0 +1,315 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00422
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/anthrax/DS00422
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-09
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2562" Title="Anthrax" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8C309507-1B2A-455D-8E0C16E2A63EF3A4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anthrax
+			</MetaKeyword>
+			<MetaKeyword>
+				inhalation anthrax
+			</MetaKeyword>
+			<MetaKeyword>
+				cutaneous anthrax
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal anthrax
+			</MetaKeyword>
+			<MetaKeyword>
+				skin anthrax
+			</MetaKeyword>
+			<MetaKeyword>
+				anthrax attack
+			</MetaKeyword>
+			<MetaKeyword>
+				Cipro
+			</MetaKeyword>
+			<MetaKeyword>
+				biological weapons
+			</MetaKeyword>
+			<MetaKeyword>
+				terrorism
+			</MetaKeyword>
+			<MetaKeyword>
+				bioterrorism
+			</MetaKeyword>
+			<MetaKeyword>
+				counterterrorism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anthrax is a serious illness caused by a spore-forming bacterium, Bacillus anthracis. Although anthrax affects mainly livestock and wild game, humans can become infected through direct or indirect contact with sick animals. Normally, anthrax isn&apos;t transmitted from person to person, but in rare cases, anthrax skin lesions may be contagious. 
+&lt;/p&gt;
+&lt;p&gt;
+Most often, anthrax bacteria enter your body through a wound in your skin. You can also become infected by eating contaminated meat or inhaling the spores. Signs and symptoms, which depend on the way you&apos;re infected, can range from skin sores to nausea and vomiting or shock. 
+&lt;/p&gt;
+&lt;p&gt;
+Prompt treatment with antibiotics can cure most anthrax infections contracted through the skin or contaminated meat. Inhaled anthrax is more difficult to treat and can be fatal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are three types of anthrax, each with different signs and symptoms. In most cases, symptoms develop within seven days of exposure to the bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cutaneous anthrax&lt;/strong&gt; &lt;br /&gt;
+This form of anthrax enters your body through a cut or other sore on your skin. It&apos;s by far the most common form of the disease. It&apos;s also the mildest &amp;mdash; with appropriate treatment, cutaneous anthrax is seldom fatal. Signs and symptoms of cutaneous anthrax include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A raised, itchy bump resembling an insect bite that quickly develops into a painless sore with a black center&lt;/li&gt;
+	&lt;li&gt;Swelling in the sore and nearby lymph glands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Gastrointestinal anthrax&lt;/strong&gt; &lt;br /&gt;
+You contract this form of anthrax by eating undercooked meat from an infected animal. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting, which is often bloody in the later stages of the disease&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Severe, bloody diarrhea in the later stages of the disease&lt;/li&gt;
+	&lt;li&gt;Sore throat and difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Swollen neck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Inhalation (pulmonary) anthrax&lt;/strong&gt; &lt;br /&gt;
+Inhalation anthrax develops when you breathe in anthrax spores. It&apos;s the most deadly form of the disease, and even with treatment it is often fatal. Initial signs and symptoms of inhalation anthrax include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flu-like symptoms, such as sore throat, mild fever, fatigue and muscle aches, which may last a few hours or days&lt;/li&gt;
+	&lt;li&gt;Mild chest discomfort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As the disease progresses, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Trouble breathing&lt;/li&gt;
+	&lt;li&gt;Shock&lt;/li&gt;
+	&lt;li&gt;Meningitis &amp;mdash; a potentially life-threatening inflammation of the brain and spinal cord&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Many common illnesses start with symptoms that resemble the flu. Anthrax is rare in the developed world, and the chances that your sore throat and aching muscles are due to anthrax are extremely small. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think you may have been exposed &amp;mdash; for example, if you work in an environment where anthrax is likely to occur &amp;mdash; see a doctor immediately for evaluation and care. If you develop signs and symptoms of the disorder after exposure to animals or animal products in parts of the world where anthrax is common, seek prompt medical attention. Early diagnosis and treatment are crucial. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of a large sore with a black center, caused by cutaneous anthrax 
+" Caption="You can contract anthrax when spores enter an open wound in your skin. The infection begins as a raised, sometimes itchy, bump resembling an insect bite. But within a day or two, the bump develops into an open, usually painless sore with a black center.
+" Height="60" Title="Cutaneous anthrax " URI="/images/image_popup/thumbs/r7_anthrax_1thu.jpg" Width="60" />
+				<Image Alt="Photograph of a large sore with a black center, caused by cutaneous anthrax 
+" Caption="You can contract anthrax when spores enter an open wound in your skin. The infection begins as a raised, sometimes itchy, bump resembling an insect bite. But within a day or two, the bump develops into an open, usually painless sore with a black center.
+" Height="328" Title="Cutaneous anthrax" URI="/images/image_popup/r7_anthrax_1.jpg" Width="400" />
+				<HTML>
+					You can contract anthrax when spores enter an open wound in your skin. The infection begins as a raised, sometimes itchy, bump resembling an insect bite. But within a day or two, the bump develops ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of inhalation anthrax 
+" Caption="This illustration shows how the spores that cause inhalation anthrax &amp;mdash; the most deadly form of anthrax infection &amp;mdash; enter and affect the body. 
+" Height="60" Title="Inhalation anthrax " URI="/images/image_popup/thumbs/r7_anthraxinhalethu.jpg" Width="60" />
+				<Image Alt="Illustration of inhalation anthrax 
+" Caption="This illustration shows how the spores that cause inhalation anthrax &amp;mdash; the most deadly form of anthrax infection &amp;mdash; enter and affect the body. 
+" Height="400" Title="Inhalation anthrax" URI="/images/image_popup/r7_anthraxinhale.jpg" Width="400" />
+				<HTML>
+					This illustration shows how the spores that cause inhalation anthrax &amp;mdash; the most deadly form of anthrax infection &amp;mdash; enter and affect the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anthrax spores are formed by anthrax bacteria that occur naturally in soil in most parts of the world. The spores can remain dormant for years until they find their way into a host &amp;mdash; usually wild or domestic livestock, such as sheep, cattle, horses, goats and camels. Although rare in the United States, anthrax is still common throughout the developing world, such as in Iran, Iraq, Turkey, Pakistan and sub-Saharan Africa. 
+&lt;/p&gt;
+&lt;p&gt;
+Most human cases of anthrax occur as a result of exposure to infected animals or their meat or hides. In the United States, a few people have developed anthrax while making traditional African drums from the skins of infected animals. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the few known instances of non-animal transmission occurred in the United States in 2001 when 22 people developed anthrax after being exposed to spores sent through the mail. Five of those who were infected died. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To contract anthrax, you must come in direct contact with anthrax spores. This is more likely if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are in the military and deployed to an area with a high risk of exposure to anthrax&lt;/li&gt;
+	&lt;li&gt;Work with anthrax in a laboratory setting&lt;/li&gt;
+	&lt;li&gt;Handle animal skins, furs or wool from areas with a high incidence of anthrax&lt;/li&gt;
+	&lt;li&gt;Work in veterinary medicine, especially if you deal with livestock&lt;/li&gt;
+	&lt;li&gt;Handle or dress game animals &amp;mdash; in the United States, seasonal outbreaks of anthrax are common among livestock and game animals, such as deer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most serious complication of anthrax is a fatal inflammation of the membranes and fluid covering the brain and spinal cord, leading to massive bleeding (hemorrhagic meningitis). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of anthrax often come on suddenly and can be very serious. If you&apos;ve been exposed to anthrax or develop symptoms after a possible exposure, go immediately to the emergency room. If your situation is less urgent, set up an appointment with your doctor as soon as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time before you go: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that seem unrelated to anthrax exposure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information.&lt;/strong&gt; Have you recently traveled to a part of the world where anthrax is endemic? Are you exposed to livestock, game animals or animal skins in your work or hobbies?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to absorb all the information provided to you in the hospital or during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; For instance, if you&apos;re diagnosed with anthrax, you will want to know the type, the proposed treatment and your prognosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will first want to rule out other, more common conditions that may be causing your signs and symptoms, such as flu (influenza) or pneumonia. You may have a rapid flu test to quickly diagnose a case of influenza. If other tests are negative, you may have further tests to look specifically for anthrax, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin testing.&lt;/strong&gt; A sample of fluid from a suspicious lesion on your skin or a small tissue sample (biopsy) may be tested in a lab for signs of cutaneous anthrax. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; You may have a small amount of blood drawn that&apos;s checked in a lab for anthrax bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray or computerized tomography (CT) scan.&lt;/strong&gt; Your doctor may request a chest X-ray or CT scan to help diagnose inhalation anthrax.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopy and stool samples.&lt;/strong&gt; To diagnose intestinal anthrax, your doctor may examine your throat or intestine with an endoscope &amp;mdash; a thin, flexible tube with a tiny camera at its tip. In some cases, a sample of your stool may be checked for anthrax bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal tap (lumbar puncture).&lt;/strong&gt; In this test, your doctor inserts a needle into your spinal canal and withdraws a small amount of fluid. A spinal tap is usually done only to confirm a diagnosis of anthrax meningitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The standard treatment for anthrax is a 60-day course of an antibiotic, such as ciprofloxacin or doxycycline. Which single antibiotic or combination of antibiotics will be most effective for you depends on the type of anthrax you have, your age, overall health and other factors. Treatment is most effective when started as soon as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Although some cases of anthrax respond to antibiotics, advanced inhalation anthrax may not. By the later stages of the disease, the bacteria have often produced more toxins than drugs can eliminate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antibiotics are recommended to prevent infection in anyone exposed to the spores. Ciprofloxacin, doxycycline and levofloxacin (Levaquin) are approved by the Food and Drug Administration for post-exposure prevention of anthrax in adults and children. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anthrax vaccine&lt;/strong&gt; &lt;br /&gt;
+An anthrax vaccine for humans is available, but it&apos;s not 100 percent effective. The vaccine doesn&apos;t contain live bacteria and can&apos;t lead to infection, but it can cause side effects, ranging from soreness at the injection site to more-serious allergic reactions. The vaccine isn&apos;t recommended for children, pregnant women or older adults. 
+&lt;/p&gt;
+&lt;p&gt;
+The vaccine isn&apos;t intended for the general public. Instead, it&apos;s reserved for military personnel, scientists working with anthrax and people in other high-risk professions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoiding infected animals&lt;/strong&gt; &lt;br /&gt;
+If you live or travel in a country where anthrax is common and herd animals aren&apos;t routinely vaccinated, avoid contact with livestock and animal skins as much as possible. Also avoid eating meat that hasn&apos;t been properly cooked. 
+&lt;/p&gt;
+&lt;p&gt;
+Even in developed countries, it&apos;s important to handle any dead animal with care and to take precautions when working with or processing imported hides, fur or wool. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Anthrax
+	</Title>
+	<Abstract>
+		Anthrax &amp;mdash; Comprehensive overview covers symptoms, vaccine, risks of this deadly bacterial disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+	</RelatedLinksBox>
+</Disease>

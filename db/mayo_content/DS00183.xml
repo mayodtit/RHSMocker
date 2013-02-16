@@ -1,0 +1,522 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00183
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/drug-addiction/DS00183
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-01
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1644" Title="Substance abuse">
+						<Keyword MCVID="1646" Title="Drug addiction" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			23246C2F-131D-4391-BB2A6B3E819A126F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				drug addiction
+			</MetaKeyword>
+			<MetaKeyword>
+				drug use
+			</MetaKeyword>
+			<MetaKeyword>
+				addiction
+			</MetaKeyword>
+			<MetaKeyword>
+				drug abuse
+			</MetaKeyword>
+			<MetaKeyword>
+				chemical dependency
+			</MetaKeyword>
+			<MetaKeyword>
+				chemical abuse
+			</MetaKeyword>
+			<MetaKeyword>
+				substance abuse
+			</MetaKeyword>
+			<MetaKeyword>
+				narcotic use
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Drug addiction is a dependence on an illegal drug or a medication. When you&apos;re addicted, you may not be able to control your drug use and you may continue using the drug despite the harm it causes. Drug addiction can cause an intense craving for the drug. You may want to quit, but most people find they can&apos;t do it on their own.
+&lt;/p&gt;
+&lt;p&gt;
+For many people, what starts as casual use leads to drug addiction. Drug addiction can cause serious, long-term consequences, including problems with physical and mental health, relationships, employment and the law.
+&lt;/p&gt;
+&lt;p&gt;
+You may need help from your doctor, family, friends, support groups or an organized treatment program to overcome your drug addiction and stay drug-free. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most drug addictions start with casual or social use of a drug. For some people, using the drug becomes a habit, and its use becomes more and more frequent. As time passes, you may need larger doses of the drug to get high. Soon you may need the drug just to feel good. As your drug use increases, you may find that it becomes increasingly difficult to go without the drug. Stopping may cause intense cravings and make you feel physically ill (withdrawal symptoms).
+&lt;/p&gt;
+&lt;p&gt;
+Drug addiction symptoms or behaviors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeling that you have to use the drug regularly &amp;mdash; this can be daily or even several times a day&lt;/li&gt;
+	&lt;li&gt;Failing in your attempts to stop using the drug&lt;/li&gt;
+	&lt;li&gt;Making certain that you maintain a supply of the drug&lt;/li&gt;
+	&lt;li&gt;Spending money on the drug, even though you can&apos;t afford it&lt;/li&gt;
+	&lt;li&gt;Doing things to obtain the drug that you normally wouldn&apos;t do, such as stealing&lt;/li&gt;
+	&lt;li&gt;Feeling that you need the drug to deal with your problems&lt;/li&gt;
+	&lt;li&gt;Driving or doing other risky activities when you&apos;re under the influence of the drug&lt;/li&gt;
+	&lt;li&gt;Focusing more and more time and energy on getting and using the drug&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Recognizing drug abuse in teenagers&lt;/strong&gt;&lt;br /&gt;
+It can sometimes be difficult to distinguish normal teenage moodiness or angst from signs of drug use. Possible indications that your teenager is using drugs include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Problems at school.&lt;/strong&gt; Frequently missing classes or missing school, a sudden disinterest in school or school activities, or a drop in grades may be indicators of drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical health issues.&lt;/strong&gt; Lack of energy and motivation may indicate your child is using certain drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neglected appearance.&lt;/strong&gt; Teenagers are generally concerned about how they look. A lack of interest in clothing, grooming or looks may be a warning sign of drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in behavior.&lt;/strong&gt; Teenagers enjoy privacy, but exaggerated efforts to bar family members from entering their rooms or knowing where they go with their friends might indicate drug use. Also, drastic changes in behavior and in relationships with family and friends may be linked to drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spending money.&lt;/strong&gt; Sudden requests for money without a reasonable explanation for its use may be a sign of drug use. You may also discover money stolen from previously safe places at home. Items may disappear from your home because they&apos;re being sold to support a drug habit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Recognizing signs of drug use and dependence&lt;br /&gt;
+&lt;/strong&gt;The particular signs and symptoms of drug use and dependence vary depending on the type of drug. You might be able to tell that a family member or a friend is using or abusing a drug based on the physical and behavioral signs and symptoms associated with the drug. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Marijuana and hashish&lt;br /&gt;
+&lt;/strong&gt;It&apos;s possible to develop a psychological addiction to cannabis compounds including tetrahydrocannabinol (THC) found in marijuana and hashish. People who have a marijuana addiction generally use the drug on a daily basis. They don&apos;t actually have a chemical dependence on the drug but rather feel the need to regularly use the drug.
+&lt;/p&gt;
+&lt;p&gt;
+Signs of use and dependence can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A heightened sense of visual, auditory and taste perception&lt;/li&gt;
+	&lt;li&gt;Poor memory&lt;/li&gt;
+	&lt;li&gt;Increased blood pressure and heart rate&lt;/li&gt;
+	&lt;li&gt;Red eyes&lt;/li&gt;
+	&lt;li&gt;Decreased coordination&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Increased appetite&lt;/li&gt;
+	&lt;li&gt;Slowed reaction time&lt;/li&gt;
+	&lt;li&gt;Paranoid thinking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Barbiturates and benzodiazepines&lt;br /&gt;
+&lt;/strong&gt;Barbiturates and benzodiazepines are prescription central nervous system depressants. Phenobarbital, amobarbital (Amytal) and secobarbital (Seconal) are examples of barbiturates. Benzodiazepines include tranquilizers, such as diazepam (Valium), alprazolam (Xanax), lorazepam (Ativan), clonazepam (Klonopin) and chlordiazepoxide (Librium). If you&apos;re prescribed these drugs, take them exactly as ordered. If you feel your need for these medications is increasing, talk to your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Signs of use and dependence can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drowsiness&lt;/li&gt;
+	&lt;li&gt;Slurred speech&lt;/li&gt;
+	&lt;li&gt;Lack of coordination&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Slowed breathing and decreased blood pressure&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Methamphetamine, cocaine and other stimulants&lt;br /&gt;
+&lt;/strong&gt;This class of drugs includes amphetamines, methamphetamine, cocaine and methylphenidate (Ritalin). 
+&lt;/p&gt;
+&lt;p&gt;
+Signs of use and dependence can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Euphoria&lt;/li&gt;
+	&lt;li&gt;Decreased appetite&lt;/li&gt;
+	&lt;li&gt;Rapid speech&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Restlessness&lt;/li&gt;
+	&lt;li&gt;Depression as the drug wears off&lt;/li&gt;
+	&lt;li&gt;Nasal congestion and damage to the mucous membrane of the nose in users who snort drugs&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Increased heart rate, blood pressure and temperature&lt;/li&gt;
+	&lt;li&gt;Paranoia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Methamphetamine, also known as &quot;meth,&quot; is a particularly dangerous drug. It&apos;s highly addictive and causes a number of short-term and long-term health consequences. Methamphetamine is relatively inexpensive and widely available.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Club drugs&lt;/strong&gt;&lt;br /&gt;
+Club drugs are drugs commonly used by teens and young adults at clubs, concerts and parties. Examples include Ecstasy (MDMA), GHB, Rohypnol (&quot;roofies&quot;) and ketamine. These drugs are not all classified in the same category, but they share some similar effects and dangers. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs of club drug use and dependence can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An exaggerated feeling of great happiness or well-being (euphoria)&lt;/li&gt;
+	&lt;li&gt;Reduced inhibitions&lt;/li&gt;
+	&lt;li&gt;A heightened or altered sense of sight, sound and taste&lt;/li&gt;
+	&lt;li&gt;Amphetamine-like effects (with ketamine and Ecstasy)&lt;/li&gt;
+	&lt;li&gt;Decreased coordination&lt;/li&gt;
+	&lt;li&gt;Poor judgment&lt;/li&gt;
+	&lt;li&gt;Memory problems or loss of memory&lt;/li&gt;
+	&lt;li&gt;Increased or decreased heart rate and blood pressure&lt;/li&gt;
+	&lt;li&gt;Drowsiness and loss of consciousness (with GHB and Rohypnol)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+GHB and Rohypnol are particularly dangerous. At high doses, they can cause seizures, coma and death. The danger increases when these drugs are taken with alcohol. Because they worsen consciousness and memory and they&apos;re easy to give someone without his or her knowledge or consent, these drugs are both commonly used as date-rape drugs.
+&lt;/p&gt;
+&lt;p&gt;
+One particular danger of club drugs is that the liquid, pill or powder forms of these drugs available on the street often contain unknown substances that can be harmful, including other illegally manufactured or pharmaceutical drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hallucinogens&lt;/strong&gt;&lt;br /&gt;
+Use of hallucinogens produces different signs and symptoms depending on the drug. The most common hallucinogens are LSD and phencyclidine (PCP).
+&lt;/p&gt;
+&lt;p&gt;
+Signs of LSD use include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Greatly reduced perception of reality, for example, interpreting input from one of your senses as another, such as hearing colors&lt;/li&gt;
+	&lt;li&gt;Permanent mental changes in perception&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Tremors&lt;/li&gt;
+	&lt;li&gt;Flashbacks, a re-experience of the hallucinations &amp;mdash; even years later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs of PCP use include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Euphoria&lt;/li&gt;
+	&lt;li&gt;Delusions&lt;/li&gt;
+	&lt;li&gt;Panic&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Aggressive, possibly violent behavior&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Inhalants&lt;br /&gt;
+&lt;/strong&gt;The signs and symptoms of inhalant use vary depending on what substance is inhaled. Some commonly inhaled substances include glue, paint thinners, correction fluid, felt tip marker fluid, gasoline, cleaning fluids and household aerosol products. 
+&lt;/p&gt;
+&lt;p&gt;
+When inhaled, these products can cause brief intoxication and a decreased feeling of inhibition. Long-term use may cause seizures and damage to the brain, liver and kidneys. Inhalant use can also cause death. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Narcotic painkillers&lt;br /&gt;
+&lt;/strong&gt;Opioids are narcotic, painkilling drugs produced naturally from opium or made synthetically. This class of drugs includes heroin, morphine, codeine, methadone and oxycodone (OxyContin). If you&apos;re prescribed these medications by a doctor, take them exactly as directed. Don&apos;t increase your dose without first talking to your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Signs of narcotic use and dependence can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reduced sense of pain&lt;/li&gt;
+	&lt;li&gt;Sedation&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Slowed breathing&lt;/li&gt;
+	&lt;li&gt;Needle marks (if injecting drugs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you think your drug use is out of control or is causing problems, get help. The sooner you seek help, the greater your chances are for a long-term recovery. Your family doctor may be a good place to start, or you may see a mental health provider such as a psychologist or psychiatrist.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Make an appointment&lt;/strong&gt; to see a doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You can&apos;t stop using a drug.&lt;/li&gt;
+	&lt;li&gt;Your drug use has led to unsafe behavior, such as sharing needles or unprotected sex.&lt;/li&gt;
+	&lt;li&gt;You think you may be having withdrawal symptoms. If you&apos;re reluctant to approach a doctor, help lines or hotlines may be a good place to learn about treatment. You can find these lines listed in the phone book or on the Internet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency help&lt;/strong&gt; if you or someone you know has taken a drug and:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;May have overdosed&lt;/li&gt;
+	&lt;li&gt;Loses consciousness&lt;/li&gt;
+	&lt;li&gt;Has trouble breathing&lt;/li&gt;
+	&lt;li&gt;Has seizures&lt;/li&gt;
+	&lt;li&gt;Has signs of a heart attack, such as chest pain or pressure&lt;/li&gt;
+	&lt;li&gt;Has any other troublesome physical or psychological reaction to use of the drug&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Like many psychological disorders, drug addiction and dependence depends on several things. Two main factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Environment.&lt;/strong&gt; Environmental factors, including your family&apos;s beliefs and attitudes and exposure to a peer group that encourages drug use, seem to play a role in initial drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genes.&lt;/strong&gt; Once you&apos;ve started using a drug, the development into addiction may be influenced by inherited traits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Changing brain pathways&lt;br /&gt;
+&lt;/strong&gt;Physical addiction appears to occur when repeated use of a drug alters the way your brain feels pleasure. The addicting drug causes physical changes to some nerve cells (neurons) in your brain. Neurons use chemicals called neurotransmitters to communicate.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People of any age, sex or economic status can become addicted to a drug. However, certain factors can affect the likelihood of your developing an addiction: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of addiction.&lt;/strong&gt; Drug addiction is more common in some families and likely involves the effects of many genes. If you have a blood relative, such as a parent or sibling, with alcohol or drug problems, you&apos;re at greater risk of developing a drug addiction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Men are twice as likely to have problems with drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having another psychological problem.&lt;/strong&gt; If you have a psychological problem, such as depression, attention-deficit/hyperactivity disorder or post-traumatic stress disorder, you&apos;re more likely to become dependent on drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peer pressure.&lt;/strong&gt; Particularly for young people, peer pressure is a strong factor in starting to use and abuse drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of family involvement.&lt;/strong&gt; A lack of attachment with your parents may increase the risk of addiction, as can a lack of parental supervision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety, depression and loneliness.&lt;/strong&gt; Using drugs can become a way of coping with these painful psychological feelings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking a highly addictive drug.&lt;/strong&gt; Some drugs, such as heroin and cocaine, cause addiction faster than do others.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dependence on drugs can create a number of life-changing complications. They can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Health problems.&lt;/strong&gt; Drug addiction can lead to a range of both short- and long-term mental and physical health problems. These depend on what drug is taken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unconsciousness, coma and sudden death.&lt;/strong&gt; Taking some drugs can be particularly risky, especially if you take high doses or combine them with other drugs or alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Getting a communicable disease.&lt;/strong&gt; People who are addicted to a drug are more likely to get an infectious disease, such as HIV, either through unsafe sex or by sharing needles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accidents.&lt;/strong&gt; If you&apos;re addicted to a drug, you&apos;re more likely to drive or do other dangerous activities while intoxicated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Suicide.&lt;/strong&gt; People who are addicted to drugs commit suicide more often than do people who aren&apos;t.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family problems.&lt;/strong&gt; Behavioral changes may cause marital or family strife and custody issues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work issues.&lt;/strong&gt; Work performance may decline, and you may be absent from work more often.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems at school.&lt;/strong&gt; Academic performance and motivation to excel in school may suffer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Legal issues.&lt;/strong&gt; These can stem from stealing to support your drug addiction, driving while under the influence of drugs or alcohol, and disputes over child custody.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Financial problems.&lt;/strong&gt; Spending money to support your habit takes away money from your other needs, could put you into debt, and could lead you into illegal or unethical behaviors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a specialist, such as a counselor, psychiatrist or psychologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be honest about your drug use.&lt;/strong&gt; When you have a drug-use problem, it can be easy to downplay or underestimate how much you use and your level of dependence. In order to get an accurate idea of your best course of action, you&apos;ll need to be honest with your doctor or other mental health provider.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; When it comes to substance use, it can be helpful to get a second perspective from someone who knows you well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the best approach to my drug problem?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Should I see a psychiatrist or other mental health provider? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Will I need to go to the hospital or spend time as an inpatient or outpatient at a recovery clinic?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your drug use first start?&lt;/li&gt;
+	&lt;li&gt;How often do you use drugs?&lt;/li&gt;
+	&lt;li&gt;When you take a drug, how much do you use?&lt;/li&gt;
+	&lt;li&gt;Have you tried to quit on your own? What happened when you did?&lt;/li&gt;
+	&lt;li&gt;If you tried to quit, did you have withdrawal symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you ready to get the treatment needed for your drug problem?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing a drug addiction often starts at the family doctor level, often after one family member has raised concerns about another family member&apos;s behavior. Your doctor may ask questions about the frequency of drug use, whether any family member has criticized your drug use or whether you&apos;ve ever felt you might have a problem. 
+&lt;/p&gt;
+&lt;p&gt;
+A definitive diagnosis of drug addiction usually occurs after an evaluation by a psychiatrist, a psychologist or a specialized addiction counselor. Blood tests aren&apos;t used to diagnose a drug addiction but may be used to see whether you&apos;ve taken certain drugs in the recent past.
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with an addiction (substance dependence), you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health professionals to diagnose mental conditions and by insurance companies to reimburse for treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Certain criteria must be met for you to be diagnosed with substance dependence. These include a pattern of drug use that causes significant problems or distress that includes three or more of the following, occurring at any time over a 12-month period:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You develop tolerance, which means that the drug has less and less effect on you and you need more of the drug to get high.&lt;/li&gt;
+	&lt;li&gt;You have physical or psychological withdrawal symptoms, or you take the drug (or a similar drug) to avoid withdrawal symptoms.&lt;/li&gt;
+	&lt;li&gt;You often take larger amounts of the drug over a longer period of time than you intended.&lt;/li&gt;
+	&lt;li&gt;You keep trying to cut down or quit using the drug.&lt;/li&gt;
+	&lt;li&gt;You spend a good deal of time getting the drug, using the drug or recovering from the effects of the drug.&lt;/li&gt;
+	&lt;li&gt;You give up or cut back important social, occupational or recreational activities because of your drug use.&lt;/li&gt;
+	&lt;li&gt;You keep using the drug, even though you know it&apos;s causing physical or psychological problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Drug addiction treatments include organized inpatient or outpatient treatment programs, counseling, and self-help groups to help you resist using the addictive drug again. Depending on your level of addiction, you may need steps to help you withdraw from using the drug (detoxification). 
+&lt;/p&gt;
+&lt;p&gt;
+Therapies such as counseling, addiction treatment programs and self-help group meetings can help you overcome an addiction and stay sober. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment programs.&lt;/strong&gt; Treatment programs generally include educational and therapy sessions focused on getting sober and preventing relapse. This may be accomplished in individual, group or family sessions. These programs are available in various settings from outpatient to residential and inpatient programs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Counseling.&lt;/strong&gt; Individual or family counseling with a psychologist, psychiatrist or addiction counselor may help you resist the temptation to resume using addicting drugs. Behavior therapies can help you develop ways to cope with your drug cravings, suggest strategies to avoid drugs and prevent relapse, and offer suggestions on how to deal with a relapse if it occurs. Counseling can also involve talking about your job, legal problems, and relationships with family and friends. Counseling with family members can help them develop better communication skills and be more supportive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Self-help groups.&lt;/strong&gt; Many, though not all, of these groups tend to use the 12-step model first developed by Alcoholics Anonymous. Self-help groups, such as Narcotics Anonymous, exist for people addicted to drugs, such as cocaine, sedatives and narcotics. The message is that addiction is a chronic disorder with a danger of relapse and that ongoing maintenance treatment &amp;mdash; which may include medications, counseling and self-help group meetings &amp;mdash; is necessary to prevent a relapse. Your doctor or counselor can help you locate a self-help group. You also can find listings for self-help groups in the phone book, at the library and on the Internet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Withdrawal therapy&lt;br /&gt;
+&lt;/strong&gt;The goal of withdrawal therapy (detoxification) is for you to stop taking the addicting drug as quickly and safely as possible. Detoxification may involve gradually reducing the dose of the drug or temporarily substituting other substances, such as methadone, that have less severe side effects. For some people, it may be safe to undergo withdrawal therapy on an outpatient basis; others may require admission to a hospital or a residential treatment center. 
+&lt;/p&gt;
+&lt;p&gt;
+Withdrawal from different categories of drugs produces different side effects and requires different approaches. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Depressants (includes barbiturates, benzodiazepines and others).&lt;/strong&gt; Minor side effects of withdrawal may include restlessness, anxiety, sleep problems and sweating. More-serious signs and symptoms also could include hallucinations, whole-body tremors, seizures, and increased blood pressure, heart rate and body temperature. Withdrawal therapy may involve gradually scaling back the amount of the drug, adding another medication to help stabilize the nerve cells during detoxification or both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stimulants (includes amphetamines, methamphetamine, cocaine, Ritalin and others).&lt;/strong&gt; Side effects of withdrawal typically include depression, fatigue, anxiety and intense cravings. In some cases, signs and symptoms may include suicidal thoughts and suicide attempts, paranoia, and decreased contact with reality (acute psychosis). Treatment during withdrawal is usually limited to emotional support from your family, friends and doctor. Your doctor may recommend medications to treat paranoid psychosis or depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opioids (includes heroin, morphine, codeine, OxyContin and others).&lt;/strong&gt; Withdrawal side effects of opioids can range from relatively minor to severe. On the minor end, they may include runny nose, sweating, yawning, anxiety and drug cravings. Severe reactions can include sleeplessness, depression, dilated pupils, rapid pulse, rapid breathing, high blood pressure, abdominal cramps, tremors, bone and muscle pain, vomiting, and diarrhea. Doctors may substitute an artificial opiate, such as methadone or buprenorphine (Subutex, others), to reduce the craving for heroin during recovery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Overcoming an addiction and staying drug-free require a lot of effort. Learning new coping skills and knowing where to find help are essential. Here are some steps you may want to consider:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;See a therapist.&lt;/strong&gt; Drug addiction is linked to a number of problems that may be helped with counseling (psychotherapy). You may have other underlying mental health concerns that need to be addressed, or you may have marriage or family problems you need to work through. Therapy may help you regain your peace of mind and mend your relationships.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Support groups, such as Narcotics Anonymous, can be very effective in coping with addiction. Compassion, understanding and shared experiences can help you break your addiction and stay drug-free. You may find support groups in your community, and there are also several available on the Internet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek treatment for other mental health disorders.&lt;/strong&gt; Because people with other mental health problems, such as depression, are more likely to become addicted to drugs, seek immediate treatment from a qualified mental health professional if you have any signs or symptoms of mental illness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging an intervention&lt;br /&gt;
+&lt;/strong&gt;Because many drug users deny they have a problem, they won&apos;t seek help on their own. Family members, friends or co-workers may need to persuade the user to seek treatment. If you have a friend or family member with a drug problem who won&apos;t get help, you may need to take steps to organize a planned intervention. 
+&lt;/p&gt;
+&lt;p&gt;
+An intervention is a carefully planned process in which family and friends, teachers, clergy members, or others join together to confront someone about the consequences of addiction and ask him or her to accept a treatment plan. A successful intervention involves careful planning, research and teamwork. If you think you need to set up an intervention, learn how to do it correctly. A carefully organized intervention can be very successful, but a poorly planned confrontation can make the situation worse.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent an addiction to an illegal drug is not to take the drug at all. Use care when taking an addictive prescription drug. Your doctor may prescribe narcotics to relieve pain, benzodiazepines to relieve anxiety or insomnia, or barbiturates to relieve nervousness or irritation. Doctors prescribe these medications at safe doses and monitor their use so that you&apos;re not given too great a dose or for too long a time. If you feel you need to take more than the prescribed dose of a medication, talk to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing drug abuse in children&lt;br /&gt;
+&lt;/strong&gt;Take the following steps to help prevent drug abuse in your children: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Communicate.&lt;/strong&gt; Talk to your children about the risks of drug use and abuse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Listen.&lt;/strong&gt; Be a good listener when your children talk about peer pressure, and be supportive of their efforts to resist it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set a good example.&lt;/strong&gt; Don&apos;t abuse alcohol or addictive drugs. Children of parents who abuse drugs are at greater risk of drug addiction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strengthen the bond.&lt;/strong&gt; Work on your relationship with your children. A strong, stable bond between you and your child will reduce your child&apos;s risk of using or abusing drugs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing a relapse&lt;br /&gt;
+&lt;/strong&gt;Once you&apos;ve been addicted to a drug, you&apos;re at high risk of falling back into a pattern of addiction. If you do start using the drug, it&apos;s likely you&apos;ll lose control over its use again &amp;mdash; even if you&apos;ve had treatment and you haven&apos;t used the drug for some time. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid high-risk situations.&lt;/strong&gt; Don&apos;t go back to the neighborhood where you used to get your drugs. And stay away from your old drug crowd.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get help immediately if you use the drug again.&lt;/strong&gt; If you start using the drug again, talk to your doctor, your mental health provider or someone else who can help you right away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stick with your treatment plan.&lt;/strong&gt; It may seem like you&apos;ve recovered and you don&apos;t need to keep taking steps to stay drug-free. But don&apos;t stop seeing your psychotherapist, going to your support group meetings or taking prescribed medication. Your chances of staying drug-free are much higher if you continue treatment after you recover.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Drug addiction
+	</Title>
+	<Abstract>
+		Drug addiction &amp;mdash; Comprehensive overview covers signs, symptoms, causes, treatment of this chemical dependence.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="SR00043" LinkType="Internal" ObjectID="D966FE05-E7FF-0DBD-144FAEB77B9F567A" Title="Denial: When it helps, when it hurts" Url="http://www.mayoclinic.com/health/denial/SR00043" />
+		<LinkItem ContentType="Article" DocID="MH00127" LinkType="Internal" ObjectID="BFA8F1BD-E7FF-0DBD-1267950515E55234" Title="Intervention: Help a loved one overcome addiction" Url="http://www.mayoclinic.com/health/intervention/MH00127" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Disease" DocID="DS01062" LinkType="Internal" ObjectID="C22F27E8-E7FF-0DBD-18D04660F2EA2EBE" Title="Suicide and suicidal thoughts" Url="http://www.mayoclinic.com/health/suicide/DS01062" />
+	</RelatedLinksBox>
+</Disease>

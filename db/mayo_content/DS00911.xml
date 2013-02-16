@@ -1,0 +1,357 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00911
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polymorphous-light-eruption/DS00911
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4692" Title="Sun allergy">
+							<Keyword MCVID="3209" Title="Polymorphous light eruption" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			62D81BD0-E7FF-0DBD-16ACD97DF82C36D2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polymorphous light eruption
+			</MetaKeyword>
+			<MetaKeyword>
+				polymorphic light eruption
+			</MetaKeyword>
+			<MetaKeyword>
+				PMLE
+			</MetaKeyword>
+			<MetaKeyword>
+				PLE
+			</MetaKeyword>
+			<MetaKeyword>
+				sun poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				sun allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				sun poison
+			</MetaKeyword>
+			<MetaKeyword>
+				photosensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				photodermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sun sensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				sunburn
+			</MetaKeyword>
+			<MetaKeyword>
+				solar urticaria
+			</MetaKeyword>
+			<MetaKeyword>
+				sunpoison
+			</MetaKeyword>
+			<MetaKeyword>
+				polymorphous light eruption causes
+			</MetaKeyword>
+			<MetaKeyword>
+				polymorphous light eruption symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				polymorphous light eruption treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polymorphous light eruption is an itchy rash caused by sun exposure in people who have developed a sensitivity to sunlight (photosensitivity). The rash usually appears as red, tiny bumps or slightly raised patches of skin.
+&lt;/p&gt;
+&lt;p&gt;
+Polymorphous light eruption occurs most often during spring and early summer when a person&apos;s exposure to sunlight increases. Repeat episodes are less likely as the summer progresses, but polymorphous light eruption often recurs each year after the first incident.
+&lt;/p&gt;
+&lt;p&gt;
+Although polymorphous light eruption usually resolves on its own without treatment, medications may be needed to treat severe or persistent cases. Measures to protect the skin from sun exposure or light therapy may help prevent recurring episodes of polymorphous light eruption.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="60" Title="Polymorphous light eruption" URI="/images/image_popup/thumbs/sn7_pmlechestthu.jpg" Width="60" />
+				<Image Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="400" Title="Polymorphous light eruption" URI="/images/image_popup/sn7_pmlechest.jpg" Width="400" />
+				<HTML>
+					Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The term &quot;eruption&quot; refers to the development of a rash, which usually appears within minutes to hours &amp;mdash; although sometimes after a couple of days &amp;mdash; after exposure to sunlight. The rash appears most often on areas of the body that are usually covered during winter and exposed in summer: the upper chest, front of the neck and the arms.
+&lt;/p&gt;
+&lt;p&gt;
+Characteristics of the rash may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dense clusters of small bumps&lt;/li&gt;
+	&lt;li&gt;Raised rough patches&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Itching or burning&lt;/li&gt;
+	&lt;li&gt;Blistering and swelling (less common)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely people may have other signs or symptoms, such as fever, chills, headache or nausea. These conditions may be the result of an associated sunburn rather than polymorphous light eruption.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;See your doctor if:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have any rash with no obvious cause, such as a known allergy or known exposure to poison ivy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A number of conditions &amp;mdash; including some serious diseases &amp;mdash; can cause skin rashes with similar appearances. It&amp;rsquo;s important to get a prompt diagnosis and appropriate treatment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek immediate medical care if&lt;/strong&gt; your rash is:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Widespread&lt;/li&gt;
+	&lt;li&gt;Painful&lt;/li&gt;
+	&lt;li&gt;Accompanied by fever&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="60" Title="Polymorphous light eruption" URI="/images/image_popup/thumbs/sn7_pmlechestthu.jpg" Width="60" />
+				<Image Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="400" Title="Polymorphous light eruption" URI="/images/image_popup/sn7_pmlechest.jpg" Width="400" />
+				<HTML>
+					Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of polymorphous light eruption on arm" Caption="The rash that results from polymorphous light eruption can look different from person to person, but typically includes redness, itching and small bumps that may be densely packed together." Height="60" Title="Polymorphous light eruption on arm" URI="/images/image_popup/thumbs/sn7_pmlearmthu.jpg" Width="60" />
+				<Image Alt="Image of polymorphous light eruption on arm" Caption="The rash that results from polymorphous light eruption can look different from person to person, but typically includes redness, itching and small bumps that may be densely packed together." Height="400" Title="Polymorphous light eruption on arm" URI="/images/image_popup/sn7_pmlearm.jpg" Width="400" />
+				<HTML>
+					The rash that results from polymorphous light eruption can look different from person to person, but typically includes redness, itching and small bumps that may be densely packed together....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of polymorphous light eruption isn&apos;t well understood. The rash appears in people who have developed a sensitivity to ultraviolet (UV) radiation from the sun or other sources, such as tanning beds or tanning lamps. This sensitivity results in sunlight-induced immune system activity that produces inflammation and a rash.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;UV radiation&lt;/strong&gt;&lt;br /&gt;
+UV radiation is a wavelength of sunlight in a range too short for the human eye to see. UV light that reaches the earth is divided into two wavelength bands &amp;mdash; ultraviolet A (UVA) and ultraviolet B (UVB).
+&lt;/p&gt;
+&lt;p&gt;
+A person with photosensitivity can react to both types of UV radiation. Although UVB doesn&apos;t penetrate glass, UVA does. Therefore, exposure to sunlight through windows may cause a reaction in some people with photosensitivity.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Photosensitivity&lt;/strong&gt;&lt;br /&gt;
+Sensitivity to sunlight lessens with repeated exposure. Therefore, there are somewhat predictable features of polymorphous light eruption:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An episode is most likely to occur after the first one or two exposures to sunlight after a long period of no exposure. This usually means that an episode occurs during the spring or early summer or during a winter vacation in a sunnier location.&lt;/li&gt;
+	&lt;li&gt;Episodes are less likely to occur as the summer progresses.&lt;/li&gt;
+	&lt;li&gt;After the first episode of polymorphous light eruption, additional episodes are likely to recur on an annual basis each spring or early summer.&lt;/li&gt;
+	&lt;li&gt;Some people gradually become less sensitive over several years and no longer experience recurring episodes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop polymorphous light eruption, several factors are associated with an increased risk of the condition:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Women are more likely to develop the disorder.&lt;/li&gt;
+	&lt;li&gt;The first episode most often appears during the teenage years or 20s.&lt;/li&gt;
+	&lt;li&gt;People with fair skin or those living in northern regions are more likely to develop the disorder.&lt;/li&gt;
+	&lt;li&gt;A family history of polymorphous light eruption among some people with the condition suggests a possible genetic risk factor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care doctor, but you may be referred to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will ask you a number of questions about your symptoms and your medical history. Be prepared to answer the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the rash appear?&lt;/li&gt;
+	&lt;li&gt;Does it itch or cause pain?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever associated with the rash?&lt;/li&gt;
+	&lt;li&gt;Do you have any other symptoms?&lt;/li&gt;
+	&lt;li&gt;What prescription drugs, over-the-counter medications or dietary supplements do you take? What is the dosage of each?&lt;/li&gt;
+	&lt;li&gt;Did you recently start a new medication?&lt;/li&gt;
+	&lt;li&gt;Have you recently started using a new cosmetic or fragrance?&lt;/li&gt;
+	&lt;li&gt;Have you had a similar rash before? When?&lt;/li&gt;
+	&lt;li&gt;Has the duration of your sunlight exposure increased recently?&lt;/li&gt;
+	&lt;li&gt;Have you recently used a tanning bed or lamp?&lt;/li&gt;
+	&lt;li&gt;Do you use sunscreen?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can most likely make a diagnosis of polymorphous light eruption based on your answer to questions and a physical exam. Laboratory tests may be needed to confirm a diagnosis or rule out other conditions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical exam&lt;/strong&gt;&lt;br /&gt;
+Your doctor will conduct an exam to assess your general health. In particular, he or she will examine the rash and the condition of your skin at other sites.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+Your doctor may order one of the following tests if a diagnosis isn&apos;t certain, the rash doesn&apos;t resolve at an expected rate, or there is any reason to suspect another condition causing the rash. Tests may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin biopsy.&lt;/strong&gt; Your doctor may scrape a tiny portion of the rash to remove a sample of tissue (biopsy) for examination in a lab. The biopsy is primarily used to rule out other conditions that may be causing a rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A nurse or assistant may draw blood for laboratory tests that can rule out other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Phototesting.&lt;/strong&gt; You may be referred to a dermatologist for phototesting. During the test small areas of your skin are exposed to measured amounts of UVA and UVB light to try to reproduce the problem. If your skin reacts to the UV radiation, you&apos;re considered sensitive to sunlight (photosensitive) and may have polymorphous light eruption or another light-induced disorder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other light-induced conditions&lt;/strong&gt;&lt;br /&gt;
+Your doctor may need to rule out other disorders characterized by light-induced skin reactions. These conditions include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical photosensitivity.&lt;/strong&gt; A number of chemicals &amp;mdash; drugs, medicated lotions, fragrances, plant products &amp;mdash; can induce photosensitivity. When this occurs, your skin reacts each time it&apos;s exposed to sunlight after ingesting or coming into contact with a particular chemical.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Solar urticaria.&lt;/strong&gt; Solar urticaria is a sun-induced allergic reaction that produces hives &amp;mdash; raised, red, itchy welts of various sizes that appear and disappear on your skin. The welts can appear within a few minutes of sun exposure and last for a few minutes to hours. Solar urticaria is a chronic condition that can last for years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lupus rash.&lt;/strong&gt; Lupus is an inflammatory disorder that affects a number of body systems. One symptom is the appearance of a discolored, bumpy rash on areas of skin exposed to sunlight, such as the face, neck or upper chest.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polymorphous light eruption treatment usually isn&apos;t necessary because the rash typically resolves on its own within a few days to a week or more.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drugs&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-itch cream.&lt;/strong&gt; Your doctor may recommend an over-the-counter anti-itch cream, such as a cream containing at least 1 percent hydrocortisone. If you&apos;re experiencing severe itch or pain, your doctor may prescribe a more potent corticosteroid cream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; An over-the-counter pain medication may help reduce redness, itchiness or pain. These include ibuprofen (Advil, Motrin, others), acetaminophen (Tylenol, others) and naproxen (Aleve, others).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Phototherapy&lt;/strong&gt;&lt;br /&gt;
+Your doctor may suggest light therapy (phototherapy) to prevent seasonal episodes of polymorphous light eruption. Phototherapy exposes your skin to small doses of UVA or UVB light that helps your skin be less sensitive to light &amp;mdash; essentially a controlled version of the increased exposure you would experience over the course of the summer.
+&lt;/p&gt;
+&lt;p&gt;
+One type of light therapy called psoralen plus ultraviolet A (PUVA) combines UVA with administration of a medicine called psoralen, which makes the skin more sensitive to this light. Short-term side effects of this therapy may include nausea, headache and itching. Also, you must wear special UVA-absorbing sunglasses for a couple of days to protect your eyes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-care measures that may lessen itching related to polymorphous light eruption include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use cold compresses.&lt;/strong&gt; Apply a towel dampened with cool tap water to the affected skin, or take a cool bath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leave blisters intact.&lt;/strong&gt; To speed healing and avoid infection, leave blisters intact. If needed, you can lightly cover blisters with gauze.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To lessen the likelihood of recurring episodes of polymorphous light eruption, take the following precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid the sun between 10 a.m. and 4 p.m.&lt;/strong&gt; Because the sun&apos;s rays are most intense during this time, try to schedule outdoor activities for other times of the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen.&lt;/strong&gt; Fifteen to 30 minutes before going outdoors, apply a broad-spectrum sunscreen, one that provides protection from both UVA and UVB light. Broad-spectrum sunscreens contain one or more of the following ingredients: avobenzone, cinoxate, ecamsule, menthyl anthranilate, octyl methoxycinnamate, octyl salicylate, oxybenzone, sulisobenzone, titanium dioxide or zinc oxide. Use a sunscreen with a sun protection factor (SPF) of at least 15. Apply sunscreen generously, and reapply every two hours &amp;mdash; or more often if you&apos;re swimming or perspiring. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up.&lt;/strong&gt; For protection from the sun, wear tightly woven clothing that covers your arms and legs and a broad-brimmed hat, which provides more protection than does a baseball cap or golf visor. You might also consider wearing clothing designed to provide sun protection. An ultraviolet protection factor (UPF) of 40 to 50 provides the best protection. UV-blocking clothes can lose their protective feature if they are worn too tightly, become wet or are washed frequently.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polymorphous light eruption
+	</Title>
+	<Abstract>
+		Polymorphous light eruption &amp;mdash; Comprehensive overview covers symptoms and treatments of this sun-induced skin rash.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+		<LinkItem ContentType="Disease" DocID="DS01178" LinkType="Internal" ObjectID="00EB5EED-0DB9-A1F0-7273C233F2338A83" Title="Sun allergy" Url="http://www.mayoclinic.com/health/sun-allergy/DS01178" />
+		<LinkItem ContentType="Answer" DocID="AN02071" LinkType="Internal" ObjectID="9FDB729C-F8B4-E6C2-8DE4A277C835F335" Title="Sun rash: Causes and prevention" Url="http://www.mayoclinic.com/health/sun-rash/AN02071" />
+	</RelatedLinksBox>
+</Disease>

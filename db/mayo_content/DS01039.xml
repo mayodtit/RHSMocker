@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01039
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/testicular-torsion/DS01039
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-07
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2054" Title="Testes">
+						<Keyword MCVID="3305" Title="Testicular torsion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			28E0F34F-E7FF-0DBD-17029C9DFB8DB18B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				testicular torsion
+			</MetaKeyword>
+			<MetaKeyword>
+				torsion of testis
+			</MetaKeyword>
+			<MetaKeyword>
+				torsion of the testes
+			</MetaKeyword>
+			<MetaKeyword>
+				twisted testicle
+			</MetaKeyword>
+			<MetaKeyword>
+				testicular pain
+			</MetaKeyword>
+			<MetaKeyword>
+				testicle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen testicle
+			</MetaKeyword>
+			<MetaKeyword>
+				scrotal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen scrotum
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged testicle
+			</MetaKeyword>
+			<MetaKeyword>
+				testical pain
+			</MetaKeyword>
+			<MetaKeyword>
+				infant&apos;s enlarged scrotum
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicular torsion occurs when a testicle rotates, twisting the spermatic cord that brings blood to the scrotum. The reduced blood flow causes sudden and often severe pain and swelling. Testicular torsion is most common between ages 12 and 16, but it can occur at any age, even before birth. 
+&lt;/p&gt;
+&lt;p&gt;
+Testicular torsion usually requires emergency surgery. If treated within a few hours, the testicle can usually be saved. But waiting longer can cause permanent damage and may affect the ability to father children. When blood flow has been cut off for too long, a testicle may become so badly damaged it has to be removed. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular torsion
+" Caption="With testicular torsion, the testicle twists on the spermatic cord. This cuts off blood flow to the testicle and causes sudden, severe pain.
+" Height="60" Title="Testicular torsion" URI="/images/image_popup/thumbs/m7_testorsionthu.jpg" Width="60" />
+				<Image Alt="Illustration of testicular torsion
+" Caption="With testicular torsion, the testicle twists on the spermatic cord. This cuts off blood flow to the testicle and causes sudden, severe pain.
+" Height="307" Title="Testicular torsion" URI="/images/image_popup/m7_testorsion.jpg" Width="400" />
+				<HTML>
+					With testicular torsion, the testicle twists on the spermatic cord. This cuts off blood flow to the testicle and causes sudden, severe pain.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of testicular torsion include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden or severe pain in the scrotum &amp;mdash; the loose bag of skin under your penis that contains the testicles&lt;/li&gt;
+	&lt;li&gt;Swelling of the scrotum&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;A testicle that&apos;s positioned higher than normal or at an unusual angle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;/strong&gt;&lt;br /&gt;
+Seek emergency care for sudden or severe testicle pain. Prompt treatment can prevent severe damage or loss of your testicle if the cause of the pain is testicular torsion.
+&lt;/p&gt;
+&lt;p&gt;
+You also need to seek prompt medical help if you&apos;ve had sudden testicle pain that goes away without treatment. This can occur when a testicle twists and then untwists on its own (intermittent torsion and detorsion). Even though the testicle untwisted on its own, you still need to see a doctor because surgery is frequently needed to prevent the problem from happening again.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicular torsion occurs when the testicle rotates on the spermatic cord, which brings blood to the testicle from the abdomen. If the testicle rotates several times, blood flow to it can be entirely blocked, causing damage more quickly.
+&lt;/p&gt;
+&lt;p&gt;
+Most males who get testicular torsion have an inherited trait that allows the testicle to rotate freely inside the scrotum. This inherited condition often affects both testicles. But not every male with the trait will have testicular torsion.
+&lt;/p&gt;
+&lt;p&gt;
+What causes testicular torsion is unknown. Signs and symptoms of testicular torsion may follow:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical activity&lt;/li&gt;
+	&lt;li&gt;An injury to the scrotum&lt;/li&gt;
+	&lt;li&gt;Cold temperatures&lt;/li&gt;
+	&lt;li&gt;Rapid growth of the testis during puberty&lt;/li&gt;
+	&lt;li&gt;Sleep&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of testicular torsion
+" Caption="With testicular torsion, the testicle twists on the spermatic cord. This cuts off blood flow to the testicle and causes sudden, severe pain.
+" Height="60" Title="Testicular torsion" URI="/images/image_popup/thumbs/m7_testorsionthu.jpg" Width="60" />
+				<Image Alt="Illustration of testicular torsion
+" Caption="With testicular torsion, the testicle twists on the spermatic cord. This cuts off blood flow to the testicle and causes sudden, severe pain.
+" Height="307" Title="Testicular torsion" URI="/images/image_popup/m7_testorsion.jpg" Width="400" />
+				<HTML>
+					With testicular torsion, the testicle twists on the spermatic cord. This cuts off blood flow to the testicle and causes sudden, severe pain.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Testicular torsion is most common between ages 12 and 16.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous testicular torsion.&lt;/strong&gt; If you&apos;ve had testicular pain that went away without treatment (intermittent torsion and detorsion), it&apos;s likely to occur again. The more frequent the bouts of pain, the likelier the testicle is to be permanently damaged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of testicular torsion.&lt;/strong&gt; The condition may run in families.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicular torsion can cause the following complications:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to or death of the testicle.&lt;/strong&gt; When testicular torsion is not treated for several hours, blocked blood flow can cause permanent damage or death of the testicle. If the testicle is badly damaged, it has to be surgically removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inability to father children.&lt;/strong&gt; In some cases, damage or loss of a testicle affects a man&apos;s ability to father children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Testicular torsion will likely occur as an emergency, leaving you little time to prepare. You&apos;ll probably first be seen in the emergency room or by your family doctor. However, you&apos;ll probably then be seen by a doctor who specializes in urinary tract problems and disorders affecting male genitals (urologist).
+&lt;/p&gt;
+&lt;p&gt;
+If you have some advance warning before you see the urologist, here&apos;s some information to help you prepare, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Write down any symptoms you&apos;re experiencing, including any that may seem unrelated to the reason why you&apos;re seeking treatment.&lt;/li&gt;
+	&lt;li&gt;Write down questions to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment. Some questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why did this happen?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What happens if I don&apos;t have surgery?&lt;/li&gt;
+	&lt;li&gt;What are the possible complications of surgery?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on activity that I&apos;ll need to follow after surgery?&lt;/li&gt;
+	&lt;li&gt;How long will I have to wait to be sexually active?&lt;/li&gt;
+	&lt;li&gt;Will I be able to father children?&lt;/li&gt;
+	&lt;li&gt;How can I prevent this from happening again?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may give you more time to go over points on which you want to spend more time. You may be asked:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What were you doing when you first started experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or did they go away for a time?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever had a testicular torsion?&lt;/li&gt;
+	&lt;li&gt;Has this ever happened to you before?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask you a number of questions to verify whether your signs and symptoms are caused by testicular torsion or something else. Doctors often diagnose testicular torsion with just a physical exam of your scrotum, testicles, abdomen and groin. Your doctor may also test your reflexes by lightly rubbing or pinching the inside of your thigh on the affected side. Normally, this causes the testicle to contract. This reflex may not occur if you have testicular torsion.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes medical tests are necessary to confirm a diagnosis or to help identify another cause for your symptoms. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test&lt;/strong&gt; to check for infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scrotal ultrasound&lt;/strong&gt; to check blood flow. Decreased blood flow to the testicle is a sign of testicular torsion. But ultrasound doesn&apos;t always detect the reduced blood flow, so the test may not rule out testicular torsion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery&lt;/strong&gt; is sometimes necessary to determine whether your symptoms are caused by testicular torsion or another condition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve had pain for several hours and your physical exam suggests testicular torsion, you may be taken directly to surgery without any additional testing. Delaying surgery might result in loss of the testicle.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Surgery is required to correct testicular torsion. In some cases, the doctor may be able to untwist the testicle by pushing on the scrotum (manual detorsion), but you&apos;ll still need surgery to prevent torsion from occurring again. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery for testicular torsion is usually done under general anesthesia, which means you won&apos;t be conscious. The surgery generally doesn&apos;t require a stay in the hospital. During surgery, your doctor will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a small cut&lt;/strong&gt; in your scrotum&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Untwist your spermatic cord&lt;/strong&gt;, if necessary&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stitch one or usually both testicles&lt;/strong&gt; to the inside of the scrotum to prevent rotation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The sooner the testicle is untwisted, the greater the chance it can be saved. The success rate is about 95 percent when treatment occurs within six hours, but declines steadily to about 20 percent after 24 hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Testicular torsion in newborns and infants&lt;/strong&gt;&lt;br /&gt;
+Testicular torsion may occur in newborns and infants, though it&apos;s rare. The infant&apos;s testicle may be hard, swollen or a darker color. Ultrasound may not detect reduced blood flow to the infant&apos;s scrotum, so surgery may be needed to confirm testicular torsion. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for testicular torsion in infants is controversial. If a boy is born with signs and symptoms of testicular torsion, it may be too late for emergency surgery to help. In some cases, the doctor may recommend a later, nonemergency surgery. But emergency surgery can sometimes save all or part of the testicle and can prevent torsion in the infant&apos;s other testicle. Treating testicular torsion in infants may prevent future problems with male hormone production and with fathering children. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having testicles that can rotate in the scrotum is a trait inherited by some males. If you have this trait, the only way to prevent testicular torsion is surgery to attach both testicles to the inside of the scrotum.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Testicular torsion
+	</Title>
+	<Abstract>
+		Testicular torsion &amp;mdash; Comprehensive overview covers symptoms, treatment of this condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

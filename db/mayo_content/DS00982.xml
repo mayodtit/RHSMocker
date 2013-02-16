@@ -1,0 +1,366 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00982
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lobular-carcinoma-in-situ/DS00982
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer">
+						<Keyword MCVID="4054" Title="Lobular carcinoma in situ" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DCA83D82-E7FF-0DBD-1CFB8E2FE5F7F28A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lobular carcinoma in situ
+			</MetaKeyword>
+			<MetaKeyword>
+				lcis
+			</MetaKeyword>
+			<MetaKeyword>
+				lobular neoplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				precancer
+			</MetaKeyword>
+			<MetaKeyword>
+				precancerous
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lobular carcinoma in situ (LCIS) is an uncommon condition in which abnormal cells form in the lobules or milk glands in the breast. LCIS isn&apos;t cancer. But being diagnosed with LCIS indicates that you have an increased risk of developing breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+LCIS usually doesn&apos;t show up on mammograms. The condition is most often discovered as a result of a biopsy done for another reason, such as a suspicious breast lump or an abnormal mammogram. 
+&lt;/p&gt;
+&lt;p&gt;
+Women with LCIS have an increased risk of developing invasive breast cancer in either breast. If you&apos;re diagnosed with LCIS, your doctor may recommend increased breast cancer screening and may ask you to consider treatments to reduce your risk of invasive breast cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lobular carcinoma in situ 
+" Caption="Lobular carcinoma in situ (LCIS) develops in a milk-producing gland, or lobule, and does not spread into nearby breast tissue. 
+" Height="60" Title="Lobular carcinoma in situ" URI="/images/image_popup/thumbs/br7_lcisthu.jpg" Width="60" />
+				<Image Alt="Illustration of lobular carcinoma in situ 
+" Caption="Lobular carcinoma in situ (LCIS) develops in a milk-producing gland, or lobule, and does not spread into nearby breast tissue. 
+" Height="322" Title="Lobular carcinoma in situ" URI="/images/image_popup/br7_lcis.jpg" Width="400" />
+				<HTML>
+					Lobular carcinoma in situ (LCIS) develops in a milk-producing gland, or lobule, and does not spread into nearby breast tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lobular carcinoma in situ (LCIS) doesn&apos;t cause signs or symptoms. Rather, your doctor might discover incidentally that you have LCIS &amp;mdash; for instance, after a biopsy to assess a breast lump or an abnormal area, such as microcalcifications, found on a mammogram. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice a change in your breasts, such as a lump, an area of puckered or otherwise unusual skin, a thickened region under the skin, or nipple discharge. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor when you should consider breast cancer screening and how often it should be repeated. Most groups recommend routine breast cancer screening beginning in your 40s. Talk with your doctor about what&apos;s right for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes LCIS. LCIS begins when cells in a milk-producing gland (lobule) of a breast develop genetic mutations that cause the cells to appear abnormal. The abnormal cells remain in the lobule and don&apos;t extend into, or invade, nearby breast tissue. LCIS isn&apos;t cancer and it doesn&apos;t develop into cancer. But having LCIS increases your risk of breast cancer and makes it more likely that you could develop invasive breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+The risk of breast cancer in women diagnosed with LCIS is thought to be 20 percent. Put another way, for every 100 women diagnosed with LCIS, 20 will be diagnosed with breast cancer and 80 won&apos;t be diagnosed with breast cancer. The risk for women in general is thought to be 12 percent. Put another way, for every 100 women in the general population, 12 will be diagnosed with breast cancer in their lifetime. 
+&lt;/p&gt;
+&lt;p&gt;
+Your individual risk of breast cancer is based on many factors. Talk to your doctor to better understand your personal risk of breast cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="60" Title="Breast anatomy" URI="/images/image_popup/thumbs/r7_breastthu.jpg" Width="60" />
+				<Image Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="300" Title="Breast anatomy" URI="/images/image_popup/r7_breast.jpg" Width="400" />
+				<HTML>
+					Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lobular carcinoma in situ 
+" Caption="Lobular carcinoma in situ (LCIS) develops in a milk-producing gland, or lobule, and does not spread into nearby breast tissue. 
+" Height="60" Title="Lobular carcinoma in situ" URI="/images/image_popup/thumbs/br7_lcisthu.jpg" Width="60" />
+				<Image Alt="Illustration of lobular carcinoma in situ 
+" Caption="Lobular carcinoma in situ (LCIS) develops in a milk-producing gland, or lobule, and does not spread into nearby breast tissue. 
+" Height="322" Title="Lobular carcinoma in situ" URI="/images/image_popup/br7_lcis.jpg" Width="400" />
+				<HTML>
+					Lobular carcinoma in situ (LCIS) develops in a milk-producing gland, or lobule, and does not spread into nearby breast tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of LCIS may be increased if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You have a family history of breast cancer.&lt;/strong&gt; If one or more close relatives have been diagnosed with breast cancer, you may have an increased risk of LCIS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ve taken hormone replacement therapy for menopause.&lt;/strong&gt; Women who have used hormone replacement therapy to help cope with menopausal signs and symptoms may have an increased risk of LCIS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re a woman in your early 40s.&lt;/strong&gt; Though LCIS is uncommon, it&apos;s most likely to be detected in women in their early 40s who haven&apos;t yet experienced menopause. However, LCIS is becoming more common in older women who have undergone menopause. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you notice a lump or any other unusual change in your breasts. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have already had a breast abnormality evaluated by one doctor and are making an appointment for a second opinion, bring your original diagnostic images and biopsy results to your new appointment. These should include your mammography images, ultrasound CD and glass slides from your breast biopsy. Take these results to your new appointment or request that the office where your first evaluation was performed send the results to your second-opinion doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. If you have a lump, your doctor will want to know when you first noticed it and whether it seems to have grown.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your medical history,&lt;/strong&gt; including details about prior breast biopsies or benign breast conditions with which you&apos;ve been diagnosed. Also mention any radiation therapy you have received, even years ago.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any family history of breast cancer or other type of cancer,&lt;/strong&gt; especially in a first-degree relative, such as your mother or sister. Your doctor will want to know how old your relative was when she was diagnosed, as well as the type of cancer she had.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medications.&lt;/strong&gt; Include&lt;strong&gt; &lt;/strong&gt;any prescription or over-the-counter medications you&apos;re taking, as well as all vitamins, supplements and herbal remedies. If you&apos;re currently taking or have previously taken hormone replacement therapy, share this with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a breast lump that you can feel?&lt;/li&gt;
+	&lt;li&gt;When did you first notice this lump?&lt;/li&gt;
+	&lt;li&gt;Has the lump grown or changed over time?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any other unusual changes in your breast, such as discharge, swelling or pain?&lt;/li&gt;
+	&lt;li&gt;Have you gone through menopause?&lt;/li&gt;
+	&lt;li&gt;Are you using or have you used any medications or supplements to relieve the symptoms of menopause?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any previous breast conditions, including noncancerous conditions?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of breast cancer?&lt;/li&gt;
+	&lt;li&gt;Have you or your close female relatives ever been tested for the BRCA gene mutations?&lt;/li&gt;
+	&lt;li&gt;Have you ever had radiation therapy?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet, including alcohol intake?&lt;/li&gt;
+	&lt;li&gt;Are you physically active?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your biopsy reveals LCIS, you&apos;ll likely have a follow-up appointment with your doctor. Questions you may want to ask your doctor about LCIS include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How much does LCIS increase my risk of breast cancer?&lt;/li&gt;
+	&lt;li&gt;Do I have any additional risk factors for breast cancer?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for breast cancer?&lt;/li&gt;
+	&lt;li&gt;What types of screening technology will be most effective in my case?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for medications that reduce the risk of breast cancer?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects or complications of these medications?&lt;/li&gt;
+	&lt;li&gt;Which drug do you recommend for me, and why?&lt;/li&gt;
+	&lt;li&gt;How will you monitor me for treatment side effects?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for preventive surgery?&lt;/li&gt;
+	&lt;li&gt;In general, how effective is the treatment you&apos;re recommending in women with a diagnosis similar to mine?&lt;/li&gt;
+	&lt;li&gt;What lifestyle changes can help reduce my risk of cancer?&lt;/li&gt;
+	&lt;li&gt;Do I need a second opinion?&lt;/li&gt;
+	&lt;li&gt;Should I see a genetic counselor?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lobular carcinoma in situ (LCIS) may be present in one or both breasts, but it usually isn&apos;t visible on a mammogram. The condition is most often diagnosed as an incidental finding when you have a biopsy done to evaluate some other area of concern in your breast. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of breast biopsy that may be used include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fine-needle aspiration biopsy.&lt;/strong&gt; Your doctor directs a very fine needle into the breast. Next, your doctor uses a syringe attached to the needle to collect a sample of cells or fluid for examination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Core needle biopsy.&lt;/strong&gt; A radiologist or surgeon uses a thin, hollow needle to remove several tiny tissue samples. Imaging techniques, such as mammography, ultrasound or MRI, are often used to help guide the needle used in a core needle biopsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical biopsy.&lt;/strong&gt; A surgeon may perform an operation to remove a portion of the breast for examination.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing fine-needle aspiration 
+" Caption="During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your breast on a monitor &amp;mdash; might be used to help place the needle. 
+" Height="60" Title="Fine-needle aspiration" URI="/images/image_popup/thumbs/mcdc7_fine_needle_aspirationthu.jpg" Width="60" />
+				<Image Alt="Image showing fine-needle aspiration 
+" Caption="During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your breast on a monitor &amp;mdash; might be used to help place the needle. 
+" Height="468" Title="Fine-needle aspiration" URI="/images/image_popup/mcdc7_fine_needle_aspiration.jpg" Width="400" />
+				<HTML>
+					During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors, including your personal preferences, come into play when you decide whether to undergo treatment for lobular carcinoma in situ (LCIS). There are three main approaches to treatment: careful observation, taking a medication to reduce cancer risk (chemoprevention) or preventive surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Observation&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve been diagnosed with LCIS, your doctor may recommend more frequent exams to closely monitor your breasts for signs of cancer. This may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent breast self-exams to develop breast familiarity and to detect any unusual breast changes&lt;/li&gt;
+	&lt;li&gt;Clinical breast exams at least twice a year&lt;/li&gt;
+	&lt;li&gt;Screening mammograms every year&lt;/li&gt;
+	&lt;li&gt;Other imaging techniques, such as magnetic resonance imaging (MRI), if you have other risk factors and a strong family history of breast cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemoprevention&lt;/strong&gt; &lt;br /&gt;
+Two selective estrogen receptor modulator (SERM) drugs are approved to reduce the risk of invasive breast cancer. Both drugs work by blocking breast tissue&apos;s receptivity to estrogen, which influences the development and growth of many breast tumors. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tamoxifen.&lt;/strong&gt; Tamoxifen reduces the risk of developing invasive breast cancer. Tamoxifen can be used by both premenopausal and postmenopausal women. Tamoxifen is typically taken for five years.&lt;br /&gt;
+	&lt;br /&gt;
+	Tamoxifen slightly increases the risk of serious conditions including uterine cancer, stroke and cataracts, as well as side effects such as hot flashes and vaginal dryness. Tamoxifen also increases the risk of blood clots in postmenopausal women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Raloxifene (Evista).&lt;/strong&gt; Raloxifene is also approved to reduce the risk of invasive breast cancer in high-risk postmenopausal women, including those with LCIS. Raloxifene is as effective as tamoxifen in reducing risk of invasive breast cancer in postmenopausal women. Raloxifene is linked to fewer cases of uterine cancer, blood clots and stroke than tamoxifen, but is otherwise associated with similar health risks. Women who have multiple risk factors for heart disease or have a history of heart disease should not take raloxifene because of an increased risk of a stroke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Discuss with your doctor the risks and benefits of taking a drug for breast cancer prevention to see if it&apos;s the best course of treatment for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive surgery&lt;/strong&gt; &lt;br /&gt;
+One other option for treating LCIS is preventive (prophylactic) mastectomy. This surgery removes both breasts &amp;mdash; not just the breast affected with LCIS &amp;mdash; to reduce your risk of developing invasive breast cancer. To obtain the best possible protective benefit from this surgery, both breasts are removed, because LCIS increases your risk of developing breast cancer in either breast. Preventive surgery may be an option for you if you&apos;re at high risk of breast cancer based on a strong family history or a BRCA gene mutation. Surgery to treat LCIS isn&apos;t urgent, so you have time to carefully weigh the pros and cons of preventive mastectomy with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+If you have LCIS, you might consider participating in a clinical trial exploring an emerging therapy for preventing breast cancer. Ask your doctor whether you might be a candidate for current clinical trials. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re worried about your risk of breast cancer, take steps to reduce your risk, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Limit your alcohol consumption to one drink a day, if you choose to drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Aim for at least 30 minutes of exercise on most days of the week. If you haven&apos;t been active lately, ask your doctor whether it&apos;s OK, and start slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your current weight is healthy, work to maintain that weight. If you need to lose weight, ask your doctor about healthy strategies to accomplish this. Reduce the number of calories you eat each day and slowly increase the amount of exercise. Aim to lose weight slowly &amp;mdash; about 1 or 2 pounds (about .5 or 1.0 kilograms) a week.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although LCIS is not cancer, it can make you worry about your increased risk of a future breast cancer. Coping with your diagnosis means finding a long-term way to manage your fear and uncertainty. 
+&lt;/p&gt;
+&lt;p&gt;
+These suggestions may help you cope with a diagnosis of LCIS: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about LCIS to make decisions about your care.&lt;/strong&gt; Ask your doctor questions about your diagnosis and what it means for your breast cancer risk. Use this information to research your treatment options. Look to reputable sources of information, such as the National Cancer Institute and the American Cancer Society, to find out more. This may make you feel more confident as you make choices about your care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go to all of your screening appointments.&lt;/strong&gt; You may experience some anxiety before your breast cancer screening exams. Don&apos;t let this anxiety keep you from going to all of your appointments. Instead, plan ahead and expect that you&apos;ll be anxious. To cope with your anxiety, spend time doing things you enjoy in the days before your appointment. Spend time with friends or family, or find quiet time for yourself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control what you can about your health.&lt;/strong&gt; Make healthy changes to your lifestyle, so you can feel your best. Choose a healthy diet that focuses on fruits, vegetables and whole grains. Try to be active for 30 minutes most days of the week. Get enough sleep each night so that you wake feeling rested. Find ways to cope with stress in your life.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lobular carcinoma in situ (LCIS)
+	</Title>
+	<Abstract>
+		Lobular carcinoma in situ (LCIS) &amp;mdash; Comprehensive overview covers symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</Disease>

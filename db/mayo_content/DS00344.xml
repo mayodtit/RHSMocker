@@ -1,0 +1,399 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00344
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyperthyroidism/DS00344
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-20
+		</UpdateDate>
+		<PublicationDate>
+			1999-02-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="1494" Title="Hyperthyroidism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D0B68153-CD94-4B0E-A178CAF201C9B7EB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hyperthyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid gland
+			</MetaKeyword>
+			<MetaKeyword>
+				overactive thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				Graves&apos; disease
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid hormone
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroxine
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid symptoms
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperthyroidism (overactive thyroid) is a condition in which your thyroid gland produces too much of the hormone thyroxine. Hyperthyroidism can accelerate your body&apos;s metabolism significantly, causing sudden weight loss, a rapid or irregular heartbeat, sweating, and nervousness or irritability. 
+&lt;/p&gt;
+&lt;p&gt;
+Several treatment options are available if you have hyperthyroidism. Doctors use anti-thyroid medications and radioactive iodine to slow the production of thyroid hormones. Sometimes, treatment of hyperthyroidism involves surgery to remove all or part of your thyroid gland. Although hyperthyroidism can be serious if you ignore it, most people respond well once hyperthyroidism is diagnosed and treated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperthyroidism can mimic other health problems, which may make it difficult for your doctor to diagnose. It can also cause a wide variety of signs and symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden weight loss, even when your appetite and the amount and type of food you eat remain the same or even increase&lt;/li&gt;
+	&lt;li&gt;Rapid heartbeat (tachycardia) &amp;mdash; commonly more than 100 beats a minute &amp;mdash; irregular heartbeat (arrhythmia) or pounding of your heart (palpitations)&lt;/li&gt;
+	&lt;li&gt;Increased appetite&lt;/li&gt;
+	&lt;li&gt;Nervousness, anxiety and irritability&lt;/li&gt;
+	&lt;li&gt;Tremor &amp;mdash; usually a fine trembling in your hands and fingers&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Changes in menstrual patterns&lt;/li&gt;
+	&lt;li&gt;Increased sensitivity to heat&lt;/li&gt;
+	&lt;li&gt;Changes in bowel patterns, especially more frequent bowel movements&lt;/li&gt;
+	&lt;li&gt;An enlarged thyroid gland (goiter), which may appear as a swelling at the base of your neck&lt;/li&gt;
+	&lt;li&gt;Fatigue, muscle weakness&lt;/li&gt;
+	&lt;li&gt;Difficulty sleeping&lt;/li&gt;
+	&lt;li&gt;Skin thinning&lt;/li&gt;
+	&lt;li&gt;Fine, brittle hair&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Older adults are more likely to have either no signs or symptoms or subtle ones, such as an increased heart rate, heat intolerance and a tendency to become tired during ordinary activities. Medications called beta blockers, which are used to treat high blood pressure and other conditions, can mask many of the signs of hyperthyroidism. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Graves&apos; ophthalmopathy&lt;/strong&gt;&lt;br /&gt;
+Sometimes an uncommon problem called Graves&apos; ophthalmopathy may affect your eyes, especially if you smoke. In this disorder, your eyeballs protrude beyond their normal protective orbits when the tissues and muscles behind your eyes swell. This pushes the eyeballs forward so far that they actually bulge out of their orbits. This can cause the front surface of your eyeballs to become very dry. Eye problems often improve without treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of Graves&apos; ophthalmopathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Protruding eyeballs&lt;/li&gt;
+	&lt;li&gt;Red or swollen eyes&lt;/li&gt;
+	&lt;li&gt;Excessive tearing or discomfort in one or both eyes&lt;/li&gt;
+	&lt;li&gt;Light sensitivity, blurry or double vision, inflammation, or reduced eye movement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you experience unexplained weight loss, a rapid heartbeat, unusual sweating, swelling at the base of your neck or other symptoms associated with hyperthyroidism, see your doctor. It&apos;s important to completely describe the changes you&apos;ve observed, because many signs and symptoms of hyperthyroidism may be associated with a number of other conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been treated for hyperthyroidism or currently are being treated, see your doctor regularly as advised so that he or she can monitor your condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of conditions, including Graves&apos; disease, toxic adenoma, Plummer&apos;s disease (toxic multinodular goiter) and thyroiditis, can cause hyperthyroidism. 
+&lt;/p&gt;
+&lt;p&gt;
+Your thyroid is a butterfly-shaped gland situated at the base of your neck, just below your Adam&apos;s apple. Although it weighs less than an ounce, the thyroid gland has an enormous impact on your health. Every aspect of your metabolism is regulated by thyroid hormones. 
+&lt;/p&gt;
+&lt;p&gt;
+Your thyroid gland produces two main hormones, thyroxine (T-4) and triiodothyronine (T-3), that influence every cell in your body. They maintain the rate at which your body uses fats and carbohydrates, help control your body temperature, influence your heart rate, and help regulate the production of protein. Your thyroid also produces calcitonin, a hormone that helps regulate the amount of calcium in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How it all works&lt;/strong&gt;&lt;br /&gt;
+The rate at which T-4 and T-3 are released is controlled by your pituitary gland and your hypothalamus &amp;mdash; an area at the base of your brain that acts as a thermostat for your whole system. Here&apos;s how the process works: 
+&lt;/p&gt;
+&lt;p&gt;
+The hypothalamus signals your pituitary gland to make a hormone called thyroid-stimulating hormone (TSH). Your pituitary gland then releases TSH &amp;mdash; the amount depends on how much T-4 and T-3 are in your blood. If you don&apos;t have enough T-4 and T-3 in your blood, your TSH will rise; if you have too much, your TSH level will fall. Finally, your thyroid gland regulates its production of hormones based on the amount of TSH it receives. If the thyroid gland is diseased and is releasing too much thyroid hormone on its own, the TSH blood level will remain below normal; if the diseased thyroid gland cannot make enough thyroid hormone, the TSH blood level will remain high. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reasons for too much thyroxine (T-4)&lt;/strong&gt;&lt;br /&gt;
+Normally, your thyroid releases the right amount of hormones, but sometimes it produces too much T-4. This may occur for a number of reasons, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Graves&apos; disease.&lt;/strong&gt; Graves&apos; disease, an autoimmune disorder in which antibodies produced by your immune system stimulate your thyroid to produce too much T-4, is the most common cause of hyperthyroidism. Normally, your immune system uses antibodies to help protect against viruses, bacteria and other foreign substances that invade your body. In Graves&apos; disease, antibodies mistakenly attack your thyroid and occasionally attack the tissue behind your eyes (Graves&apos; ophthalmopathy) and the skin, often in your lower legs over the shins (Graves&apos; dermopathy). Scientists aren&apos;t sure exactly what causes Graves&apos; disease, although several factors &amp;mdash; including a genetic predisposition &amp;mdash; are likely involved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperfunctioning thyroid nodules (toxic adenoma, toxic multinodular goiter, Plummer&apos;s disease).&lt;/strong&gt; This form of hyperthyroidism occurs when one or more adenomas of your thyroid produce too much T-4. An adenoma is a part of the gland that has walled itself off from the rest of the gland, forming noncancerous (benign) lumps that may cause an enlargement of the thyroid. Not all adenomas produce excess T-4, and doctors aren&apos;t sure what causes some to begin producing too much hormone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroiditis.&lt;/strong&gt; Sometimes your thyroid gland can become inflamed for unknown reasons. The inflammation can cause excess thyroid hormone stored in the gland to leak into your bloodstream. One rare type of thyroiditis, known as subacute thyroiditis, causes pain in the thyroid gland. Other types are painless and may sometimes occur after pregnancy (postpartum thyroiditis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperthyroidism, particularly Graves&apos; disease, tends to run in families and is more common in women than in men. If another member of your family has a thyroid condition, talk with your doctor about what this may mean for your health and whether he or she has any recommendations for monitoring your thyroid function. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperthyroidism can lead to a number of complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Some of the most serious complications of hyperthyroidism involve the heart. These include a rapid heart rate, a heart rhythm disorder called atrial fibrillation and congestive heart failure &amp;mdash; a condition in which your heart can&apos;t circulate enough blood to meet your body&apos;s needs. These complications generally are reversible with appropriate treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brittle bones.&lt;/strong&gt; Untreated hyperthyroidism can also lead to weak, brittle bones (osteoporosis). The strength of your bones depends, in part, on the amount of calcium and other minerals they contain. Too much thyroid hormone interferes with your body&apos;s ability to incorporate calcium into your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye problems.&lt;/strong&gt; People with Graves&apos; ophthalmopathy develop eye problems, including bulging, red or swollen eyes, sensitivity to light, and blurring or double vision. Untreated, severe eye problems can lead to vision loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red, swollen skin.&lt;/strong&gt; In rare cases, people with Graves&apos; disease develop Graves&apos; dermopathy, which affects the skin, causing redness and swelling, often on the shins and feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyrotoxic crisis.&lt;/strong&gt; Hyperthyroidism also places you at risk of thyrotoxic crisis &amp;mdash; a sudden intensification of your symptoms, leading to a fever, a rapid pulse and even delirium. If this occurs, seek immediate medical care.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases, you may be referred immediately to a doctor who specializes in the body&apos;s hormone-secreting glands (endocrinologist). If you have eye involvement, you may also be referred to an eye doctor (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s good to prepare for your appointment. Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember information you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For hyperthyroidism, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Do you have brochures or other printed material I can take? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other relevant questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Do other members of your family have thyroid disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperthyroidism is diagnosed using:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history and physical exam.&lt;/strong&gt; During the exam your doctor may try to detect a slight tremor in your fingers when they&apos;re extended, overactive reflexes, eye changes and warm, moist skin. Your doctor will also examine your thyroid gland as you swallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A diagnosis can be confirmed with blood tests that measure the levels of thyroxine and TSH in your blood. High levels of thyroxine and low or nonexistent amounts of TSH indicate an overactive thyroid. The amount of TSH is important because it&apos;s the hormone that signals your thyroid gland to produce more thyroxine. These tests are particularly necessary for older adults, who may not have classic symptoms of hyperthyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If blood tests indicate hyperthyroidism, your doctor may recommend one of the following tests to help determine why your thyroid is overactive:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Radioactive iodine uptake test.&lt;/strong&gt; For this test, you take a small, oral dose of radioactive iodine (radioiodine). Over time, the iodine collects in your thyroid gland because your thyroid uses iodine to manufacture hormones. You&apos;ll be checked after two, six or 24 hours &amp;mdash; and sometimes after all three time periods &amp;mdash; to determine how much iodine your thyroid gland has absorbed.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A high uptake of radioiodine indicates your thyroid gland is producing too much thyroxine. The most likely cause is either Graves&apos; disease or hyperfunctioning nodules. If you have hyperthyroidism and your radioiodine uptake is low, you may have thyroiditis.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Be sure to tell your doctor if you have had a recent X-ray or a computerized tomography scan in which you had contrast material was injected. The results of your radioiodine test may be influenced by these procedures.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Knowing what&apos;s causing your hyperthyroidism can help your doctor plan the appropriate treatment. A radioactive iodine uptake test isn&apos;t uncomfortable, but it does expose you to a small amount of radiation.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Thyroid scan.&lt;/strong&gt; During this test, you&apos;ll have a radioactive isotope injected into the vein on the inside of your elbow or sometimes into a vein in your hand. You then lie on a table with your head stretched backward while a special camera produces an image of your thyroid on a computer screen.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The time needed for the procedure may vary, depending on how long it takes the isotope to reach your thyroid gland. You may have some neck discomfort with this test, and you&apos;ll be exposed to a small amount of radiation.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Sometimes you may have a thyroid scan as part of a radioactive iodine uptake test. In that case, orally administered radioactive iodine is used to image your thyroid gland.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several treatments for hyperthyroidism exist. The best approach for you depends on your age, physical condition and the severity of your disorder: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radioactive iodine.&lt;/strong&gt; Taken by mouth, radioactive iodine is absorbed by your thyroid gland, where it causes the gland to shrink and symptoms to subside, usually within three to six months. Because this treatment causes thyroid activity to slow considerably, causing the thyroid gland to be underactive (hypothyroidism), you may eventually need to take medication every day to replace thyroxine. Used for more than 60 years to treat hyperthyroidism, radioactive iodine has been shown to be generally safe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-thyroid medications.&lt;/strong&gt; These medications gradually reduce symptoms of hyperthyroidism by preventing your thyroid gland from producing excess amounts of hormones. They include propylthiouracil and methimazole (Tapazole). Symptoms usually begin to improve in six to 12 weeks, but treatment with anti-thyroid medications typically continues at least a year and often longer. For some people, this clears up the problem permanently, but other people may experience a relapse. Both drugs can cause serious liver damage, sometimes leading to death. Because propylthiouracil has caused far more cases of liver damage, it generally should be used only when you can&apos;t tolerate methimazole. A small number of people who are allergic to these drugs may develop skin rashes, hives, fever or joint pain. They also can make you more susceptible to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; These drugs are commonly used to treat high blood pressure. They won&apos;t reduce your thyroid levels, but they can reduce a rapid heart rate and help prevent palpitations. For that reason, your doctor may prescribe them to help you feel better until your thyroid levels are closer to normal. Side effects may include fatigue, headache, upset stomach, constipation, diarrhea or dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery (thyroidectomy).&lt;/strong&gt; If you&apos;re pregnant or otherwise can&apos;t tolerate anti-thyroid drugs and don&apos;t want to or can&apos;t have radioactive iodine therapy, you may be a candidate for thyroid surgery, although this is an option in only a few cases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In a thyroidectomy, your doctor removes most of your thyroid gland. Risks of this surgery include damage to your vocal cords and parathyroid glands &amp;mdash; four tiny glands situated on the back of your thyroid gland that help control the level of calcium in your blood. In addition, you&apos;ll need lifelong treatment with levothyroxine (Levoxyl, Synthroid, others) to supply your body with normal amounts of thyroid hormone. If your parathyroid glands also are removed, you&apos;ll need medication to keep your blood-calcium levels normal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Graves&apos; ophthalmopathy&lt;/strong&gt;&lt;br /&gt;
+If Graves&apos; disease affects your eyes (Graves&apos; ophthalmopathy), you can manage mild signs and symptoms by avoiding wind and bright lights and using artificial tears and lubricating gels. If your symptoms are more severe, your doctor may recommend treatment with corticosteroids, such as prednisone, to reduce swelling behind your eyeballs. In some cases, a surgical procedure may be an option: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Orbital decompression surgery.&lt;/strong&gt; In this surgery, your doctor removes the bone between your eye socket and your sinuses &amp;mdash; the air spaces next to the eye socket. When the procedure is successful, it improves vision and provides room for your eyes to return to their normal position. But there is a risk of complications, including double vision that persists or appears after surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye muscle surgery.&lt;/strong&gt; Sometimes scar tissue from Graves&apos; ophthalmopathy can cause one or more eye muscles to be too short. This pulls your eyes out of alignment, leading to double vision. Eye muscle surgery may help correct double vision by cutting the affected muscle from the eyeball and reattaching it farther back. The goal is to achieve single vision when you read and look straight ahead. In some cases, you may need more than one operation to attain these results. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once you begin treatment, symptoms of hyperthyroidism should subside and you should start feeling much better. The following suggestions also may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ask your doctor about supplementing your diet.&lt;/strong&gt; If you&apos;ve lost a great deal of weight or experienced muscle wasting, you may benefit from adding extra calories and protein to your diet. Your doctor or a dietitian can help you with meal planning. In most cases, you won&apos;t need to continue supplementing your diet once your hyperthyroidism is under control.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Treatment for&lt;strong&gt; &lt;/strong&gt;hyperthyroidism can also eventually contribute to excessive weight gain. It is important to learn how to get as much nutrition as possible from your food without eating a lot of extra calories. In addition, eating the correct amount of sodium and calcium are important dietary considerations for people with hyperthyroidism.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough calcium and vitamin D.&lt;/strong&gt; Because hyperthyroidism may contribute to thinning bones, it&apos;s important to get enough calcium every day to help prevent osteoporosis. The Institute of Medicine recommends 1,000 milligrams (mg) of calcium a day for adults ages 19 to 50 and men ages 51 to 70. That calcium recommendation increases to 1,200 mg a day if you&apos;re a woman age 51 or older or a man age 71 or older. The Institute of Medicine also recommends 600 international units (IUs) of vitamin D a day for adults ages 19 to 70 and 800 IUs a day for adults age 71 and older. Talk to your doctor about appropriate dietary guidelines for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Graves&apos; disease&lt;/strong&gt;&lt;br /&gt;
+If you have Graves&apos; ophthalmopathy or dermopathy, the following suggestions may help soothe your eyes or skin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool compresses to your eyes.&lt;/strong&gt; The extra moisture may provide relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear sunglasses.&lt;/strong&gt; When your eyes protrude, they&apos;re more vulnerable to ultraviolet rays and more sensitive to sunlight. Wearing sunglasses helps protect them from both sun and wind.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use lubricating eyedrops.&lt;/strong&gt; Eyedrops may help relieve dryness and scratchiness. Be sure to use eyedrops that don&apos;t contain redness removers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate the head of your bed.&lt;/strong&gt; Keeping your head higher than the rest of your body may reduce swelling and may help relieve pressure on your eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter creams for swollen skin.&lt;/strong&gt; Over-the-counter creams containing hydrocortisone (Cortaid, others) may help relieve red, swollen skin on your shins and feet. For help finding these creams, talk to your pharmacist.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with hyperthyroidism, the most important thing is to receive the necessary medical care. After you and your doctor have decided on a course of action, there are some things you can do that will help you cope with the condition and support your body during its healing process. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Exercise in general will help you feel better and improve your muscle tone and cardiovascular system. Weight-bearing exercise is important for people with Graves&apos; disease because it helps maintain bone density. Exercise also can help reduce your appetite and increase your energy level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn relaxation techniques.&lt;/strong&gt; Many relaxation techniques can help you maintain a positive outlook, especially when coping with illness. It is well documented that in Graves&apos; disease stress is a risk factor, so learning to relax and achieve balance in your life can help maintain physical and mental well-being.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hyperthyroidism (overactive thyroid)
+	</Title>
+	<Abstract>
+		Hyperthyroidism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of an overactive thyroid gland.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00709" LinkType="Internal" ObjectID="3B7E2908-9788-8F9C-79689BBDDE8A5263" Title="Thyroidectomy" Url="http://www.mayoclinic.com/health/thyroidectomy/MY00709" />
+	</RelatedLinksBox>
+</Disease>

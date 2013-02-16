@@ -1,0 +1,270 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01025
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heat-stroke/DS01025
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2226" Title="Metabolic disorders">
+						<Keyword MCVID="3043" Title="Heat exhaustion">
+							<Keyword MCVID="4048" Title="Heatstroke" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4CA23C89-E7FF-0DBD-151E9A73BDA321AC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heatstroke
+			</MetaKeyword>
+			<MetaKeyword>
+				heat stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				heat exhaustion
+			</MetaKeyword>
+			<MetaKeyword>
+				heat cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperthermia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heatstroke is caused by prolonged exposure to high temperatures or by doing physical activity in hot weather. You are considered to have heatstroke when your body temperature reaches 104 F (40 C) or higher. High humidity, certain health problems and some medications increase your risk of heatstroke. So does being a young child or older adult.
+&lt;/p&gt;
+&lt;p&gt;
+Heatstroke is the progression of two worsening heat-related conditions. When your body overheats, you first may develop heat cramps. If you don&apos;t cool down, you may progress to symptoms of heat exhaustion, such as heavy sweating, nausea, lightheadedness and feeling faint.
+&lt;/p&gt;
+&lt;p&gt;
+Heatstroke occurs if your body temperature continues to rise. At this point, emergency treatment is needed. In a period of hours, untreated heatstroke can cause damage to your brain, heart, kidneys and muscles. These injuries get worse the longer treatment is delayed, increasing your risk of serious complications or death.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heatstroke symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High body temperature.&lt;/strong&gt; A body temperature of 104 F (40 C) or higher is the main sign of heatstroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A lack of sweating.&lt;/strong&gt; In heatstroke brought on by hot weather, your skin will feel hot and dry to the touch. However, in heatstroke brought on by strenuous exercise, your skin may feel moist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nausea and vomiting.&lt;/strong&gt; You may feel sick to your stomach or vomit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flushed skin.&lt;/strong&gt; Your skin may turn red as your body temperature increases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rapid breathing.&lt;/strong&gt; Your breathing may become rapid and shallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Racing heart rate.&lt;/strong&gt; Your pulse may significantly increase because heat stress places a tremendous burden on your heart to help cool your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Headache.&lt;/strong&gt; You may experience a throbbing headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Confusion.&lt;/strong&gt; You may have seizures, hallucinate, or have difficulty speaking or understanding what others are saying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unconsciousness.&lt;/strong&gt; You may pass out or fall into a state of deep unconsciousness (coma).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle cramps or weakness.&lt;/strong&gt; Your muscles may feel tender or cramped in the early stages of heatstroke, but may later go rigid or limp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Heatstroke follows two less serious heat-related conditions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heat cramps.&lt;/strong&gt; Heat cramps are caused by initial exposure to high temperatures or physical exertion. Signs and symptoms of heat cramps usually include excess sweating, fatigue, thirst and cramps, usually in the stomach, arms or legs. This condition is common in very hot weather or with moderate to heavy physical activity. You can usually treat heat cramps by drinking water or fluids containing electrolytes (Gatorade or other sports drinks), resting and getting to a cool spot, like a shaded or air-conditioned area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heat exhaustion.&lt;/strong&gt; Heat exhaustion occurs when you don&apos;t act on the signs and symptoms of heat cramps and your condition worsens. Signs and symptoms of heat exhaustion include a headache, dizziness or lightheadedness, nausea, skin that feels cool and moist, and muscle cramps. Often with heat exhaustion, you can treat the condition yourself by following the same measures used to treat heat cramps, such as drinking cool, nonalcoholic beverages, getting into an air-conditioned area or taking a cool shower. If your symptoms persist, seek medical attention immediately.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you think a person may be experiencing heatstroke, seek immediate medical help. Call 911 or your local emergency services number.
+&lt;/p&gt;
+&lt;p&gt;
+Take immediate action to cool the overheated person while waiting for emergency treatment.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Help the person move to a shaded location and remove excess clothing.&lt;/li&gt;
+	&lt;li&gt;Place ice packs or cold, wet towels on the person&apos;s head, neck, armpits and groin.&lt;/li&gt;
+	&lt;li&gt;Mist the person with water while a fan is blowing on him or her.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heatstroke can occur in these ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to a hot environment.&lt;/strong&gt; In a type of heatstroke called nonexertional heatstroke, your condition is caused by a hot environment that leads to a rise in body temperature, without strenuous physical activity. This type of heatstroke typically occurs in hot, humid weather, especially for prolonged periods. It occurs most often in older adults and in people with chronic illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strenuous activity.&lt;/strong&gt; In a type of heatstroke called exertional heatstroke, your condition is caused by an increase in body temperature brought on by physical activity in hot weather. Anyone exercising or working in hot weather can get exertional heatstroke, but it&apos;s most likely to occur if you&apos;re not accustomed to high temperatures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In either type of heatstroke, your condition can be brought on by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wearing excess clothing&lt;/strong&gt; that prevents your sweat from evaporating easily and cooling your body&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol,&lt;/strong&gt; which can affect your body&apos;s ability to regulate your temperature&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Becoming dehydrated,&lt;/strong&gt; because you&apos;re not drinking enough water to replenish fluids you lose through perspiration&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop heatstroke, but several factors place you at increased risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young or old age.&lt;/strong&gt; Your ability to cope with extreme heat depends of the strength of your central nervous system. In the very young, the central nervous system is not fully developed and in adults over 65, the central nervous system begins to deteriorate, which makes your body less able to cope with changes in body temperature. Both age groups usually have difficulty remaining hydrated, which also increases risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic response to heat stress.&lt;/strong&gt; The way your body responds to heat is partly determined by inherited traits. Your genes may play a vital role in determining how your body will respond in extremely hot conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Situations that require exertion in hot weather.&lt;/strong&gt; Common examples of situations that can lead to heatstroke include military training in hot weather and participation in school sports such as football.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden exposure to hot weather.&lt;/strong&gt; If you&apos;re not used to high temperatures or high humidity, you may be more susceptible to heat-related illness if you&apos;re exposed to a sudden increase in temperature, as might happen with a heat wave that occurs during late spring. Limit your physical activity for at least several days until you&apos;ve gotten used to the higher temperatures and humidity. However, you may still have an increased risk of heatstroke until you&apos;ve experienced several weeks of higher temperatures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A lack of air conditioning.&lt;/strong&gt; Fans may make you feel better, but in sustained hot weather, air conditioning is the most effective way to cool down and lower humidity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medications place you at a greater risk of heatstroke and other heat-related conditions because they affect your body&apos;s ability to stay hydrated and respond to heat. Be especially careful in hot weather if you take medications that narrow your blood vessels (vasoconstrictors), regulate your blood pressure by blocking adrenaline (beta blockers), rid your body of sodium and water (diuretics), or reduce psychiatric symptoms (antidepressants or antipsychotics). Stimulants for attention-deficit/hyperactivity disorder (ADHD) and illegal stimulants such as amphetamines and cocaine also make you more vulnerable to heatstroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain health conditions.&lt;/strong&gt; You may be at increased risk of heatstroke if you have certain chronic illnesses, such as heart or lung disease. People who are very overweight, have difficulty moving or lack physical fitness also are at higher risk of heat-related problems. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A possible complication of heatstroke is shock, which is a condition caused by a sudden loss of blood flow. Signs of shock include a very low blood pressure, blue lips and nails, and cool, clammy skin.
+&lt;/p&gt;
+&lt;p&gt;
+If you or others don&apos;t act quickly on the symptoms of heatstroke, you could die or experience damage to your brain or other vital organs. In response to heatstroke, these organs swell, and if you don&apos;t cool your body temperature quickly, the damage from this swelling could be permanent.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s usually apparent to doctors if you have heatstroke, but they may order laboratory tests to confirm their diagnosis and rule out other causes of your symptoms. These tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A blood test&lt;/strong&gt; to check for low blood sodium or potassium and the content of gases in your blood to see if there&apos;s been any damage to your central nervous system&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A urine test&lt;/strong&gt; to check the color of your urine, because it&apos;s usually darker if you have a heat-related condition, and to check your kidney function, which can be affected by heatstroke&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle function tests&lt;/strong&gt; to check for rhabdomyolysis &amp;mdash; serious damage to your muscle tissue&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays and other imaging tests&lt;/strong&gt; to check for damage to your internal organs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heatstroke treatment centers on cooling your body to a normal temperature to prevent or reduce damage to your brain and vital organs. To do this, your doctor may take these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immerse you in cold water.&lt;/strong&gt; Your doctor may put your body in a bath of cold water or ice water to quickly lower your temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use evaporation cooling techniques.&lt;/strong&gt; Some doctors prefer to use evaporation instead of immersion to lower your body temperature. In this technique, cool water is misted on your skin while warm air fanned over your body causes the water to evaporate, cooling the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pack you with ice and cooling blankets.&lt;/strong&gt; Another method is to wrap you in a special cooling blanket and apply ice packs to your groin, neck, back and armpits to lower your temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Give you medications to stop your shivering.&lt;/strong&gt; If any treatments to lower your body temperature make you shiver, your doctor may give you a muscle relaxant, such as a benzodiazepine. Shivering increases your body temperature, making treatment less effective.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Home treatment isn&apos;t sufficient treatment for heatstroke. If you have signs or symptoms of heatstroke, seek emergency medical help. Others should take steps to cool you off while waiting for emergency help to arrive.
+&lt;/p&gt;
+&lt;p&gt;
+If you notice signs of heat-related illness before any noticeable signs or symptoms of heatstroke appear, take action to lower your body temperature and prevent your condition from progressing to heatstroke. In a lesser heat emergency, such as heat cramps or heat exhaustion, the following steps may be sufficient to lower your body temperature:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get to a shady or air-conditioned place.&lt;/strong&gt; Remaining in the heat will worsen your condition. If you don&apos;t have air conditioning at home, go someplace that is air-conditioned, such as the mall, movie theatre or public library.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cool off with damp sheets and a fan.&lt;/strong&gt; If you&apos;re with someone who&apos;s experiencing heat-related symptoms, cool the person by covering him or her with damp sheets or by spraying with cool water. Direct air onto the person with a fan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a cool shower or bath.&lt;/strong&gt; If you&apos;re outdoors and nowhere near shelter, soaking in a cool pond or stream also can help bring your temperature down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rehydrate.&lt;/strong&gt; Keep in mind that the symptoms of heat-related illnesses are caused not only when you become dehydrated but also when you lose salt through sweating. Some sports drinks will replenish both water and salt. The amount you&apos;ll need to drink to rehydrate varies from person to person, so sip slowly and call your doctor if you&apos;re concerned. And, if you&apos;re on a low-sodium diet, be sure to check with your doctor before having drinks with a high salt content.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink beverages with alcohol to rehydrate.&lt;/strong&gt; These drinks may interfere with your body&apos;s ability to control your temperature.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heatstroke is predictable and preventable. Take these steps to prevent heatstroke during hot weather:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear loosefitting, lightweight clothing.&lt;/strong&gt; Wearing excess clothing or clothing that fits tightly won&apos;t allow your body to cool properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear light-colored clothing if you&apos;re in the sun.&lt;/strong&gt; Dark clothing absorbs heat. Light-colored clothing can help keep you cool by reflecting the sun&apos;s rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Staying hydrated will help your body sweat and maintain a normal body temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take extra precautions with certain medications.&lt;/strong&gt; Be on the lookout for heat-related problems if you take medications that can affect your body&apos;s ability to stay hydrated and dissipate heat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Never leave children or anyone else in a parked car.&lt;/strong&gt; This is a common cause of heat-related deaths in children. When parked in the sun, the temperature in your car can rise 20 degrees F (more than 6.7 C) in just 10 minutes. It&apos;s not safe to leave a person inside a parked car in hot weather for any period of time, even if the windows are cracked or the car is in the shade. When your car is parked, keep it locked to prevent a child from getting inside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take it easy during the hottest parts of the day.&lt;/strong&gt; If you can&apos;t avoid strenuous activity in hot weather, follow the same precautions and rest frequently in a cool spot. Try to schedule exercise or physical labor for cooler parts of the day, such as early morning or evening. Taking breaks and replenishing your fluids during that time will help your body regulate your temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get acclimatized.&lt;/strong&gt; Limit the amount you spend working or exercising in the heat until you&apos;re conditioned to it. People who are not used to hot weather are especially susceptible to heat-related illness, including heatstroke. It can take several weeks for your body to adjust to hot weather.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious if you&apos;re at increased risk.&lt;/strong&gt; If you take medications or have a physical condition that increases your risk of heat-related problems, avoid the heat and act quickly if you notice symptoms of overheating. If you participate in a strenuous sporting event or activity in hot weather, make sure there are medical services at the event in case a heat emergency arises.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heatstroke
+	</Title>
+	<Abstract>
+		Heatstroke &amp;mdash; Comprehensive overview covers symptoms, treatment of this dangerous increase in body temperature.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01046" LinkType="Internal" ObjectID="8B109D94-E7FF-0DBD-10629A8E9A33512D" Title="Heat exhaustion" Url="http://www.mayoclinic.com/health/heat-exhaustion/DS01046" />
+		<LinkItem ContentType="Article" DocID="HQ00316" LinkType="Internal" ObjectID="ECAFE3E7-C215-41DA-9F75A2087398E84C" Title="Heat and exercise: Keeping cool in hot weather" Url="http://www.mayoclinic.com/health/exercise/HQ00316" />
+	</RelatedLinksBox>
+</Disease>

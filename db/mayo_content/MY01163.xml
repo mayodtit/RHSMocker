@@ -1,0 +1,250 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01163
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rh-factor/MY01163
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3395" Title="Week 4" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="4655" Title="Rh factor test" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5210" Title="Prenatal care">
+							<Keyword MCVID="5211" Title="Medical tests" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			33A990E6-08D3-0F31-DD99FA94792802DC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rh factor
+			</MetaKeyword>
+			<MetaKeyword>
+				rh
+			</MetaKeyword>
+			<MetaKeyword>
+				rh test
+			</MetaKeyword>
+			<MetaKeyword>
+				rh factor in blood
+			</MetaKeyword>
+			<MetaKeyword>
+				rh negative
+			</MetaKeyword>
+			<MetaKeyword>
+				rh factor in pregnancy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rhesus (Rh) factor is an inherited trait that refers to a specific protein found on the surface of red blood cells. If your blood has the protein, you&apos;re Rh positive &amp;mdash; the most common Rh factor. If your blood lacks the protein, you&apos;re Rh negative.
+&lt;/p&gt;
+&lt;p&gt;
+Although Rh factor doesn&apos;t affect your health, it can affect pregnancy. Your pregnancy needs special care if you&apos;re Rh negative and your baby&apos;s father is Rh positive.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant, your health care provider will recommend an Rh factor test during your first prenatal visit. The Rh factor test is a basic blood test that indicates whether you&apos;re Rh positive or Rh negative.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The Rh factor test is done during pregnancy to identify a woman&apos;s Rh factor. In some cases, the baby&apos;s father might need an Rh factor test, too. 
+&lt;/p&gt;
+&lt;p&gt;
+During pregnancy &amp;mdash; or, more likely, during delivery &amp;mdash; a small amount of your baby&apos;s blood could come in contact with your blood. If you&apos;re Rh positive, Rh incompatibility isn&apos;t a concern. If you&apos;re Rh negative and your baby is Rh positive, however, your body might produce Rh antibodies after exposure to the baby&apos;s red blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, the antibodies aren&apos;t a problem during the first pregnancy. The concern is with a subsequent pregnancy with an Rh positive baby. In this case, your existing Rh antibodies might cross the placenta and fight the baby&apos;s red blood cells. This could lead to life-threatening anemia &amp;mdash; a lack of healthy red blood cells &amp;mdash; for the Rh positive baby. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re Rh negative, you might need to have another blood test &amp;mdash; an antibody screen &amp;mdash; during your first trimester and again during week 28 of pregnancy. The antibody screen is used to detect antibodies to Rh positive blood. 
+&lt;/p&gt;
+&lt;p&gt;
+If you haven&apos;t started to produce Rh antibodies, you&apos;ll need an injection of a blood product called Rh immune globulin. The immune globulin prevents your body from producing Rh antibodies during your pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby is born Rh negative, no additional treatment is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby is born Rh positive, you&apos;ll need another injection shortly after delivery. You&apos;ll likely need injections during any subsequent pregnancies and after the delivery of each Rh positive baby as well. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re Rh negative, you&apos;ll also need an Rh immune globulin injection after any situation in which your blood could come into contact with Rh positive blood, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Miscarriage&lt;/li&gt;
+	&lt;li&gt;Abortion&lt;/li&gt;
+	&lt;li&gt;Ectopic pregnancy &amp;mdash; when a fertilized eggs implants somewhere outside the uterus, usually in a fallopian tube&lt;/li&gt;
+	&lt;li&gt;Molar pregnancy &amp;mdash; a noncancerous (benign) tumor that develops in the uterus&lt;/li&gt;
+	&lt;li&gt;Amniocentesis &amp;mdash; a prenatal test in which a sample of the fluid that surrounds and protects a baby in the uterus (amniotic fluid) is removed for testing or treatment&lt;/li&gt;
+	&lt;li&gt;Chorionic villus sampling &amp;mdash; a prenatal test in which a sample of the wispy projections that make up most of the placenta (chorionic villi) is removed for testing&lt;/li&gt;
+	&lt;li&gt;Bleeding during pregnancy&lt;/li&gt;
+	&lt;li&gt;Blunt trauma to the abdomen during pregnancy&lt;/li&gt;
+	&lt;li&gt;Rotation of a baby in a breech position &amp;mdash; such as buttocks first &amp;mdash; before labor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the antibody screen shows that you&apos;re already producing antibodies, an injection of Rh immune globulin won&apos;t help. Your baby will be carefully monitored. If necessary, he or she might be given a blood transfusion through the umbilical cord during pregnancy or immediately after delivery. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;25%&quot;&gt;Mother&apos;s Rh factor&lt;/th&gt;&lt;th width=&quot;25%&quot;&gt;Father&apos;s Rh factor&lt;/th&gt;&lt;th width=&quot;25%&quot;&gt;Baby&apos;s Rh factor&lt;/th&gt;&lt;th width=&quot;25%&quot;&gt;Precautions&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Rh positive&lt;/td&gt;
+			&lt;td&gt;Rh positive&lt;/td&gt;
+			&lt;td&gt;Rh positive&lt;/td&gt;
+			&lt;td&gt;None&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Rh negative&lt;/td&gt;
+			&lt;td&gt;Rh negative&lt;/td&gt;
+			&lt;td&gt;Rh negative&lt;/td&gt;
+			&lt;td&gt;None&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Rh positive&lt;/td&gt;
+			&lt;td&gt;Rh negative&lt;/td&gt;
+			&lt;td&gt;Could be Rh positive or Rh negative&lt;/td&gt;
+			&lt;td&gt;None&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Rh negative&lt;/td&gt;
+			&lt;td&gt;Rh positive&lt;/td&gt;
+			&lt;td&gt;Could be Rh positive or Rh negative&lt;/td&gt;
+			&lt;td&gt;Rh immune globulin injections&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An Rh factor test is a basic blood test. The blood sample is usually taken in a health care provider&apos;s office &amp;mdash; typically during the first prenatal visit &amp;mdash; and sent to a lab for analysis.
+&lt;/p&gt;
+&lt;p&gt;
+No special preparation is necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re Rh positive, no action is needed.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re Rh negative and the baby&apos;s father is Rh positive, there&apos;s a potential for your body to produce antibodies that could harm your baby. Talk with your health care provider about scheduling an Rh immune globulin injection during your pregnancy and make sure you remind your health care team of your Rh status during labor.
+&lt;/p&gt;
+&lt;p&gt;
+Your reminders will help your health care team provide the best possible care during labor and delivery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rh factor blood test
+	</Title>
+	<Abstract>
+		Do you need an Rh factor blood test? Understand this blood test for pregnant women.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00155" LinkType="Internal" ObjectID="E4636F2E-E7FF-0DBD-19D23492870EE783" Title="Amniocentesis" Url="http://www.mayoclinic.com/health/amniocentesis/MY00155" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00154" LinkType="Internal" ObjectID="E457E151-E7FF-0DBD-1ACADCF6AE70EE0B" Title="Chorionic villus sampling" Url="http://www.mayoclinic.com/health/chorionic-villus-sampling/MY00154" />
+		<LinkItem ContentType="Disease" DocID="DS01155" LinkType="Internal" ObjectID="E21DC5D6-B5CC-F0F6-3C309D4718AC34F1" Title="Molar pregnancy" Url="http://www.mayoclinic.com/health/molar-pregnancy/DS01155" />
+		<LinkItem ContentType="Disease" DocID="DS01105" LinkType="Internal" ObjectID="6B11E6BD-E7FF-0DBD-1332ED03983B3A84" Title="Miscarriage" Url="http://www.mayoclinic.com/health/pregnancy-loss-miscarriage/DS01105" />
+		<LinkItem ContentType="Disease" DocID="DS00622" LinkType="Internal" ObjectID="43A7C2A1-2A5D-9994-EB6FFC1D0D8C4628" Title="Ectopic pregnancy" Url="http://www.mayoclinic.com/health/ectopic-pregnancy/DS00622" />
+	</RelatedLinksBox>
+</TestProcedure>

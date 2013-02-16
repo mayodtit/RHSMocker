@@ -1,0 +1,445 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01117
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/congenital-heart-defects/DS01117
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-02
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			52307A36-E7FF-0DBD-19C3D5A648D2D4A7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				heart problem
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricular septal defect
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial septal defect
+			</MetaKeyword>
+			<MetaKeyword>
+				patent ductus arteriosus
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary valve stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic valve stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				coarctation of the aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				transposition of the great vessels
+			</MetaKeyword>
+			<MetaKeyword>
+				transposition of the great arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				tetralogy of fallot
+			</MetaKeyword>
+			<MetaKeyword>
+				heart murmur
+			</MetaKeyword>
+			<MetaKeyword>
+				cyanosis
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged heart
+			</MetaKeyword>
+			<MetaKeyword>
+				endocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				heart valve
+			</MetaKeyword>
+			<MetaKeyword>
+				heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriosis
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriosus
+			</MetaKeyword>
+			<MetaKeyword>
+				av canal
+			</MetaKeyword>
+			<MetaKeyword>
+				atrioventricular
+			</MetaKeyword>
+			<MetaKeyword>
+				hypoplastic left heart
+			</MetaKeyword>
+			<MetaKeyword>
+				Ebstein&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				ebsteins
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has been diagnosed with a congenital heart defect, it means he or she was born with a problem in the heart&apos;s structure. The news that your child has a congenital heart defect probably made you anxious and worried about your child&apos;s immediate and long-term health. But, knowing about your child&apos;s congenital heart defect can help you understand his or her condition and what you can expect in the coming months and years. 
+&lt;/p&gt;
+&lt;p&gt;
+Some congenital heart defects are simple and don&apos;t need treatment, such as a small hole between heart chambers that closes on its own. Other congenital heart defects in children are more complex and may require several surgeries performed over a period of several years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Serious congenital heart defects&lt;/strong&gt; usually become evident during the first few hours, days, weeks and months of life. Signs and symptoms could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of healthy skin color&lt;/li&gt;
+	&lt;li&gt;Pale gray or blue skin color (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Rapid breathing&lt;/li&gt;
+	&lt;li&gt;Swelling in the legs, abdomen or areas around the eyes&lt;/li&gt;
+	&lt;li&gt;Shortness of breath during feedings, leading to poor weight gain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Less serious congenital heart defects&lt;/strong&gt; are often not diagnosed until later in childhood. Your child may not have any noticeable signs or symptoms. If signs and symptoms are evident in older children, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Easily becoming short of breath during exercise or activity&lt;/li&gt;
+	&lt;li&gt;Easily tiring during exercise or activity&lt;/li&gt;
+	&lt;li&gt;Built-up fluid in the heart or lungs&lt;/li&gt;
+	&lt;li&gt;Swelling in the hands, ankles or feet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Serious congenital heart defects are often diagnosed before or soon after your child is born. If you notice that your baby has any of the signs or symptoms above, call your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has any of the signs or symptoms of less serious heart defects as he or she grows, call your child&apos;s doctor. Your child&apos;s doctor can let you know if your child&apos;s symptoms are due to a heart defect or another medical condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;How the heart works&lt;/strong&gt;&lt;br /&gt;
+The heart is divided into four hollow chambers, two on the right and two on the left. In performing its basic job &amp;mdash; pumping blood throughout the body &amp;mdash; the heart uses its left and right sides for different tasks. The right side of the heart moves blood to the lungs through vessels called pulmonary arteries. In the lungs, blood picks up oxygen then returns to the heart&apos;s left side through the pulmonary veins. The left side of the heart then pumps the blood through the aorta and out to the rest of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How heart defects develop&lt;/strong&gt;&lt;br /&gt;
+A baby&apos;s heart starts beating just 22 days after conception. At that point, the heart has a simple tube shape. Between days 22 and 24, the heart begins to bend to the right and fold in on itself to form a loop. By 28 days after conception, the tube has a vaguely heart-like shape with structures corresponding to the heart&apos;s two sides and the large blood vessels that carry blood in and out of them. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s usually at this point in your baby&apos;s development that heart defects may begin to develop. Researchers aren&apos;t sure exactly what causes defects to begin, but they think some medical conditions, medications and genetics may play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of heart defects&lt;/strong&gt;&lt;br /&gt;
+There are many different types of congenital heart defects, falling mainly into these categories: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Holes in the heart.&lt;/strong&gt; Several heart defects can be thought of as holes in the walls between heart chambers or between major blood vessels leaving the heart. These holes allow oxygen-rich and oxygen-poor blood to mix. If the holes are large and a lot of blood is mixed, the blood that ends up being circulated through your child&apos;s body is not carrying as much oxygen as normal. Not having enough oxygen in the blood can cause your child&apos;s skin or fingernails to appear blue in color. Your baby may also develop signs and symptoms of congestive heart failure, such as shortness of breath, irritability and leg swelling, because both oxygen-rich and oxygen-poor blood are flooding (overcirculating) the lungs. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Examples of hole defects include ventricular septal defect, which is a hole in the wall between the right and left ventricles; atrial septal defect, a hole between the upper heart chambers; and patent ductus arteriosus (DUK-tus ahr-teer-e-OH-sus), an opening between the pulmonary artery and the aorta. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obstructed blood flow.&lt;/strong&gt; When blood vessels or heart valves are narrow because of a heart defect, the heart must work harder to pump blood through them. Among the most common of this type of defect is pulmonary stenosis (stuh-NO-sis), a narrowing of the pulmonary valve, through which blood passes from the right ventricle to the pulmonary artery on its way to the lungs. Another obstructive defect, aortic stenosis, is a narrowing of the aortic valve, through which blood passes from the left ventricle into the aorta to supply blood to all of the body. The narrowed valve forces the heart muscle to work harder, eventually leading to thickening and enlarging of the muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal blood vessels.&lt;/strong&gt; Several congenital heart defects involve incorrectly formed or positioned blood vessels going to and from the heart. For example, transposition of the great arteries occurs when the pulmonary artery and the aorta are on the wrong sides of the heart. This is a serious and immediately life-threatening defect. A condition called coarctation of the aorta is a narrowing of the main blood vessel supplying blood to the body. Coarctation of the aorta causes high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart valve abnormalities.&lt;/strong&gt; If the heart valves can&apos;t open and close correctly, blood can&apos;t flow smoothly. Examples include Ebstein&apos;s anomaly, in which the tricuspid valve (which is located between the right atrium and the right ventricle) is malformed and often leaks, and pulmonary atresia, in which a piece of heart tissue blocks normal blood flow to the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A combination of defects.&lt;/strong&gt; Some infants are born with several heart defects. For example, tetralogy of Fallot is a combination of four defects: a hole in the ventricular septum, a narrowed passage between the right ventricle and pulmonary artery, a shift in the connection of the aorta to the heart, and thickened muscle in the right ventricle.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most congenital heart defects result from problems early in your child&apos;s heart development, the cause of which is unknown. However, certain environmental and genetic risk factors may play a role. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rubella (German measles).&lt;/strong&gt; Having rubella during pregnancy can cause problems in your baby&apos;s heart development. Your doctor can test you for immunity to this viral disease before pregnancy and vaccinate you against it if you aren&apos;t immune.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Having this chronic condition may interfere with the development of the fetus&apos;s heart. You can reduce the risk by carefully controlling your diabetes before attempting to conceive and during pregnancy. Gestational diabetes generally doesn&apos;t increase your baby&apos;s risk of developing a heart defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Taking certain medications while pregnant is known to cause birth defects, including congenital heart defects. Give your doctor a complete list of the medications you take before attempting to become pregnant. Medications that increase risk include thalidomide (Thalomid) and some anti-seizure medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol during pregnancy.&lt;/strong&gt; Avoid alcohol during pregnancy because babies with fetal alcohol syndrome often have congenital heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Congenital heart defects appear to run in families and are associated with many genetic syndromes. More than one-third of children with Down syndrome &amp;mdash; which is caused by an extra 21st chromosome (trisomy 21) &amp;mdash; have heart defects. A missing piece (deletion) of genetic material on chromosome 22 also causes heart defects. Genetic testing can detect such disorders during fetal development. If you already have a child with a congenital heart defect, a genetic counselor can predict the approximate odds that your next child will have one.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For serious congenital heart defects, it&apos;s necessary for your child to receive treatment soon after birth to avoid serious problems. Fortunately, most serious heart defects are found soon after birth, and sometimes are detected even before your baby is born. 
+&lt;/p&gt;
+&lt;p&gt;
+Some of the potential complications that can occur with a congenital heart defect include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Congestive heart failure.&lt;/strong&gt; This serious complication, which makes it difficult for the heart to pump blood to the body, usually develops in the first six months after birth in babies who have a significant heart defect. Signs of congestive heart failure include rapid breathing, often with gasping breaths, and poor weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slower growth and development.&lt;/strong&gt; Children with congenital heart defects often develop and grow more slowly than do children who don&apos;t have heart defects. Your child may be smaller than other children of the same age and, if the nervous system has been affected, may learn to walk and talk later than other children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonia.&lt;/strong&gt; Having a congenital heart defect makes your child more prone to respiratory tract infections, including pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart rhythm problems.&lt;/strong&gt; &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyanosis.&lt;/strong&gt; If your child&apos;s heart defect causes oxygen-rich and oxygen-poor blood to mix in his or her heart, your child may develop a grayish-blue skin color, a condition called cyanosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; Although uncommon, some children with congenital heart defects are at increased risk of stroke due to blood clots traveling through a hole in the heart and on to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional issues.&lt;/strong&gt; Some children with congenital heart defects may feel insecure or develop emotional problems because of their size, activity restrictions or learning difficulties. Talk to your child&apos;s doctor if you&apos;re concerned about your child&apos;s moods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A need for lifelong follow-up.&lt;/strong&gt; Treatment for children who have congenital heart defects may not end with surgeries or medication while they&apos;re young. Children who have heart defects should be mindful of their heart problems their entire lives, as their defect could have complications, such as increased risk of heart tissue infection (endocarditis), heart failure or heart valve problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has a life-threatening heart defect, it will likely be detected soon after birth, or possibly before birth as a part of routine exams during pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+If you suspect your child has a heart defect later in infancy or childhood, talk to your child&apos;s doctor. Be prepared to describe your child&apos;s symptoms and provide a family medical history, since some heart defects tend to be hereditary. Your child&apos;s doctor may also want to know if the mother of the child had any medical conditions or used any medications or alcohol while pregnant that may have been a risk factor for developing a congenital heart defect. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Write down any signs and symptoms your child is experiencing, including any that may seem unrelated to heart problems.&lt;/li&gt;
+	&lt;li&gt;Make a list of all medications, as well as any vitamins or supplements, that the mother of the child has been taking.&lt;/li&gt;
+	&lt;li&gt;Write down questions to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions helps you make the most of your time together. You might want to ask the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are these signs and symptoms related to my family history?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Does my child need treatment? If so, when?&lt;/li&gt;
+	&lt;li&gt;What is the best treatment?&lt;/li&gt;
+	&lt;li&gt;Do you think my child will experience any long-term complications?&lt;/li&gt;
+	&lt;li&gt;How will we monitor for possible complications?&lt;/li&gt;
+	&lt;li&gt;If I have more children, what are the odds of this condition occurring again?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Can you describe your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When do these symptoms occur?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do the symptoms seem to be getting worse?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of congenital heart defects?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child been growing and meeting developmental milestones as expected?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor may initially suspect a problem because he or she hears a heart murmur during a routine exam. A heart murmur is a sound that occurs when blood flows through your child&apos;s heart abnormally. Many heart murmurs are innocent, meaning the murmur isn&apos;t dangerous to your child&apos;s health. Some murmurs, however, may mean blood is flowing through your child&apos;s heart abnormally because he or she has a heart defect. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to diagnose a congenital heart defect&lt;/strong&gt;&lt;br /&gt;
+If it&apos;s possible your child has a heart defect, your doctor or your child&apos;s doctor may order several tests to see if your child has a heart problem. In addition to a regular physical exam, these could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fetal echocardiogram.&lt;/strong&gt; This test allows your doctor to see if your child has a heart defect before he or she is born. In this test, your doctor performs an ultrasound. The sound waves from the ultrasound are used to create a picture of your baby&apos;s heart. Doctors can use the information from the test to diagnose the condition and plan treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; Your child&apos;s doctor may use a regular echocardiogram to diagnose a congenital heart defect after your child has been born. In this noninvasive test, your child&apos;s doctor performs an ultrasound to produce images of the heart. An echocardiogram allows the doctor to see your child&apos;s heart in motion. The doctor can use these images to identify abnormalities in the heart muscle and valves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram.&lt;/strong&gt; This noninvasive test records the electrical activity of your child&apos;s heart and can help diagnose heart defects or rhythm problems. Electrodes connected to a computer and printer are placed on your baby&apos;s chest and show waves that indicate how your child&apos;s heart is beating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Your child may have a chest X-ray to see if the heart is enlarged, or if the lungs have extra blood or other fluid in them. These could be signs of heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulse oximetry.&lt;/strong&gt; This test measures how much oxygen is in your child&apos;s blood. A sensor is placed over the end of your child&apos;s finger &amp;mdash; similar to a loosefitting clothespin &amp;mdash; to record the amount of oxygen in your child&apos;s blood. Too little oxygen could suggest your child has a heart problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, a thin, flexible tube (catheter) is inserted into a blood vessel at your baby&apos;s groin or arm and guided through it into the heart. It&apos;s not always clear how serious a congenital heart defect is when it&apos;s found through echocardiography, but catheterization can give your child&apos;s doctor a much more detailed view of your child&apos;s heart. And, for certain defects, treatment procedures can be done during cardiac catheterization that will improve the heart&apos;s function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A congenital heart defect may have no long-term effect on your child&apos;s health &amp;mdash; in some instances, such defects can safely go untreated. Sometimes they aren&apos;t even discovered until adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+Some heart defects, however, are serious and require treatment soon after they&apos;re found. Depending on the type of heart defect your child has, doctors treat congenital heart defects with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Procedures using catheters.&lt;/strong&gt; Some children and adults now have their congenital heart defects repaired using catheterization techniques, which allow the repair to be done without surgically opening the chest and heart. In procedures that can be done using catheterization, the doctor inserts a thin tube (catheter) into a leg vein and guides it to the heart with the help of X-ray images. Once the catheter is positioned at the site of the defect, tiny tools are threaded through the catheter to the heart to repair the defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open-heart surgery.&lt;/strong&gt; In some cases, your child&apos;s doctor won&apos;t be able to fix your child&apos;s heart defect using a catheter procedure. In these cases, your child&apos;s doctor may perform open-heart surgery to try to repair your child&apos;s heart defect. These surgeries are major medical procedures and may require a long recovery time for your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart transplant.&lt;/strong&gt; If a serious heart defect can&apos;t be repaired, a heart transplant may be an option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Some mild congenital heart defects, especially those found later in childhood or adulthood, can be treated with medications that help the heart work more efficiently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term treatment&lt;/strong&gt;&lt;br /&gt;
+Some children with congenital heart defects require multiple procedures and surgeries throughout life. Although the outcomes for children with heart defects have improved dramatically, most people, except those with very simple defects, will require ongoing care, even after corrective surgery. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifelong monitoring and treatment.&lt;/strong&gt; Even if your child has surgery to treat a heart defect, your child&apos;s condition will need to be monitored for the rest of his or her life by a pediatric cardiologist initially, and then an adult cardiologist. Having a congenital heart defect can affect your child&apos;s adult life, as it can contribute to other health problems. As your child ages, it&apos;s important to remind him or her of the heart condition that was corrected and the need for ongoing care. Encourage your child to keep his or her doctor informed about the heart defect and the procedures performed to treat the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise restrictions.&lt;/strong&gt; Parents of children with congenital heart defects may worry about the risks of rough play and activity even after treatment. Although some children may need to limit the amount or type of exercise, many can participate in normal or near-normal activity. Your child&apos;s doctor can tell you which activities are safe for your child. If some activities do pose distinct dangers, encourage your child to participate in other activities instead of focusing on what he or she can&apos;t do. Although every child is different, most children with congenital heart defects grow up to lead healthy, productive lives.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection prevention.&lt;/strong&gt; Depending on the type of congenital heart defect your child had, and the surgery used to correct it, your child may need to take extra steps to prevent infection. People who&apos;ve had congenital heart defects sometimes have an increased risk of a serious infection of the lining of the heart and heart valves (infective endocarditis), and may need to take antibiotics to prevent infection before additional surgeries or dental procedures. Those who are most likely to have a higher risk of infection include people whose defect was repaired with a prosthetic material or device, such as an artificial heart valve. Ask your child&apos;s cardiologist if preventive antibiotics are necessary for your child.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s natural for many parents to feel worried about their child&apos;s health, even after treatment of a congenital heart defect. Although many children who have congenital heart defects can do the same things children without heart defects can, here are a few things to keep in mind if your child has had a congenital heart defect: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental difficulties.&lt;/strong&gt; Because some children who have congenital heart defects may have had a long recovery time from surgeries or procedures, they may developmentally lag behind other children their age. Some children&apos;s difficulties may last into their school years, and they may have difficulties learning to read or write, as well. Talk to your child&apos;s doctor about ways to help your child through his or her developmental difficulties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional difficulties.&lt;/strong&gt; Many children who have developmental difficulties may feel insecure about their abilities and may have emotional difficulties as they reach school age. Talk to your child&apos;s doctor about ways you can help your child cope with these problems, which may include support groups for parents or a visit to a therapist or psychologist for your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; Having a child with a serious medical problem isn&apos;t easy and, depending on the severity of the defect, may be very difficult and frightening. You may find that talking with other parents who&apos;ve been through the same situation brings you comfort and encouragement. Ask your child&apos;s doctor if there are any local support groups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the exact cause of most congenital heart defects is unknown, it may not be possible to prevent these conditions. However, there are some things you can do that might reduce your child&apos;s overall risk of birth defects and possibly heart defects too, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get a Rubella (German measles) vaccine.&lt;/strong&gt; If you develop Rubella during pregnancy, it may affect your baby&apos;s heart development. Being vaccinated before you try to conceive likely eliminates this risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control chronic medical conditions.&lt;/strong&gt; If you have diabetes, keeping your blood sugar in check can reduce the risk of heart defects. If you have other chronic conditions, such as epilepsy, that require the use of medications, discuss the risks and benefits of these drugs with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid harmful substances.&lt;/strong&gt; During pregnancy, leave painting and cleaning with strong-smelling products to someone else. Also, don&apos;t take any herbs, dietary supplements or drugs without consulting your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a multivitamin with folic acid.&lt;/strong&gt; Daily consumption of 400 micrograms of folic acid has been shown to reduce birth defects in the brain and spinal cord, and may help reduce the risk of heart defects as well.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Congenital heart defects in children
+	</Title>
+	<Abstract>
+		Congenital heart defects &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of heart defects in children.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00733" LinkType="Internal" ObjectID="F58E80EF-2A5D-9994-E108E105E118A7CA" Title="Transposition of the great arteries" Url="http://www.mayoclinic.com/health/transposition-of-the-great-arteries/DS00733" />
+		<LinkItem ContentType="Disease" DocID="DS01140" LinkType="Internal" ObjectID="F235977D-08A2-396E-9152C464D454200D" Title="Congenital heart disease in adults" Url="http://www.mayoclinic.com/health/congenital-heart-disease/DS01140" />
+		<LinkItem ContentType="Disease" DocID="DS00616" LinkType="Internal" ObjectID="B2506C3C-2A5D-9994-EE10BF35EDF6E70E" Title="Coarctation of the aorta" Url="http://www.mayoclinic.com/health/coarctation-of-the-aorta/DS00616" />
+		<LinkItem ContentType="Disease" DocID="DS00745" LinkType="Internal" ObjectID="9572043A-E7FF-0DBD-1BA7632B2B13EBE1" Title="Atrioventricular canal defect" Url="http://www.mayoclinic.com/health/atrioventricular-canal-defect/DS00745" />
+		<LinkItem ContentType="Disease" DocID="DS00805" LinkType="Internal" ObjectID="7AFB1F04-E7FF-0DBD-1F9D920298E8BC3F" Title="Ebstein&apos;s anomaly" Url="http://www.mayoclinic.com/health/ebsteins-anomaly/DS00805" />
+		<LinkItem ContentType="Disease" DocID="DS00744" LinkType="Internal" ObjectID="6B910E95-E7FF-0DBD-17F3437BA90611BC" Title="Hypoplastic left heart syndrome" Url="http://www.mayoclinic.com/health/hypoplastic-left-heart-syndrome/DS00744" />
+		<LinkItem ContentType="Disease" DocID="DS00796" LinkType="Internal" ObjectID="69A77A29-E7FF-0DBD-165AF4DD2E03D2D0" Title="Tricuspid atresia" Url="http://www.mayoclinic.com/health/tricuspid-atresia/DS00796" />
+		<LinkItem ContentType="Disease" DocID="DS00728" LinkType="Internal" ObjectID="44AE111F-E7FF-0DBD-142B50B65F4F7827" Title="Patent foramen ovale" Url="http://www.mayoclinic.com/health/patent-foramen-ovale/DS00728" />
+		<LinkItem ContentType="Disease" DocID="DS00628" LinkType="Internal" ObjectID="34E5B254-2A5D-9994-E77E2A9B8BF664E3" Title="Atrial septal defect (ASD)" Url="http://www.mayoclinic.com/health/atrial-septal-defect/DS00628" />
+		<LinkItem ContentType="Disease" DocID="DS00746" LinkType="Internal" ObjectID="172A9F81-E7FF-0DBD-1A3485F93D3E2991" Title="Truncus arteriosus" Url="http://www.mayoclinic.com/health/truncus-arteriosus/DS00746" />
+		<LinkItem ContentType="Disease" DocID="DS01204" LinkType="Internal" ObjectID="12CD3ABD-0320-0A1F-98A97D7D7E27B5E2" Title="Pulmonary atresia" Url="http://www.mayoclinic.com/health/pulmonary-atresia/DS01204" />
+		<LinkItem ContentType="Disease" DocID="DS00615" LinkType="Internal" ObjectID="02527AD2-2A5D-9994-E002D9D18B347695" Title="Tetralogy of Fallot" Url="http://www.mayoclinic.com/health/tetralogy-of-fallot/DS00615" />
+		<LinkItem ContentType="Disease" DocID="DS00610" LinkType="Internal" ObjectID="011B2F23-2A5D-9994-E4F95F92025CFA22" Title="Pulmonary valve stenosis" Url="http://www.mayoclinic.com/health/pulmonary-valve-stenosis/DS00610" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00218" LinkType="Internal" ObjectID="E0258087-E7FF-0DBD-1285B4E6EDD43AD9" Title="Cardiac catheterization" Url="http://www.mayoclinic.com/health/cardiac-catheterization/MY00218" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00361" LinkType="Internal" ObjectID="3FDA96F4-E7FF-0DBD-16E85B989BB8D9C5" Title="Heart transplant" Url="http://www.mayoclinic.com/health/heart-transplant/MY00361" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS00727" LinkType="Internal" ObjectID="934C1A15-2A5D-9994-E62A0AD369FFE1FF" Title="Heart murmurs" Url="http://www.mayoclinic.com/health/heart-murmurs/DS00727" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,311 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00798
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/intussusception/DS00798
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1452" Title="Intestines">
+						<Keyword MCVID="2100" Title="Obstruction">
+							<Keyword MCVID="2101" Title="Intussusception" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			172F26A1-E7FF-0DBD-1312D481FDFD2213
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				intussusception
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal obstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				bowel obstruction
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intussusception (in-tuh-suh-SEP-shun) is a serious disorder in which part of the intestine slides into an adjacent part of the intestine. This &quot;telescoping&quot; often blocks food or fluid from passing through. Intussusception also cuts off the blood supply to the part of the intestine that&apos;s affected. Intussusception can lead to a tear in the bowel (perforation), infection and death of bowel tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+Intussusception is the most common cause of intestinal obstruction in children younger than 3. Intussusception is rare in adults. Most cases of adult intussusception are the result of an underlying medical condition, such as a tumor. In contrast, the cause of most cases of intussusception in children is unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+In children, the intestines can usually be pushed back into position with an X-ray procedure. In adults, surgery is often required to correct the problem. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="60" Title="Intussusception" URI="/images/image_popup/thumbs/ans7_intussusceptionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="369" Title="Intussusception" URI="/images/image_popup/ans7_intussusception.jpg" Width="400" />
+				<HTML>
+					Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Children&lt;/strong&gt; &lt;br /&gt;
+The first sign of intussusception in an otherwise healthy infant may be sudden, loud crying caused by abdominal pain. Infants who have abdominal pain may pull their knees to their chests when they cry. The pain of intussusception comes and goes, usually every 15 to 20 minutes at first. These painful episodes last longer and happen more often as time passes. 
+&lt;/p&gt;
+&lt;p&gt;
+Other frequent signs and symptoms of intussusception include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stool mixed with blood and mucus (sometimes referred to as &quot;currant jelly&quot; stool because of its appearance)&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;A lump in the abdomen&lt;/li&gt;
+	&lt;li&gt;Lethargy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some infants have no obvious pain, don&apos;t pass blood or have a lump in the abdomen. Some older children have pain but no other symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+Because intussusception is rare in adults and symptoms of the disorder are often nonspecific, it is more challenging to identify. Abdominal pain is the most common symptom, followed by nausea and vomiting and diarrhea. A significant percentage of people have no signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Intussusception requires emergency medical care. If you or your child develops the signs or symptoms listed above, seek medical help right away. 
+&lt;/p&gt;
+&lt;p&gt;
+In infants, remember that signs of abdominal pain may include recurrent bouts of pulling the knees to the chest and crying. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your intestine is shaped like a long tube. In intussusception, one part of your intestine &amp;mdash; usually the small intestine &amp;mdash; slides inside an adjacent part. This is sometimes called telescoping because it&apos;s similar to the way a collapsible telescope folds together. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, the telescoping is caused by an abnormal growth in the intestine, such as a polyp or a tumor (called a lead point). The normal wave-like contractions of the intestine grab this lead point and pull it and the lining of the intestine into the bowel ahead of it. In most cases, however, no cause can be identified for intussusception. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children&lt;/strong&gt; &lt;br /&gt;
+In the vast majority of cases of intussusception in children, the cause is unknown. Because intussusception seems to occur more often in the fall and winter and because many children with the problem also have flu-like symptoms, some suspect a virus may play a role in the condition. In a few instances, a lead point is identified as the cause of the condition &amp;mdash; most frequently Meckel&apos;s diverticulum (a pouch in the lining of the small intestine). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+In adults, intussusception is usually the result of a medical condition, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A tumor&lt;/li&gt;
+	&lt;li&gt;Scar-like tissue in the intestine (adhesions)&lt;/li&gt;
+	&lt;li&gt;Surgical scars in the small intestine or colon&lt;/li&gt;
+	&lt;li&gt;Hematoma&lt;/li&gt;
+	&lt;li&gt;Inflammation, such as from Crohn&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="60" Title="Intussusception" URI="/images/image_popup/thumbs/ans7_intussusceptionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="369" Title="Intussusception" URI="/images/image_popup/ans7_intussusception.jpg" Width="400" />
+				<HTML>
+					Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for intussusception include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Children are much more likely to develop intussusception than adults are. It&apos;s the most common cause of bowel obstruction in children between the ages of 6 months and 3 years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Intussusception more often affects boys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal intestinal formation at birth.&lt;/strong&gt; A condition present at birth (congenital) in which the intestine doesn&apos;t develop correctly (malrotation) also is a risk factor for intussusception.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A prior history of intussusception.&lt;/strong&gt; Once you&apos;ve had intussusception, you&apos;re at increased risk to develop it again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;AIDS.&lt;/strong&gt; There is&lt;strong&gt; &lt;/strong&gt;some evidence of an increased incidence of intussusception in people with acquired immune deficiency syndrome. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intussusception can cut off the blood supply to the affected portion of the intestine. If left untreated, lack of blood causes tissue of the intestinal wall to die. Tissue death can lead to a tear (perforation) in the intestinal wall, which can cause an infection of the lining of the abdominal cavity (peritonitis). 
+&lt;/p&gt;
+&lt;p&gt;
+Peritonitis is a life-threatening condition that requires immediate medical attention. Signs and symptoms of peritonitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Abdominal swelling&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Thirst&lt;/li&gt;
+	&lt;li&gt;Low urine output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Peritonitis may cause your child to go into shock. Signs and symptoms of shock include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cool, clammy skin that may be pale or gray&lt;/li&gt;
+	&lt;li&gt;A weak and rapid pulse&lt;/li&gt;
+	&lt;li&gt;Abnormal breathing that may be either slow and shallow or very rapid&lt;/li&gt;
+	&lt;li&gt;Lackluster eyes that seem to stare blankly&lt;/li&gt;
+	&lt;li&gt;Profound listlessness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A child who is in shock may be conscious or unconscious. If you suspect your child is in shock, seek emergency medical care right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Emergency medical care is required to treat intussusception. You may not have much time to prepare for an appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your child&apos;s doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your child begin experiencing abdominal pain or other symptoms?&lt;/li&gt;
+	&lt;li&gt;Does your child&apos;s pain appear to be continuous &amp;mdash; or is it occurring off and on?&lt;/li&gt;
+	&lt;li&gt;Does the pain begin and end suddenly?&lt;/li&gt;
+	&lt;li&gt;Has your child experienced nausea, vomiting or diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any blood in your child&apos;s stool?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any swelling or a lump in your child&apos;s abdomen?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Don&apos;t give your child any over-the-counter medications to treat symptoms before the appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your or your child&apos;s doctor will start by getting a history of the symptoms of the problem. He or she may be able to feel a sausage-shaped lump in the abdomen. To confirm the diagnosis, your doctor may order: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound or other abdominal imaging.&lt;/strong&gt; An ultrasound, X-ray or computerized tomography (CT) scan may reveal intestinal obstruction caused by intussusception. Imaging will typically show a &quot;bull&apos;s eye,&quot; representing the intestine coiled within the intestine. Abdominal imaging also can show if the intestine has been torn (perforated).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Air or barium enema.&lt;/strong&gt; An air or barium enema is basically a colon X-ray. During the procedure, the doctor will insert air (the preferred choice in most cases) or liquid barium into the colon through the rectum. This makes the images on the X-ray clearer. An air or barium enema will fix intussusception 90 percent of the time in children, and no further treatment is needed. A barium enema can&apos;t be used if the intestine is torn.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of intussusception typically happens as a medical emergency. Emergency medical care is required to avoid severe dehydration and shock, as well as prevent infection that can occur when a portion of intestine dies due to lack of blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial care&lt;/strong&gt; &lt;br /&gt;
+When your child arrives at the hospital, the doctors will first stabilize his or her medical condition. This includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Giving your child fluids through an intravenous (IV) line&lt;/li&gt;
+	&lt;li&gt;Helping the intestines decompress by putting a tube through the child&apos;s nose and into the stomach (nasogastric tube)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Correcting the intussusception&lt;/strong&gt; &lt;br /&gt;
+To treat the problem, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A barium or air enema.&lt;/strong&gt; This is both a diagnostic procedure and a treatment. If an enema works, further treatment is usually not necessary. This treatment is highly effective in children, but rarely used in adults. Intussusception recurs as often as 15 to 20 percent of the time and the treatment will have to be repeated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If the intestine is torn, if an enema is unsuccessful in correcting the problem or if a lead point is the cause, surgery is necessary. The surgeon will free the portion of the intestine that is trapped, clear the obstruction and, if necessary, remove any of the intestinal tissue that has died. Surgery is the main treatment for adults and for people who are acutely ill.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, intussusception may be temporary and go away without treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Intussusception
+	</Title>
+	<Abstract>
+		Intussusception &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this rare but serious intestinal disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00620" LinkType="Internal" ObjectID="110F9DAB-BB0A-C261-8FB120FA054D7EE7" Title="Fecal occult blood test" Url="http://www.mayoclinic.com/health/fecal-occult-blood-test/MY00620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="Disease" DocID="DS00823" LinkType="Internal" ObjectID="AD1785F0-E7FF-0DBD-16824338D16E0CB2" Title="Intestinal obstruction" Url="http://www.mayoclinic.com/health/intestinal-obstruction/DS00823" />
+	</RelatedLinksBox>
+</Disease>

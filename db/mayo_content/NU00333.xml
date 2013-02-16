@@ -1,0 +1,212 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00333
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00333
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-15
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			1FE1AD73-508B-D3DD-174FB50D7B311FBF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &lt;em&gt;The New Mayo Clinic Cookbook&lt;/em&gt;, published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Pumpkin-hazelnut tea cake
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		MAKES 12 SLICES
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; If pumpkins are in season, roast a small pie pumpkin and puree the flesh in a blender or food processor for this loaf cake. Otherwise, use canned pumpkin. This cake makes a nice holiday gift.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 350 F. Lightly coat an 8-by-4-inch loaf pan with cooking spray.
+&lt;/p&gt;
+&lt;p&gt;
+In a large bowl, using an electric mixer on low speed, beat together the canola oil, pumpkin puree, honey, brown sugar and eggs until well blended.
+&lt;/p&gt;
+&lt;p&gt;
+In a small bowl, whisk together the flours, flaxseed, baking powder, allspice, cinnamon, nutmeg, cloves and salt. Add the flour mixture to the pumpkin mixture and, using the electric mixer on medium speed, beat until well blended.
+&lt;/p&gt;
+&lt;p&gt;
+Pour the batter into the prepared pan. Sprinkle the hazelnuts evenly over the top and press down gently to lodge the nuts into the batter. Bake until a toothpick inserted into the center of the loaf comes out clean, about 50 to 55 minutes. Let cool in the pan on a wire rack for 10 minutes. Turn the loaf out of the pan onto the rack and let cool completely. Cut into 12 slices to serve.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;3 tablespoons canola oil&lt;/li&gt;
+	&lt;li&gt;3/4 cup homemade or canned pumpkin puree&lt;/li&gt;
+	&lt;li&gt;1/2 cup honey&lt;/li&gt;
+	&lt;li&gt;3 tablespoons firmly packed brown sugar&lt;/li&gt;
+	&lt;li&gt;2 eggs, lightly beaten&lt;/li&gt;
+	&lt;li&gt;1 cup whole-wheat (whole-meal) flour&lt;/li&gt;
+	&lt;li&gt;1/2 cup all-purpose (plain) flour&lt;/li&gt;
+	&lt;li&gt;2 tablespoons flaxseed&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon baking powder&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon ground allspice&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon ground cinnamon&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon ground nutmeg&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon ground cloves&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped hazelnuts (filberts) &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				176
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				28 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				35 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				4 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 slice
+			</Servingsize>
+			<Sodium Label="Sodium">
+				80 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				6 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 12
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Breads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

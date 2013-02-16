@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00566
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00566
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-18
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1238" Title="Healthy diets" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3B972A29-E7FF-0DBD-1242ACFCAD85B2F9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				healthy eating
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy diet
+			</MetaKeyword>
+			<MetaKeyword>
+				nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				fast food
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Fast-food tip: Go for the greens
+	</Title>
+	<Body>
+		&lt;p&gt;Can fast food be part of a healthy-eating plan? Sure, if you order wisely and choose fast food only occasionally. Choose an entree salad with grilled chicken, shrimp or garden vegetables. Opt for fat-free or low-fat dressing on the side, rather than regular salad dressing, which can have 100 to 200 calories per packet. Watch out for high-calorie salads, such as those with deep-fried shells or those topped with breaded chicken or other fried toppings. Also skip salad extras, such as cheese, bacon bits and croutons, which quickly increase your calorie count.&lt;/p&gt;
+	</Body>
+</HealthTip>

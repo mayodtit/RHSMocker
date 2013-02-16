@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02198
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2013-02-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="2596" Title="Colonoscopy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5278B0E8-0C23-0A29-16CBA2B9D389BCDA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colonoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy preparation
+			</MetaKeyword>
+			<MetaKeyword>
+				bowel cleaning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Cleaning as much waste material as possible from your large intestine (colon) is crucial to a successful colonoscopy exam. Poor colonoscopy preparation can keep your doctor from finding polyps, tumors and other problems. It also increases the length of the exam and the risk of complications. In many cases, the exam has to be redone. 
+&lt;/p&gt;
+&lt;p&gt;
+The biggest reason for poor colonoscopy preparation is people&apos;s distaste for having to drink large quantities of bowel cleaning solution. The most common colonoscopy preparation calls for drinking 1 gallon (4 liters) of a polyethylene glycol solution. Some studies have shown that more than a third of people don&apos;t complete the full preparation. 
+&lt;/p&gt;
+&lt;p&gt;
+To make bowel preparation more tolerable, many doctors recommend splitting the dose of bowel preparation. Take 3 liters the night before the exam, and the remainder in the morning before the test. This regimen may not be possible if your colonoscopy is scheduled for early in the morning; you should consume the morning dose four to six hours prior to the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Studies have shown that the split-dose approach not only is more tolerable, but also does a better job of cleaning the colon. Better cleaning will lead to better results. One study found that doctors detected more common benign tumors (adenomas) in people who prepared with split doses than in people who prepared with single doses. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about split-dose preparation for your next colonoscopy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Splitting doses: A good strategy for colonoscopy preparation?
+	</Title>
+	<Abstract>
+		Spreading preparation over two days is not only more tolerable, but does a better job of cleaning the colon.
+	</Abstract>
+	<Question>
+		My doctor had me take bowel cleansing liquid the night before my colonoscopy and then the morning of. Is this a good colonoscopy preparation?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01970" LinkType="Internal" ObjectID="D0EE0825-F9C7-F0BA-76C16ED2F52A7591" Title="Colon cancer screening: At what age can you stop?" Url="http://www.mayoclinic.com/health/colon-cancer-screening/AN01970" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00624" LinkType="Internal" ObjectID="11107B89-D997-313D-42FD1089A3E98AC3" Title="Virtual colonoscopy" Url="http://www.mayoclinic.com/health/virtual-colonoscopy/MY00624" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="Disease" DocID="DS00511" LinkType="Internal" ObjectID="C9BB1E4C-12DB-4916-86E2CE5E70BDB744" Title="Colon polyps" Url="http://www.mayoclinic.com/health/colon-polyps/DS00511" />
+		<LinkItem ContentType="Disease" DocID="DS00063" LinkType="Internal" ObjectID="2D434692-F005-495C-A5EB2AFBD98CA2A5" Title="Constipation" Url="http://www.mayoclinic.com/health/constipation/DS00063" />
+		<LinkItem ContentType="Disease" DocID="DS00035" LinkType="Internal" ObjectID="13D504C5-40A0-40DA-9F61138EEAAE162F" Title="Colon cancer" Url="http://www.mayoclinic.com/health/colon-cancer/DS00035" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00317
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00317
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3293" Title="Winter holidays" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="4016" Title="Stress relief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FCB00B94-E7FF-0DBD-1082531C0EE55686
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				holiday stress
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Learn to say no and enjoy the holidays
+	</Title>
+	<Body>
+		&lt;p&gt;The holidays can be a frenetic time, with many additional events and obligations. Choose your commitments wisely. Saying yes when you should say no can leave you feeling resentful and overwhelmed. Friends and family will understand if you can&apos;t participate in every activity. If it&apos;s not possible to say no when your boss asks you to work overtime, try to remove something else from your agenda to make up for the lost time.&lt;/p&gt;
+	</Body>
+</HealthTip>

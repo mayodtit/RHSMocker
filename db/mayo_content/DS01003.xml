@@ -1,0 +1,285 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01003
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wrist-pain/DS01003
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-04
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2287" Title="Hand and wrist">
+						<Keyword MCVID="3291" Title="Wrist pain" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B93E43CB-E7FF-0DBD-1A96164A7B12C58A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wrist pain
+			</MetaKeyword>
+			<MetaKeyword>
+				hand pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wrist pain is a common complaint. Many types of wrist pain are caused by sudden injuries that result in sprains or fractures. But wrist pain also can be caused by more long-term problems &amp;mdash; such as repetitive stress, arthritis and carpal tunnel syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Because so many factors can lead to wrist pain, diagnosing the exact cause of long-standing wrist pain sometimes can be difficult. An accurate diagnosis is crucial, however, because proper treatment depends on the cause and severity of your wrist pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wrist pain may vary, depending on what&apos;s causing it. For example, osteoarthritis pain is often described as being similar to a dull toothache, while tendinitis usually causes a sharp, stabbing type of pain. The precise location of your wrist pain also can give clues to what might be causing your symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Not all wrist pain requires medical care. Minor sprains and strains, for instance, usually respond to ice, rest and over-the-counter pain medications. But if pain and swelling last longer than a few days or become worse, see your doctor. Delays in diagnosis and treatment can lead to poor healing, reduced range of motion and long-term disability.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your wrist is a complex joint made up of eight small bones arranged in two rows between the bones in your forearm and the bones in your hand. Tough bands of ligament connect your wrist bones to each other and to your forearm bones and hand bones. Tendons attach muscles to bone. Damage to any of the parts of your wrist can cause pain and affect your ability to use your wrist and hand.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Injuries&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden impacts.&lt;/strong&gt; Wrist injuries often occur when you fall forward onto your outstretched hand. This can cause sprains, strains and even fractures. A scaphoid fracture involves a bone on the thumb side of the wrist. This type of fracture may not show up on X-rays immediately following the injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repetitive stress.&lt;/strong&gt; Any activity that involves repetitive wrist motion &amp;mdash; from hitting a tennis ball or bowing a cello to driving cross-country &amp;mdash; can inflame the tissues around joints or cause stress fractures, especially when you perform the movement for hours on end without a break. De Quervain&apos;s disease is a repetitive stress injury that causes pain at the base of the thumb.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Arthritis&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoarthritis.&lt;/strong&gt; In general, osteoarthritis in the wrist is uncommon, usually occurring only in people who have injured that wrist in the past. Osteoarthritis is caused by wear and tear on the cartilage that cushions the ends of your bones. Pain that occurs at the base of the thumb may be caused by osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatoid arthritis.&lt;/strong&gt; A disorder in which the body&apos;s immune system attacks its own tissues, rheumatoid arthritis is common in the wrist. If one wrist is affected, the other one usually is, too.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other diseases and conditions&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carpal tunnel syndrome.&lt;/strong&gt; Carpal tunnel syndrome develops when there&apos;s increased pressure on the median nerve as it passes through the carpal tunnel, a passageway in the palm side of your wrist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ganglion cysts.&lt;/strong&gt; These soft tissue cysts occur most often on the top of your wrist opposite your palm. Smaller ganglion cysts seem to cause more pain than do larger ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kienbock&apos;s disease.&lt;/strong&gt; This disorder typically affects young adults and involves the progressive collapse of one of the small bones in the wrist. Kienbock&apos;s disease occurs when the blood supply to this bone is compromised.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing carpal bones 
+" Caption="Your wrist is made up of eight small bones (carpal bones) plus two long bones in your forearm &amp;mdash; the radius and the ulna. The most commonly injured carpal bone is the scaphoid bone, located near the base of your thumb. 
+" Height="60" Title="Carpal bones" URI="/images/image_popup/thumbs/r7_carpalbonesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing carpal bones 
+" Caption="Your wrist is made up of eight small bones (carpal bones) plus two long bones in your forearm &amp;mdash; the radius and the ulna. The most commonly injured carpal bone is the scaphoid bone, located near the base of your thumb. 
+" Height="277" Title="Carpal bones" URI="/images/image_popup/r7_carpalbones.jpg" Width="400" />
+				<HTML>
+					Your wrist is made up of eight small bones (carpal bones) plus two long bones in your forearm &amp;mdash; the radius and the ulna. The most commonly injured carpal bone is the scaphoid bone, located near ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wrist pain can happen to anyone &amp;mdash; whether you&apos;re very sedentary, very active or somewhere in between. But your risk may be increased by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sports participation.&lt;/strong&gt; Wrist injuries are common in many sports, including bowling, golf, gymnastics, snowboarding and tennis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repetitive work.&lt;/strong&gt; Almost any activity that involves your hands and wrists &amp;mdash; even knitting and cutting hair &amp;mdash; if performed forcefully enough and often enough can lead to disabling wrist pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases and conditions.&lt;/strong&gt; Your risk of developing wrist pain is increased if you have diabetes, leukemia, scleroderma, lupus or an underactive thyroid gland.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a doctor who specializes in joint disorders (rheumatologist), sports medicine or even an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Do they seem to be connected to a recent injury?&lt;/li&gt;
+	&lt;li&gt;Does any particular wrist motion trigger your pain?&lt;/li&gt;
+	&lt;li&gt;Is there any numbness or tingling in your hand?&lt;/li&gt;
+	&lt;li&gt;Are you right-handed or left-handed?&lt;/li&gt;
+	&lt;li&gt;What is your occupation? Does it require a lot of wrist motion?&lt;/li&gt;
+	&lt;li&gt;Do you participate in any sports or hobbies that put stress on your wrist?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Check your wrist for points of tenderness and swelling&lt;/li&gt;
+	&lt;li&gt;Ask you to move your wrist to see if your range of motion has been decreased&lt;/li&gt;
+	&lt;li&gt;Assess your grip strength and forearm strength&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, your doctor may suggest imaging tests, arthroscopy or nerve tests to help pinpoint the cause of your wrist pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Using a small amount of radiation, simple X-rays can reveal bone fractures, as well as evidence of osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; CT scans can provide more-detailed views of the bones in your wrist. A CT scan takes X-rays from several directions and then combines them to make a two-dimensional image.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; In a bone scan, a small amount of radioactive material is injected into your bloodstream. This makes injured parts of your bones brighter on the resulting scan images.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRIs use radio waves and a strong magnetic field to produce detailed images of your bones and soft tissues. For a wrist MRI, you may be able to insert your arm into a smaller device rather than have your entire body slide into a full-size MRI machine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Arthroscopy&lt;br /&gt;
+&lt;/strong&gt;If imaging test results are inconclusive, your doctor may perform an arthroscopy, a procedure in which a pencil-sized instrument is inserted into your wrist via a small incision in your skin. The instrument contains a light and a tiny camera. Images are projected onto a television monitor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve tests&lt;br /&gt;
+&lt;/strong&gt;If your doctor thinks you have carpal tunnel syndrome, he or she might order an electromyogram (EMG). This test measures the tiny electrical discharges produced in your muscles. A needle-thin electrode is inserted into the muscle, and its electrical activity is recorded when the muscle is at rest and when it&apos;s contracted. Nerve conduction tests also are performed as part of an EMG to assess if the electrical impulses are slowed in the region of the carpal tunnel.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for wrist problems vary greatly, depending on the type, location and severity of the injury, as well as on your age and overall health. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Over-the-counter pain relievers, such as ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others), may help reduce wrist pain. Stronger pain relievers are available by prescription.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;If you have a broken bone in your wrist, the pieces will need to be aligned so that it can heal properly. A cast or splint can help hold the bone fragments together while they heal. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have sprained or strained your wrist, you may need to wear a splint to protect the injured tendon or ligament while it heals. Splints are particularly helpful with overuse injuries caused by repetitive motions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;In some cases, surgery may be necessary. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Severely broken bones.&lt;/strong&gt; A surgeon may connect the fragments of bone together with metal hardware.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carpal tunnel syndrome.&lt;/strong&gt; If your symptoms are severe, you may need to have the tunnel cut open to relieve the pressure on the nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tendon or ligament repair.&lt;/strong&gt; Surgery is sometimes necessary to repair tendons or ligaments that have ruptured.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Not every cause of wrist pain requires medical treatment. For a minor wrist injury, you may want to try putting ice on it and wrapping your wrist with an elastic bandage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s impossible to prevent the unforeseen events that often cause wrist injuries, but these basic tips may offer some protection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Build bone strength.&lt;/strong&gt; Getting adequate amounts of calcium &amp;mdash; at least 1,200 milligrams a day for women over age 50, or 1,000 milligrams a day for most adults &amp;mdash; can help prevent fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent falls.&lt;/strong&gt; Falling forward onto an outstretched hand is the main cause of most wrist injuries. To help prevent falls, wear sensible shoes. Remove home hazards. Light up your living space. And install grab bars in your bathroom and handrails on your stairways, if necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use protective gear for athletic activities.&lt;/strong&gt; Wear wrist guards for high-risk activities, such as football, snowboarding and rollerblading.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to ergonomics.&lt;/strong&gt; If you spend long periods at a keyboard, take regular breaks. When you type, keep your wrist in a relaxed, neutral position. An ergonomic keyboard and foam or gel wrist support may help.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wrist pain
+	</Title>
+	<Abstract>
+		Wrist pain &amp;mdash; Comprehensive overview covers symptoms, causes, treatments for this common problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01460" LinkType="Internal" ObjectID="7DEADDB7-9346-1B83-C3BCBD0CAE439BA3" Title="Office ergonomics: Your how-to guide" Url="http://www.mayoclinic.com/health/office-ergonomics/MY01460" />
+	</RelatedLinksBox>
+</Disease>

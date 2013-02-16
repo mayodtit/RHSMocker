@@ -1,0 +1,410 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00429
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pulmonary-embolism/DS00429
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-19
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2198" Title="Pulmonary embolism" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			17FC3D0E-D6C6-4993-8B2E4BAC64DEF78A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pulmonary embolism
+			</MetaKeyword>
+			<MetaKeyword>
+				embolism
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary embolism symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary embolism treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				venous thromboembolism
+			</MetaKeyword>
+			<MetaKeyword>
+				VTE
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot
+			</MetaKeyword>
+			<MetaKeyword>
+				clots
+			</MetaKeyword>
+			<MetaKeyword>
+				deep vein thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				DVT
+			</MetaKeyword>
+			<MetaKeyword>
+				compression stockings
+			</MetaKeyword>
+			<MetaKeyword>
+				pneumatic compression
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary embolism is blockage in one or more arteries in your lungs. In most cases, pulmonary embolism is caused by blood clots that travel to your lungs from another part of your body &amp;mdash; most commonly, your legs. Pulmonary embolism is a complication of deep vein thrombosis (DVT), which is clotting in the veins farthest from the surface of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary embolism can occur in otherwise healthy people. Common signs and symptoms include sudden and unexplained shortness of breath, chest pain and a cough that may bring up blood-tinged sputum. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary embolism can be life-threatening, but immediate treatment with anti-clotting medications can greatly reduce the risk of death. Taking measures to prevent blood clots in your legs also can help protect you against pulmonary embolism. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pulmonary embolism 
+" Caption="Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+" Height="60" Title="Pulmonary embolism" URI="/images/image_popup/thumbs/mcdc7_pulmonaryembolismthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pulmonary embolism 
+" Caption="Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+" Height="296" Title="Pulmonary embolism" URI="/images/image_popup/mcdc7_pulmonaryembolism.jpg" Width="400" />
+				<HTML>
+					Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary embolism symptoms can vary greatly, depending on how much of your lung is involved, the size of the clot and your overall health &amp;mdash; especially the presence or absence of underlying lung disease or heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shortness of breath.&lt;/strong&gt; This symptom typically appears suddenly, and occurs whether you&apos;re active or at rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest pain.&lt;/strong&gt; You may feel like you&apos;re having a heart attack. The pain may become worse when you breathe deeply, cough, eat, bend or stoop. The pain will get worse with exertion but won&apos;t go away when you rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cough.&lt;/strong&gt; The cough may produce bloody or blood-streaked sputum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms that can occur with pulmonary embolism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Leg swelling, usually in only one leg&lt;/li&gt;
+	&lt;li&gt;Clammy or bluish-colored skin&lt;/li&gt;
+	&lt;li&gt;Excessive sweating&lt;/li&gt;
+	&lt;li&gt;Rapid or irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Weak pulse&lt;/li&gt;
+	&lt;li&gt;Lightheadedness or fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Pulmonary embolism can be life-threatening. Seek immediate medical attention if you experience unexplained shortness of breath, chest pain or a cough that produces bloody sputum. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary embolism occurs when a clump of material, most often a blood clot, gets wedged into an artery in your lungs. These blood clots most commonly originate in the deep veins of your legs, but they can also come from other parts of your body. This condition is known as deep vein thrombosis (DVT). Not all DVT blood clots result in pulmonary embolism. 
+&lt;/p&gt;
+&lt;p&gt;
+Occasionally, other substances can form blockages within the blood vessels inside your lungs. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fat from within the marrow of a broken bone&lt;/li&gt;
+	&lt;li&gt;Part of a tumor&lt;/li&gt;
+	&lt;li&gt;Air bubbles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s rare to experience a solitary pulmonary embolism. In most cases, multiple clots are involved. The lung tissue served by each blocked artery is robbed of fuel and may die. This makes it more difficult for your lungs to provide oxygen to the rest of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Because pulmonary embolism almost always occurs in conjunction with deep vein thrombosis, most doctors refer to the two conditions together as venous thromboembolism (VTE). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop blood clots leading to pulmonary embolism, certain factors can increase your risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prolonged immobility&lt;/strong&gt;&lt;br /&gt;
+Blood clots are more likely to form in your legs during periods of inactivity, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bed rest.&lt;/strong&gt; Being confined to bed for an extended period after surgery, a heart attack, leg fracture or any serious illness makes you far more vulnerable to blood clots forming in your legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long journeys.&lt;/strong&gt; Sitting in a cramped position during lengthy plane or car trips slows the current of blood flow in your veins, which contributes to the formation of clots in your legs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Age&lt;/strong&gt;&lt;br /&gt;
+Older people are at higher risk of developing clots. Factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Valve malfunction.&lt;/strong&gt; Tiny valves located every few inches within your larger veins keep your blood moving in the right direction. However, these valves tend to degrade with age. When they don&apos;t work properly, blood pools and sometimes forms clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Older people are at higher risk of dehydration, which may thicken the blood and make clots more likely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical problems.&lt;/strong&gt; Older people are also more likely to have medical problems that expose them to independent risk factors for clots &amp;mdash; such as joint replacement surgery, cancer or heart disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It is rare for children to develop DVT or VTE. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Family history&lt;/strong&gt;&lt;br /&gt;
+You&apos;re at higher risk of experiencing future clots if you or any of your family members have had blood clots in the past. This may be due to inherited disorders of clotting that can be measured in specialty clotting labs. Be sure that your doctor knows about your family history so that appropriate tests can be done to check for an inherited clotting disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Surgery is one of the leading causes of problem blood clots, especially joint replacements of the hip and knee. During the preparation of the bones for the artificial joints, tissue debris may enter the bloodstream and help cause a clot. Simply being immobile during any type of surgery can lead to the formation of clots. The risk increases with the length of time you are under general anesthesia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical conditions&lt;/strong&gt;&lt;br /&gt;
+You may be more likely to develop blood clots with these conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart disease.&lt;/strong&gt; High blood pressure and cardiovascular disease make clot formation more likely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; The weight of the baby pressing on veins in the pelvis can slow blood return from the legs. Clots are more likely to form when blood slows or pools.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Certain cancers &amp;mdash; especially pancreatic, ovarian and lung cancers &amp;mdash; can increase levels of substances that help blood clot, and chemotherapy further increases the risk. Women with a history of breast cancer who are taking tamoxifen or raloxifene also are at higher risk of blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous blood clots.&lt;/strong&gt; If you&apos;ve experienced DVT or VTE in the past &amp;mdash; for any reason &amp;mdash; you&apos;re at increased risk of developing the condition again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle&lt;/strong&gt;&lt;br /&gt;
+Certain lifestyle factors increase your risk of blood clots, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; For reasons that aren&apos;t well understood, tobacco use predisposes some people to blood clot formation, especially when combined with other risk factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being overweight.&lt;/strong&gt; Excess weight increases the risk of blood clots &amp;mdash; particularly in women who smoke or have high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supplemental estrogen.&lt;/strong&gt; The estrogen in birth control pills and in hormone replacement therapy can increase clotting factors in your blood, especially if you smoke or are overweight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing blood clot in leg
+" Caption="The blood clots that cause pulmonary embolism usually originate in the deep veins of the leg.
+" Height="60" Title="Blood clot in leg" URI="/images/image_popup/thumbs/mcdc7_legclotthu.jpg" Width="60" />
+				<Image Alt="Illustration showing blood clot in leg
+" Caption="The blood clots that cause pulmonary embolism usually originate in the deep veins of the leg.
+" Height="400" Title="Blood clot in leg" URI="/images/image_popup/mcdc7_legclot.jpg" Width="400" />
+				<HTML>
+					The blood clots that cause pulmonary embolism usually originate in the deep veins of the leg.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of pulmonary embolism are initially evaluated in emergency departments or urgent care centers. If you think you might have a pulmonary embolism, you should seek immediate medical attention by calling 911 or emergency medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about your past medical problems &amp;mdash; especially any recent surgeries or illnesses that kept you bedridden for several days&lt;/li&gt;
+	&lt;li&gt;Details on any recent journeys that involved long car or plane rides, even if it was more than a week or two ago&lt;/li&gt;
+	&lt;li&gt;Medications you take, including over-the-counter drugs and alternative therapies&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of parents or siblings&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For pulmonary embolism, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;I had similar, milder symptoms a year ago that gradually disappeared. Could my current symptoms be related to that?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery?&lt;/li&gt;
+	&lt;li&gt;How do I know my symptoms aren&apos;t due to coronary artery disease?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How best can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my physical activity or travel plans?&lt;/li&gt;
+	&lt;li&gt;What can I do to help prevent future blood clots?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the treatment approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+During the physical exam, your doctor might inspect your legs for evidence of a deep vein clot &amp;mdash; an area that&apos;s tender, red and warm. However, not finding evidence of a clot doesn&apos;t necessarily mean you don&apos;t have DVT. Your doctor will also listen to your heart and lungs, and will check your blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may ask you a number of questions to help diagnose your condition, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been inactive lately, sitting or lying down for long periods?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do you feel like you have shortness of breath or sharp pain with breathing?&lt;/li&gt;
+	&lt;li&gt;Do you have any chest tenderness or other chest symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary embolism can be difficult to diagnose, especially in people who have underlying heart or lung disease. For that reason, your doctor will likely order a series of tests to help find the cause of your symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; This noninvasive test shows images of your heart and lungs on film. Although X-rays can&apos;t diagnose pulmonary embolism and may even appear normal when pulmonary embolism exists, they can rule out conditions that mimic the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung scan.&lt;/strong&gt; This test, called a ventilation-perfusion scan (V/Q scan), uses small amounts of radioactive material to study airflow (ventilation) and blood flow (perfusion) in your lungs. First, you inhale a small amount of radioactive material while a special camera designed to detect radioactive substances records air movement in your lungs. Then a small amount of radioactive material is injected into a vein in your arm. Images taken after the injection show whether you have a normal or diminished flow of blood to your lungs. This test is less reliable if you&apos;re a smoker.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spiral (helical) computerized tomography (CT) scan.&lt;/strong&gt; Regular CT scans take X-rays from many different angles and then combine them to form images showing 2-D &quot;slices&quot; of your internal structures. In a spiral or helical CT scan, the scanner rotates around your body in a spiral &amp;mdash; like the stripe on a candy cane &amp;mdash; to create 3-D images. This type of CT can detect abnormalities with much greater precision, and it&apos;s also much faster than are conventional CT scans. For a possible pulmonary embolism, often an intravenous injection of contrast material is given and the spiral CT is done immediately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary angiogram.&lt;/strong&gt; During this test, a flexible tube (catheter) is inserted into a large vein &amp;mdash; usually in your groin &amp;mdash; and threaded through your heart&apos;s right atrium and ventricle and then into the pulmonary arteries. A special dye is injected into the catheter, and X-rays are taken as the dye travels along the arteries in your lungs. Pulmonary angiogiography also can measure the pressure in the right side of your heart. It would be unusual to have normal readings in the presence of pulmonary embolism. This test requires a high degree of skill to administer and carries potentially serious risks, so it&apos;s usually performed when other tests fail to provide a definitive diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;D-dimer blood test.&lt;/strong&gt; This test detects the presence of a protein produced when a blood clot breaks down somewhere in the body. A negative result is a good indicator that a clot is not present. A positive result suggests that clots may be present, but more testing is needed to confirm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; A noninvasive sonar test known as duplex venous ultrasonography (sometimes called duplex scan or compression ultrasonography) uses high-frequency sound waves to check for blood clots in your thigh veins. In this test, your doctor uses a wand-shaped device called a transducer to direct the sound waves to the veins being tested. These waves are then reflected back to the transducer and translated into a moving image by a computer. An echocardiogram of the heart can estimate the blood pressure in the right side of the heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI scans use radio waves and a powerful magnetic field to produce detailed images of internal structures. Because MRI is expensive, it&apos;s usually reserved for pregnant women, to minimize radiation exposure to the developing baby, and people whose kidneys may be harmed by contrast dyes used in CT and pulmonary angiogram.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prompt treatment of pulmonary embolism is essential to prevent serious complications or death. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications to treat pulmonary embolism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anticoagulants.&lt;/strong&gt; Heparin works quickly and is usually delivered with a needle. Warfarin (Coumadin) and rivaroxaban (Xarelto) come in pill form. These drugs prevent new clots from forming, but it takes a few days before warfarin and rivaroxaban begin to work. Risks include bleeding gums and easy bruising.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clot dissolvers (thrombolytics).&lt;/strong&gt; While clots usually dissolve on their own, certain medications can dissolve clots quickly. Because these clot-busting drugs can cause sudden and severe bleeding, they usually are reserved for life-threatening situations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt;&lt;br /&gt;
+In some cases, your doctor might recommend a procedure to treat pulmonary embolism, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clot removal.&lt;/strong&gt; If you have a very large clot in your lung and you&apos;re in shock, your doctor may thread a thin flexible tube (catheter) through your blood vessels and suction out the clot. It can be difficult to remove a clot this way, and this procedure isn&apos;t always successful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vein filter.&lt;/strong&gt; A catheter can also be used to place a filter in the main vein &amp;mdash; called the inferior vena cava &amp;mdash; that leads from your legs to the right side of your heart. This filter catches and stops blood clots moving through the blood stream toward your lungs. Filter insertion is typically reserved for people who can&apos;t take anticoagulant drugs or when anticoagulant drugs don&apos;t work well enough.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If you&apos;re in shock and thrombolytic medication isn&apos;t working quickly enough, your doctor might attempt emergency surgery. This happens infrequently, and the goal is to remove as many blood clots as possible, especially if there&apos;s a large clot in your main (central) pulmonary artery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hospital care often involves prevention of DVT. There are also precautions you can take yourself. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive steps in the hospital&lt;/strong&gt;&lt;br /&gt;
+Clot prevention strategies in the hospital may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anticoagulant therapy.&lt;/strong&gt; An anticoagulant, such as a heparin injection, is given to anyone at risk of clots before and after an operation &amp;mdash; as well as to people admitted to the hospital with a heart attack, stroke, complications of cancer or burns. You might take oral warfarin for a few days before major elective surgery to reduce your risk of clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Graduated compression stockings.&lt;/strong&gt; Compression stockings steadily squeeze your legs, helping your veins and leg muscles move blood more efficiently. They offer a safe, simple and inexpensive way to keep blood from stagnating after general surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of pneumatic compression.&lt;/strong&gt; This treatment uses thigh-high or calf-high cuffs that automatically inflate with air every few minutes to massage and squeeze the veins in your legs and improve blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt; Moving as soon as possible after surgery can help prevent pulmonary embolism and speed your overall recovery. This is one of the main reasons your nurse may push you to get up and walk as soon as one day after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive steps while traveling&lt;/strong&gt;&lt;br /&gt;
+Sitting during a long flight or automobile ride increases your risk of developing blood clots in the veins of your legs. To help prevent a blood clot from forming: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take a walk.&lt;/strong&gt; Move around the airplane cabin once an hour or so. If you&apos;re driving, stop every hour and walk around the car a couple of times. Do a few deep knee bends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise while you sit.&lt;/strong&gt; Flex, extend and rotate your ankles or press your feet against the seat in front of you, or try rising up and down on your toes. And don&apos;t sit with your legs crossed for long periods of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear support stockings.&lt;/strong&gt; The firm, even pressure these stockings exert helps keep blood from pooling in deep veins. You can use a device called a stocking butler to help you put on support stockings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Administer a dose of heparin,&lt;/strong&gt; if recommended by your doctor. If you have a history of DVT or VTE, talk with your doctor before a long trip. He or she may tell you to self-inject a long-acting dose of heparin just before traveling. Your doctor will also tell you whether you need to repeat the dose for your return trip.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Water is the best liquid for preventing dehydration, which can contribute to the development of blood clots. Avoid alcohol and caffeine, which contribute to fluid loss.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Pulmonary embolism
+	</Title>
+	<Abstract>
+		Pulmonary embolism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of condition related to blood clots.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="Answer" DocID="AN00455" LinkType="Internal" ObjectID="56E57F1F-14D3-4F5D-99755C0AC15D4BCE" Title="Warfarin diet: What foods should I avoid?" Url="http://www.mayoclinic.com/health/warfarin/AN00455" />
+	</RelatedLinksBox>
+</Disease>

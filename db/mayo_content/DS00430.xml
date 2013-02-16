@@ -1,0 +1,416 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00430
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-27
+		</UpdateDate>
+		<PublicationDate>
+			2002-03-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="4226" Title="Pulmonary hypertension" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			502E2D0B-7233-4C92-8FC84A836BF3811D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pulmonary hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				primary pulmonary hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary pulmonary hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic pulmonary hypertension
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary hypertension is a type of high blood pressure that affects the arteries in the lungs and the right side of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary hypertension begins when tiny arteries in your lungs, called pulmonary arteries, and capillaries become narrowed, blocked or destroyed. This makes it harder for blood to flow through your lungs, and raises pressure within your lungs&apos; arteries. As the pressure builds, your heart&apos;s lower right chamber (right ventricle) must work harder to pump blood through your lungs, eventually causing your heart muscle to weaken and eventually fail. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary hypertension is a serious illness that becomes progressively worse and is sometimes fatal. Although pulmonary hypertension isn&apos;t curable, treatments are available that can help lessen symptoms and improve your quality of life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of pulmonary hypertension in its early stages may not be noticeable for months or even years. As the disease progresses, symptoms become worse. 
+&lt;/p&gt;
+&lt;p&gt;
+Pulmonary hypertension symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath (dyspnea), initially while exercising and eventually while at rest&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dizziness or fainting spells (syncope)&lt;/li&gt;
+	&lt;li&gt;Chest pressure or pain&lt;/li&gt;
+	&lt;li&gt;Swelling (edema) in your ankles, legs and eventually in your abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Bluish color to your lips and skin (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Racing pulse or heart palpitations&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your heart has two upper and two lower chambers. Each time blood passes through your heart, the lower right chamber (right ventricle) pumps blood to your lungs through a large blood vessel (pulmonary artery). In your lungs, the blood releases carbon dioxide and picks up oxygen. The oxygen-rich blood then flows through blood vessels in your lungs (pulmonary arteries, capillaries and veins) to the left side of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Ordinarily, the blood flows easily through the vessels in your lungs, so blood pressure is usually much lower in your lungs. With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes cause extra tissue to form, eventually narrowing or completely blocking the blood vessels, making the arteries stiff and narrow. This makes it harder for blood to flow, raising the blood pressure in the pulmonary arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Idiopathic pulmonary hypertension&lt;/strong&gt;&lt;br /&gt;
+When an underlying cause for high blood pressure in the lungs can&apos;t be found, the condition is called idiopathic pulmonary hypertension (IPH). 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with IPH may have a gene that&apos;s a risk factor for developing pulmonary hypertension. But in most people with idiopathic pulmonary hypertension, there is no recognized cause of their pulmonary hypertension. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary pulmonary hypertension&lt;/strong&gt;&lt;br /&gt;
+Pulmonary hypertension that&apos;s caused by another medical problem is called secondary pulmonary hypertension. This type of pulmonary hypertension is more common than is idiopathic pulmonary hypertension. Causes of secondary pulmonary hypertension include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots in the lungs (pulmonary emboli)&lt;/li&gt;
+	&lt;li&gt;Chronic obstructive pulmonary diseases, such as emphysema&lt;/li&gt;
+	&lt;li&gt;Connective tissue disorders, such as scleroderma or lupus&lt;/li&gt;
+	&lt;li&gt;Sleep apnea and other sleep disorders&lt;/li&gt;
+	&lt;li&gt;Heart abnormalities you&apos;re born with (congenital heart defects)&lt;/li&gt;
+	&lt;li&gt;Sickle cell anemia&lt;/li&gt;
+	&lt;li&gt;Chronic liver disease (cirrhosis)&lt;/li&gt;
+	&lt;li&gt;AIDS&lt;/li&gt;
+	&lt;li&gt;Lung diseases such as pulmonary fibrosis, a condition that causes scarring in the tissue between the lungs&apos; air sacs (interstitium)&lt;/li&gt;
+	&lt;li&gt;Left-sided heart failure &lt;/li&gt;
+	&lt;li&gt;Living at altitudes higher than 8,000 feet (2,438 meters)&lt;/li&gt;
+	&lt;li&gt;Climbing or hiking to altitudes higher than 8,000 feet (2,438 meters) without acclimating first&lt;/li&gt;
+	&lt;li&gt;Use of certain stimulant drugs, such as cocaine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Eisenmenger syndrome and pulmonary hypertension&lt;/strong&gt;&lt;br /&gt;
+Eisenmenger syndrome, a type of congenital heart defect, causes pulmonary hypertension. It is most commonly caused by a large hole in your heart between the two lower heart chambers (ventricles), called a ventricular septal defect (VSD). This hole in your heart causes blood to circulate abnormally in your heart. Oxygen-carrying blood (red blood) mixes with oxygen-poor blood (blue blood). The blood then returns to your lungs instead of going to the rest of your body, increasing the pressure in the pulmonary arteries and causing pulmonary hypertension. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing blood flow in lungs and normal and blocked pulmonary arteries" Caption="When the tiny arteries in your lungs become narrow or blocked, or destroyed as in emphysema, there&apos;s increased resistance to blood flow through the lungs. This, in turn, causes increased pressure within these arteries, a condition known as pulmonary hypertension." Height="60" Title="Pulmonary hypertension" URI="/images/image_popup/thumbs/r7_pulmonaryhypertensthu.jpg" Width="60" />
+				<Image Alt="Illustration showing blood flow in lungs and normal and blocked pulmonary arteries" Caption="When the tiny arteries in your lungs become narrow or blocked, or destroyed as in emphysema, there&apos;s increased resistance to blood flow through the lungs. This, in turn, causes increased pressure within these arteries, a condition known as pulmonary hypertension." Height="302" Title="Pulmonary hypertension" URI="/images/image_popup/r7_pulmonaryhypertens.jpg" Width="400" />
+				<HTML>
+					When the tiny arteries in your lungs become narrow or blocked, or destroyed as in emphysema, there&apos;s increased resistance to blood flow through the lungs. This, in turn, causes increased pressure ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop either type of pulmonary hypertension, older adults are more likely to have secondary pulmonary hypertension, and young people are more likely to have idiopathic pulmonary hypertension. Idiopathic pulmonary hypertension is also more common in women than it is in men. 
+&lt;/p&gt;
+&lt;p&gt;
+Another risk factor for pulmonary hypertension is a family history of the disease. Some genes could be linked to idiopathic pulmonary hypertension. These genes might cause an overgrowth of cells in the small arteries of your lungs, making them narrower. 
+&lt;/p&gt;
+&lt;p&gt;
+If one of your family members develops idiopathic pulmonary hypertension and tests positive for a gene mutation that can cause pulmonary hypertension, your doctor or genetic counselor may recommend that you or your family members be tested for the mutation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary hypertension can lead to a number of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Right-sided heart failure (cor pulmonale).&lt;/strong&gt; In cor pulmonale, your heart&apos;s right ventricle becomes enlarged and has to pump harder than usual to move blood through narrowed or blocked pulmonary arteries. At first, the heart tries to compensate by thickening its walls and expanding the chamber of the right ventricle to increase the amount of blood it can hold. But this thickening and enlarging works only temporarily, and eventually the right ventricle fails from the extra strain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Clots help stop bleeding after you&apos;ve been injured. But sometimes clots form where they&apos;re not needed. A number of small clots or just a few large ones dislodge from these veins and travel to the lungs, leading to a form of pulmonary hypertension that is reversible with time and treatment. Having pulmonary hypertension makes it more likely you&apos;ll develop clots in the small arteries in your lungs, which is dangerous if you already have narrowed or blocked blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrhythmia.&lt;/strong&gt; Irregular heartbeats (arrhythmias) from the upper or lower chambers of the heart are complications of pulmonary hypertension. These can lead to palpitations, dizziness or fainting and can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Pulmonary hypertension can lead to bleeding into the lungs and coughing up blood (hemoptysis). This is another potentially fatal complication.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have pulmonary hypertension or are worried about your pulmonary hypertension risk because of a family history or other underlying conditions, make an appointment with your family doctor. If pulmonary hypertension is found early, your treatment may be more effective. 
+&lt;/p&gt;
+&lt;p&gt;
+While shortness of breath is one of the first symptoms of pulmonary hypertension, this symptom is also common with many other diseases, such as asthma. But if you&apos;re constantly short of breath, rather than only occasionally, as is usually the case with asthma, make an appointment to see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as fill out forms or restrict your diet. For some imaging tests, for example, you may need to fast for a period of time beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to pulmonary hypertension. Try to recall when they began. Be specific, such as days, weeks, months, and avoid vague terms such as &quot;some time ago.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of pulmonary hypertension, lung disease, heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking. Also, be sure to tell your doctor if you&apos;ve recently stopped taking any medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For pulmonary hypertension, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for changes in my condition?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+It&apos;s never too early to make healthy lifestyle changes, such as quitting smoking, cutting down on salt and eating healthy foods. These changes can help prevent pulmonary hypertension from worsening. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary hypertension is hard to diagnose early because it&apos;s not often detected in a routine physical exam. Even when the disease is more advanced, its signs and symptoms are similar to those of other heart and lung conditions. Your doctor may do one or more tests to rule out other possible reasons for your condition. The first tests you&apos;ll have to diagnose pulmonary hypertension include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may order blood tests to check for certain substances in your blood that may show you have pulmonary hypertension or its complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; This test may be able to check for pulmonary hypertension if your pulmonary arteries or the right ventricle of your heart is enlarged. The X-ray will appear normal in about one-third of people who have pulmonary hypertension.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Doppler echocardiogram.&lt;/strong&gt; Your doctor may first suspect you have pulmonary hypertension based on the results of this test. This noninvasive test uses sound waves that allow your doctor to see your heart without making an incision. During the procedure, a small, plastic instrument called a transducer is placed on your chest. It collects reflected sound waves (echoes) from your heart and transmits them to a machine that uses the sound wave patterns to compose images of your beating heart on a monitor.
+	&lt;/p&gt;
+	&lt;p&gt;
+	These images show how well your heart is functioning, and recorded pictures allow your doctor to measure the size and thickness of your heart muscle. Sometimes your doctor will recommend an exercise echocardiogram to help determine how well your heart works under stress. In that case, you&apos;ll have an echocardiogram before exercising on a stationary bike or treadmill and another test immediately afterward.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transesophageal echocardiogram.&lt;/strong&gt; If it&apos;s difficult to get a clear picture of your heart and lungs with a standard echocardiogram, your doctor may recommend a transesophageal echocardiogram. In this procedure, a flexible tube containing a transducer is guided down your throat and into your esophagus after using a numbing spray in the back of your throat. From here, the transducer can get detailed images of your heart.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Right heart catheterization.&lt;/strong&gt; After you&apos;ve had an echocardiogram, if your doctor thinks you have pulmonary hypertension, you&apos;ll likely have a right heart catheterization. This test is often the most reliable way of diagnosing pulmonary hypertension. During the procedure, a cardiologist places a thin, flexible tube (catheter) into a vein in your neck or groin. The catheter is then threaded into your right ventricle and pulmonary artery. Right heart catheterization allows your doctor to directly measure the pressure in the main pulmonary arteries and right ventricle. It&apos;s also used to see what effect different medications may have on your pulmonary hypertension.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Right heart catheterization is usually performed during local anesthesia and sedation in a hospital setting. You often can go home soon after the procedure. You&apos;ll need someone to drive you home after the test. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may order additional tests to check the condition of your lungs and pulmonary arteries, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary function test.&lt;/strong&gt; This noninvasive test measures how much air your lungs can hold, and the airflow in and out of your lungs. During the test, you&apos;ll blow into a simple instrument called a spirometer.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Perfusion lung scan.&lt;/strong&gt; This test uses small amounts of radioactive substances (radioisotopes) to study blood flow (perfusion) in your lungs. The radioisotopes are injected into a vein in your arm. Immediately afterward, a special camera (gamma camera) takes pictures of blood flow in your lungs&apos; blood vessels. A lung scan can then be used to determine whether blood clots are causing symptoms of pulmonary hypertension.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A perfusion lung scan is usually performed with another test, known as a ventilation scan. In this test, you inhale a small amount of radioactive substance while a gamma camera records the movement of air into your lungs. The two-test combination is known as a ventilation-perfusion (V/Q) scan.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan allows your doctor to see your organs in 2-D &quot;slices.&quot; In this test, you&apos;ll lie in a machine that takes images of your lungs so that your doctors can see a cross-section of them. You might also be given a medication that makes the images of your lungs show up more clearly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This test, which uses no X-rays, is sometimes used to get images of the blood vessels in your lungs. A computer creates tissue &quot;slices&quot; from data generated by a powerful magnetic field and radio waves. An MRI can&apos;t, however, measure artery pressure &amp;mdash; a procedure that&apos;s necessary to check the effectiveness of any medications you&apos;re taking to control IPH.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open-lung biopsy.&lt;/strong&gt; In rare situations your doctor may recommend an open-lung biopsy. An open-lung biopsy is a type of surgery in which a small sample of tissue is removed from your lungs under general anesthesia to check for a possible secondary cause of pulmonary hypertension. It would be done only to see if certain treatments might be effective for you, or to allow you to discontinue some medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic tests&lt;/strong&gt;&lt;br /&gt;
+If a family member has had pulmonary hypertension, your doctor may screen you for genes that are linked with pulmonary hypertension. If you test positive, your doctor may recommend that other family members be screened for the same genetic mutation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary hypertension classifications&lt;/strong&gt;&lt;br /&gt;
+Once you&apos;ve been diagnosed with pulmonary hypertension, your doctor may classify the disease using guidelines developed by the World Health Organization. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Class I.&lt;/strong&gt; Although you&apos;ve been diagnosed with pulmonary hypertension, you have no symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Class II.&lt;/strong&gt; You don&apos;t have symptoms at rest, but you experience fatigue, shortness of breath or chest pain with normal activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Class III.&lt;/strong&gt; You&apos;re comfortable at rest, but have symptoms when you&apos;re physically active.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Class IV.&lt;/strong&gt; You have symptoms even at rest.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It often takes some time to find the best treatment for pulmonary hypertension. The treatments are often complex and require extensive follow-up care. Your doctor may also need to change your treatment if it&apos;s no longer effective. When pulmonary hypertension is caused by another condition, your doctor will treat the underlying cause whenever possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Blood vessel dilators (vasodilators).&lt;/strong&gt; Vasodilators open narrowed blood vessels. One of the most commonly prescribed vasodilators for pulmonary hypertension is epoprostenol (Flolan). The drawback to epoprostenol is that its effects last only a few minutes. This drug is continuously injected through an intravenous (IV) catheter via a small pump that you wear in a pack on your belt or shoulder. This means that you&apos;ll learn to prepare your own medication mixture, operate the pump and care for the IV catheter. You&apos;ll need comprehensive follow-up care. Potential side effects of epoprostenol include jaw pain, nausea, diarrhea, leg cramps, as well as pain and infection at the IV site.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Another form of the drug, iloprost (Ventavis), avoids many of these problems. Iloprost can be inhaled every three hours through a nebulizer, a machine that vaporizes your medication, making it far more convenient and less painful to use. And because it&apos;s inhaled, it goes directly to the lungs. Side effects associated with iloprost include chest pain &amp;mdash; often accompanied by headache and nausea &amp;mdash; and breathlessness. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endothelin receptor antagonists.&lt;/strong&gt; These medications reverse the effect of endothelin, a substance in the walls of blood vessels that causes them to narrow. One of these medications, bosentan (Tracleer), may improve your energy level and symptoms. The drug isn&apos;t for pregnant women. If you take bosentan, you&apos;ll need monthly liver monitoring, because the drug can damage your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sildenafil and tadalafil.&lt;/strong&gt; Sildenafil (Revatio, Viagra) and tadalafil (Cialis, Adcirca) are sometimes used to treat pulmonary hypertension. These drugs work by opening the blood vessels in the lungs to allow blood to flow through more easily. Side effects include upset stomach, dizziness and vision problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High-dose calcium channel blockers.&lt;/strong&gt; These drugs help relax the muscles in the walls of your blood vessels. They include medications such as amlodipine (Norvasc), diltiazem (Cardizem, Tiazac, others) and nifedipine (Adalat, Procardia). Although calcium channel blockers can be effective, only a small number of people with pulmonary hypertension respond to them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ambrisentan.&lt;/strong&gt; Ambrisentan (Letairis) is another medication that stops the narrowing of your blood vessels. This drug can cause serious liver damage if not taken appropriately, and it shouldn&apos;t be taken by pregnant women. Before taking the drug, tell your doctor about any liver condition you have.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticoagulants.&lt;/strong&gt; Your doctor is likely to prescribe the anticoagulant warfarin (Coumadin, Jantoven) to help prevent the formation of blood clots within the small pulmonary arteries. Because anticoagulants prevent normal blood coagulation, they increase your risk of bleeding complications. Take warfarin exactly as prescribed, because warfarin can cause severe side effects if taken incorrectly. If you&apos;re taking warfarin, your doctor will ask you to have periodic blood tests to check how well the drug is working. Many other drugs, herbal supplements and foods can interact with warfarin, so be sure your doctor knows all of the medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; Commonly known as water pills, these medications help eliminate excess fluid from your body. This reduces the amount of work your heart has to do. They also may be used to limit fluid buildup in your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen.&lt;/strong&gt; Your doctor may suggest that you sometimes breathe pure oxygen, a treatment known as oxygen therapy, to help treat pulmonary hypertension, especially if you live at a high altitude or have sleep apnea. Some people with pulmonary hypertension eventually require constant oxygen therapy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgeries&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial septostomy.&lt;/strong&gt; If medications don&apos;t control your pulmonary hypertension, this open-heart surgery may be an option. In an atrial septostomy, a surgeon will create an opening between the left and right chambers of your heart to relieve the pressure on the right side of your heart. Atrial septostomy can have serious complications, including heart rhythm abnormalities (arrhythmias).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transplantation.&lt;/strong&gt; In some cases, a lung or heart-lung transplant may be an option, especially for younger people who have idiopathic pulmonary hypertension. Major risks of any type of transplantation include rejection of the transplanted organ and serious infection, and you must take immunosuppressant drugs for life to help reduce the chance of rejection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although medical treatment can&apos;t cure pulmonary hypertension, it can lessen symptoms. Lifestyle changes also can help improve your condition. You should: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; Resting can reduce the fatigue that may come from having pulmonary hypertension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay as active as possible.&lt;/strong&gt; Even the mildest forms of activity may be too exhausting for some people with pulmonary hypertension. For others, moderate exercise such as walking may be beneficial, and using oxygen during exercise may be especially helpful. But first, talk to your doctor about specific exercise restrictions. In most cases, it&apos;s recommended that you not lift more than 50 pounds (22.7 kilograms). Your doctor can help you plan an appropriate exercise program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you smoke, the most important thing you can do for your heart and lung health is to stop. If you can&apos;t stop smoking by yourself, ask your doctor to prescribe a treatment plan to help you quit. Also, avoid secondhand smoke if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid becoming pregnant or using birth control pills.&lt;/strong&gt; If you&apos;re a woman of childbearing age, avoid becoming pregnant. Pregnancy can be life-threatening for both you and your baby. Also avoid using birth control pills, which can increase your risk of blood clots. Talk to your doctor about alternative forms of birth control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid traveling to or living at high altitudes.&lt;/strong&gt; High altitudes can worsen the symptoms of pulmonary hypertension. If you live at an altitude of 8,000 feet (2,438 meters) or higher, your doctor may recommend that you move to a lower elevation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid situations that can excessively lower blood pressure.&lt;/strong&gt; These include sitting in a hot tub or sauna or taking long hot baths or showers. These activities lower your blood pressure and cause fainting or even death. You should also avoid activities that cause prolonged straining, such as lifting heavy objects or weights.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to reduce stress.&lt;/strong&gt; These can range from yoga, meditation and biofeedback to warm baths, music or a good book. Try to allow at least 30 minutes a day for an activity you find relaxing. Many people with pulmonary hypertension find that simply reducing stress can greatly improve the quality of their lives.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a nutritious diet and stay at a healthy weight.&lt;/strong&gt; It&apos;s likely your doctor will recommend limiting the amount of salt in your diet to minimize swelling of your body&apos;s tissues (edema). Most experts agree that you should eat no more than 1,500 to 2,400 milligrams of salt a day. Keep in mind that processed foods often are high in salt, so it&apos;s important to check labels carefully.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pulmonary hypertension
+	</Title>
+	<Abstract>
+		Pulmonary hypertension &amp;mdash; Comprehensive overview covers symptoms, risk factors and treatment of this lung condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00218" LinkType="Internal" ObjectID="E0258087-E7FF-0DBD-1285B4E6EDD43AD9" Title="Cardiac catheterization" Url="http://www.mayoclinic.com/health/cardiac-catheterization/MY00218" />
+		<LinkItem ContentType="Answer" DocID="AN01437" LinkType="Internal" ObjectID="CC28AD42-E7FF-0DBD-1E4E2D5F24D1C2E2" Title="Quit smoking, gain weight: Is it inevitable?" Url="http://www.mayoclinic.com/health/quit-smoking/AN01437" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00106" LinkType="Internal" ObjectID="C016ACE8-E7FF-0DBD-1F1C3E530B8ACD1B" Title="Lung transplant" Url="http://www.mayoclinic.com/health/lung-transplant/MY00106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Article" DocID="NU00204" LinkType="Internal" ObjectID="D56B9CBF-9BD4-4FF7-A7EC0D78F3EEFA7B" Title="Whole grains: Hearty options for a healthy diet" Url="http://www.mayoclinic.com/health/whole-grains/NU00204" />
+		<LinkItem ContentType="Article" DocID="HI00061" LinkType="Internal" ObjectID="CB1CED06-E45C-41E1-B860780817DE5EEE" Title="Calcium channel blockers" Url="http://www.mayoclinic.com/health/calcium-channel-blockers/HI00061" />
+		<LinkItem ContentType="Article" DocID="SM00059" LinkType="Internal" ObjectID="BD233A4B-1857-4B41-BA7E31D558FED671" Title="Exercise: When to check with your doctor first" Url="http://www.mayoclinic.com/health/exercise/SM00059" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Disease" DocID="DS01139" LinkType="Internal" ObjectID="F2307212-92C3-1385-45C1D2731A905B7E" Title="Heart palpitations" Url="http://www.mayoclinic.com/health/heart-palpitations/DS01139" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS01035" LinkType="Internal" ObjectID="BD46D6EC-E7FF-0DBD-18BE8F3FD0A9D154" Title="Edema" Url="http://www.mayoclinic.com/health/edema/DS01035" />
+		<LinkItem ContentType="Disease" DocID="DS00916" LinkType="Internal" ObjectID="87E06ADB-E7FF-0DBD-12B87DD57BBF25D9" Title="COPD" Url="http://www.mayoclinic.com/health/copd/DS00916" />
+		<LinkItem ContentType="Disease" DocID="DS00148" LinkType="Internal" ObjectID="46007B8E-E80F-4754-ADF482B2CB33E645" Title="Sleep apnea" Url="http://www.mayoclinic.com/health/sleep-apnea/DS00148" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+		<LinkItem ContentType="Disease" DocID="DS00324" LinkType="Internal" ObjectID="193554B1-F187-461C-9041DDD189B031A6" Title="Sickle cell anemia" Url="http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324" />
+		<LinkItem ContentType="Disease" DocID="DS00429" LinkType="Internal" ObjectID="17FC3D0E-D6C6-4993-8B2E4BAC64DEF78A" Title="Pulmonary embolism" Url="http://www.mayoclinic.com/health/pulmonary-embolism/DS00429" />
+	</RelatedLinksBox>
+</Disease>

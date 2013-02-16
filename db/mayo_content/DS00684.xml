@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00684
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dystonia/DS00684
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-12
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2968" Title="Movement">
+						<Keyword MCVID="2975" Title="Dystonia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C10B3C1E-2A5D-9994-EAEB08838B195094
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dystonia
+			</MetaKeyword>
+			<MetaKeyword>
+				movement disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				wry neck
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In dystonia, your muscles contract involuntarily &amp;mdash; causing uncontrollable repetitive or twisting movements of the affected body part. Your symptoms may be mild or severe, and may interfere with your performance of many day-to-day tasks. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors divide dystonia into categories including generalized, focal, segmental and other less common categories. In focal dystonia, the most common category, one part of your body is affected. Generalized dystonia affects most or all of your body. In segmental dystonia, two or more adjacent areas of your body are affected. Some types of dystonia are inherited. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications can sometimes improve dystonia symptoms, but inconsistently. In some more-severe cases, surgery may be used to disable or regulate certain brain regions or nerves. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dystonia symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Include involuntary muscle contractions that cause repetitive movements or distorted postures&lt;/li&gt;
+	&lt;li&gt;Begin in a single area, such as your foot, hand or neck&lt;/li&gt;
+	&lt;li&gt;May occur during a specific action, such as handwriting&lt;/li&gt;
+	&lt;li&gt;May worsen with stress, fatigue or anxiety&lt;/li&gt;
+	&lt;li&gt;May become more noticeable over time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The impact of dystonia on your quality of life varies depending on the part of your body affected, the type of dystonia and the severity of your muscle contractions. Areas of the body affected may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyelids.&lt;/strong&gt; Rapid blinking or involuntary spasms causing your eyes to close (blepharospasm) can make you functionally blind.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neck.&lt;/strong&gt; In cervical dystonia, contractions cause your head to twist and turn to one side, or pull forward or backward, sometimes causing pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Face, head and neck.&lt;/strong&gt; In craniofacial dystonia, your face, head or neck muscles are affected by contractions. Oromandibular dystonia affects your jaw movement or tongue and may cause slurred speech or difficulty swallowing. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vocal cords.&lt;/strong&gt; Some forms of dystonia affect muscles that control your vocal cords (spasmodic dysphonia), causing a tight or whispering voice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hand and forearm.&lt;/strong&gt; Some types of dystonia only occur while you&apos;re conducting a repetitive activity. In musician&apos;s dystonia, your ability to play a specific instrument may be impaired. In writer&apos;s cramp, your hand and forearm muscles are affected while you&apos;re writing. Dystonia also may occur during other specific tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Because early symptoms of dystonia often are mild, intermittent and linked to a specific activity, some people with dystonia may initially think they&apos;re just imagining a problem. If you or someone you know is experiencing involuntary muscle contractions, a doctor visit may lead to helpful treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t know exactly what causes most cases of dystonia, but a few factors may be involved. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Altered nerve cell communication&lt;br /&gt;
+&lt;/strong&gt;Dystonia may be linked to altered communication between nerve cells located in the basal ganglia &amp;mdash; an area of the brain involved in initiating muscle contractions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic changes&lt;br /&gt;
+&lt;/strong&gt;Dystonia sometimes may be inherited. Researchers also have discovered many genetic changes associated with some inherited forms of dystonia.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other disorders&lt;br /&gt;
+&lt;/strong&gt;Sometimes dystonia may be a symptom of another disorder or condition, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Huntington&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Wilson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Traumatic brain injury&lt;/li&gt;
+	&lt;li&gt;Birth injury&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Brain tumor&lt;/li&gt;
+	&lt;li&gt;Paraneoplastic syndromes&lt;/li&gt;
+	&lt;li&gt;Oxygen deprivation&lt;/li&gt;
+	&lt;li&gt;Infections, such as tuberculosis or encephalitis&lt;/li&gt;
+	&lt;li&gt;Reactions to certain medications&lt;/li&gt;
+	&lt;li&gt;Heavy metal or carbon monoxide poisoning&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the type of dystonia, you may experience complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Permanent physical deformities&lt;/li&gt;
+	&lt;li&gt;Physical disabilities that can affect your ability to perform day-to-day activities or specific tasks&lt;/li&gt;
+	&lt;li&gt;Functional blindness from dystonia that affects your eyelids (blepharospasm)&lt;/li&gt;
+	&lt;li&gt;Positioning of your head to one side or pulled forward or backward&lt;/li&gt;
+	&lt;li&gt;Difficulty with jaw movement, swallowing or speech&lt;/li&gt;
+	&lt;li&gt;Pain and fatigue, due to constant contraction of your muscles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All of these factors may lead to feelings of frustration, depression or anxiety. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in nervous system disorders (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking, along with information on the dose that you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For dystonia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What caused my dystonia to occur?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is dystonia temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Will these treatments keep me from being disabled?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with dystonia?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose your condition, your doctor will review your signs and symptoms and conduct a physical examination.
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be asked to provide your complete medical history, including any family history of dystonia, previous head injury or stroke, or exposure to toxins or drugs.
+&lt;/p&gt;
+&lt;p&gt;
+You may have other tests to determine if underlying conditions are causing your symptoms. Tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood or urine tests.&lt;/strong&gt; These tests may reveal the presence of toxins. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT scan).&lt;/strong&gt; A CT scan uses a series of X-rays to create a detailed, 3-D view of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses powerful radio waves and magnets to create a detailed view of your brain. This test may be conducted to identify tumors, lesions or evidence of a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; This test measures the electrical activity within muscles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dystonia can&apos;t be cured, but doctors can provide you with several treatments to improve some of your symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Botulinum toxin type A.&lt;/strong&gt; Botulinum toxin type A (Botox) injections into specific muscles may reduce or eliminate your muscle contractions and improve your abnormal postures. You&apos;ll need injections about every three months. You may experience mild side effects including neck weakness, dry mouth or voice changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral medications.&lt;/strong&gt; Some forms of early-onset dystonia respond to levodopa and carbidopa (Parcopa, Sinemet) &amp;mdash; a medication combination that increases brain dopamine, a neurotransmitter involved with muscle movement. Tetrabenazine (Xenazine), a drug to block dopamine, also may help some people with dystonia. You may experience side effects including sedation, nervousness, depression or insomnia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other medications, including trihexyphenidyl and benztropine, may improve your symptoms by acting on other neurotransmitters. These medications may cause side effects including memory loss, blurred vision, drowsiness, dry mouth and constipation.
+&lt;/p&gt;
+&lt;p&gt;
+Other medications that act on neurotransmitters, including diazepam (Valium), clonazepam (Klonopin), lorazepam (Ativan), baclofen (Lioresal), may help some forms of dystonia. These medications may cause side effects, such as drowsiness.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Physical therapy or other therapies may help improve your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech therapy.&lt;/strong&gt; If your voice is affected by dystonia, speech therapy may be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensory trick.&lt;/strong&gt; A sensory trick, which involves touching your affected body part, such as your face, may help reduce your contractions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical procedures&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Deep brain stimulation.&lt;/strong&gt; In deep brain stimulation, surgeons implant electrodes into a specific part of your brain. The electrodes are connected to a generator implanted in your chest that sends electrical pulses to your brain and may help control your muscle contractions. Your doctor may adjust your settings as necessary to treat your condition. Your surgery may involve risks, including infections, stroke-like problems and speech difficulties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Surgery rarely may be an option to treat some types of dystonia which haven&apos;t been successfully treated using other therapies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative treatments for dystonia haven&apos;t been well-studied, but some people find that some of these therapies are helpful. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; During a biofeedback session, electronic devices monitor your body&apos;s functions, such as muscle tension, heart rate and blood pressure. You then learn how to control your body responses, which may help reduce muscle tension and stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meditation.&lt;/strong&gt; In meditation, you quietly reflect and focus your mind on an idea, image or sound. Meditation may reduce stress and promote relaxation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; During an acupuncture session, a trained practitioner inserts tiny needles into many specific points on your body, which may help your muscles relax.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; Yoga combines gentle stretching movements with deep breathing and meditation. Yoga may improve your relaxation, muscle strength and flexibility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pilates.&lt;/strong&gt; Pilates strengthens your muscles through gentle, controlled exercises and incorporates a focus on your breathing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with dystonia can be difficult and frustrating. Your body may not always move the way you would like it to move, and you may be uncomfortable in social situations. 
+&lt;/p&gt;
+&lt;p&gt;
+You and your family may find it helpful to talk to a therapist. Also, you and your family may benefit from joining a support group. Support groups can provide you with information regarding your condition. Ask your doctor for suggestions of local support groups, or check the Internet for information about support groups in your area.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dystonia
+	</Title>
+	<Abstract>
+		Dystonia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this painful muscle-contraction disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02185" LinkType="Internal" ObjectID="E6A32369-F6BA-086B-83800B2E9798545F" Title="What is hot yoga?" Url="http://www.mayoclinic.com/health/hot-yoga/AN02185" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00184" LinkType="Internal" ObjectID="47064595-E7FF-0DBD-1AD6370F34F0FBB9" Title="Deep brain stimulation" Url="http://www.mayoclinic.com/health/deep-brain-stimulation/MY00184" />
+	</RelatedLinksBox>
+</Disease>

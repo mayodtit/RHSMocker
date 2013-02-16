@@ -1,0 +1,381 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00880
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/swollen-lymph-nodes/DS00880
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-22
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="2571" Title="Lymphadenitis" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8A3B1B5F-E7FF-0DBD-151D5676D643911B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				swollen lymph nodes
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphadenitis
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen glands
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphadenopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen lymph glands
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen lymphnodes
+			</MetaKeyword>
+			<MetaKeyword>
+				painful lymph nodes
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged lymph nodes
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph node location
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swollen lymph nodes usually occur as a result of exposure to a bacteria or virus. Less commonly, swollen lymph nodes are caused by cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Your lymph nodes, also called lymph glands, play a vital role in your body&apos;s ability to fight off viruses, bacteria and other causes of illnesses. Common areas where you might notice swollen lymph nodes include your neck, under your chin, in your armpits and in your groin. 
+&lt;/p&gt;
+&lt;p&gt;
+Swollen lymph nodes may become inflamed. This is known as lymphadenitis (lim-fad-uh-NI-tis). Treatment for lymphadenitis depends on the cause. In some cases, the passage of time and the use of over-the-counter (OTC) pain relievers and warm compresses may be all you need to treat swollen lymph nodes. For more serious cases, treatment of swollen lymph nodes involves treating the underlying cause. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing swollen lymph nodes 
+" Caption="Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+" Height="60" Title="Swollen lymph nodes" URI="/images/image_popup/thumbs/mcdc7_swollenlymphnodesthu.jpg" Width="60" />
+				<Image Alt="Image showing swollen lymph nodes 
+" Caption="Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+" Height="594" Title="Swollen lymph nodes" URI="/images/image_popup/mcdc7_swollenlymphnodes.jpg" Width="400" />
+				<HTML>
+					Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your lymphatic system comprises a network of organs, vessels, and numerous lymph nodes situated throughout your body. Most of your lymph nodes are located in your head and neck region. Lymph nodes that frequently swell are in this area, as well as in your armpits and groin area. 
+&lt;/p&gt;
+&lt;p&gt;
+Swollen lymph nodes are a sign that something is wrong somewhere in your body. When your lymph nodes first swell, you might notice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tender and painful lymph nodes&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes that may be the size of a pea or kidney bean, or even larger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the cause of your swollen lymph nodes, other signs and symptoms you might have include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Runny nose, sore throat, fever and other indications of an upper respiratory infection&lt;/li&gt;
+	&lt;li&gt;General swelling of lymph nodes throughout your body &amp;mdash; which may indicate an infection, such as HIV or mononucleosis, or an immune disorder, such as lupus or rheumatoid arthritis&lt;/li&gt;
+	&lt;li&gt;Swollen limb, possibly indicating lymph system blockage caused by swelling in a lymph node too far under your skin to feel&lt;/li&gt;
+	&lt;li&gt;Hardened, fixed, rapidly growing nodes, indicating a possible tumor&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Some swollen lymph nodes return to normal when the underlying condition, such as a minor infection, resolves. However, see your doctor if you&apos;re concerned or if your swollen lymph nodes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have appeared for no apparent reason&lt;/li&gt;
+	&lt;li&gt;Continue to enlarge or have been present for more than two weeks&lt;/li&gt;
+	&lt;li&gt;Feel hard or rubbery, or don&apos;t move when you push on them&lt;/li&gt;
+	&lt;li&gt;Are accompanied by persistent fever, night sweats or unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Are accompanied by a sore throat or by difficulty swallowing or breathing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing swollen lymph nodes 
+" Caption="Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+" Height="60" Title="Swollen lymph nodes" URI="/images/image_popup/thumbs/mcdc7_swollenlymphnodesthu.jpg" Width="60" />
+				<Image Alt="Image showing swollen lymph nodes 
+" Caption="Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+" Height="594" Title="Swollen lymph nodes" URI="/images/image_popup/mcdc7_swollenlymphnodes.jpg" Width="400" />
+				<HTML>
+					Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A lymph node is a small, round or bean-shaped cluster of cells covered by a capsule of connective tissue. The cells are a combination of lymphocytes &amp;mdash; which produce protein particles that capture invaders, such as viruses &amp;mdash; and macrophages, which break down the captured material. Lymphocytes and macrophages filter your lymphatic fluid as it travels through your body and protect you by destroying invaders. 
+&lt;/p&gt;
+&lt;p&gt;
+Lymph nodes are located in groups, and each group drains a specific area of your body. You may be more likely to notice swelling in certain areas, such as in the lymph nodes in your neck, under your chin, in your armpits and in your groin. The site of the swollen lymph nodes may help identify the underlying cause. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of swollen lymph nodes is an infection, particularly a viral infection, such as the common cold. However, there are other types of infection, including parasitic and bacterial, and other possible causes of swollen lymph nodes. They include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Common infections&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Strep throat&lt;/li&gt;
+	&lt;li&gt;Measles&lt;/li&gt;
+	&lt;li&gt;Ear infections&lt;/li&gt;
+	&lt;li&gt;Infected (abscessed) tooth&lt;/li&gt;
+	&lt;li&gt;Mononucleosis&lt;/li&gt;
+	&lt;li&gt;Skin or wound infections, such as cellulitis or erysipelas&lt;/li&gt;
+	&lt;li&gt;Human immunodeficiency virus (HIV) &amp;mdash; the virus that causes AIDS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Uncommon infections&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Certain sexually transmitted diseases, such as syphilis&lt;/li&gt;
+	&lt;li&gt;Toxoplasmosis &amp;mdash; a parasitic infection resulting from contact with the feces of an infected cat or eating undercooked meat&lt;/li&gt;
+	&lt;li&gt;Cat scratch fever &amp;mdash; a bacterial infection from a cat scratch or bite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Immune system disorders&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lupus &amp;mdash; a chronic inflammatory disease that can target your joints, skin, kidneys, blood cells, heart and lungs&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis &amp;mdash; a chronic inflammatory disease that targets the tissue that lines your joints (synovium)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancers&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lymphoma &amp;mdash; cancer that originates in your lymphatic system&lt;/li&gt;
+	&lt;li&gt;Leukemia &amp;mdash; cancer of your body&apos;s blood-forming tissue, including your bone marrow and lymphatic system&lt;/li&gt;
+	&lt;li&gt;Other cancers that have spread (metastasized ) to lymph nodes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other possible, but rare causes include certain medications, such as the anti-seizure medication phenytoin (Dilantin), and preventive medications for malaria. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parts of the immune system
+" Caption="The immune system is a complex array of organs, cells and molecules distributed throughout your body, responsible for protecting your body from harmful invaders such as germs, viruses and other foreign substances. Specialized white blood cells that play a major part in your body&apos;s immune response gather in your lymph nodes and other parts of your immune system. 
+" Height="60" Title="Parts of the immune system" URI="/images/image_popup/thumbs/r7_immunesystempartsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing parts of the immune system
+" Caption="The immune system is a complex array of organs, cells and molecules distributed throughout your body, responsible for protecting your body from harmful invaders such as germs, viruses and other foreign substances. Specialized white blood cells that play a major part in your body&apos;s immune response gather in your lymph nodes and other parts of your immune system. 
+" Height="400" Title="Parts of the immune system" URI="/images/image_popup/r7_immunesystemparts.jpg" Width="400" />
+				<HTML>
+					The immune system is a complex array of organs, cells and molecules distributed throughout your body, responsible for protecting your body from harmful invaders such as germs, viruses and other ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If infection is the cause of your swollen lymph nodes and isn&apos;t treated, these complications might occur: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abscess formation.&lt;/strong&gt; An abscess is a localized collection of pus caused by an infection. Pus contains fluid, white blood cells, dead tissue and bacteria or other invaders. An abscess may require drainage and antibiotic treatment. An abscess may cause significant damage if it involves a vital organ. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bloodstream infection (bacteremia).&lt;/strong&gt; A bacterial infection anywhere in your body can progress to sepsis, caused by an overwhelming infection of the bloodstream. Sepsis may result in organ failure and death. Treatment involves hospitalization and intravenous antibiotics.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have swollen lymph node, you&apos;re likely to start by first seeing your family doctor. However, when you call to set up your appointment, you may be urged to seek immediate medical care if you&apos;re experiencing severe symptoms such as difficulty breathing or swallowing. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing, and for how long.&lt;/strong&gt; Among other symptoms, your doctor will want to know if you&apos;ve had flu-like symptoms such as fever or sore throat, and may ask whether you&apos;ve noticed changes in your weight. Include on your list every symptom, from mild to severe, that you&apos;ve noticed since your lymph nodes began to swell.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all recent exposures to possible sources of infection.&lt;/strong&gt; These may include travel abroad, hiking in areas known to have ticks, eating undercooked meat, being scratched by a cat, or engaging in high-risk sexual behavior or sex with a new partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions you&apos;re being treated for and the names of the medications that you&apos;re taking. Include every prescription and OTC drug you use, as well as any vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For swollen lymph nodes, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is the underlying cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment can I expect improvement?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will we try next?&lt;/li&gt;
+	&lt;li&gt;Am I contagious? How can I reduce the risk of passing my illness to others?&lt;/li&gt;
+	&lt;li&gt;If my symptoms are caused by infection, are there any changes I can make in my lifestyle or daily habits to reduce the risk of future infection?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. Do I need to change the treatments I&apos;ve been using?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to discuss in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your affected lymph nodes gotten larger over time?&lt;/li&gt;
+	&lt;li&gt;Are your affected lymph nodes tender?&lt;/li&gt;
+	&lt;li&gt;Have you been experiencing fever or night sweats?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Do you have a sore throat or difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Have your bowel habits changed?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled to another country or to tick-inhabited regions? Did anyone who traveled with you get sick?&lt;/li&gt;
+	&lt;li&gt;Have you recently been exposed to new animals? Were you bitten or scratched?&lt;/li&gt;
+	&lt;li&gt;Have you recently had sex with a new partner?&lt;/li&gt;
+	&lt;li&gt;Do you practice safe sex? Have you done so since you became sexually active?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? For how long?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, warm compresses and OTC pain relievers, such as ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others), may make you more comfortable. Don&apos;t give aspirin to your child without first consulting with your child&apos;s doctor, because of its link to the harmful Reye&apos;s syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose what might be causing your swollen lymph nodes your doctor may need: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your medical history.&lt;/strong&gt; In addition, your doctor will want to know when and how your swollen lymph nodes developed and if you have any other signs or symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A physical exam.&lt;/strong&gt; Your doctor will also want to check lymph nodes near the surface of your skin for size, tenderness, warmth and texture. The site of your swollen lymph nodes and your other signs and symptoms will offer clues to the underlying cause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Depending on what your doctor suspects is causing your swollen lymph nodes, certain blood tests may be done to confirm or exclude the suspected underlying condition. The specific tests will depend on the suspected cause, but most likely will include a complete blood count (CBC), which helps evaluate your overall health and detect a range of disorders, including infections such as mononucleosis and leukemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging studies.&lt;/strong&gt; A chest X-ray or computerized tomography (CT) scan of the affected area may help determine potential sources of infection or find tumors.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Lymph node biopsy.&lt;/strong&gt; If your doctor can&apos;t pin down the diagnosis, it may be helpful to remove a sample from a lymph node or even an entire lymph node for microscopic examination.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The method of biopsy may be fine-needle aspiration (FNA), which your doctor may perform during an office visit, or you may be referred to a surgeon or radiologist for this procedure. In FNA, the doctor inserts a thin, hollow needle into the lymph node and removes (aspirates) cells, which are then sent to a lab for study. Ultrasound &amp;mdash; a noninvasive procedure that uses sound waves to create images of organs and tissues &amp;mdash; may be used to guide the needle and ensure accuracy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In some cases, you may require an excisional biopsy. This type of biopsy &amp;mdash; also called surgical biopsy &amp;mdash; removes a portion or all of a lymph node through an incision for analysis. A surgeon performs this procedure while using local or general anesthesia. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swollen lymph nodes caused by a virus may return to normal after the viral infection resolves. Antibiotics are not useful to treat viral infections. Treatment for swollen lymph nodes from other causes depends on the cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; The most common treatment for swollen lymph nodes caused by a bacterial infection is antibiotics. Over-the-counter pain relievers and fever reducers include aspirin, ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others). Aspirin and ibuprofen also have anti-inflammatory properties, which may help reduce some of the swelling. Don&apos;t give your child aspirin without consulting your doctor because of its link to Reye&apos;s syndrome. Reye&apos;s syndrome is a rare, but serious illness that can affect children and teenagers recovering from a viral infection. If your swollen lymph nodes are due to an HIV infection, you&apos;ll receive treatment for that condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune disorder.&lt;/strong&gt; If your swollen lymph glands are a result of conditions such as lupus or rheumatoid arthritis, treatment is directed at the underlying condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Swollen glands caused by cancer require treatment for the cancer. Depending on the type of cancer, treatment may involve surgery, radiation or chemotherapy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your swollen lymph glands are tender or painful, you might get some relief by doing the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply warmth.&lt;/strong&gt; Apply a warm, wet compress, such as a washcloth dipped in hot water and wrung out, to the affected area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take pain relievers.&lt;/strong&gt; Over-the-counter pain relievers, such as aspirin, ibuprofen (Advil, Motrin, others) and acetaminophen (Tylenol, others), may help alleviate pain and fever. Don&apos;t give your child aspirin without consulting your doctor because of its link to Reye&apos;s syndrome in children. Reye&apos;s syndrome is a rare, but serious illness that can affect the blood, liver and brain of a child or teenager recovering from a viral infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get adequate rest.&lt;/strong&gt; You often need rest to aid your recovery from the underlying condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Swollen lymph nodes
+	</Title>
+	<Abstract>
+		Swollen lymph nodes &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common medical complaint.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

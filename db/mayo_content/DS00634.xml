@@ -1,0 +1,249 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00634
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lipoma/DS00634
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2166" Title="Skin tumor">
+						<Keyword MCVID="3035" Title="Lipoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5C44775-2A5D-9994-E37A9AA7B86E3635
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lipoma
+			</MetaKeyword>
+			<MetaKeyword>
+				lipomas
+			</MetaKeyword>
+			<MetaKeyword>
+				lipomata
+			</MetaKeyword>
+			<MetaKeyword>
+				benign skin tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				fatty tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				lumps under skin
+			</MetaKeyword>
+			<MetaKeyword>
+				liposarcoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A lipoma is a slow-growing, fatty lump that&apos;s most often situated between your skin and the underlying muscle layer. Often a lipoma is easy to identify because it moves readily with slight finger pressure. It&apos;s doughy to touch and usually not tender. You may have more than one lipoma. Lipomas can occur at any age, but they&apos;re most often detected during middle age. 
+&lt;/p&gt;
+&lt;p&gt;
+A lipoma isn&apos;t cancer and is usually harmless. Treatment generally isn&apos;t necessary, but if the lipoma bothers you, is painful or is growing, you may want to have it removed. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a lipoma 
+" Caption="A lipoma is a fatty tumor located just below the skin. It isn&apos;t cancer and is usually harmless. 
+" Height="60" Title="Lipoma" URI="/images/image_popup/thumbs/sn7_lipomathu.jpg" Width="60" />
+				<Image Alt="Image of a lipoma 
+" Caption="A lipoma is a fatty tumor located just below the skin. It isn&apos;t cancer and is usually harmless. 
+" Height="320" Title="Lipoma" URI="/images/image_popup/sn7_lipoma.jpg" Width="320" />
+				<HTML>
+					A lipoma is a fatty tumor located just below the skin. It isn&apos;t cancer and is usually harmless. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lipomas are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Situated&lt;/strong&gt; &lt;strong&gt;just under your skin.&lt;/strong&gt; They commonly occur in the neck, shoulders, back, abdomen, arms and thighs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soft and doughy to the touch.&lt;/strong&gt; They also move easily with slight finger pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Generally small.&lt;/strong&gt; Lipomas are typically less than 2 inches (5 centimeters) in diameter, but they can grow larger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sometimes painful.&lt;/strong&gt; Lipomas can be painful if they grow and press on nearby nerves or if they contain many blood vessels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;A lipoma is rarely a serious medical condition. But if you notice a lump or swelling anywhere on your body, have it checked by your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a lipoma 
+" Caption="A lipoma is a fatty tumor located just below the skin. It isn&apos;t cancer and is usually harmless. 
+" Height="60" Title="Lipoma" URI="/images/image_popup/thumbs/sn7_lipomathu.jpg" Width="60" />
+				<Image Alt="Image of a lipoma 
+" Caption="A lipoma is a fatty tumor located just below the skin. It isn&apos;t cancer and is usually harmless. 
+" Height="320" Title="Lipoma" URI="/images/image_popup/sn7_lipoma.jpg" Width="320" />
+				<HTML>
+					A lipoma is a fatty tumor located just below the skin. It isn&apos;t cancer and is usually harmless. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of lipomas is unknown. Lipomas tend to run in families, so genetic factors likely play a role in their development.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may increase your risk of developing a lipoma, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being between 40 and 60 years old.&lt;/strong&gt; Although lipomas can occur at any age, they&apos;re most common in this age group. Lipomas are rare in children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having certain other disorders.&lt;/strong&gt; People with other disorders, including adiposis dolorosa, Madelung disease, Cowden syndrome and Gardner&apos;s syndrome, have an increased risk of multiple lipomas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For lipoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused this growth?&lt;/li&gt;
+	&lt;li&gt;Is it cancer?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to be sure?&lt;/li&gt;
+	&lt;li&gt;Will this lump always be there?&lt;/li&gt;
+	&lt;li&gt;Can I have it removed?&lt;/li&gt;
+	&lt;li&gt;What&apos;s involved in having it removed? Are there any risks?&lt;/li&gt;
+	&lt;li&gt;Is it likely to return, or am I likely to get another?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other resources I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you questions, too, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the lump?&lt;/li&gt;
+	&lt;li&gt;Has it grown?&lt;/li&gt;
+	&lt;li&gt;Have you had similar growths in the past?&lt;/li&gt;
+	&lt;li&gt;Is the lump painful?&lt;/li&gt;
+	&lt;li&gt;Have others in your family had similar lumps?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose a lipoma, your doctor may perform: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A physical exam&lt;/li&gt;
+	&lt;li&gt;A tissue sample removal (biopsy) for lab examination&lt;/li&gt;
+	&lt;li&gt;An ultrasound or other imaging test, such as an MRI or CT scan, if the lipoma is large, has unusual features or appears to be deeper than the fatty tissue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There&apos;s a very small chance that a lump resembling a lipoma may actually be a form of cancer called liposarcoma. Liposarcomas &amp;mdash; cancerous tumors in fatty tissues &amp;mdash; grow rapidly, don&apos;t move under the skin and are usually painful. A biopsy, MRI or CT scan is typically done if your doctor suspects liposarcoma.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatment is usually necessary for a lipoma. However, if the lipoma is in a location that bothers you, is painful or is growing, your doctor might recommend that it be removed. Lipoma treatments include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical removal.&lt;/strong&gt; Most lipomas are removed surgically by cutting them out. Recurrences after removal are uncommon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steroid injections.&lt;/strong&gt; This treatment shrinks the lipoma but usually doesn&apos;t completely eliminate the tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liposuction.&lt;/strong&gt; This treatment uses a needle and a large syringe to remove the fatty lump.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lipoma
+	</Title>
+	<Abstract>
+		Lipoma &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this usually harmless fatty tumor.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

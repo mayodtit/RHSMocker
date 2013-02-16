@@ -1,0 +1,381 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01021
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/egg-allergy/DS01021
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy">
+							<Keyword MCVID="3568" Title="Egg allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D0EEF86A-E7FF-0DBD-155BE91044E19B22
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				egg allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic shock
+			</MetaKeyword>
+			<MetaKeyword>
+				egg allergies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eggs are one of the most common allergy-causing foods in children. 
+&lt;/p&gt;
+&lt;p&gt;
+Egg allergy symptoms usually occur a few minutes to a few hours after eating eggs or foods containing eggs. Signs and symptoms range from mild to severe and can include skin rashes, hives, nasal inflammation, and vomiting or other digestive problems. Rarely, egg allergy can cause anaphylaxis &amp;mdash; a life-threatening reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+Egg allergy can occur as early as infancy. Most children outgrow their egg allergy before adolescence. But in some cases, it continues into adulthood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Egg allergy reactions vary from person to person and usually occur soon after exposure to egg. Egg allergy symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin inflammation or hives &amp;mdash; the most common egg allergy reaction&lt;/li&gt;
+	&lt;li&gt;Allergic nasal inflammation (allergic rhinitis)&lt;/li&gt;
+	&lt;li&gt;Digestive (gastrointestinal) symptoms, such as cramps, nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Asthma signs and symptoms such as coughing, chest tightness or shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anaphylaxis&lt;/strong&gt; &lt;br /&gt;
+A severe allergic reaction can lead to anaphylaxis, a life-threatening emergency that requires an immediate epinephrine (adrenaline) shot and a trip to the emergency room. Anaphylaxis signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constriction of airways, including a swollen throat or a lump in your throat that makes it difficult to breathe&lt;/li&gt;
+	&lt;li&gt;Abdominal pain and cramping&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Shock, with a severe drop in blood pressure felt as dizziness, lightheadedness or loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you or your child has a reaction to eggs, discuss this with a doctor no matter how mild it may have been. The severity of egg allergy reactions can vary each time one occurs. This means that even if you or your child had a mild reaction in the past, the next reaction could be more serious. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor thinks you or your child may be at risk of a severe reaction, the doctor may prescribe an emergency epinephrine shot to be used if anaphylaxis occurs. The shot comes in a device that makes it easy to deliver, called an autoinjector. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See a doctor if you or your child has signs or symptoms of a food allergy shortly after eating eggs or a product that contains eggs. If possible, see the doctor when the allergic reaction is occurring. This may help in making a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child has signs and symptoms of anaphylaxis, seek immediate emergency treatment and use an autoinjector if one has been prescribed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+All food allergies are caused by an immune system overreaction. The immune system mistakenly identifies certain egg proteins as harmful. When you or your child comes in contact with egg proteins, immune system cells (antibodies) recognize them and signal the immune system to release histamine and other chemicals that cause allergic signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Both egg yolks and egg whites contain proteins that can cause allergies, but allergy to egg whites is most common. It&apos;s possible for breast-fed infants to have an allergic reaction to egg proteins in breast milk if the mother consumes eggs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may increase the risk of developing an egg allergy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis.&lt;/strong&gt; Children with this type of skin reaction are much more likely to develop a food allergy than are children who don&apos;t have skin problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; You&apos;re at increased risk of a food allergy if one or both of your parents have asthma, food allergy or another type of allergy &amp;mdash; such as hay fever, hives or eczema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Egg allergy is most common in children. As you grow older, the digestive system matures and allergic food reactions are less likely to occur.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most significant complication of egg allergy is having a severe allergic reaction requiring an epinephrine injection and emergency treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+The same immune system reaction that causes egg allergy can also cause other conditions. If you or your child has an egg allergy, you or your child may be at increased risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allergies to other foods, such as milk, soy or peanuts&lt;/li&gt;
+	&lt;li&gt;Hay fever &amp;mdash; an allergic reaction to pet dander, dust mites or grass pollen&lt;/li&gt;
+	&lt;li&gt;Allergic skin reactions such as atopic dermatitis&lt;/li&gt;
+	&lt;li&gt;Asthma, which in turn increases the risk of having a severe allergic reaction to eggs or other foods&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or pediatrician. You may be referred to a doctor who specializes in allergic disorders (allergist-immunologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready, and what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment for yourself or your child, ask if there&apos;s anything you need to do in advance. For example, if you or your child is going to have allergy testing done, the doctor will want you or your child to avoid taking antihistamines for a certain time period before the test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms,&lt;/strong&gt; including those that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications,&lt;/strong&gt; as well as any vitamins or supplements that you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your child&apos;s doctor is limited, so preparing a list of questions can help you make the most of it. For egg allergy, some basic questions to ask the doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests are needed? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this reaction most likely caused by an egg allergy or could it be caused by something else?&lt;/li&gt;
+	&lt;li&gt;What other conditions may be causing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Will my child or I need to avoid eggs altogether? Or are certain egg products OK?&lt;/li&gt;
+	&lt;li&gt;Which foods are most likely to contain eggs?&lt;/li&gt;
+	&lt;li&gt;What do I need to tell my child&apos;s school about his or her allergy?&lt;/li&gt;
+	&lt;li&gt;My child or I have other health conditions. How can I best manage these along with egg allergy?&lt;/li&gt;
+	&lt;li&gt;Do I &amp;mdash; or does my child &amp;mdash; need to carry an autoinjector in case of a severe reaction?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask these or other questions at any time during the appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;/strong&gt; &lt;br /&gt;
+Your child&apos;s doctor is likely to ask you and your child a number of questions. Being ready to answer them may reserve time to go over other points. The doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your child first have a reaction to eggs?&lt;/li&gt;
+	&lt;li&gt;Can you describe the reaction?&lt;/li&gt;
+	&lt;li&gt;Does this happen every time you or your child eats eggs or something made with eggs?&lt;/li&gt;
+	&lt;li&gt;How soon do symptoms start after you or your child consumes eggs or products containing eggs?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms or your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve symptoms, such as taking allergy medication or avoiding certain foods?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen symptoms?&lt;/li&gt;
+	&lt;li&gt;Is anyone in your family or your child&apos;s family allergic to eggs or other foods?&lt;/li&gt;
+	&lt;li&gt;Do you or does your child have a history of other allergic disorders, such as eczema, hay fever or asthma?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you or your child has mild allergy symptoms after eating something containing eggs, taking an antihistamine may help ease the discomfort. But, be on the lookout for worsening symptoms that might require medical attention. If you or your child has a severe reaction, seek immediate medical care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no one test used to diagnose egg allergy. Your doctor will use several approaches, and will want to rule out other conditions that could be causing allergy-like symptoms. In many cases, what at first seems to be an egg allergy is actually caused by food intolerance. This type of reaction is generally less serious than an egg allergy and doesn&apos;t involve the immune system. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will start with these two basic steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; The doctor will ask a number of questions about your health or your child&apos;s health and will ask detailed questions about signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; The doctor will examine you or your child for signs of a food allergy or other health issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also recommend one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin prick test.&lt;/strong&gt; In this test, the skin is pricked and exposed to small amounts of the proteins found in eggs. If you or your child has egg allergy, a raised bump (hive) may develop at the test location. Allergy specialists are generally best equipped to perform and interpret allergy skin tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A blood test (IgE antibody test) can measure the immune system&apos;s response to eggs by checking the amount of certain antibodies in the bloodstream that may indicate an allergic reaction. In some cases, blood tests are used to find out other information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food challenge.&lt;/strong&gt; This test involves giving you or your child small amounts of egg to see if it causes a reaction. If nothing happens, more egg is given, and you or your child will again be watched for signs of a food allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food tracking or elimination diet.&lt;/strong&gt; Your or your child&apos;s doctor may have you keep a detailed diary of the foods that you or your child eats, and may ask you to eliminate eggs or other foods from your diet or your child&apos;s diet one at a time, to see whether symptoms improve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Blood and skin tests are often used along with food challenges and diet changes. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects symptoms may be caused by something other than a food allergy, you or your child may need tests to identify &amp;mdash; or rule out &amp;mdash; other possible causes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no medication or other treatment that can cure an egg allergy or prevent someone with a food allergy from having an allergic reaction. The only way to prevent egg allergy symptoms is to avoid eggs or egg products. This can be difficult, as eggs are a common food ingredient. However, you may find that you or your child can tolerate eggs that have been cooked into foods, such as when they are an ingredient in baked goods. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antihistamines to ease symptoms&lt;/strong&gt; &lt;br /&gt;
+Despite your best efforts, you or your child may still come into contact with eggs. Medications, such as antihistamines, may reduce signs and symptoms of a mild egg allergy. These drugs can be taken after exposure to eggs. But, they aren&apos;t effective for preventing an allergic egg reaction or for treating a severe reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency epinephrine shots&lt;/strong&gt; &lt;br /&gt;
+If you or your child is at risk of a severe reaction, you may need to carry an emergency epinephrine injector (EpiPen, EpiPen Jr, Twinject) at all times. If you or your child develops anaphylaxis after egg exposure, you or your child will need an emergency epinephrine shot and a trip to the emergency room. Even if anaphylaxis symptoms improve, you or your child will need to remain under medical supervision for a period of time to be sure severe symptoms don&apos;t return. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child does have an autoinjector, be sure it&apos;s always available. Learn how to use it properly. If your child has one, make sure caregivers have access to it and know how to use it. If your child is old enough, make sure he or she also understands how to use it. Replace the autoinjector before its expiration date. Otherwise, it may not work properly. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for egg allergy, but most children will eventually outgrow it. Talk to your child&apos;s doctor about how often he or she should be tested to see whether eggs still cause symptoms. This may be yearly, or on another schedule depending on your child&apos;s symptoms and the doctor&apos;s recommendations. It may be unsafe for you to test your child&apos;s reaction to eggs at home, particularly if your child has had a severe reaction to eggs in the past. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are some things you can do to avoid an allergic reaction, and to keep it from getting worse if one does occur. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what you or your child is eating and drinking.&lt;/strong&gt; Read food labels carefully. In some people, foods that list only trace amounts of egg can cause a reaction. In addition to carefully reading labels, being cautious when eating out and using egg-free products at home can help you or your child avoid an unpleasant or dangerous reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious when eating out.&lt;/strong&gt; Keep in mind, your server or even the cook may not be completely certain about whether a food contains egg proteins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear an allergy bracelet or necklace.&lt;/strong&gt; This can be especially important if you or your child has a severe reaction and can&apos;t tell caregivers or others what&apos;s going on.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let your child&apos;s caregivers know about an egg allergy.&lt;/strong&gt; Talk to your child&apos;s babysitters, teachers, relatives or other caregivers about his or her egg allergy so that they don&apos;t accidently give your child egg-containing products. Make sure they understand what to do in an emergency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re breast-feeding, avoid eggs.&lt;/strong&gt; If your child has an egg allergy, he or she may react to proteins passed through your milk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hidden sources of egg products&lt;/strong&gt; &lt;br /&gt;
+Unfortunately, even if a food is labeled egg-free it may still contain some allergy-causing egg proteins. When in doubt, contact the manufacturer to be sure a product does not contain eggs. 
+&lt;/p&gt;
+&lt;p&gt;
+Foods that contain eggs can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Marshmallows&lt;/li&gt;
+	&lt;li&gt;Mayonnaise&lt;/li&gt;
+	&lt;li&gt;Meringue&lt;/li&gt;
+	&lt;li&gt;Baked goods&lt;/li&gt;
+	&lt;li&gt;Mixes, batters and sauces&lt;/li&gt;
+	&lt;li&gt;Frostings&lt;/li&gt;
+	&lt;li&gt;Processed meat, meatloaf and meatballs&lt;/li&gt;
+	&lt;li&gt;Pudding&lt;/li&gt;
+	&lt;li&gt;Salad dressing&lt;/li&gt;
+	&lt;li&gt;Many pastas&lt;/li&gt;
+	&lt;li&gt;Root beer and specialty coffee or alcoholic drinks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Several terms indicate that egg products have been used in manufacturing processed foods. Terms that can indicate egg proteins are present include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Albumin&lt;/li&gt;
+	&lt;li&gt;Globulin&lt;/li&gt;
+	&lt;li&gt;Lecithin&lt;/li&gt;
+	&lt;li&gt;Livetin&lt;/li&gt;
+	&lt;li&gt;Lysozyme&lt;/li&gt;
+	&lt;li&gt;Simplesse&lt;/li&gt;
+	&lt;li&gt;Vitellin&lt;/li&gt;
+	&lt;li&gt;Words starting with &quot;ova&quot; or &quot;ovo,&quot; such as ovalbumin or ovoglobulin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another potential source of exposure is cross-contamination in home-prepared dishes or meals, especially when you&apos;re eating in other people&apos;s homes where they may not be aware of the risk. 
+&lt;/p&gt;
+&lt;p&gt;
+People who are very sensitive to egg proteins have a reaction when they touch eggs or egg products. Nonfood products that sometimes contain egg include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shampoo&lt;/li&gt;
+	&lt;li&gt;Medications&lt;/li&gt;
+	&lt;li&gt;Cosmetics&lt;/li&gt;
+	&lt;li&gt;Finger paints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vaccinations and egg allergy&lt;/strong&gt; &lt;br /&gt;
+Some shots to prevent illness (vaccines) contain egg proteins. In some people, these vaccines pose a risk of triggering an allergic reaction. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Measles-mumps-rubella (MMR) vaccines&lt;/strong&gt; are generally safe for children with egg allergy, even though eggs are used to produce them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flu (influenza) vaccines&lt;/strong&gt; sometimes contain small amounts of egg proteins. However, a flu vaccine that doesn&apos;t contain these proteins is approved for use in adults age 18 and older. And even vaccines that do have egg proteins can be given safely to most people with egg allergy without any problems. If you or your child has had a reaction to eggs in the past, talk to your doctor before getting a flu vaccination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yellow fever vaccine&lt;/strong&gt; can provoke an allergic reaction in some people who have egg allergy. It&apos;s given to travelers entering countries where there&apos;s a risk of contracting yellow fever. It&apos;s not generally recommended for people with egg allergy, but is sometimes given under medical supervision after testing for a reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rabies vaccines&lt;/strong&gt; also can cause a reaction in people with egg allergy. As with the yellow fever vaccine, rabies vaccines may be safe when given under medical supervision after testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other vaccines&lt;/strong&gt; are generally not risky for people who have egg allergy. But ask your doctor, just to be safe. If your doctor is concerned about a vaccine, he or she may test you or your child to see whether it is likely to cause a reaction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Egg allergy
+	</Title>
+	<Abstract>
+		Egg allergy &amp;mdash; Comprehensive overview covers symptoms, treatment of this condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="Answer" DocID="AN02033" LinkType="Internal" ObjectID="C9C8E8ED-C14F-ECCE-A9DCBC0BDECF2608" Title="Flu vaccine: Safe for people with egg allergy?" Url="http://www.mayoclinic.com/health/flu-vaccine-egg-allergy/AN02033" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+	</RelatedLinksBox>
+</Disease>

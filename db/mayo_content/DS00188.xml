@@ -1,0 +1,433 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00188
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/multiple-sclerosis/DS00188
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-15
+		</UpdateDate>
+		<PublicationDate>
+			2000-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2947" Title="Noninfectious inflammatory">
+						<Keyword MCVID="2952" Title="Demyelinating disease">
+							<Keyword MCVID="2955" Title="Multiple sclerosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CEC491ED-C3B3-4B39-9E747386136032B4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				multiple sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				MS
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple schlerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				multiple sclorosis
+			</MetaKeyword>
+			<MetaKeyword>
+				multiplesclerosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple sclerosis (MS) is a potentially debilitating disease in which your body&apos;s immune system eats away at the protective sheath (myelin) that covers your nerves. Damage to myelin causes interference in the communication between your brain, spinal cord and other areas of your body. This condition may result in deterioration of the nerves themselves, a process that&apos;s not reversible.
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms vary widely, depending on the amount of damage and the nerves that are affected. People with severe cases of multiple sclerosis may lose the ability to walk or speak clearly. Multiple sclerosis can be difficult to diagnose early in the course of the disease because symptoms often come and go &amp;mdash; sometimes disappearing for months.
+&lt;/p&gt;
+&lt;p&gt;
+Multiple sclerosis has no cure. However, treatments may help treat MS attacks, manage symptoms and reduce progress of the disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerve damage 
+" Caption="In multiple sclerosis, the protective coating on nerve fibers (myelin) is damaged and may eventually be destroyed. Depending on where the nerve damage occurs, MS can affect vision, sensation, coordination, movement, and bladder and bowel control. 
+" Height="60" Title="Multiple sclerosis" URI="/images/image_popup/thumbs/ww5r308_bigthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerve damage 
+" Caption="In multiple sclerosis, the protective coating on nerve fibers (myelin) is damaged and may eventually be destroyed. Depending on where the nerve damage occurs, MS can affect vision, sensation, coordination, movement, and bladder and bowel control. 
+" Height="382" Title="Multiple sclerosis" URI="/images/image_popup/ww5r308_big.jpg" Width="400" />
+				<HTML>
+					In multiple sclerosis, the protective coating on nerve fibers (myelin) is damaged and may eventually be destroyed. Depending on where the nerve damage occurs, MS can affect vision, sensation, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of multiple sclerosis vary, depending on the location of affected nerve fibers. Multiple sclerosis symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Numbness or weakness in one or more limbs&lt;/li&gt;
+	&lt;li&gt;Partial or complete loss of central vision, usually in one eye, often with pain during eye movement (optic neuritis)&lt;/li&gt;
+	&lt;li&gt;Double vision or blurring of vision&lt;/li&gt;
+	&lt;li&gt;Tingling or pain in parts of your body&lt;/li&gt;
+	&lt;li&gt;Electric-shock sensations that occur with certain head movements&lt;/li&gt;
+	&lt;li&gt;Tremor, lack of coordination or unsteady gait&lt;/li&gt;
+	&lt;li&gt;Slurred speech&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Heat sensitivity is common in people with multiple sclerosis. Small increases in body temperature can trigger or worsen multiple sclerosis symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people with multiple sclerosis, particularly in the beginning stages of the disease, experience relapses of symptoms, which are followed by periods of complete or partial remission of symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people have a benign form of multiple sclerosis. In this form of the disease, the condition remains stable and often doesn&apos;t progress to serious forms of MS after the initial attack.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of multiple sclerosis is unknown. It&apos;s believed to be an autoimmune disease, in which the body&apos;s immune system attacks its own tissues. In multiple sclerosis, this process destroys myelin &amp;mdash; the fatty substance that coats and protects nerve fibers in the brain and spinal cord. 
+&lt;/p&gt;
+&lt;p&gt;
+Myelin can be compared to the insulation on electrical wires. When myelin is damaged, the messages that travel along that nerve may be slowed or blocked. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors and researchers don&apos;t understand why multiple sclerosis develops in some people and not others. A combination of factors, ranging from genetics to childhood infections, may play a role. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerve damage 
+" Caption="In multiple sclerosis, the protective coating on nerve fibers (myelin) is damaged and may eventually be destroyed. Depending on where the nerve damage occurs, MS can affect vision, sensation, coordination, movement, and bladder and bowel control. 
+" Height="60" Title="Multiple sclerosis" URI="/images/image_popup/thumbs/ww5r308_bigthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerve damage 
+" Caption="In multiple sclerosis, the protective coating on nerve fibers (myelin) is damaged and may eventually be destroyed. Depending on where the nerve damage occurs, MS can affect vision, sensation, coordination, movement, and bladder and bowel control. 
+" Height="382" Title="Multiple sclerosis" URI="/images/image_popup/ww5r308_big.jpg" Width="400" />
+				<HTML>
+					In multiple sclerosis, the protective coating on nerve fibers (myelin) is damaged and may eventually be destroyed. Depending on where the nerve damage occurs, MS can affect vision, sensation, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may increase your risk of developing multiple sclerosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Multiple sclerosis can occur at any age, but most commonly affects people who are ages 20 to 40.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Women are about twice as likely as men to develop multiple sclerosis.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Family history.&lt;/strong&gt; If one of your parents or siblings has multiple sclerosis, you have a 1 to 3 percent chance of developing the disease &amp;mdash; as compared with the risk in the general population, which is just a tenth of 1 percent.
+	&lt;/p&gt;
+	&lt;p&gt;
+	However, the experiences of identical twins show that heredity can&apos;t be the only factor involved. If multiple sclerosis was determined solely by genetics, identical twins would have identical risks. However, an identical twin has only about a 30 percent chance of developing multiple sclerosis if his or her twin already has the disease. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain infections.&lt;/strong&gt; A variety of viruses, such as Epstein-Barr virus and others, appear to be associated with multiple sclerosis. Researchers study how some infections may be linked to the development of multiple sclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; White people, particularly those whose families originated in northern Europe, are at highest risk of developing multiple sclerosis. People of Asian, African or Native American descent have the lowest risk. &lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Geographic regions.&lt;/strong&gt; Multiple sclerosis is far more common in areas such as Europe, southern Canada, northern United States, New Zealand and southeastern Australia. Researchers study why multiple sclerosis appears to more common in certain geographic regions.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If a child moves from a high-risk area to a low-risk area, or vice versa, he or she tends to acquire the risk level associated with his or her new home area. But if the move occurs after puberty, the young adult usually retains the risk level associated with his or her first home.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other autoimmune diseases.&lt;/strong&gt; You may be slightly more likely to develop multiple sclerosis if you have thyroid disease, type 1 diabetes or inflammatory bowel disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, people with multiple sclerosis may also develop: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle stiffness or spasms&lt;/li&gt;
+	&lt;li&gt;Paralysis, most typically in the legs&lt;/li&gt;
+	&lt;li&gt;Problems with bladder, bowel or sexual function&lt;/li&gt;
+	&lt;li&gt;Mental changes, such as forgetfulness or difficulties concentrating&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Epilepsy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you&apos;re likely to start by seeing your family doctor or general practitioner, he or she may refer you to a doctor trained in nervous system disorders (neurologist). Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information you get during an appointment. Someone who accompanies you may remember something you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For multiple sclerosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Will my condition progress?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;What treatment do you feel would be best for me?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor likely will ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have multiple sclerosis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose multiple sclerosis, doctors will evaluate you, review your medical history and review your symptoms. Doctors will also conduct a physical examination. Doctors may order several tests to diagnose multiple sclerosis and rule out other conditions that may have similar signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;Analysis of your blood can help rule out some infectious or inflammatory diseases that have symptoms similar to multiple sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Spinal tap (lumbar puncture)&lt;br /&gt;
+&lt;/strong&gt;In this procedure, a doctor or nurse inserts a needle into your lower back to remove a small amount of spinal fluid for laboratory analysis. Doctors test the fluid for abnormalities associated with multiple sclerosis, such as abnormal levels of white blood cells or proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+This procedure also can help rule out viral infections and other conditions that can cause neurological symptoms similar to those of multiple sclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Magnetic resonance imaging (MRI)&lt;br /&gt;
+&lt;/strong&gt;An MRI uses powerful magnets and radio waves to produce detailed images of your brain, spinal cord and other areas of your body. An MRI can reveal lesions, which may appear due to myelin loss in your brain and spinal cord. However, these types of lesions also can be caused by rare conditions, such as lupus, or even common conditions such as migraine and diabetes. The presence of these lesions isn&apos;t definitive proof that you have multiple sclerosis.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors may inject a dye into a blood vessel that may help highlight &quot;active&quot; lesions. This helps doctors know whether your disease is in an active phase, even if no symptoms are present.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Evoked potential test&lt;br /&gt;
+&lt;/strong&gt;This test measures electrical signals sent by your brain in response to stimuli. An evoked potential test may use visual stimuli or electrical stimuli in which short electrical impulses are applied to your legs or arms. This test can help detect lesions or nerve damage in your optic nerves, brainstem or spinal cord even when you don&apos;t have any symptoms of nerve damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Multiple sclerosis (MS) has no cure. Treatment usually focuses on strategies to treat MS attacks, manage symptoms and reduce the progress of the disease. Some people have such mild symptoms that no treatment is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Strategies to treat attacks&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Corticosteroids are mainly used to reduce the inflammation that spikes during a relapse. Examples include oral prednisone and intravenous methylprednisolone (Solu-Medrol). Side effects may include mood swings, seizures, weight gain and an increased risk of infections.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Plasma exchange (plasmapheresis).&lt;/strong&gt; This procedure removes some blood from your body and mechanically separates your blood cells from your plasma, the liquid part of your blood. Doctors then mix your blood cells with a replacement solution and return the blood to your body. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Plasma exchange sometimes may be used to help combat severe symptoms of multiple sclerosis relapses in people who aren&apos;t responding to intravenous steroids. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Strategies to slow progress of the disease&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beta interferons.&lt;/strong&gt; These types of drugs &amp;mdash; such as Avonex, Betaseron, Extavia and Rebif &amp;mdash; appear to slow the progress of multiple sclerosis, reduce the number of attacks and lessen the severity of attacks. Interferons can cause many side effects, including reactions in the injection area and liver damage. However, it&apos;s rare to have serious, permanent side effects. You&apos;ll likely need blood tests to monitor your liver function and blood count.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glatiramer acetate (Copaxone).&lt;/strong&gt; This medication may reduce the number of MS attacks. Doctors believe that glatiramer acetate works by blocking your immune system&apos;s attack on myelin. You must inject this drug under your skin (subcutaneously) once daily. Side effects are uncommon, but may include flushing, chest pain or heart palpitations after injection and reactions at the injection sites.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Fingolimod (Gilenya).&lt;/strong&gt; An oral medication given once daily, this works by trapping immune cells in lymph nodes. It may reduce attacks of MS and short-term disability. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	To take this drug, you&apos;ll need to have your heart rate monitored for six hours after the first dose because the first dose can slow your heartbeat (bradycardia). You&apos;ll also need to be immune to the chickenpox virus (varicella-zoster virus). Other side effects may include diarrhea, cough and headache. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Natalizumab (Tysabri).&lt;/strong&gt; This medication may reduce the number of MS attacks by interfering with the movement of potentially damaging immune cells from your bloodstream to your brain and spinal cord. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Natalizumab generally is reserved for people who see no results from or can&apos;t tolerate other types of treatments. This medication increases the risk of progressive multifocal leukoencephalopathy (PML) &amp;mdash; a brain infection that usually is fatal. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A blood test helps detect whether you&apos;ve been exposed to the JC virus, a virus that causes PML, before or while taking this medication. This virus, as well as other risks, may cause development of PML in people taking this medication. Other side effects of natalizumab may include allergic reactions, infections or liver damage. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mitoxantrone.&lt;/strong&gt; This immunosuppressant medication can be harmful to the heart, and it&apos;s associated with development of blood cancers like leukemia. Because of these risks, it&apos;s usually only used to treat active severe, advanced multiple sclerosis, based on both clinical assessment and MRI studies.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Teriflunomide (Aubagio).&lt;/strong&gt; This oral medication reduces attacks and lesions in people with MS. You&apos;ll need blood tests to monitor liver function, as it may cause serious liver damage. It can also cause serious fetal damage, and it must not be taken during pregnancy. It may also cause side effects such as diarrhea and nausea. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The medication stays in your system for months. If you have complications, additional medications must be administered in order to help your body rapidly eliminate the drug. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Strategies to treat symptoms&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; A physical or occupational therapist can teach you stretching and strengthening exercises and show you how to use devices that can make it easier to perform daily tasks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dalfampridine (Ampyra).&lt;/strong&gt; This oral medication may improve walking speed in some people. The major side effect is seizures.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Muscle relaxants.&lt;/strong&gt; If you have multiple sclerosis, you may experience painful or uncontrollable muscle stiffness or spasms, particularly in your legs. Muscle relaxants such as baclofen (Lioresal) and tizanidine (Zanaflex) may improve muscle spasticity. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Baclofen may increase weakness in the legs and cause side effects such as weight gain and excessive sweating. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Tizanidine may cause drowsiness or a dry mouth. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce fatigue.&lt;/strong&gt; Medications such as amantadine may help reduce fatigue due to multiple sclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications.&lt;/strong&gt; Medications also may be prescribed for depression, pain, and bladder or bowel control problems that may be associated with multiple sclerosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A number of other medications and procedures to treat multiple sclerosis are under investigation. For example, stem cell transplantation is being studied. In a stem cell transplant, doctors inject healthy stem cells into your body to replace diseased stem cells. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These suggestions may help relieve some symptoms of multiple sclerosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; Fatigue is a common symptom of multiple sclerosis. Although generally it&apos;s unrelated to your activity level, resting may make you feel less tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Regular exercise, such as walking, swimming, weight training and other physical activity, may offer some benefits if you have mild to moderate MS. Benefits of physical activity include improved strength, muscle tone, balance and coordination, bladder and bowel control, and less fatigue and depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cool down.&lt;/strong&gt; Multiple sclerosis symptoms often worsen when your body temperature increases. Keep cool by running cool water on your wrists, staying in air-conditioned areas, swimming in cool pools and drinking cold beverages. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a balanced diet.&lt;/strong&gt; Eating a healthy, balanced diet can help you maintain a healthy weight, keep a strong immune system and maintain bone health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relieve stress.&lt;/strong&gt; Because stress may trigger or worsen MS symptoms, try to find ways to relax. Activities such as yoga, tai chi, massage, meditation or deep breathing &amp;mdash; or just listening to music &amp;mdash; might help.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic condition such as multiple sclerosis can place you on a roller coaster of emotions. Here are some suggestions to help you cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maintain normal daily activities as best you can.&lt;/li&gt;
+	&lt;li&gt;Stay connected to friends and family.&lt;/li&gt;
+	&lt;li&gt;Continue to pursue hobbies that you enjoy and are able to do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If multiple sclerosis impairs your ability to do things you enjoy, talk with your doctor about possible ways to get around the obstacles. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember that your physical health can affect your mental health. A counselor or therapist may help you put things in perspective, as well as teach you coping skills and relaxation techniques that may be helpful. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, joining a support group, where you can share experiences and feelings with other people who have similar concerns, is a good approach. Ask your doctor what support groups are available in your community. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Multiple sclerosis
+	</Title>
+	<Abstract>
+		Multiple sclerosis (MS) &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis, treatment of this nerve condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00564" LinkType="Internal" ObjectID="D2402B6B-5C7C-484F-8D1FD5DB29D11345" Title="Demyelinating disease: What causes it?" Url="http://www.mayoclinic.com/health/demyelinating-disease/AN00564" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="Answer" DocID="AN01811" LinkType="Internal" ObjectID="E644F0FD-E7FF-0DBD-10A8A923CD123979" Title="Multiple sclerosis: Can it cause seizures?" Url="http://www.mayoclinic.com/health/multiple-sclerosis/AN01811" />
+		<LinkItem ContentType="Answer" DocID="AN01894" LinkType="Internal" ObjectID="550D9F81-E7FF-0DBD-168904A516DF6B56" Title="Vitamin D and MS: Is there any connection?" Url="http://www.mayoclinic.com/health/vitamin-d-and-ms/AN01894" />
+		<LinkItem ContentType="Answer" DocID="AN01838" LinkType="Internal" ObjectID="10D40E65-E7FF-0DBD-1989C1E8EE4F9741" Title="Acetyl-L-carnitine: Can it relieve MS fatigue?" Url="http://www.mayoclinic.com/health/acetyl-l-carnitine/AN01838" />
+	</RelatedLinksBox>
+</Disease>

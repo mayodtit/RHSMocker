@@ -1,0 +1,202 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00443
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00443
+		</OriginalURL>
+		<UpdateDate>
+			2009-02-03
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			6AD49543-BEDA-4BBD-9A64E7C2A471A18A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Steak with steamed vegetables, soba noodles and ginger sauce
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Soba noodles &amp;mdash; Japanese noodles made with buckwheat and wheat flour &amp;mdash; have a dark brown-gray color. Here they&apos;re topped with lean sirloin, fresh asparagus and broccoli florets to make a one-dish meal.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Lightly coat a large, nonstick frying pan with cooking spray. Over high heat, saute the strips of steak until slightly pink, about 5 minutes. Set aside on a covered platter to keep warm.&lt;/p&gt;
+
+&lt;p&gt;Fill a large pot 3/4 full with water and simmer. Add the soba noodles and cook until almost tender, about 10 minutes, or according to package directions. Drain the pasta thoroughly. Rinse the noodles and drain again.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, in a large pot fitted with a steamer basket, bring 1 inch of water to a boil. Add the asparagus and broccoli florets, cover and steam until tender, about 10 minutes. Add the vegetables to the noodles and toss gently to mix evenly.&lt;/p&gt;
+
+&lt;p&gt;To make the sauce, in a small saucepan over medium heat combine the soy sauce, rice wine vinegar, sesame oil, ginger, sugar and pepper. Heat until warmed.&lt;/p&gt;
+
+&lt;p&gt;Divide the noodle-vegetable mixture onto warmed plates. Add the strips of steak and drizzle with the sauce. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;8 ounces loin steak, cut into 1/2-inch strips&lt;br /&gt;
+4 ounces dry soba noodles&lt;br /&gt;
+2 cups chopped fresh asparagus, cut into 1-inch segments&lt;br /&gt;
+2 cups broccoli florets&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For the sauce&lt;br /&gt;
+1/2 cup reduced-sodium soy sauce&lt;br /&gt;
+1/3 cup rice wine vinegar&lt;br /&gt;
+1 tablespoon sesame oil&lt;br /&gt;
+2 tablespoons freshly grated ginger root, peeled&lt;br /&gt;
+1 teaspoon sugar&lt;br /&gt;
+Cracked black pepper, to taste&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				2
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				2
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				3
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				356
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				32 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				38 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				6 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				23 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				800 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				15 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Pasta
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="Steak with steamed vegetables, soba noodles and ginger sauce" height="100" uri="/images/billboardsmall/re1_steakandsobanoodles.jpg" width="100" />
+</Recipe>

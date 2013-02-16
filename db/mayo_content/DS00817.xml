@@ -1,0 +1,210 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00817
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/greenstick-fractures/DS00817
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="3839" Title="Greenstick fractures" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			14A01F6F-E7FF-0DBD-1FC054B011D499D3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				greenstick
+			</MetaKeyword>
+			<MetaKeyword>
+				greenstick fractures
+			</MetaKeyword>
+			<MetaKeyword>
+				incomplete fracture
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A child&apos;s bones are softer and more flexible than those of an adult, so they&apos;re more likely to bend than to break completely. This flexibility can result in a greenstick fracture. In a greenstick fracture, the bone cracks but doesn&apos;t break all the way through &amp;mdash; like when you try to break a green stick of wood. 
+&lt;/p&gt;
+&lt;p&gt;
+A greenstick fracture can be difficult to diagnose, because it may not cause all the classic signs and symptoms of a broken bone. Treatment for broken bones, even incomplete breaks, such as a greenstick fracture, requires immobilization of your child&apos;s bone so that the bone will grow back properly.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;None, in some cases&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Abnormally bent or twisted limb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The intense pain and obvious deformity typical of broken bones may be absent or minimal in greenstick fractures. Additionally, it can be difficult to tell the difference between a greenstick fracture and a soft-tissue injury, such as a sprain or a bad bruise. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical attention if your child is unable to bear weight on or has a decreased range of motion in an injured limb. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a greenstick fracture 
+" Caption="Greenstick fractures are common in children because their bones are more flexible than are those of adults and tend not to break completely. 
+" Height="60" Title="Greenstick fracture" URI="/images/image_popup/thumbs/ww5rl55thu.jpg" Width="60" />
+				<Image Alt="Illustration showing a greenstick fracture 
+" Caption="Greenstick fractures are common in children because their bones are more flexible than are those of adults and tend not to break completely. 
+" Height="320" Title="Greenstick fracture" URI="/images/image_popup/ww5rl55.jpg" Width="400" />
+				<HTML>
+					Greenstick fractures are common in children because their bones are more flexible than are those of adults and tend not to break completely. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Childhood fractures may occur when a child falls while playing or participating in sports. The arm bones are the most likely to be harmed because of the common reaction to throw out your arms to catch yourself when you fall. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child&apos;s arm is injured, you may go straight to an emergency room or urgent care clinic. Depending on the severity of the break, the doctor who first examines your child may recommend a consultation with a pediatric orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To prepare for your conversation with the doctor, you may want to write a quick list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your child&apos;s symptoms&lt;/li&gt;
+	&lt;li&gt;How the injury occurred&lt;/li&gt;
+	&lt;li&gt;Your child&apos;s key medical information, including any previous fractures, other medical problems, and the names of all medications and vitamins he or she takes&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did the injury happen?&lt;/li&gt;
+	&lt;li&gt;Was your child&apos;s wrist or hand bent backward or forward when the impact occurred?&lt;/li&gt;
+	&lt;li&gt;Is your child right-handed or left-handed?&lt;/li&gt;
+	&lt;li&gt;Where exactly does it hurt, and does any specific movement make it better or worse?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During the physical exam, your doctor will inspect the affected area for tenderness, swelling, deformity or an open wound. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-rays can reveal most greenstick fractures. Your doctor may also ask for an X-ray of the uninjured limb, for comparison purposes. Some greenstick fractures are difficult to see because a child&apos;s soft bones may not show up as well on X-rays. In these cases, an ultrasound or computerized tomography (CT) scan may provide better images. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Broken bones, even greenstick fractures, need to be immobilized so that they can grow back together. Casts are the most common way to keep a bone still, but your doctor may decide that a removable splint could work just as well. The benefit of a splint is that your child might be able to take it off briefly for a bath or shower. 
+&lt;/p&gt;
+&lt;p&gt;
+Most casts now are made of a water-resistant material and are available in a variety of colors or designs. Unless the lining of the cast is also waterproof, your child should not go swimming wearing a cast. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may want to X-ray the bone again at a later date to make sure it&apos;s healing properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Children&apos;s bones tend to heal faster than do those of adults, so your child&apos;s cast or splint may be removed or replaced with a smaller cast in as little as three to four weeks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are some tips to reduce your child&apos;s risk of greenstick fractures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Encourage regular exercise, which builds strong bones.&lt;/li&gt;
+	&lt;li&gt;Ensure that your child always wears safety gear for sports.&lt;/li&gt;
+	&lt;li&gt;Use car seats and seat belts at every age.&lt;/li&gt;
+	&lt;li&gt;Provide adequate calcium in your child&apos;s diet. Check with your doctor to see how much calcium your child needs, because the amount varies with age.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Greenstick fractures
+	</Title>
+	<Abstract>
+		Greenstick fractures &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this childhood bone injury.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

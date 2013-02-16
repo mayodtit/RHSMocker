@@ -1,0 +1,293 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01150
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/morning-sickness/DS01150
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-04
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3393" Title="Week 2" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5201" Title="You and your baby">
+							<Keyword MCVID="3455" Title="Body and emotions" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4427" Title="Morning sickness" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5636D877-922B-F46B-464E18CCAD390285
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				morning sickness
+			</MetaKeyword>
+			<MetaKeyword>
+				morning sickness remedies
+			</MetaKeyword>
+			<MetaKeyword>
+				when does morning sickness start
+			</MetaKeyword>
+			<MetaKeyword>
+				morning sickness symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperemesis gravidarum
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morning sickness is nausea that occurs during pregnancy. Morning sickness is a misnomer, however, since it can strike at any time of the day or night.
+&lt;/p&gt;
+&lt;p&gt;
+Morning sickness affects a large proportion of pregnant women. Morning sickness is most common during the first trimester, but for some women morning sickness lingers throughout pregnancy. Treatment isn&apos;t usually needed for morning sickness &amp;mdash; although various home remedies, such as snacking throughout the day and sipping ginger ale, often help relieve nausea. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, morning sickness is so severe that it&apos;s classified as hyperemesis gravidarum. This type of morning sickness may require hospitalization and treatment with intravenous (IV) fluids and medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morning sickness is characterized by nausea with or without vomiting. Morning sickness is most common during the first trimester, sometimes beginning as early as two weeks after conception.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Contact your pregnancy care provider if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The nausea or vomiting is severe&lt;/li&gt;
+	&lt;li&gt;You pass only a small amount of urine or it&apos;s dark in color&lt;/li&gt;
+	&lt;li&gt;You can&apos;t keep down liquids&lt;/li&gt;
+	&lt;li&gt;You feel dizzy or faint when you stand up&lt;/li&gt;
+	&lt;li&gt;Your heart races&lt;/li&gt;
+	&lt;li&gt;You vomit blood&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What causes morning sickness isn&apos;t entirely clear, but the hormonal changes of pregnancy are thought to play a role. Rarely, severe or persistent nausea or vomiting may be caused by a medical condition unrelated to pregnancy &amp;mdash; such as thyroid or liver disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morning sickness can affect anyone who&apos;s pregnant. You might be more likely to experience morning sickness if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You experienced nausea or vomiting from motion sickness, migraines, certain smells or tastes, or exposure to estrogen (in birth control pills, for example) before pregnancy&lt;/li&gt;
+	&lt;li&gt;You experienced morning sickness during a previous pregnancy&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant with twins or other multiples&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Typical cases of morning sickness don&apos;t pose risks for mother or baby. However, if you&apos;re underweight before pregnancy and morning sickness prevents you from gaining a healthy amount of weight during pregnancy, your baby may be born underweight. Rarely, frequent vomiting may lead to tears in the tube that connects the mouth to the stomach (esophagus). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morning sickness can usually be addressed during routine prenatal appointments.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; Include all of your symptoms, even if you don&apos;t think they&apos;re related.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of any medications, vitamins and other supplements you take.&lt;/strong&gt; Write down doses and how often you take them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a family member or close friend accompany you, if possible.&lt;/strong&gt; You may be given a lot of information at your visit, and it can be difficult to remember everything.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook or notepad with you&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Use it to write down important information during your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Think about what questions you&apos;ll ask.&lt;/strong&gt; Write them down; list the most important questions first, in case time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask about morning sickness include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Will nausea and vomiting last throughout my entire pregnancy?&lt;/li&gt;
+	&lt;li&gt;Are there any medications I can take to help with my symptoms?&lt;/li&gt;
+	&lt;li&gt;Does my condition pose any risk to my baby?&lt;/li&gt;
+	&lt;li&gt;What self-care measures do you recommend trying?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask follow-up questions as they occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Some potential questions your doctor or pregnancy care provider might ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you experience bouts of nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you notice certain triggers for your nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Do you experience your symptoms at certain times during the day or all the time?&lt;/li&gt;
+	&lt;li&gt;Are you taking a prenatal vitamin? Do you regularly take any other medications?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes you feel better?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes you feel worse?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morning sickness is typically diagnosed based on your signs and symptoms. If your pregnancy care provider suspects hyperemesis gravidarum, you may need various urine and blood tests. Your pregnancy care provider may also do an ultrasound to confirm the number of fetuses and detect any underlying conditions that may be contributing to the nausea.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment isn&apos;t necessary for most cases of morning sickness. If morning sickness is severe, however, your pregnancy care provider may prescribe vitamin B-6 supplements and possibly anti-nausea medications. If you have hyperemesis gravidarum, you may need to be treated with intravenous (IV) fluids and anti-nausea medications in the hospital.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help relieve morning sickness: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose foods carefully.&lt;/strong&gt; Opt for foods that are high in carbohydrates, low in fat and easy to digest. Salty foods are sometimes helpful, as are foods that contain ginger &amp;mdash; such as ginger lollipops. Avoid greasy, spicy and fatty foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Snack often.&lt;/strong&gt; Before getting out of bed in the morning, eat a few soda crackers or a piece of dry toast. Nibble throughout the day, rather than eating three larger meals. An empty stomach may aggravate nausea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Sip water or ginger ale. It may also help to suck on hard candy, ice chips or ice pops.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to nausea triggers.&lt;/strong&gt; Avoid foods or smells that seem to make your nausea worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of fresh air.&lt;/strong&gt; Weather permitting, open the windows in your home or workplace. Take a daily walk outdoors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with prenatal vitamins.&lt;/strong&gt; If you feel queasy after taking prenatal vitamins, take the vitamins at night or with a snack. It may also help to chew gum or suck on hard candy after taking your prenatal vitamin. If these steps don&apos;t help, ask your pregnancy care provider about other ways you can get the iron and vitamins you need during pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Various alternative remedies have been suggested for morning sickness, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupressure.&lt;/strong&gt; Acupressure wristbands are available without a prescription in most pharmacies. Although acupressure wristbands haven&apos;t been found to be more effective than sham therapies, some women seem to find the wristbands helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Acupuncture involves inserting hair-thin needles into your skin. Acupuncture isn&apos;t a proven way to treat morning sickness, but some women seem to find it helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ginger.&lt;/strong&gt; Herbal ginger supplements seem to alleviate morning sickness for some women. Most research suggests that ginger can be used safely during pregnancy, but there&apos;s some concern that ginger may affect fetal sex hormones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; Although there&apos;s little research on the topic, some women have found relief from morning sickness through hypnosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Check with your pregnancy care provider before using any herbal remedies or alternative treatments to relieve morning sickness.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no proven way to prevent morning sickness. Before conception, however, it may help to take prenatal vitamins. Several older studies suggest that women who take multivitamins at the time of conception and during early pregnancy are less likely to experience severe morning sickness. The folic acid in prenatal vitamins also helps prevent neural tube defects, such as spina bifida. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Morning sickness
+	</Title>
+	<Abstract>
+		Morning sickness during pregnancy is normal. Consider these remedies.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Calculator" DocID="PR00099" LinkType="Internal" ObjectID="B0EB2B6A-48BF-4656-AD2A27E956F02A3B" Title="Pregnancy due date calculator" Url="http://www.mayoclinic.com/health/due-date-calculator/PR00099" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+	</RelatedLinksBox>
+</Disease>

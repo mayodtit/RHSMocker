@@ -1,0 +1,420 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01185
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/neurofibromatosis/DS01185
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-03
+		</UpdateDate>
+		<PublicationDate>
+			2010-07-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="4704" Title="Tumor">
+						<Keyword MCVID="4705" Title="Neurofibromatosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			170853E6-E80F-052F-F7A72E59744B46CF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				neurofibromatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				NF1
+			</MetaKeyword>
+			<MetaKeyword>
+				NF2
+			</MetaKeyword>
+			<MetaKeyword>
+				schwannomatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				nervous system
+			</MetaKeyword>
+			<MetaKeyword>
+				neurofibromas
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Neurofibromatosis is a genetic disorder that disturbs cell growth in your nervous system, causing tumors to form on nerve tissue. These tumors may develop anywhere in your nervous system, including in your brain, spinal cord and nerves. Neurofibromatosis is usually diagnosed in childhood or early adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+The tumors are usually noncancerous (benign), but in some cases these tumors become cancerous (malignant) tumors. People with neurofibromatosis often experience only mild symptoms. Effects of neurofibromatosis can range from hearing loss, learning impairment, and heart and blood vessel (cardiovascular) complications to severe disability due to nerve compression by tumors, loss of vision and severe pain.
+&lt;/p&gt;
+&lt;p&gt;
+Neurofibromatosis treatment aims to maximize healthy growth and development and to manage complications as soon as they arise. When neurofibromatosis causes large tumors or tumors that press on a nerve, surgery may help ease symptoms. Some people may benefit from other therapies, such as stereotactic radiosurgery, medications to control pain or physical therapy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Three distinct types of neurofibromatosis exist, each with different signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurofibromatosis 1 (NF1)&lt;br /&gt;
+&lt;/strong&gt;Neurofibromatosis 1 (NF1) usually appears in childhood. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Flat, light brown spots on the skin.&lt;/strong&gt; These harmless spots, also called cafe au lait (ka-FAY oh LAY) spots, are common in many people. If you have more than six of them, it&apos;s a strong indication of NF1. In NF1, cafe au lait spots are usually present at birth or appear during the first years of life and then stabilize. They aren&apos;t serious but can sometimes be a cosmetic concern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Freckling in the armpits or groin area.&lt;/strong&gt; Freckling usually appears by age 4 or 5.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soft bumps on or under the skin (neurofibromas).&lt;/strong&gt; Neurofibromas are benign tumors that can be located anywhere in the body. Many people develop tumors in the skin or under the skin, but neurofibromas can also grow inside of the body. Sometimes, a growth will involve multiple nerves (plexiform neurofibroma).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tiny bumps on the iris of your eye (Lisch nodules).&lt;/strong&gt; Lisch nodules &amp;mdash; harmless lesions in your eye &amp;mdash; can&apos;t easily be seen just by looking at them, and they don&apos;t affect your vision. However, your doctor can detect these lesions using a special instrument.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone deformities.&lt;/strong&gt; Abnormalities in the way bones grow and a deficiency in bone mineral density can cause bone deformities such as a curved spine (scoliosis) or bowed lower leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learning disabilities.&lt;/strong&gt; Impaired thinking skills (cognition) are common in children with NF1, but are usually mild. Children may have difficulty with language and visual-spatial skills. Children with NF1 often may have a specific learning disability, such as attention-deficit/hyperactivity disorder (ADHD).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Larger than average head size.&lt;/strong&gt; Children with NF1 tend to have a larger than average head size and higher brain volume, but it&apos;s unknown whether this is related to cognitive impairment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Short stature.&lt;/strong&gt; Children with NF1 often have a short stature and are below average in height.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurofibromatosis 2 (NF2)&lt;br /&gt;
+&lt;/strong&gt;Neurofibromatosis 2 (NF2) is much less common than NF1. Signs and symptoms of NF2 usually result from the development of vestibular schwannomas (also known as acoustic neuromas) in both ears.
+&lt;/p&gt;
+&lt;p&gt;
+These benign tumors grow on the nerve that carries sound and balance information from the inner ear to the brain (the eighth cranial nerve). Resulting signs and symptoms generally appear in the late teen and early adult years and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gradual hearing loss&lt;/li&gt;
+	&lt;li&gt;Ringing in the ears&lt;/li&gt;
+	&lt;li&gt;Poor balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, NF2 can lead to growth of schwannomas in other nerves of the body, including the cranial, spinal, visual (optic) and peripheral nerves. Associated signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Facial drop&lt;/li&gt;
+	&lt;li&gt;Numbness and weakness in the arms or legs&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Balance difficulties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, NF2 may result in vision problems due to abnormal growth on the retina (mostly in children) or due to the development of cataracts.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Schwannomatosis&lt;br /&gt;
+&lt;/strong&gt;Schwannomatosis is a rare form of neurofibromatosis only recently recognized. It rarely affects people before their 20s or 30s. Schwannomatosis causes painful tumors called schwannomas to develop on cranial, spinal and peripheral nerves, but not on the nerve that carries sound and balance information from the inner ear to the brain (the eighth cranial nerve).
+&lt;/p&gt;
+&lt;p&gt;
+Because tumors don&apos;t grow on this nerve, schwannomatosis doesn&apos;t cause hearing loss, making it different from NF2. As with NF2, though, schwannomatosis doesn&apos;t cause cognitive impairment. Schwannomatosis mainly causes chronic pain, which can occur anywhere in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you notice signs or symptoms of neurofibromatosis in your child or yourself, call your doctor for an appointment or bring it up at your next visit. The tumors associated with neurofibromatosis are often benign and slow-growing. So although it&apos;s important to obtain a timely diagnosis and monitor for complications, the situation isn&apos;t an emergency. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Neurofibromatosis is caused by genetic defects (mutations) that either are passed on by a parent or occur spontaneously at conception. Each form of neurofibromatosis is caused by mutations in different genes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurofibromatosis 1 (NF1)&lt;br /&gt;
+&lt;/strong&gt;The NF1 gene is located on chromosome 17. Normally, this gene produces a protein called neurofibromin, which is abundant in nervous system tissue and helps regulate cell growth. A mutation of the NF1 gene causes a loss of neurofibromin, which allows cells to grow uncontrolled.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurofibromatosis 2 (NF2)&lt;br /&gt;
+&lt;/strong&gt;A similar problem occurs with NF2. The NF2 gene is located on chromosome 22, which produces a protein called merlin. A mutation of the NF2 gene causes loss of merlin, which also leads to uncontrolled cell growth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Schwannomatosis&lt;br /&gt;
+&lt;/strong&gt;Schwannomatosis may be associated with a mutation of the SMARCB1 gene located on chromosome 22. Other gene mutations may be involved in schwannomatosis. The occurrence of schwannomatosis may be inherited or may be sporadic (spontaneous), but these are not known yet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The biggest risk factor for neurofibromatosis is a family history of the disorder. About half of NF1 and NF2 cases are inherited. The remaining cases result from spontaneous mutations that occur at conception. 
+&lt;/p&gt;
+&lt;p&gt;
+NF1 and NF2 are both autosomal dominant disorders, which means that any child of a parent with the disorder has a 50 percent chance of inheriting the genetic mutation. 
+&lt;/p&gt;
+&lt;p&gt;
+The inheritance pattern for schwannomatosis is less clear. Researchers currently estimate that the risk of inheriting schwannomatosis from an affected parent is about 15 percent. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of neurofibromatosis vary, even within the same family. Generally, complications result from tumor growth distorting nerve tissue or pressing on internal organs.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors can&apos;t predict whether your disease will progress, but most people with neurofibromatosis experience a mild or moderate form of the disorder, regardless of type.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurofibromatosis 1 (NF1) complications&lt;br /&gt;
+&lt;/strong&gt;Common complications of NF1 include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological problems.&lt;/strong&gt; Learning and thinking (cognitive) difficulties occur in up to 60 percent of NF1 cases and are the most common neurological problem associated with NF1. Uncommon complications associated with NF1 include epilepsy, stroke and buildup of excess fluid in the brain (hydrocephalus).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Concerns with appearance.&lt;/strong&gt; Visible signs of neurofibromatosis &amp;mdash; such as extensive cafe au lait spots, numerous nerve tumors (neurofibromas) in the facial area or large neurofibromas &amp;mdash; can cause anxiety and emotional distress, even if they&apos;re not medically serious.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skeletal problems.&lt;/strong&gt; Some children have abnormally formed bones, which can result in bowing of legs and fractures that sometimes don&apos;t heal. NF1 can cause curvature of the spine (scoliosis) that may need bracing or surgery. NF1 is also associated with decreased bone mineral density, which increases your risk of weak bones (osteoporosis). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visual difficulties.&lt;/strong&gt; Occasionally in children, a tumor (optic pathway glioma) growing on the nerve leading from the eye to the brain (optic nerve) can cause visual problems. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase in neurofibromas.&lt;/strong&gt; Hormonal changes associated with puberty, pregnancy or menopause may cause an increase in neurofibromas. Most women with NF1 have healthy pregnancies but will likely need monitoring by an obstetrician familiar with NF1, in addition to their NF1 specialists.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular problems.&lt;/strong&gt; People with NF1 have an increased risk of high blood pressure and, rarely, blood vessel abnormalities. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Less than 10 percent of people with NF1 develop cancerous (malignant) tumors. These usually arise from neurofibromas under the skin or plexiform neurofibromas involving multiple nerves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Monitor neurofibromas vigilantly for any change in appearance, size or number. Changes may indicate cancerous growth. The earlier a malignancy is detected, the better the chances for effective treatment.
+&lt;/p&gt;
+&lt;p&gt;
+People with NF1 also have a higher risk of other forms of cancer, such as breast cancer, leukemia, brain tumors and some types of soft tissue cancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurofibromatosis 2 (NF2) complications&lt;br /&gt;
+&lt;/strong&gt;NF2 may cause complications including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vestibular schwannomas in both ears, which may grow over time&lt;/li&gt;
+	&lt;li&gt;Partial or total deafness&lt;/li&gt;
+	&lt;li&gt;Facial nerve damage&lt;/li&gt;
+	&lt;li&gt;Visual difficulties&lt;/li&gt;
+	&lt;li&gt;Skin lesions&lt;/li&gt;
+	&lt;li&gt;Weakness or numbness in the extremities&lt;/li&gt;
+	&lt;li&gt;Multiple benign brain tumors (meningiomas) or spinal tumors requiring frequent surgeries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Schwannomatosis complications&lt;br /&gt;
+&lt;/strong&gt;The pain caused by schwannomatosis can be debilitating and may require surgical treatment or management by a pain specialist. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first discuss any concerns with your child&apos;s pediatrician or your primary care doctor. Eventually, your doctor may refer you to other specialists, such as a doctor trained in brain and nervous system conditions (neurologist), depending on your condition and complications. 
+&lt;/p&gt;
+&lt;p&gt;
+For your first visit, which may take place during a routine well-child visit, it&apos;s a good idea to come prepared to make the best use of the time allotted. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Write down a list of concerns, making a note of when you first started having them.&lt;/li&gt;
+	&lt;li&gt;Bring your child&apos;s complete medical and family history with you &amp;mdash; or your own if you&apos;re the one being evaluated &amp;mdash; if your doctor doesn&apos;t already have it.&lt;/li&gt;
+	&lt;li&gt;Compile a list of questions for your doctor, asking about possible causes, treatments, outcomes and next steps.&lt;/li&gt;
+	&lt;li&gt;Take notes at the appointment to help you remember key points later on.&lt;/li&gt;
+	&lt;li&gt;Bring photographs of other family members (living or deceased) who you think may have had similar physical findings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to conduct a thorough physical examination and ask you to describe your concerns in detail. Your doctor may also conduct some cognitive tests. Depending on your child&apos;s age, your doctor may ask about performance in school. 
+&lt;/p&gt;
+&lt;p&gt;
+Some signs and symptoms of neurofibromatosis may not appear until a certain age. Because of this, it may take years to diagnose your condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose your condition, your doctor will review your symptoms, medical history and your family history. Depending on the type of neurofibromatosis suspected, your doctor may conduct or order several tests, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination and medical history.&lt;/strong&gt; Your doctor will usually diagnose neurofibromatosis 1 (NF1) based on a physical examination, checking for the characteristics of NF1. Your doctor may use a special lamp to check your skin for light-colored cafe au lait spots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A physical examination is also important for a neurofibromatosis 2 (NF2) diagnosis. A family history of NF1 or NF2 can help confirm either diagnosis. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam.&lt;/strong&gt; Examination by an eye doctor (ophthalmologist) can detect tiny bumps on the iris of your eye (Lisch nodules) and cataracts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear exam.&lt;/strong&gt; Hearing and balance tests such as audiometry, electronystagmography and brainstem auditory evoked response can help determine the level of hearing and balance function in a person with NF2.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests, such as X-rays, CT scans and MRIs, aren&apos;t always required, but they can help identify bone abnormalities, deep tumors in the brain or spinal cord, and very small tumors. An MRI can also help identify optic pathway gliomas in your eye.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Imaging tests may also be particularly helpful in monitoring NF2 and schwannomatosis. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic tests.&lt;/strong&gt; Genetic tests are available for NF1, NF2 and schwannomatosis, and may be done prenatally. Staff can also provide genetic counseling.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Neurofibromatosis can&apos;t be cured, but doctors will monitor you for complications and treat your symptoms. A team of doctors trained in many areas in a neurofibromatosis clinic often may be involved in your care.
+&lt;/p&gt;
+&lt;p&gt;
+Your or your child should begin appropriate treatment as early as possible. Generally, the sooner you or your child is under the care of a doctor trained in treating neurofibromatosis, the better the outcome.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring&lt;br /&gt;
+&lt;/strong&gt;If you have a child with neurofibromatosis 1 (NF1), your doctor is likely to recommend yearly age-appropriate checkups to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Assess your child&apos;s skin for new neurofibromas or changes in existing ones&lt;/li&gt;
+	&lt;li&gt;Check your child&apos;s blood pressure for signs of high blood pressure&lt;/li&gt;
+	&lt;li&gt;Evaluate your child&apos;s growth and development &amp;mdash; including height, weight and head circumference &amp;mdash; according to growth charts available for children with NF1&lt;/li&gt;
+	&lt;li&gt;Check for signs of early puberty&lt;/li&gt;
+	&lt;li&gt;Evaluate your child for any skeletal changes and abnormalities&lt;/li&gt;
+	&lt;li&gt;Assess your child&apos;s learning development and progress in school&lt;/li&gt;
+	&lt;li&gt;Obtain a complete eye examination of your child&apos;s eyes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you notice any changes in signs or symptoms between visits, such as rapid growth of a neurofibroma or onset of pain in a tumor, it&apos;s important to contact your doctor promptly to rule out the possibility of a cancerous tumor and to access appropriate treatment at an early stage. 
+&lt;/p&gt;
+&lt;p&gt;
+Once a child with NF1 reaches adulthood, the frequency of monitoring can be adjusted to suit the needs of the person with NF1. Adults with mild disease may not need monitoring as often as someone with more-severe complications. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have schwannomatosis, you may be given medications to help control your pain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery and other procedures&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; You may have surgery to remove all or part of tumors that are compressing nearby tissues or damaging organs. Surgery may help relieve symptoms of all forms of neurofibromatosis.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Complete removal of schwannomas in people with schwannomatosis can ease pain substantially.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you have neurofibromatosis 2 (NF2) and have experienced hearing loss, brainstem compression or tumor growth, your doctor may recommend surgery to remove vestibular schwannomas. Surgery may help improve your hearing. However, surgery carries risks, including hearing loss or damage to the facial nerves.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Discuss the pros and cons of surgery carefully with a doctor or surgeon experienced in treating nerve tumors. For example, tumors often grow back, and surgery may not be recommended again.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stereotactic radiosurgery.&lt;/strong&gt; If you have NF2, your doctor may recommend stereotactic radiosurgery to remove vestibular schwannomas. This procedure allows your doctor to deliver radiation very precisely to the location of the tumor, and it can help preserve your hearing to an extent. However, it may create a concern of radiation-induced cancer, especially if the radiation is applied repetitively and at a young age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Auditory brainstem implants and cochlear implants.&lt;/strong&gt; If you have NF2 and hearing loss, you may be eligible for auditory brainstem implants or cochlear implants to help improve your hearing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer treatment&lt;br /&gt;
+&lt;/strong&gt;Malignant tumors and other cancers associated with neurofibromatosis are treated with standard cancer therapies, such as surgery, chemotherapy and radiation therapy. However, early recognition of malignant tumors and early treatment are the most important factors resulting in good outcome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Caring for a child with a chronic illness such as neurofibromatosis can be a challenge, even if the illness is mild. Greater severity of symptoms can make it even more difficult. There are many medical appointments to keep, treatments to track and instructions to follow. All of this, in addition to general concern about your child&apos;s health and anxiety over outcomes, can be overwhelming. It may help to keep in mind that many children with neurofibromatosis grow up to live healthy lives with few, if any, complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Perhaps the most important thing you can do for your child&apos;s sake and yourself is to find a primary care doctor you trust and who can coordinate your child&apos;s care with other specialists. The Children&apos;s Tumor Foundation has an online tool to help you find a neurofibromatosis specialist in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also find it helpful to join a support group for parents who care for children with neurofibromatosis, ADHD, special needs or chronic illnesses in general. The Children&apos;s Tumor Foundation lists support groups and family events by state on its website. Or, check your local community listings for support groups or ask your doctor for information. 
+&lt;/p&gt;
+&lt;p&gt;
+Extended family and friends can be your biggest and closest support network. Don&apos;t be afraid to accept their help with daily needs, such as cooking, cleaning, caring for your other children or simply giving you a needed break. Allowing them to share your journey can enrich their lives as well as yours. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Neurofibromatosis
+	</Title>
+	<Abstract>
+		Neurofibromatosis &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis and treatment of this genetic disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="SlideShow" DocID="SN00033" LinkType="Internal" ObjectID="9B529B4C-44F3-4718-8F408033465A28C0" Title="Slide show: Birthmarks" Url="http://www.mayoclinic.com/health/birthmarks/SN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00307" LinkType="Internal" ObjectID="9AE53C6F-E7FF-0DBD-17468FABB8482EEF" Title="X-ray" Url="http://www.mayoclinic.com/health/x-ray/MY00307" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma-knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Disease" DocID="DS00601" LinkType="Internal" ObjectID="C21BA77B-ADE0-429B-BD6B4ED16D203069" Title="Soft tissue sarcoma" Url="http://www.mayoclinic.com/health/soft-tissue-sarcoma/DS00601" />
+		<LinkItem ContentType="Disease" DocID="DS00194" LinkType="Internal" ObjectID="7DBFF2C2-87DE-43DE-8FB57941FC1AC5F6" Title="Scoliosis" Url="http://www.mayoclinic.com/health/scoliosis/DS00194" />
+		<LinkItem ContentType="Disease" DocID="DS00128" LinkType="Internal" ObjectID="74832633-C5B7-4681-A614980804652C1A" Title="Osteoporosis" Url="http://www.mayoclinic.com/health/osteoporosis/DS00128" />
+		<LinkItem ContentType="Disease" DocID="DS00594" LinkType="Internal" ObjectID="2FD98E4A-60C4-44F8-8FD03997D304FECE" Title="Spinal tumor" Url="http://www.mayoclinic.com/health/spinal-tumor/DS00594" />
+		<LinkItem ContentType="Disease" DocID="DS00393" LinkType="Internal" ObjectID="256A93D6-5A7F-4D83-A847EE6F829D7FA8" Title="Hydrocephalus" Url="http://www.mayoclinic.com/health/hydrocephalus/DS00393" />
+		<LinkItem ContentType="Disease" DocID="DS00901" LinkType="Internal" ObjectID="108C07BD-E7FF-0DBD-13D49C2A3EAAB8A6" Title="Meningioma" Url="http://www.mayoclinic.com/health/meningioma/DS00901" />
+	</RelatedLinksBox>
+</Disease>

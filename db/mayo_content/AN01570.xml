@@ -1,0 +1,121 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01570
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/trampoline-exercise/AN01570
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1533" Title="Children">
+					<Keyword MCVID="3752" Title="Preschool and elementary">
+						<Keyword MCVID="3755" Title="Elementary students" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C68580EF-E7FF-0DBD-1CA19278D1A96FE2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				trampoline
+			</MetaKeyword>
+			<MetaKeyword>
+				trampoline safety
+			</MetaKeyword>
+			<MetaKeyword>
+				trampoline enclosure
+			</MetaKeyword>
+			<MetaKeyword>
+				trampoline safety enclosure
+			</MetaKeyword>
+			<MetaKeyword>
+				trampoline safety net
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Your worries about trampoline jumping are justified. 
+&lt;/p&gt;
+&lt;p&gt;
+Trampoline jumping poses a high risk of injury for both children and adults. Falling off a trampoline or using a trampoline incorrectly can result in strains, sprains, fractures and other injuries &amp;mdash; including potentially serious head and neck injuries. In fact, the risk of injury is so high that the American Academy of Pediatrics (AAP) says that trampolines should never be used at home or in outdoor playgrounds. The AAP supports limited use of trampolines in supervised training programs, such as gymnastics and diving classes. But even then, strict safety guidelines must be followed. 
+&lt;/p&gt;
+&lt;p&gt;
+It might be difficult to listen to your child&apos;s begging, but the best response to a request for a home trampoline &amp;mdash; whether it&apos;s a full-sized backyard trampoline or a smaller indoor trampoline &amp;mdash; is no. 
+&lt;/p&gt;
+&lt;p&gt;
+If you choose to buy a trampoline despite the risks, follow these safety rules: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use safety nets and pads.&lt;/strong&gt; Install a trampoline enclosure &amp;mdash; a special net designed to surround the trampoline &amp;mdash; and cover the trampoline&apos;s springs, hooks and frame with shock-absorbing pads. Regularly check the equipment for tears and detachments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Place the trampoline on level ground.&lt;/strong&gt; Make sure it&apos;s a safe distance from trees and other structures. Better yet, place the trampoline in a pit so the jumping surface is at ground level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit trampoline activity.&lt;/strong&gt; Allow only one person to use the trampoline at a time &amp;mdash; and never without supervision. Don&apos;t allow somersaults or other potentially risky moves on the trampoline. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discourage unsupervised jumping.&lt;/strong&gt; Don&apos;t install a trampoline ladder, which could tempt young children to use the trampoline alone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, be aware that you might be charged a higher premium for homeowners insurance if you choose to buy a trampoline. Consider checking with your insurance provider about liability coverage as well.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Trampoline jumping: Safe for kids?
+	</Title>
+	<Abstract>
+		Trampoline jumping poses a high risk of injury for both children and adults.
+	</Abstract>
+	<Question>
+		My 7-year-old is begging for a backyard trampoline, but I&apos;m worried that she could hurt herself while jumping. Am I worried for nothing?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02021" LinkType="Internal" ObjectID="E7373336-F052-D531-8967EED8995C0DB5" Title="Test anxiety: Can it be treated?" Url="http://www.mayoclinic.com/health/test-anxiety/AN02021" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02110" LinkType="Internal" ObjectID="4D6A4B03-F668-862A-BF7851DE2F4F7281" Title="Otoplasty" Url="http://www.mayoclinic.com/health/otoplasty/MY02110" />
+		<LinkItem ContentType="Disease" DocID="DS01009" LinkType="Internal" ObjectID="2CFC20C2-E7FF-0DBD-1091AC04DD85951E" Title="Sleepwalking" Url="http://www.mayoclinic.com/health/sleepwalking/DS01009" />
+	</RelatedLinksBox>
+</Answer>

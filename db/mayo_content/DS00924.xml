@@ -1,0 +1,344 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00924
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/squamous-cell-carcinoma/DS00924
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3036" Title="Skin cancer">
+						<Keyword MCVID="4058" Title="Squamous cell carcinoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E3F5DF51-E7FF-0DBD-14F04687352B290A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				squamous cell carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				squamous cell cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				skin cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				nonmelanoma skin cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Squamous cell carcinoma is a form of skin cancer. The other common types of skin cancer are melanoma and basal cell carcinoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Squamous cell carcinoma rarely causes further problems when identified and treated early. Untreated, squamous cell carcinoma can grow large or spread to other parts of your body, causing serious complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Most squamous cell carcinomas result from prolonged exposure to ultraviolet (UV) radiation, either from sunlight or from tanning beds or lamps. Avoiding UV light as much as possible is the best protection against all types of skin cancer. Sunscreen is an important part of a sun safety program, but by itself doesn&apos;t completely prevent squamous cell carcinoma or other types of skin cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a squamous cell carcinoma on the ear and on the lip 
+" Caption="Sun-exposed areas such as the lips and ears are especially likely to develop squamous cell carcinomas. 
+" Height="60" Title="Squamous cell carcinoma" URI="/images/image_popup/thumbs/r7_squamouscellthu.jpg" Width="60" />
+				<Image Alt="Photo of a squamous cell carcinoma on the ear and on the lip 
+" Caption="Sun-exposed areas such as the lips and ears are especially likely to develop squamous cell carcinomas. 
+" Height="400" Title="Squamous cell carcinoma" URI="/images/image_popup/r7_squamouscell.jpg" Width="400" />
+				<HTML>
+					Sun-exposed areas such as the lips and ears are especially likely to develop squamous cell carcinomas. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although squamous cell carcinomas usually develop on sun-exposed skin, they can occur anywhere on your body, including inside your mouth, on your anus, and on the genitals in both men and women. The appearance of the tumors can vary, but the most common forms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A firm, red nodule on your face, lower lip, ears, neck, hands or arms, that may bleed sometimes&lt;/li&gt;
+	&lt;li&gt;A flat lesion with a scaly crust on your face, ears, neck, hands or arms&lt;/li&gt;
+	&lt;li&gt;A new ulceration or raised area on a pre-existing scar or ulcer&lt;/li&gt;
+	&lt;li&gt;An ulcer or flat, white patch inside your mouth&lt;/li&gt;
+	&lt;li&gt;A red, raised patch or ulcerated sore on or in the anus or on your genitals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Squamous cell carcinomas are usually slow growing and can be difficult to spot, especially when they appear on skin that has other signs of sun damage, such as changes in pigmentation, loss of elasticity and wrinkling. They can also be mistaken for actinic keratoses &amp;mdash; rough, scaly, dark brown or pink patches that appear after years of sun exposure. A small number of actinic keratoses eventually develop into squamous cell carcinomas. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Squamous cell carcinomas may be difficult to distinguish from normal skin, especially in their early stages. Yet the sooner they&apos;re diagnosed and treated, the better the outcome. See your dermatologist if you have a sore or scab that doesn&apos;t heal in about two months or a flat patch of scaly skin that won&apos;t go away. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a squamous cell carcinoma on the ear and on the lip 
+" Caption="Sun-exposed areas such as the lips and ears are especially likely to develop squamous cell carcinomas. 
+" Height="60" Title="Squamous cell carcinoma" URI="/images/image_popup/thumbs/r7_squamouscellthu.jpg" Width="60" />
+				<Image Alt="Photo of a squamous cell carcinoma on the ear and on the lip 
+" Caption="Sun-exposed areas such as the lips and ears are especially likely to develop squamous cell carcinomas. 
+" Height="400" Title="Squamous cell carcinoma" URI="/images/image_popup/r7_squamouscell.jpg" Width="400" />
+				<HTML>
+					Sun-exposed areas such as the lips and ears are especially likely to develop squamous cell carcinomas. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Squamous cells lie just below the outer surface of your skin. Squamous cell carcinomas develop when cell death and renewal no longer occur as they should. Ordinarily, new cells push older cells toward your skin&apos;s surface, and the older cells die and are sloughed off &amp;mdash; a process controlled by DNA, your body&apos;s genetic material. But if DNA is damaged, this orderly pattern is disrupted, causing cells to grow out of control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The DNA-UV connection&lt;/strong&gt; &lt;br /&gt;
+Most of the damage to DNA in skin cells results from exposure to UV radiation from sunlight and commercial tanning lamps and beds. The damage is cumulative, so the more time you spend in the sun or in a tanning booth, the greater your chance of developing skin cancer. Your risk increases even more if most of your outdoor exposure occurs at times of the day when the sun is strongest. 
+&lt;/p&gt;
+&lt;p&gt;
+Although sun exposure causes most cases of squamous cell cancinoma, other factors also can lead to this type of cancer, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Therapeutic radiation.&lt;/strong&gt; Psoralen plus ultraviolet A (PUVA) treatments for psoriasis and X-rays to the head or neck increase your risk of squamous cell carcinoma as well as of melanoma, the most deadly form of skin cancer. It can take years for skin cancers to develop, and radiation-induced carcinomas can occur later in life due to radiation treatments for childhood acne or ringworm. The likelihood that therapeutic radiation will cause cancer depends on a number of factors, including the pigmentation in your skin and the total dose of radiation you receive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical toxins.&lt;/strong&gt; Arsenic, a toxic metal that&apos;s found widely in the environment, is a well-known cause of squamous cell carcinoma and other cancers. Though arsenic contaminates the soil, air and groundwater, most people get their greatest exposure in food, especially seafood, rice, mushrooms and chicken. Farmers, refinery workers, and people who drink contaminated well water or live near smelting plants are likely to ingest higher levels of arsenic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Human papillomavirus (HPV).&lt;/strong&gt; This group of viruses has more than 100 strains, many of which are sexually transmitted. Some of the viruses cause genital warts. Others can lead to cancer of the vagina, cervix or penis. Now, researchers think that infection with certain types of HPV may also play a role in the development of squamous cell skin cancers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressant drugs.&lt;/strong&gt; Many people who take medications to prevent organ rejection after transplant surgery develop squamous cell carcinoma, though symptoms may not appear for years after transplantation. People who have had heart transplants are at greatest risk because they tend to take more immune-suppressing drugs at higher doses than do people who have other types of transplants.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing where skin cancer develops 
+" Caption="Skin cancer begins in the cells that make up the outer layer (epidermis) of your skin. A type of skin cancer called basal cell carcinoma can occur in the basal cells, which are located at the base of the epidermis and make skin cells that continuously push older cells toward the surface. As new cells move upward, they become more-flattened squamous cells, where a skin cancer called squamous cell carcinoma can occur. Melanoma, another type of skin cancer, arises in the pigment cells (melanocytes), which are also located in the base of the epidermis among the basal cells. 
+" Height="60" Title="Where skin cancer develops" URI="/images/image_popup/thumbs/c7_skincancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing where skin cancer develops 
+" Caption="Skin cancer begins in the cells that make up the outer layer (epidermis) of your skin. A type of skin cancer called basal cell carcinoma can occur in the basal cells, which are located at the base of the epidermis and make skin cells that continuously push older cells toward the surface. As new cells move upward, they become more-flattened squamous cells, where a skin cancer called squamous cell carcinoma can occur. Melanoma, another type of skin cancer, arises in the pigment cells (melanocytes), which are also located in the base of the epidermis among the basal cells. 
+" Height="459" Title="Where skin cancer develops" URI="/images/image_popup/c7_skincancer.jpg" Width="400" />
+				<HTML>
+					Skin cancer begins in the cells that make up the outer layer (epidermis) of your skin. A type of skin cancer called basal cell carcinoma can occur in the basal cells, which are located at the base of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can contribute to squamous cell carcinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic sun exposure.&lt;/strong&gt; Spending a lot of time in the sun &amp;mdash; or in commercial tanning booths &amp;mdash; is the most common cause of squamous cell carcinoma. The threat is greater if you live in an area that&apos;s sunny most of the time. The risk is also greater if most of your exposure occurred when you were young or you inherited a sensitivity that causes your DNA to sustain more damage than usual from UV light.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of tanning beds.&lt;/strong&gt; The risk of squamous cell carcinoma is more than doubled in people who use tanning beds regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fair skin.&lt;/strong&gt; If you have very light skin or freckle or sunburn easily, you&apos;re more likely to develop skin cancer than is someone with a darker complexion. Fair-skinned people of Northern European ancestry are particularly at risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Squamous cell carcinoma is more likely to occur in older adults. Most cases occur in people over 45 years old. However, squamous cell carcinoma is occurring with increasing frequency in younger people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are far more likely to develop squamous cell carcinoma than women are, probably because of their greater exposure to the sun.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A personal history of skin cancer.&lt;/strong&gt; If you&apos;ve had squamous cell carcinoma once, you&apos;re much more likely to develop it again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history of skin cancer.&lt;/strong&gt; If members of your immediate family have had skin cancer, your risk of developing squamous cell carcinoma is higher.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; People with weakened immune systems are at greater risk of many diseases, including skin cancer. This includes people who have chronic leukemias, other cancers or HIV/AIDS, and those who have undergone organ transplants or who are, for other reasons, taking medications that suppress the immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rare genetic disorder.&lt;/strong&gt; People with xeroderma pigmentosum&lt;strong&gt;,&lt;/strong&gt; which causes an extreme sensitivity to sunlight, have a greatly increased risk of developing skin cancer because they have little or no ability to repair skin damaged by ultraviolet light.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking may increase your risk of squamous cell carcinoma, and your risk is especially high if you are a current smoker. Tobacco may damage DNA, making cancerous changes in cells more likely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin inflammation or injury.&lt;/strong&gt; You have a slightly higher chance of developing squamous cell carcinoma if you have a large scar, a skin infection or an inflammatory skin disease, such as psoriasis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When treated early, squamous cell carcinomas generally cause no problems. Untreated squamous cell carcinoma can destroy healthy tissue around the tumor, spread to the lymph nodes or other organs, and may be fatal, although this is uncommon. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have had organ transplants or have chronic lymphocytic leukemia or HIV/AIDS are far more likely to have an aggressive form of squamous cell carcinoma than are people who are otherwise healthy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a skin wound or lesion that concerns you, call your doctor. He or she may refer you to a doctor who specializes in the diagnosis and treatment of skin conditions (dermatologist). In order to ensure a timely examination, be sure to mention when you make your appointment that your doctor has suggested you be evaluated for possible skin cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve already had skin cancer, you&apos;re at significantly increased risk of a second cancer. Talk with your dermatologist about how often you should be screened for a recurrence. If you have a new wound or lesion that you suspect may be cancerous, schedule an appointment with your dermatologist as soon as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your medical history&lt;/strong&gt;&lt;strong&gt;,&lt;/strong&gt; including other conditions for which you&apos;ve been treated. Be sure to include any radiation therapy you may have received, even years ago.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any exposure to excessive UV light,&lt;/strong&gt; including sunlight or tanning beds. For example, your doctor will be interested to know if you have worked as an outdoor lifeguard or spent lots of time at the beach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of immediate family members who have had skin cancer. &lt;/strong&gt;Skin cancer in a parent, grandparent, aunt, uncle or sibling is all important history to share with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medications and natural remedies.&lt;/strong&gt; Include any prescription or over-the-counter medications you&apos;re taking, as well as all vitamins, supplements or herbal remedies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find&lt;/strong&gt;&lt;strong&gt; a family member or friend who can join you for your appointment&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Although skin cancer is usually highly treatable, just hearing the word &quot;cancer&quot; can make it difficult for most people to focus on what the doctor says next. Take someone along who can help remember all the information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about squamous cell carcinoma. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have skin cancer? What kind?&lt;/li&gt;
+	&lt;li&gt;How is this type of skin cancer different from other types?&lt;/li&gt;
+	&lt;li&gt;Is this type of cancer likely to spread?&lt;/li&gt;
+	&lt;li&gt;Has my cancer spread?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of this treatment?&lt;/li&gt;
+	&lt;li&gt;Will I have a scar after treatment?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of this condition recurring?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of other types of skin cancer?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent skin cancer?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up visits after I finish treatment?&lt;/li&gt;
+	&lt;li&gt;Are my family members at risk of skin cancer?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice this skin growth or lesion?&lt;/li&gt;
+	&lt;li&gt;Has it grown significantly since you first found it?&lt;/li&gt;
+	&lt;li&gt;Is the growth or lesion painful?&lt;/li&gt;
+	&lt;li&gt;Do you have any other growths or lesions that concern you?&lt;/li&gt;
+	&lt;li&gt;Have you had a previous skin cancer?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had skin cancer? What kind?&lt;/li&gt;
+	&lt;li&gt;How much exposure to the sun or tanning beds did you have as a child?&lt;/li&gt;
+	&lt;li&gt;How much exposure to the sun or tanning beds do you have now?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications?&lt;/li&gt;
+	&lt;li&gt;Are you currently or have you previously used herbal remedies?&lt;/li&gt;
+	&lt;li&gt;Have you ever received radiation therapy for another medical condition?&lt;/li&gt;
+	&lt;li&gt;Have you ever taken medications that suppress your immune system?&lt;/li&gt;
+	&lt;li&gt;What other significant medical conditions have you been treated for, including in your childhood?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you now or have you ever had a job that may have exposed you to pesticides or herbicides?&lt;/li&gt;
+	&lt;li&gt;Do you now or have you ever relied on well water as your primary water source?&lt;/li&gt;
+	&lt;li&gt;Do you take precautions to stay safe in the sun, such as avoiding midday sun and using sunscreen?&lt;/li&gt;
+	&lt;li&gt;Do you examine your own skin on a regular basis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+In the time leading up to your appointment, talk with family members to find out whether any of your close relatives have been diagnosed or treated for skin cancer, and what kind. This will help your doctor diagnose your condition and plan the most effective treatment and follow-up care plan for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose squamous cell cancer, your doctor will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask for your medical history,&lt;/strong&gt; including any history of skin cancer in your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check the affected area of skin visually.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Possibly, remove a small skin sample (biopsy)&lt;/strong&gt; for examination under a microscope. This is often done by shaving off the top layers of skin with a surgical blade. Tumors that have spread deeper into the skin may be partially or completely removed (incisional or excisional biopsy). Talk to your doctor about the types of biopsies and their potential for scarring before having the procedure. After the skin sample is removed, it&apos;s usually sent to a pathologist who has special expertise in diagnosing skin samples.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most squamous cell carcinomas can be completely removed with relatively minor surgery or occasionally with a topical medication. The type of squamous cell carcinoma treatment usually depends on the size, location and aggressiveness of the tumor and may include one or more of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simple excision.&lt;/strong&gt; In this procedure, your doctor cuts out the cancerous tissue and a surrounding margin of healthy skin. Your doctor may recommend a wide excision &amp;mdash; removing additional normal skin around the tumor &amp;mdash; in some cases. To minimize scarring, especially on your face, consult a doctor skilled in skin reconstruction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mohs surgery.&lt;/strong&gt; This is often considered the most effective treatment for squamous cell carcinomas, especially those that are larger than about 3/4 of an inch (2 centimeters), have recurred, or are located on the face, mucous membranes or genital area. During the procedure, your doctor removes the tumor layer by layer, examining each layer under the microscope until no abnormal cells remain. This allows the entire growth to be removed without taking an excessive amount of surrounding healthy skin. Because it requires particular expertise, Mohs surgery should only be performed by doctors specifically trained in the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser therapy.&lt;/strong&gt; An intense beam of light vaporizes growths, usually with little damage to surrounding tissue and with a reduced risk of bleeding, swelling and scarring. Lasers are often used to treat superficial carcinomas on the lips.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing.&lt;/strong&gt; This involves removing cancerous cells by freezing them with liquid nitrogen (cryosurgery). It&apos;s effective for small squamous cell carcinomas, but isn&apos;t recommended for larger tumors or those on your nose, ears or eyelids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; This may be an option for treating large cancers on the eyelids, lips and ears &amp;mdash; areas that are difficult to treat surgically &amp;mdash; or for tumors too deep to cut out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; For very superficial cancers, creams or lotions containing anti-cancer agents, such as 5-fluorouracil, may be applied directly to your skin. Some of these medications can cause severe inflammation and scarring, so be sure to discuss potential complications with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most squamous cell carcinomas can be prevented. To protect yourself: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid the midday sun.&lt;/strong&gt; Sunlight is strongest between 10 a.m. and 4 p.m., so try to schedule outdoor activities for other times of the day, even in winter or when it&apos;s cloudy. You absorb UV radiation year-round, and clouds offer little protection from damaging rays. Keep in mind that sunlight is more intense when it reflects off water, sand and snow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen year-round.&lt;/strong&gt; Choose a sunscreen that blocks both UVA and UVB types of radiation from the sun and has an SPF of at least 15. Apply sunscreen generously, and reapply every two hours &amp;mdash; or more often if you&apos;re swimming or perspiring. The American Academy of Dermatology recommends using a broad-spectrum sunscreen with an SPF of 30 or more. Even the best sunscreen might be less effective than the SPF number on the bottle would lead you to believe if it isn&apos;t applied thoroughly or thickly enough, or if it&apos;s perspired away or washed off while swimming. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective clothing.&lt;/strong&gt; Because no sunscreen provides complete protection, it&apos;s important to also wear tightly woven clothing that covers your arms and legs and a broad-brimmed hat rather than a baseball cap or visor. Some companies sell photoprotective clothing. Your dermatologist can recommend an appropriate brand. And don&apos;t forget sunglasses. Look for those that provide full protection from both UVA and UVB rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tanning beds.&lt;/strong&gt; People may claim that indoor tanning is less damaging than natural sunlight, but the opposite may be true. Tanning beds emit UVA rays, which penetrate deeper into your skin and are more likely to cause cancerous lesions. If you can&apos;t resist the sun-tanned look, choose self-tanning lotions or sprays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware that some medications make your skin more sensitive to the sun.&lt;/strong&gt; Some common prescription and over-the-counter drugs make your skin more sensitive to sunlight. These include some antibiotics, high blood pressure medications, ibuprofen (Advil, Motrin, others) and the acne medication isotretinoin (Amnesteem, Claravis, Sotret). Ask your pharmacist about the side effects of any medications you take. If they make you more sun sensitive, take extra precautions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perform regular skin checks.&lt;/strong&gt; Examine your skin often for new growths or changes in existing moles, freckles, bumps and birthmarks. Don&apos;t forget to check your scalp, ears, genital area and buttocks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Squamous cell carcinoma
+	</Title>
+	<Abstract>
+		Squamous cell carcinoma &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this common skin cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00657" LinkType="Internal" ObjectID="B384DE16-2A5D-9994-E670963F50D3A098" Title="Video: Skin cancer &amp;mdash; How skin cancer develops" Url="http://www.mayoclinic.com/health/melanoma/MM00657" />
+		<LinkItem ContentType="SlideShow" DocID="DS00575" LinkType="Internal" ObjectID="11287FB2-A504-4685-BD105A052BE13370" Title="Slide show: Melanoma pictures to help identify skin cancer" Url="http://www.mayoclinic.com/health/melanoma/DS00575" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01304" LinkType="Internal" ObjectID="65329962-9362-DEE8-4A2B81FF86331B19" Title="Mohs surgery" Url="http://www.mayoclinic.com/health/mohs-surgery/MY01304" />
+		<LinkItem ContentType="Disease" DocID="DS00190" LinkType="Internal" ObjectID="81E0130C-ACF2-4643-808CF68E16384B08" Title="Skin cancer" Url="http://www.mayoclinic.com/health/skin-cancer/DS00190" />
+		<LinkItem ContentType="Article" DocID="MY01350" LinkType="Internal" ObjectID="411E3C71-B074-4E63-341FF33B9CD3722C" Title="Best sunscreen: Understand sunscreen options" Url="http://www.mayoclinic.com/health/best-sunscreen/MY01350" />
+		<LinkItem ContentType="Disease" DocID="DS00193" LinkType="Internal" ObjectID="314A4C2A-D3AD-46E8-8730C1905D41C7CF" Title="Psoriasis" Url="http://www.mayoclinic.com/health/psoriasis/DS00193" />
+	</RelatedLinksBox>
+</Disease>

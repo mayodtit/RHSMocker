@@ -1,0 +1,125 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02181
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/home-sperm-test/AN02181
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-09
+		</UpdateDate>
+		<PublicationDate>
+			2012-05-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2397" Title="Infertility">
+						<Keyword MCVID="3302" Title="Male infertility">
+							<Keyword MCVID="3322" Title="Low sperm count" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			36F2D789-B022-7CA7-2EE13F5D43F7BC8B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sperm count
+			</MetaKeyword>
+			<MetaKeyword>
+				fertility test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A new home sperm test is now available that measures your sperm count &amp;mdash; the number of sperm in the fluid (semen) ejaculated during an orgasm. The test requires a man to ejaculate into a collection cup. The semen is transferred into a bottle of solution and mixed. Then six drops are placed onto a testing device. Results are read after seven minutes. The test detects a protein found only in sperm. A positive result indicates that your sperm count is above 20 million sperm per milliliter of semen, near the low threshold of &quot;normal.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Fertility experts express caution about using a home sperm test to assess your fertility. A semen analysis is an important tool in assessing male fertility. But it is by no means a direct measure of a man&apos;s fertility. The typical semen analysis performed by an infertility specialist assesses the following characteristics: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Semen volume&lt;/li&gt;
+	&lt;li&gt;Total sperm number (sperm count)&lt;/li&gt;
+	&lt;li&gt;Sperm concentration&lt;/li&gt;
+	&lt;li&gt;Vitality (percent alive)&lt;/li&gt;
+	&lt;li&gt;Movement (motility)&lt;/li&gt;
+	&lt;li&gt;Shape (morphology)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+No one of these characteristics alone can predict the fertility potential of a man. In fact, only half the infertile men have recognizable causes of infertility detectable by semen analysis. Many men with low sperm counts have fathered children, and many men with high sperm counts have been unsuccessful in fathering children. The only true measure of fertility is the ability to cause a pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Instructions with the home sperm test say that if your sperm count is below 20 million sperm per milliliter (negative), you should consult a doctor about a complete fertility evaluation. However, a positive result does not mean you don&apos;t have fertility issues. Male fertility is complicated, with many contributing factors. 
+&lt;/p&gt;
+&lt;p&gt;
+One situation where the test might have some value: If a woman is late in the fertility life span (older than age 38), her partner might do a quick home sperm test at the outset of trying to get pregnant, to see if there&apos;s cause for further testing. Better to identify an issue early when the fertility clock is ticking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Is a home sperm test useful?
+	</Title>
+	<Abstract>
+		Mayo specialist cautions about using a home sperm test to assess your fertility.
+	</Abstract>
+	<Question>
+		Is there a home sperm test that can tell me whether I&apos;m fertile or not?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01189" LinkType="Internal" ObjectID="A5ABBAB7-89E8-4994-94A4A32CE3524E6A" Title="Male masturbation: Does frequency affect male fertility?" Url="http://www.mayoclinic.com/health/male-masturbation/AN01189" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00104" LinkType="Internal" ObjectID="BC50D0DD-E7FF-0DBD-107893C2F894FAD6" Title="Intrauterine insemination (IUI)" Url="http://www.mayoclinic.com/health/intrauterine-insemination/MY00104" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01648" LinkType="Internal" ObjectID="52C2A4CD-D51A-5516-57462451EECCE9F1" Title="In vitro fertilization (IVF)" Url="http://www.mayoclinic.com/health/in-vitro-fertilization/MY01648" />
+		<LinkItem ContentType="Disease" DocID="DS01038" LinkType="Internal" ObjectID="28DFF4EE-E7FF-0DBD-14CF93141A06B62F" Title="Male infertility" Url="http://www.mayoclinic.com/health/male-infertility/DS01038" />
+		<LinkItem ContentType="Disease" DocID="DS01057" LinkType="Internal" ObjectID="FDA8A33A-E7FF-0DBD-10FCF3AF0B544AFF" Title="Klinefelter syndrome" Url="http://www.mayoclinic.com/health/klinefelter-syndrome/DS01057" />
+		<LinkItem ContentType="Disease" DocID="DS00618" LinkType="Internal" ObjectID="43D97C63-2A5D-9994-E05C930C1F82F35F" Title="Varicocele" Url="http://www.mayoclinic.com/health/Varicocele/DS00618" />
+		<LinkItem ContentType="Disease" DocID="DS01049" LinkType="Internal" ObjectID="8B5D3F76-E7FF-0DBD-18972BEE0E8AF194" Title="Low sperm count" Url="http://www.mayoclinic.com/health/low-sperm-count/DS01049" />
+		<LinkItem ContentType="Answer" DocID="AN01305" LinkType="Internal" ObjectID="0482A36E-2A5D-9994-E659E52D1802DD2A" Title="Abnormal sperm morphology: What does it mean?" Url="http://www.mayoclinic.com/health/sperm-morphology/AN01305" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02078" LinkType="Internal" ObjectID="BD384E2A-A8A1-F09E-8B994003A6EB84F7" Title="Sperm donation" Url="http://www.mayoclinic.com/health/sperm-donation/MY02078" />
+	</RelatedLinksBox>
+</Answer>

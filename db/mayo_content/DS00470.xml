@@ -1,0 +1,442 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00470
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cushings-syndrome/DS00470
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-11
+		</UpdateDate>
+		<PublicationDate>
+			2003-02-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1496" Title="Adrenal">
+						<Keyword MCVID="2468" Title="Cushing&apos;s syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			375268B4-E673-4ADA-908E8B7EE2E4026A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Cushing&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal glands
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				corticosteroids
+			</MetaKeyword>
+			<MetaKeyword>
+				cortisol
+			</MetaKeyword>
+			<MetaKeyword>
+				Cushing&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Cushing&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				cushings syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				cushings disease
+			</MetaKeyword>
+			<MetaKeyword>
+				cushings
+			</MetaKeyword>
+			<MetaKeyword>
+				ACTH
+			</MetaKeyword>
+			<MetaKeyword>
+				cushings
+			</MetaKeyword>
+			<MetaKeyword>
+				ectopic ACTH secreting tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				hypercortisolism
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary
+			</MetaKeyword>
+			<MetaKeyword>
+				ACTH producing pituitary adenoma
+			</MetaKeyword>
+			<MetaKeyword>
+				cushing disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cushing&apos;s syndrome occurs when your body is exposed to high levels of the hormone cortisol for a long time. The most common cause of Cushing&apos;s syndrome, sometimes called hypercortisolism, is the use of oral corticosteroid medication. The condition can also occur when your body makes too much cortisol. 
+&lt;/p&gt;
+&lt;p&gt;
+Too much cortisol can produce some of the hallmark signs of Cushing&apos;s syndrome &amp;mdash; a fatty hump between your shoulders, a rounded face, and pink or purple stretch marks on your skin. Cushing&apos;s syndrome can also result in high blood pressure, bone loss and, on occasion, diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for Cushing&apos;s syndrome can return your body&apos;s cortisol production to normal and noticeably improve your symptoms. The earlier treatment begins, the better your chances for recovery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Cushing&apos;s syndrome 
+" Caption="Left untreated, Cushing&apos;s syndrome can result in exaggerated facial roundness, weight gain around the midsection and upper back, thinning of your arms and legs, and stretch marks. 
+" Height="60" Title="Cushing&apos;s syndrome" URI="/images/image_popup/thumbs/r7_cushingssyndromethu.jpg" Width="60" />
+				<Image Alt="Image showing Cushing&apos;s syndrome 
+" Caption="Left untreated, Cushing&apos;s syndrome can result in exaggerated facial roundness, weight gain around the midsection and upper back, thinning of your arms and legs, and stretch marks. 
+" Height="400" Title="Cushing&apos;s syndrome" URI="/images/image_popup/r7_cushingssyndrome.jpg" Width="400" />
+				<HTML>
+					Left untreated, Cushing&apos;s syndrome can result in exaggerated facial roundness, weight gain around the midsection and upper back, thinning of your arms and legs, and stretch marks. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of Cushing&apos;s syndrome vary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Common signs and symptoms&lt;/strong&gt; involve progressive obesity and skin changes, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weight gain and fatty tissue deposits, particularly around the midsection and upper back, in the face (moon face) and between the shoulders (buffalo hump)&lt;/li&gt;
+	&lt;li&gt;Pink or purple stretch marks (striae) on the skin of the abdomen, thighs, breasts and arms&lt;/li&gt;
+	&lt;li&gt;Thinning, fragile skin that bruises easily&lt;/li&gt;
+	&lt;li&gt;Slow healing of cuts, insect bites and infections&lt;/li&gt;
+	&lt;li&gt;Acne&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Women with Cushing&apos;s syndrome&lt;/strong&gt; may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thicker or more visible body and facial hair (hirsutism)&lt;/li&gt;
+	&lt;li&gt;Irregular or absent menstrual periods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Men with Cushing&apos;s syndrome&lt;/strong&gt; may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Decreased libido&lt;/li&gt;
+	&lt;li&gt;Decreased fertility&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other signs and symptoms&lt;/strong&gt; include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Depression, anxiety and irritability&lt;/li&gt;
+	&lt;li&gt;Loss of emotional control&lt;/li&gt;
+	&lt;li&gt;Cognitive difficulties&lt;/li&gt;
+	&lt;li&gt;New or worsened high blood pressure&lt;/li&gt;
+	&lt;li&gt;Glucose intolerance that may lead to diabetes&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Bone loss, leading to fractures over time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re taking corticosteroid medications to treat a condition, such as asthma, arthritis or inflammatory bowel disease, and experience signs and symptoms that may indicate Cushing&apos;s syndrome, see your doctor for an evaluation. Even if you&apos;re not using these drugs and you have symptoms that suggest the possible presence of Cushing&apos;s syndrome, contact your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Cushing&apos;s syndrome 
+" Caption="Left untreated, Cushing&apos;s syndrome can result in exaggerated facial roundness, weight gain around the midsection and upper back, thinning of your arms and legs, and stretch marks. 
+" Height="60" Title="Cushing&apos;s syndrome" URI="/images/image_popup/thumbs/r7_cushingssyndromethu.jpg" Width="60" />
+				<Image Alt="Image showing Cushing&apos;s syndrome 
+" Caption="Left untreated, Cushing&apos;s syndrome can result in exaggerated facial roundness, weight gain around the midsection and upper back, thinning of your arms and legs, and stretch marks. 
+" Height="400" Title="Cushing&apos;s syndrome" URI="/images/image_popup/r7_cushingssyndrome.jpg" Width="400" />
+				<HTML>
+					Left untreated, Cushing&apos;s syndrome can result in exaggerated facial roundness, weight gain around the midsection and upper back, thinning of your arms and legs, and stretch marks. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cushing&apos;s syndrome results from excess levels of the hormone cortisol in your body. Your endocrine system consists of glands that produce hormones, such as cortisol, that regulate processes throughout your body. These glands include the adrenal glands, pituitary gland, thyroid gland, parathyroid glands, pancreas, ovaries (in females) and testicles (in men). 
+&lt;/p&gt;
+&lt;p&gt;
+Your adrenal glands produce a number of hormones, including cortisol. Cortisol plays a variety of roles in your body. For example, cortisol helps regulate your blood pressure and keeps your cardiovascular system functioning normally. It also helps your body respond to stress and regulates the way you convert (metabolize) proteins, carbohydrates and fats in your diet into usable energy. However, when the level of cortisol is too high in your body, you may develop Cushing&apos;s syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The role of corticosteroids&lt;/strong&gt; &lt;br /&gt;
+Cushing&apos;s syndrome can develop from a cause that originates outside of your body (exogenous Cushing&apos;s syndrome). Taking corticosteroid medications in high doses over an extended period of time may result in Cushing&apos;s syndrome. These medications, such as prednisone, have the same effects as does the cortisol produced by your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may prescribe corticosteroids to treat inflammatory diseases, such as rheumatoid arthritis, lupus and asthma, or to prevent your body from rejecting a transplanted organ. Because the doses required to treat these conditions are often higher than the amount of cortisol your body normally needs each day, the effects of excess cortisol can occur. 
+&lt;/p&gt;
+&lt;p&gt;
+People can also develop Cushing&apos;s from injectable corticosteroids &amp;mdash; for example, repeated injections for joint pain, bursitis and back pain. While certain inhaled steroid medicines (taken for asthma) and steroid skin creams (for skin disorders such as eczema) are in the same general category of drugs, they&apos;re generally not involved in Cushing&apos;s syndrome unless taken in high doses. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your body&apos;s own overproduction&lt;/strong&gt; &lt;br /&gt;
+The condition may also be due to your body&apos;s own overproduction of cortisol (endogenous Cushing&apos;s syndrome). This may occur from excess production by one or both adrenal glands, or overproduction of the adrenocorticotropic hormone (ACTH), which normally regulates cortisol production. In these cases, Cushing&apos;s syndrome may be related to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A pituitary gland tumor.&lt;/strong&gt; A noncancerous (benign) tumor of the pituitary gland, located at the base of the brain, secretes an excess amount of ACTH, which in turn stimulates the adrenal glands to make more cortisol. When this form of the syndrome develops, it&apos;s called Cushing&apos;s disease. It occurs much more often in women and is the most common form of endogenous Cushing&apos;s syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An ectopic ACTH-secreting tumor.&lt;/strong&gt; Rarely, when a tumor develops in an organ that normally does not produce ACTH, the tumor will begin to secrete this hormone in excess, resulting in Cushing&apos;s syndrome. These tumors, which can be noncancerous (benign) or cancerous (malignant), are usually found in a lung, pancreas, thyroid or thymus gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A primary adrenal gland disease.&lt;/strong&gt; In some people, the cause of Cushing&apos;s syndrome is excess cortisol secretion that doesn&apos;t depend on stimulation from ACTH and is associated with disorders of the adrenal glands. The most common of these disorders is a noncancerous tumor of the adrenal cortex, called an adrenal adenoma. Cancerous tumors of the adrenal cortex are rare, but they can cause Cushing&apos;s syndrome as well. Malignant tumors of the adrenal glands (adrenocortical carcinoma) are rare, and sometimes produce excess cortisol. Occasionally, benign, nodular enlargement of both adrenal glands can result in Cushing&apos;s syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Familial Cushing&apos;s syndrome.&lt;/strong&gt; Rarely, people inherit a tendency to develop tumors on one or more of their endocrine glands, affecting cortisol levels and causing Cushing&apos;s syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endocrine system 
+" Caption="The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+" Height="60" Title="Endocrine system" URI="/images/image_popup/thumbs/r7_endocrinesystemthu.jpg" Width="60" />
+				<Image Alt="Illustration showing endocrine system 
+" Caption="The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+" Height="500" Title="Endocrine system" URI="/images/image_popup/r7_endocrinesystem.jpg" Width="400" />
+				<HTML>
+					The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you don&apos;t receive prompt treatment for Cushing&apos;s syndrome, other complications may occur, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone loss (osteoporosis), which can result in unusual bone fractures, such as rib fractures and fractures of the bones in the feet&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Frequent or unusual infections&lt;/li&gt;
+	&lt;li&gt;Loss of muscle mass and strength&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When the cause of Cushing&apos;s syndrome is a pituitary tumor (Cushing&apos;s disease), it can sometimes lead to other problems, such as interfering with the production of other hormones that the pituitary controls. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to an endocrinologist, a doctor who specializes in endocrine (hormonal) disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to prepare for your appointment so that you can make the most of your time with your doctor. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. For example, if you&apos;ve had headaches more frequently or if you&apos;ve been feeling down or more tired than usual, this is important information to share with your doctor. Also tell your doctor about changes in your physical appearance, such as weight gain, new acne or increased body hair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any changes in your personal relationships and in your sex life. Let your doctor know if the people closest to you have noticed that you seem irritable or that you seem to have more mood swings than in the past. It may help to take along a photo of yourself that shows any changes in your physical appearance since you&apos;ve started experiencing symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins, creams or supplements, that you&apos;re currently taking or have used in the past. Include on your list the specific name, dose and dates of any steroid medications you&apos;ve taken in the past, such as cortisone injections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For Cushing&apos;s syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of diagnostic tests do I need? How are these tests performed?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Will my physical signs and symptoms improve with treatment? Will I see a difference in my appearance as well as in the way I feel?&lt;/li&gt;
+	&lt;li&gt;Will treatment help make me feel more emotionally stable?&lt;/li&gt;
+	&lt;li&gt;What long-term impact could each treatment option have? Will there be an impact on my ability to have children?&lt;/li&gt;
+	&lt;li&gt;How will you follow my response to treatment over time?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional? Have they gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your sexual performance or your interest in sex?&lt;/li&gt;
+	&lt;li&gt;For women, has your menstrual cycle changed or have you stopped having your period?&lt;/li&gt;
+	&lt;li&gt;Have you gained weight? On what part of your body?&lt;/li&gt;
+	&lt;li&gt;Have you had difficulty controlling your emotions?&lt;/li&gt;
+	&lt;li&gt;Have you noticed that you bruise more easily, or that wounds and infections take longer to heal than in the past?&lt;/li&gt;
+	&lt;li&gt;Do you have weakness in your muscles, such as difficulty getting out of the tub or walking stairs?&lt;/li&gt;
+	&lt;li&gt;Have you developed new acne or more body or facial hair?&lt;/li&gt;
+	&lt;li&gt;Have you been taking a corticosteroid medication? For how long?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to either improve or worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diagnosing Cushing&apos;s syndrome can be a long and extensive process. You may not have any firm answers about your condition until you&apos;ve had a series of medical appointments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cushing&apos;s syndrome can be difficult to diagnose, particularly endogenous Cushing&apos;s, because other conditions share the same signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will conduct a physical exam, looking for signs of Cushing&apos;s syndrome. He or she may suspect Cushing&apos;s syndrome if you have signs such as rounding of the face (moon face), a pad of fatty tissue between the shoulders and neck (buffalo hump), and thin skin with bruises and stretch marks. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been taking a corticosteroid medication for a long time, your doctor may suspect that you&apos;ve developed Cushing&apos;s syndrome as a result of this medication. If you haven&apos;t been using a corticosteroid medication, these diagnostic tests may help pinpoint the cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Urine and blood tests.&lt;/strong&gt; These tests measure hormone levels in your urine and blood and show whether your body is producing excessive cortisol. For the urine test, you may be asked to collect your urine over a 24-hour period. Both the urine and blood samples will be sent to a laboratory to be analyzed for cortisol levels.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor might also recommend other specialized tests that evaluate the blood and urine to help determine if Cushing&apos;s syndrome is present and to help identify the underlying source of any excess production. These tests often involve measuring cortisol levels before and after stimulation or suppression with other hormone medications. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Saliva test.&lt;/strong&gt; Cortisol levels normally rise and fall throughout the day. In people without Cushing&apos;s syndrome, levels of cortisol drop significantly in the evening. By analyzing cortisol levels from a small sample of saliva collected late at night, doctors can see if cortisol levels are too high, suggesting a diagnosis of Cushing&apos;s.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Computerized tomography (CT) scans or magnetic resonance imaging (MRI) scans can provide images of your pituitary and adrenal glands to detect abnormalities, such as tumors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As these tests help your doctor diagnose Cushing&apos;s syndrome, they may also rule out medical conditions with similar signs and symptoms. For example, polycystic ovary syndrome &amp;mdash; a hormone disorder in women with enlarged ovaries &amp;mdash; shares some of the same signs and symptoms as Cushing&apos;s has, such as excessive hair growth and irregular menstrual periods. Depression, eating disorders and alcoholism also can partially mimic Cushing&apos;s syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for Cushing&apos;s syndrome are designed to lower the high level of cortisol in your body. The best treatment for you depends on the cause of the syndrome. Treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Reducing corticosteroid use.&lt;/strong&gt; If the cause of Cushing&apos;s syndrome is long-term use of corticosteroid medications, your doctor may be able to keep your Cushing&apos;s signs and symptoms under control by reducing the dosage of the drug over a period of time, while still adequately managing your asthma, arthritis or other condition. For many of these medical problems, your doctor can prescribe noncorticosteroid drugs, which will allow him or her to reduce the dosage or eliminate the use of corticosteroids altogether.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Don&apos;t reduce the dose of corticosteroid drugs or stop taking them on your own. Do so only under your doctor&apos;s supervision. Abruptly discontinuing these medications could lead to deficient cortisol levels. Slowly tapering off corticosteroid drugs allows your body to resume normal cortisol production. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; If the cause of Cushing&apos;s syndrome is a tumor, your doctor may recommend complete surgical removal. Pituitary tumors are typically removed by a neurosurgeon, who may perform the procedure through your nose. If a tumor is present in the adrenal glands, lungs or pancreas, the surgeon can remove it through a standard operation or in some cases by using minimally invasive surgical techniques, with smaller incisions.
+	&lt;/p&gt;
+	&lt;p&gt;
+	After the operation, you&apos;ll need to take cortisol replacement medications to provide your body with the correct amount of cortisol. In most cases, you&apos;ll eventually experience a return of normal adrenal hormone production, and your doctor can taper off the replacement drugs. However, this process can take up to a year or longer. In some instances, people with Cushing&apos;s syndrome never experience a resumption of normal adrenal function; they then need lifelong replacement therapy. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; If the surgeon can&apos;t totally remove a pituitary tumor, he or she will usually prescribe radiation therapy to be used in conjunction with the operation. Additionally, radiation may be used for people who aren&apos;t suitable candidates for surgery. Radiation can be given in small doses over a six-week period, or by a technique called stereotactic radiosurgery or gamma-knife radiation. In the latter procedure, administered as a single treatment, a large dose of radiation is delivered to the tumor, and the radiation exposure to surrounding tissues is minimized.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications.&lt;/strong&gt; Medications can be used to control cortisol production when surgery and radiation don&apos;t work. Medications may also be used before surgery in people who have become very sick with Cushing&apos;s syndrome. Doctors recommend drug therapy before surgery to improve signs and symptoms and minimize surgical risk. Medications to control excessive production of cortisol include ketoconazole (Nizoral), mitotane (Lysodren) and metyrapone (Metopirone). 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In some cases, the tumor or its treatment will cause other hormones produced by the pituitary or adrenal gland to become deficient and your doctor will recommend hormone replacement medications. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If none of these treatment options is effective, your doctor may recommend surgical removal of your adrenal glands (bilateral adrenalectomy). This procedure will cure excess production of cortisol. However, your ACTH levels will remain high, possibly causing excess pigmentation of your skin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The length of your recovery from Cushing&apos;s syndrome will depend on the severity and cause of your condition. Remember to be patient. You didn&apos;t develop Cushing&apos;s syndrome overnight and your symptoms won&apos;t disappear overnight, either. In the meantime, these tips may help you on your journey back to health. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increase activities slowly.&lt;/strong&gt; You may be in such a hurry to get your old self back that you push yourself too hard too fast, but your weakened muscles need a slower approach. Work up to a reasonable level of exercise or activity that feels comfortable without overdoing it. You&apos;ll improve little by little, and your persistence will be rewarded.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat sensibly.&lt;/strong&gt; Nutritious, wholesome foods provide a good source of fuel for your recovering body and can help you lose the extra pounds that you gained from Cushing&apos;s syndrome. Make sure you&apos;re getting enough calcium and vitamin D. Taken together, they help your body absorb calcium, which can help strengthen your bones, counteracting the bone density loss that often occurs with Cushing&apos;s syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your mental health.&lt;/strong&gt; Depression can be a side effect of Cushing&apos;s syndrome, but it can also persist or develop after treatment begins. Don&apos;t ignore your depression or wait it out. Seek help promptly from your doctor or a therapist if you&apos;re depressed, overwhelmed or having difficulty coping during your recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently soothe aches and pains.&lt;/strong&gt; Hot baths, massages and low-impact exercises, such as water aerobics and tai chi, can help alleviate some of the muscle and joint pain that accompanies Cushing&apos;s syndrome recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise your brain.&lt;/strong&gt; If you&apos;re recovering from any cognitive difficulties as a result of Cushing&apos;s syndrome, mental exercises, such as math problems and crossword puzzles, may improve your brain function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Support groups can be valuable in dealing with Cushing&apos;s syndrome and recovery. They bring you together with other people who are coping with the same kinds of challenges, along with their families and friends, and offer a setting in which youe can share common problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about support groups in your community. Your local health department, public library and telephone book and the Internet also may be good sources to find a support group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cushing&apos;s syndrome
+	</Title>
+	<Abstract>
+		Cushing&apos;s syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment of this disorder caused by excess cortisol.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,343 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00975
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hiccups/DS00975
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="4932" Title="Diaphragm">
+						<Keyword MCVID="2504" Title="Hiccups" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6DD57E-E7FF-0DBD-1ABC5BABB890BFAC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hiccups
+			</MetaKeyword>
+			<MetaKeyword>
+				singultus
+			</MetaKeyword>
+			<MetaKeyword>
+				hiccoughs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hiccups are involuntary contractions of the diaphragm &amp;mdash; the muscle that separates your chest from your abdomen and plays an important role in breathing. Each contraction is followed by a sudden closure of your vocal cords, which produces the characteristic &quot;hic&quot; sound. 
+&lt;/p&gt;
+&lt;p&gt;
+Hiccups may result from a large meal, alcoholic beverages or sudden excitement. In some cases, hiccups may be a sign of an underlying medical condition. For most people, a bout of hiccups usually lasts only a few minutes. Rarely, hiccups may persist for months. This can result in malnutrition and exhaustion. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing what causes hiccups
+" Caption="Hiccups are caused by involuntary contractions of your diaphragm &amp;mdash; the muscle that separates your chest from your abdomen and plays an important role in breathing. This involuntary contraction causes your vocal cords to close very briefly, which produces the characteristic sound of a hiccup. 
+" Height="60" Title="Hiccups: What causes them" URI="/images/image_popup/thumbs/r7_hiccupsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing what causes hiccups
+" Caption="Hiccups are caused by involuntary contractions of your diaphragm &amp;mdash; the muscle that separates your chest from your abdomen and plays an important role in breathing. This involuntary contraction causes your vocal cords to close very briefly, which produces the characteristic sound of a hiccup. 
+" Height="398" Title="Hiccups: What causes them" URI="/images/image_popup/r7_hiccups.jpg" Width="400" />
+				<HTML>
+					Hiccups are caused by involuntary contractions of your diaphragm &amp;mdash; the muscle that separates your chest from your abdomen and plays an important role in breathing. This involuntary contraction ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The characteristic sound of a hiccup is the only sign. Sometimes the only symptom is a slight tightening sensation in your chest, abdomen or throat that precedes the sound. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment to see your doctor if your hiccups last more than 48 hours or if they are so severe that they cause problems with eating, sleeping or breathing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common triggers for short-term hiccups include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating too much&lt;/li&gt;
+	&lt;li&gt;Drinking carbonated beverages&lt;/li&gt;
+	&lt;li&gt;Drinking too much alcohol&lt;/li&gt;
+	&lt;li&gt;Sudden temperature changes&lt;/li&gt;
+	&lt;li&gt;Excitement or emotional stress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hiccups that last more than 48 hours may be caused by a variety of factors, which are generally grouped into the following categories: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve damage or irritation&lt;/strong&gt; &lt;br /&gt;
+The most common cause of long-term hiccups is damage or irritation of the vagus nerves or phrenic nerves, which serve the diaphragm muscle. Factors that may cause damage or irritation to these nerves include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A hair or something else in your ear touching your eardrum&lt;/li&gt;
+	&lt;li&gt;Sore throat or laryngitis&lt;/li&gt;
+	&lt;li&gt;A tumor, cyst or goiter in your neck&lt;/li&gt;
+	&lt;li&gt;Gastroesophageal reflux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Central nervous system disorders&lt;/strong&gt; &lt;br /&gt;
+A tumor or infection in your central nervous system or damage to your central nervous system as a result of trauma can disrupt your body&apos;s normal control of the hiccup reflex. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Multiple sclerosis&lt;/li&gt;
+	&lt;li&gt;Tumors&lt;/li&gt;
+	&lt;li&gt;Meningitis&lt;/li&gt;
+	&lt;li&gt;Encephalitis&lt;/li&gt;
+	&lt;li&gt;Traumatic brain injury&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Metabolic disorders and drugs&lt;/strong&gt; &lt;br /&gt;
+Long-term hiccups can be triggered by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alcoholism&lt;/li&gt;
+	&lt;li&gt;Anesthesia&lt;/li&gt;
+	&lt;li&gt;Barbiturates&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Electrolyte imbalance&lt;/li&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+	&lt;li&gt;Steroids&lt;/li&gt;
+	&lt;li&gt;Tranquilizers&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of hiccups include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are much more likely to develop long-term hiccups than are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mental or emotional issues.&lt;/strong&gt; Anxiety, stress and excitement have been associated with some cases of short-term and long-term hiccups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Some people develop hiccups after undergoing general anesthesia or after procedures that involve abdominal organs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prolonged hiccups may interfere with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Speech&lt;/li&gt;
+	&lt;li&gt;Eating&lt;/li&gt;
+	&lt;li&gt;Sleeping&lt;/li&gt;
+	&lt;li&gt;Post-surgical wound healing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician about your persistent hiccups, he or she may refer you to a doctor who specializes in neurological or gastrointestinal disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your hiccups start?&lt;/li&gt;
+	&lt;li&gt;How often do they occur?&lt;/li&gt;
+	&lt;li&gt;Is there anything that worsens or alleviates them?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+	&lt;li&gt;Have you had a sore throat or earache?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may perform a neurological exam, to check your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Sight and sense of touch&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor suspects an underlying medical condition may be causing your hiccups, he or she may recommend one or more of the following tests: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;/strong&gt;&lt;br /&gt;
+Samples of your blood may be checked for signs of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Kidney disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt;&lt;br /&gt;
+These types of tests may be able to detect anatomical abnormalities that may be affecting the vagus nerve, phrenic nerve or diaphragm. Imaging tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest X-ray&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT) scan&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Endoscopic tests&lt;/strong&gt;&lt;br /&gt;
+These procedures utilize a thin, flexible tube containing a tiny camera, which is passed down your throat to check for problems in your esophagus or windpipe. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of hiccups go away on their own, without medical treatment. If an underlying medical condition is causing your hiccups, treatment of that illness may eliminate the hiccups. The following treatments may be considered for hiccups that have lasted longer than two days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Drugs commonly used to treat long-term hiccups include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chlorpromazine, classified as an antipsychotic&lt;/li&gt;
+	&lt;li&gt;Metoclopramide (Reglan), an anti-nausea drug&lt;/li&gt;
+	&lt;li&gt;Baclofen (Lioresal), a muscle relaxant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt; &lt;br /&gt;
+If less invasive treatments aren&apos;t effective, your doctor may recommend an injection of an anesthetic to block your phrenic nerve to stop hiccups. Another option is to surgically implant a battery-operated device to deliver mild electrical stimulation to your vagus nerve. This procedure is most commonly used to treat epilepsy, but it has also helped control persistent hiccups. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no surefire way to stop hiccups, if you have a bout of hiccups that lasts longer than a few minutes, the following home remedies may provide relief: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breathe into a paper bag&lt;/li&gt;
+	&lt;li&gt;Gargle with ice water&lt;/li&gt;
+	&lt;li&gt;Hold your breath&lt;/li&gt;
+	&lt;li&gt;Sip cold water&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When long-term hiccups don&apos;t respond to other remedies, alternative treatments, such as hypnosis and acupuncture, may be helpful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be able to decrease your frequency of short-term hiccups by avoiding common hiccup triggers, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating large meals&lt;/li&gt;
+	&lt;li&gt;Drinking carbonated beverages or alcohol&lt;/li&gt;
+	&lt;li&gt;Sudden changes in temperature&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hiccups
+	</Title>
+	<Abstract>
+		Hiccups &amp;mdash; Comprehensive overview covers causes, treatment and self-care for hiccups.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+	</RelatedLinksBox>
+</Disease>

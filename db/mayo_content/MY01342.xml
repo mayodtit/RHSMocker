@@ -1,0 +1,259 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01342
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-18
+		</UpdateDate>
+		<PublicationDate>
+			2010-08-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4711" Title="Hormone therapy">
+							<Keyword MCVID="4712" Title="Hormone therapy for breast cancer" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1D781C30-C869-3159-EF4990B2752876CF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hormone therapy for breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				tamoxifen
+			</MetaKeyword>
+			<MetaKeyword>
+				hormonal therapy for breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				aromatase inhibitors
+			</MetaKeyword>
+			<MetaKeyword>
+				endocrine therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				adjuvant therapy for breast cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hormone therapy for breast cancer uses drug treatments that target breast cancers which are sensitive to certain hormones. The most common forms of hormone therapy for breast cancer work either by blocking estrogen from attaching to cancer cells or by decreasing your body&apos;s production of estrogen. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormone therapy for breast cancer is most commonly given after you have had an operation to remove the cancer. Your doctor may recommend using hormone therapy prior to an operation in order to shrink a tumor. If cancer has already spread, hormone therapy for breast cancer may shrink and control it. You&apos;ll likely take hormone therapy for breast cancer for at least five years. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some breast cancers are fed by the hormone estrogen. Doctors refer to these tumors as estrogen receptor positive. If your doctor determines that your breast cancer is estrogen-receptor positive &amp;mdash; via microscopic analysis of a tumor that&apos;s been biopsied or removed &amp;mdash; hormone therapy for breast cancer can be used to deprive the tumor of estrogen. Hormone therapy should be considered for all estrogen receptor positive breast cancer, no matter what the cancer&apos;s size or stage. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormone therapy for breast cancer can help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prevent cancer from coming back in the same area after a tumor has been removed&lt;/li&gt;
+	&lt;li&gt;Decrease the risk of cancer developing in other breast tissue&lt;/li&gt;
+	&lt;li&gt;Slow or stop the growth of cancer that has spread&lt;/li&gt;
+	&lt;li&gt;Reduce the size of a tumor prior to surgery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hormone therapy drugs can have side effects, but each drug has different side effects. Ask your doctor about the possible side effects of the particular drugs you&apos;ll receive. Some people experience no side effects, but the most common side effects of hormone therapy for breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hot flashes&lt;/li&gt;
+	&lt;li&gt;Vaginal discharge&lt;/li&gt;
+	&lt;li&gt;Irregular menstrual periods&lt;/li&gt;
+	&lt;li&gt;Vaginal dryness or irritation&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Skin rash&lt;/li&gt;
+	&lt;li&gt;Joint and muscle pain&lt;/li&gt;
+	&lt;li&gt;Impotence in men&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common, more-serious side effects of hormone therapy medications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots in veins&lt;/li&gt;
+	&lt;li&gt;Endometrial cancer or uterine cancer&lt;/li&gt;
+	&lt;li&gt;Cataracts&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Osteoporosis&lt;/li&gt;
+	&lt;li&gt;Broken bones due to bone loss&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Women who take the anti-estrogen drug tamoxifen should not become pregnant while taking the drug or for two months after the end of hormone therapy with tamoxifen, as it may cause harm to the fetus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you begin hormone therapy for breast cancer, discuss with your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The specific type of hormone therapy that best fits your situation&lt;/li&gt;
+	&lt;li&gt;The benefits this treatment may have for you&lt;/li&gt;
+	&lt;li&gt;The risks of using hormone therapy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re a premenopausal woman, talk to your doctor about appropriate birth control options during hormone treatment for breast cancer. Women taking tamoxifen shouldn&apos;t become pregnant because the medication may harm the fetus. A form of birth control that doesn&apos;t involve hormones is typically recommended during hormone therapy and for approximately two months after you finish treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hormone therapy is usually prescribed as a pill taken orally once a day beginning after surgery and chemotherapy is completed. Hormonal therapy can be taken at the same time as radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+In certain situations your doctor may recommend hormone therapy before an operation in an attempt to shrink the tumor and make the operation easier. The specific type, timing and length of hormone therapy that&apos;s right for you depend on your individual medical situation. Below are the most common types of hormone therapy medications used to treat breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tamoxifen&lt;/strong&gt; &lt;br /&gt;
+Tamoxifen is a drug that blocks the effects of estrogen in the body. It&apos;s in a class of medications known as anti-estrogens or selective estrogen receptor modulators (SERMs). Tamoxifen is typically taken for a total of five years, although research is ongoing to determine the ideal length of treatment with tamoxifen. Tamoxifen can be used by women before or after menopause, as well as by men who have breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Common side effects of tamoxifen are similar to the symptoms of menopause and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hot flashes&lt;/li&gt;
+	&lt;li&gt;Vaginal discharge&lt;/li&gt;
+	&lt;li&gt;Irregular menstrual periods&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Vaginal dryness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Aromatase inhibitors&lt;/strong&gt; &lt;br /&gt;
+Aromatase inhibitors are a class of medicines that reduce the amount of estrogen in your body, depriving breast cancer cells of the hormones they need to grow and thrive. 
+&lt;/p&gt;
+&lt;p&gt;
+Three aromatase inhibitors are currently used in the treatment of some women with breast cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anastrozole (Arimidex)&lt;/li&gt;
+	&lt;li&gt;Exemestane (Aromasin)&lt;/li&gt;
+	&lt;li&gt;Letrozole (Femara)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aromatase inhibitors may be prescribed for postmenopausal women to treat early-stage breast cancer and prevent breast cancer recurrence. They also may be used to slow disease progression in postmenopausal women who have breast cancer that has recurred or spread (metastatic breast cancer). Aromatase inhibitors aren&apos;t used to treat breast cancer in women who still have menstrual cycles (premenopausal women) because these medications don&apos;t block the production of estrogen from the ovaries. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options with aromatase inhibitors usually involve one of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Treatment with tamoxifen for two to five years, followed by treatment with aromatase inhibitors for up to another five years.&lt;/li&gt;
+	&lt;li&gt;Treatment with aromatase inhibitors alone for five years.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The ideal length of hormone therapy with aromatase inhibitors is still under investigation. 
+&lt;/p&gt;
+&lt;p&gt;
+Common side effects of aromatase inhibitors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hot flashes&lt;/li&gt;
+	&lt;li&gt;Joint pain and stiffness&lt;/li&gt;
+	&lt;li&gt;Vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Bone thinning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although tamoxifen and aromatase inhibitors are the most common forms of hormone therapy for breast cancer, other hormonal therapies are available, as well. Talk to your doctor about the specific hormone therapy regimen that&apos;s best for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll meet with your cancer doctor (oncologist) regularly for follow-up visits while you are taking hormone therapy for breast cancer. Your oncologist will ask about any side effects you&apos;re experiencing. Many side effects can be controlled. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormone therapy following surgery, radiation or chemotherapy has been shown to reduce the risk of breast cancer coming back or new cancer developing in people with early-stage estrogen receptor positive breast cancer. It can also effectively reduce the risk of metastatic breast cancer growth and progression in people with hormone-sensitive tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your circumstances, you may undergo tests to monitor your medical situation and watch for cancer recurrence or progression while you&apos;re taking hormone therapy. Results of these tests can give your doctor an idea of how you&apos;re responding to hormone therapy, and your therapy may be adjusted accordingly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hormone therapy for breast cancer
+	</Title>
+	<Abstract>
+		Hormone therapy for breast cancer &amp;mdash; Overview covers why it&apos;s done, risks and results.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</TestProcedure>

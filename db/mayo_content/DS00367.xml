@@ -1,0 +1,369 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00367
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/essential-tremor/DS00367
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-12
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2968" Title="Movement">
+						<Keyword MCVID="2970" Title="Essential tremor" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F6E4B5CA-03A1-41F8-B2D3FC0DDFB12021
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				essential tremor
+			</MetaKeyword>
+			<MetaKeyword>
+				tremor
+			</MetaKeyword>
+			<MetaKeyword>
+				tremors
+			</MetaKeyword>
+			<MetaKeyword>
+				shaky hands
+			</MetaKeyword>
+			<MetaKeyword>
+				familial tremor
+			</MetaKeyword>
+			<MetaKeyword>
+				movement disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				movement disorders
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Essential tremor is a disorder of the nervous system that causes a rhythmic shaking. Essential tremor can affect almost any part of your body, but the trembling occurs most often in your hands &amp;mdash; especially when you try to do simple tasks, such as drinking from a glass, tying shoelaces, writing or shaving. Essential tremor also may affect your head, voice, arms or legs. 
+&lt;/p&gt;
+&lt;p&gt;
+Although usually not a dangerous condition, essential tremor worsens over time and can be severe in some people. It isn&apos;t caused by other diseases, although it&apos;s sometimes confused with Parkinson&apos;s disease. Essential tremor can occur at any age but is most common in older adults. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing essential tremor test 
+" Caption="One test used to evaluate essential tremor involves having you draw a spiral. The spiral on the left was drawn by a hand affected by essential tremor. The spiral on the right was drawn by an unaffected hand. 
+" Height="60" Title="Essential tremor test" URI="/images/image_popup/thumbs/r7_essentialtremorthu.jpg" Width="60" />
+				<Image Alt="Illustration showing essential tremor test 
+" Caption="One test used to evaluate essential tremor involves having you draw a spiral. The spiral on the left was drawn by a hand affected by essential tremor. The spiral on the right was drawn by an unaffected hand. 
+" Height="230" Title="Essential tremor test" URI="/images/image_popup/r7_essentialtremor.jpg" Width="400" />
+				<HTML>
+					One test used to evaluate essential tremor involves having you draw a spiral. The spiral on the left was drawn by a hand affected by essential tremor. The spiral on the right was drawn by an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Essential tremor signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Begin gradually&lt;/li&gt;
+	&lt;li&gt;Worsen with movement&lt;/li&gt;
+	&lt;li&gt;Usually occur in the hands first, affecting one hand or both hands&lt;/li&gt;
+	&lt;li&gt;Can include a &quot;yes-yes&quot; or &quot;no-no&quot; motion of the head&lt;/li&gt;
+	&lt;li&gt;Are aggravated by emotional stress, fatigue, caffeine or extremes of temperature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Essential tremor vs. Parkinson&apos;s disease&lt;br /&gt;
+&lt;/strong&gt;Many people associate tremors with Parkinson&apos;s disease, but the two conditions differ in key ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;When tremors occur.&lt;/strong&gt; Essential tremor of the hands typically occurs when you use your hands. Tremors from Parkinson&apos;s are most prominent when your hands are at your sides or resting in your lap.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Associated conditions.&lt;/strong&gt; Essential tremor doesn&apos;t cause other health problems, whereas Parkinson&apos;s is associated with a stooped posture, slow movement and a shuffling gait. However, people with essential tremor may sometimes develop other neurological signs and symptoms &amp;mdash; such as an unsteady gait (ataxia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parts of body affected.&lt;/strong&gt; Essential tremor can involve your hands, head, voice and legs. Tremors from Parkinson&apos;s typically affect your hands but not your head or voice.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About half of essential tremor cases appear to occur because of a genetic mutation. This is referred to as familial tremor. What causes essential tremor in people without a known genetic mutation isn&apos;t clear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are two known risk factors for essential tremor:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic mutation.&lt;/strong&gt; The inherited variety of essential tremor is an autosomal dominant disorder, which means that a defective gene from just one parent is needed to pass on the condition. If you have a parent with a genetic mutation for essential tremor, you have a 50 percent chance of developing the disorder yourself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Essential tremor is more common in middle age and older.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Essential tremor is not life-threatening, but symptoms often worsen over time. If the tremors become severe, you may find it difficult to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hold a cup or glass without spilling&lt;/li&gt;
+	&lt;li&gt;Eat normally&lt;/li&gt;
+	&lt;li&gt;Put on makeup or shave&lt;/li&gt;
+	&lt;li&gt;Talk, if your voice box or tongue is affected&lt;/li&gt;
+	&lt;li&gt;Write &amp;mdash; handwriting may become increasingly large, shaky and illegible&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You will probably first discuss your symptoms with your family doctor. He or she may refer you to a neurologist for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To make the most of your time with your doctor, it&apos;s good to write down important information, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of all your symptoms&lt;/li&gt;
+	&lt;li&gt;A list of all your medications and dosages, including nonprescription drugs and supplements&lt;/li&gt;
+	&lt;li&gt;Questions for the doctor, such as what tests or treatments he or she may recommend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a family history of tremor?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a head injury?&lt;/li&gt;
+	&lt;li&gt;What parts of your body are affected?&lt;/li&gt;
+	&lt;li&gt;Does anything make your tremors better or worse?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no specific test for essential tremor. Determining the diagnosis is often a matter of ruling out other conditions that could be causing your symptoms. To do this, your doctor may suggest the following:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological exam&lt;br /&gt;
+&lt;/strong&gt;This exam surveys your nervous system functioning, including checking your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tendon reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength and tone&lt;/li&gt;
+	&lt;li&gt;Ability to feel certain sensations&lt;/li&gt;
+	&lt;li&gt;Posture and coordination&lt;/li&gt;
+	&lt;li&gt;Gait&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;br /&gt;
+&lt;/strong&gt;Your blood and urine may be tested for problems such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thyroid disease&lt;/li&gt;
+	&lt;li&gt;Drug side effects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Performance tests&lt;br /&gt;
+&lt;/strong&gt;To evaluate the tremor itself, you may be asked to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drink from a glass&lt;/li&gt;
+	&lt;li&gt;Hold your arms outstretched&lt;/li&gt;
+	&lt;li&gt;Write&lt;/li&gt;
+	&lt;li&gt;Draw a spiral&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing essential tremor test 
+" Caption="One test used to evaluate essential tremor involves having you draw a spiral. The spiral on the left was drawn by a hand affected by essential tremor. The spiral on the right was drawn by an unaffected hand. 
+" Height="60" Title="Essential tremor test" URI="/images/image_popup/thumbs/r7_essentialtremorthu.jpg" Width="60" />
+				<Image Alt="Illustration showing essential tremor test 
+" Caption="One test used to evaluate essential tremor involves having you draw a spiral. The spiral on the left was drawn by a hand affected by essential tremor. The spiral on the right was drawn by an unaffected hand. 
+" Height="230" Title="Essential tremor test" URI="/images/image_popup/r7_essentialtremor.jpg" Width="400" />
+				<HTML>
+					One test used to evaluate essential tremor involves having you draw a spiral. The spiral on the left was drawn by a hand affected by essential tremor. The spiral on the right was drawn by an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with essential tremor may not require treatment if their symptoms are mild. But if your essential tremor is making it difficult to work or perform daily activities, you may want to discuss treatment options with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; Normally used to treat high blood pressure, beta blockers &amp;mdash; such as propranolol (Inderal), atenolol, metoprolol and nadolol &amp;mdash; help relieve tremors in some people. They may not be an option if you also have asthma, diabetes or certain heart problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure medications.&lt;/strong&gt; Epilepsy drugs &amp;mdash; including primidone (Mysoline), gabapentin (Neurontin) and topiramate (Topamax) &amp;mdash; may be effective in people who don&apos;t respond to beta blockers. The main side effects are drowsiness and flu-like symptoms, which usually disappear within a short time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tranquilizers.&lt;/strong&gt; Doctors sometimes use drugs such as diazepam (Valium) and alprazolam (Xanax) to treat people whose tremors are made much worse by tension or anxiety. Side effects can include confusion and memory loss. Additionally, these medications should be used with caution because they can be habit-forming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;OnabotulinumtoxinA (Botox) injections.&lt;/strong&gt; You&apos;re probably familiar with Botox as a treatment for facial wrinkles, but it can also be useful in treating some types of tremors, especially of the head and voice. Botox injections can improve problems for up to three months at a time. But if it&apos;s used to treat hand tremors, it can sometimes cause weakness in your fingers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Physical therapy exercises can sometimes reduce tremor and improve coordination and muscle control. Occupational therapists may suggest some of the following adaptive devices to reduce the effect of your tremors on your daily activities:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heavier plates, glasses and utensils&lt;/li&gt;
+	&lt;li&gt;Wrist weights&lt;/li&gt;
+	&lt;li&gt;Wider writing implements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery may be an option for people whose tremors are severely disabling and who don&apos;t respond to medications. The type of surgery performed is known as deep brain stimulation.
+&lt;/p&gt;
+&lt;p&gt;
+Deep brain stimulation involves inserting a long, thin electrical probe into your thalamus &amp;mdash; the portion of your brain responsible for causing your tremors. A wire from the probe is tunneled under your skin to your chest, where a pacemaker-like device has been inserted. This device transmits painless electrical pulses to interrupt signals from your thalamus that may be causing your tremors.
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of surgery may include problems with motor control or speech, problems with balance and temporary or permanent cognitive impairment, such as learning difficulties, or problems with your vision. Deep brain stimulation, however, is very effective for severe essential tremor, and these side effects are rare.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of deep brain stimulation 
+" Caption="Deep brain stimulation involves implanting an electrode deep within your brain. The amount of stimulation delivered by the electrode is controlled by a pacemaker-like device placed under the skin in your chest. A wire that travels under your skin connects the device to the electrode. 
+" Height="60" Title="Deep brain stimulation" URI="/images/image_popup/thumbs/r7_deepbrainthu.jpg" Width="60" />
+				<Image Alt="Illustration of deep brain stimulation 
+" Caption="Deep brain stimulation involves implanting an electrode deep within your brain. The amount of stimulation delivered by the electrode is controlled by a pacemaker-like device placed under the skin in your chest. A wire that travels under your skin connects the device to the electrode. 
+" Height="375" Title="Deep brain stimulation" URI="/images/image_popup/r7_deepbrain.jpg" Width="400" />
+				<HTML>
+					Deep brain stimulation involves implanting an electrode deep within your brain. The amount of stimulation delivered by the electrode is controlled by a pacemaker-like device placed under the skin in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following suggestions can sometimes help reduce or relieve tremors:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid caffeine.&lt;/strong&gt; Caffeine can cause your body to produce more adrenaline, which may make your tremors worse. Avoid other stimulants as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use alcohol sparingly.&lt;/strong&gt; Some people notice that their tremors improve slightly after they drink alcohol, but drinking isn&apos;t a good solution for people with essential tremor. That&apos;s because tremors tend to worsen once the effects of alcohol wear off. What&apos;s more, larger amounts of alcohol eventually are needed to relieve tremors, which can lead to chronic alcoholism. If you have essential tremor, it&apos;s best to drink sparingly or not at all.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn to relax.&lt;/strong&gt; Stress tends to make tremors worse, and a relaxed state often improves them. Although it&apos;s not possible to eliminate all stress from your life, you can change how you react to stressful situations using a range of relaxation techniques. Many people also find that physical exercise &amp;mdash; walking, jogging, swimming or biking &amp;mdash; is a great stress reliever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest well.&lt;/strong&gt; Fatigue can exacerbate tremors. Try to get at least seven hours of sound sleep every night. If you have trouble falling asleep, wake up repeatedly, or awaken early and can&apos;t go back to sleep, talk to your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there have been no scientific studies to confirm their benefit in those with essential tremor, the following treatments may be helpful:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This treatment involves inserting extremely thin needles in your skin at strategic points on your body. It&apos;s used for symptomatic relief of a variety of conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; This involves being put into a trance-like state in which you have heightened focus and concentration. Hypnosis is designed to help you gain control over certain behaviors or to cope with a range of medical conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; This involves manipulating your muscles, tendons and ligaments to help you relieve stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; This technique uses electrical sensors to help you learn to use your mind to control bodily functions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For many people, essential tremor can have serious social and psychological consequences. If the effects of essential tremor are making it hard to live your life as fully as you once did, consider joining a support group for people with the disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Support groups aren&apos;t for everyone, but you may find it helpful to have the encouragement of people who understand what you&apos;re going through. Or you might want to consider seeing a counselor or social worker who can help you meet the challenges of living with essential tremor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Essential tremor
+	</Title>
+	<Abstract>
+		Essential tremor &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this movement disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00078" LinkType="Internal" ObjectID="A7A9F759-E7FF-0DBD-1F23DC7EBD002380" Title="Botox injections" Url="http://www.mayoclinic.com/health/botox/MY00078" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00184" LinkType="Internal" ObjectID="47064595-E7FF-0DBD-1AD6370F34F0FBB9" Title="Deep brain stimulation" Url="http://www.mayoclinic.com/health/deep-brain-stimulation/MY00184" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+	</RelatedLinksBox>
+</Disease>

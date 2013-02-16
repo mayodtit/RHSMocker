@@ -1,0 +1,126 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02112
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dry-mouth/AN02112
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-30
+		</UpdateDate>
+		<PublicationDate>
+			2010-10-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1637" Title="Salivary gland">
+						<Keyword MCVID="1638" Title="Dry mouth" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DD01E32A-FD29-FA5D-782DA18557763A5C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dry mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				dry mouth treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				xerostomia
+			</MetaKeyword>
+			<MetaKeyword>
+				dry mouth relief
+			</MetaKeyword>
+			<MetaKeyword>
+				relief for dry mouth
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+The best way to treat your dry mouth depends on what&apos;s causing it. There are some things you can do that will relieve dry mouth temporarily, but the best long-term remedy for dry mouth is to address its cause.
+&lt;/p&gt;
+&lt;p&gt;
+The medical term for dry mouth is xerostomia (zeer-o-STO-me-uh). To relieve your dry mouth:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chew sugar-free gum&lt;/strong&gt; or suck on sugar-free hard candies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your caffeine intake.&lt;/strong&gt; Caffeine can make your mouth drier.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use mouthwashes that contain alcohol&lt;/strong&gt; because they can be drying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop all tobacco use&lt;/strong&gt; if you smoke or chew tobacco.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sip water&lt;/strong&gt; regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter saliva substitutes.&lt;/strong&gt; Look for ones containing carboxymethylcellulose or hydroxyethyl cellulose, such as Biotene Oral Balance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid using over-the-counter antihistamines and decongestants&lt;/strong&gt; because they can make your symptoms worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathe through your nose,&lt;/strong&gt; not your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add moisture to the air at night&lt;/strong&gt; with a room humidifier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Saliva is important to maintaining the health of your teeth and mouth. If you frequently have a dry mouth, steps to protect your oral health may also help your condition.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sugary or acidic foods&lt;/strong&gt; and candies because they increase the risk of tooth decay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brush with a fluoride toothpaste.&lt;/strong&gt; Ask your dentist if you might benefit from prescription fluoride toothpaste.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a fluoride rinse&lt;/strong&gt; or brush-on fluoride gel before bedtime.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If these steps don&apos;t improve your dry mouth, talk to your doctor or dentist. It could be that medications or another condition is the cause. Medications are one of the most common causes of dry mouth. Long-term relief from your dry mouth may mean stopping or changing your medication or its dosage, or addressing underlying health issues.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dry mouth treatment: Tips for controlling dry mouth
+	</Title>
+	<Abstract>
+		Dry mouth: If you have dry mouth, try these tips for relief.
+	</Abstract>
+	<Question>
+		I frequently have a dry mouth. What can I do to relieve this problem?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="HA00034" LinkType="Internal" ObjectID="50B3D1EF-C44D-46A3-A5E06F9AC4F2A836" Title="Dry mouth" Url="http://www.mayoclinic.com/health/dry-mouth/HA00034" />
+	</RelatedLinksBox>
+</Answer>

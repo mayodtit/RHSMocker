@@ -1,0 +1,294 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00641
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/exercise-headaches/DS00641
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="2039" Title="Other">
+							<Keyword MCVID="2075" Title="Exercise headaches" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			79342497-2A5D-9994-EEB8A6B80C43788D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				primary exertional headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				head pain
+			</MetaKeyword>
+			<MetaKeyword>
+				head aches
+			</MetaKeyword>
+			<MetaKeyword>
+				severe headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				exertion
+			</MetaKeyword>
+			<MetaKeyword>
+				sports headaches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exercise headaches occur during or after sustained, strenuous exercise. Activities associated with exercise headaches include running, rowing, tennis, swimming and weightlifting. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors divide exercise headaches into two categories. Primary exercise headaches are usually harmless, aren&apos;t connected to any underlying problems and can often be prevented with medication. Secondary exercise headaches, on the other hand, are caused by an underlying, often serious, problem within the brain &amp;mdash; such as bleeding or a tumor &amp;mdash; or outside the brain &amp;mdash; such as coronary artery disease. Secondary exercise headaches may require emergency medical attention.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Primary exercise headaches&lt;br /&gt;
+&lt;/strong&gt;These headaches:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are usually described as throbbing&lt;/li&gt;
+	&lt;li&gt;Occur during or after strenuous exercise&lt;/li&gt;
+	&lt;li&gt;Affect both sides of the head in most cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary exercise headaches&lt;br /&gt;
+&lt;/strong&gt;These headaches may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The same symptoms as primary exercise headaches&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Double vision&lt;/li&gt;
+	&lt;li&gt;Neck rigidity &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Primary exercise headaches typically last between five minutes and 48 hours, while secondary exercise headaches usually last at least a day and sometimes linger for several days or longer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you experience a headache during or after exercise, consult your doctor. Call your doctor right away if the headache begins abruptly or if it&apos;s your first headache of this type. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Primary exercise headaches&lt;br /&gt;
+&lt;/strong&gt;The exact cause of primary exercise headaches is unknown. One theory is that strenuous exercise dilates blood vessels inside the skull.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary exercise headaches&lt;br /&gt;
+&lt;/strong&gt;Secondary exercise headaches are caused by an underlying problem, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding in the area between the brain and the thin membranes that cover the brain (subarachnoid hemorrhage)&lt;/li&gt;
+	&lt;li&gt;Abnormalities in a blood vessel leading to or within the brain&lt;/li&gt;
+	&lt;li&gt;Cancerous or noncancerous tumors&lt;/li&gt;
+	&lt;li&gt;Obstruction of cerebrospinal fluid flow&lt;/li&gt;
+	&lt;li&gt;Reduced blood flow in the arteries feeding the heart&lt;/li&gt;
+	&lt;li&gt;Sinus infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at greater risk of exercise headaches if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exercise in hot weather&lt;/li&gt;
+	&lt;li&gt;Exercise at high altitude&lt;/li&gt;
+	&lt;li&gt;Have a personal or family history of migraine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Primary exercise headaches occur most often in people in early adulthood or adolescence. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. In some cases, you may be referred to a neurologist. It&apos;s good to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance, such as restricting your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including past illnesses and operations, major stresses or recent life changes, and any medical problems that run in your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For exercise headaches, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing exercise headaches?&lt;/li&gt;
+	&lt;li&gt;Have your exercise headaches been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you had a similar problem in the past?&lt;/li&gt;
+	&lt;li&gt;Have you had other kinds of headaches? Describe them.&lt;/li&gt;
+	&lt;li&gt;Has anyone in your immediate family experienced migraine headaches or exercise headaches?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to help your headaches?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes your headaches worse?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely recommend an imaging test, especially if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your headaches last more than a few hours&lt;/li&gt;
+	&lt;li&gt;Your headaches strike suddenly, like a thunderclap&lt;/li&gt;
+	&lt;li&gt;You&apos;re older than age 40&lt;/li&gt;
+	&lt;li&gt;You have other signs and symptoms, such as nausea, vomiting or vision disturbances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In these cases, different types of imaging tests can help your doctor verify that you have the harmless variety of exercise headache, rather than the type caused by a structural or vascular abnormality.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; CT scan uses X-rays to generate a cross-sectional image of your brain. CT scan can show fresh or recent bleeding into or around the brain and is often used if your headache occurred less than 48 hours beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI&lt;/strong&gt;)&lt;strong&gt;.&lt;/strong&gt; This test uses a magnetic field and radio waves to create cross-sectional images of the structures within your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiography (MRA&lt;/strong&gt;) &lt;strong&gt;and CT angiography.&lt;/strong&gt; These tests visualize the blood vessels leading to and inside your brain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes a spinal tap (lumbar puncture) is needed as well, especially if the headache started abruptly and very recently and brain imaging appears normal.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If no underlying structural or vascular problem is causing your exercise headaches, your doctor may recommend medications to take regularly to help prevent the headaches. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Indomethacin (Indocin), an anti-inflammatory drug, is commonly prescribed.&lt;/li&gt;
+	&lt;li&gt;Propranolol, (Inderal, Inopran XL) a blood pressure medication, also is used to preventive exercise headaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your exercise headaches are predictable, you may be able to take a medication an hour or two before a scheduled event, such as a tennis match or a hike at high altitude. Medications your doctor might prescribe include indomethacin and triptans (Imitrex, Relpax, others), which are commonly used to treat acute migraine headaches. If your exercise headaches are frequent or unpredictable, you might need to take the preventive medicine every day.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exercise headaches tend to occur more often when the weather is hot and humid, or if you&apos;re exercising at high altitudes. If you&apos;re prone to exercise headaches, you may want to avoid exercising in these conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Some people experience exercise headaches only during the performance of certain activities, so they may prevent their headaches by avoiding these activities. A warm-up prior to strenuous exercise also can help prevent exercise headaches.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Exercise headaches
+	</Title>
+	<Abstract>
+		Exercise headaches &amp;mdash; Comprehensive overview covers causes, treatments of this puzzling disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+		<LinkItem ContentType="Disease" DocID="DS00645" LinkType="Internal" ObjectID="7A0632C3-2A5D-9994-E2BD07C6D2B7F680" Title="Sex headaches" Url="http://www.mayoclinic.com/health/sex-headaches/DS00645" />
+	</RelatedLinksBox>
+</Disease>

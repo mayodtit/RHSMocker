@@ -1,0 +1,324 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00688
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ascariasis/DS00688
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-25
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="5006" Title="Roundworm infection">
+							<Keyword MCVID="2539" Title="Ascariasis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			744E6293-2A5D-9994-E7A8F9A95AB07324
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ascariasis
+			</MetaKeyword>
+			<MetaKeyword>
+				ascarid
+			</MetaKeyword>
+			<MetaKeyword>
+				ascaris lumbricoides
+			</MetaKeyword>
+			<MetaKeyword>
+				roundworm infection
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				nematode infection
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal worms
+			</MetaKeyword>
+			<MetaKeyword>
+				helminth
+			</MetaKeyword>
+			<MetaKeyword>
+				helminthic infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ascariasis (as-kuh-RIE-uh-sis) is a type of roundworm infection. These worms are parasites that use your body as a host to mature from larvae or eggs to adult worms and reproduce. Adult worms can be more than a foot (30 centimeters) long. 
+&lt;/p&gt;
+&lt;p&gt;
+Ascariasis is one of the most common human worm infections worldwide, although it&apos;s uncommon in the United States. Because most people have such mild cases of ascariasis, they have no symptoms. But when your body is infested with hundreds of worms, serious symptoms and complications can occur. 
+&lt;/p&gt;
+&lt;p&gt;
+Ascariasis occurs most often in young children and is most prevalent in tropical and subtropical regions of the world &amp;mdash; especially in areas where sanitation and hygiene are poor. In the United States, ascariasis is most likely to occur in rural areas of the Southeast. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of an ascariasis worm
+" Caption="Ascariasis worms are typically pink or white with tapered ends. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male worms are generally smaller. 
+" Height="60" Title="Ascariasis worm" URI="/images/image_popup/thumbs/mcdc7_ascariasisthu.jpg" Width="60" />
+				<Image Alt="Image of an ascariasis worm
+" Caption="Ascariasis worms are typically pink or white with tapered ends. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male worms are generally smaller. 
+" Height="275" Title="Ascariasis worm" URI="/images/image_popup/mcdc7_ascariasis.jpg" Width="400" />
+				<HTML>
+					Ascariasis worms are typically pink or white with tapered ends. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people infected with ascariasis have no symptoms. Moderate to heavy infestations cause symptoms that may vary, depending on which part of your body is affected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;In the lungs&lt;/strong&gt; &lt;br /&gt;
+After you ingest the microscopic ascariasis eggs, they hatch in your small intestine and the larvae migrate through your bloodstream or lymphatic system into your lungs. At this stage, you may experience signs and symptoms similar to asthma or pneumonia, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent cough&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After spending six to 10 days in the lungs, the larvae travel to your throat, where you cough them up and then swallow them. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;In the intestines&lt;/strong&gt; &lt;br /&gt;
+The larvae mature into adult worms in your small intestine, and the adult worms typically live in the intestines until they die. In mild or moderate ascariasis, the intestinal infestation can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vague abdominal pain&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea or bloody stools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a heavy intestinal infestation &amp;mdash; a large number of worms &amp;mdash; you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;A worm in vomit or stool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Consult your doctor if you have persistent abdominal pain, diarrhea or nausea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ascariasis isn&apos;t spread directly from person to person. Instead, a person has to come into contact with soil mixed with human feces that contain ascaris eggs. In many developing countries, human feces are used for fertilizer or poor sanitary facilities allow human waste to mix with local soil in yards, ditches and fields. 
+&lt;/p&gt;
+&lt;p&gt;
+Because small children often play in dirt, infection can occur if they put their dirty fingers in their mouths. Unwashed fruits or vegetables grown in contaminated soil also can transmit the microscopic eggs that cause ascariasis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Life cycle of a worm&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ingestion.&lt;/strong&gt; The microscopic ascariasis eggs can&apos;t become infective without coming into contact with soil. People can accidentally ingest contaminated soil through hand-to-mouth contact or by eating uncooked fruits or vegetables that have been grown in contaminated soil.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Migration.&lt;/strong&gt; Larvae hatch from the eggs in your small intestine and then penetrate the intestinal wall to travel to your lungs via your bloodstream or lymphatic system. After maturing for about a week in your lungs, the larvae break into your airway and travel up your throat, where they&apos;re coughed up and swallowed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maturation.&lt;/strong&gt; Once back in the intestines, the parasites grow into male or female worms. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male worms are generally smaller. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reproduction.&lt;/strong&gt; Male and female worms mate in the small intestine. Female worms can produce 200,000 eggs a day. You expel the eggs in your feces. The fertilized eggs must be in soil for at least 18 days before they become infective. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The whole process &amp;mdash; from egg ingestion to egg deposits &amp;mdash; takes about two or three months. Ascariasis worms can live inside you for a year or two. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of an ascariasis worm
+" Caption="Ascariasis worms are typically pink or white with tapered ends. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male worms are generally smaller. 
+" Height="60" Title="Ascariasis worm" URI="/images/image_popup/thumbs/mcdc7_ascariasisthu.jpg" Width="60" />
+				<Image Alt="Image of an ascariasis worm
+" Caption="Ascariasis worms are typically pink or white with tapered ends. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male worms are generally smaller. 
+" Height="275" Title="Ascariasis worm" URI="/images/image_popup/mcdc7_ascariasis.jpg" Width="400" />
+				<HTML>
+					Ascariasis worms are typically pink or white with tapered ends. Female worms can be more than 15 inches (40 centimeters) long and a little less than a quarter inch (6 millimeters) in diameter. Male ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for ascariasis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Most people who have ascariasis are 10 years old &amp;nbsp;or younger. Children in this age group may be at higher risk because they&apos;re more likely to play in dirt. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Warm climate.&lt;/strong&gt; Ascariasis worms thrive in mild climates. In the United States, ascariasis is more common in the Southeast. But it&apos;s more prevalent in developing countries with warm temperatures year-round. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor sanitation.&lt;/strong&gt; Ascariasis is widespread in developing countries where human feces are allowed to mix with local soil. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild cases of ascariasis usually don&apos;t cause complications. If you have a heavy infestation, potentially dangerous complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nutritional deficiencies.&lt;/strong&gt; Children with ascariasis are especially at risk of nutritional deficiencies. Loss of appetite and insufficient absorption of digested foods can occur.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intestinal blockage and perforation.&lt;/strong&gt; In heavy ascariasis infestation, a mass of worms can block a portion of your intestine, causing severe abdominal cramping and vomiting. The blockage can even perforate the intestinal wall or appendix, causing internal bleeding (hemorrhage ) or appendicitis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Duct blockages.&lt;/strong&gt; In some cases, worms may block the narrow ducts of your liver or pancreas, causing severe pain. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor might refer you to a doctor specializing in disorders of the digestive system (gastroenterologist). You may even need to consult a surgeon if the worms have blocked your intestines. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you may want to write down the answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any worms in your stool or vomit?&lt;/li&gt;
+	&lt;li&gt;Have you traveled to any developing countries lately?&lt;/li&gt;
+	&lt;li&gt;What types of medications and supplements are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical exam, your doctor may press on certain areas of your abdomen to check for pain or tenderness. He or she may also want a sample of your stool for testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In heavy infestations, it&apos;s possible to find worms after you cough or vomit, and the worms can come out of other body openings, such as your mouth or nostrils. &amp;nbsp;If this happens to you, take the worm to your doctor so that he or she can identify it and prescribe the proper treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stool tests&lt;/strong&gt; &lt;br /&gt;
+About two months after you ingest ascariasis eggs, the worms mature and begin laying thousands of eggs a day. These eggs travel through your digestive system and eventually can be found in your stool. To diagnose ascariasis, your doctor will examine your stool for the microscopic eggs and larvae. But eggs won&apos;t appear in stool until at least 40 days after you&apos;re infected. And if you&apos;re infected with only male worms, you won&apos;t have any eggs at all. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+Your blood can be tested for the presence of an increased number of a certain type of white blood cell, called eosinophils. Ascariasis can elevate your eosinophils, but so can other types of health problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; If you&apos;re infested with a large number of worms, the mass of worms may be visible in an X-ray of your abdomen. In some cases, a chest X-ray can reveal the larvae in your lungs. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; An ultrasound may show if any worms are in your pancreas or liver. This technology uses sound waves to create images of internal organs. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT scans or MRIs.&lt;/strong&gt; Both types of tests create detailed images of your internal structures, which can help your doctor detect worms that are blocking ducts in your liver or pancreas. Computerized tomography (CT) combines X-ray images taken from many different angles, whereas magnetic resonance imaging (MRI) uses radio waves and a strong magnetic field. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While symptomatic infections usually warrant treatment, infections with no symptoms typically don&apos;t need to be treated. In some cases, ascariasis will resolve on its own. This occurs when there are no male worms to mate with females, and the females eventually die. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Anti-parasite medications are the first line of treatment against ascariasis. The most common are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Albendazole (Albenza)&lt;/li&gt;
+	&lt;li&gt;Ivermectin (Stromectol)&lt;/li&gt;
+	&lt;li&gt;Mebendazole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These medications work by killing the adult worms. Each medication can be taken as a single dose. Side effects include mild abdominal pain or diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+In cases of heavy infestation, surgery may be necessary to repair damage the worms have caused and to remove worms. Intestinal obstruction or perforation, bile duct obstruction, and appendicitis are complications that may require surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best defense against ascariasis is good hygiene and common sense. Follow these tips to avoid infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good hygiene.&lt;/strong&gt; Ascariasis is spread by ingesting parasite eggs from contaminated soil. Before handling food, always wash your hands with soap and water, and wash fresh fruits and vegetables thoroughly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use care when traveling.&lt;/strong&gt; Ascariasis is the most common roundworm infection in the world, with higher infection rates in developing and warm-climate countries. &amp;nbsp;When traveling, use only bottled water and avoid raw vegetables unless you can peel and wash them yourself. As a rule, eat only foods that are hot and cooked.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ascariasis
+	</Title>
+	<Abstract>
+		Ascariasis &amp;mdash; Comprehensive overview covers causes, treatment and prevention of this roundworm infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,137 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01375
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mononucleosis/AN01375
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-15
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2569" Title="Mononucleosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FDA0EF27-E7FF-0DBD-1A75C7F2358C0846
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mononucleosis
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic mononucleosis
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic mono
+			</MetaKeyword>
+			<MetaKeyword>
+				mono
+			</MetaKeyword>
+			<MetaKeyword>
+				recurring mono
+			</MetaKeyword>
+			<MetaKeyword>
+				epstein-barr virus
+			</MetaKeyword>
+			<MetaKeyword>
+				EBV
+			</MetaKeyword>
+			<MetaKeyword>
+				epstein barr virus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Most people who have infectious mononucleosis, or mono, get it only once. Rarely, however, mononucleosis symptoms may recur months or even years later. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of mononucleosis are caused by infection with the Epstein-Barr virus (EBV). Once you&apos;re infected with EBV, you carry the virus &amp;mdash; usually in a dormant state &amp;mdash; for the rest of your life. Periodically, however, the virus may reactivate. When this happens, the virus can be detected in your saliva &amp;mdash; but you&apos;re not likely to become ill. Rarely, reactivated EBV may cause illness in people who have weak immune systems, such as those who have AIDS. 
+&lt;/p&gt;
+&lt;p&gt;
+Mononucleosis rarely leads to a serious condition called chronic active EBV infection, which is characterized by persistent illness more than six months after the initial mononucleosis diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re experiencing signs or symptoms of mononucleosis &amp;mdash; such as fatigue, weakness, fever, sore throat and swollen lymph nodes &amp;mdash; and you&apos;ve had mono before, consult your doctor to determine the cause of your current symptoms. Keep in mind that many other conditions, such as hepatitis and toxoplasmosis, can mimic the symptoms of mononucleosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mononucleosis: Can it recur?
+	</Title>
+	<Abstract>
+		Rarely, mononucleosis can recur. Learn more about causes and complications.
+	</Abstract>
+	<Question>
+		Can mononucleosis recur? I thought that once you got mono you couldn&apos;t get it again.
+	</Question>
+	<QuestionFirstName>
+		Colleen
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00661" LinkType="Internal" ObjectID="47213948-AFD2-4A44-82709BDB0E16CF5C" Title="Mononucleosis and Epstein-Barr: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/mononucleosis/AN00661" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Disease" DocID="DS00413" LinkType="Internal" ObjectID="8510BDEE-6A0E-41B5-822E98B643884C0E" Title="Guillain-Barre syndrome" Url="http://www.mayoclinic.com/health/guillain-barre-syndrome/DS00413" />
+		<LinkItem ContentType="Disease" DocID="DS00352" LinkType="Internal" ObjectID="5C599D1E-4331-44F9-A48CE7EB9F7F2759" Title="Mononucleosis" Url="http://www.mayoclinic.com/health/mononucleosis/DS00352" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,339 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00425
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gallbladder-cancer/DS00425
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-23
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2241" Title="Gallbladder cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0578836F-18B3-4EA6-8A1D2A3C98F3DCF4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gallbladder cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder cancer symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder cancer symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer of the gallbladder
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder cancer treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gallbladder cancer is cancer that begins in the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver. The gallbladder stores bile, a digestive fluid produced by your liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Gallbladder cancer is uncommon. When gallbladder cancer is discovered at its earliest stages, the chance for a cure is very good. But most gallbladder cancers are discovered at a late stage, when the prognosis is often very poor. 
+&lt;/p&gt;
+&lt;p&gt;
+Gallbladder cancer is difficult to diagnose because it often causes no specific signs or symptoms. Also, the relatively hidden nature of the gallbladder makes it easier for gallbladder cancer to grow without being detected. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of gallbladder cancer 
+" Caption="Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+" Height="60" Title="Gallbladder cancer" URI="/images/image_popup/thumbs/mcdc7_gallbladder_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of gallbladder cancer 
+" Caption="Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+" Height="321" Title="Gallbladder cancer" URI="/images/image_popup/mcdc7_gallbladder_cancer.jpg" Width="400" />
+				<HTML>
+					Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gallbladder cancer signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain, particularly in the upper right portion of the abdomen&lt;/li&gt;
+	&lt;li&gt;Abdominal bloating&lt;/li&gt;
+	&lt;li&gt;Itchiness&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Losing weight without trying&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Yellowing of the skin and whites of the eyes (jaundice)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you experience any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes gallbladder cancer. Doctors know that gallbladder cancer forms when healthy gallbladder cells develop changes (mutations) in their DNA. These mutations cause cells to grow out of control and to continue living when other cells would normally die. The accumulating cells form a tumor that can grow beyond the gallbladder and spread to other areas of the body.
+&lt;/p&gt;
+&lt;p&gt;
+Most gallbladder cancer begins in the glandular cells that line the inner surface of the gallbladder. Gallbladder cancer that begins in this type of cell is called adenocarcinoma. This term refers to the way the cancer cells appear when examined under a microscope. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="60" Title="Gallbladder and bile duct" URI="/images/image_popup/thumbs/r7_gallbladderbileductthu.jpg" Width="60" />
+				<Image Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="333" Title="Gallbladder and bile duct" URI="/images/image_popup/r7_gallbladderbileduct.jpg" Width="400" />
+				<HTML>
+					The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of gallbladder cancer 
+" Caption="Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+" Height="60" Title="Gallbladder cancer" URI="/images/image_popup/thumbs/mcdc7_gallbladder_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of gallbladder cancer 
+" Caption="Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+" Height="321" Title="Gallbladder cancer" URI="/images/image_popup/mcdc7_gallbladder_cancer.jpg" Width="400" />
+				<HTML>
+					Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase the risk of gallbladder cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Gallbladder cancer is more common in women than it is in men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Your risk of gallbladder cancer increases as you age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of gallstones.&lt;/strong&gt; Gallbladder cancer is most common in people who have had gallstones in the past. Still, gallbladder cancer is very rare in these people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other gallbladder diseases and conditions.&lt;/strong&gt; Other gallbladder conditions that can increase the risk of gallbladder cancer include porcelain gallbladder, choledochal cyst and chronic gallbladder infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor or a general practitioner if you have sign or symptoms that worry you. If your doctor suspects you may have gallbladder cancer, you may be referred to a doctor who specializes in treating digestive conditions (gastroenterologist), a surgeon who operates on the liver or gallbladder, or a doctor who specializes in treating cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For gallbladder cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is my stage of gallbladder cancer?&lt;/li&gt;
+	&lt;li&gt;Can you explain the pathology report to me? Can I have a copy of my pathology report?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for my gallbladder cancer?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment option you recommend over the others?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a loved one in my same situation?&lt;/li&gt;
+	&lt;li&gt;Should I get a second opinion from a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing gallbladder cancer&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose gallbladder cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests to evaluate your liver function may help your doctor determine what&apos;s causing your signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Procedures to create images of the gallbladder.&lt;/strong&gt; Imaging tests that can create pictures of the gallbladder include ultrasound, computerized tomography (CT) and magnetic resonance imaging (MRI).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the extent of gallbladder cancer&lt;/strong&gt; &lt;br /&gt;
+Once your doctor diagnoses your gallbladder cancer, he or she works to find the extent (stage) of your cancer. Your gallbladder cancer&apos;s stage helps determine your prognosis and your treatment options. Tests and procedures used to stage gallbladder cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exploratory surgery.&lt;/strong&gt; Your doctor may recommend surgery to look inside your abdomen for signs that gallbladder cancer has spread. In a procedure called laparoscopy, the surgeon makes a small incision in your abdomen and inserts a tiny camera. The camera allows the surgeon to examine organs surrounding your gallbladder for signs that the cancer has spread.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to examine the bile ducts.&lt;/strong&gt; Your doctor may recommend procedures to inject dye into the bile ducts. This is followed by an imaging test that records where the dye goes. These tests can show blockages in the bile ducts. These tests may include endoscopic retrograde cholangiopancreatography, magnetic resonance cholangiography and percutaneous transhepatic cholangiography.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stages of gallbladder cancer&lt;/strong&gt; &lt;br /&gt;
+The stages of gallbladder cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; At this stage, gallbladder cancer is confined to the inner layers of the gallbladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; This stage of gallbladder cancer has grown to invade the outer layer of the gallbladder and may extend beyond the gallbladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; At this stage, gallbladder cancer has grown to invade one or more nearby organs, such as the liver, small intestine or stomach. The gallbladder cancer may have spread to nearby lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; The latest stage of gallbladder cancer includes large tumors that involve multiple nearby organs and tumors of any size that have spread to distant areas of the body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ERCP procedure
+" Caption="Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat, through your stomach and into the upper part of your small intestine. Air is used to inflate your intestinal tract so that your doctor can more easily see the openings of your pancreatic and bile ducts. A dye is then injected into the ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts.
+" Height="60" Title="ERCP procedure" URI="/images/image_popup/thumbs/d7_ercpthu.jpg" Width="60" />
+				<Image Alt="Illustration of ERCP procedure
+" Caption="Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat, through your stomach and into the upper part of your small intestine. Air is used to inflate your intestinal tract so that your doctor can more easily see the openings of your pancreatic and bile ducts. A dye is then injected into the ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts.
+" Height="446" Title="Endoscopic retrograde cholangiopancreatography" URI="/images/image_popup/d7_ercp.jpg" Width="400" />
+				<HTML>
+					Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat,...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What gallbladder cancer treatment options are available to you depend on the stage of your cancer, your overall health and your preferences. The initial goal of treatment is to remove the gallbladder cancer, but when that isn&apos;t possible, other therapies may help control the spread of the disease and keep you as comfortable as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for early-stage gallbladder cancers&lt;/strong&gt; &lt;br /&gt;
+Surgery may be an option if you have an early-stage gallbladder cancer. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the gallbladder.&lt;/strong&gt; Early gallbladder cancer that is confined to the gallbladder is treated with an operation to remove the gallbladder (cholecystectomy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the gallbladder and a portion of the liver.&lt;/strong&gt; Gallbladder cancer that extends beyond the gallbladder and into the liver is sometimes treated with surgery to remove the gallbladder, as well as a portion of the liver and bile ducts that surround the gallbladder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s not clear whether additional treatments after successful surgery can increase the chances that your gallbladder cancer won&apos;t return. Some studies have found this to be the case, so in some instances, your doctor may recommend chemotherapy, radiation therapy or a combination of both after surgery. Discuss the potential benefits and risks of additional treatment to decide what&apos;s right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for late-stage gallbladder cancer&lt;/strong&gt; &lt;br /&gt;
+Surgery can&apos;t cure gallbladder cancer that has spread to other areas of the body. Instead, doctors use treatments that may relieve signs and symptoms of cancer and make you as comfortable as possible. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy is a drug treatment that uses chemicals to kill cancer cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation uses high-powered beams of energy, such as X-rays, to kill cancer cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Procedures to relieve blocked bile ducts&lt;/strong&gt; &lt;br /&gt;
+Advanced gallbladder cancer can cause blockages in the bile ducts, causing further complications. Procedures to relieve the blockage may help. For instance, surgeons can place a hollow metal tube (stent) in a duct to hold it open or surgically reroute bile ducts around the blockage (biliary bypass). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning you have any life-threatening illness can be devastating. And coping with a diagnosis of gallbladder cancer can be especially difficult because the disease often carries a poor prognosis. Some ideas for learning to cope with gallbladder cancer include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask questions about gallbladder cancer.&lt;/strong&gt; Write down questions you have about your cancer. Ask these questions at your next appointment. Also ask your doctor for reliable sources where you can get more information. Knowing more about your gallbladder cancer and your treatment options may make you more comfortable when it comes to making decisions about your care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay connected to friends and family.&lt;/strong&gt; Your cancer diagnosis can be stressful for friends and family, too. Try to keep them involved in your life. Your friends and family will likely ask if there&apos;s anything they can do to help you. Think of tasks you might like help with, such as caring for your home if you have to stay in the hospital or just being there when you want to talk. You may find comfort in the support of a caring group of your friends and family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Find someone you can talk to who has experience with people facing a life-threatening illness. Consult a counselor, medical social worker, clergy member or a support group for people with cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your medical wishes.&lt;/strong&gt; Take steps to ensure that your end-of-life wishes are known and respected. Ask your doctor about advance directives, which allow you to indicate what types of treatment you&apos;d want in the event you can&apos;t communicate your wishes. Also ask about designating a medical power of attorney, which is someone you designate to make your choices for you if you can&apos;t communicate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gallbladder cancer
+	</Title>
+	<Abstract>
+		Gallbladder cancer &amp;mdash; Comprehensive overview covers symptoms, treatment of cancer of the gallbladder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00372" LinkType="Internal" ObjectID="63107CB6-E7FF-0DBD-13EE267CA11A29E0" Title="Cholecystectomy (gallbladder removal)" Url="http://www.mayoclinic.com/health/cholecystectomy/MY00372" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+	</RelatedLinksBox>
+</Disease>

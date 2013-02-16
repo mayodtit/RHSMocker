@@ -1,0 +1,396 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01012
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dwarfism/DS01012
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-27
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="3149" Title="Genetic disorders">
+						<Keyword MCVID="3283" Title="Dwarfism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8D67FF73-E7FF-0DBD-1185FAE57D8EB693
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dwarfism
+			</MetaKeyword>
+			<MetaKeyword>
+				dwarf
+			</MetaKeyword>
+			<MetaKeyword>
+				short stature
+			</MetaKeyword>
+			<MetaKeyword>
+				little people
+			</MetaKeyword>
+			<MetaKeyword>
+				achondroplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				skeletal dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				spondyloepiphyseal dysplasia congenita
+			</MetaKeyword>
+			<MetaKeyword>
+				SEDC
+			</MetaKeyword>
+			<MetaKeyword>
+				pseudoachondroplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				growth hormone deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				Turner syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dwarfism is short stature that results from a genetic or medical condition. Dwarfism is generally defined as an adult height of 4 feet 10 inches or less (147 centimeters). The average adult height among people with dwarfism is 4 feet (122 cm). 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for most dwarfism-related conditions don&apos;t increase stature but may lessen complications. 
+&lt;/p&gt;
+&lt;p&gt;
+People with dwarfism may encounter discrimination. Family support, social networks, advocacy groups and adaptive products enable most people with dwarfism to address challenges in educational, work and social settings. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+More than 200 different medical conditions cause dwarfism. Therefore, dwarfism symptoms &amp;mdash; other than short stature &amp;mdash; vary considerably across the spectrum of disorders. In general, the disorders are divided into two broad categories: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Disproportionate dwarfism.&lt;/strong&gt; If body size is disproportionate, some parts of the body are small, and others are of average size or above-average size. Disorders causing disproportionate dwarfism inhibit the development of bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proportionate dwarfism.&lt;/strong&gt; A body is proportionately small if all parts of the body are small to the same degree and appear to be proportioned like a body of average stature.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Disproportionate dwarfism&lt;/strong&gt;&lt;br /&gt;
+Most people with dwarfism have disorders that cause disproportionately short stature. Usually, this means that a person has an average-size trunk and very short limbs, but some people may have a very short trunk and shortened (but disproportionately large) limbs. The other common characteristic of these disorders is that the head is disproportionately large compared with the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Almost all people with disproportionate dwarfism have normal intellectual capacities. Rare exceptions are usually the result of a secondary factor, such as excess fluid around the brain (hydrocephalus).
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of dwarfism is a disorder called achondroplasia, which causes disproportionately short stature. This disorder usually results in the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An average-size trunk&lt;/li&gt;
+	&lt;li&gt;Short arms and legs, with particularly short upper arms and upper legs&lt;/li&gt;
+	&lt;li&gt;Short fingers, often with a wide separation between the middle and ring fingers &lt;/li&gt;
+	&lt;li&gt;Limited mobility at the elbows&lt;/li&gt;
+	&lt;li&gt;A disproportionately large head, with a prominent forehead and a flattened bridge of the nose&lt;/li&gt;
+	&lt;li&gt;Progressive development of bowed legs (genu varum)&lt;/li&gt;
+	&lt;li&gt;Progressive development of swayed lower back (lordosis)&lt;/li&gt;
+	&lt;li&gt;An adult height around 4 feet &amp;mdash; about 122 cm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another cause of disproportionate dwarfism is a rare disorder called spondyloepiphyseal dysplasia congenita (SEDC). Signs may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A very short trunk, which may or may not be apparent in infancy&lt;/li&gt;
+	&lt;li&gt;A short neck&lt;/li&gt;
+	&lt;li&gt;Shortened arms and legs&lt;/li&gt;
+	&lt;li&gt;Average-size hands and feet&lt;/li&gt;
+	&lt;li&gt;Slightly flattened cheekbones&lt;/li&gt;
+	&lt;li&gt;Hip deformities that result in thighbones turning inward (coxa vara)&lt;/li&gt;
+	&lt;li&gt;A foot that&apos;s twisted or out of shape (clubfoot)&lt;/li&gt;
+	&lt;li&gt;Progressive hunching curvature of the upper spine (kyphosis)&lt;/li&gt;
+	&lt;li&gt;Progressive development of lordosis&lt;/li&gt;
+	&lt;li&gt;Vision and hearing problems&lt;/li&gt;
+	&lt;li&gt;Adult height ranging from 3 feet (91 cm) to just over 4 feet (122 cm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Proportionate dwarfism&lt;/strong&gt;&lt;br /&gt;
+Proportionate dwarfism results from medical conditions present at birth or appearing in early childhood that limit overall growth and development. Therefore, the head, trunk and limbs are all small, but they are proportionate to each other. Because these disorders affect overall growth, many of them result in poor development of one or more body systems. 
+&lt;/p&gt;
+&lt;p&gt;
+Growth hormone deficiency is a relatively common cause of proportionate dwarfism. It occurs when the pituitary gland fails to produce an adequate supply of growth hormone, which is essential for regular childhood growth. Signs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Height below the third percentile on standard pediatric growth charts&lt;/li&gt;
+	&lt;li&gt;Growth rate slower than expected for age&lt;/li&gt;
+	&lt;li&gt;Delayed or no sexual development during adolescence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of disproportionate dwarfism are often present at birth or in early infancy. Proportionate dwarfism may not be immediately apparent. See your child&apos;s doctor if you have any concerns about your child&apos;s growth or overall development. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most dwarfism-related conditions are genetic disorders, but the causes of some disorders are unknown. Most occurrences of dwarfism result from a random genetic mutation in either the father&apos;s sperm or the mother&apos;s egg rather than being in either parent&apos;s complete genetic makeup. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Achondroplasia&lt;/strong&gt; &lt;br /&gt;
+About 80 percent of people with achondroplasia are born to parents of average height. A person with achondroplasia and with two average-size parents received one mutated copy of the gene associated with the disorder and one normal copy of the gene. A person with the disorder may pass along either a mutated or normal copy to his or her own children. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Turner syndrome&lt;/strong&gt;&lt;br /&gt;
+Turner syndrome occurs because of a random deletion or severe alteration of an X chromosome either in the sperm or egg. The X chromosome is one of two chromosomes that determine the sex of a person. A female inherits an X chromosome from each parent, and a male inherits a Y chromosome from his father and an X chromosome from his mother. A girl with Turner syndrome has only one fully functioning copy of the female sex chromosome rather than two. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Growth hormone deficiency&lt;/strong&gt; &lt;br /&gt;
+The cause of growth hormone deficiency can sometimes be traced to a genetic mutation or injury, but for most people with the disorder, no cause can be identified. 
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of dwarfism include deficiencies in other hormones and poor nutrition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of dwarfism-related disorders can vary greatly, but some complications are common to a number of conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Disproportionate dwarfism&lt;/strong&gt;&lt;br /&gt;
+The characteristic features of the skull, spine and limbs shared by most forms of disproportionate dwarfism result in some common problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Delays in motor skills development, such as sitting up, crawling and walking&lt;/li&gt;
+	&lt;li&gt;Frequent ear infections (otitis media) and risk of hearing loss&lt;/li&gt;
+	&lt;li&gt;Bowing of the legs (genu varum)&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing during sleep (sleep apnea)&lt;/li&gt;
+	&lt;li&gt;Pressure on the spinal cord at the base of the skull&lt;/li&gt;
+	&lt;li&gt;Excess fluid around the brain (hydrocephalus)&lt;/li&gt;
+	&lt;li&gt;Crowded teeth&lt;/li&gt;
+	&lt;li&gt;Progressive severe hunching (kyphosis) or swaying (lordosis) of the back&lt;/li&gt;
+	&lt;li&gt;In adulthood, narrowing of the channel in the lower spine (lumbosacral spinal stenosis), resulting in pressure on the spinal cord and subsequent pain or numbness in the legs&lt;/li&gt;
+	&lt;li&gt;Arthritis in adulthood&lt;/li&gt;
+	&lt;li&gt;Weight gain that can further complicate problems with joints and the spine and place pressure on nerves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Proportionate dwarfism&lt;/strong&gt;&lt;br /&gt;
+With proportionate dwarfism, problems in growth and development often result in complications with poorly developed organs. For example, heart problems often present in Turner syndrome can have a significant effect on a child&apos;s general health. An absence of sexual maturation associated with growth hormone deficiency or Turner syndrome affects not only physical development but also social functioning. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy&lt;/strong&gt;&lt;br /&gt;
+Women with disproportionate dwarfism may develop respiratory problems during pregnancy. A cesarean delivery is almost always necessary because the size and shape of the pelvis doesn&apos;t allow for successful vaginal delivery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Public perceptions&lt;/strong&gt;&lt;br /&gt;
+Most people with dwarfism prefer not to be labeled by a condition. However, some people may refer to themselves as dwarfs or little people. The word &quot;midget&quot; is generally considered a derogatory term. 
+&lt;/p&gt;
+&lt;p&gt;
+People of average height may have misconceptions about people with dwarfism. Some wrongly believe that all people with dwarfism have limited intellectual abilities or personality disorders. Judging maturity by height rather than age, some people may treat people with dwarfism as children. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s also a long history of people with dwarfism being treated as spectacles for entertainment. And the portrayal of people with dwarfism in modern movies often resorts to stereotypes. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with dwarfism are particularly vulnerable to teasing and ridicule from classmates. Because dwarfism is relatively uncommon, children may feel isolated from their peers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How you learn whether your child has dwarfism will depend on the degree to which it affects his or her development. Disproportionate dwarfism is usually apparent at birth or early in infancy. Proportionate dwarfism may not be diagnosed until later in childhood or adolescence if your child isn&apos;t growing at an expected rate. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Well-baby visits and annual checkups&lt;/strong&gt; &lt;br /&gt;
+It&apos;s important to take your child to all regularly scheduled well-baby visits and annual appointments throughout childhood. These visits are an opportunity for your child&apos;s doctor to track growth, note delays in expected growth and identify other problems in physical development. 
+&lt;/p&gt;
+&lt;p&gt;
+Questions your child&apos;s doctor might ask you may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What concerns do you have about your child&apos;s growth or development?&lt;/li&gt;
+	&lt;li&gt;How well does he or she eat?&lt;/li&gt;
+	&lt;li&gt;Is your child reaching certain milestones in development, such as rolling over, pushing up, sitting up, crawling, walking or speaking?&lt;/li&gt;
+	&lt;li&gt;Are other members of the family very short, or have others experienced growth delays?&lt;/li&gt;
+	&lt;li&gt;Do you have your child&apos;s height marked on a measuring chart to show the doctor?&lt;/li&gt;
+	&lt;li&gt;Do you have photographs of your child at various ages to show the doctor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Talking to your doctor about dwarfism&lt;/strong&gt; &lt;br /&gt;
+If your family doctor or pediatrician believes that your child exhibits signs of dwarfism, you may want to discuss the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What diagnostic tests will we need?&lt;/li&gt;
+	&lt;li&gt;When will we know the results of the tests?&lt;/li&gt;
+	&lt;li&gt;What specialists will we need to see?&lt;/li&gt;
+	&lt;li&gt;How will we screen for disorders or complications that are commonly associated with the type of dwarfism affecting my child?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my child&apos;s health and development?&lt;/li&gt;
+	&lt;li&gt;Can you suggest educational materials and local support services for dwarfism?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your pediatrician will likely examine a number of factors in order to assess your child&apos;s growth and determine whether he or she has a dwarfism-related disorder. Diagnostic tests may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Measurements.&lt;/strong&gt; A regular part of a well-baby medical examination is the measurement of height, weight and head circumference. At each visit, your pediatrician will plot these measurements on a chart. This chart shows your child&apos;s current percentile ranking for each measurement and expected growth in the future. This information is important for identifying abnormal growth, such as delayed growth or a disproportionately large head. If any trends in these charts are a concern, your pediatrician may make more frequent measurements over a period of several months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Appearance.&lt;/strong&gt; Many distinct facial and skeletal features are associated with each of several dwarfism disorders. Your child&apos;s appearance also may assist your pediatrician in making a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging technology.&lt;/strong&gt; Your doctor may order radiographic studies, such as X-rays, because certain abnormalities of the skull and skeleton can indicate which disorder your child may have. Various imaging devices may also reveal delayed maturation of bones, as is the case in growth hormone deficiency. A magnetic resonance imaging (MRI) scan may reveal abnormalities of the pituitary gland or hypothalamus, both of which play a role in hormone function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic tests.&lt;/strong&gt; Genetic tests are available for many of the known causal genes of dwarfism-related disorders, but these tests often aren&apos;t necessary to make an accurate diagnosis. Your doctor is likely to suggest a test only to distinguish among possible diagnoses when other evidence is unclear or as a part of further family planning. If your pediatrician believes your daughter may have Turner syndrome, then a special laboratory test may be done that assesses the state of X chromosomes extracted from blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Your pediatrician may take a history of stature in siblings, parents, grandparents or other relatives to help determine whether the average range of height in your family includes short stature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone tests.&lt;/strong&gt; Your doctor may order tests that assess levels of growth hormone or other hormones that are critical for childhood growth and development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Health care team&lt;/strong&gt; &lt;br /&gt;
+A number of disorders causing dwarfism can cause a variety of developmental problems and medical complications. Therefore, several specialists may be involved in screening for specific conditions, making diagnoses, recommending treatments and providing care. This team may evolve as your child&apos;s needs change, and your family doctor or pediatrician can coordinate the care. Specialists in your care team may include the following professionals: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hormone disorder specialist (endocrinologist)&lt;/li&gt;
+	&lt;li&gt;Ear, nose and throat (ENT) specialist (otolaryngologist)&lt;/li&gt;
+	&lt;li&gt;Specialist in skeletal disorders (orthopedist)&lt;/li&gt;
+	&lt;li&gt;Heart specialist (cardiologist)&lt;/li&gt;
+	&lt;li&gt;Mental health provider, such as a psychologist or psychiatrist&lt;/li&gt;
+	&lt;li&gt;Nervous system abnormalities specialist (neurologist)&lt;/li&gt;
+	&lt;li&gt;Dental specialist in correcting problems with the alignment of teeth (orthodontist)&lt;/li&gt;
+	&lt;li&gt;Developmental therapist, who specializes in therapy to help your child develop age-appropriate behaviors, social skills and interpersonal skills&lt;/li&gt;
+	&lt;li&gt;Occupational therapist, who specializes in therapy to develop everyday skills and to use adaptive products that help with everyday activities&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most dwarfism treatments don&apos;t increase stature but may alleviate problems caused by complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Common surgical treatments&lt;/strong&gt;&lt;br /&gt;
+Surgical procedures that may correct problems with bones in people with disproportionate dwarfism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inserting metal staples into the ends of long bones where growth occurs (growth plates) in order to correct the direction in which bones are growing&lt;/li&gt;
+	&lt;li&gt;Dividing a limb bone, straightening it and inserting metal plates to hold it in place&lt;/li&gt;
+	&lt;li&gt;Inserting rods or staples to help correct the shape of the spine&lt;/li&gt;
+	&lt;li&gt;Increasing the size of the opening in bones of the spine (vertebrae) to alleviate pressure on the spinal cord&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Limb lengthening&lt;/strong&gt;&lt;br /&gt;
+Some people with dwarfism elect to undergo limb-lengthening surgery. With this procedure, the surgeon divides a long bone into two or more sections, separates the sections slightly and braces the bone and limb with external metal &quot;scaffolding.&quot; Pins and screws on this frame are periodically adjusted to keep tension between the sections, enabling the bone to grow back together gradually into a complete but longer bone. 
+&lt;/p&gt;
+&lt;p&gt;
+This procedure is controversial for many people with dwarfism because, as with all surgeries, there are risks, and because the &quot;correction&quot; in stature may imply there&apos;s something wrong with being short. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone therapy&lt;/strong&gt;&lt;br /&gt;
+Growth hormone deficiency is treated with injections of a synthetic version of the hormone. In most cases, children receive daily injections for several years until they reach a maximum adult height &amp;mdash; often within the average adult range for their family. Treatment may continue throughout adolescence and early adulthood to ensure adult maturation, such as appropriate gain in muscle or fat. The treatment may be supplemented with other related hormones if they are also deficient. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for girls with Turner syndrome also requires estrogen and related hormone therapy in order for them to begin puberty and achieve adult sexual development. Estrogen replacement therapy usually continues throughout life until a woman reaches the average age of menopause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Talk with your pediatrician or a specialist about at-home care. Issues particularly critical for children with disproportionate dwarfism include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Car seats.&lt;/strong&gt; Use an infant car seat with a firm back and neck supports. Continue using a car seat in the rear-facing direction to the highest weight and height possible (and beyond the recommended age limit).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infant carriers and play equipment.&lt;/strong&gt; Avoid infant devices &amp;mdash; such as swings, umbrella strollers, carrying slings, jumper seats and backpack carriers &amp;mdash; that don&apos;t support the neck or that curve the back into a C shape.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adequate support.&lt;/strong&gt; Support your child&apos;s head and neck when he or she is seated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complications.&lt;/strong&gt; Monitor your child for signs of ear infection or sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Posture.&lt;/strong&gt; Promote good posture by providing a footstool and a pillow for the lower back when your child is sitting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Healthy diet.&lt;/strong&gt; Begin healthy eating habits early to avoid later problems with weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Healthy activities.&lt;/strong&gt; Encourage participation in appropriate recreational activities, such as swimming or bicycling. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has dwarfism, you can take a number of steps to help him or her cope with challenges and function independently: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seek help.&lt;/strong&gt; The nonprofit organization Little People of America provides social support, information about disorders, advocacy opportunities and resources. Many people with dwarfism stay actively involved in this organization throughout their lives.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Modify your home.&lt;/strong&gt; Make changes to your home, such as putting specially designed extensions on light switches, installing lower handrails in stairways and replacing doorknobs with levers. The Little People of America website provides links to companies that sell adaptive products, such as size-appropriate furniture and everyday household tools.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to educators.&lt;/strong&gt; Talk to school personnel about what dwarfism is, how it affects your child, what needs your child may have in the classroom and how the school can help meet those needs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk about teasing.&lt;/strong&gt; Encourage your child to talk to you about his or her feelings, and practice responses to insensitive questions and teasing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dwarfism
+	</Title>
+	<Abstract>
+		Dwarfism &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of very short stature.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02180" LinkType="Internal" ObjectID="129379DE-0D72-DE46-E1934E38D7FC825C" Title="Paternal age: How does it affect a baby?" Url="http://www.mayoclinic.com/health/paternal-age/AN02180" />
+	</RelatedLinksBox>
+</Disease>

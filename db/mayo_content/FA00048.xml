@@ -1,0 +1,187 @@
+<FirstAid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FirstAid.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			FirstAid
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FA00048
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/first-aid-spider-bites/FA00048
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-14
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid">
+					<Keyword MCVID="3156" Title="Bites" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3944" Title="Skin hair and nails">
+					<Keyword MCVID="3957" Title="Spider bites" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2CA37AE9-7B67-484F-AC3FA7B86D8EB430
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spider bite
+			</MetaKeyword>
+			<MetaKeyword>
+				spider bites
+			</MetaKeyword>
+			<MetaKeyword>
+				brown recluse spider bite
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Only a few spiders are dangerous to humans. Two that are present in the contiguous United States, and more common in the Southern states, are the black widow spider and the brown recluse spider. Both prefer warm climates and dark, dry places where flies are plentiful. They often live in dry, littered, undisturbed areas, such as closets, woodpiles and under sinks.
+&lt;/p&gt;
+&lt;p&gt;
+Most presumed spider bites are actually bites from other bugs. If you suspect you have been bitten by one of these spiders, check to see if the spider lives in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Black widow spider
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although serious, a black widow bite is rarely lethal. You can identify this spider by the red hourglass marking on its belly. The bite feels like a pinprick. You may not even know you&apos;ve been bitten. At first you may notice slight swelling and faint red marks. Within a few hours, though, intense pain and stiffness begin. Other signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Black widow spider 
+" Caption="The black widow spider is known for the red hourglass marking on its belly. 
+" Height="60" Title="Black widow spider" URI="/images/image_popup/thumbs/mcdc7_blackwidowthu.jpg" Width="60" />
+				<Image Alt="Black widow spider 
+" Caption="The black widow spider is known for the red hourglass marking on its belly. 
+" Height="285" Title="Black widow spider" URI="/images/image_popup/mcdc7_blackwidow.jpg" Width="400" />
+				<HTML>
+					The black widow spider is known for the red hourglass marking on its belly. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Brown recluse spider
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can identify this spider by the violin-shaped marking on its back. The bite produces a mild stinging, followed by local redness and intense pain within eight hours. A fluid-filled blister forms at the site and then sloughs off to leave a deep, enlarging ulcer. Reactions from a brown recluse spider bite vary from a mild fever and rash to nausea and listlessness. On rare occasions death results, more often in children. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Brown recluse spider 
+" Caption="The brown recluse spider is known for the violin-shaped marking on its top. 
+" Height="60" Title="Brown recluse spider" URI="/images/image_popup/thumbs/mcdc7_brownreclusespiderthu.jpg" Width="60" />
+				<Image Alt="Brown recluse spider 
+" Caption="The brown recluse spider is known for the violin-shaped marking on its top. 
+" Height="285" Title="Brown recluse spider" URI="/images/image_popup/mcdc7_brownreclusespider.jpg" Width="400" />
+				<HTML>
+					The brown recluse spider is known for the violin-shaped marking on its top. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				If bitten by a spider
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Try and identify the type of spider that bit you. Clean the site of the spider bite well with soap and water. Apply a cool compress over the spider bite location. If the bite is on an extremity, elevate it. Aspirin or acetaminophen (Tylenol, others) and antihistamines may be used to relieve minor signs and symptoms in adults. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				If bitten by a brown recluse or black widow spider
+			</SectionHead>
+			<HTML>
+				&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;Cleanse the wound.&lt;/strong&gt; Use soap and water to clean the wound and skin around the spider bite.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slow the venom&apos;s spread.&lt;/strong&gt; If the spider bite is on an arm or a leg, tie a snug bandage above the bite and elevate the limb to help slow or halt the venom&apos;s spread. Ensure that the bandage is not so tight that it cuts off circulation in your arm or leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a cold cloth at the spider bite location.&lt;/strong&gt; Apply a cloth dampened with cold water or filled with ice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek immediate medical attention.&lt;/strong&gt; Treatment for the bite of a black widow may require an anti-venom medication. Doctors may treat a brown recluse spider bite with various medications.&lt;/li&gt;
+&lt;/ol&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Spider bites
+	</Title>
+	<Abstract>
+		How to administer first aid for a spider bite.
+	</Abstract>
+	<MobileBody>
+		&lt;p&gt;
+Only a few spiders are dangerous to humans. Two that are present in the contiguous United States, and more common in the Southern states, are the black widow spider and the brown recluse spider. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What they look like&lt;br /&gt;
+&lt;/strong&gt;The black widow spider has a red hourglass marking on its belly. A brown recluse spider has a violin-shaped marking on its back. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If bitten by a spider&lt;br /&gt;
+&lt;/strong&gt;Clean the site of the spider bite well with soap and water. Apply a cool compress over the bite. Use aspirin or acetaminophen (Tylenol, others) to relieve minor signs and symptoms in adults. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If bitten by a brown recluse or black widow spider&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;Slow the venom&apos;s spread.&lt;/strong&gt; If the spider bite is on an arm or a leg, tie a snug bandage above the bite to help slow or halt the venom&apos;s spread. Ensure that the bandage is not so tight it cuts off circulation in your arm or leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a cold cloth at the spider bite location.&lt;/strong&gt; Apply a cloth dampened with cold water or filled with ice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek immediate medical attention.&lt;/strong&gt; Treatment for the bite of a black widow may require an anti-venom medication. Doctors may treat a brown recluse spider bite with various medications. &lt;/li&gt;
+&lt;/ol&gt;
+	</MobileBody>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01191" LinkType="Internal" ObjectID="22F740D5-BF9D-1B61-C3528ACC3BC2F6E3" Title="Spider bites" Url="http://www.mayoclinic.com/health/spider-bites/DS01191" />
+		<LinkItem ContentType="Disease" DocID="DS01113" LinkType="Internal" ObjectID="108E5484-E7FF-0DBD-15EC65693BDD9CD1" Title="Scorpion stings" Url="http://www.mayoclinic.com/health/scorpion-stings/DS01113" />
+	</RelatedLinksBox>
+</FirstAid>

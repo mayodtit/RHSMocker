@@ -1,0 +1,179 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00425
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/quiche/NU00425
+		</OriginalURL>
+		<UpdateDate>
+			2008-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			FD6364A7-195A-492F-8A7C687E5E2AA48F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Quiche
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To further lower the fat and cholesterol in this recipe, use 1/2 cup egg substitute instead of the 1 egg and 2 egg whites. Frozen or refrigerated egg products taste like whole eggs but are made commercially with egg whites, added flavorings and sometimes vegetable fat.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 350 F.&lt;/p&gt;
+
+&lt;p&gt;Spray a skillet with cooking spray. Add the onions and cook over medium heat until tender.&lt;/p&gt;
+
+&lt;p&gt;In a large bowl, whisk together the egg, egg whites and sour cream. Stir in the sauteed onions, ham and cheese. Pour the mixture into the unbaked pie shell.&lt;/p&gt;
+
+&lt;p&gt;Bake until the eggs are set and lightly browned, about 40 minutes. Cut into 6 wedges and serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1/2 cup chopped onion&lt;br /&gt;
+1 egg&lt;br /&gt;
+2 egg whites&lt;br /&gt;
+1/2 cup fat-free sour cream&lt;br /&gt;
+6 ounces lean ham, chopped (about 1 1/4 cups)&lt;br /&gt;
+6 ounces shredded low-fat Swiss cheese&lt;br /&gt;
+1 ready-made 9-inch pie crust&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				247
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				16 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				62 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				&lt; 1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				19 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				3 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 wedge
+			</Servingsize>
+			<Sodium Label="Sodium">
+				643 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				11 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

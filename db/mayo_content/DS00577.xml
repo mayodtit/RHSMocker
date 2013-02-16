@@ -1,0 +1,344 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00577
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nonalcoholic-fatty-liver-disease/DS00577
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="2248" Title="Nonalcoholic fatty liver disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8903EB68-8F95-4135-87D24C6EFF964A6E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				nonalcoholic fatty liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				NASH
+			</MetaKeyword>
+			<MetaKeyword>
+				nonalcoholic steatohepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				steatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				fatty liver
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nonalcoholic fatty liver disease is a term used to describe the accumulation of fat in the liver of people who drink little or no alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+Nonalcoholic fatty liver disease is common and, for most people, causes no signs and symptoms and no complications. But in some people with nonalcoholic fatty liver disease, the fat that accumulates can cause inflammation and scarring in the liver. This more serious form of nonalcoholic fatty liver disease is sometimes called nonalcoholic steatohepatitis. At its most severe, nonalcoholic fatty liver disease can progress to liver failure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of nonalcoholic fatty liver disease 
+" Caption="Compared with a healthy liver, a fatty liver (on right) appears enlarged and discolored. Samples of liver tissue reveal fat accumulating in the liver with nonalcoholic fatty liver disease. 
+" Height="60" Title="Nonalcoholic fatty liver disease" URI="/images/image_popup/thumbs/d7_fatty_liver_diseasethu.jpg" Width="60" />
+				<Image Alt="Illustration of nonalcoholic fatty liver disease 
+" Caption="Compared with a healthy liver, a fatty liver (on right) appears enlarged and discolored. Samples of liver tissue reveal fat accumulating in the liver with nonalcoholic fatty liver disease. 
+" Height="349" Title="Nonalcoholic fatty liver disease" URI="/images/image_popup/d7_fatty_liver_disease.jpg" Width="400" />
+				<HTML>
+					Compared with a healthy liver, a fatty liver (on right) appears enlarged and discolored. Samples of liver tissue reveal fat accumulating in the liver with nonalcoholic fatty liver disease. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nonalcoholic fatty liver disease usually causes no signs and symptoms. When it does, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Pain in the upper right abdomen&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have persistent signs and symptoms that cause you concern. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nonalcoholic fatty liver disease occurs when your liver has trouble breaking down fats, causing fat to build up in your liver tissue. Doctors aren&apos;t sure what causes this. The wide range of diseases and conditions linked to nonalcoholic fatty liver disease is so diverse that it&apos;s difficult to pinpoint any one cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of nonalcoholic fatty liver disease&lt;/strong&gt; &lt;br /&gt;
+Nonalcoholic fatty liver disease can take several forms &amp;mdash; from harmless to life-threatening. Forms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonalcoholic fatty liver.&lt;/strong&gt; It&apos;s not normal for fat to build up in your liver, but it won&apos;t necessarily hurt you. In its simplest form, nonalcoholic fatty liver disease can cause excess liver fat, but no complications. This condition is thought to be very common.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonalcoholic steatohepatitis.&lt;/strong&gt; In a small number of people with fatty liver, the fat causes inflammation in the liver. This can impair the liver&apos;s ability to function and lead to complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonalcoholic fatty liver disease-associated cirrhosis.&lt;/strong&gt; Liver inflammation leads to scarring of the liver tissue. With time, scarring can become so severe that the liver no longer functions adequately (liver failure).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of nonalcoholic fatty liver disease 
+" Caption="Compared with a healthy liver, a fatty liver (on right) appears enlarged and discolored. Samples of liver tissue reveal fat accumulating in the liver with nonalcoholic fatty liver disease. 
+" Height="60" Title="Nonalcoholic fatty liver disease" URI="/images/image_popup/thumbs/d7_fatty_liver_diseasethu.jpg" Width="60" />
+				<Image Alt="Illustration of nonalcoholic fatty liver disease 
+" Caption="Compared with a healthy liver, a fatty liver (on right) appears enlarged and discolored. Samples of liver tissue reveal fat accumulating in the liver with nonalcoholic fatty liver disease. 
+" Height="349" Title="Nonalcoholic fatty liver disease" URI="/images/image_popup/d7_fatty_liver_disease.jpg" Width="400" />
+				<HTML>
+					Compared with a healthy liver, a fatty liver (on right) appears enlarged and discolored. Samples of liver tissue reveal fat accumulating in the liver with nonalcoholic fatty liver disease. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A wide range of diseases and conditions can increase your risk of nonalcoholic fatty liver disease, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Certain medications&lt;/li&gt;
+	&lt;li&gt;Gastric bypass surgery&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;High levels of triglycerides in the blood&lt;/li&gt;
+	&lt;li&gt;Malnutrition&lt;/li&gt;
+	&lt;li&gt;Metabolic syndrome&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Rapid weight loss&lt;/li&gt;
+	&lt;li&gt;Toxins and chemicals, such as pesticides&lt;/li&gt;
+	&lt;li&gt;Type 2 diabetes&lt;/li&gt;
+	&lt;li&gt;Wilson&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor or a general practitioner if you have signs and symptoms that worry you. If your doctor suspects you may have a liver problem, such as nonalcoholic fatty liver disease, you may be referred to a doctor who specializes in the liver (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take any relevant medical records,&lt;/strong&gt; such as records of any tests you&apos;ve had that relate to your current condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For nonalcoholic fatty liver disease, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is causing fat to build up in my liver?&lt;/li&gt;
+	&lt;li&gt;Is the fat in my liver hurting my health?&lt;/li&gt;
+	&lt;li&gt;Will my fatty liver disease progress to a more serious form?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Will losing weight or changing my diet reduce the amount of fat in my liver?&lt;/li&gt;
+	&lt;li&gt;What can I do to keep my liver healthy?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced any symptoms, such as yellowing of the eyes or skin, abdominal pain or swelling, or swelling in your legs? What were the results of tests done at that time?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;What medications do you take, including over-the-counter drugs and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose nonalcoholic fatty liver disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Liver function tests, including tests of liver enzymes, may help your doctor make a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging procedures.&lt;/strong&gt; Imaging procedures used to diagnose fatty liver disease include ultrasound, computerized tomography (CT) scan and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver tissue testing.&lt;/strong&gt; If it&apos;s suspected that you have a more serious form of nonalcoholic fatty liver disease, your doctor may recommend a procedure to remove a sample of tissue from your liver (liver biopsy). The tissue sample is examined in a laboratory to look for signs of inflammation and scarring. Liver biopsy is typically done using a long needle inserted through your skin and into your liver to remove liver cells (needle biopsy).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No standard treatment for nonalcoholic fatty liver disease exists. Instead, doctors typically work to treat the risk factors that contribute to your liver disease. For instance, if you&apos;re obese, your doctor can help you to lose weigh through diet, exercise and, in some cases, medications and surgery. If a drug is causing your fatty liver disease, your doctor may try to switch you to a different medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Along with your doctor&apos;s help, you can take steps to control your nonalcoholic fatty liver disease. You can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight.&lt;/strong&gt; If you&apos;re overweight or obese, reduce the number of calories you eat each day and increase your physical activity in order to lose weight. Aim to lose 1 or 2 pounds a week. If you&apos;ve tried to lose weight in the past and have been unsuccessful, ask your doctor for help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Eat a healthy diet that&apos;s rich in fruits and vegetables. Reduce the amount of saturated fat in your diet and instead select healthy unsaturated fats, such as those found in fish, olive oil and nuts. Include whole grains in your diet, such as whole-wheat breads and brown rice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise and be more active.&lt;/strong&gt; Aim for at least 30 minutes of exercise most days of the week. Incorporate more activity in your day. For instance, take the stairs instead of the elevator. Walk instead of taking short trips in your car. If you&apos;re trying to lose weight, you might find that more exercise is helpful. But if you don&apos;t already exercise regularly, get your doctor&apos;s OK first and start slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control your diabetes.&lt;/strong&gt; Follow your doctor&apos;s instructions to stay in control of your diabetes. Take your medications as directed and closely monitor your blood sugar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lower your cholesterol.&lt;/strong&gt; A healthy plant-based diet, exercise and medications can help keep your cholesterol and your triglycerides at healthy levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your liver.&lt;/strong&gt; Avoid things that will put extra stress on your liver. For instance, don&apos;t drink alcohol. Follow the instructions on all medications and over-the-counter drugs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative medicine treatments have been found to be helpful in treating nonalcoholic fatty liver disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vitamins for liver protection&lt;/strong&gt; &lt;br /&gt;
+Researchers have studied vitamin supplements for the treatment of nonalcoholic fatty liver disease, but results have been disappointing. In theory, vitamins called antioxidants could help protect the liver by reducing or neutralizing the damage caused by inflammation. But studies of vitamin supplements haven&apos;t supported this. 
+&lt;/p&gt;
+&lt;p&gt;
+The safest way to increase the antioxidants you get is to eat more fruits and vegetables. If you&apos;re interested in vitamin supplements, though, talk to your doctor about the benefits and risks. Large doses of vitamin supplements could interfere with medications or cause other complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of nonalcoholic fatty liver disease, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Choose a healthy plant-based diet that&apos;s rich in fruits, vegetables, whole grains and healthy fats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you are overweight or obese, reduce the number of calories you eat each day and get more exercise. If you have a healthy weight, work to maintain it by choosing a healthy diet and exercising.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use chemicals carefully.&lt;/strong&gt; Follow the directions on household chemicals. If you work with chemicals, follow the safety measures required by your employer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nonalcoholic fatty liver disease
+	</Title>
+	<Abstract>
+		Nonalcoholic fatty liver disease &amp;mdash; Comprehensive overview covers symptoms, nonalcoholic causes, treatment of fatty liver.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,352 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00099
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hiatal-hernia/DS00099
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-08
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1836" Title="Hernia">
+						<Keyword MCVID="2243" Title="Hiatal hernia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			07CE2FE3-AAA0-46EE-94377590C1EF581C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hiatal hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				hernia hiatal
+			</MetaKeyword>
+			<MetaKeyword>
+				diaphragmatic hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+			<MetaKeyword>
+				diaphragm
+			</MetaKeyword>
+			<MetaKeyword>
+				Barrett&apos;s esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				fosomax
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hiatial hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				hiatus hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				hiatel hernia
+			</MetaKeyword>
+			<MetaKeyword>
+				reflux esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				esophogitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hiatal hernia occurs when part of your stomach pushes upward through your diaphragm. Your diaphragm normally has a small opening (hiatus) through which your food tube (esophagus) passes on its way to connect to your stomach. The stomach can push up through this opening and cause a hiatal hernia. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, a small hiatal hernia doesn&apos;t cause problems, and you may never know you have a hiatal hernia unless your doctor discovers it when checking for another condition. But a large hiatal hernia can allow food and acid to back up into your esophagus, leading to heartburn. Self-care measures or medications can usually relieve these symptoms, although a very large hiatal hernia sometimes requires surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a hiatal hernia 
+" Caption="A hiatal hernia occurs when the upper part of your stomach bulges through your diaphragm into your chest cavity. 
+" Height="60" Title="Hiatal hernia" URI="/images/image_popup/thumbs/ww5rl88thu.jpg" Width="60" />
+				<Image Alt="Illustration showing a hiatal hernia 
+" Caption="A hiatal hernia occurs when the upper part of your stomach bulges through your diaphragm into your chest cavity. 
+" Height="341" Title="Hiatal hernia" URI="/images/image_popup/ww5rl88.jpg" Width="400" />
+				<HTML>
+					A hiatal hernia occurs when the upper part of your stomach bulges through your diaphragm into your chest cavity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Small hiatal hernias&lt;/strong&gt; &lt;br /&gt;
+Most small hiatal hernias cause no signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Large hiatal hernias&lt;/strong&gt; &lt;br /&gt;
+Larger hiatal hernias can cause signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heartburn&lt;/li&gt;
+	&lt;li&gt;Belching&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hiatal hernia occurs when weakened muscle tissue allows your stomach to bulge up through your diaphragm. It&apos;s not always clear why this happens, but pressure on your stomach may contribute to the formation of hiatal hernia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How a hiatal hernia forms&lt;/strong&gt; &lt;br /&gt;
+Your diaphragm is a large dome-shaped muscle that separates your chest cavity from your abdomen. Normally, your esophagus passes into your stomach through an opening in the diaphragm called the hiatus. Hiatal hernias occur when the muscle tissue surrounding this opening becomes weak, and the upper part of your stomach bulges up through the diaphragm into your chest cavity. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible causes of hiatal hernia&lt;/strong&gt; &lt;br /&gt;
+Hiatal hernia could be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Injury to the area&lt;/li&gt;
+	&lt;li&gt;Being born with an unusually large hiatus&lt;/li&gt;
+	&lt;li&gt;Persistent and intense pressure on the surrounding muscles, such as when coughing, vomiting, or straining during a bowel movement or while lifting heavy objects&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a hiatal hernia 
+" Caption="A hiatal hernia occurs when the upper part of your stomach bulges through your diaphragm into your chest cavity. 
+" Height="60" Title="Hiatal hernia" URI="/images/image_popup/thumbs/ww5rl88thu.jpg" Width="60" />
+				<Image Alt="Illustration showing a hiatal hernia 
+" Caption="A hiatal hernia occurs when the upper part of your stomach bulges through your diaphragm into your chest cavity. 
+" Height="341" Title="Hiatal hernia" URI="/images/image_popup/ww5rl88.jpg" Width="400" />
+				<HTML>
+					A hiatal hernia occurs when the upper part of your stomach bulges through your diaphragm into your chest cavity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hiatal hernia is most common in people who are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Age 50 or older&lt;/li&gt;
+	&lt;li&gt;Obese&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Whom to see&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your family doctor or a general practitioner if you have signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been diagnosed with a hiatal hernia and are experiencing signs and symptoms that aren&apos;t controlled with medications and lifestyle changes, ask your doctor for a referral to a doctor who specializes in digestive diseases (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. To get ready, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For hiatal hernia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused my hiatal hernia?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment for my hiatal hernia?&lt;/li&gt;
+	&lt;li&gt;Do I need more tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each option?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them along with my hiatal hernia?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hiatal hernia is often discovered during a test or procedure to determine the cause of heartburn or chest or upper abdominal pain. Such tests or procedures include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An X-ray of your upper digestive tract.&lt;/strong&gt; During a barium X-ray, you drink a chalky liquid containing barium that coats your upper digestive tract. This provides a clear silhouette of your esophagus, stomach and the upper part of your small intestine (duodenum) on an X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to see inside your digestive tract.&lt;/strong&gt; During an endoscopy exam, your doctor passes a thin, flexible tube equipped with a light and video camera (endoscope) down your throat and into your esophagus and stomach to check for inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with hiatal hernia don&apos;t experience any signs or symptoms and won&apos;t need treatment. If you experience signs and symptoms, such as recurrent heartburn and acid reflux, you may require treatment, which can include medications or surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for heartburn&lt;/strong&gt; &lt;br /&gt;
+If you experience heartburn and acid reflux, your doctor may recommend medications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids that neutralize stomach acid.&lt;/strong&gt; Over-the-counter antacids, such as Gelusil, Maalox, Mylanta, Rolaids and Tums, may provide quick relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce acid production.&lt;/strong&gt; Called H-2-receptor blockers, these medications include cimetidine (Tagamet HB), famotidine (Pepcid AC), nizatidine (Axid AR) and ranitidine (Zantac 75). Stronger versions of these medications are available in prescription form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block acid production and heal the esophagus.&lt;/strong&gt; Proton pump inhibitors block acid production and allow time for damaged esophageal tissue to heal. Over-the-counter proton pump inhibitors include lansoprazole (Prevacid 24HR) and omeprazole (Prilosec OTC). Stronger versions of these medications are available in prescription form.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to repair a hiatal hernia&lt;/strong&gt; &lt;br /&gt;
+In a small number of cases, a hiatal hernia may require surgery. Surgery is generally reserved for emergency situations and for people who aren&apos;t helped by medications to relieve heartburn and acid reflux. Hiatal hernia repair surgery is often combined with surgery for gastroesophageal reflux disease. 
+&lt;/p&gt;
+&lt;p&gt;
+An operation for a hiatal hernia may involve pulling your stomach down into your abdomen and making the opening in your diaphragm smaller, reconstructing a weak esophageal sphincter, or removing the hernia sac. In some cases, this is done using a single incision in your chest wall (thoracotomy) or abdomen (laparotomy). In other cases, your surgeon may insert a tiny camera and special surgical tools through several small incisions in your abdomen. The operation is then performed while your surgeon views images from inside your body that are displayed on a video monitor (laparoscopic surgery). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes may help control the signs and symptoms of acid reflux caused by a hiatal hernia. Consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat several smaller meals throughout the day rather than a few large meals.&lt;/li&gt;
+	&lt;li&gt;Avoid foods that trigger heartburn, such as chocolate, onions, spicy foods, citrus fruits and tomato-based foods.&lt;/li&gt;
+	&lt;li&gt;Avoid alcohol.&lt;/li&gt;
+	&lt;li&gt;Eat at least two hours before bedtime.&lt;/li&gt;
+	&lt;li&gt;Lose weight if you&apos;re overweight or obese.&lt;/li&gt;
+	&lt;li&gt;Stop smoking.&lt;/li&gt;
+	&lt;li&gt;Elevate the head of your bed 6 inches (about 15 centimeters).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some alternative medicine practitioners claim to have discovered a way to cure a hiatal hernia by pushing the stomach back to its normal position below the diaphragm. Practitioners may use their hands to apply pressure to the abdomen and manipulate the stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no evidence that such manipulation works to cure hiatal hernia. No clinical trials of the technique have been conducted. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hiatal hernia
+	</Title>
+	<Abstract>
+		Hiatal hernia &amp;mdash; Comprehensive overview covers symptoms, surgery and other treatments for this stomach hernia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00791" LinkType="Internal" ObjectID="70EE2D3B-C827-3CD6-8BF1B00BDCA16B47" Title="Video: Fundoplication" Url="http://www.mayoclinic.com/health/fundoplication/MM00791" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+		<LinkItem ContentType="Disease" DocID="DS01154" LinkType="Internal" ObjectID="E0E97137-C837-F3C0-F5F6D251364B4ED8" Title="Esophagitis" Url="http://www.mayoclinic.com/health/esophagitis/DS01154" />
+	</RelatedLinksBox>
+</Disease>

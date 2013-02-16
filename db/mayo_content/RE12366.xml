@@ -1,0 +1,211 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12366
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fruit-and-nut-bar/RE12366
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-30
+		</UpdateDate>
+		<PublicationDate>
+			2012-11-30
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			35437622-9ADD-6E57-C7410E98343E9A2B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fruit and nut bar
+			</MetaKeyword>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				desserts
+			</MetaKeyword>
+			<MetaKeyword>
+				fruits
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes meal plan
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy
+			</MetaKeyword>
+			<MetaKeyword>
+				snacks
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Fruit and nut bar
+	</Title>
+	<Abstract>
+		This fruit and nut bar is much healthier than a candy bar.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		10
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip: &lt;/strong&gt;This treat is much healthier than a candy bar &amp;mdash; count it as your sweet treat for the day.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Combine all ingredients, mix well. Spread half an inch thick over a parchment-lined sheet pan. Bake at 300 F for 20 minutes. Cool completely and cut.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1/2 cup quinoa flour&lt;/li&gt;
+	&lt;li&gt;1/2 cup oats&lt;/li&gt;
+	&lt;li&gt;1/4 cup flax meal&lt;/li&gt;
+	&lt;li&gt;1/4 cup wheat germ&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped almonds&lt;/li&gt;
+	&lt;li&gt;1/4 cup dried apricots&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped dried figs&lt;/li&gt;
+	&lt;li&gt;1/4 cup buckwheat honey&lt;/li&gt;
+	&lt;li&gt;1/4 cup chopped dried pineapple&lt;/li&gt;
+	&lt;li&gt;2 tablespoons cornstarch&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				1
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets">
+				1
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				61
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				11 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				1 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				0.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				2 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 bar
+			</Servingsize>
+			<Sodium Label="Sodium">
+				5 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				7 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				1 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

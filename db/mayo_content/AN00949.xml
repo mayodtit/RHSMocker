@@ -1,0 +1,103 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00949
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/strep-throat/AN00949
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-11
+		</UpdateDate>
+		<PublicationDate>
+			2004-11-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2122" Title="Strep throat" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F4425758-9F14-4C49-87D8E290C9F3135C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				strep throat
+			</MetaKeyword>
+			<MetaKeyword>
+				strept throat
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Strep throat is an infection caused by a bacterium known as group A streptococcus. Strep throat can occur at any age, even during infancy. However, strep throat is most common in school-age children and young adults. 
+&lt;/p&gt;
+&lt;p&gt;
+For the few infants who develop strep throat, signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sleeplessness&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Refusal to breast-feed or drink from a bottle&lt;/li&gt;
+	&lt;li&gt;Occasionally, a fine, red rash on the torso, arms and legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Strep throat is diagnosed with a throat culture, in which the doctor swabs the child&apos;s throat and tests the sample for the presence of strep bacteria. Treatment for strep throat is typically a course of antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+Recurrent strep throat isn&apos;t likely a sign of an underlying problem with a child&apos;s immune system. Children who develop strep throat repeatedly may have contact with a carrier of strep, likely at home or in a child care setting &amp;mdash; or may be strep carriers themselves. Recurrent strep throat is often treated with a different antibiotic from the one prescribed originally. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Strep throat in infants: A common diagnosis?
+	</Title>
+	<Abstract>
+		Strep throat in infants is uncommon, but it&apos;s possible. Learn about symptoms.
+	</Abstract>
+	<Question>
+		My 10-month-old son has had strep throat twice. Is this normal or should I be concerned?
+	</Question>
+	<QuestionFirstName>
+		Kim
+	</QuestionFirstName>
+	<QuestionState>
+		Kansas
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+	</RelatedLinksBox>
+</Answer>

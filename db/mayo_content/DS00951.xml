@@ -1,0 +1,298 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00951
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/broken-ankle/DS00951
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="3233" Title="Broken ankle/broken foot" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE64F76-E7FF-0DBD-10702747E20C9715
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				broken ankle
+			</MetaKeyword>
+			<MetaKeyword>
+				broken foot
+			</MetaKeyword>
+			<MetaKeyword>
+				ankle fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				foot fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				toe fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				broken toe
+			</MetaKeyword>
+			<MetaKeyword>
+				metatarsal fracture
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken ankle or broken foot is a common injury. You may experience a broken ankle or broken foot during a car crash or from a simple misstep. The seriousness of a broken ankle or broken foot varies. Fractures can range from tiny cracks in your bones to shattering breaks that pierce your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for a broken ankle or broken foot depends on the exact site and severity of the fracture. A severely broken ankle or broken foot may require surgery to implant wires, plates, rods or screws into the broken bone to maintain proper position during healing. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing foot and ankle bones 
+" Caption="A fall or blow to your ankle can break one or more of the three bones in your ankle joint &amp;mdash; the fibula, the tibia and the talus &amp;mdash; while rolling your ankle can cause a break in the knobby bumps at the end of the tibia and fibula. The most common foot fractures are in the toes or the long bones just behind the toes (metatarsals). 
+" Height="60" Title="Foot and ankle bones" URI="/images/image_popup/thumbs/r7_footanklethu.jpg" Width="60" />
+				<Image Alt="Illustration showing foot and ankle bones 
+" Caption="A fall or blow to your ankle can break one or more of the three bones in your ankle joint &amp;mdash; the fibula, the tibia and the talus &amp;mdash; while rolling your ankle can cause a break in the knobby bumps at the end of the tibia and fibula. The most common foot fractures are in the toes or the long bones just behind the toes (metatarsals). 
+" Height="231" Title="Foot and ankle bones" URI="/images/image_popup/r7_footankle.jpg" Width="399" />
+				<HTML>
+					A fall or blow to your ankle can break one or more of the three bones in your ankle joint &amp;mdash; the fibula, the tibia and the talus &amp;mdash; while rolling your ankle can cause a break in the knobby ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a broken ankle or broken foot, you may experience some of the following signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Immediate, throbbing pain&lt;/li&gt;
+	&lt;li&gt;Pain that increases with activity and decreases with rest&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Deformity&lt;/li&gt;
+	&lt;li&gt;Difficulty in walking or bearing weight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people feel or hear a snap at the time of injury and assume that means something has broken. However, a snapping sound or feeling is not always a sign of a fracture.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See a doctor if the pain and swelling last for more than a few days, or if pain interferes with walking.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common causes of a broken ankle or a broken foot include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Car accidents.&lt;/strong&gt; The crushing injuries common in car accidents may require surgical repair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Tripping and falling can break bones in your ankles or feet, as can landing on your feet after jumping down from a great height.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impact from a heavy weight.&lt;/strong&gt; Dropping something heavy on your foot is a common cause of fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Missteps.&lt;/strong&gt; Sometimes just putting your foot down wrong can result in a broken bone. Many broken toes have happened when people stub their toes on furniture. Twisting your ankle just right can cause a sprain or a broken bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overuse.&lt;/strong&gt; Stress fractures are common in the weight-bearing bones of your ankles or feet. These tiny cracks are usually caused over time by repetitive force or overuse, such as running long distances. But they can also occur with normal use of a bone that&apos;s been weakened by a condition such as osteoporosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing foot and ankle bones 
+" Caption="A fall or blow to your ankle can break one or more of the three bones in your ankle joint &amp;mdash; the fibula, the tibia and the talus &amp;mdash; while rolling your ankle can cause a break in the knobby bumps at the end of the tibia and fibula. The most common foot fractures are in the toes or the long bones just behind the toes (metatarsals). 
+" Height="60" Title="Foot and ankle bones" URI="/images/image_popup/thumbs/r7_footanklethu.jpg" Width="60" />
+				<Image Alt="Illustration showing foot and ankle bones 
+" Caption="A fall or blow to your ankle can break one or more of the three bones in your ankle joint &amp;mdash; the fibula, the tibia and the talus &amp;mdash; while rolling your ankle can cause a break in the knobby bumps at the end of the tibia and fibula. The most common foot fractures are in the toes or the long bones just behind the toes (metatarsals). 
+" Height="231" Title="Foot and ankle bones" URI="/images/image_popup/r7_footankle.jpg" Width="399" />
+				<HTML>
+					A fall or blow to your ankle can break one or more of the three bones in your ankle joint &amp;mdash; the fibula, the tibia and the talus &amp;mdash; while rolling your ankle can cause a break in the knobby ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may put you at higher risk of a broken ankle or broken foot:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Participating in high-impact sports.&lt;/strong&gt; The stresses, direct blows and twisting injuries that occur in football, hockey, gymnastics, ballet, tennis and soccer are common causes of foot and ankle fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using improper sports equipment.&lt;/strong&gt; Faulty equipment, such as shoes that are too worn or not properly fitted, can contribute to stress fractures and falls. Improper training techniques, such as not warming up and stretching, also can cause foot and ankle fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Working in certain occupations.&lt;/strong&gt; Certain work environments, such as a construction site, put you at risk of falling from a height or dropping something heavy on your feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keeping your home cluttered or poorly lit.&lt;/strong&gt; Walking around in a house with too much clutter or too little light may lead to foot or ankle injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having certain conditions.&lt;/strong&gt; Having fragile bones (osteoporosis) or poor sensation in your feet (neuropathy) can put you at risk of injuries to your foot and ankle bones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a broken ankle or broken foot are uncommon, but may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; Fractures that extend into the joint can cause arthritis years later. If your ankle or foot starts to hurt long after a break, see your doctor for an evaluation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone infection (osteomyelitis).&lt;/strong&gt; If you have an open fracture, your bone may be exposed to bacteria that cause infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compartment syndrome.&lt;/strong&gt; This neuromuscular condition causes pain, swelling and sometimes disability in affected muscles of the legs or arms. Compartment syndrome usually occurs in high-impact injuries, such as a car or motorcycle accident.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve or blood vessel damage.&lt;/strong&gt; Trauma to the foot or ankle can injure adjacent nerves and blood vessels. Seek immediate attention if you notice any numbness or circulation problems. Lack of blood flow can cause a bone to die and collapse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may initially seek treatment for a broken ankle or broken foot in an emergency room or urgent care clinic. If the pieces of broken bone aren&apos;t lined up properly for healing, you may be referred to a doctor specializing in orthopedic surgery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did your symptoms come on suddenly?&lt;/li&gt;
+	&lt;li&gt;Was there a specific injury that triggered your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you injured your ankles or feet in the past?&lt;/li&gt;
+	&lt;li&gt;Have you recently begun or intensified an exercise program?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check for points of tenderness in your foot and ankle. The precise location of your pain can help determine its cause. He or she may move your foot into different positions, to check your range of motion. You may be asked to walk for a short distance so your doctor can examine your gait. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Not all foot and ankle injuries require imaging. If your signs and symptoms meet certain criteria, your doctor may suggest one or more of the following imaging tests. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Most ankle and foot fractures can be visualized on X-rays. The technician may need to take X-rays from several different angles so that the bone images won&apos;t overlap too much. Stress fractures often don&apos;t show up on X-rays until the break actually starts healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; For a bone scan, a technician will inject a small amount of radioactive material into an intravenous line. The radioactive material is attracted to your bones, especially the parts of your bones that have been damaged. Damaged areas, including stress fractures, show up as bright spots on the resulting image.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans take X-rays from many different angles and combine them to make cross-sectional images of internal structures of your body. CT scans can reveal more detail about the bone and the soft tissues that surround it, which may help your doctor determine the best treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses radio waves and a strong magnetic field to create very detailed images of the ligaments that help hold your foot and ankle together. If the ligaments are damaged, they can&apos;t keep the broken bone fragments aligned properly for healing. Surgery may be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for a broken ankle or broken foot will vary, depending on which bone has been broken and the severity of the injury.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend an over-the-counter pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others). If you&apos;re experiencing a lot of pain, your doctor may prescribe a medication containing a narcotic, such as oxycodone (Percocet, Roxicet) or hydrocodone (Vicodin, Lortab).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;After your bone has healed, you&apos;ll probably need to loosen up stiff muscles and ligaments in your ankles and feet. A physical therapist can teach you exercises to improve your flexibility and strength.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduction.&lt;/strong&gt; If you have a displaced fracture, your doctor may need to manipulate the pieces back into their proper positions &amp;mdash; a process called reduction. Depending on the amount of pain and swelling you have, you may need a muscle relaxant, a sedative or even a general anesthetic before this procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immobilization.&lt;/strong&gt; To heal, a broken bone must be immobilized so that its ends can knit back together. In most cases, this requires a cast. Minor foot fractures may only need a removable brace or shoe with a stiff sole. A fractured toe is usually taped to a neighboring toe, with a piece of gauze between them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In some cases, a surgeon may need to use pins, plates or screws to maintain proper position of your bones during healing. These materials may be removed after the fracture has healed if they are prominent or painful.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These basic sports and safety tips may help prevent a broken ankle or broken foot:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear proper shoes.&lt;/strong&gt; Use hiking shoes on rough terrain. Wear steel-toed boots in your work environment, if necessary. Choose appropriate athletic shoes for your sport.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replace athletic shoes regularly.&lt;/strong&gt; Discard sneakers as soon as the tread or heel wears out or if the shoes are wearing unevenly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Start slowly.&lt;/strong&gt; That applies to a new fitness program and each individual workout.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cross-train.&lt;/strong&gt; Alternating activities can prevent stress fractures. Rotate running with swimming or biking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Build bone strength.&lt;/strong&gt; Calcium-rich foods, such as milk, yogurt and cheese, really can do your body good.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use night lights.&lt;/strong&gt; Many broken toes are the result of nighttime stumbling.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Broken ankle/broken foot
+	</Title>
+	<Abstract>
+		Broken ankle/broken foot &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of these common fractures.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00058" LinkType="Internal" ObjectID="5B479591-E2C6-4544-A910E7A9CC2B2765" Title="Fractures (broken bones): First aid" Url="http://www.mayoclinic.com/health/first-aid-fractures/FA00058" />
+	</RelatedLinksBox>
+</Disease>

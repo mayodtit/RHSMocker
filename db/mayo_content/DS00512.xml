@@ -1,0 +1,402 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00512
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/folliculitis/DS00512
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-06
+		</UpdateDate>
+		<PublicationDate>
+			2004-01-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2157" Title="Hair">
+						<Keyword MCVID="2809" Title="Folliculitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			91CDE4FB-277F-429D-91CE4364D31B85BC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				folliculitis
+			</MetaKeyword>
+			<MetaKeyword>
+				pimples
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				barber&apos;s itch
+			</MetaKeyword>
+			<MetaKeyword>
+				hot tub
+			</MetaKeyword>
+			<MetaKeyword>
+				hot tub rash
+			</MetaKeyword>
+			<MetaKeyword>
+				follicles
+			</MetaKeyword>
+			<MetaKeyword>
+				hair follicles
+			</MetaKeyword>
+			<MetaKeyword>
+				eosinophilic folliculitis
+			</MetaKeyword>
+			<MetaKeyword>
+				folliculitus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Folliculitis occurs when hair follicles become infected, often with Staphylococcus aureus or other bacteria. Certain variations of folliculitis are also known as hot tub folliculitis and barber&apos;s itch. Severe infections can cause permanent hair loss and scarring, and even mild folliculitis can be uncomfortable and embarrassing. 
+&lt;/p&gt;
+&lt;p&gt;
+The infection usually appears as small, white-headed pimples around one or more hair follicles &amp;mdash; the tiny pockets from which each hair grows. Most cases of folliculitis are superficial, and they may itch, but on occasion they&apos;re painful too. Superficial folliculitis often clears by itself in a few days, but deep or recurring folliculitis may need medical treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of folliculitis 
+" Caption="When hair follicles are damaged, they may be invaded by viruses, bacteria and fungi, leading to infections such as folliculitis. Superficial folliculitis affects the upper part of the hair follicle and the skin directly next to the follicle. Deep folliculitis affects the deeper portion of the follicle and can involve the entire hair follicle. 
+" Height="60" Title="Folliculitis" URI="/images/image_popup/thumbs/sn7_hairfolliclethu.jpg" Width="60" />
+				<Image Alt="Image of folliculitis 
+" Caption="When hair follicles are damaged, they may be invaded by viruses, bacteria and fungi, leading to infections such as folliculitis. Superficial folliculitis affects the upper part of the hair follicle and the skin directly next to the follicle. Deep folliculitis affects the deeper portion of the follicle and can involve the entire hair follicle. 
+" Height="591" Title="Folliculitis" URI="/images/image_popup/sn7_hairfollicle.jpg" Width="400" />
+				<HTML>
+					When hair follicles are damaged, they may be invaded by viruses, bacteria and fungi, leading to infections such as folliculitis. Superficial folliculitis affects the upper part of the hair follicle ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Folliculitis signs and symptoms vary, depending on the type of infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Superficial folliculitis,&lt;/strong&gt; which affects the upper part of the hair follicle, may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clusters of small red or pus-filled bumps that develop around hair follicles&lt;/li&gt;
+	&lt;li&gt;Pus-filled blisters that break open and crust over&lt;/li&gt;
+	&lt;li&gt;Red and inflamed skin&lt;/li&gt;
+	&lt;li&gt;Itchiness or tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Deep folliculitis&lt;/strong&gt; starts deeper in the skin surrounding the hair follicle and affects the entire hair follicle. Signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A large swollen bump or mass&lt;/li&gt;
+	&lt;li&gt;Pus-filled blisters that break open and crust over&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Possible scars once the infection clears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of superficial folliculitis&lt;br /&gt;
+&lt;/strong&gt;Superficial forms of folliculitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Staphylococcal folliculitis.&lt;/strong&gt; This common type is marked by itchy, white, pus-filled bumps that can occur anywhere on your body where hair follicles are present. When it affects a man&apos;s beard area, it&apos;s called barber&apos;s itch. It occurs when hair follicles become infected with Staphylococcus aureus (staph) bacteria. Although staph bacteria live on your skin all the time, they generally cause problems only when they enter your body through a cut or other wound. This can occur through shaving, scratching or with an injury to the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pseudomonas&lt;em&gt; &lt;/em&gt;folliculitis (hot tub folliculitis).&lt;/strong&gt; The pseudomonas bacteria that cause this form of folliculitis thrive in a wide range of environments, including hot tubs in which the chlorine and pH levels aren&apos;t well regulated. Within eight hours to five days of exposure to the bacteria, a rash of red, round, itchy bumps will appear that later may develop into small pus-filled blisters (pustules). The rash is likely to be worse in areas where your swimsuit holds contaminated water against your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pseudofolliculitis barbae.&lt;/strong&gt; An inflammation of the hair follicles in the beard area, pseudofolliculitis barbae affects men when shaved hairs curve back into the skin. This leads to inflammation and, sometimes, to dark raised scars (keloid scars) on the face and neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pityrosporum folliculitis.&lt;/strong&gt; Especially common in teens and adult men, pityrosporum folliculitis is caused by a yeast and produces chronic, red, itchy pustules on the back and chest and sometimes on the neck, shoulders, upper arms and face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of deep folliculitis&lt;br /&gt;
+&lt;/strong&gt;Types of deep folliculitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sycosis barbae.&lt;/strong&gt; This occurs in men who have begun shaving and involves inflammation along the whole hair follicle. Small pustules appear at first on the upper lip, chin and jaw, then become more prevalent as shaving continues. Severe sycosis barbae may cause scarring.&lt;/li&gt;Gram-negative folliculitis. This sometimes develops if you&apos;re receiving long-term antibiotic treatment for acne. Antibiotics alter the normal balance of bacteria in the nose, leading to an overgrowth of harmful organisms (gram-negative bacteria). In most people, this doesn&apos;t cause problems, and the flora in the nose returns to normal once antibiotics are stopped. In a few people, however, gram-negative bacteria spread and cause new, sometimes-severe acne lesions. 
+	&lt;li&gt;&lt;strong&gt;Boils and carbuncles.&lt;/strong&gt; These occur when hair follicles become deeply infected with staph bacteria. A boil usually appears suddenly as a painful pink or red bump. The surrounding skin also may be red and swollen. The bump then fills with pus and grows larger and more painful before it finally ruptures and drains. Small boils usually heal without scarring, but a large boil may leave a scar. A carbuncle is a cluster of boils that often occurs on the back of the neck, shoulders, back or thighs. Carbuncles cause a deeper and more severe infection than does a single boil. As a result, they develop and heal more slowly and are likely to leave scars.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eosinophilic folliculitis.&lt;/strong&gt; Seen primarily in those with HIV, this type of folliculitis is characterized by recurring patches of inflamed, pus-filled sores, primarily on the face and sometimes on the back or upper arms. The sores usually spread, may itch intensely and often leave areas of darker than normal skin (hyperpigmentation) when they heal. The exact cause of eosinophilic folliculitis isn&apos;t known, although it may involve the same yeast-like fungus responsible for pityrosporum folliculitis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Mild cases of folliculitis often clear up without any treatment. But if the infection doesn&apos;t improve despite home care, appears to spread or recurs often, call your doctor or a dermatologist. You may need antibiotics or antifungal medications to help control the problem.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing hot tub folliculitis 
+" Caption="Hot tub folliculitis causes red, round, itchy bumps that may later develop into small pus-filled blisters. The rash is likely to be worse in areas where your swimsuit holds contaminated water against your skin. 
+" Height="60" Title="Hot tub folliculitis" URI="/images/image_popup/thumbs/sn7_hottubfolliculitisthu.jpg" Width="60" />
+				<Image Alt="Image showing hot tub folliculitis 
+" Caption="Hot tub folliculitis causes red, round, itchy bumps that may later develop into small pus-filled blisters. The rash is likely to be worse in areas where your swimsuit holds contaminated water against your skin. 
+" Height="400" Title="Hot tub folliculitis" URI="/images/image_popup/sn7_hottubfolliculitis.jpg" Width="400" />
+				<HTML>
+					Hot tub folliculitis causes red, round, itchy bumps that may later develop into small pus-filled blisters. The rash is likely to be worse in areas where your swimsuit holds contaminated water against ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of pseudofolliculitis barbae 
+" Caption="Pseudofolliculitis barbae affects men with curly beards. It develops when shaved hairs curve back into the skin, leading to inflammation. 
+" Height="60" Title="Pseudofolliculitis barbae" URI="/images/image_popup/thumbs/sn7_pseudofolliculitisthu.jpg" Width="60" />
+				<Image Alt="Image of pseudofolliculitis barbae 
+" Caption="Pseudofolliculitis barbae affects men with curly beards. It develops when shaved hairs curve back into the skin, leading to inflammation. 
+" Height="300" Title="Pseudofolliculitis barbae" URI="/images/image_popup/sn7_pseudofolliculitis.jpg" Width="400" />
+				<HTML>
+					Pseudofolliculitis barbae affects men with curly beards. It develops when shaved hairs curve back into the skin, leading to inflammation. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carbuncle 
+" Caption="A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+" Height="60" Title="Carbuncle" URI="/images/image_popup/thumbs/r7_carbunclethu.jpg" Width="60" />
+				<Image Alt="Image showing carbuncle 
+" Caption="A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+" Height="399" Title="Carbuncle" URI="/images/image_popup/r7_carbuncle.jpg" Width="400" />
+				<HTML>
+					A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Folliculitis is caused by an infection of the hair follicles by bacteria, viruses or fungi. The most common cause of folliculitis is Staphylococcus aureus bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+Follicles are densest on your scalp, but they occur everywhere on your body except your palms, soles and mucous membranes, such as your lips. If follicles become damaged, they become susceptible to invasion. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common causes of follicle damage include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Friction from shaving or tight clothing&lt;/li&gt;
+	&lt;li&gt;Excessive perspiration&lt;/li&gt;
+	&lt;li&gt;Inflammatory skin conditions, including dermatitis and acne&lt;/li&gt;
+	&lt;li&gt;Injuries to your skin, such as abrasions or surgical wounds&lt;/li&gt;
+	&lt;li&gt;Coverings on your skin, such as plastic dressings or adhesive tape&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop folliculitis, but certain factors make you more susceptible to the condition. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medical conditions that reduce your resistance to infection, such as diabetes, chronic leukemia, organ transplantation and HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;A pre-existing skin condition, such as acne or dermatitis&lt;/li&gt;
+	&lt;li&gt;Trauma to your skin from injury or surgery&lt;/li&gt;
+	&lt;li&gt;Long-term antibiotic therapy for acne&lt;/li&gt;
+	&lt;li&gt;Topical corticosteroid therapy&lt;/li&gt;
+	&lt;li&gt;Obesity &amp;mdash; folliculitis is more common in people who are overweight&lt;/li&gt;
+	&lt;li&gt;Long-term exposure to clothing items that can trap heat, such as wearing high boots or waders&lt;/li&gt;
+	&lt;li&gt;Exposure to hot water, such as a hot tub or a heated swimming pool&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Mild cases of folliculitis&lt;/strong&gt; aren&apos;t likely to cause complications. If complications do occur with mild infections, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurrent or spreading infection&lt;/li&gt;
+	&lt;li&gt;Large, itchy patches of staph infection on the skin (plaques)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe folliculitis&lt;/strong&gt; may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Furunculosis.&lt;/strong&gt; This condition occurs when a number of boils develop under your skin. Boils usually start as small red bumps but become larger and more painful as they fill with pus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring.&lt;/strong&gt; Severe folliculitis may leave thick, raised scars (hypertrophic or keloid scars) or patches of skin that are darker than normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Destruction of the hair follicle.&lt;/strong&gt; This leads to permanent hair loss.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For folliculitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment for my folliculitis?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you had this skin infection?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of eczema?&lt;/li&gt;
+	&lt;li&gt;Do you work or have a hobby that creates perspiration or that might clog your hair follicles?&lt;/li&gt;
+	&lt;li&gt;Were you in a hot tub or heated swimming pool prior to your skin rash?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does your skin itch? Is it painful to the touch?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms worse?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;For some, folliculitis goes away without medical treatment. During that time, self-care measures, such as warm compresses and anti-itch creams, can help relieve your symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor is likely to diagnose folliculitis simply by looking at your skin. When standard treatments fail to clear the infection, your doctor may send a sample taken from one of your pustules to a laboratory, where it&apos;s grown on a special medium (cultured) and then checked for the presence of bacteria. When doctors suspect eosinophilic folliculitis, they may remove a small tissue sample (biopsy) from an active lesion for testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild cases of folliculitis will likely go away on their own. Persistent or recurring cases are likely to require treatment, however. The therapy your doctor recommends will depend on the type and severity of your infection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Staphylococcal folliculitis.&lt;/strong&gt; Your doctor may prescribe an antibiotic that you apply to your skin (topical), that you take by mouth (oral), or both. Your doctor may also recommend that you avoid shaving the affected area until the infection heals. If you must shave, use either an electric razor or clean razor blade every time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pseudomonas&lt;em&gt; &lt;/em&gt;folliculitis (hot tub folliculitis).&lt;/strong&gt; This condition rarely requires specific treatment, although your doctor may prescribe an oral or topical medication to help relieve itching (anti-pruritic). More-serious cases may require an oral antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pseudofolliculitis barbae.&lt;/strong&gt; Self-care measures usually clear this condition. Shaving with an electric razor, which doesn&apos;t cut as closely as a razor blade does, can help. If you do use a blade, massage your beard area with a warm, moist washcloth or facial sponge to lift the hairs so that they can be cut more easily. Use a shaving gel instead of cream, and shave in the direction of the hair growth. When you&apos;re finished, rinse thoroughly with warm water and apply a moisturizing aftershave.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pityrosporum folliculitis.&lt;/strong&gt; Topical or oral antifungals are the most effective treatments for this type of folliculitis. Because the condition often returns once you&apos;ve finished the course of oral medication, your doctor may recommend using topical ointments indefinitely. Antibiotics aren&apos;t helpful in treating pityrosporum folliculitis and may make the infection worse by upsetting the normal balance of bacteria on your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sycosis barbae.&lt;/strong&gt; Your doctor may recommend warm saline compresses and a topical antibiotic or, if the infection is more severe, an oral antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gram-negative folliculitis.&lt;/strong&gt; Although this type of folliculitis results from long-term antibiotic therapy for acne, it&apos;s usually treated with certain topical or oral antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Boils and carbuncles.&lt;/strong&gt; Your doctor may drain a large boil or carbuncle by making a small incision. This relieves pain, speeds recovery and helps lessen scarring. Deep infections that can&apos;t be completely cleared may be covered with sterile gauze so that pus can continue to drain. Sometimes your doctor may prescribe antibiotics to help heal severe or recurrent infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eosinophilic folliculitis.&lt;/strong&gt; A number of therapies are effective, but topical corticosteroids are often the treatment of choice. Your doctor may prescribe a short course of oral corticosteroids if you have a severe infection. All steroids can have serious side effects and should be used for as brief a time as possible. If you&apos;re living with HIV/AIDS and have mild eosinophilic folliculitis, your doctor may prescribe topical steroids in conjunction with oral antihistamines.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild cases of folliculitis often respond well to home care. The following suggestions may help relieve discomfort, speed healing and prevent the infection from spreading: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a warm, moist washcloth or compress&lt;/strong&gt; to the affected area several times a day to relieve discomfort and help the area drain, if needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try an oatmeal lotion or an over-the-counter hydrocortisone cream&lt;/strong&gt; to help soothe itchy skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gently wash the infected skin twice a day&lt;/strong&gt; with antibacterial soap or apply an over-the-counter antibiotic ointment. Use a clean washcloth and towel to dry off each time you wash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid shaving irritated skin.&lt;/strong&gt; If you must shave, use an electric razor rather than a blade and apply a soothing aftershave lotion when you&apos;re finished. Also, shave in the direction of hair growth rather than against it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share your towels or washcloths,&lt;/strong&gt; and launder them in plenty of hot, soapy water after every use. Wash clothes that cover the affected areas after each wearing. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A wet compress made with white vinegar may help ease your folliculitis symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s not always possible to prevent folliculitis, these measures may help:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid constrictive clothing.&lt;/strong&gt; Tight clothes &amp;mdash; especially jeans and athletic wear &amp;mdash; may be stylish, but make sure they don&apos;t chafe your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shave with care.&lt;/strong&gt; Use an electric razor or a new blade every time you shave. Be especially careful to keep the shaved area clean and to avoid cuts and nicks. If you&apos;re a woman who gets frequent infections, you may want to consider depilatories or other methods of hair removal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain hot tubs.&lt;/strong&gt; If you own a hot tub, clean it regularly and add chlorine when recommended. Use commercial tubs only if you&apos;re sure they&apos;re well maintained.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Folliculitis
+	</Title>
+	<Abstract>
+		Folliculitis &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00973" LinkType="Internal" ObjectID="7F6D054F-E7FF-0DBD-131A3975EF067747" Title="Staph infections" Url="http://www.mayoclinic.com/health/staph-infections/DS00973" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,136 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00088
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pregnancy/AN00088
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2001-01-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2397" Title="Infertility">
+						<Keyword MCVID="3301" Title="Female infertility" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5CA98195-0269-4FE6-A8255211F3F2634B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fallopian tube
+			</MetaKeyword>
+			<MetaKeyword>
+				fallopian tubes
+			</MetaKeyword>
+			<MetaKeyword>
+				infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Your fallopian tubes are a pair of tubes that eggs travel through to get from your ovaries to your uterus. Each month, during a process called ovulation, one of your ovaries releases an egg that travels down one of your fallopian tubes, where it may or may not be fertilized by a sperm. 
+&lt;/p&gt;
+&lt;p&gt;
+You might have only one fallopian tube if you&apos;ve had pelvic surgery for an infection or a tumor, or a past ectopic pregnancy. Occasionally, some women are born with only one tube. However, you may still be able to get pregnant with only one tube if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have one or both ovaries&lt;/li&gt;
+	&lt;li&gt;You still ovulate&lt;/li&gt;
+	&lt;li&gt;Your remaining fallopian tube is healthy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re unable to get pregnant after a year of trying to conceive, see your gynecologist or a reproductive endocrinologist for evaluation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fallopian tubes: Is pregnancy possible with only one?
+	</Title>
+	<Abstract>
+		Pregnancy may be possible with one fallopian tube.
+	</Abstract>
+	<Question>
+		I have only one fallopian tube. Is it possible for me to get pregnant?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01225" LinkType="Internal" ObjectID="E31C17D6-2A5D-9994-E46D34BCA0A2A4DD" Title="Semen allergy: A cause of infertility?" Url="http://www.mayoclinic.com/health/semen-allergy/AN01225" />
+		<LinkItem ContentType="Answer" DocID="AN02135" LinkType="Internal" ObjectID="BD376788-A273-5799-13B6D5C26049D51E" Title="Secondary infertility: Why does it happen?" Url="http://www.mayoclinic.com/health/secondary-infertility/AN02135" />
+		<LinkItem ContentType="Answer" DocID="AN01797" LinkType="Internal" ObjectID="5B32143F-E7FF-0DBD-102E61918CA2F393" Title="Fertility herbs: Do they enhance fertility?" Url="http://www.mayoclinic.com/health/fertility-herbs/AN01797" />
+		<LinkItem ContentType="Video" DocID="MM00808" LinkType="Internal" ObjectID="E7152624-FB9D-533A-89040CE10043F686" Title="Video: HSG test for female infertility" Url="http://www.mayoclinic.com/health/hsg-test/MM00808" />
+		<LinkItem ContentType="Video" DocID="MM00807" LinkType="Internal" ObjectID="E711535B-DE8A-B15E-A0233CCEE43B209D" Title="Video: Causes of endometriosis" Url="http://www.mayoclinic.com/health/cause-of-endometriosis/MM00807" />
+		<LinkItem ContentType="Answer" DocID="AN01521" LinkType="Internal" ObjectID="CED4BA6D-E7FF-0DBD-132A9EA646306039" Title="Ovulation signs: When is conception most likely?" Url="http://www.mayoclinic.com/health/ovulation-signs/AN01521" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00104" LinkType="Internal" ObjectID="BC50D0DD-E7FF-0DBD-107893C2F894FAD6" Title="Intrauterine insemination (IUI)" Url="http://www.mayoclinic.com/health/intrauterine-insemination/MY00104" />
+		<LinkItem ContentType="Video" DocID="MM00108" LinkType="Internal" ObjectID="A0F8DEFB-36F1-4F79-B4FA68DFC12AAE0A" Title="Video: Ovulation" Url="http://www.mayoclinic.com/health/ovulation/MM00108" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01648" LinkType="Internal" ObjectID="52C2A4CD-D51A-5516-57462451EECCE9F1" Title="In vitro fertilization (IVF)" Url="http://www.mayoclinic.com/health/in-vitro-fertilization/MY01648" />
+		<LinkItem ContentType="Answer" DocID="AN00461" LinkType="Internal" ObjectID="20334091-273F-4DC3-B43F5BF51DC6EEBF" Title="Tilted uterus: Can it lead to infertility?" Url="http://www.mayoclinic.com/health/tilted-uterus/AN00461" />
+		<LinkItem ContentType="Disease" DocID="DS00310" LinkType="Internal" ObjectID="5B0A05CB-053F-4FD3-9BE06955A15A3CD9" Title="Infertility" Url="http://www.mayoclinic.com/health/infertility/DS00310" />
+		<LinkItem ContentType="Article" DocID="MY01095" LinkType="Internal" ObjectID="6EF8A458-F51A-E3CA-9A9E04708EB3BAAE" Title="Female fertility: Why lifestyle choices count" Url="http://www.mayoclinic.com/health/female-fertility/MY01095" />
+		<LinkItem ContentType="Answer" DocID="AN01436" LinkType="Internal" ObjectID="CC205413-E7FF-0DBD-10675C5AABA84691" Title="Hypothyroidism and infertility: Any connection?" Url="http://www.mayoclinic.com/health/hypothyroidism-and-infertility/AN01436" />
+		<LinkItem ContentType="Answer" DocID="AN01895" LinkType="Internal" ObjectID="550F1AFB-E7FF-0DBD-1A036BDCE80AC1C4" Title="Tilted cervix: Can it hinder pregnancy?" Url="http://www.mayoclinic.com/health/tilted-cervix/AN01895" />
+		<LinkItem ContentType="Disease" DocID="DS00402" LinkType="Internal" ObjectID="FBA965E8-A8A8-4135-B6C0D91B152E2CF5" Title="Pelvic inflammatory disease (PID)" Url="http://www.mayoclinic.com/health/pelvic-inflammatory-disease/DS00402" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00289" LinkType="Internal" ObjectID="BCA261E0-0FFD-4933-87C852CF94968FE2" Title="Endometriosis" Url="http://www.mayoclinic.com/health/endometriosis/DS00289" />
+		<LinkItem ContentType="Disease" DocID="DS01097" LinkType="Internal" ObjectID="BC626C4F-E7FF-0DBD-12F8D36E0990C7B4" Title="Ovarian hyperstimulation syndrome" Url="http://www.mayoclinic.com/health/ovarian-hyperstimulation-syndrome-ohss/DS01097" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+		<LinkItem ContentType="Disease" DocID="DS00843" LinkType="Internal" ObjectID="7E5EDB50-E7FF-0DBD-1BBE6D8C25526BBF" Title="Premature ovarian failure" Url="http://www.mayoclinic.com/health/premature-ovarian-failure/DS00843" />
+		<LinkItem ContentType="Disease" DocID="DS00423" LinkType="Internal" ObjectID="6AF557AF-44E0-4DDD-A998ADE4B75EAB04" Title="Polycystic ovary syndrome" Url="http://www.mayoclinic.com/health/polycystic-ovary-syndrome/DS00423" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+		<LinkItem ContentType="Disease" DocID="DS00183" LinkType="Internal" ObjectID="23246C2F-131D-4391-BB2A6B3E819A126F" Title="Drug addiction" Url="http://www.mayoclinic.com/health/drug-addiction/DS00183" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Answer>

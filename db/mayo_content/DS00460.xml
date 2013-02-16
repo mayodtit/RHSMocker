@@ -1,0 +1,489 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00460
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spinal-cord-injury/DS00460
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-22
+		</UpdateDate>
+		<PublicationDate>
+			2003-11-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1434" Title="Spinal cord">
+						<Keyword MCVID="1435" Title="Spinal cord injury" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FF176B51-D345-4049-99F4E7BC2B3E4A27
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spinal cord injury
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal cord trauma
+			</MetaKeyword>
+			<MetaKeyword>
+				head trauma
+			</MetaKeyword>
+			<MetaKeyword>
+				neck trauma
+			</MetaKeyword>
+			<MetaKeyword>
+				paraplegia
+			</MetaKeyword>
+			<MetaKeyword>
+				quadriplegia
+			</MetaKeyword>
+			<MetaKeyword>
+				paralysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A spinal cord injury &amp;mdash; damage to any part of the spinal cord or nerves at the end of the spinal canal &amp;mdash; often causes permanent changes in strength, sensation and other body functions below the site of the injury. If you&apos;ve recently experienced a spinal cord injury, it might seem like every aspect of your life will be affected. 
+&lt;/p&gt;
+&lt;p&gt;
+Many scientists are optimistic that advances in research will someday make the repair of spinal cord injuries possible. Research studies are ongoing around the world. In the meantime, treatments and rehabilitation allow many people with a spinal cord injury to lead productive, independent lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your ability to control your limbs after spinal cord injury depends on two factors: the place of the injury along your spinal cord and the severity of injury to the spinal cord. The lowest normal part of your spinal cord is referred to as the neurological level of your injury. The severity of the injury is often called &quot;the completeness&quot; and is classified as either: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Complete.&lt;/strong&gt; If almost all feeling (sensory) and all ability to control movement (motor function) are lost below the spinal cord injury, your injury is called complete.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Incomplete.&lt;/strong&gt; If you have some motor or sensory function below the affected area, your injury is called incomplete. There are varying degrees of incomplete injury.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, paralysis from a spinal cord injury may be referred to as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tetraplegia or quadriplegia.&lt;/strong&gt; This means your arms, hands, trunk, legs and pelvic organs are all affected by your spinal cord injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Paraplegia.&lt;/strong&gt; This paralysis affects all or part of the trunk, legs and pelvic organs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care team will perform a series of tests to determine the neurological level and completeness of your injury. 
+&lt;/p&gt;
+&lt;p&gt;
+Spinal cord injuries of any kind may result in one or more of the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of movement&lt;/li&gt;
+	&lt;li&gt;Loss of sensation, including the ability to feel heat, cold and touch&lt;/li&gt;
+	&lt;li&gt;Loss of bowel or bladder control&lt;/li&gt;
+	&lt;li&gt;Exaggerated reflex activities or spasms&lt;/li&gt;
+	&lt;li&gt;Changes in sexual function, sexual sensitivity and fertility&lt;/li&gt;
+	&lt;li&gt;Pain or an intense stinging sensation caused by damage to the nerve fibers in your spinal cord&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing, coughing or clearing secretions from your lungs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency signs and symptoms&lt;br /&gt;
+&lt;/strong&gt;Emergency signs and symptoms of spinal cord injury after an accident may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme back pain or pressure in your neck, head or back&lt;/li&gt;
+	&lt;li&gt;Weakness, incoordination or paralysis in any part of your body&lt;/li&gt;
+	&lt;li&gt;Numbness, tingling or loss of sensation in your hands, fingers, feet or toes&lt;/li&gt;
+	&lt;li&gt;Loss of bladder or bowel control&lt;/li&gt;
+	&lt;li&gt;Difficulty with balance and walking&lt;/li&gt;
+	&lt;li&gt;Impaired breathing after injury&lt;/li&gt;
+	&lt;li&gt;An oddly positioned or twisted neck or back&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Anyone who experiences significant trauma to his or her head or neck needs immediate medical evaluation for the possibility of a spinal injury. In fact, it&apos;s safest to assume that trauma victims have a spinal injury until proven otherwise because: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A serious spinal injury isn&apos;t always immediately obvious. If it isn&apos;t recognized, a more severe injury may occur.&lt;/li&gt;
+	&lt;li&gt;Numbness or paralysis may result immediately or come on gradually as bleeding or swelling occurs in or around the spinal cord.&lt;/li&gt;
+	&lt;li&gt;The time between injury and treatment can be critical in determining the extent of complications and the amount of recovery. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;If you suspect that someone has a back or neck injury:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t move the injured person &amp;mdash; permanent paralysis and other serious complications may result.&lt;/li&gt;
+	&lt;li&gt;Call 911 or your local emergency medical assistance number.&lt;/li&gt;
+	&lt;li&gt;Keep the person still.&lt;/li&gt;
+	&lt;li&gt;Place heavy towels on both sides of the neck or hold the head and neck to prevent them from moving, until emergency care arrives.&lt;/li&gt;
+	&lt;li&gt;Provide basic first aid, such as stopping any bleeding and making the person comfortable, without moving the head or neck.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the area of the body affected by paraplegia and quadriplegia 
+" Caption="Paralysis of the lower half of the body is called paraplegia. Paralysis below the neck, including both arms and legs, is called quadriplegia. 
+" Height="60" Title="Spinal cord injuries" URI="/images/image_popup/thumbs/r7_spinalcordinjurythu.jpg" Width="60" />
+				<Image Alt="Illustration showing the area of the body affected by paraplegia and quadriplegia 
+" Caption="Paralysis of the lower half of the body is called paraplegia. Paralysis below the neck, including both arms and legs, is called quadriplegia. 
+" Height="400" Title="Spinal cord injuries" URI="/images/image_popup/r7_spinalcordinjury.jpg" Width="400" />
+				<HTML>
+					Paralysis of the lower half of the body is called paraplegia. Paralysis below the neck, including both arms and legs, is called quadriplegia. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spinal cord injuries result from damage to the vertebrae, ligaments or disks of the spinal column or to the spinal cord itself. A traumatic spinal cord injury may stem from a sudden, traumatic blow to your spine that fractures, dislocates, crushes or compresses one or more of your vertebrae. It also may result from a gunshot or knife wound that penetrates and cuts your spinal cord. Additional damage usually occurs over days or weeks because of bleeding, swelling, inflammation and fluid accumulation in and around your spinal cord. 
+&lt;/p&gt;
+&lt;p&gt;
+A nontraumatic spinal cord injury may be caused by arthritis, cancer, inflammation, infections, or disk degeneration of the spine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your brain and central nervous system&lt;br /&gt;
+&lt;/strong&gt;The central nervous system comprises the brain and spinal cord. The spinal cord, made of soft tissue and surrounded by bones (vertebrae), extends downward from the base of your brain and is made up of nerve cells and groups of nerves called tracts, which go to different parts of your body. The lower end of your spinal cord stops a little above your waist in the region called the conus medullaris. Below this region is a group of nerve roots called the cauda equina. 
+&lt;/p&gt;
+&lt;p&gt;
+Tracts in your spinal cord carry messages between the brain and the rest of the body. Motor tracts carry signals from the brain to control muscle movement. Sensory tracts carry signals from body parts to the brain relating to heat, cold, pressure, pain and the position of your limbs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Damage to nerve fibers&lt;br /&gt;
+&lt;/strong&gt;Whether the cause is traumatic or nontraumatic, the damage affects the nerve fibers passing through the injured area and may impair part or all of your corresponding muscles and nerves below the injury site. A chest (thoracic) or lower back (lumbar) injury can affect your torso, legs, bowel and bladder control, and sexual function. In addition, a neck (cervical) injury affects movements of your arms and, possibly, your ability to breathe. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Common causes of spinal cord injury&lt;br /&gt;
+&lt;/strong&gt;The most common causes of spinal cord injuries in the United States are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Motor vehicle accidents.&lt;/strong&gt; Auto and motorcycle accidents are the leading cause of spinal cord injuries, accounting for more than 40 percent of new spinal cord injuries each year.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Spinal cord injury after age 65 is most often caused by a fall. Overall, falls cause more than one-quarter of spinal cord injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acts of violence.&lt;/strong&gt; As many as 15 percent of spinal cord injuries result from violent encounters, often involving gunshot and knife wounds, according to the National Institute of Neurological Disorders and Stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports and recreation injuries.&lt;/strong&gt; Athletic activities, such as impact sports and diving in shallow water, cause about 8 percent of spinal cord injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol.&lt;/strong&gt; Alcohol use is a factor in about 1 out of every 4 spinal cord injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases.&lt;/strong&gt; Cancer, arthritis, osteoporosis and inflammation of the spinal cord also can cause spinal cord injuries.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the anatomy of the central nervous system 
+" Caption="The spinal cord extends downward from the base of your brain. It&apos;s made up of nerve cells and groups of nerves that carry messages between the brain and the rest of the body. 
+" Height="60" Title="Central nervous system" URI="/images/image_popup/thumbs/mcdc7_spinalcordthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the anatomy of the central nervous system 
+" Caption="The spinal cord extends downward from the base of your brain. It&apos;s made up of nerve cells and groups of nerves that carry messages between the brain and the rest of the body. 
+" Height="650" Title="Central nervous system" URI="/images/image_popup/mcdc7_spinalcord.jpg" Width="400" />
+				<HTML>
+					The spinal cord extends downward from the base of your brain. It&apos;s made up of nerve cells and groups of nerves that carry messages between the brain and the rest of the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although a spinal cord injury is usually the result of an accident and can happen to anyone, certain factors may predispose you to a higher risk of sustaining a spinal cord injury, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Spinal cord injuries affect a disproportionate amount of men. In fact, females account for only about 20 percent of traumatic spinal cord injuries in the United States.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being between the ages of 16 and 30.&lt;/strong&gt; You&apos;re most likely to suffer a traumatic spinal cord injury if you&apos;re between the ages of 16 and 30. Motor vehicle crashes are the leading cause of spinal cord injuries for people under 65, while falls cause most injuries in older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Engaging in risky behavior.&lt;/strong&gt; Diving into too-shallow water or playing sports without wearing the proper safety gear or taking proper precautions can lead to spinal cord injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a bone or joint disorder.&lt;/strong&gt; A relatively minor injury can cause a spinal cord injury if you have another disorder that affects your bones or joints, such as arthritis or osteoporosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+At first, changes in the way your body functions may be overwhelming. However, your rehabilitation team will help you develop the strategies you need to address the changes caused by the spinal cord injury. Areas often affected include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder control.&lt;/strong&gt; Your bladder will continue to store urine from your kidneys. However, your brain may not be able to control your bladder as well because the message carrier (the spinal cord) has been injured. The changes in bladder control increase your risk of urinary tract infections. They also may cause kidney infections and kidney or bladder stones. Drinking plenty of clear fluids may help. During rehabilitation, you&apos;ll learn new techniques to help empty your bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bowel control.&lt;/strong&gt; Although your stomach and intestines work much like they did before your injury, control of your bowel movements is often altered. A high-fiber diet may help regulate your bowels, and you&apos;ll learn techniques to optimize your bowel function during rehabilitation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin sensation.&lt;/strong&gt; Below the neurological level of your injury, you may have lost part or all skin sensations. Therefore, your skin can&apos;t send a message to your brain when it&apos;s injured by things such as prolonged pressure, heat or cold. This can make you more susceptible to pressure sores, but changing positions frequently &amp;mdash; with help, if needed &amp;mdash; can help prevent these sores. You&apos;ll learn proper skin care during rehabilitation, which can help you avoid these problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Circulatory control.&lt;/strong&gt; A spinal cord injury may cause circulatory problems ranging from low blood pressure when you rise (orthostatic hypotension) to swelling of your extremities. These circulation changes also may increase your risk of developing blood clots, such as deep vein thrombosis or a pulmonary embolus. Another problem with circulatory control is a potentially life-threatening rise in blood pressure (autonomic hyperreflexia). Your rehabilitation team will teach you how to address these problems if they affect you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory system.&lt;/strong&gt; Your injury may make it more difficult to breathe and cough if your abdominal and chest muscles are affected. These include the diaphragm and the muscles in your chest wall and abdomen. Your neurological level of injury will determine what kind of breathing problems you may have. If you have cervical and thoracic spinal cord injury, you may have an increased risk of pneumonia or other lung problems. Medications and therapy can treat these problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle tone.&lt;/strong&gt; Some people with a spinal cord injury experience one of two types of muscle tone problems: uncontrolled tightening or motion in the muscles (spasticity) or soft and limp muscles, lacking muscle tone (flaccidity).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fitness and wellness.&lt;/strong&gt; Weight loss and muscle atrophy are common soon after a spinal cord injury. Limited mobility may lead to a more sedentary lifestyle, placing you at risk of obesity, cardiovascular disease and diabetes. A dietitian can help you eat a nutritious diet to sustain an adequate weight. Physical and occupational therapists can help you develop a fitness and exercise program.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Sexual health.&lt;/strong&gt; Sexuality, fertility and sexual function may be affected by spinal cord injury. Men may notice changes in erection and ejaculation; women may notice changes in lubrication. A spinal cord injury may cause decreased or absent sensation and movement below the level of injury, but a person may notice a heightened sensitivity in areas above the level of injury. Doctors, urologists and fertility specialists who specialize in spinal cord injury can offer options for sexual functioning and fertility.
+	&lt;/p&gt;
+	&lt;p&gt;
+	There&apos;s usually no physical change in women with a spinal cord injury that inhibits sexual intercourse or pregnancy. Most women with a spinal cord injury can experience labor, have a normal delivery and breast-feed. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Some people experience pain, such as muscle or joint pain, from overuse of particular muscle groups. Nerve pain, also known as neuropathic or central pain, can occur after a spinal cord injury, especially in someone with an incomplete injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; Coping with all the changes spinal cord injury brings and living with pain causes some people to experience depression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Traumatic spinal cord injuries are emergencies, and the person who&apos;s injured may not be able to participate in his or her care in the beginning. A number of specialists will be involved in stabilizing the condition, including a doctor who specializes in nervous system disorders (neurologist) and a surgeon who specializes in spinal cord injuries and other nervous system problems (neurosurgeon), among others. The rehabilitation team, which will include a variety of specialists, will be led by a doctor who specializes in spinal cord injury. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a possible spinal cord injury or you accompany someone who&apos;s had a spinal cord injury and can&apos;t provide the necessary information, here are some things you can do to facilitate care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to provide information about the circumstances of the event that caused the injury,&lt;/strong&gt; including any that may seem unrelated. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask another family member or friend to join you when you&apos;re speaking with the doctors,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided. Someone who accompanies you may remember the details and help you communicate them to the person with the injury at the appropriate time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; the doctors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For a spinal cord injury, some basic questions to ask the doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the prognosis?&lt;/li&gt;
+	&lt;li&gt;What will happen in the short term? What will happen over the long term? What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can be expected from treatment?&lt;/li&gt;
+	&lt;li&gt;Could surgery help?&lt;/li&gt;
+	&lt;li&gt;What type of rehabilitation might help?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What research is being done to help this condition?&lt;/li&gt;
+	&lt;li&gt;Do you have brochures or other printed material? Are there websites you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What were the circumstances that led to your injury?&lt;/li&gt;
+	&lt;li&gt;When did it occur?&lt;/li&gt;
+	&lt;li&gt;What do you do for work?&lt;/li&gt;
+	&lt;li&gt;With whom do you live?&lt;/li&gt;
+	&lt;li&gt;Do you or anyone in your family have a history of blood clots?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the emergency room, a doctor may be able to rule out a spinal cord injury by careful inspection, testing for sensory function and movement, and asking some questions about the accident. But if the injured person complains of neck pain, isn&apos;t fully awake, or has obvious signs of weakness or neurological injury, emergency diagnostic tests may be needed. 
+&lt;/p&gt;
+&lt;p&gt;
+These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Medical personnel typically order these tests on people who are suspected of having a spinal cord injury after trauma. X-rays can reveal vertebral (spinal column) problems, tumors, fractures or degenerative changes in the spine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan may provide a better look at abnormalities seen on an X-ray. This scan uses computers to form a series of cross-sectional images that can define bone, disk and other problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses a strong magnetic field and radio waves to produce computer-generated images. This test is very helpful for looking at the spinal cord and identifying herniated disks, blood clots or other masses that may be compressing the spinal cord.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A few days after injury, when some of the swelling may have subsided, your doctor will conduct a neurological exam to determine the level and completeness of your injury. This involves testing your muscle strength and your ability to sense light touch and a pinprick. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unfortunately, there&apos;s no way to reverse damage to the spinal cord. But, researchers are continually working on new treatments, including prostheses and medications that may promote nerve cell regeneration or improve the function of the nerves that remain after a spinal cord injury. 
+&lt;/p&gt;
+&lt;p&gt;
+In the meantime, spinal cord injury treatment focuses on preventing further injury and empowering people with a spinal cord injury to return to an active and productive life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency actions&lt;br /&gt;
+&lt;/strong&gt;Urgent medical attention is critical to minimize the effects of any head or neck trauma. So treatment for a spinal cord injury often begins at the scene of the accident. 
+&lt;/p&gt;
+&lt;p&gt;
+Emergency personnel typically immobilize the spine as gently and quickly as possible using a rigid neck collar and a rigid carrying board, which they&apos;ll use to transport you to the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early (acute) stages of treatment&lt;br /&gt;
+&lt;/strong&gt;In the emergency room, doctors focus on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maintaining your ability to breathe&lt;/li&gt;
+	&lt;li&gt;Preventing shock&lt;/li&gt;
+	&lt;li&gt;Immobilizing your neck to prevent further spinal cord damage&lt;/li&gt;
+	&lt;li&gt;Avoiding possible complications, such as stool or urine retention, respiratory or cardiovascular difficulty, and formation of deep vein blood clots in the extremities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may be sedated so that you don&apos;t move and sustain more damage while undergoing diagnostic tests for spinal cord injury. 
+&lt;/p&gt;
+&lt;p&gt;
+If you do have a spinal cord injury, you&apos;ll usually be admitted to the intensive care unit for treatment. You may even be transferred to a regional spine injury center that has a team of neurosurgeons, orthopedic surgeons, spinal cord medicine specialists, psychologists, nurses, therapists and social workers with expertise in spinal cord injury. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Methylprednisolone (Medrol) is a treatment option for an acute spinal cord injury. If methylprednisolone is given within eight hours of injury, some people experience mild improvement. It appears to work by reducing damage to nerve cells and decreasing inflammation near the site of injury. However, it&apos;s not a cure for a spinal cord injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immobilization.&lt;/strong&gt; You may need&lt;strong&gt; &lt;/strong&gt;traction to stabilize your spine, to bring the spine into proper alignment or both. Sometimes, traction is accomplished by securing metal braces, attached to weights or a body harness, to your skull to keep your head from moving. In some cases, a rigid neck collar may work. A special bed also may help immobilize your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Often, surgery is necessary to remove fragments of bones, foreign objects, herniated disks or fractured vertebrae that appear to be compressing the spine. Surgery may also be needed to stabilize the spine to prevent future pain or deformity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Experimental treatments.&lt;/strong&gt; Scientists are trying to figure out ways to stop cell death, control inflammation and promote nerve regeneration. Ask your doctor about the availability of such treatments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ongoing care&lt;br /&gt;
+&lt;/strong&gt;After the initial injury or disease stabilizes, doctors turn their attention to preventing secondary problems that may arise, such as deconditioning, muscle contractures, pressure ulcers, bowel and bladder issues, respiratory infections, and blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+The length of your hospitalization depends on your condition and the medical issues you&apos;re facing. Once you&apos;re well enough to participate in therapies and treatment, you may transfer to a rehabilitation facility. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rehabilitation.&lt;/strong&gt; Rehabilitation team members will begin to work with you while you&apos;re in the early stages of recovery. Your team may include a physical therapist, occupational therapist, rehabilitation nurse, rehabilitation psychologist, social worker, dietitian, recreation therapist and a doctor who specializes in physical medicine (physiatrist) or spinal cord injuries. 
+&lt;/p&gt;
+&lt;p&gt;
+During the initial stages of rehabilitation, therapists usually emphasize maintenance and strengthening of existing muscle function, redeveloping fine motor skills and learning adaptive techniques to accomplish day-to-day tasks. You&apos;ll be educated on the effects of a spinal cord injury and how to prevent complications, and you&apos;ll be given advice on rebuilding your life and increasing your quality of life. You&apos;ll be taught many new skills. and you&apos;ll use equipment and technology that can help you live on your own as much as possible. You&apos;ll be encouraged to resume your favorite hobbies, participate in social and fitness activities, and return to school or the workplace. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications.&lt;/strong&gt; Medications may be used to manage some of the effects of spinal cord injury. These include medications to control pain and muscle spasticity, as well as medications that can improve bladder control, bowel control and sexual functioning. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;New technologies.&lt;/strong&gt; Inventive medical devices can help people with a spinal cord injury become more independent and more mobile. Some devices may also restore function. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Modern wheelchairs.&lt;/strong&gt; Improved, lighter weight wheelchairs are making people with a spinal cord injury more mobile and more comfortable. For some, an electric wheelchair may be needed. Some wheelchairs can even climb stairs, travel over rough terrain and elevate a seated passenger to eye level to reach high places without help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computer adaptations.&lt;/strong&gt; For someone who has limited hand function, computers can be very powerful tools, but they&apos;re difficult to operate. Computer adaptations range from simple to complex, such as key guards or voice recognition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electronic aids to daily living.&lt;/strong&gt; Essentially any device that uses electricity can be controlled with an electronic aid to daily living (EADL). Devices can be turned on or off by switch or voice-controlled and computer-based remotes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrical stimulation devices.&lt;/strong&gt; These sophisticated devices use electrical stimulation to produce actions. They&apos;re often called functional electrical stimulation (FES) systems, and they use electrical stimulators to control arm and leg muscles to allow people with a spinal cord injury to stand, walk, reach and grip.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Robotic gait training.&lt;/strong&gt; This emerging technology is used for retraining walking ability after spinal cord injury.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prognosis and recovery&lt;br /&gt;
+&lt;/strong&gt;Your doctor may not be able to give you a prognosis right away. Recovery, if it occurs, typically starts a week to six months after an injury. However, some people experience small improvements for up to one year or longer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An accident that results in paralysis is a life-changing event. Suddenly having a disability can be frightening and confusing, and adapting is no easy task. You may wonder how your spinal cord injury will affect your everyday activities, job, relationships and long-term happiness. 
+&lt;/p&gt;
+&lt;p&gt;
+Recovery from such an event takes time, but many people who are paralyzed move on to lead productive and fulfilling lives. It&apos;s essential to stay motivated and get the support you need. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Grieving&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re newly injured, you and your family will likely experience a period of mourning and grief. Although the grieving process is different for everyone, it&apos;s common to experience denial or disbelief, followed by sadness, anger, bargaining and, finally, acceptance. 
+&lt;/p&gt;
+&lt;p&gt;
+The grieving process is a common, healthy part of your recovery. It&apos;s natural &amp;mdash; and important &amp;mdash; to grieve the loss of the way you were. But it&apos;s also necessary to set new goals and find a way to move forward with your life. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll probably have concerns about how your injury will affect your lifestyle, your financial situation and your relationships. Grieving and emotional stress are normal and common. However, if your grief and sadness are affecting your care, causing you to isolate yourself from others, or prompting you to abuse alcohol or other drugs, you may want to consider talking to a social worker, psychologist or psychiatrist. Or, you might find a support group of people with spinal cord injuries helpful. Talking with others who understand what you&apos;re going through can be encouraging, and members of the group may have good advice on adapting areas of your home or work space to better accommodate your current needs. Ask your doctor or rehabilitation specialist if there are any support groups in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Taking control&lt;br /&gt;
+&lt;/strong&gt;One of the best ways to regain control of your life is to educate yourself about your injury and your options for reclaiming an independent life. A range of driving equipment and vehicle modifications is available today. The same is true of home modification products. Ramps, wider doors, special sinks, grab bars and easy-to-turn doorknobs make it possible for you to live more autonomously. 
+&lt;/p&gt;
+&lt;p&gt;
+Because the costs of a spinal cord injury can be overwhelming, you may want to find out if you&apos;re eligible for economic assistance or support services from the state or federal government or from charitable organizations. Your rehabilitation team can help you identify resources in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Talking about your disability&lt;br /&gt;
+&lt;/strong&gt;Your friends and family may respond to your disability in different ways. Some may be uncomfortable and unsure if they&apos;re saying or doing the right thing. 
+&lt;/p&gt;
+&lt;p&gt;
+Being educated about your spinal cord injury and willing to educate others is helpful. Children are naturally curious and sometimes adjust rather quickly if their questions are answered in a clear, straightforward way. Adults can also benefit from learning the facts. Explain the effects of your injury and what your family and friends can do to help. At the same time, don&apos;t hesitate to tell friends and loved ones when they&apos;re helping too much. Although it may be uncomfortable at first, talking about your injury often strengthens your relationships with family and friends. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dealing with intimacy, sexuality and sexual activity&lt;br /&gt;
+&lt;/strong&gt;Your spinal cord injury may affect your body&apos;s response to sexual stimuli. However, you&apos;re a sexual being with sexual desires. A fulfilling emotional and physical relationship is possible, but requires communication, experimentation and patience. A professional counselor can help you and your partner communicate your needs and feelings. Your doctor can provide the medical information you need regarding sexual health. You can have a satisfying future complete with intimacy and sexual pleasure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Looking ahead&lt;br /&gt;
+&lt;/strong&gt;By nature, a spinal cord injury has a sudden impact on your life and the lives of those closest to you. When you first hear your diagnosis, you may start making a mental list of all of the things you can&apos;t do anymore. However, as you learn more about your injury and your treatment options, you may be surprised by all you can do. 
+&lt;/p&gt;
+&lt;p&gt;
+Thanks to new technologies, treatments and devices, people with a spinal cord injury play basketball and participate in track meets. They paint and take photographs. They get married, have and raise children, and have rewarding jobs. 
+&lt;/p&gt;
+&lt;p&gt;
+Today, advances in stem cell research and nerve cell regeneration give hope for a greater recovery for people with spinal cord injuries. At the same time, new medications are being investigated for people with long-standing spinal cord injuries. No one knows when new treatments will be available, but you can remain hopeful about the future of spinal cord research while living your life to the fullest today. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Following this advice may reduce your risk of a spinal cord injury:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drive safely.&lt;/strong&gt; Car crashes are one of the most common causes of spinal cord injuries. Wear a seat belt every time you drive or ride in a car. Make sure that your children wear a seat belt or use an age- and weight-appropriate child safety seat. To protect them from air bag injuries, children under age 12 should always ride in the back seat. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check water depth before diving.&lt;/strong&gt; To make sure you don&apos;t dive into shallow water, don&apos;t dive into a pool unless it&apos;s 9 feet or deeper, don&apos;t dive into an aboveground pool, and don&apos;t dive into any water of which you don&apos;t know the depth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent falls.&lt;/strong&gt; Use a step stool with a grab bar to reach objects in high places. Add handrails along stairways. Put nonslip mats on tile floors and in the tub or shower. For young children, use safety gates to block stairs and consider installing window guards.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take precautions when playing sports.&lt;/strong&gt; Always wear recommended safety gear. Avoid leading with your head in sports. For example, don&apos;t slide headfirst in baseball, and don&apos;t tackle using the top of your helmet in football. Use a spotter for new moves in gymnastics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink and drive.&lt;/strong&gt; Don&apos;t drive while intoxicated or under the influence of drugs. Don&apos;t ride with a driver who&apos;s been drinking.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Spinal cord injury
+	</Title>
+	<Abstract>
+		Spinal cord injury &amp;mdash; Comprehensive overview covers symptoms, treatment of damage to the spinal cord.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00261" LinkType="Internal" ObjectID="5309DECB-E7FF-0DBD-184F285B0CDD719E" Title="Tracheostomy" Url="http://www.mayoclinic.com/health/tracheostomy/MY00261" />
+		<LinkItem ContentType="Article" DocID="CA00081" LinkType="Internal" ObjectID="E5B1AC99-E7FF-0DBD-1BD6F6EB61E7886E" Title="Stem cells: What they are and what they do" Url="http://www.mayoclinic.com/health/stem-cells/CA00081" />
+		<LinkItem ContentType="Disease" DocID="DS00570" LinkType="Internal" ObjectID="2F39B719-D2A6-4146-9E498948F7F9CB61" Title="Bedsores (pressure sores)" Url="http://www.mayoclinic.com/health/bedsores/DS00570" />
+		<LinkItem ContentType="Disease" DocID="DS00404" LinkType="Internal" ObjectID="256654C2-982F-4C33-B5E40B0F7A6C9C68" Title="Urinary incontinence" Url="http://www.mayoclinic.com/health/urinary-incontinence/DS00404" />
+	</RelatedLinksBox>
+</Disease>

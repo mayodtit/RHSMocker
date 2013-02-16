@@ -1,0 +1,276 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01020
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/post-concussion-syndrome/DS01020
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-29
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2221" Title="Head and brain injuries">
+						<Keyword MCVID="2317" Title="Concussion">
+							<Keyword MCVID="4277" Title="Post-concussion syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B103808E-E7FF-0DBD-1E25B9F73062E4D2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				post-concussion syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				post-concussion
+			</MetaKeyword>
+			<MetaKeyword>
+				postconcussion syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				post concussion syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-concussion syndrome is a complex disorder in which a variable combination of post-concussion symptoms &amp;mdash; such as headaches and dizziness &amp;mdash; last for weeks and sometimes months after the injury that caused the concussion. 
+&lt;/p&gt;
+&lt;p&gt;
+Concussion is a mild traumatic brain injury, usually occurring after a blow to the head. Loss of consciousness isn&apos;t required for a diagnosis of concussion or post-concussion syndrome. In fact, the risk of post-concussion syndrome doesn&apos;t appear to be associated with the severity of the initial injury. 
+&lt;/p&gt;
+&lt;p&gt;
+In most people, post-concussion syndrome symptoms occur within the first seven to 10 days and go away within three months, though they can persist for a year or more. Post-concussion syndrome treatments are aimed at easing specific symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Post-concussion symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Loss of concentration and memory&lt;/li&gt;
+	&lt;li&gt;Noise and light sensitivity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Headaches that occur after a concussion can vary and may feel like tension-type headaches or migraine headaches. Most, however, are tension-type headaches, which may be associated with a neck injury that happened at the same time as the head injury. In some cases, people experience behavior or emotional changes after a mild traumatic brain injury. Family members may notice that the person has become more irritable, suspicious, argumentative or stubborn.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See a doctor if you experience a head injury severe enough to cause confusion or amnesia &amp;mdash; even if you never lost consciousness. If a concussion occurs while you&apos;re playing a sport, don&apos;t go back in the game. Seek medical attention so that you don&apos;t risk worsening your injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some experts believe post-concussion symptoms are caused by structural damage to the brain or disruption of neurotransmitter systems, resulting from the impact that caused the concussion. Others believe post-concussion symptoms are related to psychological factors, especially since the most common symptoms &amp;mdash; headache, dizziness and sleep problems &amp;mdash; are similar to those often experienced by people diagnosed with depression, anxiety or post-traumatic stress disorder. In many cases, both physiological effects of brain trauma and emotional reactions to these effects play a role in the development of symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers haven&apos;t determined why some people who&apos;ve had concussions develop persistent post-concussion symptoms while others do not. No proven correlation between the severity of the injury and the likelihood of developing persistent post-concussion symptoms exists.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for developing post-concussion syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Studies have found increasing age to be a risk factor for post-concussion syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are more likely to be diagnosed with post-concussion syndrome, but this may be because women are generally more likely to seek medical care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; Concussions resulting from car collisions, falls, assaults and sports injuries are commonly associated with post-concussion syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An emergency room doctor often makes the initial diagnosis of a concussion. Once discharged, you may seek care from your family doctor or general practitioner. However, he or she may refer you to a doctor who specializes in brain and nervous system disorders (neurologist) or a brain rehabilitation specialist (physiatrist). 
+&lt;/p&gt;
+&lt;p&gt;
+If you are referred to a specialist, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to go with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your appointment. List your questions from most important to least important in case time runs out. For post-concussion syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why are these symptoms still occurring?&lt;/li&gt;
+	&lt;li&gt;How long will they continue?&lt;/li&gt;
+	&lt;li&gt;Do I need any additional tests? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Are there any treatments available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+	&lt;li&gt;When can I return to work?&lt;/li&gt;
+	&lt;li&gt;When can I drive again?&lt;/li&gt;
+	&lt;li&gt;Is it safe to drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Is it OK to take my medications that were prescribed before the injury?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did the initial injury occur?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been constant or do they come and go?&lt;/li&gt;
+	&lt;li&gt;What symptoms are you currently experiencing?&lt;/li&gt;
+	&lt;li&gt;How often do your symptoms occur?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms getting worse, staying the same or improving?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No single test will prove you have post-concussion syndrome. Your doctor may want to order a scan of your brain to check for other potential problems that could be causing your symptoms. Computed tomography (CT) imaging is generally the preferred test for detecting brain abnormalities. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re experiencing a lot of dizziness, you may be referred to a doctor who specializes in ear, nose and throat complaints. A referral to a psychologist or psychiatrist may be in order if your symptoms include anxiety or depression, or if you&apos;re having problems with memory or problem solving.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no specific treatment for post-concussion syndrome. Instead, your doctor will treat the individual symptoms you&apos;re experiencing. The types of symptoms and their frequency are unique to each person. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Headaches&lt;br /&gt;
+&lt;/strong&gt;Medications commonly used for migraines or tension headaches, including some antidepressants, appear to be effective when these types of headaches are associated with post-concussion syndrome. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Amitriptyline.&lt;/strong&gt; This medication has been widely used for post-traumatic injuries, as well as for symptoms commonly associated with post-concussion syndrome, such as irritability, dizziness and depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dihydroergotamine (D.H.E. 45) combined with metoclopramide (Reglan).&lt;/strong&gt; These medications may provide relief for chronic headaches, but they must be administered intravenously in the hospital.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind that the overuse of over-the-counter and prescription pain relievers may contribute to persistent post-concussion headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Memory and thinking problems&lt;br /&gt;
+&lt;/strong&gt;No medications are currently recommended specifically for the treatment of cognitive problems after mild traumatic brain injury. Time may be the best therapy for post-concussion syndrome if you have cognitive problems, as most of them go away on their own in the weeks to months following the injury. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain forms of cognitive therapy may be helpful, including focused rehabilitation that provides training in how to use a pocket calendar, electronic organizer or other techniques to work around memory deficits and attention skills. Relaxation therapy may also help. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Depression and anxiety&lt;br /&gt;
+&lt;/strong&gt;The symptoms of post-concussion syndrome often improve after the affected person learns that there is a cause for his or her symptoms, and that they will likely improve with time. Education about the disorder can ease a person&apos;s fears and help provide peace of mind. If you&apos;re experiencing new or increasing depression or anxiety after a concussion, some treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Psychotherapy.&lt;/strong&gt; It may be helpful to discuss your concerns with a psychologist or psychiatrist who has experience in working with people with brain injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; To combat anxiety or depression, antidepressants or anti-anxiety medications may be prescribed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only known way to prevent post-concussion syndrome is to avoid the head injury in the first place. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoiding head injuries&lt;br /&gt;
+&lt;/strong&gt;Although you can&apos;t prepare for every potential situation, here are some tips for avoiding common causes of head injuries: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fasten your seat belt&lt;/strong&gt; whenever you&apos;re traveling in a car, and be sure children are in age-appropriate safety seats. Children under 13 are safest riding in the back seat, especially if your car has air bags.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use helmets&lt;/strong&gt; whenever you or your children are bicycling, roller-skating, in-line skating, ice-skating, skiing, snowboarding, playing football, batting or running the bases in softball or baseball, skateboarding, or horseback riding. Wear a helmet when riding a motorcycle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take steps around the house to prevent falls,&lt;/strong&gt; such as removing small area rugs, improving lighting and installing handrails.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Post-concussion syndrome
+	</Title>
+	<Abstract>
+		Post-concussion syndrome &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this poorly understood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00320" LinkType="Internal" ObjectID="024E17EF-6C4C-4A88-B46F76AE458A6EF7" Title="Concussion" Url="http://www.mayoclinic.com/health/concussion/DS00320" />
+	</RelatedLinksBox>
+</Disease>

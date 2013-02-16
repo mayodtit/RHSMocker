@@ -1,0 +1,427 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00409
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/endocarditis/DS00409
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-11
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1488" Title="Heart valve disease">
+						<Keyword MCVID="1492" Title="Endocarditis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EE9E60F0-2A7D-469F-8664DF29C80DEA35
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				endocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				bacterial endocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				infective endocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				infectious endocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				culture-negative endocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				endocardium
+			</MetaKeyword>
+			<MetaKeyword>
+				heart infection
+			</MetaKeyword>
+			<MetaKeyword>
+				heart valve
+			</MetaKeyword>
+			<MetaKeyword>
+				heart murmur
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				mitral valve prolapse
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endocarditis is an infection of the inner lining of your heart (endocardium). 
+&lt;/p&gt;
+&lt;p&gt;
+Endocarditis typically occurs when bacteria or other germs from another part of your body, such as your mouth, spread through your bloodstream and attach to damaged areas in your heart. Left untreated, endocarditis can damage or destroy your heart valves and can lead to life-threatening complications. Treatments for endocarditis include antibiotics and, in severe cases, surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Endocarditis is uncommon in people with healthy hearts. People at greatest risk of endocarditis have a damaged heart valve, an artificial heart valve or other heart defects. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing effects of endocarditis on the heart
+" Caption="Endocarditis occurs when germs enter your bloodstream, travel to your heart, and lodge on abnormal heart valves or damaged heart tissue. Abnormal growths (vegetations) that contain collections of bacteria may form in your heart at the site of the infection.
+" Height="60" Title="Endocarditis" URI="/images/image_popup/thumbs/mcdc7_endocarditisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing effects of endocarditis on the heart
+" Caption="Endocarditis occurs when germs enter your bloodstream, travel to your heart, and lodge on abnormal heart valves or damaged heart tissue. Abnormal growths (vegetations) that contain collections of bacteria may form in your heart at the site of the infection.
+" Height="371" Title="Endocarditis" URI="/images/image_popup/mcdc7_endocarditis.jpg" Width="400" />
+				<HTML>
+					Endocarditis occurs when germs enter your bloodstream, travel to your heart, and lodge on abnormal heart valves or damaged heart tissue. Abnormal growths (vegetations) that contain collections of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endocarditis may develop slowly or suddenly &amp;mdash; depending on what&apos;s causing the infection and whether you have any underlying heart problems. The infection can infect different people differently, so signs and symptoms vary. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;A new or changed heart murmur &amp;mdash; abnormal heart sounds made by blood rushing through your heart&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Aching joints and muscles&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Paleness&lt;/li&gt;
+	&lt;li&gt;Persistent cough&lt;/li&gt;
+	&lt;li&gt;Swelling in your feet, legs or abdomen&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Blood in your urine (either visible or found in a doctor&apos;s viewing of your urine under a microscope)&lt;/li&gt;
+	&lt;li&gt;Tenderness in your spleen &amp;mdash; an infection-fighting abdominal organ on your left side, just below your rib cage&lt;/li&gt;
+	&lt;li&gt;Osler&apos;s nodes &amp;mdash; red, tender spots under the skin of your fingers&lt;/li&gt;
+	&lt;li&gt;Petechiae (puh-TEE-key-e) &amp;mdash; tiny purple or red spots on the skin, whites of your eyes or inside your mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you develop signs or symptoms of endocarditis, see your doctor right away &amp;mdash; especially if you have risk factors for this serious infection, such as a heart defect or a previous case of endocarditis. 
+&lt;/p&gt;
+&lt;p&gt;
+Although less serious conditions can cause similar signs and symptoms, you won&apos;t know for sure until you&apos;re evaluated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endocarditis occurs when germs enter your bloodstream, travel to your heart, and attach to abnormal heart valves or damaged heart tissue. Bacteria cause most cases, but fungi or other microorganisms also may be responsible. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes the culprit is one of many common bacteria that live in your mouth, throat or other parts of your body. The offending organism may enter your bloodstream through: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Everyday oral activities.&lt;/strong&gt; Activities such as brushing your teeth or chewing food can allow bacteria to enter your bloodstream &amp;mdash; especially if your teeth and gums are in poor condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An infection or other medical condition.&lt;/strong&gt; Bacteria may spread from an infected area, such as a skin sore. Gum disease, a sexually transmitted disease or an intestinal disorder &amp;mdash; such as inflammatory bowel disease &amp;mdash; also may give bacteria the opportunity to enter your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Catheters or needles.&lt;/strong&gt; Bacteria can enter your body through a catheter &amp;mdash; a thin tube that doctors sometimes use to inject or remove fluid from the body. The bacteria that can cause endocarditis can also enter your bloodstream through the needles used for tattooing or body piercing. Contaminated needles and syringes are a concern for people who use intravenous (IV) drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain dental procedures.&lt;/strong&gt; Some dental procedures that can cut your gums may allow bacteria to enter your bloodstream.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Typically, your immune system destroys bacteria that make it into your bloodstream. Even if bacteria reach your heart, they may pass through without causing an infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people who develop endocarditis have a diseased or damaged heart valve &amp;mdash; an ideal spot for bacteria to settle. This damaged tissue in the endocardium provides bacteria with the roughened surface they need to attach and multiply. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing effects of endocarditis on the heart
+" Caption="Endocarditis occurs when germs enter your bloodstream, travel to your heart, and lodge on abnormal heart valves or damaged heart tissue. Abnormal growths (vegetations) that contain collections of bacteria may form in your heart at the site of the infection.
+" Height="60" Title="Endocarditis" URI="/images/image_popup/thumbs/mcdc7_endocarditisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing effects of endocarditis on the heart
+" Caption="Endocarditis occurs when germs enter your bloodstream, travel to your heart, and lodge on abnormal heart valves or damaged heart tissue. Abnormal growths (vegetations) that contain collections of bacteria may form in your heart at the site of the infection.
+" Height="371" Title="Endocarditis" URI="/images/image_popup/mcdc7_endocarditis.jpg" Width="400" />
+				<HTML>
+					Endocarditis occurs when germs enter your bloodstream, travel to your heart, and lodge on abnormal heart valves or damaged heart tissue. Abnormal growths (vegetations) that contain collections of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your heart is healthy, you&apos;re unlikely to develop endocarditis. Even most types of heart disease don&apos;t increase the risk of endocarditis. The germs that cause infection tend to stick to and multiply in damaged or surgically implanted heart valves. 
+&lt;/p&gt;
+&lt;p&gt;
+Those at highest risk of endocarditis are those who have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Artificial heart valves.&lt;/strong&gt; Germs are more likely to attach to an artificial (prosthetic) heart valve than to a normal heart valve. The risk of infection is highest in the first year after implantation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital heart defects.&lt;/strong&gt; If you were born with certain types of heart defects, your heart may be more susceptible to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of endocarditis.&lt;/strong&gt; An episode of endocarditis damages heart tissue and valves, increasing the risk of a future heart infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damaged heart valves.&lt;/strong&gt; Certain medical conditions &amp;mdash; such as rheumatic fever or infection &amp;mdash; can damage or scar one or more of your heart valves, making them more prone to endocarditis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;History of intravenous (IV) illegal drug use.&lt;/strong&gt; People who use illegal drugs by injecting them are at a greater risk of endocarditis. The needles used to inject drugs are often contaminated with the bacteria that can cause endocarditis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a known heart defect or heart valve problem, ask your doctor about your risk of developing endocarditis. Even if your heart condition has been repaired or hasn&apos;t caused symptoms, you may be at risk. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endocarditis can cause several major complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke and organ damage.&lt;/strong&gt; In endocarditis, clumps of bacteria and cell fragments (vegetations) form in your heart at the site of the infection. These clumps can break loose and travel to your brain, lungs, abdominal organs, kidneys or extremities. This may cause various problems, including stroke or damage to other organs or tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections in other parts of your body.&lt;/strong&gt; Endocarditis can cause you to develop pockets of collected pus (abscesses) in other parts of your body, including the brain, kidneys, spleen or liver. An abscess may develop in the heart muscle itself as well, causing an abnormal heartbeat. Severe abscesses may require surgery to treat them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Left untreated, endocarditis can damage your heart valves and permanently destroy your heart&apos;s inner lining. This can cause your heart to work harder to pump blood, eventually causing heart failure &amp;mdash; a chronic condition in which your heart is unable to pump enough blood to meet your body&apos;s needs. If the infection progresses untreated, it&apos;s usually fatal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or an emergency room physician. Or, when you call to set up an appointment, you may be referred to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. Also note if you&apos;ve had similar symptoms that have come and gone in the past.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems you&apos;ve had and the names of any prescription and over-the-counter medications and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For endocarditis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Will I need to be hospitalized for testing?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment can I expect improvement in my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the treatments you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;If the first treatment isn&apos;t effective, what will we try next?&lt;/li&gt;
+	&lt;li&gt;What is the risk of these symptoms recurring?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up for this condition?&lt;/li&gt;
+	&lt;li&gt;Will I need to take preventive antibiotics for certain medical or dental procedures?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I best manage them too?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms come on gradually or suddenly? When?&lt;/li&gt;
+	&lt;li&gt;Have you had similar symptoms in the past?&lt;/li&gt;
+	&lt;li&gt;Are you having difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Have you recently had an infection?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a fever?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any medical or dental procedures that used needles or catheters?&lt;/li&gt;
+	&lt;li&gt;Have you ever used intravenous drugs?&lt;/li&gt;
+	&lt;li&gt;Have you recently lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions, especially heart murmurs?&lt;/li&gt;
+	&lt;li&gt;Do any of your first-degree relatives &amp;mdash; parents, siblings or children &amp;mdash; have a history of heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect endocarditis based on your medical history and physical signs and symptoms, such as fever. Using a stethoscope to listen to your heart, your doctor may hear a new heart murmur or a change in a previous heart murmur &amp;mdash; possible signs of endocarditis. 
+&lt;/p&gt;
+&lt;p&gt;
+The infection can mimic other illnesses in its early stages. Various tests may be necessary to help make the diagnosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; The most important test is a blood culture used to identify bacteria in the bloodstream. Blood tests can also help your doctor identify certain conditions, including anemia &amp;mdash; a shortage of healthy red blood cells that can be a sign of endocarditis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transesophageal echocardiogram.&lt;/strong&gt; An echocardiogram uses sound waves to produce images of your heart at work. This type of echocardiogram allows your doctor to get a closer look at your heart valves. It&apos;s often used to check for vegetations or infected tissue. During this test, an ultrasound device is passed through your mouth and into your esophagus &amp;mdash; the tube that connects your mouth and stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; Your doctor may order this noninvasive test if he or she thinks endocarditis may be causing an irregular heartbeat. During an ECG, sensors (electrodes) that can detect the electrical activity of your heart are attached to your chest and sometimes to your limbs. An ECG measures the timing and duration of each electrical phase in your heartbeat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; X-ray images help your doctor see the condition of your lungs and heart. Your doctor can use X-ray images to see if endocarditis has caused your heart to enlarge or if infection has spread to your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan or magnetic resonance imaging (MRI).&lt;/strong&gt; You may need a CT or MRI scan of your brain, chest or other parts of your body if your doctor thinks that infection has spread to these areas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first line of treatment for endocarditis is antibiotics. Sometimes, if your heart valve is damaged by your infection, surgery is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt;&lt;br /&gt;
+If you have endocarditis, you may need high doses of intravenous (IV) antibiotics in the hospital. Blood tests may help identify the type of microorganism that&apos;s infecting your heart. This information will help your doctor choose the best antibiotic or combination of antibiotics to fight the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+You will usually need to take antibiotics for four to six weeks or longer to clear up the infection. Once your fever and the worst of your signs and symptoms have passed, you may be able to leave the hospital and continue IV antibiotic therapy with visits to your doctor&apos;s office or at home with home-based care. You&apos;ll need to see your doctor regularly to make sure your treatment is working. 
+&lt;/p&gt;
+&lt;p&gt;
+Report to your doctor any signs or symptoms that your infection is getting worse, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diarrhea, a rash, itching or joint pain may indicate a reaction to an antibiotic &amp;mdash; another reason to call your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+See your doctor immediately if you experience shortness of breath or swelling in your legs, ankles or feet. These signs and symptoms may indicate heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+If the infection damages your heart valves, you may have symptoms and complications for years after treatment. Sometimes surgery is needed to treat persistent infections or to replace a damaged valve. Surgery is also sometimes needed to treat endocarditis that&apos;s caused by a fungal infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your condition, your doctor may recommend either repairing your damaged valve or replacing it with an artificial valve made of animal tissue or man-made materials. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re at risk of endocarditis, let all of your health care providers know. You may want to request an endocarditis wallet card from the American Heart Association. Check with your local chapter or print the card from the association&apos;s website. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent endocarditis, make sure to practice good hygiene: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pay special attention to your dental health &amp;mdash; brush and floss your teeth and gums often, and have regular dental checkups.&lt;/li&gt;
+	&lt;li&gt;Avoid procedures that may lead to skin infections, such as body piercings or tattoos.&lt;/li&gt;
+	&lt;li&gt;Seek prompt medical attention if you develop any type of skin infection or open cuts or sores that don&apos;t heal properly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because people with the following heart conditions are at risk of more-serious outcomes from endocarditis, they may need to take preventive antibiotics before certain medical or dental procedures to prevent endocarditis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Artificial (prosthetic) heart valve&lt;/li&gt;
+	&lt;li&gt;Previous endocarditis infection&lt;/li&gt;
+	&lt;li&gt;Certain types of congenital heart defects&lt;/li&gt;
+	&lt;li&gt;Heart transplant complicated by heart valve problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive antibiotics&lt;/strong&gt;&lt;br /&gt;
+Certain dental and medical procedures may allow bacteria to enter your bloodstream. Antibiotics taken before these procedures can help destroy or control the harmful bacteria that may lead to endocarditis. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics are recommended only before the following procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Certain dental procedures (those that cut your gum tissue or part of the teeth)&lt;/li&gt;
+	&lt;li&gt;Procedures involving the respiratory tract, infected skin or tissue that connects muscle to bone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Antibiotics are no longer recommended before all dental procedures or for procedures of the urinary tract or gastrointestinal system. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had to take preventive antibiotics in the past before your dental exams, you may be concerned about these changes. In the past, you were likely told to get antibiotics because of a concern that common dental procedures increased your risk of endocarditis. But as doctors have learned more about endocarditis prevention, they&apos;ve realized that endocarditis is much more likely to occur from exposure to random germs than from a typical dental exam or surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+This doesn&apos;t mean it&apos;s not important to take good care of your teeth through brushing and flossing. There is some concern that infections in your mouth from poor oral hygiene might increase the risk of germs entering your bloodstream. In addition to brushing and flossing, regular dental exams &amp;mdash; at least yearly &amp;mdash; are an important part of maintaining good oral health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Endocarditis
+	</Title>
+	<Abstract>
+		Endocarditis &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this heart infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00727" LinkType="Internal" ObjectID="934C1A15-2A5D-9994-E62A0AD369FFE1FF" Title="Heart murmurs" Url="http://www.mayoclinic.com/health/heart-murmurs/DS00727" />
+	</RelatedLinksBox>
+</Disease>

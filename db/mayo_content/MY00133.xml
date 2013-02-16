@@ -1,0 +1,231 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00133
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/epilepsy-surgery/MY00133
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-19
+		</UpdateDate>
+		<PublicationDate>
+			2002-05-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3880" Title="Nervous system">
+						<Keyword MCVID="4203" Title="Surgery">
+							<Keyword MCVID="3882" Title="Epilepsy surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CAD9029D-E7FF-0DBD-1C6381EAA631FDEE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				epilepsy surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				seizure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epilepsy surgery is a procedure that either removes or isolates the area of your brain where your seizures originate. If the section of your brain where your seizures begin is too vital to remove, your surgeon can make a series of incisions that prevent your seizures from spreading to the rest of your brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Epilepsy surgery works best for people who have seizures that always originate in the same place in their brains. To be considered for epilepsy surgery, you must have tried at least two anti-seizure drugs without success. If two appropriate drugs have failed, it is highly unlikely that any other anti-epileptic drug will help you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, epilepsy surgery can reduce &amp;mdash; and sometimes even eliminate &amp;mdash; your seizure activity. Repeated epileptic seizures can cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Broken bones or other injuries from falling during a seizure&lt;/li&gt;
+	&lt;li&gt;Drowning, if the seizure occurs during a bath or swimming&lt;/li&gt;
+	&lt;li&gt;Brain damage from prolonged seizures&lt;/li&gt;
+	&lt;li&gt;Sudden death, a rare complication of epilepsy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of epilepsy surgery you may have depends on the types of seizures you experience and where they begin in your brain. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a portion of the brain.&lt;/strong&gt; The most common type of epilepsy surgery is the removal of the portion of the brain &amp;mdash; usually about the size of a golf ball &amp;mdash; that&apos;s causing the seizures. This type of surgery &amp;mdash; called resective surgery &amp;mdash; can remove a lobe, a portion of a lobe, or a lesion and is highly successful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severing connection between hemispheres.&lt;/strong&gt; Another type of epilepsy surgery, called a corpus callosotomy, severs the network of neural connections between the right and left halves (hemispheres) of the brain. This surgery is used primarily in children who have severe seizures that start in one hemisphere and spread to the other side. This can help reduce the severity of seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing half the brain.&lt;/strong&gt; The most radical type of epilepsy surgery removes the outer layer of half the brain. Hemispherectomy is used in children who have seizures because of damage to just one half (hemisphere) of the brain &amp;mdash; which occurs in a few rare conditions that are present at birth or that appear in early infancy. The chance of a full recovery is best in younger children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing location of temporal lobe 
+" Caption="The temporal lobe is located along the sides of your brain. 
+" Height="60" Title="Location of temporal lobe" URI="/images/image_popup/thumbs/bn7_temporalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing location of temporal lobe 
+" Caption="The temporal lobe is located along the sides of your brain. 
+" Height="318" Title="Location of temporal lobe" URI="/images/image_popup/bn7_temporal.jpg" Width="400" />
+				<HTML>
+					The temporal lobe is located along the sides of your brain. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing brain hemispheres 
+" Caption="Your brain is divided into two halves, called hemispheres. 
+" Height="60" Title="Brain hemispheres" URI="/images/image_popup/thumbs/bn7_hemispheresthu.jpg" Width="60" />
+				<Image Alt="Illustration showing brain hemispheres 
+" Caption="Your brain is divided into two halves, called hemispheres. 
+" Height="381" Title="Brain hemispheres" URI="/images/image_popup/bn7_hemispheres.jpg" Width="320" />
+				<HTML>
+					Your brain is divided into two halves, called hemispheres. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risks may vary, depending on which variety of epilepsy surgery is used and the portion of your brain involved: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Memory problems.&lt;/strong&gt; The temporal lobe handles memory and language functions, so surgery on this part of the brain may cause difficulties with remembering, understanding and speaking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Motor skills and language problems.&lt;/strong&gt; Surgery to the frontal lobe may also cause language problems and difficulty with certain motor skills.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Double vision.&lt;/strong&gt; Temporary double vision sometimes develops after temporal lobe surgery. Vision problems may also occur with occipital lobe surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased number of seizures.&lt;/strong&gt; Corpus callosotomy &amp;mdash; severing the neural connections between hemispheres of the brain &amp;mdash; stops seizure activity from spreading throughout the brain, but it doesn&apos;t stop the seizures. In fact, it can sometimes increase the number of seizures you experience, but they should be less severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced visual field.&lt;/strong&gt; Hemispherectomy, or removing the outer layer of half the brain, usually results in a reduced visual field.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partial, one-sided paralysis.&lt;/strong&gt; After a hemispherectomy, you may have limited ability to move on one side of your body. Intense rehabilitation often brings back nearly normal abilities, particularly in children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re a candidate for epilepsy surgery, your pre-surgical evaluation may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Baseline electroencephalogram (EEG).&lt;/strong&gt; In this test, electrodes are placed on the scalp to measure electrical activity produced by the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Video EEG.&lt;/strong&gt; A continuous EEG with video monitoring records your seizures as they occur. Because your seizure medications have to be reduced or temporarily stopped so that seizures will occur, you&apos;ll have to be admitted to the hospital for this test. Correlating the changes in your EEG with your body&apos;s movements during a seizure helps &quot;pinpoint&quot; the area of your brain in which your seizures are starting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI or CT of the head.&lt;/strong&gt; MRI and CT scans can identify structural problems &amp;mdash; such as lesions or scar tissue in the brain &amp;mdash; that could be causing seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Positron emission tomography (PET) and functional MRI.&lt;/strong&gt; PET and functional MRI scans can monitor the brain&apos;s activity and detect abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Single-photon emission computerized tomography (SPECT).&lt;/strong&gt; The scan image varies in color depending on the amount of blood flow in different areas of the brain. Typically, blood flow is higher in the part of the brain where seizures originate. In some cases, doctors combine several types of imaging techniques to help locate the troublesome area of the brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images from SPECT scan 
+" Caption="This example shows SPECT scans taken during and between seizures. The differences represent areas where blood flow increased during the seizure. Once identified, that location is fitted onto an MRI image of the brain. 
+" Height="60" Title="Pinpointing seizure location" URI="/images/image_popup/thumbs/bn7_siscomthu.jpg" Width="60" />
+				<Image Alt="Images from SPECT scan 
+" Caption="This example shows SPECT scans taken during and between seizures. The differences represent areas where blood flow increased during the seizure. Once identified, that location is fitted onto an MRI image of the brain. 
+" Height="449" Title="Pinpointing seizure location" URI="/images/image_popup/bn7_siscom.jpg" Width="400" />
+				<HTML>
+					This example shows SPECT scans taken during and between seizures. The differences represent areas where blood flow increased during the seizure. Once identified, that location is fitted onto an MRI ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;To avoid infection, your hair will need to be clipped short over the section of your skull that will be removed during the operation. Many times the neurosurgical team will be able to shave that area in such a way that other parts of your hair will cover up the bald patch after the surgery. Some people want their entire head shaved. Shaving is not done if the surgery is for a child. 
+&lt;/p&gt;
+&lt;p&gt;
+You will have an intravenous access in place, and your heart rate, blood pressure and oxygen levels will be monitored throughout the surgery. An EEG monitor also may be recording your brain waves during the operation to better localize the part of your brain where your seizures start. 
+&lt;/p&gt;
+&lt;p&gt;
+Epilepsy surgery is usually performed during general anesthesia. That means you&apos;ll be unconscious during the procedure, which involves making a small opening in your skull to access the brain. In rare circumstances, your surgeon may awaken you during part of the operation to help the team determine which parts of your brain control language and movement. After surgery the window of bone is replaced and fastened to the remaining skull for healing. Most epilepsy surgeries take at least four hours.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll be in a special recovery area to be monitored carefully as you awaken after the anesthesia. You may need to spend the first night after surgery in an intensive care unit. The total hospital stay for most epilepsy surgeries is usually about three or four days.
+&lt;/p&gt;
+&lt;p&gt;
+When you awaken, your head will be swollen and painful. Most people need narcotics for the pain for at least the first few days. An ice pack on your head also may help. Most postoperative swelling and pain resolve within several weeks.
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll probably not be able to return to work or school for approximately one to three months. You should rest and relax the first few weeks after epilepsy surgery and then gradually escalate your activity.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s unlikely that you would need intensive rehabilitation as long as the surgery was completed without complications such as stroke, paralysis or loss of speech.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on their underlying cause, some seizures can be resistant to medication, but they are also the most likely to be helped by epilepsy surgery. For example, nearly 90 percent of people who experience temporal lobe seizures see a significant reduction or even a cessation of seizures after epilepsy surgery.
+&lt;/p&gt;
+&lt;p&gt;
+You must continue to take anti-seizure medications after epilepsy surgery, to help improve your chances of remaining seizure-free. Your doctor may be able to wean you off anti-seizure drugs after a year or two.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Epilepsy surgery
+	</Title>
+	<Abstract>
+		Epilepsy surgery may be the answer if you continue to have seizures despite medication.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS00266" LinkType="Internal" ObjectID="31931A43-1B50-41C2-AF8B9E37305E23CC" Title="Temporal lobe seizure" Url="http://www.mayoclinic.com/health/temporal-lobe-seizure/DS00266" />
+	</RelatedLinksBox>
+</TestProcedure>

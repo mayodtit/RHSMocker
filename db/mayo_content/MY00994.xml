@@ -1,0 +1,230 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00994
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nuclear-stress-test/MY00994
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-08
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3085" Title="Nuclear stress test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2FB32B7C-AA76-9270-67C8386DF3BCD3D1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nuclear stress test
+			</MetaKeyword>
+			<MetaKeyword>
+				thallium stress test
+			</MetaKeyword>
+			<MetaKeyword>
+				exercise stress test
+			</MetaKeyword>
+			<MetaKeyword>
+				thallium
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease test
+			</MetaKeyword>
+			<MetaKeyword>
+				treadmill test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nuclear stress test measures blood flow to your heart muscle both at rest and during stress on the heart. It&apos;s performed similarly to a routine exercise stress test, but provides images that can show areas of low blood flow through the heart and areas of damaged heart muscle. 
+&lt;/p&gt;
+&lt;p&gt;
+A nuclear stress test usually involves taking two sets of images of your heart &amp;mdash; one set during an exercise stress test while you&apos;re exercising on a treadmill or stationary bike, or with medication that stresses your heart, and another set while you&apos;re at rest. A nuclear stress test is used to gather information about how well your heart works during physical activity and at rest. 
+&lt;/p&gt;
+&lt;p&gt;
+You may be given a nuclear stress test if your doctor suspects you have coronary artery disease or another heart problem, or if an exercise stress test alone wasn&apos;t enough to pinpoint the cause of symptoms such as chest pain or shortness of breath. A nuclear stress test may also be recommended in order to guide your treatment if you&apos;ve already been diagnosed with a heart condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend a nuclear stress test to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diagnose coronary artery disease.&lt;/strong&gt; Your coronary arteries are the major blood vessels that supply your heart with blood, oxygen and nutrients. Coronary artery disease is a condition that develops when these arteries become damaged or diseased &amp;mdash; usually due to a buildup of deposits called plaques. If you have symptoms such as shortness of breath or chest pains, a nuclear stress test can help determine if they are related to coronary artery disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Look at the size and shape of your heart.&lt;/strong&gt; The images from a nuclear stress test can show your doctor if your heart is enlarged and can measure the pumping function (ejection fraction) of your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Guide treatment of heart disorders.&lt;/strong&gt; If you&apos;ve already been diagnosed with coronary artery disease, arrhythmia or another heart condition, a nuclear stress test can help your doctor find out how well treatment is working to relieve your symptoms. It may also be used to help establish the right treatment plan for you by determining how much exercise your heart can handle.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nuclear stress test is generally safe, and complications are rare. But, as with any medical procedure, it does carry a risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic reaction.&lt;/strong&gt; It&apos;s possible you could be allergic to the radioactive dye that&apos;s injected into a vein in your hand or arm during a nuclear stress test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood pressure.&lt;/strong&gt; Blood pressure may drop during or immediately after exercise and cause dizziness. It usually goes away when you stop exercising.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal heart rhythms (arrhythmias).&lt;/strong&gt; Arrhythmias brought on by an exercise stress test usually go away shortly after you stop exercising. Life-threatening arrhythmias are rare and usually occur in individuals with severe heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack (myocardial infarction).&lt;/strong&gt; Although very rare, it&apos;s possible that a nuclear stress test could cause a heart attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flushing&lt;/strong&gt;&lt;strong&gt; sensation or chest pain.&lt;/strong&gt; These symptoms can occur when you are given a medication to stress your heart if you&apos;re unable to exercise adequately. These symptoms are usually brief, but tell your doctor if you experience them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be asked not to eat, drink or smoke for two hours before a nuclear stress test. You can take your medications as usual, unless your doctor tells you not to. 
+&lt;/p&gt;
+&lt;p&gt;
+If you use an inhaler for asthma or other breathing problems, bring it with you to the test. Make sure your doctor and the health care team member monitoring your stress test know that you use an inhaler. 
+&lt;/p&gt;
+&lt;p&gt;
+Wear or bring comfortable clothes with you to the exercise stress test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you arrive for your nuclear stress test, your doctor asks you about your medical history and how often you typically exercise. This helps determine the amount of exercise that&apos;s appropriate for you during the stress test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During a nuclear stress test&lt;/strong&gt;&lt;br /&gt;
+Before you start the test, a member of your health care team places sticky patches (electrodes) on your chest, legs and arms. The electrodes are connected by wires to an electrocardiogram (ECG or EKG) machine. The electrocardiogram records the electrical signals that trigger your heartbeats. A blood pressure cuff is placed on your arm to check your blood pressure during the test. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re unable to exercise adequately, you may be injected with a medication that increases blood flow to your heart muscle &amp;mdash; simulating exercise &amp;mdash; for the test. 
+&lt;/p&gt;
+&lt;p&gt;
+You then begin walking on the treadmill or pedaling the stationary bike slowly. As the test progresses, the speed and incline of the treadmill increases. A railing is provided on the treadmill that you can use for balance, but don&apos;t hang on to it tightly, as that may skew the results of the test. On a stationary bike, the resistance increases as the test progresses, making it harder to pedal. 
+&lt;/p&gt;
+&lt;p&gt;
+The length of the test depends on your physical fitness and symptoms. The goal is to have your heart work hard for about eight to 12 minutes in order to thoroughly monitor its function. You continue exercising until your heart rate has reached a set target, you develop symptoms that don&apos;t allow you to continue or warning signs are detected by those monitoring your test, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Moderate to severe chest pain&lt;/li&gt;
+	&lt;li&gt;Severe shortness of breath&lt;/li&gt;
+	&lt;li&gt;Abnormally high or low blood pressure&lt;/li&gt;
+	&lt;li&gt;An abnormal heart rhythm&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may stop the test at any time if you are too uncomfortable to continue exercising. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Injection of dye&lt;/strong&gt;&lt;br /&gt;
+Once you&apos;ve reached your maximum level of exercise, a radioactive dye called thallium or sestamibi (Cardiolite) is injected into your bloodstream through an intravenous (IV) line, usually in your hand or arm. This substance mixes with your blood and travels to your heart. A special scanner similar to an X-ray machine &amp;mdash; which detects the radioactive material in your heart &amp;mdash; creates images of your heart muscle. Inadequate blood flow to any part of your heart will show up as a light spot on the images because not as much of the radioactive dye is getting there. 
+&lt;/p&gt;
+&lt;p&gt;
+After exercising, you&apos;ll be asked to rest for two to four hours. During this time, you shouldn&apos;t eat or drink anything or do any strenuous activities. After this time, you&apos;ll have a second set of images taken of your heart while you lie on an examination table. Again, a technician will inject radioactive dye through an IV and will take images of your heart. This second set of images will let your doctor compare the blood flow through your heart while you&apos;re exercising and at rest. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After a nuclear stress test&lt;/strong&gt;&lt;br /&gt;
+When your nuclear stress test is complete, you may return to your normal activities for the remainder of the day. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a man performing an exercise stress test 
+" Caption="In an exercise stress test, electrodes are taped to your chest to detect your heart&apos;s rhythm. A nurse or technician will watch your heartbeat on a monitor while you exercise. If your doctor orders a nuclear stress test, you&apos;ll also receive a shot of radioactive dye that shows the blood flow to your heart muscle. 
+" Height="60" Title="Exercise stress test" URI="/images/image_popup/thumbs/mcdc7_stresstestthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a man performing an exercise stress test 
+" Caption="In an exercise stress test, electrodes are taped to your chest to detect your heart&apos;s rhythm. A nurse or technician will watch your heartbeat on a monitor while you exercise. If your doctor orders a nuclear stress test, you&apos;ll also receive a shot of radioactive dye that shows the blood flow to your heart muscle. 
+" Height="284" Title="Exercise stress test" URI="/images/image_popup/mcdc7_stresstest.jpg" Width="400" />
+				<HTML>
+					In an exercise stress test, electrodes are taped to your chest to detect your heart&apos;s rhythm. A nurse or technician will watch your heartbeat on a monitor while you exercise. If your doctor orders a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will discuss the results of your nuclear stress test with you. Your results could show: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Normal blood flow during exercise and rest.&lt;/strong&gt; If the information gathered during your nuclear stress test shows your heart function to be normal during both exercise and rest, it&apos;s unlikely you have coronary artery disease. You may not need any further tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Normal blood flow during rest but not exercise.&lt;/strong&gt; This means that part of your heart muscle isn&apos;t receiving enough blood when you&apos;re exercising or doing other strenuous activity. This may mean you have one or more blocked arteries (coronary artery disease).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood flow during rest and exercise.&lt;/strong&gt; This means that part of your heart isn&apos;t getting enough blood flow at all times, which could be due to severe coronary artery disease or previous heart attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of radioactive dye in parts of your heart.&lt;/strong&gt; Areas of your heart that don&apos;t show the radioactive dye are areas that have damaged tissue (scar tissue) from a heart attack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your test results show you don&apos;t have enough blood flow through your heart, you may need to undergo coronary angiography &amp;mdash; a test to look directly at the blood vessels supplying your heart. If you have severe blockages, you may need a coronary intervention (balloon angioplasty and stent placement) or open-heart surgery (coronary artery bypass). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nuclear stress test
+	</Title>
+	<Abstract>
+		Nuclear stress test &amp;mdash; Overview covers what to expect and results of this exercise stress test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS00994" LinkType="Internal" ObjectID="34831AF2-E7FF-0DBD-1494376728891037" Title="Angina" Url="http://www.mayoclinic.com/health/angina/DS00994" />
+	</RelatedLinksBox>
+</TestProcedure>

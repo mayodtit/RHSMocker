@@ -1,0 +1,333 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00692
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/de-quervains-tenosynovitis/DS00692
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-01
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2716" Title="de Quervain&apos;s tenosynovitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1D8F47EE-2A5D-9994-E5B85DEF8E4FB92B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				de Quervain&apos;s tenosynovitis
+			</MetaKeyword>
+			<MetaKeyword>
+				de quervains tenosynovitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tenosynovitis
+			</MetaKeyword>
+			<MetaKeyword>
+				de Quervain&apos;s tendinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				de Quervain&apos;s tendonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tendinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tendonitis
+			</MetaKeyword>
+			<MetaKeyword>
+				wrist
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				DeQuervain&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				de Quervain&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				stenosing
+			</MetaKeyword>
+			<MetaKeyword>
+				de Quervain
+			</MetaKeyword>
+			<MetaKeyword>
+				de Quervain disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+De Quervain&apos;s tenosynovitis (dih-kwer-VAINS ten-oh-sine-oh-VIE-tis) is a painful condition affecting the tendons on the thumb side of your wrist. If you have de Quervain&apos;s tenosynovitis, it will probably hurt every time you turn your wrist, grasp anything or make a fist. 
+&lt;/p&gt;
+&lt;p&gt;
+Although the exact cause of de Quervain&apos;s tenosynovitis isn&apos;t known, any activity that relies on repetitive hand or wrist movement &amp;mdash; such as working in the garden, playing golf or racket sports or lifting your baby &amp;mdash; can make it worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of de Quervain&apos;s tenosynovitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain near the base of your thumb&lt;/li&gt;
+	&lt;li&gt;Swelling near the base of your thumb&lt;/li&gt;
+	&lt;li&gt;Difficulty moving your thumb and wrist when you&apos;re doing activities that involve grasping or pinching&lt;/li&gt;
+	&lt;li&gt;A &quot;sticking&quot; or &quot;stop-and-go&quot; sensation in your thumb when trying to move it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the condition goes too long without treatment, the pain may spread farther into your thumb, back into your forearm or both. Pinching, grasping and other movements of your thumb and wrist aggravate the pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult your doctor if you&apos;re still having problems with pain or function and you&apos;ve already tried:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoiding moving your thumb in the same way over and over again whenever possible&lt;/li&gt;
+	&lt;li&gt;Avoiding pinching with your thumb when moving your wrist from side to side&lt;/li&gt;
+	&lt;li&gt;Applying cold to the affected area&lt;/li&gt;
+	&lt;li&gt;Using nonsteroidal anti-inflammatory drugs, such as ibuprofen (Advil, Motrin IB, others) and naproxen (Aleve)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the pain continues to interfere with your daily life or activities, seek medical advice.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic overuse of your wrist is commonly associated with de Quervain&apos;s tenosynovitis.
+&lt;/p&gt;
+&lt;p&gt;
+When you grip, grasp, clench, pinch or wring anything in your hand, you use two major tendons in your wrist and lower thumb. These tendons normally glide unhampered through the small tunnel that connects them to the base of the thumb. If you repeat a particular motion day after day, it may irritate the sheath around the two tendons, causing thickening that restricts the movement of the tendons.
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of de Quervain&apos;s tenosynovitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Direct injury to your wrist or tendon; scar tissue can restrict movement of the tendons&lt;/li&gt;
+	&lt;li&gt;Inflammatory arthritis, such as rheumatoid arthritis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People between the ages of 30 and 50 have a higher risk of developing de Quervain&apos;s tenosynovitis than do those in other age groups. The condition is more common in women than in men, and it may be associated with pregnancy. Baby care, which involves using your thumbs as leverage to lift your child hundreds of times a day, may also be associated with the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Jobs or hobbies that involve repetitive hand and wrist motions may contribute to de Quervain&apos;s tenosynovitis as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If de Quervain&apos;s tenosynovitis is left untreated, it may be hard to use your hand and wrist properly. If the affected tendons are no longer able to slide within their tunnel, you may develop a limited range of motion.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have hand- or wrist-related pain and self-care measures &amp;mdash; such as avoiding activities that trigger your pain &amp;mdash; aren&apos;t helping. After an initial exam, your doctor may refer you to an orthopedist, rheumatologist, hand therapist or occupational therapist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed and all medications and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note hobbies and activities that may strain your hand or wrist,&lt;/strong&gt; such as knitting, gardening, playing an instrument, participating in racket sports or performing repetitive workplace activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any recent injuries&lt;/strong&gt; that may have damaged your hand or wrist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask a doctor who evaluates you for wrist- or hand-related symptoms. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other health problems. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery?&lt;/li&gt;
+	&lt;li&gt;How long will I need to avoid the activities that caused my condition?&lt;/li&gt;
+	&lt;li&gt;What else can I do on my own to improve my condition?&lt;/li&gt;
+	&lt;li&gt;When do I need to make a follow-up appointment?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you having and when did you first notice them?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been getting worse or staying the same?&lt;/li&gt;
+	&lt;li&gt;Do any particular activities seem to trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you participate in any hobbies or sports that involve repetitive hand or wrist movements?&lt;/li&gt;
+	&lt;li&gt;What tasks do you perform at work?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any injuries that may have caused hand or wrist damage?&lt;/li&gt;
+	&lt;li&gt;Does it help to avoid the activities that trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you tried any at-home treatments, such as over-the-counter pain relievers? Has anything helped?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;In the time leading up to your appointment, avoid activities that cause or worsen your pain. To relieve your pain, try using nonsteroidal anti-inflammatory drugs (NSAIDs) and applying ice to the affected area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose de Quervain&apos;s tenosynovitis, your doctor will examine your hand to see if you feel pain when pressure is applied on the thumb side of the wrist.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will also perform a test called the Finkelstein test. In a Finkelstein test, you bend your thumb across the palm of your hand and bend your fingers down over your thumb. Then you bend your wrist toward your little finger. If this causes pain on the thumb side of your wrist, you likely have de Quervain&apos;s tenosynovitis.
+&lt;/p&gt;
+&lt;p&gt;
+Imaging tests, such as X-rays, generally aren&apos;t needed to diagnose de Quervain&apos;s tenosynovitis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Finkelstein test 
+" Caption="A test called the Finkelstein test can help your doctor confirm de Quervain&apos;s tenosynovitis. To do this test, you bend your thumb down across the palm of your hand, and then cover your thumb with your fingers. Next, bend your wrist toward your little finger. If this causes pain, you likely have de Quervain&apos;s tenosynovitis.
+" Height="60" Title="Finkelstein test" URI="/images/image_popup/thumbs/ans7_finkelsteintestthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Finkelstein test 
+" Caption="A test called the Finkelstein test can help your doctor confirm de Quervain&apos;s tenosynovitis. To do this test, you bend your thumb down across the palm of your hand, and then cover your thumb with your fingers. Next, bend your wrist toward your little finger. If this causes pain, you likely have de Quervain&apos;s tenosynovitis.
+" Height="421" Title="Finkelstein test" URI="/images/image_popup/ans7_finkelsteintest.jpg" Width="400" />
+				<HTML>
+					A test called the Finkelstein test can help your doctor confirm de Quervain&apos;s tenosynovitis. To do this test, you bend your thumb down across the palm of your hand, and then cover your thumb with ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for de Quervain&apos;s tenosynovitis may include medications, physical or occupational therapy, or surgery. Treatment is generally successful if begun early on, though the pain may recur if you can&apos;t discontinue the repetitive motions that aggravate your condition. If you start treatment early on, your symptoms of de Quervain&apos;s tenosynovitis should generally improve within four to six weeks. When de Quervain&apos;s tenosynovitis starts during pregnancy, symptoms usually get better around the end of pregnancy or when breast-feeding stops.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;To reduce pain and swelling, your doctor may recommend using NSAIDs, such as ibuprofen (Advil, Motrin IB, others) and naproxen (Aleve).
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also recommend injections of corticosteroid medications into the tendon sheath to reduce swelling. If treatment begins within the first six months of symptoms, most people recover completely after receiving corticosteroid injections, often after just one injection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Initial treatment of de Quervain&apos;s tenosynovitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Immobilizing your thumb and wrist, keeping them straight with a splint or brace to help rest your tendons&lt;/li&gt;
+	&lt;li&gt;Avoiding repetitive thumb movements whenever possible&lt;/li&gt;
+	&lt;li&gt;Avoiding pinching with your thumb when moving your wrist from side to side&lt;/li&gt;
+	&lt;li&gt;Applying ice to the affected area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also see a physical or occupational therapist. These therapists may review your habits and give suggestions on how to make necessary adjustments to relieve stress on your wrists. Your therapist can also teach you exercises focused on your wrist, hand and arm to strengthen your muscles, reduce pain, and limit the irritation of the tendons. The therapist may also make a splint to keep your wrist and thumb from moving if off-the-shelf versions don&apos;t fit you well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your case is more serious, your doctor may recommend outpatient surgery. Surgery involves a procedure in which your doctor inspects the sheath surrounding the involved tendon or tendons, and then opens the sheath to release the pressure and restore free tendon gliding. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will talk to you about how to rest, strengthen and rehabilitate your body after surgery. A physical or occupational therapist may meet with you after surgery to teach you new strengthening exercises and help you adjust your daily routine to prevent future problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you don&apos;t need surgery, caring for your condition is much the same as preventing it:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid moving your hands and wrists the same way repeatedly.&lt;/li&gt;
+	&lt;li&gt;Wear a brace or splint if suggested by your doctor.&lt;/li&gt;
+	&lt;li&gt;Follow through with recommended exercises.&lt;/li&gt;
+	&lt;li&gt;Take special note of any activity that causes pain, swelling or numbness in your thumb and wrist, try to avoid it, and share that information with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		De Quervain&apos;s tenosynovitis
+	</Title>
+	<Abstract>
+		De Quervain&apos;s tenosynovitis &amp;mdash; Comprehensive overview of symptoms, treatment of this painful wrist condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+	</RelatedLinksBox>
+</Disease>

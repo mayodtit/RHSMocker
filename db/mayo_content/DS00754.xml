@@ -1,0 +1,322 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00754
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/myoclonus/DS00754
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-07-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2968" Title="Movement">
+						<Keyword MCVID="2973" Title="Myoclonus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F79BCB27-E7FF-0DBD-181760E647C93792
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				myoclonus
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle twitch
+			</MetaKeyword>
+			<MetaKeyword>
+				jerking movements
+			</MetaKeyword>
+			<MetaKeyword>
+				involuntary jerking
+			</MetaKeyword>
+			<MetaKeyword>
+				spasm
+			</MetaKeyword>
+			<MetaKeyword>
+				hiccups
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle jerk
+			</MetaKeyword>
+			<MetaKeyword>
+				palatal myoclonus
+			</MetaKeyword>
+			<MetaKeyword>
+				opsoclonus myoclonus
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile myoclonic epilepsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myoclonus refers to a quick, involuntary muscle jerk. For example, hiccups are a form of myoclonus. So are the sudden jerks, or &quot;sleep starts,&quot; you may experience just before falling asleep. These forms of myoclonus occur in healthy people and rarely present a problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Most often, myoclonus occurs as a result of a nervous system (neurological) disorder, such as epilepsy, or of a metabolic condition, or as a reaction to a medication.
+&lt;/p&gt;
+&lt;p&gt;
+Ideally, treating the underlying cause will help control your myoclonus symptoms. If the cause of myoclonus is unknown or can&apos;t be specifically treated, then treatment focuses on reducing the effects of myoclonus on your quality of life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with myoclonus often describe their signs and symptoms as jerks, shakes or spasms that are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden&lt;/li&gt;
+	&lt;li&gt;Brief&lt;/li&gt;
+	&lt;li&gt;Involuntary&lt;/li&gt;
+	&lt;li&gt;Shock-like&lt;/li&gt;
+	&lt;li&gt;Variable in intensity and frequency&lt;/li&gt;
+	&lt;li&gt;Localized to one part of the body or all over the body&lt;/li&gt;
+	&lt;li&gt;Sometimes severe enough to interfere with eating, speaking or walking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If your myoclonus symptoms become frequent and persistent, talk to your doctor for further evaluation and proper diagnosis and treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myoclonus may be caused by a variety of underlying problems. Doctors often separate the types of myoclonus based on their causes, which helps determine treatment. Types of myoclonus include the following categories.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physiological myoclonus&lt;br /&gt;
+&lt;/strong&gt;This type of myoclonus occurs in normal, healthy people and rarely needs treatment. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hiccups&lt;/li&gt;
+	&lt;li&gt;Sleep starts&lt;/li&gt;
+	&lt;li&gt;Shakes or spasms due to anxiety or exercise&lt;/li&gt;
+	&lt;li&gt;Infant muscle twitching during sleep or after a feeding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Essential myoclonus&lt;br /&gt;
+&lt;/strong&gt;Essential myoclonus occurs on its own, usually without other symptoms and without being related to any underlying illness. The cause of essential myoclonus is often unexplained (idiopathic) or, in some cases, hereditary.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Epileptic myoclonus&lt;br /&gt;
+&lt;/strong&gt;This type of myoclonus occurs as part of an epileptic disorder. Muscle jerks may be the only sign or one of many. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptomatic (secondary) myoclonus&lt;br /&gt;
+&lt;/strong&gt;This is a common form of myoclonus. Muscle jerks occur as a result of an underlying medical condition, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Head or spinal cord injury&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Kidney or liver failure&lt;/li&gt;
+	&lt;li&gt;Lipid storage disease&lt;/li&gt;
+	&lt;li&gt;Chemical or drug poisoning&lt;/li&gt;
+	&lt;li&gt;Prolonged oxygen deprivation&lt;/li&gt;
+	&lt;li&gt;Medication reaction&lt;/li&gt;
+	&lt;li&gt;Autoimmune inflammatory conditions&lt;/li&gt;
+	&lt;li&gt;Metabolic disorders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Nervous conditions that result in secondary myoclonus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Brain tumor&lt;/li&gt;
+	&lt;li&gt;Huntington&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Creutzfeldt-Jakob disease&lt;/li&gt;
+	&lt;li&gt;Alzheimer&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease and Lewy body dementia&lt;/li&gt;
+	&lt;li&gt;Corticobasal degeneration&lt;/li&gt;
+	&lt;li&gt;Frontotemporal dementia&lt;/li&gt;
+	&lt;li&gt;Multiple system atrophy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first discuss your concerns with your family doctor, who may decide to refer you to a doctor trained in nervous system conditions (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to talk about, it&apos;s a good idea to arrive well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; and ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down a list of your symptoms,&lt;/strong&gt; noting if there&apos;s anything that seems to trigger them or make them better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all your medications,&lt;/strong&gt; including any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor,&lt;/strong&gt; asking about possible causes, treatments and prognosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. For myoclonus, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of seizures or other neurological conditions?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to drugs or chemicals?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of myoclonus or epilepsy?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose myoclonus, your doctor will review your medical history and symptoms and conduct a physical examination. 
+&lt;/p&gt;
+&lt;p&gt;
+To determine the cause of myoclonus and rule out other potential causes of your condition, your doctor may recommend several tests, including: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electroencephalography (EEG)&lt;br /&gt;
+&lt;/strong&gt;This procedure records the electrical activity of your brain and may help determine where in your brain the myoclonus originates. EEGs are painless and take less than an hour.
+&lt;/p&gt;
+&lt;p&gt;
+In this procedure, doctors attach small electrodes to your scalp with paste or fine needles. You may be asked to breathe deeply and steadily for several minutes, look at bright lights or listen to sounds. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electromyography (EMG)&lt;br /&gt;
+&lt;/strong&gt;This test measures the electrical discharges produced in muscles and helps establish the pattern of myoclonus. 
+&lt;/p&gt;
+&lt;p&gt;
+In this procedure, doctors put EMG surface electrodes on multiple muscles, especially on those muscles that are involved in the jerking. An instrument records the electrical activity from your muscle at rest and as you contract the muscle, such as by bending your arm. These signals help to determine the pattern and origin of the myoclonus. The test takes at least an hour to complete. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Magnetic resonance imaging (MRI)&lt;br /&gt;
+&lt;/strong&gt;An MRI scan may be used to check for structural problems or tumors inside your brain or spinal cord, which may cause your myoclonus symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+An MRI scan uses a magnetic field and radio waves to produce detailed images of your brain, spinal cord and other areas of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor may want to test your blood or urine for evidence of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Metabolic disorders&lt;/li&gt;
+	&lt;li&gt;Autoimmune disease&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Kidney or liver disease&lt;/li&gt;
+	&lt;li&gt;Drugs or toxins&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of myoclonus is most effective when a reversible underlying cause can be found that can be treated &amp;mdash; such as another condition, a medication or a toxin.
+&lt;/p&gt;
+&lt;p&gt;
+Most of the time, however, the underlying cause can&apos;t be cured or eliminated, so treatment is aimed at easing myoclonus symptoms, especially when they&apos;re disabling. There are no drugs specifically designed to treat myoclonus, but doctors have borrowed from other disease treatment arsenals to relieve myoclonic symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications that doctors commonly prescribe for myoclonus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tranquilizers.&lt;/strong&gt; Clonazepam (Klonopin), a tranquilizer, is the most common drug used to combat myoclonus symptoms. Clonazepam may cause side effects such as dizziness and drowsiness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsants.&lt;/strong&gt; Drugs used to control epileptic seizures have also proved helpful in reducing myoclonus symptoms. The most common anticonvulsants used for myoclonus are levetiracetam (Keppra), valproic acid (Depakene) and primidone (Mysoline). Valproic acid may cause side effects such as nausea. Levetiracetam may cause side effects such as fatigue and dizziness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;OnabotulinumtoxinA (Botox) injections may be helpful in treating various forms of myoclonus, particularly if only a single area is affected. Botulinum toxins block the release of a chemical messenger that triggers muscle contractions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your myoclonus symptoms are caused by a tumor or lesion in your brain or spinal cord, surgery may be an option. People with myoclonus affecting parts of the face or ear also may benefit from surgery.
+&lt;/p&gt;
+&lt;p&gt;
+Deep brain stimulation (DBS) has been tried in some people with myoclonus and other movement disorders. Researchers continue to study DBS for myoclonus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Myoclonus
+	</Title>
+	<Abstract>
+		Myoclonus &amp;mdash; Comprehensive overview covers types, symptoms, causes, treatment of involuntary muscle jerk.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

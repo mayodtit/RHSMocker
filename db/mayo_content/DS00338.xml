@@ -1,0 +1,434 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00338
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/panic-attacks/DS00338
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-31
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1560" Title="Panic attacks" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			18624942-2759-4F0E-9A5532BE9C89B904
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				panic
+			</MetaKeyword>
+			<MetaKeyword>
+				panic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				panic disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attack symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				what causes panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				tips for panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				what are panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				panic disorder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of panic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attack disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				what is panic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety attack
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A panic attack is a sudden episode of intense fear that triggers severe physical reactions when there is no real danger or apparent cause. Panic attacks can be very frightening. When panic attacks occur, you might think you&apos;re losing control, having a heart attack or even dying. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people have just one or two panic attacks in their lifetimes, and the problem goes away, perhaps when a stressful situation ends. But if you&apos;ve had recurrent, unexpected panic attacks and spent long periods in constant fear of another attack, you may have a condition called panic disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Panic attacks were once dismissed as nerves or stress, but they&apos;re now recognized as a real medical condition. Although panic attacks can significantly affect your quality of life, treatment can be very effective.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Panic attacks typically begin suddenly, without warning. They can strike at almost any time &amp;mdash; when you&apos;re driving the car, at the mall, sound asleep or in the middle of a business meeting. Panic attacks have many variations, but symptoms usually peak within 10 minutes. You may feel fatigued and worn out after a panic attack subsides. 
+&lt;/p&gt;
+&lt;p&gt;
+Panic attacks typically include a few or many of these symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sense of impending doom or danger&lt;/li&gt;
+	&lt;li&gt;Fear of loss of control or death&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Trembling&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Hyperventilation&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Hot flashes&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Abdominal cramping&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Faintness&lt;/li&gt;
+	&lt;li&gt;Tightness in your throat&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+One of the worst things about panic attacks is the intense fear that you&apos;ll have another one. You may fear having a panic attack so much that you avoid situations where they may occur. You may even feel unable to leave your home (agoraphobia) because no place feels safe.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have any panic attack symptoms, seek medical help as soon as possible. Panic attacks are hard to manage on your own, and they may get worse without treatment. And because panic attack symptoms can also resemble other serious health problems, such as a heart attack, it&apos;s important to get evaluated by your health care provider if you aren&apos;t sure what&apos;s causing your symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not known what causes panic attacks or panic disorder, but these factors may play a role: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Genetics&lt;/li&gt;
+	&lt;li&gt;Major stress&lt;/li&gt;
+	&lt;li&gt;Temperament that is more susceptible to stress&lt;/li&gt;
+	&lt;li&gt;Certain changes in the way parts of your brain function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some research suggests that your body&apos;s natural fight-or-flight response to danger is involved in panic attacks. For example, if a grizzly bear came after you, your body would react instinctively. Your heart rate and breathing would speed up as your body prepared itself for a life-threatening situation. Many of the same reactions occur in a panic attack. But it&apos;s not known why a panic attack occurs when there&apos;s no obvious danger present. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of panic disorder often start in the late teens or early adulthood and affect more women than men. 
+&lt;/p&gt;
+&lt;p&gt;
+Factors that may increase the risk of developing panic attacks or panic disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Family history of panic attacks or panic disorder&lt;/li&gt;
+	&lt;li&gt;Significant stress&lt;/li&gt;
+	&lt;li&gt;Death or serious illness of a loved one&lt;/li&gt;
+	&lt;li&gt;Major changes in your life, such as the addition of a baby&lt;/li&gt;
+	&lt;li&gt;History of childhood physical or sexual abuse&lt;/li&gt;
+	&lt;li&gt;Experiencing a traumatic event, such as an accident or sexual assault&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, panic attacks and panic disorder can result in severe complications that affect almost every area of your life. You may be so afraid of having more panic attacks that you live in a constant state of fear, ruining your quality of life.
+&lt;/p&gt;
+&lt;p&gt;
+Complications that panic attacks may cause or be linked to include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Development of specific phobias, such as fear of driving or leaving your home&lt;/li&gt;
+	&lt;li&gt;Avoidance of social situations&lt;/li&gt;
+	&lt;li&gt;Problems at work or school&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Increased risk of suicide or suicidal thoughts&lt;/li&gt;
+	&lt;li&gt;Alcohol or substance abuse&lt;/li&gt;
+	&lt;li&gt;Financial problems&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve had signs or symptoms of a panic attack, make an appointment with your primary care provider. After an initial evaluation, your doctor may refer you to a psychiatrist or psychologist for treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your symptoms,&lt;/strong&gt; including when they first occurred and how often you&apos;ve had them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including traumatic events in your past and any stressful, major events that occurred before your first panic attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down medical information,&lt;/strong&gt; including other physical or mental health conditions that you have and the names of any medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a trusted family member or friend to go with you to your appointment,&lt;/strong&gt; if possible, to lend support and help you remember information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor at your first appointment&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you believe is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is it possible that an underlying medical problem is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any diagnostic tests?&lt;/li&gt;
+	&lt;li&gt;Should I see a mental health specialist?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do now to help manage my symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask if you&apos;re referred to a mental health provider&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have panic attacks or panic disorder?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending therapy, how often will I need it and for how long?&lt;/li&gt;
+	&lt;li&gt;Would group therapy be helpful in my case?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, are there any possible side effects?&lt;/li&gt;
+	&lt;li&gt;For how long will I need to take medication?&lt;/li&gt;
+	&lt;li&gt;How will you monitor whether my treatment is working?&lt;/li&gt;
+	&lt;li&gt;What can I do now to reduce the risk of my panic attacks recurring?&lt;/li&gt;
+	&lt;li&gt;Are there any self-care steps I can take to help manage my condition?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask for more information any time you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;A doctor or mental health provider who sees you for possible panic attacks or panic disorder may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did they first occur?&lt;/li&gt;
+	&lt;li&gt;How often do your attacks occur, and how long do they last?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger an attack?&lt;/li&gt;
+	&lt;li&gt;How often do you experience fear of another attack?&lt;/li&gt;
+	&lt;li&gt;Do you avoid the locations or experiences that seem to trigger an attack?&lt;/li&gt;
+	&lt;li&gt;How do your symptoms affect your life, including school, work and personal relationships?&lt;/li&gt;
+	&lt;li&gt;Did you experience significant stress or a traumatic event shortly before your first panic attack?&lt;/li&gt;
+	&lt;li&gt;Have you experienced significant trauma &amp;mdash; such as physical or sexual abuse or military battle &amp;mdash; in your lifetime?&lt;/li&gt;
+	&lt;li&gt;How would you describe your childhood, including your relationship with your parents?&lt;/li&gt;
+	&lt;li&gt;Have you or any of your close relatives been diagnosed with a mental health problem, including panic attacks or panic disorder?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any medical conditions?&lt;/li&gt;
+	&lt;li&gt;Do you use caffeine, alcohol or recreational drugs? How often?&lt;/li&gt;
+	&lt;li&gt;Do you exercise?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help pinpoint a diagnosis for your symptoms, you&apos;ll likely have several exams and tests. Your doctor or other health care provider must determine if you have panic attacks, panic disorder or another condition, such as heart or thyroid problems, that resembles panic symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+You may have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A complete physical exam&lt;/li&gt;
+	&lt;li&gt;Blood tests to check your thyroid and other possible conditions and tests on your heart, such as an electrocardiogram (ECG or EKG), to help determine how well it&apos;s functioning&lt;/li&gt;
+	&lt;li&gt;An evaluation by your doctor or mental health provider to talk about your symptoms, stressful situations, fears or concerns, relationship problems, and other issues affecting your life&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may fill out psychological self-assessments and questionnaires. You also may be asked about alcohol or other substance abuse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria for panic disorder&lt;br /&gt;
+&lt;/strong&gt;Not everyone who has panic attacks has a panic disorder. To be diagnosed with panic disorder, you must meet these criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM) published by the American Psychiatric Association:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have frequent, unexpected panic attacks.&lt;/li&gt;
+	&lt;li&gt;At least one of your attacks has been followed by one month or more of ongoing worry about having another attack; ongoing fear of the consequences of an attack, such as losing control, having a heart attack or &quot;going crazy&quot; or significantly changing your behavior, such as avoiding situations that you think may trigger a panic attack.&lt;/li&gt;
+	&lt;li&gt;Your panic attacks aren&apos;t caused by substance abuse, a medical condition or another mental health condition, such as social phobia or obsessive compulsive disorder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some people, panic disorder may include agoraphobia &amp;mdash; avoiding places or situations that cause you anxiety because you fear not being able to escape or get help if you have a panic attack.
+&lt;/p&gt;
+&lt;p&gt;
+If you have panic attacks but not a diagnosed panic disorder, you can still benefit from treatment. If panic attacks aren&apos;t treated, they can get worse and develop into panic disorder or phobias. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to eliminate all of your panic attack symptoms. With effective treatment, most people are eventually able to resume everyday activities.
+&lt;/p&gt;
+&lt;p&gt;
+The main treatment options for panic attacks are psychotherapy and medications. Both are effective. Your doctor likely will recommend one or both types of treatment, depending on your preference, your history, the severity of your panic disorder and whether there are therapists with special training in panic disorders in your area.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Psychotherapy, also called talk or behavior therapy, is considered an effective first choice treatment for panic attacks and panic disorder. Psychotherapy can help you understand panic attacks and panic disorder and learn how to cope with them.
+&lt;/p&gt;
+&lt;p&gt;
+Cognitive behavioral therapy can help you learn through your own experience that panic symptoms are not dangerous. During therapy sessions, your therapist will help you gradually re-create the symptoms of a panic attack in a safe, supportive setting. Once the physical sensations of panic no longer seem threatening, the attacks begin to resolve. Successful treatment can also help you overcome fears of situations that you&apos;ve been avoiding because of panic attacks.
+&lt;/p&gt;
+&lt;p&gt;
+Your therapist may suggest weekly meetings when you begin psychotherapy. You may start to see improvements in panic attack symptoms within several weeks, and often symptoms decrease significantly or go away within several months. 
+&lt;/p&gt;
+&lt;p&gt;
+As your symptoms improve, you and your therapist will develop a plan to taper off therapy. You may agree to schedule occasional maintenance visits to help ensure that your panic attacks remain under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications can help reduce symptoms associated with panic attacks as well as depression if that&apos;s an issue for you. Several types of medication have been shown to be effective in managing symptoms of panic attacks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Selective serotonin reuptake inhibitors (SSRIs).&lt;/strong&gt; Generally safe with a low risk of serious side effects, SSRI antidepressants are typically recommended as the first choice of medications to treat panic attacks. SSRIs approved by the Food and Drug Administration (FDA) for the treatment of panic disorder include fluoxetine (Prozac), paroxetine (Paxil, Pexeva) and sertraline (Zoloft). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Serotonin and norepinephrine reuptake inhibitors (SNRIs).&lt;/strong&gt; These medications are another class of antidepressants. The SNRI drug called venlafaxine hydrochloride (Effexor XR) is FDA approved for the treatment of panic disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Benzodiazepines.&lt;/strong&gt; These mild sedatives belong to a group of medicines called central nervous system depressants. Benzodiazepines may be habit-forming (causing mental or physical dependence), especially when taken for a long time or in high doses. Benzodiazepines approved by the FDA for the treatment of panic disorder include alprazolam (Niravam, Xanax), clonazepam (Klonopin) and lorazepam (Ativan). If you seek care in an emergency room for signs and symptoms of a panic attack, you may be given a benzodiazepine to help stop the attack. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If one medication doesn&apos;t work well for you, your doctor may recommend switching to another or combining certain medications to boost effectiveness. Keep in mind that it can take several weeks after first starting a medication to notice an improvement in symptoms. All medications have a risk of side effects, and some may not be recommended in certain situations, such as pregnancy. Talk with your doctor about the possible side effects and risks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Researchers have explored a number of natural remedies as possible treatments for anxiety disorders, including panic disorder. Small studies over 10 years old indicate that an oral nutritional supplement called inositol, which influences the action of serotonin, may reduce the frequency and severity of panic attacks. However, more research is needed.
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your doctor before trying any natural therapies. These products can cause side effects and may interact with other medications. Your doctor can help determine if they are safe for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While panic attacks and panic disorder benefit from professional treatment, you can also help manage symptoms on your own. Some of the lifestyle and self-care steps you can take include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Facing your fears can be difficult, but treatment can help you feel like you&apos;re not a hostage in your own home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Joining a group for people with panic attacks or anxiety disorders can connect you with others facing the same problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid caffeine, alcohol and illegal drugs.&lt;/strong&gt; All of these can trigger or worsen panic attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice stress management and relaxation techniques.&lt;/strong&gt; For example, yoga, deep breathing and progressive muscle relaxation &amp;mdash; tensing one muscle at a time, and then completely releasing the tension until every muscle in the body is relaxed &amp;mdash; also may be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get physically active.&lt;/strong&gt; Aerobic activity may have a calming effect on your mood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get sufficient sleep.&lt;/strong&gt; Get enough sleep so that you don&apos;t feel drowsy during the day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent panic attacks or panic disorder. However, these recommendations may help.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get treatment for panic attacks&lt;/strong&gt; as soon as possible to help stop them from getting worse or becoming more frequent. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stick with your treatment plan&lt;/strong&gt; to help prevent relapses or worsening of panic attack symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular physical activity,&lt;/strong&gt; which may play a role in protecting against anxiety.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Panic attacks and panic disorder
+	</Title>
+	<Abstract>
+		Panic attacks &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and self-care for panic disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01615" LinkType="Internal" ObjectID="4960C13D-E7FF-0DBD-1866BEED9AD896BE" Title="Depression and anxiety: Can I have both?" Url="http://www.mayoclinic.com/health/depression-and-anxiety/AN01615" />
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="MH00042" LinkType="Internal" ObjectID="0D9E914C-486D-425E-A823B1FC0A2EB794" Title="Mental health: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/mental-health/MH00042" />
+		<LinkItem ContentType="Answer" DocID="AN01760" LinkType="Internal" ObjectID="ABD0AE49-E7FF-0DBD-169274B10856735F" Title="Nocturnal panic attacks: What causes them?" Url="http://www.mayoclinic.com/health/panic-attacks/AN01760" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+	</RelatedLinksBox>
+</Disease>

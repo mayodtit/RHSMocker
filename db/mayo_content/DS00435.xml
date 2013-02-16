@@ -1,0 +1,426 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00435
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dizziness/DS00435
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-06
+		</UpdateDate>
+		<PublicationDate>
+			2002-10-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="1423" Title="Dizziness" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			361AAE1B-48B7-4385-B4F28D59EA95FA04
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dizziness
+			</MetaKeyword>
+			<MetaKeyword>
+				dizzy
+			</MetaKeyword>
+			<MetaKeyword>
+				vertigo
+			</MetaKeyword>
+			<MetaKeyword>
+				faint
+			</MetaKeyword>
+			<MetaKeyword>
+				lightheaded
+			</MetaKeyword>
+			<MetaKeyword>
+				woozy
+			</MetaKeyword>
+			<MetaKeyword>
+				spells
+			</MetaKeyword>
+			<MetaKeyword>
+				inner ear
+			</MetaKeyword>
+			<MetaKeyword>
+				balance
+			</MetaKeyword>
+			<MetaKeyword>
+				benign paroxysmal positional
+			</MetaKeyword>
+			<MetaKeyword>
+				BPPV
+			</MetaKeyword>
+			<MetaKeyword>
+				tinnitus
+			</MetaKeyword>
+			<MetaKeyword>
+				ringing
+			</MetaKeyword>
+			<MetaKeyword>
+				acute vestibular neuronitis
+			</MetaKeyword>
+			<MetaKeyword>
+				labyrinthitis
+			</MetaKeyword>
+			<MetaKeyword>
+				nystagmus
+			</MetaKeyword>
+			<MetaKeyword>
+				perilymph
+			</MetaKeyword>
+			<MetaKeyword>
+				presyncope
+			</MetaKeyword>
+			<MetaKeyword>
+				disequilibrium
+			</MetaKeyword>
+			<MetaKeyword>
+				dizzyness
+			</MetaKeyword>
+			<MetaKeyword>
+				meniere&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				light headed
+			</MetaKeyword>
+			<MetaKeyword>
+				lightheadedness
+			</MetaKeyword>
+			<MetaKeyword>
+				light headedness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dizziness is a term used to describe everything from feeling faint or lightheaded to feeling weak or unsteady. Dizziness that creates the sense that you or your surroundings are spinning or moving is called vertigo. 
+&lt;/p&gt;
+&lt;p&gt;
+Dizziness is one of the most common reasons adults visit their doctors &amp;mdash; right up there with chest pain and fatigue. Although frequent dizzy spells or constant dizziness can keep you from doing much of anything, dizziness rarely signals a serious, life-threatening condition. Treatment of dizziness depends on the cause and your symptoms, but is usually effective. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dizziness can usually be more specifically described as one of the following sensations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The false sense of motion or spinning (vertigo)&lt;/li&gt;
+	&lt;li&gt;Lightheadedness or the feeling of near fainting&lt;/li&gt;
+	&lt;li&gt;Loss of balance or unsteadiness (disequilibrium)&lt;/li&gt;
+	&lt;li&gt;Other sensations such as floating, swimming or heavy-headedness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A number of underlying health conditions can cause these problems. Some of these conditions disrupt or confuse the signals your brain receives from one or more of your sensory systems, including your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyes,&lt;/strong&gt; which help you determine where your body is in space and how it&apos;s moving&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensory nerves,&lt;/strong&gt; which send messages to your brain about body movements and positions&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inner ear,&lt;/strong&gt; which houses sensors that help detect gravity and back-and-forth motion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you experience any unexplained, recurrent or severe dizziness. 
+&lt;/p&gt;
+&lt;p&gt;
+Call 911 or emergency medical help or go to the emergency room if you experience new, severe dizziness or vertigo along with any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Significant head injury&lt;/li&gt;
+	&lt;li&gt;A new, different or severe headache&lt;/li&gt;
+	&lt;li&gt;A very stiff neck&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Sudden hearing loss&lt;/li&gt;
+	&lt;li&gt;Trouble speaking&lt;/li&gt;
+	&lt;li&gt;Leg or arm weakness&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Falling or difficulty walking&lt;/li&gt;
+	&lt;li&gt;Chest pain or rapid slow heart rate&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The way dizziness makes you feel &amp;mdash; such as the sensation of vertigo, a feeling of faintness or feeling as if you&apos;ve lost your balance &amp;mdash; provide clues for possible causes. Specific triggers, such as certain activities or positions, may give clues as to the underlying cause of your dizziness. The duration of any dizziness episodes and any additional symptoms you feel can also help pinpoint the exact cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vertigo&lt;/strong&gt; &lt;br /&gt;
+Vertigo usually results from a sudden or temporary change in the activity of the balance structures in your inner ear (vestibular system) or in the balance structures&apos; connections into the brain. These connections sense movement and changes in your head position. Sitting up or moving around may make it worse. Sometimes vertigo is severe enough to cause nausea, vomiting and balance problems. But, the good news about vertigo is that it generally won&apos;t last long. Within a couple of weeks, the body usually adapts to whatever is causing your dizziness. 
+&lt;/p&gt;
+&lt;p&gt;
+Causes of vertigo may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Benign paroxysmal positional vertigo (BPPV).&lt;/strong&gt; BPPV causes intense, brief episodes of vertigo immediately following a change in the position of your head, often when you turn over in bed or sit up in the morning. BPPV is the most common cause of vertigo.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation in the inner ear.&lt;/strong&gt; Signs and symptoms of inflammation of your inner ear (acute vestibular neuritis) include the sudden onset of intense, constant vertigo that may persist for several days, along with nausea, vomiting and trouble with balance. These symptoms may be so severe that you have to stay in bed. When associated with sudden hearing loss, this condition is called labyrinthitis. Fortunately, vestibular neuritis generally subsides and clears up on its own. But, early medical treatment and vestibular rehabilitation therapy can be helpful in speeding recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meniere&apos;s disease.&lt;/strong&gt; This disease involves the excessive buildup of fluid in your inner ear. It&apos;s characterized by sudden episodes of vertigo lasting as long as several hours, accompanied by fluctuating hearing loss, ringing in the ear and a feeling of fullness in the affected ear. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vestibular migraine.&lt;/strong&gt; Migraine is more than a headache disorder. Just as some people experience a visual &quot;aura&quot; with their migraines, others can get vertigo episodes and have other types of dizziness due to migraine even when they&apos;re not having a severe headache. Such vertigo episodes can last hours to days and may be associated with headache as well as light and noise sensitivity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acoustic neuroma.&lt;/strong&gt; An acoustic neuroma (vestibular schwannoma) is a noncancerous (benign) growth on the vestibular nerve, which connects the inner ear to your brain. Symptoms of an acoustic neuroma generally include progressive hearing loss and tinnitus on one side accompanied by dizziness or imbalance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Other causes.&lt;/strong&gt; Rarely, vertigo can be a symptom of a more serious neurological problem such as a stroke, brain hemorrhage or multiple sclerosis. In such cases, other neurological symptoms are usually present, such as double vision, slurred speech, facial weakness or numbness, limb coordination, or severe balance problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Feeling of faintness&lt;/strong&gt; &lt;br /&gt;
+Dizziness may make you feel faint and lightheaded without losing consciousness. Sometimes nausea, pale skin and clamminess accompany a feeling of faintness. Causes of this type of dizziness include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drop in blood pressure (orthostatic hypotension).&lt;/strong&gt; A dramatic drop in your systolic blood pressure &amp;mdash; the higher number in your blood pressure reading &amp;mdash; may result in lightheadedness or a feeling of faintness. It can occur after sitting up or standing too quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inadequate output of blood from the heart.&lt;/strong&gt; Certain conditions such as any of the various diseases of the heart muscle (cardiomyopathy), an abnormal heart rhythm (arrhythmia) or a decrease in blood volume may cause inadequate blood flow from your heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Loss of balance (disequilibrium)&lt;/strong&gt; &lt;br /&gt;
+Disequilibrium is the loss of balance or the feeling of unsteadiness when you walk. Causes may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inner ear (vestibular) problems.&lt;/strong&gt; Abnormalities with your inner ear can cause you to feel like you are unsteady while walking, especially in the dark.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensory disorders.&lt;/strong&gt; Failing vision and nerve damage in your legs (peripheral neuropathy) are common in older adults and may result in difficulty maintaining your balance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint and muscle problems.&lt;/strong&gt; Muscle weakness and osteoarthritis &amp;mdash; the type of arthritis that involves wear and tear of your joints &amp;mdash; can contribute to loss of balance when it involves your weight-bearing joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological conditions.&lt;/strong&gt; Various neurological disorders can lead to progressive loss of balance, such as Parkinson&apos;s disease and cerebellar ataxia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Loss of balance can be a side effect of certain medications, such as anti-seizure drugs, sedatives and tranquilizers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other dizzy sensations such as floating, swimming or heavy-headedness&lt;/strong&gt; &lt;br /&gt;
+Other &quot;dizzy&quot; sensations that are more difficult to describe may include feeling &quot;spaced out&quot; or having the sensation of spinning inside your head. Your doctor may refer to this as nonspecific dizziness. Some causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Blood pressure lowering medications may cause faintness if they lower your blood pressure too much. Many other medications can cause nonspecific feelings of dizziness that resolve when you stop the medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inner ear disorders.&lt;/strong&gt; Some inner ear abnormalities can cause persistent, non-vertigo-type dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorders.&lt;/strong&gt; Certain anxiety disorders, such as panic attacks and a fear of leaving home or being in large, open spaces (agoraphobia), may cause dizziness. Sometimes one cause &amp;mdash; such as a vestibular disorder &amp;mdash; may produce symptoms, but then anxiety causes your dizziness to persist even after your inner ear problem has resolved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low iron levels (anemia).&lt;/strong&gt; Other signs and symptoms that may occur along with dizziness if you have anemia include fatigue, weakness and pale skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; This condition generally occurs in people with diabetes who use insulin. Dizziness may be accompanied by sweating and confusion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear infections.&lt;/strong&gt; Sometimes, ear infections can cause dizziness. This type of dizziness will go away when the infection clears up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overheating and dehydration.&lt;/strong&gt; If you&apos;re active in hot weather, or if you don&apos;t drink enough fluids, you may feel dizzy from overheating (hyperthermia) or from dehydration. This is especially true if you take certain heart medications. Resting in a cool place and drinking water or a sports drink (Gatorade, Powerade, others) will usually help ease the dizzy feeling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic subjective dizziness.&lt;/strong&gt; This is a specific clinical syndrome characterized by persistent nonspecific dizziness that doesn&apos;t have an obvious medical cause. Chronic subjective dizziness is associated with hypersensitivity to one&apos;s own motion. This type of dizziness is made worse by complex visual environments (such as the grocery store), visual motion (such as a movie), visual patterns and precision visual tasks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inner ear 
+" Caption="Loop-shaped canals in your inner ear contain fluid and fine, hair-like sensors that help you keep your balance. At the base of the canals are the utricle and saccule, each containing a patch of sensory hair cells. Within these cells are tiny particles (otoconia) that help monitor the position of your head in relation to gravity and linear motion, such as going up and down in an elevator or moving forward and backward in a car. 
+" Height="60" Title="Inner ear and balance" URI="/images/image_popup/thumbs/ha7_earanatomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing inner ear 
+" Caption="Loop-shaped canals in your inner ear contain fluid and fine, hair-like sensors that help you keep your balance. At the base of the canals are the utricle and saccule, each containing a patch of sensory hair cells. Within these cells are tiny particles (otoconia) that help monitor the position of your head in relation to gravity and linear motion, such as going up and down in an elevator or moving forward and backward in a car. 
+" Height="282" Title="Inner ear and balance" URI="/images/image_popup/ha7_earanatomy.jpg" Width="400" />
+				<HTML>
+					Loop-shaped canals in your inner ear contain fluid and fine, hair-like sensors that help you keep your balance. At the base of the canals are the utricle and saccule, each containing a patch of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of getting dizzy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; People older than 65 years old are more likely to have medical conditions that cause dizziness. They&apos;re also more likely to take medications that can cause dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking certain medications.&lt;/strong&gt; Some medications, such as blood pressure lowering drugs, anti-seizure medications, sedatives and tranquilizers can cause dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A past episode of dizziness.&lt;/strong&gt; If you&apos;ve experienced dizziness before, you&apos;re more likely to get dizzy in the future.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dizziness can increase your risk of falling and injuring yourself. Experiencing dizziness while driving a car or operating heavy machinery can increase the likelihood of an accident. You may also experience long-term consequences if an existing health condition that may be causing your dizziness goes untreated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or general practitioner will probably be able to diagnose and treat the cause of your dizziness. However, in some cases you may be referred to a specialist such as an ear, nose and throat (ENT) specialist or a neurologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. If you&apos;re scheduled for vestibular testing, your doctor will provide instructions regarding any medications to withhold the night before and what to eat on the day of testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to describe your dizziness in specific terms.&lt;/strong&gt; When you have an episode of dizziness, do you feel like the room is spinning, or like you are spinning in the room? Do you feel like you might pass out? Your description of these symptoms is crucial to helping your doctor make a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any other health conditions or symptoms you have,&lt;/strong&gt; including any that may seem unrelated to your dizziness. For example, if you have felt depressed or anxious recently, this is important information for your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all prescription and over-the-counter medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. For dizziness, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is this problem likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;Is it possible my symptoms will go away without treatment?&lt;/li&gt;
+	&lt;li&gt;What treatment options might help?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I best handle these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow? For example, is it safe for me to drive?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely ask you a number of questions about your dizziness. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is your dizziness continuous, or does it occur in spells or episodes?&lt;/li&gt;
+	&lt;li&gt;If your dizziness occurs in episodes, how long do these episodes last?&lt;/li&gt;
+	&lt;li&gt;How often do your dizziness episodes occur?&lt;/li&gt;
+	&lt;li&gt;When do your dizzy spells seem to happen, and what triggers them?&lt;/li&gt;
+	&lt;li&gt;Does your dizziness cause the room to spin or produce a sensation of motion?&lt;/li&gt;
+	&lt;li&gt;When you feel dizzy, do you also feel faint or lightheaded?&lt;/li&gt;
+	&lt;li&gt;Does your dizziness cause you to lose your balance?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms accompanied by a ringing or fullness in your ears (tinnitus) or trouble hearing?&lt;/li&gt;
+	&lt;li&gt;Does your vision blur?&lt;/li&gt;
+	&lt;li&gt;Is your dizziness made worse by moving your head?&lt;/li&gt;
+	&lt;li&gt;What medications, vitamins or supplements are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can narrow down possible causes of dizziness after determining the type of dizziness you&apos;re experiencing, reviewing your medical history and current medications, conducting a physical examination, and ordering further testing based on your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you tend to feel lightheaded when you stand up, take your time making changes in posture. Drink plenty of fluids to avoid dehydration, which can cause or worsen lightheadedness. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, if you have had episodes of dizziness while driving, arrange for alternate transportation while you&apos;re waiting to see your doctor. Ask friends, family or colleagues to help you get to and from work and other activities, or look into public transportation. 
+&lt;/p&gt;
+&lt;p&gt;
+If your dizziness causes you to feel like you might fall, take steps to reduce your risk. Keep your home well lit and free of hazards that might cause you to trip. Avoid area rugs and exposed electrical cords. Place furniture where you&apos;re unlikely to bump into it, and use nonslip mats in the bathtub and on shower floors. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To pinpoint what&apos;s causing your symptoms, you may be asked to tip your head back or lie on a particular side in the exam room so that your doctor can observe you. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need additional tests in a vestibular and balance laboratory, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye movement testing.&lt;/strong&gt; Your doctor may watch the path of your eyes when you track a moving object. You may also be given what&apos;s called a caloric test, in which the movement of your eyes is observed when cold and warm water are placed in your ear canal at different times.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Posturography testing.&lt;/strong&gt; This test tells your doctor which parts of the balance system you rely on the most and which parts may be giving you problems. You stand in your bare feet on a platform and try to keep your balance under various conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rotary-chair testing.&lt;/strong&gt; During this test, you sit in a computer-controlled chair that moves very slowly in a full circle. At faster speeds, it moves back and forth in a very small arc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, you may need magnetic resonance imaging (MRI). This technique uses a magnetic field and radio waves to create cross-sectional images of your head and body. Your doctor can use these detailed, clear images to identify and diagnose a wide range of conditions. MRI may be performed to rule out acoustic neuroma &amp;mdash; a noncancerous brain tumor of the vestibular nerve, which carries sound from the inner ear to the brain &amp;mdash; or other abnormalities in the brain that may be the cause of vertigo. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if no cause is found or if your dizziness persists, prescription drugs and other treatments may make your symptoms more manageable. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors base treatment of dizziness on the cause and your symptoms. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;BPPV.&lt;/strong&gt; Treatment of BPPV involves a simple procedure in which your doctor or physical therapist maneuvers the position of your head (canalith repositioning). This procedure is usually effective after one or two treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inner ear conditions.&lt;/strong&gt; Balance retraining exercises (vestibular rehabilitation) are used to treat acute vestibular neuronitis or labyrinthitis. These are exercises you learn from a physical therapist or occupational therapist and then do at home. To provide immediate relief of nausea and dizziness, your doctor may prescribe medications such as meclizine (Antivert) and diazepam (Valium) or may recommend dimenhydrinate (Dramamine), which is available over-the-counter. A short course of corticosteroids may improve your vestibular function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meniere&apos;s disease.&lt;/strong&gt; Treatment of Meniere&apos;s disease involves reducing your body&apos;s retention of fluids through diuretic use and often dietary changes, such as a low-salt diet. Occasionally, injections through the eardrum or surgery may be recommended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vestibular migraine.&lt;/strong&gt; To combat vertigo associated with a vestibular migraine, your doctor will likely try to help you determine and avoid the triggers for your attacks, focusing on diet, stress, sleep and exercise. Certain medicines may help prevent attacks of vestibular migraine or make them less uncomfortable by providing relief for nausea and vomiting. You may also learn specific exercises to help make your balance system less sensitive to motion (vestibular rehabilitation).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorders.&lt;/strong&gt; Your doctor may suggest medications and psychotherapy, either alone or in combination, to help you deal with your anxiety and manage your dizziness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience dizziness, consider these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be aware that dizziness may make you lose your balance, which can lead to falling and serious injury.&lt;/li&gt;
+	&lt;li&gt;Avoid moving suddenly.&lt;/li&gt;
+	&lt;li&gt;Stand up slowly.&lt;/li&gt;
+	&lt;li&gt;Fall-proof your home by removing tripping hazards such as area rugs and exposed electrical cords. Use nonslip mats on your bath and shower floors.&lt;/li&gt;
+	&lt;li&gt;Sit or lie down immediately when you feel dizzy.&lt;/li&gt;
+	&lt;li&gt;Avoid driving a car or operating heavy machinery if you experience frequent dizziness.&lt;/li&gt;
+	&lt;li&gt;Use good lighting on stairs and where you walk if you get out of bed at night.&lt;/li&gt;
+	&lt;li&gt;Walk with a cane for stability, if necessary.&lt;/li&gt;
+	&lt;li&gt;Avoid using caffeine, alcohol and tobacco. Excessive use of these substances can worsen your signs and symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dizziness
+	</Title>
+	<Abstract>
+		Dizziness &amp;mdash; Comprehensive overview covers types, symptoms, causes, treatments of this common health concern.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="MY01322" LinkType="Internal" ObjectID="C9FB646C-DA84-CD9F-EF26177DC57A9F73" Title="Slide show: Canalith repositioning procedure" Url="http://www.mayoclinic.com/health/canalith-repositioning-procedure/MY01322" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00085" LinkType="Internal" ObjectID="A7DD6B03-E7FF-0DBD-1F9BFD8F441B9EEA" Title="Canalith repositioning procedure" Url="http://www.mayoclinic.com/health/canalith-repositioning-procedure/MY00085" />
+	</RelatedLinksBox>
+</Disease>

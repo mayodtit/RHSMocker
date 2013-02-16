@@ -1,0 +1,293 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00560
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/laser-resurfacing/MY00560
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-21
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3967" Title="Life stage">
+						<Keyword MCVID="3968" Title="Adult">
+							<Keyword MCVID="4224" Title="Laser resurfacing" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4C6589A4-D708-3450-0D8FE75D27CACA0A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wrinkles
+			</MetaKeyword>
+			<MetaKeyword>
+				laser resurfacing
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				laser skin resurfacing
+			</MetaKeyword>
+			<MetaKeyword>
+				skin treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				collagen
+			</MetaKeyword>
+			<MetaKeyword>
+				scar treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				acne scars
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laser resurfacing is a skin resurfacing procedure that uses a laser to improve the appearance of your skin or treat minor facial flaws. Laser resurfacing can be done with two types of lasers: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A wounding (ablative) laser, which removes thin layers of skin&lt;/li&gt;
+	&lt;li&gt;A nonwounding (nonablative) laser, which stimulates collagen growth and tightens underlying skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although nonablative laser resurfacing is less invasive and requires less recovery time, it&apos;s less effective than ablative laser resurfacing. 
+&lt;/p&gt;
+&lt;p&gt;
+Laser resurfacing can decrease the appearance of fine lines around your eyes, mouth and cheeks. Laser resurfacing can also treat loss of skin tone and improve your complexion if you have scars or sun damage. Laser resurfacing does have limitations, however. Understanding the specific techniques, risks and possible results can help you decide if laser resurfacing is right for you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing before-and-after results of laser resurfacing
+" Caption="At left, a woman&apos;s wrinkles before laser resurfacing. At right, the same woman pictured three months after laser resurfacing.
+" Height="60" Title="Before-and-after results of laser resurfacing" URI="/images/image_popup/thumbs/w7_prepostlaserthu.jpg" Width="60" />
+				<Image Alt="Photo showing before-and-after results of laser resurfacing
+" Caption="At left, a woman&apos;s wrinkles before laser resurfacing. At right, the same woman pictured three months after laser resurfacing.
+" Height="286" Title="Before-and-after results of laser resurfacing" URI="/images/image_popup/w7_prepostlaser.jpg" Width="400" />
+				<HTML>
+					At left, a woman&apos;s wrinkles before laser resurfacing. At right, the same woman pictured three months after laser resurfacing.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laser resurfacing can be used to treat:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wrinkles&lt;/li&gt;
+	&lt;li&gt;Liver spots or age spots (solar lentigines)&lt;/li&gt;
+	&lt;li&gt;Uneven skin tone or texture&lt;/li&gt;
+	&lt;li&gt;Sun-damaged skin&lt;/li&gt;
+	&lt;li&gt;Scars caused by acne, chickenpox or injuries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Laser resurfacing can&apos;t eliminate excessive or sagging skin (jowls). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ablative laser resurfacing can cause various side effects, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Itching, swelling and redness.&lt;/strong&gt; After ablative laser resurfacing, treated skin will be itchy, swollen and red. Itching and swelling don&apos;t last long, but redness &amp;mdash; the degree of which is related to the depth of resurfacing done &amp;mdash; can be intense and may last for several months. The aggravation of a previously existing skin condition, such as rosacea or contact dermatitis, also can contribute to redness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acne.&lt;/strong&gt; Applying thick creams and bandages to your face after treatment can worsen acne or cause you to temporarily develop tiny white bumps (milia) on treated skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Ablative laser resurfacing can lead to a bacterial, viral or fungal infection. The most common infection is a flare-up of the herpes virus &amp;mdash; the virus that causes cold sores. In most cases, the herpes virus is already present but dormant in the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in skin color.&lt;/strong&gt; Ablative laser resurfacing can cause treated skin to become darker than normal (hyperpigmentation) or lighter than normal (hypopigmentation). Hyperpigmentation is more common in people who have darker skin. The first signs of hyperpigmentation and hypopigmentation typically occur weeks after treatment and may go away without treatment. Use of topical retinoic acid or glycolic acid can help treat hyperpigmentation after the treated area has healed. Hypopigmentation that persists is difficult to treat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring.&lt;/strong&gt; Ablative laser resurfacing poses a slight risk of permanent scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Turning of the eyelid (ectropion).&lt;/strong&gt; Rarely, ablative laser resurfacing near the lower eyelid can cause the eyelid to turn out and expose the inner surface. Surgery is needed to correct the problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Nonablative laser resurfacing also can cause side effects, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Nonablative laser resurfacing can cause a flare-up of the herpes virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in skin color.&lt;/strong&gt; If you have darker skin, nonablative laser resurfacing can cause your skin to become temporarily darker (hyperpigmentation).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mild swelling and redness.&lt;/strong&gt; Swelling and redness typically only last hours or days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blistering and scarring.&lt;/strong&gt; Rarely, nonablative laser resurfacing can cause blistering or scarring.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Laser resurfacing isn&apos;t for everyone. Your doctor may caution against laser resurfacing if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have taken the acne medication isotretinoin (Amnesteem, others) during the past year&lt;/li&gt;
+	&lt;li&gt;Have diabetes, a connective tissue or autoimmune disease, or a weak immune system&lt;/li&gt;
+	&lt;li&gt;Have a history of radiation therapy to your face&lt;/li&gt;
+	&lt;li&gt;Have a history of ridged areas caused by an overgrowth of scar tissue (keloids)&lt;/li&gt;
+	&lt;li&gt;Are pregnant or breast-feeding&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you have laser resurfacing, your doctor will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Review your medical history.&lt;/strong&gt; Be prepared to answer questions about current and past medical conditions and any medications you&apos;re taking or have taken recently, as well as any cosmetic procedures you&apos;ve had in the past.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do a physical exam.&lt;/strong&gt; Your doctor will inspect your skin and the area that will be treated. This will help him or her determine what changes can be made and how your physical features &amp;mdash; for example, the tone and thickness of your skin &amp;mdash; might affect your results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss your expectations.&lt;/strong&gt; Talk with your doctor about your motivations and expectations, as well as the potential risks. Make sure you understand how long it&apos;ll take to heal and what your results might be.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before laser resurfacing, you may also need to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take medication.&lt;/strong&gt; If you&apos;re having ablative laser resurfacing &amp;mdash; or nonablative laser resurfacing and you have a history of herpes infections around your mouth &amp;mdash; your doctor will prescribe an antiviral medication before and after treatment to prevent a viral infection. Your doctor might recommend taking an oral antibiotic medication around the time of the procedure to help prevent a bacterial infection. In addition, your doctor might recommend using a topical retinoid (tretinoin) on your skin for four weeks before having ablative laser resurfacing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid unprotected sun exposure.&lt;/strong&gt; Too much sun up to two months before the procedure can cause permanent irregular pigmentation in treated areas. Discuss sun protection and acceptable sun exposure with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for a ride home.&lt;/strong&gt; If you&apos;re going to be sedated during laser resurfacing, you&apos;ll need help getting home after the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+Ablative laser resurfacing is an outpatient procedure typically done in an ambulatory surgery facility. Before the procedure, your face will be cleaned and your eyes will be covered. Your doctor will numb your skin with local anesthetics. For extensive resurfacing, such as treatment to your whole face, you may be sedated. 
+&lt;/p&gt;
+&lt;p&gt;
+During ablative laser resurfacing, an intense beam of light energy (laser) is directed at your skin. The laser beam destroys the outer layer of skin (epidermis). At the same time the laser heats the underlying skin (dermis), which causes collagen fibers to shrink. As the wound heals, new skin forms that&apos;s smoother and tighter. Ablative laser resurfacing typically takes between 30 minutes and two hours, depending on the technique used and the size of the area treated.
+&lt;/p&gt;
+&lt;p&gt;
+Nonablative laser resurfacing can be done in your doctor&apos;s office. The treatment area will be cleaned, and your eyes will be covered. Your doctor might numb your skin one to two hours before treatment. To protect the outer layer of your skin during nonablative laser resurfacing, your doctor will apply a cryogen spray, a water-based gel or cool air to the treatment area before pulsing the laser. The laser damages collagen beneath your skin and stimulates the growth of new collagen, tightening underlying skin and improving skin tone and appearance. No skin is removed. Nonablative laser resurfacing typically takes between 15 minutes and one and a half hours, depending on the technique used and size of the area treated. To achieve target results, a series of treatments is typically scheduled over the course of weeks or months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After ablative laser resurfacing, the treated skin will be raw, swollen and itchy. The yellowish liquid that oozes from treated areas may form crusts. To help avoid scarring, don&apos;t pick at crusts or pieces of skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will apply a thick ointment to the treated skin and might cover the area with an airtight and watertight dressing. To relieve pain after the procedure, take an over-the-counter pain reliever, such as acetaminophen (Tylenol, others), and apply ice packs. Your doctor might recommend keeping your head elevated at night. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re recovering from ablative laser resurfacing, regularly clean the treated area with water, saline or acetic acid and apply thick, protective ointments, such as petroleum jelly. You might prefer to remain at home while you&apos;re healing, and your doctor might recommend avoiding strenuous activities. Once new skin completely covers the treated area &amp;mdash; usually after one or two weeks &amp;mdash; you can use cosmetics to conceal any redness. 
+&lt;/p&gt;
+&lt;p&gt;
+After nonablative laser resurfacing, your skin might be temporarily red or swollen. Use ice packs as needed. You can apply makeup and resume your normal activities immediately. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how laser resurfacing is done 
+" Caption="During laser resurfacing, a laser destroys the outer layer of skin (epidermis). As the wound heals, new skin forms that&apos;s smoother and tighter. 
+" Height="60" Title="How laser resurfacing is done" URI="/images/image_popup/thumbs/sn7_laserresurfacingthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how laser resurfacing is done 
+" Caption="During laser resurfacing, a laser destroys the outer layer of skin (epidermis). As the wound heals, new skin forms that&apos;s smoother and tighter. 
+" Height="406" Title="How laser resurfacing is done" URI="/images/image_popup/sn7_laserresurfacing.jpg" Width="400" />
+				<HTML>
+					During laser resurfacing, a laser destroys the outer layer of skin (epidermis). As the wound heals, new skin forms that&apos;s smoother and tighter. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After ablative laser resurfacing, your skin may stay red or pink for up to several months. However, once the treatment area begins to heal you&apos;ll notice an immediate difference in your skin quality and appearance. The effects can last for years. 
+&lt;/p&gt;
+&lt;p&gt;
+Results after nonablative laser resurfacing tend to be gradual and progressive, rather than immediate and dramatic. You&apos;re more likely to notice improvements in skin texture and pigment than wrinkles. 
+&lt;/p&gt;
+&lt;p&gt;
+After laser resurfacing, avoid unprotected sun exposure for one year to prevent irregular pigmentation. Keep in mind that your results might not be permanent, since as you age you&apos;ll continue to acquire lines by squinting and smiling. New sun damage can also reverse your results. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing before-and-after results of laser resurfacing
+" Caption="At left, a woman&apos;s wrinkles before laser resurfacing. At right, the same woman pictured three months after laser resurfacing.
+" Height="60" Title="Before-and-after results of laser resurfacing" URI="/images/image_popup/thumbs/w7_prepostlaserthu.jpg" Width="60" />
+				<Image Alt="Photo showing before-and-after results of laser resurfacing
+" Caption="At left, a woman&apos;s wrinkles before laser resurfacing. At right, the same woman pictured three months after laser resurfacing.
+" Height="286" Title="Before-and-after results of laser resurfacing" URI="/images/image_popup/w7_prepostlaser.jpg" Width="400" />
+				<HTML>
+					At left, a woman&apos;s wrinkles before laser resurfacing. At right, the same woman pictured three months after laser resurfacing.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Laser resurfacing
+	</Title>
+	<Abstract>
+		Laser resurfacing &amp;mdash; Overview covers definition, risks and results of this wrinkle treatment procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02081" LinkType="Internal" ObjectID="BD3FFCD6-FA5E-7574-57A05B232452C711" Title="Face-lift" Url="http://www.mayoclinic.com/health/face-lift/MY02081" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00079" LinkType="Internal" ObjectID="A7ACD0FE-E7FF-0DBD-1EED50E25902605F" Title="Liposuction" Url="http://www.mayoclinic.com/health/liposuction/MY00079" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02017" LinkType="Internal" ObjectID="A17AC65B-B476-506E-F9A111DA92E98CA4" Title="Dermabrasion" Url="http://www.mayoclinic.com/health/dermabrasion/MY02017" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00298" LinkType="Internal" ObjectID="9608EF6F-E7FF-0DBD-1F64B13BF4F198A0" Title="Blepharoplasty" Url="http://www.mayoclinic.com/health/blepharoplasty/MY00298" />
+		<LinkItem ContentType="Article" DocID="SN00006" LinkType="Internal" ObjectID="F506CE4C-3C14-4BC9-A8C48340F7950C75" Title="Cosmetic surgery: What to know beforehand" Url="http://www.mayoclinic.com/health/cosmetic-surgery/SN00006" />
+		<LinkItem ContentType="Article" DocID="SN00010" LinkType="Internal" ObjectID="C0458A0E-5E5D-428F-9B728F387516C5D9" Title="Wrinkle creams: Your guide to younger looking skin" Url="http://www.mayoclinic.com/health/wrinkle-creams/SN00010" />
+		<LinkItem ContentType="Disease" DocID="DS00358" LinkType="Internal" ObjectID="C612A144-1638-4662-A60047FF9FFD9B06" Title="Cold sore" Url="http://www.mayoclinic.com/health/cold-sore/DS00358" />
+		<LinkItem ContentType="Disease" DocID="DS00890" LinkType="Internal" ObjectID="C42ABBC4-E7FF-0DBD-19EBF5AAD5773BEC" Title="Wrinkles" Url="http://www.mayoclinic.com/health/wrinkles/DS00890" />
+		<LinkItem ContentType="Disease" DocID="DS00339" LinkType="Internal" ObjectID="A3B79A20-A765-4E1C-90C2A26187EF01E7" Title="Dermatitis" Url="http://www.mayoclinic.com/health/dermatitis-eczema/DS00339" />
+		<LinkItem ContentType="Disease" DocID="DS00169" LinkType="Internal" ObjectID="62FDAD7E-9D53-461A-9A756767E06D35A2" Title="Acne" Url="http://www.mayoclinic.com/health/acne/DS00169" />
+		<LinkItem ContentType="Disease" DocID="DS00912" LinkType="Internal" ObjectID="62D8CDCA-E7FF-0DBD-171539E5A52B3126" Title="Age spots (liver spots)" Url="http://www.mayoclinic.com/health/age-spots/DS00912" />
+		<LinkItem ContentType="Disease" DocID="DS00964" LinkType="Internal" ObjectID="2C9B4EAD-E7FF-0DBD-11FE616BB5B7F712" Title="Sunburn" Url="http://www.mayoclinic.com/health/sunburn/DS00964" />
+	</RelatedLinksBox>
+</TestProcedure>

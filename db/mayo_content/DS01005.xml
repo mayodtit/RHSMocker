@@ -1,0 +1,453 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01005
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/deep-vein-thrombosis/DS01005
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3140" Title="Blood clot">
+							<Keyword MCVID="4227" Title="Deep vein thrombosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F7CDC42F-E7FF-0DBD-1377DA69658CAFBB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				deep vein thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				DVT
+			</MetaKeyword>
+			<MetaKeyword>
+				venous thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				phlebitis
+			</MetaKeyword>
+			<MetaKeyword>
+				thrombophlebitis
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary embolism
+			</MetaKeyword>
+			<MetaKeyword>
+				postphlebetic syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				post-thrombotic syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				economy class syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Deep vein thrombosis (DVT) is a condition in which a blood clot (thrombus) forms in one or more of the deep veins in your body, usually in your legs. Deep vein thrombosis can cause leg pain, but often occurs without any symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Deep vein thrombosis can develop if you&apos;re sitting still for a long time, such as when traveling by plane or car, or if you have certain medical conditions that affect how your blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+Deep vein thrombosis is a serious condition because a blood clot that has formed in your vein can break loose, travel through your bloodstream and lodge in your lungs, blocking blood flow (pulmonary embolism). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing blood clot in leg vein 
+" Caption="A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+" Height="60" Title="Blood clot in leg vein" URI="/images/image_popup/thumbs/mcdc7_legbloodclotthu.jpg" Width="60" />
+				<Image Alt="Illustration showing blood clot in leg vein 
+" Caption="A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+" Height="400" Title="Blood clot in leg vein" URI="/images/image_popup/mcdc7_legbloodclot.jpg" Width="400" />
+				<HTML>
+					A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In about half of all cases, deep vein thrombosis occurs without any noticeable symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+When deep vein thrombosis symptoms occur, they can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling in the affected leg, including swelling in your ankle and foot.&lt;/li&gt;
+	&lt;li&gt;Pain in your leg; this can include pain in your ankle and foot. The pain often starts in your calf and can feel like cramping or a charley horse.&lt;/li&gt;
+	&lt;li&gt;Warmth over the affected area.&lt;/li&gt;
+	&lt;li&gt;Changes in your skin color, such as turning pale, red or blue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you develop signs or symptoms of deep vein thrombosis, contact your doctor for guidance. 
+&lt;/p&gt;
+&lt;p&gt;
+If you develop signs or symptoms of a pulmonary embolism &amp;mdash; a life-threatening complication of deep vein thrombosis &amp;mdash; seek medical attention immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The warning signs of a pulmonary embolism include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unexplained sudden onset of shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain or discomfort that worsens when you take a deep breath or when you cough&lt;/li&gt;
+	&lt;li&gt;Feeling lightheaded or dizzy, or fainting&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Coughing up blood&lt;/li&gt;
+	&lt;li&gt;A sense of anxiety or nervousness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing blood clot in leg vein 
+" Caption="A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+" Height="60" Title="Blood clot in leg vein" URI="/images/image_popup/thumbs/mcdc7_legbloodclotthu.jpg" Width="60" />
+				<Image Alt="Illustration showing blood clot in leg vein 
+" Caption="A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+" Height="400" Title="Blood clot in leg vein" URI="/images/image_popup/mcdc7_legbloodclot.jpg" Width="400" />
+				<HTML>
+					A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Deep vein thrombosis occurs when a blood clot forms in the veins that are deep in your body, often in your legs. Blood clots can be caused by many different things &amp;mdash; namely anything that causes your blood not to circulate normally or clot properly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many factors can increase your risk of developing deep vein thrombosis (DVT), including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sitting for long periods of time, such as when driving or flying.&lt;/strong&gt; When your legs remain still for long periods, your calf muscles don&apos;t contract, which normally helps blood circulate. Blood clots can form in the calves of your legs if your calf muscles aren&apos;t moving. Although sitting for long periods is a risk factor, your chance of developing deep vein thrombosis while flying or driving is relatively low.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inheriting a blood-clotting disorder.&lt;/strong&gt; Some people inherit a disorder that makes their blood clot more easily. This inherited condition may not cause problems unless combined with one or more other risk factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged bed rest, such as during a long hospital stay, or paralysis.&lt;/strong&gt; When your legs remain still for long periods, your calf muscles don&apos;t contract to help blood circulate, which can make blood clots develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injury or surgery.&lt;/strong&gt; Injury to your veins or surgery can slow blood flow, increasing the risk of blood clots. General anesthetics used during surgery can make your veins wider (dilate), which can increase the risk of blood pooling and then clotting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Pregnancy increases the pressure in the veins in your pelvis and legs. Women with an inherited clotting disorder are especially at risk. The risk of blood clots from pregnancy can continue for up to six weeks after you have your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Some forms of cancer increase the amount of substances in your blood that cause your blood to clot. Some forms of cancer treatment also increase the risk of blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory bowel disease.&lt;/strong&gt; Bowel disease, such as ulcerative colitis, increases your risk of DVT.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; People with heart failure are at risk of DVT because a damaged heart doesn&apos;t pump blood as effectively as a normal heart does. This increases the chance that blood will pool and clot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth control pills or hormone replacement therapy.&lt;/strong&gt; Birth control pills (oral contraceptives) and hormone replacement therapy both can increase your blood&apos;s ability to clot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A pacemaker or a thin, flexible tube (catheter) in a vein.&lt;/strong&gt; These medical treatments can irritate the blood vessel wall and decrease blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of deep vein thrombosis or pulmonary embolism.&lt;/strong&gt; If you&apos;ve had DVT before, you&apos;re more likely to have DVT in the future.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history of deep vein thrombosis or pulmonary embolism.&lt;/strong&gt; If someone in your family has had DVT or a pulmonary embolism, your risk of developing DVT is increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being overweight or obese.&lt;/strong&gt; Being overweight increases the pressure in the veins in your pelvis and legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking affects blood clotting and circulation, which can increase your risk of DVT.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Being over age 60 increases your risk of DVT, though it can occur at any age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being tall.&lt;/strong&gt; Taller men may be more likely to have blood clots. Taller women do not appear to have an increased risk, perhaps because most women do not typically get as tall.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary complication to be concerned with in deep vein thrombosis is a pulmonary embolism. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary embolism&lt;/strong&gt;&lt;br /&gt;
+A pulmonary embolism occurs when a blood vessel in your lung becomes blocked by a blood clot (thrombus) that travels to your lungs from another part of your body, usually your leg. 
+&lt;/p&gt;
+&lt;p&gt;
+A pulmonary embolism can be fatal. So, it&apos;s important to be on the lookout for signs and symptoms of a pulmonary embolism and seek medical attention if they occur. Signs and symptoms of a pulmonary embolism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unexplained sudden onset of shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain or discomfort that worsens when you take a deep breath or when you cough&lt;/li&gt;
+	&lt;li&gt;Feeling lightheaded or dizzy, or fainting&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Coughing up blood&lt;/li&gt;
+	&lt;li&gt;A sense of anxiety or nervousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Postphlebitic syndrome&lt;/strong&gt;&lt;br /&gt;
+A common complication that can occur after deep vein thrombosis is a condition known as postphlebitic syndrome, also called postthrombotic syndrome. This syndrome is used to describe a collection of signs and symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling of your legs (edema)&lt;/li&gt;
+	&lt;li&gt;Leg pain&lt;/li&gt;
+	&lt;li&gt;Skin discoloration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+This syndrome is caused by damage to your veins from the blood clot. This damage reduces blood flow in the affected areas. The symptoms of postphlebitic syndrome may not occur until a few years after the DVT. Treatment options include medications, such as aspirin or diuretics, as well as the use of compression stockings. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pulmonary embolism 
+" Caption="Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+" Height="60" Title="Pulmonary embolism" URI="/images/image_popup/thumbs/mcdc7_pulmonaryembolismthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pulmonary embolism 
+" Caption="Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+" Height="296" Title="Pulmonary embolism" URI="/images/image_popup/mcdc7_pulmonaryembolism.jpg" Width="400" />
+				<HTML>
+					Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need to make any special preparations for a doctor appointment to diagnose deep vein thrombosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to deep vein thrombosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; especially if you have a family history of blood-clotting disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; if you&apos;ve been seated for long periods of time recently, such as traveling by car or plane. Also, if you&apos;re planning to travel and are concerned about your deep vein thrombosis risk, tell your doctor about your travel plans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For deep vein thrombosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity for me now that I&apos;ve been diagnosed with deep vein thrombosis? What about once my clot is gone?&lt;/li&gt;
+	&lt;li&gt;Will I need to restrict my physical activity or travel plans?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been inactive lately, such as sitting or lying down for long periods?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of health problems related to blood clots?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you can begin some self-care measures, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using warm compresses.&lt;/strong&gt; You can use a warm washcloth as a compress on the affected area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevating your leg.&lt;/strong&gt; Raising your leg may help with any discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you decide to take any pain-relieving medications, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve), be sure to tell your doctor. These medications can interact with other blood-thinning medications your doctor prescribes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose deep vein thrombosis, your doctor will ask you a series of questions about your symptoms. You&apos;ll also have a physical exam so that your doctor can check for any areas of swelling, tenderness or discoloration on your skin. Depending on how likely you are to have a blood clot, your doctor may suggest further testing, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; A wand-like device (transducer) placed over the part of your body where there&apos;s a clot sends sound waves into the area. As the sound waves travel through your tissue and reflect back, a computer transforms the waves into a moving image on a video screen. A clot may be visible in the image. Sometimes a series of ultrasounds are done over several days to determine whether a blood clot is growing or to be sure a new one hasn&apos;t developed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Almost all people who develop severe deep vein thrombosis have an elevated blood level of a clot-dissolving substance called D dimer. The test for increased D dimer in your blood is most useful for ruling out deep vein thrombosis or for identifying people at risk of recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Venography.&lt;/strong&gt; A dye (contrast agent) is injected into a large vein in your foot or ankle. An X-ray procedure creates an image of the veins in your legs and feet, to look for clots. This test is used less frequently because less invasive methods can usually confirm the diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT or MRI scans.&lt;/strong&gt; Both computerized tomography (CT) and magnetic resonance imaging (MRI) can provide visual images of your veins and may show if you have a clot. Sometimes a clot is found when these scans are performed for other reasons.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of deep vein thrombosis treatment is threefold: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stopping your blood clot from getting any bigger&lt;/li&gt;
+	&lt;li&gt;Preventing the clot from breaking loose and causing a pulmonary embolism&lt;/li&gt;
+	&lt;li&gt;Reducing your chances of deep vein thrombosis happening again&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Deep vein thrombosis treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Blood thinners.&lt;/strong&gt; Medications used to treat deep vein thrombosis include the use of anticoagulants, also sometimes called blood thinners, whenever possible. These are drugs that decrease your blood&apos;s ability to clot. While they don&apos;t break up existing blood clots, they can prevent clots from getting bigger or reduce your risk of developing additional clots. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Typically, you&apos;ll first be given a shot or infusion of the blood thinner heparin for a few days. After starting heparin injections, your treatment may be followed by another blood thinner in pill form, such as warfarin (Coumadin) or rivaroxaban (Xarelto). You may need to take blood thinners for three months or longer. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you&apos;re prescribed heparin or warfarin, take your medication exactly as your doctor instructs. Both medications can have serious side effects, such as an increased risk of bleeding, if you take too much. On the other hand, if your dose is too low, you&apos;re at increased risk of additional blood clots. You&apos;ll need periodic blood tests to check how long it takes your blood to clot. Pregnant women shouldn&apos;t take warfarin. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Clotbusters.&lt;/strong&gt; If you have a more serious type of deep vein thrombosis or pulmonary embolism, or if other medications aren&apos;t working, your doctor may try other medications. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	One group of medications is known as thrombolytics. These drugs, such as tissue plasminogen activator (TPA), are given through an intravenous (IV) line to break up blood clots. These drugs can cause serious bleeding and are typically used only in life-threatening situations. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Filters.&lt;/strong&gt; If you can&apos;t take medicines to thin your blood, a filter may be inserted into a large vein &amp;mdash; the vena cava &amp;mdash; in your abdomen. This filter prevents clots that break loose from lodging in your lungs. The filters are sometimes referred to as umbrellas because they look like the wire spokes of an umbrella.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression stockings.&lt;/strong&gt; These help prevent swelling associated with deep vein thrombosis. These stockings are worn on the leg from your foot to about the level of your knee. This pressure helps reduce the chances that your blood will pool and clot. You should wear these stockings for at least a year if possible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary goal of your self-care plan should be preventing deep vein thrombosis from occurring. 
+&lt;/p&gt;
+&lt;p&gt;
+To prevent deep vein thrombosis from worsening or happening again: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Check in with your doctor regularly&lt;/strong&gt; to see if your medication or treatments need to be modified.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch how much vitamin K you&apos;re eating&lt;/strong&gt; if you take blood thinners. Vitamin K can affect how drugs such as warfarin work. Foods high in vitamin K include green leafy vegetables and canola and soybean oils.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise your lower calf muscles&lt;/strong&gt; if you&apos;ll be sitting a long time. Whenever possible, get up and walk around. If you can&apos;t get up to walk around, try raising and lowering your heels while keeping your toes on the floor, then raising your toes while your heels are on the floor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Move.&lt;/strong&gt; If you&apos;ve been on bed rest, because of surgery or other factors, the sooner you get moving, the less likely blood clots will develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make lifestyle changes.&lt;/strong&gt; Lose weight, quit smoking and control your blood pressure. Obesity, smoking and high blood pressure all increase your risk of deep vein thrombosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear compression stockings&lt;/strong&gt; to help prevent blood clots in the legs if your doctor recommends them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be on the lookout for excessive bleeding,&lt;/strong&gt; which can be a side effect of taking medications such as blood thinners. Talk to your doctor about activities that could cause you to bruise or get cut, as even a minor injury could become serious if you&apos;re taking blood thinners.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preventing deep vein thrombosis is far easier than treating it after it has occurred. Some common preventive measures include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take any prescribed medications as directed.&lt;/strong&gt; If you&apos;re having surgery, such as orthopedic surgery, you&apos;ll probably be given blood thinners while you&apos;re in the hospital.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check in with your doctor regularly&lt;/strong&gt; to see if your medication or treatments need to be modified.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch how much vitamin K you&apos;re eating&lt;/strong&gt; if you take blood thinners. Vitamin K can affect how drugs such as warfarin work. Foods high in vitamin K include green leafy vegetables and canola and soybean oils.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise your lower calf muscles&lt;/strong&gt; if you&apos;ll be sitting a long time. Whenever possible, get up and walk around. If you can&apos;t get up to walk around, try raising and lowering your heels while keeping your toes on the floor, then raising your toes while your heels are on the floor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Move.&lt;/strong&gt; If you&apos;ve been on bed rest, because of surgery or other factors, the sooner you get moving, the less likely blood clots will develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make lifestyle changes.&lt;/strong&gt; Lose weight, quit smoking and control your blood pressure. Obesity, smoking and high blood pressure all increase your risk of deep vein thrombosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear compression stockings&lt;/strong&gt; to help prevent blood clots in the legs if your doctor recommends them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Deep vein thrombosis (DVT)
+	</Title>
+	<Abstract>
+		Deep vein thrombosis &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this blood-clotting disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01304" LinkType="Internal" ObjectID="B7924F4B-2A5D-9994-E93851E2A0E09BD3" Title="Blood thinners: Can I still get blood clots?" Url="http://www.mayoclinic.com/health/blood-thinners/AN01304" />
+		<LinkItem ContentType="Answer" DocID="HQ01614" LinkType="Internal" ObjectID="70B2F4BD-5FD9-4435-8BE419B346DFAC2A" Title="Warfarin: Any harm in long-term use?" Url="http://www.mayoclinic.com/health/warfarin/HQ01614" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+		<LinkItem ContentType="Article" DocID="HB00101" LinkType="Internal" ObjectID="CA0F97CB-E7FF-0DBD-16198A51C9A1D2DE" Title="Warfarin side effects: Watch for interactions" Url="http://www.mayoclinic.com/health/warfarin-side-effects/HB00101" />
+	</RelatedLinksBox>
+</Disease>

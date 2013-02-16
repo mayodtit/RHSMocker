@@ -1,0 +1,315 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00485
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pagets-disease-of-bone/DS00485
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-13
+		</UpdateDate>
+		<PublicationDate>
+			2003-02-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="1733" Title="Paget&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			974EB61D-07C4-4492-8FE88EC8F8B99396
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Paget&apos;s disease of bone
+			</MetaKeyword>
+			<MetaKeyword>
+				Pagets disease of bone
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Pagets
+			</MetaKeyword>
+			<MetaKeyword>
+				Paget
+			</MetaKeyword>
+			<MetaKeyword>
+				bone loss
+			</MetaKeyword>
+			<MetaKeyword>
+				bone formation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Paget&apos;s disease of bone disrupts your body&apos;s normal bone recycling process, in which old bone tissue is gradually replaced with new bone tissue. Over time, the affected bones may become fragile and misshapen. Paget&apos;s disease of bone most commonly occurs in the pelvis, skull, spine and legs. 
+&lt;/p&gt;
+&lt;p&gt;
+The risk of Paget&apos;s disease of bone increases with age. Your risk also increases if any of your family members have the disorder. Complications of Paget&apos;s disease of bone can include broken bones, hearing loss and pinched nerves in your spine. 
+&lt;/p&gt;
+&lt;p&gt;
+Bisphosphonates &amp;mdash; the medications used to strengthen bones weakened by osteoporosis &amp;mdash; are the mainstay of treatment. In severe cases, surgery may be necessary. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Paget&apos;s disease of bone 
+" Caption="On the right, an X-ray of an upper arm bone (humerus) shows the abnormal growth associated with Paget&apos;s disease. The same person&apos;s other, normal humerus is shown in the X-ray on the left. 
+" Height="60" Title="Paget&apos;s disease of bone" URI="/images/image_popup/thumbs/r7_pagetsbonethu.jpg" Width="60" />
+				<Image Alt="Image showing Paget&apos;s disease of bone 
+" Caption="On the right, an X-ray of an upper arm bone (humerus) shows the abnormal growth associated with Paget&apos;s disease. The same person&apos;s other, normal humerus is shown in the X-ray on the left. 
+" Height="261" Title="Paget&apos;s disease of bone" URI="/images/image_popup/r7_pagetsbone.jpg" Width="400" />
+				<HTML>
+					On the right, an X-ray of an upper arm bone (humerus) shows the abnormal growth associated with Paget&apos;s disease. The same person&apos;s other, normal humerus is shown in the X-ray on the left. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who have Paget&apos;s disease of bone experience no symptoms. When symptoms do occur, the most common complaint is bone pain. The disease may affect only one or two areas of your body or may be widespread. Your signs and symptoms, if any, will depend on the part of your body that&apos;s affected, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvis.&lt;/strong&gt; Paget&apos;s disease of bone in the pelvis can cause hip pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skull.&lt;/strong&gt; An overgrowth of bone in the skull can cause hearing loss or headaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spine.&lt;/strong&gt; If your spine is affected, nerve roots can become compressed. This can cause pain, tingling and numbness in an arm or leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leg.&lt;/strong&gt; As the bones weaken, they may bend &amp;mdash; causing you to become bowlegged. Enlarged and misshapen bones in your legs can put extra stress on nearby joints, which may cause wear-and-tear arthritis in your knee or hip.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in your bones and joints&lt;/li&gt;
+	&lt;li&gt;Tingling and weakness&lt;/li&gt;
+	&lt;li&gt;Bone deformities&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even after you&apos;ve reached your full height, your bones don&apos;t stop growing. Bone is living tissue engaged in a continual process of renewal. During this constant process called remodeling, old bone is removed and replaced by new bone. Paget&apos;s disease of bone disrupts this process. 
+&lt;/p&gt;
+&lt;p&gt;
+Early in the course of the disease, old bone starts breaking down faster than new bone can be built. Over time, your body responds by generating new bone at a faster than normal rate. This rapid remodeling produces bone that&apos;s softer and weaker than normal bone, which can lead to bone pain, deformities and fractures. 
+&lt;/p&gt;
+&lt;p&gt;
+Scientists haven&apos;t identified a cause of Paget&apos;s disease of bone, though they have discovered several genes that appear to be linked to the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Some scientists believe Paget&apos;s is related to a viral infection in your bone cells that may be present for many years before problems appear. Hereditary factors seem to influence whether you&apos;re susceptible to the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of Paget&apos;s disease of bone include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; People older than 40 are the most likely to develop Paget&apos;s disease of bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Men are more commonly affected than are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;National origin.&lt;/strong&gt; Paget&apos;s disease of bone is more common in England, Scotland, central Europe and Greece &amp;mdash; as well as countries settled by European immigrants. It&apos;s uncommon in Scandinavia and Asia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If you have a close relative who has Paget&apos;s disease of bone, you are much more likely to develop the condition yourself.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, Paget&apos;s disease of bone progresses slowly. The disease can be managed effectively in nearly all people. Possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fractures.&lt;/strong&gt; Bones affected by Paget&apos;s disease break more easily. Extra blood vessels are created in these deformed bones, so they bleed more during repair surgeries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoarthritis.&lt;/strong&gt; Misshapen bones can increase the amount of stress on nearby joints, which can cause osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Unusually extensive Paget&apos;s disease may force your heart to work harder to pump blood to the affected areas of your body. In people with pre-existing heart disease, this increased workload can lead to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone cancer.&lt;/strong&gt; Bone cancer occurs in less than 1 percent of people with Paget&apos;s disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with Paget&apos;s disease of the bone don&apos;t have any symptoms and are diagnosed when an X-ray or blood test taken for another reason reveals signs of Paget&apos;s disease. In some cases, you may be referred immediately to a doctor who specializes in metabolic and hormonal disorders (endocrinologist) or in joint and muscle disorders (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms, if any, do you have? When did they start?&lt;/li&gt;
+	&lt;li&gt;Have any of your relatives had Paget&apos;s disease of bone?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced any numbness or tingling?&lt;/li&gt;
+	&lt;li&gt;How about muscle weakness?&lt;/li&gt;
+	&lt;li&gt;Any new headaches?&lt;/li&gt;
+	&lt;li&gt;Has your hearing recently worsened?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of heart disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will carefully examine any areas of your body that are causing you pain. He or she may also order X-rays and blood tests that can help confirm the diagnosis of Paget&apos;s disease of bone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Bone changes common to Paget&apos;s disease can be revealed by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; The first indication of Paget&apos;s disease is often one or more abnormalities found on X-rays done for other reasons. X-ray images of your bones can show areas of bone reabsorption, enlargement of the bone and deformities that are characteristic of Paget&apos;s disease, such as bowing of your long bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; In a bone scan, radioactive material is injected into your body. This material travels to the spots on your bones most affected by Paget&apos;s disease, so they light up on the scan images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;br /&gt;
+&lt;/strong&gt;People who have Paget&apos;s disease of bone usually have elevated levels of alkaline phosphatase in their blood. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Paget&apos;s disease of bone 
+" Caption="On the right, an X-ray of an upper arm bone (humerus) shows the abnormal growth associated with Paget&apos;s disease. The same person&apos;s other, normal humerus is shown in the X-ray on the left. 
+" Height="60" Title="Paget&apos;s disease of bone" URI="/images/image_popup/thumbs/r7_pagetsbonethu.jpg" Width="60" />
+				<Image Alt="Image showing Paget&apos;s disease of bone 
+" Caption="On the right, an X-ray of an upper arm bone (humerus) shows the abnormal growth associated with Paget&apos;s disease. The same person&apos;s other, normal humerus is shown in the X-ray on the left. 
+" Height="261" Title="Paget&apos;s disease of bone" URI="/images/image_popup/r7_pagetsbone.jpg" Width="400" />
+				<HTML>
+					On the right, an X-ray of an upper arm bone (humerus) shows the abnormal growth associated with Paget&apos;s disease. The same person&apos;s other, normal humerus is shown in the X-ray on the left. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you don&apos;t have symptoms, you may not need treatment. However, if the disease is active &amp;mdash; indicated by an elevated alkaline phosphatase level &amp;mdash; and is affecting high-risk sites in your body, such as your skull or spine, your doctor may recommend treatment to prevent complications, whether or not you have symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Osteoporosis drugs (bisphosphonates) are the most common treatment for Paget&apos;s disease of bone. Some bisphosphonates are given as oral medications, while others are given by injection. Oral bisphosphonates are generally well tolerated, but may irritate your gastrointestinal tract. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alendronate (Fosamax)&lt;/li&gt;
+	&lt;li&gt;Ibandronate (Boniva)&lt;/li&gt;
+	&lt;li&gt;Pamidronate (Aredia)&lt;/li&gt;
+	&lt;li&gt;Risedronate (Actonel)&lt;/li&gt;
+	&lt;li&gt;Zoledronic acid (Zometa, Reclast)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Long-term bisphosphonate therapy has been linked to a rare problem in which the upper thighbone cracks, but doesn&apos;t usually break completely. Bisphosphonates also may increase the risk of osteonecrosis of the jawbone &amp;mdash; a rare condition in which a section of jawbone dies and deteriorates after a tooth extraction. 
+&lt;/p&gt;
+&lt;p&gt;
+If you can&apos;t tolerate bisphosphonates, your doctor may prescribe calcitonin (Miacalcin), a naturally occurring hormone involved in calcium regulation and bone metabolism. Calcitonin is a drug that you administer to yourself by injection or nasal spray. Side effects may include nausea, facial flushing and irritation at the injection site. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;In rare cases, you may require surgery to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Help fractures heal&lt;/li&gt;
+	&lt;li&gt;Replace joints damaged by severe arthritis&lt;/li&gt;
+	&lt;li&gt;Realign deformed bones&lt;/li&gt;
+	&lt;li&gt;Reduce pressure on nerves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Paget&apos;s disease often causes the body to produce an excessive number of blood vessels in the affected bones. This change increases the risk of serious blood loss during an operation. If you&apos;re scheduled for surgery that involves bones affected by Paget&apos;s disease, your doctor may prescribe medications to reduce the activity of the disease, a step that tends to reduce blood loss during surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of complications associated with Paget&apos;s disease of bone, try these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent falls.&lt;/strong&gt; Paget&apos;s disease puts you at high risk of bone fractures. Ask your doctor for advice on preventing falls. He or she may recommend that you use a cane or a walker. Take measures to fall-proof your home. Remove slippery floor coverings, use nonskid mats in your bathtub or shower, tuck away cords, and install handrails on stairways and grab bars in your bathroom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat well.&lt;/strong&gt; Be sure your diet includes adequate levels of calcium and vitamin D, which facilitates the absorption of calcium. This is especially important if you&apos;re being treated with bisphosphonates. Review your diet with your doctor and ask if you should begin taking vitamin and calcium supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercising on a regular basis is essential for maintaining joint mobility and bone strength. Talk to your doctor before beginning an exercise program to determine the right type, duration and intensity of exercise for you. Some activities may place too much stress on your affected bones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Paget&apos;s disease of bone
+	</Title>
+	<Abstract>
+		Paget&apos;s disease of bone &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this chronic disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00306" LinkType="Internal" ObjectID="9AE16992-E7FF-0DBD-188029DE09392BC4" Title="Bone scan" Url="http://www.mayoclinic.com/health/bone-scan/MY00306" />
+		<LinkItem ContentType="Disease" DocID="DS00520" LinkType="Internal" ObjectID="5F5CBD5A-1B96-4D75-B96779927D91894E" Title="Bone cancer" Url="http://www.mayoclinic.com/health/bone-cancer/DS00520" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+	</RelatedLinksBox>
+</Disease>

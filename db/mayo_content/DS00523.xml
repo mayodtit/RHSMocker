@@ -1,0 +1,413 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00523
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/difficulty-swallowing/DS00523
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2004-01-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="2928" Title="Difficulty swallowing" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F63DE3D-2EC2-4360-AF54FB7E1C39A350
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				difficulty swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				dysphagia
+			</MetaKeyword>
+			<MetaKeyword>
+				odynophagia
+			</MetaKeyword>
+			<MetaKeyword>
+				swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				trouble swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				difficult swallowing
+			</MetaKeyword>
+			<MetaKeyword>
+				swallowing difficulties
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Difficulty swallowing (dysphagia) means it takes more time and effort to move food or liquid from your mouth to your stomach. Difficulty swallowing may also be associated with pain. In some cases, you may not be able to swallow at all. 
+&lt;/p&gt;
+&lt;p&gt;
+Occasional difficulty swallowing usually isn&apos;t cause for concern, and may simply occur when you eat too fast or don&apos;t chew your food well enough. But persistent difficulty swallowing may indicate a serious medical condition requiring treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Difficulty swallowing can occur at any age, but it&apos;s more common in older adults. The causes of swallowing problems vary, and treatment depends on the cause. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="60" Title="Esophagus" URI="/images/image_popup/thumbs/dysphagiathu.jpg" Width="60" />
+				<Image Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="460" Title="Esophagus" URI="/images/image_popup/dysphagia.jpg" Width="400" />
+				<HTML>
+					The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms that can be associated with dysphagia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain while swallowing (odynophagia) &lt;/li&gt;
+	&lt;li&gt;Not being able to swallow &lt;/li&gt;
+	&lt;li&gt;Sensation of food getting stuck in your throat or chest, or behind your breastbone (sternum) &lt;/li&gt;
+	&lt;li&gt;Drooling &lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Bringing food back up (regurgitation) &lt;/li&gt;
+	&lt;li&gt;Frequent heartburn &lt;/li&gt;
+	&lt;li&gt;Food or stomach acid backing up into your throat &lt;/li&gt;
+	&lt;li&gt;Unexpected weight loss &lt;/li&gt;
+	&lt;li&gt;Coughing or gagging when swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In infants and children, signs and symptoms of swallowing difficulties may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lack of attention during feeding or meals&lt;/li&gt;
+	&lt;li&gt;Tensing of the body during feeding&lt;/li&gt;
+	&lt;li&gt;Refusing to eat foods of different textures&lt;/li&gt;
+	&lt;li&gt;Lengthy feeding or eating times (30 minutes or longer)&lt;/li&gt;
+	&lt;li&gt;Breast-feeding problems&lt;/li&gt;
+	&lt;li&gt;Food or liquid leaking from the mouth&lt;/li&gt;
+	&lt;li&gt;Coughing or choking during feeding or meals&lt;/li&gt;
+	&lt;li&gt;Spitting up or vomiting during feeding or meals&lt;/li&gt;
+	&lt;li&gt;Trouble breathing while eating and drinking&lt;/li&gt;
+	&lt;li&gt;Weight loss or slow weight gain or growth&lt;/li&gt;
+	&lt;li&gt;Recurrent pneumonia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obstructions.&lt;/strong&gt; If an obstruction interferes with breathing, call for emergency help immediately. If you&apos;re unable to swallow due to an obstruction, go to the nearest emergency department.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ongoing problems.&lt;/strong&gt; Slight or occasional difficulty swallowing usually isn&apos;t cause for concern or action. But see your doctor if you regularly have difficulty swallowing or if difficulty swallowing is accompanied by weight loss, regurgitation or vomiting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Children.&lt;/strong&gt; If you suspect that your child has trouble swallowing, contact your child&apos;s doctor. Your child may be referred to a doctor who specializes in treating children with feeding and swallowing disorders.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It takes about 50 pairs of muscles and nerves to accomplish the simple act of swallowing, and a number of conditions can interfere with this process. These conditions generally fall into one of two categories: esophageal and oropharyngeal. Sometimes, however, the cause of dysphagia can&apos;t be identified. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Esophageal dysphagia&lt;/strong&gt; &lt;br /&gt;
+Esophageal dysphagia refers to the sensation of food sticking or getting hung up in the base of your throat or in your chest. Some of the causes of esophageal dysphagia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Achalasia.&lt;/strong&gt; This occurs when your lower esophageal muscle (sphincter) doesn&apos;t relax properly to let food enter your stomach. Muscles in the wall of your esophagus may be weak as well. This can cause regurgitation of food not yet mixed with stomach contents, sometimes causing you to bring food back up into your throat. This type of dysphagia tends to get worse over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diffuse spasm.&lt;/strong&gt; This condition produces multiple, high-pressure, poorly coordinated contractions of your esophagus usually after you swallow. Diffuse spasm affects the involuntary muscles in the walls of your lower esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal stricture.&lt;/strong&gt; Narrowing of your esophagus (stricture) can cause large pieces of food to get caught. Narrowing may result from the formation of scar tissue, often caused by gastroesophageal reflux disease (GERD), or from tumors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal tumors.&lt;/strong&gt; Difficulty swallowing tends to get progressively worse when esophageal tumors are present. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foreign bodies.&lt;/strong&gt; Sometimes, food, such as a large piece of meat, or another object can partially block your throat or esophagus. Older adults with dentures and people who have difficulty chewing their food properly may be more likely to have a piece of food become lodged in the throat or esophagus. Children may swallow small objects, such as pins, coins or pieces of toys, that can become stuck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal ring.&lt;/strong&gt; This thin area of narrowing in the lower esophagus can intermittently cause difficulty swallowing solid foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastroesophageal reflux disease (GERD).&lt;/strong&gt; Damage to esophageal tissues from stomach acid backing up (refluxing) into your esophagus can lead to spasm or scarring and narrowing of your lower esophagus, making swallowing difficult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eosinophilic esophagitis.&lt;/strong&gt; This condition, which may be related to a food allergy, is caused by an overpopulation of cells called eosinophils in the esophagus, and can lead to difficulty swallowing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scleroderma.&lt;/strong&gt; This disease is characterized by the development of scar-like tissue, causing stiffening and hardening of tissues. This can weaken your lower esophageal sphincter, allowing acid to back up into your esophagus and cause frequent heartburn. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; This cancer treatment can lead to inflammation and scarring of the esophagus, which may cause difficulty swallowing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Oropharyngeal dysphagia&lt;/strong&gt; &lt;br /&gt;
+Certain problems related to your nerves and muscles can weaken your throat muscles, making it difficult to move food from your mouth into your throat and esophagus (pharyngeal paralysis). You may choke, gag or cough when you attempt to swallow, or have the sensation of food or fluids going down your windpipe (trachea) or up your nose. This may lead to pneumonia. Causes of oropharyngeal dysphagia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological disorders.&lt;/strong&gt; Certain disorders, such as post-polio syndrome, multiple sclerosis, muscular dystrophy and Parkinson&apos;s disease, may first be noticed because of oropharyngeal dysphagia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological damage.&lt;/strong&gt; Sudden neurological damage, such as from a stroke or brain or spinal cord injury, can cause difficulty swallowing or an inability to swallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pharyngeal diverticula.&lt;/strong&gt; A small pouch forms and collects food particles in your throat, often just above your esophagus, leading to difficulty swallowing, gurgling sounds, bad breath, and repeated throat clearing or coughing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Certain cancers and some cancer treatments, such as radiation, can cause difficulty swallowing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Dysphagia in infants and children&lt;/strong&gt; &lt;br /&gt;
+Common causes of swallowing difficulties in infants and children include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nervous system disorders, such as cerebral palsy or meningitis&lt;/li&gt;
+	&lt;li&gt;Cleft lip or cleft palate &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="60" Title="Esophagus" URI="/images/image_popup/thumbs/dysphagiathu.jpg" Width="60" />
+				<Image Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="460" Title="Esophagus" URI="/images/image_popup/dysphagia.jpg" Width="400" />
+				<HTML>
+					The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following are risk factors for difficulty swallowing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; Due to natural aging and normal wear and tear on the esophagus, and a greater risk of certain conditions, such as stroke or Parkinson&apos;s disease, older adults are at higher risk of swallowing difficulties. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain health conditions.&lt;/strong&gt; People with certain neurological or nervous system disorders are more likely to experience difficulty swallowing. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Difficulty swallowing can lead to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Malnutrition and dehydration.&lt;/strong&gt; Dysphagia can make it difficult for you to take in enough food and fluids to stay adequately nourished and hydrated. People with difficulty swallowing are at risk of malnutrition and dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory problems.&lt;/strong&gt; If food or liquid enters your airway (aspiration) as you attempt to swallow, respiratory problems or infections can occur, such as frequent bouts of pneumonia or upper respiratory infections. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have difficulty swallowing, you&apos;re likely to start by seeing your family doctor or a general practitioner. Depending on the suspected cause, your doctor may refer you to a doctor who specializes in treating ear, nose and throat disorders (otorhinolaryngolist), a doctor who specializes in treating digestive disorders (gastroenterologist), or a doctor who specializes in diseases of the nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For difficulty swallowing, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms? For example, are certain foods harder to swallow than others?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty swallowing solids, liquids or both?&lt;/li&gt;
+	&lt;li&gt;Do you cough or gag when you try to swallow?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms getting worse or becoming more frequent?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms start with difficulty swallowing solids and then progress to difficulty swallowing liquids?&lt;/li&gt;
+	&lt;li&gt;Do you have to chew your food more thoroughly now or cut it into small pieces to eat?&lt;/li&gt;
+	&lt;li&gt;Have you ever had to bring food back up to relieve your symptoms?&lt;/li&gt;
+	&lt;li&gt;If you have brought food back up or vomited, have you ever seen blood or black material?&lt;/li&gt;
+	&lt;li&gt;Have you unintentionally lost weight?&lt;/li&gt;
+	&lt;li&gt;Do you have any pain?&lt;/li&gt;
+	&lt;li&gt;How much alcohol do you regularly consume?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+In the days leading up to your appointment, it may help if you chew your food more slowly and thoroughly than you normally do. If you have heartburn or GERD, try eating smaller meals and don&apos;t eat right before going to bed. Over-the-counter antacids also may provide temporary relief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely perform a physical examination and may use a variety of tests to determine the cause of your swallowing problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests that your doctor or a specialist uses may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray with a contrast material (barium X-ray).&lt;/strong&gt; For this test, you drink a barium solution. This solution coats the inside of your esophagus, allowing it to show up better on X-rays. Your doctor can then see changes in the shape of your esophagus and can assess the muscular activity. Your doctor may also have you swallow solid food or a pill coated with barium to watch the muscles in your throat as you swallow or to look for subtle blockages in your esophagus that the liquid barium solution may not identify.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dynamic swallowing study.&lt;/strong&gt; In this test, you swallow foods of different consistencies that have been coated with barium. This test provides a visual image of these foods as they travel through your mouth and down your throat. It&apos;s helpful for diagnosing oropharyngeal dysphagia because your doctor can see if there are any problems with how the muscles of your mouth and throat work when you swallow. This test can also detect if any material goes into the breathing tube (aspiration). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A visual examination of your esophagus (endoscopy).&lt;/strong&gt; A thin, flexible, lighted instrument (endoscope) is passed down your throat so that your doctor can view your esophagus. Your doctor may also do a test called a fiber-optic endoscopic evaluation of swallowing (FEES), which uses a small lighted tube (flexible laryngoscope) placed in the nose. This allows your doctor to see what&apos;s going on when you swallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal muscle test (manometry).&lt;/strong&gt; In manometry (muh-NOM-uh-tree), a small tube is inserted into your esophagus and connected to a pressure recorder. This allows measurement of the muscle contractions of your esophagus as you swallow.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for swallowing difficulties is often tailored to the particular type or cause of your swallowing disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oropharyngeal dysphagia&lt;/strong&gt; &lt;br /&gt;
+For oropharyngeal dysphagia, your doctor may refer you to a speech or swallowing therapist, and therapy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercises.&lt;/strong&gt; Certain exercises may help coordinate your swallowing muscles or restimulate the nerves that trigger the swallowing reflex.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learning swallowing techniques.&lt;/strong&gt; You may also learn simple ways to place food in your mouth or to position your body and head to help you swallow successfully.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Esophageal dysphagia&lt;/strong&gt; &lt;br /&gt;
+Treatment approaches for esophageal dysphagia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal dilation.&lt;/strong&gt; For a tight esophageal sphincter (achalasia) or an esophageal stricture, your doctor may use an endoscope with a special balloon attached to gently stretch and expand the width of your esophagus or pass a flexible tube or tubes to stretch the esophagus (dilatation).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; For an esophageal tumor, achalasia or pharyngeal diverticula, you may need surgery to clear your esophageal path.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Difficulty swallowing associated with GERD can be treated with prescription oral medications to reduce stomach acid. You may need to take these medications for an extended period of time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have esophageal spasm but your esophagus appears normal and without GERD, you may be treated with medications to relax your esophagus and reduce discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe dysphagia&lt;/strong&gt; &lt;br /&gt;
+If difficulty swallowing prevents you from eating and drinking adequately, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Special liquid diets.&lt;/strong&gt; This may help you maintain a healthy weight and avoid dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Feeding tube.&lt;/strong&gt; In severe cases of dysphagia, you may need a feeding tube to bypass the part of your swallowing mechanism that isn&apos;t working normally.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are things you can try at home that may help ease your symptoms, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Change your eating habits.&lt;/strong&gt; Try eating smaller, more-frequent meals. Be sure to cut your food into smaller pieces, and eat at a slower pace.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try foods with different textures&lt;/strong&gt; to see if certain ones cause you more trouble. Thin liquids, such as coffee and juice, are a problem for some people. And sticky foods, such as peanut butter or caramel, can make swallowing difficult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol, tobacco and caffeine,&lt;/strong&gt; because these can make heartburn worse. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with swallowing difficulties can be challenging. Dysphagia may affect your interaction with friends and family, your productivity at work, and the overall quality of your life. 
+&lt;/p&gt;
+&lt;p&gt;
+You may find that talking to a counselor or therapist can help you cope with the effects of swallowing difficulties. Or you may find encouragement and understanding in a support group. 
+&lt;/p&gt;
+&lt;p&gt;
+Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about the latest treatments and tend to share their own experiences. If you&apos;re interested, your doctor may be able to recommend a support group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although swallowing difficulties can&apos;t be prevented, especially when the cause is neurological in origin, you can reduce your risk of occasional difficulty swallowing by eating slowly and chewing your food well. Early detection and effective treatment of GERD can lower your risk of developing dysphagia associated with an esophageal stricture. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Difficulty swallowing
+	</Title>
+	<Abstract>
+		Difficulty swallowing &amp;mdash; Comprehensive overview covers causes, treatment of this potentially serious condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01208" LinkType="Internal" ObjectID="FCC5AED0-BABC-909A-06AABAF8B6297351" Title="Esophageal manometry" Url="http://www.mayoclinic.com/health/esophageal-manometry/MY01208" />
+	</RelatedLinksBox>
+</Disease>

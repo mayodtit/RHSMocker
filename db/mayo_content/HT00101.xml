@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00101
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00101
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2156" Title="Cosmetics">
+						<Keyword MCVID="3127" Title="Unwanted fat deposits" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9B648AFC-E7FF-0DBD-16A20FAB37C9C8DD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cellulite
+			</MetaKeyword>
+			<MetaKeyword>
+				cellulite treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Skip the cellulite creams
+	</Title>
+	<Body>
+		&lt;p&gt;Can creams get rid of cellulite, that cottage-cheese-like skin on your thighs, hips or back side? Unfortunately, no. Most of them don&apos;t live up to their claims. The best treatment is probably weight loss. Losing pounds and strengthening the muscles in your legs and rear can improve the appearance of dimpled skin.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,504 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00082
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/food-allergy/DS00082
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-11
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1E0A2C7F-0EC5-4D61-89FFDF856F37C207
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				food allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic shock
+			</MetaKeyword>
+			<MetaKeyword>
+				milk allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				wheat allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				peanut allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				shrimp allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				egg allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				nut allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				shellfish allergy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food allergy is an immune system reaction that occurs soon after eating a certain food. Even a tiny amount of the allergy-causing food can trigger signs and symptoms such as digestive problems, hives or swollen airways. In some people, a food allergy can cause severe symptoms or even a life-threatening reaction known as anaphylaxis. 
+&lt;/p&gt;
+&lt;p&gt;
+Food allergy affects an estimated 6 to 8 percent of children under age 5, and about 3 to 4 percent of adults. While there&apos;s no cure, some children outgrow their food allergy as they get older. It&apos;s easy to confuse a food allergy with a much more common reaction known as food intolerance. While bothersome, food intolerance is a less serious condition that does not involve the immune system. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For some people, an allergic reaction to a particular food may be uncomfortable but not severe. For other people, an allergic food reaction can be frightening and even life-threatening. Food allergy symptoms usually develop within a few minutes to two hours after eating the offending food. Food allergies can occur even the first time you eat a food. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common food allergy symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling or itching in the mouth&lt;/li&gt;
+	&lt;li&gt;Hives, itching or eczema&lt;/li&gt;
+	&lt;li&gt;Swelling of the lips, face, tongue and throat, or other parts of the body&lt;/li&gt;
+	&lt;li&gt;Wheezing, nasal congestion or trouble breathing&lt;/li&gt;
+	&lt;li&gt;Abdominal pain, diarrhea, nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anaphylaxis&lt;/strong&gt;&lt;br /&gt;
+In some people, a food allergy can trigger a severe allergic reaction called anaphylaxis. This can cause life-threatening symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constriction and tightening of airways&lt;/li&gt;
+	&lt;li&gt;A swollen throat or the sensation of a lump in your throat that makes it difficult to breathe&lt;/li&gt;
+	&lt;li&gt;Shock, with a severe drop in blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Emergency treatment is critical for anaphylaxis. Untreated, anaphylaxis can cause a coma or death. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Exercise-induced food allergy&lt;/strong&gt;&lt;br /&gt;
+Some people have an allergic reaction to a food triggered by exercise. Eating certain foods may cause you to feel itchy and lightheaded soon after you start exercising. In serious cases, an exercise-induced food allergy can cause reactions such as hives or anaphylaxis. Not eating for a couple of hours before exercising and avoiding certain foods may help prevent this problem. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pollen-food allergy syndrome&lt;/strong&gt;&lt;br /&gt;
+In many people who have hay fever, fresh fruits and vegetables and certain nuts and spices can trigger an allergic reaction that causes the mouth to tingle or itch. In some people, pollen-food allergy syndrome &amp;mdash; sometimes called oral allergy syndrome &amp;mdash; can cause swelling of the throat or even anaphylaxis. This is an example of cross-reactivity. Proteins in fruits and vegetables cause the reaction because they&apos;re similar to those allergy-causing proteins found in certain pollens. For example, if you&apos;re allergic to ragweed, you may also react to melons; if you&apos;re allergic to birch pollen, you may also react to apples. Cooking fruits and vegetables can help you avoid this reaction. Most cooked fruits and vegetables generally don&apos;t cause cross-reactive oral allergy symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Common cross-reactivity between pollens and fruits and vegetables: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;20%&quot;&gt;If you are allergic to&lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Birch pollen&lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Ragweed pollen&lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Grasses&lt;/th&gt;&lt;th width=&quot;20%&quot;&gt;Mugwort pollen&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td class=&quot;bodycelldg&quot;&gt;&lt;strong&gt;You may also have a reaction to:&lt;/strong&gt;&lt;/td&gt;
+			&lt;td class=&quot;bodycelldg&quot;&gt;Apples&lt;br /&gt;
+			Carrots&lt;br /&gt;
+			Celery&lt;br /&gt;
+			Hazelnuts&lt;br /&gt;
+			Peaches&lt;br /&gt;
+			Pears&lt;br /&gt;
+			Raw potatoes&lt;/td&gt;
+			&lt;td class=&quot;bodycelldg&quot;&gt;Bananas&lt;br /&gt;
+			Melons&lt;br /&gt;
+			(cantaloupe, honeydew and watermelon) Tomatoes&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td class=&quot;bodycelldg&quot;&gt;Tomatoes &lt;/td&gt;
+			&lt;td class=&quot;bodycelldg&quot;&gt;Apples&lt;br /&gt;
+			Carrots&lt;br /&gt;
+			Celery&lt;br /&gt;
+			Kiwi fruit&lt;br /&gt;
+			Peanuts&lt;br /&gt;
+			Some spices (caraway seeds, parsley, coriander, anise seeds, fennel seeds)&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See a doctor or allergist if you have food allergy symptoms shortly after eating. If possible, see your doctor when the allergic reaction is occurring. This will help your doctor make a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency treatment if you develop any signs or symptoms of anaphylaxis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constriction of airways that makes it difficult to breathe&lt;/li&gt;
+	&lt;li&gt;Shock, with a severe drop in blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you have a food allergy, your immune system mistakenly identifies a specific food or a substance in food as something harmful. Your immune system triggers cells to release antibodies known as immunoglobulin E (IgE) antibodies to neutralize the culprit food or food substance (the allergen). The next time you eat even the smallest amount of that food, the IgE antibodies sense it and signal your immune system to release a chemical called histamine, as well as other chemicals, into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+These chemicals cause a range of allergy signs and symptoms. They are responsible for causing allergic responses that include dripping nose, itchy eyes, dry throat, rashes and hives, nausea, diarrhea, labored breathing, and even anaphylactic shock. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The majority of food allergies are triggered by certain proteins in:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shellfish, such as shrimp, lobster and crab&lt;/li&gt;
+	&lt;li&gt;Peanuts&lt;/li&gt;
+	&lt;li&gt;Tree nuts, such as walnuts and pecans&lt;/li&gt;
+	&lt;li&gt;Fish&lt;/li&gt;
+	&lt;li&gt;Eggs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;In children, food allergies are commonly triggered by proteins in:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eggs&lt;/li&gt;
+	&lt;li&gt;Milk&lt;/li&gt;
+	&lt;li&gt;Peanuts&lt;/li&gt;
+	&lt;li&gt;Tree nuts&lt;/li&gt;
+	&lt;li&gt;Wheat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Chocolate, long thought by some parents to cause food allergies in children, rarely triggers a food allergy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Food intolerance and other reactions&lt;/strong&gt;&lt;br /&gt;
+There are a number of reactions to food that cause similar symptoms to a food allergy. Depending on the type of food intolerance you have, you may be able to eat small amounts of problem foods without a reaction. By contrast, if you have a true food allergy, even a tiny amount of food may trigger an allergic reaction. Because a food intolerance may involve some of the same signs and symptoms as a food allergy does &amp;mdash; such as nausea, vomiting, cramping and diarrhea &amp;mdash; people may confuse the two. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the tricky aspects of diagnosing food intolerance is that some people are sensitive not to the food itself but to a substance or ingredient used in the preparation of the food. 
+&lt;/p&gt;
+&lt;p&gt;
+Common conditions that can cause symptoms mistaken for a food allergy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Absence of an enzyme needed to fully digest a food.&lt;/strong&gt; You may not have adequate amounts of some enzymes needed to digest certain foods. Insufficient quantities of the enzyme lactase, for example, reduces your ability to digest lactose, the main sugar in milk products. Lactose intolerance can cause bloating, cramping, diarrhea and excess gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food poisoning.&lt;/strong&gt; Sometimes food poisoning can mimic an allergic reaction. Bacteria in spoiled tuna and other fish also can make a toxin that triggers harmful reactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensitivity to food additives.&lt;/strong&gt; Some people have digestive reactions and other symptoms after eating certain food additives. For example, sulfites used to preserve dried fruit, canned goods and wine can trigger asthma attacks in sensitive people. Other food additives that could trigger severe reactions include monosodium glutamate (MSG), artificial sweeteners and food colorings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurring stress or psychological factors.&lt;/strong&gt; Sometimes the mere thought of a food may make you sick. The reason is not fully understood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Celiac disease.&lt;/strong&gt; While celiac disease is sometimes referred to as a gluten allergy, it isn&apos;t a true food allergy. Like a food allergy, it does involve an immune system response, but it&apos;s a unique immune system reaction that&apos;s more complex than a simple food allergy. This chronic digestive condition is triggered by eating gluten, a protein found in bread, pasta, cookies, and many other foods containing wheat, barley or rye. If you have celiac disease and eat foods containing gluten, an immune reaction occurs that causes damage to the surface of your small intestine, leading to an inability to absorb certain nutrients.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food allergy risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; You&apos;re at increased risk of food allergies if asthma, eczema, hives or allergies, such as hay fever, are common in your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A past food allergy.&lt;/strong&gt; Children may outgrow a food allergy, but in some cases it returns later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other allergies.&lt;/strong&gt; If you&apos;re already allergic to one food, you may be at increased risk of becoming allergic to another. Likewise, if you have other types of allergic reactions, such as hay fever or eczema, your risk of having a food allergy is greater.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Food allergies are most common in children, especially toddlers and infants. As you grow older, your digestive system matures and your body is less likely to absorb food or food components that trigger allergies. Fortunately, children typically outgrow allergies to milk, soy, wheat and eggs. Severe allergies and allergies to nuts and shellfish are more likely to be lifelong.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma.&lt;/strong&gt; Asthma and food allergy commonly occur together. When they do, both food allergy and asthma symptoms are more likely to be severe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Factors that may increase your risk of developing an anaphylactic reaction include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a history of asthma&lt;/li&gt;
+	&lt;li&gt;Being a teenager or younger&lt;/li&gt;
+	&lt;li&gt;Waiting to treat your food allergy symptoms with epinephrine&lt;/li&gt;
+	&lt;li&gt;Not having hives or other skin symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of food allergy can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylaxis.&lt;/strong&gt; This is a life-threatening allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis (eczema).&lt;/strong&gt; Food allergy may cause a skin reaction, such as eczema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Migraines.&lt;/strong&gt; Histamines, released by your immune system during an allergic reaction, have been shown to trigger migraines in some people.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While some people think food allergies are linked to childhood hyperactivity and to arthritis, there&apos;s no evidence to support this. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because doctor&apos;s appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my condition likely caused by a food allergy or another reaction?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What types of treatment are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Do you have any printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child is seeing the doctor for a food allergy, you may also want to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my child likely to outgrow his or her allergy?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the food or foods that trigger my child&apos;s allergy symptoms?&lt;/li&gt;
+	&lt;li&gt;How can I help keep my child with a food allergy safe at school?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may save time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe were your symptoms?&lt;/li&gt;
+	&lt;li&gt;How long did it take symptoms to appear after eating the food you suspect you&apos;re allergic to?&lt;/li&gt;
+	&lt;li&gt;Did you take any over-the-counter allergy medications such as antihistamines, and if so, did they help?&lt;/li&gt;
+	&lt;li&gt;Does your reaction always seem to be triggered by a certain food?&lt;/li&gt;
+	&lt;li&gt;How much food did you eat before the reaction?&lt;/li&gt;
+	&lt;li&gt;Was the food that caused the reaction cooked or raw?&lt;/li&gt;
+	&lt;li&gt;Do you know how the food was prepared?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you suspect you have a food allergy, avoid exposure to the food altogether until your doctor&apos;s appointment. If you do eat the food and have a mild reaction, over-the-counter antihistamines may help relieve symptoms. If you have a more severe reaction and any signs and symptoms of anaphylaxis, seek emergency help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no standard test used to confirm or rule out a food allergy. Your doctor will consider a number of things before making a diagnosis. The following may help determine if you&apos;re allergic to a food or if your symptoms are caused by something else: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Description of your symptoms.&lt;/strong&gt; Be prepared to tell your doctor a history of your symptoms &amp;mdash; which foods, and how much, seem to cause problems &amp;mdash; and whether you have a family history of food allergies or other allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; A careful exam can identify or exclude other medical problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food diary.&lt;/strong&gt; Your doctor may ask you to keep a food diary of your eating habits, symptoms and medications to pinpoint the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; A skin prick test can determine your reaction to a particular food. In this test, a small amount of the suspected food is placed on the skin of your forearm or back. Your skin is then pricked with a needle, to allow a tiny amount of the substance beneath your skin surface. If you&apos;re allergic to a particular substance being tested, you develop a raised bump or reaction. Keep in mind, a positive reaction to this test alone isn&apos;t enough to confirm a food allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elimination diet.&lt;/strong&gt; You may be asked to eliminate suspect foods for a week or two, and then add the food items back into your diet one at a time. This process can help link symptoms to specific foods. However, this isn&apos;t a foolproof method. Psychological factors as well as physical factors can come into play. For example, if you think you&apos;re sensitive to a food, a response could be triggered that may not be a true allergic one. If you&apos;ve had a serve reaction to a food in the past, this method may not be safe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A blood test can measure your immune system&apos;s response to particular foods by checking the amount of allergy-type antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. For this test, a blood sample taken in your doctor&apos;s office is sent to a medical laboratory, where different foods can be tested. However, these blood tests aren&apos;t always accurate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral food challenge.&lt;/strong&gt; During this test, done in the doctor&apos;s office, you&apos;ll be given small, but increasing amounts of the suspect food. If you don&apos;t have a reaction during this test, you may be able to include this food in your diet again.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only way to avoid an allergic reaction is to avoid the foods that cause signs and symptoms. However, despite your best efforts, you may come into contact with a food that causes a reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For a minor allergic reaction,&lt;/strong&gt; over-the-counter or prescribed antihistamines may help reduce symptoms. These drugs can be taken after exposure to an allergy-causing food to help relieve itching or hives. However, antihistamines can&apos;t treat a severe allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For a severe allergic reaction,&lt;/strong&gt; you may need an emergency injection of epinephrine and a trip to the emergency room. Many people with allergies carry an epinephrine autoinjector (EpiPen, EpiPen Jr, Twinject). This device is a combined syringe and concealed needle that injects a single dose of medication when pressed against your thigh. If your doctor has prescribed an epinephrine autoinjector: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Carry it with you at all times. It may be a good idea to keep an extra autoinjector in your car or in your desk at work.&lt;/li&gt;
+	&lt;li&gt;Always be sure to replace epinephrine before its expiration date, or it may not work properly.&lt;/li&gt;
+	&lt;li&gt;Be sure you know how to use the autoinjector. Also, make sure the people closest to you know how to administer the drug &amp;mdash; if they&apos;re with you in an anaphylactic emergency, they could save your life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Experimental treatments&lt;/strong&gt;&lt;br /&gt;
+While there&apos;s ongoing research to find better treatments to reduce food allergy symptoms and prevent allergy attacks, there isn&apos;t any proven treatment that can prevent or completely relieve symptoms. Unfortunately allergy shots (immunotherapy), a series of injections used to reduce the effect of other allergies such as hay fever, aren&apos;t effective for treating food allergies. Two treatments that have shown some promise are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-IgE therapy.&lt;/strong&gt; The medication omalizumab (Xolair) interferes with the body&apos;s ability to use IgE. The drug is currently being studied for treatment of allergic asthma and food allergies. However, this treatment is still considered experimental and more research needs to be done on the drug&apos;s long-term safety. It has been associated with a potential increased risk of anaphylaxis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral immunotherapy.&lt;/strong&gt; Researchers have been studying the use of oral immunotherapy (OIT) as a treatment for food allergy. Small doses of the food you&apos;re allergic to are swallowed or placed under your tongue (sublingual). The dose of the allergy-provoking food is gradually increased. Initial results look promising, even in people with peanut allergy. But, more research needs to be done to ensure that this treatment is safe.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the keys to preventing an allergic reaction is to completely avoid the food that causes your symptoms. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t assume.&lt;/strong&gt; Always read food labels to make sure they don&apos;t contain an ingredient you&apos;re allergic to. Even if you think you know what&apos;s in a food, check the label. Ingredients sometimes change. Food labels are required to clearly list whether they contain any common food allergens. Read food labels carefully to avoid these top eight sources of food allergens: milk, eggs, peanuts, tree nuts, fish, shellfish, soy and wheat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When in doubt, say no thanks.&lt;/strong&gt; At restaurants and social gatherings, you&apos;re always taking a risk that you might eat a food you&apos;re allergic to. Many people don&apos;t understand the seriousness of an allergic food reaction and may not realize that a tiny amount of a food can cause a severe reaction in some people. If you have any suspicion at all that a food may contain something you&apos;re allergic to, steer clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Involve caregivers.&lt;/strong&gt; If your child has a food allergy, enlist the help of relatives, baby sitters, teachers and other caregivers. Make sure they understand how important it is for your child to avoid the allergy-causing food and that they know what to do in an emergency. It&apos;s also important to let caregivers know what steps they can take to prevent a reaction in the first place, such as careful hand-washing, and cleaning any surfaces that might have come in contact with the allergy-causing food.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Research on alternative food allergy treatments is limited. However, many people do try them and claim that certain treatments help. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies.&lt;/strong&gt; A few small studies of herbal remedies have shown some benefit in reducing symptoms and preventing anaphylaxis, including some Chinese medicine formulas. However, there&apos;s no reliable proof yet that these work. In addition, there are concerns about the quality of some herbal preparations from China. If you do take an herbal remedy, be sure to tell your doctor about it. It may affect test results or interact with other medications you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture and acupressure.&lt;/strong&gt; There&apos;s little academic research on acupuncture for food allergies, and the studies that do exist don&apos;t show a clear benefit from these techniques. If you decide to try one of these treatments, be sure you work with an experienced and certified provider.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Special diets.&lt;/strong&gt; In the past, &quot;rotating diets&quot; that have you avoid certain foods at certain times were tried as a food allergy treatment. There&apos;s no evidence that this or other such diets are an effective food allergy treatment. The only food strategy proved to work is complete avoidance of the allergy-causing food.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A food allergy can be challenging and a source of ongoing concern. Having a good source of information and the opportunity to discuss the condition with others who share your concerns can be very helpful. A number of Internet sites and nonprofit organizations offer information and forums for discussing food allergies. Some are specifically for parents of children with food allergies. The Food Allergy and Anaphylaxis website can direct you to support groups and events in your area. Many people find it helpful to talk to others who are dealing with the same challenges. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent an allergic reaction is to know and avoid foods that cause signs and symptoms. For some people, this is a mere inconvenience, but others find it a greater hardship. Also some foods &amp;mdash; when used as ingredients in certain dishes &amp;mdash; may be well hidden. This is especially true in restaurants and in other social settings. 
+&lt;/p&gt;
+&lt;p&gt;
+If you know you have a food allergy, follow these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what you&apos;re eating and drinking.&lt;/strong&gt; Be sure to read food labels carefully.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have already had a severe reaction&lt;/strong&gt;, wear a medical alert bracelet or necklace that lets others know that you have a food allergy in case you have a reaction and you&apos;re unable to communicate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with your doctor about prescribing emergency epinephrine.&lt;/strong&gt; You may need to carry an epinephrine autoinjector (EpiPen, EpiPen Jr, Twinject) if you&apos;re at risk of a severe allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be careful at restaurants.&lt;/strong&gt; Be certain your server or chef is aware that you absolutely can&apos;t eat the food you&apos;re allergic to, and you need to be completely certain that the meal you order doesn&apos;t contain it. Also, make sure food isn&apos;t prepared on surfaces or in pans that contained any of the food you&apos;re allergic to. Don&apos;t be reluctant to make your needs known. Restaurant staff members are usually more than happy to help when they clearly understand your request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child has a food allergy, take these precautions to ensure his or her safety: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Notify key people that your child has a food allergy.&lt;/strong&gt; Talk with child care providers, school personnel, parents of your child&apos;s friends and other adults who regularly interact with your child. Emphasize that an allergic reaction can be life-threatening and requires immediate action. Make sure that your child also knows to ask for help right away if he or she reacts to food.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Explain food allergy symptoms.&lt;/strong&gt; Teach the adults who spend time with your child how to recognize signs and symptoms of an allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write an action plan.&lt;/strong&gt; Your plan should describe how to care for your child when he or she has an allergic reaction to food. Provide a copy of the plan to your child&apos;s school nurse and others who care for and supervise your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have your child wear a medical alert bracelet or necklace.&lt;/strong&gt; This alert lists your child&apos;s allergy symptoms and explains how others can provide first aid in an emergency.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Food allergy
+	</Title>
+	<Abstract>
+		Food allergy &amp;mdash; Comprehensive overview covers symptoms, testing and treatment of this troublesome food reaction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="HQ01514" LinkType="Internal" ObjectID="C199612D-8333-47C0-94783CE38BF24864" Title="Allergy-proof your house" Url="http://www.mayoclinic.com/health/allergy/HQ01514" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="Disease" DocID="DS01021" LinkType="Internal" ObjectID="D0EEF86A-E7FF-0DBD-155BE91044E19B22" Title="Egg allergy" Url="http://www.mayoclinic.com/health/egg-allergy/DS01021" />
+		<LinkItem ContentType="Disease" DocID="DS00710" LinkType="Internal" ObjectID="AE99601C-2A5D-9994-ECE356AE1626F0C8" Title="Peanut allergy" Url="http://www.mayoclinic.com/health/peanut-allergy/DS00710" />
+		<LinkItem ContentType="Disease" DocID="DS01002" LinkType="Internal" ObjectID="98273531-E7FF-0DBD-1DA86A236FF4A88B" Title="Wheat allergy" Url="http://www.mayoclinic.com/health/wheat-allergy/DS01002" />
+		<LinkItem ContentType="Disease" DocID="DS00970" LinkType="Internal" ObjectID="70D6A637-E7FF-0DBD-1ED34CD98A3AA8AB" Title="Soy allergy" Url="http://www.mayoclinic.com/health/soy-allergy/DS00970" />
+		<LinkItem ContentType="Disease" DocID="DS01008" LinkType="Internal" ObjectID="4E62AEE9-E7FF-0DBD-153FDCB25ABCA7F7" Title="Milk allergy" Url="http://www.mayoclinic.com/health/milk-allergy/DS01008" />
+		<LinkItem ContentType="Disease" DocID="DS00987" LinkType="Internal" ObjectID="23BD6FA5-E7FF-0DBD-105A9B73D9F4D4F4" Title="Shellfish allergy" Url="http://www.mayoclinic.com/health/shellfish-allergy/DS00987" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Answer" DocID="AN01679" LinkType="Internal" ObjectID="1E26541F-E7FF-0DBD-1CD540E561EE18C2" Title="Candida cleanse diet: What does it treat?" Url="http://www.mayoclinic.com/health/candida-cleanse/AN01679" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,638 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00328
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-cancer/DS00328
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-29
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2375" Title="Breast cancer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B105D3F6-BFE9-4D89-A5E53914589F7E86
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				breastcancer
+			</MetaKeyword>
+			<MetaKeyword>
+				brest cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer risk
+			</MetaKeyword>
+			<MetaKeyword>
+				breast MRI
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast cancer is cancer that forms in the cells of the breasts. There are numerous types of breast cancer, but cancer that begins in the milk ducts (ductal carcinoma) is the most common type. 
+&lt;/p&gt;
+&lt;p&gt;
+After skin cancer, breast cancer is the most common cancer diagnosed in women in the United States. Breast cancer can occur in both men and women, but it&apos;s far more common in women. 
+&lt;/p&gt;
+&lt;p&gt;
+Public support for breast cancer awareness and research funding has helped improve the diagnosis and treatment of breast cancer. Breast cancer survival rates have increased and the number of deaths has been declining, thanks to a number of factors such as earlier detection, new treatments and a better understanding of the disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="60" Title="Breast anatomy" URI="/images/image_popup/thumbs/r7_breastthu.jpg" Width="60" />
+				<Image Alt="Illustration of breast, including lymph nodes, lobules and ducts 
+" Caption="Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-feeding. Small ducts conduct the milk to a reservoir that lies just beneath your nipple. Supporting this network is a deeper layer of connective tissue called stroma. 
+" Height="300" Title="Breast anatomy" URI="/images/image_popup/r7_breast.jpg" Width="400" />
+				<HTML>
+					Each of your breasts contains 15 to 20 lobes of glandular tissue, arranged like the petals of a daisy. The lobes are further divided into smaller lobules that produce milk during pregnancy and breast-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of breast cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A breast lump or thickening that feels different from the surrounding tissue&lt;/li&gt;
+	&lt;li&gt;Bloody discharge from the nipple&lt;/li&gt;
+	&lt;li&gt;Change in the size or shape of a breast&lt;/li&gt;
+	&lt;li&gt;Changes to the skin over the breast, such as dimpling&lt;/li&gt;
+	&lt;li&gt;Inverted nipple&lt;/li&gt;
+	&lt;li&gt;Peeling, scaling or flaking of the nipple or breast skin&lt;/li&gt;
+	&lt;li&gt;Redness or pitting of the skin over your breast, like the skin of an orange&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Although the majority of breast changes don&apos;t turn out to be cancer, make an appointment to see your doctor if you find a lump or other change in your breast. Even if you&apos;ve just had a mammogram with normal results, it&apos;s still important to have your doctor evaluate any changes. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing nipple changes 
+" Caption="Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult your doctor. 
+" Height="60" Title="Nipple changes" URI="/images/image_popup/thumbs/w7_nipplechangesthu.jpg" Width="60" />
+				<Image Alt="Image showing nipple changes 
+" Caption="Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult your doctor. 
+" Height="400" Title="Nipple changes" URI="/images/image_popup/w7_nipplechanges.jpg" Width="400" />
+				<HTML>
+					Skin crusting or nipple inversion &amp;mdash; when a nipple that wasn&apos;t inverted turns inward &amp;mdash; might be a sign of a problem with your breast. If you notice these or other breast changes, consult ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes breast cancer. Doctors know that breast cancer occurs when some breast cells begin growing abnormally. These cells divide more rapidly than healthy cells do. The accumulating cells form a tumor that may spread (metastasize) through your breast, to your lymph nodes or to other parts of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast cancer most often begins with cells in the milk-producing ducts. Doctors call this type of breast cancer invasive ductal carcinoma. Breast cancer may also begin in the milk glands known as lobules (invasive lobular carcinoma) within the breast. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers have identified things that can increase your risk of breast cancer. But it&apos;s not clear why some people who have no risk factors develop cancer, yet other people with risk factors never do. It&apos;s likely that breast cancer is caused by a complex interaction of your genetic makeup and your environment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inherited breast cancer&lt;/strong&gt; &lt;br /&gt;
+Doctors estimate that only 5 to 10 percent of breast cancers are linked to gene mutations passed through generations of a family. A number of inherited defective genes that can increase the likelihood of breast cancer have been identified. The most common are breast cancer gene 1 (BRCA1) and breast cancer gene 2 (BRCA2), both of which increase the risk of both breast and ovarian cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a strong family history of breast cancer or other cancers, blood tests may help identify defective BRCA or other genes that are being passed through your family. Consider asking your doctor for a referral to a genetic counselor, who can review your family health history. A genetic counselor can also discuss the benefits, risks and limitations of genetic testing with you. It&apos;s important to remember that the genetic tests help to identify a high-risk individual or family, but they don&apos;t definitively predict who will or will not get breast cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how cancer develops 
+" Caption="Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The abnormal cells may continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer or, eventually, invasive cancer. Invasive cancer can spread to other areas of the body through the bloodstream or the lymphatic system. 
+" Height="60" Title="How cancer develops" URI="/images/image_popup/thumbs/br7_cancerdevelopmentthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how cancer develops 
+" Caption="Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The abnormal cells may continue to change in appearance and multiply, evolving into noninvasive (in situ) cancer or, eventually, invasive cancer. Invasive cancer can spread to other areas of the body through the bloodstream or the lymphatic system. 
+" Height="214" Title="How cancer develops" URI="/images/image_popup/br7_cancerdevelopment.jpg" Width="400" />
+				<HTML>
+					Cancer begins as a cluster of normal cells (hyperplasia). Over time, the cells can develop abnormalities (atypical hyperplasia) that make them different from normal cells, but not yet cancerous. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A risk factor is anything that makes it more likely you&apos;ll get a particular disease. But having one or even several risk factors doesn&apos;t necessarily mean you&apos;ll develop cancer &amp;mdash; many women who develop breast cancer have no known risk factors other than simply being women. 
+&lt;/p&gt;
+&lt;p&gt;
+Factors that are associated with an increased risk of breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women are much more likely than men are to develop breast cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; Your risk of breast cancer increases as you age. Women older than 55 have a greater risk than do younger women. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A personal history of breast cancer.&lt;/strong&gt; If you&apos;ve had breast cancer in one breast, you have an increased risk of developing cancer in the other breast. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history of breast cancer.&lt;/strong&gt; If you have a mother, sister or daughter with breast cancer, you have a greater chance of being diagnosed with breast cancer. Still, the majority of people diagnosed with breast cancer have no family history of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited genes that increase cancer risk.&lt;/strong&gt; Certain gene mutations that increase the risk of breast cancer can be passed from parents to children. The most common gene mutations are referred to as BRCA1 and BRCA2. These genes can greatly increase your risk of breast cancer and other cancers, but they don&apos;t make cancer inevitable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation exposure.&lt;/strong&gt; If you received radiation treatments to your chest as a child or young adult, you&apos;re more likely to develop breast cancer later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being overweight or obese increases your risk of breast cancer because fat tissue produces estrogen that may help fuel certain cancers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beginning your period at a younger age.&lt;/strong&gt; Beginning your period before age 12 increases your risk of breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beginning menopause at an older age.&lt;/strong&gt; If you began menopause after age 55, you&apos;re more likely to develop breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having your first child at an older age.&lt;/strong&gt; Women who give birth to their first child after age 35 may have an increased risk of breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Postmenopausal hormone therapy.&lt;/strong&gt; Women who take hormone therapy medications that combine estrogen and progesterone to treat the signs and symptoms of menopause have an increased risk of breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol.&lt;/strong&gt; Drinking alcohol increases the risk of breast cancer. Experts recommend no more than one alcoholic beverage a day for women.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other risk factors that have been suggested, but don&apos;t play any role in the development of breast cancer include tightfitting bras, antiperspirants, breast implants and shift work. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Consulting with your health care team&lt;/strong&gt; &lt;br /&gt;
+Women with breast cancer may have appointments with their primary care doctors, as well as several other doctors and other health professionals, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast surgeons&lt;/li&gt;
+	&lt;li&gt;Doctors who specialize in diagnostic tests, such as mammograms (radiologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who specialize in treating cancer (oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat cancer with radiation (radiation oncologists)&lt;/li&gt;
+	&lt;li&gt;Genetic counselors&lt;/li&gt;
+	&lt;li&gt;Plastic surgeons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do to prepare&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your family history of cancer.&lt;/strong&gt; Note any family members who have had cancer, including how each member is related to you, the type of cancer, the age at diagnosis and whether each person survived.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep all of your records&lt;/strong&gt; that relate to your cancer diagnosis and treatment. Organize your records in a binder or folder that you can take to your appointments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For breast cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of breast cancer do I have?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my cancer?&lt;/li&gt;
+	&lt;li&gt;Can you explain my pathology report to me? Can I have a copy for my records?&lt;/li&gt;
+	&lt;li&gt;Do I need any more tests?&lt;/li&gt;
+	&lt;li&gt;What treatment options are available for me?&lt;/li&gt;
+	&lt;li&gt;What are the benefits from each treatment you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Will treatment cause menopause?&lt;/li&gt;
+	&lt;li&gt;How will each treatment affect my daily life? Can I continue working?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you recommend over the others?&lt;/li&gt;
+	&lt;li&gt;How do you know that these treatments will benefit me?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;How quickly do I need to make a decision about cancer treatment?&lt;/li&gt;
+	&lt;li&gt;What happens if I don&apos;t want cancer treatment?&lt;/li&gt;
+	&lt;li&gt;What will cancer treatment cost?&lt;/li&gt;
+	&lt;li&gt;Does my insurance plan cover the tests and treatment you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion? Will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites or books do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that may occur to you during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing breast cancer&lt;/strong&gt; &lt;br /&gt;
+Tests and procedures used to diagnose breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breast exam.&lt;/strong&gt; Your doctor will check both of your breasts, feeling for any lumps or other abnormalities. Your doctor will likely check your breasts in varying positions, such as with your arms above your head and at your side.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mammogram.&lt;/strong&gt; A mammogram is an X-ray of the breast. Mammograms are commonly used to screen for breast cancer. If an abnormality is detected on a screening mammogram, your doctor may recommend a diagnostic mammogram to further evaluate that abnormality.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast ultrasound.&lt;/strong&gt; Ultrasound uses sound waves to produce images of structures deep within the body. Your doctor may recommend an ultrasound to help determine whether a breast abnormality is likely to be a fluid-filled cyst or a solid mass, which may be either benign or cancerous. Breast ultrasound is helpful to guide radiologic biopsy to get a sample of breast tissue if a solid mass is found.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of breast cells for testing (biopsy).&lt;/strong&gt; A biopsy to remove a sample of the suspicious breast cells helps determine whether cells are cancerous. The sample is sent to a laboratory for testing. A biopsy sample is also analyzed to determine the type of cells involved in the breast cancer, the aggressiveness (grade) of the cancer and whether the cancer cells have hormone receptors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breast magnetic re&lt;/strong&gt;&lt;strong&gt;sonance imaging (MRI).&lt;/strong&gt; An MRI machine uses a magnet and radio waves to create pictures of the interior of your breast. Before a breast MRI, you receive an injection of dye. This test may be ordered after a breast biopsy confirms cancer, but before surgery to give your doctor an idea of the extent of the cancer and to see if there&apos;s any evidence of cancer in the other breast.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other tests and procedures may be used depending on your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging breast cancer&lt;/strong&gt; &lt;br /&gt;
+Once your doctor has diagnosed your breast cancer, he or she works to establish the extent (stage) of your cancer. Your cancer&apos;s stage helps determine your prognosis and the best treatment options. Complete information about your cancer&apos;s stage may not be available until after you undergo breast cancer surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests and procedures used to stage breast cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood tests, such as a complete blood count&lt;/li&gt;
+	&lt;li&gt;Mammogram of the other breast to look for signs of cancer&lt;/li&gt;
+	&lt;li&gt;Chest X-ray&lt;/li&gt;
+	&lt;li&gt;Breast MRI&lt;/li&gt;
+	&lt;li&gt;Bone scan&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT) scan&lt;/li&gt;
+	&lt;li&gt;Positron emission tomography (PET) scan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Not all women will need all of these tests and procedures. Your doctor selects the appropriate tests based on your specific circumstances. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast cancer stages range from 0 to IV, with 0 indicating cancer that is very small and noninvasive. Stage IV breast cancer, also called metastatic breast cancer, indicates cancer that has spread to other areas of the body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of breast calcifications on mammogram 
+" Caption="Calcifications are small calcium deposits in the breast that show up as white spots on a mammogram. Large, round, well-defined calcifications (left column) are more likely to be noncancerous (benign). Tight clusters of tiny, irregularly shaped calcifications (right column) may indicate cancer.
+" Height="60" Title="Breast calcifications" URI="/images/image_popup/thumbs/ans7_breastcalcificationsth.jpg" Width="60" />
+				<Image Alt="Image of breast calcifications on mammogram 
+" Caption="Calcifications are small calcium deposits in the breast that show up as white spots on a mammogram. Large, round, well-defined calcifications (left column) are more likely to be noncancerous (benign). Tight clusters of tiny, irregularly shaped calcifications (right column) may indicate cancer.
+" Height="612" Title="Breast calcifications" URI="/images/image_popup/ans7_breastcalcifications.jpg" Width="400" />
+				<HTML>
+					Calcifications are small calcium deposits in the breast that show up as white spots on a mammogram. Large, round, well-defined calcifications (left column) are more likely to be noncancerous (benign)....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of core needle biopsy for breast cancer 
+" Caption="A core needle biopsy uses a long, hollow tube to extract a core of tissue. Here, a biopsy of a suspicious breast lump is being done. The core is sent to a laboratory for testing. 
+" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/w7_corebiopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of core needle biopsy for breast cancer 
+" Caption="A core needle biopsy uses a long, hollow tube to extract a core of tissue. Here, a biopsy of a suspicious breast lump is being done. The core is sent to a laboratory for testing. 
+" Height="297" Title="Core needle biopsy" URI="/images/image_popup/w7_corebiopsy.jpg" Width="400" />
+				<HTML>
+					A core needle biopsy uses a long, hollow tube to extract a core of tissue. Here, a biopsy of a suspicious breast lump is being done. The core is sent to a laboratory for testing. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor determines your breast cancer treatment options based on your type of breast cancer, its stage, whether the cancer cells are sensitive to hormones, your overall health and your own preferences. Most women undergo surgery for breast cancer and also receive additional treatment, such as chemotherapy, hormone therapy or radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+There are many options for breast cancer treatment, and you may feel overwhelmed as you make complex decisions about your treatment. Consider seeking a second opinion from a breast specialist in a breast center or clinic. Talk to other women who have faced the same decision. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Breast cancer surgery&lt;/strong&gt; &lt;br /&gt;
+Operations used to treat breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the breast cancer (lumpectomy).&lt;/strong&gt; During lumpectomy, which may be referred to as breast-sparing surgery or wide local excision, the surgeon removes the tumor and a small margin of surrounding healthy tissue. Lumpectomy is typically reserved for smaller tumors that are easily separated from the surrounding tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the entire breast (mastectomy).&lt;/strong&gt; Mastectomy is surgery to remove all of your breast tissue. Mastectomy can be simple, meaning the surgeon removes all of the breast tissue &amp;mdash; the lobules, ducts, fatty tissue and some skin, including the nipple and areola. Or mastectomy can be radical, meaning the underlying muscle of the chest wall is removed along with breast tissue and surrounding lymph nodes in the armpit. Radical mastectomies are less commonly done today. Some women may be able to undergo a skin-sparing mastectomy, which leaves the skin overlying the breast intact and may help with reconstruction options. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing one lymph node (sentinel node biopsy).&lt;/strong&gt; Breast cancer that spreads to the lymph nodes may spread to other areas of the body. Your surgeon determines which lymph node near your breast tumor receives the lymph drainage from your cancer. This lymph node is removed using a procedure called sentinel node biopsy and tested for breast cancer cells. If no cancer is found, the chance of finding cancer in any of the remaining lymph nodes is small and no other nodes need to be removed.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Removing several lymph nodes (axillary lymph node dissection).&lt;/strong&gt; If cancer is found in the sentinel node, your surgeon may remove additional lymph nodes in your armpit. However, there is good evidence that removal of additional affected lymph nodes does not improve survival in cases of early breast cancer following a lumpectomy, chemotherapy and whole-breast irradiation for tumors less than 2 inches (5 centimeters) in size, and where the cancer has spread to just a few lymph nodes in the armpit. In such cases, chemotherapy and radiation treatment after the lumpectomy have proved to be equally effective. This avoids the serious side effects, including chronic swelling of the arm (lymphedema), that often occur after lymph node removal. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	However, axillary lymph node dissection may still be performed if the sentinel lymph node contains cancer following a mastectomy, in the case of larger breast tumors or when a lymph node is large enough to be felt on physical exam. It may also be performed in situations when a woman elects to receive partial breast irradiation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Complications of breast cancer surgery depend on the procedures you choose. Surgery carries a risk of bleeding and infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Some women choose to have breast reconstruction after surgery. Discuss your options and preferences with your surgeon. Consider a referral to a plastic surgeon before your breast cancer surgery. Your options may include reconstruction with a synthetic breast implant or reconstruction using your own tissue. These operations can be performed at the time of your mastectomy or at a later date. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered beams of energy, such as X-rays, to kill cancer cells. Radiation therapy is typically done using a large machine that aims the energy beams at your body (external beam radiation). But radiation can also be done by placing radioactive material inside your body (brachytherapy). 
+&lt;/p&gt;
+&lt;p&gt;
+External beam radiation is commonly used after lumpectomy for early-stage breast cancer. Doctors may also recommend radiation therapy after mastectomy for larger breast cancers. When external beam radiation is used after a woman has tested negative on a sentinel node biopsy, there is evidence that the chance of cancer occurring in other lymph nodes is significantly reduced. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of radiation therapy include fatigue and a red, sunburn-like rash where the radiation is aimed. Breast tissue may also appear swollen or more firm. Rarely, more-serious problems may occur, including arm swelling (lymphedema), broken ribs, and damage to the lungs or nerves. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to destroy cancer cells. If your cancer has a high chance of returning or spreading to another part of your body, your doctor may recommend chemotherapy to decrease the chance that the cancer will recur. This is known as adjuvant systemic chemotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy is sometimes given before surgery in women with larger breast tumors. Doctors call this neoadjuvant chemotherapy. The goal is to shrink a tumor to a size that makes it easier to remove with surgery. This may also increase the chance of a cure. Research is ongoing into neoadjuvant chemotherapy to determine who may benefit from this treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy is also used in women whose cancer has already spread to other parts of the body. Chemotherapy may be recommended to try to control the cancer and decrease any symptoms the cancer is causing. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy side effects depend on the drugs you receive. Common side effects include hair loss, nausea, vomiting, fatigue and a small increased risk of developing infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hormone therapy&lt;/strong&gt; &lt;br /&gt;
+Hormone therapy &amp;mdash; perhaps more properly termed hormone-blocking therapy &amp;mdash; is often used to treat breast cancers that are sensitive to hormones. Doctors sometimes refer to these cancers as estrogen receptor positive (ER positive) and progesterone receptor positive (PR positive) cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormone therapy can be used after surgery or other treatments to decrease the chance of your cancer returning. If the cancer has already spread, hormone therapy may shrink and control it. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments that can be used in hormone therapy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block hormones from attaching to cancer cells.&lt;/strong&gt; Tamoxifen is the most commonly used selective estrogen receptor modulator (SERM). SERMs act by blocking estrogen from attaching to the estrogen receptor on the cancer cells, slowing the growth of tumors and killing tumor cells. Tamoxifen can be used in both pre- and postmenopausal women. Possible side effects include fatigue, hot flashes, night sweats and vaginal dryness. More significant risks include cataracts, blood clots, stroke and uterine cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that stop the body from making estrogen after menopause.&lt;/strong&gt; One group of drugs called aromatase inhibitors blocks the action of an enzyme that converts androgens in the body into estrogen. These drugs are effective only in postmenopausal women. Aromatase inhibitors include anastrozole (Arimidex), letrozole (Femara) and exemestane (Aromasin). Side effects of aromatase inhibitors include joint and muscle pain, as well as an increased risk of bone thinning (osteoporosis). Another drug, fulvestrant (Faslodex), directly blocks estrogen, which keeps tumors from getting the estrogen they need to survive. Fulvestrant is generally used in postmenopausal women for whom other hormone-blocking therapy is not effective or who can&apos;t take tamoxifen. Side effects that may occur include fatigue, nausea and hot flashes. Fulvestrant is given by injection once a month.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery or medications to stop hormone production in the ovaries.&lt;/strong&gt; In premenopausal women, surgery to remove the ovaries or medications to stop the ovaries from making estrogen can be an effective hormonal treatment. This type of surgery is known as prophylactic oophorectomy and may be called surgical menopause.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drugs&lt;/strong&gt; &lt;br /&gt;
+Targeted drug treatments attack specific abnormalities within cancer cells. Targeted drugs approved to treat breast cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trastuzumab (Herceptin).&lt;/strong&gt; Some breast cancers make excessive amounts of a protein called human growth factor receptor 2 (HER2). Trastuzumab targets this protein that helps breast cancer cells grow and survive. If your breast cancer cells make too much HER2, trastuzumab may help block that protein and cause the cancer cells to die. Side effects may include heart damage, headaches and skin rashes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lapatinib (Tykerb).&lt;/strong&gt; Lapatinib targets the HER2 protein and is approved for use in advanced metastatic breast cancer. Lapatinib is reserved for women who have already tried trastuzumab and their cancer has progressed. Potential side effects include nausea, vomiting, diarrhea, fatigue, mouth sores, skin rashes, and painful hands and feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bevacizumab (Avastin).&lt;/strong&gt; Bevacizumab is a drug designed to stop the signals cancer cells use to attract new blood vessels. Without new blood vessels to bring oxygen and nutrients to the tumor, the cancer cells die. Possible side effects include fatigue, high blood pressure, mouth sores, headaches, slow wound healing, blood clots, heart damage, kidney damage, high blood pressure and congestive heart failure. Research suggests that although this medication may help slow the growth of breast cancer, it doesn&apos;t appear to increase survival times. For this reason, bevacizumab isn&apos;t approved by the Food and Drug Administration to treat breast cancer. But doctors may prescribe it for what&apos;s known as off-label use. Use of bevacizumab in breast cancer is controversial. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Side effects of targeted drugs depend on the drug you receive. Targeted drugs can be very expensive and aren&apos;t always covered by health insurance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are used to test new and promising agents in the treatment of cancer. Clinical trials represent the cutting edge of cancer treatment, but they&apos;re by definition unproven treatments that may or may not be superior to currently available therapies. Talk with your doctor about clinical trials to see if one is right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of treatments being studied in breast cancer clinical trials include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;New combinations of existing drugs.&lt;/strong&gt; Researchers are studying new ways of combining existing chemotherapy, hormone therapy and targeted-therapy drugs. Testing new combinations may help determine if certain breast cancers are more susceptible to specific combinations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone-building drugs to prevent breast cancer recurrence.&lt;/strong&gt; Previous research found that adding a bone-building drug to hormone therapy treatment after surgery for premenopausal women reduced the risk of breast cancer recurrence. The drug used in the study, zoledronic acid (Reclast, Zometa), is a type of drug called a bisphosphonate that&apos;s used to treat bone loss (osteoporosis) and other bone diseases. The group of women who received zoledronic acid experienced fewer cancer recurrences than did the group that didn&apos;t receive the drug during the study, which lasted four years. But, newer studies haven&apos;t shown that zoledronic acid improves breast cancer risk of recurrence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using higher doses of radiation over a shorter period of time on a smaller portion of the breast.&lt;/strong&gt; Researchers are studying partial breast irradiation in women who&apos;ve undergone lumpectomy. Partial breast irradiation involves higher doses of radiation aimed at only a portion of the breast, rather than the entire breast. Radiation used in partial breast irradiation can come from a machine outside your body, or it can come from tubes or catheters placed within the breast tissue.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="60" Title="Lumpectomy" URI="/images/image_popup/thumbs/hdg7_lumpectomyincisionthu.jpg" Width="60" />
+				<Image Alt="Images showing lumpectomy 
+" Caption="During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+" Height="204" Title="Lumpectomy" URI="/images/image_popup/hdg7_lumpectomyincision.jpg" Width="400" />
+				<HTML>
+					During a lumpectomy, your surgeon makes an incision large enough to remove the tumor and a margin of healthy tissue surrounding the tumor. The rest of your breast remains intact. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="60" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/thumbs/hdg7_simplemastectomythu.jpg" Width="60" />
+				<Image Alt="Images of simple and modified radical mastectomy 
+" Caption="A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the breast tissue, nipple, areola and skin, and most of the underarm (axillary) lymph nodes. 
+" Height="281" Title="Simple mastectomy and modified radical mastectomy" URI="/images/image_popup/hdg7_simplemastectomy.jpg" Width="400" />
+				<HTML>
+					A simple, or total, mastectomy (left) removes the breast tissue, nipple, areola and skin, but not all the lymph nodes. A modified radical mastectomy (right) removes the entire breast, including the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of radiation therapy for breast cancer 
+" Caption="External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+" Height="60" Title="Radiation therapy" URI="/images/image_popup/thumbs/mcdc7_breast_radiationthu.jpg" Width="60" />
+				<Image Alt="Illustration of radiation therapy for breast cancer 
+" Caption="External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+" Height="296" Title="Radiation therapy" URI="/images/image_popup/mcdc7_breast_radiation.jpg" Width="400" />
+				<HTML>
+					External beam radiation uses high-powered beams to kill cancer cells. Beams of radiation are precisely aimed at the breast cancer using a machine that moves around your body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no alternative medicine treatments that have been found to cure breast cancer. What&apos;s more, some alternative medicine may cause adverse reactions with standard treatments, or might cause you to delay getting treatments that have been proven effective. If you&apos;re considering any type of alternative therapy, be sure to discuss the pros and cons with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+But complementary and alternative medicine therapies may help you cope with side effects of treatment when combined with your doctor&apos;s care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alternative medicine for fatigue&lt;/strong&gt; &lt;br /&gt;
+Many breast cancer survivors experience fatigue during and after treatment that can continue for years. When combined with your doctor&apos;s care, complementary and alternative medicine therapies may help relieve fatigue. Ask your doctor about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gentle exercise.&lt;/strong&gt; If you get the OK from your doctor, start with gentle exercise a few times a week and add more if you feel up to it. Consider walking, swimming, yoga or tai chi.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Managing stress.&lt;/strong&gt; Take control of the stress in your daily life. Try stress-reduction techniques such as muscle relaxation, visualization, and spending time with friends and family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation strategies.&lt;/strong&gt; Balance activity with periods of relaxation. Try listening to music, writing in a journal, meditating or taking a warm bath.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A breast cancer diagnosis can be overwhelming. And just when you&apos;re trying to cope with the shock and the fears about your future, you&apos;re asked to make important decisions about your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Every woman finds her own way of coping with a breast cancer diagnosis. Until you find what works for you, it might help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn what you need to know about your breast cancer.&lt;/strong&gt; If you&apos;d like to know more about your breast cancer, ask your doctor for the details of your cancer &amp;mdash; the type, stage and hormone receptor status. Ask for good sources of up-to-date information on your treatment options. Knowing more about your cancer and your options may help you feel more confident when making treatment decisions. Still, some women may not want to know the details of their cancer. If this is how you feel, let your doctor know that, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk with other breast cancer survivors.&lt;/strong&gt; You may find it helpful and encouraging to talk to other women with breast cancer. Contact the American Cancer Society to find out about support groups in your area. Organizations that can connect you with other cancer survivors online or by phone include the Breast Cancer Network of Strength and CancerCare. The National Cancer Institute can provide more information on local organizations. You can reach them at 800-4-CANCER (800-422-6237).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk about your feelings with.&lt;/strong&gt; Find a friend or family member who is a good listener or talk with a clergy member or counselor. Ask your doctor for a referral to a counselor or other professional who works with cancer survivors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your friends and family close.&lt;/strong&gt; Your friends and family can provide a crucial support network for you during your cancer treatment. As you begin telling people about your breast cancer diagnosis, you&apos;ll likely get many offers for help. Think ahead about things you may want help with, whether it&apos;s having someone to talk to if you&apos;re feeling low or getting help preparing meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain intimacy with your partner.&lt;/strong&gt; In Western cultures, women&apos;s breasts are associated with attractiveness, femininity and sexuality. Because of these attitudes, breast cancer may affect your self-image and erode your confidence in intimate relationships. Talk to your partner about your insecurities and your feelings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Make your well-being a priority during cancer treatment. Get enough sleep so that you wake feeling rested, choose a diet full of fruits and vegetables, make time for gentle exercise on days you feel up to it, and find time for things you enjoy, such as reading or listening to music. If you need to, let others take care of you for a while. This doesn&apos;t mean you&apos;re helpless or weak. It means you&apos;re using all your energy to get well.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Breast cancer prevention for women with an average risk&lt;/strong&gt; &lt;br /&gt;
+Making changes in your daily life may help reduce your risk of breast cancer. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Limit the amount of alcohol you drink to less than one drink a day, if you choose to drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Aim for at least 30 minutes of exercise on most days of the week. If you haven&apos;t been active lately, ask your doctor whether it&apos;s OK and start slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit postmenopausal hormone therapy.&lt;/strong&gt; Combination hormone therapy may increase the risk of breast cancer. Talk with your doctor about the benefits and risks of hormone therapy. Some women experience bothersome signs and symptoms during menopause and, for these women, the increased risk of breast cancer may be acceptable in order to relieve menopause signs and symptoms. To reduce the risk of breast cancer, use the lowest dose of hormone therapy possible for the shortest amount of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your current weight is healthy, work to maintain that weight. If you need to lose weight, ask your doctor about healthy strategies to accomplish this. Reduce the number of calories you eat each day and slowly increase the amount of exercise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Breast cancer prevention for women with a high risk&lt;/strong&gt; &lt;br /&gt;
+If your doctor has assessed your family history and other factors and determined that you may have an increased risk of breast cancer, options to reduce your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preventive medications (chemoprevention).&lt;/strong&gt; Estrogen-blocking medications help reduce the risk of breast cancer. Options include tamoxifen and raloxifene (Evista). These medications carry a risk of side effects, such as an increased risk of blood clots. Tamoxifen, but not raloxifene, is associated with an increased risk of uterine cancer. So, it is important to talk to your doctors about your individual medical history to determine which medications are right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventive surgery.&lt;/strong&gt; Women with a very high risk of breast cancer may choose to have their healthy breasts surgically removed (prophylactic mastectomy). They may also choose to have their healthy ovaries removed (prophylactic oophorectomy) to reduce the risk of both breast cancer and ovarian cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Catch cancer early&lt;/strong&gt; &lt;br /&gt;
+Although you can&apos;t prevent the development of breast cancer with screening or breast self-exams, these techniques may help you and your doctor find breast cancer in its earliest and more-treatable stages. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about breast cancer screening.&lt;/strong&gt; Ask your doctor at what age you should begin breast cancer screening exams and tests, such as clinical breast exams and mammograms. Talk to your doctor about the benefits and risks of screening. Together you can decide what breast cancer screening strategies are right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Become familiar with your breasts through breast self-exams.&lt;/strong&gt; Ask your doctor to show you how to do a breast self-exam to check for any lumps or other unusual signs in your breasts. A breast self-exam can&apos;t prevent breast cancer, but it may help you to better understand the normal changes that your breasts undergo and identify any unusual signs and symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration demonstrating breast self-exam 
+" Caption="To perform a breast self-exam, use a circling, massaging motion with your fingers. A breast self-exam can help you become familiar with the normal changes in your breasts.
+" Height="60" Title="Breast self-examination" URI="/images/image_popup/thumbs/ww5rm14t.jpg" Width="60" />
+				<Image Alt="Illustration demonstrating breast self-exam 
+" Caption="To perform a breast self-exam, use a circling, massaging motion with your fingers. A breast self-exam can help you become familiar with the normal changes in your breasts.
+" Height="298" Title="Breast self-examination" URI="/images/image_popup/ww5rm14.jpg" Width="400" />
+				<HTML>
+					To perform a breast self-exam, use a circling, massaging motion with your fingers. A breast self-exam can help you become familiar with the normal changes in your breasts.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Breast cancer
+	</Title>
+	<Abstract>
+		Breast cancer &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis, treatment of breast cancer in women.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00495" LinkType="Internal" ObjectID="CC9793D7-4910-4916-9EEA92E19D8E463F" Title="HER2-positive breast cancer: What is it?" Url="http://www.mayoclinic.com/health/breast-cancer/AN00495" />
+		<LinkItem ContentType="Disease" DocID="DS00983" LinkType="Internal" ObjectID="DCA93907-E7FF-0DBD-1EDD50CA078CDD6B" Title="Ductal carcinoma in situ (DCIS)" Url="http://www.mayoclinic.com/health/dcis/DS00983" />
+		<LinkItem ContentType="Disease" DocID="DS00982" LinkType="Internal" ObjectID="DCA83D82-E7FF-0DBD-1CFB8E2FE5F7F28A" Title="Lobular carcinoma in situ (LCIS)" Url="http://www.mayoclinic.com/health/lobular-carcinoma-in-situ/DS00982" />
+		<LinkItem ContentType="Disease" DocID="DS01063" LinkType="Internal" ObjectID="C6FAE4FF-E7FF-0DBD-17689854551C4D1F" Title="Invasive lobular carcinoma" Url="http://www.mayoclinic.com/health/invasive-lobular-carcinoma/DS01063" />
+		<LinkItem ContentType="Disease" DocID="DS01018" LinkType="Internal" ObjectID="B0F3548B-E7FF-0DBD-156DBB6771EDEB4C" Title="Atypical hyperplasia of the breast" Url="http://www.mayoclinic.com/health/atypical-hyperplasia/DS01018" />
+		<LinkItem ContentType="Disease" DocID="DS01078" LinkType="Internal" ObjectID="7C12DB3F-E7FF-0DBD-1CCC1AAA05FF4A5D" Title="Recurrent breast cancer" Url="http://www.mayoclinic.com/health/recurrent-breast-cancer/DS01078" />
+		<LinkItem ContentType="Disease" DocID="DS00632" LinkType="Internal" ObjectID="273CAB18-2A5D-9994-E7302A26D91E98CC" Title="Inflammatory breast cancer" Url="http://www.mayoclinic.com/health/inflammatory-breast-cancer/DS00632" />
+		<LinkItem ContentType="Answer" DocID="AN00419" LinkType="Internal" ObjectID="FC5332DF-AF1C-4812-81711A4E32EB40A6" Title="Breast implants: Do they interfere with mammograms?" Url="http://www.mayoclinic.com/health/breast-implants/AN00419" />
+		<LinkItem ContentType="Answer" DocID="AN02139" LinkType="Internal" ObjectID="F1B18C99-C640-0D96-172ABEC0C29CAFA6" Title="Breast implants and cancer: Any connection?" Url="http://www.mayoclinic.com/health/breast-implants-and-cancer/AN02139" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="Answer" DocID="AN02096" LinkType="Internal" ObjectID="D116CDBC-EB60-DD52-8AD17BCE9056CC2D" Title="Coping with pain after breast surgery" Url="http://www.mayoclinic.com/health/pain-after-breast-surgery/AN02096" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00322" LinkType="Internal" ObjectID="C43AECA8-E7FF-0DBD-1B147DE31D3CBEE0" Title="BRCA gene test for breast cancer" Url="http://www.mayoclinic.com/health/brca-gene-test/MY00322" />
+		<LinkItem ContentType="Video" DocID="MM00639" LinkType="Internal" ObjectID="BE7A2D47-2A5D-9994-ED3CA13FF3C78E1F" Title="Video: Mammogram for breast cancer &amp;mdash; What to expect" Url="http://www.mayoclinic.com/health/mammogram/MM00639" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00301" LinkType="Internal" ObjectID="9616D5CF-E7FF-0DBD-143ACBF3A0FE16F9" Title="Breast biopsy" Url="http://www.mayoclinic.com/health/breast-biopsy/MY00301" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00300" LinkType="Internal" ObjectID="9613E6D0-E7FF-0DBD-1A0BEDAE3544D7E0" Title="Breast MRI" Url="http://www.mayoclinic.com/health/breast-mri/MY00300" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00207" LinkType="Internal" ObjectID="8E7092D1-E7FF-0DBD-1B3F9BA46D4D8023" Title="Breast reconstruction with breast implants" Url="http://www.mayoclinic.com/health/breast-reconstruction/MY00207" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01369" LinkType="Internal" ObjectID="8AA88EFC-0565-DC7B-43C8981DC186EF7A" Title="Radiation therapy for breast cancer" Url="http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01368" LinkType="Internal" ObjectID="8AA8677E-BF9D-11C2-A51030C81429FCB5" Title="Chemotherapy for breast cancer" Url="http://www.mayoclinic.com/health/chemotherapy-for-breast-cancer/MY01368" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00389" LinkType="Internal" ObjectID="780E8328-E7FF-0DBD-1CA57FC34689D860" Title="Breast augmentation" Url="http://www.mayoclinic.com/health/breast-augmentation/MY00389" />
+		<LinkItem ContentType="Answer" DocID="AN01137" LinkType="Internal" ObjectID="58D6580B-0464-44C3-B42E52E54440F067" Title="Mammogram: Can it find cancer in dense breasts?" Url="http://www.mayoclinic.com/health/mammogram/AN01137" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00173" LinkType="Internal" ObjectID="26F83C24-E7FF-0DBD-16C012E1561E8DE5" Title="Breast reconstruction with flap surgery" Url="http://www.mayoclinic.com/health/breast-reconstruction/MY00173" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01342" LinkType="Internal" ObjectID="1D781C30-C869-3159-EF4990B2752876CF" Title="Hormone therapy for breast cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-breast-cancer/MY01342" />
+		<LinkItem ContentType="Answer" DocID="AN01851" LinkType="Internal" ObjectID="10E30AA5-E7FF-0DBD-16106C84F24CAF6F" Title="Conflicting mammogram results: What can I do?" Url="http://www.mayoclinic.com/health/mammogram-results/AN01851" />
+		<LinkItem ContentType="Answer" DocID="AN02052" LinkType="Internal" ObjectID="02595D0A-9DD3-ED31-69F5C7C43B2CC0C7" Title="Mammogram guidelines: What are they?" Url="http://www.mayoclinic.com/health/mammogram-guidelines/AN02052" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Article" DocID="WO00095" LinkType="Internal" ObjectID="B61BA82F-1499-4884-B50A819DB83A87CE" Title="Prophylactic oophorectomy: Preventing cancer by surgically removing your ovaries" Url="http://www.mayoclinic.com/health/breast-cancer/WO00095" />
+		<LinkItem ContentType="Article" DocID="WO00060" LinkType="Internal" ObjectID="B2E76DB3-D768-469E-84656E6820A13E9E" Title="Prophylactic mastectomy: Surgery to reduce breast cancer risk" Url="http://www.mayoclinic.com/health/prophylactic-mastectomy/WO00060" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Article" DocID="WO00031" LinkType="Internal" ObjectID="32348DF9-B0D5-45B9-82D3247C1178ABA0" Title="Breast lump: Early evaluation is essential" Url="http://www.mayoclinic.com/health/breast-lump/WO00031" />
+		<LinkItem ContentType="Article" DocID="WO00091" LinkType="Internal" ObjectID="2654435A-DBB5-4BE7-B8AA88F47D32EF20" Title="Breast cancer prevention: How to reduce your risk" Url="http://www.mayoclinic.com/health/breast-cancer-prevention/WO00091" />
+		<LinkItem ContentType="Article" DocID="MH00002" LinkType="Internal" ObjectID="24EFE323-6344-484C-BADD87CBB450A08F" Title="Support groups: Make connections, get help" Url="http://www.mayoclinic.com/health/support-groups/MH00002" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Answer" DocID="AN01964" LinkType="Internal" ObjectID="6A9F6205-E677-4189-536D254D69187DE7" Title="Palliative care: Who is it for?" Url="http://www.mayoclinic.com/health/palliative-care/AN01964" />
+		<LinkItem ContentType="SlideShow" DocID="BR00011" LinkType="Internal" ObjectID="592DAD9F-2A5D-9994-E8C71029E22534E7" Title="Slide show: Stages of breast cancer" Url="http://www.mayoclinic.com/health/stage-of-breast-cancer/BR00011" />
+		<LinkItem ContentType="Answer" DocID="AN02081" LinkType="Internal" ObjectID="45065565-FA13-2970-F80085FF8B4BBE4A" Title="Gene expression profiling for breast cancer: What is it?" Url="http://www.mayoclinic.com/health/gene-expression-profiling/AN02081" />
+		<LinkItem ContentType="Answer" DocID="AN01950" LinkType="Internal" ObjectID="201CD4EF-E7FF-0DBD-195D720CB16FC9A5" Title="Breast cancer radiation: Can it cause dry skin?" Url="http://www.mayoclinic.com/health/breast-cancer-radiation/AN01950" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Article" DocID="BR00014" LinkType="Internal" ObjectID="C7684532-E7FF-0DBD-1DB0F3ADA6BD3893" Title="Genetic testing for breast cancer: Psychological and social impact" Url="http://www.mayoclinic.com/health/genetic-testing/BR00014" />
+		<LinkItem ContentType="Article" DocID="HQ00348" LinkType="Internal" ObjectID="60689E89-5CBB-4CF9-8EE0087E7BD7C85D" Title="Breast cancer types: What your type means" Url="http://www.mayoclinic.com/health/breast-cancer/HQ00348" />
+		<LinkItem ContentType="Article" DocID="WO00092" LinkType="Internal" ObjectID="4E1221F4-D716-40D9-A349F076AFF7A6EC" Title="Breast cancer chemoprevention: Medicines that reduce breast cancer risk" Url="http://www.mayoclinic.com/health/breast-cancer/WO00092" />
+		<LinkItem ContentType="Article" DocID="BR00022" LinkType="Internal" ObjectID="3F7C00E5-E7FF-0DBD-169278DEA7B58D18" Title="Breast cancer staging" Url="http://www.mayoclinic.com/health/breast-cancer-staging/BR00022" />
+	</RelatedLinksBox>
+</Disease>

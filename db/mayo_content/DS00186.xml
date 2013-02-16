@@ -1,0 +1,397 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00186
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hodgkins-disease/DS00186
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2000-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2146" Title="Lymphoma">
+						<Keyword MCVID="3739" Title="Hodgkin lymphoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A0FF52F1-F396-4240-BF1993EB72EF4C80
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Hodgkin&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkin&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkin&apos;s lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkin lympoma
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkin
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkins
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkins&apos;
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphatic system
+			</MetaKeyword>
+			<MetaKeyword>
+				hodgkins disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Hodgkins lymphoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hodgkin&apos;s lymphoma &amp;mdash; formerly known as Hodgkin&apos;s disease &amp;mdash; is a cancer of the lymphatic system, which is part of your immune system. 
+&lt;/p&gt;
+&lt;p&gt;
+In Hodgkin&apos;s lymphoma, cells in the lymphatic system grow abnormally and may spread beyond the lymphatic system. As Hodgkin&apos;s lymphoma progresses, it compromises your body&apos;s ability to fight infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Hodgkin&apos;s lymphoma is one of two common types of cancers of the lymphatic system. The other type, non-Hodgkin&apos;s lymphoma, is far more common. 
+&lt;/p&gt;
+&lt;p&gt;
+Advances in diagnosis and treatment of Hodgkin&apos;s lymphoma have helped to give people with this diagnosis the chance for a full recovery. The prognosis continues to improve for people with Hodgkin&apos;s lymphoma. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hodgkin&apos;s lymphoma signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Painless swelling of lymph nodes in your neck, armpits or groin&lt;/li&gt;
+	&lt;li&gt;Persistent fatigue&lt;/li&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss &amp;mdash; as much as 10 percent or more of your body weight&lt;/li&gt;
+	&lt;li&gt;Coughing, trouble breathing or chest pain&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Increased sensitivity to the effects of alcohol or pain in your lymph nodes after drinking alcohol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing swollen lymph nodes 
+" Caption="Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+" Height="60" Title="Swollen lymph nodes" URI="/images/image_popup/thumbs/mcdc7_swollenlymphnodesthu.jpg" Width="60" />
+				<Image Alt="Image showing swollen lymph nodes 
+" Caption="Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+" Height="594" Title="Swollen lymph nodes" URI="/images/image_popup/mcdc7_swollenlymphnodes.jpg" Width="400" />
+				<HTML>
+					Lymph nodes, such as these lymph nodes in the neck (inset), are located throughout your body. The inset shows three swollen lymph nodes below the lower jaw. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes Hodgkin&apos;s lymphoma. Doctors know that most Hodgkin&apos;s lymphoma occurs when an infection-fighting cell called a B cell develops a mutation in its DNA. The mutation tells the cells to divide rapidly and to continue living when a healthy cell would die. The mutation causes a large number of oversized, abnormal B cells to accumulate in the lymphatic system, where they crowd out healthy cells and cause the signs and symptoms of Hodgkin&apos;s lymphoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Various types of Hodgkin&apos;s lymphoma exist. The type is based on the types of cells involved in your disease and their behavior. Your type determines your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Classical Hodgkin&apos;s lymphoma&lt;/strong&gt; &lt;br /&gt;
+Classical Hodgkin&apos;s lymphoma is the more common type of this disease. It can be broken down further into subtypes. People diagnosed with classical Hodgkin&apos;s lymphoma have large, abnormal cells called Reed-Sternberg cells in their lymph nodes. 
+&lt;/p&gt;
+&lt;p&gt;
+Subtypes of classical Hodgkin&apos;s lymphoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nodular sclerosis Hodgkin&apos;s lymphoma&lt;/li&gt;
+	&lt;li&gt;Mixed cellularity Hodgkin&apos;s lymphoma&lt;/li&gt;
+	&lt;li&gt;Lymphocyte-depleted Hodgkin&apos;s lymphoma&lt;/li&gt;
+	&lt;li&gt;Lymphocyte-rich classical Hodgkin&apos;s lymphoma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lymphocyte-predominant Hodgkin&apos;s lymphoma&lt;/strong&gt; &lt;br /&gt;
+This much rarer type of Hodgkin&apos;s lymphoma involves large, abnormal cells that are sometimes called popcorn cells because of their appearance. Treatment may be different from the classical type. People with this type of Hodgkin&apos;s lymphoma may have a better chance of a cure when the disease is diagnosed at an early stage. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of Hodgkin&apos;s lymphoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Hodgkin&apos;s lymphoma is most often diagnosed in people between the ages of 15 and 35, as well as those older than 55.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history of lymphoma.&lt;/strong&gt; Anyone with a brother or a sister who has Hodgkin&apos;s lymphoma or non-Hodgkin&apos;s lymphoma has an increased risk of developing Hodgkin&apos;s lymphoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Males are slightly more likely to develop Hodgkin&apos;s lymphoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Past Epstein-Barr infection.&lt;/strong&gt; People who have had illnesses caused by the Epstein-Barr virus, such as infectious mononucleosis, are more likely to develop Hodgkin&apos;s lymphoma than are people who haven&apos;t had Epstein-Barr infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A weakened immune system.&lt;/strong&gt; Having a compromised immune system, such as from HIV/AIDS or from having an organ transplant requiring medications to suppress the immune response, increases the risk of Hodgkin&apos;s lymphoma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or a general practitioner if you have any signs or symptoms that worry you. After your diagnosis, your doctor may refer you to a specialist who treats Hodgkin&apos;s lymphoma, such as a hematologist, medical oncologist or radiation oncologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet before testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important, in case time runs out. For Hodgkin&apos;s lymphoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Will I need a biopsy?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had cancer, including Hodgkin&apos;s lymphoma?&lt;/li&gt;
+	&lt;li&gt;Have you or has anyone in your family had conditions affecting the immune system?&lt;/li&gt;
+	&lt;li&gt;Have you had infections in the past?&lt;/li&gt;
+	&lt;li&gt;Have you or your family been exposed to toxins?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose Hodgkin&apos;s lymphoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor checks for swollen lymph nodes, including in your neck, underarm and groin, as well as a swollen spleen or liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A sample of your blood is examined in a lab to see if anything in your blood indicates the possibility of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests used to diagnose Hodgkin&apos;s lymphoma include X-rays, computerized tomography (CT) scan, magnetic resonance imaging (MRI) and positron emission tomography (PET).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove a swollen lymph node.&lt;/strong&gt; Minor surgery may be done to remove all or part of an enlarged lymph node for testing. The lymph node is sent to a laboratory for testing. A diagnosis of Hodgkin&apos;s lymphoma is made if the abnormal Reed-Sternberg cells are found within the lymph node.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A procedure to collect bone marrow for testing.&lt;/strong&gt; A bone marrow biopsy may be used to look for signs of cancer in the bone marrow. During this procedure, a small amount of bone marrow, blood and bone are removed through a needle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging Hodgkin&apos;s lymphoma&lt;/strong&gt; &lt;br /&gt;
+After your doctor has determined the extent of your Hodgkin&apos;s lymphoma, your cancer will be assigned a stage. Your cancer&apos;s stage helps determine your prognosis and your treatment options. Stages of Hodgkin&apos;s lymphoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; The cancer is limited to one lymph node region or a single organ.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; In this stage, the cancer is in two different lymph nodes or the cancer is in a portion of tissue or an organ and nearby lymph nodes. But the cancer is still limited to a section of the body either above or below the diaphragm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; When the cancer moves to lymph nodes both above and below the diaphragm, it&apos;s considered stage III. Cancer may also be in one portion of tissue or an organ near the lymph node groups or in the spleen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; This is the most advanced stage of Hodgkin&apos;s lymphoma. Cancer cells are in several portions of one or more organs and tissues. Stage IV Hodgkin&apos;s lymphoma affects not only the lymph nodes but also other parts of your body, such as the liver, lungs or bones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, your doctor uses the letters A and B to indicate whether you&apos;re experiencing symptoms of Hodgkin&apos;s lymphoma: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; means that you don&apos;t have any significant symptoms as a result of the cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;B&lt;/strong&gt; indicates that you may have significant signs and symptoms, such as a persistent fever, unintended weight loss or severe night sweats.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Which treatment options are appropriate for your Hodgkin&apos;s lymphoma depends on your type and stage of disease, your overall health and your preferences. The goal of treatment is to destroy as many cancer cells as possible and bring the disease into remission. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy is a drug treatment that uses chemicals to kill lymphoma cells. Chemotherapy drugs travel through your bloodstream and can reach nearly all areas of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy is often combined with radiation therapy in people with early-stage classical type Hodgkin&apos;s lymphoma. Radiation therapy is typically done after chemotherapy. In advanced Hodgkin&apos;s lymphoma, chemotherapy may be used alone or combined with radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy drugs can be taken in pill form or through a vein in your arm. Several combinations of chemotherapy drugs are used to treat Hodgkin&apos;s lymphoma. Side effects of chemotherapy depend on the specific drugs you&apos;re given. Common side effects include nausea and hair loss. Serious long-term complications can occur, such as heart damage, lung damage, fertility problems and other cancers, such as leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays, to kill cancer cells. For classical Hodgkin&apos;s lymphoma, radiation therapy can be used alone, but it is often used after chemotherapy. People with early-stage lymphocyte-predominant Hodgkin&apos;s lymphoma typically undergo radiation therapy alone. 
+&lt;/p&gt;
+&lt;p&gt;
+During radiation therapy, you lie on a table and a large machine moves around you, directing the energy beams to specific points on your body. Radiation can be aimed at affected lymph nodes and the nearby area of nodes where the disease might progress. The length of radiation treatment varies, depending on the stage of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy can cause skin redness and hair loss at the site where the radiation is aimed. Many people experience fatigue during radiation therapy. More serious risks include heart disease, stroke, thyroid problems, infertility and other forms of cancer, such as breast or lung cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stem cell transplant&lt;/strong&gt; &lt;br /&gt;
+A stem cell transplant is a treatment to replace your diseased bone marrow with healthy stem cells that help you grow new bone marrow. A stem cell transplant may be an option if Hodgkin&apos;s lymphoma returns despite treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+During a stem cell transplant, your own blood stem cells are removed, frozen and stored for later use. Next you receive high-dose chemotherapy and radiation therapy to destroy cancerous cells in your body. Finally your stem cells are thawed and injected into your body through your veins. The stem cells help to build healthy bone marrow. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative medicines have been found to treat Hodgkin&apos;s lymphoma. But alternative medicine may help you cope with the stress of a cancer diagnosis and the side effects of cancer treatment. Talk to your doctor about your options, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Aromatherapy&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of Hodgkin&apos;s lymphoma can be extremely challenging. The following strategies and resources may make dealing with cancer easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about Hodgkin&apos;s lymphoma.&lt;/strong&gt; Learn enough about your cancer to feel comfortable making decisions about your treatment and care. In addition to talking with your doctor, look for information in your local library and on the Internet. Start your information search with the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Having a support system and a positive attitude can help you cope with any issues, pain and anxieties that might occur. Although friends and family can be your best allies, they sometimes may have trouble dealing with your illness. If so, the concern and understanding of a formal support group or others coping with cancer can be especially helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But avoid setting goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work at least part time. In fact, many people find that continuing to work can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan for the downtimes when you may need to rest more or limit what you do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Receiving a diagnosis of cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. It&apos;s important to stay active and involved as much as you can.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hodgkin&apos;s lymphoma (Hodgkin&apos;s disease)
+	</Title>
+	<Abstract>
+		Hodgkin&apos;s lymphoma &amp;mdash; Comprehensive overview covers symptoms, risk factors, treatment of this immune system cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00381" LinkType="Internal" ObjectID="6E26FB6E-E7FF-0DBD-19857255671C715E" Title="Hematocrit test" Url="http://www.mayoclinic.com/health/hematocrit/MY00381" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Answer" DocID="AN01209" LinkType="Internal" ObjectID="80D3200A-46A0-4CB0-B66A8313EAD4E447" Title="Hodgkin&apos;s vs. non-Hodgkin&apos;s lymphoma" Url="http://www.mayoclinic.com/health/lymphoma/AN01209" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+	</RelatedLinksBox>
+</Disease>

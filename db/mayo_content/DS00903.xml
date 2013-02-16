@@ -1,0 +1,420 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00903
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/von-willebrand-disease/DS00903
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-05
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="1720" Title="von Willebrand disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			396AB87A-E7FF-0DBD-1CC381D905A5D7FF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				von Willebrand disease
+			</MetaKeyword>
+			<MetaKeyword>
+				von Willebrands disease
+			</MetaKeyword>
+			<MetaKeyword>
+				von Willebrands&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				factor VIII
+			</MetaKeyword>
+			<MetaKeyword>
+				von Willebrand clotting factor
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Von Willebrand disease is a condition that involves extended or excessive bleeding. It&apos;s the most common inherited bleeding condition. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of von Willebrand disease is a deficiency in or impairment of a protein called von Willebrand factor, an important component in your blood clotting process. In general, it takes longer for people with von Willebrand disease to form clots and stop bleeding when they&apos;re cut. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of von Willebrand disease focuses on stopping or preventing bleeding episodes, typically by using medications. With the right treatment, people with von Willebrand disease can lead normal, healthy lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many people with von Willebrand disease (vWD), the signs are mild or they may be absent altogether. When signs occur, their intensity can vary from one person to another. Von Willebrand disease is often challenging to diagnose in milder cases. 
+&lt;/p&gt;
+&lt;p&gt;
+Abnormal bleeding is the most common sign of von Willebrand disease, although it may be present at only moderate levels. 
+&lt;/p&gt;
+&lt;p&gt;
+The abnormal bleeding associated with von Willebrand disease may occur as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurrent and prolonged nosebleeds&lt;/li&gt;
+	&lt;li&gt;Bleeding from the gums&lt;/li&gt;
+	&lt;li&gt;Increased menstrual flow&lt;/li&gt;
+	&lt;li&gt;Excessive bleeding from a cut or following a tooth extraction or other dental procedure&lt;/li&gt;
+	&lt;li&gt;Blood in the stool or urine&lt;/li&gt;
+	&lt;li&gt;Bleeding from shaving with a razor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People with von Willebrand disease may also experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Easy bruising&lt;/li&gt;
+	&lt;li&gt;Bruises with lumps that form underneath the skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people may realize that they have a bleeding disorder only after a surgical procedure or serious trauma in which excessive bleeding occurs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of von Willebrand disease in women&lt;/strong&gt;&lt;br /&gt;
+Heavy menstrual bleeding is often the main sign of von Willebrand disease in women. However, many women with von Willebrand disease go undiagnosed because they&apos;re not overly concerned about their prolonged or heavy menstrual bleeding. And doctors may overlook heavy menstrual bleeding as a possible indicator of von Willebrand disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of an abnormally heavy period that may indicate von Willebrand disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The presence in your menstrual flow of blood clots greater than 1 inch (2.5 centimeters) in diameter&lt;/li&gt;
+	&lt;li&gt;The need to change your menstrual pad or tampon more often than hourly&lt;/li&gt;
+	&lt;li&gt;The need to use double sanitary protection to control menstrual flow&lt;/li&gt;
+	&lt;li&gt;Menstrual bleeding that lasts longer than one week&lt;/li&gt;
+	&lt;li&gt;Symptoms of anemia, including tiredness, fatigue or shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you&apos;re experiencing extended or severe bleeding from any source. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re scheduled to have surgery (including dental procedures), make sure your doctor or dentist knows that you have von Willebrand disease, which can increase the likelihood of post-surgical bleeding. Include the information that you have von Willebrand disease when you fill out health-screening questionnaires. Also be sure to mention if anyone in your family has a history of excessive bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Consider wearing a medical ID bracelet, noting that you have von Willebrand disease, in case you are in an accident and are taken to an emergency room. Also carry a Medi-alert card in your wallet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of von Willebrand disease is a hereditary defect in the gene that controls von Willebrand factor, a protein that plays a key role in your blood clotting process. When von Willebrand factor is scarce &amp;mdash; or not functioning properly because of structural abnormalities &amp;mdash; small blood cells called platelets cannot stick together properly, nor can they attach themselves normally to the blood vessel walls when an injury has occurred. The result is interference with the clotting process, and uncontrolled bleeding may persist. 
+&lt;/p&gt;
+&lt;p&gt;
+Von Willebrand factor carries an additional substance, called factor VIII, that helps stimulate clotting. Many people with von Willebrand disease also have low levels of factor VIII. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A family history of von Willebrand disease is the leading risk factor. A parent can pass the abnormal gene for the disease to his or her child. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases are &quot;autosomal dominant inherited&quot; disorders, which means you only need an abnormal gene from one parent to be affected. If you have the gene for von Willebrand disease, you have a 50 percent chance of transmitting this gene to your offspring. 
+&lt;/p&gt;
+&lt;p&gt;
+The most severe form of the condition (type 3) is autosomal recessive, which means both of your parents have to pass an abnormal gene to you. 
+&lt;/p&gt;
+&lt;p&gt;
+Von Willebrand disease affects males and females about equally and is present in up to 1 percent of the U.S. population. 
+&lt;/p&gt;
+&lt;p&gt;
+Race does not appear to play a role in the disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of von Willebrand disease may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; Women who experience heavy menstrual bleeding can develop iron deficiency anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling and pain.&lt;/strong&gt; If abnormal bleeding occurs in the joints or soft tissue, swelling and severe pain can result.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death from bleeding.&lt;/strong&gt; When abnormal bleeding can&apos;t be controlled, it can become life-threatening and needs emergency medical attention.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor if you suspect you have a bleeding problem. However, in some cases when you call to set up an appointment, you may be referred to a doctor who specializes in the diagnosis and treatment of bleeding disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re in the middle of a severe bleeding episode, your doctor may recommend immediate medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, including what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance. You may need to follow dietary restrictions or fast for eight to 10 hours if blood tests are scheduled.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any bleeding signs or symptoms you&apos;ve had,&lt;/strong&gt; including how often, its severity, and for how long. For example, your doctor will want to know if you had a history of nosebleeds or easy bruising since childhood, or &amp;mdash; for women &amp;mdash; if your periods have been extended and heavy since you first started menstruating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent changes &amp;mdash; both positive and negative &amp;mdash; in your life. Include a short description of your typical daily diet. Also mention any contact sports you&apos;ve played and whether you ever developed excessive bruising after playing.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other medical problems for which you&apos;re being treated. Be sure to mention if any close relatives have a history of easy bleeding. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Also write down the names of any medications, vitamins or supplements you&apos;re taking, including aspirin, ibuprofen (Advil, Motrin, others) or naproxen (Aleve, Anaprox). If possible, bring all your medications with you in their original containers. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For von Willebrand disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you think my condition is temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need to take medications long term?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the medications you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How will you monitor whether my treatment is working?&lt;/li&gt;
+	&lt;li&gt;Does this condition increase my risk of any other medical problems?&lt;/li&gt;
+	&lt;li&gt;What steps will I need to take to prevent problems from surgery or dental procedures?&lt;/li&gt;
+	&lt;li&gt;Does this condition increase my risk of health problems during pregnancy and childbirth? Are treatment options available to reduce that risk?&lt;/li&gt;
+	&lt;li&gt;Are my children or other close relatives at increased risk of this condition?&lt;/li&gt;
+	&lt;li&gt;Do I need to avoid certain physical activities or types of exercise?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin having episodes of prolonged or heaving bleeding?&lt;/li&gt;
+	&lt;li&gt;How often do you have an episode of heavy or prolonged bleeding?&lt;/li&gt;
+	&lt;li&gt;How long does the bleeding typically last?&lt;/li&gt;
+	&lt;li&gt;Do you bruise easily, or have recurrent nosebleeds? Did these symptoms begin in childhood?&lt;/li&gt;
+	&lt;li&gt;Have you ever had bleeding from a small wound that lasted more than 15 minutes, or recurred during the week following the wound?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a nosebleed that lasted more than 10 minutes or needed medical attention?&lt;/li&gt;
+	&lt;li&gt;Have you ever had bruises with lumps?&lt;/li&gt;
+	&lt;li&gt;For women, for how many days do your menstrual periods last? How often do you have to change your tampon or sanitary pad during a period? Do you ever notice blood clots in your menstrual flow?&lt;/li&gt;
+	&lt;li&gt;Have you ever had blood in your stool that wasn&apos;t explained by a known medical problem, such as a stomach ulcer or colon polyp?&lt;/li&gt;
+	&lt;li&gt;Have you ever needed medical attention for a bleeding problem during or after surgery, dental procedures, childbirth or injury?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a tooth extracted? If so, did you have excessive bleeding after the procedure?&lt;/li&gt;
+	&lt;li&gt;Have you ever had anemia or needed a blood transfusion?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for other medical problems, including liver or kidney disease, a blood or bone marrow disorder, or an abnormal blood platelet count?&lt;/li&gt;
+	&lt;li&gt;Do you take pain relievers such as aspirin, ibuprofen or naproxen?&lt;/li&gt;
+	&lt;li&gt;Do you take or have you recently taken blood-thinning medications such as clopidogrel (Plavix), warfarin (Coumadin) or heparin?&lt;/li&gt;
+	&lt;li&gt;Do you take an antidepressant such as citalopram (Celexa), escitalopram (Lexapro), fluoxetine (Prozac, Prozac Weekly), paroxetine (Paxil, Paxil CR, Pexeva) or sertraline (Zoloft)?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have a history of bleeding problems?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant or are you planning to become pregnant?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, avoid pain relievers that may increase your risk of bleeding episodes, such as aspirin, ibuprofen and naproxen. If you need relief for routine aches and pains, try acetaminophen (Tylenol, others) instead. 
+&lt;/p&gt;
+&lt;p&gt;
+Steer clear of contact sports associated with a high risk of bruising or injury, such as football and hockey. If you have any medical or dental procedures scheduled, tell your doctor or dentist about your history of heavy bleeding from minor injuries. If a scheduled procedure is not urgent, reschedule it until after you&apos;ve been evaluated for a possible underlying bleeding disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because many people with von Willebrand disease have very mild signs, the condition can be difficult to diagnose. Some people live for years with the disease before it&apos;s identified. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have any indication of a bleeding disorder, your doctor may refer you to a blood disorders specialist (hematologist). This doctor will perform specific blood tests to diagnose or rule out von Willebrand disease. These tests may be repeated to confirm that the diagnosis of von Willebrand disease is correct and to determine the disease type. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Classifications of the disease&lt;/strong&gt;&lt;br /&gt;
+There are three major types of von Willebrand disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type 1.&lt;/strong&gt; In this most common form of von Willebrand disease, levels of von Willebrand factor are low. In some people, levels of factor VIII also are low. Signs are usually mild.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2.&lt;/strong&gt; In this type, which has several subtypes, the von Willebrand factor that is present doesn&apos;t function properly. Symptoms tend to be more significant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type 3.&lt;/strong&gt; In this rare type, von Willebrand factor is altogether absent and levels of factor VIII are low. Signs may be severe, such as bleeding into the joints and muscles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+In general, tests to diagnose von Willebrand disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history and physical exam.&lt;/strong&gt; Your doctor will likely begin by asking detailed questions about your medical history since childhood, including specifics about past bleeding episodes. He or she will ask whether your parents or siblings have had bleeding problems. Your doctor will also check for bruises or other signs of recent bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor likely will recommend a combination of blood tests to diagnose von Willebrand disease. The results of these tests can fluctuate in the same person over time, due to factors such as stress, excessive exercise, blood transfusions, recent surgery and pregnancy. You may need to have the same tests more than once.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Specific blood tests your doctor may order include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Von Willebrand factor (vWF) antigen.&lt;/strong&gt; This test determines the level of von Willebrand factor in your blood by measuring the vWF protein (antigen).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ristocetin cofactor activity.&lt;/strong&gt; This analysis of your blood demonstrates how well the von Willebrand factor works in your clotting process. Ristocetin, which is an antibiotic, is used in this laboratory testing and when added to a sample of your blood, causes a reaction in your blood that may indicate von Willebrand disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Factor VIII clotting activity.&lt;/strong&gt; This test shows whether you have abnormally low levels and activity of factor VIII.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Von Willebrand factor multimers.&lt;/strong&gt; This test evaluates the specific structure of von Willebrand factor in your blood, its protein complexes (multimers) and how its molecules break down. This information helps identify the type of von Willebrand disease that&apos;s present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Platelet function test (PFA-100).&lt;/strong&gt; This test measures how efficiently platelets are functioning in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The results of some of these tests may not be available for two to three weeks after blood is drawn because the tests are conducted in a specialized laboratory. When these findings are analyzed together, your doctor can make a definite diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If von Willebrand disease is present, your doctor may recommend that family members undergo the same or similar tests to determine if this condition runs in your family. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even though von Willebrand disease is a lifelong condition with no cure, your doctor can treat it effectively. Treatment may vary, depending on the type and severity of the disorder, as well as your response to previous therapy and other medications you may be taking. The most commonly used treatments for von Willebrand disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Desmopressin (DDAVP).&lt;/strong&gt; This medication is administered by injection into a vein or, more commonly, through a nasal spray called Stimate. It&apos;s a synthetic hormone, similar to the natural hormone vasopressin, that controls bleeding by stimulating your body to release more von Willebrand factor already stored in the lining of your blood vessels &amp;mdash; thereby enhancing factor VIII levels. DDAVP is usually effective in people with type 1 and some subtypes of type 2 disease. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Many doctors consider DDAVP the first treatment to use in the management of von Willebrand disease. Some women use the nasal spray at the beginning of their menstrual periods to control excessive bleeding. You can also use it before a minor surgical procedure. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replacement therapies.&lt;/strong&gt; These consist of infusions of prepared doses of concentrated blood-clotting factors containing von Willebrand factor and factor VIII. They can be useful in all disease types, and your doctor may recommend them if DDAVP isn&apos;t effective or particularly if you need treatment for more-severe forms of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contraceptives.&lt;/strong&gt; These can be useful for controlling heavy bleeding during your menstrual periods. The estrogen hormones present in birth control pills can boost levels of von Willebrand factor and factor VIII activity. Another option your doctor may recommend is the placement in your uterus of a progesterone-containing contraceptive device, such as Mirena.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-fibrinolytic or clot-stabilizing medications.&lt;/strong&gt; These medications, such as aminocaproic acid (Amicar) and tranexamic acid (Cyklokapron), can slow down the breakdown of clotting factors. This can help keep a clot in place once it has formed, putting a stop to bleeding. Doctors often prescribe these drugs before or after a surgical procedure or tooth extraction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fibrin sealants.&lt;/strong&gt; These substances, applied like a glue using syringes, are placed directly on a cut to curtail bleeding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your condition is mild, your doctor might recommend treatment only when you&apos;re undergoing surgery or dental extractions, or when you&apos;ve experienced trauma (in an automobile accident, for example). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of complications from von Willebrand disease, take these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Switch pain relievers.&lt;/strong&gt; To help prevent bleeding episodes, don&apos;t take blood-thinning medications, such as aspirin, ibuprofen (Advil, Motrin, others) or naproxen (Aleve, Anaprox), without the approval of your doctor. Your doctor may recommend pain relievers such as acetaminophen (Tylenol, others) instead for routine aches and pains and for fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid blood thinners and some antidepressants.&lt;/strong&gt; Your doctor may also advise you to avoid prescription blood thinners such as clopidogrel (Plavix), warfarin (Coumadin) and heparin. And some antidepressants &amp;mdash; such as citalopram (Celexa), escitalopram (Lexapro), fluoxetine (Prozac, Prozac Weekly), paroxetine (Paxil, Paxil CR, Pexeva) or sertraline (Zoloft) &amp;mdash; can lead to mild platelet dysfunction, which may worsen bleeding symptoms. Your doctor may recommend switching to a different antidepressant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Keep your weight at normal levels and stay physically active. However, avoid activities that could cause bruising (for example, football, wrestling, hockey). Safe activities that can keep your muscles flexible and joints healthy include walking, bicycling and swimming.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because von Willebrand disease is an inherited disorder, consider having genetic counseling if you have a family history of this condition and you&apos;re planning to have children. If you carry the defective gene for von Willebrand disease, you can pass it on to your offspring, even if you don&apos;t have symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Von Willebrand disease
+	</Title>
+	<Abstract>
+		Von Willebrand disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this bleeding disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+	</RelatedLinksBox>
+</Disease>

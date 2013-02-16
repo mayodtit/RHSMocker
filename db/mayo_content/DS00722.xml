@@ -1,0 +1,248 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00722
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bullous-pemphigoid/DS00722
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2284" Title="Blister">
+							<Keyword MCVID="2846" Title="Bullous pemphigoid" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A4BF8E22-E7FF-0DBD-1836DD26AAA9C451
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bullous pemphigoid
+			</MetaKeyword>
+			<MetaKeyword>
+				blisters
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bullous pemphigoid (BUL-us PEM-fih-goid) is a rare skin condition that causes large, fluid-filled blisters on areas of skin that often flex &amp;mdash; such as the lower abdomen, upper thighs or armpits. Bullous pemphigoid is most common in people older than age 60.
+&lt;/p&gt;
+&lt;p&gt;
+Bullous pemphigoid occurs when your immune system attacks a thin layer of tissue below your outer layer of skin. The reason for this abnormal immune response is unknown, although it sometimes can be triggered by taking certain medications.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment usually includes corticosteroids, such as prednisone, and other drugs that suppress the immune system. Bullous pemphigoid can be life-threatening, especially for older people who are already in poor health.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing bullous pemphigoid 
+" Caption="People with bullous pemphigoid may develop multiple blisters. When the blisters rupture, they leave a sore that typically heals without scarring. 
+" Height="60" Title="Bullous pemphigoid" URI="/images/image_popup/thumbs/r7_bullouspemphigoidthu.jpg" Width="60" />
+				<Image Alt="Photograph showing bullous pemphigoid 
+" Caption="People with bullous pemphigoid may develop multiple blisters. When the blisters rupture, they leave a sore that typically heals without scarring. 
+" Height="400" Title="Bullous pemphigoid" URI="/images/image_popup/r7_bullouspemphigoid.jpg" Width="400" />
+				<HTML>
+					People with bullous pemphigoid may develop multiple blisters. When the blisters rupture, they leave a sore that typically heals without scarring. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary feature of bullous pemphigoid is the appearance of large blisters that don&apos;t easily rupture when touched. The fluid inside the blisters is usually clear but may contain some blood. The skin around the blisters may appear normal or red.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, the blisters appear on the lower abdomen, groin, upper thighs and arms. Blisters are often located along creases or folds in the skin, such as the skin on the inner side of a joint. The affected areas of skin can be very itchy. You might also develop blisters or sores in your mouth. Rarely, the mucous membranes of the eyes can be involved, creating redness, soreness and discomfort.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you develop unexplained blistering &amp;mdash; a condition not caused, for example, by a known skin allergy or contact with poison ivy &amp;mdash; see your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing bullous pemphigoid 
+" Caption="People with bullous pemphigoid may develop multiple blisters. When the blisters rupture, they leave a sore that typically heals without scarring. 
+" Height="60" Title="Bullous pemphigoid" URI="/images/image_popup/thumbs/r7_bullouspemphigoidthu.jpg" Width="60" />
+				<Image Alt="Photograph showing bullous pemphigoid 
+" Caption="People with bullous pemphigoid may develop multiple blisters. When the blisters rupture, they leave a sore that typically heals without scarring. 
+" Height="400" Title="Bullous pemphigoid" URI="/images/image_popup/r7_bullouspemphigoid.jpg" Width="400" />
+				<HTML>
+					People with bullous pemphigoid may develop multiple blisters. When the blisters rupture, they leave a sore that typically heals without scarring. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of bullous pemphigoid is not well understood. The blisters occur because of a malfunction in the immune system.
+&lt;/p&gt;
+&lt;p&gt;
+Your body&apos;s immune system normally produces antibodies to fight bacteria, viruses or other potentially harmful foreign substances. For reasons that are not clear, the body may develop an antibody to a particular tissue in your body.
+&lt;/p&gt;
+&lt;p&gt;
+In bullous pemphigoid, the immune system produces antibodies to the skin&apos;s basement membrane, a thin layer of fibers connecting the outer layer of skin (epidermis) and the next layer of skin (dermis). These antibodies trigger inflammatory activity that produces the blisters and itching of bullous pemphigoid. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Contributing factors&lt;br /&gt;
+&lt;/strong&gt;Bullous pemphigoid usually appears randomly with no clear factors contributing to the onset of disease. A small percentage of cases may be triggered by certain medical treatments, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Prescription drugs that may cause bullous pemphigoid include penicillin, etanercept (Enbrel), sulfasalazine (Azulfidine) and furosemide (Lasix). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Light and radiation.&lt;/strong&gt; Ultraviolet light therapy to treat certain skin conditions may trigger bullous pemphigoid, as can radiation therapy to treat cancer. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bullous pemphigoid most commonly occurs in people older than age 60, and the risk increases with age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If ruptured blisters become infected, this can lead to sepsis &amp;mdash; a potentially life-threatening infection that affects your entire body. This serious complication is more likely to occur in older adults who are in generally poor health. Rare forms of pemphigoid involving the mucous membranes of the mouth or eye can lead to scarring. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your primary care doctor. He or she may refer you to a doctor who specializes in skin disorders (dermatologist). You may want to bring a friend or relative to your appointment. This person, in addition to offering support, can write down information from your doctor or other clinic staff during the visit. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare a list&lt;br /&gt;
+&lt;/strong&gt;You should make a list to share with your doctor that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The name and contact information of any doctor you have seen recently or see regularly&lt;/li&gt;
+	&lt;li&gt;Prescription medications and dosages&lt;/li&gt;
+	&lt;li&gt;Over-the-counter drugs or dietary supplements you take regularly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will likely ask you a number of questions. Be prepared to answer the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did these symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Where are the blisters located? Do they itch?&lt;/li&gt;
+	&lt;li&gt;Have you observed any oozing, draining of pus or bleeding?&lt;/li&gt;
+	&lt;li&gt;Have you recently started new medications?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To confirm the diagnosis, your doctor might take a small sample of the affected skin for laboratory testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goals of bullous pemphigoid treatment are to help the skin heal as quickly as possible and relieve itching. Your doctor will likely prescribe a combination of drugs that inhibit immune system activities that cause inflammation. These drugs may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; The most common treatment is prednisone, which comes in pill form. But long-term use can increase your risk of weak bones, diabetes, high blood pressure, high cholesterol and cataracts. Corticosteroid ointment can be rubbed on your affected skin and cause fewer side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressants.&lt;/strong&gt; These drugs inhibit the production of your body&apos;s disease-fighting white blood cells. Examples include azathioprine (Azasan, Imuran) and mycophenolate mofetil (CellCept). Immunosuppressants are often used to help reduce the dosage of prednisone you may need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-inflammatories.&lt;/strong&gt; A variety of drugs with anti-inflammatory properties may be used alone or in combination with corticosteroids. Examples include methotrexate (Trexall), a rheumatoid arthritis drug; tetracycline, an antibiotic with anti-inflammatory properties; and dapsone (Aczone), a leprosy treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have bullous pemphigoid, you can help take care of your condition with the following self-care strategies: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid injury.&lt;/strong&gt; The blisters of bullous pemphigoid and corticosteroid ointment can make your skin fragile. If a blister on your skin breaks, cover it with a dry, sterile dressing to protect it from infection as it heals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sun exposure.&lt;/strong&gt; Avoid prolonged sun exposure on any area of the skin affected by bullous pemphigoid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what you eat.&lt;/strong&gt; If you have blisters in your mouth, avoid eating hard and crunchy foods, such as chips and raw fruits and vegetables, because these types of foods might aggravate symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bullous pemphigoid
+	</Title>
+	<Abstract>
+		Bullous pemphigoid &amp;mdash; Comprehensive overview covers symptoms, treatment of this blistery skin condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+	</RelatedLinksBox>
+</Disease>

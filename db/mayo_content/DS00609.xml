@@ -1,0 +1,349 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00609
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lymphedema/DS00609
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-15
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="2266" Title="Lymphedema" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DD007BDD-2A5D-9994-E86567A80A01CB2D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lymphedema
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphatic system
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphocytes
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph nodes
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphodema
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphadema
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphodemia
+			</MetaKeyword>
+			<MetaKeyword>
+				leg swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				arm swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling in leg
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling in arm
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lymphedema refers to swelling that generally occurs in one of your arms or legs. Although lymphedema tends to affect just one arm or leg, sometimes both arms or both legs may be swollen. 
+&lt;/p&gt;
+&lt;p&gt;
+Lymphedema is caused by a blockage in your lymphatic system, an important part of your immune and circulatory systems. The blockage prevents lymph fluid from draining well, and as the fluid builds up, the swelling continues. Lymphedema is most commonly caused by the removal of or damage to your lymph nodes as a part of cancer treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for lymphedema, but it can be controlled. Controlling lymphedema involves diligent care of your affected limb. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lymphedema symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling of part of your arm or leg or your entire arm or leg, including your fingers or toes&lt;/li&gt;
+	&lt;li&gt;A feeling of heaviness or tightness in your arm or leg&lt;/li&gt;
+	&lt;li&gt;Restricted range of motion in your arm or leg&lt;/li&gt;
+	&lt;li&gt;Aching or discomfort in your arm or leg&lt;/li&gt;
+	&lt;li&gt;Recurring infections in your affected limb&lt;/li&gt;
+	&lt;li&gt;Hardening and thickening of the skin on your arm or leg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The swelling caused by lymphedema ranges from mild, hardly noticeable changes in the size of your arm or leg to extreme swelling that can make it impossible to use the affected limb. If your lymphedema is caused by cancer treatment, you may not notice any swelling until months or years after treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you notice any persistent swelling in your arm or leg. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of a person with leg lymphedema
+" Caption="Lymphedema is swelling in an arm or leg. In rare circumstances it affects both arms or both legs.
+" Height="60" Title="Leg lymphedema" URI="/images/image_popup/thumbs/r7_lymphedemathu.jpg" Width="60" />
+				<Image Alt="Photograph of a person with leg lymphedema
+" Caption="Lymphedema is swelling in an arm or leg. In rare circumstances it affects both arms or both legs.
+" Height="400" Title="Leg lymphedema" URI="/images/image_popup/r7_lymphedema.jpg" Width="400" />
+				<HTML>
+					Lymphedema is swelling in an arm or leg. In rare circumstances it affects both arms or both legs.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your lymphatic system is crucial to keeping your body healthy. It circulates protein-rich lymph fluid throughout your body, collecting bacteria, viruses and waste products. Your lymphatic system carries this fluid and harmful substances through your lymph vessels, which lead to lymph nodes. The wastes are then filtered out by lymphocytes &amp;mdash; infection-fighting cells that live in your lymph nodes &amp;mdash; and ultimately flushed from your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Lymphedema occurs when your lymph vessels are unable to adequately drain lymph fluid, usually from an arm or leg. Lymphedema can be either primary or secondary. This means it can occur on its own (primary lymphedema) or it can be caused by another disease or condition (secondary lymphedema). Secondary lymphedema is far more common than primary lymphedema. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of secondary lymphedema&lt;/strong&gt;&lt;br /&gt;
+Any condition or procedure that damages your lymph nodes or lymph vessels can cause lymphedema. Causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Lymphedema can develop if your lymph nodes and lymph vessels are removed or cut. For instance, surgery for breast cancer may include the removal of one or more lymph nodes in your armpit to look for evidence that cancer has spread. If your remaining lymph nodes and lymph vessels can&apos;t compensate for those that have been removed, lymphedema may result in your arm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation treatment for cancer.&lt;/strong&gt; Radiation can cause scarring and inflammation of your lymph nodes or lymph vessels, restricting flow of lymph fluid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; If cancer cells block lymphatic vessels, lymphedema may result. For instance, a tumor growing near a lymph node or lymph vessel could become large enough to block the flow of the lymph fluid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; An infection of the lymph nodes can restrict the flow of lymph fluid and cause lymphedema. Parasites also can block lymph vessels. Infection-related lymphedema is most common in tropical and subtropical regions of the globe and is more likely to occur in developing countries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of primary lymphedema&lt;/strong&gt;&lt;br /&gt;
+Primary lymphedema is a rare, inherited condition caused by problems with the development of lymph vessels in your body. Primary lymphedema occurs most frequently in women. Specific causes of primary lymphedema include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Milroy&apos;s disease (congenital lymphedema).&lt;/strong&gt; This is an inherited disorder that begins in infancy and causes your lymph nodes to form abnormally, leading to lymphedema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meige&apos;s disease (lymphedema praecox).&lt;/strong&gt; This hereditary disorder often causes lymphedema in childhood or around puberty, though it can occur in your 20s or early 30s. It causes your lymph vessels to form without the valves that keep lymph fluid from flowing backward, making it difficult for your body to properly drain the lymph fluid from your limbs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Late-onset lymphedema (lymphedema tarda).&lt;/strong&gt; This occurs rarely and usually begins after age 35.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lymphedema in your arm or leg can lead to serious complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Lymphedema makes your affected arm or leg particularly vulnerable to infections. Possible infections include cellulitis &amp;mdash; a serious bacterial infection of the skin &amp;mdash; and lymphangitis &amp;mdash; an infection of the lymph vessels. Any injury to your arm or leg can be an entry point for an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lymphangiosarcoma.&lt;/strong&gt; This rare form of soft tissue cancer can result from the most-severe cases of untreated lymphedema. Possible signs of lymphangiosarcoma include blue-red or purple marks on the skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s a good idea to arrive well prepared for your doctor&apos;s appointment. Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major illnesses, cancer treatments or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For lymphedema, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of this swelling?&lt;/li&gt;
+	&lt;li&gt;Could there be any other cause?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? And, do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is the swelling temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;How can lymphedema be treated?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any medications I can take to ease the swelling?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the swelling?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any other signs or symptoms?&lt;/li&gt;
+	&lt;li&gt;Has the swelling been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make the swelling better?&lt;/li&gt;
+	&lt;li&gt;Have you noticed if anything appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+In the days leading up to your doctor&apos;s appointment, keep your swollen limb elevated as much as possible. More importantly, take steps to protect your skin from injury. The swelling from lymphedema might dull pain from an injury or from a heat source. Try to moisturize your skin daily, and don&apos;t use heating pads on the affected limb. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may try to rule out other causes of swelling when diagnosing lymphedema. Swelling can have many causes, including a blood clot or an infection that doesn&apos;t involve your lymph nodes. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re at risk of lymphedema &amp;mdash; for instance, if you&apos;ve recently had cancer surgery involving your lymph nodes &amp;mdash; your doctor may diagnose lymphedema based on your signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+If the cause of your lymphedema isn&apos;t as obvious, your doctor may order imaging tests to determine what&apos;s causing your signs and symptoms. To get a look at your lymphatic system, your doctor may use an imaging technique, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Using a magnetic field and radio waves, an MRI produces 3-D, high-resolution images. An MRI gives your doctor a better look at the tissues in your arm or leg. He or she might be able to use an MRI to see characteristics of lymphedema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A CT scan &amp;mdash; also called computerized tomography, or just CT &amp;mdash; is an X-ray technique that produces detailed, cross-sectional images of your body&apos;s structures. CT scans can reveal areas of the lymphatic system that may be blocked.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doppler ultrasound.&lt;/strong&gt; This variation of the conventional ultrasound looks at blood flow and pressure by bouncing high-frequency sound waves (ultrasound) off red blood cells. Ultrasound can be helpful in finding obstructions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radionuclide imaging of your lymphatic system (lymphoscintigraphy).&lt;/strong&gt; During this test you&apos;re injected with a radioactive dye and then scanned by a machine. The resulting images show the dye moving through your lymph vessels, highlighting areas where the lymph fluid is blocked.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for lymphedema. Treatment focuses on reducing the swelling and controlling the pain. Lymphedema treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercises.&lt;/strong&gt; Light exercises that require you to move your affected arm or leg may encourage movement of the lymph fluid out of your limb. These exercises shouldn&apos;t be strenuous or make you tired. Instead, they should focus on gentle contraction of the muscles in your arm or leg. Your doctor or a physical therapist can teach you exercises that may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wrapping your arm or leg.&lt;/strong&gt; Bandages wrapped around your entire limb encourage lymph fluid to flow back out of your affected limb and toward the trunk of your body. When bandaging your arm or leg, start by making the bandage tightest around your fingers and toes. Wrap the bandage more loosely as you move up your arm or leg. A lymphedema therapist can show you how to wrap your limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; A special massage technique called manual lymph drainage may encourage the flow of lymph fluid out of your arm or leg. Manual lymph drainage involves special hand strokes on your affected limb to gently move lymph fluid to healthy lymph nodes, where it can drain. Massage isn&apos;t for everyone. Avoid massage if you have a skin infection, active cancer, blood clots or congestive heart failure. Also avoid massage on areas of your body that have received radiation therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumatic compression.&lt;/strong&gt; If you receive pneumatic compression, you&apos;ll wear a sleeve over your affected arm or leg. The sleeve is connected to a pump that intermittently inflates the sleeve, putting pressure on your limb. The inflated sleeve gently moves lymph fluid away from your fingers or toes, reducing the swelling in your arm or leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression garments.&lt;/strong&gt; Compression garments include long sleeves or stockings made to compress your arm or leg to encourage the flow of the lymph fluid out of your affected limb. Once you&apos;ve reduced swelling in your arm or leg through other measures, your doctor may suggest you wear compression garments to prevent your limb from swelling in the future. Obtain a correct fit for your compression garment by getting professional help &amp;mdash; ask your doctor where you can buy compression garments in your community. Some people will require custom-made compression garments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When several of these treatments are combined, this therapy may be referred to as complete decongestive therapy (CDT). Generally, CDT isn&apos;t recommended for people who have high blood pressure, diabetes, paralysis, heart failure, blood clots or acute infections. 
+&lt;/p&gt;
+&lt;p&gt;
+In cases of severe lymphedema, your doctor may consider surgery to remove excess tissue in your arm or leg. While this reduces severe swelling, surgery can&apos;t cure lymphedema. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It can be frustrating to know that no cure exists for lymphedema. But if you&apos;re frustrated with the daily bandaging or constant need to protect your affected limb, know that you can control some aspects of lymphedema. To help you cope, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about lymphedema.&lt;/strong&gt; Knowing what lymphedema is and what causes it helps you better understand the signs and symptoms you experience. The more you know, the better you can communicate with your doctor or physical therapist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your affected limb.&lt;/strong&gt; Do your best to prevent complications in your arm or leg. Clean your skin daily, looking over every inch of your affected limb for signs of trouble, such as cracks and cuts. Apply lotion to prevent dry skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your whole body.&lt;/strong&gt; Eat a diet full of fruits and vegetables. Exercise daily, if you can. Reduce the stress in your life that you can control. Try to get enough sleep so that you wake up refreshed each morning. Taking care of your body gives you more energy, encourages healing and helps you control your lymphedema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get support from others with lymphedema.&lt;/strong&gt; Whether you attend support group meetings in your community or participate in online message boards and chat rooms, it helps to talk to people who understand what you&apos;re going through. Contact the National Lymphedema Network to find support groups in your area. They can also put you in touch with other people with lymphedema with whom you can connect via email or letter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you feel frustrated or overwhelmed by lymphedema, talk to your doctor or other health care provider about how you feel. He or she may be able to address your concerns. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re at risk of developing secondary lymphedema, you can take measures to help prevent it. If you&apos;ve had or are going to have cancer surgery, ask your doctor whether your particular procedure will involve your lymph nodes or lymph vessels. Ask if your radiation treatment will be aimed at any of your lymph nodes, so you&apos;ll be aware of the possible risks. 
+&lt;/p&gt;
+&lt;p&gt;
+To reduce your risk of lymphedema, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your arm or leg.&lt;/strong&gt; Avoid any injury to your affected limb. Cuts, scrapes and burns can all invite infection, which can result in lymphedema. Protect yourself from sharp objects. For example, shave with an electric razor, wear gloves when you garden or cook, and use a thimble when you sew. If possible, avoid medical procedures, such as blood draws and vaccinations, in your affected limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest your arm or leg while recovering.&lt;/strong&gt; After cancer treatment, avoid heavy activity with that limb. Early exercise and stretching are encouraged, but avoid strenuous activity until you&apos;ve recovered from surgery or radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid heat on your arm or leg.&lt;/strong&gt; Don&apos;t apply heat, such as with a heating pad, to your affected limb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate your arm or leg.&lt;/strong&gt; When you get a chance, elevate your affected limb above the level of your heart, if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tight clothing.&lt;/strong&gt; Avoid anything that could constrict your arm or leg, such as tightfitting clothing and, in the case of your arm, blood pressure readings. Ask that your blood pressure be taken in your other arm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your arm or leg clean.&lt;/strong&gt; Make skin care and nail care high priorities. Inspect the skin on your arm or leg every day, keeping watch for changes or breaks in your skin that could lead to infection. Don&apos;t go barefoot outdoors.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lymphedema
+	</Title>
+	<Abstract>
+		Lymphedema &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this condition associated with limb swelling.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

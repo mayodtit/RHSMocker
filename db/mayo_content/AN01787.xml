@@ -1,0 +1,121 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01787
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/quit-smoking/AN01787
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1255" Title="Quit smoking">
+					<Keyword MCVID="4019" Title="Living smoke-free" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			59D5B6F9-E7FF-0DBD-146590EB8213E46D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				smokers cough
+			</MetaKeyword>
+			<MetaKeyword>
+				smoking
+			</MetaKeyword>
+			<MetaKeyword>
+				quit smoking
+			</MetaKeyword>
+			<MetaKeyword>
+				stop smoking
+			</MetaKeyword>
+			<MetaKeyword>
+				cough
+			</MetaKeyword>
+			<MetaKeyword>
+				coughing
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic cough
+			</MetaKeyword>
+			<MetaKeyword>
+				smokers hack
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s not common, some people seem to cough more than usual soon after stopping smoking. The cough is usually temporary and might actually be a sign that your body is starting to heal. 
+&lt;/p&gt;
+&lt;p&gt;
+Tobacco smoke slows the normal movement of the microscopic hairs (cilia) that line your lungs. When you stop smoking, the cilia become active again. As the cilia recover and the mucus is cleared from your lungs, you might cough more than usual &amp;mdash; perhaps for several weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+In the meantime, you can speed the process by staying well hydrated. Drink plenty of fluids, such as water and juice. You might also increase the humidity in the air with a humidifier or vaporizer. 
+&lt;/p&gt;
+&lt;p&gt;
+Consult your doctor if the coughing lasts more than a month or you cough blood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coughing after quitting smoking: What&apos;s the deal?
+	</Title>
+	<Abstract>
+		Coughing after you quit smoking might be a sign that your body is starting to heal.
+	</Abstract>
+	<Question>
+		I quit smoking six weeks ago, but now I&apos;m coughing a lot &amp;mdash; which didn&apos;t happen when I was smoking. What&apos;s going on?
+	</Question>
+	<QuestionFirstName>
+		Janet
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01985" LinkType="Internal" ObjectID="1548EB2C-0F9F-0856-694CCFCAB364F371" Title="Thirdhand smoke: What are the dangers to nonsmokers?" Url="http://www.mayoclinic.com/health/third-hand-smoke/AN01985" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Article" DocID="MH00002" LinkType="Internal" ObjectID="24EFE323-6344-484C-BADD87CBB450A08F" Title="Support groups: Make connections, get help" Url="http://www.mayoclinic.com/health/support-groups/MH00002" />
+		<LinkItem ContentType="Article" DocID="SR00032" LinkType="Internal" ObjectID="15AC47CB-E7FF-0DBD-1E403F470F686D23" Title="Stress management: Re-examine your stress reactions" Url="http://www.mayoclinic.com/health/stress-management/SR00032" />
+		<LinkItem ContentType="Answer" DocID="AN01437" LinkType="Internal" ObjectID="CC28AD42-E7FF-0DBD-1E4E2D5F24D1C2E2" Title="Quit smoking, gain weight: Is it inevitable?" Url="http://www.mayoclinic.com/health/quit-smoking/AN01437" />
+	</RelatedLinksBox>
+</Answer>

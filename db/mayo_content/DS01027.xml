@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01027
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stuttering/DS01027
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-08
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="3285" Title="Communication disorders">
+							<Keyword MCVID="3286" Title="Stuttering" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4CA35861-E7FF-0DBD-1BA201E1C2C8954E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stuttering
+			</MetaKeyword>
+			<MetaKeyword>
+				stammering
+			</MetaKeyword>
+			<MetaKeyword>
+				dysfluency
+			</MetaKeyword>
+			<MetaKeyword>
+				fluency disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				dysfluent speech
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stuttering &amp;mdash; also called stammering &amp;mdash; is a speech disorder that involves repeating or prolonging a word, syllable or phrase, or stopping during speech and making no sound for certain syllables. People who stutter know what they want to say, but have difficulty saying it. 
+&lt;/p&gt;
+&lt;p&gt;
+Stuttering is common among young children as a normal part of learning to speak. Sometimes, however, stuttering is a chronic condition that persists into adulthood. This type of stuttering can have an impact on self-esteem and interactions with other people. 
+&lt;/p&gt;
+&lt;p&gt;
+Children and adults who stutter may benefit from treatments such as speech therapy, psychological counseling or using electronic devices to improve speech patterns. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stuttering symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty starting a word, sentence or phrase&lt;/li&gt;
+	&lt;li&gt;Repetition of a sound, syllable or word&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The speech difficulties of stuttering may be accompanied by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid eye blinks&lt;/li&gt;
+	&lt;li&gt;Tremors of the lips or jaw&lt;/li&gt;
+	&lt;li&gt;Tension, tightness or movement of the face or upper body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Stuttering may be worse when you&apos;re excited, tired or under stress, or when you feel self-conscious, hurried or pressured. Situations such as speaking in front of a group or talking on the telephone can be particularly difficult for people who stutter. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It&apos;s common for children between the ages of 2 and 5 to stutter. For most children, this is part of learning to speak, and it gets better on its own. However, stuttering that persists may require treatment to get better.
+&lt;/p&gt;
+&lt;p&gt;
+Call your child&apos;s doctor for an appointment if stuttering: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lasts more than six months&lt;/li&gt;
+	&lt;li&gt;Becomes more frequent&lt;/li&gt;
+	&lt;li&gt;Occurs along with facial tension or tightness&lt;/li&gt;
+	&lt;li&gt;Occurs with other facial or body movements&lt;/li&gt;
+	&lt;li&gt;Affects your child&apos;s schoolwork or social interactions&lt;/li&gt;
+	&lt;li&gt;Causes emotional problems, such as fear or avoidance of situations in which your child has to talk&lt;/li&gt;
+	&lt;li&gt;Continues beyond age 5 or first becomes noticeable when your child begins reading aloud in school&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re an adult who stutters, seek help if stuttering causes you stress or anxiety or affects your self-esteem, career or relationships. See your doctor or a speech-language pathologist, or search for a program designed to treat adult stuttering.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A combination of factors may be involved in stuttering. Possible causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Normal speech development.&lt;/strong&gt; Young children may stutter when their speech and language abilities aren&apos;t developed enough to keep up with what they want to say. Most children outgrow developmental stuttering within four years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited brain abnormalities.&lt;/strong&gt; Stuttering tends to run in families. It appears that stuttering results from inherited (genetic) abnormalities in the language centers of the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke or brain injury.&lt;/strong&gt; Stuttering can sometimes result from a stroke, trauma or other brain injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mental health problems.&lt;/strong&gt; In isolated cases, emotional trauma or problems with thoughts or reasoning lead to stuttering. This was once believed to be the main cause of stuttering, but it&apos;s now known that it&apos;s uncommon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Researchers are still studying the underlying causes of stuttering. It&apos;s not clear why most people who stutter can speak without stuttering when they talk to themselves and when they sing or speak in unison with someone else.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="60" Title="How speech occurs" URI="/images/image_popup/thumbs/r7_vocalcordsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="295" Title="How speech occurs" URI="/images/image_popup/r7_vocalcords.jpg" Width="400" />
+				<HTML>
+					Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of stuttering include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having relatives who stutter.&lt;/strong&gt; Stuttering tends to run in families. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Delayed childhood development.&lt;/strong&gt; Children who have developmental delays or other speech problems are more likely to stutter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Males are much more likely to stutter than are females.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; High parental expectations or other types of pressure can worsen existing stuttering.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stuttering can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low self-esteem&lt;/li&gt;
+	&lt;li&gt;Not speaking or avoiding situations that require speaking&lt;/li&gt;
+	&lt;li&gt;Being bullied or teased&lt;/li&gt;
+	&lt;li&gt;Social anxiety disorder&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first discuss stuttering with your child&apos;s pediatrician or your family doctor. The doctor may then refer you to a speech and language disorders specialist (speech-language pathologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor or speech-language pathologist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Take these steps prior to your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; such as when your child said his or her first word and when he or she started speaking in sentences. Also, try to recall when you first noticed your child stuttering and if anything makes it better or worse. If you&apos;re an adult who stutters, be prepared to discuss how stuttering has affected your life, current problems it may be causing and what treatments you&apos;ve had in the past.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions &lt;/strong&gt;you&apos;d like to ask the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s causing my stuttering or my child&apos;s stuttering?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions at any time during your appointment, and ask for clarification if you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor or speech-language pathologist&lt;br /&gt;
+&lt;/strong&gt;Your doctor or speech-language pathologist is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to discuss further. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice stuttering?&lt;/li&gt;
+	&lt;li&gt;Is stuttering always present, or does it come and go?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve stuttering?&lt;/li&gt;
+	&lt;li&gt;Does anything appear to make it worse?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have a history of stuttering?&lt;/li&gt;
+	&lt;li&gt;What effect has stuttering had on your life or your child&apos;s life, such as school or work performance or social interaction?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re the parent of a child who stutters, the doctor or speech-language pathologist will ask questions about your child&apos;s health history, including when he or she began stuttering and when stuttering is most frequent. The doctor or speech-language pathologist may talk to your child, and may ask him or her to read aloud to watch for subtle differences in speech.
+&lt;/p&gt;
+&lt;p&gt;
+The doctor or speech-language pathologist will want to differentiate between the repetition of syllables and mispronunciation of words that&apos;s normal in young children, and stuttering that&apos;s likely to be a long-term condition. He or she will also want to rule out another underlying condition that can cause irregular speech, such as Tourette&apos;s syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re an adult who stutters, the doctor or speech-language pathologist may ask you additional questions to better understand how stuttering affects you. He or she will want to know how it has impacted your relationships, school performance, career and other areas of your life, and how much stress it causes. He or she will also want to know what treatments you&apos;ve tried in the past. This will help determine what type of treatment approach may serve you best. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of treatment approaches are used to treat children and adults who stutter. Treatment for stuttering may be done at home, with a speech-language pathologist or as part of an intensive program. Often, treatment includes a few different approaches. These can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Controlled fluency.&lt;/strong&gt; This type of speech therapy teaches you to slow down your speech and learn to notice when you stutter. You may speak very slowly and deliberately when beginning this type of speech therapy, but over time, you&apos;ll work up to a more natural speech pattern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electronic devices.&lt;/strong&gt; Several electronic devices are available to help people who stutter. They use one of a few methods. One is called delayed auditory feedback, a method that requires you to slow your speech or the speech will sound distorted through the machine. Another method mimics your speech so that it sounds as if you are talking in unison with someone else. Some electronic devices are designed to be worn during daily activities. For example, some are worn in the ear like a hearing aid. Other devices use a headphone connected to a small box that can be carried in a pocket.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive behavioral therapy.&lt;/strong&gt; This type of psychological counseling can help you learn to identify and change ways of thinking that might make stuttering worse. It can also help you resolve underlying stress, anxiety or self-esteem problems related to stuttering.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parental involvement.&lt;/strong&gt; Parental support is a key part of helping a child cope with stuttering. For example, parents can help slow the child&apos;s speech patterns and praise the child for speaking fluently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More intensive treatments for adults who stutter include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment at a hospital or clinic.&lt;/strong&gt; This type of treatment generally involves attending sessions that range from one to four hours a week over a period of several weeks to months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intensive programs.&lt;/strong&gt; Some experts believe the most effective approach to stuttering is an intensive program. The concept is similar to the immersion model of learning a foreign language. Intensive treatment programs generally last two to four weeks and may involve 30 to 100 hours of treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Intensive treatment generally includes exercises to reduce stuttering, opportunities to practice speaking in groups, and learning steps to reduce stress and anxiety associated with stuttering. 
+&lt;/p&gt;
+&lt;p&gt;
+Although some medications have been tried for stuttering, no drugs have been proved yet to help the problem.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative therapies such as acupuncture and breathing exercises have been tried for stuttering, but there&apos;s limited evidence that these approaches are effective. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you are the parent of a child who stutters, the following tips may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Listen attentively to your child.&lt;/strong&gt; Maintain natural eye contact when he or she speaks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wait for your child to say the word he or she is trying to say.&lt;/strong&gt; Don&apos;t jump in to complete the sentence or thought.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set aside time when you can talk to your child without distractions.&lt;/strong&gt; Mealtimes can provide a good opportunity for conversation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speak slowly, in an unhurried&lt;/strong&gt; &lt;strong&gt;way.&lt;/strong&gt; If you speak in this way, your child will often do the same, which can help decrease stuttering.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take turns talking.&lt;/strong&gt; Encourage everyone in your family to be a good listener and to take turns talking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strive for calm.&lt;/strong&gt; Do your best to create a relaxed, calm atmosphere at home in which your child feels comfortable speaking freely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t focus on your child&apos;s stuttering.&lt;/strong&gt; Try not to draw attention to the stuttering during daily interactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Offer praise rather than criticism.&lt;/strong&gt; It&apos;s better to praise your child for speaking clearly than to draw attention to stuttering. If you do correct your child&apos;s speech, do so in a gentle, positive way.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accept your child just as he or she is.&lt;/strong&gt; Support and encouragement can make a big difference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When it comes to stuttering, many parents are naturally inclined to direct, challenge or chastise their child. But in some cases these actions have the opposite effect because they can add to feelings of insecurity and self-consciousness and can lower self-esteem. Avoid the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Asking your child lots of questions&lt;/li&gt;
+	&lt;li&gt;Interrupting your child when he or she is speaking&lt;/li&gt;
+	&lt;li&gt;Reacting in a negative way to stuttering&lt;/li&gt;
+	&lt;li&gt;Insisting your child repeat stuttered words or telling him or her to start over when stuttering&lt;/li&gt;
+	&lt;li&gt;Asking your child to speak in front of a group of people&lt;/li&gt;
+	&lt;li&gt;Telling your child to think before speaking&lt;/li&gt;
+	&lt;li&gt;Exposing your child to situations that create a sense of urgency, pressure or a need to rush&lt;/li&gt;
+	&lt;li&gt;Punishing your child for stuttering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Connecting with other people&lt;br /&gt;
+&lt;/strong&gt;It can also be helpful for children, parents and adults who stutter to connect with other people who stutter or who have children that stutter. Several organizations offer support groups. Along with providing encouragement, support group members may offer advice and coping tips you might not have considered. You can reach the Stuttering Foundation at 800-992-9392 and the National Stuttering Association at 800-WESTUTTER (800-937-8888), or on their websites. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stuttering
+	</Title>
+	<Abstract>
+		Stuttering &amp;mdash; Comprehensive overview covers causes, diagnosis, treatment and coping for this speech disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

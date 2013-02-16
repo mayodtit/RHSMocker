@@ -1,0 +1,339 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00954
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/knee-bursitis/DS00954
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1373" Title="Bursitis">
+						<Keyword MCVID="3838" Title="Knee bursitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE7744C-E7FF-0DBD-13F236C2C9F03613
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				knee bursitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bursitis
+			</MetaKeyword>
+			<MetaKeyword>
+				knee pain
+			</MetaKeyword>
+			<MetaKeyword>
+				knee inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				housemaid&apos;s knee
+			</MetaKeyword>
+			<MetaKeyword>
+				bursa
+			</MetaKeyword>
+			<MetaKeyword>
+				bursae
+			</MetaKeyword>
+			<MetaKeyword>
+				knee bursa
+			</MetaKeyword>
+			<MetaKeyword>
+				knee bursae
+			</MetaKeyword>
+			<MetaKeyword>
+				knee problems
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen knee
+			</MetaKeyword>
+			<MetaKeyword>
+				knee swelling
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knee bursitis is inflammation of a bursa located near your knee joint. A bursa is a small fluid-filled, pad-like sac that reduces friction and cushions pressure points between your bones and the tendons and muscles near your joints.
+&lt;/p&gt;
+&lt;p&gt;
+Each of your knees has 11 bursae. While any of these bursae can become inflamed, knee bursitis most commonly occurs over the kneecap or on the inner side of your knee below the joint.
+&lt;/p&gt;
+&lt;p&gt;
+Knee bursitis causes pain and can limit your mobility. Treatment for knee bursitis often includes a combination of self-care practices and doctor-administered treatments to alleviate pain and inflammation.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="60" Title="Knee bursae" URI="/images/image_popup/thumbs/mcdc7_knee_bursaethu.jpg" Width="60" />
+				<Image Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="376" Title="Knee bursae" URI="/images/image_popup/mcdc7_knee_bursae.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knee bursitis signs and symptoms may vary, depending on which bursa is affected and what precisely is causing the inflammation. In general, the affected portion of your knee may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feel warm to your touch&lt;/li&gt;
+	&lt;li&gt;Appear swollen or feel squishy to your touch&lt;/li&gt;
+	&lt;li&gt;Be painful or tender when you move or put pressure on it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A sharp blow to the knee can cause symptoms to appear rapidly. But most cases of knee bursitis result from repetitive injuries &amp;mdash; sustained in jobs that require a lot of kneeling &amp;mdash; so symptoms usually begin gradually and may worsen over time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;The bursa that lies over your kneecap can sometimes become infected. Call your doctor if you have a fever in addition to pain and swelling in your knee.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="60" Title="Knee bursae" URI="/images/image_popup/thumbs/mcdc7_knee_bursaethu.jpg" Width="60" />
+				<Image Alt="Illustration showing knee bursae 
+" Caption="Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+" Height="376" Title="Knee bursae" URI="/images/image_popup/mcdc7_knee_bursae.jpg" Width="400" />
+				<HTML>
+					Bursae are small fluid-filled sacs (shown in blue) that reduce friction between moving parts in your knee. Knee bursitis is inflammation or irritation of one or more of these bursae. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knee bursitis can be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent and sustained pressure, such as from kneeling&lt;/li&gt;
+	&lt;li&gt;A direct blow to your knee&lt;/li&gt;
+	&lt;li&gt;Frequent falls on your knee&lt;/li&gt;
+	&lt;li&gt;Bacterial infection of the bursa&lt;/li&gt;
+	&lt;li&gt;Complications from osteoarthritis, rheumatoid arthritis or gout in your knee&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knee bursitis is a common complaint, but the following factors may increase your risk of developing this painful disorder. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive kneeling.&lt;/strong&gt; People who work on their knees for long periods of time &amp;mdash; carpet layers, plumbers and gardeners &amp;mdash; are at increased risk of knee bursitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Participation in certain sports. &lt;/strong&gt;Sports that result in direct blows or frequent falls on the knee &amp;mdash; such as wrestling, football and volleyball &amp;mdash; may increase your risk of knee bursitis. Runners may develop pain and inflammation in the anserine bursa, located on the inner side of your knee below the joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity and osteoarthritis. &lt;/strong&gt;Obese women with osteoarthritis often develop bursitis involving the inner side of the knee below the joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired immune system. &lt;/strong&gt;People who have medical conditions or who take medications that make them more susceptible to infection may have a greater risk of infectious (septic) knee bursitis. These conditions include cancer, diabetes, lupus, alcoholism and HIV/AIDS.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a rheumatologist &amp;mdash; a doctor who specializes in arthritis and other joint disorders &amp;mdash; or an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For knee bursitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will I need to have any tests done?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need to limit my activities?&lt;/li&gt;
+	&lt;li&gt;Are there any self-care measures I can try?&lt;/li&gt;
+	&lt;li&gt;Do you have any informational brochures I can take home with me? What websites do your recommend for information about my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will conduct an examination to determine the cause of knee pain. He or she may begin with questions that can help distinguish bursitis from other disorders:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your pain begin?&lt;/li&gt;
+	&lt;li&gt;Did it begin suddenly or gradually?&lt;/li&gt;
+	&lt;li&gt;What kind of work or recreational activities do you do that may affect your knees?&lt;/li&gt;
+	&lt;li&gt;Does your pain occur or worsen when doing certain activities, such as kneeling or climbing stairs?&lt;/li&gt;
+	&lt;li&gt;Have you recently fallen, been in an accident or suffered a blow to your knee?&lt;/li&gt;
+	&lt;li&gt;What kind of treatments have you tried at home?&lt;/li&gt;
+	&lt;li&gt;What effect did those treatments have?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will inspect your knee by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Comparing the condition of both knees, particularly if only one is painful&lt;/li&gt;
+	&lt;li&gt;Gently pressing on different areas of your knee to detect warmth, swelling and the source of pain&lt;/li&gt;
+	&lt;li&gt;Carefully moving your legs and knees into different positions to determine the range of motion in your knee joint and identify movement associated with pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors often can make a diagnosis of knee bursitis during the physical exam. Tests to rule out other problems or to check for infection are sometimes necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;To help rule out injuries that may cause signs and symptoms similar to those of bursitis, your doctor may order one of more of the following imaging tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; While they can&apos;t visualize bursae, X-rays may be useful in revealing a bone fracture, tumor or arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRIs use radio waves and a strong magnetic field to produce detailed images of structures within your body. This technology is particularly good at visualizing soft tissues, such as bursae.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Using sound waves to produce images in real time, ultrasound can help your doctor better visualize swelling in the affected bursa. In some instances, your doctor may also use ultrasound to place a needle into the affected bursa to drain fluid and relieve symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Aspiration&lt;br /&gt;
+&lt;/strong&gt;If your doctor suspects that you have an infection or gout in the bursa, he or she may obtain a sample of the bursa fluid for testing by inserting a needle into the affected area and draining some of the fluid.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on which parts of your knee are affected, your doctor may recommend one or more treatment approaches. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications for treating knee bursitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid injection.&lt;/strong&gt; Your doctor can inject a corticosteroid drug directly into an affected bursa to reduce inflammation. The inflammation usually subsides rapidly, but you may experience pain and swelling from the injection for a couple of days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If an infection has caused the knee bursitis, your doctor will prescribe a course of antibiotic treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Possible therapies needed for knee bursitis treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aspiration.&lt;/strong&gt; Your doctor may aspirate a bursa to reduce excess fluid and treat inflammation. He or she will insert a needle directly into the affected bursa and draw fluid into the syringe. As with a corticosteroid injection, aspiration may cause short-term pain and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Your doctor may refer you to a physical therapist or specialist in sports medicine, who can help you learn appropriate exercises to improve flexibility and strengthen muscles. This therapy may alleviate pain and reduce your risk of recurring episodes of knee bursitis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If you have severe chronic bursitis and don&apos;t respond to other treatments, your doctor may recommend that the bursa be removed surgically.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To ease pain and discomfort of knee bursitis, try these home remedies. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest your knee.&lt;/strong&gt; Discontinue the activity that causes knee bursitis and avoid movements that worsen your pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply ice.&lt;/strong&gt; Apply an ice pack to your knee for 20 minutes at a time several times a day until the pain goes away and your knee no longer feels warm to the touch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply compression.&lt;/strong&gt; Use of a compressive wrap or knee sleeve can help to reduce swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate your knee.&lt;/strong&gt; Elevate your knee by propping up your legs on pillows. This can help reduce swelling in your knee.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps to avoid knee bursitis or prevent its recurrence:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear kneepads.&lt;/strong&gt; If you&apos;re working on your knees or participating in sports that put your knees at risk, use padding to cushion and protect your knees.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take breaks.&lt;/strong&gt; If you&apos;re on your knees for an extended period of time, take regular breaks to stretch your legs and give your knees a rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid excessive squatting.&lt;/strong&gt; Excessive or repetitious bending of your knees increases the force on your knee joints.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Knee bursitis
+	</Title>
+	<Abstract>
+		Knee bursitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention and self-care.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00032" LinkType="Internal" ObjectID="155B4438-0D8A-42D8-AE93C08753CBE114" Title="Bursitis" Url="http://www.mayoclinic.com/health/bursitis/DS00032" />
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+	</RelatedLinksBox>
+</Disease>

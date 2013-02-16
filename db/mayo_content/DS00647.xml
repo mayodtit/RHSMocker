@@ -1,0 +1,283 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00647
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sinus-headaches/DS00647
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-26
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="2039" Title="Other">
+							<Keyword MCVID="2073" Title="Sinus headaches" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			885D8035-2A5D-9994-E7BBBC19BA4E05EF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headache
+			</MetaKeyword>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				head pain
+			</MetaKeyword>
+			<MetaKeyword>
+				head aches
+			</MetaKeyword>
+			<MetaKeyword>
+				severe headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				sinusitis
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sinus headaches are headaches that may accompany sinusitis, a condition in which the membranes lining your sinuses become swollen and inflamed. You may feel pressure around your eyes, cheeks and forehead. Perhaps your head throbs. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people who assume they have sinus headaches, including many who have received a diagnosis of sinus headaches, actually have migraines or tension headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+When sinus headaches caused by sinusitis do occur, proper diagnosis and treatment are the keys to relief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sinus headache signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain, pressure and fullness in your cheeks, brow or forehead&lt;/li&gt;
+	&lt;li&gt;Pain worsening when bending forward or lying down&lt;/li&gt;
+	&lt;li&gt;Yellow-green or blood-tinged nasal discharge&lt;/li&gt;
+	&lt;li&gt;Stuffy nose&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Fever &lt;/li&gt;
+	&lt;li&gt;Cough &lt;/li&gt;
+	&lt;li&gt;Fatigue &lt;/li&gt;
+	&lt;li&gt;Achy feeling in your upper teeth&lt;/li&gt;
+	&lt;li&gt;Decreased ability to smell or taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sinus headache or migraine?&lt;br /&gt;
+&lt;/strong&gt;It&apos;s easy to confuse migraines and sinus headaches because the signs and symptoms of the two types of headaches overlap. 
+&lt;/p&gt;
+&lt;p&gt;
+As with sinus headaches, migraine pain often gets worse when you bend forward, and migraines can be accompanied by various nasal signs and symptoms &amp;mdash; including congestion, facial pressure and a clear, watery nasal discharge. In fact, studies have shown that approximately 90 percent of people who see a doctor for sinus headaches are found to have migraines instead. 
+&lt;/p&gt;
+&lt;p&gt;
+Sinus headaches, however, usually aren&apos;t associated with nausea or vomiting or aggravated by noise or bright light &amp;mdash; all common features of migraines. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your symptoms last longer than 10 days&lt;/li&gt;
+	&lt;li&gt;You have a severe headache, and over-the-counter pain medicine doesn&apos;t help&lt;/li&gt;
+	&lt;li&gt;You have a fever greater than 100.5 F (38 C)&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had several episodes of sinusitis within a year&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sinus headaches accompany sinusitis, a condition in which the membranes lining your sinuses become swollen and inflamed. Sinusitis can be caused by colds, bacterial or fungal infections, an impaired immune system, or structural problems in the nasal cavity. The resulting pressure changes in the sinuses can trigger headaches.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sinusitis can affect anyone. You may be more likely to develop chronic sinusitis if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Asthma&lt;/li&gt;
+	&lt;li&gt;Nasal growths (polyps)&lt;/li&gt;
+	&lt;li&gt;Allergies to dust, mold or pollen &lt;/li&gt;
+	&lt;li&gt;A weak immune system&lt;/li&gt;
+	&lt;li&gt;Exposure to pollutants, such as airborne chemicals&lt;/li&gt;
+	&lt;li&gt;A condition that affects the way mucus moves within your respiratory system, such as cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;Exposure to irritants, such as cigarette smoke&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may be referred to an ear, nose and throat doctor (otolaryngologist). Here&apos;s some information to help you get ready for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance, such as restricting your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you can help you remember what your doctor tells you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing questions will help you make the most of your time with your doctor. For sinus headaches, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed materials I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first experience your headache, and what was it like?&lt;/li&gt;
+	&lt;li&gt;Has your headache been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your immediate family had migraines?&lt;/li&gt;
+	&lt;li&gt;What seems to improve your headaches?&lt;/li&gt;
+	&lt;li&gt;What appears to worsen your headaches?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of headaches can be difficult to determine. The doctor will question you about your headaches and do a physical exam. Be sure to mention if you&apos;ve had a recent cold, if you have allergies and if you smoke, which may contribute to acute sinusitis.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may perform one of these tests to determine if you have sinusitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal endoscopy.&lt;/strong&gt; Tender sinuses may be one sign of sinusitis. The doctor may use a thin tube with a light (endoscope) to examine your nasal passages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mucus testing.&lt;/strong&gt; He or she may also test mucus samples from inside your nose for evidence of a bacterial or fungal infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Examples include CT or MRI scans. CT scans use a computer to create cross-sectional images of your brain and head (including your sinuses) by combining images from an X-ray unit that rotates around your body. With MRIs, a magnetic field and radio waves are used to create cross-sectional images of the structures within your brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re diagnosed with sinusitis, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If you have sinusitis caused by bacteria, your doctor may prescribe an antibiotic. Antibiotics won&apos;t help the more common viral sinusitis, which usually occurs after an upper respiratory infection. Be sure to finish the entire course of medication you&apos;re prescribed &amp;mdash; even if your signs and symptoms disappear before all the pills or capsules are gone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid nasal sprays or pills.&lt;/strong&gt; Your doctor may prescribe this medication if your sinusitis is related to inflammation or allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter medications.&lt;/strong&gt; As the sinus infection clears up, the sinus headaches should disappear. In the meantime, over-the-counter pain relievers, decongestants and saline nasal spray might help you feel better. Use these products only as directed. It may help to drink plenty of fluids as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal saline irrigation.&lt;/strong&gt; Nasal irrigation may help shrink the sinus membrane and increase drainage. Several over-the-counter nasal irrigation kits are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical correction.&lt;/strong&gt; If a structural problem in your nasal cavity is contributing to sinusitis or sinus headaches, surgical correction may be recommended.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce the risk of sinusitis, keep your sinuses healthy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands often.&lt;/strong&gt; Soap and water can help you avoid the upper respiratory infections that can lead to sinusitis. You may want to ask your doctor about a yearly flu vaccine as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; Avoid cigarette, cigar and pipe smoke. These and other air pollutants can cause your sinus membranes to swell.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Adding moisture to dry indoor air can help prevent sinusitis &amp;mdash; but don&apos;t overdo it. High indoor humidity can promote mold and dust mite growth in your home. Be sure the humidifier is clean and kept free of mold.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sinus headaches
+	</Title>
+	<Abstract>
+		Sinus headaches &amp;mdash; Comprehensive overview covers causes, treatment of this often misunderstood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00287" LinkType="Internal" ObjectID="2CEBF76F-D36A-4D15-B937BFF91AB51438" Title="Cystic fibrosis" Url="http://www.mayoclinic.com/health/cystic-fibrosis/DS00287" />
+	</RelatedLinksBox>
+</Disease>

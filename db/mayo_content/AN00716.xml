@@ -1,0 +1,112 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00716
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blood-poisoning/AN00716
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-25
+		</UpdateDate>
+		<PublicationDate>
+			2003-12-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2574" Title="Blood poisoning" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9AAE0FA6-355D-4B64-89988D1E790113AD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bacteremia
+			</MetaKeyword>
+			<MetaKeyword>
+				blood poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				blood infection
+			</MetaKeyword>
+			<MetaKeyword>
+				blood infections
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+&quot;Blood poisoning&quot; is not a medical term. But as the term is usually used, it refers to the presence of bacteria in the blood (bacteremia) &amp;mdash; and not a poisonous substance in the blood. However, bacteremia is a serious illness and requires prompt medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you recently had a medical or dental procedure or injection and have any of the following signs and symptoms, see your doctor right away: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, high fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or abdominal pain&lt;/li&gt;
+	&lt;li&gt;A feeling or appearance of serious illness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A diagnosis of bacteremia is usually confirmed by a blood culture. Treatment requires hospitalization and includes intravenous antibiotics. Without prompt treatment, bacteremia can quickly progress to severe sepsis, which is a life-threatening condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blood poisoning: When to see a doctor
+	</Title>
+	<Abstract>
+		The term &quot;blood poisoning&quot; most often refers to bacteria in the blood (bacteremia).
+	</Abstract>
+	<Question>
+		I suspect I have blood poisoning. Should I see my doctor?
+	</Question>
+	<QuestionFirstName>
+		Shirley
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Answer>

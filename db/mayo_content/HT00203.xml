@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00203
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00203
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1198" Title="Strength training" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9C663456-E7FF-0DBD-157E9AD9E2B96CE7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				strength training
+			</MetaKeyword>
+			<MetaKeyword>
+				weightlifting
+			</MetaKeyword>
+			<MetaKeyword>
+				weight lifting
+			</MetaKeyword>
+			<MetaKeyword>
+				weight training
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Strength training: Do you have to do 3 sets?
+	</Title>
+	<Body>
+		&lt;p&gt;When it comes to strength training, there&apos;s nothing magical about three sets. In fact, a single set of 12 repetitions can generally build muscle just as efficiently as can multiple sets of the same exercise. So if you&apos;re short on time, try this approach: Work your major muscle groups two or three times a week. Do a single set of each exercise, using a weight or resistance level heavy enough to tire your muscles after about 12 repetitions.&lt;/p&gt;
+	</Body>
+</HealthTip>

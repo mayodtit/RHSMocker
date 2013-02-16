@@ -1,0 +1,590 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00038
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lung-cancer/DS00038
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-17
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2196" Title="Lung cancer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4937" Title="Pfizer Nicotrol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			06A75328-0BC3-47E7-A00ADDC9B0E319C4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lung cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				lung cancer symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				asbestos lung cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				smoking
+			</MetaKeyword>
+			<MetaKeyword>
+				lung cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				small cell lung cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				non-small cell lung cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				secondhand smoke
+			</MetaKeyword>
+			<MetaKeyword>
+				metastatic lung cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lung cancer is a type of cancer that begins in the lungs. Your lungs are two spongy organs in your chest that take in oxygen when you inhale and release carbon dioxide when you exhale. 
+&lt;/p&gt;
+&lt;p&gt;
+Lung cancer is the leading cause of cancer deaths in the United States, among both men and women. Lung cancer claims more lives each year than do colon, prostate, ovarian and breast cancers combined. 
+&lt;/p&gt;
+&lt;p&gt;
+People who smoke have the greatest risk of lung cancer. The risk of lung cancer increases with the length of time and number of cigarettes you&apos;ve smoked. If you quit smoking, even after smoking for many years, you can significantly reduce your chances of developing lung cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing lung anatomy 
+" Caption="Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). 
+" Height="60" Title="Bronchioles and alveoli" URI="/images/image_popup/thumbs/mcdc7_bronchiolesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing lung anatomy 
+" Caption="Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). 
+" Height="552" Title="Bronchioles and alveoli" URI="/images/image_popup/mcdc7_bronchioles.jpg" Width="400" />
+				<HTML>
+					Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lung cancer typically doesn&apos;t cause signs and symptoms in its earliest stages. Signs and symptoms of lung cancer typically occur only when the disease is advanced. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of lung cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A new cough that doesn&apos;t go away&lt;/li&gt;
+	&lt;li&gt;Changes in a chronic cough or &quot;smoker&apos;s cough&quot;&lt;/li&gt;
+	&lt;li&gt;Coughing up blood, even a small amount&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Losing weight without trying&lt;/li&gt;
+	&lt;li&gt;Bone pain&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you smoke and have been unable to quit, make an appointment with your doctor. Your doctor can recommend strategies for quitting smoking, such as counseling, medications and nicotine replacement products. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Smoking causes the majority of lung cancers &amp;mdash; both in smokers and in people exposed to secondhand smoke. But lung cancer also occurs in people who never smoked and in those who never had prolonged exposure to secondhand smoke. In these cases, there may be no clear cause of lung cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How smoking causes lung cancer&lt;/strong&gt; &lt;br /&gt;
+Doctors believe smoking causes lung cancer by damaging the cells that line the lungs. When you inhale cigarette smoke, which is full of cancer-causing substances (carcinogens), changes in the lung tissue begin almost immediately. At first your body may be able to repair this damage. But with each repeated exposure, normal cells that line your lungs are increasingly damaged. Over time, the damage causes cells to act abnormally and eventually cancer may develop. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of lung cancer&lt;/strong&gt; &lt;br /&gt;
+Doctors divide lung cancer into two major types based on the appearance of lung cancer cells under the microscope. Your doctor makes treatment decisions based on which major type of lung cancer you have. The two general types of lung cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Small cell lung cancer.&lt;/strong&gt; Small cell lung cancer occurs almost exclusively in heavy smokers and is less common than non-small cell lung cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Non-small cell lung cancer.&lt;/strong&gt; Non-small cell lung cancer is an umbrella term for several types of lung cancers that behave in a similar way. Non-small cell lung cancers include squamous cell carcinoma, adenocarcinoma and large cell carcinoma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing lung anatomy 
+" Caption="Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). 
+" Height="60" Title="Bronchioles and alveoli" URI="/images/image_popup/thumbs/mcdc7_bronchiolesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing lung anatomy 
+" Caption="Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). 
+" Height="552" Title="Bronchioles and alveoli" URI="/images/image_popup/mcdc7_bronchioles.jpg" Width="400" />
+				<HTML>
+					Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors may increase your risk of lung cancer. Some risk factors can be controlled, for instance, by quitting smoking. And other factors can&apos;t be controlled, such as your family history. Risk factors for lung cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking remains the greatest risk factor for lung cancer. Your risk of lung cancer increases with the number of cigarettes you smoke each day and the number of years you have smoked. Quitting at any age can significantly lower your risk of developing lung cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to secondhand smoke.&lt;/strong&gt; Even if you don&apos;t smoke, your risk of lung cancer increases if you&apos;re exposed to secondhand smoke. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to radon gas.&lt;/strong&gt; Radon is produced by the natural breakdown of uranium in soil, rock and water that eventually becomes part of the air you breathe. Unsafe levels of radon can accumulate in any building, including homes. Radon testing kits, which can be purchased at home improvement stores, can determine whether levels are safe. If unsafe levels are discovered, remedies are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to asbestos and other chemicals.&lt;/strong&gt; Workplace exposure to asbestos and other substances known to cause cancer &amp;mdash; such as arsenic, chromium and nickel &amp;mdash; also can increase your risk of developing lung cancer, especially if you&apos;re a smoker.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of lung cancer.&lt;/strong&gt; People with a parent, sibling or child with lung cancer have an increased risk of the disease. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol use.&lt;/strong&gt; Drinking more than a moderate amount of alcohol &amp;mdash; no more than one drink a day for women or two drinks a day for men &amp;mdash; may increase your risk of lung cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain smoking-related lung diseases.&lt;/strong&gt; Smokers with certain lung diseases, such as emphysema, may have an increased risk of lung cancer. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lung cancer can cause complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Shortness of breath.&lt;/strong&gt; People with lung cancer can experience shortness of breath if cancer grows to block the major airways. Lung cancer can also cause fluid to accumulate around the lungs, making it harder for the affected lung to expand fully when you inhale.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coughing up blood.&lt;/strong&gt; Lung cancer can cause bleeding in the airway, which can cause you to cough up blood (hemoptysis). Sometimes bleeding can become severe. Treatments are available to control bleeding. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Advanced lung cancer that spreads to the lining of a lung or to another area of the body, such as a bone, can cause pain. Tell your doctor if you experience pain. Pain may initially be mild and intermittent, but can become constant. Medications, radiation therapy and other treatments may help make you more comfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid in the chest (pleural effusion).&lt;/strong&gt; Lung cancer can cause fluid to accumulate in the space that surrounds the affected lung in the chest cavity (pleural space). Pleural effusion can result from cancer spreading outside the lungs or in reaction to lung cancer inside the lungs. Fluid accumulating in the chest can cause shortness of breath. Treatments are available to drain the fluid from your chest and reduce the risk that pleural effusion will occur again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that spreads to other parts of the body (metastasis).&lt;/strong&gt; Lung cancer often spreads (metastasizes) to other parts of the body &amp;mdash; most commonly the brain, bones, liver and adrenal glands. Cancer that spreads can cause pain, nausea, headaches, or other signs and symptoms depending on what organ is affected. In some cases, treatments are available for isolated metastasis, but in most cases, the goal of treatment for metastasis is only to relieve signs and symptoms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; Unfortunately, survival rates for people diagnosed with lung cancer are very low. In most cases, the disease is fatal. People diagnosed at the earliest stages have the greatest chances for a cure. Your doctor can discuss your chances for survival with you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms that worry you, start by seeing your family doctor or a general practitioner. If your doctor suspects you have lung cancer, you&apos;ll likely be referred to a specialist. Specialists who treat people with lung cancer can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctors who specialize in treating cancer (oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who diagnose and treat lung diseases (pulmonologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who use radiation to treat cancer (radiation oncologists)&lt;/li&gt;
+	&lt;li&gt;Surgeons who operate on the lung (thoracic surgeons)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat signs and symptoms of cancer and cancer treatment (palliative care specialists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. To help you get ready, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. Note when your symptoms began.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gather your medical records.&lt;/strong&gt; If you&apos;ve had a chest X-ray or a scan done by a different doctor, try to obtain that file and bring it to your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask if you&apos;ve been diagnosed with lung cancer&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For lung cancer, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of lung cancer do I have?&lt;/li&gt;
+	&lt;li&gt;May I see the chest X-ray or CT scan that shows my cancer?&lt;/li&gt;
+	&lt;li&gt;What is causing my hoarseness?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my lung cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;Has my cancer spread to other parts of my body?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Will any of these treatment options cure my cancer?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment that you think is best for me?&lt;/li&gt;
+	&lt;li&gt;Is there a benefit if I quit smoking now?&lt;/li&gt;
+	&lt;li&gt;What advice would you give a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;What if I don&apos;t want treatment?&lt;/li&gt;
+	&lt;li&gt;Are there ways to relieve the signs and symptoms I&apos;m experiencing?&lt;/li&gt;
+	&lt;li&gt;Can I enroll in a clinical trial?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that come to mind during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you wheeze when breathing?&lt;/li&gt;
+	&lt;li&gt;Do you have a cough that feels like you&apos;re clearing your throat?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with emphysema or chronic obstructive pulmonary disease?&lt;/li&gt;
+	&lt;li&gt;Do you take medications for shortness of breath?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Testing healthy people for lung cancer&lt;/strong&gt; &lt;br /&gt;
+Doctors aren&apos;t sure whether people with no signs or symptoms of lung cancer should undergo screening for the disease. Some studies show that lung cancer screening may save lives by finding cancer earlier, when it may be treated more successfully. But other studies find that lung cancer screening often reveals more benign conditions that require invasive testing and expose people to unnecessary risks. 
+&lt;/p&gt;
+&lt;p&gt;
+Screening for lung cancer is controversial among doctors. Studies are ongoing to determine what types of tests may be helpful and who would benefit from lung cancer screening. In the meantime, talk with your doctor if you&apos;re concerned about your risk of lung cancer. Together you can determine strategies to reduce your risk and decide whether screening tests are appropriate for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to diagnose lung cancer&lt;/strong&gt; &lt;br /&gt;
+If there&apos;s reason to think that you may have lung cancer, your doctor can order a number of tests to look for cancerous cells and to rule out other conditions. In order to diagnose lung cancer, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; An X-ray image of your lungs may reveal an abnormal mass or nodule. A CT scan can reveal small lesions in your lungs that might not be detected on an X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sputum cytology.&lt;/strong&gt; If you have a cough and are producing sputum, looking at the sputum under the microscope can sometimes reveal the presence of lung cancer cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue sample (biopsy).&lt;/strong&gt; A sample of abnormal cells may be removed in a procedure called a biopsy. Your doctor can perform a biopsy in a number of ways, including bronchoscopy, in which your doctor examines abnormal areas of your lungs using a lighted tube that&apos;s passed down your throat and into your lungs; mediastinoscopy, in which an incision is made at the base of your neck and surgical tools are inserted behind your breastbone to take tissue samples from lymph nodes; and needle biopsy, in which your doctor uses X-ray or CT images to guide a needle through your chest wall and into the lung tissue to collect suspicious cells. A biopsy sample may also be taken from lymph nodes or other areas where cancer has spread, such as your liver. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung cancer staging&lt;/strong&gt; &lt;br /&gt;
+Once your lung cancer has been diagnosed, your doctor will work to determine the extent, or stage, of your cancer. Your cancer&apos;s stage helps you and your doctor decide what treatment is most appropriate. 
+&lt;/p&gt;
+&lt;p&gt;
+Staging tests may include imaging procedures that allow your doctor to look for evidence that cancer has spread beyond your lungs. These tests include CT scans, magnetic resonance imaging (MRI), positron emission tomography (PET) and bone scans. Not every test is appropriate for every person, so talk with your doctor about which procedures are right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stages of lung cancer&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Cancer is limited to the lung and hasn&apos;t spread to the lymph nodes. The tumor is generally smaller than 2 inches (5 centimeters) across.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; The tumor at this stage may have grown larger than 2 inches, or it may be a smaller tumor that involves nearby structures, such as the chest wall, the diaphragm or the lining around the lungs (pleura). Cancer may also have spread to the nearby lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; The tumor at this stage may have grown very large and invaded other organs near the lungs. Or this stage may indicate a smaller tumor accompanied by cancer cells in lymph nodes farther away from the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; Cancer has spread beyond the affected lung to the other lung or to distant areas of the body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Small cell lung cancer is sometimes described as being limited or extensive. Limited indicates cancer is limited to one lung. Extensive indicates cancer has spread beyond the one lung. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bronchoscopy
+" Caption="Bronchoscopy is a procedure to see inside your lungs. During bronchoscopy, you receive a medicine to numb your throat and a lighted tube (bronchoscope) is inserted in your mouth. The tube is moved down your throat and into your lung. Your doctor closely examines your lung tissue by looking through the tube or by watching a video screen. Special tools can be passed through the tube to collect samples of lung tissue. 
+" Height="60" Title="Bronchoscopy" URI="/images/image_popup/thumbs/mcdc7_bronchoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing bronchoscopy
+" Caption="Bronchoscopy is a procedure to see inside your lungs. During bronchoscopy, you receive a medicine to numb your throat and a lighted tube (bronchoscope) is inserted in your mouth. The tube is moved down your throat and into your lung. Your doctor closely examines your lung tissue by looking through the tube or by watching a video screen. Special tools can be passed through the tube to collect samples of lung tissue. 
+" Height="415" Title="Bronchoscopy" URI="/images/image_popup/mcdc7_bronchoscopy.jpg" Width="400" />
+				<HTML>
+					Bronchoscopy is a procedure to see inside your lungs. During bronchoscopy, you receive a medicine to numb your throat and a lighted tube (bronchoscope) is inserted in your mouth. The tube is moved ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You and your doctor choose a cancer treatment plan based on a number of factors, such as your overall health, the type and stage of your cancer, and your preferences. Options typically include one or more treatments, including surgery, chemotherapy, radiation therapy or targeted drug therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases you may choose not to undergo treatment. For instance, you may feel that the side effects of treatment will outweigh the potential benefits. When that&apos;s the case, your doctor may suggest comfort care to treat only the symptoms the cancer is causing, such as pain or shortness of breath. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot;&gt;Treatment options for non-small cell lung cancers &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Stage&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Common options&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;I&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Surgery, sometimes chemotherapy&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;II &lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Surgery, chemotherapy, radiation &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;III&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Combined chemotherapy and radiation, chemotherapy alone, sometimes surgery based on results of other treatments&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;IV&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;
+			&lt;p&gt;
+			Chemotherapy, targeted drug therapy, clinical trials, supportive care 
+			&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot;&gt;Treatment options for small cell lung cancers &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Common options&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Surgery when possible, but usually combined chemotherapy and radiation&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;II&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Combined chemotherapy and radiation&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;III&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Combined chemotherapy and radiation, clinical trials, supportive care&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;IV&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Chemotherapy, clinical trials, supportive care&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+During surgery your surgeon works to remove the lung cancer and a margin of healthy tissue. Procedures to remove lung cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wedge resection&lt;/strong&gt; to remove a small section of lung that contains the tumor along with a margin of healthy tissue&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Segmental resection&lt;/strong&gt; to remove a larger portion of lung, but not an entire lobe&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lobectomy&lt;/strong&gt; to remove the entire lobe of one lung&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonectomy&lt;/strong&gt; to remove an entire lung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you undergo surgery, your surgeon may also remove lymph nodes from your chest in order to check them for signs of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Lung cancer surgery carries risks, including bleeding and infection. Expect to feel short of breath after lung surgery. If a portion of your lung is removed, your remaining lung tissue will expand over time and make it easier to breathe. Your doctor may recommend a respiratory therapist who can guide you through breathing exercises to aid in your recovery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to kill cancer cells. One or more chemotherapy drugs may be given through a vein in your arm (intravenously) or taken orally. A combination of drugs usually is given in a series of treatments over a period of weeks or months, with breaks in between so that you can recover. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy can be used as a first line treatment for lung cancer or as additional treatment after surgery. In some cases, chemotherapy can be used to lessen side effects of your cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams, such as X-rays, to kill cancer cells. Radiation therapy can be directed at your lung cancer from outside your body (external beam radiation) or it can be put inside needles, seeds or catheters and placed inside your body near the cancer (brachytherapy). 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy can be used alone or with other lung cancer treatments. Sometimes it&apos;s administered at the same time as chemotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+For people with lung cancers that are very small, one option may be stereotactic body radiotherapy. This form of radiation aims many beams of radiation from different angles at the lung cancer. Stereotactic body radiotherapy treatment is typically completed in one or a few treatments. In certain cases, it may be used in place of surgery for small tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drug therapy&lt;/strong&gt; &lt;br /&gt;
+Targeted therapies are newer cancer treatments that work by targeting specific abnormalities in cancer cells. Targeted therapy options for treating lung cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bevacizumab (Avastin).&lt;/strong&gt; Bevacizumab stops a tumor from creating a new blood supply. Blood vessels that connect to tumors can supply oxygen and nutrients to the tumor, allowing it to grow. Bevacizumab is usually used in combination with chemotherapy and is approved for advanced and recurrent non-small cell lung cancer. Bevacizumab carries a risk of bleeding, blood clots and high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Erlotinib (Tarceva).&lt;/strong&gt; Erlotinib blocks chemicals that signal the cancer cells to grow and divide. Erlotinib is approved for people with advanced and recurrent non-small cell lung cancer who haven&apos;t been helped by chemotherapy. Cells taken from your lung cancer will be tested to see whether this medication is likely to help you. Erlotinib side effects include a skin rash and diarrhea. Smokers are less likely to benefit from erlotinib than are nonsmokers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crizotinib (Xalkori).&lt;/strong&gt; Crizotinib blocks chemicals that allow cancer cells to grow out of control and live longer than normal cells. Crizotinib is approved for use in people with advanced non-small cell lung cancer whose cancer cells have a particular genetic mutation. A special laboratory test using your cancer cells determines whether your cells have this certain genetic mutation. Crizotinib side effects include nausea and vision problems, such as double vision or blurred vision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are studies of experimental lung cancer treatments. You may be interested in enrolling in a clinical trial if lung cancer treatments aren&apos;t working or if your treatment options are limited. The treatments studied in a clinical trial may be the latest innovations, but they don&apos;t guarantee a cure. Carefully weigh your treatment options with your doctor. Your participation in a clinical trial may help doctors better understand how to treat lung cancer in the future. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive care&lt;/strong&gt; &lt;br /&gt;
+When treatments offer little chance for a cure, your doctor may recommend you avoid harsh treatments and opt for supportive care instead. If you&apos;re receiving supportive care, your doctor may treat signs and symptoms to make you feel more comfortable, but you won&apos;t receive treatment aimed at stopping your cancer. Supportive care, which is also called palliative care, allows you to make the most of your life without enduring treatment side effects that can negatively affect your quality of life. 
+&lt;/p&gt;
+&lt;p&gt;
+In one study, people with advanced non-small cell lung cancer who began receiving supportive care soon after their diagnosis lived longer than those who continued with treatments, such as chemotherapy and radiation. Those receiving supportive care reported improved mood and quality of life. They survived, on average, almost three months longer than did those receiving standard care. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration&amp;nbsp;of lung cancer surgery 
+" Caption="Lung cancer surgery can involve removing a portion of the lung or the entire lung. An operation to remove the lung cancer and a small portion of healthy tissue is called a wedge resection. Removing a larger area of the lung is called segmental resection. Surgery to remove one of the lung&apos;s five lobes is called lobectomy. Removing an entire lung is called pneumonectomy.
+" Height="60" Title="Lung cancer surgery" URI="/images/image_popup/thumbs/mcdc7_lungcancersurgerythu.jpg" Width="60" />
+				<Image Alt="Illustration&amp;nbsp;of lung cancer surgery 
+" Caption="Lung cancer surgery can involve removing a portion of the lung or the entire lung. An operation to remove the lung cancer and a small portion of healthy tissue is called a wedge resection. Removing a larger area of the lung is called segmental resection. Surgery to remove one of the lung&apos;s five lobes is called lobectomy. Removing an entire lung is called pneumonectomy.
+" Height="468" Title="Lung cancer surgery" URI="/images/image_popup/mcdc7_lung_cancer_surgery.jpg" Width="400" />
+				<HTML>
+					Lung cancer surgery can involve removing a portion of the lung or the entire lung. An operation to remove the lung cancer and a small portion of healthy tissue is called a wedge resection. Removing a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Coping with shortness of breath&lt;/strong&gt; &lt;br /&gt;
+Many people with lung cancer experience shortness of breath at some point in the course of the disease. Treatments, such as supplemental oxygen, and medications are available to help you feel more comfortable, but they aren&apos;t always enough. To cope with shortness of breath, it may help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to relax.&lt;/strong&gt; Feeling short of breath can be scary. But fear and anxiety only make it harder to breathe. When you begin to feel short of breath, try to manage the fear by choosing an activity that helps you relax. Listen to music, imagine your favorite vacation spot, meditate or say a prayer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a comfortable position.&lt;/strong&gt; It may help to lean forward when you feel short of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Focus on your breath.&lt;/strong&gt; When you feel short of breath, focus your mind on your breathing. Instead of trying to fill your lungs with air, concentrate on moving the muscles that control your diaphragm. Try breathing through pursed lips and pacing your breaths with your activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Save your energy for what&apos;s important.&lt;/strong&gt; If you&apos;re short of breath, you may become tired easily. Cut out the nonessential tasks from your day so that you can save your energy for what needs to be done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lower the room temperature.&lt;/strong&gt; A cooler room may make it feel easier to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sit near a window.&lt;/strong&gt; Sitting or lying down in a way that allows you to look out a window can help you feel less confined when you&apos;re feeling short of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aim a fan toward your face.&lt;/strong&gt; A fan that blows on your face may make it feel easier to breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat several small meals each day.&lt;/strong&gt; Rather than a few larger meals, eat several small meals throughout the day. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough sleep so that you wake feeling rested.&lt;/strong&gt; If you&apos;re having trouble sleeping, talk to your doctor about medications or other methods that may make sleep easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tell your doctor if you experience shortness of breath or if your symptoms worsen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor has told you that your lung cancer can&apos;t be cured, you may be tempted to turn to complementary and alternative medicine for answers. Complementary and alternative lung cancer treatments can&apos;t cure your cancer. But complementary and alternative treatments can often be combined with your doctor&apos;s care to help relieve signs and symptoms. Your doctor can help you weigh the benefits and risks of complementary and alternative treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+The American College of Chest Physicians reviewed available complementary and alternative treatments and found that some therapies may help people with lung cancer, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; During an acupuncture session, a trained practitioner inserts small needles into precise points on your body. Acupuncture may relieve pain and ease cancer treatment side effects, such as nausea, vomiting and dry mouth, but there&apos;s no evidence that acupuncture has any effect on your cancer. Acupuncture can be safe when done by a certified practitioner. Ask your doctor to recommend someone in your community. But acupuncture isn&apos;t safe if you have low blood counts or take blood thinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypnosis.&lt;/strong&gt; Hypnosis is a type of therapy that puts you in a trance-like state that can be relaxing. Hypnosis is typically done by a therapist who leads you through relaxation exercises and asks you to think pleasing and positive thoughts. Hypnosis may reduce anxiety, nausea and pain in people with cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; During a massage, a massage therapist uses his or her hands to apply pressure to your skin and muscles. Massage can help relieve anxiety, distress, fatigue and pain in people with cancer. Some massage therapists are specially trained to work with people who have cancer. Ask your doctor for names of massage therapists in your community. Massage shouldn&apos;t hurt. Your massage therapist shouldn&apos;t put pressure anywhere near your tumor or any surgical wounds. Avoid having a massage if your blood counts are low or if you&apos;re taking blood thinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meditation.&lt;/strong&gt; Meditation is a time of quiet reflection in which you focus on something, such as an idea, image or sound. Meditation may reduce stress and improve quality of life in people with cancer. Meditation can be done on your own, or there may be instructors in your community. Ask for recommendations from your health care team or friends and family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; Yoga combines gentle stretching movements with deep breathing and meditation. Yoga may help people with cancer sleep better. Yoga is generally safe when taught by a trained instructor, but don&apos;t do any moves that hurt or don&apos;t feel right. Many fitness centers offer yoga classes. Ask your friends and family for opinions on yoga classes they&apos;ve taken.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of lung cancer is devastating. It may take some time to come to terms with your feelings. When you&apos;re ready, you can take steps to take control of your situation. Taking an active role in your health care may make you feel more empowered in coping with lung cancer. Try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn what you need to know about lung cancer.&lt;/strong&gt; Find out enough about your lung cancer to feel comfortable making decisions about your care. Ask your doctor about the type of cancer you have, the stage, your treatment options and their side effects. Write down questions and ask them at your next appointment. Ask your health care team about additional sources of information. The National Cancer Institute answers questions from the public. Call 800-4-CANCER (800-422-6237). Or contact the American Cancer Society at 800-227-2345.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an active role in your treatment.&lt;/strong&gt; Although you may feel tired and discouraged, try not to let others &amp;mdash; including your family or your doctor &amp;mdash; make important decisions for you. Take an active role in your treatment and work with your doctors to make your health care decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Build a strong support system.&lt;/strong&gt; A strong support system helps you cope with everyday difficulties, such as fatigue and pain. Friends and family are worried about you and want to help, so learn to accept help when you need it. Staying connected with friends and family helps them cope with your illness, and it gives you a chance to talk about your hopes and fears. Sometimes you&apos;ll feel like your friends and family can&apos;t understand your feelings if they&apos;ve never had cancer. In these cases, support groups &amp;mdash; both in your community and on the Internet &amp;mdash; can be a good source for practical information and support. You may also find that you develop deep and lasting bonds with people who are going through the same things you are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work at least half the time. In fact, many people find that continuing to work can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan ahead for the downtimes when you may need to rest more or limit what you do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; A diagnosis of cancer doesn&apos;t mean you have to stop doing the things you enjoy. For the most part, if you feel well enough to do something, go ahead and do it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent lung cancer, but you can reduce your risk if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you&apos;ve never smoked, don&apos;t start. Talk to your children about not smoking so that they can understand how to avoid this major risk factor for lung cancer. Begin conversations about the dangers of smoking with your children early so that they know how to react to peer pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Stop smoking now. Quitting reduces your risk of lung cancer, even if you&apos;ve smoked for years. Talk to your doctor about strategies and stop-smoking aids that can help you quit. Options include nicotine replacement products, medications and support groups. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid secondhand smoke.&lt;/strong&gt; If you live or work with a smoker, urge him or her to quit. At the very least, ask him or her to smoke outside. Avoid areas where people smoke, such as bars and restaurants, and seek out smoke-free options.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Test your home for radon.&lt;/strong&gt; Have the radon levels in your home checked, especially if you live in an area where radon is known to be a problem. High radon levels can be remedied to make your home safer. For information on radon testing, contact your local department of public health or a local chapter of the American Lung Association.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid carcinogens at work.&lt;/strong&gt; Take precautions to protect yourself from exposure to toxic chemicals at work. Follow your employer&apos;s precautions. For instance, if you&apos;re given a face mask for protection, always wear it. Ask your doctor what more you can do to protect yourself at work. Your risk of lung damage from workplace carcinogens increases if you smoke. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a diet full of fruits and vegetables.&lt;/strong&gt; Choose a healthy diet with a variety of fruits and vegetables. Food sources of vitamins and nutrients are best. Avoid taking large doses of vitamins in pill form, as they may be harmful. For instance, researchers hoping to reduce the risk of lung cancer in heavy smokers gave them beta carotene supplements. Results showed the supplements actually increased the risk of cancer in smokers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Limit yourself to one drink a day if you&apos;re a woman or two drinks a day if you&apos;re a man. Anyone age 65 and older should drink no more than one drink a day. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Aim for at least 150 minutes a week of moderate aerobic activity or 75 minutes a week of vigorous aerobic activity. You can also do a combination of moderate and vigorous activity. Check with your doctor first if you aren&apos;t already exercising regularly. Start out slowly and continue adding more activity. Biking, swimming and walking are good choices. Add exercise throughout your day &amp;mdash; park farther away from work and walk the rest of the way or take the stairs rather than the elevator. Strength training is also important. Try to do strength training exercises at least twice a week. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lung cancer
+	</Title>
+	<Abstract>
+		Lung cancer &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of non-small and small cell types.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00088" LinkType="Internal" ObjectID="B5C04D78-E7FF-0DBD-1FF66760E140CC1D" Title="Needle biopsy" Url="http://www.mayoclinic.com/health/needle-biopsy/MY00088" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN01932" LinkType="Internal" ObjectID="8BD3826D-E7FF-0DBD-1E3F0929D7CB2567" Title="Photodynamic therapy: An effective treatment for lung cancer?" Url="http://www.mayoclinic.com/health/photodynamic-therapy/AN01932" />
+		<LinkItem ContentType="Answer" DocID="AN01082" LinkType="Internal" ObjectID="83DACF97-9E8C-4171-90ED401E739D7DB2" Title="Lung nodules: Can they be cancerous?" Url="http://www.mayoclinic.com/health/lung-nodules/AN01082" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Article" DocID="CA00086" LinkType="Internal" ObjectID="3296F734-E7FF-0DBD-10842EE306CBE02A" Title="Lung CT scan for cancer: Should you be screened?" Url="http://www.mayoclinic.com/health/lung-ct-scan/CA00086" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,271 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00183
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vagus-nerve-stimulation/MY00183
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3866" Title="Mental health">
+						<Keyword MCVID="3867" Title="Vagus nerve stimulation" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			46FF1248-E7FF-0DBD-18E412A0E6CFB921
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vagus nerve stimulation
+			</MetaKeyword>
+			<MetaKeyword>
+				brain stimulation
+			</MetaKeyword>
+			<MetaKeyword>
+				focal brain stimulation
+			</MetaKeyword>
+			<MetaKeyword>
+				vagal nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				vagal nerve stimulation
+			</MetaKeyword>
+			<MetaKeyword>
+				vagus nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment-resistant depression
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vagus nerve stimulation is a procedure that stimulates the vagus nerve with electrical impulses. Vagus nerve stimulation can be used to treat epilepsy when other treatments haven&apos;t worked. Vagus nerve stimulation is also a treatment for depression, and it&apos;s being studied for conditions such as multiple sclerosis, migraine and Alzheimer&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s one vagus nerve on each side of your body, running from your brainstem through your neck to your chest and abdomen.
+&lt;/p&gt;
+&lt;p&gt;
+With vagus nerve stimulation, a device is surgically implanted under the skin on your chest. A wire is threaded under your skin connecting the device to the left vagus nerve. When activated, the device sends electrical signals along the vagus nerve to your brainstem, which then sends signals to certain areas in your brain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with epilepsy don&apos;t respond to anti-seizure drugs. Vagus nerve stimulation may be an option to reduce the frequency of seizures in people who haven&apos;t been helped by medications.
+&lt;/p&gt;
+&lt;p&gt;
+Vagus nerve stimulation may also be helpful for people who haven&apos;t responded to standard depression treatments, such as antidepressant medications and psychological counseling (psychotherapy).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When vagus nerve stimulation may be a good option&lt;br /&gt;
+&lt;/strong&gt;The Food and Drug Administration (FDA) has approved vagus nerve stimulation for people who:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are 12 and older&lt;/li&gt;
+	&lt;li&gt;Have focal (partial) epilepsy&lt;/li&gt;
+	&lt;li&gt;Have seizures that aren&apos;t well controlled with medications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, the FDA has approved vagus nerve stimulation for the treatment of depression in adults who:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have chronic, hard-to-treat depression (treatment-resistant depression)&lt;/li&gt;
+	&lt;li&gt;Haven&apos;t improved after trying four or more medications or electroconvulsive therapy (ECT), or both&lt;/li&gt;
+	&lt;li&gt;Continue standard depression treatments along with vagus nerve stimulation&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of vagus nerve stimulation pulse generator 
+" Caption="In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+" Height="60" Title="Vagus nerve stimulation" URI="/images/image_popup/thumbs/mh7_vagalnervethu.jpg" Width="60" />
+				<Image Alt="Illustration of vagus nerve stimulation pulse generator 
+" Caption="In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+" Height="389" Title="Vagus nerve stimulation" URI="/images/image_popup/mh7_vagalnerve.jpg" Width="400" />
+				<HTML>
+					In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, vagus nerve stimulation is safe. But it does have some risks, both from the surgery to implant the device and from the brain stimulation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery risks&lt;br /&gt;
+&lt;/strong&gt;Surgical complications with vagus nerve stimulation are rare and are similar to the dangers of having other types of surgery. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain where the cut (incision) is made to implant the device&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Incision scarring&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Vocal cord paralysis, which is usually temporary, but can be permanent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Side effects after surgery&lt;br /&gt;
+&lt;/strong&gt;Some of the side effects and health problems associated with vagus nerve stimulation can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Voice changes&lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Throat pain&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Breathing problems, especially during exercise&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or nausea&lt;/li&gt;
+	&lt;li&gt;Tingling or prickling of the skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For most people, side effects are tolerable. They may lessen over time, but some side effects may be bothersome for as long as you use vagus nerve stimulation. Adjusting the electrical impulses can help minimize these effects. If side effects are intolerable, the device can be shut off temporarily or permanently.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s important to carefully consider the pros and cons of vagus nerve stimulation before deciding to have the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Make sure you know what all of your other treatment choices are and that you and your doctor both feel that vagus nerve stimulation is the best option for you. Ask your doctor exactly what you should expect during surgery and after the pulse generator is in place. 
+&lt;/p&gt;
+&lt;p&gt;
+Before surgery, your doctor will do a physical examination. You may need blood tests or other tests to make sure you don&apos;t have any health concerns that might be a problem. Your doctor will have you start taking antibiotics before surgery to prevent infection. You may need to stop taking certain medications ahead of time, and your doctor may ask you not to eat the night before the procedure. When you set up your surgery appointment, make sure you&apos;re clear on exactly what steps you need to take.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery to implant the vagus nerve stimulation device is done either on an outpatient basis, allowing you go to home that same day, or on an inpatient basis, requiring an overnight stay in the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgery usually takes one to two hours. You may remain awake but have medication to numb the surgery area (local anesthesia) or you may be unconscious during the surgery (general anesthesia).
+&lt;/p&gt;
+&lt;p&gt;
+The surgery itself doesn&apos;t involve your brain. Two incisions are made, one on your chest and the other on the left side of the neck. The pulse generator is implanted in the upper left side of your chest. The device is meant to be a permanent implant, but it can be removed if necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+The pulse generator is about the size of a stopwatch and runs on battery power. A lead wire is connected to the pulse generator. The lead wire is guided under your skin from your chest up to your neck, where it&apos;s attached to the left vagus nerve through a second incision.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;The pulse generator is turned on during a visit to your doctor&apos;s office a few weeks after surgery. Then it can be programmed to deliver electrical impulses to the vagus nerve at various durations, frequencies and currents. 
+&lt;/p&gt;
+&lt;p&gt;
+Vagus nerve stimulation usually starts at a low level and is gradually increased, depending on your symptoms and side effects.
+&lt;/p&gt;
+&lt;p&gt;
+Stimulation is programmed to turn on and off in specific cycles. You may have some tingling sensations or slight pain in your neck when the nerve stimulation is on.
+&lt;/p&gt;
+&lt;p&gt;
+The stimulator doesn&apos;t detect seizure activity or depression symptoms. When it&apos;s turned on, the stimulator turns on and off at the intervals selected by your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be given a hand-held magnetic device so that you can control the stimulation yourself. This enables you to temporarily turn off the vagus nerve stimulation, which may be necessary when you do certain activities such as public speaking, singing or exercising, or when you&apos;re eating if you have swallowing problems. It also allows you to turn it on if you feel the warning signs of a seizure.
+&lt;/p&gt;
+&lt;p&gt;
+You must visit your doctor periodically to make sure that the pulse generator is working correctly and that it hasn&apos;t shifted out of position. 
+&lt;/p&gt;
+&lt;p&gt;
+For safety concerns, magnetic resonance imaging (MRI) scanning is typically limited if you have a vagus nerve stimulator. In general, MRIs of the head can be done if the right type of MRI machine is used. However, MRIs of the spine and body can&apos;t generally be done with a vagus nerve stimulator in place.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vagus nerve stimulation isn&apos;t a cure for epilepsy. Most people with epilepsy won&apos;t stop having seizures altogether. But many people will have fewer seizures, as many as 30 to 50 percent fewer. Seizure intensity may lessen as well.
+&lt;/p&gt;
+&lt;p&gt;
+It can take as long as two years of vagus nerve stimulation before you notice any significant reduction in the number of seizures. Vagus nerve stimulation may also shorten the recovery time after a seizure. People who&apos;ve had vagus nerve stimulation to treat epilepsy generally have an improved quality of life.
+&lt;/p&gt;
+&lt;p&gt;
+Study results are still mixed on whether or not vagus nerve stimulation is an effective treatment for depression. And it may take several months of treatment before you notice any improvements in your depression symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, vagus nerve stimulation doesn&apos;t work for everybody, and it generally isn&apos;t meant to replace traditional treatments. Additionally, health insurance companies may not pay for this expensive procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+All of the studies done in other conditions using vagus nerve stimulation, such as Alzheimer&apos;s disease, migraine and multiple sclerosis, have been too small to draw any definitive conclusions about how well this treatment might work for those problems. More research is needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vagus nerve stimulation
+	</Title>
+	<Abstract>
+		Vagus nerve stimulation &amp;mdash; Overview covers definition, risks, results of this procedure.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

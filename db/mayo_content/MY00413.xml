@@ -1,0 +1,226 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00413
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spirometry/MY00413
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="4068" Title="Lungs and respiratory system">
+						<Keyword MCVID="4124" Title="Spirometry" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B14D4995-E7FF-0DBD-1E98F85183EE3B1D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spirometry
+			</MetaKeyword>
+			<MetaKeyword>
+				spirometer
+			</MetaKeyword>
+			<MetaKeyword>
+				lung function
+			</MetaKeyword>
+			<MetaKeyword>
+				lung test
+			</MetaKeyword>
+			<MetaKeyword>
+				breathing test
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma test
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				copd test
+			</MetaKeyword>
+			<MetaKeyword>
+				copd
+			</MetaKeyword>
+			<MetaKeyword>
+				fev1
+			</MetaKeyword>
+			<MetaKeyword>
+				fev-1
+			</MetaKeyword>
+			<MetaKeyword>
+				fev
+			</MetaKeyword>
+			<MetaKeyword>
+				fvc
+			</MetaKeyword>
+			<MetaKeyword>
+				peak flow
+			</MetaKeyword>
+			<MetaKeyword>
+				methacholine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spirometry (spi-ROM-uh-tree) is a common office test used to diagnose asthma, chronic obstructive pulmonary disease (COPD) and certain other conditions that affect breathing. Spirometry may also be used periodically to check how well your lungs are working once you&apos;re being treated for a chronic lung condition.
+&lt;/p&gt;
+&lt;p&gt;
+Spirometry measures how much air you can inhale and exhale. Spirometry also measures how fast you can exhale. Spirometry values below average indicate your lungs aren&apos;t working as well as they should.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suggest a spirometry test if he or she suspects your symptoms are caused by a chronic lung condition such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Asthma&lt;/li&gt;
+	&lt;li&gt;Chronic obstructive pulmonary disease (COPD)&lt;/li&gt;
+	&lt;li&gt;Chronic bronchitis&lt;/li&gt;
+	&lt;li&gt;Emphysema&lt;/li&gt;
+	&lt;li&gt;Pulmonary fibrosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve already been diagnosed with a chronic lung disorder, spirometry may be used periodically to check how well your medications are working and whether your symptoms are under control. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow your doctor&apos;s instructions about whether you should avoid use of inhaled breathing medications or other medications before the test. Other steps to take include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wear loose clothing that won&apos;t interfere with your ability to take a deep breath.&lt;/li&gt;
+	&lt;li&gt;Avoid eating a large meal before your test, so it will be easier to breathe.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you go to take your test: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The nurse or technician will give you specific instructions about how to take the test. Listen carefully and make sure you know exactly what to do. Doing the test incorrectly will cause inaccurate results.&lt;/li&gt;
+	&lt;li&gt;A clip will be placed on your nose to keep your nostrils closed.&lt;/li&gt;
+	&lt;li&gt;The nurse or technician will have you take a deep breath and breathe out as hard as you can for several seconds into a tube that&apos;s attached to a machine (spirometer). You may feel short of breath or dizzy for a moment after you perform the test.&lt;/li&gt;
+	&lt;li&gt;You&apos;ll need to take the test at least three times to make sure your results are accurate and consistent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor gives you an inhaled medication to open your lungs (bronchodilator) after your initial test, you&apos;ll need to wait 15 minutes and then you&apos;ll have another set of measurements done. That way your doctor can compare the results of the two measurements, to see whether the bronchodilator improved your airflow. Each set of measurements usually takes less than 15 minutes to complete. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
+				<Image Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
+				<HTML>
+					A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Key spirometry measurements include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Forced vital capacity (FVC).&lt;/strong&gt; This is the largest amount of air that you can forcefully exhale after breathing in as deeply as you can. A lower than normal FVC reading indicates restricted breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Forced expiratory volume (FEV-1).&lt;/strong&gt; This is how much air you can force from your lungs in one second. It&apos;s a good way to measure the severity of your breathing problems. Lower FEV-1 readings indicate more significant obstruction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Spirometry
+	</Title>
+	<Abstract>
+		Spirometry &amp;mdash; Overview covers definition, risks, results of spirometry testing to evaluate asthma and COPD.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+		<LinkItem ContentType="Disease" DocID="DS00296" LinkType="Internal" ObjectID="C585E4B1-9390-48CE-8A709FFA1BF33DF7" Title="Emphysema" Url="http://www.mayoclinic.com/health/emphysema/DS00296" />
+		<LinkItem ContentType="Disease" DocID="DS00916" LinkType="Internal" ObjectID="87E06ADB-E7FF-0DBD-12B87DD57BBF25D9" Title="COPD" Url="http://www.mayoclinic.com/health/copd/DS00916" />
+		<LinkItem ContentType="Disease" DocID="DS00927" LinkType="Internal" ObjectID="16A0DD83-E7FF-0DBD-1E6E0386E28C12B5" Title="Pulmonary fibrosis" Url="http://www.mayoclinic.com/health/pulmonary-fibrosis/DS00927" />
+	</RelatedLinksBox>
+</TestProcedure>

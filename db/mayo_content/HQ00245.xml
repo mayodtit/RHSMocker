@@ -1,0 +1,127 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HQ00245
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/aortic-valve-calcification/HQ00245
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-18
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1488" Title="Heart valve disease">
+						<Keyword MCVID="1490" Title="Aortic valve">
+							<Keyword MCVID="4262" Title="Aortic valve stenosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A038E013-B5B7-441E-987315C016877AFB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aortic valve sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic valve calcification
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic calcification
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Aortic valve calcification is a condition in which calcium deposits form on the aortic valve in the heart. These deposits can cause narrowing at the opening of the aortic valve. This narrowing can progress to become severe enough to reduce blood flow through the aortic valve, a condition called aortic valve stenosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Aortic valve calcification may be an early sign that you have heart disease, even if you don&apos;t have any other heart disease symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Calcification and stenosis typically affect people older than age 65. When it occurs in younger people, it&apos;s often caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A heart defect that&apos;s present at birth&lt;/li&gt;
+	&lt;li&gt;Other illnesses, such as kidney failure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aortic valve sclerosis &amp;mdash; thickening and stiffness of the valve &amp;mdash; and mild aortic calcification usually don&apos;t cause significant heart problems, but require regular checkups to make sure your condition isn&apos;t worsening. It&apos;s important to have your cholesterol checked because you may need medications to lower cholesterol and help prevent aortic valve sclerosis from getting worse. If the valve becomes severely narrowed (stenotic), aortic valve replacement surgery may be necessary. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of aortic valve calcification
+" Caption="Aortic valve thickening and calcification (sclerosis) is a condition in which calcium deposits form on the leaflets of the aortic valve in the heart. In most people, such calcium deposits cause no problems. But sometimes they can progress to cause narrowing at the opening of the aortic valve (aortic valve stenosis) and impair blood flow through it.
+" Height="60" Title="Aortic valve calcification" URI="/images/image_popup/thumbs/ans7_aortic_stenosisthu.jpg" Width="60" />
+				<Image Alt="Image of aortic valve calcification
+" Caption="Aortic valve thickening and calcification (sclerosis) is a condition in which calcium deposits form on the leaflets of the aortic valve in the heart. In most people, such calcium deposits cause no problems. But sometimes they can progress to cause narrowing at the opening of the aortic valve (aortic valve stenosis) and impair blood flow through it.
+" Height="400" Title="Aortic valve calcification" URI="/images/image_popup/ans7_aortic_stenosis.jpg" Width="400" />
+				<HTML>
+					Aortic valve thickening and calcification (sclerosis) is a condition in which calcium deposits form on the leaflets of the aortic valve in the heart. In most people, such calcium deposits cause no ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Aortic calcification: An early sign of heart valve problems?
+	</Title>
+	<Abstract>
+		Aortic calcification &amp;mdash; once thought a harmless condition &amp;mdash; may be a sign of heart valve disease.
+	</Abstract>
+	<Question>
+		Does aortic valve calcification increase the risk of heart disease?
+	</Question>
+	<QuestionFirstName>
+		Ralph
+	</QuestionFirstName>
+	<QuestionState>
+		New Jersey
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="Disease" DocID="DS00727" LinkType="Internal" ObjectID="934C1A15-2A5D-9994-E62A0AD369FFE1FF" Title="Heart murmurs" Url="http://www.mayoclinic.com/health/heart-murmurs/DS00727" />
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+		<LinkItem ContentType="Disease" DocID="DS00418" LinkType="Internal" ObjectID="5C3D4352-1DC4-488B-B58E52D198D12BAE" Title="Aortic valve stenosis" Url="http://www.mayoclinic.com/health/aortic-valve-stenosis/DS00418" />
+	</RelatedLinksBox>
+</Answer>

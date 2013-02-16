@@ -1,0 +1,458 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00365
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tinnitus/DS00365
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-05
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="2233" Title="Tinnitus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			02C076E0-82B3-44E7-9EC80987FAC1D649
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tinnitus
+			</MetaKeyword>
+			<MetaKeyword>
+				ringing
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing
+			</MetaKeyword>
+			<MetaKeyword>
+				ringing in ears
+			</MetaKeyword>
+			<MetaKeyword>
+				ear ringing
+			</MetaKeyword>
+			<MetaKeyword>
+				ear problems
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing loss
+			</MetaKeyword>
+			<MetaKeyword>
+				ringing in ear
+			</MetaKeyword>
+			<MetaKeyword>
+				ear noise
+			</MetaKeyword>
+			<MetaKeyword>
+				ear noises
+			</MetaKeyword>
+			<MetaKeyword>
+				inner ear
+			</MetaKeyword>
+			<MetaKeyword>
+				ringing ears
+			</MetaKeyword>
+			<MetaKeyword>
+				tinnitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				ears ringing
+			</MetaKeyword>
+			<MetaKeyword>
+				tinitus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tinnitus (TIN-ih-tus) is noise or ringing in the ears. A common problem, tinnitus affects about 1 in 5 people. Tinnitus isn&apos;t a condition itself &amp;mdash; it&apos;s a symptom of an underlying condition, such as age-related hearing loss, ear injury or a circulatory system disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Although bothersome, tinnitus usually isn&apos;t a sign of something serious. Although it can worsen with age, for many people, tinnitus can improve with treatment. Treating an identified underlying cause sometimes helps. Other treatments reduce or mask the noise, making tinnitus less noticeable.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inside of ear and damaged hairs 
+" Caption="Head noise (tinnitus) can be caused by broken or damaged hairs on auditory cells, turbulence in a carotid artery or jugular vein, temporomandibular joint (TMJ) issues, and problems in the auditory processing pathways of the brain. 
+" Height="60" Title="Tinnitus" URI="/images/image_popup/thumbs/ww5r606t.jpg" Width="60" />
+				<Image Alt="Illustration showing inside of ear and damaged hairs 
+" Caption="Head noise (tinnitus) can be caused by broken or damaged hairs on auditory cells, turbulence in a carotid artery or jugular vein, temporomandibular joint (TMJ) issues, and problems in the auditory processing pathways of the brain. 
+" Height="267" Title="Tinnitus" URI="/images/image_popup/ww5r606.jpg" Width="400" />
+				<HTML>
+					Head noise (tinnitus) can be caused by broken or damaged hairs on auditory cells, turbulence in a carotid artery or jugular vein, temporomandibular joint (TMJ) issues, and problems in the auditory ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tinnitus involves the annoying sensation of hearing sound when no external sound is present. Tinnitus symptoms include these types of phantom noises in your ears: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ringing &lt;/li&gt;
+	&lt;li&gt;Buzzing&lt;/li&gt;
+	&lt;li&gt;Roaring&lt;/li&gt;
+	&lt;li&gt;Clicking&lt;/li&gt;
+	&lt;li&gt;Hissing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The phantom noise may vary in pitch from a low roar to a high squeal, and you may hear it in one or both ears. In some cases, the sound can be so loud it can interfere with your ability to concentrate or hear actual sound. Tinnitus may be present all the time, or it may come and go. 
+&lt;/p&gt;
+&lt;p&gt;
+There are two kinds of tinnitus. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Subjective tinnitus&lt;/strong&gt; is tinnitus only you can hear. This is the most common type of tinnitus. It can be caused by ear problems in your outer, middle or inner ear. It also can be caused by problems with the hearing (auditory) nerves or the part of your brain that interprets nerve signals as sound (auditory pathways).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Objective tinnitus&lt;/strong&gt; is tinnitus your doctor can hear when he or she does an examination. This rare type of tinnitus may be caused by a blood vessel problem, an inner ear bone condition or muscle contractions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have tinnitus that bothers you, see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Make an appointment to see your doctor if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You develop tinnitus after an upper respiratory infection, such as a cold, and your tinnitus doesn&apos;t improve within a week.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;See your doctor as soon as possible if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have tinnitus that occurs suddenly or without an apparent cause.&lt;/li&gt;
+	&lt;li&gt;You have hearing loss or dizziness with the tinnitus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of health conditions can cause or worsen tinnitus. In many cases, an exact cause is never found.
+&lt;/p&gt;
+&lt;p&gt;
+A common cause of tinnitus is inner ear cell damage. Tiny, delicate hairs in your inner ear move in relation to the pressure of sound waves. This triggers ear cells to release an electrical signal through a nerve from your ear (auditory nerve) to your brain. Your brain interprets these signals as sound. If the hairs inside your inner ear are bent or broken, they can &quot;leak&quot; random electrical impulses to your brain, causing tinnitus.
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of tinnitus include other ear problems, chronic health conditions, and injuries or conditions that affect the nerves in your ear or the hearing center in your brain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Common causes of tinnitus&lt;br /&gt;
+&lt;/strong&gt;In many people, tinnitus is caused by one of these conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age-related hearing loss.&lt;/strong&gt; For many people, hearing worsens with age, usually starting around age 60. Hearing loss can cause tinnitus. The medical term for this type of hearing loss is presbycusis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to loud noise.&lt;/strong&gt; Loud noises, such as those from heavy equipment, chain saws and firearms, are common sources of noise-related hearing loss. Portable music devices, such as MP3 players or iPods, also can cause noise-related hearing loss if played loudly for long periods. Tinnitus caused by short-term exposure, such as attending a loud concert, usually goes away; long-term exposure to loud sound can cause permanent damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Earwax blockage.&lt;/strong&gt; Earwax protects your ear canal by trapping dirt and slowing the growth of bacteria. When too much earwax accumulates, it becomes too hard to wash away naturally, causing hearing loss or irritation of the eardrum, which can lead to tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear bone changes.&lt;/strong&gt; Stiffening of the bones in your middle ear (otosclerosis) may affect your hearing and cause tinnitus. This condition, caused by abnormal bone growth, tends to run in families.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes of tinnitus&lt;br /&gt;
+&lt;/strong&gt;Some causes of tinnitus are less common, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Meniere&apos;s disease.&lt;/strong&gt; Tinnitus can be an early indicator of Meniere&apos;s disease, an inner ear disorder that may be caused by abnormal inner ear fluid pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;TMJ disorders.&lt;/strong&gt; Problems with the temperomandibular joint, the joint on each side of your head in front of your ears, where your lower jawbone meets your skull, can cause tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Head injuries or neck injuries.&lt;/strong&gt; Head or neck trauma can affect the inner ear, hearing nerves or brain function linked to hearing. Such injuries generally cause tinnitus in only one ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acoustic neuroma.&lt;/strong&gt; This noncancerous (benign) tumor develops on the cranial nerve that runs from your brain to your inner ear and controls balance and hearing. Also called vestibular schwannoma, this condition generally causes tinnitus in only one ear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood vessel disorders linked to tinnitus&lt;br /&gt;
+&lt;/strong&gt;In rare cases, tinnitus is caused by a blood vessel disorder. This type of tinnitus is called pulsatile tinnitus. Causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Head and neck tumors.&lt;/strong&gt; A tumor that presses on blood vessels in your head or neck (vascular neoplasm) can cause tinnitus and other symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atherosclerosis.&lt;/strong&gt; With age and buildup of cholesterol and other deposits, major blood vessels close to your middle and inner ear lose some of their elasticity &amp;mdash; the ability to flex or expand slightly with each heartbeat. That causes blood flow to become more forceful, making it easier for your ear to detect the beats. You can generally hear this type of tinnitus in both ears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Hypertension and factors that increase blood pressure, such as stress, alcohol and caffeine, can make tinnitus more noticeable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Turbulent blood flow.&lt;/strong&gt; Narrowing or kinking in a neck artery (carotid artery) or vein in your neck (jugular vein) can cause turbulent, irregular blood flow, leading to tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malformation of capillaries.&lt;/strong&gt; A condition called arteriovenous malformation (AVM), abnormal connections between arteries and veins, can result in tinnitus. This type of tinnitus generally occurs in only one ear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications that can cause tinnitus&lt;br /&gt;
+&lt;/strong&gt;A number of medications may cause or worsen tinnitus. Generally, the higher the dose of these medications, the worse tinnitus becomes. Often the unwanted noise disappears when you stop using these drugs. Medications known to cause or worsen tinnitus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics,&lt;/strong&gt; including polymyxin B, erythromycin, vancomycin and neomycin&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer medications,&lt;/strong&gt; including mechlorethamine and vincristine&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Water pills (diuretics),&lt;/strong&gt; such as bumetanide, ethacrynic acid or furosemide&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quinine medications&lt;/strong&gt; used for malaria or other health conditions&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain antidepressants &lt;/strong&gt;may worsen tinnitus&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin&lt;/strong&gt; taken in uncommonly high doses (usually 12 or more a day) &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inside of ear and damaged hairs 
+" Caption="Head noise (tinnitus) can be caused by broken or damaged hairs on auditory cells, turbulence in a carotid artery or jugular vein, temporomandibular joint (TMJ) issues, and problems in the auditory processing pathways of the brain. 
+" Height="60" Title="Tinnitus" URI="/images/image_popup/thumbs/ww5r606t.jpg" Width="60" />
+				<Image Alt="Illustration showing inside of ear and damaged hairs 
+" Caption="Head noise (tinnitus) can be caused by broken or damaged hairs on auditory cells, turbulence in a carotid artery or jugular vein, temporomandibular joint (TMJ) issues, and problems in the auditory processing pathways of the brain. 
+" Height="267" Title="Tinnitus" URI="/images/image_popup/ww5r606.jpg" Width="400" />
+				<HTML>
+					Head noise (tinnitus) can be caused by broken or damaged hairs on auditory cells, turbulence in a carotid artery or jugular vein, temporomandibular joint (TMJ) issues, and problems in the auditory ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can experience tinnitus, but these factors may increase your risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Loud noise exposure. &lt;/strong&gt;Prolonged exposure to loud noise can damage the tiny sensory hair cells in your ear that transmit sound to your brain. People who work in noisy environments &amp;mdash; such as factory and construction workers, musicians, and soldiers &amp;mdash; are particularly at risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age. &lt;/strong&gt;As you age, the number of functioning nerve fibers in your ears declines, possibly causing hearing problems often associated with tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender. &lt;/strong&gt;Men are more likely to experience tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking. &lt;/strong&gt;Smokers have a higher risk of developing tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular problems. &lt;/strong&gt;Conditions that affect your blood flow, such as high blood pressure or narrowed arteries (atherosclerosis), can increase your risk of tinnitus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tinnitus can significantly affect quality of life. Although it affects people differently, if you have tinnitus, you also may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Sleep problems&lt;/li&gt;
+	&lt;li&gt;Trouble concentrating&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Anxiety and irritability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treating these linked conditions may not affect tinnitus directly, but it can help you feel better. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Be prepared to tell you doctor about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your signs and symptoms&lt;/li&gt;
+	&lt;li&gt;Your medical history, including any other health conditions you have, such as hearing loss, high blood pressure or clogged arteries (atherosclerosis)&lt;/li&gt;
+	&lt;li&gt;All medications you take, including herbal remedies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What does the noise you hear sound like?&lt;/li&gt;
+	&lt;li&gt;Do you hear it in one or both ears?&lt;/li&gt;
+	&lt;li&gt;Has the sound you hear been continuous, or does it come and go?&lt;/li&gt;
+	&lt;li&gt;How loud is the noise?&lt;/li&gt;
+	&lt;li&gt;How much does the noise bother you?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to loud noises?&lt;/li&gt;
+	&lt;li&gt;Have you had an ear disease or head injury?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After you&apos;ve been diagnosed with tinnitus, you may need to see an ear, nose and throat doctor (otolaryngologist). You may also need to work with a hearing expert (audiologist). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will examine your ears, head and neck to look for possible causes of tinnitus. Tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing (audiological) exam.&lt;/strong&gt; As part of the test, you&apos;ll sit in a soundproof room wearing earphones through which will be played specific sounds into one ear at a time. You&apos;ll indicate when you can hear the sound, and your results are compared with results considered normal for your age. This can help rule out or identify possible causes of tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Movement.&lt;/strong&gt; Your doctor may ask you to move your eyes, clench your jaw, or move your neck, arms and legs. If your tinnitus changes or worsens, it may help identify an underlying disorder that needs treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Depending on the suspected cause of your tinnitus, you may need imaging tests such as CT or MRI scans.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The sounds you hear can help your doctor identify a possible underlying cause. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clicking.&lt;/strong&gt; Muscle contractions in and around your ear can cause sharp clicking sounds you hear in bursts. They may last from several seconds to a few minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rushing or humming.&lt;/strong&gt; Usually vascular in origin, you may notice sound fluctuations when you exercise or change positions, such as when you lay down or stand up. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heartbeat.&lt;/strong&gt; Blood vessel problems, such as high blood pressure, an aneurysm or a tumor, and blockage of the ear canal or eustachian tube can amplify the sound of your heartbeat in your ears (pulsatile tinnitus).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low-pitched ringing.&lt;/strong&gt; Conditions that can cause low-pitched ringing in one ear include Meniere&apos;s disease. Tinnitus may become very loud before an attack of vertigo &amp;mdash; a sense that you or your surroundings are spinning or moving.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High-pitched ringing.&lt;/strong&gt; Exposure to a very loud noise or a blow to the ear can cause a high-pitched ringing or buzzing that usually goes away after a few hours. However, if there&apos;s hearing loss as well, tinnitus may be permanent. Long-term noise exposure, age-related hearing loss or medications can cause a continuous, high-pitched ringing in both ears. Acoustic neuroma can cause continuous, high-pitched ringing in one ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other sounds.&lt;/strong&gt; Stiff inner ear bones (otosclerosis) can cause low-pitched tinnitus that may be continuous or may come and go. Earwax, foreign bodies or hairs in the ear canal can rub against the eardrum, causing a variety of sounds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In many cases, the cause of tinnitus is never found. Your doctor can discuss with you steps you can take to reduce the severity of your tinnitus or to help you cope better with the noise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treating an underlying health condition&lt;br /&gt;
+&lt;/strong&gt;To treat your tinnitus, your doctor will first try to identify any underlying, treatable condition that may be associated with your symptoms. If tinnitus is due to a health condition, your doctor may be able to take steps that could reduce the noise. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Earwax removal.&lt;/strong&gt; Removing impacted earwax can decrease tinnitus symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treating a blood vessel condition.&lt;/strong&gt; Underlying vascular conditions may require medication, surgery or another treatment to address the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changing your medication.&lt;/strong&gt; If a medication you&apos;re taking appears to be the cause of tinnitus, your doctor may recommend stopping or reducing the drug, or switching to a different medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Noise suppression&lt;br /&gt;
+&lt;/strong&gt;In some cases white noise may help suppress the sound so that it&apos;s less bothersome. Your doctor may suggest using an electronic device to suppress the noise. Devices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;White noise machines.&lt;/strong&gt; These devices, which produce simulated environmental sounds such as falling rain or ocean waves, are often an effective treatment for tinnitus. You may want to try a white noise machine with pillow speakers to help you sleep. Fans, humidifiers, dehumidifiers and air conditioners in the bedroom may also help cover the internal noise at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing aids.&lt;/strong&gt; These can be especially helpful if you have hearing problems as well as tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Masking devices.&lt;/strong&gt; Worn in the ear and similar to hearing aids, these devices produce a continuous, low-level white noise that suppresses tinnitus symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tinnitus retraining.&lt;/strong&gt; A wearable device delivers individually programmed tonal music to mask the specific frequencies of the tinnitus you experience. Over time, this technique may accustom you to the tinnitus, thereby helping you not to focus on it. Counseling is often a component of tinnitus retraining.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Drugs can&apos;t cure tinnitus, but in some cases they may help reduce the severity of symptoms or complications. Possible medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants, such as amitriptyline and nortriptyline,&lt;/strong&gt; have been used with some success. However, these medications are generally used for only severe tinnitus, as they can cause troublesome side effects, including dry mouth, blurred vision, constipation and heart problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alprazolam (Niravam, Xanax)&lt;/strong&gt; may help reduce tinnitus symptoms, but side effects can include drowsiness and nausea. It can also become habit-forming.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, tinnitus can&apos;t be treated. Some people, however, get used to it and notice it less than they did at first. For many people, certain adjustments make the symptoms less bothersome. These tips may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid possible irritants.&lt;/strong&gt; Reduce your exposure to things that may make your tinnitus worse. Common examples include loud noises, caffeine and nicotine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up the noise.&lt;/strong&gt; In a quiet setting, a fan, soft music or low-volume radio static may help mask the noise from tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Stress can make tinnitus worse. Stress management, whether through relaxation therapy, biofeedback or exercise, may provide some relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your alcohol consumption.&lt;/strong&gt; Alcohol increases the force of your blood by dilating your blood vessels, causing greater blood flow, especially in the inner ear area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s little evidence that alternative medicine treatments work for tinnitus. However, some alternative therapies that have been tried for tinnitus include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Hypnosis&lt;/li&gt;
+	&lt;li&gt;Ginkgo biloba&lt;/li&gt;
+	&lt;li&gt;Zinc supplements&lt;/li&gt;
+	&lt;li&gt;B vitamins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Neuromodulation using transcranial magnetic stimulation (TMS) is a painless, noninvasive therapy that has been successful in reducing tinnitus symptoms for some people. Currently, TMS is utilized more commonly in Europe and in some trials in the U.S. It is still to be determined which patients might benefit from such treatments.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tinnitus doesn&apos;t always improve or completely go away with treatment. Here are some suggestions to help you cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Counseling.&lt;/strong&gt; A licensed therapist or psychologist can help you learn coping techniques to make tinnitus symptoms less bothersome. Counseling can also help with other problems often linked to tinnitus, including anxiety and depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; Sharing your experience with others who have tinnitus may be helpful. There are tinnitus groups that meet in person, as well as Internet forums. To ensure the information you get in the group is accurate, it&apos;s best to choose a group facilitated by a physician, audiologist or other qualified health professional.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Education.&lt;/strong&gt; Learning as much as you can about tinnitus and ways to alleviate symptoms can help. And just understanding tinnitus better makes it less bothersome for some people.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, tinnitus is the result of something that can&apos;t be prevented. However, some precautions can help prevent certain kinds of tinnitus. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use hearing protection.&lt;/strong&gt; Over time, exposure to loud noise can damage the nerves in the ears, causing hearing loss and tinnitus. If you use chain saws, are a musician, work in an industry that uses loud machinery or use firearms (especially pistols or shotguns), always wear over-the-ear hearing protection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Turn down the volume.&lt;/strong&gt; Long-term exposure to amplified music with no ear protection or listening to music at very high volume though headphones can cause hearing loss and tinnitus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your cardiovascular health.&lt;/strong&gt; Regular exercise, eating right and taking other steps to keep your blood vessels healthy can help prevent tinnitus linked to blood vessel disorders.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tinnitus
+	</Title>
+	<Abstract>
+		Tinnitus &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of phantom ear sounds.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN01842" LinkType="Internal" ObjectID="10D765CA-E7FF-0DBD-15E746010E167752" Title="Tinnitus causes: Could my antidepressant be the culprit?" Url="http://www.mayoclinic.com/health/tinnitus-causes/AN01842" />
+	</RelatedLinksBox>
+</Disease>

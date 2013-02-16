@@ -1,0 +1,268 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01069
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fibroadenoma/DS01069
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-27
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2374" Title="Breast">
+						<Keyword MCVID="2383" Title="Cysts and lumps">
+							<Keyword MCVID="3314" Title="Fibroadenoma" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			61F1691A-E7FF-0DBD-1B4B62E3604053A0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fibroadenoma
+			</MetaKeyword>
+			<MetaKeyword>
+				breast tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				breast lump
+			</MetaKeyword>
+			<MetaKeyword>
+				breast mass
+			</MetaKeyword>
+			<MetaKeyword>
+				solid breast lump
+			</MetaKeyword>
+			<MetaKeyword>
+				benign breast condition
+			</MetaKeyword>
+			<MetaKeyword>
+				benign breast disease
+			</MetaKeyword>
+			<MetaKeyword>
+				benign breast tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				noncancerous breast tumor
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fibroadenomas (fy-broe-ad-uh-NO-muhz) are solid, noncancerous breast tumors that most often occur in adolescent girls and women under the age of 30.
+&lt;/p&gt;
+&lt;p&gt;
+A fibroadenoma is a firm, smooth, rubbery or hard lump with a well-defined shape. It moves easily under your skin when touched and is usually painless. Typically about the size of a marble, fibroadenomas can enlarge during pregnancy and breast-feeding.
+&lt;/p&gt;
+&lt;p&gt;
+Fibroadenomas are one of the most common breast lumps in young women. Treatment may include careful monitoring to detect changes in the size or feel of the fibroadenoma, or surgery to remove it.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fibroadenomas are solid breast lumps or masses that usually are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Round with distinct borders&lt;/li&gt;
+	&lt;li&gt;Easily moved&lt;/li&gt;
+	&lt;li&gt;Firm or rubbery&lt;/li&gt;
+	&lt;li&gt;Painless&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A fibroadenoma may feel like a marble within your breast when you press on it. You can have one or many fibroadenomas. The average fibroadenoma is about an inch (2.5 centimeters) in diameter. Those larger than 2 inches (5 centimeters) are called giant fibroadenomas.
+&lt;/p&gt;
+&lt;p&gt;
+Fibroadenomas first occurring during adolescence are called juvenile fibroadenomas. They can grow rapidly and become as large as 4 inches (10 centimeters) in diameter.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Normal breast tissue in healthy women often feels lumpy. If you detect any new breast lumps &amp;mdash; or if a previously evaluated breast lump seems to have grown or otherwise changed &amp;mdash; make an appointment with your doctor to get it checked out.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of fibroadenomas is unknown. However, fibroadenoma development is probably related to reproductive hormones. Fibroadenomas occur in greater frequency during your reproductive years, can increase in size during pregnancy or estrogen therapy, and tend to shrink after menopause, when estrogen stimulation decreases.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most fibroadenomas don&apos;t affect your risk of breast cancer. However, your breast cancer risk might increase slightly if you have a complex fibroadenoma &amp;mdash; which may contain cysts or bits of dense, opaque tissue called calcifications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You probably will discuss your breast lump with your family doctor or your gynecologist.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you might want to write a list that answers the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the lump? Has it gotten bigger since then?&lt;/li&gt;
+	&lt;li&gt;Does the lump change in size around the time of your menstrual periods?&lt;/li&gt;
+	&lt;li&gt;Have you or other members of your family had breast problems in the past?&lt;/li&gt;
+	&lt;li&gt;What date did your last menstrual period begin?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your doctor:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think this lump might be?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures about this topic?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is the lump tender or painful?&lt;/li&gt;
+	&lt;li&gt;Have you had any nipple discharge?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had breast cancer?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a mammogram? If so, when?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check both breasts for lumps and other problems. Depending on your age and the characteristics of the lump, your doctor may recommend one or more of the following tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mammography.&lt;/strong&gt; Mammography uses X-rays to produce an image (mammogram) of suspicious areas in your breast tissue. A fibroadenoma usually appears on a mammogram as a breast mass with smooth, round edges, distinct from surrounding breast tissue. To evaluate a suspected fibroadenoma, mammograms are routinely performed for women age 30 and older.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast ultrasound.&lt;/strong&gt; If you&apos;re younger than age 30, your doctor may opt for a breast ultrasound instead of a mammogram to evaluate a breast lump. Dense breast tissue in younger women makes mammograms difficult to interpret. Breast ultrasound can help your doctor determine whether a breast lump is solid or filled with fluid. A solid mass is more likely a fibroadenoma, and a fluid-filled mass is more likely a cyst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fine-needle aspiration.&lt;/strong&gt; Through a thin needle inserted into the breast lump, your doctor attempts to withdraw the contents of the breast lump. If fluid comes out, the lump is most likely a cyst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Core needle biopsy.&lt;/strong&gt; To be certain that a solid breast lump is a fibroadenoma and not breast cancer, your doctor may recommend a core needle biopsy &amp;mdash; which uses a larger needle to obtain tissue samples from the lump to send for analysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing fine-needle aspiration 
+" Caption="During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your breast on a monitor &amp;mdash; might be used to help place the needle. 
+" Height="60" Title="Fine-needle aspiration" URI="/images/image_popup/thumbs/mcdc7_fine_needle_aspirationthu.jpg" Width="60" />
+				<Image Alt="Image showing fine-needle aspiration 
+" Caption="During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your breast on a monitor &amp;mdash; might be used to help place the needle. 
+" Height="468" Title="Fine-needle aspiration" URI="/images/image_popup/mcdc7_fine_needle_aspiration.jpg" Width="400" />
+				<HTML>
+					During fine-needle aspiration, a special needle is inserted into a breast lump and any fluid is removed (aspirated). Ultrasound &amp;mdash; a procedure that uses sound waves to create images of your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, no treatment is necessary. However, most women choose to have their fibroadenomas surgically removed just for their peace of mind.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonsurgical management&lt;/strong&gt;&lt;br /&gt;
+If your doctor is reasonably certain that your breast lump is a fibroadenoma and not breast cancer &amp;mdash; based on the results of the clinical breast exam, imaging test and biopsy &amp;mdash; surgery may be unnecessary.
+&lt;/p&gt;
+&lt;p&gt;
+You might decide to avoid surgery because:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Surgery can distort the shape and texture of the breast&lt;/li&gt;
+	&lt;li&gt;Fibroadenomas sometimes shrink or disappear on their own&lt;/li&gt;
+	&lt;li&gt;The breast has multiple fibroadenomas that appear to be stable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you choose not to have a fibroadenoma removed, continued monitoring is important to make sure it doesn&apos;t grow larger. At any time that you become overly anxious about the fibroadenoma, you can reconsider surgery.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Your doctor might recommend surgery to remove the fibroadenoma if one of your tests &amp;mdash; the clinical breast exam, an imaging test or a biopsy &amp;mdash; is abnormal.
+&lt;/p&gt;
+&lt;p&gt;
+The procedure to remove a fibroadenoma is called a lumpectomy or excisional biopsy. The tissue will be examined in a lab to check for cancer. After a fibroadenoma is removed, it&apos;s possible that one or more new fibroadenomas may develop.
+&lt;/p&gt;
+&lt;p&gt;
+New lumps need to be assessed with mammograms, ultrasound and possibly biopsy &amp;mdash; to determine if the lump is a fibroadenoma or cancer. You may need another surgery to remove the fibroadenoma if leaving it in place makes you anxious.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fibroadenoma
+	</Title>
+	<Abstract>
+		Fibroadenoma &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this noncancerous breast tumor.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00889" LinkType="Internal" ObjectID="4EFD0D16-EED2-4C61-B830D89A1CD5599E" Title="Breast cysts: What role does caffeine play?" Url="http://www.mayoclinic.com/health/breast-cysts/AN00889" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+	</RelatedLinksBox>
+</Disease>

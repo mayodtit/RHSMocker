@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00889
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-cysts/AN00889
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-16
+		</UpdateDate>
+		<PublicationDate>
+			2004-08-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2374" Title="Breast">
+						<Keyword MCVID="2383" Title="Cysts and lumps" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4EFD0D16-EED2-4C61-B830D89A1CD5599E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				breast pain
+			</MetaKeyword>
+			<MetaKeyword>
+				fibrocystic breasts
+			</MetaKeyword>
+			<MetaKeyword>
+				cyst in breast
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+No, caffeine doesn&apos;t appear to cause breast cysts (fibrocystic breast changes), a noncancerous (benign) breast disease. In large quantities, though, caffeine can raise the levels of cortisol and other stress hormones in your system &amp;mdash; and stress hormones may, over time, affect your reproductive hormones. The interplay of caffeine, stress hormones and reproductive hormones could play a role in premenstrual breast swelling and discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+Anecdotally, some women report reduced breast pain when they go off caffeine. Although no research has documented this effect, there&apos;s no reason not to go caffeine-free to see if it relieves discomfort from breast cysts. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, if you drink several cups of coffee on a typical day, you might consider cutting back. Data from two large, long-term women&apos;s health studies suggest a connection between high caffeine intake and precancerous or high-risk breast lesions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Breast cysts: What role does caffeine play?
+	</Title>
+	<Abstract>
+		Too much caffeine may disrupt your hormones, possibly increasing your risk of breast cysts.
+	</Abstract>
+	<Question>
+		Does caffeine cause breast cysts?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00715" LinkType="Internal" ObjectID="4179A112-50D4-45E5-8D82102ABFB9CF9E" Title="Fibrocystic breast changes: Linked to breast cancer?" Url="http://www.mayoclinic.com/health/fibrocystic-breast-changes/AN00715" />
+		<LinkItem ContentType="Disease" DocID="DS01070" LinkType="Internal" ObjectID="61F2033E-E7FF-0DBD-181B1C8E588D18BB" Title="Fibrocystic breasts" Url="http://www.mayoclinic.com/health/fibrocystic-breasts/DS01070" />
+		<LinkItem ContentType="Disease" DocID="DS01069" LinkType="Internal" ObjectID="61F1691A-E7FF-0DBD-1B4B62E3604053A0" Title="Fibroadenoma" Url="http://www.mayoclinic.com/health/fibroadenoma/DS01069" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00301" LinkType="Internal" ObjectID="9616D5CF-E7FF-0DBD-143ACBF3A0FE16F9" Title="Breast biopsy" Url="http://www.mayoclinic.com/health/breast-biopsy/MY00301" />
+		<LinkItem ContentType="SlideShow" DocID="BC00001" LinkType="Internal" ObjectID="8C3143E3-6182-49D7-9F2137E9145A66CE" Title="Slide show: Female breast anatomy" Url="http://www.mayoclinic.com/health/breast-cancer-early-stage/BC00001" />
+		<LinkItem ContentType="Article" DocID="WO00031" LinkType="Internal" ObjectID="32348DF9-B0D5-45B9-82D3247C1178ABA0" Title="Breast lump: Early evaluation is essential" Url="http://www.mayoclinic.com/health/breast-lump/WO00031" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+	</RelatedLinksBox>
+</Answer>

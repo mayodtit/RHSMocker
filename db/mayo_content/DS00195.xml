@@ -1,0 +1,495 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00195
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/seasonal-affective-disorder/DS00195
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-22
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2438" Title="Depression">
+						<Keyword MCVID="3329" Title="Seasonal affective disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			21F07E37-5FD1-46AB-BC61AF5937C1CD39
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				seasonal affective disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				SAD
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				blues
+			</MetaKeyword>
+			<MetaKeyword>
+				winter blahs
+			</MetaKeyword>
+			<MetaKeyword>
+				winter blues
+			</MetaKeyword>
+			<MetaKeyword>
+				winter depression
+			</MetaKeyword>
+			<MetaKeyword>
+				psychotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				antidepressants
+			</MetaKeyword>
+			<MetaKeyword>
+				light box
+			</MetaKeyword>
+			<MetaKeyword>
+				light therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				light box therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				seasonal affective disorder lamps
+			</MetaKeyword>
+			<MetaKeyword>
+				light therapy box
+			</MetaKeyword>
+			<MetaKeyword>
+				reverse sad
+			</MetaKeyword>
+			<MetaKeyword>
+				reverse seasonal affective disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				summer depression
+			</MetaKeyword>
+			<MetaKeyword>
+				seasonal depression
+			</MetaKeyword>
+			<MetaKeyword>
+				wintertime blues
+			</MetaKeyword>
+			<MetaKeyword>
+				phototherapy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seasonal affective disorder (also called SAD) is a type of depression that occurs at the same time every year. If you&apos;re like most people with seasonal affective disorder, your symptoms start in the fall and may continue into the winter months, sapping your energy and making you feel moody. Less often, seasonal affective disorder causes depression in the spring or early summer.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for seasonal affective disorder includes light therapy (phototherapy), psychotherapy and medications. Don&apos;t brush off that yearly feeling as simply a case of the &quot;winter blues&quot; or a seasonal funk that you have to tough out on your own. Take steps to keep your mood and motivation steady throughout the year. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, seasonal affective disorder symptoms appear during late fall or early winter and go away during the sunnier days of spring and summer. However, some people with the opposite pattern have symptoms that begin in spring or summer. In either case, symptoms may start out mild and become more severe as the season progresses. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fall and winter seasonal affective disorder (winter depression)&lt;br /&gt;
+&lt;/strong&gt;Winter-onset seasonal affective disorder symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Hopelessness&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Loss of energy&lt;/li&gt;
+	&lt;li&gt;Heavy, &quot;leaden&quot; feeling in the arms or legs&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+	&lt;li&gt;Oversleeping&lt;/li&gt;
+	&lt;li&gt;Loss of interest in activities you once enjoyed&lt;/li&gt;
+	&lt;li&gt;Appetite changes, especially a craving for foods high in carbohydrates&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Spring and summer seasonal affective disorder&lt;/strong&gt;&lt;strong&gt; (summer depression)&lt;br /&gt;
+&lt;/strong&gt;Summer-onset seasonal affective disorder symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping (insomnia)&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Agitation&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Poor appetite&lt;/li&gt;
+	&lt;li&gt;Increased sex drive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seasonal changes in bipolar disorder&lt;br /&gt;
+&lt;/strong&gt;In some people with bipolar disorder, spring and summer can bring on symptoms of mania or a less intense form of mania (hypomania). This is known as reverse seasonal affective disorder. Signs and symptoms of reverse seasonal affective disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistently elevated mood&lt;/li&gt;
+	&lt;li&gt;Hyperactivity&lt;/li&gt;
+	&lt;li&gt;Agitation&lt;/li&gt;
+	&lt;li&gt;Unbridled enthusiasm out of proportion to the situation&lt;/li&gt;
+	&lt;li&gt;Rapid thoughts and speech&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It&apos;s normal to have some days when you feel down. But if you feel down for days at a time and you can&apos;t seem to get motivated to do activities you normally enjoy, see your doctor. This is particularly important if you notice that your sleep patterns and appetite have changed or if you feel hopeless, think about suicide, or find yourself turning to alcohol for comfort or relaxation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The specific cause of seasonal affective disorder remains unknown. It&apos;s likely, as with many mental health conditions, that genetics, age and, perhaps most importantly, your body&apos;s natural chemical makeup all play a role in developing the condition. A few specific factors that may come into play include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your biological clock (circadian rhythm).&lt;/strong&gt; The reduced level of sunlight in fall and winter may disrupt your body&apos;s internal clock, which lets you know when you should sleep or be awake. This disruption of your circadian rhythm may lead to feelings of depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Serotonin levels.&lt;/strong&gt; A drop in serotonin, a brain chemical (neurotransmitter) that affects mood, might play a role in seasonal affective disorder. Reduced sunlight can cause a drop in serotonin that may trigger depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Melatonin levels.&lt;/strong&gt; The change in season can disrupt the balance of the natural hormone melatonin, which plays a role in sleep patterns and mood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of seasonal affective disorder include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Seasonal affective disorder is diagnosed more often in women than in men, but men may have symptoms that are more severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living far from the equator.&lt;/strong&gt; Seasonal affective disorder appears to be more common among people who live far north or south of the equator. This may be due to decreased sunlight during the winter, and longer days during the summer months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; As with other types of depression, those with seasonal affective disorder may be more likely to have blood relatives with the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having clinical depression or bipolar disorder.&lt;/strong&gt; Symptoms of depression may worsen seasonally if you have one of these conditions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Take signs and symptoms of seasonal affective disorder seriously. As with other types of depression, seasonal affective disorder can get worse and lead to problems if it&apos;s not treated. These can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Suicidal thoughts or behavior&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+	&lt;li&gt;School or work problems&lt;/li&gt;
+	&lt;li&gt;Substance abuse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment can help prevent complications, especially if seasonal affective disorder is diagnosed and treated before symptoms get bad. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care provider. Or, you may start by seeing a mental health provider such as a psychiatrist or psychologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Record your symptoms&lt;/strong&gt; so that you can tell your doctor or mental health provider exactly what they are (feeling down or having a lack of energy, for example).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down information about your depression patterns,&lt;/strong&gt; such as when your depression starts and what seems to make it better or worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a note of any other mental or physical health problems&lt;/strong&gt; you have. Both can affect mood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any major stressors or life changes&lt;/strong&gt; you&apos;ve had recently.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all&lt;/strong&gt; medications you&apos;re taking, including vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For seasonal affective disorder, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my symptoms most likely caused by seasonal affective disorder, or could they be due to something else?&lt;/li&gt;
+	&lt;li&gt;What else could be causing or worsening my symptoms of depression?&lt;/li&gt;
+	&lt;li&gt;What are the best treatment options?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow or steps I should take to help improve my mood?&lt;/li&gt;
+	&lt;li&gt;Should I see a psychiatrist, psychologist or other mental health provider? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions at any time during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any other physical or mental health conditions?&lt;/li&gt;
+	&lt;li&gt;Are you taking any medications, supplements or herbal remedies?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or drugs?&lt;/li&gt;
+	&lt;li&gt;Do any of your blood relatives have seasonal affective disorder or another mental health condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also ask other questions depending on your individual situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help diagnose seasonal affective disorder, your doctor or mental health provider will do a thorough evaluation, which generally includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Detailed questions.&lt;/strong&gt; Your doctor or mental health provider will ask about your mood and seasonal changes in your thoughts and behavior. He or she may also ask questions about your sleeping and eating patterns, relationships, job, or other questions about your life. You may be asked to answer questions on a psychological questionnaire.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor or mental health provider may do a physical examination to check for any underlying physical issues that could be linked to your depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical tests.&lt;/strong&gt; There&apos;s no medical test for seasonal affective disorder, but if your doctor suspects a physical condition may be causing or worsening your depression, you may need blood tests or other tests to rule out an underlying problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seasonal affective disorder is considered a subtype of depression or bipolar disorder. Even with a thorough evaluation, it can sometimes be difficult for your doctor or mental health provider to diagnose seasonal affective disorder because other types of depression or other mental health conditions can cause similar symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with seasonal affective disorder, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health professionals to diagnose mental conditions and by insurance companies to reimburse for treatment.
+&lt;/p&gt;
+&lt;p&gt;
+The following criteria must be met for a diagnosis of seasonal affective disorder:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve experienced depression and other symptoms for at least two consecutive years, during the same season every year.&lt;/li&gt;
+	&lt;li&gt;The periods of depression have been followed by periods without depression.&lt;/li&gt;
+	&lt;li&gt;There are no other explanations for the changes in your mood or behavior.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for seasonal affective disorder may include light therapy, medications and psychotherapy. If you have bipolar disorder, your doctor will be careful when prescribing light therapy or an antidepressant. Both treatments can potentially trigger a manic episode. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Light therapy&lt;br /&gt;
+&lt;/strong&gt;In light therapy, also called phototherapy, you sit a few feet from a specialized light therapy box so that you&apos;re exposed to bright light. Light therapy mimics outdoor light and appears to cause a change in brain chemicals linked to mood. 
+&lt;/p&gt;
+&lt;p&gt;
+Light therapy is one of the first line treatments for seasonal affective disorder. It generally starts working in two to four days and causes few side effects. Research on light therapy is limited, but it appears to be effective for most people in relieving seasonal affective disorder symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Before you purchase a light therapy box or consider light therapy, talk to your doctor or mental health provider to make sure it&apos;s a good idea and to make sure you&apos;re getting a high-quality light therapy box. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Some people with seasonal affective disorder benefit from antidepressant treatment, especially if symptoms are severe. 
+&lt;/p&gt;
+&lt;p&gt;
+Antidepressants commonly used to treat seasonal affective disorder include paroxetine (Paxil), sertraline (Zoloft), fluoxetine (Prozac, Sarafem) and venlafaxine (Effexor). 
+&lt;/p&gt;
+&lt;p&gt;
+An extended-release version of the antidepressant bupropion (Wellbutrin XL) may help prevent depressive episodes in people with a history of seasonal affective disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend starting treatment with an antidepressant before your symptoms typically begin each year. He or she may also recommend that you continue to take antidepressant medication beyond the time your symptoms normally go away. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that it may take several weeks to notice full benefits from an antidepressant. In addition, you may have to try different medications before you find one that works well for you and has the fewest side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Psychotherapy is another option to treat seasonal affective disorder. Although seasonal affective disorder is thought to be related to brain chemistry, your mood and behavior also can add to symptoms. Psychotherapy can help you identify and change negative thoughts and behaviors that may be making you feel worse. You can also learn healthy ways to cope with seasonal affective disorder and manage stress.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing woman undergoing light therapy for seasonal affective disorder 
+" Caption="Light therapy is often an effective treatment for seasonal affective disorder. You can sometimes engage in routine activities, such as reading, while undergoing light therapy. 
+" Height="60" Title="Light therapy" URI="/images/image_popup/thumbs/mh7_lightboxthu.jpg" Width="60" />
+				<Image Alt="Image showing woman undergoing light therapy for seasonal affective disorder 
+" Caption="Light therapy is often an effective treatment for seasonal affective disorder. You can sometimes engage in routine activities, such as reading, while undergoing light therapy. 
+" Height="333" Title="Light therapy" URI="/images/image_popup/mh7_lightbox.jpg" Width="400" />
+				<HTML>
+					Light therapy is often an effective treatment for seasonal affective disorder. You can sometimes engage in routine activities, such as reading, while undergoing light therapy. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your seasonal depression symptoms are severe, you may need medications, light therapy or other treatments to manage seasonal affective disorder. However, there are some measures you can take on your own that may help. Try the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make your environment sunnier and brighter.&lt;/strong&gt; Open blinds, trim tree branches that block sunlight or add skylights to your home. Sit closer to bright windows while at home or in the office.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get outside.&lt;/strong&gt; Take a long walk, eat lunch at a nearby park, or simply sit on a bench and soak up the sun. Even on cold or cloudy days, outdoor light can help &amp;mdash; especially if you spend some time outside within two hours of getting up in the morning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Physical exercise helps relieve stress and anxiety, both of which can increase seasonal affective disorder symptoms. Being more fit can make you feel better about yourself, too, which can lift your mood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several herbal remedies, supplements and mind-body techniques are commonly used to relieve depression symptoms. It&apos;s not clear how effective these treatments are for seasonal affective disorder, but there are several that may help. Keep in mind, alternative treatments alone may not be enough to relieve your symptoms. Some alternative treatments may not be safe if you have other health conditions or take certain medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supplements&lt;/strong&gt; used to treat depression include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;St. John&apos;s&lt;/strong&gt;&lt;strong&gt; wort.&lt;/strong&gt; This herb has traditionally been used to treat a variety of problems, including depression. It may be helpful if you have mild or moderate depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;SAMe.&lt;/strong&gt; This is a synthetic form of a chemical that occurs naturally in the body. SAMe hasn&apos;t been approved by the Food and Drug Administration to treat depression in the United States. However, it&apos;s used in Europe as a prescription drug to treat depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Melatonin.&lt;/strong&gt; This natural hormone helps regulate mood. A change in the season may change the level of melatonin in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acids.&lt;/strong&gt; Omega-3 fatty acid supplements may help relieve depression symptoms and have other health benefits. Sources of omega-3s include fish such as salmon, mackerel and herring. Omega-3s are also found in certain nuts and grains and in other vegetarian sources, but it isn&apos;t clear whether they have the same effect as fish oil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+SAMe and St. John&apos;s wort can interact with medications for other conditions, especially antidepressants. Talk to your doctor before trying either of these remedies to make sure they&apos;re safe for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mind-body therapies&lt;/strong&gt; that may help relieve depression symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Yoga&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Guided imagery&lt;/li&gt;
+	&lt;li&gt;Massage therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Following these steps can help you manage seasonal affective disorder: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Take medications as directed and attend therapy appointments as scheduled.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Get enough rest and take time to relax. Participate in a regular exercise program. Eat regular, healthy meals. Don&apos;t turn to alcohol or illegal drugs for relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice stress management.&lt;/strong&gt; Learn techniques to manage your stress better. Unmanaged stress can lead to depression, overeating, or other unhealthy thoughts and behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Socialize.&lt;/strong&gt; When you&apos;re feeling down, it can be hard to be social. Make an effort to connect with people you enjoy being around. They can offer support, a shoulder to cry on or a joke to give you a little boost.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a trip.&lt;/strong&gt; If possible, take winter vacations in sunny, warm locations if you have winter seasonal affective disorder or to cooler locations if you have summer seasonal affective disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to prevent the development of seasonal affective disorder. However, if you take steps early on to manage symptoms, you may be able to prevent them from getting worse over time. Some people find it helpful to begin treatment before symptoms would normally start in the fall or winter, and then continue treatment past the time symptoms would normally go away. If you can get control of your symptoms before they get worse, you may be able to head off serious changes in mood, appetite and energy levels. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Seasonal affective disorder (SAD)
+	</Title>
+	<Abstract>
+		Seasonal affective disorder (SAD) &amp;mdash; Comprehensive overview covers symptoms, treatment of this seasonal depression.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00660" LinkType="Internal" ObjectID="FF2DC04A-2A5D-9994-E5556C1E4621EA9B" Title="Video: Antidepressants &amp;#8212; How they help relieve depression" Url="http://www.mayoclinic.com/health/antidepressants/MM00660" />
+		<LinkItem ContentType="Answer" DocID="AN02074" LinkType="Internal" ObjectID="DCF0D3E1-00D4-D3D6-A2BDDFE05BBEA4C2" Title="Mild depression: Are antidepressants effective?" Url="http://www.mayoclinic.com/health/mild-depression/AN02074" />
+		<LinkItem ContentType="Answer" DocID="AN01449" LinkType="Internal" ObjectID="D613ABE2-E7FF-0DBD-1A4B821FA21F9E4E" Title="Pain and depression: Is there a link?" Url="http://www.mayoclinic.com/health/pain-and-depression/AN01449" />
+		<LinkItem ContentType="Answer" DocID="AN02087" LinkType="Internal" ObjectID="CE033047-E4F6-AC50-8218E40DE02D2326" Title="Natural remedies for depression: Are they effective?" Url="http://www.mayoclinic.com/health/natural-remedies-for-depression/AN02087" />
+		<LinkItem ContentType="Answer" DocID="AN01739" LinkType="Internal" ObjectID="B48E0D17-E7FF-0DBD-108CFAEE20A459E8" Title="Antidepressants: Which cause the fewest sexual side effects?" Url="http://www.mayoclinic.com/health/antidepressants/AN01739" />
+		<LinkItem ContentType="Answer" DocID="AN01945" LinkType="Internal" ObjectID="A0775B4E-E7FF-0DBD-1C91E44E76FA1993" Title="Lexapro side effects: Is breast tenderness common?" Url="http://www.mayoclinic.com/health/lexapro-side-effects/AN01945" />
+		<LinkItem ContentType="Answer" DocID="AN01399" LinkType="Internal" ObjectID="8D1FD7B4-E7FF-0DBD-1000E32A79631C7E" Title="Fish oil supplements: Can they treat depression?" Url="http://www.mayoclinic.com/health/fish-oil-supplements/AN01399" />
+		<LinkItem ContentType="Answer" DocID="AN01425" LinkType="Internal" ObjectID="896A9617-E7FF-0DBD-10AA1D766C0B1347" Title="Antidepressant withdrawal: Is there such a thing?" Url="http://www.mayoclinic.com/health/antidepressant-withdrawal/AN01425" />
+		<LinkItem ContentType="Answer" DocID="AN01396" LinkType="Internal" ObjectID="881C4AF6-E7FF-0DBD-159A86353F991AB4" Title="Antidepressants and weight gain: What causes it?" Url="http://www.mayoclinic.com/health/antidepressants-and-weight-gain/AN01396" />
+		<LinkItem ContentType="Answer" DocID="AN01700" LinkType="Internal" ObjectID="842AF28E-E7FF-0DBD-178C2A6BBADF3325" Title="Caffeine and depression: Is there a link?" Url="http://www.mayoclinic.com/health/caffeine-and-depression/AN01700" />
+		<LinkItem ContentType="Answer" DocID="AN02057" LinkType="Internal" ObjectID="6EEA5017-0B73-8B74-C1D42F242F6871A9" Title="Junk food blues: Are depression and diet related?" Url="http://www.mayoclinic.com/health/depression-and-diet/AN02057" />
+		<LinkItem ContentType="Answer" DocID="AN01900" LinkType="Internal" ObjectID="6EA14F33-E7FF-0DBD-188A3DE5D3FA9A69" Title="Marijuana and depression: What&apos;s the link?" Url="http://www.mayoclinic.com/health/marijuana-and-depression/AN01900" />
+		<LinkItem ContentType="Video" DocID="MM00606" LinkType="Internal" ObjectID="63BEBCB5-95F6-4C93-99E7BD6334178247" Title="Video: Electroconvulsive therapy (ECT)" Url="http://www.mayoclinic.com/health/electroconvulsive-therapy/MM00606" />
+		<LinkItem ContentType="Answer" DocID="AN01543" LinkType="Internal" ObjectID="5AC07427-E7FF-0DBD-1A0CE6CA9AE13F89" Title="Vitamin B-12 and depression: Are they related?" Url="http://www.mayoclinic.com/health/vitamin-b12-and-depression/AN01543" />
+		<LinkItem ContentType="Answer" DocID="AN00476" LinkType="Internal" ObjectID="5977E7CC-D0EC-48DA-BA17C1FA97821D61" Title="Nervous breakdown: What does it mean?" Url="http://www.mayoclinic.com/health/nervous-breakdown/AN00476" />
+		<LinkItem ContentType="Answer" DocID="AN01653" LinkType="Internal" ObjectID="546E122E-E7FF-0DBD-1854C3B00CB47F1B" Title="Antidepressants and alcohol: What is the concern?" Url="http://www.mayoclinic.com/health/antidepressants-and-alcohol/AN01653" />
+		<LinkItem ContentType="Answer" DocID="AN01615" LinkType="Internal" ObjectID="4960C13D-E7FF-0DBD-1866BEED9AD896BE" Title="Depression and anxiety: Can I have both?" Url="http://www.mayoclinic.com/health/depression-and-anxiety/AN01615" />
+		<LinkItem ContentType="Answer" DocID="AN01312" LinkType="Internal" ObjectID="41CD687B-2A5D-9994-EE4706365A81C663" Title="Antidepressants: Can they stop working?" Url="http://www.mayoclinic.com/health/antidepressants/AN01312" />
+		<LinkItem ContentType="SelfAssessment" DocID="MH00103_D" LinkType="Internal" ObjectID="3323EE4A-4AD6-4408-B82B7DDEB1D2FEB6" Title="Depression self-assessment" Url="http://www.mayoclinic.com/health/depression/MH00103_D" />
+		<LinkItem ContentType="Answer" DocID="AN01057" LinkType="Internal" ObjectID="31B8B61F-4CDE-415F-A383B48601C2598E" Title="&apos;Clinical depression&apos;: What does that mean?" Url="http://www.mayoclinic.com/health/clinical-depression/AN01057" />
+		<LinkItem ContentType="Answer" DocID="HQ01575" LinkType="Internal" ObjectID="26BFEE12-2FB7-4728-8C82CABA0C5A5ED0" Title="MAOIs and diet: Is it necessary to restrict tyramine?" Url="http://www.mayoclinic.com/health/maois/HQ01575" />
+		<LinkItem ContentType="InteractiveTable" DocID="MH00062" LinkType="Internal" ObjectID="0096FAE5-B0BB-4D37-80E979710473E342" Title="Antidepressants: Get tips to cope with side effects" Url="http://www.mayoclinic.com/health/antidepressants/MH00062" />
+		<LinkItem ContentType="Article" DocID="MY01561" LinkType="Internal" ObjectID="EE9E570C-9C93-0EF1-151FF414060419DE" Title="Atypical antidepressants" Url="http://www.mayoclinic.com/health/Atypical-antidepressants/MY01561" />
+		<LinkItem ContentType="Article" DocID="MH00035" LinkType="Internal" ObjectID="CF6360BC-F484-4537-8B66238611E7093F" Title="Depression in women: Understanding the gender gap" Url="http://www.mayoclinic.com/health/depression/MH00035" />
+		<LinkItem ContentType="Article" DocID="MH00071" LinkType="Internal" ObjectID="A515ADFA-CB64-4AAA-BC33444FDC400386" Title="Tricyclic antidepressants and tetracyclic antidepressants" Url="http://www.mayoclinic.com/health/antidepressants/MH00071" />
+		<LinkItem ContentType="Article" DocID="MH00043" LinkType="Internal" ObjectID="8D173381-C07B-408F-88A4D285554134E5" Title="Depression and anxiety: Exercise eases symptoms" Url="http://www.mayoclinic.com/health/depression-and-exercise/MH00043" />
+		<LinkItem ContentType="Article" DocID="HQ01069" LinkType="Internal" ObjectID="81DC27B3-E395-4ED5-88409BBEA636471E" Title="Antidepressants: Selecting one that&apos;s right for you" Url="http://www.mayoclinic.com/health/antidepressants/HQ01069" />
+		<LinkItem ContentType="Article" DocID="MC00041" LinkType="Internal" ObjectID="8022027A-C9BC-4931-B93F392D2BC06876" Title="Male depression: Understanding the issues" Url="http://www.mayoclinic.com/health/male-depression/MC00041" />
+		<LinkItem ContentType="Article" DocID="MH00016" LinkType="Internal" ObjectID="71CE4E8A-D9CD-41CC-94BDDFCD55B352EB" Title="Depression: Supporting a family member or friend" Url="http://www.mayoclinic.com/health/depression/MH00016" />
+		<LinkItem ContentType="Article" DocID="MH00067" LinkType="Internal" ObjectID="38798D0F-864B-44FB-981A2B0BD6044A0E" Title="Serotonin and norepinephrine reuptake inhibitors (SNRIs)" Url="http://www.mayoclinic.com/health/antidepressants/MH00067" />
+		<LinkItem ContentType="Article" DocID="MH00066" LinkType="Internal" ObjectID="30C860F3-5656-44A4-9F95A2A487837E7F" Title="Selective serotonin reuptake inhibitors (SSRIs)" Url="http://www.mayoclinic.com/health/ssris/MH00066" />
+		<LinkItem ContentType="Article" DocID="DN00016" LinkType="Internal" ObjectID="1732C94B-E7FF-0DBD-1B617EC9B7A2C753" Title="Treatment-resistant depression" Url="http://www.mayoclinic.com/health/treatment-resistant-depression/DN00016" />
+		<LinkItem ContentType="Article" DocID="MH00072" LinkType="Internal" ObjectID="07ECDC2C-C87F-4A5D-8D5EC178ECC4AFEE" Title="Monoamine oxidase inhibitors (MAOIs)" Url="http://www.mayoclinic.com/health/maois/MH00072" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00195" LinkType="Internal" ObjectID="6A97E98C-E7FF-0DBD-1330B836BF02893D" Title="Light therapy" Url="http://www.mayoclinic.com/health/light-therapy/MY00195" />
+		<LinkItem ContentType="Disease" DocID="DS00175" LinkType="Internal" ObjectID="F61D92BD-C12C-4C1E-98CE1DDC09196EA2" Title="Depression (major depression)" Url="http://www.mayoclinic.com/health/depression/DS00175" />
+		<LinkItem ContentType="Article" DocID="DN00013" LinkType="Internal" ObjectID="F4ED17C0-E7FF-0DBD-1FF5780E0E757B9C" Title="Seasonal affective disorder treatment: Choosing a light box" Url="http://www.mayoclinic.com/health/seasonal-affective-disorder-treatment/DN00013" />
+	</RelatedLinksBox>
+</Disease>

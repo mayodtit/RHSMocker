@@ -1,0 +1,392 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00500
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cholesterol-test/MY00500
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-25
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3352" Title="Know your numbers" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3472" Title="Manage wellness clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3732" Title="Nutritional and metabolic disorders">
+						<Keyword MCVID="3733" Title="Cholesterol ratio" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ACA5E069-DFEE-9A46-E42C13E5816BAE0D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholesterol test
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol test results
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol levels
+			</MetaKeyword>
+			<MetaKeyword>
+				hdl cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				ldl cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				lipid panel
+			</MetaKeyword>
+			<MetaKeyword>
+				lipid profile
+			</MetaKeyword>
+			<MetaKeyword>
+				total cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				lipoprotein test
+			</MetaKeyword>
+			<MetaKeyword>
+				lipid test
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol blood test
+			</MetaKeyword>
+			<MetaKeyword>
+				colesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				cholestrol
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A complete cholesterol test &amp;mdash; also called a lipid panel or lipid profile &amp;mdash; is a blood test that can measure the amount of cholesterol and triglycerides in your blood. A cholesterol test can help determine your risk of the buildup of plaques in your arteries that can lead to narrowed or blocked arteries throughout your body (atherosclerosis). High cholesterol levels usually don&apos;t cause any signs or symptoms, so a cholesterol test is an important tool. High cholesterol levels often are a significant risk factor for heart disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High cholesterol by itself usually has no signs or symptoms. A complete cholesterol test is done to determine whether your cholesterol is high and estimate your risk of developing heart disease.
+&lt;/p&gt;
+&lt;p&gt;
+A complete cholesterol test, referred to as a lipid panel or lipid profile, includes the calculation of four types of fats (lipids) in your blood:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Total cholesterol.&lt;/strong&gt; This is a sum of your blood&apos;s cholesterol content.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High-density lipoprotein (HDL) cholesterol.&lt;/strong&gt; This is sometimes called the &quot;good&quot; cholesterol because it helps carry away LDL cholesterol, thus keeping arteries open and your blood flowing more freely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low-density lipoprotein (LDL) cholesterol.&lt;/strong&gt; This is sometimes called the &quot;bad&quot; cholesterol. Too much of it in your blood causes the buildup of fatty deposits (plaques) in your arteries (atherosclerosis), which reduces blood flow. These plaques sometimes rupture and can lead to a heart attack or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Triglycerides.&lt;/strong&gt; Triglycerides are a type of fat in the blood. When you eat, your body converts any calories it doesn&apos;t need into triglycerides, which are stored in fat cells. High triglyceride levels are associated with several factors, including being overweight, eating too many sweets or drinking too much alcohol, smoking, being sedentary, or having diabetes with elevated blood sugar levels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Who should get a cholesterol test?&lt;br /&gt;
+&lt;/strong&gt;All adults age 20 or older should have a cholesterol test once every five years. Ideally, you should begin having your cholesterol checked during your early 20s. You should have your cholesterol measured when you&apos;re relatively healthy. An acute illness, a heart attack or severe stress can affect cholesterol levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholesterol testing is especially important if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a family history of high cholesterol or heart disease&lt;/li&gt;
+	&lt;li&gt;Are overweight&lt;/li&gt;
+	&lt;li&gt;Are physically inactive&lt;/li&gt;
+	&lt;li&gt;Have diabetes&lt;/li&gt;
+	&lt;li&gt;Eat a high-fat diet&lt;/li&gt;
+	&lt;li&gt;Are a man older than 45 or a woman older than 55&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These factors put you at increased risk of developing high cholesterol and heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have high cholesterol levels, your doctor may want you to get tested more often. Discuss with your doctor how often you should have a cholesterol test if your cholesterol levels are abnormal. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, if you have a strong family history of early heart disease, your doctor may want to test other risk factors, such as lipoproteins, that aren&apos;t part of the standard cholesterol profile. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholesterol is often high during pregnancy, so pregnant women should wait at least six weeks after giving birth to have their cholesterol measured. The same is true for people who&apos;ve been ill or had a heart attack, surgery or an accident.
+&lt;/p&gt;
+&lt;p&gt;
+Some drugs are known to increase cholesterol levels, including anabolic steroids, beta blockers, epinephrine, oral contraceptives and vitamin D. Be sure the doctor who orders your tests is aware of all the drugs and supplements you&apos;re taking.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children and cholesterol testing&lt;br /&gt;
+&lt;/strong&gt;Children as young as age 2 can have high cholesterol, but not all children need to be screened for high cholesterol. The American Academy of Pediatrics recommends a cholesterol test only for children between the ages of 2 and 10 who have a known family history of high cholesterol or premature coronary artery disease. Your child&apos;s doctor may recommend retesting if your child&apos;s first test shows he or she has abnormal cholesterol levels. If you have a family history of coronary artery disease that develops at a young age, your doctor may recommend more frequent cholesterol tests beyond the recommended screenings.
+&lt;/p&gt;
+&lt;p&gt;
+The American Academy of Pediatrics also recommends testing if the child&apos;s family history for high cholesterol is unknown, but the child has risk factors for high cholesterol, such as obesity, high blood pressure or diabetes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s little risk in getting a cholesterol test. You may have some soreness or tenderness around the site where your blood is drawn. Rarely, the site may become infected. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally you&apos;re required to fast, consuming no food or liquids other than water, for nine to 12 hours before the test. There is some evidence that fasting doesn&apos;t make much difference in cholesterol levels, but for now, most doctors will tell you to fast. You can drink water in the time leading up to the test, but avoid coffee, tea and other beverages. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about any other special requirements. Some medications, such as birth control pills, can increase your cholesterol levels. For this reason, if you take these or other medications, your doctor might want you to stop taking them for a few days before your test. However, in some cases, if you take a medication regularly, your doctor may want you to continue it to see the effect it has on your cholesterol levels.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;A cholesterol test is a blood test, usually done in the morning since you&apos;ll need to fast for the most accurate results. Blood is drawn from a vein, usually from your arm. Before the needle is inserted, the puncture site is cleaned with antiseptic and an elastic band is wrapped around your upper arm. This causes the veins in your arm to fill with blood. 
+&lt;/p&gt;
+&lt;p&gt;
+After the needle is inserted, a small amount of blood is collected into a vial or syringe. The band is then removed to restore circulation, and blood continues to flow into the vial. Once enough blood is collected, the needle is removed and the puncture site is covered with a bandage. 
+&lt;/p&gt;
+&lt;p&gt;
+The entire procedure will likely last a couple of minutes. It&apos;s relatively painless. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;There are no special precautions you need to take after your cholesterol test. You should be able to drive yourself home and do all your normal activities. You may want to bring a snack to eat after your cholesterol test is done, if you&apos;ve been fasting. 
+&lt;/p&gt;
+&lt;p&gt;
+It may take a few days to get your results. Your doctor should explain to you what the results of your test mean. It&apos;s likely your doctor will want to retest you in several weeks or months if your test shows your cholesterol levels are high. Before starting any treatment based on an abnormal cholesterol test, it&apos;s common to get several tests done over a period of time to ensure an accurate result.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the United States, cholesterol levels are measured in milligrams (mg) of cholesterol per deciliter (dL) of blood. In Canada and many European countries, cholesterol levels are measured in millimoles per liter (mmol/L). To interpret your test results, use these general guidelines. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;34%&quot;&gt;Total cholesterol&lt;br /&gt;
+			(U.S. and some other countries) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;Total cholesterol*&lt;br /&gt;
+			(Canada and most of Europe) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;&amp;nbsp; &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 200 mg/dL &lt;/td&gt;
+			&lt;td&gt;Below 5.2 mmol/L &lt;/td&gt;
+			&lt;td&gt;Desirable &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;200-239 mg/dL &lt;/td&gt;
+			&lt;td&gt;5.2-6.2 mmol/L &lt;/td&gt;
+			&lt;td&gt;Borderline high &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;240 mg/dL and above &lt;/td&gt;
+			&lt;td&gt;Above 6.2 mmol/L &lt;/td&gt;
+			&lt;td&gt;High&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;34%&quot;&gt;LDL cholesterol&lt;br /&gt;
+			(U.S. and some other countries) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;LDL cholesterol*&lt;br /&gt;
+			(Canada and most of Europe) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;&amp;nbsp; &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 70 mg/dL &lt;/td&gt;
+			&lt;td&gt;Below 1.8 mmol/L &lt;/td&gt;
+			&lt;td&gt;Optimal for people at very high risk of heart disease &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Below 100 mg/dL &lt;/td&gt;
+			&lt;td&gt;Below 2.6 mmol/L &lt;/td&gt;
+			&lt;td&gt;Optimal for people at risk of heart disease &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;100-129 mg/dL &lt;/td&gt;
+			&lt;td&gt;2.6-3.3 mmol/L &lt;/td&gt;
+			&lt;td&gt;Near optimal &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;130-159 mg/dL &lt;/td&gt;
+			&lt;td&gt;3.4-4.1 mmol/L &lt;/td&gt;
+			&lt;td&gt;Borderline high &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;160-189 mg/dL &lt;/td&gt;
+			&lt;td&gt;4.1-4.9 mmol/L &lt;/td&gt;
+			&lt;td&gt;High &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;190 mg/dL and above &lt;/td&gt;
+			&lt;td&gt;Above 4.9 mmol/L &lt;/td&gt;
+			&lt;td&gt;Very high &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;34%&quot;&gt;HDL cholesterol &lt;br /&gt;
+			(U.S. and some other countries) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;HDL cholesterol*&lt;br /&gt;
+			(Canada and most of Europe) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;&amp;nbsp; &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 40 mg/dL (men)&lt;br /&gt;
+			Below 50 mg/dL (women)&lt;/td&gt;
+			&lt;td&gt;Below 1 mmol/L (men)&lt;br /&gt;
+			Below 1.3 mmol/L (women)&lt;/td&gt;
+			&lt;td&gt;Poor &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;50-59 mg/dL &lt;/td&gt;
+			&lt;td&gt;1.3-1.5 mmol/L &lt;/td&gt;
+			&lt;td&gt;Better &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;60 mg/dL and above &lt;/td&gt;
+			&lt;td&gt;Above 1.5 mmol/L &lt;/td&gt;
+			&lt;td&gt;Best &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;34%&quot;&gt;Triglycerides&lt;br /&gt;
+			(U.S. and some other countries) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;Triglycerides*&lt;br /&gt;
+			(Canada and most of Europe) &lt;/th&gt;&lt;th width=&quot;33%&quot;&gt;&amp;nbsp; &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 150 mg/dL &lt;/td&gt;
+			&lt;td&gt;Below 1.7 mmol/L &lt;/td&gt;
+			&lt;td&gt;Desirable &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;150-199 mg/dL &lt;/td&gt;
+			&lt;td&gt;1.7-2.2 mmol/L &lt;/td&gt;
+			&lt;td&gt;Borderline high &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;200-499 mg/dL &lt;/td&gt;
+			&lt;td&gt;2.3-5.6 mmol/L &lt;/td&gt;
+			&lt;td&gt;High &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;500 mg/dL and above &lt;/td&gt;
+			&lt;td&gt;Above 5.6 mmol/L &lt;/td&gt;
+			&lt;td&gt;Very high &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+*Canadian and European guidelines differ slightly from U.S. guidelines. These conversions are based on U.S. guidelines. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Heart Association (AHA) recommends that a triglyceride level of 100 mg/dL (1.3 mmol/L) or lower is considered &quot;optimal.&quot; The AHA says this optimal level would improve your heart health. However, the AHA doesn&apos;t recommend drug treatment to reach this level. Instead, for those trying to lower their triglycerides to this level, lifestyle changes such as diet, weight loss and physical activity are encouraged. That&apos;s because triglycerides usually respond well to dietary and lifestyle changes.
+&lt;/p&gt;
+&lt;p&gt;
+The four main categories &amp;mdash; total cholesterol, LDL cholesterol, HDL cholesterol and triglycerides &amp;mdash; are what are most commonly measured or calculated during a cholesterol test. Still, many doctors have begun examining other substances in the blood. Tests of these other substances in the blood are often done on the same sample of blood taken during a cholesterol test and are meant to complement, not replace, a standard lipid panel or lipid profile cholesterol test.
+&lt;/p&gt;
+&lt;p&gt;
+If your results show that your cholesterol level is high, don&apos;t get discouraged. You may be able to lower your cholesterol with lifestyle changes, such as quitting smoking, exercising and eating a healthy diet. If lifestyle changes aren&apos;t enough, cholesterol-lowering medications also may help. Talk to your doctor about the best way for you to lower your cholesterol. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Women and cholesterol test results&lt;br /&gt;
+&lt;/strong&gt;The hormone estrogen tends to cause women to have higher levels of HDL (good) cholesterol and higher levels of triglycerides. If you have higher levels of triglycerides than normal, talk to your doctor. Many women who are at risk of heart disease and have high LDL cholesterol levels may benefit from cholesterol-lowering medications. With menopause, women&apos;s cholesterol levels can change. It&apos;s a good idea to have a repeat cholesterol test after you&apos;ve stopped menstruating for good, since your cholesterol levels may change.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cholesterol test
+	</Title>
+	<Abstract>
+		Cholesterol test &amp;mdash; Overview covers how to interpret the results of this common blood test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="Disease" DocID="DS00178" LinkType="Internal" ObjectID="BF6A0C4C-585D-48D0-9E5A06D9FB07644A" Title="High cholesterol" Url="http://www.mayoclinic.com/health/high-blood-cholesterol/DS00178" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,64 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00002
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00002
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="1831" Title="Consumer health basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6C1F9DF9-E7FF-0DBD-1DE8F91161BF55AF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eye exam
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Had an eye exam lately?
+	</Title>
+	<Body>
+		&lt;p&gt;Regular eye exams are an important part of preventive health care, even if you don&apos;t wear glasses. Consult your eye care professional for periodic eye exams. In general, if you&apos;re healthy and have no vision problems, have your vision checked every five to 10 years in your 20s and 30s. Between ages 40 and 65, have your vision checked every two to four years. After age 65, get your eyes checked every one to two years.&lt;/p&gt;
+	</Body>
+</HealthTip>

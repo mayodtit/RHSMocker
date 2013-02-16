@@ -1,0 +1,116 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00806
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thyroid-disease/AN00806
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-17
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3854" Title="Endocrine system">
+						<Keyword MCVID="2600" Title="Thyroid peroxidase antibody (TPO) test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2D62C8DD-A5F7-4BC2-A286806FF484555F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thyroid disease
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid problems
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid peroxidase
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroperoxidase antibody
+			</MetaKeyword>
+			<MetaKeyword>
+				Hashimoto&apos;s thyroiditis
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid peroxidase antibody
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid antibodies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Thyroid peroxidase (TPO), an enzyme normally found in the thyroid gland, plays an important role in the production of thyroid hormones. A TPO test detects antibodies against TPO in the blood. If you&apos;ve been diagnosed with thyroid disease, your doctor may recommend a TPO antibody test &amp;mdash; in addition to other thyroid tests &amp;mdash; to help determine the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+The presence of TPO antibodies in your blood suggests that the cause of thyroid disease is an autoimmune disorder, such as Hashimoto&apos;s disease or Graves&apos; disease. In autoimmune disorders, your immune system makes antibodies that mistakenly attack normal tissue. Antibodies that attack the thyroid gland cause inflammation and impaired function of the thyroid. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also order a TPO antibody test if you are pregnant and have an autoimmune disease, especially one that involves the thyroid, such as Hashimoto&apos;s disease or Graves&apos; disease. In such cases, the TPO antibody test early in pregnancy and possibly again near the end of the pregnancy can help determine whether your baby is at risk of thyroid dysfunction. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with TPO antibodies may not have thyroid disease. However, the presence of TPO antibodies may increase the risk of future thyroid disorders. If you have normal thyroid function with TPO antibodies, your doctor may recommend periodic checkups to watch for future thyroid problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thyroid peroxidase antibody test: What is it?
+	</Title>
+	<Abstract>
+		A thyroid peroxidase antibody test can help determine the cause of thyroid disease.
+	</Abstract>
+	<Question>
+		What is a thyroid peroxidase antibody test? Does it diagnose thyroid disease?
+	</Question>
+	<QuestionFirstName>
+		Kelly
+	</QuestionFirstName>
+	<QuestionState>
+		New York
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

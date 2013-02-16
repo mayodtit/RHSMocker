@@ -1,0 +1,276 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00890
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wrinkles/DS00890
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-27
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2886" Title="Skin wrinkles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C42ABBC4-E7FF-0DBD-19EBF5AAD5773BEC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wrinkles
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle treatments
+			</MetaKeyword>
+			<MetaKeyword>
+				skin care
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-aging
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-wrinkle
+			</MetaKeyword>
+			<MetaKeyword>
+				preventing wrinkles
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle reducer
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle reduction
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle prevention
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wrinkles are a natural part of aging, but they&apos;re most prominent on sun-exposed skin, such as the face, neck, hands and forearms. Although genetics are the most important determinant of skin structure and texture, sun exposure is the major contributor to wrinkles. Environmental exposure, such as to heat, wind and dust, as well as smoking, also may contribute to wrinkling.
+&lt;/p&gt;
+&lt;p&gt;
+If your wrinkles bother you, you have more options than ever to help eliminate or at least diminish their appearance. Medications, skin-resurfacing techniques, fillers, injectables and surgery top the list of effective wrinkle treatments.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing wrinkles on the face" Caption="Wrinkles, especially around the eyes, mouth and neck, are common with aging as the skin gets thinner, drier and less elastic." Height="60" Title="Wrinkles" URI="/images/image_popup/thumbs/sn7_wrinklesthu.jpg" Width="60" />
+				<Image Alt="Image showing wrinkles on the face" Caption="Wrinkles, especially around the eyes, mouth and neck, are common with aging as the skin gets thinner, drier and less elastic." Height="289" Title="Wrinkles" URI="/images/image_popup/sn7_wrinkles.jpg" Width="400" />
+				<HTML>
+					Wrinkles, especially around the eyes, mouth and neck, are common with aging as the skin gets thinner, drier and less elastic....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wrinkles are the lines and creases that form in your skin. Some wrinkles can become deep crevices or furrows and may be especially noticeable around your eyes, mouth and neck.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re concerned about the appearance of your skin, see a dermatologist. He or she can help you create a personalized skin care plan by assessing your skin type and evaluating your skin&apos;s condition. A dermatologist can also recommend medical wrinkle treatments.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing wrinkles on the face" Caption="Wrinkles, especially around the eyes, mouth and neck, are common with aging as the skin gets thinner, drier and less elastic." Height="60" Title="Wrinkles" URI="/images/image_popup/thumbs/sn7_wrinklesthu.jpg" Width="60" />
+				<Image Alt="Image showing wrinkles on the face" Caption="Wrinkles, especially around the eyes, mouth and neck, are common with aging as the skin gets thinner, drier and less elastic." Height="289" Title="Wrinkles" URI="/images/image_popup/sn7_wrinkles.jpg" Width="400" />
+				<HTML>
+					Wrinkles, especially around the eyes, mouth and neck, are common with aging as the skin gets thinner, drier and less elastic....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing deep wrinkles on the neck" Caption="With repeated sun exposure, wrinkles can become very pronounced and deep, especially on the back of the neck." Height="60" Title="Deep, coarse wrinkles" URI="/images/image_popup/thumbs/sn7_wrinkles2thu.jpg" Width="60" />
+				<Image Alt="Image showing deep wrinkles on the neck" Caption="With repeated sun exposure, wrinkles can become very pronounced and deep, especially on the back of the neck." Height="400" Title="Deep, coarse wrinkles" URI="/images/image_popup/sn7_wrinkles2.jpg" Width="400" />
+				<HTML>
+					With repeated sun exposure, wrinkles can become very pronounced and deep, especially on the back of the neck....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wrinkles are caused by a combination of factors &amp;mdash; some you can control, others you can&apos;t:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; As you get older, your skin naturally becomes less elastic and more fragile. Decreased production of natural oils makes your skin drier and appear more wrinkled. Fat in the deeper layers of your skin, which gives the skin a plump appearance, starts to diminish. This causes loose, saggy skin and more-pronounced lines and crevices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to ultraviolet (UV) light.&lt;/strong&gt; Ultraviolet radiation markedly speeds up the natural aging process and is the primary cause of early wrinkling. Exposure to UV light breaks down your skin&apos;s connective tissue &amp;mdash; collagen and elastin fibers, which lie in the deeper layer of skin (dermis). Without the supportive connective tissue, your skin loses its strength and flexibility. As a result, skin begins to sag and wrinkle prematurely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking can accelerate the normal aging process of your skin, contributing to wrinkles. This may be due to changes in the blood supply to your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repeated facial expressions.&lt;/strong&gt; Facial movements and expressions, such as squinting or smiling, lead to fine lines and wrinkles. Each time you use a facial muscle, a groove forms beneath the surface of the skin. And as skin ages, it loses its flexibility and is no longer able to spring back in place. These grooves then become permanent features on your face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Women tend to develop more wrinkles around their mouths (perioral) than men do. That may be because women have fewer sweat glands and glands that secrete an oily matter known as sebum (sebaceous glands) to lubricate the skin and fewer blood vessels in this area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor nutrition.&lt;/strong&gt; Nutritional deficiencies are believed to contribute to skin aging.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you make an appointment with a dermatologist, it&apos;s a good idea to prepare for your appointment by making a list of questions about your skin you want your doctor to answer. For wrinkles, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What will the treatments cost? Does medical insurance cover these costs?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;How often will I need to repeat the treatment?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What products, such as cleansers and moisturizers, do you use on your skin?&lt;/li&gt;
+	&lt;li&gt;Do you use sunscreen?&lt;/li&gt;
+	&lt;li&gt;Did you expose your skin to sun when you were younger?&lt;/li&gt;
+	&lt;li&gt;Do you smoke or have you ever smoked?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your wrinkles bother you, you have many options to help eliminate or at least reduce their appearance. Wrinkle treatments include:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical retinoids.&lt;/strong&gt; Derived from vitamin A, retinoids that you apply to your skin may be able to reduce fine wrinkles, splotchy pigmentation and skin roughness. Retinoids must be used with a skin care program that includes daily broad-spectrum sunscreen application and protective clothing because the medication can make your skin burn more easily. It may also cause redness, dryness, itching, and a burning or tingling sensation. Tretinoin (Renova, Retin-A) and tazarotene (Avage, Tazorac) are examples of topical retinoids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonprescription wrinkle creams.&lt;/strong&gt; The effectiveness of anti-wrinkle creams depends in part on the active ingredient or ingredients. Retinol, alpha hydroxy acids, kinetin, coenzyme Q10, copper peptides and antioxidants may result in slight to modest improvements in wrinkles. However, nonprescription wrinkle creams contain lower concentrations of active ingredients than do prescription creams. Therefore results, if any, are limited and usually short-lived.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical procedures and other techniques&lt;/strong&gt;&lt;br /&gt;
+A variety of skin-resurfacing techniques, injectables, fillers and surgical procedures are available to smooth out wrinkles. Each works a little differently and has its own set of potential results and side effects. Some studies indicate that a combination of treatments may yield the most satisfying results.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dermabrasion.&lt;/strong&gt; This procedure consists of sanding down (planing) the surface layer of your skin with a rapidly rotating brush. The planing removes the skin surface, and a new layer of skin grows in its place. Redness, scabbing and swelling generally last a couple of weeks. It may take several months for the pinkness to fade and for you to see the desired results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Microdermabrasion.&lt;/strong&gt; This technique is similar to dermabrasion, but less surface skin is removed. It&apos;s done using a vacuum suction over your face while aluminum oxide crystals essentially sandblast your skin. Only a fine layer of skin is removed. You may notice a slight redness to the treated areas. Microdermabrasion usually requires repeated treatments to maintain the subtle, temporary results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser, light source and radiofrequency treatments.&lt;/strong&gt; In ablative (wounding) laser resurfacing, a laser beam destroys the outer layer of skin (epidermis) and heats the underlying skin (dermis), which stimulates the growth of new collagen fibers. As the wound heals, new skin forms that&apos;s smoother and tighter. It can take up to several months to fully heal from ablative laser resurfacing. Newer developments in laser technology, such as nonablative fractional resurfacing, in which the laser divides the light up into many smaller pulses, have decreased the healing time. Nonablative lasers are less intense, so they don&apos;t injure the epidermis. These treatments heat the dermis and cause new collagen and elastin formation. After several treatments, skin feels firmer and appears refreshed. Nonablative laser treatment typically needs to be repeated more often and results are subtle. There&apos;s also a device that uses radiofrequency instead of light to heat the dermis and underlying tissue to achieve mildly to moderately tighter skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical peel.&lt;/strong&gt; Your doctor applies an acid to the affected areas, which burns the outer layer of your skin. With medium-depth peels, the entire epidermis and a small portion of the dermis are removed. New skin forms to take its place. The new skin is usually smoother and less wrinkled than your old skin. Redness lasts up to several weeks. With superficial peels, only a portion of the epidermis is removed. After a series of peels, you may notice less fine wrinkling in your skin and a fading of brown spots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Botulinum toxin type A (Botox).&lt;/strong&gt; When injected in small doses into specific muscles, Botox blocks the chemical signals that cause muscles to contract. When the muscles can&apos;t tighten, the skin flattens and appears smoother and less wrinkled. Botox works well on frown lines between the eyebrows and across the forehead, and crow&apos;s-feet at the corners of the eyes. Results typically last about three to four months. Repeat injections are needed to maintain results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soft tissue fillers.&lt;/strong&gt; Soft tissue fillers, which include fat, collagen and hyaluronic acid (Restylane, Juvederm), can be injected into deeper wrinkles on your face. They plump and smooth out wrinkles and furrows and give your skin more volume. You may experience temporary swelling, redness and bruising in the treated area. The procedure may need to be repeated every few months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Face-lift.&lt;/strong&gt; The face-lift procedure involves removing excess skin and fat in your lower face and neck and tightening the underlying muscle and connective tissue. The results typically last five to 10 years. Healing times can be lengthy after a face-lift. Bruising and swelling are usually evident for several weeks after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind that results vary depending on the location of your wrinkles and how deep your wrinkles are. However, nothing stops the aging process of skin, so you&apos;ll likely need the treatments repeated to maintain benefits.
+&lt;/p&gt;
+&lt;p&gt;
+These procedures aren&apos;t usually covered by insurance. In addition, any of the procedures can have side effects, so be sure to discuss them with your doctor. Make sure your dermatologist or plastic surgeon is specially trained and experienced in the technique you&apos;re considering.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many wrinkle creams and lotions sold in department stores, in drugstores and on the Internet promise to reduce wrinkles and prevent or reverse damage caused by the sun. But these products are not likely to make a noticeable difference in your skin.
+&lt;/p&gt;
+&lt;p&gt;
+The Food and Drug Administration (FDA) classifies these creams and lotions as cosmetics, which are defined as having no medical value. So the FDA regulates them less strictly than it does drugs. This means that products don&apos;t need to undergo rigorous testing for safety and effectiveness before approval to go on the market.
+&lt;/p&gt;
+&lt;p&gt;
+Because the FDA doesn&apos;t evaluate cosmetic products for effectiveness, there&apos;s no guarantee that any over-the-counter product will reduce your wrinkles.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are ways to make the most of your skin&apos;s appearance:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your skin from the sun.&lt;/strong&gt; Protect your skin &amp;mdash; and prevent future wrinkles &amp;mdash; by limiting the time you spend in the sun and always wearing protective clothing and hats. Also, use sunscreen when outdoors, even during winter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose products with built-in sunscreen.&lt;/strong&gt; When selecting skin care products, choose those with a built-in sun protection factor (SPF) of at least 30. Also, be sure to select products that are broad spectrum &amp;mdash; meaning they block both UVA and UVB rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use moisturizers.&lt;/strong&gt; Dry skin shrivels plump skin cells, which can lead to premature fine lines and wrinkles. Though moisturizers can&apos;t prevent wrinkles, they may temporarily mask tiny lines and creases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Even if you&apos;ve smoked for years or smoked heavily, you can still improve your skin tone and texture and prevent future wrinkles by quitting smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; There is some evidence that certain vitamins in your diet help protect your skin, particularly vitamins A, C, B-3 and E. More study is needed on the role of nutrition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wrinkles
+	</Title>
+	<Abstract>
+		Wrinkles &amp;mdash; Comprehensive overview covers causes, treatments and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02081" LinkType="Internal" ObjectID="BD3FFCD6-FA5E-7574-57A05B232452C711" Title="Face-lift" Url="http://www.mayoclinic.com/health/face-lift/MY02081" />
+		<LinkItem ContentType="Answer" DocID="AN00644" LinkType="Internal" ObjectID="BA5F698E-310B-499D-B596C3533F2EB8F8" Title="Smoking: Does it cause wrinkles?" Url="http://www.mayoclinic.com/health/smoking/AN00644" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00078" LinkType="Internal" ObjectID="A7A9F759-E7FF-0DBD-1F23DC7EBD002380" Title="Botox injections" Url="http://www.mayoclinic.com/health/botox/MY00078" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02019" LinkType="Internal" ObjectID="A17FD5F4-0368-EB6D-C682D15494E9D436" Title="Chemical peel" Url="http://www.mayoclinic.com/health/chemical-peel/MY02019" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02017" LinkType="Internal" ObjectID="A17AC65B-B476-506E-F9A111DA92E98CA4" Title="Dermabrasion" Url="http://www.mayoclinic.com/health/dermabrasion/MY02017" />
+		<LinkItem ContentType="Answer" DocID="AN01863" LinkType="Internal" ObjectID="9A7AB343-E7FF-0DBD-15C1AF89FC947DFE" Title="Foods for healthy skin: Top picks" Url="http://www.mayoclinic.com/health/healthy-skin/AN01863" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00560" LinkType="Internal" ObjectID="4C6589A4-D708-3450-0D8FE75D27CACA0A" Title="Laser resurfacing" Url="http://www.mayoclinic.com/health/laser-resurfacing/MY00560" />
+		<LinkItem ContentType="Answer" DocID="AN02166" LinkType="Internal" ObjectID="14E45768-FDBF-E8B7-A1436D9FF6A5F81C" Title="Botox party: Is it safe?" Url="http://www.mayoclinic.com/health/botox-party/AN02166" />
+		<LinkItem ContentType="Article" DocID="SN00003" LinkType="Internal" ObjectID="EFC4004C-25CE-4C77-925237045078807F" Title="Skin care: 5 tips for healthy skin" Url="http://www.mayoclinic.com/health/skin-care/SN00003" />
+		<LinkItem ContentType="Article" DocID="MY01350" LinkType="Internal" ObjectID="411E3C71-B074-4E63-341FF33B9CD3722C" Title="Best sunscreen: Understand sunscreen options" Url="http://www.mayoclinic.com/health/best-sunscreen/MY01350" />
+		<LinkItem ContentType="Disease" DocID="DS00964" LinkType="Internal" ObjectID="2C9B4EAD-E7FF-0DBD-11FE616BB5B7F712" Title="Sunburn" Url="http://www.mayoclinic.com/health/sunburn/DS00964" />
+		<LinkItem ContentType="Article" DocID="SN00010" LinkType="Internal" ObjectID="C0458A0E-5E5D-428F-9B728F387516C5D9" Title="Wrinkle creams: Your guide to younger looking skin" Url="http://www.mayoclinic.com/health/wrinkle-creams/SN00010" />
+	</RelatedLinksBox>
+</Disease>

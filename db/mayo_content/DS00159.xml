@@ -1,0 +1,302 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00159
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vulvodynia/DS00159
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-15
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2685" Title="Vulvodynia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2353AEF1-09C7-4605-96B03B3BEE7DF496
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vulvodynia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic vulvular pain
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic vulvar pain
+			</MetaKeyword>
+			<MetaKeyword>
+				pelvic pain
+			</MetaKeyword>
+			<MetaKeyword>
+				vulvadynia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vulvodynia (vul-vo-DIN-ee-uh) is chronic pain in the area around the opening of your vagina (vulva) for which there is no identifiable cause. The pain, burning or irritation associated with vulvodynia may make you so uncomfortable that sitting for long periods or having sex becomes unthinkable. The condition can go on for months or years.
+&lt;/p&gt;
+&lt;p&gt;
+If you have vulvodynia, don&apos;t let the absence of visible signs or embarrassment about discussing the symptoms of vulvodynia keep you from seeking help. Treatment options are available to lessen the pain and discomfort of vulvodynia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main vulvodynia symptom is pain in your genital area, which can be characterized by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Burning&lt;/li&gt;
+	&lt;li&gt;Soreness&lt;/li&gt;
+	&lt;li&gt;Stinging&lt;/li&gt;
+	&lt;li&gt;Rawness&lt;/li&gt;
+	&lt;li&gt;Painful intercourse (dyspareunia)&lt;/li&gt;
+	&lt;li&gt;Throbbing&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The pain you experience may be constant or intermittent and can last for months or even years, but it can vanish as suddenly as it started. You may feel the pain in your entire vulvar area (generalized), or it may be localized to a certain area, such as the opening of your vagina (vestibule). A similar condition, vulvar vestibulitis, may cause pain only when pressure is applied to the area surrounding the entrance to your vagina.
+&lt;/p&gt;
+&lt;p&gt;
+Vulvar tissue may look minimally inflamed or swollen. More often, your vulva appears normal.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although women often don&apos;t tell their doctors about the problem, vulvodynia is a fairly common condition.
+&lt;/p&gt;
+&lt;p&gt;
+If you experience pain in your genital area, discuss it with your doctor, or ask for a referral to a gynecologist. It&apos;s important to have your doctor rule out more easily treatable causes of vulvar pain, such as yeast or bacterial infections, skin conditions and medical problems such as diabetes. Once your doctor has evaluated your particular symptoms, he or she can recommend treatments or ways to help you manage your pain.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vulva 
+" Caption="The vulva is the outer part of the female genitalia, including the labia and clitoris. 
+" Height="60" Title="Vulva" URI="/images/image_popup/thumbs/ans7_vulvathu.jpg" Width="60" />
+				<Image Alt="Illustration showing vulva 
+" Caption="The vulva is the outer part of the female genitalia, including the labia and clitoris. 
+" Height="400" Title="Vulva" URI="/images/image_popup/ans7_vulva.jpg" Width="400" />
+				<HTML>
+					The vulva is the outer part of the female genitalia, including the labia and clitoris. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t know what causes vulvodynia, but contributing factors may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Injury to or irritation of the nerves surrounding your vulvar region&lt;/li&gt;
+	&lt;li&gt;Past vaginal infections&lt;/li&gt;
+	&lt;li&gt;Allergies or a localized hypersensitivity of your skin&lt;/li&gt;
+	&lt;li&gt;Hormonal changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many women with vulvodynia have a history of treatment for recurrent vaginitis or vaginal yeast infections. Some women with the condition have a history of sexual abuse. But most women with vulvodynia have no known contributing factors. Vulvodynia isn&apos;t sexually transmitted or a sign of cancer.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it can be painful and frustrating and can inhibit sexual activity, vulvodynia can cause emotional problems. For example, fear of having sex can cause spasms in the muscles around your vagina (vaginismus). Other complications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Sleep disturbances&lt;/li&gt;
+	&lt;li&gt;Sexual dysfunction&lt;/li&gt;
+	&lt;li&gt;Altered body image&lt;/li&gt;
+	&lt;li&gt;Relationship problems&lt;/li&gt;
+	&lt;li&gt;Decreased quality of life&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care provider. In some cases, you may be referred to a doctor who specializes in conditions affecting the female reproductive tract (gynecologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do to prepare for common diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated, and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of questions to ask your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For vulvodynia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What could be causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of treatments are most likely to improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is this condition permanent or temporary?&lt;/li&gt;
+	&lt;li&gt;When might I expect to experience relief from my pain and discomfort?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms start?&lt;/li&gt;
+	&lt;li&gt;How severe is your pain, and how long does it last?&lt;/li&gt;
+	&lt;li&gt;How would you describe your pain &amp;mdash; sharp or dull, continuous or intermittent?&lt;/li&gt;
+	&lt;li&gt;Is your pain usually triggered by a specific event, such as intercourse or exercise?&lt;/li&gt;
+	&lt;li&gt;Do you feel pain during urination or a bowel movement?&lt;/li&gt;
+	&lt;li&gt;Does your menstrual cycle affect your pain?&lt;/li&gt;
+	&lt;li&gt;Does anything make your pain better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you had pelvic surgery?&lt;/li&gt;
+	&lt;li&gt;Have you been pregnant or could you be pregnant now?&lt;/li&gt;
+	&lt;li&gt;Have you been treated for urinary tract or vaginal infections?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before diagnosing vulvodynia, your doctor will ask you several questions to get a better idea of your medical history and to understand the location, nature and extent of your symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+As part of his or her evaluation, your doctor may also perform these tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic exam.&lt;/strong&gt; During this exam, your doctor visually examines your external genitals and vagina for signs of infection or some other cause of your vulvodynia symptoms. Even if there&apos;s no visual evidence of infection, your doctor may take a sample of cells from your vagina to test for a vaginal infection, such as a yeast infection or bacterial vaginosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cotton swab test.&lt;/strong&gt; During this test, your doctor uses a moistened cotton swab to gently check for specific, localized areas of pain in your vulvar region.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vulvodynia treatments focus on relieving symptoms. No one treatment works for every woman, and you may find that a combination of treatments works best for you. It may take weeks or even months for treatment to improve your symptoms noticeably. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Tricyclic antidepressants or anticonvulsants may help lessen chronic pain. Antihistamines may reduce itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback therapy.&lt;/strong&gt; This therapy can help reduce pain by teaching you how to control specific body responses. The goal of biofeedback is to help you relax to decrease pain sensation. To cope with vulvodynia, biofeedback can teach you to relax your pelvic muscles, which can contract in anticipation of pain and actually cause chronic pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Local anesthetics.&lt;/strong&gt; Medications, such as lidocaine ointment, can provide temporary symptom relief. Your doctor may recommend applying lidocaine 30 minutes before sexual intercourse to reduce your discomfort. If you use lidocaine ointment, your partner also may experience temporary numbness after sexual contact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve blocks.&lt;/strong&gt; Women who have long-standing pain that doesn&apos;t respond to other treatments may benefit from local injections of nerve blocks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pelvic floor therapy.&lt;/strong&gt; Many women with vulvodynia have problems with the muscles of the pelvic floor, which supports the uterus, bladder and bowel. Exercises to strengthen those muscles may help relieve vulvodynia pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In cases in which painful areas can be specifically pinpointed at the hymeneal ring (localized vulvodynia, vulvar vestibulitis), surgery to remove the affected skin and tissue (vestibulectomy) relieves pain in some women.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips may help you manage the symptoms of vulvodynia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try cold compresses.&lt;/strong&gt; Cool compresses placed directly on your external genital area may help lessen pain and itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soak in a sitz bath.&lt;/strong&gt; Two to three times a day, sit in comfortable, lukewarm (not hot) or cool water for five to 10 minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tightfitting pantyhose and nylon underwear.&lt;/strong&gt; Tight undergarments restrict airflow to your genital area, often leading to increased temperature and moisture that can cause irritation. Wear white, cotton underwear to increase ventilation and dryness, and sleep without underwear at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid hot tubs and soaking in hot baths.&lt;/strong&gt; Spending time in hot water may lead to discomfort and itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid activities that put pressure on your vulva,&lt;/strong&gt; such as biking or horseback riding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash gently.&lt;/strong&gt; Washing or scrubbing the affected area harshly or too often can increase irritation. Instead, use plain water to gently clean your vulva with your hand and pat the area dry. After bathing, apply a preservative-free emollient, such as plain petroleum jelly, to create a protective barrier.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use lubricants.&lt;/strong&gt; If you&apos;re sexually active, apply lubricants before engaging in sexual intercourse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try an antihistamine at bedtime.&lt;/strong&gt; This may help reduce itching and help you rest better.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find it helpful to talk to other women who have vulvodynia. Talking to others with the condition can provide information and help relieve the isolation you may feel. If a support group isn&apos;t for you, ask your doctor for names of counselors in your area who are familiar with vulvodynia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vulvodynia
+	</Title>
+	<Abstract>
+		Vulvodynia &amp;mdash; Comprehensive overview covers symptoms, treatment, self-care of this painful vaginal condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS01182" LinkType="Internal" ObjectID="CEDDE35C-0B46-0928-1C127105C3D6DC38" Title="Yeast infection (vaginal)" Url="http://www.mayoclinic.com/health/yeast-infection/DS01182" />
+		<LinkItem ContentType="Disease" DocID="DS01193" LinkType="Internal" ObjectID="950F8BC6-AC69-9B2C-C09ED47E7E5114A9" Title="Bacterial vaginosis" Url="http://www.mayoclinic.com/health/bacterial-vaginosis/DS01193" />
+	</RelatedLinksBox>
+</Disease>

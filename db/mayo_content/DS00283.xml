@@ -1,0 +1,528 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00283
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/glaucoma/DS00283
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-02
+		</UpdateDate>
+		<PublicationDate>
+			2001-02-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="1791" Title="Glaucoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			12EB8700-E8C8-4FE6-A2429E6F33CCB0E8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				glaucoma
+			</MetaKeyword>
+			<MetaKeyword>
+				open-angle
+			</MetaKeyword>
+			<MetaKeyword>
+				open-angle glaucoma
+			</MetaKeyword>
+			<MetaKeyword>
+				angle-closure
+			</MetaKeyword>
+			<MetaKeyword>
+				angle-closure glaucoma
+			</MetaKeyword>
+			<MetaKeyword>
+				closed-angle
+			</MetaKeyword>
+			<MetaKeyword>
+				closed-angle glaucoma
+			</MetaKeyword>
+			<MetaKeyword>
+				low-tension
+			</MetaKeyword>
+			<MetaKeyword>
+				low-tension glaucoma
+			</MetaKeyword>
+			<MetaKeyword>
+				optic nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral vision
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Glaucoma is not just one eye disease, but a group of eye conditions resulting in optic nerve damage, which may cause loss of vision. Abnormally high pressure inside your eye (intraocular pressure) usually, but not always, causes this damage.
+&lt;/p&gt;
+&lt;p&gt;
+Glaucoma is one of the leading causes of blindness in the United States. Glaucoma can damage your vision so gradually you may not notice any loss of vision until the disease is at an advanced stage. The most common type of glaucoma, primary open-angle glaucoma, has no noticeable signs or symptoms except gradual vision loss.
+&lt;/p&gt;
+&lt;p&gt;
+Early diagnosis and treatment can minimize or prevent optic nerve damage and limit glaucoma-related vision loss. It&apos;s important to get your eyes examined regularly, and make sure your eye doctor measures your intraocular pressure.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing movement of fluid in the eye 
+" Caption="Aqueous humor continuously circulates from behind the iris into the anterior chamber at the front of the eye. It exits where the iris and the cornea meet. The fluid filters through a spongy tissue containing microscopic channels (trabecular meshwork) before passing into a larger channel called Schlemm&apos;s canal, where it eventually merges with the bloodstream. 
+" Height="60" Title="Movement of fluid in the eye" URI="/images/image_popup/thumbs/r7_eyefluidthu.jpg" Width="60" />
+				<Image Alt="Illustration showing movement of fluid in the eye 
+" Caption="Aqueous humor continuously circulates from behind the iris into the anterior chamber at the front of the eye. It exits where the iris and the cornea meet. The fluid filters through a spongy tissue containing microscopic channels (trabecular meshwork) before passing into a larger channel called Schlemm&apos;s canal, where it eventually merges with the bloodstream. 
+" Height="300" Title="Movement of fluid in the eye" URI="/images/image_popup/r7_eyefluid.jpg" Width="400" />
+				<HTML>
+					Aqueous humor continuously circulates from behind the iris into the anterior chamber at the front of the eye. It exits where the iris and the cornea meet. The fluid filters through a spongy tissue ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing open-angle glaucoma 
+" Caption="In this illustration the trabecular meshwork is partially blocked, impairing the flow of aqueous fluid out of the eye (see black arrow). This blockage of the trabecular meshwork leads to a gradual increase in intraocular pressure. Within months or years, an elevated pressure can result in vision loss. 
+" Height="60" Title="Open-angle glaucoma" URI="/images/image_popup/thumbs/r7_openanglethu.jpg" Width="60" />
+				<Image Alt="Illustration showing open-angle glaucoma 
+" Caption="In this illustration the trabecular meshwork is partially blocked, impairing the flow of aqueous fluid out of the eye (see black arrow). This blockage of the trabecular meshwork leads to a gradual increase in intraocular pressure. Within months or years, an elevated pressure can result in vision loss. 
+" Height="421" Title="Open-angle glaucoma" URI="/images/image_popup/r7_openangle.jpg" Width="400" />
+				<HTML>
+					In this illustration the trabecular meshwork is partially blocked, impairing the flow of aqueous fluid out of the eye (see black arrow). This blockage of the trabecular meshwork leads to a gradual ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing angle-closure glaucoma 
+" Caption="In angle-closure glaucoma, the angle formed by the cornea and the iris closes. In this illustration, the iris is plastered against the trabecular meshwork, which prevents the aqueous humor from reaching the drainage channels (see black arrow). This can lead to a rapid increase in intraocular pressure, a serious medical condition. 
+" Height="60" Title="Angle-closure glaucoma" URI="/images/image_popup/thumbs/r7_angleclosurethu.jpg" Width="60" />
+				<Image Alt="Illustration showing angle-closure glaucoma 
+" Caption="In angle-closure glaucoma, the angle formed by the cornea and the iris closes. In this illustration, the iris is plastered against the trabecular meshwork, which prevents the aqueous humor from reaching the drainage channels (see black arrow). This can lead to a rapid increase in intraocular pressure, a serious medical condition. 
+" Height="421" Title="Angle-closure glaucoma" URI="/images/image_popup/r7_angleclosure.jpg" Width="400" />
+				<HTML>
+					In angle-closure glaucoma, the angle formed by the cornea and the iris closes. In this illustration, the iris is plastered against the trabecular meshwork, which prevents the aqueous humor from ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common types of glaucoma &amp;mdash; primary open-angle glaucoma and angle-closure glaucoma &amp;mdash; have completely different symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Primary open-angle glaucoma signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gradual loss of peripheral vision, usually in both eyes&lt;/li&gt;
+	&lt;li&gt;Tunnel vision in the advanced stages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Acute angle-closure glaucoma signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye pain&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting (accompanying the severe eye pain)&lt;/li&gt;
+	&lt;li&gt;Sudden onset of visual disturbance, often in low light&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Halos around lights&lt;/li&gt;
+	&lt;li&gt;Reddening of the eye&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Both open-angle and angle-closure glaucoma can be primary or secondary conditions. They&apos;re called primary when the cause is unknown and secondary when the condition can be traced to a known cause, such as eye injury, medications, certain eye conditions, inflammation, tumor, advanced cataract or diabetes. In secondary glaucoma, the signs and symptoms can include those of the primary condition as well as typical glaucoma symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Don&apos;t wait for noticeable eye problems. Primary open-angle glaucoma gives few warning signs until permanent damage has already occurred. Regular eye exams are the key to detecting glaucoma early enough to successfully treat your condition and prevent further progression of your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Academy of Ophthalmology recommends a comprehensive eye exam for all adults starting at age 40, and every three to five years after that if you don&apos;t have any glaucoma risk factors. If you have other risk factors or you&apos;re older than age 60, you should be screened every one to two years. If you&apos;re African-American, your doctor likely will recommend periodic eye exams starting between ages 20 and 39. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, be aware that a severe headache or pain in your eye, nausea, blurred vision, or halos around lights may be the symptoms of an acute angle-closure glaucoma attack. If you experience some or several of these symptoms together, seek immediate care at an emergency room or at an eye doctor&apos;s (ophthalmologist&apos;s) office right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For reasons that doctors don&apos;t fully understand, increased pressure within the eye (intraocular pressure) is usually, but not always, associated with the optic nerve damage that characterizes glaucoma. This pressure is due to a buildup of a fluid (aqueous humor) that flows in and out of your eye. 
+&lt;/p&gt;
+&lt;p&gt;
+This fluid normally exits your eye through a drainage system at the angle where the iris and the cornea meet. When the drainage system doesn&apos;t work properly, the fluid can&apos;t filter out of the eye at its normal rate, and pressure builds within your eye. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary open-angle glaucoma&lt;br /&gt;
+&lt;/strong&gt;In primary open-angle glaucoma, the drainage angle formed by the cornea and the iris remains open, but the drainage channels (trabecular meshwork) in the angle are partially blocked, causing the fluid to drain out of the eye too slowly. This causes fluid to back up in your eye, and pressure gradually increases within your eye. 
+&lt;/p&gt;
+&lt;p&gt;
+Damage to the optic nerve doesn&apos;t cause symptoms or pain, and it happens so slowly that you may lose an extensive amount of vision before you&apos;re even aware of a problem. The exact cause of primary open-angle glaucoma remains unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Angle-closure glaucoma&lt;br /&gt;
+&lt;/strong&gt;Angle-closure glaucoma, also called closed-angle glaucoma, occurs when the iris bulges forward to narrow or block the drainage angle formed by the cornea and the iris. As a result, fluid can&apos;t adequately flow through and exit your eye, and your eye pressure may increase abruptly. Angle-closure glaucoma usually occurs suddenly (acute angle-closure glaucoma), but it can also occur gradually (chronic angle-closure glaucoma). 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with an abnormally narrow drainage angle may be at risk of developing angle-closure glaucoma. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a narrow drainage angle, sudden dilation of your pupils may trigger acute angle-closure glaucoma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal-tension glaucoma&lt;br /&gt;
+&lt;/strong&gt;In normal-tension glaucoma, your optic nerve becomes damaged. However, your eye pressure remains within the normal range. Doctors don&apos;t understand why this occurs. You may have a sensitive optic nerve, or you may have less blood being supplied to your optic nerve. This lack of blood supply could be caused by atherosclerosis &amp;mdash; an accumulation of fatty deposits (plaques) in the arteries &amp;mdash; or another condition limiting your blood circulation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Developmental glaucoma&lt;br /&gt;
+&lt;/strong&gt;Some infants or children may be diagnosed with glaucoma. Rarely, some children may be born with glaucoma (congenital glaucoma), develop glaucoma in the first few years of life (infantile glaucoma) or develop glaucoma after age 4 or 5 (juvenile glaucoma). Children usually won&apos;t have any symptoms. However, they have optic nerve damage, which may be caused by angle blockages or malformations (primary infantile glaucoma), or it could develop as the result of other conditions (secondary glaucoma). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pigmentary glaucoma&lt;br /&gt;
+&lt;/strong&gt;In pigmentary glaucoma, pigment granules from your iris build up in the drainage channels (trabecular meshwork), slowing or blocking fluid exiting your eye. Physical activities, such as jogging, sometimes stir up the pigment granules, depositing them on the trabecular meshwork and causing intermittent pressure elevations. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing movement of fluid in the eye 
+" Caption="Aqueous humor continuously circulates from behind the iris into the anterior chamber at the front of the eye. It exits where the iris and the cornea meet. The fluid filters through a spongy tissue containing microscopic channels (trabecular meshwork) before passing into a larger channel called Schlemm&apos;s canal, where it eventually merges with the bloodstream. 
+" Height="60" Title="Movement of fluid in the eye" URI="/images/image_popup/thumbs/r7_eyefluidthu.jpg" Width="60" />
+				<Image Alt="Illustration showing movement of fluid in the eye 
+" Caption="Aqueous humor continuously circulates from behind the iris into the anterior chamber at the front of the eye. It exits where the iris and the cornea meet. The fluid filters through a spongy tissue containing microscopic channels (trabecular meshwork) before passing into a larger channel called Schlemm&apos;s canal, where it eventually merges with the bloodstream. 
+" Height="300" Title="Movement of fluid in the eye" URI="/images/image_popup/r7_eyefluid.jpg" Width="400" />
+				<HTML>
+					Aqueous humor continuously circulates from behind the iris into the anterior chamber at the front of the eye. It exits where the iris and the cornea meet. The fluid filters through a spongy tissue ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing open-angle glaucoma 
+" Caption="In this illustration the trabecular meshwork is partially blocked, impairing the flow of aqueous fluid out of the eye (see black arrow). This blockage of the trabecular meshwork leads to a gradual increase in intraocular pressure. Within months or years, an elevated pressure can result in vision loss. 
+" Height="60" Title="Open-angle glaucoma" URI="/images/image_popup/thumbs/r7_openanglethu.jpg" Width="60" />
+				<Image Alt="Illustration showing open-angle glaucoma 
+" Caption="In this illustration the trabecular meshwork is partially blocked, impairing the flow of aqueous fluid out of the eye (see black arrow). This blockage of the trabecular meshwork leads to a gradual increase in intraocular pressure. Within months or years, an elevated pressure can result in vision loss. 
+" Height="421" Title="Open-angle glaucoma" URI="/images/image_popup/r7_openangle.jpg" Width="400" />
+				<HTML>
+					In this illustration the trabecular meshwork is partially blocked, impairing the flow of aqueous fluid out of the eye (see black arrow). This blockage of the trabecular meshwork leads to a gradual ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing angle-closure glaucoma 
+" Caption="In angle-closure glaucoma, the angle formed by the cornea and the iris closes. In this illustration, the iris is plastered against the trabecular meshwork, which prevents the aqueous humor from reaching the drainage channels (see black arrow). This can lead to a rapid increase in intraocular pressure, a serious medical condition. 
+" Height="60" Title="Angle-closure glaucoma" URI="/images/image_popup/thumbs/r7_angleclosurethu.jpg" Width="60" />
+				<Image Alt="Illustration showing angle-closure glaucoma 
+" Caption="In angle-closure glaucoma, the angle formed by the cornea and the iris closes. In this illustration, the iris is plastered against the trabecular meshwork, which prevents the aqueous humor from reaching the drainage channels (see black arrow). This can lead to a rapid increase in intraocular pressure, a serious medical condition. 
+" Height="421" Title="Angle-closure glaucoma" URI="/images/image_popup/r7_angleclosure.jpg" Width="400" />
+				<HTML>
+					In angle-closure glaucoma, the angle formed by the cornea and the iris closes. In this illustration, the iris is plastered against the trabecular meshwork, which prevents the aqueous humor from ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because chronic forms of glaucoma can destroy vision before any signs or symptoms are apparent, be aware of these factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Elevated internal eye pressure (intraocular pressure).&lt;/strong&gt; If your internal eye pressure (intraocular pressure) is higher than normal, you&apos;re at increased risk of developing glaucoma, though not everyone with elevated intraocular pressure develops the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; You&apos;re at a higher risk of glaucoma if you&apos;re older than age 60, particularly if you&apos;re Mexican-American. You may be at higher risk of angle-closure glaucoma if you&apos;re older than age 40. For certain groups such as African-Americans, however, the risk of developing glaucoma is much higher and occurs at a younger age than that of other groups. If you&apos;re African-American, ask your doctor when you should start having regular comprehensive eye exams.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnic background.&lt;/strong&gt; African-Americans older than age 40 have much higher risk of developing glaucoma than do whites (Caucasians). African-Americans also are more likely to experience permanent blindness as a result of glaucoma. People of Asian descent have an increased risk of developing acute angle-closure glaucoma. People of Japanese descent may be more likely to have normal-tension glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of glaucoma.&lt;/strong&gt; If you have a family history of glaucoma, you have a greater risk of developing it. Glaucoma may have a genetic link, meaning there&apos;s a defect in one or more genes that may cause certain individuals to be more susceptible to the disease. A form of juvenile open-angle glaucoma has been clearly linked to genetic abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions.&lt;/strong&gt; Several conditions may increase your risk of developing glaucoma, including diabetes, heart diseases, high blood pressure and hypothyroidism. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other eye conditions.&lt;/strong&gt; Severe eye injuries can cause increased eye pressure. Other eye conditions that could cause increased risk of glaucoma include eye tumors, retinal detachment, eye inflammation and lens dislocation. Certain types of eye surgery also may trigger glaucoma. Also, being nearsighted or farsighted may increase your risk of developing glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Long-term corticosteroid use.&lt;/strong&gt; Using corticosteroid medications, especially eyedrops for a long period of time may increase your risk of developing secondary glaucoma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If left untreated, glaucoma will cause progressive vision loss, normally in these stages:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blind spots in your peripheral vision&lt;/li&gt;
+	&lt;li&gt;Tunnel vision&lt;/li&gt;
+	&lt;li&gt;Total blindness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, glaucoma doesn&apos;t cause any noticeable symptoms until the disease has caused permanent damage. Ask your primary care doctor how often you should see an eye doctor (ophthalmologist) for a comprehensive eye exam and follow that schedule. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have any new eye symptoms or vision problems, make an appointment with your ophthalmologist or ask your doctor for a referral. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms you&apos;ve been having,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed and all medications and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List any history of eye problems,&lt;/strong&gt; such as vision changes or eye discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have signs of glaucoma?&lt;/li&gt;
+	&lt;li&gt;What tests do I need to confirm a diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any activity restrictions?&lt;/li&gt;
+	&lt;li&gt;What other self-care measures should I be taking?&lt;/li&gt;
+	&lt;li&gt;What is the long-term outlook in my case?&lt;/li&gt;
+	&lt;li&gt;How often should I be seen for follow-up care?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;A doctor who sees you for possible glaucoma is likely to ask you a number of questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you had any eye discomfort or vision problems?&lt;/li&gt;
+	&lt;li&gt;Do you have any other signs or symptoms that concern you?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of eye problems, including glaucoma?&lt;/li&gt;
+	&lt;li&gt;What eye screening tests have you had and when?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will review your medical history and conduct a comprehensive eye examination. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may perform several tests to diagnose glaucoma, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Measuring intraocular pressure.&lt;/strong&gt; Tonometry is a simple, painless procedure that measures your internal eye pressure (intraocular pressure), after numbing your eyes with drops. It&apos;s usually the initial screening test for glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Test for optic nerve damage.&lt;/strong&gt; To check for damage in your optic nerve, your eye doctor uses instruments to look directly through the pupil to the back of your eye. This can reveal slight changes that may indicate the beginnings of glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visual field test.&lt;/strong&gt; To check whether your visual field has been affected by glaucoma, your doctor uses a special test to evaluate your side (peripheral) vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visual acuity.&lt;/strong&gt; Your doctor will test your ability to see from a distance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Measuring cornea thickness (pachymetry).&lt;/strong&gt; Your eyes are numbed for this test, which determines the thickness of each cornea, an important factor in diagnosing glaucoma. If you have thick corneas, your eye-pressure reading may read higher than normal even though you may not have glaucoma. Similarly, people with thin corneas can have normal pressure readings and still have glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other tests.&lt;/strong&gt; To distinguish between open-angle glaucoma and angle-closure glaucoma, your eye doctor may use a technique called gonioscopy in which a special lens is placed on your eye to inspect the drainage angle. Other tests, such as imaging tests, have been developed and may sometimes be used.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of glaucoma treatment is to lower pressure in your eye (intraocular pressure). To treat your condition, doctors may lower your eye pressure, improve drainage of fluid in your eye or lower the amount of fluid produced in your eye. 
+&lt;/p&gt;
+&lt;p&gt;
+Glaucoma can&apos;t be cured, and damage caused by the disease can&apos;t be reversed, but treatment and regular checkups can prevent vision loss in people with early glaucoma. If vision loss has already occurred, treatment can slow or prevent further vision loss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eyedrops&lt;br /&gt;
+&lt;/strong&gt;Glaucoma treatment often starts with medicated eyedrops. Be sure to use the drops exactly as prescribed. Otherwise, your optic nerve damage could get even worse. If your doctor prescribes more than one type of eyedrop, make sure to ask how long to wait between applications and to take the drops for as long as your doctor has prescribed them. 
+&lt;/p&gt;
+&lt;p&gt;
+Because some of the eyedrops are absorbed into your bloodstream, you may experience some side effects unrelated to your eyes. To minimize this absorption, close your eyes for one to two minutes after putting the drops in. Press lightly at the corner of your eye near your nose to close the tear duct for one or two minutes, and wipe off any unused drops from your eyelid. 
+&lt;/p&gt;
+&lt;p&gt;
+Most commonly prescribed eyedrops include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prostaglandins.&lt;/strong&gt; Doctors often prescribe prostaglandins to treat open-angle glaucoma. These eyedrops increase the outflow of the fluid in your eye (aqueous humor) and reduce pressure in your eye. Examples include latanoprost (Xalatan) and bimatoprost (Lumigan). Possible side effects include mild reddening and stinging of the eyes and darkening of the iris, changes in the pigment of the eyelid skin and blurred vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These reduce the production of fluid in your eye and pressure in your eye (intraocular pressure). Examples include timolol (Betimol, Timoptic) and betaxolol (Betoptic). Possible side effects include difficulty breathing, slowed heart rate, lower blood pressure, impotence and fatigue. If you have lung or heart conditions, medications other than beta blockers may be recommended because beta blockers may worsen breathing problems. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha-adrenergic agonists.&lt;/strong&gt; These medications reduce the production of aqueous humor and increase outflow of the fluid in your eye. Examples include&lt;strong&gt; &lt;/strong&gt;apraclonidine (Iopidine) and brimonidine (Alphagan). Possible side effects include irregular heart rate, high blood pressure, fatigue, red, itchy or swollen eyes, and dry mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carbonic anhydrase inhibitors.&lt;/strong&gt; These are rarely used, but these medications may reduce the production of fluid in your eye. Examples include dorzolamide (Trusopt) and brinzolamide (Azopt). Possible side effects include frequent urination and a tingling sensation in the fingers and toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Miotic or cholinergic agents.&lt;/strong&gt; These also increase the outflow of fluid in your eye. Examples include pilocarpine (Isopto Carpine) and carbachol (Isopto Carbachol). Possible side effects include smaller pupils, blurred or dim vision, or nearsightedness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combined medications.&lt;/strong&gt; Sometimes doctors may prescribe a combined medication, such as a beta blocker and alpha adrenergic agonist, or a beta blocker and carbonic anhydrase inhibitor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Oral medications&lt;br /&gt;
+&lt;/strong&gt;If eyedrops alone don&apos;t bring your eye pressure down to the desired level, your doctor may also prescribe an oral medication, usually in the form of a carbonic anhydrase inhibitor, to reduce your eye pressure. This medication may cause side effects including frequent urination, a tingling sensation in the fingers and toes, depression, stomach upset, and kidney stones. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Research in treatment&lt;br /&gt;
+&lt;/strong&gt;Research to evaluate the effectiveness of medications and other glaucoma treatments and study potential new treatments for people with glaucoma is ongoing. Ongoing clinical trials are evaluating certain drugs that may help protect the optic nerve from damage associated with glaucoma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;You may need surgery to treat glaucoma if you can&apos;t tolerate medications or if they&apos;re ineffective. Sometimes a single surgical procedure may not effectively lower your eye pressure. You may need to continue using eyedrops, or you may need another procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible complications from glaucoma surgery include infection, inflammation, bleeding, abnormally high or low eye pressure, and loss of vision. Having eye surgery also may speed up the development of cataracts. Most of these complications can be effectively treated. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgeries that may be performed to treat glaucoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Laser surgery.&lt;/strong&gt; You may have an outpatient procedure called laser trabeculoplasty (truh-BEK-u-low-plas-tee) to treat open-angle glaucoma. After giving you a numbing eyedrop, your doctor uses a high-energy laser beam to open clogged drainage canals and help fluid drain more easily from your eye.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor will need to check your eye pressure several times in the following weeks. It may take a few weeks before the full effect of the surgery becomes apparent. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Laser surgery for glaucoma initially lowers pressure in your eye (intraocular pressure). Over time, however, the intraocular pressure may begin to increase. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Filtering surgery.&lt;/strong&gt; If eyedrops and laser surgery aren&apos;t effective in controlling your eye pressure, you may need a surgical procedure called a trabeculectomy (truh-bek-u-LEK-tuh-me). 
+	&lt;p&gt;
+	This procedure is performed in a hospital or an outpatient surgery center. You&apos;ll receive a medication to help you relax and usually an injection of anesthetic to numb your eye. Using small instruments under an operating microscope, your surgeon creates an opening in the sclera &amp;mdash; the white of your eye &amp;mdash; and removes a small piece of eye tissue at the base of your cornea through which fluid drains from your eye (the trabecular meshwork). The fluid in your eye can now freely leave the eye through this opening. As a result, your eye pressure will be lowered. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your surgery will be performed on one eye. If necessary, several weeks later you might have surgery on the other eye. You may need additional procedures or treatments, as the opening sometimes heals over or other changes occur in your optic nerve. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor will check your eye during several follow-up visits, and you&apos;ll need to use antibiotic and anti-inflammatory eyedrops to fight infection and scarring of the newly created drainage opening. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Another procedure performed within the eye removes a targeted strip of the trabecular meshwork with a small tool. Your surgeon inserts the tool into the eye&apos;s drainage canal through a small incision at the edge of the cornea and removes the small section of trabecular meshwork. This helps fluid drain more easily from your eye. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drainage implants.&lt;/strong&gt; Some people with advanced glaucoma, secondary glaucoma or children with glaucoma may be eligible for drainage implants. Drainage implant surgery takes place in a hospital or an outpatient clinic. In this procedure, your eye surgeon inserts a small tube in your eye to facilitate draining fluid (aqueous humor) from your eye to reduce the pressure. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In trabeculectomy and drainage implants, the fluid is directed to a blister (bleb) on the outer layer of your eyeball where it can be absorbed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating acute angle-closure glaucoma&lt;br /&gt;
+&lt;/strong&gt;Acute angle-closure glaucoma is a medical emergency. When you&apos;re diagnosed with this condition, you&apos;ll need urgent treatment to reduce the pressure in your eye. This generally will require both medication and procedures. 
+&lt;/p&gt;
+&lt;p&gt;
+You may have a procedure called a laser peripheral iridotomy. In iridotomy, doctors create a small hole in your iris using a laser so that fluid (aqueous humor) can flow through it and exit your eye. Doctors will evaluate your other eye and may recommend an iridotomy in it, because of the high risk that its drainage angle also will close in the future. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have elevated intraocular pressure or glaucoma, follow these lifestyle tips. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Eating a healthy diet can help you maintain your health, but it won&apos;t prevent glaucoma from worsening. Several vitamins and nutrients can help improve your vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise safely.&lt;/strong&gt; Regular exercise may reduce eye pressure in open-angle glaucoma. Talk to your doctor about an appropriate exercise program. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your caffeine.&lt;/strong&gt; Drinking high amounts of caffeine may increase your eye pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sip fluids frequently.&lt;/strong&gt; Drink only moderate amounts of fluids at any given time during the course of a day. Drinking a quart or more of any liquid within a short time may temporarily increase eye pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some types of alternative medicine may help your overall health, but these won&apos;t treat or prevent glaucoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Some forms of alternative medicine that some people may participate in or use include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Herbal remedies.&lt;/strong&gt; Don&apos;t depend on herbal remedies for the primary care of glaucoma. A number of herbal supplements, such as bilberry, are advertised as glaucoma remedies, but have not been proved effective in preventing or treating glaucoma. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Herbal supplements should never be used in place of proven therapies, and you should always discuss them with your doctor before trying them. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques.&lt;/strong&gt; Stress may trigger an attack of acute angle-closure glaucoma. If you&apos;re at risk of this condition, find healthy ways to cope with stress. Several techniques, such as meditation and biofeedback, can help reduce your stress.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because glaucoma has no cure, a diagnosis generally means lifelong treatment and regular checkups. 
+&lt;/p&gt;
+&lt;p&gt;
+Meeting and talking to other people with glaucoma can be very helpful, and many support groups exist. Check with hospitals and eye care centers in your area to find local groups and meeting times. Several online resources, including support groups, are available.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular eye care.&lt;/strong&gt; Regular comprehensive eye exams can help detect glaucoma in its early stages before irreversible damage occurs. As a general rule, have comprehensive eye exams every three to five years after age 40 and every year after age 60. You may need more frequent screening if you have glaucoma risk factors. Ask your doctor to recommend the right screening schedule for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat elevated eye pressure.&lt;/strong&gt; Glaucoma eyedrops can significantly reduce the risk that elevated eye pressure will progress to glaucoma. To be effective, these drops must be taken regularly even if you have no symptoms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; While eating a healthy diet won&apos;t prevent glaucoma, it can improve your physical and mental health. It can also help you maintain a healthy weight and control your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear eye protection.&lt;/strong&gt; Serious eye injuries can lead to glaucoma. Wear eye protection when you use power tools or play high-speed racket sports on enclosed courts. Also wear hats and sunglasses if you spend time outside.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Glaucoma
+	</Title>
+	<Abstract>
+		Glaucoma &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this eye condition that threatens vision.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Answer" DocID="AN01763" LinkType="Internal" ObjectID="ABD4B650-E7FF-0DBD-1D1F91CDF76D3196" Title="Eye vitamins: Can they prevent or treat glaucoma?" Url="http://www.mayoclinic.com/health/eye-vitamins/AN01763" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,243 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00141
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00141
+		</OriginalURL>
+		<UpdateDate>
+			2008-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult" />
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="1248" Title="Healthy cooking" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			43A2FE8B-E7FF-0DBD-12FA0A43660A4E6F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				cobbler
+			</MetaKeyword>
+			<MetaKeyword>
+				dessert
+			</MetaKeyword>
+			<MetaKeyword>
+				dessert recipe
+			</MetaKeyword>
+			<MetaKeyword>
+				apple cobbler
+			</MetaKeyword>
+			<MetaKeyword>
+				berry cobbler
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Apple berry cobbler
+	</Title>
+	<Abstract>
+		Apple berry cobbler &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This fruit cobbler is a lighter, fresher version of the fat-laden, biscuit-topped dessert. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 350 F. Lightly coat 6 individual oven-proof ramekins or souffle dishes with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+In a medium bowl, add the raspberries, blueberries, apples, sugar, cinnamon, lemon zest and lemon juice. Stir to mix evenly. Add the cornstarch and stir until the cornstarch dissolves. Set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a separate bowl add the egg white and whisk until lightly beaten. Add the soy milk, salt, vanilla, sugar and pastry flour. Stir to mix well. 
+&lt;/p&gt;
+&lt;p&gt;
+Divide the berry mixture evenly among the prepared dishes. Pour the topping over each. Arrange the ramekins on a large baking pan and place in oven. 
+&lt;/p&gt;
+&lt;p&gt;
+Bake until the berries are tender and the topping is golden brown, about 30 minutes. Serve warm. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+1 cup fresh raspberries&lt;br /&gt;
+1 cup fresh blueberries&lt;br /&gt;
+2 cups chopped apples&lt;br /&gt;
+2 tablespoons turbinado or brown sugar&lt;br /&gt;
+1/2 teaspoon ground cinnamon&lt;br /&gt;
+1 teaspoon lemon zest&lt;br /&gt;
+2 teaspoons lemon juice&lt;br /&gt;
+1 1/2 tablespoons cornstarch 
+&lt;/p&gt;
+&lt;p&gt;
+For the topping&lt;br /&gt;
+Egg white from 1 large egg&lt;br /&gt;
+1/4 cup soy milk&lt;br /&gt;
+1/4 teaspoon salt&lt;br /&gt;
+1/2 teaspoon vanilla&lt;br /&gt;
+1 1/2 tablespoons turbinado or brown sugar&lt;br /&gt;
+3/4 cup whole-wheat pastry flour 
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				128
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				29 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				trace
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				trace
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				115 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				trace
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Fruits
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="" height="100" uri="/images/billboardsmall/re1_applecobbler.jpg" width="100" />
+</Recipe>

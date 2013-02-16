@@ -1,0 +1,329 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00897
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brachial-plexus-injury/DS00897
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="2631" Title="Brachial plexus injury" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D40DAE4B-E7FF-0DBD-1973083FBB25E30F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				brachial plexus injury
+			</MetaKeyword>
+			<MetaKeyword>
+				football stingers
+			</MetaKeyword>
+			<MetaKeyword>
+				erb&apos;s palsy
+			</MetaKeyword>
+			<MetaKeyword>
+				stingers
+			</MetaKeyword>
+			<MetaKeyword>
+				avulsion
+			</MetaKeyword>
+			<MetaKeyword>
+				ruptured nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				stretched nerve
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brachial plexus injury is an injury to the brachial plexus &amp;mdash; the network of nerves that sends signals from your spine to your shoulder, arm and hand. A brachial plexus injury occurs when these nerves are stretched or, in the most serious cases, torn. This happens as result of your shoulder being pressed down forcefully while your head is pushed up and away from that shoulder. 
+&lt;/p&gt;
+&lt;p&gt;
+Brachial plexus injuries are common in contact sports, but they frequently result from auto or motorcycle accidents or falls. Babies sometimes sustain brachial plexus injuries during birth. Other conditions, such as inflammation or tumors, may affect the brachial plexus. 
+&lt;/p&gt;
+&lt;p&gt;
+Minor injuries may get better on their own, but severe brachial plexus injuries require surgical repair. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing &quot;stinger&quot; 
+" Caption="One type of brachial plexus injury is called a &quot;stinger&quot; or &quot;burner.&quot; Stingers occur with compression or overstretching of the nerves that run from the neck to the arm, usually during collisions in contact sports. 
+" Height="60" Title="Brachial plexus injury" URI="/images/image_popup/thumbs/bn7_stingerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing &quot;stinger&quot; 
+" Caption="One type of brachial plexus injury is called a &quot;stinger&quot; or &quot;burner.&quot; Stingers occur with compression or overstretching of the nerves that run from the neck to the arm, usually during collisions in contact sports. 
+" Height="240" Title="Brachial plexus injury" URI="/images/image_popup/bn7_stinger.jpg" Width="400" />
+				<HTML>
+					One type of brachial plexus injury is called a &quot;stinger&quot; or &quot;burner.&quot; Stingers occur with compression or overstretching of the nerves that run from the neck to the arm, usually ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a brachial plexus injury can vary greatly, depending on the severity and location of your injury. Usually only one arm is affected.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Less-severe injuries&lt;br /&gt;
+&lt;/strong&gt;Minor damage often occurs during contact sports, such as football or wrestling, when the brachial plexus nerves get stretched. Known as &quot;stingers&quot; or &quot;burners,&quot; these injuries can produce the following symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling like an electric shock or a burning sensation shooting down your arm&lt;/li&gt;
+	&lt;li&gt;Numbness and weakness in your arm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These symptoms usually last only a few seconds or minutes, but in some people may linger for days or longer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;More-severe injuries&lt;br /&gt;
+&lt;/strong&gt;More-severe symptoms result from injuries that tear or rupture the nerves. The most serious brachial plexus injury (avulsion) occurs when the nerve root is torn from the spinal cord.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of more-severe injuries can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The ability to use your fingers, but not your shoulder or elbow muscles&lt;/li&gt;
+	&lt;li&gt;The ability to use your arm but not your fingers&lt;/li&gt;
+	&lt;li&gt;Complete lack of movement and feeling in your entire arm, including shoulder and hand&lt;/li&gt;
+	&lt;li&gt;Severe pain &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Brachial plexus injuries can cause permanent weakness or disability. Even if yours seems minor, you may need medical care. See your doctor if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurrent burners and stingers&lt;/li&gt;
+	&lt;li&gt;Weakness in your hand or arm&lt;/li&gt;
+	&lt;li&gt;Weakness in any part of the arm following trauma&lt;/li&gt;
+	&lt;li&gt;Neck pain&lt;/li&gt;
+	&lt;li&gt;Symptoms in both arms&lt;/li&gt;
+	&lt;li&gt;Symptoms in upper and lower limbs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Damage to the upper nerves that make up the brachial plexus tends to occur when your shoulder is forced down, and your neck stretches up and away from the injured shoulder. The lower nerves are more likely to be injured when your arm is forced above your head. These injuries can occur in several ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Contact sports.&lt;/strong&gt; Many football players experience burners or stingers, which can occur when the nerves in the brachial plexus get stretched beyond their limit during collisions with other players.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficult births.&lt;/strong&gt; Newborns can sustain brachial plexus injuries when there are problems during birth, such as a breech presentation or prolonged labor. If an infant&apos;s shoulders get wedged within the birth canal, the force used to pull the baby free also can damage the nerves in the brachial plexus. Most often, the upper nerves are injured, a condition called Erb&apos;s palsy. Total brachial plexus birth palsy occurs when both the upper and lower nerves are damaged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; Vehicular accidents, especially motorcycle accidents, and boating accidents can result in brachial plexus injuries. Animal bites and bullet or knife wounds also can damage the brachial plexus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A rare condition known as Parsonage-Turner syndrome (brachial plexitis) causes brachial plexus inflammation with no apparent shoulder injury.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing &quot;stinger&quot; 
+" Caption="One type of brachial plexus injury is called a &quot;stinger&quot; or &quot;burner.&quot; Stingers occur with compression or overstretching of the nerves that run from the neck to the arm, usually during collisions in contact sports. 
+" Height="60" Title="Brachial plexus injury" URI="/images/image_popup/thumbs/bn7_stingerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing &quot;stinger&quot; 
+" Caption="One type of brachial plexus injury is called a &quot;stinger&quot; or &quot;burner.&quot; Stingers occur with compression or overstretching of the nerves that run from the neck to the arm, usually during collisions in contact sports. 
+" Height="240" Title="Brachial plexus injury" URI="/images/image_popup/bn7_stinger.jpg" Width="400" />
+				<HTML>
+					One type of brachial plexus injury is called a &quot;stinger&quot; or &quot;burner.&quot; Stingers occur with compression or overstretching of the nerves that run from the neck to the arm, usually ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Participating in contact sports, particularly football and wrestling, or being involved in high-speed accidents increases your risk of brachial plexus injury. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Given enough time, many brachial plexus injuries in both children and adults heal with no lasting damage. But some injuries can cause temporary or permanent problems:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stiff joints.&lt;/strong&gt; If you experience paralysis of your hand or arm, your joints can stiffen, making movement difficult, even if you regain use of your limb. For that reason, your doctor is likely to recommend ongoing physical therapy during your recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; This results from nerve damage and may become chronic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of feeling.&lt;/strong&gt; If you lose feeling in your arm or hand, you run the risk of burning or injuring yourself without knowing it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle atrophy.&lt;/strong&gt; Slow-growing nerves can take several years to regenerate. During that time, lack of use may cause the affected muscles to degenerate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Permanent disability.&lt;/strong&gt; How well you recover from a serious brachial plexus injury depends on a number of factors, including your age and the type, location and severity of the injury. Even with surgery, some people experience permanent disability, ranging from weakness in the hand, shoulder or arm to paralysis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of tests may be used to help diagnose the type and severity of brachial plexus injuries. When you make your appointment, be sure to ask whether you need to prepare for these tests. For instance, you may need to stop taking certain medications for a few days or avoid using lotions the day of the test. 
+&lt;/p&gt;
+&lt;p&gt;
+Other suggestions for getting the most from your appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all your symptoms.&lt;/strong&gt; Include how you were injured, how long you&apos;ve had your symptoms and whether they&apos;ve gotten worse over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and herbs that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If possible, take along a family member or friend.&lt;/strong&gt; It can be difficult to absorb all the information you&apos;re given during an appointment. The person who accompanies you may remember something that you forgot or missed. This is especially important if your child has a brachial plexus injury. For most babies, the injury heals on its own without any lasting damage, but children who don&apos;t show improvement in the first three to six months of life may require surgery. This means parents face some difficult decisions, and it&apos;s often helpful to have a friend or family member who can offer advice and support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t be afraid to ask questions.&lt;/strong&gt; Children and adults with brachial plexus injuries have several options for restoring lost function. Be sure to ask your doctor about all the possibilities available to you or your child. If you run out of time, ask to speak with a nurse or have your doctor call you later.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help diagnose the extent and severity of a brachial plexus injury, you may have one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography.&lt;/strong&gt; This test checks the health of the nerves that help move your muscles. After small needle electrodes are inserted through your skin into a muscle, you&apos;re asked to contract that muscle. The amount of electrical activity generated provides information about how well the muscle responds when its nerves are stimulated. You may feel a little pain when the electrodes are inserted, but most people can complete the test without much discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction studies.&lt;/strong&gt; These measure how quickly impulses are conducted through a nerve. Your nerve is stimulated through a patch-like electrode attached to your skin. This stimulation can feel like an electric shock of varying intensity. Although this test can be uncomfortable, you won&apos;t have any lingering pain afterward.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses radio waves and a powerful magnetic field to visualize structures in your body. It often can show the extent of the damage caused by a brachial plexus injury. This test is typically used to determine if a nerve has been severed completely from your spinal cord. New methods of high resolution MRI, known as magnetic resonance neurography (MRN), may be used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) myelography.&lt;/strong&gt; A myelogram is a type of imaging that uses a contrast material, injected during a spinal tap, to produce a detailed picture of your spinal cord and nerve roots. In CT myelography, the images are taken with a CT scanner, a device that uses X-rays to create cross sections of body tissues. This test is sometimes performed when MRIs don&apos;t provide adequate information. Your doctor may tell you to drink more water the day before the test, and you may need to stop taking certain medications for a few days before a myelogram. Side effects of the test can include headache and nausea.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nerves that have only been stretched have a fair chance of recovering on their own. But the healing process sometimes forms scar tissue that must be removed surgically to improve the nerve&apos;s function. Surgical repair is often required for nerves that have significant surrounding scar tissue or that have been cut or torn. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of surgery&lt;br /&gt;
+&lt;/strong&gt;In many cases, surgeons can take less important nerves from other parts of your body to help restore your arm&apos;s function: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve graft.&lt;/strong&gt; In this procedure, the damaged part of the brachial plexus is removed and replaced with sections of nerves cut from other parts of your body &amp;mdash; rather like splicing a bit of new electrical wiring between two sections of old electrical wiring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve transfer.&lt;/strong&gt; When the nerve root has been torn from the spinal cord, surgeons often take a less important nerve that&apos;s still attached to the spinal cord and hook it into the nerve that&apos;s no longer attached. In some cases, surgeons may perform this technique at a level close to the targeted muscle in an effort to speed up recovery rather than doing a repair (nerve graft) farther from the muscle. Nerve tissue grows slowly, about an inch a month, so it can take several years to fully recover after surgery. During the recovery period, you must keep your joints flexible with a program of exercises. Splints may be used to keep your hand from curling inward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Partly because of the risk of muscle atrophy, surgery to repair brachial plexus nerves should ideally occur within three to six months after the injury. The success rate drops greatly if nerve surgery occurs more than a year after the injury.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Muscle transfer &lt;/strong&gt;&amp;mdash; a procedure in which your surgeon removes a less important muscle or tendon from another part of your body and transfers it to your arm &amp;mdash; may be necessary if your arm muscles deteriorate. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pain control&lt;br /&gt;
+&lt;/strong&gt;Pain from the most severe types of brachial plexus injuries has been described as a crushing sensation or a constant burning. Drugs containing opiates, such as codeine, are typically used immediately after the injury. Antidepressant and anticonvulsant medications also can be helpful. Pain control and a device called transcutaneous electrical nerve stimulation (TENS) sometimes provide relief. TENS involves using electrodes attached to your skin to deliver electrical impulses to nearby nerve pathways to help control and relieve pain. In extreme cases, surgery may be necessary.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerve graft 
+" Caption="Nerve tissue can be removed from other parts of your body to replace the damaged portions of your brachial plexus nerves. 
+" Height="60" Title="Nerve graft" URI="/images/image_popup/thumbs/bn7_nervegraftthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerve graft 
+" Caption="Nerve tissue can be removed from other parts of your body to replace the damaged portions of your brachial plexus nerves. 
+" Height="400" Title="Nerve graft" URI="/images/image_popup/bn7_nervegraft.jpg" Width="400" />
+				<HTML>
+					Nerve tissue can be removed from other parts of your body to replace the damaged portions of your brachial plexus nerves. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nerve transfer 
+" Caption="Nerve transfers are particularly helpful in the most serious types of brachial plexus injuries, called avulsions, when the nerve root has been torn out of the spinal cord. 
+" Height="60" Title="Nerve transfer" URI="/images/image_popup/thumbs/bn7_nervetransferthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nerve transfer 
+" Caption="Nerve transfers are particularly helpful in the most serious types of brachial plexus injuries, called avulsions, when the nerve root has been torn out of the spinal cord. 
+" Height="235" Title="Nerve transfer" URI="/images/image_popup/bn7_nervetransfer.jpg" Width="400" />
+				<HTML>
+					Nerve transfers are particularly helpful in the most serious types of brachial plexus injuries, called avulsions, when the nerve root has been torn out of the spinal cord. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing muscle transfer 
+" Caption="Muscle transfers may be needed if your arm muscles have atrophied from lack of use. 
+" Height="60" Title="Muscle transfer" URI="/images/image_popup/thumbs/bn7_muscletransferthu.jpg" Width="60" />
+				<Image Alt="Illustration showing muscle transfer 
+" Caption="Muscle transfers may be needed if your arm muscles have atrophied from lack of use. 
+" Height="400" Title="Muscle transfer" URI="/images/image_popup/bn7_muscletransfer.jpg" Width="400" />
+				<HTML>
+					Muscle transfers may be needed if your arm muscles have atrophied from lack of use. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although damage to your brachial plexus often can&apos;t be prevented, you can take steps to reduce the risk of complications once an injury has occurred: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;For yourself.&lt;/strong&gt; If you temporarily lose the use of your hand or arm, daily range-of-motion exercises and physical therapy can help prevent joint stiffness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;For your child.&lt;/strong&gt; If you&apos;re the parent of a child with Erb&apos;s palsy, it&apos;s vitally important that you exercise your child&apos;s joints and functioning muscles every day, beginning when your baby is about 3 weeks old. This helps prevent the joints from becoming permanently stiff and keeps your child&apos;s working muscles strong and healthy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Brachial plexus injury
+	</Title>
+	<Abstract>
+		Brachial plexus injury &amp;mdash; Comprehensive overview covers diagnosis, treatment of this potentially disabling shoulder trauma.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

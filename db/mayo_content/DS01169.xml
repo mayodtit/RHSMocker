@@ -1,0 +1,241 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01169
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/microcephaly/DS01169
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-30
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2319" Title="Head and brain malformations">
+						<Keyword MCVID="2321" Title="Microcephaly" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1F1AAE2F-0E29-413A-5905E62ABB152092
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				microcephaly
+			</MetaKeyword>
+			<MetaKeyword>
+				small head
+			</MetaKeyword>
+			<MetaKeyword>
+				small skull
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Microcephaly (my-kroh-SEF-uh-lee) is a rare neurological condition in which an infant&apos;s head is significantly smaller than the heads of other children of the same age and sex. Sometimes detected at birth, microcephaly usually is the result of the brain developing abnormally in the womb or not growing as it should after birth.
+&lt;/p&gt;
+&lt;p&gt;
+Microcephaly can be caused by a variety of genetic and environmental factors. Children with microcephaly often have developmental issues. Generally there&apos;s no treatment for microcephaly, but early intervention may help enhance your child&apos;s development and improve quality of life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary sign of microcephaly is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A head size significantly smaller than that of other children of the same age and sex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Head size is measured as the distance around the top of the child&apos;s head (circumference). Using standardized growth charts, the measurement is compared with other children&apos;s measurements in percentiles. Some children just have small heads, which may measure in the third, second or even first percentiles. In children with microcephaly, head size measures significantly below average, possibly even below the first percentile for your baby&apos;s age and sex.
+&lt;/p&gt;
+&lt;p&gt;
+A child with more severe microcephaly may also have a backward sloping forehead.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Chances are your doctor will detect microcephaly at the baby&apos;s birth or at a regular well-baby checkup. However, if you think your baby&apos;s head is smaller than normal or isn&apos;t growing as it should, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Microcephaly usually is the result of abnormal brain development, which can occur in the womb (congenital) or in infancy. Microcephaly may be genetic. Other causes may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Craniosynostosis.&lt;/strong&gt; The premature fusing of the joints (sutures) between the bony plates that form an infant&apos;s skull keeps the brain from growing. Treating craniosynostosis (kray-nee-oh-sin-ahs-TOE-sis) usually means your infant needs surgery to separate the fused bones. If there are no underlying problems in the brain, this surgery allows the brain adequate space to grow and develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chromosomal abnormalities.&lt;/strong&gt; Down syndrome and other conditions may result in microcephaly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decreased oxygen to the fetal brain (cerebral anoxia).&lt;/strong&gt; Certain complications of pregnancy or delivery can impair oxygen delivery to the fetal brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections of the fetus during pregnancy.&lt;/strong&gt; These include toxoplasmosis, cytomegalovirus, German measles (rubella), and chickenpox (varicella).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to drugs, alcohol or certain toxic chemicals in the womb.&lt;/strong&gt; Any of these put your baby at risk of brain abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe malnutrition.&lt;/strong&gt; Not getting adequate nutrition during pregnancy can affect your baby&apos;s development.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uncontrolled phenylketonuria (fen-ul-kee-toe-NU-ree-uh), also known as PKU, in the mother.&lt;/strong&gt; PKU is a birth defect that hampers the body&apos;s ability to break down the amino acid phenylalanine.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some children with microcephaly will be of normal intelligence and development, even though their heads will always be small for their age and sex. But depending on the cause and severity of the microcephaly, complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Developmental delays, such as in speech and movement&lt;/li&gt;
+	&lt;li&gt;Difficulties with coordination and balance&lt;/li&gt;
+	&lt;li&gt;Dwarfism or short stature&lt;/li&gt;
+	&lt;li&gt;Facial distortions&lt;/li&gt;
+	&lt;li&gt;Hyperactivity&lt;/li&gt;
+	&lt;li&gt;Mental retardation&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve just learned your child has microcephaly or you suspect that your child&apos;s head is too small, you&apos;re likely to start by seeing your pediatrician. However, in some cases, your pediatrician may refer you to a pediatric neurologist. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s a good idea to prepare for your appointment. Here&apos;s some information to help you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any concerns you have about your child,&lt;/strong&gt; including any regarding small head size or delayed developmental markers. If you&apos;re worried about your child&apos;s head size, try to get the hat sizes or measure the head circumference of as many first-degree relatives, such as parents and siblings, as possible for comparison.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information you get during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. List your questions from most important to least important. For microcephaly, some basic questions to ask your doctor might include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my child&apos;s condition?&lt;/li&gt;
+	&lt;li&gt;Does my child need any additional tests? If so, do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What course of action do you think is best for my child?&lt;/li&gt;
+	&lt;li&gt;Is there a treatment that will return my child&apos;s head to a normal size?&lt;/li&gt;
+	&lt;li&gt;If I have additional children, what are the chances that they will have microcephaly?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether your child has microcephaly, your doctor likely will take a thorough prenatal, birth and family history and do a physical exam. He or she will measure the circumference of your child&apos;s head, compare it with a growth chart, and remeasure and plot the growth at subsequent visits. Parents&apos; head sizes also may be measured to determine whether small heads run in the family.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, particularly if your child&apos;s development is delayed, your doctor may request tests such as a head CT scan or MRI and blood tests to help determine the underlying cause of the delay.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Except for surgery for craniosynostosis, there&apos;s generally no treatment that will enlarge your child&apos;s head or reverse complications of microcephaly. Treatment focuses on ways to manage your child&apos;s condition. Early childhood intervention programs that include speech, physical and occupational therapy may help your child strengthen abilities.
+&lt;/p&gt;
+&lt;p&gt;
+Certain complications of microcephaly, such as seizures or hyperactivity, may be treated with medication.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you learn your child has microcephaly, you may experience a range of emotions, including anger, fear, worry, sorrow and guilt. You may not know what to expect, and you may worry about your child&apos;s future. The best antidote for fear and worry is information and support. Prepare yourself: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find a team of trusted professionals.&lt;/strong&gt; You&apos;ll need to make important decisions about your child&apos;s education and treatment. Seek a team of doctors, teachers and therapists you trust. These professionals can help evaluate the resources in your area and help explain state and federal programs for children with disabilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out other families who are dealing with the same issues.&lt;/strong&gt; Your community may have support groups for parents of children with developmental disabilities. You may also find online support groups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning your child has microcephaly may raise questions about future pregnancies. Work with your doctor to determine the cause of the microcephaly. If the cause is genetic, you and your spouse may want to talk to a genetic counselor about the risk of microcephaly in future pregnancies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Microcephaly
+	</Title>
+	<Abstract>
+		Microcephaly &amp;mdash; Comprehensive overview covers causes and management of this rare neurological condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00959" LinkType="Internal" ObjectID="EFE990B0-E7FF-0DBD-111AEAA5996DDE6E" Title="Craniosynostosis" Url="http://www.mayoclinic.com/health/craniosynostosis/DS00959" />
+		<LinkItem ContentType="Disease" DocID="DS00053" LinkType="Internal" ObjectID="1F5E8789-87F8-44A3-94A882C09AB49C2A" Title="Chickenpox" Url="http://www.mayoclinic.com/health/chickenpox/DS00053" />
+	</RelatedLinksBox>
+</Disease>

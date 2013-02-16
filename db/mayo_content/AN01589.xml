@@ -1,0 +1,129 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01589
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coping-with-anxiety/AN01589
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-05
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1558" Title="Generalized anxiety disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BDBA874B-E7FF-0DBD-10AF2800C02D76A3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anxiety disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				coping with anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety self-help
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				generalized anxiety disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety diet
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-anxiety diet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Coping with anxiety can be a challenge and often requires making lifestyle changes. There aren&apos;t any diet changes that can cure anxiety, but watching what you eat may help. Try these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a breakfast that includes some protein.&lt;/strong&gt; This will help energize you throughout the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat complex carbohydrates.&lt;/strong&gt; Carbohydrates are thought to increase the amount of serotonin in your brain, which has a calming effect. Eat foods rich in complex carbohydrates, such as whole grains. Steer clear of foods that contain simple carbohydrates, such as sugary foods and drinks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water.&lt;/strong&gt; Even mild dehydration can affect your mood. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit or avoid alcohol.&lt;/strong&gt; The immediate effect of alcohol may be calming. But as alcohol is processed by your body, it can make you edgy. Alcohol can also interfere with sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit or avoid caffeine.&lt;/strong&gt; Avoid caffeinated beverages. They can make you feel jittery and nervous and can interfere with sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to food sensitivities.&lt;/strong&gt; In some people, certain foods or food additives can cause unpleasant physical reactions. In certain people, these physical reactions may lead to shifts in mood, including irritability or anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try to eat healthy, balanced meals.&lt;/strong&gt; This is important for overall physical and mental health. Eat lots of fresh fruit and vegetables, and don&apos;t overeat. It may also help to eat fish high in omega-3 fatty acids, such as salmon, on a regular basis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Changes to your diet may make some difference to your general mood or sense of well-being but are not a substitute for treatment. If your anxiety is severe or interferes with your day-to-day activities or enjoyment of life, you may need medication, counseling (psychotherapy) or other treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coping with anxiety: Can diet make a difference?
+	</Title>
+	<Abstract>
+		Coping with anxiety is a challenge. Eating habits may play a role.
+	</Abstract>
+	<Question>
+		Is it true that certain foods worsen anxiety and others have a calming effect?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN01615" LinkType="Internal" ObjectID="4960C13D-E7FF-0DBD-1866BEED9AD896BE" Title="Depression and anxiety: Can I have both?" Url="http://www.mayoclinic.com/health/depression-and-anxiety/AN01615" />
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MH00042" LinkType="Internal" ObjectID="0D9E914C-486D-425E-A823B1FC0A2EB794" Title="Mental health: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/mental-health/MH00042" />
+		<LinkItem ContentType="Answer" DocID="AN02021" LinkType="Internal" ObjectID="E7373336-F052-D531-8967EED8995C0DB5" Title="Test anxiety: Can it be treated?" Url="http://www.mayoclinic.com/health/test-anxiety/AN02021" />
+		<LinkItem ContentType="Answer" DocID="AN01803" LinkType="Internal" ObjectID="E6418B1D-E7FF-0DBD-13AE3B0933802B16" Title="Herbal treatment for anxiety: Is it effective?" Url="http://www.mayoclinic.com/health/herbal-treatment-for-anxiety/AN01803" />
+		<LinkItem ContentType="Disease" DocID="DS00175" LinkType="Internal" ObjectID="F61D92BD-C12C-4C1E-98CE1DDC09196EA2" Title="Depression (major depression)" Url="http://www.mayoclinic.com/health/depression/DS00175" />
+		<LinkItem ContentType="Disease" DocID="DS00442" LinkType="Internal" ObjectID="1F6A3571-D626-4D96-A02A881BCCBB3E02" Title="Borderline personality disorder" Url="http://www.mayoclinic.com/health/borderline-personality-disorder/DS00442" />
+		<LinkItem ContentType="Disease" DocID="DS00502" LinkType="Internal" ObjectID="DB1C2634-103B-4286-9E7A3EF066877030" Title="Generalized anxiety disorder" Url="http://www.mayoclinic.com/health/generalized-anxiety-disorder/DS00502" />
+	</RelatedLinksBox>
+</Answer>

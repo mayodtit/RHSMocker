@@ -1,0 +1,388 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00095
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heartburn-gerd/DS00095
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-21
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="1845" Title="Heartburn" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA5EDE79-8C89-40EB-8D46C714D1E91710
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				regurgitation
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach acid
+			</MetaKeyword>
+			<MetaKeyword>
+				heart burn
+			</MetaKeyword>
+			<MetaKeyword>
+				Barrett&apos;s esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				Barretts esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflex
+			</MetaKeyword>
+			<MetaKeyword>
+				reflux esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				esophogitis
+			</MetaKeyword>
+			<MetaKeyword>
+				peptic esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				acid indigestion
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heartburn is a burning sensation in your chest, just behind your breastbone. Heartburn pain is often worse when lying down or bending over. 
+&lt;/p&gt;
+&lt;p&gt;
+Occasional heartburn is common and no cause for alarm. Most people can manage the discomfort of heartburn on their own with lifestyle changes and over-the-counter medications. 
+&lt;/p&gt;
+&lt;p&gt;
+More frequent heartburn that interferes with your daily routine may be a symptom of something more serious that requires help from a doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of heartburn include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A burning pain in the chest that usually occurs after eating and may occur at night&lt;/li&gt;
+	&lt;li&gt;Pain that worsens when lying down or bending over&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek immediate help if you experience severe chest pain, especially when combined with other signs and symptoms such as difficulty breathing or jaw or arm pain. Chest pain may be a symptom of a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Make an appointment with your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heartburn occurs more than twice a week&lt;/li&gt;
+	&lt;li&gt;Symptoms persist despite use of over-the-counter medications&lt;/li&gt;
+	&lt;li&gt;You have difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heartburn occurs when stomach acid backs up into your esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally when you swallow, your lower esophageal sphincter &amp;mdash; a circular band of muscle around the bottom part of your esophagus &amp;mdash; relaxes to allow food and liquid to flow down into your stomach. Then it closes again. 
+&lt;/p&gt;
+&lt;p&gt;
+However, if the lower esophageal sphincter relaxes abnormally or weakens, stomach acid can flow back up into your esophagus, causing heartburn. The acid backup may be worse when you&apos;re bent over or lying down. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how GERD occurs in the esophagus 
+" Caption="Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other signs and symptoms. Frequent or constant reflux can lead to gastroesophageal reflux disease (GERD). 
+" Height="60" Title="How heartburn and GERD occur" URI="/images/image_popup/thumbs/r7_heartburnthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how GERD occurs in the esophagus 
+" Caption="Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other signs and symptoms. Frequent or constant reflux can lead to gastroesophageal reflux disease (GERD). 
+" Height="256" Title="How heartburn and GERD occur" URI="/images/image_popup/r7_heartburn.jpg" Width="400" />
+				<HTML>
+					Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain foods and drinks can trigger heartburn in some people, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Black pepper&lt;/li&gt;
+	&lt;li&gt;Chocolate&lt;/li&gt;
+	&lt;li&gt;Coffee&lt;/li&gt;
+	&lt;li&gt;Fatty food&lt;/li&gt;
+	&lt;li&gt;Fried food&lt;/li&gt;
+	&lt;li&gt;Ketchup&lt;/li&gt;
+	&lt;li&gt;Mustard&lt;/li&gt;
+	&lt;li&gt;Onions&lt;/li&gt;
+	&lt;li&gt;Orange juice&lt;/li&gt;
+	&lt;li&gt;Peppermint&lt;/li&gt;
+	&lt;li&gt;Soft drinks&lt;/li&gt;
+	&lt;li&gt;Tomato sauce&lt;/li&gt;
+	&lt;li&gt;Vinegar&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heartburn that occurs frequently and interferes with your routine is considered gastroesophageal reflux disease (GERD). GERD treatment may require prescription medications and, occasionally, surgery or other procedures. GERD can damage the esophagus and cause serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+See your doctor if your heartburn becomes more frequent or no longer responds to over-the-counter medications. Your doctor may recommend you see a doctor who specializes in treating digestive diseases (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For heartburn, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need an endoscopic exam?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I schedule a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms wake you up at night?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse after meals or after lying down?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Does food or sour material ever come up in the back of your throat?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;Have you gained or lost weight?&lt;/li&gt;
+	&lt;li&gt;Do you experience nausea and vomiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Try lifestyle changes to control your symptoms until you see your doctor. For instance, avoid foods that trigger your heartburn and avoid eating at least two hours before bedtime. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine if your heartburn is a symptom of GERD, your doctor may suggest one or more tests and procedures, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An X-ray of your upper digestive system.&lt;/strong&gt; Sometimes called a barium swallow or upper GI series, this procedure involves drinking a chalky liquid that coats and fills the inside lining of your digestive tract. Then X-rays are taken of your upper digestive tract. The coating allows your doctor to see a silhouette of the shape and condition of your esophagus, stomach and upper intestine (duodenum).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Passing a flexible tube down your throat.&lt;/strong&gt; Endoscopy is a way to examine the inside of your esophagus. During endoscopy, your doctor inserts a thin, flexible tube equipped with a light and camera (endoscope) down your throat. The endoscope allows your doctor to examine your esophagus and stomach. Your doctor may also use endoscopy to collect a sample of tissue (biopsy) for further testing. Endoscopy is useful in looking for complications of reflux, such as Barrett&apos;s esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to monitor the amount of acid in your esophagus.&lt;/strong&gt; Ambulatory acid (pH) probe tests use an acid-measuring device to identify when, and for how long, stomach acid regurgitates into your esophagus. The acid monitor can be a thin, flexible tube (catheter) that&apos;s threaded through your nose into your esophagus. During the test, the tube stays in place and connects to a small computer that you wear around your waist or with a strap over your shoulder. Or the acid monitor can be a clip that&apos;s placed in your esophagus during endoscopy. The probe transmits a signal to a small computer that you wear around your waist for about two days, and then the probe falls off to be passed in your stool. Your doctor may ask that you stop taking GERD medications to prepare for this test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to measure the movement of the esophagus.&lt;/strong&gt; Esophageal motility testing measures movement and pressure in the esophagus. The test involves placing a catheter through your nose and into your esophagus.&lt;/li&gt;
+&lt;/ul&gt;
+Your doctor also may order additional tests to rule out other conditions, such as heart disease.
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many over-the-counter medications are available to relieve the pain of heartburn. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids that neutralize stomach acid.&lt;/strong&gt; Antacids, such as Maalox, Mylanta, Gelusil, Rolaids and Tums, may provide quick relief. But antacids alone won&apos;t heal an inflamed esophagus damaged by stomach acid. Overuse of some antacids can cause side effects such as diarrhea or constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce acid production.&lt;/strong&gt; Called H-2-receptor blockers, these medications include cimetidine (Tagamet HB), famotidine (Pepcid AC), nizatidine (Axid AR) or ranitidine (Zantac 25, Zantac 75, Zantac 150). H-2-receptor blockers don&apos;t act as quickly as antacids, but they provide longer relief. Stronger versions of these medications are available in prescription form.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medications that block acid production and heal the esophagus.&lt;/strong&gt; Proton pump inhibitors block acid production and allow time for damaged esophageal tissue to heal. Over-the-counter proton pump inhibitors include lansoprazole (Prevacid 24 HR) and omeprazole (Prilosec OTC). 
+	&lt;/p&gt;
+	&lt;p&gt;
+	According to the Food and Drug Administration, long-term use of proton pump inhibitors, especially in people age 50 and older, has been associated with an increased risk of fractures of the hip, wrist and spine. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Read and follow the instructions on over-the-counter medications. If you find over-the-counter treatments don&apos;t work or you rely on them often, make an appointment with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find heartburn relief by making small changes. Consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Excess pounds put pressure on your abdomen, pushing up your stomach and causing acid to back up into your esophagus. If your weight is healthy, work to maintain it. If you are overweight or obese, work to slowly lose weight &amp;mdash; no more than 1 or 2 pounds (0.5 to 1 kilogram) a week. Ask your doctor for help devising a weight-loss strategy that will work for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tight-fitting clothing.&lt;/strong&gt; Clothes that fit tightly around your waist put pressure on your abdomen and the lower esophageal sphincter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid foods and drinks that trigger heartburn.&lt;/strong&gt; Everyone has specific triggers. Common triggers such as fatty or fried foods, tomato sauce, alcohol, chocolate, mint, garlic, onion, and caffeine may make heartburn worse. Avoid foods you know will trigger your heartburn. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller meals.&lt;/strong&gt; Avoid overeating by eating smaller meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t lie down after a meal.&lt;/strong&gt; Wait at least three hours after eating before lying down or going to bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate the head of your bed.&lt;/strong&gt; If you regularly experience heartburn at night or while trying to sleep, put gravity to work for you. Place wood or cement blocks under the feet of your bed so that the head end is raised by six to nine inches. If it&apos;s not possible to elevate your bed, you can insert a wedge between your mattress and box spring to elevate your body from the waist up. Wedges are available at drugstores and medical supply stores. Raising your head with additional pillows is not effective. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking decreases the lower esophageal sphincter&apos;s ability to function properly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anxiety and stress can worsen heartburn symptoms. Some complementary and alternative treatments may help you cope with anxiety and stress. If your heartburn is worsened by anxiety and stress, consider trying:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aromatherapy&lt;/li&gt;
+	&lt;li&gt;Gentle exercise, such as walking or riding a bike, but avoid vigorous exercise, which can worsen heartburn&lt;/li&gt;
+	&lt;li&gt;Hypnosis&lt;/li&gt;
+	&lt;li&gt;Listening to music&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques, such as guided imagery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heartburn
+	</Title>
+	<Abstract>
+		Heartburn &amp;mdash; Comprehensive overview covers treatment, symptoms, causes of this common digestive problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00720" LinkType="Internal" ObjectID="E9E50A71-F3A9-4864-B9906E0681988412" Title="GERD: Can certain medications increase severity?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00720" />
+		<LinkItem ContentType="Answer" DocID="AN01215" LinkType="Internal" ObjectID="B9DE0148-2A5D-9994-E899E87E02FC4A31" Title="Laryngospasm: What causes it?" Url="http://www.mayoclinic.com/health/laryngospasm/AN01215" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+		<LinkItem ContentType="Video" DocID="MM00791" LinkType="Internal" ObjectID="70EE2D3B-C827-3CD6-8BF1B00BDCA16B47" Title="Video: Fundoplication" Url="http://www.mayoclinic.com/health/fundoplication/MM00791" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="Article" DocID="WT00018" LinkType="Internal" ObjectID="EF8958C1-E7FF-0DBD-153A34E4DED46BA5" Title="Weight-loss goals: Set yourself up for success" Url="http://www.mayoclinic.com/health/weight-loss/WT00018" />
+		<LinkItem ContentType="Article" DocID="DG00014" LinkType="Internal" ObjectID="29CD41BB-F87F-4EFC-8668AF3E9A54EF71" Title="Bloating, belching and intestinal gas: How to avoid them" Url="http://www.mayoclinic.com/health/gas-and-gas-pains/DG00014" />
+		<LinkItem ContentType="Answer" DocID="AN00998" LinkType="Internal" ObjectID="5D2988BC-4BCF-44BF-A6C481D95C10544F" Title="Acid reflux and GERD: The same thing?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00998" />
+		<LinkItem ContentType="Video" DocID="MM00008" LinkType="Internal" ObjectID="17D3D2D2-C98C-48AC-ADD54701217AD720" Title="Video: Heartburn and hiatal hernia" Url="http://www.mayoclinic.com/health/heartburn-gerd/MM00008" />
+		<LinkItem ContentType="Disease" DocID="DS00500" LinkType="Internal" ObjectID="823E0F62-2792-45B8-8BF61D7EC1077F47" Title="Esophageal cancer" Url="http://www.mayoclinic.com/health/esophageal-cancer/DS00500" />
+		<LinkItem ContentType="Disease" DocID="HQ00312" LinkType="Internal" ObjectID="0F626CE4-7682-4C3C-801AC8E07B01F30C" Title="Barrett&apos;s esophagus" Url="http://www.mayoclinic.com/health/barretts-esophagus/HQ00312" />
+		<LinkItem ContentType="Article" DocID="DG00016" LinkType="Internal" ObjectID="8CCC8FCD-BF2B-46E2-82B5C018EF3B1796" Title="Heartburn or chest pain: When is it heart attack?" Url="http://www.mayoclinic.com/health/heartburn-gerd/DG00016" />
+	</RelatedLinksBox>
+</Disease>

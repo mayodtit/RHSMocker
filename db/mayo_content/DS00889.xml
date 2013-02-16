@@ -1,0 +1,303 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00889
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sheehans-syndrome/DS00889
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-01
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1461" Title="Pituitary">
+						<Keyword MCVID="3017" Title="Sheehan&apos;s syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AFBAE9D8-E7FF-0DBD-1944132DC261313F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sheehans syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				sheehan&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				sheehans&apos; syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				postpartum hypopituitarism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sheehan&apos;s syndrome is a condition that affects women who experience life-threatening blood loss during or after childbirth. Severe blood loss deprives your body of oxygen and can seriously damage vital tissues and organs. Sheehan&apos;s syndrome damages the pituitary gland &amp;mdash; a small gland at the base of your brain. The result is the permanent underproduction of essential pituitary hormones (hypopituitarism). 
+&lt;/p&gt;
+&lt;p&gt;
+Also called postpartum hypopituitarism, Sheehan&apos;s syndrome is rare in industrialized nations. But it&apos;s still a major threat to women in developing countries.
+&lt;/p&gt;
+&lt;p&gt;
+For some women, Sheehan&apos;s syndrome seems to cause few, if any, symptoms. For others, Sheehan&apos;s syndrome can lead to an adrenal crisis &amp;mdash; a life-threatening shortage of the hormone cortisol. Treatment of Sheehan&apos;s syndrome involves hormone replacement therapy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="60" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/thumbs/m7_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="344" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/m7_glands.jpg" Width="400" />
+				<HTML>
+					The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, the signs and symptoms of Sheehan&apos;s syndrome appear slowly, after a period of months or even years. But sometimes &amp;mdash; such as in a breast-feeding mother &amp;mdash; problems may appear right away. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of Sheehan&apos;s syndrome are those of deficiencies of the various hormones the pituitary gland controls: thyroid, adrenal, breast milk production and menstrual function. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slowed mental function, weight gain and difficulty staying warm, as a result of an underactive thyroid (hypothyroidism)&lt;/li&gt;
+	&lt;li&gt;Difficulty breast-feeding or an inability to breast-feed&lt;/li&gt;
+	&lt;li&gt;No menstrual periods (amenorrhea) or infrequent menstruation (oligomenorrhea)&lt;/li&gt;
+	&lt;li&gt;Loss of pubic or underarm hair&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For many women, the symptoms of Sheehan&apos;s syndrome are nonspecific and often attributed to other things. Fatigue, for instance, goes hand in hand with being a new mother. You might not realize that you have Sheehan&apos;s syndrome until you need treatment for thyroid or adrenal insufficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible to remain relatively symptom-free with Sheehan&apos;s syndrome. Some women unknowingly live for years with pituitary insufficiency, then go into adrenal crisis triggered by extreme physical stressors, such as severe infection or surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although many problems can lead to low pituitary function, Sheehan&apos;s syndrome is caused by severe blood loss during or after childbirth. Blood loss at that time can be particularly damaging to the pituitary gland, destroying hormone-producing tissue so that the gland can&apos;t function normally. 
+&lt;/p&gt;
+&lt;p&gt;
+Experts aren&apos;t sure why this is the case. One theory is that since the pituitary gland enlarges during pregnancy, it&apos;s more prone to damage. The severe drop in blood pressure (hypotension) that occurs during hemorrhage also could damage the pituitary. 
+&lt;/p&gt;
+&lt;p&gt;
+Pituitary hormones regulate the rest of your endocrine system, signaling other glands to increase or decrease production of the hormones that control metabolism, fertility, wound healing and many other vital processes. A lack of any of these hormones can cause problems throughout your body &amp;mdash; although signs and symptoms may develop so gradually that they escape notice. 
+&lt;/p&gt;
+&lt;p&gt;
+Hormones that your pituitary secretes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Growth hormone (GH).&lt;/strong&gt; This hormone controls bone and tissue growth and maintains the appropriate balance of muscle and fat tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-diuretic hormone (ADH).&lt;/strong&gt; By regulating urine production, this hormone manages water balance in your body. A deficiency of ADH results in excess urination and thirst, a condition called diabetes insipidus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid-stimulating hormone (TSH).&lt;/strong&gt; This hormone stimulates your thyroid gland to produce key hormones that regulate your metabolism. Shortage of TSH results in an underactive thyroid gland (hypothyroidism).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Luteinizing hormone (LH).&lt;/strong&gt; In men, LH regulates testosterone production. In women, it fosters production of estrogen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follicle-stimulating hormone (FSH).&lt;/strong&gt; Working in tandem with LH, FSH helps stimulate sperm production in men, and egg development and ovulation in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adrenocorticotropic hormone (ACTH).&lt;/strong&gt; This hormone stimulates your adrenal glands to produce cortisol and other hormones. Cortisol helps your body deal with stress and influences many body functions, including blood pressure, heart function and your immune system. A low level of adrenal hormones caused by pituitary damage is called secondary adrenal insufficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolactin.&lt;/strong&gt; This hormone regulates the development of female breasts, as well as the production of breast milk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="60" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/thumbs/m7_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="344" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/m7_glands.jpg" Width="400" />
+				<HTML>
+					The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Any condition that increases your likelihood of severe blood loss during childbirth, such as being pregnant with multiples or having an abnormality of the placenta, may increase your risk of Sheehan&apos;s syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Hemorrhage is a rare childbirth complication, however, and Sheehan&apos;s syndrome is even more uncommon. Both risks are greatly reduced with proper care and monitoring during labor and delivery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because pituitary hormones control so many aspects of your metabolism, Sheehan&apos;s syndrome can cause a number of problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Adrenal crisis, a serious condition in which your adrenal glands produce too little of the hormone cortisol&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;Unintended weight loss&lt;/li&gt;
+	&lt;li&gt;Menstrual irregularities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adrenal crisis: Life-threatening situation&lt;/strong&gt; &lt;br /&gt;
+The most serious complication is adrenal crisis, a sudden, life-threatening state that can lead to extremely low blood pressure, shock, coma and death. 
+&lt;/p&gt;
+&lt;p&gt;
+Adrenal crisis usually occurs when your body is under marked stress &amp;mdash; such as during surgery or a serious illness &amp;mdash; and your adrenal glands produce too little cortisol, a powerful stress hormone. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the potentially serious consequences of adrenal insufficiency, your doctor is likely to recommend that you wear a medical alert bracelet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your primary care doctor suspects Sheehan&apos;s syndrome, you&apos;ll likely be referred to an endocrinologist, a doctor who specializes in metabolic disorders. To help prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, be sure to ask if there&apos;s anything you need to do to prepare for common diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all symptoms and changes you&apos;re experiencing,&lt;/strong&gt; even if they seem unrelated to each other.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent life changes or other stressors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including recent surgical procedures, the names of all medications you&apos;re taking and any other conditions for which you&apos;ve been treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For Sheehan&apos;s syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Will I be able to have another child?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did you bleed heavily after your delivery?&lt;/li&gt;
+	&lt;li&gt;Did you have any other complications during childbirth?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of Sheehan&apos;s syndrome can be difficult. Your doctor may base the diagnosis in part on your medical history, so it&apos;s important to mention any childbirth complications you may have had, no matter how long ago you gave birth. Also, be sure to tell your doctor if you didn&apos;t produce breast milk or you failed to start menstruating after delivery &amp;mdash; two key signs of Sheehan&apos;s syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+If your history and signs and symptoms suggest pituitary insufficiency, you&apos;ll have blood tests to check your pituitary hormone levels. You may need specialized stimulation testing of the pituitary hormones, which typically is done after consulting an endocrinologist. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also need imaging tests, such as magnetic resonance imaging or computerized tomography, to check the size of your pituitary and to look for other possible reasons for your symptoms, such as a pituitary tumor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for Sheehan&apos;s syndrome is lifelong hormone replacement therapy. Your doctor may recommend one or more of the following medications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; These drugs, such as hydrocortisone or prednisone, replace the adrenal hormones that aren&apos;t being produced because of an adrenocorticotropic hormone (ACTH) deficiency. You&apos;ll need to adjust your medication if you become seriously ill or experience major physical stress. During these times, your body would ordinarily produce extra cortisol &amp;mdash; a stress hormone. The same kind of dosage fine-tuning may be necessary when you have the flu, diarrhea or vomiting, or have surgery or dental procedures. Adjustments in dosage may also be necessary during pregnancy or with marked weight gain or weight loss. It&apos;s important that your doctor closely monitor you to ensure the correct dose. Avoiding doses higher than you need will eliminate the side effects associated with high doses of corticosteroids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Levothyroxine (Levoxyl, Synthroid, others).&lt;/strong&gt; This medication boosts deficient thyroid hormone levels caused by low or deficient thyroid-stimulating hormone (TSH) production. Levothyroxine causes virtually no side effects when used in the appropriate dose, and it&apos;s relatively inexpensive. If you change brands, let your doctor know to ensure you&apos;re still receiving the right dosage. Also, don&apos;t skip doses or stop taking the drug because you&apos;re feeling better. If you do, signs and symptoms will gradually return.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Estrogen.&lt;/strong&gt; This may include estrogen alone if you&apos;ve had your uterus removed (hysterectomy) or a combination of estrogen and progesterone if you still have your uterus. Estrogen replacement can be administered with either pills or patches. Future pregnancies may be possible with preparations containing luteinizing hormone (LH) and follicle-stimulating hormone (FSH), also called gonadotropins. These can be administered by injection to stimulate ovulation. Estrogen with progesterone has been linked to increased risks of heart disease, stroke and breast cancer. Estrogen alone has been linked to stroke, blood clots in the legs and abnormalities on mammograms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth hormone.&lt;/strong&gt; Some studies have shown that replacing growth hormone in women with Sheehan&apos;s syndrome &amp;mdash; as well as in people with other forms of hypopituitarism &amp;mdash; can help normalize the body&apos;s muscle-to-fat ratio, lower cholesterol levels and improve overall quality of life. Side effects may include joint stiffness and fluid retention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your endocrinologist is likely to test your blood regularly to make sure that you&apos;re getting adequate &amp;mdash; but not excessive &amp;mdash; amounts of any hormones that you take. Generally, hormone levels are checked every few weeks or months at the beginning of treatment and then once a year thereafter. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sheehan&apos;s syndrome
+	</Title>
+	<Abstract>
+		Sheehan&apos;s syndrome &amp;mdash; Comprehensive overview covers signs and symptoms, causes and treatment.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

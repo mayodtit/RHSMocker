@@ -1,0 +1,104 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01505
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pancreatic-cancer-treatment/AN01505
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2254" Title="Pancreatic cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CEC62603-E7FF-0DBD-1269A94397A9D630
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pancreatic cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreatic cancer treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Pancreatic cancer is one of the deadliest cancers. Even with aggressive treatment, the prognosis is poor. Various factors stack the odds against successful pancreatic cancer treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Early detection is uncommon.&lt;/strong&gt; Few pancreatic cancers are found in the early stages of the disease, when the cancerous cells can be surgically removed. Signs and symptoms of pancreatic cancer &amp;mdash; such as pain in the upper abdomen, yellow skin and eyes, and weight loss &amp;mdash; don&apos;t typically occur until the disease is advanced.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreatic cancer tends to spread quickly.&lt;/strong&gt; The pancreas lies at the junction of several very important structures in your abdomen, making it easy for the cancer to spread into these structures and organs.&amp;nbsp; Pancreatic cancer often spreads to nearby organs &amp;mdash; including the liver, gallbladder and intestines &amp;mdash; early in the course of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurrence is likely.&lt;/strong&gt; Even after surgical removal, pancreatic cancer often recurs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, pancreatic cancer tends to be relatively resistant to chemotherapy. However, several newer drugs show promise in increasing the response rate to pancreatic cancer treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pancreatic cancer treatment: Why is it so challenging?
+	</Title>
+	<Abstract>
+		Various factors stack the odds against successful pancreatic cancer treatment.
+	</Abstract>
+	<Question>
+		Why is pancreatic cancer so difficult to treat?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Disease" DocID="DS00357" LinkType="Internal" ObjectID="606A404B-8078-4164-A5C4C829B75A978B" Title="Pancreatic cancer" Url="http://www.mayoclinic.com/health/pancreatic-cancer/DS00357" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,305 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00939
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/broken-ribs/DS00939
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="2512" Title="Broken ribs" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			510EB46F-E7FF-0DBD-186A2AE7DABF8592
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				broken rib
+			</MetaKeyword>
+			<MetaKeyword>
+				broken ribs
+			</MetaKeyword>
+			<MetaKeyword>
+				fractured rib
+			</MetaKeyword>
+			<MetaKeyword>
+				fractured ribs
+			</MetaKeyword>
+			<MetaKeyword>
+				rib fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				chest pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken rib, or fractured rib, is a common injury that occurs when one of the bones in your rib cage breaks or cracks. The most common cause of broken ribs is trauma to the chest, such as from a fall, motor vehicle accident or impact during contact sports.
+&lt;/p&gt;
+&lt;p&gt;
+Many broken ribs are merely cracked. While still painful, cracked ribs aren&apos;t as potentially dangerous as ribs that have been broken. In these situations, a jagged piece of bone could damage major blood vessels or internal organs, such as the lungs.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, broken ribs heal on their own in one or two months. Adequate pain control is important, so you can continue to breathe deeply and avoid lung complications, such as pneumonia.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing broken ribs 
+" Caption="A fractured rib occurs when one of the bones in your rib cage breaks or cracks. 
+" Height="60" Title="Broken ribs" URI="/images/image_popup/thumbs/r7_brokenribsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing broken ribs 
+" Caption="A fractured rib occurs when one of the bones in your rib cage breaks or cracks. 
+" Height="499" Title="Broken ribs" URI="/images/image_popup/r7_brokenribs.jpg" Width="400" />
+				<HTML>
+					A fractured rib occurs when one of the bones in your rib cage breaks or cracks. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of a broken rib may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain when you take a deep breath&lt;/li&gt;
+	&lt;li&gt;Pain that gets worse when you press on the injured area, or when you bend or twist your body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you have a very tender spot in your rib area that occurs after trauma, is present with deep breaths or hinders your breathing.
+&lt;/p&gt;
+&lt;p&gt;
+If you experience pressure, fullness or a squeezing pain in the center of your chest that lasts for more than a few minutes, pain that extends beyond your chest to your shoulder or arm, and increasing episodes of chest pain, get medical attention immediately. These symptoms may indicate a heart attack.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Broken ribs can be caused by direct impact or repetitive trauma.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Direct impact&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Motor vehicle accidents&lt;/li&gt;
+	&lt;li&gt;Falls&lt;/li&gt;
+	&lt;li&gt;Child abuse&lt;/li&gt;
+	&lt;li&gt;Contact sports&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Repetitive trauma&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sports such as golf or rowing&lt;/li&gt;
+	&lt;li&gt;Severe and prolonged coughing spells&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors can increase your risk of breaking a rib: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Having osteoporosis, a disease in which your bones lose their density, makes you more susceptible to a bone fracture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports participation.&lt;/strong&gt; Participating in contact sports, such as hockey or football, increases your risk of trauma to your chest, and trauma increases the risk of rib fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancerous lesion in a rib.&lt;/strong&gt; A cancerous lesion can weaken the bone, making it more susceptible to breaks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unlike a cracked rib, a completely broken rib can injure blood vessels and internal organs. The risk increases with the number of broken ribs. Complications vary depending on which ribs have been broken. Possible complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Torn or punctured aorta.&lt;/strong&gt; After a complete break in one of the first three ribs at the top of your ribcage, the sharp end of a broken rib could rupture your aorta or another major blood vessel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Punctured lung. &lt;/strong&gt;The sharp end of a broken middle rib can puncture a lung and cause it to collapse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lacerated speen, liver or kidneys.&lt;/strong&gt; The bottom two ribs rarely fracture because they have more flexibility than do the upper and middle ribs, which are anchored to the breastbone. But if you break a lower rib, the broken ends can cause serious damage to your spleen, liver or kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing broken ribs 
+" Caption="A fractured rib occurs when one of the bones in your rib cage breaks or cracks. 
+" Height="60" Title="Broken ribs" URI="/images/image_popup/thumbs/r7_brokenribsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing broken ribs 
+" Caption="A fractured rib occurs when one of the bones in your rib cage breaks or cracks. 
+" Height="499" Title="Broken ribs" URI="/images/image_popup/r7_brokenribs.jpg" Width="400" />
+				<HTML>
+					A fractured rib occurs when one of the bones in your rib cage breaks or cracks. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because many broken ribs are caused by motor vehicle accidents, you may find out you have a broken rib in a hospital&apos;s emergency department. If your broken rib was caused by repetitive stress over time, you may seek advice from your family physician. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. For broken ribs, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How long will I be in pain?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any additional questions you may think of during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where exactly does it hurt?&lt;/li&gt;
+	&lt;li&gt;When did the pain start?&lt;/li&gt;
+	&lt;li&gt;What happened that may explain the pain??&lt;/li&gt;
+	&lt;li&gt;Can you do anything to make the pain better or worse?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During the physical exam, your doctor will press gently on your ribs. He or she may also listen to your lungs and watch your rib cage move as you breathe.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may order one or more of the following imaging tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; Using low levels of radiation, X-rays visualize bone. But X-rays often have problems revealing fresh rib fractures, especially if the bone is merely cracked. X-rays are also useful in diagnosing a collapsed lung.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans can often uncover rib fractures that X-rays might miss. Injuries to soft tissues and blood vessels are also easier to see on CT scans. This technology takes X-rays from a variety of angles and combines them to depict cross-sectional slices of your body&apos;s internal structures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic reasonance imaging (MRI).&lt;/strong&gt; MRI scans can be used to look at the soft tissues and organs around the ribs to determine if there is any damage to these structures. It can also help in the detection of more subtle rib fractures. Instead of X-rays, MRI uses a powerful magnet and radio waves to produce cross-sectional images. Most MRI machines are large, tube-shaped magnets. During the test, you lie on a movable table inside the MRI machine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; This technique is good for viewing stress fractures, where a bone is cracked after repetitive trauma &amp;mdash; such as long bouts of coughing. During a bone scan, a small amount of radioactive material is injected into your bloodstream. It collects in the bones, particularly in places where a bone is healing, and is detected by a scanner.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most broken ribs heal on their own within six weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;It&apos;s important to obtain adequate pain relief because if it hurts too much to breathe deeply, you may develop pneumonia. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter drugs.&lt;/strong&gt; Acetaminophen (Tylenol, others) and nonsteroidal anti-inflammatory drugs (NSAIDs) &amp;mdash; such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve) &amp;mdash; may help relieve discomfort as you wait for the fracture to heal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other pain medications.&lt;/strong&gt; If NSAIDs or acetaminophen don&apos;t work well enough, your doctor may prescribe stronger pain medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve blocks.&lt;/strong&gt; If the pain is severe, your doctor may suggest injections of long-lasting anesthesia around the nerves that supply the ribs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;In the past, doctors would use compression wraps &amp;mdash; elastic bandages that you can wrap around your chest &amp;mdash; to help splint and immobilize the area. Compression wraps aren&apos;t recommended for broken ribs anymore because they can keep you from taking deep breaths, which can increase the risk of pneumonia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you prevent a broken rib: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect yourself from athletic injuries.&lt;/strong&gt; Wear protective equipment when playing contact sports.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take steps to decrease your risk of household falls.&lt;/strong&gt; Remove clutter from your floors and clean spills promptly, use a rubber mat in the shower, keep your home well lit, and put skid-proof backing on carpets and area rugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decrease your chance of getting osteoporosis.&lt;/strong&gt; Getting enough calcium in your diet is important for maintaining strong bones. Aim for about 1,000 milligrams of calcium daily from food and supplements.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Broken ribs
+	</Title>
+	<Abstract>
+		Broken ribs &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of rib bone fractures.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

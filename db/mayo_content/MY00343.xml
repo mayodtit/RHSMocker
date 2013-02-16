@@ -1,0 +1,178 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00343
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sed-rate/MY00343
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3834" Title="Bones joints and muscles">
+						<Keyword MCVID="3137" Title="Sed rate" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4878" Title="Pfizer Enbrel PsA" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			024DEA4A-E7FF-0DBD-1C830476D58B8DFA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sed rate
+			</MetaKeyword>
+			<MetaKeyword>
+				sed rate test
+			</MetaKeyword>
+			<MetaKeyword>
+				elevated sed rate
+			</MetaKeyword>
+			<MetaKeyword>
+				high sed rate
+			</MetaKeyword>
+			<MetaKeyword>
+				erythrocyte sedimentation rate
+			</MetaKeyword>
+			<MetaKeyword>
+				sedimentation rate
+			</MetaKeyword>
+			<MetaKeyword>
+				ESR test
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sed rate, or erythrocyte sedimentation rate (ESR), is a blood test that can reveal inflammatory activity in your body. A sed rate test isn&apos;t a stand-alone diagnostic tool, but it may help your doctor diagnose or monitor the progress of an inflammatory disease. 
+&lt;/p&gt;
+&lt;p&gt;
+When your blood is placed in a tall, thin tube, red blood cells (erythrocytes) gradually settle to the bottom. Inflammation can cause the cells to clump together. Because these clumps of cells are denser than individual cells, they settle to the bottom more quickly.
+&lt;/p&gt;
+&lt;p&gt;
+The sed rate test measures the distance red blood cells fall in a test tube in one hour. The farther the red blood cells have descended, the greater the inflammatory response of your immune system. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sed rate tests were used more frequently in the past than they are today because more-specific measures of inflammatory activity are now available. Today, the test is most often used if your doctor suspects you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Giant cell arteritis&lt;/li&gt;
+	&lt;li&gt;Polymyalgia rheumatica&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A sed rate test can also help determine the severity of your inflammatory symptoms and monitor the effect of treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Because a sed rate test can&apos;t pinpoint the problem that&apos;s causing inflammation in your body, it&apos;s usually accompanied by other blood tests, such as the C-reactive protein (CRP) test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The sed rate is a simple blood test. You don&apos;t need to fast before the test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A nurse or medical assistant will use a needle to draw blood from a vein, most likely a vein in your arm. The site on your arm may be tender for a few hours, but you&apos;ll be able to resume most normal activities. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results from your sed rate test will be reported in the distance in millimeters (mm) red blood cells have descended in one hour (hr). The normal range is 0-22 mm/hr for men and 0-29 mm/hr for women. The upper threshold for a normal sed rate value may vary somewhat from one medical practice to another.
+&lt;/p&gt;
+&lt;p&gt;
+The results of your sed rate test are one piece of information to help your doctor assess your health. Talk to your doctor about what your sed rate results mean in light of the symptoms you&apos;re experiencing and the results of other diagnostic tests.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Accuracy of test results&lt;br /&gt;
+&lt;/strong&gt;A number of conditions can affect the properties of blood, thereby affecting how quickly red blood cells sink in a sample of blood. Therefore, information about inflammatory disease &amp;mdash; what your doctor intends to learn from the sed rate test &amp;mdash; may be obscured by the influence of other conditions. These complicating factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will take into account possible complicating factors when interpreting the results of your sed rate test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sed rate (erythrocyte sedimentation rate)
+	</Title>
+	<Abstract>
+		Sed rate &amp;mdash; Overview covers definition and results of this test to detect signs of inflammation.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

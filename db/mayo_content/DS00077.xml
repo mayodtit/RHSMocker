@@ -1,0 +1,419 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00077
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fever/DS00077
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-01
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="1982" Title="Fever" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A382B0D2-850B-434A-96D0FF7F5B318E3E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fever
+			</MetaKeyword>
+			<MetaKeyword>
+				fevers
+			</MetaKeyword>
+			<MetaKeyword>
+				high fever
+			</MetaKeyword>
+			<MetaKeyword>
+				temperature
+			</MetaKeyword>
+			<MetaKeyword>
+				infant fever
+			</MetaKeyword>
+			<MetaKeyword>
+				fever in children
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A fever is usually a sign that something out of the ordinary is going on in your body. For an adult, a fever may be uncomfortable, but fever usually isn&apos;t dangerous unless it reaches 103 F (39.4 C) or higher. For very young children and infants, a slightly elevated temperature may indicate a serious infection. 
+&lt;/p&gt;
+&lt;p&gt;
+But the degree of fever doesn&apos;t necessarily indicate the seriousness of the underlying condition. A minor illness may cause a high fever, and a more serious illness may cause a low fever. 
+&lt;/p&gt;
+&lt;p&gt;
+Usually a fever goes away within a few days. A number of over-the-counter medications lower a fever, but sometimes it&apos;s better left untreated. Fever seems to play a key role in helping your body fight off a number of infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You have a fever when your temperature rises above its normal range. What&apos;s normal for you may be a little higher or lower than the average normal temperature of 98.6 F (37 C). 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on what&apos;s causing your fever, additional fever signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Shivering&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;General weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+High fevers between 103 F (39.4 C) and 106 F (41.1 C) may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Convulsions&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Fevers by themselves may not be a cause for alarm &amp;mdash; or a reason to call a doctor. Yet there are some circumstances when you should seek medical advice for your baby, your child or yourself. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Taking a temperature&lt;/strong&gt; &lt;br /&gt;
+To check your or your child&apos;s temperature, you can choose from several types of thermometers, including oral, rectal and ear (tympanic) thermometers. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s not the most accurate way to take a temperature, you can use an oral thermometer for an armpit (axillary) reading: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place the thermometer in the armpit and cross your arms or your child&apos;s arms over the chest.&lt;/li&gt;
+	&lt;li&gt;Wait four to five minutes. The axillary temperature is slightly lower than an oral temperature.&lt;/li&gt;
+	&lt;li&gt;If you call your doctor, report the actual number on the thermometer and where on the body you took the temperature.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Use a rectal thermometer for infants: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place a dab of petroleum jelly on the bulb.&lt;/li&gt;
+	&lt;li&gt;Lay your baby on his or her tummy.&lt;/li&gt;
+	&lt;li&gt;Carefully insert the bulb one-half inch to one inch into your baby&apos;s rectum.&lt;/li&gt;
+	&lt;li&gt;Hold the bulb and your baby still for three minutes.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t let go of the thermometer while it&apos;s inside your baby. If your baby squirms, the thermometer could go deeper and cause an injury.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infants&lt;/strong&gt; &lt;br /&gt;
+An unexplained fever is greater cause for concern in infants and in children than in adults. Call your baby&apos;s doctor if your baby has a fever of 101 F (38.3 C) or higher. Also call your baby&apos;s doctor if your baby: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Has a fever and is younger than 3 months of age.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refuses to eat or drink.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Has a fever and unexplained irritability,&lt;/strong&gt; such as marked crying during a diaper change or when moved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Has a fever and seems lethargic and unresponsive.&lt;/strong&gt; In infants and children younger than age 2, these may be signs of meningitis &amp;mdash; an infection and inflammation of the membranes and fluid surrounding the brain and spinal cord. If you&apos;re worried that your baby might have meningitis, take your baby to the doctor right away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Is a newborn and has a lower than normal temperature&lt;/strong&gt; &amp;mdash; less than 97 F (36.1 C). Very young babies may not regulate their body temperature well when they are ill and may become cold rather than hot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Children&lt;/strong&gt; &lt;br /&gt;
+There&apos;s probably no cause for alarm if your child has a fever but is responsive &amp;mdash; making eye contact with you and responding to your facial expressions and to your voice &amp;mdash; and is drinking fluids and playing. 
+&lt;/p&gt;
+&lt;p&gt;
+Call your child&apos;s doctor if your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Is listless or irritable, vomits repeatedly,&lt;/strong&gt; has a severe headache or stomachache, or has any other symptoms causing significant discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Has a fever after being left in a hot car.&lt;/strong&gt; Seek medical care immediately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Has a fever that persists longer than a day&lt;/strong&gt; (in children younger than age 2) or longer than three days (in children ages 2 and older).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your child&apos;s doctor for guidance in special circumstances, such as a child with immune system problems or with a pre-existing illness. Your child&apos;s doctor also may recommend precautions if your child has just started taking a new prescription medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+Call your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your temperature is more than 103 F (39.4 C)&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had a fever for more than three days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, seek immediate medical attention if any of these signs or symptoms accompanies a fever: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Severe throat swelling&lt;/li&gt;
+	&lt;li&gt;Unusual skin rash, especially if the rash rapidly worsens&lt;/li&gt;
+	&lt;li&gt;Unusual sensitivity to bright light&lt;/li&gt;
+	&lt;li&gt;Stiff neck and pain when you bend your head forward&lt;/li&gt;
+	&lt;li&gt;Mental confusion&lt;/li&gt;
+	&lt;li&gt;Persistent vomiting&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or chest pain&lt;/li&gt;
+	&lt;li&gt;Extreme listlessness or irritability&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or pain when urinating&lt;/li&gt;
+	&lt;li&gt;Any other unexplained signs or symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your normal body temperature varies throughout the day &amp;mdash; it&apos;s lower in the morning and higher in the late afternoon and evening. In fact, your normal temperature can range from about 97 F (36.1 C) to 99 F (37.2 C). Although most people consider 98.6 F (37 C) normal, your temperature may vary by a degree or more. Other factors, such as your menstrual cycle or heavy exercise, can affect your temperature. 
+&lt;/p&gt;
+&lt;p&gt;
+A fever might be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A virus&lt;/li&gt;
+	&lt;li&gt;A bacterial infection&lt;/li&gt;
+	&lt;li&gt;Heat exhaustion&lt;/li&gt;
+	&lt;li&gt;Extreme sunburn&lt;/li&gt;
+	&lt;li&gt;Certain inflammatory conditions such as rheumatoid arthritis &amp;mdash; inflammation of the lining of your joints (synovium)&lt;/li&gt;
+	&lt;li&gt;A malignant tumor&lt;/li&gt;
+	&lt;li&gt;Some medications, such as antibiotics and drugs used to treat high blood pressure or seizures&lt;/li&gt;
+	&lt;li&gt;Some immunizations, such as the diphtheria, tetanus and acellular pertussis (DTaP) or pneumococcal vaccines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes it&apos;s not possible to identify the cause of a fever. If you have a temperature of 101 F (38.3 C) or higher for more than three weeks and your doctor isn&apos;t able to find the cause after extensive evaluation, the diagnosis may be fever of unknown origin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a fever may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe dehydration&lt;/li&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Fever-induced seizure (febrile seizure), in a small number of children ages 6 months to 5 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Febrile seizures&lt;/strong&gt; &lt;br /&gt;
+Febrile seizures usually involve loss of consciousness and shaking of limbs on both sides of the body. Although alarming for parents, the vast majority of febrile seizures cause no lasting effects. 
+&lt;/p&gt;
+&lt;p&gt;
+If a seizure occurs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lay your child on his or her side or stomach on the floor or ground&lt;/li&gt;
+	&lt;li&gt;Remove any sharp objects that are near your child&lt;/li&gt;
+	&lt;li&gt;Loosen tight clothing&lt;/li&gt;
+	&lt;li&gt;Hold your child to prevent injury&lt;/li&gt;
+	&lt;li&gt;Don&apos;t place anything in your child&apos;s mouth or try to stop the seizure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most seizures stop on their own. Take your child to the doctor as soon as possible after the seizure to determine the cause of the fever. 
+&lt;/p&gt;
+&lt;p&gt;
+Call for emergency medical assistance if a seizure lasts longer than 10 minutes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After you make an appointment with your family doctor, general practitioner or pediatrician, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down information about the fever, such as when it started,&lt;/strong&gt; how and where you measured it (orally or rectally, for example) and any other symptoms. Note whether you or your child has been around anyone who&apos;s been ill.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes or recent travel out of the country.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important. For fever, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing the fever?&lt;/li&gt;
+	&lt;li&gt;What else could be causing it?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Is medicine necessary to lower the fever?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment anytime that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be prepared to answer questions your doctor is likely to ask you, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the symptoms first occur?&lt;/li&gt;
+	&lt;li&gt;What method did you use to take your or your child&apos;s temperature?&lt;/li&gt;
+	&lt;li&gt;Have you or your child taken any fever-lowering medication?&lt;/li&gt;
+	&lt;li&gt;What other symptoms are you or your child experiencing? How severe are they?&lt;/li&gt;
+	&lt;li&gt;Do you or your child have any chronic health conditions?&lt;/li&gt;
+	&lt;li&gt;What medications do you or your child regularly take?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been around anyone who&apos;s ill?&lt;/li&gt;
+	&lt;li&gt;Have you or your child recently had surgery?&lt;/li&gt;
+	&lt;li&gt;Have you or your child recently traveled outside the country?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will look for an infection or noninfectious cause of your fever based on your other symptoms and a physical exam. You may need tests, such as blood tests, to confirm a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a low-grade fever that persists for three weeks or more, but have no other symptoms, your doctor may recommend a variety of tests to help find the cause. These may include blood tests and X-rays. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With low-grade fever, doctors don&apos;t always recommend trying to lower the body temperature. Doing so may prolong the illness or mask symptoms and make it harder to determine the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+Some experts believe that aggressively treating a fever interferes with the body&apos;s immune response. Viruses that cause colds and other respiratory infections thrive at normal body temperature. By producing a low-grade fever, your body may be helping to eliminate a virus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Over-the-counter medications&lt;/strong&gt; &lt;br /&gt;
+In the case of a high fever, your doctor may recommend an over-the-counter medication, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others).&lt;/strong&gt; Use these medications according to the label instructions or as recommended by your doctor. Be careful to avoid taking too much. High doses or long-term use of acetaminophen may cause liver or kidney damage, and acute overdoses can be fatal. If your child&apos;s fever remains high after a dose, don&apos;t give more medication; call your doctor instead. For temperatures below 102 F (38.9 C), don&apos;t use fever-lowering drugs unless advised by your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin, for adults only.&lt;/strong&gt; Don&apos;t give aspirin to children, because it may trigger a rare, but potentially fatal, disorder known as Reye&apos;s syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prescription medications&lt;/strong&gt; &lt;br /&gt;
+Depending on the cause of your fever, your doctor may prescribe an antibiotic, especially if he or she suspects a bacterial infection, such as pneumonia or strep throat. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics don&apos;t treat viral infections, such as stomach infection (gastroenteritis) and mononucleosis. There are a few antiviral drugs used to treat some specific viral infections. However, the best treatment for most viruses is often rest and plenty of fluids. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can try a number of things to make yourself or your child more comfortable during a fever: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Fever can cause fluid loss and dehydration, so drink water, juices or broth. For a child under age 1, use an oral rehydration solution such as Pedialyte. These solutions contain water and salts proportioned to replenish fluids and electrolytes. Pedialyte ice pops also are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; It&apos;s necessary for recovery, and activity can raise your body temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay cool.&lt;/strong&gt; Dress in light clothing, keep the room temperature cool and sleep with only a sheet or light blanket.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soak in lukewarm water.&lt;/strong&gt; Especially for high temperatures, a lukewarm five- to 10-minute soak or a sponge bath can be cooling. If the bath causes shivering, stop the bath and dry off. Shivering raises the body&apos;s internal temperature &amp;mdash; shaking muscles generate heat. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent fevers is to reduce your exposure to infectious diseases. One of the most effective ways to do that is also one of the simplest &amp;mdash; frequent hand-washing. 
+&lt;/p&gt;
+&lt;p&gt;
+Teach your children to wash their hands often, especially before they eat, after using the toilet, after spending time in a crowd or around someone who&apos;s sick, and after petting animals. Show them how to wash their hands vigorously, covering both the front and back of each hand with soap, and rinsing thoroughly under running water. Carry moist towelettes or hand sanitizer with you for times when you don&apos;t have access to soap and water. When possible, teach your kids not to touch their noses, mouths or eyes &amp;mdash; the main way viral infections are transmitted. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, teach your children to turn away from others and to cover their mouths when coughing and their noses when sneezing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fever
+	</Title>
+	<Abstract>
+		Fever &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common sign of illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00063" LinkType="Internal" ObjectID="D510CB2E-2D39-4E4B-8B37F894D4A4D06C" Title="Fever: First aid" Url="http://www.mayoclinic.com/health/first-aid-fever/FA00063" />
+		<LinkItem ContentType="Table" DocID="ID00052" LinkType="Internal" ObjectID="D4B6C0FD-E7FF-0DBD-1A596B7BF40D94B8" Title="Fever treatment: Quick guide to treating a fever" Url="http://www.mayoclinic.com/health/fever/ID00052" />
+		<LinkItem ContentType="Article" DocID="MY01186" LinkType="Internal" ObjectID="9A19F6EC-9DCC-4429-F240C8477358E08A" Title="Thermometers: Understand the options" Url="http://www.mayoclinic.com/health/thermometers/MY01186" />
+	</RelatedLinksBox>
+</Disease>

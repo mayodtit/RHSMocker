@@ -1,0 +1,514 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00986
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/eczema/DS00986
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2815" Title="Dermatitis/eczema">
+							<Keyword MCVID="4287" Title="Atopic dermatitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			062C950F-E7FF-0DBD-1D76F8E1320E6D7C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				atopic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				dermitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitus
+			</MetaKeyword>
+			<MetaKeyword>
+				rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				red rash
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				face rash
+			</MetaKeyword>
+			<MetaKeyword>
+				facial rash
+			</MetaKeyword>
+			<MetaKeyword>
+				body rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rash on face
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problem
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+			<MetaKeyword>
+				red skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin irritation
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itching
+			</MetaKeyword>
+			<MetaKeyword>
+				skin eruptions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin sores
+			</MetaKeyword>
+			<MetaKeyword>
+				severe itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itchiness
+			</MetaKeyword>
+			<MetaKeyword>
+				excema
+			</MetaKeyword>
+			<MetaKeyword>
+				exema
+			</MetaKeyword>
+			<MetaKeyword>
+				exzema
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itch
+			</MetaKeyword>
+			<MetaKeyword>
+				infant eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				infantile eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				atopic eczema
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy
+			</MetaKeyword>
+			<MetaKeyword>
+				eczema pictures
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis pictures
+			</MetaKeyword>
+			<MetaKeyword>
+				eczema treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				atopy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atopic dermatitis (eczema) is an itchy inflammation of your skin. It&apos;s a long-lasting (chronic) condition that may be accompanied by asthma or hay fever.
+&lt;/p&gt;
+&lt;p&gt;
+Eczema may affect any area of your skin, but it typically appears on your arms and behind your knees. It tends to flare periodically and then subside. The cause of atopic dermatitis is unknown, but it may result from a combination of inherited tendencies for sensitive skin and malfunction in the body&apos;s immune system.
+&lt;/p&gt;
+&lt;p&gt;
+Self-care measures, such as avoiding soaps or other irritants and applying creams or ointments, can help relieve itching. See your doctor if your symptoms distract you from your daily routines or prevent you from sleeping.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing atopic dermatitis on the legs 
+" Caption="Atopic dermatitis can cause small, red bumps, which can be very itchy. When scratched, the bumps may leak fluid and crust over. 
+" Height="60" Title="Atopic dermatitis" URI="/images/image_popup/thumbs/sn7_atopicdermatitis1thu.jpg" Width="60" />
+				<Image Alt="Image showing atopic dermatitis on the legs 
+" Caption="Atopic dermatitis can cause small, red bumps, which can be very itchy. When scratched, the bumps may leak fluid and crust over. 
+" Height="269" Title="Atopic dermatitis" URI="/images/image_popup/sn7_atopicdermatitis1.jpg" Width="400" />
+				<HTML>
+					Atopic dermatitis can cause small, red bumps, which can be very itchy. When scratched, the bumps may leak fluid and crust over. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of atopic dermatitis (eczema) include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red to brownish-gray colored patches&lt;/li&gt;
+	&lt;li&gt;Itching, which may be severe, especially at night&lt;/li&gt;
+	&lt;li&gt;Small, raised bumps, which may leak fluid and crust over when scratched&lt;/li&gt;
+	&lt;li&gt;Thickened, cracked or scaly skin&lt;/li&gt;
+	&lt;li&gt;Raw, sensitive skin from scratching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Though the patches can occur anywhere, they most often appear on the hands and feet, in the front of the bend of the elbow, behind the knees, and on the ankles, wrists, face, neck and upper chest. Atopic dermatitis can also affect the skin around the eyes, including your eyelids. Scratching can cause redness and swelling around the eyes.
+&lt;/p&gt;
+&lt;p&gt;
+Atopic dermatitis most often begins in childhood before age 5 and may persist into adulthood. For some, it flares periodically and then subsides for a time, even up to several years. Itching may be severe, and scratching the rash can make it even itchier and cause more inflammation. Once the skin barrier is broken, the skin can become infected by bacteria, especially Staphylococcus aureus, which commonly live on the skin. Breaking this itch-scratch cycle can be challenging.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Factors that worsen atopic dermatitis&lt;/strong&gt;&lt;br /&gt;
+Most people with atopic dermatitis also have Staphylococcus aureus bacteria on their skin. The staph bacteria multiply rapidly when the skin barrier is broken and fluid is present on the skin, which in turn may worsen symptoms, particularly in young children.
+&lt;/p&gt;
+&lt;p&gt;
+Other factors that can worsen signs and symptoms of atopic dermatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dry skin&lt;/li&gt;
+	&lt;li&gt;Long, hot baths or showers&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Rapid changes in temperature&lt;/li&gt;
+	&lt;li&gt;Low humidity&lt;/li&gt;
+	&lt;li&gt;Solvents, cleaners, soaps or detergents&lt;/li&gt;
+	&lt;li&gt;Wool or man-made fabrics or clothing&lt;/li&gt;
+	&lt;li&gt;Dust or sand&lt;/li&gt;
+	&lt;li&gt;Cigarette smoke&lt;/li&gt;
+	&lt;li&gt;Living in cities where pollution is high&lt;/li&gt;
+	&lt;li&gt;Certain foods, such as eggs, milk, fish, soy or wheat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Infantile eczema&lt;/strong&gt;&lt;br /&gt;
+When atopic dermatitis occurs in infants, it&apos;s called infantile eczema. This condition may continue into childhood and adolescence.
+&lt;/p&gt;
+&lt;p&gt;
+Infantile eczema often involves an oozing, crusting rash, mainly on the skin of the face and scalp, but it can occur anywhere. After infancy, the rash becomes dryer and tends to be red to brown-gray in color. In adolescence, the skin may be scaly or thickened and easily irritated. The intense itching may continue.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re so uncomfortable that you&apos;re losing sleep or are distracted from your daily routines &lt;/li&gt;
+	&lt;li&gt;Your skin is painful&lt;/li&gt;
+	&lt;li&gt;You suspect your skin is infected&lt;/li&gt;
+	&lt;li&gt;You&apos;ve tried self-care steps without success&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you suspect your child has atopic dermatitis or you notice the above signs and symptoms, see your child&apos;s doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Early, effective treatment helps keep atopic dermatitis from worsening. The more severe it becomes, the more difficult it is to control.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing atopic dermatitis on the legs 
+" Caption="Atopic dermatitis can cause small, red bumps, which can be very itchy. When scratched, the bumps may leak fluid and crust over. 
+" Height="60" Title="Atopic dermatitis" URI="/images/image_popup/thumbs/sn7_atopicdermatitis1thu.jpg" Width="60" />
+				<Image Alt="Image showing atopic dermatitis on the legs 
+" Caption="Atopic dermatitis can cause small, red bumps, which can be very itchy. When scratched, the bumps may leak fluid and crust over. 
+" Height="269" Title="Atopic dermatitis" URI="/images/image_popup/sn7_atopicdermatitis1.jpg" Width="400" />
+				<HTML>
+					Atopic dermatitis can cause small, red bumps, which can be very itchy. When scratched, the bumps may leak fluid and crust over. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing atopic dermatitis on the chest
+" Caption="Inflammation caused by atopic dermatitis can cover large areas of the body, such as the chest, or be limited to a few small locations.
+" Height="60" Title="Atopic dermatitis on the chest" URI="/images/image_popup/thumbs/sn7_atopicdermatitis2thu.jpg" Width="60" />
+				<Image Alt="Image showing atopic dermatitis on the chest
+" Caption="Inflammation caused by atopic dermatitis can cover large areas of the body, such as the chest, or be limited to a few small locations.
+" Height="269" Title="Atopic dermatitis on the chest" URI="/images/image_popup/sn7_atopicdermatitis2.jpg" Width="400" />
+				<HTML>
+					Inflammation caused by atopic dermatitis can cover large areas of the body, such as the chest, or be limited to a few small locations.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing infantile eczema
+" Caption="In infants, atopic dermatitis (infantile eczema) usually appears as red, itchy patches that are associated with very dry skin.
+" Height="60" Title="Infantile eczema" URI="/images/image_popup/thumbs/sn7_infanteczemathu.jpg" Width="60" />
+				<Image Alt="Image showing infantile eczema
+" Caption="In infants, atopic dermatitis (infantile eczema) usually appears as red, itchy patches that are associated with very dry skin.
+" Height="269" Title="Infantile eczema" URI="/images/image_popup/sn7_infanteczema.jpg" Width="400" />
+				<HTML>
+					In infants, atopic dermatitis (infantile eczema) usually appears as red, itchy patches that are associated with very dry skin.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of atopic dermatitis (eczema) is unknown, but it&apos;s likely due to a combination of dry, irritable skin with a malfunction in the body&apos;s immune system. Stress and other emotional disorders can worsen atopic dermatitis, but they don&apos;t cause it.
+&lt;/p&gt;
+&lt;p&gt;
+Most experts believe atopic dermatitis has a genetic basis. It has been thought to be connected to asthma and hay fever, but that theory is being questioned. Not all people with atopic dermatitis have asthma or hay fever, and not all people with asthma or hay fever develop atopic dermatitis, but these diseases do seem to be present together in families of those affected.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of atopic dermatitis (eczema) include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurodermatitis.&lt;/strong&gt; Prolonged itching and scratching may increase the intensity of the itch, possibly leading to neurodermatitis (lichen simplex chronicus). Neurodermatitis is a condition in which an area of skin that&apos;s frequently scratched becomes thick and leathery. The patches can be raw, red or darker than the rest of your skin. Persistent scratching can also lead to permanent scars or changes in skin color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin infections.&lt;/strong&gt; Sometimes, scratching can break the skin and cause open sores and fissures that can become infected, a process called impetiginization. A milder form of infection is impetigo, usually due to staphylococcal infection. Having atopic dermatitis predisposes you to this infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye complications.&lt;/strong&gt; Severe atopic dermatitis can also cause eye complications, which may lead to permanent eye damage. When these complications occur, itching in and around the eyelids becomes severe. Signs and symptoms of eye complications also include eye watering and inflammation of the eyelid (blepharitis) and the lining of the eyelid (conjunctivitis). If you suspect complications with your eyes, see your doctor promptly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family or primary care doctor. However, in some cases when you call to set up an appointment, you may be referred to a specialist in skin diseases (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s good to prepare for your appointment. Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your signs and symptoms, when they occurred and how long they lasted.&lt;/strong&gt; Also, it may help to write down any factors that triggered or worsened your symptoms, such as soaps or detergents, tobacco smoke, sweating, or long, hot showers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including vitamins, herbs and over-the-counter drugs, you&apos;re taking. Even better, take the original bottles and a written list of the dosages and directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Don&apos;t be afraid to ask questions or to speak up when you want something clarified.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For atopic dermatitis, some basic questions you might ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing the signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend to improve my symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you several questions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you have these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you or any family members have asthma or allergies?&lt;/li&gt;
+	&lt;li&gt;What products do you use on your skin?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no test to definitively diagnose atopic dermatitis (eczema). Instead, it&apos;s typically diagnosed based on an examination of your skin and a review of your medical history.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments for atopic dermatitis (eczema) aim to reduce inflammation, relieve itching and prevent future flare-ups. Over-the-counter (nonprescription) anti-itch creams and other self-care measures may help control mild atopic dermatitis.
+&lt;/p&gt;
+&lt;p&gt;
+Although atopic dermatitis is related to allergies, eliminating allergens is rarely helpful in clearing the condition. Occasionally, items that trap dust &amp;mdash; such as feather pillows, down comforters, mattresses, carpeting and drapes &amp;mdash; can worsen the condition. Allergy shots usually aren&apos;t successful in treating atopic dermatitis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid creams or ointments.&lt;/strong&gt; Your doctor may recommend prescription corticosteroid creams or ointments to ease scaling and relieve itching. Some low-potency corticosteroid creams are available without a prescription, but you should always talk to your doctor before using any topical corticosteroid. Side effects of long-term or repeated use can include skin irritation or discoloration, thinning of the skin, infections, and stretch marks on the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; You may need antibiotics if you have a bacterial skin infection or an open sore or fissure caused by scratching. Your doctor may recommend taking antibiotics for a short time to treat an infection or for longer periods of time to reduce bacteria on your skin and to prevent recurrent infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral antihistamines.&lt;/strong&gt; If itching is severe, oral antihistamines may help. Diphenhydramine (Benadryl, others) can make you sleepy and may be helpful at bedtime. If your skin cracks open, your doctor may prescribe mildly astringent wet dressings to prevent infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral or injected corticosteroids.&lt;/strong&gt; For more severe cases, your doctor may prescribe oral corticosteroids, such as prednisone, or an intramuscular injection of corticosteroids to reduce inflammation and to control symptoms. These medications are effective, but can&apos;t be used long term because of potential serious side effects, which include cataracts, loss of bone mineral (osteoporosis), muscle weakness, decreased resistance to infection, high blood pressure and thinning of the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunomodulators.&lt;/strong&gt; A class of medications called immunomodulators, such as tacrolimus (Protopic) and pimecrolimus (Elidel), affect the immune system and may help maintain normal skin texture and reduce flares of atopic dermatitis. This prescription-only medication is approved for children older than 2 and for adults. Due to possible concerns about the effect of these medications on the immune system when used for prolonged periods, the Food and Drug Administration recommends that Elidel and Protopic be used only when other treatments have failed or if someone can&apos;t tolerate other treatments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Light therapy (phototherapy)&lt;/strong&gt;&lt;br /&gt;
+As the name suggests, this treatment uses natural or artificial light. The simplest and easiest form of phototherapy involves exposing your skin to controlled amounts of natural sunlight. Other forms of light therapy include the use of artificial ultraviolet A (UVA) or ultraviolet B (UVB) light including the more recently available narrow band ultraviolet B (NBUVB) either alone or with medications.
+&lt;/p&gt;
+&lt;p&gt;
+Though effective, long-term light therapy has many harmful effects, including premature skin aging and an increased risk of skin cancer. For these reasons, it&apos;s important to consult your doctor before using light exposure as treatment for atopic dermatitis. Your doctor can advise you of possible advantages and disadvantages of light exposure in your specific situation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infantile eczema&lt;/strong&gt;&lt;br /&gt;
+Treatment for infantile eczema includes identifying and avoiding skin irritations, avoiding extreme temperatures, and lubricating your baby&amp;rsquo;s skin with bath oils, lotions, creams or ointments.
+&lt;/p&gt;
+&lt;p&gt;
+See your baby&apos;s doctor if these measures don&apos;t improve the rash or if the rash looks infected. Your baby may need a prescription medication to control his or her symptoms or to treat the infection. Your doctor may recommend an oral antihistamine to help lessen the itch and to cause drowsiness, which may be helpful for nighttime itching and discomfort.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help reduce itching and soothe inflamed skin, try these self-care measures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to identify and avoid triggers that worsen the inflammation.&lt;/strong&gt; Rapid changes of temperature, sweating and stress can worsen the condition. Avoid direct contact with wool products, such as rugs, bedding and clothes, as well as harsh soaps and detergents.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply an anti-itch cream or calamine lotion to the affected area.&lt;/strong&gt; A nonprescription hydrocortisone cream, containing at least 1 percent hydrocortisone, can temporarily relieve the itch. A nonprescription oral antihistamine, such as diphenhydramine (Benadryl, others), may be helpful if itching is severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid scratching whenever possible.&lt;/strong&gt; Cover the itchy area if you can&apos;t keep from scratching it. Trim nails and wear gloves at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool, wet compresses.&lt;/strong&gt; Covering the affected area with bandages and dressings can help protect the skin and prevent scratching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a warm bath.&lt;/strong&gt; Sprinkle the bath water with baking soda, uncooked oatmeal or colloidal oatmeal &amp;mdash; a finely ground oatmeal that is made for the bathtub (Aveeno, others). Or, add 1/2 cup (118 milliliters) of bleach to a U.S. standard-sized bathtub (40 gallons; 151 liters) filled to the overflow drainage holes with warm water. The diluted bleach bath is thought to kill bacteria that grow on the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose mild soaps without dyes or perfumes.&lt;/strong&gt; Be sure to rinse the soap completely off your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your skin.&lt;/strong&gt; Use an oil or cream to seal in moisture while your skin is still damp from a bath or shower. Pay special attention to your legs, arms, back and the sides of your body. If your skin is already dry, consider using a lubricating cream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Hot, dry indoor air can parch sensitive skin and worsen itching and flaking. A portable home humidifier or one attached to your furnace adds moisture to the air inside your home. Portable humidifiers come in many varieties. Choose one that meets your budget and any special needs. And be sure to keep your humidifier clean to prevent the growth of bacteria and fungi.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear cool, smooth-textured cotton clothing.&lt;/strong&gt; Avoid clothing that&apos;s rough, tight, scratchy or made from wool. This will help you avoid irritation. Also, wear appropriate clothing in hot weather or during exercise to prevent excessive sweating.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many alternative therapies &amp;mdash; including chamomile, evening-primrose oil, witch hazel extract and borage seed oil &amp;mdash; have been touted as possible ways to treat atopic dermatitis (eczema). However, there&apos;s no conclusive evidence that any of these alternative therapies are effective.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re considering dietary supplements or other alternative therapy to treat atopic dermatitis, consult your doctor. He or she can help you weigh the pros and cons of specific alternative therapies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Avoiding dry skin may be one factor in helping to prevent future bouts of dermatitis. These tips can help you minimize the drying effects of bathing on your skin:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bathe less frequently.&lt;/strong&gt; Try going a day or two without a shower or bath. When you do bathe, limit yourself to 15 to 20 minutes, and use warm, rather than hot, water. Using a bath oil also may be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use only certain soaps or synthetic detergents.&lt;/strong&gt; Choose mild soaps that clean without excessively removing natural oils. Deodorant and antibacterial soaps may be more drying to your skin. Use soap only on your face, underarms, genital areas, hands and feet. Use clear water elsewhere.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry yourself carefully.&lt;/strong&gt; Brush your skin rapidly with the palms of your hands, or gently pat your skin dry with a soft towel after bathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your skin.&lt;/strong&gt; Moisturizers provide a seal over your skin to keep water from escaping. Thicker moisturizers work best, such as over-the-counter brands Cetaphil, Vanicream and Eucerin. You may also want to use cosmetics that contain moisturizers. If your skin is extremely dry, you may want to apply an oil, such as baby oil, while your skin is still moist. Oil has more staying power than moisturizers do and prevents the evaporation of water from the surface of your skin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Atopic dermatitis (eczema)
+	</Title>
+	<Abstract>
+		Atopic dermatitis (eczema) &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this itchy rash.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+		<LinkItem ContentType="SlideShow" DocID="DS00543" LinkType="Internal" ObjectID="24EEAE39-2697-4971-95705ABC4DBBE485" Title="Slide show: Types of dermatitis" Url="http://www.mayoclinic.com/health/dermatitis/DS00543" />
+		<LinkItem ContentType="Disease" DocID="DS00339" LinkType="Internal" ObjectID="A3B79A20-A765-4E1C-90C2A26187EF01E7" Title="Dermatitis" Url="http://www.mayoclinic.com/health/dermatitis-eczema/DS00339" />
+		<LinkItem ContentType="Answer" DocID="AN02003" LinkType="Internal" ObjectID="361E7FC3-D678-7EB9-97191327A3ACF65A" Title="Eczema bleach bath: Can it improve my symptoms?" Url="http://www.mayoclinic.com/health/eczema-bleach-bath/AN02003" />
+	</RelatedLinksBox>
+</Disease>

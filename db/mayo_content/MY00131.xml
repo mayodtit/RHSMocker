@@ -1,0 +1,250 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00131
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/allergy-tests/MY00131
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-01
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3656" Title="Immune system">
+						<Keyword MCVID="2609" Title="Allergy skin tests" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				skin test
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy diagnosis
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy tests
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During allergy skin tests, your skin is exposed to suspected allergy-causing substances (allergens) and is then observed for signs of an allergic reaction.
+&lt;/p&gt;
+&lt;p&gt;
+Along with your medical history, allergy tests may be able to confirm whether or not a particular substance you touch, breathe or eat is causing symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Information from allergy tests may help your doctor develop an allergy treatment plan that includes allergen avoidance, medications or allergy shots (immunotherapy).
+&lt;/p&gt;
+&lt;p&gt;
+Allergy skin tests are widely used to help diagnose allergic conditions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hay fever (allergic rhinitis)&lt;/li&gt;
+	&lt;li&gt;Allergic asthma&lt;/li&gt;
+	&lt;li&gt;Dermatitis (eczema)&lt;/li&gt;
+	&lt;li&gt;Food allergies&lt;/li&gt;
+	&lt;li&gt;Penicillin allergy&lt;/li&gt;
+	&lt;li&gt;Bee venom allergy&lt;/li&gt;
+	&lt;li&gt;Latex allergy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Skin testing can be used for people of all ages, including infants. Sometimes, however, skin tests aren&apos;t recommended. Your doctor may advise against skin testing if you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have ever had a severe allergic reaction.&lt;/strong&gt; You may be so sensitive to certain substances that even the tiny amounts used in skin tests could trigger a life-threatening reaction (anaphylaxis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications that could interfere with test results.&lt;/strong&gt; These include antihistamines, many antidepressants and some heartburn medications. Your doctor may determine that it&apos;s better for you to continue taking these medications than to temporarily discontinue them in preparation for a skin test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have a widespread skin reaction.&lt;/strong&gt; If severe eczema or psoriasis affects large areas of skin on your arms and back &amp;mdash; the usual testing sites &amp;mdash; there may not be enough clear, uninvolved skin to do an effective test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have certain skin conditions.&lt;/strong&gt; Some conditions, including dermographism, urticaria and cutaneous mastocytosis, can cause unreliable test results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Blood tests (in vitro IgE antibody tests) can be useful for those who shouldn&apos;t undergo skin tests. Blood tests aren&apos;t done as often as skin tests because they can be less sensitive than skin tests and are more expensive.
+&lt;/p&gt;
+&lt;p&gt;
+In general, allergy skin tests are most reliable for diagnosing allergies to airborne substances, such as pollen, pet dander and dust mites. Skin testing may help diagnose food allergies. But, because food allergies can be complex, you may need additional tests or procedures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common side effect of skin testing is slightly swollen, red, itchy bumps (wheals). These wheals may be most noticeable during the test. They usually go away within a few hours, although they can persist for a day or two. A mild cortisone cream can help ease the itching and redness.
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, allergy skin tests can produce a severe, immediate allergic reaction, so it&apos;s important to have skin tests performed at an office where appropriate emergency equipment and medications are available. If you develop a severe allergic reaction in the days after a skin test, call your doctor right away.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before recommending a skin test, your doctor will ask you detailed questions about your medical history, your signs and symptoms, and your usual way of treating them. Your answers can help your doctor determine if allergies run in your family and if an allergic reaction is most likely causing your symptoms. Your doctor may also perform a physical examination to search for additional clues about the cause of your signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications can interfere with results&lt;/strong&gt;&lt;br /&gt;
+Before scheduling a skin test, bring your doctor a list of all of your prescription and over-the-counter medications. Some medications can suppress allergic reactions, preventing the skin testing from giving accurate results. Other medications may increase your risk of developing a severe allergic reaction during a test.
+&lt;/p&gt;
+&lt;p&gt;
+Because medications clear out of your system at different rates, your doctor may ask that you stop taking certain medications for up to 10 days. Medications that can interfere with skin tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prescription antihistamines,&lt;/strong&gt; such as fexofenadine (Allegra) and desloratadine (Clarinex).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter antihistamines,&lt;/strong&gt; such as brompheniramine (Dimetapp), loratidine (Claritin, Alavert), diphenhydramine (Benadryl, others), chlorpheniramine (Chlor-Trimeton), cetirizine (Zyrtec, others), doxylamine (Vicks NyQuil, Alka-Seltzer Plus).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants,&lt;/strong&gt; such as amitriptyline and doxepin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain heartburn medications,&lt;/strong&gt; such as cimetidine (Tagamet) and ranitidine (Zantac).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The asthma medication omalizumab (Xolair).&lt;/strong&gt; This medication can disrupt test results for six months or longer even after you quit using it (most medications affect results for days to weeks).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Skin testing is usually done at a doctor&apos;s office. A nurse generally administers the test and a doctor interprets the results. Typically this test takes about 20 to 40 minutes. Some tests detect immediate allergic reactions, which develop within minutes of exposure to an allergen. Other tests detect delayed allergic reactions, which develop over a period of several days.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin prick test&lt;/strong&gt;&lt;br /&gt;
+A skin prick test, also called a puncture or scratch test, checks for immediate allergic reactions to as many as 40 different substances at once. This test is usually done to identify allergies to pollen, mold, pet dander, dust mites and foods. In adults, the test is usually done on the forearm. Children may be tested on the upper back.
+&lt;/p&gt;
+&lt;p&gt;
+Allergy skin tests aren&apos;t painful. This type of testing uses needles (lancets) that barely penetrate the skin&apos;s surface. You won&apos;t bleed or feel more than mild, momentary discomfort.
+&lt;/p&gt;
+&lt;p&gt;
+After cleaning the test site with alcohol, the nurse draws small marks on your skin and applies a drop of allergen extract next to each mark. He or she then uses a lancet to prick the extracts into the skin&apos;s surface. A new lancet is used for each allergen.
+&lt;/p&gt;
+&lt;p&gt;
+To see if your skin is reacting normally, two additional substances are scratched into your skin&apos;s surface:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Histamine.&lt;/strong&gt; In most people, this substance causes a skin response. If you don&apos;t react to histamine, your allergy skin test may not reveal an allergy even if you have one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glycerin or saline.&lt;/strong&gt; In most people, these substances don&apos;t cause any reaction. If you do react to glycerin or saline, you may have sensitive skin. Test results will need to be interpreted cautiously to avoid a false allergy diagnosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+About 15 minutes after the skin pricks, the nurse observes your skin for signs of allergic reactions. If you are allergic to one of the substances tested, you&apos;ll develop a raised, red, itchy bump (wheal) that may look like a mosquito bite. A nurse will then measure the bump&apos;s size.
+&lt;/p&gt;
+&lt;p&gt;
+After the nurse records the results, he or she will clean your skin with alcohol to remove the marks.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin injection test&lt;/strong&gt;&lt;br /&gt;
+You may need a test that uses a needle to inject a small amount of allergen extract just into the skin on your arm (intradermal test). The injection site is examined after about 15 minutes for signs of an allergic reaction. Your doctor may recommend this test to check for an allergy to insect venom or penicillin.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Patch test&lt;/strong&gt;&lt;br /&gt;
+This test doesn&apos;t use needles. Instead, an allergen is applied to a patch, which is then placed on your skin. This type of test can detect delayed allergic reactions. It&apos;s generally done to see whether a particular substance is causing allergic skin irritation (contact dermatitis). During a patch test, your skin may be exposed to 20 to 30 extracts of substances that can cause contact dermatitis. These can include latex, medications, fragrances, preservatives, hair dyes, metals and resins.
+&lt;/p&gt;
+&lt;p&gt;
+You wear the patches on your arm or back for 48 hours. During this time, you should avoid bathing and activities that cause heavy sweating. The patches are removed when you return to your doctor&apos;s office. Irritated skin at the patch site may indicate an allergy.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of skin surface showing a positive reaction to allergy test 
+" Caption="A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+" Height="60" Title="Positive reaction to allergy test" URI="/images/image_popup/thumbs/aa7_dimethu.jpg" Width="60" />
+				<Image Alt="Photo of skin surface showing a positive reaction to allergy test 
+" Caption="A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+" Height="286" Title="Positive reaction to allergy test" URI="/images/image_popup/aa7_dime.jpg" Width="400" />
+				<HTML>
+					A small area of swelling with surrounding redness is typical of a positive patch skin test for allergy.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you leave your doctor&apos;s office, you&apos;ll know the results of a skin prick test or an intradermal test. A patch test may take several days or more to produce results.
+&lt;/p&gt;
+&lt;p&gt;
+A positive skin test means that you may be allergic to a particular substance. Bigger wheals usually indicate a greater degree of sensitivity. A negative skin test means that you probably aren&apos;t allergic to a particular allergen.
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind, skin tests aren&apos;t always accurate. They sometimes indicate an allergy when there isn&apos;t one (false positive) or skin testing may not trigger a reaction when you&apos;re exposed to something that you are allergic to (false negative). You may react differently to the same test performed on different occasions. Or, you may react positively to a substance during a test but not react to it in everyday life.
+&lt;/p&gt;
+&lt;p&gt;
+Your allergy treatment plan may include medications, immunotherapy, changes to your work or home environment or dietary changes. Ask your doctor to explain anything about your diagnosis or treatment that you don&apos;t understand. With test results that identify your allergens and a treatment plan to help you take control, you&apos;ll be able to reduce or eliminate allergy signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Allergy skin tests
+	</Title>
+	<Abstract>
+		Allergy tests &amp;mdash; Overview covers definition, risks, results of skin tests for allergic sensitivities.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Disease" DocID="DS00970" LinkType="Internal" ObjectID="70D6A637-E7FF-0DBD-1ED34CD98A3AA8AB" Title="Soy allergy" Url="http://www.mayoclinic.com/health/soy-allergy/DS00970" />
+	</RelatedLinksBox>
+</TestProcedure>

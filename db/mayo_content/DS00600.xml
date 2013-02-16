@@ -1,0 +1,257 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00600
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rocky-mountain-spotted-fever/DS00600
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-10
+		</UpdateDate>
+		<PublicationDate>
+			2005-09-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2540" Title="Rocky Mountain spotted fever" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			678C245A-5CCE-4D67-AC239C9AB941BA05
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Rocky Mountain spotted fever
+			</MetaKeyword>
+			<MetaKeyword>
+				tick bite
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rocky Mountain spotted fever is a tick-borne bacterial disease that affects the cells in the lining of your blood vessels, making the vessels leak. This can eventually cause serious damage to internal organs, particularly your kidneys. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it was first identified in the Rocky Mountains, Rocky Mountain spotted fever is most commonly found in the southeastern part of the United States. It also occurs in parts of Canada, Mexico, Central America and South America. 
+&lt;/p&gt;
+&lt;p&gt;
+Early signs and symptoms of Rocky Mountain spotted fever include severe headache and high fever. A few days later, a rash usually appears on the wrists and ankles. Rocky Mountain spotted fever responds well to prompt treatment with antibiotics. If left untreated, however, the disease can cause serious complications and even death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although many people become ill within the first week after infection, signs and symptoms may not appear for up to 14 days. Initial signs and symptoms of Rocky Mountain spotted fever often are nonspecific and can mimic those of other illnesses: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever, often around 102 F (38.9 C)&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Rash is distinctive&lt;/strong&gt; &lt;br /&gt;
+The red, non-itchy rash associated with Rocky Mountain spotted fever typically appears a few days after the initial signs and symptoms begin. The rash usually makes its first appearance on your wrists and ankles, and can spread in both directions &amp;mdash; down into the palms of your hands and the soles of your feet, and up your arms and legs to your torso. 
+&lt;/p&gt;
+&lt;p&gt;
+A few people who are infected with Rocky Mountain spotted fever don&apos;t ever develop a rash, which makes diagnosis much more difficult. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you develop a rash or become sick after a tick bite. Rocky Mountain spotted fever and other infectious diseases carried by ticks can progress rapidly and may be life-threatening. If possible, take the tick along with you to your doctor&apos;s office for laboratory testing. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of rash caused by Rocky Mountain spotted fever 
+" Caption="Rocky Mountain spotted fever may cause a rash of small red spots or blotches that begin on the wrists, palms, or soles. The rash often spreads to the arms, legs and torso. 
+" Height="60" Title="Rash caused by Rocky Mountain spotted fever" URI="/images/image_popup/thumbs/r7_rmsfthu.jpg" Width="60" />
+				<Image Alt="Photograph of rash caused by Rocky Mountain spotted fever 
+" Caption="Rocky Mountain spotted fever may cause a rash of small red spots or blotches that begin on the wrists, palms, or soles. The rash often spreads to the arms, legs and torso. 
+" Height="321" Title="Rash caused by Rocky Mountain spotted fever" URI="/images/image_popup/r7_rmsf.jpg" Width="400" />
+				<HTML>
+					Rocky Mountain spotted fever may cause a rash of small red spots or blotches that begin on the wrists, palms, or soles. The rash often spreads to the arms, legs and torso. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rocky Mountain spotted fever is caused by infection with the organism Rickettsia rickettsii. Ticks carrying R. rickettsii are the most common source of infection. If an infected tick attaches itself to your skin and feeds on your blood, you may pick up the infection. It&apos;s also possible &amp;mdash; but unusual &amp;mdash; to catch Rocky Mountain spotted fever when blood from an infected tick gets into broken skin or comes in contact with the mucous membrane in your mouth, nose or eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+Rocky Mountain spotted fever primarily occurs when ticks are most active and during warm weather when people tend to spend more time outdoors. Rocky Mountain spotted fever cannot be spread from person to person. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs of dog tick, wood tick 
+" Caption="Rocky Mountain spotted fever is caused by the organism Rickettsia rickettsii. In the United States, this bacterium most often is spread to humans by bites from the American dog tick or the wood tick. 
+" Height="60" Title="Types of ticks" URI="/images/image_popup/thumbs/mcdc7_rmsfticksthu.jpg" Width="60" />
+				<Image Alt="Photographs of dog tick, wood tick 
+" Caption="Rocky Mountain spotted fever is caused by the organism Rickettsia rickettsii. In the United States, this bacterium most often is spread to humans by bites from the American dog tick or the wood tick. 
+" Height="183" Title="Types of ticks" URI="/images/image_popup/mcdc7_rmsfticks.jpg" Width="400" />
+				<HTML>
+					Rocky Mountain spotted fever is caused by the organism Rickettsia rickettsii. In the United States, this bacterium most often is spread to humans by bites from the American dog tick or the wood tick. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of contracting Rocky Mountain spotted fever depends on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Whether you live in an area where the disease is common&lt;/li&gt;
+	&lt;li&gt;How much time you spend in grassy or wooded areas&lt;/li&gt;
+	&lt;li&gt;How well you protect yourself from exposure to ticks&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rocky Mountain spotted fever damages the lining of your smallest blood vessels, causing the vessels to leak or form clots. This can harm your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain.&lt;/strong&gt; In addition to severe headaches, Rocky Mountain spotted fever can cause lethargy, confusion, seizures and delirium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart and lungs.&lt;/strong&gt; Problems with the blood vessels that serve the heart and lungs can interfere with how well these organs function. In severe cases, heart failure or lung failure can occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidneys.&lt;/strong&gt; Kidneys filter waste from your blood, and the blood vessels within the kidneys are very small and fragile. Damage to these vessels can eventually result in kidney failure and death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fingers and toes.&lt;/strong&gt; Some of your smallest blood vessels are in your fingers and toes. If these vessels don&apos;t work properly, the tissue at your farthest extremities may develop gangrene and die. Amputation would then be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor. In some cases, you might be referred immediately to a doctor who specializes in infectious diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to prepare a list that details certain aspects of your medical condition, so you can share it with your doctor. Topics might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin? Have they gotten any worse?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions you&apos;re being treated for?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Questions your doctor might ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you recently been bitten by a tick?&lt;/li&gt;
+	&lt;li&gt;Do you spend a lot of time outdoors in grassy or wooded areas?&lt;/li&gt;
+	&lt;li&gt;Have you recently removed any ticks from family pets?&lt;/li&gt;
+	&lt;li&gt;Is anyone else in your family ill?&lt;/li&gt;
+	&lt;li&gt;Have you traveled anywhere recently?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rocky Mountain spotted fever can be difficult to diagnose because the early signs and symptoms are similar to those caused by many other diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+Laboratory tests can check a blood sample, rash specimen or the tick itself for evidence of the organism that causes the infection. Because early treatment with antibiotics is so important, doctors don&apos;t wait for these test results before starting treatment if Rocky Mountain fever is strongly suspected. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who develop Rocky Mountain spotted fever are much more likely to avoid complications if treated within five days of developing symptoms. That&apos;s why your doctor will probably have you begin antibiotic therapy before receiving conclusive test results. 
+&lt;/p&gt;
+&lt;p&gt;
+Doxycycline is the most effective treatment for Rocky Mountain spotted fever, but it&apos;s not a good choice if you&apos;re pregnant. In that case, your doctor may prescribe chloramphenicol as an alternative. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can decrease your chances of contracting Rocky Mountain spotted fever by taking some simple precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear long pants and sleeves.&lt;/strong&gt; When walking in wooded or grassy areas, wear shoes, long pants tucked into socks and long-sleeved shirts. Try to stick to trails and avoid walking through low bushes and long grass.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use insect repellents.&lt;/strong&gt; Products containing DEET (Off! Deep Woods, Repel) often repel ticks. Be sure to follow the instructions on the label. Clothing that has permethrin impregnated into the fabric is toxic to ticks and also may be helpful in decreasing tick contact when outdoors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do your best to tick-proof your yard.&lt;/strong&gt; Clear brush and leaves where ticks live. Keep woodpiles in sunny areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check yourself and your pets for ticks.&lt;/strong&gt; Do this after being in wooded or grassy areas. Some ticks are no bigger than the head of a pin, so you may not discover them unless you are very careful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove a tick with tweezers.&lt;/strong&gt; Gently grasp the tick near its head or mouth. Don&apos;t squeeze or crush the tick, but pull carefully and steadily. Once you have the entire tick removed, apply antiseptic to the bite area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rocky Mountain spotted fever
+	</Title>
+	<Abstract>
+		Rocky Mountain spotted fever &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this tick-borne infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

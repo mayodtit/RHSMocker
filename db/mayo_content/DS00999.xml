@@ -1,0 +1,387 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00999
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vesicoureteral-reflux/DS00999
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1500" Title="Congenital kidney disorder">
+						<Keyword MCVID="4252" Title="Vesicoureteral reflux" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9658484A-E7FF-0DBD-165BB5406E952F01
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vesicoureteral reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				UTI
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vesicoureteral (ves-ih-koe-yoo-REE-ter-ul) reflux is the abnormal flow of urine from your bladder back up the tubes (ureters) that connect your kidneys to your bladder. Normally, urine flows only down from your kidneys to your bladder.
+&lt;/p&gt;
+&lt;p&gt;
+Vesicoureteral reflux is usually diagnosed in infants and children. The disorder increases the risk of urinary tract infections, which, if left untreated, can lead to kidney damage. 
+&lt;/p&gt;
+&lt;p&gt;
+Vesicoureteral reflux can be primary or secondary. Children with primary vesicoureteral reflux are born with a defect in the valve that normally prevents urine from flowing backward from the bladder into the ureters. Secondary vesicoureteral reflux is due to a urinary tract malfunction, often caused by infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Children may outgrow primary vesicoureteral reflux. Treatment, which includes medication or surgery, aims at preventing kidney damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A urinary tract infection (UTI) is the most common indication of vesicoureteral reflux. A UTI doesn&apos;t always cause noticeable signs and symptoms, though most people have some. These signs and symptoms can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A strong, persistent urge to urinate&lt;/li&gt;
+	&lt;li&gt;A burning sensation when urinating&lt;/li&gt;
+	&lt;li&gt;Passing frequent, small amounts of urine&lt;/li&gt;
+	&lt;li&gt;Blood in the urine (hematuria) or cloudy, strong-smelling urine&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Abdominal or flank pain&lt;/li&gt;
+	&lt;li&gt;Hesitancy to urinate or holding urine to avoid the burning sensation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A UTI may be difficult to diagnose in children, who may have only nonspecific signs and symptoms. Signs and symptoms in infants with a UTI may also include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Lack of appetite&lt;/li&gt;
+	&lt;li&gt;An unexplained fever&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As your child gets older, untreated vesicoureteral reflux can lead to other signs and symptoms, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bed-wetting&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Protein in urine&lt;/li&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another indication of vesicoureteral reflux, which may be detected before birth by sonogram, is swelling of the kidneys or the urine-collecting structures of one or both kidneys (hydronephrosis) in the fetus, caused by the backup of urine into the kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor right away if your child develops any of the signs or symptoms of a UTI, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A strong, persistent urge to urinate&lt;/li&gt;
+	&lt;li&gt;A burning sensation when urinating&lt;/li&gt;
+	&lt;li&gt;Abdominal or flank pain&lt;/li&gt;
+	&lt;li&gt;A hesitancy to urinate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Call your doctor about fever if your child:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is less than 3 months old and has a rectal temperature of 100.4 F (38 C) or higher&lt;/li&gt;
+	&lt;li&gt;Is 3 months or older and has a fever of 104 F (40 C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, call your doctor immediately if your infant has the following signs or symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in appetite.&lt;/strong&gt; If your baby refuses several feedings in a row or eats poorly, contact the doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in mood.&lt;/strong&gt; If your baby is lethargic or unusually difficult to rouse, tell the doctor right away. Also let the doctor know if your baby is persistently irritable or has periods of inconsolable crying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diarrhea.&lt;/strong&gt; Contact the doctor if your baby&apos;s stools are especially loose or watery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vomiting.&lt;/strong&gt; Occasional spitting up is normal. Contact the doctor if your baby spits up large portions of multiple feedings or vomits forcefully after feedings.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your urinary system includes your kidneys, ureters, bladder and urethra. All play a role in removing waste products from your body.
+&lt;/p&gt;
+&lt;p&gt;
+The kidneys, a pair of bean-shaped organs at the back of your upper abdomen, filter waste, water and electrolytes &amp;mdash; minerals, such as sodium, calcium and potassium, that help maintain the balance of fluids in your body &amp;mdash; from your blood. Tubes called ureters carry urine from your kidneys down to your bladder, where it is stored until it exits the body through another tube (the urethra) during urination.
+&lt;/p&gt;
+&lt;p&gt;
+Vesicoureteral reflux can develop in two forms, primary and secondary:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Primary vesicoureteral reflux.&lt;/strong&gt; The cause of this more common form is a defect that&apos;s present before birth (congenital). The defect is in the functional valve between the bladder and a ureter that normally closes to prevent urine from flowing backward. As the child grows, the ureters lengthen and straighten, which may improve valve function and eventually resolve the reflux. This type of vesicoureteral reflux tends to run in families, which indicates that it may be genetic, but the exact cause of the defect is unknown.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary vesicoureteral reflux.&lt;/strong&gt; The cause of this form is a blockage or malfunction in the urinary system. The blockage most commonly results from recurrent UTIs, which may cause swelling of a ureter.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for vesicoureteral reflux include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; White children appear to have three times the risk of vesicoureteral reflux that black children do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Generally, girls have about double the risk of having this condition as boys do. The exception is for vesicoureteral reflux that&apos;s present at birth, which is more common in boys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Infants and children up to age 2 are more likely to have vesicoureteral reflux than older children are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Primary vesicoureteral reflux tends to run in families. Children whose parents had the condition are at higher risk of developing it. Siblings of children who have the condition also are at higher risk, so your doctor may recommend screening for the siblings of a child with primary vesicoureteral reflux.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney damage is the primary concern with vesicoureteral reflux. The more severe the reflux, the more serious the complications are likely to be. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney (renal) scarring.&lt;/strong&gt; Untreated UTIs can lead to scarring, also known as reflux nephropathy, which is permanent damage to kidney tissue. A backup of urine exposes the kidneys to higher than normal pressure, which can lead to scarring over time. Extensive scarring may lead to high blood pressure and kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure (hypertension).&lt;/strong&gt; Because the kidneys remove waste from the bloodstream, damage to your kidneys and the resultant buildup of wastes can raise your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; Scarring can cause a loss of function in the filtering part of the kidney. This may lead to kidney failure, which can occur quickly (acute) or it may develop over time (chronic). In either case, dialysis or a kidney transplant may be necessary. Dialysis is an artificial means of removing extra fluids and waste from your blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors usually discover vesicoureteral reflux as part of follow-up testing when an infant or young child is diagnosed with a urinary tract infection. If your child has signs and symptoms, such as pain or burning during urination or a persistent, unexplained fever, call your child&apos;s doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Seek immediate care for an infant who:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Refuses several feedings in a row or eats poorly&lt;/li&gt;
+	&lt;li&gt;Is lethargic or unusually difficult to rouse&lt;/li&gt;
+	&lt;li&gt;Has loose or watery stools&lt;/li&gt;
+	&lt;li&gt;Spits up large portions of multiple feedings or vomits forcefully after feedings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After evaluation, your child may be referred to a doctor who specializes in urinary tract conditions (urologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, and what to expect from your child&apos;s doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down signs and symptoms your child has been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your child&apos;s key medical information,&lt;/strong&gt; including other recent health problems and the names of any prescription and over-the-counter medications that your child is taking. It will also help your doctor to know if any of your child&apos;s first-degree relatives &amp;mdash; such as a parent or sibling &amp;mdash; have been diagnosed with vesicoureteral reflux.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For vesicoureteral reflux, some basic questions to ask your child&apos;s doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my child&apos;s signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Is it a bladder or kidney infection?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;What is the likelihood that my child&apos;s condition will resolve without treatment?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of watchful waiting in my child&apos;s case?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of medications in my child&apos;s case?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of surgery in my child&apos;s case?&lt;/li&gt;
+	&lt;li&gt;Is my child at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my child&apos;s health over time?&lt;/li&gt;
+	&lt;li&gt;What steps can I take to reduce my child&apos;s risk of future urinary tract infections?&lt;/li&gt;
+	&lt;li&gt;Are my other children at increased risk of this condition?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that my child see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions that occur to you during your child&apos;s appointment. The best treatment option for vesicoureteral reflux &amp;mdash; which can range from watchful waiting to surgery &amp;mdash; often is not clear-cut. In order to arrive at a treatment decision that feels right to you and your child, it&apos;s important that you understand your child&apos;s condition and the benefits and risks of each available therapy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your child&apos;s doctor will perform a physical examination of your child. He or she is likely to ask you a number of questions as well. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice that your child was experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve these symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have a history of vesicoureteral reflux?&lt;/li&gt;
+	&lt;li&gt;Has your child had any growth problems?&lt;/li&gt;
+	&lt;li&gt;What types of antibiotics has your child received for other infections, such as ear infections?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laboratory analysis of urine (urinalysis) can reveal whether your child has a UTI. Other tests are necessary to determine the presence of vesicoureteral reflux. They may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney and bladder ultrasound.&lt;/strong&gt; Also called sonography, this imaging method uses high-frequency sound waves to produce images of the kidney and bladder. Ultrasound can detect structural abnormalities. This same technology, often used during pregnancy to monitor fetal development, may also reveal swollen kidneys in the fetus, an indication of primary vesicoureteral reflux.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Voiding cystourethrogram (VCUG).&lt;/strong&gt; This test uses X-rays of the bladder when it&apos;s full and when it&apos;s emptying to detect abnormalities. A thin, flexible tube (catheter) is inserted through the urethra and into the bladder while your child lies on his or her back on an X-ray table. After contrast dye is injected into the bladder through the catheter, your child&apos;s bladder is X-rayed in various positions. Then the catheter is removed so that your child can urinate, and more X-rays are taken of the bladder and urethra during urination to see whether the urinary tract is functioning correctly.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Risks associated with this test include discomfort from the catheter and from having a full bladder, a new urinary tract infection, and possibly, a reaction to the dye in the form of bladder spasms.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nuclear scan.&lt;/strong&gt; This test, known as radionuclide cystogram, uses a procedure similar to that used for VCUG, except that instead of dye being injected into your child&apos;s bladder through the catheter, this test uses a radioactive tracer (radioisotope). The scanner detects the tracer and shows whether the urinary tract is functioning correctly. Risks include discomfort from the catheter and discomfort during urination. Your child&apos;s urine may be slightly pink for a day or two after the test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Grading the condition&lt;/strong&gt;&lt;br /&gt;
+Vesicoureteral reflux is graded according to the degree of reflux. In the mildest cases, urine backs up only to the ureter (grade I). The most severe cases involve severe kidney swelling (hydronephrosis) and twisting of the ureter (grade V).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment options for vesicoureteral reflux depend on the severity of the condition. Children with mild cases of primary vesicoureteral reflux may eventually outgrow the disorder. In this case, your doctor will likely recommend a wait-and-see approach. During this time, it will be important for you to be watchful for potential UTIs and to seek prompt treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Children with moderate to severe primary vesicoureteral reflux have two treatment options: medication and surgery. Using medication is more common, with surgery usually reserved for those children for whom antibiotics aren&apos;t successful.
+&lt;/p&gt;
+&lt;p&gt;
+However, surgery may be a first line therapy for grades IV and V or for families who prefer a quicker, more definitive treatment than medication.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+UTIs require prompt treatment with antibiotics to keep the infection from moving to the kidneys. Doctors may also use antibiotics to prevent UTIs, usually at about half the dose for treating an infection.
+&lt;/p&gt;
+&lt;p&gt;
+Commonly used antibiotics for prevention include the combination drug trimethoprim-sulfamethoxazole (Bactrim, Septra), trimethoprim (Primsol) and nitrofurantoin (Furadantin, Macrobid, Macrodantin). Some people may be allergic to one or more of these medications, preventing their use. Possible side effects of long-term use of these drugs include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Increased antibiotic resistance, in which the infection no longer responds to antibiotics and becomes more difficult to treat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A child being treated with medication needs to be monitored for as long as he or she is taking antibiotics. This includes periodic physical exams and urine tests to detect breakthrough infections &amp;mdash; UTIs that occur despite the antibiotic treatment &amp;mdash; and occasional radiographic scans of the bladder and kidneys to determine if your child has outgrown vesicoureteral reflux.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Surgery for vesicoureteral reflux repairs the defect in the functional valve between the bladder and each affected ureter that keeps it from closing and preventing urine from flowing backward. There are two methods of surgical repair:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open surgery.&lt;/strong&gt; Performed using general anesthesia, this surgery requires an incision in the lower abdomen through which the surgeon repairs the malformation that&apos;s causing the problem. This type of surgery usually requires a few days&apos; stay in the hospital, during which a catheter is kept in place to drain your child&apos;s bladder. Risks include infection, blood clots and bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic surgery.&lt;/strong&gt; In this procedure, the doctor inserts a lighted tube (cystoscope) through the urethra to see inside your child&apos;s bladder, then injects a bulking agent around the opening of the affected ureter to try to strengthen the valve&apos;s ability to close properly. This method is minimally invasive compared with open surgery and presents fewer risks, though it may not be as effective. This procedure also requires general anesthesia, but generally can be performed as outpatient surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+UTIs, which are so common to vesicoureteral reflux, can be painful. But you can take steps to ease your child&apos;s discomfort until antibiotics clear the infection. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage your child to drink fluids,&lt;/strong&gt; particularly water. Drinking water dilutes urine and may help flush out bacteria. Avoid juices and soft drinks containing citrus and caffeine until your child&apos;s infection has cleared. They can irritate the bladder and tend to aggravate the frequent or urgent need to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide a warm blanket or towel.&lt;/strong&gt; Place a towel or blanket in the dryer for a few minutes to warm it up. Be sure the towel or blanket is just warm, not hot, and then place it over your child&apos;s abdomen. The warmth can help minimize feelings of bladder pressure or pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vesicoureteral reflux
+	</Title>
+	<Abstract>
+		Vesicoureteral reflux &amp;mdash; Comprehensive overview covers causes and treatments of this urinary tract disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

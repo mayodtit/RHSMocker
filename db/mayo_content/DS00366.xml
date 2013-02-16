@@ -1,0 +1,394 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00366
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/laryngitis/DS00366
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-28
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1784" Title="Throat">
+						<Keyword MCVID="2466" Title="Laryngitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5EEED4D2-34B1-48B1-891955F845161C02
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				laryngitis
+			</MetaKeyword>
+			<MetaKeyword>
+				larynx
+			</MetaKeyword>
+			<MetaKeyword>
+				voice box
+			</MetaKeyword>
+			<MetaKeyword>
+				vocal cords
+			</MetaKeyword>
+			<MetaKeyword>
+				hoarseness
+			</MetaKeyword>
+			<MetaKeyword>
+				hoarse voice
+			</MetaKeyword>
+			<MetaKeyword>
+				sore throat
+			</MetaKeyword>
+			<MetaKeyword>
+				loss of voice
+			</MetaKeyword>
+			<MetaKeyword>
+				voice loss
+			</MetaKeyword>
+			<MetaKeyword>
+				laryngitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laryngitis is an inflammation of your voice box (larynx) from overuse, irritation or infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Inside the larynx are your vocal cords &amp;mdash; two folds of mucous membrane covering muscle and cartilage. Normally, your vocal cords open and close smoothly, forming sounds through their movement and vibration. 
+&lt;/p&gt;
+&lt;p&gt;
+But in laryngitis, your vocal cords become inflamed or irritated. This swelling causes distortion of the sounds produced by air passing over them. As a result, your voice sounds hoarse. In some cases of laryngitis, your voice can become almost undetectable. 
+&lt;/p&gt;
+&lt;p&gt;
+Laryngitis may be short-lived (acute) or long lasting (chronic). Most cases of laryngitis are triggered by temporary viral infection or vocal strain and aren&apos;t serious. Persistent hoarseness can sometimes signal a more serious underlying medical condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="60" Title="How speech occurs" URI="/images/image_popup/thumbs/r7_vocalcordsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="295" Title="How speech occurs" URI="/images/image_popup/r7_vocalcords.jpg" Width="400" />
+				<HTML>
+					Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords open and closed 
+" Caption="" Height="60" Title="Vocal cords open and closed" URI="/images/image_popup/thumbs/r7_openclosethu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords open and closed 
+" Caption="" Height="353" Title="Vocal cords open and closed" URI="/images/image_popup/r7_openclose.jpg" Width="400" />
+				<HTML>
+					...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases laryngitis symptoms last less than a couple of weeks and are caused by something minor, such as a virus. Less often, laryngitis symptoms are caused by something more serious or long lasting. Laryngitis signs and symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Weak voice or voice loss&lt;/li&gt;
+	&lt;li&gt;Tickling sensation and rawness of your throat&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Dry throat&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+You can manage most acute cases of laryngitis with self-care steps, such as resting your voice and drinking plenty of fluids. Strenuous use of your voice during an episode of acute laryngitis can damage your vocal cords. 
+&lt;/p&gt;
+&lt;p&gt;
+Make an appointment with a doctor if hoarseness lasts more than two weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek immediate medical attention if your child:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Makes noisy, high-pitched breathing sounds when inhaling&lt;/li&gt;
+	&lt;li&gt;Drools more than usual&lt;/li&gt;
+	&lt;li&gt;Has trouble swallowing&lt;/li&gt;
+	&lt;li&gt;Has difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Has a fever higher than 103 F (39.4 C)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms may indicate croup &amp;mdash; inflammation of the larynx and the airway just beneath it. Although croup can usually be treated at home, severe symptoms require medical attention. These symptoms also can indicate epiglottitis, an inflammation of the tissue that covers the windpipe (trachea), which can be life-threatening for children and adults. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Acute laryngitis&lt;/strong&gt;&lt;br /&gt;
+Most cases of laryngitis are temporary and improve after the underlying cause gets better. Causes of acute laryngitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Viral infections similar to those that cause a cold&lt;/li&gt;
+	&lt;li&gt;Vocal strain, caused by yelling or overusing your voice&lt;/li&gt;
+	&lt;li&gt;Bacterial infections, such as diphtheria, although this is rare&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic laryngitis&lt;/strong&gt;&lt;br /&gt;
+Laryngitis that lasts longer than three weeks is known as chronic laryngitis. This type of laryngitis is generally caused by exposure to irritants over time. Chronic laryngitis can cause vocal cord strain and injuries or growths on the vocal cord (polyps or nodules). These injuries can be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inhaled irritants, such as chemical fumes, allergens or smoke&lt;/li&gt;
+	&lt;li&gt;Acid reflux, also called gastroesophageal reflux disease (GERD)&lt;/li&gt;
+	&lt;li&gt;Chronic sinusitis&lt;/li&gt;
+	&lt;li&gt;Excessive alcohol use&lt;/li&gt;
+	&lt;li&gt;Habitual overuse of your voice (such as with singers or cheerleaders)&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common causes of chronic laryngitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bacterial or fungal infections&lt;/li&gt;
+	&lt;li&gt;Infections with certain parasites&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other causes of chronic hoarseness include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancer&lt;/li&gt;
+	&lt;li&gt;Vocal cord paralysis, which can result from injury, stroke, a lung tumor or other health conditions&lt;/li&gt;
+	&lt;li&gt;Bowing of the vocal cords in old age&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="60" Title="How speech occurs" URI="/images/image_popup/thumbs/r7_vocalcordsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords 
+" Caption="Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the muscles controlling the soft palate, tongue and lips. 
+" Height="295" Title="How speech occurs" URI="/images/image_popup/r7_vocalcords.jpg" Width="400" />
+				<HTML>
+					Speech occurs when air flows from the lungs, up the windpipe (trachea) and through the voice box (larynx). This causes the vocal cords to vibrate, creating sound. Sound is shaped into words by the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing vocal cords open and closed 
+" Caption="" Height="60" Title="Vocal cords open and closed" URI="/images/image_popup/thumbs/r7_openclosethu.jpg" Width="60" />
+				<Image Alt="Illustration showing vocal cords open and closed 
+" Caption="" Height="353" Title="Vocal cords open and closed" URI="/images/image_popup/r7_openclose.jpg" Width="400" />
+				<HTML>
+					...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for laryngitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having a respiratory infection,&lt;/strong&gt; such as a cold, bronchitis or sinusitis&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to irritating substances,&lt;/strong&gt; such as cigarette smoke, excessive alcohol, stomach acid or workplace chemicals&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overusing your voice,&lt;/strong&gt; by speaking too much, speaking too loudly, shouting or singing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases of laryngitis caused by infection, the infection may spread to other parts of the respiratory tract. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may be referred to a doctor specializing in disorders of the ear, nose and throat. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember information you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For laryngitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Do you have allergies? Have you recently had a cold?&lt;/li&gt;
+	&lt;li&gt;Have you recently overused your vocal cords, such as by singing or shouting?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common sign of laryngitis is hoarseness. Changes in your voice can vary with the degree of infection or irritation, ranging from mild hoarseness to almost total loss of your voice. If you have chronic hoarseness, your doctor may want to listen to your voice and to examine your vocal cords, and he or she may refer you to an ear, nose and throat specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+These techniques sometimes are used to help diagnose laryngitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laryngoscopy.&lt;/strong&gt; Your doctor can visually examine your vocal cords in a procedure called laryngoscopy, by using a light and a tiny mirror to look into the back of your throat. Or your doctor may use fiber-optic laryngoscopy. This involves inserting a thin, flexible tube (endoscope) with a tiny camera and light through your nose or mouth and into the back of your throat. Then your doctor can watch the motion of your vocal cords as you speak.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; If your doctor sees a suspicious area, he or she may do a biopsy &amp;mdash; taking a sample of tissue for examination under a microscope.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute laryngitis caused by a virus often gets better on its own within a week or so. Self-care measures also can help improve symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Chronic laryngitis treatments are aimed at treating the underlying causes, such as heartburn, smoking or excessive use of alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used in some cases include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; In almost all cases of laryngitis, an antibiotic won&apos;t do any good because the cause is usually viral. But if you have a bacterial infection, your doctor may recommend an antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Sometimes, corticosteroids can help reduce vocal cord inflammation. However, this treatment is used only when there&apos;s an urgent need to treat laryngitis &amp;mdash; for example, when you need to use your voice to sing or give a speech or oral presentation, or in some cases when a toddler has laryngitis associated with croup.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some self-care methods and home treatments may relieve the symptoms of laryngitis and reduce strain on your voice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathe moist air.&lt;/strong&gt; Use a humidifier to keep the air throughout your home or office moist. Inhale steam from a bowl of hot water or a hot shower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest your voice as much as possible.&lt;/strong&gt; Avoid talking or singing too loudly or for too long. If you need to speak before large groups, try to use a microphone or megaphone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids&lt;/strong&gt; to prevent dehydration (avoid alcohol and caffeine).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisten your throat.&lt;/strong&gt; Try sucking on lozenges, gargling with salt water or chewing a piece of gum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid decongestants.&lt;/strong&gt; These medications can dry out the throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid whispering.&lt;/strong&gt; This puts even more strain on your voice than normal speech does.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent dryness or irritation to your vocal cords: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke, and avoid secondhand smoke.&lt;/strong&gt; Smoke dries your throat and irritates your vocal cords.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol and caffeine.&lt;/strong&gt; These cause you to lose total body water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water.&lt;/strong&gt; Fluids help keep the mucus in your throat thin and easy to clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid clearing your throat.&lt;/strong&gt; This does more harm than good, because it causes an abnormal vibration of your vocal cords and can increase swelling. Clearing your throat also causes your throat to secrete more mucus and feel more irritated, making you want to clear your throat again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid upper respiratory infections.&lt;/strong&gt; Wash your hands often, and avoid contact with people who have upper respiratory infections such as colds.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Laryngitis
+	</Title>
+	<Abstract>
+		Laryngitis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment for this common irritation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Disease" DocID="DS00331" LinkType="Internal" ObjectID="84C53FB6-DD31-499B-8E5817B2A8F67AE2" Title="Measles" Url="http://www.mayoclinic.com/health/measles/DS00331" />
+	</RelatedLinksBox>
+</Disease>

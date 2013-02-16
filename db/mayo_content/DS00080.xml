@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00080
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gas-and-gas-pains/DS00080
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-30
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2926" Title="Belching bloating and intestinal gas" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			95B255E6-EE9E-473E-87E47935FC6267B5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gas
+			</MetaKeyword>
+			<MetaKeyword>
+				gas pains
+			</MetaKeyword>
+			<MetaKeyword>
+				flatulence
+			</MetaKeyword>
+			<MetaKeyword>
+				bloating
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				flatulance
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gas and gas pains can strike at the worst possible moment &amp;mdash; during an important meeting or on a crowded elevator. And although passing intestinal gas (flatus) usually isn&apos;t serious, it can be embarrassing. 
+&lt;/p&gt;
+&lt;p&gt;
+Anything that causes intestinal gas or is associated with constipation or diarrhea can lead to gas pains. These pains generally occur when gas builds up in your intestines, and you&apos;re not able to expel it. On average, most people pass gas at least 10 times a day. 
+&lt;/p&gt;
+&lt;p&gt;
+The good news is that although you can&apos;t stop gas and gas pains, a few simple measures can help reduce the amount of gas you produce and relieve your discomfort and embarrassment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, the signs and symptoms of gas and gas pain are all too obvious. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The voluntary or involuntary passing of gas,&lt;/strong&gt; either as belches or as flatus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sharp, jabbing pains or cramps&lt;/strong&gt; in your abdomen. These pains may occur anywhere in your abdomen and can change locations quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A &quot;knotted&quot; feeling&lt;/strong&gt; in your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling and tightness&lt;/strong&gt; in your abdomen (bloating).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Gas pains are usually intense, but brief. Once the gas is gone, your pain often disappears. In some cases, however, the pain may be constant or so intense that it feels like something is seriously wrong. 
+&lt;/p&gt;
+&lt;p&gt;
+Gas can sometimes be mistaken for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Gallstones&lt;/li&gt;
+	&lt;li&gt;Appendicitis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+It&apos;s considered normal to pass gas as flatus between 10 to 20 times a day. 
+&lt;/p&gt;
+&lt;p&gt;
+Call your doctor if your gas is accompanied by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe, prolonged or recurrent abdominal pain&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Bloody stools&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chest pain &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, talk to your doctor if your gas or gas pains are so persistent or severe that they interfere with your ability to live a normal life. In most cases, treatment can help reduce or alleviate the problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gas forms when bacteria in your colon ferment carbohydrates that aren&apos;t digested in your small intestine. Unfortunately, healthy, high-fiber foods are often the worst offenders. Fiber has many health benefits, including keeping your digestive tract in good working order and regulating blood sugar and cholesterol levels. But fiber can also lead to the formation of gas. 
+&lt;/p&gt;
+&lt;p&gt;
+High-fiber foods that commonly cause gas and gas pains include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fruits&lt;/li&gt;
+	&lt;li&gt;Vegetables&lt;/li&gt;
+	&lt;li&gt;Whole grains&lt;/li&gt;
+	&lt;li&gt;Beans and peas (legumes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Fiber supplements containing psyllium, such as Metamucil, may cause such problems, especially if added to your diet too quickly. Carbonated beverages, such as soda and beer, also are causes of gas. 
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of excess gas include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowed air.&lt;/strong&gt; You swallow air every time you eat or drink. You may also swallow air when you&apos;re nervous, eat too fast, chew gum, suck on candies or drink through a straw. Some of that air finds its way into your lower digestive tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Another health condition.&lt;/strong&gt; Excess gas may be a symptom of a more serious chronic condition. Examples include diverticulitis or an inflammatory bowel disease, such as ulcerative colitis or Crohn&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; In some cases of excess gas, antibiotic use may be a factor because antibiotics disrupt the normal bacterial flora in your bowel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laxatives.&lt;/strong&gt; Excessive use of laxatives also may contribute to problems with excess gas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Constipation.&lt;/strong&gt; Constipation may make it difficult to pass gas, leading to bloating and discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food intolerances.&lt;/strong&gt; If your gas and bloating occur mainly after eating dairy products, it may be because your body isn&apos;t able to break down the sugar (lactose) in dairy foods. Many people aren&apos;t able to process lactose efficiently after age 6, and even infants are sometimes lactose intolerant. Other food intolerances, especially to gluten &amp;mdash; a protein found in wheat and some other grains &amp;mdash; also can result in excess gas, diarrhea and even weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Artificial additives.&lt;/strong&gt; It&apos;s also possible that your system can&apos;t tolerate artificial sweeteners, such as sorbitol and mannitol, found in some sugar-free foods, gums and candies. Many healthy people develop gas and diarrhea when they consume these sweeteners.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re more likely to have problems with gas if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are lactose or gluten intolerant&lt;/li&gt;
+	&lt;li&gt;Eat a diet rich in fruits, vegetables, whole grains and legumes&lt;/li&gt;
+	&lt;li&gt;Have a chronic intestinal condition, such as irritable bowel syndrome, diverticulosis or inflammatory bowel disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because appointments can be brief, it&apos;s a good idea to come prepared. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including the frequency of your gas and the intensity of your abdominal pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including any other health problems and the names of any medications, vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your questions&lt;/strong&gt; for the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For gas and gas pains, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatments or home remedies might help me feel better?&lt;/li&gt;
+	&lt;li&gt;Should I limit or avoid certain foods or drinks?&lt;/li&gt;
+	&lt;li&gt;Are there any other lifestyle changes that could help prevent gas pains?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely have questions for you, too. He or she may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you noticed an increase in gas or gas pains?&lt;/li&gt;
+	&lt;li&gt;How many times do you pass gas each day?&lt;/li&gt;
+	&lt;li&gt;Does eating certain foods seem to trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you added any new foods or drinks to your diet recently?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with irritable bowel syndrome or another intestinal condition?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any antibiotics or other medications?&lt;/li&gt;
+	&lt;li&gt;Do you have nausea or vomiting with your gas pains?&lt;/li&gt;
+	&lt;li&gt;Do you frequently chew gum, suck on candies or drink through a straw?&lt;/li&gt;
+	&lt;li&gt;Do you have gas when you drink milk or milk products?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, keep a journal of the food and beverages you eat, how many times a day you pass gas, and any other symptoms you experience. Bring the journal to your appointment. It can help your doctor determine whether there&apos;s a connection between your gas or gas pains and your diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely determine what&apos;s causing your gas and gas pains based on your medical history, a review of your dietary habits and a physical exam. During the exam, your doctor may check to see if your abdomen is distended and listen for a hollow sound when your abdomen is tapped. A hollow sound usually indicates the presence of excess gas. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your other symptoms, your doctor may recommend further tests in order to rule out conditions that are more serious, such as partial bowel obstruction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your gas pains are caused by another health problem, treating the underlying condition may offer relief. Otherwise, bothersome gas is generally treated with dietary measures, lifestyle modifications or over-the-counter medications. Although the solution isn&apos;t the same for everyone, with a little trial and error, most people are able to find some relief. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diet&lt;/strong&gt; &lt;br /&gt;
+The following dietary changes may help reduce the amount of gas your body produces or help gas move more quickly through your system: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try to identify and avoid the foods that affect you the most.&lt;/strong&gt; Foods that cause gas problems for many people include beans, onions, broccoli, Brussels sprouts, cauliflower, artichokes, asparagus, pears, apples, peaches, prunes, sugar-free candies and chewing gum, whole-wheat bread, bran cereals or muffins, milk, cream, ice cream, ice milk, and beer, sodas and other carbonated beverages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try cutting back on fried and fatty foods.&lt;/strong&gt; Often, bloating results from eating fatty foods. Fat delays stomach emptying and can increase the sensation of fullness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Temporarily cut back on high-fiber foods.&lt;/strong&gt; Add them back gradually over weeks. If you take a fiber supplement, try cutting back on the amount you take and build up your intake gradually. If your symptoms persist, you might try a different fiber supplement. Be sure to take fiber supplements with at least 8 ounces of water and drink plenty of liquids throughout each day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your use of dairy products.&lt;/strong&gt; Try using low-lactose dairy foods, such as yogurt, instead of milk. Or try using products that help digest lactose, such as Lactaid or Dairy Ease. Consuming small amounts of milk products at one time or consuming them with other foods also may make them easier to digest. In some cases, however, you may need to eliminate dairy foods completely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Over-the-counter remedies&lt;/strong&gt; &lt;br /&gt;
+Some products may help, but they aren&apos;t always effective. Consider trying: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beano.&lt;/strong&gt; Add Beano to beans and vegetables to help reduce the amount of gas they produce. For Beano to be effective, you need to take it with your first bite of food. It works best when there&apos;s only a little gas in your intestines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lactase supplements.&lt;/strong&gt; Supplements of the enzyme lactase (Lactaid, Dairy Ease), which helps you digest lactose, may help if you are lactose intolerant. You might also try dairy products that are lactose-free or have reduced lactose. They&apos;re available at most grocery stores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Simethicone.&lt;/strong&gt; Over-the-counter products that contain simethicone (Gas-X, Gelusil, Mylanta, Mylicon) help break up the bubbles in gas. Although these products are widely used, they haven&apos;t been proven effective for gas and gas pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Activated charcoal.&lt;/strong&gt; Charcoal tablets (CharcoCaps, Charcoal Plus, others) also may help. You take them before and after a meal. They&apos;re available in natural food stores and many drugstores.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following modifications to your lifestyle may help reduce or relieve excess gas and gas pain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try smaller meals.&lt;/strong&gt; Eat several small meals throughout the day instead of two or three larger ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat slowly, chew your food thoroughly and don&apos;t gulp.&lt;/strong&gt; If you have a hard time slowing down, put down your fork between each bite.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid chewing gum, sucking on hard candies and drinking through a straw.&lt;/strong&gt; These activities can cause you to swallow more air.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t eat when you&apos;re anxious, upset or on the run.&lt;/strong&gt; Try to make meals relaxed occasions. Eating when you&apos;re stressed can interfere with digestion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your dentures.&lt;/strong&gt; Poorly fitting dentures can cause you to swallow excess air when you eat and drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Cigarette smoking can increase the amount of air you swallow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Physical activity may help move gas through the digestive tract. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gas and gas pains
+	</Title>
+	<Abstract>
+		Gas and gas pains &amp;mdash; Comprehensive overview covers causes, treatment, prevention of intestinal gas.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01408" LinkType="Internal" ObjectID="D035FCC7-E7FF-0DBD-11FFA144323195E3" Title="Nervous stomach: Is there such a thing?" Url="http://www.mayoclinic.com/health/nervous-stomach/AN01408" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+		<LinkItem ContentType="Article" DocID="DG00014" LinkType="Internal" ObjectID="29CD41BB-F87F-4EFC-8668AF3E9A54EF71" Title="Bloating, belching and intestinal gas: How to avoid them" Url="http://www.mayoclinic.com/health/gas-and-gas-pains/DG00014" />
+	</RelatedLinksBox>
+</Disease>

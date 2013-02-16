@@ -1,0 +1,318 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01001
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/broken-arm/DS01001
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="3281" Title="Broken arm" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			96598173-E7FF-0DBD-1ACA2403239540A3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				broken arm
+			</MetaKeyword>
+			<MetaKeyword>
+				arm fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				distal radius fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				humerus fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				ulna fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				humeral fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				ulnar fracture
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken arm may involve any of the three bones in your arm &amp;mdash; the ulna, radius and humerus. One of the most common causes of a broken arm is falling onto an outstretched hand. If you think you or your child has sustained a broken arm, seek prompt medical attention. It&apos;s important to treat a broken arm as soon as possible for proper healing.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for a broken arm depends on the exact site and severity of the injury. A simple break may be treated with a sling, ice and rest. A more complicated broken arm may require surgery to realign the broken bone and to implant wires, plates, nails or screws into the broken bone to maintain proper alignment during healing.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the arm bones 
+" Caption="Your arm is made up of three bones: the upper arm bone (humerus) and two forearm bones (the ulna and the radius). The term &quot;broken arm&quot; may refer to a fracture in any of these bones. 
+" Height="60" Title="Arm bones" URI="/images/image_popup/thumbs/r7_armbonesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the arm bones 
+" Caption="Your arm is made up of three bones: the upper arm bone (humerus) and two forearm bones (the ulna and the radius). The term &quot;broken arm&quot; may refer to a fracture in any of these bones. 
+" Height="399" Title="Arm bones" URI="/images/image_popup/r7_armbones.jpg" Width="400" />
+				<HTML>
+					Your arm is made up of three bones: the upper arm bone (humerus) and two forearm bones (the ulna and the radius). The term &quot;broken arm&quot; may refer to a fracture in any of these bones. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people know right away if they break their arm, because there&apos;s often a loud snap or cracking sound.
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of a broken arm include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain, which may increase with movement&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Obvious deformity, such as a bent arm or wrist&lt;/li&gt;
+	&lt;li&gt;Stiffness or inability to move your arm, wrist or elbow&lt;/li&gt;
+	&lt;li&gt;Inability to turn your arm from palm up to palm down or vice versa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have enough pain in your arm that you can&apos;t use it normally, see a doctor right away. And do the same for your child. Delays in diagnosis and treatment of a broken arm can lead to poor healing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common causes of a broken arm include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Falling onto an outstretched hand or elbow is the most common cause of a broken arm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports injuries.&lt;/strong&gt; Direct blows and injuries on the field or court are a common cause of all types of arm fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Significant trauma.&lt;/strong&gt; Any of your arm bones can break during a car accident, bike accident or other direct trauma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Child abuse.&lt;/strong&gt; In children, a broken arm may be the result of child abuse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain medical conditions or physical activities can increase the risk of a broken arm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Participation in certain sports&lt;br /&gt;
+&lt;/strong&gt;Sports that may increase the risk of a broken arm include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Basketball&lt;/li&gt;
+	&lt;li&gt;Football&lt;/li&gt;
+	&lt;li&gt;Rugby&lt;/li&gt;
+	&lt;li&gt;Wrestling&lt;/li&gt;
+	&lt;li&gt;Soccer&lt;/li&gt;
+	&lt;li&gt;Hockey&lt;/li&gt;
+	&lt;li&gt;Snowboarding&lt;/li&gt;
+	&lt;li&gt;Skiing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Osteoporosis&lt;br /&gt;
+&lt;/strong&gt;In older adults who have osteoporosis &amp;mdash; a condition in which bones become thinner and more brittle &amp;mdash; even a relatively minor fall can result in a broken arm.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The prognosis for most arm fractures is very good. But complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Uneven growth.&lt;/strong&gt; Because a child&apos;s arm bones are still growing, a fracture in a growth plate &amp;mdash; the area where growth occurs near each end of a long bone &amp;mdash; can interfere with that bone&apos;s normal growth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoarthritis.&lt;/strong&gt; Fractures that extend into a joint can cause arthritis there years later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frozen shoulder.&lt;/strong&gt; The immobilization required to heal a fracture in the upper arm bone can sometimes result in painfully limited range of motion of the shoulder in all directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone infection.&lt;/strong&gt; If any part of your broken bone protrudes through your skin, it may be exposed to germs that can cause infection. Prompt treatment of this type of fracture is critical.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve or blood vessel injury.&lt;/strong&gt; If the upper arm bone (humerus) fractures into two or more pieces, the jagged ends may injure nearby nerves and blood vessels. Seek immediate medical attention if you notice any numbness or circulation problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the severity of the break, your family doctor or the emergency room physician may recommend that you or your child be examined by an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of the symptoms and the precipitating event&lt;/li&gt;
+	&lt;li&gt;Information about past medical problems&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you or your child takes&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For a broken arm, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Is surgery necessary?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What restrictions will need to be followed?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;What pain medications do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that you may have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor will inspect the affected area for tenderness, swelling, deformity or an open wound. He or she will probably want to see X-rays of the injury. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to ask you questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did the symptoms come on suddenly?&lt;/li&gt;
+	&lt;li&gt;Can you describe what happened to cause the symptoms?&lt;/li&gt;
+	&lt;li&gt;Did you or your child experience an injury to trigger the symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-rays are taken to determine the extent of a fracture, pinpoint its exact location and determine the extent of injury to any adjacent joints. Occasionally, your doctor may also recommend a computerized tomography (CT) scan to obtain more-detailed images.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of a broken arm will vary, depending on the type of break. Fractures are classified into one or more of the following categories:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open (compound) fracture.&lt;/strong&gt; In this type of fracture, the skin is pierced by the broken bone. This is a serious condition that requires immediate, aggressive treatment to decrease the chance of an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Closed fracture.&lt;/strong&gt; In closed fractures, the surrounding skin remains intact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Displaced fracture.&lt;/strong&gt; In this type of fracture, the bone fragments on each side of the break are not aligned. A displaced fracture may require surgery to realign the bones properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Comminuted fracture.&lt;/strong&gt; This term means that the bone is broken into several pieces. This type of fracture also may require surgery for complete healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Greenstick fracture.&lt;/strong&gt; In this type of fracture, the bone cracks but doesn&apos;t break all the way through &amp;mdash; like when you try to break a green stick of wood. Most broken bones in children are greenstick fractures, because a child&apos;s bones are softer and more flexible than are those of an adult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buckle (torus) fracture.&lt;/strong&gt; In this type of fracture, one side of the bone is compressed, which causes the other side to bend (buckle). This type of fracture is also more common in children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Setting the bone&lt;br /&gt;
+&lt;/strong&gt;If you have a displaced fracture, your doctor may need to manipulate the pieces back into their proper positions &amp;mdash; a process called reduction. Depending on the amount of pain and swelling you have, you may need a muscle relaxant, a sedative or even a general anesthetic before this procedure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immobilization&lt;br /&gt;
+&lt;/strong&gt;Restricting the movement of any broken bone is critical to healing. To do this, you may need to wear a splint, sling, brace or cast. The length of time needed depends on the severity of the injury, but can range from three to 10 weeks.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;To reduce pain and inflammation, your doctor may recommend an over-the-counter pain reliever. If you&apos;re experiencing severe pain, you may need to take a prescription medication that contains a narcotic for a few days.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Rehabilitation begins soon after initial treatment. In most cases, it&apos;s important to begin some motion to minimize stiffness in your arm, hand and shoulder while you&apos;re still wearing your cast or sling. After your cast or sling is removed, your doctor may recommend additional rehabilitation exercises or physical therapy to restore muscle strength, joint motion and flexibility.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery is required to stabilize some fractures. Fixation devices &amp;mdash; such as wires, plates, nails or screws &amp;mdash; may be needed to maintain proper position of your bones during healing. Complications are rare, but can include infection and lack of bone healing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken arm usually happens in an unplanned, unexpected instant. Although it&apos;s impossible to foresee or prevent that instant, these basic tips may offer some protection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Build bone strength.&lt;/strong&gt; Calcium-rich foods, such as milk, yogurt and cheese, can help build strong bones. In general, a regular diet with the recommended calcium intake is best, even after a fracture. For women, the recommended amount of calcium increases with age and with menopause. Talk to your doctor about how much calcium you need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent falls.&lt;/strong&gt; Falling forward onto an outstretched hand is the leading cause of a broken arm. To prevent this common injury, wear sensible shoes. Remove home hazards. Light up your living space. And install grab bars in your bathroom and hand rails on your stairways, if necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use protective gear.&lt;/strong&gt; Wear wrist guards for high-risk activities, such as&lt;strong&gt; &lt;/strong&gt;in-line skating, snowboarding, rugby and football.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Broken arm
+	</Title>
+	<Abstract>
+		Broken arm &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this common fracture.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00058" LinkType="Internal" ObjectID="5B479591-E2C6-4544-A910E7A9CC2B2765" Title="Fractures (broken bones): First aid" Url="http://www.mayoclinic.com/health/first-aid-fractures/FA00058" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+	</RelatedLinksBox>
+</Disease>

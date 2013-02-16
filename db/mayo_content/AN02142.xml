@@ -1,0 +1,128 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02142
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dental-braces/AN02142
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-30
+		</UpdateDate>
+		<PublicationDate>
+			2011-04-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3643" Title="Mouth and teeth">
+						<Keyword MCVID="4710" Title="Dental braces" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			341816D8-CFA3-8975-8DD3A38C11CBBC2C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dental braces
+			</MetaKeyword>
+			<MetaKeyword>
+				braces
+			</MetaKeyword>
+			<MetaKeyword>
+				dental appliances
+			</MetaKeyword>
+			<MetaKeyword>
+				overbite
+			</MetaKeyword>
+			<MetaKeyword>
+				malocclusion
+			</MetaKeyword>
+			<MetaKeyword>
+				crooked teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				underbite
+			</MetaKeyword>
+			<MetaKeyword>
+				crossbite
+			</MetaKeyword>
+			<MetaKeyword>
+				overjet
+			</MetaKeyword>
+			<MetaKeyword>
+				open bite
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It&apos;s a good idea to get an orthodontic evaluation by the time a child is 7 years old. An orthodontist is a dentist with additional training, who specializes in aligning and straightening teeth. The best time for your child to get dental braces depends on the severity and the cause of the misalignment of your child&apos;s teeth.
+&lt;/p&gt;
+&lt;p&gt;
+Traditionally, treatment with dental braces begins when a child has lost most of his or her baby (primary) teeth, and a majority of his or her adult (permanent) teeth have grown in &amp;mdash; usually between the ages of 8 and 14.
+&lt;/p&gt;
+&lt;p&gt;
+Some orthodontists recommend an approach that involves the use of a dental appliance &amp;mdash; not always dental braces &amp;mdash; at an earlier age, while a child still has most of his or her baby teeth. This may especially be appealing to children who are stressed or embarrassed by crooked teeth or bite issues. Then, when a child has most of his or her adult teeth, a second phase of treatment is started &amp;mdash; usually with dental braces. This second phase is thought by some to be shorter than a traditional course of braces if an early treatment has been performed.
+&lt;/p&gt;
+&lt;p&gt;
+Orthodontists who favor the traditional approach say that a two-phase approach to treatment actually increases the total time &amp;mdash; and sometimes the expense &amp;mdash; of orthodontic treatment with generally similar results.
+&lt;/p&gt;
+&lt;p&gt;
+The best choice for you and your child will largely depend on the severity of your child&apos;s dental problems. Talk with your child&apos;s dentist or orthodontist about what&apos;s the best course of action.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dental braces: When to start
+	</Title>
+	<Abstract>
+		Dental braces are recommended for many children &amp;mdash; when is the best time to start?
+	</Abstract>
+	<Question>
+		I think my child might need dental braces to straighten her teeth. What&apos;s the right age to begin treatment with dental braces?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01344" LinkType="Internal" ObjectID="2315A7BA-04C3-4E90-BB8DF761312409E9" Title="Dental braces" Url="http://www.mayoclinic.com/health/braces/MY01344" />
+	</RelatedLinksBox>
+</Answer>

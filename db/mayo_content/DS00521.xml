@@ -1,0 +1,319 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00521
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/myocarditis/DS00521
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-02
+		</UpdateDate>
+		<PublicationDate>
+			2004-05-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1470" Title="Heart muscle and lining">
+						<Keyword MCVID="1472" Title="Myocarditis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			31C9BF18-0EDA-252B-7CD1612420AB6C0A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				myocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				myocardium
+			</MetaKeyword>
+			<MetaKeyword>
+				eosnophilic myocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				giant cell myocarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				heart infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myocarditis is an inflammation of the myocardium, the middle layer of the heart wall. Myocarditis is usually caused by a viral infection. Signs and symptoms of myocarditis include chest pain, heart failure and abnormal heart rhythms. 
+&lt;/p&gt;
+&lt;p&gt;
+If myocarditis becomes severe, the pumping action of your heart weakens, and your heart won&apos;t be able to supply the rest of your body with enough blood. Clots also could form in your heart, leading to a stroke or heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for myocarditis depends on the underlying cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In mild cases, myocarditis may have no noticeable symptoms. You may feel ill and have general symptoms of a viral infection and never realize your heart is affected. 
+&lt;/p&gt;
+&lt;p&gt;
+In serious cases, the signs and symptoms of myocarditis vary, depending on the cause of the disease. Common myocarditis symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;A rapid or abnormal heartbeat (arrhythmia)&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, at rest or during physical activity&lt;/li&gt;
+	&lt;li&gt;Fluid retention with swelling of your legs, ankles and feet&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Other signs and symptoms you&apos;d have with a viral infection, such as a headache, body aches, joint pain, fever, a sore throat or diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Myocarditis in children&lt;/strong&gt;&lt;br /&gt;
+When children develop myocarditis, they may have these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+	&lt;li&gt;Breathing difficulties&lt;/li&gt;
+	&lt;li&gt;Rapid breathing&lt;/li&gt;
+	&lt;li&gt;Bluish or grayish discoloration of the skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if you have any of the symptoms of myocarditis, particularly chest pain and shortness of breath. If you&apos;ve had an infection, be alert for the symptoms of myocarditis and let your doctor know if they occur. If you have severe symptoms, go to the emergency room or call for emergency medical personnel. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, the exact cause of an individual case of myocarditis isn&apos;t identified. However, there are numerous potential causes of myocarditis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Viruses.&lt;/strong&gt; Viruses commonly associated with myocarditis include coxsackievirus B, which can cause symptoms similar to a mild case of flu; the viruses that cause the common cold (adenovirus); and parvovirus B19, which causes a rash called fifth disease. Gastrointestinal infections (echoviruses), mononucleosis (Epstein-Barr virus) and German measles (rubella) also are causes of myocarditis. Myocarditis is also common in people with HIV, the virus that causes AIDS. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria.&lt;/strong&gt; Numerous bacteria may cause myocarditis, including staphylococcus, streptococcus, the bacteria that causes diphtheria and the tick-borne bacterium responsible for Lyme disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parasites.&lt;/strong&gt; Among these are such parasites as Trypanosoma cruzi and toxoplasma, including some that are transmitted by insects and can cause a condition called Chagas&apos; disease. This disease is more prevalent in Central and South America than in the United States, but it can occur in travelers and in immigrants from that part of the world.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fungi.&lt;/strong&gt; Some yeast infections (such as candida), molds (such as aspergillus) and other fungi (such as histoplasma, often found in bird droppings) can sometimes cause myocarditis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Myocarditis also sometimes occurs if you&apos;re exposed to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications or illegal drugs&lt;/strong&gt; that may cause an allergic or toxic reaction. These include antibiotics, such as penicillin and sulfonamide drugs, some anti-seizure medications as well as some illegal substances, such as cocaine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; These include lupus, connective tissue disorders and rare inflammatory conditions, such as Wegener&apos;s granulomatosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When myocarditis is severe, it can permanently damage your heart muscle. This damage may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Left untreated, myocarditis can damage your heart&apos;s muscle to the point it can no longer pump blood effectively, causing heart failure. In very severe cases, myocarditis-related heart failure requires an artificial heart or heart transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack or stroke.&lt;/strong&gt; If your heart&apos;s muscle is injured and can&apos;t pump blood, the blood that pools in your heart can form clots. If a clot blocks one of your heart&apos;s arteries, you can have a heart attack. If a blood clot in your heart travels to an artery leading to your brain before becoming lodged, you can have a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irregular heartbeats (arrhythmias).&lt;/strong&gt; Damage to your heart muscle can cause disturbances in your heartbeat (arrhythmias).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden death.&lt;/strong&gt; If your heart muscle is so damaged that you develop an arrhythmia, it&apos;s possible the arrhythmia could cause your heart to suddenly stop beating (sudden cardiac arrest). If not treated immediately, it causes sudden cardiac death.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor, or in the case of severe symptoms, an emergency room doctor. You may then be referred to a doctor who specializes in treating disorders of the heart (cardiologist) and possibly an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what you might expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent illnesses, the symptoms you experienced then, and the length of recent past illnesses. If you&apos;ve traveled recently, let your doctor know where you went and when you were there.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking. Also, write down the dose you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you ensure you cover all of the points that are important to you. For myocarditis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How is myocarditis treated?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any complications I should be concerned about?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activity in any way?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you recently gotten over another illness?&lt;/li&gt;
+	&lt;li&gt;Have you traveled out of the country recently?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects myocarditis, he or she may also order one or more tests in addition to asking you questions and examining you to make a diagnosis of myocarditis and determine the severity of your condition, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This noninvasive test shows your heart&apos;s electrical patterns and can detect abnormal rhythms, as well as a weakened or damaged heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; If your doctor can&apos;t detect any problems with your heart during an electrocardiogram, he or she may recommend you wear a Holter monitor for a few days. A Holter monitor is a small, wearable device that records your heart rhythm. During that time, the device will record all of your heartbeats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray image of your chest allows your doctor to check the size and shape of your heart, as well as look for fluid in or around the heart that might indicate heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI.&lt;/strong&gt; Cardiac magnetic resonance imaging (MRI) will show your heart&apos;s size, shape and structure. This test can show signs of inflammation of the heart muscle and help make or confirm a diagnosis of myocarditis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; Sound waves, or ultrasound, can create moving images of the beating heart. An echocardiogram may detect enlargement of your heart, poor pumping function, valve problems or fluid around your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These tests measure white and red blood cell counts, as well as levels of certain enzymes that indicate damage to your heart muscle. Blood tests can also detect antibodies against viruses and other organisms that may mean you have a myocarditis-related infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization and endomyocardial biopsy.&lt;/strong&gt; In this test, a small tube (catheter) is inserted into a vein in your leg or neck and then is threaded into your heart. A special instrument can remove a tiny sample of heart muscle tissue (biopsy) for analysis in the laboratory to see if there are signs of inflammation or infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases myocarditis improves, either on its own or with treatment, leading to a complete recovery. Myocarditis treatment focuses on treating the underlying cause. 
+&lt;/p&gt;
+&lt;p&gt;
+In mild cases, your doctor may tell you to rest and may prescribe medications to help your body fight off the infection causing myocarditis while your heart recovers. If bacteria are causing the infection, your doctor will prescribe antibiotics. Although antiviral medications are available, they haven&apos;t proven effective in the treatment of most cases of myocarditis. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain rare types of viral myocarditis, such as giant cell and eosinophilic myocarditis, respond to corticosteroids or other medications to suppress the immune system response. In some cases caused by chronic illnesses, such as lupus, the treatment is directed at the underlying disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drugs to help your heart&lt;/strong&gt;&lt;br /&gt;
+If myocarditis is causing heart failure or rapid or irregular heartbeats as a symptom, your doctor may hospitalize you. You may receive drugs to regulate your heartbeat. If your heart is weak, your doctor may prescribe medications to reduce your heart&apos;s workload or help you eliminate excess fluid. These medications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors,&lt;/strong&gt; such as enalapril (Vasotec), captopril (Capoten), lisinopril (Zestril, Prinivil) and ramipril (Altace), which relax the blood vessels in your heart and help blood flow more easily&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers (ARBs),&lt;/strong&gt; such as losartan (Cozaar) and valsartan (Diovan), which relax the blood vessels in your heart and help blood flow more easily&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers,&lt;/strong&gt; such as metoprolol (Toprol-XL) and carvedilol (Coreg), which work in multiple ways to treat heart failure and help control irregular or fast heart rhythms&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics,&lt;/strong&gt; such as furosemide (Lasix), which relieve sodium and fluid retention&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating severe cases&lt;/strong&gt;&lt;br /&gt;
+In some severe cases of myocarditis, aggressive treatment may be necessary, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous (IV) medications.&lt;/strong&gt; IV delivery of medications may improve the heart-pumping function more quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A temporary artificial heart (ventricular assist device).&lt;/strong&gt; These devices, which can be implanted or worn outside the body, take over part of the heart&apos;s job of moving blood in and out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A pump in the aorta (intra-aortic balloon pump).&lt;/strong&gt; In this procedure, a balloon is surgically inserted into the aorta. As the balloon inflates and deflates, it helps to increase blood flow and decrease the workload on the heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing the oxygen content of the blood (extracorporeal membrane oxygenation, or ECMO).&lt;/strong&gt; With severe heart failure, doctors sometimes recommend the use of this device to provide oxygen to the body. When blood is removed from the body, it passes through a special membrane in the ECMO machine that removes carbon dioxide and adds oxygen to the blood. The newly oxygenated blood is then returned to the body. The ECMO machine takes over the work of the heart. This treatment is used to allow the heart to recover or while waiting for other treatments, such as heart transplant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In the most severe cases, doctors may consider urgent heart transplantation. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people may have chronic and irreversible damage to the heart muscle requiring lifelong medications, while other people need medications for just a few months and then recover completely. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rest and reducing the workload on your heart is an important part of recovery. Your doctor will likely tell you what type of physical activity you can perform during the several months while your heart heals. Ask your doctor when you can resume normal activities. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have any lingering heart damage, it&apos;s also important to consume a low-salt diet, restrict the amount of fluids you drink and avoid smoking. Your doctor will let you know what your fluid intake should be, as well as the amount of salt that&apos;s OK for you to eat. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific prevention for myocarditis. However, taking these steps to prevent infections may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid people who have a viral or flu-like illness until they have recovered.&lt;/strong&gt; If you&apos;re sick with viral symptoms, try to avoid exposing others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow good hygiene.&lt;/strong&gt; Regular hand-washing is a good way to help prevent spreading illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid risky behaviors.&lt;/strong&gt; To reduce your chances of getting an HIV-related myocardial infection, practice safe sex and don&apos;t use illegal drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minimize exposure to ticks.&lt;/strong&gt; If you spend time in tick-infested areas, wear long-sleeved shirts and long pants to cover as much of your skin as possible. Apply tick or insect repellents that contain DEET.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get your immunizations.&lt;/strong&gt; Stay up to date on the recommended immunizations, including those that protect against rubella and influenza, diseases that can cause myocarditis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Myocarditis
+	</Title>
+	<Abstract>
+		Myocarditis &amp;mdash; Comprehensive overview covers symptoms and treatment of this inflammation of the heart muscle.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00956" LinkType="Internal" ObjectID="EFE84508-E7FF-0DBD-1D9E3D98DFEBF4A0" Title="Chagas disease" Url="http://www.mayoclinic.com/health/chagas-disease/DS00956" />
+		<LinkItem ContentType="Disease" DocID="DS00949" LinkType="Internal" ObjectID="E0E5CBB7-E7FF-0DBD-188377A3E7F15819" Title="Premature ventricular contractions (PVCs)" Url="http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949" />
+	</RelatedLinksBox>
+</Disease>

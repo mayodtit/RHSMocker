@@ -1,0 +1,114 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01099
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/genital-herpes/AN01099
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-18
+		</UpdateDate>
+		<PublicationDate>
+			2005-06-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1590" Title="Sexually transmitted">
+						<Keyword MCVID="2565" Title="Genital herpes" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A34C35D7-7CD6-4D6D-96377BF226AD53B7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				genital herpes
+			</MetaKeyword>
+			<MetaKeyword>
+				STD
+			</MetaKeyword>
+			<MetaKeyword>
+				STDs
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted disease
+			</MetaKeyword>
+			<MetaKeyword>
+				std&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				STI
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It&apos;s very unlikely that you would get genital herpes from a toilet seat. Genital herpes is a sexually transmitted infection (STI) spread by skin-to-skin contact. In most cases, the virus enters your body through mucous membranes &amp;mdash; the type of skin found in your mouth, genitals or anus. The virus can also enter your body through skin that has tiny scrapes or tears. 
+&lt;/p&gt;
+&lt;p&gt;
+People can have genital herpes for years without knowing it. The virus can be spread even if an infected person has no genital sores. Because the virus dies quickly outside of the body, it&apos;s nearly impossible to get the infection through contact with toilets, towels or other objects used by an infected person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Genital herpes: Can you get it from a toilet seat?
+	</Title>
+	<Abstract>
+		It&apos;s unlikely you would get an STI like genital herpes from a toilet seat.
+	</Abstract>
+	<Question>
+		Can you get genital herpes from a toilet seat?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="ID00053" LinkType="Internal" ObjectID="AB2D594E-E7FF-0DBD-1159C5056649527A" Title="STD symptoms: Common STDs and their symptoms" Url="http://www.mayoclinic.com/health/std-symptoms/ID00053" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00654" LinkType="Internal" ObjectID="86D0A192-EE57-3185-50604225150AA77C" Title="Condoms" Url="http://www.mayoclinic.com/health/condoms/MY00654" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Disease" DocID="DS00705" LinkType="Internal" ObjectID="60F83BE7-2A5D-9994-EDF332BF4FE17484" Title="Proctitis" Url="http://www.mayoclinic.com/health/proctitis/DS00705" />
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+	</RelatedLinksBox>
+</Answer>

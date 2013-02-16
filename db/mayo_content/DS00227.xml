@@ -1,0 +1,348 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00227
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tetanus/DS00227
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-18
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2567" Title="Tetanus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			587F4C3E-C865-43F8-A8C3BA3F134978C3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tetanus
+			</MetaKeyword>
+			<MetaKeyword>
+				puncture wounds
+			</MetaKeyword>
+			<MetaKeyword>
+				lockjaw
+			</MetaKeyword>
+			<MetaKeyword>
+				DTP shot
+			</MetaKeyword>
+			<MetaKeyword>
+				immunizations
+			</MetaKeyword>
+			<MetaKeyword>
+				tetnus
+			</MetaKeyword>
+			<MetaKeyword>
+				tetnus shot
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tetanus is a serious bacterial disease that affects your nervous system, leading to painful muscle contractions, particularly of your jaw and neck muscles. Tetanus can interfere with your ability to breathe and, ultimately, threaten your life. Tetanus is commonly known as &quot;lockjaw.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Thanks to the tetanus vaccine, cases of tetanus are rare in the United States and the developed world. The incidence of tetanus is much higher in less-developed countries. Around a million cases occur worldwide each year. 
+&lt;/p&gt;
+&lt;p&gt;
+Tetanus can be treated, but not always effectively. Fatality is highest in individuals who haven&apos;t been immunized and in older adults with inadequate immunization &amp;mdash; wherever they may live. In countries with low vaccine rates, infants also are at high risk of severe illness and death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of tetanus may appear anytime from a few days to several weeks after tetanus bacteria enter your body through a wound. The average incubation period is seven to eight days. 
+&lt;/p&gt;
+&lt;p&gt;
+Common signs and symptoms of tetanus, in order of appearance, are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spasms and stiffness in your jaw muscles&lt;/li&gt;
+	&lt;li&gt;Stiffness of your neck muscles&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Stiffness of your abdominal muscles&lt;/li&gt;
+	&lt;li&gt;Painful body spasms, lasting for several minutes, typically triggered by minor occurrences, such as a draft, loud noise, physical touch or light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Elevated blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor to obtain a tetanus booster shot if you have a deep or dirty wound and you haven&apos;t had a booster shot within the past five years or aren&apos;t sure of your vaccination status. Or see your doctor about a tetanus booster for any wound &amp;mdash; especially if it may have been contaminated with dirt, animal feces or manure &amp;mdash; if you haven&apos;t had a booster shot within the past 10 years or aren&apos;t sure of your vaccination status. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The bacteria that cause tetanus, Clostridium tetani, are found in soil, dust and animal feces. When they enter a deep flesh wound, spores of the bacteria may produce a powerful toxin, tetanospasmin, which actively impairs your motor neurons, nerves that control your muscles. The effect of the toxin on your nerves can cause muscle stiffness and spasms &amp;mdash; the major signs of tetanus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition, certain factors are necessary for tetanus bacteria to proliferate in your body. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lack of immunization or inadequate immunization &amp;mdash; failure to receive timely booster shots &amp;mdash; against tetanus&lt;/li&gt;
+	&lt;li&gt;A penetrating injury that results in tetanus spores being introduced to the wound site&lt;/li&gt;
+	&lt;li&gt;The presence of other infective bacteria&lt;/li&gt;
+	&lt;li&gt;Injured tissue&lt;/li&gt;
+	&lt;li&gt;A foreign body, such as a nail or splinter&lt;/li&gt;
+	&lt;li&gt;Swelling around the injury&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tetanus cases have developed from the following types of injuries: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Puncture wounds &amp;mdash; including from splinters, body piercings, tattoos, injection drugs&lt;/li&gt;
+	&lt;li&gt;Gunshot wounds&lt;/li&gt;
+	&lt;li&gt;Compound fractures&lt;/li&gt;
+	&lt;li&gt;Crush injuries&lt;/li&gt;
+	&lt;li&gt;Burns&lt;/li&gt;
+	&lt;li&gt;Surgical wounds&lt;/li&gt;
+	&lt;li&gt;Ear infections&lt;/li&gt;
+	&lt;li&gt;Dental infections&lt;/li&gt;
+	&lt;li&gt;Animal bites&lt;/li&gt;
+	&lt;li&gt;Infected foot ulcers in people with diabetes&lt;/li&gt;
+	&lt;li&gt;Infected umbilical stumps in newborns born of inadequately immunized mothers&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once tetanus toxin has bonded to your nerve endings it is impossible to remove. Complete recovery from a tetanus infection requires the growth of new nerve endings and can take up to several months. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications of tetanus infection may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Disability.&lt;/strong&gt; Treatment for tetanus typically involves the use of powerful sedatives to control muscle spasms. Prolonged immobility due to the use of these drugs can lead to permanent disability. In infants, tetanus infections may cause lasting brain damage, ranging from minor mental deficits to cerebral palsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; Severe tetanus-induced (tetanic) muscle spasms can interfere with your breathing, causing periods in which you can&apos;t breathe at all. Respiratory failure is the most common cause of death. Lack of oxygen may also induce cardiac arrest and death. Pneumonia is another cause of death. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your wound is small and clean but you&apos;re concerned about infection or your immunization status, start by seeing your family doctor. If your wound is severe or you&apos;re experiencing symptoms of tetanus infection (or your infant is), seek emergency care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+If possible, let your doctor know the following information: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When, where and how you received the injury (or any recent injury, if a wound isn&apos;t obvious)&lt;/li&gt;
+	&lt;li&gt;Your immunization status, including when you received your last tetanus booster shot (a record of immunization would be helpful)&lt;/li&gt;
+	&lt;li&gt;How you&apos;ve been caring for the wound&lt;/li&gt;
+	&lt;li&gt;Any chronic illness or pre-existing condition you may have, such as diabetes, heart disease or pregnancy&lt;/li&gt;
+	&lt;li&gt;If seeking care for an infant, let your doctor know the mother&apos;s country of origin, her immunization status and how long she&apos;s been in the United States&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For tetanus, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+If a wound is obvious, your doctor will inspect it. He or she will likely ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced any symptoms and, if so, when did they start?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;When were you last vaccinated for tetanus and what type of vaccine did you receive?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a wound (if not obvious)?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors diagnose tetanus based on a physical exam, medical and immunization history, and the signs and symptoms of muscle spasms, stiffness and pain. Laboratory tests generally aren&apos;t helpful for diagnosing tetanus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Since there&apos;s no cure for tetanus, treatment consists of wound care, medications to ease symptoms and supportive care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wound care&lt;/strong&gt; &lt;br /&gt;
+Cleaning the wound is essential to preventing growth of tetanus spores. This involves removing dirt, foreign objects and dead tissue from the wound. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antitoxin.&lt;/strong&gt; Your doctor may give you a tetanus antitoxin, such as tetanus immune globulin. However, the antitoxin can neutralize only toxin that hasn&apos;t yet bonded to nerve tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Your doctor may also give you antibiotics, either orally or by injection, to fight tetanus bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccine.&lt;/strong&gt; Having tetanus once doesn&apos;t make you immune to the bacteria afterward. So you&apos;ll need to receive a tetanus vaccine in order to prevent future tetanus infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedatives.&lt;/strong&gt; Doctors generally use powerful sedatives to control muscle spasms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other drugs.&lt;/strong&gt; Other medications, such as magnesium sulfate and certain beta blockers, may be used to help regulate involuntary muscle activity, such as your heartbeat and breathing. Morphine may be used for this purpose as well as sedation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive therapies&lt;/strong&gt; &lt;br /&gt;
+Tetanus infection often requires a long period of treatment in an intensive care setting. Since sedatives may result in shallow breathing, you may need to be supported temporarily by a ventilator. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Puncture wounds or other deep cuts, animal bites or particularly dirty wounds may put you at increased risk of tetanus infection. Get medical attention if the wound is deep and dirty, and particularly if you&apos;re unsure of your immunization status. Leave unclean wounds open to avoid trapping bacteria in the wound with a bandage. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may need to clean the wound, prescribe an antibiotic and give you a booster shot of the tetanus toxoid vaccine. If you&apos;ve previously been immunized, your body should quickly make the needed antibodies to protect you against tetanus. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a minor wound, these steps will help prevent you from getting tetanus: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Control bleeding.&lt;/strong&gt; If the wound is bleeding, apply direct pressure to control the bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep the wound clean.&lt;/strong&gt; After the bleeding has stopped, rinse the wound thoroughly with clean running water (or saline solution if available). Clean the area around the wound with soap and a washcloth. If debris is embedded in a wound, see your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use an antibiotic.&lt;/strong&gt; After you clean the wound, apply a thin layer of an antibiotic cream or ointment, such as the multi-ingredient antibiotics Neosporin and Polysporin. These antibiotics won&apos;t make the wound heal faster, but they can discourage bacterial growth and infection and may allow the wound to heal more efficiently. Certain ingredients in some ointments can cause a mild rash in some people. If a rash appears, stop using the ointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the wound.&lt;/strong&gt; Exposure to the air may speed healing, but bandages can help keep the wound clean and keep harmful bacteria out. Blisters that are draining are vulnerable. Keep them covered until a scab forms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change the dressing.&lt;/strong&gt; Apply a new dressing at least once a day or whenever the dressing becomes wet or dirty to help prevent infection. If you&apos;re allergic to the adhesive used in most bandages, switch to adhesive-free dressings or sterile gauze and paper tape.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can easily prevent tetanus by being immunized against the toxin. Almost all cases of tetanus occur in people who&apos;ve never been immunized or who haven&apos;t had a tetanus booster shot within the preceding 10 years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The primary vaccine series&lt;/strong&gt; &lt;br /&gt;
+The tetanus vaccine usually is given to children as part of the diphtheria and tetanus toxoids and acellular pertussis (DTaP) vaccine. This vaccination provides protection against three diseases: diphtheria (a throat and respiratory infection), pertussis (whooping cough) and tetanus. 
+&lt;/p&gt;
+&lt;p&gt;
+The DTaP vaccine consists of a series of five shots, typically given in the arm or thigh to children at ages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;2 months&lt;/li&gt;
+	&lt;li&gt;4 months&lt;/li&gt;
+	&lt;li&gt;6 months&lt;/li&gt;
+	&lt;li&gt;15 to 18 months&lt;/li&gt;
+	&lt;li&gt;4 to 6 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;The booster&lt;/strong&gt; &lt;br /&gt;
+A booster of the tetanus vaccine is typically given in combination with a booster of diphtheria vaccine (Td). In 2005, a tetanus, diphtheria and pertussis (Tdap) vaccine was approved for use in teens and adults under age 65 to ensure continuing protection against pertussis. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s recommended that adolescents get a dose of Tdap, preferably between the ages of 11 and 12, and that a Td booster be given every 10 years thereafter. If you&apos;ve never received a dose of Tdap, substitute it for your next Td booster dose and then continue on with Td boosters. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re traveling internationally, it&apos;s a good idea to have up-to-date immunity because tetanus may be more common where you&apos;re visiting, especially if you&apos;re traveling to a developing country. If you receive a deep or dirty wound and it&apos;s been more than five years since your last booster shot, get another booster shot. 
+&lt;/p&gt;
+&lt;p&gt;
+In order to stay up to date with all of your vaccinations, request that your doctor review your vaccination status on a regular basis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you were never vaccinated against tetanus as a child, see your doctor about getting the Tdap vaccine. You can&apos;t get a tetanus infection from the vaccine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tetanus
+	</Title>
+	<Abstract>
+		Tetanus &amp;mdash; Comprehensive overview covers symptoms, causes, prevention of this vaccine-preventable disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Answer" DocID="AN01497" LinkType="Internal" ObjectID="30A8E658-E7FF-0DBD-10DDAC34A979975A" Title="Tetanus shots: Is it risky to receive &apos;extra&apos; boosters?" Url="http://www.mayoclinic.com/health/tetanus-shots/AN01497" />
+	</RelatedLinksBox>
+</Disease>

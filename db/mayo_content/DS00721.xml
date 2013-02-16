@@ -1,0 +1,283 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00721
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lichen-nitidus/DS00721
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2870" Title="Lichen nitidus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A4630A53-E7FF-0DBD-185D90C9EDCC3F07
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lichen nitidus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen nitidus (LIE-kun ni-TIE-dus) is a rare skin condition that usually appears as tiny, skin-colored, glistening bumps on the surface of your skin. Lichen nitidus results from abnormal inflammatory activity in skin cells, but the cause of inflammation is unknown.
+&lt;/p&gt;
+&lt;p&gt;
+Although lichen nitidus may affect anyone, it typically develops in children and young adults. Lichen nitidus rarely causes discomfort and usually clears up on its own without treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Lichen nitidus doesn&apos;t increase your risk of skin cancer, and it isn&apos;t an infectious disease that can spread to other people.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing lichen nitidus 
+" Caption="Lichen nitidus is an uncommon, inflammatory skin condition. It appears as small, skin-colored, raised bumps (papules). 
+" Height="60" Title="Lichen nitidus" URI="/images/image_popup/thumbs/mcdc7_lichennitidusthu.jpg" Width="60" />
+				<Image Alt="Photograph showing lichen nitidus 
+" Caption="Lichen nitidus is an uncommon, inflammatory skin condition. It appears as small, skin-colored, raised bumps (papules). 
+" Height="281" Title="Lichen nitidus" URI="/images/image_popup/mcdc7_lichennitidus.jpg" Width="400" />
+				<HTML>
+					Lichen nitidus is an uncommon, inflammatory skin condition. It appears as small, skin-colored, raised bumps (papules). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen nitidus appears as clusters of tiny, glistening bumps (papules). Characteristics of the bumps include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Size.&lt;/strong&gt; The bumps range in size from pinpoint to pinhead size.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shape.&lt;/strong&gt; They are&lt;strong&gt; &lt;/strong&gt;flat topped and round.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Color.&lt;/strong&gt; Bumps are usually the same color as your skin. They may be slightly pink on people with lighter skin, or lighter than normal skin color on people with darker skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Location.&lt;/strong&gt; Lichen nitidus bumps commonly occur on the chest, abdomen, arms and genital areas, including the penis. They rarely occur on the palms, soles of the feet, mucous membranes or fingernails. Lichen nitidus may clear up at one site on your body but then appear at another.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Itch.&lt;/strong&gt; In rare cases, the bumps of lichen nitidus may itch, sometimes intensely. They may appear in a line where there&apos;s a scratch, crease or constant pressure on the skin, such as a fold of skin on the abdomen or the crease of skin on the inside of the elbow or wrist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if tiny bumps or a rash-like condition appears on your skin for no apparent reason, such as a known allergic reaction or contact with poison ivy. Because a number of conditions can cause skin reactions, it&apos;s best to get a prompt and accurate diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Get immediate care if your skin condition is accompanied by other signs and symptoms, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Pus or oozing from a rash&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing lichen nitidus 
+" Caption="Lichen nitidus is an uncommon, inflammatory skin condition. It appears as small, skin-colored, raised bumps (papules). 
+" Height="60" Title="Lichen nitidus" URI="/images/image_popup/thumbs/mcdc7_lichennitidusthu.jpg" Width="60" />
+				<Image Alt="Photograph showing lichen nitidus 
+" Caption="Lichen nitidus is an uncommon, inflammatory skin condition. It appears as small, skin-colored, raised bumps (papules). 
+" Height="281" Title="Lichen nitidus" URI="/images/image_popup/mcdc7_lichennitidus.jpg" Width="400" />
+				<HTML>
+					Lichen nitidus is an uncommon, inflammatory skin condition. It appears as small, skin-colored, raised bumps (papules). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of lichen nitidus is unknown. The papules that appear are the result of inflammation controlled by white blood cells called T lymphocytes. Normally, these cells are active at the site of disease or injury. Doctors and researchers don&apos;t know what prompts T lymphocytes to be activated in lichen nitidus.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen nitidus seems to be more likely to develop in children and young adults.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Association with other diseases&lt;br /&gt;
+&lt;/strong&gt;Because lichen nitidus is rare, most information about the disorder is known from individual cases or very small studies, rather than from large studies that generally produce more reliable information. Therefore, possible associations observed between lichen nitidus and other diseases aren&apos;t well understood. However, lichen nitidus may be associated with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lichen planus,&lt;/strong&gt; an inflammatory condition usually characterized by patches of red or purple, flat-topped, itchy bumps on the skin or lacy white patches on the mucous membranes of the mouth&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis (eczema),&lt;/strong&gt; an inflammatory skin condition usually characterized by dry, itchy rashes on the face, inside the elbow, behind the knees, and on the hands and feet&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crohn&apos;s disease,&lt;/strong&gt; inflammation of the lining of your digestive tract, which can lead to abdominal pain, severe diarrhea and malnutrition&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Juvenile rheumatoid arthritis,&lt;/strong&gt; an inflammatory disease that causes persistent joint pain, swelling and stiffness&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tuberculosis,&lt;/strong&gt; an infectious disease that most often affects the lungs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen nitidus is a harmless condition that doesn&apos;t result in long-term skin problems or medical complications. However, the appearance of lichen nitidus may cause a person to be self-conscious or embarrassed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your child&apos;s pediatrician or your primary care doctor if your child or you are experiencing a skin condition. You may then be referred to a specialist in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you or your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you or your child takes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For lichen nitidus, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How long can I expect this condition to last?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on what types of products I use on my skin?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor or dermatologist will likely ask you a number of questions regarding the symptoms. Be prepared to answer the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the appearance of the tiny bumps?&lt;/li&gt;
+	&lt;li&gt;Where are the patches of bumps located?&lt;/li&gt;
+	&lt;li&gt;Have the patches of bumps changed in appearance over time?&lt;/li&gt;
+	&lt;li&gt;Do the bumps itch? How much or how often?&lt;/li&gt;
+	&lt;li&gt;Does anything further irritate the site, such as certain soaps or lotions?&lt;/li&gt;
+	&lt;li&gt;Are there any known allergies?&lt;/li&gt;
+	&lt;li&gt;Do you or immediate family members have a history of atopic eczema, asthma or hay fever?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Lichen nitidus generally clears up on its own, without any treatment, so there&apos;s nothing specific you need to do while waiting to see the doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor or dermatologist makes a diagnosis of lichen nitidus or another skin condition based on the information you provide about the symptoms and a careful examination of the skin abnormality.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may use a magnifying glass to look at your skin. Or he or she may take a small sample of tissue (biopsy) and look at it under a microscope.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, lichen nitidus lasts for a few months to a year. The condition usually clears up on its own without treatment. After it clears up, the appearance of the skin is usually normal with no scarring or permanent change to skin color.
+&lt;/p&gt;
+&lt;p&gt;
+If lichen nitidus causes itching or if you have concerns about your appearance or your child&apos;s appearance, your doctor may prescribe one of the following treatments: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids&lt;/strong&gt; may reduce inflammation associated with lichen nitidus. The side effects vary depending on whether it&apos;s used as an ointment applied directly to the skin (topical) or taken as a pill (oral). Long-term use of topical corticosteroids can cause thinning of the skin, a lessening of the treatment effect and other skin problems. Long-term use of oral corticosteroids can cause weakening of the bones (osteoporosis), diabetes, high blood pressure and high cholesterol levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Retinoid&lt;/strong&gt; is a synthetic version of vitamin A that can be a topical or oral treatment. The topical treatment doesn&apos;t cause the side effects associated with corticosteroids, but it may irritate the skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because retinoid can cause birth defects, it shouldn&apos;t be used by women who are pregnant or who might become pregnant. Your doctor can advise you on necessary precautions.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Other topical medications.&lt;/strong&gt; A topical drug called tacrolimus (Protopic) helps to suppress the immune response and may be helpful for lichen nitidus.&lt;strong&gt; &lt;/strong&gt;Possible side effects include stinging, burning and itching at the site where the medication is applied. This medication can&apos;t be used in conjunction with phototherapy. Limit sun exposure while using tacrolimus and don&apos;t use tanning beds during treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines&lt;/strong&gt; act against a protein called histamine that is involved in inflammatory activity. An oral or topical antihistamine may relieve itching associated with lichen nitidus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Phototherapy,&lt;/strong&gt; a type of light therapy, may help clear up lichen nitidus. One type uses ultraviolet A (UVA) light, which penetrates deep into the skin. This therapy is usually used in combination with a drug that makes the skin more sensitive to UVA light. Another type uses narrow band ultraviolet B (UVB) light. It&apos;s important to avoid sun exposure for a couple of days after having phototherapy. Also, you need to wear special UV-absorbing sunglasses for a couple of days to protect your eyes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lichen nitidus
+	</Title>
+	<Abstract>
+		Lichen nitidus &amp;mdash; Comprehensive overview covers symptoms, treatment of this harmless skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

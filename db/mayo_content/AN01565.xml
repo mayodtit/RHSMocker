@@ -1,0 +1,151 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01565
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sulfa-allergy/AN01565
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="4456" Title="Drug allergy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C6833A20-E7FF-0DBD-12528D4C34009ED4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sulfa allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				sulfonamide allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				sulfa sensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				sulfonamide sensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				drug allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				drug sensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				antibiotic reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				drug rection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Antibiotics containing chemicals called sulfonamides can trigger a reaction if you have a sulfa allergy. Examples of sulfonamide antibiotics include the combination drugs:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Trimethoprim-sulfamethoxazole (Septra, Bactrim)&lt;/li&gt;
+	&lt;li&gt;Erythromycin-sulfisoxazole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other types of sulfa medications may trigger a reaction in some people who have a sulfa allergy. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sulfasalazine (Azulfidine), used to treat Crohn&apos;s disease, ulcerative colitis and rheumatoid arthritis&lt;/li&gt;
+	&lt;li&gt;Dapsone, used to treat leprosy, dermatitis and certain types of pneumonia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind, if you have a reaction to a sulfonamide antibiotic, you may still be able to take other sulfonamide medications without having a reaction. Examples of sulfonamide medications that may be OK include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Certain diabetes medications &amp;mdash; glyburide (Glynase, Diabeta) and glimepiride (Amaryl), for example&lt;/li&gt;
+	&lt;li&gt;Some nonsteroidal anti-inflammatory drugs, such as celecoxib (Celebrex)&lt;/li&gt;
+	&lt;li&gt;The migraine medication sumatriptan (Imitrex, Sumavel Dosepro)&lt;/li&gt;
+	&lt;li&gt;Certain &quot;water pills&quot; (diuretics), such as furosemide (Lasix) and chlorothiazide (Microzide)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An allergy to sulfonamide medications is different from having an adverse reaction to wine or food that contains sulfites. Having a reaction to sulfites in something you eat or drink doesn&apos;t mean you&apos;ll be allergic to sulfonamide medication.
+&lt;/p&gt;
+&lt;p&gt;
+If you have HIV/AIDS, you may have an increased sensitivity to sulfonamide medications. Always tell your doctor about your sensitivities to medication.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sulfa allergy: Which medications should I avoid?
+	</Title>
+	<Abstract>
+		Sulfa allergy: A Mayo Clinic expert discusses which medications are likely to cause problems.
+	</Abstract>
+	<Question>
+		I have a sulfa allergy. How can I tell if a medicine contains sulfa?
+	</Question>
+	<QuestionFirstName>
+		Keryn
+	</QuestionFirstName>
+	<QuestionState>
+		California
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="HQ01514" LinkType="Internal" ObjectID="C199612D-8333-47C0-94783CE38BF24864" Title="Allergy-proof your house" Url="http://www.mayoclinic.com/health/allergy/HQ01514" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="Disease" DocID="DS00620" LinkType="Internal" ObjectID="2A278994-2A5D-9994-E175B9F8963C2D6F" Title="Penicillin allergy" Url="http://www.mayoclinic.com/health/penicillin-allergy/DS00620" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Answer" DocID="AN01467" LinkType="Internal" ObjectID="52A9B9F4-E7FF-0DBD-15D383AF16C11258" Title="Aspirin allergy: What are the symptoms?" Url="http://www.mayoclinic.com/health/aspirin-allergy/AN01467" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Disease" DocID="DS00313" LinkType="Internal" ObjectID="5347A6E4-D219-41F2-96EEA936BD30D271" Title="Hives and angioedema" Url="http://www.mayoclinic.com/health/hives-and-angioedema/DS00313" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+		<LinkItem ContentType="Disease" DocID="DS00005" LinkType="Internal" ObjectID="32278E96-F109-4807-8738841CD620091B" Title="HIV/AIDS" Url="http://www.mayoclinic.com/health/hiv-aids/DS00005" />
+		<LinkItem ContentType="Disease" DocID="DS01148" LinkType="Internal" ObjectID="D083DF11-E543-F247-8C0C76E81FA6E12B" Title="Drug allergy" Url="http://www.mayoclinic.com/health/drug-allergy/DS01148" />
+	</RelatedLinksBox>
+</Answer>

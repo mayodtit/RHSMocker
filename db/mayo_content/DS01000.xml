@@ -1,0 +1,305 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01000
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/castleman-disease/DS01000
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="3284" Title="Castleman disease" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			96591397-E7FF-0DBD-1586913B3438DA6D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Castleman disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Castleman&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				giant lymph node hyperplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				angiofollicular lymph node hyperplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphoproliferative disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph node disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Castleman disease is a rare illness that affects your lymph nodes and other immune-cell structures of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Also known as giant lymph node hyperplasia and angiofollicular lymph node hyperplasia, Castleman disease is classified as a lymphoproliferative disorder. That means it involves an overgrowth (proliferation) of lymphatic cells. This makes Castleman disease similar to cancers of the lymphatic system (lymphomas), which also are characterized by cell overgrowth. Castleman disease isn&apos;t considered a cancer, but it is associated with a higher risk of a type of cancer called lymphoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Castleman disease can occur in a localized or a more widespread form. Treatment and outlook depend on which type of Castleman disease you have. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are two basic types of Castleman disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Unicentric Castleman disease.&lt;/strong&gt; This localized form of the disease affects only a single lymph node.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multicentric Castleman disease.&lt;/strong&gt; This type affects multiple lymph nodes and lymphatic tissues, and can severely weaken your immune system. It sometimes accompanies HIV/AIDS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The two different types of Castleman disease affect people very differently. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Unicentric Castleman disease&lt;/strong&gt;&lt;br /&gt;
+Many people with unicentric Castleman disease notice no symptoms at all. Most often, the diseased lymph node is located in the chest or abdomen. When there are signs and symptoms, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling of fullness or pressure in the chest or abdomen that can cause difficulty breathing or eating&lt;/li&gt;
+	&lt;li&gt;An enlarged lump under the skin in the neck, groin or armpit&lt;/li&gt;
+	&lt;li&gt;Unintended weight loss&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Multicentric Castleman disease&lt;/strong&gt;&lt;br /&gt;
+People with multicentric Castleman disease usually develop these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Night sweats&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Unintended weight loss&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Enlarged peripheral lymph nodes, usually around the neck, collarbone, underarm and groin areas&lt;/li&gt;
+	&lt;li&gt;Enlarged liver or spleen&lt;/li&gt;
+	&lt;li&gt;Nerve damage in the hands and feet that leads to numbness or weakness (peripheral neuropathy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you notice an enlarged lymph node on the side of your neck or in your underarm, collarbone or groin area, talk to your doctor. Also, call your doctor if you have other signs or symptoms, such as a feeling of fullness in your chest or abdomen, fever, fatigue, or unexplained weight loss. These signs and symptoms are common to many different types of illnesses. See your doctor to determine the cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes Castleman disease. Infection by a virus called the human herpesvirus 8 (HHV-8) is associated with Castleman disease, and doctors suspect that it may play a role, especially in multicentric Castleman disease. This virus has also been linked to the development of Kaposi&apos;s sarcoma, a cancerous tumor of the blood vessel walls, which is also common in people with multicentric Castleman disease. People who are HIV-positive are more likely to have both Castleman disease and Kaposi&apos;s sarcoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers aren&apos;t clear what the precise role of HHV-8 may be, though it appears that it may cause malfunctioning immune system cells to reproduce rapidly. The immune system cells produce a protein called interleukin-6 (IL-6) that contributes to the overgrowth of lymphatic cells and leads to many of the signs and symptoms of Castleman disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, people with unicentric Castleman disease aren&apos;t infected with HHV-8. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There don&apos;t seem to be any consistent risk factors for Castleman disease, except for having HIV/AIDS. The disease can affect anyone &amp;mdash; adults and children, men and women. The average age of people with unicentric Castleman disease is around 30 or 40. Most people with the multicentric form are in their 50s and 60s. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Unicentric Castleman disease&lt;/strong&gt; &lt;br /&gt;
+People with unicentric Castleman disease usually do well once the affected lymph node is removed, although having Castleman disease may increase your risk of lymphoma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Multicentric Castleman disease&lt;/strong&gt; &lt;br /&gt;
+On the other hand, multicentric Castleman disease is much more serious and often life-threatening. Death from multicentric disease usually occurs due to a serious infection, failure of multiple organs, or cancer, such as lymphoma or Kaposi&apos;s sarcoma. The presence of HIV/AIDS tends to worsen the outcome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms associated with Castleman disease, you&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in treating blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you to your appointment.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time. List your questions from most important to least important in case time runs out. For Castleman disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require special preparation?&lt;/li&gt;
+	&lt;li&gt;Can surgery cure me?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+	&lt;li&gt;What medications are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from these drugs?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have any other health conditions, such as HIV/AIDS or Kaposi&apos;s sarcoma?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of tests can help your doctor determine if you have Castleman disease, although unicentric Castleman disease may be found incidentally. People with unicentric Castleman disease often notice no symptoms, and the diseased lymph node is found during screening or treatment for another illness, such as during a CT scan or during abdominal or chest surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests your doctor may conduct to diagnose either unicentric or multicentric Castleman disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Your doctor may examine not only your swollen lymph nodes but also your other lymph nodes to determine their size and consistency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; Blood and urine tests may help your doctor rule out other infections or diseases. They can also reveal anemia and abnormalities in blood proteins that are sometimes characteristic of Castleman disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging techniques.&lt;/strong&gt; An X-ray, computerized tomography (CT) scan or magnetic resonance imaging (MRI) scan of your chest, neck, abdomen and pelvis may detect the presence and number of enlarged lymph nodes. These tests can also determine whether organs, such as your liver or spleen, are enlarged. Positron emission tomography (PET) scans also may be used in diagnosing Castleman disease and later, to assess whether a treatment is working.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lymph node biopsy.&lt;/strong&gt; To differentiate Castleman disease from other types of lymphatic tissue disorders, such as lymphoma, it&apos;s necessary to take a sample of lymph node tissue for examination in the laboratory. If the enlarged lymph node is close to the surface of your skin, the biopsy can be done under local anesthesia. If it&apos;s in your chest or abdomen, more extensive surgery may be necessary to access the lymph node. By looking at the structure of the cells, a doctor who specializes in diagnosing disease (pathologist) may be able to tell whether it&apos;s lymphoma or Castleman disease. Because Castleman disease is rare, a second pathologist may be needed to confirm the diagnosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends largely on the type of Castleman disease you have. Treatment for unicentric Castleman disease is almost always with surgery, while multicentric Castleman disease requires more systemic therapies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Unicentric Castleman disease&lt;/strong&gt;&lt;br /&gt;
+Unicentric Castleman disease can be cured by surgically removing the diseased lymph node. If the lymph node is in your chest or abdomen &amp;mdash; which is often the case with unicentric disease &amp;mdash; major surgery may be required to remove the node. This usually involves a hospital stay. If the affected node is in a place that&apos;s easy to access, such as in your underarm area or your neck, a simpler procedure may be performed that doesn&apos;t require hospitalization.
+&lt;/p&gt;
+&lt;p&gt;
+If surgical removal isn&apos;t possible, such as if the lymph node is difficult to get to, medications, such as the monoclonal antibody rituximab (Rituxan) or corticosteroids, may be used to shrink the lymph node. Radiation therapy may also be an effective way to destroy the affected tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Multicentric Castleman disease&lt;/strong&gt;&lt;br /&gt;
+Treating multicentric Castleman disease is generally more difficult. Because the disease is rare, has varied nonspecific signs and symptoms, and spontaneously goes into remission at times, doctors have found it difficult to identify the best treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery usually isn&apos;t an option for multicentric disease because of the number of lymph nodes involved, although sometimes removing an enlarged spleen may help ease symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications are commonly used for multicentric disease, with varying degrees of success. Doctors generally try as many treatments as they can to provide the most relief. Therapies include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Monoclonal antibodies.&lt;/strong&gt; These man-made antibodies are designed to zero in on specific cells in the body that aren&apos;t working right. One such antibody that may be effective for multicentric Castleman disease works by neutralizing or blocking the activity of IL-6, the immune-cell protein suspected of playing a role in causing the disease. Another monoclonal antibody that may help is rituximab (Rituxan), a drug that targets a different type of cell associated with Castleman disease. Although there haven&apos;t been any definitive clinical trials, several small studies have found that rituximab can cause complete remission in some people. Treatment with this medication has been promising enough that it&apos;s generally considered the first treatment to try. Side effects may include fever, headache, fatigue, skin rash and nausea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; The basic function of corticosteroid therapy is to control inflammation. With multicentric Castleman disease, doctors usually prescribe steroids, such as prednisone, in combination with other therapies. Long-term use of steroids may reduce your resistance to infection, as well as increase your blood pressure, cause weight gain and weaken your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Anti-cancer drugs (chemotherapy) can be useful because they target rapidly reproducing cells, such as those associated with Castleman disease. If chemotherapy is stopped, though, symptoms tend to return and further treatment is needed to maintain symptom relief. Still, chemotherapy has helped the disease go into remission for some people. Usually, doctors use a combination of anti-cancer drugs. Side effects may include hair loss, nausea, vomiting, loss of appetite and reduced resistance to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antiviral drugs.&lt;/strong&gt; Antiviral medications, such as ganciclovir, are known to inhibit the activity of the virus HHV-8. The success of this therapy has been mixed &amp;mdash; effective for some people, but not for others. Doctors still have many questions about antiviral therapy for Castleman disease, such as which antiviral is best and when is the best time to administer it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune modulators.&lt;/strong&gt; Doctors have tried other drugs that help to regulate the immune system (immune modulators) in the hopes that these drugs might have some effect. Interferon alpha has both immunoregulatory and antiviral effects and has been used successfully in a few people with Castleman disease, although symptoms usually return once you stop taking the drug. Thalidomide (Thalomid), a powerful immunomodulatory drug, also has helped a few people and may help decrease the production of IL-6.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because Castleman disease is rare and often occurs with other serious illnesses, it can be difficult to discover you have the illness. Dealing with multicentric disease, in particular, can be challenging. Some people with Castleman disease may have to deal with multiple diseases, including HIV infection, AIDS and Kaposi&apos;s sarcoma. In the face of a serious illness, it often helps to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn all you can about Castleman disease.&lt;/strong&gt; Learn about how the disease progresses, your prognosis and your treatment options, including both experimental and standard treatments and their side effects. The more you know, the more active you can be in your own care. However, be aware as you read about Castleman that much of what is known about the disease comes from small studies or case reports, so this information may not uniformly apply to your situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be proactive.&lt;/strong&gt; Although you may often feel tired and discouraged, try to take an active role in your treatment. Look for a health care team that makes you a partner in the decision-making process.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Strong relationships are crucial in dealing with life-threatening illnesses. In addition to family and friends, a counselor or a spiritual advisor also can be helpful. It&apos;s unlikely that you&apos;ll be able to find a local support group for Castleman disease, but check with your doctor to find out if there&apos;s anyone else in your area with the disease who might want to connect.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Castleman disease
+	</Title>
+	<Abstract>
+		Castleman disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this lymphatic disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

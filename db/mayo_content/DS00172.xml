@@ -1,0 +1,524 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00172
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hearing-loss/DS00172
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="2232" Title="Hearing loss">
+							<Keyword MCVID="2671" Title="Age related" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			41D92C59-66DB-4689-A6DA5F2A84B9E226
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hearing loss
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing impairment
+			</MetaKeyword>
+			<MetaKeyword>
+				presbycusis
+			</MetaKeyword>
+			<MetaKeyword>
+				ear
+			</MetaKeyword>
+			<MetaKeyword>
+				ears
+			</MetaKeyword>
+			<MetaKeyword>
+				age-related hearing loss
+			</MetaKeyword>
+			<MetaKeyword>
+				noise-related hearing loss
+			</MetaKeyword>
+			<MetaKeyword>
+				cochlear implant
+			</MetaKeyword>
+			<MetaKeyword>
+				cochler implant
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hearing loss that occurs gradually as you age (presbycusis) is common. According to the National Institutes of Health, an estimated one-third of people in the United States between the ages of 65 and 75 and close to one-half of those older than 75 have some degree of hearing loss. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors believe that heredity and chronic exposure to loud noises are the main factors that contribute to hearing loss over time. Other factors, such as earwax blockage, can prevent your ears from conducting sounds as well as they should. 
+&lt;/p&gt;
+&lt;p&gt;
+You can&apos;t reverse hearing loss. However, you don&apos;t have to live in a world of muted, less distinct sounds. You and your doctor or hearing specialist can take steps to improve what you hear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of hearing loss may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muffling of speech and other sounds&lt;/li&gt;
+	&lt;li&gt;Difficulty understanding words, especially against background noise or in a crowd of people&lt;/li&gt;
+	&lt;li&gt;Frequently asking others to speak more slowly, clearly and loudly&lt;/li&gt;
+	&lt;li&gt;Needing to turn up the volume of the television or radio&lt;/li&gt;
+	&lt;li&gt;Withdrawal from conversations&lt;/li&gt;
+	&lt;li&gt;Avoidance of some social settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Talk to your doctor if difficulty hearing is interfering with your daily life. Your hearing may have deteriorated if you find that it&apos;s harder to understand everything that&apos;s said in conversation, especially when there&apos;s background noise; if sounds seem muffled; or if you find yourself having to turn the volume higher when you listen to music, the radio or television. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some causes of hearing loss include damage to the inner ear, a buildup of earwax, infections and a ruptured eardrum. To understand how hearing loss occurs, it can be helpful to understand how you hear. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How you hear&lt;/strong&gt;&lt;br /&gt;
+Hearing occurs when sound waves reach the structures inside your ear, where the sound wave vibrations are converted into nerve signals that your brain recognizes as sound. 
+&lt;/p&gt;
+&lt;p&gt;
+Your ear consists of three major areas: outer ear, middle ear and inner ear. Sound waves pass through the outer ear and cause vibrations at the eardrum. The eardrum and three small bones of the middle ear &amp;mdash; the hammer, anvil and stirrup &amp;mdash; amplify the vibrations as they travel to the inner ear. There, the vibrations pass through fluid in the cochlea, a snail-shaped structure in the inner ear. 
+&lt;/p&gt;
+&lt;p&gt;
+Attached to nerve cells in the cochlea are thousands of tiny hairs that help translate sound vibrations into electrical signals that are transmitted to your brain. The vibrations of different sounds affect these tiny hairs in different ways, causing the nerve cells to send different signals to your brain. That&apos;s how you distinguish one sound from another. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How hearing loss can occur&lt;/strong&gt; &lt;br /&gt;
+Causes of hearing loss include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to the inner ear.&lt;/strong&gt; Aging and prolonged exposure to loud noise may cause wear and tear on the hairs or nerve cells in the cochlea that send sound signals to the brain. When these hairs or nerve cells are damaged or missing, electrical signals aren&apos;t transmitted as efficiently, and hearing loss occurs. Higher pitched tones may become muffled to you. It may become difficult for you to pick out words against background noise. Heredity may make you more prone to these changes. This type of hearing loss is known as sensorineural hearing loss, which is permanent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A gradual buildup of earwax.&lt;/strong&gt; Earwax can block the ear canal and prevent conduction of sound waves. Earwax blockage is a cause of hearing loss among people of all ages. This causes conductive hearing loss, which usually can be restored with earwax removal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ear infection and abnormal bone growths or tumors.&lt;/strong&gt; In the outer or middle ear, any of these can cause hearing loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ruptured eardrum (tympanic membrane perforation).&lt;/strong&gt; Loud blasts of noise, sudden changes in pressure, poking your eardrum with an object and infection can cause your eardrum to rupture and affect your hearing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inside of your ear 
+" Caption="The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by a narrow passageway called the eustachian tube. The cochlea, a snail-shaped structure, is part of your inner ear.
+" Height="60" Title="Middle ear" URI="/images/image_popup/thumbs/ww5rp36t.jpg" Width="60" />
+				<Image Alt="Illustration showing inside of your ear 
+" Caption="The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by a narrow passageway called the eustachian tube. The cochlea, a snail-shaped structure, is part of your inner ear.
+" Height="299" Title="Middle ear" URI="/images/image_popup/ww5rp36.jpg" Width="400" />
+				<HTML>
+					The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may damage or lead to loss of the hairs and nerve cells in your inner ear include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; Exposure to sounds over the years can damage the cells of your inner ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Your genetic makeup may make you more susceptible to ear damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational noises.&lt;/strong&gt; Jobs where loud noise is a regular part of the working environment, such as farming, construction or factory work, can lead to damage inside your ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recreational noises.&lt;/strong&gt; Exposure to explosive noises, such as from firearms and fireworks, can cause immediate, permanent hearing loss. Other recreational activities with dangerously high noise levels include snowmobiling, motorcycling or listening to loud music. Personal music players, such as MP3 players, can cause lasting hearing loss if you turn the volume up high enough to mask the sound of other loud noises, such as those from a lawn mower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some medications.&lt;/strong&gt; Drugs, such as the antibiotic gentamicin and certain chemotherapy drugs, can damage the inner ear. Temporary effects on your hearing &amp;mdash; ringing in the ear (tinnitus) or hearing loss &amp;mdash; can occur if you take very high doses of aspirin, other pain relievers, antimalarial drugs or loop diuretics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some illnesses.&lt;/strong&gt; Diseases or illnesses that result in high fever, such as meningitis, may damage the cochlea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Comparing loudness of common sounds&lt;/strong&gt; &lt;br /&gt;
+What kind of decibel levels are you exposed to during a typical day? To give you an idea, compare noises around you to these specific sounds and their corresponding decibel levels: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot;&gt;Sound levels of common noises &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Decibels&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Noise source&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&amp;nbsp; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Safe range&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;30 &lt;/td&gt;
+			&lt;td&gt;Whisper &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;60 &lt;/td&gt;
+			&lt;td&gt;Normal conversation &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;70 &lt;/td&gt;
+			&lt;td&gt;Washing machine &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&amp;nbsp; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Risk range&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;85 to 90 &lt;/td&gt;
+			&lt;td&gt;Heavy city traffic, power lawn mower, hair dryer &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;95 &lt;/td&gt;
+			&lt;td&gt;Motorcycle &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;100 &lt;/td&gt;
+			&lt;td&gt;Snowmobile, hand drill &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;110 &lt;/td&gt;
+			&lt;td&gt;Chain saw, rock concert &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&amp;nbsp; &lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Injury range&lt;/strong&gt; &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;120 &lt;/td&gt;
+			&lt;td&gt;Ambulance siren &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;140 (pain threshold) &lt;/td&gt;
+			&lt;td&gt;Jet engine at takeoff &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;165 &lt;/td&gt;
+			&lt;td&gt;12-guage shotgun blast &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;180 &lt;/td&gt;
+			&lt;td&gt;Rocket launch &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;span class=&quot;fineprint&quot;&gt;Adapted from National Institute on Deafness and Other Communication Disorders, 2008; the National Institute for Occupational Safety and Health, 2009; and American Tinnitus Association, 2009&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Maximum sound-exposure durations&lt;/strong&gt;&lt;br /&gt;
+Below are the maximum noise levels on the job to which you may be exposed without hearing protection, and for how long. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot;&gt;Maximum job-noise exposure allowed by law &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Sound level, decibels&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Duration, daily&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;90&lt;/td&gt;
+			&lt;td&gt;8 hours&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;92 &lt;/td&gt;
+			&lt;td&gt;6 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;95 &lt;/td&gt;
+			&lt;td&gt;4 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;97 &lt;/td&gt;
+			&lt;td&gt;3 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;100 &lt;/td&gt;
+			&lt;td&gt;2 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;102 &lt;/td&gt;
+			&lt;td&gt;1.5 hours &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;105 &lt;/td&gt;
+			&lt;td&gt;1 hour &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;110 &lt;/td&gt;
+			&lt;td&gt;30 minutes &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;115 &lt;/td&gt;
+			&lt;td&gt;15 minutes or less &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;span class=&quot;fineprint&quot;&gt;Source: Department of Labor&apos;s Occupational Safety &amp; Health Administration, 2005&lt;/span&gt; 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hearing loss can have a significant effect on your quality of life. Among older adults with hearing loss, commonly reported problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;An often false sense that others are angry with you&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unfortunately, most people affected by hearing loss live with these difficulties for years before seeking treatment &amp;mdash; or never seek treatment at all. This also may cause lasting problems for those who love you, if you try to cope by denying your hearing loss or withdrawing from social interactions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Benefits of treatment&lt;/strong&gt; &lt;br /&gt;
+Getting treatment can improve your quality of life dramatically. People who use hearing aids report these benefits: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Greater self-confidence&lt;/li&gt;
+	&lt;li&gt;Closer relationships with loved ones&lt;/li&gt;
+	&lt;li&gt;Improved outlook on life, overall&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Family and friends of people who have begun using a hearing aid are even more likely to report these improvements in shared quality of life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Only a small minority of people with hearing loss seek treatment, but those who do report dramatic improvements in their relationships and quality of life. If you suspect you may have hearing loss, call your doctor. After an initial evaluation, your doctor may refer you to a hearing specialist (audiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. Ask your loved ones to help you make the list. Friends and family may have noticed changes that aren&apos;t obvious to you, but they may be important for your doctor to know.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; especially related to any problems you&apos;ve had with your ears. Your doctor will want to know about chronic infections, injury to your ear or previous ear surgery. Also list any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Summarize your work history,&lt;/strong&gt; including any jobs, even those in the distant past, that exposed you to high noise levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Someone who accompanies you can help you absorb all the information from the doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Having a list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For hearing loss, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the possible causes of my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what else might be causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I stop taking any of my current medications?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How would you describe your symptoms?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms come on suddenly?&lt;/li&gt;
+	&lt;li&gt;Do you have ringing, roaring or hissing in your ears?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include dizziness or balance problems?&lt;/li&gt;
+	&lt;li&gt;Do you have pain in the affected ear?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of ear infections, ear trauma or ear surgery?&lt;/li&gt;
+	&lt;li&gt;Have you ever worked in a job that exposed you to loud noise, flown airplanes or been in combat in the military?&lt;/li&gt;
+	&lt;li&gt;Do you have any close relatives who have been affected by hearing loss?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;Does your family complain that you turn up the volume of the television or radio too high?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble understanding someone who is talking to you in a low voice?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble understanding someone who is speaking to you on the telephone?&lt;/li&gt;
+	&lt;li&gt;Do you frequently need to ask others to speak up or repeat themselves during conversation?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble hearing someone in a noisy setting, such as a crowded restaurant?&lt;/li&gt;
+	&lt;li&gt;Can you follow a conversation in which more than two people are speaking at once?&lt;/li&gt;
+	&lt;li&gt;Can you hear a coin hitting the floor?&lt;/li&gt;
+	&lt;li&gt;Can you hear a door closing?&lt;/li&gt;
+	&lt;li&gt;Can you hear when someone approaches you from behind?&lt;/li&gt;
+	&lt;li&gt;How are your hearing problems affecting your life, including your close relationships?&lt;/li&gt;
+	&lt;li&gt;Would you be willing to use a hearing aid if needed?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to diagnose hearing loss may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;General screening tests.&lt;/strong&gt; Your doctor may ask you to cover one ear at a time to see how well you hear words spoken at various volumes and how you respond to other sounds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tuning fork tests.&lt;/strong&gt; Tuning forks are two-pronged, metal instruments that produce sounds when struck. Simple tests with tuning forks can help your doctor detect hearing loss. A tuning fork evaluation may also reveal whether hearing loss is caused by damage to the vibrating parts of your middle ear (including your eardrum), damage to sensors or nerves of your inner ear, or damage to both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Audiometer tests.&lt;/strong&gt; During these more-thorough tests conducted by an audiologist, you wear earphones and hear sounds directed to one ear at a time. The audiologist presents a range of sounds of various tones and asks you to indicate each time you hear the sound. Each tone is repeated at faint levels to find out when you can barely hear. The audiologist will also present various words to determine your hearing ability.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have hearing problems, help is available. Treatment depends on the cause and severity of your hearing loss. 
+&lt;/p&gt;
+&lt;p&gt;
+Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing wax blockage.&lt;/strong&gt; Earwax blockage is a common reversible cause of hearing loss. Your doctor may remove earwax by loosening it with oil and then flushing, scooping or suctioning the softened wax out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing aids.&lt;/strong&gt; If your hearing loss is due to damage to your inner ear, a hearing aid can help by making sounds stronger and easier for you to hear. An audiologist can discuss with you the potential benefits of using a hearing aid, recommend a device and fit you with it. In some cases, you may be satisfied with an inexpensive, over-the-ear microphone device available at electronic stores. You may need to try more than one device to find one that works well for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cochlear implants.&lt;/strong&gt; If you have severe hearing loss, a cochlear implant may be an option for you. Unlike a hearing aid that amplifies sound and directs it into your ear canal, a cochlear implant compensates for damaged or nonworking parts of your inner ear. If you&apos;re considering a cochlear implant, your audiologist, along with a medical doctor who specializes in disorders of the ears, nose and throat (ENT), can discuss the risks and benefits with you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of hearing aid with common parts labeled 
+" Caption="Hearing aids use these parts to help channel and amplify sound from your environment into your ear &amp;mdash; microphone (detects the sound), amplifier (makes the sound stronger), speaker (sends the sound into your ear so that you can hear it), battery (provides power to the electronic parts) and volume control (increases or decreases the volume of the sound). 
+" Height="60" Title="Hearing aid parts" URI="/images/image_popup/thumbs/ha7_hearingaidpartsthu.jpg" Width="60" />
+				<Image Alt="Image of hearing aid with common parts labeled 
+" Caption="Hearing aids use these parts to help channel and amplify sound from your environment into your ear &amp;mdash; microphone (detects the sound), amplifier (makes the sound stronger), speaker (sends the sound into your ear so that you can hear it), battery (provides power to the electronic parts) and volume control (increases or decreases the volume of the sound). 
+" Height="400" Title="Hearing aid parts" URI="/images/image_popup/ha7_hearingaidparts.jpg" Width="400" />
+				<HTML>
+					Hearing aids use these parts to help channel and amplify sound from your environment into your ear &amp;mdash; microphone (detects the sound), amplifier (makes the sound stronger), speaker (sends the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of common hearing aid styles 
+" Caption="Many choices of hearing aid styles are available, including those that are completely in the canal (A), in the canal (B), in the ear (C) and behind the ear (D). 
+" Height="60" Title="Hearing aid styles" URI="/images/image_popup/thumbs/ha7_hearingaidstylesthu.jpg" Width="60" />
+				<Image Alt="Image of common hearing aid styles 
+" Caption="Many choices of hearing aid styles are available, including those that are completely in the canal (A), in the canal (B), in the ear (C) and behind the ear (D). 
+" Height="251" Title="Hearing aid styles" URI="/images/image_popup/ha7_hearingaidstyles.jpg" Width="400" />
+				<HTML>
+					Many choices of hearing aid styles are available, including those that are completely in the canal (A), in the canal (B), in the ear (C) and behind the ear (D). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing how cochlear implants work 
+" Caption="Cochlear implants use an external microphone and speech processor that you generally wear behind your ear. A transmitter sends radiofrequency signals to a surgically implanted electronic chip, the receiver-stimulator, which stimulates the auditory nerve with electrodes that have been threaded through the cochlea. 
+" Height="60" Title="How cochlear implants work" URI="/images/image_popup/thumbs/ans7_cochlearimplant09thu.jpg" Width="60" />
+				<Image Alt="Image showing how cochlear implants work 
+" Caption="Cochlear implants use an external microphone and speech processor that you generally wear behind your ear. A transmitter sends radiofrequency signals to a surgically implanted electronic chip, the receiver-stimulator, which stimulates the auditory nerve with electrodes that have been threaded through the cochlea. 
+" Height="380" Title="How cochlear implants work" URI="/images/image_popup/ans7_cochlearimplant09.jpg" Width="400" />
+				<HTML>
+					Cochlear implants use an external microphone and speech processor that you generally wear behind your ear. A transmitter sends radiofrequency signals to a surgically implanted electronic chip, the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These tips can help you to communicate more easily despite your hearing loss: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Position yourself to hear.&lt;/strong&gt; Face the person with whom you&apos;re having a conversation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Turn off background noise.&lt;/strong&gt; For example, noise from a television may interfere with conversation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask others to speak clearly.&lt;/strong&gt; Most people will be helpful if they know you&apos;re having trouble hearing them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose quiet settings.&lt;/strong&gt; In public, such as in a restaurant or at a social gathering, choose a place to talk that&apos;s away from noisy areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider using an assistive listening device.&lt;/strong&gt; Hearing devices, such as TV-listening systems or telephone-amplifying devices, can help you hear better while decreasing other noises around you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hearing loss prevention consists of steps you can take to help you prevent noise-induced hearing loss and avoid worsening of age-related hearing loss: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your ears in the workplace.&lt;/strong&gt; Specially designed earmuffs that resemble earphones can protect your ears by bringing most loud sounds down to an acceptable level. Foam, pre-formed, or custom-molded earplugs made of plastic or rubber also can effectively protect your ears from damaging noise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have your hearing tested.&lt;/strong&gt; Consider regular hearing tests if you work in a noisy environment. Regular testing of your ears can provide early detection of hearing loss. Knowing you&apos;ve lost some hearing means you&apos;re in a position to take steps to prevent further hearing loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid recreational risks.&lt;/strong&gt; Some activities, such as riding a snowmobile, hunting and listening to extremely loud music for long periods of time, can damage your hearing. Wearing hearing protectors or taking breaks from the noise during loud recreational activities can protect your ears. Turning down the volume when listening to music can help you avoid damage to your hearing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hearing loss
+	</Title>
+	<Abstract>
+		Hearing loss &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of age- and noise-related hearing loss.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="EI00027" LinkType="Internal" ObjectID="F999AA93-1811-4BB8-B99F30B4F928D284" Title="Slide show: How you hear" Url="http://www.mayoclinic.com/health/ear-infections/EI00027" />
+		<LinkItem ContentType="Answer" DocID="AN01963" LinkType="Internal" ObjectID="46B2486B-0A80-66F8-781A01775DCEBD11" Title="Cochlear implants: Who are they for?" Url="http://www.mayoclinic.com/health/cochlear-implants/AN01963" />
+		<LinkItem ContentType="Answer" DocID="AN01853" LinkType="Internal" ObjectID="10E4AB42-E7FF-0DBD-12BEDCAEA18FD0A2" Title="High-frequency hearing loss: Can hearing aids help?" Url="http://www.mayoclinic.com/health/high-frequency-hearing-loss/AN01853" />
+		<LinkItem ContentType="Disease" DocID="DS00052" LinkType="Internal" ObjectID="E696E3F0-D762-4AC8-8B1B24E518E02836" Title="Earwax blockage" Url="http://www.mayoclinic.com/health/earwax-blockage/DS00052" />
+		<LinkItem ContentType="Disease" DocID="DS00499" LinkType="Internal" ObjectID="6431C594-9F82-4659-AC4BD625ADA682FD" Title="Ruptured eardrum (perforated eardrum)" Url="http://www.mayoclinic.com/health/ruptured-eardrum/DS00499" />
+		<LinkItem ContentType="Disease" DocID="DS00473" LinkType="Internal" ObjectID="175EBBB9-3436-4B88-B7AC655D9A36341F" Title="Swimmer&apos;s ear" Url="http://www.mayoclinic.com/health/swimmers-ear/DS00473" />
+		<LinkItem ContentType="Article" DocID="HQ00812" LinkType="Internal" ObjectID="0FAE9D11-D3F7-4FFE-AC6ADA78BB38FC24" Title="Hearing aids: How to choose the right one" Url="http://www.mayoclinic.com/health/hearing-aids/HQ00812" />
+	</RelatedLinksBox>
+</Disease>

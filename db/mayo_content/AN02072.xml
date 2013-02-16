@@ -1,0 +1,146 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02072
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rosacea-treatment/AN02072
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-08
+		</UpdateDate>
+		<PublicationDate>
+			2010-05-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2817" Title="Rosacea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9FED3368-AC94-6BE3-9B063989442244C1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rosacea treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				light therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				rosacea therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				light therapy for rosacea
+			</MetaKeyword>
+			<MetaKeyword>
+				acne rosacea
+			</MetaKeyword>
+			<MetaKeyword>
+				red face
+			</MetaKeyword>
+			<MetaKeyword>
+				rosacea treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				rosacea symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				rosacia
+			</MetaKeyword>
+			<MetaKeyword>
+				rosaceae
+			</MetaKeyword>
+			<MetaKeyword>
+				rosacae
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Intense pulsed light therapy, which uses high-intensity pulses of light to reach the deeper layers of skin, may help treat symptoms of rosacea. Studies show that light therapy may reduce the appearance of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Facial redness&lt;/li&gt;
+	&lt;li&gt;Flushing&lt;/li&gt;
+	&lt;li&gt;Telangiectasia &amp;mdash; visible small blood vessels on the nose and cheeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Light therapy, which involves multiple sessions over the course of several weeks, may be most beneficial if your symptoms don&apos;t improve with traditional rosacea treatment, such as prescription medications. Side effects are usually minimal, but they can include temporary redness and bruising.
+&lt;/p&gt;
+&lt;p&gt;
+Though early studies show benefits, more research is needed to determine how long the light therapy treatments are effective for rosacea and what the long-term risks might be. If you experience persistent rosacea, talk to your doctor to see if light therapy is a rosacea treatment option for you.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of rosacea on light skin 
+" Caption="Changes typical of rosacea are redness of the cheeks, nose and central face, with small red bumps or pustules. 
+" Height="60" Title="Rosacea on light skin" URI="/images/image_popup/thumbs/sn7_rosacea_1thu.jpg" Width="60" />
+				<Image Alt="Image of rosacea on light skin 
+" Caption="Changes typical of rosacea are redness of the cheeks, nose and central face, with small red bumps or pustules. 
+" Height="300" Title="Rosacea on light skin" URI="/images/image_popup/sn7_rosacea_1.jpg" Width="400" />
+				<HTML>
+					Changes typical of rosacea are redness of the cheeks, nose and central face, with small red bumps or pustules. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Rosacea treatment: Can light therapy reduce symptoms?
+	</Title>
+	<Abstract>
+		Rosacea treatment &amp;mdash; Light therapy may be helpful for some people.
+	</Abstract>
+	<Question>
+		My facial redness doesn&apos;t seem to improve with rosacea medications. Is light therapy a better rosacea treatment?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01177" LinkType="Internal" ObjectID="D2D8BB02-B8DA-6584-F59921BC15AB3B7A" Title="Ocular rosacea" Url="http://www.mayoclinic.com/health/ocular-rosacea/DS01177" />
+		<LinkItem ContentType="Disease" DocID="DS00308" LinkType="Internal" ObjectID="7D4B53A9-B00D-43A2-AA297FBFA712413E" Title="Rosacea" Url="http://www.mayoclinic.com/health/rosacea/DS00308" />
+	</RelatedLinksBox>
+</Answer>

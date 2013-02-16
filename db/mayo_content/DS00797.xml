@@ -1,0 +1,366 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00797
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pseudomembranous-colitis/DS00797
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-05
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1452" Title="Intestines">
+						<Keyword MCVID="1852" Title="Inflammatory bowel disease">
+							<Keyword MCVID="3179" Title="Pseudomembranous colitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			414F7E32-E7FF-0DBD-1F66FFC8F46CEF72
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pseudomembranous colitis
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				Clostridium difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				c diff
+			</MetaKeyword>
+			<MetaKeyword>
+				toxic megacolon
+			</MetaKeyword>
+			<MetaKeyword>
+				clostridium difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				C. difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				c. difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				C difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				c difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				difficile
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pseudomembranous colitis is inflammation of the colon that occurs in some people who have taken antibiotics. Pseudomembranous colitis is sometimes called antibiotic-associated colitis or C. difficile colitis. The inflammation in pseudomembranous colitis is almost always associated with an overgrowth of the bacterium Clostridium difficile. 
+&lt;/p&gt;
+&lt;p&gt;
+Severe pseudomembranous colitis can be life-threatening. However, treatment is usually successful. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of pseudomembranous colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea that can be watery and sometimes bloody&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps and pain&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Pus or mucus in your stool&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms of pseudomembranous colitis can begin within one to two days after you begin taking an antibiotic, or several weeks after you discontinue taking the antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you&apos;re taking or have recently taken antibiotics and you develop any of the signs or symptoms associated with pseudomembranous colitis, including constant diarrhea, abdominal pain, and blood or pus in your stool.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pseudomembranous colitis occurs when harmful bacteria in your colon &amp;mdash; usually C. difficile &amp;mdash; release strong toxins which irritate the colon. Harmful bacteria are normally kept in check by the healthy bacteria in your digestive system, but the balance between healthy and harmful bacteria can be upset by antibiotics and other medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Virtually any antibiotic can cause pseudomembranous colitis. Antibiotics most commonly associated with pseudomembranous colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quinolones, such as ciprofloxacin (Cipro) and levofloxacin (Levaquin)&lt;/li&gt;
+	&lt;li&gt;Penicillins, such as amoxicillin and ampicillin&lt;/li&gt;
+	&lt;li&gt;Clindamycin (Cleocin)&lt;/li&gt;
+	&lt;li&gt;Cephalosporins, such as cefixime (Suprax)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;/strong&gt;&lt;br /&gt;
+Although antibiotics are the drugs most associated with the development of pseudomembranous colitis, other medications may be responsible. Chemotherapy may sometimes disrupt the bacteria within the intestines of people being treated for cancer and trigger the development of pseudomembranous colitis. It can also develop in people with diseases that affect the colon, such as ulcerative colitis or Crohn&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+C. difficile spores are resistant to many common disinfectants and can be transmitted from the hands of health care professionals to patients. Increasingly, C. difficile has been reported in people with no known risk factors, including people with no recent health care contact or use of antibiotics. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of pseudomembranous colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Taking antibiotics&lt;/li&gt;
+	&lt;li&gt;Staying in the hospital or a nursing home&lt;/li&gt;
+	&lt;li&gt;Increasing age, especially over 65 years&lt;/li&gt;
+	&lt;li&gt;Having a weakened immune system&lt;/li&gt;
+	&lt;li&gt;Having a colon disease, such as inflammatory bowel disease or colorectal cancer&lt;/li&gt;
+	&lt;li&gt;Undergoing intestinal surgery&lt;/li&gt;
+	&lt;li&gt;Receiving chemotherapy treatment for cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+By the time your doctor detects pseudomembranous colitis, you may already be seriously ill. If the condition isn&apos;t successfully treated when diagnosed, a number of complications can develop, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormally low levels of potassium&lt;/strong&gt; in your blood (hypokalemia), due to the loss of potassium during excessive diarrhea&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration leading to abnormally low blood pressure&lt;/strong&gt; (hypotension), related to significant loss of fluids and electrolytes due to diarrhea&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recurrence&lt;/strong&gt; of pseudomembranous colitis, days or even weeks after initial treatment&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure,&lt;/strong&gt; due to severe dehydration resulting from diarrhea&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A hole in your bowel&lt;/strong&gt; (perforated colon), which can lead to an infection of your abdominal cavity&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxic megacolon,&lt;/strong&gt; a rare but serious swelling of the colon, leaving it incapable of expelling gas and stool, which could cause your colon to rupture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people respond well to treatment. But pseudomembranous colitis can be fatal without effective treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Based on your signs and symptoms, you may be referred to a specialist in digestive diseases (gastroenterologist). If your signs and symptoms are severe, you may be directed to emergency medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; including restricting your diet or not taking certain medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including the names of all medications that you&apos;re currently taking or that you&apos;ve taken during the last month or so. Your doctor will also want to know about other conditions for which you&apos;ve recently been treated, including any procedures or hospitalizations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along &lt;/strong&gt;to help remember things.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions &lt;/strong&gt;to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;p&gt;
+Questions to ask your doctor 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to prevent a recurrence of this condition?&lt;/li&gt;
+	&lt;li&gt;If my symptoms do recur, what treatment options will be available?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Be ready to answer questions your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;During the last several weeks, have you taken antibiotics, had a surgical procedure or been hospitalized?&lt;/li&gt;
+	&lt;li&gt;Is anyone at home sick with diarrhea, or has anyone at home been hospitalized in the last several weeks?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with diarrhea related to C. difficile or antibiotics?&lt;/li&gt;
+	&lt;li&gt;Do you have ulcerative colitis or Crohn&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently to areas with an unsafe water supply?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms stayed the same or gotten worse?&lt;/li&gt;
+	&lt;li&gt;Are you having abdominal pain?&lt;/li&gt;
+	&lt;li&gt;Do you have diarrhea? Is there blood or pus in your stools? Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you&apos;re waiting for your appointment, drink plenty of fluids and stick to bland foods to help you cope with diarrhea. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose pseudomembranous colitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stool sample.&lt;/strong&gt; Tests of one or more stool samples often can determine whether C. difficile is present in your colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; They may reveal an abnormally high white blood cell count (leukocytosis), which may indicate pseudomembranous colitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy or sigmoidoscopy.&lt;/strong&gt; In both of these tests, your doctor uses a tube with a miniature camera at its tip to examine the interior of your colon for signs of pseudomembranous colitis. If you have pseudomembranous colitis, the exam may show raised, yellow plaques (lesions) in your colon, as well as swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may obtain an abdominal X-ray or an abdominal CT scan if you have severe symptoms to look for complications such as toxic megacolon or colon rupture.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for pseudomembranous colitis often begins with stopping the antibiotic medication that&apos;s thought to be causing your signs and symptoms. Sometimes, this may be enough to resolve your condition or at least ease signs, such as diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Switching to a different antibiotic&lt;/strong&gt;&lt;br /&gt;
+If you still experience signs and symptoms, your doctor may recommend an antibiotic that is effective against C. difficile or other bacteria in your colon. Although it may seem strange to use antibiotics to treat a disorder caused by antibiotics, treatment with different antibiotics to eliminate C. difficile allows the normal bacteria to grow back, restoring the balance of bacteria in your colon. 
+&lt;/p&gt;
+&lt;p&gt;
+The antibiotics used to treat pseudomembranous colitis are usually given by mouth. However, you may be treated with these drugs intravenously or through a tube inserted through your nose and threaded into your stomach (nasogastric tube). Once you begin treatment for pseudomembranous colitis, signs and symptoms may begin to improve within a few days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating recurring signs and symptoms&lt;/strong&gt;&lt;br /&gt;
+Even in people who are treated successfully, pseudomembranous colitis can return weeks to months after treatment has been completed. In these cases, treatment options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;More antibiotics.&lt;/strong&gt; You may need a second or third round of antibiotics to resolve your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Surgery may be an option in people who have progressive organ failure, rupture of the colon and inflammation of the lining of the abdominal wall (peritonitis). Surgery typically involves removing a portion of the colon (partial colectomy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fecal replacement therapy.&lt;/strong&gt; Healthy stool, usually from a close relative or member of your household, is homogenized and then inserted into your colon. The donor stool can restore the balance of healthy bacteria in your colon. Fecal replacement is a new therapy that has been used successfully at Mayo Clinic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing recurrences &lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve experienced multiple episodes of pseudomembranous colitis that haven&apos;t responded to treatment with antibiotics, you may opt to try: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Probiotic treatment.&lt;/strong&gt; Probiotics are concentrated supplements of good bacteria and yeasts that come in capsule or liquid form. You take these supplements by mouth. It&apos;s thought that the bacteria in the supplement travel to your colon to help fight the bad bacteria. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To cope with the diarrhea &amp;mdash; and subsequent dehydration &amp;mdash; that can occur with pseudomembranous colitis, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Water is best, but fluids with added sodium and potassium (electrolytes) also may be beneficial. Avoid beverages that are high in sugar or contain alcohol or caffeine, such as coffee, tea and colas, which can aggravate your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose soft, easy-to-digest foods.&lt;/strong&gt; These include applesauce, bananas and rice. Avoid high-fiber foods, such as beans, nuts and vegetables. If you feel your symptoms are improving, slowly add high-fiber foods back to your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat several small meals, rather than a few large meals.&lt;/strong&gt; Space the smaller meals throughout the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritating foods.&lt;/strong&gt; Stay away from spicy, fatty or fried foods, and any other foods that make your symptoms worse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pseudomembranous colitis
+	</Title>
+	<Abstract>
+		Pseudomembranous colitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this inflammatory colon condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+		<LinkItem ContentType="Disease" DocID="DS00736" LinkType="Internal" ObjectID="E5072DC5-E7FF-0DBD-10B9F55ADCF69F67" Title="C. difficile" Url="http://www.mayoclinic.com/health/c-difficile/DS00736" />
+	</RelatedLinksBox>
+</Disease>

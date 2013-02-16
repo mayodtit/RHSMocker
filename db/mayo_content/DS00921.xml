@@ -1,0 +1,407 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00921
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/antiphospholipid-syndrome/DS00921
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1717" Title="Bleeding and clotting">
+						<Keyword MCVID="2737" Title="Antiphospholipid syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87E24276-E7FF-0DBD-1F1CD48DC8D9430E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				antiphospholipid syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				antiphospholipid antibody syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Hughes syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				APS
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antiphospholipid syndrome is a disorder in which your immune system mistakenly produces antibodies against certain normal proteins in your blood. Antiphospholipid syndrome can cause blood clots to form within your arteries or veins as well as pregnancy complications, such as miscarriages and stillbirths.
+&lt;/p&gt;
+&lt;p&gt;
+Antiphospholipid syndrome may lead to the formation of blood clots in your legs, a condition known as deep vein thrombosis (DVT). Antiphospholipid syndrome may also cause blood clots to form in organs, such as your kidneys or lungs. Damage depends on the extent and location of the clot. For instance, a clot in your brain can cause stroke.
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for antiphospholipid syndrome, but medications can be effective in reducing your risk of blood clots.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of antiphospholipid syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood clots in your legs (deep vein thrombosis, or DVT) that may travel to your lungs (pulmonary embolism)&lt;/li&gt;
+	&lt;li&gt;Repeated miscarriages or stillbirths and other complications of pregnancy, such as premature delivery and high blood pressure during pregnancy (preeclampsia)&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other less common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological symptoms.&lt;/strong&gt; Chronic headaches, including migraines, dementia and seizures are possible when a blood clot blocks blood flow to parts of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rash.&lt;/strong&gt; Some people develop a red rash with a lacy, net-like pattern (livedo reticularis) on their wrists and knees.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; Heart valve problems are common among people with antiphospholipid syndrome. Heart valves open and close to keep blood flowing through your heart&apos;s four chambers in only one direction. Typically, the mitral valve &amp;mdash; the valve between your heart&apos;s upper left and lower left chambers &amp;mdash; develops masses or thickens, which can cause blood to leak backward through it (regurgitation). The aortic valve &amp;mdash; the valve between your heart&apos;s lower left chamber and aorta &amp;mdash; also may be affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Some people experience a decrease in platelets, blood cells necessary for normal clotting. If you have this condition (thrombocytopenia), you may have few or no symptoms. However, if your platelet count drops too low, you may have episodes of bleeding, particularly from your nose and gums. You can also bleed into your skin, which will appear as patches of small, red spots (petechiae).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Infrequent signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Movement disorder, in which your body and limbs jerk uncontrollably (chorea)&lt;/li&gt;
+	&lt;li&gt;Cognitive problems, such as poor memory&lt;/li&gt;
+	&lt;li&gt;Sudden hearing loss&lt;/li&gt;
+	&lt;li&gt;Mental health problems, such as depression or psychosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you already have an autoimmune condition, talk to your doctor about whether you should be tested for antiphospholipid antibodies. 
+&lt;/p&gt;
+&lt;p&gt;
+Other reasons to contact your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain or swelling in your leg or arm.&lt;/strong&gt; See your doctor especially if your vein is red, swollen or tender. Seek emergency care if vein swelling and pain are severe or are accompanied by a high fever or shortness of breath, which could indicate DVT and an increased chance of a blood clot traveling to your lungs (pulmonary embolism).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaginal spotting or bleeding during the first 20 weeks of your pregnancy.&lt;/strong&gt; This may be a sign of miscarriage. However, many women spot or bleed without miscarrying. If you&apos;ve had repeated pregnancy losses or unexplained severe complications of pregnancy, it could be related to antiphospholipid syndrome. Talk to your doctor about whether testing would be right for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have antiphospholipid syndrome and you&apos;re thinking of attempting pregnancy, treatments are available during your pregnancy. But be sure to seek the care of an expert obstetrical provider to discuss your options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When it&apos;s an emergency&lt;/strong&gt; &lt;br /&gt;
+Seek emergency care if you have certain other serious signs and symptoms. Look for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Signs and symptoms of stroke.&lt;/strong&gt; These include sudden numbness, weakness or paralysis of your face, arm or leg; sudden difficulty speaking or understanding speech; sudden visual disturbances; sudden, severe headache; and dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Signs and symptoms of pulmonary embolism.&lt;/strong&gt; These include sudden shortness of breath, chest pain and coughing up blood-streaked sputum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Signs and symptoms of deep vein thrombosis.&lt;/strong&gt; These include the development of leg swelling or pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="60" Title="Photograph of petechiae on leg and abdomen" URI="/images/image_popup/thumbs/ans7_petechiaethu.jpg" Width="60" />
+				<Image Alt="Photograph of petechiae on leg and abdomen 
+" Caption="Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+" Height="317" Title="Petechiae" URI="/images/image_popup/ans7_petechiae.jpg" Width="400" />
+				<HTML>
+					Petechiae may look like a rash and usually appear in clusters. Here they appear on a leg (A) and on an abdomen (B). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;The role of phospholipids&lt;/strong&gt; &lt;br /&gt;
+In antiphospholipid syndrome, your body mistakenly produces antibodies against proteins that bind phospholipids, a type of fat present in your blood that plays a key role in clotting (coagulation). Antibodies are specialized proteins that normally attack body invaders, such as viruses and bacteria. When antibodies attack your phospholipid-binding proteins, your blood may clot abnormally. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Classifications&lt;/strong&gt; &lt;br /&gt;
+There are two main classifications of antiphospholipid syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Primary.&lt;/strong&gt; If you have no other autoimmune disorder, such as systemic lupus erythematosus (SLE), you have primary antiphospholipid syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary.&lt;/strong&gt; If you do have lupus or another autoimmune disorder, your antiphospholipid syndrome is secondary.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With secondary antiphospholipid syndrome, the cause is considered to be your lupus or other autoimmune disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of primary antiphospholipid syndrome is unknown. However, some factors are associated with developing antiphospholipid antibodies &amp;mdash; though not necessarily developing the syndrome. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; People with syphilis, HIV infection, hepatitis C and malaria, among others, have a higher incidence of having antiphospholipid antibodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Taking certain drugs, such as the high blood pressure medication hydralazine, the heart rhythm-regulating medication quinidine, the anti-seizure medication phenytoin (Dilantin) and the antibiotic amoxicillin may lead to an increased risk.(&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic predispositions.&lt;/strong&gt; Although the disorder isn&apos;t considered hereditary, research indicates that relatives of people with antiphospholipid syndrome are more likely to have the antibodies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for antiphospholipid syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having an autoimmune condition, such as lupus or Sjogren&apos;s syndrome. This increases your risk of developing antiphospholipid antibodies.&lt;/li&gt;
+	&lt;li&gt;Having certain infections, such as syphilis or hepatitis C.&lt;/li&gt;
+	&lt;li&gt;Taking certain medications, such as hydralazine for high blood pressure.&lt;/li&gt;
+	&lt;li&gt;Having a family member with antiphospholipid syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Antiphospholipid syndrome occurs most frequently in young to middle-aged women, although it can occur at any age and also affects men. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors for developing symptoms&lt;/strong&gt; &lt;br /&gt;
+It&apos;s possible to have the antibodies associated with antiphospholipid syndrome without ever developing signs or symptoms. However, if you have these antibodies, your risk of developing blood clots increases particularly if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Become pregnant&lt;/li&gt;
+	&lt;li&gt;Remain immobile for a period of time (such as sitting during a long airline flight)&lt;/li&gt;
+	&lt;li&gt;Undergo surgery&lt;/li&gt;
+	&lt;li&gt;Smoke cigarettes&lt;/li&gt;
+	&lt;li&gt;Have high blood pressure or high cholesterol&lt;/li&gt;
+	&lt;li&gt;Take oral contraceptives&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on which organ is affected by a blood clot and how severe the obstruction of blood flow to that organ is, untreated antiphospholipid syndrome can lead to permanent damage or death. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; This can result from decreased blood flow to your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; Decreased blood flow to a part of your brain can cause a stroke, which can result in permanent neurological damage, such as partial paralysis and loss of speech (aphasia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular problems.&lt;/strong&gt; If a clot forms in your leg (deep vein thrombosis), the clot can damage the valves in the veins in your affected leg, which normally serve to keep the blood flowing upward to your heart. This may result in a condition called chronic venous insufficiency, which causes chronic swelling and discoloration in your lower legs, because of the impaired blood flow upward to your heart. Another possible complication is heart damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung problems.&lt;/strong&gt; Complications related to your lungs may include high blood pressure in your lungs (pulmonary hypertension) and pulmonary embolism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; These may include miscarriages, stillbirths, premature delivery and high blood pressure during pregnancy (preeclampsia).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, it&apos;s the complications of antiphospholipid syndrome &amp;mdash; such as deep vein thrombosis, stroke or pregnancy loss &amp;mdash; that will prompt you to seek medical care. Depending on your complication, you&apos;ll likely see a specialist. For deep vein thrombosis, for instance, you&apos;ll meet with a hematologist or a vascular specialist. For stroke, you&apos;ll see a neurologist, and for pregnancy loss or complications, you&apos;ll meet with your obstetrician or gynecologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, including what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs or symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to your main health problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major recent events or changes in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions or infections with which you&apos;ve been diagnosed. Be sure to mention if any close relatives have had antiphospholipid syndrome. Also write down the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For antiphospholipid syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need to take medications long term?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the medications you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How will you determine whether my treatment is working?&lt;/li&gt;
+	&lt;li&gt;Does this condition increase my risk of any other medical problems?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any diet or activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Does this condition increase my risk of health problems during pregnancy? Are treatment options available to reduce that risk?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a history of stroke or blood clots?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of pregnancy complications, such as high blood pressure, miscarriage or stillbirth?&lt;/li&gt;
+	&lt;li&gt;Do you have lupus or another autoimmune disorder?&lt;/li&gt;
+	&lt;li&gt;Have you ever been tested for sexually transmitted infections or chronic viral diseases, such as hepatitis?&lt;/li&gt;
+	&lt;li&gt;Have you experienced frequent headaches or migraines?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a red, net-like rash on your wrists or knees?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;What medications, vitamins or supplements are you currently taking?&lt;/li&gt;
+	&lt;li&gt;Do any of your close relatives have antiphospholipid syndrome?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have one or more episodes of thrombosis or pregnancy loss that are not explained by known health conditions, your doctor can schedule blood tests to check for abnormal clotting and for the presence of antibodies to phospholipid-binding proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood tests for antiphospholipid syndrome look for at least one of the following three antibodies in your blood: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lupus anticoagulant&lt;/li&gt;
+	&lt;li&gt;Anti-cardiolipin&lt;/li&gt;
+	&lt;li&gt;Beta-2 glycoprotein I (B2GPI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To confirm a diagnosis of antiphospholipid syndrome, the antibodies must appear in your blood at least twice, in tests conducted at least 12 weeks apart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors generally use medications that reduce your blood&apos;s tendency to clot to treat antiphospholipid syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Standard initial treatment&lt;/strong&gt; &lt;br /&gt;
+If you have thrombosis, standard initial treatment initially involves a combination of anticoagulant (blood-thinning) medications. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heparin.&lt;/strong&gt; Typically, you&apos;ll first be given a shot or infusion of the blood thinner heparin, combined with another blood thinner in pill form, likely warfarin (Coumadin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Warfarin.&lt;/strong&gt; After several days of combined heparin and warfarin, your doctor will discontinue the heparin and continue the warfarin, possibly for the rest of your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin.&lt;/strong&gt; In some cases, your doctor may recommend adding low-dose aspirin to your treatment plan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment during pregnancy&lt;/strong&gt; &lt;br /&gt;
+Anticoagulation therapy is particularly complex during pregnancy. The therapy is expensive, requires regular injections and carries some significant risks of side effects. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heparin.&lt;/strong&gt; Some forms of heparin &amp;mdash; enoxaparin (Lovenox) and dalteparin (Fragmin) &amp;mdash; are known as low molecular weight heparin, which you can inject yourself under your skin (subcutaneously). Heparin is considered safe to take during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin.&lt;/strong&gt; Along with heparin, your doctor may recommend taking one tablet of aspirin daily throughout your pregnancy to increase your chances of a successful pregnancy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, warfarin can cause birth defects, so it isn&apos;t usually recommended during pregnancy. Rarely, a doctor may prescribe warfarin during pregnancy, but only if the benefits of using it outweigh the risks. 
+&lt;/p&gt;
+&lt;p&gt;
+Though anticoagulation therapy during pregnancy may be complicated, the good news is that it usually prevents antiphospholipid syndrome-related miscarriages. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re taking anticoagulant medication, your doctor will monitor your dosage with blood tests to be sure your blood is capable of clotting enough to stop your bleeding if you bruise or cut yourself. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on your treatment plan for antiphospholipid syndrome, there are additional steps you can take to protect your health. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you take anticoagulants&lt;/strong&gt; &lt;br /&gt;
+If your antiphospholipid syndrome requires that you take anticoagulant medication, take extra precautions to keep from injuring yourself and to avoid bleeding. Follow these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid playing contact sports or engaging in other activities that could be dangerous or could cause you to fall.&lt;/li&gt;
+	&lt;li&gt;Use a softer toothbrush and waxed floss.&lt;/li&gt;
+	&lt;li&gt;Shave with an electric razor.&lt;/li&gt;
+	&lt;li&gt;Take extra care when using knives, scissors and other sharp tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain foods and medications may affect how well your anticoagulants work. Ask your doctor for guidance about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Safe dietary choices.&lt;/strong&gt; Vitamin K can lessen the effectiveness of warfarin. It&apos;s important to be consistent in how much vitamin K you get daily. The average daily allowance of vitamin K for adult men is 120 micrograms (mcg). For adult women, it&apos;s 90 mcg. While eating small amounts of foods that are rich in vitamin K shouldn&apos;t cause a problem, avoid eating large amounts of kale, spinach, Brussels sprouts, parsley, collard greens, mustard greens and chard. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	On the other hand, cranberry juice and alcohol may dangerously increase warfarin&apos;s blood-thinning effect. Ask your doctor for advice about limiting or avoiding your intake of these drinks. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Safe medications and dietary supplements.&lt;/strong&gt; Certain medicines, vitamins and herbal products may interact dangerously with warfarin. Those most likely to cause problems include over-the-counter pain relievers, cold medicines, stomach remedies or multivitamins, as well as garlic, ginkgo and green tea products.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;If you don&apos;t take anticoagulants&lt;/strong&gt; &lt;br /&gt;
+If you have antiphospholipid antibodies but do not take anticoagulant medication, take these precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tell any doctors performing your medical care that you have antiphospholipid antibodies.&lt;/li&gt;
+	&lt;li&gt;Ask your health care providers to take measures to help prevent deep vein thrombosis if you are immobilized due to surgery or other medical reasons.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t smoke.&lt;/li&gt;
+	&lt;li&gt;Take steps, such as reducing your cholesterol, to help prevent heart attack and stroke.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Antiphospholipid syndrome
+	</Title>
+	<Abstract>
+		Antiphospholipid syndrome &amp;mdash; Comprehensive overview covers causes, treatment of this disorder that may affect pregnancy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01622" LinkType="Internal" ObjectID="21B4B8AD-E7FF-0DBD-184184B15FD73F74" Title="Livedo reticularis: When is it a concern?" Url="http://www.mayoclinic.com/health/livedo-reticularis/AN01622" />
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+	</RelatedLinksBox>
+</Disease>

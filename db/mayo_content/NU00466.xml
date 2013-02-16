@@ -1,0 +1,208 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00466
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00466
+		</OriginalURL>
+		<UpdateDate>
+			2009-07-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			957015FB-B66B-4946-B930659BBFB286BB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Beef fajitas
+	</Title>
+	<Abstract>
+		&lt;p&gt;
+Beef fajitas &amp;mdash; one of many healthy recipes from Mayo Clinic. 
+&lt;/p&gt;
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; The traditional unleavened bread wrappers of Mexico, tortillas are a versatile way to add grains to your day. Tortillas divide into two basic categories: corn and wheat. Wheat tortillas, made from white flour, are often labeled &quot;flour tortillas.&quot; Whole-wheat tortillas are made from whole-grain flour.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a small bowl, stir together the chili powder, oregano, paprika, garlic powder, salt and pepper. Dredge the sirloin pieces in the seasonings, coating completely.
+&lt;/p&gt;
+&lt;p&gt;
+In a nonstick frying pan, cook the sirloin strips over medium heat until slightly pink, about 8 minutes. Add the onion and green pepper strips and saute until the vegetables are tender, about 5 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+To serve, spread an equal amount of the meat and vegetable mixture on each tortilla. Top each with 1 tablespoon cheese, 1/4 of the diced tomatoes, 1/2 cup shredded lettuce and 2 tablespoons salsa. Fold both sides of each tortilla up over the filling, and then roll to close. Serve immediately.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 tablespoon chili powder&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon ground oregano&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon paprika&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon garlic powder&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;Ground black pepper, to taste&lt;/li&gt;
+	&lt;li&gt;12 ounces beef sirloin, select grade, cut into strips 1/2 inch wide and 2 inches long&lt;/li&gt;
+	&lt;li&gt;1 red onion, cut into strips&lt;/li&gt;
+	&lt;li&gt;1 green bell pepper, cut into strips&lt;/li&gt;
+	&lt;li&gt;4 whole-wheat tortillas, about 8 inches in diameter, warmed in the microwave&lt;/li&gt;
+	&lt;li&gt;1/4 cup shredded sharp cheddar cheese&lt;/li&gt;
+	&lt;li&gt;2 medium tomatoes, diced&lt;/li&gt;
+	&lt;li&gt;2 cups shredded lettuce&lt;/li&gt;
+	&lt;li&gt;1/2 cup salsa&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				3
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1 1/2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				307
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				32 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				51 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				11 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				34 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				3 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 fajita
+			</Servingsize>
+			<Sodium Label="Sodium">
+				494 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				7 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

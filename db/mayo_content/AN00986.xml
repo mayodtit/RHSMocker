@@ -1,0 +1,116 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00986
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thyroid-disease/AN00986
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-14
+		</UpdateDate>
+		<PublicationDate>
+			2004-12-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			85005290-7257-4A7E-9FD2B48237018242
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperthyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				hypothyroidism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes, thyroid disease can affect your mood &amp;mdash; primarily causing either anxiety or depression. Generally, the more severe the thyroid disease, the more severe the mood changes.
+&lt;/p&gt;
+&lt;p&gt;
+If you have an overactive thyroid (hyperthyroidism), you may experience unusual nervousness, restlessness, anxiety and irritability. On the opposite end of the spectrum, if you have an underactive thyroid (hypothyroidism), you may experience mild to severe fatigue and depression. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, it&apos;s unlikely that emotional symptoms such as anxiety or depression would be the only evidence of thyroid disease. Thyroid disease is usually associated with signs and symptoms such as weight gain or loss, sensitivity to hot or cold, bowel movement changes, and menstrual irregularities.
+&lt;/p&gt;
+&lt;p&gt;
+Appropriate treatment &amp;mdash; such as medication that blocks your body&apos;s ability to produce new thyroid hormone or replaces missing thyroid hormone &amp;mdash; usually improves both emotional and physical symptoms caused by thyroid disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thyroid disease: Can it affect a person&apos;s mood?
+	</Title>
+	<Abstract>
+		Thyroid disease can affect mood, often causing anxiety or depression.
+	</Abstract>
+	<Question>
+		Can thyroid disease affect my mood?
+	</Question>
+	<QuestionFirstName>
+		No name given
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00069" LinkType="Internal" ObjectID="DCDC450F-B900-45AB-9CB724CB57A18105" Title="Hypothyroidism: Does it cause joint pain?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN00069" />
+		<LinkItem ContentType="Answer" DocID="AN01829" LinkType="Internal" ObjectID="BDEAE1F3-E7FF-0DBD-12F52C3F46A4B3B6" Title="Hypothyroidism: Should I take iodine supplements?" Url="http://www.mayoclinic.com/health/hypothyroidism-iodine/AN01829" />
+		<LinkItem ContentType="Answer" DocID="AN01367" LinkType="Internal" ObjectID="B0294326-E7FF-0DBD-1FF7944B49652A59" Title="Coconut oil: Can it cure hypothyroidism?" Url="http://www.mayoclinic.com/health/coconut-oil-thyroid/AN01367" />
+		<LinkItem ContentType="Answer" DocID="AN01942" LinkType="Internal" ObjectID="9F0C1E6F-E7FF-0DBD-12DF6CEF0C1E1EE4" Title="Hypothyroidism symptoms: Can hypothyroidism cause eye problems?" Url="http://www.mayoclinic.com/health/hypothyroidism-symptoms/AN01942" />
+		<LinkItem ContentType="Answer" DocID="AN01478" LinkType="Internal" ObjectID="52B04093-E7FF-0DBD-1A7AEB7E8BE436FC" Title="Hypothyroidism diet: Can certain foods increase thyroid function?" Url="http://www.mayoclinic.com/health/hypothyroidism-diet/AN01478" />
+		<LinkItem ContentType="Answer" DocID="AN00605" LinkType="Internal" ObjectID="3C8F3995-E45A-406A-B785837268AEED7B" Title="Graves&apos; dermopathy: How is it treated?" Url="http://www.mayoclinic.com/health/graves-dermopathy/AN00605" />
+		<LinkItem ContentType="Answer" DocID="AN00454" LinkType="Internal" ObjectID="3B8150D7-69CD-4FD7-9C06C34B5B7A0FFD" Title="Soy: Does it worsen hypothyroidism?" Url="http://www.mayoclinic.com/health/hyperthyroidism/AN00454" />
+		<LinkItem ContentType="Answer" DocID="AN01181" LinkType="Internal" ObjectID="31EFF038-31C4-40C8-89F40F5D41E852C8" Title="Hypothyroidism: Can calcium supplements interfere with treatment?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN01181" />
+		<LinkItem ContentType="Answer" DocID="AN01728" LinkType="Internal" ObjectID="04C74DCF-E7FF-0DBD-12218CAA16C82C96" Title="Wilson&apos;s syndrome: An accepted medical diagnosis?" Url="http://www.mayoclinic.com/health/wilsons-syndrome/AN01728" />
+		<LinkItem ContentType="Disease" DocID="DS00567" LinkType="Internal" ObjectID="FCFFE32E-DD9C-4CA8-BFC63EE472B00DAA" Title="Hashimoto&apos;s disease" Url="http://www.mayoclinic.com/health/hashimotos-disease/DS00567" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00217" LinkType="Internal" ObjectID="C536E64D-94D2-4027-8A03FD523178A27E" Title="Goiter" Url="http://www.mayoclinic.com/health/goiter/DS00217" />
+		<LinkItem ContentType="Disease" DocID="DS00181" LinkType="Internal" ObjectID="61F402CE-55BE-4D8A-8467053CAD40B475" Title="Graves&apos; disease" Url="http://www.mayoclinic.com/health/graves-disease/DS00181" />
+		<LinkItem ContentType="Disease" DocID="DS00491" LinkType="Internal" ObjectID="6014E6CA-8B4E-49B0-ACA1FC378D888DAE" Title="Thyroid nodules" Url="http://www.mayoclinic.com/health/thyroid-nodules/DS00491" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Answer>

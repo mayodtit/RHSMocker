@@ -1,0 +1,386 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00455
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hemochromatosis/DS00455
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-13
+		</UpdateDate>
+		<PublicationDate>
+			2002-10-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="2964" Title="Hemochromatosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			992CA155-2D99-4C3E-BDBF4F4470FE5B8F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hemochromatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hereditary hemochromatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hemocromatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				iron
+			</MetaKeyword>
+			<MetaKeyword>
+				iron overload
+			</MetaKeyword>
+			<MetaKeyword>
+				HH
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile hemochromatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				neonatal hemochromatosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hemochromotosis
+			</MetaKeyword>
+			<MetaKeyword>
+				hemachromatosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hereditary hemochromatosis (he-moe-kroe-muh-TOE-sis) causes your body to absorb too much iron from the food you eat. The excess iron is stored in your organs, especially your liver, heart and pancreas. The excess iron can poison these organs, leading to life-threatening conditions such as cancer, heart arrhythmias and cirrhosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people inherit the faulty genes that cause hemochromatosis &amp;mdash; it is the most common genetic disease in Caucasians. But only a minority of those with the genes develop serious problems. Hemochromatosis is more likely to be serious in men. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of hereditary hemochromatosis usually appear in midlife. Iron can be dropped to safe levels by regularly removing blood from your body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with hereditary hemochromatosis never have symptoms. Early signs and symptoms often are nonspecific, mimicking those of other common conditions. Common symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+First signs and symptoms of the disease in men are often from organ damage. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Loss of sex drive (libido)&lt;/li&gt;
+	&lt;li&gt;Impotence&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When signs and symptoms typically appear&lt;/strong&gt; &lt;br /&gt;
+Although hereditary hemochromatosis is present at birth, most people don&apos;t experience signs and symptoms until later in life &amp;mdash; usually between the ages of 50 and 60 in men and after age 60 in women. Women are more likely to develop symptoms after menopause, when they no longer lose iron with menstruation and pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you experience any of the signs and symptoms of hereditary hemochromatosis. If you have an immediate family member who has hemochromatosis, ask your doctor about genetic tests that can determine if you have inherited the gene that increases your risk of hemochromatosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hereditary hemochromatosis is caused by a mutation in a gene that controls the amount of iron your body absorbs from the food you eat. The mutations that cause hereditary hemochromatosis are passed from parents to children. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Gene mutations that cause hemochromatosis&lt;/strong&gt; &lt;br /&gt;
+The gene that is mutated most often in people with hereditary hemochromatosis is called HFE. You inherit one HFE gene from each of your parents. The HFE&lt;em&gt; &lt;/em&gt;gene has two common mutations, C282Y and H63D. One of these mutations is found in about 85 percent of people who have hereditary hemochromatosis. Genetic testing can reveal whether you have these mutations in your HFE gene. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you inherit 2 abnormal genes,&lt;/strong&gt; you may develop hemochromatosis. About 70 percent of people who inherit two genes develop evidence of iron overload of hemochromatosis. You can also pass the mutation on to your children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you inherit 1 abnormal gene,&lt;/strong&gt; you won&apos;t develop hemochromatosis. You are considered a gene mutation carrier and can pass the mutation on to your children. They would not develop disease unless they also inherit another abnormal gene from another parent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How hemochromatosis affects your organs&lt;/strong&gt; &lt;br /&gt;
+Iron plays an essential role in several body functions, including helping in the formation of blood. A peptide hormone called hepcidin, secreted by the liver, plays a key role in the body&apos;s use of iron. It controls how much iron is absorbed by the intestines, how iron is used in various body processes and how it&apos;s stored in various organs. 
+&lt;/p&gt;
+&lt;p&gt;
+In hemochromatosis, the normal role of hepcidin is disrupted and your body absorbs more iron that it needs. This excess iron is stored in the tissues of major organs, especially your liver. Too much iron is toxic to your body, and over a period of years, the stored iron can severely damage many organs, leading to organ failure and chronic diseases such as cirrhosis, diabetes and heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+Though many people have faulty genes that cause hemochromatosis, only about 10 percent of them have iron overload to the degree that causes tissue and organ damage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of hemochromatosis&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Juvenile hemochromatosis.&lt;/strong&gt; This causes the same problems in young people that hereditary hemochromatosis causes in adults. But iron accumulation begins much earlier, and symptoms usually appear between the ages of 15 and 30. This disorder is caused by a mutation in the HJV gene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neonatal hemochromatosis.&lt;/strong&gt; In this severe disorder, iron builds up rapidly in the liver of the developing fetus. It is thought to be an autoimmune disease, in which the body attacks itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary hemochromatosis.&lt;/strong&gt; This form of the disease is not inherited. The iron deposits are due to another disease, such as anemia, chronic liver disease or an infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of hereditary hemochromatosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having 2 copies of a mutated HFE gene.&lt;/strong&gt; This is the greatest risk factor for hereditary hemochromatosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If you have a first-degree relative &amp;mdash; a parent or sibling &amp;mdash; with hemochromatosis, you&apos;re more likely to develop the disease. If you have a family history of alcoholism, heart attacks, diabetes, liver disease, arthritis or impotence, your risk of hemochromatosis is greater.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; People of Northern European descent are more prone to hereditary hemochromatosis than are people of other ethnic backgrounds. Hemochromatosis is less common in African-Americans, Hispanics and Asian-Americans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being a man.&lt;/strong&gt; Men are more likely to develop signs and symptoms of hemochromatosis at an earlier age. Because women lose iron through menstruation and pregnancy, they tend to store less of the mineral than men do. After menopause or a hysterectomy, the risk for women increases.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated, hereditary hemochromatosis can lead to a number of complications, especially in your joints and in organs where excess iron tends to be stored &amp;mdash; your liver, pancreas and heart. Complications can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Liver problems.&lt;/strong&gt; Cirrhosis &amp;mdash; permanent scarring of the liver &amp;mdash; is just one of the problems that may occur. Cirrhosis increases your risk of liver cancer and other life-threatening complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreas problems.&lt;/strong&gt; Damage to the pancreas can lead to diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Excess iron in your heart affects the heart&apos;s ability to circulate enough blood for your body&apos;s needs. This is called congestive heart failure. Hemochromatosis can also cause abnormal heart rhythms (arrhythmias). Arrhythmias can cause heart palpitations, chest pain and lightheadedness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reproductive problems.&lt;/strong&gt; Excess iron can lead to erectile dysfunction (impotence), and loss of sex drive in men and absence of the menstrual cycle in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin color changes.&lt;/strong&gt; Deposits of iron in skin cells can make your skin appear bronze or gray in color.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor if you have any signs or symptoms that worry you. You may be referred to a specialist in digestive diseases (gastroenterologist), or to another specialist, depending on your symptoms. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes. Learn if you have any liver disease in your family by asking your family members, if possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt; to help you remember things.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be ready to answer questions your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have hemochromatosis?&lt;/li&gt;
+	&lt;li&gt;How many alcoholic beverages do you drink in a week?&lt;/li&gt;
+	&lt;li&gt;Are you taking iron supplements or vitamin C?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of viral hepatitis, such as hepatitis C?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hereditary hemochromatosis can be difficult to diagnose. Early symptoms such as stiff joints and fatigue can result from many other conditions more common than hemochromatosis. Many people with the disease don&apos;t have any signs or symptoms other than elevated levels of iron in their blood. Most cases of hemochromatosis today are identified because of abnormal blood tests done for other reasons or from screening of family members of people diagnosed with the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+The two key tests to detect iron overload are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Serum transferrin saturation.&lt;/strong&gt; This test measures the amount of iron bound to a protein (transferrin) that carries iron in your blood. Transferrin saturation values greater than 45 percent are considered too high.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Serum ferritin.&lt;/strong&gt; This test measures the amount of iron stored in your liver. If the results of your serum transferrin saturation test are higher than normal, your doctor will check your serum ferritin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because a number of other conditions can also cause elevated ferritin, both blood tests are needed to diagnose the disorder. You may need to have the tests repeated for the most accurate results. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional testing&lt;/strong&gt; &lt;br /&gt;
+Your doctor may suggest other tests to confirm the diagnosis and to look for other problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Liver function tests.&lt;/strong&gt; These tests can help identify liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI.&lt;/strong&gt; An MRI is a fast and noninvasive way to measure the degree of iron overload in your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Testing for gene mutations.&lt;/strong&gt; Testing your DNA for mutations in the HFE gene is recommended if you have high levels of iron in your blood. If you&apos;re considering genetic testing for hemochromatosis, discuss the pros and cons with your doctor or a genetic counselor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of liver tissue for testing.&lt;/strong&gt; If liver damage is suspected, your doctor may have a sample of tissue from your liver removed, using a thin needle. The sample is sent to a laboratory to be checked for the presence of iron as well as for evidence of liver damage, especially scarring or cirrhosis. Risks of biopsy include bruising, bleeding and infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening healthy people for hemochromatosis&lt;/strong&gt; &lt;br /&gt;
+Genetic testing is recommended for all first-degree relatives (parents, siblings and children) of anyone diagnosed with hemochromatosis. If a mutation is found in only one parent, then children do not need to be tested. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Blood removal&lt;/strong&gt; &lt;br /&gt;
+Doctors can treat hereditary hemochromatosis safely and effectively by removing blood from your body (phlebotomy) on a regular basis, just as if you were donating blood. (In fact, this blood is safe to be used by other people.) The goal is to reduce your iron levels to normal. The amount of blood drawn depends on your age, your overall health and the severity of iron overload. It may take several years to reduce the iron in your body to normal levels. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Initial treatment schedule.&lt;/strong&gt; Initially, you may have a pint (470 milliliters) of blood taken once or twice a week &amp;mdash; usually in a hospital or your doctor&apos;s office. This process shouldn&apos;t be too uncomfortable. While you recline in a chair, a needle is inserted into a vein in your arm. The blood flows from the needle into a tube that&apos;s attached to a blood bag. Depending on the condition of your veins and the consistency of your blood, the time needed to remove a pint of blood can range from 10 to 30 minutes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintenance treatment schedule.&lt;/strong&gt; Once your iron levels have returned to normal, blood draws can be less frequent, typically every three to four months. Some people may maintain normal iron levels without any blood draws, and some may need to have blood drawn monthly. The schedule depends on how rapidly iron accumulates in your body.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treating hereditary hemochromatosis can help alleviate symptoms of tiredness, abdominal pain and skin darkening. It can help prevent serious complications such as liver disease, heart disease and diabetes. If you already have one of these conditions, phlebotomy may slow the progression of the disease, and in some cases even reverse it. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have hemochromatosis but no complications of cirrhosis or diabetes, you have the same life expectancy as a healthy person of your same age. 
+&lt;/p&gt;
+&lt;p&gt;
+Phlebotomy will not reverse cirrhosis or improve joint pain. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have cirrhosis, your doctor may recommend periodic screening for liver cancer. This usually involves an abdominal ultrasound and a blood test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chelation for those who can&apos;t undergo blood removal&lt;/strong&gt; &lt;br /&gt;
+If you can&apos;t undergo phlebotomy, because you have anemia, for example, or heart complications, your doctor may recommend a medication to remove excess iron. The medication can be injected into your body, or it can be taken as a pill. The medication causes your body to expel iron through your urine or stool in a process that&apos;s sometimes called chelation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may reduce your risk of complications from hemochromatosis if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid iron supplements and multivitamins containing iron.&lt;/strong&gt; These can increase your iron levels even more.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid vitamin C supplements, especially with food.&lt;/strong&gt; Vitamin C increases absorption of iron. Try to drink vitamin C-rich juices, such as orange juice, between meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol.&lt;/strong&gt; Alcohol increases the risk of liver damage. If you have liver disease and hereditary hemochromatosis, avoid alcohol completely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid eating raw shellfish.&lt;/strong&gt; People with hereditary hemochromatosis are susceptible to infections, especially those caused by certain bacteria in raw shellfish.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink tea.&lt;/strong&gt; Some evidence suggests that drinking tannin-rich tea may slow the storage of iron.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hemochromatosis
+	</Title>
+	<Abstract>
+		Hemochromatosis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this inherited liver disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00349" LinkType="Internal" ObjectID="21329E51-E7FF-0DBD-1B9E2B7D0F8B83AE" Title="Liver transplant" Url="http://www.mayoclinic.com/health/liver-transplant/MY00349" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+	</RelatedLinksBox>
+</Disease>

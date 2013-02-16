@@ -1,0 +1,551 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00946
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/type-2-diabetes-in-children/DS00946
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus">
+						<Keyword MCVID="4236" Title="Type 2 diabetes in children" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6E1E2F59-E7FF-0DBD-10123D6D3A4A9533
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 2 diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				type 2 diabetes in children
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile onset diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes in children
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes mellitus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 2 diabetes in children is a chronic condition that affects the way your child&apos;s body metabolizes sugar (glucose). 
+&lt;/p&gt;
+&lt;p&gt;
+Type 2 diabetes is a disease more commonly associated with adults. In fact, it used to be called adult-onset diabetes. But type 2 diabetes in children is on the rise, fueled largely by the obesity epidemic. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s plenty you can do to help manage or prevent type 2 diabetes in children. Encourage your child to eat healthy foods, get plenty of physical activity and maintain a healthy weight. If diet and exercise aren&apos;t enough to control type 2 diabetes in children, oral medication or insulin treatment may be needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 2 diabetes in children may develop gradually. Some children who have type 2 diabetes have no signs or symptoms. Others experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increased thirst and urination.&lt;/strong&gt; As excess sugar builds up in your child&apos;s bloodstream, fluid is pulled from the tissues. This may leave your child thirsty. As a result, your child may drink &amp;mdash; and urinate &amp;mdash; more than usual.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased hunger.&lt;/strong&gt; Without enough insulin to move sugar into your child&apos;s cells, your child&apos;s muscles and organs become depleted of energy. This triggers hunger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; Despite eating more than usual to relieve hunger, your child may lose weight. Without the energy sugar supplies to your cells, muscle tissues and fat stores simply shrink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; If your child&apos;s cells are deprived of sugar, he or she may become tired and irritable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blurred vision.&lt;/strong&gt; If your child&apos;s blood sugar is too high, fluid may be pulled from the lenses of your child&apos;s eyes. This may affect your child&apos;s ability to focus clearly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slow-healing sores or frequent infections.&lt;/strong&gt; Type 2 diabetes affects your child&apos;s ability to heal and resist infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Areas of darkened skin.&lt;/strong&gt; Areas of darkened skin (acanthosis nigricans) may be a sign of insulin resistance. These dark patches often occur in the armpits or neck.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;See you child&apos;s doctor if your child&lt;/strong&gt; is at high risk of type 2 diabetes. To diagnose type 2 diabetes before it does serious damage, diabetes screening is recommended for all children and adolescents at high risk, even if they have no signs or symptoms of the condition. Your child may be at high risk if he or she: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has a body mass index (BMI) above the 85th percentile&lt;/li&gt;
+	&lt;li&gt;Has a sibling, parent, grandparent, aunt, uncle or cousin with type 2 diabetes&lt;/li&gt;
+	&lt;li&gt;Is black, Hispanic, Native American, Asian-American or Pacific Islander, as these racial groups have a higher incidence of type 2 diabetes&lt;/li&gt;
+	&lt;li&gt;Has signs of insulin resistance, such as darkened skin on the neck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your child&apos;s doctor if you&apos;re concerned about diabetes or if you notice any of the signs or symptoms of type 2 diabetes &amp;mdash; increased thirst and urination, increased hunger, weight loss, fatigue, blurred vision, slow-healing sores or frequent infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 2 diabetes develops when the body becomes resistant to insulin or when the pancreas stops producing enough insulin. Exactly why this happens is unknown, although excess weight, inactivity and genetic factors seem to be important. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Insulin: The key for sugar&lt;/strong&gt; &lt;br /&gt;
+Insulin is a hormone that comes from the pancreas, a gland located just behind the stomach. When your child eats, the pancreas secretes insulin into the bloodstream. As insulin circulates, it acts like a key by unlocking microscopic doors that allow sugar to enter your child&apos;s cells. Insulin lowers the amount of sugar in your child&apos;s bloodstream. As your child&apos;s blood sugar level drops, so does the secretion of insulin from the pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Glucose: The energy source&lt;/strong&gt; &lt;br /&gt;
+Glucose &amp;mdash; sugar &amp;mdash; is a main source of energy for the cells that make up muscles and other tissues. Glucose comes from two major sources: the food your child eats and your child&apos;s liver. During digestion, sugar is absorbed into the bloodstream. Normally, sugar then enters cells with the help of insulin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver: Production and storage&lt;/strong&gt; &lt;br /&gt;
+The liver acts as a glucose storage and manufacturing center. When your child&apos;s insulin levels are low &amp;mdash; when your child hasn&apos;t eaten in a while, for example &amp;mdash; the liver releases the stored glucose to keep your child&apos;s glucose level within a normal range. 
+&lt;/p&gt;
+&lt;p&gt;
+In type 2 diabetes, this process doesn&apos;t work well. Instead of moving into your child&apos;s cells, sugar builds up in his or her bloodstream. This occurs when your child&apos;s pancreas doesn&apos;t make enough insulin or your child&apos;s cells become resistant to the action of insulin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Researchers don&apos;t fully understand why some children develop type 2 diabetes and others don&apos;t, even if they have similar risk factors. It&apos;s clear that certain factors increase the risk, however, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weight.&lt;/strong&gt; Being overweight is a primary risk factor for type 2 diabetes in children. The more fatty tissue a child has, the more resistant his or her cells become to insulin. However, weight isn&apos;t the only factor in developing type 2 diabetes. Some children with type 2 diabetes are normal weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inactivity.&lt;/strong&gt; The less active your child is, the greater his or her risk of type 2 diabetes. Physical activity helps your child control his or her weight, uses glucose as energy, and makes your child&apos;s cells more responsive to insulin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; The risk of type 2 diabetes significantly increases if a parent or sibling has type 2 diabetes &amp;mdash; but it&apos;s difficult to tell if this is related to lifestyle, genetics or both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Although it&apos;s unclear why, children of certain races &amp;mdash; especially blacks, Hispanics, Native Americans, Asian-Americans, and Pacific Islanders &amp;mdash; are more likely to develop type 2 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Type 2 diabetes is more common in girls than in boys during childhood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 2 diabetes can be easy to ignore, especially in the early stages when your child is feeling fine. But type 2 diabetes must be taken seriously. The condition can affect nearly every major organ in your child&apos;s body, including the heart, blood vessels, nerves, eyes and kidneys. Keeping your child&apos;s blood sugar level close to normal most of the time can dramatically reduce the risk of these complications. 
+&lt;/p&gt;
+&lt;p&gt;
+The long-term complications of type 2 diabetes develop gradually. But eventually, diabetes complications may be disabling or even life-threatening. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart and blood vessel disease.&lt;/strong&gt; Diabetes dramatically increases your child&apos;s risk of various cardiovascular problems, including heart disease, stroke, high cholesterol and high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage (neuropathy).&lt;/strong&gt; Excess sugar can injure the walls of the tiny blood vessels (capillaries) that nourish your child&apos;s nerves, especially in the legs. This can cause tingling, numbness, burning or pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonalcoholic fatty liver disease.&lt;/strong&gt; Children with type 2 are more likely to develop nonalcoholic fatty liver disease, which can eventually lead to scarring of the liver and cirrhosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney damage (nephropathy).&lt;/strong&gt; Diabetes can damage the numerous tiny blood vessel clusters in the kidneys that normally filter waste from your child&apos;s blood. The earlier diabetes develops, the greater the concern. Severe damage can lead to kidney failure or irreversible end-stage kidney disease, requiring dialysis or a kidney transplant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye damage.&lt;/strong&gt; Diabetes can damage the blood vessels of the retina (diabetic retinopathy). Diabetes can also lead to cataracts and a greater risk of glaucoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foot damage.&lt;/strong&gt; Nerve damage in the feet or poor blood flow to the feet increases the risk of various foot complications. Left untreated, cuts and blisters can become serious infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin conditions.&lt;/strong&gt; Diabetes may leave your child more susceptible to skin problems, including bacterial infections, fungal infections and itching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain problems.&lt;/strong&gt; Diabetes is associated with an increased risk of dementia and Alzheimer&apos;s disease later in life. Exactly why these conditions are related isn&apos;t yet clear.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s family doctor or pediatrician will probably make the initial diagnosis of diabetes. However, you&apos;ll likely then be referred to a doctor who specializes in metabolic disorders in children (pediatric endocrinologist). Your child&apos;s health care team will also generally include a dietitian, a certified diabetes educator, and a doctor who specializes in eye care (ophthalmologist). If your child&apos;s blood sugar levels are very high, your child&apos;s doctor may send your child to the hospital for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for any appointments you have with your child&apos;s health care team. Here&apos;s some information to help you get ready for your appointment, and what you can expect from your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; If your child&apos;s doctor is going to test your child&apos;s blood sugar, he or she may ask you to have your child refrain from eating or drinking anything but water for eight hours for a fasting glucose test or four hours for a pre-meal test. When you&apos;re making an appointment, ask if any type of fasting is necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child is experiencing,&lt;/strong&gt; including any that may seem unrelated. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to join you,&lt;/strong&gt; if possible. Managing your child&apos;s diabetes well requires you to retain a lot of information, and it can sometimes be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a notebook and a pen or pencil,&lt;/strong&gt; to write down important information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your child&apos;s doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For type 2 diabetes in children, some basic questions to ask your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Glucose monitoring&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do I need to monitor my child&apos;s blood sugar? At what times should I check?&lt;/li&gt;
+	&lt;li&gt;What is the goal range?&lt;/li&gt;
+	&lt;li&gt;What should my child&apos;s blood sugar levels be before bedtime?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle changes&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of changes need to be made in the family diet?&lt;/li&gt;
+	&lt;li&gt;How can I learn about counting carbohydrates in foods?&lt;/li&gt;
+	&lt;li&gt;Should I see a dietitian to help with meal planning at home?&lt;/li&gt;
+	&lt;li&gt;How much exercise should my child get each day?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Will my child need to take oral medicine? If so, what kind and how much?&lt;/li&gt;
+	&lt;li&gt;Does the medicine need to be taken at any particular time of the day?&lt;/li&gt;
+	&lt;li&gt;Does my child need to take insulin?&lt;/li&gt;
+	&lt;li&gt;What types of insulin delivery options are available? Which do you recommend for my child and why? How should insulin be stored?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the signs and symptoms of low blood sugar in my child?&lt;/li&gt;
+	&lt;li&gt;What are the signs of high blood sugar?&lt;/li&gt;
+	&lt;li&gt;Do I need to test my child for ketones? How is the test performed?&lt;/li&gt;
+	&lt;li&gt;What needs to be done if ketones are present?&lt;/li&gt;
+	&lt;li&gt;My child has another health condition. How can we best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical management&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often does my child need to be monitored for diabetes complications? What specialists do we need to see?&lt;/li&gt;
+	&lt;li&gt;What does my child&apos;s school need to know about managing diabetes? What about summer camp?&lt;/li&gt;
+	&lt;li&gt;Are there any resources available if I&apos;m having trouble paying for my child&apos;s diabetes supplies?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that we can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that may come up during the appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your child&apos;s doctor&lt;/strong&gt; &lt;br /&gt;
+Your child&apos;s doctor is likely to ask a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you feel confident about your child&apos;s treatment plan?&lt;/li&gt;
+	&lt;li&gt;Any questions or concerns about his or her current situation?&lt;/li&gt;
+	&lt;li&gt;How do you feel your child is coping with the diabetes and its treatment?&lt;/li&gt;
+	&lt;li&gt;Has your child experienced any low blood sugars?&lt;/li&gt;
+	&lt;li&gt;What&apos;s a typical day&apos;s diet like?&lt;/li&gt;
+	&lt;li&gt;Is your child exercising? If so, how often?&lt;/li&gt;
+	&lt;li&gt;On average, how much insulin is your child using each day?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If your child&apos;s blood sugar isn&apos;t well controlled, or if you&apos;re not sure about what to do in a certain situation, don&apos;t hesitate to contact your child&apos;s doctor or certified diabetes educator in between appointments for advice and guidance. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child&apos;s doctor suspects diabetes, he or she will recommend a screening test. The primary test used to diagnose diabetes in children is the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Random blood sugar test.&lt;/strong&gt; A blood sample will be taken at a random time. Blood sugar values are expressed in milligrams per deciliter (mg/dL) or millimoles per liter (mmol/L). Regardless of when your child last ate, a random blood sugar level of 200 mg/dL (11.1 mmol/L) or higher suggests diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child&apos;s random blood sugar test results don&apos;t suggest diabetes, but your doctor still suspects it, your doctor may do a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Glycated hemoglobin (A1C) test.&lt;/strong&gt; This blood test indicates an average blood sugar level for the past two to three months. It works by measuring the percentage of blood sugar attached to hemoglobin, the oxygen-carrying protein in red blood cells. The higher the blood sugar levels, the more hemoglobin that has sugar attached. An A1C level of 6.5 percent or higher on two separate tests indicates diabetes. A result of 5.7 to 6.4 percent is considered prediabetes, which indicates a high risk of developing diabetes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Another test your doctor might use is a fasting blood sugar test. A blood sample will be taken after an overnight fast. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is normal. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. If it&apos;s 126 mg/dL (7 mmol/L) or higher on two separate tests, your child will be diagnosed with diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also perform an oral glucose tolerance test. For this test, your child fasts overnight, and the fasting blood sugar level is measured. Then, your child drinks a sugary liquid, and blood sugar levels are tested periodically for the next several hours. A reading of more than 200 mg/dL (11.1 mmol/L) after two hours indicates diabetes. A reading between 140 and 199 mg/dL (7.8 to 11 mmol/L) indicates prediabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is diagnosed with diabetes, the doctor may do other tests to distinguish between type 1 and type 2 diabetes &amp;mdash; which often require different treatment strategies because in type 1 diabetes, the pancreas no longer makes insulin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the diagnosis&lt;/strong&gt; &lt;br /&gt;
+At first, your child may need frequent visits to various members of his or her health care team, such as the doctor and dietitian. Once your child&apos;s blood sugar is stabilized, he or she will regularly visit his or her doctor to ensure good diabetes management. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child&apos;s doctor will also check your child&apos;s A1C levels periodically. Your child&apos;s target A1C goal may vary depending on his or her age and various other factors. Ask your doctor what your child&apos;s A1C target is. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Diabetes Association has introduced a formula that translates the A1C into what&apos;s known as an estimated average glucose (eAG). The eAG more closely correlates with daily blood sugar readings. An A1C of 7 percent translates to an eAG of 154 mg/dL (8.5 mmol/L). That would mean that your child&apos;s average blood sugar levels are around 150 mg/dL (8.3 mmol/L) on most days. 
+&lt;/p&gt;
+&lt;p&gt;
+Compared with repeated daily blood sugar tests, A1C testing better indicates how well your child&apos;s diabetes treatment plan is working. An elevated A1C level may signal the need for a change in your child&apos;s insulin regimen or meal plan. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other periodic tests&lt;/strong&gt; &lt;br /&gt;
+In addition to the A1C test, the doctor will also periodically check your child&apos;s cholesterol levels, thyroid function, liver function and kidney function using blood and urine samples. The doctor will also examine your child to assess his or her blood pressure and make sure he or she is growing properly. Regular eye exams also are important. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for type 2 diabetes is a lifelong commitment of blood sugar monitoring, healthy eating, regular exercise and, sometimes, insulin or other medications &amp;mdash; even for kids. And as your child grows and changes, so will his or her diabetes treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+If managing your child&apos;s diabetes seems overwhelming, take it one day at a time. And remember that you&apos;re not in it alone. You&apos;ll work closely with your child&apos;s diabetes treatment team &amp;mdash; doctor, certified diabetes educator and dietitian &amp;mdash; to keep your child&apos;s blood sugar level as close to normal as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood sugar monitoring&lt;/strong&gt; &lt;br /&gt;
+Depending on what type of medication (if any) your child needs, you may need to check and record your child&apos;s blood sugar at least daily, possibly more often. This usually requires finger sticks, though some blood glucose meters allow for testing at other sites. Children who need insulin therapy will need to check their blood sugar levels at least three times a day. Ask your doctor how often your child needs to test his or her blood sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+Testing is the only way to make sure that your child&apos;s blood sugar level remains within his or her target range &amp;mdash; which may change as your child grows and changes. Your child&apos;s doctor will let you know what your child&apos;s blood sugar target range is. The doctor may ask you to keep a log of your child&apos;s blood glucose readings, or he or she may download that information from your blood glucose meter. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if your child eats on a rigid schedule, the amount of sugar in his or her blood can change unpredictably. With help from your child&apos;s diabetes treatment team, you&apos;ll learn how your child&apos;s blood sugar level changes in response to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Food.&lt;/strong&gt; What and how much your child eats will affect your child&apos;s blood sugar level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical activity.&lt;/strong&gt; Physical activity moves sugar from your child&apos;s blood into his or her cells. The more active your child is, the lower his or her blood sugar level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Any medications your child takes may affect his or her blood sugar level, sometimes requiring changes in your child&apos;s diabetes treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Illness.&lt;/strong&gt; During a cold or other illness, your child&apos;s body will produce hormones that raise his or her blood sugar level.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Healthy eating&lt;/strong&gt; &lt;br /&gt;
+Contrary to popular perception, there&apos;s no diabetes diet. Your child won&apos;t be restricted to a lifetime of boring, bland foods. Instead, your child will need plenty of fruits, vegetables and whole grains &amp;mdash; foods that are high in nutrition and low in fat and calories. A healthy diet also limits sodas, juices, sweets and has fewer foods containing animal fats. This type of diet is generally the best eating plan for the entire family. Even sugary foods are OK once in a while, as long as they&apos;re included in your child&apos;s meal plan. 
+&lt;/p&gt;
+&lt;p&gt;
+Yet understanding what and how much to feed your child can be a challenge. A registered dietitian can help you create a meal plan that fits your child&apos;s health goals, food preferences and lifestyle. If your child is overweight or obese, gradual weight reduction will be a goal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical activity&lt;/strong&gt; &lt;br /&gt;
+Everyone needs regular aerobic exercise, and children who have type 2 diabetes are no exception. Encourage your child to get regular physical activity. Sign up for a sports team or dance lessons. Better yet, get in the act together. Play catch in the backyard. Take a walk or run through your neighborhood. Visit an indoor climbing wall or local pool. Make physical activity part of your child&apos;s daily routine. 
+&lt;/p&gt;
+&lt;p&gt;
+Physical activity lowers blood sugar. If your child needs insulin treatment, check your child&apos;s blood sugar level before any activity. He or she might need a snack before exercising to help prevent low blood sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication and insulin&lt;/strong&gt; &lt;br /&gt;
+Some children who have type 2 diabetes can control their blood sugar with diet and exercise alone, but many also need oral medication or insulin treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Metformin (Glucophage) is the only oral medication that&apos;s approved for children who have type 2 diabetes. Metformin reduces the amount of sugar a child&apos;s liver releases into the bloodstream between meals. Side effects may include nausea, upset stomach, diarrhea, headaches and, rarely, a harmful buildup of lactic acid (lactic acidosis). Metformin isn&apos;t safe for anyone who has liver failure, kidney failure or heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+Because stomach enzymes interfere with insulin taken by mouth, oral insulin isn&apos;t an option for lowering blood sugar. Therefore, if insulin is necessary, it has to be delivered under the skin. Insulin delivery options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; Usually, insulin delivery means injections using a fine needle and syringe or an insulin pen &amp;mdash; a device that looks like an ink pen, except the cartridge is filled with insulin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin pump.&lt;/strong&gt; An insulin pump also may be an option for some children. The pump is a device about the size of a cell phone worn on the outside of the body. A tube connects the reservoir of insulin to a catheter that&apos;s inserted under the skin of the abdomen. A wireless pump that uses small pods filled with insulin is another option that&apos;s now available. The pump is programmed to dispense specific amounts of insulin automatically. It can be adjusted to deliver more or less insulin depending on meals, activity level and blood sugar level.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many types of insulin are available, including rapid-acting insulin, long-acting insulin and intermediate options. The decision about which treatment is best depends on the child, his or her blood sugar level, and the presence of any other health problems. Initially, children whose blood sugar is above 200 mg/dL (11.1 mmol/L) or who have an A1C above 8.5 percent will likely be started on insulin therapy to stabilize the blood sugar. Once blood sugar levels are normalized, your child may be weaned off insulin and placed on metformin alone. 
+&lt;/p&gt;
+&lt;p&gt;
+However, if blood sugar isn&apos;t well controlled with metformin and lifestyle changes, insulin will have to be given again. A long-acting insulin, such as insulin glargine (Lantus), is often used for type 2 diabetes in children. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs of trouble&lt;/strong&gt; &lt;br /&gt;
+Short-term complications of type 2 diabetes require immediate care, including: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; If your child&apos;s blood sugar level drops below the normal range, it&apos;s known as low blood sugar. Your child&apos;s blood sugar level can drop for many reasons, including skipping a meal, getting more physical activity than normal or injecting too much insulin. 
+&lt;/p&gt;
+&lt;p&gt;
+Watch for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Shakiness&lt;/li&gt;
+	&lt;li&gt;Drowsiness&lt;/li&gt;
+	&lt;li&gt;Hunger&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Dramatic behavior changes&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating low blood sugar&lt;/strong&gt; &lt;br /&gt;
+If your child has signs or symptoms of low blood sugar, give him or her fruit juice, glucose tablets, hard candy, regular (not diet) soda or another source of sugar equivalent to 15 grams of carbohydrate, and then recheck the blood sugar levels in 15 minutes. If the blood sugar reading is still low, give your child another fast-acting source of sugar, and retest again in 15 minutes. Once the blood sugar reaches a normal level, give your child a mixed food snack, such as peanut butter and crackers, to stabilize the blood sugar levels. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child loses consciousness, he or she may need an emergency injection of glucagon &amp;mdash; a hormone that stimulates the release of sugar into the blood. This is a medical emergency. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;High blood sugar (hyperglycemia).&lt;/strong&gt; Likewise, your child&apos;s blood sugar can rise for many reasons, including eating too much, not taking enough insulin or illness. 
+&lt;/p&gt;
+&lt;p&gt;
+Watch for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Increased thirst&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating high blood sugar&lt;/strong&gt; &lt;br /&gt;
+If you suspect hyperglycemia, check your child&apos;s blood sugar. You might need to adjust your child&apos;s meal plan or medications. If your child&apos;s blood sugar is persistently above the target range set by your child&apos;s doctor, call your child&apos;s doctor right away or seek emergency care. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Increased ketones in your child&apos;s urine (diabetic ketoacidosis).&lt;/strong&gt; If your child&apos;s cells are starved for energy, your child&apos;s body may begin to break down fat &amp;mdash; producing toxic acids known as ketones. Although this condition is more common in children with type 1 diabetes, it can occur in children with type 2 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Watch for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;A sweet, fruity smell on your child&apos;s breath&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Exhaustion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating increased ketones&lt;/strong&gt; &lt;br /&gt;
+If you suspect ketoacidosis, check your child&apos;s urine for excess ketones with an over-the-counter ketones test kit. If your child has excess ketones in his or her urine, call your child&apos;s doctor right away or seek emergency care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Numerous substances have been shown in some studies to improve insulin sensitivity, yet other studies have failed to find any benefit for blood sugar control or in lowering A1C levels. Because of the conflicting findings, no alternative therapies are currently recommended for diabetes control. Some of the substances that have been studied in diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alpha-lipoic acid&lt;/li&gt;
+	&lt;li&gt;Caffeine&lt;/li&gt;
+	&lt;li&gt;Cinnamon&lt;/li&gt;
+	&lt;li&gt;Chromium&lt;/li&gt;
+	&lt;li&gt;Flaxseed&lt;/li&gt;
+	&lt;li&gt;Ginseng&lt;/li&gt;
+	&lt;li&gt;Glucomannan&lt;/li&gt;
+	&lt;li&gt;Guar gum&lt;/li&gt;
+	&lt;li&gt;Magnesium&lt;/li&gt;
+	&lt;li&gt;Niacinamide&lt;/li&gt;
+	&lt;li&gt;Vitamin D&lt;/li&gt;
+	&lt;li&gt;Vitamin E&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;d like to try an alternative therapy for your child, discuss this with a doctor who is familiar with these alternative treatments. It&apos;s important to check with your child&apos;s doctor first to be sure that whatever treatment you&apos;d like to try won&apos;t cause an adverse reaction with other medications your child may be taking. It&apos;s also important not to stop giving your child any prescribed medications, especially insulin, without first consulting your child&apos;s doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Type 2 diabetes is a serious disease. Helping your child follow his or her diabetes treatment plan takes round-the-clock commitment. But your efforts are worthwhile. Careful management of type 2 diabetes can reduce your child&apos;s risk of serious &amp;mdash; even life-threatening &amp;mdash; complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Counseling and support&lt;/strong&gt;&lt;br /&gt;
+Talking to a counselor or therapist may help your child or you to cope with the lifestyle changes that come with a type 2 diabetes diagnosis. Your child may find encouragement and understanding in a type 2 diabetes support group for children. Support groups for parents also are available. Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about the latest treatments and tend to share their own experiences, or helpful information, such as where to find carbohydrate counts for your child&apos;s favorite takeout restaurant. If you&apos;re interested, your doctor may be able to recommend a group in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+Or, you can visit the American Diabetes Association website to check out local activities for people with type 2 diabetes. The American Diabetes Association also offers diabetes camp programs, online information, and an online forum for children and teens with diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Getting your child actively involved&lt;/strong&gt; &lt;br /&gt;
+As your child gets older, encourage him or her to take an increasingly active role in diabetes management. Teach your child how to test his or her blood sugar and, if needed, inject insulin. Stress the importance of lifelong diabetes care, which is particularly important for teens to understand, as they may rebel against their diabetes care regimen. Foster a relationship between your child and his or her diabetes treatment team. Make sure your child wears a medical ID tag. 
+&lt;/p&gt;
+&lt;p&gt;
+Above all, stay positive. The habits you teach your child today will help him or her enjoy an active and healthy life with type 2 diabetes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Healthy lifestyle choices can help prevent type 2 diabetes in children and its complications. And, if your child already has type 2 diabetes, lifestyle changes can reduce the need for medications. Encourage your child to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Offer your child foods low in fat and calories. Focus on fruits, vegetables and whole grains. Strive for variety to prevent boredom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get more physical activity.&lt;/strong&gt; Encourage your child to get active. Sign up for a sports team or dance lessons, or look for active things to do together.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose excess pounds.&lt;/strong&gt; Help your child make permanent changes in his or her eating and exercise habits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Better yet, make it a family affair. The same lifestyle choices that can help prevent type 2 diabetes in children can do the same for adults. The best diet for a child with diabetes is also the best diet for the whole family. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Keeping your child&apos;s eyes healthy&lt;/strong&gt; &lt;br /&gt;
+If your child already has type 2 diabetes, be sure to schedule an annual eye exam to look for early signs of eye disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Type 2 diabetes in children
+	</Title>
+	<Abstract>
+		Type 2 diabetes in children &amp;mdash; Comprehensive overview covers symptoms, treatment of this endocrine condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+	</RelatedLinksBox>
+</Disease>

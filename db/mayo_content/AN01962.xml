@@ -1,0 +1,112 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01962
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/is-fibromyalgia-hereditary/AN01962
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-08
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2695" Title="Fibromyalgia" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2CBFF96F-D40A-F7B8-D74FAB61FAE44312
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				is fibromyalgia hereditary
+			</MetaKeyword>
+			<MetaKeyword>
+				fibromyalgia genes
+			</MetaKeyword>
+			<MetaKeyword>
+				fibromyalgia genetics
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Fibromyalgia isn&apos;t passed directly from parents to children the way diseases such as cystic fibrosis and hemophilia are. But family studies have found that the odds of having fibromyalgia are several times higher in the immediate families of people with fibromyalgia than in families in which no one has fibromyalgia. These observations suggest that heredity is a factor in causing fibromyalgia. 
+&lt;/p&gt;
+&lt;p&gt;
+In fact, studies of DNA from family members of people with fibromyalgia and chronic pain syndromes have turned up a number of genes that could help explain why these disorders seem to run in families. Each of these genes plays a role in your nervous system&apos;s response to things that hurt, such as pressure and heat. Some of the same genes are also associated with depression and anxiety, which may be the reason why certain antidepressant medications help reduce fibromyalgia symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+Researchers are now trying to connect differences in individuals&apos; pain thresholds to particular variants of specific genes. A variant of the gene that determines how efficiently nerve cells recycle the neurotransmitter serotonin has already been correlated with heightened pain sensitivity.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Is fibromyalgia hereditary?
+	</Title>
+	<Abstract>
+		Is fibromyalgia hereditary? The disorder appears to run in families.
+	</Abstract>
+	<Question>
+		Is fibromyalgia hereditary?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02185" LinkType="Internal" ObjectID="E6A32369-F6BA-086B-83800B2E9798545F" Title="What is hot yoga?" Url="http://www.mayoclinic.com/health/hot-yoga/AN02185" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="Answer" DocID="AN01946" LinkType="Internal" ObjectID="AFE3FD0A-E7FF-0DBD-1D23E59E2155983A" Title="TENS therapy: An option for fibromyalgia treatment?" Url="http://www.mayoclinic.com/health/tens/AN01946" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="Article" DocID="SA00082" LinkType="Internal" ObjectID="686E87EE-DBEB-4259-A5906A4CF2A10A02" Title="Massage: Get in touch with its many benefits" Url="http://www.mayoclinic.com/health/massage/SA00082" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Answer" DocID="AN02019" LinkType="Internal" ObjectID="5A7A3B84-E6B6-B29E-2C59FE433DC4179C" Title="Milnacipran (Savella) for fibromyalgia: What makes it different?" Url="http://www.mayoclinic.com/health/milnacipran/AN02019" />
+		<LinkItem ContentType="Answer" DocID="AN01891" LinkType="Internal" ObjectID="5509B170-E7FF-0DBD-1EA02D96E3C62E10" Title="Fibromyalgia: Can it cause elevated ESR and CRP levels?" Url="http://www.mayoclinic.com/health/fibromyalgia/AN01891" />
+		<LinkItem ContentType="Answer" DocID="AN01650" LinkType="Internal" ObjectID="540CF2B9-E7FF-0DBD-1698FF8118358362" Title="Fibromyalgia treatment: Is Neurontin effective?" Url="http://www.mayoclinic.com/health/fibromyalgia-treatment/AN01650" />
+		<LinkItem ContentType="Answer" DocID="AN01599" LinkType="Internal" ObjectID="482A4B6F-E7FF-0DBD-1DF7023F22512D11" Title="Cupping therapy: Can it relieve fibromyalgia pain?" Url="http://www.mayoclinic.com/health/cupping/AN01599" />
+		<LinkItem ContentType="Article" DocID="AR00056" LinkType="Internal" ObjectID="E592733E-E7FF-0DBD-16A1F96CC79BD01C" Title="Fibromyalgia misconceptions: Interview with a Mayo Clinic expert" Url="http://www.mayoclinic.com/health/fibromyalgia/AR00056" />
+		<LinkItem ContentType="Article" DocID="AR00055" LinkType="Internal" ObjectID="D7A0286F-E7FF-0DBD-12F49E159D65C38B" Title="Fibromyalgia pain: Options for coping" Url="http://www.mayoclinic.com/health/fibromyalgia-pain/AR00055" />
+		<LinkItem ContentType="Article" DocID="AR00054" LinkType="Internal" ObjectID="50027014-E7FF-0DBD-1F2509FFF942AD25" Title="Fibromyalgia symptoms or not? Understand the fibromyalgia diagnosis process" Url="http://www.mayoclinic.com/health/fibromyalgia-symptoms/AR00054" />
+		<LinkItem ContentType="Disease" DocID="DS00079" LinkType="Internal" ObjectID="96E57CAC-F3E9-468B-8824304CCE012FD1" Title="Fibromyalgia" Url="http://www.mayoclinic.com/health/fibromyalgia/DS00079" />
+	</RelatedLinksBox>
+</Answer>

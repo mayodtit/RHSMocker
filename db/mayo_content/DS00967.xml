@@ -1,0 +1,463 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00967
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gerd/DS00967
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-13
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="1845" Title="Heartburn">
+							<Keyword MCVID="4024" Title="GERD" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0AB1073D-E7FF-0DBD-166CDBDA5B87C689
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				regurgitation
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach acid
+			</MetaKeyword>
+			<MetaKeyword>
+				heart burn
+			</MetaKeyword>
+			<MetaKeyword>
+				Barrett&apos;s esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				Barretts esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflex
+			</MetaKeyword>
+			<MetaKeyword>
+				reflux esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				esophogitis
+			</MetaKeyword>
+			<MetaKeyword>
+				peptic esophagitis
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				acid indigestion
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gastroesophageal reflux disease (GERD) is a chronic digestive disease that occurs when stomach acid or, occasionally, bile flows back (refluxes) into your food pipe (esophagus). The backwash of acid irritates the lining of your esophagus and causes GERD signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of GERD include acid reflux and heartburn. Both are common digestive conditions that many people experience from time to time. When these signs and symptoms occur at least twice each week or interfere with your daily life, doctors call this GERD. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people can manage the discomfort of heartburn with lifestyle changes and over-the-counter medications. But for people with GERD, these remedies may offer only temporary relief. People with GERD may need stronger medications, even surgery, to reduce symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how GERD occurs in the esophagus 
+" Caption="Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other signs and symptoms. Frequent or constant reflux can lead to gastroesophageal reflux disease (GERD). 
+" Height="60" Title="How heartburn and GERD occur" URI="/images/image_popup/thumbs/r7_heartburnthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how GERD occurs in the esophagus 
+" Caption="Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other signs and symptoms. Frequent or constant reflux can lead to gastroesophageal reflux disease (GERD). 
+" Height="256" Title="How heartburn and GERD occur" URI="/images/image_popup/r7_heartburn.jpg" Width="400" />
+				<HTML>
+					Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+GERD signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A burning sensation in your chest (heartburn), sometimes spreading to the throat, along with a sour taste in your mouth&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing (dysphagia)&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Hoarseness or sore throat&lt;/li&gt;
+	&lt;li&gt;Regurgitation of food or sour liquid (acid reflux)&lt;/li&gt;
+	&lt;li&gt;Sensation of a lump in the throat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek immediate medical attention if you experience chest pain, especially when accompanied by other signs and symptoms, such as shortness of breath or jaw or arm pain. These may be signs and symptoms of a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Make an appointment with your doctor if you experience severe or frequent GERD symptoms. If you take over-the-counter medications for heartburn more than twice per week, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+GERD is caused by frequent acid reflux &amp;mdash; the backup of stomach acid or bile into the esophagus. 
+&lt;/p&gt;
+&lt;p&gt;
+When you swallow, the lower esophageal sphincter &amp;mdash; a circular band of muscle around the bottom part of your esophagus &amp;mdash; relaxes to allow food and liquid to flow down into your stomach. Then it closes again. 
+&lt;/p&gt;
+&lt;p&gt;
+However, if this valve relaxes abnormally or weakens, stomach acid can flow back up into your esophagus, causing frequent heartburn and disrupting your daily life. This constant backwash of acid can irritate the lining of your esophagus, causing it to become inflamed (esophagitis). Over time, the inflammation can erode the esophagus, causing complications such as bleeding or breathing problems. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how GERD occurs in the esophagus 
+" Caption="Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other signs and symptoms. Frequent or constant reflux can lead to gastroesophageal reflux disease (GERD). 
+" Height="60" Title="How heartburn and GERD occur" URI="/images/image_popup/thumbs/r7_heartburnthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how GERD occurs in the esophagus 
+" Caption="Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other signs and symptoms. Frequent or constant reflux can lead to gastroesophageal reflux disease (GERD). 
+" Height="256" Title="How heartburn and GERD occur" URI="/images/image_popup/r7_heartburn.jpg" Width="400" />
+				<HTML>
+					Acid reflux occurs when the sphincter muscle at the lower end of your esophagus relaxes at the wrong time, allowing stomach acid to back up into your esophagus. This can cause heartburn and other ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Conditions that can increase your risk of GERD include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Hiatal hernia&lt;/li&gt;
+	&lt;li&gt;Pregnancy&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Asthma&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Delayed stomach emptying&lt;/li&gt;
+	&lt;li&gt;Connective tissue disorders, such as scleroderma&lt;/li&gt;
+	&lt;li&gt;Zollinger-Ellison syndrome&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Over time, chronic inflammation in your esophagus can lead to complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowing of the esophagus (esophageal stricture).&lt;/strong&gt; Damage to cells in the lower esophagus from acid exposure leads to formation of scar tissue. The scar tissue narrows the food pathway, causing difficulty swallowing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An open sore in the esophagus (esophageal ulcer).&lt;/strong&gt; Stomach acid can severely erode tissues in the esophagus, causing an open sore to form. The esophageal ulcer may bleed, cause pain and make swallowing difficult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Precancerous changes to the esophagus (Barrett&apos;s esophagus).&lt;/strong&gt; In Barrett&apos;s esophagus, the color and composition of the tissue lining the lower esophagus change. These changes are associated with an increased risk of esophageal cancer. The risk of cancer is low, but your doctor will likely recommend regular endoscopy exams to look for early warning signs of esophageal cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you have GERD, you&apos;re likely to start by first seeing your family doctor or a general practitioner. Your doctor may recommend you see a doctor who specializes in treating digestive diseases (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For gastroesophageal reflux disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need an endoscopy?&lt;/li&gt;
+	&lt;li&gt;Is my GERD likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I schedule a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms wake you up at night?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse after meals or after lying down?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Does food or sour material ever come up in the back of your throat?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;Have you gained or lost weight?&lt;/li&gt;
+	&lt;li&gt;Do you experience nausea and vomiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Try lifestyle changes to control your symptoms until you see your doctor. For instance, avoid foods that trigger your heartburn and avoid eating at least two hours before bedtime. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re bothered by frequent heartburn or other signs and symptoms, your doctor may be able to diagnose GERD with that information alone. Your doctor may also suggest tests and procedures used to diagnose GERD, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An X-ray of your upper digestive system.&lt;/strong&gt; Sometimes called a barium swallow or upper GI series, this procedure involves drinking a chalky liquid that coats and fills the inside lining of your digestive tract. Then X-rays are taken of your upper digestive tract. The coating allows your doctor to see a silhouette of the shape and condition of your esophagus, stomach and upper intestine (duodenum).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Passing a flexible tube down your throat.&lt;/strong&gt; Endoscopy is a way to visually examine the inside of your esophagus. During endoscopy, your doctor inserts a thin, flexible tube equipped with a light and camera (endoscope) down your throat. The endoscope allows your doctor to examine your esophagus and stomach. Your doctor may also use endoscopy to collect a sample of tissue (biopsy) for further testing. Endoscopy is useful in looking for complications of reflux, such as Barrett&apos;s esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to monitor the amount of acid in your esophagus.&lt;/strong&gt; Ambulatory acid (pH) probe tests use an acid-measuring device to identify when, and for how long, stomach acid regurgitates into your esophagus. The acid monitor can be a thin, flexible tube (catheter) that&apos;s threaded through your nose into your esophagus. During the test, the tube stays in place and connects to a small computer that you wear around your waist or with a strap over your shoulder. Or the acid monitor can be a clip that&apos;s placed in your esophagus during endoscopy. The probe transmits a signal to a small computer that you wear around your waist for about two days, and then the probe falls off to be passed in your stool. Your doctor may ask that you stop taking GERD medications to prepare for this test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A test to measure the movement of the esophagus.&lt;/strong&gt; Esophageal motility testing measures movement and pressure in the esophagus. The test involves placing a catheter through your nose and into your esophagus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for heartburn and other signs and symptoms of GERD usually begins with over-the-counter medications that control acid. If you don&apos;t experience relief within a few weeks, your doctor may recommend other treatments, including medications and surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial treatments to control heartburn&lt;/strong&gt; &lt;br /&gt;
+Over-the-counter treatments that may help control heartburn include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antacids that neutralize stomach acid.&lt;/strong&gt; Antacids, such as Maalox, Mylanta, Gelusil, Rolaids and Tums, may provide quick relief. But antacids alone won&apos;t heal an inflamed esophagus damaged by stomach acid. Overuse of some antacids can cause side effects, such as diarrhea or constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce acid production.&lt;/strong&gt; Called H-2-receptor blockers, these medications include cimetidine (Tagamet HB), famotidine (Pepcid AC), nizatidine (Axid AR) or ranitidine (Zantac 25, Zantac 75, Zantac 150). H-2-receptor blockers don&apos;t act as quickly as antacids, but they provide longer relief. Stronger versions of these medications are available in prescription form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications that block acid production and heal the esophagus.&lt;/strong&gt; Proton pump inhibitors block acid production and allow time for damaged esophageal tissue to heal. Over-the-counter proton pump inhibitors include lansoprazole (Prevacid 24 HR) and omeprazole (Prilosec OTC).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Contact your doctor if you need to take these medications two or more times a week or your symptoms are not relieved. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prescription-strength medications&lt;/strong&gt; &lt;br /&gt;
+If heartburn persists despite initial approaches, your doctor may recommend prescription-strength medications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prescription-strength H-2-receptor blockers.&lt;/strong&gt; These include prescription-strength cimetidine (Tagamet), famotidine (Pepcid), nizatidine (Axid) and ranitidine (Zantac).&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Prescription-strength proton pump inhibitors.&lt;/strong&gt; Prescription-strength proton pump inhibitors include esomeprazole (Nexium), lansoprazole (Prevacid), omeprazole (Prilosec), pantoprazole (Protonix), rabeprazole (Aciphex) and dexlansoprazole (Dexilant). 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Rarely, these medications may lead to bone loss and increase the risk of a bone fracture. Your doctor may suggest that you take a calcium supplement to reduce these risks. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	These medications may decrease the effectiveness of the blood-thinning medication, clopidogrel (Plavix). If you are prescribed a proton pump inhibitor and are taking Plavix, tell your doctor. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to strengthen the lower esophageal sphincter.&lt;/strong&gt; Called prokinetic agents, these medications help your stomach empty more rapidly and help tighten the valve between the stomach and the esophagus. Side effects, such as fatigue, depression, anxiety and other neurological problems, limit the usefulness of these medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+GERD medications are sometimes combined to increase effectiveness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery and other procedures used if medications don&apos;t help&lt;/strong&gt; &lt;br /&gt;
+Most GERD can be controlled through medications. In situations where medications aren&apos;t helpful or you wish to avoid long-term medication use, your doctor may recommend more invasive procedures, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to reinforce the lower esophageal sphincter (Nissen fundoplication).&lt;/strong&gt; This surgery involves tightening the lower esophageal sphincter to prevent reflux by wrapping the very top of the stomach around the outside of the lower esophagus. Surgery can be open or laparoscopic. In open surgery, the surgeon makes a long incision in your abdomen. In laparoscopic surgery, the surgeon makes three or four small incisions in the abdomen and inserts instruments, including a flexible tube with a tiny camera, through the incisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to create a barrier preventing the backup of stomach acid.&lt;/strong&gt; A device (Esophyx) is inserted through the mouth into the stomach. The device is used to fold the tissue at the base of the stomach into a replacement for the sphincter valve, to keep stomach acid from washing into your esophagus. Your doctor may recommend this procedure if medications aren&apos;t effective or if you&apos;re not a candidate for Nissen fundoplication. It&apos;s not clear who is best suited for this treatment, and research is ongoing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A procedure to form scar tissue in the esophagus (Stretta procedure).&lt;/strong&gt; This approach uses electrode energy to heat esophageal tissue. The heat creates scar tissue and damages the nerves that respond to refluxed acid. The scar tissue that forms as your esophagus heals helps to strengthen the muscles. Your doctor may recommend this procedure if medications aren&apos;t effective or if you&apos;re not a candidate for Nissen fundoplication. It&apos;s not clear who is best suited for this treatment, and research is ongoing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to strengthen the lower esophageal sphincter (Linx). &lt;/strong&gt;The Linx device is a ring of tiny magnetic titanium beads that is wrapped around the junction of the stomach and esophagus. The magnetic attraction between the beads is strong enough to keep the opening between the two closed to refluxing acid, but weak enough so that food can pass through it. The new device has been approved by the Food and Drug Administration. It can be implanted using minimally invasive surgery methods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Nissen fundoplication 
+" Caption="Surgery for GERD may involve a procedure to reinforce the lower esophageal sphincter called Nissen fundoplication. In this procedure, the surgeon wraps the top of the stomach around the lower esophagus. This reinforces the lower esophageal sphincter, making it less likely that acid will back up in the esophagus.
+" Height="60" Title="GERD surgery" URI="/images/image_popup/thumbs/mcdc7_fundoplicationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Nissen fundoplication 
+" Caption="Surgery for GERD may involve a procedure to reinforce the lower esophageal sphincter called Nissen fundoplication. In this procedure, the surgeon wraps the top of the stomach around the lower esophagus. This reinforces the lower esophageal sphincter, making it less likely that acid will back up in the esophagus.
+" Height="227" Title="GERD surgery" URI="/images/image_popup/mcdc7_fundoplication.jpg" Width="400" />
+				<HTML>
+					Surgery for GERD may involve a procedure to reinforce the lower esophageal sphincter called Nissen fundoplication. In this procedure, the surgeon wraps the top of the stomach around the lower ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the ring of beads between the esophagus and stomach 
+" Caption="The Linx device is an expandable ring of metal beads that keeps stomach acid from refluxing into the esophagus, but allows food to pass into the stomach. 
+" Height="60" Title="Substitute for esophageal sphincter" URI="/images/image_popup/thumbs/mcdc7_beadsthu.jpg" Width="60" />
+				<Image Alt="Illustration of the ring of beads between the esophagus and stomach 
+" Caption="The Linx device is an expandable ring of metal beads that keeps stomach acid from refluxing into the esophagus, but allows food to pass into the stomach. 
+" Height="300" Title="Substitute for esophageal sphincter" URI="/images/image_popup/mcdc7_beads.jpg" Width="400" />
+				<HTML>
+					The Linx device is an expandable ring of metal beads that keeps stomach acid from refluxing into the esophagus, but allows food to pass into the stomach. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes may help reduce the frequency of heartburn. Consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Excess pounds put pressure on your abdomen, pushing up your stomach and causing acid to back up into your esophagus. If your weight is healthy, work to maintain it. If you are overweight or obese, work to slowly lose weight &amp;mdash; no more than 1 or 2 pounds (0.5 to 1 kilogram) a week. Ask your doctor for help in devising a weight-loss strategy that will work for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tight-fitting clothing.&lt;/strong&gt; Clothes that fit tightly around your waist put pressure on your abdomen and the lower esophageal sphincter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid foods and drinks that trigger heartburn.&lt;/strong&gt; Everyone has specific triggers. Common triggers such as fatty or fried foods, tomato sauce, alcohol, chocolate, mint, garlic, onion, and caffeine may make heartburn worse. Avoid foods you know will trigger your heartburn. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller meals.&lt;/strong&gt; Avoid overeating by eating smaller meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t lie down after a meal.&lt;/strong&gt; Wait at least three hours after eating before lying down or going to bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate the head of your bed.&lt;/strong&gt; If you regularly experience heartburn at night or while trying to sleep, put gravity to work for you. Place wood or cement blocks under the feet of your bed so that the head end is raised by six to nine inches. If it&apos;s not possible to elevate your bed, you can insert a wedge between your mattress and box spring to elevate your body from the waist up. Wedges are available at drugstores and medical supply stores. Raising your head with additional pillows is not effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking decreases the lower esophageal sphincter&apos;s ability to function properly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative medicine therapies are proven to treat GERD or to reverse damage to the esophagus. Still, some complementary and alternative therapies may provide some relief, when combined with your doctor&apos;s care. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about what alternative GERD treatments may be safe for you. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies.&lt;/strong&gt; Herbal remedies sometimes used for GERD symptoms include licorice, slippery elm, chamomile and marshmallow. Herbal remedies can have serious side effects, and they may interfere with medications. Ask your doctor about a safe dosage before beginning any herbal remedy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation therapies.&lt;/strong&gt; Techniques to calm stress and anxiety may reduce signs and symptoms of GERD. Ask your doctor about relaxation techniques, such as progressive muscle relaxation or guided imagery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Acupuncture involves inserting thin needles into specific points on your body. One small study reported that acupuncture helped people with heartburn that persisted despite medication. Ask your doctor whether acupuncture is safe for you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		GERD
+	</Title>
+	<Abstract>
+		GERD &amp;mdash; Comprehensive overview covers symptoms, treatment, diet issues of this acid reflux disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00998" LinkType="Internal" ObjectID="5D2988BC-4BCF-44BF-A6C481D95C10544F" Title="Acid reflux and GERD: The same thing?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00998" />
+		<LinkItem ContentType="Video" DocID="MM00008" LinkType="Internal" ObjectID="17D3D2D2-C98C-48AC-ADD54701217AD720" Title="Video: Heartburn and hiatal hernia" Url="http://www.mayoclinic.com/health/heartburn-gerd/MM00008" />
+		<LinkItem ContentType="Article" DocID="DG00016" LinkType="Internal" ObjectID="8CCC8FCD-BF2B-46E2-82B5C018EF3B1796" Title="Heartburn or chest pain: When is it heart attack?" Url="http://www.mayoclinic.com/health/heartburn-gerd/DG00016" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01208" LinkType="Internal" ObjectID="FCC5AED0-BABC-909A-06AABAF8B6297351" Title="Esophageal manometry" Url="http://www.mayoclinic.com/health/esophageal-manometry/MY01208" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00307" LinkType="Internal" ObjectID="9AE53C6F-E7FF-0DBD-17468FABB8482EEF" Title="X-ray" Url="http://www.mayoclinic.com/health/x-ray/MY00307" />
+		<LinkItem ContentType="Video" DocID="MM00791" LinkType="Internal" ObjectID="70EE2D3B-C827-3CD6-8BF1B00BDCA16B47" Title="Video: Fundoplication" Url="http://www.mayoclinic.com/health/fundoplication/MM00791" />
+		<LinkItem ContentType="Answer" DocID="AN02116" LinkType="Internal" ObjectID="1E03EEC8-EFF4-3C10-42CBB4D0FA8BBC64" Title="Asthma and acid reflux: Are they linked?" Url="http://www.mayoclinic.com/health/asthma-and-acid-reflux/AN02116" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+		<LinkItem ContentType="Article" DocID="WT00011" LinkType="Internal" ObjectID="E246F1FA-2A5D-9994-EE72B9B700C582EF" Title="Counting calories: Get back to weight-loss basics" Url="http://www.mayoclinic.com/health/calories/WT00011" />
+		<LinkItem ContentType="Article" DocID="HQ01625" LinkType="Internal" ObjectID="CFD9CF34-F700-4F2F-B9572D428BA62671" Title="Weight loss: 6 strategies for success" Url="http://www.mayoclinic.com/health/weight-loss/HQ01625" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Answer" DocID="AN00720" LinkType="Internal" ObjectID="E9E50A71-F3A9-4864-B9906E0681988412" Title="GERD: Can certain medications increase severity?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00720" />
+		<LinkItem ContentType="Answer" DocID="AN01215" LinkType="Internal" ObjectID="B9DE0148-2A5D-9994-E899E87E02FC4A31" Title="Laryngospasm: What causes it?" Url="http://www.mayoclinic.com/health/laryngospasm/AN01215" />
+		<LinkItem ContentType="Disease" DocID="DS00523" LinkType="Internal" ObjectID="7F63DE3D-2EC2-4360-AF54FB7E1C39A350" Title="Difficulty swallowing" Url="http://www.mayoclinic.com/health/difficulty-swallowing/DS00523" />
+		<LinkItem ContentType="Disease" DocID="DS00362" LinkType="Internal" ObjectID="3830E935-0B28-4EE9-85E99C261470826D" Title="Scleroderma" Url="http://www.mayoclinic.com/health/scleroderma/DS00362" />
+		<LinkItem ContentType="Disease" DocID="HQ00312" LinkType="Internal" ObjectID="0F626CE4-7682-4C3C-801AC8E07B01F30C" Title="Barrett&apos;s esophagus" Url="http://www.mayoclinic.com/health/barretts-esophagus/HQ00312" />
+		<LinkItem ContentType="Disease" DocID="DS00099" LinkType="Internal" ObjectID="07CE2FE3-AAA0-46EE-94377590C1EF581C" Title="Hiatal hernia" Url="http://www.mayoclinic.com/health/hiatal-hernia/DS00099" />
+	</RelatedLinksBox>
+</Disease>

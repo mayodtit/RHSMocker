@@ -1,0 +1,361 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00787
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/infant-acid-reflux/DS00787
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-15
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="3977" Title="Infant acid reflux" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E8D29864-E7FF-0DBD-1340943469853447
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				infant
+			</MetaKeyword>
+			<MetaKeyword>
+				infant acid reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				infant reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				GER
+			</MetaKeyword>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				infant GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				baby
+			</MetaKeyword>
+			<MetaKeyword>
+				newborn
+			</MetaKeyword>
+			<MetaKeyword>
+				spitting up
+			</MetaKeyword>
+			<MetaKeyword>
+				spit up
+			</MetaKeyword>
+			<MetaKeyword>
+				nursing
+			</MetaKeyword>
+			<MetaKeyword>
+				breastfeeding
+			</MetaKeyword>
+			<MetaKeyword>
+				breast-feeding
+			</MetaKeyword>
+			<MetaKeyword>
+				bottle
+			</MetaKeyword>
+			<MetaKeyword>
+				bottle-feeding
+			</MetaKeyword>
+			<MetaKeyword>
+				formula
+			</MetaKeyword>
+			<MetaKeyword>
+				infant formula
+			</MetaKeyword>
+			<MetaKeyword>
+				pyloric stenosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infant reflux (sometimes called infant acid reflux) is the condition where the contents of the stomach are spit out, usually shortly after feeding. Spitting up (infant reflux) becomes less common as a baby gets older, and it&apos;s unusual if it&apos;s still occurring after 18 months of age. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small number of cases, reflux can be a sign of a more serious problem, such as gastroesophageal reflux disease (GERD), an allergy or a blockage. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how infant reflux occurs 
+" Caption="If the valve (lower esophageal sphincter) between the esophagus and the stomach relaxes at the wrong time, stomach contents may flow up the baby&apos;s esophagus and out of the baby&apos;s mouth.
+" Height="60" Title="How infant reflux occurs" URI="/images/image_popup/thumbs/r7_infant_acid_refluxthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how infant reflux occurs 
+" Caption="If the valve (lower esophageal sphincter) between the esophagus and the stomach relaxes at the wrong time, stomach contents may flow up the baby&apos;s esophagus and out of the baby&apos;s mouth.
+" Height="264" Title="How infant reflux occurs" URI="/images/image_popup/r7_infant_acid_reflux.jpg" Width="400" />
+				<HTML>
+					If the valve (lower esophageal sphincter) between the esophagus and the stomach relaxes at the wrong time, stomach contents may flow up the baby&apos;s esophagus and out of the baby&apos;s mouth.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Spitting up and vomiting are the main symptoms of infant reflux. As long as your baby is healthy, content and growing well, the reflux is not a cause for concern. Your child will in all likelihood outgrow it. 
+&lt;/p&gt;
+&lt;p&gt;
+While your baby may act fussy or seem to be uncomfortable, it is very unusual for the stomach contents to be acidic enough to irritate the esophagus or throat, as happens with acid reflux. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your baby&apos;s doctor if your baby: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Isn&apos;t gaining weight&lt;/li&gt;
+	&lt;li&gt;Spits up forcefully, causing stomach contents to shoot out of his or her mouth (projectile vomiting)&lt;/li&gt;
+	&lt;li&gt;Spits up green or yellow fluid&lt;/li&gt;
+	&lt;li&gt;Spits up blood or a material that looks like coffee grounds&lt;/li&gt;
+	&lt;li&gt;Refuses food&lt;/li&gt;
+	&lt;li&gt;Has blood in his or her stool&lt;/li&gt;
+	&lt;li&gt;Has difficulty breathing &lt;/li&gt;
+	&lt;li&gt;Begins vomiting at age 6 months or older&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some of these signs may indicate more-serious conditions, such as gastroesophageal reflux disease (GERD) or pyloric stenosis. In GERD, the reflux contains stomach acid which damages the lining of the esophagus. Pyloric stenosis is a rare condition in which a narrowed valve between the stomach and the small intestine keeps stomach contents from emptying into the small intestine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infant reflux is related to a number of factors, often in combination with one another. 
+&lt;/p&gt;
+&lt;p&gt;
+In infants, the ring of muscle between the esophagus and the stomach &amp;mdash; the lower esophageal sphincter (LES) &amp;mdash; is not yet fully mature, allowing stomach contents to flow backward. Eventually, the LES will open only when baby swallows and will remain tightly closed the rest of the time, keeping stomach contents where they belong. 
+&lt;/p&gt;
+&lt;p&gt;
+Babies are lying flat most of the time, which makes reflux more likely. Moreover, their diet is completely liquid, also favoring infant reflux. Sometimes air bubbles in the stomach may push liquids backward. In other cases, your baby may simply drink too much, too fast. 
+&lt;/p&gt;
+&lt;p&gt;
+Although infant reflux most often occurs after a feeding, it can happen anytime your baby coughs, cries or strains. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small number of cases, the symptoms of infant reflux are caused by something else. Among the possibilities: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergic gastroenteritis&lt;/strong&gt; is an intolerance to something in food, usually a protein in cow&apos;s milk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastroesophael reflux disease (GERD)&lt;/strong&gt; is a more severe condition where the reflux is acidic enough to actually irritate and damage the lining of the esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eosinophilic esophagitis&lt;/strong&gt; is a condition where a particular type of white blood cell (eosinophil) builds up and injures the lining of the esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obstruction&lt;/strong&gt; is a blockage or narrowing in the esophagus (esophageal stricture) or between the stomach and small intestine (pyloric stenosis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing how infant reflux occurs 
+" Caption="If the valve (lower esophageal sphincter) between the esophagus and the stomach relaxes at the wrong time, stomach contents may flow up the baby&apos;s esophagus and out of the baby&apos;s mouth.
+" Height="60" Title="How infant reflux occurs" URI="/images/image_popup/thumbs/r7_infant_acid_refluxthu.jpg" Width="60" />
+				<Image Alt="Illustration showing how infant reflux occurs 
+" Caption="If the valve (lower esophageal sphincter) between the esophagus and the stomach relaxes at the wrong time, stomach contents may flow up the baby&apos;s esophagus and out of the baby&apos;s mouth.
+" Height="264" Title="How infant reflux occurs" URI="/images/image_popup/r7_infant_acid_reflux.jpg" Width="400" />
+				<HTML>
+					If the valve (lower esophageal sphincter) between the esophagus and the stomach relaxes at the wrong time, stomach contents may flow up the baby&apos;s esophagus and out of the baby&apos;s mouth.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of infant reflux clear up on their own without causing problems for your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+If the condition is not normal reflux, but is GERD or some other condition (much less common), the baby may show signs of poor growth or problems with breathing. Some research indicates that babies who have frequent episodes of spitting up may be more likely to develop gastroesophageal reflux disease during later childhood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re worried about infant reflux, you&apos;ll likely start by seeing your child&apos;s family doctor or pediatrician. If the reflux is persisting past your child&apos;s first birthday or if your child is having some worrisome symptoms such as lack of weight gain and breathing problems, you may be referred to a specialist in digestive diseases in children (pediatric gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your baby is experiencing.&lt;/strong&gt; Note when the baby spits up. Is it every time he or she feeds? How much liquid is your baby spitting up? Does it seem like he or she is throwing up everything eaten?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of key information.&lt;/strong&gt; How often do you feed your baby? How often do feeding sessions last? How often do you burp your baby during feedings? Are you breast-feeding? If not, what formula are you using, and have you recently switched formulas?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Some basic questions you might want to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my baby&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Does my baby need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What can I do to help my baby?&lt;/li&gt;
+	&lt;li&gt;Am I feeding my baby too much? Or am I feeding my baby too often?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be ready to respond to questions your doctor is likely to ask you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your baby first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Does your baby spit up with every feeding or only occasionally?&lt;/li&gt;
+	&lt;li&gt;How is your baby&apos;s temperament? Is he or she content between feedings?&lt;/li&gt;
+	&lt;li&gt;Have you recently switched from breast-feeding to bottle-feeding? Or have you switched infant formulas?&lt;/li&gt;
+	&lt;li&gt;How often do you feed your baby?&lt;/li&gt;
+	&lt;li&gt;How much does your baby eat at each feeding?&lt;/li&gt;
+	&lt;li&gt;Does the same person feed your baby every time?&lt;/li&gt;
+	&lt;li&gt;If you have different caregivers, does everyone feed the baby the same way each time?&lt;/li&gt;
+	&lt;li&gt;In what position does your baby sleep?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your baby&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of infant reflux is typically based on your baby&apos;s symptoms and a physical exam. If your baby is healthy, growing as expected and seems content, then further testing usually isn&apos;t needed. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby&apos;s doctor suspects a more serious problem, diagnostic tests could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This test is used to detect an obstruction in the opening between the stomach and small intestine (pyloric stenosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lab tests.&lt;/strong&gt; Various blood and urine tests can help identify or rule out possible causes of recurring vomiting and poor weight gain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Esophageal pH monitoring.&lt;/strong&gt; To determine if irritability, sleep disturbances or other symptoms are associated with reflux of acid, it may be helpful to measure the acidity in your baby&apos;s esophagus. The doctor will insert a thin tube through your baby&apos;s nose or mouth into the esophagus. The tube is attached to a device that monitors acidity. Your baby may need to remain in the hospital while being monitored.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Upper GI series.&lt;/strong&gt; If the doctor suspects a gastrointestinal obstruction, he or she may recommend a series of X-rays known as an upper gastrointestinal (GI) series. Before the X-rays, your baby is given a white, chalky liquid (barium) to drink. The barium coats the stomach, which helps any abnormalities show up more clearly on the X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Upper endoscopy.&lt;/strong&gt; Your baby&apos;s doctor may use this procedure to identify or rule out problems in the esophagus, such as narrowing (stricture) or inflammation (esophagitis). The doctor will insert a special tube equipped with a camera lens and light through your baby&apos;s mouth into the esophagus, stomach and first part of the small intestine. Samples of any suspicious tissue may be taken for analysis. For infants and children, endoscopy is usually done under general anesthesia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of infant reflux clear up on their own, helped by simple changes in feeding techniques, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Smaller, more frequent feedings&lt;/li&gt;
+	&lt;li&gt;Thickening feedings with cereal&lt;/li&gt;
+	&lt;li&gt;Interrupting feedings to burp the baby&lt;/li&gt;
+	&lt;li&gt;Holding your baby upright during and after feedings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To test to see if the reflux is caused by an allergy to a protein in cow&apos;s milk, your baby&apos;s doctor may suggest that you eliminate dairy products or beef from your diet if you&apos;re breast-feeding. 
+&lt;/p&gt;
+&lt;p&gt;
+If you feed your baby formula, sometimes switching brands helps. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medication.&lt;/strong&gt; Acid-blocking medications are not recommended in cases of uncomplicated infant reflux. A short-term trial of an H-2 blocker such as ranitidine, or perhaps a proton pump inhibitor such as omeprazole (Prilosec) or lansoprazole (Prevacid), may be worth trying for babies who have poor weight gain, refuse to feed, have evidence of esophagitis or who have chronic asthma and reflux.
+	&lt;/p&gt;
+	&lt;p&gt;
+	It&apos;s important to note that otherwise healthy children taking these medications may face an increased risk of certain intestinal and respiratory infections. In addition, prolonged use of proton pump inhibitors has been linked to problems in iron and calcium absorption in infants. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In rare instances, the muscle that relaxes to let food into the stomach (the lower esophageal sphincter) needs to be surgically tightened to prevent acid from flowing back into the esophagus. This fundoplication procedure is usually reserved for the few babies who have reflux severe enough to interfere with breathing or prevent growth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To minimize reflux, consider these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep baby upright.&lt;/strong&gt; Feed your baby in an upright position, and hold your baby in a sitting position for 30 minutes afterward, if possible. Gravity can help stomach contents stay where they belong. Be careful not to jostle or jiggle your baby while the food is settling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try smaller, more frequent feedings.&lt;/strong&gt; Feed your baby slightly less than usual if you&apos;re bottle-feeding or cut back a little on the amount of nursing time if you&apos;re breast-feeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time to burp your baby.&lt;/strong&gt; Frequent burps during and after feeding can keep air from building up in your baby&apos;s stomach. To burp, sit your baby upright, supporting his or her head with your hand. Avoid burping your baby over your shoulder, which puts pressure on your baby&apos;s abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thicken the formula or breast milk.&lt;/strong&gt; If your baby&apos;s doctor approves, add a small amount of rice cereal to your baby&apos;s formula or expressed breast milk. You may need to enlarge the hole in the nipple to make sure your baby can drink the thickened liquid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep on their back.&lt;/strong&gt; Infants should be placed on their backs (supine) to sleep, even if they have reflux. Elevating the baby&apos;s head slightly is not helpful, as it increases reflux.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember, infant reflux is usually little cause for concern. Just keep plenty of burp cloths handy as you ride it out. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Infant reflux
+	</Title>
+	<Abstract>
+		Infant reflux &amp;mdash; Comprehensive overview covers symptoms, treatment of this messy, but common, condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="PR00044" LinkType="Internal" ObjectID="174560E4-825C-40E0-907B33BED5EBCE6C" Title="Spitting up in babies: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/healthy-baby/PR00044" />
+		<LinkItem ContentType="Article" DocID="MY02042" LinkType="Internal" ObjectID="07970C39-97EF-1ECD-666C0E0B13FB6859" Title="Stroller safety: Tips for parents" Url="http://www.mayoclinic.com/health/stroller-safety/MY02042" />
+	</RelatedLinksBox>
+</Disease>

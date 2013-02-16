@@ -1,0 +1,305 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00438
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/west-nile-virus/DS00438
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-18
+		</UpdateDate>
+		<PublicationDate>
+			2002-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2560" Title="West Nile virus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D08D431B-4EBE-4827-BC99D64043A2426C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				West Nile virus
+			</MetaKeyword>
+			<MetaKeyword>
+				west nile
+			</MetaKeyword>
+			<MetaKeyword>
+				West Nile fever
+			</MetaKeyword>
+			<MetaKeyword>
+				mosquito
+			</MetaKeyword>
+			<MetaKeyword>
+				encephalitis
+			</MetaKeyword>
+			<MetaKeyword>
+				meningitis
+			</MetaKeyword>
+			<MetaKeyword>
+				LaCrosse encephalitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+West Nile infection is caused by a virus transmitted by mosquitoes. Most people infected with West Nile virus don&apos;t experience any signs or symptoms, or may experience only minor ones, such as fever and mild headache. However, some people who become infected with West Nile virus develop a life-threatening illness that includes inflammation of the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild signs and symptoms of a West Nile virus infection generally go away on their own. But severe signs and symptoms &amp;mdash; such as a severe headache, fever, disorientation or sudden weakness &amp;mdash; require immediate attention. 
+&lt;/p&gt;
+&lt;p&gt;
+Exposure to mosquitoes where West Nile virus exists increases your risk of getting West Nile virus infection. Protect yourself from mosquitoes by using mosquito repellent and wearing clothing that covers your skin to reduce your risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Most have no signs or symptoms&lt;/strong&gt; &lt;br /&gt;
+Most people infected with the West Nile virus have no signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mild infection signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+About 20 percent of people develop a mild infection called West Nile fever. Common signs and symptoms of West Nile fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Body aches&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Back pain&lt;/li&gt;
+	&lt;li&gt;Skin rash (occasionally)&lt;/li&gt;
+	&lt;li&gt;Swollen lymph glands (occasionally)&lt;/li&gt;
+	&lt;li&gt;Eye pain (occasionally)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Serious infection signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+In less than 1 percent of infected people, the virus causes a serious neurological infection. Such infection may include inflammation of the brain (encephalitis) or of both the brain and surrounding membranes (meningoencephalitis). Serious infection may also include infection and inflammation of the membranes surrounding the brain and spinal cord (meningitis), inflammation of the spinal cord (West Nile poliomyelitis) and acute flaccid paralysis &amp;mdash; a sudden weakness in your arms, legs or breathing muscles. Signs and symptoms of these diseases include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+	&lt;li&gt;Stiff neck&lt;/li&gt;
+	&lt;li&gt;Disorientation or confusion&lt;/li&gt;
+	&lt;li&gt;Stupor or coma&lt;/li&gt;
+	&lt;li&gt;Tremors or muscle jerking&lt;/li&gt;
+	&lt;li&gt;Lack of coordination&lt;/li&gt;
+	&lt;li&gt;Convulsions&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Partial paralysis or sudden muscle weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of West Nile fever usually last a few days, but signs and symptoms of encephalitis or meningitis can linger for weeks, and certain neurological effects, such as muscle weakness, may be permanent. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Mild symptoms of West Nile fever usually resolve on their own. If you experience signs or symptoms of serious infection, such as severe headaches, a stiff neck, disorientation or confusion, seek medical attention right away. A serious West Nile virus infection generally requires hospitalization. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Infection transmitted by mosquitoes&lt;/strong&gt; &lt;br /&gt;
+Typically, West Nile virus spreads to humans and animals via infected mosquitoes. Mosquitoes become infected when they feed on infected birds. You can&apos;t get infected by touching or kissing a person with the virus. 
+&lt;/p&gt;
+&lt;p&gt;
+Most West Nile virus infections occur during warm weather, when mosquito populations are active. The incubation period &amp;mdash; the period between when you&apos;re bitten by an infected mosquito and the appearance of signs and symptoms of the illness &amp;mdash; ranges from three to 14 days. 
+&lt;/p&gt;
+&lt;p&gt;
+West Nile virus is present in areas such as Africa, parts of Asia and the Middle East. It first appeared in the United States in the summer of 1999 and since then has been found in all 48 contiguous states. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other possible routes of transmission&lt;/strong&gt; &lt;br /&gt;
+In a few cases, West Nile virus may have been spread through other routes, including organ transplantation and blood transfusion. However, blood donors are screened for the virus, substantially reducing the risk of infection from blood transfusions. 
+&lt;/p&gt;
+&lt;p&gt;
+There have also been reports of possible transmission of the virus from mother to child during pregnancy or breast-feeding, but these have been rare and not conclusively confirmed. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of West Nile virus transmission cycle 
+" Caption="When a mosquito bites an infected bird, the virus enters the mosquito&apos;s bloodstream and eventually moves into its salivary glands. When an infected mosquito bites an animal or a human (host), the virus is passed into the host&apos;s bloodstream, where it may cause serious illness. 
+" Height="60" Title="West Nile virus transmission cycle" URI="/images/image_popup/thumbs/r7_westnileviruscycle_thu.jpg" Width="60" />
+				<Image Alt="Illustration of West Nile virus transmission cycle 
+" Caption="When a mosquito bites an infected bird, the virus enters the mosquito&apos;s bloodstream and eventually moves into its salivary glands. When an infected mosquito bites an animal or a human (host), the virus is passed into the host&apos;s bloodstream, where it may cause serious illness. 
+" Height="260" Title="West Nile virus transmission cycle" URI="/images/image_popup/r7_westnileviruscycle.jpg" Width="400" />
+				<HTML>
+					When a mosquito bites an infected bird, the virus enters the mosquito&apos;s bloodstream and eventually moves into its salivary glands. When an infected mosquito bites an animal or a human (host), the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your overall risk of getting West Nile virus depends on these factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Time of year.&lt;/strong&gt; The majority of cases in the United States have occurred between the months of July and September.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Geographic region.&lt;/strong&gt; West Nile virus has been reported in most of the United States, but Midwestern and Southern states have recently had the highest incidence rates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Time spent outside.&lt;/strong&gt; If you work or spend time outdoors, you have a greater chance of being bitten by an infected mosquito.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk of serious infection&lt;/strong&gt; &lt;br /&gt;
+Even if you&apos;re infected, your risk of developing a serious West Nile virus-related illness is extremely small &amp;mdash; less than 1 percent of people who are infected become severely ill. And most people who do become sick recover fully. You&apos;re more likely to develop a severe or fatal infection based on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Adults older than age 50 are at higher risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Health.&lt;/strong&gt; Those who have a weakened immune system, such as after receiving an organ transplant with anti-rejection medication, are at greater risk of infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience signs and symptoms of a severe West Nile virus infection &amp;mdash; such as a high fever, a severe headache, a stiff neck, disorientation or sudden muscle weakness &amp;mdash; see your doctor right away or go to an urgent care center. If you&apos;re seriously ill, you may need to be hospitalized. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Make a list to take with you that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;A record of your recent activities or travel to an area where West Nile virus is prevalent&lt;/li&gt;
+	&lt;li&gt;Information about your past medical problems&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+In addition to listening to your description of symptoms, your doctor will perform a physical exam. Your doctor will also take into account whether it&apos;s mosquito season and whether he or she has seen other cases of West Nile virus infection recently. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may take blood samples to be analyzed for West Nile virus antibodies. If necessary, your doctor may send you to a hospital for supportive therapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can confirm the presence of West Nile virus or a West Nile-related illness, such as meningitis or encephalitis, by performing one of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory tests.&lt;/strong&gt; If you&apos;re infected, a blood test may show a rising level of antibodies to the West Nile virus. Antibodies are immune system proteins that attack foreign substances, such as viruses. A positive ribonucleic acid (RNA) test for the West Nile virus also is an indicator that you have the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lumbar puncture (spinal tap).&lt;/strong&gt; The most common way to diagnose meningitis is to analyze the cerebrospinal fluid surrounding your brain and spinal cord. A needle inserted between the lower vertebrae of your spine is used to extract a sample of fluid for laboratory analysis. The fluid sample may show an elevated white cell count &amp;mdash; a signal that your immune system is fighting an infection &amp;mdash; and antibodies to the West Nile virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain tests.&lt;/strong&gt; In some cases, an electroencephalography (EEG) &amp;mdash; a procedure that tests your brain&apos;s activity &amp;mdash; or an MRI scan can help detect brain inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Supportive therapy&lt;/strong&gt; &lt;br /&gt;
+Most people recover from West Nile virus without treatment. Over-the-counter pain relievers can help ease mild headaches and muscle aches. 
+&lt;/p&gt;
+&lt;p&gt;
+Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no direct cure for encephalitis or meningitis, but you may need supportive therapy in a hospital with intravenous fluids and medicines to prevent other types of infections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Interferon therapy&lt;/strong&gt; &lt;br /&gt;
+Scientists are investigating interferon therapy &amp;mdash; a type of immune cell therapy &amp;mdash; as a treatment for encephalitis caused by West Nile virus. Some research shows that people who receive interferon may recover better than those who don&apos;t receive the drug, but more study is needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your best bet for preventing West Nile virus and other mosquito-borne illnesses is to avoid exposure to mosquitoes and eliminate mosquito-breeding sites. To help control West Nile virus: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eliminate standing water in your yard. Mosquitoes breed in pools of standing water.&lt;/li&gt;
+	&lt;li&gt;Unclog roof gutters.&lt;/li&gt;
+	&lt;li&gt;Empty unused swimming pools.&lt;/li&gt;
+	&lt;li&gt;Change water in birdbaths at least weekly.&lt;/li&gt;
+	&lt;li&gt;Remove old tires or any unused containers that might hold water and serve as a breeding place for mosquitoes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To reduce your own exposure to mosquitoes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid unnecessary outdoor activity when mosquitoes are most prevalent, such as at dawn, dusk and early evening.&lt;/li&gt;
+	&lt;li&gt;Wear long-sleeved shirts and long pants when you go into mosquito-infested areas.&lt;/li&gt;
+	&lt;li&gt;Apply mosquito repellent containing an Environmental Protection Agency-registered insect repellent to your skin and clothing. Choose the concentration based on the hours of protection you need &amp;mdash; the higher the percentage (concentration) of the active ingredient, the longer the repellent will work. Follow the directions on the package, paying special attention to recommendations for use on children.&lt;/li&gt;
+	&lt;li&gt;When outside, cover your infant&apos;s stroller or playpen with mosquito netting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A vaccine is available to protect horses from West Nile virus. No vaccine is available for humans, but work to develop a human vaccine is under way. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		West Nile virus
+	</Title>
+	<Abstract>
+		West Nile virus &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this mosquito-borne illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+	</RelatedLinksBox>
+</Disease>

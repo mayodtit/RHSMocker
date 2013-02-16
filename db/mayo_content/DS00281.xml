@@ -1,0 +1,442 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00281
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brain-tumor/DS00281
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-14
+		</UpdateDate>
+		<PublicationDate>
+			2001-02-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2868" Title="Brain tumor">
+						<Keyword MCVID="2871" Title="Brain cancer" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			451633E9-4EE0-472F-AF180974A8E009E9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				brain tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				brain
+			</MetaKeyword>
+			<MetaKeyword>
+				brain cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				headache
+			</MetaKeyword>
+			<MetaKeyword>
+				acoustic neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				schwannoma
+			</MetaKeyword>
+			<MetaKeyword>
+				astrocytoma
+			</MetaKeyword>
+			<MetaKeyword>
+				medulloblastoma
+			</MetaKeyword>
+			<MetaKeyword>
+				meningioma
+			</MetaKeyword>
+			<MetaKeyword>
+				oligodendroglioma
+			</MetaKeyword>
+			<MetaKeyword>
+				glioblastoma multiforme
+			</MetaKeyword>
+			<MetaKeyword>
+				brain tumour
+			</MetaKeyword>
+			<MetaKeyword>
+				glioma
+			</MetaKeyword>
+			<MetaKeyword>
+				gleoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain tumor is a mass or growth of abnormal cells in your brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Many different types of brain tumors exist. Some brain tumors are noncancerous (benign), and some brain tumors are cancerous (malignant). Brain tumors can begin in your brain (primary brain tumors), or cancer can begin in other parts of your body and spread to your brain (secondary, or metastatic, brain tumors). 
+&lt;/p&gt;
+&lt;p&gt;
+Brain tumor treatment options depend on the type of brain tumor you have, as well as its size and location. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing brain cancer 
+" Caption="Brain cancer is cancer that begins in the brain cells. As brain cancer grows, it creates pressure on surrounding brain tissue and causes signs and symptoms, such as headaches, nausea and balance problems. 
+" Height="60" Title="Brain cancer" URI="/images/image_popup/thumbs/mcdc7_brain_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing brain cancer 
+" Caption="Brain cancer is cancer that begins in the brain cells. As brain cancer grows, it creates pressure on surrounding brain tissue and causes signs and symptoms, such as headaches, nausea and balance problems. 
+" Height="485" Title="Brain cancer" URI="/images/image_popup/mcdc7_brain_cancer.jpg" Width="400" />
+				<HTML>
+					Brain cancer is cancer that begins in the brain cells. As brain cancer grows, it creates pressure on surrounding brain tissue and causes signs and symptoms, such as headaches, nausea and balance ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of a brain tumor vary greatly and depend on the brain tumor&apos;s size, location and rate of growth. 
+&lt;/p&gt;
+&lt;p&gt;
+General signs and symptoms caused by brain tumors may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;New onset or change in pattern of headaches&lt;/li&gt;
+	&lt;li&gt;Headaches that gradually become more frequent and more severe&lt;/li&gt;
+	&lt;li&gt;Unexplained nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Vision problems, such as blurred vision, double vision or loss of peripheral vision&lt;/li&gt;
+	&lt;li&gt;Gradual loss of sensation or movement in an arm or a leg&lt;/li&gt;
+	&lt;li&gt;Difficulty with balance&lt;/li&gt;
+	&lt;li&gt;Speech difficulties&lt;/li&gt;
+	&lt;li&gt;Confusion in everyday matters&lt;/li&gt;
+	&lt;li&gt;Personality or behavior changes&lt;/li&gt;
+	&lt;li&gt;Seizures, especially in someone who doesn&apos;t have a history of seizures&lt;/li&gt;
+	&lt;li&gt;Hearing problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have persistent signs and symptoms that concern you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Brain tumors that begin in the brain&lt;/strong&gt; &lt;br /&gt;
+Primary brain tumors originate in the brain itself or in tissues close to it, such as in the brain-covering membranes (meninges), cranial nerves, pituitary gland or pineal gland. Primary brain tumors begin when normal cells acquire errors (mutations) in their DNA. These mutations allow cells to grow and divide at increased rates and to continue living when healthy cells would die. The result is a mass of abnormal cells, which forms a tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+Primary brain tumors are much less common than are secondary brain tumors, in which cancer begins elsewhere and spreads to the brain. Many different types of primary brain tumors exist. Each gets its name from the type of cells involved. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acoustic neuroma (schwannoma)&lt;/li&gt;
+	&lt;li&gt;Astrocytoma, also known as glioma, which includes anaplastic astrocytoma and glioblastoma&lt;/li&gt;
+	&lt;li&gt;Ependymoma&lt;/li&gt;
+	&lt;li&gt;Ependymoblastoma&lt;/li&gt;
+	&lt;li&gt;Germ cell tumor&lt;/li&gt;
+	&lt;li&gt;Medulloblastoma&lt;/li&gt;
+	&lt;li&gt;Meningioma&lt;/li&gt;
+	&lt;li&gt;Oligodendroglioma&lt;/li&gt;
+	&lt;li&gt;Pineoblastoma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer that begins elsewhere and spreads to the brain&lt;/strong&gt; &lt;br /&gt;
+Secondary (metastatic) brain tumors are tumors that result from cancer that starts elsewhere in your body and then spreads (metastasizes) to your brain. Secondary brain tumors most often occur in people who have a history of cancer. But in rare cases, a metastatic brain tumor may be the first sign of cancer that began elsewhere in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Secondary brain tumors are far more common than are primary brain tumors. Any cancer can spread to the brain, but the most common types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast cancer&lt;/li&gt;
+	&lt;li&gt;Colon cancer&lt;/li&gt;
+	&lt;li&gt;Kidney cancer&lt;/li&gt;
+	&lt;li&gt;Lung cancer&lt;/li&gt;
+	&lt;li&gt;Melanoma&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Magnetic resonance imaging (MRI) scan showing meningioma 
+" Caption="This magnetic resonance imaging (MRI) scan of a person&apos;s head shows a meningioma. This meningioma has grown large enough to push down into the brain tissue. 
+" Height="60" Title="Meningioma" URI="/images/image_popup/thumbs/ans7_meningiomathu.jpg" Width="60" />
+				<Image Alt="Magnetic resonance imaging (MRI) scan showing meningioma 
+" Caption="This magnetic resonance imaging (MRI) scan of a person&apos;s head shows a meningioma. This meningioma has grown large enough to push down into the brain tissue. 
+" Height="300" Title="Meningioma" URI="/images/image_popup/ans7_meningioma.jpg" Width="400" />
+				<HTML>
+					This magnetic resonance imaging (MRI) scan of a person&apos;s head shows a meningioma. This meningioma has grown large enough to push down into the brain tissue. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing acoustic neuroma 
+" Caption="An acoustic neuroma is a benign tumor that develops on the balance and hearing nerves leading from your inner ear to your brain. These nerves are twined together to form the vestibulocochlear nerve (eighth cranial nerve). The pressure on the nerve from the tumor may cause hearing loss and imbalance. 
+" Height="60" Title="Acoustic neuroma" URI="/images/image_popup/thumbs/ans7_acousticneuromathu.jpg" Width="60" />
+				<Image Alt="Illustration showing acoustic neuroma 
+" Caption="An acoustic neuroma is a benign tumor that develops on the balance and hearing nerves leading from your inner ear to your brain. These nerves are twined together to form the vestibulocochlear nerve (eighth cranial nerve). The pressure on the nerve from the tumor may cause hearing loss and imbalance. 
+" Height="216" Title="Acoustic neuroma" URI="/images/image_popup/ans7_acousticneuroma.jpg" Width="400" />
+				<HTML>
+					An acoustic neuroma is a benign tumor that develops on the balance and hearing nerves leading from your inner ear to your brain. These nerves are twined together to form the vestibulocochlear nerve (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Though doctors aren&apos;t sure what causes the genetic mutations that can lead to primary brain tumors, they&apos;ve identified factors that may increase your risk of a brain tumor. Risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your race.&lt;/strong&gt; In general, brain tumors occur more frequently in whites than they do in people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Your risk of a brain tumor increases as you age. Brain tumors are most common in older adults. However, a brain tumor can occur at any age. And certain types of brain tumors, such as medulloblastomas, occur almost exclusively in children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to radiation.&lt;/strong&gt; People who have been exposed to a type of radiation called ionizing radiation have an increased risk of brain tumor. Examples of ionizing radiation include radiation therapy used to treat cancer and radiation exposure caused by atomic bombs. More common forms of radiation, such as electromagnetic fields from power lines and radiofrequency radiation from cellphones and microwave ovens, have not been proved to be linked to brain tumors. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical exposure on the job.&lt;/strong&gt; People working in certain industries may have an increased risk of brain tumors, possibly because of the chemicals they&apos;re exposed to on the job. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of brain tumors.&lt;/strong&gt; A small portion of brain tumors occur in people with a family history of brain tumors or a family history of genetic syndromes that increase the risk of brain tumors. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain tumor can cause complications depending on the part of your brain that&apos;s affected. Complications can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weakness.&lt;/strong&gt; A brain tumor can damage any part of the brain. But if the part of the brain involved happens to control strength or movement of an arm or leg, it could produce definite weakness in that part of the body. Weakness caused by a brain tumor can be very similar to that caused by a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision changes.&lt;/strong&gt; A brain tumor that damages the nerves that connect to the eyes or the part of the brain that processes visual information (visual cortex) can lead to vision problems, such as double vision or a reduced field of vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Headaches.&lt;/strong&gt; A brain tumor that causes increased pressure within the brain can cause headaches. These headaches can be severe and unrelenting and may be accompanied by nausea and vomiting. Headaches can be due to the tumor itself, or they can result from fluid building up in the brain (hydrocephalus). Most headaches aren&apos;t caused by brain tumors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Personality changes.&lt;/strong&gt; Tumors in certain areas of the brain may cause personality changes or changes in behavior.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing loss.&lt;/strong&gt; Brain tumors that affect the auditory nerves &amp;mdash; especially acoustic neuromas &amp;mdash; may cause hearing loss in the ear on the involved side of the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seizures.&lt;/strong&gt; A brain tumor can cause irritation to the brain that can result in a seizure. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+See your doctor if you have any signs or symptoms that worry you. If you&apos;re diagnosed with a brain tumor, you may be referred to specialists, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctors who specialize in brain disorders (neurologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who treat cancer (oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who use radiation to treat cancer (radiation oncologists)&lt;/li&gt;
+	&lt;li&gt;Doctors who specialize in nervous system cancers (neuro-oncologists)&lt;/li&gt;
+	&lt;li&gt;Surgeons&lt;/li&gt;
+	&lt;li&gt;Rehabilitation specialists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For a brain tumor, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of brain tumor do I have?&lt;/li&gt;
+	&lt;li&gt;Where is my brain tumor located?&lt;/li&gt;
+	&lt;li&gt;How large is my brain tumor?&lt;/li&gt;
+	&lt;li&gt;How aggressive is my brain tumor?&lt;/li&gt;
+	&lt;li&gt;Is my brain tumor cancerous?&lt;/li&gt;
+	&lt;li&gt;Will I need additional tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can any treatments cure my brain tumor?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If it&apos;s suspected that you have a brain tumor, your doctor may recommend a number of tests and procedures, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A neurological exam.&lt;/strong&gt; A neurological exam may include, among other things, checking your vision, hearing, balance, coordination and reflexes. Difficulty in one or more areas may provide clues about the part of your brain that could be affected by a brain tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Magnetic resonance imaging (MRI) is commonly used to help diagnose brain tumors. In some cases a dye may be injected through a vein in your arm before your MRI. A number of specialized MRI scans &amp;mdash; including functional MRI, perfusion MRI and magnetic resonance spectroscopy &amp;mdash; may help your doctor evaluate the tumor and plan treatment. Other imaging tests may include computerized tomography (CT) and positron emission tomography (PET).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to find cancer in other parts of your body.&lt;/strong&gt; If it&apos;s suspected that your brain tumor may be a result of cancer that has spread from another area of your body, your doctor may recommend tests and procedures to determine where the cancer originated. One example might be a CT scan of the chest to look for signs of lung cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collecting and testing a sample of abnormal tissue (biopsy).&lt;/strong&gt; A biopsy can be performed as part of an operation to remove the brain tumor, or a biopsy can be performed using a needle. A stereotactic needle biopsy may be done for brain tumors in hard to reach areas or very sensitive areas within your brain that might be damaged by a more extensive operation. Your neurosurgeon drills a small hole, called a burr hole, into your skull. A thin needle is then inserted through the hole. Tissue is removed using the needle, which is frequently guided by CT or MRI scanning. The biopsy sample is then viewed under a microscope to determine if it is cancerous or benign. This information is helpful in guiding treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;br /&gt;
+Treatment for a brain tumor depends on the type, size and location of the tumor, as well as your overall health and your preferences. Your doctor can tailor treatment to fit your particular situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If the brain tumor is located in a place that makes it accessible for an operation, your surgeon will work to remove as much of your brain tumor as possible. In some cases, tumors are small and easy to separate from surrounding brain tissue, which makes complete surgical removal possible. In other cases, tumors can&apos;t be separated from surrounding tissue or they&apos;re located near sensitive areas in your brain, making surgery risky. In these situations your doctor may try to remove as much of the tumor as is safe. Even removing a portion of the brain tumor may help reduce your signs and symptoms. In some cases only a small biopsy is taken to confirm the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery to remove a brain tumor carries risks, such as infection and bleeding. Other risks may depend on the part of your brain where your tumor is located. For instance, surgery on a tumor near nerves that connect to your eyes may carry a risk of vision loss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays or protons, to kill tumor cells. Radiation therapy can come from a machine outside your body (external beam radiation), or, in very rare cases, radiation can be placed inside your body close to your brain tumor (brachytherapy). 
+&lt;/p&gt;
+&lt;p&gt;
+External beam radiation can focus just on the area of your brain where the tumor is located, or it can be applied to your entire brain (whole brain radiation). Whole brain radiation is most often used to treat cancer that has spread to the brain from some other part of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of radiation therapy depend on the type and dose of radiation you receive. In general it can cause fatigue, headaches and scalp irritation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiosurgery&lt;/strong&gt; &lt;br /&gt;
+Stereotactic radiosurgery is not a form of surgery in the traditional sense. Instead, radiosurgery uses multiple beams of radiation to give a highly focused form of radiation treatment to kill the tumor cells in a very small area. Each beam of radiation isn&apos;t particularly powerful, but the point where all the beams meet &amp;mdash; at the brain tumor &amp;mdash; receives a very large dose of radiation to kill the tumor cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiosurgery is typically done in one treatment, and in most cases you can go home the same day. Side effects may include fatigue, headache and nausea. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to kill tumor cells. Chemotherapy drugs can be taken orally in pill form or injected into a vein (intravenously). The chemotherapy drug used most often to treat brain tumors is temozolomide (Temodar), which is taken as a pill. Many other chemotherapy drugs are available and may be used depending on the type of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Another type of chemotherapy can be placed during surgery. When removing all or part of the brain tumor, your surgeon may place one or more disk-shaped wafers in the space left by the tumor. These wafers slowly release a chemotherapy drug over the next several days. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy side effects depend on the type and dose of drugs you receive. Chemotherapy can cause nausea, vomiting and hair loss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drug therapy&lt;/strong&gt; &lt;br /&gt;
+Targeted drug treatments focus on specific abnormalities present within cancer cells. By blocking these abnormalities, targeted drug treatments can cause cancer cells to die. 
+&lt;/p&gt;
+&lt;p&gt;
+One targeted drug therapy used to treat a type of brain cancer called glioblastoma is bevacizumab (Avastin). This drug, given through a vein (intravenously), stops the formation of new blood vessels, cutting off blood supply to a tumor and killing the tumor cells. 
+&lt;/p&gt;
+&lt;p&gt;
+The targeted drug everolimus (Afinitor) is used to treat a benign brain tumor that occurs in people with a genetic disorder called tuberous sclerosis. Everolimus blocks an enzyme in the body that plays a role in growth of cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rehabilitation after treatment&lt;/strong&gt; &lt;br /&gt;
+Because brain tumors can develop in parts of the brain that control motor skills, speech, vision and thinking, rehabilitation may be a necessary part of recovery. Your doctor may refer you to services that can help, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy&lt;/strong&gt; can help you regain lost motor skills or muscle strength.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapy&lt;/strong&gt; can help you get back to your normal daily activities, including work, after a brain tumor or other illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech therapy&lt;/strong&gt; with specialists in speech difficulties (speech pathologists) can help if you have difficulty speaking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tutoring for school-age children&lt;/strong&gt; can help kids cope with changes in their memory and thinking after a brain tumor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Very little research has been done on complementary and alternative brain tumor treatments. No alternative treatments have been proved to cure brain tumors. However, they may help you cope with the side effects of your brain tumor and its treatment. Talk to your doctor about your options. 
+&lt;/p&gt;
+&lt;p&gt;
+Some complementary and alternative treatments that may help you cope include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Hypnosis&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Music therapy&lt;/li&gt;
+	&lt;li&gt;Relaxation exercises&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of a brain tumor can be overwhelming and frightening. It can make you feel like you have little control over your health. But you can take steps to cope with the shock and grief that may come after your diagnosis. Consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about your specific brain tumor.&lt;/strong&gt; Write down questions and bring them to your appointments. As your doctor answers your questions, take notes or ask a family member to come along to appointments and take notes. The more you and your family know and understand about each aspect of your care, the more confident you&apos;ll feel when it comes time to make treatment decisions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone you can talk with.&lt;/strong&gt; Find someone you can share your feelings with. You may have a close friend or family member who is a good listener. Or speak with a clergy member or counselor. Other people with brain tumors may be able to offer unique insight. Ask your doctor about support groups in your area. Online message boards, such as those offered by the National Brain Tumor Foundation, are another option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Take care of your body and your mind during treatment. Choose a healthy diet rich in fruits, vegetables and whole grains. Exercise when you feel up to it. Get enough sleep so that you feel rested. Reduce stress in your life by taking time for relaxing activities, such as listening to music or writing in a journal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Brain tumor
+	</Title>
+	<Abstract>
+		Brain tumor &amp;mdash; Comprehensive overview covers signs, symptoms and treatments, including surgery.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

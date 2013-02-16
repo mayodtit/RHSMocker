@@ -1,0 +1,352 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00858
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hirsutism/DS00858
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-22
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2157" Title="Hair">
+						<Keyword MCVID="2648" Title="Hirsutism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			09A6041D-E7FF-0DBD-1D72021765333CF4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hirsutism
+			</MetaKeyword>
+			<MetaKeyword>
+				excess facial hair
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hirsutism (HER-soot-iz-um) is a condition of unwanted, male-pattern hair growth in women. Hirsutism results in excessive amounts of coarse and pigmented hair on body areas where men typically grow hair &amp;mdash; face, chest and back.
+&lt;/p&gt;
+&lt;p&gt;
+The amount of body hair you have is largely determined by your genetic makeup. Hirsutism may arise from excess male hormones called androgens, primarily testosterone. Or hirsutism may be due to an ethnic or family trait.
+&lt;/p&gt;
+&lt;p&gt;
+A combination of self-care and medical therapies provides effective treatment for many women with hirsutism.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of hirsutism" Caption="Hirsutism is excess hair most often noticeable around the mouth and on the chin and neck of women." Height="60" Title="Hirsutism" URI="/images/image_popup/thumbs/r7_hirsutismthu.jpg" Width="60" />
+				<Image Alt="Image of hirsutism" Caption="Hirsutism is excess hair most often noticeable around the mouth and on the chin and neck of women." Height="304" Title="Hirsutism" URI="/images/image_popup/r7_hirsutism.jpg" Width="400" />
+				<HTML>
+					Hirsutism is excess hair most often noticeable around the mouth and on the chin and neck of women....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The major sign of hirsutism is coarse and pigmented body hair, appearing on the body where women don&apos;t commonly have hair &amp;mdash; primarily the face, chest and back. When excessively high androgen levels cause hirsutism, other signs may develop over time, a process called virilization.
+&lt;/p&gt;
+&lt;p&gt;
+Signs of virilization may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Deepening voice&lt;/li&gt;
+	&lt;li&gt;Balding&lt;/li&gt;
+	&lt;li&gt;Acne&lt;/li&gt;
+	&lt;li&gt;Decreased breast size&lt;/li&gt;
+	&lt;li&gt;Enlargement of the clitoris&lt;/li&gt;
+	&lt;li&gt;Increased muscle mass&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek medical advice&lt;/strong&gt;&lt;br /&gt;
+Schedule an appointment with your doctor if you notice any of the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapidly growing, unwanted hair on places such as your upper lip, cheeks, chin, neck, midchest, inner thighs or low back&lt;/li&gt;
+	&lt;li&gt;Unwanted hair growth associated with irregular menstrual periods&lt;/li&gt;
+	&lt;li&gt;Male features, such as a deepening voice, balding, increased muscle mass and decreased breast size&lt;/li&gt;
+	&lt;li&gt;Unwanted hair growth that appears to be worsened by a medication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Women approaching menopause or in the early years of menopause may develop coarse chin or other unwanted facial hair, but this isn&apos;t considered hirsutism. Your doctor can help you distinguish between stray hairs that commonly develop at the time of menopause and unwanted excess hair resulting from another disorder.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of hirsutism" Caption="Hirsutism is excess hair most often noticeable around the mouth and on the chin and neck of women." Height="60" Title="Hirsutism" URI="/images/image_popup/thumbs/r7_hirsutismthu.jpg" Width="60" />
+				<Image Alt="Image of hirsutism" Caption="Hirsutism is excess hair most often noticeable around the mouth and on the chin and neck of women." Height="304" Title="Hirsutism" URI="/images/image_popup/r7_hirsutism.jpg" Width="400" />
+				<HTML>
+					Hirsutism is excess hair most often noticeable around the mouth and on the chin and neck of women....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Until puberty, your body is covered with fine, colorless hairs called vellus hairs. When you begin to sexually mature, male sex hormones called androgens help vellus hairs on certain areas of your body become dark, curlier and coarser hairs called terminal hairs. Unwanted terminal hair growth in women (hirsutism) can result from excess androgens or from an increased sensitivity of hair follicles to androgens.
+&lt;/p&gt;
+&lt;p&gt;
+About half the women with mild hirsutism have high androgen levels. Hirsutism that&apos;s severe is usually due to high androgen levels. Conditions that can cause high androgen levels include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Polycystic ovary syndrome.&lt;/strong&gt; This common condition is caused by an imbalance of sex hormones that may result in irregular periods, obesity, infertility and sometimes multiple cysts on your ovaries. Polycystic ovary syndrome is the most common identifiable cause of hirsutism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cushing&apos;s syndrome.&lt;/strong&gt; Cushing&apos;s syndrome is a condition that occurs when your body is exposed to high levels of the hormone cortisol, a steroid hormone involved in your body&apos;s response to stress. It can develop when your adrenal glands &amp;mdash; small hormone-secreting glands located just above your kidneys &amp;mdash; make too much cortisol, or it can occur from taking cortisol-like medications over a long period. Increased cortisol levels disrupt the balance of sex hormones in your body, which can result in hirsutism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital adrenal hyperplasia.&lt;/strong&gt; This inherited condition is characterized by abnormal production of steroid hormones, including cortisol and androgen, by your adrenal glands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumors.&lt;/strong&gt; Rarely, an androgen-secreting tumor in the ovaries or adrenal glands may cause hirsutism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Some medications can cause hirsutism. One such drug is danazol, which is used to treat women with endometriosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sometimes, no identifiable cause&lt;/strong&gt;&lt;br /&gt;
+Excessive hair growth in women with normal androgen levels, regular menstrual periods and no other underlying conditions is called idiopathic hirsutism &amp;mdash; meaning that there&apos;s no identifiable cause of the disorder. This occurs more frequently in certain ethnic populations, such as women of Mediterranean, Middle Eastern and South Asian ancestry.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may influence your likelihood of developing hirsutism. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Several conditions that cause hirsutism, including congenital adrenal hyperplasia and polycystic ovary syndrome, run in families.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; Women of Mediterranean, Middle Eastern and South Asian ancestry are more likely to develop hirsutism with no identifiable cause than are women of other ethnicities.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hirsutism can sometimes be emotionally distressing. Some women feel self-conscious about having unwanted body hair. Also, although hirsutism doesn&apos;t cause physical complications, the underlying cause of a hormonal imbalance can.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may be referred immediately to a doctor who specializes in endocrine disorders (endocrinologist) or to a dermatologist.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, ask if there&apos;s anything you need to do to prepare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. For example, if you&apos;ve been feeling depressed or fatigued lately, tell your doctor. Also tell your doctor about any other changes in your appearance, such as weight gain or loss, changes in your breast size or muscle mass, new acne, or patches of dark, velvety skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any changes in your menstrual cycle and in your sex life. Let your doctor know if your libido has noticeably increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins, creams or supplements you&apos;re taking or have used in the past. Include the specific name and dose of these medications and how long you&apos;ve been taking them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For hirsutism, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of diagnostic tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;If the first treatment I try isn&apos;t effective, what will we try next?&lt;/li&gt;
+	&lt;li&gt;How much will treatment improve my physical signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Will I need to be treated long term?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the medications you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Will the medications you&apos;re recommending affect my ability to have children?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my response to treatment over time?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor any other questions you have about your condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms worsened?&lt;/li&gt;
+	&lt;li&gt;Has your menstrual cycle changed, or have you stopped having your period?&lt;/li&gt;
+	&lt;li&gt;Have you gained weight? On what part of your body?&lt;/li&gt;
+	&lt;li&gt;Do you feel more fatigued or weaker than usual?&lt;/li&gt;
+	&lt;li&gt;Have you developed new acne?&lt;/li&gt;
+	&lt;li&gt;Have you noticed dark, velvety patches of skin, especially on your neck, armpits, inner thighs or under your breasts?&lt;/li&gt;
+	&lt;li&gt;Has the size of your breasts changed?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a change in your muscle mass?&lt;/li&gt;
+	&lt;li&gt;Have others commented that your voice has changed?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your interest in sex?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family been treated for a condition that causes excess, unwanted hair?&lt;/li&gt;
+	&lt;li&gt;Are you planning to become pregnant soon?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve scheduled an appointment with your doctor to talk about excessive hair growth, you may already have tried and been disappointed with at-home treatments. such as shaving and drugstore wax kits. Because your doctor will want to see your hair growth pattern, it&apos;s best to avoid trying new at-home treatments in the days leading up to your appointment. It&apos;s natural to feel distressed by the effect the unwanted hair has on your appearance, but in most cases, your doctor will be able to help you find a treatment plan that improves your signs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Making a diagnosis of hirsutism begins with discussing your medical history. Your doctor may ask you about your menstrual cycles, the time of onset of your symptoms, whether you&apos;re taking any medications and whether you have a family history of certain conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Perform a physical exam.&lt;/strong&gt; Your doctor may check your face, neck, chest, breasts, back, abdomen and pelvis for hair growth. He or she may also examine you for other signs of androgen excess and for conditions that can result in a hormonal imbalance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Order blood tests.&lt;/strong&gt; Tests that measure the amount of certain hormones in your blood, including testosterone, may help determine whether hirsutism is caused by elevated androgen levels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Further testing&lt;/strong&gt;&lt;br /&gt;
+The extent of further testing you&apos;ll undergo depends on the severity of your hirsutism and any other associated symptoms. If androgen levels in your blood are elevated, you may undergo imaging tests. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This imaging test uses high-frequency sound waves to produce pictures of your body&apos;s internal structures. An ultrasound of the ovaries or adrenal glands may be performed to check for tumors or cysts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan is a type of X-ray test that provides cross-sectional images of your internal organs. A CT scan of your body may be used to evaluate the adrenal glands.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for hirsutism often involves a combination of self-care methods, hair-removal therapies and medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hair-removal therapies&lt;/strong&gt; include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrolysis.&lt;/strong&gt; This type of therapy involves inserting a tiny needle into each hair follicle and emitting a pulse of electric current to damage and eventually destroy the follicle. Electrolysis results in permanent hair removal, but the procedure can be painful. Some numbing creams may be spread on your skin to reduce this discomfort. Side effects include lightening or darkening of the treated skin and rarely, scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser therapy.&lt;/strong&gt; Laser therapy is a procedure in which a beam of highly concentrated light (laser) is passed over your skin to damage the hair follicles and prevent hair from growing. Individual sessions can last from a few minutes to a few hours, depending on the size of the area being treated. You may have skin discomfort during laser hair removal. Afterwards, the treated area may remain red and swollen for awhile. Laser treatments are also expensive. After treatment, some people experience long periods without hair regrowth, while others may need occasional touch ups to remain hair-free.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical therapies&lt;/strong&gt; to treat hirsutism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral contraceptives.&lt;/strong&gt; Birth control pills or other hormonal contraceptives, which contain the hormones estrogen and progestin, treat hirsutism by inhibiting androgen production by your ovaries. Oral contraceptives are a common treatment for hirsutism in women who don&apos;t want to become pregnant. Possible side effects include dizziness, nausea, headache and stomach upset.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-androgens.&lt;/strong&gt; These types of drugs block androgens from attaching to their receptors in your body. The most commonly used anti-androgen for treating hirsutism is spironolactone (Aldactone). Possible side effects include drowsiness, nausea, irregular menstrual periods, electrolyte disturbances and diarrhea. Because these drugs can cause birth defects, it&apos;s important to use good contraception while taking them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical cream.&lt;/strong&gt; Eflornithine (Vaniqa) is a prescription cream specifically for excessive facial hair in women. It&apos;s applied directly to the affected area of your face and helps slow new hair growth, but doesn&apos;t get rid of existing hair. Eflornithine may take up to two months to work, and hair growth returns to pre-treatment levels within eight weeks of discontinuing the medication. Side effects may include stinging, tingling or a skin rash.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After beginning a medication for hirsutism, it usually takes a month before you notice a significant difference in hair growth. It&apos;s recommended that you continue taking the medication for six months before changing or adding medications or changing doses. If you and your doctor aren&apos;t able to find a medication that works well for you, he or she may recommend that you see a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prenatal care&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re taking medications for hirsutism and would like to have a baby, talk to your doctor. Women who are taking certain medications to treat hirsutism are advised not to become pregnant. If you have hirsutism and irregular periods, you may have a condition called polycystic ovary syndrome, which can inhibit fertility. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Self-care methods to remove unwanted body hair include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plucking.&lt;/strong&gt; Using a tweezers is a good method to remove a few stray hairs, but is not useful for removing a large area of hair. While plucking may hurt a little and doesn&apos;t last forever, it is the most common method women use to get rid of unwanted facial hair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shaving.&lt;/strong&gt; Shaving is quick and inexpensive, but it needs to be repeated regularly since it removes the hair only down to the surface of your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Waxing.&lt;/strong&gt; Waxing involves applying warm wax on your skin where the unwanted hair grows. Once the wax hardens, it&apos;s pulled back from your skin against the direction of hair growth, removing hair. Waxing removes hair from a large area quickly, but it may sting temporarily and sometimes causes skin irritation and redness. Hot wax can also burn your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical depilatories.&lt;/strong&gt; Generally available as gels, lotions or creams that you spread on your skin, chemical depilatories work by breaking down the protein structure of the hair shaft. Some people are allergic to the chemicals used in depilatories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bleaching&lt;/strong&gt;&lt;br /&gt;
+Instead of removing unwanted body hair, some women use bleaching. Bleaching removes the hair color, making the hair less visible. Bleaching may cause skin irritation, so test the bleach on a small area first.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hirsutism generally isn&apos;t preventable. But if you have polycystic ovary syndrome, controlling obesity and preventing insulin resistance &amp;mdash; a condition in which your body doesn&apos;t respond to normal insulin levels &amp;mdash; can result in lower androgen levels and less hirsutism. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hirsutism
+	</Title>
+	<Abstract>
+		Hirsutism &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of unwanted excess hair in women.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00134" LinkType="Internal" ObjectID="CAF505A4-E7FF-0DBD-1E6EE7C40065F3BC" Title="Laser hair removal" Url="http://www.mayoclinic.com/health/laser-hair-removal/MY00134" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Disease" DocID="DS00423" LinkType="Internal" ObjectID="6AF557AF-44E0-4DDD-A998ADE4B75EAB04" Title="Polycystic ovary syndrome" Url="http://www.mayoclinic.com/health/polycystic-ovary-syndrome/DS00423" />
+		<LinkItem ContentType="Disease" DocID="DS00470" LinkType="Internal" ObjectID="375268B4-E673-4ADA-908E8B7EE2E4026A" Title="Cushing&apos;s syndrome" Url="http://www.mayoclinic.com/health/cushings-syndrome/DS00470" />
+	</RelatedLinksBox>
+</Disease>

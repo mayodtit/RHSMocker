@@ -1,0 +1,121 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01431
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/loss-of-sex-drive/AN01431
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-18
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="4781" Title="Sexual health">
+					<Keyword MCVID="4784" Title="Sex and aging" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AD8BD53B-E7FF-0DBD-11FEF7FFCA6E7B86
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				low sex drive
+			</MetaKeyword>
+			<MetaKeyword>
+				loss of sex drive
+			</MetaKeyword>
+			<MetaKeyword>
+				loss of sexual desire
+			</MetaKeyword>
+			<MetaKeyword>
+				low libido
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It&apos;s natural for men to notice a gradual decrease in sex drive (libido) as they age. The degree of this decline varies, and most men maintain at least some amount of sexual interest well into their 60s and 70s.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, however, loss of sex drive is related to an underlying condition. For men, depression and stress often contribute to loss of sex drive. Sometimes the culprit is a decrease in male sex hormones due to an endocrine disorder. In other cases, loss of sex drive may be a medication side effect.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re concerned about loss of sex drive &amp;mdash; especially if the loss happened abruptly &amp;mdash; consult your doctor. He or she will likely do a physical exam and lab tests to help determine what&apos;s causing the loss of sex drive. Once any underlying factors are identified, your doctor can suggest appropriate treatment options. For example:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If loss of sex drive is related to depression, psychotherapy alone or in combination with antidepressant medication may help.&lt;/li&gt;
+	&lt;li&gt;If you&apos;re diagnosed with an unusually low testosterone level, treatment options may include testosterone replacement therapy.&lt;/li&gt;
+	&lt;li&gt;If a certain medication is contributing to loss of sex drive, your doctor may suggest an alternate drug.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember to be open and honest with your doctor. The more you can tell him or her about your loss of sex drive, the more effective treatment is likely to be.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Loss of sex drive in men: Natural with aging?
+	</Title>
+	<Abstract>
+		Age-related loss of sex drive is normal, but sometimes an underlying condition is at play.
+	</Abstract>
+	<Question>
+		Is loss of sex drive normal as a man gets older?
+	</Question>
+	<QuestionFirstName>
+		Linda
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01390" LinkType="Internal" ObjectID="40513DDC-E7FF-0DBD-13FF3BBDFF94A5A0" Title="Testosterone therapy in women: Does it boost sex drive?" Url="http://www.mayoclinic.com/health/testosterone-therapy/AN01390" />
+		<LinkItem ContentType="Article" DocID="HA00035" LinkType="Internal" ObjectID="98CEE3DF-5ADF-4979-B969A6F1268D21B9" Title="Sexual health and aging: Keep the passion alive" Url="http://www.mayoclinic.com/health/sexual-health/HA00035" />
+		<LinkItem ContentType="Article" DocID="MC00057" LinkType="Internal" ObjectID="8B59A03B-E7FF-0DBD-1E846353AAA31315" Title="Senior sex: Tips for older men" Url="http://www.mayoclinic.com/health/senior-sex/MC00057" />
+		<LinkItem ContentType="Article" DocID="MC00030" LinkType="Internal" ObjectID="671310EE-FD49-43AB-80A5A9AEB5AD7EDD" Title="Testosterone therapy: Key to male vitality?" Url="http://www.mayoclinic.com/health/testosterone-therapy/MC00030" />
+	</RelatedLinksBox>
+</Answer>

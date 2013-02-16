@@ -1,0 +1,299 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01084
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/eyestrain/DS01084
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-19
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="3080" Title="Eye strain" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			018AC6C4-E7FF-0DBD-1E07B58B9AF0FDDA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eye strain
+			</MetaKeyword>
+			<MetaKeyword>
+				eyestrain
+			</MetaKeyword>
+			<MetaKeyword>
+				tired eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				eye fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				eye
+			</MetaKeyword>
+			<MetaKeyword>
+				eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				vision
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eyestrain occurs when your eyes get tired from intense use, such as driving a car for extended periods, reading or working at a computer.
+&lt;/p&gt;
+&lt;p&gt;
+Although eyestrain can be annoying, it usually isn&apos;t serious and goes away once you rest your eyes. In some cases, signs and symptoms of eyestrain can indicate an underlying eye condition that needs treatment. Although you may not be able to change the nature of your job or all the factors that can cause eyestrain, you can take steps to reduce eyestrain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eyestrain signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sore, tired, burning or itching eyes&lt;/li&gt;
+	&lt;li&gt;Watery eyes&lt;/li&gt;
+	&lt;li&gt;Dry eyes&lt;/li&gt;
+	&lt;li&gt;Blurred or double vision&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Sore neck&lt;/li&gt;
+	&lt;li&gt;Sore back&lt;/li&gt;
+	&lt;li&gt;Shoulder pain&lt;/li&gt;
+	&lt;li&gt;Increased sensitivity to light&lt;/li&gt;
+	&lt;li&gt;Difficulty focusing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Computer use or the use of other digital electronic devices can cause many of these symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If home treatments don&apos;t work to relieve your eyestrain symptoms, see your eye doctor. See your doctor if you have ongoing symptoms that may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye discomfort&lt;/li&gt;
+	&lt;li&gt;A noticeable change in vision&lt;/li&gt;
+	&lt;li&gt;Double vision&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common causes of eyestrain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extended use of a computer or digital electronic devices&lt;/li&gt;
+	&lt;li&gt;Reading for extended periods&lt;/li&gt;
+	&lt;li&gt;Other activities involving extended periods of intense focus and concentration, such as driving a vehicle&lt;/li&gt;
+	&lt;li&gt;Exposure to bright light or glare&lt;/li&gt;
+	&lt;li&gt;Straining to see in very dim light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Using a computer for long periods is one of the most common causes of eyestrain. This type of eyestrain is called computer vision syndrome. In some cases, an underlying eye problem such as eye muscle imbalance or uncorrected vision can cause or worsen computer eyestrain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for eyestrain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Activities that require intensive or extended use of your eyes for tasks such as using a computer, studying printed materials or driving&lt;/li&gt;
+	&lt;li&gt;Underlying eye problems such as an eye muscle imbalance or uncorrected vision (refractive error)&lt;/li&gt;
+	&lt;li&gt;Stress or fatigue&lt;/li&gt;
+	&lt;li&gt;Extremely dry air or moving air from heating and air conditioning&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eyestrain doesn&apos;t have serious or long-term consequences, but it can be disruptive and unpleasant. It can make you tired and reduce your ability to concentrate. In some cases, it may take days for all eyestrain symptoms to go away after you&apos;ve taken steps to change your activities or environment or treated any underlying cause.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have eye discomfort, headache or vision changes that don&apos;t improve with self-care, make an appointment with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms you&apos;ve been having&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed and all medications and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a daily log of the time you spend on activities that strain your eyes,&lt;/strong&gt; such as working in front of a computer monitor, prolonged reading or&lt;strong&gt; &lt;/strong&gt;exposure to glare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask a doctor who is examining you for eyestrain. If any additional questions occur to you during your visit, don&apos;t hesitate to ask.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What changes could I make to my work or home environment, including my computer desk, to help reduce symptoms?&lt;/li&gt;
+	&lt;li&gt;What other self-care measures should I be taking?&lt;/li&gt;
+	&lt;li&gt;When should I return for a follow-up appointment?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in depth. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;How severe is your discomfort?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger your symptoms, such as computer use or exposure to glare?&lt;/li&gt;
+	&lt;li&gt;Does anything help relieve your symptoms, such as taking a break from the activity that strains your eyes?&lt;/li&gt;
+	&lt;li&gt;When was your last vision exam?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your eye doctor will ask you questions about factors that might be causing your symptoms. Your doctor will perform an eye exam to check for eye problems, including testing your vision. Your doctor also may ask you about your work habits, such as your seating and computer positions, and the length of time you normally spend on a computer each day. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, treatment for eyestrain consists of making changes in your work habits or your environment.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;In some cases, eyestrain may improve if you get treatment for another underlying eye condition.&lt;/li&gt;
+	&lt;li&gt;For some people, wearing glasses that are prescribed for specific activities, such as using a computer or reading, may help reduce eyestrain.&lt;/li&gt;
+	&lt;li&gt;Your doctor may suggest that you do regular eye exercises to help your eyes focus at different distances.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A few simple adjustments in how you read, work or use the computer can give your eyes a much-needed rest. Consider these simple tips to reduce eyestrain. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;When doing close-up work,&lt;/strong&gt; make sure you have light that&apos;s well directed on what you&apos;re doing.&lt;strong&gt; &lt;/strong&gt;Use a brighter light source if you need one, especially if you have reduced vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When reading printed materials,&lt;/strong&gt; try to position the light source behind you and direct the light onto your page. If you&apos;re reading at a desk, use a shaded light positioned in front of you.&lt;strong&gt; &lt;/strong&gt;The shade will keep light from shining directly into your eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When watching television,&lt;/strong&gt; keeping the room softly lit may be more comfortable than having a high contrast between the TV screen and the surrounding environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tips for computer work&lt;br /&gt;
+&lt;/strong&gt;Computer use is a common cause of eyestrain. If you work at a desk and use a computer, take some of the strain off your eyes by making sure your work space is set up in an appropriate and eye-friendly way. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your position.&lt;/strong&gt; Position your monitor directly in front of you 20 to 40 inches (about 50 to 100 centimeters) from your eyes. If you need to get close to read small type, consider increasing the font size. Keep the top of your screen at eye level or below so that you look down slightly at your work. If you wear bifocals, you may have a tendency to tilt your head backward so that you can see through the lower portion of your glasses. To adjust for this, consider lowering your monitor a few inches or buying glasses designed for computer work.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check the lighting and reduce glare.&lt;/strong&gt; Bright lighting and too much glare can strain your eyes and make it difficult to see objects on your screen. To check glare, sit at your computer with the monitor off. This allows you to see the reflected light and images. Note any intense glare. The worst problems are generally from sources above or behind you, including fluorescent lighting and sunlight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your monitor.&lt;/strong&gt; If possible, place your monitor so that the brightest light sources are off to the side, at a right angle to your monitor. Consider turning off some or all of the overhead lights. If you need light for writing or reading, use an adjustable desk lamp. Close blinds and shades and avoid placing your monitor directly in front of a window or white wall. Use a glare-reducing screen to minimize glare from overhead lighting. Finally, adjust the contrast and brightness on the monitor to a level that&apos;s comfortable for you, making sure the letters on the screen are easy to read.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your monitor clean.&lt;/strong&gt; Wipe the dust from your computer screen regularly. Dust on the screen lowers contrast and may contribute to glare and reflection problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Position your keyboard properly.&lt;/strong&gt; Place your keyboard directly in front of you. If you place the keyboard too high, too low or at an angle, it may cause discomfort and fatigue in your eyes, wrists and hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep reference materials nearby.&lt;/strong&gt; Place reading and reference material on a document holder beside your monitor and at the same level, angle and distance from your eyes as the monitor is from your eyes. This reduces how much your eyes need to readjust and how often you need to turn your neck and head.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take eye breaks.&lt;/strong&gt; Throughout the day, give your eyes a break by forcing them to focus on something other than on your computer screen. A good rule of thumb is to follow the 20-20-20 rule: Every 20 minutes, take your eyes off your computer and look at something 20 feet away for at least 20 seconds. It&apos;s reasonable to take a break every 15 to 30 minutes for one to three minutes. Do other work, such as phone calls or filing, during this time. Try to stand up and move around at least once every hour or so. If possible, lean back and close your eyes for a few moments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blink often to refresh your eyes.&lt;/strong&gt; Because many people blink less than normal when working at a computer, dry eyes can result from prolonged computer use. Blinking produces tears that moisten and refresh your eyes. Make a conscious effort to blink more often.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider using artificial teardrops.&lt;/strong&gt; Over-the-counter artificial tears can help prevent and relieve dry eyes that result from prolonged sessions at the computer. Your doctor can suggest which drops might be best for you. Lubricating drops that don&apos;t contain preservatives can be used as often as you need. If the drops you&apos;re using contain preservatives, don&apos;t use them more than four times a day. Avoid eyedrops with a redness remover, as these may worsen dry eye symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improve the air quality in your work space.&lt;/strong&gt; Some changes that may help prevent dry eyes include using a humidifier, lowering the thermostat and avoiding smoke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice relaxation.&lt;/strong&gt; Ease muscle tension with relaxation exercises. Place your elbows on your desk, palms facing up. Let your weight fall forward and your head fall into your hands. Position your head so that your hands cover your eyes, with your fingers extended toward your forehead. Close your eyes and take a deep breath through your nose; hold it for four seconds, then exhale. Continue this deep breathing for 15 to 30 seconds. Perform this simple exercise several times a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage your eyelids and muscles over your brow, temple and upper cheek once or twice daily.&lt;/strong&gt; This maneuver can be performed with your bare hands and fingers or can be done using a warm towel over closed eyes. Gently massage your upper eyelid against your brow bone for about 10 seconds. Follow by massaging your lower eyelid against the lower bone for about 10 seconds. This process can stimulate your tear glands, which may help prevent dry eyes. Massaging the muscles in the area around your eye (orbit) also helps relax those muscles, which may reduce some of the symptoms of eyestrain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get appropriate eyewear.&lt;/strong&gt; If you wear glasses or contacts, make sure the correction is right for computer work. Most lenses are fitted for reading print and may not be optimal for computer work. Glasses or contact lenses designed specifically for computer work may be a worthwhile investment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Eyestrain
+	</Title>
+	<Abstract>
+		Eyestrain &amp;mdash; Comprehensive overview covers treatment, prevention of this common eye condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

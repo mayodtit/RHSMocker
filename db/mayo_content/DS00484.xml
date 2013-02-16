@@ -1,0 +1,292 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00484
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rabies/DS00484
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-28
+		</UpdateDate>
+		<PublicationDate>
+			2003-04-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2561" Title="Rabies" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D3D7B23F-2641-411C-8918CA9A2D1935EB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rabies
+			</MetaKeyword>
+			<MetaKeyword>
+				animal bites
+			</MetaKeyword>
+			<MetaKeyword>
+				cats
+			</MetaKeyword>
+			<MetaKeyword>
+				dogs
+			</MetaKeyword>
+			<MetaKeyword>
+				bats
+			</MetaKeyword>
+			<MetaKeyword>
+				rabies symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				rabies virus
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of rabies
+			</MetaKeyword>
+			<MetaKeyword>
+				signs of rabies
+			</MetaKeyword>
+			<MetaKeyword>
+				rabies shots
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rabies is a deadly virus spread to people from the saliva of infected animals. The rabies virus is usually transmitted through a bite. 
+&lt;/p&gt;
+&lt;p&gt;
+Animals most likely to transmit rabies in the United States include bats, coyotes, foxes, raccoons and skunks. In developing countries of Africa and Southeast Asia, stray dogs are the most likely to spread rabies to people. 
+&lt;/p&gt;
+&lt;p&gt;
+Once a person begins showing signs and symptoms of rabies, the disease is nearly always fatal. For that reason, anyone who may have a risk of contracting rabies should receive rabies vaccines for protection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rabies doesn&apos;t cause any signs or symptoms until late in the disease, often just days before death. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Agitation&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Excessive salivation&lt;/li&gt;
+	&lt;li&gt;Fear of water (hydrophobia) because of the difficulty in swallowing&lt;/li&gt;
+	&lt;li&gt;Hallucinations&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Partial paralysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek immediate medical care if you&apos;re bitten by any animal. Based on your injuries and the situation in which the bite occurred, you and your doctor can decide whether you should receive treatment to prevent rabies. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if you aren&apos;t sure whether you&apos;ve been bitten, seek medical attention. For instance, a bat that flies into your room while you&apos;re sleeping may bite you without waking you. If you awake to find a bat in your room, assume you&apos;ve been bitten. Also, if you find a bat near a person who can&apos;t report a bite, such as a small child or a person with a disability, assume that person has been bitten. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rabies infection is caused by the rabies virus. The virus is spread through the saliva of infected animals. Infected animals can spread the virus by biting another animal or a person. In rare cases, rabies can be spread when infected saliva gets into an open wound or the mucous membranes, such as the mouth or eyes. This could occur if an infected animal were to lick an open cut on your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Animals that can transmit the rabies virus&lt;/strong&gt; &lt;br /&gt;
+Any mammal can transmit the rabies virus. The animals most likely to transmit the rabies virus to people include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pets and farm animals&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cats&lt;/li&gt;
+	&lt;li&gt;Cows&lt;/li&gt;
+	&lt;li&gt;Dogs&lt;/li&gt;
+	&lt;li&gt;Ferrets&lt;/li&gt;
+	&lt;li&gt;Goats&lt;/li&gt;
+	&lt;li&gt;Horses&lt;/li&gt;
+	&lt;li&gt;Rabbits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Wild animals&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bats&lt;/li&gt;
+	&lt;li&gt;Beavers&lt;/li&gt;
+	&lt;li&gt;Coyotes&lt;/li&gt;
+	&lt;li&gt;Foxes&lt;/li&gt;
+	&lt;li&gt;Monkeys&lt;/li&gt;
+	&lt;li&gt;Raccoons&lt;/li&gt;
+	&lt;li&gt;Skunks&lt;/li&gt;
+	&lt;li&gt;Woodchucks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There has never been a documented case of human-to-human rabies transmission. In rare cases, the virus has been transmitted to tissue and organ transplant recipients from an infected organ. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that can increase your risk of rabies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Traveling or living in developing countries where rabies is more common, including countries in Africa and Southeast Asia&lt;/li&gt;
+	&lt;li&gt;Activities that are likely to put you in contact with wild animals that may have rabies, such as exploring caves where bats live or camping without taking precautions to keep wild animals away from your campsite &lt;/li&gt;
+	&lt;li&gt;Working in a laboratory with the rabies virus &lt;/li&gt;
+	&lt;li&gt;Wounds to the head or neck, which may help the rabies virus travel to your brain more quickly &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If an animal bites you, seek medical attention for the wound. Also tell the doctor about the circumstances of your injury. The doctor will ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What animal bit you?&lt;/li&gt;
+	&lt;li&gt;Was it a wild animal or a pet?&lt;/li&gt;
+	&lt;li&gt;If it was a pet, do you know to whom the animal belongs?&lt;/li&gt;
+	&lt;li&gt;Can you describe the animal&apos;s behavior before it bit you? Was the animal provoked?&lt;/li&gt;
+	&lt;li&gt;Were you able to capture or kill the animal after it bit you?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Wash your wound gently and thoroughly with soap and generous amounts of water. This may help wash away the virus. 
+&lt;/p&gt;
+&lt;p&gt;
+If the animal that bit you can be contained or captured without causing more injury, do so. Do not kill the animal with a blow or a shot to the head, as the resulting injuries may make it difficult to perform laboratory tests to determine whether the animal has rabies. 
+&lt;/p&gt;
+&lt;p&gt;
+Tell your doctor that you have captured the animal that bit you. Your doctor may then contact the local health department to determine what to do with the animal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+At the time a rabid animal bites you, there&apos;s no way to know whether the animal has transmitted the rabies virus to you. For this reason, treatment to prevent the rabies virus from infecting your body is recommended if the doctor thinks there&apos;s a chance you have been exposed to the virus. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood and tissue tests are used to diagnose rabies in people who have signs and symptoms of the infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no specific treatment for rabies infection. Though a small number of people have survived rabies, the disease is usually fatal. For that reason, anyone thought to have been exposed to rabies receives a series of shots to prevent the infection from taking hold. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for people bitten by animals with rabies&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve been bitten by an animal that is known to have rabies, you&apos;ll receive a series of shots to prevent the rabies virus from infecting you. If the animal that bit you can&apos;t be found, it may be safest to assume that the animal has rabies. But this will depend on several factors, such as the type of animal and the situation in which the bite occurred. 
+&lt;/p&gt;
+&lt;p&gt;
+Rabies shots include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A fast-acting shot (rabies immune globulin) to prevent the virus from infecting you. Part of this injection is given near the area where the animal bit you if possible, as soon as possible after the bite.&lt;/li&gt;
+	&lt;li&gt;A series of rabies vaccines to help your body learn to identify and fight the rabies virus. Rabies vaccines are given as injections in your arm. You receive five injections over 14 days. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining whether the animal that bit you has rabies&lt;/strong&gt; &lt;br /&gt;
+In some cases, it&apos;s possible to determine whether the animal that bit you has rabies before beginning the series of rabies shots. That way, if it&apos;s determined the animal is healthy, you won&apos;t need the shots. 
+&lt;/p&gt;
+&lt;p&gt;
+Procedures for determining whether an animal has rabies vary by situation. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pets and farm animals.&lt;/strong&gt; Cats, dogs and ferrets that bite can be observed for 10 days to see if they show signs and symptoms of rabies. If the animal that bit you remains healthy during the observation period, then it doesn&apos;t have rabies and you won&apos;t need rabies shots. Other pets and farm animals are considered on a case-by-case basis. Talk to your doctor and local public health officials to determine whether you should receive rabies shots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wild animals that can be caught.&lt;/strong&gt; Wild animals that can be found and captured, such as a bat that came into your home, can be killed and tested for rabies. Tests on the animal&apos;s brain may reveal the rabies virus. If the animal doesn&apos;t have rabies, you won&apos;t need the shots. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Animals that can&apos;t be found.&lt;/strong&gt; If the animal that bit you can&apos;t be found, discuss the situation with your doctor and the local health department. In certain cases, it may be safest to assume that the animal had rabies and proceed with the rabies shots. In other cases, it may be unlikely that the animal that bit you had rabies and it may be determined that rabies shots aren&apos;t necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can reduce your risk of coming in contact with rabid animals. Here&apos;s how:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccinate your pets.&lt;/strong&gt; Cats, dogs and ferrets can be vaccinated against rabies. Ask your veterinarian how often your pets should be vaccinated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your pets confined.&lt;/strong&gt; Keep your pets inside and supervise them when outside. This will help keep your pets from coming in contact with wild animals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect small pets from predators.&lt;/strong&gt; Keep rabbits and other small pets, such as guinea pigs, inside or in protected cages so that they are safe from wild animals. These small pets can&apos;t be vaccinated against rabies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Report stray animals to local authorities.&lt;/strong&gt; Call your local animal control officials or other local law enforcement to report stray dogs and cats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t approach wild animals.&lt;/strong&gt; Wild animals with rabies may seem unafraid of people. It&apos;s not normal for a wild animal to be friendly with people, so stay away from any animal that seems unafraid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep bats out of your home.&lt;/strong&gt; Seal any cracks and gaps where bats can enter your home. If you know you have bats in your home, work with a local expert to find ways to keep bats out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider the rabies vaccine if you&apos;re traveling.&lt;/strong&gt; If you&apos;re traveling to a country where rabies is common and you&apos;ll be there for a long period of time, ask your doctor whether you should receive the rabies vaccine.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rabies
+	</Title>
+	<Abstract>
+		Rabies &amp;mdash; Comprehensive overview covers symptoms and treatment of this serious infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

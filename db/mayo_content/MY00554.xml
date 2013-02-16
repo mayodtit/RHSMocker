@@ -1,0 +1,334 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00554
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/oophorectomy/MY00554
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="4056" Title="Oophorectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3DBBC50B-9EAA-08E9-438DD8EDF1A92A3F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				laparoscopic oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				bilateral oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				salpingo oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				unilateral oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				prophylactic oophorectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				oopherectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				ovariectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				ovary removal surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				ovaries removed
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oophorectomy (oh-oaf-uh-REK-tuh-me) is a surgical procedure to remove one or both of your ovaries. Your ovaries are almond-shaped organs that sit on each side of the uterus in your pelvis. Your ovaries contain eggs and produce hormones that control your menstrual cycle. 
+&lt;/p&gt;
+&lt;p&gt;
+Oophorectomy can be done alone, but it is often done as part of a larger surgery to remove the uterus (hysterectomy) in women who have undergone menopause. Oophorectomy is also commonly combined with surgery to remove the nearby fallopian tubes (salpingectomy), since they share a common blood supply with the ovaries. When combined, the procedure is called salpingo-oophorectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+When oophorectomy involves removing both ovaries, it&apos;s called bilateral oophorectomy. When the surgery involves removing only one ovary, it&apos;s called unilateral oophorectomy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oophorectomy may be performed for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A tubo-ovarian abscess &amp;mdash; a pus-filled pocket involving a fallopian tube and an ovary&lt;/li&gt;
+	&lt;li&gt;Ovarian cancer&lt;/li&gt;
+	&lt;li&gt;Endometriosis&lt;/li&gt;
+	&lt;li&gt;Noncancerous (benign) ovarian tumors or cysts&lt;/li&gt;
+	&lt;li&gt;Reducing the risk of ovarian cancer or breast cancer in women at increased risk&lt;/li&gt;
+	&lt;li&gt;Ovarian torsion &amp;mdash; the twisting of an ovary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Oophorectomy combined with other procedures&lt;/strong&gt; &lt;br /&gt;
+Oophorectomy can be performed with other surgical procedures, including surgery to remove the uterus (hysterectomy). In women with an increased risk of ovarian cancer, oophorectomy is often combined with surgery to remove the fallopian tubes in a procedure called salpingo-oophorectomy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a normal ovary 
+" Caption="A woman has two ovaries, one on each side of her uterus. An ovary is about the size and shape of an almond. 
+" Height="60" Title="Normal ovary" URI="/images/image_popup/thumbs/r7_normalovarythu.jpg" Width="60" />
+				<Image Alt="Illustration of a normal ovary 
+" Caption="A woman has two ovaries, one on each side of her uterus. An ovary is about the size and shape of an almond. 
+" Height="321" Title="Normal ovary" URI="/images/image_popup/r7_normalovary.jpg" Width="400" />
+				<HTML>
+					A woman has two ovaries, one on each side of her uterus. An ovary is about the size and shape of an almond. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ovarian cancer 
+" Caption="Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) as well as the hormones estrogen, progesterone and testosterone. 
+" Height="60" Title="Ovarian cancer" URI="/images/image_popup/thumbs/c7_ovarian_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of ovarian cancer 
+" Caption="Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) as well as the hormones estrogen, progesterone and testosterone. 
+" Height="371" Title="Ovarian cancer" URI="/images/image_popup/c7_ovarian_cancer.jpg" Width="400" />
+				<HTML>
+					Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endometriosis 
+" Caption="Endometriosis occurs when bits of the tissue that lines the uterus (endometrium) grow on other pelvic organs, such as the ovaries or fallopian tubes. Outside the uterus, endometrial tissue thickens and bleeds, just as the normal endometrium does. 
+" Height="60" Title="Endometriosis" URI="/images/image_popup/thumbs/w7_endometriosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing endometriosis 
+" Caption="Endometriosis occurs when bits of the tissue that lines the uterus (endometrium) grow on other pelvic organs, such as the ovaries or fallopian tubes. Outside the uterus, endometrial tissue thickens and bleeds, just as the normal endometrium does. 
+" Height="300" Title="Endometriosis" URI="/images/image_popup/w7_endometriosis.jpg" Width="400" />
+				<HTML>
+					Endometriosis occurs when bits of the tissue that lines the uterus (endometrium) grow on other pelvic organs, such as the ovaries or fallopian tubes. Outside the uterus, endometrial tissue thickens ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ovarian torsion 
+" Caption="Ovarian torsion occurs when an ovary becomes twisted. One cause of ovarian torsion is an ovarian cyst. 
+" Height="60" Title="Ovarian torsion" URI="/images/image_popup/thumbs/w7_ovarian_torsionthu.jpg" Width="60" />
+				<Image Alt="Illustration of ovarian torsion 
+" Caption="Ovarian torsion occurs when an ovary becomes twisted. One cause of ovarian torsion is an ovarian cyst. 
+" Height="300" Title="Ovarian torsion" URI="/images/image_popup/w7_ovarian_torsion.jpg" Width="400" />
+				<HTML>
+					Ovarian torsion occurs when an ovary becomes twisted. One cause of ovarian torsion is an ovarian cyst. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of hysterectomy types 
+" Caption="A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ovaries and fallopian tubes (right). 
+" Height="60" Title="Types of hysterectomy surgery" URI="/images/image_popup/thumbs/hdg7_hysterecomytypethu.jpg" Width="60" />
+				<Image Alt="Illustration of hysterectomy types 
+" Caption="A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ovaries and fallopian tubes (right). 
+" Height="389" Title="Types of hysterectomy surgery" URI="/images/image_popup/hdg7_hysterecomytype.jpg" Width="400" />
+				<HTML>
+					A partial hysterectomy (top left) removes just the uterus, and a total hysterectomy (bottom left) removes the uterus and cervix. At the time of total hysterectomy, your surgeon may also remove the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oophorectomy is a relatively safe procedure that carries a small risk of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Damage to nearby organs&lt;/li&gt;
+	&lt;li&gt;Rupture of a tumor, spreading potentially cancerous cells &lt;/li&gt;
+	&lt;li&gt;Retention of ovary cells that continue to cause signs and symptoms, such as pelvic pain, in premenopausal women (ovarian remnant syndrome)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risks of premature menopause&lt;/strong&gt; &lt;br /&gt;
+Women who have yet to undergo menopause will experience premature menopause if both ovaries are removed. This deprives the body of the hormones produced in the ovaries, leading to complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Menopause signs and symptoms, such as hot flashes and vaginal dryness&lt;/li&gt;
+	&lt;li&gt;Depression or anxiety&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+	&lt;li&gt;Decreased sex drive&lt;/li&gt;
+	&lt;li&gt;Osteoporosis&lt;/li&gt;
+	&lt;li&gt;Premature death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Women who take low doses of hormone replacement drugs after surgery and until about age 50 may reduce the risk of these complications. But hormone replacement therapy has risks of its own. Discuss options with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for oophorectomy, your doctor may ask that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drink a solution to clear your intestines the day before surgery&lt;/li&gt;
+	&lt;li&gt;Stop eating the day before your surgery and limit liquids&lt;/li&gt;
+	&lt;li&gt;Stop taking certain medications&lt;/li&gt;
+	&lt;li&gt;Take antibiotics to prevent infection&lt;/li&gt;
+	&lt;li&gt;Undergo imaging tests such as ultrasound and computerized tomography (CT) to help surgeons plan for the procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Plan for a hospital stay&lt;/strong&gt; &lt;br /&gt;
+Some women may need to stay in the hospital for a few days after oophorectomy. How long you stay depends on how the procedure is performed and the reason for your surgery. Ask your doctor what you can expect. 
+&lt;/p&gt;
+&lt;p&gt;
+Plan ahead for time in the hospital by packing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A robe and slippers&lt;/li&gt;
+	&lt;li&gt;Personal items, such as your toothbrush&lt;/li&gt;
+	&lt;li&gt;Things to help you pass the time, such as books and magazines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Plan for infertility&lt;/strong&gt; &lt;br /&gt;
+If you want to have children, talk with your doctor about your options. For some conditions you may need only one ovary removed (unilateral oophorectomy). With the remaining ovary, you&apos;ll still have a menstrual cycle and you can still conceive naturally. 
+&lt;/p&gt;
+&lt;p&gt;
+If both of your ovaries are removed (bilateral oophorectomy), but your uterus remains, you may be able to become pregnant using assisted reproductive technology. Ask your doctor to refer you to a fertility specialist who can review your options with you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During oophorectomy&lt;/strong&gt; &lt;br /&gt;
+During oophorectomy surgery you&apos;ll receive anesthetics to put you in a sleep-like state. You won&apos;t be aware during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Oophorectomy can be performed two ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery using one large incision.&lt;/strong&gt; During a traditional (open) oophorectomy, the surgeon makes an incision in your abdomen to access your ovaries. The surgeon separates each ovary from the blood supply and tissue that surrounds it and removes the ovary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery using multiple small incisions.&lt;/strong&gt; Laparoscopic surgery involves making three or four small incisions in your abdomen. The surgeon inserts a tube with a tiny camera through one incision and special surgical tools through the others. The camera transmits video to a monitor in the operating room that the surgeon uses to guide the surgical tools. Each ovary is separated from the blood supply and surrounding tissue and placed in a pouch. The pouch is pulled out of your abdomen through one of the small incisions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Laparoscopic oophorectomy may also be robotically assisted in certain cases. During robotic surgery, the surgeon watches a 3-D monitor and uses hand controls that allow finer movement of the surgical tools. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether your oophorectomy is an open, laparoscopic or robotic procedure depends on your situation. Laparoscopic or robotic oophorectomy usually offers quicker recovery, less pain and a shorter hospital stay. But it isn&apos;t appropriate for everyone, and in some cases, surgery that begins as laparoscopy may need to be converted to an open procedure during the operation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After oophorectomy&lt;/strong&gt; &lt;br /&gt;
+After oophorectomy you can expect to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spend time in a recovery room as your anesthesia wears off&lt;/li&gt;
+	&lt;li&gt;Move to a hospital room where you may spend a few hours to a few days, depending on your procedure&lt;/li&gt;
+	&lt;li&gt;Get up and about as soon as you&apos;re able in order to help your recovery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of laparoscopic surgery 
+" Caption="Laparoscopic oophorectomy uses special tools inserted through multiple incisions in your abdomen to remove your ovaries. 
+" Height="60" Title="Laparoscopic oophorectomy" URI="/images/image_popup/thumbs/hdg7_laparoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of laparoscopic surgery 
+" Caption="Laparoscopic oophorectomy uses special tools inserted through multiple incisions in your abdomen to remove your ovaries. 
+" Height="340" Title="Laparoscopic oophorectomy" URI="/images/image_popup/hdg7_laparoscopy.jpg" Width="400" />
+				<HTML>
+					Laparoscopic oophorectomy uses special tools inserted through multiple incisions in your abdomen to remove your ovaries. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How quickly you can go back to your normal activities after oophorectomy depends on your situation, including the reason for your surgery and how it was performed. Almost all women are able to return to full activity by six weeks after surgery. Women who undergo laparoscopic or robotic surgery may return to full activity sooner &amp;mdash; as early as two weeks after surgery. Discuss exercise, driving, sexual restrictions and overall activity level with your surgeon. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Oophorectomy (ovary removal surgery)
+	</Title>
+	<Abstract>
+		Oophorectomy &amp;mdash; Overview covers definition, risks, what to expect during ovary removal surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS01143" LinkType="Internal" ObjectID="CEA12AC8-CF7E-9CEF-0A257B252A1FE734" Title="Hot flashes" Url="http://www.mayoclinic.com/health/hot-flashes/DS01143" />
+		<LinkItem ContentType="Article" DocID="WO00095" LinkType="Internal" ObjectID="B61BA82F-1499-4884-B50A819DB83A87CE" Title="Prophylactic oophorectomy: Preventing cancer by surgically removing your ovaries" Url="http://www.mayoclinic.com/health/breast-cancer/WO00095" />
+	</RelatedLinksBox>
+</TestProcedure>

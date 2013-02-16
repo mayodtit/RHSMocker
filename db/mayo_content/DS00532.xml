@@ -1,0 +1,368 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00532
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prolactinoma/DS00532
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-30
+		</UpdateDate>
+		<PublicationDate>
+			2004-05-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1461" Title="Pituitary">
+						<Keyword MCVID="3018" Title="Pituitary tumor">
+							<Keyword MCVID="3019" Title="Prolactinoma" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			161912BC-6FC9-446D-BAB3DAD24878A49F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prolactinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				prolactin
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperprolactinemia
+			</MetaKeyword>
+			<MetaKeyword>
+				galactorrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				amenorrhea
+			</MetaKeyword>
+			<MetaKeyword>
+				hypopituitarism
+			</MetaKeyword>
+			<MetaKeyword>
+				gynecomastia
+			</MetaKeyword>
+			<MetaKeyword>
+				hypogonadism
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary adenoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prolactinoma is a condition in which a usually noncancerous tumor (adenoma) of the pituitary gland in your brain overproduces the hormone prolactin. The major effect of increased prolactin is a decrease in levels of some sex hormones &amp;mdash; estrogen in women and testosterone in men. 
+&lt;/p&gt;
+&lt;p&gt;
+Although prolactinoma isn&apos;t life-threatening, it can impair your vision, cause infertility and produce other effects. Prolactinoma is one of several types of tumors that can develop in your pituitary gland. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors can often effectively treat prolactinoma with medications to restore your prolactin level to normal. Surgery to remove the pituitary tumor also may be an option to treat prolactinoma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes, there may be no noticeable signs or symptoms from prolactinoma. When signs and symptoms are present, they may be caused by excessive prolactin in your blood (hyperprolactinemia) or, if the tumor is large, from the pressure of the tumor on surrounding tissues. Because elevated levels of the hormone prolactin cause disruption of the reproductive system (hypogonadism), some of the signs and symptoms of prolactinoma are specific to females or males. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;In females&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irregular menstrual periods (oligomenorrhea) or lack of menstrual periods (amenorrhea)&lt;/li&gt;
+	&lt;li&gt;Milky discharge from the breasts (galactorrhea) when not pregnant or breast-feeding&lt;/li&gt;
+	&lt;li&gt;Painful intercourse due to vaginal dryness&lt;/li&gt;
+	&lt;li&gt;Acne and excessive body and facial hair growth (hirsutism)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;In males&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Erectile dysfunction (ED)&lt;/li&gt;
+	&lt;li&gt;Uncommonly, enlarged breasts (gynecomastia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;In both sexes&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low bone density&lt;/li&gt;
+	&lt;li&gt;Reduced other hormone production by the pituitary gland (hypopituitarism) as a result of tumor pressure&lt;/li&gt;
+	&lt;li&gt;Loss of interest in sexual activity&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Visual disturbances &lt;/li&gt;
+	&lt;li&gt;Infertility &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Women tend to notice signs and symptoms earlier than men do, when tumors are smaller in size, probably because they&apos;re alerted by missed or irregular menstrual periods. Men, on the other hand, tend to notice signs and symptoms later, when tumors are much larger and more likely to cause headache or vision problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you develop signs and symptoms associated with prolactinoma, see your doctor to determine the cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prolactinoma is one type of tumor that develops in the pituitary gland. The cause of these tumors remains unknown.
+&lt;/p&gt;
+&lt;p&gt;
+The pituitary gland is a small bean-shaped gland situated at the base of your brain. Despite its small size, the pituitary gland influences nearly every part of your body. Its hormones, such as prolactin, help regulate important functions such as growth, blood pressure and reproduction.
+&lt;/p&gt;
+&lt;p&gt;
+Other possible causes of prolactin overproduction include medications, other types of pituitary tumors, an underactive thyroid gland, an injury to the chest, pregnancy and breast-feeding.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="60" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/thumbs/m7_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="344" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/m7_glands.jpg" Width="400" />
+				<HTML>
+					The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endocrine system 
+" Caption="The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+" Height="60" Title="Endocrine system" URI="/images/image_popup/thumbs/r7_endocrinesystemthu.jpg" Width="60" />
+				<Image Alt="Illustration showing endocrine system 
+" Caption="The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+" Height="500" Title="Endocrine system" URI="/images/image_popup/r7_endocrinesystem.jpg" Width="400" />
+				<HTML>
+					The endocrine system includes the pituitary gland, thyroid gland, parathyroid glands, adrenal glands, pancreas, ovaries (in females) and testicles (in men). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most prolactinomas occur in women between 20 and 50 years old. The disorder is rare in children. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of prolactinoma may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vision loss.&lt;/strong&gt; Left untreated, a prolactinoma may grow large enough to compress your optic nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypopituitarism.&lt;/strong&gt; With larger prolactinomas, pressure on the normal pituitary gland can cause dysfunction of other hormones controlled by the pituitary, resulting in hypothyroidism, adrenal insufficiency and growth hormone deficiency. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone loss (osteoporosis).&lt;/strong&gt; Too much prolactin can reduce production of the hormones estrogen and testosterone, resulting in decreased bone density and an increased risk of osteoporosis.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; During a normal pregnancy, a woman&apos;s pituitary gland enlarges and prolactin production increases. A woman who has a large prolactinoma and becomes pregnant may experience additional pituitary growth and associated signs and symptoms, such as headaches and changes in vision.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If you have prolactinoma and you want to become or you already are pregnant, discuss the situation with your doctor because adjustments in your treatment and monitoring may be necessary. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. You may then be referred to a doctor who specializes in disorders that affect your glands and hormones (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with you doctor. For prolactinoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;If I take medication, how long will I need to take it?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;If I have surgery, will the prolactinoma come back?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Will I be able to have children?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Are you taking medications for another condition?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you or any family members ever had high calcium levels, kidney stones or tumors in other endocrine glands?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms that suggest you have prolactinoma, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests can detect the overproduction of prolactin as a result of a pituitary tumor. Blood tests can also detect if levels of other hormones controlled by the pituitary are within the normal range. Women of childbearing age also will have a pregnancy test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain imaging.&lt;/strong&gt; Your doctor may be able to detect a pituitary tumor on an image generated by a magnetic resonance imaging (MRI) scan of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests of your vision.&lt;/strong&gt; Such tests can determine if growth of a pituitary tumor has impaired your sight or peripheral vision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your doctor may refer you for more extensive testing with a doctor who specializes in treating disorders of the endocrine system (endocrinologist). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment goals&lt;/strong&gt; &lt;br /&gt;
+Goals in the treatment of prolactinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Return the production of prolactin to normal levels&lt;/li&gt;
+	&lt;li&gt;Restore normal pituitary gland function&lt;/li&gt;
+	&lt;li&gt;Eliminate galactorrhea&lt;/li&gt;
+	&lt;li&gt;Reduce the size of the pituitary tumor&lt;/li&gt;
+	&lt;li&gt;Eliminate any signs or symptoms from tumor pressure, such as headaches or vision problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prolactinoma treatment consists of two main therapies, medications and surgery: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Oral medications often can decrease the production of prolactin and eliminate symptoms. Medications may also shrink the tumor. However, long-term treatment with medications is generally necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors use drugs known as dopamine agonists to treat prolactinoma. These drugs mimic the effects of dopamine &amp;mdash; the brain chemical that normally controls prolactin production &amp;mdash; but are much more potent and long lasting. Commonly prescribed medications include bromocriptine (Cycloset, Parlodel) and cabergoline. These drugs decrease prolactin production and may shrink the tumor in most people with prolactinoma. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medication during pregnancy&lt;/strong&gt;. Bromocriptine is the preferred drug when treating women who want to restore their fertility because its safety in pregnancy is well established. During pregnancy, your doctor will likely advise you to stop taking bromocriptine or carbergoline. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although these medications are considered safe in pregnancy, doctors generally prefer to keep medications to a minimum while you&apos;re pregnant. However, if you have a very large tumor, your doctor may recommend that you continue to take your medication during your pregnancy to prevent complications from the prolactinoma. If you&apos;re being treated for prolactinoma and you&apos;d like to start a family, it&apos;s best to discuss your options with your doctor before you become pregnant. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Common side effects.&lt;/strong&gt; Lightheadedness, nausea and nasal stuffiness are common side effects of these medications. However, these side effects often can be minimized if your doctor starts you with a very low dose of medication and gradually increases the dose. Cabergoline has less frequent and less severe side effects, but it&apos;s more expensive than bromocriptine and newer, so its long-term safety record isn&apos;t as well established. There have been rare cases of heart valve damage with cabergoline. Some people may also develop compulsive behaviors, such as gambling, while taking these medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If medication effectively shrinks the tumor and your prolactin level remains normal for two years afterward, you may be able eventually to stop taking the medication. Your doctor can offer you advice on when this may be possible for you. However, don&apos;t stop taking either drug without your doctor&apos;s approval. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+If drug therapy for the treatment of prolactinoma doesn&apos;t work or you can&apos;t tolerate the medication, surgery may be an option for the removal of a pituitary tumor. It may also be necessary to relieve pressure on the nerves that control your vision. 
+&lt;/p&gt;
+&lt;p&gt;
+The type of surgery you have depends largely on the size and extent of your tumor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Transsphenoidal surgery.&lt;/strong&gt; Most people who need surgery have a transsphenoidal procedure. In this surgery, the tumor is removed through the nasal cavity. Complication rates from this type of surgery are low because no other areas of the brain are touched during surgery, and this surgery leaves no visible scars. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transcranial surgery.&lt;/strong&gt; If your tumor is large or has spread to nearby brain tissue, you may need a transcranial procedure, also known as a craniotomy. This procedure involves accessing the tumor through the upper part of the skull.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The outcome of surgery depends on the size and location of the tumor and your prolactin levels before surgery. The higher the prolactin level, the slimmer the chance that your prolactin production will return to normal after surgery. Surgery corrects the prolactin level in most people with small pituitary tumors. However, many pituitary tumors come back within five years of surgery. For people with larger tumors that can only be partially removed, drug therapy often can return the prolactin level to a normal range after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation&lt;/strong&gt; &lt;br /&gt;
+For people who don&apos;t respond to medication and aren&apos;t candidates for surgery, radiation therapy may be an option. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prolactinoma
+	</Title>
+	<Abstract>
+		Prolactinoma &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this pituitary gland tumor.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00533" LinkType="Internal" ObjectID="EF3D3564-9BB7-472A-9983C780054CCF0F" Title="Pituitary tumors" Url="http://www.mayoclinic.com/health/pituitary-tumors/DS00533" />
+		<LinkItem ContentType="Disease" DocID="DS00128" LinkType="Internal" ObjectID="74832633-C5B7-4681-A614980804652C1A" Title="Osteoporosis" Url="http://www.mayoclinic.com/health/osteoporosis/DS00128" />
+		<LinkItem ContentType="Disease" DocID="DS00470" LinkType="Internal" ObjectID="375268B4-E673-4ADA-908E8B7EE2E4026A" Title="Cushing&apos;s syndrome" Url="http://www.mayoclinic.com/health/cushings-syndrome/DS00470" />
+	</RelatedLinksBox>
+</Disease>

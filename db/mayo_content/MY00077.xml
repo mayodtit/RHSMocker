@@ -1,0 +1,257 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00077
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/carotid-ultrasound/MY00077
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3851" Title="Nervous system">
+						<Keyword MCVID="3299" Title="Carotid ultrasound" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A6C8C8FE-E7FF-0DBD-186D2682D7969C48
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				carotid ultrasound
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery ultrasound
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid Doppler ultrasound
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid endarterectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carotid (kuh-ROT-id) ultrasound is a safe, painless procedure that uses sound waves to examine the structure and function of the carotid arteries in your neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Your two carotid arteries are located on each side of your neck. Carotid arteries deliver blood from your heart to your brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Carotid ultrasound is usually used to test for blocked or narrowed carotid arteries, which can indicate an increased risk of stroke. Results from a carotid ultrasound can help your doctor determine what kind of treatment you may need to lower your risk of stroke. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of carotid artery 
+" Caption="The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+" Height="60" Title="Carotid artery" URI="/images/image_popup/thumbs/mcdc7_carotidarterythu.jpg" Width="60" />
+				<Image Alt="Illustration of carotid artery 
+" Caption="The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+" Height="425" Title="Carotid artery" URI="/images/image_popup/mcdc7_carotidartery.jpg" Width="400" />
+				<HTML>
+					The carotid arteries are a pair of blood vessels located on both sides of your neck that deliver blood to your brain and head. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary purpose of a carotid ultrasound is to test for narrowed carotid arteries that indicate an increased risk of stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+Narrowing of carotid arteries is usually caused by plaque &amp;mdash; a buildup of fat, cholesterol, calcium and other substances that circulate in the bloodstream. Early detection of narrowed carotid arteries enables your doctor to begin treatments to improve blood flow to your brain and decrease your risk of stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend a carotid ultrasound if you have medical conditions that increase the risk of stroke, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;Family history of stroke or heart disease&lt;/li&gt;
+	&lt;li&gt;Recent transient ischemic attack (TIA) or stroke&lt;/li&gt;
+	&lt;li&gt;Abnormal sound in carotid arteries (bruit), detected by your doctor using a stethoscope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll have a Doppler ultrasound that evaluates the blood flow through your carotid arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+A carotid ultrasound may be used in combination with other tests to screen for narrowed or blocked blood vessels in other areas of your body, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal ultrasound.&lt;/strong&gt; You may have an abdominal ultrasound to test for conditions affecting the blood vessels or organs in your abdominal area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ankle-brachial index test.&lt;/strong&gt; This test measures and compares your ankle&apos;s blood pressure and your arm&apos;s blood pressure. The test can indicate reduced or blocked blood flow to your legs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other uses of carotid ultrasound&lt;br /&gt;
+&lt;/strong&gt;Your doctor also may order a carotid ultrasound to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evaluate the structure and function of the artery after surgery to remove plaques (carotid endarterectomy)&lt;/li&gt;
+	&lt;li&gt;Evaluate the placement and treatment effect of a stent, a mesh tube used to improve blood flow through an artery by mechanically decreasing the narrowing&lt;/li&gt;
+	&lt;li&gt;Locate a collection of clotted blood (hematoma) that may inhibit blood flow&lt;/li&gt;
+	&lt;li&gt;Detect other abnormalities in the structure of a carotid artery that may disrupt blood flow&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ischemic stroke 
+" Caption="Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur in the carotid artery of the neck as well as other arteries. 
+" Height="60" Title="Ischemic stroke" URI="/images/image_popup/thumbs/r7_ischemicstrokethu.jpg" Width="60" />
+				<Image Alt="Illustration showing ischemic stroke 
+" Caption="Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur in the carotid artery of the neck as well as other arteries. 
+" Height="340" Title="Ischemic stroke" URI="/images/image_popup/r7_ischemicstroke.jpg" Width="400" />
+				<HTML>
+					Ischemic stroke occurs when a blood clot (thrombus) blocks or plugs an artery leading to the brain. A blood clot often forms in arteries damaged by buildup of plaque (atherosclerosis). It can occur ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take the following steps to prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call the day before the exam to confirm the time and location of the exam.&lt;/li&gt;
+	&lt;li&gt;Wear a comfortable shirt with no collar or an open collar.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t wear a necklace or dangling earrings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unless your doctor or the radiology lab provides special instructions, you shouldn&apos;t need to make any other preparations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;How it works&lt;br /&gt;
+&lt;/strong&gt;A technician (sonographer) conducts the test with a small, hand-held device called a transducer. The transducer emits sound waves and records the echo as the waves bounce off tissues, organs and blood cells.
+&lt;/p&gt;
+&lt;p&gt;
+A computer translates the echoed sound waves into a live-action image on a monitor. In a Doppler ultrasound, the information about the rate of blood flow is translated into a graph.
+&lt;/p&gt;
+&lt;p&gt;
+A carotid ultrasound usually takes about 30 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll likely lie on your back during the procedure. The ultrasound technician (sonographer) may gently adjust the position of your head to improve access to the side of your neck. 
+&lt;/p&gt;
+&lt;p&gt;
+The sonographer will apply a warm gel to your skin above the site of each carotid artery. The gel helps eliminate the formation of air pockets between your skin and the transducer. The sonographer then gently presses the transducer against the side of your neck in order for the instrument to send and receive sound waves. 
+&lt;/p&gt;
+&lt;p&gt;
+You shouldn&apos;t feel any discomfort during the procedure. If you do, tell the sonographer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor who specializes in imaging tests (radiologist) will review and interpret the results of your carotid ultrasound. He or she will prepare a report for the doctor who ordered the exam, such as your primary care doctor, a doctor trained in heart and blood vessel conditions (cardiologist), or a doctor trained in brain and nervous system conditions (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+The radiologist may also discuss the results of the test with you immediately after the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+The doctor who ordered the test will explain to you what the carotid ultrasound revealed and how the results will affect your medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+If the test reveals you&apos;re at risk of a stroke, your doctor may recommend the following therapies, depending on the severity of blockage in your arteries: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat a healthy diet, including fruits, vegetables and whole-grain breads and cereals, and limit saturated fat&lt;/li&gt;
+	&lt;li&gt;Participate in a regular exercise routine&lt;/li&gt;
+	&lt;li&gt;Keep a healthy weight&lt;/li&gt;
+	&lt;li&gt;Don&apos;t smoke and try to stay away from secondhand smoke&lt;/li&gt;
+	&lt;li&gt;Take medications to lower blood cholesterol and blood pressure&lt;/li&gt;
+	&lt;li&gt;Take medications to prevent blood clots&lt;/li&gt;
+	&lt;li&gt;Have a surgical procedure to remove carotid artery plaques (carotid endarterectomy)&lt;/li&gt;
+	&lt;li&gt;Have a surgical procedure to open up and support your carotid arteries (carotid angioplasty and stenting)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor ordered the carotid ultrasound as a follow-up to a surgical procedure, your doctor can explain whether the treatment is working as planned and whether you&apos;ll need additional treatment or follow-up exams. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;br /&gt;
+&lt;/strong&gt;If the results of the carotid ultrasound are unclear, your doctor may order additional imaging tests for more detailed images of your carotid arteries, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; A CT scan uses a series of X-rays to produce detailed images of soft tissues in your body. Your doctor may inject a dye into a vein to highlight your carotid arteries. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses a magnetic field and radio waves to produce detailed images of soft tissues in your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Carotid ultrasound
+	</Title>
+	<Abstract>
+		Carotid ultrasound &amp;mdash; Overview covers purpose, results of imaging test of neck arteries.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01030" LinkType="Internal" ObjectID="A78D30C2-E7FF-0DBD-14D50D2855293A85" Title="Carotid artery disease" Url="http://www.mayoclinic.com/health/carotid-artery-disease/DS01030" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Disease" DocID="DS00220" LinkType="Internal" ObjectID="0692C89B-9D70-42E7-BEB1527FF707B981" Title="Transient ischemic attack (TIA)" Url="http://www.mayoclinic.com/health/transient-ischemic-attack/DS00220" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,361 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01153
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cholecystitis/DS01153
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2009-09-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1857" Title="Gallbladder and bile duct">
+						<Keyword MCVID="4433" Title="Cholecystitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A92F4CA9-AD91-E292-96BC7171EF5BABC2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholecystitis
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder removal
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder disease
+			</MetaKeyword>
+			<MetaKeyword>
+				gall baldder attack
+			</MetaKeyword>
+			<MetaKeyword>
+				gall stones
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder pain
+			</MetaKeyword>
+			<MetaKeyword>
+				gallstones
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				gallstone disease
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				cholecystectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystitis (ko-luh-sis-TIE-tis) is inflammation of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver. The gallbladder holds a digestive fluid called bile that&apos;s released into your small intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, cholecystitis is caused by gallstones that block the tube leading out of your gallbladder. This results in a buildup of bile that can cause inflammation. Other causes of cholecystitis include bile duct problems and tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+If left untreated, cholecystitis can lead to serious complications, such as a gallbladder that becomes enlarged or that ruptures. Once diagnosed, cholecystitis requires a hospital stay. Treatment for cholecystitis often eventually includes gallbladder removal. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="60" Title="Gallbladder and bile duct" URI="/images/image_popup/thumbs/r7_gallbladderbileductthu.jpg" Width="60" />
+				<Image Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="333" Title="Gallbladder and bile duct" URI="/images/image_popup/r7_gallbladderbileduct.jpg" Width="400" />
+				<HTML>
+					The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of cholecystitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe, steady pain in the upper right part of your abdomen&lt;/li&gt;
+	&lt;li&gt;Pain that radiates from your abdomen to your right shoulder or back&lt;/li&gt;
+	&lt;li&gt;Tenderness over your abdomen when it&apos;s touched&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Abdominal bloating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cholecystitis signs and symptoms usually occur after a meal, particularly a large meal or a meal high in fat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you have any signs or symptoms that worry you. Abdominal pain that is so severe you can&apos;t sit still or find a comfortable position is an emergency, so have someone drive you to the emergency room in this situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystitis occurs when your gallbladder becomes inflamed. Gallbladder inflammation can be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gallstones.&lt;/strong&gt; The vast majority of cholecystitis cases are the result of gallstones that block the cystic duct &amp;mdash; the tube through which bile flows when it leaves the gallbladder &amp;mdash; causing bile to build up and resulting in gallbladder inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor.&lt;/strong&gt; A tumor may prevent bile from draining out of your gallbladder properly, causing bile buildup that can lead to cholecystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bile duct blockage.&lt;/strong&gt; Kinking or scarring of the bile ducts can cause blockages that lead to cholecystitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="60" Title="Gallbladder and bile duct" URI="/images/image_popup/thumbs/r7_gallbladderbileductthu.jpg" Width="60" />
+				<Image Alt="Image showing gallbladder and bile duct 
+" Caption="The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food. When you eat, your gallbladder releases bile into the bile duct, where it&apos;s carried to the upper part of the small intestine (duodenum) to help break down fat in food. 
+" Height="333" Title="Gallbladder and bile duct" URI="/images/image_popup/r7_gallbladderbileduct.jpg" Width="400" />
+				<HTML>
+					The gallbladder serves as a reservoir for bile, a yellow-green fluid produced in your liver. Bile flows from your liver into your gallbladder where it&apos;s held until needed during the digestion of food....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of cholecystitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gallstones.&lt;/strong&gt; Most cases of cholecystitis are linked to gallstones. If you have gallstones, you&apos;re at high risk of developing cholecystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women have a greater risk of gallstones than men do. This makes women more likely to develop cholecystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; As you get older, your risk of gallstones increases, as does your risk of cholecystitis.&lt;br /&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholecystitis can lead to a number of serious complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged gallbladder.&lt;/strong&gt; If your gallbladder becomes inflamed due to bile buildup, it may stretch and swell beyond its normal size, which can cause pain and increase the risk of a tear (perforation) in your gallbladder, as well as infection and tissue death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection within the gallbladder.&lt;/strong&gt; If bile builds up within your gallbladder, causing cholecystitis, the bile may become infected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death of gallbladder tissue.&lt;/strong&gt; Untreated cholecystitis can cause tissue in the gallbladder to die (gangrene), which in turn can lead to a tear in the gallbladder, or it may cause your gallbladder to burst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Torn gallbladder.&lt;/strong&gt; A tear (perforation) in your gallbladder may be caused by an enlarged or infected gallbladder that occurs as a result of cholecystitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. If your doctor suspects you have cholecystitis, you may be referred to a doctor who specializes in the digestive system (gastroenterologist), or your doctor may refer you directly to the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For cholecystitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is cholecystitis the likely cause of my abdominal pain?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need gallbladder removal surgery (cholecystectomy)?&lt;/li&gt;
+	&lt;li&gt;When do I need gallbladder surgery?&lt;/li&gt;
+	&lt;li&gt;What are the risks of surgery?&lt;/li&gt;
+	&lt;li&gt;How long does it take to recover from gallbladder surgery?&lt;/li&gt;
+	&lt;li&gt;Are there other treatment options for cholecystitis?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had bouts of pain similar to this before?&lt;/li&gt;
+	&lt;li&gt;Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose cholecystitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt;&lt;strong&gt; Your doctor may order blood tests to look for signs of an infection or signs of gallbladder problems.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests that show your gallbladder.&lt;/strong&gt; Imaging tests, such as abdominal ultrasound or a computerized tomography (CT) scan, can be used to create pictures of your gallbladder that may reveal signs of cholecystitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A scan that shows the movement of bile through your body.&lt;/strong&gt; A hepatobiliary iminodiacetic acid (HIDA) scan tracks the production and flow of bile from your liver to your small intestine and shows if bile is blocked at any point along the way. A HIDA scan involves injecting a radioactive chemical into your body. The chemical binds to the bile-producing cells, so it can be clearly seen as it travels with the bile through the bile ducts.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for cholecystitis usually involves a stay in the hospital to stabilize the inflammation in your gallbladder. Once your cholecystitis is under control, your doctor may recommend surgery to remove your gallbladder, since cholecystitis frequently recurs. In emergency situations, such as a ruptured gallbladder, surgery may be required right away. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re diagnosed with cholecystitis, you&apos;ll be admitted to the hospital. Your doctor will work to control your signs and symptoms and to control the inflammation in your gallbladder. Treatments may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fasting.&lt;/strong&gt; You may not be allowed to eat or drink at first in order to take stress off your inflamed gallbladder. So that you don&apos;t become dehydrated, you may receive fluids through a vein in your arm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics to fight infection.&lt;/strong&gt; If your cholecystitis is caused by an infection or has caused an infection in your gallbladder, your doctor may recommend antibiotics to treat the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain medications.&lt;/strong&gt; You may receive pain medications to help control pain until the inflammation in your gallbladder is relieved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your symptoms may begin to go away in a day or two after being hospitalized. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to remove the gallbladder&lt;/strong&gt; &lt;br /&gt;
+Because cholecystitis frequently recurs, most people diagnosed with cholecystitis eventually require gallbladder removal surgery (cholecystectomy). When you&apos;re feeling better, your doctor may recommend cholecystectomy. When you&apos;ll undergo surgery depends on your situation. If you have complications of cholecystitis, such as gangrene or perforation of your gallbladder, you may need to have surgery immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholecystectomy is most commonly performed using a tiny video camera mounted at the end of a flexible tube. This allows your surgeon to see inside your abdomen and to use special surgical tools to remove the gallbladder (laparoscopic cholecystectomy). The tools and camera are inserted through four incisions in your abdomen, and the surgeon watches a monitor while guiding the tools during surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Once your gallbladder is removed, bile flows directly from your liver into your small intestine, rather than being stored in your gallbladder. You don&apos;t need your gallbladder to live, and gallbladder removal doesn&apos;t affect your ability to digest food, although it can cause diarrhea that is usually temporary. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="60" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/thumbs/d7_cholecystectomythu.jpg" Width="60" />
+				<Image Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="360" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/d7_cholecystectomy.jpg" Width="400" />
+				<HTML>
+					Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because most cases of cholecystitis are caused by gallstones, you can reduce your risk of cholecystitis by taking the following steps to prevent gallstones: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight slowly.&lt;/strong&gt; If you need to lose weight, go slow. Rapid weight loss can increase the risk of gallstones. Aim to lose 1 or 2 pounds (0.5 to about 1 kilogram) a week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Obesity and being overweight increase the risk of gallstones. Work to achieve a healthy weight by reducing the number of calories you eat and increasing the amount of physical activity you get. Once you achieve a healthy weight, work to maintain that weight by continuing your healthy diet and continuing to exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Diets high in fat and low in fiber may increase the risk of gallstones. To reduce your risk of gallstones, choose a diet that&apos;s full of fruits, vegetables and whole grains.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cholecystitis
+	</Title>
+	<Abstract>
+		Cholecystitis &amp;mdash; Comprehensive overview covers causes, symptoms, complications and treatment of gallbladder inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00320" LinkType="Internal" ObjectID="BA11D80D-E7FF-0DBD-1D64187B86CF9EB2" Title="HIDA scan" Url="http://www.mayoclinic.com/health/hida-scan/MY00320" />
+		<LinkItem ContentType="Answer" DocID="AN01947" LinkType="Internal" ObjectID="AFE77F60-E7FF-0DBD-1B92131281CA50F6" Title="Aerobic exercise: What&apos;s the best frequency for workouts?" Url="http://www.mayoclinic.com/health/aerobic-exercise/AN01947" />
+		<LinkItem ContentType="Answer" DocID="AN02176" LinkType="Internal" ObjectID="87A7D4F8-9CD6-5FC3-A89E583CA33FF4FE" Title="Can you recommend a diet after gallbladder removal?" Url="http://www.mayoclinic.com/health/gallbladder-removal-diet/AN02176" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00372" LinkType="Internal" ObjectID="63107CB6-E7FF-0DBD-13EE267CA11A29E0" Title="Cholecystectomy (gallbladder removal)" Url="http://www.mayoclinic.com/health/cholecystectomy/MY00372" />
+		<LinkItem ContentType="SelfAssessment" DocID="NU00595" LinkType="Internal" ObjectID="17643287-E9FA-48AC-A5366CF2F3CF81A8" Title="Mayo Clinic Healthy Weight Pyramid tool" Url="http://www.mayoclinic.com/health/weight-loss/NU00595" />
+		<LinkItem ContentType="Disease" DocID="DS00165" LinkType="Internal" ObjectID="7E7F8A87-F164-441E-BB6E7731D06D9B47" Title="Gallstones" Url="http://www.mayoclinic.com/health/gallstones/DS00165" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+	</RelatedLinksBox>
+</Disease>

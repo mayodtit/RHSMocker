@@ -1,0 +1,304 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00444
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/phantom-pain/DS00444
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-27
+		</UpdateDate>
+		<PublicationDate>
+			2002-04-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1770" Title="Pain">
+						<Keyword MCVID="2998" Title="Phantom pain" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F14E5BB4-5594-4003-86CAEF746A054A41
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				phantom pain
+			</MetaKeyword>
+			<MetaKeyword>
+				amputation
+			</MetaKeyword>
+			<MetaKeyword>
+				phantom limb sensation
+			</MetaKeyword>
+			<MetaKeyword>
+				stump pain
+			</MetaKeyword>
+			<MetaKeyword>
+				fantom pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Phantom pain is pain that feels like it&apos;s coming from a body part that&apos;s no longer there. Doctors once believed this post-amputation phenomenon was a psychological problem, but experts now recognize that these real sensations originate in the spinal cord and brain.
+&lt;/p&gt;
+&lt;p&gt;
+Although phantom pain occurs most often in people who&apos;ve had an arm or leg removed, the disorder may also occur after surgeries to remove other body parts, such as the breast, penis, eye or tongue.
+&lt;/p&gt;
+&lt;p&gt;
+For some people, phantom pain gets better over time without treatment. For others, managing phantom pain can be challenging. You and your doctor can work together to treat phantom pain effectively with medication or other therapies. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who&apos;ve had a limb removed report that it sometimes feels as if their amputated limb is still there. This painless phenomenon, known as phantom limb sensation, can also occur in people who were born without limbs. Phantom limb sensations may include feelings of coldness, warmth or itchiness or tingling &amp;mdash; but should not be confused with phantom pain. Similarly, pain from the remaining stump of an amputated limb is not phantom pain. By definition, phantom pain feels as if it comes from a body part that no longer remains. 
+&lt;/p&gt;
+&lt;p&gt;
+Characteristics of phantom pain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Onset within the first few days of amputation&lt;/li&gt;
+	&lt;li&gt;Tendency to come and go rather than be constant&lt;/li&gt;
+	&lt;li&gt;Usually affects the part of the limb farthest from the body, such as the foot of an amputated leg&lt;/li&gt;
+	&lt;li&gt;May be described as shooting, stabbing, boring, squeezing, throbbing or burning&lt;/li&gt;
+	&lt;li&gt;Sometimes feels as if the phantom part is forced into an uncomfortable position&lt;/li&gt;
+	&lt;li&gt;May be triggered by weather changes, pressure on the remaining part of the limb or emotional stress&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of phantom pain is unclear, but it appears to originate in the spinal cord and brain. During imaging scans &amp;mdash; such as magnetic resonance imaging (MRI) or positron emission tomography (PET) &amp;mdash; portions of the brain that had been neurologically connected to the nerves of the amputated limb show activity when the person feels phantom pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Many experts believe phantom pain may be at least partially explained as a response to mixed signals from the brain. After an amputation, areas of the spinal cord and brain lose input from the missing limb and adjust to this detachment in unpredictable ways. The result can trigger the body&apos;s most basic message that something is not right: pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Studies also show that, after an amputation, the brain may remap that part of the body&apos;s sensory circuitry to another part of the body. In other words, because the amputated area is no longer able to receive sensory information, the information is referred elsewhere &amp;mdash; from a missing hand to a still-present cheek, for example. So when the cheek is touched, it&apos;s as though the missing hand also is being touched. Because this is yet another version of tangled sensory wires, the result can be pain. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of other factors are believed to contribute to phantom pain, including damaged nerve endings, scar tissue at the site of the amputation and the physical memory of pre-amputation pain in the affected area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s still unknown why some people develop phantom pain after an amputation while others do not. Some factors that may increase your risk of phantom pain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain before amputation.&lt;/strong&gt; Some researchers have found that people who had pain in a limb before amputation are likely to have it afterward, especially immediately after amputation. This may be because the brain holds on to the memory of the pain and keeps sending pain signals, even after the limb is removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stump pain.&lt;/strong&gt; People who have persistent stump pain usually have phantom pain, too. Stump pain can be caused by an abnormal growth on damaged nerve endings (neuroma) that often results in painful nerve activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor-fitting artificial limb (prosthesis).&lt;/strong&gt; Talk to your doctor to be sure you&apos;re putting your artificial limb on correctly and that it fits properly. If you think your artificial limb may not fit properly, or is causing pain, talk to your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because phantom sensation and phantom pain are common after an amputation, it&apos;s likely your doctor will ask you about these symptoms during follow-up visits after your surgery. If you develop pain from the amputated limb before your doctor raises the issue, call your doctor. Depending on the severity of your symptoms and on your response to initial treatments, your doctor may refer you to a specialized pain center. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when you first noticed them and how often they occur. Also note whether anything in particular seems to trigger phantom pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions with which you&apos;ve been diagnosed and the names of any medications, vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to recall all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For phantom pain, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;p&gt;
+What pain relief therapies do you recommend? 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you&apos;re prescribing medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;Is there any risk of becoming dependent on or addicted to these drugs?&lt;/li&gt;
+	&lt;li&gt;Given that I have these other health conditions, how can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are the treatments you&apos;re suggesting likely to be covered by insurance?&lt;/li&gt;
+	&lt;li&gt;Am I a candidate for clinical trials?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask any other questions that arise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no medical test to diagnose phantom pain, doctors can identify the condition by collecting information about your symptoms and the circumstances (such as trauma or surgery) that occurred before the pain started. 
+&lt;/p&gt;
+&lt;p&gt;
+Describing your pain precisely can help your doctor pinpoint your problem. Even though it&apos;s common to have phantom pain and stump pain at the same time, treatments for these two problems may differ. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Finding a treatment to relieve your phantom pain can be difficult. Doctors usually begin with medications and then may add noninvasive therapies, such as acupuncture or transcutaneous electrical nerve stimulation (TENS). More-invasive options include injections or implanted devices. Surgery is done only as a last resort. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Although no medications specifically for phantom pain exist, some drugs designed to treat other conditions have been helpful in relieving nerve pain. No single drug works for everyone, and not everyone benefits from medications. You may need to try different medications to find one that works for you. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used in the treatment of phantom pain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Tricyclic antidepressants often can relieve the pain caused by damaged nerves. Examples include amitriptyline and nortriptyline (Pamelor). These drugs work by modifying chemical messengers that relay pain signals. Antidepressants may also help you sleep, which can make you feel better. Possible side effects include sleepiness, dry mouth, blurred vision, weight gain, and a decrease in sexual performance or desire.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsants.&lt;/strong&gt; Epilepsy drugs &amp;mdash; such as gabapentin (Gralise, Neurontin), pregabalin (Lyrica), and carbamazepine (Carbatrol, Tegretol) &amp;mdash; are often used to treat nerve pain. They work by quieting damaged nerves to slow or prevent uncontrolled pain signals. Side effects may include depression, anxiety, suicidal thoughts, irritability, and allergic reactions such as hives, fever and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narcotics.&lt;/strong&gt; Opioid medications, such as codeine and morphine, may be an option for some people. Taken in appropriate doses under your doctor&apos;s direction, they may help control phantom pain. However, you may not be able to take them if you have a history of substance abuse. Even if you don&apos;t have a history of substance abuse, these drugs can cause many side effects, including constipation, nausea, vomiting or sedation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Noninvasive therapies&lt;br /&gt;
+&lt;/strong&gt;As with medications, treating phantom pain with noninvasive therapies is a matter of trial and observation. The following techniques may relieve phantom pain:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve stimulation.&lt;/strong&gt; In a procedure called transcutaneous electrical nerve stimulation (TENS), a device sends a weak electrical current via adhesive patches on the skin near the area of pain. This may interrupt or mask pain signals, preventing them from reaching your brain. Used properly, TENS is safe. To avoid an unintentional shock, don&apos;t wear a TENS device in the shower or tub or turn it up too high.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electric artificial limb.&lt;/strong&gt; A type of artificial limb called a myoelectric prosthesis has motors controlled by electrical signals that occur during voluntary muscle activation in the remaining limb. Using a myoelectric prosthesis may reduce phantom pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mirror box.&lt;/strong&gt; This device contains mirrors that make it look like an amputated limb exists. The mirror box has two openings &amp;mdash; one for the intact limb and one for the stump. The person then performs symmetrical exercises, while watching the intact limb move and imagining that he or she is actually observing the missing limb moving. Studies have found that this exercise helps relieve phantom pain in a significant number of people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; The National Institutes of Health has found that acupuncture can be an effective treatment for some types of chronic pain. In acupuncture, the practitioner inserts extremely fine, sterilized stainless steel needles into the skin at specific points on the body. It&apos;s thought that acupuncture stimulates your central nervous system to release the body&apos;s natural pain-relieving endorphins. Acupuncture is generally considered safe when performed correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Minimally invasive therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injection.&lt;/strong&gt; Sometimes injecting pain-killing medications &amp;mdash; local anesthetics, steroids or both &amp;mdash; into the stump can provide relief of phantom limb pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal cord stimulation.&lt;/strong&gt; Your doctor inserts tiny electrodes along your spinal cord. A small electrical current delivered to the spinal cord can sometimes relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intrathecal delivery system.&lt;/strong&gt; This procedure allows medication to be delivered directly into the spinal fluid. Much lower doses of medication are needed with this route of delivery. It can be useful for people who experience pain relief with oral medications, but who can&apos;t tolerate the side effects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery may be an option if other treatments haven&apos;t helped. Surgical options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain stimulation.&lt;/strong&gt; Deep brain stimulation and motor cortex stimulation are similar to spinal cord stimulation except that the current is delivered within the brain. A surgeon uses a magnetic resonance imaging (MRI) scan to position the electrodes correctly. Although the data are still limited, brain stimulation appears to be a promising option in selected individuals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stump revision or neurectomy.&lt;/strong&gt; If phantom pain is triggered by nerve irritation in the stump, surgical resection or revision can sometimes be helpful. But cutting nerves also carries the risk of making the pain worse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;On the horizon&lt;br /&gt;
+&lt;/strong&gt;Newer approaches to relieve phantom pain include virtual reality goggles. The computer program for the goggles mirrors the person&apos;s intact limb, so it looks like there&apos;s been no amputation. The person then moves his or her virtual limb around to accomplish various tasks, such as batting away a ball hanging in midair. Although this technique has been tested on only a few people, it appears to help relieve phantom pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may not have control over whether you develop phantom pain after surgery, but you can reduce your discomfort and improve your quality of life. One or more of these approaches may help you get through a flare-up of phantom pain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Look for distractions.&lt;/strong&gt; Find activities that take your focus off the pain, such as reading or listening to music.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay physically active.&lt;/strong&gt; Get your exercise by doing activities that you enjoy, such as gardening, walking, swimming or cycling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medications.&lt;/strong&gt; Follow your doctor&apos;s directions in taking prescribed and over-the-counter pain medications. If you try herbal and other alternative medications, be sure to tell your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to relax.&lt;/strong&gt; Practice activities that reduce your emotional and muscular tension. Take a warm bath &amp;mdash; not too hot, as heat may aggravate the pain. Lie down and follow helpful relaxation techniques, such as rhythmic breathing, meditation or visualization.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek the support of other people.&lt;/strong&gt; Find ways to get closer to others. Call friends, or join a support group or a group involved in your favorite hobby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your stump.&lt;/strong&gt; Removing or putting on your prosthesis, massaging the stump, and applying TENS, cold or heat may reduce the pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember that managing phantom pain can make a big difference in how you feel. If one approach doesn&apos;t provide relief, try something else rather than give up. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning to live without a limb, especially if you have phantom pain, can be challenging. Depression often accompanies pain. You may find it helpful to talk to a counselor or therapist. Or, an in-person or online support group can put you in touch with others who know what you&apos;re going through. To find support, ask your doctor for a referral, either to a counselor or to a support group. 
+&lt;/p&gt;
+&lt;p&gt;
+You also can contact the Amputee Coalition at www.amputee-coalition.org for information on its National Peer Network, which can put you in touch with a variety of support services, including its Peer Visitor Program. This program can connect you with someone who&apos;s been in your place and can talk to you about healing, share his or her experiences and offer advice. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the risk of developing phantom pain is higher for people who have experienced pain in the limb before amputation, some doctors recommend regional anesthesia (spinal or epidural) in the few hours or days leading up to amputation. This may reduce pain immediately following surgery and reduce the risk of lasting phantom limb pain.
+&lt;/p&gt;
+&lt;p&gt;
+Two drugs have shown promise in preventing phantom pain:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcitonin (Miacalcin).&lt;/strong&gt; Researchers aren&apos;t sure why calcitonin &amp;mdash; a hormone produced by the body that slows the rate at which your body breaks down bone &amp;mdash; provides pain relief. You may receive this drug directly into a vein (intravenously) during the week after amputation. Possible side effects include nausea, vomiting and allergic reactions, including rashes, abdominal pain and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ketamine (Ketalar).&lt;/strong&gt; This anesthetic drug is sometimes given after surgery to help prevent phantom pain. Its side effects can include sedation, hallucinations and delirium.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Phantom pain
+	</Title>
+	<Abstract>
+		Phantom pain &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this often puzzling disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

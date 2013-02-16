@@ -1,0 +1,185 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01002
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/basal-body-temperature/MY01002
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-18
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4129" Title="Lifestyle">
+						<Keyword MCVID="4504" Title="Basal body temperature method" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			302202F8-03E4-46A7-861086528B090BA2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				basal body temperature
+			</MetaKeyword>
+			<MetaKeyword>
+				basal body temp
+			</MetaKeyword>
+			<MetaKeyword>
+				natural family planning
+			</MetaKeyword>
+			<MetaKeyword>
+				birth control
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The basal body temperature method is a type of natural family planning, also called fertility awareness-based methods.
+&lt;/p&gt;
+&lt;p&gt;
+Your basal body temperature is your temperature when you&apos;re fully at rest. Ovulation may cause a slight increase in basal body temperature. You&apos;ll be most fertile during the two to three days before your temperature rises. By tracking your basal body temperature each day, you may be able to predict when you&apos;ll ovulate. In turn, this may help you determine when you&apos;re most likely to conceive.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re hoping to get pregnant, you can use the basal body temperature method to determine the best days to have sex. Similarly, if you&apos;re hoping to avoid pregnancy, you can use the basal body temperature method to determine which days to avoid unprotected sex.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Basal body temperature can be used to predict fertility to help you gauge the best days to have or to avoid unprotected sex. Tracking your basal body temperature for either fertility or contraception is inexpensive and doesn&apos;t have any side effects. Some women choose to use the basal body temperature method for religious reasons.
+&lt;/p&gt;
+&lt;p&gt;
+The basal body temperature method can also be used to detect pregnancy. Following ovulation, a rise in basal body temperature that lasts for 18 or more days may be an early indicator of pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+The basal body temperature method may be combined with another method of natural family planning, such as the cervical mucus method. This combination is sometimes referred to as the symptothermal method. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Using the basal body temperature method to promote fertility doesn&apos;t pose any risks.
+&lt;/p&gt;
+&lt;p&gt;
+Likewise, using the basal body temperature method for birth control doesn&apos;t pose any direct risks, but it doesn&apos;t offer protection from sexually transmitted infections. In addition, it&apos;s one of the least effective natural family planning methods. An estimated 25 out of 100 women who use basal body temperature plus another fertility awareness-based method, such as the cervical mucus method, will get pregnant in the first year of typical use.
+&lt;/p&gt;
+&lt;p&gt;
+Using the basal body temperature method for birth control requires motivation and diligence. If you don&apos;t want to conceive, you and your partner must avoid having sex or use a barrier method of contraception during your fertile days each month.
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that your basal body temperature can be influenced by many factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Illness&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Shift work&lt;/li&gt;
+	&lt;li&gt;Interrupted sleep cycles or oversleeping&lt;/li&gt;
+	&lt;li&gt;Drinking alcohol&lt;/li&gt;
+	&lt;li&gt;Travel and time zone differences&lt;/li&gt;
+	&lt;li&gt;Gynecologic disorders&lt;/li&gt;
+	&lt;li&gt;Certain medications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some women also ovulate without a clear rise in basal body temperature.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tracking your basal body temperature doesn&apos;t require special preparation. However, if you want to use the basal body temperature method for birth control, consult your health care provider first if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You recently gave birth or stopped taking birth control pills or other hormonal contraceptives&lt;/li&gt;
+	&lt;li&gt;You&apos;re breast-feeding&lt;/li&gt;
+	&lt;li&gt;You&apos;re approaching menopause&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To use the basal body temperature method:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take your basal body temperature every morning before getting out of bed.&lt;/strong&gt; Use a digital oral thermometer or one specifically designed to measure basal body temperature. Make sure you get at least six hours of uninterrupted sleep each night to ensure an accurate reading. You may consider taking your temperature vaginally or rectally if you have trouble determining a pattern or change in your basal body temperature. For the most accurate results, always take your temperature using the same method.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plot your temperature readings on graph paper.&lt;/strong&gt; Record your daily basal body temperature and look for a pattern to emerge. Your basal body temperature may increase slightly &amp;mdash; typically less than 1 degree &amp;mdash; when you ovulate. You can assume ovulation has occurred when the slightly higher temperature remains steady for three days or more.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan sex carefully during fertile days.&lt;/strong&gt; You&apos;re most fertile during the two to three days before your basal body temperature rises, but sperm can live for up to five days in your reproductive tract. If you&apos;re hoping to get pregnant, this is the time to have sex. If you&apos;re hoping to avoid pregnancy, unprotected sex is off-limits from the start of your menstrual period until three to four days after your basal body temperature rises &amp;mdash; every month. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Basal body temperature for natural family planning
+	</Title>
+	<Abstract>
+		Basal body temperature &amp;mdash; Overview covers definition, steps for tracking basal temperature for fertility or contraception.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01050" LinkType="Internal" ObjectID="C52E3041-9C5E-93DE-ACEB4264346CC73D" Title="Withdrawal method (coitus interruptus)" Url="http://www.mayoclinic.com/health/withdrawal-method/MY01050" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01004" LinkType="Internal" ObjectID="3028AE15-EA2B-9E83-A62B77815B58E641" Title="Cervical mucus method for natural family planning" Url="http://www.mayoclinic.com/health/cervical-mucus-method/MY01004" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01003" LinkType="Internal" ObjectID="302552C2-D5ED-FE68-7D95CD2A47E1DA11" Title="Rhythm method for natural family planning" Url="http://www.mayoclinic.com/health/rhythm-method/MY01003" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,348 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00599
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hand-foot-and-mouth-disease/DS00599
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-26
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="4344" Title="Hand-foot-and-mouth disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EF97DBA8-2C21-4B6A-8990F0CD10B3391B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hand-foot-and-mouth disease
+			</MetaKeyword>
+			<MetaKeyword>
+				HFM disease
+			</MetaKeyword>
+			<MetaKeyword>
+				HFMD
+			</MetaKeyword>
+			<MetaKeyword>
+				hand-foot-mouth disease
+			</MetaKeyword>
+			<MetaKeyword>
+				coxsackievirus
+			</MetaKeyword>
+			<MetaKeyword>
+				coxsackie virus
+			</MetaKeyword>
+			<MetaKeyword>
+				enterovirus
+			</MetaKeyword>
+			<MetaKeyword>
+				enteroviral
+			</MetaKeyword>
+			<MetaKeyword>
+				virus
+			</MetaKeyword>
+			<MetaKeyword>
+				viral infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hand-foot-and-mouth disease &amp;mdash; a mild, contagious viral infection common in young children &amp;mdash; is characterized by sores in the mouth and a rash on the hands and feet. Hand-foot-and-mouth disease is most commonly caused by a coxsackievirus. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no specific treatment for hand-foot-and-mouth disease. You can reduce your risk of infection from hand-foot-and-mouth disease by practicing good hygiene, such as washing your hands often and thoroughly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hand-foot-and-mouth disease may cause some or all of the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Feeling of being unwell (malaise)&lt;/li&gt;
+	&lt;li&gt;Painful, red, blister-like lesions on the tongue, gums and inside of the cheeks&lt;/li&gt;
+	&lt;li&gt;A red rash, without itching but sometimes with blistering, on the palms, soles and sometimes the buttocks&lt;/li&gt;
+	&lt;li&gt;Irritability in infants and toddlers&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The usual period from initial infection to the onset of signs and symptoms (incubation period) is three to seven days. A fever is often the first sign of hand-foot-and-mouth disease, followed by a sore throat and sometimes a poor appetite and malaise. One or two days after the fever begins, painful sores may develop in the mouth or throat. A rash on the hands and feet and possibly on the buttocks can follow within one or two days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Hand-foot-and-mouth disease is usually a minor illness causing only a few days of fever and relatively mild signs and symptoms. Contact your doctor, however, if mouth sores or a sore throat keep your child from drinking fluids. Contact your doctor also if after a few days, your child&apos;s signs and symptoms worsen. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of rash on the hand caused by hand-foot-and-mouth disease 
+" Caption="Hand-foot-and-mouth disease often causes a rash of painful, red, blister-like lesions on the palms of the hands. 
+" Height="60" Title="Hand-foot-and-mouth disease on the hand" URI="/images/image_popup/thumbs/r7_hfmd_handthu.jpg" Width="60" />
+				<Image Alt="Photo of rash on the hand caused by hand-foot-and-mouth disease 
+" Caption="Hand-foot-and-mouth disease often causes a rash of painful, red, blister-like lesions on the palms of the hands. 
+" Height="400" Title="Hand-foot-and-mouth disease on the hand" URI="/images/image_popup/r7_hfmd_hand.jpg" Width="400" />
+				<HTML>
+					Hand-foot-and-mouth disease often causes a rash of painful, red, blister-like lesions on the palms of the hands. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of rash on the foot caused by hand-foot-and-mouth disease 
+" Caption="Hand-foot-and-mouth disease often causes a rash of painful, red, blister-like lesions on the soles of the feet. 
+" Height="60" Title="Hand-foot-and-mouth disease on the foot" URI="/images/image_popup/thumbs/r7_hfmd_footthu.jpg" Width="60" />
+				<Image Alt="Photo of rash on the foot caused by hand-foot-and-mouth disease 
+" Caption="Hand-foot-and-mouth disease often causes a rash of painful, red, blister-like lesions on the soles of the feet. 
+" Height="400" Title="Hand-foot-and-mouth disease on the foot" URI="/images/image_popup/r7_hfmd_foot.jpg" Width="400" />
+				<HTML>
+					Hand-foot-and-mouth disease often causes a rash of painful, red, blister-like lesions on the soles of the feet. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common cause of hand-foot-and-mouth disease is infection with the coxsackievirus A16. The coxsackievirus belongs to a group of viruses called nonpolio enteroviruses. Other enteroviruses sometimes cause hand-foot-and-mouth disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Oral ingestion is the main source of coxsackievirus infection and hand-foot-and-mouth disease. The illness spreads by person-to-person contact with an infected person&apos;s: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nasal secretions or throat discharge&lt;/li&gt;
+	&lt;li&gt;Saliva&lt;/li&gt;
+	&lt;li&gt;Fluid from blisters&lt;/li&gt;
+	&lt;li&gt;Stool&lt;/li&gt;
+	&lt;li&gt;Respiratory droplets sprayed into the air after a cough or sneeze&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Common in child care setting&lt;/strong&gt; &lt;br /&gt;
+Hand-foot-and-mouth disease is most common in children in child care settings because of frequent diaper changes and potty training, and because little children often put their hands in their mouths. 
+&lt;/p&gt;
+&lt;p&gt;
+Although your child is most contagious with hand-foot-and-mouth disease during the first week of the illness, the virus can remain in his or her body for weeks after the signs and symptoms are gone. That means your child still can infect others. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people, particularly adults, can pass the virus without showing any signs or symptoms of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Outbreaks of the disease are more common in summer and autumn in the United States and other temperate climates. In tropical climates, outbreaks occur year-round. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Different from foot-and-mouth disease&lt;/strong&gt; &lt;br /&gt;
+Hand-foot-and-mouth disease isn&apos;t related to foot-and-mouth disease (sometimes called hoof-and-mouth disease), which is an infectious viral disease found in farm animals. You can&apos;t contract hand-foot-and-mouth disease from pets or other animals, and you can&apos;t transmit it to them. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hand-foot-and-mouth disease primarily affects children younger than age 10. Children in child care centers are especially susceptible to outbreaks of hand-foot-and-mouth disease because the infection spreads by person-to-person contact, and young children are the most susceptible. 
+&lt;/p&gt;
+&lt;p&gt;
+Children usually develop immunity to hand-foot-and-mouth disease as they get older by building antibodies after exposure to the virus that causes the disease. However, it&apos;s possible for adolescents and adults to get the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common complication of hand-foot-and-mouth disease is dehydration. The illness can cause sores in the mouth and throat, making swallowing painful and difficult. Watch closely to make sure your child frequently sips fluid during the course of the illness. If dehydration is severe, intravenous (IV) fluids may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Hand-foot-and-mouth disease is usually a minor illness causing only a few days of fever and relatively mild signs and symptoms. However, a rare and sometimes serious form of the coxsackievirus can involve the brain and cause other complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Viral meningitis.&lt;/strong&gt; This is an infection and inflammation of the membranes (meninges) and cerebrospinal fluid surrounding the brain and spinal cord. Viral meningitis is usually mild and often clears on its own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encephalitis.&lt;/strong&gt; This severe and potentially life-threatening disease involves brain inflammation caused by a virus. Encephalitis is rare.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you take your child to a doctor, make the most of your time by writing down information the doctor will need before you go, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Any signs and symptoms your child is experiencing&lt;/li&gt;
+	&lt;li&gt;How long your child has been having signs and symptoms&lt;/li&gt;
+	&lt;li&gt;Whether your child has been in child care or other environments where the disease might be spread&lt;/li&gt;
+	&lt;li&gt;Any questions you have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some questions you might want to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the likely cause of the symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will my child need to undergo any tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment approach?&lt;/li&gt;
+	&lt;li&gt;Is there a need to take medicine?&lt;/li&gt;
+	&lt;li&gt;What can I do at home to make my child more comfortable?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Some questions the doctor may ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did symptoms first begin?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child recently been exposed to anyone who was sick?&lt;/li&gt;
+	&lt;li&gt;Have you heard of any illnesses at your child&apos;s school or day care?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve the symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything appear to worsen the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+To help lessen discomfort, doctors often recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Getting rest&lt;/li&gt;
+	&lt;li&gt;Drinking fluids &amp;mdash; milk-based fluids may be easier to tolerate than acidic liquids, such as juice or soda&lt;/li&gt;
+	&lt;li&gt;Taking over-the-counter pain relievers other than aspirin, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others), if needed, but they&apos;re not necessary for low-grade fevers&lt;/li&gt;
+	&lt;li&gt;Using mouthwash or oral spray to numb pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely be able to distinguish hand-foot-and-mouth disease from other types of viral infections by evaluating: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The age of the affected person&lt;/li&gt;
+	&lt;li&gt;The pattern of signs and symptoms&lt;/li&gt;
+	&lt;li&gt;The appearance of the rash or sores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A throat swab or stool specimen may be taken and sent to the laboratory to determine which virus caused the illness. However, your doctor probably won&apos;t need this type of testing to diagnose hand-foot-and-mouth disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific treatment for hand-foot-and-mouth disease. Signs and symptoms of hand-foot-and-mouth disease usually clear up in seven to 10 days. 
+&lt;/p&gt;
+&lt;p&gt;
+A topical oral anesthetic may help relieve the pain of mouth sores. Over-the-counter pain medications other than aspirin, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others), may help relieve general discomfort. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain foods and beverages may irritate blisters on the tongue or in the mouth or throat. Try these tips to help make blister soreness less bothersome and eating and drinking more tolerable: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Suck on ice pops or ice chips&lt;/li&gt;
+	&lt;li&gt;Eat ice cream or sherbet&lt;/li&gt;
+	&lt;li&gt;Drink cold beverages, such as milk or ice water&lt;/li&gt;
+	&lt;li&gt;Avoid acidic foods and beverages, such as citrus fruits, fruit drinks and soda&lt;/li&gt;
+	&lt;li&gt;Avoid salty or spicy foods&lt;/li&gt;
+	&lt;li&gt;Eat soft foods that don&apos;t require much chewing&lt;/li&gt;
+	&lt;li&gt;Rinse your mouth with warm water after meals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child is able to rinse without swallowing, swishing the inside of his or her mouth with warm salt water may be soothing. Mix 1/2 teaspoon (2.5 milliliters) of salt with 1 cup (237 milliliters) of warm water. Have your child rinse with this solution several times a day, or as often as needed to help reduce the pain and inflammation of mouth and throat sores caused by hand-foot-and-mouth disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain precautions can help to reduce the risk of infection with hand-foot-and-mouth disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash hands carefully.&lt;/strong&gt; Be sure to wash your hands frequently and thoroughly, especially after using the toilet or changing a diaper, and before preparing food and eating. When soap and water aren&apos;t available, use hand wipes or gels treated with germ-killing alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disinfect common areas.&lt;/strong&gt; Get in the habit of cleaning high-traffic areas and surfaces first with soap and water, then with a diluted solution of chlorine bleach, approximately 1/4 cup (59 milliliters) of bleach to 1 gallon (3.79 liters) of water. Child care centers should follow a strict schedule of cleaning and disinfecting all common areas, including shared items such as toys, as the virus can live on these objects for days. Clean your baby&apos;s pacifiers often.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Teach good hygiene.&lt;/strong&gt; Show your children how to practice good hygiene and how to keep themselves clean. Explain to them why it&apos;s best not to put their fingers, hands or any other objects in their mouths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Isolate contagious people.&lt;/strong&gt; Because hand-foot-and-mouth disease is highly contagious, people with the illness should limit their exposure to others while they have active signs and symptoms. Keep children with hand-foot-and-mouth disease out of child care or school until fever is gone and mouth sores have healed. If you have the illness, stay home from work.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hand-foot-and-mouth disease
+	</Title>
+	<Abstract>
+		Hand-foot-and-mouth disease &amp;mdash; Comprehensive overview covers symptoms, treatment of this highly contagious viral infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+	</RelatedLinksBox>
+</Disease>

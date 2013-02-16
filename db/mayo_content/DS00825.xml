@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00825
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hirschsprungs-disease/DS00825
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-11
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="2130" Title="Hirschsprung&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A9B493F1-E7FF-0DBD-1B65EACAF587EA4D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Hirschprung&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hirschsprungs disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hirschsprung disease
+			</MetaKeyword>
+			<MetaKeyword>
+				megacolon
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hirschsprung&apos;s (HERSH-sproongz) disease is a condition that affects the large intestine (colon) and causes problems with passing stool. Hirschsprung&apos;s disease is present when a baby is born (congenital) and results from missing nerve cells in the muscles of a portion of the baby&apos;s colon. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with Hirschsprung&apos;s disease are often constipated. In severe cases of Hirschsprung&apos;s disease, a newborn child experiences an obstructed colon and is unable to have a bowel movement. In mild cases, doctors may not detect Hirschsprung&apos;s disease until later in a child&apos;s life. 
+&lt;/p&gt;
+&lt;p&gt;
+Hirschsprung&apos;s disease is treated with surgery to remove the affected portion of the colon. After surgery, most children pass stool normally. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms may vary with the severity of the condition. Sometimes they appear right after a baby is born. Other times they may not be apparent until later in life. 
+&lt;/p&gt;
+&lt;p&gt;
+In newborns, signs may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Failure to pass stool within the first or second day of life&lt;/li&gt;
+	&lt;li&gt;Vomiting, including vomiting a green or brown substance&lt;/li&gt;
+	&lt;li&gt;Constipation or gas, which may make a newborn fussy&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In older children, signs can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swollen abdomen&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Gas&lt;/li&gt;
+	&lt;li&gt;Lack of weight gain&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes Hirschsprung&apos;s disease. Doctors know that Hirschsprung&apos;s disease occurs when nerve cells that surround the colon don&apos;t form completely. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, as a baby grows in the womb, bundles of nerve cells (ganglia) begin to form between the muscle layers along the length of the colon. This process begins at the top of the colon and ends at the bottom (rectum). In children with Hirschsprung&apos;s disease, this process does not finish, and the ganglia do not form normally along the entire length of the colon. Sometimes the cells are missing from only a few centimeters of the colon. Other times a longer portion may be affected. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of Hirschsprung&apos;s disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Having a sibling with Hirschsprung&apos;s disease.&lt;/strong&gt; Because Hirschsprung&apos;s disease can be inherited, if you have one child with the disease, your future children also may be at risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Hirschsprung&apos;s disease is more common in males.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having other inherited conditions.&lt;/strong&gt; Hirschsprung&apos;s disease is associated with certain inherited conditions, such as inherited heart problems and Down syndrome. It may also be associated with multiple endocrine neoplasia, type IIB &amp;mdash; a syndrome that causes noncancerous tumors in the mucous membranes and adrenal glands (located above the kidneys) and cancer of the thyroid gland (located at the base of the neck). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your child&apos;s doctor if your child has signs or symptoms that worry you. You may be referred to a digestive disorders specialist called a gastroenterologist or to an emergency department if your child&apos;s symptoms are severe. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your child&apos;s appointment. Here&apos;s some information to help you get ready, and what to expect from the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything your child needs to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child is experiencing,&lt;/strong&gt; including details about how often your child has a bowel movement and what his or her stools are like.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent changes in your child&apos;s life. Also include your child&apos;s diet and exercise habits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your child&apos;s key medical information,&lt;/strong&gt; including other conditions he or she is being treated for and the names of any medications, vitamins or supplements your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your child&apos;s doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For Hirschsprung&apos;s disease, some basic questions to ask your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my child&apos;s symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Do you think my child&apos;s condition is temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you recommend surgery, what should I expect from my child&apos;s recovery?&lt;/li&gt;
+	&lt;li&gt;What is the risk of complications from surgery?&lt;/li&gt;
+	&lt;li&gt;What is my child&apos;s long-term prognosis after surgery?&lt;/li&gt;
+	&lt;li&gt;Will my child need to follow a special diet?&lt;/li&gt;
+	&lt;li&gt;Are there any other restrictions that my child will need to follow?&lt;/li&gt;
+	&lt;li&gt;My child has these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your child first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms stayed the same or gotten worse?&lt;/li&gt;
+	&lt;li&gt;How often does your child have a bowel movement?&lt;/li&gt;
+	&lt;li&gt;Are your child&apos;s bowel movements painful?&lt;/li&gt;
+	&lt;li&gt;Are your child&apos;s stools loose? Do they contain blood?&lt;/li&gt;
+	&lt;li&gt;Has your child been vomiting?&lt;/li&gt;
+	&lt;li&gt;Does your child tire easily?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone else in your family been diagnosed with Hirschsprung&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;What medications is your child taking?&lt;/li&gt;
+	&lt;li&gt;Is there any history of thyroid, parathyroid or glandular disease in your family?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Call your child&apos;s doctor immediately if your child shows any signs of intestinal infection or blockage, such as fever, a swollen abdomen, vomiting, diarrhea, bleeding from the rectum or fatigue. Talk to your child&apos;s doctor before making any changes to your child&apos;s diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether Hirschsprung&apos;s disease is present, your child&apos;s doctor may conduct one or all of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal X-ray.&lt;/strong&gt; If Hirschsprung&apos;s is present, as stool backs up in the colon, the X-ray may reveal decreased air in the colon or areas in which the colon has stretched wider than normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray using a contrast dye.&lt;/strong&gt; A barium enema uses a contrast dye to help your doctor evaluate the entire colon with an X-ray. Barium or another contrast dye is placed into the bowel in an enema form. The barium fills and coats the lining of the bowel, creating a clear silhouette of the colon and rectum. Air may also be added to provide better contrast on the X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Measuring control of the muscles around the rectum.&lt;/strong&gt; A manometry test is typically done on older children and adults. During the manometry test, the doctor inflates a balloon inside the rectum. The surrounding muscle should relax as a result. If it doesn&apos;t, Hirschsprung&apos;s disease may be the cause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of colon tissue for testing.&lt;/strong&gt; Biopsy is a procedure to remove a sample of tissue for laboratory testing. A biopsy sample can be collected using a suction device and is done on an outpatient basis, meaning it doesn&apos;t require a hospital stay.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Hirschsprung&apos;s disease is treated with surgery to remove the portion of the colon that has no ganglia cells. The remaining portions of the colon and rectum are then joined, so that waste can leave the body normally. Surgery for Hirschsprung&apos;s disease is often done in one step immediately after diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+In children who are very ill, a doctor may choose to complete the process in two steps. First, the doctor will remove the abnormal portion of the colon without ganglia cells and perform an ostomy. This involves creating a small hole (stoma) in the child&apos;s abdomen and connecting the top, healthy portion of the colon to the stoma. Stool then leaves the body through the stoma into a bag that attaches to it, allowing the lower part of the colon to heal. A stoma bag must be emptied several times a day. Ostomy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ileostomy.&lt;/strong&gt; In ileostomy, the doctor removes the entire colon and connects the small intestine to the stoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colostomy.&lt;/strong&gt; In colostomy, the doctor leaves part of the colon and attaches this to the stoma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After allowing time for the child to recover from the first surgery, the doctor will perform another procedure to close up the stoma and connect the healthy portion of the intestine to the rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Results of surgery&lt;/strong&gt; &lt;br /&gt;
+After surgery, most children pass stool normally. Some may experience diarrhea initially, but after some time stool will become more solid. Toilet training may take longer because some children have difficulty coordinating the muscles used to pass stool. This improves with time in most children. Constipation may continue in some children, although laxatives can help. Eating high-fiber foods also can help with diarrhea and constipation. 
+&lt;/p&gt;
+&lt;p&gt;
+A child is also at risk of developing enterocolitis in his or her colon or small intestine after surgery. Be aware of signs and symptoms of enterocolitis, and call the doctor immediately if any of these occur: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding from the rectum&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Swollen abdomen&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children may experience constipation after surgery to correct Hirschsprung&apos;s disease. You can help manage constipation by having your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat high-fiber foods.&lt;/strong&gt; If your child eats solid foods, include high-fiber foods as part of your child&apos;s diet. For instance, choose whole grains, such as whole-wheat bread. Reduce servings of refined grains, such as white bread. Encourage your child to eat fruits and vegetables. High-fiber foods as part of your child&apos;s diet may help control constipation. But a sudden increase in high-fiber foods can make constipation worse, so add high-fiber foods slowly. If your child isn&apos;t eating solid foods yet, ask your doctor about formulas that may help relieve constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase fluids.&lt;/strong&gt; Encourage your child to drink more water. Children with Hirschsprung&apos;s disease may have an increased risk of dehydration, since the colon absorbs water from food in the last stages of digestion. If a portion of your child&apos;s colon was removed, your child may have trouble absorbing enough water. Drinking more water can help your child stay hydrated, which may help ease constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your child&apos;s doctor about medications and laxatives.&lt;/strong&gt; Your child may find relief from constipation with the use of certain laxative medications. Ask your doctor about the risks and benefits of laxatives for your child.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hirschsprung&apos;s disease
+	</Title>
+	<Abstract>
+		Hirschsprung&apos;s disease &amp;mdash; Comprehensive overview covers diagnosis, treatment of this serious problem with passing stool.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,409 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00304
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tension-headache/DS00304
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-08
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="1759" Title="Tension" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			12EEA09E-F32B-4A0A-A63C51F6CCFB30B9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tension headache
+			</MetaKeyword>
+			<MetaKeyword>
+				headache
+			</MetaKeyword>
+			<MetaKeyword>
+				tension-type headache
+			</MetaKeyword>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic headache
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic headaches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tension headache is generally a diffuse, mild to moderate pain that&apos;s often described as feeling like a tight band around your head. A tension headache &amp;mdash; or tension-type headache as it&apos;s medically known &amp;mdash; is the most common type of headache, and yet its causes aren&apos;t well understood. 
+&lt;/p&gt;
+&lt;p&gt;
+It may feel as if muscle contractions are responsible for your head pain, which is why this type of headache is generally referred to as a tension-type headache, though experts no longer think muscle contractions are the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, effective treatments for tension headaches are available. Managing a tension headache is often a balance between fostering healthy habits, finding effective nondrug treatments and using medications appropriately.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a tension headache include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dull, aching head pain&lt;/li&gt;
+	&lt;li&gt;The sensation of tightness or pressure across your forehead or on the sides and back of your head&lt;/li&gt;
+	&lt;li&gt;Tenderness on your scalp, neck and shoulder muscles&lt;/li&gt;
+	&lt;li&gt;Occasionally, loss of appetite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A tension headache can last from 30 minutes to an entire week. You may experience these headaches only occasionally, or nearly all the time. If your headaches occur 15 or more days a month for at least three months, they&apos;re considered chronic. If you have headaches that occur fewer than 15 times in a month, your headaches are considered episodic. However, people with frequent episodic headaches are at a higher risk of developing chronic headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+The headache is usually described as mild to moderately intense. The severity of the pain varies from one person to another, and from one headache to another in the same person. 
+&lt;/p&gt;
+&lt;p&gt;
+Tension headaches can sometimes be difficult to distinguish from migraines, but unlike some forms of migraine, tension headache usually isn&apos;t associated with visual disturbances (blind spots or flashing lights), nausea, vomiting, abdominal pain, weakness or numbness on one side of the body, or slurred speech. And, while physical activity typically aggravates migraine pain, it doesn&apos;t make tension headache pain worse. An increased sensitivity to light or sound can occur with a tension headache, but these aren&apos;t common symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;Make an appointment with your doctor&lt;br /&gt;
+&lt;/strong&gt;If tension headache disrupts your life or you find that you need to take medication for your headaches more than twice a week, make an appointment to see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if you have a history of headaches, see your doctor if the pattern changes or your headaches suddenly feel different. Occasionally, headaches may indicate a serious medical condition, such as a brain tumor or rupture of a weakened blood vessel (aneurysm). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek emergency help&lt;br /&gt;
+&lt;/strong&gt;If you have any of these signs or symptoms, seek emergency care: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abrupt, severe headache, which may be like a thunderclap&lt;/li&gt;
+	&lt;li&gt;Headache with a fever, stiff neck, mental confusion, seizures, double vision, weakness, numbness or speaking difficulties&lt;/li&gt;
+	&lt;li&gt;Headache after a head injury, especially if the headache gets worse&lt;/li&gt;
+	&lt;li&gt;Chronic, progressive headache that is precipitated by coughing, exertion, straining or a sudden movement&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<Flash Height="510" ObjectID="AC3A4ADD-E7FF-0DBD-19AA739EA5137322" URI="/flash/popup/headachetypes.swf" Width="410">
+				<Title>
+					Common types of headaches
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause or causes of tension headache are unknown. Experts used to think that the pain of tension headache stemmed from muscle contraction in the face, neck and scalp, perhaps as a result of heightened emotions, tension or stress. But research suggests that there doesn&apos;t appear to be a significant increase in muscle tension in people diagnosed with tension headache. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common theories support interference or &quot;mixed signals&quot; involving nerve pathways to the brain, which is demonstrated by a heightened sensitivity to pain in people who have tension headaches. Increased muscle tenderness, a common symptom of tension headache, may be the result of overactive pain receptors.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Triggers&lt;br /&gt;
+&lt;/strong&gt;It&apos;s likely other factors also contribute to the development of tension headaches. Potential triggers may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Depression and anxiety&lt;/li&gt;
+	&lt;li&gt;Poor posture&lt;/li&gt;
+	&lt;li&gt;Working in awkward positions or holding one position for a long time&lt;/li&gt;
+	&lt;li&gt;Jaw clenching&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for tension headache include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Being a woman.&lt;/strong&gt; One study found that almost 90 percent of women and about 70 percent of men experience tension headaches during their lifetimes.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Being middle-aged.&lt;/strong&gt; The incidence of tension headaches appears to peak in the 40s, though people of all ages can get this type of headache.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because tension headaches are so common, their effect on job productivity and overall quality of life is considerable. The frequent pain may make you feel unable to attend family and social activities. You might need to stay home from work, or if you do go to your job, you often work at only a fraction of your normal efficiency.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, you may be referred to a neurologist, a doctor who specializes in treating nervous system disorders, such as headache. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking, and share this information with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions may help you make the most of your time together. List your questions from most important to least important in case time runs out. For tension headaches, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of headache do you think I&apos;m experiencing?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? What will these tests rule out?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;What are common side effects to the medications you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will likely ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any common triggers, such as a stressful situation or when you&apos;ve missed a meal?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;How long does each headache last?&lt;/li&gt;
+	&lt;li&gt;How often do you have headaches?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you&apos;re waiting to see your doctor, you can take an over-the-counter painkiller, such as ibuprofen (Advil, Motrin IB, others) or acetaminophen (Tylenol, others) to temporarily relieve the pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Keep a headache diary.&lt;/strong&gt; One of the most helpful things you can do is keep a headache diary. Each time you get a headache, jot down these details that may help your doctor diagnose your particular kind of headache and discover possible headache triggers. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Date.&lt;/strong&gt; Charting the date and time of each headache can help you recognize patterns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Duration.&lt;/strong&gt; How long did your headache last?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intensity.&lt;/strong&gt; Rate your headache pain on a scale from 1 to 10, with 10 being the most severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Triggers.&lt;/strong&gt; List possible triggers that may have caused your headache, such as certain foods, physical activities, noise, stress, smoke, bright lights, a menstrual cycle, changes in temperature or altitude, strong odors, or oversleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms.&lt;/strong&gt; Did you experience any preceding symptoms?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; What medications have you taken? List any, including dosage, even if they&apos;re unrelated to your headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relief.&lt;/strong&gt; Have you experienced any pain relief, from complete to moderate to none?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have chronic or recurrent headaches, your doctor may try to pinpoint the type and cause of your headaches using these approaches: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your pain description&lt;br /&gt;
+&lt;/strong&gt;Your doctor can learn a lot about your headaches from a description of your pain. Be sure to include these details: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The characteristics of your pain.&lt;/strong&gt; Does your pain have a pulsating quality? Or is it constant and dull? Sharp or stabbing?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The intensity of your pain.&lt;/strong&gt; A good indicator of the severity of your headache is how much you&apos;re able to function while you have it. Are you incapacitated? Or are you still able to work? Do your headaches wake you up or prevent you from sleeping?&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The location of your pain.&lt;/strong&gt; Do you feel pain all over your head? On only one side of your head? Or just your forehead or behind your eyes? This information may help your doctor determine the best way to treat your headache.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;If you have unusual or complicated headaches, your doctor may order tests to rule out serious causes of head pain, such as a tumor or an aneurysm. Two common tests used to image your brain include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A CT scan is a diagnostic imaging procedure that uses a series of computer-directed X-rays to provide a comprehensive view of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) scans.&lt;/strong&gt; An MRI doesn&apos;t use X-rays. Instead, it combines a magnetic field, radio waves and computer technology to produce clear images.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with tension headaches don&apos;t seek medical attention and try to treat the pain on their own. The problem with that is that repeated use of over-the-counter (OTC) pain relievers can actually cause overuse headaches.
+&lt;/p&gt;
+&lt;p&gt;
+A variety of medications, both OTC and prescription, are available to stop or reduce the pain of an existing headache attack, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Simple OTC pain relievers are usually the first line of treatment for reducing headache pain. These include the drugs aspirin, ibuprofen (Advil, Motrin IB, others) and naproxen sodium (Aleve). Prescription medications include naproxen (Naprosyn), indomethacin (Indocin) and ketorolac (Ketorolac Tromethamine). Acetaminophen (Tylenol, others) may be less effective in treating tension headache pain, and more likely to cause medication overuse headaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Combination medications.&lt;/strong&gt;&lt;em&gt; &lt;/em&gt;Aspirin or acetaminophen or both are often combined with caffeine or a sedative drug in a single medication. For example, Excedrin combines aspirin, acetaminophen and caffeine. Combination drugs may be more effective than are single-ingredient pain relievers. Although many combination drugs are available OTC, those containing sedatives can be obtained only by prescription because they may be addictive and can lead to chronic daily headache. Use them only with careful monitoring by your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Triptans and narcotics.&lt;/strong&gt; For people who experience both migraines and episodic tension headaches, a triptan can effectively relieve the pain of both headaches. Studies have shown that the injectable form of sumatriptan (Imitrex, Sumavel Dosepro), a common migraine medication, may also relieve symptoms of chronic tension headache. Opiates, or narcotics, are rarely used because of their side effects and potential for dependency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pain medications don&apos;t cure headaches; they just relieve the symptoms temporarily. Over time, painkillers and other medications may lose their effectiveness or they might even cause headaches. To avoid the development of medication overuse headaches, don&apos;t use over-the-counter pain relievers for more than nine days a month. In addition, all medications have side effects. If you take medications regularly, including products you buy over-the-counter, discuss the risks and benefits with your doctor. Also, remember that pain medications aren&apos;t a substitute for recognizing and dealing with the stressors that may be triggering your headaches.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive medications&lt;br /&gt;
+&lt;/strong&gt;Certain medications taken at regular intervals may reduce the frequency and severity of attacks. Your doctor may prescribe these if you have frequent headaches or have tension headaches that aren&apos;t relieved by pain medication and nondrug therapy such as stress management. Your doctor may also recommend preventive medication if your headache pain becomes disabling or causes you to overuse pain medication, or if you can&apos;t take pain medication because of other medical conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors may prescribe antidepressants to prevent tension headache, especially the chronic form. These drugs aren&apos;t painkillers. Rather, they work to stabilize the levels of brain chemicals such as serotonin, which may be involved in the development of a headache. You don&apos;t have to have depression in order to use these drugs.
+&lt;/p&gt;
+&lt;p&gt;
+Preventive medications may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tricyclic antidepressants.&lt;/strong&gt; Tricyclic antidepressants, including amitriptyline and nortriptyline (Pamelor), are the most commonly used medications to prevent tension headache. They&apos;re effective against both the episodic and chronic forms. Side effects of these medications may include weight gain, drowsiness and dry mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Selective serotonin reuptake inhibitors (SSRIs).&lt;/strong&gt; Antidepressants such as paroxetine (Paxil), venlafaxine (Effexor, Venlafaxine HCL Er) and fluoxetine (Prozac, Sarafem, others) produce fewer side effects than do the tricyclic antidepressants but generally aren&apos;t considered effective for tension headaches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsants and muscle relaxants.&lt;/strong&gt; Other medications that may prevent tension headache include anticonvulsants, such as topiramate (Topamax) and gabapentin (Neurontin), and muscle relaxants, such as tizanidine (Zanaflex).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preventive medications may require several weeks or more to build up in your nervous system before they take effect. So don&apos;t get frustrated if you haven&apos;t seen improvements shortly after you begin taking the drug &amp;mdash; it may take a couple of months or longer. Also be aware that overusing caffeine or painkillers for acute relief may reduce the effect of a preventive drug. 
+&lt;/p&gt;
+&lt;p&gt;
+To obtain the greatest benefit from preventive medication, keep your use of acute pain relievers to a minimum. Your doctor will monitor your treatment to see how the preventive medication is working. If your headaches are under control, your dose of medication may be reduced gradually over time.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rest, ice packs or a long, hot shower may be all you need to relieve a tension headache. A variety of strategies can help reduce the severity and frequency of chronic tension headaches without using medicine. This approach can be a vital part of any treatment plan for headache. Try some of the following suggestions to see which work best for you.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Manage your stress level.&lt;/strong&gt; Stress is a commonly reported trigger for tension headache. One way to help reduce stress is by planning ahead and organizing your day. Another way is to allow more time to relax. And if you&apos;re caught in a stressful situation, consider stepping back and allowing emotions to settle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go hot or cold.&lt;/strong&gt; Applying heat or ice to sore muscles may ease a tension headache. Which treatment to apply is a matter of personal preference. Some people find heat more effective, while others prefer cold. If heat is your choice, you may use a heating pad set on low, a hot-water bottle, a warm compress or a hot towel. A hot bath or shower also may help. If cold is your choice, wrap an ice pack in a cloth before use to protect your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perfect your posture.&lt;/strong&gt; Good posture can help keep your muscles from tensing up. It places minimal strain on your muscles, ligaments, tendons and bones. Good posture supports and protects all parts of your body and allows you to move efficiently. When standing, hold your shoulders back and your head high. Pull in your abdomen and buttocks and tuck in your chin. When sitting, make sure your thighs are parallel to the ground and your head isn&apos;t slumped forward.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following nontraditional therapies may help if you have tension headache pain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Acupuncture may provide temporary relief from chronic headache pain. Acupuncture practitioners treat you using extremely thin, disposable needles that generally cause little pain or discomfort. The American Academy of Medical Acupuncture website provides referrals to medical doctors who use acupuncture in their practices.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; Massage can help reduce stress and relieve tension. It&apos;s especially effective for relieving tight, tender muscles in the back of your head, neck and shoulders. For some people, it may also provide relief from headache pain. Gently massage the muscles of your head, neck and shoulders with your fingertips. Or have someone else do the massage for you. The American Massage Therapy Association can provide referrals to licensed practitioners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deep breathing, biofeedback and behavior therapies.&lt;/strong&gt; A variety of relaxation therapies are useful in coping with tension headache, including deep breathing and biofeedback. If anxiety or depression is an issue, behavior therapy may be helpful for dealing with stress and pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with chronic pain can be extremely difficult. In addition to the physical symptoms, chronic pain can make you anxious or depressed. Ultimately, it may affect your relationships with friends and family, your productivity at work, and the overall quality of your life. 
+&lt;/p&gt;
+&lt;p&gt;
+Talking to a counselor or therapist can help you cope with the effects of chronic pain. Or you may find encouragement and understanding in a headache support group. Although support groups aren&apos;t for everyone, they can be good sources of information. Group members often know about the latest treatments and tend to share their own experiences. If you&apos;re interested, your doctor may be able to recommend a group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to regular exercise, techniques such as biofeedback training and relaxation therapy can help reduce stress. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback training.&lt;/strong&gt; This technique teaches you to control certain body responses that help reduce pain. During a biofeedback session, you&apos;re connected to devices that monitor and give you feedback on body functions such as muscle tension, heart rate and blood pressure. You then learn how to reduce muscle tension and slow your heart rate and breathing yourself. Ask your doctor whether such a program might help you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive behavioral therapy.&lt;/strong&gt; This approach also may help you learn to manage stress and may help reduce the frequency and severity of your headaches. During this type of talk therapy, a counselor helps you learn ways to view and cope with life events more positively.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other relaxation techniques.&lt;/strong&gt; These include deep breathing, yoga, meditation and progressive muscle relaxation, which is accomplished by tensing one muscle at a time, and then completely releasing the tension, until every muscle in your body is relaxed. You can learn relaxation techniques in special classes or at home using books or tapes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Using medications in conjunction with stress management techniques may be more effective than is either treatment alone in reducing your tension headaches. Additionally, living a healthy lifestyle &amp;mdash; getting enough sleep, not smoking, exercising regularly and eating healthy foods &amp;mdash; may help prevent tension headaches.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tension headache
+	</Title>
+	<Abstract>
+		Tension headache &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and prevention of this common condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00992" LinkType="Internal" ObjectID="D59A1474-8624-4FC8-AEAE2B7E08B0C426" Title="Nighttime headaches: How can I get relief?" Url="http://www.mayoclinic.com/health/nighttime-headaches/AN00992" />
+		<LinkItem ContentType="Article" DocID="HE00001" LinkType="Internal" ObjectID="B7F3D80F-2A5D-9994-E41B4454CDCB7538" Title="Headaches: Treatment depends on your diagnosis and symptoms" Url="http://www.mayoclinic.com/health/headaches/HE00001" />
+		<LinkItem ContentType="Article" DocID="HE00014" LinkType="Internal" ObjectID="AC45C6D0-E7FF-0DBD-127EEAB2533C6CD4" Title="Common headache types" Url="http://www.mayoclinic.com/health/headache-types/HE00014" />
+		<LinkItem ContentType="Article" DocID="HE00003" LinkType="Internal" ObjectID="99F213B1-2A5D-9994-E6CE49D8A51AD634" Title="Headaches and hormones: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/headaches/HE00003" />
+		<LinkItem ContentType="Disease" DocID="DS00646" LinkType="Internal" ObjectID="7A01EDDE-2A5D-9994-E9E00B18E0180C82" Title="Chronic daily headaches" Url="http://www.mayoclinic.com/health/chronic-daily-headaches/DS00646" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="HE00006" LinkType="Internal" ObjectID="CC87DF5B-2A5D-9994-E10E8F3CE35953A3" Title="Tension-type headaches: Self-care measures for relief" Url="http://www.mayoclinic.com/health/headaches/HE00006" />
+		<LinkItem ContentType="Article" DocID="HE00002" LinkType="Internal" ObjectID="99AA7BEE-2A5D-9994-E3CB19C93755C16D" Title="Headaches: Reduce stress to prevent the pain" Url="http://www.mayoclinic.com/health/headaches/HE00002" />
+	</RelatedLinksBox>
+</Disease>

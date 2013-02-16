@@ -1,0 +1,132 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01649
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/grieving-process/AN01649
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="1579" Title="End of life">
+						<Keyword MCVID="1581" Title="Grief" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			540BF73C-E7FF-0DBD-1646790B2AD42B83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				grief
+			</MetaKeyword>
+			<MetaKeyword>
+				grieving process
+			</MetaKeyword>
+			<MetaKeyword>
+				mourning
+			</MetaKeyword>
+			<MetaKeyword>
+				grieving
+			</MetaKeyword>
+			<MetaKeyword>
+				grief counseling
+			</MetaKeyword>
+			<MetaKeyword>
+				greif
+			</MetaKeyword>
+			<MetaKeyword>
+				greiving
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Crying is an important part of the grieving process for many people, but a lack of tears doesn&apos;t necessarily indicate that the grieving process has gone awry. 
+&lt;/p&gt;
+&lt;p&gt;
+Although grief is a universal human experience, your response to grief might be highly individual. In addition, many factors can affect the grieving process, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The age of the person who died&lt;/li&gt;
+	&lt;li&gt;The nature and quality of the relationship with the person who died&lt;/li&gt;
+	&lt;li&gt;The time you had to prepare for the loss&lt;/li&gt;
+	&lt;li&gt;Your own personality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s OK if you don&apos;t feel like crying. You might simply need time and space to grieve the death in your own way. It&apos;s important to make sure that you&apos;re dealing with your feelings appropriately, however. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re isolating yourself or having trouble handling your usual daily activities &amp;mdash; or you feel like crying but can&apos;t &amp;mdash; seek the help of a grief counselor or other mental health provider. A counselor might suggest various behavior therapies to help you re-establish a sense of control and direction in your life. You might find comfort through a support group. Depending on the circumstances, short-term use of antidepressants or other medications might be warranted as well. 
+&lt;/p&gt;
+&lt;p&gt;
+The grieving process commands respect and requires time. However, unresolved grief can lead to depression and other mental health problems. If you&apos;re concerned about reaching a healthy resolution to your grief, seek the professional help you deserve. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Grieving process: Is crying required?
+	</Title>
+	<Abstract>
+		Crying is often an important part of the grieving process &amp;mdash; but not always.
+	</Abstract>
+	<Question>
+		Is it possible to grieve the death of a loved one without crying?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00194" LinkType="Internal" ObjectID="6A932FE2-E7FF-0DBD-15A1B22BF9201628" Title="Cognitive behavioral therapy" Url="http://www.mayoclinic.com/health/cognitive-behavioral-therapy/MY00194" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00186" LinkType="Internal" ObjectID="470A84D0-E7FF-0DBD-14CBD2F07ED3D45E" Title="Psychotherapy" Url="http://www.mayoclinic.com/health/psychotherapy/MY00186" />
+		<LinkItem ContentType="Article" DocID="PR00098" LinkType="Internal" ObjectID="DE7A40B9-5056-4DB3-A41F7BA528851BBF" Title="Pregnancy loss: How to cope" Url="http://www.mayoclinic.com/health/pregnancy-loss/PR00098" />
+		<LinkItem ContentType="Disease" DocID="DS01023" LinkType="Internal" ObjectID="3BA7BEF0-E7FF-0DBD-1D9EBEBA8524182D" Title="Complicated grief" Url="http://www.mayoclinic.com/health/complicated-grief/DS01023" />
+		<LinkItem ContentType="Article" DocID="MY02337" LinkType="Internal" ObjectID="B3B298AB-D50E-91B3-61078FD26905C7DC" Title="Dealing with grief: Confronting painful emotions" Url="http://www.mayoclinic.com/health/grief/MY02337" />
+		<LinkItem ContentType="Article" DocID="MH00107" LinkType="Internal" ObjectID="A142418F-2A5D-9994-E9456F59CF180F6B" Title="Infant death: Grief and the path to remembrance" Url="http://www.mayoclinic.com/health/infant-death/MH00107" />
+		<LinkItem ContentType="Article" DocID="MH00036" LinkType="Internal" ObjectID="4DBCF89B-EE72-487B-AB396FAC59E1847F" Title="Grief: Coping with reminders after a loss" Url="http://www.mayoclinic.com/health/grief/MH00036" />
+		<LinkItem ContentType="Article" DocID="MH00048" LinkType="Internal" ObjectID="35568B71-C153-4323-93968861D7F9F657" Title="Suicide grief: Healing after a loved one&apos;s suicide" Url="http://www.mayoclinic.com/health/suicide/MH00048" />
+	</RelatedLinksBox>
+</Answer>

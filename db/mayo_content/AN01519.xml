@@ -1,0 +1,108 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01519
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/autism-treatment/AN01519
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="2126" Title="Pervasive developmental disorders">
+							<Keyword MCVID="2184" Title="Autism" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CED40120-E7FF-0DBD-14A574DE0840D588
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				autism
+			</MetaKeyword>
+			<MetaKeyword>
+				autism treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				autism diet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+There&apos;s no evidence that special diets are an effective autism treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Some people believe that diets that are free of a protein found in dairy products (casein) and a protein found in many grains (gluten) affect the brain development and behavior that causes autism in children. However, there&apos;s little evidence that diet triggers autism or that restricting gluten and casein improves autism symptoms. And for growing children, restrictive diets can lead to nutritional deficiencies. Research is ongoing on the effectiveness of casein- and gluten-free diets.
+&lt;/p&gt;
+&lt;p&gt;
+Autism is a complex brain disorder that has no known cure. For this reason, many frustrated parents turn to unproven alternative treatments &amp;mdash; such as restrictive diets that eliminate gluten and casein &amp;mdash; in an attempt to help their children.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re considering an alternative autism treatment, talk to your child&apos;s doctor. He or she can help you identify the treatments that are most likely to be effective for your child, as well as local resources that may provide additional support. If you decide to pursue a restrictive diet, work with a registered dietitian to create an appropriate meal plan for your child.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Autism treatment: Can special diets help?
+	</Title>
+	<Abstract>
+		There&apos;s no evidence that restrictive diets are an effective autism treatment.
+	</Abstract>
+	<Question>
+		Can special diets help children who have autism?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="CC00014" LinkType="Internal" ObjectID="F670F4E4-2C82-44A6-AFB2818FDD6A0AF2" Title="Childhood vaccines: Tough questions, straight answers" Url="http://www.mayoclinic.com/health/vaccines/CC00014" />
+		<LinkItem ContentType="Answer" DocID="AN01488" LinkType="Internal" ObjectID="30A2A979-E7FF-0DBD-1300E99DF1B248E8" Title="Autism treatment: Can chelation therapy help?" Url="http://www.mayoclinic.com/health/autism-treatment/AN01488" />
+		<LinkItem ContentType="Disease" DocID="DS00348" LinkType="Internal" ObjectID="3710611C-2A4D-4E6B-B91023AC481ECA12" Title="Autism" Url="http://www.mayoclinic.com/health/autism/DS00348" />
+	</RelatedLinksBox>
+</Answer>

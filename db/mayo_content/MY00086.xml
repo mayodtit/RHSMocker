@@ -1,0 +1,219 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00086
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/electrocardiogram/MY00086
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-24
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3122" Title="Electrocardiogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart tests
+			</MetaKeyword>
+			<MetaKeyword>
+				electrocardiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				electrocardiography
+			</MetaKeyword>
+			<MetaKeyword>
+				ECG
+			</MetaKeyword>
+			<MetaKeyword>
+				EKG
+			</MetaKeyword>
+			<MetaKeyword>
+				Holter monitor
+			</MetaKeyword>
+			<MetaKeyword>
+				Holter monitoring
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An electrocardiogram is used to monitor your heart. Each beat of your heart is triggered by an electrical impulse normally generated from special cells in the upper right chamber of your heart. An electrocardiogram &amp;mdash; also called an ECG or EKG &amp;mdash; records these electrical signals as they travel through your heart. Your doctor can use an electrocardiogram to look for patterns among these heartbeats and rhythms to diagnose various heart conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+An electrocardiogram is a noninvasive, painless test. The results of your electrocardiogram will likely be reported the same day it&apos;s performed, and your doctor will discuss them with you at your next appointment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of an electrocardiogram being performed
+" Caption="An electrocardiogram monitors your heart rhythm for problems. Electrodes are taped to your chest to record your heart&apos;s electrical signals, which cause your heart to beat. The signals are shown as waves on an attached computer monitor or printer.
+" Height="60" Title="Electrocardiogram" URI="/images/image_popup/thumbs/mcdc7_electrocardiogramthu.jpg" Width="60" />
+				<Image Alt="Illustration of an electrocardiogram being performed
+" Caption="An electrocardiogram monitors your heart rhythm for problems. Electrodes are taped to your chest to record your heart&apos;s electrical signals, which cause your heart to beat. The signals are shown as waves on an attached computer monitor or printer.
+" Height="461" Title="Electrocardiogram" URI="/images/image_popup/mcdc7_electrocardiogram.jpg" Width="400" />
+				<HTML>
+					An electrocardiogram monitors your heart rhythm for problems. Electrodes are taped to your chest to record your heart&apos;s electrical signals, which cause your heart to beat. The signals are shown as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An electrocardiogram is a painless, noninvasive way to diagnose many common types of heart problems. Your doctor may use an electrocardiogram to detect: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irregularities in your heart rhythm (arrhythmias)&lt;/li&gt;
+	&lt;li&gt;Heart defects&lt;/li&gt;
+	&lt;li&gt;Problems with your heart&apos;s valves&lt;/li&gt;
+	&lt;li&gt;Blocked or narrowed arteries in your heart (coronary artery disease)&lt;/li&gt;
+	&lt;li&gt;A heart attack, in emergency situations&lt;/li&gt;
+	&lt;li&gt;A previous heart attack&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An electrocardiogram is a safe procedure. There may be minor discomfort, similar to removing a bandage, when the electrodes taped to your chest to measure your heart&apos;s electrical signals are removed. Rarely, a reaction to the electrodes may cause redness or swelling of the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+A stress test, in which an ECG is performed while you exercise or after you take medication that mimics effects of exercise, may cause irregular heartbeats or, rarely, a heart attack. These side effects are caused by the exercise or medication, not the ECG itself. 
+&lt;/p&gt;
+&lt;p&gt;
+There isn&apos;t any risk of electrocution during an electrocardiogram. The electrodes placed on your body only record the electrical activity of your heart. They don&apos;t emit electricity. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparations are necessary. However, avoid drinking cold water or exercising immediately before an electrocardiogram. Cold water can produce potentially misleading changes in one of the electrical patterns recorded during the test. Physical activity, such as climbing stairs, may increase your heart rate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+An electrocardiogram can be done in the doctor&apos;s office or hospital, and is often performed by a technician. After changing into a hospital gown, you&apos;ll lie on an examining table or bed. Electrodes &amp;mdash; often 12 to 15 &amp;mdash; will be attached to your arms, legs and chest. The electrodes are sticky patches applied with a gel to help detect and conduct the electrical currents of your heart. If you have hair on the parts of your body where the electrodes will be placed, the technician may need to shave the hair so that the electrodes stick properly. 
+&lt;/p&gt;
+&lt;p&gt;
+You can breathe normally during the electrocardiogram. Make sure you&apos;re warm and ready to lie still, however. Moving, talking or shivering may distort the test results. A standard ECG takes just a few minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a heartbeat irregularity that tends to come and go, it may not be captured during the few minutes a standard ECG is recording. To work around this problem, your doctor may recommend another type of ECG: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitoring.&lt;/strong&gt; Also known as an ambulatory ECG monitor, a Holter monitor records your heart rhythms for an entire 24-hour period. Wires from electrodes on your chest go to a battery-operated recording device carried in your pocket or worn on a belt or shoulder strap. While you&apos;re wearing the monitor, you&apos;ll keep a diary of your activities and symptoms. Your doctor will compare the diary with the electrical recordings to try to figure out the cause of your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; If your symptoms don&apos;t occur often, your doctor may suggest wearing an event recorder. This device is similar to a Holter monitor, but it allows you to record your heart rhythm just when the symptoms are happening. You can send the ECG readings to your doctor through your phone line.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress test.&lt;/strong&gt; If your heart problems occur most often during exercise, your doctor may ask you to walk on a treadmill or ride a stationary bike during an ECG. This is called a stress test. If you have a medical condition that makes it difficult for you to walk, medication may be injected to mimic the effect of exercise on the heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+Usually, your doctor will be able to tell you the results of your ECG the same day it&apos;s performed. If your electrocardiogram is normal, you may not need any other tests. If the results show there&apos;s a problem with your heart, you may need a repeat ECG or other diagnostic tests, such as an echocardiogram. Treatment depends on what&apos;s causing your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of an electrocardiogram being performed
+" Caption="An electrocardiogram monitors your heart rhythm for problems. Electrodes are taped to your chest to record your heart&apos;s electrical signals, which cause your heart to beat. The signals are shown as waves on an attached computer monitor or printer.
+" Height="60" Title="Electrocardiogram" URI="/images/image_popup/thumbs/mcdc7_electrocardiogramthu.jpg" Width="60" />
+				<Image Alt="Illustration of an electrocardiogram being performed
+" Caption="An electrocardiogram monitors your heart rhythm for problems. Electrodes are taped to your chest to record your heart&apos;s electrical signals, which cause your heart to beat. The signals are shown as waves on an attached computer monitor or printer.
+" Height="461" Title="Electrocardiogram" URI="/images/image_popup/mcdc7_electrocardiogram.jpg" Width="400" />
+				<HTML>
+					An electrocardiogram monitors your heart rhythm for problems. Electrodes are taped to your chest to record your heart&apos;s electrical signals, which cause your heart to beat. The signals are shown as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will look for a consistent, even heart rhythm and a heart rate between 50 and 100 beats a minute. Having a faster, slower or irregular heartbeat provides clues about your heart health, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart rate.&lt;/strong&gt; Normally, heart rate can be measured by checking your pulse. But an ECG may be helpful if your pulse is difficult to feel or too fast or too irregular to count accurately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart rhythm.&lt;/strong&gt; An ECG can help your doctor identify an unusually fast heartbeat (tachycardia), unusually slow heartbeat (bradycardia) or other heart rhythm irregularities (arrhythmias). These conditions may occur when any part of the heart&apos;s electrical system malfunctions. In other cases, medications, such as beta blockers, psychotropic drugs or amphetamines, can trigger arrhythmias.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; An ECG can often show evidence of a previous heart attack or one that&apos;s in progress. The patterns on the ECG may indicate which part of your heart has been damaged, as well as the extent of the damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inadequate blood and oxygen supply to the heart.&lt;/strong&gt; An ECG done while you&apos;re having symptoms can help your doctor determine whether chest pain is caused by reduced blood flow to the heart muscle, such as with the chest pain of unstable angina.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Structural abnormalities.&lt;/strong&gt; An ECG can provide clues about enlargement of the chambers or walls of the heart, heart defects and other heart problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Electrocardiogram (ECG or EKG)
+	</Title>
+	<Abstract>
+		Electrocardiogram (ECG or EKG) &amp;mdash; Overview covers definition of this test to monitor your heartbeat.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS00505" LinkType="Internal" ObjectID="CE3BC2CF-B4C1-4401-8F0F9E0B7C284538" Title="Pericarditis" Url="http://www.mayoclinic.com/health/pericarditis/DS00505" />
+		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS00930" LinkType="Internal" ObjectID="3720EF76-E7FF-0DBD-1BBAC5E30AECE271" Title="Sick sinus syndrome" Url="http://www.mayoclinic.com/health/sick-sinus-syndrome/DS00930" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+	</RelatedLinksBox>
+</TestProcedure>

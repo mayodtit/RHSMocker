@@ -1,0 +1,216 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12373
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spiced-carrot-raisin-bread/RE12373
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-20
+		</UpdateDate>
+		<PublicationDate>
+			2012-12-20
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			455E244D-F17B-F280-5137D4C9D36D19EF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				spiced carrot raisin cake
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Spiced carrot raisin bread
+	</Title>
+	<Abstract>
+		Carrot cake is a sweet spice tea bread with grated carrot mixed into the batter.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		18
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This sweet spice tea bread has grated carrot mixed into the batter. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat oven to 375 F. Sift or whisk flour, baking soda, baking powder, salt and spices in a large bowl. 
+&lt;/p&gt;
+&lt;p&gt;
+In a separate bowl, mix eggs, sugar, honey, applesauce, olive oil and almond extract. Add carrots and raisins. 
+&lt;/p&gt;
+&lt;p&gt;
+Mix the wet ingredients into the dry ingredients just until combined, being careful not to overmix. Pour batter into a lightly greased 9-by-5-inch loaf pan and bake at 375 F for 45 to 60 minutes, until a tester inserted into the center comes out clean. Cut into 1/2-inch slices. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 1/2 cup whole-wheat pastry flour&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon baking soda&lt;/li&gt;
+	&lt;li&gt;1 1/2 teaspoons baking powder&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;1 tablespoon cinnamon&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon nutmeg&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon cloves&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon paprika or cayenne&lt;/li&gt;
+	&lt;li&gt;1 tablespoon grated lemon zest&lt;/li&gt;
+	&lt;li&gt;1/4 cup ground flaxseed&lt;/li&gt;
+	&lt;li&gt;2 eggs&lt;/li&gt;
+	&lt;li&gt;1/2 cup brown sugar&lt;/li&gt;
+	&lt;li&gt;1/4 cup honey&lt;/li&gt;
+	&lt;li&gt;1/2 cup unsweetened applesauce&lt;/li&gt;
+	&lt;li&gt;1/4 cup olive oil&lt;/li&gt;
+	&lt;li&gt;3/4 teaspoon almond extract&lt;/li&gt;
+	&lt;li&gt;2 cups shredded carrots (about 4 carrots)&lt;/li&gt;
+	&lt;li&gt;2/3 cup raisins&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				136
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				22 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				21 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				3 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 (1/2-inch thick) slice
+			</Servingsize>
+			<Sodium Label="Sodium">
+				150 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				8 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Breads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Meal">
+			Breakfast
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

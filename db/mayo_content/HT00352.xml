@@ -1,0 +1,81 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00352
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00352
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1593" Title="Common cold" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA574DCA-E7FF-0DBD-149EFCC0AF72C660
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nasal congestion
+			</MetaKeyword>
+			<MetaKeyword>
+				stuffy nose
+			</MetaKeyword>
+			<MetaKeyword>
+				decongestant nasal sprays
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal sprays
+			</MetaKeyword>
+			<MetaKeyword>
+				decongestants
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal decongestants
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Avoid rebound nasal congestion
+	</Title>
+	<Body>
+		&lt;p&gt;Decongestant nasal sprays can help reduce nasal congestion when you have a cold. But after a few days, the lining of your nose may become less responsive to the medication. You may need more and more nasal spray to control congestion. If you stop using the medication, your congestion may get worse. This is known as rebound congestion. What&apos;s the fix? If you use a decongestant nasal spray, use it for no more than three days in a row.&lt;/p&gt;
+	</Body>
+</HealthTip>

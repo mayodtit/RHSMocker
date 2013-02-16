@@ -1,0 +1,196 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00406
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00406
+		</OriginalURL>
+		<UpdateDate>
+			2008-04-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			3FFEEA9A-8A32-477F-B0ADD03D00FF58BD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Lemon rice with golden raisins and almonds
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Only the hull is removed during the processing of brown rice, so it has more fiber, vitamins and minerals than white rice does. Brown rice is also chewier and has more flavor.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 325 F. Lightly coat a baking sheet with cooking spray.&lt;/p&gt;
+
+&lt;p&gt;Spread the almonds on a baking sheet and bake, stirring occasionally, until golden and fragrant, about 10 minutes. Transfer immediately to a plate to cool.&lt;/p&gt;
+
+&lt;p&gt;Add water to the bottom of a double boiler. In the top section, place the lemon juice, lemon zest, rice, broth, onions, cinnamon, nutmeg and margarine. Heat the double boiler, stirring occasionally. Cover and simmer for 30 minutes or until the liquid is absorbed.&lt;/p&gt;
+
+&lt;p&gt;In a small saucepan, add the water and raisins. Bring to a simmer, cover and cook for 5 minutes. Add the peas and simmer an additional minute. Add the raisin and pea mixture to the rice in the double boiler and simmer until all the liquid is absorbed, about 15 to 20 minutes more.&lt;/p&gt;
+
+&lt;p&gt;Mix and fluff the rice mixture and transfer it to a serving dish. Sprinkle with toasted almonds and drizzle with honey. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1/2 cup slivered almonds, coarsely chopped&lt;br /&gt;
+3 tablespoons lemon juice&lt;br /&gt;
+2 teaspoons lemon zest&lt;br /&gt;
+1 cup uncooked brown rice&lt;br /&gt;
+1 3/4 cup unsalted chicken broth&lt;br /&gt;
+1/4 cup chopped onions&lt;br /&gt;
+1/2 teaspoon ground cinnamon&lt;br /&gt;
+1/4 teaspoon ground nutmeg&lt;br /&gt;
+1 tablespoon trans-free margarine&lt;br /&gt;
+1/3 cup water&lt;br /&gt;
+1/2 cup golden raisins&lt;br /&gt;
+1 cup frozen peas&lt;br /&gt;
+5 tablespoons honey&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				3
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				3
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				318
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				56 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				7 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				65 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				8 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Steam
+		</Category>
+		<Category CategoryLabel="Course">
+			Side dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

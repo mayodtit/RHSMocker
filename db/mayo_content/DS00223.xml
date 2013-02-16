@@ -1,0 +1,410 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00223
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thrombophlebitis/DS00223
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-28
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3140" Title="Blood clot">
+							<Keyword MCVID="1483" Title="Thrombophlebitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D27523B0-5309-466F-B6560F1319E7EB2D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thrombophlebitis
+			</MetaKeyword>
+			<MetaKeyword>
+				phlebitis
+			</MetaKeyword>
+			<MetaKeyword>
+				DVT
+			</MetaKeyword>
+			<MetaKeyword>
+				deep venous thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot in leg
+			</MetaKeyword>
+			<MetaKeyword>
+				bloodclots
+			</MetaKeyword>
+			<MetaKeyword>
+				leg blood clots
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clots in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot legs
+			</MetaKeyword>
+			<MetaKeyword>
+				deep vein
+			</MetaKeyword>
+			<MetaKeyword>
+				deep vein thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				deep vein thrombophlebitis
+			</MetaKeyword>
+			<MetaKeyword>
+				circulation
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clot
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thrombophlebitis (throm-bo-fluh-BI-tis) occurs when a blood clot causes swelling in one or more of your veins, typically in your legs. Rarely, thrombophlebitis (sometimes called phlebitis) can affect veins in your arms or neck. 
+&lt;/p&gt;
+&lt;p&gt;
+The affected vein may be near the surface of your skin, causing superficial thrombophlebitis, or deep within a muscle, causing deep vein thrombosis (DVT). A clot in a deep vein increases your risk of serious health problems, including a dislodged clot (embolus) traveling to your lungs and blocking a pulmonary artery (pulmonary embolism). Thrombophlebitis can be caused by prolonged inactivity, such as sitting for a long time or lengthy bed rest. 
+&lt;/p&gt;
+&lt;p&gt;
+Self-care methods can ease pain and reduce your risk of clots. Various treatments, including medications and surgery, are available for thrombophlebitis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing blood clot in leg vein 
+" Caption="A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+" Height="60" Title="Blood clot in leg vein" URI="/images/image_popup/thumbs/mcdc7_legbloodclotthu.jpg" Width="60" />
+				<Image Alt="Illustration showing blood clot in leg vein 
+" Caption="A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+" Height="400" Title="Blood clot in leg vein" URI="/images/image_popup/mcdc7_legbloodclot.jpg" Width="400" />
+				<HTML>
+					A blood clot in a leg vein may cause pain, warmth and tenderness in the affected area. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thrombophlebitis symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Warmth, tenderness and pain in the affected area&lt;/li&gt;
+	&lt;li&gt;Redness and swelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When a vein close to the surface of your skin is affected, you may see a red, hard and tender cord just under the surface of your skin. When a deep vein in the leg is affected, your leg may become swollen, tender and painful, most noticeably when you stand or walk. You may also have a fever. However, many people with deep vein thrombosis have no symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you have a red, swollen or tender vein &amp;mdash; especially if you have one or more risk factors for thrombophlebitis, such as being inactive for a long period of time or a family history of the clotting disorder. If vein swelling and pain are severe or you have shortness of breath or are coughing up blood, go to an emergency room. These signs and symptoms may indicate deep vein thrombosis, which increases your risk of a dislodged blood clot traveling through your veins to your lungs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of thrombophlebitis is a blood clot. Blood clots can be caused by many different things &amp;mdash; namely anything that causes your blood not to circulate properly. It&apos;s possible a blood clot that causes thrombophlebitis could be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An injury to a vein&lt;/li&gt;
+	&lt;li&gt;An inherited blood-clotting disorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Blood clots can occur for a number of reasons. One concern many people have is that blood clots can be caused by sitting for hours at a time, as when you&apos;re traveling by car or airplane. While sitting for long periods can promote a blood clot that can lead to thrombophlebitis, this occurs relatively rarely. By taking proper precautions, such as periodically stretching your legs or getting up to walk around, you can decrease your risk of developing thrombophlebitis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of thrombophlebitis increases if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are inactive for a long period of time, such as from sitting in a car or an airplane&lt;/li&gt;
+	&lt;li&gt;Are confined to bed for a prolonged time, such as after surgery, after a heart attack or after an injury, such as breaking your leg&lt;/li&gt;
+	&lt;li&gt;Have a type of cancer, such as pancreatic cancer, that may cause an increase of procoagulants &amp;mdash; substances necessary for blood clotting (coagulation) &amp;mdash; in your blood&lt;/li&gt;
+	&lt;li&gt;Have had a stroke that caused your arms or legs to be paralyzed&lt;/li&gt;
+	&lt;li&gt;Have a pacemaker or have a thin, flexible tube (catheter) in a central vein, for treatment of a medical condition, which may irritate the blood vessel wall and decrease blood flow&lt;/li&gt;
+	&lt;li&gt;Are pregnant or have just given birth, which may mean you have increased pressure in the veins of your pelvis and legs&lt;/li&gt;
+	&lt;li&gt;Use birth control pills or hormone replacement therapy, which may make your blood more likely to clot&lt;/li&gt;
+	&lt;li&gt;Have a family history of a blood-clotting disorder or a tendency to form blood clots easily&lt;/li&gt;
+	&lt;li&gt;Are overweight or obese&lt;/li&gt;
+	&lt;li&gt;Are older than 60&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The more risk factors you have, the higher your risk of thrombophlebitis. If you have one or more risk factors, be sure to discuss prevention strategies with your doctor before long periods of inactivity, such as a long flight, a long car ride or after an elective surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If thrombophlebitis is in a vein just under your skin (superficial vein), complications are rare. However, if the clot occurs in a deep vein you may develop a serious medical condition known as deep vein thrombosis. If that happens, the risk of serious complications is greater. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary embolism.&lt;/strong&gt; If part of a deep vein clot becomes dislodged, it may travel to your lungs, where it can block an artery (embolism) and cause a potentially life-threatening situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack or stroke.&lt;/strong&gt; If you have certain types of congenital heart defects that have caused a hole in your heart &amp;mdash; such as a patent foramen ovale (PFO), an atrial septal defect or a ventricular septal defect &amp;mdash; a clot traveling through your bloodstream can enter your coronary arteries or brain and cause a heart attack or stroke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Deep vein thrombosis also may damage valves in the veins in your legs. Veins have valves to prevent blood from flowing back as it is gradually pushed uphill toward your heart. When the valves in the veins of your legs don&apos;t work properly, several problems can occur: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Varicose veins.&lt;/strong&gt; The pooling of blood in your veins can cause them to balloon, resulting in varicose veins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling.&lt;/strong&gt; In some cases, the pooling may become so bad that your leg swells (edema).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin discoloration.&lt;/strong&gt; With chronic swelling and increased pressure on your skin, discoloration called stasis pigmentation may occur. In some cases, skin ulcers may develop. If you suspect a skin ulcer is forming, call your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blocked vein.&lt;/strong&gt; Deep vein thrombosis can cause a permanent blocking of blood flow in the vein.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pulmonary embolism 
+" Caption="Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+" Height="60" Title="Pulmonary embolism" URI="/images/image_popup/thumbs/mcdc7_pulmonaryembolismthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pulmonary embolism 
+" Caption="Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+" Height="296" Title="Pulmonary embolism" URI="/images/image_popup/mcdc7_pulmonaryembolism.jpg" Width="400" />
+				<HTML>
+					Pulmonary embolism occurs when blood clots (emboli) become lodged in a lung artery, blocking blood flow to lung tissue. Blood clots often originate in the legs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need to make any special preparations for a doctor appointment to diagnose thrombophlebitis. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to thrombophlebitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; especially if you have a family history of blood-clotting disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; if you&apos;ve been seated for long periods of time recently, such as traveling by car or plane. Also, if you&apos;re planning to travel and are concerned about your thrombophlebitis risk, tell your doctor about your travel plans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For thrombophlebitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity for me now that I&apos;ve been diagnosed with thrombophlebitis? What about once my clot is gone?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;What side effects can I expect with this medication?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been inactive lately, such as sitting or lying down for long periods?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of health problems related to blood clots?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Before your doctor appointment, you can begin some self-care measures. You can use a warm washcloth as a compress on the affected area, and elevate the affected leg to help with any discomfort. If you decide to take a pain reliever, such as ibuprofen (Advil, Motrin, others), be sure to tell your doctor. Medications can interact with other blood clot-dissolving medications your doctor prescribes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose thrombophlebitis, your doctor will ask you about the discomfort you&apos;ve had and then look for any affected veins near the surface of your skin. To determine whether you have superficial thrombophlebitis or deep vein thrombosis, your doctor may choose one of these tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; A wand-like device (transducer) moved over the affected area of your leg sends sound waves into your leg. As the sound waves travel through your leg tissue and reflect back, a computer transforms the waves into a moving image on a video screen. A clot may be visible in the image.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;CT or MRI scans.&lt;/strong&gt; Both computerized tomography (CT) and magnetic resonance imaging (MRI) can provide visual images of your veins and may show if a clot is present.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Almost all people who develop acute thrombosis have an elevated blood level of a clot-dissolving substance called D dimer. However, D dimer is elevated in other conditions, too. So, although a test for D dimer is very sensitive, it&apos;s not very conclusive. Currently, it&apos;s most useful for ruling out deep vein thrombosis or for identifying people at risk of developing thrombophlebitis repeatedly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If thrombophlebitis occurs in a vein just under your skin, your doctor may recommend self-care steps that include applying heat to the painful area, elevating the affected leg and using an over-the-counter nonsteroidal anti-inflammatory drug (NSAID). The condition usually doesn&apos;t require hospitalization and improves within a week or two. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also recommend these treatments for thrombophlebitis, including deep vein thrombosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood-thinning medications.&lt;/strong&gt; If you have deep vein thrombosis, injection of a blood-thinning (anticoagulant) medication, such as heparin, will prevent clots from enlarging. After the heparin treatment, taking the anticoagulant warfarin (Coumadin) for several months continues to prevent clots from enlarging. If your doctor prescribes warfarin, follow the directions for taking the medication carefully. Warfarin is a powerful medication that can cause dangerous side effects, such as excessive bleeding. Dabigatran (Pradaxa) is a newer blood-thinning option that is taken orally and may have less risk of bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clot-dissolving medications.&lt;/strong&gt; This type of treatment is known as thrombolysis. These medications, such as alteplase (Activase), dissolve blood clots and are used for extensive deep vein thrombosis or in some cases of deep vein thrombosis that also includes a blood clot in the lungs (pulmonary embolus).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support stockings.&lt;/strong&gt; These help prevent recurrent swelling and reduce the chances of complications of deep vein thrombosis. Your doctor may recommend prescription-strength support hose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Filter.&lt;/strong&gt; In some instances, especially if you can&apos;t take blood thinners, a filter may be inserted into the main vein in your abdomen (vena cava) to prevent clots that break loose in leg veins from lodging in your lungs. Typically, the filter remains implanted permanently. This procedure usually doesn&apos;t require you to stay in the hospital.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Varicose vein stripping.&lt;/strong&gt; Your doctor can surgically remove varicose veins that cause pain or recurrent thrombophlebitis in a procedure called varicose vein stripping. This procedure, typically done on an outpatient basis, involves removing a long vein through small incisions. Removing the vein won&apos;t affect circulation in your leg because veins deeper in the leg take care of the increased volumes of blood. This procedure may also be done for cosmetic reasons. After vein stripping, your doctor may recommend that you wear compression stockings as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clot removal or bypass.&lt;/strong&gt; Sometimes, surgery is necessary to remove a clot blocking a vein in your pelvis or abdomen. To treat a persistently blocked vein, your doctor may recommend surgery to bypass the vein, or a nonsurgical procedure called angioplasty to open up the vein. Once angioplasty has opened up the vein, your doctor inserts a small wire mesh tube (stent) to keep the vein open. After surgery, you may still need to take blood-thinning medication.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to medical treatments, there are some self-care measures you can take to help improve thrombophlebitis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have superficial thrombophlebitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use a warm washcloth to apply heat to the involved area several times daily&lt;/li&gt;
+	&lt;li&gt;Elevate your leg&lt;/li&gt;
+	&lt;li&gt;Use a nonsteroidal anti-inflammatory drug, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others), if recommended by your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have deep vein thrombosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take prescription anticoagulant medications as directed to prevent complications&lt;/li&gt;
+	&lt;li&gt;Elevate your leg if it&apos;s swollen&lt;/li&gt;
+	&lt;li&gt;Wear your prescription support stockings daily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re taking warfarin, ask your doctor if you need to alter your diet. Foods high in vitamin K, such as leafy green vegetables, can affect the way this medication works. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sitting during a long flight or car ride can cause swollen ankles and calves. The inactivity also increases your risk of thrombophlebitis in the veins of your legs. To help prevent a blood clot from forming: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take a walk.&lt;/strong&gt; If you&apos;re flying, walk around the airplane cabin once an hour or so. If you&apos;re driving, stop every hour or so and walk around.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you must stay seated, move your legs regularly.&lt;/strong&gt; Flex your ankles, or carefully press your feet against the floor or foot rest in front of you at least 10 times each hour.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+On flights or car rides lasting more than four hours, take additional precautions to reduce your risk of deep vein thrombosis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid wearing tight clothing around your waist.&lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids to avoid dehydration.&lt;/li&gt;
+	&lt;li&gt;Stretch your calves by walking at least once an hour.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re at increased risk of deep vein thrombosis, talk to your doctor before your flight. He or she may recommend that you use: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Compression stockings&lt;/li&gt;
+	&lt;li&gt;Any prescribed blood-thinning medication as directed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aspirin therapy is generally not recommended and could thin your blood too much if you&apos;re also taking warfarin (Coumadin). Let your doctor know if you&apos;re already taking aspirin for another reason. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="60" Title="Support stockings" URI="/images/image_popup/thumbs/mcdc7_compressionstockingsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing support stockings 
+" Caption="Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+" Height="444" Title="Support stockings" URI="/images/image_popup/mcdc7_compressionstockings.jpg" Width="326" />
+				<HTML>
+					Prescription support stockings are often used to treat swollen legs resulting from such causes as varicose veins. A stocking butler may help in putting on the stockings. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Thrombophlebitis
+	</Title>
+	<Abstract>
+		Thrombophlebitis &amp;mdash; Comprehensive overview covers symptoms, risk factors, treatment of this vein condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01304" LinkType="Internal" ObjectID="B7924F4B-2A5D-9994-E93851E2A0E09BD3" Title="Blood thinners: Can I still get blood clots?" Url="http://www.mayoclinic.com/health/blood-thinners/AN01304" />
+		<LinkItem ContentType="Answer" DocID="HQ01614" LinkType="Internal" ObjectID="70B2F4BD-5FD9-4435-8BE419B346DFAC2A" Title="Warfarin: Any harm in long-term use?" Url="http://www.mayoclinic.com/health/warfarin/HQ01614" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Article" DocID="HB00101" LinkType="Internal" ObjectID="CA0F97CB-E7FF-0DBD-16198A51C9A1D2DE" Title="Warfarin side effects: Watch for interactions" Url="http://www.mayoclinic.com/health/warfarin-side-effects/HB00101" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="Answer" DocID="AN00455" LinkType="Internal" ObjectID="56E57F1F-14D3-4F5D-99755C0AC15D4BCE" Title="Warfarin diet: What foods should I avoid?" Url="http://www.mayoclinic.com/health/warfarin/AN00455" />
+	</RelatedLinksBox>
+</Disease>

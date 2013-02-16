@@ -1,0 +1,240 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00261
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tracheostomy/MY00261
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-18
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3883" Title="Ears nose and throat">
+						<Keyword MCVID="3886" Title="Tracheostomy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5309DECB-E7FF-0DBD-184F285B0CDD719E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tracheostomy
+			</MetaKeyword>
+			<MetaKeyword>
+				tracheotomy
+			</MetaKeyword>
+			<MetaKeyword>
+				cricothyrotomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tracheostomy (tray-key-OS-tuh-me) is a surgically created hole through the front of your neck and into your windpipe (trachea). The term for the surgical procedure to create this opening is tracheotomy. 
+&lt;/p&gt;
+&lt;p&gt;
+A tracheostomy provides an air passage to help you breathe when the usual route for breathing is somehow obstructed or impaired. A tracheostomy is often needed when health problems require long-term use of a machine (ventilator) to help you breathe. In rare cases, an emergency tracheotomy is performed when your airway is suddenly blocked, such as after a traumatic injury to your face or neck. 
+&lt;/p&gt;
+&lt;p&gt;
+When a tracheostomy is no longer needed, it&apos;s allowed to heal shut or is surgically closed. For some people, a tracheostomy is permanent. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tracheostomy 
+" Caption="A tracheostomy is a procedure to create a hole into your windpipe (trachea) that allows you to breathe through the opening (stoma). A tracheostomy tube is inserted through the hole and secured in place with a strap around your neck. 
+" Height="60" Title="Tracheostomy" URI="/images/image_popup/thumbs/c7_tracheostomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tracheostomy 
+" Caption="A tracheostomy is a procedure to create a hole into your windpipe (trachea) that allows you to breathe through the opening (stoma). A tracheostomy tube is inserted through the hole and secured in place with a strap around your neck. 
+" Height="480" Title="Tracheostomy" URI="/images/image_popup/c7_tracheostomy.jpg" Width="400" />
+				<HTML>
+					A tracheostomy is a procedure to create a hole into your windpipe (trachea) that allows you to breathe through the opening (stoma). A tracheostomy tube is inserted through the hole and secured in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Situations that may call for a tracheostomy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medical conditions that require the use of a breathing machine (ventilator) for an extended period, usually more than one or two weeks&lt;/li&gt;
+	&lt;li&gt;Medical conditions that block or narrow your airway, such as vocal cord paralysis or throat cancer&lt;/li&gt;
+	&lt;li&gt;Paralysis, neurological problems or other conditions that make it difficult to cough up secretions from your throat and require direct suctioning of the windpipe (trachea) to clear your airway&lt;/li&gt;
+	&lt;li&gt;Preparation for major head or neck surgery to assist breathing during recovery&lt;/li&gt;
+	&lt;li&gt;Severe trauma to the head or neck that obstructs breathing&lt;/li&gt;
+	&lt;li&gt;Other emergency situations when breathing is obstructed and emergency personnel can&apos;t put a breathing tube through the mouth and into the trachea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency care&lt;/strong&gt;&lt;br /&gt;
+Most tracheotomies are performed in a hospital setting. However, in the case of an emergency, it may be necessary to create a hole in a person&apos;s throat when outside of a hospital, such as at the scene of an accident. 
+&lt;/p&gt;
+&lt;p&gt;
+Emergency tracheotomies are difficult to perform and have an increased risk of complications. A related and somewhat less risky procedure used in emergency care is a cricothyroidotomy. This procedure creates a hole directly into the voice box (larynx) at a site immediately below the Adam&apos;s apple (thyroid cartilage). 
+&lt;/p&gt;
+&lt;p&gt;
+Once a person is transferred to a hospital and stabilized, a cricothyroidostomy is replaced by a tracheostomy if there&apos;s a need for long-term breathing assistance. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tracheostomies are generally safe, but they do have risks. Some complications are particularly likely during or shortly after surgery. The risk of such problems greatly increases when the tracheotomy is performed as an emergency procedure. Immediate complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Damage to the trachea&lt;/li&gt;
+	&lt;li&gt;Air trapped in tissue under the skin of the neck (subcutaneous emphysema), which can cause breathing problems and damage to the trachea or food pipe (esophagus)&lt;/li&gt;
+	&lt;li&gt;Buildup of air between the chest wall and lungs (pneumothorax), which causes pain, breathing problems or lung collapse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Long-term complications are more likely the longer a tracheostomy is in place. These problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Displacement of the tracheostomy tube from the trachea&lt;/li&gt;
+	&lt;li&gt;Narrowing of the trachea&lt;/li&gt;
+	&lt;li&gt;Abnormal tissue formation in the trachea&lt;/li&gt;
+	&lt;li&gt;Obstruction of the tracheostomy tube&lt;/li&gt;
+	&lt;li&gt;Development of an abnormal passage between the trachea and esophagus (fistula), which can increase the risk of fluids or food entering the lungs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you still need a tracheostomy after you&apos;ve left the hospital, you&apos;ll need to keep regularly scheduled appointments for monitoring possible complications. You&apos;ll also receive instructions about when you should call your doctor about problems, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding at the tracheostomy site or from the trachea&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing through the tube&lt;/li&gt;
+	&lt;li&gt;Pain or a change in comfort level&lt;/li&gt;
+	&lt;li&gt;Redness&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How you prepare for a tracheostomy depends on the type of procedure you&apos;ll undergo. If you&apos;ll be receiving general anesthesia, your doctor may ask that you avoid eating and drinking for several hours before your procedure. You may also be asked to stop certain medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Plan for your hospital stay&lt;/strong&gt; &lt;br /&gt;
+After the tracheostomy procedure, you&apos;ll likely stay in the hospital for several days as your body heals. If possible, plan ahead for your hospital stay by bringing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Comfortable clothing, such as pajamas, a robe and slippers&lt;/li&gt;
+	&lt;li&gt;Personal care items, such as your toothbrush and shaving supplies&lt;/li&gt;
+	&lt;li&gt;Entertainment to help you pass the time, such as books, magazines or games&lt;/li&gt;
+	&lt;li&gt;Writing supplies, such as a pencil and a pad of paper to help you communicate since you&apos;ll be unable to talk at first&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the tracheotomy&lt;/strong&gt; &lt;br /&gt;
+A tracheotomy is most commonly performed in an operating room with general anesthesia, which makes you unaware of the surgical procedure. A local anesthetic to numb the neck and throat is used if the surgeon is worried about the airway being compromised from general anesthesia or if the procedure is being done in a hospital room rather than an operating room. 
+&lt;/p&gt;
+&lt;p&gt;
+The type of procedure you undergo depends on why you need a tracheostomy and whether the procedure was planned. There are essentially two options: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical tracheotomy&lt;/strong&gt; can be performed in an operating room or in a hospital room. During a surgical tracheotomy, the surgeon usually makes a horizontal incision through the skin at the lower part of the front of your neck. The surgeon carefully pulls back the surrounding muscles and cuts through a small portion of the thyroid gland, exposing the windpipe (trachea). At a specific spot on your windpipe near the base of your neck, the surgeon creates a hole and inserts a tracheostomy tube into the hole. A faceplate and neck strap attached to the tube keep it from slipping out of the hole, and temporary sutures also can be used to secure the faceplate to the skin of your neck.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minimally invasive tracheotomy&lt;/strong&gt; is typically performed in a hospital room. The doctor makes a small incision near the base of the front of the neck. A special lens is fed through the mouth so that the surgeon can view the inside of the throat. Using this view of the throat, the surgeon guides a needle into the windpipe to create the tracheostomy hole. The hole is then expanded to accommodate the tracheostomy tube. A faceplate and neck strap attached to the tube keep it from falling out of the windpipe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect with a tracheostomy&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll likely spend several days in the hospital as your body heals. During that time, you&apos;ll learn skills necessary for maintaining and coping with your tracheostomy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Caring for your tracheostomy tube.&lt;/strong&gt; A nurse will teach you how to clean and change your tracheostomy tube. In general, you&apos;ll be asked to clean your tracheostomy site at least twice a day to help prevent infection. You&apos;ll continue to do this as long as you have a tracheostomy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speaking.&lt;/strong&gt; In general, a tracheostomy prevents you from speaking because exhaled air goes out the tracheostomy opening rather than up through your voice box. However, there are devices and techniques for redirecting airflow enough to produce speech. Depending on the tube size and design, the diameter of your trachea, and the condition of your voice box, you may be able to use your voice with the tube in place. If necessary, you&apos;ll meet with a speech therapist or a nurse trained in tracheostomy care, who can suggest options for communicating and help you learn to use your voice again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating.&lt;/strong&gt; While you&apos;re healing, you&apos;ll receive nutrients through an intravenous (IV) line inserted into a vein in your body, a feeding tube that passes through your mouth or nose, or a tube inserted directly into your stomach. When you&apos;re ready to eat again, you may need to work with a speech therapist, who can help you regain the muscle strength and coordination needed for swallowing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coping with dry air.&lt;/strong&gt; The air you breathe will be much drier since it no longer passes through your moist nose and throat before reaching your lungs. This can cause irritation, coughing and excess mucus coming out of the tracheostomy. You may use a device called a heat and moisture exchanger, which uses a small amount of warm, sterile salt water (saline) to humidify the air you breathe. Or you may use a tiny, disposable attachment for the tracheostomy opening, a humidivent, which captures moisture from the air you exhale and humidifies the air you inhale.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coping with other effects.&lt;/strong&gt; Your health care team will show you ways to cope with the other common effects of the tracheostomy. For instance, you may also learn to use a suction machine to help you clear secretions from your throat or airway.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tracheostomy 
+" Caption="A tracheostomy is a procedure to create a hole into your windpipe (trachea) that allows you to breathe through the opening (stoma). A tracheostomy tube is inserted through the hole and secured in place with a strap around your neck. 
+" Height="60" Title="Tracheostomy" URI="/images/image_popup/thumbs/c7_tracheostomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tracheostomy 
+" Caption="A tracheostomy is a procedure to create a hole into your windpipe (trachea) that allows you to breathe through the opening (stoma). A tracheostomy tube is inserted through the hole and secured in place with a strap around your neck. 
+" Height="480" Title="Tracheostomy" URI="/images/image_popup/c7_tracheostomy.jpg" Width="400" />
+				<HTML>
+					A tracheostomy is a procedure to create a hole into your windpipe (trachea) that allows you to breathe through the opening (stoma). A tracheostomy tube is inserted through the hole and secured in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, a tracheostomy is temporary, providing an alternative breathing route until other medical issues are resolved. If a person needs to remain connected to a ventilator indefinitely, the tracheostomy is often the best permanent solution. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care team will help you determine when it&apos;s appropriate to remove the tracheostomy tube. The hole may heal shut on its own, or it can be closed surgically. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tracheostomy
+	</Title>
+	<Abstract>
+		Tracheostomy &amp;mdash; Comprehensive overview covers definition, risks of surgically created breathing hole in the neck.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

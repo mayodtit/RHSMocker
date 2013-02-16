@@ -1,0 +1,222 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01158
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/allergy-shots/MY01158
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4633" Title="Immune system">
+						<Keyword MCVID="4634" Title="Allergy shots" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			32EF9C94-F392-CBE1-BE5F35260FE0602B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				allergy treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy shots
+			</MetaKeyword>
+			<MetaKeyword>
+				immunotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergen
+			</MetaKeyword>
+			<MetaKeyword>
+				pollen
+			</MetaKeyword>
+			<MetaKeyword>
+				hay fever
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic
+			</MetaKeyword>
+			<MetaKeyword>
+				rhinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				desensitization
+			</MetaKeyword>
+			<MetaKeyword>
+				hyposensitization
+			</MetaKeyword>
+			<MetaKeyword>
+				pet dander
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergy shots are a form of treatment called immunotherapy. Each allergy shot contains a tiny amount of the specific substance or substances that trigger your allergic reactions. These are called allergens. Allergy shots contain just enough allergens to stimulate your immune system &amp;mdash; but not enough to cause a full-blown allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+Over time, your doctor increases the dose of allergens in each of your allergy shots. This helps get your body used to the allergens (desensitization). Your immune system builds up a tolerance to the allergens, and your allergy symptoms diminish over time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergy shots may be a good treatment choice for you if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;It&apos;s impossible to avoid the things that cause your allergic reactions &amp;mdash; and allergy medications don&apos;t control your symptoms well&lt;/li&gt;
+	&lt;li&gt;Allergy medications cause bothersome side effects or interactions with other medications you need to take&lt;/li&gt;
+	&lt;li&gt;You want to reduce your long-term use of allergy medication&lt;/li&gt;
+	&lt;li&gt;You&apos;re allergic to insect stings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Allergy shots can be used to control symptoms triggered by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seasonal allergies.&lt;/strong&gt; If you have seasonal allergic asthma or hay fever symptoms, you may be allergic to pollens released by trees, grasses or weeds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Indoor allergens.&lt;/strong&gt; If you have year-round symptoms, you may be sensitive to indoor allergens, such as dust mites, cockroaches, mold or dander from pets, such as cats or dogs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insect stings.&lt;/strong&gt; Allergic reactions to insect stings can be triggered by bees, wasps, hornets or yellow jackets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Allergy shots aren&apos;t available for food allergies or chronic hives (urticaria). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people don&apos;t have much trouble with allergy shots. But they contain the substances that cause your allergies &amp;mdash; so reactions are possible, and can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Local reactions,&lt;/strong&gt; which can involve redness, swelling or irritation at the injection site. These common reactions typically begin within a few hours of the injection and clear up soon after.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Systemic reactions,&lt;/strong&gt; which are less common &amp;mdash; but potentially more serious. You may develop sneezing, nasal congestion or hives. More-severe reactions may include throat swelling, wheezing or chest tightness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylaxis&lt;/strong&gt; is a rare life-threatening reaction to allergy shots. It can cause low blood pressure and trouble breathing. Anaphylaxis often begins within 30 minutes of the injection, but sometimes starts later than that.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you get weekly or monthly shots on a regular schedule without missing doses, you&apos;re less likely to have a serious reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+Taking an antihistamine medication before getting your allergy shot can reduce the risk of a severe reaction. Check with your doctor to see if this is recommended for you. 
+&lt;/p&gt;
+&lt;p&gt;
+The possibility of a severe reaction is scary &amp;mdash; but you won&apos;t be on your own. You&apos;ll be observed in the doctor&apos;s office for 30 minutes after each shot, when the most serious reactions usually occur. If you have a severe reaction after you leave, return to your doctor&apos;s office or go to the nearest emergency room. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before starting a course of allergy shots, your doctor may use a skin test to determine that your reactions are caused by an allergy &amp;mdash; and which specific allergens cause your signs and symptoms. During a skin test, a small amount of the suspected allergen is scratched into your skin and the area is then observed for about 15 minutes. Swelling and redness indicate an allergy to the substance. Your doctor may also use an allergy blood test. 
+&lt;/p&gt;
+&lt;p&gt;
+When you go in for allergy shots, let the nurses or doctors know if you are feeling unwell in any way. This is especially important if you have asthma. Also let them know if you had any symptoms after a previous allergy shot. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergy shots are usually injected in the upper arm. 
+&lt;/p&gt;
+&lt;p&gt;
+To be effective, allergy shots are given on a schedule that involves two phases: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The buildup phase&lt;/strong&gt; generally takes three to six months. Typically shots are given one to three times a week. During the buildup phase, the allergen dose is gradually increased with each shot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The maintenance phase&lt;/strong&gt; generally continues for three to five years or longer. You&apos;ll need maintenance shots about once a month.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases the buildup phase is accelerated, which requires several injections of increasing doses during each doctor visit. This can decrease the amount of time you need to reach the maintenance phase and get relief from allergy symptoms, but it also increases your risk of having a severe reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergy symptoms won&apos;t stop overnight. They usually improve during the first year of treatment, but the most noticeable improvement often happens during the second year. By the third year, most people are desensitized to the allergens contained in the shots &amp;mdash; and no longer have significant allergic reactions to those substances. 
+&lt;/p&gt;
+&lt;p&gt;
+After a few years of successful treatment, some people don&apos;t have these significant allergy problems even after allergy shots are stopped. Other people need ongoing shots to keep symptoms under control. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Allergy shots
+	</Title>
+	<Abstract>
+		Allergy shots &amp;mdash; Overview covers definition, risks, results of this procedure to ease allergy symptoms.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00773" LinkType="Internal" ObjectID="E5C32CAD-E7FF-0DBD-18D339ADF3675CBB" Title="Mold allergy" Url="http://www.mayoclinic.com/health/mold-allergy/DS00773" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Disease" DocID="DS00174" LinkType="Internal" ObjectID="C2A35B55-EA1F-41EF-92ADF2386BF8EF8A" Title="Hay fever" Url="http://www.mayoclinic.com/health/hay-fever/DS00174" />
+		<LinkItem ContentType="Disease" DocID="DS00842" LinkType="Internal" ObjectID="6ABB9250-E7FF-0DBD-150E349EBF322EDC" Title="Dust mite allergy" Url="http://www.mayoclinic.com/health/dust-mites/DS00842" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Disease" DocID="DS01067" LinkType="Internal" ObjectID="14BAE5B2-E7FF-0DBD-19B0428FCE8BCE3B" Title="Bee stings" Url="http://www.mayoclinic.com/health/bee-stings/DS01067" />
+		<LinkItem ContentType="Disease" DocID="DS00859" LinkType="Internal" ObjectID="09A73EDE-E7FF-0DBD-1B76266DAA90422D" Title="Pet allergy" Url="http://www.mayoclinic.com/health/pet-allergy/DS00859" />
+	</RelatedLinksBox>
+</TestProcedure>

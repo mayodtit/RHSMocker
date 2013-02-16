@@ -1,0 +1,223 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00488
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/urinalysis/MY00488
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-29
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3853" Title="Kidneys and urinary system">
+						<Keyword MCVID="3875" Title="Urinalysis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4723B235-F3F0-E282-0063AC485F6995C7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				urinalysis
+			</MetaKeyword>
+			<MetaKeyword>
+				urine test
+			</MetaKeyword>
+			<MetaKeyword>
+				urine analysis
+			</MetaKeyword>
+			<MetaKeyword>
+				urinalysis results
+			</MetaKeyword>
+			<MetaKeyword>
+				urinalysis test
+			</MetaKeyword>
+			<MetaKeyword>
+				urine culture
+			</MetaKeyword>
+			<MetaKeyword>
+				urine protein
+			</MetaKeyword>
+			<MetaKeyword>
+				urine examination
+			</MetaKeyword>
+			<MetaKeyword>
+				hematuria
+			</MetaKeyword>
+			<MetaKeyword>
+				blood in urine
+			</MetaKeyword>
+			<MetaKeyword>
+				urine glucose
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinalysis is a test that evaluates a sample of your urine. Urinalysis is used to detect and assess a wide range of disorders, including urinary tract infection, kidney disease and diabetes.
+&lt;/p&gt;
+&lt;p&gt;
+Urinalysis involves examining the appearance, concentration and content of urine. Abnormal urinalysis results may point to a disease or illness. For example, a urinary tract infection can make urine look cloudy instead of clear. Increased levels of protein in urine can be a sign of kidney disease.
+&lt;/p&gt;
+&lt;p&gt;
+Abnormal results of a urinalysis often require additional testing and further evaluation to uncover the source of the problem.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Urinalysis is a common test that&apos;s done for several reasons:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;To assess your overall health.&lt;/strong&gt; Your doctor may recommend urinalysis as part of a routine medical examination, pregnancy checkup, pre-surgery preparation, or on hospital admission to screen for a variety of disorders, such as diabetes, kidney disease and liver disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To diagnose a medical condition.&lt;/strong&gt; Your doctor may suggest urinalysis if you&apos;re experiencing abdominal pain, back pain, frequent or painful urination, blood in your urine or other urinary problems. Urinalysis may help diagnose the cause of these symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To monitor a medical condition.&lt;/strong&gt; If you&apos;ve been diagnosed with a medical condition, such as kidney disease or urinary tract disease, your doctor may recommend urinalysis on a regular basis to monitor your condition and treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other tests, such as pregnancy testing and drug screening, also may require a sample of urine. These tests are separate from urinalysis. They test for substances in the urine that urinalysis typically doesn&apos;t include. For example, pregnancy testing measures the hormone human chorionic gonadotropin (HCG). Drug screening tests are tailored to detect specific drugs or their metabolic products, depending on the purpose of the testing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your urine is being tested only for urinalysis, you can eat and drink normally before the test. If you are having other tests at the same time, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions.
+&lt;/p&gt;
+&lt;p&gt;
+Many drugs, including nonprescription medications and vitamins, can affect the results of a urinalysis. Before a urinalysis, tell your doctor about any medications or vitamins you&apos;re taking.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You need to provide a urine sample for urinalysis. Depending on your situation, you may collect the sample at home or at your doctor&apos;s office. Your doctor will provide a container for the urine sample. You may be asked to collect the sample first thing in the morning because at that time your urine is more concentrated, and abnormal results may be more obvious.
+&lt;/p&gt;
+&lt;p&gt;
+To obtain the most accurate results, the sample may need to be collected midstream, using a clean-catch method. This method involves the following steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cleanse the urinary opening. Women should spread their labia and clean from front to back. Men should wipe the tip of the penis.&lt;/li&gt;
+	&lt;li&gt;Begin to urinate into the toilet.&lt;/li&gt;
+	&lt;li&gt;Stop urinating briefly.&lt;/li&gt;
+	&lt;li&gt;Urinate at least 2 ounces (about 59 milliliters) into the collection container.&lt;/li&gt;
+	&lt;li&gt;Finish urinating into the toilet.&lt;/li&gt;
+	&lt;li&gt;Deliver the sample as directed by your doctor.&lt;/li&gt;
+	&lt;li&gt;If you can&apos;t deliver the sample to the designated area within 30 minutes of collection, refrigerate the sample, unless you&apos;ve been instructed otherwise by your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, your doctor may insert a thin, flexible tube (catheter) through the urinary tract opening and into the bladder to collect the urine sample.
+&lt;/p&gt;
+&lt;p&gt;
+The urine sample is sent to a lab for analysis. You can return to your usual activities immediately.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For urinalysis, your urine sample will be evaluated in three ways.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Visual exam&lt;/strong&gt;&lt;br /&gt;
+A laboratory technician will examine the urine&apos;s appearance. Urine is typically clear. Cloudiness or unusual odor may indicate a problem. Blood in the urine may make it look red or brown. A cloudy appearance may indicate an infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dipstick test&lt;/strong&gt;&lt;br /&gt;
+A dipstick &amp;mdash; a thin, plastic stick with strips of chemicals on it &amp;mdash; is placed in the urine to detect abnormalities. The chemical strips change color if certain substances are present or if their levels are above normal. A dipstick test checks for the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acidity (pH).&lt;/strong&gt; The pH level indicates the amount of acid in urine. Abnormal pH levels may indicate a kidney or urinary tract disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Concentration.&lt;/strong&gt; A measure of concentration, or specific gravity, shows how concentrated particles are in your urine. Higher than normal concentration often is a result of dehydration, rather than another underlying medical condition. But, it may indicate a kidney disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protein.&lt;/strong&gt; Urine protein levels are normally low and aren&apos;t detected by a dipstick test. Small increases in protein usually aren&apos;t a cause for concern. Larger amounts of protein in the urine may indicate a kidney problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sugar.&lt;/strong&gt; Normally the amount of sugar (glucose) in urine is too low to be detected. Any detection of sugar on this test usually calls for follow-up testing for diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ketones.&lt;/strong&gt; As with sugar, any amount of ketones detected in your urine could be a sign of diabetes and requires follow-up testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bilirubin.&lt;/strong&gt; Bilirubin is a product of red blood cell breakdown. Normally, bilirubin is carried in the blood and passes into your liver, where it&apos;s removed and becomes part of bile. Bilirubin in your urine may indicate liver damage or disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Evidence of infection.&lt;/strong&gt; Nitrites and leukocyte esterase are produced as a result of an infection. If either nitrites or leukocyte esterase &amp;mdash; a product of white blood cells &amp;mdash; is detected in your urine, it may be a sign of a urinary tract infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood.&lt;/strong&gt; The dipstick test can identify if red blood cells or other components of blood, such as hemoglobin or myoglobin, are present in your urine. Blood in your urine requires additional testing, as it may be a sign of kidney damage, infection, kidney or bladder stones, kidney or bladder cancer or blood disorders, among other conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Microscopic exam&lt;/strong&gt;&lt;br /&gt;
+Several drops of the urine are examined with a microscope. If any of the following are observed in above-average levels, additional testing may be necessary:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;White blood cells&lt;/strong&gt; (leukocytes) may be a sign of an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red blood cells&lt;/strong&gt; (erythrocytes) may be a sign of kidney diseases, blood disorders or another underlying medical condition, such as bladder cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Epithelial cells&lt;/strong&gt; &amp;mdash; cells that line your hollow organs and form your skin &amp;mdash; in your urine may be a sign of a tumor. But more often, they indicate that the urine sample was contaminated during the test, and a new sample is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria or yeasts&lt;/strong&gt; may indicate an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Casts&lt;/strong&gt; &amp;mdash; tube-shaped proteins &amp;mdash; may form as a result of kidney disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crystals&lt;/strong&gt; that form from chemicals in urine may be a sign of kidney stones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Urinalysis is not a test that provides a definitive diagnosis. Depending on the reason your doctor recommended this test, abnormal results may or may not require follow-up. Your doctor may need to evaluate the results along with those of other tests, or additional tests may be necessary to determine next steps.
+&lt;/p&gt;
+&lt;p&gt;
+For example, if you are otherwise healthy and have no signs or symptoms of illness, results slightly above normal on a urinalysis may not be a cause for concern and follow-up may not be needed. However, if you&apos;ve been diagnosed with kidney or urinary tract disease, elevated levels may indicate a need to alter your treatment plan.
+&lt;/p&gt;
+&lt;p&gt;
+For specifics about what your urinalysis results mean, talk to your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Urinalysis
+	</Title>
+	<Abstract>
+		Urinalysis &amp;mdash; Overview covers definition, preparation and results of this common laboratory test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

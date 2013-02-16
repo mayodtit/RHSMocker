@@ -1,0 +1,253 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00129
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/electroconvulsive-therapy/MY00129
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-25
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3866" Title="Mental health">
+						<Keyword MCVID="3871" Title="Electroconvulsive therapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C650258F-E7FF-0DBD-12E55834EE1D684B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ECT
+			</MetaKeyword>
+			<MetaKeyword>
+				electroconvulsive therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				shock therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				shock treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				treatments for depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+			<MetaKeyword>
+				electrodes
+			</MetaKeyword>
+			<MetaKeyword>
+				electroencephalogram
+			</MetaKeyword>
+			<MetaKeyword>
+				EEG
+			</MetaKeyword>
+			<MetaKeyword>
+				seizures
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Electroconvulsive therapy (ECT) is a procedure in which electric currents are passed through the brain, intentionally triggering a brief seizure. ECT seems to cause changes in brain chemistry that can quickly reverse symptoms of certain mental illnesses. It often works when other treatments are unsuccessful.
+&lt;/p&gt;
+&lt;p&gt;
+Much of the stigma attached to ECT is based on early treatments in which high doses of electricity were administered without anesthesia, leading to memory loss, fractured bones and other serious side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+ECT is much safer today and is given to people while they&apos;re under general anesthesia. Although ECT still causes some side effects, it now uses electrical currents given in a controlled setting to achieve the most benefit with the fewest possible risks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Electroconvulsive therapy (ECT) can provide rapid, significant improvements in severe symptoms of a number of mental health conditions. It may be an effective treatment in someone who is suicidal, for instance, or end an episode of severe mania. ECT is used to treat:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Severe depression,&lt;/strong&gt; particularly when accompanied by detachment from reality (psychosis), a desire to commit suicide or refusal to eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment-resistant depression,&lt;/strong&gt; a severe depression that doesn&apos;t improve with medications or other treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe mania,&lt;/strong&gt; a state of intense euphoria, agitation or hyperactivity that occurs as part of bipolar disorder. Other signs of mania include impaired decision making, impulsive or risky behavior, substance abuse, and psychosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Catatonia,&lt;/strong&gt; characterized by lack of movement, fast or strange movements, lack of speech, and other symptoms. It&apos;s associated with schizophrenia and some other psychiatric disorders. In some cases, catatonia is caused by a medical illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Agitation and aggression in people with dementia,&lt;/strong&gt; which can be difficult to treat and negatively affect quality of life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+ECT may be a good treatment option when medications aren&apos;t tolerated or other forms of therapy haven&apos;t worked. In some cases ECT is used:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;During pregnancy, when medications can&apos;t be taken because they might harm the developing fetus&lt;/li&gt;
+	&lt;li&gt;In older adults who can&apos;t tolerate drug side effects&lt;/li&gt;
+	&lt;li&gt;In people who prefer ECT treatments over taking medications&lt;/li&gt;
+	&lt;li&gt;When ECT has been successful in the past&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although ECT is generally safe, risks and side effects may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Confusion.&lt;/strong&gt; Immediately after an ECT treatment, you may experience a period of confusion that can last from a few minutes to several hours. You may not know where you are or why you&apos;re there. You may be able to return to normal activities right away, or you may need to rest for several hours after treatment. Rarely, confusion may last several days or longer. Confusion is generally more noticeable in older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Memory loss.&lt;/strong&gt; ECT can affect memory in several ways. You may have trouble remembering events that occurred before treatment began, a condition known as retrograde amnesia. It may be hard to remember things in the weeks or months leading up to treatment, although some people do have problems with memories from previous years, as well. You may also have trouble recalling events that occurred during the weeks of your treatment. And some people have trouble with memory of events that occur even after ECT has stopped. These memory problems usually improve within a couple of months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical side effects.&lt;/strong&gt; On the days you have an ECT treatment, you may experience nausea, vomiting, headache, jaw pain, muscle ache or muscle spasms. These generally can be treated with medications. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical complications.&lt;/strong&gt; As with any type of medical procedure, especially one that involves anesthesia, there are risks of medical complications. During ECT, heart rate and blood pressure increase, and in rare cases, that can lead to serious heart problems. If you have heart problems, ECT may be more risky.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before having your first ECT treatment, you&apos;ll need a full evaluation, which usually includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A medical history&lt;/li&gt;
+	&lt;li&gt;A complete physical exam&lt;/li&gt;
+	&lt;li&gt;A psychiatric assessment&lt;/li&gt;
+	&lt;li&gt;Basic blood tests&lt;/li&gt;
+	&lt;li&gt;An electrocardiogram (ECG) to check your heart health&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These exams help make sure that ECT is safe for you. You may also see an anesthesiologist to go over the risks of anesthesia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The ECT procedure takes about five to 10 minutes, with added time for preparation and recovery. ECT can be done while you&apos;re hospitalized or as an outpatient procedure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Before the procedure&lt;br /&gt;
+&lt;/strong&gt;To get ready for the ECT procedure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll have general anesthesia,&lt;/strong&gt; which means you may have dietary restrictions before the procedure. Your health care team will tell you how long to avoid food and drinks before ECT treatment. Typically, this might mean no food or water after midnight and only a sip of water to take any morning medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You may have a brief physical exam&lt;/strong&gt; to check your heart and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll have an intravenous (IV) line inserted.&lt;/strong&gt; Your nurse or another health care team member inserts an IV tube into your arm or hand through which medications or fluids can be given.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your nurse places electrode pads on your head.&lt;/strong&gt; Each pad is about the size of a silver dollar. ECT can be unilateral, in which electrical currents focus on only one side of the brain, or bilateral, in which both sides of the brain receive focused electrical currents.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anesthesia and medications&lt;br /&gt;
+&lt;/strong&gt;At the start of the procedure, you&apos;ll receive these medications through your IV: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An anesthetic to make you unconscious and unaware of the procedure&lt;/li&gt;
+	&lt;li&gt;A muscle relaxant to help minimize the seizure and prevent injury&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You also may receive other medications, depending on any health conditions you have or your previous reactions to ECT.
+&lt;/p&gt;
+&lt;p&gt;
+A blood pressure cuff placed around your ankle stops the muscle relaxant medication from entering the foot and affecting the muscles there. When the procedure begins, your doctor can monitor seizure activity by watching for movement in that foot.
+&lt;/p&gt;
+&lt;p&gt;
+During the procedure, monitors constantly check your heart, blood pressure and oxygen use. You may be given oxygen through an oxygen mask. You may also be given a mouth guard to help protect your teeth and tongue from injury.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inducing a seizure&lt;br /&gt;
+&lt;/strong&gt;When you&apos;re asleep from the anesthetic and your muscles are relaxed, the doctor presses a button on the ECT machine. This causes a small amount of electrical current to pass through the electrodes to your brain, producing a seizure that usually lasts less than 60 seconds.
+&lt;/p&gt;
+&lt;p&gt;
+Because of the anesthetic and muscle relaxant, you remain relaxed and unaware of the seizure. The only outward indication that you&apos;re having a seizure may be a rhythmic movement of your foot if there&apos;s a blood pressure cuff around your ankle. But internally, activity in your brain increases dramatically. A test called an electroencephalogram (EEG) records the electrical activity in your brain. Sudden, increased activity on the EEG signals the beginning of a seizure, followed by a leveling off that shows the seizure is over.
+&lt;/p&gt;
+&lt;p&gt;
+A few minutes later, the effects of the short-acting anesthetic and muscle relaxant begin to wear off. You&apos;re taken to a recovery area, where you&apos;re monitored for problems. When you wake up, you may experience a period of confusion lasting from a few minutes to a few hours or more. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Series of treatments&lt;br /&gt;
+&lt;/strong&gt;In the United States, ECT treatments are generally given two to three times weekly for three to four weeks &amp;mdash; for a total of six to 12 treatments. The number of treatments you&apos;ll need depends on the severity of your symptoms and how rapidly they improve. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people may be advised not to return to work until one to two weeks after the last ECT in a series or for at least 24 hours after the last treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people begin to notice an improvement in their symptoms after two or three treatments with electroconvulsive therapy. Full improvement may take longer. Response to antidepressant medications, in comparison, can take several weeks or more.
+&lt;/p&gt;
+&lt;p&gt;
+No one knows for certain how ECT helps treat severe depression and other mental illnesses. What is known, though, is that many chemical aspects of brain function are changed during and after seizure activity. These chemical changes may build upon one another, somehow reducing symptoms of severe depression or other mental illnesses. That&apos;s why ECT is most effective in people who receive a full course of multiple treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Even after your symptoms improve, you&apos;ll still need ongoing treatment to prevent a recurrence. Known as maintenance therapy, that ongoing treatment doesn&apos;t have to be ECT, but it can be. More often, it includes antidepressants or other medications, or psychological counseling (psychotherapy). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Electroconvulsive therapy (ECT)
+	</Title>
+	<Abstract>
+		Electroconvulsive therapy (ECT) &amp;mdash; Overview covers definition, risks, results of this treatment for depression.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00606" LinkType="Internal" ObjectID="63BEBCB5-95F6-4C93-99E7BD6334178247" Title="Video: Electroconvulsive therapy (ECT)" Url="http://www.mayoclinic.com/health/electroconvulsive-therapy/MM00606" />
+	</RelatedLinksBox>
+</TestProcedure>

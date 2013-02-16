@@ -1,0 +1,687 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01120
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-disease/DS01120
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1475" Title="Coronary heart disease" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4E220F62-E7FF-0DBD-1342984A795DA6B2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiovascular disease
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				heart arrhythmias
+			</MetaKeyword>
+			<MetaKeyword>
+				heart condition
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				heart infection
+			</MetaKeyword>
+			<MetaKeyword>
+				heart attack
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart disease is a broad term used to describe a range of diseases that affect your heart. The various diseases that fall under the umbrella of heart disease include diseases of your blood vessels, such as coronary artery disease; heart rhythm problems (arrhythmias); heart infections; and heart defects you&apos;re born with (congenital heart defects). 
+&lt;/p&gt;
+&lt;p&gt;
+The term &quot;heart disease&quot; is often used interchangeably with &quot;cardiovascular disease.&quot; Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina) or stroke. Other heart conditions, such as infections and conditions that affect your heart&apos;s muscle, valves or beating rhythm, also are considered forms of heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Many forms of heart disease can be prevented or treated with healthy lifestyle choices. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart disease symptoms vary, depending on what type of heart disease you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms of heart disease in your blood vessels (cardiovascular disease)&lt;/strong&gt;&lt;br /&gt;
+Cardiovascular disease is caused by narrowed, blocked or stiffened blood vessels that prevent your heart, brain or other parts of your body from receiving enough blood. Cardiovascular disease symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain (angina)&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Pain, numbness, weakness or coldness in your legs or arms, if the blood vessels in those parts of your body are narrowed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might not be diagnosed with cardiovascular disease until your condition worsens to the point that you have a heart attack, angina, stroke or heart failure. It&apos;s important to watch for cardiovascular symptoms and discuss any concerns with your doctor. Cardiovascular disease can sometimes be found early with regular visits to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart disease symptoms caused by abnormal heartbeats (heart arrhythmias)&lt;/strong&gt;&lt;br /&gt;
+A heart arrhythmia is an abnormal heartbeat. Your heart may beat too quickly, too slowly or irregularly if you have an arrhythmia. Heart arrhythmia symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A fluttering in your chest&lt;/li&gt;
+	&lt;li&gt;A racing heartbeat (tachycardia)&lt;/li&gt;
+	&lt;li&gt;A slow heartbeat (bradycardia)&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope) or near fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart disease symptoms caused by heart defects&lt;/strong&gt;&lt;br /&gt;
+Serious congenital heart defects &amp;mdash; defects you&apos;re born with &amp;mdash; usually become evident soon after birth. Heart defect symptoms could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pale gray or blue skin color (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Swelling in the legs, abdomen or areas around the eyes&lt;/li&gt;
+	&lt;li&gt;Shortness of breath during feedings, leading to poor weight gain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less serious congenital heart defects are often not diagnosed until later in childhood or even during adulthood. Signs and symptoms of congenital heart defects that usually aren&apos;t immediately life-threatening include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Easily becoming short of breath during exercise or activity&lt;/li&gt;
+	&lt;li&gt;Easily tiring during exercise or activity&lt;/li&gt;
+	&lt;li&gt;Built-up fluid in the heart or lungs&lt;/li&gt;
+	&lt;li&gt;Swelling in the hands, ankles or feet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart disease symptoms caused by thick heart muscle (cardiomyopathy)&lt;/strong&gt;&lt;br /&gt;
+Cardiomyopathy is the thickening and stiffening of heart muscle. In early stages of cardiomyopathy, you may have no symptoms. As the condition worsens, cardiomyopathy symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breathlessness with exertion or even at rest&lt;/li&gt;
+	&lt;li&gt;Swelling of the legs, ankles and feet&lt;/li&gt;
+	&lt;li&gt;Bloating (distention) of the abdomen with fluid&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeats that feel rapid, pounding or fluttering&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness and fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart disease symptoms caused by heart infections&lt;/strong&gt;&lt;br /&gt;
+There are three types of heart infections: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pericarditis, which affects the tissue surrounding the heart (pericardium)&lt;/li&gt;
+	&lt;li&gt;Myocarditis, which affects the muscular middle layer of the walls of the heart (myocardium)&lt;/li&gt;
+	&lt;li&gt;Endocarditis, which affects the inner membrane that separates the chambers and valves of the heart (endocardium)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Varying slightly with each type of infection, heart infection symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Weakness or fatigue&lt;/li&gt;
+	&lt;li&gt;Swelling in your legs or abdomen&lt;/li&gt;
+	&lt;li&gt;Changes in your heart rhythm&lt;/li&gt;
+	&lt;li&gt;Dry or persistent cough&lt;/li&gt;
+	&lt;li&gt;Skin rashes or unusual spots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart disease symptoms caused by valvular heart disease&lt;/strong&gt;&lt;br /&gt;
+The heart has four valves &amp;mdash; the aortic, mitral, pulmonary and tricuspid valves &amp;mdash; that open and close to direct blood flow through your heart. Valves may be damaged by a variety of conditions leading to narrowing (stenosis), leaking (regurgitation or insufficiency) or improper closing (prolapse). Depending on which valve isn&apos;t working properly, valvular heart disease symptoms generally include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeat or heart murmur&lt;/li&gt;
+	&lt;li&gt;Swollen feet or ankles &lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek emergency medical care if you have these heart disease symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Heart disease is easier to treat when it&apos;s detected early, so talk to your doctor about any concerns you have about your heart health. If you don&apos;t have known heart disease but are concerned about developing heart disease, talk to your doctor about steps you can take to reduce your heart disease risk. This is especially important if you have a family history of heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think you may have heart disease, based on new signs or symptoms you&apos;ve been having, make an appointment to see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;How the heart works&lt;/strong&gt;&lt;br /&gt;
+To understand heart disease, it helps to know how the heart works. Your heart is a pump. It&apos;s a muscular organ about the size of your fist and located slightly left of center in your chest. Your heart is divided into the right and the left side. The division protects oxygen-rich blood from mixing with oxygen-poor blood. Oxygen-poor blood returns to the heart after circulating through your body. 
+&lt;/p&gt;
+&lt;p&gt;
+The right side of the heart, composed of the right atrium and ventricle, collects and pumps blood to the lungs through the pulmonary arteries. The lungs refresh the blood with a new supply of oxygen, making it turn red. Oxygen-rich blood then enters the left side of the heart, composed of the left atrium and ventricle, and is pumped through the aorta to supply tissues throughout the body with oxygen and nutrients. 
+&lt;/p&gt;
+&lt;p&gt;
+Four valves within your heart keep your blood moving the right way. The tricuspid, mitral, pulmonary and aortic valves open only one way and only when pushed on. Each valve opens and closes once per heartbeat &amp;mdash; or about once every second while you&apos;re at rest. 
+&lt;/p&gt;
+&lt;p&gt;
+A beating heart contracts and relaxes. Contraction is called systole, and relaxation is called diastole. During systole, your ventricles contract, forcing blood into the vessels going to your lungs and body &amp;mdash; much like ketchup being forced out of a squeeze bottle. The right ventricle contracts a little bit before the left ventricle does. Your ventricles then relax during diastole and are filled with blood coming from the upper chambers, the left and right atria. The cycle then starts over again. 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart also has electrical wiring, which keeps it beating. Electrical impulses begin high in the right atrium and travel through specialized pathways to the ventricles, delivering the signal to pump. The conduction system keeps your heart beating in a coordinated and normal rhythm, which in turn keeps blood circulating. The continuous exchange of oxygen-rich blood with oxygen-poor blood is what keeps you alive. 
+&lt;/p&gt;
+&lt;p&gt;
+The causes of heart disease vary by type of heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of cardiovascular disease&lt;/strong&gt;&lt;br /&gt;
+While cardiovascular disease can refer to many different types of heart or blood vessel problems, the term is often used to mean damage caused to your heart or blood vessels by atherosclerosis (ath-ur-oh-skluh-ROW-sis), a buildup of fatty plaques in your arteries. This is a disease that affects your arteries. Arteries are blood vessels that carry oxygen and nutrients from your heart to the rest of your body. Healthy arteries are flexible and strong. 
+&lt;/p&gt;
+&lt;p&gt;
+Over time, however, too much pressure in your arteries can make the walls thick and stiff &amp;mdash; sometimes restricting blood flow to your organs and tissues. This process is called hardening of the arteries (arteriosclerosis). Atherosclerosis is the most common form of this disorder. Atherosclerosis is also the most common cause of cardiovascular disease, and it&apos;s often caused by an unhealthy diet, lack of exercise, being overweight and smoking. All of these are major risk factors for developing atherosclerosis and, in turn, cardiovascular disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of heart arrhythmia&lt;/strong&gt;&lt;br /&gt;
+Common causes of abnormal heart rhythms (arrhythmias), or conditions that can lead to arrhythmias include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart defects you&apos;re born with (congenital heart defects)&lt;/li&gt;
+	&lt;li&gt;Coronary artery disease&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Excessive use of alcohol or caffeine&lt;/li&gt;
+	&lt;li&gt;Drug abuse&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Some over-the-counter medications, prescription medications, dietary supplements and herbal remedies&lt;/li&gt;
+	&lt;li&gt;Valvular heart disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In a healthy person with a normal, healthy heart, it&apos;s unlikely for a fatal arrhythmia to develop without some outside trigger, such as an electrical shock or the use of illegal drugs. That&apos;s primarily because a healthy person&apos;s heart is free from any abnormal conditions that cause an arrhythmia, such as an area of scarred tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+However, in a heart that&apos;s diseased or deformed, the heart&apos;s electrical impulses may not properly start or travel through the heart, making arrhythmias more likely to develop. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of heart defects&lt;/strong&gt;&lt;br /&gt;
+Heart defects usually develop while a baby is still in the womb. About a month after conception, the heart begins to develop. It&apos;s at this point that heart defects can begin to form. Some medical conditions, medications and genes may play a role in causing heart defects. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart defects can also develop in adults. As you age, your heart&apos;s structure can change, causing a heart defect. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of cardiomyopathy&lt;/strong&gt;&lt;br /&gt;
+The exact cause of cardiomyopathy, a thickening or enlarging of the heart muscle, is unknown. There are three types of cardiomyopathy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dilated cardiomyopathy.&lt;/strong&gt; This is the most common type of cardiomyopathy. In this disorder, your heart&apos;s main pumping chamber &amp;mdash; the left ventricle &amp;mdash; becomes enlarged (dilated), its pumping ability becomes less forceful, and blood doesn&apos;t flow as easily through the heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypertrophic cardiomyopathy.&lt;/strong&gt; This type involves abnormal growth or thickening of your heart muscle, particularly affecting the muscle of your heart&apos;s main pumping chamber. As thickening occurs, the heart tends to stiffen and the size of the pumping chamber may shrink, interfering with your heart&apos;s ability to deliver blood to your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Restrictive cardiomyopathy.&lt;/strong&gt; The heart muscle in people with restrictive cardiomyopathy becomes stiff and less elastic, meaning the heart can&apos;t properly expand and fill with blood between heartbeats. It&apos;s the least common type of cardiomyopathy and can occur for no known reason.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of heart infection&lt;/strong&gt;&lt;br /&gt;
+Heart infections, such as pericarditis, endocarditis and myocarditis, are caused when an irritant, such as a bacterium, virus or chemical, reaches your heart muscle. The most common causes of heart infections include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bacteria.&lt;/strong&gt; Endocarditis can be caused by a number of bacteria entering your bloodstream. The bacteria can enter your bloodstream through everyday activities, such as eating or brushing your teeth, especially if you have poor oral health. Myocarditis can also be caused by a tick-borne bacterium that is&lt;em&gt; &lt;/em&gt;responsible for Lyme disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Viruses.&lt;/strong&gt; Heart infections can be caused by viruses, including some that cause influenza (coxsackievirus B and adenovirus), a rash called fifth disease (human parvovirus B19), gastrointestinal infections (echovirus), mononucleosis (Epstein-Barr virus) and German measles (rubella). Viruses associated with sexually transmitted infections also can travel to the heart muscle and cause an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parasites.&lt;/strong&gt; Among the parasites that can cause heart infections are Trypanosoma cruzi, toxoplasma, and some that are transmitted by insects and can cause a condition called Chagas&apos; disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications&lt;/strong&gt; &lt;strong&gt;that may cause an allergic or toxic reaction.&lt;/strong&gt; These include antibiotics, such as penicillin and sulfonamide drugs, as well as some illegal substances, such as cocaine. The needles used to administer medications or illegal drugs also can transmit viruses or bacteria that can cause heart infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; These include lupus, connective tissue disorders, inflammation of blood vessels (vasculitis) and rare inflammatory conditions, such as Wegener&apos;s granulomatosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of valvular heart disease&lt;/strong&gt;&lt;br /&gt;
+There are many causes of diseases of your heart valves. Four valves within your heart keep blood flowing in the right direction. You may be born with valvular disease, or the valves may be damaged by such conditions as rheumatic fever, infections (infectious endocarditis), connective tissue disorders, and certain medications or radiation treatments for cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="60" Title="Development of atherosclerosis" URI="/images/image_popup/thumbs/mcdc7_atherosclerosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing development of atherosclerosis 
+" Caption="Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;mdash; or block &amp;mdash; your arteries. These plaques can also rupture, causing a blood clot. 
+" Height="479" Title="Development of atherosclerosis" URI="/images/image_popup/mcdc7_atherosclerosis.jpg" Width="400" />
+				<HTML>
+					Atherosclerosis is a process in which blood, fats such as cholesterol, and other substances build up on your artery walls. Eventually, deposits called plaques may form. The deposits may narrow &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart disease risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Simply getting older increases your risk of damaged and narrowed arteries and weakened or thickened heart muscle, which contribute to heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are generally at greater risk of heart disease. However, the risk for a woman increases after menopause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; A family history of heart disease increases your risk of coronary artery disease, especially if a parent developed it at an early age (before age 55 for a male relative, such as your brother or father, and 65 for a female relative, such as your mother or sister).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Nicotine constricts your blood vessels, and carbon monoxide can damage their inner lining, making them more susceptible to atherosclerosis. Heart attacks are more common in smokers than in nonsmokers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor diet.&lt;/strong&gt; A diet that&apos;s high in fat, salt and cholesterol can contribute to the development of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Uncontrolled high blood pressure can result in hardening and thickening of your arteries, narrowing the vessels through which blood flows.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood cholesterol levels.&lt;/strong&gt; High levels of cholesterol in your blood can increase the risk of formation of plaques and atherosclerosis. Plaques can be caused by a high level of low-density lipoprotein (LDL) cholesterol, known as &quot;bad&quot; cholesterol, or a low level of high-density lipoprotein (HDL) cholesterol, known as &quot;good&quot; cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Diabetes increases your risk of heart disease. Both conditions share similar risk factors, such as obesity and high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Excess weight typically worsens other risk factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical inactivity.&lt;/strong&gt; Lack of exercise also is associated with many forms of heart disease and some of its other risk factors, as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High stress.&lt;/strong&gt; Unrelieved stress in your life may damage your arteries as well as worsen other risk factors for heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor hygiene.&lt;/strong&gt; Not regularly washing your hands and failure to establish other habits that can help prevent viral or bacterial infections can put you at risk of heart infections, especially if you already have an underlying heart condition. Poor dental health also may contribute to heart disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of heart disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; One of the most common complications of heart disease is heart failure. Heart failure occurs when your heart can&apos;t pump enough blood to meet your body&apos;s needs. Over time, the heart can no longer keep up with the normal demands placed on it. The ventricles may become stiff and don&apos;t fill properly between beats. Also, the heart muscle may weaken, and the ventricles stretch (dilate) to the point that the heart can&apos;t pump blood efficiently throughout your body. Heart failure can result from many forms of heart disease, including heart defects, cardiovascular disease, valvular heart disease, heart infections or cardiomyopathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; Coronary artery disease can cause a heart attack. Heart attacks usually occur when a blood clot blocks the flow of blood through a coronary artery &amp;mdash; a blood vessel that feeds blood to a part of the heart muscle. Interrupted blood flow to your heart can damage or destroy a part of the heart muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; Cardiovascular disease may cause an ischemic stroke, which happens when the arteries to your brain are narrowed or blocked and too little blood reaches your brain. A stroke is a medical emergency &amp;mdash; brain tissue begins to die within just a few minutes of a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aneurysm.&lt;/strong&gt; Cardiovascular disease can also cause an aneurysm, a serious complication that can occur anywhere in your body. An aneurysm is a bulge in the wall of your artery. If an aneurysm bursts, you may face life-threatening internal bleeding. Although this is usually a sudden, catastrophic event, a slow leak is possible. If a blood clot within an aneurysm dislodges, it may block an artery at another point downstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peripheral artery disease.&lt;/strong&gt; The same atherosclerosis that can lead to coronary artery disease can also lead to peripheral artery disease (PAD). When you develop peripheral artery disease, your extremities &amp;mdash; usually your legs &amp;mdash; don&apos;t receive enough blood flow to keep up with demand. This causes symptoms, most notably leg pain when walking (claudication).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden cardiac arrest.&lt;/strong&gt; Sudden cardiac arrest is the sudden, unexpected loss of heart function, breathing and consciousness. Sudden cardiac arrest usually results from an electrical disturbance in your heart that disrupts its pumping action and causes blood to stop flowing to the rest of your body. Sudden cardiac arrest almost always occurs in the context of other underlying heart problems, particularly coronary artery disease. Sudden cardiac arrest is a medical emergency. If not treated immediately, it is fatal, resulting in sudden cardiac death.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some types of heart disease will be discovered without an appointment &amp;mdash; for example, if a child is born with serious heart defect, it will be detected soon after birth. In other cases, your heart disease may be diagnosed in an emergency situation, such as a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think you may have heart disease or are worried about your heart disease risk because of a strong family history, make an appointment with your family doctor. If heart disease is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet. For a cholesterol test, for example, you may need to fast for a period of time beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your diet and your smoking and exercise habits. If you don&apos;t already follow a diet or exercise routine, be ready to talk to your doctor about any challenges you might face in getting started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For heart disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for heart disease? For example, how often do I need a cholesterol test?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist? (You may need to ask your insurance provider directly for information about coverage.)&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of heart disease, diabetes, high blood pressure or other serious illness?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+It&apos;s never too early to make healthy lifestyle changes, such as quitting smoking, eating healthy foods and becoming more physically active. These are primary lines of defense against heart disease and its complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The tests you&apos;ll need to diagnose your heart disease depend on what condition your doctor thinks you might have. No matter what type of heart disease you have, your doctor will likely perform a physical exam and ask about your personal and family medical history before doing any tests. Tests to diagnose heart disease can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; You may need to have your blood drawn and tested for substances that could indicate you have heart disease. Your doctor may check the levels of your cholesterol and triglycerides, blood cell counts, or other blood tests that might show damage to your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An image is created by directing X-rays at your chest and positioning a large piece of photographic film or a digital recording plate against your back. The X-ray machine produces a small burst of radiation that passes through your body and produces an image on the film or digital plate. A chest X-ray shows an image of your heart, lungs and blood vessels. It can reveal if your heart is enlarged, a sign of some forms of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, a technician will place probes on your chest that record the electrical impulses that make your heart beat. An ECG records these electrical signals and can help your doctor detect irregularities in your heart&apos;s rhythm and structure. You may have an ECG while you&apos;re at rest or while exercising (stress electrocardiogram).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitoring.&lt;/strong&gt; A Holter monitor is a portable device that you wear to record a continuous ECG, usually for 24 to 72 hours. Holter monitoring is used to detect heart rhythm irregularities that aren&apos;t found during a regular ECG exam.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This noninvasive exam, which includes an ultrasound of your chest, shows detailed images of your heart&apos;s structure and function. Sound waves are transmitted, and their echoes are recorded with a device called a transducer that&apos;s held outside your body. A computer uses the information from the transducer to create moving images on a video monitor. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If the images from a regular echocardiogram are unclear, your doctor may recommend a transesophageal ultrasound. During this exam, you swallow a flexible tube containing a small transducer, about the size of your index finger, that is guided down your throat. The transducer will transmit images of your heart to a computer monitor. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, a short tube (sheath) is inserted into a vein or artery in your leg (groin) or arm. A hollow, flexible and longer tube (guide catheter) is then inserted into the sheath. Aided by X-ray images on a monitor, your doctor threads the guide catheter through that artery until it reaches your heart. The pressures in your heart chambers can be measured, and dye can be injected. The dye can be seen on an X-ray, which helps your doctor see the blood flow through your heart, blood vessels and valves to check for abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart biopsy.&lt;/strong&gt; Sometimes a heart biopsy will be done as part of cardiac catheterization, especially if your doctor suspects you have heart inflammation and hasn&apos;t been able to confirm that with other tests. In a heart biopsy, a tiny sample of your heart tissue is removed through the catheter and is sent to a lab for testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac computerized tomography (CT) scan.&lt;/strong&gt; This test is often used to check for heart failure or heart arrhythmias. In a cardiac CT scan, you lie on a table inside a doughnut-shaped machine. An X-ray tube inside the machine rotates around your body and collects images of your heart and chest. Some walk-in clinics may advertise heart scans that look for calcium buildup in your arteries, which may show you&apos;re at risk of having a heart attack. However, these scans are not recommended for most people, as the information they provide isn&apos;t often useful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac magnetic resonance imaging (MRI).&lt;/strong&gt; In a cardiac MRI, you lie on a table inside a long tube-like machine that produces a magnetic field. The magnetic field aligns atomic particles in some of your cells. When radio waves are broadcast toward these aligned particles, they produce signals that vary according to the type of tissue they are. Images of your heart are created from these signals, which your doctor will look at to help determine the cause of your heart condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart disease treatments vary. You may need lifestyle changes, medications, surgery or other medical procedures as part of your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cardiovascular disease treatments&lt;/strong&gt;&lt;br /&gt;
+The goal in treating diseases of your arteries (cardiovascular disease) is often to open narrowed arteries that cause your symptoms. Depending on how severe the blockages in your arteries are, treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifestyle changes.&lt;/strong&gt; Whether your heart disease is mild or severe, it&apos;s likely your doctor will recommend lifestyle changes as part of your treatment. Lifestyle changes include eating a low-fat and low-sodium diet, getting at least 30 minutes of moderate exercise on most days of the week, quitting smoking, and limiting how much alcohol you drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; If lifestyle changes alone aren&apos;t enough, your doctor may prescribe medications to control your heart disease. These could include medications to lower your blood pressure, such as diuretics, angiotensin-converting enzyme (ACE) inhibitors or beta blockers; blood thinning medications, such as daily aspirin therapy; or cholesterol-lowering medications, such as statins or fibrates.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Medical procedures or surgery.&lt;/strong&gt; If medications aren&apos;t enough, it&apos;s possible your doctor will recommend specific procedures or surgery to clear the blockages in your heart. A common procedure is coronary angioplasty, which is performed by placing a catheter in an artery in your arm or groin and threading a small balloon to your blocked artery and inflating it to reopen the artery. A small metal coil called a stent is often placed in the artery during angioplasty. The stent helps keep the artery open. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Sometimes a more invasive procedure, coronary artery bypass surgery, is necessary. In this procedure, a vein from another part of your body &amp;mdash; usually your leg &amp;mdash; is used to bypass the blocked section of the artery. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart arrhythmia treatments&lt;/strong&gt;&lt;br /&gt;
+Depending on the seriousness of your condition, your doctor may simply recommend maneuvers or medications to correct your irregular heartbeat. It&apos;s also possible you&apos;ll need a medical device or surgery if your condition is more serious. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vagal maneuvers.&lt;/strong&gt; You may be able to stop some heart arrhythmias by using particular maneuvers, which include holding your breath and straining, dunking your face in ice water, or coughing. Your doctor may be able to recommend other maneuvers to slow a fast heartbeat. These maneuvers affect the nervous system that controls your heartbeat (vagal nerves), often causing your heart rate to slow. Don&apos;t attempt any maneuvers without talking to your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; People who have a rapid heartbeat may respond well to anti-arrhythmic medications. Though they don&apos;t cure the problem, they can reduce episodes of your heart beating rapidly or slow down the heart when an episode occurs. It&apos;s important to take any anti-arrhythmic medication exactly as directed by your doctor in order to avoid complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical procedures.&lt;/strong&gt; Two common procedures to treat heart arrhythmias are cardioversion and ablation. In cardioversion, an electrical shock is used to reset your heart to its regular rhythm. Usually this is done with paddles placed on the chest that can deliver an electrical shock in a monitored setting. You&apos;re given medication to sedate you during the procedure, so there&apos;s no pain. In ablation, one or more catheters are threaded through your blood vessels to your inner heart. They&apos;re positioned on areas of your heart identified by your doctor as causing your arrhythmia. Electrodes at the catheter tips destroy (ablate) a small spot of heart tissue and create an electrical block along the pathway that&apos;s causing your arrhythmia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pacemakers or implantable cardioverter-defibrillators (ICDs).&lt;/strong&gt; In some cases, your doctor may recommend having a pacemaker or ICD implanted to regulate your heartbeat. Pacemakers emit electrical impulses to quicken your heartbeat if it becomes too slow, and ICDs can correct a rapid or chaotic heartbeat using a similar type of electrical impulse as is used in cardioversion. The surgery to implant each device is relatively minor and usually requires only a few days of recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; For severe heart arrhythmias, or for those with an underlying cause such as a heart defect, surgery may be an option. Because the surgeries to correct heart arrhythmias are open-heart procedures that sometimes require several months for recovery, surgery is often a last-resort treatment option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart defect treatments&lt;/strong&gt;&lt;br /&gt;
+Some heart defects are minor and don&apos;t require treatment, while others may require regular checkups, medications or even surgery. Depending on what heart defect you have and how severe it is, your treatment could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Some mild congenital heart defects, especially those found later in childhood or adulthood, can be treated with medications that help the heart work more efficiently.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Special procedures using catheters.&lt;/strong&gt; Some people now have their congenital heart defects repaired using catheterization techniques, which allow the repair to be done without surgically opening the chest and heart. In procedures that can be done using catheterization, the doctor inserts a thin tube (catheter) into a leg vein and guides it to the heart with the help of X-ray images. Once the catheter is positioned at the site of the defect, tiny tools are threaded through the catheter to the heart to repair the defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open-heart surgery.&lt;/strong&gt; In some cases, your doctor may perform open-heart surgery to try to repair your heart defect. These surgeries are major medical procedures and sometimes require a long recovery time. It&apos;s possible you&apos;ll need multiple surgeries over several years to treat the defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart transplant.&lt;/strong&gt; If a serious heart defect can&apos;t be repaired, a heart transplant may be an option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cardiomyopathy treatments&lt;/strong&gt;&lt;br /&gt;
+Treatment for cardiomyopathy varies, depending on what type of cardiomyopathy you have and how serious it is. Treatments can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Your doctor may prescribe medications that can improve your heart&apos;s pumping ability, such as ACE inhibitors or angiotensin II receptor blockers. Beta blockers, which make your heart beat more slowly and less forcefully, help reduce the strain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical devices.&lt;/strong&gt; If you have dilated cardiomyopathy, treatment may include a special pacemaker that coordinates the contractions between the left and right ventricles of your heart, improving the heart&apos;s pumping ability. If you&apos;re at risk of serious arrhythmias, an implantable cardioverter-defibrillator (ICD) may be an option. ICDs are small devices implanted in your chest to continuously monitor your heart rhythm and deliver electrical shocks when needed to control abnormal, rapid heartbeats. The devices can also work as pacemakers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart transplant.&lt;/strong&gt; If you have severe cardiomyopathy and medications can&apos;t control your symptoms, a heart transplant may be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart infection treatments&lt;/strong&gt;&lt;br /&gt;
+The first treatment for heart infections such as pericarditis, endocarditis or myocarditis is often medications, which may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If your condition is caused by bacteria, your doctor will prescribe antibiotics. Antibiotics are given by an intravenous (IV) line for two to six weeks, depending on how severe the infection is.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to regulate your heartbeat.&lt;/strong&gt; If the infection has affected your heartbeat, your doctor may prescribe medications such as angiotensin-converting enzyme (ACE) inhibitors or beta blockers to help normalize your heartbeat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your heart infection is severe and damages your heart, you may need surgery to repair the damaged portion of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Valvular heart disease treatments&lt;/strong&gt;&lt;br /&gt;
+Although treatments for valvular heart disease can vary depending on what valve is affected and how severe your condition is, treatment options generally include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; It&apos;s possible your valvular heart disease, if mild, can be managed with medications. Commonly prescribed medications for valvular heart disease include medications to open your blood vessels (vasodilators), medications to lower your cholesterol (statins), medications that reduce water retention (diuretics) and blood-thinning medications (anticoagulants).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Balloon valvuloplasty.&lt;/strong&gt; This procedure is sometimes used as a treatment for valve stenosis. During this procedure, your doctor threads a small tube through a vein in your leg and up to your heart. An uninflated balloon is placed through the opening of the narrowed pulmonary valve. Your doctor then inflates the balloon, opening up the narrowed pulmonary valve and increasing the area available for blood flow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valve repair or replacement.&lt;/strong&gt; If your condition is severe, you may need surgery to correct it. Your doctor may be able to repair the valve. If the valve can&apos;t be repaired, it may be replaced with a valve that&apos;s made of synthetic materials.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart disease can be improved &amp;mdash; or even prevented &amp;mdash; by making certain lifestyle changes. The following changes can help anyone who wants to improve his or her heart health: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking is a major risk factor for heart disease, especially atherosclerosis. Nicotine constricts blood vessels and forces your heart to work harder, and carbon monoxide reduces oxygen in your blood and damages the lining of your blood vessels. If you smoke, quitting is the best way to reduce your risk of heart disease and its complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control your blood pressure.&lt;/strong&gt; Ask your doctor for a blood pressure measurement at least every two years. He or she may recommend more frequent measurements if your blood pressure is higher than normal or you have a history of heart disease. Optimal blood pressure is less than 120 systolic and 80 diastolic, as measured in millimeters of mercury (mm Hg).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your cholesterol.&lt;/strong&gt; Ask your doctor for a baseline cholesterol test when you&apos;re in your 20s and then at least every five years. If your test results aren&apos;t within desirable ranges, your doctor may recommend more frequent measurements. Most people should aim for an LDL level below 130 milligrams per deciliter (mg/dL), or 3.4 millimoles per liter (mmol/L). If you have other risk factors for heart disease, your target LDL may be below 100 mg/dL (2.6 mmol/L). If you&apos;re at very high risk of heart disease - if you&apos;ve already had a heart attack or have diabetes, for example - your target LDL level is below 70 mg/dL (1.8 mmol/L).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep diabetes under control.&lt;/strong&gt; If you have diabetes, tight blood sugar control can help reduce the risk of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get moving.&lt;/strong&gt; If you have heart disease, exercise helps you achieve and maintain a healthy weight and control diabetes, elevated cholesterol and high blood pressure &amp;mdash; all risk factors for heart disease. If you have a heart arrhythmia or heart defect, there may be some restrictions on the activities you can do, so be sure to talk to your doctor first. With your doctor&apos;s OK, aim for 30 to 60 minutes of physical activity most days of the week. Even if you can&apos;t make time for one 30- to 60-minute exercise session, you can still benefit from breaking up your activity into several 10-minute sessions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; A heart-healthy diet based on fruits, vegetables and whole grains &amp;mdash; and low in saturated fat, cholesterol and sodium &amp;mdash; can help you control your weight, blood pressure and cholesterol. Eating one or two servings of fish a week also is beneficial.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight increases your risk of heart disease. Weight loss is especially important for people who have large waist measurements &amp;mdash; more than 40 inches (101.6 centimeters, or cm) for men and more than 35 inches (88.9 cm) for women &amp;mdash; because people with this body shape are more likely to develop diabetes and heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Reduce stress as much as possible. Practice healthy techniques for managing stress, such as muscle relaxation and deep breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice good hygiene habits.&lt;/strong&gt; Staying away from other people when they are sick and regularly washing your hands can not only prevent heart infections but also can help prevent viral or bacterial infections that can put stress on your heart if you already have heart disease. Also, brushing and flossing your teeth regularly can prevent germs in your mouth from making their way to plaques in your heart, which could worsen cardiovascular disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get a flu shot.&lt;/strong&gt; If you have cardiovascular disease, you&apos;re at a greater risk of having a heart attack should you catch the flu. Getting a flu shot decreases this risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to healthy lifestyle changes, remember the importance of regular medical checkups. Early detection and treatment can set the stage for a lifetime of better heart health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are several alternative medicines that may be effective in lowering cholesterol and preventing some types of heart disease, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blond psyllium&lt;/li&gt;
+	&lt;li&gt;Coenzyme Q10&lt;/li&gt;
+	&lt;li&gt;Flaxseed&lt;/li&gt;
+	&lt;li&gt;Oats and oat bran&lt;/li&gt;
+	&lt;li&gt;Omega-3 fatty acids&lt;/li&gt;
+	&lt;li&gt;Plant stanols and sterols, such as beta-sitosterol and sitostanol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As with any alternative medicine, talk to your doctor before adding any new supplements to your treatment regimen. Even natural medicines and herbal supplements can interact with medications you&apos;re taking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may feel frustrated, upset or overwhelmed upon learning you or your loved one has heart disease. Fortunately, there are ways to help cope with heart disease or improve your condition. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac rehabilitation.&lt;/strong&gt; For people who have cardiovascular disease that&apos;s caused a heart attack or has required surgery to correct, cardiac rehabilitation is often recommended as a way to improve treatment and speed recovery. Cardiac rehabilitation is a program often divided into phases that involve various levels of monitored exercise, nutritional counseling, emotional support, and support and education about lifestyle changes to reduce your risks of heart problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; Finding out that you or a loved one has heart disease can be unnerving. Turning to friends and family for support is essential, but if you find you need more help, talk to your doctor about joining a support group. You may find that talking about your concerns with others who are experiencing the same difficulties can help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continued medical checkups.&lt;/strong&gt; If you have a recurring or chronic heart condition, it&apos;s a good idea to regularly check in with your doctor to make sure you&apos;re properly managing your heart condition. Regular checkups can help your doctor decide if you need to change your treatment, and may help catch new problems early, if they occur. If you&apos;re the parent of a child with heart disease, it&apos;s a good idea to encourage your child to regularly visit his or her doctor to monitor a heart condition in adulthood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain types of heart disease, such as heart defects, can&apos;t be prevented. However, you can help prevent many other types of heart disease by making the same lifestyle changes that can improve your heart disease, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quit smoking&lt;/li&gt;
+	&lt;li&gt;Control other health conditions, such as high blood pressure, high cholesterol and diabetes&lt;/li&gt;
+	&lt;li&gt;Exercise at least 30 minutes a day on most days of the week&lt;/li&gt;
+	&lt;li&gt;Eat a diet that&apos;s low in salt and saturated fat&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight&lt;/li&gt;
+	&lt;li&gt;Reduce and manage stress&lt;/li&gt;
+	&lt;li&gt;Practice good hygiene&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart disease
+	</Title>
+	<Abstract>
+		Heart disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatments and prevention of heart disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02146" LinkType="Internal" ObjectID="C4A291E6-F30F-C699-43BAE9A3182DF640" Title="Silent heart attack: What are the risks?" Url="http://www.mayoclinic.com/health/silent-heart-attack/AN02146" />
+		<LinkItem ContentType="Answer" DocID="AN02063" LinkType="Internal" ObjectID="994B809F-0EC7-E98C-03355F4D9A708740" Title="Heart attack prevention: Should I avoid secondhand smoke?" Url="http://www.mayoclinic.com/health/secondhand-smoke/AN02063" />
+		<LinkItem ContentType="Answer" DocID="AN01472" LinkType="Internal" ObjectID="52ABD89B-E7FF-0DBD-1417DAEB1C72968E" Title="Coronary artery disease: Angioplasty or bypass surgery?" Url="http://www.mayoclinic.com/health/coronary-artery-disease/AN01472" />
+		<LinkItem ContentType="Answer" DocID="AN01928" LinkType="Internal" ObjectID="474BA1DA-E7FF-0DBD-1A970678D637C547" Title="Calcium supplements: A risk factor for heart attack?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01928" />
+		<LinkItem ContentType="Answer" DocID="AN01925" LinkType="Internal" ObjectID="33ECCF95-E7FF-0DBD-1E97E440C48C2B1B" Title="Vitamin D deficiency: Can it cause high blood pressure?" Url="http://www.mayoclinic.com/health/vitamin-d-deficiency/AN01925" />
+		<LinkItem ContentType="Article" DocID="HB00054" LinkType="Internal" ObjectID="CFCD79B0-BCF6-4D27-88093ABCD237E6A9" Title="Heart attack symptoms: Know what&apos;s a medical emergency" Url="http://www.mayoclinic.com/health/heart-attack-symptoms/HB00054" />
+		<LinkItem ContentType="Article" DocID="HB00091" LinkType="Internal" ObjectID="809C5571-E7FF-0DBD-150991E1095CE59D" Title="Angina treatment: Stents, drugs, lifestyle changes &amp;mdash; What&apos;s best?" Url="http://www.mayoclinic.com/health/angina-treatment/HB00091" />
+		<LinkItem ContentType="Article" DocID="HB00090" LinkType="Internal" ObjectID="371DD657-E7FF-0DBD-1735D7CA31827C52" Title="Drug-eluting stents: Do they increase heart attack risk?" Url="http://www.mayoclinic.com/health/drug-eluting-stents/HB00090" />
+		<LinkItem ContentType="Disease" DocID="DS00064" LinkType="Internal" ObjectID="F1FA3434-3A5F-41BE-A1E86BA9216948BA" Title="Coronary artery disease" Url="http://www.mayoclinic.com/health/coronary-artery-disease/DS00064" />
+		<LinkItem ContentType="Disease" DocID="DS01061" LinkType="Internal" ObjectID="8EBBCE2E-E7FF-0DBD-165889AED000407B" Title="Acute coronary syndrome" Url="http://www.mayoclinic.com/health/acute-coronary-syndrome/DS01061" />
+		<LinkItem ContentType="Disease" DocID="DS01080" LinkType="Internal" ObjectID="8715E92A-E7FF-0DBD-141A1CF8BE0E5A87" Title="Small vessel disease" Url="http://www.mayoclinic.com/health/small-vessel-disease/DS01080" />
+		<LinkItem ContentType="Disease" DocID="DS00094" LinkType="Internal" ObjectID="335BD208-F892-4D6A-A14CBCB0FBF85238" Title="Heart attack" Url="http://www.mayoclinic.com/health/heart-attack/DS00094" />
+		<LinkItem ContentType="SlideShow" DocID="MY01725" LinkType="Internal" ObjectID="EDC3EC1D-9A14-AB08-31DFB1E3ABE329BB" Title="Slide show: The Mediterranean diet" Url="http://www.mayoclinic.com/health/mediterranean-diet/MY01725" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00159" LinkType="Internal" ObjectID="EAB7998F-E7FF-0DBD-1FABF4CA65486724" Title="Chelation therapy for heart disease" Url="http://www.mayoclinic.com/health/chelation-therapy/MY00159" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00218" LinkType="Internal" ObjectID="E0258087-E7FF-0DBD-1285B4E6EDD43AD9" Title="Cardiac catheterization" Url="http://www.mayoclinic.com/health/cardiac-catheterization/MY00218" />
+		<LinkItem ContentType="Answer" DocID="AN01037" LinkType="Internal" ObjectID="D756DB2A-EC9B-441E-9E0089A202292796" Title="Olive oil: What are the health benefits?" Url="http://www.mayoclinic.com/health/food-and-nutrition/AN01037" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00105" LinkType="Internal" ObjectID="C0133EF8-E7FF-0DBD-169C6332C6D45953" Title="Gene therapy" Url="http://www.mayoclinic.com/health/gene-therapy/MY00105" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00500" LinkType="Internal" ObjectID="ACA5E069-DFEE-9A46-E42C13E5816BAE0D" Title="Cholesterol test" Url="http://www.mayoclinic.com/health/cholesterol-test/MY00500" />
+		<LinkItem ContentType="Calculator" DocID="SM00083" LinkType="Internal" ObjectID="A2A6A209-EAAF-4B18-AEF17503DC91698C" Title="Tool: Target heart rate calculator" Url="http://www.mayoclinic.com/health/target-heart-rate/SM00083" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="Answer" DocID="AN02060" LinkType="Internal" ObjectID="74319CCA-A39A-D5B6-0F4AF737780B30B1" Title="Healthy chocolate: Dream or reality?" Url="http://www.mayoclinic.com/health/healthy-chocolate/AN02060" />
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="Answer" DocID="AN02120" LinkType="Internal" ObjectID="66D95C41-0BD7-834E-D7AD6EC2D70B150B" Title="MUFAs: Why should my diet include these fats?" Url="http://www.mayoclinic.com/health/mufas/AN02120" />
+		<LinkItem ContentType="Answer" DocID="AN02119" LinkType="Internal" ObjectID="66961E9B-ED5A-E9DC-94CA87543F3E14CC" Title="Sodium nitrate in meat: Heart disease risk factor?" Url="http://www.mayoclinic.com/health/sodium-nitrate/AN02119" />
+		<LinkItem ContentType="Answer" DocID="AN00835" LinkType="Internal" ObjectID="657E562B-7D04-4708-AAA6CAE9EB2CB068" Title="Butter vs. margarine: Which is better for my heart?" Url="http://www.mayoclinic.com/health/butter-vs-margarine/AN00835" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01018" LinkType="Internal" ObjectID="54EAD155-D909-7FE2-44C4EB2D320BB269" Title="C-reactive protein test" Url="http://www.mayoclinic.com/health/c-reactive-protein/MY01018" />
+		<LinkItem ContentType="Answer" DocID="AN02082" LinkType="Internal" ObjectID="49918290-EF4B-3EE3-6C2C89AA5932ABB8" Title="Sitting risks: How harmful is too much sitting?" Url="http://www.mayoclinic.com/health/sitting/AN02082" />
+		<LinkItem ContentType="Answer" DocID="AN01974" LinkType="Internal" ObjectID="432B7FD2-A2A2-2EA0-8B6FA7F6B151F721" Title="Air pollution and exercise: Is outdoor exercise risky?" Url="http://www.mayoclinic.com/health/air-pollution-and-exercise/AN01974" />
+		<LinkItem ContentType="SlideShow" DocID="MY00769" LinkType="Internal" ObjectID="3CDBF141-C2AF-4FE6-CAD97A63BC955462" Title="Slide show: Guide to gourmet salt" Url="http://www.mayoclinic.com/health/gourmet-salt/MY00769" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00705" LinkType="Internal" ObjectID="3A4EC13D-AF61-2E66-739550564BA315F4" Title="Cardioversion" Url="http://www.mayoclinic.com/health/cardioversion/MY00705" />
+		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="Answer" DocID="AN02102" LinkType="Internal" ObjectID="279631B1-0668-4E79-F6A2FA50EBDF2FB7" Title="Heart disease prevention: Does oral health matter?" Url="http://www.mayoclinic.com/health/heart-disease-prevention/AN02102" />
+		<LinkItem ContentType="Article" DocID="CL00011" LinkType="Internal" ObjectID="D2BA64B1-E7FF-0DBD-1B43C225CD3E4657" Title="Mediterranean diet: Choose this heart-healthy diet option" Url="http://www.mayoclinic.com/health/mediterranean-diet/CL00011" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="MY01874" LinkType="Internal" ObjectID="8CFB62FE-E33C-7457-779E0B9DE4B51EC3" Title="Herbal supplements may not mix with heart medicines" Url="http://www.mayoclinic.com/health/herbal-supplements/MY01874" />
+		<LinkItem ContentType="Article" DocID="MY00731" LinkType="Internal" ObjectID="888784EA-0CA6-7CD9-0882E8A19A6B8E6D" Title="Couponing and other frugal food shopping tips" Url="http://www.mayoclinic.com/health/frugal-food/MY00731" />
+		<LinkItem ContentType="Article" DocID="CL00032" LinkType="Internal" ObjectID="7A7C3A5D-E7FF-0DBD-17264FB5ECB54E78" Title="Trans fat is double trouble for your heart health" Url="http://www.mayoclinic.com/health/trans-fat/CL00032" />
+		<LinkItem ContentType="Article" DocID="MY02165" LinkType="Internal" ObjectID="78017033-F62A-355B-BD0EF7B977FA63C0" Title="Exercise and chronic disease: Get the facts" Url="http://www.mayoclinic.com/health/exercise-and-chronic-disease/MY02165" />
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="Calculator" DocID="HB00047" LinkType="Internal" ObjectID="B45BEB09-FD1A-459D-81A0DA5E0DC803C1" Title="Heart disease risk calculator" Url="http://www.mayoclinic.com/health/heart-disease-risk/HB00047" />
+		<LinkItem ContentType="Answer" DocID="AN01980" LinkType="Internal" ObjectID="A4DC81BE-9CE9-6A63-48B78D4984D6453A" Title="Can vitamins help prevent a heart attack?" Url="http://www.mayoclinic.com/health/prevent-heart-attack/AN01980" />
+		<LinkItem ContentType="Answer" DocID="AN02030" LinkType="Internal" ObjectID="9B86E828-F147-D064-F1F30CF81E1DCE50" Title="Omega-6 fatty acids: Can they cause heart disease?" Url="http://www.mayoclinic.com/health/omega-6/AN02030" />
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="Answer" DocID="AN02161" LinkType="Internal" ObjectID="4D221AB1-0154-E24D-28643705B03C9E80" Title="Fasting diet: Can it improve my heart health?" Url="http://www.mayoclinic.com/health/fasting-diet/AN02161" />
+		<LinkItem ContentType="Answer" DocID="AN02066" LinkType="Internal" ObjectID="1F592789-EAB0-EB7E-CC07A47C78BCE0AF" Title="Polypill: Does it treat heart disease?" Url="http://www.mayoclinic.com/health/polypill/AN02066" />
+		<LinkItem ContentType="Answer" DocID="AN02053" LinkType="Internal" ObjectID="130D9F13-0264-35D9-1B6E07A2FB0DADD9" Title="Grass-fed beef: What are the heart-health benefits?" Url="http://www.mayoclinic.com/health/grass-fed-beef/AN02053" />
+		<LinkItem ContentType="Disease" DocID="DS00956" LinkType="Internal" ObjectID="EFE84508-E7FF-0DBD-1D9E3D98DFEBF4A0" Title="Chagas disease" Url="http://www.mayoclinic.com/health/chagas-disease/DS00956" />
+		<LinkItem ContentType="Disease" DocID="DS01035" LinkType="Internal" ObjectID="BD46D6EC-E7FF-0DBD-18BE8F3FD0A9D154" Title="Edema" Url="http://www.mayoclinic.com/health/edema/DS01035" />
+		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
+		<LinkItem ContentType="Disease" DocID="DS00522" LinkType="Internal" ObjectID="798C9801-F667-4D98-96977EC9575499AE" Title="Metabolic syndrome" Url="http://www.mayoclinic.com/health/metabolic syndrome/DS00522" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+		<LinkItem ContentType="Article" DocID="HB00089" LinkType="Internal" ObjectID="F3B561EB-E7FF-0DBD-12ACC7FD196B1ED3" Title="Red wine and resveratrol: Good for your heart?" Url="http://www.mayoclinic.com/health/red-wine/HB00089" />
+		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
+		<LinkItem ContentType="Article" DocID="HB00073" LinkType="Internal" ObjectID="9CD00E35-2A5D-9994-EF86A3EE674B8F8C" Title="Daily aspirin therapy: Understand the benefits and risks" Url="http://www.mayoclinic.com/health/daily-aspirin-therapy/HB00073" />
+		<LinkItem ContentType="Article" DocID="HB00039" LinkType="Internal" ObjectID="99860380-8C24-4F33-AD573E7DEB9C9A0E" Title="Menus for heart-healthy eating: Cut the fat and salt" Url="http://www.mayoclinic.com/health/heart-healthy-diet/HB00039" />
+		<LinkItem ContentType="Article" DocID="HB00085" LinkType="Internal" ObjectID="92DF9319-E7FF-0DBD-1F4D49DAC4DFC1AE" Title="Nuts and your heart: Eating nuts for heart health" Url="http://www.mayoclinic.com/health/nuts/HB00085" />
+		<LinkItem ContentType="Article" DocID="WO00041" LinkType="Internal" ObjectID="8D26F094-D5A5-45D8-90A4CB187A60091B" Title="5 medication-free strategies to help prevent heart disease" Url="http://www.mayoclinic.com/health/heart-disease-prevention/WO00041" />
+		<LinkItem ContentType="Article" DocID="HB00040" LinkType="Internal" ObjectID="7D6EE7E9-8240-4D04-AAA71F42515DDA8D" Title="Heart disease in women: Understand symptoms and risk factors" Url="http://www.mayoclinic.com/health/heart-disease/HB00040" />
+		<LinkItem ContentType="Article" DocID="HB00087" LinkType="Internal" ObjectID="5CF09E7C-E7FF-0DBD-1B0E1EC13D2882D5" Title="Omega-3 in fish: How eating fish helps your heart" Url="http://www.mayoclinic.com/health/omega-3/HB00087" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+	</RelatedLinksBox>
+</Disease>

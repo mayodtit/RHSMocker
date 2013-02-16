@@ -1,0 +1,344 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00173
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/breast-reconstruction/MY00173
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-03
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="4015" Title="Breast reconstruction with flap surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			26F83C24-E7FF-0DBD-16C012E1561E8DE5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				breast reconstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				tram flap
+			</MetaKeyword>
+			<MetaKeyword>
+				diep flap
+			</MetaKeyword>
+			<MetaKeyword>
+				autologous reconstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				breast tissue reconstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				reconstruction surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				reconstructive surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				breast reconstruction options
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast reconstruction is a surgical procedure that restores shape to your breast after mastectomy &amp;mdash; surgery that removes your breast to treat or prevent breast cancer. Breast reconstruction with flap surgery is a type of breast reconstruction that involves taking a section of tissue from one area of your body and relocating it to your chest to create a new breast mound. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast reconstruction with flap surgery is a complex procedure performed by a plastic surgeon. Much of the breast reconstruction using your body&apos;s own tissue can be accomplished at the time of your mastectomy. However, you&apos;ll need a second operation to achieve a correctly positioned, natural-appearing breast or to perform nipple reconstruction. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a pedicle TRAM flap procedure 
+" Caption="In a pedicle TRAM flap procedure, the surgeon cuts a section of skin, muscle, fat and blood vessels from your abdomen, tunnels the tissue underneath your skin to its new location, and uses it to form a new breast mound. 
+" Height="60" Title="Pedicle TRAM flap" URI="/images/image_popup/thumbs/w7_tramflapthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a pedicle TRAM flap procedure 
+" Caption="In a pedicle TRAM flap procedure, the surgeon cuts a section of skin, muscle, fat and blood vessels from your abdomen, tunnels the tissue underneath your skin to its new location, and uses it to form a new breast mound. 
+" Height="250" Title="Pedicle TRAM flap" URI="/images/image_popup/w7_tramflap.jpg" Width="400" />
+				<HTML>
+					In a pedicle TRAM flap procedure, the surgeon cuts a section of skin, muscle, fat and blood vessels from your abdomen, tunnels the tissue underneath your skin to its new location, and uses it to form ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a free TRAM flap procedure 
+" Caption="During a free TRAM flap procedure, the surgeon disconnects a section of abdominal tissue &amp;mdash; including skin, fat and sometimes muscle &amp;mdash; from its blood supply and attaches the tissue to blood vessels in your chest area using microsurgical techniques. 
+" Height="60" Title="Free TRAM flap" URI="/images/image_popup/thumbs/br7_free_tram_flapthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a free TRAM flap procedure 
+" Caption="During a free TRAM flap procedure, the surgeon disconnects a section of abdominal tissue &amp;mdash; including skin, fat and sometimes muscle &amp;mdash; from its blood supply and attaches the tissue to blood vessels in your chest area using microsurgical techniques. 
+" Height="231" Title="Free TRAM flap" URI="/images/image_popup/br7_free_tram_flap.jpg" Width="400" />
+				<HTML>
+					During a free TRAM flap procedure, the surgeon disconnects a section of abdominal tissue &amp;mdash; including skin, fat and sometimes muscle &amp;mdash; from its blood supply and attaches the tissue to ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a pedicle latissimus dorsi flap procedure 
+" Caption="In this flap procedure, the surgeon takes tissue from the latissimus dorsi muscle in your back, tunnels it underneath your skin to its new location and uses it to form a new breast mound. 
+" Height="60" Title="Latissimus dorsi flap" URI="/images/image_popup/thumbs/w7_latflapthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a pedicle latissimus dorsi flap procedure 
+" Caption="In this flap procedure, the surgeon takes tissue from the latissimus dorsi muscle in your back, tunnels it underneath your skin to its new location and uses it to form a new breast mound. 
+" Height="250" Title="Latissimus dorsi flap" URI="/images/image_popup/w7_latflap.jpg" Width="400" />
+				<HTML>
+					In this flap procedure, the surgeon takes tissue from the latissimus dorsi muscle in your back, tunnels it underneath your skin to its new location and uses it to form a new breast mound. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Breast reconstruction with flap surgery is a major procedure and carries with it the possibility of significant complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Changes in breast sensation&lt;/li&gt;
+	&lt;li&gt;Prolonged time in surgery and under anesthesia &lt;/li&gt;
+	&lt;li&gt;Extended recovery and healing time&lt;/li&gt;
+	&lt;li&gt;Poor wound healing &lt;/li&gt;
+	&lt;li&gt;Fluid collection (seroma) &lt;/li&gt;
+	&lt;li&gt;Infection &lt;/li&gt;
+	&lt;li&gt;Bleeding &lt;/li&gt;
+	&lt;li&gt;Tissue death (necrosis) due to insufficient blood supply&lt;/li&gt;
+	&lt;li&gt;Loss of sensation at the tissue donor site &lt;/li&gt;
+	&lt;li&gt;Abdominal wall hernia or weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Adjuvant radiation therapy may pose complications during healing if it&apos;s given after breast reconstruction surgery. Your doctor may recommend waiting until you&apos;re finished with radiation therapy before proceeding with breast reconstruction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before a mastectomy, your doctor may recommend that you meet with a plastic surgeon. Consult a plastic surgeon who&apos;s board certified and experienced in breast reconstruction following mastectomy. Ideally, your breast surgeon and the plastic surgeon will work together to develop the best surgical treatment and breast reconstruction strategy in your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+Your plastic surgeon will describe your surgical options and may show you photos of women who have had different types of breast reconstruction. Your body type, health status and cancer treatment factor into which type of reconstruction will provide the best result. The plastic surgeon also provides information on anesthesia, where the operation will be performed and what kind of follow-up procedures may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Your plastic surgeon may recommend surgery on your opposite breast, even if it&apos;s healthy, so that it more closely matches the shape and size of your reconstructed breast. 
+&lt;/p&gt;
+&lt;p&gt;
+In advance of your surgery, follow your doctor&apos;s specific instructions on preparing for the procedure. This may include guidelines on eating and drinking, adjusting current medications and quitting smoking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chances are your new breasts won&apos;t look exactly like your natural ones used to. However, the contour of your new breasts can usually be restored so that your silhouette will look similar to your silhouette before surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast reconstruction with flap surgery &amp;mdash; using your body&apos;s own tissue to reconstruct your breast (autologous tissue reconstruction) &amp;mdash; is the most complex reconstructive option. Your surgeon transfers a section of skin, muscle, fat and blood vessels from one part of your body to your chest to create a new breast mound. In some cases, the skin and tissue need to be augmented with a breast implant to achieve the desired breast size. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical methods&lt;/strong&gt; &lt;br /&gt;
+Autologous tissue breast reconstruction uses one of two surgical methods: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pedicle flap surgery.&lt;/strong&gt; The surgeon cuts some of the blood vessels nourishing the tissue to be transferred but keeps other blood vessels intact. Tunneling the tissue beneath your skin to your chest area, the surgeon then creates the new breast mound or pocket for the implant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Free flap surgery.&lt;/strong&gt; The surgeon disconnects the tissue completely from its blood supply and uses microsurgical techniques to reattach the tissue flap to new blood vessels near your chest. Because of the intricate nature of reattaching blood vessels, free flap surgery typically takes longer to complete than does pedicle flap surgery. The recovery period for this type of surgery is longer, too.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of flap surgery&lt;/strong&gt; &lt;br /&gt;
+The tissue for reconstructing your breast may come from your abdomen, back or &amp;mdash; less commonly &amp;mdash; your buttocks. Your surgeon determines which method is best for you based on your body type and your medical and surgical history. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Abdomen (TRAM flap).&lt;/strong&gt; Your surgeon removes tissue &amp;mdash; including muscle &amp;mdash; from your abdomen in a procedure known as a transverse rectus abdominal muscle (TRAM) flap. The TRAM flap can be transferred as a free flap or a pedicle flap. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A pedicle TRAM flap is the only procedure that uses your whole rectus muscle &amp;mdash; one of the four major muscles in your abdomen. If your surgeon performs a free TRAM flap, only a portion of your rectus abdominal muscle is taken. In some instances, that portion of muscle may be very small. This is known as a muscle-sparing free TRAM procedure. Using less of your muscle for reconstruction may help you retain abdominal strength after surgery. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Abdomen (DIEP flap).&lt;/strong&gt; Another type of abdominal procedure is the deep inferior epigastric perforator (DIEP) flap. This newer procedure is almost the same as a muscle-sparing free TRAM flap, but skin and fat are the only tissues removed. Minimal abdominal muscle tissue is taken to form the new breast mound. A DIEP flap uses a free flap approach. An advantage to this type of breast reconstruction is that you&apos;ll retain more strength in your abdomen. If your surgeon can&apos;t perform a DIEP flap procedure for anatomical reasons, he or she might opt for the muscle-sparing free TRAM flap instead. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A variation of the DIEP flap, the superficial inferior epigastric artery (SIEA) flap, uses the same abdominal tissue but relies on blood vessels that aren&apos;t located so deeply within the abdomen. This provides a less invasive option for free flap surgery. However, not all women have adequate SIEA blood vessels to make them good candidates for this type of flap surgery. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Back (latissimus dorsi flap).&lt;/strong&gt; Another surgical technique takes tissue &amp;mdash; including skin, fat and muscle &amp;mdash; from your upper back. This is called a latissimus dorsi flap. The tissue is tunneled under your skin to your chest. Because the amount of skin and other tissue is generally smaller than in a TRAM flap surgery, this approach may be used for reconstructing small and medium-sized breasts or for creating a pocket for a breast implant. Although it&apos;s not very common, some women experience muscle weakness in the back, shoulder or arm after this surgery. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buttocks (gluteal flap).&lt;/strong&gt; A gluteal flap is a free flap procedure that takes tissue &amp;mdash; possibly including muscle &amp;mdash; from your buttocks and transplants it to your chest area. A gluteal flap may be an option for women who prefer tissue reconstruction but who don&apos;t have enough extra tissue in their backs or abdomens for those to serve as the tissue donor sites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because adequate blood supply is critical to the survival of transplanted tissue in flap surgery, your surgeon may prefer not to perform a pedicle flap procedure if you&apos;re a smoker or if you have diabetes, vascular disease or a connective tissue disorder. Also, obesity may preclude you from having a pedicle TRAM flap. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, autologous breast reconstruction is more extensive than is a mastectomy or implant reconstruction. Flap procedures result in larger incisions that take longer to heal and may require a longer hospital stay. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nipple reconstruction&lt;/strong&gt; &lt;br /&gt;
+Breast reconstruction may also entail reconstruction of your nipple, if you choose, including tattooing to define the dark area of skin surrounding your nipple (areola). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Recovery&lt;/strong&gt; &lt;br /&gt;
+You may be tired and sore for a few weeks after your surgery. Your doctor can prescribe medication to control your pain. You may have drainage tubes in place for a short time after your surgery to remove excess fluids that collect in the surgical site. The drainage tubes remain in place until the amount of fluid draining substantially decreases. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll also have stitches (sutures) in place after your surgery. They&apos;ll probably be absorbable sutures, though, so you won&apos;t need to have them removed. Scarring is permanent, but the scars generally fade over time. 
+&lt;/p&gt;
+&lt;p&gt;
+Getting back to normal activities may take up to six weeks or more. Take it easy during this period. Your doctor will let you know of any restrictions to your activities, such as avoiding overhead lifting or strenuous physical activities. Don&apos;t be surprised if it seems to take a long time to bounce back from surgery &amp;mdash; some women report that it takes as long as a year or two before feeling completely healed and back to normal. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, you&apos;ll follow up with your plastic surgeon on a yearly basis to monitor your reconstructed breast. Make an appointment sooner than that, however, if you have any concerns about your reconstruction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Future breast cancer screening&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve only had one breast reconstructed, you&apos;ll need to have screening mammography done regularly on your other breast. Mammography isn&apos;t usually necessary on breasts that have been reconstructed, as the mastectomy removes most of your breast tissue. You may also choose to perform breast self-exams on your natural breast and the skin and surrounding area of your reconstructed breast. This may help you become familiar with the changes to your breast after surgery, so that you can be alert to any new changes and report those to your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a pedicle TRAM flap procedure 
+" Caption="In a pedicle TRAM flap procedure, the surgeon cuts a section of skin, muscle, fat and blood vessels from your abdomen, tunnels the tissue underneath your skin to its new location, and uses it to form a new breast mound. 
+" Height="60" Title="Pedicle TRAM flap" URI="/images/image_popup/thumbs/w7_tramflapthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a pedicle TRAM flap procedure 
+" Caption="In a pedicle TRAM flap procedure, the surgeon cuts a section of skin, muscle, fat and blood vessels from your abdomen, tunnels the tissue underneath your skin to its new location, and uses it to form a new breast mound. 
+" Height="250" Title="Pedicle TRAM flap" URI="/images/image_popup/w7_tramflap.jpg" Width="400" />
+				<HTML>
+					In a pedicle TRAM flap procedure, the surgeon cuts a section of skin, muscle, fat and blood vessels from your abdomen, tunnels the tissue underneath your skin to its new location, and uses it to form ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a free TRAM flap procedure 
+" Caption="During a free TRAM flap procedure, the surgeon disconnects a section of abdominal tissue &amp;mdash; including skin, fat and sometimes muscle &amp;mdash; from its blood supply and attaches the tissue to blood vessels in your chest area using microsurgical techniques. 
+" Height="60" Title="Free TRAM flap" URI="/images/image_popup/thumbs/br7_free_tram_flapthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a free TRAM flap procedure 
+" Caption="During a free TRAM flap procedure, the surgeon disconnects a section of abdominal tissue &amp;mdash; including skin, fat and sometimes muscle &amp;mdash; from its blood supply and attaches the tissue to blood vessels in your chest area using microsurgical techniques. 
+" Height="231" Title="Free TRAM flap" URI="/images/image_popup/br7_free_tram_flap.jpg" Width="400" />
+				<HTML>
+					During a free TRAM flap procedure, the surgeon disconnects a section of abdominal tissue &amp;mdash; including skin, fat and sometimes muscle &amp;mdash; from its blood supply and attaches the tissue to ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a pedicle latissimus dorsi flap procedure 
+" Caption="In this flap procedure, the surgeon takes tissue from the latissimus dorsi muscle in your back, tunnels it underneath your skin to its new location and uses it to form a new breast mound. 
+" Height="60" Title="Latissimus dorsi flap" URI="/images/image_popup/thumbs/w7_latflapthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a pedicle latissimus dorsi flap procedure 
+" Caption="In this flap procedure, the surgeon takes tissue from the latissimus dorsi muscle in your back, tunnels it underneath your skin to its new location and uses it to form a new breast mound. 
+" Height="250" Title="Latissimus dorsi flap" URI="/images/image_popup/w7_latflap.jpg" Width="400" />
+				<HTML>
+					In this flap procedure, the surgeon takes tissue from the latissimus dorsi muscle in your back, tunnels it underneath your skin to its new location and uses it to form a new breast mound. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing nipple reconstruction 
+" Caption="After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and then adds a tattoo to shade in the new areola. 
+" Height="60" Title="Nipple reconstruction" URI="/images/image_popup/thumbs/w7_nipplereconthu.jpg" Width="60" />
+				<Image Alt="Illustration showing nipple reconstruction 
+" Caption="After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and then adds a tattoo to shade in the new areola. 
+" Height="400" Title="Nipple reconstruction" URI="/images/image_popup/w7_nipplerecon.jpg" Width="400" />
+				<HTML>
+					After your breast has healed from reconstruction or mastectomy surgery, a plastic surgeon can reconstruct a new nipple and areola. The surgeon makes a star-shaped incision to form the new nipple and ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keep your expectations realistic when anticipating the outcome of your surgery. Breast reconstruction surgery offers many benefits, but it won&apos;t make you look or feel exactly like you did before your mastectomy. 
+&lt;/p&gt;
+&lt;p&gt;
+What breast reconstruction can do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Give you a breast contour&lt;/li&gt;
+	&lt;li&gt;Provide improved symmetry to your breasts so that they look similar under clothing or a bathing suit&lt;/li&gt;
+	&lt;li&gt;Help you avoid the need for an external prosthesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+What breast reconstruction may do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Improve your self-esteem and body image&lt;/li&gt;
+	&lt;li&gt;Partially erase the physical reminders of your disease&lt;/li&gt;
+	&lt;li&gt;Require additional surgery to correct reconstructive problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+What breast reconstruction won&apos;t do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Make you look exactly the same as before&lt;/li&gt;
+	&lt;li&gt;Give your reconstructed breast the same sensations as your normal breast&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Breast reconstruction with flap surgery
+	</Title>
+	<Abstract>
+		Breast reconstruction with flap surgery &amp;mdash; Overview covers definition, risks, results of autologous breast reconstruction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</TestProcedure>

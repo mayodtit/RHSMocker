@@ -1,0 +1,295 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00505
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pericarditis/DS00505
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-29
+		</UpdateDate>
+		<PublicationDate>
+			2003-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1470" Title="Heart muscle and lining">
+						<Keyword MCVID="1473" Title="Pericarditis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CE3BC2CF-B4C1-4401-8F0F9E0B7C284538
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pericarditis
+			</MetaKeyword>
+			<MetaKeyword>
+				pericardium
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pericarditis is a swelling and irritation of the pericardium, the thin sac-like membrane that surrounds your heart. Pericarditis often causes chest pain and sometimes other symptoms. Pericarditis is usually sudden and short-lived (acute). 
+&lt;/p&gt;
+&lt;p&gt;
+When symptoms develop more gradually or persist, the pericarditis is considered chronic. The sharp chest pain associated with pericarditis occurs when the inflamed or irritated two layers of the pericardium rub against each other. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases may improve on their own. Treatment for more-severe cases may include medications and, rarely, surgery. Early diagnosis and treatment may help to reduce the risk of long-term complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute pericarditis usually lasts less than a few weeks. Chronic pericarditis usually lasts six months or longer. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have acute pericarditis, the most common symptom is sharp, stabbing chest pain behind the breastbone or in the left side of your chest. However, some people with acute pericarditis describe their chest pain as dull, achy or pressure-like instead, and of varying intensity. 
+&lt;/p&gt;
+&lt;p&gt;
+The pain of acute pericarditis may travel into your left shoulder and neck. It often intensifies when you lie down or inhale deeply. Coughing, taking a deep breath or swallowing food also may make the pain worse. Sitting up and leaning forward can often ease the pain. At times, it may be difficult to distinguish pericardial pain from the pain that occurs with a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Chronic pericarditis is usually associated with chronic inflammation and may result in fluid around the heart (pericardial effusion). The most common symptom of chronic pericarditis is chest pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the type, signs and symptoms of pericarditis may include some or all of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sharp, piercing chest pain over the center or left side of your chest&lt;/li&gt;
+	&lt;li&gt;Shortness of breath when reclining&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+	&lt;li&gt;An overall sense of weakness, fatigue or feeling sick&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Abdominal or leg swelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek immediate medical care if you develop new symptoms of chest pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Many of the symptoms of pericarditis are similar to those of other heart and lung conditions. The sooner you are evaluated, the sooner you can receive proper diagnosis and treatment. For example, although the cause of acute chest pain may be pericarditis, the original cause could be a heart attack or a blood clot of the lungs (pulmonary embolus). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Under normal circumstances, the two-layered pericardial sac that surrounds your heart contains a small amount of lubricating fluid. In pericarditis, the sac becomes inflamed and the resulting friction from the inflamed sac leads to chest pain. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases the amount of fluid contained in the pericardial sac may increase, causing a pericardial effusion. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of pericarditis is often hard to determine. In most cases doctors are either unable to determine a cause (idiopathic) or suspect a viral infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Pericarditis can also develop shortly after a major heart attack, due to the irritation of the underlying damaged heart muscle. In addition, a delayed form of pericarditis may occur weeks after a heart attack or heart surgery because of antibody formation. This delayed pericarditis is known as Dressler&apos;s syndrome. Many experts believe Dressler&apos;s syndrome is due to an autoimmune response, a mistaken inflammatory response by the body to its own tissues &amp;mdash; in this case, the heart and pericardium. 
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of pericarditis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Systemic inflammatory disorders.&lt;/strong&gt; These may include lupus and rheumatoid arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma.&lt;/strong&gt; Injury to your heart or chest may occur as a result of a motor vehicle or other accident.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other health disorders.&lt;/strong&gt; These may include kidney failure, AIDS, tuberculosis and cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medications can cause pericarditis, although this is unusual.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Constrictive pericarditis.&lt;/strong&gt; Some people with pericarditis, particularly those with long-term inflammation and chronic recurrences, can develop permanent thickening, scarring and contraction of the pericardium. In these people, the pericardium loses much of its elasticity and resembles a rigid case that&apos;s tight around the heart, which keeps the heart from working properly. This condition is called constrictive pericarditis and often leads to severe swelling of the legs and abdomen, as well as shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac tamponade.&lt;/strong&gt; When too much fluid collects in the pericardium, a dangerous condition called cardiac tamponade can develop. Excess fluid puts pressure on the heart and doesn&apos;t allow it to fill properly. That means less blood leaves the heart, which causes a dramatic drop in blood pressure. If left untreated, cardiac tamponade can be fatal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Early diagnosis and treatment of pericarditis usually reduces the risk of the long-term complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or an emergency room physician. In some cases when you call to set up an appointment, you may be referred to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing&lt;/strong&gt; and for how long. Also note if you&apos;ve had similar symptoms that have come and gone in the past.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems you&apos;ve had and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For pericarditis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Will I need to be hospitalized for testing?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment can I expect improvement in my symptoms?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of the treatments you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;If the first treatment isn&apos;t effective, what will we try next?&lt;/li&gt;
+	&lt;li&gt;What is the risk of these symptoms recurring?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up appointments for this condition?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;Are there any special guidelines for managing this condition along with my other health conditions?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;In what part of your chest is your pain located?&lt;/li&gt;
+	&lt;li&gt;Did your symptoms come on gradually or suddenly? When?&lt;/li&gt;
+	&lt;li&gt;Have you had similar symptoms in the past?&lt;/li&gt;
+	&lt;li&gt;Are you having any difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;How does sitting up and leaning forward affect your pain?&lt;/li&gt;
+	&lt;li&gt;How does lying down affect your pain?&lt;/li&gt;
+	&lt;li&gt;Does anything else make your pain better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a cold or the flu?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a fever?&lt;/li&gt;
+	&lt;li&gt;Have you recently lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Do any of your first-degree relatives &amp;mdash; parents, siblings or children &amp;mdash; have a history of heart disease?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor likely will start by taking your medical history and asking questions about your chest pain and other symptoms. As part of your initial evaluation, your doctor will also perform a physical exam and check your heart sounds. 
+&lt;/p&gt;
+&lt;p&gt;
+While listening to your heart, your doctor will place a stethoscope on your chest to check for the sounds characteristic of pericarditis, which are made when the pericardial layers rub against each other. This characteristic noise is called a pericardial rub. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may have you undergo tests that can help determine whether you&apos;ve had a heart attack, whether fluid has collected in the pericardial sac, or whether there are signs of inflammation. Your doctor may use blood tests to determine if a bacterial or other type of infection is present. You may also undergo one or more of the following diagnostic procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this test, patches with wires (electrodes) are attached to your skin to measure the electrical impulses given off by your heart. Impulses are recorded as waves displayed on a monitor or printed on paper. Certain ECG results may indicate pericarditis, while others could indicate a heart attack.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; With an X-ray of your chest, your doctor can study the size and shape of your heart. Images of your heart may show an enlarged heart if excess fluid has accumulated in the pericardium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses high-frequency sound waves to create an image of your heart and its structures, including fluid accumulation in the pericardium. Your doctor can view and analyze this image on a monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; This X-ray technique can produce more-detailed images of your heart and the pericardium than can conventional X-ray studies. CT scanning may be done to exclude other causes of acute chest pain, such as a blood clot in a lung artery (pulmonary embolus) or a tear in your aorta (aortic dissection). CT scanning can also be used to look for thickening of the pericardium that might indicate constrictive pericarditis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This technique uses a magnetic field and radio waves to create cross-sectional images of your heart that can reveal thickening or other changes in the pericardium.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment choice for pericarditis depends on the cause as well as the severity. Mild cases of pericarditis may get better on their own without treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications to reduce the inflammation and swelling associated with pericarditis are often prescribed, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter pain relievers.&lt;/strong&gt; Most pain associated with pericarditis responds well to treatment with pain relievers available without a prescription, such as aspirin or ibuprofen (Advil, Motrin others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narcotic pain relievers.&lt;/strong&gt; If your pain is severe, you might need stronger pain medications, such as morphine, for a short time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colchicine (Colcrys).&lt;/strong&gt; This drug, which reduces inflammation in the body, may be prescribed for pericarditis or as a treatment for recurrent symptoms. Colchicine can reduce the length of pericarditis symptoms and decrease the risk that the condition will recur. However, the drug is not safe for people with certain pre-existing health problems, such as liver or kidney disease, and for those taking certain medications. Your doctor will carefully check your health history before prescribing colchicine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; If you don&apos;t respond to pain relievers or colchicine or if you have recurrent symptoms of pericarditis, your doctor may prescribe a steroid medication, such as prednisone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Acute episodes of pericarditis typically last from one to three weeks, but future episodes can occur. Some people with pericarditis have a recurrence within months of the original episode. 
+&lt;/p&gt;
+&lt;p&gt;
+When a bacterial infection is the underlying cause of pericarditis, you&apos;ll be treated with antibiotics and drainage if necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization and procedures&lt;/strong&gt;&lt;br /&gt;
+You&apos;ll likely need hospitalization if your doctor suspects cardiac tamponade, a dangerous complication of pericarditis due to fluid buildup around the heart. When cardiac tamponade is present, you may need a procedure called pericardiocentesis. In some cases of severe, recurrent pericarditis, your doctor might suggest surgically removing your pericardium (pericardiectomy). 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pericardiocentesis.&lt;/strong&gt; In this procedure, a doctor uses a sterile needle or a small tube (catheter) to remove and drain the excess fluid from the pericardial cavity. You&apos;ll receive a local anesthetic before undergoing pericardiocentesis, which is often done with echocardiogram monitoring and ultrasound guidance. This drainage may continue for several days during the course of your hospitalization.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pericardiectomy.&lt;/strong&gt; If you&apos;re diagnosed with constrictive pericarditis, you may need to undergo a surgical procedure (pericardiectomy) to remove the entire pericardium that has become rigid and is making it hard for your heart to pump.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pericarditis
+	</Title>
+	<Abstract>
+		Pericarditis &amp;mdash; Comprehensive overview covers symptoms, treatment of an inflammation of tissue surrounding the heart.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00666" LinkType="Internal" ObjectID="1A21E5F9-2A5D-9994-EC3379FA71AF86D8" Title="Dressler&apos;s syndrome" Url="http://www.mayoclinic.com/health/dresslers-syndrome/DS00666" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+	</RelatedLinksBox>
+</Disease>

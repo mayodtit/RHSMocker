@@ -1,0 +1,273 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01186
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-cysts/DS01186
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-18
+		</UpdateDate>
+		<PublicationDate>
+			2010-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="2209" Title="Kidney cyst">
+							<Keyword MCVID="4695" Title="Simple kidney cysts" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			174FBA5D-F47B-4779-54DA131FA6706B45
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				renal cysts
+			</MetaKeyword>
+			<MetaKeyword>
+				renal cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				cyst on kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney cyst symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				cysts on a kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				cyst in a kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				simple kidney cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				simple renal cyst
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney cysts are round pouches of fluid that form in the kidneys. Kidney cysts can be associated with serious disorders that may impair kidney function. But more commonly, kidney cysts are a type called simple kidney cysts &amp;mdash; noncancerous cysts that rarely cause complications. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not clear what causes simple kidney cysts. Typically, only one cyst occurs on the surface of a kidney, but multiple cysts can affect one or both kidneys. However, simple kidney cysts aren&apos;t the same as the cysts that form with polycystic kidney disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Simple kidney cysts are often detected during an imaging test being done for another condition. Simple kidney cysts that don&apos;t cause signs or symptoms usually don&apos;t require treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a kidney cyst 
+" Caption="A kidney cyst is a round or oval fluid-filled pouch with a well-defined outline. Kidney cysts typically grow on the surface of a kidney, although some may develop inside your kidney.
+" Height="60" Title="Kidney cyst" URI="/images/image_popup/thumbs/mcdc7_kidney_cystthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a kidney cyst 
+" Caption="A kidney cyst is a round or oval fluid-filled pouch with a well-defined outline. Kidney cysts typically grow on the surface of a kidney, although some may develop inside your kidney.
+" Height="537" Title="Kidney cyst" URI="/images/image_popup/mcdc7_kidney_cyst.jpg" Width="400" />
+				<HTML>
+					A kidney cyst is a round or oval fluid-filled pouch with a well-defined outline. Kidney cysts typically grow on the surface of a kidney, although some may develop inside your kidney.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Simple kidney cysts typically don&apos;t cause signs or symptoms. If a simple kidney cyst grows large enough, symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dull pain in your back or side&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Upper abdominal pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have signs or symptoms of a kidney cyst.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes simple kidney cysts. One theory suggests that kidney cysts develop when the surface layer of the kidney weakens and forms a pouch (diverticulum). The pouch then fills with fluid, detaches and develops into a cyst.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk of having simple kidney cysts increases as you get older, though they can occur at any age.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney cysts can occasionally cause complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An infected cyst.&lt;/strong&gt; A kidney cyst may become infected, causing fever and pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A burst cyst.&lt;/strong&gt; A kidney cyst that bursts causes severe pain in your back or side.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine obstruction.&lt;/strong&gt; A kidney cyst that obstructs the normal flow of urine may lead to swelling of the kidney (hydronephrosis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A simple kidney cyst discovered during an imaging test for another disease or condition may cause concern about what it means for your health. Talking with your doctor about simple kidney cysts may put your mind at ease and help you feel more in control of your condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your next appointment, prepare a list of questions for your doctor. Consider asking:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How big is my kidney cyst?&lt;/li&gt;
+	&lt;li&gt;Is my kidney cyst new or has it been visible on other scans?&lt;/li&gt;
+	&lt;li&gt;Is my kidney cyst likely to grow?&lt;/li&gt;
+	&lt;li&gt;Can my kidney cyst hurt my kidney?&lt;/li&gt;
+	&lt;li&gt;I have these unexplained symptoms. Could they be caused by a kidney cyst?&lt;/li&gt;
+	&lt;li&gt;Does my kidney cyst need to be removed?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;What signs or symptoms may indicate my kidney cyst is growing?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do you have any printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions as they occur to you during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have any symptoms?&lt;/li&gt;
+	&lt;li&gt;If so, how long have you experienced symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do you have any blood in your urine?&lt;/li&gt;
+	&lt;li&gt;Have you had pain in your back or sides?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever or chills?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications, vitamins or supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose simple kidney cysts include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests, such as an ultrasound, computerized tomography (CT) scan and magnetic resonance imaging (MRI), are often used to investigate simple kidney cysts. Imaging tests can help your doctor determine whether a kidney mass is a cyst or a tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney function tests.&lt;/strong&gt; Testing a sample of your blood may reveal whether a kidney cyst is impairing your kidney function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment may not be necessary&lt;/strong&gt;&lt;br /&gt;
+If your simple kidney cyst causes no signs or symptoms and doesn&apos;t interfere with your kidney function, you may not need treatment. Instead, your doctor may recommend that you have an imaging test, such as ultrasound, periodically to see whether your kidney cyst has enlarged. If your kidney cyst changes and causes signs and symptoms, you may choose to have treatment at that time. Sometimes a simple kidney cyst goes away on its own.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments for cysts that cause signs and symptoms&lt;/strong&gt;&lt;br /&gt;
+If your simple kidney cyst is causing signs and symptoms, your doctor may recommend treatment. Options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Puncturing and draining the cyst, then filling it with alcohol.&lt;/strong&gt; Rarely, to shrink the cyst, your doctor inserts a long, thin needle through your skin and through the wall of the kidney cyst. Then the fluid is drained from the cyst. Your doctor may fill the cyst with an alcohol solution to prevent it from reforming. The cysts generally return after this type of procedure, so it&apos;s reserved for certain situations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the cyst.&lt;/strong&gt; A large or symptomatic cyst may require surgery to drain and remove it. To access the cyst, the surgeon makes several small incisions in your skin and inserts special tools and a small video camera. While watching a video monitor in the operating room, the surgeon guides the tools to the kidney and uses them to drain the fluid from the cyst. Then the walls of the cyst are cut or burned away.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the type of procedure your doctor recommends, treatment for your kidney cyst may require a brief hospital stay.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kidney cysts
+	</Title>
+	<Abstract>
+		Kidney cysts &amp;mdash; Overview covers symptoms, complications and treatment of simple kidney cysts.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01204" LinkType="Internal" ObjectID="D8F4FDF3-CBB9-4DD5-5B7930AE202EFF56" Title="Intravenous pyelogram" Url="http://www.mayoclinic.com/health/intravenous-pyelogram/MY01204" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Disease" DocID="DS00593" LinkType="Internal" ObjectID="154D83D3-F9E7-4F8D-B4CA56E08B68CE14" Title="Kidney infection" Url="http://www.mayoclinic.com/health/kidney-infection/DS00593" />
+	</RelatedLinksBox>
+</Disease>

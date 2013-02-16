@@ -1,0 +1,397 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00947
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bradycardia/DS00947
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-26
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4269" Title="Bradycardia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			97602949-E7FF-0DBD-1214ED24239B2AFD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bradycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				slow heartbeat
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus bradycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				slow heart beat
+			</MetaKeyword>
+			<MetaKeyword>
+				heart arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				slow heart rate
+			</MetaKeyword>
+			<MetaKeyword>
+				heart block
+			</MetaKeyword>
+			<MetaKeyword>
+				atrioventricular block
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bradycardia is a slower than normal heart rate. The heart usually beats between 60 and 100 times a minute in an adult at rest. If you have bradycardia (brad-e-KAHR-de-uh), your heart beats fewer than 60 times minute. 
+&lt;/p&gt;
+&lt;p&gt;
+Bradycardia can be a serious problem if the heart doesn&apos;t pump enough oxygen-rich blood to the body. For some people, however, bradycardia doesn&apos;t cause symptoms or complications. 
+&lt;/p&gt;
+&lt;p&gt;
+An implanted pacemaker and other treatments may correct bradycardia and help your heart maintain an appropriate rate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have bradycardia, your brain and other organs may not get the supply of oxygen they need. As a result, you may experience these bradycardia symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Near-fainting or fainting (syncope)&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pains&lt;/li&gt;
+	&lt;li&gt;Confusion or memory problems&lt;/li&gt;
+	&lt;li&gt;Easily tiring during physical activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When a slow heart rate is normal&lt;/strong&gt;&lt;br /&gt;
+A resting heart rate slower than 60 beats a minute may be normal for some people, particularly for healthy, young adults and trained athletes. For these people, bradycardia isn&apos;t considered a health problem. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+A number of conditions can cause signs and symptoms of bradycardia. It&apos;s important to get a prompt, accurate diagnosis and appropriate care. See your doctor if you or your child experiences any symptoms of bradycardia. 
+&lt;/p&gt;
+&lt;p&gt;
+If you faint, have difficulty breathing or have chest pain lasting more than a few minutes, get emergency care or call 911 or your local emergency number. Seek emergency care for anyone experiencing these symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bradycardia is caused by something that disrupts the normal electrical impulses controlling the rate of your heart&apos;s pumping action. Many things can cause or contribute to problems with your heart&apos;s electrical system, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart tissue damage related to aging&lt;/li&gt;
+	&lt;li&gt;Damage to heart tissues from heart disease or heart attack&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Heart disorder present at birth (congenital heart defect)&lt;/li&gt;
+	&lt;li&gt;Infection of heart tissue (myocarditis)&lt;/li&gt;
+	&lt;li&gt;A complication of heart surgery&lt;/li&gt;
+	&lt;li&gt;Underactive thyroid gland (hypothyroidism)&lt;/li&gt;
+	&lt;li&gt;Imbalance of electrolytes, mineral-related substances necessary for conducting electrical impulses&lt;/li&gt;
+	&lt;li&gt;Obstructive sleep apnea, the repeated disruption of breathing during sleep&lt;/li&gt;
+	&lt;li&gt;Inflammatory disease, such as rheumatic fever or lupus&lt;/li&gt;
+	&lt;li&gt;Hemochromatosis, the buildup of iron in organs&lt;/li&gt;
+	&lt;li&gt;Medications, including some drugs for other heart rhythm disorders, high blood pressure and psychosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrical circuitry of the heart&lt;/strong&gt; Your heart is made up of four chambers &amp;mdash; two upper chambers (atria) and two lower chambers (ventricles). The rhythm of your heart is normally controlled by a natural pacemaker &amp;mdash; the sinus node &amp;mdash; located in the right atrium. The sinus node produces electrical impulses that initiate each heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+From the sinus node, electrical impulses travel across the atria, causing the atria to contract and pump blood into the ventricles. The electrical impulses then arrive at a cluster of cells called the atrioventricular node (AV node). 
+&lt;/p&gt;
+&lt;p&gt;
+The AV node transmits the signal to a specialized collection of cells called the bundle of His. These cells transmit the signal down a left branch serving the left ventricle and a right branch serving the right ventricle. When the electrical impulse travels down these branches, the ventricles contract and pump blood &amp;mdash; the right ventricle sending oxygen-poor blood to the lungs and the left ventricle sending oxygen-rich blood to the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Bradycardia occurs when electrical signals slow down or are blocked. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sinus node problems&lt;/strong&gt;&lt;br /&gt;
+Bradycardia often starts in the sinus node. A slow heart rate may occur because the sinus node: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Discharges electrical impulses at a slower than normal rate&lt;/li&gt;
+	&lt;li&gt;Pauses, or fails to discharge at a regular rate&lt;/li&gt;
+	&lt;li&gt;Discharges an electrical impulse that&apos;s blocked before causing the atria to contract&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some people the sinus node problems may result in alternating slow and fast heart rates (bradycardia-tachycardia syndrome). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart block (atrioventricular block)&lt;/strong&gt;&lt;br /&gt;
+Bradycardia may also occur because electrical signals transmitted through the atria aren&apos;t transmitted to the ventricles (heart block, or atrioventricular block). The disruption of the electrical signal may occur in the AV node, the bundle of His, or somewhere along the left and right branches that transmit electrical signals to the ventricles. Heart blocks are classified based on the degree to which signals from the atria reach your heart&apos;s main pumping chambers (ventricles). 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;First-degree heart block.&lt;/strong&gt; In the mildest form of heart block, all electrical signals from the atria reach the ventricles, but the signal is slowed down slightly. First-degree heart block rarely causes symptoms and usually needs no treatment if there&apos;s no other abnormality in electrical signal conduction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Second-degree heart block.&lt;/strong&gt; In second-degree heart block, not all electrical signals reach the ventricles. Some beats are &quot;dropped,&quot; resulting in a slower and sometimes irregular rhythm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Third-degree (complete) heart block.&lt;/strong&gt; In third-degree heart block, none of the electrical impulses from the atria reaches the ventricles. When this happens, the bundle of His or other tissues of the ventricles function as a substitute pacemaker for the ventricles. These substitutes result in slow and sometimes unreliable electrical impulses to control the beat of the ventricles. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bundle branch block.&lt;/strong&gt; The interruption of an electrical signal somewhere in the right or left bundle branches &amp;mdash; near the end of the pathway for electrical impulses &amp;mdash; is called a bundle branch block. The seriousness of bundle branch block depends on whether both branches are affected, the presence of other types of heart block and the degree of damage to heart tissue.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="60" Title="Normal heartbeat" URI="/images/image_popup/thumbs/hb7_heartelectricalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="330" Title="Normal heartbeat" URI="/images/image_popup/hb7_heartelectrical.jpg" Width="400" />
+				<HTML>
+					A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of untreated bradycardia vary depending on how slow the heart rate is, where the electrical conduction problem occurs and what kind of damage may be present in heart tissue. If bradycardia is significant enough to cause symptoms, possible complications of the slow heart rate may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent fainting spells&lt;/li&gt;
+	&lt;li&gt;Inability of the heart to pump enough blood (heart failure)&lt;/li&gt;
+	&lt;li&gt;Sudden cardiac arrest or sudden death&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Age&lt;/strong&gt;&lt;br /&gt;
+A key risk factor for bradycardia is age. Heart problems, which are often associated with bradycardia, are more common in older adults. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors related to heart disease&lt;/strong&gt;&lt;br /&gt;
+Bradycardia is often associated with damage to heart tissue from some type of heart disease. Therefore, factors that increase your risk of heart disease may also increase the risk of bradycardia. Lifestyle changes or medical treatment may decrease the risk of heart disease associated with the following factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Heavy alcohol use&lt;/li&gt;
+	&lt;li&gt;Use of illegal drugs&lt;/li&gt;
+	&lt;li&gt;Psychological stress or anxiety&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether you first see your family doctor or get emergency care, you&apos;ll likely be referred to a heart specialist (cardiologist) for one or more appointments for a complete diagnostic assessment. 
+&lt;/p&gt;
+&lt;p&gt;
+If possible, take along a family member or friend who can give some moral support and help you keep track of new information. Because there may be a lot of ground to cover, it will be helpful to prepare as much as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Make a list ahead of time that you can share with your doctor. Your list should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms you&apos;ve experienced,&lt;/strong&gt; including any that may seem unrelated to your heart&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key personal information,&lt;/strong&gt; including any major stresses or recent life changes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; including vitamins or supplements&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask&lt;/strong&gt; your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important in case time runs out. Basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my slow heart rate?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What kind of risks does my heart condition create?&lt;/li&gt;
+	&lt;li&gt;How will we monitor my heart?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up appointments?&lt;/li&gt;
+	&lt;li&gt;How will other conditions I have or medications I take affect my heart problem?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict my activities?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions that may come up during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you experienced fainting spells in the past?&lt;/li&gt;
+	&lt;li&gt;Does anything, such as exercise, seem to worsen symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for heart disease, high blood pressure, high cholesterol or other conditions that may affect your circulatory system?&lt;/li&gt;
+	&lt;li&gt;What medications do you take for these conditions, and do you take them as prescribed?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will order a series of tests to measure your heart rate, establish a link between a slow heart rate and your symptoms, and identify conditions that may be causing bradycardia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram (ECG)&lt;/strong&gt;&lt;br /&gt;
+An electrocardiogram &amp;mdash; also called an ECG or EKG &amp;mdash; is a primary tool for evaluating bradycardia. An ECG uses small sensors (electrodes) attached to your chest and arms to record electrical signals as they travel through your heart. Your doctor can look for patterns among these signals to determine what kind of bradycardia you have. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also have you use a portable ECG device at home to provide more information about your heart rate and to help establish a correlation between a slow heart rate and the onset of symptoms. These devices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; This portable ECG device is carried in your pocket or worn on a belt or shoulder strap. It can record your heart&apos;s activity for an entire 24-hour period, which provides your doctor with a prolonged look at your heart rhythms. Your doctor will likely ask you to keep a diary during the same 24 hours. You&apos;ll describe any symptoms you experience and record the time they occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; This portable ECG device is intended to monitor your heart activity over a few weeks to a few months. You activate it only when you experience symptoms that may be related to a slow heart rate. When you feel symptoms, you push a button, and an ECG strip of the preceding few minutes and following few minutes is recorded. This permits your doctor to determine your heart rhythm at the time of your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also use an ECG monitor while performing other tests to understand the impact of bradycardia. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tilt table test.&lt;/strong&gt; This test helps your doctor better understand how your bradycardia contributes to fainting spells. You lie flat on a special table, and then the table is tilted as if you were standing up. Changes in the position may cause a fainting spell and help your doctor to establish a link between your heart rate and fainting episodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise test.&lt;/strong&gt; Your doctor may monitor your heart rate while you walk on a treadmill or ride a stationary bike to see whether your heart rate increases appropriately in response to physical activity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory and other tests&lt;/strong&gt;&lt;br /&gt;
+Your doctor will order blood tests to screen for underlying conditions that may be contributing to bradycardia, such as an infection, hypothyroidism or an electrolyte imbalance. If sleep apnea is suspected of contributing to bradycardia, you may undergo tests to monitor your sleep. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for bradycardia depends on the type of electrical conduction problem, the severity of symptoms, and the cause of your slow heart rate. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating underlying disorders&lt;/strong&gt;&lt;br /&gt;
+If an underlying disorder, such as hypothyroidism or obstructive sleep apnea, is causing bradycardia, treatment of the disorder may correct bradycardia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Change in medications&lt;/strong&gt;&lt;br /&gt;
+A number of medications, including some to treat other heart conditions, can cause bradycardia. Your doctor will check what medications you&apos;re taking and may recommend alternative treatments. Changing drugs or lowering dosages may correct problems with a slow heart rate. When alternative treatments are not possible and symptoms require treatment, a pacemaker is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pacemaker&lt;/strong&gt;&lt;br /&gt;
+A pacemaker is a battery-operated device about the size of a cell phone that&apos;s implanted under your collarbone. Wires from the device are threaded through veins and into your heart. Electrodes at the end of the wires are attached to heart tissues. The pacemaker monitors your heart rate and generates electrical impulses as necessary to maintain an appropriate rate. 
+&lt;/p&gt;
+&lt;p&gt;
+Most pacemakers also capture and record information that your cardiologist can use to monitor your heart. You will have regularly scheduled follow-up appointments to check your heart and ensure the proper function of your pacemaker. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most effective way to prevent bradycardia is to reduce your risk of developing heart disease. If you already have heart disease, monitor it and follow your treatment plan to lower your risk of bradycardia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevent heart disease&lt;/strong&gt;&lt;br /&gt;
+Treat or eliminate risk factors that may lead to heart disease. Take the following steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise and eat a healthy diet.&lt;/strong&gt; Live a heart-healthy lifestyle by exercising regularly and eating a healthy, low-fat diet that&apos;s rich in fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight increases your risk of developing heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep blood pressure and cholesterol under control.&lt;/strong&gt; Make lifestyle changes and take medications as prescribed to correct high blood pressure (hypertension) or high cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If you smoke and can&apos;t quit on your own, talk to your doctor about strategies or programs to help you break a smoking habit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you drink, do so in moderation.&lt;/strong&gt; If you drink alcohol, drink in moderation. For some conditions it&apos;s recommended that you completely avoid alcohol. Ask your doctor for advice specific to your condition. If you can&apos;t control your alcohol use, talk to your doctor about a program to quit drinking and manage other behaviors related to alcohol abuse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use illegal drugs.&lt;/strong&gt; Talk to your doctor about an appropriate program for you if you need help ending illegal drug use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control stress.&lt;/strong&gt; Avoid unnecessary stress and learn coping techniques to handle normal stress in a healthy way.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Go to scheduled checkups.&lt;/strong&gt; Have regular physical exams and report any signs or symptoms to your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitor and treat existing heart disease&lt;/strong&gt;&lt;br /&gt;
+If you already have heart disease, there are steps you can take to lower your risk of developing bradycardia or another heart rhythm disorder: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow the plan.&lt;/strong&gt; Be sure you understand your treatment plan, and take all medications as prescribed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Report changes immediately.&lt;/strong&gt; If your symptoms change or get worse or you develop new symptoms, tell your doctor immediately.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bradycardia
+	</Title>
+	<Abstract>
+		Bradycardia &amp;mdash; Comprehensive overview of symptoms, diagnosis and treatment of a slow heartbeat.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Article" DocID="HQ01543" LinkType="Internal" ObjectID="CC7F5299-FB76-45F6-99F3479FAE3C9385" Title="Fitness: Tips for staying motivated" Url="http://www.mayoclinic.com/health/fitness/HQ01543" />
+		<LinkItem ContentType="Article" DocID="MY01268" LinkType="Internal" ObjectID="B09B7010-C810-F4BF-8C671CB18312534E" Title="Fast food: 5 ways to healthier meals" Url="http://www.mayoclinic.com/health/fast-food/MY01268" />
+		<LinkItem ContentType="Article" DocID="SR00035" LinkType="Internal" ObjectID="1B214325-E7FF-0DBD-12CFBF2A9D240487" Title="Spirituality and stress relief: Make the connection" Url="http://www.mayoclinic.com/health/stress-relief/SR00035" />
+		<LinkItem ContentType="Disease" DocID="DS00930" LinkType="Internal" ObjectID="3720EF76-E7FF-0DBD-1BBAC5E30AECE271" Title="Sick sinus syndrome" Url="http://www.mayoclinic.com/health/sick-sinus-syndrome/DS00930" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Disease>

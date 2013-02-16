@@ -1,0 +1,548 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01045
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diabetic-neuropathy/DS01045
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-06
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1139" Title="Diabetes mellitus">
+						<Keyword MCVID="3304" Title="Diabetic neuropathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8B100B6D-E7FF-0DBD-1F560FC125F949B9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetic neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic peripheral neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				nerve damage
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic neropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic autonomic neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				neuropathic pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic neuropathy is a type of nerve damage that can occur if you have diabetes. High blood sugar can injure nerve fibers throughout your body, but diabetic neuropathy most often damages nerves in your legs and feet. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the affected nerves, symptoms of diabetic neuropathy can range from pain and numbness in your extremities to problems with your digestive system, urinary tract, blood vessels and heart. For some people, these symptoms are mild; for others, diabetic neuropathy can be painful, disabling and even fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+Diabetic neuropathy is a common serious complication of diabetes. Yet you can often prevent diabetic neuropathy or slow its progress with tight blood sugar control and a healthy lifestyle. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are four main types of diabetic neuropathy. You may have just one type or symptoms of several types. Most develop gradually, and you may not notice problems until considerable damage has occurred. 
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of diabetic neuropathy vary, depending on the type of neuropathy and which nerves are affected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Peripheral neuropathy&lt;/strong&gt; &lt;br /&gt;
+Peripheral neuropathy is the most common form of diabetic neuropathy. Your feet and legs are often affected first, followed by your hands and arms. Possible signs and symptoms of peripheral neuropathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Numbness or reduced ability to feel pain or changes in temperature, especially in your feet and toes&lt;/li&gt;
+	&lt;li&gt;A tingling or burning feeling&lt;/li&gt;
+	&lt;li&gt;Sharp, jabbing pain that may be worse at night&lt;/li&gt;
+	&lt;li&gt;Pain when walking&lt;/li&gt;
+	&lt;li&gt;Extreme sensitivity to the lightest touch &amp;mdash; for some people, even the weight of a sheet can be agonizing&lt;/li&gt;
+	&lt;li&gt;Muscle weakness and difficulty walking&lt;/li&gt;
+	&lt;li&gt;Serious foot problems, such as ulcers, infections, deformities, and bone and joint pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Autonomic neuropathy&lt;/strong&gt; &lt;br /&gt;
+The autonomic nervous system controls your heart, bladder, lungs, stomach, intestines, sex organs and eyes. Diabetes can affect the nerves in any of these areas, possibly causing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A lack of awareness that blood sugar levels are low (hypoglycemia unawareness)&lt;/li&gt;
+	&lt;li&gt;Bladder problems, including frequent urinary tract infections or urinary incontinence&lt;/li&gt;
+	&lt;li&gt;Constipation, uncontrolled diarrhea or a combination of the two&lt;/li&gt;
+	&lt;li&gt;Slow stomach emptying (gastroparesis), leading to nausea, vomiting and loss of appetite&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction in men&lt;/li&gt;
+	&lt;li&gt;Vaginal dryness and other sexual difficulties in women&lt;/li&gt;
+	&lt;li&gt;Increased or decreased sweating&lt;/li&gt;
+	&lt;li&gt;Inability of your body to adjust blood pressure and heart rate, leading to sharp drops in blood pressure when you rise from sitting or lying down (orthostatic hypotension) that may cause you to feel lightheaded or even faint&lt;/li&gt;
+	&lt;li&gt;Problems regulating your body temperature&lt;/li&gt;
+	&lt;li&gt;Changes in the way your eyes adjust from light to dark&lt;/li&gt;
+	&lt;li&gt;Increased heart rate when you&apos;re at rest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiculoplexus neuropathy (diabetic amyotrophy)&lt;/strong&gt; &lt;br /&gt;
+Instead of affecting the ends of nerves, like peripheral neuropathy, radiculoplexus neuropathy affects nerves in the thighs, hips, buttocks or legs. Also called diabetic amyotrophy, femoral neuropathy, or proximal neuropathy, this condition is more common in people with type 2 diabetes and older adults. Symptoms are usually on one side of the body, though in some cases symptoms may spread to the other side too. Most people improve at least partially over time, though symptoms may worsen before they get better. This condition is often marked by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, severe pain in your hip and thigh or buttock&lt;/li&gt;
+	&lt;li&gt;Eventual weak and atrophied thigh muscles&lt;/li&gt;
+	&lt;li&gt;Difficulty rising from a sitting position&lt;/li&gt;
+	&lt;li&gt;Abdominal swelling, if the abdomen is affected&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Mononeuropathy&lt;/strong&gt; &lt;br /&gt;
+Mononeuropathy involves damage to a specific nerve. The nerve may be in the face, torso or leg. Mononeuropathy, which may also be called focal neuropathy, often comes on suddenly. It&apos;s most common in older adults. Although mononeuropathy can cause severe pain, it usually doesn&apos;t cause any long-term problems. Symptoms usually diminish and disappear on their own over a few weeks or months. Signs and symptoms depend on which nerve is involved and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty focusing your eyes, double vision or aching behind one eye&lt;/li&gt;
+	&lt;li&gt;Paralysis on one side of your face (Bell&apos;s palsy)&lt;/li&gt;
+	&lt;li&gt;Pain in your shin or foot&lt;/li&gt;
+	&lt;li&gt;Pain in the front of your thigh&lt;/li&gt;
+	&lt;li&gt;Chest or abdominal pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sometimes mononeuropathy occurs when a nerve is compressed. Carpal tunnel syndrome is a common type of compression neuropathy in people with diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of carpal tunnel syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Numbness or tingling in your fingers or hand, especially in your thumb, index finger, middle finger and ring finger&lt;/li&gt;
+	&lt;li&gt;A sense of weakness in your hand and a tendency to drop things&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek medical care if you notice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cut or sore on your foot that doesn&apos;t seem to be healing, is infected or is getting worse&lt;/li&gt;
+	&lt;li&gt;Burning, tingling, weakness or pain in your hands or feet that interferes with your daily routine or your sleep&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Changes in your digestion, urination or sexual function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These symptoms don&apos;t always indicate nerve damage, but they may signal other problems that require medical care. In either case, early diagnosis and treatment offer the best chance for controlling symptoms and preventing more-severe problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Even minor sores on the feet that don&apos;t heal can turn into ulcers. In the most severe cases, untreated foot ulcers may become gangrenous &amp;mdash; a condition in which the tissue dies &amp;mdash; and require surgery or even amputation of your foot. Early treatment can help prevent this from happening. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Damage to nerves and blood vessels&lt;/strong&gt; &lt;br /&gt;
+Prolonged exposure to high blood sugar (glucose) can damage delicate nerve fibers, causing diabetic neuropathy. Why this happens isn&apos;t completely clear, but a combination of factors likely plays a role, including the complex interaction between nerves and blood vessels. High blood glucose interferes with the ability of the nerves to transmit signals. It also weakens the walls of the small blood vessels (capillaries) that supply the nerves with oxygen and nutrients. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other factors&lt;/strong&gt; &lt;br /&gt;
+Other factors that may contribute to diabetic neuropathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation in the nerves&lt;/strong&gt; caused by an autoimmune response. This occurs when your immune system mistakenly attacks part of your body as if it were a foreign organism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic factors&lt;/strong&gt; unrelated to diabetes that make some people more susceptible to nerve damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking and alcohol abuse,&lt;/strong&gt; which damage both nerves and blood vessels and significantly increase the risk of infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone who has diabetes can develop neuropathy, but these factors make you more susceptible to nerve damage: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor blood sugar control.&lt;/strong&gt; This is the greatest risk factor for every complication of diabetes, including nerve damage. Keeping blood sugar consistently within your target range is the best way to protect the health&lt;strong&gt; &lt;/strong&gt;of your nerves and blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Length of time you have diabetes.&lt;/strong&gt; Your risk of diabetic neuropathy increases the longer you have diabetes, especially if your blood sugar isn&apos;t well controlled. Peripheral neuropathy is most common in people who have had diabetes for at least 25 years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney disease.&lt;/strong&gt; Diabetes can cause damage to the kidneys, which may increase the toxins in the blood and contribute to nerve damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking narrows and hardens your arteries, reducing blood flow to your legs and feet. This makes it more difficult for wounds to heal and damages the integrity of the peripheral nerves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic neuropathy can cause a number of serious complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Loss of a limb.&lt;/strong&gt; Because nerve damage can cause a lack of feeling in your feet, cuts and sores may go unnoticed and eventually become severely infected or ulcerated &amp;mdash; a condition in which the skin and soft tissues break down. The risk of infection is high because diabetes reduces blood flow to your feet.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Infections that spread to the bone and cause tissue death (gangrene) may be impossible to treat and require amputation of a toe, foot or even the lower leg. More than half the nontraumatic lower limb amputations performed every year in the United States are due to diabetes. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Charcot joint.&lt;/strong&gt; This occurs when a joint, usually in the foot, deteriorates because of nerve damage. Charcot joint is marked by loss of sensation, as well as swelling, instability and sometimes deformity in the joint itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract infections and urinary incontinence.&lt;/strong&gt; Damage to the nerves that control your bladder can prevent it from emptying completely. This allows bacteria to multiply in your bladder and kidneys, leading to urinary tract infections. Nerve damage can also affect your ability to feel when you need to urinate or to control the muscles that release urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypoglycemia unawareness.&lt;/strong&gt; Normally, when your blood sugar drops too low &amp;mdash; below 70 milligrams per deciliter (mg/dL), or below 3.9 millimoles per liter (mmol/L) &amp;mdash; you develop symptoms such as shakiness, sweating and a fast heartbeat. These symptoms alert you to the problem so that you can take steps to raise your blood sugar quickly. Autonomic neuropathy can interfere with your ability to notice these symptoms. This is extremely serious &amp;mdash; untreated hypoglycemia can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood pressure.&lt;/strong&gt; Damage to the nerves that control circulation can affect your body&apos;s ability to adjust blood pressure. This can cause a sharp drop in pressure when you stand after sitting (orthostatic hypotension), which may lead to dizziness and fainting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive problems&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Damage to the nerves in the digestive system can cause a range of problems, including severe constipation or diarrhea &amp;mdash; or alternating bouts of constipation and diarrhea &amp;mdash; as well as nausea, vomiting, bloating and loss of appetite. One particularly serious digestive problem is gastroparesis, a condition in which the stomach empties too slowly or not at all. This can interfere with digestion, cause nausea and vomiting, and severely affect blood sugar levels and nutrition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual dysfunction.&lt;/strong&gt; Autonomic neuropathy often damages the nerves that affect the sex organs, leading to erectile dysfunction in men and problems with lubrication and arousal in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased or decreased sweating.&lt;/strong&gt; When the sweat glands don&apos;t function normally, your body isn&apos;t able to regulate its temperature properly. A reduced or complete lack of perspiration (anhidrosis) can be life-threatening. Autonomic neuropathy also causes excessive sweating, particularly at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social isolation.&lt;/strong&gt; The pain, disability and embarrassment caused by nerve damage can rob people &amp;mdash; particularly older adults &amp;mdash; of their independence, leaving them increasingly isolated and depressed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You probably already see your primary care doctor or an endocrinologist on a regular basis. If you don&apos;t already see an endocrinologist, you&apos;ll likely be referred to one if you start showing signs of diabetes complications. An endocrinologist is a doctor who specializes in treating metabolic disorders, such as diabetes. You may also be referred to a doctor who specializes in treating nervous system problems (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your recent blood sugar levels,&lt;/strong&gt; if you check them at home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; It can be difficult to remember everything your doctor tells you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For diabetic neuropathy, some basic questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is diabetes the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need tests to confirm the cause of my symptoms? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;If I control my blood sugar, will these symptoms go away?&lt;/li&gt;
+	&lt;li&gt;Are there treatments available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to see other doctors, a certified diabetes educator or a dietitian?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How is your blood sugar control?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What aspects of diabetes management do you find most challenging?&lt;/li&gt;
+	&lt;li&gt;What might help you manage your diabetes better?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic neuropathy is usually diagnosed based on your symptoms, your medical history and a physical exam. During the exam, your doctor is likely to check your muscle strength and tone, tendon reflexes, and sensitivity to touch, temperature and vibration. 
+&lt;/p&gt;
+&lt;p&gt;
+Other tests that may be conducted include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Filament test.&lt;/strong&gt; Sensitivity to touch may be tested using a soft nylon fiber called a monofilament. If you&apos;re unable to feel the filament on your feet, it&apos;s a sign that you&apos;ve lost sensation in those nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction studies.&lt;/strong&gt; This test measures how quickly the nerves in your arms and legs conduct electrical signals. It&apos;s often used to diagnose carpal tunnel syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; Often performed along with nerve conduction studies, electromyography measures the electrical discharges produced in your muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quantitative sensory testing.&lt;/strong&gt; This noninvasive test is used to assess how your nerves respond to vibration and changes in temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autonomic testing.&lt;/strong&gt; If you have symptoms of autonomic neuropathy, your doctor may request special tests to look at your blood pressure in different positions and assess your ability to sweat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The American Diabetes Association recommends that all people with diabetes have a comprehensive foot exam &amp;mdash; either by a doctor or by a foot specialist (podiatrist) &amp;mdash; at least once a year. In addition, your feet should be checked for sores, cracked skin, calluses, blisters, and bone and joint abnormalities at every office visit. 
+&lt;/p&gt;
+&lt;p&gt;
+If you already have diabetic neuropathy, you&apos;ll likely be referred to a podiatrist or other specialist for monitoring and treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diabetic neuropathy has no known cure. Treatment for diabetic neuropathy focuses on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slowing progression of the disease&lt;/li&gt;
+	&lt;li&gt;Relieving pain&lt;/li&gt;
+	&lt;li&gt;Managing complications and restoring function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Slowing progression of the disease&lt;/strong&gt; &lt;br /&gt;
+Consistently keeping blood sugar within a narrow target range can help delay the progression of peripheral neuropathy and may even cause an improvement in symptoms you already have. With intense glucose control you may reduce your overall risk of diabetic neuropathy by as much as 60 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+For intense blood sugar control, your goals will likely be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood sugar level before meals &amp;mdash; 70 to 130 mg/dL (3.9 to 7.2 mmol/L)&lt;/li&gt;
+	&lt;li&gt;Blood sugar level two hours after meals &amp;mdash; less than 180 mg/dL (10 mmol/L)&lt;/li&gt;
+	&lt;li&gt;Hemoglobin A1C, an indicator of your blood sugar control for the past few months &amp;mdash; less than 7 percent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A1C is the amount of sugar that has attached to hemoglobin &amp;mdash; the substance that carries oxygen inside red blood cells &amp;mdash; in your blood. The higher your average blood sugar level for the past two or three months, the higher your A1C number will be. People who don&apos;t have diabetes have an A1C between 4 and 6 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+To help slow nerve damage: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Follow your doctor&apos;s recommendations for good foot care&lt;/li&gt;
+	&lt;li&gt;Keep your blood pressure under control&lt;/li&gt;
+	&lt;li&gt;Follow a healthy-eating plan&lt;/li&gt;
+	&lt;li&gt;Get plenty of physical activity&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight&lt;/li&gt;
+	&lt;li&gt;Stop smoking&lt;/li&gt;
+	&lt;li&gt;Avoid alcohol or, if drinking is allowed, have no more than one drink a day if you&apos;re a woman and no more than two drinks a day if you&apos;re a man&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Relieving pain&lt;/strong&gt; &lt;br /&gt;
+Several medications are used to relieve nerve pain, but they don&apos;t work for everyone and most have side effects that must be weighed against the benefits they offer. There are also a number of alternative therapies, such as capsaicin cream (made from chili peppers) and acupuncture, that may help with pain relief. Doctors frequently use them in conjunction with medications, but some may be effective on their own. 
+&lt;/p&gt;
+&lt;p&gt;
+Among the pain-relieving treatments that may be tried are the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure medications.&lt;/strong&gt; Although drugs such as gabapentin (Gralise, Neurontin), pregabalin (Lyrica) and carbamazepine (Carbatrol, Tegretol, others) are used to treat seizure disorders (epilepsy), they&apos;re also prescribed for nerve pain. Side effects may include drowsiness, dizziness and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Tricyclic antidepressant medications, such as amitriptyline, nortriptyline (Pamelor), desipramine (Norpramin) and imipramine (Tofranil), may provide relief for mild to moderate symptoms by interfering with chemical processes in your brain that cause you to feel pain, but they also cause a number of side effects, such as dry mouth, sweating, sedation and dizziness. For some people, antidepressants called serotonin and norepinephrine reuptake inhibitors (SNRIs), such as duloxetine (Cymbalta), can relieve pain with fewer side effects. Possible side effects of SNRIs include nausea, sleepiness, dizziness, decreased appetite and constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lidocaine patch.&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;This patch contains the topical anesthetic lidocaine. You apply it to the area where your pain is most severe. It has almost no side effects, although it may cause a rash in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opioids.&lt;/strong&gt; Opioid analgesics, such as tramadol (Conzip, Ultram, others) or oxycodone (Oxecta, OxyContin, others), may be used to relieve pain. However, this class of medications may produce serious side effects, including addiction, constipation, drowsiness and headaches, that make long-term use of them undesirable. The Food and Drug Administration recently released warnings about tramadol, which include the risk of seizure and the risk of suicide for people with histories of emotional disturbances or who are prone to addiction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Managing complications and restoring function&lt;/strong&gt; &lt;br /&gt;
+Specific treatments exist for many of the complications of neuropathy, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract problems.&lt;/strong&gt; Antispasmodic medications (anticholinergics), behavioral techniques such as timed urination, and devices such as pessaries &amp;mdash; rings inserted into the vagina to prevent urine leakage &amp;mdash; may be helpful in treating loss of bladder control. A combination of therapies may be most effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive problems.&lt;/strong&gt; Gastroparesis can usually be helped by eating smaller, more-frequent meals, reducing fiber and fat in the diet, and, for many people, eating soups and pureed foods. Diarrhea, constipation and nausea may be helped with dietary changes and medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood pressure on standing (orthostatic hypotension).&lt;/strong&gt; This is often helped with simple lifestyle measures, such as avoiding alcohol, drinking plenty of water and standing up slowly. Your doctor may recommend an abdominal binder, a compression support for your abdomen, and compression stockings. Several medications, either alone or together, also may be used to treat orthostatic hypotension.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual dysfunction.&lt;/strong&gt; Sildenafil (Revatio,Viagra), tadalafil (Adcirca, Cialis) and vardenafil (Levitra, Staxyn) can improve sexual function in some men, but these medications aren&apos;t effective or safe for everyone. When medications don&apos;t work, many men turn to vacuum devices, or, if these fail, to penile implants. Women may be helped with vaginal lubricants.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These measures can help reduce your risk of diabetic neuropathy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your blood pressure under control&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; People with diabetes are more likely to have high blood pressure than are people who don&apos;t have diabetes. Having both high blood pressure and diabetes greatly increases your risk of complications because both damage your blood vessels and reduce blood flow. Try to keep your blood pressure in the range your doctor recommends, and be sure to have it checked at every office visit. Also consider checking it regularly at home. The American Diabetes Association recommends keeping your blood pressure below 130/80 millimeters of mercury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make healthy food choices.&lt;/strong&gt; Eat a balanced diet that includes a variety of healthy foods &amp;mdash; especially fruits, vegetables and whole grains &amp;mdash; and limit portion sizes to help achieve or maintain a healthy weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be active every day.&lt;/strong&gt; In addition to helping you achieve a healthy weight, daily activity protects your heart and improves blood flow. It also plays a major role in keeping your blood sugar and blood pressure under control. The American Diabetes Association generally recommends about 30 minutes of moderate exercise a day at least five times a week.&lt;strong&gt; &lt;/strong&gt;However, if you have severe neuropathy and decreased sensation in your legs, your doctor may recommend that you participate in non-weight-bearing activities, such as bicycling or swimming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you have diabetes and use tobacco in any form, you&apos;re more likely than are nonsmokers with diabetes to die of heart attack and stroke. And you&apos;re more likely to develop circulation problems in your feet. If you use tobacco, talk to your doctor about ways to quit.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are a number of alternative treatments that may help relieve the pain of diabetic neuropathy, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Capsaicin.&lt;/strong&gt; This is the chemical that gives hot peppers their bite. When applied to the skin, capsaicin creams (ArthriCare, Zostrix, others) can reduce pain sensations in some people. Side effects may include a burning feeling and skin irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha-&lt;/strong&gt;&lt;strong&gt;lipoic acid.&lt;/strong&gt; One of the most interesting developments in pain research is the discovery that alpha-lipoic acid, a powerful antioxidant found in food, may be effective at relieving the symptoms of peripheral neuropathy. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transcutaneous electrical nerve stimulation (TENS).&lt;/strong&gt; Your doctor may prescribe this therapy, which can help prevent pain signals from reaching your brain. TENS delivers tiny electrical impulses to specific nerve pathways through small electrodes placed on your skin. Although safe and painless, TENS doesn&apos;t work for everyone or for all types of pain. TENS may be prescribed in addition to other treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Acupuncture may help relieve the pain of neuropathy, and generally doesn&apos;t have any side effects. Keep in mind that you may not get immediate relief with acupuncture and will likely require more than one session.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; This therapy uses a special machine to teach you how to control certain body responses that reduce pain. You then learn how to control these same responses yourself. Biofeedback techniques are often taught in medical centers and hospitals.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with diabetic neuropathy can be difficult and frustrating because there are often no outward signs, making it hard for people to understand your condition. If you find yourself getting down, it may help to talk to a counselor or therapist. Or, some people find that support groups &amp;mdash; either in person or online &amp;mdash; are helpful because you&apos;re talking to others who truly understand what you&apos;re going through. In addition, members of support groups can offer you encouragement, as well as advice about living with diabetic neuropathy. Ask your doctor if there any support groups exist in your area, or for a referral to a therapist. The American Diabetes Association offers online support through its website. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can help prevent or delay diabetic neuropathy and its complications by keeping your blood sugar consistently well controlled, taking good care of your feet and following a healthy lifestyle. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood sugar control&lt;/strong&gt; &lt;br /&gt;
+Keeping your blood sugar tightly controlled every day is a big commitment. It requires constant monitoring and, if you take insulin, frequent doses of medication. But keeping your blood sugar as close to normal as possible is the best way to help prevent neuropathy and other complications of diabetes. Consistency is important because shifts in blood sugar levels can accelerate nerve damage. 
+&lt;/p&gt;
+&lt;p&gt;
+For the best control, aim for a blood glucose level from 70 to 130 mg/dL (3.9 to 7.2 mmol/L) before meals and an A1C reading that is less than 7 percent. An A1C test measures your average blood sugar level over a period of two to three months. The American Diabetes Association recommends that people with diabetes have an A1C test at least twice a year if blood sugar levels are consistently in a healthy range. If your blood sugar isn&apos;t well controlled or you change medications, get tested more often.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Foot care&lt;/strong&gt; &lt;br /&gt;
+Foot problems, including sores that don&apos;t heal, ulcers and even amputation, are a common complication of diabetic neuropathy. But you can prevent many of these problems by having a comprehensive foot exam at least once a year, having your doctor check your feet at each office visit and taking good care of your feet at home. 
+&lt;/p&gt;
+&lt;p&gt;
+To protect the health of your feet: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Check your feet every day&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; If you can&apos;t see some parts of your feet, use a mirror or ask a family member or friend to examine those areas. Look for blisters, cuts, bruises, cracked and peeling skin, and redness and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your feet clean and dry.&lt;/strong&gt; Wash your feet every day with lukewarm water. If your feet can&apos;t sense temperature, test the water by touching a dampened washcloth to a sensitive part of your body, such as your neck or wrist. Dry your feet gently by blotting or patting. Rubbing may damage your skin. Dry carefully between your toes. Then moisturize your skin thoroughly to prevent cracking. Try to avoid getting lotion between your toes, however, as this can encourage fungal growth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trim your toenails carefully.&lt;/strong&gt; Cut your toenails straight across, and file the edges carefully so there are no sharp edges. If you&apos;re not able to reach your feet, ask a family member, your doctor or a podiatrist to help you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear clean, dry socks.&lt;/strong&gt; You don&apos;t need to buy special socks for people with diabetes, but do look for socks made of cotton or moisture-wicking fibers that don&apos;t have tight bands or thick seams.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear cushioned shoes that fit well.&lt;/strong&gt; Always wear shoes to protect your feet from injury. Make sure that your shoes fit properly. It&apos;s best to try on shoes later in the day when your feet are more swollen to ensure that the shoes aren&apos;t too tight. A podiatrist can teach you how to buy properly fitted shoes and to prevent problems such as corns and calluses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If problems do occur, a podiatrist can help treat them to prevent more-serious conditions from developing. Even small sores can quickly turn into severe infections if left untreated. 
+&lt;/p&gt;
+&lt;p&gt;
+Shoes that fit well can be costly. If you qualify for Medicare, your plan may cover the cost of at least one pair of shoes a year. For more information, talk to your doctor or diabetes educator. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diabetic neuropathy
+	</Title>
+	<Abstract>
+		Diabetic neuropathy &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this serious complication of diabetes.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="DA00070" LinkType="Internal" ObjectID="FFECC864-B509-4016-A95B8B3063E225BD" Title="Exchange list: Fruits" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00070" />
+		<LinkItem ContentType="Table" DocID="DA00074" LinkType="Internal" ObjectID="E8B50501-6C24-4241-A1E8C169A2B950FE" Title="Exchange list: Meat and meat substitutes" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00074" />
+		<LinkItem ContentType="Table" DocID="DA00071" LinkType="Internal" ObjectID="DD69253A-E3DF-4F6A-8AE48AE0986EBA84" Title="Exchange list: Milk and yogurt" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00071" />
+		<LinkItem ContentType="Answer" DocID="AN00939" LinkType="Internal" ObjectID="D0BA0C8B-17C3-4C5E-BABD5DA735C80B61" Title="Diabetes treatment: Can cinnamon lower blood sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00939" />
+		<LinkItem ContentType="Table" DocID="DA00075" LinkType="Internal" ObjectID="CF972E06-29EF-4015-9A1C8613E800A73A" Title="Exchange list: Fats" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00075" />
+		<LinkItem ContentType="Answer" DocID="AN01509" LinkType="Internal" ObjectID="CECA1726-E7FF-0DBD-1DD8DA13038C98D1" Title="Diabetes: Are electric blankets off-limits?" Url="http://www.mayoclinic.com/health/diabetes/AN01509" />
+		<LinkItem ContentType="Answer" DocID="AN02011" LinkType="Internal" ObjectID="C0683904-0C4A-603E-4A007645231D330D" Title="Diabetes and depression: Coping with the two conditions" Url="http://www.mayoclinic.com/health/diabetes-and-depression/AN02011" />
+		<LinkItem ContentType="Answer" DocID="AN00845" LinkType="Internal" ObjectID="BA768AB8-55AC-44BE-B45CD8CE91F12909" Title="Vegetarian diet: Can it help me control my diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00845" />
+		<LinkItem ContentType="Answer" DocID="AN01958" LinkType="Internal" ObjectID="B00158B5-E7FF-0DBD-1534BED2254DFE59" Title="Diabetes management: Does aspirin therapy prevent heart problems?" Url="http://www.mayoclinic.com/health/aspirin-therapy/AN01958" />
+		<LinkItem ContentType="Answer" DocID="AN01213" LinkType="Internal" ObjectID="9AE4F795-2A5D-9994-E655F8F5BCE0FE85" Title="The dawn phenomenon: What can you do?" Url="http://www.mayoclinic.com/health/dawn-effect/AN01213" />
+		<LinkItem ContentType="Table" DocID="DA00069" LinkType="Internal" ObjectID="8CF7446C-571D-4B1F-A057D979AF6E5720" Title="Exchange list: Starches" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00069" />
+		<LinkItem ContentType="Answer" DocID="AN01691" LinkType="Internal" ObjectID="842617FF-E7FF-0DBD-1A64CA34C5DF5D28" Title="Diabetes diet: Should I avoid sweet fruits?" Url="http://www.mayoclinic.com/health/diabetes/AN01691" />
+		<LinkItem ContentType="Answer" DocID="AN00348" LinkType="Internal" ObjectID="72E5EDAD-7EEA-4F0E-88EB83087ACFF95F" Title="Artificial sweeteners: Any effect on blood sugar?" Url="http://www.mayoclinic.com/health/artificial-sweeteners/AN00348" />
+		<LinkItem ContentType="Answer" DocID="AN00193" LinkType="Internal" ObjectID="609C212D-35EF-4EE8-82502B1A9DD06CD5" Title="Diabetes: How do I help protect my liver?" Url="http://www.mayoclinic.com/health/diabetes/AN00193" />
+		<LinkItem ContentType="Table" DocID="DA00091" LinkType="Internal" ObjectID="5EBD4F51-485A-43CC-B9267FF9CF6E49F4" Title="Insulin: Compare common options for insulin therapy" Url="http://www.mayoclinic.com/health/insulin/DA00091" />
+		<LinkItem ContentType="Answer" DocID="AN02125" LinkType="Internal" ObjectID="53B81A0F-F957-5499-DAB3590605B0584D" Title="Avandia safety concerns: What should I do?" Url="http://www.mayoclinic.com/health/avandia/AN02125" />
+		<LinkItem ContentType="Table" DocID="DA00076" LinkType="Internal" ObjectID="50C876BB-9357-4523-98985FA091614048" Title="Exchange list: Free foods" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00076" />
+		<LinkItem ContentType="Table" DocID="DA00072" LinkType="Internal" ObjectID="42043545-A8FA-4F54-9B6A320BDFBEF75B" Title="Exchange list: Sweets, desserts and other carbohydrates" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00072" />
+		<LinkItem ContentType="Answer" DocID="AN00975" LinkType="Internal" ObjectID="3DA7267F-C9A3-43E6-A71669768F406A86" Title="Late-night eating: OK if you have diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00975" />
+		<LinkItem ContentType="Answer" DocID="AN00934" LinkType="Internal" ObjectID="336612B6-E243-4FD8-9AC9D79DDCC1C935" Title="Reactive hypoglycemia: What can I do?" Url="http://www.mayoclinic.com/health/reactive-hypoglycemia/AN00934" />
+		<LinkItem ContentType="Answer" DocID="HQ00384" LinkType="Internal" ObjectID="25FA95EB-E5BE-4749-A010272B67DFCEF4" Title="Managing diabetes: Looking beyond carbs" Url="http://www.mayoclinic.com/health/diabetes/HQ00384" />
+		<LinkItem ContentType="Answer" DocID="AN02037" LinkType="Internal" ObjectID="256FFF50-DE1F-04C7-CCF1C067D4816F2D" Title="Blood glucose monitors: What factors affect accuracy?" Url="http://www.mayoclinic.com/health/blood-glucose-monitors/AN02037" />
+		<LinkItem ContentType="SlideShow" DocID="DA00062" LinkType="Internal" ObjectID="146260D0-9910-47B2-9D58A9BC2C01AA12" Title="Slide show: Blood sugar testing" Url="http://www.mayoclinic.com/health/blood-sugar/DA00062" />
+		<LinkItem ContentType="Answer" DocID="AN00754" LinkType="Internal" ObjectID="0F07D463-CFF5-48B0-8023B589F97745E8" Title="Glycemic index diet: A helpful tool for diabetes?" Url="http://www.mayoclinic.com/health/diabetes/AN00754" />
+		<LinkItem ContentType="Answer" DocID="AN00425" LinkType="Internal" ObjectID="0D5D69BC-AD00-4EF9-AA583AA7ECCCB5CE" Title="Diabetes foods: Is honey a good substitute for sugar?" Url="http://www.mayoclinic.com/health/diabetes/AN00425" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01072" LinkType="Internal" ObjectID="0D045347-D493-491D-87747DC88EF2FAA9" Title="Bone and joint problems associated with diabetes" Url="http://www.mayoclinic.com/health/diabetes/AN01072" />
+		<LinkItem ContentType="Video" DocID="MM00641" LinkType="Internal" ObjectID="0798BB8E-A076-4530-A813B1FE5D082347" Title="Video: How diabetes affects your blood sugar" Url="http://www.mayoclinic.com/health/blood-sugar/MM00641" />
+		<LinkItem ContentType="Article" DocID="DA00140" LinkType="Internal" ObjectID="F137A4D5-E7FF-0DBD-19EFDE501E927526" Title="Amputation and diabetes: How to protect your feet" Url="http://www.mayoclinic.com/health/amputation-and-diabetes/DA00140" />
+		<LinkItem ContentType="Article" DocID="DA00005" LinkType="Internal" ObjectID="DBF746E8-C262-42D5-B930E93CDA7EF2FC" Title="Diabetes management: How lifestyle, daily routine affect blood sugar" Url="http://www.mayoclinic.com/health/diabetes-management/DA00005" />
+		<LinkItem ContentType="Article" DocID="DA00139" LinkType="Internal" ObjectID="D601CD1A-E7FF-0DBD-1EF956D5CBE2F3F2" Title="Insulin and weight gain: Keep the pounds off" Url="http://www.mayoclinic.com/health/insulin-and-weight-gain/DA00139" />
+		<LinkItem ContentType="Article" DocID="DA00131" LinkType="Internal" ObjectID="CCD93E60-E7FF-0DBD-16D4DC756C95973A" Title="Diabetes nutrition: Eating out when you have diabetes" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00131" />
+		<LinkItem ContentType="Article" DocID="DA00130" LinkType="Internal" ObjectID="CCD8D0D2-E7FF-0DBD-1147590923E8C5D8" Title="Diabetes nutrition: Including sweets in your meal plan" Url="http://www.mayoclinic.com/health/diabetes-nutrition/DA00130" />
+		<LinkItem ContentType="Article" DocID="DA00129" LinkType="Internal" ObjectID="CCD8574E-E7FF-0DBD-17D0E039BF826AA0" Title="Reading food labels: Tips if you have diabetes" Url="http://www.mayoclinic.com/health/food-labels/DA00129" />
+		<LinkItem ContentType="Article" DocID="DA00007" LinkType="Internal" ObjectID="92AC67F3-1213-490C-92B735ECBA4127FA" Title="Blood sugar testing: Why, when and how" Url="http://www.mayoclinic.com/health/blood-sugar/DA00007" />
+		<LinkItem ContentType="Article" DocID="MY00924" LinkType="Internal" ObjectID="857E4CB1-9711-9A15-FC482EF2F728CE05" Title="Blood glucose meter: How to choose" Url="http://www.mayoclinic.com/health/blood-glucose-meter/MY00924" />
+		<LinkItem ContentType="Article" DocID="DA00077" LinkType="Internal" ObjectID="77362434-F554-430A-921AFCFD1A1843D6" Title="Your diabetes diet: Exchange lists" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00077" />
+		<LinkItem ContentType="Article" DocID="DA00008" LinkType="Internal" ObjectID="6AEAFB6E-1AD3-4135-895FD14C6101E152" Title="Diabetes care: 10 ways to avoid diabetes complications" Url="http://www.mayoclinic.com/health/diabetes-management/DA00008" />
+		<LinkItem ContentType="Article" DocID="DA00105" LinkType="Internal" ObjectID="636D1AE8-2008-4B4F-97235C8819FC5DCD" Title="Diabetes and exercise: When to monitor your blood sugar" Url="http://www.mayoclinic.com/health/diabetes-and-exercise/DA00105" />
+		<LinkItem ContentType="Article" DocID="DA00073" LinkType="Internal" ObjectID="4C506041-DDCD-48C8-9EC11A94ABDC4AF9" Title="Exchange list: Nonstarchy vegetables" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00073" />
+		<LinkItem ContentType="Article" DocID="DA00038" LinkType="Internal" ObjectID="167CE011-22E6-46C5-BC2634387D8E47AC" Title="Diabetes and menopause: A twin challenge" Url="http://www.mayoclinic.com/health/diabetes/DA00038" />
+		<LinkItem ContentType="Article" DocID="DA00027" LinkType="Internal" ObjectID="15BFEA7A-0FD3-4F24-B4F777100DAF60F1" Title="Diabetes diet: Create your healthy-eating plan" Url="http://www.mayoclinic.com/health/diabetes-diet/DA00027" />
+		<LinkItem ContentType="Article" DocID="DA00125" LinkType="Internal" ObjectID="147B55E4-E7FF-0DBD-1F6F914B34826B5D" Title="Diabetes symptoms: When diabetes symptoms are a concern" Url="http://www.mayoclinic.com/health/diabetes-symptoms/DA00125" />
+		<LinkItem ContentType="Article" DocID="DA00010" LinkType="Internal" ObjectID="0D683502-920C-47E6-AE42F3355B6B8816" Title="Diabetes treatment: Using insulin to manage blood sugar" Url="http://www.mayoclinic.com/health/diabetes-treatment/DA00010" />
+		<LinkItem ContentType="Article" DocID="DA00088" LinkType="Internal" ObjectID="02E539B2-398D-43D8-ABF8B817F1901492" Title="Intensive insulin therapy: Achieving tight blood sugar control" Url="http://www.mayoclinic.com/health/intensive-insulin-therapy/DA00088" />
+		<LinkItem ContentType="Article" DocID="DA00013" LinkType="Internal" ObjectID="019020A5-D8EF-44ED-A1FC275B92B2D1A7" Title="Diabetes and dental care: Guide to a healthy mouth" Url="http://www.mayoclinic.com/health/diabetes/DA00013" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00107" LinkType="Internal" ObjectID="C019023D-E7FF-0DBD-10F82974DF8D3D59" Title="Electromyography (EMG)" Url="http://www.mayoclinic.com/health/emg/MY00107" />
+		<LinkItem ContentType="Disease" DocID="DS01121" LinkType="Internal" ObjectID="544F6883-E7FF-0DBD-1230C80D45F96935" Title="Diabetes" Url="http://www.mayoclinic.com/health/diabetes/DS01121" />
+		<LinkItem ContentType="Article" DocID="PN00045" LinkType="Internal" ObjectID="39D88186-098D-4A86-A3ACD8F5DFD654BC" Title="Anti-seizure medications: Relief from nerve pain" Url="http://www.mayoclinic.com/health/pain-medications/PN00045" />
+		<LinkItem ContentType="Disease" DocID="DS00162" LinkType="Internal" ObjectID="F52ADDE0-FE7E-4F9D-9ACB4F34354E023C" Title="Erectile dysfunction" Url="http://www.mayoclinic.com/health/erectile-dysfunction/DS00162" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS01050" LinkType="Internal" ObjectID="D8F4DB1E-E7FF-0DBD-115C46F3A1453403" Title="Anhidrosis" Url="http://www.mayoclinic.com/health/anhidrosis/DS01050" />
+		<LinkItem ContentType="Disease" DocID="DS00544" LinkType="Internal" ObjectID="C25985F9-4C49-4BF2-9CF5413B2FE796AD" Title="Autonomic neuropathy" Url="http://www.mayoclinic.com/health/autonomic-neuropathy/DS00544" />
+		<LinkItem ContentType="Disease" DocID="DS00178" LinkType="Internal" ObjectID="BF6A0C4C-585D-48D0-9E5A06D9FB07644A" Title="High cholesterol" Url="http://www.mayoclinic.com/health/high-blood-cholesterol/DS00178" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+		<LinkItem ContentType="Disease" DocID="DS00612" LinkType="Internal" ObjectID="B8FD8052-2A5D-9994-E3D7A1ECF01522DF" Title="Gastroparesis" Url="http://www.mayoclinic.com/health/gastroparesis/DS00612" />
+		<LinkItem ContentType="Disease" DocID="DS00701" LinkType="Internal" ObjectID="AE1B979E-2A5D-9994-E548FFA9BD87D6A1" Title="Female sexual dysfunction" Url="http://www.mayoclinic.com/health/female-sexual-dysfunction/DS00701" />
+		<LinkItem ContentType="Disease" DocID="DS00590" LinkType="Internal" ObjectID="771E6FEC-FBF4-4B5E-90D2E1AA9BA37D13" Title="Low blood pressure (hypotension)" Url="http://www.mayoclinic.com/health/low-blood-pressure/DS00590" />
+		<LinkItem ContentType="Disease" DocID="DS00286" LinkType="Internal" ObjectID="364657CC-439E-4166-843C62403DD3A8D9" Title="Urinary tract infection (UTI)" Url="http://www.mayoclinic.com/health/urinary-tract-infection/DS00286" />
+		<LinkItem ContentType="Disease" DocID="DS00993" LinkType="Internal" ObjectID="3479DCEF-E7FF-0DBD-1945D7BF078E9C47" Title="Gangrene" Url="http://www.mayoclinic.com/health/gangrene/DS00993" />
+		<LinkItem ContentType="Disease" DocID="DS00404" LinkType="Internal" ObjectID="256654C2-982F-4C33-B5E40B0F7A6C9C68" Title="Urinary incontinence" Url="http://www.mayoclinic.com/health/urinary-incontinence/DS00404" />
+	</RelatedLinksBox>
+</Disease>

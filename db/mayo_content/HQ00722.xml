@@ -1,0 +1,144 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HQ00722
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/foot-swelling/HQ00722
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-08
+		</UpdateDate>
+		<PublicationDate>
+			1998-12-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="2745" Title="Edema" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0CEA2283-31A5-4223-A11C64BC1ED3227A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				leg swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen ankles
+			</MetaKeyword>
+			<MetaKeyword>
+				ankle swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				foot swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				feet swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling feet
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling of feet
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling legs
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				swelling of ankles
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen feet
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen legs
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen foot
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen leg
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Leg and foot swelling during air travel is common and typically harmless. The most likely culprit is inactivity during a flight. Sitting with your feet on the floor for a long period causes blood to pool in your leg veins. The position of your legs when you are seated also increases pressure in your leg veins. This contributes to foot swelling by causing fluid to leave the blood and move into the surrounding soft tissues. 
+&lt;/p&gt;
+&lt;p&gt;
+To relieve foot swelling during a flight: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wear loosefitting clothing.&lt;/li&gt;
+	&lt;li&gt;Take a short walk every hour or so.&lt;/li&gt;
+	&lt;li&gt;Flex and extend your ankles and knees frequently while you&apos;re seated.&lt;/li&gt;
+	&lt;li&gt;Shift your position in your seat as much as possible, being careful to avoid crossing your legs.&lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids to prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;Avoid alcohol and sedatives, which could make you too sleepy to walk around the cabin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Foot swelling isn&apos;t a serious problem if it lasts only a short time. But excessive swelling that persists for several hours after you resume activity may be due to a more serious condition, such as a blood clot in the leg (deep vein thrombosis) &amp;mdash; especially if the swelling occurs in only one leg and is accompanied by leg pain. If you experience these signs and symptoms, seek prompt medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re at increased risk of blood clots &amp;mdash; because you recently had major surgery or you take birth control pills, for example &amp;mdash; consult your doctor before flying. He or she may recommend wearing compression stockings during your flight. In some cases, the doctor may prescribe a blood-thinning medication to be taken before departure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Foot swelling during air travel: A concern?
+	</Title>
+	<Abstract>
+		Leg and foot swelling during air travel is common and usually harmless.
+	</Abstract>
+	<Question>
+		What causes leg and foot swelling during air travel?
+	</Question>
+	<QuestionFirstName>
+		Phil
+	</QuestionFirstName>
+	<QuestionState>
+		California
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01403" LinkType="Internal" ObjectID="B5709755-E7FF-0DBD-1B181036D7A5FA93" Title="Hand swelling during exercise: A concern?" Url="http://www.mayoclinic.com/health/hand-swelling/AN01403" />
+		<LinkItem ContentType="Disease" DocID="DS01035" LinkType="Internal" ObjectID="BD46D6EC-E7FF-0DBD-18BE8F3FD0A9D154" Title="Edema" Url="http://www.mayoclinic.com/health/edema/DS01035" />
+	</RelatedLinksBox>
+</Answer>

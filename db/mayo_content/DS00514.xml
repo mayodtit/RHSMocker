@@ -1,0 +1,427 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00514
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/phenylketonuria/DS00514
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-17
+		</UpdateDate>
+		<PublicationDate>
+			2004-02-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="1749" Title="Birth defects/malformations">
+						<Keyword MCVID="2894" Title="Phenylketonuria" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E86EE002-8BFA-4E79-B21B57DE98B852C6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				phenylketonuria
+			</MetaKeyword>
+			<MetaKeyword>
+				PKU
+			</MetaKeyword>
+			<MetaKeyword>
+				phe
+			</MetaKeyword>
+			<MetaKeyword>
+				phenylketonuric
+			</MetaKeyword>
+			<MetaKeyword>
+				phenylalanine
+			</MetaKeyword>
+			<MetaKeyword>
+				heel stick
+			</MetaKeyword>
+			<MetaKeyword>
+				newborn screening
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic testing
+			</MetaKeyword>
+			<MetaKeyword>
+				genetic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				birth defect
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Phenylketonuria (fen-ul-ke-toe-NU-re-uh) is a birth defect that causes an amino acid called phenylalanine to build up in your body. Phenylketonuria is caused by a mutation in a gene that helps create the enzyme needed to break down phenylalanine. 
+&lt;/p&gt;
+&lt;p&gt;
+Amino acids are the building blocks for protein, but too much phenylalanine can cause a variety of health problems. People with phenylketonuria (PKU) &amp;mdash; babies, children and adults &amp;mdash; need to follow a diet that limits phenylalanine, which is found mostly in foods that contain protein. 
+&lt;/p&gt;
+&lt;p&gt;
+Babies in the United States and many other countries are screened for phenylketonuria soon after birth. Although phenylketonuria is rare, recognizing phenylketonuria right away can help prevent serious health problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Newborns with phenylketonuria initially don&apos;t have any symptoms. Without treatment, though, babies usually develop signs of PKU within a few months. Phenylketonuria symptoms can be mild or severe and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mental retardation&lt;/li&gt;
+	&lt;li&gt;Behavioral or social problems&lt;/li&gt;
+	&lt;li&gt;Seizures, tremors or jerking movements in the arms and legs&lt;/li&gt;
+	&lt;li&gt;Hyperactivity&lt;/li&gt;
+	&lt;li&gt;Stunted growth&lt;/li&gt;
+	&lt;li&gt;Skin rashes (eczema)&lt;/li&gt;
+	&lt;li&gt;Small head size (microcephaly)&lt;/li&gt;
+	&lt;li&gt;A musty odor in the child&apos;s breath, skin or urine, caused by too much phenylalanine in the body &lt;/li&gt;
+	&lt;li&gt;Fair skin and blue eyes, because phenylalanine cannot transform into melanin &amp;mdash; the pigment responsible for hair and skin tone &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Varying severity&lt;/strong&gt; &lt;br /&gt;
+The most severe form of the disorder is known as classic PKU. Children with untreated classic PKU usually develop obvious, permanent mental retardation. 
+&lt;/p&gt;
+&lt;p&gt;
+Less severe forms of PKU &amp;mdash; sometimes called mild or moderate PKU &amp;mdash; have a smaller risk of significant brain damage, but most children with these forms of the disorder still require a special diet to prevent mental retardation and other complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnancy and PKU&lt;/strong&gt; &lt;br /&gt;
+A woman who has PKU and becomes pregnant is at risk of another form of the condition called maternal PKU. In the past, people with PKU may have been told it was OK to stop following a low-phenylalanine diet once they&apos;d reached their teen years. But, doctors now know that if a woman doesn&apos;t follow the diet prior to and during pregnancy, blood phenylalanine levels can become out of range and harm the developing fetus. Because of this, and other reasons, doctors recommend that anyone with PKU follow the low-phenylalanine diet for life. 
+&lt;/p&gt;
+&lt;p&gt;
+Although babies born to mothers with high phenylalanine levels may have complications at birth, most don&apos;t actually inherit PKU and won&apos;t need to follow a PKU diet after birth. However, these babies have a high risk of being born with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mental retardation&lt;/li&gt;
+	&lt;li&gt;Abnormally small head (microcephaly)&lt;/li&gt;
+	&lt;li&gt;Heart defects&lt;/li&gt;
+	&lt;li&gt;Low birth weights&lt;/li&gt;
+	&lt;li&gt;Behavioral problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek medical advice in these situations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Newborns.&lt;/strong&gt; If routine newborn screening tests show that your baby may have PKU, your child&apos;s doctor will want to start dietary treatment right away to prevent long-term problems. Newborns with PKU are given a special formula. Your doctor may refer you to a specialist in genetics and a registered dietitian who can help you learn about the PKU diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adults.&lt;/strong&gt; Older adults with PKU who stopped the PKU diet in their teens also may benefit from a visit with their doctors. Although adolescents with PKU were allowed to go &quot;off-diet&quot; in the past, doctors now recommend that anyone with PKU continue the special diet for life. Returning to the diet may improve mental functioning and behavior and slow damage to the central nervous system in adults with high phenylalanine levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Women.&lt;/strong&gt; It&apos;s especially important for women with a history of PKU to see a doctor and return to the PKU diet before becoming pregnant. Even mild cases of maternal PKU can pose a serious risk to unborn babies. Pregnant women with PKU who aren&apos;t following the special diet also have a higher risk of miscarriage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A genetic mutation causes PKU. The defective gene contains the instructions for making an enzyme needed to process the amino acid called phenylalanine. Amino acids are the building blocks for protein. In a person with PKU, this gene is defective, causing a complete or near-complete deficiency of the enzyme. Without the enzyme necessary to process phenylalanine, a dangerous buildup of this amino acid can develop when a person with PKU eats foods that are high in protein, such as milk, cheese, nuts or meats. This can eventually lead to serious health problems. 
+&lt;/p&gt;
+&lt;p&gt;
+For a child to inherit PKU, both the mother and father must have and pass on the defective gene. This pattern of inheritance is called autosomal recessive. It&apos;s possible for a parent to have the defective gene, but not have the disease. This is called being a carrier. Most often, PKU is passed to children by parents who are carriers of the disorder, but don&apos;t know it. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Both parents must pass along a copy of the mutated PKU gene for their child to develop the condition. If only one parent has the PKU gene, there&apos;s no risk of passing PKU to a child. 
+&lt;/p&gt;
+&lt;p&gt;
+The gene defect occurs mainly in people from Europe and the U.S. The disorder is much less common in Asians and Latinos. Africa has the lowest rates of phenylketonuria. 
+&lt;/p&gt;
+&lt;p&gt;
+Children of mothers who have PKU but who didn&apos;t follow the PKU diet during pregnancy also may be affected. Although these children don&apos;t often have PKU, they do have serious consequences of the high level of phenylalanine in the mother&apos;s blood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated PKU can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irreversible brain damage and marked mental retardation within the first few months of life&lt;/li&gt;
+	&lt;li&gt;Behavioral problems and seizures in older children&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+PKU is generally diagnosed through newborn screening. Once your child is diagnosed with PKU, you&apos;ll likely be referred to a medical center or specialty clinic with experience in managing PKU. In addition to a doctor who specializes in treating PKU, you&apos;ll also need the assistance of a dietitian with expertise in the PKU diet. Most medical centers with a medical genetics department will also have a dietitian trained in PKU management. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor or dietitian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your appointment time may be limited, so preparing a list of questions can help you make the most of your time with your child&apos;s doctor. List your questions from most important to least important in case time runs out. For PKU, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did my child get PKU?&lt;/li&gt;
+	&lt;li&gt;How can we manage PKU?&lt;/li&gt;
+	&lt;li&gt;Are there any medications to treat this disease?&lt;/li&gt;
+	&lt;li&gt;What foods are completely off-limits?&lt;/li&gt;
+	&lt;li&gt;How much formula will my child need?&lt;/li&gt;
+	&lt;li&gt;What happens if my child eats a food that he or she is not supposed to eat?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;If I have another child, will he or she have PKU?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will my child have to stay on this special diet for life?&lt;/li&gt;
+	&lt;li&gt;Did something I did or didn&apos;t do during pregnancy cause this to happen?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has your child had any symptoms that concern you?&lt;/li&gt;
+	&lt;li&gt;Do you have any questions about your child&apos;s diet?&lt;/li&gt;
+	&lt;li&gt;Are you having any difficulty following the diet?&lt;/li&gt;
+	&lt;li&gt;Has the growth and development of your child been normal?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Newborn blood testing identifies almost all cases of PKU. All 50 states in the United States require newborns to be screened for PKU. Many other countries also routinely screen infants for PKU. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have PKU or a family history of PKU, your doctor may recommend screening tests before pregnancy or birth. It&apos;s possible to identify PKU carriers through a blood test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Testing your baby after birth&lt;/strong&gt; &lt;br /&gt;
+A PKU test is conducted a day or two after your baby&apos;s birth. In the test, a nurse or lab technician collects a few drops of blood from your baby&apos;s heel or the bend in your baby&apos;s arm using a needle or lancet. A laboratory tests the blood sample for certain metabolic disorders, including PKU. The test isn&apos;t done before the baby is 24 hours old or before the baby has ingested some protein in the diet to ensure accurate results. If you don&apos;t deliver your baby in a hospital or are discharged soon after the birth, you may need to schedule a newborn screening with your pediatrician or family doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Your baby may also have additional tests to confirm the diagnosis, including more blood tests and urine tests. You and your baby may also undergo genetic testing to identify gene mutations. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby&apos;s blood sample shows a high level of phenylalanine, he or she will need to be fed a special formula. Your doctor and dietitian can help you find the right type of formula to feed your baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main phenylketonuria treatment is a strict diet with very limited intake of phenylalanine, which is mostly found in foods containing protein. Doctors used to believe it was OK for a person with PKU to stop the diet in adolescence, but today, doctors recommend sticking to the diet and PKU formula for life. Without PKU formula, your body can&apos;t get enough of essential nutrients called amino acids that are crucial for growth and general health. For example, the amino acid tyrosine is usually a byproduct of phenylalanine metabolism, a process that doesn&apos;t occur in people with PKU. 
+&lt;/p&gt;
+&lt;p&gt;
+A safe amount of phenylalanine differs for each person. Your doctor will determine a safe amount through regular review of diet records, growth charts and blood levels of phenylalanine. Frequent blood tests will monitor PKU levels as they change over time, especially during childhood growth spurts and pregnancy. In general, the idea is to consume only the amount of phenylalanine that&apos;s necessary for normal growth and body processes, but no more. 
+&lt;/p&gt;
+&lt;p&gt;
+Another possible addition to the PKU diet may be a supplement called neutral amino acid therapy powder or tablets. This supplement may block some absorption of phenylalanine. However, this is an emerging treatment that hasn&apos;t yet been well-studied. Ask your doctor or dietitian if this supplement is appropriate for your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Which foods to avoid&lt;/strong&gt; &lt;br /&gt;
+Because the amount of phenylalanine adults can safely eat is so low, it&apos;s crucial they avoid all high-protein foods, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Milk&lt;/li&gt;
+	&lt;li&gt;Eggs&lt;/li&gt;
+	&lt;li&gt;Cheese&lt;/li&gt;
+	&lt;li&gt;Nuts&lt;/li&gt;
+	&lt;li&gt;Soybeans&lt;/li&gt;
+	&lt;li&gt;Beans&lt;/li&gt;
+	&lt;li&gt;Chicken&lt;/li&gt;
+	&lt;li&gt;Steak and other beef products&lt;/li&gt;
+	&lt;li&gt;Pork&lt;/li&gt;
+	&lt;li&gt;Fish&lt;/li&gt;
+	&lt;li&gt;Chocolate candy&lt;/li&gt;
+	&lt;li&gt;Peas&lt;/li&gt;
+	&lt;li&gt;Beer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children and adults should also avoid foods, including many diet sodas, and medications made with aspartame (NutraSweet, Equal). Aspartame, found in many artificial sweeteners, releases phenylalanine when digested. 
+&lt;/p&gt;
+&lt;p&gt;
+Adults and children with PKU also have to limit portions of lower protein foods, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fruit&lt;/li&gt;
+	&lt;li&gt;Vegetables&lt;/li&gt;
+	&lt;li&gt;Desserts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Low-protein rice, pasta noodles and crackers are often fine to eat without calculating the phenylalanine content. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s key to remember that too much of a good thing can sometimes be harmful. Even if you&apos;re eating approved foods, eating too many at one time can be dangerous. Consider the total amount of phenylalanine in all the foods you eat when planning your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Formula for babies&lt;/strong&gt; &lt;br /&gt;
+You might wonder how someone, even a baby, can get all of the necessary nutrition with these dietary limitations. The answer is a formula &amp;mdash; a special nutritional drink or supplement for people with PKU. The phenylalanine-free formula provides protein and other essential nutrients in a form that is safe for people with PKU. 
+&lt;/p&gt;
+&lt;p&gt;
+Because regular infant formula and breast milk contain phenylalanine, babies with PKU instead need to consume a phenylalanine-free infant formula. A dietitian can carefully calculate a sparing amount of breast milk or regular formula to be mixed with the phenylalanine-free formula. Parents introduce solid foods with low levels of phenylalanine to children with PKU on the same schedule used for other infants. These foods replace the phenylalanine a baby has been receiving from breast milk or formula and need to be precisely figured into the daily phenylalanine intake. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Formula for older children and adults&lt;/strong&gt; &lt;br /&gt;
+Older children and adults continue to drink a protein substitute formula daily, as directed by a doctor or dietitian. Your daily dose of formula should be divided between your meals and snacks, instead of consumed all at once. &amp;nbsp;The formula for older children and adults is not the same as the one used for infants, but it works on the same principle. It acts as an essential nutritional substitute and is continued for life. 
+&lt;/p&gt;
+&lt;p&gt;
+The need for a nutritional supplement, especially if your child doesn&apos;t find it palatable, and the limited food choices can make the PKU diet challenging. But, it&apos;s the only way to prevent the serious health problems people with PKU can develop. Families need to commit to this lifestyle change wholeheartedly, realizing that it may be difficult but not impossible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;PKU medication&lt;/strong&gt; &lt;br /&gt;
+The Food and Drug Administration (FDA) has approved the drug sapropterin (Kuvan) for the treatment of PKU. It works by increasing your tolerance to phenylalanine. The drug is for use in combination with a PKU diet. But, it doesn&apos;t work for everyone with PKU. In approving the drug, the FDA directed that studies continue because there are no long-term studies on the drug&apos;s efficacy and long-term safety. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Keeping track and measuring correctly&lt;/strong&gt; &lt;br /&gt;
+If you or your child is following a low-phenylalanine diet, you&apos;ll need to keep records of the amount of phenylalanine eaten every day to be sure you&apos;re sticking to the specific, individualized dietary guidelines recommended by your dietitian. 
+&lt;/p&gt;
+&lt;p&gt;
+To do so, use a food diary or computer program that lists the amount of phenylalanine in baby foods, solid foods, PKU formulas, and common baking and cooking ingredients. To be as accurate as possible, measure portions, using standard measuring cups and spoons and a kitchen scale that reads in grams. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Low-protein products&lt;/strong&gt; &lt;br /&gt;
+Buying some of the many low-protein products, such as low-protein pasta, rice, flour and bread, which are available through specialty food retailers, may add variety to your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+These products provide some variety, and they allow people with PKU to eat lunches and dinners that more closely resemble what everyone else is eating. Like the PKU formulas, these products can be expensive, but you might consider splurging on a few favorites with the money you save on dairy and meat products. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Food preparation ideas&lt;/strong&gt; &lt;br /&gt;
+Whether you buy special low-protein products or not, you can be creative with foods you can find at your local grocery store. Here are some ideas for serving up three daily meals and a snack with low amounts of phenylalanine: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breakfast.&lt;/strong&gt; In the morning, along with PKU formula, you might dish up lower phenylalanine cereals, such as cornflakes or puffed rice, in nondairy creamer diluted with water. Or whip up a smoothie by blending fresh or frozen fruit with ice cubes, fruit juice, and almond or vanilla flavoring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lunch.&lt;/strong&gt; Pack a lunch bag with small portions of rice cakes, grapes, applesauce, lemonade and jelly beans. Or enjoy a low-protein pumpkin or vegetable soup.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Snack.&lt;/strong&gt; PKU formula and a piece of fruit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dinner.&lt;/strong&gt; Veggie stir-fry and a salad make a great evening meal. So do vegetable shish kebabs soaked in a tangy vinaigrette or Asian marinade. You can also try eggplant curry, baked potatoes topped with broccoli or mushrooms, and peppers stuffed with sweet potatoes or carrots. Another serving of PKU formula will generally accompany dinner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can transform the same basic lower phenylalanine vegetables into a whole menu of different dishes, using a little creativity &amp;mdash; and a lot of seasonings. Herbs and flavorings low in phenylalanine can pack a flavorful punch. Just remember to measure and count every ingredient and adjust ideas to your individualized diet. Talk to your doctor or dietitian if you have any questions. If you have any other health conditions, you may need to consider those too when you plan your diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with PKU can be difficult. The combination of a limited diet, expensive groceries, regular blood tests, detailed food records and frequent visits to the doctor can make for trying and frustrating times. If you have a child with PKU, it can be difficult to explain why he or she can&apos;t eat &quot;normal&quot; foods. And, mealtimes and snack times can be a battle. The following strategies may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be informed.&lt;/strong&gt; Knowing the facts about PKU can help you take better charge of the situation. Discuss any questions with your pediatrician, family doctor or a doctor who specializes in medical genetics. Read books and cookbooks specifically written for people with PKU.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn from other families.&lt;/strong&gt; Ask your doctor about local support groups for people dealing with PKU. Talking with others who have mastered similar challenges can be very helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get help with menu planning.&lt;/strong&gt; A registered dietitian with experience in PKU can help you devise delicious low-phenylalanine dinners. He or she may also have great ideas for holiday meals and birthdays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try to eat out.&lt;/strong&gt; A meal at the local cafe or neighborhood pizzeria gives you a break from the kitchen and can be fun for the whole family. Most places offer something that fits into the PKU diet, even if it&apos;s just french fries and salad. But you may want to call ahead and ask about the menu or bring food from home. Some restaurants will even agree to heat up a low-protein product, if you make arrangements in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find sources of financial aid.&lt;/strong&gt; Ask your doctor or dietitian if there are programs or insurance plans that help cover the high costs of formula and low-protein foods. Also, see if your local school lunch program will accommodate special dietary needs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t focus on food.&lt;/strong&gt; Encourage children with PKU to focus on sports, music and favorite hobbies, not on just what they can and can&apos;t eat. Also consider creating holiday traditions that center on special projects and activities, not just food. At your house, Thanksgiving can revolve around making a crafty cornucopia, not just eating turkey.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let your child manage his or her diet as early as possible.&lt;/strong&gt; Toddlers can make choices about which cereal, fruit or vegetable they&apos;d like to eat and help measure out portions. They can also help themselves to pre-measured snacks. Older children can help with menu planning, pack their own lunches and keep their own food records.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make your grocery list and your meals with the whole family in mind.&lt;/strong&gt; A cupboard full of restricted foods can be tempting and irritating to a child or adult with PKU, so try to limit the number of forbidden foodstuffs. Also, try to avoid making separate meals that single out a child with PKU. Instead, make one meal for the whole family, even if the child with PKU can&apos;t eat everything. Serve stir-fried vegetables with meat, cashews and rice on the side, or set up a salad bar with low-protein and high-protein options. You can also serve the whole family a delicious low-phenylalanine soup or curry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared for potlucks, picnics and car trips.&lt;/strong&gt; Plan ahead, so there&apos;s always a PKU-friendly food option. Pack dehydrated fruit snacks, raisins and crackers for the car. Take fruit shish kebabs or vegetable skewers to a cookout, and make a low-phenylalanine salad for the neighborhood potluck. Other parents, friends and family members will likely be accommodating and helpful if you explain the dietary restrictions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to teachers and other staff in your child&apos;s school.&lt;/strong&gt; Your child&apos;s teachers and cafeteria staff can be a big help with the PKU diet if you take the time to explain its importance and how it works. By working with your child&apos;s teachers, you can also plan ahead for special school events and parties so that your child always has a treat to eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a positive food attitude.&lt;/strong&gt; When children know nothing but the foods they are given, they are surprisingly accepting of the PKU diet &amp;mdash; especially when their parents are positive problem solvers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a low-phenylalanine diet.&lt;/strong&gt; Women with PKU can prevent birth defects by sticking to &amp;mdash; or returning to &amp;mdash; a low-phenylalanine diet before becoming pregnant. Even women with mild PKU may place their unborn children at risk by not following the special PKU diet. If you&apos;re a woman with a history of PKU, talk to your doctor before you start trying to conceive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider genetic counseling.&lt;/strong&gt; If you have a history of PKU, a close relative with PKU or a child with PKU, you may also benefit from preconception genetic counseling. A doctor who specializes in medical genetics can help you better understand how PKU is passed through your family tree. He or she can also help you determine your risk of having a child with PKU and assist with family planning.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Phenylketonuria (PKU)
+	</Title>
+	<Abstract>
+		Phenylketonuria &amp;mdash; Comprehensive overview covers symptoms, treatment (including diet information) of this rare birth defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+	</RelatedLinksBox>
+</Disease>

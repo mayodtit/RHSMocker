@@ -1,0 +1,338 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00244
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pleurisy/DS00244
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-01
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="1152" Title="Respiratory infection">
+						<Keyword MCVID="2475" Title="Pleurisy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A337D300-BC2F-479F-850EA979AC3B6648
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pleurisy
+			</MetaKeyword>
+			<MetaKeyword>
+				pleural effusion
+			</MetaKeyword>
+			<MetaKeyword>
+				pleural effusions
+			</MetaKeyword>
+			<MetaKeyword>
+				pleuritis
+			</MetaKeyword>
+			<MetaKeyword>
+				pluracy
+			</MetaKeyword>
+			<MetaKeyword>
+				pleuresy
+			</MetaKeyword>
+			<MetaKeyword>
+				lungs
+			</MetaKeyword>
+			<MetaKeyword>
+				thoracentesis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pleurisy occurs when the double membrane (pleura) that lines the inside of your chest cavity and surrounds each of your lungs becomes inflamed. Also called pleuritis, pleurisy typically causes sharp pain, almost always when you are inhaling and exhaling. 
+&lt;/p&gt;
+&lt;p&gt;
+Pleurisy occurs as a complication of a wide variety of underlying conditions. Relieving pleurisy involves treating the underlying condition, if it&apos;s known, and taking pain relievers. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal pleural lining and pleurisy" Caption="Pleurisy occurs when the pleura &amp;#8212; the double membrane that lines the chest cavity and surrounds each of your lungs &amp;#8212; becomes inflamed." Height="60" Title="Pleurisy" URI="/images/image_popup/thumbs/r7_pleurisythu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal pleural lining and pleurisy" Caption="Pleurisy occurs when the pleura &amp;#8212; the double membrane that lines the chest cavity and surrounds each of your lungs &amp;#8212; becomes inflamed." Height="240" Title="Pleurisy" URI="/images/image_popup/r7_pleurisy.jpg" Width="400" />
+				<HTML>
+					Pleurisy occurs when the pleura &amp;mdash; the double membrane that lines the chest cavity and surrounds each of your lungs &amp;mdash; becomes inflamed....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of pleurisy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain when you inhale and exhale (between breaths, you feel almost no pain)&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Fever and chills, depending on the cause&lt;/li&gt;
+	&lt;li&gt;Loss of appetite, depending on the cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The sharp, fleeting pain in your chest that pleurisy causes is made worse by coughing, sneezing, moving and breathing, especially deep breathing. In some cases, pain may extend from your chest to your shoulder. You may find relief from pain when you hold your breath or when you apply pressure over the painful area. 
+&lt;/p&gt;
+&lt;p&gt;
+When an accumulation of fluids (pleural effusion) is associated with pleurisy, the pain usually disappears because the fluid serves as a lubricant. However, if enough fluid accumulates, it puts pressure on your lungs, compressing and interfering with their normal function, causing shortness of breath. If the fluid becomes infected, the signs and symptoms of dry cough, fever and chills may appear. An infected pleural effusion is called an empyema. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if you experience any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unexplained, intense chest pain, especially that comes on suddenly&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms point to a problem with your lungs or pleura if the pain occurs with respiration, but may also indicate an underlying illness for which you need prompt medical care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A double layer of membranes called pleura separate your lungs from your chest wall. One layer of the pleura overlies each lung. The other layer lines the inner chest wall. The layers are like two pieces of smooth satin rubbing against each other with almost no friction, allowing your lungs to expand and contract when you breathe without any resistance from the lining of the chest wall. 
+&lt;/p&gt;
+&lt;p&gt;
+When inflamed, the two layers of the pleural membrane in the affected side of your chest rub against each other like two pieces of sandpaper, producing the pain of pleurisy when you inhale and exhale. 
+&lt;/p&gt;
+&lt;p&gt;
+The underlying medical conditions that can cause pleurisy are numerous. Pleurisy causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An acute viral infection, such as the flu (influenza)&lt;/li&gt;
+	&lt;li&gt;Pneumonia, in those cases in which the infected portion of your lung involves the surface of the pleura&lt;/li&gt;
+	&lt;li&gt;Tuberculosis and other infections&lt;/li&gt;
+	&lt;li&gt;A clot in an artery of your lungs (pulmonary embolism)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pleurisy can also occur as a result of trauma to your chest or after heart surgery. Rib fractures also may cause pleurisy. It&apos;s possible to fracture a rib in the absence of trauma, such as from a severe cough. In some cases, the cause of pleurisy is unknown (idiopathic). 
+&lt;/p&gt;
+&lt;p&gt;
+Cancer involving the lung rarely causes pleurisy. There&apos;s no relationship between smoking and pleurisy, but a &quot;smoker&apos;s cough&quot; will aggravate the pain of this condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal pleural lining and pleurisy" Caption="Pleurisy occurs when the pleura &amp;#8212; the double membrane that lines the chest cavity and surrounds each of your lungs &amp;#8212; becomes inflamed." Height="60" Title="Pleurisy" URI="/images/image_popup/thumbs/r7_pleurisythu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal pleural lining and pleurisy" Caption="Pleurisy occurs when the pleura &amp;#8212; the double membrane that lines the chest cavity and surrounds each of your lungs &amp;#8212; becomes inflamed." Height="240" Title="Pleurisy" URI="/images/image_popup/r7_pleurisy.jpg" Width="400" />
+				<HTML>
+					Pleurisy occurs when the pleura &amp;mdash; the double membrane that lines the chest cavity and surrounds each of your lungs &amp;mdash; becomes inflamed....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, when you call to set up your appointment, you may be urged to seek immediate medical care if you are experiencing severe, unexplained chest pain or difficulty breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+If you are young and have typical symptoms of a viral illness, your doctor may be able to manage your symptoms by phone. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing,&lt;/strong&gt; and for how long. Be prepared to describe your chest pain to your doctor and to pinpoint where it starts and how far it spreads. Be sure to mention that the pain occurs when you are breathing in and out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including recent travel abroad and major life changes, both positive and negative. Your doctor may also be interested in your work history, including possible environmental exposure to asbestos over the past 20 years or longer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions you&apos;re being treated for and the names of any medications, vitamins and supplements that you&apos;re taking. Also note whether any family members &amp;mdash; especially children &amp;mdash; or close friends have recently been ill.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. With pleurisy, the pain you&apos;re experiencing may be too intense to safely drive. In addition, it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For pleurisy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is the underlying cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Does it make any difference that my sputum is yellowish or greenish?&lt;/li&gt;
+	&lt;li&gt;What kinds of diagnostic tests or procedures do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment can I expect to feel better?&lt;/li&gt;
+	&lt;li&gt;Are there self-care steps I can take to improve my discomfort?&lt;/li&gt;
+	&lt;li&gt;What should I do if the pain doesn&apos;t get any better?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that I stay home from work or school? For how long?&lt;/li&gt;
+	&lt;li&gt;Will it help if I stop smoking?&lt;/li&gt;
+	&lt;li&gt;If the people I live with smoke, will it aggravate my condition?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Is the underlying cause of my symptoms contagious? How can I reduce the risk of passing my illness to others?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How would you describe your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Where is your chest pain located? Does it spread to your arms, shoulders or jaw?&lt;/li&gt;
+	&lt;li&gt;Is your chest pain constant, or does it come and go?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes your chest pain better? What makes it worse?&lt;/li&gt;
+	&lt;li&gt;Have you ever had anything like this before?&lt;/li&gt;
+	&lt;li&gt;Have you been on bed rest for more than several days?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include other types of pain, such as a sore throat or joint pain?&lt;/li&gt;
+	&lt;li&gt;Have you been experiencing difficulty breathing?&lt;/li&gt;
+	&lt;li&gt;Have you been experiencing fever or night sweats?&lt;/li&gt;
+	&lt;li&gt;Do you have any arthritis?&lt;/li&gt;
+	&lt;li&gt;To a woman, have you recently had a baby?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;How does your current energy level compare to what&apos;s normal for you?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with or treated for any other health conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any medical procedures?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled to another country? Did anyone who traveled with you get sick?&lt;/li&gt;
+	&lt;li&gt;Have you been on a recent long airplane trip?&lt;/li&gt;
+	&lt;li&gt;Have you been involved in any work, projects or hobbies over the years that might have exposed you to asbestos?&lt;/li&gt;
+	&lt;li&gt;Do or did you smoke? For how long?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, over-the-counter pain relievers such as ibuprofen (Advil, Motrin, others) &amp;mdash; which also helps control inflammation &amp;mdash; and acetaminophen (Tylenol, others) may make you more comfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+Tylenol with codeine, available by prescription only, helps control both a cough and pain. Get plenty of rest. You may find that lying on the painful side of your body eases your discomfort. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests to diagnose the underlying cause of your symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history and physical exam.&lt;/strong&gt; Your doctor will ask detailed questions about your medical history, including other health problems, medications and your recent signs and symptoms. Your doctor may want to examine your chest with a stethoscope. If he or she hears a &quot;snow crunching&quot; sound over the area of your pain, that may be enough to diagnose pleurisy. You may even be able to feel the crunching with your hand. This sign isn&apos;t always present with pleurisy, however.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A blood test may tell your doctor if you have an infection and, if so, what type of infection you have. Other blood tests also may detect an autoimmune disorder, such as rheumatoid arthritis or lupus, in which the initial sign is pleurisy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also order imaging tests or diagnostic procedures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt;&lt;br /&gt;
+Imaging tests to diagnose the underlying cause of pleurisy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; A chest X-ray may show an area of inflammation in your lungs that indicates pneumonia. Sometimes doctors want a special type of chest X-ray in which you lie on your side where the pleurisy is to see if there&apos;s any fluid that doesn&apos;t appear on a standard chest X-ray. This type of X-ray is called a decubitus chest X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; Your doctor will want to investigate any unexplained abnormality seen on chest X-rays with additional imaging, usually beginning with a computerized tomography (CT) scan. In a CT scan, a computer translates information from X-rays into images of thin sections (slices) of your chest, producing more-detailed images.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This imaging method uses high-frequency sound waves to produce precise images of structures within your body. Your doctor may use ultrasound to determine whether you have a pleural effusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic procedures&lt;/strong&gt; &lt;br /&gt;
+In some cases, your doctor may remove fluid and tissue from the pleural space for testing. Procedures may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Thoracentesis.&lt;/strong&gt; To remove fluid for laboratory analysis, your doctor may suggest a procedure called thoracentesis. In this procedure, your doctor first injects a local anesthetic between your ribs to the area where fluid was seen on your imaging studies. Next your doctor then inserts a needle through your chest wall between your ribs to remove fluid for laboratory analysis. If only a small amount of fluid is present, your doctor may insert the needle with the help of ultrasound guidance over the site of the fluid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pleural biopsy.&lt;/strong&gt; If tuberculosis or lung cancer is a suspected cause of your condition, your doctor may perform thoracentesis with pleural biopsy &amp;mdash; removal of a sample of tissue to be examined in a pathology laboratory. The biopsy needle has a small hook on the end that lifts away a small piece of tissue. Your doctor may use ultrasound guidance for this procedure as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thoracoscopy.&lt;/strong&gt; This procedure, performed while you&apos;re under a general anesthetic, allows a surgeon to see inside your chest and obtain a sample of pleural tissue. First, the surgeon makes one or more small incisions between your ribs. A tube with a tiny video camera is then inserted into your chest cavity - a procedure sometimes called video-assisted thoracoscopic surgery (VATS). Tools designed for this type of surgery allow your surgeon to cut away tissue for testing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatments used in pleurisy and pleural effusion focus primarily on the underlying cause. &amp;nbsp;For example, if bacterial pneumonia is the cause, an antibiotic may control the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Over-the-counter (OTC) or prescription nonsteroidal anti-inflammatory drugs (NSAIDs) may help relieve some of the signs and symptoms of pleurisy. Prescription codeine may help control a cough as well as the pain. If you have a large buildup of fluid, you may need to stay in the hospital to have the fluid drained continuously through a tube inserted into your chest. 
+&lt;/p&gt;
+&lt;p&gt;
+The outcome of pleurisy treatment may depend on the seriousness of the underlying disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following steps may help relieve symptoms related to pleurisy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lie on your painful side.&lt;/strong&gt; This may actually lessen your pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take OTC medicines&lt;/strong&gt; such as ibuprofen (Advil, Motrin, others) as needed to relieve pain and inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; Even when you start to feel better, be careful not to overdo it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pleurisy
+	</Title>
+	<Abstract>
+		Pleurisy &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis and treatment of this lung condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+	</RelatedLinksBox>
+</Disease>

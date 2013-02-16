@@ -1,0 +1,308 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00088
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/needle-biopsy/MY00088
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-31
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3979" Title="Needle biopsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5C04D78-E7FF-0DBD-1FF66760E140CC1D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				needle biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				fine needle biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				needle aspiration biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				core biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				bone biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				lung biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				liver biopsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A needle biopsy is a procedure to obtain a sample of cells from your body for laboratory testing. Common needle biopsy procedures include fine-needle aspiration and core needle biopsy. Needle biopsy may be used to take tissue or fluid samples from muscles, bones and organs, such as the liver or lungs. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of needle biopsy of thyroid cancer 
+" Caption="During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+" Height="60" Title="Needle biopsy" URI="/images/image_popup/thumbs/c7_needlebiopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of needle biopsy of thyroid cancer 
+" Caption="During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+" Height="400" Title="Needle biopsy" URI="/images/image_popup/c7_needlebiopsy.jpg" Width="400" />
+				<HTML>
+					During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
+				<Image Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="495" Title="Core needle biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
+				<HTML>
+					During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suggest a needle biopsy to help diagnose a medical condition or to rule out a disease or condition. A needle biopsy may also be used to assess the progress of a treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+The sample from your needle biopsy may help your doctor determine what&apos;s causing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A mass or lump.&lt;/strong&gt; A needle biopsy may reveal whether a mass or lump is a cyst, an infection, a benign tumor or cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An infection.&lt;/strong&gt; Analysis from a needle biopsy can help doctors determine what germs are causing an infection so that the most effective medications can be used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation.&lt;/strong&gt; A needle biopsy sample may reveal what&apos;s causing inflammation and what types of cells are involved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also undergo imaging tests, such as a computerized tomography (CT) scan or an ultrasound, before your needle biopsy. Sometimes these tests are also used during the needle biopsy procedure to more accurately locate the area to be biopsied. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Needle biopsy carries a small risk of bleeding and infection at the site where the needle was inserted. Some mild pain can be expected after needle biopsy, though it is usually controlled with over-the-counter pain relievers or prescription medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Call your doctor if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Pain at the biopsy site that worsens or isn&apos;t helped by medications&lt;/li&gt;
+	&lt;li&gt;Swelling at the biopsy site&lt;/li&gt;
+	&lt;li&gt;Drainage from the biopsy site&lt;/li&gt;
+	&lt;li&gt;Bleeding that doesn&apos;t stop with pressure or a bandage&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most needle biopsy procedures don&apos;t require any preparation on your part. However, you may be asked to stop taking blood-thinning medications, such as warfarin (Coumadin) or aspirin, in the days before your biopsy. Depending on what part of your body will be biopsied, your doctor may ask you not to eat or drink before the procedure. Ask your doctor whether either applies to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for sedation or general anesthesia&lt;/strong&gt; &lt;br /&gt;
+In certain cases, you may receive intravenous (IV) sedatives or general anesthetics before your needle biopsy. If this is the case, your doctor may ask that you fast the day before your procedure. Tell your doctor about any medications you&apos;re taking, as you may need to stop taking certain medications before undergoing anesthesia. 
+&lt;/p&gt;
+&lt;p&gt;
+You won&apos;t be able to return to work immediately if your needle biopsy is done under IV sedation or general anesthesia. Depending on your duties, you may be able to return to work in 24 hours. Talk to your doctor about when it&apos;s safe to return to work. 
+&lt;/p&gt;
+&lt;p&gt;
+Make arrangements or ask friends or family to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drive you home&lt;/li&gt;
+	&lt;li&gt;Stay with you for 24 hours&lt;/li&gt;
+	&lt;li&gt;Help with household chores for a day or two&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the needle biopsy&lt;/strong&gt; &lt;br /&gt;
+Your health care team will position you in a way that makes it easy for the doctor to access the area where the needle will be inserted. You may be asked to lie flat on a table. 
+&lt;/p&gt;
+&lt;p&gt;
+In certain cases, you may undergo imaging procedures, such as a CT scan or ultrasound. These allow your doctor to see the target area and plan the best way to proceed. Imaging procedures are sometimes done before your needle biopsy and sometimes performed during the biopsy. What type of imaging you&apos;ll undergo, if any, will depend on what part of your body is being biopsied. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care team will clean the area of your body where the needle will be inserted. An anesthetic may be injected into the skin around the area to numb it. In some cases, you&apos;ll receive an intravenous (IV) sedative or other medication to relax you during the procedure. Sometimes general anesthesia is used during a needle biopsy. If this is the case, you&apos;ll receive medications through a vein in your arm that will relax you and put you in a sleep-like state. 
+&lt;/p&gt;
+&lt;p&gt;
+During the needle biopsy, the doctor guides a needle through your skin and into the area of interest. A sample of cells is collected and the needle is withdrawn. This process may be repeated several times until enough cells are collected. 
+&lt;/p&gt;
+&lt;p&gt;
+Common types of needle biopsy techniques include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fine-needle aspiration.&lt;/strong&gt; This type of needle biopsy uses a thin, hollow needle to draw cells from your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Core needle biopsy.&lt;/strong&gt; This type of needle biopsy uses a wider needle than does fine-needle aspiration. The needle used during a core needle biopsy is a hollow tube that allows the doctor to extract a core of tissue for testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may experience mild discomfort during your needle biopsy, such as a sensation of pressure in the area. Tell your health care team if you&apos;re feeling uncomfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the needle biopsy&lt;/strong&gt; &lt;br /&gt;
+Once your doctor has collected enough cells or tissue for analysis, your needle biopsy procedure is complete. Your biopsy sample is sent to a laboratory for analysis. The results may be available in a few days, though more technical tests may require more time. Ask your doctor how long you can expect to wait. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care team may apply a bandage over the area where the needle was inserted. You may be asked to apply pressure to the bandage for several minutes to ensure there is minimal bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, you can leave when your needle biopsy procedure is completed. Whether you can leave right away or whether you&apos;ll need to stay for observation depends on what part of your body was biopsied. In some cases, your health care team may want to observe you for a few hours to ensure you don&apos;t have complications from your biopsy. If you received an IV sedative or general anesthetic, you&apos;ll be taken to a comfortable place to relax while the medication wears off. 
+&lt;/p&gt;
+&lt;p&gt;
+Plan to take it easy for the rest of the day. Protect the area where you received the needle biopsy by keeping the bandage in place for as long as instructed. You may feel some mild pain or discomfort in the area, but this should resolve in a day or two. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of needle biopsy of thyroid cancer 
+" Caption="During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+" Height="60" Title="Needle biopsy" URI="/images/image_popup/thumbs/c7_needlebiopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of needle biopsy of thyroid cancer 
+" Caption="During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+" Height="400" Title="Needle biopsy" URI="/images/image_popup/c7_needlebiopsy.jpg" Width="400" />
+				<HTML>
+					During needle biopsy, a long, thin needle is inserted through the skin and into the suspicious area. Cells are removed and analyzed to see if they are cancerous.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="60" Title="Core needle biopsy" URI="/images/image_popup/thumbs/mcdc7_core_needle_biopsythu.jpg" Width="60" />
+				<Image Alt="Image showing core needle biopsy 
+" Caption="During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a procedure that uses sound waves to create images of the suspicious area on a monitor &amp;mdash; might be used to help guide the needle.
+" Height="495" Title="Core needle biopsy" URI="/images/image_popup/mcdc7_core_needle_biopsy.jpg" Width="400" />
+				<HTML>
+					During a core needle biopsy, a special needle is inserted into the suspicious area &amp;mdash; in this case, a breast lump &amp;mdash; and a small, solid core of tissue is withdrawn. Ultrasound &amp;mdash; a ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kidney biopsy 
+" Caption="During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance of an imaging device, such as ultrasound. 
+" Height="60" Title="Kidney biopsy" URI="/images/image_popup/thumbs/mcdc7_kidney_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing kidney biopsy 
+" Caption="During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance of an imaging device, such as ultrasound. 
+" Height="368" Title="Kidney biopsy" URI="/images/image_popup/mcdc7_kidney_biopsy.jpg" Width="400" />
+				<HTML>
+					During a kidney biopsy, your doctor uses a needle to remove a small sample of kidney tissue for lab testing. The biopsy needle is inserted through your skin and is often directed using the guidance ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pathologists &amp;mdash; doctors who specialize in studying cells and tissue samples for signs of disease &amp;mdash; will study the biopsy sample in the laboratory and make a diagnosis. Pathologists create a pathology report for your doctor. Once your doctor receives the report, you will be contacted with the results. 
+&lt;/p&gt;
+&lt;p&gt;
+You can request a copy of your pathology report from your doctor. Pathology reports are usually filled with technical terms, so you may find it helpful to have your doctor review the report with you. 
+&lt;/p&gt;
+&lt;p&gt;
+Your pathology report may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A description of the biopsy sample.&lt;/strong&gt; This section of the pathology report, sometimes called the gross description, describes the biopsy sample in general. For instance, it may describe the color and consistency of the tissues or fluid collected by the needle biopsy procedure. Or it may say how many slides were submitted for laboratory analysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A description of the cells.&lt;/strong&gt; This section of the pathology report describes how the cells appear under a microscope. This section may include how many cells and what types of cells were seen. Information on special dyes that were used to study the cells in order to gather more information about the diagnosis and the best treatments also may be included.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The pathologist&apos;s diagnosis.&lt;/strong&gt; This section of the pathology report lists the pathologist&apos;s diagnosis. It may also include comments, such as whether other tests are recommended.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The results of your needle biopsy will determine the next steps in your medical care. Talk with your doctor about what your results mean for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Needle biopsy
+	</Title>
+	<Abstract>
+		Common needle biopsy procedures include fine-needle aspiration and core needle biopsy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="Article" DocID="HO00033" LinkType="Internal" ObjectID="9AFAA434-9484-4F2B-A69EFCB322DD1DBE" Title="Cancer treatment myths: Any truth to these common beliefs?" Url="http://www.mayoclinic.com/health/cancer/HO00033" />
+	</RelatedLinksBox>
+</TestProcedure>

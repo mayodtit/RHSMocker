@@ -1,0 +1,244 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01098
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dental-exam-for-children/MY01098
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-18
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3472" Title="Manage wellness clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3525" Title="02 to 15 months infant">
+							<Keyword MCVID="3532" Title="15 months" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="4639" Title="Child">
+							<Keyword MCVID="4640" Title="Dental exam for children" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health">
+					<Keyword MCVID="4779" Title="Tests and screenings" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7063CEDB-E93E-7C70-2153B488EF1FD60D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dental exam for children
+			</MetaKeyword>
+			<MetaKeyword>
+				dental exam
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Regular dental exams are an important part of preventive health care. During a dental exam for children, the dentist or hygienist will clean your child&apos;s teeth and evaluate your child&apos;s risk of tooth decay. A dental exam for children might include application of various protective measures &amp;mdash; such as sealants or fluoride treatments &amp;mdash; to reduce the risk of decay. A dental exam for children might also include dental X-rays or other diagnostic procedures. 
+&lt;/p&gt;
+&lt;p&gt;
+During a dental exam for children, the dentist or hygienist will likely discuss your child&apos;s diet and oral hygiene habits and demonstrate proper brushing and flossing techniques. Other topics for discussion during a dental exam for children might include preventing oral injuries or, for adolescents, the health risks associated with tobacco, substance abuse and oral piercings. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Regular dental exams help protect your child&apos;s oral health. Dental exams give your child&apos;s dentist a chance to provide tips on caring for your child&apos;s teeth, as well as detect any problems early &amp;mdash; when they&apos;re most treatable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to have a dental exam&lt;/strong&gt; &lt;br /&gt;
+Various factors might determine how frequently your child needs to have a dental exam, including his or her age, health and risk of tooth decay. Consider these general guidelines: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ages 6 months to 1 year.&lt;/strong&gt; The American Academy of Pediatric Dentistry and the American Dental Association recommend scheduling a child&apos;s first dental exam after the first tooth erupts and no later than his or her first birthday. Also expect your baby&apos;s teeth and gums to be examined at well-baby checkups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toddlers, school-age children and adolescents.&lt;/strong&gt; The American Academy of Pediatric Dentistry recommends scheduling dental checkups every six months. The dentist might recommend more-frequent visits if your child is at high risk of tooth decay or has other dental or oral health concerns. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before scheduling your child&apos;s first dental exam, consider whether you&apos;d be most comfortable visiting your family dentist or taking your child to a pediatric dentist &amp;mdash; a dentist who provides specialized dental and oral care to children, from infants to teens. Pediatric dentists typically have child-friendly offices and equipment specially designed for children. 
+&lt;/p&gt;
+&lt;p&gt;
+To help prepare your child for a dental exam: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carefully time your child&apos;s visit.&lt;/strong&gt; Schedule dental exams for your child at a time of day when he or she is well rested and most likely to be cooperative.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be positive.&lt;/strong&gt; When talking to your child about his or her dental exam, avoid using words such as &quot;pain&quot; or &quot;hurt.&quot; Instead, tell your child that the dentist will use special tools to make sure your child&apos;s teeth are healthy. Remind your child that you visit the dentist, too &amp;mdash; but don&apos;t talk about any negative dental experiences you might have had.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Listen to your child.&lt;/strong&gt; Encourage your child to share any fears he or she might have about visiting the dentist or having a dental exam. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What happens during a dental exam for children might vary depending on the child&apos;s age and treatment needs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ages 6 months to 1 year&lt;/strong&gt; &lt;br /&gt;
+The dentist or hygienist might place your child on a table or have you hold your child on your lap to conduct the exam. Then the dentist or hygienist will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evaluate your child&apos;s oral hygiene and overall health, drinking and eating habits, and his or her risk of tooth decay&lt;/li&gt;
+	&lt;li&gt;Remove any stains or deposits on your child&apos;s teeth by gently scrubbing with a wet toothbrush &lt;/li&gt;
+	&lt;li&gt;Demonstrate proper cleaning techniques&lt;/li&gt;
+	&lt;li&gt;Assess how much fluoride your child is getting through his or her diet and use of oral hygiene products &amp;mdash; and, if necessary, prescribe a fluoride supplement or apply a topical fluoride treatment to your child&apos;s teeth&lt;/li&gt;
+	&lt;li&gt;Look for sores or bumps on your child&apos;s tongue, inside the cheeks and on the roof of the mouth &lt;/li&gt;
+	&lt;li&gt;Evaluate the impact of habits such as pacifier use and thumb sucking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Toddlers, school-age children and adolescents&lt;/strong&gt; &lt;br /&gt;
+During each regular checkup, the dentist or hygienist will continue to evaluate your child&apos;s oral hygiene and overall health, drinking and eating habits, and his or her risk of tooth decay. In addition to cleaning your child&apos;s teeth, the dentist or hygienist might: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take dental X-rays or, if necessary, do other diagnostic procedures&lt;/li&gt;
+	&lt;li&gt;Apply sealants &amp;mdash; thin, protective plastic coatings &amp;mdash; to permanent molars and other back teeth susceptible to decay&lt;/li&gt;
+	&lt;li&gt;Repair any cavities or tooth defects&lt;/li&gt;
+	&lt;li&gt;Look for any problems in the way your child&apos;s upper and lower teeth fit together&lt;/li&gt;
+	&lt;li&gt;Counsel your child about the impact of thumb sucking, jaw clenching or nail biting &lt;/li&gt;
+	&lt;li&gt;Recommend pre-orthodontic treatment, such as a special mouthpiece, or orthodontics, such as braces, to straighten your child&apos;s teeth or adjust your child&apos;s bite &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As your child gets older, dental exams might also include counseling about the oral health risks associated with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drinking sugary beverages&lt;/li&gt;
+	&lt;li&gt;Smoking &lt;/li&gt;
+	&lt;li&gt;Chewing tobacco &lt;/li&gt;
+	&lt;li&gt;Eating disorders &lt;/li&gt;
+	&lt;li&gt;Oral piercings &lt;/li&gt;
+	&lt;li&gt;Not wearing a mouth guard during contact sports&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The dentist or hygienist might also discuss the possible removal of your child&apos;s wisdom teeth (third molars). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dental X-ray&lt;/strong&gt; &lt;br /&gt;
+A dental X-ray allows the dentist to see detailed images of specific sections of your child&apos;s mouth. Traditional X-ray film is developed in a darkroom, but a newer technique allows X-ray images to be sent to a computer and viewed on a screen. Various types of oral X-rays are available, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bitewing.&lt;/strong&gt; This type of X-ray allows the dentist to see the crowns of the upper and lower teeth. During a bitewing X-ray, your child will bite down on the X-ray film holder while the X-ray images are being taken. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Periapical.&lt;/strong&gt; This type of X-ray allows the dentist to see the entire tooth and the surrounding bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occlusal.&lt;/strong&gt; This type of X-ray allows the dentist to see the way the upper teeth and corresponding lower teeth fit together when the jaw is closed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Panoramic.&lt;/strong&gt; This type of X-ray gives the dentist a broad view of the entire mouth. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+X-rays aren&apos;t typically needed at every dental visit. Radiation exposure from dental X-rays is low &amp;mdash; but talk to the dentist if you&apos;re concerned about the radiation exposure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dental impression&lt;/strong&gt; &lt;br /&gt;
+In some cases, the dentist might recommend making a dental impression to produce a replica of your child&apos;s teeth and oral tissue. The dentist or hygienist will fill a horseshoe-shaped tray with a soft, gelatin-like material and place it over your child&apos;s upper and then lower teeth. After a few minutes, the tray is removed and used to create a dental cast or replica of your child&apos;s mouth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your child&apos;s dental exam, the dentist or hygienist will discuss your child&apos;s oral health, including your child&apos;s risk of tooth decay, any other oral health concerns, and preventive measures you can take to improve and protect your child&apos;s oral health. The dentist or hygienist will also recommend the best time to return for a follow-up visit &amp;mdash; typically every six months. If your child is at high risk of tooth decay or has other oral health concerns, the dentist or hygienist might recommend more-frequent checkups. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dental exam for children
+	</Title>
+	<Abstract>
+		Dental exam for children &amp;mdash; Overview covers preparation and what to expect during pediatric dental exams.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02142" LinkType="Internal" ObjectID="341816D8-CFA3-8975-8DD3A38C11CBBC2C" Title="Dental braces: When to start" Url="http://www.mayoclinic.com/health/dental-braces/AN02142" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01344" LinkType="Internal" ObjectID="2315A7BA-04C3-4E90-BB8DF761312409E9" Title="Dental braces" Url="http://www.mayoclinic.com/health/braces/MY01344" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01212" LinkType="Internal" ObjectID="0B1F451A-0DE1-C435-35D944EDA8479029" Title="Wisdom tooth extraction" Url="http://www.mayoclinic.com/health/wisdom-tooth-extraction/MY01212" />
+		<LinkItem ContentType="Article" DocID="MY01262" LinkType="Internal" ObjectID="AA8C89CF-E870-1F05-793E0CD107ACF57E" Title="Thumb sucking: Help your child break the habit" Url="http://www.mayoclinic.com/health/thumb-sucking/MY01262" />
+	</RelatedLinksBox>
+</TestProcedure>

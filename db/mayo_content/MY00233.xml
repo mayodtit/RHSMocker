@@ -1,0 +1,230 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00233
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spect-scan/MY00233
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-04
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3084" Title="SPECT scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			05BE3A9E-E7FF-0DBD-11BF057AFF68529F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spect
+			</MetaKeyword>
+			<MetaKeyword>
+				spect scan
+			</MetaKeyword>
+			<MetaKeyword>
+				scans
+			</MetaKeyword>
+			<MetaKeyword>
+				spec scan
+			</MetaKeyword>
+			<MetaKeyword>
+				single-photon emission computerized tomography
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A single-photon emission computerized tomography (SPECT) scan lets your doctor analyze the function of some of your internal organs. A SPECT scan is a type of nuclear imaging test, which means it uses a radioactive substance and a special camera to create 3-D pictures. 
+&lt;/p&gt;
+&lt;p&gt;
+While imaging tests such as X-rays can show what the structures inside your body look like, a SPECT scan produces images that show how your organs work. For instance, a SPECT scan can show how blood flows to your heart or what areas of your brain are more active or less active. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common uses of SPECT are to help diagnose or monitor brain disorders, heart problems and bone disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain disorders&lt;/strong&gt; &lt;br /&gt;
+SPECT can be helpful in determining which parts of the brain are being affected by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dementia&lt;/li&gt;
+	&lt;li&gt;Clogged blood vessels&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Encephalitis&lt;/li&gt;
+	&lt;li&gt;Head injuries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart problems&lt;/strong&gt; &lt;br /&gt;
+Because the radioactive tracer highlights areas of blood flow, SPECT can check for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clogged coronary arteries.&lt;/strong&gt; If the arteries that feed the heart muscle become narrowed or clogged, the portions of the heart muscle served by these arteries can become damaged or even die.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced pumping efficiency.&lt;/strong&gt; SPECT can show how completely each heartbeat empties blood from the lower chambers of your heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bone disorders&lt;/strong&gt; &lt;br /&gt;
+Areas of bone healing or cancer progression usually light up on SPECT scans, so this type of test is being used more frequently to help diagnose hidden bone fractures. SPECT scans can also diagnose and track the progression of cancer that has spread to the bones. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, SPECT scans are safe. If you receive an injection or infusion of radioactive tracer, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding, pain or swelling where the needle was inserted in your arm&lt;/li&gt;
+	&lt;li&gt;Rarely, an allergic reaction to the radioactive tracer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+SPECT scans aren&apos;t safe for women who are pregnant or breast-feeding because the radioactive tracer may be passed to the developing fetus or the nursing baby. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risks of radiation&lt;/strong&gt; &lt;br /&gt;
+Your health care team uses the lowest amount of radiation possible in order to perform the scan. In general, a SPECT scan exposes you to radiation levels similar to those you might encounter naturally in the environment over the course of a year. Talk to your doctor if you&apos;re concerned about your exposure to radiation during a SPECT scan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How you prepare for a SPECT scan depends on your particular situation. Ask your health care team whether you need to make any special preparations before your SPECT scan. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, you should: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Leave metallic jewelry at home&lt;/li&gt;
+	&lt;li&gt;Inform the technologist if you&apos;re pregnant or breast-feeding&lt;/li&gt;
+	&lt;li&gt;Bring a list of all the medications and supplements you take&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your SPECT scan&lt;/strong&gt; &lt;br /&gt;
+SPECT scans involve two steps: receiving a radioactive dye (called a tracer) and using a SPECT machine to scan a specific area of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Receiving a radioactive substance&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll receive a radioactive substance through an intravenous (IV) infusion into a vein in your arm. The tracer dose is very small, only a few drops, and you may feel a cold sensation as it enters your body. You may be asked to lie quietly in a room for 15 minutes or more before your scan while your body absorbs the radioactive tracer. In some cases, you may need to wait several hours between the injection and your SPECT scan. 
+&lt;/p&gt;
+&lt;p&gt;
+Your body&apos;s more active tissues will absorb more of the radioactive substance. For instance, during a seizure, the area of your brain causing the seizure may retain more of the radioactive tracer, which allows doctors to pinpoint the area of your brain causing your seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Undergoing the SPECT scan&lt;/strong&gt; &lt;br /&gt;
+The SPECT machine is a large circular device containing a camera that detects the radioactive tracer your body absorbs. During your scan, you lie on a table while the SPECT machine rotates around you. The SPECT machine takes pictures of your internal organs and other structures. The pictures are sent to a computer that uses the information to create 3-D images of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+How long your scan takes depends on the reason for your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After your SPECT scan&lt;/strong&gt; &lt;br /&gt;
+Most of the radioactive tracer leaves your body through your urine within a few hours after your SPECT scan. Your doctor may instruct you to drink more fluids, such as juice or water, after your SPECT scan to help flush the tracer from your body. Your body breaks down the remaining tracer over the next day or two. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of a person undergoing a SPECT scan 
+" Caption="During a SPECT scan, your health care team positions you on a table. Then the SPECT machine rotates around you, taking pictures of internal organs and other structures highlighted by the radioactive tracer in your body.
+" Height="60" Title="SPECT scan" URI="/images/image_popup/thumbs/c7_spect1thu.jpg" Width="60" />
+				<Image Alt="Photograph of a person undergoing a SPECT scan 
+" Caption="During a SPECT scan, your health care team positions you on a table. Then the SPECT machine rotates around you, taking pictures of internal organs and other structures highlighted by the radioactive tracer in your body.
+" Height="254" Title="SPECT scan" URI="/images/image_popup/c7_spect1.jpg" Width="320" />
+				<HTML>
+					During a SPECT scan, your health care team positions you on a table. Then the SPECT machine rotates around you, taking pictures of internal organs and other structures highlighted by the radioactive ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor analyzes the results of your SPECT scan. Pictures from your scan may show colors that tell your doctor what areas of your body absorbed more of the radioactive tracer and which areas absorbed less. For instance, a brain SPECT image might show a lighter color where brain cells are less active and darker colors where brains cells are more active. Some SPECT images show shades of gray, rather than colors. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your health care team how long to expect to wait for your results. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing the results of a SPECT scan 
+" Caption="SPECT scan results can be in color or shades of gray. The varying shades or colors show your doctor which cells in your body are absorbing more or less of the radioactive tracer. This scan includes images of the kidneys. 
+" Height="60" Title="SPECT scan results" URI="/images/image_popup/thumbs/c7_spect2thu.jpg" Width="60" />
+				<Image Alt="Photograph showing the results of a SPECT scan 
+" Caption="SPECT scan results can be in color or shades of gray. The varying shades or colors show your doctor which cells in your body are absorbing more or less of the radioactive tracer. This scan includes images of the kidneys. 
+" Height="253" Title="SPECT scan results" URI="/images/image_popup/c7_spect2.jpg" Width="320" />
+				<HTML>
+					SPECT scan results can be in color or shades of gray. The varying shades or colors show your doctor which cells in your body are absorbing more or less of the radioactive tracer. This scan includes ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		SPECT scan
+	</Title>
+	<Abstract>
+		SPECT scan &amp;mdash; Overview covers definition, risks, results of this imaging test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

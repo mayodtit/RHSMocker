@@ -1,0 +1,333 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00593
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kidney-infection/DS00593
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-09
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1150" Title="Kidneys and urinary system">
+					<Keyword MCVID="1509" Title="Kidney">
+						<Keyword MCVID="2201" Title="Kidney infection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			154D83D3-F9E7-4F8D-B4CA56E08B68CE14
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kidney infection
+			</MetaKeyword>
+			<MetaKeyword>
+				pyelonephritis
+			</MetaKeyword>
+			<MetaKeyword>
+				urinary tract infection
+			</MetaKeyword>
+			<MetaKeyword>
+				UTI
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney infection (pyelonephritis) is a specific type of urinary tract infection (UTI) that generally begins in your urethra or bladder and travels up into your kidneys. 
+&lt;/p&gt;
+&lt;p&gt;
+A kidney infection requires prompt medical attention. If not treated properly, a kidney infection can permanently damage your kidneys or the bacteria can spread to your bloodstream and cause a life-threatening infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Kidney infection treatment usually includes antibiotics and often requires hospitalization. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a kidney infection may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Back, side (flank) or groin pain&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Strong, persistent urge to urinate&lt;/li&gt;
+	&lt;li&gt;Burning sensation or pain when urinating&lt;/li&gt;
+	&lt;li&gt;Pus or blood in your urine (hematuria)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. Also make an appointment if you&apos;re being treated for a urinary tract infection, but your signs and symptoms aren&apos;t improving. 
+&lt;/p&gt;
+&lt;p&gt;
+Severe kidney infection can lead to life-threatening complications. Seek immediate medical attention if you experience typical kidney infection symptoms combined with bloody urine or nausea and vomiting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kidney infection typically occurs when bacteria enter your urinary tract through the tube that carries urine from your body (urethra) and begin to multiply. Bacteria from an infection elsewhere in your body also can spread through your bloodstream to your kidneys. Kidney infection is unusual through this route, but it can occur in some circumstances &amp;mdash; for instance, when a foreign body, such as an artificial joint or heart valve, gets infected. Rarely, kidney infection results after kidney surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of a kidney infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Female anatomy.&lt;/strong&gt; Women have a greater risk of kidney infection than do men. A woman&apos;s urethra is much shorter than a man&apos;s, so bacteria have less distance to travel from outside the body to the bladder. The proximity of the urethra to the vagina and anus also creates more opportunities for bacteria to enter the bladder. Once in the bladder, an infection can spread to the kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obstruction in the urinary tract.&lt;/strong&gt; Anything that impedes the flow of urine or reduces your ability to completely empty your bladder when urinating, such as a kidney stone, structural abnormalities in your urinary system or, in men, an enlarged prostate gland, can increase your risk of kidney infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; Medical conditions that impair your immune system, such as diabetes and the human immunodeficiency virus (HIV), increase your risk of kidney infection. Certain medications, such as drugs taken to prevent rejection of transplanted organs, have a similar effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to nerves around the bladder.&lt;/strong&gt; Nerve or spinal cord damage may block the sensations of a bladder infection so that you&apos;re unaware when it&apos;s advancing to a kidney infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged use of a urinary catheter.&lt;/strong&gt; Urinary catheters are tubes used to drain urine from the bladder. You may have a catheter placed during and after some surgical procedures and diagnostic tests. A catheter may be used continuously if you&apos;re confined to a bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A condition that causes urine to flow the wrong way.&lt;/strong&gt; In vesicoureteral reflux, small amounts of urine flow from your bladder back up into your ureters and kidneys. People with vesicoureteral reflux may have frequent kidney infections during childhood and are at higher risk of kidney infection during childhood and adulthood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If left untreated, a kidney infection can lead to potentially serious complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Permanent kidney damage.&lt;/strong&gt; A kidney infection can lead to permanent kidney damage that causes chronic kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood poisoning (septicemia).&lt;/strong&gt; Your kidneys filter waste from your blood and then return your blood to the rest of your body. If you have a kidney infection, the bacteria can spread as the kidneys return blood to circulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Women who develop a kidney infection during pregnancy may have an increased risk of delivering low birth weight babies. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or a general practitioner if you have signs and symptoms of a urinary tract infection. If your doctor suspects your infection has spread to your kidneys, you may be referred to a doctor who treats conditions that affect the urinary tract (urologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes, including a new sexual partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For kidney infection, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the likely cause of my kidney infection?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of treatment?&lt;/li&gt;
+	&lt;li&gt;Will I be admitted to the hospital?&lt;/li&gt;
+	&lt;li&gt;How will I know whether my kidney infection is cured?&lt;/li&gt;
+	&lt;li&gt;Do you recommend follow-up testing to determine whether the infection has been successfully treated?&lt;/li&gt;
+	&lt;li&gt;How can I prevent kidney infections in the future?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may suspect you have a kidney infection based on your signs and symptoms, such as fever and upper back pain. If your doctor suspects you have kidney infection, you&apos;ll likely be asked for a urine sample to determine whether bacteria, blood or pus is in your urine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Antibiotics for kidney infections&lt;/strong&gt; &lt;br /&gt;
+Antibiotics are the first line of treatment for kidney infections. Which drugs you use and for how long depend on your health condition and the bacteria found in your urine tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Usually, the signs and symptoms of a kidney infection begin to clear up within a few days of treatment. But you may need to continue antibiotics for a week or longer. Take the entire course of antibiotics recommended by your doctor to ensure that the infection is completely eliminated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization for severe kidney infections&lt;/strong&gt; &lt;br /&gt;
+For a severe kidney infection, your doctor may admit you to the hospital. Treatment in the hospital may include antibiotics that you receive through a vein in your arm (intravenously). How long you&apos;ll stay in the hospital depends on the severity of your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for recurrent kidney infections&lt;/strong&gt; &lt;br /&gt;
+When kidney infections recur frequently or an infection becomes chronic, your doctor will likely recommend that you seek medical care from a specialist who can identify underlying and potentially treatable causes. 
+&lt;/p&gt;
+&lt;p&gt;
+Recurrent kidney infections may result from an underlying medical problem, such as a structural abnormality. Your doctor may refer you to a kidney specialist (nephrologist) or urinary surgeon (urologist) for an evaluation to determine if urologic abnormalities may be causing your infections. A structural abnormality may need to be surgically repaired. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce pain or discomfort as you recover from a kidney infection, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply heat.&lt;/strong&gt; Place a heating pad on your abdomen, back or side to reduce feelings of pressure or pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use pain medicine.&lt;/strong&gt; For fever or discomfort, take a nonaspirin pain reliever that contains acetaminophen (Tylenol, others) as directed by your doctor, or take a prescription medication that he or she provides.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay hydrated.&lt;/strong&gt; Drinking plenty of fluids will help to flush bacteria from your urinary tract. Avoid coffee and alcohol until your infection has cleared. These products can aggravate your frequent or urgent need to urinate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reduce your risk of kidney infection by taking steps to prevent urinary tract infections. Women, in particular, may reduce their risk of urinary tract infections if they: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids, especially water.&lt;/strong&gt; Drinking plenty of liquids can help remove bacteria from your body when you urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinate frequently.&lt;/strong&gt; Avoid holding back urination when you feel the urge to urinate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Empty the bladder after intercourse.&lt;/strong&gt; Urinating as soon as possible after intercourse helps to clear bacteria from the urethra, reducing your risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wipe carefully.&lt;/strong&gt; For women, wiping from front to back after urinating and after a bowel movement helps to prevent bacteria region from spreading to the urethra.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid using feminine products in the genital area.&lt;/strong&gt; Using feminine products, such as deodorant sprays or douches, in your genital area can irritate your urethra.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kidney infection
+	</Title>
+	<Abstract>
+		Kidney infection &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ01212" LinkType="Internal" ObjectID="3900044F-0479-4EE7-B69ABBDC41E64B93" Title="Low-phosphorus diet: Best for kidney disease?" Url="http://www.mayoclinic.com/health/food-and-nutrition/HQ01212" />
+	</RelatedLinksBox>
+</Disease>

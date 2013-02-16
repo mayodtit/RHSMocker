@@ -1,0 +1,312 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00031
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bronchitis/DS00031
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-21
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="1152" Title="Respiratory infection">
+						<Keyword MCVID="2465" Title="Bronchitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4937" Title="Pfizer Nicotrol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FFA2CF6E-5489-4E06-A01B9DFB1B4E2351
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bronchitis
+			</MetaKeyword>
+			<MetaKeyword>
+				broncitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bronchitis is an inflammation of the lining of your bronchial tubes, which carry air to and from your lungs. Bronchitis may be either acute or chronic. 
+&lt;/p&gt;
+&lt;p&gt;
+Often developing from a cold or other respiratory infection, acute bronchitis is very common. Chronic bronchitis, a more serious condition, is a constant irritation or inflammation of the lining of the bronchial tubes, often due to smoking. 
+&lt;/p&gt;
+&lt;p&gt;
+Acute bronchitis usually improves within a few days without lasting effects, although you may continue to cough for weeks. However, if you have repeated bouts of bronchitis, you may have chronic bronchitis, which requires medical attention. Chronic bronchitis is one of the conditions included in chronic obstructive pulmonary disease (COPD). 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for bronchitis focuses on relieving your symptoms and easing your breathing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For either acute bronchitis or chronic bronchitis, signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Production of mucus (sputum), which can be clear, white, yellowish-gray or green in color&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Slight fever and chills&lt;/li&gt;
+	&lt;li&gt;Chest discomfort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have acute bronchitis, you may have a nagging cough that lingers for several weeks after the bronchitis resolves. Chronic bronchitis is defined as a productive cough that lasts at least three months for two consecutive years. If you have chronic bronchitis, you&apos;re likely to have periods when your signs and symptoms worsen. At those times, you may have acute bronchitis on top of your chronic bronchitis. In some cases, the cough may disappear only to reappear later. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if your cough: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lasts more than three weeks&lt;/li&gt;
+	&lt;li&gt;Prevents you from sleeping&lt;/li&gt;
+	&lt;li&gt;Is accompanied by fever over 100.4 F (38 C)&lt;/li&gt;
+	&lt;li&gt;Produces discolored mucus&lt;/li&gt;
+	&lt;li&gt;Produces blood (hemoptysis)&lt;/li&gt;
+	&lt;li&gt;Is associated with wheezing or shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acute bronchitis is usually caused by viruses, typically the same viruses that cause colds and influenza. Antibiotics don&apos;t kill viruses, so this type of medication isn&apos;t useful in most cases of bronchitis. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of chronic bronchitis is smoking cigarettes. Air pollution and dust or toxic gases in the environment or workplace also can contribute to the condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of bronchitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cigarette smoke.&lt;/strong&gt; People who smoke or who live with a smoker are at higher risk of both acute bronchitis and chronic bronchitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low resistance.&lt;/strong&gt; This may result from another acute illness, such as a cold, or from a chronic condition that compromises your immune system. Older adults, infants and young children have greater vulnerability to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to irritants on the job.&lt;/strong&gt; Your risk of developing bronchitis is greater if you work around certain lung irritants, such as grains or textiles, or are exposed to chemical fumes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although a single episode of bronchitis usually isn&apos;t cause for concern, it can lead to pneumonia in some people. Repeated bouts of bronchitis may signal: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic bronchitis&lt;/li&gt;
+	&lt;li&gt;Asthma&lt;/li&gt;
+	&lt;li&gt;Bronchiectasis&lt;/li&gt;
+	&lt;li&gt;Cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Sinusitis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. If you have chronic bronchitis, you may be referred to a doctor who specializes in lung diseases (pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you may want to write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you recently had a cold or the flu?&lt;/li&gt;
+	&lt;li&gt;Have you ever had pneumonia?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What drugs and supplements do you take regularly?&lt;/li&gt;
+	&lt;li&gt;Are you exposed to lung irritants at your job?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? Do you live or work with a smoker?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might also want to bring a family member or friend to your appointment. Sometimes it can be difficult to remember all the information provided. Someone who accompanies you may remember something that you missed or forgot. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve ever seen another physician for your cough, let your present doctor know what tests were done, and if possible, bring the reports with you, including results of a chest X-ray, sputum culture and pulmonary function test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;Does it affect your sleep or work performance?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? If so, how much and for how long?&lt;/li&gt;
+	&lt;li&gt;How much has your stamina decreased in the last year?&lt;/li&gt;
+	&lt;li&gt;Do you exercise? Can you climb one flight of stairs without difficulty? Can you walk as fast as you used to?&lt;/li&gt;
+	&lt;li&gt;Does anything improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does cold air bother you?&lt;/li&gt;
+	&lt;li&gt;Have you received the annual flu shot?&lt;/li&gt;
+	&lt;li&gt;Have you ever been vaccinated against pneumonia? If so, when?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the first few days of illness, it can be difficult to distinguish the signs and symptoms of bronchitis from those of a common cold. During the physical exam, your doctor will use a stethoscope to listen closely to your lungs as you breathe. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your doctor may suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; A chest X-ray can help determine if you have pneumonia or another condition that may explain your cough.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sputum culture.&lt;/strong&gt; This test checks for the presence of bacteria in sputum produced when you cough. It&apos;s helpful in determining whether you have whooping cough (pertussis) or other illnesses that would be helped by antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary function test.&lt;/strong&gt; During a pulmonary function test, you blow into a device called a spirometer, which measures how much air your lungs can hold and how quickly you can get air out of your lungs. This test checks for signs of asthma or emphysema.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
+				<Image Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
+				<HTML>
+					A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment for bronchitis is to relieve symptoms and ease breathing. In most cases, acute bronchitis requires only self-care treatments such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Getting more rest&lt;/li&gt;
+	&lt;li&gt;Taking over-the-counter pain medications&lt;/li&gt;
+	&lt;li&gt;Drinking fluids&lt;/li&gt;
+	&lt;li&gt;Breathing in warm, moist air&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+In some circumstances, your doctor may prescribe medications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Bronchitis usually results from a viral infection, so antibiotics aren&apos;t effective. However, your doctor may prescribe an antibiotic if he or she suspects that you have a bacterial infection. If you have a chronic lung disorder or if you smoke, your doctor may also prescribe antibiotics to reduce your risk of a serious, secondary infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cough medicine.&lt;/strong&gt; It&apos;s best not to suppress a cough that brings up mucus, because coughing helps remove irritants from your lungs and air passages. Over-the-counter cough medicine may help if your cough keeps you from sleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications.&lt;/strong&gt; If you have asthma or chronic obstructive pulmonary disease (COPD), your doctor may recommend an inhaler and other medications to reduce inflammation and open narrowed passages in your lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;/strong&gt;&lt;br /&gt;
+If you have chronic bronchitis, you may benefit from pulmonary rehabilitation &amp;mdash; a breathing exercise program in which a respiratory therapist teaches you how to breathe more easily and increase your ability to exercise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid lung irritants.&lt;/strong&gt; Don&apos;t smoke. Wear a mask when the air is polluted or if you&apos;re exposed to irritants, such as paint or household cleaners with strong fumes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Warm, moist air helps relieve coughs and loosens mucus in your airways. But be sure to clean the humidifier according to the manufacturer&apos;s recommendations to avoid the growth of bacteria and fungi in the water container.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider a face mask outside.&lt;/strong&gt; If cold air aggravates your cough and causes shortness of breath, put on a cold-air face mask before you go outside.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of bronchitis, follow these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid cigarette smoke.&lt;/strong&gt; Cigarette smoke increases your risk of chronic bronchitis and emphysema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; Many cases of acute bronchitis result from influenza, a virus. Getting a yearly flu vaccine can help protect you from getting the flu. You may also want to consider vaccination that protects against some types of pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; To reduce your risk of catching a viral infection, wash your hands frequently and get in the habit of using hand sanitizers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bronchitis
+	</Title>
+	<Abstract>
+		Bronchitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this potentially serious lung infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN01441" LinkType="Internal" ObjectID="D60227C6-E7FF-0DBD-1C647AA0FC6347E0" Title="Acute bronchitis: Is it contagious?" Url="http://www.mayoclinic.com/health/acute-bronchitis/AN01441" />
+		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+	</RelatedLinksBox>
+</Disease>

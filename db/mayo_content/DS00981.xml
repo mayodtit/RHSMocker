@@ -1,0 +1,418 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00981
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/food-poisoning/DS00981
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3114" Title="Food poisoning" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BEED2B48-E7FF-0DBD-1926AF122C3617BB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				food poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				food-borne illness
+			</MetaKeyword>
+			<MetaKeyword>
+				foodborne illness
+			</MetaKeyword>
+			<MetaKeyword>
+				food-borne disease
+			</MetaKeyword>
+			<MetaKeyword>
+				foodborne disease
+			</MetaKeyword>
+			<MetaKeyword>
+				food poisioning
+			</MetaKeyword>
+			<MetaKeyword>
+				food poison
+			</MetaKeyword>
+			<MetaKeyword>
+				food poisening
+			</MetaKeyword>
+			<MetaKeyword>
+				food poisining
+			</MetaKeyword>
+			<MetaKeyword>
+				food poisoning treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				food poisoning symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				food posioning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food poisoning, also called food-borne illness, is illness caused by eating contaminated food. Infectious organisms &amp;mdash; including various bacteria, viruses and parasites &amp;mdash; or their toxins are the most common causes of food poisoning. 
+&lt;/p&gt;
+&lt;p&gt;
+Infectious organisms or their toxins can contaminate food at any point during its processing or production. Contamination can also occur at home if food is incorrectly handled or cooked. 
+&lt;/p&gt;
+&lt;p&gt;
+Food poisoning symptoms often include nausea, vomiting or diarrhea, which can start just hours after eating contaminated food. Most often, food poisoning is mild and resolves without treatment. But some cases are severe, requiring hospitalization. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food poisoning symptoms vary with the source of contamination. Most types of food poisoning cause one or more of the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Watery diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal pain and cramps&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms may start within hours after eating the contaminated food, or they may begin days or possibly even weeks later. Sickness caused by food poisoning generally lasts from one to 10 days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you experience any of the following signs or symptoms, seek medical attention. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent episodes of vomiting that interfere with your ability to keep liquids down&lt;/li&gt;
+	&lt;li&gt;Vomiting blood&lt;/li&gt;
+	&lt;li&gt;Severe diarrhea for more than three days&lt;/li&gt;
+	&lt;li&gt;Blood in your bowel movements&lt;/li&gt;
+	&lt;li&gt;Extreme pain or severe abdominal cramping&lt;/li&gt;
+	&lt;li&gt;An oral temperature higher than 101.5 F (38.6 C)&lt;/li&gt;
+	&lt;li&gt;Signs or symptoms of dehydration &amp;mdash; excessive thirst, dry mouth, little or no urination, severe weakness, dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing&lt;/li&gt;
+	&lt;li&gt;Double vision&lt;/li&gt;
+	&lt;li&gt;Muscle weakness that progresses downward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you suspect food poisoning, also contact your local health department. Your report can help the health department identify a potential outbreak and may help prevent other people from getting sick. You may need to describe what you ate, where got the food you think is making you sick, when you got sick and your symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Contamination of food can happen at any point during its production: growing, harvesting, processing, storing, shipping or preparing. Cross-contamination &amp;mdash; the transfer of harmful organisms from one surface to another &amp;mdash; is often the cause. This is especially troublesome for raw, ready-to-eat foods, such as salads or other produce. Because these foods aren&apos;t cooked, harmful organisms aren&apos;t destroyed before eating and can cause food poisoning. 
+&lt;/p&gt;
+&lt;p&gt;
+Many bacterial, viral or parasitic agents cause food poisoning. The following table shows some of the possible contaminants, when you might start to feel symptoms and common ways the organism is spread. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;25%&quot;&gt;&lt;strong&gt;Contaminant&lt;/strong&gt;&lt;/th&gt;&lt;th width=&quot;15%&quot;&gt;&lt;strong&gt;Onset of symptoms&lt;/strong&gt;&lt;/th&gt;&lt;th width=&quot;65%&quot;&gt;&lt;strong&gt;Foods affected and means of transmission&lt;/strong&gt;&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Campylobacter&lt;/td&gt;
+			&lt;td&gt;2 to 5 days&lt;/td&gt;
+			&lt;td&gt;Meat and poultry. Contamination occurs during processing if animal feces contact meat surfaces. Other sources include unpasteurized milk and contaminated water.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Clostridium botulinum&lt;/td&gt;
+			&lt;td&gt;12 to 72 hours&lt;/td&gt;
+			&lt;td&gt;Home-canned foods with low acidity, improperly canned commercial foods, smoked or salted fish, potatoes baked in aluminum foil and other foods kept at warm temperatures for too long.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Clostridium perfringens&lt;/td&gt;
+			&lt;td&gt;8 to 16 hours&lt;/td&gt;
+			&lt;td&gt;Meats, stews and gravies. Commonly spread when serving dishes don&apos;t keep food hot enough or food is chilled too slowly.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Escherichia coli (E. coli) O157:H7&lt;/td&gt;
+			&lt;td&gt;1 to 8 days&lt;/td&gt;
+			&lt;td&gt;Beef contaminated with feces during slaughter. Spread mainly by undercooked ground beef. Other sources include unpasteurized milk and apple cider, alfalfa sprouts and contaminated water.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Giardia lamblia&lt;/td&gt;
+			&lt;td&gt;1 to 2 weeks&lt;/td&gt;
+			&lt;td&gt;Raw, ready-to-eat produce and contaminated water. Can be spread by an infected food handler.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Hepatitis A&lt;/td&gt;
+			&lt;td&gt;28 days&lt;/td&gt;
+			&lt;td&gt;Raw, ready-to-eat produce and shellfish from contaminated water. Can be spread by an infected food handler.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Listeria&lt;/td&gt;
+			&lt;td&gt;9 to 48 hours&lt;/td&gt;
+			&lt;td&gt;Hot dogs, luncheon meats, unpasteurized milk and cheeses, and unwashed raw produce. Can be spread through contaminated soil and water.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Noroviruses (Norwalk-like viruses)&lt;/td&gt;
+			&lt;td&gt;12 to 48 hours&lt;/td&gt;
+			&lt;td&gt;Raw, ready-to-eat produce and shellfish from contaminated water. Can be spread by an infected food handler.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Rotavirus&lt;/td&gt;
+			&lt;td&gt;1 to 3 days&lt;/td&gt;
+			&lt;td&gt;Raw, ready-to-eat produce. Can be spread by an infected food handler.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Salmonella&lt;/td&gt;
+			&lt;td&gt;1 to 3 days&lt;/td&gt;
+			&lt;td&gt;Raw or contaminated meat, poultry, milk or egg yolks. Survives inadequate cooking. Can be spread by knives, cutting surfaces or an infected food handler.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Shigella&lt;/td&gt;
+			&lt;td&gt;24 to 48 hours&lt;/td&gt;
+			&lt;td&gt;Seafood and raw, ready-to-eat produce. Can be spread by an infected food handler.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Staphylococcus aureus&lt;/td&gt;
+			&lt;td&gt;1 to 6 hours&lt;/td&gt;
+			&lt;td&gt;Meats and prepared salads, cream sauces and cream-filled pastries. Can be spread by hand contact, coughing and sneezing.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Vibrio vulnificus&lt;/td&gt;
+			&lt;td&gt;1 to 7 days&lt;/td&gt;
+			&lt;td&gt;Raw oysters and raw or undercooked mussels, clams and whole scallops. Can be spread through contaminated seawater.&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether you become ill after eating contaminated food depends on the organism, the amount of exposure, your age and your health. High-risk groups include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older adults.&lt;/strong&gt; As you get older, your immune system may not respond as quickly and as effectively to infectious organisms as when you were younger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnant women.&lt;/strong&gt; During pregnancy, changes in metabolism and circulation may increase the risk of food poisoning. Your reaction may be more severe during pregnancy. Rarely, your baby may get sick, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infants and young children.&lt;/strong&gt; Their immune systems haven&apos;t fully developed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;People with chronic disease.&lt;/strong&gt; Having a chronic condition &amp;mdash; such as diabetes, liver disease or AIDS &amp;mdash; or receiving chemotherapy or radiation therapy for cancer reduces your immune response.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common serious complication of food poisoning is dehydration &amp;mdash; a severe loss of water and essential salts and minerals. If you&apos;re a healthy adult and drink enough to replace fluids you lose from vomiting and diarrhea, dehydration shouldn&apos;t be a problem. But infants, older adults and people with suppressed immune systems or chronic illnesses may become severely dehydrated when they lose more fluids than they can replace. In that case, they may need to be hospitalized and receive intravenous fluids. In extreme cases, dehydration can be fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+Some types of food poisoning have potentially serious complications for certain people. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Listeria monocytogenes.&lt;/strong&gt; Complications of a listeria food poisoning may be most severe for an unborn baby. Early in pregnancy, a listeria infection may lead to miscarriage. Later in pregnancy, a listeria infection may lead to stillbirth, premature birth or a potentially fatal infection in the baby after birth &amp;mdash; even if the mother was only mildly ill. Infants who survive a listeria infection may experience long-term neurological damage and delayed development.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Escherichia coli (E. coli).&lt;/strong&gt; Certain E. coli strains can cause a serious complication called hemolytic uremic syndrome. This syndrome damages the lining of the tiny blood vessels in the kidneys, sometimes leading to kidney failure. Older adults, children under the age of 5 and people with weakened immune systems have a higher risk of developing this complication. If you&apos;re at high risk of hemolytic uremic syndrome, see your doctor at the first sign of profuse or bloody diarrhea.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child needs to see a doctor, you&apos;ll likely see your primary care provider first. If there are questions about the diagnosis, your doctor may refer you to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Your time with your doctor is often limited, so preparing a list of questions will help you make the most of your time together. Some questions you might want to ask your doctor or your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the likely cause of the symptoms? Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;Is there a need for any tests?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment approach? Are there any alternatives?&lt;/li&gt;
+	&lt;li&gt;Do I need to take any medicine? If yes, is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;How can I ease the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Some questions the doctor may ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has anyone in your family or otherwise close to you developed similar symptoms? If so, did you both eat the same things?&lt;/li&gt;
+	&lt;li&gt;Have you traveled anywhere where the water or food supply might not be safe?&lt;/li&gt;
+	&lt;li&gt;Are you having bloody bowel movements?&lt;/li&gt;
+	&lt;li&gt;Do you have a fever?&lt;/li&gt;
+	&lt;li&gt;Have you taken any antibiotics in the days or weeks before your symptoms started?&lt;/li&gt;
+	&lt;li&gt;When did symptoms first begin?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or do they come and go?&lt;/li&gt;
+	&lt;li&gt;Can you recall what foods you&apos;ve eaten in the past few days?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Drink plenty of fluids. Stick with bland foods to reduce stress on your digestive system. If your child is sick, follow the same approach &amp;mdash; offer plenty of fluids and bland food. If you&apos;re breast-feeding or using formula, continue to feed your child as usual. Ask your child&apos;s doctor if giving your child an oral rehydration fluid, such as Pedialyte, is appropriate. Medications that help ease diarrhea generally aren&apos;t recommended because in some cases, they can make food poisoning more severe and longer lasting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food poisoning is often diagnosed based on a detailed history, including how long you&apos;ve been sick, characteristics of your symptoms and specific foods you&apos;ve eaten. Your doctor will also perform a physical exam, looking for signs of dehydration. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your symptoms and health history, your doctor may conduct diagnostic tests, such as a blood test, stool culture or examination for parasites, to identify the cause and confirm the diagnosis. For a stool culture, your doctor will ask for a stool sample and send it to a laboratory, where a technician will try to grow and identify the infectious organism. In some cases, the cause of the food poisoning cannot be identified. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for food poisoning typically depends on the source of the illness, if known, and the severity of your symptoms. For most people, the illness resolves without treatment within a few days, though some types of food poisoning may last a week or more. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of food poisoning may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Replacement of lost fluids.&lt;/strong&gt; Fluids and electrolytes &amp;mdash; minerals such as sodium, potassium and calcium that maintain the balance of fluids in your body &amp;mdash; lost to persistent diarrhea need to be replaced. Children and adults who are severely dehydrated need treatment in a hospital, where they can receive salts and fluids through a vein (intravenously), rather than by mouth. Intravenous hydration provides the body with water and essential nutrients much more quickly than oral solutions do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Your doctor may prescribe antibiotics if you have certain kinds of bacterial food poisoning and your symptoms are severe. Food poisoning caused by listeria needs to be treated with intravenous antibiotics in the hospital. And the sooner treatment begins, the better. During pregnancy, prompt antibiotic treatment may help keep the infection from affecting the baby.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Food poisoning often improves on its own within 48 hours. To help keep yourself more comfortable and prevent dehydration while you recover, try the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Let your stomach settle.&lt;/strong&gt; Stop eating and drinking for a few hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try sucking on ice chips or taking small sips of water.&lt;/strong&gt; You might also try drinking clear soda, such as 7UP or Sprite; clear broths; or noncaffeinated sports drinks, such as Gatorade. Affected adults should try to drink at least eight to 16 glasses of liquid every day, taking small, frequent sips. You&apos;ll know that you&apos;re getting enough fluid when you&apos;re urinating normally, and your urine is clear and not dark.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ease back into eating.&lt;/strong&gt; Gradually begin to eat bland, easy-to-digest foods, such as soda crackers, toast, gelatin, bananas and rice. Stop eating if your nausea returns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid certain foods and substances until you&apos;re feeling better.&lt;/strong&gt; These include dairy products, caffeine, alcohol, nicotine, and fatty or highly seasoned foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; The illness and dehydration may have made you weak and tired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use anti-diarrheal medications.&lt;/strong&gt; Drugs intended to treat diarrhea, such as loperamide (Imodium, others) and diphenoxylate with atropine (Lomotil, Lonox), may slow elimination of bacteria or toxins from your system and can make your condition worse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are steps you can take to prevent food poisoning at home: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands, utensils and food surfaces often.&lt;/strong&gt; Wash your hands well with warm, soapy water before and after handling or preparing food. Use hot, soapy water to wash the utensils, cutting board and other surfaces you use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep raw foods separate from ready-to-eat foods.&lt;/strong&gt; When shopping, preparing food or storing food, keep raw meat, poultry, fish and shellfish away from other foods. This prevents cross-contamination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cook foods to a safe temperature.&lt;/strong&gt; The best way to tell if foods are cooked to a safe temperature is to use a food thermometer. You can kill harmful organisms in most foods by cooking them to the right temperature. Ground beef should be cooked to 160 F (71.1 C), while steaks and roasts should be cooked to at least 145 F (62.8 C). Pork needs to be cooked to at least 160 F (71.1C), and chicken and turkey need to be cooked to 165 F (73.9 C). Fish is generally well-cooked at 145 F (62.8 C).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refrigerate or freeze perishable foods promptly.&lt;/strong&gt; Refrigerate or freeze perishable foods within two hours of purchasing or preparing them. If the room temperature is above 90 F (32.2 C), refrigerate perishable foods within one hour.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Defrost food safely.&lt;/strong&gt; Do not thaw foods at room temperature. The safest way to thaw foods is to defrost foods in the refrigerator or to microwave the food using the &quot;defrost&quot; or &quot;50 percent power&quot; setting. Running cold water over the food also safely thaws the food.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Throw it out when in doubt.&lt;/strong&gt; If you aren&apos;t sure if a food has been prepared, served or stored safely, discard it. Food left at room temperature too long may contain bacteria or toxins that can&apos;t be destroyed by cooking. Don&apos;t taste food that you&apos;re unsure about &amp;mdash; just throw it out. Even if it looks and smells fine, it may not be safe to eat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Food poisoning is especially serious and potentially life-threatening for young children, pregnant women and their fetuses, older adults, and people with weakened immune systems. These individuals should take extra precautions by avoiding the following foods: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Raw or rare meat and poultry&lt;/li&gt;
+	&lt;li&gt;Raw or undercooked fish or shellfish, including oysters, clams, mussels and scallops&lt;/li&gt;
+	&lt;li&gt;Raw or undercooked eggs or foods that may contain them, such as cookie dough and homemade ice cream&lt;/li&gt;
+	&lt;li&gt;Raw sprouts, such as alfalfa, bean, clover or radish sprouts&lt;/li&gt;
+	&lt;li&gt;Unpasteurized juices and ciders&lt;/li&gt;
+	&lt;li&gt;Unpasteurized milk and milk products&lt;/li&gt;
+	&lt;li&gt;Soft cheeses (such as feta, Brie and Camembert), blue-veined cheese and unpasteurized cheese&lt;/li&gt;
+	&lt;li&gt;Refrigerated pates and meat spreads&lt;/li&gt;
+	&lt;li&gt;Uncooked hot dogs, luncheon meats and deli meats&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Food poisoning
+	</Title>
+	<Abstract>
+		Food poisoning &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01024" LinkType="Internal" ObjectID="4CA11EFB-E7FF-0DBD-10231C2BF934738C" Title="Cyclospora infection" Url="http://www.mayoclinic.com/health/cyclospora/DS01024" />
+		<LinkItem ContentType="Disease" DocID="DS00926" LinkType="Internal" ObjectID="16A05EDE-E7FF-0DBD-11CCBD03A1FF6AC7" Title="Salmonella infection" Url="http://www.mayoclinic.com/health/salmonella/DS00926" />
+		<LinkItem ContentType="Disease" DocID="DS00963" LinkType="Internal" ObjectID="148A1DFD-E7FF-0DBD-126AFDE89E532E0A" Title="Listeria infection" Url="http://www.mayoclinic.com/health/listeria-infection/DS00963" />
+		<LinkItem ContentType="Answer" DocID="AN01095" LinkType="Internal" ObjectID="F95EEF99-1547-4C91-A3AB30396ADB076C" Title="Food poisoning: How long can you safely keep leftovers?" Url="http://www.mayoclinic.com/health/food-safety/AN01095" />
+		<LinkItem ContentType="FirstAid" DocID="FA00043" LinkType="Internal" ObjectID="DA9E0A5E-AA38-4E09-808B770F73416D0A" Title="Food-borne illness: First aid" Url="http://www.mayoclinic.com/health/first-aid-food-borne-illness/FA00043" />
+		<LinkItem ContentType="Answer" DocID="AN02188" LinkType="Internal" ObjectID="9BC86382-A109-1560-53271CDB6B22C3C7" Title="Is it safe to store food in takeout containers?" Url="http://www.mayoclinic.com/health/food-storage-safety/AN02188" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Article" DocID="PR00109" LinkType="Internal" ObjectID="0162421A-A7FA-4072-822974F398B8D125" Title="Pregnancy nutrition: Foods to avoid during pregnancy" Url="http://www.mayoclinic.com/health/pregnancy-nutrition/PR00109" />
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+		<LinkItem ContentType="Disease" DocID="DS00719" LinkType="Internal" ObjectID="93BF20FB-2A5D-9994-E946FF9F8ED2DCF4" Title="Shigella infection" Url="http://www.mayoclinic.com/health/shigella/DS00719" />
+		<LinkItem ContentType="Disease" DocID="DS00739" LinkType="Internal" ObjectID="625F1132-2A5D-9994-EA84DF7C72C80768" Title="Giardia infection (giardiasis)" Url="http://www.mayoclinic.com/health/giardia-infection/DS00739" />
+		<LinkItem ContentType="Disease" DocID="DS00561" LinkType="Internal" ObjectID="5C302784-080C-4278-B4953F801900B4F2" Title="Dehydration" Url="http://www.mayoclinic.com/health/dehydration/DS00561" />
+		<LinkItem ContentType="Disease" DocID="DS00942" LinkType="Internal" ObjectID="5110957F-E7FF-0DBD-1118AB40C328C978" Title="Norovirus infection" Url="http://www.mayoclinic.com/health/norovirus/DS00942" />
+		<LinkItem ContentType="Disease" DocID="DS00397" LinkType="Internal" ObjectID="42A3E93F-CA58-4F25-AC0AA1B6D1E79A7E" Title="Hepatitis A" Url="http://www.mayoclinic.com/health/hepatitis-a/DS00397" />
+		<LinkItem ContentType="Disease" DocID="DS01007" LinkType="Internal" ObjectID="3FF83080-E7FF-0DBD-1D86BA5BBB709058" Title="E. coli" Url="http://www.mayoclinic.com/health/e-coli/DS01007" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+		<LinkItem ContentType="Disease" DocID="DS00783" LinkType="Internal" ObjectID="22F3B224-E7FF-0DBD-1E77C66BE8B8C85F" Title="Rotavirus" Url="http://www.mayoclinic.com/health/rotavirus/DS00783" />
+	</RelatedLinksBox>
+</Disease>

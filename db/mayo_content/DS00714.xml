@@ -1,0 +1,323 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00714
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tularemia/DS00714
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-30
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2543" Title="Tularemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8FFA26EE-2A5D-9994-ED2E567007FB9D49
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tularemia
+			</MetaKeyword>
+			<MetaKeyword>
+				rabbit fever
+			</MetaKeyword>
+			<MetaKeyword>
+				deer-fly fever
+			</MetaKeyword>
+			<MetaKeyword>
+				deer fly fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tularemia is a rare infectious disease that can attack the skin, eyes, lymph nodes, lungs and, less often, other internal organs. Often called rabbit fever or deer fly fever, tularemia is caused by the bacterium Francisella tularensis. The disease mainly affects mammals, especially rodents, rabbits and hares, although it can also infect birds, reptiles and fish. 
+&lt;/p&gt;
+&lt;p&gt;
+Tularemia spreads to humans through several routes, including insect bites and direct exposure to an infected animal. Highly contagious and potentially fatal, tularemia usually can be treated effectively with specific antibiotics if diagnosed early. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people exposed to tularemia who become sick generally do so within two to 10 days. Several types of tularemia exist, and which type you get depends on how and where the bacteria enter the body. Most commonly, they enter through skin or mucous membranes, but they can also be inhaled or eaten. Each type of tularemia has its own set of symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ulceroglandular tularemia&lt;/strong&gt; &lt;br /&gt;
+This is by far the most common form of the disease. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A skin ulcer that forms at the site of infection &amp;mdash; usually an insect or animal bite&lt;/li&gt;
+	&lt;li&gt;Swollen and painful lymph glands&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Exhaustion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Glandular tularemia&lt;/strong&gt; &lt;br /&gt;
+People with glandular tularemia have the same signs and symptoms of ulceroglandular tularemia, except no skin ulcers. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oculoglandular tularemia&lt;/strong&gt; &lt;br /&gt;
+This form affects the eyes and may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye pain&lt;/li&gt;
+	&lt;li&gt;Eye redness&lt;/li&gt;
+	&lt;li&gt;Eye swelling and discharge&lt;/li&gt;
+	&lt;li&gt;An ulcer on the inside of the eyelid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Oropharyngeal tularemia&lt;/strong&gt; &lt;br /&gt;
+Usually caused by eating poorly cooked wild animal meat or drinking contaminated water, this form affects the digestive tract. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sore throat (pharyngitis)&lt;/li&gt;
+	&lt;li&gt;Mouth ulcers&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pneumonic tularemia&lt;/strong&gt; &lt;br /&gt;
+More common in the elderly and in people with typhoidal tularemia, this causes signs and symptoms typical of pneumonia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other forms of tularemia also can spread to the lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Typhoidal tularemia&lt;/strong&gt; &lt;br /&gt;
+This rare and serious form of the disease usually causes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Extreme exhaustion&lt;/li&gt;
+	&lt;li&gt;Vomiting and diarrhea&lt;/li&gt;
+	&lt;li&gt;Enlarged spleen (splenomegaly)&lt;/li&gt;
+	&lt;li&gt;Enlarged liver (hepatomegaly)&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you think you may have been exposed to tularemia &amp;mdash; especially if you&apos;ve been bitten by a tick or handled a wild animal in an area where tularemia is found and have developed fever, skin ulcers or swollen glands &amp;mdash; see a doctor as soon as possible. If you test positive for the disease, you&apos;ll need to start antibiotic treatment right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tularemia doesn&apos;t occur naturally in humans and isn&apos;t known to pass from person to person. However, tularemia occurs worldwide, especially in rural areas, because many mammals, birds, insects and fish are infected with F. tularensis. The organism can live for weeks in soil, water and dead animals. 
+&lt;/p&gt;
+&lt;p&gt;
+Unlike some infectious diseases that spread from animals to people through a single route, tularemia has several modes of transmission. How you get the disease usually determines the type and severity of symptoms. In general, you can get tularemia through: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Insect bites&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Although a number of insects carry tularemia, ticks and deer flies are most likely to transmit the disease to humans. Tick bites cause a large number of cases of ulceroglandular tularemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to sick or dead animals&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Ulceroglandular tularemia can also result from handling or being bitten by an infected animal, most often a rabbit or hare. Bacteria enter the skin through small cuts and abrasions or a bite, and an ulcer forms at the wound site. The ocular form of tularemia can occur when you rub your eyes after touching an infected animal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Airborne bacteria.&lt;/strong&gt; Bacteria in the soil can become airborne during gardening, construction or other activities that disturb the earth. Inhaling the bacteria can lead to pneumonic tularemia. Laboratory workers who work with tularemia also are at risk of airborne infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contaminated food or water.&lt;/strong&gt; Although uncommon, it&apos;s possible to get tularemia from eating undercooked meat of an infected animal or drinking contaminated water. The signs include vomiting, diarrhea and other digestive problems (oropharyngeal tularemia). Heat kills F. tularensis, so cook meat to the right temperature &amp;mdash; a minimum of 160 F (71.1 C) for pork and ground meat and game meat, 145 F (62.8 C) for farm-raised steaks and roasts &amp;mdash; to make it safe to eat. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone of any age can develop tularemia, engaging in certain occupations or activities or living in certain areas pose a greater risk. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Living in or visiting certain areas&lt;/strong&gt; &lt;br /&gt;
+In the United States, people living in or visiting areas of Arkansas, Missouri and Oklahoma may be at greater risk because of the concentration of ticks in those areas. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Having certain hobbies or occupations&lt;/strong&gt; &lt;br /&gt;
+The following can increase your risk of developing tularemia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hunting and trapping.&lt;/strong&gt; Because hunters handle wild animals, are exposed to animal blood and may eat their flesh, they&apos;re at risk of tularemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gardening or landscaping.&lt;/strong&gt; Gardeners and landscapers may also be at risk of tularemia. They are more likely to develop pneumonic tularemia, one of the least common and most deadly forms of the disease. It&apos;s possible that gardeners inhale bacteria that are stirred up while working the soil or when using mowers and weed trimmers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Working in wildlife management or veterinary medicine.&lt;/strong&gt; People who work with wildlife are at increased risk of tularemia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, tularemia can be fatal. Other possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of the lungs (pneumonia).&lt;/strong&gt; Pneumonia can lead to respiratory failure &amp;mdash; a condition in which the lungs don&apos;t take in enough oxygen, release enough carbon dioxide or both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection around the brain and spinal cord (meningitis).&lt;/strong&gt; Meningitis is a serious and sometimes life-threatening infection of the fluid and membranes (meninges) surrounding the brain and spinal cord. Signs and symptoms of bacterial meningitis include high fever, severe headache, stiff neck and sensitivity to light. If not treated promptly, bacterial meningitis can cause brain damage and even death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritation around the heart (pericarditis).&lt;/strong&gt; This is swelling and irritation of the pericardium, the thin membrane that surrounds the heart. Mild pericarditis often improves without treatment, but more-serious cases may require antibiotic therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone infection (osteomyelitis).&lt;/strong&gt; Tularemia bacteria sometimes spread to the bones, leading to pain, decreased range of motion in nearby joints, and sometimes to skin redness, tenderness or open sores in the affected areas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to an infectious diseases specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List your symptoms,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; especially recent activities, such as hunting or gardening or traveling to tick-infested areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. List your questions from most important to least important. For tularemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other relevant questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been hunting, gardening or traveling to tick-heavy areas recently?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it&apos;s rare and because it shares symptoms with other diseases, tularemia may be difficult to diagnose. Doctors may check for F. tularensis in a blood or sputum sample that&apos;s cultured to encourage the growth of the bacteria. But the preferred way to diagnose tularemia usually is to identify antibodies to the bacteria in a sample of blood. You&apos;re also likely to have a chest X-ray to look for signs of pneumonia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tularemia can be effectively treated with antibiotics such as streptomycin or gentamicin, which are given by injection directly into a muscle or vein. Depending on the type of tularemia being treated, doctors may prescribe oral antibiotics such as doxycycline (Oracea, Vibramycin, others) instead. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll also receive therapy for any complications such as meningitis or pneumonia. In general, you should be immune to tularemia after recovering from the disease, but some people may experience a recurrence or reinfection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Attempts to develop a tularemia vaccine have not been successful so far. If you work in a high-risk occupation or live in an area where tularemia is present, these measures may help reduce your chance of infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Protect yourself from insects.&lt;/strong&gt; Most people get tularemia though tick bites. If you spend time in tick-infested areas, wear long-sleeved shirts and long pants, tuck your pants into your socks, and use a broad-brimmed hat to help protect your face and neck. Even bundled up, you&apos;ll need to check your skin and clothing often for ticks. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Use an insect repellent, but follow the manufacturer&apos;s directions carefully. Products containing DEET are still considered the most effective against ticks, although oil of lemon eucalyptus or natural insecticides may offer some protection. Use the lowest concentration of repellent for the circumstances, apply it in moderation, and wash it off at the end of the day. Don&apos;t use repellents containing DEET on infants younger than 2 months. Check yourself for ticks often and remove them immediately if you find any. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care when gardening.&lt;/strong&gt; Home gardeners and professional landscapers should consider wearing a face mask when excavating the soil, clearing weeds or brush, or mowing lawns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Handle animals carefully&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; If you hunt or handle wild rabbits or hares, wear gloves and protective goggles, and wash your hands thoroughly with soap and hot water after touching the animal. Cook all wild meat thoroughly, and avoid skinning or dressing any animal that appeared ill.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your pets&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Livestock and pets can contract tularemia if they eat part of a diseased rabbit or are bitten by an infected tick. To help keep your pets safe, avoid letting them outside unsupervised, provide them with flea and tick protection, and don&apos;t let them come in close contact with wild or dead animals.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tularemia
+	</Title>
+	<Abstract>
+		Tularemia &amp;mdash; Comprehensive overview covers symptoms, treatment of this disease that normally affects wild animals.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+	</RelatedLinksBox>
+</Disease>

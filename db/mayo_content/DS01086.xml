@@ -1,0 +1,446 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01086
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wet-macular-degeneration/DS01086
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="1795" Title="Dry macular degeneration">
+							<Keyword MCVID="3521" Title="Wet macular degeneration" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			35BF9702-E7FF-0DBD-19875030282DC469
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				macular degeneration
+			</MetaKeyword>
+			<MetaKeyword>
+				wet macular degeneration
+			</MetaKeyword>
+			<MetaKeyword>
+				AMD
+			</MetaKeyword>
+			<MetaKeyword>
+				ARMD
+			</MetaKeyword>
+			<MetaKeyword>
+				age-related macular degeneration
+			</MetaKeyword>
+			<MetaKeyword>
+				retina
+			</MetaKeyword>
+			<MetaKeyword>
+				macula
+			</MetaKeyword>
+			<MetaKeyword>
+				central vision
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wet macular degeneration is a chronic eye disease that causes vision loss in the center of your field of vision. Wet macular degeneration is generally caused by abnormal blood vessels that leak fluid or blood into the region of the macula (MAK-u-luh). The macula is in the center of the retina (the layer of tissue on the inside back wall of your eyeball).
+&lt;/p&gt;
+&lt;p&gt;
+Wet macular degeneration is one of two types of age-related macular degeneration. The other type &amp;mdash; dry macular degeneration &amp;mdash; is more common and less severe. Wet macular degeneration almost always begins as dry macular degeneration. It&apos;s not clear what causes wet macular degeneration.
+&lt;/p&gt;
+&lt;p&gt;
+Early detection and treatment of wet macular degeneration may help reduce vision loss and, in some instances, improve vision. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="60" Title="Vision with macular degeneration" URI="/images/image_popup/thumbs/vi7_macular_degenerationthu.jpg" Width="60" />
+				<Image Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="200" Title="Vision with macular degeneration" URI="/images/image_popup/vi7_macular_degeneration.jpg" Width="400" />
+				<HTML>
+					As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wet macular degeneration symptoms usually appear and progress rapidly. Symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Visual distortions, such as straight lines appearing wavy or crooked, a doorway or street sign looking lopsided, or objects appearing smaller or farther away than they really are&lt;/li&gt;
+	&lt;li&gt;Decreased central vision&lt;/li&gt;
+	&lt;li&gt;Decreased intensity or brightness of colors&lt;/li&gt;
+	&lt;li&gt;Well-defined blurry spot or blind spot in your field of vision&lt;/li&gt;
+	&lt;li&gt;Abrupt onset&lt;/li&gt;
+	&lt;li&gt;Rapid worsening&lt;/li&gt;
+	&lt;li&gt;Hallucinations of geometric shapes, animals or people, in cases of advanced macular degeneration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your eye doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You notice changes in your central vision&lt;/li&gt;
+	&lt;li&gt;Your ability to see colors and fine detail becomes impaired&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These changes may be the first indication of macular degeneration, particularly if you&apos;re older than age 50.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="60" Title="Vision with macular degeneration" URI="/images/image_popup/thumbs/vi7_macular_degenerationthu.jpg" Width="60" />
+				<Image Alt="Photographs depicting normal vision and vision with macular degeneration 
+" Caption="As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (shown right). 
+" Height="200" Title="Vision with macular degeneration" URI="/images/image_popup/vi7_macular_degeneration.jpg" Width="400" />
+				<HTML>
+					As macular degeneration develops, clear, normal vision (shown left) becomes impaired by a general haziness. With advanced macular degeneration, a blind spot forms at the center of your visual field (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes wet macular degeneration. The condition almost always develops in people who have had dry macular degeneration. But doctors can&apos;t predict who will develop wet macular degeneration, which is more severe and progresses more rapidly than dry macular degeneration.
+&lt;/p&gt;
+&lt;p&gt;
+Wet macular degeneration can develop in different ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Vision loss caused by abnormal blood vessel growth.&lt;/strong&gt; Wet macular degeneration may develop when abnormal new blood vessels grow from the choroid &amp;mdash; the layer of blood vessels between the retina and the outer, firm coat of the eye, called the sclera &amp;mdash; under and into the macular portion of the retina. This condition is called choroidal neovascularization.
+	&lt;/p&gt;
+	&lt;p&gt;
+	These abnormal vessels may leak fluid or blood between the choroid and macula. The fluid interferes with the retina&apos;s function and causes your central vision to blur. In addition, what you see when you look straight ahead becomes wavy or crooked, and blank spots block out part of your field of vision.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Vision loss caused by fluid buildup in the back of the eye.&lt;/strong&gt; Wet macular degeneration sometimes may develop when fluid leaks from the choroid and collects between the choroid and a thin cell layer, called the retinal pigment epithelium (RPE). This may cause retinal pigment epithelium detachment.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The fluid beneath the RPE causes what looks like a blister or a bump under the macula.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parts of the inner eye 
+" Caption="Located at the back of your eye in the center of your retina, a healthy macula allows for normal central vision acuity. The macula is made up of densely packed light-sensitive cells called cones and rods. Cones are responsible for color vision and rods enable you to see shades of gray. 
+" Height="60" Title="Parts of the eye" URI="/images/image_popup/thumbs/vi7_inner_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing parts of the inner eye 
+" Caption="Located at the back of your eye in the center of your retina, a healthy macula allows for normal central vision acuity. The macula is made up of densely packed light-sensitive cells called cones and rods. Cones are responsible for color vision and rods enable you to see shades of gray. 
+" Height="306" Title="Parts of the eye" URI="/images/image_popup/vi7_inner_eye.jpg" Width="400" />
+				<HTML>
+					Located at the back of your eye in the center of your retina, a healthy macula allows for normal central vision acuity. The macula is made up of densely packed light-sensitive cells called cones and ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing wet macular degeneration 
+" Caption="Wet macular degeneration occurs when abnormal blood vessels growing out of the choroid push up the retinal pigment epithelium (RPE). Fluid and blood leaking from these vessels can cause severe vision loss. 
+" Height="60" Title="Wet macular degeneration" URI="/images/image_popup/thumbs/r7_wetmacdegenthu.jpg" Width="60" />
+				<Image Alt="Illustration showing wet macular degeneration 
+" Caption="Wet macular degeneration occurs when abnormal blood vessels growing out of the choroid push up the retinal pigment epithelium (RPE). Fluid and blood leaking from these vessels can cause severe vision loss. 
+" Height="490" Title="Wet macular degeneration" URI="/images/image_popup/r7_wetmacdegen.jpg" Width="400" />
+				<HTML>
+					Wet macular degeneration occurs when abnormal blood vessels growing out of the choroid push up the retinal pigment epithelium (RPE). Fluid and blood leaking from these vessels can cause severe vision ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of macular degeneration include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Your risk of macular degeneration increases as you age, especially after age 50. Macular degeneration is most common in people older than 65.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of macular degeneration.&lt;/strong&gt; If someone in your family had macular degeneration, you&apos;re more likely to develop macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Macular degeneration is more common in whites (Caucasians) than it is in other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking cigarettes increases your risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being severely overweight increases the chance that early or intermediate macular degeneration will progress to the more severe form of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; A diet that includes few fruits and vegetables may increase the risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Diseases that affect the circulatory system, such as high blood pressure or high cholesterol, may increase the risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation.&lt;/strong&gt; Your immune system can cause swelling of your body tissues, which may increase the risk of macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; If you have had diseases that affected your heart and blood vessels (cardiovascular disease), you may be at higher risk of macular degeneration.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To check for macular degeneration, a dilated eye exam is necessary. Make an appointment with a doctor who specializes in eye care &amp;mdash; an optometrist or an ophthalmologist &amp;mdash; who can perform a complete eye exam. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and because there&apos;s often a lot to talk about, it&apos;s a good idea to arrive well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; and ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to your vision problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to accompany you.&lt;/strong&gt; Having your pupils dilated for the eye exam will affect your vision for a time afterward, so you may need someone to drive or accompany you after your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your eye doctor&lt;br /&gt;
+&lt;/strong&gt;Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For wet macular degeneration, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kind of macular degeneration do I have?&lt;/li&gt;
+	&lt;li&gt;What is the visual acuity in my central vision?&lt;/li&gt;
+	&lt;li&gt;How advanced is my macular degeneration?&lt;/li&gt;
+	&lt;li&gt;Will I experience further vision loss?&lt;/li&gt;
+	&lt;li&gt;Will taking a vitamin or mineral supplement help prevent further vision loss?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best way to monitor my vision for any changes?&lt;/li&gt;
+	&lt;li&gt;What low vision aids or adaptive devices might be helpful to me?&lt;/li&gt;
+	&lt;li&gt;Is it safe for me to drive?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your vision problem?&lt;/li&gt;
+	&lt;li&gt;Does the condition affect one or both eyes?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble seeing things near you, at a distance or both?&lt;/li&gt;
+	&lt;li&gt;Do you smoke?&lt;/li&gt;
+	&lt;li&gt;Do you take any vitamins or supplements?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;What types of foods do you eat?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of macular degeneration?&lt;/li&gt;
+	&lt;li&gt;Do you have diabetes, hypertension or high cholesterol?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors will review your medical history and family history, and conduct a comprehensive eye exam to diagnose your condition. Doctors may conduct several tests to diagnose wet macular degeneration, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A test for defects in your central vision.&lt;/strong&gt; During an eye examination, your eye doctor may use an Amsler grid to test for defects in the center of your vision. Macular degeneration may cause the straight lines in the grid to appear faded, broken or distorted.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An examination of the back of your eye.&lt;/strong&gt; Your eye doctor will examine the back of your eye to look for fluid or blood. Your eye doctor will put eyedrops in your eyes to dilate your eyes and use a special optical device to examine the back of your eye. &lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;A fluorescein angiogram.&lt;/strong&gt; During an angiogram of your eye, your doctor injects a colored dye into a vein in your arm. The dye travels to the blood vessels in your eye, highlights the blood vessels and will help identify abnormal sites in the blood vessel walls that may be leaking.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A special camera takes several pictures of the blood vessels in your eye as the dye travels through the blood vessels. The images will show if you have blood vessel or retinal abnormalities that may be associated with wet macular degeneration.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An optical coherence tomography.&lt;/strong&gt; This noninvasive imaging test displays detailed cross-sectional images of your eye. The test identifies retinal abnormalities, such as retina swelling or leaking blood vessels in your eye. It&apos;s often used to help monitor the response of the retina to macular degeneration treatments.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Amsler grid 
+" Caption="Viewing an Amsler grid in an advanced stage of macular degeneration, you may see distorted grid lines or a blank spot near the center of the grid (right). 
+" Height="60" Title="Amsler grid" URI="/images/image_popup/thumbs/r7_amslergridthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Amsler grid 
+" Caption="Viewing an Amsler grid in an advanced stage of macular degeneration, you may see distorted grid lines or a blank spot near the center of the grid (right). 
+" Height="220" Title="Amsler grid" URI="/images/image_popup/vi7_amsler_grid.jpg" Width="400" />
+				<HTML>
+					Viewing an Amsler grid in an advanced stage of macular degeneration, you may see distorted grid lines or a blank spot near the center of the grid (right). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photographs of maculas showing drusen 
+" Caption="The appearance of drusen &amp;mdash; yellow deposits &amp;mdash; on color photographs of the retina indicates the development of early-stage dry macular degeneration (left). As the condition progresses to the advanced stage (right), large drusen develop and the light-sensitive cells that make up the macula break down. 
+" Height="60" Title="Drusen" URI="/images/image_popup/thumbs/vi7_drusenthu.jpg" Width="60" />
+				<Image Alt="Photographs of maculas showing drusen 
+" Caption="The appearance of drusen &amp;mdash; yellow deposits &amp;mdash; on color photographs of the retina indicates the development of early-stage dry macular degeneration (left). As the condition progresses to the advanced stage (right), large drusen develop and the light-sensitive cells that make up the macula break down. 
+" Height="158" Title="Drusen" URI="/images/image_popup/vi7_drusen.jpg" Width="400" />
+				<HTML>
+					The appearance of drusen &amp;mdash; yellow deposits &amp;mdash; on color photographs of the retina indicates the development of early-stage dry macular degeneration (left). As the condition progresses to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wet macular degeneration can&apos;t be cured. If diagnosed early, treatment may help slow progress of wet macular degeneration and reduce the amount of vision lost. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications to stop growth of abnormal blood vessels&lt;br /&gt;
+&lt;/strong&gt;Medications may help stop growth of new blood vessels by blocking the effects of growth signals the body sends to generate new blood vessels. These drugs are considered the first-line treatment for all stages of wet macular degeneration. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications used to treat wet macular degeneration include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bevacizumab (Avastin)&lt;/li&gt;
+	&lt;li&gt;Ranibizumab (Lucentis)&lt;/li&gt;
+	&lt;li&gt;Pegaptanib (Macugen)&lt;/li&gt;
+	&lt;li&gt;Aflibercept (Eylea)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor injects these medications directly into your eye. You may undergo repeat injections every four weeks to maintain the beneficial effect of the medication. In some instances, you may partially recover vision as the blood vessels shrink and the fluid under the retina absorbs, allowing retinal cells to regain some function. 
+&lt;/p&gt;
+&lt;p&gt;
+Some of these medications may increase the risk of stroke.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Using light to activate an injected medication (photodynamic therapy)&lt;br /&gt;
+&lt;/strong&gt;Photodynamic therapy is used to treat abnormal blood vessels at the center of your macula. 
+&lt;/p&gt;
+&lt;p&gt;
+In this procedure, your doctor injects a medication called verteporfin (Visudyne) into a vein in your arm, which travels to blood vessels in your eye. Your doctor shines a focused light from a special laser to the abnormal blood vessels in your eye. This activates the medication within the abnormal blood vessels. The medication then can cause the abnormal blood vessels in your eye to close, which stops the leakage. 
+&lt;/p&gt;
+&lt;p&gt;
+Photodynamic therapy may improve the vision and reduce the rate of vision loss. You may need repeated treatments over time, as the treated blood vessels may reopen.
+&lt;/p&gt;
+&lt;p&gt;
+After photodynamic therapy, you&apos;ll need to avoid direct sunlight and intensely bright lights until the drug has cleared your body, which may take a few days.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Using a laser to destroy abnormal blood vessels (photocoagulation)&lt;br /&gt;
+&lt;/strong&gt;During laser therapy, your doctor uses a high-energy laser beam to destroy abnormal blood vessels under the macula. The procedure is used to prevent further damage to the macula and slow continued vision loss.
+&lt;/p&gt;
+&lt;p&gt;
+Laser therapy is used to treat wet macular degeneration only in certain situations. It generally isn&apos;t an option if you have abnormal blood vessels directly under the center of the macula. Also, the more damaged your macula is, the lower the likelihood of functional success. Because of these restrictions, few people who have wet macular degeneration are candidates for laser therapy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Macular degeneration doesn&apos;t affect your side (peripheral) vision and usually doesn&apos;t cause total blindness. But it can diminish or eliminate your central vision - which is important for driving, reading and recognizing people&apos;s faces. It may help to work with a low vision rehabilitation specialist, occupational therapist, an eye doctor or others trained in low vision rehabilitation, who can help you find and learn ways to adapt to your changing vision. 
+&lt;/p&gt;
+&lt;p&gt;
+To cope with your changing vision you might: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your eye doctor to check your eyeglasses.&lt;/strong&gt; Optimize the vision you have by getting the most-appropriate prescription lenses for your glasses.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Use magnifiers.&lt;/strong&gt; A variety of magnifying devices can help you with reading and other close-up work, such as sewing. Magnifying devices may include traditional hand-held magnifying lenses or special magnifying lenses you wear just like glasses.
+	&lt;/p&gt;
+	&lt;p&gt;
+	You may also use a closed-circuit television system that uses a video camera to magnify reading material and project it on a video screen. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change your computer display and add audio systems.&lt;/strong&gt; Adjust the font size in your computer&apos;s settings. Adjust your monitor to show more contrast. You may also add speech-output systems or other technologies to your computer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use alternative options for books.&lt;/strong&gt; To read, use large-print books, electronic readers, tablets or audio books. Some tablets and smartphones have applications that can be added to assist people with low vision, such as magnifying text.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Select special appliances made for low vision.&lt;/strong&gt; Some clocks, radios, telephones and other appliances have extra-large numbers. Other gadgets can talk to tell you the time or other important information. You may find it easier to watch a television with a larger high-definition screen, or you may want to sit nearer to the screen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use brighter lights in your home.&lt;/strong&gt; Brighter lights will help with reading and other daily activities in your home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution when driving.&lt;/strong&gt; First, check with your doctor to see if driving is still safe based on your current vision. When you do drive, certain situations require extra caution, such as driving at night, in heavy traffic or in bad weather.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider other travel options.&lt;/strong&gt; Use public transportation or ask family members to help, especially with night driving. Make arrangements to use local van or shuttle services, volunteer driving networks, or rideshares.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get support.&lt;/strong&gt; Having macular degeneration can be difficult, and you may need to make many changes in your life. You may go through many emotions as you adjust to having macular degeneration. Consider talking to a counselor or joining a support group to help adjust to your condition and life changes. Spend time with family and friends who can offer you support.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you avoid macular degeneration: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have routine eye exams.&lt;/strong&gt; Ask your eye doctor how often you should undergo routine eye exams. A dilated eye exam can identify macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage your other medical conditions.&lt;/strong&gt; For example, if you have cardiovascular disease or high blood pressure, take your medication and follow your doctor&apos;s instructions for controlling the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smokers are more likely to develop macular degeneration than are nonsmokers. Ask your doctor for help to stop smoking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight and exercise regularly.&lt;/strong&gt; If you need to lose weight, reduce the number of calories you eat and increase the amount of exercise you get each day. Maintain a healthy weight by exercising regularly and controlling your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a diet rich in fruits and vegetables.&lt;/strong&gt; Choose a healthy diet that&apos;s full of a variety of fruits and vegetables. These foods contain antioxidant vitamins that reduce your risk of developing macular degeneration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Include fish in your diet.&lt;/strong&gt; Omega-3 fatty acids, which are found in fish, may reduce the risk of macular degeneration. Nuts, such as walnuts, also contain omega-3 fatty acids.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wet macular degeneration
+	</Title>
+	<Abstract>
+		Wet macular degeneration &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this serious eye disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02048" LinkType="Internal" ObjectID="E00A39C1-0AFD-BFBA-988EF01B5E170D48" Title="Eye dilation: Necessary with every eye exam?" Url="http://www.mayoclinic.com/health/eye-dilation/AN02048" />
+		<LinkItem ContentType="Answer" DocID="AN01663" LinkType="Internal" ObjectID="B7146E9A-E7FF-0DBD-143E8D2E399E32C6" Title="Eye exam: Is a laser retina scan worthwhile?" Url="http://www.mayoclinic.com/health/eye-exam/AN01663" />
+		<LinkItem ContentType="SlideShow" DocID="MY01108" LinkType="Internal" ObjectID="92C93DC5-F40E-7C43-652568782BBCDBD5" Title="Slide show: 10 great health foods for eating well" Url="http://www.mayoclinic.com/health/health-foods/MY01108" />
+		<LinkItem ContentType="SlideShow" DocID="EY00003" LinkType="Internal" ObjectID="7ECECA6C-3B12-488C-AB1AEA8D95084FB0" Title="Slide show: A look inside your eyes" Url="http://www.mayoclinic.com/health/eyes/EY00003" />
+		<LinkItem ContentType="SlideShow" DocID="MY01593" LinkType="Internal" ObjectID="5B96B16B-D098-F54B-59BF3E3CCCC550AD" Title="Slide show: Add antioxidants to your diet" Url="http://www.mayoclinic.com/health/antioxidants/MY01593" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Disease" DocID="DS00284" LinkType="Internal" ObjectID="21C07C90-1034-44F9-9CFDC922CEC3A6BA" Title="Dry macular degeneration" Url="http://www.mayoclinic.com/health/macular-degeneration/DS00284" />
+		<LinkItem ContentType="Article" DocID="SA00044" LinkType="Internal" ObjectID="99B5C7CE-FE7B-4B72-A57D4B36C77A8D7C" Title="Herbal supplements: What to know before you buy" Url="http://www.mayoclinic.com/health/herbal-supplements/SA00044" />
+		<LinkItem ContentType="Article" DocID="HB00040" LinkType="Internal" ObjectID="7D6EE7E9-8240-4D04-AAA71F42515DDA8D" Title="Heart disease in women: Understand symptoms and risk factors" Url="http://www.mayoclinic.com/health/heart-disease/HB00040" />
+		<LinkItem ContentType="Article" DocID="SK00057" LinkType="Internal" ObjectID="51BBEF05-E7FF-0DBD-115668D65EC3E3BA" Title="Quitting smoking: 10 ways to resist tobacco cravings" Url="http://www.mayoclinic.com/health/nicotine-craving/SK00057" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00233" LinkType="Internal" ObjectID="373C37BE-3C76-4DE1-A255EDCA17BBD5A6" Title="Poor color vision" Url="http://www.mayoclinic.com/health/poor-color-vision/DS00233" />
+	</RelatedLinksBox>
+</Disease>

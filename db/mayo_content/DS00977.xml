@@ -1,0 +1,317 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00977
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/deviated-septum/DS00977
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1786" Title="Nose and sinuses">
+						<Keyword MCVID="3257" Title="Deviated septum" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6E96F8-E7FF-0DBD-1EF9C7D28A8590C5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				deviated septum
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal congestion
+			</MetaKeyword>
+			<MetaKeyword>
+				difficulty breathing
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				deviated nasal septum
+			</MetaKeyword>
+			<MetaKeyword>
+				nasal septum
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A deviated septum occurs when the thin wall (nasal septum) between your nostrils is displaced to one side. Your septum separates your right and left nasal cavities and ideally is situated in the center of your nose, equally separating the two sides. However, in many people, the nasal septum is displaced, making one nasal passage smaller. 
+&lt;/p&gt;
+&lt;p&gt;
+When a deviated septum is severe, it can block one side of your nose and reduce airflow, causing difficulty breathing, nosebleeds and other symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of nasal obstruction may include medications or adhesive strips to manage symptoms. But to correct a deviated septum, surgery is necessary. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing deviated septum 
+" Caption="A deviated septum occurs when your nasal septum is significantly displaced to one side, making one nostril smaller than the other. 
+" Height="60" Title="Deviated septum" URI="/images/image_popup/thumbs/r7_deviatedseptumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing deviated septum 
+" Caption="A deviated septum occurs when your nasal septum is significantly displaced to one side, making one nostril smaller than the other. 
+" Height="421" Title="Deviated septum" URI="/images/image_popup/r7_deviatedseptum.jpg" Width="400" />
+				<HTML>
+					A deviated septum occurs when your nasal septum is significantly displaced to one side, making one nostril smaller than the other. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most septal deformities result in no symptoms, and you may not even know you have a deviated septum. Some septal deformities, however, may cause the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obstruction of one or both nostrils.&lt;/strong&gt; This obstruction can make it difficult to breathe through the nostril or nostrils. This may be more noticeable when you have a cold (upper respiratory tract infection) or allergies that can cause your nasal passages to swell and narrow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nosebleeds.&lt;/strong&gt; The surface of your nasal septum may become dry, increasing your risk of nosebleeds.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Facial pain.&lt;/strong&gt; You may experience pain if your nasal septum is coming into contact with the outside wall of your nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent or recurring sinus infections.&lt;/strong&gt; Sinus infections can result from blocked mucus and are often marked by facial pain, nasal obstruction and a foul discharge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Noisy breathing during sleep.&lt;/strong&gt; This is more common in infants and young children with a deviated septum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurring sinus infections&lt;/li&gt;
+	&lt;li&gt;Frequent nosebleeds&lt;/li&gt;
+	&lt;li&gt;A blocked nostril that doesn&apos;t respond to treatment&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A deviated septum occurs when your nasal septum &amp;mdash; the thin wall that separates your right and left nasal passages &amp;mdash; is displaced to one side. 
+&lt;/p&gt;
+&lt;p&gt;
+A deviated septum can be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A condition present at birth.&lt;/strong&gt; In some cases, a deviated septum occurs during fetal development and is apparent at birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to the nose.&lt;/strong&gt; A deviated septum can also be the result of an injury that causes the nasal septum to be knocked out of position. In infants, such an injury may occur during childbirth. In children and adults, a wide array of accidents may lead to a nose injury and deviated septum &amp;mdash; from tripping on a step to colliding with another person on the sidewalk. Trauma to the nose most commonly occurs during contact sports, active play or roughhousing, or automobile accidents.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Normal aging may also cause nasal tip cartilage to deteriorate, aggravating a deviated septum over time. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing deviated septum 
+" Caption="A deviated septum occurs when your nasal septum is significantly displaced to one side, making one nostril smaller than the other. 
+" Height="60" Title="Deviated septum" URI="/images/image_popup/thumbs/r7_deviatedseptumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing deviated septum 
+" Caption="A deviated septum occurs when your nasal septum is significantly displaced to one side, making one nostril smaller than the other. 
+" Height="421" Title="Deviated septum" URI="/images/image_popup/r7_deviatedseptum.jpg" Width="400" />
+				<HTML>
+					A deviated septum occurs when your nasal septum is significantly displaced to one side, making one nostril smaller than the other. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For some people, a deviated septum is present at birth &amp;mdash; occurring during fetal development or due to injury during childbirth. After birth, a deviated septum is most commonly caused by an injury that knocks your nasal septum out of place. Risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Playing contact sports&lt;/li&gt;
+	&lt;li&gt;Not wearing your seat belt while riding in a motorized vehicle&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a severely deviated septum it may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nasal obstruction&lt;/li&gt;
+	&lt;li&gt;Sinus infections&lt;/li&gt;
+	&lt;li&gt;Nosebleeds&lt;/li&gt;
+	&lt;li&gt;Facial pain and headaches&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred directly to an ear, nose and throat specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For a deviated septum and its complications, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor may ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any nasal trauma due to a sports injury, car accident or other mishap?&lt;/li&gt;
+	&lt;li&gt;Have you had previous nasal surgery?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During a physical exam, your doctor will ask about your symptoms &amp;mdash; such as nosebleeds or nasal congestion &amp;mdash; and ask whether you&apos;ve had any trauma to your nose. 
+&lt;/p&gt;
+&lt;p&gt;
+Using a bright light and an instrument (nasal speculum) designed to spread open your nostrils, your doctor can examine the inside of your nose. Based on this exam, he or she should be able to diagnose deviated septum and determine the seriousness of your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If treatment is deemed necessary, your doctor may refer you to an ear, nose and throat specialist. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Managing symptoms&lt;/strong&gt; &lt;br /&gt;
+Initial treatment of deviated septum may be directed at managing the symptoms of the condition, such as nasal congestion and postnasal drip. Your doctor may prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Decongestants.&lt;/strong&gt; Decongestants are medications that reduce nasal congestion, helping to keep the airways on both sides of your nose open. Decongestants are available as a pill or as a nasal spray. Use nasal sprays with caution, however. Frequent use can create dependency and cause symptoms to be worse (rebound) after you stop using them. Decongestants have a stimulant effect and may cause you to be jittery as well as elevate your blood pressure and heart rate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines.&lt;/strong&gt; Antihistamines are medications that help prevent many cold and allergy symptoms, including runny nose. Some antihistamines cause drowsiness and can affect your ability to perform tasks that require physical coordination, such as driving.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nasal steroid sprays.&lt;/strong&gt; Prescription nasal corticosteroid sprays can reduce inflammation in your nasal passage and help prevent a runny nose. Common side effects of nasal steroid spray include throat irritation and burning, dryness or other irritation inside your nose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Medications are only a temporary fix, however, and won&apos;t correct a deviated septum. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical repair (septoplasty)&lt;/strong&gt; &lt;br /&gt;
+If you experience especially bothersome symptoms &amp;mdash; such as significant airway obstruction, chronic sinusitis or frequent nosebleeds &amp;mdash; you may consider surgery to correct a deviated septum (septoplasty). 
+&lt;/p&gt;
+&lt;p&gt;
+Septoplasty is the usual way to repair a deviated septum. During septoplasty, your nasal septum is repositioned in the center of your nose. This may require your surgeon to cut and remove parts of your septum before reinserting it in the proper position. 
+&lt;/p&gt;
+&lt;p&gt;
+The level of improvement you can expect with surgery depends on the severity of your deviation. Symptoms due to the deviated septum &amp;mdash; such as nosebleeds and nasal obstruction &amp;mdash; often completely resolve. However, any accompanying nasal or sinus conditions &amp;mdash; such as allergies &amp;mdash; can&apos;t be cured with surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reshaping your nose&lt;/strong&gt; &lt;br /&gt;
+In some cases, surgery to reshape the nose (rhinoplasty) is performed at the same time as septoplasty. Rhinoplasty involves readjusting the bone and cartilage of your nose to change its shape or size or both. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing the before-and-after results of rhinoplasty 
+" Caption="At left, a woman&apos;s nose before rhinoplasty. On the right, the same woman pictured one year after the surgery. 
+" Height="60" Title="Results of rhinoplasty" URI="/images/image_popup/thumbs/sn7_rhinoplastythu.jpg" Width="60" />
+				<Image Alt="Photo showing the before-and-after results of rhinoplasty 
+" Caption="At left, a woman&apos;s nose before rhinoplasty. On the right, the same woman pictured one year after the surgery. 
+" Height="300" Title="Before-and-after results of rhinoplasty" URI="/images/image_popup/sn7_rhinoplasty.jpg" Width="400" />
+				<HTML>
+					At left, a woman&apos;s nose before rhinoplasty. On the right, the same woman pictured one year after the surgery. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be able to prevent the injuries to your nose that can cause deviated septum with these precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a helmet&lt;/strong&gt; when playing contact sports, such as football and hockey.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a seat belt&lt;/strong&gt; when riding in a motorized vehicle.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Deviated septum
+	</Title>
+	<Abstract>
+		Deviated septum &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of this nasal condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00425" LinkType="Internal" ObjectID="D49B0315-E7FF-0DBD-1395F8E4294AA804" Title="Rhinoplasty" Url="http://www.mayoclinic.com/health/rhinoplasty/MY00425" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00703" LinkType="Internal" ObjectID="360837C2-910E-A958-16E827F043ABFCD4" Title="Septoplasty" Url="http://www.mayoclinic.com/health/septoplasty/MY00703" />
+	</RelatedLinksBox>
+</Disease>

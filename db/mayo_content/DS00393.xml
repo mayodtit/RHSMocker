@@ -1,0 +1,505 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00393
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hydrocephalus/DS00393
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-13
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2319" Title="Head and brain malformations">
+						<Keyword MCVID="2320" Title="Hydrocephalus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			256A93D6-5A7F-4D83-A847EE6F829D7FA8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hydrocephalus
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebrospinal fluid
+			</MetaKeyword>
+			<MetaKeyword>
+				CSF
+			</MetaKeyword>
+			<MetaKeyword>
+				normal pressure hydrocephalus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hydrocephalus is the buildup of fluid in the cavities (ventricles) deep within the brain. The excess fluid increases the size of the ventricles and puts pressure on the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Cerebrospinal fluid normally flows through the ventricles and bathes the brain and spinal column. But the pressure of too much cerebrospinal fluid associated with hydrocephalus can damage brain tissues and cause a large spectrum of impairments in brain function. 
+&lt;/p&gt;
+&lt;p&gt;
+Although hydrocephalus can occur at any age, it&apos;s more common among infants and older adults. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgical treatment for hydrocephalus can restore and maintain normal cerebrospinal fluid levels in the brain. A variety of interventions are often required to manage symptoms or functional impairments resulting from hydrocephalus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of hydrocephalus vary generally by age of onset: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infants&lt;br /&gt;
+&lt;/strong&gt;Common signs and symptoms of hydrocephalus in infants include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An unusually large head&lt;/li&gt;
+	&lt;li&gt;A rapid increase in the size of the head&lt;/li&gt;
+	&lt;li&gt;A bulging or tense soft spot (fontanel) on the top of the head&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Sleepiness&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Poor feeding&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Eyes fixed downward (sunsetting of the eyes)&lt;/li&gt;
+	&lt;li&gt;Deficits in muscle tone and strength, responsiveness to touch, and expected growth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Toddlers and older children&lt;br /&gt;
+&lt;/strong&gt;Among toddlers and older children, signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abnormal enlargement of a toddler&apos;s head&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Delays in walking or talking&lt;/li&gt;
+	&lt;li&gt;Problems with previously acquired skills, such as walking or talking&lt;/li&gt;
+	&lt;li&gt;Blurred or double vision&lt;/li&gt;
+	&lt;li&gt;Unstable balance&lt;/li&gt;
+	&lt;li&gt;Poor coordination&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Change in personality&lt;/li&gt;
+	&lt;li&gt;Problems with attention&lt;/li&gt;
+	&lt;li&gt;Decline in school performance&lt;/li&gt;
+	&lt;li&gt;Poor appetite&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Sleepiness&lt;/li&gt;
+	&lt;li&gt;Difficulty remaining awake or waking up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Young and middle-aged adults&lt;br /&gt;
+&lt;/strong&gt;Common signs and symptoms in this age group include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Difficulty in remaining awake or waking up&lt;/li&gt;
+	&lt;li&gt;Loss of coordination or balance&lt;/li&gt;
+	&lt;li&gt;Loss of bladder control or a frequent urge to urinate&lt;/li&gt;
+	&lt;li&gt;Impaired vision&lt;/li&gt;
+	&lt;li&gt;Decline in memory, concentration and other thinking skills that may affect job performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Older adults&lt;br /&gt;
+&lt;/strong&gt;Among adults 60 years of age and older, the more common signs and symptoms of hydrocephalus are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of bladder control or a frequent urge to urinate&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+	&lt;li&gt;Progressive loss of other thinking or reasoning skills&lt;/li&gt;
+	&lt;li&gt;Difficulty walking, often described as a shuffling gait or the feeling of the feet being stuck&lt;/li&gt;
+	&lt;li&gt;Poor coordination or balance&lt;/li&gt;
+	&lt;li&gt;Slower than normal movements in general&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Seek emergency medical care for infants and toddlers&lt;/strong&gt; experiencing these signs and symptoms: 
+&lt;ul&gt;
+	&lt;li&gt;A high-pitched cry&lt;/li&gt;
+	&lt;li&gt;Problems with sucking or feeding&lt;/li&gt;
+	&lt;li&gt;Unexplained, recurrent vomiting&lt;/li&gt;
+	&lt;li&gt;An unwillingness to bend or move the neck or head&lt;/li&gt;
+	&lt;li&gt;Breathing difficulties&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek prompt medical attention&lt;/strong&gt; for other signs or symptoms in any age group. 
+&lt;/p&gt;
+&lt;p&gt;
+Because more than one condition can result in the problems associated with hydrocephalus, it&apos;s important to get a timely diagnosis and appropriate care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hydrocephalus is caused by an imbalance between how much cerebrospinal fluid is produced and how much is absorbed into the bloodstream.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cerebrospinal fluid&lt;br /&gt;
+&lt;/strong&gt;Cerebrospinal fluid is produced by tissues lining the ventricles of the brain. It flows through the ventricles by way of interconnecting channels and eventually flows into spaces around the brain and spinal column. It&apos;s absorbed primarily by blood vessels in tissues near the base of the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Cerebrospinal fluid plays an important role in brain function by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Keeping the brain buoyant, allowing the relatively heavy brain to float within the skull&lt;/li&gt;
+	&lt;li&gt;Cushioning the brain to prevent injury&lt;/li&gt;
+	&lt;li&gt;Removing waste products of the brain&apos;s metabolism&lt;/li&gt;
+	&lt;li&gt;Flowing back and forth between the brain cavity and spinal column to maintain a constant pressure within the brain &amp;mdash; compensating for changes in blood pressure in the brain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Excess fluid&lt;br /&gt;
+&lt;/strong&gt;Excess cerebrospinal fluid in the ventricles occurs for one of the following reasons: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obstruction.&lt;/strong&gt; The most common problem is a partial obstruction of the normal flow of cerebrospinal fluid, either from one ventricle to another or from the ventricles to other spaces around the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor absorption.&lt;/strong&gt; Less common is a problem with the mechanisms that enable the blood vessels to absorb cerebral spinal fluid. This is often related to inflammation of brain tissues from disease or injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overproduction.&lt;/strong&gt; Rarely, the mechanisms for producing cerebrospinal fluid create more than normal and more quickly than it can be absorbed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing brain ventricles 
+" Caption="Your brain floats in a bath of cerebrospinal fluid. This fluid also fills large open structures, called ventricles, which lie deep inside your brain. The fluid-filled ventricles help keep the brain buoyant and cushioned. 
+" Height="60" Title="Brain ventricles" URI="/images/image_popup/thumbs/bn7_ventriclesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing brain ventricles 
+" Caption="Your brain floats in a bath of cerebrospinal fluid. This fluid also fills large open structures, called ventricles, which lie deep inside your brain. The fluid-filled ventricles help keep the brain buoyant and cushioned. 
+" Height="367" Title="Brain ventricles" URI="/images/image_popup/bn7_ventricles.jpg" Width="400" />
+				<HTML>
+					Your brain floats in a bath of cerebrospinal fluid. This fluid also fills large open structures, called ventricles, which lie deep inside your brain. The fluid-filled ventricles help keep the brain ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, the exact event leading to hydrocephalus is unknown. However, a number of developmental or medical problems can contribute to or trigger hydrocephalus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Newborns&lt;br /&gt;
+&lt;/strong&gt;Hydrocephalus present at birth (congenital) or shortly after birth may occur because of any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abnormal development of the central nervous system that can obstruct the flow of cerebral spinal fluid&lt;/li&gt;
+	&lt;li&gt;Bleeding within the ventricles, a possible complication of premature birth&lt;/li&gt;
+	&lt;li&gt;Infection in the uterus during a pregnancy, such as rubella or syphilis, that can cause inflammation in fetal brain tissues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other contributing factors&lt;br /&gt;
+&lt;/strong&gt;Other factors that can contribute to hydrocephalus among any age group include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lesions or tumors of the brain or spinal cord&lt;/li&gt;
+	&lt;li&gt;Central nervous system infections, such as bacterial meningitis or mumps&lt;/li&gt;
+	&lt;li&gt;Bleeding in the brain from stroke or head injury&lt;/li&gt;
+	&lt;li&gt;Other traumatic injury to the brain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Long-term complications of hydrocephalus can vary widely and are often difficult to predict. 
+&lt;/p&gt;
+&lt;p&gt;
+If hydrocephalus has progressed by the time of birth, it may result in significant intellectual, developmental and physical disabilities. Less severe cases, when treated appropriately, may have few, if any, notable complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Adults who have experienced a significant decline in memory or other thinking skills generally have poorer recoveries and persistent symptoms after treatment of hydrocephalus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The severity of complications depends on:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Underlying medical or developmental problems&lt;/li&gt;
+	&lt;li&gt;Severity of initial symptoms&lt;/li&gt;
+	&lt;li&gt;Timeliness of diagnosis and treatment&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How you learn about your child&apos;s condition &amp;mdash; if your child has hydrocephalus &amp;mdash; may depend on how severe the symptoms are, when problems first appear, and whether there were any significant risk factors during the pregnancy or delivery. In some cases, hydrocephalus may be diagnosed at birth or prior to birth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Well-baby visits&lt;br /&gt;
+&lt;/strong&gt;It&apos;s important to take your child to all regularly scheduled well-baby visits. These visits are an opportunity for your child&apos;s doctor to monitor your child&apos;s development in key areas, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Head size and rate of head growth&lt;/li&gt;
+	&lt;li&gt;Growth&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Posture&lt;/li&gt;
+	&lt;li&gt;Age-appropriate motor skills&lt;/li&gt;
+	&lt;li&gt;Sensory abilities &amp;mdash; vision, hearing and touch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions you should be prepared to answer during regular checkups might include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What concerns do you have about your child&apos;s growth or development?&lt;/li&gt;
+	&lt;li&gt;How well does he or she eat?&lt;/li&gt;
+	&lt;li&gt;How does your child respond to touch?&lt;/li&gt;
+	&lt;li&gt;Is your child reaching certain milestones in development, such as rolling over, pushing up, sitting up, crawling, walking or speaking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for other doctor visits&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re seeing your doctor because of the recent onset of symptoms, you&apos;ll likely start by seeing your general practitioner or your child&apos;s pediatrician. After an initial evaluation, your doctor may refer you to a doctor who specializes in the diagnosis and treatment of conditions that affect the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Be prepared to answer the following questions about your symptoms or on your child&apos;s behalf: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What signs or symptoms have you noticed? When did they begin?&lt;/li&gt;
+	&lt;li&gt;Have these signs or symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Do these signs or symptoms include nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Have you or your child had any vision problems?&lt;/li&gt;
+	&lt;li&gt;Have you or your child had a headache or fever?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any personality changes, including increased irritability?&lt;/li&gt;
+	&lt;li&gt;Has your child experienced any changes in school performance?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any new problems with movement or coordination?&lt;/li&gt;
+	&lt;li&gt;Have signs or symptoms included abnormal sleepiness or lack of energy?&lt;/li&gt;
+	&lt;li&gt;In infants: Have signs and symptoms included seizures?&lt;/li&gt;
+	&lt;li&gt;In infants: Have signs and symptoms included problems with eating or breathing?&lt;/li&gt;
+	&lt;li&gt;In older children and adults: Have signs and symptoms included headache?&lt;/li&gt;
+	&lt;li&gt;In older children and adults: Have signs and symptoms included urinary incontinence?&lt;/li&gt;
+	&lt;li&gt;Have you or your child had a recent head injury?&lt;/li&gt;
+	&lt;li&gt;Are you or is your child being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you or your child recently begun a new medication?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of hydrocephalus is usually based on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your answers to the doctor&apos;s questions about signs and symptoms&lt;/li&gt;
+	&lt;li&gt;A general physical&lt;/li&gt;
+	&lt;li&gt;A neurological exam&lt;/li&gt;
+	&lt;li&gt;Brain imaging tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological exam&lt;br /&gt;
+&lt;/strong&gt;The type of neurological exam will depend on a person&apos;s age. The neurologist may ask questions and conduct relatively simple tests in the office to judge: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Sense of touch&lt;/li&gt;
+	&lt;li&gt;Vision and eye movement&lt;/li&gt;
+	&lt;li&gt;Hearing&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+	&lt;li&gt;Mental status&lt;/li&gt;
+	&lt;li&gt;Mood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain imaging&lt;br /&gt;
+&lt;/strong&gt;Brain imaging tests can show enlargement of the ventricles caused by excess cerebrospinal fluid. They may also be used to identify underlying causes of hydrocephalus or other conditions contributing to the symptoms. Imaging tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Ultrasound imaging, which uses high-frequency sound waves to produce images, is often used for an initial assessment for infants because it&apos;s a relatively simple, low-risk procedure. The ultrasound device is placed over the soft spot (fontanel) on the top of a baby&apos;s head. Ultrasound may also detect hydrocephalus prior to birth when the procedure is used during routine prenatal examinations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI)&lt;/strong&gt; uses radio waves and a magnetic field to produce detailed 3-D or cross-sectional images of the brain. This test is painless, but it is noisy and requires lying still. Some MRI scans can take up to an hour and require mild sedation for children. However, some hospitals may use a quick version of MRI that takes about five minutes and doesn&apos;t require sedation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT)&lt;/strong&gt; is a specialized X-ray technology that can produce cross-sectional views of the brain. Scanning is painless and takes about 20 minutes. This test also requires lying still, so a child usually receives a mild sedative. CT scans for hydrocephalus are usually used only for emergency exams.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of two surgical treatments may be used to treat hydrocephalus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Shunt&lt;br /&gt;
+&lt;/strong&gt;The most common treatment for hydrocephalus is the surgical insertion of a drainage system, called a shunt. It consists of a long, flexible tube with a valve that keeps fluid from the brain flowing in the right direction and at the proper rate. One end of the tubing is usually placed in one of the brain&apos;s ventricles. The tubing is then tunneled under the skin to another part of the body where the excess cerebrospinal fluid can be more easily absorbed &amp;mdash; such as the abdomen or a chamber in the heart. 
+&lt;/p&gt;
+&lt;p&gt;
+People who have hydrocephalus usually need a shunt system for the rest of their lives, and regular monitoring is required. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ventriculostomy&lt;br /&gt;
+&lt;/strong&gt;Ventriculostomy is a surgical procedure that can be used for some people. In the procedure, your surgeon uses a small video camera to have direct vision inside the brain and makes a hole in the bottom of one of the ventricles or between the ventricles to enable cerebrospinal fluid to flow out of the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications of surgery&lt;br /&gt;
+&lt;/strong&gt;Both surgical procedures can result in complications. Shunt systems can stop draining cerebrospinal fluid or poorly regulate drainage because of mechanical malfunctions, blockage or infections. The passage created during a ventriculostomy can suddenly close. 
+&lt;/p&gt;
+&lt;p&gt;
+Any failure requires prompt attention, surgical revisions or other interventions. Signs and symptoms of problems may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Drowsiness&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Vision problems&lt;/li&gt;
+	&lt;li&gt;Redness, pain or tenderness of the skin along the path of the shunt tube&lt;/li&gt;
+	&lt;li&gt;Abdominal pain when the shunt valve is in the abdomen&lt;/li&gt;
+	&lt;li&gt;Recurrence of any of the initial hydrocephalus symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments&lt;br /&gt;
+&lt;/strong&gt;Some people with hydrocephalus, particularly children, may need additional treatment, depending on the severity of long-term complications of hydrocephalus. 
+&lt;/p&gt;
+&lt;p&gt;
+A care team for children may include a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pediatrician or physiatrist,&lt;/strong&gt; who oversees the treatment plan and medical care&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pediatric neurologist,&lt;/strong&gt; who specializes in the diagnosis and treatment of neurological disorders in children&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapist,&lt;/strong&gt; who specializes in therapy to develop everyday skills&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental therapist,&lt;/strong&gt; who specializes in therapy to help your child develop age-appropriate behaviors, social skills and interpersonal skills&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mental health provider,&lt;/strong&gt; such as a psychologist or psychiatrist&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social worker,&lt;/strong&gt; who assists the family with accessing services and planning for transitions in care&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Special education teacher,&lt;/strong&gt; who addresses learning disabilities, determines educational needs and identifies appropriate educational resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Adults with more severe complications may also require the services of occupational therapists, social workers, specialists in dementia care or other medical specialists. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a shunt system 
+" Caption="A shunt drains excess cerebrospinal fluid from the brain to another part of the body, such as the abdomen, where it can be more easily absorbed. 
+" Height="60" Title="Shunt system" URI="/images/image_popup/thumbs/mcdc7_shuntsystemthu.jpg" Width="60" />
+				<Image Alt="Illustration of a shunt system 
+" Caption="A shunt drains excess cerebrospinal fluid from the brain to another part of the body, such as the abdomen, where it can be more easily absorbed. 
+" Height="255" Title="Shunt system" URI="/images/image_popup/mcdc7_shuntsystem.jpg" Width="400" />
+				<HTML>
+					A shunt drains excess cerebrospinal fluid from the brain to another part of the body, such as the abdomen, where it can be more easily absorbed. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With the help of rehabilitative therapies and educational interventions, many people with hydrocephalus live with few limitations. 
+&lt;/p&gt;
+&lt;p&gt;
+There are many resources available to provide emotional and medical support as you parent a child with hydrocephalus. Children with developmental problems due to hydrocephalus may be eligible for government-sponsored health care and other support services. Check with your state or county social services agency. 
+&lt;/p&gt;
+&lt;p&gt;
+Hospitals and voluntary organizations serving people with disabilities are good resources for emotional and practical support, as are doctors and nurses. Ask these resources to help you connect with other families who are coping with hydrocephalus. 
+&lt;/p&gt;
+&lt;p&gt;
+Adults living with hydrocephalus may find valuable information and support from organizations dedicated to hydrocephalus education and support, such as the Hydrocephalus Association. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hydrocephalus is not a preventable condition. However, there are ways to reduce the risk of hydrocephalus:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re pregnant, get regular prenatal care.&lt;/strong&gt; Following your doctor&apos;s recommended schedule for checkups during pregnancy can reduce your risk of premature labor, which places your baby at risk of hydrocephalus and other complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect against infectious illness.&lt;/strong&gt; Follow the recommended vaccination and screening schedules for your age and sex. Preventing and promptly treating the infections and other illnesses associated with hydrocephalus may reduce your risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To prevent head injury: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use appropriate safety equipment.&lt;/strong&gt; For babies and children, use a properly installed, age- and size-appropriate child safety seat on all car trips. Make sure all your baby equipment &amp;mdash; crib, stroller, swing, highchair &amp;mdash; meets all safety standards and is properly adjusted for your baby&apos;s size and development. Children and adults should wear a helmet while riding a bicycle, skateboard, motorcycle, snowmobile or all-terrain vehicle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Always wear a seat belt in a motor vehicle.&lt;/strong&gt; Small children should be secured in child safety seats or booster seats. Depending on their size, older children may be adequately restrained with seat belts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Should you be vaccinated against meningitis?&lt;br /&gt;
+&lt;/strong&gt;Ask your doctor if you or your child should receive a vaccine against meningitis, once a common cause of hydrocephalus. The Centers for Disease Control and Prevention recommends meningitis vaccination for preteen children and boosters for teenagers. It&apos;s also recommended for younger children and adults who may be at increased risk of meningitis for any of the following reasons: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Traveling to countries where meningitis is common&lt;/li&gt;
+	&lt;li&gt;Having an immune system disorder called terminal complement deficiency&lt;/li&gt;
+	&lt;li&gt;Having a damaged spleen or having had the spleen removed&lt;/li&gt;
+	&lt;li&gt;Living in a college dormitory&lt;/li&gt;
+	&lt;li&gt;Joining the military&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hydrocephalus
+	</Title>
+	<Abstract>
+		Hydrocephalus &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this potentially fatal disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+	</RelatedLinksBox>
+</Disease>

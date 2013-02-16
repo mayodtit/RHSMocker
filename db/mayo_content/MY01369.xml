@@ -1,0 +1,302 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01369
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/radiation-therapy-for-breast-cancer/MY01369
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-27
+		</UpdateDate>
+		<PublicationDate>
+			2010-10-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3723" Title="Radiation therapy">
+							<Keyword MCVID="4728" Title="Radiation therapy for breast cancer" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AA88EFC-0565-DC7B-43C8981DC186EF7A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				radiation therapy for breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Radiation therapy for breast cancer uses high-powered X-rays to kill cancer cells. Rapidly growing cells, such as cancer cells, are more susceptible to the effects of radiation therapy than are normal cells. 
+&lt;/p&gt;
+&lt;p&gt;
+One of two approaches may be used with radiation therapy for breast cancer:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;External radiation.&lt;/strong&gt; External beam radiation, the standard type of radiation therapy, delivers radiation in the form of high-powered energy beams, such as X-rays, to your entire breast from a machine outside your body. This is the most common type of radiation therapy used for breast cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Internal radiation.&lt;/strong&gt; Internal radiation, or brachytherapy, involves placing small radioactive devices in your breast near the tumor site to deliver radiation to affected breast tissue. Internal radiation may be used as an extra radiation boost after external radiation or for small, contained tumors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Radiation therapy may be used to treat breast cancer at almost every stage. It&apos;s an effective way to reduce your risk of breast cancer coming back (recurring) after surgery. It can also help control the spread of breast cancer and offer pain relief for advanced breast cancer.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Radiation therapy plays an important role in the treatment of breast cancer. When given after surgery, radiation therapy generally begins a few weeks following your operation. If you&apos;re planning to receive chemotherapy, radiation therapy is typically given after you&apos;ve completed your chemotherapy treatment. Hormone therapy is generally given after any chemotherapy and may be given at the same time as radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+Here are the main ways radiation therapy is used to treat breast cancer: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation after lumpectomy&lt;br /&gt;
+&lt;/strong&gt;Radiation therapy for breast cancer is almost always recommended after surgery that removes only the tumor (lumpectomy). A lumpectomy alone, without radiation therapy, carries a relatively high risk of cancer recurrence in the affected breast months or years later because of microscopic deposits of cancer left behind after surgery. Radiation helps to destroy remaining cancer cells. Lumpectomy combined with radiation therapy is often referred to as breast-conservation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+In clinical trials comparing lumpectomy with and without radiation therapy, the addition of radiation therapy after a lumpectomy resulted in significantly decreased rates of breast cancer recurrence. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation after mastectomy&lt;br /&gt;
+&lt;/strong&gt;Removal of the entire breast (mastectomy) usually means you won&apos;t need radiation therapy. But radiation therapy is sometimes recommended for women at high risk of cancer recurrence following mastectomy. Factors that may put you at high risk of breast cancer recurrence in your chest wall &amp;mdash; and thus call for radiation therapy &amp;mdash; include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lymph nodes with signs of breast cancer.&lt;/strong&gt; Underarm (axillary) lymph nodes that test positive for cancer cells are an indication that some cancer cells have separated from the primary tumor. The greater the number of positive nodes, the more likely your doctor is to recommend radiation therapy. Most experts agree that having four or more positive nodes is a clear indication for radiation therapy after mastectomy, although recent data suggest that even women with one to three positive lymph nodes may benefit from radiation therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Large tumor size.&lt;/strong&gt; A tumor greater than 5 centimeters (about 2 inches) in diameter generally carries a higher risk of recurrence than smaller tumors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue margins with signs of breast cancer.&lt;/strong&gt; After breast tissue is removed, the margins of the tissue are examined for signs of cancer cells. Very narrow margins or margins that test positive for cancer cells are a risk factor for recurrence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation for locally advanced breast cancer&lt;br /&gt;
+&lt;/strong&gt;Radiation therapy can also be used to treat: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast tumors that cannot be surgically removed.&lt;/li&gt;
+	&lt;li&gt;Inflammatory breast cancer, an aggressive type of breast cancer that spreads to the lymph channels of the skin covering the breast. People who have this type of breast cancer typically receive chemotherapy before a mastectomy, followed by radiation, to decrease the chance of the cancer&apos;s returning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation for managing metastatic complications&lt;br /&gt;
+&lt;/strong&gt;If breast cancer has spread to other parts of your body (metastasized) and a tumor is causing pressure on the spine, for example, radiation can be used to shrink the tumor and reduce pressure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Both external and internal radiation therapy have potential side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;External radiation therapy&lt;br /&gt;
+&lt;/strong&gt;Common side effects include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild to moderate fatigue (fatigue tends to increase over the course of treatment)&lt;/li&gt;
+	&lt;li&gt;Skin irritation &amp;mdash; such as itchiness, redness, peeling or blistering &amp;mdash; similar to what you might experience with a sunburn (skin irritation tends to increase over the course of treatment)&lt;/li&gt;
+	&lt;li&gt;Breast swelling&lt;/li&gt;
+	&lt;li&gt;Changes in skin sensation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, radiation therapy may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Arm swelling (lymphedema)&lt;/li&gt;
+	&lt;li&gt;Rib tenderness&lt;/li&gt;
+	&lt;li&gt;Inflamed lung tissue&lt;/li&gt;
+	&lt;li&gt;Heart damage&lt;/li&gt;
+	&lt;li&gt;Secondary cancers, such as bone or muscle cancers (sarcomas) or lung cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Internal radiation therapy&lt;br /&gt;
+&lt;/strong&gt;Internal radiation therapy usually produces fewer skin reactions, although the treated area may be sore and tender for a few months after treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you begin radiation therapy, you&apos;ll meet with your radiation therapy team, a group of health care professionals who work together to plan and provide your radiation treatment. Team members usually include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A radiation oncologist&lt;/strong&gt;, a doctor who specializes in cancer treatments using radiation. He or she determines the appropriate therapy for you, follows your progress and adjusts your treatment if necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A radiation physicist and dosimetrist,&lt;/strong&gt; who make special calculations and measurements regarding your radiation dosage and its delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A radiation oncology nurse,&lt;/strong&gt; who specializes in caring for people undergoing radiation therapy. Your nurse can answer questions about the treatments and side effects, and help you manage your health during treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A radiation therapist,&lt;/strong&gt; who operates the radiation equipment and administers your treatments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During a meeting with your radiation oncologist, you&apos;ll review your medical history and undergo a physical exam to check your overall health before you begin radiation therapy. Your oncologist can also review the potential benefits and side effects of radiation therapy in your case.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;External radiation therapy&lt;br /&gt;
+&lt;/strong&gt;Before your first treatment session, you&apos;ll go through a simulation process in which a radiation oncologist carefully maps your breast area to pinpoint the precise location of your treatment. During the simulation:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A radiation therapist helps you into a position best suited to pinpoint the affected area and avoid damage to surrounding normal tissue. Sometimes pads or other devices are used to help you hold the position.&lt;/li&gt;
+	&lt;li&gt;Using a CT scanner, the radiation oncologist locates the area that needs to be treated. You&apos;ll hear noise from the CT equipment as it moves around you. Try to relax and remain as still as possible, because this will help ensure consistent, accurate treatments.&lt;/li&gt;
+	&lt;li&gt;Ink marks or tiny permanent tattoo dots are placed on your skin to provide reference points for the radiation therapist when administering the radiation. Be sure not to wash ink marks off until you&apos;re told to do so. If the marks can&apos;t be seen, you may need to go through the mapping process again.&lt;/li&gt;
+	&lt;li&gt;The dosimetrist, radiation physicist and radiation oncologist use computer software to plan the dosage of radiation you&apos;ll receive and how long the beam must be applied to deliver the right amount.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once the simulation and planning are complete, you can begin treatment. For each session, you&apos;ll want to avoid wearing jewelry, latex bandages, powder, lotion or deodorant in or near your treatment area. Also, avoid use of deodorant soap before a session. These substances can interfere with delivery of the radiation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Internal radiation therapy&lt;br /&gt;
+&lt;/strong&gt;Before internal brachytherapy is started, a holder for the radioactive implants is placed in the area from where the tumor was taken (tumor bed). This may be done during your cancer surgery or later as a separate procedure. If the radiation holder is implanted during a separate procedure, it often requires a brief hospital stay where you&apos;ll be placed under local, regional or general anesthesia before the procedure begins. Your radiation oncologist may use imaging scans to accurately target the area. Once the holder is implanted, you can likely go home.
+&lt;/p&gt;
+&lt;p&gt;
+There are two approaches to internal radiation therapy for breast cancer:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intracavitary brachytherapy.&lt;/strong&gt; A small, deflated balloon attached to a thin tube (catheter) is inserted in the tumor bed, with the end of the tube sticking out of the breast. The balloon is filled with saline solution and left in place throughout the course of treatment, to provide a place of insertion for the radioactive implants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intersitital brachytherapy.&lt;/strong&gt; Several small catheters are inserted in the breast around the tumor bed to serve as holders for small radioactive pellets that can be inserted and removed. These catheters are generally left in place throughout treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The typical schedule for external radiation treatments is therapy five days a week for three to six weeks. The sessions are done on an outpatient basis, often at a hospital or other treatment facility. You may be able to schedule your sessions at the same time each day so they can become a part of your routine. 
+&lt;/p&gt;
+&lt;p&gt;
+The duration of internal radiation therapy for breast cancer is much shorter, usually five days total. Internal radiation sessions are typically done on an outpatient basis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;External radiation&lt;br /&gt;
+&lt;/strong&gt;A typical radiation therapy session generally follows this process: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When you arrive at the hospital or treatment facility, you&apos;re taken to a special room that&apos;s used specifically for radiation therapy.&lt;/li&gt;
+	&lt;li&gt;You may need to remove your clothes and put on a hospital gown for the session.&lt;/li&gt;
+	&lt;li&gt;The radiation therapist carefully helps you into the exact position that you were in during the simulation process.&lt;/li&gt;
+	&lt;li&gt;The therapist leaves the room and turns on the machine that delivers the radiation (linear accelerator).&lt;/li&gt;
+	&lt;li&gt;Although the therapist isn&apos;t in the room during the treatment, you will be monitored from another room on a television screen. Usually you and the therapist can talk with each other through an intercom. If you feel sick or uncomfortable, be sure to tell your therapist. The machine can be stopped at any time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Delivery of the radiation itself lasts only a few minutes, but the whole process may take 30 minutes to an hour for each visit. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy itself is painless. You may feel some discomfort while lying in the required position, but this is generally short-lived. 
+&lt;/p&gt;
+&lt;p&gt;
+After the session is over, you&apos;re free to go about your regular activities. Generally no special precautions are needed. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, once the main radiation therapy sessions have been completed, a boost treatment to the tumor bed is recommended to further reduce the chances of recurrence. A radiation boost may be given with additional external radiation therapy sessions or with internal radiation therapy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Internal radiation&lt;br /&gt;
+&lt;/strong&gt;For internal radiation, the radioactive seeds are inserted twice a day for a few minutes in the implanted radiation holders. This is usually done on an outpatient basis, and you can leave the facility between visits.
+&lt;/p&gt;
+&lt;p&gt;
+While the radioactive material is inside your body, people around you can be exposed to radioactivity. Once the pellets are removed, however, this risk goes away. 
+&lt;/p&gt;
+&lt;p&gt;
+After the course of therapy is over, the holders are removed. Usually you&apos;re given pain medication before the holders are removed. The area may be sore or tender for a few months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Methods of radiation delivery under study&lt;br /&gt;
+&lt;/strong&gt;Researchers are investigating several methods of radiation delivery that may result in fewer side effects and more convenient treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+One example is accelerated partial breast irradiation. This method targets radiation specifically at the breast area that contained the tumor, rather than the entire breast. It&apos;s also given in fewer, higher doses than standard external beam radiation therapy. Interstitial brachytherapy is considered a form of accelerated partial breast irradiation. For certain people with breast cancer &amp;mdash; older women with small, isolated tumors and no lymph node involvement, for example &amp;mdash; this method may be sufficient to prevent cancer recurrence. More research is needed, though, to determine whether long-term outcomes for these people are the same as outcomes when standard radiation therapy is used.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After radiation therapy is over, your radiation oncologist will schedule follow-up visits to monitor your progress, look for late side effects, and check for signs of cancer recurrence. Although follow-up visits become less frequent the longer you&apos;re cancer-free, you&apos;re likely to have periodic visits for the rest of your life with your medical oncologist to check for cancer recurrence.
+&lt;/p&gt;
+&lt;p&gt;
+Tell your doctor or nurse if you experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent pain&lt;/li&gt;
+	&lt;li&gt;New lumps, bruises, rashes, swelling or bleeding&lt;/li&gt;
+	&lt;li&gt;Persistent digestive complaints such as appetite changes, nausea, vomiting, diarrhea or constipation&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;A fever or cough that doesn&apos;t go away&lt;/li&gt;
+	&lt;li&gt;Any other bothersome symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Radiation therapy for breast cancer
+	</Title>
+	<Abstract>
+		Radiation therapy for breast cancer &amp;mdash; Comprehensive overview covers definition, what to expect from this treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+	</RelatedLinksBox>
+</TestProcedure>

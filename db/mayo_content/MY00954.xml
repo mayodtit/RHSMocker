@@ -1,0 +1,191 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00954
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hiv-testing/MY00954
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-06
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3654" Title="Infectious disease">
+						<Keyword MCVID="4507" Title="HIV testing" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CE78E7BE-D2EB-3481-3D713406990CDFC6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				HIV testing
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV positive
+			</MetaKeyword>
+			<MetaKeyword>
+				HIV negative
+			</MetaKeyword>
+			<MetaKeyword>
+				Western blot
+			</MetaKeyword>
+			<MetaKeyword>
+				ELISA
+			</MetaKeyword>
+			<MetaKeyword>
+				home HIV test
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid HIV test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Human immunodeficiency virus (HIV) testing determines whether or not you&apos;re infected with HIV, a virus that weakens your immune system and can lead to acquired immunodeficiency syndrome (AIDS). Some HIV tests check for antibodies that your immune system produces in reaction to HIV infection. Other HIV tests look for evidence of the virus itself. Rapid tests can produce results in less than 30 minutes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HIV testing is essential for slowing the spread of HIV infection. Many people are unaware that they&apos;re infected with HIV, so they may be less likely to take precautions to help prevent spreading the virus to others. Early diagnosis often results in earlier treatment with drugs that may delay the progression to AIDS. 
+&lt;/p&gt;
+&lt;p&gt;
+The Centers for Disease Control and Prevention (CDC) recommends that all individuals ages 13 to 64 be tested for HIV. This can be done during visits with a health care provider or through community HIV testing centers. 
+&lt;/p&gt;
+&lt;p&gt;
+HIV testing is particularly important for pregnant women because they can pass the virus to their babies during pregnancy or delivery or through breast-feeding. Taking medication that combats HIV during pregnancy and delivery greatly reduces the risk that you&apos;ll transmit the virus to your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How often should you be tested?&lt;/strong&gt; &lt;br /&gt;
+The CDC recommends at least one HIV test for all people ages 13 to 64 years. Yearly testing is recommended if you&apos;re at high risk of infection. Consider HIV testing yearly and before having sex with a new partner if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have had unprotected vaginal, oral or anal sex with more than one sexual partner or with an anonymous partner since your last screening&lt;/li&gt;
+	&lt;li&gt;Are a man who has sex with men&lt;/li&gt;
+	&lt;li&gt;Use intravenous (IV) drugs&lt;/li&gt;
+	&lt;li&gt;Have been diagnosed with tuberculosis or a sexually transmitted infection (STI), such as hepatitis or syphilis&lt;/li&gt;
+	&lt;li&gt;Have had unprotected sex with someone who falls into any of the above categories&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparations are necessary for HIV testing. You may need to call your doctor to schedule an appointment. Some public health clinics may allow you to simply walk in for HIV testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HIV is usually diagnosed by testing your blood or a sample of cells taken with a cotton swab from inside your cheek for the presence of antibodies to the virus. Urine samples can also be tested for HIV antibodies, but the results are slightly less accurate. 
+&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, these HIV tests aren&apos;t accurate immediately after infection because it takes time for your body to produce antibodies to the virus. Most people develop antibodies to the HIV virus within three to six months of infection. 
+&lt;/p&gt;
+&lt;p&gt;
+If this test is positive &amp;mdash; meaning you have antibodies to HIV &amp;mdash; lab technicians run the same test again on the sample you provided. If the repeat test is also positive for HIV antibodies, you need a confirming blood test called the Western blot test, which checks for the presence of HIV proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+You receive a diagnosis of HIV only if all three tests are positive. It can take a few days to a few weeks to get the results from all three tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rapid HIV testing&lt;/strong&gt; &lt;br /&gt;
+Several rapid tests offer highly accurate information within as little as 20 minutes. These tests also look for antibodies to the virus using a sample of your blood, drawn from a vein or a finger prick, or fluids collected on a treated pad that&apos;s rubbed on your upper and lower gums. The oral test is almost as sensitive as the blood test and eliminates the need for drawing blood. A positive reaction on a rapid test requires a confirming blood test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Home HIV testing&lt;/strong&gt; &lt;br /&gt;
+For home testing, you mail in a drop of your blood and then call a toll-free number to receive your results in three to seven business days. This approach ensures your privacy and anonymity &amp;mdash; you&apos;re identified only by a code number that comes with your kit. You may speak to a counselor before taking the test, while you&apos;re waiting for results or after you&apos;ve received your results. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early-detection HIV testing&lt;/strong&gt; &lt;br /&gt;
+Some tests can detect HIV infection earlier, before antibodies are detectable in standard HIV testing. These early-detection tests evaluate your blood for genetic material from the virus or for proteins that develop within the first few weeks after infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests that detect HIV infection before you&apos;ve developed antibodies to the virus may cost more than standard HIV testing and may not be as widely available. You will also still need standard antibody testing later to confirm results because false-positives and false-negatives are possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Negative HIV test results&lt;/strong&gt; &lt;br /&gt;
+A negative test result from HIV testing may mean one of two things: You don&apos;t have HIV, or it&apos;s too soon yet to tell. 
+&lt;/p&gt;
+&lt;p&gt;
+If you were only recently exposed to HIV, you could test negative for HIV antibodies because your body hasn&apos;t had time to create them yet. You may want to be retested for HIV antibodies in a few months or opt for one of the early-detection tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Positive HIV test results&lt;/strong&gt; &lt;br /&gt;
+Although there&apos;s no cure for HIV/AIDS, treatment has come a long way in the past few decades, offering extended and improved quality of life for many. If HIV is well treated, infected people can have a near-normal life expectancy. Early treatment can help you stay well and delay the onset of AIDS. Tell your partners if you test positive for HIV because they will need to be evaluated and possibly treated, as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		HIV testing
+	</Title>
+	<Abstract>
+		When should you be tested for HIV? Learn what options are available.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00654" LinkType="Internal" ObjectID="86D0A192-EE57-3185-50604225150AA77C" Title="Condoms" Url="http://www.mayoclinic.com/health/condoms/MY00654" />
+		<LinkItem ContentType="Disease" DocID="DS00372" LinkType="Internal" ObjectID="C4159AB7-808A-421E-8165A7517305831E" Title="Tuberculosis" Url="http://www.mayoclinic.com/health/tuberculosis/DS00372" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+	</RelatedLinksBox>
+</TestProcedure>

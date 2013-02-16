@@ -1,0 +1,382 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00441
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polymyalgia-rheumatica/DS00441
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-20
+		</UpdateDate>
+		<PublicationDate>
+			2002-08-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="2749" Title="Vascular">
+						<Keyword MCVID="2787" Title="Vasculitis">
+							<Keyword MCVID="2293" Title="Polymyalgia rheumatica" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F451920F-7F75-40AC-9B58A5817F106DFA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polymyalgia rheumatica
+			</MetaKeyword>
+			<MetaKeyword>
+				PMR
+			</MetaKeyword>
+			<MetaKeyword>
+				polymyalgia
+			</MetaKeyword>
+			<MetaKeyword>
+				giant cell arteritis
+			</MetaKeyword>
+			<MetaKeyword>
+				GCA
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polymyalgia rheumatica is an inflammatory disorder that causes muscle pain and stiffness. The pain and stiffness often occur in your shoulders, neck, upper arms and hips. Symptoms of polymyalgia rheumatica (pol-ee-my-AL-juh roo-MA-ti-kah) usually begin quickly, within two weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people who develop polymyalgia rheumatica are older than 65. It rarely affects people younger than 50. 
+&lt;/p&gt;
+&lt;p&gt;
+Anti-inflammatory drugs called corticosteroids improve the symptoms of polymyalgia rheumatica, but these drugs require careful monitoring for serious side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+Polymyalgia rheumatica is related to another inflammatory disorder called giant cell arteritis, which can cause headaches, vision difficulties, jaw pain and other symptoms. It&apos;s possible to have both of these conditions together. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of polymyalgia rheumatica usually occur on both sides of the body and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aches or pain in your shoulders (often the first symptom)&lt;/li&gt;
+	&lt;li&gt;Aches or pain in your neck, upper arms, buttocks, hips or thighs&lt;/li&gt;
+	&lt;li&gt;Stiffness in affected areas, particularly in the morning or after being inactive for a long time, such as a long car ride&lt;/li&gt;
+	&lt;li&gt;Limited range of motion in affected areas&lt;/li&gt;
+	&lt;li&gt;Pain or stiffness in wrists or knees (less common)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also have more general signs and symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild or low-grade fever&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;A general feeling of not being well (malaise)&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Unintended weight loss&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you experience aches, pains or stiffness that: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is new&lt;/li&gt;
+	&lt;li&gt;Disrupts your sleep&lt;/li&gt;
+	&lt;li&gt;Limits your ability to do activities of daily living, such as getting dressed or going up and down stairs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of polymyalgia rheumatica is unknown. However, there are two factors that appear to be involved in the development of this condition, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Certain genes and variations in some genes may increase your susceptibility to developing polymyalgia rheumatica.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An environmental exposure.&lt;/strong&gt; New cases of polymyalgia tend to come in cycles and may develop seasonally, which suggests that an environmental trigger, such as a virus, might play a role. But no specific virus has been shown to cause polymyalgia rheumatica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Giant cell arteritis&lt;/strong&gt; &lt;br /&gt;
+Polymyalgia rheumatica and another disease known as giant cell arteritis share many similarities. Giant cell arteritis results in inflammation in the lining of arteries, most often the arteries located in the temples. Giant cell arteritis usually causes headaches, jaw pain, vision problems and scalp tenderness. It can lead to permanent vision loss. 
+&lt;/p&gt;
+&lt;p&gt;
+Polymyalgia rheumatica and giant cell arteritis may actually be the same disease but with different manifestations. The overlap between the two diseases is significant: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;As many as 30 percent of people with polymyalgia rheumatica may also have giant cell arteritis. &lt;/li&gt;
+	&lt;li&gt;About half of the people with giant cell arteritis may also have polymyalgia rheumatica. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for polymyalgia rheumatica include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Polymyalgia rheumatica affects older adults almost exclusively. The average age at onset of the disease is 70. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are about two times more likely to develop the disorder. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; People of Northern European origin are more likely to have polymyalgia rheumatica than are people of other ethnicities. People living in Middle Eastern and Asian countries have the lowest rates of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of polymyalgia rheumatica can greatly affect a person&apos;s ability to perform everyday activities. The pain and stiffness may contribute to difficulties with the following tasks: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Getting out of bed, standing up from a chair or getting out of a car&lt;/li&gt;
+	&lt;li&gt;Bathing, combing your hair or performing other tasks related to personal hygiene&lt;/li&gt;
+	&lt;li&gt;Getting dressed or putting on a coat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These complications can affect a person&apos;s health, social interactions, physical activity, sleep and general well-being. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re experiencing aches, pains or stiffness in joints or muscles, you&apos;ll probably see your primary care doctor first. You may then be referred to a specialist in inflammatory disorders of muscles and the skeletal system (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes. It&apos;s also helpful to bring the name and contact information of any doctor you have seen recently or see regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking, along with the dosage for each.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. In addition to offering support, this person can write down information from your doctor or other clinic staff during the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For polymyalgia rheumatica, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely ask you a number of questions. Be prepared to answer the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where is the pain or stiffness located?&lt;/li&gt;
+	&lt;li&gt;When did the symptoms begin?&lt;/li&gt;
+	&lt;li&gt;How would you rate your current level of pain on a scale of 1 to 10?&lt;/li&gt;
+	&lt;li&gt;Are symptoms worse at certain times of day or night?&lt;/li&gt;
+	&lt;li&gt;How long does stiffness last after you wake in the morning or after a long period of inactivity?&lt;/li&gt;
+	&lt;li&gt;Does the pain or stiffness limit your activities? Are you avoiding any activities because of the symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you experienced similar episodes of pain or stiffness in the past? Was the condition diagnosed and treated?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any new or severe headaches?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your vision?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any jaw pain?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your answers to questions, a general physical exam and the results of tests can help your doctor determine the cause of pain and stiffness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Exam&lt;/strong&gt; &lt;br /&gt;
+Your doctor will conduct an exam to get an idea of your overall health, identify possible causes or rule out certain diseases. He or she may gently move your head and limbs to judge how much your symptoms affect your range of motion. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+A nurse or assistant will draw a sample of your blood. This sample will be used for several laboratory tests that your doctor will order. Typically, your doctor will check the complete blood counts (CBC) and for signs of inflammation, but your doctor also may recommend additional tests to rule out other conditions that have similar symptoms to polymyalgia rheumatica. 
+&lt;/p&gt;
+&lt;p&gt;
+Test results helpful in making a diagnosis of polymyalgia rheumatica include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sed rate (erythrocyte sedimentation rate),&lt;/strong&gt; measures the distance red blood cells, or erythrocytes (uh-RITH-roh-sites), fall in a test tube in one hour. The distance indirectly measures the level of inflammation &amp;mdash; the farther the red blood cells have descended, the greater the inflammatory response of your immune system. An increased rate occurs because of certain changes to red blood cell properties in response to inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;C-reactive protein test&lt;/strong&gt; measures the concentration of C-reactive proteins in your blood. A high concentration of C-reactive protein indicates increased inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; &lt;br /&gt;
+Your doctor may use magnetic resonance imaging (MRI) or ultrasound imaging to find inflammation of tissues within the shoulder and hip joints that can support a diagnosis of polymyalgia rheumatica. These images may also help identify or rule out other causes of your symptoms. Ultrasound imaging uses sound waves to produce images, while MRI relies on radio waves and a magnetic field to create images. Neither procedure exposes you to radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring for giant cell arteritis&lt;/strong&gt; &lt;br /&gt;
+Your doctor will monitor you for signs or symptoms that may indicate the onset of giant cell arteritis. Talk to your doctor immediately if you experience any of the following symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;New, unusual or persistent headaches&lt;/li&gt;
+	&lt;li&gt;Jaw pain or tenderness&lt;/li&gt;
+	&lt;li&gt;Blurred or double vision or visual loss&lt;/li&gt;
+	&lt;li&gt;Scalp tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor suspects a diagnosis of giant cell arteritis, he or she will order a biopsy of the artery in one of your temples. This procedure, performed during local anesthesia, removes a tiny sample of the artery, which is then examined in a laboratory for signs of inflammation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment can take a year or more, but most people with polymyalgia rheumatica will be better after the first course of treatment. And you&apos;ll start to feel better within days. Some people, however, will have a relapse and need additional treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;/strong&gt; &lt;br /&gt;
+Polymyalgia rheumatica is usually treated with a low dose of an oral corticosteroid, such as prednisone. A daily dose at the beginning of the treatment is usually 10 to 20 milligrams a day. 
+&lt;/p&gt;
+&lt;p&gt;
+Relief from pain and stiffness should occur within the first two or three days. If you&apos;re not feeling better in a few days, it&apos;s likely you don&apos;t have polymyalgia rheumatica. In fact, your response to medication is one way your doctor can confirm the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+After the first two to three weeks of treatment, your doctor may gradually decrease your dosage depending on your symptoms and the results of sed rate and C-reactive protein tests. The goal is to keep you on as low a dose as possible without triggering a relapse in your symptoms. Most people with polymyalgia rheumatica need to continue the corticosteroid treatment for one to two years. You&apos;ll need frequent follow-up visits to monitor how the treatment is working and whether or not you&apos;re having any side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+People who taper off the medication too quickly are more likely to have a relapse. Twenty percent or more of people with polymyalgia rheumatica will have a least one relapse when tapering off the corticosteroids. About 10 percent of people who successfully finish corticosteroid treatment will have a relapse within 10 years of the initial treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring side effects&lt;/strong&gt; &lt;br /&gt;
+Long-term use of corticosteroids can result in a number of serious side effects. Your doctor will monitor you closely for potential problems. He or she may adjust your dosage and prescribe treatments to manage these reactions to corticosteroid treatment. Side effects include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weight gain.&lt;/strong&gt; This is a common side effect of corticosteroid therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis,&lt;/strong&gt; the loss of bone density and weakening of bones, which increases the risk of bone fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure&lt;/strong&gt; (hypertension), which increases the risk of cardiovascular disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High cholesterol,&lt;/strong&gt; which also increases the risk of cardiovascular disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes,&lt;/strong&gt; chronic&lt;strong&gt; &lt;/strong&gt;high levels of blood sugar that can cause tissue damage in a number of body systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cataracts,&lt;/strong&gt; a clouding of the lenses of your eyes that can cloud or dim your vision .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Calcium and vitamin D supplements&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely prescribe daily doses of calcium and vitamin D supplements to help prevent osteoporosis induced by corticosteroid treatment. The American Academy of Rheumatology recommends the following daily doses for anyone taking corticosteroids for more than three months: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1,000 to 1,200 milligrams (mg) of calcium supplements&lt;/li&gt;
+	&lt;li&gt;400 to 1,000 international units (IU) of vitamin D supplements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other medications&lt;/strong&gt; &lt;br /&gt;
+Several other medications are being studied for use in polymyalgia rheumatica, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Methotrexate (Trexall).&lt;/strong&gt; This immune-suppressing medication may help lower the dose of corticosteroid that&apos;s needed, which can help preserve bone mass. It&apos;s often given long term, for a year or more.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-TNF drugs.&lt;/strong&gt; TNF stands for tumor necrosis factor, which is a substance that causes inflammation. These drugs block that substance and reduce inflammation. Research results have been mixed on using these medications in polymyalgia rheumatica, but they might be helpful for people who can&apos;t take corticosteroids, such as people with diabetes or osteoporosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend physical therapy to help you regain strength, coordination and your ability to perform everyday tasks after a long period of limited activity that polymyalgia rheumatica often causes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Healthy lifestyle choices can help you manage the side effects that may result from corticosteroid treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Eat a diet of fruits, vegetables, whole grains, and low-fat meat and dairy products. Limit the salt (sodium) in your diet to prevent fluid buildup and high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Talk to your doctor about exercise that is appropriate for you to maintain a healthy weight and to strengthen bones and muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use assistive devices.&lt;/strong&gt; Use luggage and grocery carts, reaching aids, shower grab bars and other assistive devices to help make daily tasks easier. Wear low-heeled shoes to minimize the risk of falls. Talk to your doctor about whether the use of a cane or other walking aid is appropriate for you to prevent falls or other injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Even though you&apos;ll start to feel better soon after you begin treatment, it can be frustrating having to take medication daily, especially one that can cause such serious side effects. Ask your health care team what steps you can take to stay healthier while you&apos;re taking corticosteroids. Your doctor may also know if there are any local support groups in your area. Talking to others who are living with the same illness and challenges can be helpful and encouraging. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polymyalgia rheumatica
+	</Title>
+	<Abstract>
+		Polymyalgia rheumatica &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of widespread pain and stiffness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="HA00064" LinkType="Internal" ObjectID="E336EE7F-CF45-41B8-925D1C208C88DBF5" Title="Slide show: Tips for choosing and using canes" Url="http://www.mayoclinic.com/health/canes/HA00064" />
+		<LinkItem ContentType="SlideShow" DocID="HA00060" LinkType="Internal" ObjectID="62948CAD-3203-46AC-B6DE8F84A5CA8BD5" Title="Slide show: Tips for choosing and using walkers" Url="http://www.mayoclinic.com/health/walker/HA00060" />
+	</RelatedLinksBox>
+</Disease>

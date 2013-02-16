@@ -1,0 +1,209 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00378
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00378
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-26
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			EE75DA0C-7C6B-45B9-8355F368E2FB968A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Chicken strips with honey mustard sauce
+	</Title>
+	<Abstract>
+		Chicken strips with honey mustard sauce &amp;mdash; a healthy recipe from Mayo Clinic to help you enjoy a healthy diet.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; By using skinless, boneless chicken breast instead of chicken wings, you cut fat and saturated fat by half and save more than 100 calories. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a large bowl, add the chicken strips. Pour milk over the chicken and mix to coat well. Place in a single layer on wax paper.&amp;nbsp; 
+&lt;/p&gt;
+&lt;p&gt;
+In a small bowl, mix together the flour, salt and pepper. Sprinkle over the chicken strips, turning the chicken to coat evenly. Shake to remove excess. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large, nonstick frying pan, heat the canola oil over medium-high heat. Place the chicken strips in an even layer in the pan. Saute 2 minutes a side, or until golden brown. Remove and place on paper towels to drain. 
+&lt;/p&gt;
+&lt;p&gt;
+To make the dipping sauce, combine the honey and Dijon mustard in a small bowl. Stir to mix evenly. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;4 skinless, boneless chicken breasts, each 4 ounces and cut into 3 strips&lt;/li&gt;
+	&lt;li&gt;1/4 cup fat-free milk&lt;/li&gt;
+	&lt;li&gt;1/4 cup all-purpose (plain) flour&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon cracked black pepper&lt;/li&gt;
+	&lt;li&gt;2 tablespoons canola oil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For the dipping sauce 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;1/2 cup honey&lt;/li&gt;
+	&lt;li&gt;1/4 cup Dijon mustard&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets">
+				2
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				3
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				2
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets">
+				1.5
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				344
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				41 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				66 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				trace
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				27 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				3 strips and 3 tablespoons sauce
+			</Servingsize>
+			<Sodium Label="Sodium">
+				421 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				35 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				8 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

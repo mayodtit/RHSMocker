@@ -1,0 +1,394 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00436
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wilms-tumor/DS00436
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-02
+		</UpdateDate>
+		<PublicationDate>
+			2002-02-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2299" Title="Kidney tumor">
+						<Keyword MCVID="2300" Title="Wilms&apos; tumor" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			039E239C-9D70-42AC-B9F40F53AC0C14C6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Wilms&apos; tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				nephroblastoma
+			</MetaKeyword>
+			<MetaKeyword>
+				wilms tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				wilm&apos;s tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				wilms
+			</MetaKeyword>
+			<MetaKeyword>
+				wilm&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney
+			</MetaKeyword>
+			<MetaKeyword>
+				kidneys
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilms&apos; tumor is a rare kidney cancer that primarily affects children. Also known as nephroblastoma, Wilms&apos; tumor is the most common cancer of the kidneys in children. Wilms&apos; tumor most often affects children ages 3 to 4 and becomes much less common after age 5. 
+&lt;/p&gt;
+&lt;p&gt;
+Wilms&apos; tumor most often occurs in just one kidney, though it can sometimes be found in both kidneys at the same time. 
+&lt;/p&gt;
+&lt;p&gt;
+Improvements in the diagnosis and treatment of Wilms&apos; tumor have improved the prognosis for children with this disease. The outlook for most children with Wilms&apos; tumor is very good. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilms&apos; tumor doesn&apos;t always cause signs and symptoms. Children with Wilms&apos; tumor may appear healthy, or they may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal swelling&lt;/li&gt;
+	&lt;li&gt;An abdominal mass you can feel&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Blood in the urine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your child&apos;s doctor if you notice any signs or symptoms that worry you. The signs and symptoms associated with Wilms&apos; tumor aren&apos;t specific to the condition and are much more likely to be caused by something else. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes Wilms&apos; tumor. Doctors know that cancer begins when cells develop errors in their DNA. The errors allow the cells to grow and divide uncontrollably and to go on living when other cells would die. The accumulating cells form a tumor. In Wilms&apos; tumor, this process occurs in the kidney cells. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small number of cases, the errors in DNA that lead to Wilms&apos; tumor are passed from parents to children. In most cases, there is no known connection between parents and children that may lead to cancer. Instead, something happens in the child&apos;s early development that causes DNA errors and leads to Wilms&apos; tumor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of Wilms&apos; tumor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Girls are slightly more likely to develop Wilms&apos; tumor than are boys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being black.&lt;/strong&gt; Black children have a slightly higher risk of developing Wilms&apos; tumor than do children of other races. Children of Asian descent appear to have a lower risk than do children of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a family history of Wilms&apos; tumor.&lt;/strong&gt; If someone in your child&apos;s family has had Wilms&apos; tumor, then your child has an increased risk of developing the disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Wilms&apos; tumor occurs more frequently in children with certain abnormalities present at birth, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aniridia.&lt;/strong&gt; In this condition the iris &amp;mdash; the colored portion of the eye &amp;mdash; forms only partially or not at all.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemihypertrophy.&lt;/strong&gt; A condition that occurs when one side of the body is noticeably larger than the other side.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Undescended testicles.&lt;/strong&gt; One or both testicles fail to descend into the scrotum (cryptorchidism).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hypospadias.&lt;/strong&gt; The urinary (urethral) opening is not at the tip of the penis, but is on the underside.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Wilms&apos; tumor can occur as part of rare syndromes, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;WAGR syndrome.&lt;/strong&gt; This syndrome includes Wilms&apos; tumor, aniridia, abnormalities of the genitals and urinary system, and mental retardation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Denys-Drash syndrome.&lt;/strong&gt; This syndrome includes Wilms&apos; tumor, kidney disease and male pseudohermaphroditism, in which a boy is born with testicles but may exhibit female characteristics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beckwith-Wiedemann syndrome&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Symptoms of this syndrome include abdominal organs that protrude into the base of the umbilical cord, a large tongue (macroglossia) and enlarged internal organs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with a family doctor or your child&apos;s pediatrician if your child has signs or symptoms that worry you. If your child is diagnosed with Wilms&apos; tumor, you may be referred to a doctor who specializes in treating cancer (oncologist) or a surgeon who specializes in kidney operations (urologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For Wilms&apos; tumor, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What stage is my child&apos;s cancer?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from each treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Will I need to restrict my child&apos;s activity or change his or her diet during treatment?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my child&apos;s prognosis?&lt;/li&gt;
+	&lt;li&gt;Will the cancer come back?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there a history of cancer, including childhood cancer, in your child&apos;s family?&lt;/li&gt;
+	&lt;li&gt;Does your child have any family history of birth defects, especially of genitals or urinary tract?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose Wilms&apos; tumor, your child&apos;s doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A physical examination.&lt;/strong&gt; The doctor will look for possible signs of Wilms&apos; tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; Blood tests can&apos;t detect Wilms&apos; tumor, but they can provide your child&apos;s doctor with an overall assessment of your child&apos;s health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests that create pictures of your child&apos;s kidneys can help your doctor determine whether your child has a kidney tumor. Imaging tests may include ultrasound, computerized tomography (CT) and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If your child has a kidney tumor, your doctor may recommend removing the tumor or the entire kidney to determine if the tumor is cancerous. The removed tissue is analyzed in a laboratory to determine whether cancer is present and what types of cells are involved. This surgery may also serve as treatment for Wilms&apos; tumor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging&lt;/strong&gt; &lt;br /&gt;
+Once your child&apos;s doctor has diagnosed Wilms&apos; tumor, he or she works to determine the extent (stage) of the cancer. Your child&apos;s doctor may recommend a chest X-ray, chest CT scan, chest MRI and bone scan to determine whether the cancer has spread beyond the kidneys. 
+&lt;/p&gt;
+&lt;p&gt;
+The doctor assigns your child&apos;s cancer a stage, which helps determine the treatment options. The stages of Wilms&apos; tumor are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; The cancer is found only in one kidney, and generally can be completely removed with surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; The cancer has spread to the tissues and structures near the affected kidney, such as fat or blood vessels, but it can still be completely removed by surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; The cancer has spread beyond the kidney area to nearby lymph nodes or other structures within the abdomen, and it may not be completely removed by surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; The cancer has spread to distant structures, such as the lungs, liver, bones or brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage V.&lt;/strong&gt; Cancer cells are found in both kidneys.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Standard treatment for Wilms&apos; tumor is surgery and chemotherapy. The stage of the tumor and appearance of the cancer cells under a microscope help determine whether your child also needs radiation therapy. At this point, your doctor may tell you the tumor appears to be either favorable or unfavorable (anaplastic) &amp;mdash; the histology of the tissue. Children whose tumors have a favorable histology have better survival rates. However, many children with unfavorable histology also have good outcomes.
+&lt;/p&gt;
+&lt;p&gt;
+Because this type of cancer is rare, your doctor may recommend that you seek treatment at a children&apos;s cancer center that has experience treating this type of cancer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Surgical removal of kidney tissue is called nephrectomy. The various types of nephrectomy include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simple nephrectomy.&lt;/strong&gt; In this surgery, the surgeon removes the entire kidney. The remaining kidney can increase its capacity and take over the entire job of filtering the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Partial nephrectomy.&lt;/strong&gt; This involves removal of the tumor and part of the kidney tissue surrounding it. It&apos;s usually performed when the other kidney is damaged or has already been removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radical nephrectomy.&lt;/strong&gt; In this type of surgery, doctors remove the kidney and surrounding tissues, including the ureter and adrenal gland. Neighboring lymph nodes also may be removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At surgery, your child&apos;s doctor may examine both kidneys and the abdominal cavity for evidence of cancer. Samples from the kidney, lymph nodes and any tissues that appear abnormal are removed and examined by microscope to identify cancer cells.
+&lt;/p&gt;
+&lt;p&gt;
+If both kidneys need to be removed, your child will need dialysis until he or she is healthy enough for a transplant.
+&lt;/p&gt;
+&lt;p&gt;
+A doctor specializing in pathology examines your child&apos;s tumor cells under a microscope and looks for features that indicate whether the cancer is aggressive or is susceptible to chemotherapy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt;&lt;br /&gt;
+Chemotherapy uses medication to kill cancer cells throughout the body. This treatment affects rapidly dividing cells; thus, normal cells with fast turnover &amp;mdash; such as hair follicles, cells in the gastrointestinal tract and bone marrow, the tissue at the core of bone that manufactures blood cells &amp;mdash; are affected as well as cancer cells. As a result, these medications can have the side effects of nausea, vomiting, loss of appetite, hair loss and low white blood cell counts. Most side effects will improve after the drug is stopped, and some may lessen during therapy. Ask your child&apos;s doctor what side effects may occur during treatment, and if there are any potential long-term complications.
+&lt;/p&gt;
+&lt;p&gt;
+At high doses, chemotherapy can destroy bone marrow cells. Although it&apos;s not usually standard treatment, if your child is to undergo high-dose chemotherapy, your child&apos;s doctor may suggest that marrow cells be removed in advance and frozen. After chemotherapy, the marrow will be returned through an intravenous line, a procedure called autologous bone marrow reinfusion.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt;&lt;br /&gt;
+Radiation therapy uses X-rays or other sources of high-energy rays to kill cancer cells. It&apos;s usually started within a few days after surgery. If your child is very young, he or she may need a sedative to remain still during treatment. A doctor specializing in radiation therapy will mark the area to be treated with a special dye. Areas that should not receive radiation are shielded. Possible side effects include nausea, fatigue and skin irritation. Diarrhea may occur after radiation to the abdomen &amp;mdash; ask your doctor to suggest an over-the-counter or prescription medication for relief.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment regimens by stage&lt;/strong&gt;&lt;br /&gt;
+The treatment your child undergoes depends on the stage of the cancer, the type of cancer cell, and the child&apos;s age and general health.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I or II cancer.&lt;/strong&gt; If the cancer is restricted to the kidney or nearby structures &amp;mdash; and the cell type is not aggressive, your child will undergo removal of the affected kidney and tissues and some of the lymph nodes near the kidney, followed by chemotherapy. Some stage II cancers are also treated with radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III or IV cancer.&lt;/strong&gt; If the cancer has spread within the abdomen and can&apos;t be completely removed without jeopardizing structures such as major blood vessels &amp;mdash; radiation will be added to surgery and chemotherapy. Your child may undergo chemotherapy before surgery to shrink the tumor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage V cancer.&lt;/strong&gt; If the tumor cells are in both kidneys &amp;mdash; part of the cancer from both kidneys will be removed during surgery and neighboring lymph nodes taken to see if they contain tumor cells. Chemotherapy is used to shrink the remaining tumor. Surgery is repeated to remove as much tumor as possible while leaving functioning kidney tissue. More chemotherapy and radiation therapy may follow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children react differently to therapies, so adjustments may be necessary. Discuss your child&apos;s treatment plan with his or her doctor and make certain that you understand the benefits and risks before giving your consent. Ask the doctor about side effects of treatments and when to report them, and what can be done to ease them.
+&lt;/p&gt;
+&lt;p&gt;
+Your child&apos;s prognosis depends on the stage and cell type of the tumor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Considering a clinical trial&lt;/strong&gt;&lt;br /&gt;
+Your child will receive the best care at a major medical center whose staff has expertise in treating this form of cancer. Your child&apos;s regular doctor can arrange a referral. 
+&lt;/p&gt;
+&lt;p&gt;
+Because advances in treating children with Wilms&apos; tumor have come through research, you may be asked to consider letting your child participate in a clinical trial, a carefully planned study to evaluate the benefits and risks of experimental treatments. Researchers must give you all of the available information about the trial before asking you to sign consent forms. Many children with cancer are treated in a clinical trial at some point in their illness. However, enrollment in a clinical trial is up to you and your child. Talk to your child&apos;s doctor to find out more about clinical trials. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are some suggestions to help you guide your family through cancer treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a favorite toy or book&lt;/strong&gt; to office or clinic visits, to keep your child occupied while waiting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay with your child&lt;/strong&gt; during a test or treatment, if possible. Use words that he or she will understand to describe what will happen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Include time for play&lt;/strong&gt; in your child&apos;s schedule. Play can be a useful outlet in the hospital. Major hospitals usually have a playroom for children undergoing treatment. Often playroom staff members are part of the treatment team and have training in child development, recreation, psychology or social work. If your child must remain in his or her room, a recreational therapist or child-life worker may be available to make a bedside visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your child&lt;/strong&gt;&apos;&lt;strong&gt;s energy level&lt;/strong&gt; outside of the hospital. If he or she feels well enough, gently encourage participation in regular activities. At times your child will seem tired or listless, particularly after chemotherapy or radiation, so make time for adequate rest, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a daily record&lt;/strong&gt; of your child&apos;s condition at home &amp;mdash; body temperature, energy level, sleeping patterns, drugs administered and any side effects. Share this information with your child&apos;s doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan a normal diet&lt;/strong&gt; unless your child&apos;s doctor suggests otherwise. Prepare favorite foods when possible. If your child is undergoing chemotherapy, his or her appetite may dwindle. Make sure fluid intake increases to counter the decrease in solid food intake.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage good oral hygiene&lt;/strong&gt; for your child. A mouth rinse can be helpful for sores or areas that are bleeding. Use lip balm or petroleum jelly to soothe cracked lips. Ideally, your child should have necessary dental care before treatment begins. Afterward check with your child&apos;s doctor before scheduling visits to the dentist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check with the doctor before any vaccinations,&lt;/strong&gt; because cancer treatment affects the immune system. With a suppressed immune system, some types of vaccines could cause an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to talk with your other children&lt;/strong&gt; about the illness. Tell them about changes they might see in their sibling, such as hair loss and flagging energy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask for support&lt;/strong&gt; from clinic or hospital staff members. Seek out organizations for parents of children with cancer. Parents that have already been through this can provide encouragement and hope, as well as practical advice, such as what foods a nauseated child may find palatable. Ask your child&apos;s doctor about local support groups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilms&apos; tumor can&apos;t be prevented. If your child has signs and symptoms that increase the risk of Wilms&apos; tumor, your child&apos;s doctor may recommend periodic kidney ultrasounds to look for kidney abnormalities. While this screening can&apos;t prevent Wilms&apos; tumor, it may help detect the disease at an early stage, when treatment is most likely to be successful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wilms&apos; tumor
+	</Title>
+	<Abstract>
+		Wilms&apos; tumor &amp;mdash; Comprehensive overview covers symptoms and treatment of this rare childhood kidney cancer.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

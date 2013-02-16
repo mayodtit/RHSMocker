@@ -1,0 +1,218 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00135
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cyp450-test/MY00135
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-07
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3852" Title="Mental health">
+						<Keyword MCVID="3865" Title="CYP450 test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB00C409-E7FF-0DBD-1D4F0F0E1E174321
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cytochrome P450
+			</MetaKeyword>
+			<MetaKeyword>
+				CYP450 test
+			</MetaKeyword>
+			<MetaKeyword>
+				CYP450 genotyping test
+			</MetaKeyword>
+			<MetaKeyword>
+				cytochrome P450 genetic test
+			</MetaKeyword>
+			<MetaKeyword>
+				cytochrome P450 genotyping test CYP450
+			</MetaKeyword>
+			<MetaKeyword>
+				antidepressant test
+			</MetaKeyword>
+			<MetaKeyword>
+				antidepressants
+			</MetaKeyword>
+			<MetaKeyword>
+				antidepression medications
+			</MetaKeyword>
+			<MetaKeyword>
+				cytochrome
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				pharmacogenomics
+			</MetaKeyword>
+			<MetaKeyword>
+				pharmacogenetics
+			</MetaKeyword>
+			<MetaKeyword>
+				personalized medicine
+			</MetaKeyword>
+			<MetaKeyword>
+				mental health
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression treatments
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may use cytochrome P450 tests (CYP450 tests) to help determine how your body processes (metabolizes) a drug. Our bodies contain numerous P450 enzymes to process medications. Because of inherited (genetic) traits which cause variations in these enzymes, medications affect each person differently. 
+&lt;/p&gt;
+&lt;p&gt;
+The P450 enzyme with the most variation in different people is the 2D6, which processes many antidepressants and antipsychotic medications. By checking your DNA for certain gene variations, cytochrome P450 tests can offer clues about how your body may respond to a particular antidepressant. Other cytochrome P450 tests are available for other enzymes. 
+&lt;/p&gt;
+&lt;p&gt;
+Cytochrome P450 and other genetic tests (genotyping tests) are becoming more common as doctors try to understand why antidepressants help some people and not others. While their use might be increasing, there are limitations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medications for depression are usually prescribed based on symptoms and medical history. For some people, the first antidepressant tried relieves depression symptoms and has tolerable side effects. For many others, however, finding the right medication takes trial and error. For some people, it can take several months or longer to find the right antidepressant.
+&lt;/p&gt;
+&lt;p&gt;
+Genotyping tests, such as cytochrome P450 tests, may speed up the identification of medications that are more likely to be better processed by your body. Ideally, better processing would lead to fewer side effects and improved effectiveness. Cytochrome P450 tests are generally used only when initial antidepressant treatments aren&apos;t successful.
+&lt;/p&gt;
+&lt;p&gt;
+Genotyping tests are also used in other areas of medicine. The 2D6 test can help determine whether certain cancer medications, such as tamoxifen for breast cancer, are likely to be effective. The 2C9 test can help determine appropriate dosing of the blood thinner warfarin (Coumadin) to reduce the risks of adverse effects. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You won&apos;t need to fast or have any special preparations before the procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For cytochrome P450 tests, a sample of your DNA is taken for lab testing. It can be retrieved in one of two ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Blood is drawn from a vein in your arm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cheek swab.&lt;/strong&gt; A cotton swab is rubbed inside your cheek to get a skin cell sample.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;Getting a cheek swab or having a blood sample drawn should take just a few minutes. Whichever type of test you have, your sample will be sent to a lab where your DNA is analyzed for specific genes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It usually takes several days to a week to get the results of cytochrome P450 tests. Once they&apos;re back, you and your doctor will discuss the results and how they might affect your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+Cytochrome P450 tests give clues to how well your body processes a drug by looking at specific enzymes. People can be classified according to how fast they metabolize medications. For example, results of a 2D6 test may show which of these four types applies to you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor metabolizers.&lt;/strong&gt; If you process a certain drug more slowly than normal because of a missing enzyme, the medication can build up in your system. This can increase the likelihood that it will cause side effects. You might still be able to benefit from these medications, but at lower dosages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intermediate metabolizers.&lt;/strong&gt; If you have reduced enzyme function in processing drugs, you may not process some medications as well as normal metabolizers do. This can increase your risk of side effects and drug interactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Normal metabolizers&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; If the test shows that you process certain antidepressants normally, you&apos;re more likely to benefit from treatment and have fewer side effects than people who don&apos;t process those particular medications as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrarapid metabolizers.&lt;/strong&gt; In this case, medications leave your body too quickly &amp;mdash; often before they have a chance to work properly. You&apos;ll likely need higher than usual doses of medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cytochrome P450 testing isn&apos;t useful for all antidepressants, but it can provide information about how you&apos;re likely to process a number of them. For example:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The 2D6 enzyme is involved in metabolizing antidepressants such as fluoxetine (Prozac), paroxetine (Paxil), venlafaxine (Effexor XR), and tricyclic antidepressants such as nortriptyline (Pamelor), amitriptyline, clomipramine (Anafranil), desipramine (Norpramin) and imipramine (Tofranil).&lt;/li&gt;
+	&lt;li&gt;The 2C19 enzyme is involved in metabolizing citalopram (Celexa) and escitalopram (Lexapro).&lt;/li&gt;
+	&lt;li&gt;The antidepressant desvenlafaxine (Pristiq) bypasses the 2D6 system, so it&apos;s not metabolized by 2D6.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Test limitations&lt;br /&gt;
+&lt;/strong&gt;Although they have potential, cytochrome P450 tests have limitations, including those below. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cytochrome P450 testing can&apos;t predict for certain which particular medication will work best for you &amp;mdash; it can only provide clues.&lt;/li&gt;
+	&lt;li&gt;Cytochrome P450 tests only look at some of the genes involved in how your body uses certain drugs &amp;mdash; so factors out of the scope of this test may impact how an antidepressant will affect you.&lt;/li&gt;
+	&lt;li&gt;Because they&apos;re still being developed, it isn&apos;t entirely clear how useful cytochrome P450 tests are in choosing an antidepressant.&lt;/li&gt;
+	&lt;li&gt;An advisory group formed by the Centers for Disease Control and Prevention has concluded that there isn&apos;t enough evidence yet to support using cytochrome P450 testing for the most commonly prescribed antidepressants.&lt;/li&gt;
+	&lt;li&gt;Even if you have cytochrome P450 tests, you may still need to try different antidepressants and different doses to identify what works best for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Despite the limitations, some doctors use these tests and think they&apos;re helpful. But cytochrome P450 tests aren&apos;t meant to be the only way to determine which antidepressants to try. They&apos;re just one tool that may help. Trying antidepressants based on your medical history and symptoms is still the standard method for identifying the best medication for your needs.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cytochrome P450 (CYP450) tests
+	</Title>
+	<Abstract>
+		Cytochrome P450 tests &amp;mdash; Overview covers definition, results of tests analyzing effectiveness of certain antidepressants.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

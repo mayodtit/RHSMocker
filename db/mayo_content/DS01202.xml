@@ -1,0 +1,292 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01202
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fetal-macrosomia/DS01202
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2012-05-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4948" Title="Fetal macrosomia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A0AF7A19-CC93-66A6-76CB4983E3774342
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fetal macrosomia
+			</MetaKeyword>
+			<MetaKeyword>
+				shoulder dystocia
+			</MetaKeyword>
+			<MetaKeyword>
+				gestational diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				macrosomia
+			</MetaKeyword>
+			<MetaKeyword>
+				preeclampsia
+			</MetaKeyword>
+			<MetaKeyword>
+				large for gestational age
+			</MetaKeyword>
+			<MetaKeyword>
+				macrosomic
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fetal macrosomia is a term used to describe a newborn who&apos;s significantly larger than average. 
+&lt;/p&gt;
+&lt;p&gt;
+A baby diagnosed with fetal macrosomia has a birth weight of more than 8 pounds, 13 ounces (4,000 grams), regardless of his or her gestational age. About 9 percent of babies born worldwide weigh more than 8 pounds, 13 ounces. However, the risks associated with fetal macrosomia increase greatly when birth weight is more than 9 pounds 15 ounces (4500 grams).
+&lt;/p&gt;
+&lt;p&gt;
+Fetal macrosomia makes vaginal delivery difficult and puts the baby at risk of injury during birth. Fetal macrosomia also puts the baby at increased risk of health problems after birth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fetal macrosomia is difficult to detect and diagnose during pregnancy. Possible signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Large fundal height.&lt;/strong&gt; During prenatal visits, your health care provider might measure your fundal height &amp;mdash; the distance from the top of your uterus to your pubic bone. A fundal height that measures larger than expected could be a sign of fetal macrosomia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive amniotic fluid (polyhydramnios).&lt;/strong&gt; Too much amniotic fluid &amp;mdash; the fluid that surrounds and protects a baby during pregnancy &amp;mdash; might be a sign that your baby is larger than average. The amount of amniotic fluid reflects your baby&apos;s urine output, and a larger baby produces more urine. Some conditions that increase a baby&apos;s size might also increase his or her urine output.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fetal macrosomia typically develops when a baby receives too many nutrients. This can be caused by genetic factors as well as maternal conditions, such as obesity or diabetes. Rarely, a baby might have a medical condition that speeds fetal growth.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, what causes a larger than average birth weight remains unexplained.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many factors might increase the risk of fetal macrosomia &amp;mdash; some modifiable, some not. 
+&lt;/p&gt;
+&lt;p&gt;
+For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maternal diabetes.&lt;/strong&gt; If you had diabetes before pregnancy (pre-gestational diabetes) or develop diabetes during pregnancy (gestational diabetes), fetal macrosomia is more likely. If your diabetes is poorly controlled, your baby is likely to have larger shoulders and greater amounts of body fat than would a baby whose mother doesn&apos;t have diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of fetal macrosomia.&lt;/strong&gt; If you&apos;ve previously given birth to a baby diagnosed with fetal macrosomia, you&apos;re at increased risk of having another baby who has the condition. Also, if you weighed more than 8 pounds, 13 ounces at birth, you&apos;re more likely to have a large baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maternal obesity.&lt;/strong&gt; Fetal macrosomia is more likely if you&apos;re obese.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive weight gain during pregnancy.&lt;/strong&gt; Gaining too much weight during pregnancy increases the risk of fetal macrosomia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous pregnancies.&lt;/strong&gt; The risk of fetal macrosomia increases with each pregnancy. Up to the fifth pregnancy, the average birth weight for each successive pregnancy typically increases by up to about 4 ounces (120 grams).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re having a boy.&lt;/strong&gt; Male infants typically weigh slightly more than female infants. Most babies who weigh more than 9 pounds, 15 ounces (4,500 grams) are male.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overdue pregnancy.&lt;/strong&gt; If your pregnancy continues by more than two weeks past your due date, your baby is at increased risk of fetal macrosomia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maternal age.&lt;/strong&gt; Women older than 35 are more likely to have a baby diagnosed with fetal macrosomia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Fetal macrosomia is more likely to be a result of maternal diabetes, obesity or weight gain during pregnancy than other causes. If these risk factors aren&apos;t present and fetal macrosomia is suspected, it&apos;s possible that your baby might have a rare medical condition that affects fetal growth. Your health care provider might recommend prenatal diagnostic tests and perhaps a visit with a genetic counselor, depending on the test results.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fetal macrosomia poses health risks for you and your baby &amp;mdash; both during pregnancy and after childbirth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Maternal risks&lt;/strong&gt;&lt;br /&gt;
+Possible maternal complications of fetal macrosomia might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Labor problems.&lt;/strong&gt; Fetal macrosomia can cause a baby to become wedged in the birth canal, sustain birth injuries, or require the use of forceps or a vacuum device during delivery (operative vaginal delivery). Sometimes a C-section is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genital tract lacerations.&lt;/strong&gt; During childbirth, fetal macrosomia can cause a baby to injure the birth canal &amp;mdash; such as by tearing vaginal tissues and the muscles between the vagina and the anus (perineal muscles).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding after delivery.&lt;/strong&gt; Fetal macrosomia increases the risk that your uterine muscles won&apos;t properly contract after you give birth (uterine atony). This can lead to potentially serious bleeding after delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine rupture.&lt;/strong&gt; If you&apos;ve had a prior C-section or major uterine surgery, fetal macrosomia increases the risk of uterine rupture &amp;mdash; a rare but serious complication in which the uterus tears open along the scar line from the C-section or other uterine surgery. An emergency C-section is needed to prevent life-threatening complications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Newborn and childhood risks&lt;/strong&gt;&lt;br /&gt;
+Possible complications of fetal macrosomia for your baby might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Higher than normal blood sugar level.&lt;/strong&gt; A baby diagnosed with fetal macrosomia is more likely to be born with a blood sugar level that&apos;s higher than normal (impaired glucose tolerance).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Childhood obesity.&lt;/strong&gt; Research suggests that the risk of childhood obesity increases as birth weight increases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metabolic syndrome.&lt;/strong&gt; Metabolic syndrome is a cluster of conditions &amp;mdash; increased blood pressure, a high blood sugar level, excess body fat around the waist or abnormal cholesterol levels &amp;mdash; that occur together, increasing the risk of heart disease, stroke and diabetes. If your baby is diagnosed with fetal macrosomia, he or she is at risk of developing metabolic syndrome during childhood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Further research is needed to determine whether these effects might increase the risk of adult diabetes, obesity and heart disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have risk factors for fetal macrosomia, the topic is likely to come up at routine prenatal appointments.
+&lt;/p&gt;
+&lt;p&gt;
+Below are some basic questions to ask your health care provider about fetal macrosomia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing the condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What needs to be done now?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;How will fetal macrosomia affect my baby?&lt;/li&gt;
+	&lt;li&gt;Will I need to have a C-section?&lt;/li&gt;
+	&lt;li&gt;Will my baby need tests or special care after he or she is born?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared, don&apos;t hesitate to ask other questions during your appointment &amp;mdash; especially if you need clarification or you don&apos;t understand something.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Estimating or predicting a baby&apos;s birth weight is difficult. A definitive diagnosis of fetal macrosomia can&apos;t be made until after the baby is born and weighed. If you have risk factors for fetal macrosomia, however, your health care provider will likely try to estimate your baby&apos;s birth weight before delivery.
+&lt;/p&gt;
+&lt;p&gt;
+Toward the end of your third trimester, your health care provider or another member of your health care team might do an ultrasound to take measurements of parts of your baby&apos;s body, such as the head, abdomen and femur. Your health care provider will then plug these measurements into a formula to estimate your baby&apos;s weight. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that any assessment of a baby&apos;s size during pregnancy depends on accurate knowledge of his or her gestational age. If a baby is large for his or her gestational age, it&apos;s important to confirm whether your projected due date is correct. 
+&lt;/p&gt;
+&lt;p&gt;
+If your health care provider suspects fetal macrosomia, he or she might use nonstress testing to monitor your baby&apos;s well-being. A nonstress test measures the baby&apos;s heart rate in response to his or her own movements. If your baby&apos;s excess growth is thought to be the result of a maternal condition, your health care provider might recommend two nonstress tests each week &amp;mdash; starting as early as week 32 of pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+Before your baby is born, you might also consider consulting a pediatrician who has expertise in treating babies diagnosed with fetal macrosomia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your health care provider suspects fetal macrosomia, a vaginal delivery isn&apos;t necessarily out of the question. However, you&apos;ll need to give birth in a hospital &amp;mdash; in case forceps or a vacuum device are needed during delivery or a C-section becomes necessary.
+&lt;/p&gt;
+&lt;p&gt;
+Inducing labor &amp;mdash; stimulating uterine contractions before labor begins on its own &amp;mdash; isn&apos;t generally recommended. Research suggests that labor induction doesn&apos;t reduce the risk of complications related to fetal macrosomia and might increase the need for a C-section. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your health care provider might recommend a C-section. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You have diabetes.&lt;/strong&gt; If you had diabetes before pregnancy or you develop gestational diabetes and your health care provider estimates that your baby weighs 9 pounds, 15 ounces (4,500 grams) or more, a C-section might be the safest way to deliver your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your baby weighs 11 pounds or more and you don&apos;t have a history of maternal diabetes.&lt;/strong&gt; If you don&apos;t have pre-gestational or gestational diabetes and your health care provider estimates that your baby weighs 11 pounds (5,000 grams) or more, a C-section might be recommended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You delivered a baby whose shoulder got stuck behind your pelvic bone (shoulder dystocia).&lt;/strong&gt; If you&apos;ve delivered one baby with shoulder dystocia, you&apos;re at increased risk of the problem occurring again. A C-section might be recommended to avoid the risks associated with shoulder dystocia, such as a fractured collarbone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your health care provider recommends an elective C-section, be sure to discuss the risks and benefits. If your health care provider recommends a C-section before week 39 of pregnancy, he or she will test a sample of amniotic fluid &amp;mdash; which surrounds and protects your baby during pregnancy &amp;mdash; to determine whether your baby&apos;s lungs are mature enough for birth (maturity amniocentesis).
+&lt;/p&gt;
+&lt;p&gt;
+After your baby is born, he or she will likely be examined for signs of birth injuries, abnormally low blood sugar (hypoglycemia) and a blood disorder that affects the red blood cell count (polycythemia). He or she might need special care in the hospital&apos;s neonatal intensive care unit. Keep in mind that your baby might be at risk of childhood obesity and insulin resistance and should be monitored for these conditions during future checkups. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, if you haven&apos;t previously been diagnosed with diabetes, after childbirth your health care provider will test you for the condition. During future pregnancies, you&apos;ll be closely monitored for signs and symptoms of gestational diabetes &amp;mdash; a type of diabetes that develops during pregnancy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your health care provider suspects fetal macrosomia during your pregnancy, you might feel anxious about childbirth and your baby&apos;s health &amp;mdash; and worrying can make it hard to take care of yourself.
+&lt;/p&gt;
+&lt;p&gt;
+Consult your health care provider about what you can do to relieve stress and promote your baby&apos;s health. Also consider seeking information and support from women who&apos;ve had a baby diagnosed with fetal macrosomia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might not be able to prevent fetal macrosomia, but you can promote a healthy pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Schedule a preconception appointment.&lt;/strong&gt; If you&apos;re considering pregnancy, talk to your health care provider. He or she might recommend a daily prenatal vitamin. If you&apos;re obese, he or she might also refer you to other health care providers &amp;mdash; such as a registered dietitian or an obesity specialist &amp;mdash; who can help you make changes in your lifestyle and reach a healthy weight before pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your weight.&lt;/strong&gt; Gaining a healthy amount of weight &amp;mdash; often 25 to 35 pounds (about 11 to 16 kilograms) &amp;mdash; supports your baby&apos;s growth and development. There&apos;s no one-size-fits-all approach to pregnancy weight gain, though. Work with your health care provider to determine what&apos;s right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage diabetes.&lt;/strong&gt; If you had diabetes before pregnancy or you develop gestational diabetes, work with your health care provider to manage the condition. Controlling your blood sugar level is the best way to prevent complications, including fetal macrosomia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Include physical activity in your daily routine.&lt;/strong&gt; Follow your health care provider&apos;s recommendations for physical activity.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fetal macrosomia
+	</Title>
+	<Abstract>
+		Fetal macrosomia &amp;mdash; Overview covers risk factors and complications related to delivering a large baby.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

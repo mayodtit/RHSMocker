@@ -1,0 +1,277 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00469
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tennis-elbow/DS00469
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-21
+		</UpdateDate>
+		<PublicationDate>
+			2003-01-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2343" Title="Elbow and arm">
+						<Keyword MCVID="3121" Title="Tennis elbow" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			362177D4-957B-4456-B67B9AF30681C842
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tennis elbow
+			</MetaKeyword>
+			<MetaKeyword>
+				elbow pain
+			</MetaKeyword>
+			<MetaKeyword>
+				epicondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				lateral epicondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				medial epicondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				overuse injury
+			</MetaKeyword>
+			<MetaKeyword>
+				overuse injuries
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tennis elbow is a painful condition that occurs when tendons in your elbow are overworked, usually by repetitive motions of the wrist and arm. Tennis elbow can result from poor technique in executing a tennis backhand. However, many occupations also feature repetitive wrist and arm motions that can cause tennis elbow. 
+&lt;/p&gt;
+&lt;p&gt;
+The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow. Pain can also spread into your forearm and wrist. 
+&lt;/p&gt;
+&lt;p&gt;
+Rest and over-the-counter pain relievers often help relieve tennis elbow. If conservative treatments don&apos;t help or if symptoms are disabling, your doctor may suggest surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tennis elbow 
+" Caption="The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow (lateral epicondyle). The pain may result from tiny tears in the tendon. 
+" Height="60" Title="Tennis elbow" URI="/images/image_popup/thumbs/mcdc7_tennis_elbowthu.jpg" Width="60" />
+				<Image Alt="Illustration showing tennis elbow 
+" Caption="The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow (lateral epicondyle). The pain may result from tiny tears in the tendon. 
+" Height="279" Title="Tennis elbow" URI="/images/image_popup/mcdc7_tennis_elbow.jpg" Width="400" />
+				<HTML>
+					The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow (lateral epicondyle). The pain may result from tiny ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The pain associated with tennis elbow may radiate from the outside of your elbow into your forearm and wrist. Pain and weakness may make it difficult to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shake hands&lt;/li&gt;
+	&lt;li&gt;Turn a doorknob&lt;/li&gt;
+	&lt;li&gt;Hold a coffee cup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if self-care steps such as rest, ice and use of over-the-counter pain relievers don&apos;t ease your elbow pain and tenderness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tennis elbow (lateral epicondylitis) is an overuse and muscle strain injury. The cause is repeated contraction of the forearm muscles that you use to straighten and raise your hand and wrist. The repeated motions and stress to the tissue may result in inflammation or a series of tiny tears in the tendons that attach the forearm muscles to the bony prominence at the outside of your elbow (lateral epicondyle). 
+&lt;/p&gt;
+&lt;p&gt;
+As the name suggests, playing tennis &amp;mdash; especially repeated use of the backhand stroke with poor technique &amp;mdash; is one possible cause of tennis elbow. However, many other common arm motions can cause tennis elbow, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using plumbing tools&lt;/li&gt;
+	&lt;li&gt;Painting&lt;/li&gt;
+	&lt;li&gt;Driving screws&lt;/li&gt;
+	&lt;li&gt;Cutting up cooking ingredients, particularly meat&lt;/li&gt;
+	&lt;li&gt;Excessive computer mouse use&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tennis elbow 
+" Caption="The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow (lateral epicondyle). The pain may result from tiny tears in the tendon. 
+" Height="60" Title="Tennis elbow" URI="/images/image_popup/thumbs/mcdc7_tennis_elbowthu.jpg" Width="60" />
+				<Image Alt="Illustration showing tennis elbow 
+" Caption="The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow (lateral epicondyle). The pain may result from tiny tears in the tendon. 
+" Height="279" Title="Tennis elbow" URI="/images/image_popup/mcdc7_tennis_elbow.jpg" Width="400" />
+				<HTML>
+					The pain of tennis elbow occurs primarily where the tendons of your forearm muscles attach to the bony prominence on the outside of your elbow (lateral epicondyle). The pain may result from tiny ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of tennis elbow include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; While tennis elbow affects people of all ages, it&apos;s most common in adults between the ages of 30 and 50.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupation.&lt;/strong&gt; People who have jobs that involve repetitive motions of the wrist and arm are more likely to develop tennis elbow. Examples include plumbers, painters, carpenters, butchers and cooks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain sports.&lt;/strong&gt; Participating in racket sports increases your risk of tennis elbow, especially if you employ poor stroke technique.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, tennis elbow can result in chronic pain &amp;mdash; especially when lifting or gripping objects. Using your arm too strenuously before your elbow has healed can make the problem worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first bring your problem to the attention of your family doctor. He or she may refer you to a sports medicine specialist or an orthopedic surgeon.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list that answers the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does any motion or activity make the pain better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you recently injured your elbow?&lt;/li&gt;
+	&lt;li&gt;Do you have rheumatoid arthritis or a nerve disease?&lt;/li&gt;
+	&lt;li&gt;Does your job involve repetitive motions of your wrist or arm?&lt;/li&gt;
+	&lt;li&gt;Do you play sports? If so, what types of sports do you play and has your technique ever been evaluated?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor may apply pressure to the affected area or ask you to move your elbow, wrist and fingers in various ways.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, your medical history and the physical exam provides enough information for your doctor to make a diagnosis of tennis elbow. But if your doctor suspects that something else may be causing your symptoms, he or she may suggest:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; An X-ray can help your doctor rule out other possible causes of elbow pain, such as a fracture or arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Problems in your neck can sometimes cause symptoms similar to tennis elbow. MRI machines use radio waves and a strong magnetic field to produce detailed images of bones and soft tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; This type of test can check to see if your symptoms are linked to a pinched nerve. During an EMG, fine wires are inserted into a muscle to assess electrical changes that occur when the muscle moves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tennis elbow often gets better on its own. But if over-the-counter pain medications and other self-care measures aren&apos;t helping, your doctor may suggest physical therapy. Severe cases of tennis elbow may require surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn proper form.&lt;/strong&gt; Your doctor may suggest that experts evaluate your tennis technique or job tasks to determine the best steps to reduce stress on your injured tissue. This may mean going to a two-handed backhand in tennis or taking ergonomic steps at work to ensure that your wrist and forearm movements don&apos;t continue to contribute to your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercises.&lt;/strong&gt; Your doctor or a physical therapist may suggest exercises to gradually stretch and strengthen your muscles, especially the muscles of your forearm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Braces.&lt;/strong&gt; Your doctor may also suggest you wear a forearm strap or brace to reduce stress on the injured tissue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your symptoms haven&apos;t improved after at least a year of extensive conservative therapy, you may be a candidate for surgery to remove damaged tissue. These types of procedures can be performed through a large incision or through several small incisions. Rehabilitation exercises are crucial to recovery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow the instructions for R.I.C.E. &amp;mdash; rest, ice, compression, elevation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Give your elbow a rest. But don&apos;t avoid all activity. Sometimes, wearing a forearm splint at night helps reduce morning symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; Use a cold pack, ice massage, slush bath or compression sleeve filled with cold water to limit swelling after an injury. Try to apply ice as soon as possible after the injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; Use an elastic wrap or bandage to compress the injured area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; Keep your elbow above heart level when possible to help prevent or limit swelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Over-the-counter pain relievers can also be helpful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tennis elbow
+	</Title>
+	<Abstract>
+		Tennis elbow &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this common overuse injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Article" DocID="MY01092" LinkType="Internal" ObjectID="6EDA17FD-A734-F85B-841F3E2A07646706" Title="Overuse injury: How to prevent training injuries" Url="http://www.mayoclinic.com/health/overuse-injury/MY01092" />
+	</RelatedLinksBox>
+</Disease>

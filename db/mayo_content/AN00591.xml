@@ -1,0 +1,138 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00591
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nails/AN00591
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="4643" Title="Nail care" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6253888A-D4BF-4D48-9F90EF0376680538
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				nail ridges
+			</MetaKeyword>
+			<MetaKeyword>
+				nail ridging
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernail ridges
+			</MetaKeyword>
+			<MetaKeyword>
+				fingernail ridging
+			</MetaKeyword>
+			<MetaKeyword>
+				nails
+			</MetaKeyword>
+			<MetaKeyword>
+				ridges in nails
+			</MetaKeyword>
+			<MetaKeyword>
+				ridges in fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				ridges on fingernails
+			</MetaKeyword>
+			<MetaKeyword>
+				finger nails
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Vertical nail ridges are fairly common and nothing to worry about. 
+&lt;/p&gt;
+&lt;p&gt;
+Vertical nail ridges extend from the cuticle to the tip of the nail. Vertical nail ridges often become more numerous or prominent with age, possibly due to variations in cell turnover within the nail. 
+&lt;/p&gt;
+&lt;p&gt;
+If your fingernails change color or you develop horizontal nail ridges, consult your doctor. These changes could indicate an underlying health condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of vertical nail ridges 
+" Caption="Vertical nail ridges extend from the cuticle to the tip of the nail. Vertical nail ridges are fairly common and nothing to worry about. 
+" Height="60" Title="Vertical nail ridges" URI="/images/image_popup/thumbs/ans7_vertical_ridgingthu.jpg" Width="60" />
+				<Image Alt="Photo of vertical nail ridges 
+" Caption="Vertical nail ridges extend from the cuticle to the tip of the nail. Vertical nail ridges are fairly common and nothing to worry about. 
+" Height="320" Title="Vertical nail ridges" URI="/images/image_popup/ans7_vertical_ridging.jpg" Width="400" />
+				<HTML>
+					Vertical nail ridges extend from the cuticle to the tip of the nail. Vertical nail ridges are fairly common and nothing to worry about. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Nail ridges: Cause for concern?
+	</Title>
+	<Abstract>
+		Vertical nail ridges are fairly common and often become more prominent with age.
+	</Abstract>
+	<Question>
+		Are vertical nail ridges in fingernails cause for concern?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01861" LinkType="Internal" ObjectID="9A786991-E7FF-0DBD-1CD8F68A7EFECB55" Title="Split fingernails: Can they be prevented?" Url="http://www.mayoclinic.com/health/split-fingernails/AN01861" />
+		<LinkItem ContentType="Answer" DocID="AN01144" LinkType="Internal" ObjectID="8939986C-F327-4271-AD67610FD1B68D19" Title="Nail biting: Does it cause long-term damage?" Url="http://www.mayoclinic.com/health/nail-biting/AN01144" />
+		<LinkItem ContentType="Answer" DocID="AN01261" LinkType="Internal" ObjectID="1CDD8F4D-2A5D-9994-E5016BDFB41429DF" Title="Acrylic nails: Can they harm natural nails?" Url="http://www.mayoclinic.com/health/acrylic-nails/AN01261" />
+		<LinkItem ContentType="SlideShow" DocID="WO00055" LinkType="Internal" ObjectID="154FD1E8-20E3-4CCF-BE8FC6EDF5A89942" Title="Slide show: 7 fingernail problems not to ignore" Url="http://www.mayoclinic.com/health/nails/WO00055" />
+		<LinkItem ContentType="Article" DocID="WO00020" LinkType="Internal" ObjectID="3803FB95-7CEC-4B8E-B69A53A210F01BE8" Title="Fingernails: Do&apos;s and don&apos;ts for healthy nails" Url="http://www.mayoclinic.com/health/nails/WO00020" />
+	</RelatedLinksBox>
+</Answer>

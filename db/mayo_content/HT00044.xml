@@ -1,0 +1,63 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00044
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00044
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="4022" Title="Nutrition basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			728F4464-E7FF-0DBD-190F8C4612AEA171
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nuts
+			</MetaKeyword>
+			<MetaKeyword>
+				walnuts
+			</MetaKeyword>
+			<MetaKeyword>
+				almonds
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Need a snack? Go nuts!
+	</Title>
+	<Body>
+		&lt;p&gt;Nuts can be good for your heart. They may lower low-density lipoprotein (LDL), or &apos;bad,&apos; cholesterol levels. Eating nuts may reduce the risk of developing blood clots that can lead to a heart attack. Try a small handful of nuts every day. Walnuts are rich in omega-3 fatty acids. Almonds, macadamia nuts, hazelnuts and pecans also are very heart healthy. Even peanuts, which are technically not a nut, but a legume, can be good for you. Of course, choosing nuts coated in chocolate, sugar or salt may cancel out their heart-healthy benefits.&lt;/p&gt;
+	</Body>
+</HealthTip>

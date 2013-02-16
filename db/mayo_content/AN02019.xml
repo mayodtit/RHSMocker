@@ -1,0 +1,130 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02019
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/milnacipran/AN02019
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2695" Title="Fibromyalgia" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5A7A3B84-E6B6-B29E-2C59FE433DC4179C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				milnicipran
+			</MetaKeyword>
+			<MetaKeyword>
+				Savella
+			</MetaKeyword>
+			<MetaKeyword>
+				duloxetine
+			</MetaKeyword>
+			<MetaKeyword>
+				Cymbalta
+			</MetaKeyword>
+			<MetaKeyword>
+				fibromyalgia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Milnacipran, marketed under the brand name Savella in the United States, is the latest drug to receive Food and Drug Administration (FDA) approval for the management of fibromyalgia. The FDA approved fibromyalgia indications for two other drugs &amp;mdash; pregabalin (Lyrica) and duloxetine (Cymbalta) &amp;mdash; in 2007 and 2008, respectively. 
+&lt;/p&gt;
+&lt;p&gt;
+Outside the United States, milnacipran already has a track record as an antidepressant.
+&lt;/p&gt;
+&lt;p&gt;
+It is similar to duloxetine in that both drugs increase the supply of serotonin and norepinephrine (chemical messengers, also known as neurotransmitters) available to your brain. The difference is that milnacipran gives your brain a larger boost in norepinephrine. Neuroscientists refer to this property of milnacipran as &quot;norepinephrine selectivity.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Many studies have demonstrated that pain receptors tend to be hypersensitive in people with fibromyalgia. By exerting a stronger effect on norepinephrine than on serotonin, milnacipran may scale back the brain&apos;s exaggerated reaction to neurochemicals associated with painful sensations. 
+&lt;/p&gt;
+&lt;p&gt;
+In clinical trials, milnacipran was significantly better than was a placebo at reducing pain and other physical symptoms in study participants who had fibromyalgia and did not also have depression or anxiety.
+&lt;/p&gt;
+&lt;p&gt;
+Studies are under way to determine whether milnacipran may also improve sleep disturbances common to fibromyalgia. Upcoming clinical trials may determine whether milnacipran can be safely and effectively given in combination with other fibromyalgia medications.
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor prescribes milnacipran for your fibromyalgia symptoms, you&apos;ll typically start with a low dose. Then, under your doctor&apos;s guidance, you can gradually work up to 100 milligrams (mg) a day, usually in two separate 50 mg doses. In some cases, the dose can be increased to 200 mg a day.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Milnacipran (Savella) for fibromyalgia: What makes it different?
+	</Title>
+	<Abstract>
+		Milnacipran (Savella) is a unique fibromyalgia medication that reduces pain perception in your brain.
+	</Abstract>
+	<Question>
+		How is milnacipran, the new fibromyalgia drug, different from other fibromyalgia medications?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02185" LinkType="Internal" ObjectID="E6A32369-F6BA-086B-83800B2E9798545F" Title="What is hot yoga?" Url="http://www.mayoclinic.com/health/hot-yoga/AN02185" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="Answer" DocID="AN01946" LinkType="Internal" ObjectID="AFE3FD0A-E7FF-0DBD-1D23E59E2155983A" Title="TENS therapy: An option for fibromyalgia treatment?" Url="http://www.mayoclinic.com/health/tens/AN01946" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="Article" DocID="SA00082" LinkType="Internal" ObjectID="686E87EE-DBEB-4259-A5906A4CF2A10A02" Title="Massage: Get in touch with its many benefits" Url="http://www.mayoclinic.com/health/massage/SA00082" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Answer" DocID="AN01891" LinkType="Internal" ObjectID="5509B170-E7FF-0DBD-1EA02D96E3C62E10" Title="Fibromyalgia: Can it cause elevated ESR and CRP levels?" Url="http://www.mayoclinic.com/health/fibromyalgia/AN01891" />
+		<LinkItem ContentType="Answer" DocID="AN01650" LinkType="Internal" ObjectID="540CF2B9-E7FF-0DBD-1698FF8118358362" Title="Fibromyalgia treatment: Is Neurontin effective?" Url="http://www.mayoclinic.com/health/fibromyalgia-treatment/AN01650" />
+		<LinkItem ContentType="Answer" DocID="AN01599" LinkType="Internal" ObjectID="482A4B6F-E7FF-0DBD-1DF7023F22512D11" Title="Cupping therapy: Can it relieve fibromyalgia pain?" Url="http://www.mayoclinic.com/health/cupping/AN01599" />
+		<LinkItem ContentType="Answer" DocID="AN01962" LinkType="Internal" ObjectID="2CBFF96F-D40A-F7B8-D74FAB61FAE44312" Title="Is fibromyalgia hereditary?" Url="http://www.mayoclinic.com/health/is-fibromyalgia-hereditary/AN01962" />
+		<LinkItem ContentType="Article" DocID="AR00056" LinkType="Internal" ObjectID="E592733E-E7FF-0DBD-16A1F96CC79BD01C" Title="Fibromyalgia misconceptions: Interview with a Mayo Clinic expert" Url="http://www.mayoclinic.com/health/fibromyalgia/AR00056" />
+		<LinkItem ContentType="Article" DocID="AR00055" LinkType="Internal" ObjectID="D7A0286F-E7FF-0DBD-12F49E159D65C38B" Title="Fibromyalgia pain: Options for coping" Url="http://www.mayoclinic.com/health/fibromyalgia-pain/AR00055" />
+		<LinkItem ContentType="Article" DocID="AR00054" LinkType="Internal" ObjectID="50027014-E7FF-0DBD-1F2509FFF942AD25" Title="Fibromyalgia symptoms or not? Understand the fibromyalgia diagnosis process" Url="http://www.mayoclinic.com/health/fibromyalgia-symptoms/AR00054" />
+		<LinkItem ContentType="Disease" DocID="DS00079" LinkType="Internal" ObjectID="96E57CAC-F3E9-468B-8824304CCE012FD1" Title="Fibromyalgia" Url="http://www.mayoclinic.com/health/fibromyalgia/DS00079" />
+	</RelatedLinksBox>
+</Answer>

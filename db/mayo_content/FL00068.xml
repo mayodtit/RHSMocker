@@ -1,0 +1,309 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FL00068
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lead-poisoning/FL00068
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-12
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="5017" Title="Poisoning">
+						<Keyword MCVID="3059" Title="Lead poisoning" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0A7D73B9-8E5D-4DD2-B3D49ABEE6FD2AE7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lead poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				lead
+			</MetaKeyword>
+			<MetaKeyword>
+				lead toxicity
+			</MetaKeyword>
+			<MetaKeyword>
+				poison
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lead poisoning occurs when lead builds up in the body, often over a period of months or years. Even small amounts of lead can cause serious health problems. Children under the age of 6 are especially vulnerable to lead poisoning, which can severely affect mental and physical development. At very high levels, lead poisoning can be fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+Lead-based paint and lead-contaminated dust in older buildings are the most common sources of lead poisoning in children. Other sources include contaminated air, water and soil. Adults who work with batteries, home renovations or in auto repair shops also may be exposed to lead. 
+&lt;/p&gt;
+&lt;p&gt;
+While treatment is available for lead poisoning, some simple precautions can help prevent it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Initially, lead poisoning can be hard to detect &amp;mdash; even people who seem healthy can have high blood levels of lead. Signs and symptoms usually don&apos;t appear until dangerous amounts have accumulated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in children&lt;/strong&gt; &lt;br /&gt;
+The signs and symptoms of lead poisoning in children may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Sluggishness and fatigue&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Learning difficulties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in newborns&lt;/strong&gt; &lt;br /&gt;
+Babies who are exposed to lead before birth may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Learning difficulties&lt;/li&gt;
+	&lt;li&gt;Slowed growth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in adults&lt;/strong&gt; &lt;br /&gt;
+Although children are primarily at risk, lead poisoning is also dangerous for adults. Signs and symptoms in adults may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Declines in mental functioning&lt;/li&gt;
+	&lt;li&gt;Pain, numbness or tingling of the extremities&lt;/li&gt;
+	&lt;li&gt;Muscular weakness&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+	&lt;li&gt;Mood disorders&lt;/li&gt;
+	&lt;li&gt;Reduced sperm count, abnormal sperm&lt;/li&gt;
+	&lt;li&gt;Miscarriage or premature birth in pregnant women&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lead is a metal that occurs naturally in the earth&apos;s crust, but human activity &amp;mdash; mining, burning fossil fuels and manufacturing &amp;mdash; has caused it to become more widespread. Lead was also once a key ingredient in paint and gasoline and is still used in batteries, solder, pipes, pottery, roofing materials and some cosmetics. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lead in paint&lt;/strong&gt; &lt;br /&gt;
+The use of lead-based paints for homes, children&apos;s toys and household furniture has been banned in the United States since 1978. But lead-based paint is still on walls and woodwork in many older homes and apartments. Most lead poisoning in children results from eating lead-based paint chips. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Water pipes and imported canned goods&lt;/strong&gt; &lt;br /&gt;
+Lead pipes, brass plumbing fixtures and copper pipes soldered with lead can release lead particles into tap water. Although lead solder in food cans is banned in the United States, it&apos;s still used in some countries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Traditional remedies&lt;/strong&gt; &lt;br /&gt;
+Some cases of lead poisoning have been traced to the use of certain traditional medicines, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Greta or azarcon.&lt;/strong&gt; This fine orange powder &amp;mdash; also known as alarcon, coral, luiga, maria luisa or rueda &amp;mdash; is a Hispanic remedy taken for an upset stomach, constipation, diarrhea and vomiting. It&apos;s also used to soothe teething babies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Litargirio.&lt;/strong&gt; Also known as litharge, this peach-colored powder is used as a deodorant, especially in the Dominican Republic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ba-baw-san.&lt;/strong&gt; This Chinese herbal remedy is used to treat colic pain in babies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ghasard.&lt;/strong&gt; A brown powder, ghasard is used as a tonic in India.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Daw tway.&lt;/strong&gt; A digestive aid used in Thailand, daw tway contains high levels of lead and arsenic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other sources of lead exposure&lt;/strong&gt; &lt;br /&gt;
+Lead can also sometimes be found in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Soil.&lt;/strong&gt; Lead particles that settle on the soil from leaded gasoline or paint can last for years. Lead-contaminated soil is still a major problem around highways and in some urban settings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Household dust.&lt;/strong&gt; Household dust can contain lead from lead paint chips or from contaminated soil brought in from outside.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pottery.&lt;/strong&gt; Glazes found on some ceramics, china and porcelain can contain lead that may leach into food.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toys.&lt;/strong&gt; Lead is sometimes found in toys and other products produced abroad.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Traditional cosmetics.&lt;/strong&gt; Kohl is a traditional cosmetic, often used as eyeliner. Testing of various samples of kohl has revealed high levels of lead.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of lead poisoning include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Infants and young children are more likely to be exposed to lead than are older children. They may chew paint chips, and their hands may be contaminated with lead dust. Young children also absorb lead more easily and sustain more harm from it than do adults and older children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in an older home.&lt;/strong&gt; Although the use of lead-based paints has been banned since the 1970s, older homes and buildings often retain remnants of this paint. People renovating an older home are at even higher risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain hobbies.&lt;/strong&gt; Making stained glass requires the use of lead solder. Refinishing old furniture may put you in contact with layers of lead paint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Country of origin.&lt;/strong&gt; People who live in developing countries are at higher risk of lead poisoning because those countries usually have less strict rules regarding exposure to lead. American families who adopt a child from another country may want to have the child&apos;s blood tested for lead poisoning. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because lead can harm an unborn child, pregnant women or women likely to become pregnant should be especially careful to avoid exposure to lead. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exposure to even low levels of lead can cause damage over time, especially in children. The greatest risk is to brain development, where irreversible damage may occur. Higher levels can damage the kidneys and nervous system in both children and adults. Very high lead levels may cause seizures, unconsciousness and possibly death.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you or your child has been exposed to lead, see your doctor or contact your local public health department. A simple test can help determine blood lead levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms or changes in behavior have you noticed?&lt;/li&gt;
+	&lt;li&gt;Do you or your child have other medical problems?&lt;/li&gt;
+	&lt;li&gt;What medications or supplements do you or your child take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor may ask you some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you recently moved to a different home or a different school?&lt;/li&gt;
+	&lt;li&gt;When was your house built? Are you doing any renovations?&lt;/li&gt;
+	&lt;li&gt;Do you have a new job that might expose you to lead?&lt;/li&gt;
+	&lt;li&gt;Does your child have a sibling or playmate who has had lead poisoning?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The Centers for Disease Control and Prevention (CDC) recommends that states test children for lead poisoning at ages 1 and 2. The CDC also recommends testing for children ages 3 to 6 if they: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have never been tested before&lt;/li&gt;
+	&lt;li&gt;Receive public assistance, such as Medicaid&lt;/li&gt;
+	&lt;li&gt;Live in or frequently visit a home built before 1950 or a home built before 1978 that was recently remodeled&lt;/li&gt;
+	&lt;li&gt;Have a friend or sibling who has had lead poisoning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Doctors usually use a simple blood test to detect lead poisoning. A small blood sample is taken from a finger prick or from a vein. Lead levels in the blood are measured in micrograms per deciliter (mcg/dL). An unsafe level is 10 mcg/dL or higher. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first step in treating all degrees of lead poisoning is to remove the source of the contamination. If you can&apos;t remove lead from your environment, you may at least be able to reduce the likelihood that it will cause problems. For instance, sometimes it might be better to seal in, rather than remove, old lead paint. Your local health department can recommend ways to identify and reduce lead in your home and community. 
+&lt;/p&gt;
+&lt;p&gt;
+For children and adults with relatively low lead levels, simply avoiding exposure to lead may be enough to reduce blood lead levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating higher levels&lt;/strong&gt; &lt;br /&gt;
+For more-severe cases, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chelation therapy.&lt;/strong&gt; In this treatment, you take a medication that binds with the lead so that it&apos;s excreted in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;EDTA therapy.&lt;/strong&gt; Doctors treat lead levels greater than 45 mcg/dL of blood with a chemical called ethylenediaminetetraacetic acid (EDTA). Depending on your lead level, you may need more than one treatment. In such severe cases, however, it may not be possible to reverse damage that has already occurred.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take some simple measures to help protect you and your family from lead poisoning. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash hands.&lt;/strong&gt; To help reduce hand-to-mouth transfer of contaminated dust or soil, wash your children&apos;s hands after outdoor play, before eating and at bedtime.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean dusty surfaces.&lt;/strong&gt; Clean your floors with a wet mop and wipe furniture, windowsills and other dusty surfaces with a damp cloth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Run cold water.&lt;/strong&gt; If you have older plumbing containing lead pipes or fittings, run your cold water for at least a minute before using. Don&apos;t use hot tap water to make baby formula or for cooking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Home renovation&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re doing minor remodeling or touch-up work in an older house with lead-based paint, take precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t attempt to remove the lead paint by sanding.&lt;/strong&gt; Sanding surfaces painted with lead is hazardous because it generates large amounts of small particles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use an open-flame torch to remove paint.&lt;/strong&gt; The flame produces lead particles small enough to inhale.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover old paint.&lt;/strong&gt; Removing old lead paint may not always be possible. If the paint is on tight, without many chips, you can paint over it. You can also use paneling, drywall or encapsulation, which is similar to a very thick coat of paint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective equipment and clothing.&lt;/strong&gt; Change your clothes, take a shower and wash your hair before leaving the job. Don&apos;t shake out work clothes or wash them with other clothes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be careful where you eat.&lt;/strong&gt; Don&apos;t eat or drink in an area where lead dust may be present.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lead poisoning
+	</Title>
+	<Abstract>
+		Lead poisoning &amp;mdash; Comprehensive overview covers symptoms, treatment of lead exposure in children and adults.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01155" LinkType="Internal" ObjectID="2442968A-C08C-D462-08E0D9EE86E63733" Title="Lead exposure: Tips to protect your child" Url="http://www.mayoclinic.com/health/lead-exposure/MY01155" />
+	</RelatedLinksBox>
+</Disease>

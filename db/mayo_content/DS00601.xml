@@ -1,0 +1,408 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00601
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/soft-tissue-sarcoma/DS00601
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-13
+		</UpdateDate>
+		<PublicationDate>
+			2005-09-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="1955" Title="Soft tissue sarcoma" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C21BA77B-ADE0-429B-BD6B4ED16D203069
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				soft tissue cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				sarcoma
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				synovial carcinoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. Soft tissues connect, support and surround other body structures. The soft tissues include muscle, fat, blood vessels, nerves, tendons and the lining of your joints (synovial tissues). A large variety of soft tissue sarcomas can occur in these areas. 
+&lt;/p&gt;
+&lt;p&gt;
+Soft tissue sarcomas aren&apos;t common. But soft tissue sarcomas are very serious, especially if diagnosed when the disease is more advanced. 
+&lt;/p&gt;
+&lt;p&gt;
+Although there are various types of soft tissue sarcoma, they generally share similar characteristics, produce similar symptoms and are treated in similar ways. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of soft tissue sarcoma 
+" Caption="Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. This illustration shows a soft tissue sarcoma of the thigh muscle just above the knee. 
+" Height="60" Title="Soft tissue sarcoma" URI="/images/image_popup/thumbs/mcdc7_soft_tissue_sarcomathu.jpg" Width="60" />
+				<Image Alt="Illustration of soft tissue sarcoma 
+" Caption="Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. This illustration shows a soft tissue sarcoma of the thigh muscle just above the knee. 
+" Height="445" Title="Soft tissue sarcoma" URI="/images/image_popup/mcdc7_soft_tissue_sarcoma.jpg" Width="400" />
+				<HTML>
+					Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. This illustration shows a soft tissue sarcoma of the thigh muscle just above the knee. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A soft tissue sarcoma usually produces no signs and symptoms in its early stages. As the tumor grows, it may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A noticeable lump or swelling&lt;/li&gt;
+	&lt;li&gt;Pain, if it presses on nerves or muscles&lt;/li&gt;
+	&lt;li&gt;A blockage in the stomach or intestines or gastrointestinal bleeding if the tumor is located in the abdomen or digestive tract&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Soft tissue sarcomas can occur anywhere in your body, but the most common types of soft tissue sarcomas are gastrointestinal stromal tumors and soft tissue sarcomas that affect the extremities. About 60 percent of soft tissue sarcomas occur in the arms, legs, buttocks, hands or feet. Another 20 percent occur in the chest and abdomen. About 10 percent are found in the head and neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Soft tissue sarcomas go by a variety of names, depending on the tissue in which they originate. Examples of some sarcomas and their locations include: 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td width=&quot;50%&quot;&gt;&lt;strong&gt;Rhabdomyosarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td width=&quot;50%&quot;&gt;More common in children, this sarcoma occurs in the skeletal muscles.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Leiomyosarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Occurs in the smooth muscles &amp;mdash; muscles not under voluntary control. Found most commonly in the uterus, gastrointestinal tract or lining of blood vessels.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Hemangiosarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Affects blood vessels, especially in areas that have previously received radiation treatment.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Kaposi&apos;s sarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;A malignancy that occurs in blood vessel walls. Often affects people with immune deficiencies, such as HIV/AIDS.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Lymphangiosarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Affects the lymph vessels and is sometimes seen in a limb with chronic swelling (lymphedema). This can be from an area of prior radiation therapy or certain rare chronic infections.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Synovial sarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Tissue around joints such as knees and ankles are affected. Typically occurs in children and young adults.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Neurofibrosarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Occurs in the peripheral nerves. &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Liposarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Fatty tissue, often in your legs and trunk, is affected.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Fibrosarcoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Fibrous tissue in your arms, legs or trunk may be affected.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Malignant fibrous histiocytoma&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;A fibrous tissue tumor more likely to occur in the legs.&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrowdg&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Dermatofibrosarcoma&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;p&gt;
+			Grows in the tissue beneath your skin, and often develops in your trunk or limbs. 
+			&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Talk to your doctor if you discover a lump that persists or grows in size. In addition, see your doctor right away if the lump is painful. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of soft tissue sarcoma 
+" Caption="Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. This illustration shows a soft tissue sarcoma of the thigh muscle just above the knee. 
+" Height="60" Title="Soft tissue sarcoma" URI="/images/image_popup/thumbs/mcdc7_soft_tissue_sarcomathu.jpg" Width="60" />
+				<Image Alt="Illustration of soft tissue sarcoma 
+" Caption="Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. This illustration shows a soft tissue sarcoma of the thigh muscle just above the knee. 
+" Height="445" Title="Soft tissue sarcoma" URI="/images/image_popup/mcdc7_soft_tissue_sarcoma.jpg" Width="400" />
+				<HTML>
+					Soft tissue sarcomas are cancerous (malignant) tumors that originate in the soft tissues of your body. This illustration shows a soft tissue sarcoma of the thigh muscle just above the knee. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, the cause of most soft tissue sarcomas is unknown. One of the few soft tissue sarcomas that has a known cause is Kaposi&apos;s sarcoma. It occurs in people with defective immune systems and is caused by a virus known as human herpes virus 8 (HHV-8). 
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, in some cases, sarcomas may be hereditary, such as in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Basal cell nevus syndrome.&lt;/strong&gt; In addition to an increased risk of basal cell skin cancer, people with this disorder are more likely to develop rhabdomyosarcoma or fibrosarcoma. It&apos;s caused by a genetic defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited retinoblastoma.&lt;/strong&gt; This rare form of childhood eye cancer may increase a child&apos;s risk of soft tissue sarcoma and is due to inheritance of a mutated retinoblastoma gene.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Li-Fraumeni syndrome.&lt;/strong&gt; This condition is characterized by an increased risk of many malignancies, including sarcomas, breast cancer, brain cancer and others. People with this syndrome appear to be particularly susceptible to the side effects of radiation therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gardner&apos;s syndrome.&lt;/strong&gt; This hereditary disease leads to precancerous and cancerous growths in the intestines and abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurofibromatosis.&lt;/strong&gt; This condition results in developmental changes in the nervous system, causing nerve sheath tumors. About 1 in 20 people with neurofibromatosis develops malignant tumors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tuberous sclerosis.&lt;/strong&gt; Benign tumors, seizures and learning problems are common with this disease, as is an increased risk of rhabdomyosarcoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Werner&apos;s syndrome.&lt;/strong&gt; A defect in the gene RECQL2 causes numerous health problems, including an increased risk of soft tissue sarcomas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation exposure&lt;/strong&gt; &lt;br /&gt;
+Radiation is occasionally associated with sarcomas. These have usually occurred as a side effect of radiation therapy given for other cancers, such as breast cancer or lymphoma. Such serious side effects may become less common as radiation therapy offers more refined dosing strategies and more precise tumor targeting. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemical exposure&lt;/strong&gt; &lt;br /&gt;
+Another factor that may increase your risk of soft tissue sarcoma is exposure to high doses of chemicals such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vinyl chloride,&lt;/strong&gt; used in making plastics&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dioxin,&lt;/strong&gt; an unwanted byproduct of incineration&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbicides&lt;/strong&gt; that contain the chemical phenoxyacetic acid&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t many known risk factors for soft tissue sarcomas. But your risk may be increased due to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Soft tissue sarcomas can occur at any age, but overall are more common in older adults. The average age at diagnosis is 57 years. Certain types of sarcomas are more common in children, however.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical exposure.&lt;/strong&gt; Being exposed to certain chemicals, such as vinyl chloride and dioxin, can increase the risk of soft tissue sarcomas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation exposure.&lt;/strong&gt; Previous radiation treatment for other cancers can increase the risk of soft tissue sarcomas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With soft tissue sarcomas, tumors can grow large, press on normal tissue, and cause soreness or pain. If the sarcoma spreads to other organs, complications include dysfunction of the affected organ, such as shortness of breath if it spreads to your lungs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your family doctor suspects you have soft tissue sarcoma, you&apos;ll likely be referred to a cancer doctor (oncologist) who specializes in sarcomas. Soft tissue sarcoma is fairly rare and is best treated by someone who has experience with it, often at an academic or specialized cancer center. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For a soft tissue sarcoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have cancer?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need to confirm the diagnosis? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What type of sarcoma do I have?&lt;/li&gt;
+	&lt;li&gt;What stage is it?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Can the cancer be removed?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Should I get additional treatments such as chemotherapy or radiation therapy either before or after an operation?&lt;/li&gt;
+	&lt;li&gt;Is the surgeon you&apos;re recommending experienced in this specific type of cancer operation?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may make time to cover other points you want to discuss. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing pain?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of cancer? If so, do you know what type of cancer?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To make the diagnosis, your doctor will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about your medical history,&lt;/strong&gt; and your family&apos;s medical history.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perform a complete physical exam.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Order an imaging test.&lt;/strong&gt; Imaging tests, such as X-rays, computerized tomography (CT) scans, ultrasound, magnetic resonance imaging (MRI) and positron emission tomography (PET), also may be done to enable your doctor to see and evaluate the area of concern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove a sample of tissue (biopsy).&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Techniques for biopsy of a suspected soft tissue sarcoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Needle biopsy.&lt;/strong&gt; Your doctor uses a thin needle to remove small pieces of tissue from the tumor. There are two types of needle biopsy &amp;mdash; fine-needle aspiration and core biopsy. A core biopsy involves using a slightly larger needle to remove a small, solid core of tissue, and it&apos;s the preferred method of biopsy for soft tissue sarcomas. If a soft tissue sarcoma is suspected, it&apos;s important to have a doctor who is familiar with the treatment of these cancers perform the biopsy. A biopsy needs to be carefully planned, as it can alter the surgical management of a soft tissue sarcoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical biopsy.&lt;/strong&gt; Your doctor makes an incision through your skin and removes either the entire tumor (excisional biopsy) or a portion of the tumor (incisional biopsy). In some cases you may need only local anesthesia. For a larger or deep-seated tumor, you&apos;ll likely require general anesthesia during the procedure. This type of biopsy is much less likely to be used because it has a higher rate of complications. Because surgical biopsies aren&apos;t done as frequently, it&apos;s important that a doctor experienced in the treatment of sarcomas perform this type of biopsy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Grading and staging&lt;/strong&gt; &lt;br /&gt;
+Besides determining whether it is malignant, examining tissue can determine how aggressive the cancer is (its grade). Further testing, such as with imaging scans and blood tests, can help determine if the cancer has spread and, if so, how far (its stage). 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; These tumors are generally small, but what&apos;s important is that the tumor cells appear normal. Additionally, the sarcoma hasn&apos;t spread to the lymph nodes or to distant sites.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; In more advanced soft tissue sarcomas, the cells begin to look more abnormal. At this stage, however, it still hasn&apos;t spread to the lymph nodes or other areas of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Not only do the cells look even more abnormal, but malignant cells are found in one or more lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; At this stage, the cells look severely abnormal, and the cancer can be found in the lymph nodes and in other parts of the body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with other cancers, treatment for sarcomas depends on the size, type, location and stage of the sarcoma, including whether it has spread to the lymph nodes or other parts of your body, and your overall health. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery is the most common treatment for soft tissue sarcomas, especially if malignant cells haven&apos;t spread to other parts of the body. Surgery generally involves removing the cancer and some healthy tissue surrounding it. If the sarcoma has spread, surgical removal of the primary and secondary tumors may be possible. 
+&lt;/p&gt;
+&lt;p&gt;
+Previously, amputation was a common treatment for soft tissue sarcomas in an arm or leg. Today, advances in surgical techniques and the combination of chemotherapy and radiation before surgery (neoadjuvant chemoradiotherapy) or after surgery (adjuvant chemoradiotherapy) make limb-sparing surgery possible in most cases. However, amputation may be necessary to remove all of the malignant cells from soft tissue sarcoma in an arm or leg that has invaded nerves, arteries or muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy &amp;mdash; also called radiotherapy or X-ray therapy &amp;mdash; involves treating cancer with beams of high-energy particles, such as gamma rays or X-rays. Although radiation can affect healthy cells as well as cancer cells, it&apos;s much more harmful to cancer cells. In addition, normal cells can recover from the effects of radiation more easily than cancer cells can. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy may be recommended to treat your soft tissue sarcoma. Your doctor may suggest using radiation therapy before or after surgery to stop the growth of any remaining cancer cells. You may also receive chemotherapy at the same time as radiation in an effort to make the radiation more effective. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects from radiation treatment depend on the area that&apos;s being treated, but may include fatigue, skin problems, headache, swelling, weakness, nausea, vomiting and slower healing after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses medications to kill rapidly dividing cells. These cells include cancer cells, which continuously divide to form more cells, and healthy cells that divide quickly, such as those in your bone marrow, gastrointestinal tract, reproductive system and hair follicles. Unlike radiation therapy, which treats only the part of your body exposed to the radiation, chemotherapy treats your body as a whole (systemically). As a result, it treats cells that may have spread beyond where the cancer originated. 
+&lt;/p&gt;
+&lt;p&gt;
+The role of chemotherapy in the treatment of soft tissue sarcoma isn&apos;t clear, because not all studies have had positive results. However, chemotherapy has been found effective in treating rhabdomyosarcomas. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to chemotherapy, some drugs inhibit certain enzymes that are critical to the development and growth of a tumor. One of these drugs, imatinib (Gleevec), is used to treat a type of sarcoma called gastrointestinal stromal tumor. Other types of cancer-fighting drugs and new combinations of treatments are being studied in clinical trials. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible side effects from chemotherapy include nausea, vomiting, hair loss, mouth sores, fatigue, increased risk of infection, weakness and increased bleeding. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of cancer, whether yours or your child&apos;s, presents numerous challenges. Remember that no matter what your concerns or the prognosis, there are resources and strategies that can make dealing with cancer easier. Here are some suggestions for coping: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Learn about the cancer.&lt;/strong&gt; Find out details of your or your child&apos;s cancer. The more you know, the more you can participate in treatment decisions. In addition to talking with your doctor, look for information in your local library and from reliable Internet sources.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The National Cancer Institute answers questions from the public over the phone at 800-4-CANCER (800-422-6237). Or contact the American Cancer Society at 800-ACS-2345 (800-227-2345). 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be proactive.&lt;/strong&gt; Although you may feel tired and discouraged, don&apos;t let others &amp;mdash; including your family and your doctor &amp;mdash; make important decisions for you. It&apos;s important that you take an active role in your or your child&apos;s treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Having a support system and a positive attitude can help you cope with the challenges cancer brings. Although friends and family can be your best allies, they sometimes may have trouble dealing with your illness. If so, the concern and understanding of a formal support group or of others coping with their own cancer or that of their child can be especially helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help manage the stress and fatigue of cancer. Also, plan ahead for the times when you may need to rest more or limit what you do. If your child has cancer, one of the most important things you can do is take care of yourself. As a caregiver, you need to have the strength and emotional reserves to meet your child&apos;s needs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Having cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. It&apos;s important to stay involved as much as you can. If your child has cancer, try to keep his or her life as normal as possible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Soft tissue sarcoma
+	</Title>
+	<Abstract>
+		Soft tissue sarcomas &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of these uncommon cancers.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01185" LinkType="Internal" ObjectID="170853E6-E80F-052F-F7A72E59744B46CF" Title="Neurofibromatosis" Url="http://www.mayoclinic.com/health/neurofibromatosis/DS01185" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,204 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00074
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ankle-brachial-index/MY00074
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-16
+		</UpdateDate>
+		<PublicationDate>
+			2008-06-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3998" Title="Ankle-brachial index" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A66FF3E4-E7FF-0DBD-121494A9D0674EB7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ankle brachial index
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				peripheral arterial disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The ankle-brachial index test is a quick, noninvasive way to check your risk of peripheral artery disease (PAD). Peripheral artery disease is a condition in which the arteries in your legs or arms are narrowed or blocked. People with peripheral artery disease are at a high risk of heart attack, stroke, poor circulation and leg pain. 
+&lt;/p&gt;
+&lt;p&gt;
+The ankle-brachial index test compares your blood pressure measured at your ankle with your blood pressure measured at your arm. A low ankle-brachial index number can indicate narrowing or blockage of the arteries in your legs, leading to circulatory problems, heart disease or stroke. The ankle-brachial index test is sometimes recommended as part of a series of three tests, including the carotid ultrasound and abdominal ultrasound, to check for blocked or narrowed arteries. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing an ankle-brachial index test 
+" Caption="To find out your ankle-brachial index, a technician measures your blood pressures in your arm and your ankle. The ankle-brachial index can help your doctor check for peripheral artery disease (PAD). 
+" Height="60" Title="Ankle-brachial index" URI="/images/image_popup/thumbs/mcdc7_anklebrachialindexthu.jpg" Width="60" />
+				<Image Alt="Illustration showing an ankle-brachial index test 
+" Caption="To find out your ankle-brachial index, a technician measures your blood pressures in your arm and your ankle. The ankle-brachial index can help your doctor check for peripheral artery disease (PAD). 
+" Height="421" Title="Ankle-brachial index" URI="/images/image_popup/mcdc7_anklebrachialindex.jpg" Width="400" />
+				<HTML>
+					To find out your ankle-brachial index, a technician measures your blood pressures in your arm and your ankle. The ankle-brachial index can help your doctor check for peripheral artery disease (PAD). ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The ankle-brachial index test is done to check for peripheral artery disease (PAD), a condition in which the arteries in your legs or arms are narrowed. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor if you should have this test if you are age 50 or older and have any of these risk factors for PAD: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being a current or former smoker&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Overweight (a body mass index of 25 or greater)&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High cholesterol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve already been diagnosed with PAD, your doctor may recommend having an ankle-brachial index test to see if your treatment is working or if your condition has worsened. If you have symptoms of PAD, your doctor may suggest you have an exercise ankle-brachial index test to determine if your symptoms are due to PAD or other conditions, such as spinal stenosis. In an exercise ankle-brachial index test, you walk on a treadmill for a short time before your ankle-brachial index is measured. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, there are no physical risks involved in an ankle-brachial index test. You may feel some discomfort when the blood pressure cuffs inflate on your arm and ankle, but this discomfort is temporary and should stop when the air is released from the cuff. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe leg or arm pain, your doctor may not recommend an ankle-brachial index test. Instead of an ankle-brachial index test, your doctor may recommend a different imaging test of the arteries in your legs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, you won&apos;t need to follow any special instructions before your appointment to have an ankle-brachial index test performed. You may want to wear loose, comfortable clothing that allows the technician performing your ankle-brachial index test to easily place a blood pressure cuff on your ankle and upper arm. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the test&lt;/strong&gt;&lt;br /&gt;
+You lie on a table on your back, and a technician measures your blood pressure in both your arms using an inflatable cuff. Then, the technician measures the blood pressure in two arteries in your left ankle using the inflatable cuff and a hand-held Doppler ultrasound device that your doctor will press on your skin. The Doppler device uses sound waves to produce images and lets your doctor hear your pulse in your ankle arteries after the cuff is deflated. 
+&lt;/p&gt;
+&lt;p&gt;
+The procedure for performing an ankle-brachial index test may vary slightly, based on your doctor&apos;s preference. 
+&lt;/p&gt;
+&lt;p&gt;
+Having an ankle-brachial index test is painless and similar to getting your blood pressure taken in a routine visit to your doctor. You may feel some pressure on your arm or ankle when the cuff inflates to read your blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;/strong&gt;&lt;br /&gt;
+The ankle-brachial index test should take only a few minutes, and there are no special precautions you&apos;ll need to take following the test. Your doctor will discuss your test result with you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing an ankle-brachial index test 
+" Caption="To find out your ankle-brachial index, a technician measures your blood pressures in your arm and your ankle. The ankle-brachial index can help your doctor check for peripheral artery disease (PAD). 
+" Height="60" Title="Ankle-brachial index" URI="/images/image_popup/thumbs/mcdc7_anklebrachialindexthu.jpg" Width="60" />
+				<Image Alt="Illustration showing an ankle-brachial index test 
+" Caption="To find out your ankle-brachial index, a technician measures your blood pressures in your arm and your ankle. The ankle-brachial index can help your doctor check for peripheral artery disease (PAD). 
+" Height="421" Title="Ankle-brachial index" URI="/images/image_popup/mcdc7_anklebrachialindex.jpg" Width="400" />
+				<HTML>
+					To find out your ankle-brachial index, a technician measures your blood pressures in your arm and your ankle. The ankle-brachial index can help your doctor check for peripheral artery disease (PAD). ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When the ankle-brachial index test is complete, your doctor calculates your ankle-brachial index by dividing the higher of the two blood pressure measurements at your arms by the higher of the two blood pressure measurements at the arteries near your ankle. Based on the number your doctor calculates, your ankle-brachial index may show you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;No blockage (1.0 to 1.4).&lt;/strong&gt; An ankle-brachial index number in this range suggests that you probably don&apos;t have peripheral artery disease. But if you have certain risk factors, such as diabetes, smoking or a family history of PAD, tell your doctor so that he or she can continue to monitor your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Borderline (0.9 to 0.99).&lt;/strong&gt; If your ankle-brachial index number is less than 1.0, you may have some narrowing of the arteries in your leg. People with an ankle-brachial index of 0.9 or lower may have the beginnings of PAD. Your doctor may then monitor your condition more closely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mild blockage (0.8 to 0.89).&lt;/strong&gt; An ankle-brachial index in this range shows you&apos;re in the early stages of PAD. Your doctor may suggest medications or lifestyle changes to treat your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moderate blockage (0.5 to 0.79).&lt;/strong&gt; An ankle-brachial index number in this range shows that you have more significant blockage of your ankle and leg arteries. You may have noticed some pain in your legs or buttocks when you exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe blockage (less than 0.5).&lt;/strong&gt; If your ankle-brachial index number is in this range, your leg arteries are significantly blocked and you may have pain in your legs even while resting. An ankle-brachial index of less than 0.4 suggests severe PAD.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rigid arteries (more than 1.4)&lt;/strong&gt;. If your ankle-brachial index number is higher than 1.4, this may mean that your arteries are rigid and don&apos;t compress when the blood pressure cuff is inflated. You may need an ultrasound test to check for peripheral artery disease instead of an ankle-brachial index test, or a toe-brachial index test, in which the blood pressures in your arm and big toe are compared.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The above numbers are based on guidelines Mayo Clinic uses. The guidelines suggested by the American Heart Association and the American College of Cardiology differ slightly. They suggest a normal ankle-brachial index ranges from 1.0 to 1.4, a borderline index ranges from 0.91 to 0.99, and an abnormal index is 0.9 or lower. If you have an exercise ankle-brachial index test, the ranges for results differ. Talk to your doctor about what your results mean. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the severity of your blockage, your doctor may recommend lifestyle changes, medications or surgery to treat PAD. Talk to your doctor about your options. You may also need additional imaging tests to see what treatment is best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+The test may not adequately measure the ankle-brachial index if you have severe diabetes or calcified arteries with significant blockage. Instead, your doctor may need to read your blood pressure at your big toe (toe-brachial index) to get an accurate test result if you have either of these conditions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ankle-brachial index
+	</Title>
+	<Abstract>
+		Ankle-brachial index &amp;mdash; Overview covers definition, results of this test for peripheral artery disease.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

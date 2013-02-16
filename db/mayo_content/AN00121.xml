@@ -1,0 +1,110 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00121
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cardiac-asthma/AN00121
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-24
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1476" Title="Heart failure" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			13EAAE18-E7DE-4D7B-BF302B6CA56E8A0F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cardiac asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				congestive heart failure
+			</MetaKeyword>
+			<MetaKeyword>
+				wheezing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Cardiac asthma is not a form of asthma. It&apos;s a type of coughing or wheezing that&apos;s a symptom of heart failure. Depending on how severe your symptoms are, this wheezing can be a medical emergency.
+&lt;/p&gt;
+&lt;p&gt;
+As a result of heart failure, fluid can build up in the lungs (pulmonary edema) and in and around your airways. This causes signs and symptoms &amp;mdash; such as shortness of breath, coughing and wheezing &amp;mdash; that may mimic asthma. Asthma is a chronic condition caused by inflammation of the airways, which can narrow them, leading to breathing difficulties. True asthma has nothing to do with fluid in the lungs or heart disease.
+&lt;/p&gt;
+&lt;p&gt;
+The distinction is important because treatments for asthma and heart failure are different. Treatments for heart failure, including medications, can help improve your symptoms for both the heart failure and the cardiac asthma. Overusing treatments for true asthma, such as rescue inhalers, may actually worsen cardiac asthma and could cause dangerous heart rhythms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cardiac asthma: What causes it?
+	</Title>
+	<Abstract>
+		Cardiac asthma refers to wheezing that&apos;s a sign of heart failure.
+	</Abstract>
+	<Question>
+		What is cardiac asthma?
+	</Question>
+	<QuestionFirstName>
+		Pamela
+	</QuestionFirstName>
+	<QuestionState>
+		Michigan
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00412" LinkType="Internal" ObjectID="84ACE1DA-C6AC-4399-B2A74420ECDB231A" Title="Pulmonary edema" Url="http://www.mayoclinic.com/health/pulmonary-edema/DS00412" />
+		<LinkItem ContentType="Video" DocID="MM00636" LinkType="Internal" ObjectID="DC99F092-6EAA-4CDC-88A1F80D923861AE" Title="Video: Heart and circulatory system &amp;mdash; How they work" Url="http://www.mayoclinic.com/health/circulatory-system/MM00636" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="InteractiveTable" DocID="HB00016" LinkType="Internal" ObjectID="7D6215FC-A022-4368-BB6D82CEBD73C3E0" Title="Blood tests for heart disease" Url="http://www.mayoclinic.com/health/heart-disease/HB00016" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00373" LinkType="Internal" ObjectID="6398C697-E7FF-0DBD-132E3127078F78BF" Title="Blood urea nitrogen (BUN) test" Url="http://www.mayoclinic.com/health/blood-urea-nitrogen/MY00373" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01077" LinkType="Internal" ObjectID="4A804FBC-A707-ED3A-B6B6239DC746B325" Title="Ventricular assist devices (VADs)" Url="http://www.mayoclinic.com/health/lvad/MY01077" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00361" LinkType="Internal" ObjectID="3FDA96F4-E7FF-0DBD-16E85B989BB8D9C5" Title="Heart transplant" Url="http://www.mayoclinic.com/health/heart-transplant/MY00361" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+	</RelatedLinksBox>
+</Answer>

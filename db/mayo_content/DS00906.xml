@@ -1,0 +1,370 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00906
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hpv-infection/DS00906
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-20
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="3220" Title="HPV" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A4BCC67-E7FF-0DBD-196157F2ED136B8A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				HPV infection
+			</MetaKeyword>
+			<MetaKeyword>
+				human papillomavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				HPV
+			</MetaKeyword>
+			<MetaKeyword>
+				warts
+			</MetaKeyword>
+			<MetaKeyword>
+				common warts
+			</MetaKeyword>
+			<MetaKeyword>
+				plantar warts
+			</MetaKeyword>
+			<MetaKeyword>
+				flat warts
+			</MetaKeyword>
+			<MetaKeyword>
+				genital warts
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer of the cervix
+			</MetaKeyword>
+			<MetaKeyword>
+				Pap smear
+			</MetaKeyword>
+			<MetaKeyword>
+				sexually transmitted disease
+			</MetaKeyword>
+			<MetaKeyword>
+				HPV vaccine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HPV infection causes warts. There are more than 100 varieties of human papillomavirus (HPV). Different types of HPV infection can cause warts on different parts of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+For example, some types of HPV infection cause plantar warts on the feet, while other varieties of HPV infection are responsible for the warts that most commonly occur on a person&apos;s hands or face. 
+&lt;/p&gt;
+&lt;p&gt;
+There are more than 40 different strains of HPV that specifically affect the genital area. Most HPV infections don&apos;t lead to cancer, but some types of genital HPV can cause cancer of the cervix &amp;mdash; the passage between the vagina and the uterus. 
+&lt;/p&gt;
+&lt;p&gt;
+Vaccines can help protect against the strains of genital HPV most likely to cause genital warts or cervical cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, your body&apos;s immune system defeats an HPV infection before it has a chance to create any warts. When warts do appear, they may vary in appearance depending on which variety of HPV is involved: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genital warts.&lt;/strong&gt; Genital warts may appear as flat lesions, small cauliflower-like bumps or tiny stem-like protrusions. In women, genital warts appear most commonly on the vulva but may also occur near the anus, on the cervix or in the vagina. In men, genital warts may appear on the penis and scrotum or around the anus. Genital warts rarely cause discomfort or pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Common warts.&lt;/strong&gt; Common warts appear as rough, raised bumps that usually occur on the hands, fingers or around fingernails. In most cases, common warts are simply a nuisance because of their appearance, but they may also be painful or susceptible to injury or bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plantar warts.&lt;/strong&gt; Plantar warts are hard, grainy growths that usually appear on the heel or ball of your feet, areas that feel the most pressure. These warts may cause discomfort or pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flat warts.&lt;/strong&gt; Flat warts are flat-topped, slightly raised lesions darker than your regular skin color. They usually appear on your face, neck, hands, wrists, elbows or knees. HPV infections that cause flat warts usually affect children, adolescents and young adults.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cervical cancer&lt;/strong&gt; &lt;br /&gt;
+Most cases of cervical cancer are caused by two specific varieties of genital HPV. These two HPV strains usually don&apos;t cause warts, so women often don&apos;t realize they&apos;ve been infected. Early stages of cervical cancer typically cause no signs or symptoms. That&apos;s why it&apos;s important for women to have regular Pap tests, which can detect precancerous changes in the cervix that may lead to cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you or your child has warts of any kind that cause embarrassment, discomfort or pain, seek advice from your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing common warts on hand 
+" Caption="Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+" Height="60" Title="Common warts" URI="/images/image_popup/thumbs/mcdc7_common_wartsthu.jpg" Width="60" />
+				<Image Alt="Photo showing common warts on hand 
+" Caption="Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+" Height="432" Title="Common warts" URI="/images/image_popup/mcdc7_common_warts.jpg" Width="400" />
+				<HTML>
+					Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of plantar warts on bottom of foot 
+" Caption="Plantar warts are caused by the same type of virus that causes warts on your hands and fingers. But, because of their location, they can be painful.
+" Height="60" Title="Plantar warts" URI="/images/image_popup/thumbs/r7_plantar_wartsthu.jpg" Width="60" />
+				<Image Alt="Photograph of plantar warts on bottom of foot 
+" Caption="Plantar warts are caused by the same type of virus that causes warts on your hands and fingers. But, because of their location, they can be painful.
+" Height="267" Title="Plantar warts" URI="/images/image_popup/r7_plantar_warts.jpg" Width="400" />
+				<HTML>
+					Plantar warts are caused by the same type of virus that causes warts on your hands and fingers. But, because of their location, they can be painful.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of flat warts on face 
+" Caption="Flat warts are smaller and smoother than other warts. They generally occur on the face or legs and are more common in children and teens than in adults. 
+" Height="60" Title="Flat warts" URI="/images/image_popup/thumbs/r7_flat_wartsthu.jpg" Width="60" />
+				<Image Alt="Photograph of flat warts on face 
+" Caption="Flat warts are smaller and smoother than other warts. They generally occur on the face or legs and are more common in children and teens than in adults. 
+" Height="267" Title="Flat warts" URI="/images/image_popup/r7_flat_warts.jpg" Width="400" />
+				<HTML>
+					Flat warts are smaller and smoother than other warts. They generally occur on the face or legs and are more common in children and teens than in adults. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of genital warts in a woman 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. In women, genital warts can also grow inside the vagina. 
+" Height="60" Title="Female genital warts" URI="/images/image_popup/thumbs/r7_female_genital_wartsthu.jpg" Width="60" />
+				<Image Alt="Photograph of genital warts in a woman 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. In women, genital warts can also grow inside the vagina. 
+" Height="530" Title="Female genital warts" URI="/images/image_popup/r7_female_genital_warts.jpg" Width="400" />
+				<HTML>
+					Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. In women, genital warts can also grow inside the vagina. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of genital warts in a man 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. 
+" Height="60" Title="Male genital warts" URI="/images/image_popup/thumbs/r7_male_genital_wartsthu.jpg" Width="60" />
+				<Image Alt="Photograph of genital warts in a man 
+" Caption="Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. 
+" Height="280" Title="Male genital warts" URI="/images/image_popup/r7_male_genital_warts.jpg" Width="400" />
+				<HTML>
+					Genital warts are a common sexually transmitted infection. They can appear on the genitals, in the pubic area or in the anal canal. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HPV infection occurs when the virus enters your body through a cut, abrasion or small tear in the outer layer of your skin. The virus is transferred primarily by skin-to-skin contact. 
+&lt;/p&gt;
+&lt;p&gt;
+Genital HPV infections are contracted through sexual intercourse, anal sex and other skin-to-skin contact in the genital region. Some HPV infections that result in oral or upper respiratory lesions are contracted through oral sex. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely a mother with an HPV infection may transmit the virus to her infant during delivery. This exposure may cause HPV infection in the baby&apos;s genitals or upper respiratory system. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+HPV infections are common. Risk factors for HPV infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Number of sexual partners.&lt;/strong&gt; The greater your number of sexual partners, the more likely you are to contract a genital HPV infection. Having sex with a partner who has had multiple sex partners also increases your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Common warts occur most often in children and adolescents. While plantar warts may occur in adults, they&apos;re more likely to initially surface in childhood. Genital warts occur most often in adolescents and young adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune systems.&lt;/strong&gt; People who have weakened immune systems are at greater risk of HPV infections. Immune systems can be weakened by HIV/AIDS or by immune system-suppressing drugs used after organ transplants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damaged skin.&lt;/strong&gt; Areas of skin that have been punctured or opened are more prone to develop common warts. For example, people who bite their fingernails are more likely to develop warts around their fingernails.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral and upper respiratory lesions.&lt;/strong&gt; Some HPV infections may cause lesions to form on your tongue, tonsils, soft palate, or within your larynx and nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Most cases of cervical cancer are caused by two specific varieties of HPV. These two strains may also contribute to cancers of the genitals, anus, mouth and upper respiratory tract. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you have an HPV infection, you&apos;ll probably first see your family doctor. Depending on where your warts are located, you may be referred to a doctor who specializes in disorders of the skin (dermatologist), feet (podiatrist) or reproductive organs (gynecologist or urologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you may want to write a list of questions to ask your doctor, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;How can I prevent HPV infection in the future?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Under what circumstances should I plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Where have you noted lesions?&lt;/li&gt;
+	&lt;li&gt;Are the lesions painful?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may be able to diagnose genital HPV infection after visual inspection of any warts or lesions. If warts aren&apos;t visible, you may need one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vinegar solution test.&lt;/strong&gt; Your doctor may apply a vinegar solution that turns HPV-infected genital areas white. This may help in identifying difficult-to-see flat lesions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pap test.&lt;/strong&gt; Your doctor collects a sample of cells from your cervix or vagina to send for laboratory analysis. Pap tests can reveal abnormalities that may lead to cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;DNA test.&lt;/strong&gt; This test can recognize the DNA of the high-risk varieties of HPV that have been linked to genital cancers. The test is conducted on a sample of cells taken from your cervix.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Warts often go away without treatment. But even if your warts have disappeared or have been removed, you can still harbor HPV and may transmit the virus to others. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Medications to eliminate warts are typically applied directly to the lesion and usually take many applications before they are successful. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Salicylic acid.&lt;/strong&gt; Over-the-counter treatments that contain salicylic acid work by removing layers of a wart a little bit at a time. Don&apos;t use these products for genital warts, as they will cause severe irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imiquimod (Aldara, Zyclara).&lt;/strong&gt; This prescription cream may enhance your immune system&apos;s ability to fight HPV.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Podofilox (Condylox).&lt;/strong&gt; Another type of prescription cream, podofilox works by destroying genital wart tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trichloroacetic acid.&lt;/strong&gt; This chemical treatment burns off genital warts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt; &lt;br /&gt;
+If medications don&apos;t work, your doctor may suggest one of the following procedures, which physically remove warts by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Freezing with liquid nitrogen (cryotherapy)&lt;/li&gt;
+	&lt;li&gt;Electrocautery, which uses an electrical current to burn off warts or lesions&lt;/li&gt;
+	&lt;li&gt;Surgical removal&lt;/li&gt;
+	&lt;li&gt;Laser surgery&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Common warts&lt;/strong&gt; &lt;br /&gt;
+It&apos;s difficult to prevent HPV infections that cause common warts. If you have a common wart, you can prevent the spread of the infection and formation of new warts by not picking at a wart and not biting your nails. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Plantar warts&lt;/strong&gt; &lt;br /&gt;
+You may reduce the risk of contracting HPV infections that cause plantar warts by keeping your feet clean and dry, wearing clean socks, and wearing shoes or sandals in public pools and locker rooms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Genital warts&lt;/strong&gt; &lt;br /&gt;
+You can reduce your risk of developing genital warts and other HPV-related genital lesions by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being in a mutually monogamous sexual relationship&lt;/li&gt;
+	&lt;li&gt;Reducing your number of sex partners&lt;/li&gt;
+	&lt;li&gt;Using a latex condom, which may prevent some but not all HPV transmission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;HPV vaccines&lt;/strong&gt; &lt;br /&gt;
+A vaccine known as Gardasil protects against the strains of HPV that cause most genital warts. Gardasil also protects against the HPV strains most likely to cause cervical cancer. Another vaccine, called Cervarix, protects against cervical cancer but not genital warts. 
+&lt;/p&gt;
+&lt;p&gt;
+The national Advisory Committee on Immunization Practices recommends routine HPV vaccination for girls and boys ages 11 and 12. If not fully vaccinated at ages 11 and 12, they recommend that girls and women through age 26 and boys and men through age 21 receive the vaccine. However, men may receive the HPV vaccine through age 26 if desired. These vaccines are most effective if given to children before they become sexually active. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		HPV infection
+	</Title>
+	<Abstract>
+		HPV infection &amp;mdash; Comprehensive overview covers symptoms, modes of transmission, treatment, prevention, including HPV vaccine.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01110" LinkType="Internal" ObjectID="93072ECE-B9C8-8ECC-D1B88893A75B44F0" Title="HPV test" Url="http://www.mayoclinic.com/health/hpv-test/MY01110" />
+		<LinkItem ContentType="Answer" DocID="AN01657" LinkType="Internal" ObjectID="8C41716B-E7FF-0DBD-15C0EA8BDCBC258E" Title="Cervical dysplasia: Is it cancer?" Url="http://www.mayoclinic.com/health/cervical-dysplasia/AN01657" />
+		<LinkItem ContentType="Article" DocID="ID00047" LinkType="Internal" ObjectID="75869EB1-E7FF-0DBD-1A74369D8D618111" Title="STD testing: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/std-testing/ID00047" />
+		<LinkItem ContentType="Answer" DocID="AN01309" LinkType="Internal" ObjectID="04C1AC74-2A5D-9994-EC6634604F011B0B" Title="HPV infection: A cause of cancer in men?" Url="http://www.mayoclinic.com/health/HPV/AN01309" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+		<LinkItem ContentType="Disease" DocID="DS00087" LinkType="Internal" ObjectID="CAEC99AC-77E1-414C-B0A8ACFA312F2E1E" Title="Genital warts" Url="http://www.mayoclinic.com/health/genital-warts/DS00087" />
+		<LinkItem ContentType="Disease" DocID="DS00509" LinkType="Internal" ObjectID="1AD3D683-70DA-4AC1-A176A46E69ED888A" Title="Plantar warts" Url="http://www.mayoclinic.com/health/plantar-warts/DS00509" />
+	</RelatedLinksBox>
+</Disease>

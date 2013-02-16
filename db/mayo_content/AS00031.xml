@@ -1,0 +1,116 @@
+<SelfAssessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SelfAssessment.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			SelfAssessment
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AS00031
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/asthma-control-test/AS00031
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2007-09-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="4319" Title="Asthma attack">
+						<Keyword MCVID="1750" Title="Adult asthma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DB547277-E7FF-0DBD-181E1AF6B29F60FC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				asthma control test
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma management
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Flash Height="585" ObjectID="DB4B47E0-E7FF-0DBD-1D8CF600FB406119" URI="/flash/agg/asthma.swf" Width="410">
+		<Title>
+			AS00031_asthma.swf
+		</Title>
+		<Alt />
+		<Caption />
+	</Flash>
+	<Title>
+		Asthma control test
+	</Title>
+	<Abstract>
+		Asthma control test: Is your asthma under control? Find out.
+	</Abstract>
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00001" LinkType="Internal" ObjectID="E27C2AE8-3D69-4BB9-A282F7B9B3A1CDCD" Title="Video: An asthma attack" Url="http://www.mayoclinic.com/health/asthma/MM00001" />
+		<LinkItem ContentType="Answer" DocID="AN01065" LinkType="Internal" ObjectID="03D89E58-E09D-40DE-9E738FAA7BA17B0F" Title="Albuterol side effects: What&apos;s normal?" Url="http://www.mayoclinic.com/health/albuterol-side-effects/AN01065" />
+		<LinkItem ContentType="Article" DocID="AS00024" LinkType="Internal" ObjectID="0683DC75-2A5D-9994-E2AC997ACA8FF1D7" Title="Asthma: Limit asthma attacks caused by colds or flu" Url="http://www.mayoclinic.com/health/asthma/AS00024" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01116" LinkType="Internal" ObjectID="99522BB0-EE31-5EFB-3A28FB65E94DFB17" Title="Peak flow meter" Url="http://www.mayoclinic.com/health/peak-flow-meter/MY01116" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00179" LinkType="Internal" ObjectID="31CBA70A-E7FF-0DBD-141C42856C499305" Title="Nitric oxide test for asthma" Url="http://www.mayoclinic.com/health/nitric-oxide-test/MY00179" />
+		<LinkItem ContentType="Disease" DocID="DS01068" LinkType="Internal" ObjectID="18D5EF86-E7FF-0DBD-16B27CEA551E5776" Title="Asthma attack" Url="http://www.mayoclinic.com/health/asthma-attack/DS01068" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY02165" LinkType="Internal" ObjectID="78017033-F62A-355B-BD0EF7B977FA63C0" Title="Exercise and chronic disease: Get the facts" Url="http://www.mayoclinic.com/health/exercise-and-chronic-disease/MY02165" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Answer" DocID="AN02020" LinkType="Internal" ObjectID="E71E0F8A-F71B-7178-521ACCA9714FEF95" Title="Vocal cord dysfunction: Is it a type of asthma?" Url="http://www.mayoclinic.com/health/vocal-cord-dysfunction/AN02020" />
+		<LinkItem ContentType="Answer" DocID="AN01999" LinkType="Internal" ObjectID="D9F05B8D-B7B0-DB95-1BAEBCBDC59E7DC9" Title="Asthma: Why are symptoms worse during my period?" Url="http://www.mayoclinic.com/health/asthma/AN01999" />
+		<LinkItem ContentType="Answer" DocID="AN01998" LinkType="Internal" ObjectID="D9ED2D87-0259-85A1-888C8FE8141819F1" Title="Asthma diet: Does what you eat make a difference?" Url="http://www.mayoclinic.com/health/asthma-diet/AN01998" />
+		<LinkItem ContentType="Video" DocID="MM00406" LinkType="Internal" ObjectID="AD335654-2368-4D7E-96973B55CF13F24D" Title="Video: How to use a single-dose dry powder inhaler" Url="http://www.mayoclinic.com/health/asthma/MM00406" />
+		<LinkItem ContentType="Video" DocID="MM00405" LinkType="Internal" ObjectID="A4FB4603-04ED-463F-91F53A563B7E518F" Title="Video: How to use a dry powder disk inhaler" Url="http://www.mayoclinic.com/health/asthma/MM00405" />
+		<LinkItem ContentType="Answer" DocID="AN01420" LinkType="Internal" ObjectID="60EA13C0-E7FF-0DBD-18107315C112747C" Title="Reactive airway disease: Is it asthma?" Url="http://www.mayoclinic.com/health/reactive-airway-disease/AN01420" />
+		<LinkItem ContentType="Answer" DocID="AN02105" LinkType="Internal" ObjectID="45FE4809-9A56-BAD2-2EC847EFB5C6F1B3" Title="LABAs for asthma &amp;mdash; Should I stop taking them?" Url="http://www.mayoclinic.com/health/laba-asthma/AN02105" />
+		<LinkItem ContentType="Video" DocID="MM00399" LinkType="Internal" ObjectID="3AD785AF-1857-42EC-8D59662871E2AB66" Title="Video: How to use a peak flow meter" Url="http://www.mayoclinic.com/health/asthma/MM00399" />
+		<LinkItem ContentType="Video" DocID="MM00404" LinkType="Internal" ObjectID="3A453589-FFCF-48EB-B040337C3938C13D" Title="Video: How to use a dry powder tube inhaler" Url="http://www.mayoclinic.com/health/asthma/MM00404" />
+		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="Video" DocID="MM00608" LinkType="Internal" ObjectID="29BD5C85-E7A4-4646-B6042EF92662E03A" Title="Video: Using a metered dose asthma inhaler and spacer" Url="http://www.mayoclinic.com/health/asthma/MM00608" />
+		<LinkItem ContentType="Answer" DocID="AN02116" LinkType="Internal" ObjectID="1E03EEC8-EFF4-3C10-42CBB4D0FA8BBC64" Title="Asthma and acid reflux: Are they linked?" Url="http://www.mayoclinic.com/health/asthma-and-acid-reflux/AN02116" />
+		<LinkItem ContentType="Answer" DocID="AN00443" LinkType="Internal" ObjectID="0B689DAB-0061-4909-8DA7ED35EA5FFE40" Title="Ozone air purifiers: Can they improve asthma symptoms?" Url="http://www.mayoclinic.com/health/asthma/AN00443" />
+		<LinkItem ContentType="Disease" DocID="DS00949" LinkType="Internal" ObjectID="E0E5CBB7-E7FF-0DBD-188377A3E7F15819" Title="Premature ventricular contractions (PVCs)" Url="http://www.mayoclinic.com/health/premature-ventricular-contractions/DS00949" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Article" DocID="AA00045" LinkType="Internal" ObjectID="BFC355EF-E627-4E1E-BCFBD5F8874118DF" Title="Allergies and asthma: They often occur together" Url="http://www.mayoclinic.com/health/allergies-and-asthma/AA00045" />
+		<LinkItem ContentType="Article" DocID="HQ01081" LinkType="Internal" ObjectID="87D67A9F-B323-4C73-B42F99D100BE8D13" Title="Asthma inhalers: Which one&apos;s right for you?" Url="http://www.mayoclinic.com/health/asthma-inhalers/HQ01081" />
+		<LinkItem ContentType="Article" DocID="AP00008" LinkType="Internal" ObjectID="58BCFCCC-BB00-4E67-A29876A9D30B65ED" Title="Asthma medications: Know your options" Url="http://www.mayoclinic.com/health/asthma-medications/AP00008" />
+		<LinkItem ContentType="Article" DocID="AS00003" LinkType="Internal" ObjectID="44C12174-E008-4FB4-88842E1639396FBE" Title="Asthma: Steps in testing and diagnosis" Url="http://www.mayoclinic.com/health/asthma/AS00003" />
+		<LinkItem ContentType="Article" DocID="AS00002" LinkType="Internal" ObjectID="34C0BD4A-D30E-460A-8C6B1E0AB3772984" Title="Asthma in adults: Creating an asthma action plan" Url="http://www.mayoclinic.com/health/asthma/AS00002" />
+		<LinkItem ContentType="Article" DocID="AS00033" LinkType="Internal" ObjectID="1DDFAB7B-E7FF-0DBD-1C9A41714A06C9B4" Title="Asthma-friendly products: Do they help reduce symptoms?" Url="http://www.mayoclinic.com/health/asthma-friendly/AS00033" />
+		<LinkItem ContentType="Article" DocID="AS00032" LinkType="Internal" ObjectID="1DDAB32A-E7FF-0DBD-120B55C722F83925" Title="Asthma treatment: Do complementary and alternative approaches work?" Url="http://www.mayoclinic.com/health/asthma-treatment/AS00032" />
+		<LinkItem ContentType="Article" DocID="AS00011" LinkType="Internal" ObjectID="1595FEDA-E534-4CC3-9B3C7C1F84716B0B" Title="Asthma treatment: 3 steps to better asthma control" Url="http://www.mayoclinic.com/health/asthma-treatment/AS00011" />
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+	</RelatedLinksBox>
+</SelfAssessment>

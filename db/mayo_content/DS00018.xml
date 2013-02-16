@@ -1,0 +1,310 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00018
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/juvenile-rheumatoid-arthritis/DS00018
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-20
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="1723" Title="Juvenile rheumatoid arthritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F2225A85-AC0D-402F-BB5B6A482D9546D3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				juvenile rheumatoid arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				JRA
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				joint pain
+			</MetaKeyword>
+			<MetaKeyword>
+				pauciarticular JRA
+			</MetaKeyword>
+			<MetaKeyword>
+				polyarticular JRA
+			</MetaKeyword>
+			<MetaKeyword>
+				systemic JRA
+			</MetaKeyword>
+			<MetaKeyword>
+				Still&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				rhumatoid arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile rhumatoid arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				pauciarticular
+			</MetaKeyword>
+			<MetaKeyword>
+				polyarticular
+			</MetaKeyword>
+			<MetaKeyword>
+				rhumatoid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Juvenile rheumatoid arthritis, also known as juvenile idiopathic arthritis, is the most common type of arthritis in children under the age of 16. Juvenile rheumatoid arthritis causes persistent joint pain, swelling and stiffness. Some children may experience symptoms for only a few months, while others have symptoms for the rest of their lives.
+&lt;/p&gt;
+&lt;p&gt;
+Some types of juvenile rheumatoid arthritis can cause serious complications, such as growth problems and eye inflammation. Treatment of juvenile rheumatoid arthritis focuses on controlling pain, improving function and preventing joint damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common signs and symptoms of juvenile rheumatoid arthritis are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; While your child might not complain of joint pain, you may notice that he or she limps &amp;mdash; especially first thing in the morning or after a nap.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling.&lt;/strong&gt; Joint swelling is common but is often first noticed in larger joints like the knee.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stiffness.&lt;/strong&gt; You might notice that your child appears clumsier than usual, particularly in the morning or after naps.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Juvenile rheumatoid arthritis can affect one joint or many. In some cases, juvenile rheumatoid arthritis affects the entire body &amp;mdash; causing swollen lymph nodes, rashes and fever.
+&lt;/p&gt;
+&lt;p&gt;
+Like other forms of arthritis, juvenile rheumatoid arthritis is characterized by times when symptoms flare up and times when symptoms disappear.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Take your child to the doctor if he or she has joint pain, swelling or stiffness for more than a week &amp;mdash; especially if he or she also has a fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Juvenile rheumatoid arthritis occurs when the body&apos;s immune system attacks its own cells and tissues. It&apos;s unknown why this happens, but both heredity and environment seem to play a role. Certain gene mutations may make a person more susceptible to environmental factors &amp;mdash; such as viruses &amp;mdash; that may trigger the disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, juvenile rheumatoid arthritis is more common in girls.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several serious complications can result from juvenile rheumatoid arthritis. But keeping a careful watch on your child&apos;s condition and seeking appropriate medical attention can greatly reduce the risk of these complications:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye problems.&lt;/strong&gt; Some forms of juvenile rheumatoid arthritis can cause eye inflammation (uveitis). If this condition is left untreated, it may result in cataracts, glaucoma and even blindness. Eye inflammation frequently occurs without symptoms, so it&apos;s important for children with juvenile rheumatoid arthritis to be examined regularly by an ophthalmologist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth problems.&lt;/strong&gt; Juvenile rheumatoid arthritis can interfere with your child&apos;s growth and bone development. Some medications used to treat juvenile rheumatoid arthritis, mainly corticosteroids, also can inhibit growth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your pediatrician or family doctor suspects that your child has juvenile rheumatoid arthritis, he or she may refer you to a doctor who specializes in arthritis (rheumatologist) to confirm the diagnosis and explore treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before the appointment, you might want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your child&apos;s symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems your child has had in the past&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems that tend to run in your family&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements your child takes&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Which joints appear to be affected?&lt;/li&gt;
+	&lt;li&gt;When did the symptoms begin? Do they seem to come and go?&lt;/li&gt;
+	&lt;li&gt;Does anything make the symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Is the joint stiffness worse after a period of rest?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of juvenile rheumatoid arthritis can be difficult because joint pain can be caused by many different types of problems. No single test can confirm a diagnosis, but tests can help rule out some other conditions that produce similar signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;Some of the most common blood tests for suspected cases of juvenile rheumatoid arthritis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Erythrocyte sedimentation rate (ESR).&lt;/strong&gt; Sedimentation rate is the speed at which your red blood cells settle to the bottom of a tube of blood. An elevated rate can indicate inflammation. Measuring the ESR may be used to rule out other conditions, to help classify the type of juvenile rheumatoid arthritis and to determine the degree of inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;C-reactive protein.&lt;/strong&gt; This blood test also measures levels of general inflammation in the body but on a different scale than the ESR.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-nuclear antibody.&lt;/strong&gt; Anti-nuclear antibodies are proteins commonly produced by the immune systems of people with certain autoimmune diseases, including arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatoid factor.&lt;/strong&gt; This antibody is commonly found in the blood of adults who have rheumatoid arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclic citrullinated peptide (CCP).&lt;/strong&gt; Like the rheumatoid factor, the CCP is another antibody that may be found in the blood of adults with rheumatoid arthritis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In many children with juvenile rheumatoid arthritis, no significant abnormality will be found in these blood tests.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging scans&lt;br /&gt;
+&lt;/strong&gt;X-rays may be taken to exclude other conditions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fractures&lt;/li&gt;
+	&lt;li&gt;Tumors&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Congenital defects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+X-rays may also be used from time to time after the diagnosis to monitor bone development and to detect joint damage.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for juvenile rheumatoid arthritis focuses on helping your child maintain a normal level of physical and social activity. To accomplish this, doctors may use a combination of strategies to relieve pain and swelling, maintain full movement and strength, and prevent complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;For some children, pain relievers may be the only medication needed. Other children may need help from medications designed to limit the progression of the disease. Typical medications used for juvenile rheumatoid arthritis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; These medications, such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve), reduce pain and swelling. Stronger NSAIDs are available by prescription. Side effects include stomach upset and liver problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease-modifying antirheumatic drugs (DMARDs).&lt;/strong&gt; Doctors use these medications when NSAIDs alone fail to relieve symptoms of joint pain and swelling. They may be taken in combination with NSAIDs and are used to slow the progress of juvenile rheumatoid arthritis. Commonly used DMARDs for children include methotrexate (Trexall) and sulfasalazine (Azulfidine). Side effects may include nausea and liver problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor necrosis factor (TNF) blockers.&lt;/strong&gt; TNF blockers &amp;mdash; such as etanercept (Enbrel) and adalimumab (Humira) &amp;mdash; can help reduce pain, morning stiffness and swollen joints. But these types of drugs increase the risk of infections. There may also be a mild increase in the chance of getting some cancers, such as lymphoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune suppressants.&lt;/strong&gt; Because juvenile rheumatoid arthritis is caused by an overactive immune system, medications that suppress the immune system can help. Examples include abatacept (Orencia), rituximab (Rituxin), anakinra (Kineret) and tocilizumab (Actemra). Immune suppressants increase the risk of infections and, rarely, some types of cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Medications such as prednisone may be used to control symptoms until a DMARD takes effect or to prevent complications, such as inflammation of the sac around the heart (pericarditis). Corticosteroids may be administered by mouth or by injection directly into a joint. But these drugs can interfere with normal growth and increase susceptibility to infection, so they generally should be used for the shortest possible duration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend that your child work with a physical therapist to help keep joints flexible and maintain range of motion and muscle tone. A physical therapist or an occupational therapist may make additional recommendations regarding the best exercise and protective equipment for your child. A therapist may also recommend that your child make use of joint supports or splints to help protect joints and keep them in a good functional position. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;In very severe cases of juvenile rheumatoid arthritis, surgery may be needed to improve the position of a joint.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Caregivers can help children learn self-care techniques that help limit the effects of juvenile rheumatoid arthritis. Techniques include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Getting regular exercise.&lt;/strong&gt; Exercise is important because it promotes both muscle strength and joint flexibility. Swimming is an excellent choice because it places minimal stress on joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Applying cold or heat.&lt;/strong&gt; Stiffness affects many children with juvenile rheumatoid arthritis, particularly in the morning. Although some children respond well to cold packs, most children prefer a hot pack or a hot bath or shower.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating well.&lt;/strong&gt; Some children with arthritis have poor appetites. Others may gain excess weight due to medications or physical inactivity. A healthy diet can help maintain an appropriate body weight. Adequate calcium in the diet is important because children with juvenile rheumatoid arthritis are at risk of developing weak bones (osteoporosis) due to the disease, the use of corticosteroids, and decreased physical activity and weight bearing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Family members can play critical roles in helping a child cope with juvenile rheumatoid arthritis. As a parent, you may want to try the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Treat your child, as much as possible, like other children in your family.&lt;/li&gt;
+	&lt;li&gt;Allow your child to express anger about having juvenile rheumatoid arthritis. Explain that the disease isn&apos;t caused by anything he or she did.&lt;/li&gt;
+	&lt;li&gt;Encourage your child to participate in physical activities, keeping in mind the recommendations of your child&apos;s doctor and physical therapist.&lt;/li&gt;
+	&lt;li&gt;Discuss your child&apos;s condition and the issues surrounding it with teachers and administrators at his or her school.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Juvenile rheumatoid arthritis
+	</Title>
+	<Abstract>
+		Juvenile rheumatoid arthritis &amp;mdash; Comprehensive overview includes symptoms and treatment of this childhood variety of arthritis.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

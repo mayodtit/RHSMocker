@@ -1,0 +1,309 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00974
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyponatremia/DS00974
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-14
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2282" Title="Fluid and electrolyte imbalance">
+						<Keyword MCVID="2372" Title="Hyponatremia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6D6EC6-E7FF-0DBD-1F9FF3B950226F05
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hyponatremia
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood sodium
+			</MetaKeyword>
+			<MetaKeyword>
+				water intoxification
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyponatremia is a condition that occurs when the level of sodium in your blood is abnormally low.
+&lt;/p&gt;
+&lt;p&gt;
+Sodium is an electrolyte, and it helps regulate the amount of water that&apos;s in and around your cells. In hyponatremia, one or more factors &amp;mdash; ranging from an underlying medical condition to drinking too much water during endurance sports &amp;mdash; causes the sodium in your body to become diluted. When this happens, your body&apos;s water levels rise, and your cells begin to swell. This swelling can cause many health problems, from mild to severe.
+&lt;/p&gt;
+&lt;p&gt;
+Hyponatremia treatment is aimed at resolving the underlying condition. Depending on the cause of hyponatremia, you may simply need to cut back on how much you drink. In other cases of hyponatremia, you may need intravenous fluids and medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyponatremia signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Loss of energy&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Restlessness and irritability&lt;/li&gt;
+	&lt;li&gt;Muscle weakness, spasms or cramps&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Unconsciousness&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have a medical condition that increases your risk of hyponatremia, or you have other risk factors for hyponatremia, such as participating in high-intensity activities, and you have the signs and symptoms of low blood sodium, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sodium plays a key role in your body. It helps maintain normal blood pressure, supports the work of your nerves and muscles, and regulates your body&apos;s fluid balance.
+&lt;/p&gt;
+&lt;p&gt;
+When the sodium level in your blood becomes too low, extra water enters your cells and causes them to swell. Swelling in your brain is especially dangerous because the brain is confined by your skull and unable to expand without causing symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of hyponatremia&lt;/strong&gt;&lt;br /&gt;
+A normal sodium level is between 135 and 145 milliequivalents per liter (mEq/L) of sodium. Hyponatremia occurs when the sodium in your blood falls below 135 mEq/L.
+&lt;/p&gt;
+&lt;p&gt;
+The imbalance between sodium and water in your blood may occur in three primary ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;In hypervolemic hyponatremia,&lt;/strong&gt; your body has too much water. Hypervolemic hyponatremia is commonly the result of kidney failure, heart failure or liver failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;In euvolemic hyponatremia,&lt;/strong&gt; your water level is too high. This condition is commonly due to chronic health conditions, cancer or certain medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;In hypovolemic hyponatremia,&lt;/strong&gt; you have too little water and sodium. This may occur, for example, when exercising in the heat without replenishing your fluid electrolytes or with marked blood loss.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Causes of hyponatremia&lt;/strong&gt;&lt;br /&gt;
+Many possible conditions and lifestyle factors can lead to hyponatremia, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medications, such as some antidepressants and pain medications, can cause you to urinate or perspire more than normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Water pills (diuretics) &amp;mdash; especially thiazide diuretics.&lt;/strong&gt; Diuretics work by making your body get rid of more sodium in urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cirrhosis.&lt;/strong&gt; Liver disease can cause fluids to accumulate in your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney problems.&lt;/strong&gt; Kidney failure and other kidney disease may make it hard to efficiently remove extra fluids from your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congestive heart failure.&lt;/strong&gt; This condition causes your body to retain fluids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Syndrome of inappropriate anti-diuretic hormone (SIADH).&lt;/strong&gt; In this condition, high levels of the anti-diuretic hormone (ADH) are produced, causing your body to retain water instead of excreting it normally in your urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking too much water during exercise (exertional hyponatremia).&lt;/strong&gt; Because you lose sodium through sweat, drinking too much water during endurance activities, such as marathons and triathlons, can dilute the sodium content of your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormonal changes due to adrenal gland insufficiency (Addison&apos;s disease).&lt;/strong&gt; Your adrenal glands produce hormones that help maintain your body&apos;s balance of sodium, potassium and water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormonal changes due to an underactive thyroid (hypothyroidism).&lt;/strong&gt; Hypothyroidism may result in a low blood-sodium level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Primary polydipsia.&lt;/strong&gt; In this condition, your thirst increases significantly, causing you to drink too much fluid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The recreational drug Ecstasy.&lt;/strong&gt; This amphetamine increases the risk of severe and even fatal cases of hyponatremia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic, severe vomiting or diarrhea.&lt;/strong&gt; This causes your body to lose fluids and electrolytes, such as sodium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; In dehydration, your body loses fluids and electrolytes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; A low-sodium, high-water diet can sometimes disturb the proper balance between sodium and fluids in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of hyponatremia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Low blood sodium is more common in older adults. Contributing factors include age-related changes and a greater likelihood of developing a chronic disease that affects your body&apos;s sodium balance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain drugs.&lt;/strong&gt; Medications that increase your risk of hyponatremia include thiazide diuretics as well as some antidepressants and pain medications that cause you to urinate or perspire more than usual. In addition, the recreational drug Ecstasy has been linked to fatal cases of hyponatremia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Conditions that decrease your body&apos;s water excretion.&lt;/strong&gt; Medical conditions that may increase your risk of hyponatremia include kidney disease, syndrome of inappropriate anti-diuretic hormone (SIADH) and heart failure, among others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; You may be at an increased risk of hyponatremia if you are following a low-sodium diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intensive physical activities.&lt;/strong&gt; People who drink too much water while taking part in marathons, ultramarathons, triathlons and other long-distance, high-intensity activities are at an increased risk of hyponatremia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Climate.&lt;/strong&gt; New exposure to hot weather can increase the amount of sodium you lose through sweating during exercise.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In chronic hyponatremia, sodium levels drop gradually over days or weeks &amp;mdash; and symptoms and complications are typically more moderate.
+&lt;/p&gt;
+&lt;p&gt;
+In acute hyponatremia, sodium levels drop rapidly &amp;mdash; resulting in potentially dangerous effects, such as rapid brain swelling, which can result in coma and death.
+&lt;/p&gt;
+&lt;p&gt;
+Premenopausal women appear to be at the greatest risk of hyponatremia-related brain damage. This may be related to the effect of women&apos;s sex hormones on the body&apos;s ability to balance sodium levels.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seek emergency care for anyone who is at risk of hyponatremia &amp;mdash; due to prolonged athletic activity, an underlying medical condition or use of the drug Ecstasy &amp;mdash; and develops severe signs and symptoms, such as nausea and vomiting, confusion, seizures or lost consciousness.
+&lt;/p&gt;
+&lt;p&gt;
+Call your doctor if you are at risk of hyponatremia and are experiencing nausea, headache, cramping or weakness. Depending on the extent and duration of these signs and symptoms, your doctor may recommend seeking immediate medical care.
+&lt;/p&gt;
+&lt;p&gt;
+If you have time to prepare, here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions or instructions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there are any steps you should be following to encourage recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms you or your loved one has been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including other medical problems for which you are being treated and the names of all medications, vitamins, supplements or other natural remedies you are taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if you are the one with symptoms of low blood sodium. Someone who accompanies you can help remember all of the information and provide support if you need immediate medical care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For hyponatremia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What causes hyponatremia?&lt;/li&gt;
+	&lt;li&gt;How severe is the condition?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to be hospitalized? For how long?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms will begin to improve?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term problems?&lt;/li&gt;
+	&lt;li&gt;How can I prevent a recurrence of this condition?&lt;/li&gt;
+	&lt;li&gt;Do I need to make any changes to how much I usually drink?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Being ready to answer your doctor&apos;s questions may reserve time to go over any points you want to talk about in-depth. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been getting any better or worse since they first developed?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms included any mental changes, such as feeling confused, agitated or depressed?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms included any behavior changes?&lt;/li&gt;
+	&lt;li&gt;Have you had nausea, vomiting or diarrhea?&lt;/li&gt;
+	&lt;li&gt;Have you felt faint, had seizures or lost consciousness?&lt;/li&gt;
+	&lt;li&gt;Have you had a headache? If yes, has it gotten progressively worse?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms included weakness, fatigue or lethargy?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking?&lt;/li&gt;
+	&lt;li&gt;Do you use recreational drugs? If yes, which drugs?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will start by asking about your medical history and doing a physical examination.
+&lt;/p&gt;
+&lt;p&gt;
+However, because the signs and symptoms of hyponatremia occur in many conditions, it&apos;s impossible to diagnose the condition based on a physical exam alone. To confirm low blood sodium, your doctor will order blood tests and urine tests.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyponatremia treatment is aimed at addressing the underlying cause, if possible.
+&lt;/p&gt;
+&lt;p&gt;
+If you have moderate, chronic hyponatremia due to your diet, diuretics or drinking too much water, your doctor may recommend temporarily cutting back on fluids. He or she also may suggest adjusting your diuretic use to increase the level of sodium in your blood.
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe, acute hyponatremia, you&apos;ll need more aggressive treatment. Options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous fluids.&lt;/strong&gt; Your doctor may recommend intravenous (IV) administration of a sodium solution to raise the sodium levels in your blood. This often requires a stay in the hospital.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; You may take medications to manage the signs and symptoms of hyponatremia, such as headache, nausea and seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone therapy.&lt;/strong&gt; If adrenal gland insufficiency (Addison&apos;s disease) is the cause of hyponatremia, you may take hormones to replace the deficiency.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you prevent hyponatremia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treat associated conditions.&lt;/strong&gt; Getting treatment for conditions that contribute to hyponatremia, such as adrenal gland insufficiency, can help prevent low blood sodium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Educate yourself.&lt;/strong&gt; If you have a medical condition that increases your risk of hyponatremia or you take diuretic medications, be aware of the signs and symptoms of low blood sodium. Always talk with your doctor about the risks of a new medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take precautions during high-intensity activities.&lt;/strong&gt; Athletes should drink only as much fluid as they lose due to sweating during a race &amp;mdash; usually no more than about 34 ounces (about 1 liter) of water an hour during extended exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider drinking sports beverages during demanding activities.&lt;/strong&gt; Ask your doctor about replacing water with sports beverages that contain electrolytes when participating in endurance events such as marathons, triathlons and other demanding activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink water in moderation.&lt;/strong&gt; Drinking water is vital for your health, so make sure you drink enough fluids. But don&apos;t overdo it. Thirst and the color of your urine are usually the best indications of how much water you need. If you&apos;re not thirsty and your urine is pale yellow, you are likely getting enough water.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hyponatremia
+	</Title>
+	<Abstract>
+		Hyponatremia &amp;mdash; Comprehensive overview covers symptoms, causes and treatments of low blood sodium.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HQ00316" LinkType="Internal" ObjectID="ECAFE3E7-C215-41DA-9F75A2087398E84C" Title="Heat and exercise: Keeping cool in hot weather" Url="http://www.mayoclinic.com/health/exercise/HQ00316" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+	</RelatedLinksBox>
+</Disease>

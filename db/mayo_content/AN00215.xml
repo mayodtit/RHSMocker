@@ -1,0 +1,140 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00215
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prostate-cancer/AN00215
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-27
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2391" Title="Prostate cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CCCBDC61-2A63-45E1-A8ED63D0B01C42FB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				PSA
+			</MetaKeyword>
+			<MetaKeyword>
+				psa test
+			</MetaKeyword>
+			<MetaKeyword>
+				psa level
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate specific antigen
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+In most cases, a higher PSA level does not mean a better prognosis, and actually the opposite is true. PSA does not keep prostate cancer &quot;in check,&quot; but rather it is a measure of the cancer. Only in rare cases where mutated and aggressive cancers occur are low or normal PSA levels found. 
+&lt;/p&gt;
+&lt;p&gt;
+PSA is a protein made by prostate tissue. Men with prostate cancer often have elevated PSA levels because the cancer cells make excessive amounts of this protein. 
+&lt;/p&gt;
+&lt;p&gt;
+At the time of initial diagnosis of prostate cancer, the PSA level helps determine how likely it is that the cancer has spread (metastasized). It also helps determine how likely the cancer will be cured with treatment such as radiation or surgery. Generally, the higher your PSA level and the faster the rate at which it increases, the more prostate cancer cells you have in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+But this isn&apos;t always true. In some cases, the PSA level may not be elevated, despite the presence of prostate cancer. In such cases, the cancer cells often have more genetic mutations than other prostate cancer cells do, and they don&apos;t have the ability to make PSA. This type of prostate cancer is usually more aggressive and doesn&apos;t respond well to treatment. Some scientists believe that the genetic mutations in these cancer cells may allow such cancers to grow and spread more quickly. 
+&lt;/p&gt;
+&lt;p&gt;
+Prostate cancer often grows very slowly. The reasons for this aren&apos;t clear. Discuss the results of your PSA test with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prostate cancer: Does PSA level affect prognosis?
+	</Title>
+	<Abstract>
+		High levels of PSA don&apos;t protect against the spread of prostate cancer.
+	</Abstract>
+	<Question>
+		I read that prostate cancer may grow slowly because prostate-specific antigen (PSA) keeps it in check. If so, do men with higher PSA levels have a better prognosis than men with lower PSA levels?
+	</Question>
+	<QuestionFirstName>
+		Herbert
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01635" LinkType="Internal" ObjectID="F07B7D72-DEC9-EED5-B17F3FB080800B19" Title="Prostate brachytherapy" Url="http://www.mayoclinic.com/health/prostate-brachytherapy/MY01635" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01634" LinkType="Internal" ObjectID="F019123E-AF33-5486-DB3CFBBC13EED3B7" Title="Cryotherapy for prostate cancer" Url="http://www.mayoclinic.com/health/cryotherapy-for-prostate-cancer/MY01634" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01633" LinkType="Internal" ObjectID="F017285C-C4C6-D533-24361BF6E21B57FB" Title="Hormone therapy for prostate cancer" Url="http://www.mayoclinic.com/health/hormone-therapy-for-prostate-cancer/MY01633" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01632" LinkType="Internal" ObjectID="F01483D3-B1A3-9AE1-0509FB09FF62A5B7" Title="External beam radiation for prostate cancer" Url="http://www.mayoclinic.com/health/external-beam-radiation-for-prostate-cancer/MY01632" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01630" LinkType="Internal" ObjectID="F012B8C3-9A8C-E919-6CD94A75A372CEBD" Title="Active surveillance for prostate cancer" Url="http://www.mayoclinic.com/health/active-surveillance-for-prostate-cancer/MY01630" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01204" LinkType="Internal" ObjectID="D8F4FDF3-CBB9-4DD5-5B7930AE202EFF56" Title="Intravenous pyelogram" Url="http://www.mayoclinic.com/health/intravenous-pyelogram/MY01204" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00088" LinkType="Internal" ObjectID="B5C04D78-E7FF-0DBD-1FF66760E140CC1D" Title="Needle biopsy" Url="http://www.mayoclinic.com/health/needle-biopsy/MY00088" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00182" LinkType="Internal" ObjectID="37053562-E7FF-0DBD-1A6AAC0FF3DC05A5" Title="Prostate biopsy" Url="http://www.mayoclinic.com/health/prostate-biopsy/MY00182" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00180" LinkType="Internal" ObjectID="31D8273B-E7FF-0DBD-1016DC7889CC529A" Title="PSA test" Url="http://www.mayoclinic.com/health/psa-test/MY00180" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Answer" DocID="AN01712" LinkType="Internal" ObjectID="F13967EC-E7FF-0DBD-1C38E1C3351B1106" Title="Flaxseed: Does it affect risk of prostate cancer?" Url="http://www.mayoclinic.com/health/flaxseed/AN01712" />
+		<LinkItem ContentType="Answer" DocID="AN01825" LinkType="Internal" ObjectID="BDE8D92B-E7FF-0DBD-10F6C5AA1F6887D6" Title="Frequent sex: Does it protect against prostate cancer?" Url="http://www.mayoclinic.com/health/prostate-cancer/AN01825" />
+		<LinkItem ContentType="Answer" DocID="AN01931" LinkType="Internal" ObjectID="8BD16CA3-E7FF-0DBD-10CEE60D97DC9841" Title="Prostate cancer: Can it spread to the pancreas?" Url="http://www.mayoclinic.com/health/prostate-cancer/AN01931" />
+		<LinkItem ContentType="Answer" DocID="AN01629" LinkType="Internal" ObjectID="637C00AF-E7FF-0DBD-141EEB57C003F0C9" Title="Prostate cancer brachytherapy: Can I pass radiation to others?" Url="http://www.mayoclinic.com/health/prostate-cancer-brachytherapy/AN01629" />
+		<LinkItem ContentType="Answer" DocID="AN01634" LinkType="Internal" ObjectID="631619FA-E7FF-0DBD-10549743CE036013" Title="Vasectomy: Does it increase my risk of prostate cancer?" Url="http://www.mayoclinic.com/health/vasectomy/AN01634" />
+		<LinkItem ContentType="Answer" DocID="AN01477" LinkType="Internal" ObjectID="52AFC6A1-E7FF-0DBD-125569319EF2D8AD" Title="Pomegranate juice: A cure for prostate cancer?" Url="http://www.mayoclinic.com/health/pomegranate-juice/AN01477" />
+		<LinkItem ContentType="Answer" DocID="AN01850" LinkType="Internal" ObjectID="10E1CFBB-E7FF-0DBD-133A562C6C0CE998" Title="Prostate cancer treatment: Does initial treatment preclude others later?" Url="http://www.mayoclinic.com/health/prostate-cancer-treatment/AN01850" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00404" LinkType="Internal" ObjectID="256654C2-982F-4C33-B5E40B0F7A6C9C68" Title="Urinary incontinence" Url="http://www.mayoclinic.com/health/urinary-incontinence/DS00404" />
+		<LinkItem ContentType="Article" DocID="HQ01273" LinkType="Internal" ObjectID="E3657711-F837-4DE5-A8BC93BC4D0EE475" Title="Prostate cancer screening: Should you get a PSA test?" Url="http://www.mayoclinic.com/health/prostate-cancer/HQ01273" />
+		<LinkItem ContentType="Article" DocID="MC00027" LinkType="Internal" ObjectID="600F3828-3EDE-4703-8B2F03A602646142" Title="Prostate cancer prevention: Ways to reduce your risk" Url="http://www.mayoclinic.com/health/prostate-cancer-prevention/MC00027" />
+		<LinkItem ContentType="Disease" DocID="DS00043" LinkType="Internal" ObjectID="19DD7485-629A-44DE-A9B65BAC360EF5B3" Title="Prostate cancer" Url="http://www.mayoclinic.com/health/prostate-cancer/DS00043" />
+	</RelatedLinksBox>
+</Answer>

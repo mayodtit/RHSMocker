@@ -1,0 +1,433 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00063
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/constipation/DS00063
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-14
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="4676" Title="Large intestine">
+						<Keyword MCVID="2089" Title="Constipation" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2D434692-F005-495C-A5EB2AFBD98CA2A5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				constipation
+			</MetaKeyword>
+			<MetaKeyword>
+				constipated
+			</MetaKeyword>
+			<MetaKeyword>
+				irregular
+			</MetaKeyword>
+			<MetaKeyword>
+				bowel
+			</MetaKeyword>
+			<MetaKeyword>
+				stool
+			</MetaKeyword>
+			<MetaKeyword>
+				fiber
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				bloating
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy constipation
+			</MetaKeyword>
+			<MetaKeyword>
+				constapation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Constipation is infrequent bowel movements or difficult passage of stools. Constipation is a common gastrointestinal problem. 
+&lt;/p&gt;
+&lt;p&gt;
+What&apos;s considered normal frequency for bowel movements varies widely. In general, however, you&apos;re probably experiencing constipation if you pass fewer than three stools a week, and your stools are hard and dry. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, most cases of constipation are temporary. Simple lifestyle changes, such as getting more exercise, drinking more fluids and eating a high-fiber diet, can go a long way toward alleviating constipation. Constipation may also be treated with over-the-counter laxatives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Not having a bowel movement every day doesn&apos;t necessarily mean you&apos;re constipated. You likely have constipation, however, if you&apos;ve had at least two of the following signs and symptoms for at least three of the past six months: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pass fewer than three stools a week&lt;/li&gt;
+	&lt;li&gt;Experience hard stools&lt;/li&gt;
+	&lt;li&gt;Strain excessively during bowel movements&lt;/li&gt;
+	&lt;li&gt;Experience a sense of rectal blockage&lt;/li&gt;
+	&lt;li&gt;Have a feeling of incomplete evacuation after having a bowel movement&lt;/li&gt;
+	&lt;li&gt;Need to use manual maneuvers to have a bowel movement, such as finger evacuation or manipulation of your lower abdomen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Although constipation may be bothersome, it&apos;s usually not serious. Most people who have constipation don&apos;t seek a doctor&apos;s care. However, chronic constipation may lead to complications or be a sign of a serious underlying disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+See your doctor if you experience an unexplained onset of constipation or change in bowel habits, or if symptoms are severe and last longer than three weeks. Also seek medical care if you experience any of the following signs or symptoms, which might indicate a more serious health problem: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bowel movements occurring more than three days apart, despite corrective changes in diet or exercise&lt;/li&gt;
+	&lt;li&gt;Intense abdominal pain&lt;/li&gt;
+	&lt;li&gt;Blood in your stool&lt;/li&gt;
+	&lt;li&gt;Constipation that alternates with diarrhea&lt;/li&gt;
+	&lt;li&gt;Rectal pain&lt;/li&gt;
+	&lt;li&gt;Thin, pencil-like stools&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Constipation most commonly occurs when waste or stool moves too slowly through the digestive tract, causing it to become hard and dry. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, the waste products of digestion (stool) are propelled through your intestines by muscle contractions. In the large intestine (colon), most of the water and salt in this waste mixture are reabsorbed because they&apos;re essential for many of your body&apos;s functions. 
+&lt;/p&gt;
+&lt;p&gt;
+However, when there is not enough fluid or fiber-rich food in your diet &amp;mdash; or if the colon&apos;s muscle contractions are slow &amp;mdash; the stool hardens, dries and passes through your colon too slowly. This is the root cause of constipation. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also experience constipation if the muscles you use to move your bowels aren&apos;t properly coordinated. This problem is called pelvic floor dysfunction (anismus), and it causes you to strain with most bowel movements &amp;mdash; even soft ones. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of factors can cause an intestinal slowdown, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inadequate fluid intake or dehydration&lt;/li&gt;
+	&lt;li&gt;Inadequate amounts of fiber in your diet&lt;/li&gt;
+	&lt;li&gt;Ignoring the urge to have a bowel movement or delaying until later&lt;/li&gt;
+	&lt;li&gt;Lack of physical activity (especially in older adults)&lt;/li&gt;
+	&lt;li&gt;Irritable bowel syndrome&lt;/li&gt;
+	&lt;li&gt;Changes in lifestyle or routine, including pregnancy, aging and travel&lt;/li&gt;
+	&lt;li&gt;Illness&lt;/li&gt;
+	&lt;li&gt;Frequent use or misuse of laxatives&lt;/li&gt;
+	&lt;li&gt;Specific diseases, such as stroke, diabetes, thyroid disease and Parkinson&apos;s disease&lt;/li&gt;
+	&lt;li&gt;Problems with the colon and rectum, such as intestinal obstruction or diverticulosis&lt;/li&gt;
+	&lt;li&gt;Certain medications, including pain medications, diuretics and those used to treat Parkinson&apos;s disease, high blood pressure and depression&lt;/li&gt;
+	&lt;li&gt;Hormonal disturbances, such as an underactive thyroid gland&lt;/li&gt;
+	&lt;li&gt;Anal fissures and hemorrhoids, which can produce a spasm of the anal sphincter muscle&lt;/li&gt;
+	&lt;li&gt;Loss of body salts through vomiting or diarrhea&lt;/li&gt;
+	&lt;li&gt;Injuries to the spinal cord, which can affect the nerves that lead to and from the intestine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In rare cases, constipation may signal more-serious medical conditions, such as colorectal cancer, hormonal disturbances or autoimmune diseases. In children, constipation might indicate Hirschsprung&apos;s disease, a congenital condition that results from missing nerve cells in the colon. 
+&lt;/p&gt;
+&lt;p&gt;
+Children may also become constipated if they are afraid of or unwilling to use the toilet. Older children may ignore or forget to attend to bowel movements. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the gastrointestinal tract
+" Caption="Your digestive tract stretches from your mouth to your anus. It includes the organs necessary to digest food and process waste. 
+" Height="60" Title="Gastrointestinal tract" URI="/images/image_popup/thumbs/d7_digestivesystemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the gastrointestinal tract
+" Caption="Your digestive tract stretches from your mouth to your anus. It includes the organs necessary to digest food and process waste. 
+" Height="494" Title="Gastrointestinal tract" URI="/images/image_popup/d7_digestivesystem.jpg" Width="400" />
+				<HTML>
+					Your digestive tract stretches from your mouth to your anus. It includes the organs necessary to digest food and process waste. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re more likely to have constipation if you are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An older adult&lt;/li&gt;
+	&lt;li&gt;Sedentary&lt;/li&gt;
+	&lt;li&gt;Confined to bed&lt;/li&gt;
+	&lt;li&gt;Eating a diet that&apos;s low in fiber&lt;/li&gt;
+	&lt;li&gt;Not getting adequate fluids&lt;/li&gt;
+	&lt;li&gt;Taking certain medications, including sedatives, narcotics or certain medications to lower blood pressure&lt;/li&gt;
+	&lt;li&gt;Undergoing chemotherapy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Women are more frequently affected by constipation, and children more than adults. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant, you may have bouts of constipation because of hormonal changes. Later in your pregnancy, pressure on your intestines from your expanding uterus also can cause constipation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although constipation can be extremely bothersome, it usually isn&apos;t serious. If it persists, and especially if straining results, you may develop certain complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;Hemorrhoids or cracks (fissures) in your anus may result when hard stool stretches the sphincter muscle.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;Fecal impaction occurs when you accumulate a mass of hardened stool that can&apos;t be eliminated by a normal bowel movement. You may need to have impacted stool removed manually.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;Rectal prolapse occurs when a small amount of rectal tissue pushes out through the anus. This condition may lead to a secretion of mucus from the anus. &lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;Lazy bowel syndrome may occur if you use laxatives frequently, causing your bowels to become dependent on them for proper function. Laxative use can also lead to other problems, including poor absorption of vitamins and other nutrients and damage to your intestinal tract.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely first seek medical care for constipation from your family doctor or general practitioner. You may be referred to a specialist in digestive disorders (gastroenterologist) if your doctor suspects a more advanced case of constipation. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restricting your diet or eating certain high-fiber foods to prepare for diagnostic testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes, such as traveling or becoming pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins, supplements or herbal medications, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For constipation, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What other treatment options exist?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a gastroenterologist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to go over additional questions you may have. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms of constipation?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include abdominal pain?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include vomiting?&lt;/li&gt;
+	&lt;li&gt;Have you recently lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Do you see blood with your bowel movements mixed in with the stool, in the toilet water or on the toilet paper?&lt;/li&gt;
+	&lt;li&gt;Do you strain with your bowel movements?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of digestive problems or colon cancer?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you started any new medications or recently changed the dosage of your current medications?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Be aware that certain diagnostic tests may require advance preparation. For example, people undergoing marker studies will need to eat a high-fiber diet while abstaining from laxatives for a certain period of time before the test. Consult your doctor for specific instructions before an office visit. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will take your medical history, perform a physical exam and ask about any prescription or over-the-counter medications you&apos;re taking. Your doctor will also want to rule out several conditions in diagnosing constipation. These include a blockage in your small intestine or colon (intestinal obstruction), a narrowing of the colon, an endocrine condition, such as hypothyroidism, or an electrolyte disturbance, such as excessive calcium in the blood (hypercalcemia). 
+&lt;/p&gt;
+&lt;p&gt;
+Extensive testing is usually reserved for people with severe symptoms or for older adults with new-onset constipation. You may undergo these diagnostic procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Barium enema X-ray.&lt;/strong&gt; In this test, the lining of your bowel is coated with a contrast dye (barium) so that your rectum, colon and sometimes a part of the small intestine can be clearly seen on an X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray of the anorectal area (defecography).&lt;/strong&gt; In this X-ray procedure, your doctor will fill your rectum with a soft paste with the same consistency as stool. As you expel the paste, X-rays are taken to evaluate the completeness of stool elimination and rectal muscle contractions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examination of the rectum and lower, or sigmoid, colon (sigmoidoscopy).&lt;/strong&gt; In this procedure, your doctor inserts a lighted, flexible tube into your anus to examine your rectum and the lower portion of your colon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examination of the rectum and entire colon (colonoscopy).&lt;/strong&gt; This diagnostic procedure allows your doctor to examine the entire colon with a flexible, camera-equipped tube.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Evaluation of anal sphincter muscle function (anorectal manometry).&lt;/strong&gt; In this procedure, your doctor inserts a narrow, flexible tube into your anus and rectum and then inflates a small balloon at the tip of the tube. The device is then pulled back through the sphincter muscle. This procedure allows your doctor to measure the coordination of the muscles you use to move your bowels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Evaluation of how well food moves through the colon (marker study or colorectal transit study).&lt;/strong&gt; In this procedure, you&apos;ll swallow a capsule containing markers that show up on X-rays taken over several days. Your doctor will look for signs of intestinal muscle dysfunction and how well food moves through your colon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, simple changes in your diet and lifestyle can help relieve symptoms and manage constipation. Less often, you may need medical treatment. Above all, recognize that a successful treatment program can take time and effort. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diet and lifestyle changes&lt;/strong&gt; &lt;br /&gt;
+The following simple changes can go a long way toward reducing constipation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A high-fiber diet.&lt;/strong&gt; A diet with at least 20 to 35 grams of fiber each day helps your body form soft, bulky stool. High-fiber foods include beans, whole grains, and fresh fruits and vegetables. Limit foods that have little to no fiber, such as cheese, meat and processed foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Regular exercise.&lt;/strong&gt; Physical activity can help stimulate intestinal activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adequate fluid intake.&lt;/strong&gt; Drinking plenty of water and other fluids will help soften your stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take the time for bowel movements.&lt;/strong&gt; Set aside sufficient time to allow undisturbed visits to the toilet. And don&apos;t ignore the urge to have a bowel movement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Laxatives&lt;/strong&gt; &lt;br /&gt;
+These over-the-counter medications should be considered only when diet and lifestyle changes aren&apos;t effective. Some can become habit-forming. 
+&lt;/p&gt;
+&lt;p&gt;
+There are several different types of laxatives: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fiber supplements,&lt;/strong&gt; or bulk laxatives, are generally considered the safest of laxatives. Examples include FiberCon, Metamucil, Konsyl, Serutan and Citrucel. These agents must be taken with plenty of water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stimulants&lt;/strong&gt; cause rhythmic contractions in the intestines. Examples include Correctol, Dulcolax and Senokot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lubricants&lt;/strong&gt; enable stool to move through your colon more easily. Examples include mineral oil and Fleet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool softeners&lt;/strong&gt; moisten the stool and help prevent dehydration. Examples include Colace and Surfak.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osmotics&lt;/strong&gt; help fluids to move through the colon. Examples include Cephulac, Sorbitol and Miralax.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Saline laxatives&lt;/strong&gt; act like a sponge to draw water into the colon for easier passage of stool. Examples include milk of magnesia and Haley&apos;s M-O.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other medications&lt;/strong&gt; &lt;br /&gt;
+If lifestyle changes and over-the-counter medications don&apos;t improve your symptoms, your doctor may recommend prescription medications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chloride channel activators.&lt;/strong&gt; The agent lubiprostone (Amitiza) is available by prescription and increases fluid content of stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;5-HT-4 agonists.&lt;/strong&gt; These agents stimulate release of compounds in your body that increase fluid secretion in the intestines and decrease colonic transit time. Prucalopride is one such 5-HT-4 agonist.&lt;strong&gt; &lt;/strong&gt;These drugs are not available in the U.S., and there have been some concerns about the safety of their use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Procedures&lt;/strong&gt; &lt;br /&gt;
+If your constipation doesn&apos;t respond to changes in lifestyle or medical treatment, your doctor may recommend in-office or, rarely, surgical procedures. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Manual procedures.&lt;/strong&gt; To help clear your colon of retained, impacted stool if laxatives are not effective, your doctor may first gently insert a gloved finger and manually break up the impacted stool (disimpaction). Next, you&apos;ll be given a laxative enema to soften the stool and provide lubrication for a bowel movement. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical procedures.&lt;/strong&gt; If you have chronic, severe constipation and other treatments haven&apos;t helped, surgical removal of part of your colon may be recommended. In this procedure, the problem segment or segments of the anal sphincter or rectum are removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating underlying causes&lt;/strong&gt; &lt;br /&gt;
+If an underlying disorder is causing your constipation, treatment will be aimed at the specific cause. If pelvic floor dysfunction is the cause of your constipation, your doctor may suggest biofeedback as a treatment. This retraining technique may help you learn to better coordinate the muscles you use to have a bowel movement. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re pregnant and have constipation, try eating lots of high-fiber foods, such as fruits, vegetables and whole grains. Drink plenty of fluids and get as much exercise as you can. Discuss with your doctor any plan, including exercise, to treat your constipation. Swimming and walking may be good choices. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, simple changes to your lifestyle and diet can help relieve the symptoms of constipation. Several alternative approaches may also provide relief, although they have not been studied extensively. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; Massage works by manipulating, compressing and stretching the skin, muscles and joints. Techniques include acupressure and shiatsu. When applied to the abdominal area, massage may help relax the muscles that support the bladder and intestines and help promote bowel activity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This traditional Chinese medicine involves the insertion and manipulation of fine needles in various parts of the body. The therapy may help stimulate the colon and relieve pain from constipation, although its efficacy for this has not been proved. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Homeopathic remedies.&lt;/strong&gt; Homeopathy is a holistic, nontoxic system of medicine that&apos;s individualized to your symptoms. Numerous homeopathic remedies exist for constipation, and they typically consist of plant-based laxatives. However, just because they&apos;re natural doesn&apos;t mean they&apos;re safe. For example, many herbal supplements are associated with dangerous drug interactions and side effects. Always talk with your doctor before trying a new homeopathic remedy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent constipation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a high-fiber diet.&lt;/strong&gt; Choose lots of high-fiber foods, including fruits, vegetables, beans, and whole-grain cereals and breads. Aim to consume 20 to 35 grams of fiber daily. Experiment to see if particular fruits or vegetables have a laxative effect for you. Remember to add fiber to your diet gradually to help reduce related gas and bloating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit low-fiber foods.&lt;/strong&gt; Foods that are high in fat and sugar and those that tend to be low in fiber content, such as ice cream, cheese and processed foods, may cause or aggravate constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids.&lt;/strong&gt; The exact amount of water and other fluids you should drink each day varies and depends on your age, sex, health, activity level and other factors. Limit caffeine intake, which can worsen symptoms of constipation by causing dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Engage in regular physical exercise, such as walking, biking or swimming, to help stimulate intestinal function. Getting at least 150 minutes of moderate exercise each week is recommended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heed nature&apos;s call.&lt;/strong&gt; Don&apos;t ignore the urge to have a bowel movement. The longer you delay, the more water is absorbed from your stool and the harder it becomes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try fiber supplements.&lt;/strong&gt; Over-the-counter products, such as Metamucil and Citrucel, can help keep stools soft and regular. Be sure to drink plenty of water or other fluids every day, as taking fiber supplements without drinking plenty of fluids may worsen constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be careful about introducing stimulant laxatives.&lt;/strong&gt; Habitual use of agents such as Correctol and Dulcolax can make your colon dependent on them and may require increasing dosages, eventually leading to problems with your intestines. For occasional relief try a saline laxative, such as milk of magnesia, which draws water into the colon to lubricate the stool. Avoid giving children laxatives without a doctor&apos;s approval.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Constipation
+	</Title>
+	<Abstract>
+		Constipation &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this uncomfortable condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00130" LinkType="Internal" ObjectID="BFE54BCA-6E22-4924-A0551D75254C4CD8" Title="Fiber supplements: Safe to take every day?" Url="http://www.mayoclinic.com/health/fiber-supplements/AN00130" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="SlideShow" DocID="MY01702" LinkType="Internal" ObjectID="7334523E-D11B-512B-FD7E52C9D2319327" Title="Slide show: 5 main dish vegetable recipes" Url="http://www.mayoclinic.com/health/vegetable-recipes/MY01702" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="Disease" DocID="DS00976" LinkType="Internal" ObjectID="7F6E26DA-E7FF-0DBD-175E46B753BBA497" Title="Hypercalcemia" Url="http://www.mayoclinic.com/health/hypercalcemia/DS00976" />
+		<LinkItem ContentType="Disease" DocID="DS00096" LinkType="Internal" ObjectID="37177394-6BD1-4401-AB747238D2AEBD84" Title="Hemorrhoids" Url="http://www.mayoclinic.com/health/hemorrhoids/DS00096" />
+		<LinkItem ContentType="Article" DocID="HQ00088" LinkType="Internal" ObjectID="701D9D6A-2877-4596-B7CBB9C8BF8B6DD7" Title="Over-the-counter laxatives for constipation: Use with caution" Url="http://www.mayoclinic.com/health/laxatives/HQ00088" />
+	</RelatedLinksBox>
+</Disease>

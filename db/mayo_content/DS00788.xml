@@ -1,0 +1,288 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00788
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prehypertension/DS00788
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure">
+						<Keyword MCVID="4225" Title="Prehypertension" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D37E3592-E7FF-0DBD-137E686E8DA4F36A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prehypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				pre-hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertention
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood presure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Slightly elevated blood pressure is known as prehypertension. Prehypertension will likely turn into high blood pressure (hypertension) if you don&apos;t make lifestyle changes, such as to start exercising and eating healthier. Both prehypertension and high blood pressure increase your risk of heart attack, stroke and heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+A blood pressure reading has two numbers. The first, or upper, number measures the pressure in your arteries when your heart beats (systolic pressure). The second, or lower, number measures the pressure in your arteries between beats (diastolic pressure). Prehypertension is a systolic pressure from 120 to 139 millimeters of mercury (mm Hg) or a diastolic pressure from 80 to 89 mm Hg. 
+&lt;/p&gt;
+&lt;p&gt;
+Weight loss, exercise and other healthy lifestyle changes can often control prehypertension &amp;mdash; and set the stage for a lifetime of better health. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prehypertension doesn&apos;t cause symptoms. In fact, severe high blood pressure may not cause symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+The only way to detect prehypertension is to keep track of your blood pressure readings. Have your blood pressure checked at each doctor&apos;s visit &amp;mdash; or check it yourself at home with a home blood pressure monitoring device. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Ask your doctor for a blood pressure reading at least once every two years. You may need more-frequent readings if you have prehypertension or other risk factors for cardiovascular disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Any factor that increases pressure against the artery walls can lead to prehypertension. Atherosclerosis, which is the buildup of fatty deposits in your arteries, can lead to high blood pressure. Sometimes an underlying condition causes blood pressure to rise. Possible conditions that can lead to prehypertension or high blood pressure include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Atherosclerosis&lt;/li&gt;
+	&lt;li&gt;Sleep apnea&lt;/li&gt;
+	&lt;li&gt;Kidney disease&lt;/li&gt;
+	&lt;li&gt;Adrenal disease&lt;/li&gt;
+	&lt;li&gt;Thyroid disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain medications &amp;mdash; including birth control pills, cold remedies, decongestants, over-the-counter pain relievers and some prescription drugs &amp;mdash; also may cause blood pressure to temporarily rise. Illegal drugs, such as cocaine and amphetamines, can have the same effect. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, however, high blood pressure develops gradually over many years without a specific identifiable cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for prehypertension include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being overweight or obese.&lt;/strong&gt; A primary risk factor is being overweight. The greater your body mass, the more blood you need to supply oxygen and nutrients to your tissues. As the volume of blood circulated through your blood vessels increases, so does the force on your artery walls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Younger adults are more likely to have prehypertension than are older adults &amp;mdash; probably because most older adults have progressed to high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Prehypertension is more common in men than in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of high blood pressure.&lt;/strong&gt; High blood pressure tends to run in families. If a first-degree relative, such as a parent or sibling, has high blood pressure, you&apos;re more likely to develop the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedentary lifestyle.&lt;/strong&gt; Not exercising can lead to the development of coronary artery disease, which in turn can increase your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diet high in sodium or low in potassium.&lt;/strong&gt; Sodium and potassium are two key nutrients in the way your body regulates your blood pressure. If you have too much sodium or too little potassium in your diet, you&apos;re more likely to have high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco use.&lt;/strong&gt; Smoking cigarettes, chewing tobacco or even being around other people who are smoking (secondhand smoke) can increase your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol use.&lt;/strong&gt; Drinking more than two drinks a day if you&apos;re a man younger than 65, or more than one drink a day if you&apos;re a woman or a man older than age 65 can increase your blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain chronic conditions &amp;mdash; including high cholesterol, diabetes and sleep apnea &amp;mdash; may increase the risk of prehypertension as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prehypertension itself doesn&apos;t often have complications. If you have prehypertension, it&apos;s likely to worsen and develop into high blood pressure (hypertension). The term &quot;prehypertension&quot; is often used by doctors to signal that it&apos;s time to begin making lifestyle changes or, if you have certain conditions such as diabetes, to start taking medications to stop your blood pressure from rising. 
+&lt;/p&gt;
+&lt;p&gt;
+High blood pressure can damage your organs and increase the risk of heart attack, heart failure, stroke and dementia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood pressure is measured with an inflatable arm cuff and a pressure-measuring gauge. A blood pressure reading, given in millimeters of mercury (mm Hg), has two numbers. The first, or upper, number measures the pressure in your arteries when your heart beats (systolic pressure). The second, or lower, number measures the pressure in your arteries between beats (diastolic pressure). 
+&lt;/p&gt;
+&lt;p&gt;
+The National Heart, Lung, and Blood Institute says normal blood pressure is below 120/80. Higher readings are classified as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prehypertension &amp;mdash; 120/80 to 139/89&lt;/li&gt;
+	&lt;li&gt;Stage 1 hypertension &amp;mdash; 140/90 to 159/99&lt;/li&gt;
+	&lt;li&gt;Stage 2 hypertension &amp;mdash; 160/100 or higher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because blood pressure tends to fluctuate, a diagnosis of prehypertension is based on the average of two or more blood pressure readings taken on separate occasions in a consistent manner. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have prehypertension accompanied by diabetes, kidney disease or cardiovascular disease, your doctor may recommend blood pressure medication in addition to lifestyle changes. The benefits of medication for other adults with prehypertension are less clear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As your blood pressure increases, so does your risk of cardiovascular disease. That&apos;s why it&apos;s so important to control prehypertension. The key is a commitment to healthy lifestyle changes. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Try the Dietary Approaches to Stop Hypertension (DASH) diet. Choose fruits, vegetables, whole grains and low-fat dairy foods. Eat less saturated fat and total fat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you&apos;re overweight, losing even 5 pounds (2.3 kilograms) can lower your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use less salt.&lt;/strong&gt; A lower sodium level &amp;mdash; 1,500 milligrams (mg) a day &amp;mdash; is appropriate for people 51 years of age or older, and individuals of any age who are African-American or who have hypertension, diabetes or chronic kidney disease. Otherwise healthy people can aim for 2,300 mg a day or less. While you can reduce the amount of salt you eat by putting down the saltshaker, you should also pay attention to the amount of salt that&apos;s in the processed foods you eat, such as canned soups or frozen dinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase physical activity.&lt;/strong&gt; Regular physical activity can help lower your blood pressure and keep your weight under control. Strive for at least 30 minutes of physical activity a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol.&lt;/strong&gt; If you choose to drink alcohol, do so in moderation. For healthy adults, that means up to one drink a day for women of all ages and men older than age 65, and up to two drinks a day for men age 65 and younger.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The same healthy lifestyle changes recommended to treat prehypertension also help prevent high blood pressure. You&apos;ve heard it before &amp;mdash; eat healthy foods, exercise regularly, maintain a healthy weight, drink less alcohol. But take the advice to heart. Start adopting healthier habits today. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prehypertension
+	</Title>
+	<Abstract>
+		Prehypertension &amp;mdash; Comprehensive overview covers treatment and prevention of this precursor to high blood pressure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01409" LinkType="Internal" ObjectID="EA3ADB22-E7FF-0DBD-15BFFADA0E76F71B" Title="Beta blockers: Do they cause weight gain?" Url="http://www.mayoclinic.com/health/beta-blockers/AN01409" />
+		<LinkItem ContentType="Answer" DocID="AN01805" LinkType="Internal" ObjectID="E642627E-E7FF-0DBD-127101A5D18D71A5" Title="Blood pressure medications: Can they raise my triglycerides?" Url="http://www.mayoclinic.com/health/blood-pressure-medications/AN01805" />
+		<LinkItem ContentType="Video" DocID="MM00785" LinkType="Internal" ObjectID="E4AF5952-E281-9FDB-A49D030ABA3ADA63" Title="Video: How to measure blood pressure using an automatic monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00785" />
+		<LinkItem ContentType="Video" DocID="MM00784" LinkType="Internal" ObjectID="E4AC6F86-E982-CDFA-7000379CDB6D02C5" Title="Video: How to measure blood pressure using a manual monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00784" />
+		<LinkItem ContentType="Video" DocID="MM00783" LinkType="Internal" ObjectID="E4A91387-DA91-1FD3-6FA25DF674886A49" Title="Video: What is blood pressure?" Url="http://www.mayoclinic.com/health/what-is-blood-pressure/MM00783" />
+		<LinkItem ContentType="Answer" DocID="AN00391" LinkType="Internal" ObjectID="E3340A96-EE3F-459C-ADCF5542FB8031D2" Title="Blood pressure: Does it have a daily pattern?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00391" />
+		<LinkItem ContentType="Answer" DocID="AN01224" LinkType="Internal" ObjectID="E2C8DF16-2A5D-9994-EE1CD5A39AE77278" Title="Beta blockers: How do they affect exercise?" Url="http://www.mayoclinic.com/health/beta-blockers/AN01224" />
+		<LinkItem ContentType="Answer" DocID="AN01523" LinkType="Internal" ObjectID="CED59AD9-E7FF-0DBD-189A34D534017ACC" Title="Resperate: Can it help reduce blood pressure?" Url="http://www.mayoclinic.com/health/resperate/AN01523" />
+		<LinkItem ContentType="Answer" DocID="AN00357" LinkType="Internal" ObjectID="C22A32DF-E88A-4A19-ACF061ACA161F96A" Title="Blood pressure: Can it be higher in one arm?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00357" />
+		<LinkItem ContentType="Answer" DocID="AN01871" LinkType="Internal" ObjectID="B957C014-E7FF-0DBD-15B79F240E5F9EC4" Title="Calcium supplements: Do they interfere with blood pressure drugs?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01871" />
+		<LinkItem ContentType="Answer" DocID="AN01086" LinkType="Internal" ObjectID="9CD2F26A-4D26-4A8F-A56633C979B71EC0" Title="Anxiety: A cause of high blood pressure?" Url="http://www.mayoclinic.com/health/anxiety/AN01086" />
+		<LinkItem ContentType="Table" DocID="HI00043" LinkType="Internal" ObjectID="9A5682D3-EA4F-4B75-9AD9B2FA46746B6C" Title="Blood pressure chart: What your reading means" Url="http://www.mayoclinic.com/health/blood-pressure/HI00043" />
+		<LinkItem ContentType="Answer" DocID="AN01113" LinkType="Internal" ObjectID="99858DDA-4298-4DC2-83B13F42E9CCB7D5" Title="Isolated systolic hypertension: A health concern?" Url="http://www.mayoclinic.com/health/hypertension/AN01113" />
+		<LinkItem ContentType="Answer" DocID="AN00637" LinkType="Internal" ObjectID="7BEA90EA-45BD-4052-B3CA28CDED7CCD0E" Title="Weightlifting: Bad for your blood pressure?" Url="http://www.mayoclinic.com/health/weightlifting/AN00637" />
+		<LinkItem ContentType="Answer" DocID="AN00626" LinkType="Internal" ObjectID="6C95FDF4-3201-4DA8-865B9C4E129DE8D6" Title="Hypertensive crisis: What are the symptoms?" Url="http://www.mayoclinic.com/health/hypertensive-crisis/AN00626" />
+		<LinkItem ContentType="Answer" DocID="AN00792" LinkType="Internal" ObjectID="6488C9E0-4259-425B-975EDA39F3378760" Title="Caffeine: How does it affect blood pressure?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00792" />
+		<LinkItem ContentType="Answer" DocID="AN01786" LinkType="Internal" ObjectID="59D4C6A4-E7FF-0DBD-17D7F3407E1DB63D" Title="Blood pressure: Is it affected by cold weather?" Url="http://www.mayoclinic.com/health/blood-pressure/AN01786" />
+		<LinkItem ContentType="Answer" DocID="AN01463" LinkType="Internal" ObjectID="52A7F294-E7FF-0DBD-188D6FB40F00387D" Title="Menopause and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/menopause-and-high-blood-pressure/AN01463" />
+		<LinkItem ContentType="Answer" DocID="AN00352" LinkType="Internal" ObjectID="4E053CF6-9A01-4F1E-88EF4EFB7844213D" Title="Diuretics: A cause of low potassium?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00352" />
+		<LinkItem ContentType="Answer" DocID="AN01344" LinkType="Internal" ObjectID="48D55B0C-2A5D-9994-E2070E8DBEE5BAC0" Title="Sleep deprivation: A cause of high blood pressure?" Url="http://www.mayoclinic.com/health/sleep-deprivation/AN01344" />
+		<LinkItem ContentType="Answer" DocID="AN01605" LinkType="Internal" ObjectID="482CD8BB-E7FF-0DBD-187477B75BF4D2C3" Title="L-arginine: Does it lower blood pressure?" Url="http://www.mayoclinic.com/health/l-arginine/AN01605" />
+		<LinkItem ContentType="Answer" DocID="AN01927" LinkType="Internal" ObjectID="4749301C-E7FF-0DBD-1C750E4DE8E2856B" Title="High blood pressure and cold remedies: Which are safe?" Url="http://www.mayoclinic.com/health/high-blood-pressure/AN01927" />
+		<LinkItem ContentType="Answer" DocID="AN00925" LinkType="Internal" ObjectID="46A20906-5691-4B4F-BF4B99510FDE9DC7" Title="Blood pressure readings: Why higher at home?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00925" />
+		<LinkItem ContentType="Answer" DocID="AN01926" LinkType="Internal" ObjectID="43031CCA-E7FF-0DBD-1E620A538B1217A7" Title="Blood pressure cuff: Does size matter?" Url="http://www.mayoclinic.com/health/blood-pressure-cuff/AN01926" />
+		<LinkItem ContentType="Answer" DocID="AN01496" LinkType="Internal" ObjectID="30A83E05-E7FF-0DBD-1A10CF3D8AFDC8D3" Title="Blood pressure medication: Still necessary if I lose weight?" Url="http://www.mayoclinic.com/health/blood-pressure-medication/AN01496" />
+		<LinkItem ContentType="Answer" DocID="AN00968" LinkType="Internal" ObjectID="20C60920-4142-4A35-99621C105DDACB6C" Title="Pulse pressure: An indicator of heart health?" Url="http://www.mayoclinic.com/health/pulse-pressure/AN00968" />
+		<LinkItem ContentType="Answer" DocID="AN02075" LinkType="Internal" ObjectID="1F34C088-C0FA-8D35-216AD8B2A7293F30" Title="Can whole-grain foods lower blood pressure?" Url="http://www.mayoclinic.com/health/whole-grain-foods/AN02075" />
+		<LinkItem ContentType="Answer" DocID="AN02014" LinkType="Internal" ObjectID="18414840-0787-01C2-EDA51F2BFC00878C" Title="White-coat hypertension: When blood pressure rises at the doctor&apos;s office" Url="http://www.mayoclinic.com/health/white-coat-hypertension/AN02014" />
+		<LinkItem ContentType="Answer" DocID="AN01839" LinkType="Internal" ObjectID="10D4EF3C-E7FF-0DBD-1FB6834D9B1CB13E" Title="Wrist blood pressure monitors: Are they accurate?" Url="http://www.mayoclinic.com/health/wrist-blood-pressure-monitors/AN01839" />
+		<LinkItem ContentType="Answer" DocID="AN00567" LinkType="Internal" ObjectID="10CD97B6-69B4-4765-AAC24EA41546EB0D" Title="Free blood pressure machines: Are they accurate?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00567" />
+		<LinkItem ContentType="Answer" DocID="AN00318" LinkType="Internal" ObjectID="0D0864BA-4B41-4A21-9E4E20422944FF2E" Title="Alcohol: Does it affect blood pressure?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00318" />
+		<LinkItem ContentType="Article" DocID="HI00057" LinkType="Internal" ObjectID="E8A46831-F3A5-4B73-9D4D158B904FA5F7" Title="Vasodilators" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00057" />
+		<LinkItem ContentType="Article" DocID="HI00030" LinkType="Internal" ObjectID="E7492D61-D3D0-4624-9EBDA3A85E08B557" Title="Diuretics" Url="http://www.mayoclinic.com/health/diuretics/HI00030" />
+		<LinkItem ContentType="Article" DocID="HI00016" LinkType="Internal" ObjectID="D84ACA1C-2A12-4A75-900208367D504614" Title="Get the most out of home blood pressure monitoring" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00016" />
+		<LinkItem ContentType="Article" DocID="HI00061" LinkType="Internal" ObjectID="CB1CED06-E45C-41E1-B860780817DE5EEE" Title="Calcium channel blockers" Url="http://www.mayoclinic.com/health/calcium-channel-blockers/HI00061" />
+		<LinkItem ContentType="Article" DocID="HI00060" LinkType="Internal" ObjectID="C0E0B21D-8943-4415-99B10B646B4EE634" Title="Angiotensin-converting enzyme (ACE) inhibitors" Url="http://www.mayoclinic.com/health/ace-inhibitors/HI00060" />
+		<LinkItem ContentType="Article" DocID="HI00027" LinkType="Internal" ObjectID="A4B126D1-26BB-4A5C-8F616E89C237E24A" Title="10 ways to control high blood pressure without medication" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00027" />
+		<LinkItem ContentType="Article" DocID="HI00028" LinkType="Internal" ObjectID="82388918-C8B7-4322-87CE9FCD15FD393F" Title="Choosing blood pressure medications" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00028" />
+		<LinkItem ContentType="Article" DocID="HI00062" LinkType="Internal" ObjectID="6DF4F95D-E7FF-0DBD-1306F218EC685233" Title="High blood pressure dangers: Hypertension&apos;s effects on your body" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00062" />
+		<LinkItem ContentType="Article" DocID="HI00024" LinkType="Internal" ObjectID="45DF4744-A2FE-4E0A-AE71D442093FDC2F" Title="Exercise: A drug-free approach to lowering high blood pressure" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00024" />
+		<LinkItem ContentType="Article" DocID="HI00054" LinkType="Internal" ObjectID="3AF3E6F5-A43E-43DE-9E5E1707B87E8A58" Title="Angiotensin II receptor blockers" Url="http://www.mayoclinic.com/health/angiotensin-II-receptor-blockers/HI00054" />
+		<LinkItem ContentType="Article" DocID="HI00059" LinkType="Internal" ObjectID="1D095753-6FDD-4079-AF6DA015DA2BD68F" Title="Beta blockers" Url="http://www.mayoclinic.com/health/beta-blockers/HI00059" />
+		<LinkItem ContentType="Article" DocID="HI00056" LinkType="Internal" ObjectID="1B1D19FB-94E0-4340-BAA6FA799836AF08" Title="Central-acting agents" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00056" />
+		<LinkItem ContentType="Article" DocID="HI00055" LinkType="Internal" ObjectID="13E80AE3-3DFF-4989-B3A6E6049BE5988D" Title="Alpha blockers" Url="http://www.mayoclinic.com/health/alpha-blockers/HI00055" />
+		<LinkItem ContentType="Article" DocID="HI00091" LinkType="Internal" ObjectID="13476B30-E7FF-0DBD-18FF920E1D5480C7" Title="High blood pressure and sex: Overcome the challenges" Url="http://www.mayoclinic.com/health/high-blood-pressure-and-sex/HI00091" />
+		<LinkItem ContentType="Article" DocID="HI00092" LinkType="Internal" ObjectID="13281AD6-E7FF-0DBD-106BB14106AB2F8C" Title="Stress and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/stress-and-high-blood-pressure/HI00092" />
+		<LinkItem ContentType="Table" DocID="HI00048" LinkType="Internal" ObjectID="BF9EC580-06B1-40EC-B4FD27D51F856FBB" Title="DASH diet: Guide to recommended servings" Url="http://www.mayoclinic.com/health/dash-diet/HI00048" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01180" LinkType="Internal" ObjectID="8FA1E447-9FAA-8A0D-C4932F5017C91661" Title="Blood pressure test" Url="http://www.mayoclinic.com/health/blood-pressure-test/MY01180" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Article" DocID="HI00047" LinkType="Internal" ObjectID="FE95D456-5ADE-4E86-8A957584F1FC49A4" Title="DASH diet: Healthy eating to lower your blood pressure" Url="http://www.mayoclinic.com/health/dash-diet/HI00047" />
+		<LinkItem ContentType="Article" DocID="HI00020" LinkType="Internal" ObjectID="70354217-6336-473A-9009C1A4226569A2" Title="DASH diet: Top 5 tips for shopping and cooking" Url="http://www.mayoclinic.com/health/dash-diet/HI00020" />
+		<LinkItem ContentType="Article" DocID="HI00021" LinkType="Internal" ObjectID="2CEE92F2-74A2-468C-8DC51ED91D249468" Title="DASH diet: Top 5 tips for dining out" Url="http://www.mayoclinic.com/health/dash-diet/HI00021" />
+	</RelatedLinksBox>
+</Disease>

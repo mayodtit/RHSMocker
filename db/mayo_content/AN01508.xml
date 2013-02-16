@@ -1,0 +1,130 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01508
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dental-fillings/AN01508
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-22
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1614" Title="Teeth">
+						<Keyword MCVID="2239" Title="Cavities" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CEC9B85D-E7FF-0DBD-149D98D6ED7A8DE1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dental fillings
+			</MetaKeyword>
+			<MetaKeyword>
+				cavities
+			</MetaKeyword>
+			<MetaKeyword>
+				dental
+			</MetaKeyword>
+			<MetaKeyword>
+				metal dental fillings
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth decay
+			</MetaKeyword>
+			<MetaKeyword>
+				dental amalgam
+			</MetaKeyword>
+			<MetaKeyword>
+				mercury fillings
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+That depends on the reason for your dentist&apos;s recommendation. 
+&lt;/p&gt;
+&lt;p&gt;
+If your metal dental fillings are defective or show decay, it&apos;s important to replace them. Untreated decay may eventually lead to an infection (abscess). In some cases, replacing metal dental fillings may benefit the long-term health of the tooth. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, replacing metal dental fillings for aesthetic reasons should only be done after careful consideration and if your dentist feels it will not compromise the long-term health of the tooth. Likewise, there&apos;s no need to replace metal dental fillings because of concerns about mercury in the fillings. 
+&lt;/p&gt;
+&lt;p&gt;
+Most metal dental fillings are dental amalgam &amp;mdash; a stable alloy made with mercury, silver, tin, copper and possibly other metals. Although concerns have been raised over the years about the safety of mercury in dental amalgam, researchers have proved the concerns to be unfounded. The American Dental Association supports the use of dental amalgam as a safe, reliable and effective treatment for dental decay. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re unsure whether you need to replace your metal dental fillings, ask your dentist to explain the options and help you understand what&apos;s best in your case. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dental fillings: Should metal fillings be replaced with composite?
+	</Title>
+	<Abstract>
+		If metal dental fillings are defective or show decay, they should be replaced.
+	</Abstract>
+	<Question>
+		My dentist recommended replacing my metal dental fillings with a composite material, which would be quite expensive. Is this necessary?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00084" LinkType="Internal" ObjectID="A7CC3554-E7FF-0DBD-134D94C04D992BD1" Title="Dental implant surgery" Url="http://www.mayoclinic.com/health/dental-implant-surgery/MY00084" />
+		<LinkItem ContentType="Answer" DocID="AN02028" LinkType="Internal" ObjectID="85BE556D-98E2-9A88-EC5FE30D93191375" Title="Denture care: How do I clean dentures?" Url="http://www.mayoclinic.com/health/denture-care/AN02028" />
+		<LinkItem ContentType="Answer" DocID="AN01705" LinkType="Internal" ObjectID="842D6CED-E7FF-0DBD-1719F03272E7454C" Title="Electric toothbrush: Better than a manual toothbrush?" Url="http://www.mayoclinic.com/health/electric-toothbrush/AN01705" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01097" LinkType="Internal" ObjectID="704D13FE-0829-BF22-0E4891FBD68ED7B1" Title="Dental exam" Url="http://www.mayoclinic.com/health/dental-exam/MY01097" />
+		<LinkItem ContentType="Answer" DocID="AN01782" LinkType="Internal" ObjectID="59D547E7-E7FF-0DBD-154F0B6D3D602583" Title="Dental floss vs. water pick: Which is better?" Url="http://www.mayoclinic.com/health/dental-floss/AN01782" />
+		<LinkItem ContentType="FirstAid" DocID="FA00013" LinkType="Internal" ObjectID="4D361950-7364-4E13-9743FF129A64E44C" Title="Toothache: First aid" Url="http://www.mayoclinic.com/health/first-aid-toothache/FA00013" />
+		<LinkItem ContentType="Answer" DocID="AN02098" LinkType="Internal" ObjectID="131966DC-BA5C-3DD5-69F8D82D1AB660A8" Title="When to brush your teeth" Url="http://www.mayoclinic.com/health/brushing-your-teeth/AN02098" />
+		<LinkItem ContentType="Answer" DocID="AN02164" LinkType="Internal" ObjectID="04267C9E-FB3F-1681-DFC000796A08EAE0" Title="Sensitive teeth: What treatments are available?" Url="http://www.mayoclinic.com/health/sensitive-teeth/AN02164" />
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+		<LinkItem ContentType="Answer" DocID="AN02002" LinkType="Internal" ObjectID="360DBB28-EB73-6C19-32C01938DDB2F6DF" Title="OraVerse: Reversing dental numbness" Url="http://www.mayoclinic.com/health/oraverse/AN02002" />
+		<LinkItem ContentType="Disease" DocID="DS01189" LinkType="Internal" ObjectID="507651FE-F8EB-F058-3F436BCF01072504" Title="Tooth abscess" Url="http://www.mayoclinic.com/health/tooth-abscess/DS01189" />
+		<LinkItem ContentType="Disease" DocID="DS00896" LinkType="Internal" ObjectID="CD2AE532-E7FF-0DBD-123D71121E1B9589" Title="Cavities/tooth decay" Url="http://www.mayoclinic.com/health/cavities/DS00896" />
+	</RelatedLinksBox>
+</Answer>

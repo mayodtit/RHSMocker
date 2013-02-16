@@ -1,0 +1,361 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00757
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/whipples-disease/DS00757
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2792" Title="Whipple&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6D104B2D-E7FF-0DBD-14FCBE40A5D9DC3A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Whipple&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				whipple disease
+			</MetaKeyword>
+			<MetaKeyword>
+				whipples disease
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal lipodystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				lipodystrophy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whipple&apos;s disease is a rare bacterial infection that most often affects your gastrointestinal system. Whipple&apos;s disease interferes with normal digestion by impairing the breakdown of foods, such as fats and carbohydrates, and hampering your body&apos;s ability to absorb nutrients. 
+&lt;/p&gt;
+&lt;p&gt;
+Whipple&apos;s disease also can infect other organs, including your brain, heart, joints and eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+Without proper treatment, Whipple&apos;s disease can be serious or fatal. However, a course of antibiotics can treat Whipple&apos;s disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of small intestine lining and villi
+" Caption="The small intestine has a ridged lining covered with tiny finger-like projections called villi.
+" Height="60" Title="Small intestine lining" URI="/images/image_popup/thumbs/mcdc7_smallintestinethu.jpg" Width="60" />
+				<Image Alt="Illustration of small intestine lining and villi
+" Caption="The small intestine has a ridged lining covered with tiny finger-like projections called villi.
+" Height="473" Title="Small intestine lining" URI="/images/image_popup/mcdc7_smallintestine.jpg" Width="400" />
+				<HTML>
+					The small intestine has a ridged lining covered with tiny finger-like projections called villi.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Common signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+Gastrointestinal signs and symptoms are common in Whipple&apos;s disease and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal cramping and pain, which may worsen after meals&lt;/li&gt;
+	&lt;li&gt;Weight loss, associated with the malabsorption of nutrients&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other frequent signs and symptoms associated with Whipple&apos;s disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflamed joints, particularly your ankles, knees and wrists&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Less common signs and symptoms &lt;/strong&gt;&lt;br /&gt;
+In some cases, signs and symptoms of Whipple&apos;s disease may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Enlarged lymph nodes&lt;/li&gt;
+	&lt;li&gt;Skin darkening (hyperpigmentation) in areas exposed to the sun and in scars&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Enlarged spleen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Neurological signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty walking&lt;/li&gt;
+	&lt;li&gt;Visual impairment, including lack of control of eye movements&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Memory loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms tend to develop slowly over a period of many years in most people with this disease. In some cases, some symptoms, such as joint pain and weight loss, develop years before the gastrointestinal symptoms that lead to diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Whipple&apos;s disease is potentially life-threatening, yet usually treatable. Contact your doctor if you experience unusual signs or symptoms, such as unexplained weight loss or joint pain. Your doctor can perform tests to determine the cause of your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Even after the infection is diagnosed and you&apos;re receiving treatment, let your doctor know if your symptoms don&apos;t improve. Sometimes antibiotic therapy isn&apos;t effective because the bacteria are resistant to the particular drug you&apos;re taking. The disease can recur, so it&apos;s important to watch for the re-emergence of symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of Whipple&apos;s disease is infection with the bacterium Tropheryma whipplei. This bacterium initially affects the mucosal lining of your small intestine, forming small lesions within the intestinal wall. The bacterium also damages the fine, hair-like projections (villi) that line the small intestine. With time, the infection can spread to other parts of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Not much is known about the bacterium. Although it seems readily present in the environment, scientists don&apos;t really know where it comes from or how it&apos;s transmitted to humans. Not everyone who carries the bacterium develops the disease. Some researchers believe that people with the disease may have a genetic defect in their immune system response that makes them more susceptible to becoming ill when exposed to the bacterium. 
+&lt;/p&gt;
+&lt;p&gt;
+Whipple&apos;s disease is extremely uncommon. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because so little is known about the bacterium that causes Whipple&apos;s disease, risk factors for the disease haven&apos;t been clearly identified. Based on available reports, it appears more likely to affect:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Men&lt;/li&gt;
+	&lt;li&gt;People ages 40 to 60&lt;/li&gt;
+	&lt;li&gt;Whites in North America and Europe&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The lining of your small intestine has fine, hair-like projections (villi) that help your body absorb nutrients. Whipple&apos;s disease damages the villi, impairing nutrient absorption. Nutritional deficiencies are common in people with Whipple&apos;s disease and can lead to fatigue, weakness, weight loss and joint pain.
+&lt;/p&gt;
+&lt;p&gt;
+Whipple&apos;s disease is a progressive and potentially fatal disease. Although the infection is rare, associated deaths continue to be reported, due in large part to late diagnoses and delayed treatment. Death often is caused by the spread of the infection to the central nervous system, which can cause irreversible damage.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of small intestine lining and villi
+" Caption="The small intestine has a ridged lining covered with tiny finger-like projections called villi.
+" Height="60" Title="Small intestine lining" URI="/images/image_popup/thumbs/mcdc7_smallintestinethu.jpg" Width="60" />
+				<Image Alt="Illustration of small intestine lining and villi
+" Caption="The small intestine has a ridged lining covered with tiny finger-like projections called villi.
+" Height="473" Title="Small intestine lining" URI="/images/image_popup/mcdc7_smallintestine.jpg" Width="400" />
+				<HTML>
+					The small intestine has a ridged lining covered with tiny finger-like projections called villi.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms common to Whipple&apos;s disease, make an appointment with your doctor. Whipple&apos;s disease is rare, and the signs and symptoms can indicate other, more common disorders, so it can be hard to diagnose. As a result, it&apos;s often diagnosed in its later stages. However, an early diagnosis reduces the risk of serious health risks associated with not treating the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor is uncertain about the diagnosis, he or she may refer you to a doctor who specializes in digestive diseases or another specialist based on the symptoms you&apos;re having. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when you first noticed them and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed and the names of all medications, vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life. These factors can be connected to digestive signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For signs and symptoms common to Whipple&apos;s disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my condition?&lt;/li&gt;
+	&lt;li&gt;What diagnostic tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How do I manage them together?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;For how long will I need to take medications?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of a recurrence?&lt;/li&gt;
+	&lt;li&gt;How often will you need to see me for monitoring?&lt;/li&gt;
+	&lt;li&gt;Do I need to change my diet?&lt;/li&gt;
+	&lt;li&gt;Should I take any nutritional supplements?&lt;/li&gt;
+	&lt;li&gt;Are there any lifestyle changes I can make to help reduce or manage my symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+A doctor who sees you for possible Whipple&apos;s disease is likely to ask a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did you notice them?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms typically worse after a meal?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight without trying?&lt;/li&gt;
+	&lt;li&gt;Do your joints hurt?&lt;/li&gt;
+	&lt;li&gt;Do you feel weak or fatigued?&lt;/li&gt;
+	&lt;li&gt;Do you have difficulty breathing or a cough?&lt;/li&gt;
+	&lt;li&gt;Have you developed confusion or memory problems?&lt;/li&gt;
+	&lt;li&gt;Have you noticed problems with your eyes or vision?&lt;/li&gt;
+	&lt;li&gt;Has anyone close to you had similar signs or symptoms recently?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions, including food allergies?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of bowel disorders or colon cancer?&lt;/li&gt;
+	&lt;li&gt;What medications do you take, including prescription and over-the-counter medications, vitamins, herbs and supplements?&lt;/li&gt;
+	&lt;li&gt;Are you allergic to any medications?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The process of diagnosing Whipple&apos;s disease typically includes the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will likely begin with a physical exam, looking for signs and symptoms that suggest the presence of this condition &amp;mdash; for example, abdominal tenderness and skin darkening, particularly on sun-exposed parts of your body.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Biopsy.&lt;/strong&gt; An important step in diagnosing Whipple&apos;s disease is taking a tissue sample (biopsy), usually from the lining of the small intestine. To do this, your doctor typically performs an upper endoscopy. The procedure uses a thin, flexible scope that passes through your mouth, throat, esophagus and stomach to your small intestine. The scope allows your doctor to view your digestive passages and obtain biopsies.
+	&lt;/p&gt;
+	&lt;p&gt;
+	During the procedure, tissue samples are removed from several intestinal sites. This tissue is microscopically examined for the presence of disease-causing bacteria and their lesions, and specifically for Tropheryma whipplei bacteria. If biopsies of the small intestine don&apos;t confirm the diagnosis, your doctor might biopsy an enlarged lymph node or perform other tests. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A DNA-based test known as polymerase chain reaction, which is available at some medical centers, can detect Tropheryma whipplei bacteria in biopsy specimens or spinal fluid samples. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may also order blood tests, such as a complete blood count. Blood tests can detect certain conditions associated with Whipple&apos;s disease, particularly anemia, which is a decline in the number of red blood cells, and low concentrations of albumin, a protein in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of Whipple&apos;s disease is with antibiotics, either alone or in combination, which can destroy the bacteria causing the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment is long term, generally lasting a year or two, in an effort to destroy the bacteria. &amp;nbsp;But relief from symptoms typically comes much quicker, often within the first week or two. Most people with no brain or nervous system complications recover completely after a full course of antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+When choosing antibiotics, doctors often select those that not only wipe out infections of the intestinal tract but also cross the blood-brain barrier &amp;mdash; a layer of tissue around your brain &amp;mdash; in order to eliminate bacteria that may have entered your brain and central nervous system. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the lengthy use of antibiotics, your doctor will need to monitor your condition for development of resistance to the drugs. If you relapse during treatment, your doctor may change your antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for standard cases&lt;/strong&gt; &lt;br /&gt;
+In most cases, Whipple&apos;s disease therapy begins with 14 days of intravenous (IV) ceftriaxone (Rocephin). Following that initial therapy, you&apos;ll likely take an oral course of sulfamethoxazole-trimethoprim, or SMX- TMP, (Bactrim, Septra), for one to two years. A shorter duration of antibiotic treatment may lead to a relapse. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible side effects of ceftriaxone and SMX- TMP include mild diarrhea, nausea and vomiting. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for severe cases&lt;/strong&gt; &lt;br /&gt;
+If you have neurologic symptoms, you may be started immediately on a 12- to 18-month course of oral doxycycline (Vibramycin) combined with the antimalarial drug hydroxychloroquine (Plaquenil). You&apos;ll also be given long-term antibiotics that can enter the cerebrospinal fluid and brain, such as TMP-SMX. 
+&lt;/p&gt;
+&lt;p&gt;
+Possible side effects of doxycycline include loss of appetite, nausea, vomiting and sensitivity to sunlight. Hydroxychloroquine may cause loss of appetite, diarrhea, headache, stomach cramps and dizziness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptom relief&lt;/strong&gt; &lt;br /&gt;
+Your symptoms should improve within one to two weeks of starting antibiotic treatment and go away entirely within about one month. 
+&lt;/p&gt;
+&lt;p&gt;
+But even though symptoms improve quickly, further laboratory tests may reveal presence of the bacteria for two or more years after you begin taking antibiotics. Follow-up testing will help your doctor determine when you can stop taking antibiotics. Regular monitoring can also indicate development of resistance to a particular drug, often reflected in a lack of improvement of your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Even after successful treatment, Whipple&apos;s disease can recur. Doctors usually advise regular checkups. If you&apos;ve experienced a recurrence, you&apos;ll need to repeat antibiotic therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Taking supplements&lt;/strong&gt; &lt;br /&gt;
+Because of the nutrient-absorption difficulties associated with Whipple&apos;s disease, your doctor may recommend taking vitamin and mineral supplements to ensure adequate nutrition. Your body may require additional vitamin D, folic acid, calcium, iron and magnesium. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Whipple&apos;s disease
+	</Title>
+	<Abstract>
+		Whipple&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this rare primarily gastrointestinal infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

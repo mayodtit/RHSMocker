@@ -1,0 +1,441 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00165
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gallstones/DS00165
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-23
+		</UpdateDate>
+		<PublicationDate>
+			2000-11-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1857" Title="Gallbladder and bile duct">
+						<Keyword MCVID="1860" Title="Gallstones" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7E7F8A87-F164-441E-BB6E7731D06D9B47
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gallstones
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder
+			</MetaKeyword>
+			<MetaKeyword>
+				bile duct
+			</MetaKeyword>
+			<MetaKeyword>
+				bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium salts
+			</MetaKeyword>
+			<MetaKeyword>
+				cholecystitis
+			</MetaKeyword>
+			<MetaKeyword>
+				cholangitis
+			</MetaKeyword>
+			<MetaKeyword>
+				gall stone
+			</MetaKeyword>
+			<MetaKeyword>
+				gallstone
+			</MetaKeyword>
+			<MetaKeyword>
+				gall stones
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder disease
+			</MetaKeyword>
+			<MetaKeyword>
+				MRCP
+			</MetaKeyword>
+			<MetaKeyword>
+				cholelithiasis
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				galbladder
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder attack
+			</MetaKeyword>
+			<MetaKeyword>
+				gal bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				gallbladder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				gull bladder
+			</MetaKeyword>
+			<MetaKeyword>
+				gall bladder removal
+			</MetaKeyword>
+			<MetaKeyword>
+				gallblader
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gallstones are hardened deposits of digestive fluid that can form in your gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver. The gallbladder holds a digestive fluid called bile that&apos;s released into your small intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+Gallstones range in size from as small as a grain of sand to as large as a golf ball. Some people develop just one gallstone, while others develop many gallstones at the same time. 
+&lt;/p&gt;
+&lt;p&gt;
+Gallstones are common in the United States. People who experience symptoms from their gallstones usually require gallbladder removal surgery. Gallstones that don&apos;t cause any signs and symptoms typically don&apos;t need treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing gallbladder and gallstones 
+" Caption="Gallstones are hardened deposits of bile that can form in your gallbladder. Bile is a digestive fluid produced in your liver and stored in your gallbladder. When you eat, your gallbladder contracts and empties bile into your small intestine (duodenum). 
+" Height="60" Title="Gallstones" URI="/images/image_popup/thumbs/tn990318.gif" Width="60" />
+				<Image Alt="Illustration showing gallbladder and gallstones 
+" Caption="Gallstones are hardened deposits of bile that can form in your gallbladder. Bile is a digestive fluid produced in your liver and stored in your gallbladder. When you eat, your gallbladder contracts and empties bile into your small intestine (duodenum). 
+" Height="333" Title="Gallstones" URI="/images/image_popup/ww990318.jpg" Width="400" />
+				<HTML>
+					Gallstones are hardened deposits of bile that can form in your gallbladder. Bile is a digestive fluid produced in your liver and stored in your gallbladder. When you eat, your gallbladder contracts ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gallstones may cause no signs or symptoms. If a gallstone lodges in a duct and causes a blockage, signs and symptoms may result, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden and rapidly intensifying pain in the upper right portion of your abdomen&lt;/li&gt;
+	&lt;li&gt;Sudden and rapidly intensifying pain in the center of your abdomen, just below your breastbone&lt;/li&gt;
+	&lt;li&gt;Back pain between your shoulder blades&lt;/li&gt;
+	&lt;li&gt;Pain in your right shoulder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Gallstone pain may last several minutes to a few hours. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek immediate care if you develop signs and symptoms of a serious gallstone complication, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain so intense that you can&apos;t sit still or find a comfortable position&lt;/li&gt;
+	&lt;li&gt;Yellowing of your skin and the whites of your eyes&lt;/li&gt;
+	&lt;li&gt;High fever with chills&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes gallstones to form. Doctors think gallstones may result when: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your bile contains too much cholesterol.&lt;/strong&gt; Normally, your bile contains enough chemicals to dissolve the cholesterol excreted by your liver. But if your liver excretes more cholesterol than your bile can dissolve, the excess cholesterol may form into crystals and eventually into stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your bile contains too much bilirubin.&lt;/strong&gt; Bilirubin is a chemical that&apos;s produced when your body breaks down red blood cells. Certain conditions cause your liver to make too much bilirubin, including liver cirrhosis, biliary tract infections and certain blood disorders. The excess bilirubin contributes to gallstone formation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your gallbladder doesn&apos;t empty correctly.&lt;/strong&gt; If your gallbladder doesn&apos;t empty completely or often enough, bile may become very concentrated and this contributes to the formation of gallstones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of gallstones&lt;/strong&gt; &lt;br /&gt;
+Types of gallstones that can form in the gallbladder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholesterol gallstones.&lt;/strong&gt; The most common type of gallstone, called a cholesterol gallstone, often appears yellow in color. These gallstones are composed mainly of undissolved cholesterol, but may contain other components.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pigment gallstones.&lt;/strong&gt; These dark brown or black stones form when your bile contains too much bilirubin. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of gallstones include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being female&lt;/li&gt;
+	&lt;li&gt;Being age 60 or older&lt;/li&gt;
+	&lt;li&gt;Being an American Indian&lt;/li&gt;
+	&lt;li&gt;Being a Mexican-American&lt;/li&gt;
+	&lt;li&gt;Being overweight or obese&lt;/li&gt;
+	&lt;li&gt;Being pregnant&lt;/li&gt;
+	&lt;li&gt;Eating a high-fat diet&lt;/li&gt;
+	&lt;li&gt;Eating a high-cholesterol diet&lt;/li&gt;
+	&lt;li&gt;Eating a low-fiber diet&lt;/li&gt;
+	&lt;li&gt;Having a family history of gallstones&lt;/li&gt;
+	&lt;li&gt;Having diabetes&lt;/li&gt;
+	&lt;li&gt;Losing weight very quickly&lt;/li&gt;
+	&lt;li&gt;Taking some cholesterol-lowering medications&lt;/li&gt;
+	&lt;li&gt;Taking medications that contain estrogen, such as hormone therapy drugs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of gallstones may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of the gallbladder.&lt;/strong&gt; A gallstone that becomes lodged in the neck of the gallbladder can cause inflammation of the gallbladder (cholecystitis). Cholecystitis can cause severe pain and fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blockage of the common bile duct.&lt;/strong&gt; Gallstones can block the tubes (ducts) through which bile flows from your gallbladder or liver to your small intestine. Jaundice and bile duct infection can result. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blockage of the pancreatic duct.&lt;/strong&gt; The pancreatic duct is a tube that runs from the pancreas to the common bile duct. Pancreatic juices, which aid in digestion, flow through the pancreatic duct. A gallstone can cause a blockage in the pancreatic duct, which can lead to inflammation of the pancreas (pancreatitis). Pancreatitis causes intense, constant abdominal pain and usually requires hospitalization. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gallbladder cancer.&lt;/strong&gt; People with a history of gallstones have an increased risk of gallbladder cancer. But gallbladder cancer is very rare, so even though the risk of cancer is elevated, the likelihood of gallbladder cancer is still very small.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pancreatitis caused by gallstones 
+" Caption="Gallstones are a common cause of pancreatitis. Gallstones, produced in the gallbladder, can block the bile duct, stopping pancreatic enzymes from traveling to the small intestine and forcing them back into the pancreas. The enzymes then begin to irritate the cells of the pancreas, causing the inflammation associated with pancreatitis.
+" Height="60" Title="Pancreatitis caused by gallstones" URI="/images/image_popup/thumbs/r7_pancreatitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pancreatitis caused by gallstones 
+" Caption="Gallstones are a common cause of pancreatitis. Gallstones, produced in the gallbladder, can block the bile duct, stopping pancreatic enzymes from traveling to the small intestine and forcing them back into the pancreas. The enzymes then begin to irritate the cells of the pancreas, causing the inflammation associated with pancreatitis.
+" Height="335" Title="Pancreatitis caused by gallstones" URI="/images/image_popup/r7_pancreatitis.jpg" Width="400" />
+				<HTML>
+					Gallstones are a common cause of pancreatitis. Gallstones, produced in the gallbladder, can block the bile duct, stopping pancreatic enzymes from traveling to the small intestine and forcing them ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of gallbladder cancer 
+" Caption="Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+" Height="60" Title="Gallbladder cancer" URI="/images/image_popup/thumbs/mcdc7_gallbladder_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of gallbladder cancer 
+" Caption="Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+" Height="321" Title="Gallbladder cancer" URI="/images/image_popup/mcdc7_gallbladder_cancer.jpg" Width="400" />
+				<HTML>
+					Gallbladder cancer begins in the cells of the gallbladder. Your gallbladder is a small, pear-shaped organ on the right side of your abdomen, just beneath your liver.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have signs or symptoms that worry you. If your doctor suspects you may have gallstones, you may be referred to a doctor who specializes in the digestive system (gastroenterologist) or to an abdominal surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of information to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to understand all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For gallstones, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are gallstones the likely cause of my abdominal pain?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is there a chance that my gallstones will go away without treatment?&lt;/li&gt;
+	&lt;li&gt;Do I need gallbladder removal surgery?&lt;/li&gt;
+	&lt;li&gt;What are the risks of surgery?&lt;/li&gt;
+	&lt;li&gt;How long does it take to recover from gallbladder surgery?&lt;/li&gt;
+	&lt;li&gt;Are there other treatment options for gallstones?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose gallstones include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to create pictures of your gallbladder.&lt;/strong&gt; Your doctor may recommend an abdominal ultrasound and a computerized tomography (CT) scan to create pictures of your gallbladder. These images can be analyzed to look for signs of gallstones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to check your bile ducts for gallstones.&lt;/strong&gt; A test that uses a special dye to highlight your bile ducts on images may help your doctor determine whether a gallstone is causing a blockage. Tests may include a hepatobiliary iminodiacetic acid (HIDA) scan, magnetic resonance imaging (MRI) or endoscopic retrograde cholangiopancreatography (ERCP). Gallstones discovered using ERCP can be removed during the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests to look for complications.&lt;/strong&gt; Blood tests may reveal an infection, jaundice, pancreatitis or other complications caused by gallstones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ERCP procedure
+" Caption="Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat, through your stomach and into the upper part of your small intestine. Air is used to inflate your intestinal tract so that your doctor can more easily see the openings of your pancreatic and bile ducts. A dye is then injected into the ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts.
+" Height="60" Title="ERCP procedure" URI="/images/image_popup/thumbs/d7_ercpthu.jpg" Width="60" />
+				<Image Alt="Illustration of ERCP procedure
+" Caption="Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat, through your stomach and into the upper part of your small intestine. Air is used to inflate your intestinal tract so that your doctor can more easily see the openings of your pancreatic and bile ducts. A dye is then injected into the ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts.
+" Height="446" Title="Endoscopic retrograde cholangiopancreatography" URI="/images/image_popup/d7_ercp.jpg" Width="400" />
+				<HTML>
+					Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat,...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Gallstones that don&apos;t cause signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+Gallstones that don&apos;t cause signs and symptoms, such as those detected during an ultrasound or CT scan done for some other condition, typically don&apos;t require treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend you be alert for symptoms of gallstone complications, such as intensifying pain in your upper right abdomen. If gallstone signs and symptoms occur in the future, you can have treatment. But most people with gallstones that don&apos;t cause symptoms will never need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for gallstones that cause signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+Treatment options for gallstones include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the gallbladder (cholecystectomy).&lt;/strong&gt; Your doctor may recommend surgery to remove your gallbladder, since gallstones frequently recur. Once your gallbladder is removed, bile flows directly from your liver into your small intestine, rather than being stored in your gallbladder. You don&apos;t need your gallbladder to live, and gallbladder removal doesn&apos;t affect your ability to digest food, but it can cause diarrhea, which is usually temporary. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to dissolve gallstones.&lt;/strong&gt; Medications you take by mouth may help dissolve gallstones. But it may take months or years of treatment to dissolve your gallstones in this way. Medications for gallstones aren&apos;t commonly used and are reserved for people who can&apos;t undergo surgery. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="60" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/thumbs/d7_cholecystectomythu.jpg" Width="60" />
+				<Image Alt="Image showing laparoscopic cholecystectomy 
+" Caption="Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove the gallbladder. The inset shows what the surgeon might see on the monitor during cholecystectomy. The gallbladder appears green. 
+" Height="360" Title="Laparoscopic cholecystectomy" URI="/images/image_popup/d7_cholecystectomy.jpg" Width="400" />
+				<HTML>
+					Special surgical tools and a tiny video camera are inserted through four incisions in your abdomen during laparoscopic cholecystectomy. The surgeon watches a monitor while guiding the tools to remove ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Remedies to prevent gallstones from causing complications&lt;/strong&gt; &lt;br /&gt;
+If you have gallstones that aren&apos;t causing signs or symptoms, you may worry that you&apos;ll experience pain or other symptoms of gallstones in the future. For this reason, some people turn to complementary and alternative medicine for gallstone cures. 
+&lt;/p&gt;
+&lt;p&gt;
+No alternative therapies have been proved to cure or dissolve gallstones. 
+&lt;/p&gt;
+&lt;p&gt;
+Some alternative therapies may help reduce your risk of gallstone complications, though. Ask your doctor about which therapies may be safe for you to try. Options might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eating a high-fiber diet that includes healthy fats.&lt;/strong&gt; Choose a diet that&apos;s full of a variety of fruits and vegetables. These high-fiber foods may help prevent additional gallstones from forming. Also include healthy, unsaturated fats in your diet. Foods that contain unsaturated fats include fish and nuts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking vitamin supplements.&lt;/strong&gt; People who don&apos;t get enough vitamin C, vitamin E or calcium may have an increased risk of gallstones. There isn&apos;t enough evidence to suggest that supplements containing these vitamins can prevent gallstones. Ask your doctor about the benefits and risks of vitamin supplements. The safest way to get more vitamins is to choose foods that contain them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can reduce your risk of gallstones if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t skip meals.&lt;/strong&gt; Try to stick to your usual mealtimes each day. Skipping meals or fasting can increase the risk of gallstones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight slowly.&lt;/strong&gt; If you need to lose weight, go slow. Rapid weight loss can increase the risk of gallstones. Aim to lose 1 or 2 pounds (0.5 to about 1 kilogram) a week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Obesity and overweight increase the risk of gallstones. Work to achieve a healthy weight by reducing the number of calories you eat and increasing the amount of physical activity you get. Once you achieve a healthy weight, work to maintain that weight by continuing your healthy diet and continuing to exercise.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gallstones
+	</Title>
+	<Abstract>
+		Gallstones &amp;mdash; Comprehensive overview covers symptoms, causes, treatment for this sometimes painful digestive disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00320" LinkType="Internal" ObjectID="BA11D80D-E7FF-0DBD-1D64187B86CF9EB2" Title="HIDA scan" Url="http://www.mayoclinic.com/health/hida-scan/MY00320" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00094" LinkType="Internal" ObjectID="B729B58C-E7FF-0DBD-12F16E2756745D18" Title="Bilirubin test" Url="http://www.mayoclinic.com/health/bilirubin/MY00094" />
+		<LinkItem ContentType="Answer" DocID="AN02176" LinkType="Internal" ObjectID="87A7D4F8-9CD6-5FC3-A89E583CA33FF4FE" Title="Can you recommend a diet after gallbladder removal?" Url="http://www.mayoclinic.com/health/gallbladder-removal-diet/AN02176" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00372" LinkType="Internal" ObjectID="63107CB6-E7FF-0DBD-13EE267CA11A29E0" Title="Cholecystectomy (gallbladder removal)" Url="http://www.mayoclinic.com/health/cholecystectomy/MY00372" />
+		<LinkItem ContentType="Answer" DocID="AN00067" LinkType="Internal" ObjectID="2F5BC8D1-F09D-495F-B0D4A305788B7E81" Title="Chronic diarrhea: A concern after gallbladder removal?" Url="http://www.mayoclinic.com/health/gallbladder-removal/AN00067" />
+		<LinkItem ContentType="Answer" DocID="AN01283" LinkType="Internal" ObjectID="89E99454-2A5D-9994-E3FB0B770F74DA42" Title="Gallbladder cleanse: A &apos;natural&apos; remedy for gallstones?" Url="http://www.mayoclinic.com/health/gallbladder-cleanse/AN01283" />
+		<LinkItem ContentType="Disease" DocID="DS01153" LinkType="Internal" ObjectID="A92F4CA9-AD91-E292-96BC7171EF5BABC2" Title="Cholecystitis" Url="http://www.mayoclinic.com/health/cholecystitis/DS01153" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00425" LinkType="Internal" ObjectID="0578836F-18B3-4EA6-8A1D2A3C98F3DCF4" Title="Gallbladder cancer" Url="http://www.mayoclinic.com/health/gallbladder-cancer/DS00425" />
+	</RelatedLinksBox>
+</Disease>

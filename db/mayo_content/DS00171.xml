@@ -1,0 +1,489 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00171
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/back-pain/DS00171
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-11
+		</UpdateDate>
+		<PublicationDate>
+			2000-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="1729" Title="Back pain or injury" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D5ABE130-D4B7-4257-A1FA934408C8B6CD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				sciatica
+			</MetaKeyword>
+			<MetaKeyword>
+				back
+			</MetaKeyword>
+			<MetaKeyword>
+				pain
+			</MetaKeyword>
+			<MetaKeyword>
+				back ache
+			</MetaKeyword>
+			<MetaKeyword>
+				backpain
+			</MetaKeyword>
+			<MetaKeyword>
+				backache
+			</MetaKeyword>
+			<MetaKeyword>
+				lower back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				upper back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				low back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				back spasm
+			</MetaKeyword>
+			<MetaKeyword>
+				back sprain
+			</MetaKeyword>
+			<MetaKeyword>
+				back strain
+			</MetaKeyword>
+			<MetaKeyword>
+				back injury
+			</MetaKeyword>
+			<MetaKeyword>
+				back exercise
+			</MetaKeyword>
+			<MetaKeyword>
+				spine
+			</MetaKeyword>
+			<MetaKeyword>
+				disk
+			</MetaKeyword>
+			<MetaKeyword>
+				disks
+			</MetaKeyword>
+			<MetaKeyword>
+				posture
+			</MetaKeyword>
+			<MetaKeyword>
+				spasm
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoarthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoporosis
+			</MetaKeyword>
+			<MetaKeyword>
+				sciatic nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				compression
+			</MetaKeyword>
+			<MetaKeyword>
+				stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				herniated disk
+			</MetaKeyword>
+			<MetaKeyword>
+				fibromyalgia
+			</MetaKeyword>
+			<MetaKeyword>
+				back brace
+			</MetaKeyword>
+			<MetaKeyword>
+				corset
+			</MetaKeyword>
+			<MetaKeyword>
+				degenerativedisk disease
+			</MetaKeyword>
+			<MetaKeyword>
+				degenerative disk disease
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle strain
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle spasm
+			</MetaKeyword>
+			<MetaKeyword>
+				sciatica nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				sciatic pain
+			</MetaKeyword>
+			<MetaKeyword>
+				herniated disk
+			</MetaKeyword>
+			<MetaKeyword>
+				disk herniation
+			</MetaKeyword>
+			<MetaKeyword>
+				back problems
+			</MetaKeyword>
+			<MetaKeyword>
+				back spasms
+			</MetaKeyword>
+			<MetaKeyword>
+				back muscles
+			</MetaKeyword>
+			<MetaKeyword>
+				back injuries
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				back muscle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				siatic nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				siatica
+			</MetaKeyword>
+			<MetaKeyword>
+				siatic nerve pain
+			</MetaKeyword>
+			<MetaKeyword>
+				lumbago
+			</MetaKeyword>
+			<MetaKeyword>
+				back pain treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				degenerative disk disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Back pain is a common complaint. Most people in the United States will experience low back pain at least once during their lives. Back pain is one of the most common reasons people go to the doctor or miss work.
+&lt;/p&gt;
+&lt;p&gt;
+On the bright side, you can take measures to prevent or lessen most back pain episodes. If prevention fails, simple home treatment and proper body mechanics will often heal your back within a few weeks and keep it functional for the long haul. Surgery is rarely needed to treat back pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of back pain may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle ache&lt;/li&gt;
+	&lt;li&gt;Shooting or stabbing pain&lt;/li&gt;
+	&lt;li&gt;Pain that radiates down your leg&lt;/li&gt;
+	&lt;li&gt;Limited flexibility or range of motion of the back&lt;/li&gt;
+	&lt;li&gt;Inability to stand up straight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Most back pain gradually improves with home treatment and self-care. Although the pain may take several weeks to disappear completely, you should notice some improvement within the first 72 hours of self-care. If not, see your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+In rare cases, back pain can signal a serious medical problem. Seek immediate care if your back pain:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Causes new bowel or bladder problems&lt;/li&gt;
+	&lt;li&gt;Is associated with pain or throbbing (pulsation) in the abdomen, or fever&lt;/li&gt;
+	&lt;li&gt;Follows a fall, blow to your back or other injury&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Contact a doctor if your back pain:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is constant or intense, especially at night or when you lie down&lt;/li&gt;
+	&lt;li&gt;Spreads down one or both legs, especially if the pain extends below the knee&lt;/li&gt;
+	&lt;li&gt;Causes weakness, numbness or tingling in one or both legs&lt;/li&gt;
+	&lt;li&gt;Is accompanied by unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Occurs with swelling or redness on your back&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, see your doctor if you start having back pain for the first time after age 50, or if you have a history of cancer, osteoporosis, steroid use, or drug or alcohol abuse.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Back pain often develops without a specific cause that your doctor can identify with a test or imaging study. Conditions commonly linked to back pain include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle or ligament strain.&lt;/strong&gt; Repeated heavy lifting or a sudden awkward movement may strain back muscles and spinal ligaments. If you&apos;re in poor physical condition, constant strain on your back may cause painful muscle spasms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bulging or ruptured disks.&lt;/strong&gt; Disks act as cushions between the individual bones (vertebrae) in your spine. Sometimes, the soft material inside a disk may bulge out of place or rupture and press on a nerve. The presence of a bulging or ruptured disk on an X-ray doesn&apos;t automatically equal back pain, though. Disk disease is often found incidentally; many people who don&apos;t have back pain turn out to have bulging or ruptured disks when they undergo spine X-rays for some other reason.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; Osteoarthritis can affect the lower back. In some cases, arthritis in the spine can lead to a narrowing of the space around the spinal cord, a condition called spinal stenosis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skeletal irregularities.&lt;/strong&gt; Back pain can occur if your spine curves in an abnormal way. Scoliosis, a condition in which your spine curves to the side, also may lead to back pain, but generally only if the scoliosis is quite severe. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Compression fractures of your spine&apos;s vertebrae can occur if your bones become porous and brittle.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop back pain, even children and teens. Although excess weight, lack of exercise and improper lifting are often blamed for back pain, research looking at these possible risk factors hasn&apos;t yet provided any clear-cut answers.
+&lt;/p&gt;
+&lt;p&gt;
+One group that does appear to have a greater risk of back pain are people with certain psychological issues, such as depression and anxiety, though the reasons why there&apos;s an increased risk aren&apos;t known.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have back pain that&apos;s lasted for at least a few days and isn&apos;t improving, make an appointment with your family doctor or primary care provider.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any mental or emotional stressors in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any recent injuries&lt;/strong&gt; that may have damaged your back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For back pain, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my back pain?&lt;/li&gt;
+	&lt;li&gt;Do I need any diagnostic tests?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;I have other medical conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;How long will I need treatment?&lt;/li&gt;
+	&lt;li&gt;What self-care measures should I be taking?&lt;/li&gt;
+	&lt;li&gt;Is there anything else I can do to help prevent a recurrence of back pain?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin having back pain?&lt;/li&gt;
+	&lt;li&gt;How often do you have back pain?&lt;/li&gt;
+	&lt;li&gt;How much is your pain limiting your ability to function?&lt;/li&gt;
+	&lt;li&gt;Do you have any other signs or symptoms in addition to back pain?&lt;/li&gt;
+	&lt;li&gt;Do you do heavy physical work?&lt;/li&gt;
+	&lt;li&gt;Do you exercise regularly? If yes, with what types of activities?&lt;/li&gt;
+	&lt;li&gt;How often do you feel blue or depressed?&lt;/li&gt;
+	&lt;li&gt;How much stress or conflict do you experience on a daily basis?&lt;/li&gt;
+	&lt;li&gt;Do you sleep well most of the time?&lt;/li&gt;
+	&lt;li&gt;What treatments or self-care measures have you tried so far? Has anything helped?&lt;/li&gt;
+	&lt;li&gt;Are you currently being treated or have you recently been treated for any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;While you&apos;re waiting for your appointment, you may benefit from applying heat, such as with a heating pad or hot bath, for short periods of time to improve blood flow to the area and relax the muscles. Be careful not to sleep with a heating pad on, as this can cause burns. The application of cold with an ice or cold gel pack can also provide back pain relief. Choose whichever &amp;mdash; hot or cold &amp;mdash; gives you the most relief. 
+&lt;/p&gt;
+&lt;p&gt;
+Try to keep to your normal activities as much as possible, unless your work normally requires heavy lifting. If a particular activity increases your pain, stop doing that activity. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnostic tests aren&apos;t usually necessary to confirm the cause of your back pain. However, if you do see your doctor for back pain, he or she will examine your back and assess your ability to sit, stand, walk and lift your legs. Your doctor may also test your reflexes with a rubber reflex hammer. 
+&lt;/p&gt;
+&lt;p&gt;
+These assessments help determine where the pain comes from, how much you can move before pain forces you to stop and whether you have muscle spasms. They will also help rule out more-serious causes of back pain. 
+&lt;/p&gt;
+&lt;p&gt;
+If there is reason to suspect a specific condition may be causing your back pain, your doctor may order one or more tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; These images show the alignment of your bones and whether you have arthritis or broken bones. X-ray images won&apos;t directly show problems with your spinal cord, muscles, nerves or disks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI) or computerized tomography (CT) scans.&lt;/strong&gt; These scans can generate images that may reveal herniated disks or problems with bones, muscles, tissue, tendons, nerves, ligaments and blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; In rare cases, your doctor may use a bone scan to look for bone tumors or compression fractures caused by osteoporosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve studies (electromyography, or EMG).&lt;/strong&gt; This test measures the electrical impulses produced by the nerves and the responses of your muscles. This test can confirm nerve compression caused by herniated disks or narrowing of your spinal canal (spinal stenosis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most back pain gets better with a few weeks of home treatment and careful attention. Over-the-counter pain relievers may be all that you need to improve your pain. A short period of bed rest is OK, but more than a couple of days actually does more harm than good. Continue your daily activities as much as you can tolerate. Light activity, such as walking and daily activities of living, is usually OK. But, if an activity increases your pain, stop doing that activity. If home treatments aren&apos;t working after several weeks, your doctor may suggest stronger medications or other therapies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to recommend pain relievers such as acetaminophen (Tylenol, others) or nonsteroidal anti-inflammatory drugs, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve). Both types of medications are effective at relieving back pain. Take these medications as directed by your doctor, because overuse can cause serious side effects. If mild to moderate back pain doesn&apos;t get better with over-the-counter pain relievers, your doctor may also prescribe a muscle relaxant. Muscle relaxants can cause dizziness and may make you very sleepy. 
+&lt;/p&gt;
+&lt;p&gt;
+Narcotics, such as codeine or hydrocodone, may be used for a short period of time with close supervision by your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Low doses of certain types of antidepressants &amp;mdash; particularly tricyclic antidepressants, such as amitriptyline &amp;mdash; have been shown to relieve chronic back pain, independent of their effect on depression. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Education&lt;br /&gt;
+&lt;/strong&gt;Right now, there&apos;s no commonly accepted program to teach people with back pain how to manage the condition effectively. That means education may be a class, a talk with your doctor, written material or a video. What&apos;s important is that education emphasizes the importance of staying active, reducing stress and worry, and teaching ways to avoid future injury. However, it&apos;s also important for your doctor to explain that your back pain may recur, especially during the first year after the initial episode, but that the same self-care measures will be able to help again. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy and exercise&lt;br /&gt;
+&lt;/strong&gt;Physical therapy is the cornerstone of back pain treatment. A physical therapist can apply a variety of treatments, such as heat, ultrasound, electrical stimulation and muscle-release techniques, to your back muscles and soft tissues to reduce pain. As pain improves, the therapist can teach you specific exercises that may help increase your flexibility, strengthen your back and abdominal muscles, and improve your posture. Regular use of these techniques can help prevent pain from returning. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Injections&lt;br /&gt;
+&lt;/strong&gt;If other measures don&apos;t relieve your pain and if your pain radiates down your leg, your doctor may inject cortisone &amp;mdash; an anti-inflammatory medication &amp;mdash; into the space around your spinal cord (epidural space). A cortisone injection helps decrease inflammation around the nerve roots, but the pain relief usually lasts less than a few months. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your doctor may inject numbing medication and cortisone into or near the structures believed to be causing your back pain, such as the facet joints of the vertebrae. Located on the sides, top and bottom of each vertebra, these joints connect the vertebrae to one another and stabilize the spine while still allowing flexibility. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Few people ever need surgery for back pain. If you have unrelenting pain associated with radiating leg pain or progressive muscle weakness caused by nerve compression, you may benefit from surgical intervention. Otherwise, surgery usually is reserved for pain related to structural anatomical problems that haven&apos;t responded to intensive conservative therapy measures. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of alternative treatments are available that may help ease symptoms of back pain. Always discuss the benefits and risks with your doctor before starting any new alternative therapy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chiropractic care.&lt;/strong&gt; Back pain is one of the most common reasons that people see a chiropractor. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; A practitioner of acupuncture inserts sterilized stainless steel needles into the skin at specific points on the body. Some people with low back pain report that acupuncture helps relieve their symptoms. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage.&lt;/strong&gt; If your back pain is caused by tense or overworked muscles, massage therapy may help. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; There are several types of yoga, a broad discipline that involves practicing specific postures or poses, breathing exercises and relaxation techniques. Results of a few clinical trials suggest that yoga offers some benefit for people with back pain. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be able to avoid back pain by improving your physical condition and learning and practicing proper body mechanics.
+&lt;/p&gt;
+&lt;p&gt;
+To keep your back healthy and strong: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Regular low-impact aerobic activities &amp;mdash; those that don&apos;t strain or jolt your back &amp;mdash; can increase strength and endurance in your back and allow your muscles to function better. Walking and swimming are good choices. Talk with your doctor about which activities are best for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Build muscle strength and flexibility.&lt;/strong&gt; Abdominal and back muscle exercises (core-strengthening exercises) help condition these muscles so that they work together like a natural corset for your back. Flexibility in your hips and upper legs aligns your pelvic bones to improve how your back feels. Your doctor or physical therapist can let you know which exercises are right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight puts strain on your back muscles. If you&apos;re overweight, trimming down can prevent back pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Use proper body mechanics: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stand smart.&lt;/strong&gt; Maintain a neutral pelvic position. If you must stand for long periods of time, alternate placing your feet on a low footstool to take some of the load off your lower back. Good posture can reduce the amount of stress placed on back muscles. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sit smart.&lt;/strong&gt; Choose a seat with good lower back support, arm rests and a swivel base. Consider placing a pillow or rolled towel in the small of your back to maintain its normal curve. Keep your knees and hips level. Change your position frequently, ideally at least once every half hour.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lift smart.&lt;/strong&gt; Let your legs do the work. Move straight up and down. Keep your back straight and bend only at the knees. Hold the load close to your body. Avoid lifting and twisting simultaneously. Find a lifting partner if the object is heavy or awkward. Learning to lift properly may be more effective at preventing a recurrence of back pain than a first episode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Buyer beware&lt;br /&gt;
+&lt;/strong&gt;Because back pain is such a common problem, there are numerous products available that promise to prevent or relieve your back pain. But, there&apos;s no definitive evidence that special shoes, shoe inserts, back supports, specially designed furniture or stress management programs can help. In addition, there doesn&apos;t appear to be one type of mattress that&apos;s best for people with back pain. It&apos;s probably a matter of what feels most comfortable to you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Back pain
+	</Title>
+	<Abstract>
+		Back pain &amp;mdash; Comprehensive overview covers causes, treatment, relief for this potentially disabling condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00010" LinkType="Internal" ObjectID="C36EB300-7A74-436B-9E40EEDB44D5B9DD" Title="Spinal injury: First aid" Url="http://www.mayoclinic.com/health/first-aid-spinal-injury/FA00010" />
+		<LinkItem ContentType="SlideShow" DocID="LB00004_D" LinkType="Internal" ObjectID="BF0F54AB-5DDA-49C3-AE95E52BDC3B5C98" Title="Slide show: Proper lifting techniques" Url="http://www.mayoclinic.com/health/back-pain/LB00004_D" />
+		<LinkItem ContentType="Answer" DocID="AN01330" LinkType="Internal" ObjectID="BD94897E-2A5D-9994-EB5854A28D111BCD" Title="Prolotherapy: Solution to low back pain?" Url="http://www.mayoclinic.com/health/prolotherapy/AN01330" />
+		<LinkItem ContentType="SlideShow" DocID="LB00002_D" LinkType="Internal" ObjectID="BA64BFAD-A296-4F55-81DCE58BD683C8C0" Title="Slide show: Prevent back pain with good posture" Url="http://www.mayoclinic.com/health/back-pain/LB00002_D" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00947" LinkType="Internal" ObjectID="B9050D37-A6DD-4C8E-5F1E0BEDDDE517FD" Title="Radiofrequency neurotomy" Url="http://www.mayoclinic.com/health/radiofrequency-neurotomy/MY00947" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00078" LinkType="Internal" ObjectID="A7A9F759-E7FF-0DBD-1F23DC7EBD002380" Title="Botox injections" Url="http://www.mayoclinic.com/health/botox/MY00078" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01038" LinkType="Internal" ObjectID="97A5E4D8-EC31-CF03-A15F51537B8E4DC2" Title="Discogram" Url="http://www.mayoclinic.com/health/discogram/MY01038" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01107" LinkType="Internal" ObjectID="8DA2A369-EC32-C687-93EBBF23812A26E0" Title="Chiropractic adjustment" Url="http://www.mayoclinic.com/health/chiropractic-adjustment/MY01107" />
+		<LinkItem ContentType="SlideShow" DocID="LB00001_D" LinkType="Internal" ObjectID="302CFE48-27EF-4D30-9145130F07AC2277" Title="Slide show: Back exercises in 15 minutes a day" Url="http://www.mayoclinic.com/health/back-pain/LB00001_D" />
+		<LinkItem ContentType="Article" DocID="MY01460" LinkType="Internal" ObjectID="7DEADDB7-9346-1B83-C3BCBD0CAE439BA3" Title="Office ergonomics: Your how-to guide" Url="http://www.mayoclinic.com/health/office-ergonomics/MY01460" />
+		<LinkItem ContentType="Article" DocID="MY02165" LinkType="Internal" ObjectID="78017033-F62A-355B-BD0EF7B977FA63C0" Title="Exercise and chronic disease: Get the facts" Url="http://www.mayoclinic.com/health/exercise-and-chronic-disease/MY02165" />
+		<LinkItem ContentType="Answer" DocID="AN01808" LinkType="Internal" ObjectID="E64380D9-E7FF-0DBD-1AAD1C82B21D4D91" Title="Myofascial release therapy: Can it relieve back pain?" Url="http://www.mayoclinic.com/health/myofascial-release/AN01808" />
+		<LinkItem ContentType="SlideShow" DocID="LB00003_D" LinkType="Internal" ObjectID="626CB6D8-2DA8-47FF-A3176754517DC387" Title="Slide show: Sleeping positions that reduce back pain" Url="http://www.mayoclinic.com/health/sleeping-positions/LB00003_D" />
+		<LinkItem ContentType="Answer" DocID="AN02055" LinkType="Internal" ObjectID="5A5FC35E-EC62-13FB-E8AF6BFCA020726C" Title="Acupuncture for back pain?" Url="http://www.mayoclinic.com/health/acupuncture-for-back-pain/AN02055" />
+		<LinkItem ContentType="Answer" DocID="AN01892" LinkType="Internal" ObjectID="550B1815-E7FF-0DBD-11DF73EC112237D8" Title="Epidural steroid injections for back pain: Why limited dosing?" Url="http://www.mayoclinic.com/health/epidural-steroid-injections/AN01892" />
+		<LinkItem ContentType="Answer" DocID="AN01614" LinkType="Internal" ObjectID="483066BD-E7FF-0DBD-1880B084D12E1932" Title="Inversion therapy: Can it relieve back pain?" Url="http://www.mayoclinic.com/health/inversion-therapy/AN01614" />
+		<LinkItem ContentType="Answer" DocID="AN01603" LinkType="Internal" ObjectID="482C151F-E7FF-0DBD-1EA955DFB88778F3" Title="Tarlov cysts: A cause of low back pain?" Url="http://www.mayoclinic.com/health/tarlov-cysts/AN01603" />
+		<LinkItem ContentType="Answer" DocID="AN01492" LinkType="Internal" ObjectID="30A6568D-E7FF-0DBD-19AD208670AF8AAE" Title="Disk replacement: An effective treatment for low back pain?" Url="http://www.mayoclinic.com/health/disk-replacement/AN01492" />
+		<LinkItem ContentType="SlideShow" DocID="DS00536" LinkType="Internal" ObjectID="2B89D84A-5325-430E-862C0A30CAD61858" Title="Slide show: Causes of back pain" Url="http://www.mayoclinic.com/health/back-pain/DS00536" />
+		<LinkItem ContentType="Answer" DocID="AN01834" LinkType="Internal" ObjectID="0F616B23-E7FF-0DBD-16E562B7D58A335C" Title="Back pain relief: Ergonomic chair or fitness ball?" Url="http://www.mayoclinic.com/health/back-pain-relief/AN01834" />
+	</RelatedLinksBox>
+</Disease>

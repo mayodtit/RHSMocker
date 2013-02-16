@@ -1,0 +1,306 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00736
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/c-difficile/DS00736
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="4230" Title="C. difficile" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E5072DC5-E7FF-0DBD-10B9F55ADCF69F67
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				C. difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				C. diff
+			</MetaKeyword>
+			<MetaKeyword>
+				C. diff symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				C. difficile symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				c diff infection
+			</MetaKeyword>
+			<MetaKeyword>
+				C. diff infection
+			</MetaKeyword>
+			<MetaKeyword>
+				Clostridium difficile
+			</MetaKeyword>
+			<MetaKeyword>
+				colitis
+			</MetaKeyword>
+			<MetaKeyword>
+				pseudomembraneous colitis
+			</MetaKeyword>
+			<MetaKeyword>
+				c-dif
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Clostridium difficile (klos-TRID-e-uhm dif-uh-SEEL), often called C. difficile or C. diff, is a bacterium that can cause symptoms ranging from diarrhea to life-threatening inflammation of the colon. Illness from C. difficile most commonly affects older adults in hospitals or in long term care facilities and typically occurs after use of antibiotic medications. 
+&lt;/p&gt;
+&lt;p&gt;
+In recent years, C. difficile infections have become more frequent, more severe and more difficult to treat. Each year, tens of thousands of people in the United States get sick from C. difficile, including some otherwise healthy people who aren&apos;t hospitalized or taking antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild illness caused by C. difficile may get better if you stop taking antibiotics. Severe symptoms require treatment with a different antibiotic. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people who have C. difficile never become sick, though they can still spread the infection. C. difficile illness usually develops during or shortly after a course of antibiotics. But signs and symptoms may not appear for weeks or even months afterward. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common symptoms of mild to moderate C. difficile disease are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery diarrhea three or more times a day for two or more days&lt;/li&gt;
+	&lt;li&gt;Mild abdominal cramping and tenderness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In severe cases, C. difficile causes the colon to become inflamed (colitis) or to form patches of raw tissue that can bleed or produce pus (pseudomembranous colitis). Signs and symptoms of severe infection include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery diarrhea 10 to 15 times a day&lt;/li&gt;
+	&lt;li&gt;Abdominal cramping and pain, which may be severe&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Blood or pus in the stool&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Many people have loose stools during or shortly after antibiotic therapy. See your doctor if your symptoms last more than three days or if you have a new fever, severe pain or cramping, blood in your stool, or more than three bowel movements a day. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+C. difficile bacteria can be found throughout the environment &amp;mdash; in soil, air, water, and human and animal feces. A small number of healthy people naturally carry the bacteria in their large intestine. But C. difficile is most common in hospitals and other health care facilities, where a much higher percentage of people carry the bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+C. difficile bacteria are passed in feces and spread to food, surfaces and objects when people who are infected don&apos;t wash their hands thoroughly. The bacteria produce hardy spores that can persist in a room for weeks or months. If you touch a surface contaminated with C. difficile, you may then unknowingly ingest the bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+People in good health don&apos;t usually get sick from C. difficile. Your intestines contain millions of bacteria, many of which help protect your body from infection. But when you take an antibiotic to treat an infection, the drug can destroy some of the normal, helpful bacteria as well as the bacteria causing the illness. Without enough healthy bacteria, C. difficile can quickly grow out of control. The antibiotics that most often lead to C. difficile infections include fluoroquinolones, cephalosporins, clindamycin and penicillins. 
+&lt;/p&gt;
+&lt;p&gt;
+Once established, C. difficile can produce toxins that attack the lining of the intestine. The toxins destroy cells and produce patches (plaques) of inflammatory cells and decaying cellular debris inside the colon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergence of new strain&lt;/strong&gt; &lt;br /&gt;
+An aggressive strain of C. difficile has emerged that produces far more toxins than other strains do. The new strain is more resistant to certain medications and has shown up in people who haven&apos;t been in the hospital or taken antibiotics. This strain of C. difficile has caused several outbreaks of illness since 2000. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="60" Title="Colon and rectum" URI="/images/image_popup/thumbs/d7_colonrectalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and rectum 
+" Caption="The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+" Height="304" Title="Colon and rectum" URI="/images/image_popup/d7_colonrectal.jpg" Width="400" />
+				<HTML>
+					The colon, also called the large intestine, is a long, tube-like organ in your abdomen. The colon carries waste to be expelled from the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The majority of C. difficile cases occur in health care settings, where germs spread easily, antibiotic use is common and people are especially vulnerable to infection. In hospitals and nursing homes, C. difficile spreads mainly on hands from person to person, but also on cart handles, bedrails, bedside tables, toilets, sinks, stethoscopes, thermometers &amp;mdash; even telephones and remote controls. 
+&lt;/p&gt;
+&lt;p&gt;
+Although people &amp;mdash; including children &amp;mdash; with no known risk factors have gotten sick from C. difficile, your risk is greatest if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are now taking or have recently taken antibiotics. The risk goes up if you take broad-spectrum drugs that target a wide range of bacteria, use multiple antibiotics or take antibiotics for a prolonged period.&lt;/li&gt;
+	&lt;li&gt;Are 65 years of age or older. The risk of becoming infected with C. difficile is 10 times greater for people age 65 and older compared with younger people. &lt;/li&gt;
+	&lt;li&gt;Are now or have recently been hospitalized, especially for an extended period.&lt;/li&gt;
+	&lt;li&gt;Live in a nursing home or long term care facility.&lt;/li&gt;
+	&lt;li&gt;Have a serious underlying illness or a weakened immune system as a result of a medical condition or treatment (such as chemotherapy).&lt;/li&gt;
+	&lt;li&gt;Have had abdominal surgery or a gastrointestinal procedure.&lt;/li&gt;
+	&lt;li&gt;Have a colon disease such as inflammatory bowel disease or colorectal cancer.&lt;/li&gt;
+	&lt;li&gt;Have had a previous C. difficile infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of C. difficile infections include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Severe diarrhea can lead to a significant loss of fluids and electrolytes. This makes it difficult for your body to function normally and can cause blood pressure to drop to dangerously low levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt; In some cases, dehydration can occur so quickly that kidney function rapidly deteriorates (kidney failure).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A hole in your large intestine (bowel perforation).&lt;/strong&gt; This results from extensive damage to the lining of your large intestine. A perforated bowel can spill bacteria from the intestine into your abdominal cavity, leading to a life-threatening infection (peritonitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxic megacolon.&lt;/strong&gt; In this condition, the colon becomes grossly distended when it&apos;s unable to expel gas and stool. Left untreated, your colon can rupture, causing bacteria from the colon to enter your abdominal cavity. A ruptured colon requires emergency surgery and may be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; Even mild to moderate C. difficile infections can quickly progress to a fatal disease if not treated promptly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors often suspect C. difficile in anyone with diarrhea who has taken antibiotics during the past two months or when diarrhea develops a few days after hospitalization. In such cases, you&apos;re likely to have one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stool tests.&lt;/strong&gt; Toxins produced by C. difficile bacteria can usually be detected in a sample of your stool. There are several main types of lab tests (enzyme immunoassay, polymerase chain reaction and tissue culture assay). Most labs use the enzyme immunoassay (EIA) test, which is faster but can produce a false-positive result. Some hospitals use both the EIA test and tissue culture assay to ensure accurate results. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colon&lt;/strong&gt;&lt;strong&gt; examination.&lt;/strong&gt; In some cases, to help confirm a diagnosis of C. difficile infection, your doctor may examine the inside of your colon. This test (flexible sigmoidoscopy) involves inserting a flexible tube with a small camera on one end into your lower colon to look for areas of inflammation and pseudomembranes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; If there&apos;s concern about possible complications of C. difficile, your doctor may order a computerized tomography (CT) scan, which provides detailed images of your colon. The scan can show a thickening of the wall of your colon, which is common in pseudomembranous colitis. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first step in treating C. difficile is to stop taking the antibiotic that triggered the infection, when possible. For mild illness, this may be enough to relieve symptoms. But many people require further treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt; &lt;br /&gt;
+In an ironic twist, the standard treatment for C. difficile is another antibiotic. Doctors usually prescribe metronidazole (Flagyl), taken by mouth, for mild to moderate illness. Vancomycin (Vancocin), also taken by mouth, may be prescribed for more severe symptoms. These antibiotics keep C. difficile from growing, which allows normal bacteria to flourish again in the intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of metronidazole and vancomycin include nausea and a bitter taste in your mouth. It&apos;s important not to drink alcohol when taking metronidazole. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Probiotics&lt;/strong&gt; &lt;br /&gt;
+Probiotics are organisms, such as bacteria and yeast, which help restore a healthy balance to the intestinal tract. A yeast called Saccharomyces boulardii, in conjunction with antibiotics, might help prevent recurrent C. difficile infections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+For people with severe pain, organ failure or inflammation of the lining of the abdominal wall, surgery to remove the diseased portion of the colon may be the only option. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Recurrent disease&lt;/strong&gt; &lt;br /&gt;
+About one-fourth of people with C. difficile get sick again, either because the initial infection never went away or because they&apos;re reinfected with a different strain of the bacteria. Treatment for recurrent disease may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Antibiotics, which may involve one or more courses of a medication, a longer course of treatment or an antibiotic given once every two days &lt;/li&gt;
+	&lt;li&gt;Probiotics, such as S. boulardii, given along with the antibiotic medication&lt;/li&gt;
+	&lt;li&gt;&quot;Stool transplant&quot; to restore healthy intestinal bacteria by placing donor stool in your colon, using a colonoscope or nasogastric tube. Although this is rarely done in practice, research has shown stool transplant to be helpful. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Supportive treatment for diarrhea includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plenty of fluids.&lt;/strong&gt; Choose fluids containing water, salt and sugar, such as diluted fruit juice, soft drinks and broths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Good nutrition.&lt;/strong&gt; If you have watery diarrhea, eat starchy foods, such as potatoes, noodles, rice, wheat and oatmeal. Other good choices are saltine crackers, bananas, soup and boiled vegetables. If you aren&apos;t hungry, you may ingest a liquid diet at first. After your diarrhea clears up, you may have temporary difficulty digesting milk and milk-based products.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent the spread of C. difficile, hospitals and other health care facilities follow strict infection-control guidelines. If you have a friend or family member in a hospital or nursing home, don&apos;t be afraid to remind caregivers to follow the recommended precautions. 
+&lt;/p&gt;
+&lt;p&gt;
+Preventive measures include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hand washing.&lt;/strong&gt; Health care workers should practice good hand hygiene before and after treating each person in their care. In the event of a C. difficile outbreak, using soap and warm water is a better choice for hand hygiene, as alcohol-based hand sanitizers may not effectively destroy C. difficile spores. Visitors also should be diligent about washing hands with soap and warm water before and after leaving the room or using the bathroom. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contact precautions.&lt;/strong&gt; People who are hospitalized with C. difficile have a private room or share a room with someone who has the same illness. Hospital staff and visitors wear disposable gloves and gowns while in the room. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thorough cleaning.&lt;/strong&gt; In any setting, all surfaces should be carefully disinfected with a product that contains chlorine bleach. C. difficile spores can survive routine cleaning products that don&apos;t contain bleach. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid unnecessary use of antibiotics.&lt;/strong&gt; Antibiotics are sometimes prescribed for viral illnesses that aren&apos;t helped by these drugs. Take a wait-and-see attitude with simple ailments. If you do need an antibiotic, ask your doctor to prescribe one that has a narrow range and that you take for the shortest time possible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		C. difficile
+	</Title>
+	<Abstract>
+		C. difficile &amp;mdash; Comprehensive overview covers symptoms, treatment and causes of Clostridium difficile bacterial infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,74 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00343
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00343
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-15
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="3006" Title="Skin injury">
+						<Keyword MCVID="3208" Title="UV skin damage" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3278" Title="Winter" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			170B92E9-E7FF-0DBD-14B4048EFE307940
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sunscreen
+			</MetaKeyword>
+			<MetaKeyword>
+				sunburn
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Do you need sunscreen in the winter?
+	</Title>
+	<Body>
+		&lt;p&gt;You bet! It&apos;s as easy to get sunburned in winter as in summer. Snow reflects the sun&apos;s rays, so sunburn is possible even if you&apos;re cold. When you&apos;re outdoors in the winter, wear sunscreen on any exposed areas. Use lip balm that contains sunscreen, too.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,331 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00331
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/measles/DS00331
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-01
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2557" Title="Measles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			84C53FB6-DD31-499B-8E5817B2A8F67AE2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				measles
+			</MetaKeyword>
+			<MetaKeyword>
+				rubeola
+			</MetaKeyword>
+			<MetaKeyword>
+				MMR
+			</MetaKeyword>
+			<MetaKeyword>
+				MMR vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				measels
+			</MetaKeyword>
+			<MetaKeyword>
+				mmr vaccine and autism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Measles is a childhood infection caused by a virus. Once quite common, measles can now be prevented with a vaccine. Signs and symptoms of measles include cough, runny nose, inflamed eyes, sore throat, fever and a red, blotchy skin rash. 
+&lt;/p&gt;
+&lt;p&gt;
+Also called rubeola, measles can be serious and even fatal for small children. While death rates have been falling worldwide as more children receive the measles vaccine, the disease still kills several hundred thousand people a year, most under the age of 5. 
+&lt;/p&gt;
+&lt;p&gt;
+By 2000, the measles vaccine had practically eliminated measles in the United States. But there has been a recent resurgence of the disease, as more people have chosen not to vaccinate their children. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of measles rash 
+" Caption="Measles causes a red, blotchy rash that usually appears first on the face and behind the ears, then spreads downward to the chest and back and finally to the feet. 
+" Height="60" Title="Measles" URI="/images/image_popup/thumbs/ans7_measlesthu.jpg" Width="60" />
+				<Image Alt="Photograph of measles rash 
+" Caption="Measles causes a red, blotchy rash that usually appears first on the face and behind the ears, then spreads downward to the chest and back and finally to the feet. 
+" Height="280" Title="Measles" URI="/images/image_popup/ans7_measles.jpg" Width="400" />
+				<HTML>
+					Measles causes a red, blotchy rash that usually appears first on the face and behind the ears, then spreads downward to the chest and back and finally to the feet. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Measles signs and symptoms appear seven to 14 days after exposure to the virus. Signs and symptoms of measles typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+	&lt;li&gt;Runny nose&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Inflamed eyes (conjunctivitis)&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light&lt;/li&gt;
+	&lt;li&gt;Tiny white spots with bluish-white centers found inside the mouth on the inner lining of the cheek, called Koplik&apos;s spots&lt;/li&gt;
+	&lt;li&gt;A skin rash made up of large, flat blotches that often flow into one another&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The infection occurs in sequential stages over a period of two to three weeks. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection and incubation.&lt;/strong&gt; For the first seven to 14 days after you&apos;re infected, the measles virus incubates. You have no signs or symptoms of measles during this time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonspecific signs and symptoms.&lt;/strong&gt; Measles typically begins with a mild to moderate fever, often accompanied by a persistent cough, runny nose, inflamed eyes (conjunctivitis) and sore throat. This relatively mild illness may last two or three days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute illness and rash.&lt;/strong&gt; The rash consists of small red spots, some of which are slightly raised. Spots and bumps in tight clusters give the skin a splotchy red appearance. The face breaks out first, particularly behind the ears and along the hairline. Over the next few days, the rash spreads down the arms and trunk, then over the thighs, lower legs and feet. At the same time, fever rises sharply, often as high as 104 or 105 F (40 or 40.6 C). The measles rash gradually recedes, fading first from the face and last from the thighs and feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Communicable period.&lt;/strong&gt; A person with measles can spread the virus to others for about eight days, starting four days before the rash appears and ending when the rash has been present for four days.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Call your doctor if you think you or your child may have been exposed to measles, or if you or your child has a rash resembling measles. Review your family&apos;s immunization records with your doctor, especially before starting elementary school, before college and before international travel. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of measles rash 
+" Caption="Measles causes a red, blotchy rash that usually appears first on the face and behind the ears, then spreads downward to the chest and back and finally to the feet. 
+" Height="60" Title="Measles" URI="/images/image_popup/thumbs/ans7_measlesthu.jpg" Width="60" />
+				<Image Alt="Photograph of measles rash 
+" Caption="Measles causes a red, blotchy rash that usually appears first on the face and behind the ears, then spreads downward to the chest and back and finally to the feet. 
+" Height="280" Title="Measles" URI="/images/image_popup/ans7_measles.jpg" Width="400" />
+				<HTML>
+					Measles causes a red, blotchy rash that usually appears first on the face and behind the ears, then spreads downward to the chest and back and finally to the feet. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of measles is a very contagious virus, which lives in the mucus in the nose and throat of an infected child or adult. That child or adult is contagious from four days before the rash appears to four days after. 
+&lt;/p&gt;
+&lt;p&gt;
+When someone with measles coughs, sneezes or talks, infected droplets spray into the air, where other people can inhale them. The infected droplets may also land on a surface, where they remain active and contagious for several hours. You can contract the virus by putting your fingers in your mouth or nose or rubbing your eyes after touching the infected surface. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;No vaccination.&lt;/strong&gt; People who have not received the vaccine for measles are much more likely to develop the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;International travel.&lt;/strong&gt; Unvaccinated people traveling to developing countries, where measles is more common, are at higher risk of catching the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin A deficiency.&lt;/strong&gt; People who don&apos;t have enough vitamin A in their diets are more likely to contract measles and to have more-severe symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of measles may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ear infection.&lt;/strong&gt; One of the most common complications of measles is a bacterial ear infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchitis, laryngitis or croup.&lt;/strong&gt; Measles may lead to inflammation of your voice box (larynx) or inflammation of the inner walls that line the main air passageways of your lungs (bronchial tubes).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonia.&lt;/strong&gt; Pneumonia is a common complication of measles. People with compromised immune systems can develop an especially dangerous variety of pneumonia that is sometimes fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encephalitis.&lt;/strong&gt; About 1 in 1,000 people with measles develops encephalitis, an inflammation of the brain that may cause vomiting, convulsions and, rarely, coma or even death. Encephalitis can closely follow measles, or it can occur months later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy problems.&lt;/strong&gt; Pregnant women need to take special care to avoid measles, because the disease can cause pregnancy loss, preterm labor or low birth weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low platelet count (thrombocytopenia).&lt;/strong&gt; Measles may lead to a decrease in platelets &amp;mdash; the type of blood cells that are essential for blood clotting.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you or your child has measles, you need to see your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you or your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent travel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For measles, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my or my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to make my child more comfortable?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+The doctor may ask that you come in before or after office hours to reduce the risk of exposing others to the measles. In addition, if the doctor believes that you or your child has the measles, he or she must report those findings to the local health department. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you or your child been vaccinated for the measles? If so, do you know when?&lt;/li&gt;
+	&lt;li&gt;Have you traveled out of the country recently?&lt;/li&gt;
+	&lt;li&gt;Does anyone else live in your household? If yes, have they been vaccinated for measles?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you&apos;re waiting to the see the doctor, be sure that you or your child stays well-hydrated. Pediatric electrolyte solutions, such as Pedialyte, or sports drinks, such as Gatorade or Powerade, can help you stay hydrated and maintain your electrolyte balance. 
+&lt;/p&gt;
+&lt;p&gt;
+If fever is making you or your child uncomfortable, medications such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others), can help bring the fever down. But, don&apos;t give aspirin to children because of the risk of Reye&apos;s syndrome &amp;mdash; a rare but potentially fatal disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose measles based on the disease&apos;s characteristic rash as well as the small, bright red Koplik&apos;s spots on the inside lining of the cheek. If necessary, a blood test can confirm whether the rash is truly measles. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatment can get rid of an established measles infection. However, some measures can be taken to protect vulnerable individuals who have been exposed to the virus. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Post-exposure vaccination.&lt;/strong&gt; Nonimmunized people, including infants, may be given the measles vaccination within 72 hours of exposure to the measles virus, to provide protection against the disease. If measles still develops, the illness usually has milder symptoms and lasts for a shorter time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune serum globulin.&lt;/strong&gt; Pregnant women, infants and people with weakened immune systems who are exposed to the virus may receive an injection of proteins (antibodies) called immune serum globulin. When given within six days of exposure to the virus, these antibodies can prevent measles or make symptoms less severe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fever reducers.&lt;/strong&gt; You or your child may also take over-the-counter medications such as acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin, others) or naproxen (Aleve) to help relieve the fever that accompanies measles. Don&apos;t give aspirin to children because of the risk of Reye&apos;s syndrome &amp;mdash; a rare but potentially fatal disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If a bacterial infection, such as pneumonia or an ear infection, develops while you or your child has measles, your doctor may prescribe an antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin A.&lt;/strong&gt; People with low levels of vitamin A are more likely to have a more severe case of measles. Giving vitamin A may lessen the severity of the measles. It&apos;s generally given as a large dose of 200,000 international units (IU) for two days.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has measles, keep in touch with your doctor as you monitor the progress of the disease, and watch for complications. Also try these comfort measures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take it easy.&lt;/strong&gt; Get rest and avoid busy activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sip something.&lt;/strong&gt; Drink plenty of water, fruit juice and herbal tea to replace fluids lost by fever and sweating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek respiratory relief.&lt;/strong&gt; Use a humidifier to relieve cough and sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest your eyes.&lt;/strong&gt; If you or your child finds bright light bothersome, as do many people with measles, keep the lights low or wear sunglasses. Also, avoid reading or watching television if light from a reading lamp or from the television is bothersome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If someone in your household has measles, take these precautions to protect vulnerable family and friends: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Isolation.&lt;/strong&gt; Because measles is highly contagious from about four days before to four days after the rash breaks out, people with measles shouldn&apos;t return to activities in which they interact with other people during this period. It may also be necessary to keep nonimmunized people &amp;mdash; siblings, for example &amp;mdash; away from the infected person.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccinate.&lt;/strong&gt; Be sure that anyone who&apos;s at risk of getting the measles who hasn&apos;t been fully vaccinated receives the measles vaccine as soon as possible. This includes anyone born after 1957 who hasn&apos;t been vaccinated, as well as infants over six months old.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing new infections&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve already had measles, your body has built up its immune system to fight the infection, and you can&apos;t get measles again. Most people born or living in the United States before 1957 are immune to measles, simply because they&apos;ve already had it. 
+&lt;/p&gt;
+&lt;p&gt;
+For everyone else, there&apos;s the measles vaccine, which is important for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Promoting and preserving herd immunity.&lt;/strong&gt; Since the introduction of the measles vaccine, measles has virtually been eliminated in the United States even though not everyone has been vaccinated. This effect is called &quot;herd&quot; immunity. But herd immunity may now be weakening a bit. The rate of measles in the U.S. recently doubled.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventing a resurgence of measles.&lt;/strong&gt; Soon after vaccination rates decline, measles begins to come back. In 1998, a now discredited study was published erroneously linking autism to the measles, mumps and rubella (MMR) vaccine. In the United Kingdom, where the study originated, the rate of vaccination dropped to an all-time low of just under 80 percent of all children in 2003 to 2004. In 2009, more than 1,100 children in the U.K. contracted measles, up from just 70 children in 2001.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Measles
+	</Title>
+	<Abstract>
+		Measles &amp;mdash; Comprehensive overview covers symptoms, treatment of this vaccine-preventable disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Answer" DocID="AN01886" LinkType="Internal" ObjectID="54FD0A6F-E7FF-0DBD-1C247EE1E65C7C4A" Title="Vaccines during pregnancy: Are they safe?" Url="http://www.mayoclinic.com/health/vaccines-during-pregnancy/AN01886" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+		<LinkItem ContentType="Disease" DocID="DS00691" LinkType="Internal" ObjectID="694C3120-2A5D-9994-E603EEB0CB3F9B14" Title="Thrombocytopenia (low platelet count)" Url="http://www.mayoclinic.com/health/thrombocytopenia/DS00691" />
+		<LinkItem ContentType="Disease" DocID="DS00366" LinkType="Internal" ObjectID="5EEED4D2-34B1-48B1-891955F845161C02" Title="Laryngitis" Url="http://www.mayoclinic.com/health/laryngitis/DS00366" />
+		<LinkItem ContentType="Disease" DocID="DS00135" LinkType="Internal" ObjectID="101586DD-4780-4B53-9AA9C9010C842DAA" Title="Pneumonia" Url="http://www.mayoclinic.com/health/pneumonia/DS00135" />
+	</RelatedLinksBox>
+</Disease>

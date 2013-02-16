@@ -1,0 +1,129 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01982
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/echinacea/AN01982
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-29
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1593" Title="Common cold" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ECED1265-FF13-A459-4C2B047E9709A0C6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				echinacea
+			</MetaKeyword>
+			<MetaKeyword>
+				common cold
+			</MetaKeyword>
+			<MetaKeyword>
+				cold symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				cold remedies
+			</MetaKeyword>
+			<MetaKeyword>
+				dietary supplement
+			</MetaKeyword>
+			<MetaKeyword>
+				cold remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				cold treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Maybe, but not by much. Recent study results indicate that some echinacea supplements may shorten the duration of a cold by about half a day and may slightly reduce symptom severity. But these results were too minor to be deemed significant. 
+&lt;/p&gt;
+&lt;p&gt;
+In the past, some studies have found echinacea to be helpful while other studies have found no benefit. Part of the problem is that echinacea products can contain different concentrations of the herb, and the echinacea extracts used in these products can come from the flowers, stems or roots of three different echinacea plant species. This makes it difficult to compare study results. 
+&lt;/p&gt;
+&lt;p&gt;
+Echinacea generally doesn&apos;t cause problems for most people, but some people taking the herb have reported side effects such as stomach upset or diarrhea. Echinacea also has the potential to interact with other medications you might be taking, so talk with your doctor before using echinacea supplements. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Echinacea: Is it effective for the common cold?
+	</Title>
+	<Abstract>
+		Echinacea may slightly reduce the duration and severity of cold symptoms, but the effect may be too minor to notice.
+	</Abstract>
+	<Question>
+		Will dietary supplements containing echinacea help me get over a cold faster?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01097" LinkType="Internal" ObjectID="F7DE5864-56EF-48A0-B67BCE81FEF47855" Title="Exercise and illness: Work out with a cold?" Url="http://www.mayoclinic.com/health/exercise/AN01097" />
+		<LinkItem ContentType="Answer" DocID="AN02160" LinkType="Internal" ObjectID="3E154DC1-FC23-ED49-364492869F954F20" Title="Do the benefits of vitamin C include improved mood?" Url="http://www.mayoclinic.com/health/benefits-vitamin-c/AN02160" />
+		<LinkItem ContentType="Answer" DocID="AN01238" LinkType="Internal" ObjectID="35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D" Title="Flu germs: How long can they live outside the body?" Url="http://www.mayoclinic.com/health/infectious-disease/AN01238" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Answer" DocID="AN01755" LinkType="Internal" ObjectID="FCC83C08-E7FF-0DBD-16839B0D2043FFCB" Title="Neti pot: Can it clear your nose?" Url="http://www.mayoclinic.com/health/neti-pot/AN01755" />
+		<LinkItem ContentType="Answer" DocID="AN01879" LinkType="Internal" ObjectID="ED283AA7-E7FF-0DBD-153DE0C4079002D2" Title="Neti pot solution: Can I make my own?" Url="http://www.mayoclinic.com/health/neti-pot-solution/AN01879" />
+		<LinkItem ContentType="Answer" DocID="AN01799" LinkType="Internal" ObjectID="E57C0C3C-E7FF-0DBD-13BA07E16C070DAE" Title="Honey: An effective cough remedy?" Url="http://www.mayoclinic.com/health/honey/AN01799" />
+		<LinkItem ContentType="Answer" DocID="AN01455" LinkType="Internal" ObjectID="D61F8B02-E7FF-0DBD-1D4A1209DBE7C777" Title="Cold symptoms: Does drinking milk increase phlegm?" Url="http://www.mayoclinic.com/health/phlegm/AN01455" />
+		<LinkItem ContentType="Answer" DocID="AN01740" LinkType="Internal" ObjectID="B48EA41E-E7FF-0DBD-16AB3D080DA6A304" Title="Plugged ears: What is the remedy?" Url="http://www.mayoclinic.com/health/plugged-ears/AN01740" />
+		<LinkItem ContentType="Answer" DocID="AN02148" LinkType="Internal" ObjectID="7E87EACC-9889-8129-B34CF9FF468A6443" Title="Zinc for colds: The final word?" Url="http://www.mayoclinic.com/health/zinc-for-colds/AN02148" />
+		<LinkItem ContentType="Answer" DocID="AN01551" LinkType="Internal" ObjectID="5AC4578D-E7FF-0DBD-165C47E6A5914B0B" Title="Vicks VapoRub: An effective nasal decongestant?" Url="http://www.mayoclinic.com/health/nasal-decongestant/AN01551" />
+		<LinkItem ContentType="Answer" DocID="AN01229" LinkType="Internal" ObjectID="206620A6-2A5D-9994-E831783A747E7FD0" Title="Cold or allergy: Which is it?" Url="http://www.mayoclinic.com/health/common-cold/AN01229" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Article" DocID="HQ00076" LinkType="Internal" ObjectID="DF9C6CB0-CEE5-40D6-AFF0B81BF0BC3673" Title="Humidifiers: Air moisture eases skin, breathing symptoms" Url="http://www.mayoclinic.com/health/humidifiers/HQ00076" />
+		<LinkItem ContentType="Article" DocID="ID00036" LinkType="Internal" ObjectID="8821B915-2A5D-9994-EC57A408AADC554B" Title="Cold remedies: What works, what doesn&apos;t, what can&apos;t hurt" Url="http://www.mayoclinic.com/health/cold-remedies/ID00036" />
+		<LinkItem ContentType="Disease" DocID="DS00056" LinkType="Internal" ObjectID="7857D5F5-3E9F-4289-918B67FA9D0E63E2" Title="Common cold" Url="http://www.mayoclinic.com/health/common-cold/DS00056" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,195 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12370
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pork-tenderloin-with-apples-and-blue-cheese/RE12370
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-20
+		</UpdateDate>
+		<PublicationDate>
+			2012-12-20
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			455529DC-AA0B-C185-C356DC1955444BB8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten free
+			</MetaKeyword>
+			<MetaKeyword>
+				pork tenderloin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Pork tenderloin with apples and blue cheese
+	</Title>
+	<Abstract>
+		Pork tenderloin is as lean as chicken breast meat, and it&apos;s delicious paired with apples and blue cheese.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Pork tenderloin is as lean as chicken breast meat.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat oven to 350 F. Trim tenderloin of all fat and silver skin. Season with spices. 
+&lt;/p&gt;
+&lt;p&gt;
+In a large skillet over medium-high heat, add oil and put tenderloin in the pan. Sear each side, using tongs to turn the meat. Transfer meat to a roasting pan and cook in oven for 15 to 20 minutes, until internal temperature reaches 155 F. Remove tenderloin from pan and let rest. 
+&lt;/p&gt;
+&lt;p&gt;
+Saute apples in pork pan until dark brown, add wine and reduce by half. Slice pork, spoon apples over top and sprinkle with blue cheese. Serve on warmed plates. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 pound pork tenderloin&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon white pepper&lt;/li&gt;
+	&lt;li&gt;2 teaspoons black pepper&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon cayenne&lt;/li&gt;
+	&lt;li&gt;1 teaspoon paprika&lt;/li&gt;
+	&lt;li&gt;2 teaspoons canola oil&lt;/li&gt;
+	&lt;li&gt;2 apples of choice, sliced&lt;/li&gt;
+	&lt;li&gt;1/2 cup white wine&lt;/li&gt;
+	&lt;li&gt;1/2 cup (about 2 ounces) blue cheese, crumbled&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish">
+				4
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Meat Label="Meat and meat substitutes">
+				4
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats" />
+			<Fruits Label="Fruits">
+				1
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				270
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				15 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				84 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				3 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				27 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				4 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 4 ounces
+			</Servingsize>
+			<Sodium Label="Sodium">
+				261 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				9 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Roast
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+</Recipe>

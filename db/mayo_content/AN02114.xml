@@ -1,0 +1,126 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02114
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hygiene-hypothesis/AN02114
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-15
+		</UpdateDate>
+		<PublicationDate>
+			2010-10-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="4319" Title="Asthma attack">
+						<Keyword MCVID="3346" Title="Childhood asthma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F198441F-EB2F-349D-1E086E717D471A58
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hygiene hypothesis
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				preventing asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				germs and asthma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Children growing up in rural areas, around animals and in larger families seem to develop asthma less often than do other children. According to the hygiene hypothesis, this is due to increased exposure to particular viruses, bacteria or parasites. 
+&lt;/p&gt;
+&lt;p&gt;
+The hygiene hypothesis proposes that childhood exposure to germs and certain infections helps the immune system develop. This teaches the body to differentiate harmless substances from the harmful substances that trigger asthma. In theory, exposure to certain germs teaches the immune system not to overreact. 
+&lt;/p&gt;
+&lt;p&gt;
+But preventing asthma isn&apos;t as simple as avoiding antibacterial soap, having a big family or spending time on the farm. For one thing, there are a number of microbes that may cause asthma rather than prevent it, such as respiratory syncytial virus (RSV). For another thing, infections that might help prevent asthma can cause a number of other health problems. The type of germs isn&apos;t the only factor that plays a role, either. The severity of an infection &amp;mdash; and when it occurs during childhood &amp;mdash; also appear to matter. 
+&lt;/p&gt;
+&lt;p&gt;
+More research is needed to understand exactly how childhood germ exposure might help prevent asthma. What we do know is that in general, exposure to germs is likely to do more harm than good. Help your child avoid contacting or spreading germs with steps such as thorough hand washing, avoiding touching the eyes, nose or mouth, and covering the nose and mouth with a tissue when coughing or sneezing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hygiene hypothesis: Early germ exposure prevents asthma?
+	</Title>
+	<Abstract>
+		According to the hygiene hypothesis, childhood infections may help prevent asthma.
+	</Abstract>
+	<Question>
+		Does childhood exposure to germs help prevent asthma?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00001" LinkType="Internal" ObjectID="E27C2AE8-3D69-4BB9-A282F7B9B3A1CDCD" Title="Video: An asthma attack" Url="http://www.mayoclinic.com/health/asthma/MM00001" />
+		<LinkItem ContentType="Article" DocID="AS00024" LinkType="Internal" ObjectID="0683DC75-2A5D-9994-E2AC997ACA8FF1D7" Title="Asthma: Limit asthma attacks caused by colds or flu" Url="http://www.mayoclinic.com/health/asthma/AS00024" />
+		<LinkItem ContentType="Answer" DocID="AN01092" LinkType="Internal" ObjectID="AA54770F-4274-4F78-9ECEA698C350FEEF" Title="Wheezing in children: Could it be asthma?" Url="http://www.mayoclinic.com/health/asthma/AN01092" />
+		<LinkItem ContentType="Answer" DocID="AN01948" LinkType="Internal" ObjectID="BDBF376B-E7FF-0DBD-14F4B77E3A464B2F" Title="Asthma triggers: Are hard flooring surfaces better than carpet?" Url="http://www.mayoclinic.com/health/asthma-triggers/AN01948" />
+		<LinkItem ContentType="Answer" DocID="AN01973" LinkType="Internal" ObjectID="2441A9D5-D5B1-4F3C-387DADE428A87A2F" Title="Will my child outgrow asthma?" Url="http://www.mayoclinic.com/health/outgrow-asthma/AN01973" />
+		<LinkItem ContentType="Disease" DocID="DS00842" LinkType="Internal" ObjectID="6ABB9250-E7FF-0DBD-150E349EBF322EDC" Title="Dust mite allergy" Url="http://www.mayoclinic.com/health/dust-mites/DS00842" />
+		<LinkItem ContentType="Disease" DocID="DS00859" LinkType="Internal" ObjectID="09A73EDE-E7FF-0DBD-1B76266DAA90422D" Title="Pet allergy" Url="http://www.mayoclinic.com/health/pet-allergy/DS00859" />
+		<LinkItem ContentType="Article" DocID="AS00036" LinkType="Internal" ObjectID="18D94E87-E7FF-0DBD-182EF79C6665B922" Title="Treating asthma in children ages 12 and older" Url="http://www.mayoclinic.com/health/asthma-in-children/AS00036" />
+		<LinkItem ContentType="Article" DocID="AS00035" LinkType="Internal" ObjectID="18D87FCB-E7FF-0DBD-15D7876BFFBBFE5E" Title="Treating asthma in children ages 5 to 11" Url="http://www.mayoclinic.com/health/asthma-in-children/AS00035" />
+		<LinkItem ContentType="Article" DocID="AS00034" LinkType="Internal" ObjectID="18D74AF8-E7FF-0DBD-14F56C0A875E33A5" Title="Treating asthma in children under 5" Url="http://www.mayoclinic.com/health/asthma-in-children/AS00034" />
+		<LinkItem ContentType="Article" DocID="HQ00273" LinkType="Internal" ObjectID="0ABF38F7-534D-4168-8B7342231FEA21D5" Title="Asthma in children: Creating an asthma action plan" Url="http://www.mayoclinic.com/health/asthma/HQ00273" />
+		<LinkItem ContentType="Disease" DocID="DS00849" LinkType="Internal" ObjectID="ADB05F4D-E7FF-0DBD-1C0A6384E4958FE4" Title="Childhood asthma" Url="http://www.mayoclinic.com/health/childhood-asthma/DS00849" />
+	</RelatedLinksBox>
+</Answer>

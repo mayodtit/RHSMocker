@@ -1,0 +1,366 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00707
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/eye-melanoma/DS00707
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2363" Title="Eye melanoma" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			916B1528-E7FF-0DBD-197112A360E0E453
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eye melanoma
+			</MetaKeyword>
+			<MetaKeyword>
+				ocular melanoma
+			</MetaKeyword>
+			<MetaKeyword>
+				melanoma
+			</MetaKeyword>
+			<MetaKeyword>
+				eye cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				eye tumor
+			</MetaKeyword>
+			<MetaKeyword>
+				melanoma of the eye
+			</MetaKeyword>
+			<MetaKeyword>
+				uveal melanoma
+			</MetaKeyword>
+			<MetaKeyword>
+				intraocular melanoma
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Melanoma is a type of cancer that develops in the cells that produce melanin &amp;mdash; the pigment that gives your skin its color. Your eyes also have melanin-producing cells and can develop melanoma. Eye melanoma is also called ocular melanoma. 
+&lt;/p&gt;
+&lt;p&gt;
+Most eye melanomas form in the part of the eye you can&apos;t see when looking in a mirror. This makes eye melanoma difficult to detect. In addition, eye melanoma typically doesn&apos;t cause early signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment is available for eye melanomas. Treatments for some small eye melanomas may not interfere with your vision. However, treatment for large eye melanomas typically causes some vision loss. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing where eye melanoma occurs
+" Caption="Eye melanoma can occur in the eye&apos;s choroid &amp;mdash; the layer of blood vessels and connective tissue between the white part of the eye (sclera) and the back wall of the eye (retina). 
+" Height="60" Title="Where eye melanoma occurs" URI="/images/image_popup/thumbs/r7_eyemelanomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing where eye melanoma occurs
+" Caption="Eye melanoma can occur in the eye&apos;s choroid &amp;mdash; the layer of blood vessels and connective tissue between the white part of the eye (sclera) and the back wall of the eye (retina). 
+" Height="311" Title="Where eye melanoma occurs" URI="/images/image_popup/r7_eyemelanoma.jpg" Width="400" />
+				<HTML>
+					Eye melanoma can occur in the eye&apos;s choroid &amp;mdash; the layer of blood vessels and connective tissue between the white part of the eye (sclera) and the back wall of the eye (retina). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eye melanoma may not cause signs and symptoms. When they do occur, signs and symptoms of eye melanoma can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A growing dark spot on the iris &lt;/li&gt;
+	&lt;li&gt;A sensation of flashing lights &lt;/li&gt;
+	&lt;li&gt;A change in the shape of the dark circle (pupil) at the center of your eye &lt;/li&gt;
+	&lt;li&gt;Poor or blurry vision in one eye &lt;/li&gt;
+	&lt;li&gt;Loss of peripheral vision &lt;/li&gt;
+	&lt;li&gt;Sensation of flashes and specs of dust in your vision (floaters)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. Sudden changes in your vision signal an emergency, so seek immediate care in those situations. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing where eye melanoma occurs
+" Caption="Eye melanoma can occur in the eye&apos;s choroid &amp;mdash; the layer of blood vessels and connective tissue between the white part of the eye (sclera) and the back wall of the eye (retina). 
+" Height="60" Title="Where eye melanoma occurs" URI="/images/image_popup/thumbs/r7_eyemelanomathu.jpg" Width="60" />
+				<Image Alt="Illustration showing where eye melanoma occurs
+" Caption="Eye melanoma can occur in the eye&apos;s choroid &amp;mdash; the layer of blood vessels and connective tissue between the white part of the eye (sclera) and the back wall of the eye (retina). 
+" Height="311" Title="Where eye melanoma occurs" URI="/images/image_popup/r7_eyemelanoma.jpg" Width="400" />
+				<HTML>
+					Eye melanoma can occur in the eye&apos;s choroid &amp;mdash; the layer of blood vessels and connective tissue between the white part of the eye (sclera) and the back wall of the eye (retina). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes eye melanoma, also called ocular melanoma. Doctors know that eye melanoma occurs when errors develop in the DNA of healthy eye cells. The DNA errors tell the cells to grow and multiply out of control, so the mutated cells go on living when they would normally die. The mutated cells accumulate in the eye and form an eye melanoma. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Where eye melanoma occurs&lt;/strong&gt; &lt;br /&gt;
+Eye melanoma most commonly develops in the cells of the uvea, the vascular layer of your eye sandwiched between the retina, the thin layer of tissue that lines the back inner wall of your eyeball, and the white of your eye (sclera). Eye melanoma can occur in the front part of the uvea (iris and ciliary body) or in the back part of the uvea (choroid layer). 
+&lt;/p&gt;
+&lt;p&gt;
+Eye melanoma can also occur on the most outer layer on the front of the eye (conjunctiva), in the socket that surrounds the eyeball and on the eyelid, though these types of eye melanoma are very rare. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for primary melanoma of the eye include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Light eye color.&lt;/strong&gt; People with blue eyes or green eyes have a greater risk of melanoma of the eye.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being white.&lt;/strong&gt; White people have a greater risk of eye melanoma than do people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; The risk of eye melanoma increases with age. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain inherited skin disorders.&lt;/strong&gt; A condition called dysplastic nevus syndrome, which causes abnormal moles, may increase your risk of developing melanoma on your skin and in your eye. In addition, people with abnormal skin pigmentation involving the eyelids and adjacent tissues and increased pigmentation on their uvea &amp;mdash; known as ocular melanocytosis &amp;mdash; also have an increased risk of developing eye melanoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to ultraviolet (UV) light.&lt;/strong&gt; There&apos;s some evidence that exposure to UV light, such as light from the sun or from tanning beds, may increase the risk of eye melanoma. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of eye melanoma may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing pressure within the eye (glaucoma).&lt;/strong&gt; A growing eye melanoma may cause glaucoma. Signs and symptoms of glaucoma may include eye pain and redness, as well as blurry vision. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision loss.&lt;/strong&gt; Large eye melanomas often cause vision loss in the affected eye and can cause complications, such as retinal detachment, that also cause vision loss. Small eye melanomas can cause some vision loss if they occur in critical parts of the eye. You may have difficulty seeing in the center of your vision or on the side. Very advanced eye melanomas can cause complete vision loss. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye melanoma that spreads beyond the eye.&lt;/strong&gt; Eye melanoma can spread outside of the eye and to distant areas of the body, including the liver, lungs and bones. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If your doctor suspects you have an eye problem, you may be referred to an eye specialist (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects you have an eye melanoma, you may be referred to an eye surgeon who specializes in treating eye melanoma. This specialist can explain your treatment options and may refer you to other specialists depending on the treatments you choose. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For eye melanoma, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have eye melanoma?&lt;/li&gt;
+	&lt;li&gt;Where is my eye melanoma located?&lt;/li&gt;
+	&lt;li&gt;What is the size of my eye melanoma?&lt;/li&gt;
+	&lt;li&gt;Has my eye melanoma spread beyond my eye?&lt;/li&gt;
+	&lt;li&gt;Will I need additional tests?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can any treatments cure my eye melanoma?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;Do I have to have treatment?&lt;/li&gt;
+	&lt;li&gt;How long can I take to decide on a treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my daily life? Can I continue working?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my vision?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them during treatment?&lt;/li&gt;
+	&lt;li&gt;Should I be referred to additional specialists? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose eye melanoma, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam.&lt;/strong&gt; Your doctor will examine the outside of your eye, looking for enlarged blood vessels that can indicate a tumor inside your eye. Then, with the help of instruments, your doctor will look inside your eye. One method, called ophthalmoscopy, uses lenses and a bright light mounted on your doctor&apos;s forehead &amp;mdash; a bit like a miner&apos;s lamp. Another method, called slit-lamp biomicroscopy, uses a microscope that produces an intense beam of light to illuminate the interior of your eye. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye ultrasound.&lt;/strong&gt; An eye ultrasound uses high-frequency sound waves from a hand-held, wand-like apparatus called a transducer to produce images of your eye. The transducer is placed on your closed eyelid or on the front surface of your eye. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging of the blood vessels in and around the tumor (angiogram).&lt;/strong&gt; During an angiogram of your eye, a colored dye is injected into a vein in your arm. The dye travels to the blood vessels in your eye. A camera with special filters to detect the dye takes flash pictures every few seconds for several minutes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of suspicious tissue for testing.&lt;/strong&gt; In some cases, your doctor may recommend a procedure to remove a sample of tissue (biopsy) from your eye. To remove the sample, a thin needle is inserted into your eye and used to extract suspicious tissue. The tissue is tested in a laboratory to determine whether it contains eye melanoma cells. Eye biopsy isn&apos;t usually necessary to diagnose eye melanoma. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining whether cancer has spread&lt;/strong&gt; &lt;br /&gt;
+Your doctor may also recommend additional tests and procedures to determine whether the melanoma has spread (metastasized) to other parts of your body. Tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood tests to measure liver function&lt;/li&gt;
+	&lt;li&gt;Chest X-ray&lt;/li&gt;
+	&lt;li&gt;Computerized tomography (CT) scan&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+	&lt;li&gt;Abdominal ultrasound&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your eye melanoma treatment options will depend on the location and size of the eye melanoma, as well as your overall health and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Waiting to treat small eye melanomas&lt;/strong&gt; &lt;br /&gt;
+A small eye melanoma may not require immediate treatment. If the melanoma is small and isn&apos;t growing, you and your doctor may choose to wait and watch for signs of growth. If the melanoma grows or causes complications, you may choose to undergo treatment at that time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Operations used to treat eye melanoma include procedures to remove part of the eye or a procedure to remove the entire eye. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the melanoma and a small area of healthy tissue.&lt;/strong&gt; Surgery to remove the melanoma and a band of healthy tissue that surrounds it may be an option for treating small melanomas. What procedure you&apos;ll undergo depends on the size and location of your eye melanoma. For instance, surgery to remove a small melanoma affecting the iris is called iridectomy. Surgery to remove a melanoma in the choroid is called choroidectomy. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the entire eye (enucleation).&lt;/strong&gt; Enucleation is often used for large eye tumors. It may also be used if the tumor is causing eye pain. After the eye with melanoma is removed, an implant is inserted into the same position, and the muscles controlling movement of the eye are attached to the implant, which allows the implant to move. After you&apos;ve had some time to heal, an artificial eye (prosthesis) is made. The front surface of your new eye will be custom painted to match your existing eye. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams, such as protons or gamma rays, to kill cancer cells. Radiation therapy is typically used for small to medium-sized eye melanomas. 
+&lt;/p&gt;
+&lt;p&gt;
+The radiation is usually delivered to the tumor by placing a radioactive plaque on your eye, directly over the tumor in a procedure called brachytherapy. The plaque is held in place with temporary stitches. The plaque looks similar to a bottle cap and contains several radioactive seeds. The plaque remains in place for four to five days before it&apos;s removed. 
+&lt;/p&gt;
+&lt;p&gt;
+The radiation can also come from a machine that directs radiation, such as proton beams, to your eye (external beam radiation or teletherapy). This type of radiation therapy is often administered over several days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Laser treatment&lt;/strong&gt; &lt;br /&gt;
+Treatment that uses a laser to kill the melanoma cells may be an option in certain situations. One type of laser treatment, called thermotherapy, uses an infrared laser and is sometimes used in combination with radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cold treatments&lt;/strong&gt; &lt;br /&gt;
+Extreme cold (cryotherapy) may be used to destroy melanoma cells in some small eye melanomas, but this treatment isn&apos;t commonly used. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Coping with vision changes&lt;/strong&gt;&lt;br /&gt;
+If your cancer treatment causes total loss of vision in one eye, such as happens when an eye is removed, it&apos;s still possible to do most things you were able to do with two working eyes. But it may take a few months to adjust to your new vision. 
+&lt;/p&gt;
+&lt;p&gt;
+Having only one eye affects your ability to judge distance. And it may be more difficult to be aware of things around you, especially things occurring on the side without vision. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor for a referral to a support group or an occupational therapist, who can help devise strategies for coping and adjusting to your altered vision. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent eye melanoma. While there&apos;s little evidence to suggest that ultraviolet (UV) light from the sun may increase the risk of eye melanoma, wearing sunglasses to protect your eyes from UV light can reduce your risk of other eye problems, such as cataracts. 
+&lt;/p&gt;
+&lt;p&gt;
+When selecting sunglasses, look for ones that have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protection against two types of UV light.&lt;/strong&gt; Two types of UV light can damage your eyes &amp;mdash; UVA and UVB. Look for sunglasses that block both types.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uniform tinting.&lt;/strong&gt; Look for lenses that are uniformly dark. Avoid lenses that seem lighter in some spots and darker in others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dark lenses.&lt;/strong&gt; Try the sunglasses on and look into a mirror. If you can clearly see your eyes through the lenses, the sunglasses aren&apos;t dark enough.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frames that block light from the side.&lt;/strong&gt; Some frames, called wraparound frames, are made to block light from the side.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Eye melanoma
+	</Title>
+	<Abstract>
+		Eye melanoma &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this cancer of the eye.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,302 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01212
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wisdom-tooth-extraction/MY01212
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-11
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger">
+						<Keyword MCVID="4646" Title="19 to 28 young adult" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3643" Title="Mouth and teeth">
+						<Keyword MCVID="4362" Title="Surgery">
+							<Keyword MCVID="4690" Title="Wisdom tooth extraction" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0B1F451A-0DE1-C435-35D944EDA8479029
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wisdom tooth extraction
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom teeth extraction
+			</MetaKeyword>
+			<MetaKeyword>
+				impacted wisdom tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				third molar
+			</MetaKeyword>
+			<MetaKeyword>
+				impacted third molar
+			</MetaKeyword>
+			<MetaKeyword>
+				third molar extraction
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom teeth removal
+			</MetaKeyword>
+			<MetaKeyword>
+				third molar removal
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wisdom tooth extraction is a surgical procedure to remove one or more wisdom teeth &amp;mdash; the four permanent adult teeth located at the back corners of your mouth on the top and bottom. 
+&lt;/p&gt;
+&lt;p&gt;
+If a wisdom tooth doesn&apos;t have room to grow (impacted wisdom tooth), resulting in pain, infection or other dental problems, you&apos;ll likely need to have it pulled. Wisdom tooth extraction may be done by a dentist or an oral surgeon. Some dentists and oral surgeons recommend wisdom tooth extraction even if impacted teeth aren&apos;t causing problems, as a preventive measure against potential future problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Problems with impacted wisdom teeth&lt;br /&gt;
+&lt;/strong&gt;Wisdom teeth, or third molars, are the last permanent teeth to appear (erupt) in the mouth. These teeth usually appear between the ages of 17 and 25. Some people never develop wisdom teeth. For others, wisdom teeth erupt normally &amp;mdash; just as their other molars did &amp;mdash; and cause no problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people, however, develop impacted wisdom teeth &amp;mdash; teeth that don&apos;t have enough room to erupt into the mouth or grow normally. Impacted wisdom teeth may erupt only partially or not at all. 
+&lt;/p&gt;
+&lt;p&gt;
+An impacted wisdom tooth may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Grow at an angle toward the next tooth (second molar)&lt;/li&gt;
+	&lt;li&gt;Grow at an angle toward the back of the mouth&lt;/li&gt;
+	&lt;li&gt;Grow at a right angle to the other teeth, as if the wisdom tooth is &quot;lying down&quot; within the jawbone&lt;/li&gt;
+	&lt;li&gt;Grow straight up or down like other teeth but stay trapped within the jawbone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll likely need your impacted wisdom tooth pulled if it results in problems such as:&lt;strong&gt; &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Damage to an adjacent tooth&lt;/li&gt;
+	&lt;li&gt;Development of a fluid-filled sac (cyst) around the wisdom tooth&lt;/li&gt;
+	&lt;li&gt;Damage to surrounding bone&lt;/li&gt;
+	&lt;li&gt;Complications with orthodontic treatments to straighten other teeth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing future dental problems&lt;br /&gt;
+&lt;/strong&gt;Dental specialists disagree about the value of extracting impacted wisdom teeth that aren&apos;t causing problems (asymptomatic).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s the rationale for preventive treatment:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;It&apos;s difficult to predict future problems with impacted wisdom teeth.&lt;/li&gt;
+	&lt;li&gt;Symptom-free wisdom teeth could still harbor disease.&lt;/li&gt;
+	&lt;li&gt;Having your wisdom teeth makes you vulnerable to gum disease and tooth cavities.&lt;/li&gt;
+	&lt;li&gt;Removing impacted teeth lowers the risk of potential problems.&lt;/li&gt;
+	&lt;li&gt;Serious complications rarely happen in younger adults.&lt;/li&gt;
+	&lt;li&gt;Older adults may experience difficulty with surgery and complications after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other specialists argue that there isn&apos;t enough evidence to suggest that impacted wisdom teeth not causing problems in young adults will later cause problems. Therefore, they suggest that the expense and risks of the procedure don&apos;t justify the expected benefit.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing erupting and impacted wisdom teeth 
+" Caption="Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly causing complications. 
+" Height="60" Title="Impacted wisdom teeth" URI="/images/image_popup/thumbs/de7_wisdomteeththu.jpg" Width="60" />
+				<Image Alt="Illustration showing erupting and impacted wisdom teeth 
+" Caption="Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly causing complications. 
+" Height="400" Title="Impacted wisdom teeth" URI="/images/image_popup/de7_wisdomteeth.jpg" Width="400" />
+				<HTML>
+					Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most wisdom tooth extractions don&apos;t result in long-term complications. Problems that can occur include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dry socket, or exposure of bone when the post-surgical blood clot is dislodged from the site of the surgical wound (socket) &amp;mdash; a complication that delays healing and causes pain&lt;/li&gt;
+	&lt;li&gt;Infection in the socket from bacteria or trapped food particles&lt;/li&gt;
+	&lt;li&gt;Damage to sinuses near the upper wisdom teeth&lt;/li&gt;
+	&lt;li&gt;Weakening of the lower jawbone&lt;/li&gt;
+	&lt;li&gt;Damage to nerves that results in altered sensation in the lower lip, tongue or chin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Questions to ask your dentist or surgeon&lt;br /&gt;
+&lt;/strong&gt;Your dentist may perform the procedure in the office. However, if your tooth is deeply impacted or if the extraction is expected to be difficult, your dentist may suggest you see an oral surgeon. Questions you may want to ask your dentist or oral surgeon include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How many wisdom teeth need to be removed?&lt;/li&gt;
+	&lt;li&gt;Will I need local anesthesia (which numbs your mouth and jaw) or sedation anesthesia (which makes you unaware of the procedure)?&lt;/li&gt;
+	&lt;li&gt;How complicated do you expect the procedure to be?&lt;/li&gt;
+	&lt;li&gt;How long is the procedure likely to last?&lt;/li&gt;
+	&lt;li&gt;Have the impacted wisdom teeth caused damage to other teeth?&lt;/li&gt;
+	&lt;li&gt;Is there a risk that I might have nerve damage?&lt;/li&gt;
+	&lt;li&gt;What other dental treatments might I need at a later date?&lt;/li&gt;
+	&lt;li&gt;How long does it take to completely heal and return to normal activity?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for the surgery&lt;br /&gt;
+&lt;/strong&gt;A wisdom tooth extraction is almost always performed as an outpatient procedure. This means that you go home the same day. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll receive instructions from the hospital or dental clinic staff on what to do before the surgery and the day of your scheduled surgery. Ask these questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Will I need to make arrangements for someone to drive me home after the procedure?&lt;/li&gt;
+	&lt;li&gt;When do I need to arrive at the dental clinic or hospital?&lt;/li&gt;
+	&lt;li&gt;Do I need to avoid eating food, drinking fluids or both (fast)? If so, when do I begin?&lt;/li&gt;
+	&lt;li&gt;Can I take my prescription medications before the surgery? If so, how soon before the surgery can I take a dose?&lt;/li&gt;
+	&lt;li&gt;Should I avoid any nonprescription drugs before the surgery?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;Your doctor or oral surgeon may use one of three types of anesthesia. The appropriate anesthesia for you depends on the expected complexity of the wisdom tooth extraction and your own comfort level. Your options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Local anesthesia.&lt;/strong&gt; Your doctor or oral surgeon administers local anesthesia with one or more injections near the site of each extraction. Before you receive an injection, your dentist or surgeon will likely apply a substance to the gums that numbs the site. You&apos;re awake during the tooth extraction. Although you&apos;ll feel some pressure and movement, you shouldn&apos;t experience pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedation anesthesia.&lt;/strong&gt; Your doctor or oral surgeon gives you sedation anesthesia through an intravenous line in your arm. Sedation anesthesia suppresses your consciousness during the procedure and you don&apos;t feel any pain. You will also receive local anesthesia to numb your gums.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;General anesthesia.&lt;/strong&gt; In special situations, you may be offered general anesthesia. For general anesthesia, you inhale medication through your nose. This type of anesthesia makes you lose consciousness, and you don&apos;t feel any pain during the procedure. Your surgical team closely monitors your medication, breathing, temperature, fluids and blood pressure during general anesthesia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During wisdom tooth extraction, your dentist or oral surgeon: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Makes an incision in the gum, creating flaps to expose the tooth and bone&lt;/li&gt;
+	&lt;li&gt;Removes any bone that blocks access to the tooth&lt;/li&gt;
+	&lt;li&gt;Divides the tooth into sections if it&apos;s easier to remove in pieces&lt;/li&gt;
+	&lt;li&gt;Removes the tooth&lt;/li&gt;
+	&lt;li&gt;Cleans the site of the removed tooth of any debris from the tooth or bone&lt;/li&gt;
+	&lt;li&gt;Stitches the wound closed to promote healing, though this isn&apos;t always necessary&lt;/li&gt;
+	&lt;li&gt;Places gauze over the extraction site to control bleeding and to help a blood clot form&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;If you receive sedation anesthesia or general anesthesia, you&apos;re taken to a recovery room after the procedure. If you have local anesthesia, your brief recovery time is likely in the dental chair. 
+&lt;/p&gt;
+&lt;p&gt;
+As you heal from your surgery, follow your doctor&apos;s instructions on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Activity.&lt;/strong&gt; After your surgery, plan to rest for the remainder of the day. Resume normal activities the next day, but for at least a week, avoid strenuous activity that might result in dislodging the blood clot from the socket.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beverages.&lt;/strong&gt; Drink lots of water after the surgery. Don&apos;t drink alcoholic, caffeinated, carbonated or hot beverages in the first 24 hours. Don&apos;t drink with a straw for at least a week because the sucking action can dislodge the blood clot from the socket.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food.&lt;/strong&gt; Eat only soft foods, such as yogurt or applesauce, for the first 24 hours. Start eating semisoft foods when you can tolerate them. Avoid hard, chewy, hot or spicy foods that might get stuck in the socket or irritate the wound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain management.&lt;/strong&gt; You may be able to manage pain with a prescription pain medication &amp;mdash; given by your doctor or oral surgeon &amp;mdash; or an over-the-counter pain reliever, such as acetaminophen (Tylenol, others). Holding a cold pack against your jaw also may relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Some oozing of blood may occur the first day after wisdom tooth removal. Try to avoid excessive spitting so that you don&apos;t dislodge the blood clot from the socket. Replace gauze over the extraction site as directed by your dentist or oral surgeon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling and bruising.&lt;/strong&gt; Swelling and bruising of your cheeks usually improves in two or three days. Use an ice pack as directed by your dentist or surgeon.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cleaning your mouth.&lt;/strong&gt; Don&apos;t brush your teeth, rinse your mouth, spit or use a mouthwash during the first 24 hours after the surgery. After that time, gently rinse your mouth with warm salt water every two hours and after meals for a week after your surgery. Mix 1/2 teaspoon (2.5 milliliters) of table salt in 8 ounces (237 milliliters) of water. After the first 24 hours, resume brushing your teeth, being particularly gentle near the surgical wound to avoid disrupting any stitches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco use.&lt;/strong&gt; If you smoke, don&apos;t do so for at least 24 hours after surgery &amp;mdash; and wait longer than that if possible. If you chew tobacco, don&apos;t use it for at least a week. Using tobacco products after oral surgery can delay healing and increase the risk of complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stitches.&lt;/strong&gt; You may have stitches that dissolve within a few weeks or no stitches at all. If your stitches need to be removed, schedule an appointment to have them taken out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to call your dentist or surgeon&lt;br /&gt;
+&lt;/strong&gt;Call your dentist or oral surgeon if you experience any of the following signs or symptoms, which could indicate an infection, nerve damage or other serious complication: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling that worsens after two or three days&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Severe pain not relieved by prescribed pain medications&lt;/li&gt;
+	&lt;li&gt;A bad taste in your mouth not removed with saltwater rinsing&lt;/li&gt;
+	&lt;li&gt;Pus in or oozing from the socket&lt;/li&gt;
+	&lt;li&gt;Blood in nasal discharge&lt;/li&gt;
+	&lt;li&gt;Persistent numbness or loss of feeling&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You probably won&apos;t need a follow-up appointment after a wisdom tooth extraction if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You don&apos;t need stitches removed&lt;/li&gt;
+	&lt;li&gt;No complications arose during the procedure&lt;/li&gt;
+	&lt;li&gt;You don&apos;t experience persistent problems, such as pain, swelling, numbness or bleeding &amp;mdash; complications that might indicate infection, nerve damage or other problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If complications develop, your dentist or oral surgeon will discuss appropriate treatment options with you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wisdom tooth extraction
+	</Title>
+	<Abstract>
+		Wisdom tooth extraction &amp;mdash; Overview covers treatment goals, complications of surgery for wisdom teeth removal.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01098" LinkType="Internal" ObjectID="7063CEDB-E93E-7C70-2153B488EF1FD60D" Title="Dental exam for children" Url="http://www.mayoclinic.com/health/dental-exam-for-children/MY01098" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,415 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00019
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/osteoarthritis/DS00019
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-13
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="1721" Title="Osteoarthritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2B275878-8417-41E5-AB4FA4B6646DD7F6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				osteoarthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis pain
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				joint inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				degenerative joint disease
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoarthrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				joint pain
+			</MetaKeyword>
+			<MetaKeyword>
+				degenerative disk disease
+			</MetaKeyword>
+			<MetaKeyword>
+				osteo arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				djd
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteoarthritis is the most common form of arthritis, affecting millions of people around the world. Often called wear-and-tear arthritis, osteoarthritis occurs when the protective cartilage on the ends of your bones wears down over time. 
+&lt;/p&gt;
+&lt;p&gt;
+While osteoarthritis can damage any joint in your body, the disorder most commonly affects joints in your hands, neck, lower back, knees and hips. 
+&lt;/p&gt;
+&lt;p&gt;
+Osteoarthritis gradually worsens with time, and no cure exists. But osteoarthritis treatments can slow the progression of the disease, relieve pain and improve joint function. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteoarthritis symptoms often develop slowly and worsen over time. Signs and symptoms of osteoarthritis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Your joint may hurt during or after movement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tenderness.&lt;/strong&gt; Your joint may feel tender when you apply light pressure to it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stiffness.&lt;/strong&gt; Joint stiffness may be most noticeable when you wake up in the morning or after a period of inactivity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of flexibility.&lt;/strong&gt; You may not be able to move your joint through its full range of motion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Grating sensation.&lt;/strong&gt; You may hear or feel a grating sensation when you use the joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone spurs.&lt;/strong&gt; These extra bits of bone, which feel like hard lumps, may form around the affected joint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have swelling or stiffness in your joints that lasts for more than a few weeks, make an appointment with your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing difference between a normal spine and an arthritic spine 
+" Caption="Osteoarthritis of the spine results in a narrowing of the spaces between the vertebrae. Bone spurs often form. When bone surfaces rub together, the vertebral joints (facets) and areas surrounding the cartilage become inflamed and painful. 
+" Height="60" Title="Arthritis of the spine" URI="/images/image_popup/thumbs/ans7_osteoarthritisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing difference between a normal spine and an arthritic spine 
+" Caption="Osteoarthritis of the spine results in a narrowing of the spaces between the vertebrae. Bone spurs often form. When bone surfaces rub together, the vertebral joints (facets) and areas surrounding the cartilage become inflamed and painful. 
+" Height="263" Title="Arthritis of the spine" URI="/images/image_popup/ans7_osteoarthritis.jpg" Width="400" />
+				<HTML>
+					Osteoarthritis of the spine results in a narrowing of the spaces between the vertebrae. Bone spurs often form. When bone surfaces rub together, the vertebral joints (facets) and areas surrounding the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing osteoarthritis of the hip 
+" Caption="The hip joint shown on the left side of the image is normal, but the hip joint shown on the right side of the image shows deterioration of cartilage and the formation of bone spurs due to osteoarthritis. 
+" Height="60" Title="Osteoarthritis of the hip" URI="/images/image_popup/thumbs/mcdc7_hiparthritisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing osteoarthritis of the hip 
+" Caption="The hip joint shown on the left side of the image is normal, but the hip joint shown on the right side of the image shows deterioration of cartilage and the formation of bone spurs due to osteoarthritis. 
+" Height="387" Title="Osteoarthritis of the hip" URI="/images/image_popup/mcdc7_hiparthritis.jpg" Width="400" />
+				<HTML>
+					The hip joint shown on the left side of the image is normal, but the hip joint shown on the right side of the image shows deterioration of cartilage and the formation of bone spurs due to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteoarthritis occurs when the cartilage that cushions the ends of bones in your joints deteriorates over time. Cartilage is a firm, slippery tissue that permits nearly frictionless joint motion. In osteoarthritis, the slick surface of the cartilage becomes rough. Eventually, if the cartilage wears down completely, you may be left with bone rubbing on bone.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of osteoarthritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; The risk of osteoarthritis increases with age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are more likely to develop osteoarthritis, though it isn&apos;t clear why.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone deformities.&lt;/strong&gt; Some people are born with malformed joints or defective cartilage, which can increase the risk of osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint injuries.&lt;/strong&gt; Injuries, such as those that occur when playing sports or from an accident, may increase the risk of osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Carrying more body weight places more stress on your weight-bearing joints, such as your knees.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sedentary lifestyle.&lt;/strong&gt; Cartilage depends on joint use for its nutrition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain occupations.&lt;/strong&gt; If your job includes tasks that place repetitive stress on a particular joint, that may predispose that joint toward eventually developing osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; Having diabetes, underactive thyroid, gout or Paget&apos;s disease of bone can increase your risk of developing osteoarthritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Osteoarthritis is a degenerative disease that worsens over time. Joint pain and stiffness may become severe enough to make daily tasks difficult. Some people are no longer able to work. When joint pain is this severe, doctors may suggest joint replacement surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially bring your concerns to your family doctor he or she may refer you to a doctor who specializes in joint disorders (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your joint pain begin?&lt;/li&gt;
+	&lt;li&gt;Is the pain continuous, or does it come and go?&lt;/li&gt;
+	&lt;li&gt;Do any particular activities make the pain better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you ever injured this joint?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will closely examine your affected joint, checking for tenderness, swelling or redness. He or she will also check the joint&apos;s range of motion. Your doctor may also recommend imaging and lab tests.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Cartilage doesn&apos;t show up on X-ray images, but the loss of cartilage is revealed by a narrowing of the space between the bones in your joint. An X-ray may also show bone spurs around a joint. Many people have X-ray evidence of osteoarthritis before they experience any symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses radio waves and a strong magnetic field to produce detailed images of bone and soft tissues, including bone cartilage. This can be helpful in determining what exactly is causing your pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests may help rule out other causes of joint pain, such as rheumatoid arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint fluid analysis.&lt;/strong&gt; Your doctor may use a needle to draw fluid out of the affected joint. Examining and testing the fluid from your joint can determine if there&apos;s inflammation and if your pain is caused by gout or an infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known cure for osteoarthritis, but treatments can help to reduce pain and maintain joint movement.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acetaminophen.&lt;/strong&gt; Acetaminophen (Tylenol, others) can relieve pain, but doesn&apos;t reduce inflammation. It has been shown to be effective for people with osteoarthritis who have mild to moderate pain. Taking more than the recommended dosage of acetaminophen can cause liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; NSAIDs reduce inflammation and relieve pain. Over-the-counter NSAIDs include ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others). Stronger NSAIDs are available by prescription. NSAIDs can cause stomach upset, ringing in your ears, cardiovascular problems, bleeding problems, and liver and kidney damage. Older people are at highest risk of complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narcotics.&lt;/strong&gt; These types of prescription medication typically contain ingredients similar to codeine and may provide relief from more severe osteoarthritis pain. These stronger medications carry a risk of dependence, though that risk is thought to be small in people who have severe pain. Side effects may include nausea, constipation and sleepiness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Work with a physical therapist.&lt;/strong&gt; Ask your doctor for a referral to a physical therapist. The physical therapist can work with you to create an individualized exercise regimen that will strengthen the muscles around your joint, increase the range of motion in your joint and reduce your pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to avoid stressing your joints.&lt;/strong&gt; Find ways to go about your day without stressing your joints. An occupational therapist can help you discover ways to do everyday tasks or do your job without putting extra stress on your already painful joint. For instance, a toothbrush with a large grip could make brushing your teeth easier if you have finger osteoarthritis. A bench in your shower could help relieve the pain of standing if you have knee osteoarthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try braces or shoe inserts.&lt;/strong&gt; Consider trying splints, braces, shoe inserts or other medical devices that can help reduce your pain. These devices can immobilize or support your joint to help you keep pressure off it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a chronic pain class.&lt;/strong&gt; The Arthritis Foundation and some medical centers have classes for people with osteoarthritis or chronic pain. Ask your doctor about classes in your area or check with the Arthritis Foundation. These classes teach skills that help you manage your osteoarthritis pain. And you&apos;ll meet other people with osteoarthritis and learn their tips and tricks for reducing and coping with joint pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cortisone shots.&lt;/strong&gt; Injections of corticosteroid medications may relieve pain in your joint. During this procedure your doctor numbs the area around your joint, and then inserts a needle into the space within your joint and injects medication. The number of cortisone shots you can receive each year is limited, because the medication can cause joint damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lubrication injections.&lt;/strong&gt; Injections of hyaluronic acid derivatives (Hyalgan, Synvisc) may offer pain relief by providing some cushioning in your knee. These treatments are made of rooster combs and are similar to a component normally found in your joint fluid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Realigning bones.&lt;/strong&gt; During a surgical procedure called an osteotomy, the surgeon cuts across the bone either above or below the knee to realign the leg. Osteotomy can reduce knee pain by shifting your body weight away from the worn-out part of your knee.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint replacement.&lt;/strong&gt; In joint replacement surgery (arthroplasty), your surgeon removes your damaged joint surfaces and replaces them with plastic and metal devices called prostheses. The hip and knee joints are the most commonly replaced joints. Surgical risks include infections and blood clots. Artificial joints can wear out or come loose and may need to eventually be replaced.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hip replacement 
+" Caption="Gradual deterioration of cartilage that occurs in osteoarthritis is the most common reason for hip replacement surgery. Implanting an artificial joint eliminates pain and restores near-normal movement. 
+" Height="60" Title="Hip replacement" URI="/images/image_popup/thumbs/ww5r022thu.jpg" Width="60" />
+				<Image Alt="Illustration showing hip replacement 
+" Caption="Gradual deterioration of cartilage that occurs in osteoarthritis is the most common reason for hip replacement surgery. Implanting an artificial joint eliminates pain and restores near-normal movement. 
+" Height="299" Title="Hip replacement" URI="/images/image_popup/ww5r0221.jpg" Width="400" />
+				<HTML>
+					Gradual deterioration of cartilage that occurs in osteoarthritis is the most common reason for hip replacement surgery. Implanting an artificial joint eliminates pain and restores near-normal ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a healthy knee, a knee with osteoarthritis and knee that has undergone knee replacement surgery 
+" Caption="Knee replacement surgery can repair damage from osteoarthritis or inflammatory conditions. The artificial joint has metal alloy caps for your thighbone and shinbone and high-density plastic to replace eroded cartilage within the joint and on your kneecap. 
+" Height="60" Title="Knee replacement" URI="/images/image_popup/thumbs/ww5rl11t.jpg" Width="60" />
+				<Image Alt="Illustration showing a healthy knee, a knee with osteoarthritis and knee that has undergone knee replacement surgery 
+" Caption="Knee replacement surgery can repair damage from osteoarthritis or inflammatory conditions. The artificial joint has metal alloy caps for your thighbone and shinbone and high-density plastic to replace eroded cartilage within the joint and on your kneecap. 
+" Height="248" Title="Knee replacement" URI="/images/image_popup/ww5rl11.jpg" Width="400" />
+				<HTML>
+					Knee replacement surgery can repair damage from osteoarthritis or inflammatory conditions. The artificial joint has metal alloy caps for your thighbone and shinbone and high-density plastic to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; If you&apos;re experiencing pain or inflammation in your joint, rest it for 12 to 24 hours. Find activities that don&apos;t require you to use your joint repetitively.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Exercise can increase your endurance and strengthen the muscles around your joint, making your joint more stable. Stick to gentle exercises, such as walking, biking or swimming. If you feel new joint pain, stop. New pain that lasts for hours after you exercise probably means you&apos;ve overdone it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight.&lt;/strong&gt; Being overweight or obese increases the stress on your weight-bearing joints, such as your knees and your hips. Even a small amount of weight loss can relieve some pressure and reduce your pain. Talk to your doctor about healthy ways to lose weight. Most people combine changes in their diet with increased exercise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use heat and cold to manage pain.&lt;/strong&gt; Both heat and cold can relieve pain in your joint. Heat also relieves stiffness and cold can relieve muscle spasms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply over-the-counter pain creams.&lt;/strong&gt; Creams and gels available at the drugstore may provide temporary relief from osteoarthritis pain. Some creams numb the pain by creating a hot or cool sensation. Other creams contain medications, such as aspirin-like compounds, that are absorbed into your skin. Pain creams work best on joints that are close to the surface of your skin, such as your knees and fingers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use assistive devices.&lt;/strong&gt; Assistive devices can make it easier to go about your day without stressing your painful joint. A cane may take weight off your knee or hip as you walk. Gripping and grabbing tools may make it easier to work in the kitchen if you have osteoarthritis in your fingers. Your doctor or occupational therapist may have ideas about what sorts of assistive devices may be helpful to you. Catalogs and medical supply stores also may be places to look for ideas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of a person with hand osteoarthritis using a large grip knife to cut an apple 
+" Caption="Large grip tools, such as a large grip knife, can make it easier to take care of everyday tasks if you have osteoarthritis in your hands. Some tools will need to be purchased at a specialty store. Others you can adjust yourself. For instance, wrap the handle of your toothbrush in foam to make the handle larger and easier to grip. 
+" Height="60" Title="Large grip knife for hand osteoarthritis" URI="/images/image_popup/thumbs/arth7_knifethu.jpg" Width="60" />
+				<Image Alt="Photograph of a person with hand osteoarthritis using a large grip knife to cut an apple 
+" Caption="Large grip tools, such as a large grip knife, can make it easier to take care of everyday tasks if you have osteoarthritis in your hands. Some tools will need to be purchased at a specialty store. Others you can adjust yourself. For instance, wrap the handle of your toothbrush in foam to make the handle larger and easier to grip. 
+" Height="340" Title="Large grip knife for hand osteoarthritis" URI="/images/image_popup/arth7_knife.jpg" Width="400" />
+				<HTML>
+					Large grip tools, such as a large grip knife, can make it easier to take care of everyday tasks if you have osteoarthritis in your hands. Some tools will need to be purchased at a specialty store. ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of a person with finger osteoarthritis using a button tool to fasten a button 
+" Caption="Osteoarthritis in your fingers may make it painful to grasp small objects, such as buttons on your shirt. A button tool can make it easier on your joints. 
+" Height="60" Title="Button tool for finger osteoarthritis" URI="/images/image_popup/thumbs/arth7_buttonthu.jpg" Width="60" />
+				<Image Alt="Photograph of a person with finger osteoarthritis using a button tool to fasten a button 
+" Caption="Osteoarthritis in your fingers may make it painful to grasp small objects, such as buttons on your shirt. A button tool can make it easier on your joints. 
+" Height="340" Title="Button tool for finger osteoarthritis" URI="/images/image_popup/arth7_button.jpg" Width="400" />
+				<HTML>
+					Osteoarthritis in your fingers may make it painful to grasp small objects, such as buttons on your shirt. A button tool can make it easier on your joints. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who aren&apos;t helped by medications for osteoarthritis pain sometimes turn to complementary and alternative medicine practices for relief. Common treatments that have shown some promise for osteoarthritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Some studies indicate that acupuncture can relieve pain and improve function in people who have knee osteoarthritis. During acupuncture, hair-thin needles are inserted into your skin at precise spots on your body. Risks include infection, bruising and some pain where needles are inserted into your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glucosamine and chondroitin.&lt;/strong&gt; Studies have been mixed on these nutritional supplements. A few have found benefits for people with osteoarthritis, while most indicate that these supplements work no better than placebo. Don&apos;t use glucosamine if you&apos;re allergic to shellfish. Glucosamine and chondroitin may interact with blood thinners such as warfarin (Coumadin) and cause bleeding problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tai chi and yoga.&lt;/strong&gt; These movement therapies involve gentle exercises and stretches combined with deep breathing. Many people use these therapies to reduce stress in their lives, though small studies have found that tai chi and yoga may reduce osteoarthritis pain. When led by a knowledgeable instructor, these therapies are safe. Avoid moves that cause pain in your joints.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medications and other treatments are key to managing pain and disability, but another major component to treatment is your own attitude. Your ability to cope despite pain and disability caused by osteoarthritis often determines how much of an impact osteoarthritis will have on your everyday life. Talk to your doctor if you&apos;re feeling frustrated. He or she may have ideas about how to cope or refer you to someone who can help. In the meantime, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a positive attitude.&lt;/strong&gt; Make a plan with your doctor for managing your arthritis. This will help you feel that you&apos;re in charge of your disease, rather than vice versa. Studies show that people who take control of their treatment and actively manage their arthritis experience less pain and function better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice relaxation techniques.&lt;/strong&gt; Hypnosis, guided imagery, deep breathing and muscle relaxation can all be used to control pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know your limits.&lt;/strong&gt; Rest when you&apos;re tired. Arthritis can make you prone to fatigue and muscle weakness &amp;mdash; a deep exhaustion that makes everything you do a great effort. A rest or short nap that doesn&apos;t interfere with nighttime sleep may help.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Osteoarthritis
+	</Title>
+	<Abstract>
+		Osteoarthritis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of osteoarthritis, including knee osteoarthritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="AR00030" LinkType="Internal" ObjectID="D1D4A737-62B3-4E7F-84CAE1AD9FD4EA1F" Title="Slide show: Hand exercises for people with arthritis" Url="http://www.mayoclinic.com/health/arthritis/AR00030" />
+		<LinkItem ContentType="Answer" DocID="AN01520" LinkType="Internal" ObjectID="CED45E72-E7FF-0DBD-1E04A939982EBF1F" Title="Botox injections: Can they relieve arthritis pain?" Url="http://www.mayoclinic.com/health/botox-injections/AN01520" />
+		<LinkItem ContentType="Answer" DocID="AN00560" LinkType="Internal" ObjectID="C2BFC2FA-4AF6-426F-AD78C67CF11D02D6" Title="MSM for arthritis pain: Is it safe?" Url="http://www.mayoclinic.com/health/msm/AN00560" />
+		<LinkItem ContentType="Answer" DocID="AN01830" LinkType="Internal" ObjectID="BDEB97A3-E7FF-0DBD-120CA74B1165F79B" Title="Water exercise: Does pool temperature matter?" Url="http://www.mayoclinic.com/health/water-exercise/AN01830" />
+		<LinkItem ContentType="Answer" DocID="AN01585" LinkType="Internal" ObjectID="BDB43F9B-E7FF-0DBD-1AA1144D6F65930B" Title="Arthritis pain medications: Do they raise blood pressure?" Url="http://www.mayoclinic.com/health/arthritis-pain-medications/AN01585" />
+		<LinkItem ContentType="Answer" DocID="AN01107" LinkType="Internal" ObjectID="6040C9B2-9775-4602-9C0B499B36B6AC47" Title="Yucca: Can it relieve arthritis pain?" Url="http://www.mayoclinic.com/health/arthritis/AN01107" />
+		<LinkItem ContentType="SlideShow" DocID="AR00027" LinkType="Internal" ObjectID="55609D76-3CDE-46D9-86B8AE68C63EE763" Title="Slide show: Joint protection for people with hand arthritis" Url="http://www.mayoclinic.com/health/joint-protection/AR00027" />
+		<LinkItem ContentType="Article" DocID="AR00009" LinkType="Internal" ObjectID="DC1428F9-E845-42FD-BED154040E37FACC" Title="Exercise helps ease arthritis pain and stiffness" Url="http://www.mayoclinic.com/health/arthritis/AR00009" />
+		<LinkItem ContentType="Article" DocID="AR00029" LinkType="Internal" ObjectID="89A0E006-944C-4663-8C310E426EA052EF" Title="Arthritis pain: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/arthritis/AR00029" />
+		<LinkItem ContentType="SlideShow" DocID="HA00064" LinkType="Internal" ObjectID="E336EE7F-CF45-41B8-925D1C208C88DBF5" Title="Slide show: Tips for choosing and using canes" Url="http://www.mayoclinic.com/health/canes/HA00064" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00137" LinkType="Internal" ObjectID="DF5307F2-E7FF-0DBD-11FAD3C8281FD280" Title="Knee braces for osteoarthritis" Url="http://www.mayoclinic.com/health/knee-braces/MY00137" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00091" LinkType="Internal" ObjectID="B5C83436-E7FF-0DBD-15E514D08949DD27" Title="Knee replacement" Url="http://www.mayoclinic.com/health/knee-replacement/MY00091" />
+		<LinkItem ContentType="Answer" DocID="AN02170" LinkType="Internal" ObjectID="AFDE34DE-0FCA-7609-870E96CD6F96AEF9" Title="Tailbone pain: How can I relieve it?" Url="http://www.mayoclinic.com/health/tailbone-pain/AN02170" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Answer" DocID="AN01550" LinkType="Internal" ObjectID="5AC3F0F4-E7FF-0DBD-13037F09246895B5" Title="Hip resurfacing: An alternative to conventional hip replacement?" Url="http://www.mayoclinic.com/health/hip-resurfacing/AN01550" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00710" LinkType="Internal" ObjectID="401527C4-92D2-4BC2-0177DE8A3AEDDF9D" Title="Knee osteotomy" Url="http://www.mayoclinic.com/health/knee-osteotomy/MY00710" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00235" LinkType="Internal" ObjectID="05C3B4B8-E7FF-0DBD-1702D00A82E8F548" Title="Hip replacement" Url="http://www.mayoclinic.com/health/hip-replacement/MY00235" />
+		<LinkItem ContentType="Disease" DocID="DS01122" LinkType="Internal" ObjectID="62AB3DE2-E7FF-0DBD-1A7467616FA82C1D" Title="Arthritis" Url="http://www.mayoclinic.com/health/arthritis/DS01122" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Answer" DocID="AN02009" LinkType="Internal" ObjectID="9D43FBE1-D22C-E552-473CC8DF6F4743F5" Title="Opioids: Safe for older people?" Url="http://www.mayoclinic.com/health/opioids/AN02009" />
+		<LinkItem ContentType="Answer" DocID="AN00619" LinkType="Internal" ObjectID="7E7334DE-3DB7-4425-AF6021DFD9733C8B" Title="Glucosamine: Does it protect cartilage in osteoarthritis?" Url="http://www.mayoclinic.com/health/glucosamine/AN00619" />
+		<LinkItem ContentType="Answer" DocID="AN00124" LinkType="Internal" ObjectID="08F89ABA-6E61-41E1-B526FF9AAC5BCFE0" Title="&apos;Degenerative changes&apos; in the spine: Is this arthritis?" Url="http://www.mayoclinic.com/health/arthritis/AN00124" />
+		<LinkItem ContentType="Answer" DocID="AN01723" LinkType="Internal" ObjectID="04C5153C-E7FF-0DBD-114DEF772F0DCB6E" Title="Glucosamine: Does it affect blood sugar?" Url="http://www.mayoclinic.com/health/glucosamine/AN01723" />
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Article" DocID="PN00041" LinkType="Internal" ObjectID="6FD00550-05BE-4813-9D4B41564D8A04F4" Title="Arthritis pain: Creams and gels for aching joints" Url="http://www.mayoclinic.com/health/pain-medications/PN00041" />
+	</RelatedLinksBox>
+</Disease>

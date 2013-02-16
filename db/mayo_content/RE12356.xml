@@ -1,0 +1,223 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12356
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/squash-soup/RE12356
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-21
+		</UpdateDate>
+		<PublicationDate>
+			2012-09-21
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			068156D4-065B-42F2-1761DAB9CBE50BAD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				squash soup
+			</MetaKeyword>
+			<MetaKeyword>
+				roasted squash soup
+			</MetaKeyword>
+			<MetaKeyword>
+				squash soup recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Roasted squash soup
+	</Title>
+	<Abstract>
+		Roasted squash soup &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Roasting squash intensifies its natural sweetness.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Cut squash into half-inch pieces, put in a roasting pan and toss with 1 teaspoon of oil. Roast at 400 F for 40 minutes or until brown. 
+&lt;/p&gt;
+&lt;p&gt;
+Add remaining oil to a large pot. Add vegetables and saute over medium heat until vegetables are lightly browned. Add stock, spices and squash to pot, and simmer for a few minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Carefully puree soup with a stick blender, or process soup in batches in a blender or food processor. Return pureed soup to pot and bring back to a simmer. Serve.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 small butternut squash&lt;/li&gt;
+	&lt;li&gt;2 teaspoons canola oil, divided&lt;/li&gt;
+	&lt;li&gt;1 cup diced celery&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups diced yellow onion&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups spinach&lt;/li&gt;
+	&lt;li&gt;2 cloves garlic, minced&lt;/li&gt;
+	&lt;li&gt;1 cup diced carrot&lt;/li&gt;
+	&lt;li&gt;4 cups unsalted vegetable stock&lt;/li&gt;
+	&lt;li&gt;1 teaspoon sage&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon nutmeg&lt;/li&gt;
+	&lt;li&gt;1 teaspoon black pepper&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1/2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1/2
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1/2
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				195
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				38 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				7.5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				4 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				72 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				3 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Course">
+			Soups
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Roast
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-fat
+		</Category>
+	</Categorization>
+</Recipe>

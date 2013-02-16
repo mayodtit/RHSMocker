@@ -1,0 +1,367 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00978
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/broken-leg/DS00978
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="3253" Title="Broken leg" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6EFECA-E7FF-0DBD-16B94C1335C0D903
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				broken leg
+			</MetaKeyword>
+			<MetaKeyword>
+				leg fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				fibular fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				fibula fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				tibial fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				tibia fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				broken bone
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken leg (leg fracture) is a break or crack in one of the bones in your leg. Ranging in severity from a simple stress fracture to an open fracture (where the bone breaks through the skin), a broken leg can occur in people of all ages. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of a broken leg depends on the location and severity of the injury. A severely broken leg may require surgery to implant devices into the broken bone to maintain proper alignment during healing. Other injuries may be treated with a cast or splint. In all cases, prompt diagnosis and treatment of a broken leg is critical to complete healing. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of broken leg showing types of leg fractures 
+" Caption="Many types of fractures can occur in the three long bones in your leg &amp;mdash; the thighbone (femur), the shinbone (tibia) and the fibula. These fractures include an open fracture, closed fracture, incomplete fracture, complete fracture, displaced fracture and comminuted fracture. 
+" Height="60" Title="Leg fractures" URI="/images/image_popup/thumbs/r7_legfracturesthu.jpg" Width="60" />
+				<Image Alt="Illustration of broken leg showing types of leg fractures 
+" Caption="Many types of fractures can occur in the three long bones in your leg &amp;mdash; the thighbone (femur), the shinbone (tibia) and the fibula. These fractures include an open fracture, closed fracture, incomplete fracture, complete fracture, displaced fracture and comminuted fracture. 
+" Height="346" Title="Leg fractures" URI="/images/image_popup/r7_legfractures.jpg" Width="400" />
+				<HTML>
+					Many types of fractures can occur in the three long bones in your leg &amp;mdash; the thighbone (femur), the shinbone (tibia) and the fibula. These fractures include an open fracture, closed fracture, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken thighbone (femur) &amp;mdash; the strongest bone in your body &amp;mdash; usually is obvious because it takes so much force to break. But fractures of your shinbone (tibia) &amp;mdash; the major weight-bearing bone in your lower leg &amp;mdash; and the bone that runs alongside your tibia below your knee (fibula) may be more subtle. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of a broken leg may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain, which may worsen with movement&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Obvious deformity or shortening of the affected leg&lt;/li&gt;
+	&lt;li&gt;Inability to walk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Toddlers or young children who break a leg may simply stop walking, even if they can&apos;t explain why. Unexplained crying may be the only other sign. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you or your child has any signs or symptoms of a broken leg, see a doctor right away. Delays in diagnosis and treatment can result in problems later, including poor healing. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency medical attention for any leg fracture from a high-impact trauma, such as a car or motorcycle accident. Fractures of the thighbone are severe, potentially life-threatening injuries that require emergency medical services to help protect the area from further damage and to transfer you safely to your local hospital. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are a number of ways you can break a leg, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Falling can fracture your thighbone (femur) or shinbone (tibia). Children can fracture these bones by falling on the playground, while toddlers can break the tibia or fibula by falling over a toy or falling down the stairs while learning to walk; however, the femur is unlikely to be broken without more significant trauma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Significant trauma.&lt;/strong&gt; All three leg bones can break during a motor vehicle accident. Shinbone fractures often occur when your knees become jammed against the dashboard during a collision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports injuries.&lt;/strong&gt; Hyperextending your leg during contact sports can cause a broken leg. So can a direct blow &amp;mdash; such as from a hockey stick or an opponent&apos;s body &amp;mdash; or falling while climbing or biking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Child abuse.&lt;/strong&gt; In children, a broken leg may be the result of child abuse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overuse.&lt;/strong&gt; Stress fractures are tiny cracks that develop in the weight-bearing bones of your body, including your tibia. Stress fractures are usually caused by repetitive force or overuse, such as running long distances, jumping, marching or ballet dancing. But they can also occur with normal use of a bone that&apos;s been weakened by a condition, such as osteoporosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Participating in certain physical activities or having certain health conditions may put you or your child at increased risk of a broken leg. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical activities&lt;br /&gt;
+&lt;/strong&gt;Stress fractures are often the result of repetitive stress to the leg bones from physical activities, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Running&lt;/li&gt;
+	&lt;li&gt;Ballet dancing&lt;/li&gt;
+	&lt;li&gt;Basketball&lt;/li&gt;
+	&lt;li&gt;Marching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Contact sports, such as hockey and football, also may pose a risk of direct blows to the leg, which can result in a fracture. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Health conditions&lt;br /&gt;
+&lt;/strong&gt;Stress fractures are more common in people who have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Decreased bone density (osteoporosis)&lt;/li&gt;
+	&lt;li&gt;Flat feet or high-arched feet&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a broken leg may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Knee or ankle pain.&lt;/strong&gt; A broken bone in your leg may produce pain in your knee or ankle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor or delayed healing.&lt;/strong&gt; A severe leg fracture may not heal quickly or completely. This is particularly common in an open fracture of your tibia because of lower blood flow to this bone. Fractures that occur in people who use tobacco may take longer to heal and be at higher risk of nonunion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone infection (osteomyelitis).&lt;/strong&gt; If you have an open fracture, your bone may be exposed to fungi and bacteria that can cause infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve or blood vessel damage.&lt;/strong&gt; Fracture of the leg can injure adjacent nerves and blood vessels. Seek immediate medical help if you notice any numbness or circulation problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compartment syndrome.&lt;/strong&gt; This neuromuscular condition causes pain, swelling and sometimes disability in muscles near the broken bone. This is a rare complication that is more common with high-impact injuries, such as a car or motorcycle accident.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; Fractures that extend into the joint and poor bone alignment can cause osteoarthritis years later. If your leg starts to hurt long after a break, see your doctor for an evaluation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unequal leg length.&lt;/strong&gt; The long bones of a child grow from the ends of the bones, in softer areas called growth plates. If a fracture goes through a growth plate, that limb might eventually become shorter or longer than the opposite limb.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the severity of the break, your family doctor or an emergency room physician may recommend examination by an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of the symptoms and the precipitating event&lt;/li&gt;
+	&lt;li&gt;Information about past medical problems&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you or your child takes&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For a broken leg, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Is surgery necessary?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What restrictions will need to be followed?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;What pain medications do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, the doctor will inspect the affected area for tenderness, swelling, deformity or an open wound. He or she will probably want to see X-rays of the injury. Your doctor is likely to ask you questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can you describe what happened to cause the symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve the symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen the symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-rays usually can pinpoint the location of the break and determine the extent of injury to any adjacent joints. Occasionally, your doctor may also recommend more-detailed images using computerized tomography (CT) or magnetic resonance imaging (MRI).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of a broken leg will vary, depending on the type and location of the break. If a child breaks a leg, treatment may depend on the age of the child. Stress fractures may require only rest and immobilization. Fractures are classified into one or more of the following categories: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open (compound) fracture.&lt;/strong&gt; In this type of fracture, the skin is pierced by the broken bone. This is a serious condition that requires immediate, aggressive treatment to decrease your chance of an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Closed fracture.&lt;/strong&gt; In closed fractures, the surrounding skin remains intact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Incomplete fracture.&lt;/strong&gt; This term means that the bone is cracked, but it isn&apos;t separated into two parts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complete fracture.&lt;/strong&gt; In complete fractures, the bone has snapped into two or more parts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Displaced fracture.&lt;/strong&gt; In this type of fracture, the bone fragments on each side of the break are not aligned. A displaced fracture may require surgery to realign the bones properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Comminuted fracture.&lt;/strong&gt; This term means that the bone is broken into several pieces. This type of fracture also may require surgery for complete healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Greenstick fracture.&lt;/strong&gt; In this type of fracture, the bone cracks but doesn&apos;t break all the way through &amp;mdash; like when you try to break a green stick of wood. Most broken bones in children are greenstick fractures, because a child&apos;s bones are softer and more flexible than those of an adult.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Setting the leg&lt;br /&gt;
+&lt;/strong&gt;Initial treatment for a broken leg usually begins in an emergency room or urgent care clinic. Here, doctors typically evaluate your injury and immobilize your leg with a splint. If you have a displaced fracture, your doctor may need to manipulate the pieces back into their proper positions before applying a splint &amp;mdash; a process called reduction. Depending on the amount of pain and swelling you have, you may need a muscle relaxant, a sedative or even a general anesthetic before this procedure. Some fractures are splinted for a day to allow swelling to subside before they are casted. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immobilization&lt;br /&gt;
+&lt;/strong&gt;Restricting the movement of a broken bone in your leg is critical to proper healing. To do this, you may need a splint or a cast. And you may need to use crutches or a cane to keep weight off the affected leg for six to eight weeks or longer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;To reduce pain and inflammation, your doctor may recommend an over-the-counter pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others) or a combination of the two. If you&apos;re experiencing severe pain, you may need an opioid medication, such as codeine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;After your cast or splint is removed, you&apos;ll likely need rehabilitation exercises or physical therapy to reduce stiffness and restore movement in the injured leg. Because you haven&apos;t moved your leg for a while, you may even have stiffness and weakened muscles in uninjured areas. Rehabilitation can help, but it may take up to several months &amp;mdash; or even longer &amp;mdash; for complete healing of severe injuries.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;Immobilization heals most broken bones. However, you may need surgery to implant internal fixation devices, such as plates, rods or screws, to maintain proper position of your bones during healing. These internal fixation devices may be necessary if you have the following injuries:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiple fractures&lt;/li&gt;
+	&lt;li&gt;An unstable or displaced fracture&lt;/li&gt;
+	&lt;li&gt;Loose bone fragments that could enter a joint&lt;/li&gt;
+	&lt;li&gt;Damage to the surrounding ligaments&lt;/li&gt;
+	&lt;li&gt;Fractures that extend into a joint&lt;/li&gt;
+	&lt;li&gt;A fracture that is the result of a crushing accident&lt;/li&gt;
+	&lt;li&gt;A fracture in particular areas of your leg, such as your thighbone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most internal fixation materials are left in place. Others may be removed after your bone heals, while some are made of materials that are absorbed into your body. Complications are rare, but can include wound-healing difficulties, infection and lack of bone healing. 
+&lt;/p&gt;
+&lt;p&gt;
+For some injuries, your doctor may also recommend an external fixation device &amp;mdash; a frame outside your leg attached to the bone with pins. This device provides stability during the healing process and is usually removed after about six to eight weeks. There&apos;s a risk of infection around the surgical pins connected to the external fixation device.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of broken leg showing types of leg fractures 
+" Caption="Many types of fractures can occur in the three long bones in your leg &amp;mdash; the thighbone (femur), the shinbone (tibia) and the fibula. These fractures include an open fracture, closed fracture, incomplete fracture, complete fracture, displaced fracture and comminuted fracture. 
+" Height="60" Title="Leg fractures" URI="/images/image_popup/thumbs/r7_legfracturesthu.jpg" Width="60" />
+				<Image Alt="Illustration of broken leg showing types of leg fractures 
+" Caption="Many types of fractures can occur in the three long bones in your leg &amp;mdash; the thighbone (femur), the shinbone (tibia) and the fibula. These fractures include an open fracture, closed fracture, incomplete fracture, complete fracture, displaced fracture and comminuted fracture. 
+" Height="346" Title="Leg fractures" URI="/images/image_popup/r7_legfractures.jpg" Width="400" />
+				<HTML>
+					Many types of fractures can occur in the three long bones in your leg &amp;mdash; the thighbone (femur), the shinbone (tibia) and the fibula. These fractures include an open fracture, closed fracture, ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of broken leg with external fixation 
+" Caption="An external fixation device provides stability during the healing process and is usually removed after about six to eight weeks. 
+" Height="60" Title="External fixation" URI="/images/image_popup/thumbs/mcdc7_legexfixthu.jpg" Width="60" />
+				<Image Alt="Illustration of broken leg with external fixation 
+" Caption="An external fixation device provides stability during the healing process and is usually removed after about six to eight weeks. 
+" Height="494" Title="External fixation" URI="/images/image_popup/mcdc7_legexfix.jpg" Width="400" />
+				<HTML>
+					An external fixation device provides stability during the healing process and is usually removed after about six to eight weeks. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken leg can&apos;t always be prevented. But these basic tips may reduce your risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Build bone strength.&lt;/strong&gt; Calcium-rich foods, such as milk, yogurt and cheese, can help build strong bones. A calcium or vitamin D supplement also may improve bone strength. Ask your doctor if these supplements are appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear proper athletic shoes.&lt;/strong&gt; Choose the appropriate shoe for your favorite sports or activities. And replace athletic shoes regularly. Discard sneakers as soon as the tread or heel wears out or if the shoes are wearing unevenly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cross-train.&lt;/strong&gt; Alternating activities can prevent stress fractures. Rotate running with swimming or biking.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Broken leg
+	</Title>
+	<Abstract>
+		Broken leg &amp;mdash; Comprehensive overview covers symptoms, diagnosis and treatment of this type of fracture.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00058" LinkType="Internal" ObjectID="5B479591-E2C6-4544-A910E7A9CC2B2765" Title="Fractures (broken bones): First aid" Url="http://www.mayoclinic.com/health/first-aid-fractures/FA00058" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+	</RelatedLinksBox>
+</Disease>

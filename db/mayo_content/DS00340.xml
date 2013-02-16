@@ -1,0 +1,462 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00340
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/alcoholism/DS00340
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-09
+		</UpdateDate>
+		<PublicationDate>
+			1999-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1644" Title="Substance abuse">
+						<Keyword MCVID="1645" Title="Alcoholism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BA6DB211-57CE-4DB7-A3614C2B60219EB5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				alcoholism
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol dependence
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol addiction
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol abuse
+			</MetaKeyword>
+			<MetaKeyword>
+				drinking
+			</MetaKeyword>
+			<MetaKeyword>
+				alcoholic
+			</MetaKeyword>
+			<MetaKeyword>
+				addiction
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol use
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol withdrawal
+			</MetaKeyword>
+			<MetaKeyword>
+				binge drinking
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcoholism is a chronic and often progressive disease that includes problems controlling your drinking, being preoccupied with alcohol, continuing to use alcohol even when it causes problems, having to drink more to get the same effect (physical dependence), or having withdrawal symptoms when you rapidly decrease or stop drinking. If you have alcoholism, you can&apos;t consistently predict how much you&apos;ll drink, how long you&apos;ll drink, or what consequences will occur from your drinking. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s possible to have a problem with alcohol, even when it has not progressed to the point of alcoholism. Problem drinking means you drink too much at times, causing repeated problems in your life, although you&apos;re not completely dependent on alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+Binge drinking &amp;mdash; a pattern of drinking where a male consumes five or more drinks in a row, or a female downs at least four drinks in a row &amp;mdash; can lead to the same health risks and social problems associated with alcoholism. The more you drink, the greater the risks. Binge drinking, which often occurs with teenagers and young adults, may lead to faster development of alcoholism. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have alcoholism or you have a problem with alcohol, you may not be able to cut back or quit without help. Denying that you have a problem is usually part of alcoholism and other types of excessive drinking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcoholism signs and symptoms include those below. You may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be unable to limit the amount of alcohol you drink &lt;/li&gt;
+	&lt;li&gt;Feel a strong need or compulsion to drink &lt;/li&gt;
+	&lt;li&gt;Develop tolerance to alcohol so that you need more to feel its effects &lt;/li&gt;
+	&lt;li&gt;Drink alone or hide your drinking &lt;/li&gt;
+	&lt;li&gt;Experience physical withdrawal symptoms &amp;mdash; such as nausea, sweating and shaking &amp;mdash; when you don&apos;t drink &lt;/li&gt;
+	&lt;li&gt;Not remember conversations or commitments, sometimes referred to as a &quot;black out&quot; &lt;/li&gt;
+	&lt;li&gt;Make a ritual of having drinks at certain times and become annoyed when this ritual is disturbed or questioned&lt;/li&gt;
+	&lt;li&gt;Be irritable when your usual drinking time nears, especially if alcohol isn&apos;t available&lt;/li&gt;
+	&lt;li&gt;Keep alcohol in unlikely places at home, at work or in your car&lt;/li&gt;
+	&lt;li&gt;Gulp drinks, order doubles or become drunk intentionally to feel good, or drink to feel &quot;normal&quot; &lt;/li&gt;
+	&lt;li&gt;Have legal problems or problems with relationships, employment or finances due to drinking &lt;/li&gt;
+	&lt;li&gt;Lose interest in activities and hobbies that used to bring you pleasure &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you binge drink or have other problems with alcohol, you may have many of the signs and symptoms above, although you may not feel as much of a compulsion to drink compared with someone who has alcoholism. Also, you may not have physical withdrawal symptoms when you don&apos;t drink. But this pattern of drinking can still cause serious problems and lead to alcoholism. As with alcoholism, you may not be able to quit problem drinking without help. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What is considered one drink?&lt;/strong&gt; &lt;br /&gt;
+One standard drink is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;12 ounces (355 milliliters) of regular beer (about 5 percent alcohol)&lt;/li&gt;
+	&lt;li&gt;8 to 9 ounces (237 to 266 milliliters) of malt liquor (about 7 percent alcohol)&lt;/li&gt;
+	&lt;li&gt;5 ounces (148 milliliters) of wine (about 12 percent alcohol)&lt;/li&gt;
+	&lt;li&gt;1.5 ounces (44 milliliters) of 80-proof hard liquor (about 40 percent alcohol)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What about my drinking?&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve ever wondered whether your drinking crosses the line into problem drinking or alcoholism, ask yourself these questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you&apos;re a man, do you ever have five or more drinks in a day?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re a woman, do you ever have four or more drinks in a day?&lt;/li&gt;
+	&lt;li&gt;Do you ever need a drink to get you started in the morning?&lt;/li&gt;
+	&lt;li&gt;Do you feel guilty about your drinking?&lt;/li&gt;
+	&lt;li&gt;Do you think you need to cut back on how much you drink?&lt;/li&gt;
+	&lt;li&gt;Are you annoyed when other people comment on or criticize your drinking habits?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you answered yes to even one of these questions, you may have a problem with alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you feel that you sometimes drink too much or your family is concerned about your drinking, talk with your doctor. See your doctor even if you don&apos;t think you have alcoholism, but you&apos;re concerned about your drinking or it&apos;s causing problems in your life. Other ways to get help include talking with a mental health provider or seeking help from a support group such as Alcoholics Anonymous. 
+&lt;/p&gt;
+&lt;p&gt;
+Because denial is common, you may not feel like you have a problem with drinking or that you need help to stop. You might not recognize how much you drink or how many problems in your life are related to alcohol use. Listen to family members, friends or co-workers when they ask you to examine your drinking habits or to seek help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcoholism is influenced by genetic, psychological, social and environmental factors that have an impact on how it affects your body and behavior. 
+&lt;/p&gt;
+&lt;p&gt;
+The process of becoming addicted to alcohol occurs gradually, although some people have an abnormal response to alcohol from the time they start drinking. Over time, drinking too much may change the normal balance of chemicals and nerve tracks in your brain associated with the experience of pleasure, judgment and the ability to exercise control over your behavior. This may result in your craving alcohol to restore good feelings or remove negative ones. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for alcoholism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Steady drinking over time.&lt;/strong&gt; Drinking too much on a regular basis for an extended period or binge drinking on a regular basis can produce a physical dependence on alcohol. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; People who begin drinking at an early age are at a higher risk of problem drinking or physical dependence on alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; The risk of alcoholism is higher for people who have a parent or other close relatives who have problems with alcohol. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression and other mental health problems.&lt;/strong&gt; It&apos;s common for people with a mental health disorder such as anxiety, depression or bipolar disorder to have problems with alcohol or other substances. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social and cultural factors.&lt;/strong&gt; Having friends or a close partner who drinks regularly could increase your risk of alcoholism. The glamorous way that drinking is sometimes portrayed in the media also may send the message that it&apos;s OK to drink too much. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mixing medication and alcohol.&lt;/strong&gt; Some medications interact with alcohol, increasing its toxic effects. Drinking while taking these medications can either increase or decrease their effectiveness, or even make them dangerous. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcohol depresses your central nervous system. In some people, the initial reaction may be stimulation. But as you continue to drink, you become sedated. Alcohol lowers your inhibitions and affects your thoughts, emotions and judgment. 
+&lt;/p&gt;
+&lt;p&gt;
+Too much alcohol affects your speech, muscle coordination and vital centers of your brain. A heavy drinking binge may even cause a life-threatening coma or death. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have problems with alcohol, you&apos;re more likely to also have problems with other substances. 
+&lt;/p&gt;
+&lt;p&gt;
+Excessive drinking can reduce your judgment skills and lower inhibitions, leading to poor choices and dangerous situations or behaviors, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Motor vehicle accidents and other types of accidents &lt;/li&gt;
+	&lt;li&gt;Domestic problems &lt;/li&gt;
+	&lt;li&gt;Poor performance at work or school &lt;/li&gt;
+	&lt;li&gt;Increased likelihood of committing violent crimes &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Health problems caused by excessive drinking can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Liver disease.&lt;/strong&gt; Heavy drinking can cause alcoholic hepatitis &amp;mdash; an inflammation of the liver. After years of heavy drinking, hepatitis may lead to irreversible destruction and scarring of liver tissue (cirrhosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive problems.&lt;/strong&gt; Heavy drinking can result in inflammation of the stomach lining (gastritis), as well as stomach and esophageal ulcers. It also can interfere with absorption of B vitamins and other nutrients. Heavy drinking can damage your pancreas &amp;mdash; which produces hormones that regulate your metabolism and enzymes that help digestion &amp;mdash; and lead to inflammation of the pancreas (pancreatitis). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Excessive drinking can lead to high blood pressure and increases your risk of an enlarged heart, heart failure or stroke. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes complications.&lt;/strong&gt; Alcohol interferes with the release of glucose from your liver and can increase the risk of low blood sugar (hypoglycemia). This is dangerous if you have diabetes and are already taking insulin to lower your blood sugar level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sexual function and menstruation.&lt;/strong&gt; Excessive drinking can cause erectile dysfunction in men. In women, it can interrupt menstruation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye problems.&lt;/strong&gt; Over time, heavy drinking can cause involuntary rapid eye movement (nystagmus) as well as weakness and paralysis of your eye muscles due to a deficiency of vitamin B-1 (thiamine). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth defects.&lt;/strong&gt; Alcohol use during pregnancy may cause fetal alcohol syndrome, resulting in giving birth to a child who has physical and developmental problems that last a lifetime. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone loss.&lt;/strong&gt; Alcohol may interfere with the production of new bone. This can lead to thinning bones (osteoporosis) and an increased risk of fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological complications.&lt;/strong&gt; Excessive drinking can affect your nervous system, causing numbness and pain in your hands and feet, disordered thinking, dementia and short-term memory loss. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened immune system.&lt;/strong&gt; Excessive alcohol use can make it harder for your body to resist disease, making you more susceptible to illnesses. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased risk of cancer.&lt;/strong&gt; Long-term excessive alcohol use has been linked to a higher risk of many cancers, including mouth, throat, liver, colon and breast cancer. Even moderate drinking can increase the risk of breast cancer. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Alcohol use leads to serious consequences for many teens and young adults. In this age group: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alcohol-related motor vehicle accidents are a major cause of deaths.&lt;/li&gt;
+	&lt;li&gt;Alcohol is often a cause in other deaths, including drowning, suicides and homicides. &lt;/li&gt;
+	&lt;li&gt;Drinking makes it more likely they&apos;ll become sexually active, have sex more frequently, engage in risky, unprotected sex, and become victims of sexual abuse or date rape compared with those who don&apos;t drink. &lt;/li&gt;
+	&lt;li&gt;Alcohol use can lead to accidental injury, assault and property damage. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your primary care doctor or a general practitioner. Because your appointment can be brief, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Consider your drinking habits,&lt;/strong&gt; taking an honest look at how often and how much you drink. Be prepared to discuss any problems that alcohol may be causing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to your drinking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible, to help you remember everything.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions ahead of time, from most important to least important, to make the most of your time. For excessive drinking or alcoholism, basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you think I drink too much or show signs of problem drinking or dependence?&lt;/li&gt;
+	&lt;li&gt;Do you think alcohol could be causing or worsening my other health problems?&lt;/li&gt;
+	&lt;li&gt;Do you think I need to cut back or quit drinking?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Do I need any medical tests for underlying physical problems?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Would it be helpful for me to meet with a professional experienced in alcohol treatment? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+Be ready to answer questions your doctor may ask, which include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do you drink?&lt;/li&gt;
+	&lt;li&gt;How much do you drink?&lt;/li&gt;
+	&lt;li&gt;Do you have any family members with alcohol problems?&lt;/li&gt;
+	&lt;li&gt;Do you sometimes drink more than you intend to drink?&lt;/li&gt;
+	&lt;li&gt;Have family members, friends or co-workers ever suggested you need to cut back or quit drinking?&lt;/li&gt;
+	&lt;li&gt;Do you feel like you need to drink more than you previously did to get the same effects?&lt;/li&gt;
+	&lt;li&gt;Have you tried to stop drinking? If so, was it difficult and did you have any withdrawal symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had legal problems or problems at school, at work or in your relationships that may be related to alcohol use?&lt;/li&gt;
+	&lt;li&gt;Have there been times that you have behaved in a dangerous, harmful or violent way when you&apos;ve been drinking?&lt;/li&gt;
+	&lt;li&gt;Do you have any physical health problems, such as liver disease or diabetes?&lt;/li&gt;
+	&lt;li&gt;Do you have any mental health issues, such as depression or anxiety?&lt;/li&gt;
+	&lt;li&gt;Do you use illegal drugs?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor who suspects you have an alcohol problem will ask you several questions regarding drinking habits and may have you fill out a questionnaire. The doctor may ask for permission to speak with family members or friends. Family members may also contact the doctor on their own to discuss their concerns. However, confidentiality laws prevent your doctor from giving out any information about you without your consent. 
+&lt;/p&gt;
+&lt;p&gt;
+There are no specific tests to diagnose alcoholism, but you may need other tests for health problems that may be linked to your alcohol use. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with alcoholism, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association. These include a pattern of alcohol use leading to serious problems, as indicated by three or more of the following at any time during one 12-month period: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tolerance,&lt;/strong&gt; indicated by an increase in the amount of alcohol you need to feel drunk (intoxicated). As alcoholism progresses, the amount leading to intoxication can also decrease as a result of damage to your liver or central nervous system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Withdrawal symptoms&lt;/strong&gt; when you cut down or stop using alcohol. These can include tremors, insomnia, nausea and anxiety. You may drink more alcohol in order to avoid those symptoms, sometimes drinking throughout the day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking more alcohol than you intended&lt;/strong&gt; or drinking over a longer period of time than you intended.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having an ongoing desire&lt;/strong&gt; to cut down on how much you drink or making unsuccessful attempts to do so. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spending a good deal of time drinking,&lt;/strong&gt; getting alcohol or recovering from alcohol use.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Giving up important activities,&lt;/strong&gt; including social, occupational or recreational activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continuing to use alcohol&lt;/strong&gt; even though you know it&apos;s causing physical and psychological problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with alcoholism hesitate to get treatment because they don&apos;t recognize they have a problem. An intervention from loved ones can help some people recognize and accept that they need professional help. If you&apos;re concerned about a friend or family member who drinks too much, talk to a professional for advice on how to approach that person. 
+&lt;/p&gt;
+&lt;p&gt;
+Various treatments may help. Depending on the circumstances, treatment may involve a brief intervention, individual or group counseling, an outpatient program, or a residential inpatient stay. 
+&lt;/p&gt;
+&lt;p&gt;
+The first step is to determine if you have a problem with alcohol. If you haven&apos;t lost control over your use of alcohol, treatment may involve reducing your drinking. If you have become addicted, simply cutting back is ineffective. Working to stop the use of alcohol to improve quality of life is the main treatment goal. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for alcoholism may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Detoxification and withdrawal.&lt;/strong&gt; Treatment for alcoholism may begin with a program of detoxification, which generally takes two to seven days. You may need to take sedating medications to prevent shaking, confusion or hallucinations (delirium tremens), or other withdrawal symptoms. Detoxification is usually done at an inpatient treatment center or a hospital.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learning skills and establishing a treatment plan.&lt;/strong&gt; This usually involves alcohol treatment specialists. It may include goal setting, behavior change techniques, use of self-help manuals, counseling and follow-up care at a treatment center. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological counseling.&lt;/strong&gt; Counseling and therapy for groups and individuals help you better understand your problem with alcohol and support recovery from the psychological aspects of alcoholism. You may benefit from couples or family therapy &amp;mdash; family support can be an important part of the recovery process. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral medications.&lt;/strong&gt; A drug called disulfiram (Antabuse) may help to prevent you from drinking, although it won&apos;t cure alcoholism or remove the compulsion to drink. If you drink alcohol, the drug produces a physical reaction that may include flushing, nausea, vomiting and headaches. Naltrexone (Revia), a drug that blocks the good feelings alcohol causes, may prevent heavy drinking and reduce the urge to drink. Acamprosate (Campral) may help you combat alcohol cravings. Unlike disulfiram, naltrexone and acamprosate don&apos;t make you feel sick after taking a drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injected medication.&lt;/strong&gt; Vivitrol, a version of the drug naltrexone, is injected once a month by a health care professional. Although similar medication can be taken in pill form, the injectable version of the drug may be easier for people recovering from alcohol dependence to use consistently. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continuing support.&lt;/strong&gt; Aftercare programs and support groups help people recovering from problem drinking or alcoholism to stop drinking, manage relapses and cope with necessary lifestyle changes. This may include medical or psychological care or attending a support group such as Alcoholics Anonymous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment for psychological problems.&lt;/strong&gt; Alcoholism commonly occurs along with other mental health disorders. You may need talk therapy (psychotherapy or psychological counseling), medications, or other treatment for depression, anxiety or another mental health condition, if you have any of these conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical treatment for other conditions.&lt;/strong&gt; Common medical problems related to alcoholism include high blood pressure, high blood sugar, liver disease and heart disease. Many alcohol-related health problems improve significantly once you stop drinking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spiritual practice.&lt;/strong&gt; People who are involved with some type of regular spiritual practice may find it easier to maintain recovery from alcoholism or other addictions. For many people, gaining greater insight into their spiritual side is a key element in recovery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Residential treatment programs&lt;/strong&gt; &lt;br /&gt;
+For a serious alcohol problem, you may need a stay at a residential treatment facility. Many residential treatment programs include individual and group therapy, participation in alcoholism support groups such as Alcoholics Anonymous, educational lectures, family involvement, activity therapy, and working with counselors, professional staff and doctors experienced in treating alcoholism. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with problem drinking or alcoholism requires that you change your habits and make different lifestyle choices.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Consider your social situation.&lt;/strong&gt; Make it clear to your friends and family that you are not drinking. You may need to distance yourself from friends and social situations that impair your recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Develop healthy habits.&lt;/strong&gt; For example, good sleep, regular physical activity and eating well all can make it easier for you to recover from alcoholism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do things that don&apos;t involve alcohol.&lt;/strong&gt; You may find that many of your activities involve drinking. Replace them with hobbies or pastimes that are not centered around alcohol.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several alternative medicine techniques may be helpful in addition to your treatment plan when recovering from alcoholism. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; Yoga&apos;s series of postures and controlled breathing exercises may help you relax and manage stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meditation.&lt;/strong&gt; During meditation, you focus your attention and eliminate the stream of jumbled thoughts that may be crowding your mind and causing stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; With acupuncture, hair-thin needles are inserted under the skin. Acupuncture may help reduce anxiety and depression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people who have alcoholism and their family members find that participating in support groups is an essential part of coping with the disease, preventing or dealing with relapses, and staying sober. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alcoholics Anonymous&lt;/strong&gt; &lt;br /&gt;
+Alcoholics Anonymous (AA) is a self-help group of people recovering from alcoholism. AA offers a sober peer group as an effective model for achieving total abstinence. The AA program is built around 12 steps, which are straightforward suggestions for people who choose to lead sober lives. As guides to recovery, the 12 steps help those with alcoholism to accept their powerlessness over alcohol. They stress the necessity for honesty about the past and present. 
+&lt;/p&gt;
+&lt;p&gt;
+Recovery in AA is based on accepting the unique experience of each person. Through listening and sharing stories, people who have problem drinking or are dependent on alcohol learn they aren&apos;t alone. There are no fees for membership or requirements for following the 12 steps &amp;mdash; only a willingness to try to remain sober. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Al-Anon and Alateen&lt;/strong&gt; &lt;br /&gt;
+Al-Anon is designed for people who are affected by someone else&apos;s alcoholism. In sharing their stories, they gain a greater understanding of how the disease affects the entire family. Al-Anon accepts the 12 steps of AA as the principles by which participants are to conduct their lives. It also emphasizes the need to learn detachment and forgiveness. In many communities, Alateen groups also are available for teenage children of those with alcoholism. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor or counselor can refer you to an AA group or other local support group. These groups are also commonly listed in the phone book, in the local newspaper and on the Web. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Early intervention can prevent alcoholism in teens. For young people, the likelihood of addiction depends on the influence of parents, peers and other role models; how much they&apos;re influenced by advertising of alcohol; how early in life they begin to use alcohol; the psychological need for alcohol; and genetic factors that may increase their risk of addiction. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a teenager, be alert to signs and symptoms that may indicate a problem with alcohol: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of interest in activities and hobbies and in personal appearance&lt;/li&gt;
+	&lt;li&gt;Bloodshot eyes, slurred speech, problems with coordination and memory lapses&lt;/li&gt;
+	&lt;li&gt;Difficulties or changes in relationships with friends, such as joining a new crowd&lt;/li&gt;
+	&lt;li&gt;Declining grades and problems in school&lt;/li&gt;
+	&lt;li&gt;Frequent mood changes and defensive behavior&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can help prevent teenage alcohol use. Start by setting a good example with your own alcohol use. Talk openly with your child, spend quality time together, and become actively involved in your child&apos;s life. Let your child know what behavior you expect &amp;mdash; and what the consequences will be if he or she doesn&apos;t follow the rules. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Alcoholism
+	</Title>
+	<Abstract>
+		Alcoholism &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of this serious addiction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02187" LinkType="Internal" ObjectID="77CE84E7-09D1-7F6C-62A5E6E07D5009FF" Title="Low milk supply: What causes it?" Url="http://www.mayoclinic.com/health/low-milk-supply/AN02187" />
+		<LinkItem ContentType="Article" DocID="SR00043" LinkType="Internal" ObjectID="D966FE05-E7FF-0DBD-144FAEB77B9F567A" Title="Denial: When it helps, when it hurts" Url="http://www.mayoclinic.com/health/denial/SR00043" />
+		<LinkItem ContentType="Article" DocID="MH00127" LinkType="Internal" ObjectID="BFA8F1BD-E7FF-0DBD-1267950515E55234" Title="Intervention: Help a loved one overcome addiction" Url="http://www.mayoclinic.com/health/intervention/MH00127" />
+		<LinkItem ContentType="Article" DocID="MY01976" LinkType="Internal" ObjectID="AFDA76C9-F998-E928-3C4546E31A6A9DBD" Title="Empty nest syndrome: Tips for coping" Url="http://www.mayoclinic.com/health/empty-nest-syndrome/MY01976" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="MY02124" LinkType="Internal" ObjectID="86149E82-C473-9D9E-F2B37C80473B160B" Title="Mindfulness exercises: How to get started" Url="http://www.mayoclinic.com/health/mindfulness-exercises/MY02124" />
+		<LinkItem ContentType="Article" DocID="MY01399" LinkType="Internal" ObjectID="3D87B0CA-A921-9012-710286C6AC6C6B3C" Title="Bone health: Tips to keep your bones healthy" Url="http://www.mayoclinic.com/health/bone-health/MY01399" />
+		<LinkItem ContentType="SelfAssessment" DocID="MH00123" LinkType="Internal" ObjectID="E1FB6CCD-E7FF-0DBD-154D34A059A747FA" Title="Alcohol use: Do you have a drinking problem?" Url="http://www.mayoclinic.com/health/alcohol-use/MH00123" />
+		<LinkItem ContentType="Disease" DocID="DS01062" LinkType="Internal" ObjectID="C22F27E8-E7FF-0DBD-18D04660F2EA2EBE" Title="Suicide and suicidal thoughts" Url="http://www.mayoclinic.com/health/suicide/DS01062" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+		<LinkItem ContentType="Disease" DocID="DS00184" LinkType="Internal" ObjectID="168FEF80-238D-413D-AB69C10E55E49568" Title="Fetal alcohol syndrome" Url="http://www.mayoclinic.com/health/fetal-alcohol-syndrome/DS00184" />
+	</RelatedLinksBox>
+</Disease>

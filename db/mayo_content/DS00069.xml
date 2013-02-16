@@ -1,0 +1,345 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00069
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/diaper-rash/DS00069
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-22
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2285" Title="Skin rashes">
+							<Keyword MCVID="2286" Title="Diaper rash" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="5118" Title="Postpartum">
+						<Keyword MCVID="5202" Title="Infant care">
+							<Keyword MCVID="3480" Title="Well child" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="5118" Title="Postpartum">
+						<Keyword MCVID="5197" Title="Postpartum week by week">
+							<Keyword MCVID="5130" Title="Week 12" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			40B98A74-4DFE-42A3-BBAEDC32F399E45E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diaper rash
+			</MetaKeyword>
+			<MetaKeyword>
+				baby rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				baby rash
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diaper rash is a common form of inflamed skin (dermatitis) that appears as a patchwork of bright red skin on your baby&apos;s bottom.
+&lt;/p&gt;
+&lt;p&gt;
+Diaper rash is commonly linked to continuously wet or infrequently changed diapers, diarrhea, and using plastic pants to cover diapers. Diaper rash also may develop after solid foods are added to your baby&apos;s diet, when breast-feeding mothers eat certain foods or when your baby is taking antibiotics.
+&lt;/p&gt;
+&lt;p&gt;
+Diaper rash can alarm parents and annoy babies, but most diaper rash cases can be resolved with simple at-home treatments.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of diaper rash 
+" Caption="Diaper rash often results from prolonged contact with urine or stool. Mild cases (left) are usually easily treated with at-home remedies. More severe cases (right) may need to be treated with prescription medications. 
+" Height="60" Title="Diaper rash" URI="/images/image_popup/thumbs/r7_diaperrashthu.jpg" Width="60" />
+				<Image Alt="Photograph of diaper rash 
+" Caption="Diaper rash often results from prolonged contact with urine or stool. Mild cases (left) are usually easily treated with at-home remedies. More severe cases (right) may need to be treated with prescription medications. 
+" Height="300" Title="Diaper rash" URI="/images/image_popup/r7_diaperrash.jpg" Width="400" />
+				<HTML>
+					Diaper rash often results from prolonged contact with urine or stool. Mild cases (left) are usually easily treated with at-home remedies. More severe cases (right) may need to be treated with ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diaper rash is characterized by the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin signs.&lt;/strong&gt; Diaper rash is marked by red, puffy and tender-looking skin in the diaper region &amp;mdash; buttocks, thighs and genitals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in your baby&apos;s disposition.&lt;/strong&gt; You may notice your baby seems more uncomfortable than usual, especially during diaper changes. A baby with a diaper rash often fusses or cries when the diaper area is washed or touched.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Diaper rashes can occur intermittently, anytime your child wears diapers, but they&apos;re more common in babies during their first 15 months, especially between 9 and 12 months of age. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Diaper rash is usually easily treated and improves within a few days after starting home treatment. If your baby&apos;s skin doesn&apos;t improve after a few days of home treatment with over-the-counter ointment and more frequent diaper changes, talk to your doctor. Sometimes, diaper rash leads to secondary infections that may require prescription medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Have your child examined if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The rash is severe&lt;/li&gt;
+	&lt;li&gt;The rash worsens despite home treatment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also see your child&apos;s doctor if the rash occurs along with any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Blisters or boils&lt;/li&gt;
+	&lt;li&gt;A rash that extends beyond the diaper area&lt;/li&gt;
+	&lt;li&gt;Pus or weeping discharge&lt;/li&gt;
+	&lt;li&gt;Unusual sleepiness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of diaper rash 
+" Caption="Diaper rash often results from prolonged contact with urine or stool. Mild cases (left) are usually easily treated with at-home remedies. More severe cases (right) may need to be treated with prescription medications. 
+" Height="60" Title="Diaper rash" URI="/images/image_popup/thumbs/r7_diaperrashthu.jpg" Width="60" />
+				<Image Alt="Photograph of diaper rash 
+" Caption="Diaper rash often results from prolonged contact with urine or stool. Mild cases (left) are usually easily treated with at-home remedies. More severe cases (right) may need to be treated with prescription medications. 
+" Height="300" Title="Diaper rash" URI="/images/image_popup/r7_diaperrash.jpg" Width="400" />
+				<HTML>
+					Diaper rash often results from prolonged contact with urine or stool. Mild cases (left) are usually easily treated with at-home remedies. More severe cases (right) may need to be treated with ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Causes of diaper rash can be traced to a number of sources, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Irritation from stool and urine.&lt;/strong&gt; Prolonged exposure to urine or feces can irritate a baby&apos;s sensitive skin. Your baby may be more prone to diaper rash if he or she is experiencing frequent bowel movements because feces are more irritating than urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Introduction of new foods.&lt;/strong&gt; As babies start to eat solid foods, the content of their stool changes, increasing the likelihood of diaper rash. Changes in your baby&apos;s diet can also increase the frequency of stools, which can lead to diaper rash. If your baby is breast-feeding, your baby may develop diaper rash in response to something the mother has eaten. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritation from a new product.&lt;/strong&gt; Disposable wipes, a new brand of disposable diapers, or a detergent, bleach or fabric softener used to launder cloth diapers can all irritate your baby&apos;s delicate bottom. Other substances that can add to the problem include ingredients found in some baby lotions, powders and oils.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial or yeast (fungal) infection.&lt;/strong&gt; What begins as a simple skin infection may spread to the surrounding region. The area covered by a diaper &amp;mdash; buttocks, thighs and genitals &amp;mdash; is especially vulnerable because it&apos;s warm and moist, making a perfect breeding ground for bacteria and yeast. These rashes can be found within the creases of the skin, and there may be red dots scattered around the creases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensitive skin.&lt;/strong&gt; Babies with skin conditions, such as atopic dermatitis or eczema, may be more likely to develop diaper rashes. However, the irritated skin of atopic dermatitis and eczema primarily affects areas other than the diaper area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chafing or rubbing.&lt;/strong&gt; Tightfitting diapers or clothing that rubs against the skin can lead to a rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of antibiotics.&lt;/strong&gt; Antibiotics kill bacteria &amp;mdash; the good kinds as well as the bad. When a baby takes antibiotics, bacteria that keep yeast growth in check may be depleted, resulting in diaper rash due to yeast infection. Babies whose breast-feeding mothers are on antibiotics are also vulnerable.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, a diaper rash can be treated successfully at home. But, if your baby has signs and symptoms of diaper rash that don&apos;t improve after several days of at-home treatment, are severe or occur along with a fever, make an appointment with your baby&apos;s doctor.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List your baby&apos;s signs and symptoms,&lt;/strong&gt; and for how long your baby has had them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your baby&apos;s key medical information,&lt;/strong&gt; including other conditions for which your baby has been treated and any prescription or over-the-counter medications your baby has recently taken. If your baby is breast-fed, also note any medications he or she may have been exposed to through breast milk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List all products that come into contact with your baby&apos;s skin.&lt;/strong&gt; Your baby&apos;s doctor will want to know what brand of diapers, laundry detergent, soaps, lotions, powders and oils you use for your baby. If you suspect one or more products may be causing your baby&apos;s diaper rash, you may wish to bring them to the appointment so your doctor can read the label.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about dermatitis. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my baby&apos;s rash?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What can I do to help my baby&apos;s skin heal?&lt;/li&gt;
+	&lt;li&gt;What diaper ointments or creams would you recommend for my baby?&lt;/li&gt;
+	&lt;li&gt;When should I use an ointment instead of a cream, and vice versa?&lt;/li&gt;
+	&lt;li&gt;Are there any other treatments you&apos;d suggest?&lt;/li&gt;
+	&lt;li&gt;Are there any products or ingredients that I should avoid using with my baby?&lt;/li&gt;
+	&lt;li&gt;Should I avoid exposing my baby to any foods, either through breast milk or through my baby&apos;s diet?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my baby&apos;s symptoms to improve?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent this condition from recurring?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your baby&apos;s signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you suspect any particular triggers for your baby&apos;s condition?&lt;/li&gt;
+	&lt;li&gt;What type of diaper does your baby typically wear?&lt;/li&gt;
+	&lt;li&gt;How often do you or your baby&apos;s child care provider change your baby&apos;s diaper?&lt;/li&gt;
+	&lt;li&gt;What types of soap and wipes do you use to clean your baby?&lt;/li&gt;
+	&lt;li&gt;Do you apply any skin care products to your baby, such as lotions, powders, creams and oils?&lt;/li&gt;
+	&lt;li&gt;What laundry detergent do you use to wash your baby&apos;s clothes?&lt;/li&gt;
+	&lt;li&gt;Is your baby breast-fed?&lt;/li&gt;
+	&lt;li&gt;Have you introduced your baby to solid foods?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried so far for your baby&apos;s rash? Has anything helped?&lt;/li&gt;
+	&lt;li&gt;Has your baby recently had any other medical conditions, including any illness that caused diarrhea?&lt;/li&gt;
+	&lt;li&gt;Has your baby recently taken any new medications?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;In the time leading up to your appointment, avoid products that seem to trigger your baby&apos;s rash. Wash your baby&apos;s bottom with water after each diaper change, and avoid soaps and wipes that contain alcohol or fragrance. 
+&lt;/p&gt;
+&lt;p&gt;
+Give your baby as much diaper-free time as possible, so that his or her skin can have a chance to stay dry and start healing. When you do use diapers, change them frequently and apply a diaper rash cream or ointment to act as a barrier between your baby&apos;s skin and a dirty diaper. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best treatment for diaper rash is to keep your baby&apos;s skin as clean and dry as possible. If your baby&apos;s diaper rash persists during home treatment, your doctor may prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A mild hydrocortisone cream&lt;/li&gt;
+	&lt;li&gt;An antifungal cream, if your baby has a fungal infection&lt;/li&gt;
+	&lt;li&gt;Topical or oral antibiotics, if your baby has a bacterial infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Use creams or ointments with steroids only if your baby&apos;s pediatrician or dermatologist recommends them &amp;mdash; strong steroids or frequent use can lead to additional problems.
+&lt;/p&gt;
+&lt;p&gt;
+Diaper rashes usually require several days to improve and the rash may come back repeatedly. If the rash persists despite prescription treatment, your doctor may recommend that your baby see a dermatologist. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most effective way to get rid of a diaper rash is to keep your baby&apos;s skin as clean and dry as possible. The best way to do this is with frequent diaper changes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Over-the-counter products&lt;br /&gt;
+&lt;/strong&gt;Various diaper rash medications are available without a prescription. Talk to your doctor or pharmacist for specific recommendations. Some popular over-the-counter ointments are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A + D&lt;/li&gt;
+	&lt;li&gt;Balmex&lt;/li&gt;
+	&lt;li&gt;Desitin&lt;/li&gt;
+	&lt;li&gt;Triple paste&lt;/li&gt;
+	&lt;li&gt;Zinc oxide paste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Zinc oxide is the active ingredient in many diaper rash creams. These products are usually applied in a thick layer to the irritated region throughout the day to soothe and protect your baby&apos;s skin. Zinc oxide can also be used to prevent diaper rash on normal, healthy skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Ointments or creams may be less irritating than lotions or liquid solutions, but ointments create a barrier over the skin and don&apos;t allow it to receive air. Creams dry on the skin and allow air through. Your doctor can tell you whether a cream or ointment would be better for your child&apos;s particular rash. As a general rule, stick with products designed specifically for babies. Avoid products that contain boric acid, camphor, phenol, benzocaine or salicylates, as these ingredients can be toxic for babies.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Increasing airflow&lt;br /&gt;
+&lt;/strong&gt;To aid the healing of diaper rash, do what you can to increase airflow to the diaper region. These simple suggestions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Let your child go without a diaper for short periods of time, such as during naps.&lt;/li&gt;
+	&lt;li&gt;Avoid using plastic or tightfitting diaper covers.&lt;/li&gt;
+	&lt;li&gt;Use larger than usual sized diapers until the rash goes away.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While your baby has a diaper rash, avoid washing the affected area with soaps and disposable, scented wipes. Alcohol and perfumes in these products can irritate your baby&apos;s skin and aggravate or prolong the rash.
+&lt;/p&gt;
+&lt;p&gt;
+In the past, it was common to use talcum powder to protect a baby&apos;s skin and absorb excess moisture. However, doctors no longer recommend this. Inhaled talcum powder can irritate a baby&apos;s lungs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A few simple strategies can help decrease the likelihood of diaper rash developing on your baby&apos;s skin: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Change diapers often.&lt;/strong&gt; Remove dirty diapers promptly. If your child is in child care, ask staff members to do the same.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse your baby&apos;s bottom with water as part of each diaper change.&lt;/strong&gt; You can use a sink, tub or water bottle for this purpose. Moist washcloths and cotton balls also can aid in cleaning the skin. Don&apos;t use wipes that contain alcohol or fragrance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pat your baby dry with a clean towel.&lt;/strong&gt; Don&apos;t scrub your baby&apos;s bottom. Scrubbing can further irritate the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t overtighten diapers.&lt;/strong&gt; Diapers that are too tight prevent airflow into the diaper region, setting up a moist environment favorable to diaper rashes. Tightfitting diapers can also cause chafing at the waist or thighs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Give your baby&apos;s bottom more time without a diaper.&lt;/strong&gt; When possible, let your baby go without a diaper. Exposing skin to air is a natural and gentle way to let it dry. To avoid messy accidents, try laying your baby on a large towel and engage in some playtime while he or she is bare-bottomed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash cloth diapers carefully.&lt;/strong&gt; Pre-soak heavily soiled cloth diapers and use hot water to wash them. Use a mild detergent and skip the fabric softeners and dryer sheets because they can contain fragrances that may irritate your baby&apos;s skin. Double rinse your baby&apos;s diapers if your child already has a diaper rash or is prone to developing diaper rash. If you use a diaper service to clean your baby&apos;s diapers, make sure the diaper service takes these steps as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider using ointment regularly.&lt;/strong&gt; If your baby gets rashes often, apply a barrier ointment during each diaper change to prevent skin irritation. Petroleum jelly and zinc oxide are the time-proven ingredients included in many prepared diaper ointments. Using these products on clear skin helps keep it in good condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;After changing diapers, wash your hands well.&lt;/strong&gt; Hand washing can prevent the spread of bacteria or yeast to other parts of your baby&apos;s body, to you or to other children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cloth or disposable diapers?&lt;/strong&gt;&lt;br /&gt;
+Many parents wonder about what kind of diapers to use. When it comes to preventing diaper rash, there&apos;s no compelling evidence that cloth diapers are better than disposable diapers or vice versa, though disposables may keep baby&apos;s skin slightly drier. Because there&apos;s no one best diaper &amp;mdash; use whatever works best for you and your baby. If one brand of disposable diaper irritates your baby&apos;s skin, try another. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether you use cloth diapers, disposables or both kinds, always change your baby as soon as possible after he or she soils the diaper to keep the bottom as clean and dry as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Diaper rash
+	</Title>
+	<Abstract>
+		Dealing with diaper rash? Follow these tips to soothe your baby&apos;s irritated skin.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="FL00090" LinkType="Internal" ObjectID="9551D007-6FE6-4BCF-A7347E2AD77CBCE7" Title="Slide show: Common baby rashes" Url="http://www.mayoclinic.com/health/baby-rashes/FL00090" />
+	</RelatedLinksBox>
+</Disease>

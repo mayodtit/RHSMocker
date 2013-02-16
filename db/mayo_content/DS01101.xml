@@ -1,0 +1,327 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01101
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fibromuscular-dysplasia/DS01101
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3618" Title="Fibromuscular dysplasia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FF3B2947-E7FF-0DBD-13D1976DA231493F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fibromuscular dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				FMD
+			</MetaKeyword>
+			<MetaKeyword>
+				stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				narrowing of the arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fibromuscular dysplasia is a condition in which at least one of your arteries has an abnormal cluster of cells growing in the artery wall. This cluster causes the artery to narrow, which can cause damage to the organs that receive blood through the narrowed artery. Fibromuscular dysplasia can cause a number of complications, such as high blood pressure and a bulging area of the artery (aneurysm), if left untreated. 
+&lt;/p&gt;
+&lt;p&gt;
+Fibromuscular dysplasia appears most commonly in the arteries leading to the kidneys. Fibromuscular dysplasia can also affect the arteries leading to your brain, abdomen, arms and legs. While there isn&apos;t a cure for fibromuscular dysplasia, it can be treated effectively. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of fibromuscular dysplasia
+" Caption="In fibromuscular dysplasia, the muscle and fibrous tissues in your arteries thicken. This impairs blood flow to your organs, leading to organ damage. Fibromuscular dysplasia of the artery to the kidney is shown here, with a &quot;string of beads&quot; appearance. 
+" Height="60" Title="Fibromuscular dysplasia" URI="/images/image_popup/thumbs/ans7_fibromuscular_dysplthu.jpg" Width="60" />
+				<Image Alt="Illustration of fibromuscular dysplasia
+" Caption="In fibromuscular dysplasia, the muscle and fibrous tissues in your arteries thicken. This impairs blood flow to your organs, leading to organ damage. Fibromuscular dysplasia of the artery to the kidney is shown here, with a &quot;string of beads&quot; appearance. 
+" Height="412" Title="Fibromuscular dysplasia" URI="/images/image_popup/ans7_fibromuscular_dyspl.jpg" Width="400" />
+				<HTML>
+					In fibromuscular dysplasia, the muscle and fibrous tissues in your arteries thicken. This impairs blood flow to your organs, leading to organ damage. Fibromuscular dysplasia of the artery to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who have fibromuscular dysplasia don&apos;t have any symptoms. Still, it&apos;s possible you could have some signs or symptoms of the disease, depending on what artery is affected by fibromuscular dysplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Kidney signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If the arteries to your kidneys (renal arteries) are affected, you may have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Tissue damage in your kidney (ischemic renal atrophy)&lt;/li&gt;
+	&lt;li&gt;Chronic kidney failure, rarely&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If the arteries to your brain (carotid arteries) are affected, you may have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Blurred vision or temporary loss of vision&lt;/li&gt;
+	&lt;li&gt;Ringing in your ears (tinnitus)&lt;/li&gt;
+	&lt;li&gt;Neck pain&lt;/li&gt;
+	&lt;li&gt;Chronic headaches&lt;/li&gt;
+	&lt;li&gt;Facial weakness or numbness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Abdominal signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If the arteries to your abdomen (mesenteric arteries) are affected, you may have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain after eating&lt;/li&gt;
+	&lt;li&gt;Unintended weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Arm and leg signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If the arteries to your arms or legs (peripheral arteries) are affected, you may have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Discomfort when moving your arms, legs, hands or feet&lt;/li&gt;
+	&lt;li&gt;Cold limbs&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Numbness&lt;/li&gt;
+	&lt;li&gt;Skin changes in color or appearance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people with fibromuscular dysplasia have more than one narrowed artery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have any of the signs or symptoms listed and are concerned about your risk of fibromuscular dysplasia, see your doctor. Because fibromuscular dysplasia tends to be hereditary, tell your doctor about your family history of the disease, even before you show any symptoms so that he or she can be alert to changes that might suggest you have fibromuscular dysplasia. There&apos;s currently no genetic test for fibromuscular dysplasia. And, screening for fibromuscular dysplasia isn&apos;t possible either, since it can occur in any of your arteries. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While the cause of fibromuscular dysplasia is unknown, it&apos;s believed that several factors may play a role. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Genetics may play a role in the development of fibromuscular dysplasia. But, if another family member has fibromuscular dysplasia, you or a relative may never get fibromuscular dysplasia, or you might get the condition in a different artery or have a milder case or a more severe case than your family member&apos;s fibromuscular dysplasia. In addition, not everyone who has fibromuscular dysplasia has a relative with the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormones.&lt;/strong&gt; Because premenopausal women have fibromuscular dysplasia more often than men do, hormones may be linked to the development of fibromuscular dysplasia. However, fibromuscular dysplasia is not linked to how many pregnancies a woman has had, when she gives birth or whether she&apos;s taken birth control pills.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormally formed arteries.&lt;/strong&gt; Fibromuscular dysplasia could be caused by inadequate oxygen to the arteries that supply your blood vessel walls with blood, which causes the vessels to form abnormally. It could also be caused if the position of your arteries in your body is abnormal, or if a medication or tobacco causes your arteries to develop abnormally. Once the artery develops abnormally, a cluster of cells builds in the artery wall, narrowing it and reducing blood flow.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of fibromuscular dysplasia
+" Caption="In fibromuscular dysplasia, the muscle and fibrous tissues in your arteries thicken. This impairs blood flow to your organs, leading to organ damage. Fibromuscular dysplasia of the artery to the kidney is shown here, with a &quot;string of beads&quot; appearance. 
+" Height="60" Title="Fibromuscular dysplasia" URI="/images/image_popup/thumbs/ans7_fibromuscular_dysplthu.jpg" Width="60" />
+				<Image Alt="Illustration of fibromuscular dysplasia
+" Caption="In fibromuscular dysplasia, the muscle and fibrous tissues in your arteries thicken. This impairs blood flow to your organs, leading to organ damage. Fibromuscular dysplasia of the artery to the kidney is shown here, with a &quot;string of beads&quot; appearance. 
+" Height="412" Title="Fibromuscular dysplasia" URI="/images/image_popup/ans7_fibromuscular_dyspl.jpg" Width="400" />
+				<HTML>
+					In fibromuscular dysplasia, the muscle and fibrous tissues in your arteries thicken. This impairs blood flow to your organs, leading to organ damage. Fibromuscular dysplasia of the artery to the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the cause of fibromuscular dysplasia is unknown, there are several factors that appear to increase the risk of developing the disorder, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women have a much greater risk of fibromuscular dysplasia than do men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Fibromuscular disorder tends to be more common in people from 25 to 50 years old.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; People who smoke appear to have an increased risk of developing fibromuscular dysplasia. For those already diagnosed with the disease, smoking is a risk factor for more serious fibromuscular dysplasia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fibromuscular dysplasia can cause a number of complications. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; A common complication of fibromuscular dysplasia is high blood pressure. The narrowing of the arteries causes higher pressure on your artery walls, which can lead to further artery damage or heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; If the artery to the kidney is narrowed by fibromuscular dysplasia, you may not get enough blood flow to your kidney, causing permanent kidney injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dissected artery.&lt;/strong&gt; Fibromuscular dysplasia can cause tears in the walls of your arteries, causing blood to leak into the artery wall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aneurysms.&lt;/strong&gt; When your arteries are narrowed, the blood flow can weaken the wall of your arteries, creating a bulge called an aneurysm. If an aneurysm ruptures, it can be a life-threatening emergency. An aneurysm can occur in any artery affected by fibromuscular dysplasia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; If you have a dissected artery leading to your brain or if an aneurysm in an artery to your brain ruptures, you can have a stroke.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a family history of fibromuscular dysplasia, tell your doctor. Because most people who have fibromuscular dysplasia don&apos;t have any symptoms, it&apos;s unlikely your doctor would first check for fibromuscular dysplasia unless you have a family history of the condition or he or she hears an abnormal sound in your upper abdomen. 
+&lt;/p&gt;
+&lt;p&gt;
+To diagnose fibromuscular dysplasia, your doctor may order one or more imaging tests to see your arteries. You may need to fast for several hours before the tests, depending on where the narrowed arteries are in your body. Ask your doctor if you need to do anything specific to prepare for your test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you&apos;re tested for fibromuscular dysplasia, your doctor may also want to check for atherosclerosis, another condition that can narrow your arteries. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests for atherosclerosis usually include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A physical exam&lt;/li&gt;
+	&lt;li&gt;A fasting blood test to check your blood sugar and cholesterol levels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The tests you&apos;ll have to diagnose fibromuscular dysplasia could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Doppler ultrasound.&lt;/strong&gt; Doppler ultrasound can determine if an artery is narrowed by fibromuscular dysplasia. In this noninvasive test, an instrument called a transducer is pressed to your skin to send sound waves into your body. The sound waves bounce off red blood cells, and the ultrasound can estimate how fast your blood flows. If your blood is moving slowly through an artery, it may be due to fibromuscular dysplasia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) angiogram.&lt;/strong&gt; A CT angiogram allows your doctor to check your arteries to see if they&apos;re narrowed or blocked. You&apos;ll receive an injection of a dye, and the doughnut-shaped CT scanner will be moved to take images of the artery your doctor believes is narrowed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This test allows your doctor to see the soft tissues in your body. During an MRI, you lie on a table inside a long tube-like machine that uses a magnetic field and radio waves to capture images from inside your body. Using the images from the test, your doctor may be able to see the cluster of cells narrowing your artery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Digital subtraction angiogram.&lt;/strong&gt; This test is used to check for fibromuscular dysplasia of the kidney. In this test, you&apos;ll first have an X-ray taken of the part of your body where your artery may be narrowed. Then you&apos;ll receive an injection of a dye to darken your arteries. Your doctor will then take another X-ray and digitally remove other tissues and blood vessels from the X-ray image. This allows your doctor to clearly see the artery that may be affected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The most common form of fibromuscular dysplasia looks like a &quot;string of beads&quot; on imaging tests. Other, more aggressive forms of fibromuscular dysplasia have a smooth appearance. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;ve been diagnosed with fibromuscular dysplasia, your doctor may repeat a Doppler ultrasound exam or a CT angiogram every six to 12 months to see if your condition is getting worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for fibromuscular dysplasia depends on your health, the location of the narrowed artery and other underlying conditions you have, such as high blood pressure. Treatment options include medical procedures, surgery and medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical procedures and surgery&lt;/strong&gt; &lt;br /&gt;
+For otherwise healthy people with fibromuscular dysplasia, repairing the affected artery is often recommended. The procedures to improve blood flow can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Percutaneous transluminal renal angioplasty (PTRA).&lt;/strong&gt; This procedure is often performed at the same time as a digital subtraction or CT angiogram. Once the dye from the angiogram shows the narrowed area of the artery, a wire is threaded to the artery and a catheter with a balloon is inserted in the narrowed area. The balloon is then inflated to open the narrowed part of the artery. Unlike the angioplasty procedures performed on people with heart disease, a stent is usually not necessary to keep the artery open.
+	&lt;/p&gt;
+	&lt;p&gt;
+	PTRA is usually performed while you&apos;re awake, although you&apos;ll be given a sedative to relax during the procedure. The procedure takes about one to two hours. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical revascularization.&lt;/strong&gt; If PTRA is not an option, and the narrowing of your arteries is severe, your doctor may recommend more invasive surgery to repair the narrowed portion of the artery. The type of surgery you&apos;ll need depends on the location of the narrowed artery and how damaged the artery is. These procedures require general anesthesia, meaning you&apos;ll be unconscious during the surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor finds serious damage related to fibromuscular dysplasia, such as an aneurysm, he or she may recommend placing a metal mesh tube (stent) inside the weakened part of the artery to help prevent it from rupturing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drugs&lt;/strong&gt; &lt;br /&gt;
+Treatment with high blood pressure medications is recommended for most people with fibromuscular dysplasia, even if you also have a procedure to correct your condition. These could include medications from several categories: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors,&lt;/strong&gt; such as benazepril (Lotensin), enalapril (Vasotec) or lisinopril (Prinivil, Zestril), stop the narrowing of your blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers.&lt;/strong&gt; These medications help relax blood vessels by blocking the action of a natural chemical that narrows blood vessels. Examples of this class of medications include candesartan (Atacand), irbesartan (Avapro), losartan (Cozaar) and valsartan (Diovan).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics. &lt;/strong&gt;These drugs, such as hydrochlorothiazide (Microzide, others), help remove excess from your body and may be used in conjunction with other blood pressure medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers,&lt;/strong&gt; such as amlodipine (Norvasc) or nifedipine (Adalat, Procardia) and others, help relax your blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers,&lt;/strong&gt; such as metoprolol (Lopressor, Toprol-XL) or atenolol (Tenormin) and others, slow your heartbeat and block adrenaline.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because some of these drugs can affect the way your kidneys work, your doctor may recommend blood tests and a urine test (urinalysis) to make sure your kidneys work normally. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re a smoker, another part of your treatment plan is to stop smoking. Smoking makes fibromuscular dysplasia worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, fibromuscular dysplasia isn&apos;t preventable. However, if you&apos;re a smoker, quitting smoking may reduce your likelihood of developing fibromuscular dysplasia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fibromuscular dysplasia
+	</Title>
+	<Abstract>
+		Fibromuscular dysplasia &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this rare artery-narrowing condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+	</RelatedLinksBox>
+</Disease>

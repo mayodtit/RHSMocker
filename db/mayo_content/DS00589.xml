@@ -1,0 +1,349 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00589
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/presbyopia/DS00589
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-30
+		</UpdateDate>
+		<PublicationDate>
+			2005-05-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="2224" Title="Refractive error">
+						<Keyword MCVID="2365" Title="Presbyopia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3C47BCF7-47AA-4260-AC1F80C40D526EDF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				presbyopia
+			</MetaKeyword>
+			<MetaKeyword>
+				vision
+			</MetaKeyword>
+			<MetaKeyword>
+				CK
+			</MetaKeyword>
+			<MetaKeyword>
+				LASIK
+			</MetaKeyword>
+			<MetaKeyword>
+				LASEK
+			</MetaKeyword>
+			<MetaKeyword>
+				PRK
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Presbyopia is the gradual loss of your eyes&apos; ability to focus actively on nearby objects. It&apos;s a natural, often annoying part of aging that usually becomes noticeable in your early to mid-40s and continues to worsen until around age 65.
+&lt;/p&gt;
+&lt;p&gt;
+You may become aware of presbyopia when you start holding books and newspapers at arm&apos;s length to be able to read them. If you&apos;re nearsighted, you might temporarily manage presbyopia by reading without your glasses.
+&lt;/p&gt;
+&lt;p&gt;
+A basic eye exam can confirm presbyopia. You can correct the condition with nonprescription reading glasses or prescription eyeglasses or contact lenses. Surgery also may be an option for presbyopia.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of eyeball with lens, cornea and retina identified
+" Caption="Your lens and cornea focus light onto the back wall of your eye &amp;mdash; the retina &amp;mdash; so you can see. 
+" Height="60" Title="Inside your eye" URI="/images/image_popup/thumbs/vi7_lens_cornea_retinathu.jpg" Width="60" />
+				<Image Alt="Image of eyeball with lens, cornea and retina identified
+" Caption="Your lens and cornea focus light onto the back wall of your eye &amp;mdash; the retina &amp;mdash; so you can see. 
+" Height="275" Title="Inside your eye" URI="/images/image_popup/vi7_lens_cornea_retina.jpg" Width="400" />
+				<HTML>
+					Your lens and cornea focus light onto the back wall of your eye &amp;mdash; the retina &amp;mdash; so you can see. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Presbyopia develops gradually. You may first notice these signs and symptoms after age 40:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A tendency to hold reading material farther away to make the letters clearer&lt;/li&gt;
+	&lt;li&gt;Blurred vision at normal reading distance&lt;/li&gt;
+	&lt;li&gt;Eyestrain or headaches after reading or doing close work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may notice these symptoms are worse if you&apos;re tired, have had alcohol or are in an area with dim lighting.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re having difficulty reading or doing close work, or if blurry close-up vision is keeping you from enjoying normal activities, see an eye doctor. He or she can determine whether you have presbyopia and advise you of your options.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Presbyopia is caused by a hardening of the lens of your eye, which occurs with aging. As your lens becomes less flexible, it can no longer change shape to focus on close-up images. As a result, these images appear out of focus.
+&lt;/p&gt;
+&lt;p&gt;
+To form an image, your eye relies on the cornea and the lens to focus the light reflected from objects. The cornea is the clear, dome-shaped front surface of your eye. The lens is a clear structure about the size and shape of an M&amp;M&apos;s candy. Both of these structures bend (refract) light entering your eye to focus the image on the retina, located on the inside back wall of your eye.
+&lt;/p&gt;
+&lt;p&gt;
+The lens, unlike the cornea, is somewhat flexible and can change shape with the help of a circular muscle that surrounds it. When you look at something at a distance, the circular muscle relaxes. When you look at something nearby, the muscle constricts, allowing the relatively elastic lens to curve more steeply and change its focusing power.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of eyeball with lens, cornea and retina identified
+" Caption="Your lens and cornea focus light onto the back wall of your eye &amp;mdash; the retina &amp;mdash; so you can see. 
+" Height="60" Title="Inside your eye" URI="/images/image_popup/thumbs/vi7_lens_cornea_retinathu.jpg" Width="60" />
+				<Image Alt="Image of eyeball with lens, cornea and retina identified
+" Caption="Your lens and cornea focus light onto the back wall of your eye &amp;mdash; the retina &amp;mdash; so you can see. 
+" Height="275" Title="Inside your eye" URI="/images/image_popup/vi7_lens_cornea_retina.jpg" Width="400" />
+				<HTML>
+					Your lens and cornea focus light onto the back wall of your eye &amp;mdash; the retina &amp;mdash; so you can see. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Age&lt;/strong&gt;&lt;br /&gt;
+Age is the greatest risk factor for presbyopia. Almost everyone experiences it after age 40. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Premature presbyopia&lt;/strong&gt;&lt;br /&gt;
+However, some people can develop presbyopia earlier than age 40 as a result of certain diseases or certain drugs. Premature presbyopia can be an indicator that you have a disease you may not be aware of. Risk factors for premature presbyopia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Other medical conditions.&lt;/strong&gt; Being farsighted or having certain diseases, such as diabetes, multiple sclerosis or cardiovascular diseases, can increase your risk of premature presbyopia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs.&lt;/strong&gt; Certain prescription and nonprescription drugs can decrease the focusing ability of your eye. They include antidepressants, antihistamines and diuretics.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having difficulty with your vision, start by seeing either an optometrist or ophthalmologist. To make the most of your time with your doctor, it&apos;s a good idea to prepare for your appointment. Here&apos;s some information to help you prepare and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions ahead of time can help you make the most of your time with your doctor. List your questions from most important to least important. For presbyopia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests other than a complete eye examination?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What are the side effects or possible problems associated with each treatment?&lt;/li&gt;
+	&lt;li&gt;Which treatment would you recommend for me?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;If I have other eye conditions, how can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask additional questions that may occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including some that relate to your general health, your medical history, your eye health history, your family medical history and your history of eye problems. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you do a lot of reading or other close work?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re having difficulty seeing close up, make sure you have adequate lighting. You can also try using over-the-counter reading glasses. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having problems with your vision, schedule an appointment with your eye doctor as soon as possible, even if you&apos;ve recently had an eye exam. Blurred vision may suggest you need a prescription change or have a more serious eye problem that may need treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Presbyopia is diagnosed by a basic eye exam, which is generally administered by an ophthalmologist or an optometrist. A complete eye exam involves a series of tests. Your eye doctor likely will put drops in your eyes to dilate your pupils, which may make your eyes more light sensitive for a few hours after the exam. Dilation enables your doctor to more easily evaluate the inside of your eyes.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may use various instruments, aim bright lights at your eyes and request that you look through an array of lenses to test your distance and close-up vision. Each test allows your doctor to evaluate a different aspect of your vision.
+&lt;/p&gt;
+&lt;p&gt;
+The American Academy of Ophthalmology (AAO) recommends that you have a complete eye exam beginning at age 40 if you have no other risk factors for eye disease and don&apos;t need to wear glasses or contact lenses. After that the AAO recommends an eye exam every:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Two to four years between ages 40 and 54&lt;/li&gt;
+	&lt;li&gt;One to three years between ages 55 and 64&lt;/li&gt;
+	&lt;li&gt;One to two years beginning at age 65&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Depending on the findings of your exam, your doctor may recommend more-frequent examinations. For example, if you wear glasses or contacts, your eyes may need to be checked more often. Ask your doctor what he or she recommends.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to compensate for the inability of your eyes to focus on nearby objects. Treatment options include wearing corrective lenses, undergoing refractive surgery or getting lens implants.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corrective lenses&lt;/strong&gt;&lt;br /&gt;
+If you had good, uncorrected vision before developing presbyopia, you may be able to use nonprescription over-the-counter reading glasses. Ask your eye doctor if nonprescription glasses are OK for you.
+&lt;/p&gt;
+&lt;p&gt;
+Reading glasses sold over-the-counter are labeled on a scale that corresponds to the degree of magnification (power). The least powerful are labeled +1.00, and the more powerful are labeled in increasing increments up to +4.00. When purchasing reading glasses:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Try different powers until you find the magnification that allows you to read comfortably.&lt;/li&gt;
+	&lt;li&gt;Test each pair on printed material held about 14 to 16 inches (35 to 40 centimeters) in front of your face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll need prescription lenses for presbyopia if over-the-counter glasses are inadequate or if you already require prescription corrective lenses for nearsightedness, farsightedness or astigmatism. Your choices include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prescription reading glasses.&lt;/strong&gt; If you have no other vision problems, you can have prescription lenses for reading only.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bifocals.&lt;/strong&gt; These glasses come in two styles &amp;mdash; those with a visible horizontal line and those without a line (progressive bifocals). When you look through progressive bifocals at eye level, the lenses correct your distance vision. This correction gradually changes to reading correction at the bottom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trifocals.&lt;/strong&gt; These glasses have corrections for close work, middle-distance vision &amp;mdash; such as for computer screens &amp;mdash; and distance vision. Trifocals come with visible lines or progressive lenses.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Bifocal contact lenses.&lt;/strong&gt; Bifocal contact lenses, like bifocal glasses, provide distance and close-up correction on each contact. In one type of bifocal lens, the bottom, reading portion of the lens is weighted to keep the lens correctly positioned on your eye. These are frequently difficult to fit and often do not provide altogether satisfactory visual results.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Newer types of bifocal contact lenses offer distance correction through the peripheral part of the lens and near correction through the more central part of the lens, or alternately, distance correction through the center of the lens and near correction in the peripheral part of the lens. A trial of wearing these lenses will let you know if either of these lens styles can provide you with satisfactory vision. Early results with these lenses have been encouraging.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monovision contact lenses.&lt;/strong&gt; With monovision contacts, you wear a contact lens for distance vision in your dominant eye and a contact lens for close-up vision in your nondominant eye. Your dominant eye is generally the one you use when you&apos;re aiming a camera to take a picture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Modified monovision.&lt;/strong&gt; With this option, you wear a bifocal contact lens in your nondominant eye and a contact lens set for distance in your dominant eye. You use both eyes for distance and one eye for reading. Your brain learns which lens to favor &amp;mdash; depending on whether you&apos;re viewing things close up or far away &amp;mdash; so you don&apos;t have to consciously make the choice of which eye to use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Refractive surgery&lt;/strong&gt;&lt;br /&gt;
+Refractive surgery changes the shape of your cornea. For presbyopia, this treatment &amp;mdash; equivalent to wearing monovision contact lenses &amp;mdash; may be used to improve close-up vision in your nondominant eye. The American Academy of Ophthalmology recommends that people try monovision contacts to determine if they can adjust to this kind of correction before considering refractive surgery.
+&lt;/p&gt;
+&lt;p&gt;
+Refractive surgical procedures include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Conductive keratoplasty (CK).&lt;/strong&gt; This procedure uses radiofrequency energy to apply heat to very tiny spots around the cornea. The degree of change in the cornea&apos;s curvature depends on the number and spacing of the spots, as well as the way in which the corneal tissue heals after the treatment. The results of CK are variable and may not be long lasting for many people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser-assisted in-situ keratomileusis (LASIK).&lt;/strong&gt; With this procedure, your eye surgeon uses either a special laser or an instrument called a keratome to make a thin, hinged flap in your cornea. Your surgeon then uses an excimer laser to remove inner layers of your cornea to steepen its domed shape. An excimer laser differs from other lasers in that it doesn&apos;t produce heat. A newer procedure, known as epithelial laser in situ keratomileusis (epi-LASIK), is believed to avoid some of the risks associated with LASIK.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser epithelial keratomileusis (LASEK).&lt;/strong&gt; Instead of creating a flap in the cornea, the surgeon creates a flap only in the cornea&apos;s thin protective cover (epithelium). Your surgeon will use an excimer laser to reshape the cornea&apos;s outer layers and steepen its curvature and then reposition the epithelial flap.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Photorefractive keratectomy (PRK).&lt;/strong&gt; This procedure is similar to LASEK, except the surgeon removes and discards the epithelium. It will grow back naturally, conforming to your cornea&apos;s new shape.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lens implants&lt;/strong&gt;&lt;br /&gt;
+Another procedure used by some ophthalmologists involves removal of your clear natural lens and replacement with a synthetic lens inside your eye (intraocular lens implant). Some newer lens implants are designed to allow your eye to see things both near and at a distance. However, these special lens implants haven&apos;t been entirely satisfactory. The optical advantages of these lenses are sometimes outweighed by visual side effects that include glare and blurring.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, this surgery carries with it the same risks associated with conventional cataract surgery, such as inflammation, infection, bleeding, glaucoma and retinal detachment. However, development of newer technologies will likely improve these implants in the future.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Small-diameter corneal inlays&lt;/strong&gt;&lt;br /&gt;
+A newer surgical procedure involves inserting small plastic rings at the edge of the cornea. However, this surgery hasn&apos;t had totally predictable results, and is still considered experimental. Although the rings can be removed, the surgery is not without risks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you can&apos;t prevent presbyopia, you can help protect your eyes and your vision. Here&apos;s how:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have your eyes checked.&lt;/strong&gt; Regardless of how well you see, have your eyes checked regularly for problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control chronic health conditions.&lt;/strong&gt; Certain conditions, such as diabetes and high blood pressure, can affect your vision if you don&apos;t receive proper treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your eyes from the sun.&lt;/strong&gt; Wear sunglasses that block ultraviolet (UV) radiation. This is especially important if you spend long hours in the sun or are taking a prescription medication that increases your sensitivity to UV radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent eye injuries.&lt;/strong&gt; Wear protective eyewear when playing sports, mowing the lawn, or painting or using other products with toxic fumes. Look for &quot;ANSI Z87.1,&quot; a national standard of effectiveness in protecting against injury, on the lens or frame.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Try to eat plenty of fruits and leafy greens and other vegetables. These foods generally contain high levels of antioxidants as well as vitamin A and beta carotene. They&apos;re also vital to maintaining healthy vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use the right glasses.&lt;/strong&gt; The right glasses optimize your vision. Having regular exams will ensure that your eyeglass prescription is correct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use good lighting.&lt;/strong&gt; Turn up or add light for better vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recognize symptoms.&lt;/strong&gt; Sudden loss of vision in one eye, sudden hazy or blurred vision, flashes of light, black spots, or halos or rainbows around lights may signal a serious medical problem, such as acute glaucoma or stroke, or some other treatable retinal condition, such as a retinal tear or retinal detachment. See your doctor immediately if you experience any of these symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Presbyopia
+	</Title>
+	<Abstract>
+		Presbyopia &amp;mdash; Comprehensive overview covers causes, screening and treatment of this common, age-associated eye condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00376" LinkType="Internal" ObjectID="68778E64-E7FF-0DBD-162052263753DD62" Title="LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MY00376" />
+		<LinkItem ContentType="Video" DocID="MM00607" LinkType="Internal" ObjectID="3F706153-C6A9-4A52-B0F4B679D8D3DD99" Title="Video: LASIK eye surgery" Url="http://www.mayoclinic.com/health/lasik-eye-surgery/MM00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00245" LinkType="Internal" ObjectID="2DD15D8D-E7FF-0DBD-1DDC522D0B0420E3" Title="Eye exam" Url="http://www.mayoclinic.com/health/eye-exam/MY00245" />
+		<LinkItem ContentType="Article" DocID="WL00010" LinkType="Internal" ObjectID="82C0A0DA-CEAC-417F-88C5AD9CC8FA4765" Title="Contact lenses: What to know before you buy" Url="http://www.mayoclinic.com/health/contact-lenses/WL00010" />
+		<LinkItem ContentType="Answer" DocID="AN01545" LinkType="Internal" ObjectID="5AC14E4A-E7FF-0DBD-121CFE9E40D509EB" Title="Presbyopia: A cause of blurred distance vision?" Url="http://www.mayoclinic.com/health/presbyopia-symptom/AN01545" />
+	</RelatedLinksBox>
+</Disease>

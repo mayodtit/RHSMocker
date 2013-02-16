@@ -1,0 +1,125 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00179
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/food-allergy/AN00179
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-03
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				food allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic reactions
+			</MetaKeyword>
+			<MetaKeyword>
+				shellfish allergy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Most food allergies start in childhood, but they can develop at any time in a person&apos;s life. It isn&apos;t clear why, but some adults develop an allergy to a food they could once eat with no problem. Sometimes, a child outgrows a food allergy only to have it reappear in adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a food allergy, you&apos;ll need to avoid the offending food altogether. An allergic reaction can quickly put your immune system into a state of emergency, affecting numerous organs in your body. For certain people, even a tiny amount of the food may cause symptoms such as digestive problems, hives, facial swelling or trouble breathing. Some people with a food allergy are at risk for a life-threatening reaction (anaphylaxis) that requires emergency treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+However, most food reactions aren&apos;t caused by a true food allergy. They&apos;re caused by a food intolerance, which is generally limited to digestive problems. With an intolerance, you may be able to eat small amounts of the offending food without a reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+Don&apos;t ignore a reaction that occurs shortly after eating a particular food. See your doctor to determine what&apos;s causing it. Even if you&apos;ve had a relatively mild reaction in the past, subsequent allergic reactions may be more serious. Get emergency treatment for any severe food reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Food allergy: Can it develop later in life?
+	</Title>
+	<Abstract>
+		Food allergies usually occur during childhood &amp;mdash; but they can appear at any age.
+	</Abstract>
+	<Question>
+		Can adults develop a food allergy?
+	</Question>
+	<QuestionFirstName>
+		Cathy
+	</QuestionFirstName>
+	<QuestionState>
+		Tennessee
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="HQ01514" LinkType="Internal" ObjectID="C199612D-8333-47C0-94783CE38BF24864" Title="Allergy-proof your house" Url="http://www.mayoclinic.com/health/allergy/HQ01514" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="Disease" DocID="DS01021" LinkType="Internal" ObjectID="D0EEF86A-E7FF-0DBD-155BE91044E19B22" Title="Egg allergy" Url="http://www.mayoclinic.com/health/egg-allergy/DS01021" />
+		<LinkItem ContentType="Disease" DocID="DS00710" LinkType="Internal" ObjectID="AE99601C-2A5D-9994-ECE356AE1626F0C8" Title="Peanut allergy" Url="http://www.mayoclinic.com/health/peanut-allergy/DS00710" />
+		<LinkItem ContentType="Disease" DocID="DS01002" LinkType="Internal" ObjectID="98273531-E7FF-0DBD-1DA86A236FF4A88B" Title="Wheat allergy" Url="http://www.mayoclinic.com/health/wheat-allergy/DS01002" />
+		<LinkItem ContentType="Disease" DocID="DS00970" LinkType="Internal" ObjectID="70D6A637-E7FF-0DBD-1ED34CD98A3AA8AB" Title="Soy allergy" Url="http://www.mayoclinic.com/health/soy-allergy/DS00970" />
+		<LinkItem ContentType="Disease" DocID="DS01008" LinkType="Internal" ObjectID="4E62AEE9-E7FF-0DBD-153FDCB25ABCA7F7" Title="Milk allergy" Url="http://www.mayoclinic.com/health/milk-allergy/DS01008" />
+		<LinkItem ContentType="Disease" DocID="DS00987" LinkType="Internal" ObjectID="23BD6FA5-E7FF-0DBD-105A9B73D9F4D4F4" Title="Shellfish allergy" Url="http://www.mayoclinic.com/health/shellfish-allergy/DS00987" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Answer" DocID="AN01679" LinkType="Internal" ObjectID="1E26541F-E7FF-0DBD-1CD540E561EE18C2" Title="Candida cleanse diet: What does it treat?" Url="http://www.mayoclinic.com/health/candida-cleanse/AN01679" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+	</RelatedLinksBox>
+</Answer>

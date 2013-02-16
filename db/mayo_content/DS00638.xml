@@ -1,0 +1,302 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00638
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/enlarged-liver/DS00638
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="2247" Title="Enlarged liver" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AC73C2D-2A5D-9994-EFAC339FB6AB515E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged liver
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatomegaly
+			</MetaKeyword>
+			<MetaKeyword>
+				liver enlargement
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen liver
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An enlarged liver is one that&apos;s bigger than normal. The liver is a large, football-shaped organ found in the upper right portion of your abdomen. The medical term for enlarged liver is hepatomegaly (hep-uh-to-MEG-uh-le). 
+&lt;/p&gt;
+&lt;p&gt;
+Enlarged liver isn&apos;t a disease. It&apos;s a sign of an underlying problem, such as liver disease, congestive heart failure or cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for enlarged liver involves identifying and controlling the underlying cause of the condition. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of enlarged liver 
+" Caption="An enlarged liver occurs when the liver becomes larger than normal. 
+" Height="60" Title="Enlarged liver" URI="/images/image_popup/thumbs/id7_enlargedliverthu.jpg" Width="60" />
+				<Image Alt="Image of enlarged liver 
+" Caption="An enlarged liver occurs when the liver becomes larger than normal. 
+" Height="300" Title="Enlarged liver" URI="/images/image_popup/id7_enlargedliver.jpg" Width="400" />
+				<HTML>
+					An enlarged liver occurs when the liver becomes larger than normal. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An enlarged liver may not cause any symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+When enlarged liver occurs because of liver disease, it may be accompanied by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Yellowing of the skin and the whites of the eyes (jaundice)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many diseases and conditions can cause an enlarged liver, including: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver diseases&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cirrhosis&lt;/li&gt;
+	&lt;li&gt;Hepatitis caused by a virus &amp;mdash; including hepatitis A, B and C &amp;mdash; or caused by infectious mononucleosis&lt;/li&gt;
+	&lt;li&gt;Nonalcoholic fatty liver disease&lt;/li&gt;
+	&lt;li&gt;Alcoholic fatty liver disease&lt;/li&gt;
+	&lt;li&gt;A disorder that causes abnormal protein to accumulate in your liver (amyloidosis) &lt;/li&gt;
+	&lt;li&gt;A disorder that causes copper to accumulate in your liver (Wilson&apos;s disease)&lt;/li&gt;
+	&lt;li&gt;A disorder that causes iron to accumulate in your liver (hemachromatosis)&lt;/li&gt;
+	&lt;li&gt;A disorder that causes fatty substances to accumulate in your liver (Gaucher&apos;s disease)&lt;/li&gt;
+	&lt;li&gt;Fluid-filled pockets in the liver (liver cysts)&lt;/li&gt;
+	&lt;li&gt;Noncancerous liver tumors, including hemangioma and adenoma&lt;/li&gt;
+	&lt;li&gt;Obstruction of the gallbladder or bile ducts&lt;/li&gt;
+	&lt;li&gt;Toxic hepatitis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancers&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cancer that begins in another part of the body and spreads to the liver&lt;/li&gt;
+	&lt;li&gt;Leukemia&lt;/li&gt;
+	&lt;li&gt;Liver cancer&lt;/li&gt;
+	&lt;li&gt;Lymphoma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart and blood vessel problems&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blockage of the veins that drain the liver (Budd-Chiari syndrome) &lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Inflammation of the tissue surrounding the heart (pericarditis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You are more likely to experience enlarged liver if you have a liver disease. Factors that may increase your risk of liver problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol use.&lt;/strong&gt; Drinking large amounts of alcohol can be damaging to your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Large doses of medicines, vitamins or supplements.&lt;/strong&gt; Taking larger than recommended doses of vitamins, supplements, or over-the-counter or prescription medicines may increase your risk of liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal supplements.&lt;/strong&gt; Certain supplements, including black cohosh, ma huang and mistletoe, can increase your risk of liver damage. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Infectious diseases that can increase your risk of liver damage include malaria and Q fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis viruses.&lt;/strong&gt; Hepatitis A, B and C can cause liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor eating habits.&lt;/strong&gt; Being overweight increases your risk of liver disease, as does eating unhealthy foods, such as those with excess fat.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have any signs or symptoms that worry you, visit your primary care doctor. If your doctor suspects that you have an enlarged liver, he or she may order additional tests and and then refer you to the appropriate specialist. If you have a liver disease, you may be referred to a specialist in liver problems (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s a lot of ground to cover, it&apos;s a good idea to be prepared. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided during an appointment. Someone who accompanies you may recall something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Preparing a list of questions can help you make the most of your appointment. Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my enlarged liver?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there other treatment options?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need follow-up visits?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;A physical exam to detect enlarged liver&lt;/strong&gt; &lt;br /&gt;
+Your doctor may determine your liver is enlarged by feeling your abdomen during a physical exam. The doctor can estimate the size of your liver by feeling how far it extends below your rib cage. Your doctor may also note the texture of your liver. Depending on the underlying cause, an enlarged liver may feel soft, firm or irregular. Sometimes lumps are present as well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional procedures&lt;/strong&gt; &lt;br /&gt;
+Once your doctor determines that you have an enlarged liver, other tests and procedures may be recommended to learn the cause. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A blood sample is tested to determine liver enzyme levels. This can give clues about the health of your liver. Blood tests can also identify viruses that can cause enlarged liver, such as the hepatitis viruses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests include computerized tomography (CT) scan, ultrasound, or magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance elastography&lt;/strong&gt; uses sound waves to create a visual map (elastogram) of the stiffness of liver tissue. This&amp;nbsp;new test is noninvasive and can be an alternative to a liver biopsy. Magnetic resonance elastography is currently offered at relatively few medical centers, but it&apos;s expected to be available at most major medical centers soon. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of liver tissue for testing (liver biopsy).&lt;/strong&gt; Your doctor may recommend a biopsy to collect a sample of liver tissue for laboratory testing. A liver biopsy is often done using a long, thin needle that&apos;s inserted through your skin and into your liver. The needle draws out a core of tissue that is then sent to a laboratory for testing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for enlarged liver involves diagnosing and treating the underlying condition that&apos;s causing it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of liver disease, you can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Choose a diet full of fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Check with your doctor to find out what&apos;s the right amount of alcohol for you, if any.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow directions when taking medications, vitamins or supplements.&lt;/strong&gt; Limit yourself to the recommended doses when taking vitamins, supplements, and over-the-counter or prescription medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit contact with chemicals.&lt;/strong&gt; Use aerosol cleaners, insecticides and other toxic chemicals only in well-ventilated areas. In addition, wear gloves, long sleeves and a mask.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If your weight is healthy, work to maintain it. If you need to lose weight, cut back on the number of calories you eat each day and increase the amount of daily exercise. Ask your doctor about healthy ways to lose weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; If you smoke, quit. Ask your doctor about strategies to help you quit. If you don&apos;t smoke, don&apos;t start.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use supplements with caution.&lt;/strong&gt; Talk with your doctor about the risks and benefits of herbal supplements before you take them. Some alternative medicine treatments can be harmful to your liver, including black cohosh, certain Chinese herbs including ma huang, chaparral, comfrey, germander, greater celandine, kava, mistletoe, pennyroyal, skullcap and valerian.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Enlarged liver
+	</Title>
+	<Abstract>
+		Enlarged liver &amp;mdash; Comprehensive overview covers causes, treatment and risk factors.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+	</RelatedLinksBox>
+</Disease>

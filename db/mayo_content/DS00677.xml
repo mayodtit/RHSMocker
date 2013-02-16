@@ -1,0 +1,336 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00677
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/uveitis/DS00677
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-09
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2477" Title="Uveitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E533635E-2A5D-9994-E2089A3CE99FBA7A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				uveitis
+			</MetaKeyword>
+			<MetaKeyword>
+				iritis
+			</MetaKeyword>
+			<MetaKeyword>
+				eye pain
+			</MetaKeyword>
+			<MetaKeyword>
+				eye diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				eye problems
+			</MetaKeyword>
+			<MetaKeyword>
+				eye floaters
+			</MetaKeyword>
+			<MetaKeyword>
+				eye conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				eye disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				eye inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				floaters in eye
+			</MetaKeyword>
+			<MetaKeyword>
+				blurred vision
+			</MetaKeyword>
+			<MetaKeyword>
+				blurry vision
+			</MetaKeyword>
+			<MetaKeyword>
+				red eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				bloodshot eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				anterior uveitis
+			</MetaKeyword>
+			<MetaKeyword>
+				posterior uveitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Uveitis (u-ve-I-tis) is inflammation of the uvea, the middle layer of the eye. The uvea consists of the iris, choroid and ciliary body. The choroid is sandwiched between the retina and the white of the eye (sclera), and it provides blood flow to the deep layers of the retina. The most common type of uveitis is an inflammation of the iris called iritis (anterior uveitis).
+&lt;/p&gt;
+&lt;p&gt;
+Infections, injury and autoimmune disorders may be associated with the development of uveitis, though the exact cause is often unknown.
+&lt;/p&gt;
+&lt;p&gt;
+Uveitis can be serious, leading to permanent vision loss. Early diagnosis and treatment are important to prevent the complications of uveitis.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the uvea where uveitis occurs 
+" Caption="The uvea consists of the layer and structures of the eye beneath the white of the eye (sclera). It has three parts: (1) the iris, which is the colored part of the eye; (2) the choroid layer, which is the layer of blood vessels and connective tissue between the sclera and the retina; and (3) the ciliary body, which is the structure in the eye that secretes the transparent liquid within the eye. 
+" Height="60" Title="Eye with uvea" URI="/images/image_popup/thumbs/ans7_uveitis2thu.jpg" Width="60" />
+				<Image Alt="Illustration of the uvea where uveitis occurs 
+" Caption="The uvea consists of the layer and structures of the eye beneath the white of the eye (sclera). It has three parts: (1) the iris, which is the colored part of the eye; (2) the choroid layer, which is the layer of blood vessels and connective tissue between the sclera and the retina; and (3) the ciliary body, which is the structure in the eye that secretes the transparent liquid within the eye. 
+" Height="400" Title="Eye with uvea" URI="/images/image_popup/ans7_uveitis2.jpg" Width="400" />
+				<HTML>
+					The uvea consists of the layer and structures of the eye beneath the white of the eye (sclera). It has three parts: (1) the iris, which is the colored part of the eye; (2) the choroid layer, which is ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs, symptoms and characteristics of uveitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eye redness&lt;/li&gt;
+	&lt;li&gt;Eye pain&lt;/li&gt;
+	&lt;li&gt;Light sensitivity&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+	&lt;li&gt;Dark, floating spots in your field of vision (floaters)&lt;/li&gt;
+	&lt;li&gt;Decreased vision&lt;/li&gt;
+	&lt;li&gt;Whitish area (hypopyon) inside the eye in front of the lower part of the colored area of the eye (iris)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The site of uveitis varies and is described by where in the eye it occurs. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anterior uveitis affects the front of your eye (also called iritis).&lt;/li&gt;
+	&lt;li&gt;Posterior uveitis affects the back of your eye (also called choroiditis).&lt;/li&gt;
+	&lt;li&gt;Intermediary uveitis affects the ciliary body (also called cyclitis).&lt;/li&gt;
+	&lt;li&gt;Panuveitis occurs when all layers of the uvea are inflamed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In any of these conditions, the jelly-like material in the center of your eye (vitreous) can also become inflamed and infiltrated with inflammatory cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms may occur suddenly and get worse quickly, though in some cases, symptoms develop gradually. Symptoms may be noticeable in one or both eyes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you think you may have symptoms of uveitis. Your doctor may refer you to an eye specialist (ophthalmologist). If you&apos;re having significant eye pain and new vision problems, seek prompt medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes, the specific cause of uveitis isn&apos;t clear. However, in some people, uveitis is associated with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Autoimmune disorders, such as Behcet&apos;s disease, sarcoidosis or ankylosing spondylitis&lt;/li&gt;
+	&lt;li&gt;Inflammatory disorders, such as Crohn&apos;s disease or ulcerative colitis&lt;/li&gt;
+	&lt;li&gt;Infections such as cat-scratch disease, herpes, syphilis, toxoplasmosis, tuberculosis or West Nile virus&lt;/li&gt;
+	&lt;li&gt;Eye injury&lt;/li&gt;
+	&lt;li&gt;Certain cancers, such as lymphoma, that can directly or indirectly affect the eye&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible risk factors for uveitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A genetic predisposition.&lt;/strong&gt; People with changes in certain genes may be more likely to develop uveitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having an infection.&lt;/strong&gt; A number of infections, such as toxoplasmosis, cat-scratch fever, tuberculosis, herpes, syphilis and West Nile virus, can increase the risk of uveitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having an autoimmune or inflammatory disorder.&lt;/strong&gt; Conditions that increase the chance of uveitis include Behcet&apos;s disease, ankylosing spondylitis, sarcoidosis, psoriatic arthritis, Crohn&apos;s disease and ulcerative colitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of eye injury.&lt;/strong&gt; Trauma to the eye can cause uveitis. It&apos;s even possible for uveitis to develop in the eye that wasn&apos;t injured.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, uveitis can cause the following complications:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abnormally high pressure inside the eye (glaucoma)&lt;/li&gt;
+	&lt;li&gt;Damage to the optic nerve&lt;/li&gt;
+	&lt;li&gt;Clouding of the lens (cataract) or cornea&lt;/li&gt;
+	&lt;li&gt;Retinal problems, such as fluid within the retina or retinal detachment&lt;/li&gt;
+	&lt;li&gt;Vision loss&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your symptoms may prompt you to make an appointment with your family doctor or general practitioner. You may be referred to a doctor who specializes in disorders of the eyes (ophthalmologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major illnesses, traumas or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot. Additionally, someone who comes with you can drive you to your appointment, especially if your symptoms make it difficult to see properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help cover all of the points that are important to you. For uveitis, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my eye problems?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is uveitis temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;Will I lose my sight?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to prevent this from happening again?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Have they gotten worse?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you ever had uveitis before?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical problems?&lt;/li&gt;
+	&lt;li&gt;Do you have arthritis?&lt;/li&gt;
+	&lt;li&gt;Do you have back problems?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent skin rashes?&lt;/li&gt;
+	&lt;li&gt;Have you had any ulcerated sores in your mouth or on your genitalia?&lt;/li&gt;
+	&lt;li&gt;Have you had a recent upper respiratory infection or cold symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you visit an eye specialist (ophthalmologist), your doctor will likely conduct a complete eye exam and gather a thorough health history.
+&lt;/p&gt;
+&lt;p&gt;
+If the ophthalmologist suspects an underlying condition to be the cause of your uveitis, you may be referred to another doctor for a general medical examination and laboratory tests. Sometimes, it&apos;s difficult to find a specific cause for uveitis. However, your doctor will try to determine whether your uveitis has an infectious cause or results from some other disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If uveitis is caused by an underlying condition, treatment will focus on that specific condition. The goal of treatment is to reduce the inflammation in your eye.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of uveitis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-inflammatory medication.&lt;/strong&gt; Your doctor may prescribe anti-inflammatory medication, such as a corticosteroid, to treat your uveitis. This medication may be given as eyedrops. Or, you may be given corticosteroid pills or an injection into the eye. For people with difficult-to-treat posterior uveitis, a device that&apos;s implanted in your eye may be an option. This device slowly releases corticosteroid medication into your eye for about 2 1/2 years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic or antiviral medication.&lt;/strong&gt; If uveitis is caused by an infection, antibiotics, antiviral medications or other medicines may be given with or without corticosteroids to bring the infection under control.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressive or cell-destroying (cytotoxic) medication.&lt;/strong&gt; Immunosuppressive or cytotoxic agents may be necessary if your uveitis doesn&apos;t respond well to corticosteroids or becomes severe enough to threaten your vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Vitrectomy &amp;mdash; surgery to remove some of the jelly-like material in your eye (vitreous) &amp;mdash; may be necessary both for diagnosis and management of your uveitis. A small sample of the vitreous can help identify a specific cause of eye inflammation, such as a virus, bacterium or lymphoma. The procedure may also be used to remove developing scar tissue in the vitreous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The part of your eye affected by uveitis &amp;mdash; either the front (anterior) or back (posterior) of the uvea &amp;mdash; may determine how quickly your eye heals. Uveitis affecting the back of your eye tends to heal more slowly than uveitis in the front of the eye. Severe inflammation takes longer to clear up than mild inflammation does.
+&lt;/p&gt;
+&lt;p&gt;
+Uveitis can come back. Make an appointment with your doctor if any of your symptoms reappear after successful treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although some alternative medicine treatments have anti-inflammatory properties, they haven&apos;t been well-studied for the treatment of uveitis. Let your doctor know if you plan on using any alternative supplements or treatments, because some may interact with treatments you&apos;re receiving or cause adverse reactions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Uveitis
+	</Title>
+	<Abstract>
+		Uveitis &amp;mdash; Comprehensive overview covers causes, symptoms, risks, treatment of anterior and posterior uveitis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+	</RelatedLinksBox>
+</Disease>

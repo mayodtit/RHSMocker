@@ -1,0 +1,218 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12360
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blue-cheese-spinach-salad/RE12360
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2012-10-10
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			A477294D-0D9F-B62D-2BA1494689BE695B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				blue cheese recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				spinach salad
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Blue cheese, walnut spinach salad
+	</Title>
+	<Abstract>
+		Blue cheese, walnut spinach salad &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		12
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This is a gluten-free recipe.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Combine ingredients for dressing in a blender or processor. Chill. 
+&lt;/p&gt;
+&lt;p&gt;
+Toss spinach greens with dressing and mound a generous 1 cup onto chilled plates. 
+&lt;/p&gt;
+&lt;p&gt;
+Layer vegetables, walnuts and blue cheese crumbles on top of spinach. 
+&lt;/p&gt;
+&lt;p&gt;
+Serve. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;
+Dressing 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;4 teaspoons olive oil&lt;/li&gt;
+	&lt;li&gt;2 tablespoons balsamic vinegar&lt;/li&gt;
+	&lt;li&gt;1 tablespoon maple syrup&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon nutmeg&lt;/li&gt;
+	&lt;li&gt;3 teaspoons plain low-fat yogurt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;2 pounds spinach, roughly chopped&lt;/li&gt;
+	&lt;li&gt;1/2 cup sliced red onion&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups sliced cucumbers&lt;/li&gt;
+	&lt;li&gt;1 1/2 cups grape tomatoes&lt;/li&gt;
+	&lt;li&gt;1/4 cup walnuts, chopped&lt;/li&gt;
+	&lt;li&gt;1/4 cup blue cheese crumbles&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				80
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				7 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				2 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				4 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 2 cups
+			</Servingsize>
+			<Sodium Label="Sodium">
+				100 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				1 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			No cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Salads
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

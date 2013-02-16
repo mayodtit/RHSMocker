@@ -1,0 +1,400 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00971
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/broken-wrist/DS00971
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="3252" Title="Broken wrist/broken hand" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7F6C0064-E7FF-0DBD-11E34F712C992495
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				broken wrist
+			</MetaKeyword>
+			<MetaKeyword>
+				broken hand
+			</MetaKeyword>
+			<MetaKeyword>
+				wrist fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				hand fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				finger fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				broken finger
+			</MetaKeyword>
+			<MetaKeyword>
+				distal radius fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				scaphoid fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				metacarpal fracture
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A broken wrist or broken hand is a break or crack in one of the many bones within your wrist and hand. The most common of these injuries occurs in the wrist when people try to catch themselves during a fall and land hard on an outstretched hand. 
+&lt;/p&gt;
+&lt;p&gt;
+Risk factors for a broken wrist or broken hand range from participation in certain sports &amp;mdash; such as American football, soccer, skiing or snowboarding &amp;mdash; to having osteoporosis, a condition in which bones become thinner and more fragile. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to treat a broken wrist or broken hand as soon as possible. Otherwise, the bones may not heal in proper alignment, which can affect your ability to perform everyday activities, such as grasping a pen or buttoning a shirt. Early treatment will also help minimize pain and stiffness. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing carpal bones 
+" Caption="Your wrist is made up of eight small bones (carpal bones) plus two long bones in your forearm &amp;mdash; the radius and the ulna. The most commonly injured carpal bone is the scaphoid bone, located near the base of your thumb. 
+" Height="60" Title="Carpal bones" URI="/images/image_popup/thumbs/r7_carpalbonesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing carpal bones 
+" Caption="Your wrist is made up of eight small bones (carpal bones) plus two long bones in your forearm &amp;mdash; the radius and the ulna. The most commonly injured carpal bone is the scaphoid bone, located near the base of your thumb. 
+" Height="277" Title="Carpal bones" URI="/images/image_popup/r7_carpalbones.jpg" Width="400" />
+				<HTML>
+					Your wrist is made up of eight small bones (carpal bones) plus two long bones in your forearm &amp;mdash; the radius and the ulna. The most commonly injured carpal bone is the scaphoid bone, located near ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Colles fracture 
+" Caption="The Colles fracture is one of the most common fractures of the wrist. It usually occurs when people fall on an outstretched hand. 
+" Height="60" Title="Colles fracture" URI="/images/image_popup/thumbs/mcdc7_collesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Colles fracture 
+" Caption="The Colles fracture is one of the most common fractures of the wrist. It usually occurs when people fall on an outstretched hand. 
+" Height="270" Title="Colles fracture" URI="/images/image_popup/mcdc7_colles.jpg" Width="400" />
+				<HTML>
+					The Colles fracture is one of the most common fractures of the wrist. It usually occurs when people fall on an outstretched hand. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a broken wrist or broken hand, you may experience these signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe pain that tends to increase during gripping or squeezing&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Bruising&lt;/li&gt;
+	&lt;li&gt;Obvious deformity, such as a bent wrist or crooked finger&lt;/li&gt;
+	&lt;li&gt;Stiffness or inability to move your fingers or thumb&lt;/li&gt;
+	&lt;li&gt;Numbness or coldness in your hand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to call a doctor&lt;br /&gt;
+&lt;/strong&gt;If you think you may have a broken wrist or hand, see a doctor immediately, especially if you have numbness, swelling or trouble moving your fingers. Delays in diagnosis and treatment can lead to poor healing, decreased range of motion and decreased grip strength. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A direct blow or crushing injury to your hands and wrists can break any of the bones in them. Common causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Falling onto an outstretched hand is one of the most common causes of a broken wrist or broken hand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports injuries.&lt;/strong&gt; Many wrist or hand fractures occur during contact sports or sports in which you might fall onto an outstretched hand &amp;mdash; such as in-line skating or snowboarding. Finger fractures are common with baseball, basketball and football.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Motor vehicle crashes.&lt;/strong&gt; High-velocity injuries that can occur during motor vehicle crashes may cause wrist or hand bones to fracture into many pieces, requiring surgical repair.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Participating in certain sports activities or having certain health conditions may increase your chances of experiencing a broken wrist or broken hand. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sports activities&lt;br /&gt;
+&lt;/strong&gt;Many people break bones in their wrists or hands while participating in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Basketball&lt;/li&gt;
+	&lt;li&gt;Football&lt;/li&gt;
+	&lt;li&gt;Rugby&lt;/li&gt;
+	&lt;li&gt;Wrestling&lt;/li&gt;
+	&lt;li&gt;Hockey&lt;/li&gt;
+	&lt;li&gt;Skiing&lt;/li&gt;
+	&lt;li&gt;Snowboarding&lt;/li&gt;
+	&lt;li&gt;In-line skating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Health conditions&lt;br /&gt;
+&lt;/strong&gt;You may be more susceptible to broken bones if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Osteoporosis&lt;/li&gt;
+	&lt;li&gt;Bone disease&lt;/li&gt;
+	&lt;li&gt;Calcium deficiency&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a broken wrist or broken hand are rare, but they may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ongoing stiffness, aching or disability.&lt;/strong&gt; Stiffness, pain or aching in the affected area generally goes away a month or two after your cast is removed or after surgery, but you may have some permanent stiffness or aching if your injury was severe. It may also take a few months to regain your ability to use your hand and fingers normally. Be patient with your recovery, and talk to your doctor about exercises that might help or for a referral to physical or occupational therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoarthritis.&lt;/strong&gt; Fractures that extend into the joint may cause arthritis years later. If your wrist or hand starts to hurt or swell long after a break, see your doctor for an evaluation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve or blood vessel damage.&lt;/strong&gt; Trauma to the wrist or hand can injure adjacent nerves and blood vessels. Seek immediate attention if you notice any numbness or circulation problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may initially seek treatment for a broken wrist or broken hand in an emergency room or urgent-care clinic. If the pieces of broken bone aren&apos;t lined up properly to allow healing with immobilization, you may be referred to a doctor specializing in orthopedic surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms and how the injury occurred&lt;/li&gt;
+	&lt;li&gt;Information about past medical problems&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For broken wrist or broken hand, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Will I need surgery?&lt;/li&gt;
+	&lt;li&gt;Will I need to wear a cast? If so, for how long?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did the injury happen?&lt;/li&gt;
+	&lt;li&gt;Was your wrist or hand bent backward or forward when the impact occurred?&lt;/li&gt;
+	&lt;li&gt;Are you right-handed or left-handed?&lt;/li&gt;
+	&lt;li&gt;Where does it hurt, and does any specific movement make it hurt more or less?&lt;/li&gt;
+	&lt;li&gt;Have you had any previous hand or wrist injuries or surgery?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During the physical exam, your doctor will check the affected area for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tenderness&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Range of motion&lt;/li&gt;
+	&lt;li&gt;Deformity&lt;/li&gt;
+	&lt;li&gt;Open wound&lt;/li&gt;
+	&lt;li&gt;Nerve damage&lt;/li&gt;
+	&lt;li&gt;Impaired blood flow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also do some maneuvers to measure your range of motion and grip strength. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Imaging scans are crucial to the diagnosis of a broken wrist or broken hand. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;X-rays&lt;br /&gt;
+&lt;/strong&gt;Using low levels of radiation, X-rays are a good tool to visualize bone. But X-rays sometimes have problems revealing fractures where the bone is merely cracked. X-rays are painless and take only a few minutes to complete. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Computerized tomography (CT)&lt;br /&gt;
+&lt;/strong&gt;CT scans can often uncover wrist or hand fractures that X-rays might miss. Injuries to soft tissues and blood vessels also are easier to see on CT scans. This technology takes X-rays from a variety of angles and combines them to depict cross-sectional slices of your body&apos;s internal structures. The test is painless and usually takes less than 20 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Magnetic resonance imaging (MRI)&lt;br /&gt;
+&lt;/strong&gt;MRI uses radio waves and a powerful magnet to produce detailed images of bone and soft tissues. It is much more sensitive than X-rays and can identify very small fractures and ligament injuries. The procedure is painless, but some people feel claustrophobic in the narrow tunnel within the MRI machine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bone scan&lt;br /&gt;
+&lt;/strong&gt;This technique is good for identifying stress fractures, where a bone is cracked due to repetitive trauma. During a bone scan, a small amount of radioactive material is injected into your bloodstream. It collects in the bones, particularly in places where a bone is healing, and is detected by a scanner.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If the broken ends of the bone aren&apos;t aligned properly, your doctor will need to manipulate the pieces back into their proper positions &amp;mdash; a process called fracture reduction. Depending on the amount of pain and swelling you have, you may need a muscle relaxant, a sedative or even a general anesthetic before this procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immobilization&lt;br /&gt;
+&lt;/strong&gt;Restricting the movement of a broken bone in your wrist or hand is critical to proper healing. To do this, you may need a splint or a cast. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;To reduce pain and inflammation, your doctor may recommend an over-the-counter pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others). If you&apos;re experiencing severe pain, you may need an opioid medication, such as codeine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;After your cast or splint is removed, you&apos;ll likely need rehabilitation exercises or physical therapy to reduce stiffness and restore movement in your wrist and hand. Rehabilitation can help, but it may take up to several months &amp;mdash; or even longer &amp;mdash; for complete healing of severe injuries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;Immobilization heals most broken bones. However, you may need surgery to implant internal fixation devices, such as plates, rods or screws, or bone grafts to maintain proper position of your bones during healing. These internal fixation devices may be necessary if you have the following injuries:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiple fractures&lt;/li&gt;
+	&lt;li&gt;An unstable or displaced fracture&lt;/li&gt;
+	&lt;li&gt;Loose bone fragments that could enter a joint&lt;/li&gt;
+	&lt;li&gt;Damage to the surrounding ligaments&lt;/li&gt;
+	&lt;li&gt;Fractures that extend into a joint&lt;/li&gt;
+	&lt;li&gt;A fracture that is the result of a crushing accident&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, the surgeon may immobilize your fracture by using an external fixation device. This consists of a metal frame with two or more pins that go through your skin and into the bone on either side of the fracture.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing external fixation of a broken wrist 
+" Caption="With external fixation, a metal frame outside your body immobilizes the fracture with two or more pins that pass through your skin and into the bone on either side of the fracture. 
+" Height="60" Title="External fixation of the wrist" URI="/images/image_popup/thumbs/mcdc7_wristfixthu.jpg" Width="60" />
+				<Image Alt="Illustration showing external fixation of a broken wrist 
+" Caption="With external fixation, a metal frame outside your body immobilizes the fracture with two or more pins that pass through your skin and into the bone on either side of the fracture. 
+" Height="276" Title="External fixation of the wrist" URI="/images/image_popup/mcdc7_wristfix.jpg" Width="400" />
+				<HTML>
+					With external fixation, a metal frame outside your body immobilizes the fracture with two or more pins that pass through your skin and into the bone on either side of the fracture. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s impossible to prevent the unforeseen events that often cause a broken wrist or broken hand. But these basic tips may offer some protection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Build bone strength&lt;br /&gt;
+&lt;/strong&gt;Build strong bones by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eating a nutritious diet with plenty of calcium and vitamin D&lt;/li&gt;
+	&lt;li&gt;Taking calcium supplements, particularly if you are a woman past menopause&lt;/li&gt;
+	&lt;li&gt;Getting plenty of weight-bearing exercise, such as brisk walking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prevent falls.&lt;/strong&gt; Most broken wrists occur when people fall forward onto an outstretched hand. To prevent this common injury: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wear sensible shoes&lt;/li&gt;
+	&lt;li&gt;Remove home hazards&lt;/li&gt;
+	&lt;li&gt;Light up your living space&lt;/li&gt;
+	&lt;li&gt;Install grab bars in your bathroom&lt;/li&gt;
+	&lt;li&gt;Install handrails on your stairways&lt;/li&gt;
+	&lt;li&gt;Avoid slippery surfaces, if possible, such as snow- or ice-covered walkways&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Use protective gear for athletic activities&lt;br /&gt;
+&lt;/strong&gt;Wear wrist guards for high-risk activities, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;In-line skating&lt;/li&gt;
+	&lt;li&gt;Snowboarding&lt;/li&gt;
+	&lt;li&gt;Rugby&lt;/li&gt;
+	&lt;li&gt;Football&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Broken wrist/broken hand
+	</Title>
+	<Abstract>
+		Broken wrist/broken hand &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of these types of fractures.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00058" LinkType="Internal" ObjectID="5B479591-E2C6-4544-A910E7A9CC2B2765" Title="Fractures (broken bones): First aid" Url="http://www.mayoclinic.com/health/first-aid-fractures/FA00058" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,70 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00545
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00545
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1744" Title="High blood cholesterol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			16301BD7-E7FF-0DBD-1E1A86C7456C7DBA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				lower cholesterol
+			</MetaKeyword>
+			<MetaKeyword>
+				cholesterol-lowering foods
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Top 5 foods to lower your cholesterol
+	</Title>
+	<Body>
+		&lt;p&gt;A few tweaks to your diet may be enough to lower your cholesterol to a healthy level and help you stay off medications. Consider adding these cholesterol-lowering foods to your diet: 1. Oatmeal and oat bran. 2. Walnuts, almonds and other nuts. 3. Fish, especially mackerel, lake trout, herring, sardines, albacore tuna and salmon. 4. Olive oil. 5. Foods fortified with plant sterols or stanols, such as margarines, orange juice and yogurt drinks.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,239 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00309
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ct-scan/MY00309
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2001-08-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3077" Title="CT scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				computerized tomography
+			</MetaKeyword>
+			<MetaKeyword>
+				computed tomography
+			</MetaKeyword>
+			<MetaKeyword>
+				CT scan
+			</MetaKeyword>
+			<MetaKeyword>
+				CAT scan
+			</MetaKeyword>
+			<MetaKeyword>
+				CT
+			</MetaKeyword>
+			<MetaKeyword>
+				X-ray
+			</MetaKeyword>
+			<MetaKeyword>
+				radiography
+			</MetaKeyword>
+			<MetaKeyword>
+				radiology
+			</MetaKeyword>
+			<MetaKeyword>
+				catscan
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Computerized tomography (CT scan) &amp;mdash; also called CT &amp;mdash; combines a series of X-ray views taken from many different angles and computer processing to create cross-sectional images of the bones and soft tissues inside your body. 
+&lt;/p&gt;
+&lt;p&gt;
+The resulting images can be compared to looking down at single slices of bread from a loaf. Your doctor will be able to look at each of these slices individually or perform additional visualization to view your body from different angles. In some cases, CT images can be combined to create 3-D images. CT scan images can provide much more information than do plain X-rays. 
+&lt;/p&gt;
+&lt;p&gt;
+A CT scan has many uses, but is particularly well suited to quickly examine people who may have internal injuries from car accidents or other types of trauma. A CT scan can be used to visualize nearly all parts of the body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing CT scan slices 
+" Caption="CT scans allow doctors to see cross-sectional images (slices) of your body. This slice shows heart and lung tissue.
+" Height="60" Title="CT scan slices" URI="/images/image_popup/thumbs/fl7_ctslicesthu.jpg" Width="60" />
+				<Image Alt="Image showing CT scan slices 
+" Caption="CT scans allow doctors to see cross-sectional images (slices) of your body. This slice shows heart and lung tissue.
+" Height="280" Title="CT scan slices" URI="/images/image_popup/fl7_ctslices.jpg" Width="400" />
+				<HTML>
+					CT scans allow doctors to see cross-sectional images (slices) of your body. This slice shows heart and lung tissue.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend a CT scan to help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diagnose muscle and bone disorders, such as bone tumors and fractures&lt;/li&gt;
+	&lt;li&gt;Pinpoint the location of a tumor, infection or blood clot&lt;/li&gt;
+	&lt;li&gt;Guide procedures such as surgery, biopsy and radiation therapy&lt;/li&gt;
+	&lt;li&gt;Detect and monitor diseases and conditions such as cancer, heart disease, lung nodules and liver masses&lt;/li&gt;
+	&lt;li&gt;Detect internal injuries and internal bleeding&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Radiation exposure&lt;/strong&gt; &lt;br /&gt;
+During a CT scan, you&apos;re briefly exposed to much more radiation than you would be during a plain X-ray. This radiation from imaging tests has a very small potential to increase your risk of cancer. Still, CT scans have many benefits that may outweigh potential risks. Doctors use the lowest dose of radiation whenever possible. Newer machines and techniques may expose you to less radiation. Talk with your doctor about the benefits and risks of your CT scan. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Harm to unborn babies&lt;/strong&gt; &lt;br /&gt;
+Tell your doctor if you&apos;re pregnant. Another type of exam may be recommended, such as ultrasound or magnetic resonance imaging (MRI), to avoid the risk of exposing your fetus to the radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reactions to contrast material&lt;/strong&gt; &lt;br /&gt;
+In certain cases, your doctor may recommend you receive a special dye called a contrast material through a vein in your arm before your CT scan. Although rare, the contrast material can cause medical problems or allergic reactions. Most reactions are mild and result in a rash or itchiness. In rare instances, an allergic reaction can be serious and potentially life-threatening. Tell your doctor if you&apos;ve ever had a reaction to contrast material. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+How you prepare for a CT scan depends on which part of your body is being scanned. You may be asked to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take off some or all of your clothing and wear a hospital gown.&lt;/li&gt;
+	&lt;li&gt;Remove any metal objects, such as a belt or jewelry, which might interfere with image results.&lt;/li&gt;
+	&lt;li&gt;Stop eating for a few hours before your scan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Contrast material&lt;/strong&gt; &lt;br /&gt;
+A special dye called a contrast material is needed for some CT scans, to help highlight the areas of your body being examined. The contrast material blocks X-rays and appears white on images, which can help emphasize blood vessels, intestines or other structures. 
+&lt;/p&gt;
+&lt;p&gt;
+Contrast material can enter your body in a variety of ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral.&lt;/strong&gt; If your esophagus or stomach is being scanned, you may need to swallow a liquid that contains contrast material. This drink may taste unpleasant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injection.&lt;/strong&gt; Contrast agents can be injected through a vein in your arm, to help view your gallbladder, urinary tract, liver or blood vessels. You may experience a feeling of warmth during the injection or a metallic taste in your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rectal.&lt;/strong&gt; A contrast material may be inserted in your rectum to help visualize your intestines. This procedure can make you feel bloated and uncomfortable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing your small child for a scan&lt;/strong&gt; &lt;br /&gt;
+If your infant or toddler is having the CT scan, the doctor may recommend a sedative to keep your child calm and still. Movement blurs the images and may lead to inaccurate results. Ask your doctor how best to prepare your child. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can have a CT scan done in a hospital or an outpatient facility. CT scans are painless and, with newer machines, typically take only a few minutes to complete. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the CT scan&lt;/strong&gt; &lt;br /&gt;
+CT scanners are shaped like a large doughnut standing on its side. You lie on a narrow table that slides into the &quot;doughnut hole,&quot; which is called a gantry. Straps and pillows may help you stay in position. During a CT scan of the head, the table may be fitted with a special cradle that holds your head still. 
+&lt;/p&gt;
+&lt;p&gt;
+The table will move slowly through the gantry during the CT scan, as the gantry rotates in a circle around you. Each rotation yields several images of thin slices of your body. You may hear buzzing, clicking and whirring noises. 
+&lt;/p&gt;
+&lt;p&gt;
+A technologist will be nearby, in a separate room. You will be able to communicate with the technologist via intercom. The technologist may ask you to hold your breath at certain points to avoid blurring the images. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the CT scan&lt;/strong&gt; &lt;br /&gt;
+After the exam you can return to your normal routine. If you were given a contrast material, you may receive special instructions. In some cases, you may be asked to wait for a short time before leaving to ensure that you feel well after the exam. After the scan, you&apos;ll likely be told to drink lots of fluids to help your kidneys remove the contrast material from your body. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+CT images are stored as electronic data files and usually reviewed on a computer screen. A radiologist interprets these images and sends a report to your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="CT scan images of the brain
+" Caption="Left: Arrows indicate a collection of blood between the skull and the outer covering of the brain (epidural hematoma) that&apos;s compressing the frontal lobe. Right: Contrast material injected into a vein during this CT scan of the head highlights tumors in both sides of the brain.
+" Height="60" Title="CT scan images of the brain" URI="/images/image_popup/thumbs/fl7_brainctthu.jpg" Width="60" />
+				<Image Alt="CT scan images of the brain
+" Caption="Left: Arrows indicate a collection of blood between the skull and the outer covering of the brain (epidural hematoma) that&apos;s compressing the frontal lobe. Right: Contrast material injected into a vein during this CT scan of the head highlights tumors in both sides of the brain.
+" Height="275" Title="CT scan images of the brain" URI="/images/image_popup/fl7_brainct.jpg" Width="400" />
+				<HTML>
+					Left: Arrows indicate a collection of blood between the skull and the outer covering of the brain (epidural hematoma) that&apos;s compressing the frontal lobe. Right: Contrast material injected into a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		CT scan
+	</Title>
+	<Abstract>
+		CT scan &amp;mdash; Overview covers definition, risks, results of this imaging procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00088" LinkType="Internal" ObjectID="F72C0F82-09B5-4BA3-B20B45255D490B1A" Title="Video: CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MM00088" />
+		<LinkItem ContentType="Answer" DocID="AN01777" LinkType="Internal" ObjectID="B55B5766-E7FF-0DBD-1A78B9EB1365E2BF" Title="CT scans: Are they safe?" Url="http://www.mayoclinic.com/health/ct-scans/AN01777" />
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+	</RelatedLinksBox>
+</TestProcedure>

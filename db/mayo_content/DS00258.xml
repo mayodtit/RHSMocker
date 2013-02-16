@@ -1,0 +1,345 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00258
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pink-eye/DS00258
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-25
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="1940" Title="Pink eye" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FA6233FA-4850-4011-88D0123DDD87F129
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pink eye
+			</MetaKeyword>
+			<MetaKeyword>
+				pinkeye
+			</MetaKeyword>
+			<MetaKeyword>
+				conjunctivitis
+			</MetaKeyword>
+			<MetaKeyword>
+				eye
+			</MetaKeyword>
+			<MetaKeyword>
+				eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				conjunctiva
+			</MetaKeyword>
+			<MetaKeyword>
+				conjuctivitis
+			</MetaKeyword>
+			<MetaKeyword>
+				conjuntivitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pink eye (conjunctivitis) is an inflammation or infection of the transparent membrane (conjunctiva) that lines your eyelid and covers the white part of your eyeball. When small blood vessels in the conjunctiva become inflamed, they&apos;re more visible. This is what causes the whites of your eyes to appear reddish or pink.
+&lt;/p&gt;
+&lt;p&gt;
+Pink eye is commonly caused by a bacterial or viral infection, an allergic reaction, or &amp;mdash; in babies &amp;mdash; an incompletely opened tear duct.
+&lt;/p&gt;
+&lt;p&gt;
+Though pink eye can be irritating, it rarely affects your vision. Treatments can help ease the discomfort of pink eye. Because pink eye can be contagious, early diagnosis and treatment can help limit its spread.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing pink eye (conjunctivitis) 
+" Caption="Pink eye (conjunctivitis) is the inflammation or infection of the transparent membrane that lines your eyelid and eyeball. It&apos;s characterized by redness and a gritty sensation in your eye, along with itching. Often a discharge forms a crust on your eyelashes during the night.
+" Height="60" Title="Pink eye (conjunctivitis)" URI="/images/image_popup/thumbs/r7_conjunctivitisthu.jpg" Width="60" />
+				<Image Alt="Photo showing pink eye (conjunctivitis) 
+" Caption="Pink eye (conjunctivitis) is the inflammation or infection of the transparent membrane that lines your eyelid and eyeball. It&apos;s characterized by redness and a gritty sensation in your eye, along with itching. Often a discharge forms a crust on your eyelashes during the night.
+" Height="305" Title="Pink eye (conjunctivitis)" URI="/images/image_popup/r7_conjunctivitis.jpg" Width="400" />
+				<HTML>
+					Pink eye (conjunctivitis) is the inflammation or infection of the transparent membrane that lines your eyelid and eyeball. It&apos;s characterized by redness and a gritty sensation in your eye, along with ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common pink eye symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Redness in one or both eyes&lt;/li&gt;
+	&lt;li&gt;Itchiness in one or both eyes&lt;/li&gt;
+	&lt;li&gt;A gritty feeling in one or both eyes&lt;/li&gt;
+	&lt;li&gt;A discharge in one or both eyes that forms a crust during the night that may prevent your eye or eyes from opening in the morning&lt;/li&gt;
+	&lt;li&gt;Tearing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you notice any signs or symptoms you think might be pink eye. Pink eye can be highly contagious for as long as two weeks after signs and symptoms begin. Early diagnosis and treatment can protect people around you from getting pink eye too.
+&lt;/p&gt;
+&lt;p&gt;
+People who wear contact lenses need to stop wearing their contacts as soon as pink eye symptoms begin. If your symptoms don&apos;t start to get better within 12 to 24 hours, make an appointment with your eye doctor to make sure you don&apos;t have a more serious eye infection related to contact lens use.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, there are other serious eye conditions that can cause eye redness. Typically, these conditions will also cause pain and blurred vision. If you experience these symptoms, seek urgent care.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Causes of pink eye include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Viruses&lt;/li&gt;
+	&lt;li&gt;Bacteria&lt;/li&gt;
+	&lt;li&gt;Allergies&lt;/li&gt;
+	&lt;li&gt;A chemical splash in the eye&lt;/li&gt;
+	&lt;li&gt;A foreign object in the eye&lt;/li&gt;
+	&lt;li&gt;In newborns, a blocked tear duct&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Viral and bacterial conjunctivitis&lt;/strong&gt;&lt;br /&gt;
+Viral conjunctivitis and bacterial conjunctivitis may affect one or both eyes. Viral conjunctivitis usually produces a watery discharge. Bacterial conjunctivitis often produces a thicker, yellow-green discharge. Both viral and bacterial conjunctivitis can be associated with colds or with symptoms of a respiratory infection, such as a sore throat.
+&lt;/p&gt;
+&lt;p&gt;
+Both viral and bacterial types are very contagious. They are spread through direct or indirect contact with the eye secretions of someone who&apos;s infected.
+&lt;/p&gt;
+&lt;p&gt;
+Adults and children alike can develop both of these types of pink eye. However, bacterial conjunctivitis is more common in children than it is in adults.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergic conjunctivitis&lt;/strong&gt;&lt;br /&gt;
+Allergic conjunctivitis affects both eyes and is a response to an allergy-causing substance such as pollen. In response to allergens, your body produces an antibody called immunoglobulin E (IgE). This antibody triggers special cells called mast cells in the mucous lining of your eyes and airways to release inflammatory substances, including histamines. Your body&apos;s release of histamine can produce a number of allergy signs and symptoms, including red or pink eyes.
+&lt;/p&gt;
+&lt;p&gt;
+If you have allergic conjunctivitis, you may experience intense itching, tearing and inflammation of the eyes &amp;mdash; as well as sneezing and watery nasal discharge. Most allergic conjunctivitis can be controlled with allergy eyedrops.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Conjunctivitis resulting from irritation&lt;/strong&gt;&lt;br /&gt;
+Irritation from a chemical splash or foreign object in your eye is also associated with conjunctivitis. Sometimes flushing and cleaning the eye to rid it of the chemical or object causes redness and irritation. Signs and symptoms, which may include watery eyes and a mucous discharge, usually clear up on their own within about a day.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for pink eye include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exposure to something for which you have an allergy (allergic conjunctivitis)&lt;/li&gt;
+	&lt;li&gt;Exposure to someone infected with the viral or bacterial form of conjunctivitis&lt;/li&gt;
+	&lt;li&gt;Using contact lenses, especially extended-wear lenses&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In both children and adults, pink eye can cause inflammation in the cornea that can affect vision. Prompt evaluation and treatment by your doctor can reduce the risk of complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any eye-related signs or symptoms that worry you. If your signs and symptoms persist or get worse, despite treatment, your doctor may refer you to an eye specialist (ophthalmologist).
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as stop wearing contact lenses or refrain from using eyedrops.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For pink eye, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;How long will I be contagious after starting treatment?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to come back for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover points you want to address. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms affect one eye or both eyes?&lt;/li&gt;
+	&lt;li&gt;Do you use contact lenses?&lt;/li&gt;
+	&lt;li&gt;How do you clean your contact lenses?&lt;/li&gt;
+	&lt;li&gt;How often do you replace your contact lens storage case?&lt;/li&gt;
+	&lt;li&gt;Have you had close contact with anyone who has pink eye or cold or flu symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Stop using contact lenses until you can see your doctor. Wash your hands frequently to lessen the chance of infecting other people. Don&apos;t share towels with other people for the same reason.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine whether you have pink eye, your doctor will examine your eyes. Your doctor may also take a sample of eye secretions from your conjunctiva for laboratory analysis if you have a very severe case of conjunctivitis, if your corneas are affected or if you&apos;ve had repeated infections that aren&apos;t responding to treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment for bacterial conjunctivitis&lt;/strong&gt;&lt;br /&gt;
+If your infection is bacterial, your doctor may prescribe antibiotic eyedrops as pink eye treatment, and the infection should go away within several days. Antibiotic eye ointment, in place of eyedrops, is sometimes prescribed for treating bacterial pink eye in children. An ointment is often easier to administer to an infant or young child than are eyedrops, though the ointment may blur vision for up to 20 minutes after application. With either form of medication, expect signs and symptoms to start getting better in a few days. Follow your doctor&apos;s instructions and use the antibiotics for the complete period prescribed to prevent recurrence of the infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for viral conjunctivitis&lt;/strong&gt;&lt;br /&gt;
+There is no treatment for most cases of viral conjunctivitis. Instead, the virus needs time to run its course &amp;mdash; up to two or three weeks. Viral conjunctivitis often begins in one eye and then infects the other eye within a few days. Your signs and symptoms should gradually clear on their own.
+&lt;/p&gt;
+&lt;p&gt;
+Antiviral medications may be an option if your doctor determines that your viral conjunctivitis is caused by the herpes simplex virus.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for allergic conjunctivitis&lt;/strong&gt;&lt;br /&gt;
+If the irritation is allergic conjunctivitis, your doctor may prescribe one of many different types of eyedrops for people with allergies. These may include medications that help control allergic reactions, such as antihistamines and mast cell stabilizers, or drugs that help control inflammation, such as decongestants, steroids and anti-inflammatory drops. You may also reduce the severity of your allergic conjunctivitis symptoms by avoiding whatever causes your allergies when possible.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help you cope with the signs and symptoms of pink eye until it goes away, try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a compress to your eyes.&lt;/strong&gt; To make a compress, soak a clean, lint-free cloth in water and wring it out before applying it gently to your closed eyelids. Generally, a cool water compress will feel the most soothing, but you can also use a warm compress if that feels better to you. If pink eye affects only one eye, don&apos;t touch both eyes with the same cloth. This reduces the risk of spreading pink eye from one eye to the other.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try eyedrops.&lt;/strong&gt; Over-the-counter eyedrops called artificial tears may relieve symptoms. Some eyedrops contain antihistamines or other medications that can be helpful for people with allergic conjunctivitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop wearing contact lenses.&lt;/strong&gt; If you wear contact lenses, you may need to stop wearing them until your eyes feel better. How long you&apos;ll need to go without contact lenses depends on what&apos;s causing your conjunctivitis. Ask your doctor whether you should throw away your disposable contacts, as well as your cleaning solution and lens case. If your lenses aren&apos;t disposable, clean them thoroughly before reusing them.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Preventing the spread of pink eye&lt;/strong&gt;&lt;br /&gt;
+Practice good hygiene to control the spread of pink eye. For instance:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t touch your eyes with your hands.&lt;/li&gt;
+	&lt;li&gt;Wash your hands often.&lt;/li&gt;
+	&lt;li&gt;Use a clean towel and washcloth daily.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t share towels or washcloths.&lt;/li&gt;
+	&lt;li&gt;Change your pillowcases often.&lt;/li&gt;
+	&lt;li&gt;Throw away your eye cosmetics, such as mascara.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t share eye cosmetics or personal eye care items.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although pink eye symptoms may resolve in three or four days, children with viral conjunctivitis may be contagious for a week or more. Children may return to school when they no longer experience tearing and matted eyes.
+&lt;/p&gt;
+&lt;p&gt;
+If your child has bacterial conjunctivitis, keep him or her away from school until after treatment is started. Most schools and child care facilities require that your child wait at least 24 hours after starting treatment before returning to school or child care. Check with your doctor if you have any questions about when your child can return to school or child care.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing pink eye in newborns&lt;/strong&gt;&lt;br /&gt;
+Newborns&apos; eyes are susceptible to bacteria normally present in the mother&apos;s birth canal. These bacteria cause no symptoms in the mother. In rare cases, these bacteria can cause infants to develop a serious form of conjunctivitis known as ophthalmia neonatorum, which needs treatment without delay to preserve sight. That&apos;s why shortly after birth, an antibiotic ointment is applied to every newborn&apos;s eyes. The ointment helps prevent eye infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pink eye (conjunctivitis)
+	</Title>
+	<Abstract>
+		Pink eye (conjunctivitis) &amp;mdash; Comprehensive overview covers symptoms, treatment and self-care of this contagious condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01632" LinkType="Internal" ObjectID="49513533-E7FF-0DBD-1C1FF04252D708DE" Title="Pink eye treatment: What if I wear contact lenses?" Url="http://www.mayoclinic.com/health/pink-eye-treatment/AN01632" />
+	</RelatedLinksBox>
+</Disease>

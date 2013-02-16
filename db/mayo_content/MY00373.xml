@@ -1,0 +1,179 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00373
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blood-urea-nitrogen/MY00373
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3853" Title="Kidneys and urinary system">
+						<Keyword MCVID="3877" Title="Blood urea nitrogen test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6398C697-E7FF-0DBD-132E3127078F78BF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				BUN
+			</MetaKeyword>
+			<MetaKeyword>
+				blood urea nitrogen
+			</MetaKeyword>
+			<MetaKeyword>
+				blood urea nitrogen levels
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood urea nitrogen
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood urea nitrogen
+			</MetaKeyword>
+			<MetaKeyword>
+				urea
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney disease
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney damage
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				liver damage
+			</MetaKeyword>
+			<MetaKeyword>
+				creatinine
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A blood urea nitrogen (BUN) test reveals important information about how well your kidneys and liver are working. 
+&lt;/p&gt;
+&lt;p&gt;
+A blood urea nitrogen test measures the amount of urea nitrogen that&apos;s in your blood. Your liver produces ammonia &amp;mdash; which contains nitrogen &amp;mdash; after it breaks down proteins used by your body&apos;s cells. The nitrogen combines with other elements, such as carbon, hydrogen and oxygen, to form urea, which is a chemical waste product. The urea travels from your liver to your kidneys through your bloodstream. Healthy kidneys filter urea and other waste products from your blood. The filtered waste products leave your body in urine. 
+&lt;/p&gt;
+&lt;p&gt;
+If a blood urea nitrogen test reveals that your urea nitrogen levels are higher than normal, it probably indicates that your kidneys aren&apos;t working properly. Or it could point to high protein intake, inadequate fluid intake or poor circulation. 
+&lt;/p&gt;
+&lt;p&gt;
+If a blood urea nitrogen test shows lower than normal levels, it could indicate liver disease or damage, or malnutrition. But a low BUN level wouldn&apos;t likely be the first indication of liver disease because the blood urea nitrogen test isn&apos;t used as a screening test for that disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have a blood urea nitrogen test if your doctor suspects that you have kidney damage, or if your kidney function needs to be evaluated. If you&apos;re receiving hemodialysis or peritoneal dialysis, you may have a BUN test to help determine the effectiveness of dialysis treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If kidney problems are the primary concern, when your blood is tested for urea nitrogen levels, it&apos;s likely it will also be tested for creatinine levels. Creatinine is another waste product that healthy kidneys filter out of your body in urine. High levels of creatinine may be a sign of kidney damage. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also order a BUN test as part of a blood test group to help diagnose a number of other conditions, such as liver failure, urinary tract obstruction, congestive heart failure or gastrointestinal bleeding. But an abnormal BUN test result alone doesn&apos;t diagnose any of these conditions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood urea nitrogen is a common blood test. If your blood sample is being tested only for blood urea nitrogen, you can eat and drink normally before the test. If your blood sample will be used for additional tests, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the BUN test, a member of your health care team takes a sample of blood by inserting a needle into a vein in your arm. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of the blood urea nitrogen test are measured in milligrams per deciliter (mg/dL) in the United States and in millimoles per liter (mmol/L) internationally. A normal range for blood urea nitrogen is generally 8 to 24 mg/dL for adult men (2.86 to 8.57 mmol/L) and 6 to 21 mg/dL (2.14 to 7.50 mmol/L) for adult women. However, urea nitrogen levels vary by age. Infants have lower levels than other people do.
+&lt;/p&gt;
+&lt;p&gt;
+Generally, a high blood urea nitrogen level means your kidneys aren&apos;t working well, particularly if the result is above 50 mg/dL (17.85 mmol/L). But, elevated urea nitrogen can also be due to urinary tract obstruction, congestive heart failure or gastrointestinal bleeding. Your blood urea nitrogen level may also increase as a result of dehydration, shock, burns or fever. Certain medications, such as corticosteroids, may increase urea nitrogen levels, too. In addition, a high protein diet can cause your BUN level to increase. 
+&lt;/p&gt;
+&lt;p&gt;
+Lower than normal blood urea nitrogen levels may be a sign of liver damage. But low levels can also be caused by malnutrition, a low-protein diet or a high-carbohydrate diet. 
+&lt;/p&gt;
+&lt;p&gt;
+If the results of your BUN test are higher or lower than normal, your doctor may want to confirm the results with another blood or urine test. 
+&lt;/p&gt;
+&lt;p&gt;
+If kidney damage is a concern, it&apos;s important to control any conditions that may be contributing to the damage. It&apos;s especially important to manage your blood pressure, which often requires medication. You can&apos;t undo permanent kidney damage, but with appropriate treatment you may be able to prevent further damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blood urea nitrogen (BUN) test
+	</Title>
+	<Abstract>
+		Blood urea nitrogen (BUN) test &amp;mdash; Overview covers definition, preparation, results of this blood test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

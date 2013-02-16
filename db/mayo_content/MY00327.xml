@@ -1,0 +1,225 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00327
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heart-scan/MY00327
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="3081" Title="Coronary calcium scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E25BA260-E7FF-0DBD-1581C13DDA359B5C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart scan
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary calcium scans
+			</MetaKeyword>
+			<MetaKeyword>
+				heart scans
+			</MetaKeyword>
+			<MetaKeyword>
+				CT angiography
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium scans
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium scan
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium score
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart scans, also known as coronary calcium scans, provide pictures of your heart&apos;s arteries (coronary arteries). Doctors use heart scans to look for calcium deposits in the coronary arteries that can narrow your arteries and increase your heart attack risk. The result of this test is often called a coronary calcium score. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart scans may show that you have a higher risk of having a heart attack or other problems before you have any obvious symptoms of heart disease. Heart scans aren&apos;t for everyone, though. While some walk-in medical facilities advertise that you can walk in for a quick check of your coronary arteries, you should be cautious of these approaches. 
+&lt;/p&gt;
+&lt;p&gt;
+Routine use of heart scans on people who don&apos;t have any symptoms of heart disease is not recommended by the American Heart Association or the American College of Cardiology. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart scans use noninvasive techniques to measure the amount of calcium in the walls of your coronary arteries &amp;mdash; the arteries that supply your heart with blood. Having calcium in the walls of your arteries shows that you may have coronary artery disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary artery disease is a leading cause of heart attacks. Coronary artery disease occurs when plaques build up within the walls of your heart arteries causing narrowing (atherosclerosis). The plaques are deposits in the artery walls made of fat, cholesterol and calcium. It&apos;s the calcium in those plaques that the heart scans can detect. Some researchers think the amount of calcium in plaques can be used to calculate a score that, when combined with other health information, helps determine your risk of coronary artery disease or heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+But the use of heart scans has been controversial. Heart scans may not be useful for you if, based on your family history and risk factors, you fall into either a low- or high-risk category for having a heart attack. The American College of Cardiology and the American Heart Association have created guidelines to determine if a heart scan may be useful in deciding whether you need to take action to prevent a heart attack within three to five years. 
+&lt;/p&gt;
+&lt;p&gt;
+A heart scan isn&apos;t useful if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low heart attack risk.&lt;/strong&gt; If, for example, you are younger than 55 years old, have normal cholesterol and blood pressure levels, and don&apos;t smoke, your heart attack risk percentage may be calculated at less than 10 percent, putting you in the low-risk category. It means that because you have few risk factors; you have less than a 10 percent chance of having a heart attack in the next 10 years. So if you&apos;re at low risk, a heart scan probably won&apos;t tell you anything you and your doctor don&apos;t already know.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;High heart attack risk.&lt;/strong&gt; Having a 20 percent or greater risk of having a heart attack in the next 10 years means you are at high risk. If you have high cholesterol levels and high blood pressure, smoke, and are over 65, you&apos;d likely be in this category. If you&apos;re at high risk, a heart scan won&apos;t do you much good. That&apos;s because you and your doctor already know that you&apos;re at risk based on your risk factors and that you should take steps to prevent a heart attack, such as taking medications or making significant lifestyle changes.
+	&lt;/p&gt;
+	&lt;p&gt;
+	You also shouldn&apos;t have a heart scan if you&apos;ve already had a heart attack or have had a surgical procedure, such as angioplasty or coronary bypass surgery, to treat coronary artery disease. In these cases, your doctor will already know you have coronary artery disease and you&apos;re at a high risk of having a heart attack. A heart scan won&apos;t provide any more information on how your condition should be treated. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When a heart scan might be useful&lt;/strong&gt; &lt;br /&gt;
+A heart scan may give you information about your heart attack risk if you fall into the intermediate heart attack risk category. This means, based on your risk factors, your risk of having a heart attack in the next 10 years falls somewhere between 10 percent and 20 percent. For example, you may be considered to have an intermediate heart attack risk if you&apos;re between the ages of 55 and 65 years and you have borderline high cholesterol or blood pressure or are a smoker. Your doctor can help you determine what your risk level is. A heart scan may be useful if you&apos;re at intermediate risk or if you have chest pain, especially if it&apos;s unclear whether a heart problem is the culprit. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart scans use a type of X-ray technology called electron beam computerized tomography (EBCT) to see the calcium in your arteries. This type of scan does have some risks. One EBCT scan of the heart, for instance, could expose you to the same amount of radiation as could up to 33 chest X-rays. Repeated heart scans over time could expose you to excessive levels of radiation and an increased risk of cancer. Because of the radiation risks, you shouldn&apos;t have a heart scan if you&apos;re pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+Another type of heart scan uses computerized tomography (CT) angiography to show narrowing of your heart arteries. If you have this procedure, you could have an allergic reaction to the medication that&apos;s used during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;A caution on walk-in heart scan clinics&lt;/strong&gt; &lt;br /&gt;
+Certain medical facilities and walk-in centers may advertise heart scans as a quick, easy way to measure your risk of a heart attack. These advertisements often target people who worry that they might have a particular disease even if they seem healthy and have no known risk factors. Facilities that promote heart scans for the general public don&apos;t require a referral from a doctor. You can walk in off the street and get the scan. However, these scans might not be covered by your insurance. 
+&lt;/p&gt;
+&lt;p&gt;
+If you decide to have a heart scan, it may be best to have it done through your primary doctor, since he or she already knows your other risk factors for a heart attack. If you choose a walk-in scan, be sure to take a copy of the results to your own doctor for follow-up. He or she can help you decide what steps you may need to take to improve your heart health and prevent a heart attack. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most experts agree that you should visit your doctor for an exam before heading to the nearest walk-in center for a heart scan. This can provide additional information on your heart attack risk for your doctor to consider. This exam should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A review of your medical history and your family medical history&lt;/li&gt;
+	&lt;li&gt;A physical exam, including blood pressure measurement&lt;/li&gt;
+	&lt;li&gt;A risk assessment, including questions about your exercise and smoking habits&lt;/li&gt;
+	&lt;li&gt;Blood tests, including your cholesterol levels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Otherwise, you don&apos;t need any special preparations to have a heart scan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+A heart scan takes only a few minutes. The scan will show the calcium in your heart arteries by using computerized tomography (CT). 
+&lt;/p&gt;
+&lt;p&gt;
+A CT scan is an X-ray technique that produces images of your internal organs that are more detailed than are those produced by conventional X-ray exams. CT scans use an X-ray-generating device that rotates around your body and a very powerful computer to create cross-sectional images, like slices, of the inside of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Calcium deposits show up as bright white spots on the scan. The standard imaging technique for coronary arteries uses electron beam computerized tomography (EBCT), also called ultra-fast CT. 
+&lt;/p&gt;
+&lt;p&gt;
+Before the scan, you may be asked to change into a hospital gown, although some facilities don&apos;t require it. You&apos;ll lie on a table with a few electrodes attached to your chest. The table will slide into the CT scanner, which creates the images. You may be asked to hold your breath for a few seconds so that the technicians can get clear images of your heart. After a few minutes, your doctor or technician will have a score that helps estimate your heart attack risk - and may help guide treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to identifying calcium, CT scans can produce detailed pictures of your heart arteries to show the presence of any narrowing (stenosis) of your heart arteries due to coronary artery disease. For this type of cardiac CT, dye is injected into a vein to visualize the coronary arteries (called CT angiography). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+There aren&apos;t any special precautions you need to take after having a heart scan. You should be able to drive yourself home and continue your daily activities. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your heart scan is finished, your doctor will share the results with you. If you&apos;d like a copy of your scan, ask your doctor, since copies aren&apos;t routinely given. If your coronary calcium score is high, that may mean you need more aggressive treatment of your heart attack risk factors, such as medications or lifestyle changes. Your doctor may also recommend more-invasive tests, such as coronary angiography, based on your scan results. 
+&lt;/p&gt;
+&lt;p&gt;
+The theory behind using heart scans is that the more calcification you have, the worse your heart disease. But even having very small amounts of calcium might indicate that you could go on to develop heart disease unless you take aggressive measures to stop it, such as eating a healthier diet, reducing your cholesterol and quitting smoking. 
+&lt;/p&gt;
+&lt;p&gt;
+Having calcium in your coronary arteries may not necessarily mean that you have heart disease. It&apos;s possible you could have false-positive results, meaning there&apos;s an error on the scan. That means you might get unnecessary and invasive tests, such as coronary angiography, that could cause you to worry needlessly about your health. 
+&lt;/p&gt;
+&lt;p&gt;
+The flip side is also true: If a heart scan shows your arteries are free of calcium, it doesn&apos;t necessarily mean you don&apos;t have heart disease. The plaques that build up in your arteries are initially soft and only become hard and calcified over time. So you can still have significant plaques clogging your arteries, and the scan won&apos;t detect them. These false-negative test results can give you a clean bill of health when you actually have heart disease or are at risk of developing it. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heart scan (coronary calcium scan)
+	</Title>
+	<Abstract>
+		Heart scan (coronary calcium scan) &amp;mdash; Overview covers definition, risks and results of these scans.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,273 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00239
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dislocation/DS00239
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-21
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1979" Title="Dislocation" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0842878A-8A8B-44C0-B17D678FE2727164
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dislocation
+			</MetaKeyword>
+			<MetaKeyword>
+				injured joint
+			</MetaKeyword>
+			<MetaKeyword>
+				joint injury
+			</MetaKeyword>
+			<MetaKeyword>
+				dislocated shoulder
+			</MetaKeyword>
+			<MetaKeyword>
+				dislocated finger
+			</MetaKeyword>
+			<MetaKeyword>
+				knee dislocation
+			</MetaKeyword>
+			<MetaKeyword>
+				shoulder dislocation
+			</MetaKeyword>
+			<MetaKeyword>
+				dislocated hip
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A dislocation is an injury to a joint &amp;mdash; a place where two or more of your bones come together &amp;mdash; in which the ends of your bones are forced from their normal positions. This injury temporarily deforms and immobilizes your joint and may result in sudden and severe pain.
+&lt;/p&gt;
+&lt;p&gt;
+Dislocations may occur in your major joints &amp;mdash; shoulder, hip, knee, elbow and ankle &amp;mdash; or in the smaller joints in your fingers, thumbs and toes. 
+&lt;/p&gt;
+&lt;p&gt;
+If you suspect a dislocation, seek prompt medical attention to return your bones to their proper positions without damaging your joint. When treated properly, most dislocations return to normal function after several weeks of rest and rehabilitation. However, some joints, such as your shoulder, have an increased risk of repeat dislocation.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a dislocated shoulder 
+" Caption="A dislocation is an injury to your joint in which the ends of your bones are forced from their normal positions. Your shoulder, which is a ball-and-socket joint, is a common site for dislocation. The ball is your upper arm bone (humerus), and the socket is part of your shoulder blade (scapula). In a shoulder dislocation, these two bones are forced from their normal positions.
+" Height="60" Title="Shoulder dislocation" URI="/images/image_popup/thumbs/r7_shoulderdislocationthu.jpg" Width="60" />
+				<Image Alt="Illustration of a dislocated shoulder 
+" Caption="A dislocation is an injury to your joint in which the ends of your bones are forced from their normal positions. Your shoulder, which is a ball-and-socket joint, is a common site for dislocation. The ball is your upper arm bone (humerus), and the socket is part of your shoulder blade (scapula). In a shoulder dislocation, these two bones are forced from their normal positions.
+" Height="387" Title="Shoulder dislocation" URI="/images/image_popup/r7_shoulderdislocation.jpg" Width="400" />
+				<HTML>
+					A dislocation is an injury to your joint in which the ends of your bones are forced from their normal positions. Your shoulder, which is a ball-and-socket joint, is a common site for dislocation. The ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A dislocated joint may be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Visibly deformed or out of place&lt;/li&gt;
+	&lt;li&gt;Swollen or discolored&lt;/li&gt;
+	&lt;li&gt;Intensely painful&lt;/li&gt;
+	&lt;li&gt;Immovable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also experience tingling or numbness near the injury &amp;mdash; such as in your foot for a dislocated knee or in your hand for a dislocated elbow.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It can be difficult to tell a broken bone from a dislocated bone. If you or your child appears to have either type of injury, get medical help right away. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re waiting for medical attention: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t move the joint.&lt;/strong&gt; Splint or sling the affected joint in its current position. Don&apos;t try to move a dislocated joint or force it back into place. This can damage the joint and its surrounding muscles, ligaments, nerves and even blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice the injured joint.&lt;/strong&gt; Applying ice to the injured joint can help reduce pain and swelling by controlling internal bleeding and the buildup of fluids in and around the injured joint.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Causes of dislocations include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sports injuries.&lt;/strong&gt; Dislocations can occur in contact sports, such as football and hockey, and in sports that may involve falls, such as downhill skiing, gymnastics and volleyball. Basketball players and football players also commonly dislocate joints in their fingers and hands by accidentally striking the ball, the ground or another player.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma not related to sports.&lt;/strong&gt; A hard blow to a joint during a motor vehicle accident is a common cause of dislocation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; You may dislocate a joint during a fall.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for a joint dislocation include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Susceptibility to falls.&lt;/strong&gt; Experiencing a fall exposes you to the possibility of a dislocated joint, if you use your arms to brace for impact or if you land forcefully on a body part such as your hip or shoulder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Some people are born with ligaments that are looser and more prone to injury than those of most people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports participation.&lt;/strong&gt; Many dislocations occur during participation in high-impact or contact sports, such as gymnastics, wrestling, basketball and football.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Motor vehicle accidents.&lt;/strong&gt; These are the most common cause of hip dislocations, but you can greatly reduce your risk of injury by wearing a seat belt.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a joint dislocation may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tearing of the muscles, ligaments and tendons that reinforce the injured joint&lt;/li&gt;
+	&lt;li&gt;Nerve or blood vessel damage in or around your joint&lt;/li&gt;
+	&lt;li&gt;Susceptibility to re-injury if you have a severe dislocation or repeated dislocations&lt;/li&gt;
+	&lt;li&gt;Development of arthritis in the affected joint as you age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If ligaments or tendons that support your injured joint have been stretched or torn, or if nerves or blood vessels surrounding the joint have been damaged, you may need surgery to repair these tissues. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Besides physically examining your injury, your doctor may order the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; An X-ray of your joint is used to confirm the dislocation and may reveal broken bones or other damage to your joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRI.&lt;/strong&gt; Magnetic resonance imaging (MRI) can help your doctor assess damage to the soft tissue structures around a dislocated joint.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of the dislocation depends on the site and severity of your injury and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduction.&lt;/strong&gt; During this process, your doctor may try some gentle maneuvers to help your bones back into position. Depending on the amount of pain and swelling, you may need a local anesthetic or even a general anesthetic before manipulation of your bones. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immobilization.&lt;/strong&gt; After your bones are back in their right positions, your doctor may immobilize your joint with a splint or sling for several weeks. How long you wear the splint or sling depends on the nature and location of your dislocation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain medication.&lt;/strong&gt; After the reduction process, any severe pain should improve. But if pain continues, your doctor may also prescribe a pain reliever or a muscle relaxant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; You may need surgery if your blood vessels or nerves are damaged or if your doctor can&apos;t move your dislocated bones back into their correct positions. Surgery may also be necessary if you have had recurring dislocations, especially of your shoulder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rehabilitation.&lt;/strong&gt; After your splint or sling is removed, you&apos;ll begin a gradual rehabilitation program designed to restore your joint&apos;s range of motion and strength.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some dislocations, such as the hip, may need several months to heal.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had a fairly simple dislocation without major nerve or tissue damage, your joint likely will return to a near-normal or fully normal condition. But trying to return to your pre-injury state too soon from such an injury may cause you to re-injure the joint or to dislocate it again.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Try these steps to help ease discomfort and encourage healing after being treated for a dislocation injury: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest your dislocated joint.&lt;/strong&gt; Don&apos;t repeat the specific action that caused your injury, and try to avoid painful movements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply ice and heat.&lt;/strong&gt; Putting ice on your injured joint helps reduce inflammation and pain. Use a cold pack, a bag of frozen vegetables or a towel filled with ice cubes for 15 to 20 minutes at a time. Do this while you&apos;re awake every couple of hours for the first day or two. After about two or three days, when the pain and inflammation have improved, hot packs or a heating pad may help relax tightened and sore muscles. Limit heat applications to 20 minutes at a time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a pain reliever.&lt;/strong&gt; Over-the-counter (OTC) medications, such as ibuprofen (Advil, Motrin, others), naproxen (Aleve, others) or acetaminophen (Tylenol, others), may help relieve pain. Follow label directions and stop taking the drugs when the pain improves. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain the range of motion in your joint.&lt;/strong&gt; After one or two days, do some gentle exercises as directed by your doctor or physical therapist to help maintain range of motion in your injured joint. Total inactivity can cause stiff joints.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent a dislocation: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take precautions to avoid falls.&lt;/strong&gt; Get your eyes checked on a regular basis, and if you&apos;re taking medications, ask your doctor if any of those drugs have the potential to make you dizzy. Also, be sure your home is well lighted and that you remove any potential tripping hazards from the areas where you walk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear the suggested protective gear&lt;/strong&gt; when you play contact sports.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoiding recurrence&lt;br /&gt;
+&lt;/strong&gt;Once you&apos;ve dislocated a joint, you may be more susceptible to future dislocations. To avoid a recurrence, follow the specific strength and stability exercises that you and your doctor have discussed for your injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dislocation
+	</Title>
+	<Abstract>
+		Dislocation &amp;mdash; Comprehensive overview covers causes, treatment of this injury to hip, knee, other joints.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00597" LinkType="Internal" ObjectID="DAB3E98C-4CAE-45DA-93CBD8FE22A74B73" Title="Dislocated shoulder" Url="http://www.mayoclinic.com/health/dislocated-shoulder/DS00597" />
+		<LinkItem ContentType="Disease" DocID="DS01165" LinkType="Internal" ObjectID="D9FC491E-0687-1E90-97C154D2DB39BA0F" Title="Dislocated elbow" Url="http://www.mayoclinic.com/health/dislocated-elbow/DS01165" />
+		<LinkItem ContentType="FirstAid" DocID="FA00009" LinkType="Internal" ObjectID="E539B15B-A3E8-416A-A183C202B68B6BBF" Title="Dislocation: First aid" Url="http://www.mayoclinic.com/health/first-aid-dislocation/FA00009" />
+	</RelatedLinksBox>
+</Disease>

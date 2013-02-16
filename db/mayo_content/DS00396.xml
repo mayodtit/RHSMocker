@@ -1,0 +1,348 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00396
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyperparathyroidism/DS00396
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-13
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1309" Title="Parathyroid">
+						<Keyword MCVID="2459" Title="Hyperparathyroidism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0487CA33-EE6D-4E87-93CB56C658CA5FB5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hyperparathyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				parathyroid glands
+			</MetaKeyword>
+			<MetaKeyword>
+				calcium
+			</MetaKeyword>
+			<MetaKeyword>
+				parathyroid hormone
+			</MetaKeyword>
+			<MetaKeyword>
+				hypercalcemia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperparathyroidism is an excess of parathyroid hormone in the bloodstream due to overactivity of one or more of the body&apos;s four parathyroid glands. These oval, grain-of-rice-sized glands are located in your neck. The parathyroid glands produce parathyroid hormone, which helps maintain an appropriate balance of calcium in the bloodstream and in tissues that depend on calcium for proper functioning. 
+&lt;/p&gt;
+&lt;p&gt;
+Two types of hyperparathyroidism exist. In primary hyperparathyroidism, an enlargement of one or more of the parathyroid glands causes overproduction of the hormone resulting in high levels of calcium in the blood (hypercalcemia), which can cause a variety of health problems. Secondary hyperparathyroidism is a result of another disease that causes low levels of calcium in the body. Surgery is the most common treatment for hyperparathyroidism. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperparathyroidism is often diagnosed before signs or symptoms of the disorder are apparent. When symptoms do occur, they are the result of damage or dysfunction in other organs or tissues due to high calcium levels circulating in the blood or too little calcium in bones. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms may be so mild and nonspecific that they don&apos;t seem at all related to parathyroid function, or they may be severe. The range of signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fragile bones that easily fracture (osteoporosis)&lt;/li&gt;
+	&lt;li&gt;Kidney stones&lt;/li&gt;
+	&lt;li&gt;Excessive urination&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;Tiring easily or weakness&lt;/li&gt;
+	&lt;li&gt;Depression or forgetfulness&lt;/li&gt;
+	&lt;li&gt;Bone and joint pain&lt;/li&gt;
+	&lt;li&gt;Frequent complaints of illness with no apparent cause&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or loss of appetite &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if you have any signs or symptoms of hyperparathyroidism. These symptoms could be caused by any number of disorders, including some with serious complications. It&apos;s important to get a prompt, accurate diagnosis and appropriate treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperparathyroidism is caused by factors that increase the production of parathyroid hormone. The parathyroid glands maintain proper levels of both calcium and phosphorus in your body by turning the secretion of parathyroid hormone (PTH) off or on, much as a thermostat controls a heating system to maintain a constant air temperature. Vitamin D also is involved in regulating the amount of calcium in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, this balancing act works well. When calcium levels in your blood fall too low, your parathyroid glands secrete enough PTH to restore the balance. PTH raises calcium levels by releasing calcium from your bones and increasing the amount of calcium absorbed from your small intestine. When blood calcium levels are too high, the parathyroid glands produce less PTH. But sometimes one or more of these glands produce too much hormone, leading to abnormally high levels of calcium (hypercalcemia) and low levels of phosphorus in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+The mineral calcium is best known for its role in keeping your teeth and bones healthy. But calcium has other functions. It aids in the transmission of signals in nerve cells, and it&apos;s involved in muscle contraction. Phosphorus, another mineral, works in conjunction with calcium in these areas. 
+&lt;/p&gt;
+&lt;p&gt;
+The disorder can generally be divided into two types based on the cause. Hyperparathyroidism may occur because of a problem with the parathyroid glands themselves (primary hyperparathyroidism) or because of another disease that affects the glands&apos; function (secondary hyperparathyroidism). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary hyperparathyroidism&lt;/strong&gt;&lt;br /&gt;
+Primary hyperparathyroidism occurs because of some problem with one or more of the four parathyroid glands: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A noncancerous growth (adenoma) on a gland is the most common cause.&lt;/li&gt;
+	&lt;li&gt;Enlargement (hyperplasia) of two or more parathyroid glands accounts for most other cases.&lt;/li&gt;
+	&lt;li&gt;A cancerous (malignant) tumor is a rare cause of primary hyperparathyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Primary hyperparathyroidism usually occurs randomly, but some people inherit a gene that causes the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary hyperparathyroidism&lt;/strong&gt;&lt;br /&gt;
+Secondary hyperparathyroidism is the result of another condition that lowers calcium levels. Therefore, your parathyroid glands overwork to compensate for the loss of calcium. Factors that may contribute to secondary hyperparathyroidism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Severe calcium deficiency.&lt;/strong&gt; Your body may not get enough calcium from your diet, often because your digestive system doesn&apos;t absorb the calcium you consume.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe vitamin D deficiency.&lt;/strong&gt; Vitamin D helps maintain appropriate levels of calcium in the blood, and it helps your digestive system absorb calcium from your food. Your body produces vitamin D when your skin is exposed to sunlight, and you consume some vitamin D in food. If you don&apos;t get enough vitamin D, then calcium levels may drop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic kidney failure.&lt;/strong&gt; Your kidneys convert vitamin D into a form that your body can use. If your kidneys function poorly, useable vitamin D may decline and calcium levels drop. Chronic kidney failure is the most common cause of secondary hyperparathyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at an increased risk of primary hyperparathyroidism if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are a woman who has gone through menopause&lt;/li&gt;
+	&lt;li&gt;Have had prolonged, severe calcium or vitamin D deficiency&lt;/li&gt;
+	&lt;li&gt;Have a rare, inherited disorder, such as multiple endocrine neoplasia, type I, which usually affects multiple glands&lt;/li&gt;
+	&lt;li&gt;Have had radiation treatment for cancer that has exposed your neck to radiation&lt;/li&gt;
+	&lt;li&gt;Have taken lithium, a drug most often used to treat bipolar disorder&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of hyperparathyroidism are primarily related to the long-term effect of too little calcium in your bones and too much calcium circulating in your bloodstream. Common complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; The loss of calcium often results in osteoporosis, or weak, brittle bones that fracture easily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney stones.&lt;/strong&gt; The excess of calcium in your blood may cause small, hard deposits of calcium and other substances to form in your kidneys. A kidney stone usually causes significant pain as it passes through the urinary tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; Although the exact cause-and-effect link is unclear, high calcium levels are associated with cardiovascular conditions, such as high blood pressure (hypertension) and certain types of heart disease. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neonatal hyperparathyroidism.&lt;/strong&gt; Severe, untreated hyperparathyroidism in pregnant women may cause dangerously low levels of calcium in newborns.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, elevated calcium is detected by blood tests your doctor has ordered as part of a routine screening, a diagnostic workup for an unrelated condition, or a diagnostic workup to identify the cause of very general symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about test results if they show you have high levels of calcium. Questions you might ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have hyperparathyroidism?&lt;/li&gt;
+	&lt;li&gt;What test do I need to confirm the diagnosis or determine the cause?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist in hormone disorders (endocrinologist)?&lt;/li&gt;
+	&lt;li&gt;If I have hyperparathyroidism, do you recommend surgery?&lt;/li&gt;
+	&lt;li&gt;What alternatives do I have to surgery?&lt;/li&gt;
+	&lt;li&gt;Do you have printed material about hyperparathyroidism that I can take home with me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In order to understand the effect of hyperparathyroidism on your overall health, your doctor may ask you questions about possible mild signs or symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Aches and pains&lt;/li&gt;
+	&lt;li&gt;General feeling of being unwell&lt;/li&gt;
+	&lt;li&gt;Forgetfulness&lt;/li&gt;
+	&lt;li&gt;Excessive urination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may ask you additional questions about what medications you&apos;re taking and what your diet is like to help determine if you get adequate amounts of calcium and vitamin D. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+If the result of a blood test indicates you have elevated calcium in your blood, your doctor will likely repeat the test to confirm the results after you have not eaten for a period of time (fasted). A number of conditions can raise calcium levels, but your doctor can make a diagnosis of hyperparathyroidism if blood tests show you also have elevated parathyroid hormone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+After making a diagnosis of hyperparathyroidism, your doctor will likely order additional tests to rule out possible secondary causes, to identify possible complications and to judge the severity of the condition. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone mineral density test (bone densitometry).&lt;/strong&gt; The most common test to measure bone mineral density is dual energy X-ray absorptiometry, or a DXA scan. This test uses special X-ray devices to measure how many grams of calcium and other bone minerals are packed into a segment of bone. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests.&lt;/strong&gt; A 24-hour collection of urine can provide information on how well your kidneys function and how much calcium is excreted in your urine. This test may help in judging the severity of hyperparathyroidism or diagnosing a kidney disorder causing hyperparathyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests of kidneys.&lt;/strong&gt; Your doctor may order X-rays or other imaging tests of your abdomen to determine if you have kidney stones or other kidney abnormalities. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests before surgery&lt;/strong&gt;&lt;br /&gt;
+If your doctor recommends surgery, he or she will likely use a combination of two imaging tests to locate the parathyroid gland or glands that are causing problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Ultrasound uses sound waves to create images of your parathyroid glands and surrounding tissue. A small device held against your skin (transducer) emits high-pitched sound waves and records the sound wave echoes as they reflect off internal structures. A computer converts the echoes into images on a monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sestamibi scan.&lt;/strong&gt; Sestamibi is a specially designed radioactive compound that is absorbed by overactive parathyroid glands and can be detected on computerized tomography (CT) scans. A small dose of the compound is injected into your bloodstream before the imaging test is done. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Watchful waiting&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend no treatment and regular monitoring if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your calcium levels are only slightly elevated&lt;/li&gt;
+	&lt;li&gt;Your kidneys are functioning normally &lt;/li&gt;
+	&lt;li&gt;Your bone density is normal or only slightly below normal &lt;/li&gt;
+	&lt;li&gt;You have no other symptoms that may improve with treatment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you choose this watch-and-wait approach, you&apos;ll likely need a test to check your blood-calcium levels at least twice a year and have other monitoring tests done at least once a year. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery &lt;/strong&gt;&lt;br /&gt;
+Surgery is the most common treatment for primary hyperparathyroidism and provides a cure in at least 90 percent of all cases. A surgeon will remove only those glands that are enlarged or have a tumor (adenoma). If all four glands are affected, a surgeon will likely remove only three glands and perhaps a portion of the fourth &amp;mdash; leaving some functioning parathyroid tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery may be done as an outpatient procedure, allowing you to go home the same day. In such cases, the surgery is done through very small incisions in the neck, and you receive only local anesthetics. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications from surgery aren&apos;t common. Risks include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Damage to nerves controlling the vocal cords &lt;/li&gt;
+	&lt;li&gt;Long-term low calcium levels requiring the use of calcium and vitamin D supplements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Drugs&lt;/strong&gt;&lt;br /&gt;
+Medications to treat hyperparathyroidism include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcimimetics.&lt;/strong&gt; A calcimimetic is a drug that mimics calcium circulating in the blood. Therefore, the drug may trick the parathyroid glands into releasing less parathyroid hormone. This drug is sold as cinacalcet (Sensipar). The Food and Drug Administration approved cinacalcet to treat hyperparathyroidism caused by chronic kidney disease or parathyroid cancer. Some doctors may prescribe it to treat primary hyperparathyroidism, particularly if surgery hasn&apos;t successfully cured the disorder or a person isn&apos;t a good candidate for surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone replacement therapy.&lt;/strong&gt; For women who have gone through menopause and have signs of osteoporosis, hormone replacement therapy may help bones retain calcium. This treatment, usually a combination estrogen and progestin, doesn&apos;t address the underlying problems with the parathyroid glands. Prolonged use of hormone replacement therapy can increase the risk of cardiovascular disease and some cancers. Work with your doctor to evaluate the risks and benefits to help you decide what&apos;s best for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bisphosphonates.&lt;/strong&gt; Bisphosphonates also prevent the loss of calcium from bones and may lessen osteoporosis caused by hyperparathyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you and your doctor have chosen to monitor, rather than treat, your hyperparathyroidism, the following suggestions can help prevent complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor how much calcium and vitamin D you get in your diet.&lt;/strong&gt; The Institute of Medicine recommends 1,000 milligrams (mg) of calcium a day for adults ages 19 to 50 and men ages 51 to 70. That calcium recommendation increases to 1,200 mg a day if you&apos;re a woman age 51 or older or a man age 71 or older. The Institute of Medicine also recommends 600 international units (IUs) of vitamin D a day for adults ages 19 to 70 and 800 IUs a day for adults age 71 and older. Talk to your doctor about dietary guidelines that are appropriate for you. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water.&lt;/strong&gt; Drink six to eight glasses of water daily to lessen the risk of kidney stones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Regular exercise, including strength training, helps maintain strong bones. Talk to your doctor about what type of exercise program is best for you. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Smoking may increase bone loss as well as increase your risk of a number of serious health problems. Talk to your doctor about the best ways to quit. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid calcium-raising drugs.&lt;/strong&gt; Certain medications, including some diuretics and lithium, can raise calcium levels. If you take such drugs, ask your doctor whether another medication may be appropriate for you. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hyperparathyroidism
+	</Title>
+	<Abstract>
+		Hyperparathyroidism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this disorder of the parathyroid glands.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02182" LinkType="Internal" ObjectID="CC7E53F6-98D8-CA08-60C91AF082F28449" Title="Vitamin D deficiency" Url="http://www.mayoclinic.com/health/vitamin-d-deficiency/AN02182" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00304" LinkType="Internal" ObjectID="9ADB3E04-E7FF-0DBD-15CED708B69B3071" Title="Bone density test" Url="http://www.mayoclinic.com/health/bone-density-test/MY00304" />
+		<LinkItem ContentType="Article" DocID="HQ01710" LinkType="Internal" ObjectID="97483C95-AD56-46CE-ADEAE6B6E90A1C15" Title="Strength training: Get stronger, leaner, healthier" Url="http://www.mayoclinic.com/health/strength-training/HQ01710" />
+		<LinkItem ContentType="Article" DocID="NU00283" LinkType="Internal" ObjectID="1488D60D-E694-4EE6-A0DFA79E4CEF5FD3" Title="Water: How much should you drink every day?" Url="http://www.mayoclinic.com/health/water/NU00283" />
+		<LinkItem ContentType="Disease" DocID="DS00976" LinkType="Internal" ObjectID="7F6E26DA-E7FF-0DBD-175E46B753BBA497" Title="Hypercalcemia" Url="http://www.mayoclinic.com/health/hypercalcemia/DS00976" />
+	</RelatedLinksBox>
+</Disease>

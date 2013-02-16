@@ -1,0 +1,200 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00553
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00553
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			71B618D2-3FFF-4670-BADEF4402C5E65E7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Southwestern potato skins
+	</Title>
+	<Abstract>
+		Southwestern potato skins &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Serve these potato skins, which are a very good source of iron, vitamin B-6 and fiber, with chunky salsa. Two tablespoons of salsa adds less than 10 calories. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Preheat the oven to 450 F. Lightly coat a baking sheet with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+Scrub potatoes and prick each several times with a fork. Microwave uncovered on high until tender, about 10 minutes. Remove the potatoes from the microwave and place on a wire rack to cool. When cool to the touch, cut each potato in half lengthwise and scoop out the flesh, leaving about 1/4 inch of the flesh attached to the skin. (Save potato flesh for another meal.) 
+&lt;/p&gt;
+&lt;p&gt;
+In a small bowl, whisk together the olive oil, chili powder and hot sauce. Brush the olive oil mixture on the insides of the potato skins. Cut each half of the potato skin in half again crosswise. Place the potatoes onto the baking sheet. 
+&lt;/p&gt;
+&lt;p&gt;
+In a small bowl gently mix together the turkey bacon, tomato and onions. Fill each potato skin with this mixture and sprinkle each with cheese. 
+&lt;/p&gt;
+&lt;p&gt;
+Bake until the cheese is melted and the potato skins are heated through, about 10 minutes. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;6 large baking potatoes&lt;/li&gt;
+	&lt;li&gt;1 teaspoon olive oil&lt;/li&gt;
+	&lt;li&gt;1 teaspoon chili powder&lt;/li&gt;
+	&lt;li&gt;1/8 teaspoon Tabasco sauce&lt;/li&gt;
+	&lt;li&gt;6 slices turkey bacon, cooked until crisp, chopped&lt;/li&gt;
+	&lt;li&gt;1 medium tomato, diced&lt;/li&gt;
+	&lt;li&gt;2 tablespoons sliced green onions&lt;/li&gt;
+	&lt;li&gt;1/2 cup shredded cheddar cheese&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables" />
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				181
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				28 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				20 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				5 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				4 wedges
+			</Servingsize>
+			<Sodium Label="Sodium">
+				199 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Appetizers
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

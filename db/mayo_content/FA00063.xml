@@ -1,0 +1,265 @@
+<FirstAid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FirstAid.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			FirstAid
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FA00063
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/first-aid-fever/FA00063
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-17
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3924" Title="General body">
+					<Keyword MCVID="3927" Title="Fever" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D510CB2E-2D39-4E4B-8B37F894D4A4D06C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fever
+			</MetaKeyword>
+			<MetaKeyword>
+				sick child
+			</MetaKeyword>
+			<MetaKeyword>
+				first aid fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Fever is a sign of a variety of medical conditions, including infection. Your normal temperature may differ slightly from the average body temperature of 98.6 F (37 C). 
+&lt;/p&gt;
+&lt;p&gt;
+For young children and infants &amp;mdash; especially newborns &amp;mdash; even slightly elevated temperatures may indicate a serious illness. For adults, a fever usually isn&apos;t dangerous until it reaches 103 F (39.4 C) or higher. 
+&lt;/p&gt;
+&lt;p&gt;
+For adults, don&apos;t treat fevers below 102 F (38.9 C) with any medications unless your doctor tells you to. If you have a fever of 102 F (38.9 C) or higher, your doctor may suggest taking an over-the-counter medication, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others). 
+&lt;/p&gt;
+&lt;p&gt;
+Adults also may use aspirin, but don&apos;t give aspirin to children or teenagers under the age of 19. It may trigger a rare, but potentially fatal, disorder known as Reye&apos;s syndrome. Also, don&apos;t give ibuprofen to infants younger than 6 months of age. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;2&quot;&gt;Fahrenheit-Celsius conversion table&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;Fahrenheit&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Celsius&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;105&lt;/td&gt;
+			&lt;td&gt;40.5&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;104&lt;/td&gt;
+			&lt;td&gt;40.0&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;103&lt;/td&gt;
+			&lt;td&gt;39.4&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;102&lt;/td&gt;
+			&lt;td&gt;38.9&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;101&lt;/td&gt;
+			&lt;td&gt;38.3&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;100&lt;/td&gt;
+			&lt;td&gt;37.7&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;99&lt;/td&gt;
+			&lt;td&gt;37.2&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;98&lt;/td&gt;
+			&lt;td&gt;36.6&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;97&lt;/td&gt;
+			&lt;td&gt;36.1&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;96&lt;/td&gt;
+			&lt;td&gt;35.5&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;How to take a temperature&lt;/strong&gt; &lt;br /&gt;
+Most thermometers have digital readouts. Some take the temperature quickly from the ear canal and can be especially useful for young children and older adults. Other thermometers can be used rectally, orally or under the arm (axillary). 
+&lt;/p&gt;
+&lt;p&gt;
+If you use a digital thermometer, be sure to read the instructions so that you know what the beeps mean and when to read the thermometer. Under normal circumstances, temperatures tend to be highest around 4 to 6 p.m. and lowest around 6 a.m. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the potential for mercury exposure or ingestion, glass mercury thermometers have been phased out and are no longer recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rectally (for infants)&lt;/strong&gt; &lt;br /&gt;
+To take your child&apos;s temperature rectally: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place a dab of petroleum jelly or other lubricant on the thermometer bulb.&lt;/li&gt;
+	&lt;li&gt;Lay your child on his or her stomach.&lt;/li&gt;
+	&lt;li&gt;Carefully insert the bulb one-half inch to one inch into the rectum.&lt;/li&gt;
+	&lt;li&gt;Hold the thermometer and child still for about one minute, until you hear a beep. To avoid injury, don&apos;t let go of the thermometer while it&apos;s inside your child.&lt;/li&gt;
+	&lt;li&gt;Remove the thermometer and read the temperature as recommended by the manufacturer. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Taking a rectal temperature is also an option for older adults when taking an oral temperature is not possible. 
+&lt;/p&gt;
+&lt;p&gt;
+A rectal temperature reading is generally 1 degree Fahrenheit (about 0.5 degree Celsius) higher than an oral reading. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Orally&lt;/strong&gt; &lt;br /&gt;
+To take your temperature orally: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place the thermometer bulb under your tongue&lt;/li&gt;
+	&lt;li&gt;Close your mouth for the recommended amount of time or until you hear a beep, usually one minute &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Under the arm (axillary)&lt;/strong&gt; &lt;br /&gt;
+Although it&apos;s not the most accurate way to take a temperature, you can also use an oral thermometer for an armpit reading: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Place the thermometer under your arm with your arm down.&lt;/li&gt;
+	&lt;li&gt;Hold your arms across your chest.&lt;/li&gt;
+	&lt;li&gt;Wait about one minute or until you hear a beep.&lt;/li&gt;
+	&lt;li&gt;Remove the thermometer and read the temperature. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To take your child&apos;s axillary temperature, have the child sit in your lap, facing to the side. Place the thermometer under your child&apos;s near arm, which should be against your chest. 
+&lt;/p&gt;
+&lt;p&gt;
+An axillary reading is generally 1 degree Fahrenheit (about 0.5 degree Celsius) lower than an oral reading. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek medical help&lt;/strong&gt; &lt;br /&gt;
+Get medical help for a fever if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A baby younger than 3 months has a rectal temperature of 100.4 F (38 C) or higher, even if your baby doesn&apos;t have other signs or symptoms &lt;/li&gt;
+	&lt;li&gt;A baby older than 3 months has a temperature of 102 F (38.9 C) or higher &lt;/li&gt;
+	&lt;li&gt;A child younger than age 2 has a fever longer than one day, or a child age 2 or older has a fever longer than three days &lt;/li&gt;
+	&lt;li&gt;An adult has a temperature of more than 103 F (39.4 C) or has had a fever for more than three days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek emergency help&lt;/strong&gt; &lt;br /&gt;
+Call your doctor immediately if your child has a fever after being left in a hot car or if a child or adult has any of these signs or symptoms with a fever: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A severe headache &lt;/li&gt;
+	&lt;li&gt;Sore throat &lt;/li&gt;
+	&lt;li&gt;Unusual skin rash &lt;/li&gt;
+	&lt;li&gt;Unusual eye sensitivity to bright light &lt;/li&gt;
+	&lt;li&gt;A stiff neck and pain when the head is bent forward &lt;/li&gt;
+	&lt;li&gt;Mental confusion &lt;/li&gt;
+	&lt;li&gt;Persistent vomiting &lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or chest pain &lt;/li&gt;
+	&lt;li&gt;Extreme listlessness or irritability &lt;/li&gt;
+	&lt;li&gt;Abdominal pain or pain when urinating &lt;/li&gt;
+	&lt;li&gt;Other unexplained symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fever
+	</Title>
+	<Abstract>
+		What first-aid steps to take if you or someone else has a fever.
+	</Abstract>
+	<MobileBody>
+		&lt;p&gt;
+Fever is a sign of a variety of medical conditions, including infection. Your normal temperature may differ slightly from the average body temperature of 98.6 F (37 C). 
+&lt;/p&gt;
+&lt;p&gt;
+For young children and infants, even a slightly elevated temperature may indicate a serious infection. In newborns, either a subnormal temperature or a fever may be a sign of serious illness. For adults, a fever usually isn&apos;t dangerous until it reaches 103 F (39.4 C) or higher. 
+&lt;/p&gt;
+&lt;p&gt;
+For adults, don&apos;t treat fevers below 102 F (38.9 C) with any medications unless your doctor tells you to. If you have a fever of 102 F (38.9 C) or higher, your doctor may suggest taking an over-the-counter medication, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others). 
+&lt;/p&gt;
+&lt;p&gt;
+Adults also may use aspirin, but don&apos;t give aspirin to children. It may trigger a rare, but potentially fatal, disorder known as Reye&apos;s syndrome. Also, don&apos;t give ibuprofen to infants younger than 6 months of age. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek a doctor&lt;/strong&gt; &lt;br /&gt;
+Get medical help for a fever if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A baby younger than 3 months has a rectal temperature of 100.4 F (38 C) or higher, even if the baby doesn&apos;t have other signs or symptoms&lt;/li&gt;
+	&lt;li&gt;A baby older than 3 months has a temperature of 102 F (38.9 C) or higher&lt;/li&gt;
+	&lt;li&gt;A child younger than age 2 has a fever longer than one day, or a child age 2 or older has a fever longer than three days&lt;/li&gt;
+	&lt;li&gt;An adult has a temperature of more than 103 F (39.4 C) or has had a fever for more than three days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek emergency help&lt;/strong&gt; &lt;br /&gt;
+Call your doctor immediately if your child has a fever after being left in a hot car or if a child or adult has any of these signs or symptoms with a fever: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A severe headache&lt;/li&gt;
+	&lt;li&gt;Severe swelling of the throat&lt;/li&gt;
+	&lt;li&gt;Unusual skin rash&lt;/li&gt;
+	&lt;li&gt;Unusual eye sensitivity to bright light&lt;/li&gt;
+	&lt;li&gt;A stiff neck and pain when the head is bent forward&lt;/li&gt;
+	&lt;li&gt;Mental confusion&lt;/li&gt;
+	&lt;li&gt;Persistent vomiting&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or chest pain&lt;/li&gt;
+	&lt;li&gt;Extreme listlessness or irritability&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or pain when urinating&lt;/li&gt;
+	&lt;li&gt;Other unexplained symptoms&lt;/li&gt;
+&lt;/ul&gt;
+	</MobileBody>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Table" DocID="ID00052" LinkType="Internal" ObjectID="D4B6C0FD-E7FF-0DBD-1A596B7BF40D94B8" Title="Fever treatment: Quick guide to treating a fever" Url="http://www.mayoclinic.com/health/fever/ID00052" />
+	</RelatedLinksBox>
+</FirstAid>

@@ -1,0 +1,82 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00356
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00356
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid" />
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3924" Title="General body">
+					<Keyword MCVID="3934" Title="First aid kits" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA58EE41-E7FF-0DBD-1DBB8616EA2AB0E2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				first-aid kit
+			</MetaKeyword>
+			<MetaKeyword>
+				first-aid kits
+			</MetaKeyword>
+			<MetaKeyword>
+				first aid
+			</MetaKeyword>
+			<MetaKeyword>
+				first-aid
+			</MetaKeyword>
+			<MetaKeyword>
+				first aid kit
+			</MetaKeyword>
+			<MetaKeyword>
+				first aid kits
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		First-aid kits: Just in case
+	</Title>
+	<Body>
+		&lt;p&gt;A well-stocked first-aid kit can help you respond effectively to common injuries and emergencies. Keep at least one first-aid kit in your home and one in your car. Store your kits in easy-to-retrieve locations, out of reach of young children. Make sure children old enough to understand the purpose of the kits know where they&apos;re stored. You can buy first-aid kits at many drugstores or assemble your own. Check your first-aid kits at least every three months to be sure the flashlight batteries work and to replace supplies that have expired.&lt;/p&gt;
+	</Body>
+</HealthTip>

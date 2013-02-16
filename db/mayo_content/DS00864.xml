@@ -1,0 +1,429 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00864
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/disorganized-schizophrenia/DS00864
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1572" Title="Psychotic disorders">
+						<Keyword MCVID="2856" Title="Schizophrenia">
+							<Keyword MCVID="4306" Title="Disorganized schizophrenia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0EF2DA04-E7FF-0DBD-1F591700202A15F2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				disorganized schizophrenia
+			</MetaKeyword>
+			<MetaKeyword>
+				schizophrenia
+			</MetaKeyword>
+			<MetaKeyword>
+				schizophrenia subtype
+			</MetaKeyword>
+			<MetaKeyword>
+				hebephrenic schizophrenia
+			</MetaKeyword>
+			<MetaKeyword>
+				grossly disorganized behaviors
+			</MetaKeyword>
+			<MetaKeyword>
+				disorganized thinking
+			</MetaKeyword>
+			<MetaKeyword>
+				flat affect
+			</MetaKeyword>
+			<MetaKeyword>
+				psychosis
+			</MetaKeyword>
+			<MetaKeyword>
+				antipsychotics
+			</MetaKeyword>
+			<MetaKeyword>
+				antipsychotic drugs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Disorganized schizophrenia is one of several types of schizophrenia, a chronic mental illness in which a person loses touch with reality (psychosis). Disorganized schizophrenia is marked by thoughts, speech and behavior that are inappropriate and don&apos;t make sense. 
+&lt;/p&gt;
+&lt;p&gt;
+Disorganized schizophrenia is considered a more severe type of schizophrenia because people with this condition may be unable to carry out routine daily activities, such as bathing and meal preparation. It may be hard to understand what people with disorganized schizophrenia are saying. Also, frustration and agitation may cause them to lash out. 
+&lt;/p&gt;
+&lt;p&gt;
+Disorganized schizophrenia is sometimes known as hebephrenic schizophrenia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of disorganized schizophrenia fall into several categories of disorganized thinking and behaviors, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Disorganized thinking.&lt;/strong&gt; Disorganized thinking causes illogical, nonsensical thought patterns. This disorganization is also noticeable in the way an affected person talks. A person with disorganized thinking may not be able to stay on track in a conversation, instead jumping from one unrelated idea to another, so that it&apos;s impossible to understand what the person is trying to say. Making up words is common. Written communications also are very disorganized.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Grossly disorganized behavior.&lt;/strong&gt; The disorganized behavior common to this type of schizophrenia causes severe problems in an affected person&apos;s ability to function in daily life. Bathing, dressing appropriately or preparing meals may be impossible. Other common issues include confronting others without logical reason, wearing many layers of clothing on a warm day, having a very messy appearance or engaging in sexual behavior in public.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Absent or inappropriate emotional expression.&lt;/strong&gt; A person who lacks emotional expression (flat affect) has a blank face and doesn&apos;t make eye contact or use common body language. Although an affected person may show emotion at times, the person&apos;s range of expression is very limited compared with others. Emotions inappropriate to the situation also are common, such as acting silly or laughing loudly during a serious event.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other signs and symptoms of disorganized schizophrenia&lt;br /&gt;
+&lt;/strong&gt;Although the main symptoms of disorganized schizophrenia are disorganized thinking and behavior, people with this condition may also have some of the other common signs and symptoms of schizophrenia, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having beliefs not based on reality (delusions)&lt;/li&gt;
+	&lt;li&gt;Seeing or hearing things that don&apos;t exist (hallucinations), especially voices&lt;/li&gt;
+	&lt;li&gt;Grimacing&lt;/li&gt;
+	&lt;li&gt;Odd postures&lt;/li&gt;
+	&lt;li&gt;Trouble functioning at school or work&lt;/li&gt;
+	&lt;li&gt;Social isolation&lt;/li&gt;
+	&lt;li&gt;Clumsy, uncoordinated movements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Helping someone who may have disorganized schizophrenia&lt;br /&gt;
+&lt;/strong&gt;If you have a loved one you think may have symptoms of disorganized schizophrenia, have an open and honest discussion about your concerns. You may not be able to force someone to seek professional help, but you can offer encouragement and support and help your loved one find a qualified doctor or mental health provider. 
+&lt;/p&gt;
+&lt;p&gt;
+If your loved one poses a danger to himself or herself or to someone else, you may need to call the police or other emergency responders for help. In some cases, emergency hospitalization may be needed. Laws on involuntary commitment for mental health treatment vary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Suicidal thoughts&lt;br /&gt;
+&lt;/strong&gt;Suicidal thoughts and behavior are common to disorganized schizophrenia. If someone you love is threatening suicide right now, call 911 or your local emergency services number. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Disorganized schizophrenia and other forms of schizophrenia are brain disorders. Genetics and environment likely both play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+Problems with certain naturally occurring brain chemicals called neurotransmitters may contribute to disorganized schizophrenia. Imaging studies show differences in the brain structure of people with schizophrenia, but the significance of these changes is unclear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the precise cause of disorganized schizophrenia isn&apos;t known, certain factors seem to increase the risk of developing or triggering the condition, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a family history of schizophrenia&lt;/li&gt;
+	&lt;li&gt;Exposure to viruses while in the womb&lt;/li&gt;
+	&lt;li&gt;Poor nutrition while in the womb&lt;/li&gt;
+	&lt;li&gt;Stressful life circumstances&lt;/li&gt;
+	&lt;li&gt;Older paternal age&lt;/li&gt;
+	&lt;li&gt;Taking psychoactive drugs during adolescence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of schizophrenia typically develop between the teenage years and the mid-30s, although disorganized schizophrenia may start earlier.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, disorganized schizophrenia can result in severe emotional, behavioral, health, and even legal and financial problems that affect every area of life. Complications that disorganized schizophrenia may cause or be associated with include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Suicidal thoughts and behavior&lt;/li&gt;
+	&lt;li&gt;Self-destructive behavior&lt;/li&gt;
+	&lt;li&gt;Inability to perform daily activities, such as bathing, dressing or preparing meals&lt;/li&gt;
+	&lt;li&gt;Frequent hospitalizations&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Abuse of alcohol, drugs or prescription medications&lt;/li&gt;
+	&lt;li&gt;Poverty&lt;/li&gt;
+	&lt;li&gt;Homelessness&lt;/li&gt;
+	&lt;li&gt;Incarceration&lt;/li&gt;
+	&lt;li&gt;Family conflicts&lt;/li&gt;
+	&lt;li&gt;Inability to work or attend school&lt;/li&gt;
+	&lt;li&gt;Violent crime &amp;mdash; may be a victim or perpetrator&lt;/li&gt;
+	&lt;li&gt;Heart and lung disease related to smoking&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your loved one has signs and symptoms of disorganized schizophrenia, schedule an appointment with your family doctor or mental health provider. After an initial evaluation, your loved one may be referred to a psychiatrist for further evaluation. Join your loved one for these appointments. Your input will help the doctor or mental health provider make an accurate diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To make the most of your loved one&apos;s first appointment, prepare a list of questions in advance. Questions that may be helpful to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you think my loved one has disorganized schizophrenia?&lt;/li&gt;
+	&lt;li&gt;How do you treat disorganized schizophrenia?&lt;/li&gt;
+	&lt;li&gt;How could treatment change things for my loved one?&lt;/li&gt;
+	&lt;li&gt;How could counseling help?&lt;/li&gt;
+	&lt;li&gt;How long will my loved one need treatment?&lt;/li&gt;
+	&lt;li&gt;With treatment, what goals are realistic for my loved one? Will he or she be able to work or to live independently?&lt;/li&gt;
+	&lt;li&gt;What can I and my family do to help my loved one&apos;s treatment succeed?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? Or can you recommend reliable websites?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to your prepared questions, don&apos;t hesitate to ask questions at any time during your appointment if you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During your appointment, your doctor or mental health provider is likely to ask you a number of questions about your loved one&apos;s thoughts, behavior and mood. You may be asked such questions as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What signs and symptoms have you noticed?&lt;/li&gt;
+	&lt;li&gt;When did these signs and symptoms develop?&lt;/li&gt;
+	&lt;li&gt;How have these signs and symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger these signs and symptoms or make them worse?&lt;/li&gt;
+	&lt;li&gt;What impact do these symptoms have on your loved one and on your family&apos;s daily life?&lt;/li&gt;
+	&lt;li&gt;Have any of your loved one&apos;s relatives had a mental illness?&lt;/li&gt;
+	&lt;li&gt;Does your loved one ever talk about suicide or about harming others?&lt;/li&gt;
+	&lt;li&gt;Does your loved one smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Does your loved one use alcohol or recreational drugs? How much?&lt;/li&gt;
+	&lt;li&gt;What medications or over-the-counter herbs and supplements does your loved one take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose disorganized schizophrenia, a doctor or mental health provider typically runs a series of medical and psychological tests and exams. These can help pinpoint a diagnosis, rule out other problems that could be causing symptoms and check for any related complications. 
+&lt;/p&gt;
+&lt;p&gt;
+These exams and tests generally include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; This may include measuring height and weight, checking vital signs, such as heart rate, blood pressure and temperature, listening to the heart and lungs, and examining the abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory tests.&lt;/strong&gt; These may include a complete blood count (CBC), screening for alcohol and drugs, and checking thyroid function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological evaluation.&lt;/strong&gt; A doctor or mental health provider will interview the person with possible schizophrenia about thoughts, feelings and behavior patterns. The provider will ask about symptoms, including when they started, how severe they are, how they affect daily life and whether similar episodes have occurred in the past. The provider will also ask about thoughts of suicide, self-harm or harming others. Talking with family or friends may help the doctor or mental health provider make an accurate diagnosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria for disorganized schizophrenia&lt;br /&gt;
+&lt;/strong&gt;To be diagnosed with disorganized schizophrenia, a person must meet certain symptom criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnostic criteria for disorganized schizophrenia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Disorganized speech&lt;/li&gt;
+	&lt;li&gt;Disorganized behavior&lt;/li&gt;
+	&lt;li&gt;Lack of emotion&lt;/li&gt;
+	&lt;li&gt;Emotion inappropriate for the situation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It can sometimes be difficult to diagnose disorganized schizophrenia, especially because different conditions can have similar symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Disorganized schizophrenia is a chronic condition that requires lifelong treatment, even during periods when symptoms have lifted. People with this condition may feel as if treatment isn&apos;t necessary, and may be tempted to ignore treatment recommendations. But effective treatment can help people with disorganized schizophrenia take control of the condition and enjoy a happier and healthier life.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options are similar for all types of schizophrenia. But the specific treatment approach that&apos;s best for you depends on your particular situation and the severity of your symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment teams&lt;br /&gt;
+&lt;/strong&gt;Disorganized schizophrenia treatment is usually guided by a psychiatrist skilled in treating the condition. But there may be others on the treatment team, as well, because the condition can affect so many areas of life. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment team members may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Family or primary care doctor&lt;/li&gt;
+	&lt;li&gt;Psychiatrist&lt;/li&gt;
+	&lt;li&gt;Psychotherapist&lt;/li&gt;
+	&lt;li&gt;Pharmacist&lt;/li&gt;
+	&lt;li&gt;Family members&lt;/li&gt;
+	&lt;li&gt;Case worker&lt;/li&gt;
+	&lt;li&gt;Psychiatric nurse&lt;/li&gt;
+	&lt;li&gt;Social worker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Main treatment options&lt;br /&gt;
+&lt;/strong&gt;The main treatments for disorganized schizophrenia are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medications&lt;/li&gt;
+	&lt;li&gt;Psychotherapy&lt;/li&gt;
+	&lt;li&gt;Hospitalization&lt;/li&gt;
+	&lt;li&gt;Electroconvulsive therapy (ECT)&lt;/li&gt;
+	&lt;li&gt;Vocational skills training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for disorganized&lt;/strong&gt; &lt;strong&gt;schizophrenia&lt;br /&gt;
+&lt;/strong&gt;Medications are a key disorganized schizophrenia treatment. Among the medications most commonly prescribed for disorganized schizophrenia are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;First-generation (typical) antipsychotics.&lt;/strong&gt; These medications are thought to control symptoms by affecting brain chemicals called neurotransmitters. These medications have traditionally been very effective in managing delusions and hallucinations. These medications, however, have frequent and potentially severe neurological side effects, including the possibility of tardive dyskinesia, or involuntary jerking movements. Typical antipsychotics, especially generic versions, are often cheaper than are their newer counterparts, which can be an important consideration when long-term treatment is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Second-generation (atypical) antipsychotics.&lt;/strong&gt; These newer antipsychotic medications are effective at managing hallucinations, delusions and other symptoms, such as loss of motivation and lack of emotion. Atypical antipsychotic medications pose a risk of metabolic side effects, including weight gain, diabetes and high cholesterol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications.&lt;/strong&gt; It&apos;s common to have other mental health issues along with disorganized schizophrenia. Antidepressants can help symptoms of depression. Anti-anxiety medications improve anxiety or agitation. And mood-stabilizing medications may help with aggression or hostility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Choosing a medication&lt;br /&gt;
+&lt;/strong&gt;In general, the goal of treatment with antipsychotic medications is to effectively control signs and symptoms at the lowest possible dose. Which medication is best depends on each person&apos;s individual situation. It can take several weeks after starting a medication to notice an improvement in symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+If one medication doesn&apos;t work well or has intolerable side effects, the treatment team may recommend combining medications, switching to a different medication or adjusting the dosage. 
+&lt;/p&gt;
+&lt;p&gt;
+If your loved one smokes, he or she may need a higher dose of antipsychotic medication because nicotine interferes with these medications. Make sure your loved one&apos;s doctors know about his or her smoking habits.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication side effects and risks&lt;br /&gt;
+&lt;/strong&gt;All antipsychotic medications have side effects and possible health risks. Certain antipsychotic medications may increase the risk of diabetes, weight gain, high cholesterol and high blood pressure, for instance. Others can cause dangerous changes in a person&apos;s white blood cell count or cause health problems in older adults.
+&lt;/p&gt;
+&lt;p&gt;
+If your loved one is being treated for disorganized schizophrenia, talk with the doctor about possible medication side effects and dangerous interactions with other substances. Also be sure to follow the doctor&apos;s recommended scheduled for health checkups.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not safe to make any changes to mental health medications without talking to a doctor. Psychotic symptoms may relapse if medications are stopped. In addition, antipsychotic medication needs to be tapered off, rather than stopped abruptly, to avoid withdrawal symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy for disorganized schizophrenia&lt;br /&gt;
+&lt;/strong&gt;Although medications are a key disorganized schizophrenia treatment, counseling (psychotherapy) also is essential. Psychotherapy may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Individual therapy.&lt;/strong&gt; Psychotherapy with a skilled mental health provider can help teach new ways to cope with the distress and daily life challenges brought on by disorganized schizophrenia. One approach, called cognitive behavioral therapy, has proved to be especially helpful in the treatment of schizophrenia. In cognitive behavioral therapy, a mental health provider helps people with mental health problems recognize &amp;mdash; and change &amp;mdash; harmful ideas and behaviors. As part of this process, the therapist will help the affected person look back on his or her personal history, looking for insights into when, and why, harmful ideas and behaviors formed. Building from this new understanding, the therapist can help start to change those patterns. Psychotherapy can help reduce the severity of symptoms and improve the affected person&apos;s communication skills, relationships, ability to work and motivation to stick to a treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family therapy.&lt;/strong&gt; Family therapy that provides support and education to families may help improve family members&apos; understanding of disorganized schizophrenia, improve family awareness of stressful situations that might trigger a relapse, and increase the affected person&apos;s ability to stick with a treatment plan. Family therapy can also help improve communication, reduce conflict and help family members cope.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization for disorganized&lt;/strong&gt; &lt;strong&gt;schizophrenia&lt;br /&gt;
+&lt;/strong&gt;During crisis periods or times of severe symptoms, hospitalization may be necessary. This can help ensure the safety of the affected person and others, ensure proper nutrition, sleep and hygiene. Partial hospitalization and residential care also may be options.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electroconvulsive therapy (ECT) for disorganized&lt;/strong&gt; &lt;strong&gt;schizophrenia&lt;br /&gt;
+&lt;/strong&gt;Electroconvulsive therapy (ECT) is a procedure in which electric currents are passed through the brain to trigger a brief seizure. This seems to cause changes in brain chemistry that can reduce symptoms of certain mental illnesses such as disorganized schizophrenia. Because ECT can provide significant improvements in symptoms more quickly than can medications or psychotherapy, electroconvulsive therapy may be the best treatment option in some cases.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Social and vocational skills training for disorganized&lt;/strong&gt; &lt;strong&gt;schizophrenia&lt;br /&gt;
+&lt;/strong&gt;Training in social and vocational skills to live independently is an important part of recovery from disorganized schizophrenia. A therapist can teach skills as good hygiene, cooking and better communication. Many communities have programs that can help with jobs, housing, self-help groups and crisis situations.
+&lt;/p&gt;
+&lt;p&gt;
+If your loved one doesn&apos;t have a case manager to help with these services, ask your loved one&apos;s doctors about getting one.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To improve the likelihood that your loved one&apos;s treatment plan will be effective, help him or her:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications as directed.&lt;/strong&gt; If your loved misses or stops taking prescribed medications, schizophrenia symptoms are likely to come back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to warning signs.&lt;/strong&gt; You and your loved one&apos;s care team may have identified things that are likely to trigger disorganized schizophrenia symptoms, cause a relapse or prevent your loved one from carrying out daily activities. Make a plan so that you know what to do if symptoms return. Contact your loved one&apos;s doctor or therapist if you notice any changes in symptoms or how your loved one feels. Involve other family members or friends in watching for warning signs. Addressing schizophrenia symptoms early on can prevent the situation from worsening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid drugs and alcohol.&lt;/strong&gt; Alcohol and illegal drugs can worsen schizophrenia symptoms. Make sure your loved one gets appropriate treatment for a substance abuse problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check first before other medications are started.&lt;/strong&gt; Contact the doctor who&apos;s treating your loved one for disorganized schizophrenia before he or she starts medications prescribed by another doctor or starts any over-the-counter medications, vitamins, minerals or supplements. These can interact with schizophrenia medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with an illness as serious as disorganized schizophrenia can be challenging. Medications can have unwanted side effects, and you may feel angry or resentful about having a condition that requires lifelong treatment. During periods when you feel better, you may be tempted to stop treatment, which can trigger a relapse. Here are some ways to cope with disorganized schizophrenia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Learn about disorganized schizophrenia.&lt;/strong&gt; Education about your condition can empower you and motivate you to stick to your treatment plan.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Support groups for people with schizophrenia can help you reach out to others facing similar challenges. &lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Stay focused on your goals.&lt;/strong&gt; Recovery from disorganized schizophrenia is an ongoing process. Stay motivated by keeping your recovery goals in mind. Remind yourself that you&apos;re responsible for managing your illness and working toward your goals.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Find healthy outlets.&lt;/strong&gt; Explore healthy ways to channel your energy, such as hobbies, exercise and recreational activities.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Learn relaxation and stress management.&lt;/strong&gt; Try such stress-reduction techniques as meditation, yoga or tai chi.&lt;/li&gt;
+	&lt;li class=&quot;doublespace&quot;&gt;&lt;strong&gt;Structure your time.&lt;/strong&gt; Plan your day and activities. Try to stay organized. You may find it helpful to make a list of daily tasks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent disorganized schizophrenia. Some signs of schizophrenia may be present from early childhood or even infancy. Early identification and treatment for people at risk of schizophrenia, perhaps starting in childhood, may help get symptoms under control before serious complications develop and may help improve the long-term outlook. Also, sticking with a treatment plan can help prevent relapses or worsening of disorganized schizophrenia symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Disorganized schizophrenia
+	</Title>
+	<Abstract>
+		Disorganized schizophrenia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this type of schizophrenia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00196" LinkType="Internal" ObjectID="5D4E015A-B256-4F25-B5AFBC00F1B4E886" Title="Schizophrenia" Url="http://www.mayoclinic.com/health/schizophrenia/DS00196" />
+	</RelatedLinksBox>
+</Disease>

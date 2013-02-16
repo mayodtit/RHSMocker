@@ -1,0 +1,321 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00879
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pinched-nerve/DS00879
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-29
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="4278" Title="Pinched nerve" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8A396035-E7FF-0DBD-1E84AAE196E3D14D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pinched nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				compressed nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				carpal tunnel syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				herniated disk
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pinched nerve occurs when too much pressure is applied to a nerve by surrounding tissues &amp;mdash; such as bones, cartilage, muscles or tendons. This pressure disrupts the nerve&apos;s function, causing pain, tingling, numbness or weakness. 
+&lt;/p&gt;
+&lt;p&gt;
+A pinched nerve can occur at several sites in your body. A herniated disk in your lower spine, for example, may put pressure on a nerve root, causing pain that radiates down the back of your leg (sciatica). Likewise, a pinched nerve in your wrist can lead to pain and numbness in your hand and fingers (carpal tunnel syndrome). 
+&lt;/p&gt;
+&lt;p&gt;
+With rest and other conservative treatments, most people recover from a pinched nerve within a few days or weeks. Sometimes, surgery is necessary to relieve pain from a pinched nerve.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing pinched nerve in spine 
+" Caption="A herniated disk in your lower spine may &quot;pinch&quot; a nerve root, causing pain that radiates down the back of your leg (sciatica). 
+" Height="60" Title="Pinched nerve due to herniated disk" URI="/images/image_popup/thumbs/ans7_pinched_nervethu.jpg" Width="60" />
+				<Image Alt="Image showing pinched nerve in spine 
+" Caption="A herniated disk in your lower spine may &quot;pinch&quot; a nerve root, causing pain that radiates down the back of your leg (sciatica). 
+" Height="360" Title="Pinched nerve due to herniated disk" URI="/images/image_popup/ans7_pinched_nerve.jpg" Width="400" />
+				<HTML>
+					A herniated disk in your lower spine may &quot;pinch&quot; a nerve root, causing pain that radiates down the back of your leg (sciatica). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing pinched nerve in wrist 
+" Caption="A pinched median nerve in your wrist can lead to pain, numbness and weakness in your hand and fingers (carpal tunnel syndrome). 
+" Height="60" Title="Pinched median nerve" URI="/images/image_popup/thumbs/ans7_pinched_nerve2thu.jpg" Width="60" />
+				<Image Alt="Image showing pinched nerve in wrist 
+" Caption="A pinched median nerve in your wrist can lead to pain, numbness and weakness in your hand and fingers (carpal tunnel syndrome). 
+" Height="362" Title="Pinched median nerve" URI="/images/image_popup/ans7_pinched_nerve2.jpg" Width="400" />
+				<HTML>
+					A pinched median nerve in your wrist can lead to pain, numbness and weakness in your hand and fingers (carpal tunnel syndrome). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pinched nerve signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Numbness or decreased sensation in the area supplied by the nerve.&lt;/li&gt;
+	&lt;li&gt;Sharp or burning pain, which may radiate outward. When the pinched nerve comes directly from the spinal cord, coughing or sneezing may aggravate the pain.&lt;/li&gt;
+	&lt;li&gt;Tingling, &quot;pins and needles&quot; sensations (paresthesia).&lt;/li&gt;
+	&lt;li&gt;Muscle weakness or twitching in the affected area.&lt;/li&gt;
+	&lt;li&gt;Frequent feeling that a foot or hand has &quot;fallen asleep.&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The problems related to a pinched nerve may be worse when you&apos;re sleeping.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if the signs and symptoms of a pinched nerve last for several days and don&apos;t respond to self-care measures, such as rest and over-the-counter pain relievers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pinched nerve occurs when too much pressure (compression) is applied to a nerve by surrounding tissues. In some cases, this tissue might be bone or cartilage &amp;mdash; such as in the case of a herniated spinal disk that compresses a nerve root. In other cases, muscle or tendons may be the culprits. In the case of carpal tunnel syndrome, a variety of tissues may be responsible for compression of the carpal tunnel&apos;s median nerve, including swollen tendon sheaths within the tunnel, enlarged bone that narrows the tunnel, or a thickened and degenerated ligament. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of conditions may cause tissue to compress a nerve or nerves. Injury, poor posture, osteoarthritis, stress from repetitive job, hobby or sports activities, and obesity are common contributors to or causes of nerve pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+This pressure causes inflammation of the nerve and disrupts the nerve&apos;s function. If a nerve is pinched for only a short time, there&apos;s typically no permanent damage. Once the pressure is relieved, nerve function returns to normal. However, if the pressure continues, chronic pain and permanent nerve damage can occur.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing pinched nerve in spine 
+" Caption="A herniated disk in your lower spine may &quot;pinch&quot; a nerve root, causing pain that radiates down the back of your leg (sciatica). 
+" Height="60" Title="Pinched nerve due to herniated disk" URI="/images/image_popup/thumbs/ans7_pinched_nervethu.jpg" Width="60" />
+				<Image Alt="Image showing pinched nerve in spine 
+" Caption="A herniated disk in your lower spine may &quot;pinch&quot; a nerve root, causing pain that radiates down the back of your leg (sciatica). 
+" Height="360" Title="Pinched nerve due to herniated disk" URI="/images/image_popup/ans7_pinched_nerve.jpg" Width="400" />
+				<HTML>
+					A herniated disk in your lower spine may &quot;pinch&quot; a nerve root, causing pain that radiates down the back of your leg (sciatica). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing pinched nerve in wrist 
+" Caption="A pinched median nerve in your wrist can lead to pain, numbness and weakness in your hand and fingers (carpal tunnel syndrome). 
+" Height="60" Title="Pinched median nerve" URI="/images/image_popup/thumbs/ans7_pinched_nerve2thu.jpg" Width="60" />
+				<Image Alt="Image showing pinched nerve in wrist 
+" Caption="A pinched median nerve in your wrist can lead to pain, numbness and weakness in your hand and fingers (carpal tunnel syndrome). 
+" Height="362" Title="Pinched median nerve" URI="/images/image_popup/ans7_pinched_nerve2.jpg" Width="400" />
+				<HTML>
+					A pinched median nerve in your wrist can lead to pain, numbness and weakness in your hand and fingers (carpal tunnel syndrome). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of experiencing a pinched nerve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Posture.&lt;/strong&gt; Poor posture adds pressure to your spine and nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Women are three times more likely to develop carpal tunnel syndrome, possibly due to having smaller carpal tunnels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone spurs.&lt;/strong&gt; Trauma or a condition that causes bone thickening, such as osteoarthritis, can cause bone spurs. Bone spurs can stiffen the spine as well as narrow the space where your nerves travel, pinching nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatoid arthritis.&lt;/strong&gt; Inflammation caused by rheumatoid arthritis can compress nerves, especially in your joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overuse.&lt;/strong&gt; Jobs or hobbies that require repetitive hand, wrist or shoulder movements, such as assembly line work, increase your likelihood of a pinched nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Excess weight can add pressure to nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Water and weight gain associated with pregnancy can swell nerve pathways, compressing your nerves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Some people appear to be genetically predisposed to conditions that lead to pinched nerves.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet or wear loosefitting clothes in the event you&apos;ll have an imaging exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing&lt;/strong&gt;, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt;, if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For a suspected pinched nerve, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms? Do you feel pain, numbness, tingling or weakness?&lt;/li&gt;
+	&lt;li&gt;Where, specifically, are you feeling these symptoms?&lt;/li&gt;
+	&lt;li&gt;How long have you been experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Is there an activity or position that triggers your symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there an activity or position that relieves your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have a job or hobby that requires you to make repetitive motions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask about your symptoms and conduct a physical examination. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects a pinched nerve, you may undergo some tests. These tests are often completed at the same time and take about one hour: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve conduction study.&lt;/strong&gt; Patch-style electrodes are placed on your skin to stimulate the nerve with a mild electrical impulse. You&apos;ll feel a sensation like an electric shock, which may be uncomfortable. Test results tell your doctor whether you have a damaged nerve. This test may also be called a nerve conduction velocity test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography.&lt;/strong&gt; This test measures the electrical discharges produced in muscles. During the test, a thin needle electrode is placed into the muscle to record electrical activity. You will be asked to rest and contract the muscle, such as by bending your arm. You may feel pain when the needle is inserted, and your muscle may be sore for a few days after the test. Test results tell your doctor if there&apos;s damage to the nerves leading to the muscle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI, a technique that uses a magnetic field and radio waves to create cross-sectional images of your body, may be used if your doctor suspects you have nerve root compression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most frequently recommended treatment for pinched nerve is rest for the affected area. Your doctor will ask you to stop any activities that cause or aggravate the compression. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the location of the pinched nerve, you may need a splint or brace to immobilize the area. If you have carpal tunnel syndrome, your doctor may recommend wearing a splint during the day as well as at night because wrists flex and extend frequently during sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can teach you exercises that strengthen and stretch the muscles in the affected area in order to relieve pressure on the nerve. He or she may also recommend modifications to activities that aggravate the nerve. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Analgesics.&lt;/strong&gt; Nonsteroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve, Anaprox, others), can help relieve pain and alleviate inflammation around the nerve. Your doctor may recommend a prescription-strength NSAID if your pain is severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid injections.&lt;/strong&gt; Injected into the affected area, these can help minimize pain and inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If the pinched nerve doesn&apos;t improve after several weeks to a few months with conservative treatments, surgery to take pressure off the nerve may be necessary. The type of surgery varies depending on the location of the pinched nerve. Surgery may entail removing bone spurs or a part of a herniated disk in the spine, for example, or severing the carpal ligament to allow more room for the nerve to pass through the wrist.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following measures may help you prevent a pinched nerve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Maintain good posture.&lt;/li&gt;
+	&lt;li&gt;Incorporate strength and flexibility exercises into your regular exercise program.&lt;/li&gt;
+	&lt;li&gt;Limit repetitive activities and take frequent breaks when engaging in these activities.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pinched nerve
+	</Title>
+	<Abstract>
+		Pinched nerve &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of compressed nerve.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01984" LinkType="Internal" ObjectID="F5D2615A-9378-7EFD-4CA769AF4362A83A" Title="Carpal tunnel exercises: Can they relieve symptoms?" Url="http://www.mayoclinic.com/health/carpal-tunnel-exercises/AN01984" />
+		<LinkItem ContentType="Video" DocID="MM00584" LinkType="Internal" ObjectID="472957B4-823F-4252-9C196B697717D761" Title="Video: Carpal tunnel syndrome &amp;mdash; results of surgery" Url="http://www.mayoclinic.com/health/carpal-tunnel-syndrome/MM00584" />
+		<LinkItem ContentType="Video" DocID="MM00586" LinkType="Internal" ObjectID="0E08A0B1-7228-485C-BC5B78908FB352C6" Title="Video: Carpal tunnel symptoms &amp;mdash; nonsurgical treatment" Url="http://www.mayoclinic.com/health/carpal-tunnel-syndrome-treatments/MM00586" />
+		<LinkItem ContentType="Disease" DocID="DS00326" LinkType="Internal" ObjectID="CFBC3BC6-FBFF-43DF-85951B77F5A3F8C0" Title="Carpal tunnel syndrome" Url="http://www.mayoclinic.com/health/carpal-tunnel-syndrome/DS00326" />
+	</RelatedLinksBox>
+</Disease>

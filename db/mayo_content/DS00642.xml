@@ -1,0 +1,169 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00642
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/external-compression-headaches/DS00642
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-17
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="2039" Title="Other">
+							<Keyword MCVID="2079" Title="External compression headaches" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			798C3881-2A5D-9994-EB31334A219895F0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				external compression headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				head pain
+			</MetaKeyword>
+			<MetaKeyword>
+				head aches
+			</MetaKeyword>
+			<MetaKeyword>
+				compression headaches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+External compression headaches can occur when any head wear puts continuous pressure on your forehead or scalp.
+&lt;/p&gt;
+&lt;p&gt;
+Common culprits of external compression headaches include tight hats, helmets, headbands and goggles. These headaches are sometimes known by other names that are specific to the type of equipment causing your headache, such as &quot;swim-goggle headache&quot; or &quot;football-helmet headache.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+With external compression headaches, the solution is as obvious as the cause. Simply remove the head wear causing the pressure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The pain of external compression headaches is often described as constant pressure. It hurts most where the object is pressing on your head. As long as the head wear is in place, the pain may get progressively worse.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Because compression headaches go away when you remove whatever object is causing the pressure on your head, it&apos;s necessary to seek further medical attention only if your headache continues after you&apos;ve removed the object. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+External compression headaches are caused by any type of head wear that places pressure on the head &amp;mdash; including tight hats, helmets, headbands and goggles.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+External compression headaches can affect anyone who uses head wear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An external compression headache may trigger a migraine in some people if the object causing pressure is kept in place too long.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To end your headache, remove the head wear that&apos;s causing the pressure. Further treatment is rarely needed.
+&lt;/p&gt;
+&lt;p&gt;
+If you have a history of migraines, wearing certain head wear may trigger an attack that requires migraine medication for relief.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent external compression headaches, skip head wear. If head wear is unavoidable, make sure it fits properly and is positioned carefully. Try various styles and sizes as you look for the most comfortable options. Also, if possible, try to temporarily take off head wear frequently to remove the pressure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		External compression headaches
+	</Title>
+	<Abstract>
+		External compression headaches &amp;mdash; Comprehensive overview covers causes of this easily treated headache.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+	</RelatedLinksBox>
+</Disease>

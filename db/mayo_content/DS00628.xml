@@ -1,0 +1,388 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00628
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/atrial-septal-defect/DS00628
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-14
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="4254" Title="Atrial septal defect" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			34E5B254-2A5D-9994-E77E2A9B8BF664E3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				atrial septal defect
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial septal defects
+			</MetaKeyword>
+			<MetaKeyword>
+				ASD
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in the heart
+			</MetaKeyword>
+			<MetaKeyword>
+				septal defect
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				patent foramen ovale
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in the heart
+			</MetaKeyword>
+			<MetaKeyword>
+				birth defect
+			</MetaKeyword>
+			<MetaKeyword>
+				PFO
+			</MetaKeyword>
+			<MetaKeyword>
+				cyanotic heart defects
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An atrial septal defect (ASD) is a hole in the wall between the two upper chambers of your heart. The condition is present from birth (congenital). Smaller atrial septal defects may close on their own during infancy or early childhood. 
+&lt;/p&gt;
+&lt;p&gt;
+Large and long-standing atrial septal defects can damage your heart and lungs. An adult who has had an undetected atrial septal defect for decades may have a shortened life span from heart failure or high blood pressure in the lungs. Surgery is often necessary to repair atrial septal defects to prevent complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many babies born with atrial septal defects don&apos;t have associated signs or symptoms. In adults, signs or symptoms usually begin by age 30, but in some cases signs and symptoms may not occur until decades later. 
+&lt;/p&gt;
+&lt;p&gt;
+Atrial septal defect symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart murmur, a whooshing sound that can be heard through a stethoscope&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, especially when exercising&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Swelling of legs, feet or abdomen&lt;/li&gt;
+	&lt;li&gt;Heart palpitations or skipped beats&lt;/li&gt;
+	&lt;li&gt;Frequent lung infections&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Bluish skin color&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Contact your doctor if you or your child has any of these signs or symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bluish discoloration of the skin&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Tires easily, especially after activity&lt;/li&gt;
+	&lt;li&gt;Swelling of legs, feet or abdomen&lt;/li&gt;
+	&lt;li&gt;Heart palpitations or skipped beats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These could be symptoms of heart failure or another complication of congenital heart disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors know that heart defects present at birth (congenital) arise from errors early in the heart&apos;s development, but there&apos;s often no clear cause. Genetics and environmental factors may play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+An atrial septal defect allows freshly oxygenated blood to flow from the left upper chamber of the heart (left atrium) into the right upper chamber of the heart (right atrium). There, it mixes with deoxygenated blood and is pumped to the lungs, even though it&apos;s already refreshed with oxygen. If the atrial septal defect is large, this extra blood volume can overfill the lungs and overwork the heart. If not treated, the right side of the heart eventually enlarges and weakens. In some cases, the blood pressure in your lungs increases as well, leading to pulmonary hypertension. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of an atrial septal defect
+" Caption="An atrial septal defect is an abnormal opening between the heart&apos;s upper chambers. It&apos;s a common congenital heart defect.
+" Height="60" Title="Atrial septal defect" URI="/images/image_popup/thumbs/r7_atrialseptdefthu.jpg" Width="60" />
+				<Image Alt="Illustration of an atrial septal defect
+" Caption="An atrial septal defect is an abnormal opening between the heart&apos;s upper chambers. It&apos;s a common congenital heart defect.
+" Height="400" Title="Atrial septal defect" URI="/images/image_popup/r7_atrialseptdef.jpg" Width="400" />
+				<HTML>
+					An atrial septal defect is an abnormal opening between the heart&apos;s upper chambers. It&apos;s a common congenital heart defect.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not known why atrial septal defects occur, but congenital heart defects appear to run in families and sometimes occur with other genetic problems, such as Down syndrome. If you have a heart defect, or you have a child with a heart defect, a genetic counselor can estimate the odds that any future children will have one. 
+&lt;/p&gt;
+&lt;p&gt;
+When the following conditions occur during pregnancy, they can increase your risk of having a baby with a heart defect: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rubella infection.&lt;/strong&gt; Becoming infected with rubella (German measles) while pregnant can increase the risk of fetal heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug or alcohol use or exposure to certain substances.&lt;/strong&gt; Use of certain medications, alcohol or drugs, such as cocaine, during pregnancy can harm the developing fetus. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A small atrial septal defect may never cause any problems. Small atrial septal defects often close during infancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Larger defects can cause mild to life-threatening problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Right-sided heart failure&lt;/li&gt;
+	&lt;li&gt;Heart rhythm abnormalities&lt;/li&gt;
+	&lt;li&gt;Shortened life expectancy&lt;/li&gt;
+	&lt;li&gt;Increased risk of a stroke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common serious complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary hypertension.&lt;/strong&gt; If a large atrial septal defect goes untreated, increased blood flow to your lungs increases the blood pressure in the lung arteries (pulmonary hypertension).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eisenmenger syndrome.&lt;/strong&gt; In rare cases, pulmonary hypertension can cause permanent lung damage, and it becomes irreversible. This complication, called Eisenmenger syndrome, usually develops over many years and occurs only in a small percentage of people with large atrial septal defects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment can prevent or help manage many of these complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Atrial septal defect and pregnancy&lt;/strong&gt;&lt;br /&gt;
+Most women with an atrial septal defect can tolerate pregnancy without any problems. However, having a larger defect or having complications such as heart failure, arrhythmias or pulmonary hypertension can increase your risk of complications during pregnancy. Doctors strongly advise women with Eisenmenger syndrome not to become pregnant because it can endanger the woman&apos;s life. 
+&lt;/p&gt;
+&lt;p&gt;
+The risk of congenital heart disease is higher for children of parents with congenital heart disease, whether in the father or the mother. Anyone with a congenital heart defect, repaired or not, who is considering starting a family should carefully discuss it beforehand with a doctor. Some medications may need to be stopped or adjusted before you become pregnant because they can cause serious problems for a developing fetus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An atrial septal defect may first be detected when a suspicious heart murmur is heard during a routine examination. A heart murmur is an abnormal whooshing sound caused by turbulent blood flow. If your doctor suspects an atrial septal defect, you or your child will likely be referred to a doctor who specializes in disorders of the heart (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For atrial septal defect, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the risks of cardiac catheterization or surgery?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your child first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms get worse when you exercise?&lt;/li&gt;
+	&lt;li&gt;Does anything else seem to make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Is there anything that seems to improve the symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you or does your child have any family history of heart problems?&lt;/li&gt;
+	&lt;li&gt;Do you or does your child have any family history of birth defects?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may first suspect an atrial septal defect during a regular checkup if he or she hears a heart murmur while listening to your heart using a stethoscope. Or an atrial septal defect may be found when an ultrasound exam of the heart (echocardiogram) is done for another reason. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor hears a heart murmur or finds other signs or symptoms of a heart defect, he or she may request one or more of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This is a commonly used test to diagnose an atrial septal defect. And some atrial septal defects are found during an echocardiogram done for another reason. In echocardiography, sound waves produce a video image of the heart. It allows your doctor to see your heart&apos;s chambers and measure their pumping strength. This test also checks heart valves and looks for any signs of heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray image helps your doctor see the condition of your heart and lungs. An X-ray may identify conditions other than a heart defect that may explain your signs or symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This test records the electrical activity of your heart and helps identify heart rhythm problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, a thin, flexible tube (catheter) is inserted into a blood vessel at the groin or arm and guided to your heart. Through catheterization, doctors can diagnose congenital heart defects, test how well your heart is pumping and check the function of your heart valves. Using catheterization, the blood pressure in your lungs also can be measured. Doctors are investigating catheterization techniques to repair heart defects as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI is a technique that uses a magnetic field and radio waves to create 3-D images of your heart and other organs and tissues within your body. Your doctor may request an MRI if echocardiography can&apos;t definitively diagnose an atrial septal defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulse oximetry.&lt;/strong&gt; This painless test measures how well oxygen is reaching your tissues. It helps detect whether oxygenated blood is mixing with deoxygenated blood, which can help diagnose the type of heart defect present. A small clip on your fingertip measures the amount of oxygen in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has an atrial septal defect, your doctor may recommend monitoring it for a period of time to see if it closes on its own, while treating any symptoms with medications. Many atrial septal defects close on their own during childhood. For those that don&apos;t close, some small atrial septal defects don&apos;t cause any problems and may not require any treatment. But many persistent atrial septal defects eventually require surgery to be corrected. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child needs treatment, the timing of it depends on your child&apos;s condition and whether your child has any other congenital heart defects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications won&apos;t repair the hole, but they may be used to reduce some of the signs and symptoms that can accompany an atrial septal defect. Drugs may also be used to reduce the risk of complications after surgery. Medications may include those to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep the heartbeat regular.&lt;/strong&gt; Examples include beta blockers (Lopressor, Inderal) and digoxin (Lanoxin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce the risk of blood clots.&lt;/strong&gt; Anticoagulants, often called blood thinners, can help reduce the chances of developing a blood clot and having a stroke. Anticoagulants include warfarin (Coumadin) and anti-platelet agents, such as aspirin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Many doctors recommend repairing an atrial septal defect diagnosed during childhood to prevent complications as an adult. For adults and children, surgery involves plugging or patching the abnormal opening between the atria. Doctors can do this through two methods: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; A thin tube (catheter) is inserted into a blood vessel in the groin and guided to the heart. Through the catheter, a mesh patch or plug is put into place to close the hole. The heart tissue grows around the mesh, permanently sealing the hole.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Open-heart surgery.&lt;/strong&gt; This type of surgery is done under general anesthesia and requires the use of a heart-lung machine. Through an incision in the chest, surgeons use patches or stitches to close the hole.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical monitoring&lt;/strong&gt;&lt;br /&gt;
+Follow-up care depends on the type of defect and whether other defects are present. For simple atrial septal defects closed during childhood, only occasional follow-up care is needed. For adults, follow-up care may depend on any resulting complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you find out you have a congenital heart defect, or you&apos;ve had surgery to correct one, you may wonder about limitations on activities and other issues. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Having an atrial septal defect usually doesn&apos;t restrict you from activities or exercise. If you have complications, such as heart failure or pulmonary hypertension, you may not be able to do some activities or exercises. Your cardiologist can help you learn what is safe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; A heart-healthy diet based on fruits, vegetables and whole grains &amp;mdash; and low in saturated fat, cholesterol and sodium &amp;mdash; can help you keep your heart healthy. Eating one or two servings of fish a week also is beneficial.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preventing infection.&lt;/strong&gt; Some heart defects, and the repair of defects, create changes to the surface of the heart in which bacteria can become stuck and grow into an infection (infective endocarditis). Atrial septal defects generally aren&apos;t associated with infective endocarditis. But if you have other heart defects in addition to an atrial septal defect, or if you&apos;ve recently had atrial septal defect repair, you may need to take antibiotics before certain dental or surgical procedures.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, atrial septal defects can&apos;t be prevented. If you&apos;re planning to become pregnant, schedule a preconception visit with your health care provider. This visit should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Getting tested for immunity to rubella.&lt;/strong&gt; If you&apos;re not immune, you should be vaccinated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Going over your current health conditions and medications.&lt;/strong&gt; You&apos;ll need to carefully monitor certain health problems during pregnancy. Your doctor also may recommend adjusting or stopping certain medications before you become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reviewing your family medical history.&lt;/strong&gt; If you have a family history of heart defects or other genetic disorders, consider talking with a genetic counselor to determine what the risk might be before getting pregnant.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Atrial septal defect (ASD)
+	</Title>
+	<Abstract>
+		Atrial septal defect (ASD) &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common heart defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS01140" LinkType="Internal" ObjectID="F235977D-08A2-396E-9152C464D454200D" Title="Congenital heart disease in adults" Url="http://www.mayoclinic.com/health/congenital-heart-disease/DS01140" />
+		<LinkItem ContentType="Disease" DocID="DS00727" LinkType="Internal" ObjectID="934C1A15-2A5D-9994-E62A0AD369FFE1FF" Title="Heart murmurs" Url="http://www.mayoclinic.com/health/heart-murmurs/DS00727" />
+		<LinkItem ContentType="Disease" DocID="DS01201" LinkType="Internal" ObjectID="5EC645DA-AB0D-10C2-F546DF339DE11B55" Title="Eisenmenger syndrome" Url="http://www.mayoclinic.com/health/eisenmenger-syndrome/DS01201" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+	</RelatedLinksBox>
+</Disease>

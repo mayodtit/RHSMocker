@@ -1,0 +1,126 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01963
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cochlear-implants/AN01963
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-24
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="2232" Title="Hearing loss">
+							<Keyword MCVID="2671" Title="Age related" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			46B2486B-0A80-66F8-781A01775DCEBD11
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cochlear implants
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing loss
+			</MetaKeyword>
+			<MetaKeyword>
+				deafness
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing aids
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Cochlear implants &amp;mdash; which bypass damaged or nonworking parts of the inner ear &amp;mdash; can improve hearing if you have severe to profound hearing loss. Cochlear implants are electronic devices that convert acoustic sounds into electrical pulses that stimulate the auditory nerve directly. Your auditory nerve carries the signal to your brain, which recognizes the signal as sound. 
+&lt;/p&gt;
+&lt;p&gt;
+If your hearing loss is severe, you may be a candidate for cochlear implants. Cochlear implant candidates generally have great difficulty understanding speech in everyday listening situations &amp;mdash; even with hearing aids. Cochlear implants cannot restore &quot;normal&quot; hearing. But with communication training, children as young as 12 months of age and adults who have lost their hearing can benefit. 
+&lt;/p&gt;
+&lt;p&gt;
+Communication training teaches you how to associate different signals from the cochlear implant with speech and environmental sounds. This process takes time and practice &amp;mdash; from a few months to a period of years &amp;mdash; and results won&apos;t be the same for everyone. Children are generally more adaptable and learn more easily than adults do, so they may achieve the most benefit. 
+&lt;/p&gt;
+&lt;p&gt;
+An audiologist &amp;mdash; a specialist in hearing loss and hearing aids &amp;mdash; and a medical doctor who specializes in disorders of the ears, nose and throat (ENT) can complete an evaluation to determine whether you are a candidate for a cochlear implant. If you are a good candidate for an implant, your audiologist and ENT doctor will discuss the risks and benefits as well as potential costs with you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing how cochlear implants work 
+" Caption="Cochlear implants use an external microphone and speech processor that you generally wear behind your ear. A transmitter sends radiofrequency signals to a surgically implanted electronic chip, the receiver-stimulator, which stimulates the auditory nerve with electrodes that have been threaded through the cochlea. 
+" Height="60" Title="How cochlear implants work" URI="/images/image_popup/thumbs/ans7_cochlearimplant09thu.jpg" Width="60" />
+				<Image Alt="Image showing how cochlear implants work 
+" Caption="Cochlear implants use an external microphone and speech processor that you generally wear behind your ear. A transmitter sends radiofrequency signals to a surgically implanted electronic chip, the receiver-stimulator, which stimulates the auditory nerve with electrodes that have been threaded through the cochlea. 
+" Height="380" Title="How cochlear implants work" URI="/images/image_popup/ans7_cochlearimplant09.jpg" Width="400" />
+				<HTML>
+					Cochlear implants use an external microphone and speech processor that you generally wear behind your ear. A transmitter sends radiofrequency signals to a surgically implanted electronic chip, the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Cochlear implants: Who are they for?
+	</Title>
+	<Abstract>
+		Cochlear implants can help improve hearing if you have severe to profound nerve deafness.
+	</Abstract>
+	<Question>
+		I&apos;m considering getting hearing aids, but have heard about cochlear implants as an option. Who are they for?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="EI00027" LinkType="Internal" ObjectID="F999AA93-1811-4BB8-B99F30B4F928D284" Title="Slide show: How you hear" Url="http://www.mayoclinic.com/health/ear-infections/EI00027" />
+		<LinkItem ContentType="Answer" DocID="AN01853" LinkType="Internal" ObjectID="10E4AB42-E7FF-0DBD-12BEDCAEA18FD0A2" Title="High-frequency hearing loss: Can hearing aids help?" Url="http://www.mayoclinic.com/health/high-frequency-hearing-loss/AN01853" />
+		<LinkItem ContentType="Disease" DocID="DS00052" LinkType="Internal" ObjectID="E696E3F0-D762-4AC8-8B1B24E518E02836" Title="Earwax blockage" Url="http://www.mayoclinic.com/health/earwax-blockage/DS00052" />
+		<LinkItem ContentType="Disease" DocID="DS00499" LinkType="Internal" ObjectID="6431C594-9F82-4659-AC4BD625ADA682FD" Title="Ruptured eardrum (perforated eardrum)" Url="http://www.mayoclinic.com/health/ruptured-eardrum/DS00499" />
+		<LinkItem ContentType="Disease" DocID="DS00473" LinkType="Internal" ObjectID="175EBBB9-3436-4B88-B7AC655D9A36341F" Title="Swimmer&apos;s ear" Url="http://www.mayoclinic.com/health/swimmers-ear/DS00473" />
+		<LinkItem ContentType="Article" DocID="HQ00812" LinkType="Internal" ObjectID="0FAE9D11-D3F7-4FFE-AC6ADA78BB38FC24" Title="Hearing aids: How to choose the right one" Url="http://www.mayoclinic.com/health/hearing-aids/HQ00812" />
+		<LinkItem ContentType="Disease" DocID="DS00172" LinkType="Internal" ObjectID="41D92C59-66DB-4689-A6DA5F2A84B9E226" Title="Hearing loss" Url="http://www.mayoclinic.com/health/hearing-loss/DS00172" />
+	</RelatedLinksBox>
+</Answer>

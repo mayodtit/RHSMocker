@@ -1,0 +1,207 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12352
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/baba-ghanoush/RE12352
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-21
+		</UpdateDate>
+		<PublicationDate>
+			2012-09-21
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			067103AC-06BE-E2ED-1A78BBC66DF3459C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				baba ghanoush recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Baba ghanoush
+	</Title>
+	<Abstract>
+		Baba ghanoush &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Grilling the vegetables helps intensify the flavors. This recipe may be served warm or cold.
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Prepare grill by spraying cold grill with cooking spray. 
+&lt;/p&gt;
+&lt;p&gt;
+Slice top off garlic bulb, wrap in foil and place on cooler part of grill. Roast for 20 to 30 minutes. On hot part of grill, place eggplant slices and bell pepper. Grill for 2 to 3 minutes a side. 
+&lt;/p&gt;
+&lt;p&gt;
+Squeeze roasted garlic out of bulb and place in food processor. Add grilled eggplant and red bell pepper. Add lemon juice, basil, pepper and olive oil. Pulse until smooth. Place dip in serving bowl. 
+&lt;/p&gt;
+&lt;p&gt;
+Warm bread on grill for a few seconds on each side. Serve with dip.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 bulb garlic (about 8 cloves)&lt;/li&gt;
+	&lt;li&gt;2 eggplants, sliced lengthwise&lt;/li&gt;
+	&lt;li&gt;1 red bell pepper, halved and seeded&lt;/li&gt;
+	&lt;li&gt;Juice of 1 lemon (about 4 tablespoons)&lt;/li&gt;
+	&lt;li&gt;1 tablespoon chopped fresh basil&lt;/li&gt;
+	&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
+	&lt;li&gt;1 tablespoon black pepper or to taste&lt;/li&gt;
+	&lt;li&gt;2 rounds of flatbread or pita&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				148
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				25 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2.5 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				4 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0.6 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				Half a pita and 2 tablespoons of dip
+			</Servingsize>
+			<Sodium Label="Sodium">
+				164 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				4 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Appetizers
+		</Category>
+		<Category CategoryLabel="Meal">
+			Snacks
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

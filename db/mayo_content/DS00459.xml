@@ -1,0 +1,388 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00459
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/intestinal-ischemia/DS00459
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-17
+		</UpdateDate>
+		<PublicationDate>
+			2002-08-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1452" Title="Intestines">
+						<Keyword MCVID="2951" Title="Intestinal ischemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			61253DCD-5CF2-4204-83572DEB6DD0CB89
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				intestinal ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				mesenteric ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				mesenteric artery ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic mesenteric ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic mesenteric artery ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				acute mesenteric ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				acute mesenteric artery ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				colon ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				mesenteric venous thrombosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intestinal ischemia (is-KE-me-uh) occurs when blood vessels (arteries) to your intestines become narrowed or blocked, reducing blood flow. Intestinal ischemia can affect your small intestine, your large intestine (colon) or both. The decreased blood flow can cause pain and can permanently damage your intestine.
+&lt;/p&gt;
+&lt;p&gt;
+Sudden loss of blood flow to the intestine (acute intestinal ischemia) is a medical emergency that requires immediate surgery. Intestinal ischemia that develops over time (chronic) requires treatment because it can become acute, or lead to severe weight loss and malnutrition.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon and small intestine 
+" Caption="The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed by the small intestine and colon continues along the digestive tract and is expelled as stool during a bowel movement. 
+" Height="60" Title="Colon and small intestine" URI="/images/image_popup/thumbs/d7_smintestinecolonthu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon and small intestine 
+" Caption="The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed by the small intestine and colon continues along the digestive tract and is expelled as stool during a bowel movement. 
+" Height="293" Title="Colon and small intestine" URI="/images/image_popup/d7_smintestinecolon.jpg" Width="400" />
+				<HTML>
+					The small intestine and colon are components of your digestive tract, which processes the foods you eat. The small intestine and colon extract nutrients and water from the foods. What isn&apos;t absorbed ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of intestinal ischemia may develop suddenly (acute) or gradually over time (chronic). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms of acute intestinal ischemia&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden abdominal pain that may range from mild to severe &lt;/li&gt;
+	&lt;li&gt;An urgent need to have a bowel movement &lt;/li&gt;
+	&lt;li&gt;Frequent, forceful bowel movements &lt;/li&gt;
+	&lt;li&gt;Tenderness or swelling in the abdomen &lt;/li&gt;
+	&lt;li&gt;Blood in your stool &lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting or both &lt;/li&gt;
+	&lt;li&gt;Fever &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms of chronic intestinal ischemia&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal cramps or fullness, beginning within 30 minutes after eating and lasting one to three hours &lt;/li&gt;
+	&lt;li&gt;Abdominal pain that gets progressively worse over weeks or months &lt;/li&gt;
+	&lt;li&gt;Fear of eating because of subsequent pain &lt;/li&gt;
+	&lt;li&gt;Unintended weight loss &lt;/li&gt;
+	&lt;li&gt;Diarrhea &lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting or both &lt;/li&gt;
+	&lt;li&gt;Bloating &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Chronic intestinal ischemia can progress to an acute episode. If this occurs, you may experience severe abdominal pain following weeks or months of intermittent pain after eating. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Seek immediate medical care if you have sudden, severe abdominal pain. Abdominal pain that makes you so uncomfortable that you can&apos;t sit still or find a comfortable position is a medical emergency. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have other signs or symptoms that concern you, make an appointment with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Intestinal ischemia occurs when the blood flow to your intestines is slowed or stopped. Due to the diminished blood flow, the cells in your digestive system are starved for oxygen, and can become weak and die, damaging your intestines. 
+&lt;/p&gt;
+&lt;p&gt;
+Intestinal ischemia is often divided into categories: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Colon ischemia (ischemic colitis)&lt;/strong&gt; &lt;br /&gt;
+Colon ischemia occurs when blood flow to the colon is slowed. It is the most common type of intestinal ischemia. Colon ischemia usually affects adults over age 60, but may occur at any age. 
+&lt;/p&gt;
+&lt;p&gt;
+The precise cause of diminished blood flow to the colon isn&apos;t always clear. But several factors can increase your risk of colon ischemia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Buildup of fatty deposits on the walls of an artery (atherosclerosis) &lt;/li&gt;
+	&lt;li&gt;Dangerously low blood pressure (hypotension) associated with heart failure, major surgery, trauma or shock &lt;/li&gt;
+	&lt;li&gt;A blood clot in an artery supplying the colon &lt;/li&gt;
+	&lt;li&gt;Bowel obstruction caused by a hernia, scar tissue or a tumor &lt;/li&gt;
+	&lt;li&gt;Surgery involving the heart or blood vessels, or the digestive or gynecological systems &lt;/li&gt;
+	&lt;li&gt;Other medical disorders that affect your blood, such as inflammation of the blood vessels (vasculitis), lupus or sickle cell anemia &lt;/li&gt;
+	&lt;li&gt;Some medications, especially those that shrink blood vessels, such as some heart and migraine medications, and hormone medications, such as estrogen &lt;/li&gt;
+	&lt;li&gt;Cocaine or methamphetamine use &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute mesenteric ischemia&lt;/strong&gt; &lt;br /&gt;
+Acute mesenteric ischemia affects the small intestine. It comes on abruptly and may be due to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A blood clot&lt;/strong&gt; that blocks an artery leading to your small intestine. Blood clot is the most common cause of acute mesenteric ischemia, and can result from congestive heart failure, an irregular heartbeat (arrhythmia) or a heart attack. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A blockage in an intestinal artery&lt;/strong&gt; that slows or stops blood flow, often as a result of the buildup of fatty deposits along the wall of an artery (atherosclerosis). A blocked intestinal artery is often the cause of chronic mesenteric ischemia that later becomes acute. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood pressure&lt;/strong&gt; due to shock, heart failure, certain medications or chronic kidney failure. Low blood pressure can reduce blood flow to the small intestine. This cause is more common in people with other serious illnesses or some degree of atherosclerosis. This type of acute mesenteric ischemia is sometimes called nonocclusive ischemia. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic mesenteric ischemia&lt;/strong&gt; &lt;br /&gt;
+Chronic mesenteric ischemia, also called intestinal angina, results from the gradual buildup of fatty deposits along the wall of an artery (atherosclerosis). Chronic mesenteric ischemia can progress to acute mesenteric ischemia, especially if a blood clot develops within a diseased artery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mesenteric venous thrombosis&lt;/strong&gt; &lt;br /&gt;
+This type of intestinal ischemia occurs when a blood clot develops in the vein that carries blood away from the intestines. The blocked vein causes blood to back up into the intestines, leading to swelling and bleeding. Mesenteric venous thrombosis may result from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acute or chronic inflammation of the pancreas (pancreatitis)&lt;/li&gt;
+	&lt;li&gt;Abdominal infection&lt;/li&gt;
+	&lt;li&gt;Cancers of the digestive system&lt;/li&gt;
+	&lt;li&gt;Bowel diseases, such as ulcerative colitis, Crohn&apos;s disease or diverticulitis&lt;/li&gt;
+	&lt;li&gt;Disorders that make your blood more prone to clotting (hypercoagulation disorders), such as an inherited protein deficiency&lt;/li&gt;
+	&lt;li&gt;Trauma to your abdomen&lt;/li&gt;
+	&lt;li&gt;Some hormone therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of intestinal ischemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fatty deposits in the arteries (atherosclerosis)&lt;/strong&gt; that reduce blood flow to the heart (coronary artery disease), legs (peripheral vascular disease) or the arteries serving your brain (carotid artery disease) can also reduce blood flow to the bowels. You have an increased risk of atherosclerosis if you are older than 50, if you smoke, or if you have high blood pressure, diabetes or high cholesterol. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood pressure&lt;/strong&gt; that is too high or too low. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems,&lt;/strong&gt; such as congestive heart failure or an irregular heartbeat. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; such as birth control pills and therapies that cause your blood vessels to expand or contract, including certain treatments for allergies and migraines. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood-clotting problems,&lt;/strong&gt; including those associated with sickle cell anemia and anti-phospholipid syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Illegal drug use,&lt;/strong&gt; including cocaine and methamphetamine use. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of intestinal ischemia can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Death of intestinal tissue,&lt;/strong&gt; if blood flow to your intestine is completely blocked. Surgery is needed to clear the blockage and to remove the damaged tissue if this life-threatening situation occurs. Your surgeon may be able to reconnect healthy parts of the intestine. If that isn&apos;t possible, you may need an ostomy, a procedure that connects the colon to an opening (stoma) outside your body. Bowel movements that would normally have evacuated through the rectum are collected in a waste bag that attaches at the stoma. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowing of the colon,&lt;/strong&gt; if ischemia causes scar tissue to form. Surgery may be needed to remove the damaged portion of the intestine. The healthy portions may be connected or you may need an ostomy. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Go to the emergency room if you have severe abdominal pain that makes you so uncomfortable that you can&apos;t sit still. You may be referred for immediate surgery to diagnose and treat your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+If your abdominal pain is moderate and predictable &amp;mdash; for example, it always begins soon after eating &amp;mdash; see your doctor. After an initial evaluation, you may be referred to a doctor who specializes in digestive disorders (gastroenterologist) or blood vessel disorders (vascular surgeon). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; such as not eating after midnight on the night before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all your medications,&lt;/strong&gt; as well as any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life. These factors can be connected to digestive signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible, to help remember what was talked about.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt;&lt;br /&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;If I need surgery, what will my recovery be like?&lt;/li&gt;
+	&lt;li&gt;How will my diet and lifestyle change after I have surgery?&lt;/li&gt;
+	&lt;li&gt;What follow-up care and treatments will I need?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. It&apos;s helpful to think about these in advance. You may be asked: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms stayed the same or gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;If your symptoms appear after eating, have they caused you to fear or avoid meals?&lt;/li&gt;
+	&lt;li&gt;How soon after eating do your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Do you tolerate small meals better than large ones?&lt;/li&gt;
+	&lt;li&gt;Are liquids easier to tolerate than solids?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Have you lost weight?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Based on your signs and symptoms, your doctor may recommend these imaging tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;CT or MR angiography,&lt;/strong&gt; to provide detailed images of blood flow in your small intestine and to look for blocked arteries. Sometimes, the doctor can treat the blocked arteries during the angiogram. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arteriography,&lt;/strong&gt; to provide X-ray images of blood vessels. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other procedures include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopy,&lt;/strong&gt; to image the upper part of your small intestine. Endoscopy can help your doctor rule out other conditions as the cause of your digestive problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy,&lt;/strong&gt; to image the large intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exploratory surgery,&lt;/strong&gt; to locate and remove damaged tissue. Exploratory surgery allows for diagnosis and treatment during one procedure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of intestinal ischemia involves restoring sufficient blood flow to your digestive tract. The options vary, depending on the type and severity of your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Colon ischemia&lt;/strong&gt; &lt;br /&gt;
+Colon ischemia may heal on its own. But your doctor may recommend antibiotics to treat or prevent infections. Your doctor can also treat any underlying medical condition, such as congestive heart failure or an irregular heartbeat. You&apos;ll need to stop any medications that constrict your blood vessels, such as migraine drugs, hormone medications and some heart drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+If your colon has been damaged, you may need surgery to remove the dead tissue or to bypass a blockage in an intestinal artery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute mesenteric ischemia&lt;/strong&gt; &lt;br /&gt;
+Surgery is usually needed to remove a blood clot, to bypass an artery blockage, or to repair or remove a damaged section of intestine. Treatment also may include medications to prevent clots from forming, to dissolve clots or to expand blood vessels. 
+&lt;/p&gt;
+&lt;p&gt;
+If angiography is used to diagnose the problem, it may be possible to treat the condition with angioplasty at the same time. Angioplasty involves using a balloon inflated at the end of a catheter to compress the fatty deposits and stretch the artery, making a wider path for blood flow. A metallic coil (stent) also may be placed in your artery to help keep it open. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chronic mesenteric ischemia&lt;/strong&gt; &lt;br /&gt;
+Surgery is usually needed to restore blood flow and to prevent progression to acute mesenteric ischemia. Your surgeon can bypass the blocked arteries or widen narrowed arteries with angioplasty, or by placing a stent after angioplasty. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mesenteric venous thrombosis&lt;/strong&gt; &lt;br /&gt;
+If your intestines show no signs of damage, you&apos;ll likely need to take anticoagulant medication for about three to six months. Anticoagulants help prevent clots from forming. If tests show you have a blood-clotting disorder, you may need to take anticoagulants for the rest of your life. If portions of your bowel show signs of damage, you may need surgery to remove them. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can reduce your risk of intestinal ischemia with lifestyle changes that help prevent atherosclerosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a diet full of fruits, vegetables and whole grains.&lt;/strong&gt; Reduce the amount of added sugar, cholesterol and fat in your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; If do smoke, work with your doctor to find a strategy that will help you stop. Counseling, medications and nicotine replacement products may be options.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Aim for at least 30 minutes most days of the week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control other health problems.&lt;/strong&gt; If you have high blood pressure, high cholesterol, diabetes or other conditions that increase your risk of atherosclerosis, work with your doctor to control these conditions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Intestinal ischemia
+	</Title>
+	<Abstract>
+		Intestinal ischemia &amp;mdash; Comprehensive overview covers symptoms, treatment of reduced blood supply to the digestive system.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+	</RelatedLinksBox>
+</Disease>

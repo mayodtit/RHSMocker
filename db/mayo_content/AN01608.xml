@@ -1,0 +1,140 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01608
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/micturition-syncope/AN01608
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-14
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2325" Title="Autonomic">
+						<Keyword MCVID="2329" Title="Fainting" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			482E2F50-E7FF-0DBD-1E88278AC112F67F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fainting
+			</MetaKeyword>
+			<MetaKeyword>
+				micturition syncope
+			</MetaKeyword>
+			<MetaKeyword>
+				syncope
+			</MetaKeyword>
+			<MetaKeyword>
+				vasovagal response
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Micturition (or post-micturition) syncope is fainting during or, more commonly, immediately after urination due to a severe drop in blood pressure. Micturition syncope is most common in older men and usually occurs at night after a deep sleep.
+&lt;/p&gt;
+&lt;p&gt;
+The exact cause of micturition syncope isn&apos;t fully understood. But it may be related to opening (vasodilation) of the blood vessels that occurs when getting up and standing at the toilet or that occurs at the rapid emptying of a full bladder. This is thought to result in a sudden drop in blood pressure.
+&lt;/p&gt;
+&lt;p&gt;
+Other factors that may play a role in micturition syncope include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Hunger&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Medical conditions, such as a respiratory infection&lt;/li&gt;
+	&lt;li&gt;Use of alpha blockers to improve urination in men with prostate problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing micturition syncope&lt;br /&gt;
+&lt;/strong&gt;Micturition syncope is uncommon and should be evaluated by a doctor because it may indicate an underlying medical condition. Prevention of micturition syncope depends on recognizing the factors that contribute to micturition syncope and avoiding them.
+&lt;/p&gt;
+&lt;p&gt;
+Some strategies you might suggest to your husband to avoid micturition syncope and possible resulting injury are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid excessive drinking of alcohol&lt;/li&gt;
+	&lt;li&gt;Don&apos;t get out of bed suddenly &amp;mdash; first, sit on the edge of the bed and move your legs, making sure you are not dizzy or lightheaded&lt;/li&gt;
+	&lt;li&gt;Urinate sitting down&lt;/li&gt;
+	&lt;li&gt;Ask your doctor whether any medications you&apos;re taking may be causing your condition &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As much as possible, ensuring the floor from your bed to the bathroom is carpeted or padded is also a good strategy for avoiding injury from a potential fall. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fainting during urination (micturition syncope): What causes it?
+	</Title>
+	<Abstract>
+		Fainting during or immediately after urination (micturition syncope) is a rare occurrence in healthy individuals.
+	</Abstract>
+	<Question>
+		Last week, my husband fainted while urinating. His doctor said he might have micturition syncope. What causes this, and what can he do about it?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01091" LinkType="Internal" ObjectID="6B0B219F-90ED-A90E-9386B255B2370CB8" Title="Tilt table test" Url="http://www.mayoclinic.com/health/tilt-table-test/MY01091" />
+		<LinkItem ContentType="FirstAid" DocID="FA00052" LinkType="Internal" ObjectID="1D83A89A-3EDA-4E87-A1F53225F82385E3" Title="Fainting: First aid" Url="http://www.mayoclinic.com/health/first-aid-fainting/FA00052" />
+		<LinkItem ContentType="Disease" DocID="DS00806" LinkType="Internal" ObjectID="CA70DA97-E7FF-0DBD-13B4BC169AB87B67" Title="Vasovagal syncope" Url="http://www.mayoclinic.com/health/vasovagal-syncope/DS00806" />
+	</RelatedLinksBox>
+</Answer>

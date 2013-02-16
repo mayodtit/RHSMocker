@@ -1,0 +1,125 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02079
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/post-traumatic-stress/AN02079
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-12
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders">
+						<Keyword MCVID="1564" Title="Post traumatic stress disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			25199F64-B7F6-C481-1DCA0D37D68999CC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				post traumatic stress
+			</MetaKeyword>
+			<MetaKeyword>
+				post-traumatic stress disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				ptsd
+			</MetaKeyword>
+			<MetaKeyword>
+				trauma
+			</MetaKeyword>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+You can take steps to help a loved one cope with stress brought on by a traumatic event, whether it&apos;s a result of an accident, violence of any kind &amp;mdash; such as an assault; verbal, physical, domestic or sexual abuse; or military combat &amp;mdash; or another type of trauma.
+&lt;/p&gt;
+&lt;p&gt;
+A person with acute stress disorder (ASD) has stress symptoms during the first month after the traumatic event. If your loved one has symptoms that last longer than a month and make it hard to go about daily routines, go to work or school, or handle important tasks, he or she could have post-traumatic stress disorder (PTSD). 
+&lt;/p&gt;
+&lt;p&gt;
+Whether your loved one has ASD or PTSD, assessment and counseling (psychotherapy) by a professional can make a critical difference in recovery. Encourage him or her to talk to a doctor or trained mental health provider.
+&lt;/p&gt;
+&lt;p&gt;
+You can also help through supportive listening &amp;mdash; without attempts to &quot;fix&quot; the situation. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be willing to listen, but don&apos;t push.&lt;/strong&gt; Make sure your loved one knows that you want to hear about his or her feelings. But if the person isn&apos;t ready or willing to talk about it, don&apos;t push. Just reassure your loved one that you&apos;ll be there if and when he or she is ready.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a time to talk.&lt;/strong&gt; When you&apos;re both ready to talk, choose a time and place where you&apos;ll be free of distractions and interruptions. Then truly listen. Ask questions if you don&apos;t understand something. But avoid any urges to second-guess, to give advice or to say, &quot;I know just how you feel.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recognize when to take a break.&lt;/strong&gt; If you sense that the conversation is becoming too intense for your loved one, suggest that you stop for now and take up the conversation again on another day. Then follow through.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get help if talk of suicide occurs.&lt;/strong&gt; If your loved one talks or behaves in a way that makes you believe he or she might commit suicide, respond calmly, but act immediately. Make sure the person is not left alone. Then discreetly remove pills, firearms or any other objects that could be used for self-harm, and get help from a trained professional as soon as possible. If there&apos;s immediate danger of committing suicide, call 911 or your local emergency number right away.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Coping with traumatic stress is an ongoing process. You might have many conversations with your loved one over weeks or months as he or she processes the traumatic experience during or after a period of professional care.
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be of more help to your loved one if you learn about ASD and PTSD from trusted medical sources and encourage your loved one to follow treatment recommendations.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Post-traumatic stress: How can you help your loved one?
+	</Title>
+	<Abstract>
+		Use these tips to help a loved one with post-traumatic stress.
+	</Abstract>
+	<Question>
+		How can I help a loved one with post-traumatic stress?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01187" LinkType="Internal" ObjectID="263618B3-F9E9-10C2-7E3DA5837B920B15" Title="Anxiety" Url="http://www.mayoclinic.com/health/anxiety/DS01187" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Disease" DocID="DS00246" LinkType="Internal" ObjectID="181CCBB4-A467-4D76-A3488529DC3DBEE9" Title="Post-traumatic stress disorder (PTSD)" Url="http://www.mayoclinic.com/health/post-traumatic-stress-disorder/DS00246" />
+	</RelatedLinksBox>
+</Answer>

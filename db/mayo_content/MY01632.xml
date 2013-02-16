@@ -1,0 +1,221 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01632
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/external-beam-radiation-for-prostate-cancer/MY01632
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-26
+		</UpdateDate>
+		<PublicationDate>
+			2011-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3723" Title="Radiation therapy">
+							<Keyword MCVID="4799" Title="External beam radiation for prostate cancer" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F01483D3-B1A3-9AE1-0509FB09FF62A5B7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				external beam radiation for prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				EBRT
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate radiation
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation therapy for prostate cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				radiotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				external beam therapy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+External beam radiation for prostate cancer uses high-powered beams of energy, such as X-rays, to kill cancer cells. During external beam radiation for prostate cancer, the high-energy beams come from a machine called a linear accelerator that aims the beams at your prostate gland. 
+&lt;/p&gt;
+&lt;p&gt;
+External beam radiation for prostate cancer kills cancer cells by destroying the genetic material that controls how cells grow and divide. Healthy cells in the beam&apos;s path are also damaged by external beam radiation therapy. The goal of external beam radiation for prostate cancer is to destroy the cancerous cells while sparing as many healthy cells as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+External beam radiation for prostate cancer is often used to treat early-stage prostate cancer. It may also be used for men who have advanced prostate cancer or prostate cancer that comes back after surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend external beam radiation for prostate cancer as an option at different times during your cancer treatment and for different reasons, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;As the only (primary) treatment for cancer, usually for early-stage cancer that is confined to your prostate&lt;/li&gt;
+	&lt;li&gt;After surgery, to reduce the risk of cancer returning (adjuvant therapy)&lt;/li&gt;
+	&lt;li&gt;In combination with other treatments, such as hormone therapy, for more serious cancer that&apos;s still confined to the prostate&lt;/li&gt;
+	&lt;li&gt;To alleviate symptoms, such as bone pain, caused by advanced cancer that has spread beyond the prostate&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The type and severity of side effects you have with external beam radiation for prostate cancer may depend on the dose and on the amount of healthy tissue that&apos;s exposed to the radiation. Most side effects are temporary, can be controlled and generally improve over time once treatment has ended. Advances in technology &amp;mdash; such as intensity-modulated radiation therapy (IMRT) that delivers the highest dose of radiation at the target, while sparing surrounding healthy tissue and organs &amp;mdash; help to minimize side effects of external beam radiation treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of external beam radiation therapy for prostate cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent urination&lt;/li&gt;
+	&lt;li&gt;Difficult or painful urination&lt;/li&gt;
+	&lt;li&gt;Blood in the urine&lt;/li&gt;
+	&lt;li&gt;Urinary leakage&lt;/li&gt;
+	&lt;li&gt;Abdominal cramping&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Painful bowel movements&lt;/li&gt;
+	&lt;li&gt;Rectal bleeding&lt;/li&gt;
+	&lt;li&gt;Rectal leaking&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Sexual dysfunction&lt;/li&gt;
+	&lt;li&gt;Skin reactions (similar to a sun burn)&lt;/li&gt;
+	&lt;li&gt;Secondary cancers in the region of the radiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some side effects may develop months to years later. Ask your doctor about potential side effects, both short and long term, that may occur during and after your treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you undergo external beam radiation therapy for prostate cancer, your health care team guides you through a planning process to ensure that radiation reaches the precise spot in your body where it&apos;s needed. Accurate planning is essential for the use of intensity-modulated radiation therapy (IMRT), which delivers higher doses of radiation to the cancer while minimizing damage to the surrounding healthy organs and tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+Planning typically includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation simulation.&lt;/strong&gt; During simulation your radiation therapy team helps to find a comfortable position for you during treatment. It&apos;s crucial that you lie still during treatment, so finding a comfortable position is very important. Customized immobilization devices are used to position you in the right way and to help you hold still. Your radiation therapy team will make marks on your body to be used for set-up during your radiation therapy sessions. You may receive temporary marking with a marker, or you may receive permanent tattoos.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Planning scans.&lt;/strong&gt; Your radiation therapy team may have you undergo computerized tomography (CT) scans to determine the exact area of your body to be treated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After the planning process, your radiation therapy team decides what type of radiation and what dose you&apos;ll receive based on your stage of cancer, your general health and the goals for your treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+External beam radiation for prostate cancer is conducted using a linear accelerator &amp;mdash; a machine that directs high-energy beams of radiation into your body. As you lie on a table, the linear accelerator moves around you to deliver radiation from many angles. The linear accelerator delivers the precise dose of radiation your doctor has ordered. 
+&lt;/p&gt;
+&lt;p&gt;
+External beam radiation therapy is typically: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Given on an outpatient basis&lt;/li&gt;
+	&lt;li&gt;Administered five days a week over a period of about seven to eight weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Each treatment session lasts approximately 20 to 30 minutes. Most of that is preparation time. The actual radiation treatment only takes a few minutes. In some cases, a single treatment may be used to help relieve pain or other symptoms associated with more advanced cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+During a treatment session: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You lie down in the position determined during your radiation simulation session.&lt;/li&gt;
+	&lt;li&gt;You might be positioned with customized immobilization devices to hold you in the same position for each therapy session.&lt;/li&gt;
+	&lt;li&gt;The linear accelerator machine may rotate around your body to deliver radiation beams from different directions.&lt;/li&gt;
+	&lt;li&gt;You lie still and breathe normally during the treatment.&lt;/li&gt;
+	&lt;li&gt;Your radiation therapy team stays nearby in a room with video and audio connections so that you can talk to each other.&lt;/li&gt;
+	&lt;li&gt;You shouldn&apos;t feel any pain. Speak up if you feel uncomfortable.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your external beam radiation therapy is complete, you will have regular follow-up appointments with your doctor and undergo periodic evaluation to see how your cancer has responded to the treatment. You will need long-term monitoring to determine if your disease is in remission or if additional treatment is needed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		External beam radiation for prostate cancer
+	</Title>
+	<Abstract>
+		External beam radiation for prostate cancer &amp;mdash; Overview covers risks, what to expect and results.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00299" LinkType="Internal" ObjectID="960B90AD-E7FF-0DBD-126245CC89D3122A" Title="Radiation therapy" Url="http://www.mayoclinic.com/health/radiation-therapy/MY00299" />
+	</RelatedLinksBox>
+</TestProcedure>

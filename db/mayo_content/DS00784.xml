@@ -1,0 +1,388 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00784
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/oral-lichen-planus/DS00784
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-21
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1618" Title="Mouth and gum">
+						<Keyword MCVID="3147" Title="Oral lichen planus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A1657E78-E7FF-0DBD-161C53BDDF8CC5BE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lichen planus
+			</MetaKeyword>
+			<MetaKeyword>
+				oral lichen planus
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth sores
+			</MetaKeyword>
+			<MetaKeyword>
+				sore mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				burning mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				dry mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				sores in the mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				lichen planus in the mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				sore gums
+			</MetaKeyword>
+			<MetaKeyword>
+				mouth pain
+			</MetaKeyword>
+			<MetaKeyword>
+				OLP
+			</MetaKeyword>
+			<MetaKeyword>
+				dry mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				oral cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oral lichen planus (LIE-kun PLAY-nus) is an inflammatory condition that affects mucous membranes inside your mouth. Oral lichen planus may appear as white, lacy patches; red, swollen tissues; or open sores. These lesions may cause burning, pain or other discomfort.
+&lt;/p&gt;
+&lt;p&gt;
+Oral lichen planus can&apos;t be passed from one person to another. The disorder occurs when the immune system mounts an attack against cells of the oral mucous membranes. The reason for this abnormal immune response is unknown.
+&lt;/p&gt;
+&lt;p&gt;
+Oral lichen planus is usually an ongoing (chronic) condition. Treatments that suppress the immune system abnormalities may improve more severe lesions and lessen pain.
+&lt;/p&gt;
+&lt;p&gt;
+People with oral lichen planus may also have related lichen planus lesions on the skin, genitals or other parts of the body.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of oral lichen planus
+" Caption="Lesions of oral lichen planus most often appear as white patches on the inside of the cheeks. Oral lichen planus may cause pain, tenderness or burning in the mouth.
+" Height="60" Title="Oral lichen planus" URI="/images/image_popup/thumbs/sn7_orallichenplanusthu.jpg" Width="60" />
+				<Image Alt="Photo of oral lichen planus
+" Caption="Lesions of oral lichen planus most often appear as white patches on the inside of the cheeks. Oral lichen planus may cause pain, tenderness or burning in the mouth.
+" Height="400" Title="Oral lichen planus" URI="/images/image_popup/sn7_orallichenplanus.jpg" Width="400" />
+				<HTML>
+					Lesions of oral lichen planus most often appear as white patches on the inside of the cheeks. Oral lichen planus may cause pain, tenderness or burning in the mouth.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary signs and symptoms of oral lichen planus are the lesions affecting the mucous membranes of the mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Appearance&lt;/strong&gt;&lt;br /&gt;
+The lesions may appear as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lacy, white, raised patches of tissues&lt;/li&gt;
+	&lt;li&gt;Red, swollen, tender patches of tissues&lt;/li&gt;
+	&lt;li&gt;Open sores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Location&lt;/strong&gt;&lt;br /&gt;
+These lesions may appear on the following sites: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inside of the cheeks, the most common location&lt;/li&gt;
+	&lt;li&gt;Gums&lt;/li&gt;
+	&lt;li&gt;Tongue&lt;/li&gt;
+	&lt;li&gt;Inner tissues of the lips&lt;/li&gt;
+	&lt;li&gt;Throat&lt;/li&gt;
+	&lt;li&gt;Esophagus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pain or discomfort&lt;/strong&gt;&lt;br /&gt;
+The red, inflamed lesions and open sores of oral lichen planus can cause a burning sensation or pain. The white, lacy patches alone usually don&apos;t cause discomfort, except when they appear on the tongue. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other signs or symptoms&lt;/strong&gt;&lt;br /&gt;
+Other signs or symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A metallic taste or a blunted taste sensation if the tongue is affected&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing if the throat or esophagus is affected&lt;/li&gt;
+	&lt;li&gt;Sensitivity to hot or spicy foods&lt;/li&gt;
+	&lt;li&gt;Bleeding and irritation with tooth brushing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of lichen planus&lt;/strong&gt;&lt;br /&gt;
+If you have oral lichen planus, you may have lichen planus lesions affecting other parts of the body: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin.&lt;/strong&gt; Lesions usually appear as purplish, flat-topped bumps that are often itchy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genitals.&lt;/strong&gt; Lesions on external genitalia resemble those affecting the skin. Lesions affecting the mucous membrane of the vagina resemble those affecting the mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scalp.&lt;/strong&gt; When skin lesions appear on the scalp &amp;mdash; a rare condition &amp;mdash; they may cause temporary or permanent hair loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nails.&lt;/strong&gt; Lichen planus of the toenails or fingernails, also rare, may result in ridges on the nails, thinning or splitting of nails, and temporary or permanent nail loss.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor or dentist if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Notice sores inside your mouth that don&apos;t heal&lt;/li&gt;
+	&lt;li&gt;Have white or red patches in your mouth&lt;/li&gt;
+	&lt;li&gt;Have mouth pain&lt;/li&gt;
+	&lt;li&gt;Have repeated bleeding in your mouth&lt;/li&gt;
+	&lt;li&gt;Notice any change in the way your mouth looks and feels&lt;/li&gt;
+	&lt;li&gt;Have lesions or sores on your skin, genitals, scalp or nails&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of oral lichen planus
+" Caption="Lesions of oral lichen planus most often appear as white patches on the inside of the cheeks. Oral lichen planus may cause pain, tenderness or burning in the mouth.
+" Height="60" Title="Oral lichen planus" URI="/images/image_popup/thumbs/sn7_orallichenplanusthu.jpg" Width="60" />
+				<Image Alt="Photo of oral lichen planus
+" Caption="Lesions of oral lichen planus most often appear as white patches on the inside of the cheeks. Oral lichen planus may cause pain, tenderness or burning in the mouth.
+" Height="400" Title="Oral lichen planus" URI="/images/image_popup/sn7_orallichenplanus.jpg" Width="400" />
+				<HTML>
+					Lesions of oral lichen planus most often appear as white patches on the inside of the cheeks. Oral lichen planus may cause pain, tenderness or burning in the mouth.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of oral lichen planus is unknown. The lesions that appear are the result of inflammation controlled by specific white blood cells called T lymphocytes. Normally, these cells are active at the site of disease or injury.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors and researchers don&apos;t know what prompts T lymphocytes to be activated in oral lichen planus. However, certain diseases, medical conditions or other factors may act as triggers of the inflammatory disorder in some people.
+&lt;/p&gt;
+&lt;p&gt;
+Factors that may act as triggers of oral lichen planus:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hepatitis C infection and other types of liver disease&lt;/li&gt;
+	&lt;li&gt;Hepatitis B vaccine&lt;/li&gt;
+	&lt;li&gt;Certain types of flu vaccines&lt;/li&gt;
+	&lt;li&gt;Allergy-causing agents (allergens), such as foods, dental materials or other substances&lt;/li&gt;
+	&lt;li&gt;Nonsteroidal anti-inflammatory drugs, such as ibuprofen (Motrin, Advil, others) and naproxen (Aleve, others)&lt;/li&gt;
+	&lt;li&gt;Certain medications for heart disease, high blood pressure or arthritis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Factors that may complicate the condition or worsen symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tobacco products&lt;/li&gt;
+	&lt;li&gt;Alcohol&lt;/li&gt;
+	&lt;li&gt;Rough dental work&lt;/li&gt;
+	&lt;li&gt;Poorly fitting dentures&lt;/li&gt;
+	&lt;li&gt;Poor oral habits, such as biting the lip or cheeks&lt;/li&gt;
+	&lt;li&gt;Buildup of dental plaque or tartar&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop oral lichen planus, but the condition most often affects middle-aged women.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Cancer&lt;/strong&gt;&lt;br /&gt;
+Oral lichen planus may increase the risk of oral cancers, particularly a type known as squamous cell carcinoma. Take the following steps for cancer screening and prevention.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Get oral cancer screenings annually or as directed by your doctor.&lt;/li&gt;
+	&lt;li&gt;If you drink alcohol, do so in moderation. Talk to your doctor to see if you should avoid alcohol completely.&lt;/li&gt;
+	&lt;li&gt;If you use any tobacco products, quit. Talk to your doctor if you need assistance ending a tobacco habit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Esophageal problems&lt;/strong&gt;&lt;br /&gt;
+Lichen planus lesions in the esophagus may result in a narrowing of the esophagus or the formation of tightened, ring-like bands in the esophagus that can make swallowing difficult.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor, general practitioner or dentist. Depending upon the symptoms, you may be referred to a specialist in skin diseases (dermatologist), a specialist in gum and dental diseases (periodontist) or a specialist of the upper gastrointestinal tract (gastroenterologist). The following tips can help make the best use of your time with your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare a list&lt;/strong&gt;&lt;br /&gt;
+Make a list that includes the following to share with your doctor.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The name and contact information of any physician you have seen recently or see regularly&lt;/li&gt;
+	&lt;li&gt;Prescription medications and dosages&lt;/li&gt;
+	&lt;li&gt;Over-the-counter drugs or dietary supplements you take regularly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely ask you a number of questions. Be prepared to answer the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the lesions or sores appear in your mouth?&lt;/li&gt;
+	&lt;li&gt;Have you found lesions anywhere else on your body?&lt;/li&gt;
+	&lt;li&gt;Do you feel any pain, burning sensations or other discomfort in your mouth?&lt;/li&gt;
+	&lt;li&gt;How would you describe the severity of the pain or discomfort &amp;mdash; mild, moderate or severe?&lt;/li&gt;
+	&lt;li&gt;Have you recently started new medications?&lt;/li&gt;
+	&lt;li&gt;Have you recently had immunizations?&lt;/li&gt;
+	&lt;li&gt;Do you take supplements or vitamins, or do you ingest other nonprescription herbs or medicines?&lt;/li&gt;
+	&lt;li&gt;Do you have any allergies?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any new or unusual stresses in your life?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor or dermatologist makes a diagnosis of oral lichen planus or another disorder based on the information you provide about symptoms, a careful examination of the abnormalities in your mouth and, if necessary, the results of laboratory tests. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; Your doctor may take a small tissue sample from one or more lesions in your mouth. The tissue is examined under a microscope to identify a typical pattern of T lymphocytes consistent with a diagnosis of oral lichen planus. Other more specialized microscopic tests may be needed to identify profiles of immune system proteins commonly associated with the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis C test.&lt;/strong&gt; A nurse or assistant may draw a small sample of blood for a lab test to determine if you have hepatitis C, a possible trigger for oral lichen planus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy tests.&lt;/strong&gt; Your doctor may refer you to an allergy specialist (allergist) or dermatologist for tests to identify agents to which you may be allergic and that may act as triggers for your condition.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Oral lichen planus is a chronic condition that can be difficult to manage. The treatment goals are to help severe lesions heal and to lessen pain or other discomfort. Your doctor will monitor your condition to increase or decrease dosages, change medications or stop treatment as necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have no pain or discomfort and if only white, lacy lesions are present, you may not need any treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;/strong&gt;&lt;br /&gt;
+Corticosteroids may reduce inflammation associated with oral lichen planus. The side effects vary depending on whether it&apos;s used as a mouthwash or ointment applied directly to the mucous membrane (topical), taken as a pill (oral), or administered as an injection. The potential benefit of corticosteroids needs to be balanced with possible side effects, which include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Topical.&lt;/strong&gt; Topical corticosteroids to treat oral lichen planus may result in oral thrush, an infection caused by the Candida albicans fungus. If this infection occurs, you&apos;ll need to take an antifungal medication. Long-term use of topical corticosteroids may also cause suppression of adrenal gland function and a lessening of the treatment effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral.&lt;/strong&gt; Long-term use of oral corticosteroids can cause weakening of the bones (osteoporosis), diabetes, high blood pressure, high cholesterol and other serious side effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; Injections may be administered directly into lesions. Repeated use of corticosteroid injections can cause some of the same side effects as oral corticosteroids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Retinoids&lt;/strong&gt;&lt;br /&gt;
+Retinoids are synthetic versions of vitamin A that can be applied as a topical ointment or taken orally. The topical treatment doesn&apos;t cause the same side effects associated with corticosteroids, but it may irritate the mucous membranes of your mouth. 
+&lt;/p&gt;
+&lt;p&gt;
+Because both topical and oral retinoids can cause birth defects, the drug shouldn&apos;t be used by women who are pregnant or planning to become pregnant in the near future. Your doctor can advise you on necessary precautions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonsteroidal ointments&lt;/strong&gt;&lt;br /&gt;
+In the past few years, several reports have shown the effectiveness of topical medications, called calcineurin inhibitors, which are closely related to or identical to oral medications used to prevent rejection of transplanted organs. These treatments appear to be effective for the treatment of oral lichen planus. Examples of these topical medications include tacrolimus (Protopic ointment) and pimecrolimus (Elidel cream). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Addressing triggers&lt;/strong&gt;&lt;br /&gt;
+If your doctor suspects that oral lichen planus may be related to a drug you take, hepatitis C infection, an allergen or stress, he or she will recommend steps to address the trigger. These actions may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs.&lt;/strong&gt; Your doctor may ask you to stop taking a drug or to try an alternative drug to the one that may be acting as a trigger. This action may require consultation with the doctor who originally prescribed your medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatitis C.&lt;/strong&gt; You&apos;ll likely be referred to a specialist in infectious diseases or a specialist in liver disease (hepatologist) for further diagnostic evaluation and disease management.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergen.&lt;/strong&gt; If tests suggest that an allergen may be a potential trigger, you&apos;ll be advised to avoid the allergen, and you may need to see a dermatologist or an allergist for additional treatment. If a dental device is a suspected allergen, you may need to see your dentist to have dental materials extracted and replaced.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Because stress may be a factor that complicates symptoms or triggers the recurrence of symptoms, you may need to develop skills to avoid or manage stress. Your doctor may refer you to a psychotherapist, psychiatrist or other specialist in mental health care who can help you identify stressors, develop stress management strategies or address other mental health care concerns.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to regular medical and dental treatment, self-care measures may help improve your oral lichen planus symptoms or help prevent recurring episodes of severe symptoms. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practicing good oral hygiene.&lt;/strong&gt; Keep your mouth clean to reduce your symptoms and help prevent infection. Gently brush and floss your teeth daily. See your dentist twice a year for checkups and cleanings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your diet.&lt;/strong&gt; Cut out spicy or acidic foods if they seem to trigger or worsen your symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Oral lichen planus
+	</Title>
+	<Abstract>
+		Oral lichen planus &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

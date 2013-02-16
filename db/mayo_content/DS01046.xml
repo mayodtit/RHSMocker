@@ -1,0 +1,241 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01046
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heat-exhaustion/DS01046
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-18
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2226" Title="Metabolic disorders">
+						<Keyword MCVID="3043" Title="Heat exhaustion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8B109D94-E7FF-0DBD-10629A8E9A33512D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heat exhaustion
+			</MetaKeyword>
+			<MetaKeyword>
+				heatstroke
+			</MetaKeyword>
+			<MetaKeyword>
+				heat stroke
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heat exhaustion is a condition whose symptoms may include heavy sweating and a rapid pulse, a result of your body overheating. It&apos;s one of three heat-related syndromes, with heat cramps being the mildest and heatstroke being the most severe.
+&lt;/p&gt;
+&lt;p&gt;
+Causes of heat exhaustion include exposure to high temperatures, particularly when combined with high humidity, and strenuous physical activity. Without prompt treatment, heat exhaustion can lead to heatstroke, a life-threatening condition. Fortunately, heat exhaustion is preventable.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of heat exhaustion may develop suddenly, or over time, especially with prolonged periods of exercise. Possible heat exhaustion symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cool, moist skin with goose bumps when in the heat&lt;/li&gt;
+	&lt;li&gt;Heavy sweating&lt;/li&gt;
+	&lt;li&gt;Faintness&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weak, rapid pulse&lt;/li&gt;
+	&lt;li&gt;Low blood pressure upon standing&lt;/li&gt;
+	&lt;li&gt;Muscle cramps&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you think you&apos;re experiencing heat exhaustion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stop all activity and rest&lt;/li&gt;
+	&lt;li&gt;Move to a cooler place&lt;/li&gt;
+	&lt;li&gt;Drink cool water or sports drinks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Contact your doctor if your signs or symptoms worsen or if they don&apos;t improve within one hour. Seek immediate medical attention if your body temperature reaches 104 F (40 C) or higher. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your body&apos;s heat combined with environmental heat results in what&apos;s called your core temperature &amp;mdash; your body&apos;s internal temperature. Your body needs to regulate the heat gain (and in cold weather, heat loss) from the environment to maintain a core temperature that&apos;s normal, approximately 98.6 F (37 C). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your body&apos;s failure to cool itself&lt;/strong&gt;&lt;br /&gt;
+In hot weather, your body cools itself mainly by sweating. The evaporation of your sweat regulates your body temperature. However, when you exercise strenuously or otherwise overexert in hot, humid weather, your body is less able to cool itself efficiently. 
+&lt;/p&gt;
+&lt;p&gt;
+As a result, your body may develop heat cramps, the mildest form of heat-related illness. Signs and symptoms of heat cramps usually include heavy sweating, fatigue, thirst and muscle cramps. Prompt treatment usually prevents heat cramps from progressing to heat exhaustion. 
+&lt;/p&gt;
+&lt;p&gt;
+You usually can treat heat cramps by drinking fluids containing electrolytes (such as Gatorade or other sports drinks), getting into cooler temperatures, such as an air-conditioned or shaded place, and resting. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;/strong&gt;&lt;br /&gt;
+Besides hot weather and strenuous activity, other causes of heat exhaustion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration,&lt;/strong&gt; which reduces your body&apos;s ability to sweat and maintain a normal temperature&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol use,&lt;/strong&gt; which can affect your body&apos;s ability to regulate your temperature&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overdressing,&lt;/strong&gt; particularly in clothes that don&apos;t allow sweat to evaporate easily&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can develop heat exhaustion, but certain factors increase your sensitivity to heat. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young age or old age.&lt;/strong&gt; Infants and children younger than 4 and adults older than 65 are at higher risk of heat exhaustion. The body&apos;s ability to regulate its temperature isn&apos;t fully developed in the young and may be reduced by illness, medications or other factors in older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain drugs.&lt;/strong&gt; Medications that affect your body&apos;s ability to stay hydrated and respond appropriately to heat include some used to treat high blood pressure and heart problems (beta blockers, diuretics), reduce allergy symptoms (antihistamines), calm you (tranquilizers), or reduce psychiatric symptoms such as delusions (antipsychotics). Additionally, some illegal drugs, such as cocaine, amphetamines and Ecstasy, can increase your core temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Carrying excess weight can affect your body&apos;s ability to regulate its temperature and cause your body to retain more heat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden temperature changes.&lt;/strong&gt; If you&apos;re not used to the heat, you&apos;re more susceptible to heat-related illnesses, such as heat exhaustion. Traveling to a warm climate from a cold one or living in an area that&apos;s experienced an early heat wave can put you at risk of a heat-related illness because your body hasn&apos;t had a chance to get used to the higher temperatures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A high heat index.&lt;/strong&gt; The heat index is a single temperature value that considers how both the outdoor temperature and humidity make you feel. When the humidity is high, your sweat can&apos;t evaporate as easily, and your body has more difficulty cooling itself, making you prone to heat exhaustion and heatstroke. When the heat index is 91 F (33 C) or higher, you should take precautions to keep cool.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Untreated, heat exhaustion can lead to heatstroke, a life-threatening condition that occurs when your body temperature reaches 104 F (40 C) or higher. Heatstroke requires immediate medical attention to prevent permanent damage to your brain and other vital organs that can result in death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you need medical attention due to heat exhaustion, it may be apparent to medical personnel that you have heat exhaustion, or they may take your temperature to confirm the diagnosis and rule out heatstroke. If your doctors suspect your heat exhaustion may have progressed to heatstroke, you may need additional tests, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A blood test&lt;/strong&gt; to check for low blood sodium or potassium and the content of gases in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A urine test&lt;/strong&gt; to check the concentration and composition of your urine and to check your kidney function, which can be affected by heatstroke&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests&lt;/strong&gt; to check for rhabdomyolysis &amp;mdash; serious damage to your muscle tissue&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests&lt;/strong&gt; to check for damage to your internal organs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, you can treat heat exhaustion yourself by doing the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest in a cool place.&lt;/strong&gt; Getting into an air-conditioned building is best, but at the least, find a shady spot. Rest on your back with your legs elevated higher than your heart level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink cool fluids.&lt;/strong&gt; Stick to water or sports drinks. Don&apos;t drink any alcoholic beverages, which can contribute to dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool water to your skin.&lt;/strong&gt; If possible, take a cool shower or soak in a cool bath. Don&apos;t use alcohol on your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loosen clothing.&lt;/strong&gt; Remove any unnecessary clothing and make sure your clothes are lightweight and nonbinding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you don&apos;t begin to feel better within one hour of using these treatment measures, seek prompt medical attention. You may be given intravenous (IV) fluids to help you rehydrate. Immersing you in cold water, misting your skin, placing you in front of fans, or using cold or ice packs and cooling blankets are some of the techniques that may be used to bring down your body temperature.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take a number of precautions to prevent heat exhaustion and other heat-related illnesses. When temperatures climb, remember to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear loosefitting, lightweight, light-colored clothing.&lt;/strong&gt; Excess, dark or tight clothing holds in heat and doesn&apos;t let your body cool properly because it inhibits sweat evaporation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sunburn.&lt;/strong&gt; If you&apos;re going to be outdoors, wear a lightweight, wide-brimmed hat or use an umbrella to protect yourself from the sun, and apply sunscreen to any exposed skin. Having a sunburn reduces your body&apos;s ability to rid itself of heat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek a cooler place.&lt;/strong&gt; Being in an air-conditioned building, even for just a few hours, is one of the best ways to prevent heat exhaustion. If your home doesn&apos;t have an air conditioner, consider spending time at a library or shopping mall. At the least, find a well-shaded spot. Fans alone aren&apos;t adequate to counter high heat and humidity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt; Staying hydrated will help your body sweat and maintain a normal body temperature. If your doctor has told you to limit fluids because of a health condition, be sure to check with him or her about how much extra you need to drink when the temperature rises. Avoid alcoholic beverages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take extra precautions with certain medications.&lt;/strong&gt; Ask your doctor or pharmacist whether the medications you take make you more susceptible to heat exhaustion and, if so, what you can do to keep your body from overheating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid hot spots.&lt;/strong&gt; On a hot day, the temperature in your parked car can rise 20 F (about 6.7 C) in just 10 minutes. Let your car cool off before you drive it. Never leave children or anyone else in a parked car in hot weather for any period of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let your body acclimate to the heat.&lt;/strong&gt; If you travel to somewhere hot, or the temperatures suddenly jump in your area, it can take several weeks for your body to get used to the heat. You&apos;ll still need to take precautions, but working or exercising in heat should become more tolerable. If you&apos;re on vacation, you probably don&apos;t have several weeks to wait, but it&apos;s a good idea to wait at least a few days before attempting vigorous activity in the heat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s best not to exercise or do any strenuous activity in hot weather, but if you must, follow the same precautions and rest frequently in a cool spot. Taking breaks and replenishing your fluids during that time will help your body regulate your temperature.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heat exhaustion
+	</Title>
+	<Abstract>
+		Heat exhaustion &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this heat-related illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01025" LinkType="Internal" ObjectID="4CA23C89-E7FF-0DBD-151E9A73BDA321AC" Title="Heatstroke" Url="http://www.mayoclinic.com/health/heat-stroke/DS01025" />
+		<LinkItem ContentType="FirstAid" DocID="FA00019" LinkType="Internal" ObjectID="7A953D26-B923-446D-8EB55B799249D3E9" Title="Heatstroke: First aid" Url="http://www.mayoclinic.com/health/first-aid-heatstroke/FA00019" />
+		<LinkItem ContentType="FirstAid" DocID="FA00020" LinkType="Internal" ObjectID="6EA9E9E2-092B-4E95-BF4FBD95708D703F" Title="Heat exhaustion: First aid" Url="http://www.mayoclinic.com/health/first-aid-heat-exhaustion/FA00020" />
+		<LinkItem ContentType="Article" DocID="HQ00316" LinkType="Internal" ObjectID="ECAFE3E7-C215-41DA-9F75A2087398E84C" Title="Heat and exercise: Keeping cool in hot weather" Url="http://www.mayoclinic.com/health/exercise/HQ00316" />
+	</RelatedLinksBox>
+</Disease>

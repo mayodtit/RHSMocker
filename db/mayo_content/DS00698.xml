@@ -1,0 +1,485 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00698
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/childhood-obesity/DS00698
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-04
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="1672" Title="Obesity">
+						<Keyword MCVID="4231" Title="Childhood obesity" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C1B16559-2A5D-9994-E50F2B09A6C7AE07
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				childhood obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				child obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				adolescent obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				children&apos;s health
+			</MetaKeyword>
+			<MetaKeyword>
+				childrens health
+			</MetaKeyword>
+			<MetaKeyword>
+				weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				children and weight
+			</MetaKeyword>
+			<MetaKeyword>
+				weight control
+			</MetaKeyword>
+			<MetaKeyword>
+				overweight child
+			</MetaKeyword>
+			<MetaKeyword>
+				overweight children
+			</MetaKeyword>
+			<MetaKeyword>
+				effects of childhood obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				preventing childhood obesity
+			</MetaKeyword>
+			<MetaKeyword>
+				child nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				children&apos;s nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				child weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				children&apos;s weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				children&apos;s weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				child weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				adolescent weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				adolescent nutrition
+			</MetaKeyword>
+			<MetaKeyword>
+				adolescent weight control
+			</MetaKeyword>
+			<MetaKeyword>
+				adolescent weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				obesity in children
+			</MetaKeyword>
+			<MetaKeyword>
+				nutrition for kids
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Childhood obesity is a serious medical condition that affects children and adolescents. It occurs when a child is well above the normal weight for his or her age and height. Childhood obesity is particularly troubling because the extra pounds often start children on the path to health problems that were once confined to adults, such as diabetes, high blood pressure and high cholesterol. Childhood obesity can also lead to poor self-esteem and depression.
+&lt;/p&gt;
+&lt;p&gt;
+One of the best strategies to reduce childhood obesity is to improve the diet and exercise habits of your entire family. Treating and preventing childhood obesity helps protect the health of your child now and in the future.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Not all children carrying extra pounds are overweight or obese. Some children have larger than average body frames. And children normally carry different amounts of body fat at the various stages of development. So you might not know just by looking at your child if his or her weight is a health concern.
+&lt;/p&gt;
+&lt;p&gt;
+Your child&apos;s doctor can help you figure out if your child&apos;s weight could pose health problems, using growth charts and if necessary, other tests.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re worried that your child is putting on too much weight, talk to his or her doctor or health care provider. He or she will consider your child&apos;s individual history of growth and development, your family&apos;s weight-for-height history, and where your child lands on the growth charts. This can help determine if your child&apos;s weight is in an unhealthy range.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there are some genetic and hormonal causes of childhood obesity, most of the time it&apos;s caused by kids eating too much and exercising too little.
+&lt;/p&gt;
+&lt;p&gt;
+Far less common than lifestyle issues are genetic diseases and hormonal disorders that can make a child more likely to be obese.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many factors &amp;mdash; usually working in combination &amp;mdash; increase your child&apos;s risk of becoming overweight:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; Regularly eating high-calorie foods, such as fast foods, baked goods and vending machine snacks, can easily cause your child to gain weight. Loading up on soft drinks containing sugar, candy and desserts also can cause weight gain. Foods and beverages like these are high in sugar, fat and calories.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of exercise.&lt;/strong&gt; Children who don&apos;t exercise much are more likely to gain weight because they don&apos;t burn calories through physical activity. Inactive leisure activities, such as watching television or playing video games, contribute to the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If your child comes from a family of overweight people, he or she may be more likely to put on excess weight, especially in an environment where high-calorie food is always available and physical activity isn&apos;t encouraged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological factors.&lt;/strong&gt; Some children overeat to cope with problems or to deal with emotions, such as stress, or to fight boredom. Their parents may have similar tendencies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family factors.&lt;/strong&gt; If many of the groceries you buy are convenience foods, such as cookies, chips and other high-calorie items, this can contribute to your child&apos;s weight gain. If you can control your child&apos;s access to high-calorie foods, you may be able to help your child lose weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Socioeconomic factors.&lt;/strong&gt; Foods that won&apos;t spoil quickly, such as frozen meals, crackers and cookies often contain a lot of salt and fats. These foods are often less expensive or an easier option than fresher, healthier foods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Childhood obesity can have complications for the physical, social and emotional well-being of your child.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical complications&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Type 2 diabetes.&lt;/strong&gt; Type 2 diabetes in children is a chronic condition that affects the way your child&apos;s body metabolizes sugar (glucose). Type 2 diabetes is caused in part by a poor diet, and can often be reversed by eating healthier foods and exercising.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metabolic syndrome.&lt;/strong&gt; Metabolic syndrome isn&apos;t a disease itself, but a cluster of conditions that can put your child at risk of developing heart disease, diabetes or other health problems. This cluster of conditions includes high blood pressure, high blood sugar, high cholesterol and excess abdominal fat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High cholesterol and high blood pressure.&lt;/strong&gt; Your child can develop high blood pressure or high cholesterol if he or she eats a poor diet. These factors can contribute to the buildup of plaques in the arteries. These plaques can cause arteries to narrow and harden, which can lead to a heart attack or stroke later in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma and other breathing problems.&lt;/strong&gt; The extra weight on your child&apos;s body can cause problems with the development and health of your child&apos;s lungs, leading to asthma or other breathing problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep disorders.&lt;/strong&gt; Sleep apnea, a condition in which your child may snore or have abnormal breathing when he or she sleeps, can be a complication of childhood obesity. Pay attention to breathing problems your child may have while sleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Early puberty or menstruation.&lt;/strong&gt; Being obese can create hormone imbalances for your child. These imbalances can cause puberty to start earlier than expected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Social and emotional complications&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low self-esteem and bullying.&lt;/strong&gt; Children often tease or bully their overweight peers, who suffer a loss of self-esteem and an increased risk of depression as a result.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Behavior and learning problems.&lt;/strong&gt; Overweight children tend to have more anxiety and poorer social skills than normal-weight children have. At one extreme, these problems may lead overweight children to act out and disrupt their classrooms. At the other, they may cause overweight children to socially withdraw. Stress and anxiety also interfere with learning. School-related anxiety can create a vicious cycle in which ever-growing worry fuels ever-declining academic performance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; Low self-esteem can create overwhelming feelings of hopelessness in some overweight children. When children lose hope that their lives will improve, they may become depressed. A depressed child may lose interest in normal activities, sleep more than usual or cry a lot. Some depressed children hide their sadness and appear emotionally flat instead. Either way, depression is as serious in children as in adults. If you think your child is depressed, talk with him or her and share your concerns with his or her doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s family doctor or pediatrician will probably make the initial diagnosis of childhood obesity. If your child has complications from being obese, you&apos;ll likely be referred to additional specialists to help manage all your child&apos;s conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for any appointments you have with your child&apos;s health care team. Here&apos;s some information to help you get ready for your appointment, and know what you can expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; If your doctor is going to test your child&apos;s blood sugar or cholesterol, your child may need to fast for four to eight hours. When you&apos;re making an appointment, ask if any type of fasting is necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms&lt;/strong&gt; your child is experiencing, including any that may seem unrelated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to join you,&lt;/strong&gt; if possible. Managing childhood obesity requires you to retain a lot of information, and it can sometimes be difficult to soak up all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a notebook and a pen or pencil,&lt;/strong&gt; to write down important information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring any growth measurements&lt;/strong&gt; you may have recorded at home to show your child&apos;s doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Record a typical week of meals&lt;/strong&gt; that your child eats to show your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For childhood obesity, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What other health problems might my child have?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for my child?&lt;/li&gt;
+	&lt;li&gt;Are there medications that might help manage my child&apos;s weight and other health conditions?&lt;/li&gt;
+	&lt;li&gt;How long will treatment take?&lt;/li&gt;
+	&lt;li&gt;What can I do to help my child lose weight?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to your prepared questions, don&apos;t hesitate to ask questions during your child&apos;s appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+During your appointment, your doctor or other health provider is likely to ask you a number of questions about your child&apos;s eating, activity, mood and thoughts, and any symptoms your child might have. You may be asked such questions as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What does your child eat in a typical day?&lt;/li&gt;
+	&lt;li&gt;How much activity does your child get in a typical day?&lt;/li&gt;
+	&lt;li&gt;What are the factors that you believe affect your child&apos;s weight?&lt;/li&gt;
+	&lt;li&gt;What diets or treatments, if any, have you tried to help your child lose weight?&lt;/li&gt;
+	&lt;li&gt;What other medical conditions, if any, does your child have?&lt;/li&gt;
+	&lt;li&gt;Do you have any family members with weight problems?&lt;/li&gt;
+	&lt;li&gt;Are you ready to make changes in your family&apos;s lifestyle to help your child lose weight?&lt;/li&gt;
+	&lt;li&gt;What do you think might prevent your child from losing weight?&lt;/li&gt;
+	&lt;li&gt;What medications does your child take?&lt;/li&gt;
+	&lt;li&gt;How often does the family have meals together? Does the child help prepare the food?&lt;/li&gt;
+	&lt;li&gt;Does the child, or family, eat while watching TV or using a computer?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you have several days or weeks before your child&apos;s scheduled appointment, you can start making some changes on your own to your family&apos;s eating and activity levels as you begin the journey to lose weight. Start preparing healthier meals for your family, and encourage your child to be active by taking walks, going for bike rides or playing sports.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As part of regular well-child care, the doctor calculates your child&apos;s body mass index (BMI) and determines where it falls on the national BMI-for-age growth chart. The BMI helps indicate if your child is overweight for his or her age and height.
+&lt;/p&gt;
+&lt;p&gt;
+Using the growth chart, your doctor determines your child&apos;s percentile, meaning how your child compares with other children of the same sex and age. So, for example, you might be told that your child is in the 80th percentile. This means that compared with other children of the same sex and age, 80 percent have a lower BMI.
+&lt;/p&gt;
+&lt;p&gt;
+Cutoff points on these growth charts, established by the Centers for Disease Control and Prevention (CDC), help identify overweight and obese children:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;BMI-for-age between 85th and 94th percentiles &amp;mdash; overweight&lt;/li&gt;
+	&lt;li&gt;BMI-for-age 95th percentile or above &amp;mdash; obesity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because BMI doesn&apos;t consider things like being muscular or having a larger than average body frame and because growth patterns vary greatly among children, your doctor also factors your child&apos;s growth and development into consideration. This helps determine whether your child&apos;s weight is a health concern.
+&lt;/p&gt;
+&lt;p&gt;
+In addition to BMI and charting weight on the growth charts, the doctor also evaluates:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your family&apos;s history of obesity and weight-related health problems, such as diabetes&lt;/li&gt;
+	&lt;li&gt;Your child&apos;s eating habits&lt;/li&gt;
+	&lt;li&gt;Your child&apos;s activity level&lt;/li&gt;
+	&lt;li&gt;Other health conditions your child may have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt;&lt;br /&gt;
+Your child&apos;s doctor may order blood tests if he or she finds that your child is obese. These tests include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cholesterol test&lt;/li&gt;
+	&lt;li&gt;A blood sugar test (fasting blood glucose)&lt;/li&gt;
+	&lt;li&gt;Other blood tests to check for hormone imbalances that could affect your child&apos;s weight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some of these tests require that your child not eat or drink anything for up to eight hours before the test. Your child&apos;s doctor should tell you whether your child should fast before a blood test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for childhood obesity is based on your child&apos;s age and if he or she has other medical conditions. Treatment usually includes changes in your child&apos;s diet and level of physical activity. In certain circumstances, treatment may include medications or weight-loss surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for children under age 7&lt;/strong&gt;&lt;br /&gt;
+For children under age 7 who have no other health concerns, the goal of treatment may be weight maintenance rather than weight loss. This strategy allows the child to add inches in height but not pounds, causing BMI-for-age to drop over time into a healthier range. However, for an obese child, maintaining weight while waiting to grow taller may be as difficult as losing weight is for older people. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for children 7 years of age and older&lt;/strong&gt;&lt;br /&gt;
+Weight loss is typically recommended for children older than age 7 or for younger children who have related health concerns. Weight loss should be slow and steady &amp;mdash; anywhere from 1 pound (about 0.5 kilograms) a week to 1 pound a month, depending on your child&apos;s condition. 
+&lt;/p&gt;
+&lt;p&gt;
+The methods for maintaining your child&apos;s current weight or losing weight are the same: Your child needs to eat a healthy diet and increase his or her physical activity. Success depends largely on your commitment to helping your child make these changes. Think of eating habits and exercise habits as two sides of the same coin: When you consider one, you also need to consider the other. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Healthy eating&lt;/strong&gt;&lt;br /&gt;
+Parents are the ones who buy the food, cook the food and decide where the food is eaten. Even small changes can make a big difference in your child&apos;s health. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;When buying groceries, choose fruits and vegetables.&lt;/strong&gt; Convenience foods, such as cookies, crackers and prepared meals, are often high in sugar and fat. Always have healthy snacks available. And never use food as a reward or punishment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit sweetened beverages,&lt;/strong&gt; including those containing fruit juice. These drinks provide little nutritional value in exchange for their high calories. They also can make your child feel too full to eat healthier foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sit down together for family meals.&lt;/strong&gt; Make it an event &amp;mdash; a time to share news and tell stories. Discourage eating in front of a screen, such as a television, computer or video game. This leads to fast eating and lowered awareness of how much you&apos;re eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit the number of times you eat out,&lt;/strong&gt; especially at fast-food restaurants. Many of the menu options are high in fat and calories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical activity&lt;/strong&gt;&lt;br /&gt;
+A critical part of weight loss, especially for children, is physical activity. It not only burns calories but also builds strong bones and muscles and helps children sleep well at night and stay alert during the day. Such habits established in childhood help adolescents maintain healthy weight despite the hormonal changes, rapid growth and social influences that often lead to overeating. And active children are more likely to become fit adults. 
+&lt;/p&gt;
+&lt;p&gt;
+To increase your child&apos;s activity level: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit recreational computer and TV time to no more than 2 hours a day.&lt;/strong&gt; A surefire way to increase your child&apos;s activity levels is to limit the number of hours he or she is allowed to watch television each day. Other sedentary activities &amp;mdash; playing video and computer games or talking on the phone &amp;mdash; also should be limited. Don&apos;t let your child eat while viewing an electronic screen; it keeps your child from being aware of how much he or she is eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emphasize activity, not exercise.&lt;/strong&gt; Your child&apos;s activity doesn&apos;t have to be a structured exercise program &amp;mdash; the object is just to get him or her moving. Free-play activities, such as playing hide-and-seek, tag or jump-rope, can be great for burning calories and improving fitness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find activities your child likes to do.&lt;/strong&gt; For instance, if your child is artistically inclined, go on a nature hike to collect leaves and rocks that your child can use to make a collage. If your child likes to climb, head for the nearest neighborhood jungle gym or climbing wall. If your child likes to read, then walk or bike to the neighborhood library for a book.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you want an active child, be active yourself.&lt;/strong&gt; Find fun activities that the whole family can do together. Never make exercise seem a punishment or a chore.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vary the activities.&lt;/strong&gt; Let each child take a turn choosing the activity of the day or week. Batting practice, bowling and swimming all count. What matters is that you&apos;re doing something active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+One prescription weight-loss drug is available in the United States for adolescents: orlistat (Xenical). Orlistat, which is approved for adolescents older than 12, prevents the absorption of fat in the intestines.
+&lt;/p&gt;
+&lt;p&gt;
+The Food and Drug Administration has approved a reduced-strength over-the-counter (nonprescription) version of orlistat (Alli). Though readily available in pharmacies and drugstores, Alli is not approved for children or teenagers under age 18. 
+&lt;/p&gt;
+&lt;p&gt;
+Prescription medication isn&apos;t often recommended for adolescents. The risks of taking a prescription medication long term is unknown, and the medication&amp;rsquo;s effect on weight loss and weight maintenance for adolescents is still questioned. And weight-loss drugs don&apos;t replace the need to adopt a healthy diet and exercise regimen. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has high cholesterol, it&apos;s possible your doctor may recommend giving your child a statin medication. Statins help lower cholesterol, but their use in children remains controversial, since it&apos;s uncertain what long-term side effects they might have. Because of disagreement in the medical community about treating high cholesterol in children, talk to your child&apos;s doctor about what&apos;s best for your child.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Weight-loss surgery&lt;/strong&gt;&lt;br /&gt;
+Weight-loss surgery can be a safe and effective option for some severely obese adolescents who have been unable to lose weight using conventional weight-loss methods. However, as with any type of surgery, there are potential risks and long-term complications. Also, the long-term effects of weight-loss surgery on a child&apos;s future growth and development are largely unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+Weight-loss surgery in adolescents is uncommon. But your doctor may recommend this surgery if your child&apos;s weight poses a greater health threat than do the potential risks of surgery. It is important that a child being considered for weight-loss surgery meet with a team of pediatric specialists, including a pediatric endocrinologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Even so, surgery isn&apos;t the easy answer for weight loss. It doesn&apos;t guarantee that your child loses all of his or her excess weight or that your child keeps it off long term. It also doesn&apos;t replace the need for following a healthy diet and regular physical activity program. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because medications and surgeries aren&apos;t recommended for children age 7 and younger, and aren&apos;t often recommended for children older than 7, lifestyle changes are usually the best childhood obesity treatment. Your child&apos;s best chance to get to a healthy weight is to start eating a healthy diet and exercising more.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Healthy eating&lt;/strong&gt;&lt;br /&gt;
+Parents are the ones who buy the food, cook the food and decide where the food is eaten. Even small changes can make a big difference in your child&apos;s health.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;When buying groceries, choose fruits and vegetables.&lt;/strong&gt; Convenience foods, such as cookies, crackers and prepared meals, are high in sugar and fat. Always have healthy snacks available. And never use food as a reward or punishment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit sweetened beverages,&lt;/strong&gt; including those containing fruit juice. These drinks provide little nutritional value in exchange for their high calories. They also can make your child feel too full to eat healthier foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sit down together for family meals.&lt;/strong&gt; Make it an event &amp;mdash; a time to share news and tell stories. Discourage eating in front of a screen, such as a television, computer or video game. This leads to fast eating and lowered awareness of how much you&apos;re eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit the number of times you eat out,&lt;/strong&gt; especially at fast-food restaurants. Many of the menu options are high in fat and calories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical activity&lt;/strong&gt;&lt;br /&gt;
+A critical part of weight loss, especially for children, is physical activity. It not only burns calories but also builds strong bones and muscles and helps children sleep well at night and stay alert during the day. Such habits established in childhood help adolescents maintain healthy weight despite the hormonal changes, rapid growth and social influences that often lead to overeating. And active children are more likely to become fit adults.
+&lt;/p&gt;
+&lt;p&gt;
+To increase your child&apos;s activity level:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit recreational computer and TV time to no more than 2 hours a day.&lt;/strong&gt; A surefire way to increase your child&apos;s activity levels is to limit the number of hours he or she is allowed to watch television each day. Other sedentary activities &amp;mdash; playing video and computer games or talking on the phone &amp;mdash; also should be limited.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emphasize activity, not exercise.&lt;/strong&gt; Your child&apos;s activity doesn&apos;t have to be a structured exercise program &amp;mdash; the object is just to get him or her moving. Free-play activities, such as playing hide-and-seek, tag or jump-rope, can be great for burning calories and improving fitness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find activities your child likes to do.&lt;/strong&gt; For instance, if your child is artistically inclined, go on a nature hike to collect leaves and rocks that your child can use to make a collage. If your child likes to climb, head for the nearest neighborhood jungle gym or climbing wall. If your child likes to read, then walk or bike to the neighborhood library for a book.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you want an active child, be active yourself.&lt;/strong&gt; Find fun activities that the whole family can do together. Never make exercise seem a punishment or a chore.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vary the activities.&lt;/strong&gt; Let each child take a turn choosing the activity of the day or week. Batting practice, bowling and swimming all count. What matters is that you&apos;re doing something active.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Parents play a crucial role in helping children who are obese feel loved and in control of their weight. Take advantage of every opportunity to build your child&apos;s self-esteem. Don&apos;t be afraid to bring up the topic of health and fitness, but do be sensitive that a child may view your concern as an insult. Talk to your kids directly, openly and without being critical or judgmental.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, consider the following advice:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be sensitive to your child&apos;s needs and feelings.&lt;/strong&gt; Becoming active is an important lifestyle change for your child to make, but your child is more likely to stick to those changes if you let him or her choose what physical activities he or she is comfortable with.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find reasons to praise your child&apos;s efforts.&lt;/strong&gt; Celebrate small, incremental changes, but don&apos;t reward with food. Choose other ways to mark your child&apos;s accomplishments, such as going to the bowling alley or a local park.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your child about his or her feelings.&lt;/strong&gt; Help your child find ways to deal with his or her emotions that don&apos;t involve eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Help your child focus on positive goals.&lt;/strong&gt; For example, point out that he or she can now bike for more than 20 minutes without getting tired or can run the required number of laps in gym class.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether your child is at risk of becoming overweight or currently at a healthy weight, you can take proactive measures to get or keep things on the right track. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Schedule yearly well-child visits.&lt;/strong&gt; Take your child to the doctor for well-child checkups at least once a year. During this visit, the doctor measures your child&apos;s height and weight and calculates his or her BMI. Increases in your child&apos;s BMI or in his or her percentile rank over one year, especially if your child is older than 4, is a possible sign that your child is at risk of becoming overweight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set a good example.&lt;/strong&gt; Make sure you eat healthy foods and exercise regularly to maintain your weight. Then, invite your child to join you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid food-related power struggles with your child.&lt;/strong&gt; You might unintentionally lay the groundwork for such battles by providing or withholding certain foods &amp;mdash; sweets, for instance &amp;mdash; as rewards or punishments. As a general rule, don&apos;t use food as a reward or punishment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emphasize the positive.&lt;/strong&gt; Encourage a healthy lifestyle by highlighting the positive &amp;mdash; the fun of playing outside or the variety of fresh fruit you can get year-round, for example. Emphasize the benefits of exercise apart from helping to manage weight. For example, it makes the heart, lungs and other muscles stronger. If you foster your child&apos;s natural inclination to run around, explore and eat only when hungry &amp;mdash; not out of boredom &amp;mdash; a healthy weight should take care of itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be patient.&lt;/strong&gt; Many overweight children grow into their extra pounds as they get taller. Realize, too, that an intense focus on your child&apos;s eating habits and weight can easily backfire, leading a child to overeat even more, or possibly making him or her more prone to developing an eating disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be responsible about your own weight.&lt;/strong&gt; Obesity often occurs in several family members. If you need to lose weight, doing so will motivate your child to do likewise. Don&apos;t expect your child to do something you are unwilling to do for yourself.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Childhood obesity
+	</Title>
+	<Abstract>
+		Childhood obesity &amp;mdash; Comprehensive overview covers screening, complications, treatment and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02117" LinkType="Internal" ObjectID="3DD1EBF5-E354-CE81-FA074E03BE0EDE7E" Title="Neck size: Better than BMI for kids?" Url="http://www.mayoclinic.com/health/neck-size/AN02117" />
+		<LinkItem ContentType="Answer" DocID="AN02023" LinkType="Internal" ObjectID="1030C163-F45E-EE9F-2744CBB4A8985FDA" Title="High cholesterol in children: How is it treated?" Url="http://www.mayoclinic.com/health/high-cholesterol-in-children/AN02023" />
+		<LinkItem ContentType="Article" DocID="MY00522" LinkType="Internal" ObjectID="DB545634-D392-85C6-1E6A99117A2A88A5" Title="Children and TV: Limiting your child&apos;s screen time" Url="http://www.mayoclinic.com/health/children-and-tv/MY00522" />
+		<LinkItem ContentType="Article" DocID="WT00012" LinkType="Internal" ObjectID="469A09F4-09D3-4A28-82112C1A70B826EE" Title="Teen weight loss: Healthy habits count" Url="http://www.mayoclinic.com/health/teen-weight-loss/WT00012" />
+		<LinkItem ContentType="Article" DocID="MY01341" LinkType="Internal" ObjectID="191ECC22-A2BA-83CB-D7368252112F6ADB" Title="Recipes for kids: Have fun with healthy eating" Url="http://www.mayoclinic.com/health/recipes-for-kids/MY01341" />
+		<LinkItem ContentType="Article" DocID="HQ00419" LinkType="Internal" ObjectID="179DFA54-BAA7-4B3C-9230E10BFE559737" Title="Healthy snacks for kids: 10 child-friendly tips" Url="http://www.mayoclinic.com/health/childrens-health/HQ00419" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,122 @@
+<FirstAid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FirstAid.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			FirstAid
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			FA00021
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/first-aid-heat-cramps/FA00021
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-03
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid">
+					<Keyword MCVID="3160" Title="Hot and cold weather related problems" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3670" Title="Bones joints and muscles">
+					<Keyword MCVID="3673" Title="Heat cramps" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A9752867-8B04-4D75-AA1B787D968436F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heat cramps
+			</MetaKeyword>
+			<MetaKeyword>
+				heatstroke
+			</MetaKeyword>
+			<MetaKeyword>
+				sun poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				charlie horse
+			</MetaKeyword>
+			<MetaKeyword>
+				charley horse
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Heat cramps are painful, involuntary muscle spasms that usually occur during heavy exercise in hot environments. The spasms may be more intense and more prolonged than are typical nighttime leg cramps. Inadequate fluid intake often contributes to heat cramps.
+&lt;/p&gt;
+&lt;p&gt;
+Muscles most often affected include those of your calves, arms, abdominal wall and back, although heat cramps may involve any muscle group involved in exercise.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you suspect heat cramps&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rest briefly and cool down&lt;/li&gt;
+	&lt;li&gt;Drink clear juice or an electrolyte-containing sports drink&lt;/li&gt;
+	&lt;li&gt;Practice gentle, range-of-motion stretching and gentle massage of the affected muscle group&lt;/li&gt;
+	&lt;li&gt;Don&apos;t resume strenuous activity for several hours or longer after heat cramps go away&lt;/li&gt;
+	&lt;li&gt;Call your doctor if your cramps don&apos;t go away within one hour or so&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Heat cramps
+	</Title>
+	<Abstract>
+		How to recognize and provide first-aid treatment for heat cramps.
+	</Abstract>
+	<MobileBody>
+		&lt;p&gt;
+Heat cramps are painful, involuntary muscle spasms that usually occur during heavy exercise in hot environments. Inadequate fluid intake often contributes to heat cramps.
+&lt;/p&gt;
+&lt;p&gt;
+Muscles most often affected include those of your calves, arms, abdominal wall and back, although any muscle group involved in exercise may be affected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you suspect heat cramps&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rest briefly and cool down&lt;/li&gt;
+	&lt;li&gt;Drink clear juice or an electrolyte-containing sports drink&lt;/li&gt;
+	&lt;li&gt;Practice gentle, range-of-motion stretching and gentle massage of the affected muscle group&lt;/li&gt;
+	&lt;li&gt;Call your doctor if your cramps don&apos;t go away within one hour or so&lt;/li&gt;
+&lt;/ul&gt;
+	</MobileBody>
+	<BenefitSummary />
+</FirstAid>

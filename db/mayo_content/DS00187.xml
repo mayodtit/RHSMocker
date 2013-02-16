@@ -1,0 +1,403 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00187
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/insomnia/DS00187
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-07
+		</UpdateDate>
+		<PublicationDate>
+			2000-05-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3971" Title="Sleep conditions">
+						<Keyword MCVID="2624" Title="Insomnia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4A51681C-E903-48E6-9339EFF42FD2E52C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				insomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				sleeplessness
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep patterns
+			</MetaKeyword>
+			<MetaKeyword>
+				sleeping pills
+			</MetaKeyword>
+			<MetaKeyword>
+				restless leg syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Insomnia is a disorder that can make it hard to fall asleep, hard to stay asleep, or both. With insomnia, you usually awaken feeling unrefreshed, which takes a toll on your ability to function during the day. Insomnia can sap not only your energy level and mood but also your health, work performance and quality of life.
+&lt;/p&gt;
+&lt;p&gt;
+How much sleep is enough varies from person to person. Most adults need seven to eight hours a night. Many adults experience insomnia at some point, but some people have long-term (chronic) insomnia. 
+&lt;/p&gt;
+&lt;p&gt;
+You don&apos;t have to put up with sleepless nights. Simple changes in your daily habits can help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Insomnia symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty falling asleep at night&lt;/li&gt;
+	&lt;li&gt;Awakening during the night&lt;/li&gt;
+	&lt;li&gt;Awakening too early&lt;/li&gt;
+	&lt;li&gt;Not feeling well rested after a night&apos;s sleep&lt;/li&gt;
+	&lt;li&gt;Daytime fatigue or sleepiness&lt;/li&gt;
+	&lt;li&gt;Irritability, depression or anxiety&lt;/li&gt;
+	&lt;li&gt;Difficulty paying attention or focusing on tasks&lt;/li&gt;
+	&lt;li&gt;Increased errors or accidents&lt;/li&gt;
+	&lt;li&gt;Tension headaches&lt;/li&gt;
+	&lt;li&gt;Gastrointestinal symptoms&lt;/li&gt;
+	&lt;li&gt;Ongoing worries about sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Someone with insomnia will often take 30 minutes or more to fall asleep and may get only six or fewer hours of sleep for three or more nights a week. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If insomnia makes it hard for you to function during the day, see your doctor to determine what might be the cause of your sleep problem and how it can be treated. If your doctor thinks you could have a sleep disorder, you might be referred to a sleep center for special testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common causes of insomnia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Concerns about work, school, health or family can keep your mind active at night, making it difficult to sleep. Stressful life events, such as the death or illness of a loved one, divorce or a job loss, may lead to insomnia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety.&lt;/strong&gt; Everyday anxieties as well as more-serious anxiety disorders may disrupt your asleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; You might either sleep too much or have trouble sleeping if you&apos;re depressed. This may be due to chemical imbalances in your brain or because worries that accompany depression may keep you from relaxing enough to fall asleep. Insomnia often accompanies other mental health disorders as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Many prescription drugs can interfere with sleep, including some antidepressants, heart and blood pressure medications, allergy medications, stimulants (such as Ritalin) and corticosteroids. Many over-the-counter (OTC) medications, including some pain medication combinations, decongestants and weight-loss products, contain caffeine and other stimulants. Antihistamines may initially make you groggy, but they can worsen urinary problems, causing you to get up to urinate more during the night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Caffeine, nicotine and alcohol.&lt;/strong&gt; Coffee, tea, cola and other caffeine-containing drinks are well-known stimulants. Drinking coffee in the late afternoon and later can keep you from falling asleep at night. Nicotine in tobacco products is another stimulant that can cause insomnia. Alcohol is a sedative that may help you fall asleep, but it prevents deeper stages of sleep and often causes you to awaken in the middle of the night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions.&lt;/strong&gt; If you have chronic pain, breathing difficulties or a need to urinate frequently, you might develop insomnia. Conditions linked with insomnia include arthritis, cancer, heart failure, lung disease, gastroesophageal reflux disease (GERD), overactive thyroid, stroke, Parkinson disease and Alzheimer&apos;s disease. Making sure that your medical conditions are well treated may help with your insomnia. If you have arthritis, for example, taking a pain reliever before bed may help you sleep better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change in your environment or work schedule.&lt;/strong&gt; Travel or working a late or early shift can disrupt your body&apos;s circadian rhythms, making it difficult to sleep. Your circadian rhythms act as internal clocks, guiding such things as your sleep-wake cycle, metabolism and body temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor sleep habits.&lt;/strong&gt; Habits that help promote good sleep are called sleep hygiene. Poor sleep hygiene includes an irregular sleep schedule, stimulating activities before bed, an uncomfortable sleep environment and use of your bed for activities other than sleep or sex.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&apos;Learned&apos; insomnia.&lt;/strong&gt; This may occur when you worry excessively about not being able to sleep well and try too hard to fall asleep. Most people with this condition sleep better when they&apos;re away from their usual sleep environment or when they don&apos;t try to sleep, such as when they&apos;re watching TV or reading.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating too much late in the evening.&lt;/strong&gt; Having a light snack before bedtime is OK, but eating too much may cause you to feel physically uncomfortable while lying down, making it difficult to get to sleep. Many people also experience heartburn, a backflow of acid and food from the stomach into the esophagus after eating. This uncomfortable feeling may keep you awake.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Insomnia and aging&lt;br /&gt;
+&lt;/strong&gt;Insomnia becomes more common with age. As you get older, changes can occur that may affect your sleep. You may experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A change in sleep patterns.&lt;/strong&gt; Sleep often becomes less restful as you age, and you may find that noise or other changes in your environment are more likely to wake you as you get older. With age, your internal clock often advances, which means you get tired earlier in the evening and wake up earlier in the morning. But older people generally still need the same amount of sleep as younger people do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A change in activity.&lt;/strong&gt; You may be less physically or socially active. Activity helps promote a good night&apos;s sleep. You may also be more likely to take a daily nap, which also can interfere with sleep at night.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;A change in health.&lt;/strong&gt; The chronic pain of conditions such as arthritis or back problems as well as depression, anxiety and stress can interfere with sleep. Older men often develop noncancerous enlargement of the prostate gland (benign prostatic hyperplasia), which can cause the need to urinate frequently, interrupting sleep. In women, hot flashes that accompany menopause can be equally disruptive.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Other sleep-related disorders, such as sleep apnea and restless legs syndrome, also become more common with age. Sleep apnea causes you to stop breathing periodically throughout the night. Restless legs syndrome causes unpleasant sensations in your legs and an almost irresistible desire to move them, which may prevent you from falling asleep.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased use of medications.&lt;/strong&gt; Older people use more prescription drugs than younger people do, which increases the chance of insomnia caused by a medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sleep problems may be a concern for children and teenagers as well. Some children and teenagers simply have trouble getting to sleep or resist a regular bedtime because their internal clocks are more delayed. They want to go to bed later and sleep later in the morning.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nearly everyone has an occasional sleepless night. But your risk of insomnia is greater if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re a woman.&lt;/strong&gt; Women are much more likely to experience insomnia. Hormonal shifts during the menstrual cycle and in menopause may play a role. During menopause, night sweats and hot flashes often disturb sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re over age 60.&lt;/strong&gt; Because of changes in sleep patterns, insomnia increases with age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have a mental health disorder.&lt;/strong&gt; Many disorders, including depression, anxiety, bipolar disorder and post-traumatic stress disorder, disrupt sleep. Early-morning awakening is a classic symptom of depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re under a lot of stress.&lt;/strong&gt; Stressful events can cause temporary insomnia, and major or long-lasting stress, such as the death of a loved one or a divorce, can lead to chronic insomnia. Being poor or unemployed also increases the risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You work night or changing shifts.&lt;/strong&gt; Working at night or frequently changing shifts increases your risk of insomnia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You travel long distances.&lt;/strong&gt; Jet lag from traveling across multiple time zones can cause insomnia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sleep is as important to your health as a healthy diet and regular exercise. Whatever your reason for sleep loss, insomnia can affect you both mentally and physically. People with insomnia report a lower quality of life compared with people who are sleeping well.
+&lt;/p&gt;
+&lt;p&gt;
+Complications of insomnia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lower performance on the job or at school&lt;/li&gt;
+	&lt;li&gt;Slowed reaction time while driving and higher risk of accidents&lt;/li&gt;
+	&lt;li&gt;Psychiatric problems, such as depression or an anxiety disorder&lt;/li&gt;
+	&lt;li&gt;Overweight or obesity&lt;/li&gt;
+	&lt;li&gt;Poor immune system function&lt;/li&gt;
+	&lt;li&gt;Increased risk and severity of long-term diseases, such as high blood pressure, heart disease and diabetes&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having sleep problems, start by talking to your family doctor or a general practitioner. Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment requests.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as keeping a sleep diary. In a sleep diary, you record your sleep patterns &amp;mdash; bedtime, number of hours slept, nighttime awakenings and awake time &amp;mdash; as well as your daily routine, naps and how you feel during the day. You may be asked to record a sleep diary for one to two weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including new or ongoing health problems, major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking. Be sure to let your doctor know about anything you&apos;ve taken to help you sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your bed partner along,&lt;/strong&gt; if possible. Your doctor may want to talk to your partner to learn more about how much and how well you&apos;re sleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For insomnia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my insomnia?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible reasons for my insomnia?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I go to a sleep clinic? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;A key part of the evaluation of insomnia is a detailed history, meaning your doctor will ask you many questions. These may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do you have trouble sleeping, and when did the insomnia begin?&lt;/li&gt;
+	&lt;li&gt;How long does it take you to fall asleep?&lt;/li&gt;
+	&lt;li&gt;How often do you awaken at night, and how long does it take you to fall back to sleep?&lt;/li&gt;
+	&lt;li&gt;What time do you go to bed at night and wake up in the morning? Is this different on weekends?&lt;/li&gt;
+	&lt;li&gt;How many hours a night do you sleep?&lt;/li&gt;
+	&lt;li&gt;Do you snore or wake up choking for breath?&lt;/li&gt;
+	&lt;li&gt;Do you feel refreshed when you wake up?&lt;/li&gt;
+	&lt;li&gt;Are you tired during the day?&lt;/li&gt;
+	&lt;li&gt;Do you doze off or have trouble staying awake while sitting quietly or driving?&lt;/li&gt;
+	&lt;li&gt;Do you nap during the day?&lt;/li&gt;
+	&lt;li&gt;What is your bedtime routine?&lt;/li&gt;
+	&lt;li&gt;Where do you sleep? What is the noise level, temperature and lighting in this room?&lt;/li&gt;
+	&lt;li&gt;What do you eat and drink in the evening?&lt;/li&gt;
+	&lt;li&gt;Do you use tobacco or drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Do you take any medications or sleeping pills before bed?&lt;/li&gt;
+	&lt;li&gt;Have you experienced stressful events recently, such as divorce, loss of a job or increased demands at work?&lt;/li&gt;
+	&lt;li&gt;Have you ever used sleeping pills?&lt;/li&gt;
+	&lt;li&gt;What type of work do you do?&lt;/li&gt;
+	&lt;li&gt;What is your exercise routine?&lt;/li&gt;
+	&lt;li&gt;Do you worry about falling asleep or staying asleep?&lt;/li&gt;
+	&lt;li&gt;Do you have any family members with sleep problems?&lt;/li&gt;
+	&lt;li&gt;Have you traveled recently?&lt;/li&gt;
+	&lt;li&gt;What medications do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to asking you a number of questions, your doctor may have you complete a questionnaire to determine your sleep-wake pattern and your level of daytime sleepiness. You may also be asked to keep a sleep diary for a couple of weeks, if you haven&apos;t already done so.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will do a physical exam to look for signs of other problems that may be causing insomnia. Occasionally, a blood test may be done to check for thyroid problems or other conditions that can cause insomnia.
+&lt;/p&gt;
+&lt;p&gt;
+If the cause of your insomnia isn&apos;t clear, or you have signs of another sleep disorder, such as sleep apnea or restless legs syndrome, you may need to spend a night at a sleep center. Tests are done to monitor and record a variety of body activities while you sleep, including brain waves, breathing, heartbeat, eye movements and body movements. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Changing your sleep habits and addressing any underlying causes of insomnia can restore restful sleep for many people. Good sleep hygiene &amp;mdash; simple steps such as keeping the same bedtime and arising time &amp;mdash; promotes sound sleep and daytime alertness. If these measures don&apos;t work, your doctor may recommend medications to help with relaxation and sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior therapies&lt;br /&gt;
+&lt;/strong&gt;Behavioral treatments teach you new sleep behaviors and ways to improve your sleeping environment. Behavior therapies are equally or more effective than are sleep medications. Behavior therapies are generally recommended as the first line of treatment for people with insomnia.
+&lt;/p&gt;
+&lt;p&gt;
+Behavior therapies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Education about good sleeping habits.&lt;/strong&gt; Sleep hygiene teaches habits that promote good sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques.&lt;/strong&gt; Progressive muscle relaxation, biofeedback and breathing exercises are ways to reduce anxiety at bedtime. These strategies help you control your breathing, heart rate, muscle tension and mood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive behavioral therapy.&lt;/strong&gt; This involves replacing worries about not sleeping with positive thoughts. Cognitive behavioral therapy can be taught through one-on-one counseling or in group sessions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&apos;Stimulus control.&apos;&lt;/strong&gt; This means limiting the time you spend awake in bed and associating your bed and bedroom only with sleep and sex.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep restriction.&lt;/strong&gt; This treatment decreases the time you spend in bed, causing partial sleep deprivation, which makes you more tired the next night. Once your sleep has improved, your time in bed is gradually increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Light therapy.&lt;/strong&gt; If you fall asleep too early and then awaken too early, you can use light to push back your internal clock. During times of the year when it&apos;s light outside in the evenings, you go outside or get light via a medical-grade light box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Taking prescription sleeping pills, such as zolpidem (Ambien), eszopiclone (Lunesta), zaleplon (Sonata) or ramelteon (Rozerem), also may help you get to sleep. However, in rare cases, these medications may cause severe allergic reactions, facial swelling and unusual behaviors, such as driving or preparing and eating food while asleep. Side effects of prescription sleeping medications are often more pronounced in older people and may include excessive drowsiness, impaired thinking, night wandering, agitation and balance problems.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors generally don&apos;t recommend relying on prescription sleeping pills for more than a few weeks, but several newer medications are approved for indefinite use. However, some of these medications are habit-forming.
+&lt;/p&gt;
+&lt;p&gt;
+If you have depression as well as insomnia, your doctor may prescribe an antidepressant with a sedative effect, such as trazodone, doxepin or mirtazapine (Remeron).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Over-the-counter sleep aids&lt;br /&gt;
+&lt;/strong&gt;Sleep medications available over-the-counter contain antihistamines that can make you drowsy. But antihistamines may reduce the quality of your sleep, and they can cause side effects, such as daytime sleepiness, dry mouth and blurred vision. These effects may be worse in the elderly.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No matter what your age, insomnia usually is treatable. The key often lies in changes to your routine during the day and when you go to bed. Try these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to a sleep schedule.&lt;/strong&gt; Keep your bedtime and wake time consistent from day to day, including on weekends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get out of bed when you&apos;re not sleeping.&lt;/strong&gt; Sleep as much as needed to feel rested, and then get out of bed. If you can&apos;t sleep, get out of bed after 20 minutes and do something relaxing, such as reading.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid trying to sleep.&lt;/strong&gt; The harder you try, the more awake you&apos;ll become. Read or watch television in another room until you become very drowsy, then go to bed to sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use your bed and bedroom only for sleeping or sex.&lt;/strong&gt; Don&apos;t read, watch TV, work or eat in bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find ways to relax.&lt;/strong&gt; A warm bath before bedtime can help prepare you for sleep. Having your partner give you a massage also may help relax you. Create a relaxing bedtime ritual, such as reading, soft music, breathing exercises, yoga or prayer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid or limit naps.&lt;/strong&gt; Naps can make it harder to fall asleep at night. If you can&apos;t get by without one, try to limit a nap to no more than 30 minutes and don&apos;t nap after 3 p.m.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make your bedroom comfortable for sleep.&lt;/strong&gt; Close your bedroom door or create a subtle background noise, such as a running fan, to help drown out other noises. Keep your bedroom temperature comfortable, usually cooler than during the day, and dark. Don&apos;t keep a computer or TV in your bedroom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise and stay active.&lt;/strong&gt; Get at least 20 to 30 minutes of vigorous exercise daily at least five to six hours before bedtime.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid or limit caffeine, alcohol and nicotine.&lt;/strong&gt; Caffeine after lunchtime and using nicotine can keep you from falling asleep at night. Alcohol, while it may initially make you feel sleepy, can cause unrestful sleep and frequent awakenings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid large meals and beverages before bed.&lt;/strong&gt; A light snack is fine, but eating too much late in the evening can interfere with sleep. Drink less before bedtime so that you won&apos;t have to urinate as often.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your medications.&lt;/strong&gt; If you take medications regularly, check with your doctor to see if they may be contributing to your insomnia. Also check the labels of over-the-counter products to see if they contain caffeine or other stimulants, such as pseudoephedrine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t put up with pain.&lt;/strong&gt; If a painful condition bothers you, make sure the pain reliever you take is effective enough to control your pain while you&apos;re sleeping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hide the bedroom clocks.&lt;/strong&gt; Set your alarm so that you know when to get up, but then hide all clocks in your bedroom, including your wristwatch and cell phone. The less you know what time it is at night, the better you&apos;ll sleep.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people never visit their doctor for insomnia, and instead try to cope with sleeplessness on their own. Several therapies that may be helpful include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Melatonin.&lt;/strong&gt; This over-the-counter supplement is marketed as a way to help overcome insomnia. Your body naturally produces melatonin, releasing it into your bloodstream in increasing amounts starting at dusk and tapering off toward the morning. Older people seem to have a greater benefit from melatonin, but no convincing evidence exists to prove that melatonin is an effective treatment for insomnia. It&apos;s generally considered safe to use melatonin for a few weeks, but the long-term safety of melatonin is unknown. The dosage is usually between 0.3 and 5 milligrams (mg) a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valerian.&lt;/strong&gt; This is another dietary supplement that&apos;s sold as a sleep aid because it has a mildly sedating effect. But, this supplement hasn&apos;t been well studied. In addition, this product has been associated with liver damage in some people, though it&apos;s not clear if valerian was the cause of the damage. The recommended dose of valerian is 400 to 900 mg daily with an extract containing 0.4 to 0.6 percent of valerenic acid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; During an acupuncture session, a practitioner places numerous thin needles in your skin at specific points on your body. There&apos;s some evidence that this practice may be beneficial for people with insomnia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Be sure to talk with your doctor before taking any herbal supplements or over-the-counter products as some can interact with medications, and others, such as L-tryptophan, may be dangerous on their own.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Insomnia
+	</Title>
+	<Abstract>
+		Insomnia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this sleeping problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01717" LinkType="Internal" ObjectID="FA6D0680-E7FF-0DBD-1462408DE3F8E30A" Title="Melatonin side effects: What are the risks?" Url="http://www.mayoclinic.com/health/melatonin-side-effects/AN01717" />
+		<LinkItem ContentType="Answer" DocID="AN01820" LinkType="Internal" ObjectID="BDE6863C-E7FF-0DBD-1DBE52F748F513E2" Title="Sleep aids: Could antihistamines help me sleep?" Url="http://www.mayoclinic.com/health/sleep-aids/AN01820" />
+		<LinkItem ContentType="Answer" DocID="AN01907" LinkType="Internal" ObjectID="BCCD80B2-E7FF-0DBD-1280152BEC2FBF6E" Title="Sleep apnea and caffeine: Any connection?" Url="http://www.mayoclinic.com/health/sleep-apnea/AN01907" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="Answer" DocID="AN02178" LinkType="Internal" ObjectID="A1139DD7-CDCB-DC39-3CA5A55B5497F085" Title="Sleep and weight gain: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/sleep-and-weight-gain/AN02178" />
+		<LinkItem ContentType="Answer" DocID="AN02194" LinkType="Internal" ObjectID="97DB1E66-C0DF-846A-EDC3AE6812E0E8C9" Title="What is reflexology?" Url="http://www.mayoclinic.com/health/what-is-reflexology/AN02194" />
+		<LinkItem ContentType="Answer" DocID="AN01616" LinkType="Internal" ObjectID="53B682D2-E7FF-0DBD-12D1D4C82FF59AEF" Title="Shift work: Improving daytime sleep" Url="http://www.mayoclinic.com/health/shift-work/AN01616" />
+		<LinkItem ContentType="Answer" DocID="AN01487" LinkType="Internal" ObjectID="30924DB7-E7FF-0DBD-1BC041B62E795285" Title="How many hours of sleep are enough?" Url="http://www.mayoclinic.com/health/how-many-hours-of-sleep-are-enough/AN01487" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00970" LinkType="Internal" ObjectID="028DF16F-B41F-761C-6A76411C7C646B91" Title="Polysomnography (sleep study)" Url="http://www.mayoclinic.com/health/polysomnography/MY00970" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="MY01383" LinkType="Internal" ObjectID="F5587968-F989-5DEA-6D643BE3E70B80C7" Title="Napping: Do&apos;s and don&apos;ts for healthy adults" Url="http://www.mayoclinic.com/health/napping/MY01383" />
+		<LinkItem ContentType="Article" DocID="SL00016" LinkType="Internal" ObjectID="D7932614-E7FF-0DBD-16A8B83124F7C06A" Title="Sleep aids: Understand over-the-counter options" Url="http://www.mayoclinic.com/health/sleep-aids/SL00016" />
+		<LinkItem ContentType="Answer" DocID="AN01812" LinkType="Internal" ObjectID="E6454D92-E7FF-0DBD-122239E1FF344B56" Title="Ambien: Is dependence a concern?" Url="http://www.mayoclinic.com/health/ambien/AN01812" />
+		<LinkItem ContentType="Answer" DocID="AN02046" LinkType="Internal" ObjectID="DF38D9CC-D8A8-EA00-1E9CD78272EA0F90" Title="Valerian: A safe and effective herbal sleep aid?" Url="http://www.mayoclinic.com/health/valerian/AN02046" />
+		<LinkItem ContentType="Answer" DocID="AN01582" LinkType="Internal" ObjectID="BDB0B9E5-E7FF-0DBD-13FB7A7B1D825386" Title="Foods that help you sleep" Url="http://www.mayoclinic.com/health/foods-that-help-you-sleep/AN01582" />
+		<LinkItem ContentType="Answer" DocID="AN01611" LinkType="Internal" ObjectID="482F4021-E7FF-0DBD-177C2DFD59CC06EC" Title="Insomnia: How do I stay asleep?" Url="http://www.mayoclinic.com/health/insomnia/AN01611" />
+		<LinkItem ContentType="Answer" DocID="AN01063" LinkType="Internal" ObjectID="45B08CDE-593C-43FE-801E1AFAF8A999FA" Title="Late-day exercise: Can it cause insomnia?" Url="http://www.mayoclinic.com/health/exercise/AN01063" />
+		<LinkItem ContentType="Answer" DocID="AN02065" LinkType="Internal" ObjectID="1F2E1E54-B359-94D3-98363938BE4FAB06" Title="Lack of sleep: Can it make you sick?" Url="http://www.mayoclinic.com/health/lack-of-sleep/AN02065" />
+		<LinkItem ContentType="Disease" DocID="DS00175" LinkType="Internal" ObjectID="F61D92BD-C12C-4C1E-98CE1DDC09196EA2" Title="Depression (major depression)" Url="http://www.mayoclinic.com/health/depression/DS00175" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+		<LinkItem ContentType="Article" DocID="SL00013" LinkType="Internal" ObjectID="9751446F-E7FF-0DBD-1ABA710B17A6AACF" Title="Insomnia treatment: Cognitive behavioral therapy instead of sleeping pills" Url="http://www.mayoclinic.com/health/insomnia-treatment/SL00013" />
+		<LinkItem ContentType="Article" DocID="SL00010" LinkType="Internal" ObjectID="075A19C3-2A5D-9994-EA19247B55DD4BC8" Title="Prescription sleeping pills: What&apos;s right for you?" Url="http://www.mayoclinic.com/health/sleeping-pills/SL00010" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,218 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE12365
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pepper-sauce/RE12365
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-30
+		</UpdateDate>
+		<PublicationDate>
+			2012-11-30
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			353FC80F-FB92-3C9D-EE6F512E960D0053
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pepper sauce
+			</MetaKeyword>
+			<MetaKeyword>
+				DAHLC
+			</MetaKeyword>
+			<MetaKeyword>
+				sauces
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetables
+			</MetaKeyword>
+			<MetaKeyword>
+				slow cook
+			</MetaKeyword>
+			<MetaKeyword>
+				DASH
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes meal plan
+			</MetaKeyword>
+			<MetaKeyword>
+				heart healthy
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy carb
+			</MetaKeyword>
+			<MetaKeyword>
+				low sodium
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			Created by the chefs at Mayo Clinic&apos;s Dan Abraham Healthy Living Center.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Pepper sauce
+	</Title>
+	<Abstract>
+		This flavorful pepper sauce is great over chicken, shrimp or any lean meat. Or add a small amount in soup to spice it up.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		10
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip: &lt;/strong&gt;Use as a sauce over chicken, shrimp or any lean meat. You might also try a small amount in soup to spice it up.
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Remove stems and seeds from dried and fresh chilies. Soak dried chilies in vinegar and water for one hour. Put peppers and liquid into sauce pan. Add fresh Fresno chili and simmer over low heat for about 30 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Remove from heat and let cool slightly. Add to blender and puree until very smooth. With blender running, add oil at a very slow drizzle.
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;1 dried ancho chili pepper&lt;/li&gt;
+	&lt;li&gt;1 dried chipotle chili pepper&lt;/li&gt;
+	&lt;li&gt;1 dried New Mexico chili pepper&lt;/li&gt;
+	&lt;li&gt;1/2 cup water&lt;/li&gt;
+	&lt;li&gt;1 cup white wine vinegar&lt;/li&gt;
+	&lt;li&gt;1 fresh red Fresno chili or jalapeno pepper&lt;/li&gt;
+	&lt;li&gt;1/4 cup olive oil&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1/2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1/2
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1/2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				62
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				2 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				trace
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				trace
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1/4 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				3 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Slow cook
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Course">
+			Sauces and dressings
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

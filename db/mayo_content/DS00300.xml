@@ -1,0 +1,456 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00300
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/male-hypogonadism/DS00300
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-09
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="3012" Title="Sex gland">
+						<Keyword MCVID="3021" Title="Male hypogonadism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E97FDCB5-E617-4C36-859B911C1A0E9257
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypogonadism
+			</MetaKeyword>
+			<MetaKeyword>
+				male hypogonadism
+			</MetaKeyword>
+			<MetaKeyword>
+				testosterone
+			</MetaKeyword>
+			<MetaKeyword>
+				deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				sperm
+			</MetaKeyword>
+			<MetaKeyword>
+				testicles
+			</MetaKeyword>
+			<MetaKeyword>
+				testes
+			</MetaKeyword>
+			<MetaKeyword>
+				gonads
+			</MetaKeyword>
+			<MetaKeyword>
+				testicular
+			</MetaKeyword>
+			<MetaKeyword>
+				Klinefelter&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Kallmann&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Klinefelter
+			</MetaKeyword>
+			<MetaKeyword>
+				Klinefelters
+			</MetaKeyword>
+			<MetaKeyword>
+				Kallmans
+			</MetaKeyword>
+			<MetaKeyword>
+				ambiguous genitalia
+			</MetaKeyword>
+			<MetaKeyword>
+				Kallman
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Male hypogonadism is a condition in which the body doesn&apos;t produce enough testosterone, the hormone that plays a key role in masculine growth and development during puberty. 
+&lt;/p&gt;
+&lt;p&gt;
+You may be born with male hypogonadism, or it can develop later in life from injury or infection. The effects &amp;mdash; and what you can do about them &amp;mdash; depend on the cause and at what point in your life male hypogonadism occurs. Some types of male hypogonadism can be treated with testosterone replacement therapy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypogonadism can begin during fetal development, before puberty or during adulthood. Signs and symptoms depend on when the condition develops. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fetal development&lt;br /&gt;
+&lt;/strong&gt;If the body doesn&apos;t produce enough testosterone during fetal development, the result may be impaired growth of the external sex organs. Depending on when hypogonadism develops, and how much testosterone is present, a child who is genetically male may be born with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Female genitals&lt;/li&gt;
+	&lt;li&gt;Ambiguous genitals &amp;mdash; genitals that are neither clearly male nor clearly female&lt;/li&gt;
+	&lt;li&gt;Underdeveloped male genitals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Puberty&lt;br /&gt;
+&lt;/strong&gt;Male hypogonadism may delay puberty or cause incomplete or lack of normal development. It can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Decreased development of muscle mass&lt;/li&gt;
+	&lt;li&gt;Lack of deepening of the voice&lt;/li&gt;
+	&lt;li&gt;Impaired growth of body hair&lt;/li&gt;
+	&lt;li&gt;Impaired growth of the penis and testicles&lt;/li&gt;
+	&lt;li&gt;Excessive growth of the arms and legs in relation to the trunk of the body&lt;/li&gt;
+	&lt;li&gt;Development of breast tissue (gynecomastia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adulthood&lt;br /&gt;
+&lt;/strong&gt;In adult males, hypogonadism may alter certain masculine physical characteristics and impair normal reproductive function. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Erectile dysfunction&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;Decrease in beard and body hair growth&lt;/li&gt;
+	&lt;li&gt;Decrease in muscle mass &lt;/li&gt;
+	&lt;li&gt;Development of breast tissue (gynecomastia)&lt;/li&gt;
+	&lt;li&gt;Loss of bone mass (osteoporosis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hypogonadism can also cause mental and emotional changes. As testosterone decreases, some men may experience symptoms similar to those of menopause in women. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Decreased sex drive&lt;/li&gt;
+	&lt;li&gt;Difficulty concentrating&lt;/li&gt;
+	&lt;li&gt;Hot flashes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See a doctor if you have any symptoms of male hypogonadism. Establishing the cause of hypogonadism is an important first step to getting appropriate treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="60" Title="Male reproductive system" URI="/images/image_popup/thumbs/r7_malereprothu.jpg" Width="60" />
+				<Image Alt="Illustration of male reproductive system 
+" Caption="The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen during sexual intercourse. 
+" Height="283" Title="Male reproductive system" URI="/images/image_popup/r7_malerepro.jpg" Width="400" />
+				<HTML>
+					The male reproductive system makes, stores and moves sperm. Testicles produce sperm. Fluid from the seminal vesicles and prostate gland combine with sperm to make semen. The penis ejaculates semen ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Male hypogonadism means the testicles don&apos;t produce enough of the male sex hormone testosterone. There are two basic types of hypogonadism:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Primary.&lt;/strong&gt; This type of hypogonadism &amp;mdash; also known as primary testicular failure &amp;mdash; originates from a problem in the testicles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Secondary.&lt;/strong&gt; This type of hypogonadism indicates a problem in the hypothalamus or the pituitary gland &amp;mdash; parts of the brain that signal the testicles to produce testosterone. The hypothalamus produces gonadotropin-releasing hormone, which signals the pituitary gland to make follicle-stimulating hormone (FSH) and luteinizing hormone. Luteinizing hormone then signals the testes to produce testosterone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Either type of hypogonadism may be caused by an inherited (congenital) trait or something that happens later in life (acquired), such as an injury or an infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary hypogonadism&lt;br /&gt;
+&lt;/strong&gt;Common causes of primary hypogonadism include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Klinefelter syndrome.&lt;/strong&gt; This condition results from a congenital abnormality of the sex chromosomes, X and Y. A male normally has one X and one Y chromosome. In Klinefelter syndrome, two or more X chromosomes are present in addition to one Y chromosome. The Y chromosome contains the genetic material that determines the sex of a child and related development. The extra X chromosome that occurs in Klinefelter syndrome causes abnormal development of the testicles, which in turn results in underproduction of testosterone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Undescended testicles.&lt;/strong&gt; Before birth, the testicles develop inside the abdomen and normally move down into their permanent place in the scrotum. Sometimes one or both of the testicles may not be descended at birth. This condition often corrects itself within the first few years of life without treatment. If not corrected in early childhood, it may lead to malfunction of the testicles and reduced production of testosterone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mumps orchitis.&lt;/strong&gt; If a mumps infection involving the testicles in addition to the salivary glands (mumps orchitis) occurs during adolescence or adulthood, long-term testicular damage may occur. This may affect normal testicular function and testosterone production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemochromatosis.&lt;/strong&gt; Too much iron in the blood can cause testicular failure or pituitary gland dysfunction affecting testosterone production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injury to the testicles.&lt;/strong&gt; Because they&apos;re situated outside the abdomen, the testicles are prone to injury. Damage to normally developed testicles can cause hypogonadism. Damage to one testicle may not impair total testosterone production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer treatment.&lt;/strong&gt; Chemotherapy or radiation therapy for the treatment of cancer can interfere with testosterone and sperm production. The effects of both treatments often are temporary, but permanent infertility may occur. Although many men regain their fertility within a few months after treatment ends, preserving sperm before starting cancer therapy is an option that many men consider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary hypogonadism&lt;br /&gt;
+&lt;/strong&gt;In secondary hypogonadism, the testicles are normal but function improperly due to a problem with the pituitary or hypothalamus. A number of conditions can cause secondary hypogonadism, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kallmann syndrome.&lt;/strong&gt; Abnormal development of the hypothalamus &amp;mdash; the area of the brain that controls the secretion of pituitary hormones &amp;mdash; can cause hypogonadism. This abnormality is also associated with impaired development of the ability to smell (anosmia) and red-green color blindness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pituitary disorders.&lt;/strong&gt; An abnormality in the pituitary gland can impair the release of hormones from the pituitary gland to the testicles, affecting normal testosterone production. A pituitary tumor or other type of brain tumor located near the pituitary gland may cause testosterone or other hormone deficiencies. Also, the treatment for a brain tumor, such as surgery or radiation therapy, may impair pituitary function and cause hypogonadism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory disease.&lt;/strong&gt; Certain inflammatory diseases, such as sarcoidosis, histiocytosis and tuberculosis, involve the hypothalamus and pituitary gland and can affect testosterone production, causing hypogonadism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;HIV/AIDS.&lt;/strong&gt; HIV/AIDS can cause low levels of testosterone by affecting the hypothalamus, the pituitary and the testes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; The use of certain drugs, such as opiate pain medications and some hormones, can affect testosterone production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Being significantly overweight at any age may be linked to hypogonadism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Normal aging.&lt;/strong&gt; Older men generally have lower testosterone levels than younger men do. As men age, there&apos;s a slow and continuous decrease in testosterone production. The rate at which testosterone declines varies greatly among men. As many as 30 percent of men older than 75 have a testosterone level that&apos;s below normal, according to the American Association of Clinical Endocrinologists. Whether treatment is necessary remains a matter of debate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="60" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/thumbs/m7_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="344" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/m7_glands.jpg" Width="400" />
+				<HTML>
+					The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for hypogonadism include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Kallmann syndrome&lt;/li&gt;
+	&lt;li&gt;Undescended testicles as an infant&lt;/li&gt;
+	&lt;li&gt;Mumps infection affecting your testicles&lt;/li&gt;
+	&lt;li&gt;Injury to your testicles&lt;/li&gt;
+	&lt;li&gt;Testicular or pituitary tumors&lt;/li&gt;
+	&lt;li&gt;HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Klinefelter syndrome&lt;/li&gt;
+	&lt;li&gt;Hemochromatosis&lt;/li&gt;
+	&lt;li&gt;Previous chemotherapy or radiation therapy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hypogonadism can be inherited. If any of these risk factors are in your family health history, tell your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The complications of untreated hypogonadism differ depending on what age it first develops &amp;mdash; during fetal development, puberty or adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fetal development&lt;br /&gt;
+&lt;/strong&gt;A baby may be born with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ambiguous genitalia&lt;/li&gt;
+	&lt;li&gt;Abnormal genitalia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Puberty&lt;br /&gt;
+&lt;/strong&gt;Pubertal development can be delayed or incomplete, resulting in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diminished or lack of beard and body hair&lt;/li&gt;
+	&lt;li&gt;Impaired penis and testicle growth&lt;/li&gt;
+	&lt;li&gt;Unproportional growth, usually increased length, of arms and legs compared with the trunk&lt;/li&gt;
+	&lt;li&gt;Enlarged male breasts (gynecomastia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adulthood&lt;br /&gt;
+&lt;/strong&gt;Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction&lt;/li&gt;
+	&lt;li&gt;Decreased sex drive&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Muscle loss or weakness&lt;/li&gt;
+	&lt;li&gt;Enlarged male breasts (gynecomastia)&lt;/li&gt;
+	&lt;li&gt;Decreased beard and body hair growth&lt;/li&gt;
+	&lt;li&gt;Osteoporosis&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you&apos;re likely to start by seeing your family doctor or general practitioner, you may need to consult an endocrinologist, a doctor who specializes in the hormone-producing (endocrine) glands. If your primary care doctor suspects you have male hypogondism, he or she may refer you to an endocrinologist. Or, you may ask for a referral. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes and history of childhood illnesses or surgeries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For male hypogonadism, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;What treatment do you feel would be best for me?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you begin puberty? Did it seem to be earlier or later than your peers?&lt;/li&gt;
+	&lt;li&gt;Did you have any growth problems as a child or adolescent?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any testicular trauma?&lt;/li&gt;
+	&lt;li&gt;What about head trauma?&lt;/li&gt;
+	&lt;li&gt;Did you have the mumps as a child or teen? Do you recall if you felt pain in your testicles while you had the mumps?&lt;/li&gt;
+	&lt;li&gt;Did you have undescended testicles as a baby?&lt;/li&gt;
+	&lt;li&gt;Did you have surgery for a groin hernia or genital surgery as a child?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will conduct a physical exam during which he or she will note whether your sexual development, such as your pubic hair, muscle mass and size of your testes, is consistent with your age. Your doctor may test your blood level of testosterone if you have any of the signs or symptoms of hypogonadism. Early detection in boys can help prevent problems from delayed puberty. Early diagnosis and treatment in men offer better protection against osteoporosis and other related conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors base a diagnosis of hypogonadism on symptoms and results of blood tests that measure testosterone levels. Because testosterone levels vary and are generally highest in the morning, blood testing is usually done early in the day. 
+&lt;/p&gt;
+&lt;p&gt;
+If tests confirm you have low testosterone, further testing can determine if a testicular disorder or a pituitary abnormality is the cause. Based on specific signs and symptoms, additional studies can pinpoint the cause. These studies may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hormone testing&lt;/li&gt;
+	&lt;li&gt;Semen analysis&lt;/li&gt;
+	&lt;li&gt;Pituitary imaging&lt;/li&gt;
+	&lt;li&gt;Genetic studies&lt;/li&gt;
+	&lt;li&gt;Testicular biopsy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Testosterone testing also plays an important role in managing hypogonadism. This helps your doctor determine the right dosage of medication, both initially and over time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Treatment for adults&lt;br /&gt;
+&lt;/strong&gt;Treatment for male hypogonadism depends on the cause and whether you&apos;re concerned about fertility. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Hormone replacement.&lt;/strong&gt; For hypogonadism caused by testicular failure, doctors use male hormone replacement (testosterone replacement therapy, or TRT). TRT can restore sexual function and muscle strength and prevent bone loss. In addition, men receiving TRT often experience an increase in energy, sex drive and sense of well-being.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If a pituitary problem is the cause, pituitary hormones may stimulate sperm production and restore fertility. Testosterone replacement therapy can be used if fertility isn&apos;t an issue. A pituitary tumor may require surgical removal, medication, radiation or the replacement of other hormones. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Assisted reproduction.&lt;/strong&gt; Although there&apos;s often no effective treatment to restore fertility in a man with primary hypogonadism, assisted reproductive technology may be helpful. This technology covers a variety of techniques designed to help couples who have been unsuccessful in achieving conception.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for boys&lt;br /&gt;
+&lt;/strong&gt;In boys, testosterone replacement therapy (TRT) can stimulate puberty and the development of secondary sex characteristics, such as increased muscle mass, beard and pubic hair growth, and growth of the penis. Pituitary hormones may be used to stimulate testicle growth. An initial low dose of testosterone with gradual increases may help to avoid adverse effects and more closely mimic the slow increase in testosterone that occurs during puberty.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of testosterone replacement therapy&lt;br /&gt;
+&lt;/strong&gt;Several testosterone delivery methods exist. Choosing a specific therapy depends on your preference of a particular delivery system, the side effects and the cost. Methods include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injection.&lt;/strong&gt; Testosterone injections are safe and effective. Injections are given in a muscle about every two weeks. Your symptoms may come and go between doses. You or a family member can learn to give TRT injections at home. If you&apos;re uncomfortable giving yourself injections, a nurse or doctor can give the injections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Patch.&lt;/strong&gt; A patch containing testosterone (Androderm) is applied each night to your back, abdomen, upper arm or thigh. The site of the application is rotated to maintain seven-day intervals between applications to the same site, to lessen skin reactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gel.&lt;/strong&gt; You rub testosterone gel (AndroGel, Testim) into your skin on your lower abdomen, upper arm or shoulder. As the gel dries, your body absorbs testosterone through your skin. Gel application of testosterone replacement therapy appears to cause fewer skin reactions than patches do. Don&apos;t shower or bathe for several hours after a gel application, to be sure it gets absorbed. A potential side effect of the gel is the possibility of transferring the medication to your partner. You can avoid this by avoiding skin-to-skin contact until the gel is completely dry or by covering the area after an application.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gum and cheek (buccal cavity).&lt;/strong&gt; Striant, a small putty-like substance, delivers testosterone through the natural depression above your top teeth where your gum meets your upper lip (buccal cavity). This product quickly sticks to your gumline and, as it is exposed to saliva, softens into a gel-like form, allowing testosterone to be absorbed into your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral.&lt;/strong&gt; Taking testosterone orally isn&apos;t recommended for long-term hormone replacement, because it may cause liver problems, raise your cholesterol and increase your risk of heart disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent osteoporosis.&lt;/strong&gt; If hypogonadism occurs during adulthood, make lifestyle and dietary changes to prevent osteoporosis. Regular exercise and adequate amounts of calcium and vitamin D to maintain bone strength are important to reduce the risk of osteoporosis. The Institute of Medicine recommends 1,000 milligrams (mg) of calcium and 600 international units (IUs) of vitamin D a day for men ages 19 to 70. That recommendation increases to 1,200 mg of calcium and 800 IUs of vitamin D a day for men age 71 and older.&amp;nbsp; Talk to your doctor about dietary guidelines that are appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about erectile dysfunction or infertility.&lt;/strong&gt; The conditions caused by hypogonadism can cause psychological and relationship problems. Know what to expect from these conditions and what to do if new or uncomfortable feelings develop between you and your partner.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; Talk with your doctor about how you can reduce the anxiety and stress that often accompany these conditions. Many men benefit from psychological or family counseling. Support groups can help people with hypogonadism and related conditions cope with similar situations and challenges. Helping your family understand the diagnosis of hypogonadism also is important.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allow time to adjust.&lt;/strong&gt; Adolescents with hypogonadism may feel as if they don&apos;t fit in. Testosterone replacement therapy will trigger puberty. When given at a slow pace that allows time for adjustment to physical changes and new feelings, the therapy decreases the chance of social or emotional problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Male hypogonadism
+	</Title>
+	<Abstract>
+		Male hypogonadism &amp;mdash; Comprehensive overview covers symptoms and treatment of testosterone deficiency.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01057" LinkType="Internal" ObjectID="FDA8A33A-E7FF-0DBD-10FCF3AF0B544AFF" Title="Klinefelter syndrome" Url="http://www.mayoclinic.com/health/klinefelter-syndrome/DS01057" />
+		<LinkItem ContentType="Disease" DocID="DS00128" LinkType="Internal" ObjectID="74832633-C5B7-4681-A614980804652C1A" Title="Osteoporosis" Url="http://www.mayoclinic.com/health/osteoporosis/DS00128" />
+	</RelatedLinksBox>
+</Disease>

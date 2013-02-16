@@ -1,0 +1,97 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01695
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tendinitis/AN01695
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-11
+		</UpdateDate>
+		<PublicationDate>
+			2007-10-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2901" Title="Tendinitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8428F452-E7FF-0DBD-1E7E08AA4ABBCA98
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tendinitis
+			</MetaKeyword>
+			<MetaKeyword>
+				tendonitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+If tendinitis is of recent onset, ice may be a better choice for reducing pain and inflammation. Ice acts as a numbing agent, and it also causes a narrowing of blood vessels, which helps reduce swelling. Heat promotes opening of the blood vessels, which can increase blood flow to an area of chronic injury to promote healing.
+&lt;/p&gt;
+&lt;p&gt;
+Tendons are bands of fibrous tissue that connect muscles to bones. Tendinitis is most often caused by repetitive motions that irritate the tendon over time. Improper technique with activities (such as tennis) or exercise (such as strength training) also can predispose a tendon to injury. Tendons also become less flexible with age, which can make them more prone to injury. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tendinitis pain: Should I apply ice or heat?
+	</Title>
+	<Abstract>
+		If tendinitis is recent, ice may be better for reducing pain and inflammation.
+	</Abstract>
+	<Question>
+		Which is better for relieving tendinitis pain &amp;mdash; ice or heat?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00625" LinkType="Internal" ObjectID="4F1239B5-2A5D-9994-E667C498C2D09836" Title="Patellar tendinitis" Url="http://www.mayoclinic.com/health/patellar-tendinitis/DS00625" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Disease" DocID="DS00153" LinkType="Internal" ObjectID="03381842-FED6-42A1-97E232E9465840BD" Title="Tendinitis" Url="http://www.mayoclinic.com/health/tendinitis/DS00153" />
+	</RelatedLinksBox>
+</Answer>

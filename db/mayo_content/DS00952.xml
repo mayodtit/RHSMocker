@@ -1,0 +1,358 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00952
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hypoparathyroidism/DS00952
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-24
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1309" Title="Parathyroid">
+						<Keyword MCVID="3183" Title="Hypoparathyroidism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EFE6BB4F-E7FF-0DBD-17EECAFF6BAE0E79
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypoparathyroidism
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypoparathyroidism is a rare condition in which your body secretes abnormally low levels of parathyroid hormone (parathormone). This hormone plays a key role in regulating and maintaining a balance of your body&apos;s levels of two minerals &amp;mdash; calcium and phosphorus. 
+&lt;/p&gt;
+&lt;p&gt;
+The low production of parathyroid hormone in hypoparathyroidism leads to abnormally low ionized calcium levels in your blood and bones and to an increased amount of phosphorus. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for hypoparathyroidism consists of taking supplements to normalize your levels of calcium and phosphorus. Because hypoparathyroidism is a chronic condition, treatment is generally lifelong. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of hypoparathyroidism can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling or burning (paresthesias) in your fingertips, toes and lips&lt;/li&gt;
+	&lt;li&gt;Muscle aches or cramps affecting your legs, feet, abdomen or face&lt;/li&gt;
+	&lt;li&gt;Twitching or spasms of your muscles, particularly around your mouth, but also in your hands, arms and throat&lt;/li&gt;
+	&lt;li&gt;Fatigue or weakness&lt;/li&gt;
+	&lt;li&gt;Painful menstruation&lt;/li&gt;
+	&lt;li&gt;Patchy hair loss, such as thinning of your eyebrows&lt;/li&gt;
+	&lt;li&gt;Dry, coarse skin&lt;/li&gt;
+	&lt;li&gt;Brittle nails&lt;/li&gt;
+	&lt;li&gt;Anxiety or nervousness&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Depression, mood swings&lt;/li&gt;
+	&lt;li&gt;Memory problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have any of the signs and symptoms associated with hypoparathyroidism, make an appointment with your doctor for an evaluation. Once you&apos;ve been diagnosed, contact your doctor immediately if you have a seizure or have difficulty breathing, both of which can be complications of hypoparathyroidism. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypoparathyroidism occurs when your parathyroid glands don&apos;t secrete enough parathyroid hormone. You have four parathyroid glands &amp;mdash; each normally about the size of a grain of rice &amp;mdash; situated in your neck, adjacent to your thyroid gland. 
+&lt;/p&gt;
+&lt;p&gt;
+The low production of parathyroid hormone leads to abnormally reduced calcium levels (hypocalcemia) in your blood and bones and to increased levels of phosphorus (hyperphosphatemia). 
+&lt;/p&gt;
+&lt;p&gt;
+Factors that can cause hypoparathyroidism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acquired hypoparathyroidism.&lt;/strong&gt; This most common cause of hypoparathyroidism develops after accidental damage to or removal of the parathyroid glands during surgery. This surgery may be a treatment for diseases of the nearby thyroid gland, or for throat cancer or neck cancer. Today, surgeons are aware of and more careful to avoid injuring the parathyroid glands during surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hereditary hypoparathyroidism.&lt;/strong&gt; In this form, either the parathyroid glands aren&apos;t present at birth, or they don&apos;t work properly. Some types of hereditary hypoparathyroidism are associated with deficiencies of other hormone-producing glands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune disease.&lt;/strong&gt; In this condition, your immune system creates antibodies against the parathyroid tissues, trying to reject them as if they were foreign bodies. In the process, the parathyroid glands stop manufacturing their hormone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Extensive cancer radiation treatment&lt;/strong&gt; of your face or neck, which can result in destruction of your parathyroid glands, or occasionally because of radioactive iodine treatment for hyperthyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low levels of magnesium in your blood,&lt;/strong&gt; which can affect the function of your parathyroid glands. Normal magnesium levels are required for optimum secretion of parathyroid hormone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="60" Title="Parathyroid glands" URI="/images/image_popup/thumbs/sm_pthyroid.gif" Width="60" />
+				<Image Alt="Illustration showing parathyroid glands 
+" Caption="The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+" Height="344" Title="Parathyroid glands" URI="/images/image_popup/pthyroid.jpg" Width="400" />
+				<HTML>
+					The parathyroid glands, which lie behind the thyroid, manufacture the parathyroid hormone, which plays a role in regulating your body&apos;s level of calcium and phosphorus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing hypoparathyroidism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recent neck surgery, particularly if the thyroid was involved&lt;/li&gt;
+	&lt;li&gt;A family history of hypoparathyroidism&lt;/li&gt;
+	&lt;li&gt;Having certain autoimmune or endocrine conditions, such as Addison&apos;s disease &amp;mdash; a condition characterized by a deficit in hormone production by the adrenal glands&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypoparathyroidism may result in numerous complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reversible complications&lt;/strong&gt; &lt;br /&gt;
+The following complications are due to low calcium levels, and most are likely to improve with adequate treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tetany.&lt;/strong&gt; These cramp-like spasms of your hands and fingers may be prolonged and painful. Tetany also may include muscle discomfort and twitches or spasms of the muscles of your face, throat or arms. When these spasms occur in your throat, they can interfere with breathing, creating a possible emergency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Paresthesias.&lt;/strong&gt; These are characterized by sensory symptoms of odd, tingling sensations or pins and needles feelings in your lips, tongue, fingers and feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of consciousness with convulsions&lt;/strong&gt; (grand mal seizures).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malformation of the teeth,&lt;/strong&gt; affecting their shape and size.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired kidney function.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart arrhythmias and fainting,&lt;/strong&gt; even heart failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Irreversible complications&lt;/strong&gt; &lt;br /&gt;
+Other complications associated with hypoparathyroidism will not improve with calcium and vitamin D treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stunted growth (short stature)&lt;/li&gt;
+	&lt;li&gt;Slow mental development (or mental retardation) in children&lt;/li&gt;
+	&lt;li&gt;Calcium deposits in the brain&lt;/li&gt;
+	&lt;li&gt;Cataracts&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in treating hormone disorders (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to accompany you,&lt;/strong&gt; if possible. He or she may remember something you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions may help you make the most of your time with your doctor. List your questions from most important to least important. For hypoparathyroidism, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;How can I best manage this condition with my other health conditions?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Do you have brochures or other printed material I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that come up. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent surgeries involving your neck?&lt;/li&gt;
+	&lt;li&gt;Have you received radiation therapy to your head or neck or for treatment of thyroid problems?&lt;/li&gt;
+	&lt;li&gt;Has anyone else in your family had similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Medical history&lt;/strong&gt; &lt;br /&gt;
+A doctor who suspects hypoparathyroidism begins the diagnostic process by taking a medical history and asking about your symptoms, such as muscle cramps or tingling of the extremities. He or she will also want to know whether you&apos;ve had any recent surgeries, particularly operations involving the thyroid or neck. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical exam&lt;/strong&gt; &lt;br /&gt;
+Next, your doctor will conduct a physical examination, looking for signs that suggest hypoparathyroidism, such as facial muscle twitching. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll also have blood tests, and the following findings may indicate hypoparathyroidism: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A low blood-calcium level&lt;/li&gt;
+	&lt;li&gt;A low parathyroid hormone level&lt;/li&gt;
+	&lt;li&gt;A high blood-phosphorus level&lt;/li&gt;
+	&lt;li&gt;A low blood-magnesium level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor also may order these additional tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This test involves taking electrical readings of your heart&apos;s activity. It can detect arrhythmias associated with hypocalcemia and, in turn, hypoparathyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine test.&lt;/strong&gt; Evaluation of a sample of your urine can show whether your body is excreting too much calcium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays and bone density tests.&lt;/strong&gt; These can determine whether abnormal calcium levels have affected the strength of your bones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In diagnosing children, doctors check to see whether tooth development is normal and whether they have met developmental milestones. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In considering treatment for hypoparathyroidism, doctors take into account your symptoms, including their severity, and your overall health. The goal of treatment is to normalize the levels of calcium and phosphorus in your body. A treatment regimen typically includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Oral calcium carbonate tablets.&lt;/li&gt;
+	&lt;li&gt;Vitamin D, which can help your body absorb calcium and eliminate phosphorus. The forms of vitamin D called ergocalciferol or calcitriol are recommended most often because they have a longer duration of action or are more potent than are other forms of this vitamin. Often, the required doses of vitamin D are much higher than are those used for a typical daily vitamin supplement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At high doses, calcium supplements can cause gastrointestinal side effects, such as constipation, in some people. For that reason, take these pills only with the guidance of your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Some studies have shown promising effects of treatment with recombinant human parathyroid hormone (PTH), currently used to treat the bone-thinning disease osteoporosis. More study is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Dietary steps&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend that you consult a dietitian, who is likely to advise a diet that is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rich in calcium.&lt;/strong&gt; This includes dairy products, green leafy vegetables, broccoli, kale, and fortified orange juice and breakfast cereals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low in phosphorus-rich items.&lt;/strong&gt; This means avoiding carbonated soft drinks, which contain phosphorus in the form of phosphoric acid. Eggs and meats also tend to be high in phosphorus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Intravenous infusion&lt;/strong&gt; &lt;br /&gt;
+In some cases, when you need immediate relief of symptoms, your doctor may recommend hospitalization to administer calcium by intravenous (IV) infusion. These IV infusions may be important if you&apos;re having severe spasms associated with tetany. After hospital discharge, you can continue to take calcium and vitamin D as an oral supplement. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Regular monitoring&lt;/strong&gt; &lt;br /&gt;
+Your doctor will regularly check your blood to monitor levels of calcium and phosphorus. Initially, these tests will be weekly to monthly. Eventually, you&apos;ll need blood tests just twice a year. 
+&lt;/p&gt;
+&lt;p&gt;
+Because hypoparathyroidism is a long-lasting (chronic) disorder, treatment strategies are generally recommended for the rest of your life, along with regular blood tests to determine whether calcium in particular is at normal levels. Your doctor will adjust your dose of supplemental calcium if your blood-calcium levels rise or fall. 
+&lt;/p&gt;
+&lt;p&gt;
+If calcium in your blood remains low, despite treatment, your doctor may add a prescription diuretic medication &amp;mdash; specifically, a thiazide diuretic such as hydrochlorothiazide or metolazone. While some other types of diuretics (loop diuretics) decrease calcium levels in your bloodstream, the thiazides can increase blood-calcium levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people who are treated for hypoparathyroidism can keep their symptoms under control if they continue to receive treatment long term. Early diagnosis and treatment can help prevent complications of hypoparathyroidism, some of which are permanent. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no specific actions you can take to prevent hypoparathyroidism. However, if you&apos;re scheduled to have thyroid or neck surgery, talk to your surgeon for assurance that steps will be taken to avoid damage to your parathyroid glands during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had surgery involving your thyroid or neck, be alert for signs and symptoms that could indicate hypoparathyroidism, such as a tingling or burning sensation in your fingers, toes or lips, or muscle twitching or cramping. When they occur, your doctor may recommend prompt treatment with calcium and vitamin D to minimize the seriousness of the disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hypoparathyroidism
+	</Title>
+	<Abstract>
+		Hypoparathyroidism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this hormonal disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00222" LinkType="Internal" ObjectID="0B19991C-69E4-488A-A96C808BB0F1F830" Title="Grand mal seizure" Url="http://www.mayoclinic.com/health/grand-mal-seizure/DS00222" />
+	</RelatedLinksBox>
+</Disease>

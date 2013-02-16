@@ -1,0 +1,264 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01189
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tooth-abscess/DS01189
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-07
+		</UpdateDate>
+		<PublicationDate>
+			2010-08-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1614" Title="Teeth">
+						<Keyword MCVID="2240" Title="Tooth abscess" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			507651FE-F8EB-F058-3F436BCF01072504
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tooth abscess
+			</MetaKeyword>
+			<MetaKeyword>
+				abscessed tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				abscess tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				absess
+			</MetaKeyword>
+			<MetaKeyword>
+				abcess tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth infection
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth abcess
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth abscess symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				periapical tooth abscess
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tooth abscess is a pocket of pus that&apos;s caused by a bacterial infection. The abscess can occur at different regions of the tooth for different reasons. A periapical (per-e-AP-ih-kul) abscess occurs at the tip of the root, whereas a periodontal (per-e-o-DON-tul) abscess occurs in the gums next to a tooth root. The information here refers specifically to periapical abscesses. 
+&lt;/p&gt;
+&lt;p&gt;
+A periapical tooth abscess usually occurs as a result of an untreated dental cavity, injury or prior dental work.
+&lt;/p&gt;
+&lt;p&gt;
+Dentists will treat a tooth abscess by draining it and getting rid of the infection. They may be able to save your tooth with a root canal treatment, but in some instances it may need to be pulled. Leaving a tooth abscess untreated can lead to serious, even life-threatening, complications.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Periapical tooth abscess 
+" Caption="Bacteria can enter the innermost part of the tooth through either a deep cavity or a chip or crack in your tooth. The resulting infection and inflammation can cause an abscess at the tip of the root. 
+" Height="60" Title="Periapical tooth abscess" URI="/images/image_popup/thumbs/mcdc7_toothabscessthu.jpg" Width="60" />
+				<Image Alt="Periapical tooth abscess 
+" Caption="Bacteria can enter the innermost part of the tooth through either a deep cavity or a chip or crack in your tooth. The resulting infection and inflammation can cause an abscess at the tip of the root. 
+" Height="516" Title="Periapical tooth abscess" URI="/images/image_popup/mcdc7_toothabscess.jpg" Width="400" />
+				<HTML>
+					Bacteria can enter the innermost part of the tooth through either a deep cavity or a chip or crack in your tooth. The resulting infection and inflammation can cause an abscess at the tip of the root. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a tooth abscess include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe, persistent, throbbing toothache&lt;/li&gt;
+	&lt;li&gt;Sensitivity to hot and cold temperatures&lt;/li&gt;
+	&lt;li&gt;Sensitivity to the pressure of chewing or biting&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Swelling in your face or cheek&lt;/li&gt;
+	&lt;li&gt;Tender, swollen lymph nodes under your jaw or in your neck&lt;/li&gt;
+	&lt;li&gt;Sudden rush of foul-smelling and foul-tasting fluid in your mouth and pain relief if the abscess ruptures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your dentist promptly if you have any signs or symptoms of a tooth abscess. If you have a fever and swelling in your face and you can&apos;t reach your dentist, go to an emergency room. Also go to the emergency room if you have trouble breathing or swallowing. These symptoms may indicate that the infection has spread deeper into your jaw and surrounding tissue or even to other areas of your body.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A periapical tooth abscess occurs when bacteria invade the dental pulp &amp;mdash; the innermost part of the tooth that contains blood vessels, nerves and connective tissue. 
+&lt;/p&gt;
+&lt;p&gt;
+Bacteria enter through either a dental cavity or a chip or crack in the tooth and spread all the way down to the root. The bacterial infection can cause swelling and inflammation at the tip of the root. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Periapical tooth abscess 
+" Caption="Bacteria can enter the innermost part of the tooth through either a deep cavity or a chip or crack in your tooth. The resulting infection and inflammation can cause an abscess at the tip of the root. 
+" Height="60" Title="Periapical tooth abscess" URI="/images/image_popup/thumbs/mcdc7_toothabscessthu.jpg" Width="60" />
+				<Image Alt="Periapical tooth abscess 
+" Caption="Bacteria can enter the innermost part of the tooth through either a deep cavity or a chip or crack in your tooth. The resulting infection and inflammation can cause an abscess at the tip of the root. 
+" Height="516" Title="Periapical tooth abscess" URI="/images/image_popup/mcdc7_toothabscess.jpg" Width="400" />
+				<HTML>
+					Bacteria can enter the innermost part of the tooth through either a deep cavity or a chip or crack in your tooth. The resulting infection and inflammation can cause an abscess at the tip of the root. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may increase your risk of a tooth abscess:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor dental hygiene.&lt;/strong&gt; Not taking proper care of your teeth and gums &amp;mdash; such as not brushing your teeth twice a day and not flossing &amp;mdash; can increase your risk of tooth decay, gum disease, tooth abscess, and other dental and mouth complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A diet high in sugar.&lt;/strong&gt; Frequently eating and drinking foods rich in sugar, such as sweets and sodas, can contribute to dental cavities and turn into a tooth abscess.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A tooth abscess won&apos;t go away without treatment. If the abscess ruptures, the pain may decrease significantly &amp;mdash; but you still need dental treatment. If the abscess doesn&apos;t drain, the infection may spread to your jaw and to other areas of your head and neck. You might even develop sepsis &amp;mdash; a life-threatening infection that spreads throughout your body.
+&lt;/p&gt;
+&lt;p&gt;
+If you have a weakened immune system and you leave a tooth abscess untreated, your risk of a spreading infection increases even more. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to examining your tooth and the surrounding area, your dentist may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tap on your teeth.&lt;/strong&gt; A tooth that has an abscess at its root is generally sensitive to touch or pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recommend an X-ray.&lt;/strong&gt; An X-ray of the aching tooth can help identify an abscess. Your dentist may also use X-rays to determine whether the infection has spread, causing abscesses in other areas.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to get rid of the infection. To accomplish this, your dentist may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Open up (incise) and drain the abscess.&lt;/strong&gt; The dentist will make a small cut into the abscess, allowing the pus to drain out, and then wash the area with salt water (saline).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Perform a root canal.&lt;/strong&gt; This procedure can help eliminate the infection and save your tooth. To do this, your dentist drills down into your tooth, removes the diseased central tissue (pulp) and drains the abscess. He or she then fills and seals the tooth&apos;s pulp chamber and root canals, and caps the tooth with a crown to enhance strength, especially for molar teeth. If you care for your restored tooth properly, it can last a lifetime.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pull the affected tooth.&lt;/strong&gt; If the affected tooth can&apos;t be saved, your dentist will pull (extract) the tooth and drain the abscess to get rid of the infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prescribe antibiotics.&lt;/strong&gt; If the infection is limited to the abscessed area, you may not need antibiotics. But if the infection has spread to nearby teeth, your jaw or other areas, your dentist will likely prescribe antibiotics to stop it from spreading further. He or she may also recommend antibiotics if you have a weakened immune system.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While the area is healing, your dentist may recommend you take the following steps to help ease discomfort: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rinse your mouth with warm salt water.&lt;/li&gt;
+	&lt;li&gt;Take over-the-counter pain relievers, such as acetaminophen (Tylenol, others) and ibuprofen (Advil, Motrin IB, others), as needed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Avoiding tooth decay is essential to preventing a tooth abscess. Take good care of your teeth to avoid tooth decay:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use fluoridated drinking water.&lt;/li&gt;
+	&lt;li&gt;Brush your teeth at least twice a day with a fluoride toothpaste.&lt;/li&gt;
+	&lt;li&gt;Use dental floss or an interdental cleaner to clean between your teeth on a daily basis.&lt;/li&gt;
+	&lt;li&gt;Replace your toothbrush every three or four months, or whenever the bristles are frayed.&lt;/li&gt;
+	&lt;li&gt;Eat healthy food, limiting sugary items and between-meal snacks.&lt;/li&gt;
+	&lt;li&gt;Visit your dentist for regular checkups and professional cleanings.&lt;/li&gt;
+	&lt;li&gt;Consider using an antiseptic or a fluoride mouth rinse to add an extra layer of protection against tooth decay.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tooth abscess
+	</Title>
+	<Abstract>
+		Tooth abscess &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this painful tooth condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01097" LinkType="Internal" ObjectID="704D13FE-0829-BF22-0E4891FBD68ED7B1" Title="Dental exam" Url="http://www.mayoclinic.com/health/dental-exam/MY01097" />
+		<LinkItem ContentType="Answer" DocID="AN02164" LinkType="Internal" ObjectID="04267C9E-FB3F-1681-DFC000796A08EAE0" Title="Sensitive teeth: What treatments are available?" Url="http://www.mayoclinic.com/health/sensitive-teeth/AN02164" />
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+		<LinkItem ContentType="SlideShow" DocID="DE00010" LinkType="Internal" ObjectID="AC4FAF5F-E7FF-0DBD-181867DCA4857292" Title="Slide show: Root canal treatment" Url="http://www.mayoclinic.com/health/root-canal/DE00010" />
+		<LinkItem ContentType="Disease" DocID="DS00896" LinkType="Internal" ObjectID="CD2AE532-E7FF-0DBD-123D71121E1B9589" Title="Cavities/tooth decay" Url="http://www.mayoclinic.com/health/cavities/DS00896" />
+	</RelatedLinksBox>
+</Disease>

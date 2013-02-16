@@ -1,0 +1,327 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01102
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/high-blood-pressure-in-children/DS01102
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-18
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure">
+						<Keyword MCVID="3547" Title="High blood pressure in children" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			08AF85A9-E7FF-0DBD-12EDAF0B146CF984
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				high blood pressure in children
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure in kids
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High blood pressure (hypertension) in children is blood pressure that&apos;s the same as or higher than 95 percent of children who are the same sex, age and height as your child. There isn&apos;t a simple target blood pressure reading that indicates high blood pressure in all ages for children, because what&apos;s considered normal blood pressure changes as children grow. 
+&lt;/p&gt;
+&lt;p&gt;
+High blood pressure in children younger than 10 years old is usually caused by another medical condition. High blood pressure in children can also develop for the same reasons it does in adults &amp;mdash; being overweight, eating a poor diet and not exercising. 
+&lt;/p&gt;
+&lt;p&gt;
+Lifestyle changes, such as eating a heart-healthy diet and exercising more, can help reduce high blood pressure in children. But, for some children, medications may be necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High blood pressure in children usually doesn&apos;t cause symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Unless your child has an underlying health problem, you probably don&apos;t need to make a special visit to your child&apos;s doctor to have your child&apos;s blood pressure checked. However, your child&apos;s blood pressure should be checked as part of a routine doctor&apos;s appointment, starting when your child is age 3. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has a condition that can increase the risk of high blood pressure &amp;mdash; including premature birth, low birth weight, congenital heart disease and certain kidney problems &amp;mdash; blood pressure checks may begin during infancy. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re concerned about your child having a risk factor for high blood pressure, such as being overweight or obese, talk to your child&apos;s doctor. He or she may recommend more frequent blood pressure checks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High blood pressure in younger children is often related to other health conditions such as heart defects, kidney disease, genetic conditions or hormonal disorders. In older children &amp;mdash; especially those who are overweight &amp;mdash; the precise cause of high blood pressure is often unknown. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s risk factors for high blood pressure depend on underlying health conditions, genetics or lifestyle factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary (essential) hypertension&lt;/strong&gt;&lt;br /&gt;
+Essential hypertension is high blood pressure that occurs on its own, without an underlying condition. This type of high blood pressure occurs more often in older children and adolescents. The risk factors for developing essential hypertension are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being overweight or obese (a body mass index over 25)&lt;/li&gt;
+	&lt;li&gt;A family history of high blood pressure&lt;/li&gt;
+	&lt;li&gt;Type 2 diabetes or a high fasting blood sugar level&lt;/li&gt;
+	&lt;li&gt;High cholesterol and triglycerides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary hypertension&lt;/strong&gt;&lt;br /&gt;
+Secondary hypertension is high blood pressure that&apos;s caused by an underlying health condition. This is the type of high blood pressure that&apos;s more common in young children. Other health conditions that can cause high blood pressure include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic kidney disease&lt;/li&gt;
+	&lt;li&gt;Polycystic kidney disease&lt;/li&gt;
+	&lt;li&gt;Heart problems, such as coarctation of the aorta&lt;/li&gt;
+	&lt;li&gt;Adrenal disorders&lt;/li&gt;
+	&lt;li&gt;Conditions affecting the kidneys, such as lupus&lt;/li&gt;
+	&lt;li&gt;Hyperthyroidism&lt;/li&gt;
+	&lt;li&gt;Pheochromocytoma, a rare tumor in the adrenal gland&lt;/li&gt;
+	&lt;li&gt;Narrowing of the artery to the kidney (renal artery stenosis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children who have high blood pressure are likely to continue to have high blood pressure as adults unless they begin treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+A common complication associated with high blood pressure in children is sleep apnea, a condition in which your child may snore or have abnormal breathing when he or she sleeps. Pay attention to breathing problems your child may have while sleeping. Children who have sleep-disordered breathing, such as sleep apnea, often have problems with high blood pressure &amp;mdash; particularly children who are overweight. 
+&lt;/p&gt;
+&lt;p&gt;
+If, as often happens, your child&apos;s high blood pressure persists into adulthood, your child could be at risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Heart attack&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Kidney disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no special preparations necessary for your child&apos;s blood pressure to be checked. Your child&apos;s blood pressure will likely be checked as part of a routine doctor&apos;s appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have concerns about how often your child&apos;s blood pressure is being checked, talk to your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your child&apos;s appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child has.&lt;/strong&gt; High blood pressure seldom has symptoms, but it is a risk factor for heart disease and other childhood illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of high blood pressure, high cholesterol, heart disease, stroke or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to discuss&lt;/strong&gt; your child&apos;s diet and exercise habits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your child&apos;s doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For high blood pressure, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of tests will my child need?&lt;/li&gt;
+	&lt;li&gt;Does he or she need any medications?&lt;/li&gt;
+	&lt;li&gt;What foods should he or she eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often do I need to schedule appointments to check my child&apos;s blood pressure?&lt;/li&gt;
+	&lt;li&gt;Should I monitor my child&apos;s blood pressure at home?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Should my child see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for my child?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+	&lt;li&gt;What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your child&apos;s appointment if you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have a family history of high cholesterol, high blood pressure or heart disease?&lt;/li&gt;
+	&lt;li&gt;What are your child&apos;s diet and exercise habits like?&lt;/li&gt;
+	&lt;li&gt;When did your child last have his or her blood pressure checked? What was the blood pressure measurement then?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The test for high blood pressure is painless. Blood pressure is measured with an inflatable arm cuff and a pressure-measuring gauge. The cuff size used will vary with your child&apos;s arm circumference and any growth that has occurred. Your child may feel a tight squeeze around the arm when the cuff is inflated. You can find out what your child&apos;s blood pressure is immediately after the test is over. 
+&lt;/p&gt;
+&lt;p&gt;
+A blood pressure reading has two numbers. The first, or upper, number measures the pressure in your child&apos;s arteries when his or her heart beats (systolic pressure). The second, or lower, number measures the pressure in your child&apos;s arteries between beats (diastolic pressure). 
+&lt;/p&gt;
+&lt;p&gt;
+Normal blood pressure readings in children vary based on sex, age and height, so what may be a high blood pressure reading for a 4-year-old boy may be normal for a 10-year-old girl. Your child&apos;s doctor will let you know if your child&apos;s blood pressure readings are elevated. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child won&apos;t be diagnosed with high blood pressure after only one blood pressure measurement. To diagnose high blood pressure, it takes three measurements that show your child&apos;s blood pressure is higher than normal over the course of at least three visits to the doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child&apos;s blood pressure is higher than normal, it should be checked about every six months after high blood pressure is first diagnosed. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is diagnosed with prehypertension or hypertension, your child&apos;s doctor may also perform these tests to see if another condition is causing your child&apos;s high blood pressure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood test to check your child&apos;s blood sugar, kidney function and blood cell counts&lt;/li&gt;
+	&lt;li&gt;Urine sample test (urinalysis)&lt;/li&gt;
+	&lt;li&gt;Echocardiogram, a test to check the blood flow through your child&apos;s heart, if your child&apos;s doctor suspects a heart problem may be causing high blood pressure&lt;/li&gt;
+	&lt;li&gt;Ultrasound of your child&apos;s kidneys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child&apos;s doctor is having difficulty diagnosing high blood pressure, or wants to monitor your child&apos;s treatment, he or she may recommend ambulatory monitoring. In ambulatory monitoring, your child wears a device that measures his or her blood pressure throughout the day. This is not yet common practice, and more research is necessary to see if ambulatory monitoring helps in the treatment and diagnosis of high blood pressure in children. However, ambulatory monitoring may be especially helpful if your child is normally quite nervous at the doctor&apos;s office, because he or she may have what&apos;s known as white-coat hypertension &amp;mdash; blood pressure that&apos;s only temporarily elevated due to anxiety from being at the doctor&apos;s office. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lifestyle changes, including a heart-healthy diet and exercise, are often the first approach your child&apos;s doctor will recommend to lower your child&apos;s blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is diagnosed with slightly or moderately high blood pressure (prehypertension or stage 1 hypertension), your child&apos;s doctor will likely suggest trying lifestyle changes, such as a heart-healthy diet and more exercise, before prescribing medications. If your child&apos;s blood pressure doesn&apos;t decrease after trying lifestyle changes, your child&apos;s doctor may recommend blood pressure medication. If your child is diagnosed with severely high blood pressure (stage 2 hypertension), your child&apos;s doctor will likely recommend blood pressure medications. These medications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; These medications, also known as water pills, act on your child&apos;s kidneys to help your child eliminate sodium and water, reducing blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These medications reduce the workload on your child&apos;s heart, causing it to beat slower and with less force.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors.&lt;/strong&gt; These medications help relax your child&apos;s blood vessels by blocking the formation of a natural chemical that narrows blood vessels. This makes it easier for your child&apos;s blood to flow, reducing blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers.&lt;/strong&gt; These medications help relax blood vessels by blocking a natural chemical that narrows your child&apos;s blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers.&lt;/strong&gt; These medications help relax the muscles of your child&apos;s blood vessels and may slow his or her heart rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your child may need blood pressure medications temporarily or indefinitely. If your child&apos;s high blood pressure is caused by obesity, losing weight may eliminate the need for medication. In other cases, treating other medical conditions your child has might control his or her blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Although little is known about the long-term effects of blood pressure medication on a child&apos;s growth and development, many of these medications are generally considered safe to take during childhood. Depending on the specific drug, side effects are possible, including dry mouth, dizziness and fatigue. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High blood pressure is treated similarly in children and adults, typically starting with lifestyle changes. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Control your child&apos;s weight.&lt;/strong&gt; If your child is overweight, losing the excess pounds or maintaining the same weight as he or she gets taller can lower blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Give your child a healthy diet.&lt;/strong&gt; Encourage your child to eat a healthy breakfast that includes fiber and to avoid sugary cereals and beverages or products that have corn syrup solids listed as the first ingredient. Provide plenty of fresh fruits and vegetables in place of higher fat snacks like candy or chips. Trade white bread, rice and pasta for whole-wheat varieties. Working with a dietitian can be helpful.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Decrease salt in your child&apos;s diet.&lt;/strong&gt; Cutting the amount of salt (sodium) in your child&apos;s diet will help lower his or her blood pressure. Children ages 4 to 8 shouldn&apos;t have more than 1,200 milligrams (mg) a day, and older children shouldn&apos;t have more than 1,500 mg a day. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Pay attention to how much salt you use in your cooking, and take the saltshaker off the table. Avoid giving your child salty snacks, such as chips or pretzels. Also, pay attention to how much sodium is in canned and processed foods your child eats, such as soups and frozen dinners. Limit the amount of fast food your child eats. Fast-food restaurants generally have high salt menus as well as high-calorie foods. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage physical activity.&lt;/strong&gt; Most children need at least 30 to 60 minutes of physical activity a day. Limit your child&apos;s time in front of the television or computer &amp;mdash; no television before age 2, and no more than two hours of &quot;screen time&quot; a day after age 2.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get the whole family involved.&lt;/strong&gt; It may be hard for your child to make healthy lifestyle changes if you or your child&apos;s siblings don&apos;t eat a healthy diet or exercise. So, set a good example. Your whole family will benefit from eating a healthier diet. You can also join in the fun of riding your bikes together, playing catch or walking to the park as a family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shop mindfully.&lt;/strong&gt; Most of the time, your child can eat only the foods that you&apos;ve purchased and made available.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High blood pressure caused by another condition can sometimes be controlled, or even prevented, by effectively managing the underlying condition. High blood pressure can be prevented in children by making the same lifestyle changes that can help treat it &amp;mdash; controlling your child&apos;s weight, providing a healthy diet and encouraging your child to exercise. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		High blood pressure in children
+	</Title>
+	<Abstract>
+		High blood pressure in children &amp;mdash; Comprehensive overview covers diagnosis and treatment of childhood hypertension.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HI00092" LinkType="Internal" ObjectID="13281AD6-E7FF-0DBD-106BB14106AB2F8C" Title="Stress and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/stress-and-high-blood-pressure/HI00092" />
+		<LinkItem ContentType="Article" DocID="HQ00419" LinkType="Internal" ObjectID="179DFA54-BAA7-4B3C-9230E10BFE559737" Title="Healthy snacks for kids: 10 child-friendly tips" Url="http://www.mayoclinic.com/health/childrens-health/HQ00419" />
+	</RelatedLinksBox>
+</Disease>

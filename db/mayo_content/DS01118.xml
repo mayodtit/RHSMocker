@@ -1,0 +1,455 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01118
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/allergies/DS01118
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-29
+		</UpdateDate>
+		<PublicationDate>
+			2009-01-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy testing
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				hay fever
+			</MetaKeyword>
+			<MetaKeyword>
+				drug allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				mold allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				penicillin allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				aspirin allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				wheat allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				soy allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				peanut allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				shellfish allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				fish allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				egg allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				milk allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				allergy-induced asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				hypersensitivity
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergies occur when your immune system reacts to a foreign substance such as pollen, bee venom or pet dander. 
+&lt;/p&gt;
+&lt;p&gt;
+Your immune system produces substances known as antibodies. Some of these antibodies protect you from unwanted invaders that could make you sick or cause an infection. When you have allergies, your immune system makes antibodies that identify a particular allergen as something harmful, even though it isn&apos;t. When you come into contact with the allergen, your immune system&apos;s reaction can inflame your skin, sinuses, airways or digestive system. 
+&lt;/p&gt;
+&lt;p&gt;
+The severity of allergies varies from person to person and can range from minor irritation to anaphylaxis &amp;mdash; a potentially life-threatening emergency. While most allergies can&apos;t be cured, a number of treatments can help relieve your allergy symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergy symptoms depend on your particular allergy, and can involve the airways, sinuses and nasal passages, skin, and digestive system. Allergic reactions can range from mild to severe. In some severe cases, allergies can trigger a life-threatening reaction in your body known as anaphylaxis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hay fever,&lt;/strong&gt; also called allergic rhinitis, may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Congestion&lt;/li&gt;
+	&lt;li&gt;Itchy, runny nose&lt;/li&gt;
+	&lt;li&gt;Itchy, watery or swollen eyes (conjunctivitis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Atopic dermatitis,&lt;/strong&gt; an allergic skin condition also called eczema, may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itchy skin&lt;/li&gt;
+	&lt;li&gt;Red skin&lt;/li&gt;
+	&lt;li&gt;Flaking or peeling skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;A food allergy&lt;/strong&gt; may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling mouth&lt;/li&gt;
+	&lt;li&gt;Swelling of the lips, tongue, face or throat&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Anaphylaxis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;An insect sting allergy&lt;/strong&gt; may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A large area of swelling (edema) at the sting site&lt;/li&gt;
+	&lt;li&gt;Itching or hives all over your body&lt;/li&gt;
+	&lt;li&gt;Cough, chest tightness, wheezing or shortness of breath&lt;/li&gt;
+	&lt;li&gt;Anaphylaxis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;A drug allergy&lt;/strong&gt; may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Itchy skin&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Facial swelling&lt;/li&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Anaphylaxis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anaphylaxis&lt;/strong&gt;&lt;br /&gt;
+Some types of allergies, including allergies to foods and insect stings, have the potential to trigger a severe reaction known as anaphylaxis. A life-threatening medical emergency, this reaction can cause you to go into shock. Signs and symptoms of anaphylaxis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Severe shortness of breath&lt;/li&gt;
+	&lt;li&gt;A rapid, weak pulse&lt;/li&gt;
+	&lt;li&gt;Skin rash&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Swelling airways, which can block breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+You may want to see a doctor if you have symptoms you think may be caused by an allergy, especially if you notice something in your environment that seems to trigger your allergies. If you have symptoms after starting a new medication, call the doctor who prescribed it right away. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For a severe allergic reaction (anaphylaxis),&lt;/strong&gt; call 911 or your local emergency number or seek emergency medical help. If you carry an epinephrine auto-injector (such as EpiPen, EpiPen Jr or Twinject), give yourself a shot right away. Even if symptoms improve after an emergency epinephrine injection, a visit to the emergency department is still necessary to make sure symptoms don&apos;t return when the effects of the injection wear off. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had a severe allergy attack or any signs and symptoms of anaphylaxis in the past, make an appointment to see your doctor. Evaluation, diagnosis and long-term management of anaphylaxis are complicated, so you&apos;ll probably need to see a doctor who specializes in allergies and immunology. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An allergy starts when the immune system mistakes a normally harmless substance for a dangerous invader. The immune system then produces antibodies that are always on the alert for that particular allergen. When you&apos;re exposed to the allergen again in the future, these antibodies can release a number of immune system chemicals, such as histamine, that cause allergy symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Common allergy triggers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Airborne allergens,&lt;/strong&gt; such as pollen, animal dander, dust mites and mold&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain foods,&lt;/strong&gt; particularly peanuts, tree nuts, wheat, soy, fish, shellfish, eggs and milk&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insect stings,&lt;/strong&gt; such as bee stings or wasp stings&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; particularly penicillin or penicillin-based antibiotics&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Latex or other substances you touch,&lt;/strong&gt; which can cause allergic skin reactions &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at increased risk of developing an allergy if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Have a family history of asthma or allergies.&lt;/strong&gt; You&apos;re at increased risk of allergies if you have family members with asthma or allergies such as hay fever, hives or eczema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Are a child.&lt;/strong&gt; Although you can become allergic to something at any age, children are more likely to develop an allergy than are adults. Children sometimes outgrow allergic conditions as they get older. However, it&apos;s not uncommon for allergies to go away and then come back sometime in the future.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have asthma or an allergic condition.&lt;/strong&gt; Having asthma increases your risk of developing an allergy. Also, having one type of allergic condition makes you more likely to be allergic to something else.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having an allergy increases your risk of certain other medical problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylaxis.&lt;/strong&gt; If you have severe allergies, you&apos;re at increased risk of this serious allergy-induced reaction. Anaphylaxis is most commonly associated with food allergy, penicillin allergy and allergy to insect venom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Another allergy.&lt;/strong&gt; Having one type of allergy also increases your risk of becoming allergic to something else.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Asthma.&lt;/strong&gt; If you have an allergy, you&apos;re more likely to have asthma &amp;mdash; an immune system reaction that affects the airways and breathing. In many cases, asthma is triggered by exposure to an allergen in the environment (allergy-induced asthma).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis (eczema), sinusitis, and infections of the ears or lungs.&lt;/strong&gt; Your risk of getting these conditions is higher if you have hay fever, a pet allergy or a mold allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fungal complications of your sinuses or your lungs.&lt;/strong&gt; You&apos;re at increased risk of getting these conditions, known as allergic fungal sinusitis and allergic bronchopulmonary aspergillosis, if you&apos;re allergic to mold.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re experiencing symptoms that may be related to an allergy, start by seeing your family doctor or general practitioner. Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to allergy-like symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your family&apos;s history&lt;/strong&gt; of allergy and asthma, including specific types of allergies if you know them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask if you should stop taking any medications,&lt;/strong&gt; for example, antihistamines that would affect the results of an allergy skin test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time together. For symptoms that may be related to an allergy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Will I need any allergy tests?&lt;/li&gt;
+	&lt;li&gt;Should I see an allergy specialist?&lt;/li&gt;
+	&lt;li&gt;What is the best treatment?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;What changes can I make at home to reduce my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;What symptoms should prompt me to call your office?&lt;/li&gt;
+	&lt;li&gt;What emergency symptoms should my friends and family be aware of?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you recently had a cold or other respiratory infection?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse at certain times of the day?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse in the bedroom or other rooms of your house?&lt;/li&gt;
+	&lt;li&gt;Do you have pets, and do they go into bedrooms?&lt;/li&gt;
+	&lt;li&gt;Is there dampness or water damage in your home or workplace?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of allergies or asthma?&lt;/li&gt;
+	&lt;li&gt;Do you smoke, or are you exposed to secondhand smoke or other pollutants in the air?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried so far? Have they helped?&lt;/li&gt;
+	&lt;li&gt;Do you have any other health problems?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including herbal remedies?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To evaluate whether you have an allergy, your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask detailed questions about signs and symptoms&lt;/li&gt;
+	&lt;li&gt;Perform a physical exam&lt;/li&gt;
+	&lt;li&gt;Have you keep a detailed diary of symptoms and possible triggers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a food allergy, your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask you to keep a detailed diary of the foods you eat&lt;/li&gt;
+	&lt;li&gt;Have you eliminate a food from your diet (elimination diet) &amp;mdash; and then have you eat the food in question again to see if it causes a reaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also recommend one or both of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; In this test, your skin is pricked and exposed to small amounts of the proteins found in your potential allergen. If you&apos;re allergic, you&apos;ll likely develop a raised bump (hive) at the test location on your skin. Allergy specialists usually are best equipped to perform and interpret allergy skin tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood&lt;strong&gt; test.&lt;/strong&gt;&lt;/strong&gt; A blood test that&apos;s sometimes called the radioallergosorbent test (RAST) can measure your immune system&apos;s response to a specific allergen by measuring the amount of allergy-causing antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. A blood sample is sent to a medical laboratory, where it can be tested for evidence of sensitivity to possible allergens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your doctor suspects your problems are caused by something other than an allergy, you may need other tests to identify &amp;mdash; or rule out &amp;mdash; other medical problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Allergy treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergen avoidance.&lt;/strong&gt; Your doctor will help you take steps to identify and avoid your allergy triggers. This is generally the most important step in preventing allergic reactions and reducing symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to reduce symptoms.&lt;/strong&gt; Allergy medications can help reduce your immune system reaction and ease symptoms. The drugs you use depend on the type of allergy you have. They can include over-the-counter or prescription medications in the form of oral medications, nasal sprays or eyedrops. Some common allergy medications include corticosteroids, antihistamines, decongestants, cromolyn sodium and leukotriene modifiers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunotherapy.&lt;/strong&gt; For severe allergies or allergies not completely relieved by other treatment, your doctor may recommend allergy shots (immunotherapy). This treatment involves a series of injections of purified allergen extracts, usually given over a period of a few years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emergency epinephrine.&lt;/strong&gt; If you have a severe allergy, your doctor may give you an emergency epinephrine shot to carry with you at all times. Given for severe allergic reactions, an epinephrine shot (EpiPen, EpiPen Jr, Twinject) can reduce symptoms until you get emergency treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some allergy symptoms improve with home treatment. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sinus congestion and hay fever symptoms.&lt;/strong&gt; These symptoms often improve with saline nasal irrigation &amp;mdash; rinsing out the sinuses with a salt and water solution. You can use a neti pot or a specially designed squeeze bottle to flush out thickened mucus and irritants from your nose. Use water that&apos;s distilled, sterile, previously boiled and cooled, or filtered using a filter with an absolute pore size of 1 micron or smaller to make up the irrigation solution. Prepare the saline solution with the appropriate water, using the mixture supplied by the neti pot or one you prepared yourself. Be sure to rinse the irrigation device after each use with similarly distilled, sterile, previously boiled and cooled, or filtered water and leave open to air dry.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Household airborne allergy symptoms.&lt;/strong&gt; Symptoms such as those caused by dust mites or pet dander, may improve by taking steps to reduce your exposure to allergens. Steps include frequently washing bedding and stuffed toys in hot water, maintaining low humidity, regularly using a vacuum with a fine filter such as a high-efficiency particulate air (HEPA) filter, and replacing carpeting with hard flooring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mold allergy symptoms. &lt;/strong&gt;These may be alleviated by reducing moisture in damp areas, such as your bath and kitchen, by using ventilation fans and dehumidifiers, and fixing any leaks inside and outside of your home.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following herbs may be of some benefit in treating allergies: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Butterbur &lt;/strong&gt;may help relieve symptoms of allergic rhinitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Milk thistle&lt;/strong&gt; may improve symptoms of allergic rhinitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Phleum pratense&lt;/strong&gt; may help relieve symptoms associated with asthma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re interested in adding alternative therapies to your treatment plan, always talk with your doctor first. He or she can help you understand which therapies are most likely to help in your case. Your doctor can also provide information about potential health risks and drug interactions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preventing allergic reactions depends on the type of allergy you have. General measures include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid known triggers.&lt;/strong&gt; Even if you get treatment for your allergy symptoms, you still need to try and avoid your triggers. Common triggers include airborne allergens outdoors, at home or at work, and certain foods, insects or medications. Some allergic reactions are triggered or worsened by temperature extremes or emotional stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a diary.&lt;/strong&gt; When trying to identify exactly what causes or worsens your allergic symptoms, try to track all of your activities, note when symptoms occur, and write down what seems to help. This may help you and your doctor identify triggers and the best steps to prevent and treat them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a medical alert bracelet.&lt;/strong&gt; If you&apos;ve ever had a severe allergic reaction. A medical alert bracelet (or necklace) lets others know that you have a serious allergy in case you have a reaction and you&apos;re unable to communicate.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Allergies
+	</Title>
+	<Abstract>
+		Allergies &amp;mdash; Comprehensive overview covers allergy symptoms, allergy testing, treatment of an allergic reaction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01565" LinkType="Internal" ObjectID="C6833A20-E7FF-0DBD-12528D4C34009ED4" Title="Sulfa allergy: Which medications should I avoid?" Url="http://www.mayoclinic.com/health/sulfa-allergy/AN01565" />
+		<LinkItem ContentType="Answer" DocID="AN01467" LinkType="Internal" ObjectID="52A9B9F4-E7FF-0DBD-15D383AF16C11258" Title="Aspirin allergy: What are the symptoms?" Url="http://www.mayoclinic.com/health/aspirin-allergy/AN01467" />
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="Disease" DocID="DS01148" LinkType="Internal" ObjectID="D083DF11-E543-F247-8C0C76E81FA6E12B" Title="Drug allergy" Url="http://www.mayoclinic.com/health/drug-allergy/DS01148" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Answer" DocID="AN01241" LinkType="Internal" ObjectID="B0F40A94-2A5D-9994-E46A807D9C5DB928" Title="Nasal spray addiction: Is it real?" Url="http://www.mayoclinic.com/health/nasal-spray-addiction/AN01241" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02143" LinkType="Internal" ObjectID="399DF620-BDAA-8F5C-475E946ECCF36A6F" Title="Trouble breathing: Could it be asthma?" Url="http://www.mayoclinic.com/health/trouble-breathing/AN02143" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="Answer" DocID="AN00443" LinkType="Internal" ObjectID="0B689DAB-0061-4909-8DA7ED35EA5FFE40" Title="Ozone air purifiers: Can they improve asthma symptoms?" Url="http://www.mayoclinic.com/health/asthma/AN00443" />
+		<LinkItem ContentType="Article" DocID="AA00045" LinkType="Internal" ObjectID="BFC355EF-E627-4E1E-BCFBD5F8874118DF" Title="Allergies and asthma: They often occur together" Url="http://www.mayoclinic.com/health/allergies-and-asthma/AA00045" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="InteractiveTable" DocID="HQ01514" LinkType="Internal" ObjectID="C199612D-8333-47C0-94783CE38BF24864" Title="Allergy-proof your house" Url="http://www.mayoclinic.com/health/allergy/HQ01514" />
+		<LinkItem ContentType="Answer" DocID="AN02192" LinkType="Internal" ObjectID="97C78A0D-982B-F2B1-311681AF6204AA46" Title="Can you use honey for allergies?" Url="http://www.mayoclinic.com/health/honey-for-allergies/AN02192" />
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+	</RelatedLinksBox>
+</Disease>

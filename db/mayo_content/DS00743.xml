@@ -1,0 +1,266 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00743
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gilberts-syndrome/DS00743
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-22
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="2963" Title="Gilbert&apos;s syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A573D0D5-2A5D-9994-E64633398C62CD9C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Gilbert&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Gilbert syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				Gilberts syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gilbert&apos;s syndrome is a common, mild liver condition in which the liver doesn&apos;t properly process a substance called bilirubin. Bilirubin is produced by the breakdown of red blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Gilbert&apos;s (zheel-BAYRZ) syndrome typically is harmless and doesn&apos;t require treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Gilbert&apos;s syndrome is caused by an inherited gene mutation. You&apos;re born with Gilbert&apos;s syndrome, though it often goes undiscovered for many years. Gilbert&apos;s syndrome is often discovered by accident, such as when you have a blood test that shows elevated bilirubin levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Gilbert&apos;s syndrome is also known as constitutional hepatic dysfunction and familial nonhemolytic jaundice. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The lone sign of Gilbert&apos;s disease is that your skin and the whites of your eyes occasionally have a yellowish tinge (jaundice). This is caused by the slightly elevated levels of bilirubin in your blood. Some conditions and situations may increase bilirubin levels, and thereby jaundice, in people with Gilbert&apos;s syndrome. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Illness, such as a cold or the flu&lt;/li&gt;
+	&lt;li&gt;Fasting or eating a very low-calorie diet&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Menstruation&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Strenuous exercise&lt;/li&gt;
+	&lt;li&gt;Lack of sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The jaundice will go away when these conditions resolve. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you experience jaundice. Jaundice has many possible causes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gilbert&apos;s syndrome is caused by an abnormal gene that you inherit from your parents. The gene controls an enzyme that helps break down bilirubin in your liver. With an ineffective gene, excess amounts of bilirubin build up in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the body normally processes bilirubin&lt;/strong&gt; &lt;br /&gt;
+Bilirubin is a yellowish pigment that&apos;s made when your body breaks down old red blood cells. Bilirubin travels through your bloodstream to the liver. Normally an enzyme in liver cells breaks down the bilirubin and removes it from the bloodstream. The bilirubin passes from the liver into the intestines with bile. It&apos;s then excreted in stool. A small amount of bilirubin remains in the blood. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the abnormal gene is passed through families&lt;/strong&gt; &lt;br /&gt;
+The abnormal gene that causes Gilbert&apos;s syndrome is common. Many people carry one copy of this abnormal gene. Two abnormal copies are usually needed to cause Gilbert&apos;s syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You have an increased risk of Gilbert&apos;s syndrome if both of your parents carry the abnormal gene that causes the disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Jaundice&lt;/strong&gt; &lt;br /&gt;
+Gilbert&apos;s syndrome can cause episodes of jaundice. However, the jaundice is mild, goes away on its own and doesn&apos;t cause any health problems. If jaundice persists, see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Side effects with certain medications&lt;/strong&gt; &lt;br /&gt;
+The low level of the bilirubin-processing enzyme that causes Gilbert&apos;s syndrome may also increase side effects with certain medications, since this enzyme plays a role in helping clear these medications from your body. 
+&lt;/p&gt;
+&lt;p&gt;
+In particular, irinotecan (Camptosar), a cancer chemotherapy drug, can reach toxic levels if you have Gilbert&apos;s syndrome, causing severe diarrhea. Some protease inhibitors used to treat HIV cause elevated levels of bilirubin in people with Gilbert&apos;s syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Because of the potential for side effects, if you have Gilbert&apos;s syndrome, talk to your doctor before taking any new medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are some questions that might help facilitate a discussion with your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is my bilirubin level significantly elevated?&lt;/li&gt;
+	&lt;li&gt;Should I have my bilirubin level tested again?&lt;/li&gt;
+	&lt;li&gt;I&apos;ve been experiencing some unexplained symptoms. Could these be caused by Gilbert&apos;s syndrome?&lt;/li&gt;
+	&lt;li&gt;Would you review the medications I&apos;m taking for other conditions to make sure they&apos;re compatible with Gilbert&apos;s syndrome?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for Gilbert&apos;s syndrome?&lt;/li&gt;
+	&lt;li&gt;Can Gilbert&apos;s syndrome cause complications or lead to liver damage?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to maintain a low bilirubin level?&lt;/li&gt;
+	&lt;li&gt;Is jaundice harmful?&lt;/li&gt;
+	&lt;li&gt;What is the likelihood that my children or other relatives also have Gilbert&apos;s syndrome?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The presence of Gilbert&apos;s syndrome is often discovered by accident, due to either: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a blood test with elevated levels of bilirubin&lt;/li&gt;
+	&lt;li&gt;Experiencing jaundice with no obvious cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will examine you and ask about symptoms of liver disease, such as abdominal pain or dark urine. He or she may recommend blood tests to rule out liver problems that can cause elevated levels of bilirubin. Common blood tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bilirubin test&lt;/li&gt;
+	&lt;li&gt;Complete blood count &lt;/li&gt;
+	&lt;li&gt;Liver function tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The combination of normal blood and liver function tests and elevated bilirubin levels is an indicator of Gilbert&apos;s syndrome. No other testing is usually needed to make the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Although it&apos;s present from birth, Gilbert&apos;s syndrome usually isn&apos;t noticed until puberty or later, since bilirubin production increases during puberty. It&apos;s more commonly diagnosed in males. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gilbert&apos;s syndrome doesn&apos;t require treatment. The bilirubin levels in your blood may fluctuate over time and you may occasionally experience jaundice. But this usually goes away on its own, and it doesn&apos;t cause any ill effects. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain life events, such as stress, can trigger episodes of higher bilirubin levels in Gilbert&apos;s syndrome, leading to jaundice. Doing what you can to manage those situations can help keep bilirubin under control. 
+&lt;/p&gt;
+&lt;p&gt;
+These steps include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tell every doctor about your Gilbert&apos;s syndrome.&lt;/strong&gt; Gilbert&apos;s syndrome affects the way your body processes certain medications. This has the potential to worsen side effects. Tell each doctor you visit that you have Gilbert&apos;s syndrome, so any medications can be selected with this in mind.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Choose a healthy diet full of fruits and vegetables. Avoid extremely low-calorie diets. Stick to a routine eating schedule and avoid fasting or skipping meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Find ways to deal with the stresses in your life. Consider exercise or quiet time alone to cope with stress.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gilbert&apos;s syndrome
+	</Title>
+	<Abstract>
+		Gilbert&apos;s syndrome &amp;mdash; Comprehensive overview covers causes, diagnosis, treatment of this typically harmless liver condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00094" LinkType="Internal" ObjectID="B729B58C-E7FF-0DBD-12F16E2756745D18" Title="Bilirubin test" Url="http://www.mayoclinic.com/health/bilirubin/MY00094" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+	</RelatedLinksBox>
+</Disease>

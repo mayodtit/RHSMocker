@@ -1,0 +1,116 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01718
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/prostatitis/AN01718
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2057" Title="Prostate gland">
+						<Keyword MCVID="2392" Title="Prostatitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			04C2C0C5-E7FF-0DBD-1FB6A669908C3FA1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				prostatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate infection
+			</MetaKeyword>
+			<MetaKeyword>
+				painful sex
+			</MetaKeyword>
+			<MetaKeyword>
+				pain during sex
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+You don&apos;t necessarily have to avoid sex if you have prostatitis &amp;mdash; an infection or inflammation of the prostate gland. Typically, sex won&apos;t worsen prostatitis, but it won&apos;t make it better, either.
+&lt;/p&gt;
+&lt;p&gt;
+While it&apos;s OK for most men with prostatitis to have sex, some men have pain during or after orgasm (ejaculation). This can interfere with the enjoyment of sex.
+&lt;/p&gt;
+&lt;p&gt;
+Prostatitis is frequently caused by bacterial infections, but it&apos;s usually not caused by something that can be passed on to your partner during sex. In rare cases, prostatitis is caused by a sexually transmitted infection (STI). Don&apos;t have sex until you see your doctor if you have any signs of an STI, such as sores on your genitals or abnormal discharge from your penis.
+&lt;/p&gt;
+&lt;p&gt;
+To relieve prostatitis pain, try soaking in a warm bath. Over-the-counter pain relievers, such as aspirin or ibuprofen (Advil, Motrin IB, others), also may help, unless your doctor has told you to avoid these medications. You may need prescription medication to treat the underlying cause of your prostatitis.
+&lt;/p&gt;
+&lt;p&gt;
+Prostatitis &amp;mdash; and other conditions with similar symptoms &amp;mdash; have a number of possible causes. Some of them can have serious consequences if they aren&apos;t treated. If you have pelvic pain, difficult or painful urination, or painful ejaculation, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Prostatitis: Can sexual activity make it worse?
+	</Title>
+	<Abstract>
+		Some men with prostatitis have pain with ejaculation or sexual intercourse.
+	</Abstract>
+	<Question>
+		Should I avoid sex if I have prostatitis? Does sex make the condition worse?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="Answer" DocID="AN00931" LinkType="Internal" ObjectID="85C05350-3479-4D10-8C2CA11CE11EFE0F" Title="Recurrent prostate infection: What are the treatment options?" Url="http://www.mayoclinic.com/health/prostate-infection/AN00931" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS00341" LinkType="Internal" ObjectID="8754C233-295A-4871-BB6EAE0904F9233A" Title="Prostatitis" Url="http://www.mayoclinic.com/health/prostatitis/DS00341" />
+	</RelatedLinksBox>
+</Answer>

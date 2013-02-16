@@ -1,0 +1,191 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00376
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/carrot-cake/NU00376
+		</OriginalURL>
+		<UpdateDate>
+			2007-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			2A9AA311-B3EA-405F-8D20B7575FF8BFED
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Carrot cake
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		12
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; This modified carrot cake uses applesauce in place of half the oil, and fat-free cream cheese instead of regular cream cheese. These simple substitutions cut the fat by two-thirds and calories by one-third.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 350 F. Lightly coat a 9-by-13-inch cake pan with cooking spray. Dust with a bit of flour (about 1 tablespoon) and turn the pan over to remove most of it.&lt;/p&gt;
+
+&lt;p&gt;In a medium saucepan, add the carrots and water. Bring to a boil and cook for 5 minutes. Drain the water and set aside to cool.&lt;/p&gt;
+
+&lt;p&gt;In a large bowl, whisk together the flour, sugar, baking soda and cinnamon.&lt;/p&gt;
+
+&lt;p&gt;In another bowl, using an electric mixer on low speed, beat together the oil, applesauce, egg whites and vanilla. Add the flour mixture and beat until well blended. Fold in the cooked carrots, walnuts, coconut and pineapple.&lt;/p&gt;
+
+&lt;p&gt;Pour the batter into the prepared pan. Bake until a toothpick inserted into the center of the cake comes out clean, about 1 hour. Let cool in the pan on a wire rack for 10 minutes. Remove the cake from the pan and let cool completely on the cooling rack, about 1 hour.&lt;/p&gt;
+
+&lt;p&gt;To make the frosting, using an electric mixer slowly beat the cream cheese in a small mixing bowl. Add the powdered sugar slowly and continue beating. Add the vanilla and lemon juice. Mix until smooth. Frost the top and sides of the cake.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 1/3 cups shredded carrots&lt;br /&gt;
+3 cups water&lt;br /&gt;
+2 cups all-purpose (plain) flour&lt;br /&gt;
+2 cups sugar&lt;br /&gt;
+2 teaspoons baking soda&lt;br /&gt;
+2 teaspoons ground cinnamon&lt;br /&gt;
+1/2 cup corn oil&lt;br /&gt;
+1/2 cup applesauce&lt;br /&gt;
+5 egg whites from large eggs&lt;br /&gt;
+2 teaspoons vanilla&lt;br /&gt;
+1/4 cup chopped walnuts&lt;br /&gt;
+1/2 cup coconut&lt;br /&gt;
+1/2 cup canned, crushed pineapple (in own juice), drained&lt;/p&gt;
+
+&lt;p&gt;For the frosting&lt;br /&gt;
+4 ounces fat-free cream cheese spread, at room temperature&lt;br /&gt;
+3/4 cup powdered sugar&lt;br /&gt;
+3/4 teaspoon vanilla extract&lt;br /&gt;
+1 teaspoon lemon juice&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets">
+				2
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats" />
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches" />
+			<Sweets Label="Sweets, desserts and other carbohydrates">
+				2
+			</Sweets>
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets">
+				2
+			</Sweets>
+			<Vegetables Label="Vegetables" />
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				390
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				63 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				1 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				6 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				230 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				12 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 12
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+	</Categorization>
+</Recipe>

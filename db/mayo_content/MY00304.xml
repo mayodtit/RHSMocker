@@ -1,0 +1,325 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00304
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bone-density-test/MY00304
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-06
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3834" Title="Bones joints and muscles">
+						<Keyword MCVID="3089" Title="Bone density test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3369" Title="Risk level">
+						<Keyword MCVID="3378" Title="Normal risk" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3472" Title="Manage wellness clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger">
+						<Keyword MCVID="4647" Title="29 to 40 middle" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9ADB3E04-E7FF-0DBD-15CED708B69B3071
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				osteoporosis
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density test
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density tests
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density testing
+			</MetaKeyword>
+			<MetaKeyword>
+				densitometry
+			</MetaKeyword>
+			<MetaKeyword>
+				DXA
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density
+			</MetaKeyword>
+			<MetaKeyword>
+				DEXA
+			</MetaKeyword>
+			<MetaKeyword>
+				osteopenia
+			</MetaKeyword>
+			<MetaKeyword>
+				screening for osteoporosis
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoporsis
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density scan
+			</MetaKeyword>
+			<MetaKeyword>
+				bone mineral testing
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density screening
+			</MetaKeyword>
+			<MetaKeyword>
+				bone mineral density test
+			</MetaKeyword>
+			<MetaKeyword>
+				bone density exam
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A bone density test determines if you have osteoporosis &amp;mdash; a disease that causes bones to become more fragile and more likely to break.
+&lt;/p&gt;
+&lt;p&gt;
+In the past, osteoporosis could be detected only after you broke a bone. By that time, however, your bones could be quite weak. A bone density test makes it possible to know your risk of breaking bones before the fact.
+&lt;/p&gt;
+&lt;p&gt;
+A bone density test uses X-rays to measure how many grams of calcium and other bone minerals are packed into a segment of bone. The bones that are most commonly tested are located in the spine, hip and forearm.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors use bone density testing to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Identify decreases in bone density before you break a bone&lt;/li&gt;
+	&lt;li&gt;Determine your risk of broken bones (fractures)&lt;/li&gt;
+	&lt;li&gt;Confirm a diagnosis of osteoporosis if you&apos;ve experienced broken bones&lt;/li&gt;
+	&lt;li&gt;Monitor osteoporosis treatment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The higher your bone mineral content, the denser your bones are. And the denser your bones, the stronger they generally are and the less likely they are to break.
+&lt;/p&gt;
+&lt;p&gt;
+Bone density tests are not the same as bone scans. Bone scans require an injection beforehand and are usually used to detect fractures, cancer, infections and other abnormalities in the bone.
+&lt;/p&gt;
+&lt;p&gt;
+Although osteoporosis is more common in older women, men also can develop the condition. Regardless of your sex or age, your doctor may recommend a bone density test if you&apos;ve:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lost height.&lt;/strong&gt; People who have lost at least 1.6 inches (4 centimeters) in height may have experienced compression fractures in their spines. Osteoporosis is one of the main causes of compression fractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fractured a bone.&lt;/strong&gt; Fragility fractures occur when a bone becomes so fragile that it breaks much more easily than expected. Fragility fractures can sometimes be caused by a strong cough or sneeze.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taken certain drugs.&lt;/strong&gt; Long-term use of steroid medications, such as prednisone, interferes with the bone-rebuilding process &amp;mdash; which can lead to osteoporosis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Received a transplant.&lt;/strong&gt; People who have received an organ or bone marrow transplant are at higher risk of osteoporosis, partly because anti-rejection drugs also interfere with the bone-rebuilding process.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Experienced a drop in hormone levels.&lt;/strong&gt; In addition to the natural drop in hormones that occurs after menopause, women may also experience a drop in estrogen during certain cancer treatments. Some treatments for prostate cancer reduce testosterone levels in men. Lowered hormone levels weaken bone.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of normal bone and weakened bone 
+" Caption="With bone loss, the outer shell of a bone becomes thinner and the interior becomes more porous. Normal bone (A) is strong and flexible. Osteoporotic bone (B) is weaker and subject to fracture. 
+" Height="60" Title="Bone density" URI="/images/image_popup/thumbs/w7_osteoporosisthu.jpg" Width="60" />
+				<Image Alt="Image of normal bone and weakened bone 
+" Caption="With bone loss, the outer shell of a bone becomes thinner and the interior becomes more porous. Normal bone (A) is strong and flexible. Osteoporotic bone (B) is weaker and subject to fracture. 
+" Height="400" Title="Bone density" URI="/images/image_popup/w7_osteoporosis.jpg" Width="400" />
+				<HTML>
+					With bone loss, the outer shell of a bone becomes thinner and the interior becomes more porous. Normal bone (A) is strong and flexible. Osteoporotic bone (B) is weaker and subject to fracture. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Limitations of bone density testing include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Differences in testing methods.&lt;/strong&gt; Central devices, which measure the density of your spinal and hip bones, are more accurate, but cost significantly more than do peripheral devices, which measure density in the forearm, finger or heel bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Might not be covered by insurance.&lt;/strong&gt; Not all health insurance plans pay for bone density tests, so ask your insurance provider beforehand if you&apos;re covered.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doesn&apos;t identify the cause.&lt;/strong&gt; A bone density test can confirm that you have low bone density, but it can&apos;t tell you why. To answer that question, you need a more complete medical evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone density tests are easy, fast and painless. Virtually no preparation is needed. In fact, some simple versions of bone density tests can be done at your local pharmacy or drugstore.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having the test done at a medical center or hospital, be sure to tell your doctor beforehand if you&apos;ve recently had a barium exam or contrast material injected for a CT scan or nuclear medicine test. These contrast materials might interfere with your bone density test.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone density tests are usually done on bones that are most likely to break because of osteoporosis, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lower spine bones (lumbar vertebrae)&lt;/li&gt;
+	&lt;li&gt;The narrow neck of your thighbone (femur), next to your hip joint&lt;/li&gt;
+	&lt;li&gt;Bones in your forearm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have your bone density test done at a hospital, it&apos;ll probably be done on a central device, where you lie on a padded platform while a mechanical arm passes over your body. The amount of radiation you&apos;re exposed to is very low, much less than the amount emitted during a chest X-ray. The test usually takes about 10 minutes to complete.
+&lt;/p&gt;
+&lt;p&gt;
+A small, portable machine can measure bone density in the bones at the far ends of your skeleton, such as your finger, wrist or heel. The instruments used for these tests are called peripheral devices, and are often found in pharmacies. Tests of peripheral bone density are considerably less expensive than are tests done on central devices.
+&lt;/p&gt;
+&lt;p&gt;
+Because bone density can vary from one location in your body to another, a measurement taken at your heel usually isn&apos;t as accurate a predictor of fracture risk as is a measurement taken at your spine or hip. That&apos;s why, if your test on a peripheral device is positive, your doctor might recommend a follow-up scan at your spine or hip to confirm your diagnosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of skeleton and locations for bone density testing 
+" Caption="Bone density tests are usually done on bones in the spine (vertebrae), hip, forearm, wrist, fingers and heel. 
+" Height="60" Title="Locations for bone density testing" URI="/images/image_popup/thumbs/w7_skeletonthu.jpg" Width="60" />
+				<Image Alt="Image of skeleton and locations for bone density testing 
+" Caption="Bone density tests are usually done on bones in the spine (vertebrae), hip, forearm, wrist, fingers and heel. 
+" Height="400" Title="Locations for bone density testing" URI="/images/image_popup/w7_skeleton.jpg" Width="400" />
+				<HTML>
+					Bone density tests are usually done on bones in the spine (vertebrae), hip, forearm, wrist, fingers and heel. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of dual energy X-ray absorptiometry (DXA) test 
+" Caption="During a DXA test, you lie on a padded platform while an imager &amp;mdash; a mechanical arm-like device &amp;mdash; passes over your body. 
+" Height="60" Title="Dual energy X-ray absorptiometry (DXA)" URI="/images/image_popup/thumbs/w7_dexathu.jpg" Width="60" />
+				<Image Alt="Image of dual energy X-ray absorptiometry (DXA) test 
+" Caption="During a DXA test, you lie on a padded platform while an imager &amp;mdash; a mechanical arm-like device &amp;mdash; passes over your body. 
+" Height="244" Title="Dual energy X-ray absorptiometry (DXA)" URI="/images/image_popup/w7_dexa.jpg" Width="400" />
+				<HTML>
+					During a DXA test, you lie on a padded platform while an imager &amp;mdash; a mechanical arm-like device &amp;mdash; passes over your body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your bone density test results are reported in two numbers: T-score and Z-score. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;T-score&lt;br /&gt;
+&lt;/strong&gt;Your T-score is your bone density compared with what is normally expected in a healthy young adult of your sex. Your T-score is the number of units &amp;mdash; called standard deviations &amp;mdash; that your bone density is above or below the average. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;T-score &lt;/th&gt;&lt;th&gt;What your score means &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;-1 and above&lt;/td&gt;
+			&lt;td&gt;Your bone density is considered normal. &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Between -1 and -2.5 &lt;/td&gt;
+			&lt;td&gt;Your score is a sign of osteopenia, a condition in which bone density is below normal and may lead to osteoporosis. &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;-2.5 and below &lt;/td&gt;
+			&lt;td&gt;Your bone density indicates you have osteoporosis. &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;Z-score&lt;br /&gt;
+&lt;/strong&gt;Your Z-score is the number of standard deviations above or below what&apos;s normally expected for someone of your age, sex, weight, and ethnic or racial origin. If your Z-score is -2 or lower, it may suggest that something other than aging is causing abnormal bone loss. If your doctor can identify the underlying problem, that condition can often be treated and the bone loss slowed or stopped.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bone density test
+	</Title>
+	<Abstract>
+		Bone density test &amp;mdash; Overview covers definition, risks, results of this osteoporosis-related test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00128" LinkType="Internal" ObjectID="74832633-C5B7-4681-A614980804652C1A" Title="Osteoporosis" Url="http://www.mayoclinic.com/health/osteoporosis/DS00128" />
+		<LinkItem ContentType="Disease" DocID="DS00396" LinkType="Internal" ObjectID="0487CA33-EE6D-4E87-93CB56C658CA5FB5" Title="Hyperparathyroidism" Url="http://www.mayoclinic.com/health/hyperparathyroidism/DS00396" />
+	</RelatedLinksBox>
+</TestProcedure>

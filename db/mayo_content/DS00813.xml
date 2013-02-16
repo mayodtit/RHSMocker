@@ -1,0 +1,268 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00813
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rickets/DS00813
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="1732" Title="Soft bones">
+							<Keyword MCVID="3837" Title="Rickets" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			75DD1D40-E7FF-0DBD-151397C4F96333E6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				rickets
+			</MetaKeyword>
+			<MetaKeyword>
+				osteomalacia
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin D
+			</MetaKeyword>
+			<MetaKeyword>
+				rickets
+			</MetaKeyword>
+			<MetaKeyword>
+				rickets disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rickets is the softening and weakening of bones in children, usually because of an extreme and prolonged vitamin D deficiency.
+&lt;/p&gt;
+&lt;p&gt;
+Vitamin D promotes the absorption of calcium and phosphorus from the gastrointestinal tract. A deficiency of vitamin D makes it difficult to maintain proper calcium and phosphorus levels in bones, which can cause rickets.
+&lt;/p&gt;
+&lt;p&gt;
+If a vitamin D or calcium deficiency causes rickets, adding vitamin D or calcium to the diet generally corrects any resulting bone problems for your child. Rickets due to a genetic condition may require additional medications or other treatment. Some skeletal deformities caused by rickets may need corrective surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of rickets may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Delayed growth&lt;/li&gt;
+	&lt;li&gt;Pain in the spine, pelvis and legs&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because rickets softens the growth plates at the ends of a child&apos;s bones, it can cause skeletal deformities such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bowed legs&lt;/li&gt;
+	&lt;li&gt;Abnormally curved spine&lt;/li&gt;
+	&lt;li&gt;Thickened wrists and ankles&lt;/li&gt;
+	&lt;li&gt;Breastbone projection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if your child develops bone pain, muscle weakness or obvious skeletal deformities.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your body needs vitamin D to absorb calcium and phosphorus from food. Rickets can occur if your child&apos;s body doesn&apos;t get enough vitamin D or if his or her body has problems using vitamin D properly.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lack of vitamin D&lt;br /&gt;
+&lt;/strong&gt;You receive vitamin D from two sources:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sunlight.&lt;/strong&gt; Your skin produces vitamin D when it&apos;s exposed to sunlight. But children in developed countries now tend to spend less time outdoors. They&apos;re also more likely to use sunscreen, which blocks the rays that trigger the skin&apos;s production of vitamin D.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food.&lt;/strong&gt; Fish oils, fatty fish and egg yolks contain vitamin D. Vitamin D also has been added to some foods, such as milk, cereal and some fruit juices. Children who don&apos;t eat enough of these fortified foods can develop a vitamin D deficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Problems with absorption&lt;br /&gt;
+&lt;/strong&gt;Some children are born with or develop medical conditions that affect the way their bodies absorb vitamin D. Some examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Celiac disease&lt;/li&gt;
+	&lt;li&gt;Inflammatory bowel disease&lt;/li&gt;
+	&lt;li&gt;Cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;Kidney problems&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Children 6 to 24 months old are most at risk of rickets because their skeletons are growing so rapidly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dark skin.&lt;/strong&gt; Dark skin doesn&apos;t react as strongly to sunshine as does lighter colored skin, so it produces less vitamin D.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Northern latitudes.&lt;/strong&gt; Children who live in geographical locations where there is less sunshine are at higher risk of rickets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Premature birth.&lt;/strong&gt; Babies born before their due dates are more likely to develop rickets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure medications.&lt;/strong&gt; Certain types of anti-seizure medications appear to interfere with the body&apos;s ability to use vitamin D.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exclusively breast-fed.&lt;/strong&gt; Breast milk doesn&apos;t contain enough vitamin D to prevent rickets. The American Academy of Pediatrics recommends vitamin D drops for breast-fed babies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If left untreated, rickets may lead to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Failure to grow&lt;/li&gt;
+	&lt;li&gt;Skeletal deformities&lt;/li&gt;
+	&lt;li&gt;Bone fractures&lt;/li&gt;
+	&lt;li&gt;Dental defects&lt;/li&gt;
+	&lt;li&gt;Breathing problems and pneumonia&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor or a pediatrician. Depending on the cause of your child&apos;s symptoms, you may be referred to a specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list that answers the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms have you noticed and when did they start?&lt;/li&gt;
+	&lt;li&gt;What types of food and drink does your child usually consume?&lt;/li&gt;
+	&lt;li&gt;How often does your child play outdoors?&lt;/li&gt;
+	&lt;li&gt;Does your child always wear sunscreen?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements does your child take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the exam, the doctor will gently press on your child&apos;s bones, checking for abnormalities. He or she will pay particular attention to your child&apos;s:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skull.&lt;/strong&gt; Babies who have rickets often have softer skull bones and may experience a delay in the closure of the soft spots (fontanels).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Legs.&lt;/strong&gt; While even healthy toddlers are a little bowlegged, an exaggerated bowing of the legs is common with rickets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest.&lt;/strong&gt; Some children with rickets develop abnormalities in their rib cages, which may flatten and cause their breastbones to protrude.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wrists and ankles.&lt;/strong&gt; Children who have rickets often have wrists and ankles that are larger or thicker than normal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-rays of the affected bones can reveal bone deformities. Blood and urine tests can confirm a diagnosis of rickets and also monitor the progress of treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of rickets can be treated with vitamin D and calcium supplements. Follow your doctor&apos;s directions as to dosage, which may vary by the size of your child. Too much vitamin D can be dangerous.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;For some cases of bowlegs or spinal deformities, your doctor may suggest special bracing to position your child&apos;s body appropriately as the bones grow. More severe skeletal deformities may require surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most adolescents and adults receive much of their necessary vitamin D from exposure to sunlight. Infants and young children, however, need to avoid direct sun entirely or be especially careful by always wearing sunscreen.
+&lt;/p&gt;
+&lt;p&gt;
+Make sure your child is consuming foods that contain vitamin D naturally &amp;mdash; fatty fish, fish oil and egg yolks &amp;mdash; or that have been fortified with vitamin D, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infant formula&lt;/li&gt;
+	&lt;li&gt;Cereals&lt;/li&gt;
+	&lt;li&gt;Milk&lt;/li&gt;
+	&lt;li&gt;Orange juice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because human milk contains only a small amount of vitamin D, the American Academy of Pediatrics recommends that all breast-fed infants receive 400 international units (IU) of oral vitamin D daily beginning the first few days of life.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rickets
+	</Title>
+	<Abstract>
+		Rickets &amp;mdash; Comprehensive overview covers causes, risk factors, treatment, prevention of bone weakening in children.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02182" LinkType="Internal" ObjectID="CC7E53F6-98D8-CA08-60C91AF082F28449" Title="Vitamin D deficiency" Url="http://www.mayoclinic.com/health/vitamin-d-deficiency/AN02182" />
+	</RelatedLinksBox>
+</Disease>

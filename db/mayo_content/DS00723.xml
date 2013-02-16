@@ -1,0 +1,256 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00723
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pyoderma-gangrenosum/DS00723
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-27
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2879" Title="Pyoderma gangrenosum" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A4DEDD20-E7FF-0DBD-18C194D3E8941740
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pyoderma gangrenosum
+			</MetaKeyword>
+			<MetaKeyword>
+				skin ulcers
+			</MetaKeyword>
+			<MetaKeyword>
+				skin ulcer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pyoderma gangrenosum (pie-oh-DER-muh gang-ruh-NO-sum) is a rare condition that causes large, painful sores (ulcers) to develop on your skin, most often on your legs.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not certain what causes pyoderma gangrenosum, but it appears to be a disorder of the immune system. People who have certain underlying conditions, such as inflammatory bowel disease or rheumatoid arthritis, are at higher risk of pyoderma gangrenosum.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment typically includes high doses of corticosteroids, such as prednisone, along with other drugs designed to suppress your immune system. It can take weeks or even months to heal the ulcers associated with pyoderma gangrenosum. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing advanced-stage pyoderma gangrenosum 
+" Caption="Pyoderma gangrenosum can cause painful, open sores (ulcers) that have bluish, overhanging borders. 
+" Height="60" Title="Advanced pyoderma gangrenosum" URI="/images/image_popup/thumbs/ans7_pyo_gangrenosumthu.jpg" Width="60" />
+				<Image Alt="Photograph showing advanced-stage pyoderma gangrenosum 
+" Caption="Pyoderma gangrenosum can cause painful, open sores (ulcers) that have bluish, overhanging borders. 
+" Height="261" Title="Advanced pyoderma gangrenosum" URI="/images/image_popup/ans7_pyo_gangrenosum.jpg" Width="400" />
+				<HTML>
+					Pyoderma gangrenosum can cause painful, open sores (ulcers) that have bluish, overhanging borders. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pyoderma gangrenosum usually starts with a small, red bump on your skin, which may resemble a spider bite. Within days, this bump can develop into a large, painful open sore. The ulcers usually appear on your legs, but may develop anywhere on your body. If you have several ulcers, they may grow and merge into one larger ulcer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if you develop unexplained blistering on your skin, an itchy rash or a sore that&apos;s slow to heal. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing advanced-stage pyoderma gangrenosum 
+" Caption="Pyoderma gangrenosum can cause painful, open sores (ulcers) that have bluish, overhanging borders. 
+" Height="60" Title="Advanced pyoderma gangrenosum" URI="/images/image_popup/thumbs/ans7_pyo_gangrenosumthu.jpg" Width="60" />
+				<Image Alt="Photograph showing advanced-stage pyoderma gangrenosum 
+" Caption="Pyoderma gangrenosum can cause painful, open sores (ulcers) that have bluish, overhanging borders. 
+" Height="261" Title="Advanced pyoderma gangrenosum" URI="/images/image_popup/ans7_pyo_gangrenosum.jpg" Width="400" />
+				<HTML>
+					Pyoderma gangrenosum can cause painful, open sores (ulcers) that have bluish, overhanging borders. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of pyoderma gangrenosum isn&apos;t well understood. It&apos;s often associated with inflammatory conditions, such as ulcerative colitis and Crohn&apos;s disease. If you have pyoderma gangrenosum, new skin trauma, such as a cut or puncture wound, may result in the formation of new ulcers. This tendency of new ulcers to form from trauma, including surgery, is known as pathergy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pyoderma gangrenosum is most common in people in their 40s and 50s, but can occur at any age. It&apos;s also associated with inflammatory conditions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcerative colitis.&lt;/strong&gt; This disease of the large intestine causes chronic inflammation of your large intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Crohn&apos;s disease.&lt;/strong&gt; Like ulcerative colitis, Crohn&apos;s disease causes long-term inflammation that can occur anywhere along your digestive tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatoid arthritis.&lt;/strong&gt; Rheumatoid arthritis refers to a condition in which the thin membranes surrounding your joints become irritated and inflamed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The ulcers associated with pyoderma gangrenosum often leave scars. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a doctor who specializes in treating skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list that answers some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have you had similar symptoms in the past? If so, what treatment worked then?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Did you have any damage to your skin, such as a puncture or cut, in the area where the sore developed?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried already? Have they helped any?&lt;/li&gt;
+	&lt;li&gt;Do you have any inflammatory medical conditions, such as Crohn&apos;s disease, ulcerative colitis or rheumatoid arthritis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no test that can specifically confirm a diagnosis of pyoderma gangrenosum. But your doctor may order a variety of tests to rule out other conditions that may have similar signs or symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;A sample of your blood can be tested to check for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evidence of infection&lt;/li&gt;
+	&lt;li&gt;Liver, kidney and thyroid function&lt;/li&gt;
+	&lt;li&gt;Rheumatoid factor, which indicates rheumatoid arthritis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Swabs and biopsies&lt;br /&gt;
+&lt;/strong&gt;A cotton swab can remove a small sample of liquid from the center of an ulcer to test for different types of infection. A skin biopsy involves removing a small sample of the affected skin, so it can be viewed under a microscope.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depending on the size and depth of your skin lesions, it can take weeks or months for them to heal. Follow your doctor&apos;s instructions carefully regarding wound care. This is especially important because many of the oral medications prescribed for pyoderma gangrenosum suppress your immune system, which increases your risk of infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;High doses of corticosteroids, such as prednisone, are the mainstay of pyoderma gangrenosum treatment. Side effects can include thinning bones, weight gain and increased risk of infection. To reduce the amount of prednisone needed, your doctor might recommend that you also take anti-rejection drugs, such as cyclosporine, or medications used more commonly for rheumatoid arthritis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;In most cases, surgery isn&apos;t a good treatment option because trauma to the skin may worsen existing ulcers or stimulate new ones to develop. But if the ulcers on your skin are large and need help with healing, your doctor might suggest a skin graft &amp;mdash; a procedure that surgically attaches a piece of real or artificial skin over the open sores. This is attempted only after the wound inflammation has gone and the ulcer has started healing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With treatment, you&apos;re likely to recover from pyoderma gangrenosum. However, you may feel stress about the possibility of recurrence or about how your skin looks. You may want to talk to a counselor or medical social worker. Or you may find it helpful to talk to other people who have pyoderma gangrenosum. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can&apos;t totally prevent pyoderma gangrenosum. If you have the condition, try to avoid injuring your skin. Injury or trauma to your skin can provoke new ulcers to form. Although not entirely effective, control of any underlying condition that may be causing the ulcers may be of help.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pyoderma gangrenosum
+	</Title>
+	<Abstract>
+		Pyoderma gangrenosum &amp;mdash; Comprehensive overview covers symptoms, treatment of this skin condition with open sores.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

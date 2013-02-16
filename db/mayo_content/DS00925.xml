@@ -1,0 +1,335 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00925
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/basal-cell-carcinoma/DS00925
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-09
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3036" Title="Skin cancer">
+						<Keyword MCVID="4059" Title="Basal cell carcinoma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E3F63DEC-E7FF-0DBD-11653EB445E6D500
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				basal cell carcinoma
+			</MetaKeyword>
+			<MetaKeyword>
+				basal cell cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				basal cell skin cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				nonmelanoma cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				skin cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Basal cell carcinoma is a type of skin cancer. Basal cell carcinoma begins in the basal cells &amp;mdash; a type of cell within the skin that produces new skin cells as old ones die off. 
+&lt;/p&gt;
+&lt;p&gt;
+Basal cell carcinoma often appears as a waxy bump, though it can take other forms. Basal cell carcinoma occurs most often on areas of the skin that are often exposed to the sun, such as your face and neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Most basal cell carcinomas are thought to be caused by long-term exposure to ultraviolet (UV) radiation from sunlight. Avoiding the sun and using sunscreen may help protect against basal cell carcinoma. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of basal cell carcinoma 
+" Caption="Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun. This photograph shows a basal cell carcinoma that affects the skin on the lower eyelid. 
+" Height="60" Title="Basal cell carcinoma" URI="/images/image_popup/thumbs/basal.gif" Width="60" />
+				<Image Alt="Photograph of basal cell carcinoma 
+" Caption="Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun. This photograph shows a basal cell carcinoma that affects the skin on the lower eyelid. 
+" Height="300" Title="Basal cell carcinoma" URI="/images/image_popup/basal.jpg" Width="400" />
+				<HTML>
+					Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun. This photograph shows a basal cell carcinoma that affects the skin on the lower eyelid. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Basal cell carcinomas usually develop on sun-exposed parts of your body, especially your head and neck. A much smaller number occur on the trunk and legs. Yet basal cell carcinomas can also occur on parts of your body that are rarely exposed to sunlight. 
+&lt;/p&gt;
+&lt;p&gt;
+Although a general warning sign of skin cancer is a sore that won&apos;t heal or that repeatedly bleeds and scabs over, basal cell cancer may look like: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A pearly white or waxy bump,&lt;/strong&gt; often with visible blood vessels on your face, ears or neck. The bump may bleed, develop a crust or form a depression in the center. In darker skinned people, this type of cancer is usually brown or black.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A flat, scaly, brown or flesh-colored patch&lt;/strong&gt; on your back or chest. Over time, these patches can grow quite large.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;More rarely, a white, waxy scar.&lt;/strong&gt; This type of basal cell carcinoma is easy to overlook, but it may be a sign of a particularly invasive and disfiguring cancer called morpheaform basal cell carcinoma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Some basal cell carcinomas may be difficult to distinguish from ordinary sores. See your dermatologist if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A skin sore that bleeds easily or doesn&apos;t heal in about two weeks&lt;/li&gt;
+	&lt;li&gt;A sore that repeatedly crusts or oozes&lt;/li&gt;
+	&lt;li&gt;Visible blood vessels in or around a sore&lt;/li&gt;
+	&lt;li&gt;A scar in an area where you haven&apos;t injured yourself&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of basal cell carcinoma 
+" Caption="Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun. This photograph shows a basal cell carcinoma that affects the skin on the lower eyelid. 
+" Height="60" Title="Basal cell carcinoma" URI="/images/image_popup/thumbs/basal.gif" Width="60" />
+				<Image Alt="Photograph of basal cell carcinoma 
+" Caption="Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun. This photograph shows a basal cell carcinoma that affects the skin on the lower eyelid. 
+" Height="300" Title="Basal cell carcinoma" URI="/images/image_popup/basal.jpg" Width="400" />
+				<HTML>
+					Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun. This photograph shows a basal cell carcinoma that affects the skin on the lower eyelid. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Basal cell carcinoma occurs when one of the skin&apos;s basal cells develops a mutation in its DNA. Basal cells are found at the bottom of the epidermis &amp;mdash; the outermost layer of skin. Basal cells produce new skin cells. As new skin cells are produced, they push older cells toward the skin&apos;s surface, where the old cells die and are sloughed off. 
+&lt;/p&gt;
+&lt;p&gt;
+The process of creating new skin cells is controlled by a basal cell&apos;s DNA. A mutation in the DNA causes a basal cell to multiply rapidly and continue growing when it would normally die. Eventually the accumulating abnormal cells may form a cancerous tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ultraviolet light and other causes&lt;/strong&gt; &lt;br /&gt;
+Much of the damage to DNA in basal cells is thought to result from ultraviolet (UV) radiation found in sunlight and in commercial tanning lamps and tanning beds. But sun exposure doesn&apos;t explain skin cancers that develop on skin not ordinarily exposed to sunlight. This indicates that other factors may contribute to your risk of skin cancer, such as being exposed to toxic substances or having a condition that weakens your immune system. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing where skin cancer develops 
+" Caption="Skin cancer begins in the cells that make up the outer layer (epidermis) of your skin. A type of skin cancer called basal cell carcinoma can occur in the basal cells, which are located at the base of the epidermis and make skin cells that continuously push older cells toward the surface. As new cells move upward, they become more-flattened squamous cells, where a skin cancer called squamous cell carcinoma can occur. Melanoma, another type of skin cancer, arises in the pigment cells (melanocytes), which are also located in the base of the epidermis among the basal cells. 
+" Height="60" Title="Where skin cancer develops" URI="/images/image_popup/thumbs/c7_skincancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing where skin cancer develops 
+" Caption="Skin cancer begins in the cells that make up the outer layer (epidermis) of your skin. A type of skin cancer called basal cell carcinoma can occur in the basal cells, which are located at the base of the epidermis and make skin cells that continuously push older cells toward the surface. As new cells move upward, they become more-flattened squamous cells, where a skin cancer called squamous cell carcinoma can occur. Melanoma, another type of skin cancer, arises in the pigment cells (melanocytes), which are also located in the base of the epidermis among the basal cells. 
+" Height="459" Title="Where skin cancer develops" URI="/images/image_popup/c7_skincancer.jpg" Width="400" />
+				<HTML>
+					Skin cancer begins in the cells that make up the outer layer (epidermis) of your skin. A type of skin cancer called basal cell carcinoma can occur in the basal cells, which are located at the base of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of basal cell carcinoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic sun exposure.&lt;/strong&gt; A lot of time spent in the sun &amp;mdash; or in commercial tanning booths &amp;mdash; is the most common cause of basal cell carcinoma. The threat is greater if you live in a sunny or high-altitude climate, both of which expose you to more UV radiation. The risk is also higher if most of your exposure occurred before the age of 18. Your risk is greater if you have had at least one blistering sunburn. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to radiation.&lt;/strong&gt; Psoralen plus ultraviolet A (PUVA) treatments for psoriasis may increase your risk of basal cell carcinoma and other forms of skin cancer. Having undergone ionizing radiation treatments for childhood acne or other conditions also may increase your risk of basal cell carcinoma. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fair skin.&lt;/strong&gt; If you have very light skin or you freckle or sunburn easily, you&apos;re more likely to develop skin cancer than is someone with a darker complexion. Basal cell carcinoma is rare in black people. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are more likely to develop basal cell carcinoma than women are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Because basal cell carcinomas often take decades to develop, the majority of basal cell carcinomas occur in people age 50 or older.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A personal or family history of skin cancer.&lt;/strong&gt; If you&apos;ve had basal cell carcinoma one or more times, you have a good chance of developing it again. If you have a family history of skin cancer, you may have an increased risk of developing basal cell carcinoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune-suppressing drugs.&lt;/strong&gt; Taking medications that suppress your immune system, especially after transplant surgery, significantly increases your risk of skin cancer. Cancers in people with a weakened immune system generally are more aggressive than they are in otherwise healthy people. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to arsenic.&lt;/strong&gt; Arsenic, a toxic metal that&apos;s found widely in the environment, increases the risk of basal cell carcinoma and other cancers. Everyone has some arsenic exposure because it occurs naturally in the soil, air and groundwater. But people who may be exposed to higher levels of arsenic include farmers, refinery workers, and people who drink contaminated well water or live near smelting plants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited syndromes that cause skin cancer.&lt;/strong&gt; Certain rare genetic diseases increase the risk of basal cell carcinoma. Nevoid basal cell carcinoma (Gorlin-Goltz syndrome) causes numerous basal cell carcinomas, as well as pitting on the hands and feet and spine abnormalities. Xeroderma pigmentosum causes an extreme sensitivity to sunlight and a high risk of skin cancer because people with this condition have little or no ability to repair damage to the skin from ultraviolet light. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of basal cell carcinoma can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A risk of recurrence.&lt;/strong&gt; Basal cell carcinomas commonly recur. Even after successful treatment, they may recur, often in the same place. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An increased risk of other types of skin cancer.&lt;/strong&gt; A history of basal cell carcinoma may also increase the chance of developing other types of skin cancer, such as squamous cell carcinoma and melanoma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that spreads beyond the skin.&lt;/strong&gt; Rare, aggressive forms of basal cell carcinoma can invade and destroy nearby muscles, nerves and bone. Very rarely, basal cell carcinoma can spread to other areas of the body. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a skin wound or lesion that concerns you, make an appointment with your doctor. He or she may recommend that you see a doctor who specializes in the diagnosis and treatment of skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your medical history,&lt;/strong&gt; including other conditions for which you&apos;ve been treated. Be sure to include any radiation therapy you may have received, even years ago.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any personal history of exposure to excessive UV light,&lt;/strong&gt; including sunlight or tanning beds. For example, tell your doctor if you have worked as an outdoor lifeguard or spent lots of time at the beach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of immediate family members who have had skin cancer,&lt;/strong&gt; to the best of your ability. Skin cancer in a parent, grandparent, aunt, uncle or sibling is important history to share with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your medications and natural remedies.&lt;/strong&gt; Include&lt;strong&gt; &lt;/strong&gt;any prescription or over-the-counter medications you&apos;re taking, as well as all vitamins, supplements or herbal remedies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can join you for your appointment.&lt;/strong&gt; Although skin cancer is usually highly treatable, just hearing the word &quot;cancer&quot; can make it difficult for most people to focus on what the doctor says next. Take someone along who can help take in all the information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about basal cell carcinoma. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have skin cancer? What kind?&lt;/li&gt;
+	&lt;li&gt;How is this type of skin cancer different from other types?&lt;/li&gt;
+	&lt;li&gt;Has my cancer spread?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the possible side effects of this treatment?&lt;/li&gt;
+	&lt;li&gt;Will I have a scar after treatment?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of this condition recurring?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of other types of skin cancer?&lt;/li&gt;
+	&lt;li&gt;How often will I need follow-up visits after I finish treatment?&lt;/li&gt;
+	&lt;li&gt;Are my family members at risk of skin cancer?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice this skin growth or lesion?&lt;/li&gt;
+	&lt;li&gt;Has it grown significantly since you first found it?&lt;/li&gt;
+	&lt;li&gt;Is the growth or lesion painful?&lt;/li&gt;
+	&lt;li&gt;Do you have any other growths or lesions that concern you?&lt;/li&gt;
+	&lt;li&gt;Have you had a previous skin cancer?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had skin cancer? What kind?&lt;/li&gt;
+	&lt;li&gt;How much exposure to the sun or tanning beds did you have as a child and teenager?&lt;/li&gt;
+	&lt;li&gt;How much exposure to the sun or tanning beds do you have now?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications?&lt;/li&gt;
+	&lt;li&gt;Are you currently or have you previously used herbal remedies?&lt;/li&gt;
+	&lt;li&gt;Have you ever received radiation therapy for another medical condition?&lt;/li&gt;
+	&lt;li&gt;Have you ever taken medications that suppress your immune system?&lt;/li&gt;
+	&lt;li&gt;What other significant medical conditions have you been treated for, including in your childhood?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you now have or have you ever had a job that may have exposed you to pesticides or herbicides?&lt;/li&gt;
+	&lt;li&gt;Do you now rely or have you ever relied on well water as your primary water source?&lt;/li&gt;
+	&lt;li&gt;Do you take precautions to stay safe in the sun, such as avoiding midday sun and using sunscreen?&lt;/li&gt;
+	&lt;li&gt;Do you examine your own skin on a regular basis?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose basal cell carcinoma, your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examine your skin.&lt;/strong&gt; Your doctor will examine the suspicious area on your skin. He or she will also look over the rest of your body for other unusual areas of skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove a sample of skin for testing.&lt;/strong&gt; Your doctor may do a skin biopsy, which involves removing a small sample of the unusual skin for testing in a laboratory. This will reveal whether you have skin cancer and, if so, what type of skin cancer. The type of skin biopsy you undergo will depend on your situation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of treatments are available for basal cell carcinoma. What treatment is best for you depends on the type, location and severity of your cancer. Some commonly used basal cell carcinoma treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrodesiccation and curettage (ED and C).&lt;/strong&gt; ED and C involves removing the surface of the skin cancer with a scraping instrument (curette) and then searing the base of the cancer with an electric needle. This treatment is often used for small cancers located on your legs and ears. ED and C can leave an oozing, crusty scab that heals over several weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical excision.&lt;/strong&gt; In this procedure, your doctor cuts out the cancerous tissue and a surrounding margin of healthy skin. In some cases, you may have a wide excision, which involves removing additional normal skin around the cancer. A surgical excision may be an option if you have a large basal cell carcinoma. To minimize scarring, especially on your face, consult a doctor skilled in skin reconstruction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing.&lt;/strong&gt; This involves killing cancerous cells by freezing them with liquid nitrogen (cryosurgery). It&apos;s useful for cancers that are very thin and don&apos;t extend deep into the skin. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mohs surgery.&lt;/strong&gt; During the procedure, your doctor removes the cancer cells layer by layer, examining each layer under the microscope until no abnormal cells remain. This allows the entire growth to be removed without taking an excessive amount of surrounding healthy tissue. This is an effective treatment for recurring basal cell carcinomas and those that are large, deep, fast-growing, morpheaform or on your face. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical treatments.&lt;/strong&gt; Basal cell carcinoma that is superficial and doesn&apos;t extend very far into the skin may be treated with creams or ointments. The drugs imiquimod (Aldara) and 5-fluorouracil are used for several weeks to treat certain basal cell carcinomas that are limited to the surface of the skin. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may reduce your risk of basal cell carcinoma if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid the midday sun.&lt;/strong&gt; Avoid the sun when its rays are the strongest. For most places, this is between about 10 a.m. and 4 p.m. Because the sun&apos;s rays are strongest during this period, try to schedule outdoor activities for other times of the day, even in winter. You absorb UV radiation year-round, and clouds offer little protection from damaging rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen year-round.&lt;/strong&gt; Choose a sunscreen that blocks both UVA and UVB types of radiation from the sun and has an SPF of at least 15. Apply sunscreen generously, and reapply every two hours &amp;mdash; or more often if you&apos;re swimming or perspiring. The American Academy of Dermatology recommends using a broad-spectrum sunscreen with an SPF of 30 or more. Even the best sunscreen might be less effective than the SPF number on the bottle would lead you to believe if it isn&apos;t applied thoroughly or thickly enough, or if it&apos;s perspired away or washed off while swimming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear protective clothing.&lt;/strong&gt; Wear protective clothing. Sunscreens don&apos;t provide complete protection from UV rays, so wear tightly woven clothing that covers your arms and legs, and a broad-brimmed hat, which provides more protection than a baseball cap or visor does. Some companies also sell photoprotective clothing. And don&apos;t forget sunglasses. Look for a pair that provides full protection from both UVA and UVB rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tanning beds.&lt;/strong&gt; Tanning beds emit UV radiation, which can increase the risk of skin cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Become familiar with your skin so that you&apos;ll notice changes.&lt;/strong&gt; Examine your skin so that you become familiar with what your skin normally looks like. This way, you may be more likely to notice any skin changes. With the help of mirrors, check your face, neck, ears and scalp. Examine your chest and trunk, and the tops and undersides of your arms and hands. Examine both the front and back of your legs, and your feet, including the soles and the spaces between your toes. Also check your genital area, and between your buttocks. If you notice anything unusual, point it out to your doctor at your next appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about screening.&lt;/strong&gt; If you&apos;ve already had skin cancer, you have an increased risk of a second cancer. Talk with your dermatologist about how often you should be screened for a recurrence and whether you should do periodic skin checks on your own.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Basal cell carcinoma
+	</Title>
+	<Abstract>
+		Basal cell carcinoma &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this common skin cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00657" LinkType="Internal" ObjectID="B384DE16-2A5D-9994-E670963F50D3A098" Title="Video: Skin cancer &amp;mdash; How skin cancer develops" Url="http://www.mayoclinic.com/health/melanoma/MM00657" />
+		<LinkItem ContentType="SlideShow" DocID="DS00575" LinkType="Internal" ObjectID="11287FB2-A504-4685-BD105A052BE13370" Title="Slide show: Melanoma pictures to help identify skin cancer" Url="http://www.mayoclinic.com/health/melanoma/DS00575" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01304" LinkType="Internal" ObjectID="65329962-9362-DEE8-4A2B81FF86331B19" Title="Mohs surgery" Url="http://www.mayoclinic.com/health/mohs-surgery/MY01304" />
+		<LinkItem ContentType="Disease" DocID="DS00190" LinkType="Internal" ObjectID="81E0130C-ACF2-4643-808CF68E16384B08" Title="Skin cancer" Url="http://www.mayoclinic.com/health/skin-cancer/DS00190" />
+		<LinkItem ContentType="Article" DocID="MY01350" LinkType="Internal" ObjectID="411E3C71-B074-4E63-341FF33B9CD3722C" Title="Best sunscreen: Understand sunscreen options" Url="http://www.mayoclinic.com/health/best-sunscreen/MY01350" />
+		<LinkItem ContentType="Disease" DocID="DS00193" LinkType="Internal" ObjectID="314A4C2A-D3AD-46E8-8730C1905D41C7CF" Title="Psoriasis" Url="http://www.mayoclinic.com/health/psoriasis/DS00193" />
+		<LinkItem ContentType="Disease" DocID="DS00964" LinkType="Internal" ObjectID="2C9B4EAD-E7FF-0DBD-11FE616BB5B7F712" Title="Sunburn" Url="http://www.mayoclinic.com/health/sunburn/DS00964" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,483 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00342
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/epilepsy/DS00342
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="2859" Title="Epilepsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			352B66F5-CF68-45A7-A0E816C2832ABA06
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				epilepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				epilepsy symptom
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epilepsy is a disorder that results from the surges in electrical signals inside the brain, causing recurring seizures. Seizure symptoms vary. Some people with epilepsy simply stare blankly for a few seconds during a seizure, while others have full-fledged convulsions. 
+&lt;/p&gt;
+&lt;p&gt;
+About 2 in 100 people in the United States will experience an unprovoked seizure once in life. However, a solitary seizure doesn&apos;t mean you have epilepsy. At least two unprovoked seizures are generally required for an epilepsy diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Even mild seizures may require treatment because they can be dangerous during activities such as driving or swimming. Treatment &amp;mdash; which generally includes medications and sometimes surgery &amp;mdash; usually eliminates or reduces the frequency and intensity of seizures. Many children with epilepsy even outgrow the condition with age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because epilepsy is caused by abnormal activity in brain cells, seizures can affect any process your brain coordinates. A seizure can produce: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Temporary confusion&lt;/li&gt;
+	&lt;li&gt;A staring spell&lt;/li&gt;
+	&lt;li&gt;Uncontrollable jerking movements of the arms and legs&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness or awareness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms vary depending on the type of seizure. In most cases, a person with epilepsy will tend to have the same type of seizure each time, so the symptoms will be similar from episode to episode. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors generally classify seizures as either focal or generalized, based on how the abnormal brain activity begins. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Focal seizures&lt;br /&gt;
+&lt;/strong&gt;When seizures appear to result from abnormal activity in just one part of the brain, they&apos;re called focal or partial seizures. These seizures fall into two categories. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Simple focal seizures.&lt;/strong&gt; These seizures don&apos;t result in loss of consciousness. They may alter emotions or change the way things look, smell, feel, taste or sound. They may also result in involuntary jerking of part of the body, such as an arm or leg, and spontaneous sensory symptoms such as tingling, vertigo and flashing lights.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complex focal seizures.&lt;/strong&gt; These seizures alter consciousness or awareness, causing you to lose awareness for a period of time. Complex focal seizures often result in staring and nonpurposeful movements &amp;mdash; such as hand rubbing, chewing, swallowing or walking in circles. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Generalized seizures&lt;br /&gt;
+&lt;/strong&gt;Seizures that seem to involve all of the brain are called generalized seizures. Six types of generalized seizures exist. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Absence seizures (also called petit mal).&lt;/strong&gt; These seizures are characterized by staring and subtle body movement, and can cause a brief loss of awareness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tonic seizures.&lt;/strong&gt; These seizures cause stiffening of the muscles, generally those in your back, arms and legs and may cause you to fall to the ground.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clonic seizures.&lt;/strong&gt; These types of seizures are associated with rhythmic, jerking muscle contractions, usually affecting the arms, neck and face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myoclonic seizures.&lt;/strong&gt; These seizures usually appear as sudden brief jerks or twitches of your arms and legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atonic seizures.&lt;/strong&gt; Also known as drop attacks, these seizures cause you to lose normal muscle tone and suddenly collapse or fall down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tonic-clonic seizures (also called grand mal).&lt;/strong&gt; The most intense of all types of seizures, these are characterized by a loss of consciousness, body stiffening and shaking, and sometimes loss of bladder control or biting your tongue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek immediate medical help if any of the following occurs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The seizure lasts more than five minutes.&lt;/li&gt;
+	&lt;li&gt;Breathing or consciousness does not return after the seizure stops.&lt;/li&gt;
+	&lt;li&gt;A second seizure follows immediately.&lt;/li&gt;
+	&lt;li&gt;You have a high fever.&lt;/li&gt;
+	&lt;li&gt;You&apos;re experiencing heat exhaustion.&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant.&lt;/li&gt;
+	&lt;li&gt;You have diabetes.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve injured yourself during the seizure. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you experience a seizure for the first time, seek medical advice. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Epilepsy has no identifiable cause in about half of those who have the condition. In the other half, the condition may be traced to various factors. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic influence.&lt;/strong&gt; Some types of epilepsy, which are categorized by your type of seizure, run in families, making it likely that there&apos;s a genetic influence. Researchers have linked some types of epilepsy to specific genes, though it&apos;s estimated that up to 500 genes could be tied to the condition. For most people, genes are only part of the cause, perhaps by making a person more susceptible to environmental conditions that trigger seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Head trauma&lt;/strong&gt; sustained during a car accident or other traumatic injury can cause epilepsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical disorders.&lt;/strong&gt; Events like strokes or heart attacks that result in damage to the brain also can cause epilepsy. Stroke is responsible for up to one-half of epilepsy cases in those over age 35.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dementia&lt;/strong&gt; is a leading cause of epilepsy among older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases&lt;/strong&gt; such as meningitis, AIDS and viral encephalitis can cause epilepsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prenatal injury.&lt;/strong&gt; Before birth, babies are susceptible to brain damage caused by an infection in the mother, poor nutrition or oxygen deficiencies. This can lead to cerebral palsy in the child. About 20 percent of seizures in children are associated with cerebral palsy or other neurological abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental disorders.&lt;/strong&gt; Epilepsy can sometimes be associated with other developmental disorders, such as autism and Down syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may increase your risk of epilepsy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; The onset of epilepsy is most common during early childhood and after age 65, but the condition can occur at any age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are slightly more at risk of developing epilepsy than are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history.&lt;/strong&gt; If you have a family history of epilepsy, you may be at an increased risk of developing a seizure disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Head injuries.&lt;/strong&gt; These injuries are responsible for many cases of epilepsy. You can reduce your risk by always wearing a seat belt while riding in a car and by wearing a helmet while bicycling, skiing, riding a motorcycle or engaging in other activities with a high risk of head injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke and other vascular diseases.&lt;/strong&gt; These can lead to brain damage that may trigger epilepsy. You can take a number of steps to reduce your risk of such diseases, including limiting your intake of alcohol and avoiding cigarettes, eating a healthy diet and exercising regularly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain infections.&lt;/strong&gt; Infections like meningitis, which causes an inflammation in the brain or spinal cord, can increase your risk of epilepsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prolonged seizures in childhood.&lt;/strong&gt; High fevers in childhood can sometimes be associated with prolonged seizures and subsequent epilepsy later in life, particularly for those with a family history of epilepsy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a seizure at certain times can lead to circumstances that are dangerous to yourself or others. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falling.&lt;/strong&gt; If you fall during a seizure, you can injure your head or break a bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drowning.&lt;/strong&gt; If you have epilepsy, you&apos;re 13 times more likely to drown while swimming or bathing than is the rest of the population because of the possibility of having a seizure while in the water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Car accidents.&lt;/strong&gt; A seizure that causes either loss of awareness or control can be dangerous if you&apos;re driving a car or operating other equipment. Many states have driver&apos;s-licensing restrictions related to your ability to control seizures and impose a minimum amount of time that you&apos;ve been seizure-free &amp;mdash; ranging from three months to two years &amp;mdash; before you&apos;re allowed to drive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Seizures during pregnancy pose dangers to both mother and baby, and certain anti-epileptic medications increase the risk of birth defects. If you have epilepsy and you&apos;re considering becoming pregnant, talk to your doctor as you plan your pregnancy. Most women with epilepsy can become pregnant and have a healthy baby. You&apos;ll need to be carefully monitored throughout pregnancy, and medications may need to be adjusted. It&apos;s very important that you work with your doctor to plan your pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional health issues.&lt;/strong&gt; People with epilepsy are more prone to have psychological problems, especially depression, anxiety and, in extreme cases, suicide. This could be due to difficulties dealing with the condition itself as well as medication side effects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other life-threatening complications from epilepsy are uncommon, but do occur. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Status epilepticus.&lt;/strong&gt; This condition occurs if you&apos;re in a state of continuous seizure activity lasting more than five minutes, or you have frequent recurrent seizures without regaining full consciousness in between them. People with status epilepticus have an increased risk of permanent brain damage and death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden unexplained death in epilepsy (SUDEP).&lt;/strong&gt; People with poorly controlled epilepsy also have a small risk of sudden unexplained death. Overall, less than 1 in 1,000 people with epilepsy die of SUDEP, but it&apos;s more common among people whose seizures aren&apos;t controlled by treatment. The risk of SUDEP is particularly elevated when generalized tonic-clonic seizures are frequent, and the risk over a one-year period could be as high as approximately 1 in a hundred people.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a specialist, like a neurologist or a doctor called an epileptologist, who specializes in treating epilepsy. 
+&lt;/p&gt;
+&lt;p&gt;
+Because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a detailed seizure calendar.&lt;/strong&gt; Each time a seizure occurs, write down the time, the type of seizure it was and how long it lasted. Also make note of any circumstances, such as missed medications, sleep deprivation, increased stress, menstruation or other events that might trigger seizure activity. Seek input from people who may observe your seizures &amp;mdash; including family, friends and co-workers &amp;mdash; so that you can record information you may not know.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications&lt;/strong&gt;, as well as any vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt;. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot. Also, because you may not be aware of everything that happens when you&apos;re having a seizure, your doctor may want to ask questions of someone who has witnessed them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. List your questions from most important to least important in case time runs out. For epilepsy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my seizures?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my epilepsy likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;How can I ensure that I don&apos;t hurt myself if I have another seizure?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing seizures?&lt;/li&gt;
+	&lt;li&gt;Do your seizures seem to be triggered by certain events or conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have similar sensations just before the onset of a seizure?&lt;/li&gt;
+	&lt;li&gt;Have your seizures been frequent or occasional?&lt;/li&gt;
+	&lt;li&gt;What symptoms do you have when you experience a seizure?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your seizures?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your seizures?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Certain conditions and activities can trigger seizures, so it is best to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid excessive alcohol consumption&lt;/li&gt;
+	&lt;li&gt;Avoid nicotine and recreational drug usage&lt;/li&gt;
+	&lt;li&gt;Get enough sleep&lt;/li&gt;
+	&lt;li&gt;Reduce stress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, it is important to start keeping a log of your seizures before you visit your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may use a number of tests to diagnose epilepsy, from neurological exams to imaging techniques like MRI scans. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological and behavioral exam.&lt;/strong&gt; Your doctor may want to test your motor abilities, behavior and intellectual capacity to see how the seizures are affecting you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may take a blood sample to check for signs of infections, electrolyte imbalance, anemia or diabetes, which can be associated with seizures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also suggest tests to detect abnormalities within the brain. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electroencephalogram (EEG).&lt;/strong&gt; This is the most common test to help diagnose epilepsy. An EEG records the electrical activity of your brain via electrodes temporarily attached to your scalp with a paste-like substance. If you have epilepsy, it&apos;s common to have changes in your normal pattern of brain waves, even when you&apos;re not having a seizure. Your doctor may want to monitor you on video while conducting an EEG of you awake or asleep in hopes of recording the seizure to see what kind of seizures you&apos;re having. Sometimes your doctor will have to do something to provoke a seizure while you&apos;re being tested, such as asking you to sleep very little the night before.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; You might be given a CT scan if you go to an emergency room for an initial seizure, because it&apos;s generally a readily available test. CT machines use a type of X-ray equipment to obtain cross-sectional images of your brain and skull. CT scans can reveal abnormalities in the brain that might be causing your seizures, including tumors, bleeding and cysts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI provides much the same type of information as a CT scan, but in far greater detail. MRIs use radio waves and a strong magnetic field to produce detailed images of your brain. MRIs can reveal brain abnormalities that could be causing your seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Functional MRI (fMRI).&lt;/strong&gt; A functional MRI measures the changes in blood flow that occur when specific parts of your brain are working. Doctors generally use an fMRI before surgery to identify the exact locations of critical functions, like speech, so that surgeons can avoid injuring those places while operating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Positron emission tomography (PET).&lt;/strong&gt; PET scans use a small amount of low-dose radioactive material that&apos;s injected into a vein to help visualize active areas of the brain and detect abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Single-photon emission computerized tomography (SPECT).&lt;/strong&gt; This type of test is used primarily if you&apos;ve had an MRI and EEG that didn&apos;t pinpoint the location in your brain where the seizures are originating. A SPECT test uses a small amount of low-dose radioactive material that&apos;s injected into a vein to create a detailed, 3-D map of the blood flow activity in your brain during seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neuropsychological tests.&lt;/strong&gt; This group of tests includes IQ, memory and speech assessments, which help doctors pinpoint where the seizures are originating. This type of testing is routinely done before epilepsy surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors generally start by treating epilepsy with medication. If that doesn&apos;t work, they may propose surgery or another type of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication&lt;br /&gt;
+&lt;/strong&gt;Most people with epilepsy can become seizure-free by using a single anti-epileptic drug. Others can decrease the frequency and intensity of their seizures. More than half the children with medication-controlled epilepsy can eventually stop medications and live a seizure-free life. Many adults also can discontinue medication after two or more years without seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+Finding the right medication and dosage can be complex. Your doctor likely will first prescribe a single drug at a relatively low dosage and may increase the dosage gradually until your seizures are well controlled. 
+&lt;/p&gt;
+&lt;p&gt;
+All anti-seizure medications have some side effects. Mild side effects include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Weight gain&lt;/li&gt;
+	&lt;li&gt;Loss of bone density&lt;/li&gt;
+	&lt;li&gt;Skin rashes&lt;/li&gt;
+	&lt;li&gt;Loss of coordination&lt;/li&gt;
+	&lt;li&gt;Speech problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More severe but rare side effects include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Suicidal thoughts and behaviors&lt;/li&gt;
+	&lt;li&gt;Severe rash&lt;/li&gt;
+	&lt;li&gt;Inflammation of certain organs, such as your pancreas or liver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To achieve the best seizure control possible with medication: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Take medications exactly as prescribed.&lt;/li&gt;
+	&lt;li&gt;Always call your doctor before switching to a generic version of your medication or taking other prescription medications, over-the-counter drugs or herbal remedies.&lt;/li&gt;
+	&lt;li&gt;Never stop taking your medication without talking to your doctor.&lt;/li&gt;
+	&lt;li&gt;Notify your doctor immediately if you notice new or increased feelings of depression, suicidal thoughts or unusual changes in your mood or behaviors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+At least half of all people newly diagnosed with epilepsy will become seizure-free with their first medication. If anti-epileptic medications don&apos;t provide satisfactory results, your doctor may suggest surgery or other therapies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery is most commonly done when tests show that your seizures originate in a small, well-defined area of your brain that doesn&apos;t interfere with vital functions like speech, language or hearing. In these types of surgeries, your doctor removes the area of the brain that&apos;s causing the seizures. 
+&lt;/p&gt;
+&lt;p&gt;
+If your seizures originate in a part of your brain that can&apos;t be removed, your doctor may recommend a different sort of surgery in which surgeons make a series of cuts in your brain. These cuts are designed to prevent seizures from spreading to other parts of the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+Although many people continue to need some medication to help prevent seizures after successful surgery, you may be able to take fewer drugs and reduce your dosages. In a small number of cases, surgery for epilepsy can cause complications such as permanently altering your cognitive abilities. Talk to your surgeon about his or her experience, success rates and complication rates with the procedure you&apos;re considering. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vagus nerve stimulation.&lt;/strong&gt; This therapy involves a device called a vagus nerve stimulator that&apos;s implanted underneath the skin of your chest like a heart pacemaker. Wires from the stimulator are wrapped around the vagus nerve in your neck. The battery-powered device delivers short bursts of electrical energy to the brain through the vagus nerve. It&apos;s not clear how this inhibits seizures, but the device can reduce seizures by 20 to 40 percent and completely control seizures in about 5 percent of people. Most people still need to take anti-epileptic medication. Side effects of vagus nerve stimulation include hoarseness, throat pain, coughing, shortness of breath, tingling and muscle pain.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ketogenic diet.&lt;/strong&gt; Some children with epilepsy have been able to reduce their seizures by maintaining a strict diet that&apos;s high in fats and low in carbohydrates. This diet, called a ketogenic diet, causes the body to break down fats instead of carbohydrates for energy. Some children can go off the ketogenic diet after a few years and remain seizure-free. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Consult a doctor if you or your child is considering a ketogenic diet. It&apos;s important to make sure that a child doesn&apos;t become malnourished when taking the diet. Side effects of a ketogenic diet may include dehydration, constipation, slowed growth because of nutritional deficiencies, and buildup of uric acid in the blood, which can cause kidney stones. These side effects are uncommon if use of the diet is properly and medically supervised. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of functions of the brain 
+" Caption="Different areas of the brain are responsible for different vital functions. 
+" Height="60" Title="Functions of the brain" URI="/images/image_popup/thumbs/bn7_functionalbrainthu.jpg" Width="60" />
+				<Image Alt="Illustration of functions of the brain 
+" Caption="Different areas of the brain are responsible for different vital functions. 
+" Height="342" Title="Functions of the brain" URI="/images/image_popup/bn7_functionalbrain.jpg" Width="400" />
+				<HTML>
+					Different areas of the brain are responsible for different vital functions. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of vagus nerve stimulation pulse generator 
+" Caption="In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+" Height="60" Title="Vagus nerve stimulation" URI="/images/image_popup/thumbs/mh7_vagalnervethu.jpg" Width="60" />
+				<Image Alt="Illustration of vagus nerve stimulation pulse generator 
+" Caption="In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+" Height="389" Title="Vagus nerve stimulation" URI="/images/image_popup/mh7_vagalnerve.jpg" Width="400" />
+				<HTML>
+					In vagus nerve stimulation, an implanted pulse generator and lead wire stimulate parts of your brain to stabilize the abnormal electrical activity. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Understanding your condition can help you control it. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medication correctly.&lt;/strong&gt; Don&apos;t take it upon yourself to adjust your dosage levels. Instead, talk to your doctor if you feel something should be changed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough sleep.&lt;/strong&gt; Sleep deprivation is a powerful trigger of seizures. Be sure to get adequate rest every night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a medical alert bracelet.&lt;/strong&gt; This will help emergency personnel know how to treat you correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, make healthy life choices such as managing stress, limiting alcoholic beverages and avoiding cigarettes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Uncontrolled seizures and their effect on your life may at times feel overwhelming or lead to depression. It&apos;s important not to let epilepsy constrain you. You can still live an active, social life. To help cope: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Educate yourself and your friends and family&lt;/strong&gt; about epilepsy so that they understand the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try to ignore negative reactions from people.&lt;/strong&gt; It helps to learn about epilepsy so that you know the facts as opposed to misconceptions about the disease. And try to keep your sense of humor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Live as independently as possible.&lt;/strong&gt; This means continuing to work, if possible. If you can&apos;t drive because of your seizures, investigate public transportation options near you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a doctor you like &lt;/strong&gt;and with whom you feel comfortable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try not to constantly worry&lt;/strong&gt; about having a seizure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your seizures are so severe that you can&apos;t work outside your home, there are still ways to feel productive and connected to people. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Work from home&lt;/strong&gt; by developing a special skill, like computer programming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Develop or participate in hobbies, &lt;/strong&gt;and connect over the Internet with other people who are interested in the same things.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Work to develop friends&lt;/strong&gt; and have contact with other people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Become a volunteer.&lt;/strong&gt; Sometimes helping others is the best way to help yourself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Let people you work and live with know the correct way to handle a seizure in case they&apos;re with you when you have one. This includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gently roll the person onto one side.&lt;/li&gt;
+	&lt;li&gt;Put something soft under his or her head.&lt;/li&gt;
+	&lt;li&gt;Loosen tight neckwear.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t try to put your fingers or anything else in the person&apos;s mouth. No one has ever &quot;swallowed&quot; his or her tongue during a seizure &amp;mdash; it&apos;s physically impossible.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t try to restrain someone having a seizure.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t attempt to rouse the person by shouting at or shaking him or her.&lt;/li&gt;
+	&lt;li&gt;If the person is moving, clear away dangerous objects.&lt;/li&gt;
+	&lt;li&gt;Stay with the person until medical personnel arrive.&lt;/li&gt;
+	&lt;li&gt;Observe the person closely so that you can provide details on what happened.&lt;/li&gt;
+	&lt;li&gt;Time the seizures with your watch.&lt;/li&gt;
+	&lt;li&gt;Keep calm and reassure others nearby.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Epilepsy
+	</Title>
+	<Abstract>
+		Epilepsy &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common seizure disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00133" LinkType="Internal" ObjectID="CAD9029D-E7FF-0DBD-1C6381EAA631FDEE" Title="Epilepsy surgery" Url="http://www.mayoclinic.com/health/epilepsy-surgery/MY00133" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00296" LinkType="Internal" ObjectID="9602CBD0-E7FF-0DBD-17FC8BE1A811B9FC" Title="EEG (electroencephalogram)" Url="http://www.mayoclinic.com/health/eeg/MY00296" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+	</RelatedLinksBox>
+</Disease>

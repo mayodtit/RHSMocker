@@ -1,0 +1,242 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00970
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polysomnography/MY00970
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3851" Title="Nervous system">
+						<Keyword MCVID="4490" Title="Polysomnography" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			028DF16F-B41F-761C-6A76411C7C646B91
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polysomnography
+			</MetaKeyword>
+			<MetaKeyword>
+				overnight sleep study
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep studies
+			</MetaKeyword>
+			<MetaKeyword>
+				polysomnogram
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep apnea
+			</MetaKeyword>
+			<MetaKeyword>
+				sleep
+			</MetaKeyword>
+			<MetaKeyword>
+				periodic limb movement disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				narcolepsy
+			</MetaKeyword>
+			<MetaKeyword>
+				REM sleep behavior disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				insomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				hypersomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				parasomnia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polysomnography, also called a sleep study, is a test used to diagnose sleep disorders. Polysomnography records your brain waves, the oxygen level in your blood, heart rate and breathing, as well as eye and leg movements during the study.
+&lt;/p&gt;
+&lt;p&gt;
+Polysomnography usually is done at a sleep disorders unit within a hospital or at a sleep center. You&apos;ll be asked to come to the sleep center in the evening for polysomnography so that the test can record your nighttime sleep patterns. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to helping diagnose sleep disorders, polysomnography may be used to help adjust your treatment plan if you&apos;ve already been diagnosed with a sleep disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polysomnography monitors your sleep stages and cycles to identify if or when your sleep patterns are disrupted and why. 
+&lt;/p&gt;
+&lt;p&gt;
+The normal process of falling asleep begins with a sleep stage called non-rapid eye movement (NREM) sleep. During this stage, your brain waves, as recorded by electroencephalography (EEG), slow down considerably. Your eyes don&apos;t move back and forth rapidly during NREM, in contrast to later stages of sleep. After an hour or two of NREM sleep, your brain activity picks up again, and rapid eye movement (REM) sleep begins. Most dreaming occurs during REM sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+You normally go through four to six sleep cycles a night, cycling between NREM and REM sleep in about 90 minutes. Your REM stage usually lengthens with each cycle as the night progresses. Sleep disorders can disturb this sleep process. Polysomnography monitors your sleep stages and cycles to identify if or when your sleep patterns are disrupted. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend polysomnography if he or she suspects you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep apnea or another sleep-related breathing disorder&lt;/strong&gt; &amp;mdash; your breathing repeatedly stops and starts during sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Periodic limb movement disorder&lt;/strong&gt; &amp;mdash; you involuntarily flex and extend your legs while sleeping. This sleep disorder is sometimes associated with restless legs syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narcolepsy &lt;/strong&gt;&amp;mdash; you experience overwhelming daytime drowsiness and sudden attacks of sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;REM sleep behavior disorder&lt;/strong&gt; &amp;mdash; you act out dreams as you sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unusual behaviors during sleep&lt;/strong&gt; &amp;mdash; you do unusual activities during sleep, such as walking, moving around a lot or rhythmic movements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unexplained chronic insomnia&lt;/strong&gt; &amp;mdash; you consistently have trouble falling asleep or staying asleep.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polysomnography is a noninvasive, painless test. Complications are rare. The most common side effect is skin irritation caused by the adhesive used to attach test sensors to your skin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may ask you not to drink alcohol or eat or drink anything with caffeine during the afternoon and evening before polysomnography. Alcohol and caffeine can change your sleep patterns, and they may make symptoms of some sleep disorders worse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During polysomnography&lt;br /&gt;
+&lt;/strong&gt;You arrive at the sleep center in the evening for polysomnography and stay overnight. You may bring items you use for your bedtime routine, and you can sleep in your own nightclothes. 
+&lt;/p&gt;
+&lt;p&gt;
+The room where polysomnography is done is similar to a hotel room, and it&apos;s dark and quiet during the test. You don&apos;t share the room with anyone else. The room has a video camera, so the polysomnography technologists monitoring you can see what&apos;s happening in the room when the lights are out, and an audio system, so they can talk to you and hear you from their monitoring area outside the room.
+&lt;/p&gt;
+&lt;p&gt;
+After you get ready for bed, one of the technologists places sensors on your scalp, temples, chest and legs using a mild adhesive, such as glue or tape. The sensors are connected by wires to a computer, but the wires are long enough to let you move normally in bed. A small clip also is placed on your finger or ear to monitor the level of oxygen in your blood.
+&lt;/p&gt;
+&lt;p&gt;
+While you sleep, a technologist monitors your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brain waves &lt;/li&gt;
+	&lt;li&gt;Eye movements&lt;/li&gt;
+	&lt;li&gt;Heart rate&lt;/li&gt;
+	&lt;li&gt;Breathing pattern&lt;/li&gt;
+	&lt;li&gt;Blood oxygen level&lt;/li&gt;
+	&lt;li&gt;Body position&lt;/li&gt;
+	&lt;li&gt;Limb movement&lt;/li&gt;
+	&lt;li&gt;Snoring and other noise you may make as you sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All of these measurements are recorded on a continuous graph. 
+&lt;/p&gt;
+&lt;p&gt;
+Polysomnography technologists monitor you throughout the night. If you need assistance, you can talk to them through the monitoring equipment. They can come into the room to detach the wires if you need to get up during the night.
+&lt;/p&gt;
+&lt;p&gt;
+Although you probably won&apos;t fall asleep as easily or sleep as well at the sleep center as you do at home, this usually doesn&apos;t affect the test results. A full night&apos;s sleep isn&apos;t required to obtain accurate polysomnography results.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After polysomnography&lt;br /&gt;
+&lt;/strong&gt;In the morning, the sensors are removed, and you may leave the sleep center. You&apos;re given an appointment for a follow-up visit with the doctor who recommended the test. You can return to your usual activities after polysomnography.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The measurements recorded during polysomnography provide a great deal of information about your sleep patterns. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain waves and eye movements&lt;/strong&gt; during sleep can help your health care team assess your sleep stages and identify disruptions in the stages that may occur due to sleep disorders such as narcolepsy and REM sleep behavior disorder. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart and breathing rate changes and changes in blood oxygen&lt;/strong&gt; that are abnormal during sleep may suggest sleep apnea. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent leg movements&lt;/strong&gt; that disrupt your sleep may indicate periodic limb movement disorder. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Unusual movements or behaviors during sleep&lt;/strong&gt; may be signs of REM sleep behavior disorder or another sleep disorder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The information gathered during polysomnography is evaluated first by a polysomnography technologist, who uses the data to chart your sleep stages and cycles. Then, that information is reviewed by your sleep center doctor.
+&lt;/p&gt;
+&lt;p&gt;
+It may take up to two weeks to receive the results of polysomnography. At a follow-up appointment, your doctor reviews the results with you and, based on the data gathered, discusses any treatment or further evaluation that you may need.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polysomnography (sleep study)
+	</Title>
+	<Abstract>
+		Polysomnography (sleep study) &amp;mdash; Overview covers what to expect, results of this test for sleep conditions.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00345" LinkType="Internal" ObjectID="9F7EDDDB-5C6D-4605-9C8DAD116CBF30E6" Title="Narcolepsy" Url="http://www.mayoclinic.com/health/narcolepsy/DS00345" />
+		<LinkItem ContentType="Disease" DocID="DS00995" LinkType="Internal" ObjectID="527F2C24-E7FF-0DBD-179189C48F92AC84" Title="Central sleep apnea" Url="http://www.mayoclinic.com/health/central-sleep-apnea/DS00995" />
+		<LinkItem ContentType="Disease" DocID="DS00187" LinkType="Internal" ObjectID="4A51681C-E903-48E6-9339EFF42FD2E52C" Title="Insomnia" Url="http://www.mayoclinic.com/health/insomnia/DS00187" />
+		<LinkItem ContentType="Disease" DocID="DS00148" LinkType="Internal" ObjectID="46007B8E-E80F-4754-ADF482B2CB33E645" Title="Sleep apnea" Url="http://www.mayoclinic.com/health/sleep-apnea/DS00148" />
+		<LinkItem ContentType="Disease" DocID="DS00191" LinkType="Internal" ObjectID="3E2E9266-6525-4125-923345C17FB0E20F" Title="Restless legs syndrome" Url="http://www.mayoclinic.com/health/restless-legs-syndrome/DS00191" />
+		<LinkItem ContentType="Disease" DocID="DS01009" LinkType="Internal" ObjectID="2CFC20C2-E7FF-0DBD-1091AC04DD85951E" Title="Sleepwalking" Url="http://www.mayoclinic.com/health/sleepwalking/DS01009" />
+		<LinkItem ContentType="Disease" DocID="DS00968" LinkType="Internal" ObjectID="0AB50443-E7FF-0DBD-14E28912A6055C00" Title="Obstructive sleep apnea" Url="http://www.mayoclinic.com/health/obstructive-sleep-apnea/DS00968" />
+	</RelatedLinksBox>
+</TestProcedure>

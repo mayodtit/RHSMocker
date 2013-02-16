@@ -1,0 +1,186 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00488
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fried-rice/NU00488
+		</OriginalURL>
+		<UpdateDate>
+			2009-12-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			FB6F2968-0B6D-4D8E-A94C8E87616BE8DD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Chinese fried rice
+	</Title>
+	<Abstract>
+		Chinese fried rice &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Rice that has been cooked and refrigerated overnight (or longer &amp;mdash; up to 3 days ahead of time) makes better fried rice because the rice tends to clump together. Before using, break up the large clumps with a spoon.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;In a saucepan, bring the water and rice to a boil, stirring frequently. Reduce heat to low, cover and simmer until the rice is tender and has absorbed all the liquid, about 20 minutes.&lt;/p&gt;
+
+&lt;p&gt;In a large heavy skillet or wok, heat the peanut oil over medium-high heat. Add the cooked rice and saute until lightly golden. Add the green onions, salt, carrots, peppers and peas. Stir-fry until the vegetables are tender-crisp, about 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;Hollow out a circle in the center of the skillet by pushing the vegetables and rice to the sides. Break the egg into the hollow and cook, lightly scrambling the egg as it cooks. Stir the scrambled egg into the rice mixture. Sprinkle with soy sauce, sesame oil and chopped parsley. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 1/3 cups water&lt;br /&gt;
+3/4 cup rice&lt;br /&gt;
+3 tablespoons peanut oil&lt;br /&gt;
+4 green onions with tops, chopped&lt;br /&gt;
+1/4 teaspoon salt&lt;br /&gt;
+2 carrots, finely chopped&lt;br /&gt;
+1/2 cup finely chopped green bell pepper&lt;br /&gt;
+1/2 cup frozen peas&lt;br /&gt;
+1 egg&lt;br /&gt;
+2 tablespoons reduced-sodium soy sauce&lt;br /&gt;
+1 tablespoon sesame oil&lt;br /&gt;
+1/4 cup chopped parsley&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				3
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				3
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				3
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				305
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				36 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				53 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				3 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				7 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				3 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				498 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				15 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Stir-fry
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+	</Categorization>
+</Recipe>

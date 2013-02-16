@@ -1,0 +1,404 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01176
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/burns/DS01176
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-21
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="3006" Title="Skin injury">
+						<Keyword MCVID="2958" Title="Burns" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8FA82F21-A416-0C71-EF5AE1369D256C96
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				burns
+			</MetaKeyword>
+			<MetaKeyword>
+				burn
+			</MetaKeyword>
+			<MetaKeyword>
+				thermal burn
+			</MetaKeyword>
+			<MetaKeyword>
+				skin burns
+			</MetaKeyword>
+			<MetaKeyword>
+				skin burn
+			</MetaKeyword>
+			<MetaKeyword>
+				chemical burn
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation burn
+			</MetaKeyword>
+			<MetaKeyword>
+				burn pictures
+			</MetaKeyword>
+			<MetaKeyword>
+				first degree burn
+			</MetaKeyword>
+			<MetaKeyword>
+				1st degree burn
+			</MetaKeyword>
+			<MetaKeyword>
+				second degree burn
+			</MetaKeyword>
+			<MetaKeyword>
+				2nd degree burn
+			</MetaKeyword>
+			<MetaKeyword>
+				third degree burn
+			</MetaKeyword>
+			<MetaKeyword>
+				3rd degree burn
+			</MetaKeyword>
+			<MetaKeyword>
+				burn treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment for burns
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Burns can be minor medical problems or life-threatening emergencies. Some of the most severe burns are caused by electricity or chemicals. Scalding liquids are the most common cause of burns in children. 
+&lt;/p&gt;
+&lt;p&gt;
+Sunburns and small scalds can usually be treated at home, but deep or widespread burns need immediate medical attention. People with severe burns often require treatment at specialized burn units. Skin grafts may be necessary to cover large wounds. 
+&lt;/p&gt;
+&lt;p&gt;
+For most burns, the very first thing to do is to flood the injury with cool tap water. Ice is not recommended because it can cause additional damage to the burned tissue.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing a second-degree burn 
+" Caption="A second-degree burn, which often looks wet or moist, affects the first and second layers of skin (epidermis and dermis). Blisters may develop and pain can be severe. 
+" Height="60" Title="Second-degree burn" URI="/images/image_popup/thumbs/mcdc7_second_degree_burnthu.jpg" Width="60" />
+				<Image Alt="Image showing a second-degree burn 
+" Caption="A second-degree burn, which often looks wet or moist, affects the first and second layers of skin (epidermis and dermis). Blisters may develop and pain can be severe. 
+" Height="600" Title="Second-degree burn" URI="/images/image_popup/mcdc7_second_degree_burn.jpg" Width="400" />
+				<HTML>
+					A second-degree burn, which often looks wet or moist, affects the first and second layers of skin (epidermis and dermis). Blisters may develop and pain can be severe. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Burns don&apos;t affect the skin uniformly, so a single injury can reach varying depths. Distinguishing a minor burn from a more serious burn involves determining the degree of damage to the tissues of the body. The following are four classifications of burns:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;First-degree burn.&lt;/strong&gt; This minor burn affects only the outer layer of the skin (epidermis). It causes redness and pain and usually resolves with first-aid measures within several days to a week. Sunburn is a classic example.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Second-degree burn.&lt;/strong&gt; These burns affect both the epidermis and the second layer of skin (dermis), causing redness, pain and swelling. A second-degree burn often looks wet or moist. Blisters may develop and pain can be severe. Deep second-degree burns can cause scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Third-degree burn.&lt;/strong&gt; Burns that reach into the fat layer beneath the dermis are called third-degree burns. The skin may appear stiff, waxy white, leathery or tan. Third-degree burns can destroy nerves, causing numbness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fourth-degree burn.&lt;/strong&gt; The most severe form of burn affects structures well beyond the skin, such as muscle and bones. The skin may appear blackened or charred. If nerve damage is substantial, you may feel no pain at all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;While minor burns can be cared for at home, call your doctor if you experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased pain, swelling, redness or discharge in the burned area&lt;/li&gt;
+	&lt;li&gt;A burn that doesn&apos;t heal in several weeks&lt;/li&gt;
+	&lt;li&gt;New, unexplained symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Seek emergency medical assistance for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Burns that cover the hands, feet, face, groin, buttocks or a major joint&lt;/li&gt;
+	&lt;li&gt;Chemical or electrical burns&lt;/li&gt;
+	&lt;li&gt;Third- or fourth-degree burns&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing or burns to the airway&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing layers of skin 
+" Caption="Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+" Height="60" Title="Skin layers" URI="/images/image_popup/thumbs/mcdc7_skin_layersthu.jpg" Width="60" />
+				<Image Alt="Illustration showing layers of skin 
+" Caption="Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+" Height="343" Title="Skin layers" URI="/images/image_popup/mcdc7_skin_layers.jpg" Width="400" />
+				<HTML>
+					Your skin has three layers that house your sweat and oil glands, hair follicles and blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing a second-degree burn 
+" Caption="A second-degree burn, which often looks wet or moist, affects the first and second layers of skin (epidermis and dermis). Blisters may develop and pain can be severe. 
+" Height="60" Title="Second-degree burn" URI="/images/image_popup/thumbs/mcdc7_second_degree_burnthu.jpg" Width="60" />
+				<Image Alt="Image showing a second-degree burn 
+" Caption="A second-degree burn, which often looks wet or moist, affects the first and second layers of skin (epidermis and dermis). Blisters may develop and pain can be severe. 
+" Height="600" Title="Second-degree burn" URI="/images/image_popup/mcdc7_second_degree_burn.jpg" Width="400" />
+				<HTML>
+					A second-degree burn, which often looks wet or moist, affects the first and second layers of skin (epidermis and dermis). Blisters may develop and pain can be severe. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing a third-degree burn 
+" Caption="Third-degree burns extend into the fat layer that lies beneath the dermis. The skin may appear stiff, waxy white, leathery or tan. These types of burns usually require skin grafts for wound closure. 
+" Height="60" Title="Third-degree burn" URI="/images/image_popup/thumbs/mcdc7_third_degree_burnthu.jpg" Width="60" />
+				<Image Alt="Image showing a third-degree burn 
+" Caption="Third-degree burns extend into the fat layer that lies beneath the dermis. The skin may appear stiff, waxy white, leathery or tan. These types of burns usually require skin grafts for wound closure. 
+" Height="453" Title="Third-degree burn" URI="/images/image_popup/mcdc7_third_degree_burn.jpg" Width="400" />
+				<HTML>
+					Third-degree burns extend into the fat layer that lies beneath the dermis. The skin may appear stiff, waxy white, leathery or tan. These types of burns usually require skin grafts for wound closure. ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing a radiation burn 
+" Caption="Radiation burns can be caused by X-rays or radiation therapy to treat cancer. 
+" Height="60" Title="Radiation burn" URI="/images/image_popup/thumbs/mcdc7_radiation_burnthu.jpg" Width="60" />
+				<Image Alt="Image showing a radiation burn 
+" Caption="Radiation burns can be caused by X-rays or radiation therapy to treat cancer. 
+" Height="310" Title="Radiation burn" URI="/images/image_popup/mcdc7_radiation_burn.jpg" Width="400" />
+				<HTML>
+					Radiation burns can be caused by X-rays or radiation therapy to treat cancer. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many substances can cause burns, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fire&lt;/li&gt;
+	&lt;li&gt;Hot liquid or steam&lt;/li&gt;
+	&lt;li&gt;Hot metal, glass or other objects&lt;/li&gt;
+	&lt;li&gt;Electrical currents&lt;/li&gt;
+	&lt;li&gt;Radiation from X-rays or radiation therapy to treat cancer&lt;/li&gt;
+	&lt;li&gt;Sunlight or ultraviolet light from a sunlamp or tanning bed&lt;/li&gt;
+	&lt;li&gt;Chemicals such as strong acids, lye, paint thinner or gasoline&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Deep or widespread burns can lead to many complications, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Burns can leave skin vulnerable to bacterial infection and increase your risk of sepsis, a life-threatening infection that travels through your bloodstream and affects your whole body. Sepsis is a rapidly progressing, life-threatening condition that can cause shock and organ failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood volume (hypovolemia).&lt;/strong&gt; Burns can damage blood vessels and cause fluid loss. This may result in low blood volume (hypovolemia). Severe blood and fluid loss prevents the heart from pumping enough blood to the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dangerously low body temperature (hypothermia).&lt;/strong&gt; The skin helps control the body&apos;s temperature, so when a large portion of the skin is injured, you lose body heat. This increases your risk of hypothermia &amp;mdash; when the body loses heat faster than it can produce heat, causing a dangerously low body temperature.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing (respiratory) problems.&lt;/strong&gt; Breathing hot air or smoke can burn airways and cause breathing difficulties. Smoke inhalation damages the lungs and can cause respiratory failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring.&lt;/strong&gt; Burns can cause scars and keloids &amp;mdash; ridged areas caused by an overgrowth of scar tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone and joint problems.&lt;/strong&gt; Deep burns can limit movement of the bones and joints. Scar tissue can form and cause contractures, when skin, muscles or tendons shorten and tighten, permanently pulling joints out of position.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seek emergency medical care for burns that are moderate or severe, are widespread, or involve your hands, feet, groin or face. For less severe burns, you may need an appointment with your health care provider. The information below can help you prepare. 
+&lt;/p&gt;
+&lt;p&gt;
+Prepare a list of questions so that you can make the most of your time with your doctor. For burns, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I need treatment for the burn?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the burn heals on its own?&lt;/li&gt;
+	&lt;li&gt;Do I need prescription medication, or can I use over-the-counter medications to treat the burn?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend while the burn heals?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+	&lt;li&gt;What changes in my skin should I look for?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did the burn occur?&lt;/li&gt;
+	&lt;li&gt;Do you have other symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have underlying health conditions, such as diabetes?&lt;/li&gt;
+	&lt;li&gt;What at-home burn treatments have you used, if any?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in the appearance of the burn?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will examine your burned skin and determine what percentage of your total body surface area (TBSA) is involved. In general, an area of skin roughly equal to the size of your palm equals 1 percent of your TBSA.
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll also be examined for associated injuries and to determine how the burn might have affected the rest of your body. Depending on the severity of the burn and the circumstances that caused it, you may need lab tests, X-rays or other diagnostic procedures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can treat first-degree burns and small second-degree burns at home using over-the-counter products or aloe. Minor burns usually resolve within a few weeks.
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency treatment for burns that are moderate, severe, or widespread &amp;mdash; or if the burns involve your hands, feet, groin or face.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Depending on the severity of your burn, you may require: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous (IV) fluids.&lt;/strong&gt; Doctors deliver fluids continuously through a vein (intravenously) to prevent dehydration and organ failure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Healing burns can be incredibly painful. In many cases, morphine is required &amp;mdash; particularly during dressing changes. Anti-anxiety medications may also be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Burn creams.&lt;/strong&gt; A variety of products can be applied to the burn to help keep it moist, reduce pain, prevent infection and speed healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If you develop an infection, you may need intravenous antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tetanus shot.&lt;/strong&gt; Your doctor might recommend a tetanus shot after a burn injury.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;If the burned area is large, especially if it covers any joints, you may need physical therapy exercises designed to stretch the skin so the joints can remain flexible. Other types of exercises can improve muscle strength and coordination.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;In some cases, you may need one or more of the following procedures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing assistance.&lt;/strong&gt; If you&apos;ve been burned on the face or neck, your throat may swell shut. If that appears likely, your doctor may insert a tube down your windpipe (trachea) to keep oxygen supplied to your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tube feeding.&lt;/strong&gt; Your metabolism goes into overdrive when your body starts trying to heal your burns. To provide adequate nutrition for this task, a feeding tube may be threaded through your nose to your stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decompression.&lt;/strong&gt; If a burn scab (eschar) goes completely around a limb, it can tighten and cut off the blood circulation. An eschar that goes completely around the chest can make it difficult to breathe. Cutting the eschar in several places can relieve this pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin grafts.&lt;/strong&gt; Sections of your own healthy skin are needed to replace the scar tissue caused by deep burns. Donor skin from cadavers or pigs can be used as a temporary solution.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reconstruction.&lt;/strong&gt; Plastic surgeons can improve the appearance of burn scars and increase the flexibility of joints affected by scarring.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To treat first-degree burns and small second-degree burns, follow these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cool the burn.&lt;/strong&gt; Run cool tap water over the burn or put the burned areas in room-temperature water for 15 to 30 minutes. Don&apos;t use ice or ice water. Putting ice directly on a burn can cause further damage to the wound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean the wound.&lt;/strong&gt; Use mild soap and tap water to wash the injury. Gently remove any loose bits of debris in the wound. If blisters are intact, don&apos;t break them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a lotion or moisturizer.&lt;/strong&gt; Try anesthetic cream or aloe gel to soothe the area and prevent dryness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the burn.&lt;/strong&gt; Wrap a sterile gauze bandage loosely to avoid putting too much pressure on the burn.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take pain relievers.&lt;/strong&gt; Over-the-counter pain relievers include ibuprofen (Advil, Motrin IB, others), naproxen (Aleve) and acetaminophen (Tylenol, others).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with a serious burn injury can be a challenge, especially if it covers large areas of your body or is in places readily seen by other people, such as your face or hands. Potential scarring, reduced mobility and possible surgeries only add to the burden. 
+&lt;/p&gt;
+&lt;p&gt;
+Consider joining a support group with other members who have had serious burns and know what you&apos;re going through. You may find comfort in sharing your experience and struggles and meeting people who face similar challenges. Ask your doctor for information on support groups in your area or online.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of common household burns:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Never leave items cooking on the stove unattended.&lt;/li&gt;
+	&lt;li&gt;Turn pot handles toward the rear of the stove.&lt;/li&gt;
+	&lt;li&gt;Use sturdy oven mitts that cover hands and wrists.&lt;/li&gt;
+	&lt;li&gt;Keep hot liquids out of the reach of children and pets.&lt;/li&gt;
+	&lt;li&gt;Never cook while wearing loosefitting clothes that could catch fire over the stove.&lt;/li&gt;
+	&lt;li&gt;Keep space heaters away from combustible materials.&lt;/li&gt;
+	&lt;li&gt;If you must smoke, avoid smoking in the house and especially never smoke in bed.&lt;/li&gt;
+	&lt;li&gt;Check your smoke detectors and change their batteries regularly.&lt;/li&gt;
+	&lt;li&gt;Keep chemicals, lighters and matches out of the reach of children.&lt;/li&gt;
+	&lt;li&gt;Set your water heater&apos;s thermostat between 120 and 130 F (49 to 54 C) to prevent scalding.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Burns
+	</Title>
+	<Abstract>
+		Burns &amp;mdash; Comprehensive overview covers symptoms, treatments and self-care tips. Includes burn pictures.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00022" LinkType="Internal" ObjectID="63D11647-9116-43EA-8D757FEFDFCD33CB" Title="Burns: First aid" Url="http://www.mayoclinic.com/health/first-aid-burns/FA00022" />
+		<LinkItem ContentType="Article" DocID="MH00002" LinkType="Internal" ObjectID="24EFE323-6344-484C-BADD87CBB450A08F" Title="Support groups: Make connections, get help" Url="http://www.mayoclinic.com/health/support-groups/MH00002" />
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

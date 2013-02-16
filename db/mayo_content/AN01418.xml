@@ -1,0 +1,105 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01418
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cellulitis/AN01418
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2777" Title="Bacterial skin infections">
+							<Keyword MCVID="2971" Title="Cellulitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			899EC794-E7FF-0DBD-139D789C2C09D14E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cellulitis
+			</MetaKeyword>
+			<MetaKeyword>
+				cellulitis infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Cellulitis is a bacterial infection in the deepest layer of skin. Cellulitis develops when bacteria enter the body through a crack or cut in the skin. Sometimes cellulitis recurs.
+&lt;/p&gt;
+&lt;p&gt;
+Cellulitis is usually treated with antibiotics. It&apos;s important to take the antibiotics exactly as prescribed &amp;mdash; including finishing the full course of antibiotics, even if signs and symptoms have already improved. To relieve discomfort associated with cellulitis, keep the affected area elevated if possible. A cool wet dressing or clean cloth applied to the affected area and ibuprofen (Advil, Motrin, others) also may help relieve pain and swelling.
+&lt;/p&gt;
+&lt;p&gt;
+To help prevent recurrent episodes of cellulitis, keep skin clean and well moisturized. Be sure to treat athlete&apos;s foot because it can allow penetration of infection-causing bacteria. Prevent cuts and scrapes by wearing appropriate clothing and footwear, using gloves when necessary, and trimming fingernails and toenails with care. Seek prompt medical attention at the first sign of a skin infection of the hands or feet.
+&lt;/p&gt;
+&lt;p&gt;
+Recurrent cellulitis can also be a sign of an immune system problem, for example diabetes. Your husband should be examined carefully to see if a source for this infection can be determined (for example, athlete&apos;s foot). You might also encourage your husband to ask his doctor about long-term antibiotic treatment. Some people who have recurrent cellulitis may benefit from long-term antibiotic treatment to prevent recurrent infections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cellulitis: How to treat recurrent episodes
+	</Title>
+	<Abstract>
+		Learn to treat and prevent recurrent cellulitis.
+	</Abstract>
+	<Question>
+		My husband has had cellulitis three times in a single year &amp;mdash; and in three different parts of his body. What can he do to treat his cellulitis?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00745" LinkType="Internal" ObjectID="1A34E36A-E89B-46A4-ABDA7D9ABCAD5C0A" Title="Cellulitis infection: Is it contagious?" Url="http://www.mayoclinic.com/health/cellulitis/AN00745" />
+		<LinkItem ContentType="Disease" DocID="DS01191" LinkType="Internal" ObjectID="22F740D5-BF9D-1B61-C3528ACC3BC2F6E3" Title="Spider bites" Url="http://www.mayoclinic.com/health/spider-bites/DS01191" />
+		<LinkItem ContentType="Disease" DocID="DS00450" LinkType="Internal" ObjectID="2875823B-229A-4555-9C0FC8019E4254BC" Title="Cellulitis" Url="http://www.mayoclinic.com/health/cellulitis/DS00450" />
+	</RelatedLinksBox>
+</Answer>

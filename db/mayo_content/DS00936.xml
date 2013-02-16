@@ -1,0 +1,323 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00936
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/progeria/DS00936
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-23
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="1749" Title="Birth defects/malformations">
+						<Keyword MCVID="3105" Title="Progeria" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			510D8F5B-E7FF-0DBD-11D178093FF5C866
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				progeria
+			</MetaKeyword>
+			<MetaKeyword>
+				Hutchison-Gilford progeria syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				HGPS
+			</MetaKeyword>
+			<MetaKeyword>
+				Hutchinson-Gilford progeria syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Progeria (pro-JEER-e-uh) is a progressive genetic disorder that causes children to age rapidly, beginning in their first two years of life. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with progeria, also known as Hutchinson-Gilford progeria syndrome (HGPS), generally appear normal at birth. By 12 months, signs and symptoms, such as slow growth and hair loss, begin to appear. The average life expectancy for a child with progeria is about 13, but some with the disease die younger and some live 20 years or longer. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart problems or strokes are the eventual cause of death in most children with progeria. There&apos;s no cure for this condition, but ongoing research shows some promise for treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Usually within the first year of life, growth of a child with progeria slows markedly so that height and weight fall below average for his or her age. Motor development and intelligence remain normal. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of this progressive disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slowed growth, with below-average height and weight&lt;/li&gt;
+	&lt;li&gt;A narrowed face and beaked nose&lt;/li&gt;
+	&lt;li&gt;Hair loss (alopecia), including eyelashes and eyebrows&lt;/li&gt;
+	&lt;li&gt;Hardening and tightening of skin on trunk and extremities (scleroderma)&lt;/li&gt;
+	&lt;li&gt;Head disproportionately large for face&lt;/li&gt;
+	&lt;li&gt;Thin lips &lt;/li&gt;
+	&lt;li&gt;Visible veins&lt;/li&gt;
+	&lt;li&gt;Prominent eyes&lt;/li&gt;
+	&lt;li&gt;Small lower jaw (micrognathia)&lt;/li&gt;
+	&lt;li&gt;High-pitched voice&lt;/li&gt;
+	&lt;li&gt;Delayed and abnormal tooth formation&lt;/li&gt;
+	&lt;li&gt;Diminished body fat and muscle&lt;/li&gt;
+	&lt;li&gt;Stiff joints&lt;/li&gt;
+	&lt;li&gt;Hip dislocation&lt;/li&gt;
+	&lt;li&gt;Insulin resistance&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Call for an appointment with your doctor if your child does not appear to be growing or developing normally, including problems with hair loss, skin changes or slowed growth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Researchers have discovered a single gene mutation responsible for Hutchinson-Gilford progeria syndrome. The gene is known as lamin A (LMNA), which makes a protein necessary for holding the center (nucleus) of a cell together. Researchers believe the genetic mutation renders cells unstable, which appears to lead to progeria&apos;s characteristic aging process. 
+&lt;/p&gt;
+&lt;p&gt;
+Unlike many genetic mutations, Hutchinson-Gilford progeria isn&apos;t passed down in families. Rather, the gene change is a chance occurrence that researchers believe affects a single sperm or egg just before conception. Neither parent is a carrier, so the mutations in the children&apos;s genes are new (de novo). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other similar syndromes&lt;/strong&gt; &lt;br /&gt;
+There are, however, other progeroid syndromes that run in families. They include Wiedemann-Rautenstrauch syndrome and Werner syndrome. In Wiedemann-Rautenstrauch syndrome, also known as neonatal progeroid syndrome, onset of aging begins in the womb, and signs and symptoms are apparent at birth. Werner syndrome begins in adolescence or early adulthood. These inherited progeroid syndromes also cause rapid aging and shortened life span. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with progeria usually develop severe hardening of the arteries. This is a condition in which the walls of their arteries &amp;mdash; blood vessels that carry nutrients and oxygen from the heart to the rest of the body &amp;mdash; stiffen and thicken, often restricting blood flow. 
+&lt;/p&gt;
+&lt;p&gt;
+Most children with progeria die of complications related to atherosclerosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Problems with the blood vessels that supply the heart (cardiovascular problems), resulting in heart attack and congestive heart failure&lt;/li&gt;
+	&lt;li&gt;Problems with the blood vessels that supply the brain (cerebrovascular problems), resulting in stroke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other health problems that are frequently associated with aging &amp;mdash; such as far-sightedness and Alzheimer&apos;s disease &amp;mdash; do not develop as part of the course of progeria. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Progeria is usually detected in infancy or early childhood when a baby first shows the characteristic signs of premature aging. It&apos;s likely that your family doctor or your child&apos;s pediatrician will notice these signs and symptoms during regular checkups. 
+&lt;/p&gt;
+&lt;p&gt;
+If you first notice changes in your child that are similar to the signs and symptoms of progeria, make an appointment with your child&apos;s doctor. After evaluation, your child may be referred to a medical genetics specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get well prepared for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms your child has been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a trusted family member or friend to join you for your child&apos;s appointment.&lt;/strong&gt; If your child is diagnosed with progeria, you may have great difficulty focusing on anything the doctor says after making the diagnosis. Take someone along who can offer emotional support and can help retain all the information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For progeria, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my child&apos;s signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;Are treatments available for this condition?&lt;/li&gt;
+	&lt;li&gt;What are the complications of this condition?&lt;/li&gt;
+	&lt;li&gt;What can be done to relieve my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are my other children or family members at increased risk of this condition?&lt;/li&gt;
+	&lt;li&gt;Are there clinical trials under way for which my child may be eligible?&lt;/li&gt;
+	&lt;li&gt;Do you recommend that my child see a specialist?&lt;/li&gt;
+	&lt;li&gt;How can I find other families who are coping with progeria?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will perform a thorough physical examination of your child, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Measuring your child&apos;s height&lt;/li&gt;
+	&lt;li&gt;Weighing your child&lt;/li&gt;
+	&lt;li&gt;Plotting your child&apos;s measurements on a normal growth curve chart&lt;/li&gt;
+	&lt;li&gt;Testing your child&apos;s hearing and vision&lt;/li&gt;
+	&lt;li&gt;Measuring vital signs, including blood pressure&lt;/li&gt;
+	&lt;li&gt;Looking for visible signs and symptoms that are typical of progeria&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also ask you to describe symptoms you&apos;ve noticed in your child, and for how long. 
+&lt;/p&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment with your doctor. Progeria is a very rare disease, and it&apos;s likely that your doctor will need to gather more information before determining next steps in caring for your child. Your questions and concerns can help your doctor develop a comprehensive list of topics to investigate before you meet again. 
+&lt;/p&gt;
+&lt;p&gt;
+During follow-up visits, your child&apos;s weight and height will be measured and plotted on a chart of normal growth values. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors may suspect progeria based on signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Failure to grow&lt;/li&gt;
+	&lt;li&gt;Hair loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To confirm the diagnosis, your doctor will order: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; A genetic test for LMNA mutations can confirm the diagnosis of progeria.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for progeria. Regular monitoring for cardiovascular disease may help with managing your child&apos;s condition. Some children undergo coronary artery bypass surgery or dilation of cardiac arteries (angioplasty) to slow the progression of cardiovascular disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain therapies may ease or delay some of the signs and symptoms. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low-dose aspirin.&lt;/strong&gt; A daily dose may help prevent heart attacks and stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications.&lt;/strong&gt; Depending on your child&apos;s condition, your doctor may prescribe other medications, such as statins to lower cholesterol or anticoagulants to help prevent blood clots. The use of growth hormone may help increase height and weight. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical and occupational therapy.&lt;/strong&gt; These may help with joint stiffness and hip problems and may allow your child to remain active.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Extraction of primary teeth.&lt;/strong&gt; Your child&apos;s permanent teeth may start coming in before his or her baby teeth fall out. Extraction may help prevent problems associated with the delayed loss of baby teeth, including overcrowding and developing a second row of teeth when permanent teeth come in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Investigational treatment&lt;/strong&gt; &lt;br /&gt;
+Drugs known as farnesyltransferase inhibitors (FTIs), which were developed for treating cancer, have shown promise in laboratory studies in correcting the cell defects that cause progeria. FTIs are currently being studied in human clinical trials for treatment of progeria. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some steps you can take at home that may help your child include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure your child stays well hydrated.&lt;/strong&gt; Dehydration can be more serious in children with progeria. Be sure your child gets enough to drink, especially during an illness or in hot weather.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide frequent, small meals.&lt;/strong&gt; Because nutrition and growth can be an issue for children with progeria, giving your child smaller meals more often may help to increase his or her caloric intake.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide opportunities for regular physical activity.&lt;/strong&gt; Check with your child&apos;s doctor to learn which activities are right for your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get cushioned shoes or shoe inserts for your child.&lt;/strong&gt; The loss of body fat in the feet can cause discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure your child is up to date on childhood immunizations.&lt;/strong&gt; A child with progeria isn&apos;t at increased risk of infection, but like all children is at risk if exposed to infectious diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide learning opportunities.&lt;/strong&gt; Progeria won&apos;t affect your child&apos;s intellect, so he or she can attend school at an age-appropriate level.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning your child has progeria can be emotionally devastating. Suddenly you know that your child is facing numerous, difficult challenges and a shortened life span. For you and your family, coping with the disorder involves a major commitment of physical, emotional and financial resources. 
+&lt;/p&gt;
+&lt;p&gt;
+In dealing with a disorder such as progeria, support groups can be a valuable part of a wider network of social support that includes health care professionals, family and friends. In a support group, you&apos;ll be with people who are facing challenges similar to the one that you are. Talking to group members can help you cope with your own feelings about your child&apos;s condition. If a group isn&apos;t for you, talking to a therapist or clergy member may be beneficial. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about self-help groups or therapists in your community. Your local health department, public library, telephone book and the Internet also may be good sources for finding a support group in your area. Because progeria is so rare, you may not be able to find a progeria-specific support group, but you may be able to find a group for parents of children with chronic illness. The Progeria Research Foundation may be able to help you connect with other families coping with progeria. The Foundation can be reached at 978-535-2594. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Helping your child cope&lt;/strong&gt; &lt;br /&gt;
+If your child has progeria, he or she is also likely to experience fear and grief as awareness grows that progeria shortens life span. Your child eventually will need your help coping with the concept of death, and may have a number of difficult but important questions about spirituality and religion. Your child may also ask questions about what will happen in your family after he or she dies. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s critical that you are able to talk openly and honestly with your child, and offer reassurance that&apos;s compatible with your belief system. Ask your doctor, therapist or clergy member to help you prepare for such conversations with your child. Friends who you meet through support groups also may be able to offer valuable guidance. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child might also benefit from talking to a therapist or clergy member. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Progeria
+	</Title>
+	<Abstract>
+		Progeria &amp;mdash; Comprehensive overview covers causes, treatments of genetic disorder causing rapid aging in children.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

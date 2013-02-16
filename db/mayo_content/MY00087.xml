@@ -1,0 +1,251 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00087
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/coronary-bypass-surgery/MY00087
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4171" Title="Surgery">
+							<Keyword MCVID="3997" Title="Coronary bypass surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A7E80DE5-E7FF-0DBD-1BA2159547DC1918
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				coronary bypass surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary artery bypass surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				CABG
+			</MetaKeyword>
+			<MetaKeyword>
+				bypass surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coronary bypass surgery is a procedure that restores blood flow to your heart muscle by diverting the flow of blood around a section of a blocked artery in your heart. Coronary bypass surgery uses a healthy blood vessel taken from your leg, arm, chest or abdomen and connects it to the other arteries in your heart so that blood is bypassed around the diseased or blocked area. After a coronary bypass surgery, blood flow to your heart is improved. Coronary bypass surgery is just one option to treat heart disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary bypass surgery improves symptoms, such as chest pain and shortness of breath due to poor blood flow to the heart. In some situations, coronary bypass surgery may improve your heart function and reduce your risk of dying of heart disease. 
+&lt;/p&gt;
+			</HTML>
+			<Flash Height="510" ObjectID="7ED4F84B-060C-80F7-A6B1429F412A6FF6" URI="/flash/popup/coronarybypass_1.swf" Width="410">
+				<Title>
+					Coronary bypass surgery
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You and your doctor can consider whether coronary bypass surgery or another artery-opening procedure, such as angioplasty or stenting, is right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary bypass surgery is an option if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have severe chest pain caused by narrowing of several of the arteries that supply your heart muscle, leaving the muscle short of blood during even light exercise or at rest. Sometimes angioplasty and stenting will help, but for some types of blockages, coronary bypass surgery may be the best option.&lt;/li&gt;
+	&lt;li&gt;You have more than one diseased coronary artery and the heart&apos;s main pumping chamber &amp;mdash; the left ventricle &amp;mdash; isn&apos;t functioning well.&lt;/li&gt;
+	&lt;li&gt;Your left main coronary artery is severely narrowed or blocked. This artery supplies most of the blood to the left ventricle.&lt;/li&gt;
+	&lt;li&gt;You have an artery blockage for which angioplasty isn&apos;t appropriate, you&apos;ve had a previous angioplasty or stent placement that hasn&apos;t been successful, or you&apos;ve had stent placement, but the artery has narrowed again (restenosis).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Coronary bypass surgery may also be performed in emergency situations, such as a heart attack, if your doctor sees that you&apos;re not responding to other treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary bypass surgery doesn&apos;t cure the underlying heart disease that caused blockages in the first place. This disease is referred to as atherosclerosis or coronary artery disease. Even if you have coronary bypass surgery, lifestyle changes are still a necessary part of treatment after surgery. Medications are routine after coronary bypass surgery to lower your blood cholesterol, reduce the risk of developing a blood clot and help your heart function as well as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because coronary bypass surgery is an open-heart surgery, you may have complications during or following your procedure. The most common complications of coronary bypass surgery are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Heart rhythm irregularities (arrhythmias)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infections of the chest wound&lt;/li&gt;
+	&lt;li&gt;Memory loss or troubles with thinking clearly, which often improve within six to 12 months&lt;/li&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+	&lt;li&gt;Heart attack, if a blood clot breaks loose soon after surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your risk of developing these complications depends on your health before the surgery. Talk to your doctor to get a better idea of the likelihood of experiencing these risks. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having a scheduled coronary bypass surgery, your risk of complications is usually low, but still depends on your overall health. The risk is higher if the operation is done as an emergency or if you have other medical conditions, such as emphysema, kidney disease, diabetes or blocked arteries in your legs (peripheral artery disease, or PAD). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for coronary bypass surgery, your doctor will give you specific instructions about any activity restrictions and changes in your diet or medications you should follow before surgery. You&apos;ll need several pre-surgical tests, often including chest X-rays, blood tests, an electrocardiogram and a coronary angiogram. A coronary angiogram is a special type of X-ray procedure that uses dye to visualize the arteries that feed your heart. Most people are admitted to the hospital the morning of the surgery. Coronary bypass surgery may also be performed in emergency situations, such as after a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to make arrangements for the weeks following your surgery. It will take about four to six weeks for you to recover to the point where you can resume driving, return to work and perform daily chores. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+Coronary bypass surgery generally takes between three and six hours and requires general anesthesia. On average, surgeons repair two to four coronary arteries. The number of bypasses required depends on the location and severity of blockages in your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Most coronary bypass surgeries are done through a long incision in the chest while blood flow is diverted through a heart-lung machine (called on-pump coronary bypass surgery). 
+&lt;/p&gt;
+&lt;p&gt;
+The surgeon cuts down the center of the chest, along the breastbone. The surgeon then spreads open the rib cage to expose the heart. After the chest is opened, the heart is temporarily stopped and a heart-lung machine takes over to circulate blood to the body. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgeon takes a section of healthy blood vessel, often from inside the chest wall (the internal mammary artery) or from the lower leg, and attaches the ends above and below the blocked artery so that blood flow is diverted (bypassed) around the narrowed portion of the diseased artery. 
+&lt;/p&gt;
+&lt;p&gt;
+There are other surgical techniques your surgeon may use if you&apos;re having coronary bypass surgery: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Off-pump or beating-heart surgery.&lt;/strong&gt; This procedure allows surgery to be done on the still-beating heart using special equipment to stabilize the area of the heart the surgeon is working on. This type of surgery is challenging because the heart is still moving. Because of this, it&apos;s not an option for everyone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minimally invasive surgery.&lt;/strong&gt; In this procedure, a surgeon performs coronary bypass through a smaller incision in the chest, often with the use of robotics and video imaging that help the surgeon operate in a small area. Variations of minimally invasive surgery may be called port-access or keyhole surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once you&apos;re asleep (anesthetized), a breathing tube is inserted through your mouth. This tube attaches to a ventilator, which breathes for you during and immediately after the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+Coronary bypass surgery is a major operation. Expect to spend a day or two in the intensive care unit after coronary bypass surgery. Here, your heart, blood pressure, breathing and other vital signs will be continuously monitored. Your breathing tube will remain in your throat for a few hours or overnight after surgery, so you won&apos;t be able to speak during that time. You can communicate with hand gestures and notes. The breathing tube will be removed as soon as you are awake and able to breathe on your own. 
+&lt;/p&gt;
+&lt;p&gt;
+Barring any complications, you&apos;ll likely be discharged from the hospital within a week, although even after you&apos;ve been released, you may find it difficult to perform everyday tasks, or even walk a short distance. If, after returning home, you experience any of the following signs or symptoms, call your doctor. They could be warning signs that your chest wound is infected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A fever higher than 100.4 F (38 C)&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;New or worsened pain around your chest wound&lt;/li&gt;
+	&lt;li&gt;Reddening around your chest wound or bleeding or other discharge from your chest wound&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Expect a recovery period of about six to 12 weeks. In most cases, you can return to work, begin exercising and resume sexual activity after six weeks, but make sure you have your doctor&apos;s OK before doing so. 
+&lt;/p&gt;
+			</HTML>
+			<Flash Height="510" ObjectID="7ED4F84B-060C-80F7-A6B1429F412A6FF6" URI="/flash/popup/coronarybypass_1.swf" Width="410">
+				<Title>
+					Coronary bypass surgery
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After surgery, most people feel better and may remain symptom-free for as long as 10 to 15 years. Over time, however, it&apos;s likely that other arteries or even the new graft used in the bypass will become clogged, requiring another bypass or angioplasty. 
+&lt;/p&gt;
+&lt;p&gt;
+Although bypass surgery improves blood supply to the heart, it doesn&apos;t cure underlying coronary artery disease. Your results and long-term outcome will depend in part on taking your medication as directed and following healthy lifestyle recommendations, such as these: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stop smoking.&lt;/li&gt;
+	&lt;li&gt;Control diabetes.&lt;/li&gt;
+	&lt;li&gt;Follow a healthy-eating plan, such as the DASH diet.&lt;/li&gt;
+	&lt;li&gt;Reduce cholesterol levels.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight.&lt;/li&gt;
+	&lt;li&gt;Control blood pressure.&lt;/li&gt;
+	&lt;li&gt;Manage diabetes.&lt;/li&gt;
+	&lt;li&gt;Exercise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to lifestyle changes you&apos;ll need to make after your surgery, your doctor may also recommend a cardiac rehabilitation program. Cardiac rehabilitation &amp;mdash; also called cardiac rehab &amp;mdash; is a customized program of exercise and education, designed to help you recover after a heart attack, from other forms of heart disease or after surgery to treat heart disease. Cardiac rehabilitation often begins while you&apos;re still in the hospital and continues with monitored programs in an outpatient setting until home-based maintenance programs can be safely followed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coronary bypass surgery
+	</Title>
+	<Abstract>
+		Coronary bypass surgery &amp;mdash; Overview covers risks and results of this open-heart surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,241 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00281
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hemodialysis/MY00281
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-11
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3785" Title="Kidneys and urinary system">
+						<Keyword MCVID="3788" Title="Hemodialysis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			90F35D04-E7FF-0DBD-1585584111C6DB49
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hemodialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				renal dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				renal failure
+			</MetaKeyword>
+			<MetaKeyword>
+				kidney failure
+			</MetaKeyword>
+			<MetaKeyword>
+				dialysis
+			</MetaKeyword>
+			<MetaKeyword>
+				end stage renal disease
+			</MetaKeyword>
+			<MetaKeyword>
+				ESRD
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In hemodialysis, a machine filters wastes, salts and fluid from your blood when your kidneys are no longer healthy enough to do this work. Hemodialysis is the most common way to treat advanced, permanent kidney failure. The procedure can help you carry on an active life despite failing kidneys.
+&lt;/p&gt;
+&lt;p&gt;
+Hemodialysis requires you to follow a strict treatment schedule, take medications regularly and, often, make changes in your diet.
+&lt;/p&gt;
+&lt;p&gt;
+Hemodialysis is a serious responsibility, but you don&apos;t have to shoulder it alone. You&apos;ll work closely with your health care team, which will include a kidney specialist and other professionals with experience managing hemodialysis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hemodialysis is usually needed when you have only 10 to 15 percent of your kidney function left. You may or may not have signs and symptoms of kidney failure (uremia), such as nausea, vomiting, swelling or fatigue. Hemodialysis can help take over your kidneys&apos; job by controlling your blood pressure and maintaining the proper balance of fluid and various chemicals &amp;mdash; such as potassium and sodium &amp;mdash; in your body. It can also help your body maintain the proper acid-base balance.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will help determine when you should start hemodialysis, based on several factors &amp;mdash; your overall health, kidney function (as measured by blood and urine tests), signs and symptoms, quality of life, and personal preferences. Normally, hemodialysis begins well before your kidneys have shut down to the point of causing life-threatening complications.
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of kidney failure include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;High blood pressure (hypertension)&lt;/li&gt;
+	&lt;li&gt;Kidney inflammation (glomerulonephritis)&lt;/li&gt;
+	&lt;li&gt;Blood vessel inflammation (vasculitis)&lt;/li&gt;
+	&lt;li&gt;Polycystic kidney disease (cysts in the kidney)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, your kidneys may shut down suddenly (acute kidney failure) after a severe injury, complicated surgery, heart attack or other serious problem.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who require hemodialysis have a variety of serious health problems. Hemodialysis prolongs life for many people, but life expectancy for people who need hemodialysis is still much less than that for the general population.
+&lt;/p&gt;
+&lt;p&gt;
+Complications can stem from hemodialysis or the underlying kidney disease. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood pressure (hypotension).&lt;/strong&gt; A drop in blood pressure is the most common side effect of hemodialysis, particularly if you have diabetes. Low blood pressure may be accompanied by shortness of breath, abdominal cramps, muscle cramps, nausea or vomiting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle cramps.&lt;/strong&gt; Although doctors don&apos;t know for sure what causes muscle cramps during hemodialysis, they are common. Sometimes the cramps can be eased by changing the frequency and intensity of hemodialysis. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Itching.&lt;/strong&gt; Many people who undergo hemodialysis have itchy skin, which is often worse during or just after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep problems.&lt;/strong&gt; People on hemodialysis often have trouble sleeping, sometimes because of breaks in breathing during sleep (sleep apnea) or because of aching, uncomfortable or restless legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; Anemia &amp;mdash; not having enough red blood cells in your bloodstream &amp;mdash; is a common complication of kidney failure and of hemodialysis. Failing kidneys reduce their production of a hormone called erythropoietin, which stimulates formation of red blood cells. Diet restrictions, poor absorption of iron, or removal of iron and vitamins by hemodialysis also can contribute to anemia. Blood loss from hemodialysis or routine blood sampling can have the same effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone diseases.&lt;/strong&gt; If your damaged kidneys are no longer able to normally use vitamin D to absorb calcium, your bones may weaken. In addition, overproduction of parathyroid hormone &amp;mdash; a common complication of kidney failure &amp;mdash; can strip calcium from your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure (hypertension).&lt;/strong&gt; High blood pressure is a leading cause of kidney failure. If you consume too much salt or drink too much fluid while being treated for kidney failure, your high blood pressure may get worse &amp;mdash; which can take a toll on your remaining kidney function. Left untreated, high blood pressure can lead to a heart attack or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid overload.&lt;/strong&gt; If you drink more fluids than recommended, you may retain enough fluid to cause life-threatening complications, such as heart failure or fluid accumulation and swelling in your lungs (pulmonary edema).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of the membrane surrounding the heart (pericarditis).&lt;/strong&gt; Insufficient hemodialysis can lead to inflammation of the membrane surrounding the heart, which can interfere with your heart&apos;s ability to pump blood to the rest of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High potassium levels (hyperkalemia).&lt;/strong&gt; The kidneys normally remove excess potassium from the body. If your kidneys are failing and you eat more potassium than recommended, your potassium level may become higher than normal. In extreme cases, too much potassium can cause your heart to stop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Potentially dangerous infections can occur at the site where blood leaves your body to be filtered and then re-enters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; Many people on hemodialysis experience depression and anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amyloidosis.&lt;/strong&gt; Dialysis-related amyloidosis (DRA) develops when proteins in blood are deposited on joints and tendons, causing pain, stiffness and fluid in the joints. The condition is common in people who have received hemodialysis for more than five years.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preparation for hemodialysis starts several weeks to months before your first procedure. To allow for easy access to your bloodstream, a surgeon will create a vascular access, usually referred to as an access. It is the place on the outside of your body where blood is removed for hemodialysis and then returned. The surgical access needs time to heal before you begin hemodialysis treatments.
+&lt;/p&gt;
+&lt;p&gt;
+Three types of accesses are used:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Arteriovenous (AV) fistula.&lt;/strong&gt; A surgically created AV fistula is a connection between an artery and a vein, usually in the forearm of your nondominant arm. This is the preferred type of access.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;AV graft.&lt;/strong&gt; If your blood vessels are too small to form an AV fistula, the surgeon may instead create a path between an artery and a vein using a flexible, synthetic tube called a graft, sometimes called a synthetic bridge graft.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Central venous catheter.&lt;/strong&gt; If you need emergency hemodialysis, the surgeon may insert a plastic tube (catheter) into a large vein in your neck or near your groin. The catheter is temporary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can receive hemodialysis in a dialysis center, at home or in a hospital. Many people get hemodialysis three times a week in sessions of three to five hours each. This is known as conventional hemodialysis. Daily hemodialysis involves more-frequent, but shorter sessions &amp;mdash; usually six or seven days a week for about two to three hours each time.
+&lt;/p&gt;
+&lt;p&gt;
+In recent years, smaller, simpler hemodialysis machines have made home hemodialysis less cumbersome, so that with special training and someone to help you, it&apos;s possible to do hemodialysis at home. Benefits include saving time on travel to and from the dialysis center and having more flexibility about when to do your treatments. You may even be able to do the procedure at night while you sleep.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Before the procedure&lt;/strong&gt;&lt;br /&gt;
+When you arrive at the dialysis center, a member of your health care team checks and records your weight, blood pressure, pulse and temperature. If you choose, you may be able to do this yourself. The skin covering your access site &amp;mdash; the point where blood leaves and then re-enters your body during treatment &amp;mdash; is cleansed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+During hemodialysis, two needles are inserted into your arm through the access and taped in place to remain secure. Each needle is attached to a flexible plastic tube that connects to a machine called a dialyzer. The dialyzer filters your blood a few ounces at a time, allowing wastes and extra fluids to pass from your blood into a cleansing fluid called dialysate. The filtered blood returns to your body through another needle.
+&lt;/p&gt;
+&lt;p&gt;
+During treatments, you sit or recline in a chair while your blood flows through the dialyzer. You can use the time to watch television, read, nap or make phone calls. If you receive hemodialysis at night, you can sleep during the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+Hemodialysis itself doesn&apos;t hurt. But you may experience nausea and abdominal cramps as excess fluid is pulled from your body &amp;mdash; especially if you undergo hemodialysis three times a week (conventional hemodialysis) rather than six or seven times a week (daily hemodialysis). If you&apos;re uncomfortable during the procedure, ask your care team about adjusting your medication or changing your diet or fluid intake to minimize side effects.
+&lt;/p&gt;
+&lt;p&gt;
+Because blood pressure and heart rate can fluctuate as excess fluid is drawn from your body, your blood pressure and heart rate will be checked several times during each treatment.
+&lt;/p&gt;
+&lt;p&gt;
+When hemodialysis is complete, the needles are removed from your access and a pressure dressing is applied to the site to prevent bleeding. Your weight may be recorded again. Then you&apos;re free to go about your usual activities until your next session.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you had sudden or acute kidney failure, you may need hemodialysis only for a short time until your kidneys recover. But most people with chronic kidney failure need hemodialysis for the rest of their lives unless they can get a kidney transplant.
+&lt;/p&gt;
+&lt;p&gt;
+Although conventional hemodialysis is more common, some studies suggest that more frequent hemodialysis is linked to better quality of life, increased well-being and reduced symptoms. Your appetite, sleeping patterns, energy level and ability to concentrate may improve, while symptoms such as cramping, headaches and shortness of breath are less likely.
+&lt;/p&gt;
+&lt;p&gt;
+Your hemodialysis care team will monitor your treatment to make sure you&apos;re getting the right amount of hemodialysis to remove enough wastes from your blood. About once a month, your blood will be tested by using one of two formulas &amp;mdash; urea reduction ratio (URR) or total urea clearance (Kt/V). Your care team may adjust your hemodialysis intensity and frequency based, in part, on the test results.
+&lt;/p&gt;
+&lt;p&gt;
+Your access blood flow will also be monitored at least once a month. This is done using sound waves (ultrasound) to measure the speed of blood flow during hemodialysis.
+&lt;/p&gt;
+&lt;p&gt;
+Eating the right foods can improve your hemodialysis results and your overall health. While you&apos;re receiving hemodialysis, you&apos;ll need to carefully monitor your intake of fluids, protein, sodium, potassium and phosphorus. A dietitian can help you develop an individualized meal plan based on your weight, your personal preferences, your remaining kidney function and other medical conditions, such as diabetes or high blood pressure.
+&lt;/p&gt;
+&lt;p&gt;
+Taking your medications as prescribed also is important for achieving the best possible results. While you&apos;re receiving hemodialysis, you&apos;ll need various medications to keep your body&apos;s fluid level and electrolytes, such as sodium and potassium, in balance. Your doctor also may prescribe blood thinners to prevent clots in the hemodialysis machine and tubing, blood pressure medication to control your blood pressure, and erythropoietin to stimulate your bone marrow to produce new red blood cells.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hemodialysis
+	</Title>
+	<Abstract>
+		Hemodialysis &amp;mdash; Overview covers definition, risks and results of this procedure to treat kidney failure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00792" LinkType="Internal" ObjectID="7A2092F4-CAAC-9E85-F82A8B86DC609667" Title="Kidney transplant" Url="http://www.mayoclinic.com/health/kidney-transplant/MY00792" />
+		<LinkItem ContentType="Answer" DocID="AN01564" LinkType="Internal" ObjectID="C68177A2-E7FF-0DBD-19F359B588970530" Title="Kidney dialysis: When is it time to stop?" Url="http://www.mayoclinic.com/health/kidney-dialysis/AN01564" />
+		<LinkItem ContentType="Disease" DocID="DS01171" LinkType="Internal" ObjectID="2DF614EE-BA86-90EF-169FE9CC88B19595" Title="Arteriovenous fistula" Url="http://www.mayoclinic.com/health/arteriovenous-fistula/DS01171" />
+	</RelatedLinksBox>
+</TestProcedure>

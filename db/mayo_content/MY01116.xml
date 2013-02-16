@@ -1,0 +1,264 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01116
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peak-flow-meter/MY01116
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-20
+		</UpdateDate>
+		<PublicationDate>
+			2010-02-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3357" Title="Manage condition self-monitoring" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3602" Title="Record health information" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3656" Title="Immune system">
+						<Keyword MCVID="3657" Title="Peak flow" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			99522BB0-EE31-5EFB-3A28FB65E94DFB17
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peak flow meter
+			</MetaKeyword>
+			<MetaKeyword>
+				peak flow monitoring
+			</MetaKeyword>
+			<MetaKeyword>
+				peak flow monitor
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma attack
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma flare up
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma plan
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma action plan
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma management
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A peak flow meter is a portable, easy-to-use device that measures how well your lungs are working. If you have asthma, your doctor may recommend that you use a peak flow meter to help track your asthma control. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to watching for worsening signs and symptoms, such as wheezing or coughing, you can use a peak flow meter to help you decide when you need to act to keep your asthma under control. Regular use of your peak flow meter can give you time to adjust your medication or take other steps before your symptoms get worse. A peak flow meter can be useful for adults and children as young as preschool age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A peak flow meter allows you to measure day-to-day changes in your breathing. Using a peak flow meter can help you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Track the control of your asthma over time&lt;/li&gt;
+	&lt;li&gt;Show how well your treatment is working&lt;/li&gt;
+	&lt;li&gt;Recognize signs of a flare-up before symptoms appear&lt;/li&gt;
+	&lt;li&gt;Know what steps to take when you have signs of an asthma flare-up&lt;/li&gt;
+	&lt;li&gt;Decide when to call your doctor or get emergency care&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Work with your doctor to make sure you get the right type of peak flow meter. Peak flow meters are available over-the-counter and can be purchased at a pharmacy. There are several types of peak flow meters available, and all of them work basically the same way: You blow a fast, hard breath into a mouthpiece and record the resulting score. However, there are a few differences. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Meters designed for young children have a lower scale than do those designed for older children, teens and adults. Some peak flow meters can be adjusted to work for either a young child or an older child, teen or adult.&lt;/li&gt;
+	&lt;li&gt;Basic peak flow meters are inexpensive, simple to use and give accurate readings that you must record in a peak flow diary.&lt;/li&gt;
+	&lt;li&gt;More expensive electronic peak flow meters record and track peak flow readings automatically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Using your peak flow meter&lt;/strong&gt;&lt;br /&gt;
+Here&apos;s the correct way to use a peak flow meter: 
+&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Move the marker to the bottom of the numbered scale, and connect the mouthpiece to the peak flow meter (if it isn&apos;t already connected).&lt;/li&gt;
+	&lt;li&gt;Stand up if you&apos;re able.&lt;/li&gt;
+	&lt;li&gt;Take a deep breath, filling your lungs completely.&lt;/li&gt;
+	&lt;li&gt;Place your lips tightly around the mouthpiece. Blow as hard and as fast as you can with a single breath.&lt;/li&gt;
+	&lt;li&gt;Note the final position of the marker. This is your peak flow rate.&lt;/li&gt;
+	&lt;li&gt;Follow the steps above then blow into the peak flow meter two more times. Record the highest reading of the three.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+To get accurate readings, make sure you know how to use your peak flow meter properly. Ask your doctor or other health care provider to watch you use it. It&apos;s also important to keep your peak flow meter clean. Follow the manufacturer&apos;s instructions &amp;mdash; most peak flow meters require weekly cleaning with warm water and a mild detergent. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To start, your doctor will want to get an idea of your peak flow measurements when you feel good and have no asthma symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Measurements from a peak flow meter are called your peak flow rate. You&apos;ll record your daily peak flow rate over a two- to three-week period. Your highest peak flow rate over this period is known as your &quot;personal best.&quot; Your personal best serves as a benchmark in your daily asthma management plan. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to check your peak flow&lt;/strong&gt;&lt;br /&gt;
+Your doctor will probably recommend using your peak flow meter once a day &amp;mdash; typically before you take your regular asthma medication in the morning. 
+&lt;/p&gt;
+&lt;p&gt;
+If your asthma is under control most of the time, your doctor may say it&apos;s OK to check your peak flow every few days instead of every day. If your asthma isn&apos;t very well controlled, you may need to take peak flow readings more than once a day. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition to regular peak flow monitoring, you may need to check your peak flow in these situations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have asthma symptoms that wake you up at night.&lt;/li&gt;
+	&lt;li&gt;You have increased symptoms during the day.&lt;/li&gt;
+	&lt;li&gt;You have a cold, flu or other illness that affects your breathing.&lt;/li&gt;
+	&lt;li&gt;You need to use quick-relief (rescue) medication, such as inhaled albuterol. (Check your peak flow before you take rescue medication. Then check it again after 20 or 30 minutes.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tracking your readings&lt;/strong&gt;&lt;br /&gt;
+Record your peak flow rate in an asthma diary. Some people record their peak flow meter readings by hand. But if you have an electronic personal health record, you may choose to enter your information into the record using a computer or mobile device. This gives you the option of sharing your data with your health care providers and family members. Some peak flow meters upload this data automatically. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once you and your doctor have established your peak flow zones, you&apos;ll use a color-coded system based on your symptoms and your peak flow. This system tells you what to do when you are in each zone. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Green, yellow and red: Understanding your peak flow zones&lt;/strong&gt;&lt;br /&gt;
+Your doctor will use your personal best to set your peak flow zones. Each zone is determined by your peak flow rate and symptoms. The color code for each zone reflects progressively more-severe symptoms: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Green zone = stable&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your peak flow rate is 80 to 100 percent of your personal best, an indication that your asthma is under control.&lt;/li&gt;
+	&lt;li&gt;You probably have no asthma signs or symptoms.&lt;/li&gt;
+	&lt;li&gt;Take your preventive medications as usual.&lt;/li&gt;
+	&lt;li&gt;If you consistently stay within the green zone, your doctor may recommend reducing your asthma medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Yellow zone = caution&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your peak flow rate is 50 to 80 percent of your personal best, an indication that your asthma is getting worse.&lt;/li&gt;
+	&lt;li&gt;You may have signs and symptoms such as coughing, wheezing or chest tightness - but your peak flow rates may decrease before symptoms appear.&lt;/li&gt;
+	&lt;li&gt;You may need to increase or change your asthma medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Red zone = danger&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your peak flow rate is less than 50 percent of your personal best, an indication of a medical emergency.&lt;/li&gt;
+	&lt;li&gt;You may have severe coughing, wheezing and shortness of breath. Stop whatever you&apos;re doing and use a bronchodilator or other medication to open your airways.&lt;/li&gt;
+	&lt;li&gt;Your asthma action plan will help you decide whether to call your doctor, take an oral corticosteroid or seek emergency care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Peak flow: Just one tool for asthma control&lt;/strong&gt;&lt;br /&gt;
+Using a peak flow meter can be an effective tool for managing your asthma &amp;mdash; but there are other things you need to do: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use an asthma action plan.&lt;/strong&gt; An action plan is a simple but important part of managing your asthma. It helps you keep track of which medications to take, when to take them and what doses you need, based on whether you&apos;re in your green, yellow or red zone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meet with your doctor.&lt;/strong&gt; Even if your asthma&apos;s under control, meet with your doctor on a regular basis to review your action plan and revise it as needed. Asthma symptoms change over time, which means your treatment may need to change, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid your triggers.&lt;/strong&gt; Pay attention to things that trigger your asthma symptoms or make them worse and try to avoid them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make healthy choices.&lt;/strong&gt; Taking steps to stay healthy &amp;mdash; for example, maintaining a healthy weight, getting regular exercise and not smoking &amp;mdash; can make a big difference in reducing your asthma symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peak flow meter
+	</Title>
+	<Abstract>
+		Peak flow meter &amp;mdash; Overview covers how to use this simple tool to monitor asthma symptoms.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+		<LinkItem ContentType="Disease" DocID="DS00849" LinkType="Internal" ObjectID="ADB05F4D-E7FF-0DBD-1C0A6384E4958FE4" Title="Childhood asthma" Url="http://www.mayoclinic.com/health/childhood-asthma/DS00849" />
+		<LinkItem ContentType="Disease" DocID="DS00591" LinkType="Internal" ObjectID="529C436E-FEDC-4FC4-93054B9FDD7807E8" Title="Occupational asthma" Url="http://www.mayoclinic.com/health/occupational-asthma/DS00591" />
+		<LinkItem ContentType="Disease" DocID="DS01040" LinkType="Internal" ObjectID="2949DF65-E7FF-0DBD-1DB069687A6BC955" Title="Exercise-induced asthma" Url="http://www.mayoclinic.com/health/exercise-induced-asthma/DS01040" />
+		<LinkItem ContentType="Disease" DocID="DS01068" LinkType="Internal" ObjectID="18D5EF86-E7FF-0DBD-16B27CEA551E5776" Title="Asthma attack" Url="http://www.mayoclinic.com/health/asthma-attack/DS01068" />
+	</RelatedLinksBox>
+</TestProcedure>

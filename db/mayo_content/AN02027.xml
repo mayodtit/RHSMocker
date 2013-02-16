@@ -1,0 +1,142 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02027
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/spider-veins/AN02027
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-17
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="1484" Title="Varicose veins" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			85A23D4D-AFC4-2E92-1BDC2D57231B3D54
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spider veins
+			</MetaKeyword>
+			<MetaKeyword>
+				spider vein removal
+			</MetaKeyword>
+			<MetaKeyword>
+				spider vein treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				telangiectasias
+			</MetaKeyword>
+			<MetaKeyword>
+				varicose veins
+			</MetaKeyword>
+			<MetaKeyword>
+				sclerotherapy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Several options are available to remove spider veins &amp;mdash; thin red lines or web-like networks of blood vessels that appear on your legs and feet. 
+&lt;/p&gt;
+&lt;p&gt;
+Spider veins are usually harmless, though they can sometimes cause aching, burning or pain, especially when standing or sitting for long periods of time. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience symptoms or are concerned about the appearance of spider veins, treatment options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sclerotherapy.&lt;/strong&gt; In this procedure, your doctor injects the veins with a solution that scars and closes those veins, causing the blood to reroute through healthier veins. In a few weeks, treated spider veins fade. Although the same vein may need to be injected more than once, sclerotherapy is usually effective if done correctly. Sclerotherapy doesn&apos;t require anesthesia and can be done in your doctor&apos;s office. Side effects include swelling, itching and skin color changes in the treated area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Laser surgery.&lt;/strong&gt; Laser surgery works by sending strong bursts of light into the vein that make the vein slowly fade and disappear. No incisions or needles are used. The treatment is often less effective than sclerotherapy and can have side effects, including redness, bruising, itching and swelling in the treated area. Complications of laser surgery include blistering of the skin. When the blisters heal, they can leave permanent scars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After treatment, blood vessels gradually fade over several months, but they may not disappear completely. Also, new spider veins can develop in the same area that could warrant additional treatments. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of spider veins
+" Caption="Spider veins appear as thin, red lines or as web-like networks of blood vessels on the surface of the skin. Spider veins, a mild form of varicose veins, typically appear on the legs and feet. 
+" Height="60" Title="Spider veins" URI="/images/image_popup/thumbs/mcdc7_spider_veinsthu.jpg" Width="60" />
+				<Image Alt="Image of spider veins
+" Caption="Spider veins appear as thin, red lines or as web-like networks of blood vessels on the surface of the skin. Spider veins, a mild form of varicose veins, typically appear on the legs and feet. 
+" Height="324" Title="Spider veins" URI="/images/image_popup/mcdc7_spider_veins.jpg" Width="400" />
+				<HTML>
+					Spider veins appear as thin, red lines or as web-like networks of blood vessels on the surface of the skin. Spider veins, a mild form of varicose veins, typically appear on the legs and feet. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Spider veins: How are they removed?
+	</Title>
+	<Abstract>
+		Spider veins &amp;mdash; Options are available to remove this mild form of varicose veins.
+	</Abstract>
+	<Question>
+		I have spider veins on my legs. What options are available to remove them?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01302" LinkType="Internal" ObjectID="5073DC55-B11F-BC6D-89214315B39C113C" Title="Sclerotherapy" Url="http://www.mayoclinic.com/health/sclerotherapy/MY01302" />
+		<LinkItem ContentType="Article" DocID="PR00009" LinkType="Internal" ObjectID="9C045F97-F0AF-462C-A4714BA8E2C38767" Title="Third trimester pregnancy: What to expect" Url="http://www.mayoclinic.com/health/pregnancy/PR00009" />
+		<LinkItem ContentType="Video" DocID="MM00798" LinkType="Internal" ObjectID="1B27921C-C8B2-11D1-6D27E09B0C54554C" Title="Video: Endovenous thermal ablation" Url="http://www.mayoclinic.com/health/endovenous-thermal-ablation/MM00798" />
+		<LinkItem ContentType="Disease" DocID="DS00256" LinkType="Internal" ObjectID="A319313A-D75E-4E61-AC71435EC2C152BD" Title="Varicose veins" Url="http://www.mayoclinic.com/health/varicose-veins/DS00256" />
+	</RelatedLinksBox>
+</Answer>

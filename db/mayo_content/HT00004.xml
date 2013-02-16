@@ -1,0 +1,68 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00004
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00004
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			76F5BA8D-E7FF-0DBD-1AB4B9FDFCE94C67
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				exercise
+			</MetaKeyword>
+			<MetaKeyword>
+				fitness
+			</MetaKeyword>
+			<MetaKeyword>
+				physical activity
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Too sick to exercise?
+	</Title>
+	<Body>
+		&lt;p&gt;Exercise is usually OK if your signs and symptoms are all above the neck, such as when you have a common cold. Symptoms may include a runny nose, nasal congestion, sneezing or minor sore throat. Consider reducing the intensity and length of your workout, though, or you may feel worse. If your symptoms are below the neck, such as chest congestion or tightness, hacking cough, or upset stomach, delay your workout. Don&apos;t exercise if you have a fever, fatigue or widespread muscle aches.&lt;/p&gt;
+	</Body>
+</HealthTip>

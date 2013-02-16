@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00718
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/morphea/DS00718
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-05
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2874" Title="Morphea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F076C0F7-2A5D-9994-EDC42FD21DDFDFC7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				morphea
+			</MetaKeyword>
+			<MetaKeyword>
+				localized scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				scleroderma
+			</MetaKeyword>
+			<MetaKeyword>
+				patchy skin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morphea (mor-FEE-uh) is a rare skin condition that causes reddish or purplish patches on your skin. Morphea is a localized or limited form of scleroderma, a condition that can cause a wide variety of problems, from skin discoloration to difficulty with the function of joints and muscles and other connective tissues.
+&lt;/p&gt;
+&lt;p&gt;
+Morphea typically appears on your abdomen, chest or back, but it can affect your face, arms and legs. Morphea tends to affect only the outermost layers of your skin &amp;mdash; the dermis and the fatty tissue just beneath the dermis. Sometimes, morphea can restrict movement in your joints. 
+&lt;/p&gt;
+&lt;p&gt;
+Morphea generally subsides on its own over time. With morphea, you may be concerned about your appearance. Your doctor may recommend medications and other treatments to help with your appearance and other symptoms of morphea.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing morphea 
+" Caption="Morphea is a rare skin condition characterized by small red or purple patches that develop firm, white or ivory centers. The affected skin becomes tight and less flexible. 
+" Height="60" Title="Morphea" URI="/images/image_popup/thumbs/ans7_morpheathu.jpg" Width="60" />
+				<Image Alt="Photograph showing morphea 
+" Caption="Morphea is a rare skin condition characterized by small red or purple patches that develop firm, white or ivory centers. The affected skin becomes tight and less flexible. 
+" Height="400" Title="Morphea" URI="/images/image_popup/ans7_morphea.jpg" Width="400" />
+				<HTML>
+					Morphea is a rare skin condition characterized by small red or purple patches that develop firm, white or ivory centers. The affected skin becomes tight and less flexible. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morphea is a form of scleroderma, a term that literally means &quot;hard skin.&quot; Signs of morphea include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hardening&lt;/strong&gt; &lt;strong&gt;and thickening&lt;/strong&gt; of the skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discoloration&lt;/strong&gt; of the affected skin to look lighter or darker than the surrounding area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oval-shaped patches&lt;/strong&gt; that may change colors and gradually develop a whitish center.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Linear patches, &lt;/strong&gt;especially when on arms and legs&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loss of hair and sweat glands&lt;/strong&gt; in the affected area over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Morphea usually affects only the uppermost layers of your skin (the dermis and the superficial fatty tissue beneath the dermis). In some cases, morphea may involve the deeper fatty tissue or the connective tissue (fascia or muscle) below your skin. The condition generally lasts several years and then disappears on its own. However, it usually leaves patches of darkened or discolored skin.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you notice patches of discoloring, hardening or thickening skin, see your doctor. Early diagnosis and treatment may help slow the development of new patches, and allow your doctor to identify and treat complications before they worsen.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing morphea 
+" Caption="Morphea is a rare skin condition characterized by small red or purple patches that develop firm, white or ivory centers. The affected skin becomes tight and less flexible. 
+" Height="60" Title="Morphea" URI="/images/image_popup/thumbs/ans7_morpheathu.jpg" Width="60" />
+				<Image Alt="Photograph showing morphea 
+" Caption="Morphea is a rare skin condition characterized by small red or purple patches that develop firm, white or ivory centers. The affected skin becomes tight and less flexible. 
+" Height="400" Title="Morphea" URI="/images/image_popup/ans7_morphea.jpg" Width="400" />
+				<HTML>
+					Morphea is a rare skin condition characterized by small red or purple patches that develop firm, white or ivory centers. The affected skin becomes tight and less flexible. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of morphea is unknown, though doctors do know it&apos;s not contagious. It&apos;s believed that an unusual reaction of the immune system plays a role in the development of this condition.
+&lt;/p&gt;
+&lt;p&gt;
+The onset of morphea may be related to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Radiation therapy&lt;/li&gt;
+	&lt;li&gt;Repeated trauma to the affected area&lt;/li&gt;
+	&lt;li&gt;A recent infection, such as measles or chickenpox&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because the cause of morphea is unknown, it&apos;s difficult to pinpoint who may be at a higher risk. However, there are several known factors that may increase your risk of developing morphea, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Morphea is more common in women than in men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Whites and people of Asian descent are more likely to develop morphea than are blacks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morphea can cause a number of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Self-esteem issues.&lt;/strong&gt; Morphea can have a negative effect on your self-esteem and body image, particularly if discolored patches of skin appear on your arms, legs or face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Movement problems.&lt;/strong&gt; Morphea that affects the arms and legs can impair joint mobility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Widespread areas of hardened, discolored skin.&lt;/strong&gt; Numerous new patches of hard, discolored skin may seem to join together, a condition known as generalized morphea. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your primary care physician. However, he or she may then refer you to a doctor who specializes in skin disorders (dermatologist). You also may be referred to a doctor who specializes in diseases of the joints, bones and muscles (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you cover all of the points that are important to you. For morphea, some basic questions you might want to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How long will these skin changes last?&lt;/li&gt;
+	&lt;li&gt;If the skin discoloration and hardening clears up, will it ever come back?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;What can I do to improve my appearance?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed materials I can have? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other relevant questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice changes in your skin?&lt;/li&gt;
+	&lt;li&gt;Has this ever happened before?&lt;/li&gt;
+	&lt;li&gt;Do the changes come and go or are they constant?&lt;/li&gt;
+	&lt;li&gt;Have you tried to treat this condition yourself? If so, did it help?&lt;/li&gt;
+	&lt;li&gt;Have you ever been treated by a doctor for this condition?&lt;/li&gt;
+	&lt;li&gt;If so, what were the treatments and did they help?&lt;/li&gt;
+	&lt;li&gt;Have you had any difficulty chewing food or swallowing?&lt;/li&gt;
+	&lt;li&gt;Have you experienced extreme cold sensitivity in your fingers or toes?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any other changes in your general health?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A doctor may confirm a diagnosis of morphea based on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; Discoloration combined with skin firmness is a good indicator of morphea. After inspecting your skin and discussing other signs and symptoms you may have, your doctor may recommend taking a tissue sample for analysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue sample.&lt;/strong&gt; Your doctor may remove a small tissue sample (biopsy) of your affected skin to be examined in the laboratory for abnormalities that allow for diagnosis, such as thickening of the collagen in the second layer of skin (dermis). Collagen is a protein that makes up your connective tissues, including your skin. It helps make your skin elastic and resilient.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morphea has no known cure. Treatment of morphea focuses on controlling signs and symptoms and slowing spread.
+&lt;/p&gt;
+&lt;p&gt;
+Because morphea may get better on its own without treatment, because most treatments have side effects and because morphea has no one proven treatment, your doctor may suggest no treatment or treatment with a mild topical corticosteroid cream. In some cases, your doctor may recommend additional treatments. It&apos;s important for you to weigh the risks and benefits. Treatments may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Light therapy.&lt;/strong&gt; A special treatment that uses ultraviolet light may improve your skin&apos;s appearance, especially when used soon after skin changes appear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Your doctor may prescribe these medications early in the course of treatment to reduce inflammation and prevent thickening of the collagen. They can be taken either orally or topically or in both forms. An increased risk of infection, high blood pressure, bone loss and fluid retention are possible side effects associated with the use of oral corticosteroids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcipotriene cream.&lt;/strong&gt; This prescription cream is a synthetic form of vitamin D that may help lessen the effects of morphea. Skin generally begins to improve during the first months of treatment. Possible side effects include burning, stinging and a rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antimalarial drugs.&lt;/strong&gt; Medications such as hydroxychloroquine (Plaquenil) or chloroquine (Aralen phosphate) may be used to help reduce inflammation and slow the progress of the disease. Potential side effects may include headache, dizziness, diarrhea and abdominal cramping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressive medications.&lt;/strong&gt; Your doctor may prescribe drugs, such as methotrexate (Rheumatrex, Trexall) or cyclosporine (Neoral, Gengraf, Sandimmune), to control your immune system and reduce inflammation. However, these medications can have serious side effects, including an increased risk of infections, kidney and liver problems, and high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; This type of treatment uses stretching, strengthening and range-of-motion exercises to improve the mobility of your joints.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because morphea dries out the affected skin, moisturizers may help soften and improve the feel of your skin. It&apos;s a good idea to avoid long, hot showers or baths, as these can dry your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have morphea in more-visible locations, makeup and other topical treatments may help to hide the condition and make your skin appear more natural. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Para-aminobenzoic acid (PABA) is an oral medication that has been used to treat morphea and scleroderma. However, it hasn&apos;t been proved to reduce skin symptoms in clinical trials. If you&apos;re interested in trying PABA, discuss its proper use with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because morphea affects your appearance, it can be an especially difficult condition to live with. In addition, you may also be concerned that it will get worse. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about treatments that may help lessen your symptoms, a referral to a mental health professional if you want counseling, or contact information for a scleroderma or morphea support group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Morphea
+	</Title>
+	<Abstract>
+		Morphea &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

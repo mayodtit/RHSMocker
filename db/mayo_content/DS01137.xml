@@ -1,0 +1,286 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01137
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/horner-syndrome/DS01137
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2325" Title="Autonomic">
+						<Keyword MCVID="2328" Title="Horner syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			60FD8FAA-BCB1-0B48-C93C339536031869
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Horner syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Horner&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				horners syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				sympathetic nerve fibers
+			</MetaKeyword>
+			<MetaKeyword>
+				sympathetic nerve damage
+			</MetaKeyword>
+			<MetaKeyword>
+				ptosis
+			</MetaKeyword>
+			<MetaKeyword>
+				anhidrosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Horner syndrome is a rare disorder that occurs when certain nerves that travel from your brain to your eyes and face are damaged. 
+&lt;/p&gt;
+&lt;p&gt;
+Horner syndrome isn&apos;t a disease itself. Rather, it&apos;s a sign of another medical problem &amp;mdash; such as a stroke, tumor or spinal cord injury. In some cases, however, no underlying cause can be found. 
+&lt;/p&gt;
+&lt;p&gt;
+Horner syndrome usually affects only one side of your face. Typical symptoms of Horner syndrome include a drooping eyelid, decreased pupil size and decreased sweating on the affected side of your face. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no specific treatment for Horner syndrome. Instead, treatment is directed at the underlying cause, when possible. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Horner syndrome symptoms 
+" Caption="A drooping eyelid and decreased eye pupil size are key signs of Horner syndrome. 
+" Height="60" Title="Horner syndrome symptoms" URI="/images/image_popup/thumbs/bn7_hornerthu.jpg" Width="60" />
+				<Image Alt="Image showing Horner syndrome symptoms 
+" Caption="A drooping eyelid and decreased eye pupil size are key signs of Horner syndrome. 
+" Height="150" Title="Horner syndrome symptoms" URI="/images/image_popup/bn7_horner.jpg" Width="400" />
+				<HTML>
+					A drooping eyelid and decreased eye pupil size are key signs of Horner syndrome. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of Horner syndrome usually occur on one side of your face and typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drooping of your upper eyelid (ptosis) and slight elevation of the lower lid&lt;/li&gt;
+	&lt;li&gt;Decreased pupil size in your affected eye (miosis)&lt;/li&gt;
+	&lt;li&gt;Decreased or absent sweating on the affected side of your face (anhidrosis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, a baby may be born with Horner syndrome. In these cases, the iris in the affected eye may be lighter in color than the other eye. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you notice any signs or symptoms associated with Horner syndrome, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing Horner syndrome symptoms 
+" Caption="A drooping eyelid and decreased eye pupil size are key signs of Horner syndrome. 
+" Height="60" Title="Horner syndrome symptoms" URI="/images/image_popup/thumbs/bn7_hornerthu.jpg" Width="60" />
+				<Image Alt="Image showing Horner syndrome symptoms 
+" Caption="A drooping eyelid and decreased eye pupil size are key signs of Horner syndrome. 
+" Height="150" Title="Horner syndrome symptoms" URI="/images/image_popup/bn7_horner.jpg" Width="400" />
+				<HTML>
+					A drooping eyelid and decreased eye pupil size are key signs of Horner syndrome. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Horner syndrome is caused by damage to the sympathetic nerves of your face and eyes. Sympathetic nerves control your body&apos;s circulation and sweating. Depending on where the nerves are damaged, Horner syndrome is often classified in two groups. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Central&lt;br /&gt;
+&lt;/strong&gt;Sympathetic nerves in your face start in an area of your brain known as the hypothalamus, travel through the brainstem and then down your spinal cord to enter your chest. This is the first half of their &quot;route.&quot; Possible causes of nerve damage in this area are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stroke (usually a cerebral infarction or most commonly a brainstem location)&lt;/li&gt;
+	&lt;li&gt;Tumor&lt;/li&gt;
+	&lt;li&gt;Syringomyelia &amp;mdash; a condition in which a fluid-filled cyst (syrinx) develops within your spinal cord&lt;/li&gt;
+	&lt;li&gt;Cluster headaches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Peripheral&lt;br /&gt;
+&lt;/strong&gt;From your chest, your sympathetic nerves go back up your neck, next to the main arteries that deliver blood to your head (carotid arteries), into your skull and then to your eyes. Nerve damage in this area may be caused by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spinal cord injury&lt;/li&gt;
+	&lt;li&gt;A tear in the inner lining of one of your carotid arteries (carotid artery dissection)&lt;/li&gt;
+	&lt;li&gt;An injury to a baby during birth&lt;/li&gt;
+	&lt;li&gt;Lung cancer in the apex of the lung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although Horner syndrome may be a sign of one of these conditions, in some situations, a specific cause can&apos;t be found. This is known as idiopathic Horner syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. However, in some cases when you call to set up an appointment, you may be referred to a neuro-ophthalmologist or a neurologist &amp;mdash; a doctor who specializes in nervous system disorders, including diseases of the brain, spinal cord, nerves and muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well-prepared for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes and any past injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications&lt;/strong&gt;, vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For Horner syndrome some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on later. Be as specific as you can when answering. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Avoid doing anything that seems to worsen your symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose Horner syndrome, your doctor will start by asking about your medical history and doing a complete physical examination. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pupil dilation test&lt;br /&gt;
+&lt;/strong&gt;If you have Horner syndrome, your pupil will open (dilate) slower than normal. Your doctor may evaluate this by placing drops of medication in your eye that force your pupil to dilate. The way the pupil responds to the eye drops will help confirm or deny a diagnosis of Horner syndrome. If Horner syndrome is confirmed, such testing may help determine where the location of the problem in the sympathetic pathway is located. This testing is often done by an eye doctor (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up tests&lt;/strong&gt;&lt;br /&gt;
+A physical exam and pupil dilation test can confirm a diagnosis of Horner syndrome. However, to find the underlying cause of Horner syndrome you&apos;ll likely need other tests. Depending on your situation, these may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays&lt;/strong&gt; of your chest to look for a tumor or other condition that may be affecting the sympathetic nerves of your face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI)&lt;/strong&gt; of your head, neck and chest to identify tumors, signs of stroke, carotid artery dissection and other conditions that may affect the sympathetic nerves of your face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests or urine tests.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific treatment for Horner syndrome. Treatment depends on the cause. Often, Horner syndrome disappears when an underlying medical condition is effectively treated. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having difficulty seeing out of the affected eye, your doctor may recommend that you be monitored by an eye doctor (ophthalmologist).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Horner syndrome
+	</Title>
+	<Abstract>
+		Horner syndrome &amp;mdash; Comprehensive overview covers symptoms, causes, diagnosis and treatment of this nerve disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="Disease" DocID="DS00460" LinkType="Internal" ObjectID="FF176B51-D345-4049-99F4E7BC2B3E4A27" Title="Spinal cord injury" Url="http://www.mayoclinic.com/health/spinal-cord-injury/DS00460" />
+		<LinkItem ContentType="Disease" DocID="DS01050" LinkType="Internal" ObjectID="D8F4DB1E-E7FF-0DBD-115C46F3A1453403" Title="Anhidrosis" Url="http://www.mayoclinic.com/health/anhidrosis/DS01050" />
+		<LinkItem ContentType="Disease" DocID="DS01127" LinkType="Internal" ObjectID="D48D7991-E7FF-0DBD-1E69E380D7ABA784" Title="Syringomyelia" Url="http://www.mayoclinic.com/health/syringomyelia/DS01127" />
+		<LinkItem ContentType="Disease" DocID="DS00908" LinkType="Internal" ObjectID="4EE036B3-E7FF-0DBD-167342B2B733641F" Title="Migraine with aura" Url="http://www.mayoclinic.com/health/migraine-with-aura/DS00908" />
+		<LinkItem ContentType="Disease" DocID="DS00487" LinkType="Internal" ObjectID="3F01D91A-F0EA-4C61-8D6B266A80EA7586" Title="Cluster headache" Url="http://www.mayoclinic.com/health/cluster-headache/DS00487" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,115 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00461
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tilted-uterus/AN00461
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2003-01-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2049" Title="Uterus">
+						<Keyword MCVID="2408" Title="Tilted uterus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			20334091-273F-4DC3-B43F5BF51DC6EEBF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tilted uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				tipped uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				retroflexed uterus
+			</MetaKeyword>
+			<MetaKeyword>
+				retroverted uterus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+A tilted uterus, also called a tipped uterus or retroverted uterus, is a normal anatomical variation. It shouldn&apos;t interfere with your ability to conceive.
+&lt;/p&gt;
+&lt;p&gt;
+In most women, the uterus tips forward at the cervix. About one in four women, however, have a uterus that leans backward, or tilts, at the cervix. In the past, it was thought that a tilted uterus may contribute to infertility. But experts now know that the position of the uterus doesn&apos;t affect the ability of sperm to reach an egg.
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, a sharply tilted uterus may be due to a disease such as endometriosis. In this case, endometriosis &amp;mdash; not the position of the uterus &amp;mdash; may be a cause of infertility.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a tilted uterus
+" Caption="Normally, your uterus tips forward at the cervix. A tilted uterus, also called a tipped uterus, tips backward at the cervix instead of forward. It&apos;s typically considered a normal anatomical variation.
+" Height="60" Title="Tipped uterus" URI="/images/image_popup/thumbs/ans7_tipped_uterusthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a tilted uterus
+" Caption="Normally, your uterus tips forward at the cervix. A tilted uterus, also called a tipped uterus, tips backward at the cervix instead of forward. It&apos;s typically considered a normal anatomical variation.
+" Height="225" Title="Tipped (tilted) uterus" URI="/images/image_popup/ans7_tipped_uterus.jpg" Width="400" />
+				<HTML>
+					Normally, your uterus tips forward at the cervix. A tilted uterus, also called a tipped uterus, tips backward at the cervix instead of forward. It&apos;s typically considered a normal anatomical variation....
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Tilted uterus: Can it lead to infertility?
+	</Title>
+	<Abstract>
+		In the past, it was thought that a tilted uterus may contribute to infertility.
+	</Abstract>
+	<Question>
+		Does having a tilted uterus make it more difficult to conceive?
+	</Question>
+	<QuestionFirstName>
+		Suzanne
+	</QuestionFirstName>
+	<QuestionState>
+		Kentucky
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

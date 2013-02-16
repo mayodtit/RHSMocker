@@ -1,0 +1,100 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01944
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shingles-treatment/AN01944
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-04
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2370" Title="Shingles" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A0758334-E7FF-0DBD-118EB9FDD2AC05AC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shingles
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Shingles (herpes zoster) is a viral infection that causes a painful rash. An episode of shingles usually heals on its own within a few weeks. However, prompt shingles treatment &amp;mdash; often including an antiviral drug such as acyclovir (Zovirax), famciclovir (Famvir) or valacyclovir (Valtrex) &amp;mdash; can ease pain, speed healing and reduce the risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, it&apos;s best to avoid alcohol during the course of shingles treatment. Although alcohol warnings aren&apos;t specifically listed in the product labels for the antiviral drugs most often used to treat shingles, it&apos;s usually best to avoid mixing alcohol and medication. Alcohol can reduce the effectiveness of certain medications, as well as increase the risk of side effects, such as dizziness, especially in older adults. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shingles treatment: Does alcohol use affect therapy?
+	</Title>
+	<Abstract>
+		Generally, it&apos;s best to avoid alcohol during the course of shingles treatment.
+	</Abstract>
+	<Question>
+		Does moderate alcohol use interfere with shingles treatment?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00878" LinkType="Internal" ObjectID="8A3A9C5C-E7FF-0DBD-1636E971D3607AFD" Title="Ramsay Hunt syndrome" Url="http://www.mayoclinic.com/health/ramsay-hunt-syndrome/DS00878" />
+		<LinkItem ContentType="Disease" DocID="DS00277" LinkType="Internal" ObjectID="65A60A8A-0189-4BF0-BECFCC731699401B" Title="Postherpetic neuralgia" Url="http://www.mayoclinic.com/health/postherpetic-neuralgia/DS00277" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Answer" DocID="AN01806" LinkType="Internal" ObjectID="E642BDDB-E7FF-0DBD-1CFC3EA0A653AB8C" Title="Shingles vaccine: Can I transmit the vaccine virus to others?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01806" />
+		<LinkItem ContentType="Answer" DocID="AN01738" LinkType="Internal" ObjectID="B48D8752-E7FF-0DBD-122DC8DD080D9C86" Title="Shingles vaccine: Should I get it?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01738" />
+		<LinkItem ContentType="Disease" DocID="DS00098" LinkType="Internal" ObjectID="0B91C597-DAAE-4416-9ED6314A6B5F5A20" Title="Shingles" Url="http://www.mayoclinic.com/health/shingles/DS00098" />
+	</RelatedLinksBox>
+</Answer>

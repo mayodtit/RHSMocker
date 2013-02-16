@@ -1,0 +1,324 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01126
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brain-avm/DS01126
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="3013" Title="Arteriovenous malformation" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D487FFC9-E7FF-0DBD-1CFDE78AA303B7E9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				brain AVM
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriovenous malformation
+			</MetaKeyword>
+			<MetaKeyword>
+				arteriovenous malformations
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebral AVM
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebral arteriovenous malformation
+			</MetaKeyword>
+			<MetaKeyword>
+				brain hemorrhage
+			</MetaKeyword>
+			<MetaKeyword>
+				bleeding in brain
+			</MetaKeyword>
+			<MetaKeyword>
+				brain aneurysm
+			</MetaKeyword>
+			<MetaKeyword>
+				brain damage
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain AVM (arteriovenous malformation) is an abnormal connection between arteries and veins. An AVM is typically congenital, meaning it dates to birth. An AVM can develop anywhere in your body but occurs most often in the brain or spine. A brain AVM, which appears as a tangle of abnormal arteries and veins, can occur in any part of your brain. The cause isn&apos;t clear. 
+&lt;/p&gt;
+&lt;p&gt;
+You may not know you have a brain AVM until you experience symptoms, such as headaches or a seizure. In serious cases, the blood vessels rupture, causing bleeding in the brain (hemorrhage). Once diagnosed, a brain AVM can often be treated successfully. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a brain AVM 
+" Caption="The shaded area in this image shows a brain AVM (arteriovenous malformation) &amp;mdash; which appears as a tangle of normal-sized and dilated blood vessels. In a brain AVM, blood passes directly from your arteries to your veins via abnormal vessels. This disrupts the normal process of how blood circulates through your brain. 
+" Height="60" Title="Brain AVM" URI="/images/image_popup/thumbs/ans7_avmthu.jpg" Width="60" />
+				<Image Alt="Image of a brain AVM 
+" Caption="The shaded area in this image shows a brain AVM (arteriovenous malformation) &amp;mdash; which appears as a tangle of normal-sized and dilated blood vessels. In a brain AVM, blood passes directly from your arteries to your veins via abnormal vessels. This disrupts the normal process of how blood circulates through your brain. 
+" Height="367" Title="Brain AVM" URI="/images/image_popup/ans7_avm.jpg" Width="400" />
+				<HTML>
+					The shaded area in this image shows a brain AVM (arteriovenous malformation) &amp;mdash; which appears as a tangle of normal-sized and dilated blood vessels. In a brain AVM, blood passes directly from ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain AVM (arteriovenous malformation) may not cause any signs or symptoms until the AVM ruptures, resulting in bleeding in the brain (hemorrhage). However, about half of those with an AVM may have symptoms other than bleeding that are related to the AVM. An AVM may also be detected on a brain scan performed for reasons unrelated to the AVM. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of a brain AVM include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;A whooshing sound (bruit) that can be heard on examination of the skull with a stethoscope or may be audible if you have an AVM&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Progressive weakness or numbness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When bleeding into the brain occurs, signs and symptoms can be similar to a stroke and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden, severe headache&lt;/li&gt;
+	&lt;li&gt;Weakness, numbness or paralysis&lt;/li&gt;
+	&lt;li&gt;Vision loss&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Inability to understand others&lt;/li&gt;
+	&lt;li&gt;Severe unsteadiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms may begin at any age, but you&apos;re more likely to experience symptoms before age 50. Brain AVM can damage brain tissue over time. The effects slowly build up, sometimes causing symptoms in early adulthood. Once you reach middle age, however, brain AVMs tend to remain stable and are less likely to cause symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+For women, pregnancy may start or worsen symptoms because of the increased blood flow and blood volume during pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;Seek immediate medical attention&lt;/strong&gt; if you notice any signs or symptoms of a brain AVM. A bleeding brain AVM is life-threatening and requires emergency medical attention.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of a brain AVM 
+" Caption="The shaded area in this image shows a brain AVM (arteriovenous malformation) &amp;mdash; which appears as a tangle of normal-sized and dilated blood vessels. In a brain AVM, blood passes directly from your arteries to your veins via abnormal vessels. This disrupts the normal process of how blood circulates through your brain. 
+" Height="60" Title="Brain AVM" URI="/images/image_popup/thumbs/ans7_avmthu.jpg" Width="60" />
+				<Image Alt="Image of a brain AVM 
+" Caption="The shaded area in this image shows a brain AVM (arteriovenous malformation) &amp;mdash; which appears as a tangle of normal-sized and dilated blood vessels. In a brain AVM, blood passes directly from your arteries to your veins via abnormal vessels. This disrupts the normal process of how blood circulates through your brain. 
+" Height="367" Title="Brain AVM" URI="/images/image_popup/ans7_avm.jpg" Width="400" />
+				<HTML>
+					The shaded area in this image shows a brain AVM (arteriovenous malformation) &amp;mdash; which appears as a tangle of normal-sized and dilated blood vessels. In a brain AVM, blood passes directly from ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain AVM is an abnormal connection between arteries and veins in your brain. Doctors believe that a brain AVM develops during fetal development. Why this occurs for some babies and not others is unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your heart sends oxygen-rich blood to your brain through arteries, which branch into smaller arterioles and subsequently to capillaries, the smallest blood vessels. Oxygen is removed from blood in the capillaries and used by your brain. The oxygen-depleted blood then passes into small venules and then into larger veins that drain the blood from your brain, returning it to your heart and lungs to get more oxygen. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a brain AVM, blood passes directly from your arteries to your veins via abnormal vessels. This disrupts the normal process of how blood circulates through your brain.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing normal and abnormal blood vessels 
+" Caption="In brain AVM, blood passes directly from arteries to veins via abnormal blood vessels. 
+" Height="60" Title="Normal and abnormal blood vessels" URI="/images/image_popup/thumbs/bn7_avm_blood_vesselsthu.jpg" Width="60" />
+				<Image Alt="Image showing normal and abnormal blood vessels 
+" Caption="In brain AVM, blood passes directly from arteries to veins via abnormal blood vessels. 
+" Height="409" Title="Normal and abnormal blood vessels" URI="/images/image_popup/bn7_avm_blood_vessels.jpg" Width="400" />
+				<HTML>
+					In brain AVM, blood passes directly from arteries to veins via abnormal blood vessels. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone can be born with a brain AVM, but these factors may be a risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; AVMs are more common in males.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a family history.&lt;/strong&gt; Cases of AVMs in families have been reported, but it&apos;s unclear if there&apos;s a certain genetic factor or if the cases are only coincidental. It&apos;s also possible to inherit other medical conditions that predispose you to having vascular malformations such as AVMs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a brain AVM include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding in the brain (hemorrhage).&lt;/strong&gt; Walls of the affected arteries and veins may become thin or weak. An AVM puts extreme pressure on these walls, since no capillaries are available to slow down the blood flow. A hemorrhage may result. A very small (microscopic) hemorrhage causes limited damage to surrounding tissues and is unlikely to produce noticeable symptoms. A larger hemorrhage, however, can cause brain damage and is known as an intracerebral hemorrhage when bleeding occurs in the brain tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced oxygen to brain tissue.&lt;/strong&gt; With an AVM, blood bypasses the network of capillaries and flows directly from arteries to veins. Blood rushes quickly through the altered path because it isn&apos;t slowed down by channels of smaller blood vessels. Surrounding brain tissues can&apos;t easily absorb oxygen from the fast-flowing blood. Without enough oxygen, brain tissues weaken or may die off completely. This results in stroke-like symptoms, such as difficulty speaking, weakness, numbness, vision loss or severe unsteadiness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thin or weak blood vessels.&lt;/strong&gt; An AVM puts extreme pressure on the thin and weak walls of the blood vessels. A bulge in a blood vessel wall (aneurysm) may develop and become susceptible to rupture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain damage.&lt;/strong&gt; As you grow, more arteries may be &quot;recruited&quot; to supply blood to the fast-flowing AVM. As a result, some AVMs enlarge, which displaces or compresses portions of the brain. This may prevent protective fluids from flowing freely around the hemispheres of the brain. If fluid builds up, it can push brain tissue up against the skull &amp;mdash; a condition known as hydrocephalus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A brain AVM may be diagnosed in an emergency situation, immediately after bleeding (hemorrhage) has occurred. It may also be detected after other symptoms prompt a brain scan. But in some cases, a brain AVM is found incidentally while diagnosing or treating an unrelated medical condition. You may then be referred to a doctor who specializes in conditions of the brain and nervous system (neurologist or neurosurgeon). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it can help to be well prepared. Here are some tips to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; including vitamins, herbs and over-the-counter drugs, that you&apos;re taking. Even better, take the original bottles and a written list of the dosages and directions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along a family member or friend.&lt;/strong&gt; It can be difficult to absorb all the information provided to you during an appointment. The person who accompanies you may remember something that you forgot or missed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Don&apos;t be afraid to ask questions that may come up during your appointment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important in case your time with your doctor runs out. For brain AVM, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests are needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options and the pros and cons for each?&lt;/li&gt;
+	&lt;li&gt;What results can I expect?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up should I expect?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;The neurologist is likely to ask about your symptoms, if any, conduct a medical exam and schedule tests to confirm the diagnosis. The tests gather information about the size and location of the AVM to help direct your treatment options. He or she may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing a brain AVM usually begins with a thorough medical exam by a doctor who specializes in conditions of the brain and nervous system (neurologist). Depending on those results, the doctor may request one or more tests. Imaging tests are usually conducted by radiologists who specialize in imaging the brain and nervous system. 
+&lt;/p&gt;
+&lt;p&gt;
+Three main tests are used to diagnose brain AVMs: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral arteriography.&lt;/strong&gt; Cerebral arteriography (also known as cerebral angiography) is the most detailed test and the best way to diagnose an AVM. The test reveals the location and characteristics of the feeding arteries and draining veins. A thin tube is inserted into an artery in the groin. This tube is threaded up toward the brain to the blood vessels. Dye is injected into the blood vessels of the brain, and X-rays are taken.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A computerized tomography (CT) scan takes pictures of the brain using X-rays. Sometimes dye is injected through an intravenous tube in a vein so that the arteries feeding the AVM and the veins draining the AVM can be viewed in greater detail. This is called a computerized tomography angiogram (CTA).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Magnetic resonance imaging (MRI), more sensitive than CT in showing the AVM, creates images using a large magnet and radio waves. MRI also provides information about the exact location of the malformation, which is very important for determining treatment options. Dye can also be injected to better see the blood circulation in the brain. This is called a magnetic resonance angiogram (MRA).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are several potential treatment options for brain AVM, and the best treatment depends on the size and location of the abnormal blood vessels. Medications may also be used to treat related symptoms, such as headaches or seizures. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgical removal (resection).&lt;/strong&gt; Surgical treatment of a small brain AVM is relatively safe and effective. A section of skull is removed temporarily to gain access to the AVM. The neurosurgeon, aided by a high-powered microscope, seals off the AVM with special clips and carefully removes it from surrounding brain tissue. The skull bone is then reattached, and the scalp is closed with stitches.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Resection is usually done when the AVM can be removed with acceptable risk to prevent hemorrhage or seizures. AVMs that are in deep brain regions carry a higher risk of complications. In these cases, other treatments may be considered. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Endovascular embolization.&lt;/strong&gt; During this procedure, a long, thin tube called a catheter is inserted into a leg artery and threaded through the body to the brain arteries. The catheter is positioned in one of the feeding arteries to the AVM, and small particles of a glue-like substance are injected to block the vessel and reduce blood flow into the AVM.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Endovascular embolization may be done alone, before other treatments to reduce the size of the AVM, or before surgery to reduce the chance of bleeding during the operation. In some large brain AVMs, endovascular embolization may reduce stroke-like symptoms by redirecting blood back to normal brain tissue. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stereotactic radiosurgery.&lt;/strong&gt; This treatment uses precisely focused radiation to destroy the AVM. The radiation causes the AVM vessels to slowly clot off in the months or years following the treatment. This treatment works best for small AVMs and for those that have not caused a life-threatening hemorrhage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have few or no symptoms or your AVM is in an area of your brain that&apos;s hard to treat, your doctor may advocate a more conservative approach and monitor your condition with regular checkups.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Brain AVM (arteriovenous malformation)
+	</Title>
+	<Abstract>
+		Brain AVM (arteriovenous malformation) &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00206" LinkType="Internal" ObjectID="7A746F92-E7FF-0DBD-1BDD46A8BB17EDF3" Title="Gamma-knife radiosurgery" Url="http://www.mayoclinic.com/health/gamma-knife-radiosurgery/MY00206" />
+		<LinkItem ContentType="Disease" DocID="DS00582" LinkType="Internal" ObjectID="27C87FA4-C560-4F97-B5B680BD5D09F585" Title="Brain aneurysm" Url="http://www.mayoclinic.com/health/brain-aneurysm/DS00582" />
+	</RelatedLinksBox>
+</Disease>

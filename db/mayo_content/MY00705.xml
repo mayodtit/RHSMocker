@@ -1,0 +1,237 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00705
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cardioversion/MY00705
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-24
+		</UpdateDate>
+		<PublicationDate>
+			2009-06-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4385" Title="Cardioversion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A4EC13D-AF61-2E66-739550564BA315F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cardioversion
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial fibrillation
+			</MetaKeyword>
+			<MetaKeyword>
+				tachycardia
+			</MetaKeyword>
+			<MetaKeyword>
+				electric cardioversion
+			</MetaKeyword>
+			<MetaKeyword>
+				irregular heartbeat
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cardioversion is a medical procedure done to restore a normal heart rhythm for people who have certain types of abnormal heartbeats (arrhythmias). Cardioversion is most often done by sending electric shocks to your heart through electrodes placed on your chest. Occasionally, your doctor may perform cardioversion using only medications to restore your heart&apos;s rhythm. 
+&lt;/p&gt;
+&lt;p&gt;
+Cardioversion is usually a scheduled procedure that&apos;s performed in a hospital, and you should be able to go home the same day as your procedure. For most people, cardioversion quickly restores a normal heart rhythm. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a person undergoing cardioversion 
+" Caption="During cardioversion, your heart rhythm is monitored before and after shocks are delivered to your chest by the cardioversion machine. 
+" Height="60" Title="Cardioversion" URI="/images/image_popup/thumbs/mcdc7_cardioversionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a person undergoing cardioversion 
+" Caption="During cardioversion, your heart rhythm is monitored before and after shocks are delivered to your chest by the cardioversion machine. 
+" Height="458" Title="Cardioversion" URI="/images/image_popup/mcdc7_cardioversion.jpg" Width="400" />
+				<HTML>
+					During cardioversion, your heart rhythm is monitored before and after shocks are delivered to your chest by the cardioversion machine. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cardioversion can correct a heartbeat that&apos;s too fast (tachycardia) or irregular (fibrillation). Cardioversion is usually used to treat people who have atrial fibrillation or atrial flutter. These are conditions in which the electrical signals that cause your heart to beat in a regular rate and rhythm don&apos;t properly travel through the upper chambers of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+Cardioversion is performed when your heart is beating ineffectively. It&apos;s different from defibrillation, an emergency procedure that&apos;s performed when your heart stops or quivers uselessly. Defibrillation delivers more powerful shocks to the heart to correct its rhythm. Cardioversion is usually scheduled in advance but is sometimes also done in emergency situations. 
+&lt;/p&gt;
+&lt;p&gt;
+Cardioversion is usually done with electric shocks, administered through electrodes attached to your chest, while you&apos;re sedated. Electric cardioversion takes less time than cardioversion done solely with medications, and your doctor can instantly see if the procedure has restored a normal heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor recommends cardioversion with medications to restore your heart&apos;s rhythm, you won&apos;t receive electric shocks to your heart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of electric cardioversion are rare, and doctors can take steps to reduce your risk. Major risks of cardioversion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dislodged blood clots.&lt;/strong&gt; Some people who have arrhythmias have blood clots in their hearts. Electric cardioversion can cause these blood clots to move to other parts of your body, which can cause life-threatening complications, such as a stroke or a blood clot traveling to your lungs (pulmonary embolism). If necessary, your doctor may prescribe blood-thinning medications before the procedure or will check for blood clots in your heart before cardioversion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal heart rhythm.&lt;/strong&gt; In rare cases, some people who undergo cardioversion end up with other heart rhythm problems during or after their procedure. This is a rare complication. If it happens, it usually shows up only minutes after your procedure, so your doctor can give you medications or additional shocks to correct the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin burns.&lt;/strong&gt; Rarely, some people have minor burns on their skin where their electrodes were placed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pregnant women can have cardioversion, but it&apos;s recommended that the baby&apos;s heartbeat is monitored during the procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cardioversion procedures are usually scheduled in advance, although if your symptoms are severe, you may need to have cardioversion in an emergency setting. 
+&lt;/p&gt;
+&lt;p&gt;
+You typically can&apos;t eat or drink anything for 12 hours before your procedure. Your doctor will tell you whether you should take any of your regular medications before your procedure. If you do take medications before your procedure, sip only enough water to swallow your pills. 
+&lt;/p&gt;
+&lt;p&gt;
+Before cardioversion, you may have a procedure called a transesophageal echocardiogram to check for blood clots in your heart, which can be dislodged by cardioversion, causing life-threatening complications. Your cardiologist will decide if you need a transesophageal echocardiogram before cardioversion. 
+&lt;/p&gt;
+&lt;p&gt;
+In a transesophageal echocardiogram, your throat is numbed and a flexible tube containing a transducer is guided down your throat and into your esophagus, which connects your mouth to your stomach. From there, the transducer can obtain more-detailed images of your heart so that your doctor can check for blood clots. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor finds blood clots, your cardioversion procedure will be delayed for a few weeks while you take blood-thinning medications to reduce your risk of complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+A nurse or technician will place several large patches called electrodes on your chest. The electrodes will be connected to a cardioversion machine (defibrillator) using wires. The defibrillator will record your heart rhythm throughout the procedure and will deliver shocks to your heart to restore a normal heart rhythm. This machine can also pace your heart if it beats too slowly after cardioversion. 
+&lt;/p&gt;
+&lt;p&gt;
+Before the shocks are delivered, a nurse or technician will insert an intravenous (IV) line in your arm. The IV line is used to give you medications that will make you sleep during the procedure so that you won&apos;t feel any pain from the shocks. Your doctor may also use the IV line to give you additional medications that can help restore your heart rhythm. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;re sedated, electric cardioversion usually only takes a few minutes to complete. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+Electric cardioversion is done on an outpatient basis, meaning you can go home the same day your procedure is done. You&apos;ll spend about an hour in a recovery room being closely monitored for complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Because you&apos;ll be asleep for the procedure, your awareness of your surroundings may be affected afterward. You&apos;ll need someone to drive you home, and your ability to make decisions may be affected for several hours after your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if no clots were found in your heart before your procedure, you&apos;ll take blood-thinning medications for several weeks after your procedure to prevent new clots from forming. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a person undergoing cardioversion 
+" Caption="During cardioversion, your heart rhythm is monitored before and after shocks are delivered to your chest by the cardioversion machine. 
+" Height="60" Title="Cardioversion" URI="/images/image_popup/thumbs/mcdc7_cardioversionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a person undergoing cardioversion 
+" Caption="During cardioversion, your heart rhythm is monitored before and after shocks are delivered to your chest by the cardioversion machine. 
+" Height="458" Title="Cardioversion" URI="/images/image_popup/mcdc7_cardioversion.jpg" Width="400" />
+				<HTML>
+					During cardioversion, your heart rhythm is monitored before and after shocks are delivered to your chest by the cardioversion machine. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, cardioversion can quickly restore a regular heartbeat. For some, your irregular heart rhythm may return within a few minutes or days. It&apos;s possible you&apos;ll need repeat procedures to keep a normal heart rhythm. 
+&lt;/p&gt;
+&lt;p&gt;
+To keep your heart healthy, you may need to make lifestyle changes that improve the overall health of your heart, especially to prevent or treat conditions that can cause arrhythmias, such as high blood pressure. Your doctor may suggest that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid caffeine.&lt;/li&gt;
+	&lt;li&gt;Use less salt (sodium), which can help lower blood pressure.&lt;/li&gt;
+	&lt;li&gt;Increase your physical activity.&lt;/li&gt;
+	&lt;li&gt;Quit smoking.&lt;/li&gt;
+	&lt;li&gt;Avoid drinking more than one drink of alcohol for women or more than two drinks for men a day, if you choose to drink at all.&lt;/li&gt;
+	&lt;li&gt;Eat heart-healthy foods and maintain a healthy weight.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cardioversion
+	</Title>
+	<Abstract>
+		Cardioversion &amp;mdash; Overview covers what to expect during this procedure to reset your heart&apos;s rhythm.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="InteractiveTable" DocID="AN01211" LinkType="Internal" ObjectID="CE619C35-D037-4016-A9CBEA9A3ECBCEB6" Title="Caffeine content for coffee, tea, soda and more" Url="http://www.mayoclinic.com/health/caffeine/AN01211" />
+		<LinkItem ContentType="Article" DocID="HQ00171" LinkType="Internal" ObjectID="F1FB9D13-6AA0-4980-A65137F158D7E135" Title="Fitness programs: 5 steps to getting started" Url="http://www.mayoclinic.com/health/fitness/HQ00171" />
+		<LinkItem ContentType="Article" DocID="NU00196" LinkType="Internal" ObjectID="CEC0DBA2-8C25-4390-B56802619D846C6F" Title="Heart-healthy diet: 8 steps to prevent heart disease" Url="http://www.mayoclinic.com/health/heart-healthy-diet/NU00196" />
+		<LinkItem ContentType="Article" DocID="NU00284" LinkType="Internal" ObjectID="533DC0A6-5C23-44F6-97D852ADDDE573A5" Title="Sodium: How to tame your salt habit now" Url="http://www.mayoclinic.com/health/sodium/NU00284" />
+		<LinkItem ContentType="Disease" DocID="DS00291" LinkType="Internal" ObjectID="F553CA62-FA20-4C2B-97C29F6EAF1F81EC" Title="Atrial fibrillation" Url="http://www.mayoclinic.com/health/atrial-fibrillation/DS00291" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+	</RelatedLinksBox>
+</TestProcedure>

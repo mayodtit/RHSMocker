@@ -1,0 +1,301 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00792
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/adult-stills-disease/DS00792
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-11
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="2793" Title="Other">
+							<Keyword MCVID="3180" Title="Adult Still&apos;s disease" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			88C48A53-E7FF-0DBD-18DFE9229B316C38
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				adult Still&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				adult stills disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adult Still&apos;s disease is a rare inflammatory condition that may lead to chronic arthritis and other complications. A separate condition, formerly known as Still&apos;s disease, is now commonly referred to as systemic onset juvenile rheumatoid arthritis (JRA) or juvenile idiopathic arthritis (JIA). 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for adult Still&apos;s disease, but treatment may offer symptom relief for adult Still&apos;s disease and help prevent complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with adult Still&apos;s disease experience a combination of the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fever.&lt;/strong&gt; You may experience a daily fever of at least 102 F (38.9 C) for a week or longer. The fever usually peaks in the late afternoon or early evening. Sometimes, you may experience two fever spikes daily. Between episodes, your temperature will likely return to normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rash.&lt;/strong&gt; A salmon-pink bumpy or flat rash may come and go with the fever. The rash usually appears on your trunk, arms or legs. Physical contact such as rubbing your skin may provoke the rash to appear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Achy and swollen joints.&lt;/strong&gt; You may find that your joints &amp;mdash; especially your knees, wrists, ankles, elbows, hands and shoulders &amp;mdash; are stiff, painful and inflamed. Usually, the joint discomfort lasts at least two weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle pain.&lt;/strong&gt; Muscular pain associated with adult Still&apos;s disease usually ebbs and flows with the fever, but the pain may be severe enough to disrupt your daily activities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes in your neck&lt;/li&gt;
+	&lt;li&gt;Enlarged liver or spleen&lt;/li&gt;
+	&lt;li&gt;Inflammation of the lining of the heart or lungs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Having any of these signs or symptoms doesn&apos;t necessarily mean that you have adult Still&apos;s disease. The signs and symptoms of this disorder may mimic those of other conditions, including infectious mononucleosis, a type of cancer called lymphoma or other rheumatic diseases, including rheumatoid arthritis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have a high fever, rash and achy joints, see your doctor to determine what may be the cause. Also, if you have adult Still&apos;s disease and develop a cough, difficulty breathing, chest pain or any other unusual symptoms, call your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s not certain what causes adult Still&apos;s disease, the condition may be triggered by a viral or bacterial infection.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Age is the main risk factor for adult Still&apos;s disease, with incidence in adults peaking twice: once from 15 to 25 years and again from 36 to 46 years. Males and females are equally at risk of acquiring the disorder. Multiple cases of adult Still&apos;s disease in families are uncommon, so it&apos;s unlikely that this disorder is inherited. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most complications from adult Still&apos;s disease arise from chronic inflammation of your body organs and joints. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joint destruction.&lt;/strong&gt; Chronic inflammation can damage your joints. The most commonly involved joints are your knees and wrists. Your neck, foot, finger and hip joints also may be affected, but much less frequently. In severe cases, joint replacement surgery may be necessary for your hip or knee joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of your heart.&lt;/strong&gt; Adult Still&apos;s disease can lead to an inflammation of the sac-like covering of your heart (pericarditis) or of the muscular portion of your heart (myocarditis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess fluid around your lungs.&lt;/strong&gt; Inflammation may cause an excess of fluid to build up in the fluid-filled space (pleural space) that surrounds your lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your primary care provider. However, in some cases when you call to set up an appointment, you may be referred immediately to a rheumatologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they first started and how often they flare up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including any other health conditions with which you&apos;ve been diagnosed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List all the medications&lt;/strong&gt; &lt;strong&gt;you&apos;re currently taking,&lt;/strong&gt; including prescription and over-the-counter drugs, as well as any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Someone who accompanies you can help remember information that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Since your time with your doctor is limited, preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For adult Still&apos;s disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;What self-care steps are likely to help improve my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any activity restrictions?&lt;/li&gt;
+	&lt;li&gt;How much do you expect my symptoms will improve with treatment?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;How often will you see me for follow-up visits?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did they first develop?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms come and go, or are they continuous?&lt;/li&gt;
+	&lt;li&gt;When are your symptoms most likely to flare up?&lt;/li&gt;
+	&lt;li&gt;What treatments or self-care measures have you tried so far?&lt;/li&gt;
+	&lt;li&gt;Have any treatments or self-care measures helped?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;You can take over-the-counter nonsteroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others), to help relieve your pain and decrease your fever until you can see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no single test used to diagnose adult Still&apos;s disease. Your doctor will likely consider a number of diagnostic tools, because the signs and symptoms of adult Still&apos;s disease may mimic those of other conditions, such as mononucleosis, lymphoma or other rheumatic diseases. Your doctor may make a diagnosis based on the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Signs and symptoms.&lt;/strong&gt; Your doctor might suspect adult Still&apos;s disease if a physical exam reveals that you have a high fever, swollen joints and a salmon-pink rash. Swollen lymph nodes and a sore throat also are common.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Inflammation of the lining of your heart or lungs may be detected by an echocardiogram. X-rays of your bones may show changes in your wrists, spine, foot or finger joints. A computerized tomography (CT) scan or ultrasound may indicate that your liver or spleen is enlarged.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Blood tests.&lt;/strong&gt; A number of blood tests may give an indication that you have adult Still&apos;s disease. One type of test measures counts of certain blood cells: Typically, numbers of white blood cells and platelets are high, while the red blood cell count is often low (anemia). 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Another common blood test for people with inflammatory conditions involves checking your erythrocyte sedimentation rate (sed rate). This test measures how quickly your red blood cells settle when placed in a test tube. Generally, the blood cells fall faster &amp;mdash; that is, the sed rate increases &amp;mdash; when inflammation is present. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Other blood tests that may show increased levels in adult Still&apos;s include C-reactive protein (CRP) and ferritin. In adult Still&apos;s disease, markedly elevated ferritin levels can be found, and some researchers have suggested that ferritin may be helpful for monitoring disease activity during treatment. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Blood tests for rheumatoid factor and antinuclear antibodies (ANA) are usually negative for people with adult Still&apos;s disease. In addition, liver function tests can help determine how well your liver is working; in the case of adult Still&apos;s disease, levels of certain liver enzymes may be elevated. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors use a variety of drugs to treat adult Still&apos;s disease. The type of drug you&apos;ll take depends on the severity of your symptoms and whether you experience side effects. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; These drugs, such as aspirin, ibuprofen (Advil, Motrin, others) or naproxen (Aleve, Anaprox, others), help reduce inflammation. They are often useful for controlling mild symptoms. If you take NSAIDs, you&apos;ll need regular blood tests to monitor your liver function, because high doses of NSAIDs can damage your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glucocorticoids.&lt;/strong&gt; People with high-fever spikes, severe joint symptoms or complications with their internal organs might require glucocorticoids, such as prednisone. Glucocorticoids are corticosteroid medications that help subdue your body&apos;s immune response. While glucocorticoids are often a successful treatment for adult Still&apos;s disease, these drugs may lower your body&apos;s resistance to infections and will increase your risk of developing osteoporosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Methotrexate.&lt;/strong&gt; The medication methotrexate (Rheumatrex, Trexall) has been used successfully in a small series of people to treat adult Still&apos;s disease. It may also be used as a &quot;steroid-sparing agent,&quot; meaning that if you take methotrexate, smaller doses of corticosteroids may be able to control your disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Biologic response modifiers&lt;br /&gt;
+&lt;/strong&gt;Several drugs that are not standard therapy for adult Still&apos;s disease have been reported to help some people with this condition. One group inhibits tumor necrosis factor-alpha (TNF-alpha), an immune system cell involved in inflammation. TNF blockers include infliximab (Remicade), adalimumab (Humira) and etanercept (Enbrel). Although small studies have shown some promise, it&apos;s unknown whether TNF blockers provide long-term benefit in controlling the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Other medications, including rituximab (Rituxan), cyclosporine (Sandimmune, Gengraf, Neoral) and anakinra (Kineret), also have been used successfully in the treatment of adult Still&apos;s disease in small groups of people. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Outlook&lt;br /&gt;
+&lt;/strong&gt;Even with treatment, it&apos;s difficult to predict the course of adult Still&apos;s disease. Some people might only experience a single episode, while for others adult Still&apos;s disease may develop into a chronic condition. About one-third of people with the disorder fall into each of the following groups: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Recovery.&lt;/strong&gt; In some cases, the signs and symptoms disappear within one year and do not recur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occasional flare-ups.&lt;/strong&gt; People with this form of the condition experience unpredictable eruptions of their signs and symptoms but feel normal between episodes. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic arthritis.&lt;/strong&gt; The chronic form of adult Still&apos;s disease may last for years and cause debilitating arthritis. Fortunately, most people with chronic adult Still&apos;s disease retain good function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are a few ways to help you make the most of your health if you have adult Still&apos;s disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Understand your medications.&lt;/strong&gt; Even if you&apos;re symptom-free some days, it&apos;s important to take your medications as your doctor recommends to control inflammation. Controlling inflammation helps reduce the risk of complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supplement your diet.&lt;/strong&gt; If you&apos;re taking high doses of glucocorticoids, talk to your doctor about taking calcium and vitamin D supplements to help prevent osteoporosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep moving.&lt;/strong&gt; While you might not feel up to a workout if your joints ache, exercising can maintain your range of motion and relieve pain and stiffness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adult Still&apos;s disease can&apos;t be prevented. However, sticking to your treatment regimen and calling your doctor if you develop problems may prevent complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Adult Still&apos;s disease
+	</Title>
+	<Abstract>
+		Adult Still&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this inflammatory disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00787" LinkType="Internal" ObjectID="74664E72-D011-7D0D-FAFA7BCB2AED1DD4" Title="ANA test" Url="http://www.mayoclinic.com/health/ana-test/MY00787" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01018" LinkType="Internal" ObjectID="54EAD155-D909-7FE2-44C4EB2D320BB269" Title="C-reactive protein test" Url="http://www.mayoclinic.com/health/c-reactive-protein/MY01018" />
+	</RelatedLinksBox>
+</Disease>

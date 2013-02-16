@@ -1,0 +1,269 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00138
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/endoscopy/MY00138
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-29
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3652" Title="Digestive system">
+						<Keyword MCVID="3064" Title="Endoscopy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF577949-E7FF-0DBD-15ACF0F99DE4D284
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				endoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				upper endoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				gi
+			</MetaKeyword>
+			<MetaKeyword>
+				endoscope
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An upper endoscopy is a procedure used to visually examine your upper digestive system with a tiny camera on the end of a long, flexible tube. A specialist in diseases of the digestive system (gastroenterologist) uses endoscopy to diagnose and, sometimes, treat conditions that affect the esophagus, stomach and beginning of the small intestine (duodenum). 
+&lt;/p&gt;
+&lt;p&gt;
+The medical term for an upper endoscopy is esophagogastroduodenoscopy. An upper endoscopy may be done in your doctor&apos;s office, an outpatient surgery center or a hospital. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An upper endoscopy is used to diagnose and, sometimes, treat conditions that affect the upper part of your digestive system, including the esophagus, stomach and beginning of the small intestine (duodenum). 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend an endoscopy procedure to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Investigate symptoms.&lt;/strong&gt; Endoscopy may help your doctor determine what&apos;s causing digestive signs and symptoms, such as nausea, vomiting, abdominal pain, difficulty swallowing and gastrointestinal bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diagnose.&lt;/strong&gt; Your doctor may use endoscopy to collect tissue samples (biopsy) to test for diseases and conditions such as anemia, bleeding, inflammation, diarrhea or cancers of the digestive system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat.&lt;/strong&gt; Your doctor can pass special tools through the endoscope to treat problems in your digestive system, such as burning a bleeding vessel to stop bleeding, widening a narrow esophagus, clipping off a polyp or removing a foreign object. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Endoscopy is sometimes combined with other procedures, such as ultrasound. An ultrasound probe may be attached to the endoscope to create specialized images of the wall of your esophagus or stomach. An endoscopic ultrasound may also help your doctor create images of hard-to-reach organs, such as your pancreas. Newer endoscopes use high-definition video to provide clearer images. 
+&lt;/p&gt;
+&lt;p&gt;
+Many endoscopes allow your doctor to use technology called narrow band imaging, which uses special light to help better detect precancerous conditions, such as Barrett&apos;s esophagus. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the gastrointestinal tract
+" Caption="Your digestive tract stretches from your mouth to your anus. It includes the organs necessary to digest food and process waste. 
+" Height="60" Title="Gastrointestinal tract" URI="/images/image_popup/thumbs/d7_digestivesystemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the gastrointestinal tract
+" Caption="Your digestive tract stretches from your mouth to your anus. It includes the organs necessary to digest food and process waste. 
+" Height="494" Title="Gastrointestinal tract" URI="/images/image_popup/d7_digestivesystem.jpg" Width="400" />
+				<HTML>
+					Your digestive tract stretches from your mouth to your anus. It includes the organs necessary to digest food and process waste. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Endoscopy is a very safe procedure. However it carries a very small risk of complications. Rare complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Your risk of bleeding complications after endoscopy is increased if the procedure involves removing a piece of tissue for testing (biopsy) or treating a digestive system problem. In rare cases, such bleeding may require a blood transfusion. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Most endoscopies consist of an examination and biopsy, and risk of infection is low. The risk of infection increases when additional procedures are performed as part of your endoscopy. Most infections are minor and can be treated with antibiotics. Your doctor may give you preventive antibiotics before your procedure if you are at higher risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tearing of the gastrointestinal tract.&lt;/strong&gt; A tear in your esophagus or another part of your upper digestive tract may require hospitalization, and sometimes surgery to repair it. The risk of this complication is very low &amp;mdash; it occurs in an estimated 3 to 5 of every 10,000 diagnostic upper endoscopies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can reduce your risk of complications by carefully following your doctor&apos;s instructions for preparing for endoscopy, such as fasting and stopping certain medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms that could indicate a complication&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms to watch for after your endoscopy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Black or very dark colored stool&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Severe or persistent abdominal pain&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Call your doctor immediately or go to an emergency room if you experience any of these signs or symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will give you specific instructions to prepare for your endoscopy. In some cases your doctor may ask that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fast before the endoscopy.&lt;/strong&gt; You may be asked to stop drinking and eating four to eight hours before your endoscopy to ensure your stomach is empty for the procedure. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking certain medications.&lt;/strong&gt; You may be asked to stop taking certain blood-thinning medications in the days before your endoscopy. Blood thinners may increase your risk of bleeding if certain procedures are performed during endoscopy. If you have chronic conditions, such as diabetes, heart disease or high blood pressure, your doctor will give you specific instructions regarding your medications. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Tell your doctor about all the medications and supplements you&apos;re taking before your endoscopy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Plan ahead for your recovery&lt;/strong&gt; &lt;br /&gt;
+Most people undergoing an upper endoscopy will receive a sedative to relax them and make them more comfortable during the procedure. If you&apos;ll be sedated during the procedure, plan ahead for your recovery while the sedative wears off. You may feel mentally alert, but your memory, reaction times and judgment may be impaired. Find someone to drive you home. You may also need to take the day off from work. Don&apos;t make any important personal or financial decisions for 24 hours. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During endoscopy&lt;/strong&gt; &lt;br /&gt;
+During an upper endoscopy procedure, you&apos;ll be asked to lie down on a table on your back or on your side. 
+&lt;/p&gt;
+&lt;p&gt;
+Monitors often will be attached to your body to allow your health care team to monitor your breathing, blood pressure and heart rate. You may receive a sedative medication through a vein in your forearm. This medication helps you relax during the endoscopy. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may spray an anesthetic in your mouth to numb your throat in preparation for insertion of the long, flexible tube (endoscope). You may be asked to wear a plastic mouth guard to hold your mouth open. Then the endoscope is inserted in your mouth. Your doctor may ask you to swallow as the scope passes down your throat. You may feel some pressure in your throat, but you shouldn&apos;t feel pain. 
+&lt;/p&gt;
+&lt;p&gt;
+You can&apos;t talk after the endoscope passes down your throat, though you can make noises. The endoscope doesn&apos;t interfere with your breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+As your doctor passes the endoscope down your esophagus, a tiny camera at the tip transmits images to a video monitor in the exam room. Your doctor watches this monitor to look for abnormalities in your upper digestive tract. If abnormalities are found in your digestive tract, your doctor may record images for later examination. 
+&lt;/p&gt;
+&lt;p&gt;
+Gentle air pressure may be fed into your esophagus to inflates your digestive tract so the endoscope can move freely and the folds of your digestive tract are more easily examined. The air can create a feeling of pressure or fullness. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will pass special surgical tools through the endoscope to collect a tissue sample or remove a polyp. Your doctor watches the video monitor to guide the tools. 
+&lt;/p&gt;
+&lt;p&gt;
+When your doctor has finished the exam, the endoscope is slowly retracted through your mouth. Endoscopy typically takes five to 20 minutes, depending on your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After endoscopy&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll be taken to a recovery area to sit or lie quietly after your endoscopy. You may stay for an hour or so. This allows your health care team to monitor you as the sedative begins to wear off. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;re at home, you may experience some mildly uncomfortable signs and symptoms after endoscopy, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bloating and gas&lt;/li&gt;
+	&lt;li&gt;Cramping&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms will improve with time. If you&apos;re concerned or quite uncomfortable, call your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Take it easy for the rest of the day after your endoscopy. You may feel alert, but your reaction times and judgment are delayed after receiving a sedative. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you receive the results of your endoscopy will depend on your situation. If, for instance, your doctor performed the endoscopy to look for an ulcer, you may learn the findings right after your procedure. If a tissue sample (biopsy) was collected, it may take a few days to get results from the testing laboratory. Ask your doctor when you can expect the results of your endoscopy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Upper endoscopy
+	</Title>
+	<Abstract>
+		Upper endoscopy &amp;mdash; Overview covers definition, risks, results of GI diagnostic procedure
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00011" LinkType="Internal" ObjectID="EE4C92FC-3CF0-43CD-A00AF379CDAA2803" Title="Video: Endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MM00011" />
+	</RelatedLinksBox>
+</TestProcedure>

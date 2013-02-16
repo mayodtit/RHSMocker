@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01094
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/entropion/DS01094
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-22
+		</UpdateDate>
+		<PublicationDate>
+			2008-09-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1796" Title="Eyelid">
+						<Keyword MCVID="2495" Title="Entropion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BC54B78D-E7FF-0DBD-1EBAF3D61ABB1D1F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				entropion
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital entropion
+			</MetaKeyword>
+			<MetaKeyword>
+				spastic entropion
+			</MetaKeyword>
+			<MetaKeyword>
+				inward-turning eyelid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Entropion (en-TROH-pe-on) is a condition in which your eyelid turns inward so that your eyelashes and skin rub against the eye surface, causing irritation and discomfort.
+&lt;/p&gt;
+&lt;p&gt;
+When you have entropion, your eyelid may be turned in all the time or it may only turn inward when you blink forcibly or tightly squeeze your eyelids shut. Entropion occurs most often in older adults, and it generally affects only your lower eyelid.
+&lt;/p&gt;
+&lt;p&gt;
+Artificial tears and lubricating ointments can help relieve symptoms of entropion, but you&apos;ll often need surgery to correct it. Left untreated, entropion can cause damage to the clear part of your eye (cornea), eye infections and vision loss.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing entropion 
+" Caption="Entropion is a condition in which your eyelid, usually the lower one, is turned inward so that your eyelashes rub against your eyeball, causing discomfort. 
+" Height="60" Title="Entropion" URI="/images/image_popup/thumbs/mcdc7_entropionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing entropion 
+" Caption="Entropion is a condition in which your eyelid, usually the lower one, is turned inward so that your eyelashes rub against your eyeball, causing discomfort. 
+" Height="384" Title="Entropion" URI="/images/image_popup/mcdc7_entropion.jpg" Width="400" />
+				<HTML>
+					Entropion is a condition in which your eyelid, usually the lower one, is turned inward so that your eyelashes rub against your eyeball, causing discomfort. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The symptoms of entropion result from the friction of your eyelashes and outer eyelid against the surface of your eye. You may have signs and symptoms such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The feeling that there&apos;s something in your eye&lt;/li&gt;
+	&lt;li&gt;Redness of the white part of your eye&lt;/li&gt;
+	&lt;li&gt;Eye irritation or pain&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light and wind&lt;/li&gt;
+	&lt;li&gt;Watery eyes (excessive tearing)&lt;/li&gt;
+	&lt;li&gt;Mucous discharge and eyelid crusting&lt;/li&gt;
+	&lt;li&gt;Decreased vision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to seek medical advice&lt;br /&gt;
+&lt;/strong&gt;If you feel like you constantly have something in your eye or you notice that some of your eyelashes seem to be turning in toward your eye, make an appointment to see your doctor for an evaluation. If you leave entropion untreated for too long, it can cause permanent damage to your eye. Be sure to use artificial tears and eye-moisturizing ointments to protect your eye before your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+If you know that you have entropion, be alert for symptoms of cornea exposure or ulcers, including rapidly increasing redness, pain, light sensitivity or decreasing vision. If you experience any of these vision-threatening signs and symptoms, seek immediate care in an ophthalmologist&apos;s office or an emergency room.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing entropion 
+" Caption="Entropion is a condition in which your eyelid, usually the lower one, is turned inward so that your eyelashes rub against your eyeball, causing discomfort. 
+" Height="60" Title="Entropion" URI="/images/image_popup/thumbs/mcdc7_entropionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing entropion 
+" Caption="Entropion is a condition in which your eyelid, usually the lower one, is turned inward so that your eyelashes rub against your eyeball, causing discomfort. 
+" Height="384" Title="Entropion" URI="/images/image_popup/mcdc7_entropion.jpg" Width="400" />
+				<HTML>
+					Entropion is a condition in which your eyelid, usually the lower one, is turned inward so that your eyelashes rub against your eyeball, causing discomfort. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Entropion can have several different causes, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle weakness.&lt;/strong&gt; As you age, the muscles under your eyes tend to get weaker and the tendons also may relax. If muscles and tendons become weak and relaxed, entropion can develop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scars or previous surgeries.&lt;/strong&gt; Scarred skin from chemical burns, trauma or surgery can distort the normal curve of the eyelid, causing entropion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye infection.&lt;/strong&gt; Although rare in North America, an eye infection called trachoma is still common in North Africa and South Asia. Trachoma can cause scarring of the inner eyelid, leading to entropion and even blindness from the corneal complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation or infection.&lt;/strong&gt; An eyelid problem called spastic entropion can result from infection or inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental complication.&lt;/strong&gt; Very rarely, entropion is present at birth (congenital). More often, a baby with turned-in eyelashes at birth has an extra fold of skin on the eyelid, called epiblepharon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors increase your risk of developing entropion: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The most common cause of entropion is relaxing muscle tissue associated with aging. The older you are, the greater your chances of developing the condition. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous burns.&lt;/strong&gt; If you&apos;ve had a burn on your face, the resulting scar tissue may put you at higher risk of developing entropion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trachoma infection.&lt;/strong&gt; Because trachoma can scar the inner eyelids, people who have had the infection are more likely to develop entropion.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most serious complication associated with entropion is corneal irritation and damage. Because your eyelashes and eyelid are constantly rubbing the cornea, it&apos;s more susceptible to corneal breakdown and ulcers, which can cause permanent loss of vision. 
+&lt;/p&gt;
+&lt;p&gt;
+Eyedrops and ointments can help to protect your cornea and prevent damage until you have surgery to correct entropion. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms of entropion, you&apos;re likely to start by seeing your primary care doctor. However, you may then be referred to a doctor trained in treating eye disorders (ophthalmologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot to talk about, it&apos;s a good idea to arrive prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any details about changes in your vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For entropion, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;Can entropion damage my vision?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the risks of surgery?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to surgery?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may make time for additional questions you may have. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic medical conditions?&lt;/li&gt;
+	&lt;li&gt;Have you had any previous eye surgery?&lt;/li&gt;
+	&lt;li&gt;Have you had any other eye problems, such as an eye infection?&lt;/li&gt;
+	&lt;li&gt;Are you taking any blood thinners?&lt;/li&gt;
+	&lt;li&gt;Are you taking aspirin?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Usually, entropion can be diagnosed with a routine eye examination and physical examination. Your doctor may pull on your eyelids during the examination, or ask you to blink or close your eyes forcefully, in order to assess your eyelid&apos;s position on the eye, as well as its muscle tone and tightness. 
+&lt;/p&gt;
+&lt;p&gt;
+If your entropion is caused by scar tissue, previous surgeries or other conditions, your doctor may examine the surrounding tissue around your eye, in addition to examining your eyelid. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors evaluate the cause of your condition to determine the most appropriate treatment or surgical technique for your condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although treatments are available to relieve symptoms and protect your eye from damage, you&apos;ll likely need surgery to correct entropion. 
+&lt;/p&gt;
+&lt;p&gt;
+When active inflammation or infection causes entropion (spastic entropion), your eyelid may return to its normal alignment as you treat the inflamed or infected eye. However, entropion often persists after the other condition has been treated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Temporary treatments&lt;br /&gt;
+&lt;/strong&gt;Short-term fixes can be useful if you can&apos;t tolerate surgery or you have to delay it. Effective temporary treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin tape.&lt;/strong&gt; Special transparent skin tape can be applied to your eyelid to keep it from turning in. Place one end of the tape near your lower eyelashes, then pull down gently and attach the other end of the tape to your upper cheek. Ask your doctor to demonstrate proper technique and placement of the tape.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Stitches that turn the eyelid outward.&lt;/strong&gt; This procedure can be done in your doctor&apos;s office with local anesthesia. After numbing the eye, your doctor places two to three stitches in specific locations along the affected eyelid.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The stitches turn the eyelid outward, and resulting scar tissue keeps it in position even after the stitches are removed. There&apos;s a high likelihood that your eyelid will turn itself back inward within several months of the stitching, however, so it isn&apos;t a long-term solution. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;OnabotulinumtoxinA (Botox).&lt;/strong&gt; Small amounts of onabotulinumtoxinA injected in the lower eyelid can turn the eyelid out. You may get a series of injections that have effects that can last up to six months.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Entropion usually requires surgery. Several different types of surgery may be used to treat entropion. The technique used depends on the cause and the condition of the surrounding tissue. Before the surgery, you&apos;ll receive a local anesthetic to numb your eyelids. 
+&lt;/p&gt;
+&lt;p&gt;
+If your entropion is caused by muscle and ligament relaxation due to aging, your surgeon will likely remove a small part of your lower eyelid, which serves to tighten the tendons and muscles of the lid. You&apos;ll have a few stitches on the outside corner of your eye, or just below your lower eyelid. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have scar tissue or have had trauma or previous surgeries, your surgeon may need to use a skin graft, taken from the roof of your mouth or from areas of your nose, to correct the entropion. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To relieve the symptoms of entropion until you have surgery, you can try: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye lubricants.&lt;/strong&gt; Artificial tears and eye ointments help protect your cornea and keep it lubricated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin tape.&lt;/strong&gt; Use skin tape under your eye to pull your eyelid down and temporarily turn your lower lid outward.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, entropion isn&apos;t preventable.
+&lt;/p&gt;
+&lt;p&gt;
+If your eyes become red and irritated after you visit an area affected by trachoma infection, such as North Africa or South Asia, seek treatment immediately. Untreated trachoma infection can scar the inner eyelids, causing entropion and vision loss. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Entropion
+	</Title>
+	<Abstract>
+		Entropion &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of an eyelid that&apos;s turned inward.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02129" LinkType="Internal" ObjectID="8D468FE6-D13B-E63D-C5EF8EF1CC09D7AD" Title="Artificial tears: How to select eyedrops for dry eyes" Url="http://www.mayoclinic.com/health/artificial-tears/AN02129" />
+	</RelatedLinksBox>
+</Disease>

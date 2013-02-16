@@ -1,0 +1,95 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01832
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pink-eye/AN01832
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-27
+		</UpdateDate>
+		<PublicationDate>
+			2008-04-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="1940" Title="Pink eye" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BDEC6A90-E7FF-0DBD-11C9758F76FC915F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pinkeye
+			</MetaKeyword>
+			<MetaKeyword>
+				pink eye
+			</MetaKeyword>
+			<MetaKeyword>
+				conjunctivitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Pink eye (conjunctivitis) generally remains contagious as long as the eye continues to tear and produce a discharge. Signs and symptoms of pink eye usually improve within three to seven days. When tearing and discharge are no longer present, it&apos;s appropriate for a child to return to school or child care. 
+&lt;/p&gt;
+&lt;p&gt;
+If the pink eye is caused by a bacterial infection, treatment with antibiotic drops or ointment for the eyes may be necessary. Some schools and child care facilities require that a child wait at least 24 hours after starting treatment before returning. Good hygiene &amp;mdash; including hand-washing after touching the eyes &amp;mdash; is important to minimize spread of the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pink eye: How long is it contagious?
+	</Title>
+	<Abstract>
+		Many parents wonder how long pink eye (conjunctivitis) is contagious. Find out.
+	</Abstract>
+	<Question>
+		How long is pink eye contagious? My son&apos;s child care has a policy that children with pink eye stay home until they&apos;re no longer contagious.
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01632" LinkType="Internal" ObjectID="49513533-E7FF-0DBD-1C1FF04252D708DE" Title="Pink eye treatment: What if I wear contact lenses?" Url="http://www.mayoclinic.com/health/pink-eye-treatment/AN01632" />
+		<LinkItem ContentType="Disease" DocID="DS00258" LinkType="Internal" ObjectID="FA6233FA-4850-4011-88D0123DDD87F129" Title="Pink eye (conjunctivitis)" Url="http://www.mayoclinic.com/health/pink-eye/DS00258" />
+	</RelatedLinksBox>
+</Answer>

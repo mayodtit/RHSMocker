@@ -1,0 +1,260 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01144
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/swine-flu/DS01144
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-10
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1594" Title="Influenza">
+							<Keyword MCVID="4373" Title="Swine flu" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ED85EF12-D20D-C00F-95E27F2334B0258D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				swine flu
+			</MetaKeyword>
+			<MetaKeyword>
+				swine flu symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				swine flu pandemic
+			</MetaKeyword>
+			<MetaKeyword>
+				H1N1
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Technically, the term swine flu refers to influenza in pigs. Occasionally, pigs transmit influenza viruses to people, mainly to hog farm workers and veterinarians. Less often, someone infected occupationally passes the infection to others. 
+&lt;/p&gt;
+&lt;p&gt;
+The human respiratory infection caused by the influenza virus H1N1 &amp;mdash; popularly known as swine flu &amp;mdash; was first recognized in spring 2009, near the end of the usual Northern Hemisphere flu season. 
+&lt;/p&gt;
+&lt;p&gt;
+A few months after the first cases of swine flu were reported, rates of confirmed H1N1-related illness were increasing in almost all parts of the world. As a result, the World Health Organization declared the infection a global pandemic. That official designation remained in place for more than a year, until the pandemic was declared over in August 2010. Currently, H1N1 is still circulating in humans as a seasonal flu virus and is included in the seasonal flu vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+Another strain of swine flu &amp;mdash; H3N2 variant &amp;mdash; has also made its way into humans. This flu contains a gene from the H1N1 virus. So far, the virus has only been transmitted through human exposure to swine, not from human to human. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swine flu symptoms in humans are similar to those of infection with other flu strains: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Body aches&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Diarrhea &lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Swine flu symptoms develop about one to three days after you&apos;re exposed to the virus and continue for about eight days, starting one day before you get sick and continuing until you&apos;ve recovered. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+It&apos;s not necessary to see a doctor if you&apos;re generally healthy and you develop swine flu symptoms, such as fever, cough and body aches. Do call your doctor, however, if you have flu symptoms and you&apos;re pregnant or you have a chronic disease, such as emphysema or a heart condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Influenza viruses infect the cells lining your nose, throat and lungs. The virus enters your body when you inhale contaminated droplets or transfer live virus from a contaminated surface to your eyes, nose or mouth.
+&lt;/p&gt;
+&lt;p&gt;
+You can&apos;t catch swine flu from eating pork.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve traveled to an area where lots of people are affected by swine flu H1N1, you may have been exposed to the virus, particularly if you spent time in large crowds. 
+&lt;/p&gt;
+&lt;p&gt;
+Swine farmers and veterinarians have the highest risk of true swine flu because of their exposure to pigs. In addition, exposure to swine at seasonal fairs has also been linked to human H3N2 variant infection. 
+&lt;/p&gt;
+&lt;p&gt;
+You can&apos;t catch swine flu from eating pork. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Influenza complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Worsening of chronic conditions, such as heart disease, diabetes and asthma&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Neurological symptoms, ranging from confusion to seizures&lt;/li&gt;
+	&lt;li&gt;Respiratory failure&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most cases of flu, including H1N1 flu, need no treatment other than symptom relief. If you have a chronic respiratory disease, your doctor may prescribe additional medication to decrease inflammation, open your airways and help clear lung secretions. 
+&lt;/p&gt;
+&lt;p&gt;
+The antiviral drugs oseltamivir (Tamiflu) and zanamivir (Relenza) are sometimes prescribed to reduce the severity of symptoms, but flu viruses can develop resistance to them. Some researchers recommend further study on both of these drugs due to uncertainty about their effects beyond the initial reduction in symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+To make development of resistance less likely and maintain supplies of these drugs for those who need them most, antivirals are reserved for people at high risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+High-risk groups are those who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are hospitalized&lt;/li&gt;
+	&lt;li&gt;Have shortness of breath along with other flu symptoms&lt;/li&gt;
+	&lt;li&gt;Are younger than 5 years of age, particularly children younger than 2 years&lt;/li&gt;
+	&lt;li&gt;Are 65 years and older&lt;/li&gt;
+	&lt;li&gt;Are pregnant or within two weeks postpartum, including women who have had pregnancy loss&lt;/li&gt;
+	&lt;li&gt;Are younger than 19 years of age and are receiving long-term aspirin therapy, because of an increased risk for Reye&apos;s syndrome, a rare but potentially fatal disease&lt;/li&gt;
+	&lt;li&gt;Have certain chronic medical conditions, including asthma, emphysema, heart disease, diabetes, neuromuscular disease, obesity, and kidney, liver or blood disease&lt;/li&gt;
+	&lt;li&gt;Are immunosuppressed due to medications or HIV&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you come down with any type of flu, these measures may help ease your symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of liquids.&lt;/strong&gt; Choose water, juice and warm soups to prevent dehydration. Drink enough so that your urine is clear or pale yellow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Get more sleep to help your immune system fight infection.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Consider pain relievers.&lt;/strong&gt; Use an over-the-counter pain reliever, such as acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others), cautiously&lt;strong&gt;.&lt;/strong&gt; Also, use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Remember, pain relievers may make you more comfortable, but they won&apos;t make your symptoms go away any faster and may have side effects. Ibuprofen may cause stomach pain, bleeding and ulcers. If taken for a long period or in higher than recommended doses, acetaminophen can be toxic to your liver. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The Centers for Disease Control and Prevention now recommend flu vaccination for all Americans older than 6 months of age. The vaccine developed to prevent infection with the 2009 H1N1 virus is one component of the seasonal flu shot for 2012-2013. The flu shot also protects against two other influenza viruses that are expected to be the most common during the 2012-2013 flu season. 
+&lt;/p&gt;
+&lt;p&gt;
+The vaccine will be available as an injection or a nasal spray. The nasal spray is approved for use in healthy people 2 through 49 years of age who are not pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+These measures also help prevent H1N1 swine flu and limit its spread: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay home if you&apos;re sick.&lt;/strong&gt; If you do have H1N1 swine flu, you can give it to others starting about 24 hours before you develop symptoms and ending about seven days later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands thoroughly and frequently.&lt;/strong&gt; Use soap and water, or if they&apos;re unavailable, use an alcohol-based hand sanitizer. Flu viruses can survive for two hours or longer on surfaces, such as doorknobs and countertops.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contain your coughs and sneezes.&lt;/strong&gt; Cover your mouth and nose when you sneeze or cough. To avoid contaminating your hands, cough or sneeze into a tissue or the inner crook of your elbow.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid contact.&lt;/strong&gt; Stay away from crowds if possible. And if you&apos;re at high risk of complications from the flu &amp;mdash; for example, you&apos;re younger than 5 or age 65 or older, you&apos;re pregnant, or you have a chronic medical condition such as asthma &amp;mdash; consider avoiding swine barns at seasonal fairs and elsewhere.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce exposure within your household.&lt;/strong&gt; If a member of your household has H1N1 swine flu, designate one other household member to be responsible for the ill person&apos;s close personal care.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Swine flu (H1N1 flu)
+	</Title>
+	<Abstract>
+		Swine flu (H1N1 flu) &amp;mdash; Comprehensive overview covers swine flu symptoms, tests, treatment and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SelfAssessment" DocID="FU00013" LinkType="Internal" ObjectID="491D1E3C-E7FF-0DBD-1F7CA70710272614" Title="Flu symptoms self-assessment: Do you have the flu?" Url="http://www.mayoclinic.com/health/flu-symptoms/FU00013" />
+		<LinkItem ContentType="Answer" DocID="AN01238" LinkType="Internal" ObjectID="35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D" Title="Flu germs: How long can they live outside the body?" Url="http://www.mayoclinic.com/health/infectious-disease/AN01238" />
+		<LinkItem ContentType="Article" DocID="ID00017" LinkType="Internal" ObjectID="DF0C9B47-E104-40E7-99D4923ED6D7FD1E" Title="Flu shot: Your best bet for avoiding influenza" Url="http://www.mayoclinic.com/health/flu-shots/ID00017" />
+		<LinkItem ContentType="Answer" DocID="AN02177" LinkType="Internal" ObjectID="A0AD14E9-9C6D-449F-29F7CA3E69C8F2BC" Title="Flu and pregnancy: Is antiviral medication safe?" Url="http://www.mayoclinic.com/health/flu-and-pregnancy/AN02177" />
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
+		<LinkItem ContentType="Article" DocID="MY00816" LinkType="Internal" ObjectID="E19704C8-97C2-8E63-1C5F56B0CFE4F5BB" Title="H1N1 flu (swine flu) vaccine Q &amp; A" Url="http://www.mayoclinic.com/health/swine-flu-vaccine/MY00816" />
+		<LinkItem ContentType="Answer" DocID="AN02035" LinkType="Internal" ObjectID="DE56047D-E433-C93E-10ADFA3ED4A40D05" Title="Flu mask: Should I wear one?" Url="http://www.mayoclinic.com/health/flu-mask/AN02035" />
+		<LinkItem ContentType="Answer" DocID="AN02034" LinkType="Internal" ObjectID="DE53A8C6-016A-7AA9-C1D8D5A0B27014B5" Title="Flu symptoms: Self-care for the flu" Url="http://www.mayoclinic.com/health/swine-flu-symptoms/AN02034" />
+		<LinkItem ContentType="Answer" DocID="AN02033" LinkType="Internal" ObjectID="C9C8E8ED-C14F-ECCE-A9DCBC0BDECF2608" Title="Flu vaccine: Safe for people with egg allergy?" Url="http://www.mayoclinic.com/health/flu-vaccine-egg-allergy/AN02033" />
+		<LinkItem ContentType="Answer" DocID="AN02041" LinkType="Internal" ObjectID="B659EB88-09E2-708B-ED5C810B3C72C0DB" Title="What&apos;s the difference between H1N1 flu and influenza A?" Url="http://www.mayoclinic.com/health/influenza-a/AN02041" />
+		<LinkItem ContentType="Article" DocID="MY00675" LinkType="Internal" ObjectID="ED89FA7E-E747-57F6-4AC2FB8C523175DF" Title="H1N1 flu (swine flu): What&apos;s happening now" Url="http://www.mayoclinic.com/health/swine-flu/MY00675" />
+	</RelatedLinksBox>
+</Disease>

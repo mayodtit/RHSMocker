@@ -1,0 +1,262 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00943
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pneumothorax/DS00943
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-05
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2813" Title="Acute lung">
+						<Keyword MCVID="2816" Title="Pneumothorax" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5110F542-E7FF-0DBD-1DF0D8C718C40E83
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pneumothorax
+			</MetaKeyword>
+			<MetaKeyword>
+				collapsed lung
+			</MetaKeyword>
+			<MetaKeyword>
+				spontaneous pneumothorax
+			</MetaKeyword>
+			<MetaKeyword>
+				tension pneumothorax
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pneumothorax (noo-mo-THOR-acks) is a collapsed lung. Pneumothorax occurs when air leaks into the space between your lungs and chest wall. This air pushes on the outside of your lung and makes it collapse. In most cases, only a portion of the lung collapses. 
+&lt;/p&gt;
+&lt;p&gt;
+A pneumothorax can be caused by a blunt or penetrating chest injury, certain medical procedures involving your lungs or damage from underlying lung disease. Sometimes, pneumothorax occurs for no obvious reason. When the lung collapses, it causes sudden chest pain and shortness of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+A small, uncomplicated pneumothorax may quickly heal on its own. When the pneumothorax is larger, doctors usually insert a tube or needle between your ribs to remove the excess air. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing collapsed and normal lung
+" Caption="In a collapsed lung, air from the lung leaks into the chest cavity. A collapsed lung is a serious condition that can be life-threatening. The example shown is a complete left pneumothorax. Sometimes the amount of air pressing on the lung is so small it is barely evident on a chest X-ray or CT scan.
+" Height="60" Title="Collapsed and normal lung" URI="/images/image_popup/thumbs/mcdc7_collapsed_lungthu.jpg" Width="60" />
+				<Image Alt="Illustration showing collapsed and normal lung
+" Caption="In a collapsed lung, air from the lung leaks into the chest cavity. A collapsed lung is a serious condition that can be life-threatening. The example shown is a complete left pneumothorax. Sometimes the amount of air pressing on the lung is so small it is barely evident on a chest X-ray or CT scan.
+" Height="300" Title="Collapsed and normal lung" URI="/images/image_popup/mcdc7_collapsed_lung.jpg" Width="400" />
+				<HTML>
+					In a collapsed lung, air from the lung leaks into the chest cavity. A collapsed lung is a serious condition that can be life-threatening. The example shown is a complete left pneumothorax. Sometimes ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a pneumothorax usually include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest pain.&lt;/strong&gt; Sudden, sharp chest pain on the same side as the affected lung &amp;mdash; this pain doesn&apos;t occur in the center of your chest under the breast bone. And it doesn&apos;t worsen when you breathe in and out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shortness of breath.&lt;/strong&gt; This may be mild or severe, depending on how much of your lung is collapsed and whether you have underlying lung disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor right away if you have sudden chest pain and trouble breathing. Many conditions other than pneumothorax can cause these symptoms, and most require an accurate diagnosis and prompt treatment. If your chest pain is severe or breathing becomes increasingly difficult, get immediate emergency care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pneumothorax can be caused by a chest injury, underlying lung disease or ruptured air blisters (blebs). Pneumothorax also can occur for no obvious reason. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chest injuries&lt;/strong&gt;&lt;br /&gt;
+Any blunt or penetrating injury to your chest can cause lung collapse. Some injuries may happen during physical assaults or car crashes, while others may inadvertently occur during certain medical procedures. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Knife or gunshot wounds&lt;/li&gt;
+	&lt;li&gt;Blunt trauma from a blow or car crash&lt;/li&gt;
+	&lt;li&gt;Deployment of a vehicle&apos;s air bag&lt;/li&gt;
+	&lt;li&gt;Fractured ribs, which may puncture the lung&lt;/li&gt;
+	&lt;li&gt;Cardiopulmonary resuscitation (CPR)&lt;/li&gt;
+	&lt;li&gt;The insertion of chest tubes&lt;/li&gt;
+	&lt;li&gt;Lung biopsies taken via a needle through the chest wall&lt;/li&gt;
+	&lt;li&gt;Procedures using a scope down the throat and into the lung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Underlying lung diseases&lt;/strong&gt;&lt;br /&gt;
+Damaged lung tissue is more likely to collapse. Lung damage can be caused by many types of underlying diseases, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Emphysema&lt;/li&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;Lung cancer&lt;/li&gt;
+	&lt;li&gt;Pulmonary fibrosis&lt;/li&gt;
+	&lt;li&gt;Sarcoidosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ruptured air blisters&lt;/strong&gt;&lt;br /&gt;
+Small air blisters (blebs) can develop on the top of your lung. It&apos;s uncertain why these blebs appear on some people&apos;s lungs and not others, but they occur more often on the lungs of people who are tall and thin. Blebs themselves do not constitute a disease of the lungs. While most blebs rupture for no apparent reason, they can rupture from changes in air pressure when you&apos;re: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scuba diving&lt;/li&gt;
+	&lt;li&gt;Flying&lt;/li&gt;
+	&lt;li&gt;Mountain climbing at high altitudes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Mechanical ventilation&lt;/strong&gt;&lt;br /&gt;
+A severe type of pneumothorax can occur in people who need mechanical assistance to breathe. The action of the ventilator, which pushes and pulls air in and out of the lungs, can create an imbalance of air pressure within the chest. The lung may collapse completely and the heart may be squeezed to the point that it can&apos;t work properly. A severe pneumothorax is a medical emergency and can be fatal. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing collapsed and normal lung
+" Caption="In a collapsed lung, air from the lung leaks into the chest cavity. A collapsed lung is a serious condition that can be life-threatening. The example shown is a complete left pneumothorax. Sometimes the amount of air pressing on the lung is so small it is barely evident on a chest X-ray or CT scan.
+" Height="60" Title="Collapsed and normal lung" URI="/images/image_popup/thumbs/mcdc7_collapsed_lungthu.jpg" Width="60" />
+				<Image Alt="Illustration showing collapsed and normal lung
+" Caption="In a collapsed lung, air from the lung leaks into the chest cavity. A collapsed lung is a serious condition that can be life-threatening. The example shown is a complete left pneumothorax. Sometimes the amount of air pressing on the lung is so small it is barely evident on a chest X-ray or CT scan.
+" Height="300" Title="Collapsed and normal lung" URI="/images/image_popup/mcdc7_collapsed_lung.jpg" Width="400" />
+				<HTML>
+					In a collapsed lung, air from the lung leaks into the chest cavity. A collapsed lung is a serious condition that can be life-threatening. The example shown is a complete left pneumothorax. Sometimes ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for pneumothorax include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; In general, men are far more likely to have a pneumothorax than are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; The risk increases with the length of time and the number of cigarettes smoked, even without emphysema.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The type of pneumothorax caused by ruptured air blisters is most likely to occur in people between 20 and 40 years old, especially if the person is a very tall and underweight man.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Certain types of pneumothorax appear to run in families.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung disease.&lt;/strong&gt; Having an underlying lung disease &amp;mdash; especially emphysema, pulmonary fibrosis, sarcoidosis and cystic fibrosis &amp;mdash; makes a collapsed lung more likely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mechanical ventilation.&lt;/strong&gt; People who need mechanical ventilation to breathe effectively are at higher risk of pneumothorax.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A history of pneumothorax.&lt;/strong&gt; Anyone who has had one pneumothorax is at increased risk of another, usually within one to two years of the first episode. This may occur in the same lung or the opposite lung.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications from an injury-related or disease-related pneumothorax include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Recurrence.&lt;/strong&gt; Many people who have had one pneumothorax have another, usually within three years of the first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Persistent air leak.&lt;/strong&gt; Air may sometimes continue to leak if the opening in the lung won&apos;t close. Surgery may eventually be needed to close the air leak.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Severe pneumothorax&lt;/strong&gt;&lt;br /&gt;
+Complications of a severe pneumothorax may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low blood oxygen levels (hypoxemia)&lt;/li&gt;
+	&lt;li&gt;Cardiac arrest&lt;/li&gt;
+	&lt;li&gt;Respiratory failure&lt;/li&gt;
+	&lt;li&gt;Shock&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A pneumothorax is generally diagnosed using a chest X-ray. In some cases, computerized tomography (CT) may be needed to provide more detailed images. CT scanners combine X-ray images taken from many different directions to produce cross-sectional views of internal structures. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal in treating a pneumothorax is to relieve the pressure on your lung, allowing it to re-expand, and to prevent recurrences. The best method for achieving this depends on the severity of the lung collapse and sometimes on your overall health. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Observation&lt;/strong&gt;&lt;br /&gt;
+If only a small portion of your lung is collapsed, your doctor may simply monitor your condition with a series of chest X-rays until the air is completely absorbed and your lung has re-expanded. This may require bed rest as any exertion may aggravate the collapse. Supplemental oxygen can speed the absorption process. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Needle or chest tube insertion&lt;/strong&gt;&lt;br /&gt;
+If a larger area of your lung has collapsed, it&apos;s likely that a needle or chest tube will be used to remove the air. The hollow needle or tube is inserted between the ribs into the air-filled space that is pressing on the collapsed lung. With the needle, a syringe is attached so the doctor can pull out the excess air &amp;mdash; just like a syringe is used to pull blood from a vein. Chest tubes are often attached to a suction device that continuously removes air from the chest cavity and may be left in place for several hours to several days. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+If a chest tube doesn&apos;t resolve your problem, surgery may be necessary to close the air leak. In most cases, the surgery can be performed through small incisions, using a tiny fiberoptic camera and narrow, long-handled surgical tools. The surgeon will look for the leaking bleb and sew it closed. If no leaking bleb is visible, a substance like talc is blown in through the tube to irritate the tissues around the lung so that they&apos;ll stick together and seal any leaks. Rarely, the surgeon will have to make a larger incision between the ribs to get better access to multiple or larger air leaks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pneumothorax
+	</Title>
+	<Abstract>
+		Pneumothorax &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of a collapsed lung.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00016" LinkType="Internal" ObjectID="3A0199BB-D616-47B5-A5A0D9D9EC2DEAE0" Title="Chest pain" Url="http://www.mayoclinic.com/health/chest-pain/DS00016" />
+	</RelatedLinksBox>
+</Disease>

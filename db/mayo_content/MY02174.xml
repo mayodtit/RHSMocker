@@ -1,0 +1,280 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY02174
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/egg-freezing/MY02174
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-17
+		</UpdateDate>
+		<PublicationDate>
+			2013-01-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4213" Title="Surgery">
+							<Keyword MCVID="5433" Title="Egg freezing" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A4289A3-CF79-8006-75C83F9051AC42F8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				egg freezing
+			</MetaKeyword>
+			<MetaKeyword>
+				oocyte cryopreservation
+			</MetaKeyword>
+			<MetaKeyword>
+				IVF
+			</MetaKeyword>
+			<MetaKeyword>
+				infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Egg freezing, also known as mature oocyte cryopreservation, is a method used to preserve a woman&apos;s reproductive potential.
+&lt;/p&gt;
+&lt;p&gt;
+Eggs are harvested from your ovaries, frozen unfertilized and stored for later use. A frozen egg can be thawed, combined with sperm in a lab and implanted in your uterus (in vitro fertilization). 
+&lt;/p&gt;
+&lt;p&gt;
+However, only a small portion of eggs that are frozen, thawed and implanted result in the birth of a baby. Egg freezing can also be expensive. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor can help you understand how egg freezing works, the potential risks and whether this method of fertility preservation is right for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Egg freezing might be an option if you&apos;re not ready to become pregnant now but want to try to ensure your ability to get pregnant or have a biological child in the future. 
+&lt;/p&gt;
+&lt;p&gt;
+Unlike with fertilized egg freezing (embryo cryopreservation), egg freezing doesn&apos;t require a participating male partner or use of a sperm donor because the eggs won&apos;t be fertilized before they&apos;re frozen. Just as with embryo freezing, however, you&apos;ll need to use fertility drugs to induce ovulation so that you&apos;ll produce multiple eggs for retrieval. 
+&lt;/p&gt;
+&lt;p&gt;
+You might consider egg freezing if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re about to undergo cancer treatment.&lt;/strong&gt; Certain cancer treatments &amp;mdash; such as radiation or chemotherapy &amp;mdash; can harm your fertility. Egg freezing before treatment might allow you to have biological children at a later date.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re undergoing in vitro fertilization.&lt;/strong&gt; If your partner isn&apos;t able to produce sufficient sperm on the day you have your eggs retrieved, egg freezing might be needed. When undergoing in vitro fertilization, some people prefer egg freezing to embryo freezing for religious or ethical reasons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Egg freezing might be appealing if you&apos;re concerned about age-related infertility, but the method isn&apos;t recommended for this purpose due to the risks, costs and limited success rates. 
+&lt;/p&gt;
+&lt;p&gt;
+You can use your frozen eggs to try to conceive a biological child with sperm from a partner or a sperm donor. A donor can be known or anonymous. The embryo can also be implanted in the uterus of a gestational carrier. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Egg freezing carries various risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Conditions related to the use of fertility drugs.&lt;/strong&gt; Rarely, use of injectable fertility drugs, such as human chorionic gonadotropin (HCG), to induce ovulation can cause ovarian hyperstimulation syndrome &amp;mdash; in which your ovaries become swollen and painful soon after ovulation or egg retrieval. Signs and symptoms include mild abdominal pain, bloating, nausea, vomiting and diarrhea. Even more rarely, it&apos;s possible to develop a more severe form of ovarian hyperstimulation syndrome that can also cause rapid weight gain and shortness of breath. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Egg retrieval procedure complications.&lt;/strong&gt; Rarely, use of an aspirating needle to retrieve eggs causes bleeding, infection, or damage to the bowel, bladder or a blood vessel. Risks associated with general anesthesia &amp;mdash; which might be used for some egg retrieval procedures &amp;mdash; also might pose a concern.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional risks.&lt;/strong&gt; Egg freezing can provide false hope. The procedure, coupled with in vitro fertilization, has a limited success rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you use your frozen eggs to become pregnant or have a biological child, the risk of miscarriage will be primarily based on your age at the time of egg retrieval. 
+&lt;/p&gt;
+&lt;p&gt;
+Limited research hasn&apos;t shown an increase in the risk of birth defects for babies born as a result of egg freezing. However, further research is needed to confirm the safety of egg freezing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re considering freezing your eggs, look for a fertility clinic with expertise in the field. The Centers for Disease Control and Prevention and the Society for Assisted Reproductive Technology provide information online about U.S. fertility clinics&apos; individual pregnancy and live birth rates &amp;mdash; although data related to pregnancies using frozen eggs is limited. Keep in mind, however, that a clinic&apos;s success rate depends on many factors, such as patients&apos; ages. 
+&lt;/p&gt;
+&lt;p&gt;
+If the expense of egg freezing is a concern, ask for detailed information about the costs associated with each step of the procedure and the annual storage fees.
+&lt;/p&gt;
+&lt;p&gt;
+Before beginning the egg-freezing process, you&apos;ll likely need screenings, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ovarian reserve testing.&lt;/strong&gt; To determine the quantity and quality of your eggs, your doctor might test the concentration of follicle-stimulating hormone (FSH) in your blood on day three of your menstrual cycle. Test results can help predict how your ovaries will respond to fertility medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infectious disease screening.&lt;/strong&gt; You&apos;ll be screened for certain infectious diseases, such as HIV. Potentially infectious eggs are stored differently than are other eggs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before going forward with egg freezing, consider important questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;When do you plan to become pregnant?&lt;/strong&gt; Weigh the probability that you&apos;ll be able to become pregnant at that age against the probability of a successful pregnancy with the use of eggs that have been frozen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;How many eggs would you like to freeze?&lt;/strong&gt; Most fertility experts recommend freezing a total of 20 to 30 eggs and thawing six to eight eggs for each pregnancy attempt, depending on your age and egg quality. As a result, you might need to undergo ovarian stimulation &amp;mdash; in which you inject medication to stimulate your ovaries &amp;mdash; more than once.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What will you do with unused eggs?&lt;/strong&gt; You might be able to donate unused frozen eggs to a couple or a research facility. You might also choose to discard unused eggs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;Egg freezing has multiple steps &amp;mdash; ovulation induction, egg retrieval and freezing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ovulation induction&lt;br /&gt;
+&lt;/strong&gt;At the beginning of your menstrual cycle, you&apos;ll begin treatment with synthetic hormones to stimulate your ovaries to produce multiple eggs &amp;mdash; rather than the single egg that normally develops each month. Several different medications might be needed, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications for ovarian stimulation.&lt;/strong&gt; To stimulate your ovaries, you might inject medication such as follicle-stimulating hormone (Follistim Aq, Bravelle) or human menopausal gonadotropin (Menopur).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to prevent premature ovulation&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; To prevent premature ovulation, you might inject medication such as a gonadotropin-releasing hormone agonist (Lupron) or a gonadotropin-releasing hormone antagonist (Cetrotide).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During treatment, your doctor will likely use vaginal ultrasound &amp;mdash; a procedure that uses sound waves to create an image of the inside of your ovaries &amp;mdash; to monitor the development of fluid-filled ovarian cysts where eggs mature (follicles). Blood tests also will be used to measure your response to ovarian-stimulation medications. Estrogen levels typically increase as follicles develop and progesterone levels remain low until after ovulation. 
+&lt;/p&gt;
+&lt;p&gt;
+When the follicles are ready for egg retrieval &amp;mdash; generally after eight to 14 days &amp;mdash; injections of HCG (Pregnyl, Ovidrel) or other medications can help the eggs mature. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Egg retrieval&lt;br /&gt;
+&lt;/strong&gt;Egg retrieval is done under sedation, typically in your doctor&apos;s office or a clinic. A common approach is transvaginal ultrasound aspiration. During this procedure, an ultrasound probe is inserted into your vagina to identify the follicles. A needle is then guided through the vagina and into a follicle. A suction device connected to the needle is used to remove the egg from the follicle. Multiple eggs can be removed from your follicles in about 30 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+After egg retrieval, you might experience cramping. Feelings of fullness or pressure might continue for weeks because your ovaries remain enlarged. 
+&lt;/p&gt;
+&lt;p&gt;
+If your ovaries aren&apos;t accessible through transvaginal ultrasound, placement of the needle might be guided through laparoscopy &amp;mdash; a procedure in which a slender viewing instrument (laparoscope) is inserted through a tiny incision near your navel. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Freezing&lt;br /&gt;
+&lt;/strong&gt;Shortly after your unfertilized eggs are harvested, they&apos;re cooled to subzero temperatures to stop all biological activity and preserve them for future use. The makeup of an unfertilized egg makes it more difficult to freeze and lead to a successful pregnancy than does the makeup of a fertilized egg (embryo). As a result, your health care team might apply special techniques, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use of cryoprotectants.&lt;/strong&gt; These substances help prevent eggs from forming harmful intracellular ice crystals during freezing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Slow-freeze method.&lt;/strong&gt; In this method, programmable freezers are used to slowly freeze eggs and prevent them from forming intracellular ice crystals. A slow-freeze method can also be used to protect eggs from potential exposure to toxins in the cryoprotectants. In this application, low concentrations of cryoprotectants are used initially. As the temperature is gradually reduced and the eggs&apos; metabolic rates decline, higher concentrations of cryoprotectants are used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitrification.&lt;/strong&gt; In this method, high initial concentrations of cryoprotectants are used in combination with cooling so rapid that intracellular ice crystals don&apos;t have time to form. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;Typically, you can resume normal activities within a week of egg retrieval. Avoid unprotected sex to prevent unwanted pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Contact your health care provider if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A fever higher than 101.5 F (38.6 C)&lt;/li&gt;
+	&lt;li&gt;Severe abdominal pain&lt;/li&gt;
+	&lt;li&gt;Weight gain of more than 2 pounds (0.9 kg) in 24 hours&lt;/li&gt;
+	&lt;li&gt;Heavy vaginal bleeding &amp;mdash; filling more than two pads an hour&lt;/li&gt;
+	&lt;li&gt;Difficulty urinating&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of egg retrieval 
+" Caption="Egg retrieval is often done through a procedure called transvaginal ultrasound aspiration. During this procedure, an ultrasound probe is inserted into the vagina to identify the follicles. A needle is then guided through the vagina and into a follicle. A suction device connected to the needle is used to remove the egg from the follicle. Multiple eggs can be removed from multiple follicles in about 30 minutes. 
+" Height="60" Title="Illustration of egg retrieval" URI="/images/image_popup/thumbs/mcdc7_in_vitro_eggretrievalthu.jpg" Width="60" />
+				<Image Alt="Illustration of egg retrieval 
+" Caption="Egg retrieval is often done through a procedure called transvaginal ultrasound aspiration. During this procedure, an ultrasound probe is inserted into the vagina to identify the follicles. A needle is then guided through the vagina and into a follicle. A suction device connected to the needle is used to remove the egg from the follicle. Multiple eggs can be removed from multiple follicles in about 30 minutes. 
+" Height="360" Title="Egg retrieval technique illustration" URI="/images/image_popup/mcdc7_in_vitro_eggretrieval.jpg" Width="400" />
+				<HTML>
+					Egg retrieval is often done through a procedure called transvaginal ultrasound aspiration. During this procedure, an ultrasound probe is inserted into the vagina to identify the follicles. A needle ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you choose to use your frozen eggs, they&apos;ll be thawed, fertilized with sperm in a lab, and implanted in your or a gestational carrier&apos;s uterus. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care team might recommend using a fertilization technique called intracytoplasmic sperm injection (ICSI). In ICSI, a single healthy sperm is injected directly into each mature egg. 
+&lt;/p&gt;
+&lt;p&gt;
+About 75 to 80 percent of eggs survive freezing and thawing, and a similar amount will be successfully fertilized. The chances of becoming pregnant after implantation are roughly 40 to 50 percent, depending on your age at the time of egg freezing. The older you are at the time of egg freezing, the lower the likelihood that you&apos;ll have a live birth in the future. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that pregnancy rates might be lower when frozen eggs are used, compared with fresh or frozen embryos. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ICSI 
+" Caption="Intracytoplasmic sperm injection (ICSI) is a fertilization technique in which a single healthy sperm is injected directly into a mature egg. 
+" Height="60" Title="Illustration of ICSI" URI="/images/image_popup/thumbs/mcdc7_in_vitro_icsithu.jpg" Width="60" />
+				<Image Alt="Illustration of ICSI 
+" Caption="Intracytoplasmic sperm injection (ICSI) is a fertilization technique in which a single healthy sperm is injected directly into a mature egg. 
+" Height="360" Title="ICSI technique illustration" URI="/images/image_popup/mcdc7_in_vitro_icsi.jpg" Width="400" />
+				<HTML>
+					Intracytoplasmic sperm injection (ICSI) is a fertilization technique in which a single healthy sperm is injected directly into a mature egg. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Egg freezing
+	</Title>
+	<Abstract>
+		Egg freezing &amp;mdash; Overview covers definition, risks, results of this fertility preservation method.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

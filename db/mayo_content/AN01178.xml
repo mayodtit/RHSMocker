@@ -1,0 +1,127 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01178
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/parkinsonism/AN01178
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-23
+		</UpdateDate>
+		<PublicationDate>
+			2005-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2968" Title="Movement">
+						<Keyword MCVID="2977" Title="Parkinsonism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5FDCA275-040B-49E0-93B7CB3433AACFF7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				parkinsonism
+			</MetaKeyword>
+			<MetaKeyword>
+				Parkinson&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary parkinsonism
+			</MetaKeyword>
+			<MetaKeyword>
+				Parkinsonism syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Parkinsonism is any condition that causes a combination of the movement abnormalities seen in Parkinson&apos;s disease &amp;mdash; such as tremor, slow movement, impaired speech or muscle stiffness &amp;mdash; especially resulting from the loss of dopamine-containing nerve cells (neurons).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible causes&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+Not everyone who has parkinsonism has Parkinson&apos;s disease. Other causes of parkinsonism can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; such as those used to treat psychosis, major psychiatric disorders and nausea&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repeated head trauma&lt;/strong&gt; such as injuries sustained in boxing&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain neurodegenerative disorders,&lt;/strong&gt; such as multiple system atrophy and progressive supranuclear palsy &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lewy body dementia&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;The role of medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;For drug-induced parkinsonism,&lt;/strong&gt; discontinuing the medications that cause the condition can reverse it. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;For other forms of parkinsonism,&lt;/strong&gt; taking Parkinson&apos;s disease medications &amp;mdash; typically a combination of carbidopa and levodopa (Sinemet, Parcopa) &amp;mdash; can help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, these drugs aren&apos;t likely to be as effective for some forms of parkinsonism as they are for Parkinson&apos;s disease. Levodopa &amp;mdash; which occurs naturally in the body and is always taken as a combination drug &amp;mdash; replenishes brain dopamine, and brain dopamine loss is fundamental to Parkinson&apos;s disease. However, in other parkinsonian disorders, additional brain circuits besides dopamine may be affected.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other steps you can take&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+Certain lifestyle changes also may help you cope with parkinsonism: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stay physically active.&lt;/strong&gt; To the extent you&apos;re able, try to sustain your normal daily activities, exercise regularly, and incorporate physical and occupational therapy as needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a safe environment.&lt;/strong&gt; If gait and balance become impaired, consider modifying your environment. For example, install grab bars next to your toilet or in your shower, remove obstacles such as throw rugs, and keep frequently used items within reach.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Parkinsonism: Causes and coping strategies
+	</Title>
+	<Abstract>
+		Parkinsonism, a condition similar to Parkinson&apos;s disease, has a number of causes and coping strategies.
+	</Abstract>
+	<Question>
+		I was recently diagnosed with parkinsonism. What causes it, and how can I cope as it progresses?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

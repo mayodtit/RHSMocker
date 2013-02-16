@@ -1,0 +1,234 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00456
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dandruff/DS00456
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-23
+		</UpdateDate>
+		<PublicationDate>
+			2003-01-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2982" Title="Fungal skin infections">
+							<Keyword MCVID="2986" Title="Dandruff" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F8F56A90-7CF0-4E06-A079CA10DE146B1E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dandruff
+			</MetaKeyword>
+			<MetaKeyword>
+				hair
+			</MetaKeyword>
+			<MetaKeyword>
+				scalp
+			</MetaKeyword>
+			<MetaKeyword>
+				seborrheic dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dandruff shampoos
+			</MetaKeyword>
+			<MetaKeyword>
+				malessezia
+			</MetaKeyword>
+			<MetaKeyword>
+				ring worm
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy scalp
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dandruff is a common chronic scalp condition marked by itching and flaking of the skin on your scalp. Although dandruff isn&apos;t contagious and is rarely serious, it can be embarrassing and sometimes difficult to treat.
+&lt;/p&gt;
+&lt;p&gt;
+The good news is that dandruff usually can be controlled. Mild cases of dandruff may need nothing more than daily shampooing with a gentle cleanser. More stubborn cases of dandruff often respond to medicated shampoos.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most teens and adults, dandruff symptoms are easy to spot: white, oily looking flakes of dead skin that dot your hair and shoulders, and an itchy, scaling scalp. The condition may worsen during the fall and winter, when indoor heating can contribute to dry skin, and improve during the summer.
+&lt;/p&gt;
+&lt;p&gt;
+A type of dandruff called cradle cap can affect babies. This disorder, which causes a scaling, crusty scalp, is most common in newborns, but it can occur anytime during infancy. Although it can be alarming for parents, cradle cap isn&apos;t dangerous and usually clears up on its own by the time a baby is a year old.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Most cases of dandruff don&apos;t require a doctor&apos;s care. But if you&apos;re still scratching your head after several weeks of experimenting with over-the-counter (OTC) dandruff shampoos, or if your scalp becomes red or swollen, see your doctor or dermatologist. You may have seborrheic dermatitis or another condition that resembles dandruff. Often your doctor can diagnose the problem simply by looking at your hair and scalp.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dandruff can have several causes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dry skin.&lt;/strong&gt; Simple dry skin &amp;mdash; the kind you get during winter when the air is cold and rooms are overheated &amp;mdash; is the most common cause of itchy, flaking dandruff. Flakes from dry skin are generally smaller and less oily than those from other causes of dandruff, and you&apos;ll likely have symptoms and signs of dry skin on other parts of the body, such as your legs and arms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritated, oily skin (seborrheic dermatitis).&lt;/strong&gt; This condition, one of the most frequent causes of dandruff, is marked by red, greasy skin covered with flaky white or yellow scales. Seborrheic dermatitis may affect not only your scalp, but also other areas rich in oil glands, such as your eyebrows, the sides of your nose and the backs of your ears, your breastbone, your groin area, and sometimes your armpits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Not shampooing often enough.&lt;/strong&gt; If you don&apos;t regularly wash your hair, oils and skin cells from your scalp can build up, causing dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriasis.&lt;/strong&gt; This skin disorder causes an accumulation of dead skin cells that form thick, silvery scales. Psoriasis commonly occurs on your knees, elbows and trunk, but it can also affect your scalp. It may be difficult to differentiate from seborrheic dermatitis if only the scalp is involved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eczema.&lt;/strong&gt; If you have eczema anywhere on your body, it could also be on your scalp, possibly leading to the development of dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensitivity to hair care products (contact dermatitis).&lt;/strong&gt; Sometimes sensitivities to certain ingredients in hair care products or hair dyes, especially paraphenylene diamine (PPD), can cause a red, itchy, scaling scalp. Shampooing too often or using too many styling products also may irritate your scalp, causing dandruff.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;A yeast-like fungus (malassezia).&lt;/strong&gt; Malassezia lives on the scalps of most healthy adults without causing problems. But sometimes it grows out of control, feeding on the oils secreted by your hair follicles. This can irritate the skin on your scalp and cause more skin cells to grow. The extra skin cells die and fall off, clumping with oil from your hair and scalp, making them appear white and flaky in your hair or on your clothes. Most often this eruption is identical to or closely resembles seborrheic dermatitis.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Exactly what causes an overgrowth of malassezia isn&apos;t known, although having too much oil on your scalp; changes in your hormones; stress; illness; neurological disorders, such as Parkinson&apos;s disease; a suppressed immune system; not shampooing often enough; and extra sensitivity to the malassezia fungus may contribute to the development of dandruff.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Almost anyone can have dandruff, but certain factors can make you more susceptible:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Dandruff usually begins in young adulthood and continues through middle age. That doesn&apos;t mean older adults don&apos;t get dandruff, however. For some people, the problem can be lifelong.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Because more men have dandruff, some researchers think male hormones may play a role in dandruff. Men also have larger oil-producing glands on their scalps, which can contribute to dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oily hair and scalp.&lt;/strong&gt; Malassezia feeds on oils in your scalp. For that reason, having excessively oily skin and hair makes you more prone to dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor diet.&lt;/strong&gt; If your diet lacks foods high in zinc, B vitamins or certain types of fats, you may be more likely to have dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain illnesses.&lt;/strong&gt; For reasons that aren&apos;t clear, adults with neurological diseases, such as Parkinson&apos;s disease, are more likely to develop seborrheic dermatitis and dandruff. So are people recovering from stressful conditions, particularly heart attack and stroke, and those with compromised immune systems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need any special preparations for an appointment to diagnose dandruff. Your doctor should be able to diagnose your dandruff and its cause simply by looking at your scalp and skin. If you&apos;ve started using any new hair care products, bring the bottles with you to your appointment or be prepared to tell your doctor about them, so he or she can determine whether the products may be causing your dandruff.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dandruff can almost always be controlled, but dandruff treatment may take a little patience and persistence. In general, daily cleansing with a gentle shampoo to reduce oiliness and skin cell buildup can often help mild dandruff.
+&lt;/p&gt;
+&lt;p&gt;
+When regular shampoos fail, OTC dandruff shampoos may succeed. But dandruff shampoos aren&apos;t all alike, and you may need to experiment until you find one that works for you. If you develop itching, stinging, redness or burning from any of these products, discontinue use. If you develop an allergic reaction, such as a rash, hives or difficulty breathing, seek immediate medical attention.
+&lt;/p&gt;
+&lt;p&gt;
+Dandruff shampoos are classified according to the medication they contain:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Zinc pyrithione shampoos (such as Selsun Salon, Head &amp; Shoulders).&lt;/strong&gt; These contain the antibacterial and antifungal agent zinc pyrithione, which can reduce the fungus on your scalp that can cause dandruff and seborrheic dermatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tar-based shampoos (such as Neutrogena T/Gel).&lt;/strong&gt; Coal tar, a byproduct of the coal manufacturing process, helps conditions such as dandruff, seborrheic dermatitis and psoriasis by slowing how quickly skin cells on your scalp die and flake off.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shampoos containing salicylic acid (such as Ionil T).&lt;/strong&gt; These &quot;scalp scrubs&quot; help eliminate scale, but they may leave your scalp dry, leading to more flaking. Using a conditioner after shampooing can help relieve dryness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Selenium sulfide shampoos (such as Selsun Blue).&lt;/strong&gt; These shampoos slow your skin cells from dying and may also reduce malassezia. Because they can discolor blond, gray or chemically colored hair, be sure to use them only as directed, and rinse well after shampooing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ketoconazole shampoos (such as Nizoral).&lt;/strong&gt; Ketoconazole is a broad-spectrum antifungal agent that may work when other shampoos fail. It&apos;s available over-the-counter as well as by prescription.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Try using one of these shampoos daily or every other day until your dandruff is controlled; then cut back to two or three times a week, as needed. If one type of shampoo works for a time and then seems to lose its effectiveness, try alternating between two types of dandruff shampoos. Be sure to massage the shampoo into the scalp well and then leave the shampoo on for at least five minutes &amp;mdash; this gives the ingredients time to work.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve shampooed faithfully for several weeks and there&apos;s still a dusting of dandruff on your shoulders, talk to your doctor or dermatologist. You may need a prescription-strength shampoo or treatment with a steroid lotion.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to regular shampooing, you can take steps to reduce your risk of developing dandruff:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn to manage stress.&lt;/strong&gt; Stress affects your overall health, making you susceptible to a number of conditions and diseases. It can even help trigger dandruff or worsen existing symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shampoo often.&lt;/strong&gt; If you tend to have an oily scalp, daily shampooing may help prevent dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cut back on styling products.&lt;/strong&gt; Hair sprays, styling gels, mousses and hair waxes can all build up on your hair and scalp, making them oilier.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; A diet that provides enough zinc, B vitamins and certain types of fats may help prevent dandruff.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get a little sun.&lt;/strong&gt; Sunlight may be good for dandruff. But because exposure to ultraviolet light damages your skin and increases your risk of skin cancer, don&apos;t sunbathe. Instead, just spend a little time outdoors. And be sure to wear sunscreen on your face and body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One alternative therapy that seems to reduce dandruff is daily shampooing with tea tree oil. Tea tree oil, which comes from the leaves of the Australian tea tree (Melaleuca alternifolia), has been used for centuries as an antiseptic, antibiotic and antifungal agent. It&apos;s now included in a number of shampoos found in natural foods stores. The oil may cause allergic reactions in some people. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dandruff
+	</Title>
+	<Abstract>
+		Dandruff &amp;mdash; Comprehensive overview covers causes, treatment of this sometimes embarrassing, flaky skin disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00984" LinkType="Internal" ObjectID="062B23A0-E7FF-0DBD-198C952AD9A8A894" Title="Seborrheic dermatitis" Url="http://www.mayoclinic.com/health/seborrheic-dermatitis/DS00984" />
+	</RelatedLinksBox>
+</Disease>

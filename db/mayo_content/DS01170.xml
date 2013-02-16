@@ -1,0 +1,327 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01170
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/atelectasis/DS01170
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-14
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2195" Title="Chronic lung">
+						<Keyword MCVID="2435" Title="Atelectasis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2DF19BFD-C87C-1865-6D71F3FCC6E90051
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				atelectasis
+			</MetaKeyword>
+			<MetaKeyword>
+				collapsed lung
+			</MetaKeyword>
+			<MetaKeyword>
+				partial lung collapse
+			</MetaKeyword>
+			<MetaKeyword>
+				breathing difficulty
+			</MetaKeyword>
+			<MetaKeyword>
+				obstructive atelectasis
+			</MetaKeyword>
+			<MetaKeyword>
+				resorptive atelectasis
+			</MetaKeyword>
+			<MetaKeyword>
+				nonobstructive atelectasis
+			</MetaKeyword>
+			<MetaKeyword>
+				lobar atelectasis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atelectasis (at-uh-LEK-tuh-sis) &amp;mdash; a complete or partial collapse of a lung or lobe of a lung &amp;mdash; develops when the tiny air sacs (alveoli) within the lung become deflated. It is one of the most common breathing (respiratory) complications after surgery. Atelectasis is also a possible complication of other respiratory problems, including cystic fibrosis, inhaled foreign objects, lung tumors, fluid in the lung, severe asthma and chest injuries. 
+&lt;/p&gt;
+&lt;p&gt;
+The amount of lung tissue involved in atelectasis is variable, depending on the cause. Signs and symptoms of atelectasis also vary. Atelectasis can be serious because it reduces the amount of oxygen available to your body. Treatment depends on the cause and severity of the collapse. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There may be no obvious signs or symptoms of atelectasis. If you do experience signs and symptoms, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing (dyspnea)&lt;/li&gt;
+	&lt;li&gt;Rapid, shallow breathing&lt;/li&gt;
+	&lt;li&gt;Coughing&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Significant atelectasis is likely to occur when you&apos;re already in a hospital. However, see your doctor right away if you have trouble breathing. Other conditions besides atelectasis can cause breathing difficulties and require an accurate diagnosis and prompt treatment. If your breathing becomes increasingly difficult, seek emergency care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atelectasis may be the result of a blocked airway (obstructive) or of pressure from outside the lung (nonobstructive). 
+&lt;/p&gt;
+&lt;p&gt;
+Almost everyone who undergoes surgery has some atelectasis from anesthesia. Anesthesia changes the dynamics of airflow within the lungs, the absorption of gases and pressures, all of which combine to cause some degree of collapse of the tiny air sacs (alveoli) in your lungs. It is particularly prominent after heart bypass surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+A blockage in your air passages (bronchial tubes) can cause obstructive atelectasis. Possible causes of blockage include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mucus plug.&lt;/strong&gt; Accumulation of mucus in your airways, often occurring during and after surgery because you can&apos;t cough, is the most common cause of atelectasis. Drugs given during surgery make the lungs inflate less fully than usual, so normal secretions collect in the airways. Suctioning the lungs during surgery helps clear away these secretions, but they may continue to build up afterward. This is why it&apos;s important to breathe and cough deeply during your recovery. Expanding the lungs gets air around the mucus plugs and makes them easier to cough out. Mucus plugs also are common in people with cystic fibrosis and during severe asthma attacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foreign body.&lt;/strong&gt; Children are most likely to inhale an object, such as a peanut or small toy part, into their lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowing of major airways from disease.&lt;/strong&gt; Chronic infections, including fungal infections, tuberculosis and other diseases can scar and constrict major airways.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor in a major airway.&lt;/strong&gt; An abnormal growth can narrow the airway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clot.&lt;/strong&gt; This occurs only if there&apos;s significant bleeding into the lungs that can&apos;t be coughed out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Possible causes of nonobstructive atelectasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injury.&lt;/strong&gt; Chest trauma &amp;mdash; from a fall or car accident, for example &amp;mdash; can cause you to avoid taking deep breaths (due to the pain), which can result in compression of your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pleural effusion.&lt;/strong&gt; This is a buildup of fluid between the tissues (pleura) that line the lungs and the inside of the chest wall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonia.&lt;/strong&gt; Different types of pneumonia, an inflammation of your lungs, temporarily can cause atelectasis. An atelectatic lung that remains collapsed for a few weeks or more can result in bronchiectasis (brong-key-EK-tuh-sis), a condition in which damage to the airways causes them to widen and become flabby and scarred.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumothorax.&lt;/strong&gt; Air leaks into the space between your lungs and chest wall, indirectly causing some or all of a lung to collapse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring of lung tissue.&lt;/strong&gt; Scarring could be caused by injury, lung disease or surgery. In these rare cases, the atelectasis is minor compared with the damage to the lung tissue from the scarring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor.&lt;/strong&gt; A large tumor can press against and deflate the lung, as opposed to blocking the air passages.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of atelectasis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Premature birth, if the lungs aren&apos;t fully developed&lt;/li&gt;
+	&lt;li&gt;Impaired swallowing function, particularly in older adults &amp;mdash; aspirating secretions into the lungs is a major source of infections&lt;/li&gt;
+	&lt;li&gt;Any condition that interferes with spontaneous coughing, yawning and sighing&lt;/li&gt;
+	&lt;li&gt;Lung disease, such as asthma, bronchiectasis or cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;Confinement to bed, with infrequent change of position&lt;/li&gt;
+	&lt;li&gt;Abdominal or chest surgery&lt;/li&gt;
+	&lt;li&gt;Recent general anesthesia&lt;/li&gt;
+	&lt;li&gt;Shallow breathing &amp;mdash; a result of abdominal pain or rib fracture, for example&lt;/li&gt;
+	&lt;li&gt;Respiratory muscle weakness, due to muscular dystrophy, spinal cord injury or another neuromuscular condition&lt;/li&gt;
+	&lt;li&gt;Obesity &amp;mdash; fat in the abdomen can elevate your diaphragm and hamper your ability to inhale fully&lt;/li&gt;
+	&lt;li&gt;Age &amp;mdash; being a young child between the ages of 1 and 3 &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following complications may result from atelectasis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood oxygen (hypoxemia).&lt;/strong&gt; Atelectasis hampers your lungs&apos; ability to get oxygen to the alveoli.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung scarring.&lt;/strong&gt; Some damage or scarring may remain after the lung is reinflated, resulting in bronchiectasis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonia.&lt;/strong&gt; You&apos;re at greater risk of developing pneumonia until the atelectasis has been cleared. The mucus in a collapsed lung is a breeding ground for bacterial infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory failure.&lt;/strong&gt; A small area of atelectasis, especially in an adult, usually is treatable. But a large area, particularly in an infant or in someone with lung disease, can be life-threatening.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Unless you require emergency care, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a lung specialist (pulmonologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recall when symptoms began&lt;/strong&gt; and what you were doing at the time. Ask young children in a nonthreatening way about things they have put in their mouths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking. Some medications, such as antihistamines, can make your secretions thicker and more difficult to cough out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a sample of your sputum&lt;/strong&gt; in a small container.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible, to help you remember everything that is said.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions during your appointment if you don&apos;t understand something or need more information. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A chest X-ray usually can diagnose atelectasis. Symptoms of a respiratory infection, especially pneumonia, on a child&apos;s chest X-ray may indicate a foreign body, the most common cause of obstructive atelectasis in children. 
+&lt;/p&gt;
+&lt;p&gt;
+To determine the underlying cause, your doctor may order other tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;CT scan.&lt;/strong&gt; CT is more sensitive than plain X-ray in detecting atelectasis because it can measure lung volumes in all or part of a lung. A CT scan can also help determine whether a tumor may have caused your lung to collapse &amp;mdash; something that may not show up on a regular X-ray. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Ultrasound may be used to look for fluid accumulation outside the lungs that is compressing the lung tissue. It may also help guide the removal of that fluid.&lt;strong&gt; &lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oximetry.&lt;/strong&gt; This simple test uses a small device placed on one of your fingers to measure the oxygen saturation in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchoscopy.&lt;/strong&gt; A flexible, lighted tube threaded down your throat enables your doctor to see and possibly remove, at least partially, obstructions in your airway, such as a mucus plug, tumor or foreign body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of atelectasis depends on the cause. Atelectasis of a small area of your lung may subside without treatment. If there&apos;s an underlying condition, such as a tumor, treatment may involve removal or shrinkage of the tumor with surgery, chemotherapy or radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chest physiotherapy&lt;/strong&gt; &lt;br /&gt;
+Techniques that help people breathe deeply after surgery to re-expand collapsed lung tissue are very important. These techniques are best learned before surgery. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Coughing.&lt;/li&gt;
+	&lt;li&gt;Clapping (percussion) on your chest over the collapsed area to loosen mucus. You can also use mechanical mucus-clearance devices such as an air-pulse vibrator vest or a hand-held instrument.&lt;/li&gt;
+	&lt;li&gt;Performing deep-breathing exercises (incentive spirometry).&lt;/li&gt;
+	&lt;li&gt;Positioning your body so that your head is lower than your chest (called postural drainage). This allows mucus to drain better from the bottom of your lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Supplemental oxygen can help relieve shortness of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+In some cases, medications may be used. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inhaled bronchodilators (Foradil, Serevent, others), which open the bronchial tubes of the lungs, making breathing easier.&lt;/li&gt;
+	&lt;li&gt;Acetylcysteine (Acetadote) may help thin mucus and make it easier to cough up.&lt;/li&gt;
+	&lt;li&gt;Dornase Alfa (Pulmozyme) is used to clear mucus plugs in children with cystic fibrosis. Its role in treatment of atelectasis for people without cystic fibrosis is not fully defined. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical or other procedures&lt;/strong&gt; &lt;br /&gt;
+Your doctor may suggest removal of airway obstructions, which may be done by suctioning mucus or by bronchoscopy. Bronchoscopy uses a flexible tube threaded down your throat to clear your airways.
+&lt;/p&gt;
+&lt;p&gt;
+Use of continuous positive pressure may be helpful in some people with low oxygen levels (hypoxemia) after surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To decrease atelectasis risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be careful with small objects.&lt;/strong&gt; Don&apos;t give children nuts until they are about 3 years old, when they have molars to more thoroughly chew nuts. And be careful about allowing young children to play with toys that have small, loose pieces.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking increases mucus production and damages the small, hair-like structures that line the bronchial tubes (cilia). Their wave-like motion helps carry mucus out of your airways.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do deep-breathing exercises.&lt;/strong&gt; After surgery, follow your doctor&apos;s instructions for frequent coughing and doing deep-breathing exercises.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reposition yourself.&lt;/strong&gt; If you must stay in bed, change your position frequently. Get up and walk as soon as you&apos;re able.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Atelectasis
+	</Title>
+	<Abstract>
+		Atelectasis &amp;mdash; Comprehensive overview covers symptoms and causes of a partly or completely collapsed lung.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+	</RelatedLinksBox>
+</Disease>

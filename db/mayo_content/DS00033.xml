@@ -1,0 +1,292 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00033
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/corns-and-calluses/DS00033
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-05
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2861" Title="Corns and calluses" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			83690172-1A5B-4FB6-9B394F312388502A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				calluses
+			</MetaKeyword>
+			<MetaKeyword>
+				corns
+			</MetaKeyword>
+			<MetaKeyword>
+				bunions
+			</MetaKeyword>
+			<MetaKeyword>
+				hammertoe
+			</MetaKeyword>
+			<MetaKeyword>
+				shoes
+			</MetaKeyword>
+			<MetaKeyword>
+				foot pain
+			</MetaKeyword>
+			<MetaKeyword>
+				corns and calluses
+			</MetaKeyword>
+			<MetaKeyword>
+				callus
+			</MetaKeyword>
+			<MetaKeyword>
+				callous
+			</MetaKeyword>
+			<MetaKeyword>
+				callouses
+			</MetaKeyword>
+			<MetaKeyword>
+				corn
+			</MetaKeyword>
+			<MetaKeyword>
+				sore toe
+			</MetaKeyword>
+			<MetaKeyword>
+				sore foot
+			</MetaKeyword>
+			<MetaKeyword>
+				toe pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Corns and calluses are thick, hardened layers of skin that develop when your skin tries to protect itself against friction and pressure. They most often develop on the feet and toes or hands and fingers. Corns and calluses can be unsightly.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re healthy, you need treatment for corns and calluses only if they cause discomfort. For most people, simply eliminating the source of friction or pressure makes corns and calluses disappear.
+&lt;/p&gt;
+&lt;p&gt;
+However, if you have diabetes or another condition that causes poor circulation to your feet, you&apos;re at greater risk of complications from corns and calluses. Seek your doctor&apos;s advice on proper care for corns and calluses if you have one of these conditions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have a corn or callus if you notice:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A thick, rough area of skin&lt;/li&gt;
+	&lt;li&gt;A hardened, raised bump&lt;/li&gt;
+	&lt;li&gt;Tenderness or pain under your skin&lt;/li&gt;
+	&lt;li&gt;Flaky, dry or waxy skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Corns and calluses are often confused, but they&apos;re not the same thing:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corns&lt;/strong&gt; are smaller than calluses and have a hard center surrounded by inflamed skin. Corns tend to develop on parts of your feet that don&apos;t bear weight, such as the tops and sides of your toes, though they can also be found in weight-bearing areas. Corns can even develop between your toes. Corns can be painful when pressed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calluses&lt;/strong&gt; usually develop on the soles of your feet, especially under the heels or balls, on your palms, or on your knees. Calluses are rarely painful and vary in size and shape, though they&apos;re often larger than corns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If a corn or callus becomes very painful or inflamed, see your doctor. If you have diabetes or poor circulation, call your doctor before self-treating corns or calluses because even a relatively minor injury to your foot could lead to an infected open sore (foot ulcer) that&apos;s difficult to heal.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of a corn
+" Caption="Corns have a hard center and tend to develop on the tops and sides of your toes. They can be painful.
+" Height="60" Title="Corn" URI="/images/image_popup/thumbs/r7_cornthu.jpg" Width="60" />
+				<Image Alt="Picture of a corn
+" Caption="Corns have a hard center and tend to develop on the tops and sides of your toes. They can be painful.
+" Height="337" Title="Corn" URI="/images/image_popup/r7_corn.jpg" Width="400" />
+				<HTML>
+					Corns have a hard center and tend to develop on the tops and sides of your toes. They can be painful.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of a callus
+" Caption="A callus usually develops on the soles of the feet and palms of the hands. It can vary in size and shape and is rarely painful.
+" Height="60" Title="Callus" URI="/images/image_popup/thumbs/sn7_callusesthu.jpg" Width="60" />
+				<Image Alt="Picture of a callus
+" Caption="A callus usually develops on the soles of the feet and palms of the hands. It can vary in size and shape and is rarely painful.
+" Height="318" Title="Callus" URI="/images/image_popup/sn7_calluses.jpg" Width="400" />
+				<HTML>
+					A callus usually develops on the soles of the feet and palms of the hands. It can vary in size and shape and is rarely painful.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pressure and friction from repetitive actions cause corns and calluses to develop and grow. Some causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ill-fitting shoes.&lt;/strong&gt; When shoes are too tight or have high heels, they compress areas of your foot. When they&apos;re too loose, your foot may repeatedly slide and rub against the shoe. Your foot may also rub against a poorly placed seam or stitch inside the shoe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skipping socks.&lt;/strong&gt; Wearing shoes and sandals without socks can lead to friction on your feet. Socks that don&apos;t fit properly also can be a problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using hand tools.&lt;/strong&gt; Calluses on your hands may result from the repeated pressure of using tools on the job, around the house or in the garden.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may increase your risk of corns and calluses:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bunions, hammertoe or other foot deformities.&lt;/strong&gt; A bunion is an abnormal, bony bump that forms on the joint at the base of your big toe. A hammertoe is a toe deformity in which your toe becomes curled up like a claw. These conditions and other foot deformities, such as a bone spur, can cause constant rubbing inside your shoe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Not protecting your hands.&lt;/strong&gt; Using hand tools without wearing gloves exposes your skin to excessive friction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of bunion 
+" Caption="When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. 
+" Height="60" Title="Bunion" URI="/images/image_popup/thumbs/mcdc7_bunionthu.jpg" Width="60" />
+				<Image Alt="Illustration of bunion 
+" Caption="When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. 
+" Height="455" Title="Bunion" URI="/images/image_popup/mcdc7_bunion.jpg" Width="400" />
+				<HTML>
+					When you have a bunion, your big toe joint becomes enlarged, forcing it to crowd against your other toes. The pressure on your big toe joint pushes it outward beyond the normal profile of your foot. ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing hammertoe 
+" Caption="A hammertoe is a toe that&apos;s curled due to a bend in the middle joint of the toe. 
+" Height="60" Title="Hammertoe" URI="/images/image_popup/thumbs/r7_hammertoethu.jpg" Width="60" />
+				<Image Alt="Illustration showing hammertoe 
+" Caption="A hammertoe is a toe that&apos;s curled due to a bend in the middle joint of the toe. 
+" Height="350" Title="Hammertoe" URI="/images/image_popup/r7_hammertoe.jpg" Width="400" />
+				<HTML>
+					A hammertoe is a toe that&apos;s curled due to a bend in the middle joint of the toe. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will examine your feet and rule out other causes of thickened skin, such as warts and cysts. Your doctor may also request an X-ray to see if a physical abnormality is causing the corn or callus.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for corns and calluses usually involves avoiding the repetitive actions that cause them to develop. Wearing properly fitting shoes, using protective pads and other self-care measures can help resolve them.
+&lt;/p&gt;
+&lt;p&gt;
+If a corn or callus persists or becomes painful despite your self-care efforts, medical treatments can provide relief:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trimming.&lt;/strong&gt; Your doctor can pare down thickened skin or trim a large corn with a scalpel, usually during an office visit. Don&apos;t try trimming yourself because it could lead to an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Salicylic acid.&lt;/strong&gt; Additionally, your doctor may apply a patch containing 40 percent salicylic acid (Curad Mediplast, Dr. Scholl&apos;s Corn Removers, others), which is available without a prescription. He or she will let you know how often you need to replace this patch, and may recommend that you use a pumice stone or a metal nail file to smooth away the dead skin before applying a new patch. Salicylic acid is also available in a topical form by prescription for large areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotic medication.&lt;/strong&gt; Your doctor may also suggest applying an antibiotic ointment to reduce the risk of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shoe inserts.&lt;/strong&gt; If you have an underlying foot deformity, your doctor may prescribe custom-made padded shoe inserts (orthotics) to prevent recurring corns or calluses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In rare instances, your doctor may recommend surgery to correct the alignment of the bone causing the friction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have diabetes or another condition that causes poor circulation, consult your doctor before attempting to treat corns and calluses on your own.
+&lt;/p&gt;
+&lt;p&gt;
+If you have no underlying health problems, these suggestions may help clear up corns and calluses:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use over-the-counter pads.&lt;/strong&gt; Apply pads to protect areas where corns and calluses develop. Be careful using over-the-counter liquid corn removers or medicated corn pads. These contain salicylic acid, which can irritate healthy skin and lead to infection, especially in people with diabetes and poor circulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Soak your hands or feet.&lt;/strong&gt; Soaking your hands or feet in warm, soapy water softens corns and calluses. This can make it easier to remove the thickened skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thin your thickened skin.&lt;/strong&gt; During or after bathing, rub corns or calluses with a pumice stone or washcloth to help remove a layer of toughened skin. Don&apos;t use a sharp object to trim the skin. Don&apos;t use a pumice stone if you have diabetes because your risk of infection is higher.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Moisturize your skin.&lt;/strong&gt; Apply moisturizer to hands and feet to help keep your skin soft.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear comfortable shoes and socks.&lt;/strong&gt; Stick to well-fitting, cushioned shoes until your corn or callus disappears. Also, choose socks that fit properly and are made of a polyester-cotton blend because they wick moisture away better than all-cotton socks do.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These approaches may help you prevent corns and calluses from developing:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear shoes that give your toes plenty of room.&lt;/strong&gt; If you can&apos;t wiggle your toes, your shoes are too tight. Have your shoe shop stretch your shoes at any point that rubs or pinches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use protective coverings.&lt;/strong&gt; Wear felt pads, nonmedicated corn pads or bandages over areas that rub against footwear. You can also try toe separators or some lamb&apos;s wool between your toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear padded gloves when using hand tools.&lt;/strong&gt; Or try padding your tool handles with cloth tape or covers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Corns and calluses
+	</Title>
+	<Abstract>
+		Corns and calluses &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

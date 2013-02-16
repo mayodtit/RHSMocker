@@ -1,0 +1,382 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00466
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/boils-and-carbuncles/DS00466
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-19
+		</UpdateDate>
+		<PublicationDate>
+			2002-11-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2777" Title="Bacterial skin infections">
+							<Keyword MCVID="2979" Title="Boils and carbuncles" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			786D66A9-9055-43D7-994E27F8CA58E905
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				boils
+			</MetaKeyword>
+			<MetaKeyword>
+				carbuncles
+			</MetaKeyword>
+			<MetaKeyword>
+				boils and carbuncles
+			</MetaKeyword>
+			<MetaKeyword>
+				hair follicles
+			</MetaKeyword>
+			<MetaKeyword>
+				skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin lumps
+			</MetaKeyword>
+			<MetaKeyword>
+				staph
+			</MetaKeyword>
+			<MetaKeyword>
+				Stahylococcus aureus
+			</MetaKeyword>
+			<MetaKeyword>
+				blood poisoning
+			</MetaKeyword>
+			<MetaKeyword>
+				septicemia
+			</MetaKeyword>
+			<MetaKeyword>
+				staph infection
+			</MetaKeyword>
+			<MetaKeyword>
+				staff infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Boils and carbuncles are painful, pus-filled bumps that form under your skin when bacteria infect and inflame one or more of your hair follicles. 
+&lt;/p&gt;
+&lt;p&gt;
+Boils (furuncles) usually start as red, tender lumps. The lumps quickly fill with pus, growing larger and more painful until they rupture and drain. A carbuncle is a cluster of boils that form a connected area of infection under the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+You can usually care for a single boil at home, but don&apos;t attempt to prick or squeeze it &amp;mdash; that may spread the infection. Call your doctor if a boil or carbuncle is extremely painful, lasts longer than two weeks or occurs with a fever. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing boil 
+" Caption="A boil is a painful, pus-filled bump under your skin &amp;mdash; the result of a bacterial infection of one or more hair follicles. 
+" Height="60" Title="Boil" URI="/images/image_popup/thumbs/sn7_boilthu.jpg" Width="60" />
+				<Image Alt="Image showing boil 
+" Caption="A boil is a painful, pus-filled bump under your skin &amp;mdash; the result of a bacterial infection of one or more hair follicles. 
+" Height="270" Title="Boil" URI="/images/image_popup/sn7_boil.jpg" Width="400" />
+				<HTML>
+					A boil is a painful, pus-filled bump under your skin &amp;mdash; the result of a bacterial infection of one or more hair follicles. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carbuncle 
+" Caption="A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+" Height="60" Title="Carbuncle" URI="/images/image_popup/thumbs/r7_carbunclethu.jpg" Width="60" />
+				<Image Alt="Image showing carbuncle 
+" Caption="A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+" Height="399" Title="Carbuncle" URI="/images/image_popup/r7_carbuncle.jpg" Width="400" />
+				<HTML>
+					A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Boils&lt;/strong&gt;&lt;br /&gt;
+Boils can occur anywhere on your skin, but appear mainly on your face, neck, armpits, buttocks or thighs &amp;mdash; hair-bearing areas where you&apos;re most likely to sweat or experience friction. Signs and symptoms of a boil usually include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A painful, red bump that starts out about the size of a pea&lt;/li&gt;
+	&lt;li&gt;Red, swollen skin around the bump&lt;/li&gt;
+	&lt;li&gt;An increase in the size of the bump over a few days as it fills with pus (can sometimes reach the size of a golf ball)&lt;/li&gt;
+	&lt;li&gt;Development of a yellow-white tip that eventually ruptures and allows the pus to drain out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once the boil drains, the pain usually subsides. Small boils usually heal without scarring, but a large boil may leave a scar. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Carbuncles&lt;/strong&gt;&lt;br /&gt;
+A carbuncle is a cluster of boils that often occurs on the back of the neck, shoulders or thighs. Carbuncles: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cause a deeper and more severe infection than single boils do&lt;/li&gt;
+	&lt;li&gt;Develop and heal more slowly than single boils do&lt;/li&gt;
+	&lt;li&gt;Are likely to leave a scar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms that may accompany carbuncles include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeling unwell in general&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+You usually can care for a single, small boil yourself. But see your doctor if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A boil on your face or spine&lt;/li&gt;
+	&lt;li&gt;A boil that worsens rapidly or is extremely painful&lt;/li&gt;
+	&lt;li&gt;Boils that are very large, haven&apos;t healed in two weeks or are accompanied by a fever&lt;/li&gt;
+	&lt;li&gt;Frequent boils&lt;/li&gt;
+	&lt;li&gt;A condition that suppresses your immune system, such as an organ transplant, corticosteroid use or an HIV infection&lt;/li&gt;
+	&lt;li&gt;Recently been hospitalized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children and older adults who develop one or more boils also should receive medical care. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing boil 
+" Caption="A boil is a painful, pus-filled bump under your skin &amp;mdash; the result of a bacterial infection of one or more hair follicles. 
+" Height="60" Title="Boil" URI="/images/image_popup/thumbs/sn7_boilthu.jpg" Width="60" />
+				<Image Alt="Image showing boil 
+" Caption="A boil is a painful, pus-filled bump under your skin &amp;mdash; the result of a bacterial infection of one or more hair follicles. 
+" Height="270" Title="Boil" URI="/images/image_popup/sn7_boil.jpg" Width="400" />
+				<HTML>
+					A boil is a painful, pus-filled bump under your skin &amp;mdash; the result of a bacterial infection of one or more hair follicles. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carbuncle 
+" Caption="A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+" Height="60" Title="Carbuncle" URI="/images/image_popup/thumbs/r7_carbunclethu.jpg" Width="60" />
+				<Image Alt="Image showing carbuncle 
+" Caption="A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+" Height="399" Title="Carbuncle" URI="/images/image_popup/r7_carbuncle.jpg" Width="400" />
+				<HTML>
+					A carbuncle is a cluster of boils &amp;mdash; painful, pus-filled bumps &amp;mdash; that form a connected area of infection under the skin. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Boils usually form when one or more hair follicles &amp;mdash; the tube-shaped shafts from which hair grows &amp;mdash; become infected with staph bacteria (Staphylococcus aureus). These bacteria, which normally inhabit your skin and sometimes your throat and nasal passages, are responsible for a number of serious diseases, including pneumonia and endocarditis &amp;mdash; an infection of the lining of your heart. They&apos;re also a major cause of hospital-acquired infections.
+&lt;/p&gt;
+&lt;p&gt;
+Staph bacteria that cause boils generally enter through a cut, scratch or other break in your skin. As soon as this occurs, specialized white blood cells called neutrophils rush to the site to fight the infection. This leads to inflammation and eventually to the formation of pus &amp;mdash; a mixture of old white blood cells, bacteria and dead skin cells.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone &amp;mdash; including otherwise healthy people &amp;mdash; can develop boils or carbuncles, the following factors can increase your risk:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Close contact with a person who has a staph infection.&lt;/strong&gt; You&apos;re more likely to develop an infection if you live with someone who has a boil or carbuncle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; This disease can make it more difficult for your body to fight infection, including bacterial infections of your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other skin conditions.&lt;/strong&gt; Because they damage your skin&apos;s protective barrier, skin problems, such as acne and eczema, make you more susceptible to boils and carbuncles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compromised immunity.&lt;/strong&gt; If your immune system is compromised for any reason, you&apos;re more susceptible to boils and carbuncles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of boils and carbuncles are generally few, but can be serious. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood poisoning.&lt;/strong&gt; In some cases, bacteria from a boil or more commonly, a carbuncle, can enter your bloodstream and travel to other parts of your body. The spreading infection, commonly known as blood poisoning (sepsis), can lead to infections deep within your body, such as your heart (endocarditis) and bone (osteomyelitis). Blood poisoning itself &amp;mdash; which is characterized by high fever, rapid breathing and elevated heart rate &amp;mdash; can lead to septic shock, a life-threatening state of extremely low blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;MRSA.&lt;/strong&gt; Another potentially serious problem is the emergence of drug-resistant strains of Staphylococcus aureus. Up to half of the staph bacteria found in hospitals are resistant to many commonly used antibiotics, including methicillin. Methicillin-resistant staphylococcus aureus (MRSA) has led to the use of alternative antibiotics, such as vancomycin, but some strains of staph bacteria have become less susceptible to vancomycin, too. Although MRSA is often acquired in a hospital setting, it can be spread in the general community, as well.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although you&apos;re likely to see your family doctor or a general practitioner first, you may be referred to a specialist in skin diseases (dermatologist) or infectious diseases.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Write down all your signs and symptoms and when they first occurred. Record how long the lesions lasted and if any recurred.
+&lt;/p&gt;
+&lt;p&gt;
+Make a list of all medications, including vitamins, herbs and over-the-counter drugs that you&apos;re taking. Even better, take the original bottles and a written list of the dosages and directions.
+&lt;/p&gt;
+&lt;p&gt;
+For boils and carbuncles, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing the signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent the infection from spreading?&lt;/li&gt;
+	&lt;li&gt;What skin-care routine do you recommend while the condition heals?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What did the boil look like when it first started?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms painful?&lt;/li&gt;
+	&lt;li&gt;Have you had a boil or carbuncle before?&lt;/li&gt;
+	&lt;li&gt;What medications do you take?&lt;/li&gt;
+	&lt;li&gt;Are you having fever or chills?&lt;/li&gt;
+	&lt;li&gt;Do you have artificial heart valves, joints or other implanted devices?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors usually diagnose boils and carbuncles by considering signs, symptoms and medical history and looking at these distinctive sores.
+&lt;/p&gt;
+&lt;p&gt;
+If you have recurring infections, infections that don&apos;t respond to standard treatment or have a weakened immune system, your doctor may culture the drainage. During this test, your doctor uses a sterile swab to gently remove a small bit of pus or drainage from the boil or carbuncle. The sample is then cultured in a laboratory for the presence of bacteria.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can generally treat small boils at home by applying warm compresses to relieve pain and promote natural drainage.
+&lt;/p&gt;
+&lt;p&gt;
+For larger boils and carbuncles, treatment usually includes draining the boil with an incision and sometimes taking antibiotics:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Incision and drainage.&lt;/strong&gt; Your doctor may drain a large boil or carbuncle by making a small incision in the tip. This relieves pain, speeds recovery and helps lessen scarring. Deep infections that can&apos;t be completely drained may be packed with sterile gauze so that pus can continue to drain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Sometimes your doctor may prescribe antibiotics to help heal severe or recurrent infections, or infections that may be caused by MRSA.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For small boils, these measures may help the infection heal more quickly and prevent it from spreading:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a warm washcloth or compress to the affected area.&lt;/strong&gt; Do this for at least 10 minutes every few hours. If possible, first soak the cloth or compress in warm salt water. This helps the boil rupture and drain more quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Never squeeze or lance a boil yourself.&lt;/strong&gt; This can spread the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands thoroughly after treating a boil.&lt;/strong&gt; Also, launder clothing, towels or compresses that have touched the infected area, especially if you have recurrent boils or carbuncles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tea tree oil, which is extracted from the leaves of the Australian tea tree (Melaleuca alternifolia), has been used for centuries as an antiseptic, antibiotic and antifungal agent. It&apos;s also used topically to treat boils, although there&apos;s no strong scientific evidence that it&apos;s beneficial.
+&lt;/p&gt;
+&lt;p&gt;
+Tea tree oil can cause allergic reactions in some people, so be sure to stop using it and tell your doctor if you have any problems with its use.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although it&apos;s not always possible to prevent boils, especially if you have a compromised immune system, the following measures may help you avoid staph infections:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands regularly with mild soap.&lt;/strong&gt; Or, use an alcohol-based hand rub often. Careful hand washing is your best defense against germs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thoroughly clean even small cuts and scrapes.&lt;/strong&gt; Wash the wound well with soap and water and apply an over-the-counter antibiotic ointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep wounds covered.&lt;/strong&gt; Keep cuts and abrasions clean and covered with sterile, dry bandages until they heal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep personal items personal.&lt;/strong&gt; Avoid sharing personal items, such as towels, sheets, razors, clothing and athletic equipment. Staph infections can spread via objects, as well as from person to person. If you have a cut or sore, wash your towels and linens using detergent and hot water with added bleach, and dry them in a hot dryer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Boils and carbuncles
+	</Title>
+	<Abstract>
+		Boils and carbuncles &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of these pus-filled bumps.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

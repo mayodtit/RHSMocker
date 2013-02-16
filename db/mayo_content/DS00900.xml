@@ -1,0 +1,254 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00900
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hantavirus-pulmonary-syndrome/DS00900
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-12
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="4346" Title="Hantavirus pulmonary syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F6B00C17-E7FF-0DBD-179B139E94B8EE49
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hantavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				hantavirus pulmonary syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				hanta virus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hantavirus pulmonary syndrome is an infectious disease characterized by flu-like symptoms that can progress rapidly to potentially life-threatening breathing problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Several types of hantavirus can cause hantavirus pulmonary syndrome. They are carried by several types of rodents, particularly the deer mouse. You become infected primarily by breathing air infected with hantaviruses that are shed in rodent urine and droppings. 
+&lt;/p&gt;
+&lt;p&gt;
+Because treatment options are limited, the best protection against hantavirus pulmonary syndrome is to avoid rodents and their habitats. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hantavirus pulmonary syndrome advances through two distinct stages. In the first stage, you may experience flu-like signs and symptoms that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever and chills&lt;/li&gt;
+	&lt;li&gt;Headaches and muscle aches&lt;/li&gt;
+	&lt;li&gt;Vomiting, diarrhea or abdominal pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In its early stages, hantavirus infection is difficult to distinguish from influenza, pneumonia or other viral conditions. After three to seven days, more-serious signs and symptoms begin. They typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cough that produces secretions&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Fluid accumulating within the lungs&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Reduced heart efficiency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+The signs and symptoms of hantavirus pulmonary syndrome can worsen suddenly and may quickly become life-threatening. If you&apos;ve been around rodents or rodent droppings and have signs and symptoms of fever, chills, muscle aches or any difficulties breathing, seek immediate medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Each type of hantavirus has a preferred rodent carrier. The deer mouse is the primary carrier of the virus responsible for most cases of hantavirus pulmonary syndrome in North America. Other hantavirus carriers include the white-tailed mouse, cotton rat and rice rat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inhalation: Main route of transmission&lt;/strong&gt; &lt;br /&gt;
+Hantaviruses are transmitted to people primarily through the &quot;aerosolization&quot; of viruses shed in infected rodents&apos; droppings, urine or saliva. Aerosolization occurs when a virus is kicked up into the air, making it easy for you to inhale. For example, a broom used to clean up mouse droppings in an attic may nudge into the air tiny particles of feces containing hantaviruses, which you can then easily inhale. 
+&lt;/p&gt;
+&lt;p&gt;
+After you inhale hantaviruses, they reach your lungs and begin to invade tiny blood vessels called capillaries, eventually causing them to leak. Your lungs then flood with fluid, which can trigger any of the respiratory problems associated with hantavirus pulmonary syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Person-to-person transmission&lt;/strong&gt; &lt;br /&gt;
+People who have the North American version of hantavirus pulmonary syndrome aren&apos;t contagious to other people. However, the milder South American variety of the disease can be transmitted from person to person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hantavirus pulmonary syndrome is most common in rural areas of the western United States during the spring and summer months. Hantavirus pulmonary syndrome also occurs in South America and Canada. Other hantaviruses occur in Asia, where they cause kidney disorders rather than lung problems. 
+&lt;/p&gt;
+&lt;p&gt;
+The chance of developing hantavirus pulmonary syndrome is greater for people who work, live or play in spaces where rodents live. Factors and activities that increase the risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Opening and cleaning long unused buildings or sheds&lt;/li&gt;
+	&lt;li&gt;Housecleaning, particularly in attics or other low-traffic areas&lt;/li&gt;
+	&lt;li&gt;Having a home or work space infested with rodents&lt;/li&gt;
+	&lt;li&gt;Having a job that involves exposure to rodents, such as construction, utility work and pest control&lt;/li&gt;
+	&lt;li&gt;Camping, hiking or hunting&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hantavirus pulmonary syndrome can quickly become life-threatening. As the lungs fill with fluid, it becomes more and more difficult to breathe. Blood pressure drops and organs begin to fail, particularly the heart. The mortality rate for the North American variety of hantavirus pulmonary syndrome is more than 30 percent. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might first see your family doctor. However, when you call to set up an appointment, your doctor may recommend urgent medical care. If you&apos;re having severe difficulty breathing, seek emergency medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing? When did they begin?&lt;/li&gt;
+	&lt;li&gt;Have you recently cleaned any rarely used rooms or buildings?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent exposure to mice or rats?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical problems?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you routinely take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you had any flu-like discomfort, such as fever, muscle aches and fatigue?&lt;/li&gt;
+	&lt;li&gt;Have you had any gastrointestinal problems, such as diarrhea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Have you noticed your heart beating faster than normal?&lt;/li&gt;
+	&lt;li&gt;Are you having difficulty breathing? Is it getting worse?&lt;/li&gt;
+	&lt;li&gt;Is anyone else in your life having similar symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood tests can reveal if your body has made antibodies to a hantavirus. Your doctor may order other laboratory tests to rule out other conditions with similar symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Specific treatment options for hantavirus pulmonary syndrome are limited. But the prognosis improves with early recognition, immediate hospitalization and adequate support for breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive therapy&lt;/strong&gt; &lt;br /&gt;
+People with severe cases need immediate treatment in an intensive care unit. Assisted respiration, whether through intubation or mechanical ventilation, can help with breathing and ward off pulmonary edema. Intubation involves placing a breathing tube through your nose, mouth or trachea to help keep your airways open and functioning. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood oxygenation&lt;/strong&gt; &lt;br /&gt;
+In extremely severe cases of pulmonary distress, you&apos;ll need a method called extracorporeal membrane oxygenation to help ensure you retain a sufficient supply of oxygen. This involves continuously pumping your blood through a machine that removes carbon dioxide and adds oxygen. The oxygenated blood is then returned to your body. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keeping rodents out of your home and workplace can help reduce your risk of hantavirus infection. Try these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Block access.&lt;/strong&gt; Mice can squeeze through holes as small as a quarter-inch (6 millimeters) wide. Seal holes with wire screening, metal flashing or cement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Close the food buffet.&lt;/strong&gt; Wash dishes promptly, clean counters and floors, and store your food &amp;mdash; including pet food &amp;mdash; in rodent-proof containers. Use tightfitting lids on garbage cans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce nesting material.&lt;/strong&gt; Clear brush, grass and junk away from the building&apos;s foundation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set traps.&lt;/strong&gt; Spring-loaded traps should be set along baseboards. Exercise caution while using poison-bait traps, as the poison also can harm people and pets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Safe cleanup procedures&lt;/strong&gt; &lt;br /&gt;
+Wet down dead rodents and areas where rodents have been with alcohol, household disinfectants or bleach. This kills the virus and helps prevent infected dust from being stirred up into the air. Once everything is wet, use a damp towel to pick up the contaminated material. Then mop or sponge the area with disinfectant. 
+&lt;/p&gt;
+&lt;p&gt;
+Take special precautions, such as wearing a respirator, when cleaning buildings with heavy rodent infestations. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hantavirus pulmonary syndrome
+	</Title>
+	<Abstract>
+		Hantavirus pulmonary syndrome &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this potentially fatal illness.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

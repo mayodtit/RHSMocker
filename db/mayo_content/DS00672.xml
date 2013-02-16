@@ -1,0 +1,292 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00672
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/molluscum-contagiosum/DS00672
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2796" Title="Viral skin infection">
+							<Keyword MCVID="2997" Title="Molluscum contagiosum" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen">
+						<Keyword MCVID="3535" Title="06 to 10 years elementary" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4A5A37E3-2A5D-9994-E68E1A562F2B51D0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				molluscum contagiosum
+			</MetaKeyword>
+			<MetaKeyword>
+				molluscum
+			</MetaKeyword>
+			<MetaKeyword>
+				skin infection
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				poxvirus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Molluscum contagiosum (mo-LUS-kum kun-tay-jee-OH-sum) is a relatively common viral infection of the skin that results in round, firm, painless bumps ranging in size from a pinhead to a pencil eraser. If the bumps are scratched or injured, the infection can spread to surrounding skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Though most common in children, molluscum contagiosum can affect adults as well &amp;mdash; particularly those with weakened immune systems. In adults, molluscum contagiosum involving the genitals is considered a sexually transmitted infection (STI). 
+&lt;/p&gt;
+&lt;p&gt;
+Molluscum contagiosum spreads through direct person-to-person contact and through contact with contaminated objects. The bumps associated with molluscum contagiosum usually disappear within a year without treatment but doctor-assisted removal is also an option. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of molluscum contagiosum 
+" Caption="Molluscum contagiosum is a common skin infection that results in raised, round, flesh-colored bumps on the skin. These bumps can become red and inflamed. 
+" Height="60" Title="Molluscum contagiosum" URI="/images/image_popup/thumbs/mcdc7_molluscumthu.jpg" Width="60" />
+				<Image Alt="Image of molluscum contagiosum 
+" Caption="Molluscum contagiosum is a common skin infection that results in raised, round, flesh-colored bumps on the skin. These bumps can become red and inflamed. 
+" Height="393" Title="Molluscum contagiosum" URI="/images/image_popup/mcdc7_molluscum.jpg" Width="400" />
+				<HTML>
+					Molluscum contagiosum is a common skin infection that results in raised, round, flesh-colored bumps on the skin. These bumps can become red and inflamed. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Molluscum contagiosum results in raised, round, flesh-colored bumps on the skin. The bumps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are small &amp;mdash; typically under about a quarter inch (approximately 2 to 5 millimeters) in diameter&lt;/li&gt;
+	&lt;li&gt;Characteristically have a small indentation or dot at the top&lt;/li&gt;
+	&lt;li&gt;Can become red and inflamed&lt;/li&gt;
+	&lt;li&gt;Can be easily removed by scratching or rubbing, which can spread the virus to adjacent skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In children, the bumps typically appear on the face, neck, armpits, hands and arms. In adults, molluscum contagiosum may be a sexually transmitted infection (STI) and is usually seen on the genitals, lower abdomen, inner upper thighs and buttocks.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you suspect you or your child has molluscum contagiosum, consult your family doctor or a dermatologist. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of molluscum contagiosum 
+" Caption="Molluscum contagiosum is a common skin infection that results in raised, round, flesh-colored bumps on the skin. These bumps can become red and inflamed. 
+" Height="60" Title="Molluscum contagiosum" URI="/images/image_popup/thumbs/mcdc7_molluscumthu.jpg" Width="60" />
+				<Image Alt="Image of molluscum contagiosum 
+" Caption="Molluscum contagiosum is a common skin infection that results in raised, round, flesh-colored bumps on the skin. These bumps can become red and inflamed. 
+" Height="393" Title="Molluscum contagiosum" URI="/images/image_popup/mcdc7_molluscum.jpg" Width="400" />
+				<HTML>
+					Molluscum contagiosum is a common skin infection that results in raised, round, flesh-colored bumps on the skin. These bumps can become red and inflamed. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The virus that causes molluscum contagiosis spreads easily through: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Direct skin-to-skin contact&lt;/li&gt;
+	&lt;li&gt;Contact with contaminated objects, such as toys, towels and faucet handles&lt;/li&gt;
+	&lt;li&gt;Sexual contact with an affected partner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Scratching or rubbing the bumps spreads the virus to nearby skin.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+More widespread molluscum contagiosis infections may occur in people with weakened immune systems and in children who have atopic dermatitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The bumps and the skin around them may become red and inflamed. This is thought to be an immune response to the infection. If scratched, these bumps can become infected. If lesions appear on the eyelids, pinkeye (conjunctivitis) can develop.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a specialist, such as a dermatologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take on a regular basis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you had similar lesions in the past?&lt;/li&gt;
+	&lt;li&gt;Has anyone close to you had similar lesions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor usually can diagnose molluscum contagiosum just by looking at it. If there&apos;s any doubt, he or she may take skin scrapings from the infected area and view them under a microscope. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Molluscum contagiosum usually resolves without treatment within six to 12 months. But doctors often recommend that the lesions be removed before that, particularly in adults, because they are so contagious. Treatments for molluscum contagiosum can be painful, so an anesthetic might be administered beforehand to lessen discomfort. Sometimes a combination of treatments may be used.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;In some cases, prescription or over-the-counter medications applied directly to the lesions may be helpful. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Irritating products.&lt;/strong&gt; These preparations often contain ingredients, such as salicylic acid or potassium hydroxide, that help dissolve the lesion over time. Others may cause a blister to form under the bump, lifting it off your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antiviral creams.&lt;/strong&gt; Prescription antiviral creams, such as imiquimod (Aldara, Zyclara), are often effective in removing molluscum contagiosum lesions over time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;The methods doctors use to remove molluscum contagiosum bumps include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scraping&lt;/li&gt;
+	&lt;li&gt;Freezing (cryotherapy)&lt;/li&gt;
+	&lt;li&gt;Laser therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent the spread of the virus:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Keeping your hands clean can help prevent spreading the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid touching the bumps.&lt;/strong&gt; Shaving over the infected areas also can spread the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share personal items.&lt;/strong&gt; This includes clothing, towels, hairbrushes or other personal items. Refrain from borrowing these items from others as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sexual contact.&lt;/strong&gt; If you have molluscum contagiosum on or near your genitals, don&apos;t have sex until the bumps are treated and have completely resolved.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the bumps.&lt;/strong&gt; Use a bandage to cover your bumps if there&apos;s a possibility that another person may come in contact with infected skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Swimming pool precautions&lt;br /&gt;
+&lt;/strong&gt;It&apos;s not clear if the molluscum contagiosum virus can spread in the chlorinated water found in swimming pools. Experts suspect that it&apos;s more likely that swimmers transmit the virus through shared use of towels; equipment, such as kickboards; or direct skin contact. To help prevent the spread of molluscum contagiosum, cover the bumps with watertight bandages before swimming and don&apos;t share towels, water toys or kickboards. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Molluscum contagiosum
+	</Title>
+	<Abstract>
+		Molluscum contagiosum &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common skin infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

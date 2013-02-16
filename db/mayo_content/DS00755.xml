@@ -1,0 +1,263 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00755
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/Dermatographia/DS00755
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2006-06-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="1839" Title="Allergic skin conditions">
+							<Keyword MCVID="2692" Title="Dermatographia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AF190E0F-E7FF-0DBD-1C2D2A739A608CAC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dermatographia
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatographism
+			</MetaKeyword>
+			<MetaKeyword>
+				dermographism
+			</MetaKeyword>
+			<MetaKeyword>
+				skin writing
+			</MetaKeyword>
+			<MetaKeyword>
+				scratching
+			</MetaKeyword>
+			<MetaKeyword>
+				hives
+			</MetaKeyword>
+			<MetaKeyword>
+				urticaria
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermatographia is a condition also known as skin writing. When people who have dermatographia lightly scratch their skin, the scratches redden into a raised wheal similar to hives. These marks usually disappear within 30 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+The cause of dermatographia is unknown, but it can be triggered in some people by infections, emotional upset or medications such as penicillin. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people who have dermatographia don&apos;t seek treatment. If your signs and symptoms are especially bothersome, your doctor may recommend allergy medications such as diphenhydramine (Benadryl). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of dermatographia 
+" Caption="Dermatographia is a condition in which lightly scratching your skin causes raised, red lines where you&apos;ve scratched. Though not serious, it can be uncomfortable. 
+" Height="60" Title="Dermatographia" URI="/images/image_popup/thumbs/mcdc7_dermatographia_thu.jpg" Width="60" />
+				<Image Alt="Photo of dermatographia 
+" Caption="Dermatographia is a condition in which lightly scratching your skin causes raised, red lines where you&apos;ve scratched. Though not serious, it can be uncomfortable. 
+" Height="294" Title="Dermatographia" URI="/images/image_popup/mcdc7_dermatographia.jpg" Width="400" />
+				<HTML>
+					Dermatographia is a condition in which lightly scratching your skin causes raised, red lines where you&apos;ve scratched. Though not serious, it can be uncomfortable. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of dermatographia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Raised red lines&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Inflammation&lt;/li&gt;
+	&lt;li&gt;Hive-like welts&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The signs and symptoms may occur within a few minutes of your skin being rubbed or scratched and usually disappear within 30 minutes. Rarely, dermatographia develops more slowly and lasts several hours to several days. 
+&lt;/p&gt;
+&lt;p&gt;
+The condition itself can last for months or years. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if your signs and symptoms are particularly bothersome. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of dermatographia 
+" Caption="Dermatographia is a condition in which lightly scratching your skin causes raised, red lines where you&apos;ve scratched. Though not serious, it can be uncomfortable. 
+" Height="60" Title="Dermatographia" URI="/images/image_popup/thumbs/mcdc7_dermatographia_thu.jpg" Width="60" />
+				<Image Alt="Photo of dermatographia 
+" Caption="Dermatographia is a condition in which lightly scratching your skin causes raised, red lines where you&apos;ve scratched. Though not serious, it can be uncomfortable. 
+" Height="294" Title="Dermatographia" URI="/images/image_popup/mcdc7_dermatographia.jpg" Width="400" />
+				<HTML>
+					Dermatographia is a condition in which lightly scratching your skin causes raised, red lines where you&apos;ve scratched. Though not serious, it can be uncomfortable. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of dermatographia isn&apos;t clear. It may be caused by an allergic response, yet no specific allergen has been identified. 
+&lt;/p&gt;
+&lt;p&gt;
+Simple things can trigger symptoms of dermatographia. For example, rubbing from your clothes or bedsheets may irritate your skin. Sometimes, dermatographia is preceded by an infection, emotional upset or medications such as penicillin. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermatographia can occur at any age, but it tends to be more common in teenagers and young adults. If you have other skin conditions, such as dry skin or dermatitis, you may be more susceptible to dermatographia. Any skin condition that causes a frequent urge to scratch may increase your risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermatographia generally is harmless. It leaves no lasting marks and often causes only minor symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a doctor who specializes in skin conditions (dermatologist) or one who specializes in allergies (allergist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;At&lt;strong&gt; &lt;/strong&gt;the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as not take antihistamines for several days beforehand. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also want to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Were your symptoms preceded by an illness or a new medication?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have allergies? To what?&lt;/li&gt;
+	&lt;li&gt;Do you have dry skin or any other skin conditions?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can diagnose dermatographia with a simple test. He or she will draw a tongue depressor across the skin of your arm or back to see if a red, swollen line or a welt (wheal) appears within a few minutes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of dermatographia usually go away on their own, and treatment for dermatographia generally isn&apos;t necessary. However, if the condition is severe or bothersome, your doctor may recommend antihistamine medications such as diphenhydramine (Benadryl), fexofenadine (Allegra) or cetirizine (Zyrtec).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce discomfort and prevent the symptoms of dermatographia, try these tips: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritating your skin.&lt;/strong&gt; Refrain from using harsh soaps on your skin. Don&apos;t wear clothing made of itchy material, such as wool. Hot showers or baths may worsen the symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t scratch your skin.&lt;/strong&gt; If you have dermatographia or other skin conditions that may cause frequent itching, try to avoid scratching your skin. Scratching will aggravate the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your skin moisturized.&lt;/strong&gt; Dry skin tends to itch. Keep your skin moisturized by using lotions and creams. Keep yourself hydrated by drinking plenty of water.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dermatographia
+	</Title>
+	<Abstract>
+		Dermatographia &amp;mdash; Comprehensive overview covers symptoms, treatment of this skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

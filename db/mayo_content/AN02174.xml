@@ -1,0 +1,152 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02174
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/head-lice-prevention/AN02174
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2012-04-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="2900" Title="Lice">
+							<Keyword MCVID="3318" Title="Head lice" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ED8A9C78-E24E-B715-A576239249123DBB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				head lice prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				lice repellents
+			</MetaKeyword>
+			<MetaKeyword>
+				lice
+			</MetaKeyword>
+			<MetaKeyword>
+				nits
+			</MetaKeyword>
+			<MetaKeyword>
+				head lice
+			</MetaKeyword>
+			<MetaKeyword>
+				body lice
+			</MetaKeyword>
+			<MetaKeyword>
+				pubic lice
+			</MetaKeyword>
+			<MetaKeyword>
+				crabs
+			</MetaKeyword>
+			<MetaKeyword>
+				louse
+			</MetaKeyword>
+			<MetaKeyword>
+				pediculosis
+			</MetaKeyword>
+			<MetaKeyword>
+				head louse
+			</MetaKeyword>
+			<MetaKeyword>
+				lice control
+			</MetaKeyword>
+			<MetaKeyword>
+				lice treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				headlice
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Some over-the-counter products claim to repel lice, but more scientific research is needed to prove their safety and effectiveness. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of small studies have shown that ingredients in some of these products &amp;mdash; mostly plant oils such as rosemary, citronella, eucalyptus, tea tree and lemon grass &amp;mdash; may work to repel lice. However, these products are classified as &quot;natural&quot; so they aren&apos;t regulated by the Food and Drug Administration (FDA), and their safety and effectiveness haven&apos;t been tested to FDA standards. 
+&lt;/p&gt;
+&lt;p&gt;
+Because instructions for using these products aren&apos;t regulated either, it may not be clear how to use them safely. In fact, some products may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Be flammable&lt;/li&gt;
+	&lt;li&gt;Irritate the lungs if fumes are inhaled&lt;/li&gt;
+	&lt;li&gt;Be toxic or irritate skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Head lice prevention products can also be more expensive than typical hair care products, and they need to be used repeatedly to maintain their protective effects. Without a guarantee that the product will work, the cost may outweigh the benefits, especially if you&apos;re treating more than one person. 
+&lt;/p&gt;
+&lt;p&gt;
+Until more research proves the effectiveness of head lice prevention products, you can take simple measures to minimize your child&apos;s risk of getting lice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your child to avoid head-to-head contact&lt;/strong&gt; with classmates during play and other activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Instruct your child not to share personal belongings&lt;/strong&gt; such as hats, scarves, coats, combs, brushes, hair accessories and headphones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Instruct your child to avoid shared spaces&lt;/strong&gt; where hats and clothing from more than one student are hung on a common hook or kept in a locker.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Head lice prevention: What works, what doesn&apos;t?
+	</Title>
+	<Abstract>
+		Products that claim to prevent head lice are usually not supported by science.
+	</Abstract>
+	<Question>
+		A child at my daughter&apos;s school has lice. Can head lice prevention products prevent my daughter from getting lice?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00953" LinkType="Internal" ObjectID="EFE712B5-E7FF-0DBD-17579B80A2687C9C" Title="Head lice" Url="http://www.mayoclinic.com/health/head-lice/DS00953" />
+	</RelatedLinksBox>
+</Answer>

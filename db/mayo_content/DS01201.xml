@@ -1,0 +1,355 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01201
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/eisenmenger-syndrome/DS01201
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-25
+		</UpdateDate>
+		<PublicationDate>
+			2012-07-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="4953" Title="Eisenmenger syndrome" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5EC645DA-AB0D-10C2-F546DF339DE11B55
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Eisenmenger syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Eisenmenger&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eisenmenger (I-sun-meng-uhr) syndrome is a complication of a heart defect that you&apos;re born with (congenital). A heart defect that causes a hole (shunt) to develop between two chambers of your heart is the most common cause of Eisenmenger syndrome. This hole causes blood to circulate abnormally in your heart and lungs. Increased blood flow returns to your lungs instead of going to the rest of your body. The blood vessels in your lung arteries become stiff and narrow, increasing the pressure in your lung&apos;s arteries. This permanently damages the blood vessels in your lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+Eisenmenger syndrome occurs when the increased pressure of the blood flow in the lung becomes so great that the direction of blood flow through the shunt reverses. Oxygen-poor (blue) blood from the right side of the heart flows into the left ventricle and is pumped to your body, making it so that you don&apos;t receive enough oxygen to all your organs and tissues. Eisenmenger syndrome is a life-threatening condition requiring careful medical monitoring. Medications can improve symptoms and prognosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Eisenmenger syndrome 
+" Caption="Eisenmenger syndrome is most often a complication of having a hole (shunt) between two chambers of your heart. Here, a hole between the heart&apos;s main pumping chambers (ventricular septal defect) causes increased blood flow to the pulmonary arteries. Eventually the shunt irreparably damages the walls of your lung&apos;s arteries (pulmonary arteries). Eisenmenger syndrome occurs when the pressure in the pulmonary arteries becomes so high that it causes oxygen poor (blue) blood to flow from the right to left ventricle and then to the body, causing cyanosis. The high pressure also causes the walls of your heart&apos;s ventricle to thicken (hypertrophy).
+" Height="60" Title="Eisenmenger syndrome " URI="/images/image_popup/thumbs/mcdc7_eisenmengerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Eisenmenger syndrome 
+" Caption="Eisenmenger syndrome is most often a complication of having a hole (shunt) between two chambers of your heart. Here, a hole between the heart&apos;s main pumping chambers (ventricular septal defect) causes increased blood flow to the pulmonary arteries. Eventually the shunt irreparably damages the walls of your lung&apos;s arteries (pulmonary arteries). Eisenmenger syndrome occurs when the pressure in the pulmonary arteries becomes so high that it causes oxygen poor (blue) blood to flow from the right to left ventricle and then to the body, causing cyanosis. The high pressure also causes the walls of your heart&apos;s ventricle to thicken (hypertrophy).
+" Height="464" Title="Eisenmenger syndrome" URI="/images/image_popup/mcdc7_eisenmenger.jpg" Width="400" />
+				<HTML>
+					Eisenmenger syndrome is most often a complication of having a hole (shunt) between two chambers of your heart. Here, a hole between the heart&apos;s main pumping chambers (ventricular septal defect) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eisenmenger syndrome signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bluish or grayish skin color (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Large, rounded fingernails or toenails (clubbing)&lt;/li&gt;
+	&lt;li&gt;Easily tiring and shortness of breath with activity&lt;/li&gt;
+	&lt;li&gt;Shortness of breath while at rest&lt;/li&gt;
+	&lt;li&gt;Chest pain or tightness&lt;/li&gt;
+	&lt;li&gt;Skipped or racing heartbeats (palpitations)&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling in the fingers or toes&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have any signs or symptoms of Eisenmenger syndrome, make an appointment to see your doctor. Even if you haven&apos;t previously been diagnosed with a heart defect, symptoms such as cyanosis and shortness of breath are signals that you have a health problem that needs medical attention. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eisenmenger syndrome develops most often due to a hole between the chambers of your heart. To understand how Eisenmenger syndrome affects your heart and lungs, it&apos;s helpful to know how your heart works. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the heart works&lt;/strong&gt;&lt;br /&gt;
+Your heart is divided into four chambers, two on the right and two on the left. In performing its basic job &amp;mdash; pumping blood throughout your body &amp;mdash; your heart uses its left and right sides for different tasks. The right side moves blood into vessels that lead to your lungs. In your lungs, oxygen enriches your blood, which circulates to your heart&apos;s left side. The left side of your heart pumps blood into a large vessel called the aorta, which circulates blood to the rest of your body. Valves control the flow of blood into and out of the chambers of your heart. These valves open to allow blood to move to the next chamber or to one of the arteries, and they close to keep blood from flowing backward. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How Eisenmenger syndrome develops&lt;/strong&gt;&lt;br /&gt;
+For most people who have Eisenmenger syndrome, the cause of their condition is due to a hole (shunt) between the main blood vessels or chambers of your heart. This shunt is a heart defect you&apos;re born with (congenital). Heart defects that can cause Eisenmenger syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular septal defect.&lt;/strong&gt; This shunt in the wall of tissue that divides the right and left sides of your heart&apos;s main pumping chambers (ventricles) is the most common cause of Eisenmenger syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atrial septal defect.&lt;/strong&gt; An atrial septal defect is a shunt in the wall of tissue that divides the right and left sides of the upper chambers of your heart (atria).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Patent ductus arteriosus.&lt;/strong&gt; This heart defect is an opening between the pulmonary artery that carries oxygen-poor blood to the lungs and the artery that carries oxygen-rich blood to the rest of your body (aorta).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atrioventricular canal defect.&lt;/strong&gt; In this heart defect, there&apos;s a large hole in the center of the heart where the walls between the upper chambers (atria) and lower chambers (ventricles) meet. Some of the valves in your heart also may not function properly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For each of these defects, the increased pressure of blood flowing through the shunt increases the pressure in your pulmonary artery. Over time, this increased pressure damages the smaller blood vessels in your lungs. The damaged blood vessel walls make it difficult for the red blood cells to take up oxygen. Eisenmenger syndrome occurs when blood flows backward through the shunt, causing oxygen-rich and oxygen-poor blood to mix. This lowers the oxygen level in your blood (cyanosis), and your red blood cell count increases to try and make up for the lack of oxygen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eisenmenger syndrome occurs when a congenital heart defect is not detected early enough to be treated before damage to the lung arteries occurs. If you or your child receives a diagnosis of a heart defect, it&apos;s important to start treatment promptly, including having surgeries or procedures performed to help correct the defect. 
+&lt;/p&gt;
+&lt;p&gt;
+Family history of heart defects also increase the risk of a baby developing a congenital heart defect, including the possibility of developing Eisenmenger syndrome. Talk to your doctor about screening other family members for heart defects if you&apos;ve been diagnosed with a heart defect or Eisenmenger syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Without proper treatment and monitoring, you can develop complications of Eisenmenger syndrome, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low oxygen levels in your blood (cyanosis).&lt;/strong&gt; The reversed blood flow through your heart lowers the amount of oxygen your body&apos;s tissues and organs receive. This causes you to have a lower tolerance for physical activity and your skin to have a bluish or a grayish color.&lt;strong&gt; &lt;/strong&gt;Cyanosis will worsen over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High red blood cell count (erythrocytosis).&lt;/strong&gt; Because you aren&apos;t getting enough oxygen-rich blood circulating throughout your body, your kidneys release a hormone that increases your number of red blood cells, the cells that carry oxygen throughout the body. Having too many red blood cells can reduce the blood flow to other organs and increase your risk of developing blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrhythmias.&lt;/strong&gt; Enlargement and thickening of the walls in the heart, along with low oxygen levels may cause an irregular heart rhythm (arrhythmia). Some types of arrhythmias can cause blood to pool in your heart&apos;s chambers where it can clot. If the clot travels out of your heart and blocks an artery, you can have a heart attack or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden cardiac arrest.&lt;/strong&gt; If you develop an arrhythmia as a complication of Eisenmenger syndrome, it&apos;s possible the arrhythmia could suddenly stop your heartbeat. Sudden cardiac arrest is the sudden, unexpected loss of heart function, breathing and consciousness. Without immediate medical attention, you can die of sudden cardiac arrest in minutes. You can also go into cardiac arrest during surgical procedures, usually related to changes in blood pressure caused by anesthesia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; The increased pressure in your heart can cause your heart muscles to weaken, decreasing its pumping effectiveness. Eventually, this can lead to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coughing up blood (hemoptysis).&lt;/strong&gt; Increased pressure in the lungs and problems with your blood caused by Eisenmenger syndrome can cause life-threatening bleeding into your lungs and airways, causing you to cough up blood and further lowering your blood oxygen level. Bleeding can also occur in other parts of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; Stoke can occur when a blood clot travels from the right to left side of the heart without being filtered out by your lungs. This blood clot may then block a blood vessel in the brain, leading to a stroke. The high levels of red blood cells in Eisenmenger syndrome also increase your risk of blood clots and stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney problems.&lt;/strong&gt; Low oxygen levels in your blood may lead to problems with your kidneys. This can also increase your risk of developing gout.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy risks.&lt;/strong&gt; Due to the demands pregnancy puts on a mother&apos;s heart and lungs, women who have Eisenmenger syndrome shouldn&apos;t become pregnant. Pregnancy for a woman who has Eisenmenger syndrome poses a high risk of death for both the mother and baby.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Eisenmenger syndrome is a life-threatening condition. The prognosis for people diagnosed with Eisenmenger syndrome depends on the type of congenital heart defect and other medical conditions. People who are diagnosed with Eisenmenger syndrome can survive as long as age 50 to 60 and sometimes longer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you are diagnosed with Eisenmenger syndrome, you&apos;ll be referred to a heart specialist (cardiologist). It&apos;s important for you to find a cardiologist who has experience treating people who have congenital heart defects. 
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms of Eisenmenger syndrome, such as blue or grayish skin color (cyanosis) and shortness of breath, are serious. Even if you haven&apos;t been diagnosed with a heart defect previously, these symptoms require prompt medical attention. 
+&lt;/p&gt;
+&lt;p&gt;
+Because Eisenmenger syndrome is a complicated condition and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make note of any previous heart treatments.&lt;/strong&gt; Because Eisenmenger syndrome most often develops as a complication of a heart defect, it&apos;s important that your doctor know about any medications you&apos;ve taken, or surgeries or procedures you&apos;ve had if you&apos;ve been previously diagnosed with a heart defect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as fill out forms or restrict your diet. For some imaging tests, for example, you may need to fast for a period of time beforehand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to Eisenmenger syndrome. Try to recall when they began. Be specific, such as days, weeks, months, and try to avoid vague terms such as &quot;some time ago.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including a family history of heart defects, pulmonary hypertension, lung disease, heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements that you&apos;re taking. Also, be sure to tell your doctor if you&apos;ve recently stopped taking any medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For Eisenmenger syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What treatment will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for changes in my condition?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Could you recommend a specialist who has experience treating Eisenmenger syndrome?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you previously been diagnosed with a heart defect or pulmonary hypertension? If so, what treatments did you have for your condition?&lt;/li&gt;
+	&lt;li&gt;Has one of your doctors ever said you had a heart murmur, but didn&apos;t pursue a diagnosis? If so, when was this?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose Eisenmenger syndrome, your doctor will discuss your medical history, perform a physical examination and order appropriate diagnostic tests. These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This test records the electrical activity of the heart through electrodes attached to the skin. This test helps diagnose heart defects that cause Eisenmenger syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Your doctor may order a chest X-ray to look for heart and pulmonary artery enlargement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; During an echocardiogram (ultrasound of the heart), sound waves create detailed images of your heart. This allows doctors to see the structure of your heart and blood flow through your heart to look for heart defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood tests may be done to check your blood cell counts which are often high in Eisenmenger syndrome. Your kidney and liver function and your iron level also may be measured with blood tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan.&lt;/strong&gt; In this test, you&apos;ll lie in a machine that takes images of your lungs so that your doctors can see a cross-section of them. You might also be given dye that makes the images of your lungs show up more clearly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This test, which uses no X-rays, is sometimes used to get images of the blood vessels in your lungs. A computer creates tissue &quot;slices&quot; from data generated by a powerful magnetic field and radio waves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, doctors insert a thin, flexible tube (catheter) into an artery in your groin and guide the catheter to your heart using X-ray imaging. Doctors use cardiac catheterization to measure blood pressure in your blood vessels or heart&apos;s chambers, the size of any septal defect, the pressures across the defect, and the amount of blood in your heart and lungs. If you need to have cardiac catheterization done, make sure you choose a cardiologist who has expertise diagnosing and treating Eisenmenger syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Walking test.&lt;/strong&gt; Your doctor may order a six-minute walk test to check your tolerance to a mild level of exercise.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Eisenmenger syndrome treatment is aimed at controlling your or your child&apos;s symptoms and managing the condition. Although there&apos;s no cure, medications may help you feel better, improve your quality of life and prevent serious complications. Doctors don&apos;t recommend surgery to repair the hole in your heart once Eisenmenger syndrome has developed, and any surgery may be life-threatening. It&apos;s important that you&apos;re treated by a doctor who has expertise in Eisenmenger syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Observation and monitoring&lt;/strong&gt;&lt;br /&gt;
+You&apos;ll be monitored through regular visits with a congenital heart disease cardiologist. You should have an appointment with your cardiologist at least once a year. A typical evaluation generally includes a thorough review of complaints and symptoms, a physical exam, and blood tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications are the primary treatment option for Eisenmenger syndrome. You&apos;ll need to be monitored closely by a doctor when taking medications for any changes in blood pressure, fluid volume or pulse rate. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications for Eisenmenger syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control arrhythmias.&lt;/strong&gt; If you have an arrhythmia, you may receive medications to control your heart rhythms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Iron supplements.&lt;/strong&gt; Your doctor may prescribe iron supplements if he or she finds your iron level is too low. Don&apos;t start taking iron supplements without talking to your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin or other blood-thinning medications.&lt;/strong&gt; If you have had a stroke, blood clot or certain types of irregular heart rhythms, your doctor may recommend aspirin or other blood thinners such as warfarin (Coumadin, Jantoven). However, people who have Eisenmenger syndrome are also at increased risk of bleeding when taking these medications, so don&apos;t take any blood thinners unless your doctor tells you to do so. You shouldn&apos;t take over-the-counter pain medications, such as ibuprofen (Advil, Motrin IB, others) or naproxen (Aleve), without talking to your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endothelin receptor antagonists.&lt;/strong&gt; These medications reverse the effect of endothelin, a substance in the walls of blood vessels that causes them to narrow. One of these medications, bosentan (Tracleer), may improve your energy level and symptoms by lowering the resistance in your lung arteries. If you take bosentan, you&apos;ll need monthly liver monitoring because the drug can damage your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sildenafil and tadalafil.&lt;/strong&gt; Sildenafil (Revatio, Viagra) and tadalafil (Cialis, Adcirca) are sometimes used to treat high blood pressure in your pulmonary arteries caused by Eisenmenger syndrome. These drugs work by opening the blood vessels in the lungs to allow blood to flow through more easily. Side effects include upset stomach, dizziness and vision problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Depending on your condition, you may need to take antibiotics before having certain dental and medical procedures. These procedures may allow bacteria to enter your bloodstream. Antibiotics taken before these procedures can help destroy or control the harmful bacteria that may lead to an infection of your heart&apos;s tissues (endocarditis). Antibiotics are recommended only before certain dental procedures (those that cut your gum tissue or part of the teeth) and procedures involving the respiratory tract, infected skin or tissue that connects muscle to bone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood drawing (phlebotomy)&lt;/strong&gt;&lt;br /&gt;
+If your red blood cell count becomes too high, your doctor may recommend having blood drawn to help normalize your blood cell counts. You should also receive intravenous (IV) fluids when having blood drawn to help replace the lost fluids. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart-lung transplantation&lt;/strong&gt;&lt;br /&gt;
+Some people who have Eisenmenger syndrome may eventually need a heart and lung transplant or a lung transplant with repair of the hole in the heart if no other treatments prove effective. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Birth control and pregnancy&lt;/strong&gt;&lt;br /&gt;
+If you have Eisenmenger syndrome, becoming pregnant poses serious health risks &amp;mdash; and can be fatal &amp;mdash; for the mother and baby. It&apos;s critical that women who have Eisenmenger syndrome avoid becoming pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend nonreversible birth control, such as Essure. Essure is a metal coil inserted through the vagina to the fallopian tubes that causes scar tissue to develop. This blocks the fallopian tubes. Having your fallopian tubes tied (tubal ligation) is less often recommended due to the risks of having even minor surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Birth control pills containing estrogen aren&apos;t recommended for women who have Eisenmenger syndrome. Estrogen increases your risk of developing blood clots that could potentially block an artery to your heart, brain or lungs. Using only barrier methods, such as condoms or diaphragms, isn&apos;t recommended due to the risk of those methods failing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re diagnosed with Eisenmenger syndrome, you can still lead an active life with proper treatment and precautions. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Check with your doctor about exercise restrictions.&lt;/strong&gt; While you shouldn&apos;t perform strenuous exercise or sports, you may be able to do less intense physical activities. Talk to your doctor about what type of physical activity is appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid high altitudes.&lt;/strong&gt; Because of the low oxygen levels at high altitudes, the American College of Cardiology and the American Heart Association recommend against living at an altitude of 5,000 feet (1,524 meters) or higher above sea level. Discuss travel by airplane or to high altitude with your cardiologist for specific recommendations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid situations that can excessively lower blood pressure.&lt;/strong&gt; These include sitting in a hot tub or sauna or taking long hot baths or showers. These activities lower your blood pressure and cause fainting or even death. You should also avoid activities that cause prolonged straining, such as lifting heavy objects or weights.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious with any medications and supplements,&lt;/strong&gt; Many prescription and over-the-counter medications or supplements may increase or decrease blood pressure, increase risk of bleeding or blood clots, or affect kidney function in patients who have Eisenmenger syndrome. Talk to your doctor before taking any supplements or medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid secondhand smoke and quit using tobacco products.&lt;/strong&gt; Cigarette smoke and other tobacco products can cause further damage to your lung&apos;s arteries and increase your risk of developing complications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Whether you or your child has been diagnosed with Eisenmenger syndrome, it&apos;s natural to worry about health concerns, even after treatment. Although treatments can help your symptoms and improve your prognosis, you may feel stressed or nervous about your condition. Here are a few things to keep in mind to help you cope with an Eisenmenger syndrome diagnosis and treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional difficulties.&lt;/strong&gt; Being diagnosed with Eisenmenger syndrome is life-changing. You may need to alter your plans to have a family, and you may find yourself nervous that your condition will worsen. If your child has been diagnosed with Eisenmenger syndrome, he or she may feel insecure and may have emotional difficulties as he or she reaches school age. Talk to your doctor or your child&apos;s doctor about ways you can cope with these problems, which may include support groups, or a visit to a therapist or psychologist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Developmental difficulties for children.&lt;/strong&gt; Because some children who have congenital heart defects and Eisenmenger syndrome may have had a long recovery time from surgeries or procedures, they may developmentally lag behind other children their age. Some children&apos;s difficulties may last into their school years, and they may have difficulties learning to read or write, as well. Talk to your child&apos;s doctor about ways to help your child through his or her developmental difficulties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support groups.&lt;/strong&gt; A serious medical problem for yourself or your child isn&apos;t easy and, depending on the severity of your condition, may be very difficult and frightening. You may find that talking with others who&apos;ve been through the same situation brings you comfort and encouragement. Ask your doctor or your child&apos;s doctor if there are any local support groups.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Eisenmenger syndrome
+	</Title>
+	<Abstract>
+		Eisenmenger syndrome &amp;mdash; Comprehensive overview covers symptoms and complications of this serious heart defect.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

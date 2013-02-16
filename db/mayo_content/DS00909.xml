@@ -1,0 +1,340 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00909
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/progressive-supranuclear-palsy/DS00909
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2968" Title="Movement">
+						<Keyword MCVID="2972" Title="Progressive supranuclear palsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4EE0B057-E7FF-0DBD-1EC346220C0765C4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				progressive supranuclear palsy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Progressive supranuclear palsy, also called Steele-Richardson-Olszewski syndrome, is a brain disorder that causes serious problems with walking, balance and eye movements. Progressive supranuclear palsy results from deterioration of cells in areas of your brain that control movement. 
+&lt;/p&gt;
+&lt;p&gt;
+Progressive supranuclear palsy is a rare disorder that slowly worsens over time. Although it&apos;s not life-threatening itself, progressive supranuclear palsy can lead to life-threatening complications, such as pneumonia and swallowing problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Because there&apos;s no cure for progressive supranuclear palsy, treatment focuses on managing and improving the related signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing affected parts of the brain 
+" Caption="Deterioration of cells in the brainstem, cerebral cortex, cerebellum and basal ganglia &amp;mdash; a cluster of cells deep within your brain &amp;mdash; is what causes the coordination and movement issues of progressive supranuclear palsy. 
+" Height="60" Title="Cause of supranuclear palsy" URI="/images/image_popup/thumbs/r7_brainstem_cerebralcortexthu.jpg" Width="60" />
+				<Image Alt="Illustration showing affected parts of the brain 
+" Caption="Deterioration of cells in the brainstem, cerebral cortex, cerebellum and basal ganglia &amp;mdash; a cluster of cells deep within your brain &amp;mdash; is what causes the coordination and movement issues of progressive supranuclear palsy. 
+" Height="300" Title="Cause of supranuclear palsy" URI="/images/image_popup/r7_brainstem_cerebralcortex.jpg" Width="400" />
+				<HTML>
+					Deterioration of cells in the brainstem, cerebral cortex, cerebellum and basal ganglia &amp;mdash; a cluster of cells deep within your brain &amp;mdash; is what causes the coordination and movement issues of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The characteristic signs and symptoms of progressive supranuclear palsy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A loss of balance while walking.&lt;/strong&gt; You&apos;ll likely have a greater tendency to fall backward. This can occur very early on in the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An inability to aim your eyes properly.&lt;/strong&gt; This is particularly true when looking downward, or it may occur as a blurring or doubling of vision. This difficulty with focusing the eyes can make some people appear disinterested in conversation because of poor eye contact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additional signs and symptoms of progressive supranuclear palsy vary from person to person and may mimic those of Parkinson&apos;s disease and dementia. These can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stiffness&lt;/li&gt;
+	&lt;li&gt;Awkward movements&lt;/li&gt;
+	&lt;li&gt;Falling&lt;/li&gt;
+	&lt;li&gt;Problems with speech and swallowing&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Loss of interest in pleasurable activities (apathy)&lt;/li&gt;
+	&lt;li&gt;Depression and anxiety&lt;/li&gt;
+	&lt;li&gt;Laughing or crying for no reason&lt;/li&gt;
+	&lt;li&gt;Forgetfulness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+True to its name, the signs and symptoms of progressive supranuclear palsy tend to become progressively worse as the disease advances.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you experience signs and symptoms of progressive supranuclear palsy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of progressive supranuclear palsy isn&apos;t known, but research has revealed a few clues. The signs and symptoms of the disease result from deterioration of brain cells in your brainstem, cerebral cortex, cerebellum and basal ganglia. These areas of your brain help you control body movements. This explains why their deterioration leads to the coordination and movement problems of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers have found that these deteriorating brain cells of people with progressive supranuclear palsy have abnormal quantities of a protein called tau. It&apos;s not yet clear if these &quot;clumps&quot; of tau are defective from the start or damaged later. Abnormal quantities of tau are also found in other neurodegenerative disorders, such as Alzheimer&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Scientists have several theories about what might cause this process of brain cell deterioration, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A virus.&lt;/strong&gt; Some speculate that a unique virus enters your body, taking many years before it becomes active and starts causing signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic mutations.&lt;/strong&gt; It&apos;s possible that random changes (mutations), which may develop in everyone&apos;s genes, occur in specific genes to damage the cells involved in progressive supranuclear palsy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Environmental exposure.&lt;/strong&gt; Some scientists think an unknown chemical in the environment could be what causes this disease. This chemical could be in something you eat, drink or breathe. For example, certain tropical fruits have been linked to progressive supranuclear palsy-like symptoms in people on some Caribbean islands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Damage from free radicals.&lt;/strong&gt; As you process food for energy, your body produces substances called free radicals. Free radicals are believed to contribute to aging and certain diseases. They may damage the brain cells involved with the signs and symptoms of progressive supranuclear palsy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing affected parts of the brain 
+" Caption="Deterioration of cells in the brainstem, cerebral cortex, cerebellum and basal ganglia &amp;mdash; a cluster of cells deep within your brain &amp;mdash; is what causes the coordination and movement issues of progressive supranuclear palsy. 
+" Height="60" Title="Cause of supranuclear palsy" URI="/images/image_popup/thumbs/r7_brainstem_cerebralcortexthu.jpg" Width="60" />
+				<Image Alt="Illustration showing affected parts of the brain 
+" Caption="Deterioration of cells in the brainstem, cerebral cortex, cerebellum and basal ganglia &amp;mdash; a cluster of cells deep within your brain &amp;mdash; is what causes the coordination and movement issues of progressive supranuclear palsy. 
+" Height="300" Title="Cause of supranuclear palsy" URI="/images/image_popup/r7_brainstem_cerebralcortex.jpg" Width="400" />
+				<HTML>
+					Deterioration of cells in the brainstem, cerebral cortex, cerebellum and basal ganglia &amp;mdash; a cluster of cells deep within your brain &amp;mdash; is what causes the coordination and movement issues of ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for progressive supranuclear palsy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age&lt;/strong&gt;. Progressive supranuclear palsy typically affects people around the age of 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex&lt;/strong&gt;. Men are affected somewhat more often.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of progressive supranuclear palsy result primarily from hindered muscle movements. These complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent falling, which can lead to head injuries, fractures and other injuries.&lt;/li&gt;
+	&lt;li&gt;Difficulty focusing your eyes, which also can lead to injuries.&lt;/li&gt;
+	&lt;li&gt;Problems with reading, driving a car, or other tasks requiring hand-eye coordination.&lt;/li&gt;
+	&lt;li&gt;Difficulty sleeping.&lt;/li&gt;
+	&lt;li&gt;Difficulty looking at bright lights.&lt;/li&gt;
+	&lt;li&gt;Problems swallowing, which can lead to choking or inhaling food or liquid into your airway (aspiration). Aspiration can develop into pneumonia &amp;mdash; the most common cause of death in people with progressive supranuclear palsy.&lt;/li&gt;
+	&lt;li&gt;Impulsive behaviors &amp;mdash; for example, standing up without waiting for assistance &amp;mdash; which can lead to falls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Complications from progressive supranuclear palsy may eventually necessitate the use of a feeding tube due to choking hazards. To avoid injuries due to falling, a walker or a wheelchair may also be necessary.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in disorders of the nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Because progressive supranuclear palsy is diagnosed by your signs and symptoms, write down any symptoms you&apos;re experiencing, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;Write down key personal information, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;Make a list of all medications, vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;Ask a family member or friend to come with you, if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time together. For progressive supranuclear palsy, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How does progressive supranuclear palsy usually progress?&lt;/li&gt;
+	&lt;li&gt;Will I eventually need long-term care?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend for me?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;If the treatment doesn&apos;t work or stops working, do I have additional options?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions on my activity?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any informational brochures or websites you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. He or she may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you experienced problems with balance or walking?&lt;/li&gt;
+	&lt;li&gt;Do you find it difficult to see below you? For example, can you see your plate when you eat?&lt;/li&gt;
+	&lt;li&gt;Do you have trouble speaking or swallowing?&lt;/li&gt;
+	&lt;li&gt;Have your movements felt stiff or shaky?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any troubling mood changes?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve or worsen these symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if any, treatments have you tried?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor diagnoses progressive supranuclear palsy by identifying the disorder&apos;s key signs &amp;mdash; problems with balance and walking and difficulty moving your eyes, particularly downward &amp;mdash; and ruling out other similar disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Progressive supranuclear palsy can be difficult to diagnose because some signs and symptoms, such as stiffness, movement difficulties and changes in mood or personality, are similar to those of Parkinson&apos;s disease and dementia. In fact, because of its similarity to Parkinson&apos;s disease, it&apos;s considered a &quot;parkinsonism-plus syndrome.&quot; Indications that you have progressive supranuclear palsy rather than Parkinson&apos;s disease include a lack of shaking (tremors) and a poor response to Parkinson&apos;s medications, such as levodopa. 
+&lt;/p&gt;
+&lt;p&gt;
+Magnetic resonance imaging (MRI) may be helpful, as shrinkage of specific regions of the brain may indicate progressive supranuclear palsy, though more than just an MRI is needed to confirm a diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Though a diagnosis can be made through this evaluation process, currently the only definitive way to determine whether a person has progressive supranuclear palsy is through a brain autopsy. This is important since other diseases can sometimes mimic the symptoms of progressive palsy. Studies are ongoing to develop medical tests that can help diagnose progressive supranuclear palsy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No cure exists for progressive supranuclear palsy. However, certain medications and other measures can help improve some symptoms of this disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Parkinson&apos;s disease medications.&lt;/strong&gt; These include carbidopa-levodopa (Sinemet, Parcopa), dopamine agonists, and amantadine, which increase levels of dopamine &amp;mdash; a chemical that transmits signals between areas of your brain to allow smooth, controlled muscle movements. These medications may help improve slowness, stiffness and balance problems for some people. However, the effectiveness of the drugs is limited and usually temporary, lasting about two to three years.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain antidepressants.&lt;/strong&gt; Antidepressant drugs, including fluoxetine (Prozac), imipramine (Tofranil) and amitriptyline, may improve symptoms of progressive supranuclear palsy. How they do this is not known; the benefits don&apos;t seem to be related to their ability to treat depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Botulinum toxin (Botox).&lt;/strong&gt; This purified form of botulinum toxin may be injected into the muscles or tissue around your eyes. When injected in small doses into specific muscles, Botox blocks the chemical signals that cause muscles to contract, which can improve eyelid spasms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Experimental drugs.&lt;/strong&gt; Researchers are investigating the effectiveness of various drugs in treating progressive supranuclear palsy, notably the dietary supplement coenzyme Q-10. A small trial showed modest success for this nonprescription drug in improving the signs of this condition. Other drugs undergoing trials include lithium, valproic acid and davunetide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyeglasses with bifocal or prism lenses.&lt;/strong&gt; These aids may help alleviate problems with looking downward.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech and swallowing evaluations.&lt;/strong&gt; Conducted&lt;strong&gt; &lt;/strong&gt;by a speech therapist, these evaluations can help the therapist advise you on safer swallowing techniques.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy and occupational therapy.&lt;/strong&gt; These therapies can help improve balance to avoid falls and to help with daily living activities.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To minimize the effects of progressive supranuclear palsy, you can take certain steps at home. They may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eyedrops.&lt;/strong&gt; Eyedrops may help ease dry eyes that can occur as a result of problems blinking. They can also be helpful for persistent tearing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fall-avoidance aids.&lt;/strong&gt; Installing grab bars in hallways and bathrooms or using a walker that&apos;s weighted can help you avoid falls. Making home modifications, such as removing scatter rugs or other items that are hard to see without looking downward, also can help with balance and vision problems. When possible, avoid climbing stairs. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with any chronic illness can be difficult, and it&apos;s normal to feel angry, depressed or discouraged at times. Progressive supranuclear palsy presents special problems because it can cause changes in your brain that make you feel anxious or laugh or cry for no reason. Progressive supranuclear palsy can also become extremely frustrating as walking, talking and even eating become more difficult. 
+&lt;/p&gt;
+&lt;p&gt;
+The good news is that there are steps you can take to manage the stress of living with progressive supranuclear palsy. Consider these suggestions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn all you can about your illness.&lt;/strong&gt; Find out how the disease progresses, your prognosis, and your treatment options and their side effects. The more you know, the more active you can be in your own care. In addition to talking to your health care team, look for books and information on the Internet, including the websites of various progressive supranuclear palsy organizations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be proactive.&lt;/strong&gt; Although you may often feel anxious or discouraged, don&apos;t let others &amp;mdash; including your family and your doctors &amp;mdash; make important decisions for you. Take an active role in your treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Strong relationships are crucial in dealing with chronic illnesses. Although friends and family can be your best allies, the understanding of people who know what you&apos;re going through can be especially helpful. Support groups aren&apos;t for everyone, but for many people, they can be a good resource for practical information. You may also find that you develop lasting bonds with people who are going through the same experiences as you. Support groups may also exist for the families of people with progressive supranuclear palsy. To learn about support groups in your community, talk to your doctor, a social worker or a local public health nurse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain good communication with your partner and support system.&lt;/strong&gt; It&apos;s important to be open about your feelings, especially when it comes to living with progressive supranuclear palsy. The disease may affect your life and the lives of your loved ones in a number of ways. Mood and personality changes or inappropriate behavior, such as sudden bursts of laughing or crying, may make communication challenging. It&apos;s best if you can talk honestly about these changes. The amount of care a person with progressive supranuclear palsy needs also is often an issue. Because it may take you longer to do ordinary tasks, your partner or family might want to help. But you may want to remain as independent as possible. You&apos;ll need to let them know when you need help and when you don&apos;t.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most importantly, try to talk frankly about your feelings and concerns. Repressed feelings can be harmful to your immediate well-being and long-term health. If necessary, discuss your problems with your doctor or counselor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For the caregiver&lt;br /&gt;
+&lt;/strong&gt;Caring for someone with progressive supranuclear palsy can be difficult physically and emotionally for a caregiver. It&apos;s not easy to juggle tasks as you try to adapt to the constantly fluctuating moods and physical needs that accompany this condition. Remember that the moods and physical capabilities of someone with progressive supranuclear palsy &amp;mdash; such as walking, writing and eating &amp;mdash; may change from hour to hour and are not under their conscious control. Nagging or shouting usually just makes matters worse. Be prepared to take advantage of the &quot;good&quot; periods, and use this time to get out, take a shower or relax in some other way. Taking care of yourself helps both of you.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Progressive supranuclear palsy
+	</Title>
+	<Abstract>
+		Progressive supranuclear palsy &amp;mdash; Comprehensive overview covers symptoms and self-care of this Parkinson&apos;s disease-like condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

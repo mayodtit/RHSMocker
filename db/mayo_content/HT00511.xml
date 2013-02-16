@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00511
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00511
+		</OriginalURL>
+		<UpdateDate>
+			2010-07-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1829" Title="Consumer health">
+					<Keyword MCVID="2290" Title="Alternative medicine" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9A6C0837-E7FF-0DBD-172324C2C554C9B7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				complementary medicine
+			</MetaKeyword>
+			<MetaKeyword>
+				alternative medicine
+			</MetaKeyword>
+			<MetaKeyword>
+				complementary and alternative medicine
+			</MetaKeyword>
+			<MetaKeyword>
+				CAM
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Natural treatments: Can you spot a fraud?
+	</Title>
+	<Body>
+		&lt;p&gt;If something sounds too good to be true, it probably is. To spot potentially fraudulent herbal products or other &quot;natural&quot; treatments, look for these warning signs: 1. Promotional material includes words such as &quot;miracle cure&quot; or &quot;revolutionary discovery.&quot; 2. The manufacturer claims that the product can treat a wide range of symptoms, or cure or prevent a variety of diseases. 3. The product claims to &quot;purify,&quot; &quot;detoxify&quot; or &quot;energize.&quot; These terms may sound impressive and may even have an element of truth, but they&apos;re generally used to cover up a lack of scientific proof.&lt;/p&gt;
+	</Body>
+</HealthTip>

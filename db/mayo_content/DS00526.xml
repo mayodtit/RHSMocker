@@ -1,0 +1,437 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00526
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sore-throat/DS00526
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-25
+		</UpdateDate>
+		<PublicationDate>
+			2004-04-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1784" Title="Throat">
+						<Keyword MCVID="1785" Title="Sore throat" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3278" Title="Winter" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3526" Title="16 months to 2 years toddler" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D696BD57-F78D-4F57-824FC3F836303920
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sore throat
+			</MetaKeyword>
+			<MetaKeyword>
+				throat
+			</MetaKeyword>
+			<MetaKeyword>
+				strep throat
+			</MetaKeyword>
+			<MetaKeyword>
+				pharyngitis
+			</MetaKeyword>
+			<MetaKeyword>
+				soar throat
+			</MetaKeyword>
+			<MetaKeyword>
+				cold
+			</MetaKeyword>
+			<MetaKeyword>
+				flu
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sore throat is pain, scratchiness or irritation of the throat that often worsens when you swallow. 
+&lt;/p&gt;
+&lt;p&gt;
+A sore throat is the primary symptom of pharyngitis &amp;mdash; inflammation of the pharynx, or throat. But the terms &quot;sore throat&quot; and &quot;pharyngitis&quot; are often used interchangeably. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of a sore throat is a viral infection, such as a cold or the flu. A sore throat caused by a virus usually resolves on its own with at-home care. A bacterial infection, a less common cause of sore throat, requires additional treatment with antibiotic drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+Other less common causes of sore throat may require more complex treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of a sore throat may vary depending on the cause. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain or a scratchy sensation in the throat&lt;/li&gt;
+	&lt;li&gt;Pain that worsens with swallowing or talking&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Dry throat&lt;/li&gt;
+	&lt;li&gt;Sore, swollen glands in your neck or jaw&lt;/li&gt;
+	&lt;li&gt;Swollen, red tonsils&lt;/li&gt;
+	&lt;li&gt;White patches or pus on your tonsils&lt;/li&gt;
+	&lt;li&gt;Hoarse or muffled voice&lt;/li&gt;
+	&lt;li&gt;Refusal to eat (infants and toddlers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Common infections causing a sore throat may result in other accompanying signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Cough&lt;/li&gt;
+	&lt;li&gt;Runny nose&lt;/li&gt;
+	&lt;li&gt;Sneezing&lt;/li&gt;
+	&lt;li&gt;Body aches&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Take your child to a doctor&lt;/strong&gt; if your child&apos;s sore throat doesn&apos;t go away with the first drink in the morning, recommends the American Academy of Pediatrics. Get immediate care if your child has severe signs such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Unusual drooling, which may indicate an inability to swallow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults should see a doctor&lt;/strong&gt; if any of the following problems associated with a sore throat occur, according to the American Academy of Otolaryngology: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sore throat that is severe or lasts longer than a week&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Difficulty opening your mouth&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Earache&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Fever over 101 F (38.3 C)&lt;/li&gt;
+	&lt;li&gt;Blood in saliva or phlegm&lt;/li&gt;
+	&lt;li&gt;Frequently recurring sore throats&lt;/li&gt;
+	&lt;li&gt;A lump in your neck&lt;/li&gt;
+	&lt;li&gt;Hoarseness lasting more than two weeks&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="60" Title="Throat anatomy" URI="/images/image_popup/thumbs/r7_croupthu.jpg" Width="60" />
+				<Image Alt="Illustration of the anatomy of the throat 
+" Caption="Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+" Height="358" Title="Throat anatomy" URI="/images/image_popup/r7_croup.jpg" Width="400" />
+				<HTML>
+					Your throat includes your tonsils, esophagus, voice box (larynx), epiglottis, vocal cords and windpipe (trachea).
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most sore throats are caused by viruses that cause the common cold and flu (influenza). Less often, sore throats are due to bacterial infections. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Viral infections&lt;/strong&gt; &lt;br /&gt;
+Viral illnesses that cause a sore throat include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Common cold&lt;/li&gt;
+	&lt;li&gt;Flu (influenza)&lt;/li&gt;
+	&lt;li&gt;Mononucleosis (mono)&lt;/li&gt;
+	&lt;li&gt;Measles&lt;/li&gt;
+	&lt;li&gt;Chickenpox&lt;/li&gt;
+	&lt;li&gt;Croup &amp;mdash; a common childhood illness characterized by a harsh, barking cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bacterial infections&lt;/strong&gt; &lt;br /&gt;
+Bacterial infections that can cause a sore throat include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Strep throat, which is caused by a bacterium known as Streptococcus pyogenes, or group A streptococcus&lt;/li&gt;
+	&lt;li&gt;Whooping cough, a highly contagious respiratory tract infection&lt;/li&gt;
+	&lt;li&gt;Diphtheria, a serious respiratory illness that&apos;s rare in industrialized nations but is more common in developing countries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes&lt;/strong&gt; &lt;br /&gt;
+Other causes of sore throat include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Allergies.&lt;/strong&gt; Allergies to pet dander, molds, dust and pollen can cause a sore throat. The problem may be complicated by postnasal drip that can irritate and inflame the throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dryness.&lt;/strong&gt; Dry indoor air, especially in winter when buildings are heated, can make your throat feel rough and scratchy, particularly in the morning when you first wake up. Breathing through your mouth &amp;mdash; often because of chronic nasal congestion &amp;mdash; also can cause a dry, sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irritants.&lt;/strong&gt; Outdoor air pollution can cause ongoing throat irritation. Indoor pollution &amp;mdash; tobacco smoke or chemicals -also can cause chronic sore throat. Chewing tobacco, alcohol and spicy foods also can irritate your throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle strain.&lt;/strong&gt; You can strain muscles in your throat just as you can strain them in your arms or legs. Yelling at a sporting event, trying to talk to someone in a noisy environment or talking for long periods without rest can result in a sore throat and hoarseness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastroesophageal reflux disease (GERD).&lt;/strong&gt; GERD is a digestive system disorder in which stomach acids or other contents of the stomach back up in the food pipe (esophagus). Other signs or symptoms may include heartburn, hoarseness, regurgitation of stomach contents and the sensation of a lump in your throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;HIV infection.&lt;/strong&gt; A sore throat and other flu-like symptoms sometimes appear early after someone is infected with HIV. Also, a person who is HIV-positive may have a chronic or recurring sore throat due to a secondary infection. Common problems include a fungal infection called oral thrush and cytomegalovirus infection, a common viral infection that can be serious in people with compromised immune systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumors.&lt;/strong&gt; Cancerous tumors of the throat, tongue or voice box (larynx) can cause a sore throat. Other signs or symptoms may include hoarseness, difficulty swallowing, noisy breathing, a lump in the neck, and blood in saliva or phlegm.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can get a sore throat, some factors make you more susceptible. These factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Children and teens are most likely to develop sore throats. Children are also more likely to have strep throat, the most common bacterial infection associated with a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco.&lt;/strong&gt; Smoking and secondhand smoke can irritate the throat. The use of tobacco products also increases the risk of cancers of the mouth, throat and voice box.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergies.&lt;/strong&gt; If you have seasonal allergies or ongoing allergic reactions to dust, molds or pet dander, you&apos;re more likely to develop a sore throat than are people who don&apos;t have allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to chemical irritants.&lt;/strong&gt; Particulate matter in the air from the burning of fossil fuels, as well as common household chemicals, can cause throat irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic or frequent sinus infections.&lt;/strong&gt; Chronic or frequent sinus infections increase the risk of sore throat, because drainage from the nose can irritate the throat or spread infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living or working in close quarters.&lt;/strong&gt; Viral and bacterial infections spread easily anywhere people gather &amp;mdash; child care centers, classrooms, offices, prisons and military installations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lowered immunity.&lt;/strong&gt; You&apos;re more susceptible to infections in general if your resistance is low. Common causes of lowered immunity include HIV, diabetes, treatment with steroids or chemotherapy drugs, stress, fatigue, and poor diet.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have a sore throat, you&apos;ll likely start by seeing your family doctor or your child&apos;s pediatrician. In some cases, you may be referred to a specialist in ear, nose and throat (ENT) disorders (otolaryngologist) or an allergy specialist (allergist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;List of drugs&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, make a list of any medications you or your child takes, including over-the-counter drugs and dietary supplements, and the dosage of each medication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to expect&lt;/strong&gt; &lt;br /&gt;
+Be prepared to answer the following questions about your condition &amp;mdash; or on your child&apos;s behalf. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms have you had besides a sore throat?&lt;/li&gt;
+	&lt;li&gt;When did the symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Did the symptoms begin relatively quickly or gradually?&lt;/li&gt;
+	&lt;li&gt;Have you had a fever? If so, how high?&lt;/li&gt;
+	&lt;li&gt;Have you had any trouble breathing?&lt;/li&gt;
+	&lt;li&gt;What have you done to lessen symptoms? Has this helped?&lt;/li&gt;
+	&lt;li&gt;Does anything worsen your sore throat, such as swallowing?&lt;/li&gt;
+	&lt;li&gt;Is a sore throat a recurring problem?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any other symptoms that may seem unrelated to your sore throat?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? Are you regularly exposed to secondhand smoke?&lt;/li&gt;
+	&lt;li&gt;Do you have allergies? Do you take allergy medication?&lt;/li&gt;
+	&lt;li&gt;Do you have any drug allergies?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will start with a physical exam that is generally the same for children and adults. The exam will include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using a lighted instrument to look at your throat, and likely your ears and nasal passages&lt;/li&gt;
+	&lt;li&gt;Gently feeling (palpating) your neck to check for swollen glands (lymph nodes)&lt;/li&gt;
+	&lt;li&gt;Listening to your breathing with a stethoscope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Throat swab&lt;/strong&gt; &lt;br /&gt;
+With this simple test, the doctor rubs a sterile swab over the back of your throat to get a sample of secretions. The sample will be checked in a lab for streptococcal bacteria, the cause of strep throat. Many clinics are equipped with a lab that can get a test result within a few minutes. However, a second more reliable test is usually sent out to a lab that can return results within 24 to 48 hours. 
+&lt;/p&gt;
+&lt;p&gt;
+If the rapid, in-clinic test comes back positive, then you almost certainly have a bacterial infection. If the test comes back negative, then you likely have a viral infection. Your doctor will wait, however, for the more reliable, out-of-clinic lab test to determine the cause of the infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other tests or referrals&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Complete blood cell count (CBC).&lt;/strong&gt; Your doctor may order a CBC with a small sample of your blood. The result of this test, which can often be completed in a clinic, produces a count of the different types of blood cells. The profile of what&apos;s elevated, what&apos;s normal or what&apos;s below normal can indicate whether an infection is more likely caused by a bacterial or viral agent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergy tests.&lt;/strong&gt; If your doctor suspects your sore throat is related to an allergy, you may be referred to an allergist for additional tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other referrals.&lt;/strong&gt; You may be referred to an otolaryngologist or other specialist if you have chronic or frequent sore throat or if there are any signs or symptoms that suggest a serious condition other than a common viral or bacterial infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sore throat caused by viral infection &amp;mdash; the most common cause &amp;mdash; usually lasts five to seven days and doesn&apos;t require medical treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating bacterial infections&lt;/strong&gt;&lt;br /&gt;
+If your sore throat is caused by a bacterial infection, your doctor will prescribe a course of antibiotics. Penicillin taken by mouth for 10 days is the most common antibiotic treatment prescribed for infections such as strep throat. If you&apos;re allergic to penicillin, your doctor will prescribe an alternative antibiotic. 
+&lt;/p&gt;
+&lt;p&gt;
+You must take the full course of antibiotics as prescribed even if the symptoms go away completely. Failure to take all of the medication as directed may result in the infection worsening or spreading to other parts of the body. Not completing the full course of antibiotics to treat strep throat can, in particular, increase a child&apos;s risk of rheumatic fever and serious kidney inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor or pharmacist about what to do if you forget to take a dose. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatments&lt;/strong&gt; &lt;br /&gt;
+If a sore throat is a symptom of a condition other than a viral or bacterial infection, other treatments will likely be considered depending on the diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Regardless of the cause of your sore throat, at-home care strategies usually provide temporary relief. Try these strategies: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Get plenty of sleep and rest your voice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluids.&lt;/strong&gt; Drink plenty of water to keep the throat moist and prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Comforting foods and beverage.&lt;/strong&gt; Warm liquids &amp;mdash; broth, caffeine-free tea or warm water with honey &amp;mdash; and cold treats such as ice pops can soothe a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Saltwater gargle.&lt;/strong&gt; A saltwater gargle of 1 teaspoon (5 milliliters) of table salt to 8 ounces (237 milliliters) of warm water can help soothe a sore throat. Gargle the solution and then spit it out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Humidify the air.&lt;/strong&gt; Use a cool-air humidifier to eliminate dry air that may further irritate a sore throat or sit for several minutes in a steamy bathroom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lozenges.&lt;/strong&gt; Lozenges can soothe a sore throat. Because lozenges are a choking hazard for young children, don&apos;t give them to children age 4 and younger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; Keep your home free from cigarette smoke and cleaning products that can irritate the throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treat pain and fever.&lt;/strong&gt; Ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) may minimize throat pain. Aspirin has been linked with Reye&apos;s syndrome, so use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While a number of alternative treatments are commonly used to treat sore throat, evidence is limited about what works and what doesn&apos;t. Check with your doctor before using any herbal remedies, as they can interact with prescription medications and may not be safe for children, pregnant women and people with certain health conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Herbal or alternative products for sore throat are often packaged as teas, sprays or lozenges. Common alternative remedies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slippery elm&lt;/li&gt;
+	&lt;li&gt;Serrapeptase, or silkworm enzyme&lt;/li&gt;
+	&lt;li&gt;Sage&lt;/li&gt;
+	&lt;li&gt;Andrographis&lt;/li&gt;
+	&lt;li&gt;Licorice root&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The germs that cause viral and bacterial infections are contagious. Therefore, the best prevention is to practice good hygiene. Follow these tips and teach your child to do the same: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash your hands thoroughly and frequently, especially after using the toilet, before eating, and after sneezing or coughing.&lt;/li&gt;
+	&lt;li&gt;Avoid sharing food, drinking glasses or utensils.&lt;/li&gt;
+	&lt;li&gt;Cough or sneeze into a tissue and throw it away. When necessary, sneeze into your elbow.&lt;/li&gt;
+	&lt;li&gt;Use alcohol-based hand sanitizers as an alternative to hand washing when soap and water aren&apos;t available.&lt;/li&gt;
+	&lt;li&gt;Avoid touching public phones or drinking fountains with your mouth.&lt;/li&gt;
+	&lt;li&gt;Regularly clean telephones, TV remotes and computer keyboards with sanitizing cleanser. When you travel, clean phones and remotes in your hotel room.&lt;/li&gt;
+	&lt;li&gt;Avoid close contact with people who are sick.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other tips to avoid sore throat include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stay indoors as much as possible on high-pollution days.&lt;/li&gt;
+	&lt;li&gt;Wear a filtering mask when cleaning to avoid inhaling dust or airborne particles from cleaning products.&lt;/li&gt;
+	&lt;li&gt;If you smoke, quit. Talk to your doctor if you need help breaking a smoking habit.&lt;/li&gt;
+	&lt;li&gt;Avoid exposure to secondhand smoke.&lt;/li&gt;
+	&lt;li&gt;Humidify your home if the air is dry.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sore throat
+	</Title>
+	<Abstract>
+		Sore throat &amp;mdash; Comprehensive overview covers causes, treatment, self-care of this common affliction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Answer" DocID="AN01577" LinkType="Internal" ObjectID="A346AAA4-E7FF-0DBD-1E5E7562A72E152B" Title="Warm-mist vs. cool-mist humidifier: Which is better for a cold?" Url="http://www.mayoclinic.com/health/cool-mist-humidifiers/AN01577" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00476" LinkType="Internal" ObjectID="1D9EDDDF-95B4-602A-031B9C87EEDF18B0" Title="Complete blood count (CBC)" Url="http://www.mayoclinic.com/health/complete-blood-count/MY00476" />
+		<LinkItem ContentType="Article" DocID="CC00059" LinkType="Internal" ObjectID="0F9A2891-96D3-4EC6-B538CC5C89926A4E" Title="Staying healthy in school: Kid-friendly tips" Url="http://www.mayoclinic.com/health/childrens-conditions/CC00059" />
+		<LinkItem ContentType="Disease" DocID="DS01118" LinkType="Internal" ObjectID="DC7923A9-E7FF-0DBD-1EBFFE72AA5431DC" Title="Allergies" Url="http://www.mayoclinic.com/health/allergies/DS01118" />
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+		<LinkItem ContentType="Disease" DocID="DS00331" LinkType="Internal" ObjectID="84C53FB6-DD31-499B-8E5817B2A8F67AE2" Title="Measles" Url="http://www.mayoclinic.com/health/measles/DS00331" />
+		<LinkItem ContentType="Disease" DocID="DS00260" LinkType="Internal" ObjectID="7A8C6CBF-246F-423C-9D9F889E25F2EE05" Title="Strep throat" Url="http://www.mayoclinic.com/health/strep-throat/DS00260" />
+		<LinkItem ContentType="Disease" DocID="DS00056" LinkType="Internal" ObjectID="7857D5F5-3E9F-4289-918B67FA9D0E63E2" Title="Common cold" Url="http://www.mayoclinic.com/health/common-cold/DS00056" />
+		<LinkItem ContentType="Disease" DocID="DS00445" LinkType="Internal" ObjectID="63F18B7D-932F-440B-A55CCAB2E2FEEBFD" Title="Whooping cough" Url="http://www.mayoclinic.com/health/whooping-cough/DS00445" />
+		<LinkItem ContentType="Disease" DocID="DS00495" LinkType="Internal" ObjectID="24A70B78-CCFF-40A2-A057EF6F98D05BF1" Title="Diphtheria" Url="http://www.mayoclinic.com/health/diphtheria/DS00495" />
+		<LinkItem ContentType="Disease" DocID="DS00053" LinkType="Internal" ObjectID="1F5E8789-87F8-44A3-94A882C09AB49C2A" Title="Chickenpox" Url="http://www.mayoclinic.com/health/chickenpox/DS00053" />
+	</RelatedLinksBox>
+</Disease>

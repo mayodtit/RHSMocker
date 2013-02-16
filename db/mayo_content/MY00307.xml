@@ -1,0 +1,287 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00307
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/x-ray/MY00307
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-16
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3072" Title="Xray" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9AE53C6F-E7FF-0DBD-17468FABB8482EEF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				X-ray
+			</MetaKeyword>
+			<MetaKeyword>
+				X-rays
+			</MetaKeyword>
+			<MetaKeyword>
+				radiology
+			</MetaKeyword>
+			<MetaKeyword>
+				radiologist
+			</MetaKeyword>
+			<MetaKeyword>
+				imaging tests
+			</MetaKeyword>
+			<MetaKeyword>
+				xray
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An X-ray is a quick, painless test that produces images of the structures inside your body &amp;mdash; particularly your bones. 
+&lt;/p&gt;
+&lt;p&gt;
+X-ray beams can pass through your body, but they are absorbed in different amounts depending on the density of the material they pass through. Dense materials, such as bone and metal, show up as white on X-rays. The air in your lungs shows up as black. Fat and muscle appear as varying shades of gray. 
+&lt;/p&gt;
+&lt;p&gt;
+For some types of X-ray tests, a contrast medium &amp;mdash; such as iodine or barium &amp;mdash; is introduced into your body to provide greater detail on the X-ray images. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-ray technology is used to examine many parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bones and teeth&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fractures and infections.&lt;/strong&gt; In most cases, fractures and infections in bones and teeth show up clearly on X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; X-rays of your joints can reveal evidence of arthritis. X-rays taken over the years can help your doctor determine if your arthritis is worsening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dental decay.&lt;/strong&gt; Dentists use X-rays to check for cavities in your teeth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Special types of X-ray tests can measure the density of your bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone cancer.&lt;/strong&gt; X-rays can also reveal tumors in your bones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chest&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lung infections or conditions.&lt;/strong&gt; Evidence of problems such as pneumonia, tuberculosis or lung cancer can show up on chest X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast cancer.&lt;/strong&gt; Mammography is a special type of X-ray test used to examine breast tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged heart.&lt;/strong&gt; One of the signs of congestive heart failure is an enlarged heart, which shows up clearly on X-rays. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blocked blood vessels.&lt;/strong&gt; Injecting a contrast material that contains iodine can help highlight sections of your circulatory system so that they can be seen on X-rays. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Abdomen&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Digestive tract problems.&lt;/strong&gt; Barium, a contrast medium delivered in a drink or in an enema, can help reveal problems anywhere in your digestive system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swallowed items.&lt;/strong&gt; If your child has swallowed something like a key or a coin, an X-ray can show the location of that object.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing X-ray of knee arthritis
+" Caption="Knee arthritis can affect one side of the joint more than the other. This X-ray image shows how the cushioning cartilage has worn away, allowing bone to touch bone. 
+" Height="60" Title="Knee arthritis" URI="/images/image_popup/thumbs/mcdc7_kneearthritisthu.jpg" Width="60" />
+				<Image Alt="Image showing X-ray of knee arthritis
+" Caption="Knee arthritis can affect one side of the joint more than the other. This X-ray image shows how the cushioning cartilage has worn away, allowing bone to touch bone. 
+" Height="409" Title="X-ray of knee arthritis" URI="/images/image_popup/mcdc7_kneearthritis.jpg" Width="400" />
+				<HTML>
+					Knee arthritis can affect one side of the joint more than the other. This X-ray image shows how the cushioning cartilage has worn away, allowing bone to touch bone. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Medical image of chest X-rays 
+" Caption="A chest X-ray helps detect problems with your heart and lungs. The chest X-ray on the left is normal. The image on the right shows a mass in the right lung. 
+" Height="60" Title="Chest X-ray" URI="/images/image_popup/thumbs/mcdc7_chestxraythu.jpg" Width="60" />
+				<Image Alt="Medical image of chest X-rays 
+" Caption="A chest X-ray helps detect problems with your heart and lungs. The chest X-ray on the left is normal. The image on the right shows a mass in the right lung. 
+" Height="260" Title="Chest X-ray" URI="/images/image_popup/mcdc7_chestxray.jpg" Width="400" />
+				<HTML>
+					A chest X-ray helps detect problems with your heart and lungs. The chest X-ray on the left is normal. The image on the right shows a mass in the right lung. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="X-ray of swallowed jack 
+" Caption="X-rays can locate metal objects your child has swallowed, such as this jack. 
+" Height="60" Title="X-ray of swallowed jack" URI="/images/image_popup/thumbs/mcdc7_jackxraythu.jpg" Width="60" />
+				<Image Alt="X-ray of swallowed jack 
+" Caption="X-rays can locate metal objects your child has swallowed, such as this jack. 
+" Height="478" Title="X-ray of swallowed jack" URI="/images/image_popup/mcdc7_jackxray.jpg" Width="400" />
+				<HTML>
+					X-rays can locate metal objects your child has swallowed, such as this jack. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Radiation exposure&lt;/strong&gt; &lt;br /&gt;
+Some people worry that X-rays aren&apos;t safe because radiation exposure can cause cell mutations that may lead to cancer. But the amount of radiation you&apos;re exposed to during an X-ray is so small that the risk of any damage to cells in your body is extremely low. 
+&lt;/p&gt;
+&lt;p&gt;
+However, if you&apos;re pregnant or suspect that you may be pregnant, tell your doctor before having an X-ray. Though the risk of most diagnostic X-rays to an unborn baby is small, your doctor may consider another imaging test, such as ultrasound. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Contrast medium&lt;/strong&gt; &lt;br /&gt;
+In some people, the injection of a contrast medium can cause side effects such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling of warmth or flushing&lt;/li&gt;
+	&lt;li&gt;A metallic taste in the mouth&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, severe reactions to a contrast medium occur, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe low blood pressure&lt;/li&gt;
+	&lt;li&gt;Anaphylactic shock&lt;/li&gt;
+	&lt;li&gt;Cardiac arrest&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Different types of X-rays require different preparations. Ask your doctor or nurse to provide you with specific instructions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to wear&lt;/strong&gt; &lt;br /&gt;
+In general, you undress whatever part of your body needs examination. You may wear a gown to cover yourself during the exam, depending on which area is being X-rayed. You may also be asked to remove jewelry, eyeglasses and any metal objects that may obscure the X-ray image, because these objects can show up on an X-ray. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Contrast material&lt;/strong&gt; &lt;br /&gt;
+Before some types of X-rays you&apos;re given a liquid called contrast medium. Contrast mediums, such as barium and iodine, help outline a specific area of your body on the X-ray image. You may swallow the contrast medium, or receive it as an injection or an enema. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="X-ray image of kidney stone 
+" Caption="This X-ray using contrast reveals a kidney stone at the junction of the kidney and the tube that connects the kidney to the bladder (ureter). 
+" Height="60" Title="X-ray image of kidney stone" URI="/images/image_popup/thumbs/r7_kidneystonexraythu.jpg" Width="60" />
+				<Image Alt="X-ray image of kidney stone 
+" Caption="This X-ray using contrast reveals a kidney stone at the junction of the kidney and the tube that connects the kidney to the bladder (ureter). 
+" Height="344" Title="X-ray image of kidney stone" URI="/images/image_popup/r7_kidneystonexray.jpg" Width="400" />
+				<HTML>
+					This X-ray using contrast reveals a kidney stone at the junction of the kidney and the tube that connects the kidney to the bladder (ureter). 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a man having an X-ray exam 
+" Caption="The X-ray tube is focused on the man&apos;s abdomen. X-rays will pass through his body and produce an image on the specialized plate below. 
+" Height="60" Title="X-ray exam" URI="/images/image_popup/thumbs/fl7_xraytechthu.jpg" Width="60" />
+				<Image Alt="Illustration of a man having an X-ray exam 
+" Caption="The X-ray tube is focused on the man&apos;s abdomen. X-rays will pass through his body and produce an image on the specialized plate below. 
+" Height="279" Title="X-ray exam" URI="/images/image_popup/fl7_xraytech.jpg" Width="400" />
+				<HTML>
+					The X-ray tube is focused on the man&apos;s abdomen. X-rays will pass through his body and produce an image on the specialized plate below. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the X-ray&lt;/strong&gt; &lt;br /&gt;
+X-rays may be performed at doctors&apos; offices, dentists&apos; offices, emergency rooms and hospitals &amp;mdash; wherever an X-ray machine is available. The machine produces a tiny burst of radiation, at a safe level, that passes through your body and records an image on a specialized plate. You can&apos;t feel the X-ray passing through you. 
+&lt;/p&gt;
+&lt;p&gt;
+A technologist positions your body to obtain the necessary views. He or she may use pillows or sandbags to help you hold the proper position. During the X-ray exposure, you remain still and hold your breath to avoid moving, which can cause the image to blur. 
+&lt;/p&gt;
+&lt;p&gt;
+An X-ray procedure may take only a few minutes for a bone X-ray, or more than an hour for more-involved procedures, such as those using a contrast medium. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Your child&apos;s X-ray&lt;/strong&gt; &lt;br /&gt;
+If a young child is having an X-ray, restraints or other immobilization techniques may be used to help keep him or her still. These will not harm your child and will prevent the need for a repeat procedure, which may be necessary if the child moves during the X-ray exposure. You may be allowed to remain with your child during the test. If you remain in the room during the X-ray exposure, you&apos;re typically asked to wear a lead apron to shield you from unnecessary exposure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the X-ray&lt;/strong&gt; &lt;br /&gt;
+After an X-ray, you generally can resume normal activities. Routine X-rays usually have no side effects. However, if you receive an injection of contrast medium before your X-rays, call your doctor if you experience pain, swelling or redness at the injection site. Ask your doctor about other signs and symptoms to watch for pertaining to your specific X-ray procedure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-rays are saved digitally on computers. Digital images can be viewed on-screen within minutes. A radiologist typically views and interprets the results and sends a report to your doctor, who then explains the results to you. In an emergency, your X-ray results can be made available to your doctor in minutes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		X-ray
+	</Title>
+	<Abstract>
+		X-ray &amp;mdash; Overview covers definition, risks, results of this diagnostic test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02058" LinkType="Internal" ObjectID="6EF55A06-9B45-2CC9-EBEE7991D92FBEB1" Title="X-ray during pregnancy: Is it safe?" Url="http://www.mayoclinic.com/health/x-ray-during-pregnancy/AN02058" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+	</RelatedLinksBox>
+</TestProcedure>

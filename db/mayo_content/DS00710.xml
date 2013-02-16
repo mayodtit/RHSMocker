@@ -1,0 +1,414 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00710
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peanut-allergy/DS00710
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-27
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy">
+							<Keyword MCVID="2368" Title="Peanut allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AE99601C-2A5D-9994-ECE356AE1626F0C8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peanut allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic shock
+			</MetaKeyword>
+			<MetaKeyword>
+				p-nut allergy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peanut allergy is common, especially in children. Peanut allergy symptoms can range from a minor irritation to a life-threatening reaction (anaphylaxis). For some people with peanut allergy, even tiny amounts of peanuts can cause a serious reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child has had a reaction to peanuts, tell your doctor about it. Peanut allergy is one of the most common causes of severe allergy attacks. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to get even a minor reaction to peanuts checked out. Even if you or your child has had only a mild allergic reaction in the past, there&apos;s still a risk of a more serious future reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An allergic response to peanuts usually occurs within minutes after exposure, and symptoms range from mild to severe. Peanut allergy signs and symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin reactions, such as hives, redness or swelling&lt;/li&gt;
+	&lt;li&gt;Itching or tingling in or around the mouth and throat&lt;/li&gt;
+	&lt;li&gt;Digestive problems, such as diarrhea, stomach cramps, nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Tightening of the throat&lt;/li&gt;
+	&lt;li&gt;Shortness of breath or wheezing&lt;/li&gt;
+	&lt;li&gt;Runny nose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anaphylaxis: A life-threatening reaction&lt;/strong&gt;&lt;br /&gt;
+Peanut allergy is the most common cause of food-induced anaphylaxis, a medical emergency that requires treatment with an epinephrine (adrenaline) injector (EpiPen, Twinject) and a trip to the emergency room. 
+&lt;/p&gt;
+&lt;p&gt;
+Anaphylaxis signs and symptoms can include all of the above, plus: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constriction of airways&lt;/li&gt;
+	&lt;li&gt;Swelling of your throat that makes it difficult to breathe&lt;/li&gt;
+	&lt;li&gt;A severe drop in blood pressure (shock)&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Talk to your doctor if&lt;/strong&gt; you think you could be allergic to peanuts, especially if you had a severe reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency treatment if&lt;/strong&gt; you have a severe reaction to peanuts, especially if you have any signs or symptoms of anaphylaxis. Call 911 or your local emergency number if you or someone else displays severe dizziness, severe trouble breathing or loss of consciousness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peanut allergy occurs when your immune system mistakenly identifies peanut proteins as something harmful. When you have direct or indirect contact with peanuts, your immune system releases symptom-causing chemicals into your bloodstream. It isn&apos;t known exactly why some people become allergic to peanuts and others don&apos;t. 
+&lt;/p&gt;
+&lt;p&gt;
+Exposure to peanuts can occur in different ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Direct contact.&lt;/strong&gt; The most common cause of peanut allergy is eating peanuts or peanut-containing foods. Sometimes direct skin contact with peanuts can trigger an allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cross-contact.&lt;/strong&gt; This is the unintended introduction of peanuts into a product. It&apos;s generally the result of a food being exposed to peanuts during processing or handling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inhalation.&lt;/strong&gt; An allergic reaction may occur if you inhale dust or aerosols containing peanuts, such as that of peanut flour or peanut oil cooking spray.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Food allergy vs. food intolerance&lt;/strong&gt;&lt;br /&gt;
+In some cases, what may appear to be a food allergy may actually be a food intolerance. Unlike a true food allergy, a food intolerance doesn&apos;t involve the immune system. With a true food allergy, even tiny amounts of the food can cause a severe reaction. In most cases, someone who has a food intolerance can eat small amounts of the food with only mild symptoms, such as indigestion or heartburn. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It isn&apos;t clear why some people develop allergies while others don&apos;t. However, people with certain risk factors have a greater chance of developing peanut allergy. 
+&lt;/p&gt;
+&lt;p&gt;
+Food allergy risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Food allergies are most common in children, especially toddlers and infants. As you grow older, your digestive system matures, and your body is less likely to react to food that triggers allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Past allergy to peanuts.&lt;/strong&gt; Some children with peanut allergy outgrow it. However, even if you seem to have outgrown peanut allergy, it may recur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other allergies.&lt;/strong&gt; If you&apos;re already allergic to one food, you may be at increased risk of becoming allergic to another. Likewise, having another type of allergy, such as hay fever, increases your risk of having a food allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family members with allergies.&lt;/strong&gt; You&apos;re at increased risk of peanut allergy if other allergies, especially other types of food allergies, are common in your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atopic dermatitis.&lt;/strong&gt; Some people with the skin condition atopic dermatitis (eczema) also have a food allergy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While some people think food allergies are linked to childhood hyperactivity and to arthritis, there&apos;s no evidence to support this. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of food allergy can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Need for special precautions.&lt;/strong&gt; Because allergic reactions to peanuts are severe for many people, avoiding peanuts altogether is very important. This requires taking a number of steps to prevent accidental exposure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anaphylaxis.&lt;/strong&gt; Children and adults who&apos;ve had a severe peanut allergy are especially at risk of having this life-threatening reaction.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To get the most from your appointment, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to recall all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my symptoms likely caused by an allergy or another reaction?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;I have other medical problems. How can I manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Do I need to carry an epinephrine autoinjector?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child is seeing the doctor for a peanut allergy, you may also want to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are there alternatives to the food or foods that trigger my child&apos;s allergy symptoms?&lt;/li&gt;
+	&lt;li&gt;How can I help keep my child with peanut allergy safe at school?&lt;/li&gt;
+	&lt;li&gt;Is my child likely to outgrow his or her allergy?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin noticing symptoms?&lt;/li&gt;
+	&lt;li&gt;After eating peanuts, how long did it take symptoms to appear?&lt;/li&gt;
+	&lt;li&gt;What quantity of peanuts did you eat?&lt;/li&gt;
+	&lt;li&gt;Did you take any over-the-counter allergy medications, such as antihistamines, and if so, did they help?&lt;/li&gt;
+	&lt;li&gt;Does your reaction seem to be triggered only by peanuts or by other foods as well?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you suspect you have a peanut allergy, avoid exposure to peanuts until your doctor&apos;s appointment. If you have a severe reaction, seek emergency help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following may help determine if you have a peanut allergy or if your symptoms are likely due to something else, such as food intolerance, a bout of food poisoning or some other condition. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Description of your symptoms.&lt;/strong&gt; Be prepared to tell your doctor about your symptoms &amp;mdash; such as exactly what happened after you ate peanuts, how long it took for a reaction to occur, and what amount of peanuts or food containing peanuts caused your reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination.&lt;/strong&gt; A careful exam can identify or exclude other medical problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food diary.&lt;/strong&gt; Your doctor may ask you to keep a food diary of your eating habits, symptoms and medications to pinpoint the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elimination diet.&lt;/strong&gt; If it isn&apos;t clear that peanuts are the culprit, or if your doctor suspects you may have a reaction to more than one type of food, an elimination diet may be needed. You may be asked to eliminate peanuts or other suspect foods for a week or two, and then add the food items back into your diet one at a time. This process can help link symptoms to specific foods. If you&apos;ve had a severe reaction to foods, this method can&apos;t safely be used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; A skin prick test can determine your reaction to particular foods. In this test, small amounts of suspected foods are placed on the skin of your forearm or back. Your skin is then pricked with a needle, to allow a tiny amount of the substance beneath your skin surface. If you&apos;re allergic to a particular substance being tested, you develop a raised bump or reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A blood test can measure your immune system&apos;s response to particular foods by checking the amount of allergy-type antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. For this test, a blood sample taken in your doctor&apos;s office is sent to a medical laboratory, where different foods can be tested. However, these blood tests aren&apos;t always accurate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Is it peanut allergy? Or is it peanut intolerance?&lt;/strong&gt;&lt;br /&gt;
+Not all reactions to peanuts are caused by an allergic reaction. It can be difficult to know whether you are allergic or intolerant to peanuts. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you have peanut intolerance,&lt;/strong&gt; you might be able to eat peanuts with only mild symptoms, such as indigestion or heartburn, or no reaction at all. A peanut intolerance doesn&apos;t involve your immune system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have a true peanut allergy,&lt;/strong&gt; eating even a small amount of peanuts may trigger a serious allergic reaction. Tests can help determine whether you have true peanut allergy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no definitive treatment for peanut allergy, but desensitization is showing promise. Desensitization involves giving children with peanut allergies increasing doses of peanut flour or peanut extract over time. Studies have shown promise in desensitizing children to peanuts. More study is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+In the meantime, as with any food allergy, treatment involves taking steps to avoid the food that causes your reaction, learning what steps you can take to relieve minor symptoms, and knowing how to spot and respond to a severe reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Being prepared for a reaction&lt;/strong&gt;&lt;br /&gt;
+The only way to prevent a reaction is to avoid peanuts and peanut products altogether. But peanuts are common, and despite your best efforts, you&apos;re likely to come into contact with peanuts at some point. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;For a minor allergic reaction,&lt;/strong&gt; over-the-counter or prescribed antihistamines may help reduce symptoms. These drugs can be taken after exposure to peanuts to help relieve itching or hives. However, antihistamines aren&apos;t enough to treat a severe allergic reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;For a severe allergic reaction,&lt;/strong&gt; you may need an emergency injection of epinephrine and a trip to the emergency room. Many people with allergies carry an epinephrine autoinjector (EpiPen, Twinject). This device is a combined syringe and concealed needle that injects a single dose of medication when pressed against your thigh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Know how to use your autoinjector&lt;/strong&gt;&lt;br /&gt;
+If your doctor has prescribed an epinephrine autoinjector: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carry it with you at all times.&lt;/strong&gt; It may be a good idea to keep an extra autoinjector in your car or in your desk at work as well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Always replace it before its expiration date.&lt;/strong&gt; Out-of-date epinephrine may not work properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor to prescribe a backup autoinjector.&lt;/strong&gt; If you misplace one, you&apos;ll have a spare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know how to operate it.&lt;/strong&gt; Ask your doctor to show you. Also, make sure the people closest to you know how to use it &amp;mdash; if someone with you can give you a shot in an anaphylactic emergency, he or she could save your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know when to use it.&lt;/strong&gt; Talk to your doctor about how to recognize when a shot is needed. For a mild allergic reaction to peanuts, it may be OK to go to straight to the emergency room without using an autoinjector. However, if you&apos;re not sure whether the reaction is severe enough to warrant a shot, it&apos;s usually better to err on the side of caution and use the emergency epinephrine.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the keys to preventing an allergic reaction is knowing how to avoid the food that causes your symptoms. Follow these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Never assume a food doesn&apos;t contain peanuts.&lt;/strong&gt; Peanuts may be in foods that you never thought contained them. Always read labels on manufactured foods to make sure they don&apos;t contain peanuts or peanut products. Manufactured foods are required to clearly state whether foods contain any peanuts and if they were produced in factories that also process peanuts.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Even if you think you know what&apos;s in a food, check the label. Ingredients may change. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t ignore a label that says a food was produced in a factory that processes peanuts.&lt;/strong&gt; Most people with a peanut allergy need to avoid all products that could contain even trace amounts of peanuts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;When in doubt, say no thanks.&lt;/strong&gt; At restaurants and social gatherings, you&apos;re always taking a risk that you might accidentally eat peanuts. Many people don&apos;t understand the seriousness of an allergic food reaction and may not realize that a tiny amount of a food can cause a severe reaction in some people. If you have any suspicion at all that a food may contain something you&apos;re allergic to, steer clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared for a reaction.&lt;/strong&gt; Talk with your doctor about carrying emergency medications in case of severe reaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoiding foods that contain peanuts&lt;/strong&gt;&lt;br /&gt;
+Peanuts are common, and avoiding foods that contain them can be a challenge. The following foods often contain peanuts: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ground or mixed nuts&lt;/li&gt;
+	&lt;li&gt;Baked goods, such as cookies and pastries&lt;/li&gt;
+	&lt;li&gt;Ice cream and frozen desserts&lt;/li&gt;
+	&lt;li&gt;Energy bars&lt;/li&gt;
+	&lt;li&gt;Cereals and granola&lt;/li&gt;
+	&lt;li&gt;Grain breads&lt;/li&gt;
+	&lt;li&gt;Marzipan, a molding confection made of nuts, egg whites and sugar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less obvious foods may contain peanuts or peanut proteins, either because they were made with them or because they came in contact with them during the manufacturing process. Some examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nougat&lt;/li&gt;
+	&lt;li&gt;Salad dressings&lt;/li&gt;
+	&lt;li&gt;Chocolate candies, nut butters (such as almond butter) and sunflower seeds&lt;/li&gt;
+	&lt;li&gt;Cultural foods including&lt;strong&gt; &lt;/strong&gt;African, Chinese, Indonesian, Mexican, Thai and Vietnamese dishes&lt;/li&gt;
+	&lt;li&gt;Foods sold in bakeries and ice-cream shops&lt;/li&gt;
+	&lt;li&gt;Arachis oil, another name for peanut oil&lt;/li&gt;
+	&lt;li&gt;Pet food&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people claim that alternative treatments help, but there&apos;s not much research in this area. Because peanut allergy can be life-threatening, herbal remedies are generally not recommended and aren&apos;t a substitute for medical care. Talk to your doctor before trying any alternative medical treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;If your child has peanut allergy,&lt;/strong&gt; take these steps to help keep him or her safe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Involve caregivers.&lt;/strong&gt; If your child has a peanut allergy, enlist the help of relatives, baby sitters, teachers and other caregivers. Teach the adults who spend time with your child how to recognize signs and symptoms of an allergic reaction to peanuts. Emphasize that an allergic reaction can be life-threatening and requires immediate action. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Make sure that your child also knows to ask for help right away if he or she has an allergic reaction. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a written plan.&lt;/strong&gt; List the steps to take in case of an allergic reaction, including the order and doses of all medications to be given, as well as contact information for family members and health care providers. Provide a copy of the plan to family members, teachers and others who care for your child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discourage your child from sharing foods.&lt;/strong&gt; It&apos;s common for kids to share snacks and treats. However, during times of fun your child may forget about food allergies or sensitivities. If your child is allergic to peanuts, encourage him or her not to eat food from others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make sure your child&apos;s epinephrine autoinjector is always available.&lt;/strong&gt; An injection of epinephrine (adrenaline) can immediately reduce the severity of a potentially life-threatening anaphylactic reaction, but it needs to be given right away. If your child has an emergency epinephrine injector, make sure your family members and other caregivers know about your child&apos;s emergency medication &amp;mdash; where it&apos;s located, when it may be needed and how to use it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have your child wear a medical alert bracelet or necklace.&lt;/strong&gt; This will help make sure he or she gets the right treatment if he or she isn&apos;t able to communicate during a severe reaction.&lt;strong&gt; &lt;/strong&gt;It will include your child&apos;s name and type of food allergy he or she has. It may also list brief emergency instructions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;If you have peanut allergy,&lt;/strong&gt; do the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Always carry your epinephrine autoinjector.&lt;/li&gt;
+	&lt;li&gt;Wear a medical alert bracelet or necklace.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peanut allergy
+	</Title>
+	<Abstract>
+		Peanut allergy &amp;mdash; Comprehensive overview covers causes, symptoms, treatment of allergic reaction to peanuts.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+	</RelatedLinksBox>
+</Disease>

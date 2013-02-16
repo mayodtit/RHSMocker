@@ -1,0 +1,122 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01622
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/livedo-reticularis/AN01622
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="3254" Title="Livedo reticularis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			21B4B8AD-E7FF-0DBD-184184B15FD73F74
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				livedo reticularis
+			</MetaKeyword>
+			<MetaKeyword>
+				livedoid vasculitis
+			</MetaKeyword>
+			<MetaKeyword>
+				livedo vasculitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Livedo reticularis is a vascular condition characterized by a purplish discoloration of the skin, usually on the legs. This discoloration is described as lacy or net-like in appearance and may be aggravated by cold exposure.
+&lt;/p&gt;
+&lt;p&gt;
+Most often livedo reticularis causes no symptoms and needs no treatment. But it can be associated with serious underlying disorders, such as lupus, anti-phospholipid syndrome or Sneddon&apos;s syndrome. A rare complication of chronic renal dialysis known as calciphylaxis may first present with a livedo reticularis pattern. In addition, livedo reticularis may occur as a side effect of certain medications, such as hydroxyurea (Droxia, Hydrea).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain or discomfort accompanies livedo reticularis&lt;/li&gt;
+	&lt;li&gt;Ulcers develop in the affected skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When necessary, treatment depends on the underlying cause, if known, and the severity of symptoms.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of livedo reticularis
+" Caption="Livedo reticularis is a vascular condition characterized by a mottled, purplish discoloration of the skin, usually on the legs. It may be aggravated by cold exposure.
+" Height="60" Title="Livedo reticularis" URI="/images/image_popup/thumbs/ans7_livedo_reticularisthu.jpg" Width="60" />
+				<Image Alt="Image of livedo reticularis
+" Caption="Livedo reticularis is a vascular condition characterized by a mottled, purplish discoloration of the skin, usually on the legs. It may be aggravated by cold exposure.
+" Height="400" Title="Livedo reticularis" URI="/images/image_popup/ans7_livedo_reticularis.jpg" Width="400" />
+				<HTML>
+					Livedo reticularis is a vascular condition characterized by a mottled, purplish discoloration of the skin, usually on the legs. It may be aggravated by cold exposure.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Livedo reticularis: When is it a concern?
+	</Title>
+	<Abstract>
+		Livedo reticularis is a vascular condition characterized by purplish mottling of the skin.
+	</Abstract>
+	<Question>
+		What causes livedo reticularis? When should I see a doctor?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00921" LinkType="Internal" ObjectID="87E24276-E7FF-0DBD-1F1CD48DC8D9430E" Title="Antiphospholipid syndrome" Url="http://www.mayoclinic.com/health/antiphospholipid-syndrome/DS00921" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+	</RelatedLinksBox>
+</Answer>

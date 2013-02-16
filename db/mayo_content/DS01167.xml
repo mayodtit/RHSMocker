@@ -1,0 +1,293 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01167
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ingrown-hair/DS01167
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2867" Title="Ingrown hairs" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EDC27ABF-C14F-DBE6-CD1E17AA353E6F79
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ingrown hair
+			</MetaKeyword>
+			<MetaKeyword>
+				ingrown hairs
+			</MetaKeyword>
+			<MetaKeyword>
+				pseudofolliculitis barbae
+			</MetaKeyword>
+			<MetaKeyword>
+				razor bumps
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An ingrown hair occurs when a shaved or tweezed hair grows back into the skin, causing inflammation and irritation. Ingrown hairs are most common among black males ages 14 to 25. But an ingrown hair can affect anyone with tightly coiled hair who shaves, tweezes, waxes or uses electrolysis to remove hair.
+&lt;/p&gt;
+&lt;p&gt;
+The result of ingrown hairs is localized pain and the appearance of bumps in the hair removal area. The bumps can be embarrassing. 
+&lt;/p&gt;
+&lt;p&gt;
+Not removing hair is one way to avoid an ingrown hair. When that isn&apos;t an option, you can use hair removal methods that lessen the risk of developing ingrown hairs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ingrown hairs most commonly appear in males in the beard area, including the chin and cheeks and, especially, the neck. They can appear on the scalp in males who shave their heads. In females, the most common areas for ingrown hairs are the armpits, pubic area and legs. Signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small, solid, rounded bumps (papules)&lt;/li&gt;
+	&lt;li&gt;Small, pus-filled, blister-like lesions (pustules)&lt;/li&gt;
+	&lt;li&gt;Skin darkening (hyperpigmentation)&lt;/li&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Embedded hairs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;An occasional ingrown hair isn&apos;t cause for alarm. See your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ingrown hairs are a chronic condition. Your doctor can help you manage the condition.&lt;/li&gt;
+	&lt;li&gt;You&apos;re a woman with ingrown hairs as a result of excessive unwanted hair growth (hirsutism). Your doctor can determine whether your excess hair is a result of treatable hormonal abnormalities, such as polycystic ovary syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hair structure and direction of growth play a role in ingrown hairs. A curved hair follicle, which produces tightly curled hair, is believed to encourage the hair to re-enter the skin once the hair is cut and starts to grow back. Shaving creates sharp edges in this type of hair, especially if the hair is dry when shaved. When the shaved hair starts to grow out, it curls back to re-enter the skin (extrafollicular penetration). 
+&lt;/p&gt;
+&lt;p&gt;
+When you pull your skin taut during shaving, the newly cut hair draws back into the skin, causing it to re-enter the skin without first growing out (transfollicular penetration). Using a double-edged razor also causes hair to re-enter the skin &amp;mdash; the first blade pulls the hair out and the second blade cuts it, which allows the hair to retract. Transfollicular penetration also occurs with tweezing, which leaves a hair fragment under the skin surface. 
+&lt;/p&gt;
+&lt;p&gt;
+When a hair penetrates your skin, your skin reacts as it would to a foreign body &amp;mdash; it becomes inflamed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having tightly curled hair is the main risk factor for ingrown hairs, so the condition is more common among blacks and Hispanics.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic ingrown hairs can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bacterial infection (from scratching)&lt;/li&gt;
+	&lt;li&gt;Skin darkening (hyperpigmentation)&lt;/li&gt;
+	&lt;li&gt;Permanent scarring&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. In some cases, you may be referred to a dermatologist. 
+&lt;/p&gt;
+&lt;p&gt;
+To get the most from your appointment, it&apos;s good to prepare. Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For ingrown hairs, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Do I need tests?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions, as well. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;What type of razor do you use?&lt;/li&gt;
+	&lt;li&gt;How often do you shave?&lt;/li&gt;
+	&lt;li&gt;What shaving or other hair removal technique do you use?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;In the days before your appointment with your doctor, if possible, stop shaving or using any form of hair removal. Ingrown hairs may worsen at first as they regrow, but eventually they&apos;ll improve.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose ingrown hairs with a physical exam and a discussion of your hair removal habits. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To inhibit ingrown hairs, stop shaving, tweezing or waxing. If you must remove hairs, consider laser hair removal, which removes the hair deeper in the follicle and inhibits regrowth better. It may take several treatments to prevent regrowth. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Your doctor may prescribe certain medications to help manage your condition. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Retinoids.&lt;/strong&gt; Your doctor may prescribe creams that help remove dead skin cells from the surface of your skin (exfoliation), such as tretinoin (Renova, Retin-A, others). Retinoids can help alleviate the thickening (hyperkeratosis) and darkening (hyperpigmentation) of the skin that often occurs on dark skin prone to ingrown hairs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; A topical steroid ointment can help control inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; A topical antibiotic ointment can prevent infection caused by scratching the affected area. For more severe infection, your doctor may prescribe oral antibiotics.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To release ingrown hairs, you can:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash the affected area using a washcloth or soft-bristled toothbrush, using a circular motion, for several minutes before shaving and at bedtime&lt;/li&gt;
+	&lt;li&gt;Use a sterile needle, inserting it under hair loops, to gently lift hair tips that are embedded in your skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent ingrown hairs, use hair removal methods that make ingrown hairs less likely. 
+&lt;/p&gt;
+&lt;p&gt;
+If you shave:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wet the hair to be removed with warm water&lt;/li&gt;
+	&lt;li&gt;Avoid close shaves and consider using an electric razor&lt;/li&gt;
+	&lt;li&gt;Use a lubricating shave gel&lt;/li&gt;
+	&lt;li&gt;Use a single-blade razor&lt;/li&gt;
+	&lt;li&gt;Use a sharp blade&lt;/li&gt;
+	&lt;li&gt;Don&apos;t pull your skin taut while shaving&lt;/li&gt;
+	&lt;li&gt;Shave in the direction of hair growth&lt;/li&gt;
+	&lt;li&gt;Rinse the blade after each stroke&lt;/li&gt;
+	&lt;li&gt;Apply cool compresses to the shaved area when you&apos;re finished&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other methods of hair removal include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electric razor.&lt;/strong&gt; Avoid the closest shave setting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical hair remover.&lt;/strong&gt; The chemicals may irritate your skin, so test on a small area first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eflornithine hydrochloride cream (Vaniqa).&lt;/strong&gt; Not actually a hair remover, this prescription cream decreases hair regrowth in women when combined with another hair removal method.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ingrown hair
+	</Title>
+	<Abstract>
+		Ingrown hairs &amp;mdash; Comprehensive overview covers causes, treatment, and prevention of this painful skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

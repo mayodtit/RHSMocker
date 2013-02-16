@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00425
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00425
+		</OriginalURL>
+		<UpdateDate>
+			2010-04-24
+		</UpdateDate>
+		<PublicationDate>
+			2008-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1090" Title="Fitness">
+					<Keyword MCVID="1100" Title="Aerobic exercise" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AEF496FE-E7FF-0DBD-1BA3BDB06174EEC5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shoes
+			</MetaKeyword>
+			<MetaKeyword>
+				shoe
+			</MetaKeyword>
+			<MetaKeyword>
+				foot
+			</MetaKeyword>
+			<MetaKeyword>
+				feet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Shopping for shoes?
+	</Title>
+	<Body>
+		&lt;p&gt;For healthier and more comfortable feet, try these shoe-shopping tips: 1. Have your feet measured. Shoe size can change as you age. 2. Avoid shoes that are too narrow or too wide. 3. Shop for shoes in the early afternoon after you&apos;ve been walking for some time. 4. If one foot is larger than the other, try on a pair that fits your larger foot.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,365 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00679
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wisdom-teeth/DS00679
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-11
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1614" Title="Teeth">
+						<Keyword MCVID="1615" Title="Impacted teeth" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A93CE73C-2A5D-9994-EE7754602269817A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wisdom teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				impacted wisdom teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				impacted wisdom tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				dentist
+			</MetaKeyword>
+			<MetaKeyword>
+				dental
+			</MetaKeyword>
+			<MetaKeyword>
+				dental surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				oral surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				molars
+			</MetaKeyword>
+			<MetaKeyword>
+				third molars
+			</MetaKeyword>
+			<MetaKeyword>
+				gum disease
+			</MetaKeyword>
+			<MetaKeyword>
+				dry socket
+			</MetaKeyword>
+			<MetaKeyword>
+				impaction
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth removal
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth extraction
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth extraction
+			</MetaKeyword>
+			<MetaKeyword>
+				teeth
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth pain
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of impacted wisdom tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth infection
+			</MetaKeyword>
+			<MetaKeyword>
+				wisdom tooth image
+			</MetaKeyword>
+			<MetaKeyword>
+				unemerged tooth
+			</MetaKeyword>
+			<MetaKeyword>
+				tooth impaction
+			</MetaKeyword>
+			<MetaKeyword>
+				dental impaction
+			</MetaKeyword>
+			<MetaKeyword>
+				unerupted tooth
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impacted wisdom teeth are third molars at the back of the mouth that don&apos;t have enough room to emerge or grow normally. 
+&lt;/p&gt;
+&lt;p&gt;
+Wisdom teeth are the last adult teeth to come into the mouth (erupt). Most people have four wisdom teeth at the back of the mouth &amp;mdash; two on the top, two on the bottom. 
+&lt;/p&gt;
+&lt;p&gt;
+Impacted wisdom teeth can result in pain, damage to other teeth and other dental problems. In some cases, impacted wisdom teeth may cause no apparent or immediate problems. But because they&apos;re hard to clean, they may be more vulnerable to tooth decay and gum disease than other teeth are. 
+&lt;/p&gt;
+&lt;p&gt;
+Impacted wisdom teeth that cause pain or other dental complications are usually removed. Some dentists and oral surgeons also recommend removing impacted wisdom teeth that don&apos;t cause symptoms to prevent future problems. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing erupting and impacted wisdom teeth 
+" Caption="Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly causing complications. 
+" Height="60" Title="Impacted wisdom teeth" URI="/images/image_popup/thumbs/de7_wisdomteeththu.jpg" Width="60" />
+				<Image Alt="Illustration showing erupting and impacted wisdom teeth 
+" Caption="Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly causing complications. 
+" Height="400" Title="Impacted wisdom teeth" URI="/images/image_popup/de7_wisdomteeth.jpg" Width="400" />
+				<HTML>
+					Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impacted wisdom teeth don&apos;t always cause symptoms. However, when an impacted wisdom tooth becomes infected, damages other teeth or causes other dental problems, you may experience some of these signs or symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain&lt;/li&gt;
+	&lt;li&gt;Red or swollen gums&lt;/li&gt;
+	&lt;li&gt;Tender or bleeding gums&lt;/li&gt;
+	&lt;li&gt;Swelling around the jaw&lt;/li&gt;
+	&lt;li&gt;Bad breath&lt;/li&gt;
+	&lt;li&gt;An unpleasant taste in your mouth&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your dentist if you experience pain, swelling or other symptoms in the area behind your last molar that may be associated with an impacted wisdom tooth. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep all regularly scheduled dental appointments for cleanings and checkups. Regularly updated dental X-rays may indicate impacted wisdom teeth before any symptoms develop. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wisdom teeth (third molars) become impacted because they don&apos;t have enough room to come in (erupt) or grow normally. 
+&lt;/p&gt;
+&lt;p&gt;
+Wisdom teeth usually emerge sometime between the ages of 17 and 25. Some people have wisdom teeth that emerge without any problems and line up with the other teeth behind the second molars. In many cases, however, the mouth is too crowded for third molars to develop normally. These crowded third molars become trapped (impacted).
+&lt;/p&gt;
+&lt;p&gt;
+An impacted wisdom tooth may partially emerge so that some of the crown is visible (partially impacted), or it may never break through the gums (fully impacted). Whether partially or fully impacted, the tooth may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Grow at an angle toward the next tooth (second molar)&lt;/li&gt;
+	&lt;li&gt;Grow at an angle toward the back of the mouth&lt;/li&gt;
+	&lt;li&gt;Grow at a right angle to the other teeth, as if the wisdom tooth is &quot;lying down&quot; within the jawbone&lt;/li&gt;
+	&lt;li&gt;Grow straight up or down like other teeth but stay trapped within the jawbone&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing erupting and impacted wisdom teeth 
+" Caption="Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly causing complications. 
+" Height="60" Title="Impacted wisdom teeth" URI="/images/image_popup/thumbs/de7_wisdomteeththu.jpg" Width="60" />
+				<Image Alt="Illustration showing erupting and impacted wisdom teeth 
+" Caption="Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly causing complications. 
+" Height="400" Title="Impacted wisdom teeth" URI="/images/image_popup/de7_wisdomteeth.jpg" Width="400" />
+				<HTML>
+					Wisdom teeth are the last of your teeth to come in, or erupt, through the gums. Sometimes a wisdom tooth becomes impacted, or stuck below the surface of your gums, and grows at an odd angle, possibly ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impacted wisdom teeth can cause several problems in the mouth:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to other teeth.&lt;/strong&gt; If the wisdom tooth pushes against the second molar, it may damage the second molar or make it more vulnerable to infection. This pressure can also cause problems with crowding of the other teeth or orthodontic treatments to straighten other teeth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cysts.&lt;/strong&gt; The wisdom tooth grows in a sac within the jawbone. The sac can fill with fluid, forming a cyst that can damage the jawbone, teeth and nerves. Rarely, a tumor &amp;mdash; usually a noncancerous tumor &amp;mdash; develops. This complication may require removal of tissue and bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decay.&lt;/strong&gt; Partially impacted wisdom teeth appear to be more vulnerable to tooth decay (caries) than other teeth. This probably occurs because wisdom teeth are harder to clean and because food and bacteria get easily trapped between the gum and a partially erupted tooth. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gum disease.&lt;/strong&gt; The difficulty of cleaning impacted, partially erupted wisdom teeth also makes them a vulnerable site for the development of a painful, inflammatory gum condition called pericoronitis (per-ih-kor-o-NI-tis).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keeping regular six-month dental appointments for cleaning and checkups enables your dentist to monitor the growth and emergence of your wisdom teeth. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re experiencing pain, swollen gums or other dental problems that may indicate an impacted wisdom tooth, see your dentist as soon as possible. Your dentist may recommend an oral surgeon if your impacted wisdom teeth are likely to be difficult to treat. 
+&lt;/p&gt;
+&lt;p&gt;
+Be prepared to answer the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does anything worsen symptoms, such as chewing toward the back of your mouth?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any bleeding while brushing or flossing your teeth?&lt;/li&gt;
+	&lt;li&gt;What are your typical teeth-cleaning habits?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your dentist or oral surgeon can evaluate your teeth and mouth to determine if you have impacted wisdom teeth or if another condition is causing your problems. Such evaluations typically include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Questions about your dental symptoms and general health&lt;/li&gt;
+	&lt;li&gt;An examination of the condition of your teeth and gums&lt;/li&gt;
+	&lt;li&gt;Dental X-rays that can reveal the presence of impacted teeth, as well as signs of damage to teeth or bone&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impacted wisdom teeth that are causing pain or other dental problems are usually surgically removed, or extracted. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have medical conditions that may increase surgical risks, your dentist will likely ask you to see an oral surgeon to discuss the best course of action. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Managing asymptomatic wisdom teeth&lt;br /&gt;
+&lt;/strong&gt;If impacted wisdom teeth aren&apos;t causing symptoms or apparent dental problems, they&apos;re called asymptomatic. Some disagreement exists in the dental community about how to manage asymptomatic impacted wisdom teeth. Research on this topic doesn&apos;t strongly favor one strategy over the other. 
+&lt;/p&gt;
+&lt;p&gt;
+Some dentists and oral surgeons recommend removing asymptomatic wisdom teeth to prevent future potential problems. They argue: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An asymptomatic tooth may not be free of disease and may be a particularly vulnerable site for gum disease and tooth cavities.&lt;/li&gt;
+	&lt;li&gt;The procedure rarely results in serious complications in younger adults.&lt;/li&gt;
+	&lt;li&gt;The procedure is more difficult and more likely to cause complications later in life, particularly among older adults.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other dentists and oral surgeons recommend a more conservative approach. They note: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;There isn&apos;t enough evidence to suggest that impacted wisdom teeth not causing problems in young adulthood will later cause problems.&lt;/li&gt;
+	&lt;li&gt;The expense and risks of the procedure don&apos;t justify the expected benefit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With a conservative approach, your dentist will monitor your teeth for decay, gum disease or other complications. He or she may recommend removing a tooth if problems arise. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical removal&lt;br /&gt;
+&lt;/strong&gt;Surgical removal (extraction) of a wisdom tooth is almost always done as an outpatient procedure, meaning you&apos;ll go home the same day. You may have local anesthesia, which numbs your mouth; sedation that depresses your consciousness; or general anesthesia, which makes you lose consciousness. 
+&lt;/p&gt;
+&lt;p&gt;
+During an extraction your dentist or oral surgeon makes an incision in your gums and removes any bone that blocks access to the impacted tooth. After removing the tooth, the dentist or oral surgeon typically closes the wound with stitches and packs the empty space (socket) with gauze. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll receive instructions for caring for wounds and for managing pain and swelling. 
+&lt;/p&gt;
+&lt;p&gt;
+Most wisdom tooth extractions don&apos;t result in long-term complications. Problems that can occur include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dry socket, or exposure of bone if the post-surgical blood clot gets dislodged from the socket, which can be painful and delay healing&lt;/li&gt;
+	&lt;li&gt;Infection in the socket from bacteria or trapped food particles&lt;/li&gt;
+	&lt;li&gt;Damage to sinuses near the upper wisdom teeth&lt;/li&gt;
+	&lt;li&gt;Weakening of the lower jawbone&lt;/li&gt;
+	&lt;li&gt;Damage to nerves that results in altered sensation in the lower lip, tongue or chin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A visit to the dentist may cause so much anxiety that you can&apos;t get yourself to go, despite the pain you&apos;re experiencing. The thought of having a tooth removed may be overwhelming, but delaying care can lead to serious and permanent problems. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to talk to your dentist about your concerns. Anxiety is common and nothing to be embarrassed about. Ask your dentist for suggestions on how to cope with your anxiety and discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+Many dentists offer ways to ease your anxiety, such as listening to music or watching videos. You may be able to bring along a supportive family member or friend. You can also learn relaxation techniques, such as deep breathing and imagery. If you have severe anxiety, talk to your dentist or doctor about medications that may help.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Impacted wisdom teeth
+	</Title>
+	<Abstract>
+		Impacted wisdom teeth &amp;mdash; Comprehensive overview covers symptoms, complications and treatment of impacted wisdom teeth.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02002" LinkType="Internal" ObjectID="360DBB28-EB73-6C19-32C01938DDB2F6DF" Title="OraVerse: Reversing dental numbness" Url="http://www.mayoclinic.com/health/oraverse/AN02002" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01212" LinkType="Internal" ObjectID="0B1F451A-0DE1-C435-35D944EDA8479029" Title="Wisdom tooth extraction" Url="http://www.mayoclinic.com/health/wisdom-tooth-extraction/MY01212" />
+		<LinkItem ContentType="Answer" DocID="AN01961" LinkType="Internal" ObjectID="D4A0B06E-E7FF-0DBD-1F9AD1F35EDD2AEF" Title="Wisdom teeth removal: When is it necessary?" Url="http://www.mayoclinic.com/health/wisdom-teeth-removal/AN01961" />
+	</RelatedLinksBox>
+</Disease>

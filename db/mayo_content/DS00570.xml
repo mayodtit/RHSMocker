@@ -1,0 +1,466 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00570
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bedsores/DS00570
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2841" Title="Bedsores" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2F39B719-D2A6-4146-9E498948F7F9CB61
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bedsores
+			</MetaKeyword>
+			<MetaKeyword>
+				pressure sores
+			</MetaKeyword>
+			<MetaKeyword>
+				skin sores
+			</MetaKeyword>
+			<MetaKeyword>
+				pressure ulcers
+			</MetaKeyword>
+			<MetaKeyword>
+				decubitus ulcers
+			</MetaKeyword>
+			<MetaKeyword>
+				dermal ulcers
+			</MetaKeyword>
+			<MetaKeyword>
+				pressure wounds
+			</MetaKeyword>
+			<MetaKeyword>
+				bed sores
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bedsores &amp;mdash; also called pressure sores or pressure ulcers &amp;mdash; are injuries to skin and underlying tissues that result from prolonged pressure on the skin. Bedsores most often develop on skin that covers bony areas of the body, such as the heel, ankles, hips or buttocks. 
+&lt;/p&gt;
+&lt;p&gt;
+People most at risk of bedsores are those with a medical condition that limits their ability to change positions, requires them to use a wheelchair or confines them to a bed for prolonged periods. 
+&lt;/p&gt;
+&lt;p&gt;
+Bedsores can develop quickly and are often difficult to treat. Several care strategies can help prevent some bedsores and promote healing. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a bedsore
+" Caption="Bedsores are areas of damaged skin and tissue caused by sustained pressure &amp;mdash; often from a bed or wheelchair &amp;mdash; that reduces blood circulation to vulnerable areas of the body.
+" Height="60" Title="Bedsore" URI="/images/image_popup/thumbs/r7_bedsore09thu.jpg" Width="60" />
+				<Image Alt="Photo of a bedsore
+" Caption="Bedsores are areas of damaged skin and tissue caused by sustained pressure &amp;mdash; often from a bed or wheelchair &amp;mdash; that reduces blood circulation to vulnerable areas of the body.
+" Height="308" Title="Bedsore" URI="/images/image_popup/r7_bedsore09.jpg" Width="400" />
+				<HTML>
+					Bedsores are areas of damaged skin and tissue caused by sustained pressure &amp;mdash; often from a bed or wheelchair &amp;mdash; that reduces blood circulation to vulnerable areas of the body.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bedsores fall into one of four stages based on their severity. The National Pressure Ulcer Advisory Panel, a professional organization that promotes the prevention and treatment of pressure ulcers, has defined each stage as follows. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stage I&lt;/strong&gt;&lt;br /&gt;
+The beginning stage of a pressure sore has the following characteristics: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The skin is intact.&lt;/li&gt;
+	&lt;li&gt;The skin appears red on people with lighter skin color, and the skin doesn&apos;t briefly lighten (blanch) when touched.&lt;/li&gt;
+	&lt;li&gt;On people with darker skin, there may be no change in the color of the skin, and the skin doesn&apos;t blanch when touched. Or the skin may appear ashen, bluish or purple.&lt;/li&gt;
+	&lt;li&gt;The site may be painful, firm, soft, warmer or cooler compared with the surrounding skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stage II&lt;/strong&gt;&lt;br /&gt;
+The stage II ulcer is an open wound: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The outer layer of skin (epidermis) and part of the underlying layer of skin (dermis) is damaged or lost.&lt;/li&gt;
+	&lt;li&gt;The pressure ulcer may appear as a shallow, pinkish-red, basin-like wound.&lt;/li&gt;
+	&lt;li&gt;It may also appear as an intact or ruptured fluid-filled blister.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stage III&lt;/strong&gt;&lt;br /&gt;
+At this stage, the ulcer is a deep wound: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The loss of skin usually exposes some amount of fat.&lt;/li&gt;
+	&lt;li&gt;The ulcer has a crater-like appearance.&lt;/li&gt;
+	&lt;li&gt;The bottom of the wound may have some yellowish dead tissue (slough).&lt;/li&gt;
+	&lt;li&gt;The damage may extend beyond the primary wound below layers of healthy skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stage IV&lt;/strong&gt;&lt;br /&gt;
+A stage IV ulcer exhibits large-scale loss of tissue: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The wound may expose muscle, bone and tendons.&lt;/li&gt;
+	&lt;li&gt;The bottom of the wound likely contains slough or dark, crusty dead tissue (eschar).&lt;/li&gt;
+	&lt;li&gt;The damage often extends beyond the primary wound below layers of healthy skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Common sites of pressure sores&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;For people who use a wheelchair,&lt;/strong&gt; pressure sores often occur on skin over the following sites: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tailbone or buttocks&lt;/li&gt;
+	&lt;li&gt;Shoulder blades and spine&lt;/li&gt;
+	&lt;li&gt;Backs of arms and legs where they rest against the chair&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For people who are confined to a bed,&lt;/strong&gt; common sites include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Back or sides of the head&lt;/li&gt;
+	&lt;li&gt;Rim of the ears&lt;/li&gt;
+	&lt;li&gt;Shoulders or shoulder blades&lt;/li&gt;
+	&lt;li&gt;Hip, lower back or tailbone&lt;/li&gt;
+	&lt;li&gt;Heels, ankles and skin behind the knees&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Inspection of the skin should be a part of routine nursing or home care for anyone who is confined for a long time to a wheelchair or bed or for anyone who has limited ability to reposition himself or herself. Contact your doctor right away if you notice any signs or symptoms of a pressure ulcer. Get immediate medical care if a person under your care shows signs of infection, such as fever, drainage or foul odor from a sore, or increased heat and redness in the surrounding skin. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of a bedsore
+" Caption="Bedsores are areas of damaged skin and tissue caused by sustained pressure &amp;mdash; often from a bed or wheelchair &amp;mdash; that reduces blood circulation to vulnerable areas of the body.
+" Height="60" Title="Bedsore" URI="/images/image_popup/thumbs/r7_bedsore09thu.jpg" Width="60" />
+				<Image Alt="Photo of a bedsore
+" Caption="Bedsores are areas of damaged skin and tissue caused by sustained pressure &amp;mdash; often from a bed or wheelchair &amp;mdash; that reduces blood circulation to vulnerable areas of the body.
+" Height="308" Title="Bedsore" URI="/images/image_popup/r7_bedsore09.jpg" Width="400" />
+				<HTML>
+					Bedsores are areas of damaged skin and tissue caused by sustained pressure &amp;mdash; often from a bed or wheelchair &amp;mdash; that reduces blood circulation to vulnerable areas of the body.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pressure sores are caused by pressure against the skin that inhibits an adequate supply of blood to skin and underlying tissues. Other factors related to limited mobility can make the skin vulnerable to damage and contribute to the development of pressure sores. There are three primary contributing factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sustained pressure.&lt;/strong&gt; When your skin and the underlying tissues are trapped between bone and a surface such as a wheelchair or bed, the pressure may be greater than the pressure of the blood flowing in the tiny vessels (capillaries) that deliver oxygen and other nutrients to tissues. Deprived of these essential nutrients, cells of the skin and other tissues are damaged and may eventually die. This kind of pressure tends to happen in areas that aren&apos;t well padded with muscle or fat and that lie just over a bone, such as your spine, tailbone (coccyx), shoulder blades, hips, heels and elbows.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Friction.&lt;/strong&gt; Friction is the resistance to motion. When a person changes position or is handled by care providers, friction may occur when the skin is dragged across a surface. The resistance to motion may be even greater if the skin is moist. Friction between skin and another surface may make fragile skin more vulnerable to injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shear.&lt;/strong&gt; Shear occurs when two surfaces move in the opposite direction. For example, when a hospital bed is elevated at the head, a person can slide down in bed. As the tailbone moves down, the skin over the bone may stay in place &amp;mdash; essentially pulling in the opposite direction. This motion may damage tissue and blood vessels, making the site more vulnerable to damage from sustained pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone with limited mobility &amp;mdash; unable to easily change position while seated or in bed &amp;mdash; is at risk of developing pressure sores. Immobility may be due to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Generally poor health or weakness&lt;/li&gt;
+	&lt;li&gt;Paralysis&lt;/li&gt;
+	&lt;li&gt;Injury or illness that requires bed rest or wheelchair use&lt;/li&gt;
+	&lt;li&gt;Recovery after surgery&lt;/li&gt;
+	&lt;li&gt;Sedation&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other factors that increase the risk of pressure sores include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The skin of older adults is generally more fragile, thinner, less elastic and drier than the skin of younger adults. Also, new skin cells are usually generated more slowly. All of these conditions of the skin make it more vulnerable to damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of sensory perception.&lt;/strong&gt; Spinal cord injuries, neurological disorders and other conditions can result in a loss of sensation. An inability to feel pain or discomfort can result in not being aware of bedsores or the need to change position.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; Weight loss is common during prolonged illnesses, and muscle atrophy and wasting are common in people living with paralysis. The loss of fat and muscle results in less cushioning between bones and a bed or wheelchair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor nutrition and hydration.&lt;/strong&gt; An adequate amount of fluids, calories, protein, vitamins and minerals in the daily diet are important for maintaining healthy skin and preventing the breakdown of tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary or fecal incontinence.&lt;/strong&gt; Problems with bladder control can greatly increase the risk of pressure sores because the skin may frequently be moist, making it more likely to break down. Bacteria from fecal matter can cause serious local infections and lead to life-threatening infections affecting the body in general.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess moisture or dryness.&lt;/strong&gt; Skin that is moist from sweat or excessively dry is more likely to be injured in general and increases the friction between the skin and clothing or bedding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions affecting circulation.&lt;/strong&gt; Because certain health problems, such as diabetes and vascular disease, affect circulation, parts of the body may not receive adequate blood flow, increasing the risk of tissue damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking impairs circulation and reduces the amount of oxygen in the blood. Therefore, smokers tend to develop more severe wounds, and their wounds heal more slowly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decreased mental awareness.&lt;/strong&gt; People whose mental awareness is lessened by disease, trauma or medications are often less able to take the actions needed to prevent or care for pressure sores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle spasms.&lt;/strong&gt; People who have muscle spasms or other involuntary muscle movement may have an increased risk of pressure sores from frequent friction or shearing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of pressure ulcers include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sepsis.&lt;/strong&gt; Sepsis occurs when bacteria enters your bloodstream through the broken skin and spreads throughout your body &amp;mdash; a rapidly progressing, life-threatening condition that can cause organ failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cellulitis.&lt;/strong&gt; This acute infection of your skin&apos;s connective tissue causes pain, redness and swelling, all of which can be severe. Cellulitis can also lead to life-threatening complications, including sepsis and meningitis &amp;mdash; an infection of the membrane and fluid surrounding your brain and spinal cord.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone and joint infections.&lt;/strong&gt; These develop when the infection from a pressure sore burrows deep into your joints and bones. Joint infections (septic or infectious arthritis) can damage cartilage and tissue, and bone infections (osteomyelitis) may reduce the function of your joints and limbs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Another complication is the development of a type of squamous cell carcinoma that develops in chronic, nonhealing wounds (Marjolin ulcer). This type of cancer is aggressive and usually requires surgical treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Evaluating a bedsore&lt;/strong&gt;&lt;br /&gt;
+To evaluate your bedsore, your doctor will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Determine the size and depth of the ulcer&lt;/li&gt;
+	&lt;li&gt;Check for bleeding, fluids or debris in the wound that can indicate severe infection&lt;/li&gt;
+	&lt;li&gt;Determine if there are odors that indicate an infection or dead tissue&lt;/li&gt;
+	&lt;li&gt;Assess the area around the wound for signs of spreading tissue damage or infection&lt;/li&gt;
+	&lt;li&gt;Check for other pressure sores on the body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions from the doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor may ask you or your caregiver questions such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the pressure sore first appear?&lt;/li&gt;
+	&lt;li&gt;What is the degree of pain?&lt;/li&gt;
+	&lt;li&gt;Have you had pressure sores in the past?&lt;/li&gt;
+	&lt;li&gt;How were they managed, and what was the outcome of treatment?&lt;/li&gt;
+	&lt;li&gt;What kind of care assistance is available?&lt;/li&gt;
+	&lt;li&gt;What is your routine for changing positions?&lt;/li&gt;
+	&lt;li&gt;What medical conditions have been diagnosed, and what is the current treatment?&lt;/li&gt;
+	&lt;li&gt;What is your normal daily diet?&lt;/li&gt;
+	&lt;li&gt;How much water and other fluids do you drink each day?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests&lt;/strong&gt;&lt;br /&gt;
+Your doctor may order the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Blood tests to assess your nutritional status and overall health&lt;/li&gt;
+	&lt;li&gt;Tissue cultures to diagnose a bacterial or fungal infection in a wound that doesn&apos;t heal with treatment or is already a stage IV wound&lt;/li&gt;
+	&lt;li&gt;Tissue cultures to check for cancerous tissue if it&apos;s a chronic, nonhealing wound&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stage I and stage II pressure sores usually heal within several weeks to months with conservative care of the wound and with ongoing, appropriate general care that manages risk factors for pressure sores. Stage III and IV pressure sores are more difficult to treat. In a person who has a terminal illness or multiple chronic medical conditions, pressure sore treatment may focus primarily on managing pain rather than complete healing of a wound. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment team&lt;/strong&gt;&lt;br /&gt;
+Addressing the many aspects of wound care usually requires a multidisciplinary approach. Members of a care team may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A primary care physician who oversees the treatment plan&lt;/li&gt;
+	&lt;li&gt;A physician specializing in wound care&lt;/li&gt;
+	&lt;li&gt;Nurses or medical assistants who provide both care and education for managing wounds&lt;/li&gt;
+	&lt;li&gt;A social worker who helps a person or family access appropriate resources and addresses emotional concerns related to long-term recovery&lt;/li&gt;
+	&lt;li&gt;A physical therapist who helps with improving mobility&lt;/li&gt;
+	&lt;li&gt;A dietitian who assesses nutritional needs and recommends an appropriate diet&lt;/li&gt;
+	&lt;li&gt;A neurosurgeon, orthopedic surgeon or plastic surgeon, depending on whether surgery is required and what type of surgery is needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Relieving pressure&lt;/strong&gt;&lt;br /&gt;
+The first step in treating a sore at any stage is relieving the pressure that caused it. Strategies to reduce pressure include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Repositioning.&lt;/strong&gt; A person with pressure sores needs to be repositioned regularly and placed in correct positions. People using a wheelchair should change position as much as possible on their own every 15 minutes and should have assistance with changes in position every hour. People confined to a bed should change positions every two hours. Lifting devices are often used to avoid friction during repositioning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Support surfaces.&lt;/strong&gt; Special cushions, pads, mattresses and beds can help a person lie in an appropriate position, relieve pressure on an existing sore and protect vulnerable skin from damage. A variety of foam, air-filled or water-filled devices provide cushion for those sitting in wheelchairs. The type of devices used will depend on a person&apos;s condition, body type and mobility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Removing damaged tissue&lt;/strong&gt;&lt;br /&gt;
+To heal properly, wounds need to be free of damaged, dead or infected tissue. Removing these tissues (debridement) is accomplished with a number of methods, depending on the severity of the wound, your overall condition and the treatment goals. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical debridement&lt;/strong&gt; involves cutting away dead tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mechanical debridement&lt;/strong&gt; uses one of a number of methods to loosen and remove wound debris, such as a pressurized irrigation device, a whirlpool water bath or specialized dressings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autolytic debridement,&lt;/strong&gt; the body&apos;s natural process of recruiting enzymes to break down dead tissue, can be enhanced with an appropriate dressing that keeps the wound moist and clean.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enzymatic debridement&lt;/strong&gt; is the use of chemical enzymes and appropriate dressings to break down dead tissues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cleaning and dressing wounds&lt;/strong&gt;&lt;br /&gt;
+Care that promotes healing of the wound includes the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cleaning.&lt;/strong&gt; It&apos;s essential to keep wounds clean to prevent infection. A stage I wound can be gently washed with water and mild soap, but open sores are cleaned with a saltwater (saline) solution each time the dressing is changed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dressings.&lt;/strong&gt; A dressing promotes healing by keeping a wound moist, creating a barrier against infection and keeping the surrounding skin dry. A variety of dressings are available, including films, gauzes, gels, foams and various treated coverings. A combination of dressings may be used. Your doctor selects an appropriate dressing based on a number of factors, such as the size and severity of the wound, the amount of discharge, and the ease of application and removal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other interventions&lt;/strong&gt;&lt;br /&gt;
+Other interventions that may be used are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain management.&lt;/strong&gt; Interventions that may reduce pain include the use of nonsteroidal anti-inflammatory drugs &amp;mdash; such as ibuprofen (Motrin, Advil, others) and naproxen (Aleve, others) &amp;mdash; particularly before and after repositioning, debridement procedures and dressing changes. Topical pain medications, such as a combination of lidocaine and prilocaine, also may be used during debridement and dressing changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Pressure sores that are infected and don&apos;t respond to other interventions may be treated with topical or oral antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Healthy diet.&lt;/strong&gt; Appropriate nutrition and hydration promote wound healing. Your doctor may recommend an increase in calories and fluids, a high protein diet, and an increase in foods rich in vitamins and minerals. Your doctor may also prescribe dietary supplements, such as vitamin C and zinc.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle spasm relief.&lt;/strong&gt; Muscle relaxants &amp;mdash; such as diazepam (Valium), tizanidine (Zanaflex), dantrolene (Dantrium) and baclofen &amp;mdash; may inhibit muscle spasms and enable the healing of sores that may have been caused or worsened by spasm-related friction or shearing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical repair&lt;/strong&gt;&lt;br /&gt;
+Pressure sores that fail to heal may require surgical intervention. The goals of surgery include improving the hygiene and appearance of the sore, preventing or treating infection, reducing fluid loss through the wound, and lowering the risk of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+The type of reconstruction that&apos;s best in any particular case depends mainly on the location of the wound and whether there&apos;s scar tissue from a previous operation. In general, though, most pressure wounds are repaired using a pad of the person&apos;s own muscle, skin or other tissue to cover the wound and cushion the affected bone (flap reconstruction). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treating and preventing pressure sores is demanding on the at-risk person, family members and caregivers. Issues that may need to be addressed by the doctor, nursing staff and social worker include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Community services.&lt;/strong&gt; A social worker can help identify community groups that provide services, education and support groups for people dealing with long-term caregiving or terminal illnesses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;End-of-life care.&lt;/strong&gt; Physicians and nurses specializing in end-of-life palliative care &amp;mdash; care that focuses on managing pain and providing comfort &amp;mdash; can help a family determine treatment goals when the person with pressure sores is approaching the end of life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Residential care.&lt;/strong&gt; People with limited mobility who live in residential or nursing care facilities are at increased risk of developing pressure sores. Family and friends of people living in these facilities can be advocates for the residents and work with nursing staff to ensure proper preventive care.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bedsores are easier to prevent than to treat, but that doesn&apos;t mean the process is easy or uncomplicated. And wounds may still develop with consistent, appropriate preventive care. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor and other members of a care team can help develop a strategy that&apos;s appropriate whether it&apos;s personal care with at-home assistance or professional care in a hospital or residential setting. 
+&lt;/p&gt;
+&lt;p&gt;
+Position changes are key to pressure sore prevention. These changes need to be frequent, repositioning needs to avoid stress on the skin, and body positions need to minimize the risk of pressure on vulnerable areas. Other strategies include skin care, regular skin inspections and good nutrition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Repositioning in a wheelchair&lt;/strong&gt;&lt;br /&gt;
+Repositioning in a wheelchair includes the following recommendations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Frequency.&lt;/strong&gt; People using a wheelchair should change position as much as possible on their own every 15 minutes and should have assistance with changes in position every hour.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Self-care.&lt;/strong&gt; If you have enough strength in your upper body, you can do wheelchair push-ups &amp;mdash; raising your body off the seat by pushing on the arms of the chair.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Specialized wheelchairs.&lt;/strong&gt; Pressure-release wheelchairs, which tilt to redistribute pressure, provide some assistance in repositioning and pressure relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cushions.&lt;/strong&gt; Various cushions &amp;mdash; including foam, gel, and water- or air-filled cushions &amp;mdash; can relieve pressure and help ensure that the body is appropriately positioned in the chair. A physical therapist can advise on the appropriate placement of cushions and their role in regular repositioning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Repositioning in a bed&lt;/strong&gt;&lt;br /&gt;
+Repositioning for a person confined to a bed includes the following recommendations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Frequency.&lt;/strong&gt; Repositioning should occur every two hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repositioning devices.&lt;/strong&gt; People with enough upper body strength may be able to reposition themselves with the assistance of a device such as a trapeze bar. Using bed linens to help lift and reposition a person can reduce friction and shearing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Special mattresses and support surfaces.&lt;/strong&gt; Special cushions, foam mattress pads, air-filled mattresses and water-filled mattresses can help a person lie in an appropriate position, relieve pressure and protect vulnerable areas from damage. Your doctor or other care team member can recommend an appropriate mattress or surface.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bed elevation.&lt;/strong&gt; Hospital beds that can be elevated at the head should be raised no more than 30 degrees to prevent shearing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protecting bony areas.&lt;/strong&gt; Bony areas can be protected with proper positioning and cushioning. Rather than lying directly on a hip, it&apos;s best to lie at an angle with cushions supporting the back or front. Cushions should also be used to relieve pressure against and between the knees and ankles. Heels can be cushioned or &quot;floated&quot; with cushions below the calves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Skin care&lt;/strong&gt;&lt;br /&gt;
+Protecting and monitoring the condition of the skin is important for preventing pressure sores and identifying stage I sores before they worsen. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bathing.&lt;/strong&gt; Skin should be cleaned with mild soap and warm water and gently patted dry. Or a no-rinse cleanser can be used.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protecting skin.&lt;/strong&gt; Skin that is vulnerable to excess moisture can be protected with talcum powder. Dry skin should have lotion applied.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inspecting skin.&lt;/strong&gt; Daily skin inspection is important for identifying vulnerable areas of skin or early signs of pressure sores. Care providers usually need to help with a thorough skin inspection, but people with more mobility may be able to inspect their skin with the use of a mirror.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Managing incontinence.&lt;/strong&gt; Urinary or bowel incontinence should be managed to prevent moisture and bacterial exposure to skin. Care may include frequently scheduled assistance with urinating, frequent diaper changes, protective lotions on healthy skin, urinary catheters or rectal tubes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nutrition&lt;/strong&gt;&lt;br /&gt;
+Your doctor, dietitian or other members of the care team can recommend dietary changes that can help improve the health of your skin. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diet.&lt;/strong&gt; You may need to increase the amount of calories, protein, vitamins and minerals in your diet. Your doctor may also prescribe dietary supplements, such as vitamin C and zinc.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluids.&lt;/strong&gt; Adequate hydration is important for maintaining healthy skin. Your care team can advise on how much fluid to drink and signs of poor hydration, such as decreased urine output, darker urine, dry or sticky mouth, thirst, dry skin, or constipation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Feeding assistance.&lt;/strong&gt; Some people with limited mobility or significant weakness may need assistance with eating in order to get adequate nutrition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other strategies&lt;/strong&gt;&lt;br /&gt;
+Other strategies that can help decrease the risk of pressures sores include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; If you smoke, quit. Talk to your doctor if you need assistance quitting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Limited mobility is a key factor in causing pressure sores. However, daily exercise that is appropriately matched to a person&apos;s abilities is an important step in maintaining healthy skin. A physical therapist can recommend an appropriate exercise program that improves circulation, builds up vital muscle tissue, stimulates appetite and strengthens the body overall.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bedsores (pressure sores)
+	</Title>
+	<Abstract>
+		Bedsores &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of these skin and tissue wounds.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00829" LinkType="Internal" ObjectID="0642C9A9-9B43-1C8D-B8C747F7A330D396" Title="Hyperbaric oxygen therapy" Url="http://www.mayoclinic.com/health/hyperbaric-oxygen-therapy/MY00829" />
+		<LinkItem ContentType="Disease" DocID="DS01004" LinkType="Internal" ObjectID="E288B077-E7FF-0DBD-16534B889689C125" Title="Sepsis" Url="http://www.mayoclinic.com/health/sepsis/DS01004" />
+	</RelatedLinksBox>
+</Disease>

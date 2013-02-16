@@ -1,0 +1,359 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00852
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/anal-cancer/DS00852
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-23
+		</UpdateDate>
+		<PublicationDate>
+			2006-12-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3204" Title="Anal cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CCE44285-E7FF-0DBD-1B84E68B6C856E60
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				anus cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer of the anus
+			</MetaKeyword>
+			<MetaKeyword>
+				anal canal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				anal canal
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anal cancer is an uncommon type of cancer that occurs in the anal canal. The anal canal is a short tube at the end of your rectum through which stool leaves your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Anal cancer can cause signs and symptoms such as rectal bleeding and anal pain. Anal cancer symptoms may mimic those of more common conditions, such as hemorrhoids. For this reason, people with anal cancer may not see their doctors right away. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of anal cancer are diagnosed at an early stage &amp;mdash; when treatment provides the best chance for a cure. Most people with anal cancer are treated with a combination of chemotherapy and radiation. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the anal canal
+" Caption="The anal canal is a tube at the end of your rectum that measures 1 1/2 inches in length (about 4 centimeters). Muscles (anal sphincters) that surround the anal canal relax to allow waste to leave your body. 
+" Height="60" Title="The anal canal" URI="/images/image_popup/thumbs/c7_anal_canalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the anal canal
+" Caption="The anal canal is a tube at the end of your rectum that measures 1 1/2 inches in length (about 4 centimeters). Muscles (anal sphincters) that surround the anal canal relax to allow waste to leave your body. 
+" Height="521" Title="The anal canal" URI="/images/image_popup/c7_anal_canal.jpg" Width="400" />
+				<HTML>
+					The anal canal is a tube at the end of your rectum that measures 1 1/2 inches in length (about 4 centimeters). Muscles (anal sphincters) that surround the anal canal relax to allow waste to leave ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anal cancer signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding from the anus or rectum&lt;/li&gt;
+	&lt;li&gt;Pain in the area of the anus&lt;/li&gt;
+	&lt;li&gt;A mass or growth in the anal canal&lt;/li&gt;
+	&lt;li&gt;Anal itching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+The signs and symptoms of anal cancer aren&apos;t specific to this disease. Some people mistake their signs and symptoms for more common conditions, such as hemorrhoids, and don&apos;t see their doctors. Talk to your doctor about any signs and symptoms that bother you, especially if you have any factors that increase your risk of anal cancer. Treatment for anal cancer is more likely to succeed if cancer is found at an early stage. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the anal canal
+" Caption="The anal canal is a tube at the end of your rectum that measures 1 1/2 inches in length (about 4 centimeters). Muscles (anal sphincters) that surround the anal canal relax to allow waste to leave your body. 
+" Height="60" Title="The anal canal" URI="/images/image_popup/thumbs/c7_anal_canalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the anal canal
+" Caption="The anal canal is a tube at the end of your rectum that measures 1 1/2 inches in length (about 4 centimeters). Muscles (anal sphincters) that surround the anal canal relax to allow waste to leave your body. 
+" Height="521" Title="The anal canal" URI="/images/image_popup/c7_anal_canal.jpg" Width="400" />
+				<HTML>
+					The anal canal is a tube at the end of your rectum that measures 1 1/2 inches in length (about 4 centimeters). Muscles (anal sphincters) that surround the anal canal relax to allow waste to leave ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anal cancer forms when a genetic mutation turns normal, healthy cells into abnormal cells. Healthy cells grow and multiply at a set rate, eventually dying at a set time. Abnormal cells grow and multiply out of control, and they don&apos;t die. The accumulating abnormal cells form a mass (tumor). Cancer cells invade nearby tissues and can separate from an initial tumor to spread elsewhere in the body (metastasize). 
+&lt;/p&gt;
+&lt;p&gt;
+Anal cancer is closely related to a sexually transmitted infection called human papillomavirus (HPV). Evidence of HPV is detected in the majority of anal cancers. HPV is thought to be the most common cause of anal cancers. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors have been found to increase the risk of anal cancer, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Most cases of anal cancer occur in people age 50 and older.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Many sexual partners.&lt;/strong&gt; Men and women who have many sexual partners over their lifetimes have a greater risk of anal cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anal sex.&lt;/strong&gt; Men and women who engage in anal sex have an increased risk of anal cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking cigarettes may increase your risk of anal cancer. Former smokers have only a slightly elevated risk of anal cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Human papillomavirus (HPV).&lt;/strong&gt; HPV infection increases your risk of several cancers, including anal cancer and cervical cancer. HPV infection is a sexually transmitted disease that can also cause genital warts. HPV may cause cells in the anal canal to appear abnormal &amp;mdash; a condition called anal squamous intraepithelial lesions (ASIL). The abnormal cells associated with ASIL aren&apos;t cancer, but they may develop into anal cancer. However, some people with ASIL never develop anal cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs or conditions that suppress your immune system.&lt;/strong&gt; People who take drugs to suppress their immune systems (immunosuppressive drugs), including people who have received organ transplants, may have an increased risk of anal cancer. Long-term use of corticosteroids, such as those prescribed to control autoimmune disorders, also may increase the risk of anal cancer. HIV &amp;mdash; the virus that causes AIDS &amp;mdash; suppresses the immune system and increases the risk of anal cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anal cancer rarely spreads (metastasizes) to distant parts of the body. Only a small percentage of tumors are found to have spread, but those that do are especially difficult to treat. Anal cancer that metastasizes most commonly spreads to the liver and the lungs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or a general practitioner if you have any signs or symptoms that worry you. If your doctor thinks you have anal cancer, you may be referred to a surgeon or a specialist who treats digestive diseases (gastroenterologist). Once a cancer diagnosis is made, you may also be referred to a doctor who specializes in treating cancer (oncologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For anal cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the stage of my anal cancer?&lt;/li&gt;
+	&lt;li&gt;What other tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment that&apos;s best for my type and stage of cancer?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects for each treatment?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion? Can you give me names of specialists you recommend?&lt;/li&gt;
+	&lt;li&gt;Am I eligible for clinical trials?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time later to cover points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose anal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Examining your anal canal and rectum for abnormalities.&lt;/strong&gt; During a digital rectal exam (DRE), your doctor inserts a gloved, lubricated finger into your rectum. He or she feels for anything unusual, such as growths. DRE isn&apos;t used to diagnose anal cancer, but it can give your doctor an indication of what further testing might be appropriate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Visually inspecting your anal canal and rectum.&lt;/strong&gt; Your doctor may use a short, lighted tube (anoscope) to inspect your anal canal and rectum for anything unusual.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking sound wave pictures of your anal canal.&lt;/strong&gt; In order to create a picture of your anal canal, your doctor inserts a probe, similar to a thick thermometer, into your anal canal and rectum. The probe emits high-energy sound waves, called ultrasound waves, which bounce off tissues and organs in your body to create a picture. Your doctor evaluates the picture to look for anything abnormal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of tissue for laboratory testing.&lt;/strong&gt; If your doctor discovers any unusual areas, he or she may take small samples of affected tissue (biopsy) and send the samples to a laboratory for analysis. By looking at the cells under a microscope, doctors can determine if the cells are cancerous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging&lt;/strong&gt; &lt;br /&gt;
+Once it&apos;s confirmed that you have anal cancer, your doctor works to determine the size of the cancer and whether it has spread &amp;mdash; a process called staging. Determining your cancer&apos;s stage helps your doctor determine the best approach to treating your cancer. Tests and procedures used in the staging of your cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Images of your pelvis and abdomen.&lt;/strong&gt; Your doctor may use computerized tomography (CT), magnetic resonance imaging (MRI) and positron emission tomography (PET) to make scans of your pelvis and abdomen to assess the extent of your cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray images of your chest.&lt;/strong&gt; X-rays of your chest can reveal if cancer has spread to your lungs or the bones in your chest.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor uses the information from the procedures to assign your cancer a stage. The stages of anal cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Anal cancer is 2 centimeters (about 3/4 inch) or less &amp;mdash; about the size of a peanut or smaller.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Anal cancer is larger than 2 centimeters (about 3/4 inch), but has not spread beyond the anal canal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IIIA.&lt;/strong&gt; Anal cancer is any size and has spread either to lymph nodes near the rectum or to nearby areas, such as the bladder, urethra or vagina.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IIIB.&lt;/strong&gt; Anal cancer is any size and has spread to nearby areas and lymph nodes, or it has spread to other lymph nodes in the pelvis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; Anal cancer has spread to parts of the body away from the pelvis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What treatment you receive for anal cancer depends on the stage of your cancer, your overall health and your own preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Combined chemotherapy and radiation&lt;/strong&gt; &lt;br /&gt;
+Doctors usually treat anal cancer with a combination of chemotherapy and radiation. Combined, these two treatments enhance each other and improve chances for a cure. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy.&lt;/strong&gt; Chemotherapy drugs are injected into a vein or taken as pills. The chemicals travel throughout your body, killing rapidly growing cells, such as cancer cells. Unfortunately they also damage healthy cells that grow rapidly, including those in your gastrointestinal tract and in your hair follicles. This causes side effects such as nausea, vomiting and hair loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy.&lt;/strong&gt; Radiation therapy uses high-powered beams, such as X-rays, to kill cancer cells. During radiation therapy, you&apos;re positioned on a table and a large machine moves around you, directing radiation beams to specific areas of your body in order to target your cancer. Radiation may damage healthy tissue near where the beams are aimed. Side effects may include skin redness and sores in and around your anus, as well as hardening and shrinking of your anal canal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You typically undergo radiation therapy for anal cancer for five or six weeks. Chemotherapy is typically administered during the first week and the fifth week. Your doctor tailors your treatment schedule based on characteristics of your cancer and your overall health. Though combining chemotherapy and radiation increases the effectiveness of the two treatments, it also makes side effects more likely. Discuss with your doctor what side effects to expect. 
+&lt;/p&gt;
+&lt;p&gt;
+People with HIV are more likely to experience side effects when undergoing chemotherapy and radiation, since treatments can weaken their already-vulnerable immune systems. Side effects make it more difficult to endure and complete treatment. For this reason, your doctor may recommend lower doses of chemotherapy and radiation if you have HIV. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Doctors typically use different procedures to remove anal cancer based on the stage of the cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery to remove early-stage anal cancers.&lt;/strong&gt; Very small anal cancers that haven&apos;t spread beyond the anal canal may be removed through surgery. During this procedure, the surgeon removes the tumor and a small amount of healthy tissue that surrounds it. Because the tumors are small, early-stage cancers can sometimes be removed without damaging the anal sphincter muscles that surround the anal canal. Anal sphincter muscles control bowel movements, so doctors work to keep the muscles intact. Depending on your cancer, your doctor may also recommend chemotherapy and radiation after surgery. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	If your cancer can&apos;t be removed without damaging the anal sphincter muscles, your doctor may recommend trying combined chemotherapy and radiation first. Combined treatment may shrink your cancer to a size that allows your surgeon to perform sphincter-sparing surgery. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery for late-stage anal cancers or anal cancers that haven&apos;t responded to other treatments.&lt;/strong&gt; If your cancer hasn&apos;t responded to chemotherapy and radiation, or if your cancer is advanced, your doctor may recommend a more extensive operation called abdominoperineal resection, which is sometimes referred to as an AP resection. During this procedure the surgeon removes the anal canal, rectum and a portion of the colon. The surgeon then attaches the remaining portion of your colon to an opening (stoma) in your abdomen through which waste will leave your body and collect in a colostomy bag.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alternative medicine treatments can&apos;t cure anal cancer. But some alternative medicine treatments may help you cope with the side effects of cancer treatment.&lt;strong&gt; &lt;/strong&gt;Your doctor can treat many side effects, but sometimes medications aren&apos;t enough. Alternative treatments can complement your doctor&apos;s treatments and may offer additional comfort. 
+&lt;/p&gt;
+&lt;p&gt;
+Options for common side effects include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety&lt;/strong&gt; &amp;mdash; massage, meditation, hypnosis, music therapy, exercise or relaxation techniques&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue&lt;/strong&gt; &amp;mdash; gentle exercise or tai chi&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nausea&lt;/strong&gt; &amp;mdash; acupuncture, hypnosis or music therapy&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain&lt;/strong&gt; &amp;mdash; acupuncture, massage, music therapy or hypnosis&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep problems&lt;/strong&gt; &amp;mdash; yoga or relaxation techniques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While these options are generally safe, talk it over with your doctor first to be sure that alternative medicine options won&apos;t interfere with your cancer treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A cancer diagnosis can be overwhelming and frightening. You can help yourself to feel more in control by taking an active role in your health care. To help you cope, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about anal cancer to feel comfortable making decisions about your care.&lt;/strong&gt; Write down questions and ask them at the next appointment with your doctor. Have a friend or family member come to appointments with you to take notes. Ask your health care team for sources of information. Learn enough about your condition to feel comfortable making decisions about your treatment. Contact the National Cancer Institute for information online or by telephone at 800-4-CANCER (800-422-6237). The American Cancer Society also offers support and information on its website and by telephone at 800-227-2345.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a support network.&lt;/strong&gt; Having friends and family supporting you can be valuable. You may find it helps to have someone to talk to about your emotions. Other people who may provide support include social workers and psychologists &amp;mdash; ask your doctor for a referral if you feel the need to talk to someone. Talk with your pastor, rabbi or other spiritual leader. Other people with cancer can offer a unique perspective, so consider joining a support group &amp;mdash; whether it&apos;s in your community or online. Contact the American Cancer Society for more information on support groups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Let people know when you want to be alone. Quiet time to think or write in a journal can help you sort out your emotions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Prepare yourself for treatment by making healthy lifestyle choices. For instance, if you smoke, quit smoking. Eat a variety of fruits and vegetables. Get exercise when you feel up to it, but check with your doctor before starting a new exercise program. Try to get enough sleep so that you wake feeling refreshed. Talk to your doctor if you&apos;re having trouble sleeping. Try to control stress by prioritizing what&apos;s important to you. These healthy choices make it easier for you to cope with the side effects of treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no sure way to prevent anal cancer. In order to reduce your risk of anal cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Practice safer sex.&lt;/strong&gt; Abstaining from sex or practicing safe sex may help prevent HPV and HIV, two sexually transmitted viruses that may increase your risk of anal cancer. If you choose to have anal sex, use condoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated against HPV.&lt;/strong&gt; Two vaccines &amp;mdash; Gardasil and Cervarix &amp;mdash; are given to protect against HPV infection. Gardasil is approved for use in males and females between ages 9 and 26. Cervarix is approved only for girls and young women ages 10 through 25. Doctors hope the vaccines will help prevent HPV-related cancers in women, including cervical cancer and anal cancer. Gardasil is given to both sexes to protect against genital warts caused by certain types of HPV. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking increases your risk of anal cancer. Don&apos;t start smoking. Stop if you currently smoke.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Anal cancer
+	</Title>
+	<Abstract>
+		Anal cancer &amp;mdash; Comprehensive overview covers symptoms of this uncommon cancer associated with HPV.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+	</RelatedLinksBox>
+</Disease>

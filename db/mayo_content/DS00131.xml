@@ -1,0 +1,449 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00131
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/peripheral-neuropathy/DS00131
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2333" Title="Peripheral nerve">
+						<Keyword MCVID="2337" Title="Peripheral neuropathy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			299185F1-834D-4191-9573A9B58C3D3D6B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				peripheral neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				nervous system
+			</MetaKeyword>
+			<MetaKeyword>
+				nerves
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				leg numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in hands
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in fingers
+			</MetaKeyword>
+			<MetaKeyword>
+				numb fingers
+			</MetaKeyword>
+			<MetaKeyword>
+				arm numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numb hands
+			</MetaKeyword>
+			<MetaKeyword>
+				numb hands
+			</MetaKeyword>
+			<MetaKeyword>
+				numb feet
+			</MetaKeyword>
+			<MetaKeyword>
+				finger numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in feet
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in arm
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				numb toes
+			</MetaKeyword>
+			<MetaKeyword>
+				foot numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in arms
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in arms
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in leg
+			</MetaKeyword>
+			<MetaKeyword>
+				numbness in toes
+			</MetaKeyword>
+			<MetaKeyword>
+				toe numbness
+			</MetaKeyword>
+			<MetaKeyword>
+				numb leg
+			</MetaKeyword>
+			<MetaKeyword>
+				numb arm
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling hands
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling feet
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling in hands
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling in fingers
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling in feet
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling in legs
+			</MetaKeyword>
+			<MetaKeyword>
+				leg tingling
+			</MetaKeyword>
+			<MetaKeyword>
+				tingling fingers
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetic neuropathy
+			</MetaKeyword>
+			<MetaKeyword>
+				numb finger
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peripheral neuropathy, a result of nerve damage, often causes numbness and pain in your hands and feet. People typically describe the pain of peripheral neuropathy as tingling or burning, while they may compare the loss of sensation to the feeling of wearing a thin stocking or glove. 
+&lt;/p&gt;
+&lt;p&gt;
+Peripheral neuropathy can result from problems such as traumatic injuries, infections, metabolic problems and exposure to toxins. One of the most common causes is diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+In many cases, peripheral neuropathy symptoms improve with time &amp;mdash; especially if the condition is caused by an underlying condition that can be treated. A number of medications often are used to reduce the painful symptoms of peripheral neuropathy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The nerves of your peripheral nervous system send information from your brain and spinal cord (central nervous system) to all other parts of your body and back again. Nerves that may be affected by peripheral neuropathy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sensory nerves that receive sensations such as heat, pain or touch&lt;/li&gt;
+	&lt;li&gt;Motor nerves that control how your muscles move&lt;/li&gt;
+	&lt;li&gt;Autonomic nerves that control functions such as blood pressure, heart rate, digestion and bladder function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most commonly, peripheral neuropathy starts in the longest nerves &amp;mdash; the ones that reach to your toes. Symptoms vary, depending on which types of nerves are affected. Signs and symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gradual onset of numbness and tingling in your feet or hands, which may spread upward into your legs and arms&lt;/li&gt;
+	&lt;li&gt;Burning pain&lt;/li&gt;
+	&lt;li&gt;Sharp, jabbing or electric-like pain&lt;/li&gt;
+	&lt;li&gt;Extreme sensitivity to touch, even light touch&lt;/li&gt;
+	&lt;li&gt;Lack of coordination&lt;/li&gt;
+	&lt;li&gt;Muscle weakness or paralysis if motor nerves are affected&lt;/li&gt;
+	&lt;li&gt;Bowel or bladder problems if autonomic nerves are affected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Peripheral neuropathy may affect one nerve (mononeuropathy), two or more nerves in different areas (multiple mononeuropathy) or many nerves (polyneuropathy). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical care right away if you notice any unusual tingling, weakness or pain in your hands or feet. Early diagnosis and treatment offers the best chance for controlling your symptoms and preventing further damage to your peripheral nerves. If your symptoms interfere with your sleep or you feel depressed, your doctor or pain specialist may be able to suggest treatments that can help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not always easy to pinpoint the cause of peripheral neuropathy, because a number of factors can cause neuropathies. These factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alcoholism.&lt;/strong&gt; Many alcoholics develop peripheral neuropathy because they make poor dietary choices, leading to vitamin deficiencies. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Autoimmune diseases.&lt;/strong&gt; These include lupus, rheumatoid arthritis and Guillain-Barre syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; When damage occurs to several nerves, the cause frequently is diabetes. At least half of all people with diabetes develop some type of neuropathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to poisons.&lt;/strong&gt; These may include some toxic substances, such as heavy metals, and certain medications &amp;mdash; especially those used to treat cancer (chemotherapy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Certain viral or bacterial infections can cause peripheral neuropathy, including Lyme disease, shingles (varicella-zoster), Epstein-Barr, hepatitis C and HIV/AIDS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited disorders.&lt;/strong&gt; Examples include Charcot-Marie-Tooth disease and amyloid polyneuropathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trauma or pressure on the nerve.&lt;/strong&gt; Traumas, such as motor vehicle accidents, falls or sports injuries, can sever or damage peripheral nerves. Nerve pressure can result from using a cast or crutches, spending a long time in an unnatural position or repeating a motion many times &amp;mdash; such as typing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumors.&lt;/strong&gt; Growths can form directly on the nerves themselves, or tumors can exert pressure on surrounding nerves. Both cancerous (malignant) and noncancerous (benign) tumors can contribute to peripheral neuropathy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin deficiencies.&lt;/strong&gt; B vitamins &amp;mdash; B-1, B-6 and B-12 &amp;mdash; are particularly important to nerve health. Vitamin E and niacin also are crucial to nerve health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other diseases.&lt;/strong&gt; Kidney disease, liver disease and an underactive thyroid (hypothyroidism) also can cause peripheral neuropathy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peripheral neuropathy risk factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diabetes, especially if your sugar levels are poorly controlled&lt;/li&gt;
+	&lt;li&gt;Alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Vitamin deficiencies, particularly B vitamins&lt;/li&gt;
+	&lt;li&gt;Infections, such as Lyme disease, shingles (varicella-zoster), Epstein-Barr, hepatitis C and HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;Autoimmune diseases, such as rheumatoid arthritis and lupus, in which your immune system attacks your own tissues &lt;/li&gt;
+	&lt;li&gt;Kidney, liver or thyroid disorders&lt;/li&gt;
+	&lt;li&gt;Exposure to toxins&lt;/li&gt;
+	&lt;li&gt;Repetitive physical stress, possibly from occupational activities&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of peripheral neuropathy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced feeling.&lt;/strong&gt; Because parts of your body may be numb, you may be less likely to feel temperature changes or pain. This can make you more susceptible to burns or skin trauma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Make sure to check your feet, as well as any other areas lacking usual sensation, regularly so that you can treat minor injuries before they become infected. This is especially important for people with diabetes, who tend to heal more slowly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in nervous system disorders (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+To make the most of your appointment time, it&apos;s good to arrive prepared. Here&apos;s some information to help you get ready for your appointment, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For peripheral neuropathy, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Do I need to restrict any activities?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you have any underlying health conditions, such as diabetes or kidney disease?&lt;/li&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Peripheral neuropathy isn&apos;t a single disease, but rather a symptom with many potential causes. For that reason it can be difficult to diagnose. Your doctor will need to determine where the nerve damage is and what&apos;s causing it. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnosis usually requires: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A full medical history.&lt;/strong&gt; This includes your symptoms, your lifestyle, exposure to toxins, drinking habits and a family history of neurological disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurological exam.&lt;/strong&gt; This may include checking your tendon reflexes, your muscle strength and tone, your ability to feel certain sensations, and your posture and coordination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will likely do a complete physical exam.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may order tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These measure various levels, such as vitamin and blood sugar levels; and bodily functions, such as thyroid, liver and kidney.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may request a CT scan or MRI to look for herniated disks, tumors or other abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve function tests.&lt;/strong&gt; These may include electromyography &amp;mdash; which reads electrical activity in your muscles to determine if your weakness is caused by muscle damage or nerve damage &amp;mdash; and nerve conduction studies &amp;mdash; which assess how your nerves and muscles respond to small electrical stimuli, generated by a probe and measured by an electrode placed along the nerve&apos;s pathway.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve biopsy.&lt;/strong&gt; Your doctor may recommend this procedure to try to determine what&apos;s damaging your nerves. A small portion of a nerve is removed and examined for abnormalities.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One goal of treatment is to manage the condition causing your neuropathy. If the underlying cause is corrected, the neuropathy often improves on its own. Another goal of treatment is to relieve the painful symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Many types of medications can be used to relieve the pain of peripheral neuropathy, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; Mild symptoms may be relieved by over-the-counter pain medications. For more-severe symptoms, your doctor may recommend prescription painkillers. Drugs containing opiates, such as codeine, can lead to dependence, constipation or sedation, so these drugs are generally prescribed only when other treatments fail.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure medications.&lt;/strong&gt; Drugs such as gabapentin (Gralise, Neurontin), topiramate (Topamax), pregabalin (Lyrica), carbamazepine (Carbatrol, Tegretol) and phenytoin (Dilantin, Phenytek) were originally developed to treat epilepsy. However, doctors often also prescribe them for nerve pain. Side effects may include drowsiness and dizziness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Capsaicin.&lt;/strong&gt; A cream containing this naturally occurring substance found in hot peppers can cause modest improvements in peripheral neuropathy symptoms. Like spicy foods, it may take some time and gradual exposure to get used to because of the hot sensation this cream creates. Generally, you have to get used to the heat before you can experience pain relief. Doctors may suggest you use this cream with other treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lidocaine patch.&lt;/strong&gt; This patch contains the topical anesthetic lidocaine. You apply it to the area where your pain is most severe, and you can use up to four patches a day to relieve pain. This treatment has almost no side effects except, for some people, a rash at the site of the patch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Tricyclic antidepressant medications, such as amitriptyline and nortriptyline (Aventyl, Pamelor), were originally developed to treat depression. However, they have been found to help relieve pain by interfering with chemical processes in your brain and spinal cord that cause you to feel pain. The serotonin and norepinephrine reuptake inhibitor duloxetine (Cymbalta) also has proved effective for peripheral neuropathy caused by diabetes. Side effects may include nausea, drowsiness, dizziness, decreased appetite and constipation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;Transcutaneous electrical nerve stimulation (TENS) may help to relieve symptoms. In this therapy, adhesive electrodes are placed on the skin, and a gentle electric current is delivered through the electrodes at varying frequencies. TENS has to be applied regularly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following suggestions can help you manage peripheral neuropathy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your feet, especially if you have diabetes.&lt;/strong&gt; Check your feet daily for signs of blisters, cuts or calluses. Tight shoes and socks can worsen pain and tingling and may lead to sores that won&apos;t heal. Wear soft, loose cotton socks and padded shoes. You can use a semicircular hoop, which is available in medical supply stores, to keep bedcovers off hot or sensitive feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Ask your doctor about an exercise routine that&apos;s right for you. Regular exercise may reduce neuropathy pain and can help control blood sugar levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; Cigarette smoking can affect circulation, increasing the risk of foot problems and possibly amputation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy meals.&lt;/strong&gt; If you&apos;re at high risk of neuropathy or have a chronic medical condition, healthy eating is especially important to ensure that you get essential vitamins and minerals. Emphasize low-fat meats and dairy products and include lots of fruits, vegetables and whole grains in your diet. Drink alcohol in moderation, if at all.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage your hands and feet, or have someone massage them for you.&lt;/strong&gt; Massage helps improve circulation, stimulates nerves and may temporarily relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid prolonged pressure.&lt;/strong&gt; Don&apos;t keep your knees crossed or lean on your elbows for long periods of time. Doing so may cause new nerve damage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with peripheral neuropathy try complementary and alternative treatments for relief of their symptoms. Although these techniques haven&apos;t been as rigorously studied as most medications, the following therapies have shown some promise in the treatment of peripheral neuropathy:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; Acupuncture involves the insertion of thin needles into various points on your body. Acupuncture may reduce symptoms in about three-quarters of people with peripheral neuropathy. However, you may need multiple acupuncture sessions before you notice improvement. Acupuncture is generally considered safe when performed by a certified practitioner using sterile needles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alpha-lipoic acid.&lt;/strong&gt; Used as a treatment for peripheral neuropathy in Europe for years, this antioxidant may help reduce the symptoms of peripheral neuropathy. Discuss the use of alpha-lipoic acid with your doctor before using it, because alpha-lipoic acid may affect your blood sugar levels. Other side effects may include stomach upset and skin rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback.&lt;/strong&gt; During a biofeedback session, the therapist applies electrical sensors to different parts of your body to monitor your body&apos;s physiological response to your peripheral neuropathy symptoms. The biofeedback device then teaches you how your body responds using cues, such as a beeping sound or flashing lights. This feedback can help you associate your body&apos;s response with certain physical functions. Once you begin to recognize your body&apos;s responses, you can learn ways to lessen the reaction through certain techniques, such as relaxation or guided imagery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Manage underlying conditions&lt;br /&gt;
+&lt;/strong&gt;The best way to prevent peripheral neuropathy is to carefully manage any medical condition that puts you at risk. That means controlling your blood sugar level if you have diabetes or talking to your doctor about safe and effective treatments if you think you may have a problem with alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Make healthy lifestyle choices&lt;br /&gt;
+&lt;/strong&gt;Whether or not you have a medical condition, eating a healthy diet that&apos;s rich in fruits, vegetables, whole grains and lean protein can help keep your nerves healthy. For example, nerve damage is common if you have a vitamin B-12 deficiency. The best food sources of vitamin B-12 are meats, fish, eggs, low-fat dairy foods and fortified cereals. If you&apos;re a strict vegetarian, fortified cereals are a good source of vitamin B-12 for you, but you may also want to talk to your doctor about B-12 supplements. Regular exercise also is important. If possible, try to get at least 30 minutes to one hour of exercise at least three times a week. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoid things that can cause nerve damage&lt;/strong&gt; as much as possible. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Repetitive motions&lt;/li&gt;
+	&lt;li&gt;Cramped positions&lt;/li&gt;
+	&lt;li&gt;Toxic chemicals&lt;/li&gt;
+	&lt;li&gt;Tobacco smoke&lt;/li&gt;
+	&lt;li&gt;Excessive alcohol consumption &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Peripheral neuropathy
+	</Title>
+	<Abstract>
+		Peripheral neuropathy &amp;mdash; Comprehensive overview covers diagnosis, causes and treatment of this often painful disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00107" LinkType="Internal" ObjectID="C019023D-E7FF-0DBD-10F82974DF8D3D59" Title="Electromyography (EMG)" Url="http://www.mayoclinic.com/health/emg/MY00107" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="Answer" DocID="AN01038" LinkType="Internal" ObjectID="5B536C71-0896-42DE-A52BCC94EAF70443" Title="Hypothyroidism: Can it cause peripheral neuropathy?" Url="http://www.mayoclinic.com/health/hypothyroidism/AN01038" />
+		<LinkItem ContentType="Disease" DocID="DS01045" LinkType="Internal" ObjectID="8B100B6D-E7FF-0DBD-1F560FC125F949B9" Title="Diabetic neuropathy" Url="http://www.mayoclinic.com/health/diabetic-neuropathy/DS01045" />
+		<LinkItem ContentType="Disease" DocID="DS00353" LinkType="Internal" ObjectID="021FF7E0-FECE-4FE8-B7EBF6632546B116" Title="Hypothyroidism (underactive thyroid)" Url="http://www.mayoclinic.com/health/hypothyroidism/DS00353" />
+		<LinkItem ContentType="Article" DocID="PN00045" LinkType="Internal" ObjectID="39D88186-098D-4A86-A3ACD8F5DFD654BC" Title="Anti-seizure medications: Relief from nerve pain" Url="http://www.mayoclinic.com/health/pain-medications/PN00045" />
+	</RelatedLinksBox>
+</Disease>

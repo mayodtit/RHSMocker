@@ -1,0 +1,154 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00787
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ana-test/MY00787
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-31
+		</UpdateDate>
+		<PublicationDate>
+			2009-09-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3834" Title="Bones joints and muscles">
+						<Keyword MCVID="4067" Title="Antinuclear antibody" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			74664E72-D011-7D0D-FAFA7BCB2AED1DD4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ANA test
+			</MetaKeyword>
+			<MetaKeyword>
+				antinuclear antibody test
+			</MetaKeyword>
+			<MetaKeyword>
+				antinuclear antibodies
+			</MetaKeyword>
+			<MetaKeyword>
+				lupus
+			</MetaKeyword>
+			<MetaKeyword>
+				autoimmune
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An ANA test detects antinuclear antibodies in your blood. Your immune system normally makes antibodies to help you fight infection. In contrast, antinuclear antibodies often attack your body&apos;s own tissues &amp;mdash; specifically targeting each cell&apos;s nucleus.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, a positive ANA test indicates that your immune system has launched a misdirected attack on your own tissue &amp;mdash; in other words, an autoimmune reaction. But some people have positive ANA tests even when they&apos;re healthy. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may order an ANA test if he or she suspects you have an autoimmune disease such as lupus, rheumatoid arthritis or scleroderma.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many rheumatic diseases have similar signs and symptoms &amp;mdash; joint pain, fatigue and fever. While an ANA test can&apos;t confirm a specific diagnosis, it can rule out some possible diseases. And if the ANA test is positive, your blood can be tested for the presence of particular antinuclear antibodies, some of which are specific to certain diseases.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your blood sample is being used only for an ANA test, you can eat and drink normally before the test. If your blood sample will be used for additional tests, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions. 
+&lt;/p&gt;
+&lt;p&gt;
+Certain drugs affect the accuracy of the test, so bring your doctor a list of all the medications you take.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For an ANA test, a member of your health care team takes a sample of blood by inserting a needle into a vein in your arm. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The presence of any antinuclear antibodies is a positive test result. But having a positive result doesn&apos;t mean you have a disease. Many people with no disease have positive ANA tests &amp;mdash; particularly women older than 65.
+&lt;/p&gt;
+&lt;p&gt;
+Mononucleosis is one type of infection that has been associated with the development of antinuclear antibodies. Some blood pressure lowering drugs and certain anti-seizure medications may trigger antinuclear antibody formation as well.
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects you have an autoimmune disease, he or she is likely to order a number of tests. The result of your ANA test is one piece of information your doctor can use to help determine the cause of your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		ANA test
+	</Title>
+	<Abstract>
+		ANA test &amp;mdash; Overview covers definition, preparation, results of this blood test for antinuclear antibodies.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00488" LinkType="Internal" ObjectID="4723B235-F3F0-E282-0063AC485F6995C7" Title="Urinalysis" Url="http://www.mayoclinic.com/health/urinalysis/MY00488" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00343" LinkType="Internal" ObjectID="024DEA4A-E7FF-0DBD-1C830476D58B8DFA" Title="Sed rate (erythrocyte sedimentation rate)" Url="http://www.mayoclinic.com/health/sed-rate/MY00343" />
+		<LinkItem ContentType="Disease" DocID="DS00352" LinkType="Internal" ObjectID="5C599D1E-4331-44F9-A48CE7EB9F7F2759" Title="Mononucleosis" Url="http://www.mayoclinic.com/health/mononucleosis/DS00352" />
+		<LinkItem ContentType="Disease" DocID="DS00362" LinkType="Internal" ObjectID="3830E935-0B28-4EE9-85E99C261470826D" Title="Scleroderma" Url="http://www.mayoclinic.com/health/scleroderma/DS00362" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+		<LinkItem ContentType="Disease" DocID="DS00020" LinkType="Internal" ObjectID="09CF7868-4035-4B73-907328F854F7F0A3" Title="Rheumatoid arthritis" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/DS00020" />
+	</RelatedLinksBox>
+</TestProcedure>

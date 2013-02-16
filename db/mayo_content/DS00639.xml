@@ -1,0 +1,299 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00639
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/primary-cough-headaches/DS00639
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-05
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="2039" Title="Other">
+							<Keyword MCVID="2080" Title="Primary cough headaches" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7910B07B-2A5D-9994-E2E30E25D0BD8016
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				primary cough headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary cough headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				head pain
+			</MetaKeyword>
+			<MetaKeyword>
+				head aches
+			</MetaKeyword>
+			<MetaKeyword>
+				severe headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				cough
+			</MetaKeyword>
+			<MetaKeyword>
+				coughing
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cough headaches are an unusual type of headache triggered by coughing and other types of straining &amp;mdash; such as from sneezing, blowing your nose, laughing, crying, singing, bending over or having a bowel movement. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors divide cough headaches into two categories. Primary cough headaches are usually harmless, occur in limited episodes and eventually improve on their own. Secondary cough headaches are more serious, as they can be caused by problems within the brain. Treatment of secondary cough headaches may require surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Primary cough headaches&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Begin suddenly with and just after coughing or other types of straining&lt;/li&gt;
+	&lt;li&gt;Typically last a few seconds to a few minutes &amp;mdash; some can last up to 30 minutes&lt;/li&gt;
+	&lt;li&gt;Cause sharp, stabbing or splitting pain&lt;/li&gt;
+	&lt;li&gt;Usually affect both sides of your head and are typically worse in the back of your head&lt;/li&gt;
+	&lt;li&gt;May be followed by a dull, aching pain for several hours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary cough headaches&lt;br /&gt;
+&lt;/strong&gt;Secondary cough headaches often have similar symptoms as primary cough headaches. In addition, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Longer lasting headaches&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Unsteadiness&lt;/li&gt;
+	&lt;li&gt;Fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult your doctor if you experience sudden headaches after coughing &amp;mdash; especially if the headaches are frequent or severe or you have any other troubling signs or symptoms, such as imbalance or blurred or double vision. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Primary cough headaches&lt;br /&gt;
+&lt;/strong&gt;The cause of primary cough headaches isn&apos;t known. It&apos;s possible that increased pressure in the head (intracranial pressure) caused by coughing and other types of straining may play a role in these headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary cough headaches&lt;br /&gt;
+&lt;/strong&gt;Secondary cough headaches may be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A defect in the shape of the skull.&lt;/li&gt;
+	&lt;li&gt;A defect in the cerebellum, the part of the brain that controls balance. This can occur when a portion of the brain is forced through the opening at the base of the skull (foramen magnum), where only the spinal cord is supposed to be. Some of these types of defects are called Chiari malformations.&lt;/li&gt;
+	&lt;li&gt;A weakness in one of the blood vessels in the brain (cerebral aneurysm).&lt;/li&gt;
+	&lt;li&gt;A brain tumor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of Chiari malformation type I 
+" Caption="In Chiari malformation type I, brain tissue (colored yellow) protrudes below the opening of the base of the skull (foramen magnum). 
+" Height="60" Title="Chiari malformation type I" URI="/images/image_popup/thumbs/ans7_chiari_mrithu.jpg" Width="60" />
+				<Image Alt="Image of Chiari malformation type I 
+" Caption="In Chiari malformation type I, brain tissue (colored yellow) protrudes below the opening of the base of the skull (foramen magnum). 
+" Height="353" Title="Chiari malformation type I" URI="/images/image_popup/ans7_chiari_mri.jpg" Width="400" />
+				<HTML>
+					In Chiari malformation type I, brain tissue (colored yellow) protrudes below the opening of the base of the skull (foramen magnum). 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Primary cough headaches&lt;br /&gt;
+&lt;/strong&gt;Risk factors for primary cough headaches include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being older than age 40&lt;/li&gt;
+	&lt;li&gt;Being a man&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary cough headaches&lt;br /&gt;
+&lt;/strong&gt;Risk factors for secondary cough headaches include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being younger than age 40&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a neurologist. Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including past illnesses and operations, major stresses, or recent life changes, and any medical problems that run in your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins and supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For cough headaches, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my headaches?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;When will these headaches go away?&lt;/li&gt;
+	&lt;li&gt;What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing cough headaches?&lt;/li&gt;
+	&lt;li&gt;Have your cough headaches been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you had a similar problem in the past?&lt;/li&gt;
+	&lt;li&gt;Have you had other kinds of headache? If so, what were they like?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your immediate family experienced migraines or cough headaches?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your headaches?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes your headaches worse?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend brain-imaging tests, such as MRI or CT scans. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI&lt;/strong&gt;)&lt;strong&gt;.&lt;/strong&gt; During an MRI, a magnetic field and radio waves are used to create cross-sectional images of the structures within your head to determine any problems that may be causing your cough headache.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; These scans use a computer to create cross-sectional images of your brain and head by combining images from an X-ray unit that rotates around your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment differs, depending on whether you have primary or secondary cough headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary cough headache&lt;br /&gt;
+&lt;/strong&gt;If you have a history of primary cough headaches, your doctor may recommend that you take daily medication to help prevent or reduce the pain.
+&lt;/p&gt;
+&lt;p&gt;
+These preventive medications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Indomethacin (Indocin), an anti-inflammatory drug&lt;/li&gt;
+	&lt;li&gt;Acetazolamide (Diamox Sequels), a diuretic that reduces the amount of spinal fluid, which can reduce the pressure inside the skull&lt;/li&gt;
+	&lt;li&gt;Propranolol (Inderal, Innopran), a medication that relaxes blood vessels and reduces blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, a spinal tap (lumbar puncture) may be recommended. With this procedure, the doctor removes some of the fluid that surrounds your brain and spinal cord. This may help reduce the pressure inside your skull that may be causing the headaches.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary cough headache&lt;br /&gt;
+&lt;/strong&gt;If you have secondary cough headaches, surgery is often needed to fix the underlying problem. Preventive medications usually don&apos;t help people who have secondary cough headaches. However, responding to medication doesn&apos;t necessarily mean that you have a primary cough headache.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preventing the actions that trigger your cough headaches &amp;mdash; whether that&apos;s coughing, sneezing or straining on the toilet &amp;mdash; may help reduce the number of headaches you experience. Some preventive measures may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Treating lung infections, such as bronchitis&lt;/li&gt;
+	&lt;li&gt;Avoiding medications that cause coughing as a side effect&lt;/li&gt;
+	&lt;li&gt;Getting an annual flu shot&lt;/li&gt;
+	&lt;li&gt;Using stool softeners to avoid constipation&lt;/li&gt;
+	&lt;li&gt;Minimizing heavy lifting or bending for long periods&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cough headaches
+	</Title>
+	<Abstract>
+		Cough headaches &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this unusual headache type.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

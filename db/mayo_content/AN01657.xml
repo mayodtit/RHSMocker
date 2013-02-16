@@ -1,0 +1,138 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01657
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cervical-dysplasia/AN01657
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2691" Title="Cervical cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8C41716B-E7FF-0DBD-15C0EA8BDCBC258E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cervical dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				low-grade cervical dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				high-grade cervical dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				mild cervical dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				severe cervical dysplasia
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				colposcopy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+No. Cervical dysplasia isn&apos;t cancer. The term indicates that abnormal cells were found on the surface of the cervix. 
+&lt;/p&gt;
+&lt;p&gt;
+Cervical dysplasia can range from mild to severe, depending on the appearance of the abnormal cells. Dysplasia could go away on its own or, rarely, it could develop into cancer. Another term for cervical dysplasia is cervical intraepithelial neoplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to determine the severity of cervical dysplasia&lt;/strong&gt; &lt;br /&gt;
+After an abnormality is detected on a Pap smear, your doctor may recommend more tests, including a human papillomavirus (HPV) test and colposcopy. Colposcopy is an examination of your cervix, vagina and vulva using a magnifying instrument. During a colposcopic examination, your doctor may determine where the abnormal cells are growing and the degree of abnormality. A sample of cells (biopsy) may be taken for testing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment and follow-up for cervical dysplasia&lt;/strong&gt; &lt;br /&gt;
+Often, with mild dysplasia, no treatment is needed. In most cases, mild dysplasia resolves on its own and doesn&apos;t become cancerous. Your doctor may recommend follow-up in six to 12 months to check for additional changes. If you have severe dysplasia, your doctor may recommend treatment such as surgery or other procedures to remove the abnormal cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether you have mild or severe dysplasia, it&apos;s likely your doctor will recommend Pap testing every six months or, with mild dysplasia, HPV testing yearly to monitor your condition and check for recurrences of dysplasia. After two consecutive normal Pap smears, your doctor will likely recommend resuming annual Pap smears if you&apos;ve had severe dysplasia, and Pap smears every one to three years if you&apos;ve had mild dysplasia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cervical dysplasia: Is it cancer?
+	</Title>
+	<Abstract>
+		Cervical dysplasia indicates abnormal cells found on the cervix.
+	</Abstract>
+	<Question>
+		I had a Pap smear recently, and my doctor said the results showed cervical dysplasia. What does that mean? Is it cancer?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00013" LinkType="Internal" ObjectID="EFB4CA42-F703-485A-84BA5D87FF5886B7" Title="Pap smear: Still needed after hysterectomy?" Url="http://www.mayoclinic.com/health/pap-smear/AN00013" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00323" LinkType="Internal" ObjectID="D75DEB67-E7FF-0DBD-1C702656593F0B3F" Title="Brachytherapy" Url="http://www.mayoclinic.com/health/brachytherapy/MY00323" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00090" LinkType="Internal" ObjectID="B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76" Title="Pap smear" Url="http://www.mayoclinic.com/health/pap-smear/MY00090" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01110" LinkType="Internal" ObjectID="93072ECE-B9C8-8ECC-D1B88893A75B44F0" Title="HPV test" Url="http://www.mayoclinic.com/health/hpv-test/MY01110" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="Answer" DocID="AN01635" LinkType="Internal" ObjectID="0BD1E6A4-E7FF-0DBD-1064D59C7B26AAB3" Title="Pap smear: Do I need one if I&apos;m a virgin?" Url="http://www.mayoclinic.com/health/pap-smear/AN01635" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00236" LinkType="Internal" ObjectID="05C62021-E7FF-0DBD-160B90F970B63F5E" Title="Colposcopy" Url="http://www.mayoclinic.com/health/colposcopy/MY00236" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Answer" DocID="AN00386" LinkType="Internal" ObjectID="C8481852-46B9-440D-8470E896C46A2C67" Title="HPV infection: How does it cause cervical cancer?" Url="http://www.mayoclinic.com/health/cervical-cancer/AN00386" />
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+	</RelatedLinksBox>
+</Answer>

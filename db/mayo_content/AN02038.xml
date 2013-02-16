@@ -1,0 +1,114 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02038
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hangover-prevention/AN02038
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-13
+		</UpdateDate>
+		<PublicationDate>
+			2009-12-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1644" Title="Substance abuse">
+						<Keyword MCVID="4316" Title="Hangover" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2B9B9E11-FB7F-AD82-7AEADFFDE3D90257
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hangover
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol
+			</MetaKeyword>
+			<MetaKeyword>
+				hangover prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				how to avoid a hangover
+			</MetaKeyword>
+			<MetaKeyword>
+				how to prevent a hangover
+			</MetaKeyword>
+			<MetaKeyword>
+				prevent hangover
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Drinking lighter colored drinks isn&apos;t a good method of hangover prevention &amp;mdash; but it may help a little. A hangover is caused by several things, including chemicals in alcoholic drinks other than alcohol. Among the compounds linked to a hangover are products of alcohol fermentation called congeners. Congeners are found in larger amounts in dark liquors, such as brandy, whiskey, darker beer and red wine, than they are in clear liquors, such as vodka, gin and lighter beers. One particular congener &amp;mdash; methanol &amp;mdash; breaks down into the toxins formaldehyde and formic acid, which can worsen a hangover.
+&lt;/p&gt;
+&lt;p&gt;
+Several studies have investigated hangovers, but none has found an effective method of hangover prevention. While lighter colored drinks may slightly help with hangover prevention, drinking too many alcoholic beverages of any color will still make you feel bad the morning after. Drinking large amounts of alcohol can cause dehydration, low blood sugar, digestive irritation and disturbed sleep &amp;mdash; all factors that lead to hangover symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+The only sure way to prevent a hangover is to drink in moderation or not drink at all. Moderate drinking is considered two drinks a day if you&apos;re a man and one drink a day if you&apos;re a woman. A drink is defined as 12 ounces (355 milliliters) of beer, 5 ounces (148 milliliters) of wine or 1.5 ounces (44 milliliters) of 80-proof distilled spirits.
+&lt;/p&gt;
+&lt;p&gt;
+Be careful, though &amp;mdash; some drinks may contain more alcohol than you realize. Often drinks are larger at bars and restaurants. And, some drinks of the same size may contain more alcohol than others. For example, many dark beers contain a significantly higher percentage of alcohol than do lighter beers, and some liquors contain a higher percentage of alcohol than do others. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hangover prevention: Do lighter colored drinks help?
+	</Title>
+	<Abstract>
+		Light-colored alcoholic drinks may help with hangover prevention.
+	</Abstract>
+	<Question>
+		Is drinking lighter colored alcoholic drinks an effective hangover prevention strategy?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02193" LinkType="Internal" ObjectID="97CB9112-EF63-303D-A8892F7C9A02FEB4" Title="Does prickly pear cactus have health benefits?" Url="http://www.mayoclinic.com/health/prickly-pear-cactus/AN02193" />
+		<LinkItem ContentType="Disease" DocID="DS00649" LinkType="Internal" ObjectID="2ACE99DC-2A5D-9994-E892298F62BAB20B" Title="Hangovers" Url="http://www.mayoclinic.com/health/hangovers/DS00649" />
+	</RelatedLinksBox>
+</Answer>

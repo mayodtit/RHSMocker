@@ -1,0 +1,357 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01057
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/klinefelter-syndrome/DS01057
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-28
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-28
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="2895" Title="Genetic birth defects">
+						<Keyword MCVID="3619" Title="Klinefelter syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FDA8A33A-E7FF-0DBD-10FCF3AF0B544AFF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				klinefelter
+			</MetaKeyword>
+			<MetaKeyword>
+				klinefelter syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				klinefelter&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				klinefelters
+			</MetaKeyword>
+			<MetaKeyword>
+				47
+			</MetaKeyword>
+			<MetaKeyword>
+				XXY
+			</MetaKeyword>
+			<MetaKeyword>
+				XXY syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				XXY trisomy
+			</MetaKeyword>
+			<MetaKeyword>
+				XXY condition
+			</MetaKeyword>
+			<MetaKeyword>
+				hypogonadism
+			</MetaKeyword>
+			<MetaKeyword>
+				testosterone therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				male infertility
+			</MetaKeyword>
+			<MetaKeyword>
+				reproduction
+			</MetaKeyword>
+			<MetaKeyword>
+				ICSI
+			</MetaKeyword>
+			<MetaKeyword>
+				TESE
+			</MetaKeyword>
+			<MetaKeyword>
+				fertility
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Klinefelter syndrome is a genetic condition that results when a boy is born with an extra copy of the X chromosome. Klinefelter syndrome is one of the most common genetic conditions affecting males. 
+&lt;/p&gt;
+&lt;p&gt;
+Klinefelter syndrome adversely affects testicular growth, and this can result in smaller than normal testicles. This can lead to lower production of the sex hormone testosterone. Klinefelter syndrome may also cause reduced muscle mass, reduced body and facial hair, and enlarged breast tissue. The effects of Klinefelter syndrome vary, and not everyone with it develops signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Klinefelter syndrome often isn&apos;t diagnosed until adulthood. Most men with Klinefelter syndrome produce little or no sperm. But assisted reproductive procedures may make it possible for some men with Klinefelter syndrome to father children. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many babies and boys with Klinefelter syndrome have few noticeable symptoms, and the condition may go undiagnosed until adulthood. For others, the condition has a noticeable effect on growth or appearance. Klinefelter syndrome may cause speech and learning problems in some boys. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of Klinefelter syndrome vary by age: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Babies&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Weak muscles&lt;/li&gt;
+	&lt;li&gt;Slow motor development &amp;mdash; taking longer than average to sit up, crawl and walk&lt;/li&gt;
+	&lt;li&gt;Delay in speaking&lt;/li&gt;
+	&lt;li&gt;Quiet, docile personality&lt;/li&gt;
+	&lt;li&gt;Problems at birth, such as testicles that haven&apos;t descended into the scrotum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Boys and teenagers&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Taller than average stature&lt;/li&gt;
+	&lt;li&gt;Longer legs, shorter torso and broader hips compared with other boys&lt;/li&gt;
+	&lt;li&gt;Absent, delayed or incomplete puberty&lt;/li&gt;
+	&lt;li&gt;After puberty, less muscular bodies and less facial and body hair compared with other teens&lt;/li&gt;
+	&lt;li&gt;Small, firm testicles&lt;/li&gt;
+	&lt;li&gt;Small penis&lt;/li&gt;
+	&lt;li&gt;Enlarged breast tissue (gynecomastia)&lt;/li&gt;
+	&lt;li&gt;Weak bones&lt;/li&gt;
+	&lt;li&gt;Low energy levels&lt;/li&gt;
+	&lt;li&gt;Shyness&lt;/li&gt;
+	&lt;li&gt;Difficulty expressing feelings or socializing&lt;/li&gt;
+	&lt;li&gt;Problems with reading, writing, spelling or math&lt;/li&gt;
+	&lt;li&gt;Attention problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Men&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;Small testicles and penis&lt;/li&gt;
+	&lt;li&gt;Taller than average stature&lt;/li&gt;
+	&lt;li&gt;Weak bones&lt;/li&gt;
+	&lt;li&gt;Decreased facial and body hair&lt;/li&gt;
+	&lt;li&gt;Enlarged breast tissue&lt;/li&gt;
+	&lt;li&gt;Decreased sex drive or sexual problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See a doctor to rule out Klinefelter syndrome or another health condition if you or your son has: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Slow development during infancy or boyhood.&lt;/strong&gt; If your son seems to be developing more slowly than other boys are, see your son&apos;s doctor. Some variation in physical and mental development is normal. But it&apos;s best to check with a doctor if you have any concerns. Delays in growth and development can be the first sign of a number of conditions that need treatment &amp;mdash; including Klinefelter syndrome. If your son does have Klinefelter syndrome, early treatment, including speech therapy, can help prevent or minimize problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Male infertility.&lt;/strong&gt; If your partner hasn&apos;t gotten pregnant after a year of regular, unprotected sex, see a doctor. Infertility is usually caused by something other than Klinefelter syndrome, but many men aren&apos;t diagnosed with the condition until they realize they&apos;re unable to father a child.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Klinefelter syndrome occurs as a result of a random error that causes a male to be born with an extra sex chromosome. Of the 46 human chromosomes, the two sex chromosomes determine a person&apos;s gender. In females, both sex chromosomes are X (written as XX). Males have an X and a Y sex chromosome (XY). 
+&lt;/p&gt;
+&lt;p&gt;
+Most often, Klinefelter syndrome occurs because of one extra copy of the X chromosome in each cell (XXY). Extra copies of genes on the X chromosome can interfere with male sexual development and fertility. Some males with Klinefelter syndrome have the extra X chromosome only in some of their cells (mosaic Klinefelter syndrome). Rarely, a more severe form of Klinefelter can occur if a male has more than one extra copy of the X chromosome. 
+&lt;/p&gt;
+&lt;p&gt;
+Klinefelter syndrome isn&apos;t an inherited condition. Rather, the additional sex chromosome results from a random error during the formation of the egg or sperm or after conception. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Klinefelter syndrome stems from a random genetic event. The risk of a child being born with Klinefelter syndrome isn&apos;t increased by anything a parent does or doesn&apos;t do. For women older than age 35, the risk is higher but only slightly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of Klinefelter syndrome can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Increased risk of certain birth defects, including curved fifth fingers and cleft palate&lt;/li&gt;
+	&lt;li&gt;Delayed puberty&lt;/li&gt;
+	&lt;li&gt;Noticeable physical features, such as sparse facial and body hair, unusually long legs and arms, lack of muscular development, and enlarged breast tissue&lt;/li&gt;
+	&lt;li&gt;Learning disabilities, attention problems or social development issues&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;Weak bones (osteoporosis)&lt;/li&gt;
+	&lt;li&gt;Increased risk of varicose veins and other problems with blood vessels&lt;/li&gt;
+	&lt;li&gt;Increased risk of breast cancer and cancers of the blood, bone marrow or lymph nodes&lt;/li&gt;
+	&lt;li&gt;Increased risk of lung diseases, such as chronic bronchitis&lt;/li&gt;
+	&lt;li&gt;Increased risk of autoimmune disorders, such as type 1 diabetes and lupus&lt;/li&gt;
+	&lt;li&gt;Increased belly fat, which can lead to other health problems&lt;/li&gt;
+	&lt;li&gt;Problems with sexual function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A number of complications caused by Klinefelter syndrome are related to low testosterone (hypogonadism). Testosterone replacement therapy reduces the risk of certain health problems, especially when therapy is started at the beginning of puberty. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A small percentage of males with Klinefelter syndrome are diagnosed before birth. This might happen if a pregnant woman has a procedure to examine fetal cells drawn from the amniotic fluid (amniocentesis) or placenta (chorionic villus sampling). Most women who have these procedures are older than age 35 or have a family history of genetic conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+If you notice symptoms of Klinefelter syndrome in yourself or your son, see a doctor. Your doctor will do a thorough physical examination and ask detailed questions about symptoms and your (or your son&apos;s) health. Be prepared to discuss when you, or your son, reached certain puberty milestones, such as the development of pubic and armpit hair, growth of the penis and increased testicle size. 
+&lt;/p&gt;
+&lt;p&gt;
+Take a few steps to make sure you make the best of the doctor visit: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Write down detailed notes about any symptoms.&lt;/li&gt;
+	&lt;li&gt;Make a list of all medications, as well as any vitamins or supplements that you (or your son) are taking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help make the most of your appointment. You might want to ask the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What tests are needed to confirm my (or my son&apos;s) diagnosis or see if the symptoms are caused by something else?&lt;/li&gt;
+	&lt;li&gt;What treatments are necessary?&lt;/li&gt;
+	&lt;li&gt;What are the side effects and expected results of treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As part of a physical examination, your doctor will likely examine your (or your son&apos;s) genital area and chest and may do tests to check reflexes and mental functioning. 
+&lt;/p&gt;
+&lt;p&gt;
+The main tests used to diagnose Klinefelter syndrome are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hormone testing.&lt;/strong&gt; Blood or urine samples can reveal abnormal hormone levels that are a sign of Klinefelter syndrome. The doctor may take samples to be evaluated in the lab.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chromosome analysis.&lt;/strong&gt; Also called karyotype analysis, this test is used to confirm a diagnosis of Klinefelter syndrome. It&apos;s usually done by taking a blood sample for laboratory examination to check the shape and number of chromosomes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child is diagnosed with Klinefelter syndrome, early treatment can help minimize problems. You might work with a team of health care providers, including a doctor who specializes in diagnosing and treating disorders involving the body&apos;s glands and hormones (endocrinologist), a speech therapist, a pediatrician, a physical therapist, a genetic counselor, a reproductive medicine or infertility specialist, and a counselor or psychologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Although there&apos;s no way to repair the sex chromosome changes due to Klinefelter syndrome, treatments can help minimize its effects. The earlier a diagnosis is made and treatment is started, the greater the benefits. But it&apos;s never too late to get help. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for Klinefelter syndrome may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Testosterone replacement therapy.&lt;/strong&gt; Males with Klinefelter syndrome don&apos;t produce enough of the male hormone testosterone, and this can have lifelong effects. Starting at the time of the usual onset of puberty, testosterone replacement can help treat or prevent a number of problems. Testosterone may be given as injections or with a gel or patch on the skin. Testosterone replacement therapy allows a boy to undergo the body changes that normally occur at puberty, such as developing a deeper voice, growing facial and body hair, and increasing muscle mass and penis size. Testosterone therapy also can help reduce growth of breast tissue, improve bone density and reduce the risk of fractures. It will not result in testicle enlargement or improve infertility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast tissue removal.&lt;/strong&gt; In males who develop enlarged breasts (gynecomastia), excess breast tissue can be removed by a plastic surgeon, leaving a normal-looking chest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech and physical therapy.&lt;/strong&gt; These treatments can help boys with Klinefelter syndrome overcome problems with speech, language and muscle weakness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Educational support.&lt;/strong&gt; Some boys with Klinefelter syndrome have trouble learning and can benefit from extra assistance. Talk to your child&apos;s teacher, school counselor or school nurse about what kind of support might help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fertility treatment.&lt;/strong&gt; Most men with Klinefelter syndrome are unable to father children, because no sperm are produced in the testicles. Some men with Klinefelter syndrome may have some minimal sperm production. One option that may benefit these men is a procedure called intracytoplasmic sperm injection (ICSI), in which sperm is removed from the testicle with a biopsy needle and injected directly into the egg. Other alternatives for having children include adoption and artificial insemination with donor sperm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological counseling.&lt;/strong&gt; Having Klinefelter syndrome can be a challenge, especially during puberty and young adulthood. For men with the condition, coping with infertility can be difficult. A family therapist, counselor or psychologist can help you work through emotional issues.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+With treatment and support, men with Klinefelter syndrome can expect to lead a normal life. The condition may cause minor symptoms that are hardly noticeable. Educational and social support can make a positive difference. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Boys with Klinefelter syndrome&lt;/strong&gt; &lt;br /&gt;
+To help your son cope with Klinefelter syndrome and promote healthy mental, physical, emotional and social development: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Monitor your son&apos;s development carefully and seek help for problems you notice, such as trouble with speech or language.&lt;/li&gt;
+	&lt;li&gt;Encourage participation in sports and physical activities that will help build muscle strength and motor skills.&lt;/li&gt;
+	&lt;li&gt;Encourage your son to be independent. Be supportive but not overly protective, and provide a home environment with lots of positive feedback and encouragement.&lt;/li&gt;
+	&lt;li&gt;Cooperate closely with your son&apos;s school. Teachers, school counselors and administrators who understand your son&apos;s needs can make a big difference.&lt;/li&gt;
+	&lt;li&gt;Learn what support is available, such as special education services.&lt;/li&gt;
+	&lt;li&gt;Connect with other parents. Klinefelter syndrome is a common condition, and you &amp;mdash; and your son &amp;mdash; aren&apos;t alone. A number of Internet resources and support groups may help answer your questions and ease concerns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Men with Klinefelter syndrome&lt;/strong&gt; &lt;br /&gt;
+Men with Klinefelter syndrome can benefit from several self-care measures: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Work closely with your doctor. Appropriate treatment can help you maintain your physical and mental health and prevent problems later in life, such as osteoporosis.&lt;/li&gt;
+	&lt;li&gt;Investigate your options for planning a family. You and your partner may want to talk to a doctor or other health professional about your options.&lt;/li&gt;
+	&lt;li&gt;Talk with others who have the condition. There are a number of resources that provide information about Klinefelter syndrome and perspectives of other men and their partners who cope with the condition. Many men find it also helpful to join a support group.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Klinefelter syndrome
+	</Title>
+	<Abstract>
+		Klinefelter syndrome &amp;mdash; Comprehensive overview covers treatment, diagnosis of this genetic condition affecting males.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+	</RelatedLinksBox>
+</Disease>

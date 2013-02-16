@@ -1,0 +1,418 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00324
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-26
+		</UpdateDate>
+		<PublicationDate>
+			2001-08-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1448" Title="Anemia">
+						<Keyword MCVID="1710" Title="Sickle cell anemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			193554B1-F187-461C-9041DDD189B031A6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sickle cell anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				sickel cell anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				sickle cell
+			</MetaKeyword>
+			<MetaKeyword>
+				sickle cell disease
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood
+			</MetaKeyword>
+			<MetaKeyword>
+				sickel cell
+			</MetaKeyword>
+			<MetaKeyword>
+				anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin S disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin SS disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sickle cell anemia is an inherited form of anemia &amp;mdash; a condition in which there aren&apos;t enough healthy red blood cells to carry adequate oxygen throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, your red blood cells are flexible and round, moving easily through your blood vessels. In sickle cell anemia, the red blood cells become rigid and sticky and are shaped like sickles or crescent moons. These irregularly shaped cells can get stuck in small blood vessels, which can slow or block blood flow and oxygen to parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for most people with sickle cell anemia. However, treatments can relieve pain and help prevent further problems associated with sickle cell anemia. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of normal red blood cells and sickle cells 
+" Caption="Normal red blood cells are round. In sickle cell anemia, some red blood cells become deformed, so they look like a sickle used to cut wheat. These unusually shaped cells give the disease its name. 
+" Height="60" Title="Sickle cell anemia" URI="/images/image_popup/thumbs/r7_sicklecellsthu.jpg" Width="60" />
+				<Image Alt="Illustration of normal red blood cells and sickle cells 
+" Caption="Normal red blood cells are round. In sickle cell anemia, some red blood cells become deformed, so they look like a sickle used to cut wheat. These unusually shaped cells give the disease its name. 
+" Height="359" Title="Sickle cell anemia" URI="/images/image_popup/r7_sicklecells.jpg" Width="400" />
+				<HTML>
+					Normal red blood cells are round. In sickle cell anemia, some red blood cells become deformed, so they look like a sickle used to cut wheat. These unusually shaped cells give the disease its name. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of sickle cell anemia usually show up after an infant is 4 months old and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; Sickle cells are fragile. They break apart easily and die, leaving you chronically short on red blood cells. Red blood cells usually live for about 120 days before they die and need to be replaced. However, sickle cells die after only 10 to 20 days. The result is a chronic shortage of red blood cells, known as anemia. Without enough red blood cells in circulation, your body can&apos;t get the oxygen it needs to feel energized. That&apos;s why anemia causes fatigue. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Episodes of pain.&lt;/strong&gt; Periodic episodes of pain, called crises, are a major symptom of sickle cell anemia. Pain develops when sickle-shaped red blood cells block blood flow through tiny blood vessels to your chest, abdomen and joints. Pain can also occur in your bones. The pain may vary in intensity and can last for a few hours to a few weeks. Some people experience only a few episodes of pain. Others experience a dozen or more crises a year. If a crisis is severe enough, you may need to be hospitalized. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hand-foot syndrome.&lt;/strong&gt; Swollen hands and feet may be the first signs of sickle cell anemia in babies. The swelling is caused by sickle-shaped red blood cells blocking blood flow out of their hands and feet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent infections.&lt;/strong&gt; Sickle cells can damage your spleen, an organ that fights infection. This may make you more vulnerable to infections. Doctors commonly give infants and children with sickle cell anemia antibiotics to prevent potentially life-threatening infections, such as pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Delayed growth.&lt;/strong&gt; Red blood cells provide your body with the oxygen and nutrients you need for growth. A shortage of healthy red blood cells can slow growth in infants and children and delay puberty in teenagers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision problems.&lt;/strong&gt; Some people with sickle cell anemia experience vision problems. Tiny blood vessels that supply your eyes may become plugged with sickle cells. This can damage the retina &amp;mdash; the portion of the eye that processes visual images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although sickle cell anemia is usually diagnosed in infancy, if you or your child develops any of the following problems, see your doctor right away or seek emergency medical care:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Unexplained episodes of severe pain,&lt;/strong&gt; such as pain in abdomen, chest, bones or joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling in the hands or feet.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abdominal swelling,&lt;/strong&gt; especially if the area is tender to touch.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fever.&lt;/strong&gt; People with sickle cell anemia have an increased risk of infection, and fever can be the first sign of an illness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pale skin or nail beds.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yellow tint&lt;/strong&gt; to the skin or the whites of the eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Any signs or symptoms of stroke.&lt;/strong&gt; If you notice any one-sided paralysis or weakness in the face, arms or legs, confusion, trouble walking or talking, sudden vision problems or numbness, or a headache, call 911 or your local emergency number right away.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sickle cell anemia is caused by a mutation in the gene that tells your body to make hemoglobin &amp;mdash; the red, iron-rich compound that gives blood its red color. Hemoglobin allows red blood cells to carry oxygen from your lungs to all parts of your body. In sickle cell anemia, the abnormal hemoglobin causes red blood cells to become rigid, sticky and misshapen.
+&lt;/p&gt;
+&lt;p&gt;
+The sickle cell gene is passed from generation to generation in a pattern of inheritance called autosomal recessive inheritance. This means that both the mother and the father must pass on the defective form of the gene for a child to be affected.
+&lt;/p&gt;
+&lt;p&gt;
+If only one parent passes the sickle cell gene to the child, that child will have the sickle cell trait. With one normal hemoglobin gene and one defective form of the gene, people with the sickle cell trait make both normal hemoglobin and sickle cell hemoglobin. Their blood may contain some sickle cells, but they generally don&apos;t experience symptoms. However, they are carriers of the disease, which means they can pass the defective gene on to their children.
+&lt;/p&gt;
+&lt;p&gt;
+With each pregnancy, two people with sickle cell traits have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A 25 percent chance of having an unaffected child with normal hemoglobin&lt;/li&gt;
+	&lt;li&gt;A 50 percent chance of having a child who also is a carrier&lt;/li&gt;
+	&lt;li&gt;A 25 percent chance of having a child with sickle cell anemia&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of normal red blood cells and sickle cells 
+" Caption="Normal red blood cells are round. In sickle cell anemia, some red blood cells become deformed, so they look like a sickle used to cut wheat. These unusually shaped cells give the disease its name. 
+" Height="60" Title="Sickle cell anemia" URI="/images/image_popup/thumbs/r7_sicklecellsthu.jpg" Width="60" />
+				<Image Alt="Illustration of normal red blood cells and sickle cells 
+" Caption="Normal red blood cells are round. In sickle cell anemia, some red blood cells become deformed, so they look like a sickle used to cut wheat. These unusually shaped cells give the disease its name. 
+" Height="359" Title="Sickle cell anemia" URI="/images/image_popup/r7_sicklecells.jpg" Width="400" />
+				<HTML>
+					Normal red blood cells are round. In sickle cell anemia, some red blood cells become deformed, so they look like a sickle used to cut wheat. These unusually shaped cells give the disease its name. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The risk of inheriting sickle cell anemia comes down to genetics. For a baby to be born with sickle cell anemia, both parents must carry a sickle cell gene.
+&lt;/p&gt;
+&lt;p&gt;
+The gene is more common in families that come from Africa, India, the Mediterranean, Saudi Arabia, and South and Central America. In the United States, it most commonly affects blacks and Hispanics.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sickle cell anemia can lead to a host of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; A stroke can occur if sickle cells block blood flow to an area of your brain. Signs of stroke include seizures, weakness or numbness of your arms and legs, sudden speech difficulties, and loss of consciousness. If your baby or child has any of these signs and symptoms, seek medical treatment immediately. A stroke can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute chest syndrome.&lt;/strong&gt; This life-threatening complication of sickle cell anemia causes chest pain, fever and difficulty breathing. Acute chest syndrome can be caused by a lung infection or by sickle cells blocking blood vessels in your lungs. It may require emergency medical treatment with antibiotics and other treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary hypertension.&lt;/strong&gt; People with sickle cell anemia can also develop high blood pressure in their lungs (pulmonary hypertension). Shortness of breath and difficulty breathing are common symptoms of this condition, which can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Organ damage.&lt;/strong&gt; Sickle cells can block blood flow through blood vessels, immediately depriving an organ of blood and oxygen. In sickle cell anemia, blood is also chronically low on oxygen. Chronic deprivation of oxygen-rich blood can damage nerves and organs in your body, including your kidneys, liver and spleen. Organ damage can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blindness.&lt;/strong&gt; Tiny blood vessels that supply your eyes can get blocked by sickle cells. Over time, this can damage the retina &amp;mdash; the portion of the eye that processes visual images &amp;mdash; and lead to blindness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin ulcers.&lt;/strong&gt; Sickle cell anemia can cause open sores, called ulcers, on your legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gallstones.&lt;/strong&gt; The breakdown of red blood cells produces a substance called bilirubin. A high level of bilirubin in your body can lead to gallstones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Priapism.&lt;/strong&gt; Men with sickle cell anemia may experience painful, long-lasting erections, a condition called priapism. As occurs in other parts of the body, sickle cells can block the blood vessels in the penis. This can damage the penis and eventually lead to impotence.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sickle cell anemia is usually diagnosed through genetic screening done when a baby is born. Those test results will likely be given to your family doctor or pediatrician. Once sickle cell anemia is diagnosed, you&apos;ll likely be referred to a doctor who specializes in blood disorders (hematologist) or a pediatric hematologist.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve noticed,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For sickle cell anemia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What treatments are available and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects are common with these treatments?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my child&apos;s prognosis?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;Have they been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve these symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen the symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family have sickle cell anemia?&lt;/li&gt;
+	&lt;li&gt;Have you ever been told you have a trait for sickle cell anemia?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A blood test can check for hemoglobin S &amp;mdash; the defective form of hemoglobin that underlies sickle cell anemia. In the United States, this blood test is part of routine newborn screening done at the hospital. But older children and adults can be tested, too.
+&lt;/p&gt;
+&lt;p&gt;
+In adults, a blood sample is drawn from a vein in the arm. In young children and babies, the blood sample is usually collected from a finger or heel. The sample is then sent to a laboratory, where it&apos;s screened for hemoglobin S.
+&lt;/p&gt;
+&lt;p&gt;
+If the screening test is negative, there is no sickle cell gene present. If the screening test is positive, further tests will be done to determine whether one or two sickle cell genes are present. People who have one gene &amp;mdash; sickle cell trait &amp;mdash; have a fairly small percentage of hemoglobin S. People with two genes &amp;mdash; sickle cell disease &amp;mdash; have a much larger percentage of the defective hemoglobin.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt;&lt;br /&gt;
+To confirm any diagnosis, a sample of blood is examined under a microscope to check for large numbers of sickle cells &amp;mdash; a marker of the disease. If you or your child has the disease, a blood test to check for anemia &amp;mdash; a low red blood cell count &amp;mdash; will be done. And your doctor may suggest additional tests to check for possible complications of the disease.
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child carries the sickle cell gene, you may be referred to a genetic counselor &amp;mdash; an expert in genetic diseases.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to detect sickle cell genes before birth&lt;/strong&gt;&lt;br /&gt;
+Sickle cell anemia can be diagnosed in an unborn baby by sampling some of the fluid surrounding the baby in the mother&apos;s womb (amniotic fluid) to look for the sickle cell gene. If you or your partner has been diagnosed with sickle cell anemia or sickle cell trait, ask your doctor about whether you should consider this screening. Ask for a referral to a genetic counselor who can help you understand the risk to your baby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone marrow transplant offers the only potential cure for sickle cell anemia. But, finding a donor is difficult and the procedure has serious risks associated with it, including death.
+&lt;/p&gt;
+&lt;p&gt;
+As a result, treatment for sickle cell anemia is usually aimed at avoiding crises, relieving symptoms and preventing complications. If you have sickle cell anemia, you&apos;ll need to make regular visits to your doctor to check your red blood cell count and monitor your health. Treatments may include medications to reduce pain and prevent complications, blood transfusions and supplemental oxygen, as well as bone marrow transplant.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications used to treat sickle cell anemia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Children with sickle cell anemia may begin taking the antibiotic penicillin when they&apos;re about 2 months of age and continue taking it until they&apos;re 5 years old. Doing so helps prevent infections, such as pneumonia, which can be life-threatening to an infant or child with sickle cell anemia. Antibiotics may also help adults with sickle cell anemia fight certain infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain-relieving medications.&lt;/strong&gt; To relieve pain during a sickle crisis, your doctor may advise over-the-counter pain relievers and application of heat to the affected area. You may also need stronger prescription pain medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hydroxyurea (Droxia, Hydrea).&lt;/strong&gt; When taken daily, hydroxyurea reduces the frequency of painful crises and may reduce the need for blood transfusions. It may be an option for adults with severe disease. Hydroxyurea seems to work by stimulating production of fetal hemoglobin &amp;mdash; a type of hemoglobin found in newborns that helps prevent the formation of sickle cells. Hydroxyurea increases your risk of infections, and there is some concern that long-term use of this drug may cause tumors or leukemia in certain people. Your doctor can help you determine if this drug may be beneficial for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Assessing stroke risk&lt;/strong&gt;&lt;br /&gt;
+Using a special ultrasound machine (transcranial), doctors can learn which children have a higher risk of stroke. This test can be used on children as young as 2, and those who are found to have a high risk of stroke are then treated with regular blood transfusions.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immunizations to prevent infections&lt;/strong&gt;&lt;br /&gt;
+Because infections can be very serious in children with sickle cell anemia, your doctor will likely recommend your child receive the available vaccinations.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood transfusions&lt;/strong&gt;&lt;br /&gt;
+In a red blood cell transfusion, red blood cells are removed from a supply of donated blood. These donated cells are then given intravenously to a person with sickle cell anemia.
+&lt;/p&gt;
+&lt;p&gt;
+Blood transfusions increase the number of normal red blood cells in circulation, helping to relieve anemia. In children with sickle cell anemia at high risk of stroke, regular blood transfusions can decrease their risk of stroke.
+&lt;/p&gt;
+&lt;p&gt;
+Blood transfusions carry some risk. Blood contains iron. Regular blood transfusions cause an excess amount of iron to build up in your body. Because excess iron can damage your heart, liver and other organs, people who undergo regular transfusions may need treatment to reduce iron levels. Deferasirox (Exjade) is an oral medication that can reduce excess iron levels.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supplemental oxygen&lt;/strong&gt;&lt;br /&gt;
+Breathing supplemental oxygen through a breathing mask adds oxygen to your blood and helps you breathe easier. It may be helpful if you have acute chest syndrome or a sickle cell crisis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stem cell transplant&lt;/strong&gt;&lt;br /&gt;
+A stem cell transplant, also called a bone marrow transplant, involves replacing bone marrow affected by sickle cell anemia with healthy bone marrow from a donor. A stem cell transplant is recommended only for people who have significant symptoms and problems from sickle cell anemia.
+&lt;/p&gt;
+&lt;p&gt;
+If a donor is found, the diseased bone marrow in the person with sickle cell anemia is first depleted with radiation or chemotherapy. Healthy stem cells from the donor are filtered from the blood. The healthy stem cells are injected intravenously into the bloodstream of the person with sickle cell anemia, where they migrate to the bone marrow cavities and begin generating new blood cells. The procedure requires a lengthy hospital stay. After the transplant, you&apos;ll receive drugs to help prevent rejection of the donated stem cells.
+&lt;/p&gt;
+&lt;p&gt;
+A stem cell transplant carries risks. There&apos;s a chance that your body may reject the transplant, leading to life-threatening complications. In addition, not everyone is a candidate for transplantation or can find a suitable donor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating complications&lt;/strong&gt;&lt;br /&gt;
+Doctors treat most complications of sickle cell anemia as they occur. Treatment may include antibiotics, vitamins, blood transfusions, pain-relieving medicines, other medications and possibly surgery, such as to correct vision problems or to remove a damaged spleen.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Experimental treatments&lt;/strong&gt;&lt;br /&gt;
+Scientists are studying new treatments for sickle cell anemia, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gene therapy.&lt;/strong&gt; Because sickle cell anemia is caused by a defective gene, researchers are exploring whether inserting a normal gene into the bone marrow of people with sickle cell anemia will result in the production of normal hemoglobin. Scientists are also exploring the possibility of turning off the defective gene while reactivating another gene responsible for the production of fetal hemoglobin &amp;mdash; a type of hemoglobin found in newborns that prevents sickle cells from forming.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nitric oxide.&lt;/strong&gt; People with sickle cell anemia have low levels of nitric oxide in their blood. Nitric oxide is a gas that helps keep blood vessels open and reduces the stickiness of red blood cells. Treatment with nitric oxide may prevent sickle cells from clumping together.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs to boost fetal hemoglobin production.&lt;/strong&gt; Researchers are studying various drugs to devise a way to boost the production of fetal hemoglobin. This is a type of hemoglobin that stops sickle cells from forming.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Taking steps to stay healthy may help you avoid complications of sickle cell anemia. If you or your child has sickle cell anemia, follow these suggestions to help stay healthy:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take folic acid supplements daily, and choose a healthy diet.&lt;/strong&gt; Bone marrow needs folic acid and other vitamins to make new red blood cells. Your doctor may recommend a folic acid supplement. You can increase the number of vitamins you eat each day by choosing a diet that focuses on a variety of colorful fruits and vegetables, as well as whole grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water.&lt;/strong&gt; Dehydration can increase your risk of a sickle cell crisis. Drink water throughout your day. Increase the amount of water you drink if you exercise or spend time in a hot, dry climate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid temperature extremes.&lt;/strong&gt; Exposure to extreme heat or cold can increase your risk of a sickle cell crisis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce stress.&lt;/strong&gt; A sickle cell crisis can occur as a result of stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly,&lt;/strong&gt; but don&apos;t overdo it. Talk with your doctor about how much exercise is right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use over-the-counter medications with caution.&lt;/strong&gt; Some medications, such as the decongestant pseudoephedrine, can constrict your blood vessels and make it harder for the sickle cells to move through freely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fly on airplanes with pressurized cabins.&lt;/strong&gt; Unpressurized aircraft cabins may not provide enough oxygen. Low oxygen levels can trigger a sickle crisis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan ahead when traveling to high-altitude areas.&lt;/strong&gt; There is less oxygen at higher altitudes, so you may require supplemental oxygen to avoid triggering a sickle cell crisis. Meet with your doctor before your trip to discuss the risks of traveling to a high-altitude area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or someone in your family has sickle cell anemia, you may want help with the stresses of this lifelong disease. Consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Sickle cell centers and clinics can provide information and counseling. Ask your doctor or the staff at a sickle cell center if there are support groups for families in your area. Talking with others who are facing the same challenges you are can be helpful. Prayer, family and friends also can be sources of support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Explore ways to cope with the pain.&lt;/strong&gt; If you&apos;re in pain, work with your doctor to find ways to control your pain. Pain medications can&apos;t always take all the pain away. Different techniques work for different people, but it might be worth trying heating pads, hot baths, massages or physical therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about sickle cell anemia to make decisions about care.&lt;/strong&gt; If you have a child with sickle cell anemia, learn as much as you can about the disease so you can make informed choices about your child&apos;s care. Ask questions during your child&apos;s appointments. Ask your health care team to recommend good sources of further information.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you carry the sickle cell trait, you may wish to see a genetic counselor before trying to conceive a child. A genetic counselor can help you understand your risk of having a child with sickle cell anemia. He or she can also explain possible treatments, preventive measures and reproductive options.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sickle cell anemia
+	</Title>
+	<Abstract>
+		Sickle cell anemia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this blood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00529" LinkType="Internal" ObjectID="F9C2A5C9-E236-3A87-20857F09DD395018" Title="Hemoglobin test" Url="http://www.mayoclinic.com/health/hemoglobin-test/MY00529" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00155" LinkType="Internal" ObjectID="E4636F2E-E7FF-0DBD-19D23492870EE783" Title="Amniocentesis" Url="http://www.mayoclinic.com/health/amniocentesis/MY00155" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00147" LinkType="Internal" ObjectID="DF9E0BE8-E7FF-0DBD-15BB97EE22BD0C3D" Title="Cordocentesis" Url="http://www.mayoclinic.com/health/percutaneous-umbilical-blood-sampling/MY00147" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="Disease" DocID="DS00321" LinkType="Internal" ObjectID="EC65CB20-B944-4CF2-8237D5D3234C0883" Title="Anemia" Url="http://www.mayoclinic.com/health/anemia/DS00321" />
+		<LinkItem ContentType="Disease" DocID="DS00873" LinkType="Internal" ObjectID="52A19C8A-E7FF-0DBD-17B36A20D749ED86" Title="Priapism" Url="http://www.mayoclinic.com/health/priapism/DS00873" />
+	</RelatedLinksBox>
+</Disease>

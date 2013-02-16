@@ -1,0 +1,285 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00735
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mrsa/DS00735
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="3248" Title="Staph infections">
+							<Keyword MCVID="2559" Title="MRSA" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			62232E78-2A5D-9994-E02734CDF6291B3B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				MRSA infection
+			</MetaKeyword>
+			<MetaKeyword>
+				MRSA
+			</MetaKeyword>
+			<MetaKeyword>
+				staph
+			</MetaKeyword>
+			<MetaKeyword>
+				staph infection
+			</MetaKeyword>
+			<MetaKeyword>
+				superbugs
+			</MetaKeyword>
+			<MetaKeyword>
+				hospital infection
+			</MetaKeyword>
+			<MetaKeyword>
+				CA-MRSA
+			</MetaKeyword>
+			<MetaKeyword>
+				boils
+			</MetaKeyword>
+			<MetaKeyword>
+				abscess
+			</MetaKeyword>
+			<MetaKeyword>
+				staff infections
+			</MetaKeyword>
+			<MetaKeyword>
+				Mursa
+			</MetaKeyword>
+			<MetaKeyword>
+				Mersa
+			</MetaKeyword>
+			<MetaKeyword>
+				mercer
+			</MetaKeyword>
+			<MetaKeyword>
+				Merca
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Methicillin-resistant Staphylococcus aureus (MRSA) infection is caused by a strain of staph bacteria that&apos;s become resistant to the antibiotics commonly used to treat ordinary staph infections. 
+&lt;/p&gt;
+&lt;p&gt;
+Most MRSA infections occur in people who have been in hospitals or other health care settings, such as nursing homes and dialysis centers. When it occurs in these settings, it&apos;s known as health care-associated MRSA (HA-MRSA). HA-MRSA infections typically are associated with invasive procedures or devices, such as surgeries, intravenous tubing or artificial joints. 
+&lt;/p&gt;
+&lt;p&gt;
+Another type of MRSA infection has occurred in the wider community &amp;mdash; among healthy people. This form, community-associated MRSA (CA-MRSA), often begins as a painful skin boil. It&apos;s spread by skin-to-skin contact. At-risk populations include groups such as high school wrestlers, child care workers and people who live in crowded conditions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Staph skin infections, including MRSA, generally start as small red bumps that resemble pimples, boils or spider bites. These can quickly turn into deep, painful abscesses that require surgical draining. Sometimes the bacteria remain confined to the skin. But they can also burrow deep into the body, causing potentially life-threatening infections in bones, joints, surgical wounds, the bloodstream, heart valves and lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Keep an eye on minor skin problems &amp;mdash; pimples, insect bites, cuts and scrapes &amp;mdash; especially in children. If wounds become infected, see your doctor. Do not attempt to treat an MRSA infection yourself. You could worsen it or spread it to others. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos of two staph infections: one minor, and one serious 
+" Caption="MRSA infections start out as small red bumps that can quickly turn into deep, painful abscesses. 
+" Height="60" Title="Staph infection" URI="/images/image_popup/thumbs/ans7_staph_skinthu.jpg" Width="60" />
+				<Image Alt="Photos of two staph infections: one minor, and one serious 
+" Caption="MRSA infections start out as small red bumps that can quickly turn into deep, painful abscesses. 
+" Height="260" Title="Staph infection" URI="/images/image_popup/ans7_staph_skin.jpg" Width="400" />
+				<HTML>
+					MRSA infections start out as small red bumps that can quickly turn into deep, painful abscesses. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Different varieties of Staphylococcus aureus bacteria, commonly called &quot;staph,&quot; exist. Staph bacteria are normally found on the skin or in the nose of about one-third of the population. The bacteria are generally harmless unless they enter the body through a cut or other wound, and even then they usually cause only minor skin problems in healthy people. 
+&lt;/p&gt;
+&lt;p&gt;
+According to the Centers for Disease Control and Prevention, less than 2 percent of the population carries the type of staph bacteria known as MRSA. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotic resistance&lt;/strong&gt; &lt;br /&gt;
+MRSA is the result of decades of often unnecessary antibiotic use. For years, antibiotics have been prescribed for colds, flu and other viral infections that don&apos;t respond to these drugs. Even when antibiotics are used appropriately, they contribute to the rise of drug-resistant bacteria because they don&apos;t destroy every germ they target. Bacteria live on an evolutionary fast track, so germs that survive treatment with one antibiotic soon learn to resist others. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because hospital and community strains of MRSA generally occur in different settings, the risk factors for the two strains differ. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors for HA-MRSA&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being hospitalized&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; MRSA remains a concern in hospitals, where it can attack those most vulnerable &amp;mdash; older adults and people with weakened immune systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having an invasive medical device.&lt;/strong&gt; Medical tubing &amp;mdash; such as intravenous lines or urinary catheters &amp;mdash; can provide a pathway for MRSA to travel into your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Residing in a long-term care facility.&lt;/strong&gt; MRSA is prevalent in nursing homes. Carriers of MRSA have the ability to spread it, even if they&apos;re not sick themselves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors for&lt;/strong&gt; &lt;strong&gt;CA-MRSA&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Participating in contact sports.&lt;/strong&gt; MRSA can spread easily through cuts and abrasions and skin-to-skin contact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in crowded or unsanitary conditions.&lt;/strong&gt; Outbreaks of MRSA have occurred in military training camps, child care centers and jails.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Men having sex with men.&lt;/strong&gt; Homosexual men have a higher risk of developing MRSA infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+MRSA infections can resist the effects of many common antibiotics, so they are more difficult to treat. This can allow the infections to spread and sometimes become life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+MRSA infections may affect your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bloodstream&lt;/li&gt;
+	&lt;li&gt;Lungs&lt;/li&gt;
+	&lt;li&gt;Heart&lt;/li&gt;
+	&lt;li&gt;Bones&lt;/li&gt;
+	&lt;li&gt;Joints&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a specialist, depending on which of your organ systems is affected by the infection. For example, a dermatologist specializes in skin conditions, while a cardiologist treats heart disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you might want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+During your physical exam, your doctor will closely examine any skin lesions you may have. He or she might take a sample of tissue or liquid from the lesions for testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors diagnose MRSA by checking a tissue sample or nasal secretions for signs of drug-resistant bacteria. The sample is sent to a lab where it&apos;s placed in a dish of nutrients that encourage bacterial growth. But because it takes about 48 hours for the bacteria to grow, newer tests that can detect staph DNA in a matter of hours are now becoming more widely available. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Both health care-associated and community-associated strains of MRSA still respond to certain antibiotics. In some cases, antibiotics may not be necessary. For example, doctors may drain a superficial abscess caused by MRSA rather than treat the infection with drugs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Preventing HA-MRSA&lt;/strong&gt; &lt;br /&gt;
+In the hospital, people who are infected or colonized with MRSA often are placed in isolation as a precaution to prevent the spread of MRSA. Visitors and health care workers caring for people in isolation may be required to wear protective garments and must follow strict hand hygiene procedures. Contaminated surfaces and laundry items should be properly disinfected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing CA-MRSA&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Careful hand-washing remains your best defense against germs. Scrub hands briskly for at least 15 seconds, then dry them with a disposable towel and use another towel to turn off the faucet. Carry a small bottle of hand sanitizer containing at least 62 percent alcohol for times when you don&apos;t have access to soap and water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep wounds covered.&lt;/strong&gt; Keep cuts and abrasions clean and covered with sterile, dry bandages until they heal. The pus from infected sores may contain MRSA, and keeping wounds covered will help keep the bacteria from spreading.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep personal items personal.&lt;/strong&gt; Avoid sharing personal items such as towels, sheets, razors, clothing and athletic equipment. MRSA spreads on contaminated objects as well as through direct contact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shower after athletic games or practices.&lt;/strong&gt; Shower immediately after each game or practice. Use soap and water. Don&apos;t share towels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sanitize linens.&lt;/strong&gt; If you have a cut or sore, wash towels and bed linens in a washing machine set to the hottest water setting (with added bleach, if possible) and dry them in a hot dryer. Wash gym and athletic clothes after each wearing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		MRSA infection
+	</Title>
+	<Abstract>
+		MRSA infection &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this virulent staph infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00973" LinkType="Internal" ObjectID="7F6D054F-E7FF-0DBD-131A3975EF067747" Title="Staph infections" Url="http://www.mayoclinic.com/health/staph-infections/DS00973" />
+		<LinkItem ContentType="Article" DocID="ID00049" LinkType="Internal" ObjectID="D7A62184-E7FF-0DBD-1B7A498A1D99D327" Title="MRSA: Protecting student athletes" Url="http://www.mayoclinic.com/health/mrsa/ID00049" />
+	</RelatedLinksBox>
+</Disease>

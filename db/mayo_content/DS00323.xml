@@ -1,0 +1,380 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00323
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/iron-deficiency-anemia/DS00323
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-04
+		</UpdateDate>
+		<PublicationDate>
+			2001-07-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1448" Title="Anemia">
+						<Keyword MCVID="1449" Title="Iron deficiency anemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			072ADD99-C40D-4E6A-82DAA8347C662BDD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				iron deficiency anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				iron deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				red blood cells
+			</MetaKeyword>
+			<MetaKeyword>
+				iron supplements
+			</MetaKeyword>
+			<MetaKeyword>
+				iron
+			</MetaKeyword>
+			<MetaKeyword>
+				low iron
+			</MetaKeyword>
+			<MetaKeyword>
+				HGB
+			</MetaKeyword>
+			<MetaKeyword>
+				hemocrit
+			</MetaKeyword>
+			<MetaKeyword>
+				hemaglobin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Iron deficiency anemia is a common type of anemia &amp;mdash; a condition in which blood lacks adequate healthy red blood cells. Red blood cells carry oxygen to the body&apos;s tissues. 
+&lt;/p&gt;
+&lt;p&gt;
+As the name implies, iron deficiency anemia is due to insufficient iron. Without enough iron, your body can&apos;t produce enough hemoglobin, a substance in red blood cells that enables them to carry oxygen. As a result, iron deficiency anemia may leave you tired and short of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+You can usually correct iron deficiency anemia with iron supplementation. Sometimes, additional treatments for iron deficiency anemia are necessary, especially if you&apos;re bleeding internally. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Initially, iron deficiency anemia can be so mild that it goes unnoticed. But as the body becomes more deficient in iron and anemia worsens, the signs and symptoms intensify. 
+&lt;/p&gt;
+&lt;p&gt;
+Iron deficiency anemia symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme fatigue&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Cold hands and feet&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Inflammation or soreness of your tongue&lt;/li&gt;
+	&lt;li&gt;Brittle nails&lt;/li&gt;
+	&lt;li&gt;Fast heartbeat&lt;/li&gt;
+	&lt;li&gt;Unusual cravings for non-nutritive substances, such as ice, dirt or starch&lt;/li&gt;
+	&lt;li&gt;Poor appetite, especially in infants and children with iron deficiency anemia&lt;/li&gt;
+	&lt;li&gt;An uncomfortable tingling or crawling feeling in your legs (restless legs syndrome)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you or your child develops signs and symptoms that suggest iron deficiency anemia, see your doctor. Iron deficiency anemia isn&apos;t something to self-diagnose or treat. So see your doctor for a diagnosis, rather than taking iron supplements on your own. Overloading the body with iron can be dangerous because excess iron accumulation can damage your liver and cause other complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Iron deficiency anemia occurs when your body doesn&apos;t have enough iron to produce hemoglobin. Hemoglobin is the part of red blood cells that gives blood its red color and enables the red blood cells to carry oxygenated blood throughout your body. If you aren&apos;t consuming enough iron, or if you&apos;re losing too much iron, your body can&apos;t produce enough hemoglobin, and iron deficiency anemia will eventually develop. 
+&lt;/p&gt;
+&lt;p&gt;
+Causes of iron deficiency anemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood loss.&lt;/strong&gt; Blood contains iron within red blood cells. So if you lose blood, you lose some iron. Women with heavy periods are at risk of iron deficiency anemia because they lose blood during menstruation. Slow, chronic blood loss within the body &amp;mdash; such as from a peptic ulcer, a hiatal hernia, a colon polyp or colorectal cancer &amp;mdash; can cause iron deficiency anemia. Gastrointestinal bleeding can result from regular use of some over-the-counter pain relievers, especially aspirin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A lack of iron in your diet.&lt;/strong&gt; Your body regularly gets iron from the foods you eat. If you consume too little iron, over time your body can become iron deficient. Examples of iron-rich foods include meat, eggs, leafy green vegetables and iron-fortified foods. For proper growth and development, infants and children need iron from their diet, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An inability to absorb iron.&lt;/strong&gt; Iron from food is absorbed into your bloodstream in your small intestine. An intestinal disorder, such as celiac disease, which affects your intestine&apos;s ability to absorb nutrients from digested food, can lead to iron deficiency anemia. If part of your small intestine has been bypassed or removed surgically, that may affect your ability to absorb iron and other nutrients.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Without iron supplementation, iron deficiency anemia occurs in many pregnant women because their iron stores need to serve their own increased blood volume as well as be a source of hemoglobin for the growing fetus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These groups of people may have an increased risk of iron deficiency anemia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Women.&lt;/strong&gt; Because women lose blood during menstruation, women in general are at greater risk of iron deficiency anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infants and children.&lt;/strong&gt; Infants, especially those who were low birth weight or born prematurely, who don&apos;t get enough iron from breast milk or formula may be at risk of iron deficiency. Children need extra iron during growth spurts. If your child isn&apos;t eating a healthy, varied diet, he or she may be at risk of anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vegetarians.&lt;/strong&gt; People who don&apos;t eat meat may have a greater risk of iron deficiency anemia if they don&apos;t eat other iron-rich foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Frequent blood donors.&lt;/strong&gt; People who routinely donate blood may have an increased risk of iron deficiency anemia, since blood donation can deplete iron stores. Low hemoglobin related to blood donation may be a temporary problem remedied by eating more iron-rich foods. If you&apos;re told that you can&apos;t donate blood because of low hemoglobin, ask your doctor whether you should be concerned.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild iron deficiency anemia usually doesn&apos;t cause complications. However, left untreated, iron deficiency anemia can become severe and lead to health problems, including the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Iron deficiency anemia may lead to a rapid or irregular heartbeat. Your heart must pump more blood to compensate for the lack of oxygen carried in your blood when you&apos;re anemic. This can lead to an enlarged heart or heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems during pregnancy.&lt;/strong&gt; In pregnant women, severe iron deficiency anemia has been linked to premature births and low birth weight babies. But the condition is easily preventable in pregnant women who receive iron supplements as part of their prenatal care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Growth problems.&lt;/strong&gt; In infants and children, severe iron deficiency can lead to anemia as well as delayed growth and development. Additionally, iron deficiency anemia is associated with an increased susceptibility to infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your doctor if you have any signs and symptoms that worry you. If you&apos;re diagnosed with iron deficiency anemia, you may need tests to look for a source of blood loss, including tests to examine your gastrointestinal tract. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For iron deficiency anemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you noticed unusual bleeding, such as heavy periods, bleeding from hemorrhoids or nosebleeds?&lt;/li&gt;
+	&lt;li&gt;Are you a vegetarian?&lt;/li&gt;
+	&lt;li&gt;Have you recently donated blood more than once?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose iron deficiency anemia, your doctor may run tests to look for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Red blood cell size and color.&lt;/strong&gt; With iron deficiency anemia, red blood cells are smaller and paler in color than normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hematocrit.&lt;/strong&gt; This is the percentage of your blood volume made up by red blood cells. Normal levels are generally between 34.9 and 44.5 percent for adult women and 38.8 to 50 percent for adult men. These values may change depending on your age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemoglobin.&lt;/strong&gt; Lower than normal hemoglobin levels indicate anemia. The normal hemoglobin range is generally defined as 13.5 to 17.5 grams (g) of hemoglobin per deciliter (dL) of blood for men and 12.0 to 15.5 g/dL for women. The normal ranges for children vary depending on the child&apos;s age and sex.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ferritin.&lt;/strong&gt; This protein helps store iron in your body, and a low level of ferritin usually indicates a low level of stored iron.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional diagnostic tests&lt;/strong&gt; &lt;br /&gt;
+If your blood work indicates iron deficiency anemia, your doctor may order additional tests to identify an underlying cause, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopy.&lt;/strong&gt; Doctors often check for bleeding from a hiatal hernia, an ulcer or the stomach with the aid of endoscopy. In this procedure, a thin, lighted tube equipped with a video camera is passed down your throat to your stomach. This allows your doctor to view your esophagus &amp;mdash; the tube that runs from your mouth to your stomach &amp;mdash; and your stomach to look for sources of bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Colonoscopy.&lt;/strong&gt; To rule out lower intestinal sources of bleeding, your doctor may recommend a procedure called colonoscopy. A thin, flexible tube equipped with a video camera is inserted into the rectum and guided to your colon. You&apos;re usually sedated during this test. A colonoscopy allows your doctor to view inside some or all of your colon and rectum to look for internal bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Women may also have a pelvic ultrasound to look for the cause of excess menstrual bleeding, such as uterine fibroids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may order these or other tests after a trial period of treatment with iron supplementation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To treat iron deficiency anemia, your doctor may recommend you take iron supplements. Your doctor will also treat the underlying cause of your iron deficiency, if necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Iron supplements&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend iron tablets to replenish the iron stores in your body. To improve the chances that your body will absorb the iron in the tablets, you may be instructed to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take iron tablets on an empty stomach.&lt;/strong&gt; If possible, take your iron tablets when your stomach is empty. However, because iron tablets can upset your stomach, you may need to take your iron tablets with meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take iron tablets with vitamin C.&lt;/strong&gt; Vitamin C improves the absorption of iron. Your doctor might recommend taking your iron tablets with a glass of orange juice or with a vitamin C supplement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Iron supplements can cause constipation, so your doctor may also recommend a stool softener. Iron may turn your stools black, which is a harmless side effect. 
+&lt;/p&gt;
+&lt;p&gt;
+Iron deficiency can&apos;t be corrected overnight. You may need to take iron supplements for several months or longer to replenish your iron reserves. Generally, you&apos;ll start to feel better after a week or so of treatment. Ask your doctor when you need to return to have your blood rechecked to measure your iron levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating underlying causes of iron deficiency&lt;/strong&gt; &lt;br /&gt;
+If iron supplements don&apos;t increase your blood-iron levels, it&apos;s likely the anemia is due to a source of bleeding or an iron-absorption problem that your doctor will need to investigate and treat. Depending on the cause, iron deficiency anemia treatment may involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medications, such as oral contraceptives to lighten heavy menstrual flow&lt;/li&gt;
+	&lt;li&gt;Antibiotics and other medications to treat peptic ulcers&lt;/li&gt;
+	&lt;li&gt;Surgery to remove a bleeding polyp, a tumor or a fibroid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If iron deficiency anemia is severe, blood transfusions can help replace iron and hemoglobin quickly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can reduce your risk of iron deficiency anemia by choosing iron-rich foods. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Choose iron-rich foods&lt;/strong&gt; &lt;br /&gt;
+Foods rich in iron include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Beans&lt;/li&gt;
+	&lt;li&gt;Dark green leafy vegetables, such as spinach&lt;/li&gt;
+	&lt;li&gt;Dried fruit, such as raisins and apricots&lt;/li&gt;
+	&lt;li&gt;Eggs&lt;/li&gt;
+	&lt;li&gt;Iron-fortified cereals, breads and pastas&lt;/li&gt;
+	&lt;li&gt;Peas&lt;/li&gt;
+	&lt;li&gt;Pork&lt;/li&gt;
+	&lt;li&gt;Poultry&lt;/li&gt;
+	&lt;li&gt;Red meat&lt;/li&gt;
+	&lt;li&gt;Seafood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your body absorbs more iron from meat than it does from other sources. If you choose to not eat meat, you may need to increase your intake of iron-rich, plant-based foods to absorb the same amount of iron as someone who eats meat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Choose foods containing vitamin C to enhance iron absorption&lt;/strong&gt; &lt;br /&gt;
+You can enhance your body&apos;s absorption of iron by drinking citrus juice or eating other foods rich in vitamin C at the same time that you eat high-iron foods. Vitamin C in citrus juices, like orange juice, helps your body to better absorb dietary iron. 
+&lt;/p&gt;
+&lt;p&gt;
+Vitamin C is also found in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Broccoli&lt;/li&gt;
+	&lt;li&gt;Grapefruit&lt;/li&gt;
+	&lt;li&gt;Kiwi&lt;/li&gt;
+	&lt;li&gt;Leafy greens&lt;/li&gt;
+	&lt;li&gt;Mangoes&lt;/li&gt;
+	&lt;li&gt;Melons&lt;/li&gt;
+	&lt;li&gt;Oranges&lt;/li&gt;
+	&lt;li&gt;Peppers&lt;/li&gt;
+	&lt;li&gt;Strawberries&lt;/li&gt;
+	&lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing iron deficiency anemia in infants&lt;/strong&gt; &lt;br /&gt;
+To prevent iron deficiency anemia in infants, feed your baby breast milk or iron-fortified formula for the first year. Cow&apos;s milk isn&apos;t a good source of iron for babies and isn&apos;t recommended for infants under one year. Iron from breast milk is more easily absorbed than the iron found in formula. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Iron deficiency anemia
+	</Title>
+	<Abstract>
+		Iron deficiency anemia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this blood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00529" LinkType="Internal" ObjectID="F9C2A5C9-E236-3A87-20857F09DD395018" Title="Hemoglobin test" Url="http://www.mayoclinic.com/health/hemoglobin-test/MY00529" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01054" LinkType="Internal" ObjectID="DA787FBE-FC60-A12B-C5024A53DF0C477E" Title="Blood transfusion" Url="http://www.mayoclinic.com/health/blood-transfusion/MY01054" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="Disease" DocID="DS00321" LinkType="Internal" ObjectID="EC65CB20-B944-4CF2-8237D5D3234C0883" Title="Anemia" Url="http://www.mayoclinic.com/health/anemia/DS00321" />
+		<LinkItem ContentType="Answer" DocID="AN01278" LinkType="Internal" ObjectID="5553453E-2A5D-9994-EF09499BF47D74A5" Title="Craving and chewing ice: A sign of anemia?" Url="http://www.mayoclinic.com/health/chewing-ice/AN01278" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+		<LinkItem ContentType="Disease" DocID="DS00096" LinkType="Internal" ObjectID="37177394-6BD1-4401-AB747238D2AEBD84" Title="Hemorrhoids" Url="http://www.mayoclinic.com/health/hemorrhoids/DS00096" />
+	</RelatedLinksBox>
+</Disease>

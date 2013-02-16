@@ -1,0 +1,351 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01114
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/secondary-hypertension/DS01114
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-22
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1147" Title="High blood pressure">
+						<Keyword MCVID="2103" Title="Secondary high blood pressure" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			42823E43-E7FF-0DBD-118600FF8103E891
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				secondary hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				secondary high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				bloodpressure
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Secondary hypertension (secondary high blood pressure) is high blood pressure that&apos;s caused by another medical condition. Secondary hypertension differs from the usual type of high blood pressure (essential hypertension), which is often referred to simply as high blood pressure. Essential hypertension, also known as primary hypertension, has no clear cause and is thought to be linked to genetics, poor diet, lack of exercise and obesity. 
+&lt;/p&gt;
+&lt;p&gt;
+Secondary hypertension can be caused by conditions that affect your kidneys, arteries, heart or endocrine system. Secondary hypertension can also occur during pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+Proper treatment of secondary hypertension can often control both the underlying condition and the high blood pressure, which reduces the risk of serious complications &amp;mdash; including heart disease, kidney failure and stroke. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Like primary high blood pressure (hypertension), secondary hypertension usually has no specific signs or symptoms, even if your blood pressure has reached dangerously high levels. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people may experience headaches from secondary hypertension, but it&apos;s difficult to know if high blood pressure or something else is causing the headaches. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been diagnosed with high blood pressure, having any of these signs may mean your condition is secondary hypertension: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure that doesn&apos;t respond to blood pressure medications (resistant hypertension)&lt;/li&gt;
+	&lt;li&gt;Very high blood pressure &amp;mdash; systolic blood pressure over 180 millimeters of mercury (mm Hg) or diastolic blood pressure over 110 mm Hg&lt;/li&gt;
+	&lt;li&gt;A blood pressure medication that previously controlled your blood pressure no longer works&lt;/li&gt;
+	&lt;li&gt;Sudden-onset high blood pressure before age 30 or after age 55&lt;/li&gt;
+	&lt;li&gt;No family history of high blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you have a condition that can cause secondary hypertension, you may need your blood pressure checked more frequently. Ask your doctor how often to have your blood pressure checked. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of conditions can cause secondary hypertension. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes complications (diabetic nephropathy).&lt;/strong&gt; Diabetes can damage your kidneys&apos; filtering system, which can lead to high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polycystic kidney disease.&lt;/strong&gt; In this inherited condition, cysts in your kidneys prevent the kidneys from working normally, and can raise blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glomerular disease.&lt;/strong&gt; Your kidneys filter waste and sodium using microscopic-sized filters called glomeruli that can sometimes become swollen. If the swollen glomeruli can&apos;t work normally, you may develop high blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Renovascular hypertension.&lt;/strong&gt; This is a type of secondary hypertension caused by narrowing (stenosis) of one or both arteries leading to your kidneys. Renovascular hypertension can cause severe hypertension and irreversible kidney damage. It&apos;s often caused by the same type of fatty plaques that can damage your coronary arteries (atherosclerosis) or a condition in which the muscle and fibrous tissues of the renal artery wall thicken and harden into rings (fibromuscular dysplasia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cushing&apos;s syndrome.&lt;/strong&gt; In this condition, corticosteroid medications, a pituitary tumor or other factors cause the adrenal glands to produce too much of the hormone cortisol. This raises blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aldosteronism.&lt;/strong&gt; In this condition, a tumor in the adrenal gland, increased growth of normal cells in the adrenal gland or other factors cause the adrenal glands to release an excessive amount of the hormone aldosterone. This makes your kidneys retain salt and water and lose too much potassium, which raises blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pheochromocytoma.&lt;/strong&gt; This rare tumor, usually found in an adrenal gland, increases production of the hormones adrenaline and noradrenaline, which can lead to long-term high blood pressure or short-term spikes in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid problems.&lt;/strong&gt; When the thyroid gland doesn&apos;t produce enough thyroid hormone (hypothyroidism) or produces too much thyroid hormone (hyperthyroidism), high blood pressure can result.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hyperparathyroidism.&lt;/strong&gt; The parathyroid glands regulate levels of calcium and phosphorus in your body. If the glands secrete too much parathyroid hormone, the amount of calcium in your blood rises &amp;mdash; which triggers a rise in blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coarctation of the aorta.&lt;/strong&gt; With this defect you&apos;re born with, the body&apos;s main artery (aorta) is narrowed (coarctation). This forces the heart to pump harder to get blood through the aorta and to the rest of your body. This, in turn, raises blood pressure &amp;mdash; particularly in your arms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep apnea.&lt;/strong&gt; In this condition, often marked by severe snoring, breathing repeatedly stops and starts during sleep, meaning you don&apos;t get enough oxygen. Not getting enough oxygen may damage the lining of the blood vessel walls, which may make your blood vessels less effective in regulating your blood pressure. In addition, sleep apnea causes part of the nervous system to be overactive and release certain chemicals that increase blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; As you gain weight, the amount of blood circulating through your body increases. This puts added pressure on your artery walls, increasing your blood pressure. In addition, excess weight often is associated with an increase in heart rate and a reduction in the capacity of your blood vessels to transport blood. All of these factors can increase blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Pregnancy can make existing high blood pressure worse, or may cause high blood pressure to develop (pregnancy-induced hypertension or preeclampsia).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications and supplements.&lt;/strong&gt; Various prescription medications &amp;mdash; from pain relievers to antidepressants and drugs used after organ transplants &amp;mdash; can cause or aggravate high blood pressure in some people. Birth control pills, decongestants and certain herbal supplements, including ginseng and St. John&apos;s wort, may have the same effect. Many illegal drugs, such as cocaine and methamphetamine, also increase blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The greatest risk factor for having secondary hypertension is having a medical condition that can cause high blood pressure, such as kidney, artery, heart or endocrine system problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Secondary hypertension can worsen the underlying medical condition you have that&apos;s causing your high blood pressure. If you don&apos;t receive treatment, secondary hypertension can also be associated with other medical conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Damage to your arteries.&lt;/strong&gt; This can result in hardening and thickening of the arteries (atherosclerosis), which can lead to a heart attack, stroke or other complications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aneurysm.&lt;/strong&gt; Increased blood pressure can cause your blood vessels to weaken and bulge, forming an aneurysm. If an aneurysm ruptures, it can be life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; To pump blood against the higher pressure in your vessels, your heart muscle thickens. Eventually, the thickened muscle may have a hard time pumping enough blood to meet your body&apos;s needs, which can lead to heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened and narrowed blood vessels in your kidneys.&lt;/strong&gt; This can prevent these organs from functioning normally.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thickened, narrowed or torn blood vessels in the eyes.&lt;/strong&gt; This can result in vision loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metabolic syndrome.&lt;/strong&gt; This syndrome is a cluster of disorders of your body&apos;s metabolism &amp;mdash; including increased waist circumference, high triglycerides, low high-density lipoprotein (HDL), or &quot;good,&quot; cholesterol, high blood pressure, and high insulin levels. If you have high blood pressure, you&apos;re more likely to have other components of metabolic syndrome. The more components you have, the greater your risk of developing diabetes, heart disease or stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trouble with memory or understanding.&lt;/strong&gt; Uncontrolled high blood pressure also may affect your ability to think, remember and learn. Trouble with memory or understanding concepts is more common in people who have high blood pressure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your high blood pressure may be discovered during a routine physical. At that point, your primary care doctor may order more tests, or refer you to a doctor who specializes in treating whatever the suspected underlying cause of your high blood pressure may be. For example, if your doctor believes that a kidney problem is causing your high blood pressure, you&apos;ll likely be referred to a doctor who specializes in treating kidney disorders (nephrologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet for a certain number of hours before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information&lt;/strong&gt;, including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications, vitamins or supplements&lt;/strong&gt; that you&apos;re taking, as well as information on the dose you take for each.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. For secondary hypertension, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is causing my high blood pressure?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is my high blood pressure temporary or long-lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available for the cause of my high blood pressure, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;What types of lifestyle changes can I make on my own that might help lower my blood pressure?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;How often do I need to come back to have my blood pressure checked?&lt;/li&gt;
+	&lt;li&gt;Do I need to check my blood pressure at home? If so, how often?&lt;/li&gt;
+	&lt;li&gt;Which type of blood pressure machine is best? And, can you help me learn how to use it correctly?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with high blood pressure?&lt;/li&gt;
+	&lt;li&gt;If yes, do you know if there was an underlying reason for the high blood pressure? For example, did your relative have diabetes or kidney problems?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any unusual symptoms?&lt;/li&gt;
+	&lt;li&gt;How much salt is in your diet?&lt;/li&gt;
+	&lt;li&gt;Has your body weight changed recently?&lt;/li&gt;
+	&lt;li&gt;If you were ever pregnant, was your blood pressure elevated during pregnancy?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose secondary hypertension, your doctor will first take a blood pressure reading using an inflatable cuff, just as your blood pressure is measured during a typical doctor&apos;s appointment. Your doctor may not diagnose you with secondary hypertension based on one higher than normal blood pressure reading &amp;mdash; it may take three to six high blood pressure measurements at separate appointments to diagnose secondary hypertension. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will also want to check other markers to pinpoint the cause of your high blood pressure. These could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A blood test.&lt;/strong&gt; Your doctor may want to check your potassium, sodium, total cholesterol and triglycerides, and other chemicals in your blood to help make a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinalysis.&lt;/strong&gt; Your doctor may want to check your urine for markers that could show your high blood pressure is caused by another medical condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound of your kidneys.&lt;/strong&gt; Since many kidney conditions are linked to secondary hypertension, your doctor may order an ultrasound of your kidneys. In this noninvasive test, a technician will run an instrument called a transducer over your skin. The transducer, which produces sound waves, measures how the sound waves bounce off your kidneys and sends images created by the sound waves to a computer monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; If your doctor thinks your secondary hypertension may be caused by a heart problem, he or she may order an electrocardiogram. In this noninvasive test, sensors (electrodes) that can detect the electrical activity of your heart are attached to your chest and sometimes to your limbs. An ECG measures the timing and duration of each electrical phase in your heartbeat.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, an underlying medical condition requires treatment with medications or surgery. Once an underlying condition is effectively treated, secondary hypertension may decrease or even return to normal. Often, however, lifestyle changes &amp;mdash; such as eating healthy foods, increasing physical activity and maintaining a healthy weight &amp;mdash; can help keep your blood pressure low. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need to continue to take blood pressure medication as well, and any underlying medical condition you have may affect your doctor&apos;s choice of medication. Possible drug choices include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Thiazide diuretics.&lt;/strong&gt; Diuretics, sometimes called water pills, are medications that act on your kidneys to help your body eliminate sodium and water, reducing blood volume. Thiazide diuretics are often the first &amp;mdash; but not the only &amp;mdash; choice in high blood pressure medications. These medications are often generic and tend to be less expensive than other high blood pressure medications. If you&apos;re not taking a diuretic and your blood pressure remains high, talk to your doctor about adding one or replacing a drug you currently take with a diuretic. Possible side effects include an increased need to urinate and a higher risk of sexual dysfunction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; These medications reduce the workload on your heart and open your blood vessels, causing your heart to beat slower and with less force. When prescribed alone, beta blockers don&apos;t work as well in blacks &amp;mdash; but they&apos;re effective when combined with a thiazide diuretic. Possible side effects include fatigue, sleep problems, a slowed heart rate and coldness in your hands and feet. In addition, beta blockers generally aren&apos;t prescribed for people with asthma, as they can increase muscle spasms in the lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin-converting enzyme (ACE) inhibitors.&lt;/strong&gt; These medications help relax blood vessels by blocking the formation of a natural chemical that narrows blood vessels. ACE inhibitors may be especially important in treating high blood pressure in people with coronary artery disease, heart failure or kidney failure. Like beta blockers, ACE inhibitors don&apos;t work as well in blacks when prescribed alone, but they&apos;re effective when combined with a thiazide diuretic. Possible side effects include dizziness and cough, and these medications aren&apos;t recommended during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Angiotensin II receptor blockers.&lt;/strong&gt; These medications help relax blood vessels by blocking the action &amp;mdash; not the formation &amp;mdash; of a natural chemical that narrows blood vessels. Like ACE inhibitors, angiotensin II receptor blockers often are useful for people with coronary artery disease, heart failure and kidney failure. These medications have fewer potential side effects than do ACE inhibitors, but are also not used during pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium channel blockers.&lt;/strong&gt; These medications help relax the muscles of your blood vessels. Some slow your heart rate. Calcium channel blockers may work better for blacks than do ACE inhibitors or beta blockers alone. Possible side effects include water retention, dizziness and constipation. And, a word of caution for grapefruit lovers. Grapefruit juice interacts with some calcium channel blockers, increasing blood levels of the medication and putting you at higher risk of side effects. Ask your doctor or pharmacist if your medication is affected by grapefruit juice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment can sometimes be complicated. You may need more than one medication combined with lifestyle changes to control your high blood pressure. And, your doctor will want to see you more frequently until your blood pressure is stabilized, possibly as frequently as once a month. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although lowering secondary hypertension can be difficult, making the same lifestyle changes you would make if you had primary high blood pressure can help. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Try the Dietary Approaches to Stop Hypertension (DASH) diet, which emphasizes fruits, vegetables, whole grains and low-fat dairy foods. Get plenty of potassium, which is found in fruits and vegetables such as potatoes, spinach, bananas and apricots, to help prevent and control high blood pressure. Eat less saturated fat and total fat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decrease the salt in your diet.&lt;/strong&gt; A lower sodium level &amp;mdash; 1,500 milligrams (mg) a day &amp;mdash; is appropriate for people 51 years of age or older, and individuals of any age who are African-American or who have hypertension, diabetes or chronic kidney disease. Otherwise healthy people can aim for 2,300 mg a day or less. While you can reduce the amount of salt you eat by putting down the saltshaker, you should also pay attention to the amount of salt that&apos;s in the processed foods you eat, such as canned soups or frozen dinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you&apos;re overweight, losing even 10 pounds (4.5 kilograms) can lower your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase physical activity.&lt;/strong&gt; Regular physical activity can help lower your blood pressure and keep your weight under control. Strive for at least 30 minutes of physical activity a day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol.&lt;/strong&gt; Even if you&apos;re healthy, alcohol can raise your blood pressure. If you choose to drink alcohol, do so in moderation &amp;mdash; up to one drink a day for women, and two drinks a day for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Tobacco injures blood vessel walls and speeds up the process of hardening of the arteries. If you smoke, ask your doctor to help you quit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Manage stress.&lt;/strong&gt; Reduce stress as much as possible. Practice healthy coping techniques, such as muscle relaxation and deep breathing. Getting plenty of sleep can help, too.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Secondary hypertension
+	</Title>
+	<Abstract>
+		Secondary hypertension (secondary high blood pressure) &amp;mdash; Comprehensive overview covers causes, risk factors and treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01409" LinkType="Internal" ObjectID="EA3ADB22-E7FF-0DBD-15BFFADA0E76F71B" Title="Beta blockers: Do they cause weight gain?" Url="http://www.mayoclinic.com/health/beta-blockers/AN01409" />
+		<LinkItem ContentType="Answer" DocID="AN01805" LinkType="Internal" ObjectID="E642627E-E7FF-0DBD-127101A5D18D71A5" Title="Blood pressure medications: Can they raise my triglycerides?" Url="http://www.mayoclinic.com/health/blood-pressure-medications/AN01805" />
+		<LinkItem ContentType="Video" DocID="MM00785" LinkType="Internal" ObjectID="E4AF5952-E281-9FDB-A49D030ABA3ADA63" Title="Video: How to measure blood pressure using an automatic monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00785" />
+		<LinkItem ContentType="Video" DocID="MM00784" LinkType="Internal" ObjectID="E4AC6F86-E982-CDFA-7000379CDB6D02C5" Title="Video: How to measure blood pressure using a manual monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00784" />
+		<LinkItem ContentType="Video" DocID="MM00783" LinkType="Internal" ObjectID="E4A91387-DA91-1FD3-6FA25DF674886A49" Title="Video: What is blood pressure?" Url="http://www.mayoclinic.com/health/what-is-blood-pressure/MM00783" />
+		<LinkItem ContentType="Answer" DocID="AN00391" LinkType="Internal" ObjectID="E3340A96-EE3F-459C-ADCF5542FB8031D2" Title="Blood pressure: Does it have a daily pattern?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00391" />
+		<LinkItem ContentType="Answer" DocID="AN01224" LinkType="Internal" ObjectID="E2C8DF16-2A5D-9994-EE1CD5A39AE77278" Title="Beta blockers: How do they affect exercise?" Url="http://www.mayoclinic.com/health/beta-blockers/AN01224" />
+		<LinkItem ContentType="Answer" DocID="AN01523" LinkType="Internal" ObjectID="CED59AD9-E7FF-0DBD-189A34D534017ACC" Title="Resperate: Can it help reduce blood pressure?" Url="http://www.mayoclinic.com/health/resperate/AN01523" />
+		<LinkItem ContentType="Answer" DocID="AN00357" LinkType="Internal" ObjectID="C22A32DF-E88A-4A19-ACF061ACA161F96A" Title="Blood pressure: Can it be higher in one arm?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00357" />
+		<LinkItem ContentType="Answer" DocID="AN01871" LinkType="Internal" ObjectID="B957C014-E7FF-0DBD-15B79F240E5F9EC4" Title="Calcium supplements: Do they interfere with blood pressure drugs?" Url="http://www.mayoclinic.com/health/calcium-supplements/AN01871" />
+		<LinkItem ContentType="Answer" DocID="AN01086" LinkType="Internal" ObjectID="9CD2F26A-4D26-4A8F-A56633C979B71EC0" Title="Anxiety: A cause of high blood pressure?" Url="http://www.mayoclinic.com/health/anxiety/AN01086" />
+		<LinkItem ContentType="Table" DocID="HI00043" LinkType="Internal" ObjectID="9A5682D3-EA4F-4B75-9AD9B2FA46746B6C" Title="Blood pressure chart: What your reading means" Url="http://www.mayoclinic.com/health/blood-pressure/HI00043" />
+		<LinkItem ContentType="Answer" DocID="AN01113" LinkType="Internal" ObjectID="99858DDA-4298-4DC2-83B13F42E9CCB7D5" Title="Isolated systolic hypertension: A health concern?" Url="http://www.mayoclinic.com/health/hypertension/AN01113" />
+		<LinkItem ContentType="Answer" DocID="AN00637" LinkType="Internal" ObjectID="7BEA90EA-45BD-4052-B3CA28CDED7CCD0E" Title="Weightlifting: Bad for your blood pressure?" Url="http://www.mayoclinic.com/health/weightlifting/AN00637" />
+		<LinkItem ContentType="Answer" DocID="AN00626" LinkType="Internal" ObjectID="6C95FDF4-3201-4DA8-865B9C4E129DE8D6" Title="Hypertensive crisis: What are the symptoms?" Url="http://www.mayoclinic.com/health/hypertensive-crisis/AN00626" />
+		<LinkItem ContentType="Answer" DocID="AN00792" LinkType="Internal" ObjectID="6488C9E0-4259-425B-975EDA39F3378760" Title="Caffeine: How does it affect blood pressure?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00792" />
+		<LinkItem ContentType="Answer" DocID="AN01786" LinkType="Internal" ObjectID="59D4C6A4-E7FF-0DBD-17D7F3407E1DB63D" Title="Blood pressure: Is it affected by cold weather?" Url="http://www.mayoclinic.com/health/blood-pressure/AN01786" />
+		<LinkItem ContentType="Answer" DocID="AN01463" LinkType="Internal" ObjectID="52A7F294-E7FF-0DBD-188D6FB40F00387D" Title="Menopause and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/menopause-and-high-blood-pressure/AN01463" />
+		<LinkItem ContentType="Answer" DocID="AN00352" LinkType="Internal" ObjectID="4E053CF6-9A01-4F1E-88EF4EFB7844213D" Title="Diuretics: A cause of low potassium?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00352" />
+		<LinkItem ContentType="Answer" DocID="AN01344" LinkType="Internal" ObjectID="48D55B0C-2A5D-9994-E2070E8DBEE5BAC0" Title="Sleep deprivation: A cause of high blood pressure?" Url="http://www.mayoclinic.com/health/sleep-deprivation/AN01344" />
+		<LinkItem ContentType="Answer" DocID="AN01605" LinkType="Internal" ObjectID="482CD8BB-E7FF-0DBD-187477B75BF4D2C3" Title="L-arginine: Does it lower blood pressure?" Url="http://www.mayoclinic.com/health/l-arginine/AN01605" />
+		<LinkItem ContentType="Answer" DocID="AN01927" LinkType="Internal" ObjectID="4749301C-E7FF-0DBD-1C750E4DE8E2856B" Title="High blood pressure and cold remedies: Which are safe?" Url="http://www.mayoclinic.com/health/high-blood-pressure/AN01927" />
+		<LinkItem ContentType="Answer" DocID="AN00925" LinkType="Internal" ObjectID="46A20906-5691-4B4F-BF4B99510FDE9DC7" Title="Blood pressure readings: Why higher at home?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00925" />
+		<LinkItem ContentType="Answer" DocID="AN01926" LinkType="Internal" ObjectID="43031CCA-E7FF-0DBD-1E620A538B1217A7" Title="Blood pressure cuff: Does size matter?" Url="http://www.mayoclinic.com/health/blood-pressure-cuff/AN01926" />
+		<LinkItem ContentType="Answer" DocID="AN01496" LinkType="Internal" ObjectID="30A83E05-E7FF-0DBD-1A10CF3D8AFDC8D3" Title="Blood pressure medication: Still necessary if I lose weight?" Url="http://www.mayoclinic.com/health/blood-pressure-medication/AN01496" />
+		<LinkItem ContentType="Answer" DocID="AN00968" LinkType="Internal" ObjectID="20C60920-4142-4A35-99621C105DDACB6C" Title="Pulse pressure: An indicator of heart health?" Url="http://www.mayoclinic.com/health/pulse-pressure/AN00968" />
+		<LinkItem ContentType="Answer" DocID="AN02075" LinkType="Internal" ObjectID="1F34C088-C0FA-8D35-216AD8B2A7293F30" Title="Can whole-grain foods lower blood pressure?" Url="http://www.mayoclinic.com/health/whole-grain-foods/AN02075" />
+		<LinkItem ContentType="Answer" DocID="AN02014" LinkType="Internal" ObjectID="18414840-0787-01C2-EDA51F2BFC00878C" Title="White-coat hypertension: When blood pressure rises at the doctor&apos;s office" Url="http://www.mayoclinic.com/health/white-coat-hypertension/AN02014" />
+		<LinkItem ContentType="Answer" DocID="AN01839" LinkType="Internal" ObjectID="10D4EF3C-E7FF-0DBD-1FB6834D9B1CB13E" Title="Wrist blood pressure monitors: Are they accurate?" Url="http://www.mayoclinic.com/health/wrist-blood-pressure-monitors/AN01839" />
+		<LinkItem ContentType="Answer" DocID="AN00567" LinkType="Internal" ObjectID="10CD97B6-69B4-4765-AAC24EA41546EB0D" Title="Free blood pressure machines: Are they accurate?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00567" />
+		<LinkItem ContentType="Answer" DocID="AN00318" LinkType="Internal" ObjectID="0D0864BA-4B41-4A21-9E4E20422944FF2E" Title="Alcohol: Does it affect blood pressure?" Url="http://www.mayoclinic.com/health/blood-pressure/AN00318" />
+		<LinkItem ContentType="Article" DocID="HI00057" LinkType="Internal" ObjectID="E8A46831-F3A5-4B73-9D4D158B904FA5F7" Title="Vasodilators" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00057" />
+		<LinkItem ContentType="Article" DocID="HI00030" LinkType="Internal" ObjectID="E7492D61-D3D0-4624-9EBDA3A85E08B557" Title="Diuretics" Url="http://www.mayoclinic.com/health/diuretics/HI00030" />
+		<LinkItem ContentType="Article" DocID="HI00016" LinkType="Internal" ObjectID="D84ACA1C-2A12-4A75-900208367D504614" Title="Get the most out of home blood pressure monitoring" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00016" />
+		<LinkItem ContentType="Article" DocID="HI00061" LinkType="Internal" ObjectID="CB1CED06-E45C-41E1-B860780817DE5EEE" Title="Calcium channel blockers" Url="http://www.mayoclinic.com/health/calcium-channel-blockers/HI00061" />
+		<LinkItem ContentType="Article" DocID="HI00060" LinkType="Internal" ObjectID="C0E0B21D-8943-4415-99B10B646B4EE634" Title="Angiotensin-converting enzyme (ACE) inhibitors" Url="http://www.mayoclinic.com/health/ace-inhibitors/HI00060" />
+		<LinkItem ContentType="Article" DocID="HI00027" LinkType="Internal" ObjectID="A4B126D1-26BB-4A5C-8F616E89C237E24A" Title="10 ways to control high blood pressure without medication" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00027" />
+		<LinkItem ContentType="Article" DocID="HI00028" LinkType="Internal" ObjectID="82388918-C8B7-4322-87CE9FCD15FD393F" Title="Choosing blood pressure medications" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00028" />
+		<LinkItem ContentType="Article" DocID="HI00062" LinkType="Internal" ObjectID="6DF4F95D-E7FF-0DBD-1306F218EC685233" Title="High blood pressure dangers: Hypertension&apos;s effects on your body" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00062" />
+		<LinkItem ContentType="Article" DocID="HI00024" LinkType="Internal" ObjectID="45DF4744-A2FE-4E0A-AE71D442093FDC2F" Title="Exercise: A drug-free approach to lowering high blood pressure" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00024" />
+		<LinkItem ContentType="Article" DocID="HI00054" LinkType="Internal" ObjectID="3AF3E6F5-A43E-43DE-9E5E1707B87E8A58" Title="Angiotensin II receptor blockers" Url="http://www.mayoclinic.com/health/angiotensin-II-receptor-blockers/HI00054" />
+		<LinkItem ContentType="Article" DocID="HI00059" LinkType="Internal" ObjectID="1D095753-6FDD-4079-AF6DA015DA2BD68F" Title="Beta blockers" Url="http://www.mayoclinic.com/health/beta-blockers/HI00059" />
+		<LinkItem ContentType="Article" DocID="HI00056" LinkType="Internal" ObjectID="1B1D19FB-94E0-4340-BAA6FA799836AF08" Title="Central-acting agents" Url="http://www.mayoclinic.com/health/high-blood-pressure-medication/HI00056" />
+		<LinkItem ContentType="Article" DocID="HI00055" LinkType="Internal" ObjectID="13E80AE3-3DFF-4989-B3A6E6049BE5988D" Title="Alpha blockers" Url="http://www.mayoclinic.com/health/alpha-blockers/HI00055" />
+		<LinkItem ContentType="Article" DocID="HI00091" LinkType="Internal" ObjectID="13476B30-E7FF-0DBD-18FF920E1D5480C7" Title="High blood pressure and sex: Overcome the challenges" Url="http://www.mayoclinic.com/health/high-blood-pressure-and-sex/HI00091" />
+		<LinkItem ContentType="Article" DocID="HI00092" LinkType="Internal" ObjectID="13281AD6-E7FF-0DBD-106BB14106AB2F8C" Title="Stress and high blood pressure: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/stress-and-high-blood-pressure/HI00092" />
+		<LinkItem ContentType="Table" DocID="HI00048" LinkType="Internal" ObjectID="BF9EC580-06B1-40EC-B4FD27D51F856FBB" Title="DASH diet: Guide to recommended servings" Url="http://www.mayoclinic.com/health/dash-diet/HI00048" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01180" LinkType="Internal" ObjectID="8FA1E447-9FAA-8A0D-C4932F5017C91661" Title="Blood pressure test" Url="http://www.mayoclinic.com/health/blood-pressure-test/MY01180" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Article" DocID="HI00047" LinkType="Internal" ObjectID="FE95D456-5ADE-4E86-8A957584F1FC49A4" Title="DASH diet: Healthy eating to lower your blood pressure" Url="http://www.mayoclinic.com/health/dash-diet/HI00047" />
+		<LinkItem ContentType="Article" DocID="HI00020" LinkType="Internal" ObjectID="70354217-6336-473A-9009C1A4226569A2" Title="DASH diet: Top 5 tips for shopping and cooking" Url="http://www.mayoclinic.com/health/dash-diet/HI00020" />
+		<LinkItem ContentType="Article" DocID="HI00021" LinkType="Internal" ObjectID="2CEE92F2-74A2-468C-8DC51ED91D249468" Title="DASH diet: Top 5 tips for dining out" Url="http://www.mayoclinic.com/health/dash-diet/HI00021" />
+		<LinkItem ContentType="Disease" DocID="DS00470" LinkType="Internal" ObjectID="375268B4-E673-4ADA-908E8B7EE2E4026A" Title="Cushing&apos;s syndrome" Url="http://www.mayoclinic.com/health/cushings-syndrome/DS00470" />
+	</RelatedLinksBox>
+</Disease>

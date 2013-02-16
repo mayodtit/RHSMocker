@@ -1,0 +1,402 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01168
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyperglycemia/DS01168
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-14
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="4393" Title="Condition uncontrolled" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="2230" Title="Glucose regulation">
+						<Keyword MCVID="4664" Title="Hyperglycemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6A08F32B-C98C-76AC-13E6BEB06378AE2F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				diabetic hyperglycemia
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperglycemia
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar levels
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood sugar symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood glycose
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes hyperglycemia
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar monitoring
+			</MetaKeyword>
+			<MetaKeyword>
+				blood glucose monitoring
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				blood glucose
+			</MetaKeyword>
+			<MetaKeyword>
+				blood sugar testing
+			</MetaKeyword>
+			<MetaKeyword>
+				blood glucose testing
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				insulin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+High blood sugar (hyperglycemia) affects people who have diabetes. Several factors can contribute to hyperglycemia in people with diabetes, including food and physical activity choices, illness, nondiabetes medications, or not taking enough glucose-lowering medication. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to treat hyperglycemia, because if left untreated, hyperglycemia can become severe and lead to serious complications requiring emergency care, such as diabetic coma. In the long term, persistent hyperglycemia, even if not severe can lead to complications affecting your eyes, kidneys, nerves and heart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperglycemia doesn&apos;t cause symptoms until glucose values are significantly elevated &amp;mdash; above 200 milligrams per deciliter (mg/dL), or 11 millimoles per liter (mmol/L). Symptoms of hyperglycemia develop slowly over several days or weeks. The longer blood sugar levels stay high, the more serious the symptoms become. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+Recognizing early symptoms of hyperglycemia can help you treat the condition promptly. Watch for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent urination &lt;/li&gt;
+	&lt;li&gt;Increased thirst &lt;/li&gt;
+	&lt;li&gt;Blurred vision &lt;/li&gt;
+	&lt;li&gt;Fatigue &lt;/li&gt;
+	&lt;li&gt;Headache &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Later signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+If hyperglycemia goes untreated, it can cause toxic acids (ketones) to build up in your blood and urine (ketoacidosis). Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fruity-smelling breath &lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting &lt;/li&gt;
+	&lt;li&gt;Shortness of breath &lt;/li&gt;
+	&lt;li&gt;Dry mouth &lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Coma &lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Call 911 or emergency medical assistance if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re sick and can&apos;t keep any food or fluids down, and&lt;/li&gt;
+	&lt;li&gt;Your blood glucose levels are persistently above 240 mg/dL (13 mmol/L) with ketones in your urine &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Make an appointment with your doctor if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You experience ongoing diarrhea or vomiting, but you&apos;re able to take some foods or drinks&lt;/li&gt;
+	&lt;li&gt;You have a fever that lasts more than 24 hours&lt;/li&gt;
+	&lt;li&gt;Your blood glucose is more than 240 mg/dL (13 mmol/L) even though you&apos;ve taken your diabetes medication&lt;/li&gt;
+	&lt;li&gt;You have trouble keeping your blood glucose within the desired range&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During digestion, your body breaks down carbohydrates from foods &amp;mdash; such as bread, rice and pasta &amp;mdash; into various sugar molecules. One of these sugar molecules is glucose, a main energy source for your body. Glucose is absorbed directly into your bloodstream after you eat, but it can&apos;t enter the cells of most of your tissues without the help of insulin &amp;mdash; a hormone secreted by your pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+When the level of glucose in your blood rises, it signals your pancreas to release insulin. The insulin, in turn, unlocks your cells so that glucose can enter and provide the fuel your cells need to function properly. Any extra glucose is stored in your liver and muscles in the form of glycogen. 
+&lt;/p&gt;
+&lt;p&gt;
+This process lowers the amount of glucose in your bloodstream and prevents it from reaching dangerously high levels. As your blood sugar level returns to normal, so does the secretion of insulin from your pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+Diabetes drastically diminishes the effects of insulin on your body, either because your pancreas doesn&apos;t produce enough insulin (type 1 diabetes) or because your body is resistant to the effects of insulin or doesn&apos;t produce enough insulin to maintain a normal glucose level (type 2 diabetes). As a result, glucose tends to build up in your bloodstream and may reach dangerously high levels (hyperglycemia) if not treated properly. Insulin or other drugs are used to lower blood sugar levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Factors that contribute to hyperglycemia&lt;/strong&gt; &lt;br /&gt;
+Many factors can contribute to hyperglycemia, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Not using enough insulin or oral diabetes medication&lt;/li&gt;
+	&lt;li&gt;Not injecting insulin properly or using expired insulin &lt;/li&gt;
+	&lt;li&gt;Not following your diabetes eating plan&lt;/li&gt;
+	&lt;li&gt;Being inactive&lt;/li&gt;
+	&lt;li&gt;Having an illness or infection&lt;/li&gt;
+	&lt;li&gt;Using certain medications, such as steroids &lt;/li&gt;
+	&lt;li&gt;Being injured or having surgery &lt;/li&gt;
+	&lt;li&gt;Experiencing emotional stress, such as family conflict or workplace challenges&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Illness or stress can trigger hyperglycemia because hormones produced to combat illness or stress can also cause your blood sugar to rise. Even people who don&apos;t have diabetes may develop hyperglycemia during severe illness. But people with diabetes may need to take extra diabetes medication to keep blood glucose near normal during illness or stress. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Long-term complications&lt;/strong&gt; &lt;br /&gt;
+Untreated hyperglycemia can cause long-term complications. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cardiovascular disease&lt;/li&gt;
+	&lt;li&gt;Nerve damage (neuropathy)&lt;/li&gt;
+	&lt;li&gt;Kidney damage (nephropathy) or kidney failure&lt;/li&gt;
+	&lt;li&gt;Damage to the blood vessels of the retina (diabetic retinopathy), potentially leading to blindness&lt;/li&gt;
+	&lt;li&gt;Clouding of the normally clear lens of your eye (cataract)&lt;/li&gt;
+	&lt;li&gt;Feet problems caused by damaged nerves or poor blood flow that can lead to serious infections&lt;/li&gt;
+	&lt;li&gt;Bone and joint problems, such as osteoporosis&lt;/li&gt;
+	&lt;li&gt;Skin problems, including bacterial infections, fungal infections and nonhealing wounds&lt;/li&gt;
+	&lt;li&gt;Teeth and gum infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency complications&lt;/strong&gt; &lt;br /&gt;
+If blood sugar rises high enough or for a prolonged period of time, it can lead to two serious conditions. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Diabetic ketoacidosis.&lt;/strong&gt; Diabetic ketoacidosis develops when you have too little insulin in your body. Without enough insulin, sugar (glucose) can&apos;t enter your cells for energy. Your blood sugar level rises, and your body begins to break down fat for energy.
+	&lt;/p&gt;
+	&lt;p&gt;
+	This process produces toxic acids known as ketones. Excess ketones accumulate in the blood and eventually &quot;spill over&quot; into the urine. Left untreated, diabetic ketoacidosis can lead to diabetic coma and be life-threatening. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Diabetic hyperosmolar syndrome.&lt;/strong&gt; This condition occurs when people produce insulin, but it doesn&apos;t work properly. Blood glucose levels may become very high &amp;mdash; greater than 600 mg/dL (33 mmol/L). Because insulin is present but not working properly, the body can&apos;t use either glucose or fat for energy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Glucose is then dumped in the urine, causing increased urination. Left untreated, diabetic hyperosmolar syndrome can lead to coma and life-threatening dehydration. Prompt medical care is essential. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have trouble keeping your blood sugar within the desired range, schedule an appointment to see your doctor. He or she can help you make changes to better manage your diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; If your doctor is going to test your blood sugar, he or she will ask you to refrain from eating or drinking anything but water for up to eight hours before your appointment. When you&apos;re making an appointment, ask if you should fast.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information, including any major stresses or recent life changes.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a record of metered glucose values.&lt;/strong&gt; Give your doctor a written or printed record of your blood glucose values, times and medication. Using the record, your doctor can recognize trends and offer advice on how to prevent hyperglycemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Be clear about aspects of your diabetes management that you need more information on.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware if you need any prescription refills.&lt;/strong&gt; Your doctor can renew your prescriptions while you&apos;re there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For hyperglycemia, questions you may want to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often do I need to monitor my blood sugar?&lt;/li&gt;
+	&lt;li&gt;What is my goal range?&lt;/li&gt;
+	&lt;li&gt;How do diet and exercise affect my blood sugar?&lt;/li&gt;
+	&lt;li&gt;When do I test for ketones?&lt;/li&gt;
+	&lt;li&gt;How can I prevent high blood sugar?&lt;/li&gt;
+	&lt;li&gt;Do I need to worry about low blood sugar? What are the signs and symptoms I need to watch out for?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, will I need?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sick-day planning&lt;/strong&gt; &lt;br /&gt;
+Illness or infections can cause your blood sugar to rise, so it&apos;s important to plan for these situations. Talk to your doctor about creating a sick-day plan. Questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How often should I monitor my blood sugar during an illness?&lt;/li&gt;
+	&lt;li&gt;Does my insulin injection or oral diabetes pill dose change when I&apos;m sick?&lt;/li&gt;
+	&lt;li&gt;When do I test for ketones?&lt;/li&gt;
+	&lt;li&gt;What if I&apos;m unable to eat or drink?&lt;/li&gt;
+	&lt;li&gt;When do I seek medical help?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor sets your target blood sugar range. For many people who have diabetes, target levels are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fasting at least eight hours (fasting blood sugar level) &amp;mdash; between 90 and 130 mg/dL (5 and 7 mmol/L) &lt;/li&gt;
+	&lt;li&gt;Before meals &amp;mdash; between 70 and 130 mg/dL (4 and 7 mmol/L) &lt;/li&gt;
+	&lt;li&gt;One to two hours after meals &amp;mdash; lower than 180 mg/dL (10 mmol/L) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your target blood sugar range may differ, especially if you&apos;re pregnant or you develop diabetes complications. Your target blood sugar range may change as you get older, too. Sometimes reaching your target blood sugar range is a challenge. But the closer you get, the better you&apos;ll feel. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Home blood sugar monitoring&lt;/strong&gt; &lt;br /&gt;
+Routine blood sugar monitoring with a blood glucose meter is the best way to be sure that your treatment plan is keeping your blood sugar within your goal range. Check your blood sugar as often as your doctor recommends. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have any signs or symptoms of severe hyperglycemia &amp;mdash; even if they&apos;re subtle &amp;mdash; check your blood sugar level. If your blood sugar level is 240 mg/dL (13 mmol/L) or above, use an over-the-counter urine ketones test kit. If the urine test is positive, your body may have started making the changes that can lead to diabetic ketoacidosis. You&apos;ll need your doctor&apos;s help to lower your blood sugar level safely. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Glycated hemoglobin (A1C) test&lt;/strong&gt; &lt;br /&gt;
+During an appointment, your doctor may conduct an A1C test. This blood test indicates your average blood sugar level for the past two to three months. It works by measuring the percentage of blood sugar attached to hemoglobin, the oxygen-carrying protein in red blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+An A1C level of 7 percent or less means that your treatment plan is working and that your blood sugar was consistently within the normal range. If your A1C level is higher than 7 percent, your blood sugar, on average, was above the normal range. In this case, your doctor may recommend a change in your diabetes treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that the normal range for A1C results may vary somewhat among labs. If you consult a new doctor or use a different lab, it&apos;s important to consider this possible variation when interpreting your A1C test results. 
+&lt;/p&gt;
+&lt;p&gt;
+How often you need the A1C test depends on the type of diabetes you have and how well you&apos;re managing your blood sugar. Most people with diabetes, however, receive this test between two and four times a year. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Home treatment&lt;/strong&gt; &lt;br /&gt;
+Talk to your doctor about managing your blood sugar and understand how different treatments can help keep your glucose levels within your goal range. Your doctor may suggest the following treatments: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get physical.&lt;/strong&gt; Regular exercise is often an effective way to control your blood sugar. However, don&apos;t exercise if ketones are present in your urine. This can drive your blood sugar even higher. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medication as directed.&lt;/strong&gt; If you have frequent episodes of hyperglycemia, your doctor may adjust the dosage or timing of your medication. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your diabetes eating plan.&lt;/strong&gt; It helps to eat less and avoid sugary beverages. If you&apos;re having trouble sticking to your meal plan, ask your doctor or dietitian for help. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your blood sugar.&lt;/strong&gt; Monitor your blood glucose as directed by your doctor. Check more frequently if you&apos;re ill or you&apos;re concerned about severe hyperglycemia or low blood sugar (hypoglycemia). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your insulin doses to control hyperglycemia.&lt;/strong&gt; Adjustments to your insulin program or a supplement of short-acting insulin can help control hyperglycemia. A supplement is an extra dose of insulin used to help temporarily correct a high blood sugar level. Ask your doctor how often you need an insulin supplement if you have high blood sugar. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency treatment for severe hyperglycemia&lt;/strong&gt; &lt;br /&gt;
+If you have signs and symptoms of diabetic ketoacidosis and diabetic hyperosmolar syndrome, you may be treated in the emergency room or admitted to the hospital. Emergency treatment can lower your blood sugar to a normal range. Treatment usually includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid replacement.&lt;/strong&gt; You&apos;ll receive fluids &amp;mdash; either orally or through a vein (intravenously) &amp;mdash; until you&apos;re rehydrated. The fluids replace those you&apos;ve lost through excessive urination, as well as help dilute the excess sugar in your blood. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrolyte replacement.&lt;/strong&gt; Electrolytes are minerals in your blood that carry an electric charge. The absence of insulin can lower the level of several electrolytes in your blood. You&apos;ll receive electrolytes through your veins to help keep your heart, muscles and nerve cells functioning normally. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin therapy.&lt;/strong&gt; Insulin reverses the processes that cause ketones to build up in your blood. Along with fluids and electrolytes, you&apos;ll receive insulin therapy &amp;mdash; usually through a vein. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As your body chemistry returns to normal, your doctor considers what may have triggered the severe hyperglycemia. Depending on the circumstances, you may need additional treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor suspects a bacterial infection, he or she may prescribe antibiotics. If a heart attack seems possible, your doctor may recommend further evaluation of your heart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following suggestions can help keep your blood sugar within your target range: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your diabetes meal plan.&lt;/strong&gt; If you take insulin or oral diabetes medication, it&apos;s important that you be consistent about the amount and timing of your meals and snacks. The food you eat must be in balance with the insulin working in your body. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor your blood sugar.&lt;/strong&gt; Depending on your treatment plan, you may check and record your blood sugar level several times a week or several times a day. Careful monitoring is the only way to make sure that your blood sugar level remains within your target range. Note when your glucose readings are above or below your goal range. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medication as prescribed by your health care provider.&lt;/strong&gt; &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your medication if you change your physical activity.&lt;/strong&gt; The adjustment depends on the blood sugar test results and on the type and length of the activity. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hyperglycemia in diabetes
+	</Title>
+	<Abstract>
+		Hyperglycemia in diabetes &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of high blood sugar.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00198" LinkType="Internal" ObjectID="69EA49D2-EA38-4A8A-95DB164A2555B514" Title="Hypoglycemia" Url="http://www.mayoclinic.com/health/hypoglycemia/DS00198" />
+	</RelatedLinksBox>
+</Disease>

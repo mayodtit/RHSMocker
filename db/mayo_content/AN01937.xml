@@ -1,0 +1,135 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01937
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/occipital-nerve-stimulation/AN01937
+		</OriginalURL>
+		<UpdateDate>
+			2010-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-11-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="1758" Title="Migraine" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			95A8CC19-E7FF-0DBD-1D06B6FCCF135881
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				occipital nerve stimulation
+			</MetaKeyword>
+			<MetaKeyword>
+				ONS
+			</MetaKeyword>
+			<MetaKeyword>
+				migraine
+			</MetaKeyword>
+			<MetaKeyword>
+				migraine treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Occipital nerve stimulation is a procedure used to treat chronic headache disorders, including chronic migraines. Although occipital nerve stimulation was first used for migraines in 1977, it is still a treatment in development.
+&lt;/p&gt;
+&lt;p&gt;
+Surgical procedures for occipital nerve stimulation vary, but in general, a small device is implanted at the base of the skull &amp;mdash; near the occipital nerve. The device is then connected to a power source that sends electrical impulses to the occipital nerve. The power source is also implanted, often under the collarbone (clavicle), but the abdominal and gluteal areas also are options. After occipital nerve stimulation, the need for surgical revision of wire placement is common. Infection also is a risk.
+&lt;/p&gt;
+&lt;p&gt;
+Research indicates that occipital nerve stimulation may improve headaches for some people who try the therapy. However, studies on occipital nerve stimulation so far have included only a small number of participants &amp;mdash; and long-term results aren&apos;t yet available.
+&lt;/p&gt;
+&lt;p&gt;
+The bottom line? Although there&apos;s evidence that occipital nerve stimulation can be effective in the treatment of chronic headache disorders, more studies are needed before the approach can be considered a routine headache treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Occipital nerve stimulation: Effective migraine treatment?
+	</Title>
+	<Abstract>
+		Occipital nerve stimulation is a relatively new procedure to treat chronic headache disorders.
+	</Abstract>
+	<Question>
+		I have chronic migraines and have had varying degrees of success with different treatments. Could occipital nerve stimulation help?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00659" LinkType="Internal" ObjectID="6E62769F-2A5D-9994-EF4683A9A5987355" Title="Video: Migraine aura" Url="http://www.mayoclinic.com/health/migraine-aura/MM00659" />
+		<LinkItem ContentType="Answer" DocID="AN00992" LinkType="Internal" ObjectID="D59A1474-8624-4FC8-AEAE2B7E08B0C426" Title="Nighttime headaches: How can I get relief?" Url="http://www.mayoclinic.com/health/nighttime-headaches/AN00992" />
+		<LinkItem ContentType="Disease" DocID="DS00908" LinkType="Internal" ObjectID="4EE036B3-E7FF-0DBD-167342B2B733641F" Title="Migraine with aura" Url="http://www.mayoclinic.com/health/migraine-with-aura/DS00908" />
+		<LinkItem ContentType="Article" DocID="HE00001" LinkType="Internal" ObjectID="B7F3D80F-2A5D-9994-E41B4454CDCB7538" Title="Headaches: Treatment depends on your diagnosis and symptoms" Url="http://www.mayoclinic.com/health/headaches/HE00001" />
+		<LinkItem ContentType="Article" DocID="HE00014" LinkType="Internal" ObjectID="AC45C6D0-E7FF-0DBD-127EEAB2533C6CD4" Title="Common headache types" Url="http://www.mayoclinic.com/health/headache-types/HE00014" />
+		<LinkItem ContentType="Article" DocID="HE00003" LinkType="Internal" ObjectID="99F213B1-2A5D-9994-E6CE49D8A51AD634" Title="Headaches and hormones: What&apos;s the connection?" Url="http://www.mayoclinic.com/health/headaches/HE00003" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="Answer" DocID="AN00992" LinkType="Internal" ObjectID="D59A1474-8624-4FC8-AEAE2B7E08B0C426" Title="Nighttime headaches: How can I get relief?" Url="http://www.mayoclinic.com/health/nighttime-headaches/AN00992" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="Answer" DocID="AN01947" LinkType="Internal" ObjectID="AFE77F60-E7FF-0DBD-1B92131281CA50F6" Title="Aerobic exercise: What&apos;s the best frequency for workouts?" Url="http://www.mayoclinic.com/health/aerobic-exercise/AN01947" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00982" LinkType="Internal" ObjectID="24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E" Title="Lumbar puncture (spinal tap)" Url="http://www.mayoclinic.com/health/lumbar-puncture/MY00982" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01072" LinkType="Internal" ObjectID="0D8FA23B-C9EF-B19A-C1CA6A76C991C9CF" Title="Biofeedback: Using your mind to improve your health" Url="http://www.mayoclinic.com/health/biofeedback/MY01072" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="Disease" DocID="DS00646" LinkType="Internal" ObjectID="7A01EDDE-2A5D-9994-E9E00B18E0180C82" Title="Chronic daily headaches" Url="http://www.mayoclinic.com/health/chronic-daily-headaches/DS00646" />
+		<LinkItem ContentType="Article" DocID="HQ01387" LinkType="Internal" ObjectID="F9820A4B-7320-4E1A-98412E8380ADB508" Title="Sleep tips: 7 steps to better sleep" Url="http://www.mayoclinic.com/health/sleep/HQ01387" />
+		<LinkItem ContentType="Article" DocID="SA00082" LinkType="Internal" ObjectID="686E87EE-DBEB-4259-A5906A4CF2A10A02" Title="Massage: Get in touch with its many benefits" Url="http://www.mayoclinic.com/health/massage/SA00082" />
+		<LinkItem ContentType="Article" DocID="SR00007" LinkType="Internal" ObjectID="4ED8CB40-B3A7-4EE6-8765A697687679B9" Title="Relaxation techniques: Try these steps to reduce stress" Url="http://www.mayoclinic.com/health/relaxation-technique/SR00007" />
+		<LinkItem ContentType="Answer" DocID="AN01822" LinkType="Internal" ObjectID="BDE76F60-E7FF-0DBD-18CA2F291302C15C" Title="Migraine treatment: Can antidepressants help?" Url="http://www.mayoclinic.com/health/migraine-treatment/AN01822" />
+		<LinkItem ContentType="Answer" DocID="AN01874" LinkType="Internal" ObjectID="B96AF140-E7FF-0DBD-1A262BD3003C15ED" Title="Migraines and gastrointestinal problems: Is there a link?" Url="http://www.mayoclinic.com/health/migraines/AN01874" />
+		<LinkItem ContentType="Answer" DocID="AN00751" LinkType="Internal" ObjectID="931A1100-3695-4868-82D8285299158EAD" Title="Migraines: Are they triggered by weather changes?" Url="http://www.mayoclinic.com/health/headaches/AN00751" />
+		<LinkItem ContentType="Answer" DocID="AN01896" LinkType="Internal" ObjectID="55106506-E7FF-0DBD-13D9F49D918384FF" Title="Migraine medications and antidepressants: A risky mix?" Url="http://www.mayoclinic.com/health/migraine-medications/AN01896" />
+		<LinkItem ContentType="SelfAssessment" DocID="MI00007" LinkType="Internal" ObjectID="46747045-2A5D-9994-EE2E3E681846BC99" Title="Migraine self-assessment" Url="http://www.mayoclinic.com/health/migraine-headache/MI00007" />
+		<LinkItem ContentType="Answer" DocID="AN01681" LinkType="Internal" ObjectID="3B61C8DA-E7FF-0DBD-1E9E074D5E811F0B" Title="Ocular migraine: When to seek help" Url="http://www.mayoclinic.com/health/ocular-migraine/AN01681" />
+		<LinkItem ContentType="Disease" DocID="DS00641" LinkType="Internal" ObjectID="79342497-2A5D-9994-EEB8A6B80C43788D" Title="Exercise headaches" Url="http://www.mayoclinic.com/health/exercise-headaches/DS00641" />
+		<LinkItem ContentType="Disease" DocID="DS00613" LinkType="Internal" ObjectID="0B0F15EB-2A5D-9994-E5379CF35EBE02F8" Title="Rebound headaches" Url="http://www.mayoclinic.com/health/rebound-headaches/DS00613" />
+		<LinkItem ContentType="Disease" DocID="DS00860" LinkType="Internal" ObjectID="09BF50FB-E7FF-0DBD-135D2D182C52119F" Title="Serotonin syndrome" Url="http://www.mayoclinic.com/health/serotonin-syndrome/DS00860" />
+		<LinkItem ContentType="Article" DocID="HE00004" LinkType="Internal" ObjectID="B335FCD0-2A5D-9994-E00DCCBED25EE713" Title="Migraines: Simple steps to head off the pain" Url="http://www.mayoclinic.com/health/migraines/HE00004" />
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+	</RelatedLinksBox>
+</Answer>

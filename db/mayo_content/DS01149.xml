@@ -1,0 +1,301 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01149
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/depersonalization/DS01149
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="2840" Title="Dissociative disorders">
+						<Keyword MCVID="2842" Title="Depersonalization disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D0C9A64B-E40F-5921-75371FDD12229B9E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				depersonalization
+			</MetaKeyword>
+			<MetaKeyword>
+				depersonalization disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				depersonalisation disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				feeling detached
+			</MetaKeyword>
+			<MetaKeyword>
+				detachment
+			</MetaKeyword>
+			<MetaKeyword>
+				out of body
+			</MetaKeyword>
+			<MetaKeyword>
+				out of body experience
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depersonalization disorder occurs when you persistently or repeatedly have a sense that things around you aren&apos;t real, or when you have the feeling that you&apos;re observing yourself from outside your body. Feelings of depersonalization can be very disturbing and may feel like you&apos;re losing your grip on reality or living in a dream. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people have a passing experience of depersonalization at some point. But when feelings of depersonalization keep occurring, or never completely go away, it&apos;s considered depersonalization disorder. Depersonalization disorder is more common in people who&apos;ve had traumatic experiences.
+&lt;/p&gt;
+&lt;p&gt;
+Depersonalization disorder can be severe and may interfere with relationships, work and other daily activities. Treatments for depersonalization disorder include medications and psychotherapy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Depersonalization disorder symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Continuous or recurring feelings that you&apos;re an outside observer of your thoughts, your body or parts of your body&lt;/li&gt;
+	&lt;li&gt;Numbing of your senses or responses to the world around you&lt;/li&gt;
+	&lt;li&gt;Feeling like a robot or feeling like you&apos;re living in a dream or in a movie&lt;/li&gt;
+	&lt;li&gt;The sensation that you aren&apos;t in control of your actions, including speaking&lt;/li&gt;
+	&lt;li&gt;Awareness that your sense of detachment is only a feeling, and not reality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other symptoms can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The sense that your body, legs or arms appear distorted, enlarged or shrunken&lt;/li&gt;
+	&lt;li&gt;Feeling like you are observing yourself from above, as if you were floating in the air&lt;/li&gt;
+	&lt;li&gt;Feeling emotionally disconnected from people you care about&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While episodes of depersonalization may last only a short time, some people with depersonalization disorder have episodes that last hours, days, weeks or even months at a time. In some people these episodes turn into ongoing feelings of depersonalization that may periodically get better or worse.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a docto&lt;/strong&gt;r&lt;br /&gt;
+Passing feelings of depersonalization are common, and aren&apos;t necessarily a cause for concern. But ongoing or severe feelings of detachment can be a sign of depersonalization disorder or another physical or mental health condition. See a doctor if you have feelings of depersonalization that:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are disturbing you or are emotionally disruptive&lt;/li&gt;
+	&lt;li&gt;Don&apos;t go away, or keep coming back&lt;/li&gt;
+	&lt;li&gt;Interfere with work, relationships or daily activities&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Feeling of depersonalization may:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Begin with no apparent trigger&lt;/li&gt;
+	&lt;li&gt;Start after a life-threatening event, such as an accident or assault&lt;/li&gt;
+	&lt;li&gt;Be triggered by fear of having another depersonalization experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With depersonalization disorder, feelings of depersonalization aren&apos;t directly caused by drugs, alcohol or a medical condition. However, depersonalization may be triggered by stress or trauma, and it often occurs along with other mental health conditions such as anxiety, depression or schizophrenia. In some cases, it starts suddenly without an apparent cause.
+&lt;/p&gt;
+&lt;p&gt;
+While the exact cause of depersonalization disorder isn&apos;t well understood, it appears to be linked to an imbalance of certain brain chemicals (neurotransmitters).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While anyone can develop depersonalization disorder, you&apos;re at increased risk if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve been involved in or witnessed a traumatic or life-threatening experience, such as an automobile accident.&lt;/li&gt;
+	&lt;li&gt;You&apos;re in your mid- to late teens or early adulthood. Depersonalization disorder is rare in children and older adults.&lt;/li&gt;
+	&lt;li&gt;You have panic disorder, depression, schizophrenia, post-traumatic stress disorder (PTSD) or multiple personality disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Episodes of depersonalization can be frightening. They can cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty focusing on tasks or remembering things&lt;/li&gt;
+	&lt;li&gt;Interference with work and other routine activities&lt;/li&gt;
+	&lt;li&gt;Problems in relationships with your family and friends&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. 
+&lt;/p&gt;
+&lt;p&gt;
+If a clear diagnosis can&apos;t be made by your family doctor, you may be referred to a doctor who specializes in brain and nervous system disorders (neurologist) or a doctor who specializes in diagnosing and treating mental disorders (psychiatrist). 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor or doctors will want to make sure your symptoms aren&apos;t caused by an underlying neurological condition such as epilepsy or another disorder. Because depersonalization disorder sometimes occurs along with depression or other psychological disorders, your doctor may also want to investigate whether you may have one of these conditions as well.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions ahead of time will help you make the most of your time together. Some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Do I need to see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have any mental health disorders, such as anxiety, depression or post-traumatic stress disorder (PTSD)?&lt;/li&gt;
+	&lt;li&gt;What medications or herbal supplements do you take?&lt;/li&gt;
+	&lt;li&gt;Do you use drugs or drink alcohol?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To be diagnosed with depersonalization disorder, you must meet the symptom criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions. To be diagnosed with depersonalization disorder, you must have the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have persistent or recurrent experiences of feeling detached from your thinking, emotions or your body. You may feel like an outside observer watching yourself, or as if you were in a dream.&lt;/li&gt;
+	&lt;li&gt;During the depersonalization experience, you are aware that the experience is not &quot;real.&quot;&lt;/li&gt;
+	&lt;li&gt;Depersonalization causes significant distress or interferes with your social life, job, or other important areas of your life.&lt;/li&gt;
+	&lt;li&gt;The depersonalization experience isn&apos;t directly caused by another mental disorder, such as schizophrenia, panic disorder, acute stress disorder, or another dissociative disorder, and is not due to the direct physiological effects of alcohol, drugs or a medical condition (such as epilepsy, for example).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will want to make sure your feelings of depersonalization aren&apos;t due to some other disorder, such as depression, schizophrenia or epilepsy. You may need further evaluation or tests to rule out these and other causes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of depersonalization disorder may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological counseling.&lt;/strong&gt; This helps you understand why depersonalization occurs and trains you to stop worrying about the symptoms so that they go away. Depersonalization disorder may also improve when counseling helps with other psychological conditions, such as depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; While there are no medications specifically approved to treat depersonalization disorder, a number of medications generally used to treat depression and anxiety may help. Some examples that have been shown to relieve symptoms include fluoxetine (Prozac), clomipramine (Anafranil) and clonazepam (Klonopin).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While depersonalization can be frightening, it isn&apos;t necessarily harmful. Realizing that you don&apos;t have some major neurological problem or serious mental illness can be very reassuring, and may help you cope with depersonalization. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Read about the condition.&lt;/strong&gt; A number of books are available that discuss why depersonalization occurs and how to cope with it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Websites and local support groups can help you recognize you aren&apos;t alone and learn what helps others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice specific therapy techniques.&lt;/strong&gt; Counseling for depersonalization may involve practicing certain techniques to help resolve feelings of depersonalization on a daily basis. Two such techniques include cognitive behavioral therapy and dialectical behavioral therapy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Depersonalization disorder
+	</Title>
+	<Abstract>
+		Depersonalization disorder &amp;mdash; Comprehensive overview covers symptoms, treatment of this chronic, unsettling feeling of detachment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00196" LinkType="Internal" ObjectID="5D4E015A-B256-4F25-B5AFBC00F1B4E886" Title="Schizophrenia" Url="http://www.mayoclinic.com/health/schizophrenia/DS00196" />
+		<LinkItem ContentType="Disease" DocID="DS00338" LinkType="Internal" ObjectID="18624942-2759-4F0E-9A5532BE9C89B904" Title="Panic attacks and panic disorder" Url="http://www.mayoclinic.com/health/panic-attacks/DS00338" />
+		<LinkItem ContentType="Disease" DocID="DS00246" LinkType="Internal" ObjectID="181CCBB4-A467-4D76-A3488529DC3DBEE9" Title="Post-traumatic stress disorder (PTSD)" Url="http://www.mayoclinic.com/health/post-traumatic-stress-disorder/DS00246" />
+	</RelatedLinksBox>
+</Disease>

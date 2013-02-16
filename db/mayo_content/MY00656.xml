@@ -1,0 +1,293 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00656
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/carotid-angioplasty/MY00656
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-23
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3880" Title="Nervous system">
+						<Keyword MCVID="4200" Title="Carotid stent" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8C49C8F4-9D66-1A1D-2C493D48574FF96B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				carotid angioplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				ischemic stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				stents
+			</MetaKeyword>
+			<MetaKeyword>
+				stenting
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid stenting
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery disease
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery disease treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery disease prevention
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke prevention
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carotid angioplasty (kuh-ROT-id AN-je-oh-plas-te) is a procedure that opens clogged arteries to prevent or treat stroke. The carotid arteries are located on each side of your neck and are the main arteries supplying blood to your brain. The procedure involves temporarily inserting and inflating a tiny balloon where your carotid artery is clogged to widen the artery. 
+&lt;/p&gt;
+&lt;p&gt;
+Carotid angioplasty is often combined with the placement of a small metal coil called a stent in the clogged artery. The stent helps prop the artery open and decreases the chance of it narrowing again. Carotid angioplasty and stenting may be used when traditional carotid surgery isn&apos;t feasible or is too risky.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carotid angioplasty 
+" Caption="In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during the procedure. Then, a tiny balloon at the end of the catheter is inflated to open the narrowed area. 
+" Height="60" Title="Carotid angioplasty" URI="/images/image_popup/thumbs/mcdc7_carotid_angioplastythu.jpg" Width="60" />
+				<Image Alt="Image showing carotid angioplasty 
+" Caption="In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during the procedure. Then, a tiny balloon at the end of the catheter is inflated to open the narrowed area. 
+" Height="403" Title="Carotid angioplasty" URI="/images/image_popup/mcdc7_carotid_angioplasty.jpg" Width="400" />
+				<HTML>
+					In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carotid angioplasty and stenting may be an appropriate stroke treatment or stroke prevention option if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have a history of heart problems, such as congestive heart failure, unstable angina or a failed stress test&lt;/li&gt;
+	&lt;li&gt;You have a carotid artery with a 70 percent blockage or more, especially if you&apos;ve had a stroke or stroke symptoms, and you aren&apos;t in good enough health to undergo surgery &amp;mdash; for example, if you have severe heart or lung disease or had radiation for neck tumors&lt;/li&gt;
+	&lt;li&gt;You&apos;ve already had a carotid endarterectomy and are experiencing new narrowing after surgery (restenosis)&lt;/li&gt;
+	&lt;li&gt;The location of the narrowing (stenosis) is difficult to access with endarterectomy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, traditional carotid surgery (carotid endarterectomy) may be advised to remove the buildup of plaques (fatty material) that is narrowing the artery. In other cases, angioplasty and stenting may be a better option.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with any surgical procedure, complications may occur. The following are some of the complications that may be associated with carotid angioplasty and stenting: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke or ministroke (transient ischemic attack, or TIA).&lt;/strong&gt; During angioplasty, blood clots that may form on the catheters can break loose and travel to your brain. Blood thinners are given during the procedure to reduce this risk. A stroke can also occur if plaques in your artery are dislodged when the catheters are being threaded through the blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;New narrowing of the carotid artery (restenosis).&lt;/strong&gt; A major drawback of carotid angioplasty is the chance that your artery will re-narrow within months of the procedure. Stents were developed to reduce the risk of restenosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Blood clots can form within stents even weeks or months after angioplasty. These clots may cause a stroke or death. It&apos;s important to take aspirin, clopidogrel (Plavix) and other medications exactly as prescribed to decrease the chance of clots forming in your stent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; You may have bleeding at the site in your leg where catheters were inserted. Usually this simply results in a bruise, but sometimes serious bleeding occurs and may require a blood transfusion or surgical procedures.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before a scheduled angioplasty, your doctor reviews your medical history and performs a physical exam. You may also have one or more of the following examinations before an angioplasty and stenting procedure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; A scanner is passed over the carotid artery to produce images (using sound waves) of the narrowed artery and of the blood flow to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiography (MRA) or computerized tomography angiography (CTA).&lt;/strong&gt; These exams provide highly detailed images of blood vessels by using either radiofrequency waves in a magnetic field or by using X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid angiography.&lt;/strong&gt; During this exam, contrast material (visible on X-rays) is injected into an artery so that vessels can be seen and examined.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll receive instructions on what you can or can&apos;t eat or drink before angioplasty. Your preparation may be different if you&apos;re already staying at the hospital before your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+The night before your procedure: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow your doctor&apos;s instructions about adjusting your current medications.&lt;/strong&gt; Your doctor may instruct you to stop taking certain medications before angioplasty, particularly if you take certain diabetes medications or blood thinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take approved medications with only small sips of water.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for transportation home.&lt;/strong&gt; Angioplasty usually requires an overnight hospital stay, and you won&apos;t be able to drive yourself home the next day because of lingering effects of the sedative.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Carotid angioplasty is considered a nonsurgical procedure because it&apos;s less invasive than is surgery. Your body isn&apos;t cut open except for a very small cut in a blood vessel in your groin. 
+&lt;/p&gt;
+&lt;p&gt;
+General anesthesia isn&apos;t needed, so you&apos;re awake during the procedure. You&apos;ll receive fluids and medications to relax you through an intravenous (IV) catheter.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Before the procedure&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re taken to an X-ray imaging room and asked to lie on a procedure bed. You&apos;ll rest your head in a cup-shaped area to help you remain comfortable and still while pictures of the carotid artery are taken.&lt;/li&gt;
+	&lt;li&gt;Your groin is shaved and prepared with antiseptic solution, and a sterile drape is placed over your body.&lt;/li&gt;
+	&lt;li&gt;A local anesthetic is injected into your groin to numb the area.&lt;/li&gt;
+	&lt;li&gt;Small electrode pads are placed on your chest to monitor your heart rate and rhythm during the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;Once you&apos;re sedated, your doctor makes a puncture in an artery, usually the femoral artery in the groin area. The following steps describe the angioplasty and stenting procedure. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A small tube (sheath) is placed into the artery.&lt;/strong&gt; A catheter is then threaded through the tube to the narrowing in the carotid artery under X-ray guidance. You won&apos;t feel the catheter passing through the arteries because the insides of arteries don&apos;t have nerve endings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contrast material is injected into the carotid artery through the catheter.&lt;/strong&gt; The contrast material may cause a temporary warm feeling on one side of your face. Contrast material provides a detailed view of the narrowed artery and blood flow to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An umbrella-shaped filter is placed.&lt;/strong&gt; The filter (embolic protection device) is inserted beyond the narrowing to catch any debris that may break off from the narrowed area of artery during the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The balloon is inserted into the narrowed area&lt;/strong&gt; and inflated to push the plaques to the side and widen the vessel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A small metal mesh tube (stent)&lt;/strong&gt;&lt;strong&gt; may be placed in the newly opened vessel.&lt;/strong&gt; The expanded stent serves as a scaffold that helps prevent the artery from narrowing again.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The filter, sheath and catheter are removed.&lt;/strong&gt; Pressure is applied to the small catheter insertion site to prevent bleeding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+When the procedure is done, you lie still in one position while pressure is applied to the site to stop bleeding. You will then be taken to the recovery area.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;To avoid bleeding from the catheter insertion site, you need to lie relatively still for several hours, either in the recovery area or in your hospital room. After the procedure, you may receive an ultrasound of your carotid artery. Most people are discharged from the hospital within 48 hours after the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+The catheter site may remain tender, swollen and bruised for a few days. There may be a small area of discoloration or a small lump in the area of the puncture. You may take acetaminophen (Tylenol, others) in the recommended dose as needed for discomfort, or other medication as prescribed by your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need to avoid strenuous activity and lifting anything over 10 pounds (4.5 kilograms) for 24 hours after the procedure.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carotid angioplasty 
+" Caption="In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during the procedure. Then, a tiny balloon at the end of the catheter is inflated to open the narrowed area. 
+" Height="60" Title="Carotid angioplasty" URI="/images/image_popup/thumbs/mcdc7_carotid_angioplastythu.jpg" Width="60" />
+				<Image Alt="Image showing carotid angioplasty 
+" Caption="In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during the procedure. Then, a tiny balloon at the end of the catheter is inflated to open the narrowed area. 
+" Height="403" Title="Carotid angioplasty" URI="/images/image_popup/mcdc7_carotid_angioplasty.jpg" Width="400" />
+				<HTML>
+					In carotid angioplasty, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A filter is inserted to catch any debris that may break off during ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing carotid stenting 
+" Caption="In carotid stenting, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A metal mesh tube (stent) is inserted into the vessel to serve as a scaffold that helps prevent the artery from narrowing again. The catheter and the filter &amp;mdash; which catches any debris that may break off during the procedure &amp;mdash; are removed. 
+" Height="60" Title="Carotid stenting" URI="/images/image_popup/thumbs/mcdc7_carotid_stentingthu.jpg" Width="60" />
+				<Image Alt="Image showing carotid stenting 
+" Caption="In carotid stenting, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A metal mesh tube (stent) is inserted into the vessel to serve as a scaffold that helps prevent the artery from narrowing again. The catheter and the filter &amp;mdash; which catches any debris that may break off during the procedure &amp;mdash; are removed. 
+" Height="516" Title="Carotid stenting" URI="/images/image_popup/mcdc7_carotid_stenting.jpg" Width="400" />
+				<HTML>
+					In carotid stenting, a long, hollow tube (catheter) is threaded through the arteries to the narrowed carotid artery in the neck. A metal mesh tube (stent) is inserted into the vessel to serve as a ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, carotid angioplasty and stenting increase blood flow through the previously blocked artery and reduce the risk or symptoms of stroke. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency medical care&lt;/strong&gt; if your symptoms return, such as trouble walking or speaking, numbness on one side of your body, or other symptoms similar to those you had before your procedure, contact your doctor immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+Carotid angioplasty and stenting aren&apos;t appropriate treatment for everyone. Your doctor can determine if the benefits outweigh the potential risks. Because carotid angioplasty is newer than traditional carotid surgery, long-term results are still under investigation. Talk to your doctor about what results you might expect and what type of follow-up is needed after your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle changes will help&lt;/strong&gt; you maintain your good results: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t smoke.&lt;/li&gt;
+	&lt;li&gt;Lower your cholesterol levels.&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight.&lt;/li&gt;
+	&lt;li&gt;Control other conditions, such as diabetes, high blood pressure and sleep apnea.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Carotid angioplasty and stenting
+	</Title>
+	<Abstract>
+		Carotid angioplasty and stenting &amp;mdash; Overview covers definition, risks and results of this stroke treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00670" LinkType="Internal" ObjectID="CF30BC83-0F23-9E37-90BFCD3ED56D35F5" Title="CT angiogram" Url="http://www.mayoclinic.com/health/ct-angiogram/MY00670" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00077" LinkType="Internal" ObjectID="A6C8C8FE-E7FF-0DBD-186D2682D7969C48" Title="Carotid ultrasound" Url="http://www.mayoclinic.com/health/carotid-ultrasound/MY00077" />
+		<LinkItem ContentType="Video" DocID="MM00772" LinkType="Internal" ObjectID="861FBD26-FE10-2D51-FB4BC9E72067F5DB" Title="Video: Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty-and-stenting/MM00772" />
+		<LinkItem ContentType="Disease" DocID="DS01030" LinkType="Internal" ObjectID="A78D30C2-E7FF-0DBD-14D50D2855293A85" Title="Carotid artery disease" Url="http://www.mayoclinic.com/health/carotid-artery-disease/DS01030" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Disease" DocID="DS00220" LinkType="Internal" ObjectID="0692C89B-9D70-42E7-BEB1527FF707B981" Title="Transient ischemic attack (TIA)" Url="http://www.mayoclinic.com/health/transient-ischemic-attack/DS00220" />
+	</RelatedLinksBox>
+</TestProcedure>

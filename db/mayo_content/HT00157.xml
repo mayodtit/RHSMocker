@@ -1,0 +1,73 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00157
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00157
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-08
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1231" Title="Stress management">
+					<Keyword MCVID="4016" Title="Stress relief" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			88A9C2BC-E7FF-0DBD-174DF69A328879E3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stress
+			</MetaKeyword>
+			<MetaKeyword>
+				stress management
+			</MetaKeyword>
+			<MetaKeyword>
+				stress relief
+			</MetaKeyword>
+			<MetaKeyword>
+				stress reduction
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		What stresses you out?
+	</Title>
+	<Body>
+		&lt;p&gt;Effective stress management starts with identifying your sources of stress. One way to do this is to make a list of the situations, concerns or challenges that trigger your stress response. Take a moment to write down the top 10 issues you&apos;re facing right now. Now that you know what stresses you out, you can start developing ways to put stress in its place.&lt;/p&gt;
+	</Body>
+</HealthTip>

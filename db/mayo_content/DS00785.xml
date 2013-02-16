@@ -1,0 +1,440 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00785
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/alcoholic-hepatitis/DS00785
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1858" Title="Hepatitis">
+							<Keyword MCVID="2423" Title="Alcoholic liver disease" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FA6472B2-E7FF-0DBD-1DA99DD872473B71
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				alcoholic hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				alcoholic hepatitis symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				alcoholic liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcoholic hepatitis describes liver inflammation caused by drinking alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+Though alcoholic hepatitis is most likely to occur in people who drink heavily over many years, the relationship between drinking and alcoholic hepatitis is complex. Not all heavy drinkers develop alcoholic hepatitis, and the disease can occur in people who drink only moderately. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with alcoholic hepatitis, you must stop drinking alcohol. People who continue to drink alcohol face a high risk of serious liver damage and death. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Yellowing of the skin and whites of the eyes (jaundice) and increasing girth (due to fluid accumulation) are the most common signs of alcoholic hepatitis that lead people to seek medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+People may also complain of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Abdominal pain and tenderness&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Just about everyone who has alcoholic hepatitis is malnourished. Drinking large amounts of alcohol suppresses the appetite, and heavy drinkers get most of their calories in the form of alcohol. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of severe alcoholic hepatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Retaining large amounts of fluid in your abdominal cavity (ascites)&lt;/li&gt;
+	&lt;li&gt;Confusion and behavior changes due to brain damage from buildup of toxins (encephalopathy)&lt;/li&gt;
+	&lt;li&gt;Kidney and liver failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Alcoholic hepatitis is a serious disease. As many as 35 percent of heavy drinkers develop alcoholic hepatitis. And more than a third of them die within six months after signs and symptoms begin to appear. 
+&lt;/p&gt;
+&lt;p&gt;
+See your doctor if you have any signs or symptoms of alcoholic hepatitis or other signs and symptoms that worry you. If you ever feel as though you can&apos;t control your drinking or feel that you&apos;d like help in cutting back on your drinking, see your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alcoholic hepatitis occurs when the liver is damaged by the alcohol you drink. Just how alcohol damages the liver -&amp;mdash; and why it does so only in a minority of heavy drinkers &amp;mdash; isn&apos;t clear. What is known is that the process of breaking down ethanol &amp;mdash; the alcohol in beer, wine and liquor &amp;mdash; produces highly toxic chemicals, such as acetaldehyde. These chemicals trigger inflammation that destroys liver cells. Over time, web-like scars and small knots of tissue replace healthy liver tissue, interfering with the liver&apos;s ability to function. This irreversible scarring, called cirrhosis, is the final stage of alcoholic liver disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk increases with time, amount consumed&lt;br /&gt;
+&lt;/strong&gt;Heavy alcohol use can lead to liver disease, and the risk increases with the length of time and amount of alcohol you drink. But because many people who drink heavily or binge drink never develop alcoholic hepatitis or cirrhosis, it&apos;s likely that factors other than alcohol play a role. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Other types of hepatitis.&lt;/strong&gt; Long-term alcohol abuse worsens the liver damage caused by other types of hepatitis, especially hepatitis C. If you have hepatitis C and also drink &amp;mdash; even moderately &amp;mdash; you&apos;re more likely to develop cirrhosis than if you don&apos;t drink.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malnutrition.&lt;/strong&gt; Many people who drink heavily are malnourished, either because they eat poorly or because alcohol and its toxic byproducts prevent the body from properly absorbing and breaking down nutrients, especially protein, certain vitamins and fats. In both cases, the lack of nutrients contributes to liver cell damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic factors.&lt;/strong&gt; Having mutations in certain genes that affect alcohol metabolism may increase your risk of alcoholic liver disease as well as of alcohol-associated cancers and other complications of heavy drinking. The exact genetic associations have not yet been identified.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Major risk factors for alcoholic hepatitis comprise: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol use.&lt;/strong&gt; The amount of alcohol consumed is the most important risk factor for alcoholic liver disease. One study found that the risk of cirrhosis of the liver increased with daily ingestion of more than 2 to 2.8 ounces (60 to 80 grams) of alcohol over 10 years for men and 0.7 ounces (20 grams) for women. Yet still, only about 35 percent of heavy long-term drinkers develop alcoholic hepatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Women have a higher risk of developing alcoholic hepatitis than men do. This disparity may result from differences in the way alcohol is processed by women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic factors.&lt;/strong&gt; A number of genetic mutations have been identified that affect the way alcohol is broken down in the body. Having one or more of these mutations may increase the risk of alcoholic hepatitis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other factors which may increase your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Type of beverage (beer or spirits are riskier than wine)&lt;/li&gt;
+	&lt;li&gt;Binge drinking&lt;/li&gt;
+	&lt;li&gt;Obesity &amp;mdash; alcohol and obesity may have a synergistic effect on the liver; that is, their combined effect is worse than the effect of either of them alone&lt;/li&gt;
+	&lt;li&gt;African-American or Hispanic&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of alcoholic hepatitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increased blood pressure in the portal vein&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Blood from your intestine, spleen and pancreas enters your liver through a large blood vessel called the portal vein. If scar tissue slows normal circulation through the liver, this blood backs up, leading to increased pressure within the vein (portal hypertension).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged veins (varices).&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;When circulation through the portal vein is blocked, blood may back up into other blood vessels in the stomach and esophagus. These blood vessels are thin walled, and because they&apos;re filled with more blood than they&apos;re meant to carry, they&apos;re likely to bleed. Massive bleeding in the upper stomach or esophagus from these blood vessels is a life-threatening emergency that requires immediate medical care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid retention.&lt;/strong&gt; Alcoholic hepatitis can cause large amounts of fluid to accumulate in your abdominal cavity (ascites). The fluid may become infected and require treatment with antibiotics. Although not life-threatening in itself, ascites is usually a sign of advanced alcoholic hepatitis or cirrhosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaundice.&lt;/strong&gt; This occurs when your liver isn&apos;t able to remove bilirubin &amp;mdash; the residue of old red blood cells &amp;mdash; from your blood. Bilirubin builds up and is deposited in your skin and the whites of your eyes, causing a yellow color.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatic encephalopathy.&lt;/strong&gt; A liver damaged by alcoholic hepatitis has trouble removing toxins from your body &amp;mdash; normally one of the liver&apos;s key tasks. The buildup of toxins can damage your brain, leading to changes in your mental state, behavior and personality (hepatic encephalopathy). Signs and symptoms of hepatic encephalopathy include forgetfulness, confusion and mood changes, and in the most severe cases, coma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scarred liver (cirrhosis)&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Over time, the liver inflammation that occurs in alcoholic hepatitis can cause irreversible scarring of the liver (cirrhosis). Cirrhosis frequently leads to liver failure, which occurs when the damaged liver is no longer able to adequately function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney failure.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="60" Title="Esophageal varices" URI="/images/image_popup/thumbs/ans7_esphogeal_varicesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing esophageal varices 
+" Caption="Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the liver. 
+" Height="375" Title="Esophageal varices" URI="/images/image_popup/ans7_esphogeal_varices.jpg" Width="400" />
+				<HTML>
+					Esophageal varices are enlarged veins in the lower esophagus. They&apos;re often due to obstructed blood flow through the portal vein, which carries blood from the intestine, pancreas and spleen to the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner. If your doctor thinks you have a liver problem, such as alcoholic hepatitis, you&apos;ll likely be referred to a digestive disease specialist (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; Ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes. Let your doctor know how much alcohol you regularly consume. It&apos;s a good idea to track your alcohol consumption for a few days by writing it down, because people tend to underestimate the amount they&apos;ve consumed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt; to help you remember everything that was said.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt;&lt;br /&gt;
+For alcoholic hepatitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? How should I prepare for them?&lt;/li&gt;
+	&lt;li&gt;Is my condition temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which one do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What resources are available to help me stop drinking? Which ones will my insurance pay for?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Be ready to answer questions that your doctor is likely to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you drink alcohol, and how many drinks do you usually consume?&lt;/li&gt;
+	&lt;li&gt;Have you ever had hepatitis or yellowing of the skin before?&lt;/li&gt;
+	&lt;li&gt;Do you use any other recreational drugs?&lt;/li&gt;
+	&lt;li&gt;Are your family members or friends concerned about your drinking?&lt;/li&gt;
+	&lt;li&gt;Do you get angry or anxious when the subject of your drinking is discussed?&lt;/li&gt;
+	&lt;li&gt;Do you feel guilty about drinking?&lt;/li&gt;
+	&lt;li&gt;Do you drink in the morning &amp;mdash; do you need an eye-opener?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Stop drinking alcohol if you think it may be causing your health problems. If you believe you&apos;re dependent on alcohol, your doctor can recommend treatment options. However, if you need help to stop drinking while you&apos;re waiting to see your doctor, Alcoholics Anonymous or counseling may be helpful. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Identifying alcoholic liver disease depends on two main things: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evidence of excessive alcohol consumption&lt;/li&gt;
+	&lt;li&gt;Evidence of liver disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Alcohol consumption&lt;/strong&gt;&lt;br /&gt;
+Your doctor will want to know about your history of alcohol consumption. It is important to be honest in describing your drinking habits. Your doctor may ask to interview family members about your drinking. Many people will have signs of chronic alcoholism, such as skin lesions known as spider nevi. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver disease&lt;/strong&gt;&lt;br /&gt;
+Your doctor will likely order the following tests to look for liver disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Liver function tests (including international normalized ratio, total bilirubin, and albumin)&lt;/li&gt;
+	&lt;li&gt;Complete blood cell count&lt;/li&gt;
+	&lt;li&gt;An ultrasound, CT or MRI scan of the liver&lt;/li&gt;
+	&lt;li&gt;Blood tests to exclude other causes of liver disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Stop drinking alcohol&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve been diagnosed with alcoholic hepatitis, you must stop drinking alcohol. It&apos;s the only way of possibly reversing liver damage or, in more advanced cases, preventing the disease from becoming worse. Many people who stop drinking have dramatic improvement in symptoms in just a few months. 
+&lt;/p&gt;
+&lt;p&gt;
+If you continue to drink alcohol, you&apos;re likely to experience serious complications. 
+&lt;/p&gt;
+&lt;p&gt;
+If you are dependent on alcohol and want to stop drinking, your doctor can recommend a therapy that&apos;s tailored for your needs. This might include medications, counseling, Alcoholics Anonymous, an outpatient treatment program or a residential inpatient stay. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for malnutrition&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend a special diet to reverse nutritional deficiencies that often occur in people with alcoholic hepatitis. You may be referred to a dietitian who can help you assess your current diet and suggest changes to increase the vitamins and nutrients you are lacking. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have trouble eating enough to get the vitamins and nutrients your body needs, your doctor may recommend tube feeding. This may involve passing a tube down your throat and into your stomach. A special nutrient-rich liquid diet is then passed through the tube. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications to reduce liver inflammation&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend corticosteroids drugs if you have severe alcoholic hepatitis. These drugs have shown some short-term benefit in increasing survival. Steroids have significant side effects and are not recommended if you have failing kidneys, gastrointestinal bleeding or an infection. About 40 percent of people do not respond to corticosteroids. Your doctor may also recommend pentoxifylline, especially if corticosteroids don&apos;t work for you. Some studies of pentoxifylline have shown some benefit, others have not. You might also ask about clinical trials of other therapies. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver transplant&lt;/strong&gt;&lt;br /&gt;
+For many people with severe alcoholic hepatitis, liver transplant is the only hope to avoid death. Survival rates for liver transplant for alcoholic hepatitis are similar to those for other forms of hepatitis, greater than 70 percent five-year survival. 
+&lt;/p&gt;
+&lt;p&gt;
+However, most medical centers are reluctant to perform liver transplants on people with alcoholic liver disease because of the fear they will resume drinking after surgery. For most people with alcoholic hepatitis, the disease is considered a contraindication for liver transplantation in most transplant centers in the U.S. 
+&lt;/p&gt;
+&lt;p&gt;
+For transplant to be an option, you would need to find a program that will consider you. You would have to meet the requirements of the program, including abstaining from alcohol for six months prior to transplant and agreeing not to resume drinking afterward. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative medicine treatments have been found to cure alcoholic hepatitis. Some herbs and supplements are touted as treatments for liver diseases. Herbs and supplements can&apos;t replace your doctor&apos;s treatments or abstaining from alcohol. If you&apos;d like to try supplements, talk to your doctor about the risks and benefits first. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Milk thistle&lt;/strong&gt;&lt;br /&gt;
+The leaves and seeds of the milk thistle plant are thought to control inflammation in the liver. Milk thistle supplements are a popular alternative treatment among people with liver disease. But studies haven&apos;t found a benefit for people with alcoholic liver disease who take milk thistle supplements. 
+&lt;/p&gt;
+&lt;p&gt;
+Milk thistle is generally safe, but can cause diarrhea and nausea. Talk to your doctor about milk thistle if you&apos;re considering taking this supplement. Because milk thistle can interfere with prescription medications, ask your doctor whether it&apos;s safe for you 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;SAMe&lt;/strong&gt;&lt;br /&gt;
+SAMe is a supplement that&apos;s thought to reduce liver inflammation and help the liver repair itself. Your body naturally makes SAMe. Some evidence suggests people with liver disease have a deficiency of SAMe. In theory, taking a SAMe supplement might restore levels of the substance in the liver. But there is insufficient evidence to recommend use of SAMe for alcohol-related liver disease. 
+&lt;/p&gt;
+&lt;p&gt;
+SAMe is generally safe when taken as a supplement. Side effects may include gas, nausea, vomiting and diarrhea. Because SAMe can interfere with prescription medications, ask your doctor about whether SAMe is safe for you to take. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may reduce your risk of alcoholic hepatitis if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; If you choose to drink alcohol, do so in moderation. For healthy adults, that means up to one drink a day for women of all ages and men older than age 65, and up to two drinks a day for men age 65 and younger. The only certain way to prevent alcoholic hepatitis is to avoid all alcohol. If you&apos;ve ever been diagnosed with alcoholic hepatitis, don&apos;t drink alcohol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check the label before mixing medications with alcohol.&lt;/strong&gt; Check the label of over-the-counter medications for warnings about drinking alcohol. Ask your doctor if it&apos;s safe to drink alcohol when taking your prescription medications. Don&apos;t drink alcohol when taking medications that warn of complications when combined with alcohol. This is especially true for over-the-counter pain relievers such as acetaminophen (Tylenol, others).&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Protect yourself from hepatitis C.&lt;/strong&gt; Hepatitis C is a highly infectious liver disease caused by a virus. Untreated, it can lead to cirrhosis. If you have hepatitis C and drink alcohol, you&apos;re far more likely to develop cirrhosis than is someone who doesn&apos;t drink. Because there&apos;s no vaccine to prevent hepatitis C, the only way to protect yourself is to&amp;nbsp;avoid exposure to the virus. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Contaminated drug paraphernalia is responsible for the majority of new cases of hepatitis C. Don&apos;t share needles or other drug paraphernalia. Hepatitis C can sometimes be transmitted sexually. If you aren&apos;t absolutely certain of the health status of a sexual partner, use a new condom every time you have sex. See your doctor if you have or have had hepatitis C or think you may have been exposed to the virus. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Alcoholic hepatitis
+	</Title>
+	<Abstract>
+		Alcoholic hepatitis &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00093" LinkType="Internal" ObjectID="B727321E-E7FF-0DBD-1CADFEB8D4A46579" Title="Liver function tests" Url="http://www.mayoclinic.com/health/liver-function-tests/MY00093" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+	</RelatedLinksBox>
+</Disease>

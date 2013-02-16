@@ -1,0 +1,406 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00303
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ear-infections/DS00303
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-14
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="1783" Title="Ear infections" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			26E2955E-F791-43E3-BDA4C0F4182A9376
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ear infection
+			</MetaKeyword>
+			<MetaKeyword>
+				ear infections
+			</MetaKeyword>
+			<MetaKeyword>
+				middle ear infection
+			</MetaKeyword>
+			<MetaKeyword>
+				middle ear infections
+			</MetaKeyword>
+			<MetaKeyword>
+				otitis media
+			</MetaKeyword>
+			<MetaKeyword>
+				eardrum
+			</MetaKeyword>
+			<MetaKeyword>
+				tympanic membrane
+			</MetaKeyword>
+			<MetaKeyword>
+				perforation
+			</MetaKeyword>
+			<MetaKeyword>
+				earache
+			</MetaKeyword>
+			<MetaKeyword>
+				ear ache
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing
+			</MetaKeyword>
+			<MetaKeyword>
+				eardrops
+			</MetaKeyword>
+			<MetaKeyword>
+				otitis media with effusion
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic suppurative otitis media
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An ear infection (acute otitis media) is most often a bacterial or viral infection that affects the middle ear, the air-filled space behind the eardrum that contains the tiny vibrating bones of the ear. Children are more likely than adults to get ear infections. 
+&lt;/p&gt;
+&lt;p&gt;
+Ear infections are often painful because of inflammation and buildup of fluids in the middle ear. 
+&lt;/p&gt;
+&lt;p&gt;
+Because ear infections often clear up on their own, treatment often begins with managing pain and monitoring the problem. Ear infection in infants and severe cases in general require antibiotic medications. Long-term problems related to ear infections &amp;mdash; persistent fluids in the middle ear, persistent infections or frequent infections &amp;mdash; can cause hearing problems and other serious complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The onset of signs and symptoms of ear infection is usually rapid. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Children&lt;/strong&gt;&lt;br /&gt;
+Signs and symptoms common in children include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ear pain, especially when lying down&lt;/li&gt;
+	&lt;li&gt;Tugging or pulling at an ear&lt;/li&gt;
+	&lt;li&gt;Difficulty sleeping&lt;/li&gt;
+	&lt;li&gt;Crying more than usual&lt;/li&gt;
+	&lt;li&gt;Acting more irritable than usual&lt;/li&gt;
+	&lt;li&gt;Difficulty hearing or responding to sounds&lt;/li&gt;
+	&lt;li&gt;Loss of balance&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fever of 100 F (38 C) or higher&lt;/li&gt;
+	&lt;li&gt;Drainage of fluid from the ear&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Adults&lt;/strong&gt; &lt;br /&gt;
+Common signs and symptoms in adults include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ear pain&lt;/li&gt;
+	&lt;li&gt;Drainage of fluid from the ear&lt;/li&gt;
+	&lt;li&gt;Diminished hearing&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Signs and symptoms of an ear infection can indicate a number of different conditions. It&apos;s important to get an accurate diagnosis and prompt treatment. Call your child&apos;s doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Symptoms last for more than a day&lt;/li&gt;
+	&lt;li&gt;Ear pain is severe&lt;/li&gt;
+	&lt;li&gt;Your infant or toddler is sleepless or irritable after a cold or other upper respiratory infection&lt;/li&gt;
+	&lt;li&gt;You observe a discharge of fluid, pus or bloody discharge from the ear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An adult with ear pain or discharge should see a doctor as soon as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An ear infection is caused by a bacterium or virus in the middle ear. This infection often results from another illness &amp;mdash; cold, flu or allergy &amp;mdash; that causes congestion and swelling of the nasal passages, throat and eustachian tubes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Role of eustachian tubes&lt;/strong&gt; &lt;br /&gt;
+The eustachian tubes are a pair of narrow tubes than run from each middle ear to high in the back of the throat, behind the nasal passages. The throat end of the tubes open and close to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Regulate air pressure in the middle ear&lt;/li&gt;
+	&lt;li&gt;Refresh air in the ear&lt;/li&gt;
+	&lt;li&gt;Drain normal secretions from the middle ear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Swelling, inflammation and mucus in the eustachian tubes from an upper respiratory infection or allergy can block them, causing the accumulation of fluids in the middle ear. A bacterial or viral infection of this fluid is usually what produces the symptoms of an ear infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Ear infections are more common in children, in part, because their eustachian tubes are narrower and more horizontal &amp;mdash; factors that make them more difficult to drain and more likely to get clogged. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Role of adenoids&lt;/strong&gt;&lt;br /&gt;
+Adenoids are two small pads of tissues high in the back of the throat believed to play a role in immune system activity. This function may make them particularly vulnerable to infection and inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+Because adenoids are located near the opening of the eustachian tubes, inflammation or enlargement of the adenoids may block the tubes, thereby contributing to middle ear infection. Inflammation of adenoids is more likely to play a role in ear infections in children because children have more active and relatively larger adenoids. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Related conditions&lt;/strong&gt;&lt;br /&gt;
+Conditions of the middle ear that may be related to an ear infection or result in similar middle ear problems include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Otitis media with effusion&lt;/strong&gt; is inflammation and fluid buildup (effusion) in the middle ear without bacterial or viral infection. This may occur because the fluid buildup persists even after an ear infection has resolved. It may also occur because of some dysfunction or noninfectious blockage of the eustachian tubes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic suppurative otitis media&lt;/strong&gt; is a persistent ear infection that results in tearing or perforation of the eardrum.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inside of your ear 
+" Caption="The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by a narrow passageway called the eustachian tube. The cochlea, a snail-shaped structure, is part of your inner ear.
+" Height="60" Title="Middle ear" URI="/images/image_popup/thumbs/ww5rp36t.jpg" Width="60" />
+				<Image Alt="Illustration showing inside of your ear 
+" Caption="The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by a narrow passageway called the eustachian tube. The cochlea, a snail-shaped structure, is part of your inner ear.
+" Height="299" Title="Middle ear" URI="/images/image_popup/ww5rp36.jpg" Width="400" />
+				<HTML>
+					The middle ear includes three small bones &amp;mdash; the hammer, anvil and stirrup. The middle ear is separated from your external ear by the eardrum and connected to the back of your nose and throat by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for ear infections include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Children between the ages of 6 months and 2 years are more susceptible to ear infections because of the size and shape of the eustachian tubes and because of their poorly developed immune systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Group child care.&lt;/strong&gt; Children cared for in group settings are more likely to get colds and ear infections than are children who stay home, because they&apos;re exposed to more infections, such as the common cold.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infant feeding.&lt;/strong&gt; Babies who drink from a bottle, especially while lying down, tend to have more ear infections than do babies who are breast-fed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seasonal factors.&lt;/strong&gt; Ear infections are most common during the fall and winter when colds and flu are prevalent. People with seasonal allergies may have a greater risk of ear infections during seasonal high pollen counts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor air quality.&lt;/strong&gt; Exposure to tobacco smoke or high levels of air pollution can increase the risk of ear infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; A child&apos;s risk of ear infections increases if another member of the family has had ear infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ethnicity.&lt;/strong&gt; American Indians and Inuits of Alaska and Canada have an increased risk of ear infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most ear infections don&apos;t cause long-term complications. Frequent or persistent infections and persistent fluid buildup can result in some serious complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired hearing.&lt;/strong&gt; Mild hearing loss that comes and goes is fairly common with an ear infection, but it usually returns to normal after the infection clears. Persistent infection or persistent fluids in the middle ear may result in more significant hearing loss. If there is some permanent damage to the eardrum or other middle ear structures, permanent hearing loss may occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech or developmental delays.&lt;/strong&gt; If hearing is temporarily or permanently impaired in infants and toddlers, they may experience delays in speech, social and developmental skills.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spread of infection.&lt;/strong&gt; Untreated infections or infections that don&apos;t respond well to treatment can spread to nearby tissues. Infection of the mastoid, the bony protrusion behind the ear, is called mastoiditis. This infection can result in damage to the bone and the formation of pus-filled cysts. Rarely, serious middle ear infections spread to other tissues in the skull, including the brain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely begin by seeing your family doctor or your child&apos;s pediatrician. You may be referred to a specialist in ear, nose and throat (ENT) disorders (otolaryngologist) if the problem has been persisting for some time, is not responding to treatment, or has occurred frequently. 
+&lt;/p&gt;
+&lt;p&gt;
+Before your appointment talk to your older child about questions the doctor may ask him or her, and be prepared to answer questions on behalf of your child as necessary. Most questions for adults will address the same issues. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What signs or symptoms have you observed?&lt;/li&gt;
+	&lt;li&gt;When did the symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Is there any ear pain? How would you describe the pain &amp;mdash; mild, moderate or severe?&lt;/li&gt;
+	&lt;li&gt;Have you observed possible signs of pain in your infant or toddler, such as ear pulling, difficulty sleeping or unusual irritability?&lt;/li&gt;
+	&lt;li&gt;Has your child had a fever?&lt;/li&gt;
+	&lt;li&gt;Has there been any discharge from the ear? Is the discharge clear, cloudy or bloody?&lt;/li&gt;
+	&lt;li&gt;Have you observed any hearing impairment? Does your child respond to quiet sounds? Does your older child ask &quot;What?&quot; frequently?&lt;/li&gt;
+	&lt;li&gt;Has your child recently had a cold, flu or other respiratory symptoms?&lt;/li&gt;
+	&lt;li&gt;Does your child have seasonal allergies?&lt;/li&gt;
+	&lt;li&gt;Has your child had an ear infection in the past? When?&lt;/li&gt;
+	&lt;li&gt;Is your child allergic to any medication, such as penicillin?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose an ear infection or another condition based on the symptoms you describe and a relatively simple office exam. The doctor will likely use a lighted instrument to look at the ears, throat and nasal passage. He or she will also listen to your child breathe with a stethoscope. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pneumatic otoscope&lt;/strong&gt; &lt;br /&gt;
+An instrument called a pneumatic otoscope is often the only specialized tool that a doctor needs to make a diagnosis of an ear infection. This instrument enables the doctor to look in the ear and judge how much fluid may be behind the eardrum. With the pneumatic otoscope, the doctor gently puffs air against the eardrum. Normally, this puff of air would cause the eardrum to move. If the middle ear is filled with fluid, your doctor will observe little to no movement of the eardrum. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests&lt;/strong&gt; &lt;br /&gt;
+Your doctor may perform other diagnostic tests if there is any doubt about a diagnosis, if the condition hasn&apos;t responded to previous treatments, or if there are other persistent or serious problems. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tympanometry.&lt;/strong&gt; This test measures the movement of the eardrum. The device, which seals off the ear canal, adjusts air pressure in the canal, thereby causing the eardrum to move. The device quantifies how well the eardrum moves and provides an indirect measure of pressure within the middle ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acoustic reflectometry.&lt;/strong&gt; This test measures how much sound emitted from a device is reflected back from the eardrum &amp;mdash; an indirect measure of fluids in the middle ear. Normally, the eardrum absorbs most of the sound. However, the more pressure there is from fluid in the middle ear, the more sound the eardrum will reflect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tympanocentesis.&lt;/strong&gt; Rarely, a doctor may use a tiny tube that pierces the eardrum to drain fluid from the middle ear &amp;mdash; a procedure called tympanocentesis. Tests to determine the infectious agent in the fluid may be beneficial if an infection hasn&apos;t responded well to previous treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other tests.&lt;/strong&gt; If your child has had persistent ear infections or persistent fluid buildup in the middle ear, your doctor may refer you to a hearing specialist (audiologist), speech therapist or developmental therapist for tests of hearing, speech skills, language comprehension or developmental abilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What a diagnosis means &lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Acute otitis media.&lt;/strong&gt; The diagnosis of &quot;ear infection&quot; is generally shorthand for acute otitis media. Your doctor likely makes this diagnosis if he or she observes signs of fluid in the middle ear, if there are signs or symptoms of an infection, and if the onset of symptoms was relatively sudden.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Otitis media with effusion.&lt;/strong&gt; If the diagnosis is otitis media with effusion, the doctor has found evidence of fluid in the middle ear, but there are presently no signs or symptoms of infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic suppurative otitis media.&lt;/strong&gt; If the doctor makes a diagnosis of chronic suppurative otitis media, he or she has found that a persistent ear infection has resulted in tearing or perforation of the eardrum.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most ear infections don&apos;t need treatment with antibiotics. What&apos;s best for your child depends on many factors, including your child&apos;s age and the severity of symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;A wait-and-see approach&lt;/strong&gt;&lt;br /&gt;
+Symptoms of ear infections usually improve with the first couple of days, and most infections clear up on their own within one to two weeks without any treatment. The American Academy of Pediatrics and the American Academy of Family Physicians recommend a wait-and-see approach for the first 48 to 72 hours for anyone who is otherwise healthy and who is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Six months to 2 years of age with mild symptoms and an uncertain diagnosis&lt;/li&gt;
+	&lt;li&gt;More than 2 years old with mild symptoms or an uncertain diagnosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating pain&lt;/strong&gt; &lt;br /&gt;
+Your doctor will advise you on treatments to lessen pain from an ear infection. These may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A warm compress.&lt;/strong&gt; Placing a warm, moist washcloth over the affected ear may lessen pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain medication.&lt;/strong&gt; Your doctor may advise the use of over-the-counter acetaminophen (Tylenol, others) or ibuprofen (Motrin, Advil, others) to relieve pain. Use the drugs as directed on the label. Because aspirin has been linked with Reye&apos;s syndrome, use caution when giving aspirin to children or teenagers. Although aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. Talk to your doctor if you have concerns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eardrops.&lt;/strong&gt; Prescription eardrops such as antipyrine-benzocaine (Aurodex) may provide additional pain relief. To administer drops to your child, warm the bottle by placing it in warm water. Put the recommended dose in your child&apos;s ear while he or she lies on a flat surface with the infected ear facing up. Benzocaine has been linked to a rare but serious, sometimes deadly, condition that decreases the amount of oxygen that the blood can carry. Don&apos;t use benzocaine in children younger than age 2 without supervision from a health care professional, as this age group has been the most affected. If you&apos;re an adult, never use more than the recommended dose of benzocaine and consider talking with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotic therapy&lt;/strong&gt;&lt;br /&gt;
+Your doctor may recommend antibiotic treatment for an ear infection in the following situations: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Children under 6 months old with a probable diagnosis of ear infection&lt;/li&gt;
+	&lt;li&gt;Children 6 months to 2 years old with a certain diagnosis of ear infection&lt;/li&gt;
+	&lt;li&gt;Anyone with a probable ear infection and moderate to severe ear pain&lt;/li&gt;
+	&lt;li&gt;Anyone with a probable ear infection and a fever over 102.2 F (39 C) or higher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even after symptoms have improved, be sure to use all of the antibiotic pills as directed. Failing to do so can result in recurring infection and resistance of bacteria to antibiotic medications. Talk to your doctor or pharmacist about what to do if you accidentally skip a dose. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ear tubes&lt;/strong&gt; &lt;br /&gt;
+If your child has otitis media with effusion &amp;mdash; persistent fluid buildup in the ear after an infection has cleared up or in the absence of any infection &amp;mdash; your doctor may recommend a procedure to drain fluid from the middle ear. 
+&lt;/p&gt;
+&lt;p&gt;
+During an outpatient surgical procedure called a myringotomy, a surgeon creates a tiny hole in the eardrum that enables him or her to suction fluids out of the middle ear. A tiny tube is placed in the opening to help ventilate the middle ear and prevent the accumulation of more fluids. Some tubes are intended to stay in place for six months to a year and then fall out on their own. Other tubes are designed to stay in longer and may need to be surgically removed. 
+&lt;/p&gt;
+&lt;p&gt;
+The eardrum closes up again after the tube falls out or is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for chronic suppurative otitis media&lt;/strong&gt;&lt;br /&gt;
+Chronic infection that results in perforation of the eardrum &amp;mdash; chronic suppurative otitis media &amp;mdash; is difficult to treat. It&apos;s often treated with antibiotics administered as drops. You&apos;ll receive instructions on how to suction fluids out through the ear canal before administering drops. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring&lt;/strong&gt;&lt;br /&gt;
+Children with frequent or persistent infections or with persistent fluid in the middle ear will need to be monitored closely. Talk to your doctor about how often you should schedule follow-up appointments. Your doctor may recommend regular hearing and language tests. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips may reduce the risk of developing ear infections: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Prevent common colds and other illnesses.&lt;/strong&gt; Teach your child to wash his or her hands frequently and thoroughly, and teach your child not to share eating and drinking utensils. If possible, limit the time your child spends in group child care. A child care setting with fewer children may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid secondhand smoke.&lt;/strong&gt; Make sure that no one smokes in your home. Away from home, stay in smoke-free environments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast-feed your baby.&lt;/strong&gt; If possible, breast-feed your baby for at least six months. Breast milk contains antibodies that may offer protection from ear infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you bottle-feed, hold your baby in an upright position.&lt;/strong&gt; Avoid propping a bottle in your baby&apos;s mouth while he or she is lying down.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about vaccinations.&lt;/strong&gt; Ask your doctor about what vaccinations are appropriate for your child. Seasonal flu shots and pneumococcal vaccines may help prevent ear infections.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ear infection (middle ear)
+	</Title>
+	<Abstract>
+		Ear infection &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention, home remedies for middle ear infections.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00473" LinkType="Internal" ObjectID="175EBBB9-3436-4B88-B7AC655D9A36341F" Title="Swimmer&apos;s ear" Url="http://www.mayoclinic.com/health/swimmers-ear/DS00473" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00601" LinkType="Internal" ObjectID="F1CF0A8F-E8A9-67FF-3554ABC68544C8BC" Title="Ear tubes" Url="http://www.mayoclinic.com/health/ear-tubes/MY00601" />
+		<LinkItem ContentType="Answer" DocID="AN02155" LinkType="Internal" ObjectID="C287A0E5-9C1F-1D27-3EDD7847CCAF968B" Title="Breast-feeding strike: Why do babies refuse to nurse?" Url="http://www.mayoclinic.com/health/breastfeeding-strike/AN02155" />
+		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
+		<LinkItem ContentType="Article" DocID="MY00510" LinkType="Internal" ObjectID="CC3470CA-F7BB-C2AF-097ED286CB9E7795" Title="Ear infection treatment: Do alternative therapies work?" Url="http://www.mayoclinic.com/health/ear-infection-treatment/MY00510" />
+	</RelatedLinksBox>
+</Disease>

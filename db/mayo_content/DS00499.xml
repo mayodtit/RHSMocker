@@ -1,0 +1,320 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00499
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ruptured-eardrum/DS00499
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-04
+		</UpdateDate>
+		<PublicationDate>
+			2003-05-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1144" Title="Ears nose and throat">
+					<Keyword MCVID="1782" Title="Ear">
+						<Keyword MCVID="2462" Title="Ruptured eardrum" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6431C594-9F82-4659-AC4BD625ADA682FD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				eardrum
+			</MetaKeyword>
+			<MetaKeyword>
+				ruptured eardrum
+			</MetaKeyword>
+			<MetaKeyword>
+				perforated eardrum
+			</MetaKeyword>
+			<MetaKeyword>
+				perforated tympanic membrane
+			</MetaKeyword>
+			<MetaKeyword>
+				hearing loss
+			</MetaKeyword>
+			<MetaKeyword>
+				tinnitus
+			</MetaKeyword>
+			<MetaKeyword>
+				ear pain
+			</MetaKeyword>
+			<MetaKeyword>
+				ear drum
+			</MetaKeyword>
+			<MetaKeyword>
+				tympanic membrane
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A ruptured eardrum &amp;mdash; or perforated tympanic membrane as it&apos;s medically known &amp;mdash; is a hole or tear in your eardrum, the thin drum-like tissue that separates your ear canal from your middle ear. 
+&lt;/p&gt;
+&lt;p&gt;
+A ruptured eardrum can result in hearing loss and make your middle ear vulnerable to infections or other injury. 
+&lt;/p&gt;
+&lt;p&gt;
+A ruptured eardrum usually heals within a few weeks without treatment. Sometimes, you may need a procedure to promote healing of a ruptured eardrum or need surgical repair for a ruptured eardrum. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of eardrum, showing rupture 
+" Caption="A ruptured, or perforated, eardrum prevents the proper transmission of sound waves to the middle ear and leaves the middle ear vulnerable to infectious agents, water and other foreign substances.
+" Height="60" Title="Ruptured eardrum" URI="/images/image_popup/thumbs/r7_ruptearthu.jpg" Width="60" />
+				<Image Alt="Illustration of eardrum, showing rupture 
+" Caption="A ruptured, or perforated, eardrum prevents the proper transmission of sound waves to the middle ear and leaves the middle ear vulnerable to infectious agents, water and other foreign substances.
+" Height="347" Title="Ruptured eardrum" URI="/images/image_popup/r7_ruptear.jpg" Width="400" />
+				<HTML>
+					A ruptured, or perforated, eardrum prevents the proper transmission of sound waves to the middle ear and leaves the middle ear vulnerable to infectious agents, water and other foreign substances.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a ruptured eardrum may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Consistent ear pain that stops suddenly&lt;/li&gt;
+	&lt;li&gt;Clear, pus-filled or bloody drainage from your ear&lt;/li&gt;
+	&lt;li&gt;Hearing loss&lt;/li&gt;
+	&lt;li&gt;Ringing in your ear (tinnitus)&lt;/li&gt;
+	&lt;li&gt;Spinning sensation (vertigo)&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting that can result from vertigo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if you experience any of the signs or symptoms of a ruptured or perforated eardrum or pain or discomfort in your ears. Your middle and inner ears are composed of delicate mechanisms that are sensitive to injury or disease. Prompt and appropriate treatment is important to preserve your hearing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your eardrum (tympanic membrane) has two primary roles: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing.&lt;/strong&gt; When sound waves strike it, your eardrum vibrates &amp;mdash; the first step by which structures of your middle and inner ears translate sound waves into nerve impulses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protection.&lt;/strong&gt; Your eardrum also acts as a barrier protecting your middle ear from water, bacteria and other foreign substances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Causes of a ruptured, or perforated, eardrum may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Middle ear infection (otitis media).&lt;/strong&gt; A middle ear infection often results in the accumulation of fluids in your middle ear. Pressure from these fluids can cause the eardrum to rupture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Barotrauma.&lt;/strong&gt; Barotrauma is stress exerted on your eardrum when the air pressure in your middle ear and the air pressure in the environment are out of balance. If the pressure is severe, your eardrum can rupture. Barotrauma is also called airplane ear, because it&apos;s most often caused by air pressure changes associated with air travel. Other events that can cause sudden changes in pressure &amp;mdash; and possibly a ruptured eardrum &amp;mdash; include scuba diving and a direct blow to the ear, such as the impact of an automobile air bag.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loud sounds or blasts (acoustic trauma).&lt;/strong&gt; A loud sound or blast, as from an explosion or gunshot - essentially an overpowering sound wave &amp;mdash; can cause a tear in your eardrum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foreign objects in your ear.&lt;/strong&gt; Small objects such as a cotton swab or bobby pin can puncture or tear the eardrum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe head trauma.&lt;/strong&gt; Severe injury, such as skull fracture, may cause the dislocation or damage to inner ear structures, including your eardrum.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inner ear, middle ear and outer ear
+" Caption="Sound waves pass through your outer ear canal and cause your eardrum to vibrate. The eardrum transmits the vibrations to three small bones &amp;mdash; the hammer, anvil and stirrup &amp;mdash; which amplify the vibrations. These vibrations create waves in the fluids of the cochlea, where sensors translate the motion into impulses sent to the brain.
+" Height="60" Title="How your ear works" URI="/images/image_popup/thumbs/w17_earanatomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing inner ear, middle ear and outer ear
+" Caption="Sound waves pass through your outer ear canal and cause your eardrum to vibrate. The eardrum transmits the vibrations to three small bones &amp;mdash; the hammer, anvil and stirrup &amp;mdash; which amplify the vibrations. These vibrations create waves in the fluids of the cochlea, where sensors translate the motion into impulses sent to the brain.
+" Height="280" Title="How your ear works" URI="/images/image_popup/w17_earanatomy.jpg" Width="400" />
+				<HTML>
+					Sound waves pass through your outer ear canal and cause your eardrum to vibrate. The eardrum transmits the vibrations to three small bones &amp;mdash; the hammer, anvil and stirrup &amp;mdash; which amplify ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of eardrum, showing rupture 
+" Caption="A ruptured, or perforated, eardrum prevents the proper transmission of sound waves to the middle ear and leaves the middle ear vulnerable to infectious agents, water and other foreign substances.
+" Height="60" Title="Ruptured eardrum" URI="/images/image_popup/thumbs/r7_ruptearthu.jpg" Width="60" />
+				<Image Alt="Illustration of eardrum, showing rupture 
+" Caption="A ruptured, or perforated, eardrum prevents the proper transmission of sound waves to the middle ear and leaves the middle ear vulnerable to infectious agents, water and other foreign substances.
+" Height="347" Title="Ruptured eardrum" URI="/images/image_popup/r7_ruptear.jpg" Width="400" />
+				<HTML>
+					A ruptured, or perforated, eardrum prevents the proper transmission of sound waves to the middle ear and leaves the middle ear vulnerable to infectious agents, water and other foreign substances.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications can occur while your eardrum is healing or if it fails to heal. Possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing loss.&lt;/strong&gt; Usually, hearing loss is temporary, lasting only until the tear or hole in your eardrum has healed. The size and location of the tear can affect the degree of hearing loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Middle ear infection (otitis media).&lt;/strong&gt; A perforated eardrum can allow bacteria to enter your ear. If a perforated eardrum doesn&apos;t heal or isn&apos;t repaired, you may be vulnerable to ongoing (chronic) infections that can cause permanent hearing loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Middle ear cyst (cholesteatoma).&lt;/strong&gt; A cholesteatoma is a cyst in your middle ear composed of skin cells, your ear canal&apos;s normal waxy discharge (cerumen) and other debris. This debris normally migrates to your outer ear in the form of earwax. If your eardrum is ruptured, the debris can pass into your middle ear and form a cyst. A cholesteatoma provides a friendly environment for bacteria and contains proteins that can damage bones of your middle ear.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs or symptoms of a perforated eardrum, you&apos;re likely to start by seeing your family doctor or general practitioner. However, your doctor may refer you to a specialist in ear, nose and throat disorders (ENT physician, or otolaryngologist). Because the time with your doctor can be brief, it&apos;s a good idea to prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Make a list ahead of time that you can share with your doctor. Your list should include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms&lt;/strong&gt; you&apos;re experiencing, including any that may seem unrelated to hearing loss, fluid discharge or other ear-related symptoms&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relevant events&lt;/strong&gt; that may be related to your ear problems, such as a history of ear infections, recent injuries or recent air travel&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; including any vitamins or supplements&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions&lt;/strong&gt; for your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List questions for your doctor from most important to least important in case time runs out. If you think you have signs or symptoms of a ruptured eardrum, you may ask some of the following questions. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have a ruptured eardrum?&lt;/li&gt;
+	&lt;li&gt;What else could be causing my hearing loss and other symptoms?&lt;/li&gt;
+	&lt;li&gt;If I have a ruptured eardrum, what do I need to do to protect my ear during the healing process?&lt;/li&gt;
+	&lt;li&gt;What type of follow-up appointments will I need?&lt;/li&gt;
+	&lt;li&gt;At what point do we need to consider other treatments?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first experience symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had symptoms, such as pain or vertigo, that aren&apos;t present anymore?&lt;/li&gt;
+	&lt;li&gt;Have you had ear infections before?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to loud sounds?&lt;/li&gt;
+	&lt;li&gt;Have you been swimming or diving recently?&lt;/li&gt;
+	&lt;li&gt;Have you recently flown?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any head injuries?&lt;/li&gt;
+	&lt;li&gt;What have you used to clean your ear canal?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+If you think that you have a ruptured eardrum, be careful to keep your ears dry to prevent infection. Don&apos;t go swimming. To keep water out of your ear when showering or bathing, use a moldable, waterproof silicone earplug or put a cotton ball coated with petroleum jelly in the &quot;pocket&quot; of your outer ear. Don&apos;t put any medication drops in your ear unless your doctor prescribes them specifically for infection related to your perforated eardrum. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or ENT specialist can often determine if you have a perforated eardrum with a visual inspection using a lighted instrument (otoscope). 
+&lt;/p&gt;
+&lt;p&gt;
+He or she may conduct or order additional tests to determine the cause of the rupture or degree of damage. These tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laboratory tests.&lt;/strong&gt; If there&apos;s discharge from your ear, your doctor may order a laboratory test to detect a bacterial or viral infection of your middle ear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tuning fork evaluation.&lt;/strong&gt; Tuning forks are two-pronged, metal instruments that produce sounds when struck. Simple tests with tuning forks can help your doctor detect hearing loss. A tuning fork evaluation may also reveal whether hearing loss is caused by damage to the vibrating parts of your middle ear (including your eardrum), damage to sensors or nerves of your inner ear, or damage to both.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tympanometry.&lt;/strong&gt; A tympanometer uses a device inserted into your ear canal that measures the response of your eardrum to slight changes in air pressure. Certain patterns of response can indicate a perforated eardrum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Audiology exam.&lt;/strong&gt; If other hearing tests are inconclusive, your doctor may order an audiology exam, a series of tests that measure how well you hear sounds at different volumes and pitches.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most perforated eardrums heal without treatment within a few weeks. If the tear or hole in your eardrum doesn&apos;t heal by itself, treatment will involve procedures to close the perforation. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eardrum patch.&lt;/strong&gt; If the tear or hole in your eardrum doesn&apos;t close on its own, an ENT specialist may seal it with a paper patch. With this office procedure, your ENT may apply a chemical to the edges of the tear to stimulate growth and then apply a paper patch over the hole. The procedure may need to be repeated more than once before the hole closes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If a paper patch doesn&apos;t result in proper healing or your ENT determines that the tear isn&apos;t likely to heal with a patch, he or she may recommend surgery. The most common surgical procedure is called tympanoplasty. Your surgeon grafts a tiny patch of your own tissue to cover the hole in the eardrum. This procedure is done on an outpatient basis, meaning you can usually go home the same day unless medical conditions require a longer hospital stay.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Try these steps to protect your eardrum while it&apos;s healing. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your ear dry while it&apos;s healing.&lt;/strong&gt; Place a waterproof silicone earplug or cotton ball coated with petroleum jelly in your ear when showering or bathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refrain from cleaning your ears.&lt;/strong&gt; Give your eardrum time to heal completely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid blowing your nose.&lt;/strong&gt; The pressure created when blowing your nose can damage your healing eardrum.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow these tips to avoid a ruptured or perforated eardrum: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get treatment for middle ear infections.&lt;/strong&gt; Be aware of the signs and symptoms of middle ear infection, including earache, fever, nasal congestion and reduced hearing. Children with a middle ear infection often rub or pull on their ears. Seek prompt evaluation from your doctor to prevent potential damage to the eardrum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your ears during flight.&lt;/strong&gt; If possible, don&apos;t fly if you have a cold or an active allergy that causes nasal or ear congestion. During takeoffs and landings, keep your ears clear with pressure-equalizing earplugs, yawning or chewing gum. Or use the Valsalva maneuver &amp;mdash; gently blowing, as if blowing your nose, while pinching your nostrils and keeping your mouth closed. Don&apos;t sleep during ascents and descents.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your ears free of foreign objects.&lt;/strong&gt; Never attempt to dig out excess or hardened earwax with items such as a cotton swab, paper clip or hairpin. These items can easily tear or puncture your eardrum. Teach your children about the damage that can be done by putting foreign objects in their ears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Guard against excessive noise.&lt;/strong&gt; Protect your ears from unnecessary damage by wearing protective earplugs or earmuffs in your workplace or during recreational activities if loud noise is present.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ruptured eardrum (perforated eardrum)
+	</Title>
+	<Abstract>
+		Ruptured (perforated) eardrum &amp;mdash; Comprehensive overview covers symptoms, treatment of a tear in your eardrum.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,246 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00468
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mortons-neuroma/DS00468
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-05
+		</UpdateDate>
+		<PublicationDate>
+			2002-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="2731" Title="Morton&apos;s neuroma" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CB793439-A249-45C7-B4B089DBC882B8D8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Morton&apos;s neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				foot pain
+			</MetaKeyword>
+			<MetaKeyword>
+				Mortons neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				Morton neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				plantar neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				neuroma
+			</MetaKeyword>
+			<MetaKeyword>
+				digital nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				digital nerves
+			</MetaKeyword>
+			<MetaKeyword>
+				footwear
+			</MetaKeyword>
+			<MetaKeyword>
+				orthotics
+			</MetaKeyword>
+			<MetaKeyword>
+				feet pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Morton&apos;s neuroma is a painful condition that affects the ball of your foot, most commonly the area between your third and fourth toes. Morton&apos;s neuroma may feel as if you are standing on a pebble in your shoe or on a fold in your sock.
+&lt;/p&gt;
+&lt;p&gt;
+Morton&apos;s neuroma involves a thickening of the tissue around one of the nerves leading to your toes. In some cases, Morton&apos;s neuroma causes a sharp, burning pain in the ball of your foot. Your toes also may sting, burn or feel numb.
+&lt;/p&gt;
+&lt;p&gt;
+Morton&apos;s neuroma may occur in response to irritation, injury or pressure. Common treatments for Morton&apos;s neuroma include changing footwear or using arch supports. Sometimes corticosteroid injections or surgery may be necessary.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Morton&apos;s neuroma 
+" Caption="Morton&apos;s neuroma is a thickening of the tissue that surrounds the nerves leading to your toes. Morton&apos;s neuroma is noncancerous and most often occurs between the third and fourth toes. 
+" Height="60" Title="Morton&apos;s neuroma" URI="/images/image_popup/thumbs/mcdc7_mortons_neuromathu.jpg" Width="60" />
+				<Image Alt="Morton&apos;s neuroma 
+" Caption="Morton&apos;s neuroma is a thickening of the tissue that surrounds the nerves leading to your toes. Morton&apos;s neuroma is noncancerous and most often occurs between the third and fourth toes. 
+" Height="587" Title="Morton&apos;s neuroma" URI="/images/image_popup/mcdc7_mortons_neuroma.jpg" Width="400" />
+				<HTML>
+					Morton&apos;s neuroma is a thickening of the tissue that surrounds the nerves leading to your toes. Morton&apos;s neuroma is noncancerous and most often occurs between the third and fourth toes. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Typically, there&apos;s no outward sign of this condition, such as a lump. Instead, you may experience the following symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeling as if you&apos;re standing on a pebble in your shoe&lt;/li&gt;
+	&lt;li&gt;A burning pain in the ball of your foot that may radiate into your toes&lt;/li&gt;
+	&lt;li&gt;Tingling or numbness in your toes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;It&apos;s best not to ignore any foot pain that lasts longer than a few days. See your doctor if you experience a burning pain in the ball of your foot that&apos;s not improving, despite changing your footwear and modifying activities that may cause stress to your foot.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors don&apos;t understand exactly what causes Morton&apos;s neuroma. The condition seems to occur in response to irritation, pressure or injury to one of the nerves that lead to your toes. The growth of thickened nerve tissue (neuroma) is part of your body&apos;s response to the irritation or injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that appear to contribute to Morton&apos;s neuroma include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High heels.&lt;/strong&gt; Wearing high-heeled shoes or shoes that are tight or ill-fitting can box in your feet and place pressure on your toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain sports.&lt;/strong&gt; Participating in high-impact athletic activities such as jogging or running may subject your feet to repetitive trauma. Sports that feature tight shoes, such as snow skiing or rock climbing, can put pressure on your toes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foot deformities.&lt;/strong&gt; People who have bunions, hammertoes, flatfeet or excessive flexibility are at higher risk of developing Morton&apos;s neuroma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might first seek advice from your family doctor about your foot pain. He or she may refer you to a doctor or surgeon who specializes in foot disorders. Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Is the pain worse in certain pairs of shoes?&lt;/li&gt;
+	&lt;li&gt;Does any type of activity ease the pain or worsen it?&lt;/li&gt;
+	&lt;li&gt;Are you having pain in any other part of your body?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements are you taking?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the exam, your doctor will press on your foot to feel for a mass or tender spot. There may also be a feeling of &quot;clicking&quot; between the bones of your foot.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Your doctor is likely to order X-rays of your foot, to rule out other causes of your pain &amp;mdash; such as a stress fracture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This technology uses sound waves to create real-time images of internal structures. Ultrasound is particularly good at revealing soft tissue abnormalities, such as neuromas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Using radio waves and a strong magnetic field, an MRI is also good at visualizing soft tissues. But it&apos;s an expensive test and often indicates neuromas in people who have no symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the severity of your symptoms. Your doctor will likely recommend trying conservative approaches first. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Arch supports and foot pads fit inside your shoe and help reduce pressure on the nerve. These can be purchased over the counter, or your doctor may prescribe a custom-made, individually designed shoe insert &amp;mdash; molded to fit the exact contours of your foot.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Injections.&lt;/strong&gt; Some people are helped by the injection of steroids into the painful area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cryogenic neuroablation.&lt;/strong&gt; This minimally invasive procedure exposes the nerve to very cold temperatures, which interferes with the transmission of pain signals. Results are not permanent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decompression surgery.&lt;/strong&gt; In some cases, surgeons can relieve the pressure on the nerve by cutting nearby structures, such as the ligament that binds together some of the bones in the front of the foot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removal of the nerve.&lt;/strong&gt; Surgical removal of the growth may be necessary if other treatments fail to provide pain relief. Although surgery is usually successful, doctors often turn to surgery as a last resort, because the procedure removes both the neuroma and the nerve, which can leave permanent numbness in the affected toes.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help relieve the pain associated with Morton&apos;s neuroma and allow the nerve to heal, consider the following steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take anti-inflammatory medications.&lt;/strong&gt; Over-the-counter nonsteroidal anti-inflammatory medications, such as aspirin and ibuprofen (Advil, Motrin, others), can reduce swelling and relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try ice massage.&lt;/strong&gt; Regular ice massage may help reduce pain. Freeze a water-filled paper cup or plastic foam cup and roll the ice over the painful site.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change your footwear.&lt;/strong&gt; Avoid high heels or tight shoes. Choose shoes with a broad toe box and extra depth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a break.&lt;/strong&gt; For a few weeks, reduce activities such as jogging, aerobic exercise or dancing that subject your feet to high impact.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Morton&apos;s neuroma
+	</Title>
+	<Abstract>
+		Morton&apos;s neuroma &amp;mdash; Comprehensive overview covers treatment, including surgery, for this painful foot growth.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,357 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00705
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/proctitis/DS00705
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-12
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1855" Title="Anus and rectum">
+						<Keyword MCVID="2920" Title="Proctitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			60F83BE7-2A5D-9994-EDF332BF4FE17484
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				proctitis
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				ulcerative proctitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Proctitis is an inflammation of the lining of the rectum. The rectum is a muscular tube that&apos;s connected to the end of your colon. Stool passes through the rectum on its way out of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Proctitis can cause rectal pain and the continuous sensation that you need to have a bowel movement. Proctitis symptoms can be short-lived, or they can become chronic. 
+&lt;/p&gt;
+&lt;p&gt;
+Proctitis is common in people who have inflammatory bowel diseases. Sexually transmitted infections are another frequent cause. Proctitis also can be a side effect of radiation therapy for certain cancers. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the rectum 
+" Caption="The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+" Height="60" Title="Rectum" URI="/images/image_popup/thumbs/mcdc7_rectumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the rectum 
+" Caption="The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+" Height="443" Title="Rectum" URI="/images/image_popup/mcdc7_rectum.jpg" Width="400" />
+				<HTML>
+					The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Proctitis signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent or continuous sensation that you need to have a bowel movement (tenesmus)&lt;/li&gt;
+	&lt;li&gt;Rectal bleeding&lt;/li&gt;
+	&lt;li&gt;The passing of mucus through your rectum&lt;/li&gt;
+	&lt;li&gt;Rectal pain&lt;/li&gt;
+	&lt;li&gt;Pain on the left side of your abdomen&lt;/li&gt;
+	&lt;li&gt;A feeling of fullness in your rectum&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Pain with bowel movements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several diseases and conditions can cause the lining of the rectum to become inflamed (proctitis). They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory bowel diseases.&lt;/strong&gt; About 30 percent of people with inflammatory bowel disease have inflammation of the rectum. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; Sexually transmitted infections, spread particularly by people who engage in anal intercourse, can result in proctitis. Sexually transmitted infections that can cause proctitis include gonorrhea, genital herpes and chlamydia. Infections associated with foodborne illness, such as salmonella, shigella and campylobacter infections, can also induce proctitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy for cancer.&lt;/strong&gt; Radiation therapy directed at your rectum or nearby areas can cause irritation of the lining of your rectum. Radiation proctitis can begin during radiation treatment and last for a few months after treatment. Or it can occur years after treatment. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics&lt;/strong&gt; used to treat an infection can sometimes kill helpful bacteria in the bowels, allowing the harmful Clostridium difficile bacteria to gain a foothold in the rectum. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proctitis in children.&lt;/strong&gt; Proctitis sometimes occurs in breast-fed children and in children who have strep throat. A form of proctitis caused by accumulation of a kind of white blood cell (eosinophil) in the lining of the rectum affects only children younger than 2. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the rectum 
+" Caption="The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+" Height="60" Title="Rectum" URI="/images/image_popup/thumbs/mcdc7_rectumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the rectum 
+" Caption="The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+" Height="443" Title="Rectum" URI="/images/image_popup/mcdc7_rectum.jpg" Width="400" />
+				<HTML>
+					The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for proctitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Behaviors that increase your risk of a &lt;/strong&gt;sexually transmitted infection (STI). Your risk of contracting an STI increases if you have multiple sex partners, don&apos;t use condoms and have sex with a partner who has an STI.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory bowel diseases.&lt;/strong&gt; Having an inflammatory bowel disease, such as ulcerative colitis or Crohn&apos;s disease, increases your risk of proctitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy for cancer.&lt;/strong&gt; Radiation therapy directed at or near your rectum (such as for rectal, ovarian or prostate cancer) increases your risk of proctitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Proctitis that isn&apos;t treated or that doesn&apos;t respond to treatment may lead to complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anemia.&lt;/strong&gt; Chronic bleeding from your rectum caused by proctitis can cause anemia. With anemia, you don&apos;t have enough red blood cells to carry adequate oxygen to your tissues. Anemia causes you to feel tired, and you may also experience dizziness, shortness of breath, headache, pale skin and irritability.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ulcers.&lt;/strong&gt; Chronic inflammation in the rectum can lead to open sores (ulcers) on the inside lining of the rectum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fistulas.&lt;/strong&gt; Sometimes ulcers extend completely through the intestinal wall, creating a fistula, an abnormal connection that can occur between different parts of your intestine, between your intestine and skin, or between your intestine and other organs, such as the bladder and vagina. For women, a recto-vaginal fistula can connect the rectum to the vagina, causing bowel contents to drain from the vagina.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Damage to cells from radiation can increase the risk of occurrence of other cancers in the rectal area. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If your doctor suspects you may have proctitis, you may be referred to a doctor who specializes in diseases of the digestive system (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along&lt;/strong&gt; to help you remember everything that was talked about.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is proctitis causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are possible causes for my proctitis?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each treatment option?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions anytime that you don&apos;t understand something. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose proctitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests&lt;/strong&gt; to detect blood loss or infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool test.&lt;/strong&gt; You may be asked to collect a stool sample for testing. A stool test may help determine if your proctitis is caused by a bacterial infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scope exam of the final portion of your colon.&lt;/strong&gt; During a flexible sigmoidoscopy, your doctor uses a slender, flexible, lighted tube to examine the sigmoid, the last part of your colon &amp;mdash; including the rectum. During the procedure, your doctor can also take small samples of tissue (biopsy) for laboratory analysis. Sometimes a tissue sample can help confirm a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scope exam of your entire colon.&lt;/strong&gt; A colonoscopy allows your doctor to view your entire colon using a thin, flexible, lighted tube with an attached camera. Your doctor can also take a biopsy during this test.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Testing for sexually transmitted infections.&lt;/strong&gt; This involves obtaining a sample of discharge from your rectum or from the tube (urethra) that drains urine from your bladder or from your rectum. If the cause of your proctitis is likely to be an STI your doctor may insert a narrow swab into the end of your urethra or anus to obtain the sample, which is then tested for the presence of bacteria or other infectious organisms. The results can be used to select the most effective treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of flexible sigmoidoscopy exam 
+" Caption="During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+" Height="60" Title="Sigmoidoscopy exam" URI="/images/image_popup/thumbs/hdg7_sigmoidoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of flexible sigmoidoscopy exam 
+" Caption="During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+" Height="362" Title="Sigmoidoscopy exam" URI="/images/image_popup/hdg7_sigmoidoscopy.jpg" Width="400" />
+				<HTML>
+					During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for proctitis depends on the underlying cause of the inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for proctitis caused by an infection&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend medications to alleviate the cause of your infection. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; For proctitis caused by bacterial infections, your doctor may recommend an antibiotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antivirals.&lt;/strong&gt; For proctitis caused by viral infections, such as the sexually transmitted virus herpes, your doctor may prescribe an antiviral medication.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for proctitis caused by radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Mild cases of radiation proctitis may not require treatment. In other cases, radiation proctitis can cause severe pain and bleeding that requires treatment. Your doctor may recommend treatments such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Anti-inflammatory drugs such as sucralfate can be administered in pill, suppository or enema form. These medications can help control inflammation and reduce bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stool softeners and dilation&lt;/strong&gt; can help open up obstructions in the bowel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment to destroy damaged tissue.&lt;/strong&gt; These techniques improve proctitis symptoms by destroying abnormal, bleeding tissue. Ablation procedures used to treat proctitis include laser therapy and argon plasma coagulation (APC). Laser therapy uses a beam of light (laser) inserted in the rectum to burn away lesions, while APC uses a jet of argon gas along with an electric current.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Proctitis caused by inflammatory bowel disease&lt;/strong&gt; &lt;br /&gt;
+Treatment of proctitis related to Crohn&apos;s disease or ulcerative colitis is aimed at reducing the inflammation in your rectum. Treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control rectal inflammation.&lt;/strong&gt; Your doctor may prescribe anti-inflammatory medications, such as mesalamine (Asacol, Canasa, others) or corticosteroids. These drugs are available in pill, suppository or enema form. Steroid suppositories or enemas may ease inflammation in your rectum. Inflammation in people with Crohn&apos;s disease often requires treatment with a medication that suppresses the immune system, such as infliximab (Remicade). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If drug therapy doesn&apos;t relieve your signs and symptoms, your doctor may recommend surgery to remove a damaged portion of your digestive tract.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Eosinophilic proctitis&lt;/strong&gt; &lt;br /&gt;
+Removing different nutrients from the diet, and then reintroducing them later, is an effective treatment strategy for this problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For temporary relief of mild pain and inflammation, try the following self-care measures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor before using over-the-counter (OTC) diarrhea medicines.&lt;/strong&gt; Don&apos;t take OTC anti-diarrhea drugs, such as loperamide (Imodium A-D), without your doctor&apos;s OK.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid food just before bedtime.&lt;/strong&gt; Eating just before going to bed may stimulate your digestive system and cause you to have bowel movements and discomfort at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take over-the-counter pain relievers.&lt;/strong&gt; Acetaminophen (Tylenol, others), aspirin or ibuprofen (Advil, Motrin, others) may relieve your discomfort. However, if you have colitis, pain relievers such as aspirin or ibuprofen could make your condition worse. Talk to your doctor before taking them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a sitz bath with warm water.&lt;/strong&gt; A sitz bath fits over the toilet. You can get one at a medical supply store or some pharmacies. This may provide some comfort if you experience anal inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce your risk of proctitis, take steps to protect yourself from sexually transmitted infections (SDI). The surest way to prevent SDIs is to abstain from sex, especially anal sex. If you choose to have sex, reduce your risk of SDI by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Limiting your number of sex partners&lt;/li&gt;
+	&lt;li&gt;Using a latex condom during each sexual contact&lt;/li&gt;
+	&lt;li&gt;Not having sex with anyone who has any unusual sores or discharge in the genital area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re diagnosed with a sexually transmitted infection, stop having sex until after you&apos;ve completed treatment. That way you can avoid passing the infection to your partner. Ask your doctor when it&apos;s safe to have sex again. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Proctitis
+	</Title>
+	<Abstract>
+		Proctitis &amp;mdash; Comprehensive overview covers symptoms, causes, complications, treatments of rectal inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+		<LinkItem ContentType="Disease" DocID="DS01195" LinkType="Internal" ObjectID="05F10683-BC33-8F61-FB967C1548DE76A1" Title="Inflammatory bowel disease (IBD)" Url="http://www.mayoclinic.com/health/inflammatory-bowel-disease/DS01195" />
+	</RelatedLinksBox>
+</Disease>

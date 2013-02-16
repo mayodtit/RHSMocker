@@ -1,0 +1,210 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00422
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00422
+		</OriginalURL>
+		<UpdateDate>
+			2008-08-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			384A6051-0032-49B7-9650603BDAD77DE4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Polenta with roasted Mediterranean vegetables
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; To best prepare this recipe, cut all of the vegetables a day ahead of time and put into a covered container and refrigerate. You may roast the eggplant, zucchini, mushrooms and red pepper earlier in the day. Cover and refrigerate the vegetables until needed.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Heat the broiler (grill). Position the rack 4 inches from the heat source.&lt;/p&gt;
+
+&lt;p&gt;Brush the eggplant, zucchini, mushrooms and red pepper with 1 tablespoon of the olive oil. Arrange in single layer on a baking sheet and broil under low heat. Turn as needed and brush occasionally with 1 tablespoon olive oil. When tender and slightly browned, remove from the broiler (grill). Use immediately or cover and refrigerate for later use.&lt;/p&gt;
+
+&lt;p&gt;Preheat the oven to 350 F. Coat a decorative, ovenproof 12-inch flan or quiche dish with cooking spray.&lt;/p&gt;
+
+&lt;p&gt;In a medium saucepan, bring water to a boil. Reduce heat and slowly whisk in polenta. Continue to stir and cook for about 5 minutes. When polenta comes away from side of pan, stir in margarine and season with 1/8 teaspoon of the black pepper. Remove from heat.&lt;/p&gt;
+
+&lt;p&gt;Spread polenta into the base and sides of the baking dish. Brush with 1 teaspoon olive oil. Place in the oven and bake for 10 minutes. Remove and keep warm.&lt;/p&gt;
+
+&lt;p&gt;Drain spinach and press between paper towels. Top polenta with spinach. Arrange a layer of sliced tomatoes, chopped sun-dried tomatoes and olives. Top with remaining roasted vegetables. Sprinkle with oregano and the remaining 1/8 teaspoon black pepper. Return to the oven for another 10 minutes. When warmed through, remove from the oven. Cut into 6 wedges and serve.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;1 small eggplant, peeled, cut into 1/4-inch slices&lt;br /&gt;
+1 small yellow zucchini, cut into 1/4-inch slices&lt;br /&gt;
+1 small green zucchini, cut into 1/4-inch slices&lt;br /&gt;
+6 medium mushrooms, sliced&lt;br /&gt;
+1 sweet red pepper, seeded, cored and cut into chunks&lt;br /&gt;
+2 tablespoons plus 1 teaspoon extra-virgin olive oil&lt;br /&gt;
+6 cups water&lt;br /&gt;
+1 1/2 cups coarse polenta (corn grits)&lt;br /&gt;
+2 teaspoons trans-free margarine&lt;br /&gt;
+1/4 teaspoon cracked black pepper&lt;br /&gt;
+10 ounces frozen spinach, thawed&lt;br /&gt;
+2 plum (Roma) tomatoes, sliced&lt;br /&gt;
+6 dry-packed sun-dried tomatoes, soaked in water to rehydrate, drained and chopped&lt;br /&gt;
+10 ripe olives, chopped&lt;br /&gt;
+2 teaspoons oregano&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				2
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				2
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				245
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				39 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				7 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				6 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				2 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 wedge
+			</Servingsize>
+			<Sodium Label="Sodium">
+				90 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				7 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

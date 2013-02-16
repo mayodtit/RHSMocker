@@ -1,0 +1,204 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00094
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bilirubin/MY00094
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3652" Title="Digestive system">
+						<Keyword MCVID="3891" Title="Bilirubin test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B729B58C-E7FF-0DBD-12F16E2756745D18
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				bilirubin testing
+			</MetaKeyword>
+			<MetaKeyword>
+				bilirubin test
+			</MetaKeyword>
+			<MetaKeyword>
+				billirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbilirubinemia
+			</MetaKeyword>
+			<MetaKeyword>
+				high bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				bilirubin levels
+			</MetaKeyword>
+			<MetaKeyword>
+				liver bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				elevated bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				liver function tests
+			</MetaKeyword>
+			<MetaKeyword>
+				elevated liver enzymes
+			</MetaKeyword>
+			<MetaKeyword>
+				high liver enzymes
+			</MetaKeyword>
+			<MetaKeyword>
+				liver panel
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bilirubin testing checks for levels of bilirubin in your blood. Bilirubin (bil-ih-ROO-bin), an orange-yellow pigment, is a waste product of the normal breakdown of red blood cells. Bilirubin passes through the liver and eventually out of the body &amp;mdash; mostly in feces, a small amount in urine. 
+&lt;/p&gt;
+&lt;p&gt;
+Before reaching the liver, bilirubin is called unconjugated, meaning uncombined. In the liver, bilirubin combines with certain sugars to create a water-soluble form called conjugated bilirubin. Conjugated bilirubin passes out of the liver, and in the colon, it is converted back into the unconjugated form en route to being excreted from the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Most laboratories use a test that detects conjugated bilirubin, which is called direct. By subtracting the direct bilirubin from the amount of total bilirubin, an estimate of unconjugated bilirubin, called indirect, is obtained. 
+&lt;/p&gt;
+&lt;p&gt;
+Higher than normal levels of direct or indirect bilirubin may indicate different types of liver problems. Occasionally, higher bilirubin levels may indicate an increased rate of destruction of red blood cells (hemolysis). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bilirubin testing is usually done as part of a group of tests to evaluate the health of your liver. Bilirubin testing may be done to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Investigate jaundice &amp;mdash; elevated levels of bilirubin can cause yellowing of your skin and the whites of your eyes (jaundice). The most common use of the test is to measure bilirubin levels in newborns.&lt;/li&gt;
+	&lt;li&gt;Determine whether there&apos;s a blockage in your liver&apos;s bile ducts&lt;/li&gt;
+	&lt;li&gt;Help detect or monitor the progression of other liver disease, such as hepatitis&lt;/li&gt;
+	&lt;li&gt;Help detect increased destruction of red blood cells&lt;/li&gt;
+	&lt;li&gt;Help follow how a treatment is working&lt;/li&gt;
+	&lt;li&gt;Help evaluate suspected drug toxicity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some common tests that might be done at the same time as bilirubin testing include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Liver function tests.&lt;/strong&gt; A group of blood tests that measure certain enzymes or proteins in your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Albumin and total protein.&lt;/strong&gt; Levels of albumin &amp;mdash; a protein made by the liver &amp;mdash; and total protein show how well your liver is making proteins that your body needs to fight infections and perform other functions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Complete blood count.&lt;/strong&gt; This test measures several components and features of your blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prothrombin time.&lt;/strong&gt; This test measures the clotting time of plasma.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Blood for bilirubin testing is usually taken from a vein in your arm. The main risk associated with blood tests is soreness or bruising at the site from which your blood is drawn. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the test&lt;/strong&gt; &lt;br /&gt;
+Bilirubin testing is done using a blood sample. Usually, the blood is drawn through a small needle inserted into a vein in the bend of your arm. You&apos;ll be asked to roll up your shirt sleeve if you&apos;re wearing long sleeves. The person drawing the blood might tie a band around your upper arm and ask you to make a fist. This causes your vein to stand out more, making it easier to insert the needle into the vein. The needle is attached to a small tube, in which your blood is collected. All of this usually takes just a few minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood for bilirubin testing in newborns is usually obtained using a sharp lance to break the skin of the heel (heel stick). 
+&lt;/p&gt;
+&lt;p&gt;
+You may feel a quick pain as the needle is inserted into your arm and experience some short-term discomfort at the site after the needle is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the test&lt;/strong&gt; &lt;br /&gt;
+Once the needle is removed, a piece of gauze and a bandage or similar material will be placed over the area where the needle was inserted. You&apos;ll be asked to gently apply pressure to the area for a minute or so, to help stop any bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Your blood will be sent to a laboratory for analysis. If the laboratory analysis is done on-site, you could have your test results within hours. If your doctor sends your blood to an off-site laboratory, you may receive the results within several days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Normal results for a typical bilirubin test are&lt;strong&gt; &lt;/strong&gt;0.1 to 1 milligram per deciliter (mg/dL) of total bilirubin (direct plus indirect) and 0 to 0.3 mg/dL for direct. These results may vary slightly from laboratory to laboratory and are typical for adult men. Normal results may be slightly different for women and children, and results may be affected by certain foods, medications or strenuous exercise. Be sure to tell your doctor about any foods or medications you&apos;ve taken and your activity levels so that your results can be interpreted correctly. 
+&lt;/p&gt;
+&lt;p&gt;
+Lower than normal bilirubin levels are usually not a concern. Elevated levels may indicate liver damage or disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Higher than normal levels of direct bilirubin in your blood may indicate your liver isn&apos;t clearing bilirubin properly, for example, because of a blocked bile duct. Elevated levels of indirect bilirubin may indicate other problems. One common, and harmless, cause of elevated bilirubin is Gilbert&apos;s syndrome, a deficiency in an enzyme that helps break down bilirubin. Your doctor may order further tests to investigate your condition. Bilirubin test results also may be used to monitor the progression of certain conditions such as jaundice. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bilirubin test
+	</Title>
+	<Abstract>
+		Bilirubin test &amp;mdash; Overview covers definition, results of this test for liver disease.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

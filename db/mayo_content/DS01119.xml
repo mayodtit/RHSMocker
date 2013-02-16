@@ -1,0 +1,321 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01119
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/jellyfish-stings/DS01119
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-01
+		</UpdateDate>
+		<PublicationDate>
+			2009-09-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4424" Title="Jellyfish stings" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4A08200B-E7FF-0DBD-1DD0E95D4B47C712
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				jellyfish stings
+			</MetaKeyword>
+			<MetaKeyword>
+				jellyfish sting
+			</MetaKeyword>
+			<MetaKeyword>
+				jelly fish stings
+			</MetaKeyword>
+			<MetaKeyword>
+				sea nettle
+			</MetaKeyword>
+			<MetaKeyword>
+				box jellyfish
+			</MetaKeyword>
+			<MetaKeyword>
+				lion&apos;s mane
+			</MetaKeyword>
+			<MetaKeyword>
+				lions mane
+			</MetaKeyword>
+			<MetaKeyword>
+				Portugese man of war
+			</MetaKeyword>
+			<MetaKeyword>
+				Portugese man-of-war
+			</MetaKeyword>
+			<MetaKeyword>
+				bluebottle
+			</MetaKeyword>
+			<MetaKeyword>
+				sea wasp
+			</MetaKeyword>
+			<MetaKeyword>
+				marine safety
+			</MetaKeyword>
+			<MetaKeyword>
+				marine first aid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Jellyfish stings are relatively common problems for people swimming, wading or diving in seawaters. The long tentacles trailing from the jellyfish body can discharge thousands of microscopic barbed stingers that release venom into your skin.
+&lt;/p&gt;
+&lt;p&gt;
+Jellyfish stings can vary greatly in severity. Most often they result in immediate pain and red, irritated marks on the skin. Some jellyfish stings may cause more whole-body (systemic) illness, and in rare cases, jellyfish stings are life-threatening.
+&lt;/p&gt;
+&lt;p&gt;
+Most jellyfish stings get better with home treatment, but severe reactions require emergency medical care.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The severity of reactions to jellyfish stings depend on a number of factors, including the species and size of the jellyfish, the age and size of the person, the duration of exposure, and the area of skin affected. Common signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Immediate burning pain&lt;/li&gt;
+	&lt;li&gt;Red, brown or purplish tracks on the skin &amp;mdash; essentially a &quot;print&quot; of a tentacle&apos;s contact with your skin&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Tingling and numbness&lt;/li&gt;
+	&lt;li&gt;Throbbing pain that may radiate up a leg or arm to the torso&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If left untreated the symptoms generally resolve within one to two weeks. Discoloration of the skin may last one to two months.
+&lt;/p&gt;
+&lt;p&gt;
+Severe jellyfish stings can affect multiple body systems (systemic reaction), not just your skin. These reactions may appear rapidly or several hours after a sting. Signs and symptoms of severe jellyfish stings can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Muscle spasms&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Trouble controlling muscle movement&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Painful joints&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Sudden loss of heart function (cardiac arrest)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Although jellyfish stings can be quite painful, most are minor and get better with home treatment.
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency treatment if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Stings cover large areas of skin&lt;/li&gt;
+	&lt;li&gt;You have any systemic symptoms or a severe reaction&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Jellyfish tentacles contain microscopic barbed stingers (nematocysts). Each nematocyst is made up of a tiny bulb that holds venom and a coiled, sharp-tipped tube. The jellyfish uses the venom to protect itself and kill prey.
+&lt;/p&gt;
+&lt;p&gt;
+When something comes in contact with the tentacle &amp;mdash; a fish or a human &amp;mdash; tiny triggers on the surface of the tentacle release the nematocysts. The sharp tube penetrates the skin and releases the venom, which affects the immediate area of contact and may enter the bloodstream.
+&lt;/p&gt;
+&lt;p&gt;
+Jellyfish that have washed up on a beach may still release venomous stingers if touched.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of jellyfish&lt;/strong&gt;&lt;br /&gt;
+While many types of jellyfish are relatively harmless to humans, some can cause severe pain and are more likely to cause systemic reactions. Types of jellyfish known to cause more-serious problems in people include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Box jellyfish.&lt;/strong&gt; Also called sea wasps, box jellyfish are generally the most harmful jellyfish to humans and can cause significant pain. Life-threatening reactions &amp;mdash; although still relatively rare &amp;mdash; are more common with these species. The more dangerous species of box jellyfish are found in the warm waters of the Pacific and Indian oceans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Portuguese man-of-wars.&lt;/strong&gt; Also called bluebottle jellyfish, these species live mostly in warmer seas. A Portuguese man-of-war has a blue or purplish gas-filled bubble that keeps it afloat on the surface of the water and acts as a sail.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sea nettles.&lt;/strong&gt; Common in both warm and moderately cool seawaters, sea nettles are the most common species of jellyfish on the northeast coast of the United States and abundant in the Chesapeake Bay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lion&apos;s mane jellyfish.&lt;/strong&gt; These are the world&apos;s largest jellyfish. The body of a lion&apos;s mane can reach a diameter of 10 feet (3 meters). They are most common in cooler, northern regions of the Pacific and Atlantic oceans.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Older people and children, as well as those in poor health, are more likely to have severe reactions to jellyfish stings.
+&lt;/p&gt;
+&lt;p&gt;
+Conditions that can increase your risk of getting stung by jellyfish include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swimming on a downwind shore&lt;/li&gt;
+	&lt;li&gt;Swimming at times when jellyfish appear in large numbers (known as a jellyfish bloom)&lt;/li&gt;
+	&lt;li&gt;Swimming or diving without protective clothing in jellyfish areas&lt;/li&gt;
+	&lt;li&gt;Playing or sunbathing in an area where jellyfish are washed up on the beach&lt;/li&gt;
+	&lt;li&gt;Swimming in a location known to have large numbers of jellyfish&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, jellyfish stings don&apos;t cause long-term complications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypersensitivity&lt;/strong&gt;&lt;br /&gt;
+Some people experience a delayed hypersensitivity &amp;mdash; an allergy-like reaction to the venom &amp;mdash; that may produce blisters, rash or other skin irritations a week or more after the jellyfish sting.
+&lt;/p&gt;
+&lt;p&gt;
+Others who are highly sensitive to jellyfish venom can develop a severe, potentially life-threatening allergic reaction (anaphylaxis) on exposure to jellyfish. A flood of chemicals released by your immune system during anaphylaxis can cause you to go into shock. Your blood pressure drops suddenly, and the narrowing of airways block normal breathing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Rare complications&lt;/strong&gt;&lt;br /&gt;
+In rare cases jellyfish stings can cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Scarring&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most jellyfish stings can be treated with home remedies intended to deactivate stingers and ease pain. 
+&lt;/p&gt;
+&lt;p&gt;
+People experiencing severe or systemic reactions need immediate emergency care that may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Resuscitation.&lt;/strong&gt; If a jellyfish sting results in sudden loss of heart function (cardiac arrest), immediate cardiopulmonary resuscitation (CPR) is necessary. An injection of epinephrine may be required for anaphylaxis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Life support.&lt;/strong&gt; If you have a serious reaction that affects multiple body functions, the first priority in emergency treatment is to stabilize your breathing, heart rate, blood pressure and other vital functions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antivenin.&lt;/strong&gt; If the sting is from a box jellyfish, you may need an immediate dose of a drug designed to neutralize the venom (antivenin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain control.&lt;/strong&gt; If a jellyfish sting causes severe pain, an injection of pain medication may be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People who have stings covering a large area or who have experienced severe or systemic reactions are usually observed for at least six to eight hours because of possible delayed reactions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other medical treatments&lt;/strong&gt;&lt;br /&gt;
+Other circumstances may require doctor-supervised treatment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hypersensitivity.&lt;/strong&gt; A rash or other skin reaction due to delayed hypersensitivity may be treated with oral antihistamines or corticosteroid ointments or creams.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Affected eyes.&lt;/strong&gt; A jellyfish sting occurring on or near an eye requires immediate medical care for appropriate flushing of the eye. A doctor specializing in eye care (ophthalmologist) will likely examine the eye and may prescribe corticosteroid ointments or drops to treat pain and inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most jellyfish stings can be treated with relatively simple at-home remedies. Appropriate steps include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Remove tentacles.&lt;/strong&gt; When you come into contact with a jellyfish tentacle, it may detach from the jellyfish and stick to your skin. Remove any remaining pieces of tentacle by washing the area with seawater. Avoid using fresh water, because it may activate the venomous stingers (nematocysts) that are embedded in your skin but have not yet released venom. Also avoid touching the tentacles with your hands. If necessary, use an object like a credit card to gently brush it off. Rubbing it off with a towel or clothing is likely to cause the discharge of more venom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Deactivate stingers.&lt;/strong&gt; Generously rinsing the affected area with vinegar for at least 30 seconds may deactivate the nematocysts of some species &amp;mdash; essentially shutting down the nematocysts embedded in the skin that have not yet discharged venom. A deactivating treatment recommended for sea nettles or Portuguese man-of-wars is a paste made of baking soda and seawater.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relieve pain or irritation.&lt;/strong&gt; There has been some disagreement over whether cold or heat is better for relieving pain. However, recent studies have suggested that soaking the affected area in tolerably hot fresh water for at least 20 minutes &amp;mdash; after the vinegar or baking soda treatment &amp;mdash; may be more effective in pain relief, because the heat may decrease the potency of the venom. The temperature should be between 104 and 113 F (40 and 45 C). Lotions or ointments, such as calamine lotion or lidocaine, may relieve itching or discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Remedies to avoid&lt;/strong&gt;&lt;br /&gt;
+A number of at-home treatments have been proposed, but they&amp;rsquo;re generally not recommended, either because there&apos;s no research backing up their use or research indicates they aren&apos;t effective. These remedies include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Human urine&lt;/li&gt;
+	&lt;li&gt;Meat tenderizer&lt;/li&gt;
+	&lt;li&gt;Ethanol&lt;/li&gt;
+	&lt;li&gt;Pressure bandages&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips can help you avoid jellyfish stings:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a protective suit.&lt;/strong&gt; When swimming or diving in areas where jellyfish stings are possible, wear a wetsuit or other protective clothing. Diving stores sell protective &quot;skin suits&quot; or &quot;stinger suits&quot; made of thin, high-tech fabric.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get information about conditions.&lt;/strong&gt; Talk to lifeguards, local residents or officials with a local health department before swimming or diving in coastal waters, especially in areas where jellyfish are common.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid water during jellyfish season.&lt;/strong&gt; Stay out of the water when jellyfish numbers are high.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t dive.&lt;/strong&gt; To avoid stings on the face, don&apos;t dive into waters that may have jellyfish.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use protective lotions.&lt;/strong&gt; There&apos;s some clinical evidence that some lotions, such as Safe Sea lotion, may result in fewer stings after exposure to jellyfish tentacles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&amp;rsquo;re stung, leaving the water as calmly as possible, rather than splashing about, may prevent further activation of stingers.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Jellyfish stings
+	</Title>
+	<Abstract>
+		Jellyfish stings &amp;mdash; Overview covers signs, symptoms and treatment of this common ocean nuisance.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+	</RelatedLinksBox>
+</Disease>

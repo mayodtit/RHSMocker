@@ -1,0 +1,229 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00709
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/thyroidectomy/MY00709
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-06
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4179" Title="Endocrine system">
+						<Keyword MCVID="4180" Title="Surgery">
+							<Keyword MCVID="4182" Title="Thyroidectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3B7E2908-9788-8F9C-79689BBDDE8A5263
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				thyroidectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				total thyroidectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				partial thyroidectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid removal surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				removal of thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				goiter
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperthyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				overactive thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid disorders
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thyroidectomy is the removal of all or part of your thyroid gland. Your thyroid is a butterfly-shaped gland located at the base of your neck. It produces hormones that regulate every aspect of your metabolism, from your heart rate to how quickly you burn calories. 
+&lt;/p&gt;
+&lt;p&gt;
+Thyroidectomy is used to treat thyroid disorders, such as cancer, noncancerous enlargement of the thyroid (goiter) and overactive thyroid (hyperthyroidism). 
+&lt;/p&gt;
+&lt;p&gt;
+How much of your thyroid gland is removed during thyroidectomy depends on the reason for surgery. If only a portion is removed (partial thyroidectomy), your thyroid may be able to function normally after surgery. If your entire thyroid is removed (total thyroidectomy), you need daily treatment with thyroid hormone to replace your thyroid&apos;s natural function. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A thyroidectomy may be recommended for conditions such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid cancer.&lt;/strong&gt; Cancer is the most common reason for thyroidectomy. If you have thyroid cancer, removing most, if not all, of your thyroid will likely be a treatment option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Noncancerous enlargement of the thyroid (goiter)&lt;/strong&gt;. Removing all or part of your thyroid gland is an option if you have a large goiter that is uncomfortable or causes difficulty breathing or swallowing, or in some cases, if the goiter is causing hyperthyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overactive thyroid (hyperthyroidism).&lt;/strong&gt; Hyperthyroidism is a condition in which your thyroid gland produces too much of the hormone thyroxine. If you have problems with anti-thyroid drugs and don&apos;t want radioactive iodine therapy, thyroidectomy may be an option.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Thyroidectomy is generally a safe procedure. But as with any surgery, thyroidectomy carries a risk of complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Airway obstruction caused by bleeding&lt;/li&gt;
+	&lt;li&gt;Permanent hoarse or weak voice due to nerve damage&lt;/li&gt;
+	&lt;li&gt;Damage to the four small glands located behind your thyroid (parathyroid glands), which can lead to hypoparathyroidism, resulting in abnormally low calcium levels in your blood and bones and an increased amount of phosphorus in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have hyperthyroidism, your doctor may prescribe medication &amp;mdash; such as an iodine and potassium solution &amp;mdash; to regulate your thyroid function and decrease the risk of bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+You may need to avoid eating and drinking for a certain period of time before surgery, as well, to avoid anesthesia complications. Your doctor will provide specific instructions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During thyroidectomy&lt;/strong&gt; &lt;br /&gt;
+Surgeons perform thyroidectomy using general anesthesia, so you&apos;re unconscious during the procedure. The anesthesiologist or anesthetist gives you an anesthetic medication as a gas &amp;mdash; to breathe through a mask &amp;mdash; or injects a liquid medication into a vein. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgical team places several monitors on your body to help make sure that your heart rate, blood pressure and blood oxygen remain at safe levels throughout the procedure. These monitors include a blood pressure cuff on your arm and heart-monitor leads attached to your chest. 
+&lt;/p&gt;
+&lt;p&gt;
+Once you&apos;re unconscious, the surgeon makes a small incision in the front of your neck or a series of incisions under your arm, depending on the surgical technique he or she uses. All or part of the thyroid gland is then removed, depending on the reason for the surgery. If you&apos;re having thyroidectomy as a result of thyroid cancer, the surgeon may also examine and remove lymph nodes around your thyroid. Thyroidectomy usually takes several hours. 
+&lt;/p&gt;
+&lt;p&gt;
+Three main approaches to thyroidectomy exist: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Conventional thyroidectomy&lt;/strong&gt; involves making an incision in the center of your neck to directly access your thyroid gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic thyroidectomy&lt;/strong&gt; uses smaller incisions in the neck. Surgical instruments and a small video camera will be inserted through the incisions. The camera guides your surgeon through the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Robotic thyroidectomy&lt;/strong&gt; is performed either through incisions in the chest and armpit or via an incision high in the neck. The robotic approach allows a thyroidectomy to be performed while avoiding an incision in the center of your neck.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After thyroidectomy&lt;/strong&gt; &lt;br /&gt;
+After surgery, you&apos;re moved to a recovery room where the health care team monitors your recovery from the surgery and anesthesia. Once you&apos;re fully conscious, you&apos;ll be moved to a hospital room. You may have a drain under the incision in your neck. This drain is usually removed the morning after surgery. After a thyroidectomy, you may experience neck pain and a hoarse or weak voice. This doesn&apos;t necessarily mean there&apos;s permanent damage to the nerve that controls your vocal cords. These symptoms are often temporary and may be due to irritation from the breathing tube (endotracheal tube) that&apos;s inserted into your windpipe (trachea) during surgery, or as a result of nerve irritation caused by the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be able to eat and drink as usual after surgery. Most people who have thyroidectomies remain in the hospital for about 24 hours. When you go home, you can usually return to your regular activities, often within a few weeks. Talk to your doctor about specific activity restrictions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The long-term effects of thyroidectomy depend on how much of the thyroid is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Partial thyroidectomy&lt;/strong&gt; &lt;br /&gt;
+If only part of your thyroid is removed, the remaining portion typically takes over the function of the entire thyroid gland, and you don&apos;t need thyroid hormone therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Complete thyroidectomy&lt;/strong&gt; &lt;br /&gt;
+If your entire thyroid is removed, your body can&apos;t make thyroid hormone and you&apos;ll develop signs and symptoms of underactive thyroid (hypothyroidism). As a result, you&apos;ll need to take a pill every day that contains the thyroid hormone thyroxine (Levothroid, Levoxyl, others). This hormone replacement is identical to the hormone normally made by your thyroid gland and performs all of the same functions. Your doctor will determine the amount of thyroid hormone replacement you need based on blood tests. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Thyroidectomy
+	</Title>
+	<Abstract>
+		Thyroidectomy &amp;mdash; Overview covers definition, risks, results of this procedure to treat thyroid disorders.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS00492" LinkType="Internal" ObjectID="F7CF6A7B-63EA-49E6-88C057D7C9F6AA1C" Title="Thyroid cancer" Url="http://www.mayoclinic.com/health/thyroid-cancer/DS00492" />
+		<LinkItem ContentType="Disease" DocID="DS00344" LinkType="Internal" ObjectID="D0B68153-CD94-4B0E-A178CAF201C9B7EB" Title="Hyperthyroidism (overactive thyroid)" Url="http://www.mayoclinic.com/health/hyperthyroidism/DS00344" />
+		<LinkItem ContentType="Disease" DocID="DS00217" LinkType="Internal" ObjectID="C536E64D-94D2-4027-8A03FD523178A27E" Title="Goiter" Url="http://www.mayoclinic.com/health/goiter/DS00217" />
+	</RelatedLinksBox>
+</TestProcedure>

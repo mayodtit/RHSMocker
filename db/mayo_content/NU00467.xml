@@ -1,0 +1,213 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00467
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00467
+		</OriginalURL>
+		<UpdateDate>
+			2009-07-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			55D0142B-F45B-4A3A-8B845D7E6820B922
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Spicy ground turkey tacos
+	</Title>
+	<Abstract>
+		Spicy ground turkey tacos &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		2
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Taco seasoning mixes from the grocery store usually have large amounts of sodium. Here, the taco seasonings &amp;mdash; chili powder, cumin and oregano &amp;mdash; have all of the taste but none of the sodium. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+In a small bowl, stir together the chili powder, cumin and oregano. 
+&lt;/p&gt;
+&lt;p&gt;
+In a nonstick frying pan, add the ground turkey and onion. Cook over medium heat until the turkey is browned and onion is translucent. Drain well. Add the spices to the turkey mixture. Stir to mix evenly. 
+&lt;/p&gt;
+&lt;p&gt;
+To serve, place a 1/4 cup of the turkey mixture in each tortilla. Top each with 1 tablespoon cheese, 1/4 of the diced tomatoes, 1/2 cup shredded lettuce and 2 tablespoons salsa. Fold in both sides of each tortilla up over the filling, and then roll to close. Serve immediately. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;2 teaspoons chili powder&lt;/li&gt;
+	&lt;li&gt;1/2 teaspoon cumin&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon oregano&lt;/li&gt;
+	&lt;li&gt;6 ounces extra-lean ground turkey&lt;/li&gt;
+	&lt;li&gt;1/2 cup chopped onion&lt;/li&gt;
+	&lt;li&gt;4 whole-wheat, low-fat flour tortillas, about 6 inches in diameter, warmed in the microwave &lt;/li&gt;
+	&lt;li&gt;1/4 cup shredded sharp cheddar cheese&lt;/li&gt;
+	&lt;li&gt;2 cups shredded lettuce &lt;/li&gt;
+	&lt;li&gt;2 medium tomatoes, diced&lt;/li&gt;
+	&lt;li&gt;1/2 cup salsa&lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish">
+				3
+			</Meat>
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes">
+				1
+			</Meat>
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				2
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				340
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				31 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				49 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				7 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				28 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				4 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				2 tacos
+			</Servingsize>
+			<Sodium Label="Sodium">
+				423 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				13 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 2
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Saute
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Meal">
+			Lunch
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Poultry and meat
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="Spicy ground turkey tacos
+" height="100" uri="/images/billboardsmall/re1_turkeytacos.jpg" width="100" />
+</Recipe>

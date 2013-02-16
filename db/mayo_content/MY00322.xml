@@ -1,0 +1,234 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00322
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brca-gene-test/MY00322
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-28
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4002" Title="BRCA gene test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C43AECA8-E7FF-0DBD-1B147DE31D3CBEE0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				BRCA gene test
+			</MetaKeyword>
+			<MetaKeyword>
+				BRCA test
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer gene
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer gene testing
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The BRCA gene test is a blood test that uses DNA analysis to identify harmful changes (mutations) in either one of the two breast cancer susceptibility genes &amp;mdash; BRCA1 and BRCA2. Women who have inherited mutations in these genes face a much higher risk of developing breast cancer and ovarian cancer compared with the general population. The BRCA gene test is offered only to people who are likely to have an inherited mutation, based on personal or family history, or who have specific types of breast cancer. The BRCA gene test isn&apos;t routinely performed on women at average risk of breast and ovarian cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+Having a BRCA gene mutation is uncommon. Inherited BRCA gene mutations are responsible for about 5 percent of breast cancers and about 10 to 15 percent of ovarian cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+After having a BRCA gene test performed, you learn whether you carry an inherited BRCA gene mutation and receive an estimate of your personal risk of breast cancer and ovarian cancer. Genetic counseling is an important part of the BRCA gene test process. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mutations to either breast cancer gene &amp;mdash; BRCA1 or BRCA2 &amp;mdash; significantly increase your risk of breast cancer and ovarian cancer when compared with the cancer risk of a woman without a BRCA gene mutation. Men with inherited BRCA gene mutations also face an increased risk of breast cancer. BRCA mutations may increase the risk of other types of cancer in women and men as well. 
+&lt;/p&gt;
+&lt;p&gt;
+You might be at increased risk of having a BRCA gene mutation &amp;mdash; and a candidate for BRCA gene testing &amp;mdash; if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A personal history of breast cancer diagnosed at a young age (premenopausal), breast cancer affecting both breasts (bilateral breast cancer), or both breast and ovarian cancers&lt;/li&gt;
+	&lt;li&gt;A personal history of ovarian cancer and a close relative with ovarian cancer or premenopausal breast cancer or both&lt;/li&gt;
+	&lt;li&gt;A history of breast cancer at a young age in two or more close relatives, such as your parents, siblings and children&lt;/li&gt;
+	&lt;li&gt;A male relative with breast cancer&lt;/li&gt;
+	&lt;li&gt;A family member who has both breast and ovarian cancers&lt;/li&gt;
+	&lt;li&gt;A family member with bilateral breast cancer&lt;/li&gt;
+	&lt;li&gt;Two or more relatives with ovarian cancer&lt;/li&gt;
+	&lt;li&gt;A relative with a known BRCA1 or BRCA2 mutation&lt;/li&gt;
+	&lt;li&gt;Ashkenazi (Eastern European) Jewish ancestry, with a close relative who has breast or ovarian cancer&lt;/li&gt;
+	&lt;li&gt;Ashkenazi Jewish ancestry and a personal history of ovarian cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Who should consider BRCA gene testing?&lt;/strong&gt; &lt;br /&gt;
+Ideally, in a family that might carry a BRCA mutation, the youngest family member who has breast cancer will have the BRCA gene test first. Genetic counselors can help you identify who this person is, based on family history. If this individual agrees to genetic testing and doesn&apos;t carry the BRCA gene mutation, then other family members won&apos;t benefit from taking the test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s really no medical risk associated with being tested for a BRCA gene mutation. Rather, risks are tied to the emotional, financial, medical and social implications of your test results. 
+&lt;/p&gt;
+&lt;p&gt;
+If you test positive for a BRCA gene mutation, you may face: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feelings of anxiety, anger, sadness or depression&lt;/li&gt;
+	&lt;li&gt;Concerns over possible insurance discrimination &lt;/li&gt;
+	&lt;li&gt;Strained family relationships over learning of a familial genetic mutation&lt;/li&gt;
+	&lt;li&gt;Difficult decisions about preventive measures that have long-term consequences&lt;/li&gt;
+	&lt;li&gt;Feelings of &quot;inevitability&quot; that you&apos;ll get cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+On the other hand, if you test negative for a BRCA mutation or your results aren&apos;t clear-cut, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Uncertainty and concern that your result may not be a true negative result&lt;/li&gt;
+	&lt;li&gt;&quot;Survivor guilt&quot; if your family has a known gene mutation that may affect your loved ones&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The first step in the BRCA gene testing process is to meet with a genetic counselor. As soon as you consider having any genetic test, meet with a genetic counselor to determine whether it&apos;s appropriate for you and to discuss the potential risks, limitations and benefits. 
+&lt;/p&gt;
+&lt;p&gt;
+The genetic counselor takes a detailed family and medical history, assesses your risk of developing cancer, discusses risks and benefits of genetic testing, and outlines your options. 
+&lt;/p&gt;
+&lt;p&gt;
+To prepare for your meeting with a genetic counselor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gather information about your family&apos;s medical history, especially that of close relatives.&lt;/li&gt;
+	&lt;li&gt;Document your personal medical history, including collecting records from specialists or results of previous genetic testing, if available.&lt;/li&gt;
+	&lt;li&gt;Write down questions you have for the counselor.&lt;/li&gt;
+	&lt;li&gt;Consider having a friend or family member accompany you to help ask questions or take notes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Whether or not to proceed with genetic testing after you meet with a genetic counselor is up to you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you decide to have a BRCA gene test done, prepare yourself for the emotional and social implications that learning your genetic status might have. Test results could also fail to provide you with clear-cut answers regarding your cancer risk, so you should be ready to face that possibility, too. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The BRCA gene test is a blood test. A doctor, nurse or medical technician inserts a needle into a vein, usually in your arm, to draw the blood sample needed for testing. Your blood sample then goes to a laboratory for DNA analysis. It takes several weeks before test results are available. You meet with your genetic counselor again to learn your test results, discuss their implications and go over your options. Federal and state laws help ensure the privacy of your genetic information and protect against discrimination in health insurance and employment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your test results may be positive, negative or uncertain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Positive test result&lt;/strong&gt; &lt;br /&gt;
+A positive test result means that you have a harmful mutation in one of the breast cancer genes, BRCA1 or BRCA2, and a much higher risk of developing breast cancer or ovarian cancer compared with someone at average risk of developing these cancers. But a positive result doesn&apos;t mean that you&apos;ll ultimately develop cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Follow-up care after a positive test result might include taking specific measures to reduce your cancer risk. What you choose to do depends on many factors - including your age, medical history, prior treatments, past surgeries and personal preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+To reduce your cancer risk after a positive test result, you might: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increase screening (surveillance).&lt;/strong&gt; Surveillance for breast cancer if you have a BRCA mutation means having clinical breast exams every six months, and mammograms and magnetic resonance imaging (MRI) exams every year. These tests don&apos;t prevent breast cancer but may help detect it early. You may also choose to perform monthly breast self-exams to become familiar with the normal texture of your breast tissue. Potentially worrisome breast changes may be easier for you to detect earlier if you know what&apos;s normal. Surveillance for ovarian cancer includes having semiannual pelvic exams, transvaginal ultrasound imaging and blood tests to measure your cancer antigen 125 levels. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use oral contraceptives.&lt;/strong&gt; Oral contraceptive use has been shown to reduce ovarian cancer risk in BRCA mutation carriers. Your risk of breast cancer goes up slightly if you use oral contraceptives for more than five years, however. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a medication to reduce your risk of cancer (chemoprevention).&lt;/strong&gt; Tamoxifen reduces the risk of developing breast cancer by about 50 percent in women who are at increased risk of the disease. Some studies have shown that tamoxifen may help lower the risk in women with a BRCA gene mutation. Another possible preventive medication is raloxifene (Evista), which also helps reduce the chance of breast cancer in postmenopausal women at high risk, though it hasn&apos;t been studied specifically in women with BRCA mutations. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Undergo preventive surgery.&lt;/strong&gt; Preventive (prophylactic) mastectomy &amp;mdash; surgical removal of healthy breast tissue &amp;mdash; reduces breast cancer risk by about 90 percent. Removal of healthy fallopian tubes and ovaries (preventive salpingo-oophorectomy) reduces breast cancer risk by 50 percent in premenopausal women, and it reduces ovarian cancer risk by more than 90 percent in both pre- and postmenopausal women. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preventive surgery doesn&apos;t eliminate all cancer risk. It&apos;s possible that cancer still might develop in any tissue that couldn&apos;t be removed through surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Negative or uncertain test result&lt;/strong&gt; &lt;br /&gt;
+A negative test result means that no BRCA gene mutation was found. However, drawing a conclusion about your cancer risk is still a bit difficult. The test result is considered a &quot;true negative&quot; only if it finds that you don&apos;t carry a specific BRCA mutation &amp;mdash; that is, one that&apos;s already been identified in a relative of yours. In addition, a negative test result, while reassuring with regard to reducing the risk of a hereditary breast cancer, doesn&apos;t eliminate the chance of developing a nonhereditary breast cancer. You still have the same cancer risk as that of the general population. 
+&lt;/p&gt;
+&lt;p&gt;
+Although the BRCA gene test can detect the majority of mutations in the BRCA1 and BRCA2 genes, it&apos;s possible that you could have a gene mutation that the test wasn&apos;t able to detect. Or you may be at high risk of hereditary cancer if your family carries a high-risk gene mutation that researchers haven&apos;t yet identified and developed a test for. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		BRCA gene test for breast cancer
+	</Title>
+	<Abstract>
+		BRCA gene test &amp;mdash; Overview covers definition, results of testing for specific breast cancer genes.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</TestProcedure>

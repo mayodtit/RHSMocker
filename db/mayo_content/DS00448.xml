@@ -1,0 +1,301 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00448
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bakers-cyst/DS00448
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-01
+		</UpdateDate>
+		<PublicationDate>
+			2002-06-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2277" Title="Knee">
+						<Keyword MCVID="2729" Title="Baker&apos;s cyst" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			832BF70D-9516-4756-872E946C9961C8D6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Baker&apos;s cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				knee inflammation
+			</MetaKeyword>
+			<MetaKeyword>
+				knee
+			</MetaKeyword>
+			<MetaKeyword>
+				knees
+			</MetaKeyword>
+			<MetaKeyword>
+				cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				bakers cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				baker cyst
+			</MetaKeyword>
+			<MetaKeyword>
+				bursa
+			</MetaKeyword>
+			<MetaKeyword>
+				synovial fluid
+			</MetaKeyword>
+			<MetaKeyword>
+				bulge
+			</MetaKeyword>
+			<MetaKeyword>
+				bulge behind the knee
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A Baker&apos;s cyst is a fluid-filled cyst that causes a bulge and a feeling of tightness behind your knee. The pain can get worse when you fully flex or extend your knee or when you&apos;re active. 
+&lt;/p&gt;
+&lt;p&gt;
+A Baker&apos;s cyst, also called a popliteal (pop-LIT-e-ul) cyst, is usually the result of a problem with your knee joint, such as arthritis or a cartilage tear. Both conditions can cause your knee to produce too much fluid, which can lead to a Baker&apos;s cyst.
+&lt;/p&gt;
+&lt;p&gt;
+Although a Baker&apos;s cyst may cause swelling and make you uncomfortable, treating the probable underlying problem usually provides relief.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Baker&apos;s cyst 
+" Caption="Swelling on the back of one knee may be a Baker&apos;s cyst. A Baker&apos;s cyst can form when joint-lubricating fluid overfills a cushioning pouch (bursa) at the back of your knee. 
+" Height="60" Title="Baker&apos;s cyst" URI="/images/image_popup/thumbs/mcdc7_bakerscystthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Baker&apos;s cyst 
+" Caption="Swelling on the back of one knee may be a Baker&apos;s cyst. A Baker&apos;s cyst can form when joint-lubricating fluid overfills a cushioning pouch (bursa) at the back of your knee. 
+" Height="431" Title="Baker&apos;s cyst" URI="/images/image_popup/mcdc7_bakerscyst.jpg" Width="400" />
+				<HTML>
+					Swelling on the back of one knee may be a Baker&apos;s cyst. A Baker&apos;s cyst can form when joint-lubricating fluid overfills a cushioning pouch (bursa) at the back of your knee. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, a Baker&apos;s cyst causes no pain, and you may not even notice it. If you do experience signs and symptoms, you may notice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling behind your knee, and sometimes in your leg&lt;/li&gt;
+	&lt;li&gt;Knee pain&lt;/li&gt;
+	&lt;li&gt;Stiffness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your symptoms may be worse after you&apos;ve been active, or even if you&apos;ve just been standing for a long time.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you&apos;re experiencing pain and swelling behind your knee, see your doctor to determine the cause. Though unlikely, a bulge behind your knee may be a sign of a more serious condition rather than a fluid-filled cyst. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A lubricating fluid called synovial (sih-NO-vee-ul) fluid helps your leg swing smoothly and reduces friction between the moving parts of your knee. 
+&lt;/p&gt;
+&lt;p&gt;
+But, sometimes the knee produces too much synovial fluid, resulting in buildup of fluid in an area on the back of your knee (popliteal bursa), causing a Baker&apos;s cyst. This can happen because of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation of the knee joint, such as occurs with various types of arthritis&lt;/li&gt;
+	&lt;li&gt;A knee injury, such as a cartilage tear&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rarely, a Baker&apos;s cyst bursts and synovial fluid leaks into the calf region, causing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sharp pain in your knee&lt;/li&gt;
+	&lt;li&gt;Swelling&lt;/li&gt;
+	&lt;li&gt;Sometimes, redness of your calf or a feeling of water running down your calf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms closely resemble those of a blood clot in a vein in your leg. If you have swelling and redness of your calf, you&apos;ll need prompt medical evaluation to rule out a more serious cause of your symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because doctor&apos;s appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For a Baker&apos;s cyst, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused this cyst to develop?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is a Baker&apos;s cyst temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;What steps can I take on my own that might help?&lt;/li&gt;
+	&lt;li&gt;Do I need to limit my activity? If so, how much? And, for how long?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. How can I best manage these conditions together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you feel pain or stiffness all the time, or does the pain come and go with activity?&lt;/li&gt;
+	&lt;li&gt;Does your knee swell, feel unstable or lock?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If the cyst isn&apos;t causing you pain, you may not need to do anything prior to seeing your doctor. However, if the cyst is causing symptoms, such as pain and stiffness, taking the following steps may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use a cold pack or ice wrapped in a protective covering to ice the affected area when it&apos;s bothering you.&lt;/li&gt;
+	&lt;li&gt;Rest your affected knee and keep the leg elevated whenever possible.&lt;/li&gt;
+	&lt;li&gt;Take an over-the-counter pain-relieving medication to ease your symptoms. Ibuprofen (Advil, Motrin IB, others) and naproxen (Aleve, others) can reduce pain and inflammation, while acetaminophen (Tylenol, others) can ease pain.&lt;/li&gt;
+	&lt;li&gt;Use a knee sleeve or brace for compression.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A Baker&apos;s cyst can often be diagnosed with a physical exam. However, because some of the signs and symptoms of a Baker&apos;s cyst mimic those of more-serious conditions, such as a blood clot, aneurysm or tumor, your doctor may order noninvasive imaging tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ultrasound&lt;/li&gt;
+	&lt;li&gt;Magnetic resonance imaging (MRI)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many times, no treatment is required and a Baker&apos;s cyst will disappear on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+If the cyst is very large and causes a lot of pain, your doctor may use the following treatments: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Your doctor may inject a corticosteroid medication, such as cortisone, into your knee to reduce inflammation. This may relieve pain, but it doesn&apos;t always prevent recurrence of the cyst.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid drainage.&lt;/strong&gt; Your doctor may drain the fluid from the knee joint using a needle. This is called needle aspiration and is often performed under ultrasound guidance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; Icing, a compression wrap and crutches may help reduce pain and swelling. Gentle range-of-motion and strengthening exercises for the muscles around your knee also may help to reduce your symptoms and preserve knee function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Typically though, doctors treat the underlying cause rather than the Baker&apos;s cyst itself. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor determines that a cartilage tear is causing the overproduction of synovial fluid, he or she may recommend surgery to remove or repair the torn cartilage. 
+&lt;/p&gt;
+&lt;p&gt;
+Baker&apos;s cysts associated with osteoarthritis may stay swollen even if you&apos;re receiving arthritis treatment. You and your doctor may discuss surgery to remove the cyst if it doesn&apos;t resolve and it affects your joint movement. Baker&apos;s cyst removal may be an option for a cyst that repeatedly refills after you have it drained with a needle. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor determines that arthritis is causing the cyst, he or she may advise you to take some or all of the following steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Follow the R.I.C.E. principles.&lt;/strong&gt; These letters stand for rest, ice, compression and elevation. Rest your leg. Ice the inflamed area. Compress your knee with a wrap, sleeve or brace. And elevate your leg when possible, especially at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter&lt;/strong&gt;&lt;strong&gt; pain-relieving medications.&lt;/strong&gt; Drugs such as ibuprofen (Advil, Motrin IB, others), naproxen (Aleve, others), acetaminophen (Tylenol, others) and aspirin can help relieve pain. Follow the dosing instructions on the package. Don&apos;t take more than the recommend dosage. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scale back your physical activity.&lt;/strong&gt; Doing so will reduce irritation of your knee joint. Your doctor can offer you guidance on how long you need to reduce your activity levels, and he or she may be able to suggest alternative forms of exercise you can do in the meantime.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Baker&apos;s cyst
+	</Title>
+	<Abstract>
+		Baker&apos;s cyst &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this bulge behind the knee.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+	</RelatedLinksBox>
+</Disease>

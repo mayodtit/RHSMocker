@@ -1,0 +1,119 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01835
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/acne-scars/AN01835
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2833" Title="Acne" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0F62BDED-E7FF-0DBD-158CCC229E57482A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acne scars
+			</MetaKeyword>
+			<MetaKeyword>
+				acne scar
+			</MetaKeyword>
+			<MetaKeyword>
+				acne
+			</MetaKeyword>
+			<MetaKeyword>
+				acne scarring
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Acne scars are stubborn, and no single treatment is best for everyone. However, various procedures can improve your complexion. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Laser treatments.&lt;/strong&gt; In laser resurfacing, a laser beam destroys the outer layer of skin. As the wound heals, new skin forms. Less intense lasers cause less damage, but are also less effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other energy-based procedures.&lt;/strong&gt; Pulsed light sources and radiofrequency devices help create new skin without damaging the outer layer of skin. After several treatments, acne scars may appear less noticeable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dermabrasion.&lt;/strong&gt; This procedure involves removing the top layer of skin with a rapidly rotating wire brush. Surface scars may be completely removed, and deeper acne scars may appear less noticeable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; In some cases, surgery to remove deeply indented acne scars is an option. A minor procedure, called punch excision, cuts out individual acne scars. Stitches or a skin graft repairs the hole left at the scar site.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tissue fillers.&lt;/strong&gt; Injecting collagen or fat under the skin and into the acne scars can fill out or stretch the skin, making acne scars less noticeable. Results are temporary, so you&apos;d need to repeat the injections periodically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To determine what&apos;s best for you, discuss the pros and cons of each procedure with your doctor or dermatologist.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acne scars: What&apos;s the best treatment?
+	</Title>
+	<Abstract>
+		Various procedures can improve acne scars, but no single treatment is best for everyone.
+	</Abstract>
+	<Question>
+		What&apos;s the best treatment for acne scars?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00818" LinkType="Internal" ObjectID="C17C47BA-E7FF-0DBD-1B9FF3B89B16C294" Title="Hidradenitis suppurativa" Url="http://www.mayoclinic.com/health/hidradenitis-suppurativa/DS00818" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02019" LinkType="Internal" ObjectID="A17FD5F4-0368-EB6D-C682D15494E9D436" Title="Chemical peel" Url="http://www.mayoclinic.com/health/chemical-peel/MY02019" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02017" LinkType="Internal" ObjectID="A17AC65B-B476-506E-F9A111DA92E98CA4" Title="Dermabrasion" Url="http://www.mayoclinic.com/health/dermabrasion/MY02017" />
+		<LinkItem ContentType="Answer" DocID="AN02106" LinkType="Internal" ObjectID="4CD7951E-E4A3-AB95-961F4C48E0073E2A" Title="Pregnancy acne: What&apos;s the best treatment?" Url="http://www.mayoclinic.com/health/pregnancy-acne/AN02106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00560" LinkType="Internal" ObjectID="4C6589A4-D708-3450-0D8FE75D27CACA0A" Title="Laser resurfacing" Url="http://www.mayoclinic.com/health/laser-resurfacing/MY00560" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Answer" DocID="AN01716" LinkType="Internal" ObjectID="FA6C603F-E7FF-0DBD-1B9FB80FA60E4697" Title="Natural acne treatment: What&apos;s most effective?" Url="http://www.mayoclinic.com/health/natural-acne-treatment/AN01716" />
+		<LinkItem ContentType="Answer" DocID="AN01762" LinkType="Internal" ObjectID="ABD236EF-E7FF-0DBD-1382AC3A91DC0A9C" Title="Adult acne: Can natural hormone treatments help?" Url="http://www.mayoclinic.com/health/adult-acne/AN01762" />
+		<LinkItem ContentType="Answer" DocID="AN02016" LinkType="Internal" ObjectID="324520C7-B7C9-CD4F-2288B0A0B05269F3" Title="Birth control pills for acne?" Url="http://www.mayoclinic.com/health/birth-control-pills-for-acne/AN02016" />
+		<LinkItem ContentType="Article" DocID="SN00038" LinkType="Internal" ObjectID="6F661AD5-2A5D-9994-E5896F460E694B4B" Title="Acne treatments: Medical procedures may help clear skin" Url="http://www.mayoclinic.com/health/acne-treatments/SN00038" />
+		<LinkItem ContentType="Article" DocID="SN00039" LinkType="Internal" ObjectID="6BB65C35-2A5D-9994-E2DB4E058F7EDD9E" Title="Over-the-counter acne products: What works and why" Url="http://www.mayoclinic.com/health/acne-products/SN00039" />
+		<LinkItem ContentType="Disease" DocID="DS00169" LinkType="Internal" ObjectID="62FDAD7E-9D53-461A-9A756767E06D35A2" Title="Acne" Url="http://www.mayoclinic.com/health/acne/DS00169" />
+	</RelatedLinksBox>
+</Answer>

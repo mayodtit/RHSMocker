@@ -1,0 +1,347 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00333
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hypothermia/DS00333
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-08
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2226" Title="Metabolic disorders">
+						<Keyword MCVID="3044" Title="Hypothermia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F36A8118-1869-44E4-A26686F54C4F5524
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypothermia
+			</MetaKeyword>
+			<MetaKeyword>
+				body temperature
+			</MetaKeyword>
+			<MetaKeyword>
+				low body temperature
+			</MetaKeyword>
+			<MetaKeyword>
+				body heat
+			</MetaKeyword>
+			<MetaKeyword>
+				cold weather
+			</MetaKeyword>
+			<MetaKeyword>
+				cold weather caution
+			</MetaKeyword>
+			<MetaKeyword>
+				cold weather injury
+			</MetaKeyword>
+			<MetaKeyword>
+				cold exposure
+			</MetaKeyword>
+			<MetaKeyword>
+				cold water
+			</MetaKeyword>
+			<MetaKeyword>
+				cold water survival
+			</MetaKeyword>
+			<MetaKeyword>
+				boating safety
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypothermia is a medical emergency that occurs when your body loses heat faster than it can produce heat, causing a dangerously low body temperature. Normal body temperature is around 98.6 F (37 C). Hypothermia (hi-po-THUR-me-uh) occurs as your body temperature passes below 95 F (35 C).
+&lt;/p&gt;
+&lt;p&gt;
+When your body temperature drops, your heart, nervous system and other organs can&apos;t work correctly. Left untreated, hypothermia can eventually lead to complete failure of your heart and respiratory system and to death.
+&lt;/p&gt;
+&lt;p&gt;
+Hypothermia is most often caused by exposure to cold weather or immersion in a cold body of water. Primary treatments for hypothermia are methods to warm the body back to a normal temperature.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shivering is your body&apos;s automatic defense against cold temperature &amp;mdash; an attempt to warm itself. Constant shivering is a key sign of hypothermia. Signs and symptoms of moderate to severe hypothermia include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shivering&lt;/li&gt;
+	&lt;li&gt;Clumsiness or lack of coordination&lt;/li&gt;
+	&lt;li&gt;Slurred speech or mumbling&lt;/li&gt;
+	&lt;li&gt;Stumbling&lt;/li&gt;
+	&lt;li&gt;Confusion or difficulty thinking&lt;/li&gt;
+	&lt;li&gt;Poor decision making, such as trying to remove warm clothes&lt;/li&gt;
+	&lt;li&gt;Drowsiness or very low energy&lt;/li&gt;
+	&lt;li&gt;Apathy or lack of concern about one&apos;s condition&lt;/li&gt;
+	&lt;li&gt;Progressive loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Weak pulse&lt;/li&gt;
+	&lt;li&gt;Slow, shallow breathing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A person with hypothermia usually isn&apos;t aware of his or her condition, because the symptoms often begin gradually and because the confused thinking associated with hypothermia prevents self-awareness.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypothermia not necessarily related to the outdoors&lt;/strong&gt;&lt;br /&gt;
+Hypothermia isn&apos;t always the result of exposure to extremely cold outdoor temperatures. An older person may develop mild hypothermia after prolonged exposure to indoor temperatures that would be tolerable to a younger or healthier adult &amp;mdash; for example, temperatures in a poorly heated home or in an air-conditioned home.
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of mild hypothermia not related to extreme cold exposure are nearly identical to those of more severe hypothermia, but may be much less obvious. Signs and symptoms of mild hypothermia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shivering&lt;/li&gt;
+	&lt;li&gt;Faster breathing&lt;/li&gt;
+	&lt;li&gt;Trouble speaking&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Lack of coordination&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Increased heart rate&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypothermia in infants&lt;/strong&gt;&lt;br /&gt;
+Typical signs of hypothermia in an infant include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bright red, cold skin&lt;/li&gt;
+	&lt;li&gt;Very low energy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call 911 or your local emergency number if you see someone with signs of hypothermia or if you suspect a person has had unprotected or prolonged exposure to cold weather or water. If possible take the person inside, remove wet clothing, and cover him or her in layers of blankets.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypothermia occurs when your body loses heat faster than it produces it. The most common causes of hypothermia are exposure to cold-weather conditions or cold water. But prolonged exposure to any environment colder than your body can lead to hypothermia if you aren&apos;t dressed appropriately or can&apos;t control the conditions. Specific conditions leading to hypothermia can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wearing clothes that aren&apos;t warm enough for weather conditions&lt;/li&gt;
+	&lt;li&gt;Staying out in the cold too long&lt;/li&gt;
+	&lt;li&gt;Unable to get out of wet clothes or move to a warm, dry location&lt;/li&gt;
+	&lt;li&gt;Accidental falls in water, as in a boating accident&lt;/li&gt;
+	&lt;li&gt;Inadequate heating in the home, especially for older people and infants&lt;/li&gt;
+	&lt;li&gt;Air conditioning that is too cold, especially for older people and infants&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How your body loses heat&lt;/strong&gt;&lt;br /&gt;
+The mechanisms of heat loss from your body include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radiated heat.&lt;/strong&gt; Most heat loss is due to heat radiated from unprotected surfaces of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Direct contact.&lt;/strong&gt; If you&apos;re in direct contact with something very cold, such as cold water or the cold ground, heat is conducted away from your body. Because water is very good at transferring heat from your body, body heat is lost much faster in cold water than in cold air. Similarly, heat loss from your body is much faster if your clothes are wet, as when you&apos;re caught out in the rain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wind.&lt;/strong&gt; Wind removes body heat by carrying away the thin layer of warm air at the surface of your skin. A wind chill factor is important in causing heat loss.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of factors can increase the risk of developing hypothermia:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; People age 65 and older are more vulnerable to hypothermia for a number of reasons. The body&apos;s ability to regulate temperature and to sense cold may lessen with age. Older people are also more likely to have a medical condition that affects temperature regulation. Some older adults may not be able to communicate when they are cold or may not be mobile enough to get to a warm location.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Very young age.&lt;/strong&gt; Children lose heat faster than adults do. Children have a larger head-to-body ratio than adults do, making them more prone to heat loss through the head. Children may also ignore the cold because they&apos;re having too much fun to think about it. And they may not have the judgment to dress properly in cold weather or to get out of the cold when they should. Infants may have a special problem with the cold because they have less efficient mechanisms for generating heat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mental problems.&lt;/strong&gt; People with a mental illness, dementia or another condition that interferes with judgment may not dress appropriately for the weather or understand the risk of cold weather. People with dementia may wander from home or get lost easily, making them more likely to be stranded outside in cold or wet weather.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol and drug use.&lt;/strong&gt; Alcohol may make your body feel warm inside, but it causes your blood vessels to dilate, or expand, resulting in more rapid heat loss from the surface of your skin. The use of alcohol or recreational drugs can affect your judgment about the need to get inside or wear warm clothes in cold weather conditions. If a person is intoxicated and passes out in cold weather, he or she is likely to develop hypothermia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medical conditions.&lt;/strong&gt; Some health disorders affect your body&apos;s ability to regulate body temperature. Examples include underactive thyroid (hypothyroidism), poor nutrition, stroke, severe arthritis, Parkinson&apos;s disease, trauma, spinal cord injuries, burns, disorders that affect sensation in your extremities (for example, nerve damage in the feet of people with diabetes), dehydration, and any condition that limits activity or restrains the normal flow of blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; A number of drugs, including certain antidepressants, antipsychotics and sedatives, can change the body&apos;s ability to regulate its temperature.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who develop hypothermia because of exposure to cold weather or cold water are also vulnerable to other cold-related injuries, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Frostbite,&lt;/strong&gt; or freezing of body tissues&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gangrene,&lt;/strong&gt; decay and death of tissue resulting from an interruption in blood flow (possible complication of frostbite)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chilblains,&lt;/strong&gt; damage to nerves and small blood vessels, usually in the hands or feet after prolonged exposure to above-freezing, cold temperatures&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trench foot&lt;/strong&gt; (immersion foot), damage to nerves and small blood vessels due to prolonged immersion in water&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The diagnosis of hypothermia is usually apparent based on a person&apos;s physical signs and the conditions in which the person with hypothermia became ill or was found.
+&lt;/p&gt;
+&lt;p&gt;
+A diagnosis may not be readily apparent, however, if the symptoms are mild, as when an older person who is indoors has symptoms such as confusion, lack of coordination and speech problems. In such cases, an exam may include a temperature reading with a rectal thermometer that reads low temperatures.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seek immediate medical attention for anyone who appears to have hypothermia. Until medical help is available, follow these hypothermia treatment guidelines.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;First-aid care&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be gentle.&lt;/strong&gt; When you&apos;re helping a person with hypothermia, handle him or her gently. Limit movements to only those that are necessary. Don&apos;t massage or rub the person. Excessive, vigorous or jarring movements may trigger cardiac arrest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Move the person out of the cold.&lt;/strong&gt; Move the person to a warm, dry location if possible. If you&apos;re unable to move the person out of the cold, shield him or her from the cold and wind as much as possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Remove wet clothing.&lt;/strong&gt; If the person is wearing wet clothing, remove it. Cut away clothing if necessary to avoid excessive movement.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the person with blankets.&lt;/strong&gt; Use layers of dry blankets or coats to warm the person. Cover the person&apos;s head, leaving only the face exposed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulate the person&apos;s body from the cold ground.&lt;/strong&gt; If you&apos;re outside, lay the person on his or her back on a blanket or other warm surface.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor breathing.&lt;/strong&gt; A person with severe hypothermia may appear unconscious, with no apparent signs of a pulse or breathing. If the person&apos;s breathing has stopped or appears dangerously low or shallow, begin cardiopulmonary resuscitation (CPR) immediately if you&apos;re trained.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Share body heat.&lt;/strong&gt; To warm the person&apos;s body, remove your clothing and lie next to the person, making skin-to-skin contact. Then cover both of your bodies with blankets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide warm beverages.&lt;/strong&gt; If the affected person is alert and able to swallow, provide a warm, nonalcoholic, noncaffeinated beverage to help warm the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use warm, dry compresses.&lt;/strong&gt; Use a first-aid warm compress (a plastic fluid-filled bag that warms up when squeezed), or a makeshift compress of warm water in a plastic bottle or a dryer-warmed towel. Apply a compress only to the neck, chest wall or groin. Don&apos;t apply a warm compress to the arms or legs. Heat applied to the arms and legs forces cold blood back toward the heart, lungs and brain, causing the core body temperature to drop. This can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t apply direct heat.&lt;/strong&gt; Don&apos;t use hot water, a heating pad or a heating lamp to warm the person. The extreme heat can damage the skin or even worse, cause irregular heartbeats so severe that they can cause the heart to stop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical treatment&lt;/strong&gt;&lt;br /&gt;
+Depending on the severity of hypothermia, emergency medical care for hypothermia may include one of following interventions to raise the body temperature:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood rewarming.&lt;/strong&gt; Blood may be drawn, warmed and recirculated in the body. A common method of warming blood is the use of a hemodialysis machine, which is normally used to filter blood in people with poor kidney function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Warm intravenous fluids.&lt;/strong&gt; A warmed intravenous solution of salt water may be injected into a vein to help warm the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Airway rewarming.&lt;/strong&gt; The use of humidified oxygen administered with a mask or nasal tube can warm the airways and help raise the temperature of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cavity lavage.&lt;/strong&gt; A warm saltwater solution may be used to warm the stomach, bladder or colon. To deliver the warm solution, a small tube is inserted down the throat to reach the stomach, through the urethra to the bladder or through the rectum to the colon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Staying warm in cold weather&lt;/strong&gt;&lt;br /&gt;
+Before you or your children step out into cold air, remember the advice that follows with the simple acronym COLD &amp;mdash; cover, overexertion, layers, dry:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cover.&lt;/strong&gt; Wear a hat or other protective covering to prevent body heat from escaping from your head, face and neck. Cover your hands with mittens instead of gloves. Mittens are more effective than gloves because mittens keep your fingers in closer contact with one another.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overexertion.&lt;/strong&gt; Avoid activities that would cause you to sweat a lot. The combination of wet clothing and cold weather can cause you to lose body heat more quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Layers.&lt;/strong&gt; Wear loosefitting, layered, lightweight clothing. Outer clothing made of tightly woven, water-repellent material is best for wind protection. Wool, silk or polypropylene inner layers hold body heat better than cotton does.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry.&lt;/strong&gt; Stay as dry as possible. Get out of wet clothing as soon as possible. Be especially careful to keep your hands and feet dry, as it&apos;s easy for snow to get into mittens and boots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Keeping children safe outdoors&lt;/strong&gt;&lt;br /&gt;
+The American Academy of Pediatrics suggests the following tips to help prevent hypothermia when children are outside in the winter:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dress infants and young children in one more layer than an adult would wear in the same conditions.&lt;/li&gt;
+	&lt;li&gt;Limit the amount of time children spend outside in the cold.&lt;/li&gt;
+	&lt;li&gt;Have children come inside frequently to warm themselves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Winter car safety&lt;/strong&gt;&lt;br /&gt;
+Whenever you&apos;re traveling during bad weather, be sure someone knows where you&apos;re headed, and at what time you&apos;re expected to arrive. That way, if you get into trouble on your way, emergency responders will know where to look for your car. It&apos;s also a good idea to keep emergency supplies in your car in case you get stranded. Supplies may include several blankets, matches, candles, a first-aid kit, dry or canned food, and a can opener. Travel with a cellphone if possible. If you&apos;re stranded, put everything you need in the car with you, huddle together and stay covered. Run the car for 10 minutes each hour to warm it up. Make sure a window is slightly open and the exhaust pipe isn&apos;t covered with snow while the engine is running.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drinking alcohol&lt;/strong&gt;&lt;br /&gt;
+Take the following precautions to avoid alcohol-related risks of hypothermia.
+&lt;/p&gt;
+&lt;p&gt;
+Don&apos;t drink alcohol:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you&apos;re going to be outside in cold weather&lt;/li&gt;
+	&lt;li&gt;If you&apos;re boating&lt;/li&gt;
+	&lt;li&gt;Before going to bed on cold nights&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cold-water safety&lt;/strong&gt;&lt;br /&gt;
+Water doesn&apos;t have to be extremely cold to cause hypothermia. Any water that&apos;s colder than normal body temperature causes heat loss. The following tips may increase your survival time in cold water, if you accidentally fall in:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a life jacket.&lt;/strong&gt; If you plan to ride in a watercraft, wear a life jacket. A life jacket can help you stay alive longer in cold water by enabling you to float without using energy and by providing some insulation. Keep a whistle attached to your life jacket to signal for help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get out of the water if possible.&lt;/strong&gt; Get out of the water as much as possible, such as climbing onto a capsized boat or grabbing onto a floating object.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t attempt to swim unless you&apos;re close to safety.&lt;/strong&gt; Unless a boat, another person or a life jacket is close by, stay put. Swimming will use up energy and may shorten survival time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Position your body to minimize heat loss.&lt;/strong&gt; Use a body position known as the heat escape lessening position (HELP) to reduce heat loss while you wait for assistance. Hold your knees to your chest to protect the trunk of your body. If you&apos;re wearing a life jacket that turns your face down in this position, bring your legs tightly together, your arms to your sides and your head back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Huddle with others.&lt;/strong&gt; If you&apos;ve fallen into cold water with other people, keep warm by facing each other in a tight circle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t remove your clothing.&lt;/strong&gt; While you&apos;re in the water, don&apos;t remove clothing. Buckle, button and zip up your clothes. Cover your head if possible. The layer of water between your clothing and your body will help insulate you. Remove clothing only after you&apos;re safely out of the water and can take measures to get dry and warm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Help for at-risk people&lt;/strong&gt;&lt;br /&gt;
+For people most at risk of hypothermia &amp;mdash; infants, older adults, people who have mental or physical problems, or people who are homeless &amp;mdash; community outreach programs and social support services can be of great help. If you&apos;re at risk or know someone at risk, contact your local public health office for available services, such as the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Assistance for paying heating bills&lt;/li&gt;
+	&lt;li&gt;Check-in services to see if you and your home are warm enough during cold weather&lt;/li&gt;
+	&lt;li&gt;Homeless shelters&lt;/li&gt;
+	&lt;li&gt;Community warming centers, safe and warm daytime locations where you can go during cold weather&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hypothermia
+	</Title>
+	<Abstract>
+		Hypothermia &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of a life-threatening cold body temperature.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="FirstAid" DocID="FA00017" LinkType="Internal" ObjectID="422ECD4F-6649-46BA-9037B015AA702F74" Title="Hypothermia: First aid" Url="http://www.mayoclinic.com/health/first-aid-hypothermia/FA00017" />
+		<LinkItem ContentType="Article" DocID="HQ01681" LinkType="Internal" ObjectID="5D04066F-4BCF-45BD-B6DA1CAFEE8EB971" Title="Exercise and cold weather: Tips to stay safe outdoors" Url="http://www.mayoclinic.com/health/fitness/HQ01681" />
+	</RelatedLinksBox>
+</Disease>

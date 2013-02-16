@@ -1,0 +1,285 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00235
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hip-replacement/MY00235
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-19
+		</UpdateDate>
+		<PublicationDate>
+			2003-04-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3828" Title="Bones joints and muscles">
+						<Keyword MCVID="4139" Title="Surgery">
+							<Keyword MCVID="3832" Title="Hip replacement" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			05C3B4B8-E7FF-0DBD-1702D00A82E8F548
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hip replacement
+			</MetaKeyword>
+			<MetaKeyword>
+				joint replacement
+			</MetaKeyword>
+			<MetaKeyword>
+				hip implant
+			</MetaKeyword>
+			<MetaKeyword>
+				total hip arthroplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				THA
+			</MetaKeyword>
+			<MetaKeyword>
+				total hip replacement
+			</MetaKeyword>
+			<MetaKeyword>
+				THR
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritic hip
+			</MetaKeyword>
+			<MetaKeyword>
+				hip surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hip replacement surgery, also called total hip arthroplasty, involves removing a diseased hip joint and replacing it with an artificial joint, called a prosthesis. Hip prostheses consist of a ball component, made of metal or ceramic, and a socket, which has an insert or liner made of plastic, ceramic or metal. The implants used in hip replacement are biocompatible &amp;mdash; meaning they&apos;re designed to be accepted by your body &amp;mdash; and they&apos;re made to resist corrosion, degradation and wear.
+&lt;/p&gt;
+&lt;p&gt;
+Hip replacement is typically used for people with hip joint damage from arthritis or an injury. Followed by rehabilitation, hip replacement can relieve pain and restore range of motion and function of your hip joint. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of hip replacement surgery is to relieve pain and increase the mobility and function of a damaged hip joint. If a stiff, painful hip joint has forced you to cut back on everyday activities, successful surgery may allow you to resume them.
+&lt;/p&gt;
+&lt;p&gt;
+Before thinking about surgery, though, your doctor may recommend other treatments, such as pain medications, physical therapy, exercise, and use of a cane or walker. If these treatments are not enough, hip replacement may be the right option for you.
+&lt;/p&gt;
+&lt;p&gt;
+Conditions that can damage the hip joint, sometimes necessitating hip replacement surgery, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Osteoarthritis&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis&lt;/li&gt;
+	&lt;li&gt;Broken hip&lt;/li&gt;
+	&lt;li&gt;Bone tumor&lt;/li&gt;
+	&lt;li&gt;Osteonecrosis, which occurs when there is inadequate blood supply to the ball portion of the hip joint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms that might lead you to consider hip replacement include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent pain, despite pain medication&lt;/li&gt;
+	&lt;li&gt;Pain exacerbated by walking, even with a cane or walker&lt;/li&gt;
+	&lt;li&gt;Poor sleep due to pain&lt;/li&gt;
+	&lt;li&gt;Difficulty going up or down stairs&lt;/li&gt;
+	&lt;li&gt;Trouble rising from a seated position&lt;/li&gt;
+	&lt;li&gt;Inability to participate in formerly enjoyable activities because of pain&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hip replacement surgery is generally safe, but as with any surgery, complications can occur. Although some complications are serious, most can be treated successfully. Complications of hip replacement include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Clots can form in your leg veins as a result of decreased leg movement after surgery, as well as from pressure on the veins during surgery. Your doctor usually gives you blood-thinning medications after your surgery to try to prevent clots from forming. Compression devices, such as elastic stockings, and exercise to increase blood flow through the veins in your legs also can reduce your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Infections can occur at the site of your incision and in the deeper tissue near your new hip. Most infections are treated with antibiotics, but a major infection near your prosthesis may require surgery to remove and replace the prosthesis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fracture.&lt;/strong&gt; During surgery, healthy portions of your hip joint may fracture. Sometimes the fractures are so small that they heal on their own, but larger fractures may be corrected during surgery with wires, cables or bone grafts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dislocation.&lt;/strong&gt; Certain positions can cause the ball of your new joint to become dislodged. To avoid this, it is often recommended that after surgery you don&apos;t bend more than 90 degrees at the hip and don&apos;t let your leg cross the midline of your body. If the hip dislocates, your doctor may fit you with a brace to keep the hip in the correct position. If your hip keeps dislocating, surgery is often required to stabilize it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Loosening.&lt;/strong&gt; Although this complication is rare with newer implants, your new joint may not become solidly fixed to your bone or may loosen over time, causing pain in your hip. Surgery might be needed to fix the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breakage of the prosthesis.&lt;/strong&gt; Another rare possibility is that your artificial hip could break several years after surgery. Another surgery would be required to replace the broken joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Change in leg length.&lt;/strong&gt; Your surgeon takes steps to avoid the problem, but occasionally a new hip may make one leg longer or shorter than the other. Sometimes this is caused by weakness in the muscles surrounding the hip. In this case, progressively strengthening and stretching those muscles can make the hip more stable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint stiffening.&lt;/strong&gt; Sometimes the soft tissues around your joint harden (called ossification), making it difficult to move your hip. This usually isn&apos;t painful. If you&apos;re at risk of ossification, your doctor may recommend medications or radiation therapy to prevent it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear and tear over time.&lt;/strong&gt; Your prosthetic hip joint may wear out eventually, so if you have hip replacement surgery when you&apos;re relatively young and active, you may need a second hip replacement within your lifetime. However, new materials are making implants last longer, so a second replacement may not be needed for many years.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before surgery you&apos;ll meet with your orthopedic surgeon for an examination. The surgeon will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask about your medical history and current medications&lt;/li&gt;
+	&lt;li&gt;Do a brief general physical examination to make sure you&apos;re healthy enough to undergo surgery&lt;/li&gt;
+	&lt;li&gt;Examine your hip, paying attention to the range of motion in your joint and the strength of the surrounding muscles&lt;/li&gt;
+	&lt;li&gt;Order blood tests, an X-ray and possibly an MRI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+This preoperative evaluation is a good opportunity for you to ask questions about the procedure. If you have any concerns about the surgery, be sure to ask.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor or surgeon may also recommend that you begin an exercise program in preparation for your surgery. Some doctors believe that people who have an established muscle-building and flexibility program before surgery have better outcomes and faster recovery time following surgery. Preoperative exercise programs may have less effect in those with advanced osteoarthritis, however. Talk to your doctor before starting any exercise program.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you check in for your surgery, you&apos;ll be asked to remove your clothes and put on a hospital gown. The first member of the medical team to visit may be the anesthesiologist. You&apos;ll be given either a general anesthetic or a spinal block, which numbs the lower half of your body.
+&lt;/p&gt;
+&lt;p&gt;
+Because infection and blood clots are possible complications of hip replacement surgery, your surgeon may order preventive medications &amp;mdash; antibiotics and blood thinners &amp;mdash; to be given before the surgery begins.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;To perform a hip replacement, your surgeon: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Makes an incision over the front or side of your hip, through the layers of tissue&lt;/li&gt;
+	&lt;li&gt;Removes diseased and damaged bone and cartilage, leaving healthy bone intact&lt;/li&gt;
+	&lt;li&gt;Implants the prosthetic socket into your pelvic bone, to replace the damaged socket&lt;/li&gt;
+	&lt;li&gt;Replaces the round top of your femur with the prosthetic ball, which is attached to a stem that fits into your thighbone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your new, artificial joint is designed to mimic the natural, gliding motion of a healthy hip joint.
+&lt;/p&gt;
+&lt;p&gt;
+Techniques for hip replacement are evolving. As surgeons continue to develop less invasive surgical techniques, the hope is that these techniques might reduce recovery time and pain compared with standard hip replacements. However, studies comparing the outcomes of standard hip replacement with those of minimally invasive hip replacement have had mixed results.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;After surgery, you&apos;ll be moved to a recovery area for a few hours while your anesthesia wears off. Nurses or other anesthesia aides will watch your blood pressure, pulse, alertness, pain or comfort level, and your need for medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood clot prevention&lt;br /&gt;
+&lt;/strong&gt;After your surgery, you&apos;ll be at increased risk of blood clots in your legs. Possible measures to prevent this complication include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Early mobilization.&lt;/strong&gt; You&apos;ll be encouraged to sit up and even try walking with crutches or a walker soon after surgery. This will likely happen the same day as your surgery or on the following day.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pressure application.&lt;/strong&gt; Both during and after surgery, you may wear elastic compression stockings or inflatable air sleeves similar to a blood pressure cuff on your lower legs. The pressure exerted by the inflated sleeves helps keep blood from pooling in the leg veins, reducing the chance that clots will form.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood-thinning medication.&lt;/strong&gt; Your surgeon may prescribe an injected or oral blood thinner after surgery. Depending on how soon you walk, how active you are and your overall risk of blood clots, you may need blood thinners for several more weeks after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist may help you with some exercises that you can do in the hospital and at home to speed recovery.
+&lt;/p&gt;
+&lt;p&gt;
+Activity and exercise must be a regular part of your day to regain the use of your joint and muscles. Your physical therapist will recommend strengthening and mobility exercises and will help you learn how to use a walking aid, such as a walker, a cane or crutches. As therapy progresses, you&apos;ll gradually increase the weight you put on your leg until you&apos;re able to walk without assistance.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Home recovery and follow-up care&lt;br /&gt;
+&lt;/strong&gt;Before you leave the hospital, you and your caregivers will get tips on caring for your new hip. For a smooth transition:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Arrange to have a friend or relative prepare some meals for you&lt;/li&gt;
+	&lt;li&gt;Place everyday items at waist level, so you can avoid having to bend down or reach up&lt;/li&gt;
+	&lt;li&gt;Consider making some modifications to your home, such as getting a raised toilet seat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+About six to eight weeks after surgery, you&apos;ll have a follow-up appointment with your surgeon to make sure your hip is healing properly. If recovery is progressing well, most people resume their normal activities by this time &amp;mdash; even if in a limited fashion.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of hip affected by osteoarthritis before and after hip replacement 
+" Caption="Hip prostheses are designed to mimic the ball-and-socket action of your hip joint. During hip replacement surgery, your surgeon removes the diseased or damaged parts of your hip joint and inserts the artificial joint.
+" Height="60" Title="Artificial hip" URI="/images/image_popup/thumbs/arth7_hipreplacethu.jpg" Width="60" />
+				<Image Alt="Illustration of hip affected by osteoarthritis before and after hip replacement 
+" Caption="Hip prostheses are designed to mimic the ball-and-socket action of your hip joint. During hip replacement surgery, your surgeon removes the diseased or damaged parts of your hip joint and inserts the artificial joint.
+" Height="225" Title="Artificial hip" URI="/images/image_popup/arth7_hipreplace.jpg" Width="400" />
+				<HTML>
+					Hip prostheses are designed to mimic the ball-and-socket action of your hip joint. During hip replacement surgery, your surgeon removes the diseased or damaged parts of your hip joint and inserts the ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image of cemented and uncemented hip replacement joints 
+" Caption="Cemented implants are held in place with bone cement. Uncemented implants have textured surfaces that allow new bone to grow into the implant, securing it in place.
+" Height="60" Title="Two types of hip implants" URI="/images/image_popup/thumbs/arth7_hipprosthesisthu.jpg" Width="60" />
+				<Image Alt="Image of cemented and uncemented hip replacement joints 
+" Caption="Cemented implants are held in place with bone cement. Uncemented implants have textured surfaces that allow new bone to grow into the implant, securing it in place.
+" Height="235" Title="Two types of hip implants" URI="/images/image_popup/arth7_hipprosthesis.jpg" Width="400" />
+				<HTML>
+					Cemented implants are held in place with bone cement. Uncemented implants have textured surfaces that allow new bone to grow into the implant, securing it in place.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hip replacement surgery is successful more than 90 percent of the time.
+&lt;/p&gt;
+&lt;p&gt;
+Expect your new hip joint to reduce the pain you felt before your surgery and increase the range of motion in your joint. But don&apos;t expect to do anything you couldn&apos;t do before surgery. High-impact activities &amp;mdash; such as running or playing basketball &amp;mdash; may never get your doctor&apos;s approval. But in time, you may be able to swim, play golf, walk or ride a bike comfortably.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hip replacement
+	</Title>
+	<Abstract>
+		Hip replacement &amp;mdash; Overview covers definition, risks, results of this surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+	</RelatedLinksBox>
+</TestProcedure>

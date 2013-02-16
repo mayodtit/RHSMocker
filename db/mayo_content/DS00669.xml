@@ -1,0 +1,378 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00669
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lynch-syndrome/DS00669
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2246" Title="Colon cancer">
+						<Keyword MCVID="4057" Title="Lynch syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E8230E54-2A5D-9994-E8FAE159020831A4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Lynch syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hereditary nonpolyposis colorectal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lynch syndrome is an inherited condition that increases your risk of colon cancer and other cancers. Lynch syndrome has historically been known as hereditary nonpolyposis colorectal cancer (HNPCC). 
+&lt;/p&gt;
+&lt;p&gt;
+A number of inherited syndromes can increase your risk of colon cancer, but Lynch syndrome is the most common. Doctors estimate that about 3 out of every 100 colon cancers are caused by Lynch syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Families that have Lynch syndrome usually have more cases of colon cancer than would typically be expected. Lynch syndrome also causes colon cancer to occur at an earlier age than it might in the general population. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with Lynch syndrome may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Colon cancer that occurs at a younger age, especially before age 50&lt;/li&gt;
+	&lt;li&gt;A family history of colon cancer that occurs at a young age&lt;/li&gt;
+	&lt;li&gt;A family history of endometrial cancer&lt;/li&gt;
+	&lt;li&gt;A family history of other related cancers, including ovarian cancer, kidney cancer, stomach cancer, small intestine cancer, liver cancer and other cancers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have concerns about your family history of colon or endometrial cancer, bring it up with your doctor. Discuss getting a genetic evaluation of your family history and your cancer risk. 
+&lt;/p&gt;
+&lt;p&gt;
+If a family member has been diagnosed with Lynch syndrome, tell your doctor. Ask to be referred to a genetic counselor. Genetic counselors are trained in genetics and counseling. They can help you understand Lynch syndrome, what causes it and what type of care is recommended for people who have Lynch syndrome. A genetic counselor can also help you sort through all the information and help you understand whether genetic testing is appropriate for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lynch syndrome runs in families in an autosomal dominant inheritance pattern. This means that if one parent carries a gene mutation for Lynch syndrome, there&apos;s a 50 percent chance that mutation will be passed on to each child. The risk of Lynch syndrome is the same whether the gene mutation carrier is the mother or father or the child is a son or daughter. 
+&lt;/p&gt;
+&lt;p&gt;
+The genes inherited in Lynch syndrome are normally responsible for correcting mistakes in the genetic code, which is made of DNA. DNA is the genetic material that contains instructions for every chemical process in your body. As your cells grow and divide, they make copies of their DNA and it&apos;s not uncommon for some minor mistakes to occur. Normal cells have mechanisms to recognize mistakes and repair them. But people who inherit one of the abnormal genes associated with Lynch syndrome lack the ability to repair these minor mistakes. An accumulation of these mistakes leads to increasing genetic damage within cells and eventually can lead to the cells becoming cancerous. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Beyond complications for your health, a genetic disorder such as Lynch syndrome may be cause for other concerns. A genetic counselor is trained to help you navigate the areas of your life that may be affected by your diagnosis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your privacy.&lt;/strong&gt; The results of your genetic test will be listed in your medical record, which may be accessed by insurance companies and employers. You may worry that being diagnosed with Lynch syndrome will make it difficult to change jobs or health insurance providers in the future. Federal laws protect Americans from discrimination. A genetic counselor can explain legal protections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your extended family.&lt;/strong&gt; A Lynch syndrome diagnosis has implications for your entire family. You may worry about the best way to tell family members that you&apos;re undergoing genetic testing. A genetic counselor can guide you through this process. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your children.&lt;/strong&gt; If you have Lynch syndrome, your children have a risk of inheriting your genetic mutations. If one parent carries a genetic mutation for Lynch syndrome, each child has a 50 percent chance of inheriting that mutation. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor thinks you could have Lynch syndrome, you may be referred to a genetic counselor. A genetic counselor can give you information to help you decide whether laboratory testing would be useful for diagnosing Lynch syndrome or another genetic disorder. If you choose to have the test, a genetic counselor can explain what a positive or negative result may mean for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+To prepare for your meeting with the genetic counselor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gather your medical records.&lt;/strong&gt; If you&apos;ve had cancer, bring your medical records to your appointment with the genetic counselor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask family members who&apos;ve had cancer for information.&lt;/strong&gt; If your family members have had cancer, ask for information about their diagnoses. Write down the types of cancer, types of treatments and ages at diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your genetic counselor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt; &lt;br /&gt;
+Prepare a list of questions to ask your genetic counselor. Questions could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can you explain how Lynch syndrome occurs?&lt;/li&gt;
+	&lt;li&gt;How do gene mutations occur?&lt;/li&gt;
+	&lt;li&gt;How are the gene mutations associated with Lynch syndrome passed through families?&lt;/li&gt;
+	&lt;li&gt;If I have a family member with Lynch syndrome, what is the chance that I have it, too?&lt;/li&gt;
+	&lt;li&gt;What types of tests are involved in genetic testing?&lt;/li&gt;
+	&lt;li&gt;What will the results of genetic testing tell me?&lt;/li&gt;
+	&lt;li&gt;How long can I expect to wait for my results?&lt;/li&gt;
+	&lt;li&gt;If my genetic test is positive, does that mean I will get cancer?&lt;/li&gt;
+	&lt;li&gt;What types of cancer screening can detect Lynch-related cancers at an early stage?&lt;/li&gt;
+	&lt;li&gt;If my genetic test is negative, does that mean I won&apos;t get cancer?&lt;/li&gt;
+	&lt;li&gt;How many gene mutations are missed by current genetic testing?&lt;/li&gt;
+	&lt;li&gt;What will my genetic test results mean for my family?&lt;/li&gt;
+	&lt;li&gt;How much does genetic testing cost?&lt;/li&gt;
+	&lt;li&gt;Will my insurance company pay for genetic testing?&lt;/li&gt;
+	&lt;li&gt;What laws protect me from genetic discrimination?&lt;/li&gt;
+	&lt;li&gt;Is it OK to decide against genetic testing?&lt;/li&gt;
+	&lt;li&gt;If I choose to not have genetic testing, what does that mean for my future health?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your counselor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from a genetic counselor&lt;/strong&gt; &lt;br /&gt;
+The genetic counselor will likely ask you a number of questions about your health history and the health history of your family members. Your genetic counselor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you been diagnosed with cancer?&lt;/li&gt;
+	&lt;li&gt;Have members of your family been diagnosed with cancer?&lt;/li&gt;
+	&lt;li&gt;At what age was each family member with cancer diagnosed?&lt;/li&gt;
+	&lt;li&gt;Have any family members ever had genetic testing?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If it&apos;s suspected that you have Lynch syndrome, your doctor may ask you questions about your family history of colon cancer and other cancers. This may lead to other tests and procedures to diagnose Lynch syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Family history&lt;/strong&gt; &lt;br /&gt;
+A family history of colon cancer and other cancers, particularly when they occur at a younger age, may alert your doctor to the possibility that you or members of your family may have Lynch syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may refer you for further Lynch syndrome evaluation if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Multiple relatives with any Lynch-associated tumors, including colorectal cancer. Examples of other Lynch-associated tumors include those affecting the endometrium, ovaries, stomach, small intestine, kidney, brain or liver.&lt;/li&gt;
+	&lt;li&gt;Family members diagnosed with cancer at ages that are younger than the average for their type of cancer.&lt;/li&gt;
+	&lt;li&gt;More than one generation of family affected by a type of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tumor testing&lt;/strong&gt; &lt;br /&gt;
+If you or someone in your family has been diagnosed with cancer, special testing may reveal whether the tumor has specific characteristics of Lynch syndrome cancers. Samples of cells from a colon cancer and sometimes from other tumors can be used for tumor testing. If you or someone in your family has been diagnosed with cancer in the last several years, the hospital that provided care may be able to supply a tissue sample. These tissue samples are often stored for many years. 
+&lt;/p&gt;
+&lt;p&gt;
+Tumor testing can reveal whether your cancer was caused by the genes related to Lynch syndrome. Tumor tests include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immunohistochemistry (IHC) testing.&lt;/strong&gt; IHC testing uses special dyes to stain tissue samples. The presence or absence of staining indicates whether certain proteins are present in the tissue. Missing proteins may tell doctors which mutated genes caused the cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Microsatellite instability (MSI) testing.&lt;/strong&gt; Microsatellites are sequences of cellular DNA. In people with Lynch syndrome, there may be errors or instability in these sequences.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Positive IHC or MSI test results indicate that you have malfunctions in the genes that are connected to Lynch syndrome. But results can&apos;t tell you whether you have Lynch syndrome because some people develop these gene mutations only in their cancer cells. People with Lynch syndrome have these gene mutations in all of their cells. A small portion of all colon cancers have a positive MSI result, but most aren&apos;t caused by Lynch syndrome. Newer tests can help determine if a tumor is Lynch syndrome related or not. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic testing&lt;/strong&gt; &lt;br /&gt;
+Genetic testing looks for changes in your genes that indicate that you have Lynch syndrome. You may be asked to give a sample of your blood for genetic testing. Using special laboratory analysis, doctors look at the specific genes that can have mutations that cause Lynch syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Results of genetic testing may show: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A positive genetic test.&lt;/strong&gt; A positive result, meaning that a gene mutation was discovered, doesn&apos;t mean that you&apos;re certain to get cancer. But it does mean your lifetime risk of developing colon cancer is increased. How much your risk is increased depends on which gene is mutated in your family and whether you undergo cancer screening to reduce your risk of cancer. Your genetic counselor can explain your individual risk to you based on your results. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A negative genetic test.&lt;/strong&gt; A negative result, meaning a gene mutation wasn&apos;t found, is more complicated. If other members of your family have Lynch syndrome with a known genetic mutation, but you didn&apos;t have the mutation, your risk of cancer is the same as the general population. If you&apos;re the first in your family to be tested for Lynch syndrome, a negative result may be misleading, since not everyone with Lynch syndrome has a genetic mutation that can be detected with current tests. You could still have a high risk of colon cancer &amp;mdash; especially if you have a strong family history of colon cancer or your tumor testing revealed a high likelihood of Lynch syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A gene variation of unknown significance.&lt;/strong&gt; Genetic tests don&apos;t always give you a yes or no answer about your cancer risk. Sometimes your genetic testing reveals a gene variation with an unknown significance. Your genetic counselor can explain the implications of this result with you. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your genetic counselor can discuss the benefits and risks of genetic testing with you. He or she can explain what genetic testing can tell you and what it can&apos;t. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colon cancer associated with Lynch syndrome is treated similarly to other types of colon cancer. However, surgery for Lynch syndrome colon cancer is more likely to involve the removal of more of the colon, since people with Lynch syndrome have a high risk of developing additional colon cancer in the future. Your treatment options will depend on the stage and location of your cancer, as well as your own health and personal preferences. Treatments for colon cancer may include surgery, chemotherapy and radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cancer screening for people with Lynch syndrome&lt;/strong&gt; &lt;br /&gt;
+If you have Lynch syndrome, but haven&apos;t been diagnosed with an associated cancer, your doctor can develop a cancer-screening plan for you. Stick to your doctor&apos;s recommended plan. Screening for cancer may help your doctor find tumors at their earliest stages &amp;mdash; when they&apos;re more likely to be cured. 
+&lt;/p&gt;
+&lt;p&gt;
+As part of your cancer-screening plan, your doctor may recommend you undergo: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Colon&lt;/strong&gt;&lt;strong&gt; cancer screening.&lt;/strong&gt; A colonoscopy exam allows your doctor to see inside your entire colon and look for areas of abnormal growth that may indicate cancer. Removing precancerous growths called polyps can reduce the risk of colon cancer. People with Lynch syndrome typically begin colonoscopy screening every year or two starting in their 20s. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	People with Lynch syndrome tend to develop colon polyps that are more difficult to detect. For this reason, newer colonoscopy techniques may be recommended. High-definition colonoscopy creates more-detailed images and narrow band colonoscopy uses special light to create clearer images of the colon. Chromoendoscopy uses dyes to color colon tissue, which may make it more likely that the flat polyps that tend to occur more often in people with Lynch syndrome are detected. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometrial cancer screening.&lt;/strong&gt; Women with Lynch syndrome may undergo annual endometrial biopsy to screen for cancer beginning in their 30s. During an endometrial biopsy, your doctor removes a small piece of tissue from your uterus. The tissue is examined to look for changes in the cells that may indicate cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ovarian cancer screening.&lt;/strong&gt; Your doctor may recommend an annual ultrasound examination of your ovaries if you have Lynch syndrome. By comparing annual ultrasound images, your doctor may be able to see changes to your ovaries that may indicate cancer. Talk to your doctor about when to begin ovarian cancer screening. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary system cancer screening.&lt;/strong&gt; If your family has a history of urinary system cancers related to Lynch syndrome, such as kidney cancer, your doctor may recommend periodic screening for these cancers. Analysis of a urine sample may reveal cancerous cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastrointestinal cancer screening.&lt;/strong&gt; If your family has a history of gastrointestinal cancers associated with Lynch syndrome, such as stomach cancer and small intestine cancer, your doctor may recommend endoscopy screening for these cancers. An endoscopy procedure allows your doctor to see your stomach and other parts of your gastrointestinal system. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin cancer screening.&lt;/strong&gt; Your doctor may encourage you to occasionally inspect your skin for signs of skin cancer. Lynch syndrome increase your risk of a certain type of skin cancer that affects the sweat glands (sebaceous glands). If you notice any skin changes, make an appointment with your doctor. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may recommend other cancer-screening tests if your family has a history of other cancers. Ask your doctor about what screening tests are best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery to prevent cancers caused by Lynch syndrome&lt;/strong&gt; &lt;br /&gt;
+In certain situations, you and your doctor may opt for surgery to prevent cancer. If your increased risk of cancer is unacceptable to you, surgery to remove most or all of your colon may put you at ease. Or if you&apos;re unable to comply with the need for frequent cancer screenings, you may opt to have your colon removed. But all operations carry risks. Discuss the benefits and risks of preventive surgery with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgical options for preventing cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove your colon (colectomy).&lt;/strong&gt; Surgery to remove most or all of your colon will reduce or eliminate the chance that you&apos;ll develop colon cancer. Little evidence exists to show that removing your colon has any advantage over frequent cancer screening, in terms of helping you live longer. Yet, some people prefer the peace of mind. These procedures can be done in a way that allows you to expel waste normally without the need to wear a bag outside of your body to collect waste. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove your ovaries and uterus (oophorectomy and hysterectomy).&lt;/strong&gt; Preventive surgery to remove your uterus eliminates the possibility that you&apos;ll develop endometrial cancer in the future. Removing your ovaries can reduce your risk of ovarian cancer. But these procedures also make it impossible to become pregnant. Women considering this surgery can wait until they&apos;re done having children. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knowing that you or your family members have an increased risk of cancer can be stressful. Helpful ways to cope might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out all you can about Lynch syndrome.&lt;/strong&gt; Write down your questions about Lynch syndrome and ask them at your next appointment with your doctor or genetic counselor. Ask your health care team for further sources of information. Learning about Lynch syndrome can help you feel more confident when making decisions about your health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Knowing that you have an increased risk of cancer can make you feel as if you can&apos;t control your health. But control what you can. For instance, choose a healthy diet, exercise regularly and get enough sleep so that you wake feeling rested. Go to all of your scheduled medical appointments, including your cancer-screening exams.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with others.&lt;/strong&gt; Find friends and family with whom you can discuss your fears. Talking with others can help you cope. Find other trusted people you can talk with, such as clergy members. Ask your doctor for a referral to a therapist who can help you understand your feelings.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Frequent cancer screening and preventive surgery are the only ways to reduce the risk of cancer in people with Lynch syndrome. No other measures have been proved to reduce your risk. Researchers are studying other ways to reduce cancer risk. One study found people with Lynch syndrome who took aspirin for two years reduced their risk of colon cancer and other Lynch-related cancers. Discuss the benefits and risks of taking aspirin with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Taking care of yourself through diet, exercise and other lifestyle changes can help improve your overall health. 
+&lt;/p&gt;
+&lt;p&gt;
+Take control of your health by trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet full of fruits and vegetables.&lt;/strong&gt; Choose a variety of fruits and vegetables for your diet. Select whole-grain products when possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Aim for at least 30 minutes of exercise most days of the week. If you haven&apos;t been active, talk to your doctor before you begin an exercise program. Try gentle exercises like walking or biking to get started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; A healthy diet and regular exercise can help you maintain a healthy weight. If you need to lose weight, talk with your doctor about your options. Eating fewer calories and increasing the amount of exercise you do can help you lose weight. Aim to lose 1 or 2 pounds a week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking increases your risk of several types of cancer and other health conditions. Some evidence indicates smoking may increase the risk of colon cancer in people with Lynch syndrome. If you smoke, stop. Your doctor can recommend strategies to help you quit. You have many options, such as nicotine replacement products, medications and support groups. If you don&apos;t smoke, don&apos;t start. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lynch syndrome
+	</Title>
+	<Abstract>
+		Lynch syndrome &amp;mdash; Comprehensive overview covers genetic condition that greatly increases risk of colon cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01970" LinkType="Internal" ObjectID="D0EE0825-F9C7-F0BA-76C16ED2F52A7591" Title="Colon cancer screening: At what age can you stop?" Url="http://www.mayoclinic.com/health/colon-cancer-screening/AN01970" />
+		<LinkItem ContentType="Article" DocID="MY00935" LinkType="Internal" ObjectID="9EF996C0-08E9-56AC-FA6C34A6A3A7D0E8" Title="Colon cancer screening: Weighing the options" Url="http://www.mayoclinic.com/health/colon-cancer-screening/MY00935" />
+		<LinkItem ContentType="Article" DocID="SA00072" LinkType="Internal" ObjectID="6BD71FB9-0423-4340-888C6A278454E773" Title="Ostomy: Adapting to life after colostomy, ileostomy or urostomy" Url="http://www.mayoclinic.com/health/ostomy/SA00072" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="Disease" DocID="DS00035" LinkType="Internal" ObjectID="13D504C5-40A0-40DA-9F61138EEAAE162F" Title="Colon cancer" Url="http://www.mayoclinic.com/health/colon-cancer/DS00035" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,358 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00970
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/soy-allergy/DS00970
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-20
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy">
+							<Keyword MCVID="3563" Title="Soy allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			70D6A637-E7FF-0DBD-1ED34CD98A3AA8AB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				soy allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic shock
+			</MetaKeyword>
+			<MetaKeyword>
+				soy allergies
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Soy, a product of soybeans, is a common food that can cause allergies. In many cases, soy allergy starts with a reaction to a soy-based infant formula. Although most children eventually outgrow a soy allergy, soy allergy may persist into adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+Often, signs and symptoms of soy allergy are mild, such as hives or itching in the mouth. In rare cases, soy allergy can cause a life-threatening allergic reaction (anaphylaxis). 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child has a reaction to soy, let your doctor know. Tests can help confirm a soy allergy. If you have a soy allergy, you&apos;ll need to avoid products that contain soy. This can be difficult, however, as soy is common in many foods, such as meat products, bakery goods, chocolate and breakfast cereals. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, soy allergy is uncomfortable but not serious. Rarely, an allergic reaction to soy can be frightening and even life-threatening. Signs and symptoms of a food allergy usually develop within a few minutes to hours after eating a food containing soy.
+&lt;/p&gt;
+&lt;p&gt;
+Soy allergy symptoms can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tingling in the mouth&lt;/li&gt;
+	&lt;li&gt;Hives, itching or itchy, scaly skin (eczema)&lt;/li&gt;
+	&lt;li&gt;Swelling of the lips, face, tongue and throat, or other parts of the body&lt;/li&gt;
+	&lt;li&gt;Wheezing, runny nose or trouble breathing&lt;/li&gt;
+	&lt;li&gt;Abdominal pain, diarrhea, nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Redness of the skin (flushing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A severe allergic reaction to soy &amp;mdash; called anaphylaxis &amp;mdash; is rare. It&apos;s more likely to occur in people who have asthma or are also allergic to other foods such as peanuts. Anaphylaxis causes more extreme signs and symptoms including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constriction of airways, including a swollen throat or a lump in your throat, that makes it difficult to breathe&lt;/li&gt;
+	&lt;li&gt;Shock, with a severe drop in blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Soy allergy in infants often begins with the introduction of a soy-based formula. Soy allergy may develop when a child is switched to a soy-based formula after an allergic reaction to a milk-based formula. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your primary care doctor or a doctor who specializes in treating allergies (allergist) if you experience food allergy symptoms shortly after eating. If possible, see your doctor when the allergic reaction is occurring. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency treatment if you develop any signs or symptoms of anaphylaxis, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constriction of airways that makes it difficult to breathe&lt;/li&gt;
+	&lt;li&gt;Shock, with a severe drop in blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid, weak pulse&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Drooling with an inability to swallow&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Full-body redness and warmth (flushing)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+All food allergies are caused by an immune system reaction. Your immune system identifies certain soy proteins as harmful, triggering the production of immunoglobulin E (IgE) antibodies to the soy protein (allergen). The next time you come in contact with soy, these IgE antibodies recognize it and signal your immune system to release histamine and other chemicals into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+Histamine and other body chemicals cause a range of allergic signs and symptoms. Histamine is partly responsible for most allergic responses, including runny nose, itchy eyes, dry throat, rashes and hives, nausea, diarrhea, difficulty breathing, and even anaphylactic shock.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may put you at greater risk of developing a soy allergy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; You&apos;re at increased risk of allergy to soy or other foods if allergies, such as hay fever, asthma, hives or eczema, are common in your family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Soy allergy is most common in children, especially toddlers and infants. As you grow older, your digestive system matures and your body is less likely to absorb food or food components that trigger allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other allergies.&lt;/strong&gt; In some cases, people who are allergic to wheat, beans (legumes), milk or other foods can have an allergic reaction to soy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call 911 or emergency medical help, or go to an emergency room if you or your child develops symptoms of anaphylaxis, such as difficulty breathing or a rapid, weak pulse. 
+&lt;/p&gt;
+&lt;p&gt;
+If symptoms of an allergic response are less severe, call your family doctor or pediatrician for an appointment. In some cases, you may be referred to a doctor who specializes in the diagnosis and treatment of allergic illness (allergist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you or your child has had,&lt;/strong&gt; and for how long. Also note if you or your child has had a similar reaction to other foods in the past. If you have taken any photos of a previous reaction, bring those along to show your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems and the names of any prescription and over-the-counter medications that you or your child is taking. It will also help your doctor to know if you have a family history of allergies or asthma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List any recent dietary changes.&lt;/strong&gt; Include as many details as you can about new foods you or your child has recently added to your diet. Your doctor will also want to know if you&apos;ve recently started giving your baby a new kind of infant formula. Bring to the appointment any labels or ingredient lists from the foods that concern you.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Below are some suggested basic questions to ask your doctor about soy allergy. Don&apos;t hesitate to ask additional questions during your appointment at any time that you don&apos;t understand something.
+	&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Do these symptoms suggest a food allergy?&lt;/li&gt;
+		&lt;li&gt;Do you think soy is the most likely cause?&lt;/li&gt;
+		&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+		&lt;li&gt;How will you make the diagnosis?&lt;/li&gt;
+		&lt;li&gt;How can soy allergy be managed?&lt;/li&gt;
+		&lt;li&gt;What food products do I or my child need to avoid?&lt;/li&gt;
+		&lt;li&gt;Should I or my child carry an epinephrine auto-injector?&lt;/li&gt;
+		&lt;li&gt;Should I or my child wear a medic alert bracelet?&lt;/li&gt;
+		&lt;li&gt;Does soy allergy increase my or my child&apos;s risk of other food allergies?&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child is the one with symptoms, also ask your doctor these additional questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What adults should know about this allergy in order to help keep my child safe?&lt;/li&gt;
+	&lt;li&gt;Do you expect my child will outgrow soy allergy?&lt;/li&gt;
+	&lt;li&gt;Are my other children at increased risk of soy allergy? If yes, are there preventive steps I should take to guard their health?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms have you or your child been experiencing?&lt;/li&gt;
+	&lt;li&gt;When did these symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Do symptoms appear shortly after eating a particular food? If yes, how soon afterward?&lt;/li&gt;
+	&lt;li&gt;Do these symptoms seem to be getting worse?&lt;/li&gt;
+	&lt;li&gt;Have you or your child recently added new foods to your diet?&lt;/li&gt;
+	&lt;li&gt;Are you or your child allergic to any other foods?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of allergies or asthma?&lt;/li&gt;
+	&lt;li&gt;Are you or your child being treated for any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your baby or child is the one with symptoms, your doctor also may ask these additional questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have you recently started feeding a new infant formula?&lt;/li&gt;
+	&lt;li&gt;Do you or did you breast-feed your child? For how long?&lt;/li&gt;
+	&lt;li&gt;Has your child recently started eating solid foods?&lt;/li&gt;
+	&lt;li&gt;What foods are typically included in your family diet?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Symptoms of soy allergy in babies may appear when a baby starts a new, soy-based infant formula. If you suspect your baby is allergic to soy, try to reduce his or her exposure to allergens by feeding your baby breast milk and &amp;mdash; if your baby is eating solid foods &amp;mdash; soy-free food products. If you&apos;re not nursing, ask your doctor for advice on what to feed your child to reduce the risk of symptoms while you wait for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have symptoms of soy allergy, avoid food products that contain soy until you&apos;ve been evaluated by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask about your symptoms and may perform a physical exam to find or rule out other medical problems. He or she may also recommend one or both of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; In this test, your skin is pricked and exposed to small amounts of the proteins found in soy. If you&apos;re allergic, you develop a raised bump (hive) at the test location on your skin. Allergy specialists usually are best equipped to perform and interpret allergy skin tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; A blood test can measure your immune system&apos;s response to soy by measuring the amount of certain antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. A blood sample is sent to a medical laboratory, where it can be tested for evidence of sensitivity to soy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only way to prevent an allergic reaction is to avoid soy and soy proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications, such as antihistamines, may reduce signs and symptoms of soy allergies. These drugs can be taken after exposure to soy to control your reaction and help relieve discomfort. Some over-the-counter antihistamines are: diphenhydramine (Benadryl, others), chlorpheniramine (Chlor-Trimeton, others), cetirizine (Zyrtec, others) and loratadine (Alavert, Claritin, others). 
+&lt;/p&gt;
+&lt;p&gt;
+Despite your best efforts, you may still come into contact with soy. If you have a serious allergic reaction, you may need an emergency injection of epinephrine and a trip to the emergency room. If you&apos;re at risk of having a severe reaction, you may need to carry injectable epinephrine (such as an EpiPen or EpiPen Jr) with you at all times. Ask your doctor for guidance, so that you&apos;re certain you know when and how to use portable epinephrine. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have experienced a severe allergic reaction to soy, be sure to carry injectable epinephrine (EpiPen, EpiPen Jr) with you all the time. It&apos;s also a good idea to wear a medic alert bracelet to let others know about your allergy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no sure way to prevent a food allergy from occurring. But if you have an infant, breast-feeding instead of using a soy-based or milk-based formula may help. Breastfeed for at least the first four months to reduce the risk of food allergies and for other health benefits. 
+&lt;/p&gt;
+&lt;p&gt;
+If you know you&apos;re allergic to soy, the only sure way to avoid an allergic reaction is to avoid soy products. It&apos;s not always easy to know which foods contain soy, however, and it&apos;s a commonly used ingredient in many foods. 
+&lt;/p&gt;
+&lt;p&gt;
+Try to learn as much as you can about what you&apos;re eating and drinking. Be sure to read food labels carefully. Because soybeans and peanuts contain common allergy-causing components, you may also need to avoid peanuts as well. Some processed soy foods, such as soy oil or soy sauce, may not cause a reaction because processing removes certain allergy-causing proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+Soy milk, edamame, tofu and other soy products have become more popular because of their apparent health benefits. Soy may be called any of the following on a product label: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soy&lt;/li&gt;
+	&lt;li&gt;Soya&lt;/li&gt;
+	&lt;li&gt;Soybeans&lt;/li&gt;
+	&lt;li&gt;Glycine max&lt;/li&gt;
+	&lt;li&gt;Edamame&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+But soy is also a common ingredient in other food products, and it&apos;s not always easy to know if a product contains soy. It&apos;s used in meat products and meat substitutes, baked goods, candies, ice creams and desserts, condiments, butter substitutes, and in other foods. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Products with soy as a main ingredient&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tofu&lt;/li&gt;
+	&lt;li&gt;Miso&lt;/li&gt;
+	&lt;li&gt;Natto&lt;/li&gt;
+	&lt;li&gt;Tempeh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hidden sources of soy products&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hydrolyzed vegetable protein (HVP)&lt;/li&gt;
+	&lt;li&gt;Textured vegetable protein (TVP)&lt;/li&gt;
+	&lt;li&gt;Lecithin&lt;/li&gt;
+	&lt;li&gt;Monodiglyceride&lt;/li&gt;
+	&lt;li&gt;Monosodium glutamate (MSG)&lt;/li&gt;
+	&lt;li&gt;Vegetable oil&lt;/li&gt;
+	&lt;li&gt;Vitamin E&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, check for the statement &quot;contains soy&quot; on the product label. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Soy allergy
+	</Title>
+	<Abstract>
+		Soy allergy &amp;mdash; Comprehensive overview covers symptoms, treatment of an allergic reaction to soy.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="Video" DocID="MM00385" LinkType="Internal" ObjectID="800D547C-7827-4FDE-BD3337C503BB9043" Title="Video: Allergy tests" Url="http://www.mayoclinic.com/health/allergy-tests/MM00385" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+	</RelatedLinksBox>
+</Disease>

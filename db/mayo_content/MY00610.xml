@@ -1,0 +1,280 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00610
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/open-prostatectomy/MY00610
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-12
+		</UpdateDate>
+		<PublicationDate>
+			2009-05-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3721" Title="Reproductive system">
+						<Keyword MCVID="4213" Title="Surgery">
+							<Keyword MCVID="4366" Title="Open prostatectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FB37098C-BC1F-9E5F-977BC89FA93DDE5A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				open prostatectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				prostatectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate removal
+			</MetaKeyword>
+			<MetaKeyword>
+				prostate surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				enlarged prostate
+			</MetaKeyword>
+			<MetaKeyword>
+				BPH
+			</MetaKeyword>
+			<MetaKeyword>
+				BPH treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				robotic prostate surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				radical prostatectomy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Open prostatectomy is surgery to remove part of an enlarged prostate that&apos;s causing urinary symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+Open prostatectomy is generally reserved for men who have a very large prostate, severe urinary symptoms or other problems that need to be corrected during surgery. During open prostatectomy, the part of your prostate blocking urine flow is removed through a cut (incision) below your navel. Or it may be done by making several smaller incisions in the abdomen (laporascopically). Sometimes, robot assistance is used during prostatectomy.
+&lt;/p&gt;
+&lt;p&gt;
+Open prostatectomy is one of several options for treating an enlarged prostate, a condition also called benign prostatic hyperplasia (BPH). To determine the best treatment choice for you, your doctor will consider the severity of your symptoms, what other health problems you have, and the size and shape of your prostate. Open prostatectomy is generally reserved for men who have relatively large prostates and for men for whom other surgical treatment options are not available.
+&lt;/p&gt;
+&lt;p&gt;
+Before doing any enlarged prostate procedure, your doctor may want to do a test that uses a visual scope to look inside your urethra and bladder (cystoscopy). This allows the doctor to check the size of your prostate and examine your urinary system. Your doctor may also want to do other tests, such as blood tests or tests to measure urine flow.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Open prostatectomy eases urinary symptoms and complications resulting from blocked urine flow. These can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A frequent, urgent need to urinate&lt;/li&gt;
+	&lt;li&gt;Difficulty starting urination&lt;/li&gt;
+	&lt;li&gt;Slow (prolonged) urination&lt;/li&gt;
+	&lt;li&gt;Increased frequency of urination at night (nocturia)&lt;/li&gt;
+	&lt;li&gt;Stopping and starting again while urinating&lt;/li&gt;
+	&lt;li&gt;The feeling you can&apos;t completely empty your bladder&lt;/li&gt;
+	&lt;li&gt;Urinary tract infections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Open prostatectomy may also be done to treat or prevent complications due to blocked urine flow, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Recurring urinary tract infections&lt;/li&gt;
+	&lt;li&gt;Kidney malfunction or kidney damage&lt;/li&gt;
+	&lt;li&gt;Bladder damage, which can result in an inability to control urination (incontinence)&lt;/li&gt;
+	&lt;li&gt;Blood in your urine&lt;/li&gt;
+	&lt;li&gt;Bladder stones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Open prostatectomy works well at relieving urinary symptoms, but it&apos;s more involved and has a higher risk of complications than other enlarged prostate procedures. It also requires a longer recovery time. For this reason, open prostatectomy is done in only certain circumstances. It may be an option if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A very large prostate&lt;/li&gt;
+	&lt;li&gt;Bladder problems or other problems that can also be repaired during surgery&lt;/li&gt;
+	&lt;li&gt;Bladder stones&lt;/li&gt;
+	&lt;li&gt;Heavy prostate bleeding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+New techniques and technology have made less invasive procedures an alternative to open prostatectomy for many men. Other enlarged prostate procedures include transurethral needle ablation (TUNA), transurethral microwave therapy (TUMT), transurethral incision of the prostate (TUIP), laser surgery such as holmium laser enucleation of the prostate (HoLEP) or laser photovaporization of the prostate (PVP), and transurethral resection of the prostate (TURP).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Open prostatectomy can cause temporary problems after surgery and can also cause long-term side effects or complications. Risks of open prostatectomy include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Incontinence.&lt;/strong&gt; In some men, open prostatectomy causes loss of bladder control and an urgent need to urinate. In most cases, this gets better after several weeks to several months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dry orgasm.&lt;/strong&gt; Open prostatectomy causes retrograde ejaculation, which means the semen released during sexual climax (ejaculation) enters your bladder rather than exiting the penis. It isn&apos;t harmful and generally doesn&apos;t affect sexual pleasure, but it can interfere with your ability to father a child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urinary tract infection.&lt;/strong&gt; Urinary tract infections are a possible complication after any enlarged prostate procedure. An infection is increasingly likely to occur the longer you have a catheter in place and may require antibiotics or other treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Erectile dysfunction.&lt;/strong&gt; In some cases, open prostatectomy causes erectile dysfunction &amp;mdash; the inability to maintain an erection firm enough to have sex. In some men erectile function can improve over time, but in many men it&apos;s permanent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Narrowing (stricture) of the urethra or bladder neck.&lt;/strong&gt; Sometimes surgery narrows the tube that carries urine from the bladder (urethra), or the area where the urethra attaches to the bladder (bladder neck). This can make urination difficult and may require additional treatment to correct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heavy bleeding.&lt;/strong&gt; Some men lose enough blood during open prostatectomy to require a blood transfusion. You may store your own blood ahead of time in case this occurs, or you may be given donor blood if needed. In some cases, bleeding occurs after surgery and requires further treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow your doctor&apos;s instructions on what to do before your treatment. Here are some things that you may need to do:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask about blood-thinning medications.&lt;/strong&gt; Your surgeon may ask you to stop taking medications that increase your risk of bleeding several days prior to the procedure. These include warfarin (Coumadin), clopidogrel (Plavix) and nonprescription pain relievers such as aspirin, ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others). Talk to the doctor who prescribed you medication before you make any changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t eat before surgery.&lt;/strong&gt; Your doctor will likely ask that you not eat or drink anything after midnight. On the morning of your procedure, take only the medications your doctor tells you to with a small sip of water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange a ride home ahead of time.&lt;/strong&gt; You won&apos;t be able to drive yourself home after the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for time off work.&lt;/strong&gt; You may not be able to work or do strenuous activity for several weeks after surgery. Ask your doctor how much recovery time you may need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You surgeon may ask you to do an enema prior to surgery.&lt;/strong&gt; You may be given a kit and instructions for giving yourself an enema to clear your bowels the morning of surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Open prostatectomy usually takes an hour and a half to three hours.
+&lt;/p&gt;
+&lt;p&gt;
+Before surgery, your doctor will give you a general anesthetic, which means you&apos;ll be unconscious during the procedure. Or you may receive a spinal anesthetic, which means you&apos;ll be conscious during surgery but won&apos;t feel any pain.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will also give you an antibiotic right before surgery, to prevent infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+Once the anesthetic is working, your doctor may perform a cystoscopy. A long, flexible viewing scope (cytoscope) is inserted through the tip of your penis to see inside the urethra, bladder and prostate area.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will then insert a tube (catheter) into the tip of your penis and extend it into your bladder. The tube drains urine during the procedure. After your surgery area has been shaved and sterilized, your doctor will make a cut (incision) below your navel. Depending on what technique your doctor uses, he or she may need to make an incision through the bladder to reach the prostate. In some cases, the procedure is done with robot assistance or laporascopically. Laparoscopic surgery requires a few smaller incisions rather than a single large incision.
+&lt;/p&gt;
+&lt;p&gt;
+If you also happen to have a hernia or bladder problem, your doctor may use the surgery as an opportunity to repair it. Having mesh in place from a previous hernia repair may limit the ability to use robotic or laparoscopic techniques during prostatectomy.
+&lt;/p&gt;
+&lt;p&gt;
+Once your doctor has removed the part of your prostate causing symptoms, you may have one to two temporary drain tubes inserted through punctures in your skin near the surgery site. One tube goes directly into your bladder (suprapubic tube), and the other tube goes into the area where the prostate was removed (pelvic drain).
+&lt;/p&gt;
+&lt;p&gt;
+After the surgery, your doctor will close the inside and outside of the surgery site with stitches or staples.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After surgery you will be watched carefully for any signs of trouble.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your doctor may inflate a balloon inside the area where part of your prostate was removed.&lt;/strong&gt; This puts pressure on the surgery area to stop bleeding. To keep blood clots from forming, your will have saline solution flowing through (irrigating) the bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll be given intravenous (IV) pain medications.&lt;/strong&gt; Your doctor may give you prescription pain pills to take after the IV is removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll have stockings and compression devices on your legs.&lt;/strong&gt; These help prevent blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your doctor will have you walk the day of or the day after surgery.&lt;/strong&gt; You&apos;ll also do exercises to move your feet while you&apos;re in bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll likely go home a few days after surgery.&lt;/strong&gt; When your doctor thinks it&apos;s safe for you to go home, the pelvic drain is taken out. You may need to return to the doctor in one or two weeks to have staples taken out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll likely return home with a catheter in place.&lt;/strong&gt; Most men need a urinary catheter for seven to 10 days after surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The suprapubic tube is generally removed after a few days.&lt;/strong&gt; It may be taken out before you go home from the hospital. Or you may need to keep it in place and return to the hospital or doctor&apos;s office to have it removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Most men can resume sexual activity 6 to 8 weeks after surgery.&lt;/strong&gt; After prostatectomy, you can still have an orgasm during sex, but you&apos;ll ejaculate very little or no semen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make sure you understand the post-surgery steps you need to take, and any restrictions.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll need to resume your activity level gradually.&lt;/strong&gt; You should be back to your normal routine in about four to six weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You won&apos;t be able to drive for at least a few days after going home.&lt;/strong&gt; Don&apos;t drive until your catheter is removed, you are no longer taking prescription pain medications and your doctor says it&apos;s OK.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll need to see your doctor a few times to make sure everything is OK.&lt;/strong&gt; Most men see their doctors after about six weeks and then again after a few months. If you have any problems, you may need to see your doctor sooner or more often.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Open prostatectomy provides long-term relief of urinary symptoms due to an enlarged prostate. Although it&apos;s the most invasive procedure to treat an enlarged prostate, serious complications are rare. Most men who have the procedure generally don&apos;t need any follow-up treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Open prostatectomy
+	</Title>
+	<Abstract>
+		Open prostatectomy &amp;mdash; Overview covers definition, risks, results of this treatment for enlarged prostate.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00611" LinkType="Internal" ObjectID="FB3923E4-A732-0551-3553E365E746303C" Title="Prostate laser surgery" Url="http://www.mayoclinic.com/health/prostate-laser-surgery/MY00611" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00608" LinkType="Internal" ObjectID="FB34541C-0501-B132-828D6AA2CEE464A9" Title="Transurethral needle ablation (TUNA)" Url="http://www.mayoclinic.com/health/tuna/MY00608" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00607" LinkType="Internal" ObjectID="FB323B0C-F123-9612-1305FD0629CCE602" Title="Transurethral microwave therapy (TUMT)" Url="http://www.mayoclinic.com/health/tumt/MY00607" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00599" LinkType="Internal" ObjectID="F10E3BD6-C739-9F3C-4686273187719962" Title="Transurethral incision of the prostate (TUIP)" Url="http://www.mayoclinic.com/health/tuip/MY00599" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00140" LinkType="Internal" ObjectID="DF5D2342-E7FF-0DBD-14AE3484AD77EBCC" Title="Cystoscopy" Url="http://www.mayoclinic.com/health/cystoscopy/MY00140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00633" LinkType="Internal" ObjectID="3F02BCEA-AC9F-38A9-2997AE24488AE998" Title="Transurethral resection of the prostate (TURP)" Url="http://www.mayoclinic.com/health/turp/MY00633" />
+		<LinkItem ContentType="SelfAssessment" DocID="MC00046_D" LinkType="Internal" ObjectID="15EF7117-C181-4DC3-9F502A00A61385B3" Title="Prostate symptoms self-assessment" Url="http://www.mayoclinic.com/health/prostate-health/MC00046_D" />
+		<LinkItem ContentType="Article" DocID="HA00040" LinkType="Internal" ObjectID="78D032F9-F542-4DE0-B6E3BC5B35E92C02" Title="Aging: What to expect" Url="http://www.mayoclinic.com/health/aging/HA00040" />
+		<LinkItem ContentType="Disease" DocID="DS00027" LinkType="Internal" ObjectID="E569D2C1-B4F8-4E5E-B7D8534A26D35B37" Title="Prostate gland enlargement" Url="http://www.mayoclinic.com/health/prostate-gland-enlargement/DS00027" />
+		<LinkItem ContentType="Disease" DocID="DS00913" LinkType="Internal" ObjectID="77226BC2-E7FF-0DBD-17005783923D0636" Title="Retrograde ejaculation" Url="http://www.mayoclinic.com/health/retrograde-ejaculation/DS00913" />
+		<LinkItem ContentType="Disease" DocID="DS00286" LinkType="Internal" ObjectID="364657CC-439E-4166-843C62403DD3A8D9" Title="Urinary tract infection (UTI)" Url="http://www.mayoclinic.com/health/urinary-tract-infection/DS00286" />
+		<LinkItem ContentType="Disease" DocID="DS00404" LinkType="Internal" ObjectID="256654C2-982F-4C33-B5E40B0F7A6C9C68" Title="Urinary incontinence" Url="http://www.mayoclinic.com/health/urinary-incontinence/DS00404" />
+	</RelatedLinksBox>
+</TestProcedure>

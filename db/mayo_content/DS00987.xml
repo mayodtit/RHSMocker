@@ -1,0 +1,362 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00987
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shellfish-allergy/DS00987
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-23
+		</UpdateDate>
+		<PublicationDate>
+			2007-06-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy">
+							<Keyword MCVID="2369" Title="Shellfish allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			23BD6FA5-E7FF-0DBD-105A9B73D9F4D4F4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shellfish allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				seafood allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic shock
+			</MetaKeyword>
+			<MetaKeyword>
+				crustacean allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				mollusk allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				crab allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				lobster allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				crayfish allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				shrimp allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				prawn allergy anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				lobster allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				prawn allergy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A shellfish allergy causes an allergic reaction when you eat shellfish. Sometimes, a shellfish allergy is only to certain kinds of shellfish, or you may have an allergy to all shellfish. Shellfish include marine animals with shells, such as shrimp, crab, and lobster, as well as octopus and squid. 
+&lt;/p&gt;
+&lt;p&gt;
+Shellfish allergy can cause mild symptoms, such as hives or nasal congestion, or more-severe and even life-threatening symptoms. For some people, even a tiny amount of shellfish can cause a serious reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+If you think you have a shellfish allergy, talk to your doctor. Tests can help confirm a shellfish allergy, so you can take steps to avoid future reactions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shellfish allergy symptoms generally develop within minutes of eating shellfish and include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hives, itching or eczema&lt;/li&gt;
+	&lt;li&gt;Swelling of the lips, face, tongue and throat, or other parts of the body&lt;/li&gt;
+	&lt;li&gt;Wheezing, nasal congestion or trouble breathing&lt;/li&gt;
+	&lt;li&gt;Abdominal pain, diarrhea, nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or fainting&lt;/li&gt;
+	&lt;li&gt;Tingling in the mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A severe allergic reaction to shellfish called anaphylaxis can be life-threatening if it interferes with your breathing. An anaphylactic reaction is a medical emergency that requires treatment with an epinephrine (adrenaline) injection and a trip to the emergency room. Signs and symptoms of anaphylaxis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A swollen throat or a lump in your throat (airway constriction) that makes it difficult for you to breathe&lt;/li&gt;
+	&lt;li&gt;Shock, with a severe drop in your blood pressure&lt;/li&gt;
+	&lt;li&gt;Rapid pulse&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or loss of consciousness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Though they share similar symptoms, a shellfish allergy is different from an adverse reaction to toxins or bacteria in your food. Unlike an allergy, food poisoning doesn&apos;t directly involve your immune system and occurs only when you eat food that has been contaminated. An allergic reaction to shellfish usually occurs every time you eat the type of shellfish that causes the reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+See a doctor or allergy specialist if you have food allergy symptoms shortly after eating. Seek emergency treatment if you develop any signs or symptoms of anaphylaxis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+All food allergies are caused by an immune system problem. Your immune system identifies certain shellfish proteins as harmful, triggering the production of antibodies to the shellfish protein (allergen). The next time you come in contact with proteins in shellfish, these antibodies recognize them and signal your immune system to release histamine and other chemicals that cause allergy symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Histamine and other body chemicals cause a range of allergic signs and symptoms. Histamine is partly responsible for most allergic responses, including runny nose, itchy eyes, dry throat, rashes and hives, nausea, diarrhea, difficulty breathing, and in some cases, anaphylactic shock. 
+&lt;/p&gt;
+&lt;p&gt;
+There are several types of shellfish, and each kind contains different allergy-causing proteins. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Crustaceans&lt;/strong&gt; include&lt;strong&gt; &lt;/strong&gt;crabs, lobster, crayfish, shrimp and prawn. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mollusks&lt;/strong&gt; include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bivalves, such as clams, mussels, oysters and scallops&lt;/li&gt;
+	&lt;li&gt;Gastropods, such as limpets, periwinkles, snails (escargot) and abalone&lt;/li&gt;
+	&lt;li&gt;Cephalopods, such as squid, cuttlefish and octopus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people are allergic to only one type of shellfish, but can eat others. However, some people with a shellfish allergy must avoid all shellfish. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re at increased risk of developing a shellfish allergy if allergies of any type are common in your family. 
+&lt;/p&gt;
+&lt;p&gt;
+Though people of any age can develop a shellfish allergy, it&apos;s most common in adults. Among adults, shellfish allergy is more common in women. Among children, shellfish allergy is more common in boys. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In severe cases, shellfish allergy can lead to anaphylaxis, a dangerous allergic reaction marked by a swollen throat (airway constriction), rapid pulse, shock, and dizziness or lightheadedness. Anaphylaxis can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+When you have shellfish allergy, you may be at increased risk of anaphylaxis if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have asthma&lt;/li&gt;
+	&lt;li&gt;You have allergic reactions to very small amounts of shellfish (extreme sensitivity)&lt;/li&gt;
+	&lt;li&gt;You have a history of food-induced anaphylaxis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Anaphylaxis can be treated with an emergency injection of epinephrine (adrenaline). If you are at risk of having a severe allergic reaction to shellfish, you should carry injectable epinephrine (such as an EpiPen) with you at all times. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to an allergy specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to prepare for your appointment. Before your appointment, make a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms,&lt;/strong&gt; including any that may seem unrelated to allergy-like symptoms&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your family&apos;s history&lt;/strong&gt; of allergy and asthma, including specific types of allergies if you know them&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; vitamins or supplements that you or your child is taking&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions&lt;/strong&gt; to ask your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions related to shellfish allergy or other types of allergy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are the symptoms most likely due to an allergy?&lt;/li&gt;
+	&lt;li&gt;Will I need any allergy tests?&lt;/li&gt;
+	&lt;li&gt;Should I see an allergist?&lt;/li&gt;
+	&lt;li&gt;Do I need to carry epinephrine?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will likely have questions for you. He or she may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms are you having? How severe are they?&lt;/li&gt;
+	&lt;li&gt;When did you first notice your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had a reaction to shellfish in the past?&lt;/li&gt;
+	&lt;li&gt;What kind of shellfish did you eat?&lt;/li&gt;
+	&lt;li&gt;How soon after eating shellfish did your symptoms occur?&lt;/li&gt;
+	&lt;li&gt;What other foods did you eat during your meal? Don&apos;t forget sauces, beverages and side dishes.&lt;/li&gt;
+	&lt;li&gt;Did any other people dining with you experience similar symptoms?&lt;/li&gt;
+	&lt;li&gt;Is there a history of allergy in your family?&lt;/li&gt;
+	&lt;li&gt;Do you have other allergies, such as hay fever?&lt;/li&gt;
+	&lt;li&gt;Do you have asthma or eczema (atopic dermatitis)?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Avoid eating any type of shellfish before your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask about your symptoms and may perform a physical exam to find or rule out other medical problems. He or she may also recommend one or both of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; In this test, your skin is pricked and exposed to small amounts of the proteins found in shellfish. If you&apos;re allergic, you&apos;ll develop a raised bump (hive) at the test location on your skin. This test is usually completed and interpreted by an allergy specialist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Also called allergen-specific IgE antibody test, radioallergosorbent (RAST) test or allergy screen, this test can measure your immune system&apos;s response to shellfish proteins by measuring the amount of certain antibodies in your bloodstream, known as immunoglobulin E (IgE) antibodies. A blood sample is sent to a medical laboratory, where it can be tested for evidence of sensitivity to shellfish proteins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A history of allergic reactions shortly after exposure to shellfish can be a sign of a shellfish allergy, but allergy testing is the only sure way to tell what&apos;s causing your symptoms. Adverse reactions to shellfish are also sometimes caused by a nonallergic reaction, such as food poisoning or a bacterial or viral infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The only sure way to prevent an allergic reaction to shellfish is to avoid shellfish altogether. Most people with a shellfish allergy can eat fish, however. 
+&lt;/p&gt;
+&lt;p&gt;
+Despite your best efforts, however, you may still come in contact with shellfish. If you experience a mild allergic reaction to shellfish, medications such as antihistamines may reduce signs and symptoms, such as rash and itchiness. Antihistamines can be taken after exposure to shellfish to control your reaction and help relieve discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a severe allergic reaction to shellfish (anaphylaxis), you&apos;ll likely need an emergency injection of epinephrine (adrenaline). If you&apos;re at risk of having a severe reaction, carry injectable epinephrine (such as an EpiPen, EpiPen Jr.) with you at all times.
+&lt;/p&gt;
+&lt;p&gt;
+Administer an emergency injection of epinephrine if you experience any of these symptoms after exposure to shellfish: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Swollen throat&lt;/li&gt;
+	&lt;li&gt;Wheezing or a repetitive dry cough&lt;/li&gt;
+	&lt;li&gt;Chest tightness&lt;/li&gt;
+	&lt;li&gt;Dizziness, lightheadedness or a feeling that you&apos;re going to faint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After you use epinephrine, seek emergency medical care. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you know you&apos;re allergic to shellfish, the only sure way to avoid an allergic reaction is to avoid all shellfish or products that might contain shellfish. Even trace amounts of shellfish can cause a severe reaction in some people. Shellfish isn&apos;t usually a hidden food ingredient, so it may be easier to avoid than some other allergy-causing foods. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoiding shellfish&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious when dining out.&lt;/strong&gt; Eating at restaurants poses the biggest danger of mistakenly eating shellfish. When you eat at restaurants, always check to make sure the same pan, oil or utensils used for shellfish are not also used to prepare other foods. This is called cross-contamination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use extra caution at seafood restaurants.&lt;/strong&gt; Fish and shellfish are biologically distinct, so fish will not cause an allergic reaction if you have a shellfish allergy &amp;mdash; unless you are also allergic to fish. But when eating at a seafood restaurant, there is a higher risk of cross-contamination of your food with trace amounts of shellfish. Some people even have allergic reactions to cooking vapors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Read labels.&lt;/strong&gt; Cross-contamination can occur in stores where food may be processed or displayed along with shellfish. It also can occur during manufacturing. Be sure to read food labels carefully. Companies are required to clearly label any product that contains even small amounts of shellfish or other foods that often cause allergic reactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your distance.&lt;/strong&gt; You may need to completely avoid environments where shellfish are prepared or processed. Some people even have a reaction after touching shellfish or inhaling steam from cooking shellfish.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people mistakenly believe that allergy to iodine or allergy to radiocontrast dye used in some lab procedures can cause reactions in people with a shellfish allergy. Reactions to radiocontrast material or iodine are not related. 
+&lt;/p&gt;
+&lt;p&gt;
+Glucosamine, a supplement used to prevent and treat arthritis, is made from crab, lobster or shrimp shells. While it does not appear to cause an allergic reaction in most people who have a shellfish allergy, more studies need to be done to determine whether it is safe for people allergic to shellfish. 
+&lt;/p&gt;
+&lt;p&gt;
+If you are at risk of a serious allergic reaction, talk with your doctor about carrying emergency epinephrine (adrenaline). If you&apos;ve already had a severe reaction, wear a medical alert bracelet or necklace that lets others know that you have a food allergy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shellfish allergy
+	</Title>
+	<Abstract>
+		Shellfish allergy &amp;mdash; Comprehensive overview covers symptoms, treatment of this condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00131" LinkType="Internal" ObjectID="CAC9FA48-E7FF-0DBD-1E36ED78D1E6053E" Title="Allergy skin tests" Url="http://www.mayoclinic.com/health/allergy-tests/MY00131" />
+		<LinkItem ContentType="FirstAid" DocID="FA00003" LinkType="Internal" ObjectID="1E4D80E6-65F0-417B-83413D372397B072" Title="Anaphylaxis: First aid" Url="http://www.mayoclinic.com/health/first-aid-anaphylaxis/FA00003" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Article" DocID="AA00037" LinkType="Internal" ObjectID="BBD5759D-4334-4DD4-9EC29CAA95A45281" Title="Allergy medications: Know your options" Url="http://www.mayoclinic.com/health/allergy-medications/AA00037" />
+		<LinkItem ContentType="Disease" DocID="DS00292" LinkType="Internal" ObjectID="D98B8FAF-0C97-4C99-AB208D8BDF274E29" Title="Diarrhea" Url="http://www.mayoclinic.com/health/diarrhea/DS00292" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+		<LinkItem ContentType="Disease" DocID="DS00313" LinkType="Internal" ObjectID="5347A6E4-D219-41F2-96EEA936BD30D271" Title="Hives and angioedema" Url="http://www.mayoclinic.com/health/hives-and-angioedema/DS00313" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+	</RelatedLinksBox>
+</Disease>

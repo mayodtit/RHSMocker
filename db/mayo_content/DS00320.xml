@@ -1,0 +1,436 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00320
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/concussion/DS00320
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-22
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2221" Title="Head and brain injuries">
+						<Keyword MCVID="2317" Title="Concussion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			024E17EF-6C4C-4A88-B46F76AE458A6EF7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				concussion
+			</MetaKeyword>
+			<MetaKeyword>
+				brain injury
+			</MetaKeyword>
+			<MetaKeyword>
+				head trauma
+			</MetaKeyword>
+			<MetaKeyword>
+				postconcussion syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				head injury
+			</MetaKeyword>
+			<MetaKeyword>
+				brain
+			</MetaKeyword>
+			<MetaKeyword>
+				concusion
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A concussion is a traumatic brain injury that alters the way your brain functions. Effects are usually temporary, but can include problems with headache, concentration, memory, judgment, balance and coordination. 
+&lt;/p&gt;
+&lt;p&gt;
+Although concussions usually are caused by a blow to the head, they can also occur when the head and upper body are violently shaken. These injuries can cause a loss of consciousness, but most concussions do not. Because of this, some people have concussions and don&apos;t realize it. 
+&lt;/p&gt;
+&lt;p&gt;
+Concussions are common, particularly if you play a contact sport, such as football. But every concussion injures your brain to some extent. This injury needs time and rest to heal properly. Luckily, most concussive traumatic brain injuries are mild, and people usually recover fully. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of a concussion can be subtle and may not be immediately apparent. Symptoms can last for days, weeks or even longer. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common symptoms after a concussive traumatic brain injury are headache, amnesia and confusion. The amnesia, which may or may not be preceded by a loss of consciousness, almost always involves the loss of memory of the impact that caused the concussion. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of a concussion may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache or a feeling of pressure in the head&lt;/li&gt;
+	&lt;li&gt;Temporary loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Confusion or feeling as if in a fog&lt;/li&gt;
+	&lt;li&gt;Amnesia surrounding the traumatic event&lt;/li&gt;
+	&lt;li&gt;Dizziness or &quot;seeing stars&quot;&lt;/li&gt;
+	&lt;li&gt;Ringing in the ears&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Slurred speech&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some symptoms of concussions may be immediate or delayed in onset by hours or days after injury: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Concentration and memory complaints&lt;/li&gt;
+	&lt;li&gt;Irritability and other personality changes&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light and noise&lt;/li&gt;
+	&lt;li&gt;Sleep disturbances&lt;/li&gt;
+	&lt;li&gt;Psychological adjustment problems and depression&lt;/li&gt;
+	&lt;li&gt;Disorders of taste and smell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in children&lt;br /&gt;
+&lt;/strong&gt;Head trauma is very common in young children. But concussions can be difficult to recognize in infants and toddlers because they can&apos;t readily communicate how they feel. Nonverbal clues of a concussion may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Listlessness, tiring easily&lt;/li&gt;
+	&lt;li&gt;Irritability, crankiness&lt;/li&gt;
+	&lt;li&gt;Change in eating or sleeping patterns&lt;/li&gt;
+	&lt;li&gt;Lack of interest in favorite toys&lt;/li&gt;
+	&lt;li&gt;Loss of balance, unsteady walking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;See a doctor within one to two days if:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You or your child experiences a head injury, even if emergency care isn&apos;t required&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The American Academy of Pediatrics recommends that you call your child&apos;s doctor for advice if your child receives anything more than a light bump on the head. If your child remains alert, moves normally and responds to you, the injury is probably mild and usually doesn&apos;t need further testing. In this case, if your child wants to nap, it&apos;s OK to let them sleep. If worrisome signs develop later, seek emergency care.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care for a child who experiences a head injury and:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;A headache that gets worse over time&lt;/li&gt;
+	&lt;li&gt;Changes in his or her behavior, including irritability or fussiness&lt;/li&gt;
+	&lt;li&gt;Changes in physical coordination, including stumbling or clumsiness&lt;/li&gt;
+	&lt;li&gt;Confusion or disorientation&lt;/li&gt;
+	&lt;li&gt;Slurred speech or other changes in speech&lt;/li&gt;
+	&lt;li&gt;Vision or eye disturbances, including pupils that are bigger than normal (dilated pupils) or pupils of unequal sizes&lt;/li&gt;
+	&lt;li&gt;Changes in breathing pattern&lt;/li&gt;
+	&lt;li&gt;Lasting or recurrent dizziness&lt;/li&gt;
+	&lt;li&gt;Blood or fluid discharge from the nose or ears&lt;/li&gt;
+	&lt;li&gt;Large head bumps or bruises on areas other than the forehead, especially in infants under 12 months of age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek emergency care for anyone&lt;/strong&gt; &lt;strong&gt;who experiences a head injury and:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A loss of consciousness lasting more than a minute&lt;/li&gt;
+	&lt;li&gt;Repeated vomiting&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Obvious difficulty with mental function or physical coordination&lt;/li&gt;
+	&lt;li&gt;Symptoms that worsen over time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Athletes&lt;br /&gt;
+&lt;/strong&gt;No one should return to play or vigorous activity while signs or symptoms of a concussion are present. Experts recommend that an athlete with a suspected concussion not return to play until he or she has been medically evaluated. Experts also recommend that child and adolescent athletes with a concussion not return to play on the same day as the injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your brain has the consistency of gelatin. It&apos;s cushioned from everyday jolts and bumps by the cerebrospinal fluid that it floats in, inside your skull. A violent blow to your head and neck or upper body can cause your brain to slide back and forth forcefully against the inner wall of your skull. Sudden acceleration or deceleration of the head &amp;mdash; resulting from events such as a car crash or being violently shaken (shaken baby syndrome) &amp;mdash; also can cause brain injury. 
+&lt;/p&gt;
+&lt;p&gt;
+These injuries affect brain function, usually for a brief period, resulting in signs and symptoms of concussion. A brain injury of this sort may even lead to bleeding in or around your brain causing symptoms, such as prolonged drowsiness and confusion, that may develop right away or even later. Such bleeding in your brain can be fatal. That&apos;s why anyone who experiences a brain injury needs to be monitored in the hours afterward and receive emergency care if symptoms worsen. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of a concussion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Participating in a high risk sport, such as football, hockey, soccer or other contact sport; the risk is further increased if there&apos;s a lack of proper safety equipment and supervision&lt;/li&gt;
+	&lt;li&gt;Being involved in a motor vehicle collision&lt;/li&gt;
+	&lt;li&gt;Being a soldier involved in combat&lt;/li&gt;
+	&lt;li&gt;Being a victim of physical abuse&lt;/li&gt;
+	&lt;li&gt;Falling, especially in young children and older adults&lt;/li&gt;
+	&lt;li&gt;Having had a previous concussion&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Potential complications of concussion include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Epilepsy.&lt;/strong&gt; People who have had a concussion double their risk of developing epilepsy within the first five years after the injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cumulative effects of multiple brain injuries.&lt;/strong&gt; Evidence exists indicating that people who have had multiple concussive brain injuries over the course of their lives may acquire lasting, and even progressive, cognitive impairment that limits functional ability.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Second impact syndrome.&lt;/strong&gt; Sometimes, experiencing a second concussion before signs and symptoms of a first concussion have resolved may result in rapid and typically fatal brain swelling. After a concussion, the levels of brain chemicals are altered. It usually takes about a week for these levels to stabilize again. However, the time it takes to recover from a concussion is variable, and it is important for athletes never to return to sports while they&apos;re still experiencing signs and symptoms of concussion.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s important for anyone who has a head injury to be evaluated by a doctor within a day or two of the injury, even if emergency care isn&apos;t required. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has received a head injury that concerns you, call your child&apos;s doctor immediately. Depending on the signs and symptoms, your doctor may recommend seeking immediate medical care. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for and make the most of your medical appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions or instructions.&lt;/strong&gt; The most important thing for you to do while waiting for your appointment is to rest your brain physically &amp;mdash; avoid sports or vigorous physical activities &amp;mdash; and mentally &amp;mdash; minimize difficult, stressful or prolonged mental tasks. At the time you make the appointment, ask if there are any steps you or your child should be following to encourage recovery or prevent re-injury. Experts recommend that athletes not return to play until they have been medically evaluated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms you or your child have been experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including other medical problems for which you or your child are being treated and any history of previous head injuries. Also write down the names of any medications, vitamins, supplements or other natural remedies you or your child are taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if you are the one with the head injury. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For a concussion, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is it a concussion?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon will symptoms begin to improve?&lt;/li&gt;
+	&lt;li&gt;What is the risk of future concussions?&lt;/li&gt;
+	&lt;li&gt;What is the risk of long-term complications?&lt;/li&gt;
+	&lt;li&gt;When will it be safe to return to competitive sports?&lt;/li&gt;
+	&lt;li&gt;When will it be safe to resume vigorous exercise?&lt;/li&gt;
+	&lt;li&gt;Is it safe to return to school or work?&lt;/li&gt;
+	&lt;li&gt;Is it safe to drive a car or operate power equipment?&lt;/li&gt;
+	&lt;li&gt;Should a specialist be consulted? What will that cost, and will my insurance cover seeing a specialist? You may need to call your insurance provider for some of these answers.&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Being ready to answer your doctor&apos;s questions may reserve time to go over any points you want to talk about in-depth. 
+&lt;/p&gt;
+&lt;p&gt;
+You or your child should be prepared to answer the following questions about the injury and related signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you play contact sports?&lt;/li&gt;
+	&lt;li&gt;How did you get this injury?&lt;/li&gt;
+	&lt;li&gt;What symptoms did you experience immediately after the injury?&lt;/li&gt;
+	&lt;li&gt;Do you remember what happened right before and after the injury?&lt;/li&gt;
+	&lt;li&gt;Did you lose consciousness after the injury?&lt;/li&gt;
+	&lt;li&gt;Did you have seizures?&lt;/li&gt;
+	&lt;li&gt;Have you experienced nausea or vomiting since the injury?&lt;/li&gt;
+	&lt;li&gt;Have you had a headache? How soon after the injury did it start?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any difficulty with physical coordination since the injury?&lt;/li&gt;
+	&lt;li&gt;Have you had any problems with memory or concentration since the injury?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any sensitivity or problems with your vision and hearing?&lt;/li&gt;
+	&lt;li&gt;Have you had any mood changes, including irritability, anxiety or depression?&lt;/li&gt;
+	&lt;li&gt;Have you felt lethargic or easily fatigued since the injury?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble sleeping or waking from sleep?&lt;/li&gt;
+	&lt;li&gt;Have you noticed changes in your sense of smell or taste?&lt;/li&gt;
+	&lt;li&gt;Do you have any dizziness or vertigo?&lt;/li&gt;
+	&lt;li&gt;What other signs or symptoms are you concerned about?&lt;/li&gt;
+	&lt;li&gt;Have you had any previous head injuries?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;Rest as much as possible in the time leading up to your appointment. This includes avoiding sports or other physical activities that increase your heart rate, such as prolonged walking, or require vigorous muscle contractions, such as weight lifting. Also, minimize activities that require lots of focused attention &amp;mdash; for example, working on the computer, watching TV, texting or playing video games. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a headache, take acetaminophen (Tylenol, others) to ease pain. Avoid taking other pain relievers such as aspirin or ibuprofen (Advil, Motrin, others) if you suspect you&apos;ve had a concussion. It&apos;s possible that these may increase the risk of bleeding.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If a blow to your head, neck or upper body has caused symptoms such as a headache, dizziness, nausea or loss of consciousness, you&apos;ve had a concussion. Signs and symptoms of these injuries may not appear until hours or days after the injury. Brain imaging may be required to determine whether the injury is severe and has caused bleeding or swelling in your skull. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests your doctor may perform or recommend include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological exam&lt;br /&gt;
+&lt;/strong&gt;After your doctor asks detailed questions about your injury, he or she may perform a neurological exam. This evaluation includes checking your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Memory and concentration&lt;/li&gt;
+	&lt;li&gt;Vision&lt;/li&gt;
+	&lt;li&gt;Hearing&lt;/li&gt;
+	&lt;li&gt;Strength and sensation&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;A cranial computerized tomography (CT) scan is the standard test to assess the brain right after injury. A CT scanner takes multiple cross-sectional X-rays and combines all the resulting images to produce detailed, two-dimensional images of your skull and brain. During the procedure, you lie still on a table that slides through a large, doughnut-shaped X-ray machine. The scan is painless and generally takes less than 10 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Brain imaging isn&apos;t always required after a concussive traumatic brain injury. You&apos;re more likely to need a scan if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are an older adult&lt;/li&gt;
+	&lt;li&gt;Fell from a height of more than 3 feet (1 meter)&lt;/li&gt;
+	&lt;li&gt;Were hit by a car or ejected from your car seat in a motor vehicle accident&lt;/li&gt;
+	&lt;li&gt;Are under the influence of alcohol or drugs&lt;/li&gt;
+	&lt;li&gt;Are unable to recall the accident for at least 30 minutes after it occurred&lt;/li&gt;
+	&lt;li&gt;Have persistent trouble with short-term memory &amp;mdash; that is, retaining new information &amp;mdash; after you&apos;ve completely regained consciousness&lt;/li&gt;
+	&lt;li&gt;Vomited multiple times&lt;/li&gt;
+	&lt;li&gt;Had a seizure&lt;/li&gt;
+	&lt;li&gt;Suffered bruises, scrapes or cuts on your head and neck&lt;/li&gt;
+	&lt;li&gt;Are confused or have any other neurological symptoms, especially if the symptoms are getting worse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Observation&lt;br /&gt;
+&lt;/strong&gt;You may need to be hospitalized overnight for observation after a concussion. If your doctor says it&apos;s OK for you to be observed at home, someone should check on you every few hours for at least 24 hours. You may need to be awakened periodically to make sure you can be roused to normal consciousness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rest is the best way to allow your brain to recover from a concussion. The American Academy of Pediatrics recommends both physical and mental rest for children. This means avoiding general physical exertion as well as activities that require mental concentration, such as playing video games, watching TV, texting or using a computer. School workloads should also be temporarily reduced.
+&lt;/p&gt;
+&lt;p&gt;
+For headaches, use acetaminophen (Tylenol, others). Avoid other pain relievers such as ibuprofen (Advil, Motrin, others) and aspirin, as there&apos;s a possibility these medications may increase the risk of bleeding.
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child sustained a concussion while playing competitive sports, ask your doctor or your child&apos;s doctor when it is safe to return to play. Resuming sports too soon increases the risk of a second concussion and of lasting, potentially fatal brain injury. 
+&lt;/p&gt;
+&lt;p&gt;
+No one should return to play or vigorous activity while signs or symptoms of a concussion are present. Experts recommend that children and adolescents not return to play on the same day as the injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following tips may help you to prevent or minimize your risk of head injury: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear appropriate protective gear during sports and other recreational activities.&lt;/strong&gt; Always use the appropriate protective gear for any sport you or your child undertakes. Make sure the equipment fits properly, is well maintained and worn correctly. Follow the rules of the game and practice good sportsmanship. When bicycling, motorcycling, snowboarding or engaging in any recreational activity that may result in head injury, wear protective headgear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buckle your seat belt.&lt;/strong&gt; Wearing a seat belt may prevent serious injury, including an injury to your head, during a traffic accident.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make your home safe.&lt;/strong&gt; Keep your home well lit and your floors free of clutter &amp;mdash; meaning anything that might cause you to trip and fall. Falls around the home are the leading cause of head injury for infants, toddlers and older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your children.&lt;/strong&gt; To help lessen the risk of head injuries to your children, pad countertops and edges of tables, block off stairways and install window guards. Don&apos;t let your children play sports that aren&apos;t suitable for their ages.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use caution in and around swimming areas.&lt;/strong&gt; Don&apos;t dive into water less than 9 feet (3 meters) deep. Read and follow posted safety rules at water parks and swimming pools.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear sensible shoes.&lt;/strong&gt; If you&apos;re older, wear shoes that are easy to walk and maneuver in. Avoid wearing high heels, sandals with thin straps, or shoes that are either too slippery or too sticky.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Concussion
+	</Title>
+	<Abstract>
+		Concussions &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this common brain injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01020" LinkType="Internal" ObjectID="B103808E-E7FF-0DBD-1E25B9F73062E4D2" Title="Post-concussion syndrome" Url="http://www.mayoclinic.com/health/post-concussion-syndrome/DS01020" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Answer" DocID="HQ00763" LinkType="Internal" ObjectID="6636B3B9-E11F-4473-81FFAB8729500ECD" Title="Bump on the head: When is it a serious head injury?" Url="http://www.mayoclinic.com/health/head-injury/HQ00763" />
+		<LinkItem ContentType="Article" DocID="HQ00324" LinkType="Internal" ObjectID="DEACB8AC-B31F-4266-A5BCF8B90EB8E7A3" Title="Bicycle helmet do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/bicycle-helmet/HQ00324" />
+		<LinkItem ContentType="Article" DocID="FL00003" LinkType="Internal" ObjectID="7BE6C7FC-693C-4499-8372760D4E82717F" Title="Fall safety for kids: How to prevent falls" Url="http://www.mayoclinic.com/health/child-safety/FL00003" />
+		<LinkItem ContentType="Answer" DocID="AN02059" LinkType="Internal" ObjectID="706C5842-F476-EA19-E985D5A14480B5BB" Title="Concussion in children: What are the effects?" Url="http://www.mayoclinic.com/health/concussion-in-children/AN02059" />
+		<LinkItem ContentType="Disease" DocID="DS01157" LinkType="Internal" ObjectID="E2256C97-B3B6-07AC-E366D0F367170C08" Title="Shaken baby syndrome" Url="http://www.mayoclinic.com/health/shaken-baby-syndrome/DS01157" />
+		<LinkItem ContentType="Disease" DocID="DS01041" LinkType="Internal" ObjectID="42B7C5D4-E7FF-0DBD-185CFFAAFF4B7F8F" Title="Amnesia" Url="http://www.mayoclinic.com/health/amnesia/DS01041" />
+		<LinkItem ContentType="Disease" DocID="DS00435" LinkType="Internal" ObjectID="361AAE1B-48B7-4385-B4F28D59EA95FA04" Title="Dizziness" Url="http://www.mayoclinic.com/health/dizziness/DS00435" />
+		<LinkItem ContentType="Disease" DocID="DS00342" LinkType="Internal" ObjectID="352B66F5-CF68-45A7-A0E816C2832ABA06" Title="Epilepsy" Url="http://www.mayoclinic.com/health/epilepsy/DS00342" />
+	</RelatedLinksBox>
+</Disease>

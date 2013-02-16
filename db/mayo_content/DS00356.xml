@@ -1,0 +1,711 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00356
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bipolar-disorder/DS00356
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-18
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1154" Title="Mood disorders">
+						<Keyword MCVID="2439" Title="Bipolar disorder" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B2138CDB-0C42-4B6F-8AF50CA8903055A7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bipolar disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				manic-depressive
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				mania
+			</MetaKeyword>
+			<MetaKeyword>
+				manic
+			</MetaKeyword>
+			<MetaKeyword>
+				mental health
+			</MetaKeyword>
+			<MetaKeyword>
+				mental illness
+			</MetaKeyword>
+			<MetaKeyword>
+				bi-polar disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				manic depression
+			</MetaKeyword>
+			<MetaKeyword>
+				manic depressive illness
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar I
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar II
+			</MetaKeyword>
+			<MetaKeyword>
+				hypomania
+			</MetaKeyword>
+			<MetaKeyword>
+				hypomanic
+			</MetaKeyword>
+			<MetaKeyword>
+				mixed state
+			</MetaKeyword>
+			<MetaKeyword>
+				mixed mood
+			</MetaKeyword>
+			<MetaKeyword>
+				lithium
+			</MetaKeyword>
+			<MetaKeyword>
+				depression
+			</MetaKeyword>
+			<MetaKeyword>
+				mood stabilizer
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar depression
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar affective disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				manic state
+			</MetaKeyword>
+			<MetaKeyword>
+				manic phase
+			</MetaKeyword>
+			<MetaKeyword>
+				manic episode
+			</MetaKeyword>
+			<MetaKeyword>
+				depressive state
+			</MetaKeyword>
+			<MetaKeyword>
+				depressive episode
+			</MetaKeyword>
+			<MetaKeyword>
+				depressive phase
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid cycling
+			</MetaKeyword>
+			<MetaKeyword>
+				rapid cycler
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar disease
+			</MetaKeyword>
+			<MetaKeyword>
+				what is bipolar
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar disorder symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar 2
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar 1
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of bipolar
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar medication
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar mania
+			</MetaKeyword>
+			<MetaKeyword>
+				bipolar treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				mood instability
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bipolar disorder &amp;mdash; sometimes called manic-depressive disorder &amp;mdash; is associated with mood swings that range from the lows of depression to the highs of mania. When you become depressed, you may feel sad or hopeless and lose interest or pleasure in most activities. When your mood shifts in the other direction, you may feel euphoric and full of energy. Mood shifts may occur only a few times a year, or as often as several times a day. In some cases, bipolar disorder causes symptoms of depression and mania at the same time.
+&lt;/p&gt;
+&lt;p&gt;
+Although bipolar disorder is a disruptive, long-term condition, you can keep your moods in check by following a treatment plan. In most cases, bipolar disorder can be controlled with medications and psychological counseling (psychotherapy).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bipolar disorder is divided into several subtypes. Each has a different pattern of symptoms. Types of bipolar disorder include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bipolar I disorder.&lt;/strong&gt; Mood swings with bipolar I cause significant difficulty in your job, school or relationships. Manic episodes can be severe and dangerous.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bipolar II disorder.&lt;/strong&gt; Bipolar II is less severe than bipolar I. You may have an elevated mood, irritability and some changes in your functioning, but generally you can carry on with your normal daily routine. Instead of full-blown mania, you have hypomania &amp;mdash; a less severe form of mania. In bipolar II, periods of depression typically last longer than periods of hypomania.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclothymic disorder.&lt;/strong&gt; Cyclothymic disorder, also known as cyclothymia, is a mild form of bipolar disorder. With cyclothymia, hypomania and depression can be disruptive, but the highs and lows are not as severe as they are with other types of bipolar disorder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;!-- mcimagecaption --&gt;
+&lt;/p&gt;
+&lt;div class=&quot;inlineimage right&quot; style=&quot;width: 200px&quot;&gt;
+&lt;img src=&quot;/images/inline/dn6_bipolarmoods.gif&quot; border=&quot;0&quot; alt=&quot;Bipolar disorder symptoms reflect a range of moods.&quot; width=&quot;200&quot; height=&quot;320&quot; /&gt;Bipolar disorder symptoms reflect a range of moods. 
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The exact symptoms of bipolar disorder vary from person to person. For some people, depression causes the most problems; for other people, manic symptoms are the main concern. Symptoms of depression and symptoms of mania or hypomania may also occur together. This is known as a mixed episode. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Manic phase of bipolar disorder&lt;br /&gt;
+&lt;/strong&gt;Signs and symptoms of the manic or hypomanic phase of bipolar disorder can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Euphoria&lt;/li&gt;
+	&lt;li&gt;Inflated self-esteem&lt;/li&gt;
+	&lt;li&gt;Poor judgment&lt;/li&gt;
+	&lt;li&gt;Rapid speech&lt;/li&gt;
+	&lt;li&gt;Racing thoughts&lt;/li&gt;
+	&lt;li&gt;Aggressive behavior&lt;/li&gt;
+	&lt;li&gt;Agitation or irritation&lt;/li&gt;
+	&lt;li&gt;Increased physical activity&lt;/li&gt;
+	&lt;li&gt;Risky behavior&lt;/li&gt;
+	&lt;li&gt;Spending sprees or unwise financial choices&lt;/li&gt;
+	&lt;li&gt;Increased drive to perform or achieve goals&lt;/li&gt;
+	&lt;li&gt;Increased sex drive&lt;/li&gt;
+	&lt;li&gt;Decreased need for sleep&lt;/li&gt;
+	&lt;li&gt;Easily distracted&lt;/li&gt;
+	&lt;li&gt;Careless or dangerous use of drugs or alcohol&lt;/li&gt;
+	&lt;li&gt;Frequent absences from work or school&lt;/li&gt;
+	&lt;li&gt;Delusions or a break from reality (psychosis)&lt;/li&gt;
+	&lt;li&gt;Poor performance at work or school&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Depressive phase of bipolar disorder&lt;br /&gt;
+&lt;/strong&gt;Signs and symptoms of the depressive phase of bipolar disorder can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sadness&lt;/li&gt;
+	&lt;li&gt;Hopelessness&lt;/li&gt;
+	&lt;li&gt;Suicidal thoughts or behavior&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Guilt&lt;/li&gt;
+	&lt;li&gt;Sleep problems&lt;/li&gt;
+	&lt;li&gt;Low appetite or increased appetite&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Loss of interest in activities once considered enjoyable&lt;/li&gt;
+	&lt;li&gt;Problems concentrating&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Chronic pain without a known cause&lt;/li&gt;
+	&lt;li&gt;Frequent absences from work or school&lt;/li&gt;
+	&lt;li&gt;Poor performance at work or school&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other signs and symptoms of bipolar disorder&lt;br /&gt;
+&lt;/strong&gt;Signs and symptoms of bipolar disorder can also include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seasonal changes in mood.&lt;/strong&gt; As with seasonal affective disorder (SAD), some people with bipolar disorder have moods that change with the seasons. Some people become manic or hypomanic in the spring or summer and then become depressed in the fall or winter. For other people, this cycle is reversed &amp;mdash; they become depressed in the spring or summer and manic or hypomanic in the fall or winter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rapid cycling bipolar disorder.&lt;/strong&gt; Some people with bipolar disorder have rapid mood shifts. This is defined as having four or more mood swings within a single year. However, in some people mood shifts occur much more quickly, sometimes within just hours.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychosis.&lt;/strong&gt; Severe episodes of either mania or depression may result in psychosis, a detachment from reality. Symptoms of psychosis may include false but strongly held beliefs (delusions) and hearing or seeing things that aren&apos;t there (hallucinations).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in children and adolescents&lt;br /&gt;
+&lt;/strong&gt;Instead of clear-cut depression and mania or hypomania, the most prominent signs of bipolar disorder in children and adolescents can include explosive temper, rapid mood shifts, reckless behavior and aggression. In some cases, these shifts occur within hours or less &amp;mdash; for example, a child may have intense periods of giddiness and silliness, long bouts of crying and outbursts of explosive anger all in one day.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have any symptoms of depression or mania, see your doctor or mental health provider. Bipolar disorder doesn&apos;t get better on its own. Getting treatment from a mental health provider with experience in bipolar disorder can help you get your symptoms under control. 
+&lt;/p&gt;
+&lt;p&gt;
+Many people with bipolar disorder don&apos;t get the treatment they need. Despite the mood extremes, people with bipolar disorder often don&apos;t recognize how much their emotional instability disrupts their lives and the lives of their loved ones. And if you&apos;re like some people with bipolar disorder, you may enjoy the feelings of euphoria and cycles of being more productive. However, this euphoria is always followed by an emotional crash that can leave you depressed, worn out &amp;mdash; and perhaps in financial, legal or relationship trouble. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re reluctant to seek treatment, confide in a friend or loved one, a health care professional, a faith leader or someone else you trust. They may be able to help you take the first steps to successful treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;If you have suicidal thoughts&lt;br /&gt;
+&lt;/strong&gt;Suicidal thoughts and behavior are common among people with bipolar disorder. If you or someone you know is having suicidal thoughts, get help right away. Here are some steps you can take:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Contact a family member or friend.&lt;/li&gt;
+	&lt;li&gt;Seek help from your doctor, a mental health provider or other health care professional.&lt;/li&gt;
+	&lt;li&gt;Call a suicide hot line number &amp;mdash; in the United States, you can reach the toll-free, 24-hour hot line of the National Suicide Prevention Lifeline at 800-273-8255 to talk to a trained counselor.&lt;/li&gt;
+	&lt;li&gt;Contact a minister, spiritual leader or someone in your faith community.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to get emergency help&lt;br /&gt;
+&lt;/strong&gt;If you think you may hurt yourself or attempt suicide, call 911 or your local emergency number immediately. If you have a loved one who has harmed himself or herself, or is seriously considering doing so, make sure someone stays with that person. Take him or her to the hospital or call for emergency help.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of bipolar disorder is unknown, but several factors seem to be involved in causing and triggering bipolar episodes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Biological differences.&lt;/strong&gt; People with bipolar disorder appear to have physical changes in their brains. The significance of these changes is still uncertain but may eventually help pinpoint causes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neurotransmitters.&lt;/strong&gt; An imbalance in naturally occurring brain chemicals called neurotransmitters seems to play a significant role in bipolar disorder and other mood disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormones.&lt;/strong&gt; Imbalanced hormones may be involved in causing or triggering bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited traits.&lt;/strong&gt; Bipolar disorder is more common in people who have a blood relative (such as a sibling or parent) with the condition. Researchers are trying to find genes that may be involved in causing bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Environment.&lt;/strong&gt; Stress, abuse, significant loss or other traumatic experiences may play a role in bipolar disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase the risk of developing bipolar disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having blood relatives such as a parent or sibling with bipolar disorder&lt;/li&gt;
+	&lt;li&gt;Periods of high stress&lt;/li&gt;
+	&lt;li&gt;Drug or alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Major life changes, such as the death of a loved one&lt;/li&gt;
+	&lt;li&gt;Being in your early 20s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Conditions that commonly occur with bipolar disorder&lt;br /&gt;
+&lt;/strong&gt;If you have bipolar disorder, you may also have another health condition that&apos;s diagnosed before or after your diagnosis of bipolar disorder. Such conditions need to be diagnosed and treated because they may worsen existing bipolar disorder. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorders.&lt;/strong&gt; Examples include post-traumatic stress disorder (PTSD), social phobia and generalized anxiety disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Attention-deficit/hyperactivity disorder (ADHD).&lt;/strong&gt; ADHD has symptoms that overlap with bipolar disorder. For this reason, bipolar disorder can be difficult to differentiate from ADHD. Sometimes one is mistaken for the other. In some cases, a person may be diagnosed with both conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Addiction or substance abuse.&lt;/strong&gt; Many people with bipolar disorder also have alcohol, tobacco or drug problems. Drugs or alcohol may seem to ease symptoms, but they can actually trigger, prolong or worsen depression or mania.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical health problems.&lt;/strong&gt; People diagnosed with bipolar disorder are more likely to have certain other health problems, including heart disease, thyroid problems and obesity.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, bipolar disorder can result in serious problems that affect every area of your life. These can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Problems related to substance and alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Legal problems&lt;/li&gt;
+	&lt;li&gt;Financial problems&lt;/li&gt;
+	&lt;li&gt;Relationship troubles&lt;/li&gt;
+	&lt;li&gt;Isolation and loneliness&lt;/li&gt;
+	&lt;li&gt;Poor work or school performance&lt;/li&gt;
+	&lt;li&gt;Frequent absences from work or school&lt;/li&gt;
+	&lt;li&gt;Suicide&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a medical doctor who specializes in diagnosing and treating mental health conditions (psychiatrist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor may be limited, so preparing a list of questions ahead of time will help you make the most of your time together. For problems related to bipolar disorder, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have bipolar disorder?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which do you recommend for me?&lt;/li&gt;
+	&lt;li&gt;What side effects are possible with that treatment?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Should I see a psychiatrist or other mental health provider?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your loved ones first begin noticing your symptoms of depression, mania or hypomania?&lt;/li&gt;
+	&lt;li&gt;How frequently do your moods change?&lt;/li&gt;
+	&lt;li&gt;Do you ever have suicidal thoughts when you&apos;re feeling down?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms? Do they interfere with your daily life or relationships?&lt;/li&gt;
+	&lt;li&gt;Do you have any blood relatives with bipolar disorder or another mood disorder?&lt;/li&gt;
+	&lt;li&gt;What other mental or physical health conditions do you have?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol, smoke cigarettes or use street drugs?&lt;/li&gt;
+	&lt;li&gt;How much do you sleep at night? Does it change over time?&lt;/li&gt;
+	&lt;li&gt;Do you go through periods when you take risks you wouldn&apos;t normally take, such as unsafe sex or unwise, spontaneous financial decisions?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When doctors suspect someone has bipolar disorder, they typically do a number of tests and exams. These can help rule out other problems, pinpoint a diagnosis and also check for any related complications. These can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; This may involve measuring your height and weight; checking your vital signs, such as heart rate, blood pressure and temperature; listening to your heart and lungs; and examining your abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lab tests.&lt;/strong&gt; These may include blood and urine tests. These tests can help identify any physical problems that could be causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological evaluation.&lt;/strong&gt; A doctor or mental health provider will talk to you about your thoughts, feelings and behavior patterns. You may also fill out a psychological self-assessment or questionnaire. With your permission, family members or close friends may be asked to provide information about your symptoms and possible episodes of mania or depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mood charting.&lt;/strong&gt; To identify exactly what&apos;s going on, your doctor may have you keep a daily record of your moods, sleep patterns or other factors that could help with diagnosis and finding the right treatment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria for bipolar disorder&lt;br /&gt;
+&lt;/strong&gt;To be diagnosed with bipolar disorder, you must meet the criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. Diagnostic criteria for bipolar disorder are based on the specific type of bipolar disorder. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bipolar I disorder.&lt;/strong&gt; You&apos;ve had at least one manic or one mixed episode. You may or may not have had a major depressive episode. Because bipolar I varies from person to person, there are more-specific subcategories of diagnosis based on your particular signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bipolar II disorder.&lt;/strong&gt; You&apos;ve had at least one major depressive episode and at least one hypomanic episode (but not a fully manic or mixed episode). With bipolar II, symptoms cause distress or difficulty in some area of your life &amp;mdash; such as relationships or work. Bipolar II disorder also has subcategories based on your particular signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclothymic disorder.&lt;/strong&gt; You&apos;ve had numerous hypomanic episodes and periods of depression &amp;mdash; but you&apos;ve never had a full manic episode, a major depressive episode or a mixed episode. For a diagnosis of cyclothymic disorder, symptoms last two years or more (one year in children and adolescents). During that time, symptoms never go away for more than two months. Symptoms cause significant distress or difficulty in some area of your life &amp;mdash; such as in relationships or at work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The DSM has very specific criteria for manic, hypomanic, major depressive and mixed episodes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for a manic episode&lt;br /&gt;
+&lt;/strong&gt;A manic episode is a distinct period of abnormally and persistently elevated, expansive, or irritable mood that lasts at least one week (or less than a week if hospitalization is necessary). During the period of disturbed mood, three or more of the following symptoms must be present (four if the mood is only irritable):
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflated self-esteem or grandiosity&lt;/li&gt;
+	&lt;li&gt;Decreased need for sleep (for example, you feel rested after only three hours of sleep)&lt;/li&gt;
+	&lt;li&gt;Unusual talkativeness&lt;/li&gt;
+	&lt;li&gt;Racing thoughts&lt;/li&gt;
+	&lt;li&gt;Distractibility&lt;/li&gt;
+	&lt;li&gt;Increased goal-directed activity (either socially, at work or school, or sexually)&lt;/li&gt;
+	&lt;li&gt;Doing things that have a high potential for painful consequences &amp;mdash; for example, unrestrained buying sprees, sexual indiscretions or foolish business investments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To be considered a manic episode:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The mood disturbance must be severe enough to cause noticeable difficulty at work, at school or in usual social activities or relationships; to require hospitalization to prevent harm to yourself or others; or to trigger a break from reality (psychosis).&lt;/li&gt;
+	&lt;li&gt;Symptoms do not meet the criteria for a mixed episode (see criteria for mixed episode below).&lt;/li&gt;
+	&lt;li&gt;Symptoms are not due to the direct effects of something else such as alcohol or drug use, taking a medication, or a having a medical condition such as hyperthyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for a hypomanic episode&lt;br /&gt;
+&lt;/strong&gt;A hypomanic episode is a distinct period of elevated, expansive or irritable mood that lasts at least four days, and is different from the usual nondepressed mood. During the period of disturbed mood, three or more of the following symptoms must be present (four if the mood is only irritable):
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflated self-esteem or grandiosity&lt;/li&gt;
+	&lt;li&gt;Decreased need for sleep (for example, you feel rested after only three hours of sleep)&lt;/li&gt;
+	&lt;li&gt;Unusual talkativeness&lt;/li&gt;
+	&lt;li&gt;Racing thoughts&lt;/li&gt;
+	&lt;li&gt;Distractibility&lt;/li&gt;
+	&lt;li&gt;Increased goal-directed activity (either socially, at work or school, or sexually)&lt;/li&gt;
+	&lt;li&gt;Doing things that have a high potential for painful consequences &amp;mdash; for example, unrestrained buying sprees, sexual indiscretions or foolish business investments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To be considered a hypomanic episode:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The mood disturbance must be severe enough to cause a noticeable and uncharacteristic change in functioning.&lt;/li&gt;
+	&lt;li&gt;The episode isn&apos;t severe enough to cause significant difficulty at work, at school or in usual social activities or relationships; to require hospitalization; or to trigger a break from reality (psychosis).&lt;/li&gt;
+	&lt;li&gt;Symptoms do not meet the criteria for a mixed episode (see criteria for mixed episode below).&lt;/li&gt;
+	&lt;li&gt;Symptoms are not due to the direct effects of something else such as alcohol or drug use, taking a medication, or a having a medical condition such as hyperthyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for a major depressive episode&lt;br /&gt;
+&lt;/strong&gt;To be diagnosed with a major depressive episode, you must have five (or more) of the following symptoms over a two-week period. At least one of the symptoms is either depressed mood or loss of interest or pleasure. Symptoms can be based on your own feelings or on the observations of someone else. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depressed mood most of the day, nearly every day, such as feeling sad, empty or tearful (in children and adolescents, depressed mood can appear as constant irritability)&lt;/li&gt;
+	&lt;li&gt;Diminished interest or feeling no pleasure in all &amp;mdash; or almost all &amp;mdash; activities most of the day, nearly every day&lt;/li&gt;
+	&lt;li&gt;Significant weight loss when not dieting, weight gain, or decrease or increase in appetite nearly every day (in children, failure to gain weight as expected can be a sign of depression)&lt;/li&gt;
+	&lt;li&gt;Insomnia or increased desire to sleep nearly every day&lt;/li&gt;
+	&lt;li&gt;Either restlessness or slowed behavior that can be observed by others&lt;/li&gt;
+	&lt;li&gt;Fatigue or loss of energy nearly every day&lt;/li&gt;
+	&lt;li&gt;Feelings of worthlessness or excessive or inappropriate guilt nearly every day&lt;/li&gt;
+	&lt;li&gt;Diminished ability to think or concentrate, or indecisiveness, nearly every day&lt;/li&gt;
+	&lt;li&gt;Recurrent thoughts of death or suicide, or a suicide attempt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To be considered a major depressive episode:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Symptoms don&apos;t meet the criteria for a mixed episode (see criteria for mixed episode below).&lt;/li&gt;
+	&lt;li&gt;Symptoms must be severe enough to cause noticeable difficulty in day-to-day activities, such as work, school, social activities or relationships with others.&lt;/li&gt;
+	&lt;li&gt;Symptoms are not due to the direct effects of something else, such as drug abuse, taking a medication or a having a medical condition such as hyperthyroidism.&lt;/li&gt;
+	&lt;li&gt;Symptoms are not caused by grieving, such as after the loss of a loved one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Criteria for mixed episode&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The criteria are met both for a manic episode and for a major depressive episode nearly every day during at least a one-week period.&lt;/li&gt;
+	&lt;li&gt;The mood disturbance must be severe enough to cause noticeable difficulty at work, at school, or in usual social activities or relationships; to require hospitalization to prevent harm to self or others; or to cause a break from reality (psychosis).&lt;/li&gt;
+	&lt;li&gt;Symptoms are not due to the direct effects of something else, such as drug abuse, taking a medication or a having a medical condition such as hyperthyroidism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnosis in children&lt;br /&gt;
+&lt;/strong&gt;The same official criteria used to diagnose bipolar disorder in adults are used to diagnose children and adolescents. However, bipolar symptoms in children and adolescents often have different patterns than they do in adults, and may not fit neatly into the categories used for diagnosis. While adults generally tend to have distinct periods of mania and depression, children and adolescents may have erratic, rapid changes in mood, behavior and energy levels.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s often hard to tell whether these are normal ups and downs, the results of stress or trauma, or signs of a mental health problem other than bipolar disorder. To make it even more difficult, children who have bipolar disorder are frequently also diagnosed with other mental health conditions such as attention-deficit/hyperactivity disorder (ADHD) or behavior problems.
+&lt;/p&gt;
+&lt;p&gt;
+Although bipolar disorder can occur in young children, diagnosis in children preschool age or younger is especially difficult. The current criteria used for diagnosis have not been proved in young children, and a wide range of issues other than bipolar disorder can cause mood and behavior problems at this age.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bipolar disorder requires lifelong treatment, even during periods when you feel better. Treatment is usually guided by a psychiatrist skilled in treating the condition. You may have a treatment team that also includes psychologists, social workers and psychiatric nurses. The primary treatments for bipolar disorder include medications; individual, group or family psychological counseling (psychotherapy); or education and support groups.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hospitalization.&lt;/strong&gt; Your doctor may have you hospitalized if you are behaving dangerously, you feel suicidal or you become detached from reality (psychotic).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Initial treatment.&lt;/strong&gt; Often, you&apos;ll need to begin taking medications to balance your moods right away. Once your symptoms are under control, you&apos;ll work with your doctor to find the best long-term treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Continued treatment.&lt;/strong&gt; Maintenance treatment is used to manage bipolar disorder on a long-term basis. People who skip maintenance treatment are at high risk of a relapse of symptoms or having minor mood changes turn into full-blown mania or depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Substance abuse treatment. &lt;/strong&gt;If you have problems with alcohol or drugs, you&apos;ll also need substance abuse treatment. Otherwise, it can be very difficult to manage bipolar disorder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;A number of medications are used to treat bipolar disorder. If one doesn&apos;t work well for you, there are a number of others to try. Your doctor may suggest combining medications for maximum effect. Medications for bipolar disorder include those that prevent the extreme highs and lows that can occur with bipolar disorder (mood stabilizers) and medications that help with depression or anxiety.
+&lt;/p&gt;
+&lt;p&gt;
+Medications for bipolar disorder include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lithium.&lt;/strong&gt; Lithium (Lithobid, others) is effective at stabilizing mood and preventing the extreme highs and lows of certain categories of bipolar disorder and has been used for many years. Periodic blood tests are required, since lithium can cause thyroid and kidney problems. Common side effects include restlessness, dry mouth and digestive issues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticonvulsants.&lt;/strong&gt; These mood-stabilizing medications include valproic acid (Depakene, Stavzor), divalproex (Depakote) and lamotrigine (Lamictal). The medication asenapine (Saphris) may be helpful in treating mixed episodes. Depending on the medication you take, side effects can vary. Common side effects include weight gain, dizziness and drowsiness. Rarely, certain anticonvulsants cause more serious problems, such as skin rashes, blood disorders or liver problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antipsychotics.&lt;/strong&gt; Certain antipsychotic medications, such as aripiprazole (Abilify), olanzapine (Zyprexa), risperidone (Risperdal) and quetiapine (Seroquel), may help people who don&apos;t benefit from anticonvulsants. The only antipsychotic that&apos;s specifically approved by the U.S. Food and Drug Administration (FDA) for treating bipolar disorder is quetiapine. However, doctors can still prescribe other medications for bipolar disorder. This is known as off-label use. Side effects depend on the medication, but can include weight gain, sleepiness, tremors, blurred vision and rapid heartbeat. Weight gain in children is a significant concern. Antipsychotic use may also affect memory and attention and cause involuntary facial or body movements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Depending on your symptoms, your doctor may recommend you take an antidepressant. In some people with bipolar disorder, antidepressants can trigger manic episodes, but may be OK if taken along with a mood stabilizer. The most common antidepressant side effects include reduced sexual desire and problems reaching orgasm. Older antidepressants, which include tricyclics and MAO inhibitors, can cause a number of potentially dangerous side effects and require careful monitoring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symbyax.&lt;/strong&gt; This medication combines the antidepressant fluoxetine and the antipsychotic olanzapine. It works as a depression treatment and a mood stabilizer. Symbyax is approved by the FDA specifically for the treatment of bipolar disorder. Side effects can include weight gain, drowsiness and increased appetite. This medication may also cause sexual problems similar to those caused by antidepressants.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Benzodiazepines.&lt;/strong&gt; These anti-anxiety medications may help with anxiety and improve sleep. Examples include clonazepam (Klonopin), lorazepam (Ativan), diazepam (Valium), chlordiazepoxide (Librium) and alprazolam (Niravam, Xanax). Benzodiazepines are generally used for relieving anxiety only on a short-term basis. Side effects can include drowsiness, reduced muscle coordination, and problems with balance and memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Finding the right medication&lt;br /&gt;
+&lt;/strong&gt;Finding the right medication or medications for you will likely take some trial and error. This requires patience, as some medications need weeks to months to take full effect. Generally only one medication is changed at a time so your doctor can identify which medications work to relieve your symptoms with the least bothersome side effects. This can take months or longer, and medications may need to be adjusted as your symptoms change. Side effects improve as you find the right medications and doses that work for you, and your body adjusts to the medications.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications and pregnancy&lt;br /&gt;
+&lt;/strong&gt;A number of medications for bipolar disorder can be associated with birth defects. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use effective birth control (contraception) to prevent pregnancy. Discuss birth control options with your doctor, as birth control medications may lose effectiveness when taken along with certain bipolar disorder medications.&lt;/li&gt;
+	&lt;li&gt;If you plan to become pregnant, meet with your doctor to discuss your treatment options.&lt;/li&gt;
+	&lt;li&gt;Discuss breast-feeding with your doctor, as some bipolar medications can pass through breast milk to your infant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Psychotherapy is another vital part of bipolar disorder treatment. Several types of therapy may be helpful. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive behavioral therapy.&lt;/strong&gt; This is a common form of individual therapy for bipolar disorder. The focus of cognitive behavioral therapy is identifying unhealthy, negative beliefs and behaviors and replacing them with healthy, positive ones. It can help identify what triggers your bipolar episodes. You also learn effective strategies to manage stress and to cope with upsetting situations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychoeducation.&lt;/strong&gt; Counseling to help you learn about bipolar disorder (psychoeducation) can help you and your loved ones understand bipolar disorder. Knowing what&apos;s going on can help you get the best support and treatment, and help you and your loved ones recognize warning signs of mood swings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family therapy.&lt;/strong&gt; Family therapy involves seeing a psychologist or other mental health provider along with your family members. Family therapy can help identify and reduce stress within your family. It can help your family learn how to communicate better, solve problems and resolve conflicts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Group therapy.&lt;/strong&gt; Group therapy provides a forum to communicate with and learn from others in a similar situation. It may also help build better relationship skills. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other therapies.&lt;/strong&gt; Other therapies that have been studied with some evidence of success include early identification and therapy for worsening symptoms (prodrome detection) and therapy to identify and resolve problems with your daily routine and interpersonal relationships (interpersonal and social rhythm therapy). Ask your doctor if any of these options may be appropriate for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Transcranial magnetic stimulation&lt;br /&gt;
+&lt;/strong&gt;This treatment applies rapid pulses of a magnetic field to the head. It&apos;s not clear exactly how this helps, but it appears to have an antidepressant effect. However, not everyone is helped by this therapy, and it&apos;s not yet clear who is a good candidate for this type of treatment. More research is needed. The most serious potential side effect is a seizure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electroconvulsive therapy&lt;/strong&gt; &lt;strong&gt;(ECT)&lt;/strong&gt;&lt;br /&gt;
+Electroconvulsive therapy can be effective for people who have episodes of severe depression or feel suicidal or people who haven&apos;t seen improvements in their symptoms despite other treatment. With ECT, electrical currents are passed through your brain. Researchers don&apos;t fully understand how ECT works. But it&apos;s thought that the electric shock causes changes in brain chemistry that leads to improvements in your mood. ECT may be an option if you have mania or severe depression when you&apos;re pregnant and cannot take your regular medications. ECT can cause temporary memory loss and confusion.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Hospitalization&lt;br /&gt;
+&lt;/strong&gt;In some cases, people with bipolar disorder benefit from hospitalization. Getting psychiatric treatment at a hospital can help keep you calm and safe and stabilize your mood, whether you&apos;re having a manic episode or a deep depression. Partial hospitalization or day treatment programs also are options to consider. These programs provide the support and counseling you need while you get symptoms under control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment in children and adolescents&lt;br /&gt;
+&lt;/strong&gt;Children and adolescents with bipolar disorder are prescribed the same types of medications as those used in adults. However, there&apos;s little research on the safety and effectiveness of bipolar medications in children, so treatment decisions are based on adult research. Treatments are generally decided on a case-by-case basis, depending on exact symptoms, medication side effects and other factors. As with adults, ECT may be an option for adolescents with severe bipolar I symptoms or for whom medications don&apos;t work.
+&lt;/p&gt;
+&lt;p&gt;
+Most children diagnosed with bipolar disorder require counseling as part of initial treatment and to keep symptoms from returning. Psychotherapy &amp;mdash; along with working with teachers and school counselors &amp;mdash; can help children develop coping skills, address learning difficulties and resolve social problems. It can also help strengthen family bonds and communication. Psychotherapy may also be necessary to resolve substance abuse problems, common in older children with bipolar disorder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably need to make lifestyle changes to stop cycles of behavior that worsen your bipolar disorder, and to make sure you get the support you need from people in your life. Here are some steps to take: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Quit drinking or using illegal drugs.&lt;/strong&gt; One of the biggest concerns with bipolar disorder is the negative consequences of risk-taking behavior and drug or alcohol abuse. Get help if you have trouble quitting on your own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steer clear of unhealthy relationships.&lt;/strong&gt; Surround yourself with people who are a positive influence and won&apos;t encourage unhealthy behavior or attitudes that can worsen your bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get regular exercise.&lt;/strong&gt; Moderate, regular exercise can help steady your mood. Working out releases brain chemicals that make you feel good (endorphins), can help you sleep and has a number of other benefits. Check with your doctor before starting any exercise program, especially if you&apos;re taking lithium to make sure exercise won&apos;t interfere with your medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of sleep.&lt;/strong&gt; Sleeping enough is an important part of managing your mood. If you have trouble sleeping, talk to your doctor or mental health provider about what you can do.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some alternative treatments may help, but there isn&apos;t much research on them. Most of the studies that do exist are on major depression, so it isn&apos;t clear how well most of these work for bipolar disorder.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acids.&lt;/strong&gt; These oils may help improve brain function and depression associated with bipolar disorder. Bipolar disorder appears to be less common in areas of the world where people regularly eat fish rich in omega-3s. Omega-3s appear to have a number of health benefits, but more studies are needed to determine just how much they help with bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnesium.&lt;/strong&gt; Several small studies have suggested that magnesium supplements may lessen mania and the rapid cycling of bipolar symptoms. More research is needed to confirm these findings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;St. John&apos;s&lt;/strong&gt;&lt;strong&gt; wort.&lt;/strong&gt; This herb may be helpful with depression. However, it can also interact with antidepressants and other medications, and it has the potential to trigger mania in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;S-adenosyl-L-methionine (SAMe).&lt;/strong&gt; This amino acid supplement appears to help brain function related to depression. It isn&apos;t clear yet whether it&apos;s helpful in people with bipolar disorder. As with St. John&apos;s wort, SAMe can trigger mania in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal combinations.&lt;/strong&gt; Herbal remedies that combine a number of different herbs, such as those used in traditional Chinese medicine, haven&apos;t been well studied. Some appear to help, but the risks and benefits still aren&apos;t clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This ancient Chinese practice of inserting tiny needles into the skin may relieve depression, but more studies are needed to confirm its benefits. However, it won&apos;t hurt for you to try it &amp;mdash; acupuncture is safe and can be done along with other bipolar disorder treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yoga.&lt;/strong&gt; Yoga may help ease depression and mood swings associated with bipolar disorder. It also has a number of other health benefits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Massage therapy.&lt;/strong&gt; Massage may also help relieve anxiety and stress, which can worsen bipolar symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although some alternative medicine treatments can be a good addition to your regular treatment, take some precautions first: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t stop taking your prescribed medications&lt;/strong&gt; &lt;strong&gt;or skip therapy sessions.&lt;/strong&gt; Alternative medicine is not a substitute for regular medical care when it comes to treating bipolar disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be honest with your doctors and mental health providers.&lt;/strong&gt; Tell them exactly which complementary treatments you use or would like to try.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of potential dangers.&lt;/strong&gt; Just because it&apos;s natural doesn&apos;t mean it&apos;s safe. Before using alternative medicine, be sure you know the risks, including possible interactions with medications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with bipolar disorder can be challenging. Here are some things that can help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about bipolar disorder.&lt;/strong&gt; Education about your condition can empower you and motivate you to stick to your treatment plan. Likewise, help educate your family and friends about what you&apos;re going through.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Support groups for people with bipolar disorder can help you connect to others facing similar challenges and share experiences.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay focused on your goals.&lt;/strong&gt; Recovery from bipolar disorder can take time. Stay motivated by keeping your recovery goals in mind and reminding yourself that you can work to repair damaged relationships and other problems caused by your mood swings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find healthy outlets.&lt;/strong&gt; Explore healthy ways to channel your energy, such as hobbies, exercise and recreational activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn ways to relax and manage stress.&lt;/strong&gt; Yoga, tai chi, meditation or other relaxation techniques can be helpful.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent bipolar disorder. However, getting treatment at the earliest sign of a mental health disorder can help prevent bipolar disorder or other mental health conditions from worsening.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been diagnosed with bipolar disorder, some strategies can help prevent minor episodes from becoming full-blown episodes of mania or depression: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pay attention to warning signs.&lt;/strong&gt; Addressing symptoms early on can prevent episodes from getting worse. You and your caregivers may have identified a pattern to your bipolar episodes and what triggers them. Call your doctor if you feel you&apos;re falling into an episode of depression or mania. Involve family members or friends in watching for warning signs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid drugs and alcohol.&lt;/strong&gt; Even though you may initially feel better, using alcohol or street drugs makes your symptoms more likely to come back.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your medications exactly as directed.&lt;/strong&gt; Medications can have unwanted side effects, and you may feel unhappy about having a mental health condition that requires lifelong treatment. During periods when you feel better, you may be tempted to stop treatment. This can have immediate consequences &amp;mdash; you may become very depressed, feel suicidal, or go into a manic or hypomanic episode. If you think you need to make a change, call your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check first before taking other medications.&lt;/strong&gt; Call the doctor who&apos;s treating you for bipolar disorder before you take medications prescribed by another doctor. Sometimes other medications trigger episodes of bipolar disorder or may interfere with medications you&apos;re already taking to treat bipolar disorder.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bipolar disorder
+	</Title>
+	<Abstract>
+		Bipolar disorder &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this mood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00814" LinkType="Internal" ObjectID="E0F45336-B87B-5407-FEA8BFFF3FEB95AD" Title="Family therapy" Url="http://www.mayoclinic.com/health/family-therapy/MY00814" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00129" LinkType="Internal" ObjectID="C650258F-E7FF-0DBD-12E55834EE1D684B" Title="Electroconvulsive therapy (ECT)" Url="http://www.mayoclinic.com/health/electroconvulsive-therapy/MY00129" />
+		<LinkItem ContentType="Table" DocID="SR00008_D" LinkType="Internal" ObjectID="ADA11820-E961-4379-965BB77B679CB1CA" Title="Stress symptoms: Effects on your body, feelings and behavior" Url="http://www.mayoclinic.com/health/stress-symptoms/SR00008_D" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00194" LinkType="Internal" ObjectID="6A932FE2-E7FF-0DBD-15A1B22BF9201628" Title="Cognitive behavioral therapy" Url="http://www.mayoclinic.com/health/cognitive-behavioral-therapy/MY00194" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00488" LinkType="Internal" ObjectID="4723B235-F3F0-E282-0063AC485F6995C7" Title="Urinalysis" Url="http://www.mayoclinic.com/health/urinalysis/MY00488" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00186" LinkType="Internal" ObjectID="470A84D0-E7FF-0DBD-14CBD2F07ED3D45E" Title="Psychotherapy" Url="http://www.mayoclinic.com/health/psychotherapy/MY00186" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00476" LinkType="Internal" ObjectID="1D9EDDDF-95B4-602A-031B9C87EEDF18B0" Title="Complete blood count (CBC)" Url="http://www.mayoclinic.com/health/complete-blood-count/MY00476" />
+		<LinkItem ContentType="Article" DocID="MH00076" LinkType="Internal" ObjectID="8BFEDBD6-698A-459E-AF82F9CE870AD8E0" Title="Mental health: Overcoming the stigma of mental illness" Url="http://www.mayoclinic.com/health/mental-health/MH00076" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="MH00129" LinkType="Internal" ObjectID="4EF235D3-E7FF-0DBD-12D1656D96C0F6CD" Title="Self-esteem: 4 steps to feel better about yourself" Url="http://www.mayoclinic.com/health/self-esteem/MH00129" />
+		<LinkItem ContentType="Answer" DocID="AN02049" LinkType="Internal" ObjectID="EEC2B5A4-B0E0-F875-E6FE57B98D0D783E" Title="Bipolar treatment: Are bipolar I and bipolar II treated differently?" Url="http://www.mayoclinic.com/health/bipolar-treatment/AN02049" />
+		<LinkItem ContentType="Answer" DocID="AN02062" LinkType="Internal" ObjectID="98FF60DB-BAB2-28F7-8C3DB1CDDD5874D4" Title="Bipolar medications and weight gain" Url="http://www.mayoclinic.com/health/bipolar-medications-and-weight-gain/AN02062" />
+		<LinkItem ContentType="Answer" DocID="AN00920" LinkType="Internal" ObjectID="0D77EED0-EB78-463B-A9F80B27E5E65396" Title="Bipolar disorder and alcoholism: Are they related?" Url="http://www.mayoclinic.com/health/bipolar-disorder/AN00920" />
+		<LinkItem ContentType="Disease" DocID="DS01062" LinkType="Internal" ObjectID="C22F27E8-E7FF-0DBD-18D04660F2EA2EBE" Title="Suicide and suicidal thoughts" Url="http://www.mayoclinic.com/health/suicide/DS01062" />
+	</RelatedLinksBox>
+</Disease>

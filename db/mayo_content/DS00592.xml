@@ -1,0 +1,376 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00592
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/interstitial-lung-disease/DS00592
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-09
+		</UpdateDate>
+		<PublicationDate>
+			2005-07-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2195" Title="Chronic lung">
+						<Keyword MCVID="2434" Title="Interstitial lung disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9B837E55-DC5F-476C-AD26B28377EC4D62
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				interstitial lung disease
+			</MetaKeyword>
+			<MetaKeyword>
+				lung disease
+			</MetaKeyword>
+			<MetaKeyword>
+				pulmonary fibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic pulmonary fibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic lung disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interstitial (in-tur-STISH-ul) lung disease describes a large group of disorders, most of which cause progressive scarring of lung tissue. The scarring associated with interstitial lung disease eventually affects your ability to breathe and get enough oxygen into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+Interstitial lung disease can be caused by long-term exposure to hazardous materials, such as asbestos. Some types of autoimmune diseases, such as rheumatoid arthritis, also can cause interstitial lung disease. In most cases, however, the causes remain unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+Once lung scarring occurs, it&apos;s generally irreversible. Medications can slow the damage of interstitial lung disease, but many people never regain full use of their lungs. Lung transplants are an option for some people who have interstitial lung disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The primary signs and symptoms of interstitial lung disease are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath, aggravated by exertion&lt;/li&gt;
+	&lt;li&gt;Dry cough&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+By the time symptoms appear, irreversible lung damage has often already occurred. Nevertheless, it&apos;s important to see your doctor at the first sign of breathing problems. Many conditions other than interstitial lung disease can affect your lungs, and getting an early and accurate diagnosis is important for proper treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interstitial lung disease seems to occur when an injury to your lungs triggers an abnormal healing response. Ordinarily, your body generates just the right amount of tissue to repair damage. But in interstitial lung disease, the repair process goes awry and the tissue around the air sacs (alveoli) becomes scarred and thickened. This makes it more difficult for oxygen to pass into your bloodstream. 
+&lt;/p&gt;
+&lt;p&gt;
+Interstitial lung disease can be triggered by many different things &amp;mdash; including airborne toxins in the workplace, drugs and some types of medical treatments. In most cases, the causes are unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Occupational and environmental factors&lt;/strong&gt; &lt;br /&gt;
+Long-term exposure to a number of toxins and pollutants can damage your lungs. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Silica dust&lt;/li&gt;
+	&lt;li&gt;Asbestos fibers&lt;/li&gt;
+	&lt;li&gt;Grain dust&lt;/li&gt;
+	&lt;li&gt;Bird and animal droppings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation treatments&lt;/strong&gt; &lt;br /&gt;
+Some people who receive radiation therapy for lung or breast cancer show signs of lung damage months or sometimes years after the initial treatment. The severity of the damage depends on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How much of the lung was exposed to radiation&lt;/li&gt;
+	&lt;li&gt;The total amount of radiation administered&lt;/li&gt;
+	&lt;li&gt;Whether chemotherapy also was used&lt;/li&gt;
+	&lt;li&gt;The presence of underlying lung disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Many drugs can damage your lungs, especially: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy drugs.&lt;/strong&gt; Drugs designed to kill cancer cells, such as methotrexate (Trexall) and cyclophosphamide (Cytoxan), can also damage lung tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart medications.&lt;/strong&gt; Some drugs used to treat irregular heartbeats, such as amiodarone (Cordarone, Nexterone, Pacerone) or propranolol (Inderal, Inderide, Innopran), may harm lung tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some antibiotics.&lt;/strong&gt; Nitrofurantoin (Macrobid, Macrodantin, others) and sulfasalazine (Azulfidine) can cause lung damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical conditions&lt;/strong&gt; &lt;br /&gt;
+Lung damage can also result from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Systemic lupus erythematosus&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis&lt;/li&gt;
+	&lt;li&gt;Sarcoidosis&lt;/li&gt;
+	&lt;li&gt;Scleroderma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Unknown causes&lt;/strong&gt; &lt;br /&gt;
+The list of substances and conditions that can lead to interstitial lung disease is long. Even so, in most cases, the causes are never found. Disorders without a known cause are grouped together under the label idiopathic pulmonary fibrosis or idiopathic interstitial lung disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="60" Title="Airways and air sacs of the lungs" URI="/images/image_popup/thumbs/r7_bronchiolesasbestosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing airways and air sacs of the lungs 
+" Caption="Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-capillary membrane, which normally prevents liquid in the capillaries from entering the air sacs. 
+" Height="300" Title="Airways and air sacs of the lungs" URI="/images/image_popup/r7_bronchiolesasbestosis.jpg" Width="400" />
+				<HTML>
+					Your bronchioles are some of the smallest airways in your lungs. Inhaled air passes through tiny ducts from the bronchioles into elastic air sacs (alveoli). The alveoli are surrounded by the alveolar-...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may make you more susceptible to interstitial lung disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Interstitial lung disease is much more likely to affect adults, although infants and children sometimes develop the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to occupational and environmental toxins.&lt;/strong&gt; If you work in mining, farming or construction or for any reason are exposed to pollutants known to damage your lungs, your risk of interstitial lung disease greatly increases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Some forms of interstitial lung disease are more likely to occur in people with a history of smoking, and active smoking may make the condition worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation and chemotherapy.&lt;/strong&gt; Having radiation treatments to your chest or using some chemotherapy drugs makes it more likely that you&apos;ll develop lung disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen.&lt;/strong&gt; Continually inhaling very high levels of therapeutic oxygen for more than 48 hours can harm the lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Interstitial lung disease can lead to a series of life-threatening complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure in your lungs (pulmonary hypertension).&lt;/strong&gt; Unlike systemic high blood pressure, this condition affects only the arteries in your lungs. It begins when scar tissue restricts the smallest blood vessels, limiting blood flow in your lungs. This in turn raises pressure within the pulmonary arteries. Pulmonary hypertension is a serious illness that becomes progressively worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Right-sided heart failure (cor pulmonale).&lt;/strong&gt; This serious condition occurs when your heart&apos;s lower right chamber (right ventricle) &amp;mdash; which is less muscular than the left &amp;mdash; has to pump harder than usual to move blood through obstructed pulmonary arteries. Eventually the right ventricle fails from the extra strain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory failure.&lt;/strong&gt; In the end stage of chronic interstitial lung disease, respiratory failure occurs when severely low blood oxygen levels along with rising pressures in the pulmonary arteries and the right ventricle cause heart failure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your symptoms to the attention of your family doctor. He or she may refer you to a pulmonologist &amp;mdash; a doctor who specializes in lung disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms and when did they start?&lt;/li&gt;
+	&lt;li&gt;Are you receiving treatment for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements have you taken in the past five years?&lt;/li&gt;
+	&lt;li&gt;What are all the occupations you&apos;ve ever had, even if only for a few months?&lt;/li&gt;
+	&lt;li&gt;Do any members of your family have a chronic lung disease of any kind?&lt;/li&gt;
+	&lt;li&gt;Have you ever received chemotherapy or radiation treatments for cancer?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions, especially arthritis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It will help your doctor make a diagnosis if he or she can compare an old chest X-ray with the results of a current X-ray. The actual X-ray image is more important to your doctor than is the report alone. If your primary care physician had a chest X-ray done as part of your initial evaluation, bring that with you when you see a pulmonologist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are your symptoms persistent, or do they seem to disappear and then reappear?&lt;/li&gt;
+	&lt;li&gt;Have you recently had new contact with the following: air conditioners, humidifiers, pools, hot tubs, or water-damaged walls or carpet?&lt;/li&gt;
+	&lt;li&gt;Have any close relatives or friends been diagnosed with a related condition?&lt;/li&gt;
+	&lt;li&gt;Do you come into contact with birds through your work or hobbies? Does a neighbor raise pigeons?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of lung disease?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? If so, how much?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed or treated for any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Identifying and determining the cause of interstitial lung disease can be extremely challenging. An unusually large number of disorders fall into this broad category. In addition, the signs and symptoms of a wide range of medical conditions can mimic interstitial lung disease, and doctors must rule these out before making a definitive diagnosis. Some of the following tests may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; The lung damage associated with many types of interstitial lung disease often shows up in characteristic patterns on chest X-rays. Occasionally, the chest X-ray is normal and further tests are required to explain your shortness of breath. Chest X-rays may also be used to track the progression of disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT)&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; CT scanners use a computer to combine X-ray images taken from many different angles to produce cross-sectional images of internal structures. A high-resolution CT scan can be particularly helpful in determining the extent of lung damage caused by interstitial lung disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; A sonogram for the heart, an echocardiogram uses sound waves to visualize the heart. It can produce still images of your heart&apos;s structures, as well as videos that show how your heart is functioning. This test can evaluate the amount of pressure occurring in the right side of your heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary function tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spirometry.&lt;/strong&gt; This test requires you to exhale quickly and forcefully through a tube connected to a machine that measures how much air your lungs can hold, and how quickly you can move air out of your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oximetry.&lt;/strong&gt; This simple test uses a small device placed on one of your fingers to measure the oxygen saturation in your blood. Oximetry can serve as an easy way to monitor the course of the disease, sometimes more accurately than a chest X-ray can.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise stress test.&lt;/strong&gt; An exercise test on a treadmill or stationary bike may be used to monitor your lung function when you&apos;re active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung tissue analysis&lt;/strong&gt; &lt;br /&gt;
+Often, pulmonary fibrosis can be definitively diagnosed only by examining a small amount of lung tissue (biopsy) in a laboratory. The tissue sample may be obtained in one of these ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchoscopy.&lt;/strong&gt; In this procedure, your doctor removes very small tissue samples &amp;mdash; generally no larger than the head of a pin &amp;mdash; using a small, flexible tube (bronchoscope) that&apos;s passed through your mouth or nose into your lungs. The risks of bronchoscopy are generally minor &amp;mdash; most often a temporary sore throat and hoarseness from the bronchoscope &amp;mdash; but the tissue samples are sometimes too small for an accurate diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchoalveolar lavage.&lt;/strong&gt; In this procedure, your doctor injects salt water through a bronchoscope into a section of your lung, and then immediately suctions it out. The solution that&apos;s withdrawn contains cells from your air sacs. Although bronchoalveolar lavage samples a larger area of the lung than other procedures do, it may not provide enough information to diagnose pulmonary fibrosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical biopsy.&lt;/strong&gt; Although this is a more invasive procedure with potential complications, it&apos;s often the only way to obtain a large enough tissue sample to make an accurate diagnosis. During the procedure, surgical instruments and a small camera are inserted through two or three small incisions between your ribs. The camera allows your surgeon to view your lungs on a video monitor while removing tissue samples from your lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="60" Title="Spirometer" URI="/images/image_popup/thumbs/as7_spiromthu.jpg" Width="60" />
+				<Image Alt="Image showing person using a spirometer 
+" Caption="A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+" Height="307" Title="Spirometer" URI="/images/image_popup/as7_spirom.jpg" Width="400" />
+				<HTML>
+					A spirometer is a diagnostic device that measures the amount of air you&apos;re able to breathe in and out and the time it takes you to exhale completely after you take a deep breath. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The lung scarring that occurs in interstitial lung disease can&apos;t be reversed, and no current treatment has proved effective in stopping the ultimate progression of the disease. Some treatments, though, may improve symptoms temporarily or slow the disease&apos;s progress. Others help improve quality of life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Many people diagnosed with interstitial lung diseases are initially treated with a corticosteroid (prednisone), sometimes in combination with other drugs that suppress the immune system &amp;mdash; such as methotrexate or cyclosporine. None of these combinations has proved very effective over the long run.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oxygen therapy&lt;/strong&gt; &lt;br /&gt;
+Using oxygen can&apos;t stop lung damage, but it can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Make breathing and exercise easier&lt;/li&gt;
+	&lt;li&gt;Prevent or lessen complications from low blood oxygen levels&lt;/li&gt;
+	&lt;li&gt;Reduce blood pressure in the right side of your heart&lt;/li&gt;
+	&lt;li&gt;Improve your sleep and sense of well-being&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;re most likely to receive oxygen when you sleep or exercise, although some people may use it round-the-clock. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary rehabilitation&lt;/strong&gt; &lt;br /&gt;
+The aim of pulmonary rehabilitation is not only to improve daily functioning, but also to help people with intersitial lung disease live full, satisfying lives. To that end, pulmonary rehabilitation programs focus on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical exercise, to improve your endurance&lt;/li&gt;
+	&lt;li&gt;Breathing techniques that improve lung efficiency&lt;/li&gt;
+	&lt;li&gt;Emotional support&lt;/li&gt;
+	&lt;li&gt;Nutritional counseling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Lung transplantation may be an option of last resort for younger people with severe interstitial lung disease who haven&apos;t benefited from other treatment options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Being actively involved in your own treatment and staying as healthy as possible are essential to living with interstitial lung disease. For that reason, it&apos;s important to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you have lung disease, the best thing you can do for yourself is to stop smoking. Talk to your doctor about options for quitting, including smoking cessation programs, which use a variety of proven techniques to help people quit. And because secondhand smoke can also be harmful to your lungs, don&apos;t allow other people to smoke around you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat well.&lt;/strong&gt; People with lung disease may lose weight both because it&apos;s uncomfortable to eat and because of the extra energy it takes to breathe. These people need a nutritionally rich diet that contains adequate calories. A dietitian can give you further guidelines for healthy eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; Respiratory infections can worsen symptoms of intersitial lung disease. Make sure you receive the pneumonia vaccine and an annual flu shot.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic lung disease is emotionally and physically challenging. Your daily routines and activities may need to be adjusted, sometimes radically, as breathing problems worsen or health care needs take priority in your life. Feelings of fear, anger and sadness are normal as you grieve for the loss of your old life and worry about what&apos;s next for you and your family. 
+&lt;/p&gt;
+&lt;p&gt;
+Share your feelings with your loved ones and your doctor. Talking openly may help you and your loved ones cope with the emotional challenges of your disease. In addition, clear communication will help you and your family plan effectively for your needs if your disease progresses. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also want to consider joining a support group, where you can talk to people who are facing challenges similar to yours. Group members may share coping strategies, exchange information about new treatment or simply listen as you express your feelings. If a group isn&apos;t for you, you may wish to talk with a counselor in a one-on-one setting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Interstitial lung disease
+	</Title>
+	<Abstract>
+		Interstitial lung disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of these serious lung disorders.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+	</RelatedLinksBox>
+</Disease>

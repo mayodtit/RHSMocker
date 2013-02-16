@@ -1,0 +1,387 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00260
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/strep-throat/DS00260
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-20
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2122" Title="Strep throat" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			7A8C6CBF-246F-423C-9D9F889E25F2EE05
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				strep throat
+			</MetaKeyword>
+			<MetaKeyword>
+				sore throat
+			</MetaKeyword>
+			<MetaKeyword>
+				throat
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococci
+			</MetaKeyword>
+			<MetaKeyword>
+				pharyngitis
+			</MetaKeyword>
+			<MetaKeyword>
+				strep a
+			</MetaKeyword>
+			<MetaKeyword>
+				group a strep
+			</MetaKeyword>
+			<MetaKeyword>
+				scarlet fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Strep throat is a bacterial throat infection that can make your throat feel sore and scratchy. Only a small portion of sore throats are the result of strep throat. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to identify strep throat for a number of reasons. If untreated, strep throat can sometimes cause complications such as kidney inflammation and rheumatic fever. Rheumatic fever can lead to painful and inflamed joints, a rash and even damage to heart valves. 
+&lt;/p&gt;
+&lt;p&gt;
+Strep throat is most common between the ages of 5 and 15, but it affects people of all ages. If you or your child has signs or symptoms of strep throat, see your doctor for prompt treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, signs and symptoms of strep throat include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Throat pain&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Red and swollen tonsils, sometimes with white patches or streaks of pus&lt;/li&gt;
+	&lt;li&gt;Tiny red spots on the soft or hard palate &amp;mdash; the area at the back of the roof of the mouth&lt;/li&gt;
+	&lt;li&gt;Swollen, tender lymph glands (nodes) in your neck&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Rash&lt;/li&gt;
+	&lt;li&gt;Stomachache and sometimes vomiting, especially in younger children&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s possible for you or your child to have many of these signs and symptoms, but not have strep throat. The cause of these signs and symptoms could be a viral infection or some other kind of illness. That&apos;s why your doctor generally tests specifically for strep throat. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible to have the bacteria that can cause strep in your throat without having a sore throat. Some people are carriers of strep, which means they can pass the bacteria on to others, but the bacteria are not currently making them sick. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if you or your child has any of these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A sore throat accompanied by tender, swollen lymph glands (nodes)&lt;/li&gt;
+	&lt;li&gt;A sore throat that lasts longer than 48 hours&lt;/li&gt;
+	&lt;li&gt;A fever higher than 101 F (38.3 C) in older children, or any fever lasting longer than 48 hours&lt;/li&gt;
+	&lt;li&gt;A sore throat accompanied by a rash&lt;/li&gt;
+	&lt;li&gt;Problems breathing or difficulty swallowing anything, including saliva&lt;/li&gt;
+	&lt;li&gt;If strep has been diagnosed, a lack of improvement after taking antibiotics for 24 to 48 hours&lt;/li&gt;
+	&lt;li&gt;A fever &amp;mdash; or pain or swelling in the joints, shortness of breath or a rash &amp;mdash; after a strep infection, even as long as three weeks after infection; these can be indicators of rheumatic fever&lt;/li&gt;
+	&lt;li&gt;Cola-colored urine more than a week after a strep infection, as this may indicate kidney inflammation (poststreptococcal glomerulonephritis)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of strep throat is bacteria known as Streptococcus pyogenes, also known as group A streptococcus. 
+&lt;/p&gt;
+&lt;p&gt;
+Streptococcal bacteria are highly contagious. They can spread through airborne droplets when someone with the infection coughs or sneezes, or through shared food or drinks. You can also pick up the bacteria from a doorknob or other surface and transfer them to your nose, mouth or eyes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors can increase your risk of strep throat infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young age.&lt;/strong&gt; Strep throat occurs most commonly in children between the ages of 5 and 15.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Time of year.&lt;/strong&gt; Although strep throat can occur anytime of the year, it tends to circulate in late fall and early spring. Strep bacteria flourish wherever groups of people are in close contact. That&apos;s why the infection spreads easily among family members, in schools and in child care settings.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although strep throat itself isn&apos;t dangerous, it may lead to serious complications &amp;mdash; sometimes even with treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Spread of infection&lt;/strong&gt;&lt;br /&gt;
+Strep bacteria may spread, causing infection in your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tonsils&lt;/li&gt;
+	&lt;li&gt;Sinuses&lt;/li&gt;
+	&lt;li&gt;Skin&lt;/li&gt;
+	&lt;li&gt;Blood&lt;/li&gt;
+	&lt;li&gt;Middle ear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Inflammatory reactions&lt;/strong&gt;&lt;br /&gt;
+Strep infection may lead to other inflammatory illnesses, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scarlet fever, an illness characterized by a rash&lt;/li&gt;
+	&lt;li&gt;Inflammation of the kidney (poststreptococcal glomerulonephritis)&lt;/li&gt;
+	&lt;li&gt;Rheumatic fever, a serious condition that can affect the heart, joints, nervous system and skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Researchers are investigating a possible link between strep infection and a rare condition called Pediatric autoimmune neuropsychiatric disorder associated with group A streptococci (PANDAS). PANDAS is a term used to describe certain children whose symptoms of neuropsychiatric conditions, such as obsessive compulsive disorder or tic disorders, are exacerbated by strep infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has signs and symptoms common to strep throat, make an appointment with your family doctor or a general practitioner. Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you or your child has had,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any recent, possible sources of infection,&lt;/strong&gt; such as a friend or family member with strep throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including any other health problems and the names of any medications you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your questions&lt;/strong&gt; for the doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. 
+&lt;/p&gt;
+&lt;p&gt;
+For strep throat, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;How long will this be contagious? When is it safe to return to school or work?&lt;/li&gt;
+	&lt;li&gt;What self-care steps might help?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;I or my child has other health conditions. How can they best be managed together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms have you noticed, and how severe are they?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Have these symptoms included a fever? How high?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been exposed to anyone with strep throat in the last couple of weeks?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make the symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been diagnosed with strep throat in the past? When? How was it treated?&lt;/li&gt;
+	&lt;li&gt;Are you or your child allergic to any medications?&lt;/li&gt;
+	&lt;li&gt;What medications are you or your child currently taking, including vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been diagnosed with any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+If you think you or your child might have a strep infection, take steps to avoid spreading infection. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your hands clean,&lt;/strong&gt; cover your mouth when you cough or sneeze, and don&apos;t share personal items.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gargling&lt;/strong&gt; with 1/4 teaspoon (1.2 milliliters) of table salt in 8 ounces (237 milliliters) of warm water also may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest, fluids, soft foods and pain relievers&lt;/strong&gt; such as ibuprofen (Advil, Motrin IB, others) or acetaminophen (Tylenol, others) may ease symptoms. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from chickenpox or flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors usually diagnose the cause of a sore throat on the basis of a physical exam and lab tests. 
+&lt;/p&gt;
+&lt;p&gt;
+During the exam, your doctor looks for signs and symptoms of strep throat, such as fever and enlarged lymph nodes, and will probably use a tongue depressor to get a good look at the throat and tonsils. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will check for redness, swelling, and white streaks or pus on the tonsils. There also may be tiny red spots on the soft or hard palate &amp;mdash; the area at the back of the roof of the mouth. Although these signs indicate an infection, appearance alone doesn&apos;t indicate whether it&apos;s viral or bacterial. 
+&lt;/p&gt;
+&lt;p&gt;
+For that reason, your doctor may opt to use one or more of the following tests to check for the presence of bacteria, including streptococcal bacteria: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Throat culture.&lt;/strong&gt; For this test, a sterile swab is rubbed over the back of the throat and tonsils to get a sample of the secretions. It&apos;s not a painful procedure, but it may cause brief gagging. The sample is then cultured in a laboratory for the presence of bacteria, but results may take as long as two days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rapid antigen test.&lt;/strong&gt; Because of lack of availability or the waiting period for a throat culture, your doctor may order a rapid antigen test on the swab sample. This test can detect strep bacteria in minutes by looking for substances (antigens) in the throat. If you or your child tests positive for strep bacteria, antibiotic treatment can begin right away. But rapid strep tests have a downside. They may miss some strep throat infections. For this reason, many doctors still use throat cultures, especially in children if results of the rapid antigen test are negative.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of medications are available to cure strep throat, relieve its symptoms and prevent its spread. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt;&lt;br /&gt;
+If you or your child has strep throat, your doctor will likely prescribe an oral antibiotic such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Penicillin.&lt;/strong&gt; This drug may be given by injection in some cases &amp;mdash; such as if you have a young child who is having a hard time swallowing or is vomiting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Amoxicillin.&lt;/strong&gt; This drug is in the same family as penicillin, but is often a preferred option for children because it tastes better and is available as a chewable tablet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you or your child is allergic to penicillin, your doctor likely may prescribe: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A cephalosporin such as cephalexin (Keflex)&lt;/li&gt;
+	&lt;li&gt;Clarithromycin (Biaxin)&lt;/li&gt;
+	&lt;li&gt;Azithromycin (Zithromax, Zmax)&lt;/li&gt;
+	&lt;li&gt;Clindamycin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These antibiotics reduce the duration and severity of symptoms, as well as the risk of complications and the likelihood that infection will spread to classmates or family members. 
+&lt;/p&gt;
+&lt;p&gt;
+Once treatment begins, you or your child should start feeling better in just a day or two. Call your doctor if you or your child doesn&apos;t feel better after taking antibiotics for 48 hours. 
+&lt;/p&gt;
+&lt;p&gt;
+If children taking antibiotic therapy feel well and don&apos;t have a fever, they often can return to school or child care when they&apos;re no longer contagious &amp;mdash; usually 24 hours after beginning treatment. But be sure to finish the entire course of medicine. Stopping medication early may lead to recurrences and serious complications, such as rheumatic fever or kidney inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptom relievers&lt;/strong&gt;&lt;br /&gt;
+In addition to antibiotics, your doctor may suggest over-the-counter medications to relieve throat pain and reduce fever, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ibuprofen (Advil, Motrin IB, others)&lt;/li&gt;
+	&lt;li&gt;Acetaminophen (Tylenol, others)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because of the risk of Reye&apos;s syndrome, a potentially life-threatening illness, don&apos;t give aspirin to young children and teenagers. Read and follow label directions. Talk to your doctor or pharmacist if you have questions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, antibiotics will quickly wipe out the bacteria causing the infection. In the meantime, try these tips to relieve symptoms of strep throat: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get plenty of rest.&lt;/strong&gt; Sleep helps your body fight infection. If you have strep throat, stay home from work if you can. If your child is ill, keep him or her at home until there&apos;s no sign of fever and he or she feels better and has completed a minimum of 24 hours of antibiotic therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of water.&lt;/strong&gt; Keeping a sore throat lubricated and moist eases swallowing. Drinking plenty of water also helps prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat soothing foods.&lt;/strong&gt; Foods that are easy on a sore throat include broths, soups, applesauce, cooked cereal, mashed potatoes, soft fruits, yogurt and soft-cooked eggs. You may even want to puree foods in the blender to make them easier to swallow. Very cold foods such as sherbet, frozen yogurt or frozen fruit pops also may be soothing. Avoid spicy foods or acidic foods such as orange juice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gargle with warm salt water.&lt;/strong&gt; For older children and adults, gargling several times a day can help relieve throat pain. Mix 1/4 teaspoon (1.2 milliliters) of table salt in 8 ounces (237 milliliters) of warm water. Be sure to tell your child to spit out the liquid after gargling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a humidifier.&lt;/strong&gt; Adding moisture to the air can help ease discomfort. Moisture keeps mucous membranes in your throat from becoming dry and even more irritated. Choose a cool-mist humidifier and clean it daily, because bacteria and molds can flourish in some humidifiers. Saline nasal sprays also help to keep mucous membranes moist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay away from irritants.&lt;/strong&gt; Cigarette smoke can irritate a sore throat and increase the likelihood of infections such as tonsillitis. In addition, avoid fumes from paint or cleaning products, which can be irritating to your throat and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan low-key activities for a sick child.&lt;/strong&gt; If your child tests positive for strep throat, he or she should take antibiotics for at least 24 hours before returning to school or child care. When staying home with your child, plan some low-key activities that you both can enjoy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent strep infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Clean your hands.&lt;/strong&gt; Proper hand cleaning is the best way to prevent all kinds of infections. That&apos;s why it&apos;s important to clean your own hands regularly and to teach your children how to clean their hands properly, using soap and water or an alcohol-based hand sanitizer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover your mouth.&lt;/strong&gt; Teach your children to cover their mouths when they cough or sneeze.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share personal items.&lt;/strong&gt; If you or your child does have strep throat, don&apos;t share drinking glasses or eating utensils. Wash those items carefully in hot, soapy water or in a dishwasher.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Strep throat
+	</Title>
+	<Abstract>
+		Strep throat &amp;mdash; Comprehensive overview covers symptoms, causes and treatment in children and adults.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,302 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00689
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/trichinosis/DS00689
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1587" Title="Parasitic">
+						<Keyword MCVID="5006" Title="Roundworm infection">
+							<Keyword MCVID="2538" Title="Trichinosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			74BB2F20-2A5D-9994-E983469CB727BDF1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				trichinosis
+			</MetaKeyword>
+			<MetaKeyword>
+				roundworm infection
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				nematode infection
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal worms
+			</MetaKeyword>
+			<MetaKeyword>
+				helminth
+			</MetaKeyword>
+			<MetaKeyword>
+				helminthic infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trichinosis (trik-ih-NO-sis), sometimes called trichinellosis, is a type of roundworm infection. Roundworms are parasites that use a host body to stay alive and reproduce. Trichinosis occurs primarily among meat-eating animals (carnivores), especially bears, foxes and walruses. Trichinosis infection is acquired by eating larvae in raw or undercooked meat. 
+&lt;/p&gt;
+&lt;p&gt;
+When humans eat undercooked meat containing trichinella larvae, the larvae mature into adult worms in the intestine over several weeks. The adults then produce larvae that migrate through various tissues, including muscle. Trichinosis is most widespread in rural areas throughout the world. 
+&lt;/p&gt;
+&lt;p&gt;
+Trichinosis can be treated with medication, though it&apos;s not always necessary. It&apos;s also easy to prevent. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Abdominal symptoms can occur within two to seven days of infection. Other symptoms usually start one to eight weeks later. Severity of symptoms usually depends on the number of larvae consumed in the infected meat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possibly no signs or symptoms&lt;/strong&gt; &lt;br /&gt;
+Mild cases of trichinosis &amp;mdash; those with only a small number of parasites in your body &amp;mdash; may cause no recognizable symptoms. Symptoms can develop with moderate or heavy infestation, sometimes progressing as the parasite migrates through your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Initial signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+You swallow trichinella larvae encased in a cyst. Your digestive juices dissolve the cyst, releasing the parasite into your body. The larvae then penetrate the intestine, where they mature into adult worms and mate. At this stage, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Later signs and symptoms&lt;/strong&gt; &lt;br /&gt;
+About a week after infection, the adult female worms produce larvae that penetrate the intestinal wall, enter your bloodstream, and eventually burrow into muscle or other tissue. This tissue invasion can cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Muscle pain and tenderness&lt;/li&gt;
+	&lt;li&gt;Swelling of the eyelids or face&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light&lt;/li&gt;
+	&lt;li&gt;Pink eye (conjunctivitis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have a mild case of trichinosis with no symptoms, you may never need medical attention. If you notice gastrointestinal problems or muscle pain and swelling about a week after eating pork or wild-animal meat, talk to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+There is no effective treatment to eliminate trichinella once larvae invade tissue. At that point, treatment is for symptoms only until the parasites die on their own. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Microscopic view of trichinella cysts in muscle tissue" Caption="After you eat trichinella larvae, they mature into adult worms in your intestine. The adults then produce larvae that migrate through various tissues, including muscle tissue, shown here." Height="60" Title="Trichinella cysts" URI="/images/image_popup/thumbs/id7_trichinosisthu.jpg" Width="60" />
+				<Image Alt="Microscopic view of trichinella cysts in muscle tissue" Caption="After you eat trichinella larvae, they mature into adult worms in your intestine. The adults then produce larvae that migrate through various tissues, including muscle tissue, shown here." Height="259" Title="Trichinella cysts" URI="/images/image_popup/id7_trichinosis.jpg" Width="400" />
+				<HTML>
+					After you eat trichinella larvae, they mature into adult worms in your intestine. The adults then produce larvae that migrate through various tissues, including muscle tissue, shown here....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People get trichinosis when they eat undercooked meat &amp;mdash; such as pork, bear, walrus or horse &amp;mdash; that is infected with the immature form (larvae) of the trichinella roundworm. In nature, animals are infected when they feed on other infected animals. Pigs and horses can become infected with trichinosis when they feed on garbage containing infected meat scraps. Other cases have been linked to eating beef that was mixed with infected pork or ground in a grinder previously used for contaminated pork. 
+&lt;/p&gt;
+&lt;p&gt;
+Due to increased regulation of pork feed and products in the United States, pigs have become a less common source of infection. Wild animals, including bear, continue to be sources of infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for trichinosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Improper food preparation.&lt;/strong&gt; Trichinosis infects humans when they eat undercooked infected meat, such as pork, bear or walrus, or other meat contaminated by grinders or other equipment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rural areas.&lt;/strong&gt; Trichinosis is more common in rural areas. In the United States, higher rates of infection are found in hog-raising regions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consumption of wild or noncommercial meats.&lt;/strong&gt; Public health measures have greatly decreased the incidence of trichinosis in commercial meats, but noncommercial, farm-raised animals have higher rates of infection &amp;mdash; particularly those with access to wild-animal carcasses. Wild animals, such as bears and walruses, are still a common source of infection.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Except in severe cases, complications related to trichinosis are rare. In cases of heavy infestation, larvae can migrate to vital organs, causing potentially dangerous complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Myocarditis &amp;mdash; an inflammation of the myocardium, the thick muscular layer of your heart wall&lt;/li&gt;
+	&lt;li&gt;Encephalitis &amp;mdash; an inflammation of your brain&lt;/li&gt;
+	&lt;li&gt;Meningitis &amp;mdash; an inflammation of the membranes (meninges) and cerebrospinal fluid surrounding your brain and spinal cord&lt;/li&gt;
+	&lt;li&gt;Bronchopneumonia &amp;mdash; an inflammation of your lungs and bronchial tubes&lt;/li&gt;
+	&lt;li&gt;Nephritis &amp;mdash; an inflammation of your kidneys&lt;/li&gt;
+	&lt;li&gt;Sinusitis &amp;mdash; an inflammation of the mucous membranes in your sinuses&lt;/li&gt;
+	&lt;li&gt;Pneumonia &amp;mdash; an inflammation of your lungs&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. In some cases, you may be referred to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+To get the most from your appointment, it&apos;s good to be well prepared. Here&apos;s some information to help you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. It can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For trichinosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you eaten any raw, rare or unusual meat, such as game, lately?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, improves your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, worsens your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trichinella larvae bury themselves inside muscle tissue rather than remain in the intestine as in other roundworm infections, so stool sample tests don&apos;t often show evidence of the parasite. The initial diagnosis relies on the classic signs and symptoms &amp;mdash; swelling around the eyes, muscle inflammation and fever. To confirm the diagnosis, your doctor may use these tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may take a blood sample and test it for signs suggesting possible trichinosis &amp;mdash; an increase in the number of a certain type of white blood cell (eosinophils) or the formation of antibodies against the parasite after several weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle biopsy.&lt;/strong&gt; While the blood test typically is enough to establish a diagnosis, your doctor may also recommend a muscle biopsy. A very small piece of muscle is removed and examined under a microscope to look for trichinella larvae.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Trichinosis usually isn&apos;t serious and often gets better on its own, usually within a few months. However, fatigue, mild pain, weakness and diarrhea may linger for months or even years. Symptomatic infections may respond to treatment with medication. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-parasitic medication.&lt;/strong&gt; Anti-parasitic (anti-helminthic) medication is the first line of treatment against trichinosis. If the trichinella parasite is discovered early, in the intestinal phase, albendazole (Albenza) or mebendazole can be effective in eliminating the intestinal worms and larvae. You may have mild gastrointestinal side effects during the course of treatment. If the disease is discovered after the larvae bury themselves in tissues, the benefit of anti-parasitic medications is less certain, but your doctor may prescribe anti-parasitic medication if you have central nervous system, cardiac or respiratory problems as a result of the invasion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; After muscle invasion, pain relievers may be given for muscle aches. Eventually, the larvae cysts in your muscles tend to calcify, resulting in destruction of the larvae and the end of muscle aches and fatigue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Some cases of trichinosis cause allergic reactions when the parasite enters muscle tissue or when dead or dying larvae release chemicals in your muscle tissue. Your doctor may prescribe a corticosteroid to control inflammation during larval migration.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best defense against trichinosis is proper food preparation. Follow these tips to avoid trichinosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid undercooked pork, walrus, horse, bear or other wild-animal meat.&lt;/strong&gt; Be sure whole meat is cooked to an internal temperature of 145 F (63 C) throughout, and don&apos;t cut or eat the meat for at least three minutes after you&apos;ve removed it from the heat source. Ground pork must be cooked to at least 160 F (71 C) and can be eaten immediately after you remove it from the heat source. Using a meat thermometer is the best way to ensure the meat is thoroughly cooked. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Have wild-animal meat frozen or irradiated.&lt;/strong&gt; Trichinosis can occur in any meat-eating mammal. Irradiation will kill parasites in wild-animal meat, and deep-freezing for three weeks kills trichinella in some meats. However, trichinella in bear meat does not die by freezing, even over a long period. Neither irradiation nor freezing is necessary if you ensure that the meat is thoroughly cooked. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know that other processing methods don&apos;t kill parasites.&lt;/strong&gt; Other methods of meat processing or preserving, such as smoking and pickling, don&apos;t kill trichinella parasites in infected meat. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clean meat grinders thoroughly.&lt;/strong&gt; If you grind your own meat, make sure the grinder is cleaned after each use.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Trichinosis
+	</Title>
+	<Abstract>
+		Trichinosis &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+	</RelatedLinksBox>
+</Disease>

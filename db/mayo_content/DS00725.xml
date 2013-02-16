@@ -1,0 +1,281 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00725
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lichen-sclerosus/DS00725
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-11
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2872" Title="Lichen sclerosus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0532284B-2A5D-9994-E04A93B2D63C90B3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lichen sclerosus
+			</MetaKeyword>
+			<MetaKeyword>
+				lichen sclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				white
+			</MetaKeyword>
+			<MetaKeyword>
+				skin
+			</MetaKeyword>
+			<MetaKeyword>
+				vulva
+			</MetaKeyword>
+			<MetaKeyword>
+				foreskin
+			</MetaKeyword>
+			<MetaKeyword>
+				blotchy skin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen sclerosus (LIE-kun skluh-ROW-sus) is an uncommon condition that creates patchy, white skin that&apos;s thinner than normal. Lichen sclerosus may affect skin on any part of your body, but most often involves skin of the vulva, foreskin of the penis or skin around the anus.
+&lt;/p&gt;
+&lt;p&gt;
+Anyone can get lichen sclerosus, but postmenopausal women are at highest risk. Left untreated, lichen sclerosus may lead to other complications.
+&lt;/p&gt;
+&lt;p&gt;
+You may not need treatment because sometimes lichen sclerosus improves on its own. If you do need treatment, your doctor can suggest options to return a more normal appearance to your skin and decrease the tendency for scarring.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lichen sclerosus can affect the skin on any part of your body. Sometimes, no symptoms are present.
+&lt;/p&gt;
+&lt;p&gt;
+When they do occur, lichen sclerosus symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching (pruritus), which can be severe&lt;/li&gt;
+	&lt;li&gt;Discomfort, which is generally greater if lichen sclerosus appears on or around your genital or anal areas&lt;/li&gt;
+	&lt;li&gt;Smooth white spots on your skin that may grow into blotchy, wrinkled patches&lt;/li&gt;
+	&lt;li&gt;Easy bruising or tearing&lt;/li&gt;
+	&lt;li&gt;In severe cases, bleeding, blistering or ulcerated lesions&lt;/li&gt;
+	&lt;li&gt;Painful intercourse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you have signs and symptoms common to lichen sclerosus. Effective treatments are available to help manage your discomfort and prevent complications. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve already been diagnosed with lichen sclerosus, see your doctor every six to 12 months to be checked for any skin changes or treatment side effects.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing lichen sclerosus 
+" Caption="Lichen sclerosus is a rare skin condition characterized by white, blotchy patches of thinning skin. 
+" Height="60" Title="Lichen sclerosus" URI="/images/image_popup/thumbs/ans7_lichensclerosusthu.jpg" Width="60" />
+				<Image Alt="Photograph showing lichen sclerosus 
+" Caption="Lichen sclerosus is a rare skin condition characterized by white, blotchy patches of thinning skin. 
+" Height="300" Title="Lichen sclerosus" URI="/images/image_popup/ans7_lichensclerosus.jpg" Width="400" />
+				<HTML>
+					Lichen sclerosus is a rare skin condition characterized by white, blotchy patches of thinning skin. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing lichen sclerosus in genital area 
+" Caption="Lichen sclerosus may affect skin on any part of your body, but most often involves the skin of the vulva, foreskin of the penis or skin in the anal area. 
+" Height="60" Title="Lichen sclerosus in genital area" URI="/images/image_popup/thumbs/r7_lichensclerosusgenitalthu.jpg" Width="60" />
+				<Image Alt="Images showing lichen sclerosus in genital area 
+" Caption="Lichen sclerosus may affect skin on any part of your body, but most often involves the skin of the vulva, foreskin of the penis or skin in the anal area. 
+" Height="350" Title="Lichen sclerosus in genital area" URI="/images/image_popup/r7_lichensclerosusgenital.jpg" Width="400" />
+				<HTML>
+					Lichen sclerosus may affect skin on any part of your body, but most often involves the skin of the vulva, foreskin of the penis or skin in the anal area. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of lichen sclerosus isn&apos;t known. However, the condition may be related to a lack of sex hormones in the affected skin or to an overactive immune system. Previous skin damage at a particular site on your skin may increase the likelihood of lichen sclerosus at that location.
+&lt;/p&gt;
+&lt;p&gt;
+Although lichen sclerosus may involve skin around your genitals, it isn&apos;t contagious and cannot spread through sexual intercourse. 
+&lt;/p&gt;
+&lt;p&gt;
+Lichen sclerosus occurs most often in postmenopausal women, but it also occurs in men and children. In women, lichen sclerosus usually involves the vulva. In boys and men, uncircumcised males are most at risk, because the condition generally affects the foreskin. In children, the signs and symptoms may improve at puberty.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Persistent lichen sclerosus in one location may slightly increase your risk of skin cancer, although this has not yet been definitively proved. For this reason, make sure that you have follow-up examinations every six to 12 months.
+&lt;/p&gt;
+&lt;p&gt;
+Severe lichen sclerosis can make sex extremely painful for women because&lt;strong&gt; &lt;/strong&gt;itching and scarring may narrow the vaginal opening. In addition, blistering may create extremely sensitive skin to the point that any pressure on the area is unbearable.
+&lt;/p&gt;
+&lt;p&gt;
+Lichen sclerosis may rarely cause similar complications in uncircumcised men, because it causes tightening and thinning of the foreskin. This can cause problems during an erection or when urinating.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs and symptoms common to lichen sclerosus, make an appointment with your family doctor or general practitioner. After an initial examination, your doctor may refer you to a specialist in the diagnosis and treatment of skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms&lt;/strong&gt; and how long you&apos;ve had them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; such as other conditions with which you&apos;ve been diagnosed and any prescription or over-the-counter medications you&apos;re using, including vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask your doctor about possible lichen sclerosus. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;How much do you expect my symptoms will improve with treatment &amp;mdash; and how soon?&lt;/li&gt;
+	&lt;li&gt;Will I need treatment for this condition for the rest of my life?&lt;/li&gt;
+	&lt;li&gt;What self-care steps can I follow to ease my symptoms?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to help prevent a recurrence?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did they begin?&lt;/li&gt;
+	&lt;li&gt;How severe is your discomfort?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any bleeding?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include pain with urination or bowel movements?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include pain with sexual intercourse?&lt;/li&gt;
+	&lt;li&gt;Have you had any previous injuries to the affected area?&lt;/li&gt;
+	&lt;li&gt;Have you had prescription treatments for this condition?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking, including prescription and over-the-counter medications, vitamins, herbs, and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may diagnose lichen sclerosus based on:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A physical examination&lt;/li&gt;
+	&lt;li&gt;Removal of a small piece of affected tissue (biopsy) for examination under a microscope&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your genital area isn&apos;t affected, you may not need treatment for lichen sclerosis, especially if you&apos;re not having symptoms. Lichen sclerosis often gets better on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have lichen sclerosus on or around your genitals or anus, or have a more advanced case on other parts of your body, your doctor will recommend treatment. Treatments help reduce itching, improve your skin&apos;s appearance and decrease further scarring. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Corticosteroids&lt;br /&gt;
+&lt;/strong&gt;Corticosteroid ointments or creams are commonly prescribed for lichen sclerosus. Initially, you&apos;ll generally have to use cortisone creams or ointments on the affected skin daily. After several weeks, your doctor will likely recommend that you only use these medications twice a week to prevent a recurrence. Your doctor will monitor you for side effects associated with prolonged use of topical corticosteroids, such as thinning of the skin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other treatment options&lt;br /&gt;
+&lt;/strong&gt;If corticosteroid treatment doesn&apos;t work or if months of corticosteroid therapy are needed, other treatments your doctor may prescribe include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Immune-modulating medications, such as tacrolimus (Protopic) and pimecrolimus (Elidel)&lt;/li&gt;
+	&lt;li&gt;Ultraviolet light treatment, for nongenital areas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Topical sex hormones are sometimes prescribed to treat lichen sclerosus, but recent research suggests that these medications aren&apos;t as effective for this condition as the treatments above. 
+&lt;/p&gt;
+&lt;p&gt;
+For men with lichen sclerosus on the foreskin, removal of the foreskin (circumcision) is a common treatment in cases resistant to other therapies or more advanced cases. Surgery in the genital or anal area generally isn&apos;t recommended for women with lichen sclerosus because the condition may just come back after surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lichen sclerosus
+	</Title>
+	<Abstract>
+		Lichen sclerosus &amp;mdash; Comprehensive overview covers symptoms, causes, complications, treatment of this blotchy skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

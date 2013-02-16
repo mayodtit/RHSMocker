@@ -1,0 +1,250 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00829
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hyperbaric-oxygen-therapy/MY00829
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-27
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4188" Title="General body">
+						<Keyword MCVID="4444" Title="Hyperbaric oxygen therapy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0642C9A9-9B43-1C8D-B8C747F7A330D396
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hyperbaric oxygen therapy
+			</MetaKeyword>
+			<MetaKeyword>
+				HBOT
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbaric oxygen therapy autism
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbaric oxygen therapy cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbaric oxygen therapy stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbaric oxygen treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbaric oxygen chamber
+			</MetaKeyword>
+			<MetaKeyword>
+				decompression sickness
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperbaric oxygen therapy involves breathing pure oxygen in a pressurized room. Hyperbaric oxygen therapy is a well-established treatment for decompression sickness, a hazard of scuba diving. Other conditions treated with hyperbaric oxygen therapy include serious infections, bubbles of air in your blood vessels, and wounds that won&apos;t heal as a result of diabetes or radiation injury. 
+&lt;/p&gt;
+&lt;p&gt;
+In a hyperbaric oxygen therapy room, the air pressure is raised up to three times higher than normal air pressure. Under these conditions, your lungs can gather up to three times more oxygen than would be possible breathing pure oxygen at normal air pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Your blood carries this oxygen throughout your body, stimulating the release of substances called growth factors and stem cells, which promote healing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your body&apos;s tissues need an adequate supply of oxygen to function. When tissue is injured, it requires even more oxygen to survive. Hyperbaric oxygen therapy increases the amount of oxygen your blood can carry. An increase in blood oxygen temporarily restores normal levels of blood gases and tissue function to promote healing and fight infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Hyperbaric oxygen therapy is used to treat a wide assortment of medical conditions, and different medical institutions use this treatment in a variety of ways. Your doctor may suggest hyperbaric oxygen therapy if you have one of the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bubbles of air in your blood vessels (arterial gas embolism)&lt;/li&gt;
+	&lt;li&gt;Decompression sickness&lt;/li&gt;
+	&lt;li&gt;Carbon monoxide poisoning &lt;/li&gt;
+	&lt;li&gt;A wound that won&apos;t heal&lt;/li&gt;
+	&lt;li&gt;A crushing injury&lt;/li&gt;
+	&lt;li&gt;Gangrene&lt;/li&gt;
+	&lt;li&gt;Skin or bone infection that causes tissue death&lt;/li&gt;
+	&lt;li&gt;Radiation injuries&lt;/li&gt;
+	&lt;li&gt;Burns &lt;/li&gt;
+	&lt;li&gt;Skin grafts or skin flaps at risk of tissue death&lt;/li&gt;
+	&lt;li&gt;Severe anemia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although more research regarding hyperbaric oxygen therapy is under way, currently there&apos;s insufficient scientific evidence to support claims that hyperbaric oxygen therapy can effectively treat the following conditions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allergies&lt;/li&gt;
+	&lt;li&gt;Arthritis&lt;/li&gt;
+	&lt;li&gt;Autism&lt;/li&gt;
+	&lt;li&gt;Cancer&lt;/li&gt;
+	&lt;li&gt;Cerebral palsy&lt;/li&gt;
+	&lt;li&gt;Chronic fatigue syndrome&lt;/li&gt;
+	&lt;li&gt;Cirrhosis&lt;/li&gt;
+	&lt;li&gt;Fibromyalgia&lt;/li&gt;
+	&lt;li&gt;Gastrointestinal ulcers&lt;/li&gt;
+	&lt;li&gt;Stroke&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hyperbaric oxygen therapy is generally a safe procedure, and complications are rare. But, as with any medical procedure, it does carry some risk. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Temporary nearsightedness (myopia) caused by increased blood oxygen levels&lt;/li&gt;
+	&lt;li&gt;Middle ear and inner ear injuries, including leaking fluid and eardrum rupture, due to increased air pressure&lt;/li&gt;
+	&lt;li&gt;Organ damage caused by air pressure changes (barotrauma)&lt;/li&gt;
+	&lt;li&gt;Seizures as a result of too much oxygen (oxygen toxicity) in your central nervous system&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pure oxygen can cause fire if there is a source of ignition, such as a spark or flame, and adequate fuel. Because of this, you can&apos;t take any items into the hyperbaric oxygen therapy room that could ignite a fire, such as lighters or battery powered devices. In addition, to limit sources of excess fuel, you may need to remove hair and wound-care products that are petroleum-based and potentially flammable. Ask a member of your health care team for specific instructions prior to your first hyperbaric oxygen therapy session. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During hyperbaric oxygen therapy&lt;/strong&gt; &lt;br /&gt;
+Hyperbaric oxygen therapy typically is performed as an outpatient procedure and does not require hospitalization. If you&apos;re already hospitalized and require hyperbaric oxygen therapy, you&apos;ll remain in the hospital during a hyperbaric oxygen therapy session. Alternately, you may be transported to and from the hospital to a hyperbaric oxygen therapy session if the procedure is performed at an outside facility. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the type of medical institution you go to and the reason you require treatment, you may receive hyperbaric oxygen therapy in one of two settings: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A unit designed for one person.&lt;/strong&gt; In an individual (monoplace) unit, you lie down on a padded table that slides into a clear plastic tube about 7 feet long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A room designed to accommodate several people.&lt;/strong&gt; In a multiperson hyperbaric oxygen room &amp;mdash; which usually looks like a hospital waiting room inside &amp;mdash; you may sit or lie down. A lightweight, clear hood may be placed over your head to deliver the oxygen to you, or you may wear a mask over your face to receive the oxygen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+During hyperbaric oxygen therapy, the air pressure in the room is approximately two to three times normal air pressure. The increased air pressure will create a temporary feeling of fullness in your ears &amp;mdash; similar to what you might feel in an airplane or at a high elevation &amp;mdash; that can be relieved by yawning. 
+&lt;/p&gt;
+&lt;p&gt;
+A therapy session may last from one to two hours. Members of your health care team monitor you and the therapy unit throughout your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After hyperbaric oxygen therapy&lt;/strong&gt; &lt;br /&gt;
+You may feel lightheaded following your treatment. Typically, this feeling goes away within a few minutes and doesn&apos;t limit normal activities. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing individual (monoplace) hyperbaric oxygen unit 
+" Caption="In an individual (monoplace) hyperbaric oxygen unit, you lie down on a padded table that slides into a clear plastic tube and the door at the end is shut. Oxygen is delivered once you&apos;re inside.
+" Height="60" Title="Individual (monoplace) hyperbaric oxygen unit" URI="/images/image_popup/thumbs/mcdc7_hyperbaric_oxygen_therapy_tablethu.jpg" Width="60" />
+				<Image Alt="Image showing individual (monoplace) hyperbaric oxygen unit 
+" Caption="In an individual (monoplace) hyperbaric oxygen unit, you lie down on a padded table that slides into a clear plastic tube and the door at the end is shut. Oxygen is delivered once you&apos;re inside.
+" Height="301" Title="Individual (monoplace) hyperbaric oxygen unit" URI="/images/image_popup/mcdc7_hyperbaric_oxygen_therapy_table.jpg" Width="400" />
+				<HTML>
+					In an individual (monoplace) hyperbaric oxygen unit, you lie down on a padded table that slides into a clear plastic tube and the door at the end is shut. Oxygen is delivered once you&apos;re inside.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing person wearing hood to receive hyperbaric oxygen therapy 
+" Caption="During a session in a multiperson hyperbaric oxygen therapy room, a lightweight, clear hood is often the method used to deliver the oxygen. 
+" Height="60" Title="Hyperbaric oxygen therapy hood" URI="/images/image_popup/thumbs/mcdc7_hyperbaric_oxygen_therapy_hoodthu.jpg" Width="60" />
+				<Image Alt="Image showing person wearing hood to receive hyperbaric oxygen therapy 
+" Caption="During a session in a multiperson hyperbaric oxygen therapy room, a lightweight, clear hood is often the method used to deliver the oxygen. 
+" Height="195" Title="Hyperbaric oxygen therapy hood" URI="/images/image_popup/mcdc7_hyperbaric_oxygen_therapy_hood.jpg" Width="400" />
+				<HTML>
+					During a session in a multiperson hyperbaric oxygen therapy room, a lightweight, clear hood is often the method used to deliver the oxygen. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To be effective, hyperbaric oxygen therapy requires more than one session. The number of hyperbaric oxygen therapy sessions you require depends on your medical condition. Some conditions, such as carbon monoxide poisoning, can be treated in as few as three visits. Others, such as nonhealing wounds, may require 25 to 30 treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+Hyperbaric oxygen therapy alone can often effectively treat decompression sickness, arterial gas embolism and severe carbon monoxide poisoning. 
+&lt;/p&gt;
+&lt;p&gt;
+To effectively treat other conditions, hyperbaric oxygen therapy is used as part of a comprehensive treatment plan and administered in conjunction with additional therapies and medications that fit your individual needs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hyperbaric oxygen therapy
+	</Title>
+	<Abstract>
+		Hyperbaric oxygen therapy &amp;mdash; Overview covers definition, risks, results of procedure to increase blood oxygen.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01697" LinkType="Internal" ObjectID="8429BE57-E7FF-0DBD-1F25C943280C0BDD" Title="Hyperbaric oxygen therapy: Can it reduce stroke damage?" Url="http://www.mayoclinic.com/health/stroke-therapy/AN01697" />
+		<LinkItem ContentType="Disease" DocID="DS00648" LinkType="Internal" ObjectID="BAF0663C-2A5D-9994-EE9BD90B87EDCF93" Title="Carbon monoxide poisoning" Url="http://www.mayoclinic.com/health/carbon-monoxide/DS00648" />
+		<LinkItem ContentType="Disease" DocID="DS00993" LinkType="Internal" ObjectID="3479DCEF-E7FF-0DBD-1945D7BF078E9C47" Title="Gangrene" Url="http://www.mayoclinic.com/health/gangrene/DS00993" />
+		<LinkItem ContentType="Disease" DocID="DS00570" LinkType="Internal" ObjectID="2F39B719-D2A6-4146-9E498948F7F9CB61" Title="Bedsores (pressure sores)" Url="http://www.mayoclinic.com/health/bedsores/DS00570" />
+	</RelatedLinksBox>
+</TestProcedure>

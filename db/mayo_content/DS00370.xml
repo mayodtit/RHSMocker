@@ -1,0 +1,300 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00370
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/common-warts/DS00370
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-13
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2796" Title="Viral skin infection">
+							<Keyword MCVID="3001" Title="Common warts" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1ABD789D-5868-479F-BFFF7FADEA5F53B3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				common warts
+			</MetaKeyword>
+			<MetaKeyword>
+				HPV
+			</MetaKeyword>
+			<MetaKeyword>
+				human paplillomavirus
+			</MetaKeyword>
+			<MetaKeyword>
+				human paplilloma virus
+			</MetaKeyword>
+			<MetaKeyword>
+				warts
+			</MetaKeyword>
+			<MetaKeyword>
+				hand warts
+			</MetaKeyword>
+			<MetaKeyword>
+				cryotherapy
+			</MetaKeyword>
+			<MetaKeyword>
+				electrodesiccation
+			</MetaKeyword>
+			<MetaKeyword>
+				salicylic acid
+			</MetaKeyword>
+			<MetaKeyword>
+				verruca
+			</MetaKeyword>
+			<MetaKeyword>
+				verrucae
+			</MetaKeyword>
+			<MetaKeyword>
+				verruca vulgaris
+			</MetaKeyword>
+			<MetaKeyword>
+				skin warts
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common warts are small, grainy skin growths that occur most often on your fingers or hands. Rough to the touch, common warts also often feature a pattern of tiny black dots &amp;mdash; sometimes called seeds &amp;mdash; which are small, clotted blood vessels. 
+&lt;/p&gt;
+&lt;p&gt;
+Common warts are caused by a virus and are transmitted by touch. Children and young adults are more likely to develop common warts, as are people who have weakened immune systems. Common warts usually disappear on their own, but many people choose to remove them because they find them bothersome or embarrassing.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing common warts on hand 
+" Caption="Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+" Height="60" Title="Common warts" URI="/images/image_popup/thumbs/mcdc7_common_wartsthu.jpg" Width="60" />
+				<Image Alt="Photo showing common warts on hand 
+" Caption="Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+" Height="432" Title="Common warts" URI="/images/image_popup/mcdc7_common_warts.jpg" Width="400" />
+				<HTML>
+					Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common warts are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small, fleshy, grainy bumps&lt;/li&gt;
+	&lt;li&gt;Flesh-colored, white, pink or tan&lt;/li&gt;
+	&lt;li&gt;Rough to the touch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Common warts usually occur on your fingers and hands. They may occur singly or in multiples. Warts may bleed if picked or cut. They often contain tiny black dots, which are small, clotted blood vessels.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Most common warts don&apos;t require medical treatment, but some people choose to have their warts treated because they&apos;re bothersome, spreading or a cosmetic concern.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo showing common warts on hand 
+" Caption="Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+" Height="60" Title="Common warts" URI="/images/image_popup/thumbs/mcdc7_common_wartsthu.jpg" Width="60" />
+				<Image Alt="Photo showing common warts on hand 
+" Caption="Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+" Height="432" Title="Common warts" URI="/images/image_popup/mcdc7_common_warts.jpg" Width="400" />
+				<HTML>
+					Common warts can grow on your hands or fingers. They&apos;re small, grainy bumps that are rough to the touch. They&apos;re usually flesh-colored, white, pink or tan. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Warts are caused by the human papillomavirus (HPV). There are more than 100 types of HPV, and different types of the virus cause different types of warts. Most types of HPV cause relatively harmless conditions such as common warts, while others may cause serious disease such as cancer of the cervix.
+&lt;/p&gt;
+&lt;p&gt;
+Wart viruses pass from person to person. You can also get the wart virus indirectly by touching a towel or object used by someone who has the virus. Each person&apos;s immune system responds to the HPV virus differently, so not everyone who comes in contact with HPV develops warts.
+&lt;/p&gt;
+&lt;p&gt;
+If you have warts, you can spread the virus to other places on your own body. Warts usually spread through breaks in your skin, such as a hangnail or scrape. Biting your nails also can cause warts to spread on your fingertips and around your nails.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People at higher risk of developing common warts include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Children and young adults&lt;/li&gt;
+	&lt;li&gt;People with weakened immune systems, such as those with HIV/AIDS or people who&apos;ve had organ transplants&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because warts shed HPV, new warts can appear as quickly as old ones go away. They can also spread to other people.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although most warts don&apos;t require medical treatment, some people choose to have them removed for cosmetic reasons or because their location makes them uncomfortable. If your warts don&apos;t respond to conservative treatments, you might be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For warts, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What made the warts develop?&lt;/li&gt;
+	&lt;li&gt;If I have them removed, will they come back?&lt;/li&gt;
+	&lt;li&gt;What types of treatments are available to remove the warts, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may also have some questions for you, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the warts?&lt;/li&gt;
+	&lt;li&gt;Have you ever had them in the past?&lt;/li&gt;
+	&lt;li&gt;Are you bothered by the warts, either for cosmetic reasons or for comfort?&lt;/li&gt;
+	&lt;li&gt;What treatments have you already used for your warts? What were the results?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can usually diagnose a wart just by looking at it. Sometimes, your doctor may scrape off the top layer of the wart to look for the clotted blood vessels that are common with warts. If the diagnosis is still in doubt, your doctor may take a small sample to be analyzed in order to rule out other types of skin growths.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many common warts don&apos;t require treatment. They usually disappear within two years, though new ones may develop nearby. You may want to treat them for cosmetic purposes, if they&apos;re causing discomfort or to prevent their spread. Home treatment is often effective in curing common warts. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have stubborn warts and home treatment isn&apos;t helping, your doctor may suggest one of the following approaches, based on the location of your wart, the degree of your symptoms and your preferences. Doctors generally start with the least painful, least destructive methods, especially when dealing with young children.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Freezing (cryotherapy, or liquid nitrogen therapy).&lt;/strong&gt; Your doctor may use liquid nitrogen to destroy your wart by freezing it. This treatment is usually only mildly painful and is often effective, although you may need repeated treatments. Freezing works by causing a blister to form under and around your wart. Then, the dead tissue sloughs off within a week or so.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minor surgery.&lt;/strong&gt; This involves cutting away the wart tissue or burning it with electricity. However, the injection of anesthetic given before this surgery can be painful, and the surgery may leave a scar. For these reasons, surgery is usually reserved for warts that haven&apos;t responded to other therapies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people have removed warts with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Over-the-counter medications.&lt;/strong&gt; Wart medications and patches are available at drugstores. You can use them to treat warts at home. For common warts, look for a solution or patch containing 17 percent salicylic acid. These products require daily use, often for a few weeks. For best results, soak your wart in warm water for 10 to 20 minutes before applying a solution or patch, and file away any dead skin with a nail file or pumice stone between treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Duct tape.&lt;/strong&gt; Study results have been mixed on the effectiveness of duct tape in removing warts. Some of the negative studies used a clear type of duct tape that didn&apos;t have the same type of adhesive. Regular gray duct tape appears to work better. The process involves covering warts with duct tape for six days, then soaking the warts in warm water and rubbing them with an emery board or pumice stone. The process was repeated for as long as two months.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Avoiding cross-contamination can reduce the risk that you or your child will get or spread warts. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t bite your fingernails.&lt;/strong&gt; Warts occur more often in skin that has been broken. Nibbling the skin around your fingernails opens the door for the virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Groom with care.&lt;/strong&gt; In order to avoid spreading the virus, don&apos;t brush, clip, comb or shave areas that have warts. If you touch a wart, wash your hands carefully afterwards.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep tools separate.&lt;/strong&gt; The virus that causes common warts can contaminate nail files or pumice stones you may be using to reduce the size of your warts. So don&apos;t use these tools on areas of your body that don&apos;t have warts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t pick at warts.&lt;/strong&gt; Picking may spread the virus. Consider covering warts with an adhesive bandage to discourage picking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your hands dry.&lt;/strong&gt; Warts are more difficult to control in a moist environment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Common warts
+	</Title>
+	<Abstract>
+		Common warts &amp;mdash; Comprehensive overview covers causes, treatment, self-care of this infectious skin condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00169" LinkType="Internal" ObjectID="2289B540-E7FF-0DBD-16C7FC1910F6D0BD" Title="Skin biopsy" Url="http://www.mayoclinic.com/health/skin-biopsy/MY00169" />
+		<LinkItem ContentType="Disease" DocID="DS00509" LinkType="Internal" ObjectID="1AD3D683-70DA-4AC1-A176A46E69ED888A" Title="Plantar warts" Url="http://www.mayoclinic.com/health/plantar-warts/DS00509" />
+	</RelatedLinksBox>
+</Disease>

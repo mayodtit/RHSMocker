@@ -1,0 +1,525 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00401
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/huntingtons-disease/DS00401
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-05
+		</UpdateDate>
+		<PublicationDate>
+			2001-11-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1771" Title="Degenerative">
+						<Keyword MCVID="1779" Title="Huntington&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8192A61D-3736-4628-ADA18203095D5B77
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Huntington&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Huntington&apos;s chorea
+			</MetaKeyword>
+			<MetaKeyword>
+				Huntingtons
+			</MetaKeyword>
+			<MetaKeyword>
+				Huntington
+			</MetaKeyword>
+			<MetaKeyword>
+				Huntington&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Huntingtons disease
+			</MetaKeyword>
+			<MetaKeyword>
+				huntingtin
+			</MetaKeyword>
+			<MetaKeyword>
+				huntingtin protein
+			</MetaKeyword>
+			<MetaKeyword>
+				CAG repeats
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Huntington&apos;s disease is an inherited disease that causes the progressive breakdown (degeneration) of nerve cells in the brain. Huntington&apos;s disease has a broad impact on a person&apos;s functional abilities and usually results in movement, thinking (cognitive) and psychiatric disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people with Huntington&apos;s disease develop signs and symptoms in their 40s or 50s, but the onset of disease may be earlier or later in life. When disease onset begins before age 20, the condition is called juvenile Huntington&apos;s disease. Earlier onset often results in a somewhat different presentation of symptoms and faster disease progression. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications are available to help manage the symptoms of Huntington&apos;s disease, but treatments can&apos;t prevent the physical, mental and behavioral decline associated with the condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Huntington&apos;s disease usually causes movement, cognitive and psychiatric disorders with a wide spectrum of signs and symptoms. Which symptoms appear first varies greatly among affected people. During the course of the disease, some disorders appear to be more dominant or have a greater effect on functional ability. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Movement disorders&lt;br /&gt;
+&lt;/strong&gt;The movement disorders associated with Huntington&apos;s disease can include both involuntary movements and impairments in voluntary movements: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Involuntary jerking or writhing movements (chorea)&lt;/li&gt;
+	&lt;li&gt;Involuntary, sustained contracture of muscles (dystonia)&lt;/li&gt;
+	&lt;li&gt;Muscle rigidity&lt;/li&gt;
+	&lt;li&gt;Slow, uncoordinated fine movements&lt;/li&gt;
+	&lt;li&gt;Slow or abnormal eye movements&lt;/li&gt;
+	&lt;li&gt;Impaired gait, posture and balance&lt;/li&gt;
+	&lt;li&gt;Difficulty with the physical production of speech&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Impairments in voluntary movements &amp;mdash; rather than the involuntary movements &amp;mdash; may have a greater impact on a person&apos;s ability to work, perform daily activities, communicate and remain independent. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cognitive disorders&lt;br /&gt;
+&lt;/strong&gt;Cognitive impairments often associated with Huntington&apos;s disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty planning, organizing and prioritizing tasks&lt;/li&gt;
+	&lt;li&gt;Inability to start a task or conversation&lt;/li&gt;
+	&lt;li&gt;Lack of flexibility, or the tendency to get stuck on a thought, behavior or action (perseveration)&lt;/li&gt;
+	&lt;li&gt;Lack of impulse control that can result in outbursts, acting without thinking and sexual promiscuity&lt;/li&gt;
+	&lt;li&gt;Problems with spatial perception that can result in falls, clumsiness or accidents&lt;/li&gt;
+	&lt;li&gt;Lack of awareness of one&apos;s own behaviors and abilities&lt;/li&gt;
+	&lt;li&gt;Difficulty focusing on a task for long periods&lt;/li&gt;
+	&lt;li&gt;Slowness in processing thoughts or &quot;finding&quot; words&lt;/li&gt;
+	&lt;li&gt;Difficulty in learning new information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychiatric disorders&lt;br /&gt;
+&lt;/strong&gt;The most common psychiatric disorder associated with Huntington&apos;s disease is depression. This isn&apos;t simply a reaction to receiving a diagnosis of Huntington&apos;s disease. Instead, depression appears to occur because of injury to the brain and subsequent changes in brain function. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feelings of sadness or unhappiness&lt;/li&gt;
+	&lt;li&gt;Loss of interest in normal activities&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+	&lt;li&gt;Insomnia or excessive sleeping&lt;/li&gt;
+	&lt;li&gt;Fatigue, tiredness and loss of energy&lt;/li&gt;
+	&lt;li&gt;Feelings of worthlessness or guilt&lt;/li&gt;
+	&lt;li&gt;Indecisiveness, distractibility and decreased concentration&lt;/li&gt;
+	&lt;li&gt;Frequent thoughts of death, dying or suicide&lt;/li&gt;
+	&lt;li&gt;Changes in appetite&lt;/li&gt;
+	&lt;li&gt;Reduced sex drive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other common psychiatric disorders include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obsessive-compulsive disorder,&lt;/strong&gt; a condition marked by recurrent, intrusive thoughts and repetitive behaviors&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mania,&lt;/strong&gt; which can cause elevated mood, overactivity, impulsive behavior and inflated self-esteem&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bipolar disorder,&lt;/strong&gt; or alternating episodes of depression and mania&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other changes in mood or personality, but not necessarily specific psychiatric disorders, may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Apathy&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Sexual inhibition or inappropriate sexual behaviors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms of juvenile Huntington&apos;s disease&lt;br /&gt;
+&lt;/strong&gt;The onset and progression of Huntington&apos;s disease in younger people may be slightly different from that in adults. Problems that often present themselves early in the course of the disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of previously learned academic or physical skills&lt;/li&gt;
+	&lt;li&gt;Rapid, significant drop in overall school performance&lt;/li&gt;
+	&lt;li&gt;Behavioral problems&lt;/li&gt;
+	&lt;li&gt;Contracted and rigid muscles that affect gait (especially in young children)&lt;/li&gt;
+	&lt;li&gt;Changes in fine motor skills that might be noticeable in skills such as handwriting&lt;/li&gt;
+	&lt;li&gt;Tremors or slight involuntary movements&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you notice changes in your movements, emotional state or mental ability. The signs and symptoms of Huntington&apos;s disease can be caused by a number of different conditions. Therefore, it&apos;s important to get a prompt, thorough diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Huntington&apos;s disease is caused by an inherited defect in a single gene. Huntington&apos;s disease is an autosomal dominant disorder, which means that a person needs only one copy of the defective gene to develop the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+With the exception of genes on the sex chromosomes, a person inherits two copies of every gene &amp;mdash; one copy from each parent. A parent with a defective Huntington gene could pass along the defective copy of the gene or the healthy copy. Each child in the family, therefore, has a 50 percent chance of inheriting the gene that causes the genetic disorder. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="60" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomaldominantthu.gif" Width="60" />
+				<Image Alt="Illustration showing autosomal dominant inheritance pattern 
+" Caption="A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an unaffected child with two normal genes. 
+" Height="306" Title="Autosomal dominant inheritance pattern" URI="/images/image_popup/r7_autosomaldominant.gif" Width="320" />
+				<HTML>
+					A person with an autosomal dominant disorder &amp;mdash; in this case, the father &amp;mdash; has a 50 percent chance of having an affected child with one mutated gene and a 50 percent chance of having an ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If one of your parents has Huntington&apos;s disease, you have a 50 percent chance of developing the disease. In rare cases, you may develop Huntington&apos;s disease without having a family history of the condition. Such an occurrence may be the result of a genetic mutation that happened during your father&apos;s sperm development.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After the onset of Huntington&apos;s disease, a person&apos;s functional abilities gradually worsen over time. The rate of disease progression and duration varies. The time from disease onset to death is often about 10 to 30 years. Juvenile onset usually results in death in fewer than 15 years. 
+&lt;/p&gt;
+&lt;p&gt;
+The clinical depression associated with Huntington&apos;s disease may increase the risk of suicide. Some research suggests that the greater risk of suicide occurs before a diagnosis is made and in middle stages of the disease when a person has begun to lose independence. 
+&lt;/p&gt;
+&lt;p&gt;
+Eventually, a person with Huntington&apos;s disease requires help with all activities of daily living and care. Late in the disease, he or she will likely be confined to a bed and unable to speak. However, a person&apos;s understanding of surroundings and interactions remain intact for a long time. 
+&lt;/p&gt;
+&lt;p&gt;
+Common causes of death include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pneumonia or other infections&lt;/li&gt;
+	&lt;li&gt;Injuries related to falls&lt;/li&gt;
+	&lt;li&gt;Complications related to the inability to swallow&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have any signs or symptoms associated with Huntington&apos;s disease, you&apos;ll likely be referred to a neurologist after an initial visit to your family doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+A review of your symptoms, mental state, medical history and family medical history can all be important in the clinical assessment of a potential neurological disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, make a list that includes the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Signs or symptoms &amp;mdash; or any changes from &quot;normal&quot; that may be causing concern&lt;/li&gt;
+	&lt;li&gt;Recent changes or stresses in your life&lt;/li&gt;
+	&lt;li&gt;All medications &amp;mdash; including over-the-counter drugs and dietary supplements &amp;mdash; and doses you take&lt;/li&gt;
+	&lt;li&gt;Family history of Huntington&apos;s disease or other disorders that may cause movement disorders or psychiatric conditions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may want a family member or friend to accompany you to your appointment. This person can provide support and offer a different perspective on the effect of symptoms on your functional abilities.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions, including the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or intermittent?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with Huntington&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family been diagnosed with another movement disorder or psychiatric disorder?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble performing work, schoolwork or daily tasks?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family died young?&lt;/li&gt;
+	&lt;li&gt;Is anyone in your family in a nursing home?&lt;/li&gt;
+	&lt;li&gt;Is anyone in your family fidgety or moving all the time?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a change in your general mood?&lt;/li&gt;
+	&lt;li&gt;Do you feel sad all of the time?&lt;/li&gt;
+	&lt;li&gt;Have you ever thought about suicide?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of Huntington&apos;s disease is based primarily on your answers to questions, a general physical exam, a review of your family medical history, and neurological and psychiatric examinations.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological examination&lt;br /&gt;
+&lt;/strong&gt;The neurologist will ask you questions and conduct relatively simple tests in the office to judge: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Sense of touch&lt;/li&gt;
+	&lt;li&gt;Vision and eye movement&lt;/li&gt;
+	&lt;li&gt;Hearing&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+	&lt;li&gt;Mental status&lt;/li&gt;
+	&lt;li&gt;Mood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychiatric evaluation&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll likely be referred to a psychiatrist for an examination to judge a number of factors that could contribute to your diagnosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Emotional state&lt;/li&gt;
+	&lt;li&gt;Patterns of behaviors&lt;/li&gt;
+	&lt;li&gt;Quality of judgment&lt;/li&gt;
+	&lt;li&gt;Coping skills&lt;/li&gt;
+	&lt;li&gt;Signs of disordered thinking&lt;/li&gt;
+	&lt;li&gt;Evidence of substance abuse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain imaging and function&lt;br /&gt;
+&lt;/strong&gt;Your doctor may order tests for assessing the structure or function of the brain. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain-imaging tests.&lt;/strong&gt; These images may reveal structural changes at particular sites in the brain affected by Huntington&apos;s disease, although these changes may not be apparent early in the course of the disease. These tests can also be used to rule out other conditions that may be causing symptoms. The imaging technologies may include MRI, which can produce detailed cross-sectional and 3-D images of the brain, or CT, which produces cross-sectional images.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electroencephalogram (EEG).&lt;/strong&gt; Your doctor may order an EEG if you have experienced any seizures. The EEG uses a series of electrodes affixed to the scalp to record the electrical activity of the brain. Certain abnormal patterns in this activity may indicate problems likely to contribute to seizures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic counseling and testing&lt;br /&gt;
+&lt;/strong&gt;If symptoms strongly suggest a diagnosis of Huntington&apos;s disease, your doctor may recommend a genetic test for the defective gene. This test can confirm the diagnosis, and it may be valuable if there&apos;s no known family history of Huntington&apos;s disease or if no other family member&apos;s diagnosis was confirmed with a genetic test.
+&lt;/p&gt;
+&lt;p&gt;
+The test won&apos;t provide information that is beneficial in determining a treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+Before undergoing such a test, consider seeing a genetic counselor, who can explain the benefits and drawbacks of learning test results. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Predictive genetic test&lt;br /&gt;
+&lt;/strong&gt;A genetic test can be given to someone who has a family history of the disease but shows no signs or symptoms. This is called predictive testing. The test result has no treatment benefit, and it doesn&apos;t indicate when disease onset will begin or what symptoms are likely to appear first. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people may elect to do the test because they find it more stressful not knowing. Others may want to take the test before they make decisions about having children. Risks may include problems with insurability or future employment and the stresses of facing a fatal disease. These tests are only performed after consultation with a genetic counselor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No treatments can alter the course of Huntington&apos;s disease. But medications can lessen some symptoms of movement and psychiatric disorders. And multiple interventions can help a person adapt to changes in his or her abilities for a certain amount of time. 
+&lt;/p&gt;
+&lt;p&gt;
+Medication management is likely to evolve over the course of the disease, depending on the overall treatment goals. Also, drugs to treat some symptoms may result in side effects that worsen other symptoms. Therefore, the treatment goals and plan will be regularly reviewed and updated. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for movement disorders&lt;br /&gt;
+&lt;/strong&gt;Drugs to treat movement disorders include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tetrabenazine&lt;/strong&gt; (Xenazine) is specifically approved by the Food and Drug Administration to suppress the involuntary jerking and writhing movements associated with Huntington&apos;s disease (chorea). A serious side effect is the risk of worsening or triggering depression or other psychiatric conditions. Other possible side effects include insomnia, drowsiness, nausea and restlessness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antipsychotic drugs,&lt;/strong&gt; such as haloperidol (Haldol) and clozapine (Clozaril), have a side effect of suppressing movements. Therefore, they may be beneficial in treating chorea. These drugs may, however, worsen involuntary contractions (dystonia) and muscle rigidity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medications&lt;/strong&gt; that may help suppress chorea, dystonia and muscle rigidity include antiseizure drugs such as clonazepam&lt;strong&gt; &lt;/strong&gt;(Klonopin) and antianxiety drugs such as diazepam (Valium). These medications can significantly alter consciousness, and they have a high risk of dependence and abuse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications for psychiatric disorders&lt;br /&gt;
+&lt;/strong&gt;Medications to treat psychiatric disorders will vary depending on the disorders and symptoms. Possible treatments include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants&lt;/strong&gt; include such drugs as escitalopram (Lexapro), fluoxetine (Prozac, Sarafem) and sertraline (Zoloft). These drugs may also have some effect on treating obsessive-compulsive disorder. Side effects may include nausea, diarrhea, insomnia, and sexual problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antipsychotic drugs&lt;/strong&gt; may suppress violent outbursts, agitation and other symptoms of mood disorders or psychosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mood-stabilizing drugs&lt;/strong&gt; that can help prevent the highs and lows associated with bipolar disorder include lithium (Lithobid) and anticonvulsants, such as valproic acid (Depakene), divalproex (Depakote) and lamotrigine (Lamictal). Common side effects include weight gain, tremor and gastrointestinal problems. Periodic blood tests are required for lithium use because it can cause thyroid and kidney problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;A psychotherapist &amp;mdash; a psychiatrist, psychologist or clinical social worker &amp;mdash; can provide talk therapy to help a person manage behavioral problems, develop coping strategies, manage expectations during progression of the disease and facilitate effective communication among family members. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Speech therapy&lt;br /&gt;
+&lt;/strong&gt;Huntington&apos;s disease can significantly impair control of muscles of the mouth and throat that are essential for speech, eating and swallowing. A speech therapist can help improve your ability to speak clearly or teach you to use communication devices &amp;mdash; such as a board covered with pictures of everyday items and activities. Speech therapists can also address difficulties with muscles used in eating and swallowing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can teach you appropriate and safe exercises that enhance strength, flexibility, balance and coordination. These exercises can help maintain mobility as long as possible and may reduce the risk of falls. 
+&lt;/p&gt;
+&lt;p&gt;
+Instruction on appropriate posture and the use of supports to improve posture may help lessen the severity of some movement problems. 
+&lt;/p&gt;
+&lt;p&gt;
+When the use of a walker or wheelchair is required, the physical therapist can provide instruction on appropriate use of the device and posture. Also, exercise regimens can be adapted to suit the new level of mobility. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Occupational therapy&lt;br /&gt;
+&lt;/strong&gt;An occupational therapist can assist the person with Huntington&apos;s disease, family members and caregivers on the use of assistive devices that improve functional abilities. These strategies may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Handrails at home&lt;/li&gt;
+	&lt;li&gt;Assistive devices for activities such as bathing and dressing&lt;/li&gt;
+	&lt;li&gt;Eating and drinking utensils adapted for people with limited fine motor skills&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Managing Huntington&apos;s disease is demanding on the person with the disorder, family members and other in-home caregivers. As the disease progresses, the person will become more dependent on caregivers. A number of issues will need to be addressed, and strategies to cope with them will evolve. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eating and nutrition&lt;br /&gt;
+&lt;/strong&gt;Factors regarding eating and nutrition include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;People with Huntington&apos;s disease often have difficulty maintaining a healthy body weight.&lt;/strong&gt; Difficulty eating, higher caloric needs due to physical exertion or unknown metabolic problems may be the cause. To get adequate nutrition, more than three meals a day may be necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty with chewing, swallowing and fine motor skills can limit the amount of food you eat and increase the risk of choking.&lt;/strong&gt; Problems may be minimized by removing distractions during a meal and selecting foods that are easier to eat. Utensils designed for people with limited fine motor skills and covered cups with straws or drinking spouts can also help.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Eventually, a person with Huntington&apos;s disease will need assistance with eating and drinking. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Managing cognitive and psychiatric disorders&lt;br /&gt;
+&lt;/strong&gt;Family and caregivers can help create an environment that may help a person with Huntington&apos;s disease avoid stressors and manage cognitive and behavioral challenges. These strategies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using calendars and schedules to help keep a regular routine&lt;/li&gt;
+	&lt;li&gt;Identifying and avoiding stressors that can trigger outbursts, irritability, depression or other problems&lt;/li&gt;
+	&lt;li&gt;Creating an environment that is as calm, simple and structured as possible&lt;/li&gt;
+	&lt;li&gt;Initiating tasks with reminders or assistance&lt;/li&gt;
+	&lt;li&gt;Prioritizing or organizing work or activities&lt;/li&gt;
+	&lt;li&gt;Breaking down tasks into manageable steps&lt;/li&gt;
+	&lt;li&gt;For school-age children or adolescents, consulting with school staff to develop an appropriate individual education plan&lt;/li&gt;
+	&lt;li&gt;Providing opportunities for the person to maintain social interactions and friendships as much as possible&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of strategies may help people with Huntington&apos;s disease and their families cope with the challenges of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Support services&lt;br /&gt;
+&lt;/strong&gt;Support services for people with Huntington&apos;s disease and families include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonprofit agencies,&lt;/strong&gt; such as the Huntington&apos;s Disease Society of America, provide caregiver education, referrals to outside services, and support groups for people with the disease and caregivers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Local and state health or social service agencies&lt;/strong&gt; may provide daytime care for people with the disease, meal assistance programs or respite for caregivers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Planning for residential and end-of-life care&lt;br /&gt;
+&lt;/strong&gt;Because Huntington&apos;s disease causes the progressive loss of function and death, it&apos;s important to anticipate care that will be needed in the advanced stages of the disease and near the end of life. Early discussions about this type of care enable the person with Huntington&apos;s disease to be engaged in these decisions and to communicate his or her preferences for care. 
+&lt;/p&gt;
+&lt;p&gt;
+Creating legal documents that define end-of-life care can be beneficial to everyone. They empower the person with the disease, and they may help family members avoid conflict late in the disease progression. Your doctor can offer advice on the benefits and drawbacks of care options at a time when all choices can be carefully considered. 
+&lt;/p&gt;
+&lt;p&gt;
+Matters that may need to be addressed include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Care facilities.&lt;/strong&gt; Care in the advanced stages of the disease will likely require in-home nursing care or care in an assisted living facility or nursing home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hospice care.&lt;/strong&gt; Hospice services provide care at the end of life that helps a person approach death with as little discomfort as possible. This care also provides support and education to the family to help them understand the process of dying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living wills.&lt;/strong&gt; Living wills are legal documents that enable a person to spell out care preferences when he or she isn&apos;t able to make decisions. For example, these directions might indicate whether or not the person wants life-sustaining interventions or aggressive treatment of an infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Advance directives.&lt;/strong&gt; These legal documents enable you to identify one or more people to make decisions on your behalf. You may create an advance directive for medical decisions or financial matters.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with a known family history of Huntington&apos;s disease are understandably concerned about whether they may pass the Huntington disease gene on to their children. These people may consider genetic testing and family planning options. 
+&lt;/p&gt;
+&lt;p&gt;
+If an at-risk parent is considering genetic testing, it can be helpful to meet with a genetic counselor. A genetic counselor will discuss the potential risks of a positive test result, which would indicate the parent will develop the disease. Also, couples will need to make additional choices about whether to have children or to consider alternatives, such as prenatal testing for the gene or in vitro fertilization with donor sperm or eggs. 
+&lt;/p&gt;
+&lt;p&gt;
+Another option for couples is in vitro fertilization and preimplantation genetic diagnosis. In this process, eggs are removed from the ovaries and fertilized with the father&apos;s sperm in a laboratory. The embryos are tested for presence of the Huntington gene, and only those testing negative for the Huntington gene are implanted in the mother&apos;s uterus. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing in vitro fertilization 
+" Caption="With in vitro fertilization, the doctor uses a needle to remove eggs from the ovary (A). The eggs and sperm are combined in a petri dish (B) and placed in an incubator (C). If fertilization occurs, the fertilized eggs are retrieved and transferred by means of a cannula (D) to the uterus (E). 
+" Height="60" Title="In vitro fertilization" URI="/images/image_popup/thumbs/r7_invitrothu.jpg" Width="60" />
+				<Image Alt="Illustration showing in vitro fertilization 
+" Caption="With in vitro fertilization, the doctor uses a needle to remove eggs from the ovary (A). The eggs and sperm are combined in a petri dish (B) and placed in an incubator (C). If fertilization occurs, the fertilized eggs are retrieved and transferred by means of a cannula (D) to the uterus (E). 
+" Height="285" Title="In vitro fertilization" URI="/images/image_popup/r7_invitro.jpg" Width="400" />
+				<HTML>
+					With in vitro fertilization, the doctor uses a needle to remove eggs from the ovary (A). The eggs and sperm are combined in a petri dish (B) and placed in an incubator (C). If fertilization occurs, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Huntington&apos;s disease
+	</Title>
+	<Abstract>
+		Huntington&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this degenerative nervous system disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="Article" DocID="MY01231" LinkType="Internal" ObjectID="2F3ED231-0C00-8975-4818600153B102AE" Title="Caregiver stress: Tips for taking care of yourself" Url="http://www.mayoclinic.com/health/caregiver-stress/MY01231" />
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+	</RelatedLinksBox>
+</Disease>

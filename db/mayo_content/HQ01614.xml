@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HQ01614
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/warfarin/HQ01614
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-17
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3140" Title="Blood clot" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			70B2F4BD-5FD9-4435-8BE419B346DFAC2A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				warfarin
+			</MetaKeyword>
+			<MetaKeyword>
+				coumadin
+			</MetaKeyword>
+			<MetaKeyword>
+				deep vein thrombosis
+			</MetaKeyword>
+			<MetaKeyword>
+				thrombosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Warfarin (Coumadin) is a blood-thinning medication (anticoagulant) used to treat and prevent blood clots. For most people with a single episode of deep vein thrombosis (DVT), treatment with full-dose blood thinners is usually for only a limited time. Taking warfarin at a high dose for a longer period of time is only recommended for people who are at a high risk of developing blood clots that could cause a heart attack, stroke or pulmonary embolism. 
+&lt;/p&gt;
+&lt;p&gt;
+Long-term, low-dose treatment with warfarin may prevent future episodes of DVT, but it&apos;s not without risk. There&apos;s a risk of serious or even fatal bleeding &amp;mdash; especially when warfarin is taken in high doses or for long periods of time. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor to help you weigh the benefits and risks of long-term, low-dose warfarin therapy in your case. Also consider these self-care measures to prevent future episodes of DVT: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid sitting, squatting or crossing your legs for long periods of time.&lt;/li&gt;
+	&lt;li&gt;If you must sit for long periods, such as during a plane or car trip, take a short walk every hour or two. It also helps to flex your ankles, curl your toes and tap your feet frequently.&lt;/li&gt;
+	&lt;li&gt;Drink plenty of fluids to prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;Wear support hosiery or compression stockings, available at medical supply stores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re taking warfarin to prevent blood clots that could cause a heart attack or stroke, make sure you take it exactly as prescribed. Warfarin is a powerful medication that can have dangerous side effects. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Warfarin: Any harm in long-term use?
+	</Title>
+	<Abstract>
+		Warfarin helps prevent blood clots &amp;mdash; but the medication also poses a risk of severe bleeding.
+	</Abstract>
+	<Question>
+		Is there any harm in taking long-term, low-dose warfarin for an extended period after an episode of deep vein thrombosis?
+	</Question>
+	<QuestionFirstName>
+		Joline
+	</QuestionFirstName>
+	<QuestionState>
+		Wisconsin
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00455" LinkType="Internal" ObjectID="56E57F1F-14D3-4F5D-99755C0AC15D4BCE" Title="Warfarin diet: What foods should I avoid?" Url="http://www.mayoclinic.com/health/warfarin/AN00455" />
+		<LinkItem ContentType="Article" DocID="HB00101" LinkType="Internal" ObjectID="CA0F97CB-E7FF-0DBD-16198A51C9A1D2DE" Title="Warfarin side effects: Watch for interactions" Url="http://www.mayoclinic.com/health/warfarin-side-effects/HB00101" />
+		<LinkItem ContentType="Disease" DocID="DS01005" LinkType="Internal" ObjectID="F7CDC42F-E7FF-0DBD-1377DA69658CAFBB" Title="Deep vein thrombosis (DVT)" Url="http://www.mayoclinic.com/health/deep-vein-thrombosis/DS01005" />
+		<LinkItem ContentType="Disease" DocID="DS00223" LinkType="Internal" ObjectID="D27523B0-5309-466F-B6560F1319E7EB2D" Title="Thrombophlebitis" Url="http://www.mayoclinic.com/health/thrombophlebitis/DS00223" />
+		<LinkItem ContentType="Answer" DocID="AN01304" LinkType="Internal" ObjectID="B7924F4B-2A5D-9994-E93851E2A0E09BD3" Title="Blood thinners: Can I still get blood clots?" Url="http://www.mayoclinic.com/health/blood-thinners/AN01304" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+	</RelatedLinksBox>
+</Answer>

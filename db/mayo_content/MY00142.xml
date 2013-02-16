@@ -1,0 +1,312 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00142
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/a1c-test/MY00142
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-30
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3352" Title="Know your numbers" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="3376" Title="Action recommended" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="3470" Title="Test results" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3854" Title="Endocrine system">
+						<Keyword MCVID="3855" Title="A1C test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="4395" Title="Comorbidities" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3368" Title="Monitor condition">
+						<Keyword MCVID="4396" Title="No comorbidities" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4743" Title="Manage goals">
+					<Keyword MCVID="4744" Title="Manage clinical goals" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF92B575-E7FF-0DBD-1BAB5D415ACF9A14
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				A1C test
+			</MetaKeyword>
+			<MetaKeyword>
+				A1C testing
+			</MetaKeyword>
+			<MetaKeyword>
+				A1C blood test
+			</MetaKeyword>
+			<MetaKeyword>
+				A1C diabetes test
+			</MetaKeyword>
+			<MetaKeyword>
+				glycosylated hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				glycosylated hemoglobin test
+			</MetaKeyword>
+			<MetaKeyword>
+				glycosylated hemoglobin testing
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin A1C
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin A1C test
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin A1C testing
+			</MetaKeyword>
+			<MetaKeyword>
+				glycated hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				glycated hemoglobin test
+			</MetaKeyword>
+			<MetaKeyword>
+				glycated hemoglobin testing
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes lab tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes test
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes tests
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes complications
+			</MetaKeyword>
+			<MetaKeyword>
+				diabetes care
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The A1C test is a common blood test used to diagnose type 1 and type 2 diabetes and then to gauge how well you&apos;re managing your diabetes. The A1C test goes by many other names, including glycated hemoglobin, glycosylated hemoglobin, hemoglobin A1C and HbA1c. 
+&lt;/p&gt;
+&lt;p&gt;
+The A1C test result reflects your average blood sugar level for the past two to three months. Specifically, the A1C test measures what percentage of your hemoglobin &amp;mdash; a protein in red blood cells that carries oxygen &amp;mdash; is coated with sugar (glycated). The higher your A1C level, the poorer your blood sugar control and the higher your risk of diabetes complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An international committee of experts from the American Diabetes Association, the European Association for the Study of Diabetes and the International Diabetes Federation recommends that the A1C test be the primary test used to diagnose prediabetes, type 1 diabetes and type 2 diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+After a diabetes diagnosis, the A1C test is used to monitor your diabetes treatment plan. Since the A1C test measures your average blood sugar level for the past two to three months instead of your blood sugar level at a point in time, it is a better reflection of how well your diabetes treatment plan is working overall. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will likely use the A1C test when you&apos;re first diagnosed with diabetes. This also helps establish a baseline A1C level. The test may then need to be repeated while you&apos;re learning to control your blood sugar. 
+&lt;/p&gt;
+&lt;p&gt;
+Later, how often you need the A1C test depends on the type of diabetes you have, your treatment plan and how well you&apos;re managing your blood sugar. For example, the A1C test may be recommended: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Twice a year if you have type 2 diabetes, you don&apos;t use insulin, and your blood sugar level is consistently within your target range&lt;/li&gt;
+	&lt;li&gt;Three to four times a year if you have type 1 diabetes&lt;/li&gt;
+	&lt;li&gt;Four times a year if you have type 2 diabetes, you use insulin to manage your diabetes, or you have trouble keeping your blood sugar level within your target range&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may need more frequent A1C tests if your doctor changes your diabetes treatment plan or you begin taking a new diabetes medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The A1C test is a simple blood test. You can eat and drink normally before the test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the A1C test, a member of your health care team simply takes a sample of blood by inserting a needle into a vein in your arm or pricking the tip of your finger with a small, pointed lancet. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For someone who doesn&apos;t have diabetes, a normal A1C level can range from 4.5 to 6 percent. Someone who&apos;s had uncontrolled diabetes for a long time might have an A1C level above 8 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+When the A1C test is used to diagnose diabetes, an A1C level of 6.5 percent or higher on two separate tests indicates you have diabetes. A result between 5.7 and 6.4 percent is considered prediabetes, which indicates a high risk of developing diabetes. 
+&lt;/p&gt;
+&lt;p&gt;
+For most people who have previously diagnosed diabetes, an A1C level of 7 percent or less is a common treatment target. Higher targets may be chosen in some individuals. If your A1C level is above your target, your doctor may recommend a change in your diabetes treatment plan. Remember, the higher your A1C level, the higher your risk of diabetes complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s how A1C level corresponds to average blood sugar level, in milligrams per deciliter (mg/dL) and millimoles per liter (mmol/L): 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; width=&quot;100%&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;A1C level &lt;/th&gt;&lt;th&gt;&lt;strong&gt;Estimated average blood sugar level&lt;/strong&gt; &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;5 percent &lt;/td&gt;
+			&lt;td&gt;97 mg/dL (5.4 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;6 percent &lt;/td&gt;
+			&lt;td&gt;126 mg/dL (7 mmol/L) &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;7 percent &lt;/td&gt;
+			&lt;td&gt;154 mg/dL (8.5 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;8 percent &lt;/td&gt;
+			&lt;td&gt;183 mg/dL (10.2 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;9 percent &lt;/td&gt;
+			&lt;td&gt;212 mg/dL (11.8 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;10 percent &lt;/td&gt;
+			&lt;td&gt;240 mg/dL (13.3 mmol/L) &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;11 percent &lt;/td&gt;
+			&lt;td&gt;269 mg/dL (14.9 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;12 percent &lt;/td&gt;
+			&lt;td&gt;298 mg/dL (16.5 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;13 percent &lt;/td&gt;
+			&lt;td&gt;326 mg/dL (18.1 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;14 percent &lt;/td&gt;
+			&lt;td&gt;355 mg/dL (19.7 mmol/L)&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+It&apos;s important to note that the effectiveness of A1C tests may be limited in certain cases. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If you experience heavy or chronic bleeding, your hemoglobin stores may be depleted. This may make your A1C test results falsely low.&lt;/li&gt;
+	&lt;li&gt;If you don&apos;t have enough iron in your bloodstream, your A1C test results may be falsely high.&lt;/li&gt;
+	&lt;li&gt;Most people have only one type of hemoglobin, called hemoglobin A. If you have an uncommon form of hemoglobin (known as a hemoglobin variant), your A1C test result may be falsely high or falsely low. Hemoglobin variants are most often found in blacks and people of Mediterranean or Southeast Asian heritage. Hemoglobin variants can be confirmed with lab tests. If you&apos;re diagnosed with a hemoglobin variant, your A1C tests may need to be done at a specialized lab for the most accurate results.&lt;/li&gt;
+	&lt;li&gt;If you have had a recent blood transfusion or have other forms of hemolytic anemia, this test would not be useful, as results may be falsely low.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also keep in mind that the normal range for A1C results may vary somewhat among labs. If you consult a new doctor or use a different lab, it&apos;s important to consider this possible variation when interpreting your A1C test results. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		A1C test
+	</Title>
+	<Abstract>
+		A1C test &amp;mdash; Overview covers definition, preparation, results of this diabetes blood test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

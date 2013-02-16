@@ -1,0 +1,230 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00653
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/acanthosis-nigricans/DS00653
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-08
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2827" Title="Acanthosis nigricans" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			03CDF835-2A5D-9994-EC3833F14D5BFECC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				acanthosis nigricans
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acanthosis nigricans (ak-an-THOE-sis NIE-grih-kuns) is a skin condition characterized by areas of dark, velvety discoloration in body folds and creases. The affected skin can become thickened and may smell bad. Most often, acanthosis nigricans affects your armpits, groin and neck. 
+&lt;/p&gt;
+&lt;p&gt;
+These skin changes typically occur in people who are obese or have diabetes. Children who develop the condition are at higher risk of developing type 2 diabetes. More rarely, acanthosis nigricans can be a warning sign of a cancerous tumor in an internal organ, such as the stomach or liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Acanthosis nigricans is most common in Native Americans, blacks and Hispanics. There&apos;s no specific treatment for acanthosis nigricans. Treatment of underlying conditions may restore some of the normal color and texture to affected areas of skin. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of acanthosis nigricans 
+" Caption="Acanthosis nigricans is a skin condition that causes a dark discoloration in body folds and creases. It typically affects the armpits, groin and neck. 
+" Height="60" Title="Acanthosis nigricans" URI="/images/image_popup/thumbs/ans7_acanthosisnigricansthu.jpg" Width="60" />
+				<Image Alt="Photo of acanthosis nigricans 
+" Caption="Acanthosis nigricans is a skin condition that causes a dark discoloration in body folds and creases. It typically affects the armpits, groin and neck. 
+" Height="280" Title="Acanthosis nigricans" URI="/images/image_popup/ans7_acanthosisnigricans.jpg" Width="400" />
+				<HTML>
+					Acanthosis nigricans is a skin condition that causes a dark discoloration in body folds and creases. It typically affects the armpits, groin and neck. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Skin changes are the only signs of acanthosis nigricans. You&apos;ll notice dark, thickened, velvety skin in body folds and creases &amp;mdash; typically in your armpits, groin and neck. The skin changes appear slowly, sometimes over months or years. The affected skin may also smell bad or itch.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Consult your doctor if you notice changes in your skin &amp;mdash; especially if the changes appear suddenly. You may have an underlying condition that needs treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of acanthosis nigricans 
+" Caption="Acanthosis nigricans is a skin condition that causes a dark discoloration in body folds and creases. It typically affects the armpits, groin and neck. 
+" Height="60" Title="Acanthosis nigricans" URI="/images/image_popup/thumbs/ans7_acanthosisnigricansthu.jpg" Width="60" />
+				<Image Alt="Photo of acanthosis nigricans 
+" Caption="Acanthosis nigricans is a skin condition that causes a dark discoloration in body folds and creases. It typically affects the armpits, groin and neck. 
+" Height="280" Title="Acanthosis nigricans" URI="/images/image_popup/ans7_acanthosisnigricans.jpg" Width="400" />
+				<HTML>
+					Acanthosis nigricans is a skin condition that causes a dark discoloration in body folds and creases. It typically affects the armpits, groin and neck. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acanthosis nigricans has been associated with:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin resistance.&lt;/strong&gt; Most people who have acanthosis nigricans have also become resistant to insulin, a hormone secreted by the pancreas that allows your body to process sugar. Insulin resistance is what eventually causes type 2 diabetes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Most people who develop acanthosis nigricans are overweight or obese, which is a strong risk factor for developing insulin resistance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hormonal disorders.&lt;/strong&gt; Acanthosis nigricans often occurs in people who have disorders such as ovarian cysts, underactive thyroids or problems with the adrenal glands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain drugs.&lt;/strong&gt; Medications such as oral contraceptives and corticosteroids, such as prednisone, may cause acanthosis nigricans &amp;mdash; as can high doses of niacin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Acanthosis nigricans also sometimes occurs when a cancerous tumor begins growing in an internal organ, such as the stomach, colon or liver.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acanthosis nigricans risk factors include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; The heavier you are, the higher your risk of acanthosis nigricans.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Acanthosis nigricans is most common in American Indians, Hispanics and blacks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Some types of acanthosis nigricans appear to be hereditary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People who have acanthosis nigricans are much more likely to develop type 2 diabetes. They also should be thoroughly checked for the types of cancers that have been linked to the disorder.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. He or she may refer you to a doctor who specializes in skin disorders (dermatologist) or hormone problems (endocrinologist). Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list that answers some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has anyone in your family ever had this problem?&lt;/li&gt;
+	&lt;li&gt;Does diabetes run in your family?&lt;/li&gt;
+	&lt;li&gt;Have you ever had problems with your ovaries, adrenal glands or thyroid?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take on a regular basis?&lt;/li&gt;
+	&lt;li&gt;Have you ever had to take high doses of prednisone for more than a week?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have they gotten worse?&lt;/li&gt;
+	&lt;li&gt;What areas of your body are affected?&lt;/li&gt;
+	&lt;li&gt;Have you ever had cancer?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Acanthosis nigricans is typically detected during a skin exam. Rarely, a small skin sample is removed (biopsied) for examination in a lab. If the cause of acanthosis nigricans is unclear, your doctor may recommend blood tests, X-rays or other tests to look for possible underlying causes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many situations, treating the underlying problem can help fade the discoloration. Examples may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight.&lt;/strong&gt; If your acanthosis nigricans is caused by obesity, losing weight may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take medications.&lt;/strong&gt; Symptoms may be relieved by treatment for underlying problems with your ovaries, adrenal glands or thyroid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If acanthosis nigricans was triggered by a cancerous tumor, surgically removing the tumor often clears up the skin discoloration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you are concerned about the appearance of your skin or if the lesions become uncomfortable or start to smell bad, your doctor may suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Prescription creams to lighten the affected areas&lt;/li&gt;
+	&lt;li&gt;Antibacterial soaps or a topical antibiotic to reduce odor&lt;/li&gt;
+	&lt;li&gt;Oral acne medications&lt;/li&gt;
+	&lt;li&gt;Laser therapy to reduce the skin&apos;s thickness&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acanthosis nigricans
+	</Title>
+	<Abstract>
+		Acanthosis nigricans &amp;mdash; Comprehensive overview covers causes, treatment of this skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

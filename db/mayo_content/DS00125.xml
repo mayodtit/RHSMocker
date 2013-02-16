@@ -1,0 +1,377 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00125
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mumps/DS00125
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-05
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2059" Title="Mumps" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			292796CF-7FD0-4E8B-A43FF0385A62B145
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mumps
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen cheeks
+			</MetaKeyword>
+			<MetaKeyword>
+				MMR vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				rubella
+			</MetaKeyword>
+			<MetaKeyword>
+				orchitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mumps is a viral infection that primarily affects the parotid glands &amp;mdash; one of three pairs of saliva-producing (salivary) glands, situated below and in front of your ears. If you or your child contracts mumps, it can cause swelling in one or both parotid glands. 
+&lt;/p&gt;
+&lt;p&gt;
+Mumps was common in the United States until mumps vaccination became routine. Since then, the number of cases has dropped dramatically, so your odds of getting mumps are low. Complications of mumps, such as hearing loss, are potentially serious, but rare. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no specific treatment for mumps. Mumps outbreaks still occur in the United States, and mumps is still common in many parts of the world, so getting a vaccination to prevent mumps remains important. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing location of salivary glands 
+" Caption="You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+" Height="60" Title="Salivary glands" URI="/images/image_popup/thumbs/mcdc7_salivarythu.jpg" Width="60" />
+				<Image Alt="Illustration showing location of salivary glands 
+" Caption="You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+" Height="299" Title="Salivary glands" URI="/images/image_popup/mcdc7_salivary.jpg" Width="400" />
+				<HTML>
+					You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people infected with the mumps virus have either no signs or symptoms or very mild ones. When signs and symptoms do develop, they usually appear about two to three weeks after exposure to the virus and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swollen, painful salivary glands on one or both sides of your face (parotitis)&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Weakness and fatigue&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Pain while chewing or swallowing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The primary &amp;mdash; and best known &amp;mdash; sign of mumps is swollen salivary glands that cause the cheeks to puff out. In fact, the term &quot;mumps&quot; is an old expression for lumps or bumps within the cheeks. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you suspect that you or your child has mumps, see your doctor. Let your doctor&apos;s office know before you go in that you suspect mumps so that you won&apos;t have to wait so long in the waiting room, possibly infecting others. Mumps has become an uncommon illness, so it&apos;s possible that the signs and symptoms are caused by another condition. Swollen salivary glands and a fever could be an indication of inflamed tonsils (tonsillitis) or a blocked salivary gland. 
+&lt;/p&gt;
+&lt;p&gt;
+Other viruses can infect the parotid glands, causing a mumps-like illness. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing child with mumps 
+" Caption="Mumps is characterized by swollen, painful salivary glands in the face, causing the cheeks to puff out. 
+" Height="60" Title="Mumps" URI="/images/image_popup/thumbs/r7_mumpsthu.jpg" Width="60" />
+				<Image Alt="Photograph showing child with mumps 
+" Caption="Mumps is characterized by swollen, painful salivary glands in the face, causing the cheeks to puff out. 
+" Height="400" Title="Mumps" URI="/images/image_popup/r7_mumps.jpg" Width="400" />
+				<HTML>
+					Mumps is characterized by swollen, painful salivary glands in the face, causing the cheeks to puff out. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of mumps is the mumps virus, which spreads easily from person to person through infected saliva. If you&apos;re not immune, you can contract mumps by breathing in saliva droplets of an infected person who has just sneezed or coughed. You can also contract mumps from sharing utensils or cups with someone who has mumps.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of mumps are potentially serious, but rare. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inflammation&lt;/strong&gt; &lt;br /&gt;
+Most mumps complications involve inflammation and swelling in some part of the body, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Testicles.&lt;/strong&gt; This condition, known as orchitis, causes one or both testicles to swell in males who&apos;ve reached puberty. Orchitis is painful, but it rarely leads to sterility &amp;mdash; the inability to father a child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pancreas.&lt;/strong&gt; The signs and symptoms of this condition, known as pancreatitis, include pain in the upper abdomen, nausea and vomiting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ovaries and breasts.&lt;/strong&gt; Females who&apos;ve reached puberty may have inflammation in the ovaries (oophoritis) or breasts (mastitis). Fertility is rarely affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain.&lt;/strong&gt; A viral infection, such as mumps, can lead to inflammation of the brain (encephalitis). Encephalitis can lead to neurological problems and become life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Membranes and fluid around the brain and spinal cord.&lt;/strong&gt; This condition, known as meningitis, can occur if the mumps virus spreads through your bloodstream to infect your central nervous system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other complications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing loss.&lt;/strong&gt; In rare cases, mumps can cause hearing loss, usually permanent, in one or both ears. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Miscarriage.&lt;/strong&gt; Although it isn&apos;t proved, contracting mumps while you&apos;re pregnant, especially early on, may lead to miscarriage. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your family doctor if you or your child has signs and symptoms common to mumps. Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pre-appointment restrictions.&lt;/strong&gt; Ask if there are any restrictions you or your child should follow before the appointment, such as staying isolated from others so as not to spread infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom history.&lt;/strong&gt; Write down any symptoms you or your child has had, and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent exposure to possible sources of infection.&lt;/strong&gt; Try to remember if you or your child has been exposed to someone with mumps signs and symptoms in the last few weeks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key medical information.&lt;/strong&gt; Include any other health problems and the names of any medications, supplements and vitamins you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Write down your questions so you can make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your doctor about mumps include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon should symptoms improve?&lt;/li&gt;
+	&lt;li&gt;Are there any home remedies or self-care steps that could help relieve symptoms?&lt;/li&gt;
+	&lt;li&gt;Am I or is my child contagious? For how long?&lt;/li&gt;
+	&lt;li&gt;What steps should we take to reduce the risk of infecting others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have about your or your child&apos;s condition. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What signs and symptoms have you noticed?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Have these signs and symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do symptoms include abdominal pain or, in males, testicular pain?&lt;/li&gt;
+	&lt;li&gt;Has anyone else you know had signs and symptoms common to mumps within the last few weeks?&lt;/li&gt;
+	&lt;li&gt;Are you and your child current on your vaccinations?&lt;/li&gt;
+	&lt;li&gt;Are you or your child currently being treated or have you recently been treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you or your child currently taking, including prescription and over-the-counter drugs as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Is your child in school or child care?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant or breast-feeding?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, you may be able to ease symptoms with cold compresses and over-the-counter pain relievers such as ibuprofen (Advil, Motrin IB, others) and acetaminophen (Tylenol, others). However, don&apos;t give aspirin to a child who has a viral illness because aspirin has been associated with the development of Reye&apos;s syndrome, which can be serious. 
+&lt;/p&gt;
+&lt;p&gt;
+Rest as much as possible, and avoid contact with others until you&apos;ve seen the doctor. Mumps is highly contagious within about the first week after symptoms first appear. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects that you or your child has mumps, a virus culture or a blood test may be needed. Your immune system normally makes antibodies to help you fight an infection. So if you have mumps, the blood test can detect the antibodies in your system that are fighting the mumps virus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because mumps is caused by a virus, antibiotics aren&apos;t effective. Like most viral illnesses, a mumps infection must simply run its course. Fortunately, most children and adults recover from an uncomplicated case of mumps within about two weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+As a general rule, you&apos;re no longer considered contagious and may safely return to work or school one week after a diagnosis of mumps. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, you&apos;re considered immune to mumps if you&apos;ve previously had the infection or if you&apos;ve been immunized against mumps. 
+&lt;/p&gt;
+&lt;p&gt;
+The mumps vaccine is usually given as a combined measles-mumps-rubella (MMR) inoculation, which contains the safest and most effective form of each vaccine. Two doses of the MMR vaccine are recommended before a child enters school: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The first between ages 12 and 15 months&lt;/li&gt;
+	&lt;li&gt;The second between ages 4 and 6 years, or between 11 and 12 if not previously given&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In response to a mumps outbreak in the Midwest, college students and health care workers in particular are encouraged to make sure they&apos;ve had two doses of the MMR vaccine. A single dose doesn&apos;t appear to offer sufficient protection during an outbreak. Since the recommendation for a second dose didn&apos;t begin until the late 1980s or early 1990s, many young adults may not have received their second dose and should have one now. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Those who don&apos;t need the MMR vaccine&lt;/strong&gt; &lt;br /&gt;
+You don&apos;t need a vaccine if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Had two doses of the MMR vaccine after 12 months of age or one dose of the MMR vaccine plus a second dose of measles vaccine&lt;/li&gt;
+	&lt;li&gt;Had one dose of MMR and you&apos;re not at high risk of measles or mumps exposure&lt;/li&gt;
+	&lt;li&gt;Have blood tests that demonstrate you&apos;re immune to measles, mumps and rubella&lt;/li&gt;
+	&lt;li&gt;Are a man who was born before 1957&lt;/li&gt;
+	&lt;li&gt;Are a woman who was born before 1957 and you don&apos;t plan to have any more children, you already had the rubella vaccine or you have a positive rubella test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, the vaccine isn&apos;t recommended for: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pregnant women or women who plan to get pregnant within the next four weeks&lt;/li&gt;
+	&lt;li&gt;People who have had a life-threatening allergic reaction to gelatin or the antibiotic neomycin&lt;/li&gt;
+	&lt;li&gt;People with severely compromised immune systems, or people who take oral steroids, unless the benefits of the vaccine exceed the risks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Those who should get the MMR vaccine&lt;/strong&gt; &lt;br /&gt;
+If you don&apos;t fit the criteria listed above for not getting vaccinated, you should be vaccinated if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are a nonpregnant woman of childbearing age&lt;/li&gt;
+	&lt;li&gt;Attend college, trade school or postsecondary school&lt;/li&gt;
+	&lt;li&gt;Work in a hospital, medical facility, child care center or school&lt;/li&gt;
+	&lt;li&gt;Plan to travel overseas or take a cruise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Those who should wait to get the MMR vaccine&lt;/strong&gt; &lt;br /&gt;
+Consider waiting if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;re moderately or severely ill. Wait until you recover.&lt;/li&gt;
+	&lt;li&gt;You&apos;re pregnant. Wait until after you give birth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Those who should check with their doctors&lt;/strong&gt; &lt;br /&gt;
+Check with your doctor before getting vaccinated for mumps if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You have cancer&lt;/li&gt;
+	&lt;li&gt;You have a blood disorder &lt;/li&gt;
+	&lt;li&gt;You have a disease that affects your immune system, such as HIV/AIDS&lt;/li&gt;
+	&lt;li&gt;You&apos;re being treated with drugs, such as steroids, that affect your immune system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Side effects of the vaccine&lt;/strong&gt; &lt;br /&gt;
+You can&apos;t get mumps from the MMR vaccine, and most people experience no side effects from the vaccine. A few may experience a mild fever or rash, and some people (mostly adults) have achy joints afterward for a short time. Less than one out of 1 million doses causes a serious allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+Although concerns have been raised about a connection between the MMR vaccine and autism, extensive reports from the American Academy of Pediatrics, the Institute of Medicine and the Centers for Disease Control and Prevention conclude that there&apos;s no scientifically proven link between the MMR vaccine and autism. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has mumps, time and rest are the best treatments. There&apos;s little your doctor can do to speed recovery. But you can take some steps to ease pain and discomfort and keep others from becoming infected. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest in bed&lt;/strong&gt; until the fever goes away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Isolate yourself or your child&lt;/strong&gt; to prevent spreading the disease to others. Someone with mumps is most contagious within the first five days after the onset of signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take over-the-counter pain relievers,&lt;/strong&gt; such as acetaminophen (Tylenol, others) or a nonsteroidal anti-inflammatory drug such as ibuprofen (Advil, Motrin IB, others) to ease symptoms. Adults may also use aspirin. Use caution when giving aspirin to children or teenagers. Though aspirin is approved for use in children older than age 2, children and teenagers recovering from flu-like symptoms should never take aspirin. This is because aspirin has been linked to Reye&apos;s syndrome, a rare but potentially life-threatening condition, in such children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a warm or cold compress&lt;/strong&gt; to ease the pain of swollen glands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear an athletic supporter&lt;/strong&gt; and use cold compresses to ease the pain of tender testicles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid foods that require lots of chewing.&lt;/strong&gt; Instead, try broth-based soups or soft foods, such as mashed potatoes or cooked oatmeal, for nourishment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sour foods,&lt;/strong&gt; such as citrus fruits or juices, which stimulate saliva production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink plenty of fluids.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child has mumps, watch for complications. Call your doctor if your child develops: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever of 103 F (39 C) or greater&lt;/li&gt;
+	&lt;li&gt;Trouble eating or drinking&lt;/li&gt;
+	&lt;li&gt;Confusion or disorientation&lt;/li&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;In boys, pain and swelling of the testicles&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mumps
+	</Title>
+	<Abstract>
+		Mumps &amp;mdash; Comprehensive overview covers symptoms, causes, treatment, prevention of this viral illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Disease" DocID="DS00118" LinkType="Internal" ObjectID="3219AFB2-F322-4AEB-9EE4A9B6657E6F9E" Title="Meningitis" Url="http://www.mayoclinic.com/health/meningitis/DS00118" />
+	</RelatedLinksBox>
+</Disease>

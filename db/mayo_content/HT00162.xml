@@ -1,0 +1,79 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00162
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00162
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1259" Title="Weight loss">
+					<Keyword MCVID="1260" Title="Mayo Clinic diet" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			97C39749-E7FF-0DBD-1B9D70CAA2905C7C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				weight loss
+			</MetaKeyword>
+			<MetaKeyword>
+				weight control
+			</MetaKeyword>
+			<MetaKeyword>
+				weight management
+			</MetaKeyword>
+			<MetaKeyword>
+				portion control
+			</MetaKeyword>
+			<MetaKeyword>
+				food portion
+			</MetaKeyword>
+			<MetaKeyword>
+				serving size
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Control your portions, control your weight
+	</Title>
+	<Body>
+		&lt;p&gt;Supersized portions can lead to supersized waists. Follow these tips before you dig into your next meal: 1. Read nutrition labels to determine accurate serving sizes. 2. Drink sparkling water or diet soda instead of regular soft drinks. 3. Don&apos;t force yourself to clean your plate. It&apos;s OK to stop when you&apos;re full.&lt;/p&gt;
+	</Body>
+</HealthTip>

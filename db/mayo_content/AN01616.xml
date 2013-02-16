@@ -1,0 +1,130 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01616
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shift-work/AN01616
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-21
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="3827" Title="Healthy at work" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			53B682D2-E7FF-0DBD-12D1D4C82FF59AEF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				insomnia
+			</MetaKeyword>
+			<MetaKeyword>
+				shift work
+			</MetaKeyword>
+			<MetaKeyword>
+				shiftwork
+			</MetaKeyword>
+			<MetaKeyword>
+				night shift
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Humans are naturally wired to be awake during the day and to sleep at night. Good daytime sleep is possible, though, if shift work is a necessary part of your work life. 
+&lt;/p&gt;
+&lt;p&gt;
+To promote better sleep during the day: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid stimulants, such as caffeine and nicotine, before bedtime.&lt;/strong&gt; If you&apos;re working nights and need to sleep from morning until afternoon, you might try to avoid caffeine after midnight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Create a restful environment.&lt;/strong&gt; To promote uninterrupted sleep, turn off or unplug your phone and hang room-darkening shades on the windows. You might also turn down the thermostat, wear an eye mask and post a &quot;Do not disturb&quot; sign on your bedroom door &amp;mdash; and possibly your front door as well. Schedule appointments and other activities outside of your sleep period, and train your family and friends to leave you alone while you sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a short nap before your shift.&lt;/strong&gt; Napping for up to 30 minutes just before work or on a break may increase alertness and enhance your performance, including quicker reaction time, better memory, less confusion, and fewer accidents and mistakes &amp;mdash; especially if your daytime sleep period was cut short. Keep it short, though. The longer you nap, the more likely you are to feel groggy afterward.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to the routine.&lt;/strong&gt; Going to sleep and waking up at the same time every day helps promote good sleep. Be as consistent as possible, even on weekends and days off.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make healthy lifestyle choices.&lt;/strong&gt; Eat a healthy diet and include physical activity in your daily routine. If exercise seems to energize you, plan to work out after you wake up rather than before you go to sleep. Resist the temptation to use junk food or nicotine to stay awake or alcohol to get to sleep.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If these tips don&apos;t seem to help, consult your doctor or a sleep specialist. Sometimes an underlying sleep disorder or other issues need to be addressed. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shift work: Improving daytime sleep
+	</Title>
+	<Abstract>
+		If you&apos;re adjusting to shift work &amp;mdash; especially the night shift &amp;mdash; consider tips for better sleep.
+	</Abstract>
+	<Question>
+		I just started working the night shift, and I&apos;m having trouble sleeping during the day. Do you have any sleep tips for shift workers?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		Georgia
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02021" LinkType="Internal" ObjectID="E7373336-F052-D531-8967EED8995C0DB5" Title="Test anxiety: Can it be treated?" Url="http://www.mayoclinic.com/health/test-anxiety/AN02021" />
+		<LinkItem ContentType="Answer" DocID="AN01179" LinkType="Internal" ObjectID="E0F12C22-F693-432F-B4E7A075E9231DD8" Title="Leg pain after prolonged standing or sitting: A concern?" Url="http://www.mayoclinic.com/health/leg-pain/AN01179" />
+		<LinkItem ContentType="Answer" DocID="AN02082" LinkType="Internal" ObjectID="49918290-EF4B-3EE3-6C2C89AA5932ABB8" Title="Sitting risks: How harmful is too much sitting?" Url="http://www.mayoclinic.com/health/sitting/AN02082" />
+		<LinkItem ContentType="SelfAssessment" DocID="SR00029" LinkType="Internal" ObjectID="47D87EFD-2A5D-9994-E3522C6D5B4F1A58" Title="Stress assessment: Rate your stress level" Url="http://www.mayoclinic.com/health/stress-assessment/SR00029" />
+		<LinkItem ContentType="Article" DocID="SR00039" LinkType="Internal" ObjectID="1B25B2C7-E7FF-0DBD-11E2B9C20F8767B3" Title="Stress relief: When and how to say no" Url="http://www.mayoclinic.com/health/stress-relief/SR00039" />
+		<LinkItem ContentType="SlideShow" DocID="WL00030" LinkType="Internal" ObjectID="766A709C-9FB9-4907-82603345573D47CC" Title="Slide show: Office stretches" Url="http://www.mayoclinic.com/health/stretching/WL00030" />
+		<LinkItem ContentType="Video" DocID="MM00712" LinkType="Internal" ObjectID="4EFE0052-E7FF-0DBD-1F87F35E8C56E23B" Title="Video: Standing stretches for the workplace" Url="http://www.mayoclinic.com/health/lower-back-stretches/MM00712" />
+		<LinkItem ContentType="Video" DocID="MM00711" LinkType="Internal" ObjectID="4EFD5E28-E7FF-0DBD-1C4E893D1BA3B47A" Title="Video: Seated stretches for the workplace" Url="http://www.mayoclinic.com/health/lower-back-stretches/MM00711" />
+		<LinkItem ContentType="Video" DocID="MM00710" LinkType="Internal" ObjectID="4EFC6B30-E7FF-0DBD-1802109F1D44A26A" Title="Video: Upper body stretches for the workplace" Url="http://www.mayoclinic.com/health/shoulder-stretches/MM00710" />
+		<LinkItem ContentType="Video" DocID="MM00709" LinkType="Internal" ObjectID="4EFBC5AA-E7FF-0DBD-163F7B10EB07D318" Title="Video: Forearm stretches for the workplace" Url="http://www.mayoclinic.com/health/forearm-stretches/MM00709" />
+		<LinkItem ContentType="Video" DocID="MM00708" LinkType="Internal" ObjectID="4EFAC6DA-E7FF-0DBD-18EE9E505A063BDD" Title="Video: Neck stretches for the workplace" Url="http://www.mayoclinic.com/health/neck-stretches/MM00708" />
+		<LinkItem ContentType="Disease" DocID="DS01085" LinkType="Internal" ObjectID="2BBB8F47-E7FF-0DBD-192336CFC9CE691F" Title="Jet lag disorder" Url="http://www.mayoclinic.com/health/jet-lag/DS01085" />
+		<LinkItem ContentType="Article" DocID="WL00056" LinkType="Internal" ObjectID="E76D4912-66D9-40A0-950F4DD018E94838" Title="Work-life balance: Tips to reclaim control" Url="http://www.mayoclinic.com/health/work-life-balance/WL00056" />
+		<LinkItem ContentType="Article" DocID="SM00115" LinkType="Internal" ObjectID="BA618B50-E7FF-0DBD-1650CB95A5D0B867" Title="Workplace exercises: How to burn calories at work" Url="http://www.mayoclinic.com/health/office-exercise/SM00115" />
+		<LinkItem ContentType="Article" DocID="WL00062" LinkType="Internal" ObjectID="93BC84B9-C7D8-498F-96574503FAA589C1" Title="Job burnout: How to spot it and take action" Url="http://www.mayoclinic.com/health/burnout/WL00062" />
+		<LinkItem ContentType="Article" DocID="WL00051" LinkType="Internal" ObjectID="8E061561-FD66-46E4-98C45870757E3310" Title="Job satisfaction: How to make work more rewarding" Url="http://www.mayoclinic.com/health/job-satisfaction/WL00051" />
+		<LinkItem ContentType="Article" DocID="MY01460" LinkType="Internal" ObjectID="7DEADDB7-9346-1B83-C3BCBD0CAE439BA3" Title="Office ergonomics: Your how-to guide" Url="http://www.mayoclinic.com/health/office-ergonomics/MY01460" />
+		<LinkItem ContentType="Article" DocID="MY00921" LinkType="Internal" ObjectID="776CA4D6-A35C-2451-3012E8AE3B755287" Title="Desk stretches: How-to video collection" Url="http://www.mayoclinic.com/health/office-stretches/MY00921" />
+		<LinkItem ContentType="Article" DocID="HQ00955" LinkType="Internal" ObjectID="1D168E4F-1223-4351-8F91008CE730356C" Title="Back pain at work: Preventing pain and injury" Url="http://www.mayoclinic.com/health/back-pain/HQ00955" />
+		<LinkItem ContentType="Article" DocID="HQ01556_D" LinkType="Internal" ObjectID="126DF123-F54F-40E8-9C8C210FA3297EAA" Title="Travel workout: Fitness tips for business travelers" Url="http://www.mayoclinic.com/health/exercise/HQ01556_D" />
+	</RelatedLinksBox>
+</Answer>

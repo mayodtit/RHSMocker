@@ -1,0 +1,405 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00020
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rheumatoid-arthritis/DS00020
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-02
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="1722" Title="Rheumatoid arthritis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			09CF7868-4035-4B73-907328F854F7F0A3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid
+			</MetaKeyword>
+			<MetaKeyword>
+				rhumatoid arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritus
+			</MetaKeyword>
+			<MetaKeyword>
+				rhumatoid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatoid arthritis is a chronic inflammatory disorder that typically affects the small joints in your hands and feet. Unlike the wear-and-tear damage of osteoarthritis, rheumatoid arthritis affects the lining of your joints, causing a painful swelling that can eventually result in bone erosion and joint deformity. 
+&lt;/p&gt;
+&lt;p&gt;
+An autoimmune disorder, rheumatoid arthritis occurs when your immune system mistakenly attacks your own body&apos;s tissues. In addition to causing joint problems, rheumatoid arthritis can also affect your whole body with fevers and fatigue.
+&lt;/p&gt;
+&lt;p&gt;
+Rheumatoid arthritis is much more common in women than in men and generally occurs between the ages of 40 and 60. Treatment focuses on controlling symptoms and preventing joint damage.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing inflammation of rheumatoid arthritis 
+" Caption="Rheumatoid arthritis can cause pain, swelling and deformity. As the tissue that lines your joints (synovial membrane) becomes inflamed and thickened, fluid builds up and joints erode and degrade. 
+" Height="60" Title="Rheumatoid arthritis" URI="/images/image_popup/thumbs/r7_rheumatoidarthritisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing inflammation of rheumatoid arthritis 
+" Caption="Rheumatoid arthritis can cause pain, swelling and deformity. As the tissue that lines your joints (synovial membrane) becomes inflamed and thickened, fluid builds up and joints erode and degrade. 
+" Height="274" Title="Rheumatoid arthritis" URI="/images/image_popup/r7_rheumatoidarthritis.jpg" Width="400" />
+				<HTML>
+					Rheumatoid arthritis can cause pain, swelling and deformity. As the tissue that lines your joints (synovial membrane) becomes inflamed and thickened, fluid builds up and joints erode and degrade. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of rheumatoid arthritis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tender, warm, swollen joints&lt;/li&gt;
+	&lt;li&gt;Morning stiffness that may last for hours&lt;/li&gt;
+	&lt;li&gt;Firm bumps of tissue under the skin on your arms (rheumatoid nodules)&lt;/li&gt;
+	&lt;li&gt;Fatigue, fever and weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Early rheumatoid arthritis tends to affect your smaller joints first &amp;mdash; particularly the joints that attach your fingers to your hands and your toes to your feet. As the disease progresses, symptoms often spread to the knees, ankles, elbows, hips and shoulders. In most cases, symptoms occur in the same joints on both sides of your body.
+&lt;/p&gt;
+&lt;p&gt;
+Rheumatoid arthritis signs and symptoms may vary in severity and may even come and go. Periods of increased disease activity, called flares, alternate with periods of relative remission &amp;mdash; when the swelling and pain fade or disappear. Over time, rheumatoid arthritis can cause joints to deform and shift out of place.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you have persistent discomfort and swelling in your joints. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatoid arthritis occurs when your immune system attacks the synovium &amp;mdash; the lining of the membranes that surround your joints. The resulting inflammation thickens the synovium, which can eventually invade and destroy the cartilage and bone within the joint. The tendons and ligaments that hold the joint together weaken and stretch. Gradually, the joint loses its shape and alignment.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors don&apos;t know what starts this process, although a genetic component appears likely. While your genes don&apos;t actually cause rheumatoid arthritis, they can make you more susceptible to environmental factors &amp;mdash; such as infection with certain viruses and bacteria &amp;mdash; that may trigger the disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing difference between osteoarthritis and rheumatoid arthritis. 
+" Caption="The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid arthritis is an autoimmune disorder that causes inflammation of the synovial membrane and may result in bone loss. 
+" Height="60" Title="Osteoarthritis vs. rheumatoid arthritis" URI="/images/image_popup/thumbs/mcdc7_arthritis_typesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing difference between osteoarthritis and rheumatoid arthritis. 
+" Caption="The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid arthritis is an autoimmune disorder that causes inflammation of the synovial membrane and may result in bone loss. 
+" Height="575" Title="Osteoarthritis vs. rheumatoid arthritis" URI="/images/image_popup/mcdc7_arthritis_types.jpg" Width="400" />
+				<HTML>
+					The two most common types of arthritis affect joints in very different ways. In osteoarthritis, the cartilage on the ends of the bones wears away &amp;mdash; allowing bone to grate on bone. Rheumatoid ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of rheumatoid arthritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Women are more likely to develop rheumatoid arthritis than men are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Rheumatoid arthritis can occur at any age, but it most commonly begins between the ages of 40 and 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; If a member of your family has rheumatoid arthritis, you may have an increased risk of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Smoking cigarettes increases the risk of rheumatoid arthritis in some people. Quitting can reduce your risk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatoid arthritis increases your risk of developing:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; Rheumatoid arthritis itself, along with some medications used for rheumatoid arthritis, can increase your risk of osteoporosis &amp;mdash; a condition that weakens your bones and makes them more prone to fracture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carpal tunnel syndrome.&lt;/strong&gt; If rheumatoid arthritis affects your wrists, the inflammation can compress the nerve that serves most of your hand and fingers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Rheumatoid arthritis can increase your risk of hardened and blocked arteries, as well as inflammation of the sac that encloses your heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung disease.&lt;/strong&gt; People with rheumatoid arthritis have an increased risk of inflammation and scarring of the lung tissues, which can lead to progressive shortness of breath.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you might first discuss your symptoms with your family doctor, he or she may refer you to a rheumatologist &amp;mdash; a doctor who specializes in the treatment of arthritis and other inflammatory conditions &amp;mdash; for further evaluation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Write a list that includes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had in the past&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Which joints are affected?&lt;/li&gt;
+	&lt;li&gt;Does any activity make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms interfering with daily tasks?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rheumatoid arthritis can be difficult to diagnose in its early stages because the early signs and symptoms mimic those of many other diseases. There is no one test or physical finding to confirm the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+During the physical exam, your doctor will check your joints for swelling, redness and warmth. He or she will also check your reflexes and muscle strength.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;br /&gt;
+&lt;/strong&gt;People with rheumatoid arthritis tend to have an elevated erythrocyte sedimentation rate (ESR, or sed rate), which indicates the presence of an inflammatory process in the body. Other common blood tests look for rheumatoid factor and anti-cyclic citrullinated peptide (anti-CCP) antibodies.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;X-rays&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend X-rays to help track the progression of rheumatoid arthritis in your joints over time.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no cure for rheumatoid arthritis. Medications can reduce inflammation in your joints in order to relieve pain and prevent or slow joint damage. Occupational and physical therapy can teach you how to protect your joints. If your joints are severely damaged by rheumatoid arthritis, surgery may be necessary.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;em&gt;&lt;br /&gt;
+&lt;/em&gt;&lt;/strong&gt;Many drugs used to treat rheumatoid arthritis have potentially serious side effects. Doctors typically prescribe medications with the fewest side effects first. You may need stronger drugs or a combination of drugs as your disease progresses. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;NSAIDs.&lt;/strong&gt; Nonsteroidal anti-inflammatory drugs (NSAIDs) can relieve pain and reduce inflammation. Over-the-counter NSAIDs include ibuprofen (Advil, Motrin, others) and naproxen (Aleve). Stronger NSAIDs are available by prescription. Side effects may include ringing in your ears, stomach irritation, heart problems and liver and kidney damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Steroids.&lt;/strong&gt; Corticosteroid medications, such as prednisone, reduce inflammation and pain and slow joint damage. Side effects may include thinning of bones, cataracts, weight gain and diabetes. Doctors often prescribe a corticosteroid to relieve acute symptoms, with the goal of gradually tapering off the medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disease-modifying antirheumatic drugs (DMARDs).&lt;/strong&gt; These drugs can slow the progression of rheumatoid arthritis and save the joints and other tissues from permanent damage. Common DMARDs include methotrexate (Trexall), leflunomide (Arava), hydroxychloroquine (Plaquenil), sulfasalazine (Azulfidine) and minocycline (Dynacin, Minocin, others). Side effects vary but may include liver damage, bone marrow suppression and severe lung infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressants.&lt;/strong&gt; These medications act to tame your immune system, which is out of control in rheumatoid arthritis. Examples include azathioprine (Imuran, Azasan), cyclosporine (Neoral, Sandimmune, Gengraf) and cyclophosphamide (Cytoxan). These medications can increase your susceptibility to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;TNF-alpha inhibitors.&lt;/strong&gt; Tumor necrosis factor-alpha (TNF-alpha) is an inflammatory substance produced by your body. TNF-alpha inhibitors can help reduce pain, morning stiffness, and tender or swollen joints. Examples include etanercept (Enbrel), infliximab (Remicade), adalimumab (Humira), golimumab (Simponi) and certolizumab (Cimzia). Potential side effects include increased risk of serious infections, congestive heart failure and certain cancers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other drugs.&lt;/strong&gt; Several other rheumatoid arthritis drugs target a variety of processes involved with inflammation in your body. These drugs include anakinra (Kineret), abatacept (Orencia), rituximab (Rituxan) and tocilizumab (Actemra). Side effects vary but may include itching, severe abdominal pain, headache, runny nose or sore throat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Your doctor may send you to a therapist who can teach you exercises to help keep your joints flexible. The therapist may also suggest new ways to do daily tasks, which will be easier on your joints. For example, if your fingers are sore, you may want to pick up an object using your forearms.
+&lt;/p&gt;
+&lt;p&gt;
+Assistive devices can make it easier to avoid stressing your painful joints. For instance, using specially designed gripping and grabbing tools may make it easier to work in the kitchen if you have pain in your fingers. Try a cane to help you get around. Catalogs and medical supply stores also may be places to look for ideas.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If medications fail to prevent or slow joint damage, you and your doctor may consider surgery to repair damaged joints. Surgery may help restore your ability to use your joint. It can also reduce pain and correct deformities. Rheumatoid arthritis surgery may involve one or more of the following procedures:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Total joint replacement.&lt;/strong&gt; During joint replacement surgery, your surgeon removes the damaged parts of your joint and inserts a prosthesis made of metal and plastic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tendon repair.&lt;/strong&gt; Inflammation and joint damage may cause tendons around your joint to loosen or rupture. Your surgeon may be able to repair the tendons around your joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint fusion.&lt;/strong&gt; Surgically fusing a joint may be recommended to stabilize or realign a joint and for pain relief when a joint replacement isn&apos;t an option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery carries a risk of bleeding, infection and pain. Discuss the benefits and risks with your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing assistive devices for gripping 
+" Caption="Assistive devices, such as jar openers, can take stress off your joints and make it easier to go about daily tasks. 
+" Height="60" Title="Assistive devices for gripping" URI="/images/image_popup/thumbs/ra7_jarthu.jpg" Width="60" />
+				<Image Alt="Photograph showing assistive devices for gripping 
+" Caption="Assistive devices, such as jar openers, can take stress off your joints and make it easier to go about daily tasks. 
+" Height="295" Title="Assistive devices for gripping" URI="/images/image_popup/ra7_jar.jpg" Width="400" />
+				<HTML>
+					Assistive devices, such as jar openers, can take stress off your joints and make it easier to go about daily tasks. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing an assistive device for grabbing that may be useful 
+" Caption="Assistive devices, such as a reaching tool, may take stress and strain off your joints. 
+" Height="60" Title="Assistive device for grabbing" URI="/images/image_popup/thumbs/ra7_grabthu.jpg" Width="60" />
+				<Image Alt="Photograph showing an assistive device for grabbing that may be useful 
+" Caption="Assistive devices, such as a reaching tool, may take stress and strain off your joints. 
+" Height="400" Title="Assistive device for grabbing" URI="/images/image_popup/ra7_grab.jpg" Width="400" />
+				<HTML>
+					Assistive devices, such as a reaching tool, may take stress and strain off your joints. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing rheumatoid arthritis of the knuckles in one hand and another hand that has undergone knuckle replacement surgery 
+" Caption="Rheumatoid arthritis often affects the joints in the fingers, as shown in the hand on the left side of the image. Years of joint damage can leave hands deformed and unusable. The hand on the right side of the image has undergone knuckle replacement surgery. Surgery can dramatically improve the appearance and function of the hand and fingers. However, surgery carries risks, and knuckle replacement surgery may make it impossible to close your hand, such as to make a fist. 
+" Height="60" Title="Knuckle replacement" URI="/images/image_popup/thumbs/arth7_knucklerathu.jpg" Width="60" />
+				<Image Alt="Photograph showing rheumatoid arthritis of the knuckles in one hand and another hand that has undergone knuckle replacement surgery 
+" Caption="Rheumatoid arthritis often affects the joints in the fingers, as shown in the hand on the left side of the image. Years of joint damage can leave hands deformed and unusable. The hand on the right side of the image has undergone knuckle replacement surgery. Surgery can dramatically improve the appearance and function of the hand and fingers. However, surgery carries risks, and knuckle replacement surgery may make it impossible to close your hand, such as to make a fist. 
+" Height="300" Title="Knuckle replacement" URI="/images/image_popup/arth7_knucklera.jpg" Width="400" />
+				<HTML>
+					Rheumatoid arthritis often affects the joints in the fingers, as shown in the hand on the left side of the image. Years of joint damage can leave hands deformed and unusable. The hand on the right ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps to care for your body if you have rheumatoid arthritis. These self-care measures, when used along with your rheumatoid arthritis medications, can help you manage your signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Gentle exercise can help strengthen the muscles around your joints, and it can help fight fatigue you might feel. Check with your doctor before you start exercising. If you&apos;re just getting started, begin by taking a walk. Try swimming or gentle water aerobics. Avoid exercising tender, injured or severely inflamed joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply heat or cold.&lt;/strong&gt; Heat can help ease your pain and relax tense, painful muscles. Cold may dull the sensation of pain. Cold also has a numbing effect and decreases muscle spasms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relax.&lt;/strong&gt; Find ways to cope with pain by reducing stress in your life. Techniques such as hypnosis, guided imagery, deep breathing and muscle relaxation can all be used to control pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some common complementary and alternative treatments that have shown promise for rheumatoid arthritis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plant oils.&lt;/strong&gt; The seeds of evening primrose, borage and black currant contain a type of fatty acid that may help with rheumatoid arthritis pain and morning stiffness. Side effects may include nausea, diarrhea and gas. Some plant oils can cause liver damage or interfere with medications, so check with your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fish oil.&lt;/strong&gt; Some preliminary studies have found that fish oil supplements may reduce rheumatoid arthritis pain and stiffness. Side effects can include nausea, belching and a fishy taste in the mouth. Fish oil can interfere with medications, so check with your doctor first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tai chi.&lt;/strong&gt; This movement therapy involves gentle exercises and stretches combined with deep breathing. Many people use tai chi to relieve stress in their lives. Small studies have found that tai chi may reduce rheumatoid arthritis pain. When led by a knowledgeable instructor, tai chi is safe. But don&apos;t do any moves that cause pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The degree to which rheumatoid arthritis affects your daily activities depends in part on how well you cope with the disease. Talk to your doctor or nurse about strategies for coping. With time you&apos;ll find what strategies work best for you. In the meantime, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take control.&lt;/strong&gt; With your doctor, make a plan for managing your arthritis. This will help you feel in charge of your disease. Studies show that people who take control of their treatment and actively manage their arthritis experience less pain and make fewer visits to the doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know your limits.&lt;/strong&gt; Rest when you&apos;re tired. Rheumatoid arthritis can make you prone to fatigue and muscle weakness. A rest or short nap that doesn&apos;t interfere with nighttime sleep may help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with others.&lt;/strong&gt; Keep your family aware of how you&apos;re feeling. They may be worried about you but might not feel comfortable asking about your pain. Find a family member or friend you can talk to when you&apos;re feeling especially overwhelmed. Also connect with other people who have rheumatoid arthritis &amp;mdash; whether through a support group in your community or online.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; It&apos;s easy to get busy and not take time for yourself. Find time for what you like, whether it&apos;s time to write in a journal, go for a walk or listen to music. Use this time to relieve stress and reflect on your feelings.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Rheumatoid arthritis
+	</Title>
+	<Abstract>
+		Rheumatoid arthritis &amp;mdash; Comprehensive overview covers signs, symptoms and treatment of this inflammatory arthritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="AR00030" LinkType="Internal" ObjectID="D1D4A737-62B3-4E7F-84CAE1AD9FD4EA1F" Title="Slide show: Hand exercises for people with arthritis" Url="http://www.mayoclinic.com/health/arthritis/AR00030" />
+		<LinkItem ContentType="Answer" DocID="AN01520" LinkType="Internal" ObjectID="CED45E72-E7FF-0DBD-1E04A939982EBF1F" Title="Botox injections: Can they relieve arthritis pain?" Url="http://www.mayoclinic.com/health/botox-injections/AN01520" />
+		<LinkItem ContentType="Answer" DocID="AN00560" LinkType="Internal" ObjectID="C2BFC2FA-4AF6-426F-AD78C67CF11D02D6" Title="MSM for arthritis pain: Is it safe?" Url="http://www.mayoclinic.com/health/msm/AN00560" />
+		<LinkItem ContentType="Answer" DocID="AN01830" LinkType="Internal" ObjectID="BDEB97A3-E7FF-0DBD-120CA74B1165F79B" Title="Water exercise: Does pool temperature matter?" Url="http://www.mayoclinic.com/health/water-exercise/AN01830" />
+		<LinkItem ContentType="Answer" DocID="AN01585" LinkType="Internal" ObjectID="BDB43F9B-E7FF-0DBD-1AA1144D6F65930B" Title="Arthritis pain medications: Do they raise blood pressure?" Url="http://www.mayoclinic.com/health/arthritis-pain-medications/AN01585" />
+		<LinkItem ContentType="Answer" DocID="AN01107" LinkType="Internal" ObjectID="6040C9B2-9775-4602-9C0B499B36B6AC47" Title="Yucca: Can it relieve arthritis pain?" Url="http://www.mayoclinic.com/health/arthritis/AN01107" />
+		<LinkItem ContentType="SlideShow" DocID="AR00027" LinkType="Internal" ObjectID="55609D76-3CDE-46D9-86B8AE68C63EE763" Title="Slide show: Joint protection for people with hand arthritis" Url="http://www.mayoclinic.com/health/joint-protection/AR00027" />
+		<LinkItem ContentType="Article" DocID="AR00009" LinkType="Internal" ObjectID="DC1428F9-E845-42FD-BED154040E37FACC" Title="Exercise helps ease arthritis pain and stiffness" Url="http://www.mayoclinic.com/health/arthritis/AR00009" />
+		<LinkItem ContentType="Article" DocID="AR00029" LinkType="Internal" ObjectID="89A0E006-944C-4663-8C310E426EA052EF" Title="Arthritis pain: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/arthritis/AR00029" />
+		<LinkItem ContentType="SlideShow" DocID="HA00064" LinkType="Internal" ObjectID="E336EE7F-CF45-41B8-925D1C208C88DBF5" Title="Slide show: Tips for choosing and using canes" Url="http://www.mayoclinic.com/health/canes/HA00064" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00091" LinkType="Internal" ObjectID="B5C83436-E7FF-0DBD-15E514D08949DD27" Title="Knee replacement" Url="http://www.mayoclinic.com/health/knee-replacement/MY00091" />
+		<LinkItem ContentType="Answer" DocID="AN02031" LinkType="Internal" ObjectID="9FFC80BA-FA7A-A754-93EDAC67D262B991" Title="Isometric exercises: Good for strength training?" Url="http://www.mayoclinic.com/health/isometric-exercises/AN02031" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Answer" DocID="AN01550" LinkType="Internal" ObjectID="5AC3F0F4-E7FF-0DBD-13037F09246895B5" Title="Hip resurfacing: An alternative to conventional hip replacement?" Url="http://www.mayoclinic.com/health/hip-resurfacing/AN01550" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00241" LinkType="Internal" ObjectID="0FE6B583-E7FF-0DBD-1D56AFCEBFEF2184" Title="Rheumatoid factor" Url="http://www.mayoclinic.com/health/rheumatoid-factor/MY00241" />
+		<LinkItem ContentType="Answer" DocID="AN02154" LinkType="Internal" ObjectID="0DB75F75-EC64-9E6B-D5831E36A41606E6" Title="Do infrared saunas have any health benefits?" Url="http://www.mayoclinic.com/health/infrared-sauna/AN02154" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00235" LinkType="Internal" ObjectID="05C3B4B8-E7FF-0DBD-1702D00A82E8F548" Title="Hip replacement" Url="http://www.mayoclinic.com/health/hip-replacement/MY00235" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00343" LinkType="Internal" ObjectID="024DEA4A-E7FF-0DBD-1C830476D58B8DFA" Title="Sed rate (erythrocyte sedimentation rate)" Url="http://www.mayoclinic.com/health/sed-rate/MY00343" />
+		<LinkItem ContentType="Disease" DocID="DS01122" LinkType="Internal" ObjectID="62AB3DE2-E7FF-0DBD-1A7467616FA82C1D" Title="Arthritis" Url="http://www.mayoclinic.com/health/arthritis/DS01122" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Answer" DocID="AN01972" LinkType="Internal" ObjectID="FB245463-EC31-A827-2386FFF380442C09" Title="Osteoporosis and long-term prednisone: What is the risk?" Url="http://www.mayoclinic.com/health/osteoporosis-prednisone/AN01972" />
+		<LinkItem ContentType="Answer" DocID="AN01197" LinkType="Internal" ObjectID="BB964312-4466-439F-B6BF8ED1A4A713CC" Title="Mangosteen juice: Can it relieve arthritis pain?" Url="http://www.mayoclinic.com/health/mangosteen/AN01197" />
+		<LinkItem ContentType="Answer" DocID="AN00345" LinkType="Internal" ObjectID="458CEF41-C2AD-4A8A-80C97E54097F2838" Title="Rheumatoid arthritis: Can it affect the lungs?" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/AN00345" />
+		<LinkItem ContentType="Answer" DocID="AN00198" LinkType="Internal" ObjectID="384C0BBB-6F86-448A-A4FC84750AC30C0A" Title="Rheumatoid arthritis diet: Do certain foods reduce symptoms?" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/AN00198" />
+		<LinkItem ContentType="Answer" DocID="AN01485" LinkType="Internal" ObjectID="307A53B0-E7FF-0DBD-1FE8A9D03F3C395B" Title="Rheumatoid arthritis: Can it affect the eyes?" Url="http://www.mayoclinic.com/health/rheumatoid-arthritis/AN01485" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Article" DocID="AR00015" LinkType="Internal" ObjectID="DB87B489-AD43-45C9-A525FB2EA58168FC" Title="Rheumatoid arthritis pain: Tips for protecting your joints" Url="http://www.mayoclinic.com/health/arthritis/AR00015" />
+	</RelatedLinksBox>
+</Disease>

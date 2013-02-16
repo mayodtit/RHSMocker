@@ -1,0 +1,335 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00991
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fibrous-dysplasia/DS00991
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="1734" Title="Fibrous dysplasia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen">
+						<Keyword MCVID="3535" Title="06 to 10 years elementary" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen">
+						<Keyword MCVID="3536" Title="11 to 12 years preteen" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3478CF2A-E7FF-0DBD-1C0BB90FB33A7C20
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fibrous dysplasia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fibrous dysplasia is a bone disorder in which scar-like (fibrous) tissue develops in place of normal bone. As the bone grows, the softer, fibrous tissue expands, weakening the bone. Fibrous dysplasia can cause the affected bone to deform and become susceptible to fracture.
+&lt;/p&gt;
+&lt;p&gt;
+Most people with fibrous dysplasia are diagnosed during adolescence or early adulthood. Mild cases usually cause no signs or symptoms. More-serious cases of fibrous dysplasia may result in bone pain and deformity. 
+&lt;/p&gt;
+&lt;p&gt;
+The basic cause of fibrous dysplasia is unknown. There&apos;s no cure for fibrous dysplasia. Treatment focuses on relieving signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fibrous dysplasia can affect any bone in your body. Most people with the disorder have only one affected bone &amp;mdash; a form called monostotic fibrous dysplasia &amp;mdash; and develop no signs or symptoms. When the condition affects more than one bone, it&apos;s known as polyostotic fibrous dysplasia. Bones most commonly affected are:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Thighbone (femur)&lt;/li&gt;
+	&lt;li&gt;Shinbone (tibia)&lt;/li&gt;
+	&lt;li&gt;Pelvic bones&lt;/li&gt;
+	&lt;li&gt;Ribs&lt;/li&gt;
+	&lt;li&gt;Skull&lt;/li&gt;
+	&lt;li&gt;Facial bones&lt;/li&gt;
+	&lt;li&gt;Upper arm bone (humerus)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Fibrous dysplasia may cause few or no signs and symptoms, particularly if the condition is mild. Signs and symptoms typically develop during the teens or 20s. If you have the polyostotic form, you&apos;re more likely to develop signs and symptoms, usually by age 10. More severe fibrous dysplasia may cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bone pain&lt;/li&gt;
+	&lt;li&gt;Difficulty walking&lt;/li&gt;
+	&lt;li&gt;Bone deformities&lt;/li&gt;
+	&lt;li&gt;Fractures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In rare cases, fibrous dysplasia may be associated with abnormalities in the hormone-producing glands of your endocrine system &amp;mdash; such as your pituitary gland &amp;mdash; that regulate various functions throughout your body. These abnormalities include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Very early puberty (precocious puberty).&lt;/strong&gt; Girls with McCune-Albright syndrome may experience menstrual bleeding and other signs of puberty before age 8. Boys with the condition may show signs of puberty at a younger age than normal, but early puberty in boys is less common than it is in girls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid gland problems.&lt;/strong&gt; This small gland in the neck, which affects metabolism, may be enlarged or have cysts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin discoloration.&lt;/strong&gt; Patches of darker skin, known as cafe au lait spots, appear light coffee colored on fairer children, but may be difficult to see on children with darker skin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you or your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Develops bone pain&lt;/li&gt;
+	&lt;li&gt;Has difficulty walking&lt;/li&gt;
+	&lt;li&gt;Fractures a bone, particularly more than once&lt;/li&gt;
+	&lt;li&gt;Develops a deformity in a limb or a difference between limb lengths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you or your child has been diagnosed with fibrous dysplasia, see your doctor if the pain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Worsens&lt;/li&gt;
+	&lt;li&gt;Increases with weight-bearing activity&lt;/li&gt;
+	&lt;li&gt;Wakes you up at night&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t go away with rest&lt;/li&gt;
+	&lt;li&gt;Causes you to limp&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing bones commonly affected by fibrous dysplasia 
+" Caption="Fibrous dysplasia most commonly affects your body&apos;s long bones &amp;mdash; such as the bones in your arms and legs &amp;mdash; and the ribs, pelvis, skull and facial bones. 
+" Height="60" Title="Bones commonly affected by fibrous dysplasia" URI="/images/image_popup/thumbs/mcdc7_fibrous_dysplasia_bones_thu.jpg" Width="60" />
+				<Image Alt="Illustration showing bones commonly affected by fibrous dysplasia 
+" Caption="Fibrous dysplasia most commonly affects your body&apos;s long bones &amp;mdash; such as the bones in your arms and legs &amp;mdash; and the ribs, pelvis, skull and facial bones. 
+" Height="596" Title="Bones commonly affected by fibrous dysplasia" URI="/images/image_popup/mcdc7_fibrous_dysplasia_bones.jpg" Width="400" />
+				<HTML>
+					Fibrous dysplasia most commonly affects your body&apos;s long bones &amp;mdash; such as the bones in your arms and legs &amp;mdash; and the ribs, pelvis, skull and facial bones. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You develop fibrous dysplasia before birth, and its development has been linked with a gene mutation that affects the cells that produce bone. No one knows what causes the mutation, but it isn&apos;t inherited from your parents, and you can&apos;t pass it on to your children.
+&lt;/p&gt;
+&lt;p&gt;
+Bones are living tissue, so even after you stop growing, your bones are in a continuous process of renewal known as remodeling. In the process, certain bone cells (osteoclasts) tear down (resorb) bone, while other cells (osteoblasts) rebuild bone. Fibrous dysplasia disrupts the process, causing old bone to break down faster and replacing normal bone tissue with softer, fibrous tissue.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Besides bone fractures, severe fibrous dysplasia can lead to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bone deformity.&lt;/strong&gt; The weakened area of an affected bone can cause the bone to bend (bow). If your spine is affected, you can develop scoliosis, an abnormal curving of the spine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision and hearing loss.&lt;/strong&gt; The nerves to your eyes and ears may be surrounded by affected bone. Severe deformity of facial bones can lead to loss of vision and hearing, but it&apos;s a rare complication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; If leg and pelvic bones are deformed, arthritis may form in the joints of those bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Rarely, an affected area of bone can become cancerous. This rare complication usually only affects people who have had prior radiation therapy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with fibrous dysplasia don&apos;t have any symptoms and are diagnosed when an X-ray taken for another reason reveals signs of fibrous dysplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+However, in some cases you or your child may experience pain and other symptoms that lead you to schedule an appointment with your family doctor or your child&apos;s pediatrician. In some cases, you may be referred to a doctor who specializes in treating bone and muscle injuries or disorders (orthopedic surgeon). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from the doctor. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms&lt;/strong&gt; you or your child is experiencing, including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other conditions you or your child is being treated for and the names of any medications you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Soaking up all the information provided to you in a doctor&apos;s appointment can sometimes be overwhelming. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions so that you can make the most of your limited time with your doctor. List your questions from most important to least important in case time runs out. For fibrous dysplasia, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing the symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests might be necessary?&lt;/li&gt;
+	&lt;li&gt;Will this condition get worse over time?&lt;/li&gt;
+	&lt;li&gt;Does this condition need to be treated?&lt;/li&gt;
+	&lt;li&gt;Do you recommend follow-up testing to monitor the condition? How often?&lt;/li&gt;
+	&lt;li&gt;Will medication be necessary? How long will I or my child have to take it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Do I or my child have to worry about passing this condition on to offspring?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, ask questions anytime during your appointment that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you or your child first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are the symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you or your child taking any over-the-counter medications for pain?&lt;/li&gt;
+	&lt;li&gt;Does pain wake you or your child up at night?&lt;/li&gt;
+	&lt;li&gt;Is the pain or deformity getting better, staying the same or getting worse?&lt;/li&gt;
+	&lt;li&gt;Is there any activity that you or your child is unable to do because of fibrous dysplasia?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If you experience pain during weight-bearing activities, take steps to prevent injury while you wait for your appointment with your doctor. Support your weight with a cane, crutches or walker. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have monostotic fibrous dysplasia, you may not know it until it&apos;s discovered incidentally on an X-ray for another condition. If you have signs and symptoms, your doctor will perform a physical examination and order X-rays of the affected bones. On X-ray, fibrous dysplasia appears as an abnormal section of bone (lesion) that has the hazy appearance of ground glass. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your doctor may order more tests to confirm the diagnosis or to determine the extent of the disorder. They include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Computerized tomography (CT) or magnetic resonance imaging (MRI) scans may be used to determine how extensively your bones are affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone scan.&lt;/strong&gt; This test uses radioactive tracers, which are injected into your body. Your bones take up the tracers and emit radiation that&apos;s captured by a special camera, which produces a picture of your skeleton. Your doctor may order a bone scan to determine whether your fibrous dysplasia is monostotic or polyostotic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone biopsy.&lt;/strong&gt; This test uses a hollow needle to remove a small piece of the affected bone for laboratory analysis. You&apos;ll receive local anesthetics to numb the area where the needle is inserted. In rare instances, an open biopsy &amp;mdash; requiring general anesthesia and a surgical incision &amp;mdash; may be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have mild fibrous dysplasia that&apos;s discovered incidentally and you have no signs or symptoms, your risk of developing deformity or fracturing your bone is low. Your doctor can monitor your condition with follow-up X-rays every six months. If there&apos;s no progression, you don&apos;t need treatment.
+&lt;/p&gt;
+&lt;p&gt;
+If you develop signs and symptoms, treatment may include medications or surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications called bisphosphonates, including pamidronate (Aredia) and alendronate (Fosamax), are used to inhibit bone breakdown, preserve bone mass and even increase bone density in your spine and hip, reducing the risk of fractures. Doctors use these medications primarily for adults to treat osteoporosis and increase bone density, but bisphosphonates may also reduce bone pain associated with fibrous dysplasia and, in some cases, improve bone formation.
+&lt;/p&gt;
+&lt;p&gt;
+Little is known about the use of bisphosphonates for children and adolescents, but some studies indicate they may help relieve pain in children and adolescents with severe fibrous dysplasia. 
+&lt;/p&gt;
+&lt;p&gt;
+Oral bisphosphonates are generally well tolerated, but may irritate your gastrointestinal tract. If you can&apos;t tolerate oral bisphosphonates or if your doctor recommends a drug that&apos;s not available in oral form, you may receive bisphosphonates through a vein (intravenously). You can&apos;t take bisphosphonates if you have serious kidney disease or low blood-calcium levels. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend surgery in order to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Correct a deformity&lt;/li&gt;
+	&lt;li&gt;Correct a difference in limb lengths&lt;/li&gt;
+	&lt;li&gt;Fix a fracture&lt;/li&gt;
+	&lt;li&gt;Remove an affected area of bone (lesion) that&apos;s causing you difficulty&lt;/li&gt;
+	&lt;li&gt;Relieve pressure on a nerve, particularly if the lesion is in your skull or face&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery may involve removing the bone lesion and replacing it with bone grafted from another part of your body or from bone tissue donated from a deceased donor. Your surgeon may insert metal plates, rods or screws to stabilize the bone and the graft. Risks include infection, blood clots and bleeding. In addition, a bone graft may not last. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a condition such as fibrous dysplasia or having a child with the condition can be stressful. It may be helpful for you to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn all you can about the condition.&lt;/strong&gt; Knowing what you might expect in terms of signs and symptoms and what you can do about them may help ease your mind.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Talking to people with similar concerns &amp;mdash; either online or face to face &amp;mdash; can help you find solutions to challenges and help you feel that you&apos;re not alone. Talk to your doctor to find groups in your area.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fibrous dysplasia
+	</Title>
+	<Abstract>
+		Fibrous dysplasia &amp;mdash; Comprehensive overview covers causes and treatments of this bone disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00227" LinkType="Internal" ObjectID="FB8BDFB1-E7FF-0DBD-1FA7BE13690B347E" Title="MRI" Url="http://www.mayoclinic.com/health/mri/MY00227" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00306" LinkType="Internal" ObjectID="9AE16992-E7FF-0DBD-188029DE09392BC4" Title="Bone scan" Url="http://www.mayoclinic.com/health/bone-scan/MY00306" />
+		<LinkItem ContentType="Article" DocID="WO00127" LinkType="Internal" ObjectID="A0475D5C-E7FF-0DBD-13F4AB3B5588ED1B" Title="Osteoporosis treatment: Medications can help" Url="http://www.mayoclinic.com/health/osteoporosis-treatment/WO00127" />
+		<LinkItem ContentType="Disease" DocID="DS01122" LinkType="Internal" ObjectID="62AB3DE2-E7FF-0DBD-1A7467616FA82C1D" Title="Arthritis" Url="http://www.mayoclinic.com/health/arthritis/DS01122" />
+		<LinkItem ContentType="Disease" DocID="DS00172" LinkType="Internal" ObjectID="41D92C59-66DB-4689-A6DA5F2A84B9E226" Title="Hearing loss" Url="http://www.mayoclinic.com/health/hearing-loss/DS00172" />
+	</RelatedLinksBox>
+</Disease>

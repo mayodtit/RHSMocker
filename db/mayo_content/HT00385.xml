@@ -1,0 +1,79 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00385
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00385
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3036" Title="Skin cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AD3D768-E7FF-0DBD-15922916CAB55A0F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tanning
+			</MetaKeyword>
+			<MetaKeyword>
+				sunless tanning
+			</MetaKeyword>
+			<MetaKeyword>
+				self tanning
+			</MetaKeyword>
+			<MetaKeyword>
+				tanning product
+			</MetaKeyword>
+			<MetaKeyword>
+				self tanning lotion
+			</MetaKeyword>
+			<MetaKeyword>
+				indoor tanning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Spray tanning? Hold your breath
+	</Title>
+	<Body>
+		&lt;p&gt;The chemicals used for spray tanning at the salon or spa are generally considered safe for skin. What isn&apos;t known are the possible risks of inhaling these chemicals or getting them in your eyes. Keep your spray-tanning experience safe by holding your breath and closing your eyes. Goggles and nose plugs may offer more protection.&lt;/p&gt;
+	</Body>
+</HealthTip>

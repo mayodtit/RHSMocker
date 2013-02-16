@@ -1,0 +1,293 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00932
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/torn-meniscus/DS00932
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2277" Title="Knee">
+						<Keyword MCVID="2623" Title="Torn meniscus" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4F8DFC88-E7FF-0DBD-1BB850AC84EFE1B6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				torn meniscus
+			</MetaKeyword>
+			<MetaKeyword>
+				meniscus tear
+			</MetaKeyword>
+			<MetaKeyword>
+				meniscal tear
+			</MetaKeyword>
+			<MetaKeyword>
+				maniscus
+			</MetaKeyword>
+			<MetaKeyword>
+				meniscus
+			</MetaKeyword>
+			<MetaKeyword>
+				knee injury
+			</MetaKeyword>
+			<MetaKeyword>
+				knee pain
+			</MetaKeyword>
+			<MetaKeyword>
+				knee injuries
+			</MetaKeyword>
+			<MetaKeyword>
+				knee problems
+			</MetaKeyword>
+			<MetaKeyword>
+				knee swelling
+			</MetaKeyword>
+			<MetaKeyword>
+				knee cartilage
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen knee
+			</MetaKeyword>
+			<MetaKeyword>
+				knee conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				knee arthroscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				knee disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				torncartilage
+			</MetaKeyword>
+			<MetaKeyword>
+				cartilage tear
+			</MetaKeyword>
+			<MetaKeyword>
+				torn miniscus
+			</MetaKeyword>
+			<MetaKeyword>
+				meniscus injury
+			</MetaKeyword>
+			<MetaKeyword>
+				menisci
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A torn meniscus is one of the most common knee injuries. Any activity that causes you to forcefully twist or rotate your knee, especially when putting the pressure of your full weight on it, can lead to a torn meniscus.
+&lt;/p&gt;
+&lt;p&gt;
+Each of your knees has two menisci &amp;mdash; C-shaped pieces of cartilage that act like a cushion between your shinbone and your thighbone. A torn meniscus causes pain, swelling and stiffness. Your knee might feel unstable, as if it&apos;s going to collapse.
+&lt;/p&gt;
+&lt;p&gt;
+Conservative treatment &amp;mdash; such as rest, ice and medication &amp;mdash; is sometimes enough to relieve the pain of a torn meniscus and give the injury time to heal on its own. In other cases, however, a torn meniscus requires surgical repair.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of meniscus tear 
+" Caption="The medial and lateral menisci function as shock-absorbing cartilage in your knee joint. A tear to the meniscal cartilage can cause water on the knee. 
+" Height="60" Title="Meniscus tear" URI="/images/image_popup/thumbs/ans7_meniscustearthu.jpg" Width="60" />
+				<Image Alt="Illustration of meniscus tear 
+" Caption="The medial and lateral menisci function as shock-absorbing cartilage in your knee joint. A tear to the meniscal cartilage can cause water on the knee. 
+" Height="295" Title="Meniscus tear" URI="/images/image_popup/ans7_meniscustear.jpg" Width="400" />
+				<HTML>
+					The medial and lateral menisci function as shock-absorbing cartilage in your knee joint. A tear to the meniscal cartilage can cause water on the knee. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve torn your meniscus, you may experience the following signs and symptoms in your knee: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A popping sensation&lt;/li&gt;
+	&lt;li&gt;Swelling or stiffness&lt;/li&gt;
+	&lt;li&gt;Pain, especially when twisting or rotating your knee&lt;/li&gt;
+	&lt;li&gt;Difficulty straightening your knee fully or experiencing what feels like a block to movement of your knee, as if your knee were locked in place&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Contact your doctor if your knee is painful or swollen, or you can&apos;t move your knee like usual. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A torn meniscus can result from any activity that causes you to forcefully twist or rotate your knee, such as aggressive pivoting or sudden stops and turns. Even kneeling, deep squatting or lifting something heavy can sometimes lead to a torn meniscus. In older adults, degenerative changes of the knee may contribute to a torn meniscus.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of meniscus tear 
+" Caption="The medial and lateral menisci function as shock-absorbing cartilage in your knee joint. A tear to the meniscal cartilage can cause water on the knee. 
+" Height="60" Title="Meniscus tear" URI="/images/image_popup/thumbs/ans7_meniscustearthu.jpg" Width="60" />
+				<Image Alt="Illustration of meniscus tear 
+" Caption="The medial and lateral menisci function as shock-absorbing cartilage in your knee joint. A tear to the meniscal cartilage can cause water on the knee. 
+" Height="295" Title="Meniscus tear" URI="/images/image_popup/ans7_meniscustear.jpg" Width="400" />
+				<HTML>
+					The medial and lateral menisci function as shock-absorbing cartilage in your knee joint. A tear to the meniscal cartilage can cause water on the knee. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anyone performing activities involving aggressive twisting and pivoting of the knee is at risk of a torn meniscus. The risk is particularly high for athletes &amp;mdash; especially those who participate in contact sports, such as football, or activities that involve pivoting, such as tennis or basketball. The risk of a torn meniscus also increases as you get older, due to years of wear and tear on your knees. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A torn meniscus can lead to knee instability, the inability to move your knee normally, or persistent knee pain. You also may be more likely to develop osteoarthritis in the injured knee. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, a torn meniscus can be identified during a physical exam. Your doctor may manipulate your knee and leg bones into different positions to help pinpoint the cause of your signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Because a torn meniscus is made of cartilage, it won&apos;t show up on X-rays. But X-rays can help rule out other problems with the knee that may have similar symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; Ultrasound can allow the doctor to examine the inside of your knee in motion. This can help determine if you have a loose flap of cartilage getting caught between the moving parts in your knee.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI uses radio waves and a strong magnetic field to produce cross-sectional images of internal structures. It can create detailed images of both hard and soft tissues within your knee.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Arthroscopy&lt;br /&gt;
+&lt;/strong&gt;In some cases, your doctor may use an instrument known as an arthroscope to study the inside of your knee. The arthroscope is inserted through a tiny incision near your knee. The device contains a light and a small camera, which projects an enlarged image of the inside of your knee onto a monitor. If necessary, surgical instruments can be inserted through the arthroscope or through additional small incisions in your knee.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Initial treatment&lt;br /&gt;
+&lt;/strong&gt;Treatment for a torn meniscus often begins conservatively. Your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Avoid activities that aggravate your knee pain, especially any activity that might cause you to twist your knee. You might want to use crutches to take pressure off your knee and promote healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; Ice can reduce knee pain and swelling. Use a cold pack, a bag of frozen vegetables or a towel filled with ice cubes for about 15 minutes at a time. Do this every four to six hours the first day or two, and then as often as needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication.&lt;/strong&gt; Over-the-counter pain relievers also can help ease knee pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Physical therapy can help you strengthen the muscles around your knee and in your legs to help stabilize and support the knee joint. Arch supports or other shoe inserts can help to distribute force more evenly around your knee or decrease stress on certain areas of your knee. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your knee remains painful, stiff or locked, your doctor may recommend surgery. It&apos;s sometimes possible to repair a torn meniscus. In other cases, the meniscus is trimmed. Surgery may be done through an arthroscope.
+&lt;/p&gt;
+&lt;p&gt;
+During arthroscopic surgery, your doctor inserts an instrument called an arthroscope through a tiny incision near your knee. The arthroscope contains a light and a small camera, which projects an enlarged image of the inside of your knee onto a monitor. Surgical instruments can be inserted through the arthroscope or through additional small incisions in your knee.
+&lt;/p&gt;
+&lt;p&gt;
+Recovery time following arthroscopic surgery tends to be much faster than it is for open-knee procedures. You can often go home the same day. Full recovery may take weeks or months, however, and you will need to do exercises to optimize knee strength and stability.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Avoid activities that aggravate your knee pain &amp;mdash; especially sports that involve pivoting or twisting your knee &amp;mdash; until the pain disappears. Ice and over-the-counter pain relievers can help, too.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exercises to strengthen your leg muscles can help stabilize and protect your knee joints. Start slowly, and increase your intensity gradually. If you participate in recreational sports, use proper form and protective gear.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Torn meniscus
+	</Title>
+	<Abstract>
+		Torn meniscus &amp;mdash; Comprehensive overview covers causes, symptoms and treatment of this common knee injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00130" LinkType="Internal" ObjectID="CAC71B81-E7FF-0DBD-1777D6F6B79B2937" Title="Arthroscopy" Url="http://www.mayoclinic.com/health/arthroscopy/MY00130" />
+		<LinkItem ContentType="Video" DocID="MM00006" LinkType="Internal" ObjectID="76FAF193-F222-4AA8-AE8D3349DCEEBE2E" Title="Video: Arthroscopic knee surgery" Url="http://www.mayoclinic.com/health/arthroscopic-knee-surgery/MM00006" />
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+	</RelatedLinksBox>
+</Disease>

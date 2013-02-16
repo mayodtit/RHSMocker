@@ -1,0 +1,370 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00090
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pap-smear/MY00090
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-31
+		</UpdateDate>
+		<PublicationDate>
+			1999-04-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3068" Title="Pap smear" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3369" Title="Risk level">
+						<Keyword MCVID="3378" Title="Normal risk" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3363" Title="Guidance">
+					<Keyword MCVID="3369" Title="Risk level">
+						<Keyword MCVID="3379" Title="High risk" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3472" Title="Manage wellness clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger">
+						<Keyword MCVID="4646" Title="19 to 28 young adult" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cervical cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				Pap test
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal Pap test
+			</MetaKeyword>
+			<MetaKeyword>
+				Pap smear
+			</MetaKeyword>
+			<MetaKeyword>
+				abnormal Pap smear
+			</MetaKeyword>
+			<MetaKeyword>
+				Pap
+			</MetaKeyword>
+			<MetaKeyword>
+				gynecologic exams
+			</MetaKeyword>
+			<MetaKeyword>
+				ThinPrep
+			</MetaKeyword>
+			<MetaKeyword>
+				colposcopy
+			</MetaKeyword>
+			<MetaKeyword>
+				colopscopy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A Pap smear, also called a Pap test, is a procedure to test for cervical cancer in women. A Pap smear involves collecting cells from your cervix &amp;mdash; the lower, narrow end of your uterus that&apos;s at the top of your vagina. 
+&lt;/p&gt;
+&lt;p&gt;
+Detecting cervical cancer early with a Pap smear gives you a greater chance at a cure. A Pap smear can also detect changes in your cervical cells that suggest cancer may develop in the future. Detecting these abnormal cells early with a Pap smear is your first step in halting the possible development of cervical cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="60" Title="Pap test" URI="/images/image_popup/thumbs/mcdc7_paptestthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="463" Title="Pap test" URI="/images/image_popup/mcdc7_pap_test.jpg" Width="400" />
+				<HTML>
+					In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A Pap smear is used to screen for cervical cancer. The Pap smear is usually done in conjunction with a pelvic exam. In women older than age 30, the Pap smear may be combined with a test for human papillomavirus (HPV) &amp;mdash; a common sexually transmitted infection that can cause cervical cancer in some women. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Who should have a Pap smear?&lt;/strong&gt; &lt;br /&gt;
+You and your doctor can decide when it&apos;s time for you to begin Pap smear testing and how often you should have the test. In general, doctors recommend beginning Pap smear testing at age 21 and then every two or three years. After age 30, Pap smears are generally recommended every three years, or every five years when the Pap smear is combined with an HPV test. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have certain risk factors, your doctor may recommend more-frequent Pap smears, regardless of your age. These risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A diagnosis of cervical cancer or a Pap smear that showed precancerous cells&lt;/li&gt;
+	&lt;li&gt;Exposure to diethylstilbestrol (DES) before birth&lt;/li&gt;
+	&lt;li&gt;HIV infection&lt;/li&gt;
+	&lt;li&gt;Weakened immune system due to organ transplant, chemotherapy or chronic corticosteroid use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You and your doctor can discuss the benefits and risks of Pap smears and decide what&apos;s best for you based on your risk factors. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What do medical organizations recommend?&lt;/strong&gt; &lt;br /&gt;
+A number of organizations have recommendations regarding when and how frequently a woman should have Pap smears. These guidelines differ slightly because each organization takes different factors into consideration. The guidelines are recommendations for you and your doctor to consider and discuss. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, groups agree that you should have your first Pap smear at age 21: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The American Cancer Society (ACS) recommends having your first Pap smear at age 21.&lt;/li&gt;
+	&lt;li&gt;The American Congress of Obstetricians and Gynecologists (ACOG) recommends having your first Pap smear at age 21. &lt;/li&gt;
+	&lt;li&gt;The U.S. Preventive Services Task Force (USPSTF) recommends that women begin Pap smear testing at age 21. &lt;/li&gt;
+	&lt;li&gt;The Institute for Clinical Systems Improvement (ICSI) recommends that women begin Pap smear testing at age 21. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Groups&apos; guidelines differ for how often the tests should be done. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Age &lt;/th&gt;&lt;th&gt;ACS &lt;/th&gt;&lt;th&gt;ACOG&lt;/th&gt;&lt;th&gt;USPSTF&lt;/th&gt;&lt;th&gt;ICSI&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;21 - 29&lt;/strong&gt; &lt;/td&gt;
+			&lt;td&gt;Every 3 years&lt;/td&gt;
+			&lt;td&gt;Every&amp;nbsp;3 years&lt;/td&gt;
+			&lt;td&gt;Every 3 years&lt;/td&gt;
+			&lt;td&gt;Every 2 years&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;&lt;strong&gt;30 and older&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;Every 3 years, or every 5 years when Pap smear is combined with an HPV test &amp;mdash; women at high risk may need to be screened more often&lt;/td&gt;
+			&lt;td&gt;Every 3 years, or every 5 years when Pap smear is combined with an HPV test &amp;mdash; women at high risk may need to be screened more often&lt;/td&gt;
+			&lt;td&gt;Every 3 years, or every 5 years when Pap smear is combined with an HPV test &lt;/td&gt;
+			&lt;td&gt;Every 3 years if you&apos;ve had 3 negative tests in a row &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;Who can consider stopping Pap smears?&lt;/strong&gt; &lt;br /&gt;
+Discuss your screening options with your doctor. In certain situations a woman and her doctor may decide to end Pap testing, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;After total hysterectomy.&lt;/strong&gt; After a total hysterectomy &amp;mdash; surgical removal of the uterus including the cervix &amp;mdash; ask your doctor if you need to continue having Pap smears. If your hysterectomy was performed for a noncancerous condition, such as uterine fibroids, you may be able to discontinue routine Pap smears. But if your hysterectomy was for a precancerous or cancerous condition of the cervix, your doctor may recommend continuing routine Pap smears.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; Groups agree that older women may consider stopping routine Pap tests. ACS guidelines suggest a woman older than age 65 can stop having tests if she&apos;s had regular screenings with normal results. USPSTF guidelines recommend against Pap testing for women older than age 65 who have had routine Pap testing in the past and are not at high risk of cervical cancer. ICSI guidelines recommend women ages 65 to 70 may consider stopping Pap testing if their last three tests have been negative and they&apos;ve had no abnormal tests in 10 years. ACOG guidelines say that women older than age 65 can stop Pap tests if they&apos;ve had three consecutive negative Pap tests in the last 10 years, or two consecutive negative Pap tests combined with negative HPV tests in the last 10 years, with the most recent test performed within the past 5 years. Discuss your options with your doctor and together you can decide what&apos;s best for you based on your risk factors. If you are sexually active with multiple partners, your doctor may recommend continuing Pap smear testing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A Pap smear is a safe way to screen for cervical cancer. However, a Pap smear isn&apos;t foolproof. It&apos;s possible to receive false-negative results &amp;mdash; meaning that the test indicates no abnormality, even though you do have abnormal cells. 
+&lt;/p&gt;
+&lt;p&gt;
+A false-negative result doesn&apos;t mean that a mistake was made. Factors that can cause a false-negative result include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An inadequate collection of cells&lt;/li&gt;
+	&lt;li&gt;A small number of abnormal cells&lt;/li&gt;
+	&lt;li&gt;Blood or inflammatory cells obscuring the abnormal cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although it&apos;s possible for abnormal cells to go undetected, time is on your side. Cervical cancer takes several years to develop. And if one test doesn&apos;t detect the abnormal cells, the next test most likely will. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To ensure that your Pap smear is most effective, follow these tips prior to your test:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid intercourse, douching or using any vaginal medicines or spermicidal foams, creams or jellies for two days before having a Pap smear, as these may wash away or obscure abnormal cells.&lt;/li&gt;
+	&lt;li&gt;Try not to schedule a Pap smear during your menstrual period. Although the test can be done, it&apos;s best to avoid this time of your cycle, if possible.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the Pap smear&lt;/strong&gt; &lt;br /&gt;
+A Pap smear is performed in your doctor&apos;s office and takes only a few minutes. You may be asked to undress completely or only from the waist down. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll lie down on your back on an exam table with your knees bent. Your heels rest in supports called stirrups. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will gently insert an instrument called a speculum into your vagina. The speculum holds the walls of the vagina apart so that your doctor can easily see your cervix. Inserting the speculum may cause a sensation of pressure in your pelvic area. 
+&lt;/p&gt;
+&lt;p&gt;
+Then your doctor will take samples of your cervical cells using a soft brush or a flat scraping device called a spatula. This usually doesn&apos;t hurt. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the Pap smear&lt;/strong&gt; &lt;br /&gt;
+After your Pap smear, you can go about your day without restrictions. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the type of Pap test you&apos;re undergoing, your doctor transfers the cell sample collected from your cervix into a container holding a special liquid to preserve the sample (liquid-based Pap test) or onto a glass slide (conventional Pap test). 
+&lt;/p&gt;
+&lt;p&gt;
+The samples are transferred to a laboratory where they&apos;re examined under a microscope to look for characteristics in the cells that indicate cancer or a precancerous condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about when you can expect the results of your Pap smear. In some cases, your doctor will contact you only if something of concern is found or if it&apos;s determined that you need further testing. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="60" Title="Pap test" URI="/images/image_popup/thumbs/mcdc7_paptestthu.jpg" Width="60" />
+				<Image Alt="Illustration showing Pap test 
+" Caption="In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 and 2). Your doctor then rinses the brush and spatula in a liquid-filled vial (3) and sends the vial to a laboratory for testing.
+" Height="463" Title="Pap test" URI="/images/image_popup/mcdc7_pap_test.jpg" Width="400" />
+				<HTML>
+					In a Pap test, your doctor uses a vaginal speculum to hold your vaginal walls apart. Next, a sample of cells from your cervix is collected using a small cone-shaped brush and a tiny wooden spatula (1 ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing normal and abnormal cervical cells 
+" Caption="The slide on the left shows normal cervical cells magnified through a microscope. Normal cells are uniform in size and shape. By comparison, the slide on the right shows irregular, abnormal cervical cells &amp;mdash; typical of cervical cancer. 
+" Height="60" Title="Cervical cells" URI="/images/image_popup/thumbs/w7_cervicalcellsthu.jpg" Width="60" />
+				<Image Alt="Images showing normal and abnormal cervical cells 
+" Caption="The slide on the left shows normal cervical cells magnified through a microscope. Normal cells are uniform in size and shape. By comparison, the slide on the right shows irregular, abnormal cervical cells &amp;mdash; typical of cervical cancer. 
+" Height="154" Title="Cervical cells" URI="/images/image_popup/w7_cervicalcells.jpg" Width="400" />
+				<HTML>
+					The slide on the left shows normal cervical cells magnified through a microscope. Normal cells are uniform in size and shape. By comparison, the slide on the right shows irregular, abnormal cervical ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The Pap smear can alert your doctor to the presence of suspicious cells that need further testing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Normal results&lt;/strong&gt; &lt;br /&gt;
+If only normal cervical cells were discovered during your Pap smear, you&apos;re said to have a negative result. You won&apos;t need any further treatment or testing until you&apos;re due for your next Pap smear and pelvic exam. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Abnormal results&lt;/strong&gt; &lt;br /&gt;
+If abnormal or unusual cells were discovered during your Pap smear, you&apos;re said to have a positive result. A positive result doesn&apos;t mean you have cervical cancer. What a positive result means depends on the type of cells discovered in your Pap smear. 
+&lt;/p&gt;
+&lt;p&gt;
+Here are some terms your doctor might use and what your next course of action might be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Atypical squamous cells of undetermined significance (ASCUS).&lt;/strong&gt; Squamous cells are thin and flat and grow on the surface of a healthy cervix. In the case of ASCUS, the Pap smear reveals slightly abnormal squamous cells, but the changes don&apos;t clearly suggest that precancerous cells are present. With the liquid-based test, your doctor can reanalyze the sample to check for the presence of viruses known to promote the development of cancer, such as some types of human papillomavirus (HPV). If no high-risk viruses are present, the abnormal cells found as a result of the test aren&apos;t of great concern. If worrisome viruses are present, you&apos;ll need further testing. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Squamous intraepithelial lesion.&lt;/strong&gt; This term is used to indicate that the cells collected from the Pap smear may be precancerous. If the changes are low grade, it means the size, shape and other characteristics of the cells suggest that if a precancerous lesion is present, it&apos;s likely to be years away from becoming a cancer. If the changes are high grade, there&apos;s a greater chance that the lesion may develop into cancer much sooner. Additional diagnostic testing is necessary. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atypical glandular cells.&lt;/strong&gt; Glandular cells produce mucus and grow in the opening of your cervix and within your uterus. Atypical glandular cells may appear to be slightly abnormal, but it&apos;s unclear whether they&apos;re cancerous. Further testing is needed to determine the source of the abnormal cells and their significance. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Squamous cell cancer or adenocarcinoma cells.&lt;/strong&gt; This result means the cells collected for the Pap smear appear so abnormal that the pathologist is almost certain a cancer is present. &quot;Squamous cell cancer&quot; refers to cancers arising in the flat surface cells of the vagina or cervix. &quot;Adenocarcinoma&quot; refers to cancers arising in glandular cells. If such cells are found, your doctor will recommend prompt evaluation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your Pap smear is abnormal, your doctor may perform a procedure called colposcopy using a special magnifying instrument (colposcope) to examine the tissues of the cervix, vagina and vulva. Your doctor also may take a tissue sample (biopsy) from any areas that appear abnormal. The tissue sample is then sent to a laboratory for analysis and a definitive diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pap smear
+	</Title>
+	<Abstract>
+		Pap smear &amp;mdash; Overview covers risks, results of this cervical cancer detection procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01110" LinkType="Internal" ObjectID="93072ECE-B9C8-8ECC-D1B88893A75B44F0" Title="HPV test" Url="http://www.mayoclinic.com/health/hpv-test/MY01110" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00236" LinkType="Internal" ObjectID="05C62021-E7FF-0DBD-160B90F970B63F5E" Title="Colposcopy" Url="http://www.mayoclinic.com/health/colposcopy/MY00236" />
+		<LinkItem ContentType="Answer" DocID="AN00013" LinkType="Internal" ObjectID="EFB4CA42-F703-485A-84BA5D87FF5886B7" Title="Pap smear: Still needed after hysterectomy?" Url="http://www.mayoclinic.com/health/pap-smear/AN00013" />
+		<LinkItem ContentType="Answer" DocID="AN01635" LinkType="Internal" ObjectID="0BD1E6A4-E7FF-0DBD-1064D59C7B26AAB3" Title="Pap smear: Do I need one if I&apos;m a virgin?" Url="http://www.mayoclinic.com/health/pap-smear/AN01635" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+	</RelatedLinksBox>
+</TestProcedure>

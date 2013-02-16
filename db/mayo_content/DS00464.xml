@@ -1,0 +1,398 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00464
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/impetigo/DS00464
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-05
+		</UpdateDate>
+		<PublicationDate>
+			2002-11-13
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2285" Title="Skin rashes">
+							<Keyword MCVID="2882" Title="Impetigo" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3E1B3D31-CB12-445C-872B62608F242E7E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				impetigo
+			</MetaKeyword>
+			<MetaKeyword>
+				skin
+			</MetaKeyword>
+			<MetaKeyword>
+				infection
+			</MetaKeyword>
+			<MetaKeyword>
+				skin infection
+			</MetaKeyword>
+			<MetaKeyword>
+				bullous impetigo
+			</MetaKeyword>
+			<MetaKeyword>
+				impetigo contagiosa
+			</MetaKeyword>
+			<MetaKeyword>
+				ecthyma
+			</MetaKeyword>
+			<MetaKeyword>
+				blisters
+			</MetaKeyword>
+			<MetaKeyword>
+				Streptococcus pyogenes
+			</MetaKeyword>
+			<MetaKeyword>
+				Staphylococcus aureus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impetigo (im-puh-TIE-go) is a highly contagious skin infection that mainly affects infants and children. Impetigo usually appears as red sores on the face, especially around a child&apos;s nose and mouth. Although it commonly occurs when bacteria enter the skin through cuts or insect bites, it can also develop in skin that&apos;s perfectly healthy.
+&lt;/p&gt;
+&lt;p&gt;
+Impetigo is seldom serious, and usually clears on its own in two to three weeks. But because impetigo can sometimes lead to complications, your child&apos;s doctor may choose to treat impetigo with an antibiotic ointment or oral antibiotics.
+&lt;/p&gt;
+&lt;p&gt;
+Your child can usually return to school or a child care setting as soon as he or she isn&apos;t contagious &amp;mdash; often within 24 hours of starting antibiotic therapy.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of impetigo contagiosa sores 
+" Caption="Impetigo starts as a red sore that ruptures, oozes for a few days and then forms a honey-colored crust. Sores mainly occur around the nose and mouth in infants and children.
+" Height="60" Title="Impetigo contagiosa" URI="/images/image_popup/thumbs/sn7_impetigothu.jpg" Width="60" />
+				<Image Alt="Photo of impetigo contagiosa sores 
+" Caption="Impetigo starts as a red sore that ruptures, oozes for a few days and then forms a honey-colored crust. Sores mainly occur around the nose and mouth in infants and children.
+" Height="239" Title="Impetigo contagiosa" URI="/images/image_popup/sn7_impetigo.jpg" Width="400" />
+				<HTML>
+					Impetigo starts as a red sore that ruptures, oozes for a few days and then forms a honey-colored crust. Sores mainly occur around the nose and mouth in infants and children.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of bullous impetigo sores
+" Caption="Bullous impetigo causes fluid-filled blisters &amp;mdash; often on the trunk, arms and legs of infants and children younger than 2 years. The skin around the blister is usually red and itchy but not sore.
+" Height="60" Title="Bullous impetigo" URI="/images/image_popup/thumbs/sn7_bullousimpetigothu.jpg" Width="60" />
+				<Image Alt="Photo of bullous impetigo sores
+" Caption="Bullous impetigo causes fluid-filled blisters &amp;mdash; often on the trunk, arms and legs of infants and children younger than 2 years. The skin around the blister is usually red and itchy but not sore.
+" Height="400" Title="Bullous impetigo" URI="/images/image_popup/sn7_bullousimpetigo.jpg" Width="400" />
+				<HTML>
+					Bullous impetigo causes fluid-filled blisters &amp;mdash; often on the trunk, arms and legs of infants and children younger than 2 years. The skin around the blister is usually red and itchy but not sore....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of an ecthyma sore 
+" Caption="Ecthyma is characterized by painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. Scars usually remain after the sores heal. 
+" Height="60" Title="Ecthyma" URI="/images/image_popup/thumbs/sn7_ecthymathu.jpg" Width="60" />
+				<Image Alt="Photo of an ecthyma sore 
+" Caption="Ecthyma is characterized by painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. Scars usually remain after the sores heal. 
+" Height="400" Title="Ecthyma" URI="/images/image_popup/sn7_ecthyma.jpg" Width="400" />
+				<HTML>
+					Ecthyma is characterized by painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. Scars usually remain after the sores heal. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following are signs and symptoms of impetigo: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Red sores that quickly rupture, ooze for a few days and then form a yellowish-brown crust&lt;/li&gt;
+	&lt;li&gt;Itching&lt;/li&gt;
+	&lt;li&gt;Painless, fluid-filled blisters&lt;/li&gt;
+	&lt;li&gt;In the more serious form, painful fluid- or pus-filled sores that turn into deep ulcers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of impetigo&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Impetigo contagiosa, also known as nonbullous impetigo.&lt;/strong&gt; The most common form of impetigo is impetigo contagiosa, which usually starts as a red sore on your child&apos;s face, most often around the nose and mouth. The sore ruptures quickly, oozing either fluid or pus that forms a honey-colored crust. Eventually the crust disappears, leaving a red mark that heals without scarring. Impetigo sores may be itchy, but they aren&apos;t painful.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your child isn&apos;t likely to have a fever with this type of impetigo but may have swollen lymph nodes in the affected area. And because it&apos;s highly contagious, just touching or scratching the sores can spread the infection to other parts of the body. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bullous impetigo.&lt;/strong&gt; This type primarily affects infants and children younger than 2 years. It causes painless, fluid-filled blisters &amp;mdash; usually on the trunk, arms and legs. The skin around the blister is usually red and itchy but not sore. The blisters, which break and scab over with a yellow-colored crust, may be large or small, and may last longer than sores from other types of impetigo.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ecthyma.&lt;/strong&gt; This more serious form of impetigo penetrates deeper into the skin&apos;s second layer (dermis). Signs and symptoms include painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. The sores break open and scab over with a hard, thick, gray-yellow crust. Scars can remain after the sores heal. Ecthyma can also cause swollen lymph nodes in the affected area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you suspect that you or your child has impetigo, consult your family doctor, your child&apos;s pediatrician or a dermatologist. Your doctor can recommend a treatment plan based on the type of impetigo and severity of the infection. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of impetigo contagiosa sores 
+" Caption="Impetigo starts as a red sore that ruptures, oozes for a few days and then forms a honey-colored crust. Sores mainly occur around the nose and mouth in infants and children.
+" Height="60" Title="Impetigo contagiosa" URI="/images/image_popup/thumbs/sn7_impetigothu.jpg" Width="60" />
+				<Image Alt="Photo of impetigo contagiosa sores 
+" Caption="Impetigo starts as a red sore that ruptures, oozes for a few days and then forms a honey-colored crust. Sores mainly occur around the nose and mouth in infants and children.
+" Height="239" Title="Impetigo contagiosa" URI="/images/image_popup/sn7_impetigo.jpg" Width="400" />
+				<HTML>
+					Impetigo starts as a red sore that ruptures, oozes for a few days and then forms a honey-colored crust. Sores mainly occur around the nose and mouth in infants and children.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of bullous impetigo sores
+" Caption="Bullous impetigo causes fluid-filled blisters &amp;mdash; often on the trunk, arms and legs of infants and children younger than 2 years. The skin around the blister is usually red and itchy but not sore.
+" Height="60" Title="Bullous impetigo" URI="/images/image_popup/thumbs/sn7_bullousimpetigothu.jpg" Width="60" />
+				<Image Alt="Photo of bullous impetigo sores
+" Caption="Bullous impetigo causes fluid-filled blisters &amp;mdash; often on the trunk, arms and legs of infants and children younger than 2 years. The skin around the blister is usually red and itchy but not sore.
+" Height="400" Title="Bullous impetigo" URI="/images/image_popup/sn7_bullousimpetigo.jpg" Width="400" />
+				<HTML>
+					Bullous impetigo causes fluid-filled blisters &amp;mdash; often on the trunk, arms and legs of infants and children younger than 2 years. The skin around the blister is usually red and itchy but not sore....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of an ecthyma sore 
+" Caption="Ecthyma is characterized by painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. Scars usually remain after the sores heal. 
+" Height="60" Title="Ecthyma" URI="/images/image_popup/thumbs/sn7_ecthymathu.jpg" Width="60" />
+				<Image Alt="Photo of an ecthyma sore 
+" Caption="Ecthyma is characterized by painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. Scars usually remain after the sores heal. 
+" Height="400" Title="Ecthyma" URI="/images/image_popup/sn7_ecthyma.jpg" Width="400" />
+				<HTML>
+					Ecthyma is characterized by painful fluid- or pus-filled sores that turn into deep ulcers, usually on the legs and feet. Scars usually remain after the sores heal. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Two types of bacteria cause impetigo &amp;mdash; Staphylococcus aureus (staph), which is most common, and Streptococcus pyogenes (strep). Both types of bacteria can live harmlessly on your skin until they enter through a cut or other wound and cause an infection.
+&lt;/p&gt;
+&lt;p&gt;
+In adults, impetigo is usually the result of injury to the skin &amp;mdash; often by another dermatological condition such as dermatitis. Children are commonly infected through a cut, scrape or insect bite, but they can also develop impetigo without having any notable damage to the skin.
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;re exposed to the bacteria that cause impetigo when you come into contact with the sores of someone who&apos;s infected or with items they&apos;ve touched, such as clothing, bed linen, towels and even toys. Once you&apos;re infected, you can easily spread the infection to others.
+&lt;/p&gt;
+&lt;p&gt;
+Staph bacteria produce a toxin that causes impetigo to spread to nearby skin. The toxin attacks a protein that helps bind skin cells together. Once this protein is damaged, bacteria can spread quickly.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop impetigo, children ages 2 to 6 years and infants are most often infected. Children are especially susceptible to infections because their immune systems are still developing. And because staph and strep bacteria flourish wherever groups of people are in close contact, impetigo spreads easily in schools and child care settings.
+&lt;/p&gt;
+&lt;p&gt;
+Factors that increase the risk of impetigo include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being age 2 to 6&lt;/li&gt;
+	&lt;li&gt;Attending school or child care&lt;/li&gt;
+	&lt;li&gt;Direct contact with an adult or child who has impetigo or with contaminated towels, bedding or clothing&lt;/li&gt;
+	&lt;li&gt;Crowded conditions&lt;/li&gt;
+	&lt;li&gt;Warm, humid weather &amp;mdash; impetigo infections are more common in summer&lt;/li&gt;
+	&lt;li&gt;Participation in sports that involve skin-to-skin contact, such as football or wrestling&lt;/li&gt;
+	&lt;li&gt;Pre-existing chronic dermatitis, especially atopic dermatitis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Older adults and people with diabetes or a compromised immune system are especially likely to develop ecthyma, a deeper and more serious form of impetigo.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impetigo typically isn&apos;t dangerous, but sometimes it may lead to rare but serious complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Poststreptococcal glomerulonephritis (PSGN).&lt;/strong&gt; This kidney inflammation may develop after a streptococcal infection such as strep throat or impetigo. It occurs when antibodies formed as a result of the infection damage the small structures (glomeruli) that filter waste in your kidneys. Although most people recover without any lasting damage, PSGN may lead to chronic kidney failure.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Signs and symptoms of PSGN commonly appear about two weeks after an infection. They include facial swelling &amp;mdash; especially around the eyes &amp;mdash; decreased urination, blood in the urine, high blood pressure, and stiff or painful joints. Most often, PSGN affects children between the ages of 6 and 10 years. Adults who develop PSGN tend to have more serious symptoms than children do and are less likely to make a full recovery. Although antibiotics can cure strep infections, they don&apos;t prevent PSGN. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cellulitis.&lt;/strong&gt; This potentially serious infection affects the tissues underlying your skin and eventually may spread to your lymph nodes and into the bloodstream. Left untreated, cellulitis can quickly become life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Methicillin-resistant Staphylococcus aureus (MRSA) infection.&lt;/strong&gt; MRSA is a strain of staph bacteria that resists most antibiotics. It can cause serious skin infections that expand and worsen rapidly and are extremely difficult to treat. The skin infection may start as a red, swollen pimple or boil that drains pus. MRSA may also cause pneumonia and blood infections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scarring&lt;/li&gt;
+	&lt;li&gt;Lightening (hypopigmentation) or darkening (hyperpigmentation) of the skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your family doctor or your child&apos;s pediatrician can diagnosis impetigo. When you call to make your appointment, ask if you should follow any restrictions to prevent infecting others in the waiting room.
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot to discuss, it can help to be well prepared. Here are some tips to help you get ready for your appointment and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions helps you make the most of your appointment. List your questions from most important to least important in case time runs out. For impetigo, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What might be causing the signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are tests needed to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Can I wait to see if the condition goes away on its own?&lt;/li&gt;
+	&lt;li&gt;What can I do to prevent the infection from spreading?&lt;/li&gt;
+	&lt;li&gt;What skin care routines do you recommend while the condition heals?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the sores start?&lt;/li&gt;
+	&lt;li&gt;What did the sores look like when they started?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent cuts, scrapes or insect bites to the affected area?&lt;/li&gt;
+	&lt;li&gt;Are the sores painful or itchy?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes the sores better?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes the sores worse?&lt;/li&gt;
+	&lt;li&gt;Does someone in your family already have impetigo?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors usually diagnose impetigo by considering signs and symptoms and medical history and looking at the distinctive sores. Your doctor will likely ask about any recent cuts, scrapes or insect bites to the affected area.
+&lt;/p&gt;
+&lt;p&gt;
+A culture may be necessary to confirm the diagnosis or to rule out another cause. During this test, your doctor uses a sterile swab to gently remove a small bit of pus or drainage from one of the sores. The sample is then cultured in a laboratory for the presence of bacteria.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Impetigo treatment can speed healing of the sores, improve the skin&apos;s appearance and limit the spread of the infection. How impetigo is treated depends on several factors, including the type of impetigo and the severity of the infection. Treatments include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hygienic measures.&lt;/strong&gt; Sometimes your doctor may choose to treat minor cases of impetigo with only hygienic measures. Keeping the skin clean can help mild infections heal on their own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical antibiotics.&lt;/strong&gt; Your doctor may prescribe a prescription antibiotic that you apply to the affected areas (topical antibiotic), such as the ointments mupirocin (Bactroban) or retapamulin (Altabax). Before applying the antibiotic, you need to gently remove any scabs so that the antibiotic can penetrate the sore.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral antibiotics.&lt;/strong&gt; Antibiotics you take by mouth (oral antibiotics) may be prescribed for widespread impetigo, ecthyma and severe cases of impetigo contagiosa. The specific antibiotic depends on the severity of the infection and any known allergies or medical conditions. Be sure to finish the entire course of medication even if the sores are healed. This helps prevent the infection from recurring and makes antibiotic resistance less likely.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For minor infections that haven&apos;t spread to other areas, try the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soak the affected areas of skin with a vinegar solution &amp;mdash; 1 tablespoon (1/2 ounce) of white vinegar to 1 pint (16 ounces) of water &amp;mdash; for 20 minutes. This makes it easier to gently remove the scabs.&lt;/li&gt;
+	&lt;li&gt;After washing the area, apply an over-the-counter antibiotic ointment three times daily. Wash the skin before each application, and pat it dry.&lt;/li&gt;
+	&lt;li&gt;Avoid scratching or touching the sores as much as possible until they heal. Applying a nonstick dressing to the infected area can help keep impetigo from spreading.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Keeping the skin clean is the best way to keep it healthy. Treat cuts, scrapes, insect bites and other wounds right away by washing the affected areas and applying antibiotic ointment to prevent infection.
+&lt;/p&gt;
+&lt;p&gt;
+If someone in your family already has impetigo, follow these measures to help keep the infection from spreading to others:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Gently wash the affected areas with mild soap and running water and then cover lightly with gauze.&lt;/li&gt;
+	&lt;li&gt;Wash an infected person&apos;s clothes, linens and towels every day and don&apos;t share them with anyone else in your family.&lt;/li&gt;
+	&lt;li&gt;Wear gloves when applying any antibiotic ointment and wash your hands thoroughly afterward.&lt;/li&gt;
+	&lt;li&gt;Cut an infected child&apos;s nails short to prevent damage from scratching.&lt;/li&gt;
+	&lt;li&gt;Wash hands frequently.&lt;/li&gt;
+	&lt;li&gt;Keep your child home until your doctor says he or she isn&apos;t contagious.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Impetigo
+	</Title>
+	<Abstract>
+		Impetigo &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this infectious skin condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00016" LinkType="Internal" ObjectID="E49A64C0-6CB9-4A43-BB89CFCB990AA485" Title="Slide show: Common skin rashes" Url="http://www.mayoclinic.com/health/skin-rash/SN00016" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,136 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02096
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pain-after-breast-surgery/AN02096
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-24
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="3720" Title="Mastectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D116CDBC-EB60-DD52-8AD17BCE9056CC2D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pain after breast surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				breast pain
+			</MetaKeyword>
+			<MetaKeyword>
+				mastectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				mastectomy pain
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+You&apos;re not alone in having pain after breast surgery. Studies of women who had a variety of breast cancer operations found that between 25 and 50 percent reported some level of pain after breast surgery two to three years later. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast cancer surgery can be complicated, and nerve damage may occur. This can lead to chest pain, including phantom breast pain and supersensitivity to pain (hyperalgesia). Normally painless stimuli may now be perceived as painful (allodynia). Neuromas &amp;mdash; abnormal nerve growths in an area where scar tissue and nerves grow together &amp;mdash; can give rise to allodynia. Sensations of burning and constricting or lancing-type pain also may occur, as can a loss of feeling in the area of the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for breast pain after surgery depends on the type of pain you&apos;re experiencing. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve-related pain&lt;/strong&gt; may be treated with over-the-counter or prescription pain medications, including painkillers or medications used to treat seizures. Local anesthetics may also help relieve pain due to nerve damage. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation of the skin&lt;/strong&gt; may be treated with topical pain medications, such as capsaicin, which has been effective in treating jabbing pain. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle spasms&lt;/strong&gt; have been effectively treated with injections of onabotulinumtoxinA (Botox), the same substance used to reduce wrinkles. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Alternative therapies including acupuncture, acupressure, transcutaneous nerve stimulation, relaxation training, biofeedback, hypnosis and yoga also may be of benefit in reducing pain. Talk with your doctor about what may offer you the most relief. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coping with pain after breast surgery
+	</Title>
+	<Abstract>
+		How to cope with pain after breast surgery.
+	</Abstract>
+	<Question>
+		Is it normal to have pain after breast surgery? I had a mastectomy two years ago. How can I cope?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00207" LinkType="Internal" ObjectID="8E7092D1-E7FF-0DBD-1B3F9BA46D4D8023" Title="Breast reconstruction with breast implants" Url="http://www.mayoclinic.com/health/breast-reconstruction/MY00207" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00833" LinkType="Internal" ObjectID="2A37C4C4-D0D0-9255-149F5ED8E369DADB" Title="Lumpectomy" Url="http://www.mayoclinic.com/health/lumpectomy/MY00833" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00173" LinkType="Internal" ObjectID="26F83C24-E7FF-0DBD-16C012E1561E8DE5" Title="Breast reconstruction with flap surgery" Url="http://www.mayoclinic.com/health/breast-reconstruction/MY00173" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00943" LinkType="Internal" ObjectID="A9F2265B-9D76-DEAE-00E62CDCACE080A8" Title="Mastectomy" Url="http://www.mayoclinic.com/health/mastectomy/MY00943" />
+		<LinkItem ContentType="Disease" DocID="DS00609" LinkType="Internal" ObjectID="DD007BDD-2A5D-9994-E86567A80A01CB2D" Title="Lymphedema" Url="http://www.mayoclinic.com/health/lymphedema/DS00609" />
+		<LinkItem ContentType="Disease" DocID="DS00983" LinkType="Internal" ObjectID="DCA93907-E7FF-0DBD-1EDD50CA078CDD6B" Title="Ductal carcinoma in situ (DCIS)" Url="http://www.mayoclinic.com/health/dcis/DS00983" />
+		<LinkItem ContentType="Disease" DocID="DS00982" LinkType="Internal" ObjectID="DCA83D82-E7FF-0DBD-1CFB8E2FE5F7F28A" Title="Lobular carcinoma in situ (LCIS)" Url="http://www.mayoclinic.com/health/lobular-carcinoma-in-situ/DS00982" />
+		<LinkItem ContentType="Disease" DocID="DS00661" LinkType="Internal" ObjectID="D3C03709-2A5D-9994-EA5C9810D4BCB23B" Title="Male breast cancer" Url="http://www.mayoclinic.com/health/male-breast-cancer/DS00661" />
+		<LinkItem ContentType="Disease" DocID="DS01063" LinkType="Internal" ObjectID="C6FAE4FF-E7FF-0DBD-17689854551C4D1F" Title="Invasive lobular carcinoma" Url="http://www.mayoclinic.com/health/invasive-lobular-carcinoma/DS01063" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS01078" LinkType="Internal" ObjectID="7C12DB3F-E7FF-0DBD-1CCC1AAA05FF4A5D" Title="Recurrent breast cancer" Url="http://www.mayoclinic.com/health/recurrent-breast-cancer/DS01078" />
+		<LinkItem ContentType="Disease" DocID="DS00115" LinkType="Internal" ObjectID="36ADBDB2-D8AB-47D6-83E44F52A4908F76" Title="Lupus" Url="http://www.mayoclinic.com/health/lupus/DS00115" />
+		<LinkItem ContentType="Disease" DocID="DS00771" LinkType="Internal" ObjectID="31E48157-E7FF-0DBD-11978FEF0B3988C2" Title="Paget&apos;s disease of the breast" Url="http://www.mayoclinic.com/health/pagets-disease-of-the-breast/DS00771" />
+		<LinkItem ContentType="Disease" DocID="DS00632" LinkType="Internal" ObjectID="273CAB18-2A5D-9994-E7302A26D91E98CC" Title="Inflammatory breast cancer" Url="http://www.mayoclinic.com/health/inflammatory-breast-cancer/DS00632" />
+		<LinkItem ContentType="Article" DocID="WO00060" LinkType="Internal" ObjectID="B2E76DB3-D768-469E-84656E6820A13E9E" Title="Prophylactic mastectomy: Surgery to reduce breast cancer risk" Url="http://www.mayoclinic.com/health/prophylactic-mastectomy/WO00060" />
+	</RelatedLinksBox>
+</Answer>

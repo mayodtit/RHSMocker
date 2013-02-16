@@ -1,0 +1,446 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00181
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/graves-disease/DS00181
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2000-06-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="2473" Title="Graves&apos; disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			61F402CE-55BE-4D8A-8467053CAD40B475
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hyperthyroidism
+			</MetaKeyword>
+			<MetaKeyword>
+				Graves&apos; disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Graves disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Grave&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				goiter
+			</MetaKeyword>
+			<MetaKeyword>
+				Graves&apos;
+			</MetaKeyword>
+			<MetaKeyword>
+				Grave&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid gland
+			</MetaKeyword>
+			<MetaKeyword>
+				sun glasses
+			</MetaKeyword>
+			<MetaKeyword>
+				Graves
+			</MetaKeyword>
+			<MetaKeyword>
+				hyper thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperthyroid
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Graves&apos; disease is an immune system disorder that results in the overproduction of thyroid hormones (hyperthyroidism). While a number of disorders may result in hyperthyroidism, Graves&apos; disease is the most common cause. 
+&lt;/p&gt;
+&lt;p&gt;
+Because thyroid hormones affect a number of different body systems, signs and symptoms associated with Graves&apos; disease can be wide ranging and significantly influence your overall well-being. 
+&lt;/p&gt;
+&lt;p&gt;
+Graves&apos; disease is rarely life-threatening. Although it may affect anyone, Graves&apos; disease is more common among women and before the age of 40. 
+&lt;/p&gt;
+&lt;p&gt;
+The primary treatment goals are to inhibit production of thyroid hormones and lessen the severity of symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common signs and symptoms of Graves&apos; disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Difficulty sleeping&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;A rapid or irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;A fine tremor of your hands or fingers&lt;/li&gt;
+	&lt;li&gt;An increase in perspiration or warm, moist skin&lt;/li&gt;
+	&lt;li&gt;Sensitivity to heat&lt;/li&gt;
+	&lt;li&gt;Weight loss, despite normal eating habits&lt;/li&gt;
+	&lt;li&gt;Enlargement of your thyroid gland (goiter)&lt;/li&gt;
+	&lt;li&gt;Change in menstrual cycles&lt;/li&gt;
+	&lt;li&gt;Erectile dysfunction or reduced libido&lt;/li&gt;
+	&lt;li&gt;Frequent bowel movements or diarrhea&lt;/li&gt;
+	&lt;li&gt;Bulging eyes (Graves&apos; ophthalmopathy)&lt;/li&gt;
+	&lt;li&gt;Thick, red skin usually on the shins or tops of the feet (Graves&apos; dermopathy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Graves&apos; ophthalmopathy&lt;/strong&gt;&lt;br /&gt;
+About half the people with Graves&apos; disease show some signs and symptoms of a condition known as Graves&apos; ophthalmopathy. In Graves&apos; ophthalmopathy, inflammation and other immune system events affect muscles and other tissues around your eyes. The resulting signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bulging eyes&lt;/li&gt;
+	&lt;li&gt;Excess tearing&lt;/li&gt;
+	&lt;li&gt;Dry, irritated eyes&lt;/li&gt;
+	&lt;li&gt;Gritty sensation in the eyes&lt;/li&gt;
+	&lt;li&gt;Pressure or pain in the eyes&lt;/li&gt;
+	&lt;li&gt;Puffy eyelids&lt;/li&gt;
+	&lt;li&gt;Reddened or inflamed eyes&lt;/li&gt;
+	&lt;li&gt;Light sensitivity&lt;/li&gt;
+	&lt;li&gt;Double vision&lt;/li&gt;
+	&lt;li&gt;Limited eye movements, resulting in a fixed stare&lt;/li&gt;
+	&lt;li&gt;Blurred or reduced vision (rare)&lt;/li&gt;
+	&lt;li&gt;Ulcers on the cornea (rare)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Graves&apos; dermopathy&lt;/strong&gt;&lt;br /&gt;
+An uncommon manifestation of Graves&apos; disease, called Graves&apos; dermopathy, is the reddening and thickening of the skin, most often on your shins or the top of your feet. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+A number of medical conditions can cause the signs and symptoms associated with Graves&apos; disease. See your doctor if you experience any potential Graves-related problems to get a prompt and accurate diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Seek emergency care if you&apos;re experiencing heart-related signs and symptoms, such as a rapid or irregular heartbeat. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing bulging eyes typical of exophthalmos
+" Caption="One of the signs of Graves&apos; ophthalmopathy is bulging eyes (exophthalmos).
+" Height="60" Title="Exophthalmos" URI="/images/image_popup/thumbs/exophthalmos.gif" Width="60" />
+				<Image Alt="Photograph showing bulging eyes typical of exophthalmos
+" Caption="One of the signs of Graves&apos; ophthalmopathy is bulging eyes (exophthalmos).
+" Height="300" Title="Exophthalmos" URI="/images/image_popup/exophthalmos.jpg" Width="400" />
+				<HTML>
+					One of the signs of Graves&apos; ophthalmopathy is bulging eyes (exophthalmos).
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing Graves&apos; dermopathy 
+" Caption="Rarely, people with Graves&apos; disease develop a lumpy, reddish thickening of the skin (Graves&apos; dermopathy). This results from a buildup of protein in the skin. It often occurs on the shins and on the tops of the feet. 
+" Height="60" Title="Graves&apos; dermopathy" URI="/images/image_popup/thumbs/ans7_myxedemathu.jpg" Width="60" />
+				<Image Alt="Photograph showing Graves&apos; dermopathy 
+" Caption="Rarely, people with Graves&apos; disease develop a lumpy, reddish thickening of the skin (Graves&apos; dermopathy). This results from a buildup of protein in the skin. It often occurs on the shins and on the tops of the feet. 
+" Height="453" Title="Graves&apos; dermopathy" URI="/images/image_popup/ans7_myxedema.jpg" Width="400" />
+				<HTML>
+					Rarely, people with Graves&apos; disease develop a lumpy, reddish thickening of the skin (Graves&apos; dermopathy). This results from a buildup of protein in the skin. It often occurs on the shins and on the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Graves&apos; disease is caused by a dysfunction in the body&apos;s disease-fighting immune system. 
+&lt;/p&gt;
+&lt;p&gt;
+One normal immune system response is the production of antibodies designed to target a specific virus, bacterium or other foreign substance. In Graves&apos; disease &amp;mdash; for reasons that aren&apos;t well understood &amp;mdash; the body produces an antibody to a particular protein on the surface of cells in the thyroid, a hormone-producing gland in the neck. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, thyroid function is regulated by a hormone released by a tiny gland at the base of the brain (pituitary gland). The antibody associated with Graves&apos; disease &amp;mdash; thyrotropin receptor antibody (TRAb) &amp;mdash; can essentially mimic the action of the regulatory pituitary hormone. Therefore, TRAb overrides normal regulation of the thyroid and results in overproduction of thyroid hormones (hyperthyroidism). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Result of hyperthyroidism&lt;/strong&gt;&lt;br /&gt;
+Thyroid hormones affect a number of body functions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Metabolism, the processing of nutrients to create energy for cells&lt;/li&gt;
+	&lt;li&gt;Heart and nervous system function&lt;/li&gt;
+	&lt;li&gt;Body temperature&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Menstrual cycle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Consequently, the impact of Graves&apos; disease may be widespread and result in a decline in the overall quality of life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cause of Graves&apos; ophthalmopathy&lt;/strong&gt;&lt;br /&gt;
+The exact cause of Graves&apos; ophthalmopathy is also not well understood. However, it appears that the same antibody that can cause thyroid dysfunction may also have an &quot;attraction&quot; to tissues surrounding the eyes. The antibody activity triggers inflammation and other immune system events that result in the signs and symptoms of Graves&apos; ophthalmopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+Graves&apos; ophthalmopathy often appears at the same time as hyperthyroidism or several months later. But signs and symptoms of ophthalmopathy may appear years before or after the onset of hyperthyroidism. Graves&apos; ophthalmopathy may also appear in the absence of hyperthyroidism. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although anyone can develop Graves&apos; disease, a number of factors can increase the risk of disease. These risk factors include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Because a family history of Graves&apos; disease is a known risk factor, there is likely a gene or genes that can make a person more susceptible to the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Women are much more likely to develop Graves&apos; disease than are men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Graves&apos; disease usually develops in people younger than 40.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other autoimmune disorders.&lt;/strong&gt; People with other disorders of the immune system, such as type 1 diabetes or rheumatoid arthritis, have an increased risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Emotional or physical stress.&lt;/strong&gt; Stressful life events or illness may act as a trigger for the onset of Graves&apos; disease among people who are genetically susceptible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; Pregnancy or recent childbirth may increase the risk of the disorder, particularly among women who are genetically susceptible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Cigarette smoking, which can affect the immune system, increases the risk of Graves&apos; disease. The degree of risk is linked to the number of cigarettes smoked daily &amp;mdash; the larger the number, the greater the risk. Smokers who have Graves&apos; disease are also at increased risk of developing Graves&apos; ophthalmopathy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of Graves&apos; disease can include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Possible complications of Graves&apos; disease during pregnancy include preterm birth, fetal thyroid dysfunction, poor fetal growth and preeclampsia. Preeclampsia is a maternal condition that results in high blood pressure and elevated protein in urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart disorders.&lt;/strong&gt; If left untreated, Graves&apos; disease can lead to heart rhythm disorders, changes in the structure and function of the heart muscles, and the inability of the heart to pump enough blood to the body (congestive heart failure).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid storm.&lt;/strong&gt; A rare, but life-threatening complication of Graves&apos; disease is thyroid storm, also known as accelerated hyperthyroidism or thyrotoxic crisis. It&apos;s more likely when severe hyperthyroidism is untreated or treated inadequately. The sudden and drastic increase in thyroid hormones can produce a number of effects, including fever, profuse sweating, confusion, delirium, severe weakness, tremors, markedly irregular heartbeat, severe low blood pressure and coma. Thyroid storm requires immediate emergency care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brittle bones.&lt;/strong&gt; Untreated hyperthyroidism can also lead to weak, brittle bones (osteoporosis). The strength of your bones depends, in part, on the amount of calcium and other minerals they contain. Too much thyroid hormone interferes with your body&apos;s ability to incorporate calcium into your bones.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor or a general practitioner. You may be referred to a specialist in disorders of hormone function and the endocrine system (endocrinologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Be prepared to answer the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;What medications &amp;mdash; including prescription, over-the-counter drugs and dietary supplements &amp;mdash; do you take regularly? What is the dosage of each?&lt;/li&gt;
+	&lt;li&gt;Have you recently started a new medication?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced any stressful life events or change?&lt;/li&gt;
+	&lt;li&gt;Have you experienced rapid or unintended weight loss? How much have you lost?&lt;/li&gt;
+	&lt;li&gt;Have you observed any change in your menstrual cycle?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any sexual dysfunction?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble sleeping?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family had thyroid problems?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of Graves&apos; disease is based primarily on your answers to the doctor&apos;s questions and findings from a physical exam. He or she may also order laboratory tests to confirm a diagnosis or gather more evidence if a diagnosis isn&apos;t clear. Diagnostic procedures may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor examines your eyes to see if they&apos;re irritated or protruding and looks to see if your thyroid gland is enlarged. Because Graves&apos; disease increases your metabolism, your doctor will check your pulse and blood pressure and look for signs of tremor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood sample.&lt;/strong&gt; Your doctor may order blood tests to determine your levels of thyroid-stimulating hormone (TSH), the pituitary hormone that normally stimulates the thyroid gland, as well as levels of thyroid hormones. People with Graves&apos; disease usually have lower than normal levels of TSH and higher levels of thyroid hormones. Another laboratory test measures the levels of the antibody known to cause Graves&apos; disease. This test usually isn&apos;t necessary to make a diagnosis, but a negative result might indicate another cause for hyperthyroidism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radioactive iodine uptake.&lt;/strong&gt; Your body needs iodine to make thyroid hormones. By giving you a small amount of radioactive iodine and later measuring the amount of it in your thyroid gland with a specialized scanning camera, your doctor can determine the rate at which your thyroid gland takes up iodine. A high uptake of radioactive iodine indicates your thyroid gland is overproducing hormones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; If the diagnosis of Graves&apos; ophthalmopathy isn&apos;t clear from a clinical assessment, your doctor may order an imaging test, such as computerized tomography (CT), a specialized X-ray technology that produces thin cross-sectional images. Magnetic resonance imaging (MRI), which uses magnetic fields and radio waves to create either cross-sectional or 3-D images, may also be used.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The treatment goals for Graves&apos; disease are to inhibit the production of thyroid hormones and to block the effect of the hormones on the body. Some treatments include: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radioactive iodine therapy&lt;/strong&gt;&lt;br /&gt;
+With this therapy, you take radioactive iodine, or radioiodine, by mouth. Because the thyroid needs iodine to produce hormones, it takes up the radioiodine, which destroys the overactive thyroid cells over time. This causes your thyroid gland to shrink, and problems lessen gradually, usually over several weeks to several months. 
+&lt;/p&gt;
+&lt;p&gt;
+Radioiodine therapy may increase your risk of new or worsened symptoms of Graves&apos; ophthalmopathy. This side effect is usually mild and temporary, but the therapy may not be recommended if you already have moderate to severe eye problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Other side effects may include tenderness in the neck and a temporary increase in thyroid hormones. Men may experience a temporary reduction in testosterone levels. Radioiodine therapy isn&apos;t used for treating pregnant or nursing women. Radioiodine not taken up into the thyroid gland is excreted in your urine and saliva. 
+&lt;/p&gt;
+&lt;p&gt;
+Because this treatment causes thyroid activity to decline, you&apos;ll likely need treatment later to supply your body with normal amounts of thyroid hormones. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anti-thyroid medications&lt;/strong&gt; &lt;br /&gt;
+Anti-thyroid medications interfere with the thyroid&apos;s use of iodine to produce hormones. These prescription medications include propylthiouracil and methimazole (Tapazole). 
+&lt;/p&gt;
+&lt;p&gt;
+When these two drugs are used alone, a relapse of hyperthyroidism may occur at a later time. Taking the drug for longer than a year, however, may result in better long-term results. Anti-thyroid drugs may also be used before or after radioiodine therapy as a supplemental treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of both drugs include rash, joint pain, liver failure or a decrease in disease-fighting white blood cells. Methimazole isn&apos;t used to treat pregnant women because of the slight risk of birth defects. Therefore, propylthiouracil is the preferred anti-thyroid drug for pregnant women. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Beta blockers&lt;/strong&gt;&lt;br /&gt;
+These medications don&apos;t inhibit the production of thyroid hormones, but they do block the effect of hormones on the body. They may provide fairly rapid relief of irregular heartbeats, tremors, anxiety or irritability, heat intolerance, sweating, diarrhea and muscle weakness. 
+&lt;/p&gt;
+&lt;p&gt;
+Beta blockers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Propranolol (Inderal)&lt;/li&gt;
+	&lt;li&gt;Atenolol (Tenormin)&lt;/li&gt;
+	&lt;li&gt;Metoprolol&lt;/li&gt;
+	&lt;li&gt;Nadolol (Corgard)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Beta blockers aren&apos;t often prescribed for people with asthma, because the drug may trigger attacks. The drug may also complicate management of diabetes. Abruptly discontinuing the use of the drug can cause serious heart problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+If other therapies aren&apos;t an option or haven&apos;t been effective, you may need surgery to remove your thyroid (thyroidectomy). After the surgery, you&apos;ll likely need treatment to supply your body with normal amounts of thyroid hormones.
+&lt;/p&gt;
+&lt;p&gt;
+Risks of this surgery include potential damage to your vocal cords and your parathyroid glands, tiny glands located adjacent to your thyroid gland. Your parathyroid glands produce a hormone that controls the level of calcium in your blood. Complications are rare under the care of a surgeon experienced in thyroid surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating Graves&apos; ophthalmopathy&lt;/strong&gt; &lt;br /&gt;
+Mild symptoms of Graves&apos; ophthalmopathy may be managed by using over-the-counter artificial tears during the day and lubricating gels at night. If your symptoms are more severe, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Treatment with prescription corticosteroids, such as prednisone, may diminish swelling behind your eyeballs. Side effects may include fluid retention, weight gain, elevated blood sugar levels, increased blood pressure and mood swings.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Orbital decompression surgery.&lt;/strong&gt; In this surgery, your doctor removes the bone between your eye socket (orbit) and your sinuses &amp;mdash; the air spaces next to the orbit. This gives your eyes room to move back to their original position. This treatment is usually used if pressure on the optic nerve threatens the loss of vision. Possible complications include double vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye muscle surgery.&lt;/strong&gt; The inflammation caused by Graves&apos; disease can affect your eye muscles, making them too short to allow the eyes to align properly. In eye muscle surgery, your doctor cuts the muscle where it attaches to your eyeball and then reattaches it farther back. Sometimes, more than one operation is necessary.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prisms.&lt;/strong&gt; You may have double vision either because of Graves&apos; disease or as a side effect of surgery for Graves&apos; disease. Though they don&apos;t work for everyone, prisms in your glasses may correct your double vision.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Orbital radiotherapy.&lt;/strong&gt; Orbital radiotherapy was once a common treatment for Graves&apos; ophthalmopathy. Orbital radiotherapy uses targeted X-rays over the course of several days to destroy some of the tissue behind your eyes. However, some studies have suggested that this treatment provides no benefit for people who have mild to moderately severe Graves&apos; ophthalmopathy. Your doctor may recommend orbital radiotherapy if your eye problems are worsening and prescription corticosteroids alone aren&apos;t effective or well tolerated.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have Graves&apos; disease, make your mental and physical well-being a priority. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat well and exercise.&lt;/strong&gt; This can enhance the improvement in some symptoms while being treated and help you feel better in general. For example, because your thyroid controls your metabolism, you may have a tendency to gain weight when the hyperthyroidism is corrected. Brittle bones can also occur with Graves&apos; disease and weight-bearing exercises can help maintain bone density.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ease stress as much as you can.&lt;/strong&gt; This may be helpful, as stress may trigger or worsen Graves&apos; disease. Listening to music, taking a warm bath or walking can help relax you and put you in a better frame of mind. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Partner with your doctor to construct a plan that incorporates good nutrition, exercise and relaxation into your daily routine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;For Graves&apos; ophthalmopathy&lt;/strong&gt; &lt;br /&gt;
+These steps may make your eyes feel better if you have Graves&apos; ophthalmopathy. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Apply cool compresses to your eyes.&lt;/strong&gt; The added moisture may soothe your eyes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear sunglasses.&lt;/strong&gt; When your eyes protrude, they&apos;re more vulnerable to ultraviolet rays and more sensitive to bright light. Wearing sunglasses that wrap around the sides of your head will also lessen the irritation of your eyes from the wind.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use lubricating eyedrops.&lt;/strong&gt; Eyedrops may relieve the dry, scratchy sensation on the surface of your eyes. A paraffin-based gel, such as Lacri-Lube, can be applied at night.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevate the head of your bed.&lt;/strong&gt; Keeping your head higher than the rest of your body lessens fluid accumulation in the head and may relieve the pressure on your eyes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;For Graves&apos; dermopathy&lt;/strong&gt; &lt;br /&gt;
+If the disease affects your skin (Graves&apos; dermopathy), use over-the-counter creams or ointments containing hydrocortisone to relieve swelling and reddening. In addition, using compression wraps on your legs may help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Graves&apos; disease
+	</Title>
+	<Abstract>
+		Graves&apos; disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this thyroid disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00709" LinkType="Internal" ObjectID="3B7E2908-9788-8F9C-79689BBDDE8A5263" Title="Thyroidectomy" Url="http://www.mayoclinic.com/health/thyroidectomy/MY00709" />
+		<LinkItem ContentType="Answer" DocID="AN00806" LinkType="Internal" ObjectID="2D62C8DD-A5F7-4BC2-A286806FF484555F" Title="Thyroid peroxidase antibody test: What is it?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00806" />
+		<LinkItem ContentType="Answer" DocID="AN00605" LinkType="Internal" ObjectID="3C8F3995-E45A-406A-B785837268AEED7B" Title="Graves&apos; dermopathy: How is it treated?" Url="http://www.mayoclinic.com/health/graves-dermopathy/AN00605" />
+		<LinkItem ContentType="Disease" DocID="DS01197" LinkType="Internal" ObjectID="87996543-C853-1F5E-496EC87792682069" Title="Preterm labor" Url="http://www.mayoclinic.com/health/preterm-labor/DS01197" />
+	</RelatedLinksBox>
+</Disease>

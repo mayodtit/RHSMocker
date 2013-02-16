@@ -1,0 +1,490 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00564
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chronic-myelogenous-leukemia/DS00564
+		</OriginalURL>
+		<UpdateDate>
+			2010-10-30
+		</UpdateDate>
+		<PublicationDate>
+			2004-11-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2145" Title="Leukemia">
+						<Keyword MCVID="2482" Title="Chronic myelogenous leukemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			1B94EDA3-2C4E-482D-812F882282E2B16D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myelogenous leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myeloid leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				cml
+			</MetaKeyword>
+			<MetaKeyword>
+				cml leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				blood cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myelocytic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic granulocytic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				blood-related cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				blood
+			</MetaKeyword>
+			<MetaKeyword>
+				lymph
+			</MetaKeyword>
+			<MetaKeyword>
+				blood cell
+			</MetaKeyword>
+			<MetaKeyword>
+				luekemia
+			</MetaKeyword>
+			<MetaKeyword>
+				leukaemia
+			</MetaKeyword>
+			<MetaKeyword>
+				glivac
+			</MetaKeyword>
+			<MetaKeyword>
+				gleevac
+			</MetaKeyword>
+			<MetaKeyword>
+				gleevec
+			</MetaKeyword>
+			<MetaKeyword>
+				glivec
+			</MetaKeyword>
+			<MetaKeyword>
+				gleevic
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow disease
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				dasatinib
+			</MetaKeyword>
+			<MetaKeyword>
+				dasatanib
+			</MetaKeyword>
+			<MetaKeyword>
+				sprycell
+			</MetaKeyword>
+			<MetaKeyword>
+				interferon
+			</MetaKeyword>
+			<MetaKeyword>
+				ifn
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic myeloid leukemia treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				treatment for chronic myelogenous leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				cml treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				PCR
+			</MetaKeyword>
+			<MetaKeyword>
+				bcr-abl
+			</MetaKeyword>
+			<MetaKeyword>
+				philadelphia chromosome
+			</MetaKeyword>
+			<MetaKeyword>
+				fish test
+			</MetaKeyword>
+			<MetaKeyword>
+				sprycel
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic myelogenous leukemia (CML) is an uncommon type of cancer of the blood cells. The term &quot;chronic&quot; in chronic myelogenous leukemia indicates that this cancer tends to progress more slowly than acute forms of leukemia. The term &quot;myelogenous&quot; (mi-uh-LOJ-uh-nus) in chronic myelogenous leukemia refers to the type of cells affected by this cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Chronic myelogenous leukemia can also be called chronic myeloid leukemia and chronic granulocytic leukemia. Chronic myelogenous leukemia typically affects older adults and rarely occurs in children, though it can occur at any age. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of chronic myelogenous leukemia may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Easy bleeding&lt;/li&gt;
+	&lt;li&gt;Feeling run-down or tired&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Frequent infections&lt;/li&gt;
+	&lt;li&gt;Losing weight without trying&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Pain or fullness below the ribs on the left side&lt;/li&gt;
+	&lt;li&gt;Pale skin&lt;/li&gt;
+	&lt;li&gt;Sweating excessively during sleep (night sweats)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Chronic myelogenous leukemia doesn&apos;t always reveal itself with obvious signs and symptoms during the early phase. It&apos;s possible to live with chronic myelogenous leukemia for months or years without realizing it. 
+&lt;/p&gt;
+&lt;p&gt;
+Because people with chronic myelogenous leukemia tend to respond better to treatment when it&apos;s started early, make an appointment with your doctor if you have signs or symptoms that bother you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic myelogenous leukemia occurs when something goes awry in the genes of your blood cells. It&apos;s not clear what initially sets off this process, but doctors have discovered how it progresses into chronic myelogenous leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;First, an abnormal chromosome develops&lt;/strong&gt; &lt;br /&gt;
+Human cells normally contain 23 pairs of chromosomes. These chromosomes hold the DNA that contains the instructions (genes) that control the cells in your body. In people with chronic myelogenous leukemia, the chromosomes in the blood cells swap sections with each other. A section of chromosome 9 switches places with a section of chromosome 22, creating an extra-short chromosome 22 and an extra-long chromosome 9. 
+&lt;/p&gt;
+&lt;p&gt;
+The extra-short chromosome 22 is called the Philadelphia chromosome, named for the city where it was discovered. The Philadelphia chromosome is present in the blood cells of 90 percent of people with chronic myelogenous leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Second, the abnormal chromosome creates a new gene&lt;/strong&gt; &lt;br /&gt;
+The Philadelphia chromosome creates a new gene. Genes from chromosome 9 combine with genes from chromosome 22 to create a new gene called BCR-ABL. The BCR-ABL gene contains instructions that tell the abnormal blood cell to produce too much of a protein called tyrosine kinase. Tyrosine kinase promotes cancer by allowing certain blood cells to grow out of control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Third, the new gene allows too many diseased blood cells&lt;/strong&gt; &lt;br /&gt;
+Your blood cells originate in the bone marrow, a spongy material inside your bones. When your bone marrow functions normally, it produces immature cells (blood stem cells) in a controlled way. These cells then mature and specialize into the various types of blood cells that circulate in your body &amp;mdash; red cells, white cells and platelets. 
+&lt;/p&gt;
+&lt;p&gt;
+In chronic myelogenous leukemia, this process doesn&apos;t work properly. The tyrosine kinase caused by the BCR-ABL gene causes too many white blood cells. Most or all of these contain the abnormal Philadelphia chromosome. The diseased white blood cells don&apos;t grow and die like normal cells. The diseased white blood cells build up in huge numbers, crowding out healthy blood cells and damaging the bone marrow. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing creation of Philadelphia chromosome
+" Caption="An abnormal chromosome called the Philadelphia chromosome is associated with chronic myelogenous leukemia. Your cells each contain 23 pairs of chromosomes that are made of DNA and hold the instructions for every cell in your body. The Philadelphia chromosome forms when chromosome 9 and chromosome 22 break and exchange portions. This creates an abnormally small chromosome 22 and a new combination of instructions for your cells that can lead to the development of chronic myelogenous leukemia. 
+" Height="60" Title="How the Philadelphia chromosome forms" URI="/images/image_popup/thumbs/c7_philadelphia_chromosomethu.jpg" Width="60" />
+				<Image Alt="Illustration showing creation of Philadelphia chromosome
+" Caption="An abnormal chromosome called the Philadelphia chromosome is associated with chronic myelogenous leukemia. Your cells each contain 23 pairs of chromosomes that are made of DNA and hold the instructions for every cell in your body. The Philadelphia chromosome forms when chromosome 9 and chromosome 22 break and exchange portions. This creates an abnormally small chromosome 22 and a new combination of instructions for your cells that can lead to the development of chronic myelogenous leukemia. 
+" Height="300" Title="How the Philadelphia chromosome forms" URI="/images/image_popup/c7_philadelphia_chromosome.jpg" Width="400" />
+				<HTML>
+					An abnormal chromosome called the Philadelphia chromosome is associated with chronic myelogenous leukemia. Your cells each contain 23 pairs of chromosomes that are made of DNA and hold the ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase the risk of chronic myelogenous leukemia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Older age&lt;/li&gt;
+	&lt;li&gt;Being male&lt;/li&gt;
+	&lt;li&gt;Radiation exposure, such as radiation therapy for certain types of cancer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Family history is not a risk factor&lt;/strong&gt; &lt;br /&gt;
+The chromosome mutation that leads to chronic myelogenous leukemia isn&apos;t passed from parents to offspring. This mutation is believed to be acquired, meaning it develops after birth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic myelogenous leukemia (CML) can cause a variety of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; If diseased white blood cells crowd out healthy red blood cells, anemia may result. Anemia can make you feel tired and worn down. Treatment for CML also can cause a drop in red blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess bleeding.&lt;/strong&gt; Blood cells called platelets help control bleeding by plugging small leaks in blood vessels and helping your blood to clot. A shortage of blood platelets (thrombocytopenia) can result in easy bleeding and bruising, including frequent or severe nosebleeds, bleeding from the gums, or tiny red dots caused by bleeding into the skin (petechiae).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; CML can cause bone pain or joint pain as the bone marrow expands when excess white blood cells build up.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged spleen.&lt;/strong&gt; Some of the extra blood cells produced when you have CML are stored in the spleen. This can cause the spleen to become swollen or enlarged. Rarely, the spleen becomes so large that it&apos;s at risk of bursting. More commonly, the swollen spleen takes up space in your abdomen and makes you feel full even after small meals or causes pain on the left side of your body below your ribs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke or excess clotting.&lt;/strong&gt; Some people with CML produce too many platelets. Without treatment, this high platelet count (thrombocytosis) can cause excessive clotting of your blood, which can lead to stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; White blood cells help the body fight off infection. Although people with CML have too many white blood cells, these cells are often diseased and don&apos;t function properly. As a result, they aren&apos;t able to fight infection as well as healthy white cells can. In addition, treatment can cause your white cell count to drop too low (neutropenia), also making you vulnerable to infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Death.&lt;/strong&gt; If CML can&apos;t be successfully treated, it ultimately is fatal.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor or a general practitioner if you have any signs or symptoms that worry you. If blood tests or other tests and procedures suggest leukemia, your doctor may refer you to a specialist in the treatment of blood and bone marrow diseases and conditions (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For chronic myelogenous leukemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can you explain what my test results mean?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any other tests or procedures?&lt;/li&gt;
+	&lt;li&gt;What is the phase of my CML?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What side effects are likely with each treatment?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;Which treatment options do you think are best for me?&lt;/li&gt;
+	&lt;li&gt;How likely is it that I&apos;ll achieve remission with the treatments you recommend?&lt;/li&gt;
+	&lt;li&gt;How quickly must I make a decision on my treatment?&lt;/li&gt;
+	&lt;li&gt;Should I get a second opinion from a CML specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Avoid anything that makes your symptoms worse. For instance, if you&apos;re feeling fatigued, rest as much as possible. Focus on only the essential tasks of each day. The nonessential tasks can wait for a later day. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re having trouble eating because you feel full very quickly, choose smaller, more frequent meals. Consider sipping a nutritional supplement shake. These high-calorie shakes can help you temporarily to get the calories and nutrition you need if eating is uncomfortable. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose chronic myelogenous leukemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your doctor will examine you and check such vital signs as pulse and blood pressure. He or she will also feel your lymph nodes, spleen and abdomen for abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A complete blood count (CBC) may reveal abnormalities in your blood cells. Blood chemistry tests to measure organ function may also reveal abnormalities that can help your doctor make a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bone marrow tests.&lt;/strong&gt; Bone marrow biopsy and bone marrow aspiration are used to collect bone marrow samples for laboratory testing. These tests involve collecting bone marrow from your hipbone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests to look for the Philadelphia chromosome.&lt;/strong&gt; Specialized tests, such as fluorescence in situ hybridization (FISH) analysis and polymerase chain reaction (PCR) test, analyze blood or bone marrow samples for the presence of the Philadelphia chromosome or the BCR-ABL gene.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Phases of chronic myelogenous leukemia&lt;/strong&gt; &lt;br /&gt;
+The phase of chronic myelogenous leukemia refers to the aggressiveness of the disease. Your doctor determines the phase by measuring the proportion of diseased cells to healthy cells in your blood or bone marrow. A higher proportion of diseased cells means chronic myelogenous leukemia is at a more advanced stage. 
+&lt;/p&gt;
+&lt;p&gt;
+Phases of chronic myelogenous leukemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic.&lt;/strong&gt; The chronic phase is the earliest phase and generally has the best response to treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accelerated.&lt;/strong&gt; The accelerated phase is a transitional phase when the disease becomes more aggressive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blastic.&lt;/strong&gt; Blastic phase is a severe, aggressive phase that becomes life-threatening.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="60" Title="Bone marrow biopsy" URI="/images/image_popup/thumbs/r7_bonemarrowaspirationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="400" Title="Bone marrow biopsy" URI="/images/image_popup/r7_bonemarrowaspiration.jpg" Width="400" />
+				<HTML>
+					In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of chronic myelogenous leukemia treatment is to eliminate the blood cells that contain the abnormal BCR-ABL gene that causes the overabundance of diseased blood cells. For most people, it&apos;s not possible to eliminate all diseased cells, but treatment can help achieve a long-term remission of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drugs&lt;/strong&gt; &lt;br /&gt;
+Targeted drugs are designed to attack cancer by focusing on a specific aspect of cancer cells that allows them to grow and multiply. In chronic myelogenous leukemia, the target of these drugs is the protein produced by the BCR-ABL gene &amp;mdash; tyrosine kinase. Targeted drugs that block the action of tyrosine kinase include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Imatinib (Gleevec)&lt;/li&gt;
+	&lt;li&gt;Dasatinib (Sprycel)&lt;/li&gt;
+	&lt;li&gt;Nilotinib (Tasigna)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Targeted drugs are the initial treatment for most people diagnosed with chronic myelogenous leukemia. If the disease doesn&apos;t respond or becomes resistant to the first targeted drug, doctors may consider other targeted drugs or other treatments. Side effects of these targeted drugs include swelling or puffiness of the skin, nausea, muscle cramps, rash, fatigue, diarrhea, and skin rashes. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors haven&apos;t determined a safe point at which people with chronic myelogenous leukemia can stop taking targeted drugs. For this reason, most people continue to take targeted drugs even when blood tests reveal a remission of chronic myelogenous leukemia. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood stem cell transplant&lt;/strong&gt; &lt;br /&gt;
+A blood stem cell transplant, also called a bone marrow transplant, offers the only chance for a definitive cure for chronic myelogenous leukemia. However, it&apos;s usually reserved for people who haven&apos;t been helped by other treatments because blood stem cell transplants have risks and carry a high rate of serious complications. 
+&lt;/p&gt;
+&lt;p&gt;
+During a blood stem cell transplant, high doses of chemotherapy drugs are used to kill the blood-forming cells in your bone marrow. Then blood stem cells from a donor or your own cells that were previously collected and stored are infused into your bloodstream. The new cells form new, healthy blood cells to replace the diseased cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy drugs are typically combined with other treatments for chronic myelogenous leukemia. Often, chemotherapy treatment for chronic myelogenous leukemia is given as a tablet you take by mouth. Side effects of chemotherapy drugs depend on what drugs you take. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Biological therapy&lt;/strong&gt; &lt;br /&gt;
+Biological therapies harness your body&apos;s immune system to help fight cancer. The biological drug interferon is a synthetic version of an immune system cell. Interferon may help reduce the growth of leukemia cells. Interferon may be an option if other treatments don&apos;t work or if you can&apos;t take other drugs, such as during pregnancy. Side effects of interferon include fatigue, fever, flu-like symptoms and weight loss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials study the latest treatment for diseases or new ways of using existing treatments. Enrolling in a clinical trial for chronic myelogenous leukemia may give you the chance to try the latest treatment, but it can&apos;t guarantee a cure. Talk to your doctor about what clinical trials are available to you. Together you can discuss the benefits and risks of a clinical trial. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For many people, chronic myelogenous leukemia is a chronic disease they will live with for years. Many will continue treatment with imatinib indefinitely. Some days, you may feel sick even if you don&apos;t look sick. And some days, you may just be sick of having cancer. Self-care measures to help you adjust and cope with a chronic illness include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Go to all of your medical appointments.&lt;/strong&gt; People with chronic myelogenous leukemia often face frequent medical appointments, blood work and bone marrow exams. Appointments can bring anxiety because you may fear your cancer is no longer in remission or your condition has worsened. Expect some anxiety around the time of your appointments, but don&apos;t let that stop you from going to each one. Plan stress-relieving activities to take your mind off your anxieties. Try yoga, exercise and time with friends and family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about your side effects.&lt;/strong&gt; Powerful cancer medications can cause many side effects, but those side effects often can be managed with other medications or treatments. You don&apos;t necessarily have to tough them out.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t stop treatment on your own.&lt;/strong&gt; If you develop unpleasant side effects, such as skin rashes or fatigue, don&apos;t simply quit your medication without consulting your health care professionals. Likewise, don&apos;t stop taking your medications if you feel better and think your disease may be gone. If you stop taking medication, your disease can quickly and unexpectedly return, even if you&apos;ve been in remission.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask for help if you&apos;re having trouble coping.&lt;/strong&gt; The emotional toll of a chronic condition can feel overwhelming. Tell your doctor about your feelings. You may get a referral to a counselor or other specialist with whom you can talk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No alternative medicines have been found to treat chronic myelogenous leukemia. But alternative medicine may help you cope with the stress of a chronic condition and the side effects of cancer treatment. Talk to your doctor about your options, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Aromatherapy&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chronic myelogenous leukemia often is a chronic disease and requires long-term treatments. To help you cope with your cancer journey, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about chronic myelogenous leukemia to make decisions about your care.&lt;/strong&gt; The term &quot;leukemia&quot; can be confusing, because it refers to a group of cancers that affect the bone marrow and blood. Don&apos;t waste time gathering information that doesn&apos;t apply to your kind of leukemia. Ask your health care professionals to write down information about your specific disease. Then narrow your search and seek out only trusted, reputable sources, such as the Leukemia &amp; Lymphoma Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out a specialist.&lt;/strong&gt; Ask your doctor about his or her experience in treating chronic myelogenous leukemia. If your doctor has little or no experience in this area, ask about having a consultation with a specialist. Most doctors aren&apos;t offended by this and may be willing to help arrange a consult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Turn to family and friends for support.&lt;/strong&gt; Stay connected to family and friends for support. It can be tough to talk about your diagnosis, and you&apos;ll likely get a range of reactions when you share the news. But talking about your diagnosis and passing along information about your cancer can help. So can the outpouring of practical help that often results.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; Consider joining a support group, either in your community or on the Internet. A support group of people with the same diagnosis can be a source of useful information, practical tips and encouragement.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chronic myelogenous leukemia
+	</Title>
+	<Abstract>
+		Chronic myelogenous leukemia &amp;mdash; Comprehensive overview covers causes, treatments and coping with this blood cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="Video" DocID="MM00787" LinkType="Internal" ObjectID="255D3C99-F208-37DF-CDFEAEEC6D81B5A7" Title="Video: How a stem cell transplant works" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MM00787" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00351" LinkType="Internal" ObjectID="97C21193-86CD-4C2D-A18052CFD8125EBF" Title="Leukemia" Url="http://www.mayoclinic.com/health/leukemia/DS00351" />
+	</RelatedLinksBox>
+</Disease>

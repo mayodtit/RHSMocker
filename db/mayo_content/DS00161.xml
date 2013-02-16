@@ -1,0 +1,607 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00161
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/alzheimers-disease/DS00161
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-19
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="2307" Title="Dementia">
+							<Keyword MCVID="2860" Title="Alzheimer&apos;s" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B07C9803-F749-40F5-BFA9B3F14D1E94D0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Alzheimer&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Alzheimer
+			</MetaKeyword>
+			<MetaKeyword>
+				Alzheimers
+			</MetaKeyword>
+			<MetaKeyword>
+				Alzheimer&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Alzheimer disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Alzheimers disease
+			</MetaKeyword>
+			<MetaKeyword>
+				dementia
+			</MetaKeyword>
+			<MetaKeyword>
+				plaques
+			</MetaKeyword>
+			<MetaKeyword>
+				tangles
+			</MetaKeyword>
+			<MetaKeyword>
+				senility
+			</MetaKeyword>
+			<MetaKeyword>
+				memory loss
+			</MetaKeyword>
+			<MetaKeyword>
+				cognitive impairment
+			</MetaKeyword>
+			<MetaKeyword>
+				caregiving
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Alzheimer&apos;s disease is a progressive disease that destroys memory and other important mental functions. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s the most common cause of dementia &amp;mdash; a group of brain disorders that results in the loss of intellectual and social skills. These changes are severe enough to interfere with day-to-day life. 
+&lt;/p&gt;
+&lt;p&gt;
+In Alzheimer&apos;s disease, the connections between brain cells and the brain cells themselves degenerate and die, causing a steady decline in memory and mental function. 
+&lt;/p&gt;
+&lt;p&gt;
+Current Alzheimer&apos;s disease medications and management strategies may temporarily improve symptoms. This can sometimes help people with Alzheimer&apos;s disease maximize function and maintain independence. 
+&lt;/p&gt;
+&lt;p&gt;
+But because there&apos;s no cure for Alzheimer&apos;s disease, it&apos;s important to seek supportive services and tap into your support network as early as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+At first, increasing forgetfulness or mild confusion may be the only symptoms of Alzheimer&apos;s disease that you notice. But over time, the disease robs you of more of your memory, especially recent memories. The rate at which symptoms worsen varies from person to person. If you have Alzheimer&apos;s, you may be the first to notice that you&apos;re having unusual difficulty remembering things and organizing your thoughts. Or you may not recognize that anything is wrong, even when changes are noticeable to your family members, close friends or co-workers.
+&lt;/p&gt;
+&lt;p&gt;
+Brain changes associated with Alzheimer&apos;s disease lead to growing trouble with: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Memory&lt;br /&gt;
+&lt;/strong&gt;Everyone has occasional memory lapses. It&apos;s normal to lose track of where you put your keys or forget the name of an acquaintance. But the memory loss associated with Alzheimer&apos;s disease persists and worsens, affecting your ability to function at work and at home. People with Alzheimer&apos;s may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Repeat statements and questions over and over, not realizing that they&apos;ve asked the question before&lt;/li&gt;
+	&lt;li&gt;Forget conversations, appointments or events, and not remember them later&lt;/li&gt;
+	&lt;li&gt;Routinely misplace possessions, often putting them in illogical locations&lt;/li&gt;
+	&lt;li&gt;Eventually forget the names of family members and everyday objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Disorientation and misinterpreting spatial relationships&lt;br /&gt;
+&lt;/strong&gt;People with Alzheimer&apos;s disease may lose their sense of what day it is, the season, where they are or even their current life circumstances. Alzheimer&apos;s may also disrupt your brain&apos;s ability to interpret what you see, making it difficult to understand your surroundings. Eventually, these problems may lead to getting lost in familiar places.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Speaking and writing&lt;br /&gt;
+&lt;/strong&gt;Those with Alzheimer&apos;s may have trouble finding the right words to identify objects, express thoughts or take part in conversations. Over time, the ability to read and write also declines.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Thinking and reasoning&lt;br /&gt;
+&lt;/strong&gt;Alzheimer&apos;s disease causes difficulty concentrating and thinking, especially about abstract concepts like numbers. It may be challenging to manage finances, balance checkbooks, and keep track of bills and pay them on time. These difficulties may progress to inability to recognize and deal with numbers.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Making judgments and decisions&lt;br /&gt;
+&lt;/strong&gt;Responding effectively to everyday problems, such as food burning on the stove or unexpected driving situations, becomes increasingly challenging.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Planning and performing familiar tasks&lt;br /&gt;
+&lt;/strong&gt;Once-routine activities that require sequential steps, such as planning and cooking a meal or playing a favorite game, become a struggle as the disease progresses. Eventually, people with advanced Alzheimer&apos;s may forget how to perform basic tasks such as dressing and bathing.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Changes in personality and behavior&lt;br /&gt;
+&lt;/strong&gt;Brain changes that occur in Alzheimer&apos;s disease can affect the way you act and how you feel. People with Alzheimer&apos;s may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+	&lt;li&gt;Mood swings&lt;/li&gt;
+	&lt;li&gt;Distrust in others&lt;/li&gt;
+	&lt;li&gt;Irritability and aggressiveness&lt;/li&gt;
+	&lt;li&gt;Changes in sleeping habits&lt;/li&gt;
+	&lt;li&gt;Wandering&lt;/li&gt;
+	&lt;li&gt;Loss of inhibitions&lt;/li&gt;
+	&lt;li&gt;Delusions, such as believing something has been stolen&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scientists believe that for most people, Alzheimer&apos;s disease results from a combination of genetic, lifestyle and environmental factors that affect the brain over time.
+&lt;/p&gt;
+&lt;p&gt;
+Less than 5 percent of the time, Alzheimer&apos;s is caused by specific genetic changes that virtually guarantee a person will develop the disease.
+&lt;/p&gt;
+&lt;p&gt;
+Although the causes of Alzheimer&apos;s are not yet fully understood, its effect on the brain is clear. Alzheimer&apos;s disease damages and kills brain cells. A brain affected by Alzheimer&apos;s disease has many fewer cells and many fewer connections among surviving cells than does a healthy brain.
+&lt;/p&gt;
+&lt;p&gt;
+As more and more brain cells die, Alzheimer&apos;s leads to significant brain shrinkage. When doctors examine Alzheimer&apos;s brain tissue under the microscope, they see two types of abnormalities that are considered hallmarks of the disease:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plaques.&lt;/strong&gt; These clumps of a protein called beta-amyloid may damage and destroy brain cells in several ways, including interfering with cell-to-cell communication. Although the ultimate cause of brain-cell death in Alzheimer&apos;s isn&apos;t known, the collection of beta-amyloid on the outside of brain cells is a prime suspect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tangles.&lt;/strong&gt; Brain cells depend on an internal support and transport system to carry nutrients and other essential materials throughout their long extensions. This system requires the normal structure and functioning of a protein called tau. In Alzheimer&apos;s, threads of tau protein twist into abnormal tangles inside brain cells, leading to failure of the transport system. This failure is also strongly implicated in the decline and death of brain cells.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Age&lt;br /&gt;
+&lt;/strong&gt;Increasing age is the greatest known risk factor for Alzheimer&apos;s. Alzheimer&apos;s is not a part of normal aging, but your risk increases greatly after you reach age 65. Nearly half of those older than age 85 have Alzheimer&apos;s.
+&lt;/p&gt;
+&lt;p&gt;
+People with rare genetic changes that virtually guarantee they&apos;ll develop Alzheimer&apos;s often begin experiencing symptoms in their 40s or 50s.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Family history and genetics&lt;br /&gt;
+&lt;/strong&gt;Your risk of developing Alzheimer&apos;s appears to be somewhat higher if a first-degree relative &amp;mdash; your parent or sibling &amp;mdash; has the disease. Scientists have identified rare changes (mutations) in three genes that virtually guarantee a person who inherits them will develop Alzheimer&apos;s. But these mutations account for less than 5 percent of Alzheimer&apos;s disease. Most genetic mechanisms of Alzheimer&apos;s among families remain largely unexplained. The strongest risk gene researchers have found so far is apolipoprotein e4 (APOE e4). Other risk genes have been identified but not conclusively confirmed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sex&lt;br /&gt;
+&lt;/strong&gt;Women may be more likely than are men to develop Alzheimer&apos;s disease, in part because they live longer.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mild cognitive impairment&lt;br /&gt;
+&lt;/strong&gt;People with mild cognitive impairment (MCI) have memory problems or other symptoms of cognitive decline that are worse than might be expected for their age, but not severe enough to be diagnosed as dementia. Those with MCI have an increased risk &amp;mdash; but not a certainty &amp;mdash; of later developing dementia. Taking action to develop a healthy lifestyle and strategies to compensate for memory loss at this stage may help delay or prevent the progression to dementia.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Past head trauma&lt;br /&gt;
+&lt;/strong&gt;People who&apos;ve had a severe head trauma or repeated head trauma appear to have a greater risk of Alzheimer&apos;s disease.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle and heart health&lt;br /&gt;
+&lt;/strong&gt;There&apos;s no lifestyle factor that&apos;s been conclusively shown to reduce your risk of Alzheimer&apos;s disease.
+&lt;/p&gt;
+&lt;p&gt;
+However, some evidence suggests that the same factors that put you at risk of heart disease may also increase the chance that you&apos;ll develop Alzheimer&apos;s. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lack of exercise&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;High blood cholesterol&lt;/li&gt;
+	&lt;li&gt;Poorly controlled diabetes&lt;/li&gt;
+	&lt;li&gt;A diet lacking in fruits and vegetables&lt;/li&gt;
+	&lt;li&gt;Lack of social engagement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These risk factors are also linked to vascular dementia, a type of dementia caused by damaged blood vessels in the brain. Working with your health care team on a plan to control these factors will help protect your heart &amp;mdash; and may also help reduce your risk of Alzheimer&apos;s disease and vascular dementia.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifelong learning and social engagement&lt;br /&gt;
+&lt;/strong&gt;Studies have found an association between lifelong involvement in mentally and socially stimulating activities and reduced risk of Alzheimer&apos;s disease.
+&lt;/p&gt;
+&lt;p&gt;
+Factors that may reduce your risk of Alzheimer&apos;s include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Higher levels of formal education&lt;/li&gt;
+	&lt;li&gt;A stimulating job&lt;/li&gt;
+	&lt;li&gt;Mentally challenging leisure activities, such as reading, playing games or playing a musical instrument&lt;/li&gt;
+	&lt;li&gt;Frequent social interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Scientists can&apos;t yet explain this link. One theory is that using your brain develops more cell-to-cell connections, which protects your brain against the impact of Alzheimer-related changes. Another theory is that it may be harder to measure cognitive decline in people who exercise their minds frequently or who have more education. Still another explanation is that people with Alzheimer&apos;s disease may be less inclined to seek out stimulating activities years before their disease can be diagnosed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Memory loss, impaired judgment and other cognitive changes caused by Alzheimer&apos;s can complicate treatment for other health conditions. A person with Alzheimer&apos;s disease may not be able to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Communicate that he or she is experiencing pain &amp;mdash; for example, from a dental problem&lt;/li&gt;
+	&lt;li&gt;Report symptoms of another illness&lt;/li&gt;
+	&lt;li&gt;Follow a prescribed treatment plan&lt;/li&gt;
+	&lt;li&gt;Notice or describe medication side effects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As Alzheimer&apos;s disease progresses to later stages, brain changes begin to affect physical functions, such as swallowing, balance, and bowel and bladder control. These effects can increase vulnerability to additional health problems such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pneumonia and other infections.&lt;/strong&gt; Difficulty swallowing may cause people with Alzheimer&apos;s to inhale (aspirate) food or liquid into their airways and lungs, which can lead to pneumonia. Inability to control emptying of the bladder (urinary incontinence) may require placement of a tube to drain and collect urine (urinary catheter). Having a catheter increases your risk of urinary tract infections, which can lead to more-serious, life-threatening infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Injuries from falls.&lt;/strong&gt; People with Alzheimer&apos;s become increasingly vulnerable to falling. Falls can lead to fractures. In addition, falls are a common cause of serious head injuries.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may decide you want to talk to your doctor about memory loss or other cognitive changes, or you may seek care at the urging of a family member who arranges your appointment and goes with you. You&apos;ll probably start by seeing your family doctor or general practitioner, who may refer you to a neurologist, psychiatrist, neuropsychologist or other specialist for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief and there&apos;s often a lot of ground to cover, it&apos;s a good idea to prepare ahead of time. Here are some suggestions to help you get ready for your appointment and understand what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, ask if you need to fast for blood work or if you need to do anything else to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down all of your symptoms.&lt;/strong&gt; Your doctor will want to know details about what&apos;s causing your concern about your memory or mental function. Make notes about some of the most important examples of forgetfulness or other lapses you want to mention. Do you have trouble finding your keys, or have you found your keys in the freezer? Try to remember when you first started to suspect that something might be wrong. If you think your difficulties are getting worse, be ready to explain why.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take along a family member or friend, if possible.&lt;/strong&gt; Corroboration from a relative or trusted friend can play a key role in confirming that your difficulties are apparent to others. Having someone along can also help you recall the information provided during your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your other medical conditions.&lt;/strong&gt; Your doctor will want to know if you&apos;re currently being treated for diabetes, heart disease, past strokes or any other conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all your medications,&lt;/strong&gt; including over-the-counter drugs and vitamins or supplements that you take.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;br /&gt;
+&lt;/strong&gt;Because time with your doctor is limited, writing down a list of questions will help you make the most of your appointment. If you&apos;re seeing your doctor regarding concerns about Alzheimer&apos;s disease, some questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do you think my symptoms are due to Alzheimer&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;If my diagnosis is Alzheimer&apos;s disease, will you or another doctor manage my ongoing care? Can you help me get a plan in place for ongoing care?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? How effective are these treatments, and what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any clinical trials of experimental treatments I should consider?&lt;/li&gt;
+	&lt;li&gt;How will my disease likely progress over time?&lt;/li&gt;
+	&lt;li&gt;Will my new symptoms affect how I manage my other health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material I can take home with me? What websites and support resources do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions you&apos;ve prepared ahead of time, don&apos;t hesitate to ask your doctor to clarify anything you don&apos;t understand. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is also likely to have questions for you. Being ready to respond may free up time to focus on any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What kinds of memory difficulties and mental lapses are you having? When did you first notice them?&lt;/li&gt;
+	&lt;li&gt;Are they steadily getting worse, or are they sometimes better and sometimes worse?&lt;/li&gt;
+	&lt;li&gt;Have you stopped doing certain activities, like managing finances or shopping because these activities were too mentally challenging?&lt;/li&gt;
+	&lt;li&gt;Do you feel any sadder or more anxious than usual?&lt;/li&gt;
+	&lt;li&gt;Have you gotten lost lately on a driving route or in a situation that&apos;s usually familiar to you?&lt;/li&gt;
+	&lt;li&gt;Has anyone expressed unusual concern about your driving?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in the way you tend to react to people or events?&lt;/li&gt;
+	&lt;li&gt;Do you have more energy than usual, less than usual or about the same?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking? Are you taking any vitamins or supplements?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? How much?&lt;/li&gt;
+	&lt;li&gt;What other medical conditions are you being treated for?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any trembling or trouble walking?&lt;/li&gt;
+	&lt;li&gt;Are you having any trouble remembering your medical appointments or when to take your medication?&lt;/li&gt;
+	&lt;li&gt;Have you had your hearing and vision tested recently?&lt;/li&gt;
+	&lt;li&gt;Did anyone else in your family ever have memory trouble? Was anyone ever diagnosed with Alzheimer&apos;s disease or dementia?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific test today that confirms you have Alzheimer&apos;s disease. Your doctor will make a judgment about whether Alzheimer&apos;s is the most likely cause of your symptoms based on the information you provide and results of various tests that can help clarify the diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+Doctors can nearly always determine whether you have dementia, and they can often identify whether your dementia is due to Alzheimer&apos;s disease. Alzheimer&apos;s disease can be diagnosed with complete accuracy only after death, when microscopic examination of the brain reveals the characteristic plaques and tangles.
+&lt;/p&gt;
+&lt;p&gt;
+To help distinguish Alzheimer&apos;s disease from other causes of memory loss, doctors now typically rely on the following types of tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical and neurological exam&lt;br /&gt;
+&lt;/strong&gt;Your doctor will perform a physical exam, and is likely to check your overall neurological health by testing your: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle tone and strength&lt;/li&gt;
+	&lt;li&gt;Ability to get up from a chair and walk across the room&lt;/li&gt;
+	&lt;li&gt;Sense of sight and hearing&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;br /&gt;
+&lt;/strong&gt;Blood tests may help your doctor rule out other potential causes of memory loss and confusion, such as thyroid disorders or vitamin deficiencies.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mental status testing&lt;br /&gt;
+&lt;/strong&gt;Your doctor may conduct a brief mental status test to assess your memory and other thinking skills. Short forms of mental status testing can be done in about 10 minutes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neuropsychological testing&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend a more extensive assessment of your thinking and memory. Longer forms of neuropsychological testing, which can take several hours to complete, may provide additional details about your mental function compared with others&apos; of a similar age and education level. This type of testing may be especially helpful if your doctor thinks you may have a very early stage of Alzheimer&apos;s disease or another dementia. These tests may also help identify patterns of change associated with different types of dementia and can help doctors estimate your ability to safely manage important activities, such as financial and medical decision making. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain imaging&lt;br /&gt;
+&lt;/strong&gt;Images of the brain are now used chiefly to pinpoint visible abnormalities related to conditions other than Alzheimer&apos;s disease &amp;mdash; such as strokes, trauma or tumors &amp;mdash; that may cause cognitive change. New imaging applications &amp;mdash; currently used primarily in major medical centers or in clinical trials &amp;mdash; may enable doctors to detect specific brain changes caused by Alzheimer&apos;s.
+&lt;/p&gt;
+&lt;p&gt;
+Brain-imaging technologies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; For a CT scan, you&apos;ll lie on a narrow table that slides into a small chamber. X-rays pass through your body from various angles, and a computer uses this information to create cross-sectional images (slices) of your brain. It&apos;s currently used chiefly to rule out tumors, strokes and head injuries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses radio waves and a strong magnetic field to produce detailed images of your brain. You lie on a narrow table that slides into a tube-shaped MRI machine, which makes loud banging noises while it produces images. MRIs are painless, but some people feel claustrophobic inside the machine and are disturbed by the noise. MRIs are currently used primarily to rule out other conditions that may account for cognitive symptoms. In the future, they may be used to measure the volume of your brain tissue and whether shrinkage in brain regions implicated in Alzheimer&apos;s disease has occurred.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Positron emission tomography (PET).&lt;/strong&gt; During a PET scan, you&apos;ll be injected in a vein with a low-level radioactive tracer. You&apos;ll lie on a table while an overhead scanner tracks the tracer&apos;s flow through your brain. The tracer may be a special form of glucose (sugar) that shows overall activity in various brain regions. This can show which parts of your brain aren&apos;t functioning well. New PET techniques may be able to detect your brain level of plaques &amp;mdash; one hallmark abnormality linked to Alzheimer&apos;s.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Future diagnostic tests&lt;br /&gt;
+&lt;/strong&gt;Researchers are working with doctors to develop new diagnostic tools to help definitively diagnose Alzheimer&apos;s. Another important goal is to detect the disease before it causes the symptoms targeted by current diagnostic techniques &amp;mdash; at the stage when Alzheimer&apos;s may be most treatable as new drugs are discovered. This stage is called preclinical Alzheimer&apos;s disease. New tools under investigation include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Additional approaches to brain imaging&lt;/li&gt;
+	&lt;li&gt;More-sensitive tests of mental abilities&lt;/li&gt;
+	&lt;li&gt;Measurement of key proteins or protein patterns in blood or spinal fluid (biomarkers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to helping diagnose Alzheimer&apos;s at an earlier stage, biomarkers and new imaging techniques may also be helpful for monitoring how effective future treatments are.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Drugs&lt;br /&gt;
+&lt;/strong&gt;Current Alzheimer&apos;s medications can help for a time with memory symptoms and other cognitive changes. Two types of drugs are currently used to treat cognitive symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholinesterase inhibitors.&lt;/strong&gt; These drugs work by boosting levels of a cell-to-cell communication chemical depleted in the brain by Alzheimer&apos;s disease. Most people can expect to keep their current symptoms at bay for a time. Less than half of those taking these drugs can expect to have any improvement. Commonly prescribed cholinesterase inhibitors include donepezil (Aricept), galantamine (Razadyne) and rivastigmine (Exelon). The main side effects of these drugs include diarrhea, nausea and sleep disturbances.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Memantine (Namenda).&lt;/strong&gt; This drug works in another brain cell communication network and slows the progression of symptoms with moderate to severe Alzheimer&apos;s disease. It&apos;s sometimes used in combination with a cholinesterase inhibitor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Creating a safe and supportive environment&lt;br /&gt;
+&lt;/strong&gt;Adapting the living situation to the needs of a person with Alzheimer&apos;s is an important part of any treatment plan. You can take these steps to support a person&apos;s sense of well-being and continued ability to function: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Remove excess furniture, clutter and throw rugs.&lt;/li&gt;
+	&lt;li&gt;Install sturdy handrails on stairways and in bathrooms.&lt;/li&gt;
+	&lt;li&gt;Ensure that shoes and slippers are comfortable and provide good traction.&lt;/li&gt;
+	&lt;li&gt;Reduce the number of mirrors. People with Alzheimer&apos;s may find images in mirrors confusing or frightening.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Exercise&lt;br /&gt;
+&lt;/strong&gt;Regular exercise is an important part of everybody&apos;s wellness plan &amp;mdash; and those with Alzheimer&apos;s are no exception. Activities like a daily 30-minute walk can help improve mood and maintain the health of joints, muscles and your heart. Exercise can also promote restful sleep and prevent constipation. Make sure that the person with Alzheimer&apos;s carries identification if she or he walks unaccompanied.
+&lt;/p&gt;
+&lt;p&gt;
+People with Alzheimer&apos;s who develop trouble walking may still be able to use a stationary bike or participate in chair exercises. You may be able to find exercise programs geared to older adults on TV or on DVDs. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nutrition&lt;br /&gt;
+&lt;/strong&gt;People with Alzheimer&apos;s may forget to eat, lose interest in preparing meals or not eat a healthy combination of foods. They may also forget to drink enough, leading to dehydration and constipation.
+&lt;/p&gt;
+&lt;p&gt;
+Offer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High-calorie, healthy shakes and smoothies.&lt;/strong&gt; You can supplement milkshakes with protein powders (available at grocery stores, drugstores and discount retailers) or use your blender to make smoothies featuring your favorite ingredients.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Water, juice and other healthy beverages.&lt;/strong&gt; Try to ensure that a person with Alzheimer&apos;s drinks at least several full glasses of liquids every day. Avoid beverages with caffeine, which can increase restlessness, interfere with sleep and trigger frequent need to urinate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Certain nutritional supplements are marketed as &quot;medical foods&quot; specifically to treat Alzheimer&apos;s disease. The Food and Drug Administration (FDA) does not approve products marketed as medical foods. Despite marketing claims, there&apos;s no definitive data showing that any of these supplements is beneficial or safe.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Study results have been mixed about whether diet, exercise or other healthy lifestyle choices can prevent or reverse cognitive decline. But these healthy choices promote good overall health and may play a role in maintaining cognitive health, so there&apos;s no harm in including these strategies in your general wellness plan: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Regular exercise&lt;/strong&gt; has known benefits for heart health and may also help prevent cognitive decline. Exercise may also help improve mood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A diet low in fat and rich in fruits and vegetables&lt;/strong&gt; is another heart-healthy choice that also may help protect cognitive health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Omega-3 fatty acids&lt;/strong&gt; are good for the heart. Most research showing a possible benefit for cognitive health uses fish consumption as a yardstick for the amount of omega-3 fatty acids eaten.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social engagement and intellectual stimulation&lt;/strong&gt; may make life more satisfying and help preserve mental function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Various herbal mixtures, vitamins and other supplements are widely promoted as preparations that may support cognitive health or prevent or delay Alzheimer&apos;s. The National Institutes of Health (NIH) convened an expert panel that concluded current evidence doesn&apos;t support any benefit from taking extra vitamin B, vitamin C, vitamin E, folic acid or beta carotene.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Omega-3 fatty acids&lt;br /&gt;
+&lt;/strong&gt;The NIH panel concluded there is somewhat stronger data &amp;mdash; but not definitive evidence &amp;mdash; that omega-3 fatty acids in fish oil may help prevent cognitive decline.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Vitamin E&lt;br /&gt;
+&lt;/strong&gt;Some physicians prescribe high doses of vitamin E to help treat Alzheimer&apos;s disease, based on a federally funded study showing that vitamin E delayed loss of ability to carry out daily activities and placement in residential care for a few months. Since that study, other research has associated taking vitamin E with an increased risk of death. No one should take vitamin E except under a doctor&apos;s supervision.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ginkgo&lt;br /&gt;
+&lt;/strong&gt;Ginkgo is a plant extract containing several substances believed to be of possible benefit in Alzheimer&apos;s. But a large study funded by the NIH found no effect in preventing or delaying Alzheimer&apos;s disease.
+&lt;/p&gt;
+&lt;p&gt;
+Supplements promoted for cognitive health can interact with medications you&apos;re taking for Alzheimer&apos;s disease or other health conditions. Work closely with your health care team to create a treatment plan that&apos;s right for you. Make sure you understand the risks and benefits of everything it includes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with Alzheimer&apos;s disease experience a mixture of emotions &amp;mdash; confusion, frustration, anger, fear, uncertainty, grief and depression.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re caring for someone with Alzheimer&apos;s, you can help them cope with the disease by being there to listen, reassuring the person that life can still be enjoyed, providing support, and doing your best to help the person retain dignity and self-respect.
+&lt;/p&gt;
+&lt;p&gt;
+A calm and stable home environment can help reduce behavior problems. New situations, noise, large groups of people, being rushed or pressed to remember, or being asked to do complicated tasks can cause anxiety. As a person with Alzheimer&apos;s becomes upset, the ability to think clearly declines even more.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Caring for the caregiver&lt;br /&gt;
+&lt;/strong&gt;Caring for a person with Alzheimer&apos;s disease is physically and emotionally demanding. Feelings of anger and guilt, stress and discouragement, worry and grief, and social isolation are common. Caregiving can even take a toll on the caregiver&apos;s physical health. But paying attention to your own needs and well-being is one of the most important things you can do for yourself and for the person with Alzheimer&apos;s. If you&apos;re a caregiver for someone with Alzheimer&apos;s, you can help yourself by:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Learning as much about the disease as you can&lt;/li&gt;
+	&lt;li&gt;Asking questions of doctors, social workers and others involved in the care of your loved one&lt;/li&gt;
+	&lt;li&gt;Calling on friends or other family members for help when you need it&lt;/li&gt;
+	&lt;li&gt;Taking a break every day&lt;/li&gt;
+	&lt;li&gt;Spending time with your friends&lt;/li&gt;
+	&lt;li&gt;Taking care of your health by seeing your own doctors on schedule, eating healthy meals and getting exercise&lt;/li&gt;
+	&lt;li&gt;Joining a support group&lt;/li&gt;
+	&lt;li&gt;Making use of a local adult day center, if possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people with Alzheimer&apos;s and their families benefit from counseling or local support services. Contact your local Alzheimer&apos;s Association affiliate to connect with support groups, doctors, resources and referrals, home care agencies, residential care facilities, a telephone help line, and educational seminars.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Right now, there&apos;s no proven way to prevent Alzheimer&apos;s disease. Research into prevention strategies is ongoing. The strongest evidence so far suggests that you may be able to lower your risk of Alzheimer&apos;s disease by reducing your risk of heart disease. Many of the same factors that increase your risk of heart disease can also increase your risk of Alzheimer&apos;s disease and vascular dementia. Important factors that may be involved include high blood pressure, high blood cholesterol, excess weight and diabetes.
+&lt;/p&gt;
+&lt;p&gt;
+New programs targeted to people at high risk of dementia are being developed. These multicomponent programs encourage physical activity, cognitive stimulation, social engagement and a healthy diet. They also teach memory compensation strategies that help optimize daily function even if brain changes progress. Keeping active &amp;mdash; physically, mentally and socially &amp;mdash; may make your life more enjoyable and may also help reduce the risk of Alzheimer&apos;s disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Alzheimer&apos;s disease
+	</Title>
+	<Abstract>
+		Alzheimer&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this debilitating disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01709" LinkType="Internal" ObjectID="B8B48599-E7FF-0DBD-14F2FAC2EB12A6C0" Title="Oophorectomy (ovary removal): A risk factor for dementia?" Url="http://www.mayoclinic.com/health/oophorectomy/AN01709" />
+		<LinkItem ContentType="PodCast" DocID="MY00334" LinkType="Internal" ObjectID="F71EFE92-E7FF-0DBD-11C82D8072085084" Title="Podcast: Caregiving tips for Alzheimer&apos;s disease" Url="http://www.mayoclinic.com/health/alzheimers-caregiving/MY00334" />
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="Answer" DocID="AN01684" LinkType="Internal" ObjectID="3B686670-E7FF-0DBD-1C31B89E695D1746" Title="Phantosmia: What causes olfactory hallucinations?" Url="http://www.mayoclinic.com/health/phantosmia/AN01684" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="Article" DocID="AZ00030" LinkType="Internal" ObjectID="D5DACA0C-5CC6-4668-A93B8A1BBAA0A77F" Title="Alzheimer&apos;s: Managing sleep problems" Url="http://www.mayoclinic.com/health/alzheimers/AZ00030" />
+		<LinkItem ContentType="Article" DocID="HQ00213" LinkType="Internal" ObjectID="CF51EDFA-83FE-4292-A2D90C07588B6F90" Title="Alzheimer&apos;s: Tips to make holidays more enjoyable" Url="http://www.mayoclinic.com/health/alzheimers/HQ00213" />
+		<LinkItem ContentType="Article" DocID="AZ00029" LinkType="Internal" ObjectID="B5BA1786-98CC-413F-8C8BF2A1E922045C" Title="Alzheimer&apos;s: 7 tips for medical visits" Url="http://www.mayoclinic.com/health/alzheimers/AZ00029" />
+		<LinkItem ContentType="Article" DocID="MY01266" LinkType="Internal" ObjectID="AA98CBAB-9E7C-71EE-1C043F7B5C927F02" Title="Caregiving: Tips for long-distance caregivers" Url="http://www.mayoclinic.com/health/caregiving/MY01266" />
+		<LinkItem ContentType="Article" DocID="MY01710" LinkType="Internal" ObjectID="9C1A59DE-FE10-7036-DA60A2D4C43C5905" Title="Home safety tips: Preparing for Alzheimer&apos;s caregiving" Url="http://www.mayoclinic.com/health/home-safety-tips/MY01710" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="MY01231" LinkType="Internal" ObjectID="2F3ED231-0C00-8975-4818600153B102AE" Title="Caregiver stress: Tips for taking care of yourself" Url="http://www.mayoclinic.com/health/caregiver-stress/MY01231" />
+		<LinkItem ContentType="Article" DocID="MY01938" LinkType="Internal" ObjectID="14CED895-A204-2452-8908242FA527CCCB" Title="Adult day service: What you need to know" Url="http://www.mayoclinic.com/health/adult-day-service/MY01938" />
+		<LinkItem ContentType="Article" DocID="MY01767" LinkType="Internal" ObjectID="047FC00E-F79B-FB41-3B27C38D95E48E22" Title="Sharing Alzheimer&apos;s diagnosis: Tips for caregivers" Url="http://www.mayoclinic.com/health/sharing-alzheimers-diagnosis/MY01767" />
+		<LinkItem ContentType="PodCast" DocID="MY00335" LinkType="Internal" ObjectID="F7228618-E7FF-0DBD-189B1E1109DC5FA3" Title="Podcast: Tips for slowing the mental decline of Alzheimer&apos;s" Url="http://www.mayoclinic.com/health/alzheimers/MY00335" />
+		<LinkItem ContentType="Answer" DocID="AN02022" LinkType="Internal" ObjectID="EC0E480F-AB0C-D730-A6EA666C823EBC1E" Title="Huperzine A: Can it treat Alzheimer&apos;s?" Url="http://www.mayoclinic.com/health/huperzine-a/AN02022" />
+		<LinkItem ContentType="Answer" DocID="AN02111" LinkType="Internal" ObjectID="DC848C63-C5FD-24BF-69CF41FC25FE6F5D" Title="Elder care for Alzheimer&apos;s: Choosing a provider" Url="http://www.mayoclinic.com/health/elder-care/AN02111" />
+		<LinkItem ContentType="Answer" DocID="AN01592" LinkType="Internal" ObjectID="BDBBF36B-E7FF-0DBD-1281C4413A2B84CD" Title="Phosphatidylserine supplements: Can they improve memory?" Url="http://www.mayoclinic.com/health/phosphatidylserine/AN01592" />
+		<LinkItem ContentType="Answer" DocID="AN01710" LinkType="Internal" ObjectID="B8B555B7-E7FF-0DBD-1CAC0239C00B61AE" Title="Alzheimer&apos;s: Can a head injury increase my risk?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN01710" />
+		<LinkItem ContentType="Answer" DocID="HQ01463" LinkType="Internal" ObjectID="B88FCF99-9574-4008-8FCA7E8B65C4E64D" Title="Sundowning: Late-day confusion" Url="http://www.mayoclinic.com/health/sundowning/HQ01463" />
+		<LinkItem ContentType="Answer" DocID="AN01956" LinkType="Internal" ObjectID="AC9BA6BC-E7FF-0DBD-1AF488F74B03D6F8" Title="Alzheimer&apos;s nose spray: New Alzheimer&apos;s treatment?" Url="http://www.mayoclinic.com/health/alzheimers-nose-spray/AN01956" />
+		<LinkItem ContentType="Answer" DocID="AN01981" LinkType="Internal" ObjectID="A896877F-0AC6-8BE9-9A28AB844E68D9D7" Title="Ginkgo biloba: Can it prevent memory loss?" Url="http://www.mayoclinic.com/health/ginkgo-biloba-memory-loss/AN01981" />
+		<LinkItem ContentType="Answer" DocID="AN01993" LinkType="Internal" ObjectID="86274491-E541-9324-BB3CD933298BF408" Title="Alzheimer&apos;s test: Detection at the earliest stages" Url="http://www.mayoclinic.com/health/alzheimers-test/AN01993" />
+		<LinkItem ContentType="Answer" DocID="AN01992" LinkType="Internal" ObjectID="86238456-F48D-B500-9AE28FDDC4B45D43" Title="Axona: Medical food to treat Alzheimer&apos;s" Url="http://www.mayoclinic.com/health/Axona/AN01992" />
+		<LinkItem ContentType="Answer" DocID="AN02026" LinkType="Internal" ObjectID="8586282B-DBFF-E70D-EDD1DE6F3910A016" Title="Alzheimer&apos;s disease: Can exercise prevent memory loss?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN02026" />
+		<LinkItem ContentType="Answer" DocID="AN02184" LinkType="Internal" ObjectID="4D620388-D62F-066D-99F54DDE52C2837C" Title="Music and Alzheimer&apos;s: Can it help?" Url="http://www.mayoclinic.com/health/music-and-alzheimers/AN02184" />
+		<LinkItem ContentType="Answer" DocID="AN01602" LinkType="Internal" ObjectID="482BBA2E-E7FF-0DBD-16A42B9C3CED05EC" Title="Folic acid supplements: Can they slow cognitive decline?" Url="http://www.mayoclinic.com/health/folic-acid-supplements/AN01602" />
+		<LinkItem ContentType="Answer" DocID="AN01206" LinkType="Internal" ObjectID="37AB9CFF-996B-414E-95E4517F190D001F" Title="Rapidly progressing Alzheimer&apos;s: Something else?" Url="http://www.mayoclinic.com/health/alzheimers/AN01206" />
+		<LinkItem ContentType="Answer" DocID="AN00478" LinkType="Internal" ObjectID="2A864858-AA71-4C25-BABDC828D5AECFAD" Title="Vitamin B-12: Can it improve memory in Alzheimer&apos;s?" Url="http://www.mayoclinic.com/health/alzheimers/AN00478" />
+		<LinkItem ContentType="Answer" DocID="AN02036" LinkType="Internal" ObjectID="24EE84F4-9E0B-914A-4BE6023B3D44C191" Title="Alzheimer&apos;s: Can a Mediterranean diet lower my risk?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN02036" />
+		<LinkItem ContentType="Answer" DocID="AN02158" LinkType="Internal" ObjectID="1FCC546A-C226-0B0B-AB94D76AC5027ADF" Title="Benefits of being bilingual: Delay Alzheimer&apos;s?" Url="http://www.mayoclinic.com/health/benefits-of-being-bilingual/AN02158" />
+		<LinkItem ContentType="Answer" DocID="AN02099" LinkType="Internal" ObjectID="135464A2-F9A6-13C9-A1380A240650F701" Title="Alzheimer&apos;s prevention: Does it exist?" Url="http://www.mayoclinic.com/health/alzheimers-prevention/AN02099" />
+		<LinkItem ContentType="Article" DocID="AZ00041" LinkType="Internal" ObjectID="FD1D1154-E7FF-0DBD-19C90CADEF308EB0" Title="Alzheimer&apos;s stages: How the disease progresses" Url="http://www.mayoclinic.com/health/alzheimers-stages/AZ00041" />
+		<LinkItem ContentType="Article" DocID="HQ00212" LinkType="Internal" ObjectID="F74469C4-4368-45E2-8D43DA4D937035E8" Title="Alzheimer&apos;s or depression: Could it be both?" Url="http://www.mayoclinic.com/health/alzheimers/HQ00212" />
+		<LinkItem ContentType="Article" DocID="AZ00009" LinkType="Internal" ObjectID="F708B0C2-73AF-4EF3-A3C5730F138DC167" Title="Early-onset Alzheimer&apos;s: When symptoms begin before age 65" Url="http://www.mayoclinic.com/health/alzheimers/AZ00009" />
+		<LinkItem ContentType="Article" DocID="AZ00015" LinkType="Internal" ObjectID="E5A1ECDC-0403-48A2-8C8C7D5F789C336B" Title="Alzheimer&apos;s: Drugs help manage symptoms" Url="http://www.mayoclinic.com/health/alzheimers/AZ00015" />
+		<LinkItem ContentType="Article" DocID="AZ00017" LinkType="Internal" ObjectID="E25F0DAA-58EF-4224-8DF91E3D1C206A5E" Title="Diagnosing Alzheimer&apos;s: An interview with a Mayo Clinic specialist" Url="http://www.mayoclinic.com/health/alzheimers/AZ00017" />
+		<LinkItem ContentType="Article" DocID="AZ00048" LinkType="Internal" ObjectID="D0EC8260-E7FF-0DBD-1C0FC117A1B46466" Title="Alzheimer&apos;s treatments: What&apos;s on the horizon?" Url="http://www.mayoclinic.com/health/alzheimers-treatments/AZ00048" />
+		<LinkItem ContentType="Article" DocID="AZ00050" LinkType="Internal" ObjectID="A56F5EE2-E7FF-0DBD-1856E36F1B77296A" Title="Diabetes and Alzheimer&apos;s linked" Url="http://www.mayoclinic.com/health/diabetes-and-alzheimers/AZ00050" />
+		<LinkItem ContentType="Article" DocID="AZ00047" LinkType="Internal" ObjectID="8EC1E4BF-E7FF-0DBD-171A288DEAC682A3" Title="Alzheimer&apos;s genes: Are you at risk?" Url="http://www.mayoclinic.com/health/alzheimers-genes/AZ00047" />
+		<LinkItem ContentType="Article" DocID="HQ00094" LinkType="Internal" ObjectID="85435FF5-08E0-41C4-9D1E961918167886" Title="Memory loss: When to seek help" Url="http://www.mayoclinic.com/health/memory-loss/HQ00094" />
+	</RelatedLinksBox>
+</Disease>

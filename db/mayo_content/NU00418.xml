@@ -1,0 +1,200 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00418
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/NU00418
+		</OriginalURL>
+		<UpdateDate>
+			2008-07-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			F996D6AF-67E7-4993-B9ED37E4A759A7D6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Pasta with marinara sauce and grilled vegetables
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		4
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Try this recipe as an alternative to spaghetti and meatballs. With the homemade marinara sauce and chopped grilled vegetables, you cut the calories in half and reduce the fat by three-fourths.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;To make the marinara sauce, in a heavy skillet, heat 1 tablespoon of the olive oil over medium-high heat. Add tomatoes, salt, garlic, chopped onions, basil, sugar, oregano and black pepper. Simmer uncovered until the sauce thickens, about 30 minutes.&lt;/p&gt;
+
+&lt;p&gt;Prepare a hot fire in a charcoal grill or heat a gas grill or broiler (grill). Away from the heat source, lightly coat the grill rack or broiler pan with cooking spray. Position the cooking rack 4 to 6 inches from the heat source.&lt;/p&gt;
+
+&lt;p&gt;Brush the red peppers, squash, zucchini and sweet onion with the remaining olive oil. Place the vegetables on the grill rack or broiler pan. Grill or broil, turning as needed, until the vegetables are tender, about 5 to 8 minutes. Transfer the vegetables to a bowl and set aside.&lt;/p&gt;
+
+&lt;p&gt;Fill a large pot 3/4 full with water and bring to a boil. Add the pasta and cook until al dente (tender), about 10 to 12 minutes, or according to package directions. Drain the pasta thoroughly.&lt;/p&gt;
+
+&lt;p&gt;Divide the pasta evenly among individual plates. Top with the marinara sauce and grilled vegetables. Serve immediately.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;2 tablespoons extra-virgin olive oil&lt;br /&gt;
+10 large fresh tomatoes, peeled and diced&lt;br /&gt;
+1 teaspoon salt&lt;br /&gt;
+1/2 teaspoon minced garlic&lt;br /&gt;
+2 tablespoons chopped onion&lt;br /&gt;
+1 tablespoon chopped fresh basil or 1 teaspoon dried basil&lt;br /&gt;
+1 teaspoon sugar&lt;br /&gt;
+1/2 teaspoon dried oregano&lt;br /&gt;
+1/8 teaspoon freshly ground black pepper&lt;br /&gt;
+2 red peppers, sliced into chunks&lt;br /&gt;
+1 yellow summer squash, sliced lengthwise&lt;br /&gt;
+1 zucchini, sliced lengthwise&lt;br /&gt;
+1 sweet onion, sliced into 1/4-inch-wide rounds&lt;br /&gt;
+8 ounces whole-wheat spaghetti&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products">
+				2
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				3
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				2
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				2
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				3
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				270
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				46 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				4 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				8 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size" />
+			<Sodium Label="Sodium">
+				380 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				6 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 4
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Pasta
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Course">
+			Main dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Vegetables
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Grilling recipes galore
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+	<BillboardGraphic alt="Pasta with marinara sauce and grilled vegetables" height="100" uri="/images/billboardsmall/re1_pastaandmarinara.jpg" width="100" />
+</Recipe>

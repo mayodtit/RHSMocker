@@ -1,0 +1,72 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00357
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00357
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-02-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3155" Title="First aid">
+					<Keyword MCVID="3158" Title="Eye injuries" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3327" Title="First aid">
+				<Keyword MCVID="3917" Title="Eyes and vision">
+					<Keyword MCVID="3918" Title="Black eye" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EA5954B9-E7FF-0DBD-10C6BAFEF20F54A0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				black eye
+			</MetaKeyword>
+			<MetaKeyword>
+				blackeye
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Have a black eye? Here&apos;s what to do
+	</Title>
+	<Body>
+		&lt;p&gt;Most black eye injuries aren&apos;t serious. The discoloration is caused by bleeding under the skin around the eye. To take care of a black eye: Gently apply a cold pack or a cloth filled with ice to the area around your eye. Don&apos;t press on your eye. Repeat several times a day for one to two days. Seek medical care immediately if you have vision problems, severe pain, or bleeding in your eye or from your nose.&lt;/p&gt;
+	</Body>
+</HealthTip>

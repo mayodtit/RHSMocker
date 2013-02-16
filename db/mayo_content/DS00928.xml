@@ -1,0 +1,260 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00928
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/posterior-cruciate-ligament/DS00928
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2277" Title="Knee">
+						<Keyword MCVID="2280" Title="Posterior cruciate ligament injury" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F0B7CF79-E7FF-0DBD-12974A8297602044
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				PCL injury
+			</MetaKeyword>
+			<MetaKeyword>
+				PCL tear
+			</MetaKeyword>
+			<MetaKeyword>
+				knee injury
+			</MetaKeyword>
+			<MetaKeyword>
+				torn ligament
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Posterior cruciate ligament injury happens far less often than does injury to the knee&apos;s better known counterpart, the anterior cruciate ligament (ACL). The posterior cruciate ligament and ACL help to hold your knee together. If either ligament is torn, you may experience pain, swelling and a feeling of instability.
+&lt;/p&gt;
+&lt;p&gt;
+Ligaments are strong bands of tissue that attach one bone to another. The cruciate (KROO-she-ate) ligaments connect the thighbone (femur) to the shinbone (tibia). The anterior and posterior cruciate ligaments form an &quot;X&quot; in the center of the knee.
+&lt;/p&gt;
+&lt;p&gt;
+While a posterior cruciate ligament injury generally causes less pain, disability and knee instability than does an ACL tear, it can still sideline you for several weeks or months.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cruciate ligaments in the knee 
+" Caption="Two of the four ligaments that connect the thighbone (femur) to the shinbone (tibia) are the posterior cruciate ligament (PCL) and the anterior cruciate ligament (ACL). The PCL and ACL cross one another in the middle of the knee as they join these leg bones together. 
+" Height="60" Title="Posterior cruciate ligament" URI="/images/image_popup/thumbs/mcdc7_posterior_cruciatethu.jpg" Width="60" />
+				<Image Alt="Illustration showing cruciate ligaments in the knee 
+" Caption="Two of the four ligaments that connect the thighbone (femur) to the shinbone (tibia) are the posterior cruciate ligament (PCL) and the anterior cruciate ligament (ACL). The PCL and ACL cross one another in the middle of the knee as they join these leg bones together. 
+" Height="416" Title="Posterior cruciate ligament" URI="/images/image_popup/mcdc7_posterior_cruciate.jpg" Width="400" />
+				<HTML>
+					Two of the four ligaments that connect the thighbone (femur) to the shinbone (tibia) are the posterior cruciate ligament (PCL) and the anterior cruciate ligament (ACL). The PCL and ACL cross one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a posterior cruciate ligament injury may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mild to moderate pain in the knee&lt;/li&gt;
+	&lt;li&gt;Rapid onset of knee swelling and tenderness (within three hours of the injury)&lt;/li&gt;
+	&lt;li&gt;Pain with kneeling or squatting&lt;/li&gt;
+	&lt;li&gt;A slight limp or difficulty walking&lt;/li&gt;
+	&lt;li&gt;Feeling of instability or looseness in the knee, or the knee gives way during activities&lt;/li&gt;
+	&lt;li&gt;Pain with running, slowing down, or walking up or down stairs or ramps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms may be mild or vague, and you might not even notice anything wrong. Over time, the pain may worsen and your knee may feel more unstable. If other parts of the knee are affected, your signs and symptoms will likely be more severe.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The posterior cruciate ligament can tear if your shinbone is hit hard just below the knee, or if you fall on a bent knee. These injuries are most common during:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Motor vehicle accidents.&lt;/strong&gt; A so-called &quot;dashboard injury&quot; occurs when the driver&apos;s or passenger&apos;s bent knee slams against the dashboard, pushing in the shinbone just below the knee and causing the posterior cruciate ligament to tear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Contact sports.&lt;/strong&gt; Athletes in sports such as football or soccer may tear their posterior cruciate ligament when they fall on a bent knee with their foot pointed down. The shinbone hits the ground first and it moves backward. Being tackled when your knee is bent also can cause this injury.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other causes include bending or extending your knee past its normal position and getting hit on the side of the knee while your leg is twisted.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of experiencing a posterior cruciate ligament injury include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Men are more likely than are women to injure their posterior cruciate ligament.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports.&lt;/strong&gt; Participation in sports such as football or soccer may increase your risk of a posterior cruciate ligament injury.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In many cases, other structures within the knee &amp;mdash; including other ligaments or cartilage &amp;mdash; also are damaged when you experience a posterior cruciate ligament injury. Depending on how many of these structures were damaged, you may experience some long-term knee pain and instability. You may also be at higher risk of eventually developing arthritis in your affected knee.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your knee injury is severe, you may need to seek emergency medical care. In some cases, however, you may initially consult your family physician. He or she may refer you to a doctor who specializes in knee injuries or sports medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had in the past&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did you injure your knee? When did it happen?&lt;/li&gt;
+	&lt;li&gt;What symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Do you have a history of previous knee injuries?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may press on your knee to feel for injury, looseness or fluid in the joint from bleeding. He or she may move your knee, leg or foot in different directions and ask you to stand and walk to see if your knee stays in proper position. Your doctor will compare your injured leg with the healthy one to look for any sagging or abnormal movement in the knee or shinbone.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, your doctor may suggest one or more of the following imaging tests:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-ray.&lt;/strong&gt; While an X-ray can&apos;t detect ligament damage, it can reveal bone fractures. People with posterior cruciate ligament injuries sometimes experience avulsion fractures &amp;mdash; in which a small chunk of bone, attached to the ligament, pulls away from the main bone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This painless procedure uses radio waves and a strong magnetic field to create computer images of the soft tissues of your body. An MRI scan can clearly show a posterior cruciate ligament tear and determine if other knee ligaments or cartilage also are injured.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthroscopy.&lt;/strong&gt; If it&apos;s unclear how extensive your knee injury is, your doctor may use a surgical technique called arthroscopy to look inside your knee joint. A tiny video camera is inserted into your knee joint through a small incision. The doctor views images of the inside of the joint on a computer monitor or TV screen.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment depends on the extent of your injury and whether it just happened or if you&apos;ve had it for a while. In most cases, surgery isn&apos;t required.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Over-the-counter pain relievers, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve), can help relieve pain and reduce swelling.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;A physical therapist can teach you exercises that will help make your knee stronger and improve its function. You may also need a knee brace or crutches during your rehabilitation.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery and other procedures&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Joint aspiration.&lt;/strong&gt; This procedure uses a syringe to remove fluid from the joint. Aspiration may be performed if you have significant swelling of the knee that interferes with the joint&apos;s range of motion and your ability to use your knee or leg muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; If your injury is severe &amp;mdash; especially if it&apos;s combined with other torn knee ligaments, cartilage damage or a broken bone &amp;mdash; you may need surgery to reconstruct the ligament. This surgery usually can be performed arthroscopically by inserting a fiber-optic camera and long, slender surgical tools through several small incisions around the knee.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild to moderate joint injuries often are helped by following the R.I.C.E. model &amp;mdash; rest, ice, compression and elevation.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Stay off your injured knee and protect it from further damage. You may need to use crutches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; Apply ice packs to your knee for 20 to 30 minutes every three to four hours for two to three days.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; Wrap an elastic bandage around your knee.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; Lie down and place a pillow under your knee, to help reduce swelling.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Posterior cruciate ligament injury
+	</Title>
+	<Abstract>
+		Posterior cruciate ligament (PCL) injury &amp;mdash; Comprehensive overview covers knee symptoms, causes, treatment and prevention.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00130" LinkType="Internal" ObjectID="CAC71B81-E7FF-0DBD-1777D6F6B79B2937" Title="Arthroscopy" Url="http://www.mayoclinic.com/health/arthroscopy/MY00130" />
+		<LinkItem ContentType="Video" DocID="MM00006" LinkType="Internal" ObjectID="76FAF193-F222-4AA8-AE8D3349DCEEBE2E" Title="Video: Arthroscopic knee surgery" Url="http://www.mayoclinic.com/health/arthroscopic-knee-surgery/MM00006" />
+		<LinkItem ContentType="Disease" DocID="DS00555" LinkType="Internal" ObjectID="B65CF34E-35A3-4045-93DB0750884250C0" Title="Knee pain" Url="http://www.mayoclinic.com/health/knee-pain/DS00555" />
+	</RelatedLinksBox>
+</Disease>

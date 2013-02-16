@@ -1,0 +1,246 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01165
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dislocated-elbow/DS01165
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-05
+		</UpdateDate>
+		<PublicationDate>
+			2010-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3526" Title="16 months to 2 years toddler" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1979" Title="Dislocation">
+							<Keyword MCVID="4628" Title="Dislocated elbow" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D9FC491E-0687-1E90-97C154D2DB39BA0F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dislocated elbow
+			</MetaKeyword>
+			<MetaKeyword>
+				elbow dislocation
+			</MetaKeyword>
+			<MetaKeyword>
+				elbow injuries
+			</MetaKeyword>
+			<MetaKeyword>
+				elbow injury
+			</MetaKeyword>
+			<MetaKeyword>
+				nursemaids&apos; elbow
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A dislocated elbow occurs when the bones that make up the joint are forced out of alignment &amp;mdash; typically when a person lands on an outstretched hand during a fall. 
+&lt;/p&gt;
+&lt;p&gt;
+Toddlers may experience a dislocated elbow, sometimes known as nursemaid&apos;s elbow, if they are lifted or swung by their forearms.
+&lt;/p&gt;
+&lt;p&gt;
+If you or your child has a dislocated elbow, seek immediate medical attention. Complications can occur if the dislocated elbow pinches or traps the blood vessels and nerves that serve the lower arm and hand. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, a dislocated elbow can be realigned without surgery. However, the impact that caused the elbow to dislocate also can cause bone fractures within the joint, so surgical repair may be necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of a dislocated elbow commonly include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme pain&lt;/li&gt;
+	&lt;li&gt;Obvious distortion of the joint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, the elbow may be only partially dislocated, which can cause bruising and pain where the ligaments were stretched or torn.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek immediate medical attention if you or your child has experienced a dislocated elbow.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In adults, the most common causes of a dislocated elbow include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Falling onto an outstretched hand can pop the upper arm bone out of alignment within the elbow joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Motor vehicle accidents.&lt;/strong&gt; The same type of impact can occur when passengers in motor vehicle accidents reach forward to brace themselves before a collision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In young children, the injury often occurs when an extra pulling motion is applied to an outstretched arm. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Improper lifting.&lt;/strong&gt; Trying to lift or swing a young child by the arms can cause the elbow to dislocate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden pulling.&lt;/strong&gt; Having the child suddenly step off a curb or stairstep as you&apos;re holding his or her hand can pull the elbow out of alignment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The elbows of young children are much more flexible than those of adults, so it&apos;s easier for younger elbows to become dislocated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Dislocated elbows occur more commonly in males than in females.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heredity.&lt;/strong&gt; Some people are born with elbow ligaments that are looser than those of most people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports participation.&lt;/strong&gt; Many elbow dislocations are sports-related, but no one sport seems to be more risky than another.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of a dislocated elbow may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pinched nerves.&lt;/strong&gt; Rarely, nerves that travel across the elbow can become pinched or trapped between the dislocated bones or within the joint when the bones are realigned. This can cause numbness in the arm and hand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trapped arteries.&lt;/strong&gt; Also in rare cases, blood vessels that supply the arm and hand can become pinched or trapped between the dislocated bones or within the realigned joint. A lack of blood supply can cause severe pain and permanent tissue damage in the arm and hand.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avulsion fractures.&lt;/strong&gt; In some elbow dislocations, a stretched ligament will pull off a tiny bit of bone from its attachment point. This type of damage is more common in children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoarthritis.&lt;/strong&gt; The dislocated joint may be at higher risk of developing osteoarthritis in the future.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has a dislocated elbow, you&apos;ll probably seek medical attention in a hospital&apos;s emergency department or at an urgent care center. If the injury involves broken bones, you may be referred to an orthopedic surgeon. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the exam, your doctor may ask how the injury occurred and if the joint has ever been dislocated before. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will carefully examine the injured joint and check to see if the arm or hand is cold or numb, which would indicate entrapment of an artery or nerve. He or she will probably try to maneuver the bones back into place after looking at X-rays to make sure there are no broken bones in the joint. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some dislocated elbows go back into place by themselves. Most, however, need a doctor to manipulate the bones back into their proper alignment. This procedure is called a reduction.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Before the bones are manipulated back into place, you or your child may be given medications to relieve pain and relax muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;After the joint&apos;s bones are back in their normal alignment, you or your child may have to wear a splint or sling for a few weeks. You may also need to do physical therapy exercises to improve the joint&apos;s range of motion and strength. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery may be required if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Any of the dislocated bones have also been broken&lt;/li&gt;
+	&lt;li&gt;Torn ligaments need to be reattached&lt;/li&gt;
+	&lt;li&gt;Damaged nerves or blood vessels require repair&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Avoid lifting or swinging small children by their arms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dislocated elbow
+	</Title>
+	<Abstract>
+		Dislocated elbow &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of this common elbow injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00200" LinkType="Internal" ObjectID="D0484D8D-6FCF-4E5C-925659DEE21639B2" Title="Avulsion fracture: How is it treated?" Url="http://www.mayoclinic.com/health/avulsion-fracture/AN00200" />
+		<LinkItem ContentType="Disease" DocID="DS00239" LinkType="Internal" ObjectID="0842878A-8A8B-44C0-B17D678FE2727164" Title="Dislocation" Url="http://www.mayoclinic.com/health/dislocation/DS00239" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+	</RelatedLinksBox>
+</Disease>

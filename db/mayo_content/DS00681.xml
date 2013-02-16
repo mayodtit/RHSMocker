@@ -1,0 +1,296 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00681
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/kyphosis/DS00681
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1398" Title="Spine">
+						<Keyword MCVID="2708" Title="Kyphosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B2C01FB1-2A5D-9994-EA277758A172833C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				kyphosis
+			</MetaKeyword>
+			<MetaKeyword>
+				Scheuermann kyphosis
+			</MetaKeyword>
+			<MetaKeyword>
+				Scheuermann&apos;s kyphosis
+			</MetaKeyword>
+			<MetaKeyword>
+				roundback
+			</MetaKeyword>
+			<MetaKeyword>
+				round back
+			</MetaKeyword>
+			<MetaKeyword>
+				hunchback
+			</MetaKeyword>
+			<MetaKeyword>
+				hunch back
+			</MetaKeyword>
+			<MetaKeyword>
+				hunched back
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperkyphosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kyphosis is a forward rounding of your upper back. Some rounding is normal, but the term &quot;kyphosis&quot; usually refers to an exaggerated rounding &amp;mdash; sometimes called round back or hunchback. While kyphosis can occur at any age, it&apos;s most common in older women where the deformity is known as a dowager&apos;s hump. 
+&lt;/p&gt;
+&lt;p&gt;
+Age-related kyphosis often occurs after osteoporosis weakens spinal bones to the point that they crack and compress. A few types of kyphosis target infants or teens. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild kyphosis may cause few problems. But severe cases can affect your lungs, nerves, and other tissues and organs, causing pain and other problems. Treatment for kyphosis depends on your age, the cause of the curvature and its effects. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing kyphosis 
+" Caption="An exaggerated outward curve of the upper spine is called kyphosis. 
+" Height="60" Title="Kyphosis" URI="/images/image_popup/thumbs/mcdc7_kyphosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing kyphosis 
+" Caption="An exaggerated outward curve of the upper spine is called kyphosis. 
+" Height="427" Title="Kyphosis" URI="/images/image_popup/mcdc7_kyphosis.jpg" Width="400" />
+				<HTML>
+					An exaggerated outward curve of the upper spine is called kyphosis. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to an abnormally curved spine, kyphosis can also cause back pain and stiffness in some people. Mild cases of kyphosis may produce no noticeable signs or symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you notice an exaggerated outward curve in your upper back or in your child&apos;s spine.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The individual bones (vertebrae) that make up a healthy spine look like squares stacked in a column. Kyphosis occurs when the vertebrae in the upper back become more wedge-shaped. This deformity can be caused by a variety of problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis.&lt;/strong&gt; This bone-thinning disorder can result in crushed vertebrae (compression fractures). Osteoporosis is most common in elderly women and in people who have taken high doses of corticosteroids for long periods of time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disk degeneration.&lt;/strong&gt; Soft circular disks act as cushions between spinal vertebrae. With age, these disks dry out and shrink, which often worsens kyphosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer and cancer treatments&lt;/strong&gt;. Cancer in the spine can weaken vertebrae and make them more prone to compression fractures, as can cancer treatments such as chemotherapy and radiation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scheuermann&apos;s disease.&lt;/strong&gt; The kyphosis associated with Scheuermann&apos;s disease, a hereditary disorder, typically begins during the growth spurt that occurs before puberty. Boys are affected more often than are girls.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth defects.&lt;/strong&gt; In rare cases, a baby&apos;s spinal column doesn&apos;t develop properly in the womb, which can result in kyphosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An exaggerated curve in the upper spine also can be caused by slouching. Called postural kyphosis, this problem doesn&apos;t involve any deformities in the spine. It&apos;s most common in teenagers, particularly girls.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain groups of people are at higher risk of kyphosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Adolescent girls with poor posture are at greater risk of postural kyphosis.&lt;/li&gt;
+	&lt;li&gt;Boys between the ages of 10 and 15 are at greater risk of Scheuermann&apos;s kyphosis.&lt;/li&gt;
+	&lt;li&gt;Older adults with osteoporosis are at greater risk of spinal fractures that can contribute to kyphosis.&lt;/li&gt;
+	&lt;li&gt;People who have connective tissue disorders, such as Marfan syndrome, also are at greater risk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kyphosis may cause the following complications:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Body image problems.&lt;/strong&gt; Adolescents, especially, may develop a poor body image from having a rounded back or from wearing a brace to correct the condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Back pain.&lt;/strong&gt; In some cases, the misalignment of the spine can lead to pain, which can become severe and disabling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing difficulties.&lt;/strong&gt; In severe cases, the curve may cause the rib cage to press against your lungs, inhibiting your ability to breathe.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has signs or symptoms common to kyphosis, make an appointment with your family doctor. He or she may refer you to a doctor who specializes in the diagnosis and treatment of spine disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice the symptoms?&lt;/li&gt;
+	&lt;li&gt;Did any back injuries happen around the same time?&lt;/li&gt;
+	&lt;li&gt;Have any close biological relatives had similar signs and symptoms or been diagnosed with a spine disorder?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take regularly?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is there any pain? If so, where exactly does it hurt?&lt;/li&gt;
+	&lt;li&gt;Do symptoms include fever, chills or unexplained weight loss?&lt;/li&gt;
+	&lt;li&gt;Do symptoms include weakness, numbness, difficulty walking, or changes in bladder or bowel habits?&lt;/li&gt;
+	&lt;li&gt;Do symptoms include fatigue or shortness of breath?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check your height and may ask you to bend forward from the waist while he or she views the spine from the side. With kyphosis, the rounding of the upper back may become more obvious in this position. Your doctor might also perform a neurological exam to check your reflexes and muscle strength. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Depending upon your signs and symptoms, you may need: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Plain X-rays are used to determine the degree of curvature and can detect deformities of the vertebrae, which helps identify the type of kyphosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT scan).&lt;/strong&gt; If more detail is required, your doctor might order a CT scan, which takes X-ray images from many different angles and then combines them to form cross-sectional images of internal structures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; If your doctor suspects a tumor or infection, he or she may request an MRI of your spine. MRI uses radio waves and a very strong magnet to produce detailed images of both bone and soft tissues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve tests&lt;br /&gt;
+&lt;/strong&gt;If you are experiencing any numbness or muscle weakness, your doctor may recommend several tests that can determine how well nerve impulses are traveling between your spinal cord and your extremities. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lung function tests&lt;br /&gt;
+&lt;/strong&gt;If your kyphosis is severe, your doctor may want to check to see if the curve is interfering with your ability to breathe. He or she may order tests that measure how much air your lungs can hold and how quickly you can empty your lungs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Kyphosis treatment depends on the cause of the condition and the signs and symptoms that are present. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Your doctor may suggest: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain relievers.&lt;/strong&gt; If over-the-counter medicines, such as acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin, others) or naproxen (Aleve) aren&apos;t enough, stronger pain medications are available by prescription.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Osteoporosis drugs.&lt;/strong&gt; In many people, kyphosis is the first clue that they have osteoporosis. Bone-strengthening drugs may help prevent additional spinal fractures that would cause your kyphosis to worsen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Some types of kyphosis can be helped by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercises.&lt;/strong&gt; Stretching exercises can improve spinal flexibility. Exercises that strengthen the abdominal muscles may help improve posture.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bracing.&lt;/strong&gt; Children who have Scheuermann&apos;s disease may be able to stop the progression of kyphosis by wearing a body brace while their bones are still growing. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;If the kyphosis curve is very severe, particularly if the curve is pinching the spinal cord or nerve roots, your doctor might suggest surgery to reduce the degree of curvature.
+&lt;/p&gt;
+&lt;p&gt;
+The most common procedure, called spinal fusion, connects two or more of the affected vertebrae permanently. Surgeons insert bits of bone between the vertebrae and then fasten the vertebrae together with metal wires, plates and screws. 
+&lt;/p&gt;
+&lt;p&gt;
+The complication rate for spinal surgery is relatively high. Complications include bleeding, infection, pain, nerve damage, arthritis and disk degeneration. If the surgery fails to correct the problem, a second surgery may be needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adolescence is a time when young people are struggling with physical and emotional changes. Having a noticeable spinal deformity or wearing a brace can make this challenging time even more difficult.
+&lt;/p&gt;
+&lt;p&gt;
+Make sure your child has caring people to turn to, including supportive family and friends, or even a professional counselor, if necessary. Consider joining a support group for parents and kids with kyphosis or other spinal deformities to help you and your child connect with others facing similar challenges.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Kyphosis
+	</Title>
+	<Abstract>
+		Kyphosis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of abnormal rounding of the upper spine.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01235" LinkType="Internal" ObjectID="49323B9C-A8F8-538A-C596AED70E8A631B" Title="Spinal fusion" Url="http://www.mayoclinic.com/health/spinal-fusion/MY01235" />
+		<LinkItem ContentType="Article" DocID="HQ00305" LinkType="Internal" ObjectID="F39CF37E-0031-4F7F-AF38E62799011A59" Title="Back surgery: When is it a good idea?" Url="http://www.mayoclinic.com/health/back-surgery/HQ00305" />
+	</RelatedLinksBox>
+</Disease>

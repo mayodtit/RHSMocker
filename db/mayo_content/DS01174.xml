@@ -1,0 +1,405 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01174
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/delayed-ejaculation/DS01174
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-24
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1130" Title="Men" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2044" Title="Sexual dysfunction">
+						<Keyword MCVID="4679" Title="Delayed ejaculation" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4DB53EF7-0BF4-EF7E-0FE99A4AC364BFA7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				delayed ejaculation
+			</MetaKeyword>
+			<MetaKeyword>
+				impaired ejaculation
+			</MetaKeyword>
+			<MetaKeyword>
+				ejaculatory insufficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				ejaculation
+			</MetaKeyword>
+			<MetaKeyword>
+				retarded ejaculation
+			</MetaKeyword>
+			<MetaKeyword>
+				slow ejaculation
+			</MetaKeyword>
+			<MetaKeyword>
+				anejaculation
+			</MetaKeyword>
+			<MetaKeyword>
+				delayed orgasm
+			</MetaKeyword>
+			<MetaKeyword>
+				erectile dysfunction
+			</MetaKeyword>
+			<MetaKeyword>
+				male orgasmic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				inhibited orgasm
+			</MetaKeyword>
+			<MetaKeyword>
+				inhibited male orgasm
+			</MetaKeyword>
+			<MetaKeyword>
+				anorgsmia
+			</MetaKeyword>
+			<MetaKeyword>
+				problem coming
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Delayed ejaculation &amp;mdash; sometimes called impaired ejaculation &amp;mdash; is a condition in which it takes an extended period of sexual stimulation for a man to reach sexual climax and release semen from the penis (ejaculate). Some men with delayed ejaculation are unable to ejaculate at all.
+&lt;/p&gt;
+&lt;p&gt;
+Delayed ejaculation can be temporary or a lifelong problem. Possible causes of delayed ejaculation include certain chronic health conditions, surgeries and medications. Treatment for delayed ejaculation depends on the underlying cause.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s normal for men to have delayed ejaculation from time to time. Delayed ejaculation is only a problem if it&apos;s ongoing or causes stress for you or your partner. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some men with delayed ejaculation need 30 minutes or more of sexual stimulation to have an orgasm and ejaculate, or they may not be able to ejaculate at all (anejaculation). In the most common form of delayed ejaculation, a man can&apos;t reach orgasm during sexual intercourse &amp;mdash; but can ejaculate with oral or manual stimulation of the penis. Some men can ejaculate only when masturbating.
+&lt;/p&gt;
+&lt;p&gt;
+Delayed orgasm is divided into the following types based on symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lifelong vs. acquired.&lt;/strong&gt; With lifelong delayed ejaculation, the problem is present from the time a male reaches sexual maturity. Acquired delayed ejaculation occurs after a period of normal sexual functioning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Generalized vs. situational.&lt;/strong&gt; Generalized delayed ejaculation isn&apos;t limited to certain sex partners or certain kinds of stimulation. Situational delayed ejaculation occurs only under certain circumstances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These categories help in diagnosing an underlying cause, and determining what might be the most effective treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Your family doctor is a good place to start when you have delayed ejaculation. See your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Delayed ejaculation is an issue for you or your partner&lt;/li&gt;
+	&lt;li&gt;You have another known health problem that may be linked to delayed ejaculation, or you take medications that could be causing the problem&lt;/li&gt;
+	&lt;li&gt;You have other symptoms along with delayed ejaculation that may or may not seem related&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Delayed ejaculation can result from certain chronic health conditions, surgeries and medications. Or it may be caused by substance abuse or a mental health concern, such as depression, anxiety or stress. In many cases, delayed ejaculation is due to a combination of physical and psychological concerns. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical causes&lt;/strong&gt; of delayed ejaculation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Certain birth defects affecting the male reproductive system&lt;/li&gt;
+	&lt;li&gt;Injury to the pelvic nerves that control orgasm&lt;/li&gt;
+	&lt;li&gt;Certain infections&lt;/li&gt;
+	&lt;li&gt;Prostate surgery, such as transurethral resection of the prostate (TURP) or prostate removal&lt;/li&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Prostate infection or urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Neurological diseases, such as diabetic neuropathy, stroke or nerve damage to the spinal cord&lt;/li&gt;
+	&lt;li&gt;Hormone-related conditions, such as low thyroid hormone (hypothyroidism) or low testosterone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychological causes&lt;/strong&gt; of delayed ejaculation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression, anxiety or other mental health conditions&lt;/li&gt;
+	&lt;li&gt;Relationship problems due to stress, poor communication or other concerns&lt;/li&gt;
+	&lt;li&gt;Anxiety about performance&lt;/li&gt;
+	&lt;li&gt;Cultural or religious taboos&lt;/li&gt;
+	&lt;li&gt;Differences between the reality of sex with a partner and sexual fantasies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications and other substances&lt;/strong&gt; that can cause delayed ejaculation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Most types of antidepressants&lt;/li&gt;
+	&lt;li&gt;Certain high blood pressure medications&lt;/li&gt;
+	&lt;li&gt;Certain diuretics&lt;/li&gt;
+	&lt;li&gt;Some antipsychotic medications&lt;/li&gt;
+	&lt;li&gt;Alcohol &amp;mdash; particularly drinking too much (alcohol abuse or alcoholism)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some men, a minor physical problem that causes a delay in ejaculation may cause anxiety about ejaculating during a sexual encounter. The resulting anxiety can worsen delayed ejaculation.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of things can increase your risk of having delayed ejaculation, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age&lt;/strong&gt; &amp;mdash; as men age, it&apos;s normal for ejaculation to take longer&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Psychological conditions,&lt;/strong&gt; such as depression or anxiety&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical conditions,&lt;/strong&gt; such as diabetes or multiple sclerosis&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medical treatments,&lt;/strong&gt; such as prostate surgery&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; particularly certain antidepressants, high blood pressure medications or diuretics&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relationship problems,&lt;/strong&gt; for example, problems communicating openly with your partner&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol or using illegal drugs,&lt;/strong&gt; especially if you&apos;re a long-term drug user or heavy drinker&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of delayed ejaculation can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diminished sexual pleasure for a man or his partner&lt;/li&gt;
+	&lt;li&gt;Stress or anxiety about sexual performance&lt;/li&gt;
+	&lt;li&gt;Marital or relationship problems due to an unsatisfactory sex life&lt;/li&gt;
+	&lt;li&gt;Inability to get your partner pregnant (male infertility)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been having trouble achieving orgasm, talk with your primary care doctor. Your doctor may refer you to a specialist &amp;mdash; such as a doctor who specializes in male genital problems (urologist), a doctor who specializes in the hormonal systems (endocrinologist), a doctor who diagnoses and treats mental health problems (psychiatrist), or another type of specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To prepare for your appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve had,&lt;/strong&gt; including any that may seem unrelated to delayed ejaculation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes, illnesses, or changes in medications you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins, herbal remedies and supplements you take.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take your partner along,&lt;/strong&gt; if possible. Your partner may be able to provide information that will assist in diagnosing and treating the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;br /&gt;
+&lt;/strong&gt;For delayed ejaculation, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my delayed ejaculation?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is this problem temporary?&lt;/li&gt;
+	&lt;li&gt;What treatments are available? Which treatment do you think is the best choice for me?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Where can I find more information about my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Being ready to answer your doctor&apos;s questions may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you had trouble ejaculating? Does it happen only now and then, or is it an ongoing problem?&lt;/li&gt;
+	&lt;li&gt;Are you able to ejaculate during sexual intercourse? Or are you able to ejaculate only when your partner directly touches your penis or when you masturbate?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re able to ejaculate, how long does it take after sexual activity starts?&lt;/li&gt;
+	&lt;li&gt;Have you had any changes in sexual desire?&lt;/li&gt;
+	&lt;li&gt;Are there any problems in your relationship with your sexual partner?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent surgeries? Or have you had surgery to the pelvic area, such as surgery to treat an enlarged prostate?&lt;/li&gt;
+	&lt;li&gt;What health problems or chronic conditions do you have?&lt;/li&gt;
+	&lt;li&gt;Have you had any other sexual problems, such as trouble getting or maintaining an erection (erectile dysfunction)?&lt;/li&gt;
+	&lt;li&gt;Does your partner have any sexual problems?&lt;/li&gt;
+	&lt;li&gt;Do you have a mood disorder such as depression or another mental health condition? If so, do you currently take any medications or get psychological counseling (psychotherapy) for it?&lt;/li&gt;
+	&lt;li&gt;What medications do you take, including any herbal remedies or supplements?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? If so, how much?&lt;/li&gt;
+	&lt;li&gt;Do you use any illegal drugs?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A physical exam and medical history may be all that&apos;s needed to recommend treatment for delayed ejaculation. However, if delayed ejaculation appears to be caused by an underlying problem that might need treatment, you may need further tests or you may need to see a specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests for underlying problems can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; This may include careful examination of your penis and testicles. The doctor will use light touch to make sure you have normal sensation in your genitals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A sample of your blood may be sent to a lab to check for signs of heart disease, diabetes, low testosterone levels and other health problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine tests (urinalysis).&lt;/strong&gt; Urine tests are used to look for signs of diabetes, infection and other underlying health conditions.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To find the best treatment for you, the doctor will first need to determine whether your delayed ejaculation is due to an underlying medical condition, a psychological issue or another concern. Delayed ejaculation treatment depends on the underlying cause but may include taking a medication or making changes to medications you currently take, undergoing psychological counseling, or addressing alcohol abuse or illegal drug use.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medication may be a treatment option, particularly if you&apos;re taking an antidepressant that&apos;s causing the problem. Sometimes reducing the dose of a medication or switching medications may help. In some cases, adding a medication may do the trick. There aren&apos;t any drugs that have been specifically approved for the treatment of delayed ejaculation. Medications used to treat delayed ejaculation are used primarily to treat other conditions.
+&lt;/p&gt;
+&lt;p&gt;
+Medications sometimes used to treat delayed ejaculation include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Amantadine (Parkinson&apos;s)&lt;/li&gt;
+	&lt;li&gt;Buspirone (antianxiety)&lt;/li&gt;
+	&lt;li&gt;Cyproheptadine (allergy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychological counseling (psychotherapy)&lt;br /&gt;
+&lt;/strong&gt;Psychotherapy can help by addressing underlying mental health problems leading to delayed ejaculation, such as depression or anxiety. It&apos;s also used to address psychological issues that directly affect your ability to ejaculate.
+&lt;/p&gt;
+&lt;p&gt;
+It may involve seeing a psychologist or mental health counselor on your own, or along with your partner. Depending on the underlying cause, you may benefit most from seeing a sex therapist &amp;mdash; a mental health counselor who specializes in talk therapy for sexual problems. The type of counseling that&apos;s best for you will depend on your particular concerns.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If it&apos;s an ongoing concern, delayed ejaculation can be a source of mental and emotional stress for a man and his partner. If you have delayed ejaculation only on occasion, try not to assume that you have a permanent problem or to expect it to happen again during your next sexual encounter. Remember, occasional delayed ejaculation due to stress or other temporary factors may improve when the underlying cause gets better. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, if you experience occasional or persistent delayed ejaculation, remember your sexual partner. Your partner may think your inability to reach climax is a sign of diminished sexual interest. Your reassurance that this is not the case can help. 
+&lt;/p&gt;
+&lt;p&gt;
+Communicate openly and honestly with your partner about your condition. Treatment is often more successful if couples work together as a team. You may even want to see a counselor with your partner. This can help you address concerns you both may have about delayed ejaculation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The alternative medicine yohimbine is sometimes used to treat delayed ejaculation, though it hasn&apos;t been well-studied in clinical trials.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because it can happen for a number of physical and psychological reasons, no one strategy can prevent delayed ejaculation. But taking these steps may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Spend more time with your partner to increase intimacy.&lt;/li&gt;
+	&lt;li&gt;Limit or avoid the use of alcohol.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use illegal drugs, such as marijuana.&lt;/li&gt;
+	&lt;li&gt;Stop using tobacco.&lt;/li&gt;
+	&lt;li&gt;Exercise regularly.&lt;/li&gt;
+	&lt;li&gt;Take steps to reduce or better manage stress.&lt;/li&gt;
+	&lt;li&gt;Get enough sleep.&lt;/li&gt;
+	&lt;li&gt;Get help for anxiety or depression.&lt;/li&gt;
+	&lt;li&gt;Make sure you&apos;re getting the treatment you need for any chronic health problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Delayed ejaculation
+	</Title>
+	<Abstract>
+		Delayed ejaculation &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of delayed or absent ejaculation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00488" LinkType="Internal" ObjectID="4723B235-F3F0-E282-0063AC485F6995C7" Title="Urinalysis" Url="http://www.mayoclinic.com/health/urinalysis/MY00488" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00186" LinkType="Internal" ObjectID="470A84D0-E7FF-0DBD-14CBD2F07ED3D45E" Title="Psychotherapy" Url="http://www.mayoclinic.com/health/psychotherapy/MY00186" />
+		<LinkItem ContentType="Article" DocID="HQ01543" LinkType="Internal" ObjectID="CC7F5299-FB76-45F6-99F3479FAE3C9385" Title="Fitness: Tips for staying motivated" Url="http://www.mayoclinic.com/health/fitness/HQ01543" />
+		<LinkItem ContentType="Article" DocID="MC00057" LinkType="Internal" ObjectID="8B59A03B-E7FF-0DBD-1E846353AAA31315" Title="Senior sex: Tips for older men" Url="http://www.mayoclinic.com/health/senior-sex/MC00057" />
+		<LinkItem ContentType="Article" DocID="MY01461" LinkType="Internal" ObjectID="7DFAFB7A-B673-E127-1965CDA24CB44BC6" Title="Penis health: Identify and prevent problems" Url="http://www.mayoclinic.com/health/penis-health/MY01461" />
+		<LinkItem ContentType="Article" DocID="SK00056" LinkType="Internal" ObjectID="51BB0AC2-E7FF-0DBD-11CD8EDD8AB2D36E" Title="Quit smoking: Proven strategies to help you quit" Url="http://www.mayoclinic.com/health/quit-smoking/SK00056" />
+		<LinkItem ContentType="Article" DocID="SC00024" LinkType="Internal" ObjectID="1DAD3B4B-8B1C-4D0C-A40BEC54E580B94A" Title="Alcohol use: If you drink, keep it moderate" Url="http://www.mayoclinic.com/health/alcohol/SC00024" />
+		<LinkItem ContentType="Article" DocID="SR00031" LinkType="Internal" ObjectID="11188EF9-E7FF-0DBD-1F000BF4D482945B" Title="Stress management: Identify your sources of stress" Url="http://www.mayoclinic.com/health/stress-management/SR00031" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+	</RelatedLinksBox>
+</Disease>

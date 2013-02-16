@@ -1,0 +1,329 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00255
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vaginitis/DS00255
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-05
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2052" Title="Vagina/vulva">
+						<Keyword MCVID="2410" Title="Vaginitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5642F87-B29F-4065-A60FC82B39C4CD8B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sexually transmitted diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				vaginitis
+			</MetaKeyword>
+			<MetaKeyword>
+				vagina
+			</MetaKeyword>
+			<MetaKeyword>
+				bacterial vaginosis
+			</MetaKeyword>
+			<MetaKeyword>
+				yeast infection
+			</MetaKeyword>
+			<MetaKeyword>
+				trichomoniasis
+			</MetaKeyword>
+			<MetaKeyword>
+				STD
+			</MetaKeyword>
+			<MetaKeyword>
+				yeast infections
+			</MetaKeyword>
+			<MetaKeyword>
+				STDs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vaginitis is an inflammation of the vagina that can result in discharge, itching and pain. The cause is usually a change in the normal balance of vaginal bacteria or an infection. Vaginitis can also result from reduced estrogen levels after menopause. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common types of vaginitis are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bacterial vaginosis, which results from overgrowth of one of several organisms normally present in your vagina&lt;/li&gt;
+	&lt;li&gt;Yeast infections, which are usually caused by a naturally occurring fungus called Candida albicans &lt;/li&gt;
+	&lt;li&gt;Trichomoniasis, which is caused by a parasite and is commonly transmitted by sexual intercourse &lt;/li&gt;
+	&lt;li&gt;Vaginal atrophy (atrophic vaginitis), which results from reduced estrogen levels after menopause &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Treatment depends on the type of vaginitis you have. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vaginitis symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Change in color, odor or amount of discharge from your vagina &lt;/li&gt;
+	&lt;li&gt;Vaginal itching or irritation&lt;/li&gt;
+	&lt;li&gt;Pain during intercourse&lt;/li&gt;
+	&lt;li&gt;Painful urination&lt;/li&gt;
+	&lt;li&gt;Light vaginal bleeding or spotting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The characteristics of your vaginal discharge may indicate the type of vaginitis you have. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial vaginosis.&lt;/strong&gt; You may develop a grayish-white, foul-smelling discharge. The odor, often described as fish-like, may be more obvious after sexual intercourse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yeast infections.&lt;/strong&gt; The main symptom is itching, but you may have a white, thick discharge that resembles cottage cheese.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trichomoniasis.&lt;/strong&gt; This infection can cause a greenish yellow, sometimes frothy discharge. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you develop any unusual vaginal discomfort, particularly if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve never had a vaginal infection. Seeing your doctor will establish the cause and help you learn to identify the signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had vaginal infections before, but in this case, it seems different.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had multiple sex partners or a recent new partner. You could have a sexually transmitted infection. The signs and symptoms of some sexually transmitted infections are similar to those of a yeast infection or bacterial vaginosis.&lt;/li&gt;
+	&lt;li&gt;You&apos;ve completed a course of over-the-counter anti-yeast medication and your symptoms persist, you have a fever, or you have a particularly unpleasant vaginal odor. These are signs the infection may be from something other than yeast or from a resistant strain of yeast.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Wait-and-see approach&lt;/strong&gt; &lt;br /&gt;
+You probably don&apos;t need to see your doctor every time you have vaginal irritation and discharge, particularly if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve previously had a diagnosis of vaginal yeast infections and your signs and symptoms are the same as before&lt;/li&gt;
+	&lt;li&gt;You know the signs and symptoms of a yeast infection, and you&apos;re confident that you have a yeast infection&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause depends on the type of vaginitis you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Bacterial vaginosis&lt;/strong&gt; &lt;br /&gt;
+Bacterial vaginosis results from an overgrowth of one of several organisms normally present in your vagina. Usually, &quot;good&quot; bacteria (lactobacilli) outnumber &quot;bad&quot; bacteria (anaerobes) in your vagina. But if anaerobic bacteria become too numerous, they upset the balance, causing bacterial vaginosis. This type of vaginitis can spread during sexual intercourse, but it also occurs in people who aren&apos;t sexually active. Women with new or multiple sex partners, as well as women who use an intrauterine device (IUD) for birth control, have a higher risk of bacterial vaginosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Yeast infections&lt;/strong&gt; &lt;br /&gt;
+Yeast infections occur when the normal environment of your vagina undergoes some change that triggers an overgrowth of a fungal organism &amp;mdash; usually C. albicans. A yeast infection isn&apos;t considered a sexually transmitted infection. Besides causing most vaginal yeast infections, C. albicans also causes infections in other moist areas of your body, such as in your mouth (thrush), skin folds and nail beds. The fungus can also cause diaper rash. 
+&lt;/p&gt;
+&lt;p&gt;
+According to the Centers for Disease Control and Prevention, an estimated 3 out of 4 women will have a yeast infection at some time during their lives. Factors that increase your risk of yeast infections include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Medications, such as antibiotics and steroids&lt;/li&gt;
+	&lt;li&gt;Uncontrolled diabetes&lt;/li&gt;
+	&lt;li&gt;Hormonal changes, such as those associated with pregnancy, birth control pills or menopause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Bubble baths, vaginal contraceptives, damp or tightfitting clothing, and feminine hygiene products, such as sprays and deodorants, don&apos;t cause yeast infections. However, these factors may increase your susceptibility to infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Trichomoniasis&lt;/strong&gt; &lt;br /&gt;
+Trichomoniasis is a common sexually transmitted infection caused by a microscopic, one-celled parasite called Trichomonas vaginalis. This organism spreads during sexual intercourse with someone who already has the infection. The organism usually infects the urinary tract in men, in whom it often causes no symptoms. Trichomoniasis typically infects the vagina in women. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Noninfectious vaginitis&lt;/strong&gt; &lt;br /&gt;
+Vaginal sprays, douches, perfumed soaps, scented detergents and spermicidal products may cause an allergic reaction or irritate vulvar and vaginal tissues. Thinning of the vaginal lining, a result of hormone loss following menopause or surgical removal of your ovaries, can also cause vaginal itching and burning. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Generally, vaginal infections don&apos;t cause serious complications. In pregnant women, however, both bacterial vaginosis and trichomoniasis have been associated with premature deliveries and low birth weight babies. Women with trichomoniasis or bacterial vaginosis are also at a greater risk of acquiring HIV and other sexually transmitted infections. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+So that your doctor can observe and evaluate any vaginal discharge you have, avoid using tampons and don&apos;t douche before your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+Also make a list of medications or supplements you&apos;re taking and any allergies you have. Write down questions to ask your doctor. Some basic questions include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can I do anything to prevent vaginitis?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch out for?&lt;/li&gt;
+	&lt;li&gt;Do I need to use medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any special instructions for using the medicine?&lt;/li&gt;
+	&lt;li&gt;Are there any over-the-counter products that will treat my condition?&lt;/li&gt;
+	&lt;li&gt;What can I do if my symptoms return after treatment?&lt;/li&gt;
+	&lt;li&gt;Does my partner also need to be tested or treated?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask further questions if your doctor&apos;s explanations and instructions are unclear. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions your doctor may ask&lt;/strong&gt; &lt;br /&gt;
+Be prepared to answer questions your doctor may have, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What vaginal symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;Do you notice a strong vaginal odor?&lt;/li&gt;
+	&lt;li&gt;How long have you had your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem tied to your menstrual cycle? For instance, are symptoms more intense just before or just after your period?&lt;/li&gt;
+	&lt;li&gt;Have you tried any over-the-counter products to treat your condition?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;Do you use scented soap or bubble bath?&lt;/li&gt;
+	&lt;li&gt;Do you douche or use feminine hygiene spray?&lt;/li&gt;
+	&lt;li&gt;What medications or vitamin supplements do you regularly take?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose your condition, your doctor may review your history of vaginal infections or sexually transmitted infections and conduct a pelvic examination. During the exam, your doctor may take a sample of cervical or vaginal discharge for laboratory analysis. This sample can confirm what kind of vaginitis you have. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A variety of organisms and conditions can cause vaginitis, so treatment targets the specific cause.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bacterial vaginosis.&lt;/strong&gt; For this type of vaginitis, your doctor may prescribe metronidazole tablets (Flagyl) that you take by mouth, metronidazole gel (MetroGel) that you apply to your vagina, or clindamycin cream (Cleocin) that you apply to your vagina. Medications are usually used once or twice a day for five to seven days. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Yeast infections.&lt;/strong&gt; Yeast infections usually are treated with an antifungal cream or suppository, such as miconazole (Monistat), clotrimazole (Gyne-Lotrimin) and tioconazole (Vagistat). Yeast infections may also be treated with a prescription oral antifungal medication, such as fluconazole (Diflucan). The advantages of over-the-counter treatment for a yeast infection are convenience, cost and not having to wait to see your doctor. The catch is you may be treating something other than a yeast infection. It&apos;s possible to mistake a yeast infection for other types of vaginitis or other conditions that need different treatment. Using the wrong medicine may delay a proper diagnosis and the most appropriate treatment. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trichomoniasis.&lt;/strong&gt; Your doctor may prescribe metronidazole (Flagyl) or tinidazole (Tindamax) tablets. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thinning of vaginal lining (vaginal atrophy).&lt;/strong&gt; Estrogen, in the form of vaginal creams, tablets or rings, can effectively treat atrophic vaginitis. This treatment is available by prescription from your doctor. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Noninfectious vaginitis.&lt;/strong&gt; To treat this type of vaginitis, you need to pinpoint the source of the irritation and avoid it. Possible sources include new soap, laundry detergent, sanitary napkins or tampons.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll need prescription medication to treat trichomoniasis, bacterial vaginosis and vaginal atrophy. If you know you have a yeast infection, you may go ahead with treatment on your own, taking these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Use an over-the-counter medication specifically for yeast infections.&lt;/strong&gt; Options include one-day, three-day or seven-day courses of cream or vaginal suppositories. The active ingredient varies depending on the product: clotrimazole (Gyne-Lotrimin), miconazole (Monistat) or tioconazole (Vagistat). Some products also come with an external cream to apply to the labia and opening of the vagina. Follow package directions and complete the entire course of treatment, even if you&apos;re feeling better right away.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply a cold compress,&lt;/strong&gt; such as a washcloth, to the labial area to ease discomfort until the antifungal medication takes full effect.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Good hygiene may prevent some types of vaginitis from recurring and may relieve some symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid baths, hot tubs and whirlpool spas.&lt;/strong&gt; Rinse soap from your outer genital area after a shower, and dry the area well to prevent irritation. Don&apos;t use scented or harsh soaps, such as those with deodorant or antibacterial action.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; These include scented tampons and pads.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wipe from front to back after using the toilet.&lt;/strong&gt; Doing so avoids spreading fecal bacteria to your vagina.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other things that may help prevent vaginitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t douche.&lt;/strong&gt; Your vagina doesn&apos;t require cleansing other than normal bathing. Repetitive douching disrupts the normal organisms that reside in the vagina and can actually increase your risk of vaginal infection. Douching won&apos;t clear up a vaginal infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a male latex condom.&lt;/strong&gt; This helps avoid infections spread by sexual contact. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear cotton underwear and pantyhose with a cotton crotch.&lt;/strong&gt; If you feel comfortable without it, skip wearing underwear to bed. Yeast thrives in moist environments.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vaginitis
+	</Title>
+	<Abstract>
+		Vaginitis &amp;mdash; Comprehensive overview covers symptoms, treatment of this inflammation of the vagina.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01182" LinkType="Internal" ObjectID="CEDDE35C-0B46-0928-1C127105C3D6DC38" Title="Yeast infection (vaginal)" Url="http://www.mayoclinic.com/health/yeast-infection/DS01182" />
+		<LinkItem ContentType="Disease" DocID="DS01193" LinkType="Internal" ObjectID="950F8BC6-AC69-9B2C-C09ED47E7E5114A9" Title="Bacterial vaginosis" Url="http://www.mayoclinic.com/health/bacterial-vaginosis/DS01193" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="Article" DocID="MY01913" LinkType="Internal" ObjectID="8EE4429C-0CD6-8355-F70B714B66452F2A" Title="Vagina: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/vagina/MY01913" />
+		<LinkItem ContentType="Answer" DocID="AN01965" LinkType="Internal" ObjectID="AD43D04E-E18E-81A2-9D97364A89639E83" Title="Sex during vaginal infection: Is it harmful?" Url="http://www.mayoclinic.com/health/vaginal-infection/AN01965" />
+		<LinkItem ContentType="Answer" DocID="AN02076" LinkType="Internal" ObjectID="24B6696E-E700-EF65-D742567522069836" Title="Yeast infection during pregnancy: Are over-the-counter treatments OK?" Url="http://www.mayoclinic.com/health/yeast-infection-during-pregnancy/AN02076" />
+		<LinkItem ContentType="Disease" DocID="DS01123" LinkType="Internal" ObjectID="62AE82EC-E7FF-0DBD-1D8B480358E974FE" Title="Sexually transmitted diseases (STDs)" Url="http://www.mayoclinic.com/health/sexually-transmitted-diseases-stds/DS01123" />
+		<LinkItem ContentType="Disease" DocID="DS01163" LinkType="Internal" ObjectID="4DF1863D-D03A-D120-F228BD1BA867370C" Title="Trichomoniasis" Url="http://www.mayoclinic.com/health/trichomoniasis/DS01163" />
+	</RelatedLinksBox>
+</Disease>

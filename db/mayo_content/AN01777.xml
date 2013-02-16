@@ -1,0 +1,122 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01777
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ct-scans/AN01777
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3077" Title="CT scan" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B55B5766-E7FF-0DBD-1A78B9EB1365E2BF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				CT scans
+			</MetaKeyword>
+			<MetaKeyword>
+				CT
+			</MetaKeyword>
+			<MetaKeyword>
+				computed tomography
+			</MetaKeyword>
+			<MetaKeyword>
+				computerized tomography
+			</MetaKeyword>
+			<MetaKeyword>
+				CT exam
+			</MetaKeyword>
+			<MetaKeyword>
+				CT examination
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation dose
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation exposure
+			</MetaKeyword>
+			<MetaKeyword>
+				radiation risk
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Medical imaging exams &amp;mdash; including CT scans &amp;mdash; have been directly linked to greater life expectancy and declining cancer death rates. Medical imaging exams are also generally less expensive and safer than the invasive procedures that they replace. CT scans, like other X-ray-imaging exams, involve a brief, targeted exposure to a small amount of ionizing radiation. This radiation is used to create an image of your body&apos;s internal structures. Although CT scans expose you to more radiation than traditional X-ray exams do, they also provide much more detailed images, which allows your doctor to detect and precisely locate many medical conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+CT scans may slightly increase your risk of developing cancer, although at the low doses used with CT, the risk is very small &amp;mdash; so small that it&apos;s difficult to prove that any risk actually exists. Because of the possible risk, the American College of Radiology advises that no imaging exam be done unless there is a clear medical benefit that outweighs any associated risk. 
+&lt;/p&gt;
+&lt;p&gt;
+When your doctor believes that a CT scan will help answer an important medical question, the potential benefits to your health can greatly outweigh any small potential risk from radiation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		CT scans: Are they safe?
+	</Title>
+	<Abstract>
+		Is the information gained from CT scans worth a small potential increase in cancer risk?
+	</Abstract>
+	<Question>
+		Are CT scans safe? Is it true that CT scans may increase my risk of cancer?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00088" LinkType="Internal" ObjectID="F72C0F82-09B5-4BA3-B20B45255D490B1A" Title="Video: CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MM00088" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+	</RelatedLinksBox>
+</Answer>

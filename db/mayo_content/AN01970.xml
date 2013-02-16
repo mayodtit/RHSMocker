@@ -1,0 +1,125 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01970
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colon-cancer-screening/AN01970
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-01
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2246" Title="Colon cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D0EE0825-F9C7-F0BA-76C16ED2F52A7591
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colon cancer screening
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer screening
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+People older than age 75 who have been getting regular colon cancer screening since age 50 and who have had consistently negative screenings &amp;mdash; no polyps (adenomas) or colon cancer &amp;mdash; need not continue getting routine screening. That&apos;s according to colon cancer screening guidelines issued by the U.S. Preventive Services Task Force (USPSTF). The upper age limit was set after studies determined that the net benefit of screening after age 75 was small. However, the USPSTF guidelines do recommend colon cancer surveillance for people over age 75 who have an increased risk of colon cancer, such as family history, a previously diagnosed colon cancer or adenomatous polyps. 
+&lt;/p&gt;
+&lt;p&gt;
+The American Cancer Society and the American College of Gastroenterology do not specify an upper age limit beyond which colon cancer screening is no longer recommended. 
+&lt;/p&gt;
+&lt;p&gt;
+The USPSTF recommends that colon cancer screening be done using high-sensitivity fecal occult blood testing (FOBT), sigmoidoscopy with FOBT or colonoscopy. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your doctor about what colon cancer screening option is best for you. Together, you can decide based on your overall health when screening may no longer be of benefit. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Colon cancer screening: At what age can you stop?
+	</Title>
+	<Abstract>
+		Colon cancer screening may have an upper age limit of effectiveness. What is it?
+	</Abstract>
+	<Question>
+		I&apos;m 76 years old and am wondering when it&apos;s no longer necessary to get colon cancer screening? Is there an upper age limit?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00669" LinkType="Internal" ObjectID="E8230E54-2A5D-9994-E8FAE159020831A4" Title="Lynch syndrome" Url="http://www.mayoclinic.com/health/lynch-syndrome/DS00669" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00141" LinkType="Internal" ObjectID="DF5EAE47-E7FF-0DBD-14C2E4C1FE5519D4" Title="Colectomy" Url="http://www.mayoclinic.com/health/colectomy/MY00141" />
+		<LinkItem ContentType="Video" DocID="MM00366" LinkType="Internal" ObjectID="88F9108D-88B4-462F-B88A06C6BEEE24B9" Title="Video: Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MM00366" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00624" LinkType="Internal" ObjectID="11107B89-D997-313D-42FD1089A3E98AC3" Title="Virtual colonoscopy" Url="http://www.mayoclinic.com/health/virtual-colonoscopy/MY00624" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00623" LinkType="Internal" ObjectID="11101656-EACC-1242-191B7E1D9DDCDB2B" Title="Stool DNA test" Url="http://www.mayoclinic.com/health/dna-stool-test/MY00623" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00620" LinkType="Internal" ObjectID="110F9DAB-BB0A-C261-8FB120FA054D7EE7" Title="Fecal occult blood test" Url="http://www.mayoclinic.com/health/fecal-occult-blood-test/MY00620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="SlideShow" DocID="MY00612" LinkType="Internal" ObjectID="0FD2D431-A972-ACFC-0DB6582BC92452DE" Title="Slide show: Guide to beans and legumes" Url="http://www.mayoclinic.com/health/beans-and-legumes/MY00612" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Article" DocID="MY00935" LinkType="Internal" ObjectID="9EF996C0-08E9-56AC-FA6C34A6A3A7D0E8" Title="Colon cancer screening: Weighing the options" Url="http://www.mayoclinic.com/health/colon-cancer-screening/MY00935" />
+		<LinkItem ContentType="Article" DocID="SA00072" LinkType="Internal" ObjectID="6BD71FB9-0423-4340-888C6A278454E773" Title="Ostomy: Adapting to life after colostomy, ileostomy or urostomy" Url="http://www.mayoclinic.com/health/ostomy/SA00072" />
+		<LinkItem ContentType="Disease" DocID="DS00035" LinkType="Internal" ObjectID="13D504C5-40A0-40DA-9F61138EEAAE162F" Title="Colon cancer" Url="http://www.mayoclinic.com/health/colon-cancer/DS00035" />
+	</RelatedLinksBox>
+</Answer>

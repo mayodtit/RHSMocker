@@ -1,0 +1,483 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01187
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/anxiety/DS01187
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="1557" Title="Anxiety disorders" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			263618B3-F9E9-10C2-7E3DA5837B920B15
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				generalized anxiety disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				GAD
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety attack
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				worry
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety disorder treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				panic attacks
+			</MetaKeyword>
+			<MetaKeyword>
+				panic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				posttraumatic stress disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				post-traumatic stress disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				PTSD
+			</MetaKeyword>
+			<MetaKeyword>
+				phobia
+			</MetaKeyword>
+			<MetaKeyword>
+				phobias
+			</MetaKeyword>
+			<MetaKeyword>
+				social phobia
+			</MetaKeyword>
+			<MetaKeyword>
+				fear of public speaking
+			</MetaKeyword>
+			<MetaKeyword>
+				agoraphobia
+			</MetaKeyword>
+			<MetaKeyword>
+				arachnaphobia
+			</MetaKeyword>
+			<MetaKeyword>
+				acute stress disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				separation anxiety
+			</MetaKeyword>
+			<MetaKeyword>
+				separation anxiety disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				anxiety and depression
+			</MetaKeyword>
+			<MetaKeyword>
+				depression and anxiety
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anxiety happens as a normal part of life. It can even be useful when it alerts you to danger. But for some people, anxiety persistently interferes with daily activities such as work, school or sleep. This type of anxiety can disrupt relationships and enjoyment of life, and over time it can lead to health concerns and other problems. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, anxiety is a mental health condition that requires treatment. Generalized anxiety disorder, for example, is characterized by persistent worry about major or minor concerns. Other anxiety disorders &amp;mdash; such as panic disorder, obsessive-compulsive disorder (OCD) and post-traumatic stress disorder (PTSD) &amp;mdash; have more-specific triggers and symptoms. Sometimes, anxiety results from a medical condition that needs treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Whatever form of anxiety you have, lifestyle changes, counseling or medications &amp;mdash; or a combination of these approaches &amp;mdash; can help. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Common anxiety signs and symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Feeling apprehensive&lt;/li&gt;
+	&lt;li&gt;Feeling powerless&lt;/li&gt;
+	&lt;li&gt;Having a sense of impending danger, panic or doom&lt;/li&gt;
+	&lt;li&gt;Having an increased heart rate&lt;/li&gt;
+	&lt;li&gt;Breathing rapidly (hyperventilation)&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Trembling&lt;/li&gt;
+	&lt;li&gt;Feeling weak or tired&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Several types of anxiety disorders exist:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Panic attacks&lt;/strong&gt; can start suddenly and cause apprehension, fear or terror. You may have feelings of impending doom, shortness of breath, heart palpitations or chest pain. You may feel as if you&apos;re choking, being smothered or that you&apos;re &quot;going crazy.&quot;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Agoraphobia&lt;/strong&gt; is anxiety about, or avoidance of, places or situations where you might feel trapped or helpless if you start to feel panicky.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Specific phobias&lt;/strong&gt; are characterized by major anxiety when you&apos;re exposed to a specific object or situation and a desire to avoid it. Phobias provoke panic attacks in some people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social phobias&lt;/strong&gt; are characterized by major anxiety provoked by exposure to certain types of social or performance situations and a desire to avoid them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obsessive-compulsive disorder&lt;/strong&gt; (OCD) includes persistent, recurring thoughts, images or impulses (obsessions) or an irresistible desire to perform irrational or seemingly purposeless acts or rituals (compulsions). Often it involves both obsessive and compulsive behavior.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Post-traumatic stress disorder&lt;/strong&gt; (PTSD) includes the feeling that you&apos;re re-experiencing an extremely traumatic event. It causes intense emotions and physical reactions along with a desire to avoid anything that might remind you of the event.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acute stress disorder&lt;/strong&gt; includes symptoms similar to those of PTSD that occur immediately after an extremely traumatic event.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Generalized anxiety disorder&lt;/strong&gt; includes at least six months of persistent and excessive anxiety and worry about small or large concerns. This type of anxiety disorder often begins at an early age. It frequently occurs along with other anxiety disorders or depression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorder due to a medical condition&lt;/strong&gt; includes prominent symptoms of anxiety that are directly caused by a physical health problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Substance-induced anxiety disorder&lt;/strong&gt; is characterized by prominent symptoms of anxiety that are a direct result of abusing drugs, taking medications or being exposed to a toxic substance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Separation anxiety disorder&lt;/strong&gt; is a childhood disorder characterized by anxiety related to separation from parents or others who have parental roles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorder not otherwise specified&lt;/strong&gt; is a term for prominent anxiety or phobias that don&apos;t meet the exact criteria for any of the other anxiety disorders but are significant enough to be distressing and disruptive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You feel like you&apos;re worrying too much and it&apos;s interfering with your work, relationships or other parts of your life&lt;/li&gt;
+	&lt;li&gt;You feel depressed, have trouble with alcohol or drug use, or have other mental health concerns along with anxiety&lt;/li&gt;
+	&lt;li&gt;You think your anxiety could be linked to a physical health problem&lt;/li&gt;
+	&lt;li&gt;You have suicidal thoughts or behaviors (seek emergency treatment immediately)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your worries may not go away on their own, and they may actually get worse over time if you don&apos;t seek help. See your doctor or a mental health provider before your anxiety gets worse. It may be easier to treat if you address it early. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with many mental health conditions, the exact cause of anxiety disorders isn&apos;t fully understood. Life experiences such as traumatic events appear to trigger anxiety disorders in people who are already prone to becoming anxious. Inherited traits also are a factor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical causes&lt;br /&gt;
+&lt;/strong&gt;For some people, anxiety is linked to an underlying health issue. In some cases, anxiety signs and symptoms are the first indicators that you have a medical illness. If your doctor suspects your anxiety may have a medical cause, he or she may order lab tests and other tests to look for signs of a problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Physical problems that can be linked to anxiety include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart disease&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Thyroid problems (such as hypothyroidism or hyperthyroidism)&lt;/li&gt;
+	&lt;li&gt;Asthma&lt;/li&gt;
+	&lt;li&gt;Drug abuse&lt;/li&gt;
+	&lt;li&gt;Alcohol withdrawal&lt;/li&gt;
+	&lt;li&gt;Withdrawal from anti-anxiety medications (benzodiazepines)&lt;/li&gt;
+	&lt;li&gt;Rare tumors that produce certain &quot;fight-or-flight&quot; hormones&lt;/li&gt;
+	&lt;li&gt;Muscle cramps or spasms&lt;/li&gt;
+	&lt;li&gt;Tingling, burning or prickling sensations that may have no apparent cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s more likely that your anxiety may be due to an underlying medical condition if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your anxiety symptoms started after age 35&lt;/li&gt;
+	&lt;li&gt;You don&apos;t have any blood relatives (such as a parent or sibling) with an anxiety disorder&lt;/li&gt;
+	&lt;li&gt;You didn&apos;t have an anxiety disorder as a child&lt;/li&gt;
+	&lt;li&gt;You don&apos;t avoid certain things or situations because of anxiety&lt;/li&gt;
+	&lt;li&gt;No events have occurred in your life that were triggered by significant anxiety&lt;/li&gt;
+	&lt;li&gt;Medications used to treat feelings of panic (such as benzodiazepines) don&apos;t ease your anxiety symptoms&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These factors may increase your risk of developing an anxiety disorder:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being female.&lt;/strong&gt; Women are more likely than men to be diagnosed with an anxiety disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Childhood trauma.&lt;/strong&gt; Children who endured abuse or trauma or witnessed traumatic events are at higher risk of developing an anxiety disorder at some point in life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress due to an illness.&lt;/strong&gt; Having a health condition or serious illness can cause significant worry about issues such as your treatment and your future.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress buildup.&lt;/strong&gt; A big event or a buildup of smaller stressful life situations may trigger excessive anxiety &amp;mdash; for example, ongoing worry about finances or a death in the family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Personality.&lt;/strong&gt; People with some personality types are more prone to anxiety disorders than are others. In addition, some personality disorders, such as borderline personality disorder, may be linked to anxiety disorders.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having blood relatives with an anxiety disorder.&lt;/strong&gt; Anxiety disorders can run in families.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drugs or alcohol.&lt;/strong&gt; Drug or alcohol use or abuse can cause or worsen anxiety.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having an anxiety disorder does more than make you worry. It can also lead to, or worsen, other mental and physical health conditions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression (which often occurs with anxiety disorder)&lt;/li&gt;
+	&lt;li&gt;Substance abuse&lt;/li&gt;
+	&lt;li&gt;Trouble sleeping (insomnia)&lt;/li&gt;
+	&lt;li&gt;Digestive or bowel problems&lt;/li&gt;
+	&lt;li&gt;Headaches&lt;/li&gt;
+	&lt;li&gt;Teeth grinding (bruxism)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may start by seeing your family doctor or a general practitioner to find out if your anxiety could be related to your physical health. Your doctor can check for signs of an underlying illness that may need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+However, you may need to see a specialist if you have severe anxiety. A psychiatrist is a medical doctor who specializes in diagnosing and treating mental health conditions. A psychologist and certain other mental health providers can diagnose anxiety and provide counseling (psychotherapy).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor or mental health provider.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Prepare and take this information with you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A list of your anxiety symptoms.&lt;/strong&gt; Note when they occur, whether anything seems to make them better or worse, and how much they affect your day-to-day activities and interactions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;What&apos;s caused you stress.&lt;/strong&gt; Include any major life changes or stressful events you&apos;ve dealt with recently. Also note any traumatic experiences you&apos;ve had in the past or as a child.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Any other health problems you have.&lt;/strong&gt; Include both physical conditions and mental health issues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A list of all medications you&apos;re taking.&lt;/strong&gt; Write down the doses, and include any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Prepare a list of questions ahead of time to make the most of limited time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For anxiety, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my anxiety?&lt;/li&gt;
+	&lt;li&gt;Are there other possible situations, psychological issues or physical health problems that could be causing or worsening my anxiety?&lt;/li&gt;
+	&lt;li&gt;Do I need medical tests or other tests?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions or steps I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a psychiatrist, psychologist or other mental health provider?&lt;/li&gt;
+	&lt;li&gt;Would cognitive behavioral therapy help me?&lt;/li&gt;
+	&lt;li&gt;Would medication help? If so, is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Do you have any printed material that I can take home? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will do a physical exam and ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Exactly what are your symptoms, and how severe are they?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a panic attack?&lt;/li&gt;
+	&lt;li&gt;Do you avoid certain things or situations because they make you anxious?&lt;/li&gt;
+	&lt;li&gt;Have your feelings of anxiety been occasional or continuous?&lt;/li&gt;
+	&lt;li&gt;When did you first begin noticing your feelings of anxiety?&lt;/li&gt;
+	&lt;li&gt;Does anything in particular seem to trigger your feelings of anxiety or make them worse?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your feelings of anxiety?&lt;/li&gt;
+	&lt;li&gt;What traumatic experiences have you had recently or in the past?&lt;/li&gt;
+	&lt;li&gt;What, if any, physical or mental health conditions do you have?&lt;/li&gt;
+	&lt;li&gt;Do you take any prescription drugs?&lt;/li&gt;
+	&lt;li&gt;Do you regularly drink alcohol or use illegal drugs?&lt;/li&gt;
+	&lt;li&gt;Do you have any blood relatives with anxiety or other mental health conditions such as depression?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help diagnose an anxiety disorder and rule out other conditions, your doctor or mental health provider may have you fill out a psychological questionnaire. Your doctor will probably do a physical exam to look for signs that your anxiety might be linked to a medical condition. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with an anxiety disorder, you must meet criteria spelled out in the Diagnostic and Statistical Manual of Mental Disorders (DSM). This manual is published by the American Psychiatric Association and is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. Symptoms &amp;mdash; and diagnostic criteria &amp;mdash; differ for each type of anxiety disorder.
+&lt;/p&gt;
+&lt;p&gt;
+Anxiety disorders often occur along with other mental health problems &amp;mdash; such as depression or substance abuse &amp;mdash; which can make diagnosis and treatment more challenging. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When anxiety is severe, disrupts your day-to-day life, causes panic attacks or doesn&apos;t get better over time, you may have a disorder that needs to be diagnosed and treated.
+&lt;/p&gt;
+&lt;p&gt;
+The two main treatments for anxiety disorders are behavior therapy (psychotherapy) and medications. You may benefit most from a combination of the two. It may take some trial and error to discover exactly what treatments work best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Psychotherapy&lt;br /&gt;
+&lt;/strong&gt;Also known as behavior or talk therapy or psychological counseling, psychotherapy involves working with a therapist to reduce your anxiety symptoms. It can be an effective treatment for anxiety. 
+&lt;/p&gt;
+&lt;p&gt;
+Cognitive behavioral therapy is one of the most effective forms of psychotherapy for anxiety disorders. Generally a short-term treatment, cognitive behavioral therapy focuses on teaching you specific skills to gradually return to the activities you have avoided because of anxiety. Through this process, your symptoms improve as you build upon your initial success. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Several different types of medications are used to treat anxiety disorders, including those below. Talk with your doctor about benefits, risks and possible side effects.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; These medications influence the activity of brain chemicals (neurotransmitters) thought to play a role in anxiety disorders. Examples of antidepressants used to treat anxiety disorders include fluoxetine (Prozac), imipramine (Tofranil), paroxetine (Paxil, Pexeva), sertraline (Zoloft), and venlafaxine (Effexor XR). Citalopram (Celexa) and escitalopram (Lexapro) also can be effective, but dosages of about 40 milligrams (mg) a day of citalopram or 20 mg a day of escitalopram warrant discussion of risks versus benefits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buspirone.&lt;/strong&gt; An anti-anxiety medication called buspirone may be used on an ongoing basis. As with most antidepressants, it typically takes up to several weeks to become fully effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Benzodiazepines.&lt;/strong&gt; In limited circumstances your doctor may prescribe one of these sedatives for relief of anxiety symptoms. Examples include alprazolam (Niravam, Xanax), chlordiazepoxide (Librium), clonazepam (Klonopin), diazepam (Valium), and lorazepam (Ativan). Benzodiazepines are generally used only for relieving acute anxiety on a short-term basis. Because they can be habit-forming, these medications aren&apos;t a good choice if you&apos;ve had problems with alcohol or drug abuse.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While most people with anxiety disorders need psychotherapy or medications to get anxiety under control, lifestyle changes also can make a difference. Here&apos;s what you can do:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep physically active.&lt;/strong&gt; Develop a routine so that you&apos;re physically active most days of the week. Exercise is a powerful stress reducer. It can improve your mood and help you stay healthy. Start out slowly and gradually increase the amount and intensity of your activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid alcohol and other sedatives.&lt;/strong&gt; These substances can worsen anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking and cut back or quit drinking coffee.&lt;/strong&gt; Both nicotine and caffeine can worsen anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use relaxation techniques.&lt;/strong&gt; Visualization techniques, meditation and yoga are examples of relaxation techniques that can ease anxiety.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make sleep a priority.&lt;/strong&gt; Do what you can to make sure you&apos;re getting enough quality sleep. If you aren&apos;t sleeping well, see your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy.&lt;/strong&gt; Healthy eating &amp;mdash; such as focusing on vegetables, fruits, whole grains and fish &amp;mdash; may be linked to reduced anxiety, but more research is needed. Avoid fried, fatty, sugary and processed foods.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several herbal remedies have been studied as a treatment for anxiety, such as kava, valerian and passionflower, but more research is needed to understand the risks and benefits. Here&apos;s what researchers know &amp;mdash; and don&apos;t know: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Kava.&lt;/strong&gt; Kava appeared to be a promising treatment for anxiety, but reports of serious liver damage &amp;mdash; even with short-term use &amp;mdash; caused several European countries to pull it off the market. The Food and Drug Administration has issued warnings but not banned sales in the United States. Avoid using kava until more rigorous safety studies are done, especially if you have liver problems or take medications that affect your liver. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Valerian.&lt;/strong&gt; In some studies, people who used valerian reported less anxiety and stress. In other studies, people reported no benefit. Valerian is generally considered safe at recommended doses, but since long-term safety trials are lacking, don&apos;t take it for more than a few weeks at a time. It can cause some side effects such as headaches and drowsiness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Passionflower.&lt;/strong&gt; A few small clinical trials suggest that passionflower might help with anxiety. In many commercial products, passionflower is combined with other herbs, making it difficult to distinguish the unique qualities of each herb. Passionflower is generally considered safe when taken as directed, but some studies found it can cause drowsiness, dizziness and confusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before taking herbal remedies or supplements, talk to your doctor to make sure they&apos;re safe for you and won&apos;t interact with any medications you take. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To cope with anxiety disorder, here&apos;s what you can do:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about your disorder.&lt;/strong&gt; Talk to your doctor or mental health provider. Find out what might be causing your specific condition and what treatments might be best for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to your treatment plan.&lt;/strong&gt; Take medications as directed. Keep therapy appointments. Consistency can make a big difference, especially when it comes to taking your medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take action.&lt;/strong&gt; Work with your mental health provider to figure out what&apos;s making you anxious and address it. For example, if finances concern you, work toward drawing up a workable budget.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Involve your family.&lt;/strong&gt; As with any illness, asking your partner or family members for help is an important part of coping.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Join an anxiety support group.&lt;/strong&gt; Remember that you aren&apos;t alone. Support groups offer compassion, understanding and shared experiences. The National Alliance on Mental Illness and the Anxiety and Depression Association of America provide information on finding support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Socialize.&lt;/strong&gt; Don&apos;t let worries isolate you from loved ones or activities. Social interaction and caring relationships can lessen your worries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Break the cycle.&lt;/strong&gt; When you feel anxious, take a brisk walk or delve into a hobby to refocus your mind away from your worries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let it go.&lt;/strong&gt; Don&apos;t dwell on past concerns. Change what you can and let the rest take its course.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to predict for certain what will cause someone to develop an anxiety disorder in the first place, but you can take steps to reduce the impact of symptoms if you&apos;re anxious:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get help early.&lt;/strong&gt; Anxiety, like many other mental health conditions, can be harder to treat if you wait.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a journal.&lt;/strong&gt; Keeping track of your personal life can help you and your mental health provider identify what&apos;s causing you stress and what seems to help you feel better.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn time management techniques.&lt;/strong&gt; You can reduce anxiety by learning how to carefully manage your time and energy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid unhealthy alcohol or drug use.&lt;/strong&gt; Alcohol and drug use can cause or worsen anxiety. If you&apos;re addicted to any of these substances, quitting can make you anxious. If you can&apos;t quit on your own, see your doctor or find a support group to help you.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Anxiety
+	</Title>
+	<Abstract>
+		Anxiety &amp;mdash; Comprehensive overview covers symptoms, treatment of this common mental health condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02021" LinkType="Internal" ObjectID="E7373336-F052-D531-8967EED8995C0DB5" Title="Test anxiety: Can it be treated?" Url="http://www.mayoclinic.com/health/test-anxiety/AN02021" />
+		<LinkItem ContentType="Answer" DocID="AN01803" LinkType="Internal" ObjectID="E6418B1D-E7FF-0DBD-13AE3B0933802B16" Title="Herbal treatment for anxiety: Is it effective?" Url="http://www.mayoclinic.com/health/herbal-treatment-for-anxiety/AN01803" />
+		<LinkItem ContentType="Answer" DocID="AN01589" LinkType="Internal" ObjectID="BDBA874B-E7FF-0DBD-10AF2800C02D76A3" Title="Coping with anxiety: Can diet make a difference?" Url="http://www.mayoclinic.com/health/coping-with-anxiety/AN01589" />
+		<LinkItem ContentType="Answer" DocID="AN01760" LinkType="Internal" ObjectID="ABD0AE49-E7FF-0DBD-169274B10856735F" Title="Nocturnal panic attacks: What causes them?" Url="http://www.mayoclinic.com/health/panic-attacks/AN01760" />
+		<LinkItem ContentType="Answer" DocID="AN01979" LinkType="Internal" ObjectID="61568FB7-9023-DC3D-5E51F4E5D1F6829F" Title="Fear of public speaking: How can I overcome it?" Url="http://www.mayoclinic.com/health/fear-of-public-speaking/AN01979" />
+		<LinkItem ContentType="Answer" DocID="AN02079" LinkType="Internal" ObjectID="25199F64-B7F6-C481-1DCA0D37D68999CC" Title="Post-traumatic stress: How can you help your loved one?" Url="http://www.mayoclinic.com/health/post-traumatic-stress/AN02079" />
+		<LinkItem ContentType="Disease" DocID="DS00189" LinkType="Internal" ObjectID="F27B9E71-0DF5-45AA-9C458EF5AD977003" Title="Obsessive-compulsive disorder (OCD)" Url="http://www.mayoclinic.com/health/obsessive-compulsive-disorder/DS00189" />
+		<LinkItem ContentType="Disease" DocID="DS00502" LinkType="Internal" ObjectID="DB1C2634-103B-4286-9E7A3EF066877030" Title="Generalized anxiety disorder" Url="http://www.mayoclinic.com/health/generalized-anxiety-disorder/DS00502" />
+		<LinkItem ContentType="Disease" DocID="DS00272" LinkType="Internal" ObjectID="9F0FCD22-ACCC-4A8F-AB69AB12F4E8FB07" Title="Phobias" Url="http://www.mayoclinic.com/health/phobias/DS00272" />
+		<LinkItem ContentType="Disease" DocID="DS00595" LinkType="Internal" ObjectID="969584AF-33DB-40E4-9E8D721018A99480" Title="Social anxiety disorder (social phobia)" Url="http://www.mayoclinic.com/health/social-anxiety-disorder/DS00595" />
+		<LinkItem ContentType="Disease" DocID="DS00584" LinkType="Internal" ObjectID="2D2E338B-DCF4-45FD-ADD551D9C8804E96" Title="Adjustment disorders" Url="http://www.mayoclinic.com/health/adjustment-disorders/DS00584" />
+		<LinkItem ContentType="Disease" DocID="DS00338" LinkType="Internal" ObjectID="18624942-2759-4F0E-9A5532BE9C89B904" Title="Panic attacks and panic disorder" Url="http://www.mayoclinic.com/health/panic-attacks/DS00338" />
+		<LinkItem ContentType="Disease" DocID="DS00246" LinkType="Internal" ObjectID="181CCBB4-A467-4D76-A3488529DC3DBEE9" Title="Post-traumatic stress disorder (PTSD)" Url="http://www.mayoclinic.com/health/post-traumatic-stress-disorder/DS00246" />
+		<LinkItem ContentType="Answer" DocID="AN02194" LinkType="Internal" ObjectID="97DB1E66-C0DF-846A-EDC3AE6812E0E8C9" Title="What is reflexology?" Url="http://www.mayoclinic.com/health/what-is-reflexology/AN02194" />
+		<LinkItem ContentType="Article" DocID="MY01650" LinkType="Internal" ObjectID="5727E251-F748-A208-60315DF916924E2B" Title="Mental health providers: Tips on finding one" Url="http://www.mayoclinic.com/health/mental-health-providers/MY01650" />
+	</RelatedLinksBox>
+</Disease>

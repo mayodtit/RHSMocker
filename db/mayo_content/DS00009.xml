@@ -1,0 +1,323 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00009
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/anaphylaxis/DS00009
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-16
+		</UpdateDate>
+		<PublicationDate>
+			2000-07-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="3572" Title="Allergic reaction">
+							<Keyword MCVID="2129" Title="Anaphylaxis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5F5A74E2-A867-4ACB-87B1C7840D83BF25
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anaphylaxis
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic reaction
+			</MetaKeyword>
+			<MetaKeyword>
+				shock
+			</MetaKeyword>
+			<MetaKeyword>
+				anaphylactic shock
+			</MetaKeyword>
+			<MetaKeyword>
+				strawberry
+			</MetaKeyword>
+			<MetaKeyword>
+				epinephrine
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenaline
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenalin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anaphylaxis is a severe, potentially life-threatening allergic reaction. It can occur within seconds or minutes of exposure to something you&apos;re allergic to, such as a peanut or the venom from a bee sting. 
+&lt;/p&gt;
+&lt;p&gt;
+The flood of chemicals released by your immune system during anaphylaxis can cause you to go into shock; your blood pressure drops suddenly and your airways narrow, blocking normal breathing. Signs and symptoms of anaphylaxis include a rapid, weak pulse, a skin rash, and nausea and vomiting. Common triggers of anaphylaxis include certain foods, some medications, insect venom and latex. 
+&lt;/p&gt;
+&lt;p&gt;
+Anaphylaxis requires an immediate trip to the emergency department and an injection of epinephrine. If anaphylaxis isn&apos;t treated right away, it can lead to unconsciousness or even death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Anaphylaxis symptoms usually occur within minutes of exposure to an allergen. Sometimes, however, anaphylaxis can occur a half-hour or longer after exposure. Anaphylaxis symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin reactions, including hives along with itching, and flushed or pale skin (almost always present with anaphylaxis)&lt;/li&gt;
+	&lt;li&gt;A feeling of warmth&lt;/li&gt;
+	&lt;li&gt;The sensation of a lump in your throat&lt;/li&gt;
+	&lt;li&gt;Constriction of the airways and a swollen tongue or throat, which can cause wheezing and trouble breathing&lt;/li&gt;
+	&lt;li&gt;A weak and rapid pulse&lt;/li&gt;
+	&lt;li&gt;Nausea, vomiting or diarrhea&lt;/li&gt;
+	&lt;li&gt;Dizziness or fainting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Seek emergency medical help&lt;/strong&gt; if you, your child or someone else you&apos;re with has a severe allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+If the person having the attack carries an epinephrine autoinjector (such as an EpiPen or EpiPen Jr), give him or her a shot right away. Even if symptoms improve after an emergency epinephrine injection, a visit to the emergency department is still necessary to make sure symptoms don&apos;t return. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Make an appointment to see your doctor&lt;/strong&gt; if you or your child has had a severe allergy attack or any signs and symptoms of anaphylaxis in the past. 
+&lt;/p&gt;
+&lt;p&gt;
+The diagnosis and long-term management of anaphylaxis are complicated, so you&apos;ll probably need to see a doctor who specializes in allergies and immunology. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your immune system produces antibodies that defend against foreign substances. This is good when a foreign substance is harmful (such as certain bacteria or viruses). But some people&apos;s immune systems overreact to substances that shouldn&apos;t cause an allergic reaction. When this occurs, the immune system sets off a chemical chain reaction, leading to allergy symptoms. Normally, allergy symptoms aren&apos;t life-threatening. But some people have a severe allergic reaction that can lead to anaphylaxis. Even if you or your child has had only a mild anaphylactic reaction in the past, there&apos;s still a risk of more severe anaphylaxis. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of allergens can trigger anaphylaxis, depending on what you&apos;re allergic to. 
+&lt;/p&gt;
+&lt;p&gt;
+Common anaphylaxis triggers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Certain medications, especially penicillin&lt;/li&gt;
+	&lt;li&gt;Foods, such as peanuts, tree nuts (walnuts, pecans, almonds, cashews), wheat (in children), fish, shellfish, milk and eggs&lt;/li&gt;
+	&lt;li&gt;Insect stings from bees, yellow jackets, wasps, hornets and fire ants&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Less common causes of anaphylaxis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Latex&lt;/li&gt;
+	&lt;li&gt;Medications used in anesthesia&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Anaphylaxis symptoms are sometimes caused by aspirin and other drugs &amp;mdash; such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve, Midol Extended Relief) &amp;mdash; and the intravenous (IV) contrast used in some X-ray imaging tests. Although similar to allergy-induced anaphylaxis, this type of reaction isn&apos;t triggered by allergy antibodies. 
+&lt;/p&gt;
+&lt;p&gt;
+Anaphylaxis triggered by exercise is not common and varies from person to person. In some people, aerobic activity, such as jogging, triggers anaphylaxis. In others, less intense physical activity, such as walking, can trigger a reaction. Eating certain foods before exercise or exercising when the weather is hot, cold or humid also has been linked to anaphylaxis in some people. Talk with your doctor about any precautions you should take when exercising. 
+&lt;/p&gt;
+&lt;p&gt;
+If you don&apos;t know what triggers your allergy attack, your doctor may do tests to try to identify the offending allergen. In some cases, the cause of anaphylaxis is never identified. This is known as idiopathic anaphylaxis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There aren&apos;t many known risk factors for anaphylaxis, but some things that may increase your risk include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A personal history of anaphylaxis.&lt;/strong&gt; If you&apos;ve experienced anaphylaxis once, your risk of having this serious reaction increases. Future reactions may be more severe than the first reaction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Allergies or asthma.&lt;/strong&gt; People who have either condition are at increased risk of having anaphylaxis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A family history.&lt;/strong&gt; If you have family members who&apos;ve experienced exercise-induced anaphylaxis, your risk of developing this type of anaphylaxis is higher than it is for someone without a family history.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An anaphylactic reaction can be life-threatening when a severe attack occurs; it can stop breathing or stop your heartbeat. In this case, you&apos;ll need cardiopulmonary resuscitation (CPR) and other emergency treatment right away. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will ask you questions about your allergies or any previous allergic reactions you&apos;ve had. This evaluation will include questions about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Whether any particular foods seem to cause a reaction&lt;/li&gt;
+	&lt;li&gt;Any medications you take, and if certain medications seem linked to your symptoms&lt;/li&gt;
+	&lt;li&gt;Whether you&apos;ve had allergy symptoms when your skin has been exposed to latex&lt;/li&gt;
+	&lt;li&gt;Whether stings from any particular type of insect seem to cause your symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To help confirm the diagnosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You may be tested for allergies with skin tests or blood tests&lt;/li&gt;
+	&lt;li&gt;You may also be asked to keep a detailed list of what you eat or to stop eating certain foods for a time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor will want to rule out other conditions as a possible cause of your symptoms, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seizure disorders&lt;/li&gt;
+	&lt;li&gt;A condition other than allergies that causes flushing or other skin symptoms&lt;/li&gt;
+	&lt;li&gt;Mastocytosis, an immune system disorder&lt;/li&gt;
+	&lt;li&gt;Psychological issues, such as panic attacks&lt;/li&gt;
+	&lt;li&gt;Heart or lung problems&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During an anaphylactic attack, an emergency medical team may perform cardiopulmonary resuscitation (CPR) if you stop breathing or your heart stops beating. You may be given medications including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Epinephrine (adrenaline)&lt;/strong&gt; to reduce your body&apos;s allergic response&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen,&lt;/strong&gt; to help compensate for restricted breathing&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous (IV) antihistamines and cortisone&lt;/strong&gt; to reduce inflammation of your air passages and improve breathing&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A beta-agonist (such as albuterol)&lt;/strong&gt; to relieve breathing symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to do in an emergency&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re with someone who is having an allergic reaction and shows signs of shock caused by anaphylaxis, act fast. Signs and symptoms of shock caused by anaphylaxis include pale, cool and clammy skin, weak and rapid pulse, trouble breathing, confusion, and loss of consciousness. Even if you&apos;re not sure symptoms are caused by anaphylaxis, take the following steps immediately: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call 911 or emergency medical help.&lt;/li&gt;
+	&lt;li&gt;Get the person in a comfortable position and elevate his or her legs.&lt;/li&gt;
+	&lt;li&gt;Check the person&apos;s pulse and breathing and, if necessary, administer CPR or other first-aid measures.&lt;/li&gt;
+	&lt;li&gt;Give medications to treat an allergy attack, such as an epinephrine autoinjector or antihistamines, if the person has them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Using an autoinjector&lt;/strong&gt;&lt;br /&gt;
+Many people at risk of anaphylaxis carry an autoinjector. This device is a combined syringe and concealed needle that injects a single dose of medication when pressed against your thigh. Always be sure to replace epinephrine before its expiration date, or it may not work properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure you know how to use the autoinjector. Also, make sure the people closest to you know how to administer the drug &amp;mdash; if they&apos;re with you during an anaphylactic emergency, one of them could save your life. Medical personnel called in to respond to a severe anaphylactic reaction also may give you an epinephrine injection or another medication to treat your symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term treatment&lt;/strong&gt;&lt;br /&gt;
+If your anaphylactic reaction is triggered by insect stings, you may be able to get a series of allergy shots (immunotherapy) to reduce your body&apos;s allergic response and prevent a severe reaction in the future. 
+&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, in most other cases there&apos;s no way to treat the underlying immune system condition that can lead to anaphylaxis. But you can take steps to prevent a future attack &amp;mdash; and be prepared in the event one does occur. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid your known allergy triggers as much as you can.&lt;/li&gt;
+	&lt;li&gt;You may need to carry self-administered epinephrine. During an anaphylactic attack, you can give yourself the drug using an autoinjector (EpiPen, EpiPen Jr or Twinject).&lt;/li&gt;
+	&lt;li&gt;Your doctor may recommend taking prednisone or antihistamines.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a potentially life-threatening reaction is frightening, whether it happens to you, others close to you or your child. Developing an anaphylaxis emergency action plan may help put your mind at ease. Work with your own or your child&apos;s doctor to develop this written step-by-step plan of what to do in the event of a reaction. That way, you&apos;ll know exactly what you need to do if anaphylaxis occurs, and you&apos;ll have a written plan that you can share with teachers, baby sitters and other caregivers so that they&apos;ll know what they need to do, too. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child has experienced anaphylaxis, talk to his or her school nurse and teachers to find out what plans they have in place for dealing with an emergency. Make sure school officials have a current autoinjector in case your child needs treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best way to prevent anaphylaxis is to avoid substances that you know cause this severe reaction. Follow these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a medical alert necklace or bracelet&lt;/strong&gt; to indicate if you have an allergy to specific drugs or other substances.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alert your doctor to your drug allergies&lt;/strong&gt; before having any medical treatment. If you receive allergy shots, always wait at least 30 minutes before leaving the clinic so that you can receive immediate treatment if you have a severe reaction after the allergy shot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a properly stocked emergency kit with prescribed medications available&lt;/strong&gt; at all times. Your doctor can advise you on the appropriate contents. This may include an epinephrine autoinjector. Make sure your autoinjector has not expired; these medications generally last 18 months.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you&apos;re allergic to stinging insects, exercise caution when they&apos;re nearby.&lt;/strong&gt; Wear long-sleeved shirts and pants and don&apos;t wear sandals or walk barefoot in the grass. Avoid bright colors and don&apos;t wear perfumes or colognes. Stay calm if you are near a stinging insect. Move away slowly and avoid slapping at the insect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you have specific food allergies, carefully read the labels&lt;/strong&gt; of all the foods you buy and eat. Manufacturing processes can change, so it&apos;s important to periodically recheck the labels of foods you commonly eat. When eating out, ask about ingredients in the food, and ask about food preparation because even small amounts of the food that you&apos;re allergic to can cause a serious reaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Be prepared&lt;/strong&gt;&lt;br /&gt;
+It&apos;s important to do everything you can to prevent an anaphylactic reaction by avoiding your triggers. But even if you&apos;re careful, at some point you&apos;ll likely be exposed to the substance you&apos;re allergic to. Fortunately, you can be prepared to respond quickly and effectively to an allergy emergency by knowing the signs and symptoms of an anaphylactic reaction, and having a plan to quickly treat those symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Anaphylaxis
+	</Title>
+	<Abstract>
+		Anaphylaxis &amp;mdash; Comprehensive overview covers symptoms, risk factors and treatment of this dangerous allergic reaction.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01158" LinkType="Internal" ObjectID="32EF9C94-F392-CBE1-BE5F35260FE0602B" Title="Allergy shots" Url="http://www.mayoclinic.com/health/allergy-shots/MY01158" />
+		<LinkItem ContentType="FirstAid" DocID="FA00003" LinkType="Internal" ObjectID="1E4D80E6-65F0-417B-83413D372397B072" Title="Anaphylaxis: First aid" Url="http://www.mayoclinic.com/health/first-aid-anaphylaxis/FA00003" />
+		<LinkItem ContentType="Disease" DocID="DS01148" LinkType="Internal" ObjectID="D083DF11-E543-F247-8C0C76E81FA6E12B" Title="Drug allergy" Url="http://www.mayoclinic.com/health/drug-allergy/DS01148" />
+	</RelatedLinksBox>
+</Disease>

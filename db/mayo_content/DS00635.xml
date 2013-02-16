@@ -1,0 +1,295 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00635
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tinea-versicolor/DS00635
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-02
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2982" Title="Fungal skin infections">
+							<Keyword MCVID="2991" Title="Tinea versicolor" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8DF54E32-2A5D-9994-EB8CB502ED7F36D7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tinea versicolor
+			</MetaKeyword>
+			<MetaKeyword>
+				pityriasis versicolor
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				skin infection
+			</MetaKeyword>
+			<MetaKeyword>
+				pityriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				discolored skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin fungus
+			</MetaKeyword>
+			<MetaKeyword>
+				skin discoloration
+			</MetaKeyword>
+			<MetaKeyword>
+				skin pigmentation
+			</MetaKeyword>
+			<MetaKeyword>
+				white patches
+			</MetaKeyword>
+			<MetaKeyword>
+				fungus infection
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tinea versicolor (TIN-ee-uh vur-si-KUL-ur), also called pityriasis versicolor, is a common fungal infection of the skin. The fungus interferes with the normal pigmentation of the skin, resulting in small, discolored patches.
+&lt;/p&gt;
+&lt;p&gt;
+These patches may be lighter or darker in color than the surrounding skin and most commonly affect the trunk and shoulders. Tinea versicolor occurs most frequently in teens and young adults. Sun exposure may make tinea versicolor more apparent.
+&lt;/p&gt;
+&lt;p&gt;
+Antifungal creams, lotions or shampoos can help treat tinea versicolor. But even after successful treatment, skin color may remain uneven for several weeks. Tinea versicolor often recurs, especially in warm, humid weather.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of tinea versicolor 
+" Caption="The overgrowth of fungus that causes tinea versicolor interferes with the normal tanning of the skin. This creates an uneven skin pigment. 
+" Height="60" Title="Tinea versicolor" URI="/images/image_popup/thumbs/sn7_tineaversicolorthu.jpg" Width="60" />
+				<Image Alt="Image of tinea versicolor 
+" Caption="The overgrowth of fungus that causes tinea versicolor interferes with the normal tanning of the skin. This creates an uneven skin pigment. 
+" Height="405" Title="Tinea versicolor" URI="/images/image_popup/sn7_tineaversicolor.jpg" Width="400" />
+				<HTML>
+					The overgrowth of fungus that causes tinea versicolor interferes with the normal tanning of the skin. This creates an uneven skin pigment. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tinea versicolor is a type of infection that appears as a tissue-thin coating of fungus on your skin. The infection causes patches of discolored skin that may be:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Colored white, pink, tan or dark brown&lt;/li&gt;
+	&lt;li&gt;Slow-growing, scaly and mildly itchy&lt;/li&gt;
+	&lt;li&gt;More noticeable after sun exposure&lt;/li&gt;
+	&lt;li&gt;Located on the back, chest, neck and upper arms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your skin doesn&apos;t improve with self-care measures&lt;/li&gt;
+	&lt;li&gt;The fungal infection returns&lt;/li&gt;
+	&lt;li&gt;The patches cover large areas of your body&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of tinea versicolor 
+" Caption="The overgrowth of fungus that causes tinea versicolor interferes with the normal tanning of the skin. This creates an uneven skin pigment. 
+" Height="60" Title="Tinea versicolor" URI="/images/image_popup/thumbs/sn7_tineaversicolorthu.jpg" Width="60" />
+				<Image Alt="Image of tinea versicolor 
+" Caption="The overgrowth of fungus that causes tinea versicolor interferes with the normal tanning of the skin. This creates an uneven skin pigment. 
+" Height="405" Title="Tinea versicolor" URI="/images/image_popup/sn7_tineaversicolor.jpg" Width="400" />
+				<HTML>
+					The overgrowth of fungus that causes tinea versicolor interferes with the normal tanning of the skin. This creates an uneven skin pigment. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The fungus that causes tinea versicolor can be found on healthy skin. It only starts causing problems when the fungus overgrows. A number of factors may trigger this growth, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hot, humid weather&lt;/li&gt;
+	&lt;li&gt;Excessive sweating&lt;/li&gt;
+	&lt;li&gt;Oily skin&lt;/li&gt;
+	&lt;li&gt;Hormonal changes&lt;/li&gt;
+	&lt;li&gt;Weakened immune system&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. However, you may then be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Preparing a list of questions beforehand can help you make the most of your time with your doctor. For tinea versicolor, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did I get tinea versicolor?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;Is tinea versicolor temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;How long will it take for my skin to return to normal?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you had these discolored areas on your skin?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you had this or a similar condition in the past?&lt;/li&gt;
+	&lt;li&gt;Do the affected areas itch?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor can diagnose tinea versicolor by looking at it. If there&apos;s any doubt, he or she may take skin scrapings from the infected area and view them under a microscope.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If tinea versicolor is severe or doesn&apos;t respond to over-the-counter antifungal medicine, you may need a prescription-strength medication. Some of these medications are topical preparations that you rub on your skin, while others are pills that you swallow. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ciclopirox (Loprox, Penlac) cream, gel or lotion&lt;/li&gt;
+	&lt;li&gt;Fluconazole (Diflucan) tablets&lt;/li&gt;
+	&lt;li&gt;Itraconazole (Onmel, Sporanox) capsules or tablets&lt;/li&gt;
+	&lt;li&gt;Ketoconazole (Extina, Nizoral, others) cream, foam, gel, shampoo or tablets&lt;/li&gt;
+	&lt;li&gt;Selenium sulfide (Selsun) 2.5 percent lotion or shampoo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Even after successful treatment, your skin color may remain uneven for several weeks, or even months. Also, the infection may return in warm, humid weather. In persistent cases, you may need to take a medication once or twice a month to prevent the infection from recurring.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For a mild case of tinea versicolor, you can apply an over-the-counter antifungal lotion, cream, ointment or shampoo. Most fungal infections respond well to these topical agents, which include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clotrimazole (Lotrimin AF, Mycelex) cream or lotion&lt;/li&gt;
+	&lt;li&gt;Miconazole (Monistat, M-Zole) cream&lt;/li&gt;
+	&lt;li&gt;Selenium sulfide (Selsun Blue) 1 percent shampoo&lt;/li&gt;
+	&lt;li&gt;Terbinafine (Lamisil) cream or gel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Wash and dry the affected area. Then, apply a thin layer of the topical agent once or twice a day for at least two weeks. If you&apos;re using shampoo, rinse it off after waiting five to 10 minutes. If you don&apos;t see an improvement after four weeks, see your doctor. You may need a stronger medication.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent tinea versicolor from returning, your doctor can prescribe a skin or oral treatment that you use once or twice a month. Preventive treatments include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Selenium sulfide (Selsun) 2.5 percent shampoo&lt;/li&gt;
+	&lt;li&gt;Ketoconazole (Extina, Nizoral, others) foam, gel, cream, shampoo or tablets&lt;/li&gt;
+	&lt;li&gt;Itraconazole (Onmel, Sporanox) tablets or capsules&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tinea versicolor
+	</Title>
+	<Abstract>
+		Tinea versicolor &amp;mdash; Comprehensive overview covers symptoms, causes, treatments of this common skin infection.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+		<LinkItem ContentType="Answer" DocID="AN01501" LinkType="Internal" ObjectID="30AB5420-E7FF-0DBD-15E5C35F4D8B6AFB" Title="White patch on skin: A cause for concern?" Url="http://www.mayoclinic.com/health/white-patch-on-skin/AN01501" />
+	</RelatedLinksBox>
+</Disease>

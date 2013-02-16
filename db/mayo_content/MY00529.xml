@@ -1,0 +1,214 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00529
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hemoglobin-test/MY00529
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-09
+		</UpdateDate>
+		<PublicationDate>
+			2009-04-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3658" Title="Blood and lymphatic system">
+						<Keyword MCVID="4281" Title="Hemoglobin test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F9C2A5C9-E236-3A87-20857F09DD395018
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hemoglobin test
+			</MetaKeyword>
+			<MetaKeyword>
+				low hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				high hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin levels
+			</MetaKeyword>
+			<MetaKeyword>
+				hemoglobin count
+			</MetaKeyword>
+			<MetaKeyword>
+				haemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				normal hemoglobin
+			</MetaKeyword>
+			<MetaKeyword>
+				red blood cells
+			</MetaKeyword>
+			<MetaKeyword>
+				anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				polycythemia
+			</MetaKeyword>
+			<MetaKeyword>
+				thalassemia
+			</MetaKeyword>
+			<MetaKeyword>
+				complete blood count
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hemoglobin test measures the amount of hemoglobin in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Hemoglobin is a protein in your red blood cells that carries oxygen to your body&apos;s organs and tissues and transports carbon dioxide from your organs and tissues back to your lungs. 
+&lt;/p&gt;
+&lt;p&gt;
+If a hemoglobin test reveals that your hemoglobin level is lower than normal, it means you have a low red blood cell count (anemia). Anemia can have many different causes, including vitamin deficiencies, bleeding and chronic diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+If a hemoglobin test shows a higher than normal level, there are several potential causes, such as the blood disorder polycythemia vera, living in a high altitude, smoking, dehydration, burns and excessive vomiting. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have a hemoglobin test for several reasons: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;To assess your overall health.&lt;/strong&gt; Your doctor may test your hemoglobin as part of a complete blood count during a routine medical examination to monitor your general health and to screen for a variety of disorders, such as anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To diagnose a medical condition.&lt;/strong&gt; Your doctor may suggest a hemoglobin test if you&apos;re experiencing weakness, fatigue, shortness of breath or dizziness. These signs and symptoms may point to anemia or polycythemia vera. A hemoglobin test may help diagnose these or other medical conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To monitor a medical condition.&lt;/strong&gt; If you&apos;ve been diagnosed with anemia or polycythemia vera, your doctor may use a hemoglobin test to monitor your condition and guide treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your blood sample is being tested only for hemoglobin, you can eat and drink normally before the test. If your blood sample will be used for additional tests, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For a hemoglobin test, a member of your health care team takes a sample of blood by pricking your fingertip or inserting a needle into a vein in your arm. For infants, the sample may be obtained by pricking the baby&apos;s heel. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately after the sample is taken. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The normal range for hemoglobin is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;For men,&lt;/strong&gt; 13.5 to 17.5 grams per deciliter (135 to 175 grams per liter)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;For women,&lt;/strong&gt; 12.0 to 15.5 grams per deciliter (120 to 155 grams per liter)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Normal ranges for children vary with age and sex. The range for a normal hemoglobin level may differ from one medical practice to another. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lower than normal results&lt;/strong&gt; &lt;br /&gt;
+If your hemoglobin level is lower than normal, you have anemia. There are many forms of anemia, each with different causes. Causes of anemia can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Iron deficiency&lt;/li&gt;
+	&lt;li&gt;Vitamin B-12 deficiency&lt;/li&gt;
+	&lt;li&gt;Folate deficiency&lt;/li&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Cancers that affect the bone marrow, such as leukemia&lt;/li&gt;
+	&lt;li&gt;Kidney disease&lt;/li&gt;
+	&lt;li&gt;Liver disease&lt;/li&gt;
+	&lt;li&gt;Hypothyroidism&lt;/li&gt;
+	&lt;li&gt;Thalassemia &amp;mdash; a genetic disorder that causes low levels of hemoglobin and red blood cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve been previously diagnosed with anemia, a hemoglobin level that&apos;s lower than normal may indicate a need to alter your treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Higher than normal results&lt;/strong&gt; &lt;br /&gt;
+If your hemoglobin level is higher than normal, it may be the result of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Polycythemia vera &amp;mdash; a blood disorder in which your bone marrow makes too many red blood cells&lt;/li&gt;
+	&lt;li&gt;Lung disease&lt;/li&gt;
+	&lt;li&gt;Dehydration&lt;/li&gt;
+	&lt;li&gt;Living at a high altitude&lt;/li&gt;
+	&lt;li&gt;Heavy smoking&lt;/li&gt;
+	&lt;li&gt;Burns&lt;/li&gt;
+	&lt;li&gt;Excessive vomiting&lt;/li&gt;
+	&lt;li&gt;Extreme physical exercise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;ve been previously diagnosed with polycythemia vera, an elevated hemoglobin level may indicate a need to alter your treatment plan. 
+&lt;/p&gt;
+&lt;p&gt;
+If your hemoglobin level is below or above normal, your doctor may want to evaluate the hemoglobin test results along with those of other tests, or additional tests may be necessary, to determine next steps. 
+&lt;/p&gt;
+&lt;p&gt;
+For specifics about what your hemoglobin test results mean, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hemoglobin test
+	</Title>
+	<Abstract>
+		Hemoglobin test &amp;mdash; Overview covers definition, preparation, results of this blood test.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

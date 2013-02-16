@@ -1,0 +1,433 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00614
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ventricular-septal-defect/DS00614
+		</OriginalURL>
+		<UpdateDate>
+			2011-10-26
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="4258" Title="Ventricular septal defect" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			215998E0-E8ED-408C-9D2478CB14B0C8E9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ventricular septal defects
+			</MetaKeyword>
+			<MetaKeyword>
+				VSD
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in the heart
+			</MetaKeyword>
+			<MetaKeyword>
+				septal defect
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricular
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in heart
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A ventricular septal defect (VSD), also called a hole in the heart, is a common heart defect that&apos;s present at birth (congenital). The defect involves an opening (hole) in the heart forming between the heart&apos;s lower chambers, allowing oxygen-rich and oxygen-poor blood to mix. 
+&lt;/p&gt;
+&lt;p&gt;
+A baby with a small ventricular septal defect may have no problems. A baby with a larger ventricular septal defect or associated heart defects may have a telltale bluish tint to the skin (cyanosis) &amp;mdash; due to oxygen-poor blood &amp;mdash; often most visible in the lips and fingernails. Ventricular septal defects are sometimes not diagnosed until adulthood. 
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, ventricular septal defect is treatable. Many small ventricular septal defects often close on their own or don&apos;t cause problems. Larger ventricular septal defects need surgical repair early in life to prevent complications. Some smaller ventricular septal defects are closed to prevent complications related to their location, such as damage to heart valves. Many people with small ventricular septal defects have normal, productive lives with few related problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of serious heart defects often appear during the first few days, weeks or months of a child&apos;s life. 
+&lt;/p&gt;
+&lt;p&gt;
+Ventricular septal defect symptoms in a baby may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A bluish tint to the skin, lips and fingernails (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Poor eating, failure to thrive&lt;/li&gt;
+	&lt;li&gt;Fast breathing or breathlessness&lt;/li&gt;
+	&lt;li&gt;Easy tiring&lt;/li&gt;
+	&lt;li&gt;Swelling of legs, feet or abdomen&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although these signs can be caused by other conditions, they may be due to a congenital heart defect. 
+&lt;/p&gt;
+&lt;p&gt;
+You and your doctor may not notice signs of a ventricular septal defect at birth. If the defect is small, symptoms may not appear until later in childhood &amp;mdash; if ever. Signs and symptoms vary depending on the size of the hole. Your doctor may first suspect a heart defect during a regular checkup while listening to your baby&apos;s heart with a stethoscope. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes a ventricular septal defect isn&apos;t detected until a person reaches adulthood. Signs or symptoms can include shortness of breath and a loud heart murmur your doctor can hear when listening to your heart with a stethoscope. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Call your doctor if your baby or child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tires easily when eating or playing&lt;/li&gt;
+	&lt;li&gt;Is not gaining weight&lt;/li&gt;
+	&lt;li&gt;Becomes breathless when eating or crying&lt;/li&gt;
+	&lt;li&gt;Has a bluish tint to his or her skin, especially around the fingernails and lips&lt;/li&gt;
+	&lt;li&gt;Breathes rapidly or is short of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Call your doctor if you develop: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath when you exert yourself or when you lie down&lt;/li&gt;
+	&lt;li&gt;Rapid or irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;Fatigue and weakness&lt;/li&gt;
+	&lt;li&gt;Swelling (edema) in your legs, ankles and feet&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Heart defects that are present at birth (congenital) arise from problems early in the heart&apos;s development, but there&apos;s often no clear cause. Genetics and environmental factors probably play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+A ventricular septal defect occurs when the septum, the muscular wall separating the heart into left and right sides, fails to form fully between the lower chambers of the heart (ventricles) during fetal development. This leaves an opening that allows mixing of oxygenated blood and deoxygenated blood, meaning the heart has to work harder to provide enough oxygen to your body&apos;s tissues. 
+&lt;/p&gt;
+&lt;p&gt;
+If a ventricular septal defect is large, blood overfills the lungs and overworks the heart. If left untreated, the blood pressure in the lungs goes up (pulmonary hypertension) and the ventricles enlarge and no longer work efficiently. Ultimately, this can lead to irreversible damage to the lung arteries and to heart failure. In contrast, small ventricular septal defects don&apos;t usually cause any problems, except for a loud heart murmur that doctors may note during physical exams. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ventricular septal defect 
+" Caption="A ventricular septal defect is an abnormal opening between the heart&apos;s lower pumping chambers. It&apos;s a common congenital heart defect that may heal on its own or require treatment to repair. 
+" Height="60" Title="Ventricular septal defect" URI="/images/image_popup/thumbs/r7_ventseptdefthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ventricular septal defect 
+" Caption="A ventricular septal defect is an abnormal opening between the heart&apos;s lower pumping chambers. It&apos;s a common congenital heart defect that may heal on its own or require treatment to repair. 
+" Height="375" Title="Ventricular septal defect" URI="/images/image_popup/r7_ventseptdef.jpg" Width="400" />
+				<HTML>
+					A ventricular septal defect is an abnormal opening between the heart&apos;s lower pumping chambers. It&apos;s a common congenital heart defect that may heal on its own or require treatment to repair. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ventricular septal defect appears to run in families and sometimes occurs with other genetic problems, such as Down syndrome. If you already have a child with a heart defect, a genetic counselor can predict the approximate odds that your next child will have one. 
+&lt;/p&gt;
+&lt;p&gt;
+Having the following conditions during pregnancy can increase your risk of having a baby with a heart defect. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rubella infection.&lt;/strong&gt; Becoming infected with German measles (rubella) while pregnant can increase the risk of fetal heart defects. The rubella virus crosses the placenta and spreads through the fetus&apos; circulatory system damaging blood vessels and organs, including the heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poorly controlled diabetes.&lt;/strong&gt; Uncontrolled diabetes in the mother in turn affects the fetus&apos; blood sugar, causing damaging effects to the developing fetus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drug or alcohol use or exposure to certain substances.&lt;/strong&gt; Use of certain medications, alcohol or drugs or exposure to chemicals or radiation during pregnancy can harm the developing fetus.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A small ventricular septal defect may never cause any problems. Larger defects can cause a range of disabilities &amp;mdash; from mild to life-threatening. Treatment can prevent many complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eisenmenger&apos;s syndrome&lt;/strong&gt;&lt;br /&gt;
+If a large ventricular septal defect goes untreated, increased blood flow to the lungs causes high blood pressure in the lung arteries (pulmonary hypertension). Over time, permanent damage to the lung arteries develops and the pulmonary hypertension can become irreversible. 
+&lt;/p&gt;
+&lt;p&gt;
+This complication, called Eisenmenger&apos;s syndrome, usually develops in early childhood. In people with Eisenmenger&apos;s syndrome, a significant portion of blood flows through the ventricular septal defect from the right ventricle to the left and bypasses the lungs. This means deoxygenated blood is pumped to the body and leads to a bluish discoloration of the lips, fingers and toes (cyanosis) and other complications. Once a person has Eisenmenger&apos;s syndrome, it&apos;s too late to surgically repair the hole because irreversible damage to the lung arteries has already occurred. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other complications&lt;/strong&gt;&lt;br /&gt;
+Other complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; The increased blood flow through the heart due to a ventricular septal defect can also lead to heart failure, a chronic condition in which the heart can&apos;t pump effectively.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endocarditis.&lt;/strong&gt; People with a ventricular septal defect are at increased risk of an infection of the heart (endocarditis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; People with large defects, especially occurring with Eisenmenger&apos;s syndrome, are at risk of a stroke due to a blood clot passing through the hole in the heart and going to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other heart problems.&lt;/strong&gt; Ventricular septal defects can also lead to abnormal heart rhythms and valve problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Ventricular septal defect and pregnancy&lt;/strong&gt;&lt;br /&gt;
+Becoming pregnant is often a concern for women born with a heart defect. Having a repaired ventricular septal defect without any complications or having a very small defect doesn&apos;t pose any additional risk in pregnancy. However, having an unrepaired larger defect, heart failure, cyanosis or other heart defects poses a high risk to both mother and fetus. Women with Eisenmenger&apos;s syndrome are at the highest risk of complications. Doctors strongly advise these women not to become pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+Any woman with a congenital heart defect, repaired or not, who is considering pregnancy should talk beforehand with a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). This is especially important if you&apos;re taking medications. It&apos;s also important to see both an obstetrician and a cardiologist during pregnancy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child develops signs and symptoms common to ventricular septal defect, call your doctor. After an initial examination, it&apos;s likely that the doctor will refer you or your child to a cardiologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms you or your child has had&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key medical information,&lt;/strong&gt; including any other health problems and the names of any medications you or your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Although ventricular septal defect is typically very manageable, it may be hard to focus on what the doctor says next after receiving a diagnosis of a heart defect. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask the doctor at the initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing these symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests are needed?&lt;/li&gt;
+	&lt;li&gt;Should a specialist be consulted?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you are referred to a cardiologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I or my child have a ventricular septal defect? What type?&lt;/li&gt;
+	&lt;li&gt;How large is the defect?&lt;/li&gt;
+	&lt;li&gt;What is the risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what type of procedure is most likely to be effective?&lt;/li&gt;
+	&lt;li&gt;How often should we schedule follow-up exams and tests?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms should I watch for at home?&lt;/li&gt;
+	&lt;li&gt;What is the long-term outlook for this condition?&lt;/li&gt;
+	&lt;li&gt;Do you recommend any dietary or activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Do you recommend taking antibiotics before dental appointments or other medical procedures?&lt;/li&gt;
+	&lt;li&gt;What is the risk that my future children will have this defect?&lt;/li&gt;
+	&lt;li&gt;Should I meet with a genetic counselor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+A doctor or cardiologist who sees you or your child for a possible ventricular septal defect may ask a number of questions, including: 
+&lt;/p&gt;
+&lt;p&gt;
+If you are the person affected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include rapid, fluttering or pounding heartbeats?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include shortness of breath?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include dizziness?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Have you ever coughed up blood?&lt;/li&gt;
+	&lt;li&gt;Does exercise or physical exertion make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Does lying down make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Are you being treated or have you recently been treated for any other health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Are you planning to become pregnant in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your baby or child is affected: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does your child tire easily while eating or playing?&lt;/li&gt;
+	&lt;li&gt;Is your child gaining weight?&lt;/li&gt;
+	&lt;li&gt;Does your child breathe rapidly?&lt;/li&gt;
+	&lt;li&gt;Does your child run out of breath when eating or crying?&lt;/li&gt;
+	&lt;li&gt;Have you ever noticed a bluish tint to your child&apos;s skin, especially around the fingernails and lips?&lt;/li&gt;
+	&lt;li&gt;Has your child been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Is your child currently taking any medications?&lt;/li&gt;
+	&lt;li&gt;Is there a family history of congenital heart defects?&lt;/li&gt;
+	&lt;li&gt;Are you planning to have more children in the future?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ventricular septal defects often cause a heart murmur that your doctor can hear using a stethoscope. If your doctor hears a heart murmur or finds other signs or symptoms of a heart defect, he or she may request one or more of these tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray image helps the doctor view the heart and lungs. An X-ray may identify conditions other than a heart defect that may explain symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This test records the electrical activity of the heart through electrodes attached to the skin. This test helps diagnose heart defects or rhythm problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; An echocardiogram uses sound waves to produce a video image of the heart. This image can help doctors see if you have a ventricular septal defect and if the heart is pumping properly. Echocardiography can also be done while a baby is still in the womb (fetal echocardiography).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; In this test, a thin, flexible tube (catheter) is inserted into a blood vessel at the groin or arm and guided through the blood vessels into the heart. Through catheterization, doctors can diagnose congenital heart defects and test the strength of the ventricles &amp;mdash; the heart&apos;s pumping chambers &amp;mdash; and the function of the heart valves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulse oximetry.&lt;/strong&gt; This painless test measures how well oxygen is reaching tissues. It helps determine whether oxygenated blood is mixing with deoxygenated blood, which can help diagnose the type of heart defect present. A small finger clip on the fingertip measures the amount of oxygen in the blood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many babies born with a small ventricular septal defect won&apos;t ever need to have the defect surgically closed. After birth, your doctor may want to observe your baby and treat any symptoms while waiting to see if the defect will close on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+Children and adults who have a ventricular septal defect that is large or is causing significant symptoms usually need surgery to close the defect. If your baby has a ventricular septal defect that needs surgical repair, the procedure will likely be scheduled in your baby&apos;s first year of life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications for ventricular septal defect may include those to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep the heartbeat regular.&lt;/strong&gt; Examples include beta blockers (Lopressor, Inderal, others) and digoxin (Lanoxin, Lanoxicaps, Lanoxin Pediatric).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase the strength of the heart&apos;s contractions.&lt;/strong&gt; Examples include digoxin (Lanoxin).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decrease the amount of fluid in circulation.&lt;/strong&gt; Doing so reduces the volume of blood that must be pumped. These medications, called diuretics, include furosemide (Lasix).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Procedures&lt;/strong&gt;&lt;br /&gt;
+Surgical treatment for ventricular septal defects involves plugging or patching the abnormal opening between the ventricles. Two approaches are used: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical repair.&lt;/strong&gt; This is the procedure of choice in most cases. Surgical repair of a ventricular septal defect usually involves open-heart surgery, which is done under general anesthesia. The surgery requires a heart-lung machine and an incision in the chest. The doctor uses patches or stitches to close the hole.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Catheter procedure.&lt;/strong&gt; This method may be used to close some ventricular septal defects. Patching during catheterization doesn&apos;t require opening the chest. Rather than opening the chest, the doctor inserts a thin tube (catheter) into a blood vessel in the groin and guides it to the heart. The doctor then uses a small mesh patch or plug to close the hole.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hybrid procedure.&lt;/strong&gt; A hybrid procedure uses surgical and catheter-based techniques. Access to the heart is usually through a small incision and the procedure may be performed without stopping the heart and using the heart-lung machine. A plug is delivered to close the VSD via a catheter placed through the small hole that the surgeon created. Recovery from this procedure is quicker than with standard surgery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After repair, your doctor will schedule regular medical follow-up to ensure that the ventricular septal defect remains closed. Depending on the size of the ventricular septal defect and the presence or absence of any other problems, your doctor will tell you how frequently you or your child will need to be seen. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery to close a ventricular septal defect generally has excellent long-term results. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventive antibiotics&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve been told in the past that you or your child needs to take antibiotics before dental or medical procedures to reduce the risk of infective endocarditis, talk with your doctor. Endocarditis is much more likely to occur from exposure to random germs than from a typical dental exam or surgery. Current guidelines recommend preventive antibiotic treatment only for those people at highest risk of serious complications from infective endocarditis. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may still recommend preventive antibiotics if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have other heart conditions or artificial valves&lt;/li&gt;
+	&lt;li&gt;Have a large ventricular septal defect that&apos;s causing a low blood oxygen level&lt;/li&gt;
+	&lt;li&gt;Have had a repair with artificial (prosthetic) material&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For most people with a ventricular septal defect, practicing good oral hygiene and getting regular dental checkups is the most effective strategy for preventing endocarditis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Parents of children with congenital heart defects often worry about the risks of rough play and vigorous activity even after successful treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with small defects or a repaired hole in the heart will usually have few or no restrictions on activity or exercise. Children whose hearts have reduced pumping ability will need to follow some limits. A child with irreversible pulmonary hypertension (Eisenmenger&apos;s syndrome) has the greatest number of restrictions. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor can advise you about which activities are safe for your child. If some activities pose special dangers, encourage your child in other pursuits instead of focusing on what he or she can&apos;t do. Although every circumstance is different, remember that many children with ventricular septal defects grow up to lead healthy, productive lives. 
+&lt;/p&gt;
+&lt;p&gt;
+It may also be helpful to join a support group for families of children born with heart defects. Support groups can offer practical advice and useful resources to help parents, families and caregivers find answers, connect with other families, and share their hopes and concerns with others facing similar challenges. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, you can&apos;t do anything to prevent having a baby with a ventricular septal defect. However, it&apos;s important to do everything possible to have a healthy pregnancy. Here are the basics: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get early prenatal care, even before you&apos;re pregnant.&lt;/strong&gt; Quitting smoking, reducing stress, stopping birth control &amp;mdash; these are all things to talk to your doctor about before you get pregnant. Also, be sure you talk to your doctor about any medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a balanced diet.&lt;/strong&gt; Include a vitamin supplement that contains folic acid. Also, limit caffeine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Work with your doctor to develop an exercise plan that&apos;s right for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid risks.&lt;/strong&gt; These include harmful substances such as alcohol, cigarettes and illegal drugs. Also, avoid X-rays, hot tubs and saunas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid infections.&lt;/strong&gt; Be sure you&apos;re up to date on all of your vaccinations before becoming pregnant. Certain types of infections can be harmful to a developing fetus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep diabetes under control.&lt;/strong&gt; If you have diabetes, work with your doctor to be sure it&apos;s well controlled before getting pregnant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a family history of heart defects or other genetic disorders, consider talking with a genetic counselor before getting pregnant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ventricular septal defect (VSD)
+	</Title>
+	<Abstract>
+		Ventricular septal defect &amp;mdash; Comprehensive overview covers symptoms, treatment of this common heart defect.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,329 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00200
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/muscular-dystrophy/DS00200
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-18
+		</UpdateDate>
+		<PublicationDate>
+			1999-12-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1389" Title="Muscle tendon soft tissue">
+						<Keyword MCVID="2294" Title="Muscular dystrophy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			98CFE6CE-8584-4B59-85CF92C48793A1D8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				muscular dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				MD
+			</MetaKeyword>
+			<MetaKeyword>
+				dystrophin
+			</MetaKeyword>
+			<MetaKeyword>
+				dystrophinopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				Duchenne
+			</MetaKeyword>
+			<MetaKeyword>
+				Duchennes
+			</MetaKeyword>
+			<MetaKeyword>
+				Duchennes muscular dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				Duchenne muscular dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				Becker
+			</MetaKeyword>
+			<MetaKeyword>
+				Beckers
+			</MetaKeyword>
+			<MetaKeyword>
+				Becker&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Becker&apos;s muscular dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				Beckers muscular dystrophy
+			</MetaKeyword>
+			<MetaKeyword>
+				Steinert
+			</MetaKeyword>
+			<MetaKeyword>
+				Steinerts
+			</MetaKeyword>
+			<MetaKeyword>
+				muscular distrophy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Muscular dystrophy is a group of genetic diseases in which muscle fibers are unusually susceptible to damage. These damaged muscles become progressively weaker. Most people who have muscular dystrophy will eventually need to use a wheelchair.
+&lt;/p&gt;
+&lt;p&gt;
+There are many different kinds of muscular dystrophy. Symptoms of the most common variety begin in childhood, primarily in boys. Other types of muscular dystrophy don&apos;t surface until adulthood.
+&lt;/p&gt;
+&lt;p&gt;
+People who have muscular dystrophy may have trouble breathing or swallowing. Their limbs may also draw inward and become fixed in that position &amp;mdash; a problem called contracture. Some varieties of the disease can also affect the heart and other organs.
+&lt;/p&gt;
+&lt;p&gt;
+While there is no cure for muscular dystrophy, medications and therapy can slow the course of the disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Progressive muscle weakness is the main feature of muscular dystrophy. Each separate form of muscular dystrophy varies a bit in terms of the age at which the signs and symptoms usually begin and the sequence in which different muscle groups are affected.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Duchenne muscular dystrophy&lt;br /&gt;
+&lt;/strong&gt;About half of all muscular dystrophy cases are the Duchenne variety, which most commonly occurs in boys. Signs and symptoms typically first surface when the child begins to walk and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequent falls&lt;/li&gt;
+	&lt;li&gt;Difficulty getting up from a lying or sitting position&lt;/li&gt;
+	&lt;li&gt;Trouble running and jumping&lt;/li&gt;
+	&lt;li&gt;Waddling gait&lt;/li&gt;
+	&lt;li&gt;Large calf muscles&lt;/li&gt;
+	&lt;li&gt;Learning disabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Becker muscular dystrophy&lt;br /&gt;
+&lt;/strong&gt;This variety has signs and symptoms similar to Duchenne muscular dystrophy, but they typically are milder and progress more slowly. Symptom onset is generally in the teens but may not occur until the mid-20s or even later.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of muscular dystrophy&lt;/strong&gt; Certain other types of muscular dystrophy are defined by a specific feature or the location of the body where symptoms first begin. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Myotonic.&lt;/strong&gt; Also known as Steinert&apos;s disease, this form of muscular dystrophy also features an inability to relax muscles at will. It most often begins in early adulthood. Muscles of the face are usually the first to be affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limb-girdle.&lt;/strong&gt; The hip and shoulder muscles are usually the first affected in this type of muscular dystrophy. In some cases, it becomes difficult to lift the front part of the foot, so frequent tripping may occur. Signs and symptoms may begin from early childhood to adulthood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital.&lt;/strong&gt; This category of muscular dystrophy is apparent at birth or becomes evident before age 2. Some forms progress slowly and cause only mild disability, while others progress rapidly and cause severe impairment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fascioscapulohumeral (FSHD).&lt;/strong&gt; One of the most striking signs of this variety of muscular dystrophy is that the shoulder blades might stick out like wings when the person raises his or her arms. Onset usually occurs in teens or young adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oculopharyngeal.&lt;/strong&gt; The first sign of this type of muscular dystrophy is usually drooping of the eyelids. Weakness of the muscles of the eye, face and throat often results in swallowing difficulties. Signs and symptoms first appear in adulthood, usually in a person&apos;s 40s or 50s.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek medical advice if you notice signs of muscle weakness &amp;mdash; such as increased clumsiness and falling &amp;mdash; in yourself or your child.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hundreds of genes are involved in making proteins that protect muscle fibers from damage. Muscular dystrophy occurs when one of these genes is defective. Each form of muscular dystrophy is caused by a genetic mutation that&apos;s particular to that type of the disease. Many of these mutations are inherited, but some occur spontaneously in the mother&apos;s egg or the developing embryo.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Muscular dystrophy occurs in both sexes and in all ages and races, but the most common variety usually occurs in young boys. People who have a family history of muscular dystrophy are at higher risk of developing the disease or passing it on to their children.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some types of muscular dystrophy shorten the person&apos;s lifespan, often by affecting the muscles associated with breathing. Even with improved mechanical breathing assistance, people who have Duchenne muscular dystrophy &amp;mdash; the most common type of muscular dystrophy &amp;mdash; usually die of respiratory failure before they reach age 40. 
+&lt;/p&gt;
+&lt;p&gt;
+Many types of muscular dystrophy can also reduce the efficiency of the heart muscle. If the muscles involved with swallowing are affected, nutritional problems may develop. 
+&lt;/p&gt;
+&lt;p&gt;
+As muscle weakness progresses, mobility becomes a problem. Many people who have muscular dystrophy will eventually need to use a wheelchair. However, the prolonged immobility of joints associated with wheelchair use can worsen contractures, in which the limbs draw inward and become fixed in that position. 
+&lt;/p&gt;
+&lt;p&gt;
+Contractures may also play a part in the development of scoliosis, a sideways curvature of the spine that further reduces lung efficiency in people who have muscular dystrophy. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your concerns to the attention of your family doctor, but you may be referred to a doctor who specializes in the diagnosis and treatment of muscular dystrophy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;If you are worried that your child might have muscular dystrophy, you might want to bring photos or video recordings that illustrate your particular concerns. Bring along a relative or friend to help listen to the doctor&apos;s information. 
+&lt;/p&gt;
+&lt;p&gt;
+Questions to ask the doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests are needed?&lt;/li&gt;
+	&lt;li&gt;What are the possible complications of this condition?&lt;/li&gt;
+	&lt;li&gt;How is this condition treated?&lt;/li&gt;
+	&lt;li&gt;What is the long-term outlook?&lt;/li&gt;
+	&lt;li&gt;How can I find other families who are coping with the same diagnosis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;The doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in depth. The doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What symptoms have you noticed?&lt;/li&gt;
+	&lt;li&gt;When did they start? Are they getting worse?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your immediate family had muscular dystrophy?&lt;/li&gt;
+	&lt;li&gt;Do you plan on having more children?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In addition to a medical history review and physical examination, your doctor may suggest some of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Enzyme tests.&lt;/strong&gt; Damaged muscles release enzymes, such as creatine kinase (CK), into your blood. In the absence of traumatic injuries, high blood levels of CK suggest a muscle disease &amp;mdash; such as muscular dystrophy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography.&lt;/strong&gt; This test involves inserting an electrode needle through your skin and into the muscle to be tested. Electrical activity is measured as you relax and as you gently tighten the muscle. Changes in the pattern of electrical activity can confirm a muscle disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle biopsy.&lt;/strong&gt; A small piece of muscle can be removed through a small incision or with a hollow needle. The analysis of the sample can distinguish muscular dystrophies from other muscle diseases.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; Blood samples can be examined for mutations in some of the genes that cause different types of muscular dystrophy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s currently no cure for any form of muscular dystrophy. Research into gene therapy may eventually provide treatment to stop the progression of some types of muscular dystrophy. Current treatment is designed to help prevent or reduce deformities in the joints and the spine and to allow people with muscular dystrophy to remain mobile as long as possible.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Corticosteroids, such as prednisone, may help improve muscle strength and delay the progression of certain types of muscular dystrophy. But prolonged use of these types of drugs can weaken bones and increase fracture risk.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Several different types of therapy and assistive devices can improve quality and sometimes length of life in people who have muscular dystrophy. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Range-of-motion exercises.&lt;/strong&gt; Muscular dystrophy can restrict the flexibility and mobility of joints. Limbs often draw inward and become fixed in that position. One goal of physical therapy is to provide regular range-of-motion exercises to keep joints as flexible as possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mobility aids.&lt;/strong&gt; Braces can provide support for weakened muscles and help keep muscles and tendons stretched and flexible, slowing the progression of contractures. Other devices &amp;mdash; such as canes, walkers and wheelchairs &amp;mdash; can help maintain mobility and independence.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing assistance.&lt;/strong&gt; As respiratory muscles weaken, a sleep apnea device may help improve oxygen delivery during the night. Some people with severe muscular dystrophy may need to rely on a ventilator &amp;mdash; a machine that forces air in and out of their lungs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;br /&gt;
+&lt;/strong&gt;Surgical remedies are an option for several of the problems common to muscular dystrophy, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Contractures.&lt;/strong&gt; Tendon surgery can loosen joints drawn inward by contractures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scoliosis.&lt;/strong&gt; Surgery may also be needed to correct a sideways curvature of the spine that can make breathing more difficult.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Some people who have heart problems related to muscular dystrophy may be helped by the insertion of a pacemaker, which prompts the heart to beat more regularly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because respiratory infections may become a problem in later stages of muscular dystrophy, it&apos;s important to be vaccinated for pneumonia and to keep up to date with influenza shots. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For family members of people with muscular dystrophy, coping with the illness involves major commitment of physical, emotional and financial resources. The disease presents challenges in the classroom, in the home and in all aspects of life.
+&lt;/p&gt;
+&lt;p&gt;
+In dealing with muscular dystrophy, support groups can be a valuable part of a wider network that includes health care professionals, family, friends and community organizations, including places of worship. 
+&lt;/p&gt;
+&lt;p&gt;
+Support groups bring together people, family and friends who are all coping with the same kind of physical or mental health challenge. Support groups provide a setting in which people can share their common problems and provide ongoing support to one another.
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor about self-help groups that may exist in your community. Your local health department, public library, telephone book and the Internet also may be good sources to locate a support group in your area. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Muscular dystrophy
+	</Title>
+	<Abstract>
+		Muscular dystrophy &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this muscle disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00107" LinkType="Internal" ObjectID="C019023D-E7FF-0DBD-10F82974DF8D3D59" Title="Electromyography (EMG)" Url="http://www.mayoclinic.com/health/emg/MY00107" />
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+	</RelatedLinksBox>
+</Disease>

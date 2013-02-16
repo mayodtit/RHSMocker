@@ -1,0 +1,259 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00233
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/poor-color-vision/DS00233
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-05
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2481" Title="Poor color vision" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			373C37BE-3C76-4DE1-A255EDCA17BBD5A6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				poor color vision
+			</MetaKeyword>
+			<MetaKeyword>
+				colorblindness
+			</MetaKeyword>
+			<MetaKeyword>
+				color blind
+			</MetaKeyword>
+			<MetaKeyword>
+				colorblind
+			</MetaKeyword>
+			<MetaKeyword>
+				color blindness
+			</MetaKeyword>
+			<MetaKeyword>
+				color vision deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				eyes
+			</MetaKeyword>
+			<MetaKeyword>
+				complete eye examination
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Poor color vision is a reduced ability to distinguish between certain shades of color. Although many people use the term &quot;colorblind&quot; to refer to the reduced ability to discriminate between some colors, true colorblindness describes a total lack of color vision. The ability to see only shades of gray is rare.
+&lt;/p&gt;
+&lt;p&gt;
+Poor color vision is an inherited condition in most cases. Men are more likely to be born with poor color vision. Most people with poor color vision can&apos;t distinguish between certain shades of red and green. Less commonly, people with poor color vision can&apos;t distinguish between shades of blue and yellow. Certain eye diseases and some medications also can cause poor color vision.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have poor color vision and not know it. You also may not suspect the condition in yourself or in your child until a situation causes confusion or misunderstanding &amp;mdash; such as when there are problems differentiating the colors in a traffic light or trying to interpret color-coded learning materials. 
+&lt;/p&gt;
+&lt;p&gt;
+People affected by poor color vision may not be able to distinguish: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Different shades of red and green&lt;/li&gt;
+	&lt;li&gt;Different shades of blue and yellow&lt;/li&gt;
+	&lt;li&gt;Any colors at all&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The most common color deficiency is an inability to see some shades of red and green. Often, a person who is red-green or blue-yellow deficient isn&apos;t completely insensitive to both colors. Defects can be mild, moderate or severe. Someone with red-green or blue-yellow deficiency may not be able to differentiate the colors of a rainbow or recognize a rose-colored sky at sunrise or sunset. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you suspect that your color vision isn&apos;t satisfactory, see an eye doctor for testing. Also, if you have a child who&apos;s receiving a preschool eye exam, it&apos;s a good idea to have your child tested for color vision as well as for visual acuity. While there&apos;s no treatment for inherited poor color vision, if the cause is an eye illness, treating that illness may improve color vision. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seeing colors across the light spectrum begins with your eyes&apos; ability to accurately distinguish the primary colors red, blue and green.
+&lt;/p&gt;
+&lt;p&gt;
+Light enters your eye through the cornea and passes through the lens and transparent, jelly-like tissue in your eye (vitreous body) to color-sensitive cells (cones) located at the back of your eye in the retina. Chemicals in the cones distinguish colors and send that information through your optic nerve to your brain.
+&lt;/p&gt;
+&lt;p&gt;
+If your eyes are normal, you can distinguish many different blends of colors, but if your cones lack one or more light-sensitive chemicals, you may see only two of the primary colors.
+&lt;/p&gt;
+&lt;p&gt;
+Poor color vision has several causes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Inherited disorder.&lt;/strong&gt; About one in 12 males of Northern European descent is born with some degree of red-green color deficiency. Most females possess genes that counteract the deficiency, and less than 1 percent of females of Northern European descent have this type of color deficiency. In other populations, the prevalence of red-green color deficiency is lower.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Blue-yellow color deficiency is inherited by fewer than one in 10,000 people worldwide, and true inherited colorblindness affects fewer than one in 30,000 people. You can inherit a mild, moderate or severe degree of the disorder, and the severity doesn&apos;t change over your lifetime if the cause is inherited.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diseases.&lt;/strong&gt; Some conditions that can cause color deficits are diabetes, glaucoma, macular degeneration, Alzheimer&apos;s disease, Parkinson&apos;s disease, chronic alcoholism, leukemia and sickle cell anemia. One eye may be more affected than the other and may get better if the underlying disease can be treated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medications can alter color vision, such as some drugs used to treat heart problems, high blood pressure, erectile dysfunction, infections, nervous disorders and psychological problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; Your ability to see colors deteriorates slowly as a part of aging.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemicals.&lt;/strong&gt; Exposure to some potent chemicals in the workplace, such as carbon disulfide and fertilizers may cause loss of color vision. If you work around these chemicals, have your color vision evaluated because the loss of some color vision may be too subtle for you to notice.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="60" Title="Anatomy of the eye" URI="/images/image_popup/thumbs/r7_eyethu.jpg" Width="60" />
+				<Image Alt="Illustration showing anatomy of the eye 
+" Caption="Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by your brain. 
+" Height="497" Title="Anatomy of the eye" URI="/images/image_popup/r7_eye.jpg" Width="400" />
+				<HTML>
+					Your eye is a complex and compact structure measuring about 1 inch (2.5 centimeters) in diameter. It receives millions of pieces of information about the outside world, which are quickly processed by ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can start by seeing your family doctor or a general practitioner, or you may make an appointment directly with a doctor who specializes in eye disorders (ophthalmologist or optometrist).
+&lt;/p&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For poor color vision, some basic questions to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How might having poor color vision affect my life?&lt;/li&gt;
+	&lt;li&gt;Are there any treatments for poor color vision?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there special glasses or contact lenses that I can wear to help the problem?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice that you were having trouble seeing certain colors?&lt;/li&gt;
+	&lt;li&gt;Does anyone in your family (including parents and grandparents) have poor color vision?&lt;/li&gt;
+	&lt;li&gt;Do you have any medical disorders?&lt;/li&gt;
+	&lt;li&gt;Are you taking any medicines or supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have trouble seeing certain colors, your eye doctor can quickly and easily test to see if you have a color deficiency. Many specialists trained in eye diseases and disorders use a book containing several multicolored dot-pattern tests to provide a simple and accurate assessment of color vision deficiencies. If you don&apos;t have a color vision deficiency, you&apos;ll be able to pick out numbers and shapes from within the dot patterns. However, if you do have a color vision deficiency, either you&apos;ll find it difficult to see some patterns within the dots, or you won&apos;t see anything at all.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are currently no medical treatments available for most types of color vision difficulties, unless the color vision problem is related to the use of certain medicines or medical diseases that can be helped with other therapies.
+&lt;/p&gt;
+&lt;p&gt;
+If you have problems seeing shades of color, and there&apos;s an associated eye disease, treatment of the disease may help your color vision.
+&lt;/p&gt;
+&lt;p&gt;
+Wearing a colored filter over eyeglasses or a colored contact lens may enhance your perception of contrasts. But such lenses won&apos;t improve your ability to discern colors.
+&lt;/p&gt;
+&lt;p&gt;
+Recent research has shown that some rare retinal disorders associated with color deficiency can be corrected with gene replacement techniques. These treatments aren&apos;t currently available, except within strict research protocols, but it&apos;s possible that some of these treatments will become available in the future.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there are no medical treatments that can correct inherited color vision problems, most people find ways to work around their poor color vision. For example, you can:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Memorize the order of colored objects.&lt;/strong&gt; If it&apos;s important to know individual colors, such as with a traffic light, memorize the order of the colors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Label colored items that may need to match other items.&lt;/strong&gt; Have someone with good color vision help you sort and label your clothing with the proper colors. Have them suggest which colors go well with others, and sort your clothes in your closet or dresser drawers so that colors that can be worn together are near each other.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Poor color vision
+	</Title>
+	<Abstract>
+		Poor color vision &amp;mdash; Comprehensive overview covers causes, diagnosis of colorblindness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="DS00549" LinkType="Internal" ObjectID="270140A4-A09B-4746-8BBE8E05B51FAB44" Title="Slide show: How genetic disorders are inherited" Url="http://www.mayoclinic.com/health/genetic-disorders/DS00549" />
+		<LinkItem ContentType="Disease" DocID="DS00324" LinkType="Internal" ObjectID="193554B1-F187-461C-9041DDD189B031A6" Title="Sickle cell anemia" Url="http://www.mayoclinic.com/health/sickle-cell-anemia/DS00324" />
+	</RelatedLinksBox>
+</Disease>

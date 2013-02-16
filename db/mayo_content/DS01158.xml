@@ -1,0 +1,339 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01158
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4455" Title="Ventricular fibrillation" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0F4A255E-9C7E-F680-E610EF8AADF137EC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ventricular fibrillation
+			</MetaKeyword>
+			<MetaKeyword>
+				v fib
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				heart arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				ventricular fibrilation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ventricular fibrillation is a heart rhythm problem that occurs when the heart beats with rapid, erratic electrical impulses. This causes pumping chambers in your heart (the ventricles) to quiver uselessly, instead of pumping blood. During ventricular fibrillation, your blood pressure plummets, cutting off blood supply to your vital organs. Ventricular fibrillation is frequently triggered by a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Ventricular fibrillation is an emergency that requires immediate medical attention. A person with ventricular fibrillation will collapse within seconds and soon won&apos;t be breathing or have a pulse. Emergency treatment for ventricular fibrillation includes cardiopulmonary resuscitation (CPR) and shocks to the heart with a device called a defibrillator. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for those at risk of ventricular fibrillation include medications and implantable devices that can restore a normal heart rhythm. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Loss of consciousness or fainting is the most common sign of ventricular fibrillation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early ventricular fibrillation symptoms&lt;/strong&gt;&lt;br /&gt;
+It&apos;s possible that you may have other signs and symptoms that start about an hour before your heart goes into ventricular fibrillation and you faint. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Rapid heartbeat (tachycardia)&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you or someone else is having signs and symptoms of ventricular fibrillation, seek emergency medical help immediately. Follow these steps: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Call 911 or the emergency number in your area.&lt;/li&gt;
+	&lt;li&gt;Begin cardiopulmonary resuscitation (CPR) to help maintain blood flow to the organs until an electrical shock (defibrillation) can be given. Push hard and fast on the person&apos;s chest &amp;mdash; about 100 compressions a minute. It&apos;s not necessary to check the person&apos;s airway or deliver rescue breaths unless you&apos;ve been trained in CPR. If you are trained, check the airway and then deliver rescue breaths after every 30 compressions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Portable automated external defibrillators (AEDs), which can deliver an electric shock that may restart heartbeats, are available in an increasing number of places, such as in airplanes, police cars and shopping malls. They can even be purchased for your home. Portable defibrillators come with built-in instructions for their use. They&apos;re programmed to allow a shock only when appropriate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To understand how ventricular fibrillation happens, consider what should happen during a normal heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What&apos;s a normal heartbeat?&lt;/strong&gt;&lt;br /&gt;
+When your heart beats, the electrical impulses that cause it to contract must follow a precise pathway through your heart. Any interruption in these impulses can cause an irregular heartbeat (arrhythmia). 
+&lt;/p&gt;
+&lt;p&gt;
+Your heart is divided into four chambers. The chambers on each half of your heart form two adjoining pumps, with an upper chamber (atrium) and a lower chamber (ventricle). 
+&lt;/p&gt;
+&lt;p&gt;
+During a heartbeat, the smaller, less muscular atria contract and fill the relaxed ventricles with blood. This contraction starts after the sinus node &amp;mdash; a small group of cells in your right atrium &amp;mdash; sends an electrical impulse causing your right and left atria to contract. 
+&lt;/p&gt;
+&lt;p&gt;
+The impulse then travels to the center of your heart, to the atrioventricular node, which lies on the pathway between your atria and your ventricles. From here, the impulse exits the atrioventricular node and travels through your ventricles, causing them to contract and pump blood throughout your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What causes ventricular fibrillation?&lt;/strong&gt;&lt;br /&gt;
+It&apos;s not always known what causes ventricular fibrillation. But the most common cause is a problem in the electrical impulses traveling through your heart after a first heart attack, or problems resulting from a scar in your heart&apos;s muscle tissue from a previous heart attack. Some cases of ventricular fibrillation begin as a rapid heartbeat called ventricular tachycardia (VT). This fast, regular beating of the heart is caused by abnormal electrical impulses that start in the ventricles. 
+&lt;/p&gt;
+&lt;p&gt;
+Most VT occurs in people with some form of heart-related problem, such as scars or damage within the ventricle muscle from a heart attack. Sometimes VT can last for 30 seconds or less (nonsustained) and may not cause any symptoms, although it causes inefficient heartbeats. But, VT may be a sign of more-serious heart problems. If VT lasts more than 30 seconds, it will usually lead to palpitations, dizziness or fainting. Untreated VT will often lead to ventricular fibrillation. 
+&lt;/p&gt;
+&lt;p&gt;
+In ventricular fibrillation, rapid, chaotic electrical impulses cause your ventricles to quiver uselessly instead of pumping blood. Without an effective heartbeat, your blood pressure plummets, instantly cutting off blood supply to your vital organs &amp;mdash; including your brain. Most people lose consciousness within seconds and require immediate medical assistance, including cardiopulmonary resuscitation (CPR). Your chances of survival are better if CPR is delivered until your heart can be shocked back into a normal rhythm with a device called a defibrillator. Without CPR or defibrillation, death results in minutes. Most cases of ventricular fibrillation are linked to some form of heart disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ventricular fibrillation 
+" Caption="During ventricular fibrillation, your ventricles quiver uselessly instead of pumping blood. 
+" Height="60" Title="Ventricular fibrillation" URI="/images/image_popup/thumbs/r7_venticularfibrillationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ventricular fibrillation 
+" Caption="During ventricular fibrillation, your ventricles quiver uselessly instead of pumping blood. 
+" Height="382" Title="Ventricular fibrillation" URI="/images/image_popup/r7_venticularfibrillation.jpg" Width="400" />
+				<HTML>
+					During ventricular fibrillation, your ventricles quiver uselessly instead of pumping blood. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors may increase your risk of ventricular fibrillation, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A previous episode of ventricular fibrillation&lt;/li&gt;
+	&lt;li&gt;A previous heart attack&lt;/li&gt;
+	&lt;li&gt;A heart defect you&apos;re born with (congenital heart disease)&lt;/li&gt;
+	&lt;li&gt;Heart muscle disease (cardiomyopathy)&lt;/li&gt;
+	&lt;li&gt;Injuries that cause damage to the heart muscle, such as electrocution&lt;/li&gt;
+	&lt;li&gt;Use of illegal drugs, such as cocaine or methamphetamine&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because ventricular fibrillation is a life-threatening condition, it&apos;s unlikely you&apos;d be diagnosed at a routine doctor&apos;s appointment unless you happened to collapse in the office. Ventricular fibrillation is always diagnosed in an emergency situation. Your doctors will know if you&apos;re in ventricular fibrillation based on results from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart monitoring.&lt;/strong&gt; A heart monitor that will read the electrical impulses that make your heart beat will show that your heart is beating erratically or not at all.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pulse check.&lt;/strong&gt; In ventricular fibrillation, your pulse will be difficult to feel or you may not have a pulse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests to diagnose the cause of ventricular fibrillation&lt;/strong&gt;&lt;br /&gt;
+After your doctors diagnose and treat ventricular fibrillation, they&apos;ll want to know what caused it. You&apos;ll have additional tests to find the cause of your ventricular fibrillation, which can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; This is the first test done to diagnose a heart attack, which is the most common cause of ventricular fibrillation. This test records the electrical activity of your heart via electrodes attached to your skin. Impulses are recorded as waves displayed on a monitor or printed on paper. Because injured heart muscle doesn&apos;t conduct electrical impulses normally, the ECG may show that a heart attack has occurred or is in progress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Certain heart enzymes slowly leak out into your blood if your heart has been damaged by a heart attack. Emergency room doctors take samples of your blood to test for the presence of these enzymes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray image of your chest allows your doctor to check the size and shape of your heart and its blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses sound waves to produce an image of your heart. During an echocardiogram, sound waves are directed at your heart from a transducer, a wand-like device, held on your chest. The sound waves bounce off your heart and are reflected back through your chest wall and processed electronically to provide video images of your heart.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Coronary catheterization (angiogram).&lt;/strong&gt; This test can show if your coronary arteries are narrowed or blocked. A liquid dye is injected into the arteries of your heart through a long, thin tube (catheter) that&apos;s fed through an artery, usually in your leg, to the arteries in your heart. As the dye fills your arteries, the arteries become visible on X-ray, revealing areas of blockage. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Additionally, while the catheter is in position, your doctor may treat the blockage by performing an angioplasty, also known as coronary artery balloon dilation, balloon angioplasty and percutaneous coronary intervention. Angioplasty uses tiny balloons threaded through a blood vessel and into a coronary artery to widen the blocked area. In most cases, a mesh tube (stent) also is placed inside the artery to hold it open more widely and prevent re-narrowing in the future. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Cardiac computerized tomography (CT) or magnetic resonance imaging (MRI).&lt;/strong&gt; Although more commonly used to check for heart failure, these tests can be used to diagnose heart problems. In a cardiac CT scan, you lie on a table inside a doughnut-shaped machine. An X-ray tube inside the machine rotates around your body and collects images of your heart and chest. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In a cardiac MRI, you lie on a table inside a long tube-like machine that produces a magnetic field. The magnetic field aligns atomic particles in some of your cells. When radio waves are broadcast toward these aligned particles, they produce signals that vary according to the type of tissue they are. The signals create images of your heart that can help your doctor determine the cause of your ventricular fibrillation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Emergency treatments for ventricular fibrillation focus on restoring blood flow through your body as quickly as possible to prevent damage to your brain and other organs. After blood flow is restored through your heart, if necessary, you&apos;ll have treatment options to help prevent future episodes of ventricular fibrillation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency treatments&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Cardiopulmonary resuscitation (CPR).&lt;/strong&gt; This treatment can help restore blood flow through the body by mimicking the pumping motion your heart makes. CPR can be performed by anyone, including family members of those at risk. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In a medical emergency, CPR can be started before emergency medical personnel arrive. But first, call for emergency medical attention and check the unconscious person&apos;s breathing. Then begin CPR by pushing hard and fast on the person&apos;s chest &amp;mdash; about 100 compressions a minute. Allow the chest to rise completely between compressions. Unless you&apos;ve been trained in CPR, don&apos;t worry about breathing into the person&apos;s mouth. Keep doing chest compressions until a portable defibrillator is available or emergency personnel arrive. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Defibrillation.&lt;/strong&gt; The delivery of an electrical shock through the chest wall to the heart momentarily stops the heart and the chaotic rhythm. This often allows the normal heart rhythm to resume. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The shock may be administered by emergency personnel or by a bystander if a public-use defibrillator &amp;mdash; the device used to administer the shock &amp;mdash; is available. Most public-use defibrillators are easy to use and give voice instructions as you use them. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Public-use defibrillators are programmed to recognize ventricular fibrillation and send a shock only when it&apos;s appropriate. These portable defibrillators are available in an increasing number of public places, including in airports, shopping malls, casinos, health clubs, and community and senior citizen centers. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatments to prevent future episodes&lt;/strong&gt;&lt;br /&gt;
+If your doctor finds that your ventricular fibrillation episode is caused by a change in the structure of your heart, such as scarred tissue from a heart attack, he or she may recommend that you take medications or have a medical procedure performed to reduce your risk of future ventricular fibrillation. Treatment options can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Doctors use various anti-arrhythmic drugs for emergency or long-term treatment of ventricular fibrillation. A class of medications called beta blockers is commonly used in people at risk of ventricular fibrillation or sudden cardiac arrest. Other possible drugs include angiotensin-converting enzyme (ACE) inhibitors, calcium channel blockers or a drug called amiodarone (Cordarone, Pacerone).&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Implantable cardioverter-defibrillator (ICD).&lt;/strong&gt; After your condition stabilizes, your doctor is likely to recommend implantation of an ICD. An ICD is a battery-powered unit that&apos;s implanted near your left collarbone. One or more electrode-tipped wires from the ICD run through veins to your heart. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The ICD constantly monitors your heart rhythm. If it detects a rhythm that&apos;s too slow, it sends an electrical signal that paces your heart as a pacemaker would. If it detects ventricular tachycardia or ventricular fibrillation, it sends out low- or high-energy shocks to reset your heart to a normal rhythm. An ICD may be more effective than drug treatment at reducing your chance of having a fatal arrhythmia. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Coronary angioplasty and stent placement.&lt;/strong&gt; This procedure is for the treatment of severe coronary artery disease. It opens blocked coronary arteries, letting blood flow more freely to your heart. If your ventricular fibrillation was caused by a heart attack, this procedure may reduce your risk of future episodes of ventricular fibrillation. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Doctors insert a long, thin tube (catheter) that&apos;s passed through an artery, usually in your leg, to a blocked artery in your heart. This catheter is equipped with a special balloon tip that briefly inflates to open up a blocked coronary artery. At the same time, a metal mesh stent may be inserted into the artery to keep it open long term, restoring blood flow to your heart. Coronary angioplasty may be done at the same time as a coronary catheterization (angiogram), a procedure that doctors do first to locate narrowed arteries to the heart. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary bypass surgery.&lt;/strong&gt; Another procedure to improve blood flow is coronary bypass surgery. Bypass surgery involves sewing veins or arteries in place at a site beyond a blocked or narrowed coronary artery (bypassing the narrowed section), restoring blood flow to your heart. This may improve the blood supply to your heart and reduce your risk of ventricular fibrillation.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ventricular tachycardia ablation.&lt;/strong&gt; In certain circumstances your doctors may recommend a catheter-based procedure called ablation to try to get rid of the impulses in your heart causing ventricular tachycardia. Ablation typically uses catheters &amp;mdash; long flexible tubes inserted through a vein in your groin and threaded to your heart &amp;mdash; to correct structural problems in your heart that cause an arrhythmia. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Cardiac ablation works by scarring or destroying tissue that blocks the electrical signal that travels through your heart to make it beat. By clearing the signal pathway of the abnormal tissue, your heart may beat normally again. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re at risk of ventricular fibrillation, taking steps to improve your heart health will decrease the chances of your heart going into ventricular fibrillation. But, you should talk to your doctor about purchasing a home automated external defibrillator (AED) if you have serious concerns. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Home automated external defibrillators (AEDs)&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re at risk of ventricular fibrillation and don&apos;t have an ICD, you may want to consider purchasing a home automated external defibrillator (AED) after talking to your doctor. If you&apos;re experiencing ventricular fibrillation and an AED is on hand, a bystander could grab it and easily connect it to your chest to check your heart rhythm. If your heart rhythm can be treated with an electric shock, the AED automatically sends an electrical current to your heart muscle. That jolt could reset your heart back into a normal rhythm, possibly saving your life. 
+&lt;/p&gt;
+&lt;p&gt;
+If you plan to use an AED on someone, it&apos;s still critical that you call 911 or your local emergency services to get help on the way before you begin using the AED. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Adopting a heart-healthy lifestyle can help prevent episodes of ventricular fibrillation, primarily by reducing your risk of heart attack. A heart-healthy lifestyle includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Not smoking.&lt;/strong&gt; If you smoke, the single most important thing you can do to improve your heart&apos;s health is to stop. It&apos;s hard to stop smoking by yourself, so ask your doctor to prescribe a treatment plan to help you kick the habit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Checking your cholesterol.&lt;/strong&gt; Have your blood cholesterol levels checked regularly, through a blood test at your doctor&apos;s office. If &quot;bad&quot; cholesterol levels are undesirably high, your doctor can prescribe changes to your diet and medications to help lower the numbers and protect your cardiovascular health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Controlling your blood pressure.&lt;/strong&gt; Have your blood pressure checked every two years. Your doctor may recommend more-frequent measurements if you have high blood pressure or a history of coronary artery disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercising regularly.&lt;/strong&gt; Regular exercise helps improve heart muscle function after a heart attack. Exercise helps prevent a heart attack by helping you to achieve and maintain a healthy weight and control diabetes, elevated cholesterol and high blood pressure. Exercise doesn&apos;t have to be vigorous. For example, walking 30 minutes a day, five days a week, can improve your health.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintaining a healthy weight.&lt;/strong&gt; Excess weight strains your heart and can contribute to high cholesterol, high blood pressure and diabetes. Losing weight can lower your risk of heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eating a heart-healthy diet.&lt;/strong&gt; Too much saturated fat and cholesterol in your diet can narrow arteries to your heart. Follow your doctor&apos;s or dietitian&apos;s advice on eating a heart-healthy diet. Prepare heart-healthy meals together as a family. Fish is part of a heart-healthy diet. It contains omega-3 fatty acids, which help improve blood cholesterol levels and prevent blood clots. Eat plenty of fruits and vegetables. Fruits and vegetables contain antioxidants &amp;mdash; nutrients that help prevent everyday wear and tear on your coronary arteries.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ventricular fibrillation
+	</Title>
+	<Abstract>
+		Ventricular fibrillation &amp;mdash; Comprehensive overview covers the causes and treatments of this life-threatening heart arrhythmia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+	</RelatedLinksBox>
+</Disease>

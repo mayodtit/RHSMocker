@@ -1,0 +1,488 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00500
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/esophageal-cancer/DS00500
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-12
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3169" Title="Esophageal cancer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4937" Title="Pfizer Nicotrol" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			823E0F62-2792-45B8-8BF61D7EC1077F47
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				esophageal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagus
+			</MetaKeyword>
+			<MetaKeyword>
+				esophagus cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				esophogeal cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Esophageal cancer is cancer that occurs in the esophagus &amp;mdash; a long, hollow tube that runs from your throat to your stomach. Your esophagus carries food you swallow to your stomach to be digested. 
+&lt;/p&gt;
+&lt;p&gt;
+Esophageal cancer usually begins in the cells that line the inside of the esophagus. Esophageal cancer can occur anywhere along the esophagus, but in people in the United States, it occurs most often in the lower portion of the esophagus. More men than women get esophageal cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Esophageal cancer isn&apos;t common in the United States. In other areas of the world, such as Asia and parts of Africa, esophageal cancer is much more common. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="60" Title="Esophagus" URI="/images/image_popup/thumbs/dysphagiathu.jpg" Width="60" />
+				<Image Alt="Illustration of the esophagus 
+" Caption="The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+" Height="460" Title="Esophagus" URI="/images/image_popup/dysphagia.jpg" Width="400" />
+				<HTML>
+					The esophagus is a muscular tube that connects your mouth and your stomach. Rings of muscle (sphincters) in the upper and lower portions contract and relax to allow food and liquid to pass. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of esophageal cancer 
+" Caption="Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+" Height="60" Title="Esophageal cancer" URI="/images/image_popup/thumbs/c7_esophageal_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of esophageal cancer 
+" Caption="Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+" Height="491" Title="Esophageal cancer" URI="/images/image_popup/c7_esophageal_cancer.jpg" Width="400" />
+				<HTML>
+					Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of esophageal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty swallowing (dysphagia)&lt;/li&gt;
+	&lt;li&gt;Weight loss without trying&lt;/li&gt;
+	&lt;li&gt;Chest pain, pressure or burning&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Frequent choking while eating&lt;/li&gt;
+	&lt;li&gt;Indigestion or heartburn&lt;/li&gt;
+	&lt;li&gt;Coughing or hoarseness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Early esophageal cancer typically causes no signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs and symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve been diagnosed with Barrett&apos;s esophagus, a precancerous condition that increases your risk of esophageal cancer caused by chronic acid reflux, ask your doctor what signs and symptoms to watch for that may signal that your condition is worsening. 
+&lt;/p&gt;
+&lt;p&gt;
+Screening for esophageal cancer isn&apos;t done routinely because of a lack of an easily identifiable high-risk group and the possible risks associated with endoscopy. If you have Barrett&apos;s esophagus, discuss the pros and cons of screening with your doctor. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of esophageal cancer 
+" Caption="Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+" Height="60" Title="Esophageal cancer" URI="/images/image_popup/thumbs/c7_esophageal_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of esophageal cancer 
+" Caption="Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+" Height="491" Title="Esophageal cancer" URI="/images/image_popup/c7_esophageal_cancer.jpg" Width="400" />
+				<HTML>
+					Esophageal cancer most often occurs in the cells that line the inside of the esophagus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes esophageal cancer. Esophageal cancer occurs when cells in your esophagus develop errors (mutations) in their DNA. The errors make cells grow and divide out of control. The accumulating abnormal cells form a tumor in the esophagus that can grow to invade nearby structures and spread to other parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of esophageal cancer&lt;/strong&gt; &lt;br /&gt;
+Esophageal cancer is classified according to the type of cells that are involved. The type of esophageal cancer you have helps determine your treatment options. Types of esophageal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adenocarcinoma.&lt;/strong&gt; Adenocarcinoma begins in the cells of mucus-secreting glands in the esophagus. Adenocarcinoma occurs most often in the lower portion of the esophagus. Adenocarcinoma is the most common form of esophageal cancer in the United States, and it affects primarily white men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Squamous cell carcinoma.&lt;/strong&gt; The squamous cells are flat, thin cells that line the surface of the esophagus. Squamous cell carcinoma occurs most often in the middle of the esophagus. Squamous cell carcinoma is the most prevalent esophageal cancer worldwide.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other rare types.&lt;/strong&gt; Rare forms of esophageal cancer include choriocarcinoma, lymphoma, melanoma, sarcoma and small cell cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s thought that chronic irritation of your esophagus may contribute to the DNA changes that cause esophageal cancer. Factors that cause irritation in the cells of your esophagus and increase your risk of esophageal cancer include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drinking alcohol&lt;/li&gt;
+	&lt;li&gt;Having bile reflux&lt;/li&gt;
+	&lt;li&gt;Chewing tobacco&lt;/li&gt;
+	&lt;li&gt;Having difficulty swallowing because of an esophageal sphincter that won&apos;t relax (achalasia)&lt;/li&gt;
+	&lt;li&gt;Drinking very hot liquids&lt;/li&gt;
+	&lt;li&gt;Eating few fruits and vegetables&lt;/li&gt;
+	&lt;li&gt;Eating foods preserved in lye, such as lutefisk, a Nordic recipe made from whitefish, and some olive recipes&lt;/li&gt;
+	&lt;li&gt;Having gastroesophageal reflux disease (GERD)&lt;/li&gt;
+	&lt;li&gt;Being obese&lt;/li&gt;
+	&lt;li&gt;Having precancerous changes in the cells of the esophagus (Barrett&apos;s esophagus)&lt;/li&gt;
+	&lt;li&gt;Undergoing radiation treatment to the chest or upper abdomen&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other risk factors include
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being male&lt;/li&gt;
+	&lt;li&gt;Being between the ages of 45 and 70&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As esophageal cancer advances, it can cause complications, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Obstruction of the esophagus.&lt;/strong&gt; Cancer may make it difficult or impossible for food and liquid to pass through your esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer pain.&lt;/strong&gt; Advanced esophageal cancer can cause pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding in the esophagus.&lt;/strong&gt; Esophageal cancer can cause bleeding. Though bleeding is usually gradual, it can be sudden and severe at times.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe weight loss.&lt;/strong&gt; Esophageal cancer can make it difficult and painful to eat and drink, resulting in weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coughing.&lt;/strong&gt; Esophageal cancer can erode your esophagus and create a hole into your windpipe (trachea). Known as a tracheoesophageal fistula, this hole can cause severe and sudden coughing whenever you swallow.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your family doctor suspects you have esophageal cancer, you may be referred to a number of doctors who will help to evaluate your condition. Your health care team may include doctors who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evaluate the esophagus (gastroenterologists)&lt;/li&gt;
+	&lt;li&gt;Treat cancer with chemotherapy and other medications (oncologists)&lt;/li&gt;
+	&lt;li&gt;Perform surgery (surgeons)&lt;/li&gt;
+	&lt;li&gt;Use radiation to treat cancer (radiation oncologists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+To get the most from your appointment, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and to know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make the appointment, ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For esophageal cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where is my esophageal cancer?&lt;/li&gt;
+	&lt;li&gt;How advanced is my cancer?&lt;/li&gt;
+	&lt;li&gt;Can you explain the pathology report to me?&lt;/li&gt;
+	&lt;li&gt;What other tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment option?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment option you feel is the best?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions that occur to you during your appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose esophageal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine your esophagus (endoscopy).&lt;/strong&gt; During endoscopy, your doctor passes a hollow tube equipped with a lens (endoscope) down your throat and into your esophagus. Using the endoscope, your doctor examines your esophagus looking for cancer or areas of irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays of your esophagus.&lt;/strong&gt; Sometimes called a barium swallow, an upper gastrointestinal series or an esophagram, this series of X-rays is used to examine your esophagus. During the test, you drink a thick liquid (barium) that temporarily coats the lining of your esophagus, so the lining shows up clearly on the X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Collecting a sample of tissue for testing (biopsy).&lt;/strong&gt; A special scope passed down your throat into your esophagus (endoscope) or down your windpipe and into your lungs (bronchoscope) can be used to collect a sample of suspicious tissue (biopsy). What type of biopsy procedure you undergo depends on your situation. The tissue sample is sent to a laboratory to look for cancer cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Esophageal cancer staging&lt;/strong&gt; &lt;br /&gt;
+When you&apos;re diagnosed with esophageal cancer, your doctor works to determine the extent (stage) of the cancer. Your cancer&apos;s stage helps determine your treatment options. Tests used in staging esophageal cancer include computerized tomography (CT) and positron emission tomography (PET). 
+&lt;/p&gt;
+&lt;p&gt;
+The stages of esophageal cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; This cancer occurs only in the top layer of cells lining your esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; The cancer has invaded deeper layers of your esophagus lining and may have spread to nearby lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; The cancer has spread to the deepest layers of the wall of your esophagus and to nearby tissues or lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; The cancer has spread to other parts of your body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+What treatments you receive for esophageal cancer are based on the type of cells involved in your cancer, your cancer&apos;s stage, your overall health and your preferences for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery to remove the cancer can be used alone or in combination with other treatments. Operations used to treat esophageal cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove very small tumors.&lt;/strong&gt; If your cancer is very small, confined to the superficial layers of your esophagus and hasn&apos;t spread, your surgeon may recommend removing the cancer and margin of healthy tissue that surrounds it. Surgery for very early-stage cancers can be done using an endoscope passed down your throat and into your esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove a portion of the esophagus (esophagectomy).&lt;/strong&gt; Your surgeon removes the portion of your esophagus that contains the tumor and nearby lymph nodes. The remaining esophagus is reconnected to your stomach. Usually this is done by pulling the stomach up to meet the remaining esophagus. In some situations, a portion of the colon is used to replace the missing section of esophagus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove part of your esophagus and the upper portion of your stomach (esophagogastrectomy).&lt;/strong&gt; Your surgeon removes part of your esophagus, nearby lymph nodes and the upper part of your stomach. The remainder of your stomach is then pulled up and reattached to your esophagus. If necessary, part of your colon is used to help join the two.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Esophageal cancer surgery carries a risk of serious complications, such as infection, bleeding and leakage from the area where the remaining esophagus is reattached. Surgery to remove your esophagus can be performed as an open procedure using large incisions or with special surgical tools inserted through several small incisions in your skin (laparoscopically). How your surgery is performed depends on your situation and your surgeon&apos;s experience and preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for supportive care&lt;/strong&gt; &lt;br /&gt;
+Besides treating the disease, surgery can help relieve symptoms or allow you to eat. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Relieving esophageal obstruction.&lt;/strong&gt; A number of treatments are available to relieve esophageal obstruction. One option includes using an endoscope and special tools to widen the esophagus and place a metal tube (stent) to hold the esophagus open. Other options include surgery, radiation therapy, chemotherapy, laser therapy and photodynamic therapy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Providing nutrition.&lt;/strong&gt; A surgeon inserts a feeding tube (percutaneous gastronomy) so you can receive nutrition directly into your stomach or intestine. This is usually temporary until the surgical site heals or until you&apos;re finished with chemotherapy and radiation therapy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy is drug treatment that uses chemicals to kill cancer cells. Chemotherapy drugs are typically used before (neoadjuvant) or after (adjuvant) surgery in people with esophageal cancer. Chemotherapy can also be combined with radiation therapy. In people with advanced cancer that has spread beyond the esophagus, chemotherapy may be used alone to help relieve signs and symptoms caused by the cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+The chemotherapy side effects you experience depend on which chemotherapy drugs you receive. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered energy beams to kill cancer cells. Radiation can come from a machine outside your body that aims the beams at your cancer (external beam radiation). Or radiation can be placed inside your body near the cancer (brachytherapy). 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy is most often combined with chemotherapy in people with esophageal cancer. It can be used before or after surgery. Radiation therapy is also used to relieve complications of advanced esophageal cancer, such as when a tumor grows large enough to stop food from passing to your stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of radiation to the esophagus include sunburn-like skin reactions, painful or difficult swallowing, and accidental damage to nearby organs, such as the lungs and heart. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Combined chemotherapy and radiation&lt;/strong&gt; &lt;br /&gt;
+Combining chemotherapy and radiation therapy may enhance the effectiveness of each treatment. Combined chemotherapy and radiation may be the only treatment you receive, or combined therapy can be used before surgery. But combining chemotherapy and radiation treatments increases the likelihood and severity of side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are research studies testing the newest cancer treatments and new ways of using existing cancer treatments. Clinical trials give you a chance to try the latest in cancer treatment, but they can&apos;t guarantee a cure. Ask your doctor if you&apos;re eligible to enroll in a clinical trial. Together you can discuss the potential benefits and risks. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of esophageal cancer surgery 
+" Caption="One operation used to treat esophageal cancer is esophagectomy. During this procedure, the surgeon removes the tumor and a portion of your esophagus that surrounds it. Then your remaining esophagus is attached to your stomach. 
+" Height="60" Title="Esophageal cancer surgery" URI="/images/image_popup/thumbs/c7_esophagectomythu.jpg" Width="60" />
+				<Image Alt="Illustration of esophageal cancer surgery 
+" Caption="One operation used to treat esophageal cancer is esophagectomy. During this procedure, the surgeon removes the tumor and a portion of your esophagus that surrounds it. Then your remaining esophagus is attached to your stomach. 
+" Height="218" Title="Esophageal cancer surgery" URI="/images/image_popup/c7_esophagectomy.jpg" Width="400" />
+				<HTML>
+					One operation used to treat esophageal cancer is esophagectomy. During this procedure, the surgeon removes the tumor and a portion of your esophagus that surrounds it. Then your remaining esophagus ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of esophageal stent 
+" Caption="A metal tube (stent) can be used to hold open a narrowed portion of the esophagus. A stent is usually placed using an endoscope.
+" Height="60" Title="Esophageal stent" URI="/images/image_popup/thumbs/c7_esophagealstentthu.jpg" Width="60" />
+				<Image Alt="Illustration of esophageal stent 
+" Caption="A metal tube (stent) can be used to hold open a narrowed portion of the esophagus. A stent is usually placed using an endoscope.
+" Height="326" Title="Esophageal stent" URI="/images/image_popup/c7_esophageal_stent.jpg" Width="400" />
+				<HTML>
+					A metal tube (stent) can be used to hold open a narrowed portion of the esophagus. A stent is usually placed using an endoscope.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Poor appetite, difficulty swallowing, weight loss and weakness often accompany esophageal cancer. These symptoms may be compounded by cancer treatments and by the need for a liquid diet, tube feeding or intravenous feeding during the course of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor for a referral to a registered dietitian, who can help you find solutions to dealing with difficulty eating or a loss of appetite. In the meantime, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose easy-to-swallow foods.&lt;/strong&gt; If you have trouble swallowing, choose foods that are soothing and easy to swallow, such as soups, yogurt or milkshakes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat smaller meals more frequently.&lt;/strong&gt; Eat several small meals throughout the day instead of two or three larger ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep nourishing snacks within easy reach.&lt;/strong&gt; If snacks are readily available, you&apos;re more likely to eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Talk to your doctor about vitamin and mineral supplements.&lt;/strong&gt; If you haven&apos;t been eating as much as you normally would or if your usual foods are restricted, you could be deficient in a variety of nutrients.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complementary and alternative therapies may help you cope with the side effects of cancer and cancer treatment. For instance, people with esophageal cancer may experience pain caused by cancer treatment or by a growing tumor. Your doctor can work to control your pain by treating the cause or with medications. Still, pain may persist, and complementary and alternative therapies may help you cope. 
+&lt;/p&gt;
+&lt;p&gt;
+Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acupuncture&lt;/li&gt;
+	&lt;li&gt;Guided imagery&lt;/li&gt;
+	&lt;li&gt;Hypnosis&lt;/li&gt;
+	&lt;li&gt;Massage&lt;/li&gt;
+	&lt;li&gt;Relaxation techniques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Ask your doctor whether these options are safe for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coping with the shock, fear and sadness that come with a cancer diagnosis can take time. You may feel overwhelmed just when you need to make crucial decisions. With time, each person finds a way of coping and coming to terms with the diagnosis. Until you find what brings you the most comfort, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about esophageal cancer.&lt;/strong&gt; Ask your doctor for the specifics about your cancer, such as its type and stage. And ask for recommended sources of information where you can learn more about your treatment options. The National Cancer Institute and the American Cancer Society are good places to start. The more you know about esophageal cancer, the more confident you&apos;ll feel when it comes to making decisions about your treatment. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay connected to friends and family.&lt;/strong&gt; Your friends and family can provide a crucial support network for you during your cancer treatment. As you begin telling people about your esophageal cancer diagnosis, you&apos;ll likely get offers for help. Think ahead about things you may like help with, whether it&apos;s having someone to talk to if you&apos;re feeling low or getting help preparing meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk to.&lt;/strong&gt; You might have a close friend or family member who&apos;s a good listener. Or talk to a counselor, medical social worker, or pastoral or religious counselor. Consider joining a support group for people with cancer. You also may find strength and encouragement in being with people who are facing the same challenges you are. Ask your doctor, nurse or social worker about groups in your area. Or try online message boards and chat rooms, such as those available through the American Cancer Society.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps to reduce your risk of esophageal cancer. For instance: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking or chewing tobacco.&lt;/strong&gt; If you smoke or use chewing tobacco, talk to your doctor about strategies for quitting. Medications and counseling are available to help you quit. If you don&apos;t use tobacco, don&apos;t start.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; If you drink, limit yourself to no more than one drink daily if you&apos;re a woman or two drinks daily if you&apos;re a man.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat more fruits and vegetables.&lt;/strong&gt; Add a variety of colorful fruits and vegetables to your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you are overweight or obese, talk to your doctor about strategies to help you lose weight. Aim for a slow and steady weight loss of 1 or 2 pounds a week.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Esophageal cancer
+	</Title>
+	<Abstract>
+		Esophageal cancer &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of cancer of the esophagus.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00138" LinkType="Internal" ObjectID="DF577949-E7FF-0DBD-15ACF0F99DE4D284" Title="Upper endoscopy" Url="http://www.mayoclinic.com/health/endoscopy/MY00138" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00590" LinkType="Internal" ObjectID="C8FFB9B3-00AC-2863-299CEB1E08E1A0A5" Title="CA 125 test" Url="http://www.mayoclinic.com/health/ca-125-test/MY00590" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="Video" DocID="MM00796" LinkType="Internal" ObjectID="70FCA52B-ECD0-86BB-292793A8F4FA546A" Title="Video: Cryotherapy of the esophagus" Url="http://www.mayoclinic.com/health/cryotherapy/MM00796" />
+		<LinkItem ContentType="Video" DocID="MM00795" LinkType="Internal" ObjectID="70F8A7B4-B4C9-A531-73CAD5DBDE17A464" Title="Video: Radiofrequency ablation of the esophagus" Url="http://www.mayoclinic.com/health/radiofrequency-ablation/MM00795" />
+		<LinkItem ContentType="Video" DocID="MM00793" LinkType="Internal" ObjectID="70F60FFC-E010-6F6F-B4B067D861FD753B" Title="Video: Photodynamic therapy of the esophagus" Url="http://www.mayoclinic.com/health/photodynamic-therapy/MM00793" />
+		<LinkItem ContentType="Video" DocID="MM00792" LinkType="Internal" ObjectID="70F0DF52-DC57-0EF6-715136A338AA7A28" Title="Video: Esophagectomy" Url="http://www.mayoclinic.com/health/esophagectomy/MM00792" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CM00002" LinkType="Internal" ObjectID="B3599E9F-4C7B-4CA3-86132BAA54B5B549" Title="Alternative cancer treatments: 11 options to consider" Url="http://www.mayoclinic.com/health/cancer-treatment/CM00002" />
+		<LinkItem ContentType="Article" DocID="SA00082" LinkType="Internal" ObjectID="686E87EE-DBEB-4259-A5906A4CF2A10A02" Title="Massage: Get in touch with its many benefits" Url="http://www.mayoclinic.com/health/massage/SA00082" />
+		<LinkItem ContentType="Disease" DocID="DS00651" LinkType="Internal" ObjectID="F8D8DFFA-2A5D-9994-EC5CE9E52635B4EF" Title="Bile reflux" Url="http://www.mayoclinic.com/health/bile-reflux/DS00651" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+	</RelatedLinksBox>
+</Disease>

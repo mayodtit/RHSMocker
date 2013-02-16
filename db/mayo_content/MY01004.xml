@@ -1,0 +1,187 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01004
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cervical-mucus-method/MY01004
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-18
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="4129" Title="Lifestyle">
+						<Keyword MCVID="4502" Title="Cervical mucous method" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3028AE15-EA2B-9E83-A62B77815B58E641
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cervical mucus method
+			</MetaKeyword>
+			<MetaKeyword>
+				cervical mucous
+			</MetaKeyword>
+			<MetaKeyword>
+				natural family planning
+			</MetaKeyword>
+			<MetaKeyword>
+				ovulation method
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cervical mucus method, also called the ovulation method and the Billings ovulation method, is a type of natural family planning also known as fertility awareness-based methods.
+&lt;/p&gt;
+&lt;p&gt;
+The cervical mucus method is based on careful observation of mucus patterns during the course of your menstrual cycle. Before ovulation, cervical secretions change &amp;mdash; creating an environment that helps sperm travel through the cervix, uterus and fallopian tubes to the egg. By recognizing the changing characteristics of your cervical mucus, you can predict when you&apos;ll ovulate. In turn, this may help you determine when you&apos;re most likely to conceive.
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re hoping to get pregnant, you can use the cervical mucus method to determine the best days to have sex. Similarly, if you&apos;re hoping to avoid pregnancy, you can use the cervical mucus method to determine which days to avoid unprotected sex.
+&lt;/p&gt;
+&lt;p&gt;
+Using the cervical mucus method for birth control requires motivation and diligence. If you don&apos;t want to conceive, you and your partner must avoid having sex or use a barrier method of contraception during your fertile days each month.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cervical mucus method can be used as a way to identify fertile times to help you gauge the best days to have or avoid unprotected sex. Tracking your cervical mucus for either fertility or contraception is inexpensive and doesn&apos;t have any side effects. Some women choose to use the cervical mucus method for religious reasons.
+&lt;/p&gt;
+&lt;p&gt;
+The cervical mucus method is sometimes combined with another method of natural family planning, such as tracking basal body temperature. This is sometimes referred to as the symptothermal method.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Using the cervical mucus method to promote fertility doesn&apos;t pose any risks.
+&lt;/p&gt;
+&lt;p&gt;
+Likewise, using the cervical mucus method for birth control doesn&apos;t pose any direct risks, but it doesn&apos;t offer protection from sexually transmitted infections. In addition, the risk of unintended pregnancy with the cervical mucus method is somewhat higher than with other methods of birth control. An estimated 22 out of 100 women practicing the cervical mucus method for birth control will get pregnant in the first year of typical use.
+&lt;/p&gt;
+&lt;p&gt;
+Formal training is usually required to master the cervical mucus method. This method also necessitates ongoing, rigorous daily monitoring. In addition, abstinence &amp;mdash; or use of another type of contraception &amp;mdash; is typically needed for 14 to 17 days of each cycle.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To use the cervical mucus method, it&apos;s important to understand how cervical secretions change during a typical menstrual cycle. Generally, you&apos;ll have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;No noticeable cervical secretions for three to four days after your period ends&lt;/li&gt;
+	&lt;li&gt;Scanty, cloudy and sticky secretions for the next three to five days&lt;/li&gt;
+	&lt;li&gt;Abundant, clear and wet secretions for the next three to four days &amp;mdash; the period before and during ovulation&lt;/li&gt;
+	&lt;li&gt;No noticeable cervical secretions until three to four days after your next period ends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although the specific length of these phases may vary, contact your health care provider if your cervical secretions don&apos;t follow this general pattern. You may have an infection that requires medical attention.
+&lt;/p&gt;
+&lt;p&gt;
+If you want to use the cervical mucus method for birth control, consult your health care provider first if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You recently had your first period, gave birth, or stopped taking birth control pills or other hormonal contraceptives&lt;/li&gt;
+	&lt;li&gt;You&apos;re breast-feeding&lt;/li&gt;
+	&lt;li&gt;You&apos;re approaching menopause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider may discourage use of the cervical mucus method if you have persistent reproductive tract infections.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To use the cervical mucus method:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Record your cervical secretions for several cycles.&lt;/strong&gt; Starting the day after your menstrual bleeding stops, observe and record your cervical secretions on a daily chart. To avoid confusing cervical secretions with semen or normal sexual lubrication, avoid sex or use a barrier method of contraception during your first cycle. Also avoid douching, which can wash out cervical secretions and make it difficult to notice changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check your cervical secretions two times a day.&lt;/strong&gt; Before you urinate is a good time to check. Wipe &amp;mdash; front to back &amp;mdash; with toilet tissue and record the color (yellow, white, clear or cloudy), consistency (thick, sticky or stretchy) and feel (dry, wet or slippery) of the secretions. Also note sensations of dryness, moistness or wetness in your vulva.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan sex carefully during fertile days.&lt;/strong&gt; You&apos;re most fertile when your cervical secretions are abundant, clear, stretchy, wet and slippery &amp;mdash; much like a raw egg white. If you&apos;re hoping to get pregnant, this is the time to have sex. Ovulation most likely occurs during or one day after your last day of this type of cervical secretion &amp;mdash; known as your peak day. If you&apos;re hoping to avoid pregnancy, unprotected sex is off-limits from the day your cervical secretions begin until four days after your peak day. If you have sex before your cervical secretions begin, you may want to avoid sex the next day and night so that you don&apos;t confuse semen and arousal fluids with cervical secretions. Some health care providers also recommend avoiding unprotected sex or using a barrier method of contraception during your period because it&apos;s difficult to detect cervical secretions when they&apos;re mixed with menstrual blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Interpreting and charting cervical secretions can be challenging. Most women require several instructional sessions to recognize the pattern of secretions in a typical menstrual cycle. Consult your health care provider with any questions or concerns.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cervical mucus method for natural family planning
+	</Title>
+	<Abstract>
+		Cervical mucus method &amp;mdash; Overview covers definition, steps for tracking cervical mucus for fertility or contraception.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01050" LinkType="Internal" ObjectID="C52E3041-9C5E-93DE-ACEB4264346CC73D" Title="Withdrawal method (coitus interruptus)" Url="http://www.mayoclinic.com/health/withdrawal-method/MY01050" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01003" LinkType="Internal" ObjectID="302552C2-D5ED-FE68-7D95CD2A47E1DA11" Title="Rhythm method for natural family planning" Url="http://www.mayoclinic.com/health/rhythm-method/MY01003" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01002" LinkType="Internal" ObjectID="302202F8-03E4-46A7-861086528B090BA2" Title="Basal body temperature for natural family planning" Url="http://www.mayoclinic.com/health/basal-body-temperature/MY01002" />
+	</RelatedLinksBox>
+</TestProcedure>

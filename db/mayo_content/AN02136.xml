@@ -1,0 +1,138 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02136
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vaccination-schedule/AN02136
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-16
+		</UpdateDate>
+		<PublicationDate>
+			2011-03-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="1533" Title="Children">
+					<Keyword MCVID="3747" Title="Infants and toddlers">
+						<Keyword MCVID="3748" Title="Infant and toddler health" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BD3CDEFD-BCB7-95B4-D1B5135FC22BEB43
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				vaccination schedule
+			</MetaKeyword>
+			<MetaKeyword>
+				vaccination
+			</MetaKeyword>
+			<MetaKeyword>
+				vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				vaccines
+			</MetaKeyword>
+			<MetaKeyword>
+				immunization
+			</MetaKeyword>
+			<MetaKeyword>
+				immunizations
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Newborns need multiple vaccines because infectious diseases can cause more-serious problems in infants than in older children. 
+&lt;/p&gt;
+&lt;p&gt;
+While maternal antibodies help protect newborns from many diseases, this immunity may begin to disappear as quickly as one month after birth. In addition, children don&apos;t receive maternal immunity from certain diseases, such as whooping cough. If a child isn&apos;t vaccinated and is exposed to a disease, he or she may become sick and spread the illness. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoid altering your child&apos;s recommended vaccination schedule. Research shows that it&apos;s safe for infants and young children to receive multiple vaccines at the same time, as recommended by the Centers for Disease Control and Prevention&apos;s vaccination schedule. 
+&lt;/p&gt;
+&lt;p&gt;
+Remember, newborns and young children can be exposed to diseases from family members, care providers and other close contacts, as well as during routine outings &amp;mdash; such as trips to the grocery store. Many vaccines can be given even if your child has a mild illness, such as a cold, earache or mild fever. Consult your child&apos;s doctor regularly to keep your child&apos;s vaccination status up to date.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vaccination schedule: Why so many so fast?
+	</Title>
+	<Abstract>
+		Vaccination schedule &amp;mdash; A Mayo Clinic specialist explains why children need so many vaccines.
+	</Abstract>
+	<Question>
+		I&apos;m concerned about my newborn&apos;s vaccination schedule. Why do infants need so many vaccines so quickly?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01098" LinkType="Internal" ObjectID="7063CEDB-E93E-7C70-2153B488EF1FD60D" Title="Dental exam for children" Url="http://www.mayoclinic.com/health/dental-exam-for-children/MY01098" />
+		<LinkItem ContentType="Answer" DocID="AN01631" LinkType="Internal" ObjectID="63940FCF-E7FF-0DBD-107DB8B3E90516DE" Title="Fruit juice: Good or bad for kids?" Url="http://www.mayoclinic.com/health/fruit-juice/AN01631" />
+		<LinkItem ContentType="Answer" DocID="AN02179" LinkType="Internal" ObjectID="07B0FFAA-E648-2AA1-C32D0FC4D08F939F" Title="Car sickness in children: Can I prevent it?" Url="http://www.mayoclinic.com/health/car-sickness-in-children/AN02179" />
+		<LinkItem ContentType="Article" DocID="MY00510" LinkType="Internal" ObjectID="CC3470CA-F7BB-C2AF-097ED286CB9E7795" Title="Ear infection treatment: Do alternative therapies work?" Url="http://www.mayoclinic.com/health/ear-infection-treatment/MY00510" />
+		<LinkItem ContentType="Article" DocID="MY01709" LinkType="Internal" ObjectID="9C16DED9-D315-79F8-19ED59E7ABBEE499" Title="Single parent? Tips for raising a child alone" Url="http://www.mayoclinic.com/health/single-parent/MY01709" />
+		<LinkItem ContentType="Article" DocID="MY01186" LinkType="Internal" ObjectID="9A19F6EC-9DCC-4429-F240C8477358E08A" Title="Thermometers: Understand the options" Url="http://www.mayoclinic.com/health/thermometers/MY01186" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Article" DocID="MY01654" LinkType="Internal" ObjectID="5D21FBC8-C20D-A6DF-56E39601F360C2B2" Title="Iron deficiency in children: Prevention tips for parents" Url="http://www.mayoclinic.com/health/iron-deficiency/MY01654" />
+		<LinkItem ContentType="Article" DocID="MY01155" LinkType="Internal" ObjectID="2442968A-C08C-D462-08E0D9EE86E63733" Title="Lead exposure: Tips to protect your child" Url="http://www.mayoclinic.com/health/lead-exposure/MY01155" />
+		<LinkItem ContentType="SlideShow" DocID="FL00090" LinkType="Internal" ObjectID="9551D007-6FE6-4BCF-A7347E2AD77CBCE7" Title="Slide show: Common baby rashes" Url="http://www.mayoclinic.com/health/baby-rashes/FL00090" />
+		<LinkItem ContentType="Answer" DocID="AN01990" LinkType="Internal" ObjectID="80C284F4-C39E-C0C0-5BF06A16ED96CAF7" Title="Baby Einstein DVDs: Good for infant development?" Url="http://www.mayoclinic.com/health/baby-einstein/AN01990" />
+		<LinkItem ContentType="Answer" DocID="AN02127" LinkType="Internal" ObjectID="7DEF2913-A717-2F88-254E8323CB63EFCB" Title="Baby sign language: A good idea?" Url="http://www.mayoclinic.com/health/baby-sign-language/AN02127" />
+		<LinkItem ContentType="Answer" DocID="HQ00700" LinkType="Internal" ObjectID="5202684B-82B7-4B7B-8B25B9868C2EF333" Title="Flu shots for kids: Does my child need a flu shot?" Url="http://www.mayoclinic.com/health/flu-shots/HQ00700" />
+		<LinkItem ContentType="InteractiveTable" DocID="AN01026" LinkType="Internal" ObjectID="2DB0F6EC-F6B2-463A-8FEB4FE00A92AA2C" Title="Language development: Speech milestones for babies" Url="http://www.mayoclinic.com/health/infant-development/AN01026" />
+		<LinkItem ContentType="Disease" DocID="DS01060" LinkType="Internal" ObjectID="606EC945-E7FF-0DBD-1CE9E2E3126BFDB5" Title="Baby acne" Url="http://www.mayoclinic.com/health/baby-acne/DS01060" />
+		<LinkItem ContentType="Disease" DocID="DS01059" LinkType="Internal" ObjectID="5F62DA85-E7FF-0DBD-16BD794BE8002A50" Title="Milia" Url="http://www.mayoclinic.com/health/milia/DS01059" />
+		<LinkItem ContentType="Disease" DocID="DS01200" LinkType="Internal" ObjectID="54F3BDAF-D6C1-FE2B-D711758C89E296D6" Title="Tongue-tie (ankyloglossia)" Url="http://www.mayoclinic.com/health/tongue-tie/DS01200" />
+		<LinkItem ContentType="Disease" DocID="DS00069" LinkType="Internal" ObjectID="40B98A74-4DFE-42A3-BBAEDC32F399E45E" Title="Diaper rash" Url="http://www.mayoclinic.com/health/diaper-rash/DS00069" />
+		<LinkItem ContentType="Disease" DocID="DS01074" LinkType="Internal" ObjectID="39D9BB25-E7FF-0DBD-1347CA57BB3B9586" Title="Cradle cap" Url="http://www.mayoclinic.com/health/cradle-cap/DS01074" />
+		<LinkItem ContentType="Disease" DocID="DS01173" LinkType="Internal" ObjectID="2E624BF6-D7C8-6071-F5FB2F430EC52501" Title="Separation anxiety" Url="http://www.mayoclinic.com/health/separation-anxiety/DS01173" />
+		<LinkItem ContentType="Article" DocID="CC00014" LinkType="Internal" ObjectID="F670F4E4-2C82-44A6-AFB2818FDD6A0AF2" Title="Childhood vaccines: Tough questions, straight answers" Url="http://www.mayoclinic.com/health/vaccines/CC00014" />
+		<LinkItem ContentType="Article" DocID="HQ01481" LinkType="Internal" ObjectID="BC8BF7E5-D95D-4119-A5A8BFEE3C5E48FE" Title="Thermometer basics: Taking your child&apos;s temperature" Url="http://www.mayoclinic.com/health/thermometer/HQ01481" />
+		<LinkItem ContentType="Article" DocID="MY02128" LinkType="Internal" ObjectID="A4352F58-9F53-3D7E-D14596CDC26A4EF6" Title="Extended breast-feeding: What you need to know" Url="http://www.mayoclinic.com/health/extended-breastfeeding/MY02128" />
+		<LinkItem ContentType="Article" DocID="MY01013" LinkType="Internal" ObjectID="4FBC09F0-B56E-7842-711EE9F9CF92C570" Title="Vaccines for kids: Keep your child&apos;s shots on track" Url="http://www.mayoclinic.com/health/vaccines/MY01013" />
+		<LinkItem ContentType="Article" DocID="MY02042" LinkType="Internal" ObjectID="07970C39-97EF-1ECD-666C0E0B13FB6859" Title="Stroller safety: Tips for parents" Url="http://www.mayoclinic.com/health/stroller-safety/MY02042" />
+		<LinkItem ContentType="Article" DocID="MY00824" LinkType="Internal" ObjectID="063865DF-E669-A29C-80262C95AA7A9063" Title="Car seat safety: Avoid 10 common mistakes" Url="http://www.mayoclinic.com/health/car-seat-safety/MY00824" />
+	</RelatedLinksBox>
+</Answer>

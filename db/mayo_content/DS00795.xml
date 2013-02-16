@@ -1,0 +1,330 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00795
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lewy-body-dementia/DS00795
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-17
+		</UpdateDate>
+		<PublicationDate>
+			2006-09-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="2307" Title="Dementia">
+							<Keyword MCVID="2309" Title="Lewy body" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6B1EE810-E7FF-0DBD-177E332F9C3B1144
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Lewy body dementia
+			</MetaKeyword>
+			<MetaKeyword>
+				dementia with Lewy bodies
+			</MetaKeyword>
+			<MetaKeyword>
+				dimensia
+			</MetaKeyword>
+			<MetaKeyword>
+				Lewey dementia
+			</MetaKeyword>
+			<MetaKeyword>
+				Lewy body demensia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lewy body dementia, the second most common type of progressive dementia after Alzheimer&apos;s disease, causes a progressive decline in mental abilities. It may also cause visual hallucinations, which may take the form of seeing shapes, colors, people or animals that aren&apos;t there or, more complexly, having conversations with deceased loved ones. 
+&lt;/p&gt;
+&lt;p&gt;
+Another indicator of Lewy body dementia may be significant fluctuations in alertness and attention, which may include daytime drowsiness or periods of staring into space. And, like Parkinson&apos;s disease, Lewy body dementia can result in rigid muscles, slowed movement and tremors. 
+&lt;/p&gt;
+&lt;p&gt;
+In Lewy body dementia, abnormal round structures &amp;mdash; called Lewy bodies &amp;mdash; develop in regions of your brain involved in thinking and movement. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lewy body dementia signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Visual hallucinations.&lt;/strong&gt; Seeing colors, shapes, animals or people that aren&apos;t there may be one of the first symptoms of Lewy body dementia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Movement disorders.&lt;/strong&gt; Parkinson&apos;s-like signs may include slowed movement, rigid muscles, tremors or a shuffling walk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Delusions.&lt;/strong&gt; These may consist of false ideas about another person or situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cognitive problems.&lt;/strong&gt; Alzheimer&apos;s-like problems may include confusion, memory loss and a reduced attention span.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep difficulties.&lt;/strong&gt; A sleep disorder can cause you to physically act out your dreams while you&apos;re asleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluctuating attention.&lt;/strong&gt; This may include frequent episodes of drowsiness, long periods of staring into space, lethargy or disorganized speech.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of Lewy body dementia isn&apos;t known, but the disorder may be related to Alzheimer&apos;s or Parkinson&apos;s disease.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lewy bodies contain a protein associated with Parkinson&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;Lewy bodies often are found in the brains of people who have Parkinson&apos;s and other rare dementias.&lt;/li&gt;
+	&lt;li&gt;People who have Lewy bodies in their brains also have the plaques and tangles associated with Alzheimer&apos;s disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some scientists have suggested there&apos;s a Lewy body variant of Alzheimer&apos;s disease. Conversely, Lewy body dementia and Alzheimer&apos;s simply may coexist in some people.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the cause of Lewy body dementia isn&apos;t clear, several factors appear to increase the risk of developing the disease. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being older than 60&lt;/li&gt;
+	&lt;li&gt;Being male&lt;/li&gt;
+	&lt;li&gt;Having a family member with Lewy body dementia&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lewy body dementia is progressive. Signs and symptoms worsen, causing:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe dementia&lt;/li&gt;
+	&lt;li&gt;Death, on average about eight years after onset&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your symptoms to the attention of your family doctor, who may refer you to a dementia specialist &amp;mdash; usually a neurologist or a psychiatrist. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To make the best of the time you have with your doctor, plan ahead and write lists of important information, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of all your symptoms&lt;/li&gt;
+	&lt;li&gt;All your medications and dosages, including nonprescription drugs and supplements&lt;/li&gt;
+	&lt;li&gt;Questions for the doctor, such as what tests or treatments he or she may recommend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might also want to bring a family member or close friend who can tell the doctor about symptoms you might not have noticed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;You and your spouse, partner or someone else who knows you well may be asked about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Changes in your memory, personality and behavior&lt;/li&gt;
+	&lt;li&gt;Visual hallucinations&lt;/li&gt;
+	&lt;li&gt;Medications you&apos;re taking&lt;/li&gt;
+	&lt;li&gt;Your history of stroke, depression, alcohol abuse, head trauma or other neurological disorders&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For the doctor to make a diagnosis of Lewy body dementia, you must have experienced a progressive decline in your ability to think, as well as two of the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fluctuating alertness and cognition&lt;/li&gt;
+	&lt;li&gt;Repeated visual hallucinations&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s-like symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+No single test can diagnose Lewy body dementia. Instead, doctors diagnose the disease through a process of elimination &amp;mdash; ruling out other diseases and conditions that may cause similar signs and symptoms. Tests may include:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neurological exam&lt;br /&gt;
+&lt;/strong&gt;As part of your physical exam, your doctor may also check for signs of Parkinson&apos;s disease, strokes, tumors or other medical conditions that can impair brain function as well as physical function. The neurological exam may test:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Eye movements&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+	&lt;li&gt;Sense of touch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Assessment of mental abilities&lt;br /&gt;
+&lt;/strong&gt;A short form of this type of test, which assesses your memory and thinking skills, can be done in less than 10 minutes in your doctor&apos;s office. Longer forms of neuropsychological testing can take several hours. Your results are then compared with those of people from a similar age and education level. This can help distinguish normal from abnormal cognitive aging, and may help identify patterns in cognitive functions that provide clues to the underlying condition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;br /&gt;
+&lt;/strong&gt;Simple blood tests can rule out physical problems that can affect brain function, such as vitamin B-12 deficiency or an underactive thyroid gland.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electroencephalogram (EEG)&lt;br /&gt;
+&lt;/strong&gt;If your confusion comes and goes, your doctor may suggest an EEG. This test can help determine if your symptoms are better explained by seizures or Creutzfeldt-Jakob disease, a rare, degenerative brain disorder that leads to dementia. This painless test records the electrical activity in your brain via wires attached to your scalp.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Brain scans&lt;br /&gt;
+&lt;/strong&gt;Your doctor may order an MRI or CT scan to check for evidence of stroke or bleeding, and to rule out the possibility of a tumor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment can be challenging, and there&apos;s no cure for Lewy body dementia. Instead, doctors treat the individual symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholinesterase inhibitors.&lt;/strong&gt; These Alzheimer&apos;s disease medications work by increasing the levels of neurotransmitters &amp;mdash; chemical messengers believed to be important for memory, thought and judgment &amp;mdash; in the brain. This can help improve alertness and cognition, and may help reduce hallucinations and other behavioral problems. Possible side effects may include gastrointestinal upset, excessive salivation and tearing and frequent urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parkinson&apos;s disease medications.&lt;/strong&gt; These medications can help reduce Parkinson&apos;s-like muscular symptoms in some people with Lewy body dementia, but they can also cause increased confusion, hallucinations and delusions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antipsychotic medications.&lt;/strong&gt; These medications may somewhat improve delusions and hallucinations. However, at least a third of the people who have Lewy body dementia have a dangerous sensitivity to some of these types of drugs. Reactions, which are sometimes irreversible, can include severe Parkinson&apos;s-like symptoms and a worsening of confusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;Because antipsychotic drugs can worsen the symptoms of Lewy body dementia, it might be better to initially try nondrug approaches, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Modifying the environment.&lt;/strong&gt; Reducing clutter and distracting noise can make it easier for someone with dementia to focus and function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Modifying your responses.&lt;/strong&gt; A caregiver&apos;s response to a behavior can make the behavior worse. It&apos;s best to avoid correcting and quizzing a person with dementia. Reassuring the person and validating his or her concerns can defuse most situations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Modifying tasks.&lt;/strong&gt; Break tasks into easier steps and focus on success, not failure. Structure and routine also help people with dementia feel safe.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Each person with dementia experiences symptoms and progression differently. Consequently, techniques to care for each person vary. Caregivers may need to adapt the following tips to individual situations:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Enhance communication.&lt;/strong&gt; When talking with your loved one, stand where you can be seen and touch his or her arm or shoulder to focus attention. Speak slowly, in simple sentences and don&apos;t rush the response. Present only one idea or instruction at a time. Use gestures and cues, such as pointing to objects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Encourage exercise.&lt;/strong&gt; Exercise benefits everyone, including people with dementia. The main benefits of exercise include improved strength and cardiovascular health. Exercise can also lessen symptoms of depression, help retain motor skills and create a calming effect. It can also help sustain strength, flexibility and balance &amp;mdash; which may lessen the risk of serious injury from a fall.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Establish a nighttime ritual.&lt;/strong&gt; Behavior is often worse at night. Try to establish going-to-bed rituals that are calming and away from the noise of television, meal cleanup and active family members. Leave night lights on to prevent disorientation. Limiting caffeine during the day, discouraging daytime napping and offering opportunities for exercise during the day may help prevent nighttime restlessness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with dementia often experience a worsening of their symptoms when they are frustrated or anxious. The following techniques may help promote relaxation. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Music therapy, which involves listening to soothing music&lt;/li&gt;
+	&lt;li&gt;Aromatherapy, which uses fragrant plant oils&lt;/li&gt;
+	&lt;li&gt;Massage therapy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with Lewy body dementia often experience a mixture of emotions &amp;mdash; confusion, frustration, anger, fear, uncertainty, grief and depression. 
+&lt;/p&gt;
+&lt;p&gt;
+You can help a person cope with the disease by listening, reassuring the person that he or she still can enjoy life, providing unconditional love and doing your best to help the person retain dignity and self-respect.
+&lt;/p&gt;
+&lt;p&gt;
+Caregivers must watch closely to make sure the person with Lewy body dementia doesn&apos;t fall or lose consciousness or react badly to medications, and they must reassure that person during times of delusions or hallucinations.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Looking after yourself&lt;br /&gt;
+&lt;/strong&gt;The physical and emotional demands of caregiving can be exhausting. Feelings of anger and guilt, frustration and discouragement, worry and grief, and social isolation are common. If you&apos;re a caregiver for someone with this disease, you can help yourself and help prevent caregiver burnout by doing the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask friends or other family members for help when you need it.&lt;/li&gt;
+	&lt;li&gt;Take care of your health.&lt;/li&gt;
+	&lt;li&gt;Learn as much about the disease as you can. Ask questions of doctors, social workers and others involved in the care of your loved one.&lt;/li&gt;
+	&lt;li&gt;Join a support group.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people with Lewy body dementia and their families can benefit from counseling or local support groups. Contact your local agencies on health or aging to get connected with support groups, doctors, resources and referrals, home care agencies, supervised living facilities, a telephone help line and educational seminars.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lewy body dementia
+	</Title>
+	<Abstract>
+		Lewy body dementia &amp;mdash; Comprehensive overview covers symptoms, complications, treatment of this progressive brain disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01709" LinkType="Internal" ObjectID="B8B48599-E7FF-0DBD-14F2FAC2EB12A6C0" Title="Oophorectomy (ovary removal): A risk factor for dementia?" Url="http://www.mayoclinic.com/health/oophorectomy/AN01709" />
+		<LinkItem ContentType="Article" DocID="MY01231" LinkType="Internal" ObjectID="2F3ED231-0C00-8975-4818600153B102AE" Title="Caregiver stress: Tips for taking care of yourself" Url="http://www.mayoclinic.com/health/caregiver-stress/MY01231" />
+	</RelatedLinksBox>
+</Disease>

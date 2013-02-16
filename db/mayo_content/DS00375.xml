@@ -1,0 +1,349 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00375
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/myasthenia-gravis/DS00375
+		</OriginalURL>
+		<UpdateDate>
+			2010-09-21
+		</UpdateDate>
+		<PublicationDate>
+			1999-10-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2330" Title="Neuromuscular">
+						<Keyword MCVID="2332" Title="Myasthenia gravis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			19970762-1121-4EA0-8559BA6A27BAB8AB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				myasthenia gravis
+			</MetaKeyword>
+			<MetaKeyword>
+				nerves
+			</MetaKeyword>
+			<MetaKeyword>
+				plasmapheresis
+			</MetaKeyword>
+			<MetaKeyword>
+				cholinesterase inhibitors
+			</MetaKeyword>
+			<MetaKeyword>
+				muscles
+			</MetaKeyword>
+			<MetaKeyword>
+				muscle weakness
+			</MetaKeyword>
+			<MetaKeyword>
+				nervous system
+			</MetaKeyword>
+			<MetaKeyword>
+				myastheniagravis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Myasthenia gravis (mi-uhs-THEE-ne-uh GRA-vis) is characterized by weakness and rapid fatigue of any of the muscles under your voluntary control. The cause of myasthenia gravis is a breakdown in the normal communication between nerves and muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+There is no cure for myasthenia gravis, but treatment can help relieve signs and symptoms &amp;mdash; such as weakness of arm or leg muscles, double vision, drooping eyelids, and difficulties with speech, chewing, swallowing and breathing. 
+&lt;/p&gt;
+&lt;p&gt;
+While myasthenia gravis can affect people of any age, it&apos;s more common in women younger than 40 and in men older than 60.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Muscle weakness caused by myasthenia gravis worsens as the affected muscle is used repeatedly. Since symptoms typically improve with rest, your muscle weakness may come and go. However, the symptoms of myasthenia gravis tend to progress over time, usually reaching their worst within a few years after the onset of the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Although myasthenia gravis can affect any of the muscles that you control voluntarily, certain muscle groups are more commonly affected than others. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eye muscles&lt;br /&gt;
+&lt;/strong&gt;In more than half the people who develop myasthenia gravis, their first signs and symptoms involve eye problems, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Drooping of one or both eyelids (ptosis)&lt;/li&gt;
+	&lt;li&gt;Double vision (diplopia), which may be horizontal or vertical&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Face and throat muscles&lt;br /&gt;
+&lt;/strong&gt;In about 15 percent of people with myasthenia gravis, the first symptoms involve face and throat muscles, which can cause difficulties with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Altered speaking.&lt;/strong&gt; Your speech may be very soft or may sound nasal, depending upon which muscles have been affected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty swallowing.&lt;/strong&gt; You may choke very easily, which makes it difficult to eat, drink or take pills. In some cases, liquids you&apos;re trying to swallow may come out your nose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems chewing.&lt;/strong&gt; The muscles used for chewing may wear out halfway through a meal, particularly if you&apos;ve been eating something hard to chew, such as steak.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limited facial expressions.&lt;/strong&gt; Family members may note that you&apos;ve &quot;lost your smile&quot; if the muscles that control your facial expressions are affected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Neck and limb muscles&lt;br /&gt;
+&lt;/strong&gt;Myasthenia gravis can cause weakness in your neck, arms and legs, but this usually happens in conjunction with muscle weakness in other parts of your body &amp;mdash; such as your eyes, face or throat. The disorder usually affects arms more often than legs. However, if it affects your legs, you may waddle when you walk. If your neck is weak, it may be hard to hold your head erect. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Talk to your doctor if you have trouble: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breathing&lt;/li&gt;
+	&lt;li&gt;Seeing&lt;/li&gt;
+	&lt;li&gt;Swallowing&lt;/li&gt;
+	&lt;li&gt;Chewing&lt;/li&gt;
+	&lt;li&gt;Walking&lt;/li&gt;
+	&lt;li&gt;Using your arms or hands&lt;/li&gt;
+	&lt;li&gt;Holding up your head&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your nerves communicate with your muscles by releasing chemicals, called neurotransmitters, which fit precisely into receptor sites on the muscle cells. In myasthenia gravis, your immune system produces antibodies that block or destroy many of your muscles&apos; receptor sites for a neurotransmitter called acetylcholine. With fewer receptor sites available, your muscles receive fewer nerve signals, resulting in weakness. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s believed that the thymus gland &amp;mdash; a part of your immune system situated in the upper chest beneath the breastbone &amp;mdash; may trigger or maintain the production of these antibodies. Large in infancy, the thymus is small in healthy adults. But, in some adults with myasthenia gravis, the thymus is abnormally large. Some people also have tumors of the thymus. Usually, thymus gland tumors are noncancerous.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Factors that can worsen myasthenia gravis&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Illness&lt;/li&gt;
+	&lt;li&gt;Stress&lt;/li&gt;
+	&lt;li&gt;Extreme heat&lt;/li&gt;
+	&lt;li&gt;Some medications &amp;mdash; such as beta blockers, calcium channel blockers, quinine and some antibiotics&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing receptors for neurotransmitters 
+" Caption="Chemicals messengers, called neurotransmitters, fit precisely into receptor sites on your muscle cells. In myasthenia gravis, certain receptor sites are blocked or destroyed, causing muscle weakness.
+" Height="60" Title="Illustration showing receptors for neurotransmitters" URI="/images/image_popup/thumbs/r7_receptorsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing receptors for neurotransmitters 
+" Caption="Chemicals messengers, called neurotransmitters, fit precisely into receptor sites on your muscle cells. In myasthenia gravis, certain receptor sites are blocked or destroyed, causing muscle weakness.
+" Height="224" Title="Receptors" URI="/images/image_popup/r7_receptors.jpg" Width="400" />
+				<HTML>
+					Chemicals messengers, called neurotransmitters, fit precisely into receptor sites on your muscle cells. In myasthenia gravis, certain receptor sites are blocked or destroyed, causing muscle weakness....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of thymus gland 
+" Caption="The thymus gland, a part of your immune system situated in the upper chest beneath the breastbone, may trigger or maintain the production of antibodies that result in the muscle weakness. 
+" Height="60" Title="Thymus gland" URI="/images/image_popup/thumbs/r7_thymusthu.jpg" Width="60" />
+				<Image Alt="Illustration of thymus gland 
+" Caption="The thymus gland, a part of your immune system situated in the upper chest beneath the breastbone, may trigger or maintain the production of antibodies that result in the muscle weakness. 
+" Height="260" Title="Thymus gland" URI="/images/image_popup/r7_thymus.jpg" Width="400" />
+				<HTML>
+					The thymus gland, a part of your immune system situated in the upper chest beneath the breastbone, may trigger or maintain the production of antibodies that result in the muscle weakness. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of myasthenia gravis are treatable, but some can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Myasthenic crisis&lt;br /&gt;
+&lt;/strong&gt;Myasthenic crisis is a life-threatening condition, which occurs when the muscles that control breathing become too weak to do their jobs. Emergency treatment is needed to provide mechanical assistance with breathing. Medications and blood-filtering therapies help people recover from myasthenic crisis, so they can again breathe on their own.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Thymus tumors&lt;br /&gt;
+&lt;/strong&gt;About 15 percent of the people who have myasthenia gravis have a tumor in their thymus, a gland under the breastbone that is involved with the immune system. Most of these tumors are noncancerous.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other disorders&lt;br /&gt;
+&lt;/strong&gt;People who have myasthenia gravis are also more likely to have the following problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Underactive or overactive thyroid.&lt;/strong&gt; The thyroid gland, which is in the neck, secretes hormones that regulate your metabolism. If your thyroid is underactive, your body uses energy more slowly. An overactive thyroid makes your body use energy too quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pernicious anemia.&lt;/strong&gt; This is a condition in which vitamin B-12 is not properly absorbed from the diet, leading to anemia or neurological problems.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After you discuss your symptoms with your family doctor, he or she will probably refer you to a neurologist for further evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To make the most of your appointment, write lists of important information, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of all your symptoms, including whether anything seems to make them better or worse&lt;/li&gt;
+	&lt;li&gt;All your medications and dosages, including nonprescription drugs and supplements&lt;/li&gt;
+	&lt;li&gt;Questions for the doctor, such as what tests or treatments he or she may recommend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor will want a detailed description of your symptoms and your medical history. In addition to a physical exam, your doctor may also check your neurological health by testing your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Senses of touch and sight&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The key sign that points to the possibility of myasthenia gravis is muscle weakness that improves with rest. Tests to help confirm the diagnosis may include:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Edrophonium test&lt;br /&gt;
+&lt;/strong&gt;Injection of the chemical edrophonium (Tensilon) may result in a sudden, although temporary, improvement in your muscle strength &amp;mdash; an indication that you may have myasthenia gravis. Edrophonium acts to block an enzyme that breaks down acetylcholine, the chemical that transmits signals from your nerve endings to your muscle receptor sites.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood analysis&lt;br /&gt;
+&lt;/strong&gt;A blood test may reveal the presence of abnormal antibodies that disrupt the receptor sites where nerve impulses signal your muscles to move.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Repetitive nerve stimulation&lt;br /&gt;
+&lt;/strong&gt;This is a type of nerve conduction study, in which electrodes are attached to your skin over the muscles to be tested. Small pulses of electricity are sent through the electrodes to measure the nerve&apos;s ability to send a signal to your muscle. To diagnose myasthenia gravis, the nerve will be tested many times to see if its ability to send signals worsens with fatigue.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Single-fiber electromyography (EMG)&lt;br /&gt;
+&lt;/strong&gt;Electromyography (EMG) measures the electrical activity traveling between your brain and your muscle. It involves inserting a fine wire electrode through your skin and into a muscle. In single-fiber EMGs, a single muscle fiber is tested. Most people find this test to be somewhat uncomfortable.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging scans&lt;br /&gt;
+&lt;/strong&gt;Your doctor may order a CT scan or an MRI to see if there&apos;s a tumor or other abnormality in your thymus.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors use a variety of treatments, alone or in combination, to relieve symptoms of myasthenia gravis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cholinesterase inhibitors.&lt;/strong&gt; Drugs such as pyridostigmine (Mestinon) enhance communication between nerves and muscles. These drugs don&apos;t cure the underlying problem, but they do improve muscle contraction and muscle strength. Possible side effects may include gastrointestinal upset, excessive salivation and tearing, and frequent urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; These types of drugs inhibit the immune system, limiting antibody production. Prolonged use of corticosteroids, however, can lead to serious side effects, such as bone thinning, weight gain, diabetes, increased risk of some infections, and an increase and redistribution of body fat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppressants.&lt;/strong&gt; Your doctor may also prescribe other medications that alter your immune system, such as azathioprine (Imuran), cyclosporine (Sandimmune, Neoral) or mycophenolate (CellCept). Side effects of immunosuppressants can be serious and may include increased risk of infection, liver damage, infertility and increased risk of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plasmapheresis (plaz-muh-fuh-REE-sis).&lt;/strong&gt; This procedure uses a filtering process similar to dialysis. Your blood is routed through a machine that removes the antibodies that are blocking transmission of signals from your nerve endings to your muscles&apos; receptor sites. However, the beneficial effects usually last only a few weeks. Repeated treatments can lead to difficulty gaining access to a vein, which may require implanting a catheter, a long, flexible tube, into your chest. Another risk associated with plasmapheresis is a drop in blood pressure. Bleeding occasionally occurs because of the medications used to keep the blood from clotting during the procedure. It&apos;s also possible to develop an allergic reaction to the solutions used to replace the plasma or to the sterilizing agents used for the tubing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous immune globulin.&lt;/strong&gt; This therapy provides your body with normal antibodies, which alters your immune system response. It has a lower risk of side effects than do plasmapheresis and immune-suppressing therapy, but it can take a week or two to start working, and the benefits usually last no more than a month or two. Side effects, which usually are mild, may include chills, dizziness, headaches and fluid retention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;About 15 percent of the people who have myasthenia gravis have a tumor in their thymus, a gland under the breastbone that is involved with the immune system. If you have such a tumor, you&apos;ll need to have your thymus removed. 
+&lt;/p&gt;
+&lt;p&gt;
+For people with myasthenia gravis who don&apos;t have a tumor in the thymus, it&apos;s unclear whether the potential benefit of removing the thymus outweighs the risks of surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery is not recommended&lt;/strong&gt; by most doctors if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your symptoms are mild&lt;/li&gt;
+	&lt;li&gt;Your symptoms involve only your eyes&lt;/li&gt;
+	&lt;li&gt;You&apos;re older than 60&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Supplementing your medical care with these approaches may help you make the most of your energy and cope with the symptoms of myasthenia gravis:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adjust your eating routine.&lt;/strong&gt; Try to eat when you have good muscle strength. Take your time eating and rest between bites. More frequent, smaller meals may be easier to handle. Also, try soft foods and avoid sticky foods that require lots of chewing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use safety precautions at home.&lt;/strong&gt; Install grab bars or railings in places where you may need support, such as next to the bathtub. Keep the floors and halls in your house clear of clutter, cords and loose rugs. Outside your home, keep the steps, sidewalk and path to your car clear.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use electric appliances and power tools.&lt;/strong&gt; Save your energy in the bathroom, in the kitchen or at the workbench by using electric appliances, such as toothbrushes, can openers and screwdrivers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear an eye patch.&lt;/strong&gt; If you have double vision, using an eye patch can help relieve this problem. Wear the patch while you read or watch television. To avoid eyestrain, periodically switch the patch from one eye to the other.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Plan.&lt;/strong&gt; If you have chores or shopping to do or errands to run, plan the activity to coincide with the time at which your medication provides your peak energy level. If you&apos;re working on a project at home, gather everything you need for the job at one time, to eliminate extra trips that may drain your energy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask for help.&lt;/strong&gt; Depending on your energy level, you may not be able to do everything you have planned around the house or run every errand that you need to. Ask family members and friends to lend a hand.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Myasthenia gravis
+	</Title>
+	<Abstract>
+		Myasthenia gravis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this muscle weakness disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00107" LinkType="Internal" ObjectID="C019023D-E7FF-0DBD-10F82974DF8D3D59" Title="Electromyography (EMG)" Url="http://www.mayoclinic.com/health/emg/MY00107" />
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+	</RelatedLinksBox>
+</Disease>

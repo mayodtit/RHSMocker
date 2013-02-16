@@ -1,0 +1,257 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01207
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/amniotic-fluid-embolism/DS01207
+		</OriginalURL>
+		<UpdateDate>
+			2012-09-27
+		</UpdateDate>
+		<PublicationDate>
+			2012-09-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="5039" Title="Amniotic fluid embolism" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A43C6661-B9F9-3BE6-3A41FE6D24724FDD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				amniotic fluid embolism
+			</MetaKeyword>
+			<MetaKeyword>
+				amniotic embolism
+			</MetaKeyword>
+			<MetaKeyword>
+				amniotic fluid embolism causes
+			</MetaKeyword>
+			<MetaKeyword>
+				amniotic embolism treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				amniotic fluid embolism symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy complications
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An amniotic fluid embolism is a rare but serious condition that occurs when amniotic fluid &amp;mdash; the fluid that surrounds a baby in the uterus during pregnancy &amp;mdash; or fetal material, such as hair, enters the maternal bloodstream.
+&lt;/p&gt;
+&lt;p&gt;
+An amniotic fluid embolism is most likely to occur during childbirth or immediately afterward.
+&lt;/p&gt;
+&lt;p&gt;
+An amniotic fluid embolism is difficult to diagnose. If your doctor suspects you might have an amniotic fluid embolism, you&apos;ll need immediate treatment to prevent potentially life-threatening complications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An amniotic fluid embolism develops suddenly and rapidly.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of an amniotic fluid embolism might include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden shortness of breath&lt;/li&gt;
+	&lt;li&gt;Excess fluid in the lungs (pulmonary edema)&lt;/li&gt;
+	&lt;li&gt;Sudden low blood pressure&lt;/li&gt;
+	&lt;li&gt;Sudden circulatory failure (cardiovascular collapse)&lt;/li&gt;
+	&lt;li&gt;Life-threatening problems with blood clotting (disseminated intravascular coagulopathy)&lt;/li&gt;
+	&lt;li&gt;Altered mental status, such as anxiety&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate or disturbances in the rhythm of the heart rate&lt;/li&gt;
+	&lt;li&gt;Fetal distress, such as a slow heart rate&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Why an amniotic fluid embolism occurs isn&apos;t well understood.
+&lt;/p&gt;
+&lt;p&gt;
+An amniotic fluid embolism occurs when amniotic fluid or fetal material enters the maternal bloodstream, possibly by passing through tears in the fetal membranes. It&apos;s likely that amniotic fluid contains components that cause an inflammatory reaction and activate clotting in the mother&apos;s lungs and blood vessels.
+&lt;/p&gt;
+&lt;p&gt;
+However, amniotic fluid embolisms are rare &amp;mdash; and it&apos;s likely that some amniotic fluid commonly enters the maternal bloodstream during delivery without causing problems. It&apos;s not clear why in some cases this leads to an amniotic fluid embolism.
+&lt;/p&gt;
+&lt;p&gt;
+Further research on what causes amniotic fluid embolisms is needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amniotic fluid embolisms are rare, which makes it difficult to identify risk factors. It&apos;s estimated that there are between 1 and 12 cases of amniotic fluid embolism for every 100,000 deliveries.
+&lt;/p&gt;
+&lt;p&gt;
+Research suggests that several factors might be linked to an increased risk of an amniotic fluid embolism, however, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Advanced maternal age.&lt;/strong&gt; If you&apos;re 35 or older at the time of your child&apos;s birth, you might be at increased risk of an amniotic fluid embolism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Placenta problems.&lt;/strong&gt; If there are abnormalities in your placenta &amp;mdash; the structure that develops in your uterus during pregnancy &amp;mdash; you might be at increased risk of an amniotic fluid embolism. Abnormalities might include the placenta partially or totally covering the cervix (placenta previa) or the placenta peeling away from the inner wall of the uterus before delivery (placental abruption). These conditions can disrupt the physical barriers between you and your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Preeclampsia.&lt;/strong&gt; If you have preeclampsia &amp;mdash; high blood pressure and excess protein in the urine after 20 weeks of pregnancy &amp;mdash; you might be at increased risk of developing an amniotic fluid embolism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medically induced labor.&lt;/strong&gt; Limited research suggests that certain labor induction methods are associated with an increased risk of amniotic fluid embolism. Research on this link, however, is conflicting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Operative delivery.&lt;/strong&gt; Having a C-section, a forceps delivery or a vacuum extraction might increase your risk of an amniotic fluid embolism. These procedures can disrupt the physical barriers between you and your baby. It&apos;s not clear, however, whether operative deliveries are true risk factors for amniotic fluid embolisms or are used after the condition develops to ensure a rapid delivery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetics.&lt;/strong&gt; Some experts believe that genetics might play a role in determining a woman&apos;s risk of amniotic fluid embolism.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An amniotic fluid embolism can cause serious complications for you and your baby.
+&lt;/p&gt;
+&lt;p&gt;
+If you have an amniotic fluid embolism, you&apos;re at increased risk of:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Brain injury.&lt;/strong&gt; Low blood oxygen can cause permanent, severe neurological damage or brain death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lengthy hospital stay.&lt;/strong&gt; Women who survive an amniotic fluid embolism often require treatment in the intensive care unit and &amp;mdash; depending on the extent of their complications &amp;mdash; might spend weeks or months in the hospital.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s estimated that amniotic fluid embolisms cause up to 10 percent of maternal deaths in developed countries. Death can occur within an hour of the start of symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+If you have an amniotic embolism, your unborn baby is at increased risk of a brain injury due to a lack of oxygen. The condition can also be fatal for babies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An amniotic fluid embolism is a medical emergency, leaving you no time to prepare. If you&apos;re concerned about your risk of having an amniotic fluid embolism, talk with your doctor. Keep in mind, however, that amniotic fluid embolisms are rare, unpredictable and seemingly unpreventable.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no lab tests to diagnose an amniotic fluid embolism. A diagnosis is typically made after other conditions have been ruled out. In some cases, a diagnosis is only made after maternal death.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An amniotic fluid embolism requires rapid treatment to address low blood oxygen and low blood pressure.
+&lt;/p&gt;
+&lt;p&gt;
+Emergency treatments might include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Catheter placement.&lt;/strong&gt; Your health care team will place a thin, hollow tube into one of your arteries (arterial catheter) to monitor your blood pressure. You&apos;ll also have another tube placed into a vein in your chest (central venous catheter), which can be used to give fluids, medications or transfusions, as well as draw blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen.&lt;/strong&gt; You might need to have a breathing tube inserted into your airway to help you breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Your doctor might give you medications to improve and support your heart function. Other medications might be used to decrease the pressure caused by fluid going into your heart and lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transfusions.&lt;/strong&gt; If you have uncontrollable bleeding, you&apos;ll need transfusions of blood, blood products and replacement fluids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have an amniotic fluid embolism before delivering your baby, your doctor will treat you with an eye toward safely delivering your baby as soon as possible. An emergency C-section might be needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Experiencing a life-threatening pregnancy condition can be frightening and stressful for you and your family. You and your baby might experience serious complications and require lengthy hospital stays.
+&lt;/p&gt;
+&lt;p&gt;
+During this challenging time, lean on loved ones for support. Consider joining a survivors&apos; network. Also, work with your health care provider to determine how you can safely manage your recovery and your role as the mother of a newborn.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Amniotic fluid embolism
+	</Title>
+	<Abstract>
+		Amniotic fluid embolism &amp;mdash; Overview covers definition, symptoms and treatment of this pregnancy or post-pregnancy condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="MY01978" LinkType="Internal" ObjectID="B51BEA1F-C099-B0B1-7581BAADD4C4EBED" Title="C-section recovery: What to expect" Url="http://www.mayoclinic.com/health/c-section-recovery/MY01978" />
+		<LinkItem ContentType="Article" DocID="PR00083" LinkType="Internal" ObjectID="7E57E034-98E4-49A9-84053CC4E2CC170A" Title="Signs of labor: Know what to expect" Url="http://www.mayoclinic.com/health/signs-of-labor/PR00083" />
+		<LinkItem ContentType="Article" DocID="PR00125" LinkType="Internal" ObjectID="7A28001E-F8AD-4174-AF785E26EEE1A1D5" Title="High blood pressure and pregnancy: Know the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00125" />
+		<LinkItem ContentType="Disease" DocID="DS00588" LinkType="Internal" ObjectID="827D77E5-9B63-44BA-A298CD99329BB784" Title="Placenta previa" Url="http://www.mayoclinic.com/health/placenta-previa/DS00588" />
+	</RelatedLinksBox>
+</Disease>

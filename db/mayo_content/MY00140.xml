@@ -1,0 +1,299 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00140
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cystoscopy/MY00140
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-09
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3853" Title="Kidneys and urinary system">
+						<Keyword MCVID="3876" Title="Cystoscopy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DF5D2342-E7FF-0DBD-14AE3484AD77EBCC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cystoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder cystoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				cystoscopy procedure
+			</MetaKeyword>
+			<MetaKeyword>
+				flexible cystoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				rigid cystoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				cystourethroscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				cytoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				sistoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				systoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				cistoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				bladder problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cystoscopy (sis-TOS-kuh-pee) is a procedure used to see inside your urinary bladder and urethra &amp;mdash; the tube that carries urine from your bladder to the outside of your body. During a cystoscopy procedure, your doctor uses a hollow tube (cystoscope) equipped with a lens to carefully examine the lining of your bladder and your urethra. The cystoscope is inserted into your urethra and slowly advanced into your bladder. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may perform the cystoscopy in a testing room, using a local anesthetic jelly to numb your urethra. Or your doctor may perform cystoscopy as an outpatient procedure, using sedation. Another option is to do the cystoscopy in the hospital while under general anesthesia. The type of cystoscopy you&apos;ll have depends on the reason for your procedure. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Female cystoscopy" URI="/images/image_popup/thumbs/r7_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="339" Title="Female cystoscopy" URI="/images/image_popup/r7_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Male cystoscopy" URI="/images/image_popup/thumbs/r7_flexible_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="394" Title="Male cystoscopy" URI="/images/image_popup/r7_flexible_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors use cystoscopy to diagnose, monitor and treat conditions affecting the bladder and urethra. Common reasons your doctor may recommend a cystoscopy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Investigating causes of bladder signs and symptoms.&lt;/strong&gt; Cystoscopy may help your doctor learn the causes of signs and symptoms such as blood in the urine, frequent urinary tract infections, incontinence, overactive bladder and painful urination.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diagnosing bladder and urinary tract diseases and conditions.&lt;/strong&gt; A cystoscopy may be used in diagnosing bladder cancer, bladder stones and bladder inflammation (cystitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treating bladder diseases and conditions.&lt;/strong&gt; Special tools can be passed through the cystoscope to treat a bladder disease or condition. For instance, very small bladder tumors may be removed during cystoscopy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diagnosing an enlarged prostate.&lt;/strong&gt; A cystoscopy may reveal a narrowing of the urethra where it passes through the prostate gland, indicating an enlarged prostate (benign prostatic hyperplasia).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In certain cases, your doctor may conduct a procedure called ureteroscopy (u-ree-tur-OS-kuh-pee) to examine your urinary tract beyond your bladder at the same time as your cystoscopy. Ureteroscopy uses a smaller scope to examine your ureters &amp;mdash; the tubes that carry urine from your kidneys to your bladder. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Female urinary system" URI="/images/image_popup/thumbs/r7_urinarytractlabeledthu.jpg" Width="60" />
+				<Image Alt="Illustration of the female urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="313" Title="Female urinary system" URI="/images/image_popup/r7_urinarytractlabeled.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="60" Title="Male urinary system" URI="/images/image_popup/thumbs/r7_maleurinarythu.jpg" Width="60" />
+				<Image Alt="Illustration of the male urinary system 
+" Caption="Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion of your upper abdomen, produce urine by filtering waste and fluid from your blood. 
+" Height="400" Title="Male urinary system" URI="/images/image_popup/r7_maleurinary.jpg" Width="400" />
+				<HTML>
+					Your urinary system &amp;mdash; which includes your kidneys, ureters, bladder and urethra &amp;mdash; is responsible for removing waste from your body through urine. Your kidneys, located in the rear portion ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cystoscopy carries a risk of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, cystoscopy can introduce germs into your urinary tract, which can cause infection. Cystoscopy may also irritate an existing urinary tract infection, worsening it. In select cases, your doctor may prescribe antibiotics to take before and after your cystoscopy to prevent infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Cystoscopy may cause some blood in your urine. Rarely, bleeding may be serious.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; Cystoscopy may cause abdominal pain and a burning sensation when urinating. In most cases, these symptoms are mild and gradually decrease after the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of a complication&lt;/strong&gt; &lt;br /&gt;
+Call your doctor or go to the nearest emergency room if you experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bright red blood in your urine&lt;/li&gt;
+	&lt;li&gt;A fever higher than 100 F (38 C) &lt;/li&gt;
+	&lt;li&gt;Pain or burning during urination that lasts more than two days &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prepare for your cystoscopy exam, your health care team may ask that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take antibiotics if prescribed by your doctor.&lt;/strong&gt; In select cases, your doctor may prescribe antibiotics before and after your cystoscopy. Examples of people who may need to take antibiotics include those who have an active urinary tract infection and those whose bodies have difficulty fighting infections.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wait to empty your bladder.&lt;/strong&gt; In certain situations, your doctor may order a urine test before your cystoscopy. Wait to empty your bladder until you get to your appointment in case you need to give a urine sample.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Prepare for sedation or anesthesia&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ll receive an intravenous (IV) sedative or general anesthetic during your cystoscopy, plan ahead for your recovery. To prepare, you can: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find a ride home.&lt;/strong&gt; You&apos;ll be asked not to drive yourself home, so arrange a ride.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clear your schedule for the day.&lt;/strong&gt; Plan to take it easy after your procedure. Avoid being active for the rest of the day. You may need to take the day off work. Though you may feel fine, your judgment and reflexes may be slowed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask someone to stay nearby.&lt;/strong&gt; Have a friend or relative stay with you or check on you throughout the day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the cystoscopy&lt;/strong&gt; &lt;br /&gt;
+A simple outpatient cystoscopy may take less than five minutes. When done in a hospital setting with sedation or general anesthesia, cystoscopy can take 10 to 30 minutes. Your cystoscopy procedure may follow this process: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;ll be asked to empty your bladder before the procedure.&lt;/strong&gt; Then you&apos;ll lie down on a table on your back. You&apos;ll likely be positioned with your feet in stirrups and your knees bent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You may or may not need a sedative or anesthetic.&lt;/strong&gt; If you receive a sedative, you&apos;ll feel sleepy and relaxed during the cystoscopy, but you&apos;ll still be aware. If you receive a general anesthetic, you won&apos;t be aware during the procedure. Both types of medication may be given through a vein in your arm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your doctor will insert the cystoscope.&lt;/strong&gt; A numbing jelly will be applied to your urethra to help prevent pain when the cystoscope is inserted. After waiting a few minutes for the numbing, your doctor will carefully push the cystoscope into your urethra, using the smallest scope possible. Smaller scopes are often used to look for causes of signs and symptoms. Larger scopes may be necessary to take tissue samples or pass surgical tools into the bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your doctor will examine your urethra and bladder.&lt;/strong&gt; As the cystoscope passes through your urethra and toward your bladder, your doctor will look through a lens on the end of the cystoscope. The lens works like a telescope to magnify the inner surfaces of your urethra and your bladder. In some cases, your doctor may place a special video camera over the lens that projects the images onto a video screen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your doctor will fill your bladder with a sterile solution.&lt;/strong&gt; Once the cystoscope reaches your bladder, your doctor will flood the bladder with a sterile solution. The solution inflates the bladder and allows your doctor to get a better look inside. As your bladder fills, you may feel the need to urinate. As soon as your cystoscopy is complete, you&apos;ll be allowed to empty your bladder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your doctor may take tissue samples or perform another procedure.&lt;/strong&gt; Depending on your situation, your doctor may take tissue samples for lab testing or perform various procedures during the cystoscopy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After the cystoscopy&lt;/strong&gt; &lt;br /&gt;
+After your cystoscopy, you may be allowed to go about your day. If you&apos;ve been given sedation or general anesthesia, you may be asked to remain in a recovery area to let the effects of the medication wear off before you leave. 
+&lt;/p&gt;
+&lt;p&gt;
+You might experience some side effects after cystoscopy, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding from your urethra, which may appear bright pink in your urine or on toilet tissue&lt;/li&gt;
+	&lt;li&gt;A burning sensation during urination&lt;/li&gt;
+	&lt;li&gt;More frequent urination for the next day or two&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can relieve some of the discomfort if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hold a warm, moist washcloth over the opening to your urethra to help relieve pain. Repeat this as needed.&lt;/li&gt;
+	&lt;li&gt;Take a warm bath. Though, in some cases, your doctor may ask you to avoid baths. If you have concerns, call your doctor.&lt;/li&gt;
+	&lt;li&gt;Drink water to flush out your bladder. This may reduce irritation. Try to drink 16 ounces (473 milliliters) of water each hour for the first two hours after your cystoscopy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Call your doctor if you have concerns after your cystoscopy. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Female cystoscopy" URI="/images/image_popup/thumbs/r7_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a woman 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="339" Title="Female cystoscopy" URI="/images/image_popup/r7_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities, such as a bladder stone. Surgical tools can be passed through the cystoscope to treat certain urinary tract ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="60" Title="Male cystoscopy" URI="/images/image_popup/thumbs/r7_flexible_cystoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of cystoscopy being performed on a man 
+" Caption="Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary tract conditions. 
+" Height="394" Title="Male cystoscopy" URI="/images/image_popup/r7_flexible_cystoscopy.jpg" Width="400" />
+				<HTML>
+					Cystoscopy allows your doctor to view your lower urinary tract to look for abnormalities in your urethra and bladder. Surgical tools can be passed through the cystoscope to treat certain urinary ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ask your doctor when you can expect the results of your cystoscopy. In some cases, your doctor may be able to discuss the results immediately after your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+In other cases, your doctor may discuss your results at a follow-up appointment. For instance, if your cystoscopy involved collecting a tissue sample (biopsy) to test for bladder cancer, your doctor will send that sample to a lab. When the tests are completed, your doctor will let you know the results. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cystoscopy
+	</Title>
+	<Abstract>
+		Cystoscopy &amp;mdash; Overview covers definition, risks, results of this procedure to examine your bladder.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

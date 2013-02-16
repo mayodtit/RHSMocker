@@ -1,0 +1,593 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00035
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/colon-cancer/DS00035
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-13
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2246" Title="Colon cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			13D504C5-40A0-40DA-9F61138EEAAE162F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				colon cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				colorectal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				rectum
+			</MetaKeyword>
+			<MetaKeyword>
+				intestine
+			</MetaKeyword>
+			<MetaKeyword>
+				colon
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal
+			</MetaKeyword>
+			<MetaKeyword>
+				adenomatous polyps
+			</MetaKeyword>
+			<MetaKeyword>
+				adenomas
+			</MetaKeyword>
+			<MetaKeyword>
+				colonoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				fecal occult blood
+			</MetaKeyword>
+			<MetaKeyword>
+				sigmoidoscopy
+			</MetaKeyword>
+			<MetaKeyword>
+				barium enema
+			</MetaKeyword>
+			<MetaKeyword>
+				colectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				colostomy
+			</MetaKeyword>
+			<MetaKeyword>
+				colon cancer symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				coloncancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Colon cancer is cancer of the large intestine (colon), the lower part of your digestive system. Rectal cancer is cancer of the last several inches of the colon. Together, they&apos;re often referred to as colorectal cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+Most cases of colon cancer begin as small, noncancerous (benign) clumps of cells called adenomatous polyps. Over time some of these polyps become colon cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+Polyps may be small and produce few, if any, symptoms. For this reason, doctors recommend regular screening tests to help prevent colon cancer by identifying polyps before they become colon cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of colon cancer locations 
+" Caption="Cancer can occur anywhere in the colon, so it&apos;s important to have screening tests that examine the entire colon.
+" Height="60" Title="Colon cancer" URI="/images/image_popup/thumbs/colon.gif" Width="60" />
+				<Image Alt="Image of colon cancer locations 
+" Caption="Cancer can occur anywhere in the colon, so it&apos;s important to have screening tests that examine the entire colon.
+" Height="303" Title="Colorectal cancer" URI="/images/image_popup/colon.jpg" Width="400" />
+				<HTML>
+					Cancer can occur anywhere in the colon, so it&apos;s important to have screening tests that examine the entire colon.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of colon cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A change in your bowel habits, including diarrhea or constipation or a change in the consistency of your stool&lt;/li&gt;
+	&lt;li&gt;Rectal bleeding or blood in your stool&lt;/li&gt;
+	&lt;li&gt;Persistent abdominal discomfort, such as cramps, gas or pain&lt;/li&gt;
+	&lt;li&gt;A feeling that your bowel doesn&apos;t empty completely&lt;/li&gt;
+	&lt;li&gt;Weakness or fatigue&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many people with colon cancer experience no symptoms in the early stages of the disease. When symptoms appear, they&apos;ll likely vary, depending on the cancer&apos;s size and location in your large intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you notice any symptoms of colon cancer, such as blood in your stool or a persistent change in bowel habits, make an appointment with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about when you should begin screening for colon cancer. Guidelines generally recommend colon cancer screenings begin at age 50. Your doctor may recommend more frequent or earlier screening if you have other risk factors, such as a family history of the disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, it&apos;s not clear what causes colon cancer. Doctors know that colon cancer occurs when healthy cells in the colon become altered. Healthy cells grow and divide in an orderly way to keep your body functioning normally. But sometimes this growth gets out of control &amp;mdash; cells continue dividing even when new cells aren&apos;t needed. In the colon and rectum, this exaggerated growth may cause precancerous cells to form in the lining of your intestine. Over a long period of time &amp;mdash; spanning up to several years &amp;mdash; some of these areas of abnormal cells may become cancerous. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Precancerous growths in the colon&lt;/strong&gt; &lt;br /&gt;
+Colon cancer most often begins as clumps of precancerous cells (polyps) on the inside lining of the colon. Polyps can appear mushroom-shaped. Precancerous growths can also be flat or recessed into the wall of the colon (nonpolypoid lesions). Removing polyps and nonpolypoid lesions before they become cancerous can prevent colon cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inherited gene mutations that increase the risk of colon cancer&lt;/strong&gt; &lt;br /&gt;
+Inherited gene mutations that increase the risk of colon cancer can be passed through families, but these inherited genes are linked to only a small percentage of colon cancers. Inherited gene mutations don&apos;t make cancer inevitable, but they can increase an individual&apos;s risk of cancer significantly. Inherited colon cancer syndromes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Familial adenomatous polyposis (FAP).&lt;/strong&gt; FAP is a rare disorder that causes you to develop thousands of polyps in the lining of your colon and rectum. People with untreated FAP have a greatly increased risk of developing colon cancer before age 40.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hereditary nonpolyposis colorectal cancer (HNPCC).&lt;/strong&gt; HNPCC, also called Lynch syndrome, increases the risk of colon cancer and other cancers. People with HNPCC tend to develop colon cancer before age 50.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Both FAP and HNPCC can be detected through genetic testing. If you&apos;re concerned about your family&apos;s history of colon cancer, talk to your doctor about whether your family history suggests you have a risk of these conditions. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of colon cancer locations 
+" Caption="Cancer can occur anywhere in the colon, so it&apos;s important to have screening tests that examine the entire colon.
+" Height="60" Title="Colon cancer" URI="/images/image_popup/thumbs/colon.gif" Width="60" />
+				<Image Alt="Image of colon cancer locations 
+" Caption="Cancer can occur anywhere in the colon, so it&apos;s important to have screening tests that examine the entire colon.
+" Height="303" Title="Colorectal cancer" URI="/images/image_popup/colon.jpg" Width="400" />
+				<HTML>
+					Cancer can occur anywhere in the colon, so it&apos;s important to have screening tests that examine the entire colon.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of precancerous colon lesions 
+" Caption="Precancerous growths in the colon most commonly appear as clumps of cells (polyps) that extend from the wall of the colon. Precancerous growths can also be flat or recessed into the wall of the colon (nonpolyps). Both polyps and nonpolyps can become cancerous, so doctors recommend screening tests to find and remove lesions in the colon. 
+" Height="60" Title="Precancerous colon lesions" URI="/images/image_popup/thumbs/c7_colonlesionsthu.jpg" Width="60" />
+				<Image Alt="Illustrations of precancerous colon lesions 
+" Caption="Precancerous growths in the colon most commonly appear as clumps of cells (polyps) that extend from the wall of the colon. Precancerous growths can also be flat or recessed into the wall of the colon (nonpolyps). Both polyps and nonpolyps can become cancerous, so doctors recommend screening tests to find and remove lesions in the colon. 
+" Height="492" Title="Precancerous colon lesions" URI="/images/image_popup/c7_colonlesions.jpg" Width="399" />
+				<HTML>
+					Precancerous growths in the colon most commonly appear as clumps of cells (polyps) that extend from the wall of the colon. Precancerous growths can also be flat or recessed into the wall of the colon ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of colon cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Older age.&lt;/strong&gt; About 90 percent of people diagnosed with colon cancer are older than 50. Colon cancer can occur in younger people, but it occurs much less frequently. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;African-American race.&lt;/strong&gt; African-Americans have a greater risk of colon cancer than do people of other races.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A personal history of colorectal cancer or polyps.&lt;/strong&gt; If you&apos;ve already had colon cancer or adenomatous polyps, you have a greater risk of colon cancer in the future. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammatory intestinal conditions.&lt;/strong&gt; Chronic inflammatory diseases of the colon, such as ulcerative colitis and Crohn&apos;s disease, can increase your risk of colon cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited syndromes that increase colon cancer risk.&lt;/strong&gt; Genetic syndromes passed through generations of your family can increase your risk of colon cancer. These syndromes include familial adenomatous polyposis and hereditary nonpolyposis colorectal cancer, which is also known as Lynch syndrome. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of colon cancer and colon polyps.&lt;/strong&gt; You&apos;re more likely to develop colon cancer if you have a parent, sibling or child with the disease. If more than one family member has colon cancer or rectal cancer, your risk is even greater. In some cases, this connection may not be hereditary or genetic. Instead, cancers within the same family may result from shared exposure to an environmental carcinogen or from diet or lifestyle factors. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low-fiber, high-fat diet.&lt;/strong&gt; Colon cancer and rectal cancer may be associated with a diet low in fiber and high in fat and calories. Research in this area has had mixed results. Some studies have found an increased risk of colon cancer in people who eat diets high in red meat. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A sedentary lifestyle.&lt;/strong&gt; If you&apos;re inactive, you&apos;re more likely to develop colon cancer. Getting regular physical activity may reduce your risk of colon cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; People with diabetes and insulin resistance may have an increased risk of colon cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; People who are obese have an increased risk of colon cancer and an increased risk of dying of colon cancer when compared with people considered normal weight. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; People who smoke cigarettes may have an increased risk of colon cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol.&lt;/strong&gt; Heavy use of alcohol may increase your risk of colon cancer. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation therapy for cancer.&lt;/strong&gt; Radiation therapy directed at the abdomen to treat previous cancers may increase the risk of colon cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects you may have colon cancer, you&apos;ll likely be referred to specialists who treat colon cancer. You may meet with a number of specialists, including a: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doctor who treats digestive diseases (gastroenterologist)&lt;/li&gt;
+	&lt;li&gt;Doctor who treats cancer (oncologist)&lt;/li&gt;
+	&lt;li&gt;Doctor who removes colon cancer using surgery (surgeon)&lt;/li&gt;
+	&lt;li&gt;Doctor who uses radiation to treat cancer (radiation oncologist)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to take in all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For colon cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Where is my colon cancer located in my colon?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my colon cancer?&lt;/li&gt;
+	&lt;li&gt;Can you explain my pathology report to me?&lt;/li&gt;
+	&lt;li&gt;Can I have a copy of my pathology report?&lt;/li&gt;
+	&lt;li&gt;Has my colon cancer spread to other parts of my body?&lt;/li&gt;
+	&lt;li&gt;Will I need more tests?&lt;/li&gt;
+	&lt;li&gt;What are the treatment options for my colon cancer?&lt;/li&gt;
+	&lt;li&gt;Will any of the treatments cure my colon cancer?&lt;/li&gt;
+	&lt;li&gt;What is the chance that my colon cancer will be cured?&lt;/li&gt;
+	&lt;li&gt;How much does each treatment increase my chances that my colon cancer will be cured?&lt;/li&gt;
+	&lt;li&gt;What are the potential side effects of each treatment?&lt;/li&gt;
+	&lt;li&gt;How will each treatment affect my daily life?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;What would you recommend to a family member or friend in my same situation?&lt;/li&gt;
+	&lt;li&gt;How much time can I take to make my decision about treatment?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing colon cancer&lt;/strong&gt; &lt;br /&gt;
+If your signs and symptoms indicate that you could have colon cancer, your doctor may recommend one of more tests and procedures, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may order blood tests to better understand what may be causing your signs and symptoms, but there are no blood tests that can detect colon cancer. Blood tests may include a complete blood count and organ-function tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine the inside of your colon.&lt;/strong&gt; Colonoscopy uses a long, flexible and slender tube attached to a video camera and monitor to view your entire colon and rectum. If any suspicious areas are found, your doctor can pass surgical tools through the tube to take tissue samples (biopsies) for analysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using dye and X-rays to make a picture of your colon.&lt;/strong&gt; A barium enema allows your doctor to evaluate your entire colon with an X-ray. Barium, a contrast dye, is placed into your bowel in an enema form. During a double-contrast barium enema, air also is added. The barium fills and coats the lining of the bowel, creating a clear silhouette of your rectum, colon and sometimes a small portion of your small intestine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using multiple CT images to create a picture of your colon.&lt;/strong&gt; Virtual colonoscopy combines multiple computerized tomography (CT) images to create a detailed picture of the inside of your colon. If you&apos;re unable to undergo colonoscopy, your doctor may recommend virtual colonoscopy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging colon cancer&lt;/strong&gt; &lt;br /&gt;
+Once you&apos;ve been diagnosed with colon cancer, your doctor will order tests to determine the extent (stage) of your cancer. Staging helps determine what treatments are most appropriate for you. Staging tests may include imaging procedures such as abdominal and chest CT scans. In many cases, the stage of your cancer may not be determined until after colon cancer surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+The stages of colon cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; Your cancer has grown through the superficial lining (mucosa) of the colon or rectum but hasn&apos;t spread beyond the colon wall or rectum.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Your cancer has grown into or through the wall of the colon or rectum but hasn&apos;t spread to nearby lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Your cancer has invaded nearby lymph nodes but isn&apos;t affecting other parts of your body yet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; Your cancer has spread to distant sites, such as other organs &amp;mdash; for instance to your liver or lung.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colon cancer stages 
+" Caption="At its earliest stage (Stage 0), colon cancer is limited to the inner lining of your colon. As colon cancer progresses, it can grow through your colon and extend to nearby structures. The most advanced stage of colon cancer (Stage IV) indicates cancer has spread to other areas of the body, such as the liver or lungs. 
+" Height="60" Title="Colon cancer stages" URI="/images/image_popup/thumbs/c7_crcstagethu.jpg" Width="60" />
+				<Image Alt="Illustration showing colon cancer stages 
+" Caption="At its earliest stage (Stage 0), colon cancer is limited to the inner lining of your colon. As colon cancer progresses, it can grow through your colon and extend to nearby structures. The most advanced stage of colon cancer (Stage IV) indicates cancer has spread to other areas of the body, such as the liver or lungs. 
+" Height="409" Title="Colon cancer stages" URI="/images/image_popup/c7_crcstage.jpg" Width="400" />
+				<HTML>
+					At its earliest stage (Stage 0), colon cancer is limited to the inner lining of your colon. As colon cancer progresses, it can grow through your colon and extend to nearby structures. The most ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of barium enema 
+" Caption="During a barium enema exam, an X-ray machine takes pictures of the colon while an enema tube inserted in the rectum delivers liquid barium. 
+" Height="60" Title="Barium enema" URI="/images/image_popup/thumbs/hdg7_bariumenemthu.jpg" Width="60" />
+				<Image Alt="Illustration of barium enema 
+" Caption="During a barium enema exam, an X-ray machine takes pictures of the colon while an enema tube inserted in the rectum delivers liquid barium. 
+" Height="362" Title="Barium enema" URI="/images/image_popup/hdg7_bariumenema.jpg" Width="400" />
+				<HTML>
+					During a barium enema exam, an X-ray machine takes pictures of the colon while an enema tube inserted in the rectum delivers liquid barium. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The type of treatment your doctor recommends will depend largely on the stage of your cancer. The three primary treatment options are: surgery, chemotherapy and radiation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for early-stage colon cancer&lt;/strong&gt; &lt;br /&gt;
+If your cancer is small, localized in a polyp and in a very early stage, your doctor may be able to remove it completely during a colonoscopy. If the pathologist determines that the cancer in the polyp doesn&apos;t involve the base &amp;mdash; where the polyp is attached to the bowel wall &amp;mdash; then there&apos;s a good chance that the cancer has been completely eliminated. 
+&lt;/p&gt;
+&lt;p&gt;
+Some larger polyps may be removed using laparoscopic surgery. In this procedure, your surgeon performs the operation through several small incisions in your abdominal wall, inserting instruments with attached cameras that display your colon on a video monitor. The surgeon may also take samples from lymph nodes in the area where the cancer is located. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for invasive colon cancer&lt;/strong&gt; &lt;br /&gt;
+If your colon cancer has grown into or through your colon, your surgeon may recommend a partial colectomy to remove the part of your colon that contains the cancer, along with a margin of normal tissue on either side of the cancer. Nearby lymph nodes are usually also removed and tested for cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Your surgeon is often able to reconnect the healthy portions of your colon or rectum. But when that&apos;s not possible, for instance if the cancer is at the outlet of your rectum, you may need to have a permanent or temporary colostomy. This involves creating an opening in the wall of your abdomen from a portion of the remaining bowel for the elimination of body waste into a special bag. Sometimes the colostomy is only temporary, allowing your colon or rectum time to heal after surgery. In some cases, however, the colostomy may be permanent. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery for advanced cancer&lt;/strong&gt; &lt;br /&gt;
+If your cancer is very advanced or your overall health very poor, your surgeon may recommend an operation to relieve a blockage of your colon or other conditions in order to improve your symptoms. This surgery isn&apos;t done to cure cancer, but instead to relieve signs and symptoms, such as bleeding and pain. 
+&lt;/p&gt;
+&lt;p&gt;
+In specific cases where the cancer has spread only to the liver and if your overall health is otherwise good, your doctor may recommend surgery to remove the cancerous lesion from your liver. Chemotherapy may be used before or after this type of surgery. This treatment may improve your prognosis. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to destroy cancer cells. Chemotherapy can be used to destroy cancer cells after surgery, to control tumor growth or to relieve symptoms of colon cancer. Your doctor may recommend chemotherapy if your cancer has spread beyond the wall of the colon or if your cancer has spread to the lymph nodes. In people with rectal cancer, chemotherapy is typically used along with radiation therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses powerful energy sources, such as X-rays, to kill any cancer cells that might remain after surgery, to shrink large tumors before an operation so that they can be removed more easily, or to relieve symptoms of colon cancer and rectal cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy is rarely used in early-stage colon cancer, but is a routine part of treating rectal cancer, especially if the cancer has penetrated through the wall of the rectum or traveled to nearby lymph nodes. Radiation therapy, usually combined with chemotherapy, may be used after surgery to reduce the risk that the cancer may recur in the area of the rectum where it began. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drug therapy&lt;/strong&gt; &lt;br /&gt;
+Drugs that target specific defects that allow cancer cells to proliferate are available to people with advanced colon cancer, including bevacizumab (Avastin), cetuximab (Erbitux) and panitumumab (Vectibix). Targeted drugs can be given along with chemotherapy or alone. Targeted drugs are typically reserved for people with advanced colon cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people are helped by targeted drugs, while others are not. Researchers are working to determine who is most likely to benefit from targeted drugs. Until then, doctors carefully weigh the limited benefit of targeted drugs against the risk of side effects and the expensive cost when deciding whether to use these treatments. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of partial colectomy surgery for colon cancer 
+" Caption="During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+" Height="60" Title="Partial colectomy" URI="/images/image_popup/thumbs/c7_colectomythu.jpg" Width="60" />
+				<Image Alt="Illustration of partial colectomy surgery for colon cancer 
+" Caption="During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+" Height="439" Title="Partial colectomy" URI="/images/image_popup/c7_colectomy.jpg" Width="400" />
+				<HTML>
+					During a partial colectomy, your surgeon removes the diseased portion of your colon and a small portion of surrounding healthy tissue. Then the surgeon joins the cut ends of the colon. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of colostomy surgery for colon cancer 
+" Caption="In some cases, after the surgeon removes a portion of the colon, it may be necessary to attach the remaining colon to the outside of the body in a procedure called colostomy. Creating a hole (stoma) in the abdominal wall allows waste to leave the body. A colostomy bag attaches to the stoma to collect the waste. 
+" Height="60" Title="Colostomy" URI="/images/image_popup/thumbs/c7_colostomythu.jpg" Width="60" />
+				<Image Alt="Illustration of colostomy surgery for colon cancer 
+" Caption="In some cases, after the surgeon removes a portion of the colon, it may be necessary to attach the remaining colon to the outside of the body in a procedure called colostomy. Creating a hole (stoma) in the abdominal wall allows waste to leave the body. A colostomy bag attaches to the stoma to collect the waste. 
+" Height="400" Title="Colostomy" URI="/images/image_popup/c7_colostomy.jpg" Width="400" />
+				<HTML>
+					In some cases, after the surgeon removes a portion of the colon, it may be necessary to attach the remaining colon to the outside of the body in a procedure called colostomy. Creating a hole (stoma) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No complementary or alternative treatments have been found to cure colon cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Alternative treatments may help you cope with a diagnosis of colon cancer. Nearly all people with cancer experience some distress. Common signs and symptoms of distress after your diagnosis might include sadness, anger, difficulty concentrating, difficulty sleeping and loss of appetite. Alternative treatments may help redirect your thoughts away from your fears, at least temporarily, to give you some relief. 
+&lt;/p&gt;
+&lt;p&gt;
+Alternative treatments that may help relieve distress include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Art therapy&lt;/li&gt;
+	&lt;li&gt;Dance or movement therapy&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Music therapy&lt;/li&gt;
+	&lt;li&gt;Relaxation exercises&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can refer you to professionals who can help you learn about and try these alternative treatments. Tell your doctor if you&apos;re experiencing distress. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of cancer can be extremely challenging. Even when a full recovery is likely, you may worry about a recurrence of the disease. But no matter what your concerns or prognosis, you&apos;re not alone. Here are some strategies and resources that may make dealing with cancer easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what to expect.&lt;/strong&gt; Learn enough about your cancer to feel comfortable making treatment decisions. Ask your doctor to tell you the type and stage of your cancer, as well as your treatment options and their side effects. The more you know, the more confident you&apos;ll be when it comes to making decisions about your own care. Look for information in your local library and on reliable websites. Start with the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a strong support system.&lt;/strong&gt; Friends and family can be your best allies as you face your cancer diagnosis. They often want to help, so take them up on offers to make meals or provide transportation to and from appointments. Sometimes the concern and understanding of a formal support group or other cancer survivors can offer unique emotional support. You may also find you develop deep and lasting bonds with people who are going through the same things you are. There are also support groups for the families of cancer survivors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work at least half time. In fact, many people find that continuing to work can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan ahead for the downtimes when you may need to rest more or limit what you do.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Get screened for colon cancer&lt;/strong&gt; &lt;br /&gt;
+People with an average risk of colon cancer can consider screening beginning at age 50. But people with an increased risk, such as those with a family history of colon cancer, should consider screening sooner. African-Americans and American Indians may begin colon cancer screening at age 45. 
+&lt;/p&gt;
+&lt;p&gt;
+Several screening options exist &amp;mdash; each with its own benefits and drawbacks. Talk about your options with your doctor, and together you can decide which tests are appropriate for you. Options may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Annual fecal occult blood testing&lt;/li&gt;
+	&lt;li&gt;Flexible sigmoidoscopy every five years&lt;/li&gt;
+	&lt;li&gt;Colonoscopy every 10 years&lt;/li&gt;
+	&lt;li&gt;Virtual colonoscopy (CT colonography) every five years&lt;/li&gt;
+	&lt;li&gt;Stool DNA testing &amp;mdash; though this is a new screening approach and it&apos;s not clear how often it should be repeated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+More frequent or earlier screening may be recommended if you&apos;re at increased risk of colon cancer. Discuss the benefits and risks of each screening option with your doctor. You may decide one or more tests are appropriate for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Make lifestyle changes to reduce your risk&lt;/strong&gt; &lt;br /&gt;
+You can take steps to reduce your risk of colon cancer by making changes in your everyday life. Take steps to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a variety of fruits, vegetables and whole grains.&lt;/strong&gt; Fruits, vegetables and whole grains contain vitamins, minerals, fiber and antioxidants, which may play a role in cancer prevention. Choose a variety of fruits and vegetables so that you get an array of vitamins and nutrients.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; If you choose to drink alcohol, limit the amount of alcohol you drink to no more than one drink a day for women and two for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Talk to your doctor about ways to quit that may work for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Try to get at least 30 minutes of exercise on most days. If you&apos;ve been inactive, start slowly and build up gradually to 30 minutes. Also, talk to your doctor before starting any exercise program.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you have a healthy weight, work to maintain your weight by combining a healthy diet with daily exercise. If you need to lose weight, ask your doctor about healthy ways to achieve your goal. Aim to lose weight slowly by increasing the amount of exercise you get and reducing the number of calories you eat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Colon cancer prevention for people with a high risk&lt;/strong&gt; &lt;br /&gt;
+Some treatments, including medications and surgery, have been found to reduce the risk of precancerous polyps or colon cancer. However, not enough evidence exists to recommend these medications to people who have an average risk of colon cancer. If you have an increased risk of colon cancer, discuss the benefits and risks of these preventive treatments with your doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Aspirin.&lt;/strong&gt; Some evidence links a reduced risk of polyps and colon cancer to regular aspirin use. However, studies of low-dose aspirin or short-term use of aspirin haven&apos;t found this to be true. It&apos;s likely that you may be able to reduce your risk of colon cancer by taking large doses of aspirin over a long period of time. But using aspirin in this way carries a risk of side effects, such as gastrointestinal bleeding and ulcers. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other pain relievers.&lt;/strong&gt; Other pain relievers, such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve, others), have also been studied as a way to prevent colon cancer. Some studies have found these other pain relievers may reduce the risk of precancerous polyps and colon cancer. But side effects include ulcers and gastrointestinal bleeding. Some of these other pain relievers have been linked to an increased risk of heart problems. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Celecoxib (Celebrex).&lt;/strong&gt; Celecoxib and other drugs known as COX-2 inhibitors provide pain relief. Some evidence suggests COX-2 drugs can reduce the risk of precancerous polyps in people who&apos;ve been diagnosed with these polyps in the past. But COX-2 drugs carry a risk of heart problems, including heart attack. Two COX-2 inhibitor drugs were removed from the market because of these risks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to prevent cancer.&lt;/strong&gt; In cases of rare, inherited syndromes such as familial adenomatous polyposis, or inflammatory bowel disease such as ulcerative colitis, your doctor may recommend removal of your entire colon and rectum in order to prevent cancer from occurring. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="60" Title="Colonoscopy exam" URI="/images/image_popup/thumbs/hdg7_colonoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing colonoscopy exam 
+" Caption="During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+" Height="362" Title="Colonoscopy exam" URI="/images/image_popup/hdg7_colonoscopy.jpg" Width="400" />
+				<HTML>
+					During a colonoscopy, the doctor inserts a colonoscope into your rectum to check for abnormalities in your entire colon. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of barium enema 
+" Caption="During a barium enema exam, an X-ray machine takes pictures of the colon while an enema tube inserted in the rectum delivers liquid barium. 
+" Height="60" Title="Barium enema" URI="/images/image_popup/thumbs/hdg7_bariumenemthu.jpg" Width="60" />
+				<Image Alt="Illustration of barium enema 
+" Caption="During a barium enema exam, an X-ray machine takes pictures of the colon while an enema tube inserted in the rectum delivers liquid barium. 
+" Height="362" Title="Barium enema" URI="/images/image_popup/hdg7_bariumenema.jpg" Width="400" />
+				<HTML>
+					During a barium enema exam, an X-ray machine takes pictures of the colon while an enema tube inserted in the rectum delivers liquid barium. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of flexible sigmoidoscopy exam 
+" Caption="During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+" Height="60" Title="Sigmoidoscopy exam" URI="/images/image_popup/thumbs/hdg7_sigmoidoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration of flexible sigmoidoscopy exam 
+" Caption="During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+" Height="362" Title="Sigmoidoscopy exam" URI="/images/image_popup/hdg7_sigmoidoscopy.jpg" Width="400" />
+				<HTML>
+					During a flexible sigmoidoscopy exam, the doctor inserts a sigmoidoscope into your rectum to check for abnormalities in your lower colon. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Colon cancer
+	</Title>
+	<Abstract>
+		Colon cancer &amp;mdash; Comprehensive overview covers signs, symptoms and treatment of colon and rectal cancers.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00669" LinkType="Internal" ObjectID="E8230E54-2A5D-9994-E8FAE159020831A4" Title="Lynch syndrome" Url="http://www.mayoclinic.com/health/lynch-syndrome/DS00669" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00141" LinkType="Internal" ObjectID="DF5EAE47-E7FF-0DBD-14C2E4C1FE5519D4" Title="Colectomy" Url="http://www.mayoclinic.com/health/colectomy/MY00141" />
+		<LinkItem ContentType="Video" DocID="MM00366" LinkType="Internal" ObjectID="88F9108D-88B4-462F-B88A06C6BEEE24B9" Title="Video: Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MM00366" />
+		<LinkItem ContentType="Video" DocID="MM00010" LinkType="Internal" ObjectID="823A8C3E-DC96-4AF2-9401E69497BAB3AD" Title="Video: Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MM00010" />
+		<LinkItem ContentType="Answer" DocID="AN02018" LinkType="Internal" ObjectID="55E46151-E885-5896-C20C101CBA801727" Title="Ginger for nausea: Does it work?" Url="http://www.mayoclinic.com/health/ginger-for-nausea/AN02018" />
+		<LinkItem ContentType="Answer" DocID="AN02198" LinkType="Internal" ObjectID="5278B0E8-0C23-0A29-16CBA2B9D389BCDA" Title="Splitting doses: A good strategy for colonoscopy preparation?" Url="http://www.mayoclinic.com/health/colonoscopy-preparation/AN02198" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00624" LinkType="Internal" ObjectID="11107B89-D997-313D-42FD1089A3E98AC3" Title="Virtual colonoscopy" Url="http://www.mayoclinic.com/health/virtual-colonoscopy/MY00624" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00623" LinkType="Internal" ObjectID="11101656-EACC-1242-191B7E1D9DDCDB2B" Title="Stool DNA test" Url="http://www.mayoclinic.com/health/dna-stool-test/MY00623" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00620" LinkType="Internal" ObjectID="110F9DAB-BB0A-C261-8FB120FA054D7EE7" Title="Fecal occult blood test" Url="http://www.mayoclinic.com/health/fecal-occult-blood-test/MY00620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="SlideShow" DocID="MY00612" LinkType="Internal" ObjectID="0FD2D431-A972-ACFC-0DB6582BC92452DE" Title="Slide show: Guide to beans and legumes" Url="http://www.mayoclinic.com/health/beans-and-legumes/MY00612" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="CA00083" LinkType="Internal" ObjectID="0579A73E-E7FF-0DBD-1014915486F5721E" Title="Biopsy: Types of biopsy procedures used to diagnose cancer" Url="http://www.mayoclinic.com/health/biopsy/CA00083" />
+		<LinkItem ContentType="Answer" DocID="AN01970" LinkType="Internal" ObjectID="D0EE0825-F9C7-F0BA-76C16ED2F52A7591" Title="Colon cancer screening: At what age can you stop?" Url="http://www.mayoclinic.com/health/colon-cancer-screening/AN01970" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+		<LinkItem ContentType="Article" DocID="MY00935" LinkType="Internal" ObjectID="9EF996C0-08E9-56AC-FA6C34A6A3A7D0E8" Title="Colon cancer screening: Weighing the options" Url="http://www.mayoclinic.com/health/colon-cancer-screening/MY00935" />
+		<LinkItem ContentType="Article" DocID="SA00072" LinkType="Internal" ObjectID="6BD71FB9-0423-4340-888C6A278454E773" Title="Ostomy: Adapting to life after colostomy, ileostomy or urostomy" Url="http://www.mayoclinic.com/health/ostomy/SA00072" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,412 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00418
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/aortic-valve-stenosis/DS00418
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-13
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1488" Title="Heart valve disease">
+						<Keyword MCVID="1490" Title="Aortic valve">
+							<Keyword MCVID="4262" Title="Aortic valve stenosis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5C3D4352-1DC4-488B-B58E52D198D12BAE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				aortic valve stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic valve
+			</MetaKeyword>
+			<MetaKeyword>
+				aortic stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				aorta
+			</MetaKeyword>
+			<MetaKeyword>
+				heart valve
+			</MetaKeyword>
+			<MetaKeyword>
+				bicuspid aortic valve
+			</MetaKeyword>
+			<MetaKeyword>
+				bicuspid valve
+			</MetaKeyword>
+			<MetaKeyword>
+				heart
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve stenosis &amp;mdash; or aortic stenosis &amp;mdash; occurs when the heart&apos;s aortic valve narrows. This narrowing prevents the valve from opening fully, which obstructs blood flow from your heart into your aorta and onward to the rest of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+When the aortic valve is obstructed, your heart needs to work harder to pump blood to your body. Eventually, this extra work limits the amount of blood it can pump and may weaken your heart muscle, leading to symptoms, such as fatigue and dizziness. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have severe aortic valve stenosis, you&apos;ll usually need surgery to replace the valve. Left untreated, aortic valve stenosis can lead to serious heart problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve stenosis ranges from mild to severe. Aortic valve stenosis signs and symptoms typically develop when narrowing of the valve is severe and can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain (angina) or tightness&lt;/li&gt;
+	&lt;li&gt;Feeling faint or fainting with exertion&lt;/li&gt;
+	&lt;li&gt;Shortness of breath, especially with exertion&lt;/li&gt;
+	&lt;li&gt;Fatigue, especially during times of increased activity&lt;/li&gt;
+	&lt;li&gt;Heart palpitations &amp;mdash; sensations of a rapid, fluttering heartbeat&lt;/li&gt;
+	&lt;li&gt;Heart murmur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The heart-weakening effects of aortic valve stenosis may lead to heart failure. Heart failure signs and symptoms include fatigue, shortness of breath, and swollen ankles and feet. 
+&lt;/p&gt;
+&lt;p&gt;
+Aortic valve stenosis may not produce warning signs right away, making it difficult to detect at first. The condition is often discovered during a routine physical when a doctor hears an abnormal heart sound (heart murmur). This murmur may occur long before other signs and symptoms develop. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on the amount of narrowing, an infant or child with aortic valve stenosis may have no symptoms, may tire easily or may have chest pain with vigorous physical activity. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Aortic valve stenosis usually affects adults, but can occur in children. Infants and children with the condition may experience symptoms similar to those of adults. If you or your child experiences such signs or symptoms, see a doctor &amp;mdash; especially if you or your child has a known heart problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve stenosis is narrowing of the aortic valve. Many things can narrow this passageway between your heart and aorta. Causes of aortic valve stenosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital heart defect.&lt;/strong&gt; The aortic valve consists of three tightly fitting, triangular-shaped flaps of tissue called leaflets. Some children are born with an aortic valve that has only one (unicuspid) or two (bicuspid) leaflets &amp;mdash; not three. This deformity may not cause any problems until adulthood, at which time the valve may begin to narrow or leak and may need to be repaired or replaced. Having a unicuspid or bicuspid aortic valve requires regular evaluation by a doctor to watch for signs of valve problems. In most cases, doctors don&apos;t know why a heart valve fails to develop properly, so it isn&apos;t something you could have prevented.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium buildup on the valve.&lt;/strong&gt; With age, heart valves may accumulate deposits of calcium (aortic valve calcification). Calcium is a mineral found in your blood. As blood repeatedly flows over the aortic valve, deposits of calcium can accumulate on the valve&apos;s leaflets. These deposits may never cause any problems. However, in some people &amp;mdash; particularly those with a bicuspid aortic valve &amp;mdash; calcium deposits result in stiffening of the leaflets of the valve. This stiffening narrows the aortic valve. This cause of aortic valve stenosis is most common in people older than 65, and symptoms often don&apos;t appear until age 70.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatic fever.&lt;/strong&gt; A complication of strep throat infection, rheumatic fever may result in scar tissue forming on the aortic valve. Scar tissue alone can narrow the aortic valve and lead to aortic valve stenosis. Scar tissue can also create a rough surface on which calcium deposits can collect, contributing to aortic valve stenosis later in life. Rheumatic fever may damage more than one heart valve, and in more than one way. A damaged heart valve may not open fully or close fully &amp;mdash; or both. While rheumatic fever is rare in the United States, some older adults had rheumatic fever as children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How your heart works&lt;/strong&gt;&lt;br /&gt;
+Your heart, the center of your circulatory system, consists of four chambers. The two upper chambers, the atria, receive blood. The two lower chambers, the ventricles, pump blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood returning to your heart enters the right upper chamber (right atrium). From there, blood empties into the right ventricle underneath. The right ventricle pumps blood into your lungs, where blood is oxygenated. Blood from your lungs then returns to your heart, but this time to the left side &amp;mdash; to the left upper chamber (left atrium). Blood then flows into the left ventricle &amp;mdash; your heart&apos;s main pump. With each heartbeat, the left ventricle forces blood through the aortic valve into the aorta, your body&apos;s largest artery. 
+&lt;/p&gt;
+&lt;p&gt;
+Blood flows through your heart&apos;s chambers, aided by four heart valves. These valves open and close to let blood flow in only one direction through your heart: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tricuspid valve&lt;/li&gt;
+	&lt;li&gt;Pulmonary valve&lt;/li&gt;
+	&lt;li&gt;Mitral valve&lt;/li&gt;
+	&lt;li&gt;Aortic valve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The aortic valve &amp;mdash; your heart&apos;s gateway to the aorta &amp;mdash; consists of three tightly fitting, triangular-shaped flaps of tissue called leaflets. These leaflets connect to the aorta via a ring called the annulus. 
+&lt;/p&gt;
+&lt;p&gt;
+Heart valves open like a one-way gate. The leaflets of the aortic valve are forced open as the left ventricle contracts and blood flows into the aorta. When all of the left ventricular blood has gone through the valve and the left ventricle has relaxed, the leaflets swing closed to prevent the blood that has just passed into the aorta from flowing back into the left ventricle. 
+&lt;/p&gt;
+&lt;p&gt;
+A defective heart valve is one that fails to either open or close fully. When a valve doesn&apos;t close tightly, blood can leak backward. This backward flow through a valve is called regurgitation. When a valve narrows, the condition is called stenosis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal heart and aortic valve stenosis
+" Caption="Aortic valve stenosis is a defect that narrows or obstructs the aortic valve opening, making it difficult for the heart to pump blood into the aorta. Mild cases may not have symptoms initially, but they can worsen over time.
+" Height="60" Title="Normal heart and aortic valve stenosis" URI="/images/image_popup/thumbs/r7_aorticstenosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal heart and aortic valve stenosis
+" Caption="Aortic valve stenosis is a defect that narrows or obstructs the aortic valve opening, making it difficult for the heart to pump blood into the aorta. Mild cases may not have symptoms initially, but they can worsen over time.
+" Height="400" Title="Normal heart and aortic valve stenosis" URI="/images/image_popup/r7_aorticstenosis.jpg" Width="400" />
+				<HTML>
+					Aortic valve stenosis is a defect that narrows or obstructs the aortic valve opening, making it difficult for the heart to pump blood into the aorta. Mild cases may not have symptoms initially, but ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve stenosis isn&apos;t considered preventable. Some risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A deformed aortic valve.&lt;/strong&gt; Some people are born with an already narrowed aortic valve or develop aortic valve stenosis later in life because they were born with a bicuspid aortic valve &amp;mdash; one with two flaps (leaflets) instead of three. A bicuspid aortic valve is a major risk factor for aortic valve stenosis. A bicuspid aortic valve can run in families, so knowing your family history is important. If you have a first-degree relative &amp;mdash; a parent, sibling or child &amp;mdash; with a bicuspid aortic valve, it is reasonable to check to see if you have this abnormality.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Aortic valve stenosis may be related to increasing age and the buildup of calcium deposits on heart valves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous rheumatic fever.&lt;/strong&gt; Rheumatic fever can cause the flaps (leaflets) of your aortic valve to stiffen and fuse, eventually resulting in aortic valve stenosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Risk factors for aortic valve stenosis and atherosclerotic heart disease &amp;mdash; such as high blood pressure, high cholesterol, type 2 diabetes and smoking &amp;mdash; may indicate a link between the two. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Aortic valve stenosis &amp;mdash; of any cause &amp;mdash; can be a serious condition because it can weaken the heart. If the aortic valve is narrowed, the left ventricle has to work harder to pump a sufficient amount of blood into the aorta and onward to the rest of your body. In response, the left ventricle may thicken and enlarge. At first these adaptations help the left ventricle pump blood with more force. But eventually these changes weaken the left ventricle &amp;mdash; and your heart overall. 
+&lt;/p&gt;
+&lt;p&gt;
+Left unchecked, aortic valve stenosis can lead to life-threatening heart problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain (angina)&lt;/li&gt;
+	&lt;li&gt;Fainting (syncope)&lt;/li&gt;
+	&lt;li&gt;Heart failure&lt;/li&gt;
+	&lt;li&gt;Irregular heart rhythms (arrhythmias)&lt;/li&gt;
+	&lt;li&gt;Cardiac arrest&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor. After your initial appointment, your doctor may refer you to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other recent health problems you&apos;ve had and the names of any prescription and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your doctor at your initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my signs or symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these signs or symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Should I follow any restrictions in the time leading up to my appointment with a cardiologist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you are referred to a cardiologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is my diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what procedure is most likely to be successful in my case? Why?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what will my recovery be like?&lt;/li&gt;
+	&lt;li&gt;If you don&apos;t think I need immediate treatment, how will you determine the right time to treat my condition?&lt;/li&gt;
+	&lt;li&gt;How frequently will you see me for follow-up visits?&lt;/li&gt;
+	&lt;li&gt;What is my risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;What restrictions do I need to follow?&lt;/li&gt;
+	&lt;li&gt;Will physical activity, including sexual activity, increase my risk of complications?&lt;/li&gt;
+	&lt;li&gt;What diet and lifestyle changes should I make?&lt;/li&gt;
+	&lt;li&gt;I have these other health problems. How can I best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+A doctor who sees you for possible aortic valve stenosis may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include rapid, fluttering or pounding heartbeats?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include dizziness?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Have you ever coughed up blood?&lt;/li&gt;
+	&lt;li&gt;Does exercise or physical exertion make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Have you ever knowingly had rheumatic fever?&lt;/li&gt;
+	&lt;li&gt;Are you being treated or have you recently been treated for any other health conditions?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or caffeine? How much?&lt;/li&gt;
+	&lt;li&gt;Are you planning to become pregnant in the future?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any close relatives have been diagnosed with cardiac disease. The symptoms of aortic valve stenosis are similar to a number of other heart conditions, including some that tend to run in families. Knowing as much as possible about your family&apos;s health history will help your doctor determine next steps for your diagnosis and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+If exercise makes your symptoms worse, avoid exerting yourself physically until you&apos;ve been seen by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As part of a routine physical, your doctor uses a stethoscope to listen to your heart. He or she is listening for, among other things, an abnormal heart sound (heart murmur). 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor discovers a heart murmur, he or she will discuss it with you. Many heart conditions, including aortic valve stenosis, can produce a heart murmur. In the case of aortic valve stenosis, the heart murmur results from turbulent blood flow through the narrowed valve. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests&lt;/strong&gt;&lt;br /&gt;
+If your doctor suspects that you or your child may have a deformed or narrowed aortic valve, you may need to undergo several tests to confirm the diagnosis and gauge the severity of the problem. You may be referred to a cardiologist &amp;mdash; a doctor who specializes in the study of the heart and its function &amp;mdash; for tests such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this test, patches with wires (electrodes) are attached to your skin to measure the electrical impulses given off by your heart. Impulses are recorded as waves displayed on a monitor or printed on paper. An ECG can provide clues about whether the left ventricle is thickened or enlarged, a problem which can occur with aortic valve stenosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; An X-ray image of your chest allows your doctor to check the size and shape of your heart, to determine whether the left ventricle is enlarged &amp;mdash; a possible indicator of aortic valve stenosis. A chest X-ray can also reveal calcium deposits on the aortic valve. In addition, a chest X-ray helps your doctor check the condition of your lungs. Aortic valve stenosis may lead to blood and fluid backing up in your lungs, which causes congestion that may be visible on an X-ray.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test uses sound waves to produce an image of your heart. In an echocardiogram, sound waves are directed at your heart from a wand-like device (transducer) held on your chest. The sound waves bounce off your heart and are reflected back through your chest wall and processed electronically to provide video images of your heart. An echocardiogram helps your doctor closely examine the aortic valve to check for problems. A specific type of echocardiogram, a Doppler echocardiogram, may be used to help your doctor determine the severity of your aortic valve stenosis and to check for any leakage (regurgitation).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; Your doctor may order this procedure if noninvasive tests haven&apos;t provided enough information to firmly diagnose the type or severity of your heart condition.&lt;em&gt; &lt;/em&gt;Your doctor threads a thin tube (catheter) through an artery in your arm or groin to an artery in your heart. A dye injected through the catheter fills your heart&apos;s arteries, and the arteries become visible on an X-ray. This test helps show blockages in arteries to your heart that can coexist with aortic valve stenosis and may need surgical treatment along with aortic valve stenosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These tests and others help your doctor determine how narrow or tight your aortic valve may be and how well your heart is pumping. Once aortic valve stenosis is discovered, your doctor will either recommend treatment or suggest careful monitoring. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Medications sometimes can ease symptoms of aortic valve stenosis. However, the only way to eliminate aortic valve stenosis is surgery to repair or replace the valve and open up the passageway. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery isn&apos;t always needed right away. If tests reveal that you have mild to moderate aortic valve stenosis and you have no symptoms, your doctor will schedule checkups to carefully monitor the valve so that surgery can be done at the appropriate time. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, surgery is necessary when narrowing becomes severe and symptoms develop. Some people never develop severe aortic valve stenosis, so they never need surgery. For others, the condition gets worse and surgery is necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+No medications can reverse aortic valve stenosis. However, your doctor may prescribe certain medications to help your heart, such as ones to control heart rhythm disturbances associated with aortic valve stenosis. Lowering blood pressure or cholesterol may prevent or slow the development of aortic stenosis. Ask your doctor if you need to lower your cholesterol or blood pressure with medications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Procedures&lt;/strong&gt;&lt;br /&gt;
+You may need valve repair or replacement to treat aortic valve stenosis. Although less invasive approaches are possible in some cases, surgery is the primary treatment for this condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Therapies to repair or replace the aortic valve include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Balloon valvuloplasty (valvotomy).&lt;/strong&gt; Occasionally, repairing the aortic valve is an option. Balloon valvuloplasty uses a soft, thin tube (catheter) tipped with a balloon. A doctor guides the catheter through a blood vessel in your arm or groin to your heart and into your narrowed aortic valve. Once in position, a balloon at the tip of the catheter is inflated. The balloon pushes open the aortic valve and stretches the valve opening, improving blood flow. The balloon is then deflated and the catheter with balloon is guided back out of your body. Balloon valvuloplasty may relieve aortic valve stenosis and its symptoms, especially in infants and children. However, in adults, the procedure isn&apos;t usually successful, and the valve tends to narrow again even after initial success. For these reasons, doctors rarely use balloon valvuloplasty today to treat aortic valve stenosis in adults, except in people who are too sick to undergo surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aortic valve replacement.&lt;/strong&gt; This is the primary surgical treatment for aortic valve stenosis. Your surgeon removes the narrowed aortic valve and replaces it with a mechanical valve or a tissue valve. Mechanical valves, made from metal, are durable, but they carry the risk of blood clots forming on or near the valve. If you receive a mechanical valve, you&apos;ll need to take an anticoagulant medication, such as warfarin (Coumadin), for life to prevent blood clots. Tissue valves &amp;mdash; which may come from a pig, cow or human deceased donor &amp;mdash; often eventually need to be replaced. Another type of tissue valve replacement that uses your own pulmonary valve (autograft) is sometimes possible. Your doctor can discuss the risks and benefits of each type of heart valve with you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Transcatheter aortic valve replacement (TAVR). &lt;/strong&gt;Aortic valve replacement, the most common treatment for aortic valve stenosis, has traditionally been performed with open-heart surgery. A less invasive approach &amp;mdash; transcatheter aortic valve replacement &amp;mdash; involves replacing the aortic valve with a prosthetic valve via the femoral artery in your leg (transfemoral) or the left ventricular apex of your heart (transapical). TAVR is usually reserved for individuals at increased risk of complications from aortic valve surgery. TAVR is sometimes referred to as transcatheter aortic valve implantation (TAVI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical valvuloplasty.&lt;/strong&gt; In rare cases, surgical repair may be a more effective option than balloon valvuloplasty, such as&lt;strong&gt; &lt;/strong&gt;in infants born with an aortic valve in which the leaflets of the valve are fused together. Using traditional surgical tools, a cardiac surgeon operates on the valve and separates these leaflets to reduce stenosis and improve blood flow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Aortic valve stenosis can be treated effectively with surgery. However, you may still be at risk of irregular heart rhythms even after you&apos;ve been treated for aortic valve stenosis. You may need to take medications to lower that risk. If your heart has become weakened from aortic stenosis, you may need medications to treat heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had aortic valve replacement surgery, you may need to take antibiotics before certain dental or medical procedures due to the risk of infection in your heart tissue (endocarditis). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some possible ways to prevent aortic valve stenosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take steps to prevent rheumatic fever.&lt;/strong&gt; You can do this by making sure you see your doctor when you have a sore throat. Untreated strep throat can develop into rheumatic fever. Fortunately, strep throat can usually be easily treated with antibiotics.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Address risk factors for coronary artery disease.&lt;/strong&gt; These include high blood pressure, obesity and high cholesterol levels. These factors have been linked to aortic valve stenosis, so it&apos;s a good idea to keep your weight, blood pressure and cholesterol levels under control if you have aortic valve stenosis. Lowering your cholesterol may be especially important in preventing aortic stenosis or slowing its progression.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your teeth and gums.&lt;/strong&gt; There may be a link between infected gums (gingivitis) and infected heart tissue (endocarditis). Inflammation of heart tissue caused by infection can narrow arteries and aggravate aortic stenosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once you know that you have aortic valve stenosis, your doctor may recommend that you limit strenuous activity to avoid overworking your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re a woman of childbearing age with aortic valve stenosis, discuss pregnancy and family planning with your doctor before you become pregnant. Your heart works harder during pregnancy. How a heart with aortic valve stenosis tolerates this extra work depends on the degree of stenosis and how well your heart pumps. Should you become pregnant, you&apos;ll need evaluation by your cardiologist and obstetrician throughout your pregnancy, labor and delivery, and after delivery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Aortic valve stenosis
+	</Title>
+	<Abstract>
+		Aortic valve stenosis &amp;mdash; Comprehensive overview covers symptoms and treatment of this heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00095" LinkType="Internal" ObjectID="BAF12946-E7FF-0DBD-179DCBB51F6B464B" Title="Echocardiogram" Url="http://www.mayoclinic.com/health/echocardiogram/MY00095" />
+		<LinkItem ContentType="Answer" DocID="AN00511" LinkType="Internal" ObjectID="0BF922B6-E07F-4512-9DBA61A7A324FAA1" Title="Doppler ultrasound: What is it used for?" Url="http://www.mayoclinic.com/health/doppler-ultrasound/AN00511" />
+		<LinkItem ContentType="Article" DocID="HB00086" LinkType="Internal" ObjectID="14402C30-E7FF-0DBD-16C3B540B7EC2945" Title="Flu shots: Especially important if you have heart disease" Url="http://www.mayoclinic.com/health/flu-shots/HB00086" />
+		<LinkItem ContentType="Answer" DocID="HQ00245" LinkType="Internal" ObjectID="A038E013-B5B7-441E-987315C016877AFB" Title="Aortic calcification: An early sign of heart valve problems?" Url="http://www.mayoclinic.com/health/aortic-valve-calcification/HQ00245" />
+		<LinkItem ContentType="Disease" DocID="DS00727" LinkType="Internal" ObjectID="934C1A15-2A5D-9994-E62A0AD369FFE1FF" Title="Heart murmurs" Url="http://www.mayoclinic.com/health/heart-murmurs/DS00727" />
+		<LinkItem ContentType="Disease" DocID="DS00120" LinkType="Internal" ObjectID="7B64CC94-AFDF-42DA-BE3EBAA687DE024A" Title="Migraine" Url="http://www.mayoclinic.com/health/migraine-headache/DS00120" />
+	</RelatedLinksBox>
+</Disease>

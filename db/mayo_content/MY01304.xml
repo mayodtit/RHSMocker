@@ -1,0 +1,238 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01304
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mohs-surgery/MY01304
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-25
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="4162" Title="Surgery">
+							<Keyword MCVID="4702" Title="Mohs surgery" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			65329962-9362-DEE8-4A2B81FF86331B19
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mohs surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				mohs micrographic surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				sugery mohs
+			</MetaKeyword>
+			<MetaKeyword>
+				skin cancer surgery
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mohs surgery is a precise surgical technique used to treat skin cancer. During Mohs surgery, layers of cancer-containing skin are progressively removed and examined until only cancer-free tissue remains. Mohs surgery is also known as Mohs micrographic surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+The goal of Mohs surgery is to remove as much of the skin cancer as possible, while doing minimal damage to surrounding healthy tissue. Mohs surgery is usually done on an outpatient basis using a local anesthetic. 
+&lt;/p&gt;
+&lt;p&gt;
+Mohs surgery is an improvement to standard surgery (local excision), which involves removing the visible cancer and a small margin of healthy tissue all at once. Mohs surgery allows surgeons to verify that all cancer cells have been removed at the time of surgery. This increases the chance of a cure and reduces the need for additional treatments or additional surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mohs surgery is used to treat the most common skin cancers, basal cell carcinoma and squamous cell carcinoma, as well as some kinds of melanoma and other more unusual skin cancers. Mohs surgery is especially useful for skin cancers that: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have a high risk of recurrence or that have recurred after previous treatment&lt;/li&gt;
+	&lt;li&gt;Are located in areas where you want to preserve as much healthy tissue as possible, such as the eyes, ears, nose, mouth, hairline, hands, feet and genitals&lt;/li&gt;
+	&lt;li&gt;Have borders that are hard to define&lt;/li&gt;
+	&lt;li&gt;Are large or aggressive&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As with any surgical procedure, Mohs surgery carries the risk of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding from the wound&lt;/li&gt;
+	&lt;li&gt;Bleeding into the wound (hematoma)&lt;/li&gt;
+	&lt;li&gt;Pain or tenderness around the surgical site&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your surgeon may recommend pain relievers after the procedure to help manage any pain. Infection is uncommon but can usually be treated with oral antibiotics. 
+&lt;/p&gt;
+&lt;p&gt;
+Other complications that may result from Mohs surgery are uncommon but may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Temporary or permanent numbness surrounding the surgical area, if small nerve endings are cut&lt;/li&gt;
+	&lt;li&gt;Temporary or permanent weakness of the surgical area, if the tumor is large and a muscle nerve is severed&lt;/li&gt;
+	&lt;li&gt;Itching or shooting pain in the affected area&lt;/li&gt;
+	&lt;li&gt;An enlarged scar (keloid)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Selecting a Mohs surgeon&lt;/strong&gt; &lt;br /&gt;
+Mohs surgery can be technically challenging. Any dermatologist can perform Mohs surgery, since dermatologists learn about Mohs surgery in their medical training. Some Mohs surgeons have undergone specialized training &amp;mdash; called a fellowship &amp;mdash; to learn more about Mohs surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Selecting an experienced Mohs surgeon who has completed a fellowship may reduce your risk of complications or errors during surgery. Ask your doctor about his or her qualifications and experience performing Mohs surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Preparing for surgery&lt;/strong&gt; &lt;br /&gt;
+Your surgeon may recommend ways you can prepare for your surgery. You may be asked to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop taking certain medications.&lt;/strong&gt; Let your surgeon know of any medications or supplements you&apos;re taking, including any blood-thinning medications, such as warfarin (Coumadin), clopidogrel (Plavix) or aspirin. Some supplements &amp;mdash; vitamin E, ginkgo, ginger and others &amp;mdash; may affect your chances of bleeding after surgery, so make sure your surgeon knows about those, too. Continue taking any prescription medications as instructed unless your surgeon tells you otherwise.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Clear your schedule for the day.&lt;/strong&gt; It&apos;s not possible to predict how long Mohs surgery will take. For most people, the procedure takes less than four hours. But your surgeon may advise you to plan as though surgery will take all day, since there&apos;s a very small chance it could take that long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear comfortable clothing.&lt;/strong&gt; Wear casual clothes that are comfortable. Dress in layers so you can easily adapt if the room is warm or cold.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring something to help pass the time.&lt;/strong&gt; Expect some waiting time during your Mohs surgery. Plan ahead by bringing a book, magazine or other activity to help you pass the time.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mohs surgery is done on an outpatient basis in an operating room or procedure room that has a nearby laboratory that allows the surgeon to examine the tissue after it&apos;s removed. 
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, the procedure lasts about four hours. But since it can be difficult to tell how extensive a skin tumor is just by looking at its surface, doctors often advise reserving the whole day for the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+You likely won&apos;t have to change into a surgical gown unless the location of the tumor requires it. To prepare you for surgery, your surgeon or a nurse cleanses the area to be operated on, outlines it with a special pen and injects the area with a local anesthetic. The anesthetic numbs the skin, so you won&apos;t feel anything during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+Once the anesthetic has taken effect, your surgeon uses a scalpel to remove the visible portion of the cancer along with a thin, underlying layer of tissue that&apos;s slightly larger than the visible tumor. A temporary bandage is placed on your incision. This takes only a few minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgeon then takes this tissue to the laboratory for analysis. This portion of the procedure typically takes the longest amount of time. 
+&lt;/p&gt;
+&lt;p&gt;
+Expect to wait about an hour or so in a waiting room for the surgeon to return. It may help to bring a book or magazine to pass the time. You&apos;ll be able to use the restroom or have a snack, if you need to, but you won&apos;t be able to leave the surgeon&apos;s office until the procedure is complete. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re waiting, the surgeon or technician cuts the tissue sample into sections and examines them with a microscope. Your surgeon takes great care to keep track of the exact spot where each piece of tissue was removed. That way, if a small area of cancer is found in one piece of tissue, the surgeon knows precisely where to continue with the surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+If cancer remains, your Mohs surgery will continue. Your surgeon removes an additional layer of tissue from the affected area, taking care to remove tissue that contains cancer while leaving as much healthy tissue as possible intact. Again, you&apos;ll wait while the surgeon examines the tissue in the laboratory. 
+&lt;/p&gt;
+&lt;p&gt;
+The process is repeated until the last tissue sample removed is cancer-free. Local anesthetic can be re-administered as necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After all of the cancer has been removed, you and your surgeon can decide on how to repair the wound. Depending on the extent of the operation, this might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Letting the wound heal on its own&lt;/li&gt;
+	&lt;li&gt;Using stitches to close the wound&lt;/li&gt;
+	&lt;li&gt;Using a skin graft from another part of the body, such as behind the ear, to cover the wound&lt;/li&gt;
+	&lt;li&gt;Shifting skin from an adjacent area (skin flap) to cover the wound&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the surgical area is extensive or complex, your surgeon may temporarily close your wound and then refer you to another surgeon for reconstructive surgery to repair the wound. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+One of the advantages of Mohs surgery is that you know your results right away and you usually don&apos;t leave your appointment until all of the skin cancer has been removed. You may have a follow-up visit with your surgeon or referring doctor to monitor your recovery to make sure your wound is healing properly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up exams to look for additional skin cancer&lt;/strong&gt; &lt;br /&gt;
+Though Mohs surgery has a high rate of cure for skin cancer, you will always have a small risk of cancer recurrence or of developing another skin cancer. People who have been diagnosed with skin cancer have an increased risk of developing skin cancer again, compared with people who have never had skin cancer. As many as half of the people diagnosed with the most common types of skin cancer will develop another skin cancer again within five years. 
+&lt;/p&gt;
+&lt;p&gt;
+Plan to undergo regular follow-up visits with your skin doctor or family doctor to spot any new skin cancer. Ask your skin doctor to create a follow-up schedule for you. How often you&apos;ll undergo follow-up skin exams depends on your diagnosis. Expect to have skin exams at least once or twice a year, and more often if your cancer was aggressive or is more likely to recur. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mohs surgery
+	</Title>
+	<Abstract>
+		Mohs surgery &amp;mdash; Comprehensive overview covers definition, risks, what to expect during this skin cancer procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00925" LinkType="Internal" ObjectID="E3F63DEC-E7FF-0DBD-11653EB445E6D500" Title="Basal cell carcinoma" Url="http://www.mayoclinic.com/health/basal-cell-carcinoma/DS00925" />
+		<LinkItem ContentType="Disease" DocID="DS00190" LinkType="Internal" ObjectID="81E0130C-ACF2-4643-808CF68E16384B08" Title="Skin cancer" Url="http://www.mayoclinic.com/health/skin-cancer/DS00190" />
+	</RelatedLinksBox>
+</TestProcedure>

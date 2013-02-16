@@ -1,0 +1,105 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02150
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rop-treatment/AN02150
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-10
+		</UpdateDate>
+		<PublicationDate>
+			2011-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="2081" Title="Premature baby" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4043" Title="Premature birth" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8CC94232-BE3D-F3C8-D715493BA52E6688
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ROP treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				ROP
+			</MetaKeyword>
+			<MetaKeyword>
+				retinopathy of prematurity
+			</MetaKeyword>
+			<MetaKeyword>
+				Avastin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+An anti-cancer drug, bevacizumab (Avastin), is shaping up to be an effective alternative to laser surgery in retinopathy of prematurity (ROP), an eye disease that affects many premature babies. 
+&lt;/p&gt;
+&lt;p&gt;
+Retinopathy of prematurity (ROP) generally affects preterm infants born before week 31 of pregnancy and weighing 2.75 pounds (1250 grams) or less at birth. In most cases, ROP resolves without treatment, causing no damage. Advanced ROP, however, can cause permanent vision problems or blindness. 
+&lt;/p&gt;
+&lt;p&gt;
+In ROP, blood vessels swell and overgrow in the light-sensitive layer of nerves at the back of the eye (retina). When the condition is advanced, the abnormal retinal vessels extend into the jelly-like substance (vitreous) that fills the center of the eye. Bleeding from these vessels may scar the retina and stress its attachment to the back of the eye, causing partial or complete retinal detachment. Laser surgery, the standard treatment for advanced ROP, saves sight in the main part of the visual field, but at the cost of side (peripheral) vision. Laser surgery also requires general anesthesia, which may be risky for preterm infants.
+&lt;/p&gt;
+&lt;p&gt;
+The new ROP treatment, bevacizumab, has Food and Drug Administration approval for treating certain cancers. The drug works by blocking the growth of blood vessels that tumors generate to sustain themselves. Bevacizumab is also widely used to curb the overgrowth of retinal blood vessels in two serious adult eye diseases, wet macular degeneration and advanced diabetic retinopathy. 
+&lt;/p&gt;
+&lt;p&gt;
+In a clinical trial comparing the effectiveness of a single bevacizumab eye injection to that of laser surgery in 150 preterm infants with ROP, the bevacizumab injection worked as well as did laser surgery. Blood vessels resumed normal growth throughout the retina in the babies who received bevacizumab. Because the bevacizumab-treated infants did not have laser surgery, their peripheral vision was less likely to be impaired. Also, fewer recurrences of ROP after treatment occurred in infants who received the injection than in those who had laser surgery.
+&lt;/p&gt;
+&lt;p&gt;
+Further research should help identify the ROP stage and level of severity most likely to benefit from bevacizumab injection. In a few reports, injecting the drug when the retina was already partially detached led to complete retinal detachment. Data about the long-term safety of bevacizumab in ROP also remain incomplete. Although bevacizumab doesn&apos;t seem to leak out of the retina, there is concern that the drug might slow down the formation of normal blood vessels in other parts of a baby&apos;s body. The studies done so far have not shown this effect, but more research and follow-up are needed to determine which ROP treatment is best for a given patient. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		ROP treatment: What&apos;s the latest approach?
+	</Title>
+	<Abstract>
+		New ROP treatment emerges, backed by research comparing laser surgery to injected drug.
+	</Abstract>
+	<Question>
+		What&apos;s new in the treatment of retinopathy of prematurity?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

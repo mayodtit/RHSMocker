@@ -1,0 +1,375 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00572
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polio/DS00572
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-05
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2550" Title="Polio" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DE83D998-ADFC-4A78-8178E5053B525C05
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polio
+			</MetaKeyword>
+			<MetaKeyword>
+				poliomyelitis
+			</MetaKeyword>
+			<MetaKeyword>
+				paralysis
+			</MetaKeyword>
+			<MetaKeyword>
+				infantile paralysis
+			</MetaKeyword>
+			<MetaKeyword>
+				paralytic polio
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal paralysis
+			</MetaKeyword>
+			<MetaKeyword>
+				IPV
+			</MetaKeyword>
+			<MetaKeyword>
+				OPV
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polio is a contagious viral illness that in its most severe form causes paralysis, difficulty breathing and sometimes death. 
+&lt;/p&gt;
+&lt;p&gt;
+In the U.S., the last case of naturally occurring polio happened in 1979. Today, despite a concerted global eradication campaign, poliovirus continues to affect children and adults in Afghanistan, India, Nigeria and Pakistan. 
+&lt;/p&gt;
+&lt;p&gt;
+The Centers for Disease Control and Prevention (CDC) advises taking precautions to protect against polio if you&apos;re traveling anywhere there&apos;s a risk of polio. If you&apos;re a previously vaccinated adult who plans to travel to an area where polio is occurring, you should receive a booster dose of inactivated poliovirus (IPV). Immunity following a booster dose lasts a lifetime. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although polio can cause paralysis and death, the vast majority of people who are infected with the poliovirus don&apos;t become sick and are never aware they&apos;ve been infected with polio. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonparalytic polio&lt;/strong&gt; &lt;br /&gt;
+Some people who develop symptoms from the poliovirus contract nonparalytic polio &amp;mdash; a type of polio that doesn&apos;t lead to paralysis (abortive polio). This usually causes the same mild, flu-like signs and symptoms typical of other viral illnesses. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms, which generally last one to 10 days, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Back pain or stiffness&lt;/li&gt;
+	&lt;li&gt;Neck pain or stiffness&lt;/li&gt;
+	&lt;li&gt;Pain or stiffness in the arms or legs&lt;/li&gt;
+	&lt;li&gt;Muscle spasms or tenderness&lt;/li&gt;
+	&lt;li&gt;Meningitis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Paralytic polio&lt;/strong&gt; &lt;br /&gt;
+In rare cases, poliovirus infection leads to paralytic polio, the most serious form of the disease. Paralytic polio has several types, based on the part of your body that&apos;s affected &amp;mdash; your spinal cord (spinal polio), your brainstem (bulbar polio) or both (bulbospinal polio). 
+&lt;/p&gt;
+&lt;p&gt;
+Initial signs and symptoms of paralytic polio, such as fever and headache, often mimic those of nonparalytic polio. Within a week, however, signs and symptoms specific to paralytic polio appear, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of reflexes&lt;/li&gt;
+	&lt;li&gt;Severe muscle aches or spasms&lt;/li&gt;
+	&lt;li&gt;Loose and floppy limbs (flaccid paralysis), often worse on one side of the body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The onset of paralysis may be sudden. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Post-polio syndrome&lt;/strong&gt; &lt;br /&gt;
+Post-polio syndrome is a cluster of disabling signs and symptoms that affect some people for decades &amp;mdash; an average of 25 to 35 years &amp;mdash; after they had polio. Common signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Progressive muscle or joint weakness and pain&lt;/li&gt;
+	&lt;li&gt;General fatigue and exhaustion after minimal activity&lt;/li&gt;
+	&lt;li&gt;Muscle atrophy&lt;/li&gt;
+	&lt;li&gt;Breathing or swallowing problems&lt;/li&gt;
+	&lt;li&gt;Sleep-related breathing disorders, such as sleep apnea&lt;/li&gt;
+	&lt;li&gt;Decreased tolerance of cold temperatures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Be sure to check with your doctor for polio vaccination recommendations before traveling to a part of the world where polio may still occur naturally, or where oral polio vaccine (OPV) is still used, such as Central and South America, Africa and Asia. In countries that use the OPV &amp;mdash; vaccine made with live, but weakened (attenuated) polio virus &amp;mdash; the risk of paralytic polio to travelers is extremely low, but not zero. 
+&lt;/p&gt;
+&lt;p&gt;
+Additionally, call your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your child hasn&apos;t completed the series of polio vaccinations&lt;/li&gt;
+	&lt;li&gt;Your child experiences an allergic reaction after receiving polio vaccine&lt;/li&gt;
+	&lt;li&gt;Your child has problems other than a mild redness or soreness at the vaccine injection site&lt;/li&gt;
+	&lt;li&gt;You have questions about adult vaccination or other concerns about polio immunization&lt;/li&gt;
+	&lt;li&gt;You had polio years ago and are now experiencing unexplained weakness and fatigue&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a nerve cell (neuron), showing axon and dendrites
+" Caption="Each nerve cell (neuron) consists of four basic components: a neuron cell body, a nucleus, a major branching fiber (axon) and numerous smaller branching fibers (dendrites). Nerve cells communicate with adjacent nerve cells at contact points called synapses. Poliovirus can damage or destroy nerve cells that carry messages between the brain and muscles.
+" Height="60" Title="Nerve cell (neuron)" URI="/images/image_popup/thumbs/r7_neuronthu.jpg" Width="60" />
+				<Image Alt="Illustration of a nerve cell (neuron), showing axon and dendrites
+" Caption="Each nerve cell (neuron) consists of four basic components: a neuron cell body, a nucleus, a major branching fiber (axon) and numerous smaller branching fibers (dendrites). Nerve cells communicate with adjacent nerve cells at contact points called synapses. Poliovirus can damage or destroy nerve cells that carry messages between the brain and muscles.
+" Height="465" Title="Nerve cell (neuron)" URI="/images/image_popup/r7_neuron.jpg" Width="400" />
+				<HTML>
+					Each nerve cell (neuron) consists of four basic components: a neuron cell body, a nucleus, a major branching fiber (axon) and numerous smaller branching fibers (dendrites). Nerve cells communicate ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The poliovirus resides only in humans and enters the environment in the feces of someone who&apos;s infected. Poliovirus spreads primarily through the fecal-oral route, especially in areas where sanitation is inadequate. 
+&lt;/p&gt;
+&lt;p&gt;
+Poliovirus can be transmitted through contaminated water and food or through direct contact with someone infected with the virus. Polio is so contagious that anyone living with a recently infected person is likely to become infected, too. People carrying the poliovirus can spread the virus for weeks in their feces. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re at greatest risk of polio if you haven&apos;t been immunized against the disease. In areas with poor sanitation and sporadic or nonexistent immunization programs, the most vulnerable members of the population &amp;mdash; pregnant women, the very young and those with weakened immune systems &amp;mdash; are especially susceptible to poliovirus. 
+&lt;/p&gt;
+&lt;p&gt;
+These factors also increase your risk if you haven&apos;t been vaccinated: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Travel to an area where polio is common or that has recently experienced an outbreak&lt;/li&gt;
+	&lt;li&gt;Living with or caring for someone who may be shedding poliovirus&lt;/li&gt;
+	&lt;li&gt;Handling laboratory specimens that contain live poliovirus&lt;/li&gt;
+	&lt;li&gt;A compromised immune system, such as occurs with HIV infection&lt;/li&gt;
+	&lt;li&gt;Having had your tonsils removed (tonsillectomy)&lt;/li&gt;
+	&lt;li&gt;Extreme stress or strenuous physical activity after being exposed to poliovirus, both of which can depress your immune system &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Paralytic polio can lead to temporary or permanent muscle paralysis, disability, and deformities of the hips, ankles and feet. Although many deformities can be corrected with surgery and physical therapy, these treatments may not be options in developing nations where polio is still endemic. As a result, children who survive polio may spend their lives with severe disabilities.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your doctor if you&apos;ve recently returned from travel abroad and develop symptoms similar to those that occur with polio. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Info&lt;/strong&gt;&lt;strong&gt;rmation to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pre-appointment restrictions.&lt;/strong&gt; At the time you make your appointment, ask if there are any restrictions you need to follow in the time leading up to your visit. Your doctor may recommend taking steps to reduce the risk of spreading a potentially contagious illness to others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom history.&lt;/strong&gt; Write down any symptoms you&apos;ve been experiencing and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent exposure to possible sources of infection.&lt;/strong&gt; Be sure to describe international trips in detail, including the countries you visited and the dates.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Make a list of your key medical information, including other conditions for which you&apos;re being treated and any medications, vitamins or supplements you&apos;re currently taking. Your doctor will also need to know your vaccination history.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Write down your questions in advance so that you can make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For polio, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have polio?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What self-care steps can I take to aid my recovery?&lt;/li&gt;
+	&lt;li&gt;How long do you expect a full recovery will take?&lt;/li&gt;
+	&lt;li&gt;Am I contagious? If so, for how long?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions?&lt;/li&gt;
+	&lt;li&gt;When can I return to work or school?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term complications from polio?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any additional questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms seemed to be getting better or worse?&lt;/li&gt;
+	&lt;li&gt;Have you recently been around people with symptoms similar to yours?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled abroad? Where?&lt;/li&gt;
+	&lt;li&gt;Did you update your vaccinations before traveling?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors often recognize polio by symptoms, such as neck and back stiffness, abnormal reflexes, and difficulty swallowing and breathing. To confirm the diagnosis, a sample of throat secretions, stool or cerebrospinal fluid &amp;mdash; a colorless fluid that surrounds your brain and spinal cord &amp;mdash; is checked for the presence of poliovirus. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because no cure for polio exists, the focus is on increasing comfort, speeding recovery and preventing complications. Supportive treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bed rest&lt;/li&gt;
+	&lt;li&gt;Antibiotics for secondary infections (none for poliovirus)&lt;/li&gt;
+	&lt;li&gt;Analgesics for pain&lt;/li&gt;
+	&lt;li&gt;Portable ventilators to assist breathing&lt;/li&gt;
+	&lt;li&gt;Moderate exercise (physical therapy) to prevent deformity and loss of muscle function&lt;/li&gt;
+	&lt;li&gt;A nutritious diet&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although improved public sanitation and careful personal hygiene may help reduce the spread of polio, the most effective way to prevent the disease is with polio vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Polio vaccine&lt;/strong&gt; &lt;br /&gt;
+Currently, most children in the United States receive four doses of inactivated poliovirus (IPV) at the following ages: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;2 months&lt;/li&gt;
+	&lt;li&gt;4 months&lt;/li&gt;
+	&lt;li&gt;Between 6 and 18 months&lt;/li&gt;
+	&lt;li&gt;A booster shot, between ages 4 and 6 when children are just entering school&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+IPV is 90 percent effective after two shots and 99 percent effective after three. It can&apos;t cause polio and is safe for people with weakened immune systems, although it&apos;s not certain just how protective the vaccine may be in cases of severe immune deficiency. Common side effects are pain and redness at the injection site. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Allergic reaction to the vaccine&lt;/strong&gt; &lt;br /&gt;
+IPV can cause an allergic reaction in some people. Because the vaccine contains trace amounts of the antibiotics streptomycin, polymyxin B and neomycin, it shouldn&apos;t be given to anyone who&apos;s had a reaction to these medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of an allergic reaction usually occur within minutes to a few hours after the shot and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Hoarseness or wheezing&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Unusual paleness&lt;/li&gt;
+	&lt;li&gt;Swelling of the throat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you or your child experiences an allergic reaction after any shot, get medical help immediately. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fewer shots for your child&lt;/strong&gt; &lt;br /&gt;
+Polio vaccine is normally given in conjunction with vaccinations against other diseases, including diphtheria, tetanus and acellular pertussis (DTaP), pneumococcal infections and hepatitis B. But your child may not need to receive all these injections separately. 
+&lt;/p&gt;
+&lt;p&gt;
+A combination vaccine called Pediarix is available that reduces the number of injections given during the first two years of life. Pediarix combines DTaP, hepatitis B and polio into a single vaccine. Side effects of Pediarix are similar to those of the individual vaccines administered separately, though fever is more likely to occur in children who receive Pediarix than in children who receive vaccines separately. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adult vaccination&lt;/strong&gt; &lt;br /&gt;
+In the U.S., adults aren&apos;t routinely vaccinated against polio because most are already immune and the chances of contracting polio are minimal. However, certain adults at high risk of polio who have had a primary vaccination series with either IPV or the oral polio vaccine (OPV) should receive a single booster shot of IPV. A single booster dose of IPV lasts a lifetime. Adults at risk include those who are traveling to parts of the world where polio still occurs or those who care for people who may be excreting wild poliovirus. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re unvaccinated or your vaccination status is undocumented, you should receive a series of primary polio vaccination shots &amp;mdash; two doses of IPV at four- to eight-week intervals and a third dose six to 12 months after the second dose. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polio
+	</Title>
+	<Abstract>
+		Polio &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this highly contagious viral disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+	</RelatedLinksBox>
+</Disease>

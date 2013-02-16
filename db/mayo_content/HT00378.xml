@@ -1,0 +1,69 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00378
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00378
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2226" Title="Metabolic disorders">
+						<Keyword MCVID="3043" Title="Heat exhaustion" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AD04E2F-E7FF-0DBD-1E042BDB7DC6D9C4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heat cramp
+			</MetaKeyword>
+			<MetaKeyword>
+				heat cramps
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Heat cramps from exercise?
+	</Title>
+	<Body>
+		&lt;p&gt;Heat cramps are painful, involuntary muscle spasms that occur during heavy exercise in hot environments. You&apos;re most likely to get heat cramps in the calf, arm, abdomen and back. Next time you experience heat cramps, here&apos;s what to do: 1. Rest briefly and cool down. 2. Drink clear juice or an electrolyte-containing sports drink. 3. Gently stretch and massage the affected area. 4. Call your doctor if the cramps don&apos;t go away in an hour.&lt;/p&gt;
+	</Body>
+</HealthTip>

@@ -1,0 +1,385 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00476
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/psoriatic-arthritis/DS00476
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-09
+		</UpdateDate>
+		<PublicationDate>
+			2003-01-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="2793" Title="Other">
+							<Keyword MCVID="2148" Title="Psoriatic arthritis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4878" Title="Pfizer Enbrel PsA" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			91BACD0E-0792-44DD-9005DD8966E2754B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				psoriatic arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriasis
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				psoriatric arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				nails
+			</MetaKeyword>
+			<MetaKeyword>
+				joints
+			</MetaKeyword>
+			<MetaKeyword>
+				stiffness
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis mutilans
+			</MetaKeyword>
+			<MetaKeyword>
+				spondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				DIP
+			</MetaKeyword>
+			<MetaKeyword>
+				juvenile psoriatic arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				joint fluid test
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psoriatic arthritis is a form of arthritis that affects some people who have psoriasis &amp;mdash; a condition that features red patches of skin topped with silvery scales. Most people develop psoriasis first and are later diagnosed with psoriatic arthritis, but the joint problems can sometimes begin before skin lesions appear. 
+&lt;/p&gt;
+&lt;p&gt;
+Joint pain, stiffness and swelling are the main symptoms of psoriatic arthritis. They can affect any part of your body, including your fingertips and spine, and can range from relatively mild to severe. In both psoriasis and psoriatic arthritis, disease flares may alternate with periods of remission. 
+&lt;/p&gt;
+&lt;p&gt;
+No cure for psoriatic arthritis exists, so the focus is on controlling symptoms and preventing damage to your joints. Without treatment, psoriatic arthritis may be disabling. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of psoriasis on elbow 
+" Caption="Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+" Height="60" Title="Psoriasis " URI="/images/image_popup/thumbs/sn7_plaquepsoriasisthu.jpg" Width="60" />
+				<Image Alt="Photograph of psoriasis on elbow 
+" Caption="Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+" Height="400" Title="Psoriasis " URI="/images/image_popup/sn7_plaquepsoriasis.jpg" Width="400" />
+				<HTML>
+					Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Both psoriatic arthritis and psoriasis are chronic diseases that get worse over time, but you may have periods when your symptoms improve or go into remission alternating with times when symptoms become worse.
+&lt;/p&gt;
+&lt;p&gt;
+Psoriatic arthritis can affect joints on just one side or on both sides of your body. The signs and symptoms of psoriatic arthritis often resemble those of rheumatoid arthritis. Both diseases cause joints to become painful, swollen and warm to the touch.
+&lt;/p&gt;
+&lt;p&gt;
+However, psoriatic arthritis is more likely to also cause:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Swollen fingers and toes.&lt;/strong&gt; Psoriatic arthritis can cause a painful, sausage-like swelling of your fingers and toes. You may also develop swelling and deformities in your hands and feet before having significant joint symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Foot pain.&lt;/strong&gt; Psoriatic arthritis can also cause pain at the points where tendons and ligaments attach to your bones &amp;mdash; especially at the back of your heel (Achilles tendinitis) or in the sole of your foot (plantar fasciitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lower back pain.&lt;/strong&gt; Some people develop a condition called spondylitis as a result of psoriatic arthritis. Spondylitis mainly causes inflammation of the joints between the vertebrae of your spine and in the joints between your spine and pelvis (sacroiliitis).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have psoriasis, be sure to tell your doctor if you develop joint pain. Psoriatic arthritis can come on suddenly or develop slowly, but in either case it can severely damage your joints if left untreated.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psoriatic arthritis occurs when your body&apos;s immune system begins to attack healthy cells and tissue. The abnormal immune response causes inflammation in your joints as well as overproduction of skin cells.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not entirely clear why the immune system turns on healthy tissue, but it seems likely that both genetic and environmental factors play a role. Many people with psoriatic arthritis have a family history of either psoriasis or psoriatic arthritis. Researchers have discovered certain genetic markers that appear to be associated with psoriatic arthritis.
+&lt;/p&gt;
+&lt;p&gt;
+Physical trauma or something in the environment &amp;mdash; such as a viral or bacterial infection &amp;mdash; may trigger psoriatic arthritis in people with an inherited tendency.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors can increase your risk of psoriatic arthritis, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Psoriasis.&lt;/strong&gt; Having psoriasis is the single greatest risk factor for developing psoriatic arthritis. People who have psoriasis lesions on their nails are especially likely to develop psoriatic arthritis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your family history.&lt;/strong&gt; Many people with psoriatic arthritis have a parent or a sibling with the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Although anyone can develop psoriatic arthritis, it occurs most often in adults between the ages of 30 and 50.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of psoriasis on elbow 
+" Caption="Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+" Height="60" Title="Psoriasis " URI="/images/image_popup/thumbs/sn7_plaquepsoriasisthu.jpg" Width="60" />
+				<Image Alt="Photograph of psoriasis on elbow 
+" Caption="Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+" Height="400" Title="Psoriasis " URI="/images/image_popup/sn7_plaquepsoriasis.jpg" Width="400" />
+				<HTML>
+					Psoriasis causes cells to build up rapidly on the surface of the skin, forming thick silvery scales and itchy, dry, red patches that are sometimes painful. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of thumbnails affected by psoriasis 
+" Caption="In some cases, psoriasis can cause pitted and deformed nails that are thickened and discolored. Nails may also separate from the nail bed. 
+" Height="60" Title="Psoriasis on the nails" URI="/images/image_popup/thumbs/arth7_psoriasisthu.jpg" Width="60" />
+				<Image Alt="Photograph of thumbnails affected by psoriasis 
+" Caption="In some cases, psoriasis can cause pitted and deformed nails that are thickened and discolored. Nails may also separate from the nail bed. 
+" Height="284" Title="Psoriasis on the nails" URI="/images/image_popup/arth7_psoriasis.jpg" Width="400" />
+				<HTML>
+					In some cases, psoriasis can cause pitted and deformed nails that are thickened and discolored. Nails may also separate from the nail bed. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A small percentage of people with psoriatic arthritis develop arthritis mutilans &amp;mdash; a severe, painful and disabling form of the disease. Over time, arthritis mutilans destroys the small bones in your hands, especially the fingers, leading to permanent deformity and disability.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first discuss your signs and symptoms with your family doctor. He or she may refer you to a rheumatologist &amp;mdash; a doctor specializing in the treatment of arthritis and related disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of symptoms are you having? When did they begin?&lt;/li&gt;
+	&lt;li&gt;Are there any activities or positions that make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Do you or any of your close family members have psoriasis?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your immediate family ever had psoriatic arthritis?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may want to bring a friend or family member with you to your appointment. It&apos;s hard to absorb everything about a complicated condition, and another person may remember information that you miss. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the exam, your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Closely examine your joints for signs of swelling or tenderness&lt;/li&gt;
+	&lt;li&gt;Check your fingernails for pitting, flaking and other abnormalities&lt;/li&gt;
+	&lt;li&gt;Press on the soles of your feet and around your heels to find tender areas&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No single test can confirm a diagnosis of psoriatic arthritis. But some types of tests can rule out other causes of joint pain, such as rheumatoid arthritis or gout.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; Plain X-rays can help pinpoint changes in the joints that occur in psoriatic arthritis but not in other arthritic conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; MRI utilizes radio waves and a strong magnetic field to produce very detailed images of both hard and soft tissues in your body. This type of imaging test may be used to check for problems with the tendons and ligaments in your feet and lower back.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Laboratory tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rheumatoid factor (RF).&lt;/strong&gt; RF is an antibody that&apos;s often present in the blood of people with rheumatoid arthritis, but not usually in the blood of people with psoriatic arthritis. For that reason, this test can help your doctor distinguish between the two conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Joint fluid test.&lt;/strong&gt; Using a long needle, your doctor can remove a small sample of fluid from one of your affected joints &amp;mdash; often the knee. Uric acid crystals in your joint fluid may indicate that you have gout, rather than psoriatic arthritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No cure exists for psoriatic arthritis, so treatment focuses on controlling inflammation in your affected joints to prevent joint pain and disability. Medications used to treat psoriatic arthritis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs)&lt;/li&gt;
+	&lt;li&gt;Disease-modifying antirheumatic drugs (DMARDs)&lt;/li&gt;
+	&lt;li&gt;Immunosuppressant medications&lt;/li&gt;
+	&lt;li&gt;TNF-alpha inhibitors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs)&lt;br /&gt;
+&lt;/strong&gt;Drugs such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, Anaprox, others) may help control pain, swelling and morning stiffness, and they&apos;re usually the first treatment tried for psoriatic arthritis. Prescription NSAIDs provide higher potencies than do over-the-counter drugs.
+&lt;/p&gt;
+&lt;p&gt;
+But all NSAIDs can irritate your stomach and intestine, and long-term use can lead to gastrointestinal bleeding. Other potential side effects include damage to your kidneys, fluid retention, high blood pressure and heart failure. In addition, NSAIDs may worsen the skin problems associated with psoriatic arthritis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Disease-modifying antirheumatic drugs (DMARDs)&lt;br /&gt;
+&lt;/strong&gt;Rather than just reducing pain and inflammation, this class of drugs helps limit the amount of joint damage that occurs in psoriatic arthritis. But because DMARDs act slowly, you may not notice the effects for weeks or even months. Methotrexate (Trexall) is the most common DMARD used to treat psoriatic arthritis. However, it has potentially serious side effects, including lung, kidney and liver problems. In some studies, sulfasalazine (Azulfidine) has been shown to have a modest benefit in treating psoriatic arthritis.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immunosuppressant medications&lt;br /&gt;
+&lt;/strong&gt;These medications act to suppress your immune system, which normally protects your body from harmful organisms, but which attacks healthy tissue in people with psoriatic arthritis. Commonly used immunosuppressants include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Azathioprine (Imuran, Azasan)&lt;/li&gt;
+	&lt;li&gt;Cyclosporine (Sandimmune, Neoral, others)&lt;/li&gt;
+	&lt;li&gt;Leflunomide (Arava)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Immunosuppressants can have potentially dangerous side effects and usually are used in only the most severe cases of psoriatic arthritis. Because they suppress the immune system, all such drugs can lead to anemia and an increased risk of serious infection. And many of them can cause liver and kidney problems.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;TNF-alpha inhibitors&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend tumor necrosis factor-alpha (TNF-alpha) inhibitors if you have severe psoriatic arthritis. These drugs block the protein that causes inflammation in some types of arthritis and can improve signs and symptoms of psoriasis, as well.
+&lt;/p&gt;
+&lt;p&gt;
+Drugs in this category include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Adalimumab (Humira)&lt;/li&gt;
+	&lt;li&gt;Etanercept (Enbrel)&lt;/li&gt;
+	&lt;li&gt;Golimumab (Simponi)&lt;/li&gt;
+	&lt;li&gt;Infliximab (Remicade)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+TNF-alpha inhibitors carry a risk of serious side effects, including some that can be life-threatening. Be sure to discuss with your doctor whether the benefits you&apos;ll receive from these medications outweigh the risks.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your joints.&lt;/strong&gt; Changing the way you carry out everyday tasks can make a tremendous difference in how you feel. For example, you can avoid straining your finger joints by using gadgets such as jar openers to twist the lids from jars, by lifting heavy pans or other objects with both hands, and by pushing doors open with your whole body instead of just your fingers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Maintaining a healthy weight places less strain on your joints, leading to reduced pain and increased energy and mobility. The best way to increase nutrients while limiting calories is to eat more plant-based foods &amp;mdash; fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercise can help keep your joints flexible and your muscles strong. Types of exercises that are less stressful on joints include biking, swimming and walking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use cold and hot packs.&lt;/strong&gt; Because cold has a numbing effect, it can dull the sensation of pain. You can apply cold several times a day for 20 or 30 minutes at a time. Heat can help relax tense muscles and relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pace yourself.&lt;/strong&gt; Battling pain and inflammation can leave you feeling exhausted. In addition, some arthritis medications can cause fatigue. The key isn&apos;t to stop being active entirely, but to rest before you become too tired. Divide exercise or work activities into short segments. Find time to relax several times throughout the day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Psoriatic arthritis can be particularly discouraging because the emotional pain that psoriasis can cause is compounded by joint pain and, in some cases, disability. 
+&lt;/p&gt;
+&lt;p&gt;
+The support of friends and family can make a tremendous difference when you&apos;re facing the physical and psychological challenges of psoriatic arthritis. Just having someone to talk to can give you strength. For some people, support groups can offer the same benefits &amp;mdash; this may be especially important if you&apos;re worried about burdening your loved ones. 
+&lt;/p&gt;
+&lt;p&gt;
+A counselor or therapist can help you devise coping strategies to reduce your stress levels. The chemicals your body releases when you&apos;re under stress can suppress your immune system and aggravate both psoriasis and psoriatic arthritis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Psoriatic arthritis
+	</Title>
+	<Abstract>
+		Psoriatic arthritis &amp;mdash; Comprehensive overview covers symptoms and treatment of joint pain associated with psoriasis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01830" LinkType="Internal" ObjectID="BDEB97A3-E7FF-0DBD-120CA74B1165F79B" Title="Water exercise: Does pool temperature matter?" Url="http://www.mayoclinic.com/health/water-exercise/AN01830" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00307" LinkType="Internal" ObjectID="9AE53C6F-E7FF-0DBD-17468FABB8482EEF" Title="X-ray" Url="http://www.mayoclinic.com/health/x-ray/MY00307" />
+		<LinkItem ContentType="Answer" DocID="AN00619" LinkType="Internal" ObjectID="7E7334DE-3DB7-4425-AF6021DFD9733C8B" Title="Glucosamine: Does it protect cartilage in osteoarthritis?" Url="http://www.mayoclinic.com/health/glucosamine/AN00619" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="SlideShow" DocID="AR00027" LinkType="Internal" ObjectID="55609D76-3CDE-46D9-86B8AE68C63EE763" Title="Slide show: Joint protection for people with hand arthritis" Url="http://www.mayoclinic.com/health/joint-protection/AR00027" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00241" LinkType="Internal" ObjectID="0FE6B583-E7FF-0DBD-1D56AFCEBFEF2184" Title="Rheumatoid factor" Url="http://www.mayoclinic.com/health/rheumatoid-factor/MY00241" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00343" LinkType="Internal" ObjectID="024DEA4A-E7FF-0DBD-1C830476D58B8DFA" Title="Sed rate (erythrocyte sedimentation rate)" Url="http://www.mayoclinic.com/health/sed-rate/MY00343" />
+		<LinkItem ContentType="Article" DocID="AR00009" LinkType="Internal" ObjectID="DC1428F9-E845-42FD-BED154040E37FACC" Title="Exercise helps ease arthritis pain and stiffness" Url="http://www.mayoclinic.com/health/arthritis/AR00009" />
+		<LinkItem ContentType="Article" DocID="HQ01431" LinkType="Internal" ObjectID="62F9388A-8A71-4B7D-B20684EA03D08889" Title="Prednisone and other corticosteroids" Url="http://www.mayoclinic.com/health/steroids/HQ01431" />
+		<LinkItem ContentType="Article" DocID="SR00033" LinkType="Internal" ObjectID="1B1B5545-E7FF-0DBD-1B9A895BD444C866" Title="Social support: Tap this tool to beat stress" Url="http://www.mayoclinic.com/health/social-support/SR00033" />
+		<LinkItem ContentType="Disease" DocID="DS00737" LinkType="Internal" ObjectID="E137748B-2A5D-9994-EC8FFFE84D927A29" Title="Achilles tendinitis" Url="http://www.mayoclinic.com/health/achilles-tendinitis/DS00737" />
+		<LinkItem ContentType="Disease" DocID="DS00508" LinkType="Internal" ObjectID="C5D42AB4-5AC4-4CA8-BA3BC6318C19E3CF" Title="Plantar fasciitis" Url="http://www.mayoclinic.com/health/plantar-fasciitis/DS00508" />
+		<LinkItem ContentType="Disease" DocID="DS00483" LinkType="Internal" ObjectID="6924A01A-3E5D-4B5C-A16C67764A3A1151" Title="Ankylosing spondylitis" Url="http://www.mayoclinic.com/health/ankylosing-spondylitis/DS00483" />
+		<LinkItem ContentType="Disease" DocID="DS00193" LinkType="Internal" ObjectID="314A4C2A-D3AD-46E8-8730C1905D41C7CF" Title="Psoriasis" Url="http://www.mayoclinic.com/health/psoriasis/DS00193" />
+	</RelatedLinksBox>
+</Disease>

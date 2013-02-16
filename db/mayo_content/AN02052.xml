@@ -1,0 +1,146 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02052
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mammogram-guidelines/AN02052
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-20
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3093" Title="Mammogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			02595D0A-9DD3-ED31-69F5C7C43B2CC0C7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mammogram guidelines
+			</MetaKeyword>
+			<MetaKeyword>
+				mammography
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				breast cancer screening
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+At Mayo Clinic, doctors offer mammograms to women beginning at age 40 and continuing annually. When to begin mammogram screening and how often to repeat it is a personal decision. 
+&lt;/p&gt;
+&lt;p&gt;
+Mayo Clinic recommends women and their doctors discuss the benefits, risks and limitations of mammograms and decide together what is best. Also consider your personal situation and preferences in making your decision. 
+&lt;/p&gt;
+&lt;p&gt;
+Not all organizations agree on mammogram guidelines. For instance, the U.S. Preventive Services Task Force mammogram guidelines recommend women begin screening at age 50 and repeat the test every two years. The American Cancer Society and other organizations recommend screening begin at 40 and continue annually. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reacting to changing evidence&lt;/strong&gt; &lt;br /&gt;
+Mayo Clinic doctors continue to review studies about mammogram guidelines to understand what the studies mean for women&apos;s health. Changes to mammogram guidelines might or might not be necessary in the future, as researchers continue studying this topic. 
+&lt;/p&gt;
+&lt;p&gt;
+Mayo Clinic supports screening beginning at age 40 because screening mammograms can detect breast abnormalities early in women in their 40s. Findings from a large study in Sweden of women in their 40s who underwent screening mammograms showed a decrease in breast cancer deaths by 29 percent. 
+&lt;/p&gt;
+&lt;p&gt;
+But mammogram screening isn&apos;t perfect. Another study concluded that despite more women being diagnosed with early breast cancer due to mammogram screening, the number of women diagnosed with advanced breast cancer hasn&apos;t decreased. The study suggested that some women with early breast cancer were diagnosed with cancer that may never have affected their health. 
+&lt;/p&gt;
+&lt;p&gt;
+Unfortunately doctors can&apos;t distinguish dangerous breast cancers from those that are non-life-threatening, so annual mammograms remain the best option for detecting cancer early and reducing the risk of death from breast cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Working with your doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re concerned about screening mammograms, discuss your concerns with your doctor. Together you can decide what&apos;s best for you based on your individual breast cancer risk. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your doctor about: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your personal risk of breast cancer&lt;/li&gt;
+	&lt;li&gt;The benefits, risks and limitations of screening mammograms&lt;/li&gt;
+	&lt;li&gt;The role of breast self-exams in helping you become more familiar with your breasts, which may help you identify abnormalities or changes&lt;/li&gt;
+	&lt;li&gt;The role of the clinical breast exam, which is an examination of your breasts by your doctor and is offered to women at Mayo Clinic annually beginning at age 40&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mammogram guidelines: What are they?
+	</Title>
+	<Abstract>
+		Latest Mayo Clinic mammogram guidelines for breast cancer screening.
+	</Abstract>
+	<Question>
+		With differing mammogram guidelines, I&apos;m not sure when to begin mammogram screening. What does Mayo Clinic recommend?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="Answer" DocID="AN00419" LinkType="Internal" ObjectID="FC5332DF-AF1C-4812-81711A4E32EB40A6" Title="Breast implants: Do they interfere with mammograms?" Url="http://www.mayoclinic.com/health/breast-implants/AN00419" />
+		<LinkItem ContentType="Video" DocID="MM00639" LinkType="Internal" ObjectID="BE7A2D47-2A5D-9994-ED3CA13FF3C78E1F" Title="Video: Mammogram for breast cancer &amp;mdash; What to expect" Url="http://www.mayoclinic.com/health/mammogram/MM00639" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="Answer" DocID="AN01137" LinkType="Internal" ObjectID="58D6580B-0464-44C3-B42E52E54440F067" Title="Mammogram: Can it find cancer in dense breasts?" Url="http://www.mayoclinic.com/health/mammogram/AN01137" />
+		<LinkItem ContentType="Answer" DocID="AN02196" LinkType="Internal" ObjectID="5661182E-EE32-C2FA-42793E130F959800" Title="Thyroid guard: Do I need one during a mammogram?" Url="http://www.mayoclinic.com/health/thyroid-guard/AN02196" />
+		<LinkItem ContentType="Answer" DocID="AN01851" LinkType="Internal" ObjectID="10E30AA5-E7FF-0DBD-16106C84F24CAF6F" Title="Conflicting mammogram results: What can I do?" Url="http://www.mayoclinic.com/health/mammogram-results/AN01851" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</Answer>

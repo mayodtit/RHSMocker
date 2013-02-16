@@ -1,0 +1,290 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00155
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/amniocentesis/MY00155
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-10
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="3726" Title="Amniocentesis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E4636F2E-E7FF-0DBD-19D23492870EE783
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				amniocentesis
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal care
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+			<MetaKeyword>
+				amnio
+			</MetaKeyword>
+			<MetaKeyword>
+				Down syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				spina bifida
+			</MetaKeyword>
+			<MetaKeyword>
+				pregnancy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amniocentesis is a procedure in which amniotic fluid is removed from the uterus for testing or treatment. Amniotic fluid is the fluid that surrounds and protects a baby during pregnancy. This fluid contains fetal cells and various chemicals produced by the baby.
+&lt;/p&gt;
+&lt;p&gt;
+Amniocentesis can be done for various reasons: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;With genetic amniocentesis, a sample of amniotic fluid is tested for certain conditions &amp;mdash; such as Down syndrome and spina bifida.&lt;/li&gt;
+	&lt;li&gt;With maturity amniocentesis, a sample of amniotic fluid is tested to determine whether the baby&apos;s lungs are mature enough for birth.&lt;/li&gt;
+	&lt;li&gt;Occasionally, amniocentesis is used to evaluate a baby for infection or other illness.&lt;/li&gt;
+	&lt;li&gt;Rarely, amniocentesis is used to decrease the volume of amniotic fluid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although amniocentesis can provide valuable information about your baby&apos;s health, the decision to pursue invasive diagnostic testing is serious. It&apos;s important to understand the risks of amniocentesis &amp;mdash; and be prepared for the results.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of amniocentesis 
+" Caption="Amniocentesis is a prenatal test. During amniocentesis, an ultrasound transducer is used to show a baby&apos;s position in the uterus on a monitor. A sample of amniotic fluid, which contains fetal cells and chemicals produced by the baby, is then withdrawn for testing.
+" Height="60" Title="Amniocentesis" URI="/images/image_popup/thumbs/pr7_amniothu.jpg" Width="60" />
+				<Image Alt="Illustration of amniocentesis 
+" Caption="Amniocentesis is a prenatal test. During amniocentesis, an ultrasound transducer is used to show a baby&apos;s position in the uterus on a monitor. A sample of amniotic fluid, which contains fetal cells and chemicals produced by the baby, is then withdrawn for testing.
+" Height="307" Title="Amniocentesis" URI="/images/image_popup/pr7_amnio.jpg" Width="400" />
+				<HTML>
+					Amniocentesis is a prenatal test. During amniocentesis, an ultrasound transducer is used to show a baby&apos;s position in the uterus on a monitor. A sample of amniotic fluid, which contains fetal cells ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amniocentesis is done for different reasons at different stages of pregnancy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Genetic amniocentesis&lt;br /&gt;
+&lt;/strong&gt;Genetic amniocentesis can provide information about your baby&apos;s genetic makeup. Generally, genetic amniocentesis is offered when the test results might have a significant impact on the management of the pregnancy &amp;mdash; or your desire to continue the pregnancy. Typically, the value of this information can only be assessed by you and your partner. 
+&lt;/p&gt;
+&lt;p&gt;
+Genetic amniocentesis is usually done after week 15 of pregnancy. Rarely, genetic amniocentesis might be done as early as week 11 of pregnancy.
+&lt;/p&gt;
+&lt;p&gt;
+You might consider genetic amniocentesis if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You had positive results from a prenatal screening test.&lt;/strong&gt; If the results of a screening test &amp;mdash; such as the first trimester screen or noninvasive prenatal testing &amp;mdash; are positive or worrisome, you might opt for amniocentesis to confirm or rule out a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You had a chromosomal condition or a neural tube defect in a previous pregnancy.&lt;/strong&gt; If a previous pregnancy was affected by Down syndrome or a neural tube defect &amp;mdash; a serious condition affecting the brain or spinal cord &amp;mdash; this pregnancy is at higher risk, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re 35 or older.&lt;/strong&gt; Babies born to women 35 and older have a higher risk of chromosomal conditions, such as Down syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have a family history of a specific genetic condition, or you or your partner is a known carrier of a genetic condition.&lt;/strong&gt; In addition to identifying Down syndrome and spina bifida, amniocentesis can be used to diagnose many other conditions &amp;mdash; such as cystic fibrosis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Maturity amniocentesis&lt;br /&gt;
+&lt;/strong&gt;Maturity amniocentesis can determine whether a baby&apos;s lungs are ready for birth. This type of amniocentesis is done only if early delivery &amp;mdash; either through induction or C-section &amp;mdash; is being considered to prevent pregnancy complications for the mother. It&apos;s usually done between 32 and 39 weeks of pregnancy. Earlier than 32 weeks, a baby&apos;s lungs are unlikely to be fully developed.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Other reasons for amniocentesis&lt;br /&gt;
+&lt;/strong&gt;Occasionally amniocentesis is used to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evaluate a baby for infection or other illness&lt;/li&gt;
+	&lt;li&gt;Decrease the volume of amniotic fluid&lt;/li&gt;
+	&lt;li&gt;Evaluate the severity of anemia in babies who have Rh sensitization &amp;mdash; an uncommon condition in which a mother&apos;s immune system produces antibodies against a specific protein on the surface of the baby&apos;s blood cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your health care provider might caution against amniocentesis if you have:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Placental problems, including the placenta partially or totally covering the cervix (placenta previa) or the placenta peeling away from the inner wall of the uterus before delivery (placental abruption)&lt;/li&gt;
+	&lt;li&gt;A history of premature labor before 34 weeks of pregnancy&lt;/li&gt;
+	&lt;li&gt;An incompetent cervix &amp;mdash; a condition that occurs when weak cervical tissue causes or contributes to premature birth or the loss of an otherwise healthy pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amniocentesis carries various risks, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Miscarriage.&lt;/strong&gt; Second-trimester amniocentesis carries a slight risk of miscarriage &amp;mdash; between 1 in 300 and 1 in 500. Research suggests that the risk of miscarriage is higher for amniocentesis done before 15 weeks of pregnancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Needle injury.&lt;/strong&gt; During amniocentesis the baby might move an arm or leg into the path of the needle. Serious needle injuries are rare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leaking amniotic fluid.&lt;/strong&gt; Rarely, amniotic fluid leaks through the vagina after amniocentesis. If the leak seals, the pregnancy is likely to proceed normally. It&apos;s possible, however, for chronic leakage to lead to orthopedic problems for the baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rh sensitization.&lt;/strong&gt; Rarely, amniocentesis might cause the baby&apos;s blood cells to enter the mother&apos;s bloodstream. If you have Rh negative blood, you&apos;ll be given a drug called Rh immunoglobulin after amniocentesis to prevent you from producing antibodies against your baby&apos;s blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, amniocentesis might trigger a uterine infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection transmission.&lt;/strong&gt; If you have an infection &amp;mdash; such as hepatitis C, toxoplasmosis or human immunodeficiency virus &amp;mdash; the infection might be transferred to your baby during amniocentesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Remember, genetic amniocentesis is typically offered when the test results might have a significant impact on management of the pregnancy. Ultimately, the decision to have genetic amniocentesis is up to you. Your health care provider or genetic counselor can help you weigh all the factors in the decision. 
+&lt;/p&gt;
+&lt;p&gt;
+Maturity amniocentesis is often suggested when early delivery would be best for the mother. With minimal risks, maturity amniocentesis can offer assurance that the baby is ready for birth. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re having amniocentesis done before week 20 of pregnancy, your bladder must be full during the procedure. Drink plenty of fluids before your appointment. After 20 weeks of pregnancy, your bladder must be empty during amniocentesis.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider might ask you to sign a consent form before the procedure begins. Consider asking someone to accompany you to the appointment for emotional support or to drive you home afterward.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Amniocentesis is usually done in an outpatient facility or the health care provider&apos;s office. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;First, your health care provider will use ultrasound to determine the baby&apos;s exact location in your uterus. You&apos;ll lie on your back on an exam table and expose your abdomen. Your health care provider will apply a special gel to your abdomen and then use a small device known as an ultrasound transducer to show your baby&apos;s position on a monitor. 
+&lt;/p&gt;
+&lt;p&gt;
+Next, your health care provider will clean your abdomen with an antiseptic. Generally, anesthetic isn&apos;t used. Most women report only mild discomfort during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Guided by ultrasound, your health care provider will insert a thin, hollow needle through your abdominal wall and into the uterus. A small amount of amniotic fluid will be withdrawn into a syringe, and the needle will be removed. The specific amount of amniotic fluid withdrawn depends on the number of weeks the pregnancy has progressed. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll need to lie still while the needle is inserted and the amniotic fluid is withdrawn. You might notice a stinging sensation when the needle enters your skin, and you might feel cramping when the needle enters your uterus. The procedure usually takes about 20 to 30 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;After the amniocentesis, your health care provider might use ultrasound to monitor your baby&apos;s heart rate. You might experience cramping or a small amount of vaginal bleeding immediately after the amniocentesis. Avoid strenuous physical activity for a day or two. 
+&lt;/p&gt;
+&lt;p&gt;
+Meanwhile, the sample of amniotic fluid will be analyzed in a lab. Some results might be available within a few days. Other results might take up to four weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Contact your health care provider if you have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent fluid leaking from your vagina&lt;/li&gt;
+	&lt;li&gt;Heavy vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Abdominal pain or uterine cramping that lasts more than a few hours&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Redness and inflammation where the needle was inserted&lt;/li&gt;
+	&lt;li&gt;Unusual fetal activity or a lack of fetal movement&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of amniocentesis 
+" Caption="Amniocentesis is a prenatal test. During amniocentesis, an ultrasound transducer is used to show a baby&apos;s position in the uterus on a monitor. A sample of amniotic fluid, which contains fetal cells and chemicals produced by the baby, is then withdrawn for testing.
+" Height="60" Title="Amniocentesis" URI="/images/image_popup/thumbs/pr7_amniothu.jpg" Width="60" />
+				<Image Alt="Illustration of amniocentesis 
+" Caption="Amniocentesis is a prenatal test. During amniocentesis, an ultrasound transducer is used to show a baby&apos;s position in the uterus on a monitor. A sample of amniotic fluid, which contains fetal cells and chemicals produced by the baby, is then withdrawn for testing.
+" Height="307" Title="Amniocentesis" URI="/images/image_popup/pr7_amnio.jpg" Width="400" />
+				<HTML>
+					Amniocentesis is a prenatal test. During amniocentesis, an ultrasound transducer is used to show a baby&apos;s position in the uterus on a monitor. A sample of amniotic fluid, which contains fetal cells ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your health care provider or a genetic counselor will help you understand your amniocentesis results.
+&lt;/p&gt;
+&lt;p&gt;
+For genetic amniocentesis, test results can reliably rule out or diagnose various genetic conditions, such as Down syndrome. Amniocentesis can&apos;t identify all birth defects, however. 
+&lt;/p&gt;
+&lt;p&gt;
+If amniocentesis indicates that your baby has a chromosomal or genetic condition that can&apos;t be treated, you might face wrenching decisions &amp;mdash; such as whether to continue the pregnancy. Seek support from your health care team and your loved ones during this difficult time. 
+&lt;/p&gt;
+&lt;p&gt;
+For maturity amniocentesis, test results can reliably indicate a baby&apos;s lung maturity. If you need to deliver the baby early, this information offers reassurance that your baby is ready for birth.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Amniocentesis
+	</Title>
+	<Abstract>
+		Amniocentesis &amp;mdash; Overview covers definition, risks, results of this prenatal test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00084" LinkType="Internal" ObjectID="8B3FEAE2-BC48-446E-8A2211AEFA2EAB63" Title="Video: Fetal ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MM00084" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00777" LinkType="Internal" ObjectID="563FCB9D-A538-2A78-5A61F27B1BD5D29F" Title="Fetal ultrasound" Url="http://www.mayoclinic.com/health/fetal-ultrasound/MY00777" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="MY01403" LinkType="Internal" ObjectID="480AFA5C-FC69-E2EB-186342987BB11520" Title="Prenatal testing: Quick guide to common tests" Url="http://www.mayoclinic.com/health/prenatal-testing/MY01403" />
+		<LinkItem ContentType="Disease" DocID="DS00218" LinkType="Internal" ObjectID="F06A4B68-94D1-418C-827D409C656EC798" Title="Hemophilia" Url="http://www.mayoclinic.com/health/hemophilia/DS00218" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,412 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00373
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cirrhosis/DS00373
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-30
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1859" Title="Cirrhosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			810D975F-9E56-4C4C-820C7E031BC945C6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis C
+			</MetaKeyword>
+			<MetaKeyword>
+				hepatitis B
+			</MetaKeyword>
+			<MetaKeyword>
+				alcohol abuse
+			</MetaKeyword>
+			<MetaKeyword>
+				jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				liver transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				esophageal varices
+			</MetaKeyword>
+			<MetaKeyword>
+				cirrosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cirrhosis is scarring of the liver caused by many forms of liver diseases and conditions, such as hepatitis and chronic alcohol abuse. The liver carries out several essential functions, including detoxifying harmful substances in your body, cleaning your blood and making vital nutrients. 
+&lt;/p&gt;
+&lt;p&gt;
+Cirrhosis occurs in response to damage to your liver over many years. The liver damage done by cirrhosis can&apos;t be undone. But if liver cirrhosis is diagnosed early and the cause treated, further damage can be limited. As cirrhosis progresses, more and more scar tissue forms, making it difficult for the liver to function. Advanced cirrhosis can be life-threatening.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cirrhosis often has no signs or symptoms until liver damage is extensive. When signs and symptoms do occur, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Bleeding easily&lt;/li&gt;
+	&lt;li&gt;Bruising easily&lt;/li&gt;
+	&lt;li&gt;Itchy skin&lt;/li&gt;
+	&lt;li&gt;Yellow discoloration in the skin and eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Fluid accumulation in your abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Swelling in your legs&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have persistent signs or symptoms of cirrhosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cirrhosis is caused by scar tissue that forms in your liver in response to damage occurring over many years. Each time your liver is injured, it tries to repair itself. In the process, scar tissue forms. As the scar tissue builds up, liver function worsens. In advanced cirrhosis, the liver no longer works very well. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to determine the cause of cirrhosis because treating that underlying cause can help prevent further liver damage. A wide range of diseases and conditions can damage the liver and lead to cirrhosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chronic alcohol abuse&lt;/li&gt;
+	&lt;li&gt;Hepatitis C&lt;/li&gt;
+	&lt;li&gt;Hepatitis B&lt;/li&gt;
+	&lt;li&gt;Fat accumulating in the liver (nonalcoholic fatty liver disease)&lt;/li&gt;
+	&lt;li&gt;Destruction of the bile ducts (primary biliary cirrhosis)&lt;/li&gt;
+	&lt;li&gt;Hardening and scarring of the bile ducts (primary sclerosing cholangitis)&lt;/li&gt;
+	&lt;li&gt;Iron buildup in the body (hemochromatosis)&lt;/li&gt;
+	&lt;li&gt;Liver disease caused by your body&apos;s immune system (autoimmune hepatitis)&lt;/li&gt;
+	&lt;li&gt;Cystic fibrosis&lt;/li&gt;
+	&lt;li&gt;Copper accumulated in the liver (Wilson&apos;s disease)&lt;/li&gt;
+	&lt;li&gt;Infection by a parasite common in developing countries (schistosomiasis)&lt;/li&gt;
+	&lt;li&gt;Poorly formed bile ducts (biliary atresia)&lt;/li&gt;
+	&lt;li&gt;Inherited disorders of sugar metabolism (galactosemia, glycogen storage disease)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Some people may have more than one cause for cirrhosis, such as alcohol abuse and viral hepatitis. Up to 20 percent of people with cirrhosis don&apos;t have an identifiable cause for the condition (cryptogenic cirrhosis). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of cirrhosis can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure in the liver (portal hypertension).&lt;/strong&gt; Cirrhosis slows the normal flow of blood through the liver, increasing pressure in the vein that brings blood from the intestines and spleen to the liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swelling in the legs and abdomen.&lt;/strong&gt; Portal hypertension can cause fluid to accumulate in the legs (edema) and in the abdomen (ascites). Edema and ascites also may result from the inability of the liver to make certain blood proteins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; If you have cirrhosis, your body may have difficulty fighting infections. Ascites can lead to bacterial peritonitis, a serious infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Portal hypertension can cause blood to be redirected to smaller veins. Strained by the extra load, these smaller veins can burst, causing serious bleeding. High blood pressure also may enlarge veins and lead to life-threatening bleeding in the esophagus (esophageal varices) or the stomach (gastric varices).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Malnutrition.&lt;/strong&gt; Cirrhosis may make it more difficult for your body to process nutrients, leading to weakness and weight loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High levels of toxins in the blood (hepatic encephalopathy).&lt;/strong&gt; A liver damaged by cirrhosis isn&apos;t able to clear toxins from the blood as well as a healthy liver can. Toxins in the blood can cause mental confusion and difficulty concentrating. With time, hepatic encephalopathy can progress to unresponsiveness or coma.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaundice.&lt;/strong&gt; Jaundice occurs when the diseased liver doesn&apos;t remove enough bilirubin, a blood waste product, from your blood. Jaundice causes yellowing of the skin and whites of the eyes, and darkening of urine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased risk of liver cancer.&lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have cirrhosis, you may be referred to a doctor who specializes in the digestive system (gastroenterologist) or the liver (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions,&lt;/strong&gt; such as diet restrictions on the day before your appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how they may have changed or worsened over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a list of all your medications,&lt;/strong&gt; as well as any vitamins or supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other diagnosed conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring results of medical tests done so far,&lt;/strong&gt; including digital copies of CT, MRI or ultrasound images and biopsy slides if a liver biopsy has been done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along &lt;/strong&gt;to help you remember things.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt;&lt;br /&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is most likely causing my cirrhosis?&lt;/li&gt;
+	&lt;li&gt;Is there a way to slow or stop my liver damage?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;How can I protect my liver from further damage?&lt;/li&gt;
+	&lt;li&gt;Are there medications that can hurt my liver?&lt;/li&gt;
+	&lt;li&gt;What signs and symptoms of complications should I watch for?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask additional questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be prepared to answer questions your doctor is likely to ask, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;How often do you drink alcohol?&lt;/li&gt;
+	&lt;li&gt;Have you been exposed to or taken toxic drugs?&lt;/li&gt;
+	&lt;li&gt;Do you have a family history of liver disease, hemochromatosis or obesity?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People with early-stage cirrhosis of the liver usually don&apos;t have symptoms. Often, cirrhosis is first detected through a routine blood test or checkup. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests and procedures used to diagnose cirrhosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Liver function tests&lt;/strong&gt;. Your blood is checked for excess bilirubin and certain enzymes that may indicate liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance elastography.&lt;/strong&gt; This noninvasive advanced imaging test, developed at Mayo Clinic, detects hardening of the liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other imaging tests.&lt;/strong&gt; MRI, CT and ultrasound can image the liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biopsy.&lt;/strong&gt; A tissue sample (biopsy) may be taken to identify the severity, extent and cause of liver damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have cirrhosis, your doctor is likely to recommend regular diagnostic tests to monitor for signs of disease progression or complications, especially esophageal varices and liver cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for cirrhosis depends on the cause and extent of your liver damage. The goals of treatment are to slow the progression of scar tissue in the liver and to prevent or treat symptoms and complications of cirrhosis. Hospitalization may be necessary for severe liver damage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for the underlying cause of cirrhosis&lt;/strong&gt; &lt;br /&gt;
+In early cirrhosis, it may be possible to minimize damage to the liver by treating the underlying cause. The options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment for alcohol dependency.&lt;/strong&gt; People with cirrhosis caused by alcohol abuse need to stop drinking. If stopping alcohol use is difficult, your doctor may recommend a treatment program for alcohol addiction.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight loss.&lt;/strong&gt; People with cirrhosis caused by nonalcoholic fatty liver disease need to lose weight and control their blood sugar levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control hepatitis.&lt;/strong&gt; Medications may control damage to liver cells caused by hepatitis B or C.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications to control other causes and symptoms of cirrhosis.&lt;/strong&gt; Medications may slow the progression of certain types of liver cirrhosis. For example, people with primary biliary cirrhosis that is diagnosed and treated early may never experience symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other medications can relieve symptoms such as itching, fatigue and pain. Nutritional supplements may be prescribed to counter malnutrition associated with cirrhosis and to prevent osteoporosis (weak bones). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment for complications of cirrhosis&lt;/strong&gt; &lt;br /&gt;
+Your doctor will work to treat any complications of cirrhosis, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excess fluid in your body.&lt;/strong&gt; Edema or ascites may be managed with a low-sodium diet and medication to prevent fluid buildup in the body. More severe fluid buildup may require procedures to drain the fluid or surgery to relieve pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased blood pressure.&lt;/strong&gt; Blood pressure medications may control portal hypertension and prevent severe bleeding. If you develop varices, you may need a procedure (band ligation) to stop the bleeding and medication to help prevent future bleeding. In severe cases, a small tube (stent) may be placed in your veins to reduce blood pressure in your liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infections.&lt;/strong&gt; You may receive antibiotics or other treatments for infections. Your doctor also is likely to recommend vaccinations for influenza, pneumonia and hepatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased liver cancer risk.&lt;/strong&gt; Your doctor will likely recommend periodic blood tests and ultrasound exams to look for signs of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hepatic encephalopathy.&lt;/strong&gt; Medications can be prescribed to help reduce the buildup of toxins in your blood due to poor liver function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver transplant surgery&lt;/strong&gt; &lt;br /&gt;
+In advanced cases of cirrhosis, when the liver ceases to function, a liver transplant may be the only treatment option. A liver transplant is a procedure to replace your liver with a healthy liver from a deceased donor or with part of a liver from a living donor. Cirrhosis is the most common reason for a liver transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+Extensive testing is needed before a liver transplant to ensure that a candidate is in good enough health to have the transplant operation. Additionally, transplant centers typically require some period of abstinence from alcohol, often at least six months, before transplantation for people with alcohol-related liver disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have cirrhosis, take precautions to limit additional liver damage: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t drink alcohol.&lt;/strong&gt; Whether your cirrhosis was caused by chronic alcohol use or another disease, avoid alcohol. Drinking alcohol may cause further liver damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a low-sodium diet.&lt;/strong&gt; Excess salt can cause your body to retain fluids, worsening swelling in your abdomen and legs. Use herbs for seasoning your food, rather than salt. Choose prepared foods that are low in sodium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; People with cirrhosis can experience malnutrition. Combat this with a healthy plant-based diet that includes a variety of fruits and vegetables. Choose lean protein, such as legumes, poultry or fish. Avoid raw seafood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid infections.&lt;/strong&gt; Cirrhosis makes it more difficult for you to fight off infections. Protect yourself by avoiding people who are sick and washing your hands frequently. Get vaccinated for hepatitis A and B, influenza, and pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use over-the-counter medications carefully.&lt;/strong&gt; Cirrhosis makes it more difficult for your liver to process drugs. For this reason, ask your doctor before taking any medications, including nonprescription drugs. Avoid drugs such as aspirin and ibuprofen (Advil, Motrin IB). If you have liver damage, your doctor may recommend acetaminophen (Tylenol, others) in low doses for pain relief.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of alternative medicines, notably milk thistle (silymarin) and licorice root (glycyrrhizin) have been used to treat liver diseases. There is not sufficient evidence of benefit from trials in patients to recommend use of these or any other herbal products to treat liver cirrhosis. Talk with your doctor if you&apos;re interested in trying alternative medicine to help you cope with cirrhosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Reduce your risk of cirrhosis by taking care of your liver: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; If you choose to drink alcohol, do so in moderation. For healthy adults, that means up to one drink a day for women of all ages and men over than age 65, and up to two drinks a day for men age 65 and younger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat a healthy diet.&lt;/strong&gt; Choose a plant-based diet that&apos;s full of fruits and vegetables. Select whole grains and lean sources of protein. Reduce the amount of fatty and fried foods you eat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; An excess amount of body fat can damage your liver. Talk to your doctor about a weight-loss plan if you are obese or overweight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce your risk of hepatitis.&lt;/strong&gt; Sharing needles and having unprotected sex can increase your risk of hepatitis B and C. Ask your doctor about hepatitis vaccinations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re concerned about your risk of liver cirrhosis, talk to your doctor about ways you can reduce your risk. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cirrhosis
+	</Title>
+	<Abstract>
+		Cirrhosis &amp;mdash; Comprehensive overview covers symptoms, treatment of this life-threatening liver condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00093" LinkType="Internal" ObjectID="B727321E-E7FF-0DBD-1CADFEB8D4A46579" Title="Liver function tests" Url="http://www.mayoclinic.com/health/liver-function-tests/MY00093" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00349" LinkType="Internal" ObjectID="21329E51-E7FF-0DBD-1B9E2B7D0F8B83AE" Title="Liver transplant" Url="http://www.mayoclinic.com/health/liver-transplant/MY00349" />
+		<LinkItem ContentType="Disease" DocID="DS01133" LinkType="Internal" ObjectID="A8C21C70-CC99-DB91-BE417AAA3BEA680D" Title="Liver problems" Url="http://www.mayoclinic.com/health/liver-problems/DS01133" />
+		<LinkItem ContentType="Disease" DocID="DS00340" LinkType="Internal" ObjectID="BA6DB211-57CE-4DB7-A3614C2B60219EB5" Title="Alcoholism" Url="http://www.mayoclinic.com/health/alcoholism/DS00340" />
+	</RelatedLinksBox>
+</Disease>

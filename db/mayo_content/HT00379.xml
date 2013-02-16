@@ -1,0 +1,81 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00379
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00379
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2008-03-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="3824" Title="Staying healthy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8AD0C704-E7FF-0DBD-141B6D510C21F10E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				animal bites
+			</MetaKeyword>
+			<MetaKeyword>
+				animal bite
+			</MetaKeyword>
+			<MetaKeyword>
+				rabies
+			</MetaKeyword>
+			<MetaKeyword>
+				tetanus
+			</MetaKeyword>
+			<MetaKeyword>
+				dog bite
+			</MetaKeyword>
+			<MetaKeyword>
+				cat bite
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Animal bites: Do you need a tetanus shot?
+	</Title>
+	<Body>
+		&lt;p&gt;If you&apos;re bitten by an immunized pet and the wound barely breaks the skin, you can treat the wound yourself. Wash the wound thoroughly with soap and water. Apply an antibiotic cream to prevent infection and cover the wound with a clean bandage. However, if the wound is deep or dirty, ask your doctor about getting a tetanus shot or booster. It&apos;s best to get the shot as soon as possible after the injury.&lt;/p&gt;
+	</Body>
+</HealthTip>

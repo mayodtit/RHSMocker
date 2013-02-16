@@ -1,0 +1,76 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00028
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00028
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-19
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1006" Title="Lifestyle">
+				<Keyword MCVID="1094" Title="Nutrition and healthy eating">
+					<Keyword MCVID="4022" Title="Nutrition basics" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			726B82CF-E7FF-0DBD-139FAE01B5624C3B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fiber
+			</MetaKeyword>
+			<MetaKeyword>
+				high-fiber
+			</MetaKeyword>
+			<MetaKeyword>
+				whole grain
+			</MetaKeyword>
+			<MetaKeyword>
+				whole grains
+			</MetaKeyword>
+			<MetaKeyword>
+				high fiber diet
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Fit more fiber into your diet
+	</Title>
+	<Body>
+		&lt;p&gt;Fiber is probably best known for its ability to help with constipation. But fiber also can lower your risk of diabetes and heart disease. How can you get more fiber? Choose cereals with &apos;bran&apos; or &apos;fiber&apos; in the name. Switch to whole-grain breads and pastas. Use brown rice, barley and bulgur instead of plain white rice. And mix chopped frozen broccoli into prepared spaghetti sauce. Just remember: Drink plenty of water since fiber works best when it absorbs water.&lt;/p&gt;
+	</Body>
+</HealthTip>

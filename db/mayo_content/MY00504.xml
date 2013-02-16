@@ -1,0 +1,198 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00504
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ferritin-test/MY00504
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-24
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3658" Title="Blood and lymphatic system">
+						<Keyword MCVID="4318" Title="Ferritin test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B1C17EFA-E60E-C103-F3D611155955FD79
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ferritin test
+			</MetaKeyword>
+			<MetaKeyword>
+				serum ferritin
+			</MetaKeyword>
+			<MetaKeyword>
+				ferritin levels
+			</MetaKeyword>
+			<MetaKeyword>
+				high ferritin
+			</MetaKeyword>
+			<MetaKeyword>
+				low ferritin levels
+			</MetaKeyword>
+			<MetaKeyword>
+				blood ferritin
+			</MetaKeyword>
+			<MetaKeyword>
+				low iron
+			</MetaKeyword>
+			<MetaKeyword>
+				iron deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				iron deficiency anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				iron overload
+			</MetaKeyword>
+			<MetaKeyword>
+				hemochromatosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A ferritin test measures the amount of ferritin in your blood. Ferritin is a blood cell protein that contains iron. A ferritin test helps your doctor understand how much iron your body is storing. 
+&lt;/p&gt;
+&lt;p&gt;
+If a ferritin test reveals that your blood ferritin level is lower than normal, it indicates your body&apos;s iron stores are low and you have iron deficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+If a ferritin test shows higher than normal levels, it could indicate that you have a condition that causes your body to store too much iron. It could also point to liver disease, rheumatoid arthritis, other inflammatory conditions or hyperthyroidism. Some types of cancer also may cause your blood ferritin level to be high. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may have a ferritin test for several reasons: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;To diagnose a medical condition.&lt;/strong&gt; Your doctor may suggest a ferritin test if other blood tests have shown that the level of oxygen-carrying protein in your red blood cells (hemoglobin) is low, or if the proportion of red blood cells to the fluid component in your blood (hematocrit) is low. These may indicate that you have iron deficiency anemia. A ferritin test can help confirm that diagnosis. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A ferritin test may also be used to help diagnose conditions such as hemochromatosis, liver disease and adult Still&apos;s disease, among others. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	When used to diagnose a medical condition, a ferritin test may be done in conjunction with an iron test and a total iron-binding capacity (TIBC) and transferrin test. These tests provide additional information about how much iron is in your body. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;To monitor a medical condition.&lt;/strong&gt; If you&apos;ve been diagnosed with a disorder that results in too much iron in your body, such as hemochromatosis or hemosiderosis, your doctor may use a ferritin test to monitor your condition and guide treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your blood sample is being tested only for ferritin, you can eat and drink normally before the test. If your blood sample will be used for additional tests, you may need to fast for a certain amount of time before the test. Your doctor will give you specific instructions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the ferritin test, a member of your health care team takes a sample of blood by inserting a needle into a vein in your arm. The blood sample is sent to a lab for analysis. You can return to your usual activities immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The normal range for blood ferritin is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;For men&lt;/strong&gt;, 24 to 336 nanograms per milliliter (standard units) or 24 to 336 micrograms per liter (international units)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;For women&lt;/strong&gt;, 11 to 307 nanograms per milliliter (standard units) or 11 to 307 micrograms per liter (international units)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lower than normal results&lt;/strong&gt; &lt;br /&gt;
+A lower than normal ferritin level indicates that you have iron deficiency. You may also be anemic. If your ferritin level is low, your doctor will work to determine the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Higher than normal results&lt;/strong&gt; &lt;br /&gt;
+A higher than normal ferritin level can be caused by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hemochromatosis &amp;mdash; A condition that causes your body to absorb too much iron from the food you eat&lt;/li&gt;
+	&lt;li&gt;Porphyria &amp;mdash; A group of disorders caused by an enzyme deficiency that affects your nervous system and skin&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis, adult Still&apos;s disease or another chronic inflammatory disorder&lt;/li&gt;
+	&lt;li&gt;Liver disease&lt;/li&gt;
+	&lt;li&gt;Hyperthyroidism&lt;/li&gt;
+	&lt;li&gt;Type 2 diabetes&lt;/li&gt;
+	&lt;li&gt;Leukemia&lt;/li&gt;
+	&lt;li&gt;Hodgkin&apos;s lymphoma&lt;/li&gt;
+	&lt;li&gt;Multiple blood transfusions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your ferritin level is above normal, your doctor may need to evaluate the results along with those of other tests to determine next steps. 
+&lt;/p&gt;
+&lt;p&gt;
+For specifics about what your ferritin test results mean, talk to your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ferritin test
+	</Title>
+	<Abstract>
+		Ferritin test &amp;mdash; Overview covers definition, preparation, results of this blood test for iron levels.
+	</Abstract>
+	<BenefitSummary />
+</TestProcedure>

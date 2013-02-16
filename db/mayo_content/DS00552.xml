@@ -1,0 +1,511 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00552
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/traumatic-brain-injury/DS00552
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-12
+		</UpdateDate>
+		<PublicationDate>
+			2004-09-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2221" Title="Head and brain injuries">
+						<Keyword MCVID="2318" Title="Traumatic brain injury" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			471B9BC7-F9A0-43BC-A7736A45B7871721
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				traumatic brain injury
+			</MetaKeyword>
+			<MetaKeyword>
+				head injury
+			</MetaKeyword>
+			<MetaKeyword>
+				brain injured
+			</MetaKeyword>
+			<MetaKeyword>
+				TBI
+			</MetaKeyword>
+			<MetaKeyword>
+				mild traumatic brain injury
+			</MetaKeyword>
+			<MetaKeyword>
+				mild TBI
+			</MetaKeyword>
+			<MetaKeyword>
+				concussion
+			</MetaKeyword>
+			<MetaKeyword>
+				contusion
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Traumatic brain injury occurs when an external mechanical force causes brain dysfunction. 
+&lt;/p&gt;
+&lt;p&gt;
+Traumatic brain injury usually results from a violent blow or jolt to the head or body. An object penetrating the skull, such as a bullet or shattered piece of skull, also can cause traumatic brain injury. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild traumatic brain injury may cause temporary dysfunction of brain cells. More serious traumatic brain injury can result in bruising, torn tissues, bleeding and other physical damage to the brain that can result in long-term complications or death. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Traumatic brain injury can have wide-ranging physical and psychological effects. Some signs or symptoms may appear immediately after the traumatic event, while others may appear days or weeks later.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Mild traumatic brain injury&lt;br /&gt;
+&lt;/strong&gt;The signs and symptoms of mild traumatic brain injury may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of consciousness for a few seconds to a few minutes&lt;/li&gt;
+	&lt;li&gt;No loss of consciousness, but a state of being dazed, confused or disoriented&lt;/li&gt;
+	&lt;li&gt;Memory or concentration problems&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dizziness or loss of balance&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Sensory problems, such as blurred vision, ringing in the ears or a bad taste in the mouth&lt;/li&gt;
+	&lt;li&gt;Sensitivity to light or sound&lt;/li&gt;
+	&lt;li&gt;Mood changes or mood swings&lt;/li&gt;
+	&lt;li&gt;Feeling depressed or anxious&lt;/li&gt;
+	&lt;li&gt;Fatigue or drowsiness&lt;/li&gt;
+	&lt;li&gt;Difficulty sleeping&lt;/li&gt;
+	&lt;li&gt;Sleeping more than usual&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Moderate to severe traumatic brain injuries&lt;br /&gt;
+&lt;/strong&gt;Moderate to severe traumatic brain injuries can include any of the signs and symptoms of mild injury, as well as the following symptoms that may appear within the first hours to days after a head injury:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Loss of consciousness from several minutes to hours&lt;/li&gt;
+	&lt;li&gt;Profound confusion&lt;/li&gt;
+	&lt;li&gt;Agitation, combativeness or other unusual behavior&lt;/li&gt;
+	&lt;li&gt;Slurred speech&lt;/li&gt;
+	&lt;li&gt;Inability to awaken from sleep&lt;/li&gt;
+	&lt;li&gt;Weakness or numbness in fingers and toes&lt;/li&gt;
+	&lt;li&gt;Loss of coordination&lt;/li&gt;
+	&lt;li&gt;Persistent headache or headache that worsens&lt;/li&gt;
+	&lt;li&gt;Repeated vomiting or nausea&lt;/li&gt;
+	&lt;li&gt;Convulsions or seizures&lt;/li&gt;
+	&lt;li&gt;Dilation of one or both pupils of the eyes&lt;/li&gt;
+	&lt;li&gt;Clear fluids draining from the nose or ears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Children&apos;s symptoms&lt;br /&gt;
+&lt;/strong&gt;Infants and young children with brain injuries may lack the communication skills to report headaches, sensory problems, confusion and similar symptoms. In a child with traumatic brain injury, you may observe:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Change in eating or nursing habits&lt;/li&gt;
+	&lt;li&gt;Persistent crying and inability to be consoled&lt;/li&gt;
+	&lt;li&gt;Unusual or easy irritability&lt;/li&gt;
+	&lt;li&gt;Change in ability to pay attention&lt;/li&gt;
+	&lt;li&gt;Change in sleep habits&lt;/li&gt;
+	&lt;li&gt;Sad or depressed mood&lt;/li&gt;
+	&lt;li&gt;Loss of interest in favorite toys or activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Always see your doctor if you or your child has received a blow to the head or body that concerns you or causes behavioral changes. Seek emergency medical care if there are any signs or symptoms of traumatic brain injury following a recent blow or other traumatic injury to the head.
+&lt;/p&gt;
+&lt;p&gt;
+The terms &quot;mild,&quot; &quot;moderate&quot; and &quot;severe&quot; are used to describe the effect of the injury on brain function. A mild injury to the brain is still a serious injury that requires prompt attention and an accurate diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Traumatic brain injury is caused by a blow or other traumatic injury to the head or body. The degree of damage can depend on several factors, including the nature of the event and the force of impact. Injury may include one or more of the following factors:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Damage to brain cells may be limited to the area directly below the point of impact on the skull.&lt;/li&gt;
+	&lt;li&gt;A severe blow or jolt can cause multiple points of damage because the brain may move back and forth in the skull.&lt;/li&gt;
+	&lt;li&gt;A severe rotational or spinning jolt can cause the tearing of cellular structures.&lt;/li&gt;
+	&lt;li&gt;A blast, as from an explosive device, can cause widespread damage.&lt;/li&gt;
+	&lt;li&gt;An object penetrating the skull can cause severe, irreparable damage to brain cells, blood vessels and protective tissues around the brain.&lt;/li&gt;
+	&lt;li&gt;Bleeding in or around the brain, swelling, and blood clots can disrupt the oxygen supply to the brain and cause wider damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Common causes&lt;br /&gt;
+&lt;/strong&gt;Common events causing traumatic brain injury include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Falls.&lt;/strong&gt; Falling out of bed, slipping in the bath, falling down steps, falling from ladders and related falls are the most common cause of traumatic brain injury overall, particularly in older adults and young children. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vehicle-related collisions.&lt;/strong&gt; Collisions involving cars, motorcycles or bicycles &amp;mdash; and pedestrians involved in such accidents &amp;mdash; are a common cause of traumatic brain injury.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Violence.&lt;/strong&gt; About 10 percent of traumatic brain injuries are caused by violence, such as gunshot wounds, domestic violence or child abuse. Shaken baby syndrome is traumatic brain injury caused by the violent shaking of an infant that damages brain cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sports injuries.&lt;/strong&gt; Traumatic brain injuries may be caused by injuries from a number of sports, including soccer, boxing, football, baseball, lacrosse, skateboarding, hockey, and other high-impact or extreme sports.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Explosive blasts and other combat injuries.&lt;/strong&gt; Explosive blasts are a common cause of traumatic brain injury in active-duty military personnel. Although the mechanism of damage isn&apos;t well understood, many researchers believe that the pressure wave passing through the brain significantly disrupts brain function. Traumatic brain injury also results from penetrating wounds, severe blows to the head with shrapnel or debris, and falls or bodily collisions with objects following a blast.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The people most at risk of traumatic brain injury include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Children, especially newborns to 4-year-olds&lt;/li&gt;
+	&lt;li&gt;Young adults, especially those between ages 15 and 24&lt;/li&gt;
+	&lt;li&gt;Adults age 75 and older&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several complications can occur immediately or soon after a traumatic brain injury. Severe injuries increase the risk of a greater number of complications and more-severe complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Altered consciousness&lt;br /&gt;
+&lt;/strong&gt;Moderate to severe traumatic brain injury can result in prolonged or permanent changes in a person&apos;s state of consciousness, awareness or responsiveness. Different states of consciousness include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Coma.&lt;/strong&gt; A person in a coma is unconscious, unaware of anything and unable to respond to any stimulus. This results from widespread damage to all parts of the brain. After a few days to a few weeks, a person may emerge from a coma or enter a vegetative state.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vegetative state.&lt;/strong&gt; Widespread damage to the brain can result in a vegetative state. Although the person is unaware of his or her surroundings, he or she may open his or her eyes, make sounds, respond to reflexes, or move. It&apos;s possible that a vegetative state can become permanent, but often individuals progress to a minimally conscious state.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Minimally conscious state.&lt;/strong&gt; A minimally conscious state is a condition of severely altered consciousness but with some evidence of self-awareness or awareness of one&apos;s environment. It is often a transitional state from a coma or vegetative condition to greater recovery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Locked-in syndrome.&lt;/strong&gt; A person in a locked-in state is aware of his or her surroundings and awake, but he or she isn&apos;t able to speak or move. The person may be able to communicate with eye movement or blinking. This state results from damage limited to the lower brain and brainstem. This rarely occurs after trauma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Seizures&lt;br /&gt;
+&lt;/strong&gt;Some people with traumatic brain injury will have seizures within the first week. Some serious injuries may result in recurring seizures, called post-traumatic epilepsy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fluid buildup&lt;br /&gt;
+&lt;/strong&gt;Cerebrospinal fluid may build up in the spaces in the brain (cerebral ventricles) of some people who have had traumatic brain injuries, causing swelling and increased pressure in the brain.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Infections&lt;br /&gt;
+&lt;/strong&gt;Skull fractures or penetrating wounds can tear the layers of protective tissues (meninges) that surround the brain. This can enable bacteria to enter the brain and cause infections. An infection of the meninges (meningitis) could spread to the rest of the nervous system if not treated.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood vessel damage&lt;br /&gt;
+&lt;/strong&gt;Several small or large blood vessels in the brain may be damaged in a traumatic brain injury. This damage could lead to a stroke, blood clots or other problems.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Nerve damage&lt;br /&gt;
+&lt;/strong&gt;Injuries to the base of the skull can damage nerves that emerge directly from the brain (cranial nerves). Cranial nerve damage may result in:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Paralysis of facial muscles&lt;/li&gt;
+	&lt;li&gt;Damage to the nerves responsible for eye movements, which can cause double vision&lt;/li&gt;
+	&lt;li&gt;Damage to the nerves that provide sense of smell&lt;/li&gt;
+	&lt;li&gt;Loss of vision&lt;/li&gt;
+	&lt;li&gt;Loss of facial sensation&lt;/li&gt;
+	&lt;li&gt;Swallowing problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cognitive problems&lt;br /&gt;
+&lt;/strong&gt;Most people who have had a significant brain injury will experience changes in their thinking (cognitive) skills. Traumatic brain injury can result in problems with many skills, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Memory&lt;/li&gt;
+	&lt;li&gt;Learning&lt;/li&gt;
+	&lt;li&gt;Reasoning&lt;/li&gt;
+	&lt;li&gt;Problem solving&lt;/li&gt;
+	&lt;li&gt;Speed of mental processing&lt;/li&gt;
+	&lt;li&gt;Judgment&lt;/li&gt;
+	&lt;li&gt;Attention or concentration&lt;/li&gt;
+	&lt;li&gt;Multitasking&lt;/li&gt;
+	&lt;li&gt;Organization&lt;/li&gt;
+	&lt;li&gt;Decision making&lt;/li&gt;
+	&lt;li&gt;Beginning or completing tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Communication problems&lt;br /&gt;
+&lt;/strong&gt;Language and communications problems are common following traumatic brain injuries. These problems can cause frustration, conflict and misunderstanding for people with a traumatic brain injury, as well as family members, friends and care providers. Communication problems may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty understanding speech or writing&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking or writing&lt;/li&gt;
+	&lt;li&gt;Difficulty deciphering nonverbal signals&lt;/li&gt;
+	&lt;li&gt;Inability to organize thoughts and ideas&lt;/li&gt;
+	&lt;li&gt;Inability to use the muscles needed to form words (dysarthria)&lt;/li&gt;
+	&lt;li&gt;Problems with changes in tone, pitch or emphasis to express emotions, attitudes or subtle differences in meaning&lt;/li&gt;
+	&lt;li&gt;Trouble starting or stopping conversations&lt;/li&gt;
+	&lt;li&gt;Trouble with turn taking or topic selection&lt;/li&gt;
+	&lt;li&gt;Trouble reading cues from listeners&lt;/li&gt;
+	&lt;li&gt;Trouble following conversations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavioral changes&lt;br /&gt;
+&lt;/strong&gt;People who&apos;ve experienced brain injury often experience changes in behaviors. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty with self-control&lt;/li&gt;
+	&lt;li&gt;Lack of awareness of abilities&lt;/li&gt;
+	&lt;li&gt;Risky behavior&lt;/li&gt;
+	&lt;li&gt;Inaccurate self-image&lt;/li&gt;
+	&lt;li&gt;Difficulty in social situations&lt;/li&gt;
+	&lt;li&gt;Verbal or physical outbursts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emotional changes&lt;br /&gt;
+&lt;/strong&gt;Emotional changes may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Mood swings&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Lack of empathy for others&lt;/li&gt;
+	&lt;li&gt;Anger&lt;/li&gt;
+	&lt;li&gt;Insomnia&lt;/li&gt;
+	&lt;li&gt;Changes in self-esteem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Sensory problems&lt;br /&gt;
+&lt;/strong&gt;Problems involving senses may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent ringing in the ears&lt;/li&gt;
+	&lt;li&gt;Difficulty recognizing objects&lt;/li&gt;
+	&lt;li&gt;Impaired hand-eye coordination&lt;/li&gt;
+	&lt;li&gt;Blind spots or double vision&lt;/li&gt;
+	&lt;li&gt;A bitter taste or a bad smell&lt;/li&gt;
+	&lt;li&gt;Skin tingling, pain or itching&lt;/li&gt;
+	&lt;li&gt;Trouble with balance or dizziness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Degenerative brain diseases&lt;br /&gt;
+&lt;/strong&gt;A traumatic brain injury may increase the risk of diseases that result in the gradual degeneration of brain cells and gradual loss of brain functions. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Alzheimer&apos;s disease, which primarily causes the progressive loss of memory and other thinking skills&lt;/li&gt;
+	&lt;li&gt;Parkinson&apos;s disease, a progressive condition that causes movement problems, such as tremors, rigidity and slow movements&lt;/li&gt;
+	&lt;li&gt;Dementia pugilistica &amp;mdash; most often associated with repetitive blows to the head in career boxing &amp;mdash; which causes symptoms of dementia and movement problems&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because traumatic brain injuries are usually emergencies and because consequences can worsen swiftly without treatment, doctors usually need to assess the situation rapidly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Glasgow&lt;/strong&gt;&lt;strong&gt; Coma Scale&lt;br /&gt;
+&lt;/strong&gt;This 15-point test helps a doctor or other emergency medical personnel assess the initial severity of a brain injury by checking a person&apos;s ability to follow directions and move their eyes and limbs. The coherence of speech also provides important clues. Abilities are scored numerically. Higher scores mean milder injuries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Information about the injury and symptoms&lt;br /&gt;
+&lt;/strong&gt;If you observed someone being injured or arrived immediately after an injury, you may be able to provide medical personnel with information that&apos;s useful in assessing the injured person&apos;s condition. Answers to the following questions may be beneficial in judging the severity of injury:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How did the injury occur?&lt;/li&gt;
+	&lt;li&gt;Did the person lose consciousness?&lt;/li&gt;
+	&lt;li&gt;How long was the person unconscious?&lt;/li&gt;
+	&lt;li&gt;Did you observe any other changes in alertness, speaking, coordination or other signs of injury?&lt;/li&gt;
+	&lt;li&gt;Where was the head or other parts of the body struck?&lt;/li&gt;
+	&lt;li&gt;Can you provide any information about the force of the injury? For example, what hit the person&apos;s head, how far did he or she fall, or was the person thrown from a vehicle?&lt;/li&gt;
+	&lt;li&gt;Was the person&apos;s body whipped around or severely jarred?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; A CT scan uses a series of X-rays to create a detailed view of the brain. A CT scan can quickly visualize fractures and uncover evidence of bleeding in the brain (hemorrhage), blood clots (hematomas), bruised brain tissue (contusions) and brain tissue swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; An MRI uses powerful radio waves and magnets to create a detailed view of the brain. Doctors don&apos;t often use MRIs during emergency assessments of traumatic brain injuries because the procedure takes too long. This test may be used after the person&apos;s condition has been stabilized.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Intracranial pressure monitor&lt;br /&gt;
+&lt;/strong&gt;Tissue swelling from a traumatic brain injury can increase pressure inside the skull and cause additional damage to the brain. Doctors may insert a probe through the skull to monitor this pressure.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Mild injury&lt;br /&gt;
+&lt;/strong&gt;Mild traumatic brain injuries usually require no treatment other than rest and over-the-counter pain relievers to treat a headache. However, a person with a mild traumatic brain injury usually needs to be monitored closely at home for any persistent, worsening or new symptoms. He or she also may have follow-up doctor appointments. 
+&lt;/p&gt;
+&lt;p&gt;
+The doctor will indicate when a return to work, school or recreational activities is appropriate. It&apos;s best to avoid physical or thinking (cognitive) activities until symptoms have stopped. Most people return to normal routines gradually. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immediate emergency care&lt;br /&gt;
+&lt;/strong&gt;Emergency care for moderate to severe traumatic brain injuries focuses on making sure the person has an adequate oxygen and blood supply, maintaining blood pressure, and preventing any further injury to the head or neck. People with severe injuries may also have other injuries that need to be addressed. 
+&lt;/p&gt;
+&lt;p&gt;
+Additional treatments in the emergency room or intensive care unit of a hospital will focus on minimizing secondary damage due to inflammation, bleeding or reduced oxygen supply to the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications to limit secondary damage to the brain immediately after an injury may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; These drugs reduce the amount of fluid in tissues and increase urine output. Diuretics, given intravenously to people with traumatic brain injury, help reduce pressure inside the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-seizure drugs.&lt;/strong&gt; People who&apos;ve had a moderate to severe traumatic brain injury are at risk of having seizures during the first week after their injury. An anti-seizure drug may be given during the first week to avoid any additional brain damage that might be caused by a seizure. Additional anti-seizure treatments are used only if seizures occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coma-inducing drugs.&lt;/strong&gt; Doctors sometimes use drugs to put people into temporary comas because a comatose brain needs less oxygen to function. This is especially helpful if blood vessels, compressed by increased pressure in the brain, are unable to deliver the usual amount of nutrients and oxygen to brain cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Emergency surgery may be needed to minimize additional damage to brain tissues. Surgery may be used to address the following problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing clotted blood (hematomas).&lt;/strong&gt; Bleeding outside or within the brain can result in a collection of clotted blood (hematoma) that puts pressure on the brain and damages brain tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Repairing skull fractures.&lt;/strong&gt; Surgery may be needed to repair severe skull fractures or to remove pieces of skull in the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Opening a window in the skull.&lt;/strong&gt; Surgery may be used to relieve pressure inside the skull by draining accumulated cerebral spinal fluid or creating a window in the skull that provides more room for swollen tissues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Rehabilitation&lt;br /&gt;
+&lt;/strong&gt;Most people who have had a significant brain injury will require rehabilitation. They may need to relearn basic skills, such as walking or talking. The goal is to improve their abilities to perform daily activities. 
+&lt;/p&gt;
+&lt;p&gt;
+Therapy usually begins in the hospital and continues at an inpatient rehabilitation unit, a residential treatment facility or through outpatient services. The type and duration of rehabilitation varies by individual, depending on the severity of the brain injury and what part of the brain was injured. Rehabilitation specialists may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physiatrist,&lt;/strong&gt; a doctor trained in physical medicine and rehabilitation, who oversees the entire rehabilitation process&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupational therapist&lt;/strong&gt; who helps the person learn, relearn or improve skills to perform everyday activities&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapist,&lt;/strong&gt; who helps with mobility and relearning movement patterns, balance and walking&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Speech and language pathologist,&lt;/strong&gt; who helps the person improve communication skills and use assistive communication devices if necessary&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neuropsychologist or psychiatrist,&lt;/strong&gt; who helps the person manage behaviors or learn coping strategies, provides talk therapy as needed for emotional and psychological well-being, and prescribes medication as needed&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Social worker or case manager,&lt;/strong&gt; who facilitates access to service agencies, assists with care decisions and planning, and facilitates communication among various professionals, care providers and family members&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rehabilitation nurse,&lt;/strong&gt; who provides ongoing rehabilitation care and services and who helps with discharge planning from the hospital or rehabilitation facility&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Traumatic brain injury nurse specialist,&lt;/strong&gt; who helps coordinate care and educates the family about the injury and recovery process&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recreational therapist,&lt;/strong&gt; who assists with leisure activities&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vocational counselor,&lt;/strong&gt; who&lt;strong&gt; &lt;/strong&gt;assesses the ability to return to work and appropriate vocational opportunities, and provides resources for addressing common challenges in the workplace&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow these tips to reduce the risk of brain injury:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Seat belts and airbags.&lt;/strong&gt; Always wear a seat belt in a motor vehicle. Small children should always sit in the back seat of a car and be secured in child safety seats or booster seats that are appropriate for their size and weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alcohol and drug use.&lt;/strong&gt; Don&apos;t drive under the influence of alcohol or drugs, including prescription medications that can impair the ability to drive.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Helmets.&lt;/strong&gt; Wear a helmet while riding a bicycle, skateboard, motorcycle, snowmobile or all-terrain vehicle. Also wear appropriate head protection when playing baseball or contact sports, skiing, skating, snowboarding or riding a horse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing falls&lt;br /&gt;
+&lt;/strong&gt;The following tips can help older adults avoid falls around the house:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Install handrails in bathrooms&lt;/li&gt;
+	&lt;li&gt;Put a nonslip mat in the bathtub or shower&lt;/li&gt;
+	&lt;li&gt;Remove area rugs&lt;/li&gt;
+	&lt;li&gt;Install handrails on both sides of staircases&lt;/li&gt;
+	&lt;li&gt;Improve lighting in the home&lt;/li&gt;
+	&lt;li&gt;Keep stairs and floors clear of clutter&lt;/li&gt;
+	&lt;li&gt;Get regular vision checkups&lt;/li&gt;
+	&lt;li&gt;Get regular exercise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing head injuries in children&lt;br /&gt;
+&lt;/strong&gt;The following tips can help children avoid head injuries:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Install safety gates at the top of stairs&lt;/li&gt;
+	&lt;li&gt;Keep stairs clear of clutter&lt;/li&gt;
+	&lt;li&gt;Install window guards to prevent falls&lt;/li&gt;
+	&lt;li&gt;Put a nonslip mat in the bathtub or shower&lt;/li&gt;
+	&lt;li&gt;Use playgrounds that have shock-absorbing materials on the ground&lt;/li&gt;
+	&lt;li&gt;Make sure area rugs are secure&lt;/li&gt;
+	&lt;li&gt;Don&apos;t let children play on fire escapes or balconies&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A number of strategies can help a person with traumatic brain injury cope with complications that affect everyday activities, communication and interpersonal relationships. Depending on the severity of injury, a family caregiver or friend may need to help implement the following approaches: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Join a support group.&lt;/strong&gt; Talk to your doctor or rehabilitation therapist about a support group that can help you talk about issues related to your injury, learn new coping strategies and get emotional support.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write things down.&lt;/strong&gt; Keep a record of important events, people&apos;s names, tasks or other things that are difficult to remember.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a routine.&lt;/strong&gt; Keep a consistent schedule, keep things in designated places to avoid confusion and take the same routes when going to frequently visited destinations.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take breaks.&lt;/strong&gt; Make arrangements at work or school to take breaks as needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Alter work expectations or tasks.&lt;/strong&gt; Appropriate changes at work or school may include having instructions read to you, allowing more time to complete tasks or breaking down tasks into smaller steps.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid distractions.&lt;/strong&gt; Minimize distractions such as loud background noise from a television or radio.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay focused.&lt;/strong&gt; Work on one task at a time.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Traumatic brain injury
+	</Title>
+	<Abstract>
+		Traumatic brain injury &amp;mdash; Comprehensive overview covers symptoms, causes and treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="HQ00763" LinkType="Internal" ObjectID="6636B3B9-E11F-4473-81FFAB8729500ECD" Title="Bump on the head: When is it a serious head injury?" Url="http://www.mayoclinic.com/health/head-injury/HQ00763" />
+		<LinkItem ContentType="FirstAid" DocID="FA00008" LinkType="Internal" ObjectID="4425997E-0F78-49B0-B8CCFEA3F3AAF219" Title="Head trauma: First aid" Url="http://www.mayoclinic.com/health/first-aid-head-trauma/FA00008" />
+		<LinkItem ContentType="Answer" DocID="AN01684" LinkType="Internal" ObjectID="3B686670-E7FF-0DBD-1C31B89E695D1746" Title="Phantosmia: What causes olfactory hallucinations?" Url="http://www.mayoclinic.com/health/phantosmia/AN01684" />
+		<LinkItem ContentType="Article" DocID="HQ00324" LinkType="Internal" ObjectID="DEACB8AC-B31F-4266-A5BCF8B90EB8E7A3" Title="Bicycle helmet do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/bicycle-helmet/HQ00324" />
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+		<LinkItem ContentType="Disease" DocID="DS00320" LinkType="Internal" ObjectID="024E17EF-6C4C-4A88-B46F76AE458A6EF7" Title="Concussion" Url="http://www.mayoclinic.com/health/concussion/DS00320" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,179 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00179
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/nitric-oxide-test/MY00179
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-25
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3656" Title="Immune system">
+						<Keyword MCVID="4323" Title="Nitric oxide test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			31CBA70A-E7FF-0DBD-141C42856C499305
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				nitric oxide test
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma test
+			</MetaKeyword>
+			<MetaKeyword>
+				asthma diagnosis
+			</MetaKeyword>
+			<MetaKeyword>
+				nitric oxide
+			</MetaKeyword>
+			<MetaKeyword>
+				exhaled nitric oxide
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An exhaled nitric oxide test is one of several tests that can be used to check for asthma. It involves breathing into a mouthpiece attached to a machine that measures the level of nitric oxide gas in your breath. Nitric oxide is produced by the body normally, but high levels in your breath can mean that your airways are inflamed &amp;mdash; a sign of asthma. 
+&lt;/p&gt;
+&lt;p&gt;
+To better understand your nitric oxide test results, your doctor may ask you detailed questions about asthma signs and symptoms. You may need other tests to see how well your lungs are working, such as peak flow measurement and spirometry tests. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Nitric oxide testing is done to help diagnose asthma or to see how well asthma medications are working. If you&apos;ve already been diagnosed with asthma, your doctor may use a nitric oxide test during office visits to help determine whether your asthma is under control. 
+&lt;/p&gt;
+&lt;p&gt;
+A nitric oxide test alone can&apos;t accurately diagnose asthma or measure asthma severity. For this reason, your doctor may have you take additional tests and will consider other information when examining the results of nitric oxide tests. 
+&lt;/p&gt;
+&lt;p&gt;
+Nitric oxide testing is only available in some hospitals and doctor&apos;s offices. It may not be necessary or provide useful information for everyone who has asthma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Check ahead of time to see whether nitric oxide testing is covered by your insurance. 
+&lt;/p&gt;
+&lt;p&gt;
+To make sure test results are accurate, you will need to avoid the following for at least two hours before you take the test: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using an asthma inhaler&lt;/li&gt;
+	&lt;li&gt;Eating and drinking&lt;/li&gt;
+	&lt;li&gt;Exercising&lt;/li&gt;
+	&lt;li&gt;Using tobacco, toothpaste or mouthwash&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To do this test, you&apos;ll be seated. Your doctor will have you put in a mouthpiece attached with a tube that leads to an electronic measurement device. Next, you&apos;ll breathe in for two or three seconds until your lungs are filled with air. Your doctor will then have you exhale steadily so that the air flows out of your lungs at a steady rate. Your doctor may have you watch a computer monitor that registers how much you&apos;re breathing out so that you can maintain a steady exhalation. You&apos;ll need to repeat the test a few times to confirm your results. The entire test generally takes five minutes or less. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of a woman taking a nitric oxide test 
+" Caption="A nitric oxide test for asthma involves breathing into a mouthpiece attached to a computer monitor that displays your results. 
+" Height="60" Title="Nitric oxide test for asthma" URI="/images/image_popup/thumbs/aa7_nitricthu.jpg" Width="60" />
+				<Image Alt="Photograph of a woman taking a nitric oxide test 
+" Caption="A nitric oxide test for asthma involves breathing into a mouthpiece attached to a computer monitor that displays your results. 
+" Height="280" Title="Nitric oxide test for asthma" URI="/images/image_popup/aa7_nitric.jpg" Width="400" />
+				<HTML>
+					A nitric oxide test for asthma involves breathing into a mouthpiece attached to a computer monitor that displays your results. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Higher than normal levels of nitric oxide generally mean your airways are inflamed &amp;mdash; a sign of asthma. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Levels under about 20 parts per billion in children and under about 30 parts per billion in adults are considered normal.&lt;/li&gt;
+	&lt;li&gt;More than 25 parts per billion in children and 35 parts per billion in adults may signal airway inflammation caused by asthma.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Keep in mind, nitric oxide test results can vary widely from person to person. When interpreting test results, your doctor will consider a number of other factors. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Results of other tests, such as peak flow tests or spirometry tests&lt;/li&gt;
+	&lt;li&gt;Past nitric oxide test results&lt;/li&gt;
+	&lt;li&gt;Your asthma signs and symptoms&lt;/li&gt;
+	&lt;li&gt;Any medications you take&lt;/li&gt;
+	&lt;li&gt;Whether you have a cold or the flu&lt;/li&gt;
+	&lt;li&gt;Whether you have hay fever or other allergies&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Nitric oxide test for asthma
+	</Title>
+	<Abstract>
+		Nitric oxide test &amp;mdash; Overview covers definition, risks, results of this procedure to evaluate asthma.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,364 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00993
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/gangrene/DS00993
+		</OriginalURL>
+		<UpdateDate>
+			2011-08-10
+		</UpdateDate>
+		<PublicationDate>
+			2007-08-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="2906" Title="Gangrene" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3479DCEF-E7FF-0DBD-1945D7BF078E9C47
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				gangrene
+			</MetaKeyword>
+			<MetaKeyword>
+				dry gangrene
+			</MetaKeyword>
+			<MetaKeyword>
+				wet gangrene
+			</MetaKeyword>
+			<MetaKeyword>
+				gas gangrene
+			</MetaKeyword>
+			<MetaKeyword>
+				internal gangrene
+			</MetaKeyword>
+			<MetaKeyword>
+				Fournier gangrene
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gangrene refers to the death of body tissue due to a lack of blood flow or a bacterial infection. Gangrene most commonly affects the extremities, including your toes, fingers and limbs, but it can also occur in your muscles and internal organs. 
+&lt;/p&gt;
+&lt;p&gt;
+Your chances of developing gangrene are higher if you have an underlying condition that can damage your blood vessels and affect blood flow, such as diabetes or atherosclerosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for gangrene include surgery to remove dead tissue, antibiotics and other approaches. The prognosis for recovery is better if gangrene is identified early and treated quickly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When gangrene affects your skin, signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Skin discoloration &amp;mdash; ranging from pale to blue, purple, black, bronze or red, depending on the type of gangrene you have&lt;/li&gt;
+	&lt;li&gt;Severe pain followed by a feeling of numbness&lt;/li&gt;
+	&lt;li&gt;A foul-smelling discharge leaking from a sore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a type of gangrene that affects tissues beneath the surface of your skin, such as gas gangrene or internal gangrene, you may notice that: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The affected tissue is swollen and painful&lt;/li&gt;
+	&lt;li&gt;You&apos;re running a fever and feel unwell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+A condition called septic shock can occur if a bacterial infection that originated in the gangrenous tissue spreads throughout your body. Signs and symptoms of septic shock include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;A body temperature greater than 100.4 F (38 C) or lower than 96.8 F (36 C)&lt;/li&gt;
+	&lt;li&gt;Rapid heart rate&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Gangrene is a serious condition and needs immediate treatment. Call your doctor right away if you have persistent, unexplained pain in any area of your body along with one or more of the following signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Persistent fever&lt;/li&gt;
+	&lt;li&gt;Skin changes &amp;mdash; including discoloration, warmth, swelling, blisters or lesions &amp;mdash; that won&apos;t go away&lt;/li&gt;
+	&lt;li&gt;A foul-smelling discharge leaking from a sore&lt;/li&gt;
+	&lt;li&gt;Sudden pain at the site of a recent surgery or trauma&lt;/li&gt;
+	&lt;li&gt;Skin that&apos;s pale, hard, cold and numb &amp;mdash; which may be an indication of frostbite&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gangrene may occur due to one or both of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Lack of blood supply.&lt;/strong&gt; Your blood provides oxygen, nutrients to feed your cells, and immune system components, such as antibodies, to ward off infections. Without a proper blood supply, cells can&apos;t survive, and your tissue decays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; If bacteria thrive unchecked for long, infection can take over and cause your tissue to die, causing gangrene.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of gangrene&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dry gangrene.&lt;/strong&gt; Dry gangrene is characterized by dry and shriveled skin ranging in color from brown to purplish-blue to black. Usually, dry gangrene develops slowly. It occurs most commonly in people who have a blood vessel disease, such as atherosclerosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wet gangrene.&lt;/strong&gt; Gangrene is referred to as &quot;wet&quot; if there&apos;s a bacterial infection in the affected tissue. Swelling, blistering and a wet appearance are common features of wet gangrene. It can develop after a severe burn, frostbite or injury. It often occurs in people with diabetes who unknowingly injure a toe or foot. Wet gangrene needs to be treated immediately because it spreads quickly and can be fatal.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Gas gangrene.&lt;/strong&gt; Gas gangrene typically affects deep muscle tissue. If you have gas gangrene, the surface of your skin may initially appear normal. As the condition progresses, your skin may become pale and then evolve to a gray or purplish-red color. A bubbly appearance to your skin may become apparent, and the affected skin may make a crackling sound when you press on it because of the gas within the tissue. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Gas gangrene is usually caused by infection with the bacterium Clostridium perfringens, which develops in an injury or surgical wound that&apos;s depleted of blood supply. The bacterial infection produces toxins that release gas &amp;mdash; hence the name &quot;gas&quot; gangrene &amp;mdash; and cause tissue death. Like wet gangrene, gas gangrene can become life-threatening. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Internal gangrene.&lt;/strong&gt; Gangrene affecting one or more of your organs, most commonly your intestines, gallbladder or appendix, is called internal gangrene. This type of gangrene occurs when blood flow to an internal organ is blocked &amp;mdash; for example, when your intestines bulge through a weakened area of muscle in your abdomen (hernia) and become twisted. Internal gangrene often causes a fever and severe pain. Left untreated, internal gangrene can be fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fournier&apos;s gangrene.&lt;/strong&gt; Fournier&apos;s gangrene is an uncommon type of gangrene that involves the genital organs. Men are more often affected, but women can develop this type of gangrene as well. Fournier&apos;s gangrene usually arises due to an infection in the genital area or urinary tract and causes genital pain, tenderness, redness and swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Progressive bacterial synergistic gangrene (Meleney&apos;s gangrene). &lt;/strong&gt;This rare type of gangrene typically occurs after an operation, with painful skin lesions developing one to two weeks after surgery.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Images showing gangrene of the hand and foot
+" Caption="Gangrene results when blood flow to a certain area of your body is interrupted, causing tissue decay and death. Gangrene often affects the fingers or toes.
+" Height="60" Title="Gangrene of the hand and foot" URI="/images/image_popup/thumbs/r7_gangrenethu.jpg" Width="60" />
+				<Image Alt="Images showing gangrene of the hand and foot
+" Caption="Gangrene results when blood flow to a certain area of your body is interrupted, causing tissue decay and death. Gangrene often affects the fingers or toes.
+" Height="221" Title="Gangrene of the hand and foot" URI="/images/image_popup/r7_gangrene.jpg" Width="400" />
+				<HTML>
+					Gangrene results when blood flow to a certain area of your body is interrupted, causing tissue decay and death. Gangrene often affects the fingers or toes.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Several factors increase your risk of developing gangrene. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Gangrene occurs far more often in older people.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; If you have diabetes, your body doesn&apos;t produce enough of the hormone insulin (which helps your cells take up blood sugar) or is resistant to the effects of insulin. High blood sugar levels can eventually damage blood vessels, interrupting blood flow to a part of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood vessel disease.&lt;/strong&gt; Hardened and narrowed arteries (atherosclerosis) and blood clots also can block blood flow to an area of your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe injury or surgery.&lt;/strong&gt; Any process that causes trauma to your skin and underlying tissue, including an injury or frostbite, increases your risk of developing gangrene, especially if you have an underlying condition that affects blood flow to the injured area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Obesity often accompanies diabetes and vascular disease, but the stress of extra weight alone can also compress arteries, leading to reduced blood flow and increasing your risk of infection and poor wound healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immunosuppression.&lt;/strong&gt; If you have an infection with the human immunodeficiency virus (HIV) or if you&apos;re undergoing chemotherapy or radiation therapy, your body&apos;s ability to fight off an infection is impaired.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; In rare instances, the anticoagulant drug warfarin (Coumadin) has been known to cause gangrene &amp;mdash; especially in combination with heparin therapy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Gangrene can lead to scarring or the need for reconstructive surgery. Sometimes, the amount of tissue death is so extensive that a body part, such as your foot, may need to be removed. 
+&lt;/p&gt;
+&lt;p&gt;
+Gangrene that is infected with bacteria can spread quickly to other organs and may be fatal if left untreated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Call your doctor right away if you have symptoms of gangrene. Depending on the severity of your symptoms, you may be told to go to the emergency department or to call 911 or your local emergency number for medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have time before you leave home or on the way to the hospital, use the information below to get ready for your medical evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. It will help your doctor to have as many details as possible about when your symptoms first appeared and how they may have worsened or spread over time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any recent injury or trauma to your skin,&lt;/strong&gt; including cuts, bites, injections, surgery or possible frostbite. If you have recently used injectable recreational drugs, this is critical information to share with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including any other conditions with which you&apos;ve been diagnosed. Also write down all medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Gangrene is a medical emergency. Take someone who can soak up all the information your doctor provides and who can stay with you if you need immediate treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Prepare a list of questions so that you can make the most of your time with your doctor. For gangrene, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Do I need to be hospitalized?&lt;/li&gt;
+	&lt;li&gt;What treatments do I need?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms will improve with treatment?&lt;/li&gt;
+	&lt;li&gt;Will I have a full recovery?&lt;/li&gt;
+	&lt;li&gt;How long will recovery take?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them will help your doctor quickly determine next steps in making your diagnosis and starting care. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How painful is the affected area?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms seem to be spreading or getting worse?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent injuries or trauma to your skin, such as cuts, wounds, bites or surgery?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any prolonged exposure to extreme cold that made your skin change color or turn numb?&lt;/li&gt;
+	&lt;li&gt;Do you use injectable drugs, including recreational drugs?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you taking or have you recently taken, including prescription drugs, over-the-counter medications, herbs and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests used to help make a diagnosis of gangrene include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; An abnormally elevated white blood cell count often indicates the presence of an infection.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Imaging tests.&lt;/strong&gt; An X-ray, a computerized tomography (CT) scan or a magnetic resonance imaging (MRI) scan can be used to view interior body structures and assess the extent to which gangrene has spread. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	An arteriogram is an imaging test used to visualize your arteries. During this test, dye is injected into your bloodstream and X-ray pictures are taken to determine how well blood is flowing through your arteries. An arteriogram can help your doctor find out whether any of your arteries are blocked. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Surgery may be performed to determine the extent to which gangrene has spread within your body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid or tissue culture.&lt;/strong&gt; A culture of the fluid from a blister on your skin may be examined for the bacterium Clostridium perfringens, a common cause of gas gangrene, or your doctor may look at a tissue sample under a microscope for signs of cell death.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tissue that has been damaged by gangrene can&apos;t be saved, but steps can be taken to prevent gangrene from progressing. These treatments include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery.&lt;/strong&gt; Your doctor removes the dead tissue, which helps stop gangrene from spreading and allows healthy tissue to heal. If possible, your doctor may repair damaged or diseased blood vessels in order to increase blood flow to the affected area. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	A skin graft is a type of reconstructive surgery that may be used to repair damage to your skin caused by gangrene. During a skin graft, your doctor removes healthy skin from another part of your body &amp;mdash; usually a place hidden by clothing &amp;mdash; and carefully spreads it over an affected area. The healthy skin may be held in place by a dressing or by a couple of small stitches. A skin graft can be done only if an adequate blood supply has been restored to the damaged skin. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In severe cases of gangrene, an affected body part, such as a toe, finger or limb, may need to be surgically removed (amputated). In some cases, you may later be fitted with an artificial limb (prosthesis). 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; Antibiotics given through a vein (intravenous) may be used to treat gangrene that&apos;s become infected.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Hyperbaric oxygen therapy.&lt;/strong&gt; Hyperbaric oxygen therapy may be used to treat gas gangrene. Under increased pressure and increased oxygen content, your blood is able to carry greater amounts of oxygen. Blood rich in oxygen slows the growth of bacteria that thrive in the absence of oxygen and helps infected wounds heal more easily. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In this type of therapy, you&apos;ll be situated in a special chamber, which usually consists of a padded table that slides into a clear plastic tube. The chamber is pressurized with pure oxygen, and the pressure inside the chamber will slowly rise to about two and a half times normal atmospheric pressure. During the therapy, your ears might pop as they adjust to the increased pressure. Afterward, you may feel lightheaded and tired. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Hyperbaric oxygen therapy for gas gangrene generally lasts about 90 minutes. You may need up to three treatments on the first day of hyperbaric oxygen therapy, followed by twice-daily treatments for up to five days. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other treatments for gangrene may include supportive care, including fluids, nutrients, and pain medication to relieve your discomfort. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Outlook&lt;/strong&gt;&lt;br /&gt;
+Generally, people who have dry gangrene have the best prognoses because dry gangrene doesn&apos;t involve a bacterial infection and spreads more slowly than do the other types of gangrene. However, when infected gangrene is recognized and treated quickly, the probability of recovery is good. 
+&lt;/p&gt;
+&lt;p&gt;
+Older people, those who are immunocompromised, those who have underlying conditions, such as diabetes, atherosclerosis or some cancers, and those who have advanced cases of gangrene by the time they seek treatment are most likely to have complications from gangrene. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here are a few suggestions to help you reduce your risk of developing gangrene: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Care for your diabetes.&lt;/strong&gt; If you have diabetes, make sure you examine your hands and feet daily for cuts, sores and signs of infection, such as redness, swelling or drainage. Ask your doctor to examine your hands and feet at least once a year.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight.&lt;/strong&gt; Excess pounds not only put you at risk of diabetes, but also place pressure on your arteries, constricting blood flow and putting you at risk of infection and slow wound healing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use tobacco.&lt;/strong&gt; The chronic use of tobacco products can damage your blood vessels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Help prevent infections.&lt;/strong&gt; Wash any open wounds with a mild soap and water and try to keep them clean and dry until they heal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch out when the temperature drops.&lt;/strong&gt; Frostbitten skin can lead to gangrene, because frostbite reduces blood circulation in an affected area. If you notice that any area of your skin has become pale, hard, cold and numb after prolonged exposure to cold temperatures, call your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Gangrene
+	</Title>
+	<Abstract>
+		Gangrene &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of tissue death.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00829" LinkType="Internal" ObjectID="0642C9A9-9B43-1C8D-B8C747F7A330D396" Title="Hyperbaric oxygen therapy" Url="http://www.mayoclinic.com/health/hyperbaric-oxygen-therapy/MY00829" />
+		<LinkItem ContentType="Disease" DocID="DS01164" LinkType="Internal" ObjectID="CB3E5653-B483-A7AE-847923075E5FE2FC" Title="Frostbite" Url="http://www.mayoclinic.com/health/frostbite/DS01164" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,285 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01075
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mosquito-bites/DS01075
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-24
+		</UpdateDate>
+		<PublicationDate>
+			2008-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3276" Title="Summer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4047" Title="Mosquito bites" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4D48B231-E7FF-0DBD-143BAB1B87152564
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mosquito bites
+			</MetaKeyword>
+			<MetaKeyword>
+				mosquitoes
+			</MetaKeyword>
+			<MetaKeyword>
+				misquito bites
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mosquito bites are the itchy bumps that appear after mosquitos use their mouthparts to puncture your skin and feed on your blood. Most mosquito bites are harmless, but occasionally a mosquito bite causes a large area of swelling, soreness and redness. This type of reaction, most common in children, is sometimes referred to as skeeter syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+Bites from mosquitoes carrying certain viruses or parasites can cause severe illness. Infected mosquitoes in many parts of the world transmit West Nile virus to humans. Other mosquito-borne infections include yellow fever, malaria and some types of brain infection (encephalitis). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people never notice their first mosquito bites. After being bitten several times, though, you&apos;re likely to start noticing, often almost immediately after the mosquito feeds. The signs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A puffy, white bump that appears a few minutes after the bite&lt;/li&gt;
+	&lt;li&gt;A hard, itchy, reddish-brown bump, or multiple bumps, appearing a day or so after the bite or bites&lt;/li&gt;
+	&lt;li&gt;Swelling around bites&lt;/li&gt;
+	&lt;li&gt;Small blisters instead of hard bumps&lt;/li&gt;
+	&lt;li&gt;Dark spots that look like bruises&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In children and people with immune system disorders, mosquito bites sometimes trigger: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A large area of swelling and redness&lt;/li&gt;
+	&lt;li&gt;Low-grade fever&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Swollen lymph nodes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If mosquito bites seem to be associated with more-serious signs and symptoms &amp;mdash; such as fever, headache and body aches &amp;mdash; contact your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mosquito bites are caused by female mosquitoes feeding on your blood. Female mosquitoes have a mouthpart made to pierce skin and siphon off blood. Males lack this blood-sucking ability because they don&apos;t produce eggs and so have no need for protein in blood. 
+&lt;/p&gt;
+&lt;p&gt;
+As a biting mosquito fills itself with blood, it injects saliva into your skin. Proteins in the saliva trigger a mild immune system reaction that results in the characteristic itching and bump. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mosquitoes select their victims by evaluating scent, exhaled carbon dioxide and the chemicals in a person&apos;s sweat. There&apos;s conflicting evidence about whether mosquitoes prefer women or men.
+&lt;/p&gt;
+&lt;p&gt;
+Because most adults have had mosquito bites throughout their lives, an adult is less likely to have a severe reaction than is a child.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mosquitoes can act as reservoirs of diseases such as West Nile virus, malaria, yellow fever and dengue fever. The mosquito obtains a virus by biting an infected person or animal. Then, when biting you, the mosquito can transfer that virus or parasite to you through its saliva. West Nile and encephalitis viruses are found in the United States. Dengue fever, although it is rare, has been reported in the southeastern United States. Other diseases, such as malaria and yellow fever, are far more common in tropical areas of the world. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You won&apos;t need to see your doctor for a mosquito bite. If you develop a fever or other signs and symptoms of illness possibly associated with a mosquito bite, you&apos;ll need to visit your primary care physician. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any questions&lt;/strong&gt; you may have.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re having symptoms you think might be related to a mosquito bite, some basic questions you might have include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What can I do to stop the itch?&lt;/li&gt;
+	&lt;li&gt;Is the area around my mosquito bite infected?&lt;/li&gt;
+	&lt;li&gt;Does the medication you&apos;re prescribing have any side effects?&lt;/li&gt;
+	&lt;li&gt;How will I know if I need additional care?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If the itching is a problem, an over-the-counter antihistamine may help. Examples include diphenhydramine (Benadryl), chlorpheniramine (Chlor-Trimeton), loratadine (Claritin) and cetirizine (Zyrtec).
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors can usually identify mosquito bites by sight, particularly during seasons and in warm, humid regions with many mosquitoes. 
+&lt;/p&gt;
+&lt;p&gt;
+The red, itchy, painful swelling referred to as skeeter syndrome is sometimes mistaken for a secondary bacterial infection brought on by excessive scratching and broken skin. Skeeter syndrome is actually the result of an allergic reaction to proteins in mosquito saliva. There&apos;s no simple blood test to detect mosquito antibodies in blood, so mosquito allergy is diagnosed by history of mosquito exposure followed by large, red areas of swelling and itching. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most mosquito bites stop itching and heal on their own without medical treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Topical treatments&lt;br /&gt;
+&lt;/strong&gt;Apply a hydrocortisone cream or calamine lotion to bites. A cold pack or baggie filled with crushed ice may help, too. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oral antihistamines&lt;br /&gt;
+&lt;/strong&gt;For stronger reactions, taking an antihistamine containing diphenhydramine (Benadryl), chlorpheniramine (Chlor-Trimeton), loratadine (Claritin) or cetirizine (Zyrtec) may ease your body&apos;s response. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take a number of steps to limit your exposure to mosquitoes and protect yourself from bites when mosquitoes are unavoidable. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Use insect repellent&lt;br /&gt;
+&lt;/strong&gt;Most insect repellent products applied to the skin contain one of three active ingredients: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;DEET &lt;/li&gt;
+	&lt;li&gt;Picaridin (also called KBR 3023)&lt;/li&gt;
+	&lt;li&gt;Oil of lemon eucalyptus (a plant-based compound)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These repellents temporarily keep hungry mosquitoes from identifying you as a food source. The higher the concentration of DEET or picaridin in a product, the longer its protection will last. An application of a standard oil of lemon eucalyptus product protects you about as long as a product containing DEET at a low concentration. 
+&lt;/p&gt;
+&lt;p&gt;
+Used according to package directions, insect repellents are generally safe for children and adults, with a few exceptions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Don&apos;t use DEET-containing products on infants younger than 6 months.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t let young children get DEET or picaridin-containing products on their hands or faces.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t use picaridin or oil of lemon eucalyptus on children under age 3.&lt;/li&gt;
+	&lt;li&gt;Apply repellent only to exposed areas of skin &amp;mdash; not under clothing.&lt;/li&gt;
+	&lt;li&gt;When you go indoors, wash with soap and water to remove any remaining repellent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treat clothing and outdoor gear&lt;br /&gt;
+&lt;/strong&gt;Permethrin is an insecticide and insect repellent recommended for use on clothing and outdoor equipment. You apply a permethrin product directly to the clothes and fabric-covered equipment you want to protect. Because many brands of permethrin-based insect repellent are available, check the product label for specific application instructions. Some sporting goods stores sell clothing pretreated with permethrin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Wear protective clothing&lt;br /&gt;
+&lt;/strong&gt;When you&apos;re in an area with lots of mosquitoes, wear: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Long sleeves&lt;/li&gt;
+	&lt;li&gt;Socks&lt;/li&gt;
+	&lt;li&gt;Long pants, possibly tucked into the tops of your socks&lt;/li&gt;
+	&lt;li&gt;Light colors&lt;/li&gt;
+	&lt;li&gt;A wide-brimmed hat to help protect your ears and the back of your neck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Reduce mosquitoes around your home&lt;br /&gt;
+&lt;/strong&gt;Mosquitoes need standing water to breed. To keep your house and yard free of mosquito pools: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Unclog roof gutters.&lt;/li&gt;
+	&lt;li&gt;Empty children&apos;s wading pools at least once a week, and preferably more often.&lt;/li&gt;
+	&lt;li&gt;Change water in birdbaths at least weekly.&lt;/li&gt;
+	&lt;li&gt;Get rid of old tires in your yard.&lt;/li&gt;
+	&lt;li&gt;Empty outdoor flower pots regularly or store them upside down so that they can&apos;t collect water.&lt;/li&gt;
+	&lt;li&gt;Drain your fire pit if water collects there.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Mosquito bites
+	</Title>
+	<Abstract>
+		Mosquito bites &amp;mdash; Comprehensive overview covers prevention, treatment and role in disease transmission.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00009" LinkType="Internal" ObjectID="5F5A74E2-A867-4ACB-87B1C7840D83BF25" Title="Anaphylaxis" Url="http://www.mayoclinic.com/health/anaphylaxis/DS00009" />
+	</RelatedLinksBox>
+</Disease>

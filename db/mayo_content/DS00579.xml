@@ -1,0 +1,357 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00579
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cholera/DS00579
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-30
+		</UpdateDate>
+		<PublicationDate>
+			2005-03-31
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2533" Title="Cholera" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			24332511-3975-41A4-8616AC5F08621F70
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cholera
+			</MetaKeyword>
+			<MetaKeyword>
+				cholera disease
+			</MetaKeyword>
+			<MetaKeyword>
+				cholera symptom
+			</MetaKeyword>
+			<MetaKeyword>
+				cholera epidemic
+			</MetaKeyword>
+			<MetaKeyword>
+				cholera vaccine
+			</MetaKeyword>
+			<MetaKeyword>
+				cholera toxin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholera is a bacterial disease usually spread through contaminated water. Cholera causes severe diarrhea and dehydration. Left untreated, cholera can be fatal in a matter of hours even in previously healthy people. 
+&lt;/p&gt;
+&lt;p&gt;
+Modern sewage and water treatment have virtually eliminated cholera in industrialized countries. The last major outbreak in the United States occurred in 1911. But cholera is still present in Asia, the Middle East, Latin America, India and sub-Saharan Africa. The risk of cholera epidemic is highest when poverty, war or natural disasters force people to live in crowded conditions without adequate sanitation. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholera is easily treated. Death results from severe dehydration that can be prevented with a simple and inexpensive rehydration solution. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people exposed to the cholera bacterium (Vibrio cholerae) don&apos;t become ill and never know they&apos;ve been infected. Yet because they shed cholera bacteria in their stool for seven to 14 days, they can still infect others through contaminated water. Most symptomatic cases of cholera cause mild or moderate diarrhea that&apos;s often hard to distinguish from diarrhea caused by other problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Only about one in 10 infected people develops the typical signs and symptoms of cholera, usually within a few days of infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Symptoms of cholera infection may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Diarrhea.&lt;/strong&gt; Cholera-related diarrhea comes on suddenly and may quickly cause dangerous fluid loss &amp;mdash; as much as a quart (.95 liters) an hour. Diarrhea due to cholera often has a pale, milky appearance that resembles water in which rice has been rinsed (rice-water stool).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nausea and vomiting. &lt;/strong&gt;Occurring in both the early and later stages of cholera, vomiting may persist for hours at a time.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Dehydration.&lt;/strong&gt; Dehydration can develop within hours after the onset of cholera symptoms. Depending on how many body fluids have been lost, dehydration can range from mild to severe. A loss of 10 percent or more of total body weight indicates severe dehydration.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Signs and symptoms of cholera dehydration include irritability, lethargy, sunken eyes, a dry mouth, extreme thirst, dry and shriveled skin that&apos;s slow to bounce back when pinched into a fold, little or no urine output, low blood pressure, and an irregular heartbeat (arrhythmia). 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Dehydration may lead to a rapid loss of minerals in your blood (electrolytes) that maintain the balance of fluids in your body. This is called an electrolyte imbalance. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrolyte imbalance&lt;/strong&gt; &lt;br /&gt;
+An electrolyte imbalance can lead to serious signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle cramps.&lt;/strong&gt; These result from the rapid loss of salts such as sodium, chloride and potassium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shock.&lt;/strong&gt; This is one of the most serious complications of dehydration. It occurs when low blood volume causes a drop in blood pressure and a drop in the amount of oxygen in your body. If untreated, severe hypovolemic shock can cause death in a matter of minutes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Signs and symptoms of cholera in children&lt;/strong&gt; &lt;br /&gt;
+In general, children with cholera have the same signs and symptoms adults do, but they may also experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Extreme drowsiness or even coma&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Convulsions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+The risk of cholera is slight in industrialized nations, and even in endemic areas you&apos;re not likely to become infected if you follow food safety recommendations.&amp;nbsp;Still, sporadic cases of cholera occur throughout the world. If you develop severe diarrhea after visiting an area with active cholera, see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have diarrhea, especially severe diarrhea, and think you may have been exposed to cholera, seek treatment right away. Severe dehydration is a medical emergency that requires immediate care regardless of the cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A bacterium called Vibrio cholerae causes cholera infection. However, the deadly effects of the disease are the result of a potent toxin, called CTX, that the bacteria produce in the small intestine. CTX binds to the intestinal walls, where it interferes with the normal flow of sodium and chloride. This causes the body to secrete enormous amounts of water, leading to diarrhea and a rapid loss of fluids and salts (electrolytes). 
+&lt;/p&gt;
+&lt;p&gt;
+Contaminated water supplies are the main source of cholera infection, although raw shellfish, uncooked fruits and vegetables, and other foods also can harbor V. cholerae. 
+&lt;/p&gt;
+&lt;p&gt;
+Cholera bacteria have two distinct life cycles &amp;mdash; one in the environment and one in humans. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cholera bacteria in the environment&lt;/strong&gt; &lt;br /&gt;
+Cholera bacteria occur naturally in coastal waters, where they attach to tiny crustaceans called copepods. The cholera bacteria travel with their hosts, spreading worldwide as the crustaceans follow their food source &amp;mdash; certain types of algae and plankton that grow explosively when water temperatures rise. Algae growth is further fueled by the urea found in sewage and in agricultural runoff. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Cholera bacteria in people&lt;/strong&gt; &lt;br /&gt;
+When humans ingest cholera bacteria, they may not become sick themselves, but they still pass the bacteria in their stool. When human feces contaminate food or water supplies, both can serve as ideal breeding grounds for the cholera bacteria. 
+&lt;/p&gt;
+&lt;p&gt;
+Because more than a million cholera bacteria &amp;mdash; approximately the amount you&apos;d find in a glass of contaminated water &amp;mdash; are needed to cause illness, cholera usually isn&apos;t transmitted through casual person-to-person contact. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common sources of cholera infection are standing water and certain types of food, including seafood, raw fruits and vegetables, and grains. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Surface or well water.&lt;/strong&gt; Cholera bacteria can lie dormant in water for long periods, and contaminated public wells are frequent sources of large-scale cholera outbreaks. People living in crowded conditions without adequate sanitation are especially at risk of cholera.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seafood.&lt;/strong&gt; Eating raw or undercooked seafood, especially shellfish, that originates from certain locations can expose you to cholera bacteria. Most recent cases of cholera occurring in the United States have been traced to seafood from the Gulf of Mexico.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Raw fruits and vegetables.&lt;/strong&gt; Raw, unpeeled fruits and vegetables are a frequent source of cholera infection in areas where cholera is endemic. In developing nations, uncomposted manure fertilizers or irrigation water containing raw sewage can contaminate produce in the field.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Grains.&lt;/strong&gt; In regions where cholera is widespread, grains such as rice and millet that are contaminated after cooking and allowed to remain at room temperature for several hours become a medium for the growth of cholera bacteria&lt;em&gt;.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Everyone is susceptible to cholera, with the exception of infants who derive immunity from nursing mothers who have previously had cholera. Still, certain factors can make you more vulnerable to the disease or more likely to experience severe signs and symptoms. Risk factors for cholera include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Poor sanitary conditions.&lt;/strong&gt; Cholera is more likely to flourish in situations where a sanitary environment &amp;mdash; including a safe water supply &amp;mdash; is difficult to maintain. Such conditions are common to refugee camps, impoverished countries, and areas devastated by famine, war or natural disasters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduced or nonexistent stomach acid (hypochlorhydria or achlorhydria).&lt;/strong&gt; Cholera bacteria can&apos;t survive in an acidic environment, and ordinary stomach acid often serves as a first-line defense against infection. But people with low levels of stomach acid &amp;mdash; such as children, older adults and people who take antacids, H-2 blockers or proton pump inhibitors &amp;mdash; lack this protection, so they&apos;re at greater risk of cholera.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Household exposure.&lt;/strong&gt; You&apos;re at significantly increased risk of cholera if you live with someone who has the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Type O blood.&lt;/strong&gt; For reasons that aren&apos;t entirely clear, people with type O blood are twice as likely to develop cholera as are people with other blood types.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Raw or undercooked shellfish.&lt;/strong&gt; Although large-scale cholera outbreaks no longer occur in industrialized nations, eating shellfish from waters known to harbor the bacteria greatly increases your risk.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholera can quickly become fatal. In the most severe cases, the rapid loss of large amounts of fluids and electrolytes can lead to death within two to three hours. In less extreme situations, people who don&apos;t receive treatment may die of dehydration and shock 18 hours to several days after cholera symptoms first appear. 
+&lt;/p&gt;
+&lt;p&gt;
+Although shock and severe dehydration are the most devastating complications of cholera, other problems can occur, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Low blood sugar (hypoglycemia).&lt;/strong&gt; Dangerously low levels of blood sugar (glucose) &amp;mdash; the body&apos;s main energy source &amp;mdash; may occur when people become too ill to eat. Children are at greatest risk of this complication, which can cause seizures, unconsciousness and even death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low potassium levels (hypokalemia).&lt;/strong&gt; People with cholera lose large quantities of minerals, including potassium, in their stools. Very low potassium levels interfere with heart and nerve function and are life-threatening.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney (renal) failure.&lt;/strong&gt; When the kidneys lose their filtering ability, excess amounts of fluids, some electrolytes and wastes build up in your body &amp;mdash; a potentially life-threatening condition. In people with cholera, kidney failure often accompanies shock.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Seek immediate medical care if you develop severe diarrhea or vomiting and are in or have very recently returned from a country where cholera occurs. 
+&lt;/p&gt;
+&lt;p&gt;
+If you believe you may have been exposed to cholera, but your symptoms are not severe, call your family doctor or general practitioner. Be sure to tell him or her that you suspect your illness may be cholera. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Info&lt;/strong&gt;&lt;strong&gt;rmation to gather in advance&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, ask if there are any restrictions you need to follow in the time leading up to your visit.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptom history.&lt;/strong&gt; Write down any symptoms you&apos;ve been experiencing, and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Recent exposure to possible sources of infection.&lt;/strong&gt; Your doctor will be especially interested to know if you have recently traveled abroad and where.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; Make a list of your key medical information, including other conditions for which you&apos;re being treated and any medications, vitamins or supplements you&apos;re currently taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions to ask your doctor.&lt;/strong&gt; Write down your questions in advance so that you can make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The list below suggests questions to raise with your doctor about cholera. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have cholera?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any possible side effects from the medications I&apos;ll be taking?&lt;/li&gt;
+	&lt;li&gt;How soon after I begin treatment will I begin to feel better?&lt;/li&gt;
+	&lt;li&gt;How long do you expect a full recovery to take?&lt;/li&gt;
+	&lt;li&gt;When can I return to work or school?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of any long-term complications from cholera?&lt;/li&gt;
+	&lt;li&gt;Am I contagious? How can I reduce my risk of passing my illness to others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may leave you time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Where and when have you traveled?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had watery diarrhea? How severe?&lt;/li&gt;
+	&lt;li&gt;Have you noticed anything else unusual about the appearance of your stools?&lt;/li&gt;
+	&lt;li&gt;Have you been vomiting?&lt;/li&gt;
+	&lt;li&gt;Have you experienced symptoms of dehydration, such as intense thirst, muscle cramps or fatigue?&lt;/li&gt;
+	&lt;li&gt;Have you been able to keep down any food or liquid?&lt;/li&gt;
+	&lt;li&gt;What other signs or symptoms concern you?&lt;/li&gt;
+	&lt;li&gt;Have you recently traveled abroad? Where?&lt;/li&gt;
+	&lt;li&gt;Have you recently eaten raw shellfish, such as oysters?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant?&lt;/li&gt;
+	&lt;li&gt;What is your blood type, if you know it?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you currently taking any medications?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+Be sure to stay well hydrated in the time leading up to your appointment. For diarrhea and vomiting that may be cholera-related, drinks such as water, juice and soda won&apos;t adequately replenish both fluids and electrolytes. Instead, use an oral rehydration solution such as Rehydralyte for adults or Pedialyte for children. In most developing countries, you can buy powdered packets of Oral Rehydration Salts (ORS), originally developed by the World Health Organization to treat diarrhea and dehydration in infants with cholera. Reconstitute the powder in water according to the directions on the package. 
+&lt;/p&gt;
+&lt;p&gt;
+If no oral rehydration solutions are available, you can make your own by combining 1 quart (about 1 liter) of bottled or boiled water with 8 level teaspoons (about 40 milliliters) of table sugar and 1 level teaspoon (about 5 milliliters) of table salt. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although signs and symptoms of severe cholera may be unmistakable in endemic areas, the only way to confirm a diagnosis is to identify the bacteria in a stool sample. 
+&lt;/p&gt;
+&lt;p&gt;
+Rapid cholera dipstick tests are now available, enabling health care providers in remote areas to confirm diagnosis of cholera earlier. Quicker confirmation helps to decrease death rates at the start of cholera outbreaks and leads to earlier public health interventions for outbreak control. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholera requires immediate treatment because the disease can cause death within hours. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rehydration. &lt;/strong&gt;The goal is to replace lost fluids and electrolytes using a simple rehydration solution, Oral Rehydration Salts (ORS). The ORS solution is available as a powder that can be reconstituted in boiled or bottled water. Without rehydration, approximately half the people with cholera die. With treatment, the number of fatalities drops to less than 1 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous fluids.&lt;/strong&gt; During a cholera epidemic, most people can be helped by oral rehydration alone, but severely dehydrated people may also need intravenous fluids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; While antibiotics are not a necessary part of cholera treatment, some of these drugs may reduce both the amount and duration of cholera-related diarrhea. A single dose of doxycycline (Adoxa, Monodox) or azithromycin (Zithromax, Zmax) may be effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Zinc supplements.&lt;/strong&gt; Research has shown that zinc may decrease and shorten the duration of diarrhea in children with cholera.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cholera cases reported in the United States since 1995 have been traced to sources outside the U.S. or to contaminated and improperly cooked seafood from the Gulf Coast waters. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re traveling to cholera-endemic areas, your risk of contracting the disease is extremely low if you follow these precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash hands with soap and water frequently,&lt;/strong&gt; especially after using the toilet and before handling food. Rub soapy, wet hands together for at least 15 seconds before rinsing. If soap and water aren&apos;t available, use an alcohol-based hand sanitizer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drink only safe water,&lt;/strong&gt;&lt;strong&gt; including &lt;/strong&gt;bottled water or water you&apos;ve boiled or disinfected yourself. Use bottled water even to brush your teeth. Hot beverages are generally safe, as are canned or bottled drinks, but wipe the outside before you open them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat food that&apos;s completely cooked and hot&lt;/strong&gt; and avoid street vendor food, if possible. If you do buy a meal from a street vendor, make sure it&apos;s cooked in your presence and served hot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sushi,&lt;/strong&gt; as well as&lt;strong&gt; &lt;/strong&gt;raw or improperly cooked fish and seafood of any kind.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stick to fruits and vegetables that you can peel yourself,&lt;/strong&gt; such as bananas, oranges and avocados. Stay away from salads and fruits that can&apos;t be peeled, such as grapes and berries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be wary of dairy foods,&lt;/strong&gt; including ice cream, which is often contaminated, and unpasteurized milk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Cholera vaccine&lt;/strong&gt; &lt;br /&gt;
+Because travelers have a low risk of contracting cholera and because the traditional injected vaccine offers minimal protection, no cholera vaccine is currently available in the United States. A few countries offer two oral vaccines that may provide longer and better immunity than the older versions did. If you&apos;d like more information about these vaccines, contact your doctor or local office of public health. Keep in mind that no country requires immunization against cholera as a condition for entry. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cholera
+	</Title>
+	<Abstract>
+		Cholera &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and prevention of this life-threatening bacterial disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Disease" DocID="DS00280" LinkType="Internal" ObjectID="9E510C36-F9F7-4E3B-A7054C1D1F942043" Title="Acute kidney failure" Url="http://www.mayoclinic.com/health/kidney-failure/DS00280" />
+		<LinkItem ContentType="Disease" DocID="DS00561" LinkType="Internal" ObjectID="5C302784-080C-4278-B4953F801900B4F2" Title="Dehydration" Url="http://www.mayoclinic.com/health/dehydration/DS00561" />
+	</RelatedLinksBox>
+</Disease>

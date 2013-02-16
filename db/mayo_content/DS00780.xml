@@ -1,0 +1,370 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00780
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/neuroblastoma/DS00780
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="3146" Title="Neuroblastoma" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FD7A582D-E7FF-0DBD-1DEAB7F2282CA374
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				neuroblastoma
+			</MetaKeyword>
+			<MetaKeyword>
+				childhood cancer
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Neuroblastoma is a cancer that develops from immature nerve cells found in several areas of the body. Neuroblastoma most commonly arises in and around the adrenal glands, which have similar origins to nerve cells and sit atop the kidneys. However, neuroblastoma can also develop in other areas of the abdomen and in the chest, neck and near the spine, where groups of nerve cells exist. 
+&lt;/p&gt;
+&lt;p&gt;
+Neuroblastoma most commonly affects children age 5 or younger, though it may rarely occur in older children. 
+&lt;/p&gt;
+&lt;p&gt;
+Some forms of neuroblastoma go away on their own, while others may require multiple treatments. Your child&apos;s neuroblastoma treatment options will depend on several factors. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of neuroblastoma vary depending on what part of the body is affected. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Neuroblastoma in the abdomen&lt;/strong&gt; &amp;mdash; the most common form &amp;mdash; may cause signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pain&lt;/li&gt;
+	&lt;li&gt;A mass under the skin that isn&apos;t tender when touched&lt;/li&gt;
+	&lt;li&gt;Changes in bowel habits, such as diarrhea&lt;/li&gt;
+	&lt;li&gt;Swelling in the legs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Neuroblastoma in the chest&lt;/strong&gt; may cause signs and symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wheezing&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Changes to the eyes, including drooping eyelids and unequal pupil size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms that may indicate neuroblastoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lumps of tissue under the skin&lt;/li&gt;
+	&lt;li&gt;Eyeballs that seem to protrude from the sockets (proptosis)&lt;/li&gt;
+	&lt;li&gt;Dark circles, similar to bruises, around the eyes&lt;/li&gt;
+	&lt;li&gt;Back pain&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Bone pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your child&apos;s doctor if your child has any signs or symptoms that worry you. Mention any changes in your child&apos;s behavior or habits. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, cancer begins with a genetic mutation that allows normal, healthy cells to continue growing without responding to the signals to stop, which normal cells do. Cancer cells grow and multiply out of control. The accumulating abnormal cells form a mass (tumor). 
+&lt;/p&gt;
+&lt;p&gt;
+Neuroblastoma begins in neuroblasts &amp;mdash; immature nerve cells that a fetus makes as part of its development process. 
+&lt;/p&gt;
+&lt;p&gt;
+As the fetus matures, neuroblasts eventually turn into nerve cells and fibers and the cells that make up the adrenal glands. Most neuroblasts mature by birth, though a small number of immature neuroblasts can be found in newborns. In most cases, these neuroblasts mature or disappear. Others, however, form a tumor &amp;mdash; a neuroblastoma. 
+&lt;/p&gt;
+&lt;p&gt;
+It isn&apos;t clear what causes the initial genetic mutation that leads to neuroblastoma. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with a family history of neuroblastoma may be more likely to develop the disease. Yet, familial neuroblastoma is thought to comprise a very small number of neuroblastoma cases. In most cases of neuroblastoma, a cause is never identified.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of neuroblastoma may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spread of the cancer (metastasis).&lt;/strong&gt; Neuroblastoma may spread (metastasize) to other parts of the body, such as the lymph nodes, bone marrow, liver, skin and bones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spinal cord compression.&lt;/strong&gt; Tumors may grow and press on the spinal cord, causing spinal cord compression. Spinal cord compression may cause pain and paralysis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Signs and symptoms caused by tumor secretions.&lt;/strong&gt; Neuroblastomas may secrete certain chemicals that irritate other normal tissues, causing signs and symptoms called paraneoplastic syndromes. One paraneoplastic syndrome that occurs rarely in people with neuroblastoma causes rapid eye movements and difficulty with coordination. Another rare syndrome causes abdominal swelling and diarrhea.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Make an appointment with your family doctor or pediatrician if your child has any signs or symptoms that worry you. You may be referred to a doctor who specializes in digestive problems (gastroenterologist), respiratory problems (pulmonologist) or problems affecting the brain and nervous system (neurologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your child&apos;s appointment. Here&apos;s some information to help you get ready, and what to expect from your child&apos;s doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your child&apos;s diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your child is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your child&apos;s doctor is limited, so preparing a list of questions will help you make the most of your time. List your questions from most important to least important in case time runs out. For neuroblastoma, some basic questions to ask your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my child&apos;s symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my child&apos;s symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need?&lt;/li&gt;
+	&lt;li&gt;Is my child&apos;s condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;My child has these other health conditions. How can they best be managed together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that my child needs to follow?&lt;/li&gt;
+	&lt;li&gt;Should my child see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your child&apos;s doctor, don&apos;t hesitate to ask questions anytime you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your child&apos;s doctor&lt;/strong&gt; &lt;br /&gt;
+Your child&apos;s doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover points you want to address. Your child&apos;s doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your child begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms been continuous?&lt;/li&gt;
+	&lt;li&gt;How severe are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose neuroblastoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical exam.&lt;/strong&gt; Your child&apos;s doctor conducts a physical exam to check out any signs and symptoms. The doctor will ask you questions about your child&apos;s habits and behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Urine and blood tests.&lt;/strong&gt; These may indicate the cause of any signs and symptoms your child is experiencing. Urine tests may be used to check for high levels of certain chemicals that result from the neuroblastoma cells producing excess catecholamines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests may reveal a mass that can indicate a tumor. Imaging tests may include X-ray, ultrasound, computerized tomography (CT) scan, metaiodobenzylguanidine (MIBG) scan and magnetic resonance imaging (MRI), among others.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of tissue for testing.&lt;/strong&gt; If a mass is found, your child&apos;s doctor may want to remove a sample of the tissue for laboratory testing (biopsy). Specialized tests on the tissue sample can reveal what types of cells are involved in the tumor and specific genetic characteristics of the cancer cells. This information helps your child&apos;s doctor devise an individualized treatment plan.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of bone marrow for testing.&lt;/strong&gt; Your child may also undergo bone marrow biopsy and bone marrow aspiration procedures to see if neuroblastoma has spread to the bone marrow &amp;mdash; the spongy material inside the largest bones where blood cells are formed. In order to remove bone marrow for testing, a needle is inserted into your child&apos;s hipbone or lower back to draw out the marrow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging&lt;/strong&gt; &lt;br /&gt;
+Once neuroblastoma is diagnosed, your child&apos;s doctor may order further testing to determine the extent of the cancer and whether it has spread to distant organs &amp;mdash; a process called staging. Imaging tests used to stage cancer include X-rays, bone scans, and CT, MRI and MIBG scans, among others. 
+&lt;/p&gt;
+&lt;p&gt;
+Using the information from those procedures, your child&apos;s doctor assigns a stage to the neuroblastoma. Stages of neuroblastoma include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Neuroblastoma at this stage is localized, meaning it&apos;s confined to one area, and may be completely removed with surgery. Lymph nodes connected to the tumor may have signs of cancer, but other lymph nodes don&apos;t have cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IIA.&lt;/strong&gt; Neuroblastoma at this stage is localized, but may not be as easily removed through surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IIB.&lt;/strong&gt; Neuroblastoma at this stage is localized and may or may not be easily removed through surgery. Both the lymph nodes connected to the tumor and the lymph nodes nearby contain cancer cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Neuroblastoma at this stage is considered advanced, and it isn&apos;t possible to remove the tumor through surgery. The tumor may be a larger size at this stage. Lymph nodes may or may not contain cancer cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; Neuroblastoma at this stage is considered advanced and has spread (metastasized) to other parts of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IVS.&lt;/strong&gt; This stage is a special category of neuroblastoma that doesn&apos;t behave like other forms of neuroblastoma, though it isn&apos;t clear why. Stage IVS neuroblastoma applies only to children younger than 1 year old. Stage IVS indicates that neuroblastoma has spread to another part of the body &amp;mdash; most commonly the skin, liver or limited bone marrow involvement. Despite the extent of neuroblastoma, babies with this stage have a good chance of recovery. Neuroblastoma at this stage sometimes goes away on its own and often doesn&apos;t require any treatment.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor selects a treatment plan based on several factors that affect your child&apos;s prognosis. Factors include your child&apos;s age, the stage of the cancer, the type of cells involved in the cancer, and whether there are any abnormalities in the chromosomes and genes. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child&apos;s doctor uses this information to categorize the cancer as low risk, intermediate risk or high risk. What treatment or combination of treatments your child receives for neuroblastoma depends on the risk category. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgeons use scalpels and other surgical tools to remove cancer cells. In children with low-risk neuroblastoma, surgery to remove the tumor may be the only treatment needed. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether the tumor can be completely removed depends on its location and its size. Tumors that are attached to nearby vital organs &amp;mdash; such as the lungs or the spinal cord &amp;mdash; may be too risky to remove. 
+&lt;/p&gt;
+&lt;p&gt;
+In intermediate-risk and high-risk neuroblastoma, surgeons may try to remove as much of the tumor as possible. Other treatments, such as chemotherapy and radiation, may then be used to kill remaining cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses chemicals to destroy cancer cells. Chemotherapy targets rapidly growing cells in the body, including cancer cells. Unfortunately, chemotherapy also damages healthy cells that grow quickly, such as cells in the hair follicles and in the gastrointestinal system, which can cause side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with intermediate-risk neuroblastoma often receive a combination of chemotherapy drugs before surgery to improve the chances that the entire tumor can be removed. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with high-risk neuroblastoma usually receive high doses of chemotherapy drugs to shrink the tumor and to kill any cancer cells that have spread elsewhere in the body. Chemotherapy is usually used before surgery and before bone marrow stem cell transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays, to destroy cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Children with low-risk or intermediate-risk neuroblastoma may receive radiation therapy if surgery and chemotherapy haven&apos;t been helpful. Children with high-risk neuroblastoma may receive radiation therapy after chemotherapy and surgery, to prevent cancer from recurring. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy primarily affects the area where it&apos;s aimed, but some healthy cells may be damaged by the radiation. What side effects your child experiences depends on where the radiation is directed and how much radiation is administered. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stem cell transplant&lt;/strong&gt; &lt;br /&gt;
+Children with high-risk neuroblastoma may receive a transplant using their own blood stem cells (autologous stem cell transplant). 
+&lt;/p&gt;
+&lt;p&gt;
+Before the stem cell transplant, your child undergoes a procedure that filters and collects stem cells from his or her blood. The stems cells are stored for later use. Then high doses of chemotherapy are used to kill any remaining cancer cells in your child&apos;s body. Your child&apos;s stem cells are then injected into your child&apos;s body, where they can form new, healthy blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Immunotherapy&lt;/strong&gt; &lt;br /&gt;
+Immunotherapy uses drugs that work by signaling your body&apos;s immune system to help fight cancer cells. Children with high-risk neuroblastoma may receive immunotherapy drugs that stimulate the immune system to kill the neuroblastoma cells. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your child is diagnosed with cancer, it&apos;s common to feel a range of emotions &amp;mdash; from shock and disbelief to guilt and anger. In the midst of this emotional roller coaster, you&apos;re expected to make decisions about your child&apos;s treatment. It can be overwhelming. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;re feeling lost, you might try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Gather all the information you need.&lt;/strong&gt; Find out enough about neuroblastoma to feel comfortable making decisions about your child&apos;s care. Talk with your child&apos;s health care team. Keep a list of questions to ask at the next appointment. Visit your local library and ask for help searching for information. Consult the websites of the National Cancer Institute and the American Cancer Society for more information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Organize a support network.&lt;/strong&gt; Find friends and family who can help support you as a caregiver. Loved ones can accompany your child to doctor visits or sit by his or her bedside in the hospital when you can&apos;t be there. When you&apos;re with your child, your friends and family can help out by spending time with your other children or helping around your house.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take advantage of resources for children with cancer.&lt;/strong&gt; Seek out special resources for families of kids with cancer. Ask your clinic&apos;s social workers about what&apos;s available. Support groups for parents and siblings put you in touch with people who understand what you&apos;re feeling. Your family may be eligible for summer camps, temporary housing and other support.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Maintain normalcy as much as possible.&lt;/strong&gt; Small children can&apos;t understand what&apos;s happening to them as they undergo cancer treatment. To help your child cope, try to maintain a normal routine as much as possible. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Try to arrange appointments so that your child can have a set nap time each day. Have routine mealtimes. Allow time for play when your child feels up to it. If your child must spend time in the hospital, bring items from home that help him or her feel more comfortable. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Ask your health care team about other ways to comfort your child through his or her treatment. Some hospitals have recreation therapists or child-life workers who can give you more-specific ways to help your child to cope. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Neuroblastoma
+	</Title>
+	<Abstract>
+		Neuroblastoma &amp;mdash; Comprehensive overview covers symptoms and treatment of this childhood cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00089" LinkType="Internal" ObjectID="B5C405F3-E7FF-0DBD-17D02B08AB82FD77" Title="Stem cell transplant" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MY00089" />
+		<LinkItem ContentType="Video" DocID="MM00787" LinkType="Internal" ObjectID="255D3C99-F208-37DF-CDFEAEEC6D81B5A7" Title="Video: How a stem cell transplant works" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MM00787" />
+		<LinkItem ContentType="Disease" DocID="DS01206" LinkType="Internal" ObjectID="74C57B99-F041-4BF5-2E96C23D372F678D" Title="Bone metastasis" Url="http://www.mayoclinic.com/health/bone-metastasis/DS01206" />
+		<LinkItem ContentType="Disease" DocID="DS00840" LinkType="Internal" ObjectID="6A1153F1-E7FF-0DBD-1061638F0F39E31D" Title="Paraneoplastic syndromes of the nervous system" Url="http://www.mayoclinic.com/health/paraneoplastic-syndromes/DS00840" />
+	</RelatedLinksBox>
+</Disease>

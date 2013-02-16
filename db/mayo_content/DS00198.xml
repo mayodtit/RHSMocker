@@ -1,0 +1,333 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00198
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hypoglycemia/DS00198
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-22
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="2230" Title="Glucose regulation" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			69EA49D2-EA38-4A8A-95DB164A2555B514
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hypoglycemia
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood sugar
+			</MetaKeyword>
+			<MetaKeyword>
+				glucose
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperinsulinemia
+			</MetaKeyword>
+			<MetaKeyword>
+				Whipple&apos;s triad
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas
+			</MetaKeyword>
+			<MetaKeyword>
+				insulin
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypoglycemia is a condition characterized by an abnormally low level of blood sugar (glucose), your body&apos;s main energy source. 
+&lt;/p&gt;
+&lt;p&gt;
+Hypoglycemia is commonly associated with the treatment of diabetes. However, a variety of conditions, many of them rare, can cause low blood sugar in people without diabetes. Like fever, hypoglycemia isn&apos;t a disease itself &amp;mdash; it&apos;s an indicator of a health problem. 
+&lt;/p&gt;
+&lt;p&gt;
+Immediate treatment of hypoglycemia involves quick steps to get your blood sugar level back into a normal range &amp;mdash; about 70 to 100 milligrams per deciliter or mg/dL (3.9 to 5.6 millimoles per liter or mmol/L) &amp;mdash; either with high-sugar foods or medications. Long-term treatment requires identifying and treating the underlying cause of hypoglycemia. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your body needs a steady supply of sugar (glucose) in order to function properly. If glucose levels become too low, as occurs with hypoglycemia, it can have these effects on your brain: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Confusion, abnormal behavior or both, such as the inability to complete routine tasks&lt;/li&gt;
+	&lt;li&gt;Visual disturbances, such as double vision and blurred vision&lt;/li&gt;
+	&lt;li&gt;Seizures, though uncommon&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness, though uncommon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Hypoglycemia may also cause these other signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart palpitations&lt;/li&gt;
+	&lt;li&gt;Shakiness &lt;/li&gt;
+	&lt;li&gt;Anxiety&lt;/li&gt;
+	&lt;li&gt;Sweating&lt;/li&gt;
+	&lt;li&gt;Hunger&lt;/li&gt;
+	&lt;li&gt;Tingling sensation around the mouth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These signs and symptoms aren&apos;t specific to hypoglycemia. There may be other causes. An intravenous blood sample to test your blood sugar level at the time of these signs and symptoms is the only way to know for sure that hypoglycemia is the cause. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;br /&gt;
+&lt;/strong&gt;Seek a doctor&apos;s help immediately if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You have what appears to be symptoms of hypoglycemia.&lt;/strong&gt; Hypoglycemia, if confirmed, can be an indication of any number of illnesses, all of which can be serious.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have diabetes and early signs of hypoglycemia don&apos;t improve&lt;/strong&gt; with eating or taking glucose tablets.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek emergency help&lt;/strong&gt; if someone you know who has diabetes or a history of recurring hypoglycemia loses consciousness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hypoglycemia occurs when your blood sugar (glucose) level falls too low. There are several reasons why this may happen, the most common being a side effect of drugs used for the treatment of diabetes. But to understand how hypoglycemia happens, it helps to know how your body normally regulates blood sugar production, absorption and storage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood sugar regulation&lt;/strong&gt; &lt;br /&gt;
+During digestion, your body breaks down carbohydrates from foods &amp;mdash; such as bread, rice, pasta, vegetables, fruit and milk products &amp;mdash; into various sugar molecules. One of these sugar molecules is glucose, the main energy source for your body. Glucose is absorbed into your bloodstream after you eat, but it can&apos;t enter the cells of most of your tissues without the help of insulin &amp;mdash; a hormone secreted by your pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+When the level of glucose in your blood rises, it signals certain cells (beta cells) in your pancreas, located behind your stomach, to release insulin. The insulin, in turn, unlocks your cells so that glucose can enter and provide the fuel your cells need to function properly. Any extra glucose is stored in your liver and muscles in the form of glycogen. This process lowers the level of glucose in your bloodstream and prevents it from reaching dangerously high levels. As your blood sugar level returns to normal, so does the secretion of insulin from your pancreas. 
+&lt;/p&gt;
+&lt;p&gt;
+If you haven&apos;t eaten for several hours and your blood sugar level drops, another hormone from your pancreas called glucagon signals your liver to break down the stored glycogen and release glucose back into your bloodstream. This keeps your blood sugar level within a normal range until you eat again. 
+&lt;/p&gt;
+&lt;p&gt;
+Aside from your liver breaking down glycogen into glucose, your body also has the ability to manufacture glucose in a process called gluconeogenesis. This process occurs primarily in your liver, but also in your kidneys, and makes use of various substances that are precursors to glucose. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible causes, with diabetes&lt;/strong&gt; &lt;br /&gt;
+If you have diabetes, the effects of insulin on your body are drastically diminished, either because your pancreas doesn&apos;t produce enough of it (type 1 diabetes) or because your cells are less responsive to it (type 2 diabetes). As a result, glucose tends to build up in your bloodstream and may reach dangerously high levels. To correct this problem, you likely take insulin or other drugs designed to lower blood sugar levels. 
+&lt;/p&gt;
+&lt;p&gt;
+If you take too much insulin relative to the amount of glucose in your bloodstream, it can cause your blood sugar level to drop too low, resulting in hypoglycemia. Hypoglycemia may also result if, after taking your diabetes medication, you don&apos;t eat as much as usual (ingesting less glucose) or you exercise more (using up more glucose) than you normally would. To prevent this from happening, it&apos;s likely that your doctor will work with you to find the optimum dosage that fits your regular eating and activity habits. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible causes, without diabetes&lt;/strong&gt; &lt;br /&gt;
+Hypoglycemia in people without diabetes is much less common. Causes may include the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Taking someone else&apos;s oral diabetes medication accidentally is a possible cause of hypoglycemia. Other medications may cause hypoglycemia, especially in children or in people with kidney failure. One example is quinine, which is used to treat malaria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excessive alcohol consumption.&lt;/strong&gt; Drinking heavily without eating can block your liver from releasing stored glucose into your bloodstream, causing hypoglycemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some critical illnesses.&lt;/strong&gt; Severe illnesses of the liver, such as severe hepatitis, can cause hypoglycemia. Disorders of the kidney, which can keep your body from properly excreting medications, can affect glucose levels due to a buildup of those medications. Long-term starvation, as may occur in the eating disorder anorexia nervosa, can result in the depletion of substances your body needs in gluconeogenesis, causing hypoglycemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin overproduction.&lt;/strong&gt; A rare tumor of the pancreas (insulinoma) may cause overproduction of insulin, resulting in hypoglycemia. Other tumors may result in excessive production of insulin-like substances. Or the tumors themselves may use up too much glucose. Enlargement of beta cells of the pancreas that produce insulin (nesidioblastosis) may result in excessive insulin release, causing hypoglycemia. People who&apos;ve undergone gastric bypass surgery are at risk of this condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endocrine deficiencies.&lt;/strong&gt; Certain disorders of the adrenal glands and the pituitary gland can result in a deficiency of key hormones that regulate glucose production. Children with these disorders are more prone to hypoglycemia than are adults.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Hypoglycemia after meals&lt;/strong&gt; &lt;br /&gt;
+Most hypoglycemia occurs when you haven&apos;t eaten (when you&apos;re in a fasting state), but that&apos;s not always the case. Sometimes hypoglycemia occurs after meals because the body produces more insulin than is needed. This type of hypoglycemia, called reactive or postprandial hypoglycemia, may occur in people who have had gastric bypass surgery. It may also occur in people who haven&apos;t had surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you ignore the symptoms of hypoglycemia too long, you may lose consciousness. That&apos;s because your brain needs glucose to function properly. 
+&lt;/p&gt;
+&lt;p&gt;
+Recognize the signs and symptoms of hypoglycemia early because untreated hypoglycemia can lead to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Seizure&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;Death, primarily in those with diabetes &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+On the other hand, if you have diabetes, be careful not to overtreat your low blood sugar. If you do, you may cause your blood sugar level to rise too high. This, too, can be dangerous and may cause damage to your nerves, blood vessels and various organs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have diabetes and you have symptoms of hypoglycemia, call the doctor who normally helps manage your condition. If you haven&apos;t been diagnosed with diabetes, make an appointment with your primary care provider. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your symptoms,&lt;/strong&gt; including when they started and how often they occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Log details about your recent diabetes management&lt;/strong&gt; if you have diabetes. Notes for your doctor should include the timing and results of recent blood sugar tests, as well as the schedule on which you&apos;ve been taking your medications, if any.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;List your typical daily habits,&lt;/strong&gt; including alcohol intake, meals and exercise routines.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to soak up all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask your doctor if you have diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my signs and symptoms due to hypoglycemia?&lt;/li&gt;
+	&lt;li&gt;What is most likely triggering my hypoglycemia?&lt;/li&gt;
+	&lt;li&gt;Do I need to adjust my treatment plan?&lt;/li&gt;
+	&lt;li&gt;Do I need to make any changes to my diet?&lt;/li&gt;
+	&lt;li&gt;Do I need to make any changes to my exercise routine?&lt;/li&gt;
+	&lt;li&gt;What else do you recommend to help me better manage my condition?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you haven&apos;t been diagnosed with diabetes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is hypoglycemia the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;What else might be causing these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are the possible complications of this condition?&lt;/li&gt;
+	&lt;li&gt;How is this condition treated?&lt;/li&gt;
+	&lt;li&gt;What self-care steps, including lifestyle changes, can I take to help improve my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+A doctor who sees you for signs and symptoms of hypoglycemia is likely to ask you a number of questions. The doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;When do your signs and symptoms typically occur?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to provoke your signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including prescription and over-the-counter drugs as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? If yes, how much?&lt;/li&gt;
+	&lt;li&gt;What is your typical exercise routine?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have diabetes, your doctor also may ask a number of detailed questions about your diabetes management. It will help to come to your appointment with a recent log of blood sugar test results, medication names and schedules and any changes you&apos;ve noticed in the frequency or severity of diabetes-related symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will use three criteria &amp;mdash; often referred to as Whipple&apos;s triad &amp;mdash; to diagnose hypoglycemia. Whipple&apos;s triad includes the following factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Signs and symptoms of hypoglycemia.&lt;/strong&gt; You may not exhibit signs and symptoms of hypoglycemia during your initial visit with your doctor. In this case, your doctor may have you fast overnight. This will allow hypoglycemic symptoms to occur so that he or she can make a diagnosis. It&apos;s also possible that you&apos;ll need to undergo an extended fast in a hospital setting. Or if your symptoms occur after a meal, your doctor will want to test your glucose levels after a meal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Documentation of low blood glucose when the signs and symptoms occur.&lt;/strong&gt; Your doctor will draw a sample of your blood to be analyzed in the laboratory. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Disappearance of the signs and symptoms.&lt;/strong&gt; The third part of the diagnostic triad involves whether your signs and symptoms go away when blood glucose levels are raised.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, your doctor will likely conduct a physical examination and review your medical history. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of hypoglycemia involves: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Immediate initial treatment&lt;/strong&gt; to raise your blood sugar level&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Treatment of the underlying condition&lt;/strong&gt; that&apos;s causing your hypoglycemia to prevent it from recurring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Immediate initial treatment&lt;/strong&gt; &lt;br /&gt;
+The initial treatment depends on your symptoms. Early symptoms can usually be treated by consuming sugar, such as eating candy, drinking fruit juice or taking glucose tablets to raise your blood sugar level. If your symptoms are more severe, impairing your ability to take sugar by mouth, you may need an injection of glucagon or intravenous glucose. If you&apos;re prone to severe episodes of hypoglycemia, ask your doctor if a home glucagon kit might be appropriate for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treatment of the underlying condition&lt;/strong&gt; &lt;br /&gt;
+Preventing recurrent hypoglycemia requires your doctor to identify the underlying condition and treat it. Depending on the underlying cause, treatment may involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; If a medication is the cause of your hypoglycemia, your doctor will likely suggest changing the medication or adjusting the dosage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumor treatment.&lt;/strong&gt; A tumor in your pancreas is treated by surgical removal. Nesidioblastosis, enlargement of the pancreatic cells that make insulin, may be treated by partial removal of the pancreas. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;If you have diabetes,&lt;/strong&gt; carefully follow the diabetes management plan you and your doctor have developed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;If you don&apos;t have diabetes&lt;/strong&gt; but have recurring episodes of hypoglycemia, eating frequent small meals throughout the day is a stopgap measure to help prevent your blood sugar levels from getting too low. However, this approach isn&apos;t an advisable long-term strategy. Work with your doctor to identity and treat the underlying cause of hypoglycemia. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hypoglycemia
+	</Title>
+	<Abstract>
+		Hypoglycemia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of low blood sugar.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01166" LinkType="Internal" ObjectID="E4B3B26F-F466-9649-169BD7E9B884DECA" Title="Diabetic hypoglycemia" Url="http://www.mayoclinic.com/health/diabetic-hypoglycemia/DS01166" />
+		<LinkItem ContentType="Disease" DocID="DS01168" LinkType="Internal" ObjectID="6A08F32B-C98C-76AC-13E6BEB06378AE2F" Title="Hyperglycemia in diabetes" Url="http://www.mayoclinic.com/health/hyperglycemia/DS01168" />
+	</RelatedLinksBox>
+</Disease>

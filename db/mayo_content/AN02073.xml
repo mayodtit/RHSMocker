@@ -1,0 +1,145 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02073
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/air-purifier-smoke/AN02073
+		</OriginalURL>
+		<UpdateDate>
+			2013-01-05
+		</UpdateDate>
+		<PublicationDate>
+			2010-03-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1463" Title="Life stage">
+				<Keyword MCVID="3524" Title="Adult">
+					<Keyword MCVID="3820" Title="Adult health and wellness">
+						<Keyword MCVID="3824" Title="Staying healthy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AE01C24C-A287-14DB-3F2BC163BF7E70D6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				air purifier smoke
+			</MetaKeyword>
+			<MetaKeyword>
+				air cleaner
+			</MetaKeyword>
+			<MetaKeyword>
+				indoor air quality
+			</MetaKeyword>
+			<MetaKeyword>
+				cigarette smoke
+			</MetaKeyword>
+			<MetaKeyword>
+				secondhand smoke
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+If you&apos;re considering buying an air purifier, you have a multitude of choices. But if you want an air purifier that will eliminate cigarette smoke, you&apos;re out of luck. Most air purifiers, also called air cleaners, are not designed to remove gaseous pollutants, which are a major component of cigarette smoke. 
+&lt;/p&gt;
+&lt;p&gt;
+Mechanical air filters, such as high-efficiency particulate air (HEPA) filters, and electronic air cleaners, such as ionizers, target particles, but tobacco smoke particles are designed to be small enough to be inhaled into the outer reaches of the lungs and, thus, are not trapped by such devices. 
+&lt;/p&gt;
+&lt;p&gt;
+Other air cleaners generate ozone, which is actually a lung irritant. At levels that don&apos;t exceed public health standards, ozone has little ability to remove air contaminants such as cigarette smoke. 
+&lt;/p&gt;
+&lt;p&gt;
+The best way to protect nonsmokers from secondhand smoke is to not allow smoking in your home. If you smoke, this is another good reason to stop.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Will an air purifier eliminate cigarette smoke?
+	</Title>
+	<Abstract>
+		Despite the claims, an air purifier can&apos;t eliminate cigarette smoke from your home.
+	</Abstract>
+	<Question>
+		I&apos;m thinking about buying an air purifier. Do any of them work on cigarette smoke?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01066" LinkType="Internal" ObjectID="FDDC7156-A0AA-DD06-F3F4A1310C69F898" Title="Tattoo removal" Url="http://www.mayoclinic.com/health/tattoo-removal/MY01066" />
+		<LinkItem ContentType="Answer" DocID="AN02175" LinkType="Internal" ObjectID="F1AABA03-CD83-F693-4C93C544A3CDF897" Title="Healthy heart for life: Avoiding heart disease" Url="http://www.mayoclinic.com/health/healthy-heart/AN02175" />
+		<LinkItem ContentType="Answer" DocID="AN02189" LinkType="Internal" ObjectID="9BCE7986-0EA7-D614-E957237B3A9B2751" Title="How is brown fat different from other fat?" Url="http://www.mayoclinic.com/health/brown-fat/AN02189" />
+		<LinkItem ContentType="Answer" DocID="AN02063" LinkType="Internal" ObjectID="994B809F-0EC7-E98C-03355F4D9A708740" Title="Heart attack prevention: Should I avoid secondhand smoke?" Url="http://www.mayoclinic.com/health/secondhand-smoke/AN02063" />
+		<LinkItem ContentType="Answer" DocID="AN02168" LinkType="Internal" ObjectID="42BFA803-BAEE-25AB-8E0670108F7BF416" Title="Stop multitasking and learn how to focus" Url="http://www.mayoclinic.com/health/how-to-focus/AN02168" />
+		<LinkItem ContentType="Answer" DocID="AN02115" LinkType="Internal" ObjectID="1ABE8551-09C9-6497-820497A0C6829685" Title="Liposuction alternatives: Are fat-busting devices effective?" Url="http://www.mayoclinic.com/health/liposuction-alternatives/AN02115" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00624" LinkType="Internal" ObjectID="11107B89-D997-313D-42FD1089A3E98AC3" Title="Virtual colonoscopy" Url="http://www.mayoclinic.com/health/virtual-colonoscopy/MY00624" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00623" LinkType="Internal" ObjectID="11101656-EACC-1242-191B7E1D9DDCDB2B" Title="Stool DNA test" Url="http://www.mayoclinic.com/health/dna-stool-test/MY00623" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00622" LinkType="Internal" ObjectID="110FED42-02D4-9FB8-4C7D6612B1C73CC2" Title="Flexible sigmoidoscopy" Url="http://www.mayoclinic.com/health/flexible-sigmoidoscopy/MY00622" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00621" LinkType="Internal" ObjectID="110FC74B-F21F-2E01-C42E4F1F2F093C63" Title="Colonoscopy" Url="http://www.mayoclinic.com/health/colonoscopy/MY00621" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00620" LinkType="Internal" ObjectID="110F9DAB-BB0A-C261-8FB120FA054D7EE7" Title="Fecal occult blood test" Url="http://www.mayoclinic.com/health/fecal-occult-blood-test/MY00620" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00619" LinkType="Internal" ObjectID="110F670A-FB52-0DBB-EAB128BFAA110C75" Title="Barium enema" Url="http://www.mayoclinic.com/health/barium-enema/MY00619" />
+		<LinkItem ContentType="Answer" DocID="AN02052" LinkType="Internal" ObjectID="02595D0A-9DD3-ED31-69F5C7C43B2CC0C7" Title="Mammogram guidelines: What are they?" Url="http://www.mayoclinic.com/health/mammogram-guidelines/AN02052" />
+		<LinkItem ContentType="Article" DocID="MY01055" LinkType="Internal" ObjectID="E00E73CD-C0D4-CB17-537CCD535D6CEA27" Title="Health news: Going beyond the headlines" Url="http://www.mayoclinic.com/health/health-news/MY01055" />
+		<LinkItem ContentType="Article" DocID="MY01378" LinkType="Internal" ObjectID="CD0E5C53-A791-018F-5A334E69340C5E32" Title="Functional fitness training: Is it right for you?" Url="http://www.mayoclinic.com/health/functional-fitness/MY01378" />
+		<LinkItem ContentType="Article" DocID="SM00059" LinkType="Internal" ObjectID="BD233A4B-1857-4B41-BA7E31D558FED671" Title="Exercise: When to check with your doctor first" Url="http://www.mayoclinic.com/health/exercise/SM00059" />
+		<LinkItem ContentType="Article" DocID="MY00665" LinkType="Internal" ObjectID="B42E4F1C-B1D4-295C-124B65C891D16A50" Title="Personal health record: A tool for managing your health" Url="http://www.mayoclinic.com/health/personal-health-record/MY00665" />
+		<LinkItem ContentType="Article" DocID="MY00935" LinkType="Internal" ObjectID="9EF996C0-08E9-56AC-FA6C34A6A3A7D0E8" Title="Colon cancer screening: Weighing the options" Url="http://www.mayoclinic.com/health/colon-cancer-screening/MY00935" />
+		<LinkItem ContentType="Article" DocID="DG00014" LinkType="Internal" ObjectID="29CD41BB-F87F-4EFC-8668AF3E9A54EF71" Title="Bloating, belching and intestinal gas: How to avoid them" Url="http://www.mayoclinic.com/health/gas-and-gas-pains/DG00014" />
+		<LinkItem ContentType="SlideShow" DocID="LB00004_D" LinkType="Internal" ObjectID="BF0F54AB-5DDA-49C3-AE95E52BDC3B5C98" Title="Slide show: Proper lifting techniques" Url="http://www.mayoclinic.com/health/back-pain/LB00004_D" />
+		<LinkItem ContentType="SlideShow" DocID="LB00002_D" LinkType="Internal" ObjectID="BA64BFAD-A296-4F55-81DCE58BD683C8C0" Title="Slide show: Prevent back pain with good posture" Url="http://www.mayoclinic.com/health/back-pain/LB00002_D" />
+		<LinkItem ContentType="Answer" DocID="AN01905" LinkType="Internal" ObjectID="9DFF414F-E7FF-0DBD-1BCD03C52D197B8E" Title="Cellphones and cancer: What&apos;s the risk?" Url="http://www.mayoclinic.com/health/cell-phones-and-cancer/AN01905" />
+		<LinkItem ContentType="SelfAssessment" DocID="WO00112" LinkType="Internal" ObjectID="8FFC6145-2A5D-9994-EB39FE384379A8AC" Title="Health screening guidelines" Url="http://www.mayoclinic.com/health/health-screening/WO00112" />
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Answer" DocID="AN02082" LinkType="Internal" ObjectID="49918290-EF4B-3EE3-6C2C89AA5932ABB8" Title="Sitting risks: How harmful is too much sitting?" Url="http://www.mayoclinic.com/health/sitting/AN02082" />
+		<LinkItem ContentType="SlideShow" DocID="LB00001_D" LinkType="Internal" ObjectID="302CFE48-27EF-4D30-9145130F07AC2277" Title="Slide show: Back exercises in 15 minutes a day" Url="http://www.mayoclinic.com/health/back-pain/LB00001_D" />
+		<LinkItem ContentType="Answer" DocID="AN01985" LinkType="Internal" ObjectID="1548EB2C-0F9F-0856-694CCFCAB364F371" Title="Thirdhand smoke: What are the dangers to nonsmokers?" Url="http://www.mayoclinic.com/health/third-hand-smoke/AN01985" />
+		<LinkItem ContentType="Answer" DocID="AN02141" LinkType="Internal" ObjectID="004ECC47-FB06-5471-6CD408B2AEE139FD" Title="Triclosan: Is it safe?" Url="http://www.mayoclinic.com/health/triclosan/AN02141" />
+		<LinkItem ContentType="Article" DocID="SN00006" LinkType="Internal" ObjectID="F506CE4C-3C14-4BC9-A8C48340F7950C75" Title="Cosmetic surgery: What to know beforehand" Url="http://www.mayoclinic.com/health/cosmetic-surgery/SN00006" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Article" DocID="GA00054" LinkType="Internal" ObjectID="49D4ADB4-E7FF-0DBD-156BE3BDCDD45364" Title="7 signs and symptoms not to ignore" Url="http://www.mayoclinic.com/health/symptoms/GA00054" />
+		<LinkItem ContentType="Article" DocID="MY01399" LinkType="Internal" ObjectID="3D87B0CA-A921-9012-710286C6AC6C6B3C" Title="Bone health: Tips to keep your bones healthy" Url="http://www.mayoclinic.com/health/bone-health/MY01399" />
+		<LinkItem ContentType="Article" DocID="HQ01707" LinkType="Internal" ObjectID="385FC65E-F961-49BA-99B799A3A0DAF885" Title="Medical history: Compiling your medical family tree" Url="http://www.mayoclinic.com/health/medical-history/HQ01707" />
+		<LinkItem ContentType="Article" DocID="CA00024" LinkType="Internal" ObjectID="2FEC5C54-5C57-48E2-A445C46DCF50C26C" Title="Cancer prevention: 7 tips to reduce your risk" Url="http://www.mayoclinic.com/health/cancer-prevention/CA00024" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+	</RelatedLinksBox>
+</Answer>

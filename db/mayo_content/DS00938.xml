@@ -1,0 +1,328 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00938
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cmv/DS00938
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-30
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="3232" Title="CMV" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			510E5CAB-E7FF-0DBD-17DDAF6BAEF4DBE7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				cytomegalovirus
+			</MetaKeyword>
+			<MetaKeyword>
+				CMV
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cytomegalovirus (CMV) is a common virus that can infect almost anyone. Most people don&apos;t know they have CMV because it rarely causes symptoms. However, if you&apos;re pregnant or have a weakened immune system, CMV is cause for concern. 
+&lt;/p&gt;
+&lt;p&gt;
+Once infected with CMV, your body retains the virus for life. However, CMV usually remains dormant if you&apos;re healthy. CMV spreads through body fluids, such as blood, saliva, urine, semen and breast milk. People with weak immune systems have a greater risk of becoming ill from CMV. If you&apos;re pregnant and develop an active infection, you can pass the virus to your baby. 
+&lt;/p&gt;
+&lt;p&gt;
+There&apos;s no cure for CMV, but drugs can help treat newborns and people with weak immune systems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Newborns who have been infected with CMV in the womb (congenital CMV), babies who become infected during birth or shortly after birth (perinatal CMV) &amp;mdash; such as through breast-feeding &amp;mdash; and people with weakened immune systems are more at risk of developing signs and symptoms than are healthy adults. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in babies&lt;/strong&gt; &lt;br /&gt;
+Pregnant women who become infected are at low risk of transmitting the virus to their babies. If it&apos;s the first time you&apos;ve had the infection (primary CMV), risk of transmitting the virus to the baby is higher than it is with reactivated infection. Most babies who are infected before they&apos;re born appear healthy at birth, but a few develop signs over time &amp;mdash; sometimes not for months or years after birth. The most common of these late-occurring signs is hearing loss. A small number may develop vision impairment as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Babies with congenital CMV who are affected at birth tend to be very sick. Signs and symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Yellow skin and eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Purple skin splotches or a rash or both&lt;/li&gt;
+	&lt;li&gt;Small size at birth (or low birth weight)&lt;/li&gt;
+	&lt;li&gt;Enlarged spleen&lt;/li&gt;
+	&lt;li&gt;Enlarged and poorly functioning liver&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms in people with compromised immunity&lt;/strong&gt; &lt;br /&gt;
+An illness resembling infectious mononucleosis is the most common presentation of CMV in people with weakened immune systems (immunocompromised). CMV also can attack specific organs. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Visual impairment and blindness&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Ulcers in the digestive tract, possibly causing bleeding&lt;/li&gt;
+	&lt;li&gt;Hepatitis&lt;/li&gt;
+	&lt;li&gt;Inflammation of the brain (encephalitis)&lt;/li&gt;
+	&lt;li&gt;Behavioral changes&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most people infected with CMV who are otherwise healthy experience few if any symptoms. When first infected, some adults may have symptoms similar to mononucleosis, including fatigue, fever and muscle aches. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have a weakened immune system and you&apos;re experiencing what may be signs or symptoms of CMV infection, see your doctor. CMV infection in people with compromised immunity can be fatal. People who are immunocompromised because they have undergone bone marrow or organ transplants seem to be at greatest risk. 
+&lt;/p&gt;
+&lt;p&gt;
+If you develop a mononucleosis-like illness while you&apos;re pregnant, see your doctor so that you can be evaluated for CMV infection. Talk to your doctor about the possible risks to your unborn baby if you have the virus. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have CMV but are otherwise healthy, and you&apos;re experiencing any mild, generalized illness, you could be in a reactivation period. Practical self-care steps, such as getting plenty of rest, should be enough for your body to control the infection. You probably don&apos;t need to see your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When your child should see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you know you were infected with CMV during your pregnancy, let your baby&apos;s doctor know. Your baby should be followed closely to ensure there are no vision or hearing problems. However, newborns who are well otherwise are unlikely to develop life-threatening disease later. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cytomegalovirus is related to the viruses that cause chickenpox, herpes simplex and mononucleosis. Once you&apos;re infected with CMV, the virus remains with you for life, but it&apos;s not always active. CMV may cycle through periods during which it lies dormant and then reactivates. If you&apos;re healthy, it mainly stays dormant. You can pass the virus to others during reactivation. 
+&lt;/p&gt;
+&lt;p&gt;
+Transmission of the virus occurs through exposure to body fluids &amp;mdash; including blood, urine, saliva, breast milk, tears, semen and vaginal fluids &amp;mdash; not by casual contact. 
+&lt;/p&gt;
+&lt;p&gt;
+The virus can spread in a number of ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Touching your eyes or the inside of your nose or mouth&lt;/strong&gt; after coming into contact with the body fluids of an infected person. This is the most common way CMV is spread because it&apos;s absorbed through the mucous membranes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Through sexual contact&lt;/strong&gt; with an infected person.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Through the breast milk&lt;/strong&gt; of an infected mother.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Through organ transplantation&lt;/strong&gt; or blood transfusions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Through the placenta,&lt;/strong&gt; from an infected mother to her unborn child,&lt;strong&gt; &lt;/strong&gt;or during birth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+CMV is a widespread and common virus that can infect almost anyone. But healthy children and adults who contract the infection usually have few if any symptoms, so CMV often goes undiagnosed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In the rare cases in which CMV causes a healthy person to become very sick, the infection may cause the following complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;CMV mononucleosis.&lt;/strong&gt; This syndrome resembles infectious mononucleosis. Classic mononucleosis is caused by a different virus called Epstein-Barr virus (EBV). If you have signs and symptoms that resemble mononucleosis &amp;mdash; a sore throat, swollen glands and tonsils, fatigue, and nausea &amp;mdash; your doctor will test you for the antibody your body makes to fight off EBV. If it&apos;s absent, there&apos;s a good chance CMV is causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intestinal complications.&lt;/strong&gt; CMV infection in your intestines can result in diarrhea, fever and abdominal pain; inflammation of your colon; and blood in your stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver complications.&lt;/strong&gt; CMV can cause abnormal functioning of your liver and an unexplained fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nervous system complications&lt;/strong&gt;. A variety of neurological complications have been reported as a result of CMV infection in the nervous system. These may include inflammation of your brain (encephalitis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung complications.&lt;/strong&gt; CMV can cause inflammation of your lung tissue (pneumonitis).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Complications arising from newborn CMV infection include:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hearing loss&lt;/li&gt;
+	&lt;li&gt;Eye abnormalities, including central vision loss, scarring of the retina, an inflammation of the light-sensing layer of the eye (retinitis), and swelling and irritation of the eye (uveitis)&lt;/li&gt;
+	&lt;li&gt;Mental disability&lt;/li&gt;
+	&lt;li&gt;Attention-deficit/hyperactivity disorder&lt;/li&gt;
+	&lt;li&gt;Autism&lt;/li&gt;
+	&lt;li&gt;Lack of coordination&lt;/li&gt;
+	&lt;li&gt;Small head&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Death&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Appointments can be brief, so it&apos;s good to be well prepared. Write down any signs and symptoms you&apos;re experiencing &amp;mdash; even if they seem minor, such as low-grade fever or fatigue. You should also write down any questions you have for your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. For CMV, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;Will I infect others?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor will ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How long have you been experiencing your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you work or live with young children?&lt;/li&gt;
+	&lt;li&gt;Have you had a blood transfusion or organ transplant in recent months?&lt;/li&gt;
+	&lt;li&gt;Do you have a medical condition that compromises your immune system, such as HIV or AIDS?&lt;/li&gt;
+	&lt;li&gt;Are you currently receiving chemotherapy?&lt;/li&gt;
+	&lt;li&gt;Do you practice safe sex?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant or breast-feeding?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition, if you think you have been exposed during pregnancy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When do you think you may have been exposed?&lt;/li&gt;
+	&lt;li&gt;Have you had any symptoms of the condition?&lt;/li&gt;
+	&lt;li&gt;Have you ever been tested for CMV before?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have symptoms of CMV, tests can determine whether you have the disease. Blood tests can detect proteins in your blood (antibodies) that are created by your immune system when you have CMV. Other tests can locate the virus itself in blood, other body fluids or a tissue biopsy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening and testing for your baby&lt;/strong&gt; &lt;br /&gt;
+Testing to determine whether you&apos;ve ever been infected can be important if you&apos;re pregnant. Pregnant women with antibodies have a very small chance of a reactivation infecting their unborn child. 
+&lt;/p&gt;
+&lt;p&gt;
+When new infection is detected during pregnancy, you may consider amniocentesis, in which your doctor obtains and examines a sample of amniotic fluid to determine whether the fetus has the infection. Occasionally the need for such testing arises when abnormalities that may be caused by CMV or other infectious diseases are seen on ultrasound. 
+&lt;/p&gt;
+&lt;p&gt;
+If you or your doctor thinks your baby may have been born with CMV (congenital CMV), it&apos;s important that he or she be tested within the first three weeks of birth. If you wait longer, tests won&apos;t be conclusive for congenital CMV, because it&apos;s possible your baby could have contracted the infection by nursing or by exposure to siblings or others who may be shedding the virus. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening and testing if you&apos;re immunocompromised&lt;/strong&gt; &lt;br /&gt;
+Testing for CMV can also be important if you have a condition that weakens your immune system. For example, if you have HIV or AIDS, and even if you don&apos;t have an active CMV infection, the fact that you carry the CMV virus means you&apos;ll need regular monitoring for complications of CMV, such as vision and hearing problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no cure for CMV, and treatment for the virus generally isn&apos;t necessary or recommended for healthy children and adults. 
+&lt;/p&gt;
+&lt;p&gt;
+Newborns and people with compromised immune systems, however, do need treatment when they&apos;re experiencing symptoms of CMV infection, such as pneumonia. The kind of treatment depends on the symptoms and their severity. 
+&lt;/p&gt;
+&lt;p&gt;
+If treatment is needed, it&apos;s most often in the form of antiviral drugs. Antiviral drugs slow down the virus reproduction, but can&apos;t destroy it. Researchers are studying new medications and vaccines to treat and prevent CMV. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Careful hygiene is the best prevention against CMV. Health care workers have the greatest opportunity for exposure, but because of precautions used in the health care setting, their risk of acquiring the disease is very low. 
+&lt;/p&gt;
+&lt;p&gt;
+You can take these precautions to help prevent CMV infection: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands often.&lt;/strong&gt; Use soap and water for 15 to 20 seconds, especially if you have contact with young children or their diapers, drool or other oral secretions. This is especially important if the children attend child care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid contact with tears and saliva when you kiss a child.&lt;/strong&gt; Instead of kissing a child on the lips, for instance, give a kiss on the forehead. This is especially important if you&apos;re pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sharing food or drinking out of the same glass as others.&lt;/strong&gt; Sharing glasses and kitchen utensils can spread the CMV virus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be careful with disposable items.&lt;/strong&gt; When disposing of diapers, tissues and other items that have been contaminated with bodily fluids, be careful not to touch your hands to your face until after thoroughly washing your hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice safe sex.&lt;/strong&gt; Wear a condom during sexual contact to prevent spreading the CMV virus through semen and vaginal fluids.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Experimental vaccines are being tested for women of childbearing age. These vaccines may be useful in preventing CMV infection in mothers and infants, and reducing the chance that babies born to women who are infected while pregnant will develop disabilities. If you have a compromised immune system, you may benefit from taking antiviral medication to prevent CMV disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cytomegalovirus (CMV) infection
+	</Title>
+	<Abstract>
+		Cytomegalovirus (CMV) infection &amp;mdash; Comprehensive overview covers symptoms, treatment of condition that may affect newborns.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00962" LinkType="Internal" ObjectID="EFF335C9-E7FF-0DBD-14873928B7E35AC6" Title="Pneumonitis" Url="http://www.mayoclinic.com/health/pneumonitis/DS00962" />
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+	</RelatedLinksBox>
+</Disease>

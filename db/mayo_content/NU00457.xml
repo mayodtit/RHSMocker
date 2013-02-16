@@ -1,0 +1,201 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			NU00457
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/zucchini-bread/NU00457
+		</OriginalURL>
+		<UpdateDate>
+			2009-05-01
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-01
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			FF4D9E88-D446-4A71-8F1E5711401A8874
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Zucchini bread
+	</Title>
+	<Abstract />
+	<ServingInfo Label="Serves">
+		MAKES 18 SLICES
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Zucchini &amp;mdash; a popular type of summer squash &amp;mdash; has a mild flavor and cucumber-like appearance. Summer squash contains lutein, a phytochemical thought to protect vision. Shredded zucchini creates moist breads and cakes and is an ideal addition to soups, sauces and casseroles.&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;Preheat the oven to 350 F. Lightly coat two 9-by-5-inch loaf pans with cooking spray.&lt;/p&gt;
+
+&lt;p&gt;In a large bowl, add the egg whites, canola oil, applesauce, sugar and vanilla. Using an electric mixer, beat the mixture on low speed until thick and foamy.&lt;/p&gt;
+
+&lt;p&gt;In a small bowl, stir together the flours. Set 1/2 cup aside. Add the baking powder, baking soda and cinnamon to the small bowl of flour.&lt;/p&gt;
+
+&lt;p&gt;Add the flour mixture to the egg white mixture and using the electric mixer on medium speed, beat until well blended. Add the zucchini, walnuts, pineapple and raisins and stir until combined. Adjust consistency of the batter with the remaining 1/2 cup flour, adding 1 tablespoon at a time. The batter should be thick and not runny.&lt;/p&gt;
+
+&lt;p&gt;Pour 1/2 of the batter into each prepared pan. Bake until a toothpick inserted into the center of the loaves comes out clean, about 50 minutes. Let the bread cool in the pans on a wire rack for 10 minutes. Turn the loaves out of the pans onto the rack and let cool completely. Cut each loaf into 9 1-inch slices and serve.&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;p&gt;6 egg whites&lt;br /&gt;
+1/4 cup canola oil&lt;br /&gt;
+1/2 cup unsweetened applesauce&lt;br /&gt;
+1/2 cup sugar&lt;br /&gt;
+2 teaspoons vanilla extract&lt;br /&gt;
+1 1/4 cups all-purpose (plain) flour&lt;br /&gt;
+1 1/4 cups whole-wheat (whole-meal) flour&lt;br /&gt;
+1 teaspoon baking powder&lt;br /&gt;
+1 teaspoon baking soda&lt;br /&gt;
+3 teaspoons ground cinnamon&lt;br /&gt;
+2 cups shredded zucchini&lt;br /&gt;
+1/2 cup chopped walnuts&lt;br /&gt;
+1 1/2 cups crushed, unsweetened pineapple&lt;br /&gt;
+1/2 cup raisins&lt;br /&gt;
+&lt;/p&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Grains Label="Grains and grain products">
+				1
+			</Grains>
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates">
+				1
+			</Carbs>
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits">
+				1/2
+			</Fruits>
+			<Protein_Dairy Label="Protein and dairy" />
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				173
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				25 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				2 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				2 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				4 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				0.5 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				1 slice
+			</Servingsize>
+			<Sodium Label="Sodium">
+				104 mg
+			</Sodium>
+			<Sugars />
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat />
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Rice and grains
+		</Category>
+		<Category CategoryLabel="Preparation method">
+			Bake
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Course">
+			Desserts
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Low-sodium
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

@@ -1,0 +1,263 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00828
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sentinel-node-biopsy/MY00828
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-15
+		</UpdateDate>
+		<PublicationDate>
+			2009-10-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="4123" Title="Surgical biopsy">
+							<Keyword MCVID="4437" Title="Sentinel node biopsy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			063EDA79-9298-E2E5-B0F939A318F7037E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sentinel node biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				sentinel node
+			</MetaKeyword>
+			<MetaKeyword>
+				sentinel lymph node biopsy
+			</MetaKeyword>
+			<MetaKeyword>
+				sentinel lymph node
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer spread
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer staging
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sentinel node biopsy is a surgical procedure used to determine if cancer has spread beyond a primary tumor into your lymphatic system. Sentinel node biopsy is used most commonly in evaluating breast cancer and melanoma. 
+&lt;/p&gt;
+&lt;p&gt;
+The sentinel nodes are the first few lymph nodes into which a tumor drains. Sentinel node biopsy involves injecting a tracer material that helps the surgeon locate the sentinel nodes during surgery. The sentinel nodes are removed and analyzed in a laboratory. If the sentinel nodes are free of cancer, then cancer isn&apos;t likely to have spread and removing additional lymph nodes is unnecessary. 
+&lt;/p&gt;
+&lt;p&gt;
+If, after sentinel node biopsy, evaluation of the sentinel nodes reveals cancer, then you&apos;ll likely need additional lymph nodes removed for your doctor to determine how far the cancer has spread. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sentinel node biopsy is recommended for people with certain types of cancer in order to determine whether the cancer cells have migrated into the lymphatic system. 
+&lt;/p&gt;
+&lt;p&gt;
+Sentinel node biopsy is routinely used for people with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breast cancer&lt;/li&gt;
+	&lt;li&gt;Melanoma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sentinel node biopsy is sometimes used in other types of cancer, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cervical cancer&lt;/li&gt;
+	&lt;li&gt;Colon cancer&lt;/li&gt;
+	&lt;li&gt;Endometrial cancer&lt;/li&gt;
+	&lt;li&gt;Head and neck cancer&lt;/li&gt;
+	&lt;li&gt;Non-small cell lung cancer&lt;/li&gt;
+	&lt;li&gt;Stomach cancer&lt;/li&gt;
+	&lt;li&gt;Thyroid cancer&lt;/li&gt;
+	&lt;li&gt;Vulvar cancer&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="60" Title="Lymphatic system" URI="/images/image_popup/thumbs/mcdc7_lymphatic_systemthu.jpg" Width="60" />
+				<Image Alt="Illustration of the lymphatic system 
+" Caption="Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as well as your tonsils and adenoids.
+" Height="301" Title="Lymphatic system" URI="/images/image_popup/mcdc7_lymphatic_system.jpg" Width="400" />
+				<HTML>
+					Your body&apos;s lymphatic system is part of your immune system, which protects you against infection and disease. The lymphatic system includes your spleen, thymus, lymph nodes and lymph channels, as ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sentinel node biopsy is generally a safe procedure. But as with any surgery, sentinel node biopsy carries a risk of complications, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Pain or bruising at the biopsy site&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Allergic reaction to the dye used for the procedure&lt;/li&gt;
+	&lt;li&gt;Lymphedema &amp;mdash; a condition in which your lymph vessels are unable to adequately drain lymph fluid from an area of your body, causing fluid buildup and swelling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lymphedema&lt;/strong&gt; &lt;br /&gt;
+Although lymphedema is an unlikely complication of sentinel node biopsy, one of the main reasons sentinel node biopsy was developed was to decrease the chance of developing lymphedema, which is more likely to occur if many lymph nodes are removed from one area. Because only a few lymph nodes are removed, the risk of lymphedema following sentinel node biopsy is very small. Dozens of other lymph nodes will remain in the region of your body where the sentinel node biopsy is done. In most cases, those remaining lymph nodes can effectively process the lymph fluid. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may ask you to avoid eating and drinking for a certain period of time before the procedure to avoid anesthesia complications. Ask your doctor about your specific situation. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Locating the sentinel nodes&lt;/strong&gt; &lt;br /&gt;
+The first step in a sentinel node biopsy is to locate the sentinel node. There are two options for locating the sentinel node: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Radioactive solution.&lt;/strong&gt; In this option, a weak radioactive solution is injected near the tumor. This solution is taken up by your lymphatic system and travels to the sentinel nodes. This injection is usually done several hours or the day before the surgical procedure to remove the sentinel nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blue dye.&lt;/strong&gt; Your doctor may inject a harmless blue dye into the area near the tumor. The dye is taken up by your lymphatic system and delivered to the sentinel nodes, staining them bright blue. The blue dye is typically injected just before the surgical procedure to remove the sentinel nodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Whether you receive the radioactive solution or the blue dye to locate the sentinel nodes is usually determined by your surgeon&apos;s preference. Some surgeons use both techniques in the same procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During sentinel node biopsy&lt;/strong&gt; &lt;br /&gt;
+Usually, surgeons perform sentinel node biopsy during general anesthesia, so you&apos;re not aware during the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgeon begins by making a small incision in the area over the lymph nodes. If you&apos;ve received the injection of radioactive solution prior to the procedure, the surgeon uses a small hand-held instrument called a gamma detector to determine where the radioactivity has accumulated and identify the sentinel nodes. If the blue dye is used, it stains the sentinel nodes bright blue, allowing the surgeon to see them. The surgeon then removes the sentinel nodes. In most cases, there are two or three sentinel nodes, and all are removed. 
+&lt;/p&gt;
+&lt;p&gt;
+The sentinel nodes are sent to a pathologist to examine under a microscope for signs of cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, sentinel node biopsy is done at the same time as surgery to remove the cancer. In other cases, sentinel node biopsy can be done before or after surgery to remove the cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After sentinel node biopsy&lt;/strong&gt; &lt;br /&gt;
+After sentinel node biopsy, you&apos;re moved to a recovery room where the health care team monitors you for complications from the procedure and anesthesia. If you don&apos;t undergo additional surgery, you&apos;ll be able to go home the same day. How soon you can return to your regular activities will depend on your situation. Talk to your doctor about your specific case. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have sentinel node biopsy as part of a procedure to remove the cancer, your hospital stay will be determined by the extent of your operation. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="60" Title="Sentinel node biopsy" URI="/images/image_popup/thumbs/mcdc7_sentinel_node_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of sentinel node biopsy 
+" Caption="To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for spreading cancer cells by injecting a harmless dye or a weak radioactive solution near the tumor. The sentinel nodes &amp;mdash; the first few lymph nodes into which the tumor drains &amp;mdash; are removed and tested for cancer cells. 
+" Height="420" Title="Sentinel node biopsy" URI="/images/image_popup/mcdc7_sentinel_node_biopsy.jpg" Width="400" />
+				<HTML>
+					To determine whether cancer has spread to the nearby lymph nodes, doctors may use a procedure called sentinel node biopsy. Doctors determine which lymph nodes are likely to be the first stop for ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If examination of the sentinel nodes does not show any sign of cancer, no further lymph node evaluation is needed, and your doctor will use this information to help develop your cancer treatment plan, if further treatment is needed. 
+&lt;/p&gt;
+&lt;p&gt;
+If any of the sentinel nodes contain cancer, you&apos;ll likely need to have additional lymph nodes removed to determine the extent of lymph node involvement. 
+&lt;/p&gt;
+&lt;p&gt;
+In certain cases, the sentinel nodes can be examined by a pathologist during your procedure. If your surgeon has this information while you&apos;re still in the operating room, additional lymph nodes may be removed right away. This way, you may not need to have another surgery to remove additional lymph nodes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sentinel node biopsy
+	</Title>
+	<Abstract>
+		Sentinel node biopsy &amp;mdash; Overview covers definition, risks, results of procedure to detect cancer spread.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00789" LinkType="Internal" ObjectID="95FAAB3F-AE37-571D-07E65D1B330F328A" Title="Video: Sentinel node biopsy for melanoma" Url="http://www.mayoclinic.com/health/sentinel-node-biopsy/MM00789" />
+		<LinkItem ContentType="Disease" DocID="DS00492" LinkType="Internal" ObjectID="F7CF6A7B-63EA-49E6-88C057D7C9F6AA1C" Title="Thyroid cancer" Url="http://www.mayoclinic.com/health/thyroid-cancer/DS00492" />
+		<LinkItem ContentType="Disease" DocID="DS00167" LinkType="Internal" ObjectID="F1F8872C-7558-46CC-A5CA75040FFBC974" Title="Cervical cancer" Url="http://www.mayoclinic.com/health/cervical-cancer/DS00167" />
+		<LinkItem ContentType="Disease" DocID="DS00924" LinkType="Internal" ObjectID="E3F5DF51-E7FF-0DBD-14F04687352B290A" Title="Squamous cell carcinoma" Url="http://www.mayoclinic.com/health/squamous-cell-carcinoma/DS00924" />
+		<LinkItem ContentType="Disease" DocID="DS00306" LinkType="Internal" ObjectID="CC957764-574A-4BA2-8AD311918F4E894F" Title="Endometrial cancer" Url="http://www.mayoclinic.com/health/endometrial-cancer/DS00306" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+		<LinkItem ContentType="Disease" DocID="DS00802" LinkType="Internal" ObjectID="9E6107EE-E7FF-0DBD-1F9AB671F858C362" Title="Merkel cell carcinoma" Url="http://www.mayoclinic.com/health/merkel-cell-carcinoma/DS00802" />
+		<LinkItem ContentType="Disease" DocID="DS00439" LinkType="Internal" ObjectID="9B73D513-F3AC-4443-AB0F2DBF14B54664" Title="Melanoma" Url="http://www.mayoclinic.com/health/melanoma/DS00439" />
+		<LinkItem ContentType="Disease" DocID="DS00768" LinkType="Internal" ObjectID="1BEF7CB5-E7FF-0DBD-1368A0B1C4ADD98E" Title="Vulvar cancer" Url="http://www.mayoclinic.com/health/vulvar-cancer/DS00768" />
+		<LinkItem ContentType="Disease" DocID="DS00043" LinkType="Internal" ObjectID="19DD7485-629A-44DE-A9B65BAC360EF5B3" Title="Prostate cancer" Url="http://www.mayoclinic.com/health/prostate-cancer/DS00043" />
+		<LinkItem ContentType="Disease" DocID="DS00038" LinkType="Internal" ObjectID="06A75328-0BC3-47E7-A00ADDC9B0E319C4" Title="Lung cancer" Url="http://www.mayoclinic.com/health/lung-cancer/DS00038" />
+	</RelatedLinksBox>
+</TestProcedure>

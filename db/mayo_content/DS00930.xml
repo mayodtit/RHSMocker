@@ -1,0 +1,341 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00930
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sick-sinus-syndrome/DS00930
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-20
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4266" Title="Sick sinus syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3720EF76-E7FF-0DBD-1BBAC5E30AECE271
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Sick sinus syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus node dysfunction
+			</MetaKeyword>
+			<MetaKeyword>
+				bradycardia-tachycardia syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				sinoatrial block
+			</MetaKeyword>
+			<MetaKeyword>
+				sinus arrest
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				SSS
+			</MetaKeyword>
+			<MetaKeyword>
+				heart block
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sick sinus syndrome is the name for a group of heart rhythm problems (arrhythmias) in which the sinus node &amp;mdash; the heart&apos;s natural pacemaker &amp;mdash; doesn&apos;t work properly. 
+&lt;/p&gt;
+&lt;p&gt;
+The sinus node is an area of specialized cells in the upper right chamber of the heart that controls the rhythm of your heart. Normally, the sinus node produces a steady pace of regular electrical impulses. In sick sinus syndrome, these signals are abnormally paced. A person with sick sinus syndrome may have heart rhythms that are too fast, too slow, punctuated by long pauses &amp;mdash; or an alternating combination of all of these rhythm problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Sick sinus syndrome is relatively uncommon, but the risk of developing sick sinus syndrome increases with age. Many people with sick sinus syndrome eventually need a pacemaker to keep the heart in a regular rhythm. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with sick sinus syndrome initially have few or no symptoms. In some cases, symptoms may come and go. 
+&lt;/p&gt;
+&lt;p&gt;
+When they do occur, sick sinus syndrome symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Slower than normal pulse (bradycardia)&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dizziness or lightheadedness&lt;/li&gt;
+	&lt;li&gt;Fainting or near fainting&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pains&lt;/li&gt;
+	&lt;li&gt;Interrupted sleeping&lt;/li&gt;
+	&lt;li&gt;Confusion or difficulty remembering things&lt;/li&gt;
+	&lt;li&gt;A sensation of rapid, fluttering heartbeats (palpitations)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Many of these signs and symptoms are caused by reduced blood flow to the brain when the heart beats too fast or too slowly. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have spells of lightheadedness, dizziness, fainting, fatigue, shortness of breath, or palpitations, talk to your doctor. Many medical conditions can cause these signs and symptoms &amp;mdash; including sick sinus syndrome &amp;mdash; and it&apos;s important to identify the problem. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your heart is made up of four chambers &amp;mdash; two upper chambers (atria) and two lower chambers (ventricles). The rhythm of your heart is normally controlled by the sinoatrial node (SA node) &amp;mdash; or sinus node &amp;mdash; an area of specialized cells located in the right atrium. This natural pacemaker produces the electrical impulses that trigger each heartbeat. From the sinus node, electrical impulses travel across the atria to the ventricles, causing them to contract and pump blood out to your lungs and body. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have sick sinus syndrome, your sinus node isn&apos;t functioning properly, so your heart rate may be too slow (bradycardia) or too fast (tachycardia) or irregular. 
+&lt;/p&gt;
+&lt;p&gt;
+Types of sick sinus syndrome and their causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sinoatrial block.&lt;/strong&gt; Electrical signals move too slowly through the sinus node, causing an abnormally slow heart rate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sinus arrest.&lt;/strong&gt; The sinus node activity pauses.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bradycardia-tachycardia syndrome.&lt;/strong&gt; The heart rate alternates between abnormally fast and slow rhythms, usually with a long pause (asystole) between heartbeats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What makes the sinus node misfire?&lt;/strong&gt; &lt;br /&gt;
+Diseases and conditions that cause scarring or damage to your heart&apos;s electrical system can be the reason. Scar tissue from a previous heart surgery also may be the cause, particularly in children. Sick sinus syndrome may also be set off by medications, such as calcium channel blockers or beta blockers used to treat high blood pressure, heart disease or other conditions. However, in most cases, the sinus node doesn&apos;t work properly because of age-related wear and tear to the heart muscle. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="60" Title="Normal heartbeat" URI="/images/image_popup/thumbs/hb7_heartelectricalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="330" Title="Normal heartbeat" URI="/images/image_popup/hb7_heartelectrical.jpg" Width="400" />
+				<HTML>
+					A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sick sinus syndrome can occur in people of all ages, even infants. Because it usually develops slowly, over many years, it&apos;s most common in people around age 70.
+&lt;/p&gt;
+&lt;p&gt;
+In rare cases, sick sinus syndrome may also be associated with certain conditions such as muscular dystrophy and other diseases that may affect the heart. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your heart&apos;s natural pacemaker isn&apos;t working properly, your heart can&apos;t perform as efficiently as it should. This can lead to a very slow heart rate, which may cause fainting. In rare cases, long periods of slow heart rate or fast heart rate can keep your heart from pumping enough blood to meet your body&apos;s needs &amp;mdash; a condition called heart failure. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a type of sick sinus syndrome called bradycardia-tachycardia syndrome, you may also be at a higher risk of developing a blood clot in your heart that may lead to a stroke. That&apos;s because the fast heart rhythm that occurs in bradycardia-tachycardia syndrome is often atrial fibrillation. Atrial fibrillation is a chaotic rhythm of the upper chambers of the heart that can cause blood pooling in the heart. Blood clots are more likely to form when blood flow through the heart is altered in any way. A blood clot can break loose and travel to the brain, causing a stroke. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of sick sinus syndrome, if present at all, may be so mild that you don&apos;t realize they&apos;re cause for concern. For this reason, sick sinus condition may not be diagnosed until it&apos;s in an advanced stage, when the risk of complications is greater. Call your family doctor or general practitioner if you have symptoms of sick sinus syndrome. In some cases when you call to set up an appointment, you may be referred to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find out if you need to follow any pre-appointment restrictions,&lt;/strong&gt; such as changing your activity level or your diet to prepare for diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;ve been experiencing,&lt;/strong&gt; and for how long. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent changes in your life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including other medical problems for which you&apos;ve recently been treated and the names of any medications you&apos;re taking, including over-the-counter medications, vitamins and supplements.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For sick sinus syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending a pacemaker implantation, what&apos;s involved in the procedure?&lt;/li&gt;
+	&lt;li&gt;Will I need to stay in the hospital?&lt;/li&gt;
+	&lt;li&gt;What risks are associated with a pacemaker implantation?&lt;/li&gt;
+	&lt;li&gt;What will my recovery from surgery be like?&lt;/li&gt;
+	&lt;li&gt;Will I be able to resume normal activity? When?&lt;/li&gt;
+	&lt;li&gt;Do you expect a pacemaker will manage my symptoms permanently?&lt;/li&gt;
+	&lt;li&gt;Will I need additional surgery to maintain or, eventually, replace my pacemaker?&lt;/li&gt;
+	&lt;li&gt;Will I need any additional treatment for my condition?&lt;/li&gt;
+	&lt;li&gt;How will you monitor my health long term?&lt;/li&gt;
+	&lt;li&gt;I&apos;m also being treated for another health problem. Will I need to change the treatments I&apos;m using to manage that condition?&lt;/li&gt;
+	&lt;li&gt;Should my children or other close relatives be screened for heart problems?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time? If so, how?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include feeling lightheaded or dizzy?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Do you experience rapid, fluttering or pounding heartbeats (palpitations)?&lt;/li&gt;
+	&lt;li&gt;Do you experience squeezing, pressure, heaviness, tightness or pain in your chest (angina)?&lt;/li&gt;
+	&lt;li&gt;Does exercise or physical exertion make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt; &lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with heart problems. Although sick sinus syndrome is rare, the symptoms of this condition mimic those of many other cardiac illnesses. Knowing your family health history will help your doctor plan the right diagnostic tests and treatments based on your individual risks. 
+&lt;/p&gt;
+&lt;p&gt;
+If exercise makes your symptoms worse, avoid exercise until you&apos;ve been seen by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of sick sinus syndrome &amp;mdash; such as dizziness, shortness of breath and fainting &amp;mdash; are also symptoms of many other diseases and conditions. However, in sick sinus syndrome, these symptoms only occur when the heart is beating abnormally. In order to diagnose and treat sick sinus syndrome, your doctor will need to establish a connection between your symptoms and an abnormal heart rhythm. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrocardiogram&lt;/strong&gt; &lt;br /&gt;
+Testing for sick sinus syndrome usually starts with a standard electrocardiogram (ECG). However, if your abnormal heart rhythms tend to come and go, they may not be detected during the brief time a standard ECG is recording. You may need additional types of ECG: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Standard ECG.&lt;/strong&gt; During this test, sensors (electrodes) are attached to your chest and limbs to create a record of the electrical signals traveling through your heart. The test may show patterns that indicate sick sinus syndrome, including fast heart rate, slow heart rate or a long pause in the heartbeat (asystole) after a fast heart rate. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor ECG.&lt;/strong&gt; This portable device is carried in your pocket or in a pouch on a belt or shoulder strap. It automatically records your heart&apos;s activity for an entire 24-hour period, which provides your doctor with an extended look at your heart rhythms. This type of monitoring can be very helpful for diagnosing sick sinus syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder ECG.&lt;/strong&gt; This portable electrocardiogram device can also be carried in your pocket or worn on a belt or shoulder strap for home monitoring of your heart&apos;s activity. You will often be given this device to use for a month. When you feel symptoms, you push a button, and a brief ECG recording is saved. This allows your doctor to see your heart rhythm at the time of your symptoms, which can help pinpoint sick sinus syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Electrophysiologic testing&lt;/strong&gt; &lt;br /&gt;
+This test isn&apos;t commonly used to screen for sick sinus syndrome. However, in some cases, electrophysiologic testing can help check the function of your sinus node, as well as other electrical properties of your heart. During this test, thin, flexible tubes (catheters) tipped with electrodes are threaded through your blood vessels to various spots along the electrical pathways in your heart. Once in place, the electrodes can precisely map the spread of electrical impulses during each beat and may identify the source of heart rhythm problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for sick sinus syndrome focuses on eliminating or reducing unpleasant symptoms. If you aren&apos;t bothered by symptoms, you may only need regular checkups to monitor your condition. For people who are bothered by symptoms, the treatment of choice is usually an implanted electronic pacemaker. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication changes&lt;/strong&gt; &lt;br /&gt;
+Your doctor may start by looking at your current medications to see if any of them could be interfering with the function of your sinus node. Medications used to treat high blood pressure or heart disease &amp;mdash; such as beta blockers or calcium channel blockers &amp;mdash; can worsen abnormal heart rhythms. In some cases, adjusting these medications can relieve symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pacing the heart&lt;/strong&gt; &lt;br /&gt;
+Most people with sick sinus syndrome eventually need a permanent artificial pacemaker to maintain a regular heartbeat. This small, battery-powered electronic device is implanted under the skin near your collarbone during a minor surgical procedure. The pacemaker is programmed to stimulate or &quot;pace&quot; your heart as needed to keep it beating normally. 
+&lt;/p&gt;
+&lt;p&gt;
+The type of pacemaker you need depends on the type of irregular heart rhythm you&apos;re experiencing. Some rhythms can be treated with a single-chamber pacemaker, which uses only one wire (lead) to pace one chamber of the heart - in this case, the atrium. However, most people with sick sinus syndrome benefit from dual-chamber pacemakers, in which one lead paces the atrium and one lead paces the ventricle. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll be able to resume normal or near-normal activities after you recover from pacemaker implantation surgery. The risk of complications, such as swelling or infection in the area where the pacemaker was implanted, is small. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional treatments for fast heart rate&lt;/strong&gt; &lt;br /&gt;
+If you have rapid heart rate as part of your sick sinus syndrome, you may need additional treatments to control these rhythms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; If you have a pacemaker and your heart rate is still too fast, your doctor may prescribe anti-arrhythmia medications to prevent fast rhythms. If you have atrial fibrillation or other abnormal heart rhythms that increase your risk of stroke, you may need a blood-thinning medicine, such as warfarin (Coumadin) or dabigatran (Pradaxa).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;AV node ablation.&lt;/strong&gt; This procedure can also control fast heart rhythms in people with pacemakers. It involves applying radiofrequency energy through a long, thin tube (catheter) to destroy (ablate) the tissue around the atrioventricular (AV) node between the atria and the ventricles. This stops fast heart rates from reaching the ventricles and causing problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiofrequency ablation of atrial fibrillation.&lt;/strong&gt; This procedure is similar to AV node ablation. However, in this case, ablation targets the tissue that triggers atrial fibrillation. This actually eliminates atrial fibrillation itself, rather than just preventing it from reaching the ventricles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sick sinus syndrome
+	</Title>
+	<Abstract>
+		Sick sinus syndrome &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this heart rhythm problem.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00086" LinkType="Internal" ObjectID="A7E5DC5F-E7FF-0DBD-1AC984DAC3AEAFA7" Title="Electrocardiogram (ECG or EKG)" Url="http://www.mayoclinic.com/health/electrocardiogram/MY00086" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00577" LinkType="Internal" ObjectID="A4969FF4-0BA0-85FA-2A7436104DFFF946" Title="Holter monitor" Url="http://www.mayoclinic.com/health/holter-monitor/MY00577" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00276" LinkType="Internal" ObjectID="8BCA622A-E7FF-0DBD-1AEBB8A4EC3D83DF" Title="Pacemaker" Url="http://www.mayoclinic.com/health/pacemaker/MY00276" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Disease" DocID="DS00291" LinkType="Internal" ObjectID="F553CA62-FA20-4C2B-97C29F6EAF1F81EC" Title="Atrial fibrillation" Url="http://www.mayoclinic.com/health/atrial-fibrillation/DS00291" />
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00200" LinkType="Internal" ObjectID="98CFE6CE-8584-4B59-85CF92C48793A1D8" Title="Muscular dystrophy" Url="http://www.mayoclinic.com/health/muscular-dystrophy/DS00200" />
+		<LinkItem ContentType="Disease" DocID="DS00947" LinkType="Internal" ObjectID="97602949-E7FF-0DBD-1214ED24239B2AFD" Title="Bradycardia" Url="http://www.mayoclinic.com/health/bradycardia/DS00947" />
+		<LinkItem ContentType="Disease" DocID="DS00150" LinkType="Internal" ObjectID="487C37FA-C927-45BF-84821670F1635148" Title="Stroke" Url="http://www.mayoclinic.com/health/stroke/DS00150" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+	</RelatedLinksBox>
+</Disease>

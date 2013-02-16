@@ -1,0 +1,295 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00963
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/listeria-infection/DS00963
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-22
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3114" Title="Food poisoning">
+							<Keyword MCVID="4298" Title="Listeria infection" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			148A1DFD-E7FF-0DBD-126AFDE89E532E0A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				listeria
+			</MetaKeyword>
+			<MetaKeyword>
+				listeria infection
+			</MetaKeyword>
+			<MetaKeyword>
+				listeria monocytogenes
+			</MetaKeyword>
+			<MetaKeyword>
+				listeriosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Listeria infection is a foodborne illness that can be very serious for pregnant women and people with impaired immune systems. Listeria infection is most commonly contracted by eating improperly processed deli meats and unpasteurized milk products. 
+&lt;/p&gt;
+&lt;p&gt;
+Healthy people rarely become ill from listeria infection, but the disease can be fatal to unborn babies and newborns. People who have weakened immune systems are also at higher risk of life-threatening complications. Prompt antibiotic treatment can help curb the effects of listeria infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Listeria bacteria can survive refrigeration and even freezing. That&apos;s why people who are at higher risk for serious infections should avoid eating the types of food most likely to contain listeria bacteria. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you develop a listeria infection, you may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Symptoms may begin a few days after you&apos;ve eaten contaminated food, but it may take as long as two months before the first signs and symptoms of infection begin. 
+&lt;/p&gt;
+&lt;p&gt;
+If the listeria infection spreads to your nervous system, signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Stiff neck&lt;/li&gt;
+	&lt;li&gt;Confusion or changes in alertness&lt;/li&gt;
+	&lt;li&gt;Loss of balance&lt;/li&gt;
+	&lt;li&gt;Convulsions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms during pregnancy and for newborns&lt;/strong&gt; &lt;br /&gt;
+During pregnancy, a listeria infection is likely to cause only mild signs and symptoms in the mother. The consequences for the baby, however, may be devastating. The baby may die unexpectedly before birth or experience a life-threatening infection within the first few days after birth. 
+&lt;/p&gt;
+&lt;p&gt;
+As in adults, the signs and symptoms of a listeria infection in a newborn can be subtle, but may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Little interest in feeding&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you&apos;ve eaten a food that&apos;s been recalled because of a listeria outbreak, pay close attention to any possible signs or symptoms of illness. If you experience fever, muscle aches, nausea or diarrhea, contact your doctor. The same goes for illness after eating a potentially contaminated product, such as foods made with unpasteurized milk or poorly heated hot dogs or deli meats. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience a high fever, severe headache, stiff neck, confusion or sensitivity to light, seek emergency care. These signs and symptoms may indicate bacterial meningitis, a life-threatening complication of a listeria infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Listeria bacteria can be found in soil, water and animal feces. Humans typically are infected by consuming: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Raw vegetables that have been contaminated from the soil or from contaminated manure used as fertilizer&lt;/li&gt;
+	&lt;li&gt;Infected meat&lt;/li&gt;
+	&lt;li&gt;Unpasteurized milk or foods made with unpasteurized milk&lt;/li&gt;
+	&lt;li&gt;Certain processed foods &amp;mdash; such as soft cheeses, hot dogs and deli meats that have been contaminated after processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Unborn babies can contract a listeria infection from the mother via the placenta. Breast-feeding is not considered a potential cause of infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pregnant women and people who have weak immune systems are at highest risk of contracting a listeria infection. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pregnant women and their babies&lt;/strong&gt; &lt;br /&gt;
+Pregnant women are significantly more susceptible to listeria infections than are other healthy adults. Although a listeria infection may cause only a mild illness in the mother, consequences for the baby may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Miscarriage&lt;/li&gt;
+	&lt;li&gt;Stillbirth&lt;/li&gt;
+	&lt;li&gt;Premature birth&lt;/li&gt;
+	&lt;li&gt;A potentially fatal infection after birth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;People who have weak immune systems&lt;/strong&gt; &lt;br /&gt;
+This category includes people who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are over 60&lt;/li&gt;
+	&lt;li&gt;Have AIDS&lt;/li&gt;
+	&lt;li&gt;Are undergoing chemotherapy&lt;/li&gt;
+	&lt;li&gt;Have diabetes or kidney disease&lt;/li&gt;
+	&lt;li&gt;Take high-dose prednisone or certain rheumatoid arthritis drugs&lt;/li&gt;
+	&lt;li&gt;Take medications to block rejection of a transplanted organ&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most listeria infections are so mild they may go unnoticed. However, in some cases, a listeria infection can lead to life-threatening complications &amp;mdash; including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A generalized blood infection (septicemia)&lt;/li&gt;
+	&lt;li&gt;Inflammation of the membranes and fluid surrounding the brain (meningitis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Complications of a listeria infection may be most severe for an unborn baby. Early in pregnancy, a listeria infection may lead to miscarriage. Later in pregnancy, a listeria infection may lead to stillbirth, premature birth or a potentially fatal infection in the baby after birth &amp;mdash; even if the mother becomes only mildly ill. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have eaten food that has been recalled because of listeria contamination, you should see a doctor only if you are experiencing signs and symptoms of a listeria infection. However, if you&apos;re pregnant, you should see a doctor even if you aren&apos;t experiencing symptoms because of the danger to your unborn child. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before the appointment, you might want to write a list that answers the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms and when did they start?&lt;/li&gt;
+	&lt;li&gt;Are you pregnant? If so, how far along are you?&lt;/li&gt;
+	&lt;li&gt;Are you being treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might also want to write a food diary, listing all the foods you&apos;ve eaten each day for as far back as you can reliably remember. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+To help with diagnosis, your doctor may ask if you&apos;ve recently consumed: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Soft cheeses, such as Brie, Camembert, feta, queso blanco or queso fresco&lt;/li&gt;
+	&lt;li&gt;Raw milk or cheeses made of raw (unpasteurized) milk&lt;/li&gt;
+	&lt;li&gt;Processed meats, such as hot dogs or cold cuts&lt;/li&gt;
+	&lt;li&gt;Any foods that have been implicated in a recent food recall&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A blood test is often the most effective way to determine whether you have a listeria infection. In some cases, samples of urine or spinal fluid may be tested as well. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of listeria infection varies, depending on the severity of the signs and symptoms. Most people with mild symptoms require no treatment. More serious infections can be treated with antibiotics. During pregnancy, prompt antibiotic treatment may help keep the infection from affecting the baby. Newborns who have a listeria infection may receive a combination of antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To prevent a listeria infection, follow simple food safety guidelines: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep things clean.&lt;/strong&gt; Wash your hands thoroughly with warm, soapy water before and after handling or preparing food. After cooking, use hot, soapy water to wash the utensils, cutting board and other food preparation surfaces.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scrub raw vegetables.&lt;/strong&gt; Clean raw vegetables with a scrub brush or vegetable brush under plenty of running water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cook your food thoroughly.&lt;/strong&gt; Use a food thermometer to make sure your meat, poultry and egg dishes are cooked to a safe temperature.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Precautions for people particularly at risk&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re at risk of a listeria infection &amp;mdash; you&apos;re pregnant or you have a weak immune system &amp;mdash; you may want to be particularly cautious about listeria. Take additional precautions with these types of foods: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Soft cheeses and Mexican-style cheeses.&lt;/strong&gt; Don&apos;t eat soft cheeses such as feta, Brie, Camembert, blue cheese, and Mexican-style cheeses such as queso blanco and queso fresco, unless it&apos;s clear from the packaging that the product was made using pasteurized milk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hot dogs, luncheon meats and deli meats.&lt;/strong&gt; Avoid hot dogs, luncheon meats and deli meats, unless they&apos;re reheated until steaming hot. Keep fluid from hot dog packages away from other foods, utensils and food preparation surfaces. Wash your hands after handling hot dogs, luncheon meats or deli meats.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Meat spreads.&lt;/strong&gt; Don&apos;t eat refrigerated pates or meat spreads. Canned or shelf-stable pates and meat spreads are acceptable.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Refrigerated smoked seafood.&lt;/strong&gt; Don&apos;t eat refrigerated smoked seafood. Such products may be labeled as nova style, lox, kippered or jerky. One exception is if you&apos;re using these products in a casserole or other cooked dish. Canned or shelf-stable smoked seafood is acceptable.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Listeria infection
+	</Title>
+	<Abstract>
+		Listeria infection &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of this foodborne illness.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02188" LinkType="Internal" ObjectID="9BC86382-A109-1560-53271CDB6B22C3C7" Title="Is it safe to store food in takeout containers?" Url="http://www.mayoclinic.com/health/food-storage-safety/AN02188" />
+		<LinkItem ContentType="Disease" DocID="DS00981" LinkType="Internal" ObjectID="BEED2B48-E7FF-0DBD-1926AF122C3617BB" Title="Food poisoning" Url="http://www.mayoclinic.com/health/food-poisoning/DS00981" />
+	</RelatedLinksBox>
+</Disease>

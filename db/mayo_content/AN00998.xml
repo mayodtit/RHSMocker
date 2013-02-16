@@ -1,0 +1,133 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00998
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/heartburn-gerd/AN00998
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-12
+		</UpdateDate>
+		<PublicationDate>
+			2005-01-18
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1844" Title="Esophagus">
+						<Keyword MCVID="1845" Title="Heartburn" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5D2988BC-4BCF-44BF-A6C481D95C10544F
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				GERD
+			</MetaKeyword>
+			<MetaKeyword>
+				gastroesophageal reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux
+			</MetaKeyword>
+			<MetaKeyword>
+				acid reflux disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heartburn-gerd
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Acid reflux and gastroesophageal reflux disease (GERD) are closely related, but the terms aren&apos;t necessarily interchangeable. 
+&lt;/p&gt;
+&lt;p&gt;
+Acid reflux is the backward flow of stomach acid into the esophagus &amp;mdash; the tube that connects the throat and stomach. Acid reflux is more specifically known as gastroesophageal reflux. During an episode of acid reflux, you may taste regurgitated food or sour liquid at the back of your mouth or feel a burning sensation in your chest (heartburn). 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes acid reflux progresses to GERD, a more severe form of reflux. The most common symptom of GERD is frequent heartburn. Other signs and symptoms may include regurgitation of food or sour liquid, difficulty swallowing, coughing, wheezing and chest pain &amp;mdash; especially while lying down at night. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have occasional acid reflux, lifestyle changes can help. Lose excess weight, eat smaller meals, and avoid foods that seem to trigger heartburn &amp;mdash; such as fried or fatty foods, chocolate and peppermint. Avoiding alcohol and nicotine may help, too. 
+&lt;/p&gt;
+&lt;p&gt;
+If necessary, occasional acid reflux can be treated with over-the-counter medication, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Antacids, such as Tums&lt;/li&gt;
+	&lt;li&gt;H-2-receptor blockers, such as cimetidine (Tagamet HB) or famotidine (Pepcid AC)&lt;/li&gt;
+	&lt;li&gt;Proton pump inhibitors, such as omeprazole (Prilosec OTC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you suspect that you have GERD, your signs and symptoms worsen, or you experience nausea, vomiting or difficulty swallowing, talk to your doctor. Prescription medications may help. In a few cases, GERD may be treated with surgery or other procedures. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Acid reflux and GERD: The same thing?
+	</Title>
+	<Abstract>
+		Acid reflux and GERD are closely related, but the terms aren&apos;t necessarily interchangeable.
+	</Abstract>
+	<Question>
+		Is acid reflux the same as GERD?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00720" LinkType="Internal" ObjectID="E9E50A71-F3A9-4864-B9906E0681988412" Title="GERD: Can certain medications increase severity?" Url="http://www.mayoclinic.com/health/heartburn-gerd/AN00720" />
+		<LinkItem ContentType="Answer" DocID="AN01215" LinkType="Internal" ObjectID="B9DE0148-2A5D-9994-E899E87E02FC4A31" Title="Laryngospasm: What causes it?" Url="http://www.mayoclinic.com/health/laryngospasm/AN01215" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+		<LinkItem ContentType="Video" DocID="MM00791" LinkType="Internal" ObjectID="70EE2D3B-C827-3CD6-8BF1B00BDCA16B47" Title="Video: Fundoplication" Url="http://www.mayoclinic.com/health/fundoplication/MM00791" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01020" LinkType="Internal" ObjectID="5E08EF64-FACF-B2BF-FD6B1222673EABD5" Title="Hypnosis" Url="http://www.mayoclinic.com/health/hypnosis/MY01020" />
+		<LinkItem ContentType="Answer" DocID="AN02140" LinkType="Internal" ObjectID="004B76AE-E02C-4452-86685D94C7457271" Title="Aromatherapy: Is it worthwhile?" Url="http://www.mayoclinic.com/health/aromatherapy/AN02140" />
+		<LinkItem ContentType="Article" DocID="WT00018" LinkType="Internal" ObjectID="EF8958C1-E7FF-0DBD-153A34E4DED46BA5" Title="Weight-loss goals: Set yourself up for success" Url="http://www.mayoclinic.com/health/weight-loss/WT00018" />
+		<LinkItem ContentType="Article" DocID="DG00014" LinkType="Internal" ObjectID="29CD41BB-F87F-4EFC-8668AF3E9A54EF71" Title="Bloating, belching and intestinal gas: How to avoid them" Url="http://www.mayoclinic.com/health/gas-and-gas-pains/DG00014" />
+		<LinkItem ContentType="Video" DocID="MM00008" LinkType="Internal" ObjectID="17D3D2D2-C98C-48AC-ADD54701217AD720" Title="Video: Heartburn and hiatal hernia" Url="http://www.mayoclinic.com/health/heartburn-gerd/MM00008" />
+		<LinkItem ContentType="Disease" DocID="DS00500" LinkType="Internal" ObjectID="823E0F62-2792-45B8-8BF61D7EC1077F47" Title="Esophageal cancer" Url="http://www.mayoclinic.com/health/esophageal-cancer/DS00500" />
+		<LinkItem ContentType="Disease" DocID="HQ00312" LinkType="Internal" ObjectID="0F626CE4-7682-4C3C-801AC8E07B01F30C" Title="Barrett&apos;s esophagus" Url="http://www.mayoclinic.com/health/barretts-esophagus/HQ00312" />
+		<LinkItem ContentType="Article" DocID="DG00016" LinkType="Internal" ObjectID="8CCC8FCD-BF2B-46E2-82B5C018EF3B1796" Title="Heartburn or chest pain: When is it heart attack?" Url="http://www.mayoclinic.com/health/heartburn-gerd/DG00016" />
+		<LinkItem ContentType="Disease" DocID="DS00095" LinkType="Internal" ObjectID="EA5EDE79-8C89-40EB-8D46C714D1E91710" Title="Heartburn" Url="http://www.mayoclinic.com/health/heartburn-gerd/DS00095" />
+	</RelatedLinksBox>
+</Answer>

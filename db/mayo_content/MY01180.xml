@@ -1,0 +1,295 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01180
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blood-pressure-test/MY01180
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-08
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3352" Title="Know your numbers" />
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="3358" Title="Manage wellness self-screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="4681" Title="Blood pressure test" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			8FA1E447-9FAA-8A0D-C4932F5017C91661
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blood pressure test
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure measurement
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertension
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				low blood pressure
+			</MetaKeyword>
+			<MetaKeyword>
+				hypotension
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				blood pressure results
+			</MetaKeyword>
+			<MetaKeyword>
+				high blood pressure treatment
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A blood pressure test measures the pressure in your arteries as your heart pumps. You might have a blood pressure test as a part of routine doctor&apos;s appointment or as a screening for high blood pressure (hypertension). Many people, such as those with high blood pressure, do their own blood pressure tests at home so that they can better track their health. 
+&lt;/p&gt;
+&lt;p&gt;
+You may have frequent blood pressure tests if you&apos;ve been diagnosed with prehypertension, high blood pressure (hypertension) or low blood pressure (hypotension). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a blood pressure test is a routine part of most medical appointments. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may order separate appointments for repeat blood pressure tests to check for ongoing health conditions, including prehypertension, high blood pressure (hypertension), low blood pressure (hypotension), heart disease or other conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+You should have a blood pressure test performed at least once every two years to screen for high blood pressure as a risk factor for heart disease and stroke, starting at age 18. Your doctor may recommend screening at a younger age if there are additional risk factors for developing heart disease, such as being overweight or having a family history of high blood pressure or heart disease. If you&apos;ve already been diagnosed with high or low blood pressure, you should have blood pressure tests more frequently. 
+&lt;/p&gt;
+&lt;p&gt;
+Even if your doctor doesn&apos;t think you have high or low blood pressure as an ongoing condition, your blood pressure is important information for your doctor. It can provide information about your general health. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend that, in addition to regular blood pressure tests at a doctor&apos;s office, you perform blood pressure tests at home. There are automated home blood pressure monitors that are easy to use. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Having a blood pressure test doesn&apos;t have any risks to your health. The squeezing of an inflated blood pressure cuff on your arm may be uncomfortable, but it should last only a few seconds. 
+&lt;/p&gt;
+&lt;p&gt;
+Occasionally a few tiny red spots (petechia) appear after the test just below the location of the cuff, especially if you are taking anti-platelet drugs. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No special preparations are needed for a blood pressure test. You might want to wear a short-sleeved shirt to your appointment so that the nurse or technician doing your blood pressure test has easy access to your arm to perform the test. However, if the main reason for your doctor&apos;s appointment is to check for or monitor high blood pressure, you should use the toilet before your test to empty your bladder, and avoid eating, drinking caffeinated beverages and smoking for one hour before your test. 
+&lt;/p&gt;
+&lt;p&gt;
+Because some medications &amp;mdash; such as over-the-counter cold medicines, antidepressants, birth control pills and others &amp;mdash; can affect your blood pressure, it&apos;s a good idea to take a list of medications and supplements you use to your doctor&apos;s appointment. Don&apos;t stop taking any prescription medications that you think may affect your blood pressure without your doctor&apos;s advice. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+Having a blood pressure test is often a routine part of a medical appointment. The test may be performed by a nurse or technician. 
+&lt;/p&gt;
+&lt;p&gt;
+The test is performed best while you&apos;re seated in a chair in the examining room. Your arm should be supported, resting on a table at heart level, both feet flat on the floor and back supported by the chair. 
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider will wrap an inflatable cuff around the top part of your arm so that the bottom of the cuff is just above your elbow. The cuff is attached to a dial, digital display or a device that looks similar to a thermometer. This equipment is called a sphygmomanometer (sfig-moe-muh-NOM-uh-tur). 
+&lt;/p&gt;
+&lt;p&gt;
+Throughout the test, you should try not to talk or move your arm. The nurse or technician will feel the pulse at your wrist and then take a reading with the sphygmomanometer, checking for when the pulse is felt as the air deflates from the cuff. This is so he or she can figure out how much air to pump into the cuff to accurately measure your blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+Once a pulse from an artery is found and the stethoscope is positioned above the elbow, so the nurse or technician will hear the blood flow, he or she will begin inflating the cuff with a small hand pump. The nurse or technician will inflate the cuff to momentarily stop the blood flow through the artery in your arm. 
+&lt;/p&gt;
+&lt;p&gt;
+Then the nurse or technician will open a valve on the hand pump to slowly release the air in the cuff. He or she will continue to listen to your pulse with a stethoscope to record your systolic and diastolic blood pressure. Systolic pressure &amp;mdash; the top number of your blood pressure reading &amp;mdash; is the pressure of the blood flow when your heart muscle contracts. Diastolic pressure &amp;mdash; the bottom number of your blood pressure reading &amp;mdash; is the pressure measured between heartbeats. Blood pressure is measured in millimeters of mercury, which is abbreviated mm Hg. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible your blood pressure will be measured using a machine that automatically measures your pulse to figure out your systolic and diastolic blood pressure. If this is the case, it&apos;s not necessary for the nurse or technician to search for your pulse with a stethoscope. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether your blood pressure is measured manually or with an automatic machine, it takes about a minute to complete a single blood pressure measurement. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+The nurse or technician taking your blood pressure can tell you what your blood pressure is immediately after the test is over. Your doctor may discuss what the results mean if your blood pressure test shows that you have high or low blood pressure. 
+&lt;/p&gt;
+&lt;p&gt;
+If your doctor thinks you may have high or low blood pressure and is trying to decide the best treatment options for you, you may need to have two or three follow-up appointments to have your blood pressure checked. This is because your blood pressure can vary from moment to moment and day to day. Also for this reason, you may be given multiple blood pressure tests during one visit. Your doctor will look at the results of each of your blood pressure tests to see if you need treatment. You may also be instructed to take several blood pressure readings at home. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tracking your blood pressure readings&lt;/strong&gt;&lt;br /&gt;
+It can be helpful in diagnosing or monitoring high blood pressure if you record your readings in a blood pressure log, whether on paper or electronically, such as in an online personal health record or blood pressure tracker, for example. This gives you the option of sharing your data with your health care providers and family members. Some blood pressure monitors can be connected directly to your computer, making it easy to transfer the information to an online record. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can learn your blood pressure measurement as soon as your test is over. A blood pressure reading, given in millimeters of mercury (mm Hg), has two numbers. The first, or top, number measures the pressure in your arteries when your heart beats (systolic pressure). The second, or bottom, number measures the pressure in your arteries between beats (diastolic pressure). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s a look at the four blood pressure categories and what they mean. If your readings fall into two different categories, your correct blood pressure category is the higher one. 
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Top number (systolic) in mm Hg &lt;/th&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Bottom number (diastolic) in mm Hg &lt;/th&gt;&lt;th&gt;Your category* &lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Below 90 &lt;/td&gt;
+			&lt;td&gt;or &lt;/td&gt;
+			&lt;td&gt;Below 60 &lt;/td&gt;
+			&lt;td&gt;Low blood pressure** (hypotension) &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;Below 120 &lt;/td&gt;
+			&lt;td&gt;and &lt;/td&gt;
+			&lt;td&gt;Below 80 &lt;/td&gt;
+			&lt;td&gt;Normal blood pressure &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;120-139 &lt;/td&gt;
+			&lt;td&gt;or &lt;/td&gt;
+			&lt;td&gt;80-89 &lt;/td&gt;
+			&lt;td&gt;Prehypertension &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;bodyrow&quot;&gt;
+			&lt;td&gt;140-159 &lt;/td&gt;
+			&lt;td&gt;or &lt;/td&gt;
+			&lt;td&gt;90-99 &lt;/td&gt;
+			&lt;td&gt;Stage 1 hypertension &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;160 or more &lt;/td&gt;
+			&lt;td&gt;or &lt;/td&gt;
+			&lt;td&gt;100 or more &lt;/td&gt;
+			&lt;td&gt;Stage 2 hypertension &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+*Ranges may be lower for children and teenagers. Talk to your child&apos;s doctor if you think your child might have high blood pressure.&lt;br /&gt;
+**What&apos;s considered low blood pressure can vary from person to person. The numbers given are a general guideline. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prehypertension and stages 1 and 2 hypertension&lt;/strong&gt;&lt;br /&gt;
+If your blood pressure test shows that you have higher than normal blood pressure, your doctor will recommend that you make lifestyle changes to try to lower your blood pressure. These changes can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce the amount of salt in your diet.&lt;/strong&gt; A lower sodium level &amp;mdash; 1,500 milligrams (mg) a day &amp;mdash; is appropriate for people 51 years of age or older, and individuals of any age who are African-American or who have hypertension, diabetes or chronic kidney disease. Otherwise healthy people can aim for 2,300 mg a day or less. While you can reduce the amount of salt you eat by putting down the saltshaker, you should also pay attention to the amount of salt that&apos;s in the processed foods you eat, such as canned soups or frozen dinners.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; Choose fruits, vegetables, whole grains and low-fat dairy foods. Eat less saturated fat and total fat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Quit smoking.&lt;/strong&gt; You should also try to avoid secondhand smoke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lose weight.&lt;/strong&gt; If you&apos;re overweight, losing even 5 pounds can lower your blood pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Regular physical activity can help lower your blood pressure and keep your weight under control. Strive for at least 30 minutes of physical activity five days a week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol.&lt;/strong&gt; Even if you&apos;re healthy, alcohol can raise your blood pressure. If you choose to drink alcohol, do so in moderation &amp;mdash; up to one drink a day for women and everyone over age 65, and two drinks a day for men.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If lifestyle changes alone aren&apos;t enough, or if you have stage 2 hypertension, your doctor may recommend medications to help lower your blood pressure. Your doctor will discuss which medication options might work best for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Low blood pressure &lt;/strong&gt;&lt;br /&gt;
+Low blood pressure that either doesn&apos;t cause signs or symptoms, or causes only mild symptoms, such as brief episodes of dizziness when standing, rarely requires treatment. If you do have symptoms, the best treatment depends on the underlying cause. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blood pressure test
+	</Title>
+	<Abstract>
+		Blood pressure test &amp;mdash; Overview covers what to expect and results of this routine test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00785" LinkType="Internal" ObjectID="E4AF5952-E281-9FDB-A49D030ABA3ADA63" Title="Video: How to measure blood pressure using an automatic monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00785" />
+		<LinkItem ContentType="Video" DocID="MM00784" LinkType="Internal" ObjectID="E4AC6F86-E982-CDFA-7000379CDB6D02C5" Title="Video: How to measure blood pressure using a manual monitor" Url="http://www.mayoclinic.com/health/how-to-measure-blood-pressure/MM00784" />
+		<LinkItem ContentType="Video" DocID="MM00783" LinkType="Internal" ObjectID="E4A91387-DA91-1FD3-6FA25DF674886A49" Title="Video: What is blood pressure?" Url="http://www.mayoclinic.com/health/what-is-blood-pressure/MM00783" />
+		<LinkItem ContentType="Disease" DocID="DS00100" LinkType="Internal" ObjectID="D2F240ED-803D-4E1A-A692B907BFCFDD6D" Title="High blood pressure (hypertension)" Url="http://www.mayoclinic.com/health/high-blood-pressure/DS00100" />
+		<LinkItem ContentType="Disease" DocID="DS00590" LinkType="Internal" ObjectID="771E6FEC-FBF4-4B5E-90D2E1AA9BA37D13" Title="Low blood pressure (hypotension)" Url="http://www.mayoclinic.com/health/low-blood-pressure/DS00590" />
+	</RelatedLinksBox>
+</TestProcedure>

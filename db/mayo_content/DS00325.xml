@@ -1,0 +1,402 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00325
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/vitamin-deficiency-anemia/DS00325
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-04
+		</UpdateDate>
+		<PublicationDate>
+			2001-08-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1448" Title="Anemia">
+						<Keyword MCVID="1708" Title="Vitamin deficiency anemia" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2BC66873-33D3-4F88-9FCFFA3261CA58AE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin deficiency anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				pernicious anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				folate deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				folate deficiency anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin B-12 deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin B-12 deficiency anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin C deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin C deficiency anemia
+			</MetaKeyword>
+			<MetaKeyword>
+				b12 deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin b12 deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin b9
+			</MetaKeyword>
+			<MetaKeyword>
+				vitamin b9 deficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				b9 deficiency
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vitamin deficiency anemia is a lack of healthy red blood cells caused by lower-than-normal amounts of certain vitamins. The vitamins linked to vitamin deficiency anemia include folate, vitamin B-12 and vitamin C. 
+&lt;/p&gt;
+&lt;p&gt;
+Vitamin deficiency anemia can occur if you don&apos;t eat enough folate, vitamin B-12 or vitamin C. Or vitamin deficiency anemia can occur if your body has trouble absorbing or processing these vitamins. 
+&lt;/p&gt;
+&lt;p&gt;
+The lack of red blood cells caused by vitamin deficiency anemia can cause weakness and shortness of breath. Vitamin deficiency anemia can usually be corrected with vitamin supplements and changes to your diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of vitamin deficiency anemia include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Pale or yellowish skin&lt;/li&gt;
+	&lt;li&gt;Swollen tongue that may appear dark red&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Numbness or tingling in your hands and feet&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Unsteady movements&lt;/li&gt;
+	&lt;li&gt;Mental confusion or forgetfulness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Vitamin deficiencies usually develop slowly over several months to years. Vitamin deficiency symptoms may be subtle at first, but they increase as the deficiency worsens. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Vitamin deficiency anemia occurs when your body doesn&apos;t have enough of the vitamins needed to produce adequate numbers of healthy red blood cells. Red blood cells carry oxygen from your lungs throughout your body. If your diet is lacking in certain vitamins, vitamin deficiency anemia can develop. Or vitamin deficiency anemia may develop because your body can&apos;t properly absorb the nutrients from the foods you eat. 
+&lt;/p&gt;
+&lt;p&gt;
+Causes of vitamin deficiency anemias, also known as megaloblastic anemias, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Folate deficiency anemia.&lt;/strong&gt; Folate, also known as vitamin B-9, is a nutrient found mainly in fruits and leafy green vegetables. A diet consistently lacking in these foods can lead to a deficiency.
+	&lt;/p&gt;
+	&lt;p&gt;
+	An inability to absorb folate from food can also lead to a deficiency. Most nutrients from food are absorbed in your small intestine. People with diseases of the small intestine, such as Crohn&apos;s disease or celiac disease, or those who have had a large part of the small intestine surgically removed or bypassed, may have difficulty absorbing folate or its synthetic form, folic acid. Alcohol decreases absorption of folate, so drinking alcohol to excess may lead to a deficiency. Certain prescription drugs, such as some anti-seizure medications, can interfere with absorption of this nutrient. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Pregnant women and women who are breast-feeding have an increased demand for folate, as do people undergoing hemodialysis for kidney disease. Failure to meet this increased demand can result in a deficiency. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Vitamin B-12 deficiency anemia (pernicious anemia).&lt;/strong&gt; Vitamin B-12 deficiency can result from a diet lacking in vitamin B-12, which is found mainly in meat, eggs and milk. Vitamin B-12 deficiency anemia can also occur if your small intestine can&apos;t absorb vitamin B-12. This may be due to surgery to your stomach or small intestine (such as gastric bypass surgery), abnormal bacterial growth in your small intestine, or an intestinal disease, such as Crohn&apos;s disease or celiac disease, that interferes with absorption of the vitamin. Vitamin B-12 deficiency can also be caused by a tapeworm ingested from contaminated fish, because the tapeworm saps nutrients from your body. However, a vitamin B-12 deficiency is most often due to a lack of a substance called intrinsic factor.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Intrinsic factor is a protein secreted by the stomach that joins vitamin B-12 in the stomach and escorts it through the small intestine to be absorbed by your bloodstream. Without intrinsic factor, vitamin B-12 can&apos;t be absorbed and leaves your body as waste. Lack of intrinsic factor may be due to an autoimmune reaction, in which your immune system mistakenly attacks the stomach cells that produce it. Vitamin B-12 deficiency anemia caused by a lack of intrinsic factor is called pernicious anemia. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin C deficiency anemia.&lt;/strong&gt; Though rare, vitamin C deficiency can develop if you don&apos;t get enough vitamin C from the foods you eat. Vitamin C deficiency is also possible if something impairs your ability to absorb vitamin C from food. For instance, smoking impairs your body&apos;s ability to absorb vitamin C.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for vitamin deficiency anemia vary by type of vitamin deficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Folate deficiency anemia&lt;/strong&gt; &lt;br /&gt;
+Your risk of folate deficiency anemia may be increased if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re pregnant,&lt;/strong&gt; and you aren&apos;t taking a multivitamin containing folic acid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have intestinal problems&lt;/strong&gt; that interfere with absorption of folate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You abuse alcohol,&lt;/strong&gt; because alcohol interferes with the absorption of folate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You take certain prescription medications,&lt;/strong&gt; such as some anti-seizure drugs, that can block absorption of folate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re undergoing hemodialysis&lt;/strong&gt; for kidney failure. Ask your doctor whether you need supplemental folic acid to prevent a deficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re undergoing cancer treatment.&lt;/strong&gt; Some drugs used to treat cancer can interfere with the metabolism of folate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You don&apos;t eat many fruits and vegetables.&lt;/strong&gt; If your diet is greatly lacking in fresh fruits and vegetables, or you consistently overcook your food, you may be at risk of folate deficiency anemia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vitamin B-12 deficiency anemia (pernicious anemia)&lt;/strong&gt; &lt;br /&gt;
+Your risk of vitamin B-12 deficiency anemia may be increased if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You don&apos;t eat meat and dairy products,&lt;/strong&gt; foods that contain a lot of vitamin B-12. Vegetarians who don&apos;t eat dairy products and vegans, who don&apos;t eat any foods from animals, may fall into this category.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have an intestinal disease,&lt;/strong&gt; abnormal bacterial growth in your stomach, or have had surgery to your intestines or stomach that interferes with the absorption of vitamin B-12.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You lack intrinsic factor.&lt;/strong&gt; Most people with a vitamin B-12 deficiency anemia lack intrinsic factor &amp;mdash; a protein secreted by the stomach that is necessary for absorption of vitamin B-12. Lack of intrinsic factor may be due to an autoimmune reaction or it may be inherited.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You take certain medications.&lt;/strong&gt; Antacids and some drugs used to treat type 2 diabetes may interfere with B-12 absorption.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You have another autoimmune disorder.&lt;/strong&gt; People with endocrine-related autoimmune disorders, such as diabetes or thyroid disease, may have an increased risk of developing a specific type of vitamin B-12 deficiency anemia called pernicious anemia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Vitamin C deficiency anemia&lt;/strong&gt; &lt;br /&gt;
+Your risk of vitamin C deficiency anemia may be increased if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;You&apos;re malnourished&lt;/strong&gt; and you&apos;re not getting the nutrients and vitamins you need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;You smoke.&lt;/strong&gt; Smoking can lead to vitamin C deficiency because it decreases the absorption of this vitamin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Being deficient in vitamins increases your risk of many health problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; Pregnant women with folate deficiency may be more likely to experience miscarriage and deliver babies that are premature or are smaller than average. A developing fetus that doesn&apos;t get enough folate from its mother can develop birth defects of the brain and spinal cord. If you&apos;re thinking of becoming pregnant, ask your doctor whether you should consider taking folic acid supplements, so your body&apos;s stores of folate will be enough to support your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nervous system disorders.&lt;/strong&gt; While vitamin B-12 is important for the production of red blood cells, it&apos;s also important for a healthy nervous system. Untreated, vitamin B-12 deficiency can lead to neurological problems, such as persistent tingling in your hands and feet. It can lead to mental confusion and forgetfulness, because vitamin B-12 is necessary for healthy brain function. Without treatment for vitamin B-12 deficiency, neurological complications can become permanent. Vitamin B-12 deficiency can cause these and other health problems before it leads to anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scurvy.&lt;/strong&gt; Vitamin C deficiency can lead to scurvy. Signs and symptoms of this rare disease include bleeding under the skin and around the gums.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you have a vitamin deficiency anemia, you&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases, you may be referred to a doctor who specializes in treating blood disorders (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. For vitamin deficiency anemia, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any foods I need to add to my diet?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment anytime that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are you a vegetarian?&lt;/li&gt;
+	&lt;li&gt;How many servings of fruits and vegetables do you usually eat in a day?&lt;/li&gt;
+	&lt;li&gt;Do you drink alcohol? If so, how often, and how many drinks do you usually have?&lt;/li&gt;
+	&lt;li&gt;Are you a smoker?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors diagnose vitamin deficiency anemias through blood tests that check: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The number and appearance of red blood cells.&lt;/strong&gt; People with anemia have fewer red blood cells than normal. In vitamin deficiency anemias related to a lack of vitamin B-12 and folate, the red blood cells appear large and underdeveloped. In advanced deficiencies, white blood cells and platelets also look abnormal under a microscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The amount of folate, vitamin B-12 and vitamin C in your blood.&lt;/strong&gt; Folate and vitamin B-12 levels are measured at the same time, because these deficiencies can cause similar signs and symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Additional tests for B-12 deficiency&lt;/strong&gt; &lt;br /&gt;
+If blood tests reveal a vitamin deficiency, your doctor may perform other tests to determine the type and cause, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antibodies test.&lt;/strong&gt; Your doctor may draw a sample of your blood to check for antibodies to intrinsic factor. Their presence indicates pernicious anemia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Methylmalonic acid test.&lt;/strong&gt; You may undergo a blood test to measure the presence of a substance called methylmalonic acid. The level of this substance is higher in people with vitamin B-12 deficiency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Schilling test.&lt;/strong&gt; In this test, you first ingest a tiny amount of radioactive vitamin B-12. Then your blood is checked to see if your body absorbed the vitamin B-12. After that, you ingest a combination of radioactive vitamin B-12 and intrinsic factor. If the radioactive B-12 is absorbed only when taken with intrinsic factor, it confirms that you lack your own intrinsic factor.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for vitamin deficiency anemia includes supplements and changes in diet. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Folate deficiency anemia.&lt;/strong&gt; Treatment involves eating a healthy diet and taking folic acid supplements as prescribed by your doctor. In most cases, folic acid supplements are taken orally. Once your body&apos;s level of folate increases to normal, you may be able to stop taking the supplements. But if the cause of your folate deficiency can&apos;t be corrected, you may need to take folic acid supplements for life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin B-12 deficiency anemia (pernicious anemia).&lt;/strong&gt; For milder cases of vitamin B-12 deficiency, treatment may involve changes to your diet and vitamin B-12 supplements in pill form or as a nasal spray. In more severe cases, you may receive vitamin B-12 injections. At first you may receive the shots as often as every other day. Eventually you&apos;ll need injections just once a month, which may continue for life, depending on your situation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin C deficiency anemia.&lt;/strong&gt; Treatment for anemia related to vitamin C deficiency is with vitamin C tablets. Additionally, you increase your intake of foods and beverages that contain vitamin C.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Choose a healthy diet&lt;/strong&gt; &lt;br /&gt;
+You can prevent some forms of vitamin deficiency anemias by choosing a healthy diet that includes a variety of foods. 
+&lt;/p&gt;
+&lt;p&gt;
+Foods rich in folate include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dark green leafy vegetables&lt;/li&gt;
+	&lt;li&gt;Dried beans and peas&lt;/li&gt;
+	&lt;li&gt;Enriched grain products, such as bread, cereal, pasta and rice&lt;/li&gt;
+	&lt;li&gt;Fruits and fruit juices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Foods rich in vitamin B-12 include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eggs&lt;/li&gt;
+	&lt;li&gt;Fortified foods, such as breakfast cereals&lt;/li&gt;
+	&lt;li&gt;Milk, cheese and yogurt&lt;/li&gt;
+	&lt;li&gt;Red and white meats and shellfish&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Foods rich in vitamin C include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Broccoli&lt;/li&gt;
+	&lt;li&gt;Citrus fruits and juices&lt;/li&gt;
+	&lt;li&gt;Strawberries&lt;/li&gt;
+	&lt;li&gt;Sweet peppers&lt;/li&gt;
+	&lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most adults need these daily dietary amounts of the following vitamins: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin B-12,&lt;/strong&gt; 2.4 micrograms (mcg)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Folate or folic acid,&lt;/strong&gt; 400 mcg&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin C,&lt;/strong&gt; 75 to 90 milligrams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Pregnant and breast-feeding women may require more of each vitamin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Consider a multivitamin&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re concerned about getting enough vitamins from the food you eat, ask your doctor whether a multivitamin may be right for you. Most people get enough vitamins from the foods they eat. But if you&apos;re diet is restricted, you may wish to take a multivitamin. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Don&apos;t smoke&lt;/strong&gt; &lt;br /&gt;
+Smoking interferes with the absorption of nutrients, such as vitamin C, so it can raise your risk of a vitamin deficiency. If you smoke, quit. If you don&apos;t smoke, don&apos;t start. If you&apos;ve tried to quit on your own and haven&apos;t been successful, talk with your doctor about strategies to help you quit. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drink alcohol in moderation, if at all&lt;/strong&gt; &lt;br /&gt;
+Alcohol can contribute to vitamin deficiency anemia. If you choose to drink alcohol, do so in moderation. In general, this means limiting yourself to two drinks per day if you&apos;re a man or one drink per day if you&apos;re a woman. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Vitamin deficiency anemia
+	</Title>
+	<Abstract>
+		Vitamin deficiency anemia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this type of anemia.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00529" LinkType="Internal" ObjectID="F9C2A5C9-E236-3A87-20857F09DD395018" Title="Hemoglobin test" Url="http://www.mayoclinic.com/health/hemoglobin-test/MY00529" />
+		<LinkItem ContentType="Disease" DocID="DS00321" LinkType="Internal" ObjectID="EC65CB20-B944-4CF2-8237D5D3234C0883" Title="Anemia" Url="http://www.mayoclinic.com/health/anemia/DS00321" />
+	</RelatedLinksBox>
+</Disease>

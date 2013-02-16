@@ -1,0 +1,164 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00640
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ice-cream-headaches/DS00640
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-07
+		</UpdateDate>
+		<PublicationDate>
+			2006-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1135" Title="Headache">
+						<Keyword MCVID="2039" Title="Other">
+							<Keyword MCVID="2072" Title="Ice cream headaches" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			79580DE4-2A5D-9994-E7719D837223BE51
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				ice cream headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				brain freeze
+			</MetaKeyword>
+			<MetaKeyword>
+				head pain
+			</MetaKeyword>
+			<MetaKeyword>
+				head aches
+			</MetaKeyword>
+			<MetaKeyword>
+				cold headaches
+			</MetaKeyword>
+			<MetaKeyword>
+				cold stimulus headaches
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ice cream headaches are brief, stabbing headaches that can happen when you eat or drink something cold. Ice pops, slushy frozen drinks, ice cream, and other cold foods and drinks can have the same &quot;brain-freeze&quot; effect.
+&lt;/p&gt;
+&lt;p&gt;
+But there&apos;s good news. Most ice cream headaches are gone in the time it would take you to say their medical name &amp;mdash; &quot;headache attributed to ingestion or inhalation of a cold stimulus.&quot;
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ice cream headache symptoms include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sharp, stabbing pain in the forehead&lt;/li&gt;
+	&lt;li&gt;Pain that peaks about 30 to 60 seconds after it begins&lt;/li&gt;
+	&lt;li&gt;Pain that rarely lasts longer than five minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Because ice cream headaches go away on their own shortly after they start, there&apos;s no need to see a doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ice cream headaches are caused by cold material moving across the roof of your mouth and the back of your throat, as happens when you eat ice cream quickly or gulp a cold drink. Scientists are still unsure about the exact mechanism that causes this pain. 
+&lt;/p&gt;
+&lt;p&gt;
+One theory suggests that the cold food or drink may temporarily alter blood flow in your brain, causing a brief headache. Some researchers suspect that the pain is referred from your mouth to your head via the trigeminal nerve, which delivers sensory information from the face and mouth to the brain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ice cream headaches can affect anyone. But you may be more susceptible to ice cream headaches or have more-severe ice cream headaches if you&apos;re prone to migraines. The headaches may also be more common among people with a history of head injuries. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ice cream headaches don&apos;t need treatment. Typically, the pain quickly disappears after the cold food or drink is swallowed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help prevent ice cream headaches, try eating cold foods and drinking cold beverages slowly. The only way to definitely avoid getting an ice cream headache is to avoid the cold food or drinks that cause them. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ice cream headaches
+	</Title>
+	<Abstract>
+		Ice cream headaches &amp;mdash; Comprehensive overview covers causes of this common type of headache.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

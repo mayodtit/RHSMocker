@@ -1,0 +1,126 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01137
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/mammogram/AN01137
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-06
+		</UpdateDate>
+		<PublicationDate>
+			2005-08-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3646" Title="Cancer">
+						<Keyword MCVID="3093" Title="Mammogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			58D6580B-0464-44C3-B42E52E54440F067
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mammogram
+			</MetaKeyword>
+			<MetaKeyword>
+				mammography
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Dense breasts can make mammograms more difficult to interpret. But this doesn&apos;t mean a mammogram is useless for detecting cancer or other breast abnormalities in women with dense breasts. 
+&lt;/p&gt;
+&lt;p&gt;
+Breast tissue is composed of fatty (nondense) tissue and connective (dense) tissue. The relative ratio of fatty tissue to connective tissue differs among women. As women age, their breasts tend to become less dense. 
+&lt;/p&gt;
+&lt;p&gt;
+Dense breast tissue appears as a solid white area on a mammogram, and fat appears as a dark area. Mammogram X-rays do not penetrate &amp;mdash; or &quot;see through&quot; &amp;mdash; dense tissues as well as they do through fat. So, in women with dense breasts, mammograms are more difficult to interpret. Tumors also are dense tissue and appear as solid white areas on the mammogram. This can make it more difficult to detect a tumor in dense breasts because it looks a lot like the dense tissue that surrounds it. 
+&lt;/p&gt;
+&lt;p&gt;
+Some studies have found that newer digital mammography does a better job detecting cancer in dense breasts than does mammography that uses film. A digital mammogram produces images on a computer screen that can be enhanced and magnified for closer viewing. 
+&lt;/p&gt;
+&lt;p&gt;
+Many, but not all, medical centers offer digital mammography. Ask your doctor for a referral to a center that offers this technology if you feel it&apos;s best for you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Mammogram films showing the four levels of breast density 
+" Caption="Breast tissue is composed of fatty (nondense) tissue and connective (dense) tissue. Radiologists use a grading system to describe the density of breast tissue based on the proportion of fat to connective tissue. The four levels of density are shown in these mammogram images. From left to right: level 1 (a very fatty breast), level 2 (fatty tissue makes up more than 50 percent of breast), level 3 (dense tissue makes up more than 50 percent of the breast) and level 4 (a very dense breast with very little fat). 
+" Height="60" Title="Breast density &amp;mdash; The four levels" URI="/images/image_popup/thumbs/ans7_dense_breaststhu.jpg" Width="60" />
+				<Image Alt="Mammogram films showing the four levels of breast density 
+" Caption="Breast tissue is composed of fatty (nondense) tissue and connective (dense) tissue. Radiologists use a grading system to describe the density of breast tissue based on the proportion of fat to connective tissue. The four levels of density are shown in these mammogram images. From left to right: level 1 (a very fatty breast), level 2 (fatty tissue makes up more than 50 percent of breast), level 3 (dense tissue makes up more than 50 percent of the breast) and level 4 (a very dense breast with very little fat). 
+" Height="182" Title="Breast density &amp;mdash; The four levels" URI="/images/image_popup/ans7_dense_breasts.jpg" Width="400" />
+				<HTML>
+					Breast tissue is composed of fatty (nondense) tissue and connective (dense) tissue. Radiologists use a grading system to describe the density of breast tissue based on the proportion of fat to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Mammogram: Can it find cancer in dense breasts?
+	</Title>
+	<Abstract>
+		Dense breasts can make a mammogram more difficult to interpret.
+	</Abstract>
+	<Question>
+		I&apos;ve read that a mammogram is useless when it comes to detecting cancer in women with dense breasts. Is this true?
+	</Question>
+	<QuestionFirstName>
+		Tammy
+	</QuestionFirstName>
+	<QuestionState>
+		Illinois
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00743" LinkType="Internal" ObjectID="C6BE6AB7-A985-99D5-9531FBF2726E431F" Title="Breast exam" Url="http://www.mayoclinic.com/health/breast-exam/MY00743" />
+		<LinkItem ContentType="Answer" DocID="AN00419" LinkType="Internal" ObjectID="FC5332DF-AF1C-4812-81711A4E32EB40A6" Title="Breast implants: Do they interfere with mammograms?" Url="http://www.mayoclinic.com/health/breast-implants/AN00419" />
+		<LinkItem ContentType="Video" DocID="MM00639" LinkType="Internal" ObjectID="BE7A2D47-2A5D-9994-ED3CA13FF3C78E1F" Title="Video: Mammogram for breast cancer &amp;mdash; What to expect" Url="http://www.mayoclinic.com/health/mammogram/MM00639" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00303" LinkType="Internal" ObjectID="9AD7E76E-E7FF-0DBD-171DDB5617E27BA8" Title="Mammogram" Url="http://www.mayoclinic.com/health/mammogram/MY00303" />
+		<LinkItem ContentType="Answer" DocID="AN02196" LinkType="Internal" ObjectID="5661182E-EE32-C2FA-42793E130F959800" Title="Thyroid guard: Do I need one during a mammogram?" Url="http://www.mayoclinic.com/health/thyroid-guard/AN02196" />
+		<LinkItem ContentType="Answer" DocID="AN01851" LinkType="Internal" ObjectID="10E30AA5-E7FF-0DBD-16106C84F24CAF6F" Title="Conflicting mammogram results: What can I do?" Url="http://www.mayoclinic.com/health/mammogram-results/AN01851" />
+		<LinkItem ContentType="Answer" DocID="AN02052" LinkType="Internal" ObjectID="02595D0A-9DD3-ED31-69F5C7C43B2CC0C7" Title="Mammogram guidelines: What are they?" Url="http://www.mayoclinic.com/health/mammogram-guidelines/AN02052" />
+		<LinkItem ContentType="Disease" DocID="DS01071" LinkType="Internal" ObjectID="EC59DB74-E7FF-0DBD-109DDCCB2731C074" Title="Breast cysts" Url="http://www.mayoclinic.com/health/breast-cysts/DS01071" />
+		<LinkItem ContentType="Disease" DocID="DS00328" LinkType="Internal" ObjectID="B105D3F6-BFE9-4D89-A5E53914589F7E86" Title="Breast cancer" Url="http://www.mayoclinic.com/health/breast-cancer/DS00328" />
+	</RelatedLinksBox>
+</Answer>

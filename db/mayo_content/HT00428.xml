@@ -1,0 +1,71 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00428
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00428
+		</OriginalURL>
+		<UpdateDate>
+			2010-04-24
+		</UpdateDate>
+		<PublicationDate>
+			2008-04-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2982" Title="Fungal skin infections">
+							<Keyword MCVID="2984" Title="Athlete&apos;s foot" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			AEF67C94-E7FF-0DBD-1F480767344B0A41
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				athlete&apos;s foot
+			</MetaKeyword>
+			<MetaKeyword>
+				athletes foot
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Are you a step ahead of athlete&apos;s foot?
+	</Title>
+	<Body>
+		&lt;p&gt;The fungus that causes athlete&apos;s foot thrives in a warm, dark, wet environment. To keep your feet dry, follow these tips: 1. Go barefoot at home. 2. Wear sandals, leather shoes or athletic styles with ventilation holes that allow your feet to breathe. 3. If your feet sweat, change your socks twice a day. 4. Wear waterproof sandals or shoes around public pools, showers and locker rooms.&lt;/p&gt;
+	</Body>
+</HealthTip>

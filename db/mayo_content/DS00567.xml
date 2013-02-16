@@ -1,0 +1,403 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00567
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hashimotos-disease/DS00567
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-03
+		</UpdateDate>
+		<PublicationDate>
+			2005-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="2470" Title="Hashimoto&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			FCFFE32E-DD9C-4CA8-BFC63EE472B00DAA
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Hashimoto&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Hashimoto&apos;s thyroiditis
+			</MetaKeyword>
+			<MetaKeyword>
+				Hashimotos
+			</MetaKeyword>
+			<MetaKeyword>
+				Hashimotos thyroiditis
+			</MetaKeyword>
+			<MetaKeyword>
+				hashimotos disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hashimoto disease
+			</MetaKeyword>
+			<MetaKeyword>
+				hashimoto thyroiditis
+			</MetaKeyword>
+			<MetaKeyword>
+				hypothyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid disease
+			</MetaKeyword>
+			<MetaKeyword>
+				underactive thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				hypo thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid problems
+			</MetaKeyword>
+			<MetaKeyword>
+				low thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid conditions
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hashimoto&apos;s disease is a disorder that affects your thyroid, a small gland at the base of your neck, below your Adam&apos;s apple. The thyroid gland is part of your endocrine system, which produces hormones that coordinate many of your body&apos;s activities. 
+&lt;/p&gt;
+&lt;p&gt;
+In Hashimoto&apos;s disease, also known as chronic lymphocytic thyroiditis, your immune system attacks your thyroid gland. The resulting inflammation often leads to an underactive thyroid gland (hypothyroidism). Hashimoto&apos;s disease is the most common cause of hypothyroidism in the United States. It primarily affects middle-aged women, but also can occur in men and women of any age and in children. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors test your thyroid function to help detect Hashimoto&apos;s disease. Treatment of Hashimoto&apos;s disease with thyroid hormone replacement usually is simple and effective. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hashimoto&apos;s disease does not have unique signs and symptoms. The disease typically progresses slowly over a number of years and causes chronic thyroid damage, leading to a drop in thyroid hormone levels in your blood. The signs and symptoms are mainly those of an underactive thyroid gland (hypothyroidism). 
+&lt;/p&gt;
+&lt;p&gt;
+The signs and symptoms of hypothyroidism vary widely, depending on the severity of hormone deficiency. At first, you may barely notice any symptoms, such as fatigue and sluggishness, or you may simply attribute them to getting older. But as the disease progresses, you may develop more-obvious signs and symptoms. Signs and symptoms of hypothyroidism include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue and sluggishness&lt;/li&gt;
+	&lt;li&gt;Increased sensitivity to cold&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Pale, dry skin&lt;/li&gt;
+	&lt;li&gt;A puffy face&lt;/li&gt;
+	&lt;li&gt;Hoarse voice&lt;/li&gt;
+	&lt;li&gt;An elevated blood cholesterol level&lt;/li&gt;
+	&lt;li&gt;Unexplained weight gain &amp;mdash; occurring infrequently and rarely exceeding 10 to 20 pounds, most of which is fluid&lt;/li&gt;
+	&lt;li&gt;Muscle aches, tenderness and stiffness, especially in your shoulders and hips&lt;/li&gt;
+	&lt;li&gt;Pain and stiffness in your joints and swelling in your knees or the small joints in your hands and feet&lt;/li&gt;
+	&lt;li&gt;Muscle weakness, especially in your lower extremities&lt;/li&gt;
+	&lt;li&gt;Excessive or prolonged menstrual bleeding (menorrhagia)&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Without treatment, signs and symptoms gradually become more severe and your thyroid gland may become enlarged (goiter). In addition, you may become more forgetful, your thought processes may slow or you may feel depressed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you develop these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tiredness for no apparent reason&lt;/li&gt;
+	&lt;li&gt;Dry skin&lt;/li&gt;
+	&lt;li&gt;Pale, puffy face&lt;/li&gt;
+	&lt;li&gt;Constipation&lt;/li&gt;
+	&lt;li&gt;Hoarse voice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll also need to see your doctor for periodic testing of your thyroid function if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You&apos;ve had thyroid surgery&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had treatment with radioactive iodine or anti-thyroid medications&lt;/li&gt;
+	&lt;li&gt;You&apos;ve had radiation therapy to your head, neck or upper chest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have high blood cholesterol, talk to your doctor about whether hypothyroidism may be a cause. And if you&apos;re receiving hormone therapy for hypothyroidism caused by Hashimoto&apos;s disease, schedule follow-up visits as often as your doctor recommends. Initially, it&apos;s important to make sure you&apos;re receiving the correct dose of medicine. And over time, the dose you need to adequately replace your thyroid function may change. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hashimoto&apos;s disease is an autoimmune disorder in which your immune system creates antibodies that damage your thyroid gland. Doctors don&apos;t know what causes your immune system to attack your thyroid gland. Some scientists think a virus or bacterium might trigger the response, while others believe a genetic flaw may be involved. 
+&lt;/p&gt;
+&lt;p&gt;
+A combination of factors, including heredity, sex and age, may determine your likelihood of developing the disorder. Hashimoto&apos;s disease is most common in middle-aged women and tends to run in families. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="60" Title="Thyroid gland" URI="/images/image_popup/thumbs/thyroid.gif" Width="60" />
+				<Image Alt="Illustration of the thyroid gland 
+" Caption="Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+" Height="300" Title="Thyroid gland" URI="/images/image_popup/thyroid.jpg" Width="400" />
+				<HTML>
+					Your thyroid gland is located at the base of your neck, just below the Adam&apos;s apple. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Left untreated, an underactive thyroid gland (hypothyroidism) caused by Hashimoto&apos;s disease can lead to a number of health problems: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Goiter.&lt;/strong&gt; Constant stimulation of your thyroid to release more hormones may cause the gland to become enlarged, a condition known as goiter. Hypothyroidism is one of the most common causes of goiter. Although generally not uncomfortable, a very large goiter can affect your appearance and may interfere with swallowing or breathing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Hashimoto&apos;s disease also may be associated with an increased risk of heart disease, primarily because high levels of low-density lipoprotein (LDL) cholesterol &amp;mdash; the &quot;bad&quot; cholesterol &amp;mdash; can occur in people with an underactive thyroid gland (hypothyroidism). If left untreated, hypothyroidism can lead to an enlarged heart and, in rare cases, heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mental health issues.&lt;/strong&gt; Depression may occur early in Hashimoto&apos;s disease and may become more severe over time. Hashimoto&apos;s disease can also cause sexual desire (libido) to decrease in both men and women and can lead to slowed mental functioning.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Myxedema&lt;/strong&gt;&lt;strong&gt; (mik-suh-DEE-muh).&lt;/strong&gt; This rare, life-threatening condition can develop due to long-term hypothyroidism as a result of untreated Hashimoto&apos;s disease. Its signs and symptoms include intense cold intolerance and drowsiness followed by profound lethargy and unconsciousness. A myxedema coma may be triggered by sedatives, infection or other stress on your body. Myxedema requires immediate emergency medical treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Birth defects.&lt;/strong&gt; Babies born to women with untreated hypothyroidism due to Hashimoto&apos;s disease may have a higher risk of birth defects than do babies born to healthy mothers. Doctors have long known that these children are more prone to intellectual and developmental problems. There may be a link between hypothyroid pregnancies and birth defects, such as cleft palate. A connection also exists between hypothyroid pregnancies and heart, brain and kidney problems in infants. If you&apos;re planning to get pregnant or if you&apos;re in early pregnancy, be sure to have your thyroid level checked.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing enlarged thyroid 
+" Caption="Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+" Height="60" Title="Enlarged thyroid" URI="/images/image_popup/thumbs/r7_goiternormalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing enlarged thyroid 
+" Caption="Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+" Height="300" Title="Enlarged thyroid" URI="/images/image_popup/r7_goiternormal.jpg" Width="400" />
+				<HTML>
+					Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment you may be referred to a specialist called an endocrinologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; When you make your appointment, be sure to ask if there&apos;s anything you need to do to prepare for common diagnostic tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. For example, if you&apos;ve been feeling more forgetful than usual, this is important information to share with your doctor. Also tell your doctor about changes you&apos;ve noticed in your physical appearance, such as unexplained weight gain or a difference in your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any changes in your menstrual cycle and in your sex life. Let your doctor know if your libido has changed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements you&apos;re taking or have used in the past. Include the specific name and dose of these medications, and how long you&apos;ve been taking them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. It can be difficult to soak up all the information. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Create a list of questions ahead of your appointment so that you can make the most of your time with your doctor. For Hashimoto&apos;s disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How long will I need to take medications?&lt;/li&gt;
+	&lt;li&gt;What side effects could I experience from the medications you&apos;re recommending?&lt;/li&gt;
+	&lt;li&gt;How will you monitor whether my treatment is working?&lt;/li&gt;
+	&lt;li&gt;Under what circumstances might my medications need to be adjusted?&lt;/li&gt;
+	&lt;li&gt;Will I experience long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;Do I need to make any changes to my diet?&lt;/li&gt;
+	&lt;li&gt;Will exercise benefit my condition?&lt;/li&gt;
+	&lt;li&gt;Are there restrictions I need to follow?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor any other questions you have. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did you first notice them?&lt;/li&gt;
+	&lt;li&gt;How have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in your energy level or your mood?&lt;/li&gt;
+	&lt;li&gt;Has your appearance changed, including weight gain or skin dryness?&lt;/li&gt;
+	&lt;li&gt;Has your voice changed?&lt;/li&gt;
+	&lt;li&gt;Have your bowel habits changed? How?&lt;/li&gt;
+	&lt;li&gt;Do you have muscle or joint pain? Where?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a change in your sensitivity to cold?&lt;/li&gt;
+	&lt;li&gt;Have you felt more forgetful than usual?&lt;/li&gt;
+	&lt;li&gt;Has your interest in sex decreased? If you&apos;re a woman, has your menstrual cycle changed?&lt;/li&gt;
+	&lt;li&gt;Are you being treated or have you recently been treated for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Do any of your family members have thyroid disease?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, your doctor may test for Hashimoto&apos;s disease if you&apos;re feeling increasingly tired or sluggish, have dry skin, constipation and a hoarse voice, or have had previous thyroid problems or goiter. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnosis of Hashimoto&apos;s disease is based on your signs and symptoms and the results of blood tests that measure levels of thyroid hormone and thyroid-stimulating hormone (TSH). These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A hormone test.&lt;/strong&gt; Blood tests can determine the amount of hormones produced by your thyroid and pituitary glands. If your thyroid is underactive, the level of thyroid hormone is low. At the same time, the level of TSH is elevated because your pituitary gland tries to stimulate your thyroid gland to produce more thyroid hormone.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An antibody test.&lt;/strong&gt; Because Hashimoto&apos;s disease is an autoimmune disorder, the cause involves production of abnormal antibodies. A blood test may confirm the presence of antibodies against thyroid peroxidase, an enzyme normally found in the thyroid gland that plays an important role in the production of thyroid hormones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In the past, doctors weren&apos;t able to detect underactive thyroid (hypothyroidism), the main indicator of Hashimoto&apos;s disease, until symptoms were fairly advanced. But by using the sensitive TSH test, doctors can diagnose thyroid disorders much earlier, often before you experience symptoms. Because the TSH test is the best screening test, your doctor will likely check TSH first and follow with a thyroid hormone test if needed. TSH tests also play an important role in managing hypothyroidism. These tests also help your doctor determine the right dosage of medication, both initially and over time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for Hashimoto&apos;s disease may include observation and use of medications. If there&apos;s no evidence of hormone deficiency and your thyroid is functioning normally, your doctor may suggest a wait-and-see approach. If you do need medication, chances are you&apos;ll need it for the rest of your life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Synthetic hormones&lt;/strong&gt; &lt;br /&gt;
+If Hashimoto&apos;s disease causes thyroid hormone deficiency, you may need replacement therapy with thyroid hormone. This usually involves daily use of the synthetic thyroid hormone levothyroxine (Levothroid, Levoxyl, Synthroid). Synthetic levothyroxine is identical to thyroxine, the natural version of this hormone made by your thyroid gland. The oral medication restores adequate hormone levels and reverses all the symptoms of hypothyroidism. 
+&lt;/p&gt;
+&lt;p&gt;
+Soon after starting treatment, you&apos;ll notice that you&apos;re feeling less fatigued. The medication also gradually lowers cholesterol levels elevated by the disease and may reverse any weight gain. Treatment with levothyroxine is usually lifelong, but because the dosage you need may change, your doctor is likely to check your TSH level every six to 12 months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Monitoring the dosage&lt;/strong&gt; &lt;br /&gt;
+To determine the right dosage of levothyroxine initially, your doctor generally checks your level of TSH after a few weeks of treatment. Excessive amounts of the hormone can accelerate bone loss, which may make osteoporosis worse or add to your risk of this disease. Overtreatment with levothyroxine also can cause heart rhythm disorders (arrhythmias). 
+&lt;/p&gt;
+&lt;p&gt;
+If you have coronary artery disease or severe hypothyroidism, your doctor may start treatment with a smaller amount of medication and gradually increase the dosage. Progressive hormone replacement allows your heart to adjust to the increase in metabolism. 
+&lt;/p&gt;
+&lt;p&gt;
+Levothyroxine causes virtually no side effects when used in the appropriate dose and is relatively inexpensive. If you change brands, let your doctor know to ensure you&apos;re still receiving the right dosage. Also, don&apos;t skip doses or stop taking the drug because you&apos;re feeling better. If you do, signs and symptoms will gradually return. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Effects of other substances&lt;/strong&gt; &lt;br /&gt;
+Certain medications, supplements and even some foods may affect your ability to absorb levothyroxine. Talk to your doctor if you eat large amounts of soy products or a high-fiber diet, or if you take any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Iron supplements, including multivitamins that contain iron&lt;/li&gt;
+	&lt;li&gt;Cholestyramine (Questran), a medication used to lower blood cholesterol levels&lt;/li&gt;
+	&lt;li&gt;Aluminum hydroxide, which is found in some antacids&lt;/li&gt;
+	&lt;li&gt;Sodium polystyrene sulfonate (Kayexalate), used to prevent high blood potassium levels&lt;/li&gt;
+	&lt;li&gt;Sucralfate, an ulcer medication&lt;/li&gt;
+	&lt;li&gt;Calcium supplements&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most doctors recommend levothyroxine, the synthetic form of thyroxine (T-4). However, natural extracts are available that contain thyroid hormone derived from the thyroid glands of pigs. These products &amp;mdash; Armour Thyroid, for example &amp;mdash; contain both levothyroxine and triiodothyronine (T-3). 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors have a number of concerns about natural thyroid hormone extracts such as Armour Thyroid, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The balance of T-4 and T-3 in animals isn&apos;t the same as in humans.&lt;/li&gt;
+	&lt;li&gt;The exact amount of T-4 and T-3 in each batch of a natural extract product can vary, leading to unpredictable levels of these hormones in your blood.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Still, researchers have investigated whether adjusting standard hypothyroidism treatment to replace some T-4 with T-3 may offer benefit. The majority of studies have determined that the addition of T-3 does not offer any advantage over treatment with T-4 alone. 
+&lt;/p&gt;
+&lt;p&gt;
+However, there is some evidence that T-3 may offer benefit to certain subsets of people, such as people who have had their thyroid surgically removed (thyroidectomy). Research is ongoing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hashimoto&apos;s disease
+	</Title>
+	<Abstract>
+		Hashimoto&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, treatment of this cause of thyroid gland inflammation.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="Answer" DocID="AN00806" LinkType="Internal" ObjectID="2D62C8DD-A5F7-4BC2-A286806FF484555F" Title="Thyroid peroxidase antibody test: What is it?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00806" />
+		<LinkItem ContentType="Disease" DocID="DS00394" LinkType="Internal" ObjectID="B7ACC24F-E124-4B69-A0231E7FEB5ECEC8" Title="Menorrhagia (heavy menstrual bleeding)" Url="http://www.mayoclinic.com/health/menorrhagia/DS00394" />
+	</RelatedLinksBox>
+</Disease>

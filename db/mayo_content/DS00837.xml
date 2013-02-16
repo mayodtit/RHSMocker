@@ -1,0 +1,275 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00837
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/brucellosis/DS00837
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-10
+		</UpdateDate>
+		<PublicationDate>
+			2006-11-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="2570" Title="Brucellosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			5ACEE5EA-E7FF-0DBD-11DF933149E323C7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				brucellosis
+			</MetaKeyword>
+			<MetaKeyword>
+				brucellosis symtom
+			</MetaKeyword>
+			<MetaKeyword>
+				brucellosis treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				brucellosis in animals
+			</MetaKeyword>
+			<MetaKeyword>
+				brucellosis tests
+			</MetaKeyword>
+			<MetaKeyword>
+				unpasteurized milk
+			</MetaKeyword>
+			<MetaKeyword>
+				unpasteurized cheese
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brucellosis is an infectious disease that spreads from animals to people &amp;mdash; most often via unpasteurized milk, cheese and other dairy products. More rarely, the bacteria that cause brucellosis can spread through the air or through direct contact with infected animals. 
+&lt;/p&gt;
+&lt;p&gt;
+Brucellosis symptoms include fever, joint pain and fatigue. The infection can usually be treated successfully with antibiotics. Treatment takes several weeks, however, and relapses are common. 
+&lt;/p&gt;
+&lt;p&gt;
+While brucellosis is uncommon in the United States, the disease affects hundreds of thousands of people and animals worldwide. Avoiding unpasteurized dairy products and taking precautions when working with animals or in a laboratory can help prevent brucellosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of brucellosis may show up anytime from a few days to a few months after you&apos;re infected. Signs and symptoms are similar to those of the flu and include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Sweats&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Joint, muscle and back pain&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Brucellosis symptoms may disappear for weeks or months and then return. In some people, brucellosis becomes chronic, with symptoms persisting for years, even after treatment. Long-term signs and symptoms include fatigue, fevers, arthritis and spondylitis &amp;mdash; an inflammatory arthritis that affects the spine and adjacent joints. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to &lt;/strong&gt;&lt;strong&gt;see a doctor&lt;/strong&gt; &lt;br /&gt;
+Brucellosis can be hard to identify, especially in the early stages, when it often resembles the flu. See your doctor if you develop a rapidly rising fever, muscle aches or unusual weakness and have any risk factors for the disease, or if you have a persistent fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brucellosis affects many wild and domestic animals. Cattle, goats, sheep, pigs, dogs, camels, wild boar and reindeer are especially prone to the disease. A form of brucellosis also affects harbor seals, porpoises and certain whales. The bacteria spread from animals to people in three main ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Raw dairy products.&lt;/strong&gt; Brucella bacteria in the milk of infected animals can spread to humans in unpasteurized milk, ice cream, butter and cheeses. The bacteria can also be transmitted in raw or undercooked meat from infected animals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inhalation.&lt;/strong&gt; Brucella bacteria spread easily in the air. Farmers, laboratory technicians and slaughterhouse workers can inhale the bacteria.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Direct contact.&lt;/strong&gt; Bacteria in the blood, semen or placenta of an infected animal can enter your bloodstream through a cut or other wound. Because normal contact with animals &amp;mdash; touching, brushing or playing &amp;mdash; doesn&apos;t cause infection, people rarely get brucellosis from their pets. Even so, people with weakened immune systems should avoid handling dogs known to have the disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Brucellosis normally doesn&apos;t spread from person to person, but in a few cases, women have passed the disease to their infants during birth or through their breast milk. Rarely, brucellosis may spread through sexual activity or through contaminated blood or bone marrow transfusions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brucellosis is rare in the United States. Other parts of the world have much higher rates of brucellosis infection, especially: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Around the Mediterranean Sea&lt;/li&gt;
+	&lt;li&gt;In Latin America&lt;/li&gt;
+	&lt;li&gt;Near the Persian Gulf&lt;/li&gt;
+	&lt;li&gt;On the Indian subcontinent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+People who live or travel in these areas are more likely to consume unpasteurized goat cheese, sometimes called village cheese. Unpasteurized goat cheese imported from Mexico has been linked to many cases of brucellosis in the United States. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Occupations at higher risk&lt;/strong&gt; &lt;br /&gt;
+People who work with animals or come into contact with infected blood are at higher risk of brucellosis. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Veterinarians&lt;/li&gt;
+	&lt;li&gt;Dairy farmers&lt;/li&gt;
+	&lt;li&gt;Ranchers&lt;/li&gt;
+	&lt;li&gt;Slaughterhouse workers&lt;/li&gt;
+	&lt;li&gt;Hunters&lt;/li&gt;
+	&lt;li&gt;Microbiologists&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Brucellosis can affect almost any part of your body, including your reproductive system, liver, heart and central nervous system. Chronic brucellosis may cause complications in just one organ or throughout your body. Possible complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Infection of the heart&apos;s inner lining (endocarditis).&lt;/strong&gt; This is one of the most serious complications of brucellosis. Untreated endocarditis can damage or destroy the heart valves and is the leading cause of brucellosis-related deaths.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arthritis.&lt;/strong&gt; Osteoarthritis is marked by pain, stiffness and swelling in your joints, especially the knees, hips, ankles, wrists and spine. Spondylitis &amp;mdash; inflammation of the joints between the bones (vertebrae) of your spine or between your spine and pelvis &amp;mdash; can be particularly hard to treat and may cause lasting damage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation and infection of the testicles (epididymo-orchitis).&lt;/strong&gt; The bacteria that cause brucellosis can infect the epididymis, the coiled tube that connects the vas deferens and the testicle. From there, the infection may spread to the testicle itself, causing swelling and pain, which may be severe. Brucellosis can also affect the prostate gland and kidneys. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Central nervous system infections.&lt;/strong&gt; These include potentially life-threatening illnesses such as meningitis, an inflammation of the membranes surrounding the brain and spinal cord, and encephalitis, inflammation of the brain itself.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that you have brucellosis, you&apos;re likely to start by seeing your family doctor or a general practitioner. You may be referred to an infectious disease specialist. 
+&lt;/p&gt;
+&lt;p&gt;
+A diagnosis of brucellosis depends on understanding if, how and when you were exposed to the bacteria that cause the disease. You can help your doctor by being prepared with as much information as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you eaten raw (unpasteurized) dairy products, such as goat cheese?&lt;/li&gt;
+	&lt;li&gt;Does your job involve contact with animals or with animal tissues?&lt;/li&gt;
+	&lt;li&gt;Have you traveled outside the United States during the past year?&lt;/li&gt;
+	&lt;li&gt;Do you work in a lab where infectious organisms are present?&lt;/li&gt;
+	&lt;li&gt;Have you gone hunting recently?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical exam, your doctor may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ask you to move your joints, to check for pain and stiffness&lt;/li&gt;
+	&lt;li&gt;Check your reflexes and the strength of your muscles&lt;/li&gt;
+	&lt;li&gt;Press on your abdomen to determine if organs are enlarged or tender&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors usually confirm a diagnosis of brucellosis by testing a sample of blood or bone marrow for the brucella bacteria or by testing blood for antibodies to the bacteria. To help detect complications of brucellosis, you may have additional tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; X-rays can reveal changes in your bones and joints.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scan or magnetic resonance imaging (MRI).&lt;/strong&gt; These imaging tests help identify inflammation or abscesses in the brain or other tissues.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebrospinal fluid culture.&lt;/strong&gt; This checks a small sample of the fluid that surrounds your brain and spinal cord for infections such as meningitis and encephalitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiography.&lt;/strong&gt; This test uses sound waves to create images of your heart to check for signs of infection or damage to your heart.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for brucellosis aims to relieve symptoms, prevent a relapse of the disease and avoid complications. You&apos;ll need to take antibiotics for at least six weeks, and your symptoms may not go away completely for several months. The disease can also return and may become chronic. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce the risk of getting brucellosis, take these precautions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid unpasteurized dairy foods.&lt;/strong&gt; In recent years in the United States, few cases of brucellosis have been linked to raw dairy products from domestic herds. Still, it&apos;s probably best to avoid unpasteurized milk, cheese and ice cream, no matter what their origin. Travelers to other countries should avoid all raw dairy foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cook meat thoroughly.&lt;/strong&gt; All meat should be cooked until it reaches an internal temperature of 145 to 165 F (63 to 74 C). When eating out, order beef and pork at least medium-well. It&apos;s unlikely that domestic meat in the United States contains brucella bacteria, but proper cooking destroys other harmful bacteria such as salmonella and Escherichia coli. When traveling abroad, avoid buying meat from street vendors, and order all meat well-done.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear gloves.&lt;/strong&gt; Veterinarians, farmers, hunters and slaughterhouse workers should wear rubber gloves when handling sick or dead animals or animal tissue or when assisting an animal giving birth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take safety precautions in high-risk workplaces.&lt;/strong&gt; Laboratory workers should handle all specimens under appropriate biosafety conditions. Workers who have been exposed should be treated promptly. Slaughterhouses should also follow protective measures, such as separation of the killing floor from other processing areas and use of protective clothing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vaccinate domestic animals&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; In the United States, an aggressive vaccination program has nearly eliminated brucellosis in livestock herds. Milk is tested two to four times a year for signs of the bacteria. Because the brucellosis vaccine is live, it can cause disease in people. Anyone who has an accidental needle stick while vaccinating an animal should be treated.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Brucellosis
+	</Title>
+	<Abstract>
+		Brucellosis &amp;mdash; Comprehensive overview covers symptoms, transmission and treatment of this serious infectious disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+		<LinkItem ContentType="Disease" DocID="DS00019" LinkType="Internal" ObjectID="2B275878-8417-41E5-AB4FA4B6646DD7F6" Title="Osteoarthritis" Url="http://www.mayoclinic.com/health/osteoarthritis/DS00019" />
+	</RelatedLinksBox>
+</Disease>

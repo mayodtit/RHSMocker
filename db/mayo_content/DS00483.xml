@@ -1,0 +1,331 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00483
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ankylosing-spondylitis/DS00483
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-03
+		</UpdateDate>
+		<PublicationDate>
+			2003-06-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1403" Title="Arthritis">
+						<Keyword MCVID="2793" Title="Other">
+							<Keyword MCVID="2714" Title="Ankylosing spondylitis" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			6924A01A-3E5D-4B5C-A16C67764A3A1151
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				spondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				ankylosing spondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				inflammatory arthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatoid spondylitis
+			</MetaKeyword>
+			<MetaKeyword>
+				bamboo spine
+			</MetaKeyword>
+			<MetaKeyword>
+				low back pain
+			</MetaKeyword>
+			<MetaKeyword>
+				stiff spine
+			</MetaKeyword>
+			<MetaKeyword>
+				spondilitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ankylosing spondylitis is an inflammatory disease that can cause some of the vertebrae in your spine to fuse together. This fusing makes the spine less flexible and can result in a hunched-forward posture. A severe case of ankylosing spondylitis can make it impossible for you to lift your head high enough to see forward.
+&lt;/p&gt;
+&lt;p&gt;
+Ankylosing spondylitis affects men more often than women. Signs and symptoms of ankylosing spondylitis typically begin in early adulthood. Inflammation also can occur in other parts of your body &amp;mdash; such as your eyes and bowels.
+&lt;/p&gt;
+&lt;p&gt;
+There is no cure for ankylosing spondylitis, but treatments can decrease your pain and lessen your symptoms. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ankylosing spondylitis 
+" Caption="As ankylosing spondylitis worsens, new bone forms as part of the body&apos;s attempt to heal. The new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. Fused vertebrae can flatten the natural curves of your spine and force it into an inflexible, hunched posture. 
+" Height="60" Title="Ankylosing spondylitis" URI="/images/image_popup/thumbs/mcdc7_ankylosing_spondylitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ankylosing spondylitis 
+" Caption="As ankylosing spondylitis worsens, new bone forms as part of the body&apos;s attempt to heal. The new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. Fused vertebrae can flatten the natural curves of your spine and force it into an inflexible, hunched posture. 
+" Height="325" Title="Ankylosing spondylitis" URI="/images/image_popup/mcdc7_ankylosing_spondylitis.jpg" Width="400" />
+				<HTML>
+					As ankylosing spondylitis worsens, new bone forms as part of the body&apos;s attempt to heal. The new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Early signs and symptoms of ankylosing spondylitis may include pain and stiffness in your lower back and hips, especially in the morning and after periods of inactivity. 
+&lt;/p&gt;
+&lt;p&gt;
+These symptoms may come on so gradually that you don&apos;t notice them at first. Over time, symptoms may worsen, improve or stop completely at irregular intervals.
+&lt;/p&gt;
+&lt;p&gt;
+The areas most commonly affected are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The joint between the base of your spine and your pelvis&lt;/li&gt;
+	&lt;li&gt;The vertebrae in your lower back&lt;/li&gt;
+	&lt;li&gt;The places where your tendons and ligaments attach to bones, mainly in your spine, but sometimes along the back of your heel&lt;/li&gt;
+	&lt;li&gt;The cartilage between your breastbone and ribs&lt;/li&gt;
+	&lt;li&gt;Your hip and shoulder joints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you have chronic pain and stiffness in your lower back and hips, or if deep breathing makes your chest hurt. Seek immediate medical advice if you develop eye pain, light sensitivity or blurred vision.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ankylosing spondylitis has no known specific cause, though genetic factors seem to be involved. In particular, people who have a gene called HLA-B27 are at significantly increased risk of developing ankylosing spondylitis.
+&lt;/p&gt;
+&lt;p&gt;
+As ankylosing spondylitis worsens and the inflammation persists, new bone forms as part of the body&apos;s attempt to heal. This new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. Those parts of your spine become stiff and inflexible. Fusion can also stiffen your rib cage, restricting your lung capacity and function.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing ankylosing spondylitis 
+" Caption="As ankylosing spondylitis worsens, new bone forms as part of the body&apos;s attempt to heal. The new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. Fused vertebrae can flatten the natural curves of your spine and force it into an inflexible, hunched posture. 
+" Height="60" Title="Ankylosing spondylitis" URI="/images/image_popup/thumbs/mcdc7_ankylosing_spondylitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing ankylosing spondylitis 
+" Caption="As ankylosing spondylitis worsens, new bone forms as part of the body&apos;s attempt to heal. The new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. Fused vertebrae can flatten the natural curves of your spine and force it into an inflexible, hunched posture. 
+" Height="325" Title="Ankylosing spondylitis" URI="/images/image_popup/mcdc7_ankylosing_spondylitis.jpg" Width="400" />
+				<HTML>
+					As ankylosing spondylitis worsens, new bone forms as part of the body&apos;s attempt to heal. The new bone gradually bridges the gap between vertebrae and eventually fuses sections of vertebrae together. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Men are more likely to develop ankylosing spondylitis than are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Onset generally occurs in late adolescence or early adulthood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your heredity.&lt;/strong&gt; Most people who have ankylosing spondylitis have the HLA-B27 gene. But many people who have this gene never develop ankylosing spondylitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ankylosing spondylitis doesn&apos;t follow a set course. The severity of symptoms and development of complications vary widely from person to person. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eye inflammation (uveitis).&lt;/strong&gt; One of the most common complications of ankylosing spondylitis, uveitis can cause rapid-onset eye pain, sensitivity to light and blurred vision. See your doctor right away if you develop these symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression fractures.&lt;/strong&gt; Some people experience a thinning of their bones during the early stages of ankylosing spondylitis. Weakened vertebrae may crumble, increasing the severity of your stooped posture. Vertebral fractures sometimes can damage the spinal cord and the nerves that pass through the spine.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Difficulty breathing.&lt;/strong&gt; If ankylosing spondylitis affects your ribs, the fused bones can&apos;t move when you breathe &amp;mdash; making it difficult to fully inflate your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; Ankylosing spondylitis can cause problems with your aorta, the largest artery in your body. The inflamed aorta can enlarge to the point that it distorts the shape of the aortic valve in the heart, which impairs its function.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You might first bring your symptoms to the attention of your family doctor. He or she may refer you to a doctor who specializes in inflammatory disorders (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms worse in the morning or after long periods of inactivity?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to worsen or improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you taken medications to relieve the pain? What helped most?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor may ask you to bend your back in different directions. He or she may also measure your chest circumference &amp;mdash; once with your lungs empty and once with them full of air &amp;mdash; to compare the difference.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also try to reproduce your pain by pressing on specific portions of your pelvis or by moving your legs into a particular position. He or she might also ask you to try to stand upright, with both your heels and the back of your head against a wall.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis of ankylosing spondylitis may be delayed if your symptoms are mild or if you mistakenly attribute some of your symptoms to more common back problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;X-rays.&lt;/strong&gt; X-rays allow your doctor to check for changes in your joints and bones, though the characteristic effects of ankylosing spondylitis may not be evident early in the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scans combine X-ray views taken from many different angles into a cross-sectional image of internal structures. CT scans provide more detail, and more radiation exposure, than do plain X-rays.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; Using radio waves and a strong magnetic field, MRI scans are better at visualizing soft tissues such as cartilage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lab tests&lt;br /&gt;
+&lt;/strong&gt;There are no specific lab tests to identify ankylosing spondylitis. Certain blood tests can check for signs of inflammation, but inflammation can be caused by many different health problems. Your blood can be tested for the HLA-B27 gene, but most people who have that gene don&apos;t have ankylosing spondylitis.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The goal of treatment is to relieve your pain and stiffness, and prevent or delay complications and spinal deformity. Ankylosing spondylitis treatment is most successful before the disease causes irreversible damage to your joints. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs) &amp;mdash; such as naproxen (Aleve, Naprosyn) and indomethacin (Indocin) &amp;mdash; are the medications doctors most commonly use to treat ankylosing spondylitis. They can relieve your inflammation, pain and stiffness. However, these medications also can cause gastrointestinal bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+If NSAIDs aren&apos;t helpful, your doctor may suggest tumor necrosis factor (TNF) blockers. TNF is a cell protein that acts as an inflammatory agent in rheumatoid arthritis. TNF blockers target this protein to help reduce pain, stiffness, and tender or swollen joints. They are administered by injecting the medication under the skin or through an intravenous line. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of TNF blockers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Adalimumab (Humira)&lt;/li&gt;
+	&lt;li&gt;Etanercept (Enbrel)&lt;/li&gt;
+	&lt;li&gt;Infliximab (Remicade)&lt;/li&gt;
+	&lt;li&gt;Golimumab (Simponi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+TNF blockers can reactivate latent tuberculosis and may cause certain neurological problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Physical therapy can provide a number of benefits, from pain relief to improved physical strength and flexibility. Your doctor may recommend that you meet with a physical therapist to provide you with specific exercises designed for your needs. 
+&lt;/p&gt;
+&lt;p&gt;
+Range-of-motion and stretching exercises can help maintain flexibility in your joints and preserve good posture. In addition, specific breathing exercises can help to sustain and enhance your lung capacity. 
+&lt;/p&gt;
+&lt;p&gt;
+As your condition worsens, your upper body may begin to stoop forward. Proper sleep and walking positions and abdominal and back exercises can help maintain your upright posture. Even if portions of your spine eventually fuse, you&apos;ll be able to get around and perform daily functions more easily if your spine fuses in an upright position. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Most people with ankylosing spondylitis don&apos;t need surgery. However, your doctor may recommend surgery if you have severe pain or joint damage, or if a hip joint is so damaged that it needs to be replaced. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you smoke, quit. Smoking is generally bad for your health, but it creates additional problems for people with ankylosing spondylitis. Depending on the severity of your condition, ankylosing spondylitis can affect the mobility of your rib cage. Damaging your lungs by smoking can further compromise your ability to breathe.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The course of your condition may change over time, and you may experience relapses and remissions throughout your life. But most people are able to live productive lives despite a diagnosis of ankylosing spondylitis.
+&lt;/p&gt;
+&lt;p&gt;
+You may want to join an online or in-person support group of people with this condition, to share experiences and support. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because genetic factors appear to play a part in ankylosing spondylitis, it&apos;s not possible to prevent the disease. However, being aware of any personal risk factors for the disease can help in early detection and treatment. Proper and early treatment can relieve joint pain and may help to prevent or delay the onset of physical deformities. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ankylosing spondylitis
+	</Title>
+	<Abstract>
+		Ankylosing spondylitis &amp;mdash; Comprehensive overview covers symptoms, causes, treatment and complications of this inflammatory arthritis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01018" LinkType="Internal" ObjectID="54EAD155-D909-7FE2-44C4EB2D320BB269" Title="C-reactive protein test" Url="http://www.mayoclinic.com/health/c-reactive-protein/MY01018" />
+	</RelatedLinksBox>
+</Disease>

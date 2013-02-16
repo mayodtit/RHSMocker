@@ -1,0 +1,295 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01135
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/broken-heart-syndrome/DS01135
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-10
+		</UpdateDate>
+		<PublicationDate>
+			2009-02-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1470" Title="Heart muscle and lining">
+						<Keyword MCVID="1471" Title="Cardiomyopathy">
+							<Keyword MCVID="4322" Title="Broken heart syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D0DF24ED-09B7-EED7-C11284E830BD16E6
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				broken heart syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				stress cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				takotsubo cardiomyopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				transient left ventricular apical ballooning
+			</MetaKeyword>
+			<MetaKeyword>
+				apical ballooning syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				stress-induced cardiomyopathy
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Broken heart syndrome is a temporary heart condition brought on by stressful situations, such as the death of a loved one. People with broken heart syndrome may have sudden chest pain or think they&apos;re having a heart attack. These broken heart syndrome symptoms may be brought on by the heart&apos;s reaction to a surge of stress hormones. In broken heart syndrome, a part of your heart temporarily enlarges and doesn&apos;t pump well, while the remainder of the heart functions normally or with even more forceful contractions. 
+&lt;/p&gt;
+&lt;p&gt;
+The condition was originally called takotsubo cardiomyopathy. Today, it&apos;s also referred to as stress cardiomyopathy, stress-induced cardiomyopathy or apical ballooning syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+The symptoms of broken heart syndrome are treatable, and the condition usually reverses itself in about a week. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Broken heart syndrome symptoms can mimic a heart attack. Common symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;An irregular heartbeat&lt;/li&gt;
+	&lt;li&gt;A generalized weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Any long-lasting or persistent chest pain could be a sign of a heart attack, so it&apos;s important to take it seriously and call 911 if you experience chest pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;re having any chest pain, a very rapid or irregular heartbeat, or shortness of breath after a stressful event, call 911 or emergency medical assistance immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of broken heart syndrome is unclear. It&apos;s thought that a surge of stress hormones, such as adrenaline, might temporarily damage the hearts of some people. How these hormones might hurt the heart or whether something else is responsible isn&apos;t completely clear. A temporary constriction of the large or small arteries of the heart may play a role. 
+&lt;/p&gt;
+&lt;p&gt;
+Broken heart syndrome is often preceded by an intense physical or emotional event. Some potential triggers of broken heart syndrome are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;News of an unexpected death of a loved one&lt;/li&gt;
+	&lt;li&gt;A frightening medical diagnosis&lt;/li&gt;
+	&lt;li&gt;Domestic abuse&lt;/li&gt;
+	&lt;li&gt;Losing a lot of money&lt;/li&gt;
+	&lt;li&gt;A surprise party&lt;/li&gt;
+	&lt;li&gt;Having to perform publicly&lt;/li&gt;
+	&lt;li&gt;Physical stressors, such as an asthma attack, infection, a car accident or major surgery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;How is broken heart syndrome different from a heart attack?&lt;/strong&gt;&lt;br /&gt;
+Most heart attacks are caused by a complete or near complete blockage of a heart artery. This blockage is due to a blood clot forming at the site of narrowing from fatty buildup (atherosclerosis) in the wall of the artery. In broken heart syndrome, the heart arteries are not blocked, although blood flow in the arteries of the heart may be reduced. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Broken heart syndrome affects women far more often than men. It appears that most people who have broken heart syndrome are women 50 or older. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In rare cases, broken heart syndrome is fatal. However, most who experience broken heart syndrome quickly recover and don&apos;t have long-lasting effects. 
+&lt;/p&gt;
+&lt;p&gt;
+Other complications of broken heart syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Disruptions in your heartbeat&lt;/li&gt;
+	&lt;li&gt;A fast or slow heartbeat&lt;/li&gt;
+	&lt;li&gt;Backup of fluid into your lungs (pulmonary edema)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+It&apos;s also possible that you may have broken heart syndrome again if you have another stressful event. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Broken heart syndrome is almost always diagnosed in an emergency or hospital setting, since most people with the condition have symptoms identical to a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Call 911 or emergency medical help or have someone drive you to an emergency room if you experience new or unexplained chest pain or pressure that lasts for more than a few moments. Don&apos;t waste any time for fear of embarrassment if it&apos;s not a heart attack. Even if there&apos;s another cause for your chest pain, you need to be seen right away. 
+&lt;/p&gt;
+&lt;p&gt;
+Have a family member or friend come with you, if possible. Someone who accompanies you can help soak up all the information provided during your evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Share this information on the way to the hospital:&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Any symptoms you&apos;re experiencing,&lt;/strong&gt; and how long you&apos;ve had them.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your key personal information,&lt;/strong&gt; including any major stresses, such as the death of a loved one, or recent life changes, such as the loss of a job.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your personal and family medical history,&lt;/strong&gt; including other health problems that you or your close relatives have had, such as diabetes, high cholesterol or heart disease. It&apos;s also helpful for your doctor to know about any prescription and over-the-counter medications you&apos;re taking. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Any recent trauma to your chest&lt;/strong&gt; that may have caused an internal injury, such as a broken rib or pinched nerve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Once you&apos;re at the hospital, it&apos;s likely that your medical evaluation will move ahead rapidly. Based on results from an electrocardiogram (ECG) and blood tests, your doctor may be able to quickly determine if you are having a heart attack &amp;mdash; or give you another explanation for your symptoms. You&apos;ll probably have a number of questions at this point. If you haven&apos;t received the following information, you may want to ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What do you think is causing my symptoms?&lt;/li&gt;
+	&lt;li&gt;Could my symptoms be due to the sudden unexpected death of my partner, as I&apos;ve never had any symptoms like this before?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Will I need to stay in the hospital?&lt;/li&gt;
+	&lt;li&gt;What treatments do I need right now?&lt;/li&gt;
+	&lt;li&gt;What are the risks associated with these treatments?&lt;/li&gt;
+	&lt;li&gt;What are the next steps in my diagnosis and treatment?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any restrictions in my diet or exercise routine after returning home?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist after returning home?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any additional questions that occur to you during your medical evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from the doctor&lt;/strong&gt; &lt;br /&gt;
+A doctor who sees you for chest pain may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Where does your pain seem to start?&lt;/li&gt;
+	&lt;li&gt;Does your pain radiate to any other parts of your body?&lt;/li&gt;
+	&lt;li&gt;Does your pain momentarily increase with each heartbeat?&lt;/li&gt;
+	&lt;li&gt;What words would you use to describe your pain?&lt;/li&gt;
+	&lt;li&gt;Are you having any trouble breathing?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include nausea or vomiting?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include dizziness or lightheadedness?&lt;/li&gt;
+	&lt;li&gt;Does exercise or physical exertion make your symptoms worse?&lt;/li&gt;
+	&lt;li&gt;Does anything else seem to make your pain worse?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your pain better?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Are you being treated or have you recently been treated for any other health conditions?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with gastroesophageal reflux disease (GERD)?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Do you or did you smoke? How much?&lt;/li&gt;
+	&lt;li&gt;Do you use alcohol or caffeine? How much?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects you have broken heart syndrome, he or she will use these exams and tests to make a diagnosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Personal history and physical exam.&lt;/strong&gt; In addition to a standard physical exam, your doctor will want to know about your medical history, especially whether you&apos;ve ever had heart disease symptoms. People who have broken heart syndrome typically don&apos;t have any heart disease symptoms before they&apos;re diagnosed with broken heart syndrome. Also, your doctor will want to know if you&apos;ve experienced any major stresses recently, such as the death of a loved one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, a technician will place wires on your chest that record the electrical impulses that make your heart beat. An ECG records these electrical signals and can help your doctor detect irregularities in your heart&apos;s rhythm and structure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; Your doctor will likely order a chest X-ray of your chest to see if your heart is enlarged or has the shape that&apos;s typical of broken heart syndrome, or to see if there are any problems in your lungs that could be causing your symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; Your doctor may also order an echocardiogram to see if your heart is enlarged or has an abnormal shape, a sign of broken heart syndrome. This noninvasive exam, which includes an ultrasound of your chest, shows detailed images of your heart&apos;s structure and function. Ultrasound waves are transmitted, and their echoes are recorded with a device called a transducer that&apos;s held outside your body. A computer uses the information from the transducer to create moving images on a video monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Most people who have broken heart syndrome have an increased amount of certain enzymes in their blood. Your doctor may order blood tests to check for these enzymes to help diagnose broken heart syndrome.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no standard treatment guidelines for treating broken heart syndrome. Treatment is similar to treatment for a heart attack until the diagnosis is clear. Most people stay in the hospital while they recover. 
+&lt;/p&gt;
+&lt;p&gt;
+Once it&apos;s clear that broken heart syndrome is the cause of your symptoms, your doctor will likely prescribe heart medications for you to take while you&apos;re in the hospital, such as angiotensin-converting enzyme (ACE) inhibitors, beta blockers or diuretics. These medications help reduce the workload on your heart while you recover and may help prevent further attacks. Many patients make a full recovery within one to two months. Ask your doctor how long you will need to continue taking these medications once you recover. 
+&lt;/p&gt;
+&lt;p&gt;
+Procedures that are often used to treat a heart attack, such as balloon angioplasty and stent placement, or even surgery, are not helpful in treating broken heart syndrome. These procedures treat blocked arteries, which are not the cause of broken heart syndrome. However, coronary angiography is often used to diagnose exactly what&apos;s the cause of the chest pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s a chance that broken heart syndrome can happen again after a first episode. There&apos;s no proven therapy to prevent additional episodes; however, many doctors recommend long-term treatment with beta blockers or similar medications that block the potentially damaging effects of stress hormones on the heart. Managing stress in your life is also important. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Broken heart syndrome
+	</Title>
+	<Abstract>
+		Broken heart syndrome &amp;mdash; Comprehensive overview covers symptoms, causes of this heart muscle condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00519" LinkType="Internal" ObjectID="409898DA-8C14-4EAB-975D5E4217CEDB49" Title="Cardiomyopathy" Url="http://www.mayoclinic.com/health/cardiomyopathy/DS00519" />
+	</RelatedLinksBox>
+</Disease>

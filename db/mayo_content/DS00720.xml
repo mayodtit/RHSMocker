@@ -1,0 +1,295 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00720
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pityriasis-rosea/DS00720
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-03
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2877" Title="Pityriasis rosea" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0907CD77-2A5D-9994-EFE885FBD7280D10
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pityriasis rosea
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				red rash
+			</MetaKeyword>
+			<MetaKeyword>
+				Christmas tree rash
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pityriasis (pit-ih-RIE-uh-sis) rosea is a skin rash that usually begins as one large circular or oval spot on your chest, abdomen or back. Called a herald patch, this initial spot can be up to 4 inches (10 centimeters) across. 
+&lt;/p&gt;
+&lt;p&gt;
+The herald patch is typically followed by a distinctive pattern of similar but smaller lesions that sweep out from the middle of your body in a shape that resembles drooping pine-tree branches.
+&lt;/p&gt;
+&lt;p&gt;
+Pityriasis rosea can affect any age group, but it most commonly occurs between the ages of 10 and 35. It usually goes away on its own within six weeks. Pityriasis rosea can cause itching, and treatment usually focuses on relieving symptoms.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing herald patch of pityriasis rosea 
+" Caption="Pityriasis rosea typically begins with a large, slightly raised, scaly patch called the herald patch. 
+" Height="60" Title="Pityriasis rosea (initial phase)" URI="/images/image_popup/thumbs/r7_heraldpatchthu.jpg" Width="60" />
+				<Image Alt="Photograph showing herald patch of pityriasis rosea 
+" Caption="Pityriasis rosea typically begins with a large, slightly raised, scaly patch called the herald patch. 
+" Height="400" Title="Pityriasis rosea (initial phase)" URI="/images/image_popup/r7_heraldpatch.jpg" Width="400" />
+				<HTML>
+					Pityriasis rosea typically begins with a large, slightly raised, scaly patch called the herald patch. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing rash of pityriasis rosea 
+" Caption="Pityriasis rosea is a common skin condition characterized by a scaly rash that sweeps outward like the branches of a pine tree. 
+" Height="60" Title="Pityriasis rosea (rash)" URI="/images/image_popup/thumbs/ans7_pityriasis-roseathu.jpg" Width="60" />
+				<Image Alt="Photograph showing rash of pityriasis rosea 
+" Caption="Pityriasis rosea is a common skin condition characterized by a scaly rash that sweeps outward like the branches of a pine tree. 
+" Height="264" Title="Pityriasis rosea (rash)" URI="/images/image_popup/ans7_pityriasis-rosea.jpg" Width="400" />
+				<HTML>
+					Pityriasis rosea is a common skin condition characterized by a scaly rash that sweeps outward like the branches of a pine tree. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pityriasis rosea typically begins with a large, slightly raised, scaly patch &amp;mdash; called the herald patch &amp;mdash; on your back, chest or abdomen. Before the herald patch appears, some people experience a sore throat or fever. 
+&lt;/p&gt;
+&lt;p&gt;
+A few days to a few weeks after the herald patch appears, you may notice smaller scaly spots across your back, chest or abdomen that resemble a pine-tree pattern. The rash can cause itching, which is occasionally severe. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if you develop a persistent rash. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing herald patch of pityriasis rosea 
+" Caption="Pityriasis rosea typically begins with a large, slightly raised, scaly patch called the herald patch. 
+" Height="60" Title="Pityriasis rosea (initial phase)" URI="/images/image_popup/thumbs/r7_heraldpatchthu.jpg" Width="60" />
+				<Image Alt="Photograph showing herald patch of pityriasis rosea 
+" Caption="Pityriasis rosea typically begins with a large, slightly raised, scaly patch called the herald patch. 
+" Height="400" Title="Pityriasis rosea (initial phase)" URI="/images/image_popup/r7_heraldpatch.jpg" Width="400" />
+				<HTML>
+					Pityriasis rosea typically begins with a large, slightly raised, scaly patch called the herald patch. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing rash of pityriasis rosea 
+" Caption="Pityriasis rosea is a common skin condition characterized by a scaly rash that sweeps outward like the branches of a pine tree. 
+" Height="60" Title="Pityriasis rosea (rash)" URI="/images/image_popup/thumbs/ans7_pityriasis-roseathu.jpg" Width="60" />
+				<Image Alt="Photograph showing rash of pityriasis rosea 
+" Caption="Pityriasis rosea is a common skin condition characterized by a scaly rash that sweeps outward like the branches of a pine tree. 
+" Height="264" Title="Pityriasis rosea (rash)" URI="/images/image_popup/ans7_pityriasis-rosea.jpg" Width="400" />
+				<HTML>
+					Pityriasis rosea is a common skin condition characterized by a scaly rash that sweeps outward like the branches of a pine tree. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of pityriasis rosea is unclear, although there is some evidence that the rash may be triggered by a viral infection, particularly by certain strains of the herpes virus. Pityriasis rosea, however, isn&apos;t believed to be contagious.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of pityriasis rosea aren&apos;t likely, but if they do occur, they may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Severe itching&lt;/li&gt;
+	&lt;li&gt;Lasting brown spots after the rash has healed, on dark skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor. He or she may refer you to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment as well as what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major illnesses, stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking, including the dosage information.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For pityriasis rosea, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of this rash?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;I have another health condition. Could it be related to the skin rash?&lt;/li&gt;
+	&lt;li&gt;Is this skin condition temporary or long lasting? &lt;/li&gt;
+	&lt;li&gt;Will this rash leave permanent scars?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will treatment for the skin rash interact with other treatments I&apos;m receiving?&lt;/li&gt;
+	&lt;li&gt;Are there any side effects from this treatment?&lt;/li&gt;
+	&lt;li&gt;Will the treatment help ease the itching? If not, how can I treat the itching?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions about your symptoms and possible causes. Questions to expect include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin to notice the rash?&lt;/li&gt;
+	&lt;li&gt;Have you had this type of rash in the past?&lt;/li&gt;
+	&lt;li&gt;Are you experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Does your rash itch?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms changed over time?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, your doctor can identify pityriasis rosea simply by looking at the rash. If there is doubt, a small scraping from a lesion may be taken for testing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, pityriasis rosea goes away on its own in four to six weeks. If the rash doesn&apos;t disappear by then or if the itching is bothersome, a variety of treatments can help. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Certain medications can ease symptoms or shorten the duration of pityriasis rosea. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; Creams and ointments containing forms of cortisone can help ease itching and decrease redness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines.&lt;/strong&gt; Over-the-counter allergy medicines such as diphenhydramine (Benadryl, others) also can reduce itching. If needed, stronger antihistamines are available by prescription.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antiviral drugs.&lt;/strong&gt; Medicines such as acyclovir (Zovirax) may reduce the duration of pityriasis rosea by one to two weeks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Light therapy&lt;br /&gt;
+&lt;/strong&gt;Exposure to natural or artificial sunlight can help the rash fade. In some people, however, this therapy can cause lasting darkening in certain spots, even after the rash clears. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help relieve the discomfort of pityriasis rosea: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bathe or shower in lukewarm water.&lt;/li&gt;
+	&lt;li&gt;Take an oatmeal bath. You can find oatmeal bath products at your pharmacy.&lt;/li&gt;
+	&lt;li&gt;Spread calamine lotion on the rash.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pityriasis rosea
+	</Title>
+	<Abstract>
+		Pityriasis rosea &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this common skin condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

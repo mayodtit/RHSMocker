@@ -1,0 +1,486 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00357
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pancreatic-cancer/DS00357
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-10
+		</UpdateDate>
+		<PublicationDate>
+			1999-06-29
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2254" Title="Pancreatic cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			606A404B-8078-4164-A5C4C829B75A978B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pancreatic cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreatic enzymes
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				pancreas cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer of the pancreas
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pancreatic cancer begins in the tissues of your pancreas &amp;mdash; an organ in your abdomen that lies horizontally behind the lower part of your stomach. Your pancreas secretes enzymes that aid digestion and hormones that help regulate the metabolism of sugars. 
+&lt;/p&gt;
+&lt;p&gt;
+Pancreatic cancer often has a poor prognosis, even when diagnosed early. Pancreatic cancer typically spreads rapidly and is seldom detected in its early stages, which is a major reason why it&apos;s a leading cause of cancer death. Signs and symptoms may not appear until pancreatic cancer is quite advanced and surgical removal isn&apos;t possible. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pancreatic cancer
+" Caption="Pancreatic cancer is cancer that forms in the cells of the pancreas.
+" Height="60" Title="Pancreatic cancer" URI="/images/image_popup/thumbs/mcdc7_pancreaticcancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pancreatic cancer
+" Caption="Pancreatic cancer is cancer that forms in the cells of the pancreas.
+" Height="300" Title="Pancreatic cancer" URI="/images/image_popup/mcdc7_pancreatic_cancer.jpg" Width="400" />
+				<HTML>
+					Pancreatic cancer is cancer that forms in the cells of the pancreas.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of pancreatic cancer often don&apos;t occur until the disease is advanced. When signs and symptoms do appear, they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Upper abdominal pain that may radiate to your back&lt;/li&gt;
+	&lt;li&gt;Yellowing of your skin and the whites of your eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you experience unexplained weight loss, abdominal pain, jaundice, or other signs and symptoms that bother you. Many diseases and conditions other than cancer may cause similar signs and symptoms, so your doctor may check for these conditions as well as for pancreatic cancer. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes pancreatic cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Understanding your pancreas&lt;/strong&gt;&lt;br /&gt;
+Your pancreas is about 6 inches (about 15 centimeters) long and looks something like a pear lying on its side. The pancreas is a crucial part of your digestive system. It secretes hormones, including insulin, to help your body process sugar. And it produces digestive juices to help your body digest food. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How pancreatic cancer forms&lt;/strong&gt;&lt;br /&gt;
+Pancreatic cancer occurs when cells in your pancreas develop mutations in their DNA. These mutations cause cells to grow uncontrollably and to continue living after normal cells would die. These accumulating cells can form a tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+Most pancreatic cancer begins in the cells that line the ducts of the pancreas. This type of cancer is called pancreatic adenocarcinoma or pancreatic exocrine cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, cancer can form in the hormone-producing cells of the pancreas. This type of cancer is called islet cell cancer or pancreatic endocrine cancer. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pancreatic cancer
+" Caption="Pancreatic cancer is cancer that forms in the cells of the pancreas.
+" Height="60" Title="Pancreatic cancer" URI="/images/image_popup/thumbs/mcdc7_pancreaticcancerthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pancreatic cancer
+" Caption="Pancreatic cancer is cancer that forms in the cells of the pancreas.
+" Height="300" Title="Pancreatic cancer" URI="/images/image_popup/mcdc7_pancreatic_cancer.jpg" Width="400" />
+				<HTML>
+					Pancreatic cancer is cancer that forms in the cells of the pancreas.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of pancreatic cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Being African-American&lt;/li&gt;
+	&lt;li&gt;Being overweight or obese&lt;/li&gt;
+	&lt;li&gt;Chronic inflammation of the pancreas (pancreatitis)&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Family history of genetic syndromes that can increase cancer risk, including a BRCA2 gene mutation, Lynch syndrome and familial atypical mole-malignant melanoma (FAMMM)&lt;/li&gt;
+	&lt;li&gt;Personal or family history of pancreatic cancer&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As pancreatic cancer progresses, it can cause complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Jaundice.&lt;/strong&gt; Pancreatic cancer that blocks the liver&apos;s bile duct can cause jaundice. Signs include yellow skin and eyes, dark-colored urine, and pale-colored stools.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may recommend that a plastic or metal tube (stent) be placed inside the bile duct to hold it open. In some cases a bypass may be needed to create a new way for bile to flow from the liver to the intestines. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Pain.&lt;/strong&gt; A growing tumor may press on nerves in your abdomen, causing pain that can become severe. Pain medications can help you feel more comfortable. Radiation therapy may help stop tumor growth temporarily to give you some relief. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	In severe cases, your doctor may recommend a procedure to inject alcohol into the nerves that control pain in your abdomen (celiac plexus block). This procedure stops the nerves from sending pain signals to your brain. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Bowel obstruction.&lt;/strong&gt; Pancreatic cancer that grows into or presses on the small intestine (duodenum) can block the flow of digested food from your stomach into your intestines.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Your doctor may recommend a tube (stent) be placed in your small intestine to hold it open. Or bypass surgery may be necessary to attach your stomach to a lower point in your intestines that isn&apos;t blocked by cancer. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Weight loss.&lt;/strong&gt; A number of factors may cause weight loss in people with pancreatic cancer. Nausea and vomiting caused by cancer treatments or a tumor pressing on your stomach may make it difficult to eat. Or your body may have difficulty properly processing nutrients from food because your pancreas isn&apos;t making enough digestive juices.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Pancreatic enzyme supplements may be recommended to aid in digestion. Try to maintain your weight by adding extra calories where you can and making mealtime as pleasant and relaxed as possible.
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. Your doctor may recommend tests and procedures to investigate your signs and symptoms. If your doctor determines you have pancreatic cancer, you may be referred to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A doctor who treats cancer (oncologist)&lt;/li&gt;
+	&lt;li&gt;A doctor who uses radiation to treat cancer (radiation oncologist)&lt;/li&gt;
+	&lt;li&gt;A surgeon who specializes in operations involving the digestive tract&lt;/li&gt;
+	&lt;li&gt;A doctor who diagnoses and treats digestive conditions (gastroenterologist)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For pancreatic cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have pancreatic cancer?&lt;/li&gt;
+	&lt;li&gt;What is the stage of my cancer?&lt;/li&gt;
+	&lt;li&gt;Will I need additional tests?&lt;/li&gt;
+	&lt;li&gt;Can my cancer be cured?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;Can any treatment help me live longer?&lt;/li&gt;
+	&lt;li&gt;What are the potential risks of each treatment?&lt;/li&gt;
+	&lt;li&gt;Is there one treatment you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;What advice would you give a friend or family member in my situation?&lt;/li&gt;
+	&lt;li&gt;I&apos;m currently experiencing these signs and symptoms. What can be done to help me feel more comfortable?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Am I eligible for a clinical trial?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing pancreatic cancer&lt;/strong&gt; &lt;br /&gt;
+If your doctor suspects pancreatic cancer, you may have one or more of the following tests to diagnose the cancer: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests to create pictures of your internal organs.&lt;/strong&gt; Imaging tests help your doctor visualize your internal organs, including your pancreas. Imaging tests used to diagnose pancreatic cancer include ultrasound, computerized tomography (CT) scan and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to create ultrasound pictures of your pancreas.&lt;/strong&gt; An endoscopic ultrasound (EUS) uses an ultrasound device to make images of your pancreas from inside your abdomen. The ultrasound device is passed through a thin, flexible tube (endoscope) down your esophagus and into your stomach in order to obtain the images. Your doctor may also collect a sample of cells (biopsy) during EUS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to inject dye into the pancreatic ducts.&lt;/strong&gt; Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts in your pancreas. During ERCP, an endoscope is passed down your throat, through your stomach and into the upper part of your small intestine. A dye is then injected into the pancreatic and bile ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts. A tissue or cell sample (biopsy) can be collected during ERCP.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a tissue sample for testing (biopsy).&lt;/strong&gt; A biopsy is a procedure to remove a small sample of tissue from the pancreas for examination under a microscope. A biopsy sample can be obtained by inserting a needle through your skin and into your pancreas (fine-needle aspiration). Or it can be done using endoscopic ultrasound to guide special tools into your pancreas where a sample of cells can be obtained for testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging pancreatic cancer&lt;/strong&gt; &lt;br /&gt;
+Once a diagnosis of pancreatic cancer is confirmed, your doctor will work to determine the extent (stage) of the cancer. Your cancer&apos;s stage helps determine what treatments are available to you. In order to determine the stage of your pancreatic cancer, your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to see inside your body.&lt;/strong&gt; Laparoscopy uses a lighted tube with a video camera to explore your pancreas and surrounding tissue. The surgeon passes the laparoscope through an incision in your abdomen. The camera on the end of the scope transmits video to a screen in the operating room. This allows your doctor to look for signs cancer has spread within your abdomen. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests may include CT and MRI. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Your doctor may test your blood for specific proteins (tumor markers) shed by pancreatic cancer cells. One tumor marker test used in pancreatic cancer is called CA19-9. Some research indicates that the more elevated your level of CA19-9 is, the more advanced the cancer. But the test isn&apos;t always reliable, and it isn&apos;t clear how best to use the CA19-9 test results. Some doctors measure your levels before, during and after treatment. Others use it to gauge your prognosis. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Stages of pancreatic cancer&lt;/strong&gt; &lt;br /&gt;
+Using information from staging tests, your doctor assigns your pancreatic cancer a stage. The stages of pancreatic cancer are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Cancer is confined to the pancreas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Cancer has spread beyond the pancreas to nearby tissues and organs and may have spread to the lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Cancer has spread beyond the pancreas to the major blood vessels around the pancreas and may have spread to the lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; Cancer has spread to distant sites beyond the pancreas, such as the liver, lungs and the lining that surrounds your abdominal organs (peritoneum). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ERCP procedure
+" Caption="Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat, through your stomach and into the upper part of your small intestine. Air is used to inflate your intestinal tract so that your doctor can more easily see the openings of your pancreatic and bile ducts. A dye is then injected into the ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts.
+" Height="60" Title="ERCP procedure" URI="/images/image_popup/thumbs/d7_ercpthu.jpg" Width="60" />
+				<Image Alt="Illustration of ERCP procedure
+" Caption="Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat, through your stomach and into the upper part of your small intestine. Air is used to inflate your intestinal tract so that your doctor can more easily see the openings of your pancreatic and bile ducts. A dye is then injected into the ducts through a small hollow tube (catheter) that&apos;s passed through the endoscope. Finally, X-rays are taken of the ducts.
+" Height="446" Title="Endoscopic retrograde cholangiopancreatography" URI="/images/image_popup/d7_ercp.jpg" Width="400" />
+				<HTML>
+					Endoscopic retrograde cholangiopancreatography (ERCP) uses a dye to highlight the bile ducts. During ERCP, a thin, flexible tube (endoscope) with a camera on the end is gently passed down your throat,...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for pancreatic cancer depends on the stage and location of the cancer as well as on your age, overall health and personal preferences. The first goal of pancreatic cancer treatment is to eliminate the cancer, when possible. When that isn&apos;t an option, the focus may be on preventing the pancreatic cancer from growing or causing more harm. When pancreatic cancer is advanced and treatments aren&apos;t likely to offer a benefit, your doctor will help to relieve symptoms and make you as comfortable as possible. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgery may be an option if your pancreatic cancer is confined to the pancreas. Operations used in people with pancreatic cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery for tumors in the pancreatic head.&lt;/strong&gt; If your pancreatic cancer is located in the head of the pancreas, you may consider an operation called a Whipple procedure (pancreatoduodenectomy). The Whipple procedure involves removing the head of your pancreas, as well as a portion of your small intestine (duodenum), your gallbladder and part of your bile duct. Part of your stomach may be removed as well. Your surgeon reconnects the remaining parts of your pancreas, stomach and intestines to allow you to digest food. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Whipple surgery carries a risk of infection and bleeding. After the surgery, some people experience nausea and vomiting that can occur if the stomach has difficulty emptying (delayed gastric emptying). Expect a long recovery after a Whipple procedure. You&apos;ll spend several days in the hospital and then recover for several weeks at home. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery for tumors in the pancreatic tail and body.&lt;/strong&gt; Surgery to remove the tail of the pancreas or the tail and a small portion of the body is called distal pancreatectomy. Your surgeon may also remove your spleen. Surgery carries a risk of bleeding and infection. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Research shows pancreatic cancer surgery tends to cause fewer complications when done by experienced surgeons. Don&apos;t hesitate to ask about your surgeon&apos;s experience with pancreatic cancer surgery. If you have any doubts, get a second opinion. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-energy beams, such as X-rays and protons, to destroy cancer cells. You may receive radiation treatments before or after cancer surgery, often in combination with chemotherapy. Or, your doctor may recommend a combination of radiation and chemotherapy treatments when your cancer can&apos;t be treated surgically. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy usually comes from a machine that moves around you, directing radiation to specific points on your body (external beam radiation). In specialized medical centers, radiation therapy may be delivered during surgery (intraoperative radiation). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy uses drugs to help kill cancer cells. Chemotherapy can be injected into a vein or taken orally. You may receive only one chemotherapy drug, or you may receive a combination of chemotherapy drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy can also be combined with radiation therapy (chemoradiation). Chemoradiation is typically used to treat cancer that has spread beyond the pancreas, but only to nearby organs and not to distant regions of the body. This combination may also be used after surgery to reduce the risk that pancreatic cancer may recur. 
+&lt;/p&gt;
+&lt;p&gt;
+In people with advanced pancreatic cancer, chemotherapy may be used alone or it may be combined with targeted drug therapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted therapy&lt;/strong&gt; &lt;br /&gt;
+Targeted therapy uses drugs that attack specific abnormalities within cancer cells. The targeted drug erlotinib (Tarceva) blocks chemicals that signal cancer cells to grow and divide. Erlotinib is usually combined with chemotherapy for use in people with advanced pancreatic cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are studies to test new forms of treatment, such as new drugs, new approaches to surgery or radiation treatments, and novel methods such as gene therapy. If the treatment being studied proves to be safer or more effective than are current treatments, it can become the new standard of care. 
+&lt;/p&gt;
+&lt;p&gt;
+Clinical trials can&apos;t guarantee a cure, and they may have serious or unexpected side effects. On the other hand, cancer clinical trials are closely monitored by the federal government to ensure they&apos;re conducted as safely as possible. And they offer access to treatments that wouldn&apos;t otherwise be available to you. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk to your doctor about what clinical trials might be appropriate for you. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of Whipple procedure 
+" Caption="The Whipple procedure (pancreatoduodenectomy) is an operation to remove a portion of the pancreas, as well as a portion of the small intestine (duodenum), the gallbladder and part of the bile duct. The remaining organs are reattached to allow you to digest food. 
+" Height="60" Title="Whipple procedure" URI="/images/image_popup/thumbs/mcdc7_whippleprocedurethu.jpg" Width="60" />
+				<Image Alt="Illustration of Whipple procedure 
+" Caption="The Whipple procedure (pancreatoduodenectomy) is an operation to remove a portion of the pancreas, as well as a portion of the small intestine (duodenum), the gallbladder and part of the bile duct. The remaining organs are reattached to allow you to digest food. 
+" Height="300" Title="Whipple procedure" URI="/images/image_popup/mcdc7_whipple_procedure.jpg" Width="400" />
+				<HTML>
+					The Whipple procedure (pancreatoduodenectomy) is an operation to remove a portion of the pancreas, as well as a portion of the small intestine (duodenum), the gallbladder and part of the bile duct. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with pancreatic cancer, you may want to try every treatment available to cure your cancer. Many people with cancer turn to complementary and alternative medicine when conventional medicine offers little chance for a cure. No complementary or alternative treatments have been found to effectively treat pancreatic cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+But complementary and alternative medicine treatments may help with signs and symptoms you experience due to your cancer or cancer treatments. Talk to your doctor about your options. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Alternative treatments to help you cope with distress&lt;/strong&gt; &lt;br /&gt;
+People with cancer frequently experience distress. Some research suggests distress is more common in people with pancreatic cancer than it is in people with other types of cancer. If you&apos;re distressed, you may have difficulty sleeping and find yourself constantly thinking about your cancer. You may feel angry or sad. 
+&lt;/p&gt;
+&lt;p&gt;
+Discuss your feelings with your doctor. Specialists can help you sort through your feelings and help you devise strategies for coping. In some cases, medications may help. 
+&lt;/p&gt;
+&lt;p&gt;
+Complementary and alternative therapies may also help you cope with distress. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Art therapy&lt;/li&gt;
+	&lt;li&gt;Exercise&lt;/li&gt;
+	&lt;li&gt;Meditation&lt;/li&gt;
+	&lt;li&gt;Music therapy&lt;/li&gt;
+	&lt;li&gt;Relaxation exercises&lt;/li&gt;
+	&lt;li&gt;Spirituality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Talk to your doctor if you&apos;re interested in complementary and alternative treatments. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Learning you have a life-threatening illness can be devastating. Although there are no easy answers for people dealing with pancreatic cancer, some of the following suggestions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn what you need to know about your illness.&lt;/strong&gt; Learn enough about your cancer to help you make decisions about your care. Ask your doctor about the details of your cancer and your treatment options. Ask about trusted sources of further information. If you&apos;re doing your own research, good places to start include the National Cancer Institute and the Pancreatic Cancer Action Network.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Assemble a support system.&lt;/strong&gt; Ask your friends and family to form a support network for you. Your friends and family may feel helpless and uncertain after your diagnosis. Simple tasks that are helpful to you may give them comfort. And you may find relief in not having to worry about certain tasks. Think of things you want help with, such as meal preparation or transportation to appointments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Although friends and family can be your best allies, in some cases they have difficulty coping with the shock of your diagnosis. In these cases, talking with a counselor, medical social worker, or a pastoral or religious counselor can be helpful. Ask your doctor for a referral.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; You may find comfort in talking with other cancer survivors. Cancer survivors can provide unique insight into your situation. Contact your local chapter of the American Cancer Society to find cancer support groups in your area. The Pancreatic Cancer Action Network can connect you with a pancreatic cancer survivor who can provide support by phone or email.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Come to terms with your illness.&lt;/strong&gt; Coming to terms with the fact that your pancreatic cancer will likely be fatal can be difficult. For some people, having a strong faith or a sense of something greater than themselves makes this process easier. Others seek counseling from someone who understands life-threatening illnesses, such as a medical social worker, psychologist or chaplain. Many people also take steps to ensure that their end-of-life wishes are known and respected by writing down their wishes and discussing them with their loved ones.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider hospice.&lt;/strong&gt; Hospice care provides comfort and support to terminally ill people and their loved ones. Hospice care allows family and friends &amp;mdash; with the aid of nurses, social workers and trained volunteers &amp;mdash; to care for and comfort a loved one at home or in hospice residences. It also provides emotional, social and spiritual support for people who are ill and those closest to them. Although most people under hospice care remain in their own homes, the program is available in most places &amp;mdash; including nursing homes and assisted living centers.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s no proven way to prevent pancreatic cancer, you can take steps to reduce your risk, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you smoke, stop. Talk to your doctor about strategies to help you stop, including support groups, medications and nicotine replacement therapy. If you don&apos;t smoke, don&apos;t start.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; If you currently have a healthy weight, work to maintain it. If you need to lose weight, aim for a slow, steady weight loss &amp;mdash; 1 or 2 pounds (0.5 or 1 kilogram) a week. Combine daily exercise with a diet rich in vegetables, fruit and whole grains with smaller portions to help you lose weight.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; A diet full of colorful fruits and vegetables and whole grains may help reduce your risk of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pancreatic cancer
+	</Title>
+	<Abstract>
+		Pancreatic cancer &amp;mdash; Comprehensive overview covers symptoms and treatment of cancer of the pancreas.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01592" LinkType="Internal" ObjectID="55797FDC-074D-9B36-20B33F4BB665690D" Title="Proton therapy" Url="http://www.mayoclinic.com/health/proton-therapy/MY01592" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Answer" DocID="AN01505" LinkType="Internal" ObjectID="CEC62603-E7FF-0DBD-1269A94397A9D630" Title="Pancreatic cancer treatment: Why is it so challenging?" Url="http://www.mayoclinic.com/health/pancreatic-cancer-treatment/AN01505" />
+	</RelatedLinksBox>
+</Disease>

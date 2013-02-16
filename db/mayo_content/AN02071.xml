@@ -1,0 +1,140 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02071
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sun-rash/AN02071
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-01
+		</UpdateDate>
+		<PublicationDate>
+			2010-05-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="4692" Title="Sun allergy">
+							<Keyword MCVID="3209" Title="Polymorphous light eruption" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9FDB729C-F8B4-E6C2-8DE4A277C835F335
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sun rash
+			</MetaKeyword>
+			<MetaKeyword>
+				sun rashes
+			</MetaKeyword>
+			<MetaKeyword>
+				skin rash
+			</MetaKeyword>
+			<MetaKeyword>
+				red rash
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy rash
+			</MetaKeyword>
+			<MetaKeyword>
+				sun sensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				photosensitivity
+			</MetaKeyword>
+			<MetaKeyword>
+				sun poisoning rash
+			</MetaKeyword>
+			<MetaKeyword>
+				sun poisoning
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Sun rash and sun allergy are terms often used to describe a number of conditions in which an itchy red rash occurs on skin that&apos;s been exposed to sunlight. The most common form of sun rash is polymorphic light eruption, also known as sun poisoning. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people have a hereditary type of sun allergy, while others develop signs and symptoms only when triggered by another factor &amp;mdash; such as certain types of medications or skin exposure to certain plants, such as limes or wild parsnip. 
+&lt;/p&gt;
+&lt;p&gt;
+Mild cases of sun rash may resolve without treatment. More-severe cases may require steroid creams or pills. People who have a severe sun allergy may need to take preventative measures, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Limit exposure.&lt;/strong&gt; Avoid spending time in the sun, especially when the sun&apos;s rays are most intense &amp;mdash; between 10 a.m. and 4 p.m.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use sunscreen.&lt;/strong&gt; Use a high-SPF sunscreen that specifically blocks both ultraviolet A and ultraviolet B rays. Apply sunscreen generously, and reapply every two hours &amp;mdash; or more often if you&apos;re swimming or perspiring.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover up.&lt;/strong&gt; Wear a broad-brimmed hat and cover your arms and legs with clothing that&apos;s tightly woven or specifically designed to protect from the sun.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="60" Title="Polymorphous light eruption" URI="/images/image_popup/thumbs/sn7_pmlechestthu.jpg" Width="60" />
+				<Image Alt="Photograph of polymorphic light eruption on chest
+" Caption="Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+" Height="400" Title="Polymorphous light eruption" URI="/images/image_popup/sn7_pmlechest.jpg" Width="400" />
+				<HTML>
+					Polymorphic light eruption occurs most often in areas that are covered in the winter months and exposed in the summer months, such as the front of your neck and chest. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Sun rash: Causes and prevention
+	</Title>
+	<Abstract>
+		Sun rash &amp;mdash; Causes and prevention tips for this itchy red rash.
+	</Abstract>
+	<Question>
+		My son gets a red rash on his arms after being outside in the sun. What causes this and what can I do to prevent it?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+		<LinkItem ContentType="Disease" DocID="DS01178" LinkType="Internal" ObjectID="00EB5EED-0DB9-A1F0-7273C233F2338A83" Title="Sun allergy" Url="http://www.mayoclinic.com/health/sun-allergy/DS01178" />
+		<LinkItem ContentType="Disease" DocID="DS00911" LinkType="Internal" ObjectID="62D81BD0-E7FF-0DBD-16ACD97DF82C36D2" Title="Polymorphous light eruption" Url="http://www.mayoclinic.com/health/polymorphous-light-eruption/DS00911" />
+	</RelatedLinksBox>
+</Answer>

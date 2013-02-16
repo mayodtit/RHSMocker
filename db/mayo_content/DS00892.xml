@@ -1,0 +1,360 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00892
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ringworm/DS00892
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-29
+		</UpdateDate>
+		<PublicationDate>
+			2007-01-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="2982" Title="Fungal skin infections">
+							<Keyword MCVID="2989" Title="Ringworm of the scalp" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler">
+						<Keyword MCVID="3526" Title="16 months to 2 years toddler" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen">
+						<Keyword MCVID="3535" Title="06 to 10 years elementary" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C42BC11D-E7FF-0DBD-1B7A0231D1304090
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ringworm
+			</MetaKeyword>
+			<MetaKeyword>
+				ring worm
+			</MetaKeyword>
+			<MetaKeyword>
+				tinea capitis
+			</MetaKeyword>
+			<MetaKeyword>
+				ringworm treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				ring worm treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				scalp ring worm
+			</MetaKeyword>
+			<MetaKeyword>
+				scalp ringworm
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatophyte
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal
+			</MetaKeyword>
+			<MetaKeyword>
+				tineal
+			</MetaKeyword>
+			<MetaKeyword>
+				skin fungus
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				fungal skin infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ringworm of the scalp (tinea capitis) is a fungal infection of the scalp and hair shafts. The signs and symptoms of ringworm of the scalp may vary, but it usually appears as itchy, scaly, bald patches on the head.
+&lt;/p&gt;
+&lt;p&gt;
+Ringworm of the scalp, a highly contagious infection, is most common in toddlers and school-age children.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for ringworm of the scalp includes medications taken by mouth to kill the fungi, as well as medicated shampoos that may lessen the spread of infection.
+&lt;/p&gt;
+&lt;p&gt;
+Some cases of ringworm of the scalp result in severe inflammation at the site of infection that may cause scarring or permanent hair loss.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of ringworm of the scalp" Caption="Ringworm of the scalp appears as round patches where the hair has broken off at or just above the scalp. These bald-looking patches slowly grow larger, covering more areas of the scalp." Height="60" Title="Ringworm of the scalp" URI="/images/image_popup/thumbs/sn7_ringwormscalp1thu.jpg" Width="60" />
+				<Image Alt="Picture of ringworm of the scalp" Caption="Ringworm of the scalp appears as round patches where the hair has broken off at or just above the scalp. These bald-looking patches slowly grow larger, covering more areas of the scalp." Height="400" Title="Ringworm of the scalp" URI="/images/image_popup/sn7_ringwormscalp1.jpg" Width="400" />
+				<HTML>
+					Ringworm of the scalp appears as round patches where the hair has broken off at or just above the scalp. These bald-looking patches slowly grow larger, covering more areas of the scalp....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of ringworm of the scalp include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;One or more round patches of scaly skin where the hair has broken off at or just above the scalp&lt;/li&gt;
+	&lt;li&gt;Patches that slowly expand or enlarge&lt;/li&gt;
+	&lt;li&gt;Scaly, gray or reddened areas&lt;/li&gt;
+	&lt;li&gt;Patches that have small black dots where the hair has broken off at the scalp&lt;/li&gt;
+	&lt;li&gt;Brittle or fragile hair that easily pulls out&lt;/li&gt;
+	&lt;li&gt;Tender or painful areas on the scalp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Several conditions affecting the scalp may have a similar appearance. See your child&apos;s doctor if your child has any hair loss, scaling or itchiness of the scalp, or other unusual appearance of the scalp. It&apos;s important to get an accurate diagnosis and prompt, appropriate treatment.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Picture of ringworm of the scalp" Caption="Ringworm of the scalp appears as round patches where the hair has broken off at or just above the scalp. These bald-looking patches slowly grow larger, covering more areas of the scalp." Height="60" Title="Ringworm of the scalp" URI="/images/image_popup/thumbs/sn7_ringwormscalp1thu.jpg" Width="60" />
+				<Image Alt="Picture of ringworm of the scalp" Caption="Ringworm of the scalp appears as round patches where the hair has broken off at or just above the scalp. These bald-looking patches slowly grow larger, covering more areas of the scalp." Height="400" Title="Ringworm of the scalp" URI="/images/image_popup/sn7_ringwormscalp1.jpg" Width="400" />
+				<HTML>
+					Ringworm of the scalp appears as round patches where the hair has broken off at or just above the scalp. These bald-looking patches slowly grow larger, covering more areas of the scalp....
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Close-up image of ringworm of the scalp" Caption="Up close, the scalp can look scaly and silvery with patches of broken hair. You may also see small black dots if your child has dark hair." Height="60" Title="Close-up of ringworm of the scalp" URI="/images/image_popup/thumbs/sn7_ringwormscalp2thu.jpg" Width="60" />
+				<Image Alt="Close-up image of ringworm of the scalp" Caption="Up close, the scalp can look scaly and silvery with patches of broken hair. You may also see small black dots if your child has dark hair." Height="400" Title="Close-up of ringworm of the scalp" URI="/images/image_popup/sn7_ringwormscalp2.jpg" Width="400" />
+				<HTML>
+					Up close, the scalp can look scaly and silvery with patches of broken hair. You may also see small black dots if your child has dark hair....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ringworm of the scalp is caused by one of several varieties of mold-like fungi called dermatophytes. The fungi attack the outer layer of skin on the scalp and the hair shaft.
+&lt;/p&gt;
+&lt;p&gt;
+Ringworm isn&apos;t caused by a worm. The common name for the disorder refers to the ring-like or circular appearance of the infection on the skin.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Methods of transmission&lt;/strong&gt;&lt;br /&gt;
+Ringworm is contagious and can spread in the following ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Human to human.&lt;/strong&gt; Ringworm often spreads through direct skin-to-skin contact with an infected person.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Object to human.&lt;/strong&gt; Ringworm can spread through contact with objects or surfaces that an infected person or animal has touched, such as clothing, towels, bed linens, combs or brushes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Animal to human.&lt;/strong&gt; Dogs and cats, especially puppies and kittens, are often carriers of ringworm. Other animals that are often carriers of the fungi include cows, goats, pigs and horses. Your child can contract ringworm by grooming or petting an animal with ringworm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other types of ringworm&lt;/strong&gt;&lt;br /&gt;
+The fungi that cause ringworm of the scalp can cause other infections on the body. These infections are generally classified by the part of the body affected. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ringworm of the body (tinea corporis).&lt;/strong&gt; This form causes a red, scaly ring or circle of rash on the top layer of your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Athlete&apos;s foot (tinea pedis).&lt;/strong&gt; This form of ringworm affects the moist areas between your toes and sometimes on the foot itself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jock itch (tinea cruris).&lt;/strong&gt; This form affects your genitals, inner upper thighs and buttocks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors of ringworm of the scalp include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to other children.&lt;/strong&gt; Though adults can get ringworm of the scalp, it occurs most often in toddlers and school-age children. Outbreaks of ringworm are common in schools and child care centers where the infection easily spreads through close physical contact or by touching common items, such as door handles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exposure to pets.&lt;/strong&gt; In addition, children with pets are at increased risk of ringworm. A pet, such as a cat or dog, can have the infection without showing any signs. Children can get the infection by touching or petting the animal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Others factors that increase the risk of ringworm of the scalp include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor hygiene&lt;/li&gt;
+	&lt;li&gt;Overcrowded living conditions&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, ringworm of the scalp causes kerion &amp;mdash; a severe, painful inflammation of the scalp. Kerion appears as soft, raised swellings that drain pus and cause thick, yellow crusting on the scalp. Instead of breaking, the hair falls out or can be easily pulled out. Kerion may be caused by an overly vigorous reaction to the fungus and can lead to permanent scars and hair loss.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image showing kerion 
+" Caption="Ringworm of the scalp can cause kerion &amp;mdash; a severe, painful inflammation of the scalp. Kerion appears as soft, raised swellings that drain pus. 
+" Height="60" Title="Kerion" URI="/images/image_popup/thumbs/sn7_kerionthu.jpg" Width="60" />
+				<Image Alt="Image showing kerion 
+" Caption="Ringworm of the scalp can cause kerion &amp;mdash; a severe, painful inflammation of the scalp. Kerion appears as soft, raised swellings that drain pus. 
+" Height="390" Title="Kerion" URI="/images/image_popup/sn7_kerion.jpg" Width="400" />
+				<HTML>
+					Ringworm of the scalp can cause kerion &amp;mdash; a severe, painful inflammation of the scalp. Kerion appears as soft, raised swellings that drain pus. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has a condition affecting his or her scalp, you&apos;ll likely start by seeing your family doctor or child&apos;s pediatrician. You may be referred to a skin specialist (dermatologist).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice symptoms?&lt;/li&gt;
+	&lt;li&gt;What did the scalp look like when symptoms first appeared?&lt;/li&gt;
+	&lt;li&gt;Is the rash painful or itchy?&lt;/li&gt;
+	&lt;li&gt;What, if anything, makes the condition better or worse?&lt;/li&gt;
+	&lt;li&gt;Do you have any pets at home, or has your child been around farm animals?&lt;/li&gt;
+	&lt;li&gt;Does another family member or a pet already have ringworm?&lt;/li&gt;
+	&lt;li&gt;Do you know of any cases of ringworm in your child&apos;s school?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions for your doctor&lt;/strong&gt;&lt;br /&gt;
+Questions you might be prepared to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If this is ringworm, what can we do to prevent the infection from spreading?&lt;/li&gt;
+	&lt;li&gt;What hair care routines do you recommend while the condition heals?&lt;/li&gt;
+	&lt;li&gt;When can my child return to school?&lt;/li&gt;
+	&lt;li&gt;Should I schedule a follow-up appointment for my child?&lt;/li&gt;
+	&lt;li&gt;Should I make appointments for my other children even if they aren&apos;t showing signs or symptoms right now?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests for ringworm of the scalp typically include a visual exam. Sometimes, your doctor may take a sample of hair or skin.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Visual exam.&lt;/strong&gt; Your doctor can often make a diagnosis of ringworm or another condition affecting the scalp based on a visual examination of the scalp and your answers to questions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin or hair sample.&lt;/strong&gt; Your doctor may take a sample &amp;mdash; hairs, a swab from the scalp or hair, or a scraping of scaly skin &amp;mdash; for examination under a microscope, which can reveal the presence of fungi. If the test is negative but your doctor still suspects ringworm, a sample may be sent to a lab for further testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may also order additional tests if your child&apos;s condition doesn&apos;t respond to treatment.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Antifungal medications approved for treating ringworm of the scalp include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Griseofulvin&lt;/strong&gt; (Grifulvin V, Gris-Peg) is taken by mouth as a liquid or tablet. While taking the drug, your child may need to wear protective clothing and sunscreen outside, because griseofulvin may make your child&apos;s skin more sensitive to light. Common side effects include headache, upset stomach, vomiting, diarrhea or loose stools, thirst, fatigue, dizziness, and faintness. If you&apos;re child is allergic to penicillin, he or she will likely be allergic to griseofulvin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Terbinafine hydrochloride&lt;/strong&gt; (Lamisil) is taken as a tablet or an oral granule medication that can be added to food or a beverage. Common side effects include diarrhea, upset stomach, stomach pain, rash, itching, hives, and changes in taste or loss of taste. There is a small risk of problems with liver function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your child may take one of these medications for six weeks or more.
+&lt;/p&gt;
+&lt;p&gt;
+You may not notice any changes in your child&apos;s condition right away, but your child still needs to continue taking the medication as directed by your doctor. You&apos;ll be instructed to continue treatment even after the condition clears.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may recommend that you wash your child&apos;s hair with a prescription-strength medicated shampoo that contains 2.5 percent selenium sulfide. This may help remove fungus spores and prevent the spread of the infection to other people or to other areas of your child&apos;s scalp or body.
+&lt;/p&gt;
+&lt;p&gt;
+For best use:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lather your child&apos;s hair with the medicated shampoo. Let the shampoo stay on your child&apos;s scalp for five minutes before rinsing.&lt;/li&gt;
+	&lt;li&gt;Use the medicated shampoo two to three times a week for about a month, or as otherwise directed by your doctor. Use a milder, nonmedicated shampoo on the other days.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Have your child wear a hat or scarf if he or she is embarrassed by or self-conscious about bald patches. You don&apos;t need to shave the scalp.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ringworm is difficult to prevent because the fungi that cause it are common and highly contagious. However, you can help reduce the risk of ringworm by taking these steps:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Educate yourself and others.&lt;/strong&gt; Be aware of the risk of ringworm from infected persons or pets. Tell your children about ringworm, what to watch for and how to avoid the infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shampoo regularly.&lt;/strong&gt; Be sure to wash your child&apos;s scalp regularly, especially after haircuts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep clean.&lt;/strong&gt; Be sure your child washes his or her hands often to avoid the spread of infection. Keep common or shared areas clean, especially in schools, child care centers, gyms and locker rooms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid infected animals.&lt;/strong&gt; The infection often looks like a patch of skin where fur is missing. In some cases, though, you may not notice any signs of the disease. Ask your veterinarian to check your pets and domesticated animals for ringworm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share personal items.&lt;/strong&gt; Teach your children not to let others use their clothing, towels, hairbrushes or other personal items, or to borrow such items from other children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ringworm (scalp)
+	</Title>
+	<Abstract>
+		Ringworm (scalp) &amp;mdash; Comprehensive overview covers causes, symptoms and treatments of this fungal infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

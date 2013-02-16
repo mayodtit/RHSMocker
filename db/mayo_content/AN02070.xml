@@ -1,0 +1,152 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02070
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/c-sections/AN02070
+		</OriginalURL>
+		<UpdateDate>
+			2012-06-12
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3967" Title="Life stage">
+						<Keyword MCVID="3990" Title="Pregnancy">
+							<Keyword MCVID="3991" Title="C-section" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			33B0B547-D63E-0522-6D9C547533765BDD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				C-sections
+			</MetaKeyword>
+			<MetaKeyword>
+				C sections
+			</MetaKeyword>
+			<MetaKeyword>
+				repeat C-section
+			</MetaKeyword>
+			<MetaKeyword>
+				repeat C-sections
+			</MetaKeyword>
+			<MetaKeyword>
+				repeat Cesarean section
+			</MetaKeyword>
+			<MetaKeyword>
+				repeat Caesarean section
+			</MetaKeyword>
+			<MetaKeyword>
+				c-section
+			</MetaKeyword>
+			<MetaKeyword>
+				c section
+			</MetaKeyword>
+			<MetaKeyword>
+				caesarean section
+			</MetaKeyword>
+			<MetaKeyword>
+				cesarean
+			</MetaKeyword>
+			<MetaKeyword>
+				caesarean
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Although there isn&apos;t enough research to support a specific limit on repeat C-sections, most women can safely have up to three cesarean deliveries. Each repeat C-section is generally more complicated than the last.
+&lt;/p&gt;
+&lt;p&gt;
+For some women, the risk of surgical complications &amp;mdash; such as infection or heavy bleeding &amp;mdash; increases only slightly from one C-section to the next. If you had a long and difficult labor before your first C-section, a repeat C-section might be less physically taxing. The healing process will take at least as long, however, and possibly longer if you develop complications.
+&lt;/p&gt;
+&lt;p&gt;
+For other women &amp;mdash; such as those who have significant internal scarring or bands of scar-like tissue that cling to the uterus (adhesions) &amp;mdash; the risk of each repeat C-section increases substantially.
+&lt;/p&gt;
+&lt;p&gt;
+Primary concerns with repeat C-sections include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Weakened uterine wall.&lt;/strong&gt; Each uterine incision leaves a weak spot in the uterine wall. This might interfere with future pregnancies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems with the placenta.&lt;/strong&gt; The more C-sections you&apos;ve had, the greater the risk of developing problems with the placenta &amp;mdash; such as when the placenta implants too deeply and firmly to the uterine wall (placenta accreta) or when the placenta partially or completely covers the opening of the cervix (placenta previa).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bladder injuries.&lt;/strong&gt; Bladder injuries, which are possible but uncommon with initial C-sections, are more likely with repeat C-sections. The increased risk is likely due to scar-like tissue that developed after a previous C-section, binding the bladder to the uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heavy bleeding.&lt;/strong&gt; Heavy bleeding is possible after any C-section. The risk of excessive bleeding increases with the number of repeat C-sections. The risk of needing a hysterectomy &amp;mdash; removal of the uterus &amp;mdash; to control life-threatening bleeding also increases with the number of repeat C-sections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Repeat C-sections appeal to many women. Beyond three C-sections, however, the surgical risks must be weighed carefully against the desire for subsequent pregnancies.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Repeat C-sections: Is there a limit?
+	</Title>
+	<Abstract>
+		Repeat C-sections are common &amp;mdash; but each C-section is generally more complicated than the last.
+	</Abstract>
+	<Question>
+		How many C-sections can a woman safely have?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY02085" LinkType="Internal" ObjectID="CBD3C5F1-0716-23D7-B42C094311F7CB5B" Title="Forceps delivery" Url="http://www.mayoclinic.com/health/forceps-delivery/MY02085" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01143" LinkType="Internal" ObjectID="0027ADD5-A779-9845-6C1AF50DE22CFC07" Title="Vaginal birth after cesarean (VBAC)" Url="http://www.mayoclinic.com/health/vbac/MY01143" />
+		<LinkItem ContentType="Article" DocID="MY01978" LinkType="Internal" ObjectID="B51BEA1F-C099-B0B1-7581BAADD4C4EBED" Title="C-section recovery: What to expect" Url="http://www.mayoclinic.com/health/c-section-recovery/MY01978" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY01945" LinkType="Internal" ObjectID="1A1EE92E-FB0A-795B-CEB7BDD5607624A1" Title="Placenta: How it works, what&apos;s normal" Url="http://www.mayoclinic.com/health/placenta/MY01945" />
+		<LinkItem ContentType="Article" DocID="MY01943" LinkType="Internal" ObjectID="1A19EC2B-0C5F-9FCB-11B8D9D4F0557904" Title="Pregnancy and obesity: Know the risks" Url="http://www.mayoclinic.com/health/pregnancy-and-obesity/MY01943" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00214" LinkType="Internal" ObjectID="C2CFE268-E7FF-0DBD-18FA5858F40AF065" Title="C-section" Url="http://www.mayoclinic.com/health/c-section/MY00214" />
+		<LinkItem ContentType="Disease" DocID="DS01207" LinkType="Internal" ObjectID="A43C6661-B9F9-3BE6-3A41FE6D24724FDD" Title="Amniotic fluid embolism" Url="http://www.mayoclinic.com/health/amniotic-fluid-embolism/DS01207" />
+		<LinkItem ContentType="Disease" DocID="DS01203" LinkType="Internal" ObjectID="A0B15BA1-0800-BC0A-49A143C3527F367B" Title="Placenta accreta" Url="http://www.mayoclinic.com/health/placenta-accreta/DS01203" />
+		<LinkItem ContentType="Disease" DocID="DS00588" LinkType="Internal" ObjectID="827D77E5-9B63-44BA-A298CD99329BB784" Title="Placenta previa" Url="http://www.mayoclinic.com/health/placenta-previa/DS00588" />
+		<LinkItem ContentType="Disease" DocID="DS00179" LinkType="Internal" ObjectID="345386D6-9612-409A-9D87D869D4913E44" Title="Genital herpes" Url="http://www.mayoclinic.com/health/genital-herpes/DS00179" />
+	</RelatedLinksBox>
+</Answer>

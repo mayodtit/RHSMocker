@@ -1,0 +1,404 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01096
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blocked-tear-duct/DS01096
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-13
+		</UpdateDate>
+		<PublicationDate>
+			2008-10-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1138" Title="Eyes and vision">
+					<Keyword MCVID="1790" Title="Eye">
+						<Keyword MCVID="2486" Title="Blocked tear duct" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			BC6110E8-E7FF-0DBD-1B36B8975AB44264
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blocked tear duct
+			</MetaKeyword>
+			<MetaKeyword>
+				blocked tear ducts
+			</MetaKeyword>
+			<MetaKeyword>
+				clogged tear ducts
+			</MetaKeyword>
+			<MetaKeyword>
+				infected tear duct
+			</MetaKeyword>
+			<MetaKeyword>
+				tear duct plugs
+			</MetaKeyword>
+			<MetaKeyword>
+				swollen tear duct
+			</MetaKeyword>
+			<MetaKeyword>
+				blocked tear ducts in adults
+			</MetaKeyword>
+			<MetaKeyword>
+				tear duct blockage
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you have a blocked tear duct, your tears can&apos;t drain normally, leaving you with a watery, irritated eye. Blocked tear ducts are caused by a partial or complete obstruction in the tear drainage system.
+&lt;/p&gt;
+&lt;p&gt;
+Blocked tear ducts are common in newborns, but they usually get better without any treatment during the first year of life. In adults, a blocked tear duct may be due to an injury, infection or a tumor.
+&lt;/p&gt;
+&lt;p&gt;
+A blocked tear duct almost always is correctable. Treatment depends on the cause of the blockage and your age.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tear glands and tear ducts 
+" Caption="The tear glands (lacrimal glands), located above each eyeball, continuously supply tear fluid that&apos;s wiped across the surface of your eye each time you blink your eyelids. Excess fluid drains through the tear ducts into the nose. 
+" Height="60" Title="Tear glands and tear ducts" URI="/images/image_popup/thumbs/r7_tearglandthu.jpg" Width="60" />
+				<Image Alt="Illustration showing tear glands and tear ducts 
+" Caption="The tear glands (lacrimal glands), located above each eyeball, continuously supply tear fluid that&apos;s wiped across the surface of your eye each time you blink your eyelids. Excess fluid drains through the tear ducts into the nose. 
+" Height="439" Title="Tear glands and tear ducts" URI="/images/image_popup/r7_teargland.jpg" Width="400" />
+				<HTML>
+					The tear glands (lacrimal glands), located above each eyeball, continuously supply tear fluid that&apos;s wiped across the surface of your eye each time you blink your eyelids. Excess fluid drains through ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms may be caused by the blocked tear duct or from an infection that develops because of the blockage. Look for:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Excessive tearing&lt;/li&gt;
+	&lt;li&gt;Recurrent eye inflammation (conjunctivitis)&lt;/li&gt;
+	&lt;li&gt;Recurrent eye infections&lt;/li&gt;
+	&lt;li&gt;Painful swelling near the inside corner of the eye&lt;/li&gt;
+	&lt;li&gt;Mucus or&amp;nbsp; pus discharge&amp;nbsp; from the lids and surface of the eye&lt;/li&gt;
+	&lt;li&gt;Blurred vision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If your eye has been watery and leaking or is continually irritated or infected, make an appointment to see your doctor. Some blocked tear ducts are caused by tumors pressing on the tear drainage system, and quick identification of the tumor can give you more treatment options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The lacrimal glands produce most of your tears. These glands are located inside the upper lids above each eye. Normally, tears flow from the lacrimal glands over the surface of your eye. Tears drain into tiny holes (puncta) located in the corners of your upper and lower eyelids. 
+&lt;/p&gt;
+&lt;p&gt;
+Your eyelids have small canals (canaliculi) that move tears to a sac where the lids are attached to the side of the nose (lacrimal sac). From there, tears travel down a duct (the nasolacrimal duct) draining into your nose. Once in the nose, tears are reabsorbed.
+&lt;/p&gt;
+&lt;p&gt;
+A blockage can occur at any point in the tear drainage system, from the puncta to your nose. When that happens, your tears don&apos;t drain properly, giving you watery eyes and increasing your risk of eye infections and inflammation. 
+&lt;/p&gt;
+&lt;p&gt;
+Blocked tear ducts can happen at any age. They may even be present at birth (congenital). Causes include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Congenital blockage.&lt;/strong&gt; Many infants are born with a blocked tear duct. The tear drainage system may not be fully developed or there may be a duct abnormality. A thin tissue membrane often remains over the opening that empties into the nose (nasolacrimal duct) in congenitally blocked tear ducts. This usually opens spontaneously during the first or second month of life.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age-related changes.&lt;/strong&gt; As you age, the punctal openings may get narrower, causing partial blockage that slows the flow of tears into the nose, resulting in tearing. Total blockage of the punctal openings also may occur.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye infections or inflammation.&lt;/strong&gt; Chronic infections and inflammation of your eyes, tear drainage system or nose can cause your tear ducts to become blocked.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Facial injuries or trauma.&lt;/strong&gt; An injury to your face can cause bone damage near the drainage system, disrupting the normal flow of tears through the ducts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tumors.&lt;/strong&gt; Nasal, sinus or lacrimal sac tumors can occur along the tear drainage system, blocking it as they grow larger.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical medications.&lt;/strong&gt; Rarely, long-term use of certain topical medications, such as some of those that treat glaucoma, can cause a blocked tear duct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer treatments.&lt;/strong&gt; A blocked tear duct is a possible side effect of chemotherapy medication and radiation treatment for cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing tear glands and tear ducts 
+" Caption="The tear glands (lacrimal glands), located above each eyeball, continuously supply tear fluid that&apos;s wiped across the surface of your eye each time you blink your eyelids. Excess fluid drains through the tear ducts into the nose. 
+" Height="60" Title="Tear glands and tear ducts" URI="/images/image_popup/thumbs/r7_tearglandthu.jpg" Width="60" />
+				<Image Alt="Illustration showing tear glands and tear ducts 
+" Caption="The tear glands (lacrimal glands), located above each eyeball, continuously supply tear fluid that&apos;s wiped across the surface of your eye each time you blink your eyelids. Excess fluid drains through the tear ducts into the nose. 
+" Height="439" Title="Tear glands and tear ducts" URI="/images/image_popup/r7_teargland.jpg" Width="400" />
+				<HTML>
+					The tear glands (lacrimal glands), located above each eyeball, continuously supply tear fluid that&apos;s wiped across the surface of your eye each time you blink your eyelids. Excess fluid drains through ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors increase your risk of developing a blocked tear duct: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age and sex.&lt;/strong&gt; Older women are at highest risk of developing blocked tear ducts due to age-related changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic eye inflammation.&lt;/strong&gt; If your eyes are continually irritated, red and inflamed (conjunctivitis), you&apos;re at higher risk of developing a blocked tear duct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous surgery.&lt;/strong&gt; Previous eye, eyelid, nasal or sinus surgery may have caused some scarring of the duct system, possibly resulting in a blocked tear duct later.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Glaucoma.&lt;/strong&gt; Anti-glaucoma medications are often used topically on the eye. If you&apos;ve used these or other topical eye medications, you&apos;re at higher risk of developing a blocked tear duct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Previous cancer treatment.&lt;/strong&gt; If you&apos;ve had radiation or chemotherapy to treat cancer, particularly if the radiation was focused on your face or head, you&apos;re at higher risk of developing a blocked tear duct.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because your tears aren&apos;t draining the way they should, the tears that remain in the drainage system become stagnant, promoting growth of bacteria, viruses and fungi. These organisms can lead to recurrent eye infections and inflammation. Any part of the tear drainage system, including the clear membrane over your eye surface (conjunctiva), can become infected or inflamed because of a blocked tear duct.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first visit your primary care physician for a blocked tear duct. However, you may then be referred to a doctor who specializes in treating disorders of the eye (ophthalmologist). In some instances, your general ophthalmologist may refer you to an ophthalmologist who specializes in ophthalmic plastic surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive prepared. Here&apos;s some information to help you get ready, and know what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help make the most of your appointment. For a blocked tear duct, some basic questions to ask include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Is this condition temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Is this condition related to another medical disorder?&lt;/li&gt;
+	&lt;li&gt;If I don&apos;t have anything done to correct this problem, what are the risks to my vision?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;At your appointment, your doctor will gather a history of your eye symptoms and ask questions related to the causes of blocked tear ducts, as well as other conditions that can cause watery, irritated eyes. When you go to see your doctor, he or she may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Do you experience your symptoms all the time, or do they come and go?&lt;/li&gt;
+	&lt;li&gt;Does anything relieve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had any previous surgery to your eyes or eyelid?&lt;/li&gt;
+	&lt;li&gt;Have you had facial trauma, injuries, radiation treatment or surgery?&lt;/li&gt;
+	&lt;li&gt;Have you ever had any facial nerve conditions, such as Bell&apos;s palsy?&lt;/li&gt;
+	&lt;li&gt;Do you have any medical problems, such as diabetes or long-standing skin disorders, such as atopic dermatitis?&lt;/li&gt;
+	&lt;li&gt;Have you ever been diagnosed with a thyroid disorder?&lt;/li&gt;
+	&lt;li&gt;Do you use contact lenses? Have you used contacts in the past?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Be prepared for an eye exam and a few tests to see how your tears are draining. Your doctor will also examine the inside of your nose to determine if any structural disorders of your nasal passages are causing an obstruction. If a blocked tear duct is suspected, other tests may be performed to find the location of the blockage in order to choose the best treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Some of the tests used to diagnose a blocked tear duct include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Tear drainage test.&lt;/strong&gt; Called a fluorescein (flooh-RES-een) dye disappearance test, this test measures how quickly your tears are draining. One drop of a special dye is placed in each eye. If there&apos;s still a significant amount of dye in your eye after five minutes of normal blinking, you may have a blocked tear duct.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Irrigation and probing.&lt;/strong&gt; Your doctor may flush a saline solution through your tear drainage system to check how it&apos;s draining, or use a slender instrument (probe) inserted through the tiny drainage holes at the corner of your lid (puncta) to check for blockages. During this probing, the puncta usually dilates and if the problem is simply a narrowed puncta, this procedure may resolve the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye imaging tests.&lt;/strong&gt; Tests include dacryocystography (DAK-rye-oh-sis-tog-ruh-fee) or dacryoscintigraphy (DAK-rye-oh-sin-tig-ruh-fee). For these procedures, a contrast dye is passed from the puncta in the corner of your lid through your tear drainage system. Then, X-ray, computerized tomography (CT) or magnetic resonance imaging (MRI) images are taken to find the location and cause of the blockage.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of your blocked tear duct will determine which treatment is right for you. Sometimes, more than one treatment or procedure is needed before a blocked tear duct is completely corrected. 
+&lt;/p&gt;
+&lt;p&gt;
+If an infection is suspected, your doctor will likely prescribe antibiotic eyedrops. 
+&lt;/p&gt;
+&lt;p&gt;
+If a tumor is causing your blocked tear duct, treatment will focus on the cause of the tumor. Surgery may be performed to remove the tumor, or your doctor may recommend using other treatments to shrink it. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment options for nontumor-blocked tear ducts vary from simple observation to surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Conservative treatment&lt;br /&gt;
+&lt;/strong&gt;Many babies that are born with a blocked tear duct will get better without any treatment. This can happen as the drainage system matures during the first few months of life. It can also happen when the extra membrane in the nasolacrimal duct opens up. 
+&lt;/p&gt;
+&lt;p&gt;
+If your baby&apos;s blocked tear duct isn&apos;t improving, his or her doctor may teach you a special massage technique. Done several times a day, this massage can help open up the membrane that&apos;s blocking the flow of tears. 
+&lt;/p&gt;
+&lt;p&gt;
+If you&apos;ve had a facial injury that caused blocked tear ducts, your doctor may suggest conservative treatment. The reason is that as your injury heals, and the swelling goes down, your tear ducts may become unblocked on their own. This usually happens within a few months after the injury. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Minimally invasive treatment&lt;br /&gt;
+&lt;/strong&gt;When infants and toddlers need treatment for a blocked tear duct, minimally invasive options are often used. These procedures can also be effective for adults with narrowing of the puncta, or for those who have a partially blocked duct. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Dilation, probing and irrigation.&lt;/strong&gt; This technique works to open congenital blocked tear ducts in most infants. The procedure may be done using general anesthesia in very young babies.
+	&lt;/p&gt;
+	&lt;p&gt;
+	First, the doctor enlarges the punctal openings with a special dilation instrument, and then a thin probe is inserted through the puncta and into the tear drainage system. The doctor threads the probe all the way out through the nasal opening, sometimes causing a popping noise as the probe pierces through the extra membrane. The probe is removed, and the tear drainage system is flushed with a saline solution to remove any remaining blockage. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	For adults with partially narrowed puncta, a similar procedure may be done in the doctor&apos;s office. The tear ducts are flushed and irrigated while the puncta are dilated. If the problem is related solely to a partial narrowing of the punctal opening, this procedure will often provide temporary relief, at least. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Antibiotic eyedrops may be prescribed for any infections. If irrigation and dilation doesn&apos;t work, or if the beneficial effects of the dilation are only temporary, surgery may be necessary to open narrowed puncta. Sometimes, a small incision at the punctal opening may be all that&apos;s necessary. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Balloon catheter dilation.&lt;/strong&gt; If your tear ducts are blocked by scarring, inflammation and other acquired conditions, balloon catheter dilation can help open up your blockage. The procedure is done using general anesthesia, and then a tube (catheter) with a deflated balloon on the tip is threaded through the lower nasolacrimal duct in your nose.
+	&lt;/p&gt;
+	&lt;p&gt;
+	A pump is used to inflate and deflate the balloon a few times, sometimes moving it to different locations along the drainage system. This procedure is more effective for infants and toddlers, but also may be used in adults with partial blockage. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stenting or intubation.&lt;/strong&gt; This procedure is usually done using general anesthesia. A thin tube, made of silicone or polyurethane, is threaded through one or both puncta in the corner of your eyelid. These tubes then pass through the tear drainage system into your nose. A small loop of tubing will stay visible in the corner of your eye, and the tubes are generally left in for about three months before they&apos;re removed. Possible complications include inflammation from the presence of the tube.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;Surgery is usually recommended for older children and adults who need treatment. Surgery is also an option for infants and toddlers who haven&apos;t been successfully treated with less invasive methods. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgery that&apos;s commonly used to treat blocked tear ducts is called dacryocystorhinostomy (DAK-rye-oh-sis-toe-rye-nohs-tuh-me). This procedure reconstructs the passageway for tears to drain out through your nose normally again. First, you&apos;re given a general anesthetic, or a local anesthetic if it&apos;s performed as an outpatient procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+The surgeon accesses your tear drainage system, and then creates a new, direct connection between your lacrimal sac and your nose. This new route bypasses the duct that empties into your nose (nasolacrimal duct), which is the most common site of blockage. Stents or intubation typically are placed in the new route while healing occurs, and they are usually removed about three months after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+The steps in this procedure vary, depending on the exact location and extent of your blockage, as well as your surgeon&apos;s experience and preferences. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;External.&lt;/strong&gt; An external dacryocystorhinostomy is a commonly used surgical method of opening a blocked tear duct. While you&apos;re under general anesthesia, your surgeon makes an incision on the side of your nose, near where the lacrimal sac is located. After connecting the lacrimal sac to your nasal cavity and placing a stent in the new passageway, the surgeon closes up the skin incision with a few stitches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endoscopic or endonasal.&lt;/strong&gt; The same bypass procedure can be performed using endoscopic instruments. Instead of making an incision, the surgeon uses a microscopic camera and other tiny instruments inserted through the nasal opening to your duct system. Sometimes, a fiber-optic light is inserted into your puncta to illuminate the surgical area. The benefits of this method are that there&apos;s no incision and no scar. The drawbacks are that it requires a surgeon with special training, and the success rates aren&apos;t as high as with the external procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bypassing the entire lacrimal duct system.&lt;/strong&gt; Depending on the type of blockage, your surgeon may recommend a reconstruction of your entire tear drainage system (conjunctivodacryocystorhinostomy). Instead of creating a new channel from the lacrimal sac to your nose, the surgeon creates a new route from the conjunctiva near the inside corner of your eyes to your nose, bypassing the tear drainage system altogether.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Following surgery for a blocked tear duct, you&apos;ll use a nasal decongestant spray as well as topical eyedrops to prevent infection and reduce postoperative inflammation. After three to six months, you&apos;ll return for removal of any stents used to keep the new channel open during the healing process. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no known way to prevent a congenital blocked tear duct. To reduce your risk of developing a blocked tear duct later in life, be sure you get prompt treatment of eye inflammation or infections. Follow these tips to avoid eye infections in the first place: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid contact with children and adults who have pink eye (conjunctivitis).&lt;/li&gt;
+	&lt;li&gt;Wash your hands thoroughly and often.&lt;/li&gt;
+	&lt;li&gt;Try not to rub your eyes.&lt;/li&gt;
+	&lt;li&gt;Replace your eyeliner and mascara regularly, and never share these cosmetics with others.&lt;/li&gt;
+	&lt;li&gt;If you wear contact lenses, keep them clean according to recommendations provided by the manufacturer and your eye care specialist.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blocked tear duct
+	</Title>
+	<Abstract>
+		Blocked tear duct &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this eye disorder.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

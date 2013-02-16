@@ -1,0 +1,413 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00301
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stomach-cancer/DS00301
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-09
+		</UpdateDate>
+		<PublicationDate>
+			2001-03-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2255" Title="Stomach cancer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4545F9D7-17A0-4275-9C296401969A8E11
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stomach cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				stomach pain
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				abdominal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				peptic ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				Helicobacter pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				H. pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				h pylori
+			</MetaKeyword>
+			<MetaKeyword>
+				Gleevec
+			</MetaKeyword>
+			<MetaKeyword>
+				Gleevac
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stomach cancer is cancer that occurs in the stomach &amp;mdash; the muscular sac located in the upper middle of your abdomen, just below your ribs. Your stomach receives and holds the food you eat and then helps to break down and digest it. 
+&lt;/p&gt;
+&lt;p&gt;
+Another term for stomach cancer is gastric cancer. These two terms most often refer to stomach cancer that begins in the mucus-producing cells on the inside lining of the stomach (adenocarcinoma). Adenocarcinoma is the most common type of stomach cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Stomach cancer is uncommon in the United States, and the number of people diagnosed with the disease each year is declining. Stomach cancer is much more common in other areas of the world, particularly Japan. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of stomach cancer 
+" Caption="Stomach cancer most commonly begins in the cells that line the inside of the stomach. 
+" Height="60" Title="Stomach cancer" URI="/images/image_popup/thumbs/c7_stomach_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of stomach cancer 
+" Caption="Stomach cancer most commonly begins in the cells that line the inside of the stomach. 
+" Height="360" Title="Stomach cancer" URI="/images/image_popup/c7_stomach_cancer.jpg" Width="400" />
+				<HTML>
+					Stomach cancer most commonly begins in the cells that line the inside of the stomach. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of stomach cancer may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Feeling bloated after eating&lt;/li&gt;
+	&lt;li&gt;Feeling full after eating little&lt;/li&gt;
+	&lt;li&gt;Heartburn&lt;/li&gt;
+	&lt;li&gt;Indigestion&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Stomach pain&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+If you have signs and symptoms that worry you, make an appointment with your doctor. Your doctor will likely investigate more common causes of these signs and symptoms first. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors aren&apos;t sure what causes stomach cancer. There is a strong correlation between a diet high in smoked, salted and pickled foods and stomach cancer. As the use of refrigeration for preserving foods has increased around the world, the rates of stomach cancer have declined. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, cancer begins when an error (mutation) occurs in a cell&apos;s DNA. The mutation causes the cell to grow and divide at a rapid rate and to continue living when normal cells would die. The accumulating cancerous cells form a tumor that can invade nearby structures. And cancer cells can break off from the tumor to spread throughout the body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of stomach cancer&lt;/strong&gt; &lt;br /&gt;
+The cells that form the tumor determine the type of stomach cancer. The type of cells in your stomach cancer helps determine your treatment options. Types of stomach cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in the glandular cells (adenocarcinoma).&lt;/strong&gt; The glandular cells that line the inside of the stomach secrete a protective layer of mucus to shield the lining of the stomach from the acidic digestive juices. Adenocarcinoma accounts for the great majority of all stomach cancers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in immune system cells (lymphoma).&lt;/strong&gt; The walls of the stomach contain a small number of immune system cells that can develop cancer. Lymphoma in the stomach is rare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in hormone-producing cells (carcinoid cancer).&lt;/strong&gt; Hormone-producing cells can develop carcinoid cancer. Carcinoid cancer in the stomach is rare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in nervous system tissues.&lt;/strong&gt; A gastrointestinal stromal tumor (GIST) begins in specific nervous system cells found in your stomach. GIST is a rare form of stomach cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because the other types of stomach cancer are rare, when people use the term &quot;stomach cancer&quot; they generally are referring to adenocarcinoma. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="60" Title="Stomach and pyloric valve" URI="/images/image_popup/thumbs/r7_pyloricvalvethu.jpg" Width="60" />
+				<Image Alt="Illustration of pyloric valve, stomach and upper part of small intestine (duodenum) 
+" Caption="Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular contractions (peristaltic waves) push the food toward the pyloric valve, which leads to the upper portion of your small intestine (duodenum). 
+" Height="300" Title="Stomach and pyloric valve" URI="/images/image_popup/r7_pyloricvalve.jpg" Width="400" />
+				<HTML>
+					Your stomach is a muscular sac about the size of a small melon that expands when you eat or drink to hold as much as a gallon of food or liquid. Once your stomach pulverizes the food, strong muscular ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of stomach cancer 
+" Caption="Stomach cancer most commonly begins in the cells that line the inside of the stomach. 
+" Height="60" Title="Stomach cancer" URI="/images/image_popup/thumbs/c7_stomach_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of stomach cancer 
+" Caption="Stomach cancer most commonly begins in the cells that line the inside of the stomach. 
+" Height="360" Title="Stomach cancer" URI="/images/image_popup/c7_stomach_cancer.jpg" Width="400" />
+				<HTML>
+					Stomach cancer most commonly begins in the cells that line the inside of the stomach. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that increase your risk of stomach cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A diet high in salty and smoked foods&lt;/li&gt;
+	&lt;li&gt;A diet low in fruits and vegetables&lt;/li&gt;
+	&lt;li&gt;Eating foods contaminated with aflatoxin fungus&lt;/li&gt;
+	&lt;li&gt;Family history of stomach cancer&lt;/li&gt;
+	&lt;li&gt;Infection with Helicobacter pylori&lt;/li&gt;
+	&lt;li&gt;Long-term stomach inflammation (chronic gastritis)&lt;/li&gt;
+	&lt;li&gt;Pernicious anemia&lt;/li&gt;
+	&lt;li&gt;Smoking&lt;/li&gt;
+	&lt;li&gt;Stomach polyps&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have signs or symptoms that worry you. If your doctor suspects you may have a stomach problem, you may be referred to a doctor who specializes in gastrointestinal diseases (gastroenterologist). Once stomach cancer is diagnosed you may be referred to a cancer specialist (oncologist) or a surgeon who specializes in operating on the digestive tract. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note what seems to improve or worsen your signs and symptoms.&lt;/strong&gt; Keep track of which foods, medications or other factors influence your signs and symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For stomach cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What type of stomach cancer do I have?&lt;/li&gt;
+	&lt;li&gt;How advanced is my stomach cancer?&lt;/li&gt;
+	&lt;li&gt;What other kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;How successful are the treatments?&lt;/li&gt;
+	&lt;li&gt;What are the benefits and risks of each option?&lt;/li&gt;
+	&lt;li&gt;Is there one option you feel is best for me?&lt;/li&gt;
+	&lt;li&gt;How will treatment affect my life? Can I continue to work?&lt;/li&gt;
+	&lt;li&gt;Should I seek a second opinion? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose stomach cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A tiny camera to see inside your stomach (upper endoscopy).&lt;/strong&gt; A thin tube containing a tiny camera is passed down your throat and into your stomach. Your doctor can look for signs of cancer. If any suspicious areas are found, a piece of tissue can be collected for analysis (biopsy).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Imaging tests used to look for stomach cancer include computerized tomography (CT) and a special type of X-ray exam sometimes called a barium swallow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Determining the extent (stage) of stomach cancer&lt;/strong&gt; &lt;br /&gt;
+The stage of your stomach cancer helps your doctor decide which treatments may be best for you. Tests and procedures used to determine the stage of cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Tests may include CT, positron emission tomography (PET) and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exploratory surgery.&lt;/strong&gt; Your doctor may recommend surgery to look for signs that your cancer has spread beyond your stomach within your abdomen. Exploratory surgery is usually done laparoscopically. This means the surgeon makes several small incisions in your abdomen and inserts a special camera that transmits images to a monitor in the operating room.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other staging tests may be used, depending on your situation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stages of stomach cancer&lt;/strong&gt; &lt;br /&gt;
+The stages of adenocarcinoma stomach cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage I.&lt;/strong&gt; At this stage, the tumor is limited to the layer of tissue that lines the inside of the stomach. Cancer cells may also have spread to a limited number of nearby lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; The cancer at this stage has spread deeper, growing into the muscle layer of the stomach wall. Cancer may also have spread to more of the lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; At this stage, the cancer may have grown through all the layers of the stomach. Or it may be a smaller cancer that has spread more extensively to the lymph nodes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; This stage of cancer extends beyond the stomach, growing into nearby structures. Or it is a smaller cancer that has spread to distant areas of the body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="60" Title="Endoscopy" URI="/images/image_popup/thumbs/mcdc7_endoscopythu.jpg" Width="60" />
+				<Image Alt="Illustration showing endoscopy 
+" Caption="An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your esophagus, stomach and the beginning of your small intestine (duodenum). 
+" Height="475" Title="Endoscopy" URI="/images/image_popup/mcdc7_endoscopy.jpg" Width="400" />
+				<HTML>
+					An upper endoscopy procedure involves inserting a long, flexible tube (endoscope) down your throat and into your esophagus. A tiny camera on the end of the endoscope lets your doctor examine your ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your treatment options for stomach cancer depend on the stage of your cancer, your overall health and your preferences. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+The goal of surgery is to remove all of the stomach cancer and a margin of healthy tissue, when possible. Options include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Removing early-stage tumors from the stomach lining.&lt;/strong&gt; Very small cancers limited to the inside lining of the stomach may be removed using endoscopy in a procedure called endoscopic mucosal resection. The endoscope is a lighted tube with a camera that&apos;s passed down your throat into your stomach. The doctor uses special tools to remove the cancer and a margin of healthy tissue from the stomach lining.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a portion of the stomach (subtotal gastrectomy).&lt;/strong&gt; During subtotal gastrectomy, the surgeon removes only the portion of the stomach affected by cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing the entire stomach (total gastrectomy).&lt;/strong&gt; Total gastrectomy involves removing the entire stomach and some surrounding tissue. The esophagus is then connected directly to the small intestine to allow food to move through your digestive system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing lymph nodes to look for cancer.&lt;/strong&gt; The surgeon examines and removes lymph nodes in your abdomen to look for cancer cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to relieve signs and symptoms.&lt;/strong&gt; Removing part of the stomach may relieve signs and symptoms of a growing tumor in people with advanced stomach cancer. In this case, surgery can&apos;t cure stomach cancer, but it can make you more comfortable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Surgery carries a risk of bleeding and infection. If all or part of your stomach is removed, you may experience digestive problems. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation therapy&lt;/strong&gt; &lt;br /&gt;
+Radiation therapy uses high-powered beams of energy, such as X-rays, to kill cancer cells. The energy beams come from a machine that moves around you as you lie on a table. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy can be used before surgery (neoadjuvant radiation) to shrink a stomach tumor so it&apos;s more easily removed. Radiation therapy can also be used after surgery (adjuvant radiation) to kill any cancer cells that might remain around your stomach. Radiation is often combined with chemotherapy. In cases of advanced cancer, radiation therapy may be used to relieve side effects caused by a large tumor. 
+&lt;/p&gt;
+&lt;p&gt;
+Radiation therapy to your stomach can cause diarrhea, indigestion, nausea and vomiting. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt; &lt;br /&gt;
+Chemotherapy is a drug treatment that uses chemicals to kill cancer cells. Chemotherapy drugs travel throughout your body, killing cancer cells that may have spread beyond the stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy can be given before surgery (neoadjuvant chemotherapy) to help shrink a tumor so it can be more easily removed. Chemotherapy is also used after surgery (adjuvant chemotherapy) to kill any cancer cells that might remain in the body. Chemotherapy is often combined with radiation therapy. Chemotherapy may be used alone in people with advanced stomach cancer to help relieve signs and symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy may be the only treatment used in people with rare forms of stomach cancer, such as gastric lymphoma and gastrointestinal stromal tumors. 
+&lt;/p&gt;
+&lt;p&gt;
+Chemotherapy side effects depend on which drugs are used. The type of stomach cancer you have determines which chemotherapy drugs you&apos;ll receive. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Targeted drugs&lt;/strong&gt; &lt;br /&gt;
+Targeted therapy uses drugs that attack specific abnormalities within cancer cells. Targeted drugs are used to treat a rare form of stomach cancer called gastrointestinal stromal tumor. Targeted drugs used to treat this cancer include imatinib (Gleevec) and sunitinib (Sutent). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Clinical trials&lt;/strong&gt; &lt;br /&gt;
+Clinical trials are studies of new treatments and new ways of using existing treatments. Participating in a clinical trial may give you a chance to try the latest treatments. But clinical trials can&apos;t guarantee a cure. In some cases, researchers might not be certain of a new treatment&apos;s side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor whether you may be eligible for a clinical trial. Together you can discuss the benefits and risks. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A cancer diagnosis can be overwhelming and frightening. Once you start to adjust after the initial shock of your diagnosis, you may find it helps to stay focused on tasks that help you cope. For example, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn enough about stomach cancer to make decisions about your care.&lt;/strong&gt; Ask your doctor to write down the details of your cancer &amp;mdash; the type, stage and your treatment options. Use those details to find more information about stomach cancer and the benefits and risks of each treatment option. Good sources of information include the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get involved in your treatment decisions.&lt;/strong&gt; Take an active role in your treatment decisions. Discuss your concerns and preferences about treatments with your doctor. Together you can decide what treatments are best for you. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Connect with other cancer survivors.&lt;/strong&gt; Sometimes it feels as if people who don&apos;t have cancer can&apos;t understand what you&apos;re going through. At those times, it may help to turn to other cancer survivors for support. Ask your doctor about support groups in your area. Or go online and connect with cancer survivors on message boards, such as those run by the American Cancer Society. You may also find that you develop deep and lasting bonds with people who are going through the same things you are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. You may not be able to work a 40-hour week, for example, but you may be able to work part time. In fact, many people find that continuing to work can be helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, plan ahead for the downtimes when you may need to rest more or limit what you do.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay active.&lt;/strong&gt; Being diagnosed with cancer doesn&apos;t mean you have to stop doing the things you enjoy or normally do. For the most part, if you feel well enough to do something, go ahead and do it. Stay involved as much as you can.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes stomach cancer, so there&apos;s no way to prevent it. But you can take steps to reduce your risk of stomach cancer by making small changes to your everyday life. For instance, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Eat more fruits and vegetables.&lt;/strong&gt; Try to incorporate more fruits and vegetables into your diet each day. Choose a wide variety of colorful fruits and vegetables.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce the amount of salty and smoked foods you eat.&lt;/strong&gt; Protect your stomach by limiting these foods. Experiment with herbs and other ways of flavoring foods that don&apos;t add sodium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you smoke, quit. If you don&apos;t smoke, don&apos;t start. Smoking increases your risk of stomach cancer, as well as many other types of cancer. Quitting smoking can be very difficult, so ask your doctor for help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask your doctor about your risk of stomach cancer.&lt;/strong&gt; Some medical conditions increase your risk of stomach cancer, such as anemia, gastritis and stomach polyps. If you&apos;ve been diagnosed with one of these conditions, ask your doctor how this affects your stomach cancer risk. Together you may consider periodic endoscopy to look for signs of stomach cancer. There are no guidelines to determine who should undergo screening for stomach cancer in the United States. But in some cases, you and your doctor may decide your risk is high enough that the benefits of screening outweigh the potential risks.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stomach cancer
+	</Title>
+	<Abstract>
+		Stomach cancer &amp;mdash; Comprehensive overview covers signs, symptoms, causes and treatment of gastric cancer.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00958" LinkType="Internal" ObjectID="EFE8F24E-E7FF-0DBD-16E3807063685CFC" Title="H. pylori infection" Url="http://www.mayoclinic.com/health/h-pylori/DS00958" />
+	</RelatedLinksBox>
+</Disease>

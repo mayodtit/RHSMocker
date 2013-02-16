@@ -1,0 +1,187 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00128
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/fetal-fibronectin/MY00128
+		</OriginalURL>
+		<UpdateDate>
+			2010-06-30
+		</UpdateDate>
+		<PublicationDate>
+			2008-07-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="4006" Title="Fetal fibronectin test" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C58A66A8-E7FF-0DBD-187E5B72D0162C2C
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				fetal fibronectin
+			</MetaKeyword>
+			<MetaKeyword>
+				fibronectin
+			</MetaKeyword>
+			<MetaKeyword>
+				fetal fibronectin test
+			</MetaKeyword>
+			<MetaKeyword>
+				preterm labor
+			</MetaKeyword>
+			<MetaKeyword>
+				premature labor
+			</MetaKeyword>
+			<MetaKeyword>
+				preterm birth
+			</MetaKeyword>
+			<MetaKeyword>
+				premature birth
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Fetal fibronectin is a protein that acts as a &quot;glue&quot; during pregnancy, attaching the amniotic sac &amp;mdash; the fluid-filled membrane that cushions your baby in the uterus &amp;mdash; to the lining of the uterus.
+&lt;/p&gt;
+&lt;p&gt;
+Fetal fibronectin is often present in cervical secretions during early pregnancy. Fetal fibronectin also shows up later in pregnancy, about one to three weeks before labor begins. If your health care provider is concerned about preterm labor, he or she may test a swab from your cervical canal for the presence of fetal fibronectin. A positive fetal fibronectin test is a clue that the &quot;glue&quot; has been disturbed and you&apos;re at increased risk of preterm labor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The fetal fibronectin test is used to rule out preterm labor. It&apos;s generally not useful for women who are at low risk of preterm labor, but it can provide valuable information for women who have signs or symptoms of preterm labor or those who are at high risk of preterm labor. 
+&lt;/p&gt;
+&lt;p&gt;
+If the fetal fibronectin test is positive, your health care provider may take steps to address premature birth &amp;mdash; such as prescribing medication to enhance the baby&apos;s lung maturity. If the fetal fibronectin test is negative, you can be assured that your pregnancy is likely to continue for at least another week. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The fetal fibronectin test is a simple procedure. The test poses no risk of miscarriage or other pregnancy complications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You don&apos;t need to do anything special to prepare for the fetal fibronectin test. It&apos;s best to avoid having sex for 24 hours before the test, however. 
+&lt;/p&gt;
+&lt;p&gt;
+If you experience vaginal bleeding, the fetal fibronectin test will likely be postponed. If the amniotic sac ruptures &amp;mdash; your water breaks &amp;mdash; the test will likely be canceled. The amniotic sac is a fluid-filled membrane that cushions your baby in the uterus. If the sac is no longer intact, labor and delivery are inevitable &amp;mdash; even if your baby isn&apos;t full term. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the fetal fibronectin test, you&apos;ll lie on your back on an exam table. Your health care provider will place a speculum in your vagina and use a cotton swab to gently swipe the cervical canal. The sample will be sent to a lab for analysis. Results are typically available within less than 24 hours. 
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, a vaginal ultrasound is done after the cervical sample is taken. During the ultrasound, you&apos;ll lie on your back. Your health care provider or technician will place a slender, wand-like device in your vagina to send out sound waves and gather the reflections. The reflected sound waves will be digitally converted into images on a monitor. Your health care provider or technician will use these images to measure the length of your cervix, which often decreases before labor begins. The ultrasound can also help your health care provider or technician assess your baby&apos;s size, age and position. 
+&lt;/p&gt;
+&lt;p&gt;
+The ultrasound may take up to an hour. It doesn&apos;t hurt, and you can return to your usual activities immediately &amp;mdash; although your health care provider may recommend rest or other treatments if preterm labor is a concern. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Results of the fetal fibronectin test are either positive or negative: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Positive.&lt;/strong&gt; A positive result means that fetal fibronectin is present. If you have a positive result between weeks 24 and 34, you&apos;re at increased risk of preterm labor. Your health care provider may suggest rest or a brief course of medication to help prevent preterm labor. You may also be given an injection of potent steroids to speed your baby&apos;s lung maturity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Negative.&lt;/strong&gt; A negative result means that fetal fibronection isn&apos;t present. This indicates that your pregnancy is likely to continue for at least another week. In fact, a negative result may be the most powerful benefit of the test &amp;mdash; allowing you and your health care provider to relax a bit with the knowledge that a premature birth isn&apos;t imminent. Even so, your health care provider may encourage you to rest to help prevent preterm labor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Whether your test results are positive or negative, remember that prompt recognition of preterm labor may help you prevent premature birth. Warning signs include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Regular or frequent contractions (You&apos;ll feel a tightening sensation in your abdomen, often reminiscent of menstrual cramps.) &lt;/li&gt;
+	&lt;li&gt;Low, dull backache&lt;/li&gt;
+	&lt;li&gt;Pelvic pressure or pain&lt;/li&gt;
+	&lt;li&gt;Vaginal spotting or bleeding&lt;/li&gt;
+	&lt;li&gt;Watery vaginal discharge (This may be amniotic fluid, which surrounds your baby in the uterus.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re concerned about what you&apos;re feeling, contact your health care provider. Don&apos;t worry about mistaking false labor for the real thing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Fetal fibronectin test
+	</Title>
+	<Abstract>
+		Fetal fibronectin test &amp;mdash; Overview covers risks, results of testing to rule out preterm labor.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00137" LinkType="Internal" ObjectID="DB81ABF4-378D-453B-AFD7BF32AD6F01E7" Title="Premature birth" Url="http://www.mayoclinic.com/health/premature-birth/DS00137" />
+	</RelatedLinksBox>
+</TestProcedure>

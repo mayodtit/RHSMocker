@@ -1,0 +1,144 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01238
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/infectious-disease/AN01238
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-08
+		</UpdateDate>
+		<PublicationDate>
+			2005-12-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="1092" Title="Diseases and conditions">
+					<Keyword MCVID="1227" Title="Prevention">
+						<Keyword MCVID="1230" Title="Lifestyle prevention" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3186" Title="Cold and flu">
+						<Keyword MCVID="1594" Title="Influenza" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			35958F8C-2A5D-9994-E6DBF7EFD2A7FF7D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				infectious disease
+			</MetaKeyword>
+			<MetaKeyword>
+				germs
+			</MetaKeyword>
+			<MetaKeyword>
+				common cold
+			</MetaKeyword>
+			<MetaKeyword>
+				flu
+			</MetaKeyword>
+			<MetaKeyword>
+				influenza
+			</MetaKeyword>
+			<MetaKeyword>
+				flu virus
+			</MetaKeyword>
+			<MetaKeyword>
+				cold virus
+			</MetaKeyword>
+			<MetaKeyword>
+				flu germs
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+It varies, depending partly on where the germ-laden droplets fall. Experiments with specific cold and flu germs have shown potential survival times ranging from a few minutes to 48 hours or more. How long such germs remain capable of infecting you in day-to-day life is harder to say. 
+&lt;/p&gt;
+&lt;p&gt;
+Germs generally remain active longer on stainless steel, plastic and similar hard surfaces than on fabric and other soft surfaces. Other factors, such as the amount of virus deposited on a surface and the temperature and humidity of the environment, also have effects on how long cold and flu germs stay active outside the body. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s easy to catch the flu or a cold from rubbing your nose after handling an object an infected person sneezed on a few moments ago. But personal contact with an infected person &amp;mdash; a handshake, for example &amp;mdash; is the most common way these germs spread. 
+&lt;/p&gt;
+&lt;p&gt;
+The best way to avoid becoming infected with a cold or flu virus is to wash your hands frequently with soap and water or with an alcohol-based sanitizer. Also avoid rubbing your eyes or biting your nails. Most importantly &amp;mdash; get a flu vaccine every year. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Flu germs: How long can they live outside the body?
+	</Title>
+	<Abstract>
+		Flu germs are more resilient than you may think. Learn how to protect yourself.
+	</Abstract>
+	<Question>
+		How long do cold and flu germs stay alive after infected people cough and sneeze all over everything?
+	</Question>
+	<QuestionFirstName>
+		Joe
+	</QuestionFirstName>
+	<QuestionState>
+		New Jersey
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02035" LinkType="Internal" ObjectID="DE56047D-E433-C93E-10ADFA3ED4A40D05" Title="Flu mask: Should I wear one?" Url="http://www.mayoclinic.com/health/flu-mask/AN02035" />
+		<LinkItem ContentType="Answer" DocID="AN02034" LinkType="Internal" ObjectID="DE53A8C6-016A-7AA9-C1D8D5A0B27014B5" Title="Flu symptoms: Self-care for the flu" Url="http://www.mayoclinic.com/health/swine-flu-symptoms/AN02034" />
+		<LinkItem ContentType="Answer" DocID="AN02033" LinkType="Internal" ObjectID="C9C8E8ED-C14F-ECCE-A9DCBC0BDECF2608" Title="Flu vaccine: Safe for people with egg allergy?" Url="http://www.mayoclinic.com/health/flu-vaccine-egg-allergy/AN02033" />
+		<LinkItem ContentType="Answer" DocID="AN02041" LinkType="Internal" ObjectID="B659EB88-09E2-708B-ED5C810B3C72C0DB" Title="What&apos;s the difference between H1N1 flu and influenza A?" Url="http://www.mayoclinic.com/health/influenza-a/AN02041" />
+		<LinkItem ContentType="Article" DocID="MY00675" LinkType="Internal" ObjectID="ED89FA7E-E747-57F6-4AC2FB8C523175DF" Title="H1N1 flu (swine flu): What&apos;s happening now" Url="http://www.mayoclinic.com/health/swine-flu/MY00675" />
+		<LinkItem ContentType="Disease" DocID="DS01144" LinkType="Internal" ObjectID="ED85EF12-D20D-C00F-95E27F2334B0258D" Title="Swine flu (H1N1 flu)" Url="http://www.mayoclinic.com/health/swine-flu/DS01144" />
+		<LinkItem ContentType="Disease" DocID="DS00566" LinkType="Internal" ObjectID="38B600EE-82BE-425D-A857F9E9F51D69E6" Title="Bird flu (avian influenza)" Url="http://www.mayoclinic.com/health/bird-flu/DS00566" />
+		<LinkItem ContentType="Table" DocID="ID00052" LinkType="Internal" ObjectID="D4B6C0FD-E7FF-0DBD-1A596B7BF40D94B8" Title="Fever treatment: Quick guide to treating a fever" Url="http://www.mayoclinic.com/health/fever/ID00052" />
+		<LinkItem ContentType="Answer" DocID="AN02177" LinkType="Internal" ObjectID="A0AD14E9-9C6D-449F-29F7CA3E69C8F2BC" Title="Flu and pregnancy: Is antiviral medication safe?" Url="http://www.mayoclinic.com/health/flu-and-pregnancy/AN02177" />
+		<LinkItem ContentType="Answer" DocID="AN02128" LinkType="Internal" ObjectID="7E32257A-A073-9C8B-5F7162F4290FBB80" Title="Immunization: Are you immune to a disease?" Url="http://www.mayoclinic.com/health/immunization/AN02128" />
+		<LinkItem ContentType="Article" DocID="MY01188" LinkType="Internal" ObjectID="9A8F3BED-FC98-D869-5DAFFE4A5674122A" Title="Vaccines for adults: Which do you need?" Url="http://www.mayoclinic.com/health/vaccines/MY01188" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="SelfAssessment" DocID="FU00013" LinkType="Internal" ObjectID="491D1E3C-E7FF-0DBD-1F7CA70710272614" Title="Flu symptoms self-assessment: Do you have the flu?" Url="http://www.mayoclinic.com/health/flu-symptoms/FU00013" />
+		<LinkItem ContentType="Disease" DocID="DS00031" LinkType="Internal" ObjectID="FFA2CF6E-5489-4E06-A01B9DFB1B4E2351" Title="Bronchitis" Url="http://www.mayoclinic.com/health/bronchitis/DS00031" />
+		<LinkItem ContentType="Disease" DocID="DS00021" LinkType="Internal" ObjectID="E05029A1-9E99-427B-BE47BA91B7BD70B5" Title="Asthma" Url="http://www.mayoclinic.com/health/asthma/DS00021" />
+		<LinkItem ContentType="Disease" DocID="DS00526" LinkType="Internal" ObjectID="D696BD57-F78D-4F57-824FC3F836303920" Title="Sore throat" Url="http://www.mayoclinic.com/health/sore-throat/DS00526" />
+		<LinkItem ContentType="Disease" DocID="DS01145" LinkType="Internal" ObjectID="3AADF8D0-E751-519F-5B5C31B033C8D324" Title="Infectious diseases" Url="http://www.mayoclinic.com/health/infectious-diseases/DS01145" />
+		<LinkItem ContentType="Article" DocID="ID00017" LinkType="Internal" ObjectID="DF0C9B47-E104-40E7-99D4923ED6D7FD1E" Title="Flu shot: Your best bet for avoiding influenza" Url="http://www.mayoclinic.com/health/flu-shots/ID00017" />
+		<LinkItem ContentType="Disease" DocID="DS00081" LinkType="Internal" ObjectID="5CB89570-8B46-4961-8BFE66D06D5BDD1B" Title="Influenza (flu)" Url="http://www.mayoclinic.com/health/influenza/DS00081" />
+	</RelatedLinksBox>
+</Answer>

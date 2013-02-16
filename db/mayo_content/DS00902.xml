@@ -1,0 +1,295 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00902
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/swimmers-itch/DS00902
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-03
+		</UpdateDate>
+		<PublicationDate>
+			2007-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2167" Title="Skin infection">
+						<Keyword MCVID="3003" Title="Parasitic skin infections">
+							<Keyword MCVID="3166" Title="Swimmers&apos; itch" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="3274" Title="Seasonal">
+					<Keyword MCVID="3276" Title="Summer" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3956D1E2-E7FF-0DBD-165C7A576655259A
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				swimmers&apos; itch
+			</MetaKeyword>
+			<MetaKeyword>
+				swimmer&apos;s itch
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				swimming
+			</MetaKeyword>
+			<MetaKeyword>
+				swimmers itch
+			</MetaKeyword>
+			<MetaKeyword>
+				cercarial dermatitis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s itch is an itchy rash caused by certain parasites that normally live in freshwater snails and sometimes on waterfowl. 
+&lt;/p&gt;
+&lt;p&gt;
+On warm, sunny days, these parasites can be released into mainly fresh water or occasionally salt water. During your swim, the parasites might burrow into your skin, where they cause the swimmer&apos;s itch rash. But humans aren&apos;t suitable hosts for them, so the parasites soon die while still in your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Although uncomfortable, swimmer&apos;s itch is usually short-lived. The rash of swimmer&apos;s itch, also called cercarial dermatitis, typically clears up on its own within a few days. In the meantime, you can control itching with over-the-counter or prescription medications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of swimmer&apos;s itch
+" Caption="Swimmer&apos;s itch is characterized by itchy, red, raised areas on the skin.
+" Height="60" Title="Swimmer&apos;s itch" URI="/images/image_popup/thumbs/sn7_swimmersitchthu.jpg" Width="60" />
+				<Image Alt="Photo of swimmer&apos;s itch
+" Caption="Swimmer&apos;s itch is characterized by itchy, red, raised areas on the skin.
+" Height="400" Title="Swimmer&apos;s itch" URI="/images/image_popup/sn7_swimmersitch.jpg" Width="400" />
+				<HTML>
+					Swimmer&apos;s itch is characterized by itchy, red, raised areas on the skin.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s itch is characterized by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itching that may begin in just an hour or two, or as long as two days after swimming&lt;/li&gt;
+	&lt;li&gt;A red, raised rash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Swimmer&apos;s itch usually affects only exposed skin &amp;mdash; skin not covered by swimsuits, wet suits or waders. The rash may appear up to 48 hours after swimming in infested water, but you may also experience itching without ever developing a rash. If you&apos;re exposed to the same parasites again, the rash might become more severe. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Talk to your doctor if you have a rash after swimming that lasts more than one week. If you notice pus at the rash site, consult your doctor. You might be referred to a doctor who specializes in skin conditions (dermatologist). 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of swimmer&apos;s itch
+" Caption="Swimmer&apos;s itch is characterized by itchy, red, raised areas on the skin.
+" Height="60" Title="Swimmer&apos;s itch" URI="/images/image_popup/thumbs/sn7_swimmersitchthu.jpg" Width="60" />
+				<Image Alt="Photo of swimmer&apos;s itch
+" Caption="Swimmer&apos;s itch is characterized by itchy, red, raised areas on the skin.
+" Height="400" Title="Swimmer&apos;s itch" URI="/images/image_popup/sn7_swimmersitch.jpg" Width="400" />
+				<HTML>
+					Swimmer&apos;s itch is characterized by itchy, red, raised areas on the skin.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The cause of swimmer&apos;s itch is an allergic reaction to parasites that migrate from snails to ducks, geese, gulls, swans, muskrats and beavers. The parasites then return to water through infected feces and eggs. 
+&lt;/p&gt;
+&lt;p&gt;
+Swimmer&apos;s itch isn&apos;t contagious from person to person, so you don&apos;t need to worry about &quot;catching&quot; swimmer&apos;s itch from someone who has this itchy rash. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your risk of swimmer&apos;s itch depends on a number of environmental factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Air and water temperatures that are warm enough for snails to reproduce and grow, such as in the late summer months in many parts of the world&lt;/li&gt;
+	&lt;li&gt;The return of migrating birds infected with parasites&lt;/li&gt;
+	&lt;li&gt;Bodies of water that contain parasites, especially along shorelines and in shallow areas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The more time you spend in infested water, the higher your risk of swimmer&apos;s itch. Children may have the highest risk, since they tend to play in shallow water and are less likely to dry off with a towel. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people are more sensitive to swimmer&apos;s itch than others are. And, your sensitivity can increase each time you&apos;re exposed to the parasites that cause swimmer&apos;s itch. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s itch rarely leads to complications, but infection is possible if you scratch the rash too harshly. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a specialist in skin conditions (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. For swimmer&apos;s itch, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you been swimming or bathing outdoors recently?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing swimmer&apos;s itch can be a challenge, because the rash can resemble other skin problems, such as poison ivy, chickenpox, dermatitis, impetigo or even herpes. There are no specific tests to diagnose swimmer&apos;s itch. Be sure to tell the doctor if your symptoms appeared after swimming or if others developed a similar rash after swimming in the same place. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Swimmer&apos;s itch typically clears up on its own within a few days, though in some cases the rash can last up to a week. In the meantime, you can control itching with over-the-counter antihistamines or anti-itch creams, such as those that contain calamine lotion. If the itching is severe, your doctor may recommend a prescription medication. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As much as you&apos;re tempted, don&apos;t scratch. In addition to a cream or medication to soothe swimmer&apos;s itch, it might help to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cover affected areas with a clean, wet washcloth.&lt;/li&gt;
+	&lt;li&gt;Soak in a bath sprinkled with Epsom salts, baking soda or oatmeal.&lt;/li&gt;
+	&lt;li&gt;Stir water into baking soda until it makes a paste and then apply it to the affected areas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If the itching is intense, ask your doctor about prescription medication to ease your symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To reduce the risk of swimmer&apos;s itch: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose swimming spots carefully.&lt;/strong&gt; Avoid swimming in areas where swimmer&apos;s itch is a known problem or signs warn of possible contamination. Also avoid swimming or wading in marshy areas where snails are commonly found.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid the shoreline, if possible.&lt;/strong&gt; If you&apos;re a strong swimmer, head to deeper water for your swim because you may be more likely to develop swimmer&apos;s itch if you spend a lot of time in shallow water.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rinse after swimming.&lt;/strong&gt; Rinse exposed skin with fresh water immediately after leaving the water, then vigorously dry your skin with a towel. Launder your swimsuits often. You might even alternate wearing different swimsuits.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skip the bread crumbs.&lt;/strong&gt; Don&apos;t feed birds on docks or near swimming areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of your pool.&lt;/strong&gt; If you have a pool, keep it well maintained and chlorinated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There&apos;s no evidence that applying sunscreen, lotions or creams helps prevent swimmer&apos;s itch. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Swimmer&apos;s itch
+	</Title>
+	<Abstract>
+		Swimmer&apos;s itch &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this itchy rash.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="SN00022" LinkType="Internal" ObjectID="A155829D-F206-40AF-B00A396E13377226" Title="Slide show: Poison ivy and other summer skin irritants" Url="http://www.mayoclinic.com/health/poison-ivy/SN00022" />
+	</RelatedLinksBox>
+</Disease>

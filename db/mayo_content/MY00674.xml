@@ -1,0 +1,221 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00674
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/laminectomy/MY00674
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2009-07-09
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3828" Title="Bones joints and muscles">
+						<Keyword MCVID="4139" Title="Surgery">
+							<Keyword MCVID="4155" Title="Laminectomy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E8790835-BF32-DE70-BE0F8A0EE6E5510D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				laminectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				laminectomy surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				lumbar laminectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				decompressive laminectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				laminectomy recovery
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				narrowing of the spine
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal fusion
+			</MetaKeyword>
+			<MetaKeyword>
+				diskectomy
+			</MetaKeyword>
+			<MetaKeyword>
+				spondylolisthesis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laminectomy is surgery to remove the lamina &amp;mdash; the back part of the vertebra that covers your spinal canal. Also known as decompression surgery, laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves.
+&lt;/p&gt;
+&lt;p&gt;
+This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (spinal stenosis) or by a herniated disk. Laminectomy is most commonly performed on the vertebrae in the lower back and in the neck.
+&lt;/p&gt;
+&lt;p&gt;
+Laminectomy is generally used only when more-conservative treatments &amp;mdash; such as medication and physical therapy &amp;mdash; have failed to relieve symptoms. Laminectomy also may be recommended if symptoms are severe or worsening dramatically.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of laminectomy 
+" Caption="Laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves. This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (spinal stenosis) or by a herniated disk. 
+" Height="60" Title="Laminectomy" URI="/images/image_popup/thumbs/mcdc7_lumbar_laminectomythu.jpg" Width="60" />
+				<Image Alt="Illustration of laminectomy 
+" Caption="Laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves. This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (spinal stenosis) or by a herniated disk. 
+" Height="313" Title="Laminectomy" URI="/images/image_popup/mcdc7_lumbar_laminectomy.jpg" Width="400" />
+				<HTML>
+					Laminectomy enlarges your spinal canal to relieve pressure on the spinal cord or nerves. This pressure can be caused by a variety of problems, including bony overgrowths within the spinal canal (...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laminectomy is most commonly performed to relieve the pressure spinal stenosis places on your spinal cord or nerves. This pressure can cause pain, weakness or numbness that can radiate down your arms or legs. Laminectomy is usually better at relieving these types of radiating symptoms than it is at relieving actual back pain.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend laminectomy if:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Conservative treatment, such as medication or physical therapy, fails to improve your symptoms&lt;/li&gt;
+	&lt;li&gt;You have muscle weakness or numbness that makes standing or walking difficult&lt;/li&gt;
+	&lt;li&gt;You experience loss of bowel or bladder control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, laminectomy may be necessary as part of surgery to treat a herniated spinal disk. Your surgeon may need to remove part of the lamina to gain access to the damaged disk.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Laminectomy is generally a safe procedure. But as with any surgery, laminectomy carries a risk of complications.
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infection&lt;/li&gt;
+	&lt;li&gt;Blood clots&lt;/li&gt;
+	&lt;li&gt;Nerve injury&lt;/li&gt;
+	&lt;li&gt;Spinal fluid leak&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may need to avoid eating and drinking for a certain amount of time before surgery. Your doctor will give you specific instructions about the types of medications you should and shouldn&apos;t take before your surgery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During laminectomy&lt;br /&gt;
+&lt;/strong&gt;Surgeons usually perform laminectomy using general anesthesia, so you&apos;re unconscious during the procedure. The surgical team monitors your heart rate, blood pressure and blood oxygen throughout the procedure with a blood pressure cuff on your arm and heart-monitor leads attached to your chest. After you&apos;re unconscious: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The surgeon makes an incision in your back over the affected vertebrae and moves the muscles away from your spine as needed. Small instruments are used to remove the appropriate lamina.&lt;/li&gt;
+	&lt;li&gt;If laminectomy is being performed as part of surgical treatment for a herniated disk, the surgeon also removes the herniated portion of the disk and any pieces that have broken loose (diskectomy).&lt;/li&gt;
+	&lt;li&gt;If one of your vertebrae has slipped over another or if you have curvature of the spine, spinal fusion may be necessary to stabilize your spine. During spinal fusion, the surgeon permanently connects two or more of your vertebrae together using bone grafts and, if necessary, metal rods and screws.&lt;/li&gt;
+	&lt;li&gt;The surgeon closes the incision using staples or stitches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;After laminectomy&lt;br /&gt;
+&lt;/strong&gt;After surgery, you&apos;re moved to a recovery room where the health care team watches for complications from the surgery and anesthesia. You may also be asked to move your arms and legs. Your doctor may prescribe medication to relieve pain at the incision site. You may be most comfortable lying on your side with pillows under your head, behind your back and between your knees.
+&lt;/p&gt;
+&lt;p&gt;
+You might go home the same day as the surgery, although in some cases you may need to stay in the hospital for a few days. Your doctor may recommend physical therapy after a laminectomy to improve your strength and flexibility.
+&lt;/p&gt;
+&lt;p&gt;
+Limit activities that involve lifting, bending and stooping for several weeks after laminectomy. You may also need to avoid long car rides for at least a month. Depending on the amount of lifting, walking and sitting your job involves, you likely will be able to return to work within two to six weeks.
+&lt;/p&gt;
+&lt;p&gt;
+If you also had spinal fusion, your recovery time may be longer. In some cases after laminectomy and spinal fusion, it may be several months before you can return to your normal activities.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people report measurable improvement in their symptoms after laminectomy, but the benefit may lessen over time as the spine continues to age or if there is a recurrence of arthritis. Laminectomy is more likely to improve leg pain caused by a compressed nerve than back pain. Because laminectomy doesn&apos;t stop the process that caused the nerve compression in the first place, symptoms may come back over time.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Laminectomy
+	</Title>
+	<Abstract>
+		Laminectomy &amp;mdash; Overview covers definition, risks, results of a type of spinal decompression surgery.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00100" LinkType="Internal" ObjectID="BC0DF66E-E7FF-0DBD-17A540C98208D9BC" Title="General anesthesia" Url="http://www.mayoclinic.com/health/anesthesia/MY00100" />
+		<LinkItem ContentType="Disease" DocID="DS00893" LinkType="Internal" ObjectID="C4365106-E7FF-0DBD-12B00DF65C5F9CC4" Title="Herniated disk" Url="http://www.mayoclinic.com/health/herniated-disk/DS00893" />
+		<LinkItem ContentType="Disease" DocID="DS00515" LinkType="Internal" ObjectID="87550A09-A5DC-4475-BFE663DE6EAF63F1" Title="Spinal stenosis" Url="http://www.mayoclinic.com/health/spinal-stenosis/DS00515" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,286 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01183
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/hamstring-injury/DS01183
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-05
+		</UpdateDate>
+		<PublicationDate>
+			2010-06-08
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1990" Title="Sprains and strains">
+							<Keyword MCVID="2625" Title="Hamstring injury" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D8445A70-CB2F-4B67-8ED222599BE9D0E1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				hamstring muscle
+			</MetaKeyword>
+			<MetaKeyword>
+				pulled hamstring
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring pull
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring injuries
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring injury
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring pulled muscle
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring pull
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring strain
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring tear
+			</MetaKeyword>
+			<MetaKeyword>
+				hamstring bruise
+			</MetaKeyword>
+			<MetaKeyword>
+				torn hamstring
+			</MetaKeyword>
+			<MetaKeyword>
+				leg injury
+			</MetaKeyword>
+			<MetaKeyword>
+				thigh injury
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hamstring injury occurs when you strain or pull one of your hamstring muscles &amp;mdash; the group of three muscles that run along the back of your thigh.
+&lt;/p&gt;
+&lt;p&gt;
+You may be more likely to get a hamstring injury if you play soccer, basketball, football, tennis or a similar sport that involves sprinting with sudden stops and starts. Hamstring injury can occur in runners and in dancers as well.
+&lt;/p&gt;
+&lt;p&gt;
+Self-care measures such as rest, ice and over-the-counter pain medications are often all you need to relieve the pain and swelling associated with a hamstring injury. Rarely, surgery may be needed to repair a torn muscle.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A hamstring injury typically causes a sudden, sharp pain in the back of your thigh. You might also feel a popping or tearing sensation. Swelling and tenderness usually develop within a few hours. You may also experience bruising or discoloration along the back of your leg, as well as muscle weakness or an inability to put weight on your injured leg.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Mild hamstring strains can be treated at home. But you should see a doctor if you can&apos;t bear any weight on your injured leg or if you can&apos;t walk more than four steps without significant pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The hamstring muscles are a group of three muscles that run along the back of your thigh from your hip to just below your knee. These muscles make it possible to extend your leg straight behind your body and to bend your knee. When any one of these muscles stretches beyond its limit during physical activity, injury can result.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Hamstring injury risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sports participation.&lt;/strong&gt; Sports that require sprinting or running, or other activities such as dancing that might require extreme stretching, make a hamstring injury more likely.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prior hamstring injury.&lt;/strong&gt; After you&apos;ve had one hamstring injury, you&apos;re more likely to have another one, especially if you try to resume all your activities at pre-injury levels of intensity before your muscles have time to heal and rebuild strength.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor flexibility.&lt;/strong&gt; If you have poor flexibility, your muscles may not be able to bear the full force of the action required during certain activities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Muscle imbalance.&lt;/strong&gt; Although not all experts agree, some suggest that a muscle imbalance may lead to hamstring injury. When the muscles along the front of your thigh &amp;mdash; the quadriceps &amp;mdash; become stronger and more developed than your hamstring muscles, you may be more likely to injure your hamstring muscles. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Returning to strenuous activities before your hamstring muscles are completely healed might cause an injury recurrence. In some cases, a recurrent hamstring injury may be more severe than the original injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a doctor who specializes in musculoskeletal medicine, such as someone in sports medicine or orthopedic surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor probably will ask some of the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did the injury occur and how exactly did it happen?&lt;/li&gt;
+	&lt;li&gt;Did you feel a popping or tearing sensation?&lt;/li&gt;
+	&lt;li&gt;Does any particular motion or position ease or worsen the pain? &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will check for swelling and points of tenderness along the back of your thigh. The location and intensity of your pain can help determine the extent and nature of the damage. Your doctor might also move your injured leg into a variety of positions to help pinpoint which muscle has been injured and if you also have any ligament or tendon damage. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;In severe hamstring injuries, the muscle can tear or even detach from where it&apos;s connected to the pelvis or shinbone. Sometimes, a small piece of bone is pulled away (avulsion fracture) from the main bone when this detachment occurs. X-rays can check for avulsion fractures, while ultrasound and MRIs can visualize tears in your muscles and tendons.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The initial goal of treatment is to reduce pain and swelling. To accomplish this, your doctor may recommend that you do the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take a break&lt;/strong&gt; from strenuous activities to allow the injury to heal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a cane or crutches&lt;/strong&gt; to avoiding putting your full weight on your injured leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply ice packs&lt;/strong&gt; several times a day to relieve pain and reduce swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wrap the injured area&lt;/strong&gt; with a compression bandage or wear compression shorts to minimize swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rest with your leg elevated&lt;/strong&gt; above the level of your heart, if possible, to improve drainage and minimize swelling.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an over-the-counter pain medication,&lt;/strong&gt; such as ibuprofen (Advil, Motrin IB, others) or acetaminophen (Tylenol, others), to reduce pain and inflammation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;After the initial pain and swelling of a hamstring injury subside, your doctor or a physical therapist can show you how to perform specific exercises designed to improve flexibility and strengthen your hamstring muscles. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If your muscle has pulled free from where it&apos;s connected to your pelvis or shinbone, orthopedic surgeons can reattach it. Severe muscle tears also can be repaired. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a hamstring stretch 
+" Caption="To stretch your hamstring muscles, extend one leg out in front of you and then lean forward until you feel the stretch in the back of your thigh. Repeat with the other leg. Don&apos;t bounce. 
+" Height="60" Title="Hamstring stretch" URI="/images/image_popup/thumbs/mcdc7_hamstring_stretchthu.jpg" Width="60" />
+				<Image Alt="Illustration of a hamstring stretch 
+" Caption="To stretch your hamstring muscles, extend one leg out in front of you and then lean forward until you feel the stretch in the back of your thigh. Repeat with the other leg. Don&apos;t bounce. 
+" Height="311" Title="Hamstring stretch" URI="/images/image_popup/mcdc7_hamstring_stretch.jpg" Width="400" />
+				<HTML>
+					To stretch your hamstring muscles, extend one leg out in front of you and then lean forward until you feel the stretch in the back of your thigh. Repeat with the other leg. Don&apos;t bounce. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For immediate self-care of a hamstring injury, try the R.I.C.E. approach &amp;mdash; rest, ice, compression, elevation. If your injury is worse than a minor muscle strain, you&apos;ll want your doctor and physical therapist to help you with this process: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rest.&lt;/strong&gt; Take a break from strenuous activities to rest your hamstring muscles and allow the damaged tissues to repair. Avoid any activity that causes pain, swelling or discomfort. For a more extensive injury, your doctor may recommend that you use crutches so that you keep your weight off your injured leg.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ice.&lt;/strong&gt; Even if you&apos;re seeking medical help, ice the area immediately. For the first few days after the injury, put an ice pack on the injured area for 15 to 20 minutes every two to three hours while you&apos;re awake. Cold reduces pain, swelling and inflammation in injured muscles, joints and connective tissues. It may also slow bleeding if a tear has occurred. If your skin turns white when it&apos;s being iced, stop treatment immediately. If you have vascular disease, diabetes or decreased sensation, talk with your doctor before applying ice.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Compression.&lt;/strong&gt; Wrap your leg with an elastic compression bandage until the swelling goes down. Be careful not to wrap your leg too tightly for you may impair circulation. Begin wrapping at the end farthest from your heart. Loosen the bandage if the pain increases, the area becomes numb or swelling occurs below the wrapped area.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevation.&lt;/strong&gt; Sit or lie back with your leg elevated while resting. If possible, elevate your leg higher than the level of your heart. Gravity helps reduce swelling by draining excess fluid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Over-the-counter pain medications, such as ibuprofen (Advil, Motrin IB, others) and acetaminophen (Tylenol, others), also can be helpful. After a few days, gently begin to use the injured leg. You should notice a gradual, progressive improvement in your leg&apos;s ability to support your weight and your ability to move without pain. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As part of an overall physical conditioning program, regular stretching and strengthening exercises can help to minimize your risk of hamstring injury. Try to be in shape to play your sport; don&apos;t play your sport to get in shape. If you have a physically demanding occupation, regular conditioning can help prevent injuries. Ask your doctor about appropriate conditioning exercises.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Hamstring injury
+	</Title>
+	<Abstract>
+		Hamstring injury &amp;mdash; Comprehensive overview covers symptoms, treatments, self-care, prevention of this leg muscle injury.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00343" LinkType="Internal" ObjectID="F0138FF8-9AB3-4C66-A1FA2F6EFD7759F7" Title="Sprains and strains" Url="http://www.mayoclinic.com/health/sprains-and-strains/DS00343" />
+	</RelatedLinksBox>
+</Disease>

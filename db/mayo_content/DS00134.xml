@@ -1,0 +1,322 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00134
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/premenstrual-syndrome/DS00134
+		</OriginalURL>
+		<UpdateDate>
+			2012-01-18
+		</UpdateDate>
+		<PublicationDate>
+			2000-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="4423" Title="Female reproductive stage">
+						<Keyword MCVID="2046" Title="Menstrual cycle">
+							<Keyword MCVID="2173" Title="PMS" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			95C74A46-AC0A-405D-AEC831A8F66C8CF4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				premenstrual syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				PMS
+			</MetaKeyword>
+			<MetaKeyword>
+				menstrual cycle
+			</MetaKeyword>
+			<MetaKeyword>
+				premenstrual syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				menstruation
+			</MetaKeyword>
+			<MetaKeyword>
+				period
+			</MetaKeyword>
+			<MetaKeyword>
+				mood swing
+			</MetaKeyword>
+			<MetaKeyword>
+				menstral cycle
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Premenstrual syndrome (PMS) has a wide variety of symptoms, including mood swings, tender breasts, food cravings, fatigue, irritability and depression. An estimated 3 of every 4 menstruating women experience some form of premenstrual syndrome. These problems tend to peak during your late 20s and early 30s. Symptoms tend to recur in a predictable pattern. Yet the physical and emotional changes you experience with premenstrual syndrome may be particularly intense in some months and only slightly noticeable in others.
+&lt;/p&gt;
+&lt;p&gt;
+Still, you don&apos;t have to let these problems control your life. Treatments and lifestyle adjustments can help you reduce or manage the signs and symptoms of premenstrual syndrome.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The most common signs and symptoms associated with premenstrual syndrome include:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Emotional and behavioral symptoms&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tension or anxiety&lt;/li&gt;
+	&lt;li&gt;Depressed mood&lt;/li&gt;
+	&lt;li&gt;Crying spells&lt;/li&gt;
+	&lt;li&gt;Mood swings and irritability or anger&lt;/li&gt;
+	&lt;li&gt;Appetite changes and food cravings&lt;/li&gt;
+	&lt;li&gt;Trouble falling asleep (insomnia)&lt;/li&gt;
+	&lt;li&gt;Social withdrawal&lt;/li&gt;
+	&lt;li&gt;Poor concentration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical signs and symptoms&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Joint or muscle pain&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weight gain related to fluid retention&lt;/li&gt;
+	&lt;li&gt;Abdominal bloating&lt;/li&gt;
+	&lt;li&gt;Breast tenderness&lt;/li&gt;
+	&lt;li&gt;Acne flare-ups&lt;/li&gt;
+	&lt;li&gt;Constipation or diarrhea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although the list of potential signs and symptoms is long, most women with premenstrual syndrome experience only a few of these problems.
+&lt;/p&gt;
+&lt;p&gt;
+For some women, the physical pain and emotional stress are severe enough to affect their daily routines and activities. Regardless of their severity, though, the signs and symptoms disappear, for most women, as the menstrual period begins.
+&lt;/p&gt;
+&lt;p&gt;
+But a few women with premenstrual syndrome have disabling symptoms every month. This form of PMS has its own designation &amp;mdash; premenstrual dysphoric disorder (PMDD). PMDD is a severe form of premenstrual syndrome with signs and symptoms including severe depression, feelings of hopelessness, anger, anxiety, low self-esteem, difficulty concentrating, irritability and tension. A number of women with severe PMS may have an underlying psychiatric disorder.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve had no luck managing your premenstrual syndrome with lifestyle changes, and signs and symptoms of PMS are seriously affecting your health and daily activities, see your doctor.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Exactly what causes premenstrual syndrome is unknown, but several factors may contribute to the condition:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cyclic changes in hormones.&lt;/strong&gt; Signs and symptoms of premenstrual syndrome change with hormonal fluctuations and disappear with pregnancy and menopause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chemical changes in the brain.&lt;/strong&gt; Fluctuations of serotonin, a brain chemical (neurotransmitter) that is thought to play a crucial role in mood states, could trigger PMS symptoms. Insufficient amounts of serotonin may contribute to premenstrual depression, as well as to fatigue, food cravings and sleep problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Depression.&lt;/strong&gt; Some women with severe premenstrual syndrome have undiagnosed depression, though depression alone does not cause all of the symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress.&lt;/strong&gt; Stress can aggravate some of your PMS symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor eating habits.&lt;/strong&gt; Some PMS symptoms have been linked to low levels of vitamins and minerals. Other possible contributors to PMS include eating a lot of salty foods, which may cause fluid retention, and drinking alcohol and caffeinated beverages, which may cause mood and energy level disturbances.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or primary care provider. However, in some cases when you call to set up an appointment you may be referred immediately to a doctor who specializes in conditions affecting the female reproductive tract (gynecologist).
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and what to expect from your doctor.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you need to do in advance to prepare.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated, and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider questions to ask your doctor&lt;/strong&gt; and write them down. Bring along notepaper and a pen to jot down information as your doctor addresses your questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For premenstrual symptoms, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is there anything I can do to minimize PMS symptoms?&lt;/li&gt;
+	&lt;li&gt;Will my PMS symptoms eventually go away on their own?&lt;/li&gt;
+	&lt;li&gt;Could the symptoms that I&apos;m experiencing indicate a more serious medical condition?&lt;/li&gt;
+	&lt;li&gt;Do you recommend treatment for PMS symptoms? What treatments are available?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;On what days during your menstrual cycle are your symptoms at their worst?&lt;/li&gt;
+	&lt;li&gt;Do you have symptom-free days during your menstrual cycle?&lt;/li&gt;
+	&lt;li&gt;Can you anticipate when your symptoms are coming on?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms interfere with your daily activities?&lt;/li&gt;
+	&lt;li&gt;Have you recently felt down, depressed or hopeless?&lt;/li&gt;
+	&lt;li&gt;Have you or has anyone in your family been diagnosed with a psychiatric disorder?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried so far? How have they worked?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are no unique physical findings or laboratory tests to positively diagnose premenstrual syndrome. Your doctor may attribute a particular symptom to PMS if it&apos;s part of your predictable premenstrual pattern. To help establish a premenstrual pattern, your doctor may have you:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a diary.&lt;/strong&gt; Record your signs and symptoms on a calendar or in a diary for at least two menstrual cycles. Note the day that you first notice PMS symptoms, as well as the day they disappear. Also be sure to mark the day your period starts and ends.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fill out a questionnaire.&lt;/strong&gt; On the first day of your period, you fill out a questionnaire. The questions pertain to any PMS symptoms you experienced during the prior two weeks. This tool helps your doctor know whether you might benefit from further evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may prescribe one or more medications for premenstrual syndrome. The success of medications in relieving symptoms varies from woman to woman. Commonly prescribed medications for premenstrual syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antidepressants.&lt;/strong&gt; Selective serotonin reuptake inhibitors (SSRIs), which include fluoxetine (Prozac, Sarafem), paroxetine (Paxil, Pexeva), sertraline (Zoloft) and others, have been successful in reducing symptoms such as fatigue, food cravings and sleep problems and are the first-line agents for treatment of severe PMS or PMDD. These drugs are generally taken daily. But for some women with PMS, use of antidepressants may be limited to the two weeks before menstruation begins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; Taken before or at the onset of your period, NSAIDs such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, Naprosyn, others) can ease cramping and breast discomfort.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diuretics.&lt;/strong&gt; When exercise and limiting salt intake aren&apos;t enough to reduce the weight gain, swelling and bloating of PMS, taking water pills (diuretics) can help your body shed excess fluid through your kidneys. Spironolactone (Aldactone) is a diuretic that can help ease some of the symptoms of PMS.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral contraceptives.&lt;/strong&gt; These prescription medications stop ovulation and stabilize hormonal swings, which may bring relief from PMS symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medroxyprogesterone acetate (Depo-Provera).&lt;/strong&gt; For severe PMS or PMDD, this injection can be used to temporarily stop ovulation. However, Depo-Provera may cause an increase in some of the same signs and symptoms experienced with PMS, such as increased appetite, weight gain, headache and depressed mood.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can sometimes manage or reduce the symptoms of premenstrual syndrome by making changes in the way you eat, exercise and approach daily life. Try these approaches:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Modify your diet&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat smaller, more frequent meals to reduce bloating and the sensation of fullness.&lt;/li&gt;
+	&lt;li&gt;Limit salt and salty foods to reduce bloating and fluid retention.&lt;/li&gt;
+	&lt;li&gt;Choose foods high in complex carbohydrates, such as fruits, vegetables and whole grains.&lt;/li&gt;
+	&lt;li&gt;Choose foods rich in calcium. If you can&apos;t tolerate dairy products or aren&apos;t getting adequate calcium in your diet, you may need a daily calcium supplement.&lt;/li&gt;
+	&lt;li&gt;Take a daily multivitamin supplement.&lt;/li&gt;
+	&lt;li&gt;Avoid caffeine and alcohol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Incorporate exercise into your regular routine&lt;/strong&gt;&lt;br /&gt;
+Engage in at least 30 minutes of brisk walking, cycling, swimming or other aerobic activity most days of the week. Regular daily exercise can help improve your overall health and alleviate symptoms such as fatigue and a depressed mood.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Reduce stress&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Get plenty of sleep.&lt;/li&gt;
+	&lt;li&gt;Practice progressive muscle relaxation or deep-breathing exercises to help reduce headaches, anxiety or trouble sleeping (insomnia).&lt;/li&gt;
+	&lt;li&gt;Try yoga or massage to relax and relieve stress.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Record your symptoms for a few months&lt;/strong&gt;&lt;br /&gt;
+Keep a record to identify the triggers and timing of your symptoms. This will allow you to intervene with strategies that may help to lessen them.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s what&apos;s known about the effectiveness of complementary remedies used to soothe the symptoms of premenstrual syndrome:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium.&lt;/strong&gt; Consuming 1,200 milligrams (mg) of dietary and supplemental calcium daily, such as chewable calcium carbonate (Tums, Rolaids, others), may reduce the physical and psychological symptoms of PMS. Regular, long-term use of calcium carbonate also reduces your risk of osteoporosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnesium.&lt;/strong&gt; Taking 400 mg of supplemental magnesium daily may help to reduce fluid retention, breast tenderness and bloating in women with premenstrual syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin B-6.&lt;/strong&gt; A daily dose of 50 to 100 mg of vitamin B-6 may help some women with troublesome PMS symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin E.&lt;/strong&gt; This vitamin, taken in 400 international units daily, may ease PMS symptoms by reducing the production of prostaglandins, hormone-like substances that cause cramps and breast tenderness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Herbal remedies.&lt;/strong&gt; Some women report relief of PMS symptoms with the use of herbs such as black cohosh, ginger, raspberry leaf, dandelion, chasteberry and evening primrose oil. However, few scientific studies have found that any herbs are effective for relief of PMS symptoms. Herbal remedies also aren&apos;t regulated by the Food and Drug Administration, so there&apos;s no record of product safety or effectiveness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Natural progesterone creams.&lt;/strong&gt; These are derived from wild yams and soybeans. Some women report that these creams relieve symptoms. No scientific studies have proved their effectiveness.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Premenstrual syndrome (PMS)
+	</Title>
+	<Abstract>
+		Premenstrual syndrome (PMS) &amp;mdash; Comprehensive overview covers signs and symptoms, treatments, and self-care remedies.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00995" LinkType="Internal" ObjectID="2FDE3776-B3D1-665B-B86327C22115AA07" Title="Depo-Provera (contraceptive injection)" Url="http://www.mayoclinic.com/health/depo-provera/MY00995" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00990" LinkType="Internal" ObjectID="2B82AFFC-A00C-2E35-15E043CB4F8D3C0A" Title="Combination birth control pills" Url="http://www.mayoclinic.com/health/combination-birth-control-pills/MY00990" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Answer" DocID="AN01372" LinkType="Internal" ObjectID="CDBF7D5A-E7FF-0DBD-1137E40DA8A73293" Title="Premenstrual dysphoric disorder: Different from PMS?" Url="http://www.mayoclinic.com/health/pmdd/AN01372" />
+	</RelatedLinksBox>
+</Disease>

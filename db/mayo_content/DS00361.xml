@@ -1,0 +1,337 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00361
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/addisons-disease/DS00361
+		</OriginalURL>
+		<UpdateDate>
+			2012-12-04
+		</UpdateDate>
+		<PublicationDate>
+			1999-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1496" Title="Adrenal">
+						<Keyword MCVID="2474" Title="Addison&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9C76354B-0F14-4ED1-A2A3358550A16E76
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				addison&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				addisonian
+			</MetaKeyword>
+			<MetaKeyword>
+				addisonian crisis
+			</MetaKeyword>
+			<MetaKeyword>
+				hypocortisolism
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal glands
+			</MetaKeyword>
+			<MetaKeyword>
+				cortisol
+			</MetaKeyword>
+			<MetaKeyword>
+				adrenal insufficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic adrenal insufficiency
+			</MetaKeyword>
+			<MetaKeyword>
+				addison
+			</MetaKeyword>
+			<MetaKeyword>
+				addisons disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Addison&apos;s disease is a disorder that occurs when your body produces insufficient amounts of certain hormones produced by your adrenal glands. In Addison&apos;s disease, your adrenal glands produce too little cortisol and often insufficient levels of aldosterone as well. 
+&lt;/p&gt;
+&lt;p&gt;
+Also called adrenal insufficiency, Addison&apos;s disease occurs in all age groups and affects both sexes. Addison&apos;s disease can be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for Addison&apos;s disease involves taking hormones to replace the insufficient amounts being made by your adrenal glands, in order to mimic the beneficial effects produced by your naturally made hormones. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Addison&apos;s disease symptoms usually develop slowly, often over several months, and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Muscle weakness and fatigue&lt;/li&gt;
+	&lt;li&gt;Weight loss and decreased appetite&lt;/li&gt;
+	&lt;li&gt;Darkening of your skin (hyperpigmentation)&lt;/li&gt;
+	&lt;li&gt;Low blood pressure, even fainting&lt;/li&gt;
+	&lt;li&gt;Salt craving&lt;/li&gt;
+	&lt;li&gt;Low blood sugar (hypoglycemia)&lt;/li&gt;
+	&lt;li&gt;Nausea, diarrhea or vomiting&lt;/li&gt;
+	&lt;li&gt;Muscle or joint pains&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Body hair loss or sexual dysfunction in women&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute adrenal failure (addisonian crisis)&lt;/strong&gt; &lt;br /&gt;
+Sometimes, however, the signs and symptoms of Addison&apos;s disease may appear suddenly. In acute adrenal failure (addisonian crisis), the signs and symptoms may also include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Pain in your lower back, abdomen or legs&lt;/li&gt;
+	&lt;li&gt;Severe vomiting and diarrhea, leading to dehydration&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness&lt;/li&gt;
+	&lt;li&gt;High potassium (hyperkalemia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See your doctor if you have signs and symptoms that commonly occur in people with Addison&apos;s disease, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Darkening areas of skin (hyperpigmentation)&lt;/li&gt;
+	&lt;li&gt;Severe fatigue&lt;/li&gt;
+	&lt;li&gt;Unintentional weight loss&lt;/li&gt;
+	&lt;li&gt;Gastrointestinal problems, such as nausea, vomiting and abdominal pain&lt;/li&gt;
+	&lt;li&gt;Dizziness or fainting&lt;/li&gt;
+	&lt;li&gt;Salt cravings&lt;/li&gt;
+	&lt;li&gt;Muscle or joint pains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can help determine whether Addison&apos;s disease or some other medical condition may be causing these problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Addison&apos;s disease results when your adrenal glands are damaged, producing insufficient amounts of the hormone cortisol and often aldosterone as well. These glands are located just above your kidneys. As part of your endocrine system, they produce hormones that give instructions to virtually every organ and tissue in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Your adrenal glands are composed of two sections. The interior (medulla) produces adrenaline-like hormones. The outer layer (cortex) produces a group of hormones called corticosteroids, which include glucocorticoids, mineralocorticoids and male sex hormones (androgens). 
+&lt;/p&gt;
+&lt;p&gt;
+Some of the hormones the cortex produces are essential for life &amp;mdash; the glucocorticoids and the mineralocorticoids. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Glucocorticoids.&lt;/strong&gt; These hormones, which include cortisol, influence your body&apos;s ability to convert food fuels into energy, play a role in your immune system&apos;s inflammatory response and help your body respond to stress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mineralocorticoids.&lt;/strong&gt; These hormones, which include aldosterone, maintain your body&apos;s balance of sodium and potassium to keep your blood pressure normal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Androgens.&lt;/strong&gt; These male sex hormones are produced in small amounts by the adrenal glands in both men and women. They cause sexual development in men and influence muscle mass, libido and a sense of well-being in both men and women.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Primary adrenal insufficiency&lt;/strong&gt;&lt;br /&gt;
+Addison&apos;s disease occurs when the cortex is damaged and doesn&apos;t produce its hormones in adequate quantities. Doctors refer to the condition involving damage to the adrenal glands as primary adrenal insufficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+The failure of your adrenal glands to produce adrenocortical hormones is most commonly the result of the body attacking itself (autoimmune disease). For unknown reasons, your immune system views the adrenal cortex as foreign, something to attack and destroy. 
+&lt;/p&gt;
+&lt;p&gt;
+Other causes of adrenal gland failure may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Other infections of the adrenal glands&lt;/li&gt;
+	&lt;li&gt;Spread of cancer to the adrenal glands&lt;/li&gt;
+	&lt;li&gt;Bleeding into the adrenal glands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Secondary adrenal insufficiency&lt;/strong&gt;&lt;br /&gt;
+Adrenal insufficiency can also occur if your pituitary gland is diseased. The pituitary gland makes a hormone called adrenocorticotropic hormone (ACTH), which stimulates the adrenal cortex to produce its hormones. Inadequate production of ACTH can lead to insufficient production of hormones normally produced by your adrenal glands, even though your adrenal glands aren&apos;t damaged. Doctors call this condition secondary adrenal insufficiency. 
+&lt;/p&gt;
+&lt;p&gt;
+Another more common cause of secondary adrenal insufficiency occurs when people who take corticosteroids for treatment of chronic conditions, such as asthma or arthritis, abruptly stop taking the corticosteroids. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Addisonian crisis&lt;/strong&gt;&lt;br /&gt;
+If you have untreated Addison&apos;s disease, an addisonian crisis may be provoked by physical stress, such as an injury, infection or illness. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="60" Title="Adrenal glands" URI="/images/image_popup/thumbs/mcdc7_adrenal_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing adrenal glands 
+" Caption="Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these glands dictate much of what happens in your body. 
+" Height="384" Title="Adrenal glands" URI="/images/image_popup/mcdc7_adrenal_glands.jpg" Width="400" />
+				<HTML>
+					Perched on top of each of your kidneys, your adrenal glands produce hormones that help regulate your metabolism, immune system, blood pressure and other essential functions. Although small, these ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred to an endocrinologist. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to recall all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions ahead of time will help you make the most of your time together. List your questions from most important to least important in case time runs out. For Addison&apos;s disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms? &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will talk to you first about your medical history and your signs and symptoms. If your doctor thinks that you may have Addison&apos;s disease, you may undergo some of the following tests: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Measuring your blood levels of sodium, potassium, cortisol and ACTH gives your doctor an initial indication of whether adrenal insufficiency may be causing your signs and symptoms. A blood test can also measure antibodies associated with autoimmune Addison&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;ACTH stimulation test.&lt;/strong&gt; This test involves measuring the level of cortisol in your blood before and after an injection of synthetic ACTH. ACTH signals your adrenal glands to produce cortisol. If your adrenal glands are damaged, the ACTH stimulation test shows that your output of cortisol in response to synthetic ACTH is limited or nonexistent. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Insulin-induced hypoglycemia test.&lt;/strong&gt; Occasionally, doctors suggest this test if pituitary disease is a possible cause of adrenal insufficiency (secondary adrenal insufficiency). The test involves checking your blood sugar (blood glucose) and cortisol levels at various intervals after an injection of insulin. In healthy people, glucose levels fall and cortisol levels increase.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Your doctor may have you undergo a computerized tomography (CT) scan of your abdomen to check the size of your adrenal glands and look for other abnormalities that may give insight to the cause of the adrenal insufficiency. Your doctor may also suggest a MRI scan of your pituitary gland if testing indicates you might have secondary adrenal insufficiency.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+All treatment for Addison&apos;s disease involves hormone replacement therapy to correct the levels of steroid hormones your body isn&apos;t producing. Some options for treatment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Oral corticosteroids.&lt;/strong&gt; Your doctor may prescribe fludrocortisone to replace aldosterone. Hydrocortisone (Cortef), prednisone or cortisone acetate may be used to replace cortisol.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroid injections.&lt;/strong&gt; If you&apos;re ill with vomiting and can&apos;t retain oral medications, injections may be needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Androgen replacement therapy.&lt;/strong&gt; To treat androgen deficiency in women, dehydroepiandrosterone can be prescribed. Some studies suggest that this therapy may improve overall sense of well-being, libido and sexual satisfaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+An ample amount of sodium is recommended, especially during heavy exercise, when the weather is hot, or if you have gastrointestinal upsets, such as diarrhea. Your doctor will also suggest a temporary increase in your dosage if you&apos;re facing a stressful situation, such as an operation, an infection or a minor illness. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Addisonian crisis&lt;/strong&gt; &lt;br /&gt;
+An addisonian crisis is a life-threatening situation that results in low blood pressure, low blood levels of sugar and high blood levels of potassium. This situation requires immediate medical care. Treatment typically includes intravenous injections of: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Hydrocortisone&lt;/li&gt;
+	&lt;li&gt;Saline solution&lt;/li&gt;
+	&lt;li&gt;Sugar (dextrose)&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+These steps may help you cope better with a medical emergency if you have Addison&apos;s disease: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Carry a medical alert card and bracelet at all times.&lt;/strong&gt; In the event you&apos;re incapacitated, emergency medical personnel know what kind of care you need.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep extra medication handy.&lt;/strong&gt; Because missing even one day of therapy may be dangerous, it&apos;s a good idea to keep a small supply of medication at work, at a vacation home and in your travel bag, in the event you forget to take your pills. Also, have your doctor prescribe a needle, syringe and injectable form of corticosteroids to have with you in case of an emergency.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay in contact with your doctor.&lt;/strong&gt; Keep an ongoing relationship with your doctor to make sure that the doses of replacement hormones are adequate but not excessive. If you&apos;re having persistent problems with your medications, you may need adjustments in the doses or timing of the medications. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Addison&apos;s disease
+	</Title>
+	<Abstract>
+		Addison&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, treatment of this disorder of the adrenal glands.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01583" LinkType="Internal" ObjectID="BDB2CE4B-E7FF-0DBD-1F614641F3A1FE11" Title="Adrenal fatigue: What causes it?" Url="http://www.mayoclinic.com/health/adrenal-fatigue/AN01583" />
+		<LinkItem ContentType="Answer" DocID="AN01597" LinkType="Internal" ObjectID="48294F0F-E7FF-0DBD-1904E6786940CBC7" Title="Salt craving: A symptom of Addison&apos;s disease?" Url="http://www.mayoclinic.com/health/salt-craving/AN01597" />
+	</RelatedLinksBox>
+</Disease>

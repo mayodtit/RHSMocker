@@ -1,0 +1,272 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HA00034
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dry-mouth/HA00034
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-07
+		</UpdateDate>
+		<PublicationDate>
+			2001-08-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1360" Title="Mouth and teeth">
+					<Keyword MCVID="1637" Title="Salivary gland">
+						<Keyword MCVID="1638" Title="Dry mouth" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			50B3D1EF-C44D-46A3-A5E06F9AC4F2A836
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dry mouth
+			</MetaKeyword>
+			<MetaKeyword>
+				xerostomia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dry mouth is a condition in which your mouth is unusually dry. Dry mouth is a common problem that may seem little more than a nuisance. But a dry mouth can affect both your enjoyment of food and the health of your teeth. The medical term for dry mouth is xerostomia (zeer-o-STO-me-uh).
+&lt;/p&gt;
+&lt;p&gt;
+A result of reduced or no saliva, dry mouth can lead to problems because saliva helps prevent tooth decay by limiting bacterial growth and washing away food particles. Saliva also enhances your ability to taste and makes it easier to swallow. In addition, enzymes in saliva aid in digestion.
+&lt;/p&gt;
+&lt;p&gt;
+Although the treatment depends on the cause, dry mouth is often a side effect of medication. Dry mouth may improve with an adjusted dosage or a new prescription.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing location of salivary glands 
+" Caption="You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+" Height="60" Title="Salivary glands" URI="/images/image_popup/thumbs/mcdc7_salivarythu.jpg" Width="60" />
+				<Image Alt="Illustration showing location of salivary glands 
+" Caption="You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+" Height="299" Title="Salivary glands" URI="/images/image_popup/mcdc7_salivary.jpg" Width="400" />
+				<HTML>
+					You have three pairs of major salivary glands &amp;mdash; parotid, sublingual and submandibular. Each gland has its own tube (duct) leading from the gland to the mouth. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;re not producing enough saliva, you may notice the following signs and symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dryness in your mouth&lt;/li&gt;
+	&lt;li&gt;Saliva that seems thick and stringy&lt;/li&gt;
+	&lt;li&gt;Sores or split skin at the corners of your mouth&lt;/li&gt;
+	&lt;li&gt;Cracked lips&lt;/li&gt;
+	&lt;li&gt;Bad breath&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking and swallowing&lt;/li&gt;
+	&lt;li&gt;Sore throat&lt;/li&gt;
+	&lt;li&gt;An altered sense of taste&lt;/li&gt;
+	&lt;li&gt;A fungal infection in your mouth&lt;/li&gt;
+	&lt;li&gt;Increased plaque, tooth decay and gum disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In women, dry mouth may result in lipstick adhering to the teeth.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+If you&apos;ve noticed persistent dry mouth signs and symptoms, make an appointment with your family doctor or your dentist.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dry mouth has numerous causes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Hundreds of medications, including some over-the-counter drugs, produce dry mouth as a side effect. Among the more likely types to cause problems are some of the drugs used to treat depression and anxiety, antihistamines, decongestants, high blood pressure medications, anti-diarrheals, muscle relaxants, drugs for urinary incontinence, and Parkinson&apos;s disease medications.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aging.&lt;/strong&gt; Getting older isn&apos;t a risk factor for dry mouth on its own; however, older people are more likely to be taking medications that may cause dry mouth. Also, older people are more likely to have other health conditions that may cause dry mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer therapy.&lt;/strong&gt; Chemotherapy drugs can change the nature of saliva and the amount produced. Radiation treatments to your head and neck can damage salivary glands, causing a marked decrease in saliva production.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nerve damage.&lt;/strong&gt; An injury or surgery that causes nerve damage to your head and neck area also can result in xerostomia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other health conditions.&lt;/strong&gt; Dry mouth can be a consequence of certain health conditions &amp;mdash; or their treatments &amp;mdash; including the autoimmune disease Sjogren&apos;s syndrome, diabetes, Parkinson&apos;s disease, HIV/AIDS, anxiety disorders and depression. Stroke and Alzheimer&apos;s disease may cause a perception of dry mouth, even though the salivary glands are functioning normally. Snoring and breathing with your mouth open also can contribute to the problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tobacco use.&lt;/strong&gt; Smoking or chewing tobacco can increase dry mouth symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and to know what you can expect from your doctor or dentist.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes, both of which can contribute to dry mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all prescribed medications,&lt;/strong&gt; vitamins, supplements and over-the-counter medications you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions for your doctor will help you make the most of your time together. List your questions from most important to least important. For dry mouth, some basic questions to ask your doctor may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Other than the most likely cause, what are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any other questions you have.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor or dentist is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor or dentist may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;Have you started taking any new medications recently?&lt;/li&gt;
+	&lt;li&gt;Do you smoke or chew tobacco?&lt;/li&gt;
+	&lt;li&gt;How much alcohol do you drink?&lt;/li&gt;
+	&lt;li&gt;Does anything improve your symptoms or stimulate saliva flow?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+Try frequently sipping water or chewing sugar-free gum to increase your saliva. Also, be sure to brush your teeth regularly to help prevent cavities. If you use tobacco, quitting will likely improve your signs and symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To determine if you have dry mouth, your doctor or dentist likely will examine your mouth and review your medical history. Sometimes you&apos;ll need blood tests, imaging scans of your salivary glands or tests that measure how much saliva you produce to identify the cause.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor believes medication to be the cause, he or she may adjust your dosage or switch you to another medication that doesn&apos;t cause a dry mouth. Your doctor may also consider prescribing pilocarpine (Salagen) or cevimeline (Evoxac) to stimulate saliva production.
+&lt;/p&gt;
+&lt;p&gt;
+In severe cases, to prevent cavities, your dentist might fit you for coverings for your teeth filled with fluoride to wear at night.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When the cause of the problem either can&apos;t be determined or can&apos;t be resolved, the following tips may help improve your dry mouth symptoms and keep your teeth healthy:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chew sugar-free gum&lt;/strong&gt; or suck on sugar-free hard candies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit your caffeine intake.&lt;/strong&gt; Caffeine can make your mouth drier.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid sugary or acidic foods&lt;/strong&gt; and candies because they increase the risk of tooth decay.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brush with a fluoride toothpaste.&lt;/strong&gt; Ask your dentist if you might benefit from prescription fluoride toothpaste.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a fluoride rinse&lt;/strong&gt; or brush-on fluoride gel before bedtime.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use a mouthwash that contains alcohol&lt;/strong&gt; because alcohol can be drying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop all tobacco use&lt;/strong&gt; if you smoke or chew tobacco.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sip water&lt;/strong&gt; or suck ice chips throughout the day to moisten your mouth and drink water during meals to aid chewing and swallowing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter saliva substitutes.&lt;/strong&gt; Look for ones containing carboxymethylcellulose or hydroxyethyl cellulose, such as Biotene Oral Balance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid using over-the-counter antihistamines and decongestants&lt;/strong&gt; because they can make your symptoms worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breathe through your nose,&lt;/strong&gt; not your mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add moisture to the air at night&lt;/strong&gt; with a room humidifier.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Studies of acupuncture have shown that acupuncture may be helpful for people with dry mouth stemming from various causes, particularly from radiation therapy for cancer. This procedure involves the use of fine needles, lightly placed into various areas of the body, depending on your area of concern. While this treatment looks promising, researchers are still studying how this therapy works for xerostomia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Dry mouth
+	</Title>
+	<Abstract>
+		Dry mouth &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of lack of saliva (xerostomia).
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02112" LinkType="Internal" ObjectID="DD01E32A-FD29-FA5D-782DA18557763A5C" Title="Dry mouth treatment: Tips for controlling dry mouth" Url="http://www.mayoclinic.com/health/dry-mouth/AN02112" />
+	</RelatedLinksBox>
+</Disease>

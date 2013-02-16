@@ -1,0 +1,296 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00694
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/rectal-ulcer/DS00694
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-28
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1855" Title="Anus and rectum">
+						<Keyword MCVID="2919" Title="Solitary rectal ulcer syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DB927B41-2A5D-9994-E995BE29447B1341
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				solitary rectal ulcer syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal ulcer
+			</MetaKeyword>
+			<MetaKeyword>
+				rectal bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				constipation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Solitary rectal ulcer syndrome is a condition that occurs when a sore (ulcer) develops in the rectum. The rectum is a muscular tube that&apos;s connected to the end of your colon. Stool passes through the rectum on its way out of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Solitary rectal ulcer syndrome is a rare and poorly understood disorder that occurs in people with chronic constipation. Solitary rectal ulcer syndrome can cause rectal bleeding and straining during bowel movements. Despite its name, sometimes more than one rectal ulcer occurs in solitary rectal ulcer syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments for solitary rectal ulcer syndrome range from changing your diet and fluid intake to surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the rectum 
+" Caption="The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+" Height="60" Title="Rectum" URI="/images/image_popup/thumbs/mcdc7_rectumthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the rectum 
+" Caption="The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+" Height="443" Title="Rectum" URI="/images/image_popup/mcdc7_rectum.jpg" Width="400" />
+				<HTML>
+					The rectum is a hollow, muscular tube that&apos;s connected to the end of the colon. Waste passes through the rectum as it leaves the body. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of solitary rectal ulcer syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Constipation &lt;/li&gt;
+	&lt;li&gt;A feeling of incomplete passing of stool&lt;/li&gt;
+	&lt;li&gt;Pain or a feeling of fullness in your pelvis &lt;/li&gt;
+	&lt;li&gt;Passing mucus from your rectum &lt;/li&gt;
+	&lt;li&gt;Fecal incontinence &lt;/li&gt;
+	&lt;li&gt;Rectal pain or anal sphincter spasms &lt;/li&gt;
+	&lt;li&gt;Rectal bleeding &lt;/li&gt;
+	&lt;li&gt;Straining during bowel movements &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, some people with solitary rectal ulcer syndrome may experience no symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you notice any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+Other diseases and conditions may cause signs and symptoms similar to those of solitary rectal ulcer syndrome. At your appointment, your doctor may recommend tests and procedures to rule out other causes of your signs and symptoms. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not always clear what causes solitary rectal ulcer syndrome. Doctors believe stress or injury to the rectum may cause rectal ulcers to form. 
+&lt;/p&gt;
+&lt;p&gt;
+Examples of situations that could injure the rectum include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Attempts to manually remove impacted stool&lt;/li&gt;
+	&lt;li&gt;Constipation or impacted stool&lt;/li&gt;
+	&lt;li&gt;Anal intercourse&lt;/li&gt;
+	&lt;li&gt;Intussusception, which occurs when part of the intestine slides inside another part&lt;/li&gt;
+	&lt;li&gt;Radiation therapy used to treat cancer in the abdomen or pelvis&lt;/li&gt;
+	&lt;li&gt;Rectal prolapse, which occurs when the rectum protrudes from the anus&lt;/li&gt;
+	&lt;li&gt;Straining during bowel movements&lt;/li&gt;
+	&lt;li&gt;Use of ergotamine suppositories, an anti-migraine treatment&lt;/li&gt;
+	&lt;li&gt;Uncoordinated tightening of the pelvic floor muscles that slows blood flow to the rectum&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing normal rectum and rectal prolapse 
+" Caption="Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+" Height="60" Title="Rectal prolapse" URI="/images/image_popup/thumbs/d7_rectal_prolapsethu.jpg" Width="60" />
+				<Image Alt="Illustration showing normal rectum and rectal prolapse 
+" Caption="Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+" Height="330" Title="Rectal prolapse" URI="/images/image_popup/d7_rectal_prolapse.jpg" Width="400" />
+				<HTML>
+					Rectal prolapse occurs when the rectum becomes stretched out and protrudes from the anus. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="60" Title="Intussusception" URI="/images/image_popup/thumbs/ans7_intussusceptionthu.jpg" Width="60" />
+				<Image Alt="Illustration showing intussusception 
+" Caption="Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+" Height="369" Title="Intussusception" URI="/images/image_popup/ans7_intussusception.jpg" Width="400" />
+				<HTML>
+					Intussusception is a rare, serious disorder in which one part of the intestine slides inside an adjacent part. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have signs or symptoms that worry you. If your doctor suspects you may have solitary rectal ulcer syndrome, you may be referred to a doctor who specializes in the digestive system (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; &lt;strong&gt;vitamins or supplements&lt;/strong&gt; that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+For solitary rectal ulcer syndrome, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my rectal ulcer signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment?&lt;/li&gt;
+	&lt;li&gt;What are my treatment options?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Do I need to follow any dietary or activity restrictions?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;Will I need follow-up visits? If so, how often?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you recently had trouble with constipation?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose rectal ulcers include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Using a scope to examine your rectum.&lt;/strong&gt; During sigmoidoscopy, your doctor inserts a flexible tube equipped with a lens into your rectum to examine your rectum and part of your colon. If a lesion is found, your doctor may take a tissue sample for laboratory testing.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Using sound waves to create images of your rectum.&lt;/strong&gt; Ultrasound is an imaging technique that uses sound waves to create pictures. Your doctor may recommend an ultrasound to help differentiate solitary rectal ulcer syndrome from other conditions. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An X-ray of your rectum.&lt;/strong&gt; During a procedure called defecation proctography, your doctor inserts a soft paste made of barium into your rectum. You then pass the barium paste as you would stool. The barium shows up on X-rays and may reveal a prolapse or problems with muscle function and muscle coordination.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for solitary rectal ulcer syndrome depends on the severity of your condition. People with mild signs and symptoms may find relief through lifestyle changes, while people with more severe signs and symptoms may require treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior therapy to stop straining during bowel movements&lt;/strong&gt; &lt;br /&gt;
+Some people strain during bowel movements out of habit. Behavior therapy can help you learn to relax your pelvic muscles during bowel movements. In one technique called biofeedback, a specialist teaches you to control certain involuntary body responses, such as tightening of your anus or pelvic floor muscles during defecation. Biofeedback may make you more aware of your straining and help you to control it. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt; &lt;br /&gt;
+Treatments such as topical steroids, sulfasalazine enemas and botulinum toxin (Botox) may help ease your rectal ulcer symptoms. However, these treatments don&apos;t work for everyone, and some are still considered experimental. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt; &lt;br /&gt;
+Surgical procedures used to treat rectal ulcer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Rectal prolapse surgery.&lt;/strong&gt; If you have a rectal prolapse that&apos;s causing rectal ulcer, your doctor may recommend a rectopexy procedure. Rectopexy secures the rectum in its anatomically correct position with stitches.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery to remove the rectum.&lt;/strong&gt; An operation to remove the rectum may be an option for people with severe rectal ulcer signs and symptoms who haven&apos;t been helped by other treatments. The surgeon may connect the colon to an opening in the abdomen for waste to leave the body (colostomy). If you have a colostomy, a pouch or bag is then attached to your abdomen to collect waste.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you experience chronic constipation, you can make changes to your daily life that may help relieve your symptoms. Relieving your constipation may help reduce the signs and symptoms of rectal ulcer. 
+&lt;/p&gt;
+&lt;p&gt;
+You may find relief from constipation if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink water throughout the day.&lt;/strong&gt; Drinking enough water and other fluids helps to keep your bowel movements soft and easy to pass. For variety, you may want to add lemon juice to water for flavor. Or try other noncarbonated and caffeine-free beverages. Prune juice can be helpful because it has a natural laxative effect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increase the amount of fiber in your diet.&lt;/strong&gt; Fiber adds bulk to your stool. The bulk helps push the contents of your intestines along so that they can be eliminated when you have a bowel movement. Try to eat at least 25 to 35 grams of fiber each day. Nutrition labels on food packaging list the amount of fiber in a serving. The best sources of fiber are fruits, vegetables and whole grains. Eat fruits and vegetables with the skin on, and choose whole fruits and vegetables over juices. Look for breads and cereals that list whole wheat, oats or bran as the first ingredients.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make changes slowly.&lt;/strong&gt; Add more water and fiber to your diet over the course of a few weeks. This helps your body adjust to the changes gradually. A sudden increase in fiber could make constipation worse.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Try to exercise for at least 30 minutes most days of the week. If you haven&apos;t been active for a while, get your doctor&apos;s OK. Then start slowly, with walking or another gentle activity. Gradually work your way up to more activity each day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Solitary rectal ulcer syndrome
+	</Title>
+	<Abstract>
+		Solitary rectal ulcer syndrome &amp;mdash; Comprehensive overview covers treatment of this condition associated with chronic constipation.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

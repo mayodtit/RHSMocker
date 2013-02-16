@@ -1,0 +1,369 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01002
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wheat-allergy/DS01002
+		</OriginalURL>
+		<UpdateDate>
+			2011-07-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1746" Title="Immune system">
+					<Keyword MCVID="1747" Title="Allergy">
+						<Keyword MCVID="1869" Title="Food allergy">
+							<Keyword MCVID="3566" Title="Wheat allergy" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			98273531-E7FF-0DBD-1DA86A236FF4A88B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				wheat allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				wheat allergies
+			</MetaKeyword>
+			<MetaKeyword>
+				food allergy
+			</MetaKeyword>
+			<MetaKeyword>
+				allergic to wheat
+			</MetaKeyword>
+			<MetaKeyword>
+				wheat proteins
+			</MetaKeyword>
+			<MetaKeyword>
+				albumin
+			</MetaKeyword>
+			<MetaKeyword>
+				globulin
+			</MetaKeyword>
+			<MetaKeyword>
+				gliadin
+			</MetaKeyword>
+			<MetaKeyword>
+				gluten
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wheat allergy is an allergic reaction to foods containing wheat. It&apos;s one of the more common food allergies in children. Wheat can be found in many foods, including some you might never suspect, such as breads, cakes, breakfast cereals, pasta, crackers, beer, soy sauce and condiments, such as ketchup. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoiding wheat is the primary treatment for wheat allergy. Medications may be necessary to manage allergic reactions when you accidentally eat wheat. 
+&lt;/p&gt;
+&lt;p&gt;
+Wheat allergy may sometimes be confused with celiac disease, but these conditions are different. A wheat allergy generates an allergy-causing antibody to proteins found in wheat. But, one particular protein in wheat &amp;mdash; gluten &amp;mdash; causes an abnormal immune system reaction in the small intestines of people with celiac disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you or your child has wheat allergy, you or your child will likely experience symptoms within a few minutes to a few hours after eating something containing wheat. Wheat allergy symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling, itching or irritation of the mouth or throat&lt;/li&gt;
+	&lt;li&gt;Hives, itchy rash or swelling of the skin&lt;/li&gt;
+	&lt;li&gt;Nasal congestion&lt;/li&gt;
+	&lt;li&gt;Itchy, watery eyes&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Cramps, nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Anaphylaxis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Anaphylaxis&lt;/strong&gt; &lt;br /&gt;
+For some people wheat allergy may cause a life-threatening reaction called anaphylaxis. In addition to other signs and symptoms of wheat allergy, anaphylaxis may cause: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Swelling or tightness of the throat&lt;/li&gt;
+	&lt;li&gt;Chest pain or tightness&lt;/li&gt;
+	&lt;li&gt;Severe difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Trouble swallowing&lt;/li&gt;
+	&lt;li&gt;Pale, blue skin color&lt;/li&gt;
+	&lt;li&gt;Dizziness or fainting&lt;/li&gt;
+	&lt;li&gt;Fast heartbeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Age of onset&lt;/strong&gt; &lt;br /&gt;
+A wheat allergy may not be a lifelong disorder. Whether you outgrow it may depend, in part, on when the allergy first appears. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Young children.&lt;/strong&gt; Wheat allergy in children usually develops during infancy or early toddler years. Most children with wheat allergy have other food allergies. Children usually outgrow wheat allergy between ages 3 and 5.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adolescents and adults.&lt;/strong&gt; Wheat allergy isn&apos;t as common in adolescents and adults.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Anaphylaxis is a medical emergency that requires immediate care. People who already know they can have an anaphylactic reaction to wheat or another allergy-causing substance should carry two injectable doses of a drug called epinephrine (adrenaline). The second dose is a backup in case emergency services aren&apos;t immediately available. 
+&lt;/p&gt;
+&lt;p&gt;
+If someone has signs of anaphylaxis, call 911 or your local emergency number. Emergency care is essential even if the person has just used an epinephrine shot. 
+&lt;/p&gt;
+&lt;p&gt;
+If you suspect that you or your child is allergic to wheat or another food, see your doctor. A number of conditions can cause signs or symptoms associated with wheat allergy. So, an accurate diagnosis is important. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+An allergic reaction is somewhat like a case of mistaken identity by your body&apos;s immune system. Normally, your immune system generates antibodies to protect your body against bacteria, viruses or toxic substances. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have wheat allergy, your body creates an allergy-causing antibody to a protein found in wheat. In other words, your immune system mistakenly identifies this protein as something that could harm you. Once your body develops an allergy-causing antibody to a particular agent (allergen) &amp;mdash; in this case, a wheat protein &amp;mdash; your immune system is sensitive to it. When you eat wheat, your immune system mounts an attack. 
+&lt;/p&gt;
+&lt;p&gt;
+There are four different classes of proteins in wheat that can cause allergies: albumin, globulin, gliadin and gluten. Any of them can cause an allergic reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Sources of wheat proteins&lt;/strong&gt; &lt;br /&gt;
+Some sources of wheat proteins are obvious, such as bread, but all wheat proteins &amp;mdash; and gluten in particular &amp;mdash; may be used in a number of prepared foods and sometimes in cosmetics. Foods that may include wheat proteins include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Breads&lt;/li&gt;
+	&lt;li&gt;Cakes and muffins&lt;/li&gt;
+	&lt;li&gt;Cookies&lt;/li&gt;
+	&lt;li&gt;Breakfast cereals&lt;/li&gt;
+	&lt;li&gt;Pasta&lt;/li&gt;
+	&lt;li&gt;Couscous&lt;/li&gt;
+	&lt;li&gt;Farina&lt;/li&gt;
+	&lt;li&gt;Semolina&lt;/li&gt;
+	&lt;li&gt;Spelt&lt;/li&gt;
+	&lt;li&gt;Crackers&lt;/li&gt;
+	&lt;li&gt;Beer&lt;/li&gt;
+	&lt;li&gt;Hydrolyzed vegetable protein&lt;/li&gt;
+	&lt;li&gt;Soy sauce&lt;/li&gt;
+	&lt;li&gt;Condiments, such as ketchup&lt;/li&gt;
+	&lt;li&gt;Meat products, such as hot dogs or cold cuts&lt;/li&gt;
+	&lt;li&gt;Dairy products, such as ice cream&lt;/li&gt;
+	&lt;li&gt;Natural flavorings&lt;/li&gt;
+	&lt;li&gt;Gelatinized starch&lt;/li&gt;
+	&lt;li&gt;Modified food starch&lt;/li&gt;
+	&lt;li&gt;Vegetable gum&lt;/li&gt;
+	&lt;li&gt;Licorice&lt;/li&gt;
+	&lt;li&gt;Jelly beans&lt;/li&gt;
+	&lt;li&gt;Hard candies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have a wheat allergy, you may also be allergic to other grains with similar proteins. These related grains include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Barley&lt;/li&gt;
+	&lt;li&gt;Oat&lt;/li&gt;
+	&lt;li&gt;Rye&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Wheat-dependent, exercise-induced anaphylaxis&lt;/strong&gt; &lt;br /&gt;
+Some people with a wheat allergy develop symptoms only if they exercise within a few hours after eating wheat. Changes in your body related to exercise either trigger an allergic reaction or worsen an immune system response to a wheat protein. This condition usually results in life-threatening anaphylaxis. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have exercise-related allergy to wheat, you may also experience an anaphylactic reaction when you eat or drink something with wheat and take aspirin or diclofenac (Cataflam, Voltaren) within a few hours. 
+&lt;/p&gt;
+&lt;p&gt;
+The connection between these seemingly unrelated factors may be that exercise and aspirin use similar biological mechanisms to trigger an allergic reaction to wheat.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Baker&apos;s asthma&lt;/strong&gt;&lt;br /&gt;
+Baker&apos;s asthma is an allergic reaction to wheat flour and other types of flour. As the name of the disorder suggests, it&apos;s a particular problem for bakers or anyone who works with uncooked wheat flours. The allergic reaction is triggered by inhaling flour rather than eating it. Baker&apos;s asthma primarily results in problems breathing. But, people with Baker&apos;s asthma can usually eat cooked wheat products without having a reaction. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Celiac disease&lt;/strong&gt;&lt;br /&gt;
+Celiac disease, or gluten-sensitive enteropathy, is considered a food sensitivity rather than a food allergy. Celiac disease is an abnormal immune system reaction to gluten that affects the small intestine. This condition can result in poor absorption of essential nutrients from your food. A person may have both wheat allergy and celiac disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may put you at greater risk of developing a wheat allergy: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; You&apos;re at increased risk of allergy to wheat or other foods if your parents have any food allergies or other allergies such as hay fever.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Wheat allergy is most common in babies and toddlers, who have immature immune and digestive systems. Most children outgrow wheat allergy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+See your doctor if you suspect that you or your child has wheat allergy or another allergy. You&apos;re likely to begin by seeing your family doctor or your child&apos;s pediatrician, but you may be referred to a specialist in allergies (allergist) for some diagnostic tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to prepare for your appointment. Before your appointment, make a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms,&lt;/strong&gt; including any that may seem unrelated to allergy-like symptoms&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your family&apos;s history&lt;/strong&gt; of allergy and asthma, including specific types of allergies if you know them&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications,&lt;/strong&gt; vitamins or supplements you or your child is taking&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions &lt;/strong&gt;to ask your doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions related to wheat allergy or other types of allergy may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are the symptoms most likely due to an allergy?&lt;/li&gt;
+	&lt;li&gt;Will I need any allergy tests?&lt;/li&gt;
+	&lt;li&gt;Should I see an allergist?&lt;/li&gt;
+	&lt;li&gt;Do I need to carry epinephrine?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may save time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How soon after eating do symptoms appear?&lt;/li&gt;
+	&lt;li&gt;Do symptoms seem to be related to a specific food?&lt;/li&gt;
+	&lt;li&gt;In the case of an infant, what solid foods have you introduced to your baby?&lt;/li&gt;
+	&lt;li&gt;Have you recently introduced a new food to your baby&apos;s diet?&lt;/li&gt;
+	&lt;li&gt;Did anyone else get sick from eating the same food?&lt;/li&gt;
+	&lt;li&gt;How much of a suspected allergy-causing food was eaten?&lt;/li&gt;
+	&lt;li&gt;What other foods were eaten at or around the same time as the food you suspect as the cause of allergic reactions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely use a combination of tests, including a physical exam, to make a diagnosis. Tests or diagnostic tools may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Skin test.&lt;/strong&gt; In this test, tiny drops of purified allergen extracts &amp;mdash; including extracts for wheat proteins &amp;mdash; are pricked onto your skin&apos;s surface. This is usually carried out on the forearm, but it may be done on the upper back. The drops are left on your skin for 15 minutes before your doctor or nurse observes your skin for signs of allergic reactions. If you&apos;re allergic to wheat, you&apos;ll develop a red, itchy bump where the wheat protein extract was pricked onto your skin. The most common side effect of these skin tests is itching and redness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; In some cases a skin test can&apos;t be performed because of the presence of a skin condition or because of interactions with certain medications. As an alternative, your doctor may order a blood test that screens for specific allergy-causing antibodies to various common allergens, including wheat proteins.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food diary.&lt;/strong&gt; A detailed record of what and when you eat, as well as when you experience symptoms, may help your doctor identify the cause of a food allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elimination diet.&lt;/strong&gt; Your doctor may recommend a diet with certain foods removed, particularly those foods that are common allergens. Under your doctor&apos;s direction, you will gradually add foods back into your diet and note when symptoms return.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Food challenge testing.&lt;/strong&gt; With this test, you eat capsules containing the food suspected of being the allergy-causing agent. Under careful supervision for a few hours or days, usually at a hospital, you begin with a small amount of the food and gradually increase the amount you consume. During the test, you&apos;re monitored for any allergy symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best treatment for wheat allergy is to avoid exposure to wheat proteins. Because wheat proteins appear in so many prepared foods, you&apos;ll need to read product labels carefully. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Drugs&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines&lt;/strong&gt; may reduce signs and symptoms of wheat allergies. These drugs can be taken after exposure to wheat to control your reaction and help relieve discomfort. Ask your doctor if a prescription or over-the-counter allergy drug is appropriate for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Epinephrine&lt;/strong&gt; is an emergency treatment for anaphylaxis. If you&apos;re at risk of having a severe reaction to wheat, you may need to carry two injectable doses of epinephrine (such as EpiPen, EpiPen Jr.) with you at all times. A second pen is recommended for people with high risk for life-threatening anaphylaxis in case anaphylactic symptoms return before emergency care is available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Emergency care&lt;/strong&gt; &lt;br /&gt;
+Emergency medical care is essential for anyone who experiences an anaphylactic reaction to wheat, even after receiving an injection of epinephrine. It&apos;s important to call 911 or your local emergency number as soon as possible. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take a number of steps to avoid exposure to wheat proteins and ensure prompt treatment when you&apos;re accidentally exposed to wheat. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Keep others informed.&lt;/strong&gt; If your child has wheat allergy, make sure that the principal, teachers and school nurse know about the allergy and the signs of wheat exposure. If your child needs to carry epinephrine, make sure school personnel know how to inject epinephrine if necessary and that they need to contact emergency care immediately. Inform close friends and relatives of your own food allergy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear a bracelet.&lt;/strong&gt; If you&apos;re at risk of anaphylaxis from wheat allergy, wear a medical identification bracelet that describes the allergy and need for emergency care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Read labels.&lt;/strong&gt; Read all food labels carefully. Because wheat proteins, especially gluten, are used as food thickeners, they appear in many unexpected places. Don&apos;t assume that once you&apos;ve used a certain brand of a product, that it&apos;s always safe. Ingredients may change.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shop for gluten-free foods.&lt;/strong&gt; Some specialty stores and supermarkets offer gluten-free food products. While such foods are targeted toward people with celiac disease, they also provide wheat-free alternatives to people with wheat allergies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consult wheat-free cookbooks.&lt;/strong&gt; Cookbooks specializing in recipes without wheat can help you cook safely and enable you to enjoy alternative foods to common wheat products.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be cautious when eating out.&lt;/strong&gt; Communicate your allergy carefully to restaurant staff. Explain that such things as bread crumbs on a cooking surface may be a problem. Order simple, uncomplicated dishes prepared with fresh foods. Avoid foods that may have hidden sources of wheat proteins, such as sauces that often have multiple ingredients or deep-fried foods that may be cooked with other foods containing wheat.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The American Academy of Allergy, Asthma and Immunology provides links on its website to organizations that offer support groups for families dealing with allergies. Support groups, such as the Food Allergy and Anaphylaxis Network, can help you develop coping strategies, find sources for wheat-free products, and exchange recipes and other ideas to help you maintain a wheat-free diet. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wheat allergy
+	</Title>
+	<Abstract>
+		Wheat allergy &amp;mdash; Comprehensive overview covers symptoms, cause, treatment of this condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00179" LinkType="Internal" ObjectID="215DE93D-CC4A-4BEB-A1ADF4F895FA2AB6" Title="Food allergy: Can it develop later in life?" Url="http://www.mayoclinic.com/health/food-allergy/AN00179" />
+		<LinkItem ContentType="Answer" DocID="AN01109" LinkType="Internal" ObjectID="0E8456BF-61D3-432B-A1EFE262E763A625" Title="Food allergy vs. food intolerance: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/food-allergy/AN01109" />
+		<LinkItem ContentType="Article" DocID="AA00057" LinkType="Internal" ObjectID="71E4D91B-2A5D-9994-E1FE1180A09BA44C" Title="Food allergies: Understanding food labels" Url="http://www.mayoclinic.com/health/food-allergies/AA00057" />
+		<LinkItem ContentType="Disease" DocID="DS00082" LinkType="Internal" ObjectID="1E0A2C7F-0EC5-4D61-89FFDF856F37C207" Title="Food allergy" Url="http://www.mayoclinic.com/health/food-allergy/DS00082" />
+		<LinkItem ContentType="Article" DocID="MY02142" LinkType="Internal" ObjectID="ECC7D998-930E-6653-5E6D9D24AA6FBD0A" Title="Gluten-free recipes" Url="http://www.mayoclinic.com/health/gluten-free-recipes/MY02142" />
+	</RelatedLinksBox>
+</Disease>

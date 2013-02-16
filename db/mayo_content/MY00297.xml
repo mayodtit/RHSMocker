@@ -1,0 +1,208 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00297
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chest-x-rays/MY00297
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-21
+		</UpdateDate>
+		<PublicationDate>
+			2001-05-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3848" Title="General body">
+						<Keyword MCVID="3622" Title="Chest xray" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			960657DF-E7FF-0DBD-1CFE7479BA34595B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				heart tests
+			</MetaKeyword>
+			<MetaKeyword>
+				chest x-ray
+			</MetaKeyword>
+			<MetaKeyword>
+				x-ray
+			</MetaKeyword>
+			<MetaKeyword>
+				xray
+			</MetaKeyword>
+			<MetaKeyword>
+				xrays
+			</MetaKeyword>
+			<MetaKeyword>
+				chest xray
+			</MetaKeyword>
+			<MetaKeyword>
+				chest xrays
+			</MetaKeyword>
+			<MetaKeyword>
+				chest pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chest X-rays produce images of your heart, lungs, blood vessels, ribs and the bones of your spine. If you go to your doctor or the emergency room with chest pain or shortness of breath, chest X-rays can help determine whether you have heart failure, a collapsed lung, pneumonia, broken ribs or air accumulating in the space surrounding a lung (pneumothorax). 
+&lt;/p&gt;
+&lt;p&gt;
+Chest X-rays can also reveal fluid in your lungs or in the spaces surrounding your lungs, enlargement of your heart, pneumonia, emphysema, cancer and many other conditions. Some people have a series of chest X-rays done over time, to track whether a particular health problem is getting better or worse. 
+&lt;/p&gt;
+&lt;p&gt;
+In the past, the X-ray was printed out on film. Now, almost all chest X-rays are digital files that are viewed and stored electronically. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Medical image of chest X-rays 
+" Caption="A chest X-ray helps detect problems with your heart and lungs. The chest X-ray on the left is normal. The image on the right shows a mass in the right lung. 
+" Height="60" Title="Chest X-ray" URI="/images/image_popup/thumbs/mcdc7_chestxraythu.jpg" Width="60" />
+				<Image Alt="Medical image of chest X-rays 
+" Caption="A chest X-ray helps detect problems with your heart and lungs. The chest X-ray on the left is normal. The image on the right shows a mass in the right lung. 
+" Height="260" Title="Chest X-ray" URI="/images/image_popup/mcdc7_chestxray.jpg" Width="400" />
+				<HTML>
+					A chest X-ray helps detect problems with your heart and lungs. The chest X-ray on the left is normal. The image on the right shows a mass in the right lung. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Chest X-rays are the most commonly performed radiographic exam. A chest X-ray is often among the first procedures you&apos;ll undergo if your doctor suspects you have heart or lung disease. 
+&lt;/p&gt;
+&lt;p&gt;
+A chest X-ray can show: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;The condition of your lungs.&lt;/strong&gt; Chest X-rays can detect cancer or infection in the lungs. They can also show chronic lung conditions, such as emphysema or cystic fibrosis, as well as complications related to these conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart-related lung problems.&lt;/strong&gt; Chest X-rays can reveal changes or abnormalities in your lungs that stem from heart problems. Fluid may accumulate in your lungs (pulmonary edema), for instance, as a result of congestive heart failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The size and outline of your heart.&lt;/strong&gt; Changes in the size and shape of your heart may indicate a variety of conditions, such as heart failure, congenital heart disease, fluid around the heart (pericardial effusion), and problems with one or more of your heart valves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood vessels.&lt;/strong&gt; Because the outlines of the large vessels near your heart &amp;mdash; the aorta and pulmonary arteries and veins &amp;mdash; are visible on X-rays, they may reveal aortic aneurysms or other blood vessel problems, or congenital heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Calcium deposits.&lt;/strong&gt; Chest X-rays can detect the presence of calcium in your heart or blood vessels. Its presence may indicate damage to your heart valves, coronary arteries, heart muscle or the protective sac that surrounds the heart. Calcium deposits in your lungs may be from an old, resolved infection or a more serious disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Postoperative changes.&lt;/strong&gt; Chest X-rays are useful after you&apos;ve had surgery in your chest, such as on your heart, lungs or esophagus, to monitor your recovery. Your doctor can look at any lines or tubes that were placed during surgery and can make sure there aren&apos;t any air leaks or areas of fluid accumulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A pacemaker, defibrillator or catheter. &lt;/strong&gt;Pacemakers and defibrillators have leads attached to your heart to make sure your heart rate and rhythm are normal, and catheters are small tubes used to deliver medications or for dialysis. A chest X-ray usually is taken after placement of such medical devices to make sure everything is positioned correctly.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be concerned about radiation exposure from chest X-rays, especially if you have them regularly. However, the amount of radiation from a chest X-ray is low &amp;mdash; even lower than what you&apos;re exposed to through natural sources of radiation in the environment. 
+&lt;/p&gt;
+&lt;p&gt;
+The X-ray technologists and radiologists use the smallest possible dose of radiation and provide a protective lead apron when multiple X-rays are necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Women should always inform their physician or X-ray technologist if there is any possibility that they are pregnant. Although you should generally avoid X-rays during pregnancy, a lead apron that covers your pelvis and abdomen can minimize radiation exposure to the baby. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before the chest X-ray, you generally undress from the waist up and wear an exam gown. Remove jewelry from the waist up, too, since both clothing and jewelry can obscure the X-ray images. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the procedure, your body is positioned between the X-ray camera and the X-ray digital recorder. You may be asked to move into different positions or angles in order to take views from both the front and the sides of your chest. 
+&lt;/p&gt;
+&lt;p&gt;
+During the front view, you stand against the plate that contains the X-ray film or digital recorder. You hold your arms up or to the sides and roll your shoulders forward. You take a deep breath and hold it for several seconds while the X-ray image is taken. Holding your breath after inhaling helps your heart and lungs show up more clearly on the image. 
+&lt;/p&gt;
+&lt;p&gt;
+During the side views, you turn and place one shoulder on the plate and raise your hands over your head. Again, you take a deep breath and hold it during the filming process. 
+&lt;/p&gt;
+&lt;p&gt;
+Having X-rays taken is generally painless. You don&apos;t feel any sensation as the X-ray passes through your body. If you have trouble standing, you may be able to have X-rays while seated or lying down. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+X-rays penetrate body structures and tissue in different ways. Bone is very dense and blocks much of the radiation, so the image of bone on the film appears white. Your heart also blocks some of the radiation and so appears as a lighter area on the film. Lungs are filled with air, so they block little of the radiation, creating a dark image. 
+&lt;/p&gt;
+&lt;p&gt;
+A radiologist &amp;mdash; a doctor trained in interpretation of X-rays and other imaging exams &amp;mdash; analyzes the images, looking for clues that may suggest if you have heart failure, fluid around your heart, cancer, pneumonia or other lung problems, or other conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor will discuss the results with you as well as what treatments or other tests or procedures may be necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chest X-rays
+	</Title>
+	<Abstract>
+		Chest X-rays &amp;mdash; Overview covers definition, risks, results of this imaging test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00061" LinkType="Internal" ObjectID="ED8BB6BC-745C-42AA-B1A61E5947AA80BC" Title="Heart failure" Url="http://www.mayoclinic.com/health/heart-failure/DS00061" />
+		<LinkItem ContentType="Disease" DocID="DS00296" LinkType="Internal" ObjectID="C585E4B1-9390-48CE-8A709FFA1BF33DF7" Title="Emphysema" Url="http://www.mayoclinic.com/health/emphysema/DS00296" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Disease" DocID="DS00038" LinkType="Internal" ObjectID="06A75328-0BC3-47E7-A00ADDC9B0E319C4" Title="Lung cancer" Url="http://www.mayoclinic.com/health/lung-cancer/DS00038" />
+	</RelatedLinksBox>
+</TestProcedure>

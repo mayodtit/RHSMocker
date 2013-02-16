@@ -1,0 +1,355 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00917
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/scarlet-fever/DS00917
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-12
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1122" Title="06 to 12 years elementary/preteen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1123" Title="13 to 18 years teen" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1149" Title="Bacterial">
+						<Keyword MCVID="4295" Title="Scarlet fever" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87E0CCE0-E7FF-0DBD-165773BEAA5880FF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				scarlet fever
+			</MetaKeyword>
+			<MetaKeyword>
+				scarlatina
+			</MetaKeyword>
+			<MetaKeyword>
+				strep infection
+			</MetaKeyword>
+			<MetaKeyword>
+				Streptococcus pyogenes
+			</MetaKeyword>
+			<MetaKeyword>
+				group A streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				group A beta-hemolysis streptococcus
+			</MetaKeyword>
+			<MetaKeyword>
+				group A strep
+			</MetaKeyword>
+			<MetaKeyword>
+				group A streptococci
+			</MetaKeyword>
+			<MetaKeyword>
+				GAS
+			</MetaKeyword>
+			<MetaKeyword>
+				streptococcal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				strep throat
+			</MetaKeyword>
+			<MetaKeyword>
+				rheumatic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				rash
+			</MetaKeyword>
+			<MetaKeyword>
+				Pastia&apos;s lines
+			</MetaKeyword>
+			<MetaKeyword>
+				strawberry tongue
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scarlet fever is an illness that develops in some people who have strep throat. Also known as scarlatina, scarlet fever features a bright red rash that covers most of the body. Scarlet fever is almost always accompanied by a sore throat and a high fever. 
+&lt;/p&gt;
+&lt;p&gt;
+Scarlet fever is most common in children 5 to 15 years of age. Although scarlet fever was once considered a serious childhood illness, antibiotic treatments have made it less threatening. Nonetheless, if left untreated, scarlet fever (like strep throat) can result in more-serious conditions that affect the heart, kidneys and other parts of the body. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos showing scarlet fever
+" Caption="The red rash of scarlet fever usually begins on the face or neck, later spreading to the chest, trunk, arms and legs.
+" Height="60" Title="Scarlet fever" URI="/images/image_popup/thumbs/r7_scarletfeverthu.jpg" Width="60" />
+				<Image Alt="Photos showing scarlet fever
+" Caption="The red rash of scarlet fever usually begins on the face or neck, later spreading to the chest, trunk, arms and legs.
+" Height="400" Title="Scarlet fever" URI="/images/image_popup/r7_scarletfever.jpg" Width="400" />
+				<HTML>
+					The red rash of scarlet fever usually begins on the face or neck, later spreading to the chest, trunk, arms and legs.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms that give scarlet fever its name include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Red rash.&lt;/strong&gt; The rash looks like a sunburn and feels like sandpaper. It typically begins on the face or neck and spreads to the trunk, arms and legs. If pressure is applied to the reddened skin, it will turn pale.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Red lines.&lt;/strong&gt; The folds of skin around the groin, armpits, elbows, knees and neck usually become a deeper red than the surrounding rash.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flushed face.&lt;/strong&gt; The face may appear flushed with a pale ring around the mouth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strawberry tongue.&lt;/strong&gt; The tongue generally looks red and bumpy, and it&apos;s often covered with a white coating early in the disease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The rash and the redness in the face and tongue usually last about a week. After these signs and symptoms have subsided, the skin affected by the rash often peels. Other signs and symptoms associated with scarlet fever include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fever of 101 F (38.3 C) or higher, often with chills&lt;/li&gt;
+	&lt;li&gt;Very sore and red throat, sometimes with white or yellowish patches&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Enlarged glands in the neck (lymph nodes) that are tender to the touch&lt;/li&gt;
+	&lt;li&gt;Nausea or vomiting&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Talk to your doctor if your child has a sore throat with: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A fever of 102 F (38.9 C) or higher&lt;/li&gt;
+	&lt;li&gt;Swollen or tender glands in the neck&lt;/li&gt;
+	&lt;li&gt;A red rash&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photos showing scarlet fever
+" Caption="The red rash of scarlet fever usually begins on the face or neck, later spreading to the chest, trunk, arms and legs.
+" Height="60" Title="Scarlet fever" URI="/images/image_popup/thumbs/r7_scarletfeverthu.jpg" Width="60" />
+				<Image Alt="Photos showing scarlet fever
+" Caption="The red rash of scarlet fever usually begins on the face or neck, later spreading to the chest, trunk, arms and legs.
+" Height="400" Title="Scarlet fever" URI="/images/image_popup/r7_scarletfever.jpg" Width="400" />
+				<HTML>
+					The red rash of scarlet fever usually begins on the face or neck, later spreading to the chest, trunk, arms and legs.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Scarlet fever is caused by the same type of bacteria that cause strep throat. In scarlet fever, the bacteria release a toxin that produces the rash and red tongue. 
+&lt;/p&gt;
+&lt;p&gt;
+The infection spreads from person to person via droplets expelled when an infected person coughs or sneezes. The incubation period &amp;mdash; the time between exposure and illness &amp;mdash; is usually two to four days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children 5 to 15 years of age are more likely than are other people to get scarlet fever. Scarlet fever germs spread more easily among people in close contact, such as family members or classmates. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If scarlet fever goes untreated, the bacteria may spread to the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tonsils&lt;/li&gt;
+	&lt;li&gt;Sinuses&lt;/li&gt;
+	&lt;li&gt;Skin&lt;/li&gt;
+	&lt;li&gt;Blood&lt;/li&gt;
+	&lt;li&gt;Middle ear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, scarlet fever can lead to rheumatic fever, a serious condition that can affect the: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Heart&lt;/li&gt;
+	&lt;li&gt;Joints&lt;/li&gt;
+	&lt;li&gt;Nervous system&lt;/li&gt;
+	&lt;li&gt;Skin&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to first see your family doctor or your child&apos;s pediatrician. However, when you call to set up your appointment, you may be urged to seek immediate medical care if your child is experiencing any of the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Severe sore throat with difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Intense abdominal pain or vomiting&lt;/li&gt;
+	&lt;li&gt;Severe headache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list of questions for the doctor: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How soon after my child begins treatment will he or she begin to feel better?&lt;/li&gt;
+	&lt;li&gt;Is my child at risk of any long-term complications related to scarlet fever?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do to help soothe my child&apos;s skin while it heals?&lt;/li&gt;
+	&lt;li&gt;When can my child return to school?&lt;/li&gt;
+	&lt;li&gt;Is my child contagious? How can I reduce my child&apos;s risk of passing the illness to others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When did your child begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Has your child had a sore throat or difficulty swallowing?&lt;/li&gt;
+	&lt;li&gt;Has your child had a fever? How high was the fever, and how long did it last?&lt;/li&gt;
+	&lt;li&gt;Has your child had abdominal pain or vomiting?&lt;/li&gt;
+	&lt;li&gt;Has your child been eating adequately?&lt;/li&gt;
+	&lt;li&gt;Has your child complained of headache?&lt;/li&gt;
+	&lt;li&gt;Has your child recently had a strep infection?&lt;/li&gt;
+	&lt;li&gt;Has your child recently been exposed to anyone with a strep infection?&lt;/li&gt;
+	&lt;li&gt;Has your child been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Is your child currently taking any medications?&lt;/li&gt;
+	&lt;li&gt;Does your child have medication allergies?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Look at the condition of your child&apos;s throat, tonsils and tongue&lt;/li&gt;
+	&lt;li&gt;Feel your child&apos;s neck to determine if lymph nodes are enlarged&lt;/li&gt;
+	&lt;li&gt;Assess the appearance and texture of the rash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Throat swab&lt;/strong&gt; &lt;br /&gt;
+If your doctor suspects strep as the cause of your child&apos;s illness, he or she will also swab the tonsils and back of your child&apos;s throat to collect material that may harbor the strep bacteria. Tests for the strep bacterium are important because a number of conditions can cause the signs and symptoms of scarlet fever, and these illnesses may require different treatments. If there are no strep bacteria, then some other factor is causing the illness. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your child has scarlet fever, your doctor will prescribe an antibiotic. Make sure your child completes the full course of medication. Failure to follow the treatment guidelines may not completely eradicate the infection and will increase your child&apos;s risk of developing complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Your child can return to school when he or she has been on antibiotics for at least 24 hours and no longer has a fever. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best prevention strategies for scarlet fever are the same as the standard precautions against infections. Teach your child to practice the following healthy habits: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; Show your child how to wash his or her hands thoroughly with warm soapy water. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t share dining utensils or food.&lt;/strong&gt; As a general rule, your child shouldn&apos;t share drinking glasses or eating utensils with friends or classmates. And that rule applies to food, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover your mouth and nose.&lt;/strong&gt; Tell your child to cover his or her mouth and nose when coughing and sneezing to prevent the potential spread of germs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your child has scarlet fever, wash his or her drinking glasses, utensils and, if possible, toys in hot soapy water or in a dishwasher. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take a number of steps to reduce your child&apos;s discomfort and pain. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Treat fever and pain.&lt;/strong&gt; Use ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) to control the fever and minimize throat pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide adequate fluids.&lt;/strong&gt; Give your child plenty of water to keep the throat moist and prevent dehydration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Prepare a saltwater gargle.&lt;/strong&gt; If your child is able to gargle water, give him or her salty water to gargle and then spit out. This may ease the throat pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Humidify the air.&lt;/strong&gt; Use a cool-mist humidifier to eliminate dry air that may further irritate a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Offer lozenges.&lt;/strong&gt; Children older than age 4 can suck on lozenges to relieve a sore throat. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Provide comforting foods.&lt;/strong&gt; Warm liquids such as soup and cold treats like ice pops can soothe a sore throat.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid irritants.&lt;/strong&gt; Keep your home free from cigarette smoke and cleaning products that can irritate the throat.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Scarlet fever
+	</Title>
+	<Abstract>
+		Scarlet fever &amp;mdash; Comprehensive overview covers symptoms, causes, complications, treatment of this strep-related infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,333 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00352
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/angioplasty/MY00352
+		</OriginalURL>
+		<UpdateDate>
+			2010-12-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-12-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="3994" Title="Coronary angioplasty" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			29D3FABC-E7FF-0DBD-179ECD77A3838F48
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				angioplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				coronary angioplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				heart disease
+			</MetaKeyword>
+			<MetaKeyword>
+				heart attack
+			</MetaKeyword>
+			<MetaKeyword>
+				stents
+			</MetaKeyword>
+			<MetaKeyword>
+				plaque
+			</MetaKeyword>
+			<MetaKeyword>
+				plaques
+			</MetaKeyword>
+			<MetaKeyword>
+				clogged arteries
+			</MetaKeyword>
+			<MetaKeyword>
+				PTCA
+			</MetaKeyword>
+			<MetaKeyword>
+				balloon angioplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				percutaneous transluminal coronary angioplasty
+			</MetaKeyword>
+			<MetaKeyword>
+				atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				ischemia
+			</MetaKeyword>
+			<MetaKeyword>
+				angiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				catheterization
+			</MetaKeyword>
+			<MetaKeyword>
+				cath
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac catheterization
+			</MetaKeyword>
+			<MetaKeyword>
+				stints
+			</MetaKeyword>
+			<MetaKeyword>
+				stent
+			</MetaKeyword>
+			<MetaKeyword>
+				percuatenous coronary intervention
+			</MetaKeyword>
+			<MetaKeyword>
+				pci
+			</MetaKeyword>
+			<MetaKeyword>
+				stint
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Coronary angioplasty (AN-jee-o-plas-tee), also called percutaneous coronary intervention (PCI), is a procedure used to open clogged heart arteries. Angioplasty involves temporarily inserting and blowing up a tiny balloon where your artery is clogged to help widen the artery.
+&lt;/p&gt;
+&lt;p&gt;
+Angioplasty is often combined with the permanent placement of a small wire mesh tube called a stent to help prop the artery open and decrease the chance of it narrowing again. Some stents are coated with medication to help keep your artery open (drug-eluting stents), while others are not (bare-metal stents).
+&lt;/p&gt;
+&lt;p&gt;
+Angioplasty can improve some of the symptoms of blocked arteries, such as chest pain and shortness of breath. Angioplasty can also be used during a heart attack to quickly open a blocked artery and reduce the amount of damage to your heart.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Angioplasty is used to treat a type of heart disease known as atherosclerosis. Atherosclerosis is the slow buildup of fatty plaques in your heart&apos;s blood vessels. When medications or lifestyle changes aren&apos;t enough to improve your heart health, or if you have a heart attack, worsening chest pain (angina) or other symptoms, your doctor might suggest angioplasty as a treatment option.
+&lt;/p&gt;
+&lt;p&gt;
+Angioplasty isn&apos;t for everyone, though. If the main artery supplying the left side of your heart is narrowed, if your heart muscle is weak or if you have small diseased blood vessels , then coronary artery bypass surgery may be a better option. In coronary artery bypass surgery, the blocked portion of your artery is bypassed using a vein from another part of your body.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, if you have diabetes and multiple blockages, your doctor may suggest coronary artery bypass surgery. The decision of angioplasty versus bypass surgery will depend on the extent of your heart disease and overall medical condition.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing coronary artery plaques 
+" Caption="Atherosclerosis (ath-ur-o-skluh-RO-sis) is hardening and narrowing of the arteries caused by the accumulation of fatty deposits (plaques) and other substances. A blood clot also may form at the site, completely blocking your artery and causing a heart attack. 
+" Height="60" Title="Atherosclerosis" URI="/images/image_popup/thumbs/hb7_atherosclerosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing coronary artery plaques 
+" Caption="Atherosclerosis (ath-ur-o-skluh-RO-sis) is hardening and narrowing of the arteries caused by the accumulation of fatty deposits (plaques) and other substances. A blood clot also may form at the site, completely blocking your artery and causing a heart attack. 
+" Height="350" Title="Coronary artery plaques" URI="/images/image_popup/hb7_atherosclerosis.jpg" Width="400" />
+				<HTML>
+					Atherosclerosis (ath-ur-o-skluh-RO-sis) is hardening and narrowing of the arteries caused by the accumulation of fatty deposits (plaques) and other substances. A blood clot also may form at the site, ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although angioplasty is a less invasive way to open clogged arteries, the procedure still carries some risks. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common angioplasty risks include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Re-narrowing of your artery (restenosis).&lt;/strong&gt; With angioplasty alone &amp;mdash; without stent placement &amp;mdash; restenosis happens in as many as 30 to 40 percent of cases. Stents were developed to reduce restenosis. The original bare-metal stents reduce the chance of restenosis to less than 20 percent, and the use of drug-eluting stents has reduced the risk to less than 10 percent.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Blood clots can form within stents even weeks or months after angioplasty. These clots may cause a heart attack. It&apos;s important to take aspirin, clopidogrel (Plavix) and other medications exactly as prescribed to decrease the chance of clots forming in your stent. Talk to your doctor about how long you&apos;ll need to take these medications and whether they can be discontinued if you need surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; You may have bleeding at the site in your leg or arm where a catheter was inserted. Usually this simply results in a bruise, but sometimes serious bleeding occurs and may require blood transfusion or surgical procedures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other rare risks of angioplasty include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart attack.&lt;/strong&gt; Though rare, you may have a heart attack during the procedure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Coronary artery damage.&lt;/strong&gt; Your coronary artery may be torn or ruptured (dissected) during the procedure. These complications may require emergency bypass surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney problems.&lt;/strong&gt; The dye used during angioplasty and stent placement can cause kidney damage, especially in people who already have kidney problems. If you&apos;re at increased risk, your doctor may give you a medication to try to protect your kidneys.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stroke.&lt;/strong&gt; During angioplasty, blood clots that may form on the catheters can break loose and travel to your brain. Blood thinners are given during the procedure to reduce this risk. A stroke can also occur if plaques in your heart break loose when the catheters are being threaded through the aorta.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Abnormal heart rhythms.&lt;/strong&gt; You heart may get irritated during the procedure and beat too quickly or too slowly. These heart rhythm problems are usually short-lived, but sometimes medications or a temporary pacemaker is needed.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before a scheduled angioplasty, your doctor will review your medical history and do a physical exam. You&apos;ll also have an imaging test called a coronary angiogram to determine if your blockages can be treated with angioplasty. A coronary angiogram helps doctors determine if the main arteries to your heart are narrowed or blocked. A liquid dye is injected into the arteries of your heart through a catheter &amp;mdash; a long, thin tube that&apos;s fed through an artery, usually in your groin, to arteries in your heart. As the dye fills your arteries, they become visible on X-ray and video, so your doctor can see where your arteries are blocked. If your doctor finds a blockage during your coronary angiogram, it&apos;s possible he or she may decide to perform angioplasty and stenting immediately after the angiogram while your heart is still catheterized. 
+&lt;/p&gt;
+&lt;p&gt;
+You&apos;ll receive instructions about eating or drinking before angioplasty. Typically, you have to stop eating or drinking by midnight the night before. Your preparation may be different if you&apos;re already staying at the hospital before your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Whether the angioplasty is pre-scheduled or done as an emergency, you&apos;ll likely have some routine tests first, including a chest X-ray, electrocardiogram (ECG) and blood tests. 
+&lt;/p&gt;
+&lt;p&gt;
+The night before your procedure, you should: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Follow your doctor&apos;s instructions about adjusting your current medications before angioplasty. Your doctor may instruct you to stop taking certain medications before angioplasty, particularly if you take certain diabetes medications or blood thinners.&lt;/li&gt;
+	&lt;li&gt;Gather all of your medications to take to the hospital with you, including nitroglycerin, if you take it. &lt;/li&gt;
+	&lt;li&gt;Take approved medications with only small sips of water.&lt;/li&gt;
+	&lt;li&gt;Arrange for transportation home. Angioplasty usually requires an overnight hospital stay, and you won&apos;t be able to drive yourself home the next day.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;br /&gt;
+&lt;/strong&gt;Your body isn&apos;t cut open except for a very small cut in a blood vessel in the leg, arm or wrist through which a small, thin tube (called a catheter) is threaded and the procedure performed. Angioplasty can take 30 minutes to several hours, depending on how many blockages you have and whether any complications arise.
+&lt;/p&gt;
+&lt;p&gt;
+Angioplasty is performed by a heart specialist (cardiologist) and a team of specialized cardiovascular nurses and technicians, usually in a special operating room called a cardiac catheterization laboratory.
+&lt;/p&gt;
+&lt;p&gt;
+Angioplasty is commonly performed through an artery in your groin (femoral artery). Less commonly, it may be done using an artery in your arm or wrist area. Before the procedure, the area is prepared with antiseptic solution and a sterile drape is placed over your body. A local anesthetic is injected into your groin to numb the area. Small electrode pads are placed on your chest to monitor your heart rate and rhythm during the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+General anesthesia isn&apos;t needed, so you&apos;re awake during the procedure. You&apos;ll receive fluids and medications to relax you through an intravenous (IV) catheter. You&apos;ll get blood-thinning medications (anticoagulants) to reduce blood clotting, and then the procedure begins:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;After numbing the incision area, a small needle is used to access an artery in your leg or arm. A small cut is made in the skin.&lt;/li&gt;
+	&lt;li&gt;Your doctor will then insert a thin guidewire followed by a catheter into the artery and thread from the incision area up to the blockage in your heart.&lt;/li&gt;
+	&lt;li&gt;You might feel pressure in your groin while this is being done, but you shouldn&apos;t feel sharp pain. Tell your doctor if you do. You also won&apos;t feel the catheter in your body.&lt;/li&gt;
+	&lt;li&gt;A small amount of dye is injected through the catheter. This helps your doctor look at the blockage on X-ray images called angiograms.&lt;/li&gt;
+	&lt;li&gt;A small balloon at the end of the catheter is inflated, widening the blocked artery. The balloon stays inflated for up to several minutes at the site of the blockage, stretching out the artery before it&apos;s deflated and removed. Your doctor might inflate and deflate the balloon several times before it&apos;s removed, stretching the artery a bit more each time to widen it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Because the balloon temporarily blocks blood flow to part of your heart, it&apos;s common to experience chest pain while it&apos;s inflated. If you have several blockages, the procedure may be repeated at each blockage.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Stent placement&lt;br /&gt;
+&lt;/strong&gt;Most people who have angioplasty also have a stent placed in their blocked artery during the procedure. The stent is usually placed in the artery once it is widened by the inflated balloon. The stent supports the walls of your artery to help prevent it from re-narrowing after the angioplasty. The stent looks like a tiny coil of wire mesh.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s what happens: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The stent is collapsed, placed around a balloon at the tip of the catheter and guided through the artery to the blockage.&lt;/li&gt;
+	&lt;li&gt;At the blockage, the balloon is inflated and the spring-like stent expands and locks into place inside the artery.&lt;/li&gt;
+	&lt;li&gt;The stent remains in the artery permanently to hold it open and improve blood flow to your heart.&lt;/li&gt;
+	&lt;li&gt;Once the stent is in place, the balloon catheter is removed and more images (angiograms) are taken to see how well blood flows through your newly widened artery.&lt;/li&gt;
+	&lt;li&gt;Finally, the guide catheter is removed and the procedure completed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+After your stent placement, you may need prolonged treatment with medications to reduce the chance of blood clots forming on the stent material.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;br /&gt;
+&lt;/strong&gt;You&apos;ll probably remain hospitalized one day while your heart is monitored. While you are in the hospital, your doctor will likely prescribe anticoagulant medications to prevent blood clots and medications to relax your arteries and protect against coronary spasms that can cause a heart attack. You should be able to return to work or your normal routine the week after angioplasty.
+&lt;/p&gt;
+&lt;p&gt;
+When you return home, drink plenty of fluids to help rid your body of the contrast dye. Avoid strenuous exercise and lifting heavy objects for several days afterward. Ask your doctor or nurse about other restrictions in activity.
+&lt;/p&gt;
+&lt;p&gt;
+Call your doctor&apos;s office or hospital staff immediately if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The site where your catheter was inserted starts bleeding or swelling&lt;/li&gt;
+	&lt;li&gt;You develop increasing pain or discomfort at the site where your catheter was inserted&lt;/li&gt;
+	&lt;li&gt;You have signs of infection, such as redness, swelling, drainage or fever&lt;/li&gt;
+	&lt;li&gt;There&apos;s a change in temperature or color of the leg or arm that was used for the procedure&lt;/li&gt;
+	&lt;li&gt;You feel faint or weak&lt;/li&gt;
+	&lt;li&gt;You develop chest pain or shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Blood thinners&lt;br /&gt;
+&lt;/strong&gt;It&apos;s important that you closely follow your doctor&apos;s recommendations about your treatment with blood-thinning medications &amp;mdash; aspirin and clopidogrel or similar medications. 
+&lt;/p&gt;
+&lt;p&gt;
+Most people who have undergone angioplasty with or without stent placement will need to take aspirin for life. Those who have had stent placement will need a blood-thinning medication such as clopidogrel for a year or longer in some cases. If you have any questions or if you need noncardiac surgery, talk to your cardiologist before stopping any of these medications.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+For most people, coronary angioplasty greatly increases blood flow through the previously narrowed or blocked coronary artery . Your chest pain should decrease, and you may have a better ability to exercise. 
+&lt;/p&gt;
+&lt;p&gt;
+Having angioplasty and stenting doesn&apos;t mean your heart disease goes away. You&apos;ll need to continue healthy lifestyle habits and possibly take medications to ensure your artery doesn&apos;t re-narrow. If your symptoms return, such as chest pain or shortness of breath, or other symptoms similar to those you had before your procedure, contact your doctor. If you have chest pain at rest or pain that doesn&apos;t respond to nitroglycerin, call 911 or emergency medical help. 
+&lt;/p&gt;
+&lt;p&gt;
+To keep your heart healthy after angioplasty, you should: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Quit smoking&lt;/li&gt;
+	&lt;li&gt;Lower your cholesterol levels&lt;/li&gt;
+	&lt;li&gt;Maintain a healthy weight&lt;/li&gt;
+	&lt;li&gt;Control other conditions, such as diabetes and high blood pressure&lt;/li&gt;
+	&lt;li&gt;Get regular exercise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Successful angioplasty also means you might not have to undergo an invasive surgical procedure called coronary artery bypass surgery. In a bypass, an artery or a vein is removed from a different part of your body and sewn to the surface of your heart to take over for the blocked coronary artery. This surgery requires an incision in the chest. Recovery from bypass surgery is usually longer and more uncomfortable. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have many blockages or narrowing of the main artery leading to the heart, reduced heart function, or diabetes, your doctor may recommend bypass surgery instead of angioplasty and stent placement. In addition, for technical reasons some blockages may be better treated with bypass surgery. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Coronary angioplasty and stents
+	</Title>
+	<Abstract>
+		Coronary angioplasty and stents &amp;mdash; Overview covers definition and results of this heart procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Video" DocID="MM00048" LinkType="Internal" ObjectID="98A07B67-7CCA-41C5-BAFE4F4E2EA6C987" Title="Video: Coronary angioplasty" Url="http://www.mayoclinic.com/health/coronary-angioplasty/MM00048" />
+		<LinkItem ContentType="Disease" DocID="DS01179" LinkType="Internal" ObjectID="1F89AEED-D7C3-26AE-A34AB55F717D685E" Title="Myocardial ischemia" Url="http://www.mayoclinic.com/health/myocardial-ischemia/DS01179" />
+	</RelatedLinksBox>
+</TestProcedure>

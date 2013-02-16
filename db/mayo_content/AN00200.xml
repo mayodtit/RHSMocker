@@ -1,0 +1,103 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00200
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/avulsion-fracture/AN00200
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-16
+		</UpdateDate>
+		<PublicationDate>
+			2001-06-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1432" Title="Injury">
+						<Keyword MCVID="1985" Title="Fracture">
+							<Keyword MCVID="2513" Title="Avulsion fracture" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			D0484D8D-6FCF-4E5C-925659DEE21639B2
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				avulsion fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				fracture
+			</MetaKeyword>
+			<MetaKeyword>
+				fractures
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+An avulsion fracture occurs when a tendon or ligament, along with a piece of the bone it&apos;s attached to, gets pulled away from the main part of the bone. Avulsion fractures in young athletes often involve tendons that attach the hamstring muscle to one of the pelvic bones, the hip flexor muscles to the pelvis or thighbone, or the inner forearm muscles to the inner side of the elbow.
+&lt;/p&gt;
+&lt;p&gt;
+Conservative treatment &amp;mdash; resting and icing the affected area, then doing controlled exercises to stretch the tendon and promote bone healing &amp;mdash; is usually all that&apos;s needed for an avulsion fracture to heal. If the hip muscles are affected, however, you may need to spend a few weeks on crutches. Complete recovery can take from four to eight weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+If the bone fragment and main bone are too far apart to fuse naturally, surgery may be necessary to reunite them &amp;mdash; particularly for hamstring avulsion fractures. Surgery also may be necessary later to remove the painful, fibrous tissue (soft tissue union) that sometimes forms around unhealed fractures. In children, avulsion fractures that occur on a growth plate also may require surgery.
+&lt;/p&gt;
+&lt;p&gt;
+The vast majority of avulsion fractures heal very well without surgical intervention, but be sure to talk to your doctor about the best treatment for your specific injury.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Avulsion fracture: How is it treated?
+	</Title>
+	<Abstract>
+		Avulsion fracture &amp;mdash; caused by pulling of a ligament or tendon &amp;mdash; usually heals without surgery.
+	</Abstract>
+	<Question>
+		What is the best way to treat an avulsion fracture in a young athlete?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+</Answer>

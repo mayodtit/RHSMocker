@@ -1,0 +1,251 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00719
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/shigella/DS00719
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-24
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3116" Title="Shigella" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			93BF20FB-2A5D-9994-E946FF9F8ED2DCF4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				shigella infection
+			</MetaKeyword>
+			<MetaKeyword>
+				shigellosis
+			</MetaKeyword>
+			<MetaKeyword>
+				intestinal infection
+			</MetaKeyword>
+			<MetaKeyword>
+				shigella bacterial infection
+			</MetaKeyword>
+			<MetaKeyword>
+				bloody diarrhea
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shigella infection (shigellosis) is an intestinal disease caused by a family of bacteria known as shigella. The main sign of shigella infection is diarrhea, which often is bloody. 
+&lt;/p&gt;
+&lt;p&gt;
+Shigella can be passed through direct contact with the bacteria in the stool. For example, this can happen in a child care setting when staff members don&apos;t wash their hands well enough after changing diapers or helping toddlers with toilet training. Shigella bacteria also can be passed in contaminated food or by drinking or swimming in contaminated water. 
+&lt;/p&gt;
+&lt;p&gt;
+Children between the ages of 2 and 4 are most likely to get shigella infection. A mild case usually clears up on its own within a week. When treatment is needed, doctors generally prescribe antibiotics. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of shigella infection usually begin a day or two after contact with shigella. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Diarrhea (often containing blood or mucus)&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although some people have no symptoms after they&apos;ve been infected with shigella, their feces are still contagious. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your doctor or seek urgent care if you or your child has bloody diarrhea or diarrhea severe enough to cause weight loss and dehydration. Also, contact your doctor if you or your child has diarrhea and a fever of 101 F (38 C) or higher. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infection occurs when you accidentally swallow shigella bacteria. This can happen when you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Touch your mouth.&lt;/strong&gt; If you don&apos;t wash your hands well after changing the diaper of a child who has shigella infection, you may become infected yourself. Direct person-to-person contact is the most common way the disease is spread.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat contaminated food.&lt;/strong&gt; Infected people who handle food can transmit the bacteria to people who eat the food. Food can also become contaminated if it grows in a field that contains sewage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Swallow contaminated water.&lt;/strong&gt; Water may become contaminated either from sewage or from a person with shigella infection swimming in it.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being a toddler.&lt;/strong&gt; Shigella infection is most common in children between the ages of 2 and 4. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living in group housing or participating in group activities.&lt;/strong&gt; Close contact with other people spreads the bacteria from person to person. Shigella outbreaks are more common in child care centers, nursing homes, jails and military barracks.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Living or traveling in areas that lack sanitation.&lt;/strong&gt; People who live or travel in developing countries are more likely to contract shigella infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being a sexually active gay male.&lt;/strong&gt; Men who have sex with men are at higher risk. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shigella infection usually clears up without complications, although it may take weeks or months before your bowel habits return to normal. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Persistent diarrhea can cause dehydration. Symptoms include lightheadedness, dizziness, lack of tears in children, sunken eyes and dry diapers. Severe dehydration can lead to shock and death.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seizures.&lt;/strong&gt; Some children who run high fevers with a shigella infection have seizures. It&apos;s not known whether the convulsions are a result of the fever or the shigella infection itself. If your child has a seizure, contact your doctor immediately.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rectal prolapse.&lt;/strong&gt; In this condition, straining during bowel movements may cause the mucous membrane, or lining, of the rectum to move out through the anus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hemolytic uremic syndrome.&lt;/strong&gt; This rare complication of shigella, more commonly caused by bacteria called E. coli, can lead to a low red blood cell count (hemolytic anemia), low platelet count (thrombocytopenia) and acute kidney failure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Toxic megacolon.&lt;/strong&gt; This rare complication occurs when your colon becomes paralyzed, preventing you from having a bowel movement or passing gas. Signs and symptoms include abdominal pain and swelling, fever, and weakness. If you don&apos;t receive treatment for toxic megacolon, your colon may break open (rupture), causing peritonitis, a life-threatening infection requiring emergency surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reactive arthritis.&lt;/strong&gt; Reactive arthritis develops in response to infection. Signs and symptoms include joint pain and inflammation, usually in the ankles, knees, feet and hips; redness, itching and discharge in one or both eyes (conjunctivitis); and painful urination (urethritis). &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people who have shigella infection get well on their own and don&apos;t need to see a doctor. If you or your child has severe symptoms or a high fever, you may need treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before talking with your doctor, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are the symptoms?&lt;/li&gt;
+	&lt;li&gt;When did the symptoms start?&lt;/li&gt;
+	&lt;li&gt;Have you or your child been exposed to shigella infection?&lt;/li&gt;
+	&lt;li&gt;Do you or your child have a fever? If so, how high is it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical exam, your doctor may press on various parts of your abdomen to check for pain or tenderness. He or she may also use a cotton swab to obtain a stool culture or send you home with instructions for collecting and transporting a sample of your stool so it can be tested for evidence of infection. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diarrhea and bloody diarrhea can result from a number of diseases. Confirming shigellosis involves taking a sample of your stool to be tested in a laboratory for the presence of shigella bacteria or their toxins. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Shigella infection usually runs its course in five to seven days. Replacing lost fluids from diarrhea may be all the treatment you need, particularly if your general health is good and your shigella infection is mild. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoid drugs intended to treat diarrhea, such as loperamide (Imodium) and diphenoxylate with atropine (Lomotil), because they can make your condition worse. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antibiotics&lt;/strong&gt; &lt;br /&gt;
+For severe shigella infection, antibiotics may shorten the duration of the illness. However, some shigella bacteria have become drug resistant. So it&apos;s better not to take antibiotics unless your shigella infection is severe. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics may also be necessary for infants, older adults and people who have HIV infection, as well as in situations where there&apos;s high risk of spreading the disease. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Fluid and salt replacement&lt;/strong&gt; &lt;br /&gt;
+For generally healthy adults, drinking water may be enough to counteract the dehydrating effects of diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+Children may benefit from an oral rehydration solution, such as Pedialyte, available in drugstores. Many pharmacies carry their own brands. 
+&lt;/p&gt;
+&lt;p&gt;
+Children and adults who are severely dehydrated need treatment in a hospital emergency room, where they can receive salts and fluids through a vein (intravenously), rather than by mouth. Intravenous hydration provides the body with water and essential nutrients much more quickly than oral solutions do. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the World Health Organization has been working on a shigella vaccine, none is available yet. To prevent the spread of shigella: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Wash hands frequently and thoroughly.&lt;/li&gt;
+	&lt;li&gt;Supervise small children when they wash their hands.&lt;/li&gt;
+	&lt;li&gt;Dispose of soiled diapers properly.&lt;/li&gt;
+	&lt;li&gt;Disinfect diaper-changing areas after use.&lt;/li&gt;
+	&lt;li&gt;Don&apos;t prepare food for others if you have diarrhea.&lt;/li&gt;
+	&lt;li&gt;Keep children with diarrhea home from child care, play groups or school.&lt;/li&gt;
+	&lt;li&gt;Avoid swallowing water from ponds, lakes or untreated pools.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Shigella infection
+	</Title>
+	<Abstract>
+		Shigella infection &amp;mdash; Comprehensive overview covers symptoms, treatment and prevention of this diarrhea-causing illness.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

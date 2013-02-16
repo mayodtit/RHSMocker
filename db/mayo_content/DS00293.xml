@@ -1,0 +1,405 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00293
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ovarian-cancer/DS00293
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-10
+		</UpdateDate>
+		<PublicationDate>
+			2001-04-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1136" Title="Cancer">
+					<Keyword MCVID="2386" Title="Ovarian cancer" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EF55BD38-2667-4900-ACA0A74BD6F570D1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ovarian cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian cancer symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				ovary
+			</MetaKeyword>
+			<MetaKeyword>
+				ovarian
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) as well as the hormones estrogen, progesterone and testosterone. 
+&lt;/p&gt;
+&lt;p&gt;
+Ovarian cancer often goes undetected until it has spread within the pelvis and abdomen. At this late stage, ovarian cancer is difficult to treat and is often fatal. 
+&lt;/p&gt;
+&lt;p&gt;
+Ovarian cancer treatments are available. Researchers are studying ways to improve ovarian cancer treatment and looking into ways to detect ovarian cancer at an earlier stage &amp;mdash; when a cure is more likely. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of ovarian cancer 
+" Caption="Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) as well as the hormones estrogen, progesterone and testosterone. 
+" Height="60" Title="Ovarian cancer" URI="/images/image_popup/thumbs/c7_ovarian_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of ovarian cancer 
+" Caption="Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) as well as the hormones estrogen, progesterone and testosterone. 
+" Height="371" Title="Ovarian cancer" URI="/images/image_popup/c7_ovarian_cancer.jpg" Width="400" />
+				<HTML>
+					Ovarian cancer is a type of cancer that begins in the ovaries. Women have two ovaries, one on each side of the uterus. The ovaries &amp;mdash; each about the size of an almond &amp;mdash; produce eggs (ova) ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Symptoms of ovarian cancer are not specific to the disease, and they often mimic those of many other more-common conditions, including digestive problems.
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of ovarian cancer may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abdominal pressure, fullness, swelling or bloating&lt;/li&gt;
+	&lt;li&gt;Pelvic discomfort or pain&lt;/li&gt;
+	&lt;li&gt;Persistent indigestion, gas or nausea&lt;/li&gt;
+	&lt;li&gt;Changes in bowel habits, such as constipation&lt;/li&gt;
+	&lt;li&gt;Changes in bladder habits, including a frequent need to urinate&lt;/li&gt;
+	&lt;li&gt;Loss of appetite or quickly feeling full&lt;/li&gt;
+	&lt;li&gt;Increased abdominal girth or clothes fitting tighter around your waist&lt;/li&gt;
+	&lt;li&gt;A persistent lack of energy&lt;/li&gt;
+	&lt;li&gt;Low back pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have any signs or symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have a family history of ovarian cancer or breast cancer, talk to your doctor about your risk of ovarian cancer. In some cases, your doctor may refer you to a genetic counselor to discuss testing for certain gene mutations that increase your risk of breast and ovarian cancers. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="60" Title="Female reproductive system" URI="/images/image_popup/thumbs/mcdc7_reproductive_femalethu.jpg" Width="60" />
+				<Image Alt="Illustration showing female reproductive organs 
+" Caption="The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+" Height="330" Title="Female reproductive system" URI="/images/image_popup/mcdc7_reproductive_female.jpg" Width="400" />
+				<HTML>
+					The ovaries, fallopian tubes, uterus, cervix and vagina (vaginal canal) make up the female reproductive system. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes ovarian cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+In general, cancer begins when healthy cells acquire a genetic mutation that turns normal cells into abnormal cells. Healthy cells grow and multiply at a set rate, eventually dying at a set time. Cancer cells grow and multiply out of control, and they don&apos;t die when they should. 
+&lt;/p&gt;
+&lt;p&gt;
+As abnormal cells accumulate, they form a mass (tumor). Cancer cells invade nearby tissues and can break off from an initial tumor to spread elsewhere in the body (metastasize). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Types of ovarian cancer&lt;/strong&gt;&lt;br /&gt;
+The type of cell where the cancer begins determines the type of ovarian cancer you have. Ovarian cancer types include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in the cells on the outside of the ovaries.&lt;/strong&gt; Called epithelial tumors, these cancers begin in the thin layer of tissue that covers the outside of the ovaries. Most ovarian cancers are epithelial tumors. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in the egg-producing cells.&lt;/strong&gt; Called germ cell tumors, these ovarian cancers tend to occur in younger women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer that begins in the hormone-producing cells.&lt;/strong&gt; These cancers, called stromal tumors, begin in the ovarian tissue that produces the hormones estrogen, progesterone and testosterone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of ovarian cancer you have helps determine your prognosis and treatment options. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may increase your risk of ovarian cancer. Having one or more of these risk factors doesn&apos;t mean that you&apos;re sure to develop ovarian cancer, but your risk may be higher than that of the average woman. These risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited gene mutations.&lt;/strong&gt; A small percentage of ovarian cancers are caused by an inherited gene mutation. The genes known to increase the risk of ovarian cancer are called breast cancer gene 1 (BRCA1) and breast cancer gene 2 (BRCA2). These genes were originally identified in families with multiple cases of breast cancer, which is how they got their names, but women with these mutations also have a significantly increased risk of ovarian cancer. Another known genetic link involves an inherited syndrome called hereditary nonpolyposis colorectal cancer (HNPCC). Women in HNPCC families are at increased risk of cancers of the uterine lining (endometrium), colon, ovary and stomach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history of ovarian cancer.&lt;/strong&gt; If women in your family have been diagnosed with ovarian cancer, you have an increased risk of the disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A previous cancer diagnosis.&lt;/strong&gt; If you&apos;ve been diagnosed with cancer of the breast, colon, rectum or uterus, your risk of ovarian cancer is increased.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; Your risk of ovarian cancer increases as you age. Ovarian cancer most often develops after menopause, though it can occur at any age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Never having been pregnant.&lt;/strong&gt; Women who have never been pregnant have an increased risk of ovarian cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by making an appointment with your family doctor, general practitioner or a gynecologist if you have any signs or symptoms that worry you. If your primary care doctor suspects you have ovarian cancer, you may be referred to a specialist in female reproductive cancers (gynecologic oncologist). A gynecologic oncologist is an obstetrician and gynecologist (OB-GYN) who has additional training in the diagnosis and treatment of ovarian and other gynecologic cancers. 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to remember all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For ovarian cancer, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;What type of ovarian cancer do I have?&lt;/li&gt;
+	&lt;li&gt;What types of treatments are available, and what kinds of side effects can I expect?&lt;/li&gt;
+	&lt;li&gt;What do you feel is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What is my prognosis?&lt;/li&gt;
+	&lt;li&gt;If I still want to have children, what options are available to me?&lt;/li&gt;
+	&lt;li&gt;Will I have to stop working?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that occur to you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything appear to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you have any relatives with ovarian or breast cancer? Are there other cancers in your family history?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Diagnosing ovarian cancer&lt;/strong&gt;&lt;br /&gt;
+Tests and procedures used to diagnose ovarian cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Pelvic examination.&lt;/strong&gt; During a pelvic exam, your doctor carefully inspects the outer exposed part of your genitals (vulva), and then inserts two fingers of one hand into your vagina and simultaneously presses the other hand on your abdomen to feel your uterus and ovaries. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	He or she also inserts a device called a speculum into your vagina. The speculum opens your vagina so that your doctor can visually check your vagina and cervix for abnormalities. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Ultrasound.&lt;/strong&gt; Ultrasound uses high-frequency sound waves to produce images of the inside of the body. An ultrasound helps your doctor investigate the size, shape and configuration of your ovaries.
+	&lt;/p&gt;
+	&lt;p&gt;
+	To create a picture of your ovaries, your doctor may insert an ultrasound probe into your vagina. This procedure is called transvaginal ultrasound. Ultrasound imaging can create pictures of the structures near your ovaries, such as your uterus. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Surgery to remove samples of tissue for testing.&lt;/strong&gt; If other tests suggest you may have ovarian cancer, your doctor may recommend surgery to confirm the diagnosis. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	During surgery, a gynecologic oncologist makes an incision in your abdomen to explore your abdominal cavity and determine whether cancer is present. In some cases, the surgeon may use several small incisions and insert special surgical tools to perform minimally invasive surgery or robotic surgery. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The surgeon may collect samples of abdominal fluid and remove an ovary or other tissue for examination by a pathologist. If cancer is discovered, the surgeon may immediately begin surgery to remove as much of the cancer as possible. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;CA 125 blood test.&lt;/strong&gt; CA 125 is a protein found on the surface of ovarian cancer cells and some healthy tissue. Many women with ovarian cancer have abnormally high levels of CA 125 in their blood. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	However, a number of noncancerous conditions also cause elevated CA 125 levels, and many women with early-stage ovarian cancer have normal CA 125 levels. For this reason, a CA 125 test isn&apos;t usually used to diagnose or to screen for ovarian cancer, but it may be used after diagnosis to monitor how your treatment is progressing. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Staging ovarian cancer&lt;/strong&gt;&lt;br /&gt;
+Doctors use the results of your surgery to help determine the extent &amp;mdash; or stage &amp;mdash; of your cancer. Your doctor may also use information from imaging tests, such as computerized tomography (CT). Your cancer&apos;s stage helps determine your prognosis and your treatment options. 
+&lt;/p&gt;
+&lt;p&gt;
+Stages of ovarian cancer include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stage&lt;/strong&gt;&lt;strong&gt; I.&lt;/strong&gt; Ovarian cancer is confined to one or both ovaries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage II.&lt;/strong&gt; Ovarian cancer has spread to other locations in the pelvis, such as the uterus or fallopian tubes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage III.&lt;/strong&gt; Ovarian cancer has spread beyond the pelvis or to the lymph nodes within the abdomen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stage IV.&lt;/strong&gt; Ovarian cancer has spread to organs beyond the abdomen, such as the liver or the lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="60" Title="Pelvic examination" URI="/images/image_popup/thumbs/mcdc7_pelvicexamthu.jpg" Width="60" />
+				<Image Alt="Illustration of how a pelvic examination is done 
+" Caption="In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+" Height="300" Title="Pelvic examination" URI="/images/image_popup/mcdc7_pelvic_exam.jpg" Width="400" />
+				<HTML>
+					In a pelvic exam, your physician inserts two gloved fingers inside your vagina. While simultaneously pressing down on your abdomen, he or she can examine your uterus, ovaries and other organs. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment of ovarian cancer usually involves a combination of surgery and chemotherapy. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Treatment for ovarian cancer usually involves an extensive operation that includes removing both ovaries, fallopian tubes, and the uterus as well as nearby lymph nodes and a fold of fatty abdominal tissue known as the omentum, where ovarian cancer often spreads. Your surgeon also removes as much cancer as possible from your abdomen (surgical debulking). 
+&lt;/p&gt;
+&lt;p&gt;
+Less extensive surgery may be possible if your ovarian cancer was diagnosed at a very early stage. For women with stage I ovarian cancer, surgery may involve removing one ovary and its fallopian tube. This procedure may preserve the ability to have children. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Chemotherapy&lt;/strong&gt;&lt;br /&gt;
+After surgery, you&apos;ll most likely be treated with chemotherapy &amp;mdash; drugs designed to kill any remaining cancer cells. Chemotherapy may also be used as the initial treatment in some women with advanced ovarian cancer. Chemotherapy drugs can be given in a vein (intravenously) or injected directly into the abdominal cavity, or both methods can be used. Chemotherapy drugs can be given alone or in combination. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A diagnosis of ovarian cancer can be extremely worrisome and challenging. Even when a full recovery is likely, you may be concerned about a recurrence. But no matter what your prognosis, here are some strategies and resources that may make dealing with cancer easier: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Know what to expect.&lt;/strong&gt; Find out enough about your ovarian cancer so that you feel comfortable making decisions about your care. Good places to start when looking for information include the National Cancer Institute and the American Cancer Society.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find someone to talk with.&lt;/strong&gt; Find a friend or family member with whom you feel comfortable discussing your feelings. Or try meeting with a formal support group for cancer survivors. It may help to talk with others who have already been through the challenges you&apos;re facing. Support groups for the families of cancer survivors also are available.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Let people help.&lt;/strong&gt; If you have friends or family who want to help, take them up on their offers and let them know what would be most useful to you. Cancer treatments can be exhausting, so if someone wants to do your grocery shopping, wash a load of laundry or cook you dinner, accept the help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Set reasonable goals.&lt;/strong&gt; Having goals helps you feel in control and can give you a sense of purpose. But don&apos;t choose goals you can&apos;t possibly reach. For example, you may not be able to work a full workweek but you may be able to work at least half the time. In fact, many people find that continuing to work is helpful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, relaxing and getting enough rest can help combat the stress and fatigue of cancer. Also, cut back on time commitments and plan ahead for times when you may need more rest.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no sure way to prevent ovarian cancer. But there may be ways to reduce your risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking birth control pills.&lt;/strong&gt; Ask your doctor whether birth control pills may be right for you. Women who use oral contraceptives may have a reduced risk of ovarian cancer. But oral contraceptives do have risks, so discuss whether the benefits outweigh those risks for you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss your risk factors with your doctor.&lt;/strong&gt; If you have a family history of breast and ovarian cancers, tell your doctor. Your doctor can determine what this may mean for your own risk of cancer. In some cases, your doctor may refer you to a genetic counselor who can help you decide whether genetic testing may be right for you. If you&apos;re found to have a gene mutation that increases your risk of ovarian cancer, you may consider surgery to remove your ovaries to prevent cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Ovarian cancer
+	</Title>
+	<Abstract>
+		Ovarian cancer &amp;mdash; Comprehensive overview covers ovarian cancer symptoms, diagnosis, treatment and future treatments.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00590" LinkType="Internal" ObjectID="C8FFB9B3-00AC-2863-299CEB1E08E1A0A5" Title="CA 125 test" Url="http://www.mayoclinic.com/health/ca-125-test/MY00590" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00657" LinkType="Internal" ObjectID="A121BD6A-0332-6EC7-9EC5870D8B4B5EF3" Title="Pelvic exam" Url="http://www.mayoclinic.com/health/pelvic-exam/MY00657" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02174" LinkType="Internal" ObjectID="9A4289A3-CF79-8006-75C83F9051AC42F8" Title="Egg freezing" Url="http://www.mayoclinic.com/health/egg-freezing/MY02174" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00554" LinkType="Internal" ObjectID="3DBBC50B-9EAA-08E9-438DD8EDF1A92A3F" Title="Oophorectomy (ovary removal surgery)" Url="http://www.mayoclinic.com/health/oophorectomy/MY00554" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01000" LinkType="Internal" ObjectID="30194BFB-F5E3-3609-514F36741D3FB1BE" Title="Tubal ligation" Url="http://www.mayoclinic.com/health/tubal-ligation/MY01000" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Article" DocID="MY01616" LinkType="Internal" ObjectID="C1B3036C-95C2-0633-0DCE16D2A2F0BE5B" Title="Fertility preservation: Understand your options before cancer treatment" Url="http://www.mayoclinic.com/health/fertility-preservation/MY01616" />
+		<LinkItem ContentType="Article" DocID="WO00095" LinkType="Internal" ObjectID="B61BA82F-1499-4884-B50A819DB83A87CE" Title="Prophylactic oophorectomy: Preventing cancer by surgically removing your ovaries" Url="http://www.mayoclinic.com/health/breast-cancer/WO00095" />
+		<LinkItem ContentType="Article" DocID="WO00098" LinkType="Internal" ObjectID="42D602A0-DB4A-49D5-8C5241231FF58FEC" Title="Birth control pill FAQ: Benefits, risks and choices" Url="http://www.mayoclinic.com/health/birth-control-pill/WO00098" />
+		<LinkItem ContentType="Answer" DocID="AN01810" LinkType="Internal" ObjectID="E6445E06-E7FF-0DBD-102B681AB262F6E4" Title="Pap smear: Can it detect ovarian cancer?" Url="http://www.mayoclinic.com/health/ovarian-cancer/AN01810" />
+		<LinkItem ContentType="Answer" DocID="AN01018" LinkType="Internal" ObjectID="D547C3B0-C9D2-4105-92C9183284AA354C" Title="Ovarian cancer: Still possible after hysterectomy?" Url="http://www.mayoclinic.com/health/ovarian-cancer/AN01018" />
+		<LinkItem ContentType="Answer" DocID="HQ00366" LinkType="Internal" ObjectID="A8C71D2D-D06B-4948-A68238AD2D1FC622" Title="CA 125 test: A screening test for ovarian cancer?" Url="http://www.mayoclinic.com/health/ca-125/HQ00366" />
+		<LinkItem ContentType="Answer" DocID="AN01788" LinkType="Internal" ObjectID="59D6ADA7-E7FF-0DBD-10EEF5466C67A33E" Title="Ovarian cancer vaccine: Can it prevent recurrence?" Url="http://www.mayoclinic.com/health/ovarian-cancer-vaccine/AN01788" />
+		<LinkItem ContentType="Disease" DocID="DS00314" LinkType="Internal" ObjectID="6DA0F41C-F55D-430B-A0B267A41E791B57" Title="Obesity" Url="http://www.mayoclinic.com/health/obesity/DS00314" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,349 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00107
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/infant-jaundice/DS00107
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-14
+		</UpdateDate>
+		<PublicationDate>
+			2000-10-15
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver">
+						<Keyword MCVID="1842" Title="Jaundice" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EDFE58D5-87F3-4231-91E36178255A37D9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				infant jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				jaundice in newborns
+			</MetaKeyword>
+			<MetaKeyword>
+				newborns
+			</MetaKeyword>
+			<MetaKeyword>
+				bilirubin
+			</MetaKeyword>
+			<MetaKeyword>
+				hyperbilirubinemia
+			</MetaKeyword>
+			<MetaKeyword>
+				neonatal jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				jaundice
+			</MetaKeyword>
+			<MetaKeyword>
+				yellow skin
+			</MetaKeyword>
+			<MetaKeyword>
+				premature yellow skin
+			</MetaKeyword>
+			<MetaKeyword>
+				icterus
+			</MetaKeyword>
+			<MetaKeyword>
+				acute bilirubin encephalopathy
+			</MetaKeyword>
+			<MetaKeyword>
+				kernicterus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Infant jaundice is a yellow discoloration in a newborn baby&apos;s skin and eyes. Infant jaundice occurs because the baby&apos;s blood contains an excess of bilirubin (bil-ih-ROO-bin), a yellow-colored pigment of red blood cells. 
+&lt;/p&gt;
+&lt;p&gt;
+Infant jaundice is a common condition, particularly in babies born before 38 weeks gestation (preterm babies) and breast-fed babies. Infant jaundice usually occurs because a baby&apos;s liver isn&apos;t mature enough to get rid of bilirubin in the bloodstream. In some cases, an underlying disease may cause jaundice. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment of infant jaundice often isn&apos;t necessary, and most cases that need treatment respond well to noninvasive therapy. Although complications are rare, severe infant jaundice or poorly treated jaundice can cause brain damage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs of infant jaundice usually appear between the second and fourth day after birth and include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Yellowing of the skin&lt;/li&gt;
+	&lt;li&gt;Yellowing of the eyes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;ll usually notice jaundice first in your baby&apos;s face. If the condition progresses, you may notice the yellow color in his or her eyes, chest, abdomen, arms and legs. 
+&lt;/p&gt;
+&lt;p&gt;
+The best way to check for infant jaundice is to press your finger gently on your baby&apos;s forehead or nose. If the skin looks yellow where you pressed, it&apos;s likely your baby has jaundice. If your baby doesn&apos;t have jaundice, the skin color should simply look slightly lighter than its normal color for a moment. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s best to examine your baby in good lighting conditions, preferably in natural daylight. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Most hospitals have a policy of checking a baby for jaundice before discharge. The American Academy of Pediatrics guidelines regarding jaundice recommend that your newborn infant be examined for jaundice whenever a routine medical check is done and at least every eight to 12 hours while in the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+Your baby should be checked for jaundice when he or she is between three and seven days old, when bilirubin levels usually peak. Therefore, if your baby is discharged earlier than 72 hours following birth, you should have a follow-up appointment to check for jaundice within two days of discharge. 
+&lt;/p&gt;
+&lt;p&gt;
+The following signs or symptoms may indicate severe jaundice or complications from jaundice. Call your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your baby&apos;s skin becomes more yellow&lt;/li&gt;
+	&lt;li&gt;Your baby&apos;s skin looks yellow on the abdomen, arms or legs&lt;/li&gt;
+	&lt;li&gt;The whites of your baby&apos;s eyes look yellow&lt;/li&gt;
+	&lt;li&gt;Your baby seems listless, sick or difficult to wake&lt;/li&gt;
+	&lt;li&gt;Your baby isn&apos;t gaining weight or is feeding poorly&lt;/li&gt;
+	&lt;li&gt;Your baby makes high-pitched cries&lt;/li&gt;
+	&lt;li&gt;Your baby develops any other signs or symptoms that concern you&lt;/li&gt;
+	&lt;li&gt;Diagnosed jaundice lasts more than three weeks&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The main cause of jaundice is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Excess bilirubin (hyperbilirubinemia).&lt;/strong&gt; Bilirubin is the substance that causes the yellow color of jaundice. It&apos;s a normal part of the waste produced when &quot;used&quot; red blood cells are broken down. Normally, the liver filters bilirubin from the bloodstream and releases it into the intestinal tract. Before birth, a mother&apos;s liver removes bilirubin from the baby&apos;s blood. The liver of a newborn is immature and often can&apos;t remove bilirubin quickly enough, causing an excess of bilirubin. Jaundice due to these normal newborn conditions is called physiologic jaundice, and it typically appears on the second or third day of life.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other causes &lt;/strong&gt;&lt;br /&gt;
+A baby may have an underlying disorder that is causing jaundice. In these cases, jaundice often appears much earlier or much later than physiologic jaundice. Diseases or conditions that can cause jaundice include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Internal bleeding (hemorrhage)&lt;/li&gt;
+	&lt;li&gt;An infection in your baby&apos;s blood (sepsis) &lt;/li&gt;
+	&lt;li&gt;Other viral or bacterial infections&lt;/li&gt;
+	&lt;li&gt;An incompatibility between the mother&apos;s blood and the baby&apos;s blood&lt;/li&gt;
+	&lt;li&gt;A liver malfunction&lt;/li&gt;
+	&lt;li&gt;An enzyme deficiency&lt;/li&gt;
+	&lt;li&gt;An abnormality of your baby&apos;s red blood cells&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Major risk factors for jaundice, particularly severe jaundice that can cause complications, include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Premature birth.&lt;/strong&gt; A premature baby may not be able to process bilirubin as quickly as full-term babies do. Also, he or she may feed less and have fewer bowel movements. These conditions result in less bilirubin eliminated in your baby&apos;s stool.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bruising during birth.&lt;/strong&gt; Sometimes babies are bruised during the delivery process. If your newborn has bruises, he or she may have a higher level of bilirubin from the breakdown of more red blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood type.&lt;/strong&gt; If your blood type is different from your baby&apos;s, your baby may have received antibodies from you through your placenta that cause his or her blood cells to break down more quickly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Breast-feeding.&lt;/strong&gt; Breast-fed babies have a higher risk of jaundice, particularly those who are having difficulty nursing or not getting enough nutrition from breast-feeding. Dehydration and low intake of calories from poor breast-feeding may contribute to the onset of jaundice.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Severe jaundice, if left untreated, can cause serious complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acute bilirubin encephalopathy&lt;/strong&gt; &lt;br /&gt;
+Bilirubin is toxic to cells of the brain. If a baby has severe jaundice, there&apos;s a risk of bilirubin passing into the brain, a condition called acute bilirubin encephalopathy. Prompt treatment may prevent significant permanent damage. 
+&lt;/p&gt;
+&lt;p&gt;
+The following signs may indicate acute bilirubin encephalopathy in a baby with jaundice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Listless, sick or difficult to wake&lt;/li&gt;
+	&lt;li&gt;High-pitched crying&lt;/li&gt;
+	&lt;li&gt;Poor sucking or feeding&lt;/li&gt;
+	&lt;li&gt;Backward arching of the neck and body&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Vomiting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Kernicterus&lt;/strong&gt; &lt;br /&gt;
+Kernicterus is the syndrome that occurs if acute bilirubin encephalopathy causes permanent damage to the brain. Kernicterus may result in: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Involuntary and uncontrolled movements (athetoid cerebral palsy)&lt;/li&gt;
+	&lt;li&gt;Permanent upward gaze&lt;/li&gt;
+	&lt;li&gt;Hearing loss&lt;/li&gt;
+	&lt;li&gt;Intellectual impairment&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bilirubin levels in the blood tend to peak when your baby is between three and seven days old. Therefore, it&apos;s important for your doctor to check your baby for jaundice during that time span. 
+&lt;/p&gt;
+&lt;p&gt;
+When your baby is discharged from the hospital, your doctor or nurse will check to see whether your baby has jaundice. If your baby does have jaundice, your doctor will judge the likelihood of the jaundice being severe based on a number of factors: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How much bilirubin is in the blood&lt;/li&gt;
+	&lt;li&gt;Whether your baby was born prematurely&lt;/li&gt;
+	&lt;li&gt;How well he or she is feeding&lt;/li&gt;
+	&lt;li&gt;How old your baby is&lt;/li&gt;
+	&lt;li&gt;Whether your baby has bruising from delivery&lt;/li&gt;
+	&lt;li&gt;Whether a brother or sister also had severe jaundice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Follow-up visit&lt;/strong&gt; &lt;br /&gt;
+Based on these factors, your doctor may recommend an earlier time for a follow-up visit. 
+&lt;/p&gt;
+&lt;p&gt;
+When you arrive for your follow-up appointment, be prepared to answer the following questions that your doctor is likely to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How well is your baby feeding?&lt;/li&gt;
+	&lt;li&gt;Is your baby breast-fed or formula-fed?&lt;/li&gt;
+	&lt;li&gt;How often is he or she feeding?&lt;/li&gt;
+	&lt;li&gt;How often does your baby have a wet diaper?&lt;/li&gt;
+	&lt;li&gt;How often is there stool in the diaper?&lt;/li&gt;
+	&lt;li&gt;Does he or she wake up easily for feeding?&lt;/li&gt;
+	&lt;li&gt;Does your baby seem sick or weak?&lt;/li&gt;
+	&lt;li&gt;Have you noticed any changes in the color of your baby&apos;s skin or eyes?&lt;/li&gt;
+	&lt;li&gt;If your baby has jaundice, has the yellow color spread to parts of the body other than the face?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may also prepare questions to ask your doctor at your follow-up appointment, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Is the jaundice severe?&lt;/li&gt;
+	&lt;li&gt;What tests will my baby need?&lt;/li&gt;
+	&lt;li&gt;Do we need to begin treatment for jaundice?&lt;/li&gt;
+	&lt;li&gt;Will I need to readmit my baby to the hospital?&lt;/li&gt;
+	&lt;li&gt;When should I schedule a follow-up visit?&lt;/li&gt;
+	&lt;li&gt;Do you have any brochures about jaundice and proper feeding?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask your doctor additional questions if you don&apos;t understand something during the appointment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will likely diagnose infant jaundice on the basis of your baby&apos;s appearance. However, it&apos;s not possible to judge the severity of jaundice based on appearance alone. Your doctor will need to measure the level of bilirubin in your baby&apos;s blood. The level of bilirubin (severity of jaundice) will determine the course of treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests to determine jaundice include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A physical exam&lt;/li&gt;
+	&lt;li&gt;A laboratory test of a sample of your baby&apos;s blood&lt;/li&gt;
+	&lt;li&gt;A skin test with a device called a transcutaneous bilirubinometer, which measures the reflection of a special light shone through the skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may order additional blood tests or urine tests if there&apos;s evidence that your baby&apos;s jaundice is caused by an underlying disorder that needs to be treated. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Mild infant jaundice often disappears on its own within two or three weeks. If your baby has moderate or severe jaundice, he or she may need to stay longer in the newborn nursery or be readmitted to the hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatments to lower the level of bilirubin in your baby&apos;s blood may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Light therapy (phototherapy).&lt;/strong&gt; Your baby may be placed under special lighting that emits light in the blue-green spectrum. The light changes the shape and structure of bilirubin molecules in such a way that they can be excreted in the urine and stool. The light isn&apos;t an ultraviolet light, and a protective plastic shield filters out any ultraviolet light that may be emitted. During the treatment, your baby will wear only a diaper and protective eye patches. The light therapy may be supplemented with the use of a light-emitting pad or mattress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intravenous immunoglobulin (IVIg).&lt;/strong&gt; Jaundice may be related to blood type differences between mother and baby. This condition results in the baby carrying antibodies from the mother that contribute to the breakdown of blood cells in the baby. Intravenous transfusion of immunoglobulin, a blood protein that can reduce levels of antibodies, may decrease jaundice and lessen the need for an exchange blood transfusion. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exchange blood transfusion.&lt;/strong&gt; Rarely, when severe jaundice doesn&apos;t respond to other treatments, a baby may need an exchange transfusion of blood. This involves repeatedly withdrawing small amounts of blood, diluting the bilirubin and maternal antibodies, and then transferring blood back into the baby &amp;mdash; a procedure that&apos;s performed in a newborn intensive care unit.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When infant jaundice isn&apos;t severe, your doctor may recommend changes in feeding habits that can lower levels of bilirubin. Talk to your doctor if you have any questions or concerns about how much or how often your baby is feeding or if you&apos;re having trouble breast-feeding. The following steps may lessen jaundice: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;More frequent feedings.&lt;/strong&gt; Feeding more frequently will provide your baby with more milk and cause more bowel movements, increasing the amount of bilirubin eliminated in your baby&apos;s stool. Breast-fed infants should have eight to 12 feedings a day for the first several days of life. Formula-fed infants usually should have 1 to 2 ounces (about 30 to 60 milliliters) of formula every two to three hours for the first week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Supplemental feedings.&lt;/strong&gt; If your baby is having trouble breast-feeding, is losing weight or is dehydrated, your doctor may suggest giving your baby formula or expressed milk to supplement breast-feeding. In some cases, your doctor may recommend using formula alone for a couple of days and then resuming breast-feeding. Ask your doctor what feeding options are right for your baby.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The best prevention of infant jaundice is adequate feeding. Breast-fed infants should have eight to 12 feedings a day for the first several days of life. Formula-fed infants usually should have 1 to 2 ounces (about 30 to 60 milliliters) of formula every two to three hours for the first week. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Infant jaundice
+	</Title>
+	<Abstract>
+		Infant jaundice &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this common newborn condition.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

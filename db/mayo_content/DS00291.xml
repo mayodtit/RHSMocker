@@ -1,0 +1,480 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00291
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/atrial-fibrillation/DS00291
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-08
+		</UpdateDate>
+		<PublicationDate>
+			2001-02-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1467" Title="Heart arrhythmias">
+							<Keyword MCVID="4264" Title="Atrial fibrillation" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F553CA62-FA20-4C2B-97C29F6EAF1F81EC
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmias
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial fibrillation
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial flutter
+			</MetaKeyword>
+			<MetaKeyword>
+				defibrillator
+			</MetaKeyword>
+			<MetaKeyword>
+				ICD
+			</MetaKeyword>
+			<MetaKeyword>
+				pacemaker
+			</MetaKeyword>
+			<MetaKeyword>
+				heart palpitations
+			</MetaKeyword>
+			<MetaKeyword>
+				arythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial fibrilation
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial fibulation
+			</MetaKeyword>
+			<MetaKeyword>
+				afib
+			</MetaKeyword>
+			<MetaKeyword>
+				atrial fib
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Atrial fibrillation is an irregular and often rapid heart rate that commonly causes poor blood flow to the body. During atrial fibrillation, the heart&apos;s two upper chambers (the atria) beat chaotically and irregularly &amp;mdash; out of coordination with the two lower chambers (the ventricles) of the heart. Atrial fibrillation symptoms include heart palpitations, shortness of breath and weakness. 
+&lt;/p&gt;
+&lt;p&gt;
+Episodes of atrial fibrillation can come and go, or you may have chronic atrial fibrillation. Although atrial fibrillation itself usually isn&apos;t life-threatening, it is a serious medical condition that sometimes requires emergency treatment. It can lead to complications. Treatments for atrial fibrillation may include medications and other interventions to try to alter the heart&apos;s electrical system. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A heart in atrial fibrillation doesn&apos;t beat efficiently. It may not be able to pump enough blood out to your body with each heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people with atrial fibrillation have no symptoms and are unaware of their condition until it&apos;s discovered during a physical examination. Those who do have atrial fibrillation symptoms may experience: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Palpitations, which are sensations of a racing, uncomfortable, irregular heartbeat or a flopping in your chest&lt;/li&gt;
+	&lt;li&gt;Decreased blood pressure&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Lightheadedness&lt;/li&gt;
+	&lt;li&gt;Confusion&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Chest pain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Atrial fibrillation may be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Occasional.&lt;/strong&gt; In this case it&apos;s called paroxysmal (par-ok-SIZ-mul) atrial fibrillation. You may have symptoms that come and go, lasting for a few minutes to hours and then stopping on their own.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic.&lt;/strong&gt; With chronic atrial fibrillation, your heart rhythm is always abnormal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;If you have any symptoms of atrial fibrillation, make an appointment with your doctor. Your doctor should be able to tell you if your symptoms are caused by atrial fibrillation or another heart arrhythmia. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have chest pain, seek emergency medical assistance immediately. Chest pain could signal that you&apos;re having a heart attack. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your heart consists of four chambers &amp;mdash; two upper chambers (atria) and two lower chambers (ventricles). Within the upper right chamber of your heart (right atrium) is a group of cells called the sinus node. This is your heart&apos;s natural pacemaker. The sinus node produces the impulse that normally starts each heartbeat. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, the impulse travels first through the atria and then through a connecting pathway between the upper and lower chambers of your heart called the atrioventricular (AV) node. As the signal passes through the atria, they contract, pumping blood from your atria into the ventricles below. As the signal passes through the AV node to the ventricles, the ventricles contract, pumping blood out to your body. 
+&lt;/p&gt;
+&lt;p&gt;
+In atrial fibrillation, the upper chambers of your heart (atria) experience chaotic electrical signals. As a result, they quiver. The AV node &amp;mdash; the electrical connection between the atria and the ventricles &amp;mdash; is overloaded with impulses trying to get through to the ventricles. The ventricles also beat rapidly, but not as rapidly as the atria. The reason is that the AV node is like a highway on-ramp &amp;mdash; only so many vehicles can get on at one time. 
+&lt;/p&gt;
+&lt;p&gt;
+The result is a fast and irregular heart rhythm. The heart rate in atrial fibrillation may range from 100 to 175 beats a minute. The normal range for a heart rate is 60 to 100 beats a minute. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Possible causes of atrial fibrillation&lt;br /&gt;
+&lt;/strong&gt;Abnormalities or damage to the heart&apos;s structure are the most common cause of atrial fibrillation. Possible causes of atrial fibrillation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High blood pressure&lt;/li&gt;
+	&lt;li&gt;Heart attacks&lt;/li&gt;
+	&lt;li&gt;Abnormal heart valves&lt;/li&gt;
+	&lt;li&gt;Heart defects you&apos;re born with (congenital)&lt;/li&gt;
+	&lt;li&gt;An overactive thyroid gland or other metabolic imbalance&lt;/li&gt;
+	&lt;li&gt;Exposure to stimulants, such as medications, caffeine or tobacco, or to alcohol&lt;/li&gt;
+	&lt;li&gt;Sick sinus syndrome &amp;mdash; functioning of the heart&apos;s natural pacemaker&lt;/li&gt;
+	&lt;li&gt;Emphysema or other lung diseases&lt;/li&gt;
+	&lt;li&gt;Previous heart surgery&lt;/li&gt;
+	&lt;li&gt;Viral infections&lt;/li&gt;
+	&lt;li&gt;Stress due to pneumonia, surgery or other illnesses&lt;/li&gt;
+	&lt;li&gt;Sleep apnea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+However, some people who have atrial fibrillation don&apos;t have any heart defects or damage, a condition called lone atrial fibrillation. In lone atrial fibrillation, the cause is often unclear, and serious complications are rare. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Atrial flutter&lt;br /&gt;
+&lt;/strong&gt;Atrial flutter is similar to atrial fibrillation, but the rhythm in your atria is more organized and less chaotic than the abnormal patterns common with atrial fibrillation. Sometimes you may have atrial flutter that develops into atrial fibrillation and vice versa. The symptoms, causes and risk factors of atrial flutter are similar to those of atrial fibrillation. For example, strokes are also a concern in someone with atrial flutter. As with atrial fibrillation, atrial flutter is usually not life-threatening when it&apos;s properly treated. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="60" Title="Normal heartbeat" URI="/images/image_popup/thumbs/hb7_heartelectricalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a normal heartbeat 
+" Caption="A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called the atrioventricular node (2). From the atrioventricular node, the signal travels through the ventricles (3), causing them to contract and pump out blood. After this, the process starts over (4). 
+" Height="330" Title="Normal heartbeat" URI="/images/image_popup/hb7_heartelectrical.jpg" Width="400" />
+				<HTML>
+					A normal heartbeat begins when a tiny cluster of cells called the sinus node sends an electrical signal (1). The signal then travels through the atria and passes through another group of cells called ...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing atrial fibrillation 
+" Caption="Electrical signals fire from multiple locations in the atria, causing abnormal quivering of the atria (1). The atrioventricular node &amp;mdash; your heart&apos;s natural pacemaker &amp;mdash; is unable to prevent all of these chaotic signals from entering the ventricles (2). Your ventricles respond to these extra, chaotic signals by beating faster than normal (3). 
+" Height="60" Title="Atrial fibrillation" URI="/images/image_popup/thumbs/hb7_afibthu.jpg" Width="60" />
+				<Image Alt="Illustration showing atrial fibrillation 
+" Caption="Electrical signals fire from multiple locations in the atria, causing abnormal quivering of the atria (1). The atrioventricular node &amp;mdash; your heart&apos;s natural pacemaker &amp;mdash; is unable to prevent all of these chaotic signals from entering the ventricles (2). Your ventricles respond to these extra, chaotic signals by beating faster than normal (3). 
+" Height="295" Title="Atrial fibrillation" URI="/images/image_popup/hb7_afib.jpg" Width="400" />
+				<HTML>
+					Electrical signals fire from multiple locations in the atria, causing abnormal quivering of the atria (1). The atrioventricular node &amp;mdash; your heart&apos;s natural pacemaker &amp;mdash; is unable to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for atrial fibrillation include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; The older you are, the greater your risk of developing atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart disease.&lt;/strong&gt; Anyone with heart disease, including valve problems and a history of heart attack and heart surgery, has an increased risk of atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Having high blood pressure, especially if it&apos;s not well controlled with lifestyle changes or medications, can increase your risk of atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other chronic conditions.&lt;/strong&gt; People with thyroid problems, sleep apnea and other medical problems have an increased risk of atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Drinking alcohol.&lt;/strong&gt; For some people, drinking alcohol can trigger an episode of atrial fibrillation. Binge drinking &amp;mdash; having five drinks in two hours for men, or four drinks for women &amp;mdash; may put you at higher risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; An increased risk of atrial fibrillation runs in some families.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sometimes atrial fibrillation can lead to the following complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Stroke.&lt;/strong&gt; In atrial fibrillation, the chaotic rhythm may cause blood to pool in your heart&apos;s upper chambers (atria) and form clots. If a blood clot forms, it could dislodge from your heart and travel to your brain. There it might block blood flow, causing a stroke.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The risk of stroke in atrial fibrillation depends on your age (you have a higher risk as you age) and on whether you have high blood pressure, diabetes, or a history of heart failure or previous stroke, and other factors. Certain medications, such as blood thinners, can greatly lower your risk of stroke or damage to other organs caused by blood clots.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart failure.&lt;/strong&gt; Atrial fibrillation, especially if not controlled, may weaken the heart and lead to heart failure &amp;mdash; a condition in which your heart can&apos;t circulate enough blood to meet your body&apos;s needs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you think you may have atrial fibrillation, it is critical that you make an appointment with your family doctor. If atrial fibrillation is found early, your treatment may be easier and more effective. Eventually, however, you may be referred to a heart specialist (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be prepared for your appointment. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your dietary intake. You may need to do this if your doctor orders blood tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any family history of heart disease, stroke, high blood pressure or diabetes, and any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to understand and remember all the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions&lt;/strong&gt; to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important, in case time runs out. For atrial fibrillation, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests will I need?&lt;/li&gt;
+	&lt;li&gt;What&apos;s the best treatment?&lt;/li&gt;
+	&lt;li&gt;What foods should I eat or avoid?&lt;/li&gt;
+	&lt;li&gt;What&apos;s an appropriate level of physical activity?&lt;/li&gt;
+	&lt;li&gt;How often should I be screened for heart disease or other complications of atrial fibrillation?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover seeing a specialist? (You may need to ask your insurance provider directly for information about coverage.)&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may save time to go over any points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To diagnose atrial fibrillation, your doctor may do tests that involve the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, patches with wires (electrodes) are attached to your skin to measure electrical impulses given off by your heart. Impulses are recorded as waves displayed on a monitor or printed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Holter monitor.&lt;/strong&gt; This is a portable machine that records all of your heartbeats. You wear the monitor under your clothing. It records information about the electrical activity of your heart as you go about your normal activities for a day or two. You can press a button if you feel symptoms, so your doctor can know what heart rhythm was present at that moment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event recorder.&lt;/strong&gt; This device is similar to a Holter monitor except that not all of your heartbeats are recorded. There are two recorder types: One uses a phone to transmit signals from the recorder while you&apos;re experiencing symptoms. The other type is worn all the time (except while showering) for as long as a month. Event recorders are especially useful in diagnosing rhythm disturbances that occur at unpredictable times.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; In this noninvasive test, sound waves are used to produce a video image of your heart. Sound waves are directed at your heart from a wand-like device (transducer) that&apos;s held on your chest. The sound waves that bounce off your heart are reflected through your chest wall and processed electronically to provide video images of your heart in motion, to detect underlying structural heart disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; These help your doctor rule out thyroid problems or other substances in your blood that may lead to atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; X-ray images help your doctor see the condition of your lungs and heart. Your doctor can also use an X-ray to diagnose conditions other than atrial fibrillation that may explain your signs and symptoms.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some people, a specific event or an underlying condition, such as a thyroid disorder, may trigger atrial fibrillation. If the condition that triggered your atrial fibrillation can be treated, you might not have any more heart rhythm problems &amp;mdash; or at least not for quite some time. If your symptoms are bothersome or if this is your first episode of atrial fibrillation, your doctor may attempt to reset the rhythm. 
+&lt;/p&gt;
+&lt;p&gt;
+The treatment option best for you will depend on how long you&apos;ve had atrial fibrillation, how bothersome your symptoms are and the underlying cause of your atrial fibrillation. Generally, the goals of treating atrial fibrillation are to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reset the rhythm or control the rate&lt;/li&gt;
+	&lt;li&gt;Prevent blood clots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The strategy you and your doctor choose depends on many factors, including whether you have other problems with your heart and if you&apos;re able to take medications that can control your heart rhythm. In some cases, you may need a more invasive treatment, such as surgery or medical procedures using catheters. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Resetting your heart&apos;s rhythm&lt;br /&gt;
+&lt;/strong&gt;Ideally, to treat atrial fibrillation, the heart rate and rhythm are reset to normal. To correct your condition, doctors may be able to reset your heart to its regular rhythm (sinus rhythm) using a procedure called cardioversion, depending on the underlying cause of atrial fibrillation and how long you&apos;ve had it. Cardioversion can be done in two ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cardioversion with drugs.&lt;/strong&gt; This form of cardioversion uses medications called anti-arrhythmics to help restore normal sinus rhythm. Depending on your heart condition, your doctor may recommend trying intravenous or oral medications to return your heart to normal rhythm. This is often done in the hospital with continuous monitoring of your heart rate. If your heart rhythm returns to normal, your doctor often will prescribe the same anti-arrhythmic or a similar one to try to prevent more spells of atrial fibrillation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrical cardioversion.&lt;/strong&gt; In this brief procedure, an electrical shock is delivered to your heart through paddles or patches placed on your chest. The shock stops your heart&apos;s electrical activity momentarily. When your heart begins again, the hope is that it resumes its normal rhythm. The procedure is performed during sedation, so you shouldn&apos;t feel the electric shock.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before cardioversion, you may be given a blood-thinning medication, such as warfarin (Coumadin), for several weeks to reduce the risk of blood clots and stroke. Unless the episode of atrial fibrillation lasted less than 24 hours, you&apos;ll need to take warfarin for at least four to six weeks after cardioversion to prevent a blood clot from forming even after your heart is back in normal rhythm. Warfarin is a powerful medication that can have dangerous side effects if not taken exactly as directed by your doctor. If you have any concerns about taking warfarin, talk to your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+Or, instead of taking warfarin, you may have a test called transesophageal echocardiography &amp;mdash; which can tell your doctor if you have any heart blood clots &amp;mdash; just before cardioversion. In transesophageal echocardiography, a tube is passed down your esophagus and detailed ultrasound images are made of your heart. You&apos;ll be sedated during the test. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Maintaining a normal heart rhythm&lt;br /&gt;
+&lt;/strong&gt;After electrical cardioversion, anti-arrhythmic medications often are prescribed to help prevent future episodes of atrial fibrillation. Commonly used medications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Amiodarone (Cordarone, Pacerone)&lt;/li&gt;
+	&lt;li&gt;Dronedarone (Multaq)&lt;/li&gt;
+	&lt;li&gt;Propafenone (Rythmol)&lt;/li&gt;
+	&lt;li&gt;Sotalol (Betapace)&lt;/li&gt;
+	&lt;li&gt;Dofetilide (Tikosyn)&lt;/li&gt;
+	&lt;li&gt;Flecainide (Tambocor)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Although these drugs can help maintain a normal heart rhythm in many people, they can cause side effects, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, they may cause ventricular arrhythmias &amp;mdash; life-threatening rhythm disturbances originating in the heart&apos;s lower chambers. These medications may be needed indefinitely. Even with medications, the chance of another episode of atrial fibrillation is high. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Heart rate control&lt;br /&gt;
+&lt;/strong&gt;Sometimes atrial fibrillation can&apos;t be converted to a normal heart rhythm. Then the goal is to slow the heart rate to between 60 and 100 beats a minute (rate control). Heart rate control can be achieved two ways: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Doctors have prescribed the medication digoxin (Lanoxin). It can control heart rate at rest, but not as well during activity. Most people require additional or alternative medications, such as calcium channel blockers or beta blockers. Other blood pressure lowering medications, such as angiotensin-converting enzyme (ACE) inhibitors, also are sometimes used to lower blood pressure and reduce the risk of atrial fibrillation complications.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Atrioventricular (AV) node ablation.&lt;/strong&gt; If medications don&apos;t work, or you have side effects, AV node ablation may be another option. The procedure involves applying radiofrequency energy to the pathway connecting the upper and lower chambers of your heart (AV node) through a long, thin tube (catheter) to destroy this small area of tissue. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	The procedure prevents the atria from sending electrical impulses to the ventricles. The atria continue to fibrillate, though, and anticoagulant medication is still required. A pacemaker is then implanted to establish a normal rhythm. After AV node ablation, you&apos;ll need to continue to take blood-thinning medications to reduce the risk of stroke, because your heart rhythm is still atrial fibrillation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Other surgical and catheter procedures&lt;br /&gt;
+&lt;/strong&gt;Sometimes medications or cardioversion to control atrial fibrillation doesn&apos;t work. In those cases, your doctor may recommend a procedure to destroy the area of heart tissue that&apos;s causing the erratic electrical signals and restore your heart to a normal rhythm. These options can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Radiofrequency catheter ablation.&lt;/strong&gt; In many people who have atrial fibrillation and an otherwise normal heart, atrial fibrillation is caused by rapidly discharging triggers, or &quot;hot spots.&quot; These hot spots are like abnormal pacemaker cells that fire so rapidly that the upper chambers of your heart quiver instead of beating efficiently. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Radiofrequency energy is directed to these hot spots through a catheter inserted in an artery near your groin and threaded up to your heart. This catheter is used to destroy these hot spots, scarring the tissue so the erratic electrical signals are normalized. This corrects the arrhythmia without the need for medications or implantable devices. In some cases, other types of catheters that can freeze the heart tissue (cryotherapy) are used. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical maze procedure.&lt;/strong&gt; The maze procedure is done during an open-heart surgery. Using a scalpel, doctors create several precise incisions in the upper chambers of your heart to create a pattern of scar tissue. Because scar tissue doesn&apos;t carry electricity, it interferes with stray electrical impulses that cause atrial fibrillation. Radiofrequency or cryotherapy also can be used to create the scars, and there are several variations of the surgical maze technique. The procedure has a high success rate, but because it usually requires open-heart surgery, it&apos;s generally reserved for people who don&apos;t respond to other treatments or when it can be done during other necessary heart surgery, such as coronary artery bypass surgery or heart valve repair. Some people need a pacemaker implanted after the procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing blood clots&lt;br /&gt;
+&lt;/strong&gt;Most people who have atrial fibrillation or who are undergoing certain treatments for atrial fibrillation are at especially high risk of blood clots that can lead to stroke. The risk is even higher if other heart disease is present along with atrial fibrillation. Your doctor may prescribe blood-thinning medications (anticoagulants) such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Warfarin (Coumadin).&lt;/strong&gt; If you&apos;re prescribed warfarin, carefully follow your doctor&apos;s instructions on taking it. Warfarin is a powerful medication that can have dangerous side effects. You&apos;ll need to have regular blood tests to monitor warfarin&apos;s effects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dabigatran (Pradaxa).&lt;/strong&gt; Another option for preventing blood clots is dabigatran. Dabigatran is as effective as warfarin at preventing blood clots that can lead to strokes, and doesn&apos;t require blood tests to make sure you&apos;re getting the proper dose. You shouldn&apos;t take dabigatran if you have a mechanical heart valve due to an increased risk of stroke or heart attack. Talk to your doctor about taking dabigatran as an alternative to warfarin if you&apos;re concerned about your risk of stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Rivaroxaban (Xarelto).&lt;/strong&gt; Rivaroxaban is another anticoagulant medication that&apos;s as effective as warfarin for preventing strokes. Rivaroxaban is a once-daily medication. Like any other anticoagulant, follow your doctor&apos;s dosing instructions carefully and don&apos;t stop taking rivaroxaban without talking to your doctor first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may need to take medications to prevent blood clots in addition to medications designed to treat your irregular heartbeat. Many people have spells of atrial fibrillation and don&apos;t even know it &amp;mdash; so you may need lifelong anticoagulants even after your rhythm has been restored to normal. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="60" Title="Illustration showing cardiac catheter ablation" URI="/images/image_popup/thumbs/r7_cathablationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="406" Title="Cardiac catheter ablation" URI="/images/image_popup/r7_cathablation.jpg" Width="400" />
+				<HTML>
+					In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may need to make lifestyle changes that improve the overall health of your heart, especially to prevent or treat conditions such as high blood pressure. Your doctor may suggest that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Eat heart-healthy foods&lt;/li&gt;
+	&lt;li&gt;Use less salt, which can help lower blood pressure&lt;/li&gt;
+	&lt;li&gt;Increase your physical activity&lt;/li&gt;
+	&lt;li&gt;Quit smoking&lt;/li&gt;
+	&lt;li&gt;Avoid drinking more than one drink of alcohol for women or more than two drinks for men a day&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There are some things you can do to try to prevent recurrent spells of atrial fibrillation. You may need to reduce or eliminate caffeinated and alcoholic beverages from your diet, because they can sometimes trigger an episode of atrial fibrillation. It&apos;s also important to be careful when taking over-the-counter (OTC) medications. Some, such as cold medicines containing pseudoephedrine, contain stimulants that can trigger atrial fibrillation. Also, some OTC medications can have dangerous interactions with anti-arrhythmic medications. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Atrial fibrillation
+	</Title>
+	<Abstract>
+		Atrial fibrillation &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this common heart disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00706" LinkType="Internal" ObjectID="3A7B8711-9791-52F2-E2B504985C2BCD1D" Title="Cardiac ablation" Url="http://www.mayoclinic.com/health/cardiac-ablation/MY00706" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00705" LinkType="Internal" ObjectID="3A4EC13D-AF61-2E66-739550564BA315F4" Title="Cardioversion" Url="http://www.mayoclinic.com/health/cardioversion/MY00705" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+		<LinkItem ContentType="Disease" DocID="DS00929" LinkType="Internal" ObjectID="37186D72-E7FF-0DBD-1D9B3443C6D48BD1" Title="Tachycardia" Url="http://www.mayoclinic.com/health/tachycardia/DS00929" />
+	</RelatedLinksBox>
+</Disease>

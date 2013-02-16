@@ -1,0 +1,233 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY01161
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/group-b-strep-test/MY01161
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-18
+		</UpdateDate>
+		<PublicationDate>
+			2010-04-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="4725" Title="Care plan">
+					<Keyword MCVID="3366" Title="Reminder" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5198" Title="Pregnancy week by week">
+							<Keyword MCVID="3425" Title="Week 34" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1003" Title="Focus">
+				<Keyword MCVID="3593" Title="Manage health" />
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3887" Title="Life stage">
+						<Keyword MCVID="3052" Title="Pregnancy">
+							<Keyword MCVID="3660" Title="Strep test group B" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="3347" Title="Manage health">
+				<Keyword MCVID="3359" Title="Manage tests and screenings">
+					<Keyword MCVID="4752" Title="Manage DM clinical tests and screenings" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="5117" Title="Pregnancy app">
+					<Keyword MCVID="2133" Title="Pregnancy">
+						<Keyword MCVID="5210" Title="Prenatal care">
+							<Keyword MCVID="5211" Title="Medical tests" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			33A66E80-C751-1C08-FF53855EF508EB52
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				group b strep test
+			</MetaKeyword>
+			<MetaKeyword>
+				group b strep
+			</MetaKeyword>
+			<MetaKeyword>
+				group b strep pregnancy
+			</MetaKeyword>
+			<MetaKeyword>
+				group b strep infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Group B streptococcus &amp;mdash; also called group B strep &amp;mdash; is a common bacterium often carried in the intestines or lower genital tract. Although group B strep is usually harmless in adults, it can cause complications during pregnancy and serious illness in newborns. If you&apos;re pregnant, your health care provider will likely recommend a group B strep test during the third trimester.
+&lt;/p&gt;
+&lt;p&gt;
+During a group B strep test, your health care provider will swab your vagina and rectum and send the samples to a lab for testing. In some cases, you might be given instructions on how to collect the samples yourself. Because you can test positive at certain times and negative at other times, you&apos;ll need to repeat the group B strep test each time you&apos;re pregnant.
+&lt;/p&gt;
+&lt;p&gt;
+If the group B strep test is negative, no action is needed. If the group B strep test is positive, you&apos;ll be given antibiotics during labor to prevent group B strep disease in your baby.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The group B strep test is done during pregnancy to identify women who carry this common bacterium. 
+&lt;/p&gt;
+&lt;p&gt;
+Group B strep is usually harmless in adults. Rarely, however, group B strep can cause health problems during pregnancy, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Urinary tract infection&lt;/li&gt;
+	&lt;li&gt;Infection of the placenta and amniotic fluid (chorioamnionitis)&lt;/li&gt;
+	&lt;li&gt;Bacteria in the blood (bacteremia)&lt;/li&gt;
+	&lt;li&gt;Life-threatening infection in the blood (sepsis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, group B strep can contribute to inflammation and infection of the membrane lining the uterus (endometritis) after delivery. Group B strep also increases the risk of wound infection after a C-section. 
+&lt;/p&gt;
+&lt;p&gt;
+The primary concern with group B strep, however, is the risk to the baby. 
+&lt;/p&gt;
+&lt;p&gt;
+Group B strep can spread to the baby during a vaginal delivery if the baby is exposed to fluids containing the bacterium. While only a few babies who are exposed to group B step develop an infection, those who are infected could develop life-threatening complications &amp;mdash; often shortly after birth, but sometimes days or even months later. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications for the baby could include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inflammation of the lungs (pneumonia)&lt;/li&gt;
+	&lt;li&gt;Inflammation of the membranes and fluid surrounding the brain and spinal cord (meningitis)&lt;/li&gt;
+	&lt;li&gt;Bacteria in the blood (bacteremia)&lt;/li&gt;
+	&lt;li&gt;Life-threatening infection in the blood (sepsis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have group B strep, treatment with antibiotics during labor will be recommended to destroy bacteria in the birth canal and reduce your baby&apos;s risk of developing an infection. Taking antibiotics before labor doesn&apos;t help since the bacteria can grow back quickly.
+&lt;/p&gt;
+&lt;p&gt;
+If you previously gave birth to a baby who had a group B strep infection or you had a urinary tract infection caused by group B strep during your current pregnancy, you&apos;re at higher risk of spreading group B strep to your baby. As a result, you&apos;ll automatically be treated with antibiotics during labor &amp;mdash; making a group B strep test unnecessary. 
+&lt;/p&gt;
+&lt;p&gt;
+Antibiotics aren&apos;t necessary if you&apos;re having a planned C-section, as long as labor hasn&apos;t begun and the amniotic sac &amp;mdash; the fluid-filled membrane that surrounds and cushions your baby during pregnancy &amp;mdash; is intact. Testing is still important, however, since labor could begin naturally before the scheduled C-section. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A group B strep test is typically done between weeks 35 and 37 of pregnancy. No special preparation is necessary.
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to tell your health care provider about your group B strep status during previous pregnancies and whether you&apos;ve delivered a baby who was infected with group B strep. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A group B strep test is usually done in a health care provider&apos;s office. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+You&apos;ll lie on your back on an exam table. Your health care provider will use sterile cotton swabs to take samples of cells and secretions from your lower vagina and rectum. 
+&lt;/p&gt;
+&lt;p&gt;
+In some practices, you might be given instructions on how to collect the samples yourself. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After the group B strep test, you can return to your usual activities right away.
+&lt;/p&gt;
+&lt;p&gt;
+Test results are typically available within several days. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you test positive for group B strep, it doesn&apos;t mean that you&apos;re ill or that your baby will be affected. It simply means the potential for newborn infection exists.
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your health care provider about a plan for labor and make sure you remind your health care team of your group B strep status during labor. Also tell your health care provider if you&apos;re allergic to any medications.
+&lt;/p&gt;
+&lt;p&gt;
+Your reminders will help your health care team provide the best possible care during labor and delivery.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Group B strep test
+	</Title>
+	<Abstract>
+		A Group B strep test is a routine pregnancy screening. Understand the results.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="PR00094" LinkType="Internal" ObjectID="606908FC-6372-4539-A254A145E9FCF966" Title="Prenatal care: 3rd trimester visits" Url="http://www.mayoclinic.com/health/prenatal-care/PR00094" />
+		<LinkItem ContentType="Disease" DocID="DS01107" LinkType="Internal" ObjectID="C2C01557-E7FF-0DBD-14196DF5D12B8DD4" Title="Group B strep disease" Url="http://www.mayoclinic.com/health/group-b-strep/DS01107" />
+	</RelatedLinksBox>
+</TestProcedure>

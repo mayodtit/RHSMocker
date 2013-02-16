@@ -1,0 +1,159 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN02022
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/huperzine-a/AN02022
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-23
+		</UpdateDate>
+		<PublicationDate>
+			2009-11-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1128" Title="80 and over" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1755" Title="Brain">
+						<Keyword MCVID="2307" Title="Dementia">
+							<Keyword MCVID="2860" Title="Alzheimer&apos;s" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			EC0E480F-AB0C-D730-A6EA666C823EBC1E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				huperzine A
+			</MetaKeyword>
+			<MetaKeyword>
+				alzheimer&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				alzheimer&apos;s disease treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				alzheimers
+			</MetaKeyword>
+			<MetaKeyword>
+				memory loss
+			</MetaKeyword>
+			<MetaKeyword>
+				memory loss prevention
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Huperzine (HOOP-ur-zeen) A, a dietary supplement derived from the Chinese club moss Huperzia serrata, has received some interest as a potential treatment for Alzheimer&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Huperzine A acts as a cholinesterase inhibitor &amp;mdash; a type of medication that works by improving the levels of neurotransmitters in the brain. Small early studies suggest that huperzine A may improve memory and protect nerve cells, which could slow the cognitive decline associated with Alzheimer&apos;s. More studies are needed, however, to determine possible benefits and long-term risks of huperzine A.
+&lt;/p&gt;
+&lt;p&gt;
+For now, most doctors don&apos;t recommend taking huperzine A because FDA-approved cholinesterase inhibitor medications are available that have been tested for safety and effectiveness. The Alzheimer&apos;s Association recommends that you not take huperzine A if you&apos;re already taking a prescribed cholinesterase inhibitor, such as donepezil (Aricept), rivastigmine (Exelon) or galantamine (Razadyne). Taking both could cause side effects, such as nausea, vomiting, diarrhea, dizziness and muscle cramps. Consult with your doctor before starting any dietary supplement, including huperzine A.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Huperzine A: Can it treat Alzheimer&apos;s?
+	</Title>
+	<Abstract>
+		Huperzine A may play a role in Alzheimer&apos;s treatment, but more studies are needed.
+	</Abstract>
+	<Question>
+		Can huperzine A prevent memory loss and improve cognitive function in people with Alzheimer&apos;s disease?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01709" LinkType="Internal" ObjectID="B8B48599-E7FF-0DBD-14F2FAC2EB12A6C0" Title="Oophorectomy (ovary removal): A risk factor for dementia?" Url="http://www.mayoclinic.com/health/oophorectomy/AN01709" />
+		<LinkItem ContentType="PodCast" DocID="MY00334" LinkType="Internal" ObjectID="F71EFE92-E7FF-0DBD-11C82D8072085084" Title="Podcast: Caregiving tips for Alzheimer&apos;s disease" Url="http://www.mayoclinic.com/health/alzheimers-caregiving/MY00334" />
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+		<LinkItem ContentType="Answer" DocID="AN01684" LinkType="Internal" ObjectID="3B686670-E7FF-0DBD-1C31B89E695D1746" Title="Phantosmia: What causes olfactory hallucinations?" Url="http://www.mayoclinic.com/health/phantosmia/AN01684" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00238" LinkType="Internal" ObjectID="05C8BD86-E7FF-0DBD-150059E403970C30" Title="Positron emission tomography (PET) scan" Url="http://www.mayoclinic.com/health/pet-scan/MY00238" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00233" LinkType="Internal" ObjectID="05BE3A9E-E7FF-0DBD-11BF057AFF68529F" Title="SPECT scan" Url="http://www.mayoclinic.com/health/spect-scan/MY00233" />
+		<LinkItem ContentType="Article" DocID="AZ00030" LinkType="Internal" ObjectID="D5DACA0C-5CC6-4668-A93B8A1BBAA0A77F" Title="Alzheimer&apos;s: Managing sleep problems" Url="http://www.mayoclinic.com/health/alzheimers/AZ00030" />
+		<LinkItem ContentType="Article" DocID="HQ00213" LinkType="Internal" ObjectID="CF51EDFA-83FE-4292-A2D90C07588B6F90" Title="Alzheimer&apos;s: Tips to make holidays more enjoyable" Url="http://www.mayoclinic.com/health/alzheimers/HQ00213" />
+		<LinkItem ContentType="Article" DocID="AZ00029" LinkType="Internal" ObjectID="B5BA1786-98CC-413F-8C8BF2A1E922045C" Title="Alzheimer&apos;s: 7 tips for medical visits" Url="http://www.mayoclinic.com/health/alzheimers/AZ00029" />
+		<LinkItem ContentType="Article" DocID="MY01266" LinkType="Internal" ObjectID="AA98CBAB-9E7C-71EE-1C043F7B5C927F02" Title="Caregiving: Tips for long-distance caregivers" Url="http://www.mayoclinic.com/health/caregiving/MY01266" />
+		<LinkItem ContentType="Article" DocID="MY01710" LinkType="Internal" ObjectID="9C1A59DE-FE10-7036-DA60A2D4C43C5905" Title="Home safety tips: Preparing for Alzheimer&apos;s caregiving" Url="http://www.mayoclinic.com/health/home-safety-tips/MY01710" />
+		<LinkItem ContentType="Article" DocID="MY02229" LinkType="Internal" ObjectID="97D10F99-96F9-B8ED-A29B93C2B91AE495" Title="Mediterranean diet recipes" Url="http://www.mayoclinic.com/health/mediterranean-diet-recipes/MY02229" />
+		<LinkItem ContentType="Article" DocID="MY02122" LinkType="Internal" ObjectID="85845781-9F46-6A0D-BE56D8C4A452879F" Title="Pet therapy: Man&apos;s best friend as healer" Url="http://www.mayoclinic.com/health/pet-therapy/MY02122" />
+		<LinkItem ContentType="Article" DocID="MY01231" LinkType="Internal" ObjectID="2F3ED231-0C00-8975-4818600153B102AE" Title="Caregiver stress: Tips for taking care of yourself" Url="http://www.mayoclinic.com/health/caregiver-stress/MY01231" />
+		<LinkItem ContentType="Article" DocID="MY01938" LinkType="Internal" ObjectID="14CED895-A204-2452-8908242FA527CCCB" Title="Adult day service: What you need to know" Url="http://www.mayoclinic.com/health/adult-day-service/MY01938" />
+		<LinkItem ContentType="Article" DocID="MY01767" LinkType="Internal" ObjectID="047FC00E-F79B-FB41-3B27C38D95E48E22" Title="Sharing Alzheimer&apos;s diagnosis: Tips for caregivers" Url="http://www.mayoclinic.com/health/sharing-alzheimers-diagnosis/MY01767" />
+		<LinkItem ContentType="PodCast" DocID="MY00335" LinkType="Internal" ObjectID="F7228618-E7FF-0DBD-189B1E1109DC5FA3" Title="Podcast: Tips for slowing the mental decline of Alzheimer&apos;s" Url="http://www.mayoclinic.com/health/alzheimers/MY00335" />
+		<LinkItem ContentType="Answer" DocID="AN02111" LinkType="Internal" ObjectID="DC848C63-C5FD-24BF-69CF41FC25FE6F5D" Title="Elder care for Alzheimer&apos;s: Choosing a provider" Url="http://www.mayoclinic.com/health/elder-care/AN02111" />
+		<LinkItem ContentType="Answer" DocID="AN01592" LinkType="Internal" ObjectID="BDBBF36B-E7FF-0DBD-1281C4413A2B84CD" Title="Phosphatidylserine supplements: Can they improve memory?" Url="http://www.mayoclinic.com/health/phosphatidylserine/AN01592" />
+		<LinkItem ContentType="Answer" DocID="AN01710" LinkType="Internal" ObjectID="B8B555B7-E7FF-0DBD-1CAC0239C00B61AE" Title="Alzheimer&apos;s: Can a head injury increase my risk?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN01710" />
+		<LinkItem ContentType="Answer" DocID="HQ01463" LinkType="Internal" ObjectID="B88FCF99-9574-4008-8FCA7E8B65C4E64D" Title="Sundowning: Late-day confusion" Url="http://www.mayoclinic.com/health/sundowning/HQ01463" />
+		<LinkItem ContentType="Answer" DocID="AN01956" LinkType="Internal" ObjectID="AC9BA6BC-E7FF-0DBD-1AF488F74B03D6F8" Title="Alzheimer&apos;s nose spray: New Alzheimer&apos;s treatment?" Url="http://www.mayoclinic.com/health/alzheimers-nose-spray/AN01956" />
+		<LinkItem ContentType="Answer" DocID="AN01981" LinkType="Internal" ObjectID="A896877F-0AC6-8BE9-9A28AB844E68D9D7" Title="Ginkgo biloba: Can it prevent memory loss?" Url="http://www.mayoclinic.com/health/ginkgo-biloba-memory-loss/AN01981" />
+		<LinkItem ContentType="Answer" DocID="AN01993" LinkType="Internal" ObjectID="86274491-E541-9324-BB3CD933298BF408" Title="Alzheimer&apos;s test: Detection at the earliest stages" Url="http://www.mayoclinic.com/health/alzheimers-test/AN01993" />
+		<LinkItem ContentType="Answer" DocID="AN01992" LinkType="Internal" ObjectID="86238456-F48D-B500-9AE28FDDC4B45D43" Title="Axona: Medical food to treat Alzheimer&apos;s" Url="http://www.mayoclinic.com/health/Axona/AN01992" />
+		<LinkItem ContentType="Answer" DocID="AN02026" LinkType="Internal" ObjectID="8586282B-DBFF-E70D-EDD1DE6F3910A016" Title="Alzheimer&apos;s disease: Can exercise prevent memory loss?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN02026" />
+		<LinkItem ContentType="Answer" DocID="AN02184" LinkType="Internal" ObjectID="4D620388-D62F-066D-99F54DDE52C2837C" Title="Music and Alzheimer&apos;s: Can it help?" Url="http://www.mayoclinic.com/health/music-and-alzheimers/AN02184" />
+		<LinkItem ContentType="Answer" DocID="AN01602" LinkType="Internal" ObjectID="482BBA2E-E7FF-0DBD-16A42B9C3CED05EC" Title="Folic acid supplements: Can they slow cognitive decline?" Url="http://www.mayoclinic.com/health/folic-acid-supplements/AN01602" />
+		<LinkItem ContentType="Answer" DocID="AN01206" LinkType="Internal" ObjectID="37AB9CFF-996B-414E-95E4517F190D001F" Title="Rapidly progressing Alzheimer&apos;s: Something else?" Url="http://www.mayoclinic.com/health/alzheimers/AN01206" />
+		<LinkItem ContentType="Answer" DocID="AN00478" LinkType="Internal" ObjectID="2A864858-AA71-4C25-BABDC828D5AECFAD" Title="Vitamin B-12: Can it improve memory in Alzheimer&apos;s?" Url="http://www.mayoclinic.com/health/alzheimers/AN00478" />
+		<LinkItem ContentType="Answer" DocID="AN02036" LinkType="Internal" ObjectID="24EE84F4-9E0B-914A-4BE6023B3D44C191" Title="Alzheimer&apos;s: Can a Mediterranean diet lower my risk?" Url="http://www.mayoclinic.com/health/alzheimers-disease/AN02036" />
+		<LinkItem ContentType="Answer" DocID="AN02158" LinkType="Internal" ObjectID="1FCC546A-C226-0B0B-AB94D76AC5027ADF" Title="Benefits of being bilingual: Delay Alzheimer&apos;s?" Url="http://www.mayoclinic.com/health/benefits-of-being-bilingual/AN02158" />
+		<LinkItem ContentType="Answer" DocID="AN02099" LinkType="Internal" ObjectID="135464A2-F9A6-13C9-A1380A240650F701" Title="Alzheimer&apos;s prevention: Does it exist?" Url="http://www.mayoclinic.com/health/alzheimers-prevention/AN02099" />
+		<LinkItem ContentType="Article" DocID="AZ00041" LinkType="Internal" ObjectID="FD1D1154-E7FF-0DBD-19C90CADEF308EB0" Title="Alzheimer&apos;s stages: How the disease progresses" Url="http://www.mayoclinic.com/health/alzheimers-stages/AZ00041" />
+		<LinkItem ContentType="Article" DocID="HQ00212" LinkType="Internal" ObjectID="F74469C4-4368-45E2-8D43DA4D937035E8" Title="Alzheimer&apos;s or depression: Could it be both?" Url="http://www.mayoclinic.com/health/alzheimers/HQ00212" />
+		<LinkItem ContentType="Article" DocID="AZ00009" LinkType="Internal" ObjectID="F708B0C2-73AF-4EF3-A3C5730F138DC167" Title="Early-onset Alzheimer&apos;s: When symptoms begin before age 65" Url="http://www.mayoclinic.com/health/alzheimers/AZ00009" />
+		<LinkItem ContentType="Article" DocID="AZ00015" LinkType="Internal" ObjectID="E5A1ECDC-0403-48A2-8C8C7D5F789C336B" Title="Alzheimer&apos;s: Drugs help manage symptoms" Url="http://www.mayoclinic.com/health/alzheimers/AZ00015" />
+		<LinkItem ContentType="Article" DocID="AZ00017" LinkType="Internal" ObjectID="E25F0DAA-58EF-4224-8DF91E3D1C206A5E" Title="Diagnosing Alzheimer&apos;s: An interview with a Mayo Clinic specialist" Url="http://www.mayoclinic.com/health/alzheimers/AZ00017" />
+		<LinkItem ContentType="Article" DocID="AZ00048" LinkType="Internal" ObjectID="D0EC8260-E7FF-0DBD-1C0FC117A1B46466" Title="Alzheimer&apos;s treatments: What&apos;s on the horizon?" Url="http://www.mayoclinic.com/health/alzheimers-treatments/AZ00048" />
+		<LinkItem ContentType="Article" DocID="AZ00050" LinkType="Internal" ObjectID="A56F5EE2-E7FF-0DBD-1856E36F1B77296A" Title="Diabetes and Alzheimer&apos;s linked" Url="http://www.mayoclinic.com/health/diabetes-and-alzheimers/AZ00050" />
+		<LinkItem ContentType="Article" DocID="AZ00047" LinkType="Internal" ObjectID="8EC1E4BF-E7FF-0DBD-171A288DEAC682A3" Title="Alzheimer&apos;s genes: Are you at risk?" Url="http://www.mayoclinic.com/health/alzheimers-genes/AZ00047" />
+		<LinkItem ContentType="Article" DocID="HQ00094" LinkType="Internal" ObjectID="85435FF5-08E0-41C4-9D1E961918167886" Title="Memory loss: When to seek help" Url="http://www.mayoclinic.com/health/memory-loss/HQ00094" />
+		<LinkItem ContentType="Disease" DocID="DS00161" LinkType="Internal" ObjectID="B07C9803-F749-40F5-BFA9B3F14D1E94D0" Title="Alzheimer&apos;s disease" Url="http://www.mayoclinic.com/health/alzheimers-disease/DS00161" />
+	</RelatedLinksBox>
+</Answer>

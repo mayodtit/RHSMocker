@@ -1,0 +1,112 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01764
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/chronic-fatigue/AN01764
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-17
+		</UpdateDate>
+		<PublicationDate>
+			2008-01-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1301" Title="Signs and symptoms ill defined">
+					<Keyword MCVID="3336" Title="Chronic fatigue" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			ABD5B151-E7FF-0DBD-1ABA85D253CDDBE0
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				chronic fatigue
+			</MetaKeyword>
+			<MetaKeyword>
+				chronic fatigue syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				fatigue
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Researchers have evaluated a variety of natural products for effectiveness against chronic fatigue syndrome. Most results have been disappointing. 
+&lt;/p&gt;
+&lt;p&gt;
+A few remedies &amp;mdash; magnesium injected into the muscles for people with low red blood cell magnesium, a combination of fish oil and evening primrose oil, melatonin, NADH, propionyl-L-carnitine, and D-ribose &amp;mdash; have shown encouraging results in preliminary studies. However, many of these promising early results weren&apos;t confirmed by follow-up studies, or the original studies were too small to be conclusive. 
+&lt;/p&gt;
+&lt;p&gt;
+At this time, there&apos;s little evidence to recommend any specific natural remedy as a treatment for chronic fatigue. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Chronic fatigue: Can a natural remedy boost my energy?
+	</Title>
+	<Abstract>
+		Find out what the research says about natural remedies for chronic fatigue.
+	</Abstract>
+	<Question>
+		Are there any natural remedies that reduce chronic fatigue associated with chronic fatigue syndrome?
+	</Question>
+	<QuestionFirstName>
+		Beverly
+	</QuestionFirstName>
+	<QuestionState>
+		California
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02185" LinkType="Internal" ObjectID="E6A32369-F6BA-086B-83800B2E9798545F" Title="What is hot yoga?" Url="http://www.mayoclinic.com/health/hot-yoga/AN02185" />
+		<LinkItem ContentType="Answer" DocID="AN01449" LinkType="Internal" ObjectID="D613ABE2-E7FF-0DBD-1A4B821FA21F9E4E" Title="Pain and depression: Is there a link?" Url="http://www.mayoclinic.com/health/pain-and-depression/AN01449" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00946" LinkType="Internal" ObjectID="B8F2F0B7-0260-1AF8-FFD06E9AC6F786CE" Title="Acupuncture" Url="http://www.mayoclinic.com/health/acupuncture/MY00946" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00194" LinkType="Internal" ObjectID="6A932FE2-E7FF-0DBD-15A1B22BF9201628" Title="Cognitive behavioral therapy" Url="http://www.mayoclinic.com/health/cognitive-behavioral-therapy/MY00194" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00186" LinkType="Internal" ObjectID="470A84D0-E7FF-0DBD-14CBD2F07ED3D45E" Title="Psychotherapy" Url="http://www.mayoclinic.com/health/psychotherapy/MY00186" />
+		<LinkItem ContentType="Video" DocID="MM00809" LinkType="Internal" ObjectID="2551E465-D9AF-E3F4-BFB66FA2995CAAFE" Title="Video: Tai chi" Url="http://www.mayoclinic.com/health/tai-chi-video/MM00809" />
+		<LinkItem ContentType="Answer" DocID="AN01679" LinkType="Internal" ObjectID="1E26541F-E7FF-0DBD-1CD540E561EE18C2" Title="Candida cleanse diet: What does it treat?" Url="http://www.mayoclinic.com/health/candida-cleanse/AN01679" />
+		<LinkItem ContentType="Article" DocID="HQ01676" LinkType="Internal" ObjectID="FA456B47-2492-4C72-A385E24D70911BD6" Title="Exercise: 7 benefits of regular physical activity" Url="http://www.mayoclinic.com/health/exercise/HQ01676" />
+		<LinkItem ContentType="Article" DocID="HQ01070" LinkType="Internal" ObjectID="6DA127A9-D9BE-421A-96ABD50B2262EC0D" Title="Meditation: A simple, fast way to reduce stress" Url="http://www.mayoclinic.com/health/meditation/HQ01070" />
+		<LinkItem ContentType="Article" DocID="SA00087" LinkType="Internal" ObjectID="440829CE-2022-4576-A79EA35F328DB850" Title="Tai chi: A gentle way to fight stress" Url="http://www.mayoclinic.com/health/tai-chi/SA00087" />
+		<LinkItem ContentType="Article" DocID="MH00002" LinkType="Internal" ObjectID="24EFE323-6344-484C-BADD87CBB450A08F" Title="Support groups: Make connections, get help" Url="http://www.mayoclinic.com/health/support-groups/MH00002" />
+		<LinkItem ContentType="Disease" DocID="DS00198" LinkType="Internal" ObjectID="69EA49D2-EA38-4A8A-95DB164A2555B514" Title="Hypoglycemia" Url="http://www.mayoclinic.com/health/hypoglycemia/DS00198" />
+		<LinkItem ContentType="Disease" DocID="DS00323" LinkType="Internal" ObjectID="072ADD99-C40D-4E6A-82DAA8347C662BDD" Title="Iron deficiency anemia" Url="http://www.mayoclinic.com/health/iron-deficiency-anemia/DS00323" />
+		<LinkItem ContentType="Disease" DocID="DS00395" LinkType="Internal" ObjectID="A026FC79-096B-4920-AA54503DE4B22308" Title="Chronic fatigue syndrome" Url="http://www.mayoclinic.com/health/chronic-fatigue-syndrome/DS00395" />
+	</RelatedLinksBox>
+</Answer>

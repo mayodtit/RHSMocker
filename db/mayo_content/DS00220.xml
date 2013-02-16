@@ -1,0 +1,314 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00220
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/transient-ischemic-attack/DS00220
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-03
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-19
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="1766" Title="Vascular">
+						<Keyword MCVID="2302" Title="Transient ischemic attack" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			0692C89B-9D70-42E7-BEB1527FF707B981
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				transient ischemic attack
+			</MetaKeyword>
+			<MetaKeyword>
+				TIA
+			</MetaKeyword>
+			<MetaKeyword>
+				stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				atherosclerosis
+			</MetaKeyword>
+			<MetaKeyword>
+				homocysteine
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery blockage
+			</MetaKeyword>
+			<MetaKeyword>
+				blocked carotid artery
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid artery surgery
+			</MetaKeyword>
+			<MetaKeyword>
+				carotid bruit
+			</MetaKeyword>
+			<MetaKeyword>
+				brain attack
+			</MetaKeyword>
+			<MetaKeyword>
+				mini strokes
+			</MetaKeyword>
+			<MetaKeyword>
+				ministrokes
+			</MetaKeyword>
+			<MetaKeyword>
+				mini-strokes
+			</MetaKeyword>
+			<MetaKeyword>
+				mini stroke
+			</MetaKeyword>
+			<MetaKeyword>
+				ministroke
+			</MetaKeyword>
+			<MetaKeyword>
+				mini-stroke
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A transient ischemic attack (TIA) is like a stroke, producing similar symptoms, but usually lasting only a few minutes and causing no permanent damage. Often called a mini stroke, a transient ischemic attack may be a warning. About 1 in 3 people who have a transient ischemic attack eventually has a stroke, with about half occurring within a year after the transient ischemic attack. 
+&lt;/p&gt;
+&lt;p&gt;
+A transient ischemic attack can serve as both a warning and an opportunity &amp;mdash; a warning of an impending stroke and an opportunity to take steps to prevent it.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Transient ischemic attacks usually last a few minutes. Most signs and symptoms disappear within an hour. The signs and symptoms of TIA resemble those found early in a stroke and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden weakness, numbness or paralysis in your face, arm or leg, typically on one side of your body&lt;/li&gt;
+	&lt;li&gt;Slurred or garbled speech or difficulty understanding others&lt;/li&gt;
+	&lt;li&gt;Sudden blindness in one or both eyes or double vision&lt;/li&gt;
+	&lt;li&gt;Dizziness, loss of balance or coordination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may have more than one TIA, and the recurrent signs and symptoms may be similar or different depending on which area of the brain is involved. If signs and symptoms last longer than 24 hours or cause lasting brain damage, it&apos;s considered a stroke.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek immediate medical attention if you suspect you&apos;ve had a transient ischemic attack. Prompt evaluation and identification of potentially treatable conditions may help you prevent a stroke.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A transient ischemic attack has the same origins as that of an ischemic stroke, the most common type of stroke. In an ischemic stroke, a clot blocks the blood supply to part of your brain. In a transient ischemic attack, unlike a stroke, the blockage is brief, and there is no permanent damage. 
+&lt;/p&gt;
+&lt;p&gt;
+The underlying cause of a TIA often is a buildup of cholesterol-containing fatty deposits called plaques (atherosclerosis) in an artery or one of its branches that supplies oxygen and nutrients to your brain. Plaques can decrease the blood flow through an artery or lead to the development of a clot. Other causes include a blood clot moving to your brain from another part of your body, most commonly from your heart.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some risk factors for transient ischemic attack and stroke can&apos;t be changed. Others, you can control. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors you can&apos;t change&lt;br /&gt;
+&lt;/strong&gt;You can&apos;t change the following risk factors for transient ischemic attack&lt;strong&gt; &lt;/strong&gt;and stroke. But knowing you&apos;re at risk can motivate you to change your lifestyle to reduce other risks. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Your risk may be greater if one of your family members has had a TIA or a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Your risk increases as you get older, especially after age 55.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gender.&lt;/strong&gt; Men have a slightly higher likelihood of TIA and stroke, but more than half of deaths from stroke occur in women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sickle cell disease.&lt;/strong&gt; Also called sickle cell anemia, stroke is a frequent complication of this inherited disorder. Sickle-shaped blood cells carry less oxygen and also tend to get stuck in artery walls, hampering blood flow to the brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Race.&lt;/strong&gt; Blacks are at greater risk of dying of a stroke, partly because of the higher prevalence of high blood pressure and diabetes among blacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Risk factors you can take steps to control&lt;/strong&gt; You can control or treat a number of risk factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure.&lt;/strong&gt; Risk of stroke begins to increase at blood pressure readings higher than 115/75 millimeters of mercury (mm Hg). Your doctor will help you decide on a target blood pressure based on your age, whether you have diabetes and other factors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiovascular disease.&lt;/strong&gt; This includes heart failure, a heart defect, a heart infection or an abnormal heart rhythm.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid artery disease&lt;/strong&gt;. The blood vessels in your neck that lead to your brain become clogged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Peripheral artery disease (PAD)&lt;/strong&gt;. The blood vessels that carry blood to your arms and legs become clogged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cigarette smoking.&lt;/strong&gt; Smoking increases your risk of blood clots, raises your blood pressure and contributes to the development of cholesterol-containing fatty deposits in your arteries (atherosclerosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical inactivity&lt;/strong&gt;. Engaging in 30 minutes of moderate intensity exercise most days helps reduce risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Diabetes.&lt;/strong&gt; Diabetes increases the severity of atherosclerosis &amp;mdash; narrowing of the arteries due to accumulation of fatty deposits &amp;mdash; and the speed with which it develops.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Poor nutrition.&lt;/strong&gt; Eating too much fat and salt, in particular, increases your risk of TIA and stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High cholesterol. &lt;/strong&gt;Eating less cholesterol and fat, especially saturated fat and trans fats, may reduce the plaques in your arteries. If you can&apos;t control your cholesterol through dietary changes alone, your doctor may prescribe a statin or another type of cholesterol-lowering medication. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;High levels of homocysteine.&lt;/strong&gt; Elevated levels of this amino acid in your blood can cause your arteries to thicken and scar, which makes them more susceptible to clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Excess weight.&lt;/strong&gt; A body mass index of 25 or higher and a waist circumference greater than 35 inches in women or 40 inches in men increase risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heavy drinking.&lt;/strong&gt; If you drink alcohol, limit yourself to no more than two drinks daily if you&apos;re a man and one drink daily if you&apos;re a woman.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of illicit drugs.&lt;/strong&gt; Avoid cocaine and other drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use of birth control pills.&lt;/strong&gt; If you use any hormone therapy, talk to your doctor about how the hormones may affect your risk of TIA and stroke.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A TIA often is diagnosed in an emergency situation, but if you&apos;re concerned about your risk of having a stroke, you can prepare to discuss the subject with your doctor at your next appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;If you want to discuss your risk of stroke with your doctor, write down and be ready to discuss: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your risk factors for stroke,&lt;/strong&gt; such as family history of strokes&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your medical history,&lt;/strong&gt; including a list of all medications, as well as any vitamins or supplements, you&apos;re taking&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Key personal information,&lt;/strong&gt; such as lifestyle habits and major stressors&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Whether you think you&apos;ve had a TIA&lt;/strong&gt; and what symptoms you experienced&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Questions&lt;/strong&gt; you might have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor may recommend that you have several tests to check your risk factors, and should tell you how to prepare for the tests, such as fasting before having your blood drawn to check your cholesterol and blood sugar levels.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because a transient ischemic attack is short-lived, your doctor may diagnose a TIA based just on the medical history of the event rather than on anything found during a general physical and neurological examination. To help determine the cause of your TIA and to assess your risk of stroke, your doctor may rely on the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical examination and tests.&lt;/strong&gt; Your doctor may check for risk factors of stroke, including high blood pressure, high cholesterol levels, diabetes and high levels of the amino acid homocysteine. Your doctor may also use a stethoscope to listen for a whooshing sound (bruit) over your arteries that may indicate atherosclerosis. Or your doctor may observe cholesterol fragments (emboli) in the tiny blood vessels of your retina, at the back of your eye, during an eye examination using an ophthalmoscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Carotid ultrasonography.&lt;/strong&gt; A wand-like device (transducer) sends high-frequency sound waves into your neck. After the sound waves pass through your tissue and back, your doctor can analyze images on a screen to look for narrowing or clotting in the carotid arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT) scanning.&lt;/strong&gt; CT scanning of your head uses X-ray beams to assemble a composite, 3-D look at your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography angiography (CTA) scanning.&lt;/strong&gt; Scanning of the head may also be used to noninvasively evaluate the arteries in your neck and brain. CTA scanning uses X-rays, similar to a standard CT scan of the head, but may also involve injection of a contrast material into a blood vessel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; This procedure, which uses a strong magnetic field, can generate a composite, 3-D view of your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance angiography (MRA).&lt;/strong&gt; This is a method of evaluating the arteries in your neck and brain. It uses a strong magnetic field, similar to MRI.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiography.&lt;/strong&gt; Your doctor may choose to perform a transthoracic echocardiogram (TTE) or transesophageal echocardiogram (TEE). A TTE involves moving an instrument called a transducer across your chest. The transducer emits sound waves that echo off of different parts of your heart, creating an ultrasound image. During a TEE, a flexible probe with a transducer built into it is placed in your esophagus &amp;mdash; the tube that connects the back of your mouth to your stomach. Because your esophagus is directly behind your heart, clearer, detailed ultrasound images can be created. This allows a better view of some things, such as blood clots, that might not be seen clearly in a traditional echocardiography exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arteriography.&lt;/strong&gt; This procedure gives a view of arteries in your brain not normally seen in X-ray imaging. A radiologist inserts a thin, flexible tube (catheter) through a small incision, usually in your groin. The catheter is manipulated through your major arteries and into your carotid or vertebral artery. Then, the radiologist injects a dye through the catheter to provide X-ray images of the arteries in your brain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Your doctor may request a blood screen to check for abnormalities in certain areas &amp;mdash; such as your blood glucose level, serum cholesterol and homocysteine count &amp;mdash; that may indicate an underlying problem.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once your doctor has determined the cause of your transient ischemic attack, the goal of treatment is to correct the abnormality and prevent a stroke. Depending on the cause of your TIA, your doctor may prescribe medication to reduce the tendency for blood to clot or may recommend surgery or a balloon procedure (angioplasty). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Doctors use several medications to decrease the likelihood of a stroke after a transient ischemic attack. The medication selected depends on the location, cause, severity and type of TIA. Two frequently prescribed types of drugs are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-platelet drugs.&lt;/strong&gt; These medications make your platelets, one of the circulating blood cell types, less likely to stick together. When blood vessels are injured, sticky platelets begin to form clots, a process completed by clotting proteins in blood plasma. The most frequently used anti-platelet medication is aspirin. Aspirin is also the least expensive treatment with the fewest potential side effects. An alternative to aspirin is the anti-platelet drug clopidogrel (Plavix). Your doctor may consider prescribing Aggrenox, a combination of low-dose aspirin and the anti-platelet drug dipyridamole, to reduce blood clotting. The way dipyridamole works is slightly different from aspirin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anticoagulants.&lt;/strong&gt; These drugs include heparin and warfarin (Coumadin). They affect clotting-system proteins instead of platelet function. Heparin is used short term and warfarin over a longer term. These drugs require careful monitoring. If atrial fibrillation is present, your doctor may prescribe another type of anticoagulant, dabigatran (Pradaxa).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;If you have a moderately or severely narrowed neck (carotid) artery, your doctor may suggest carotid endarterectomy (end-ahr-tur-EK-tuh-me). This preventive surgery clears carotid arteries of fatty deposits (atherosclerotic plaques) before another TIA or stroke can occur. An incision is made to open the artery, the plaques are removed, and the artery is closed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Angioplasty&lt;br /&gt;
+&lt;/strong&gt;In selected cases, a procedure called carotid angioplasty, or stenting, is an option. This procedure involves using a balloon-like device to open a clogged artery and placing a small wire tube (stent) into the artery to keep it open.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing steps in carotid endarterectomy 
+" Caption="In carotid endarterectomy, your surgeon opens the carotid artery to remove atherosclerotic plaques. 
+" Height="60" Title="Carotid endarterectomy" URI="/images/image_popup/thumbs/r7_carotidendarterectomythu.jpg" Width="60" />
+				<Image Alt="Illustration showing steps in carotid endarterectomy 
+" Caption="In carotid endarterectomy, your surgeon opens the carotid artery to remove atherosclerotic plaques. 
+" Height="245" Title="Carotid endarterectomy" URI="/images/image_popup/r7_carotidendarterectomy.jpg" Width="400" />
+				<HTML>
+					In carotid endarterectomy, your surgeon opens the carotid artery to remove atherosclerotic plaques. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Knowing your risk factors and living healthfully are the best things you can do to prevent a TIA. Included in a healthy lifestyle are regular medical checkups. Also: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t smoke.&lt;/strong&gt; Stopping smoking reduces your risk of a TIA or a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit cholesterol and fat.&lt;/strong&gt; Cutting back on cholesterol and fat, especially saturated fat, in your diet may reduce buildup of plaques in your arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat plenty of fruits and vegetables.&lt;/strong&gt; These foods contain nutrients such as potassium, folate and antioxidants, which may protect against a TIA or a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit sodium.&lt;/strong&gt; If you have high blood pressure, avoiding salty foods and not adding salt to food may reduce your blood pressure. Avoiding salt may not prevent hypertension, but excess sodium may increase blood pressure in people who are sensitive to sodium.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; If you have high blood pressure, regular exercise is one of the few ways you can lower your blood pressure without drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol intake.&lt;/strong&gt; Drink alcohol in moderation, if at all. The recommended limit is no more than one drink daily for women and two a day for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Being overweight contributes to other risk factors, such as high blood pressure, cardiovascular disease and diabetes. Losing weight with diet and exercise may lower your blood pressure and improve your cholesterol levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t use illicit drugs.&lt;/strong&gt; Drugs such as cocaine are associated with an increased risk of a TIA or a stroke.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control diabetes.&lt;/strong&gt; You can manage diabetes and high blood pressure with diet, exercise, weight control and, when necessary, medication.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Transient ischemic attack (TIA)
+	</Title>
+	<Abstract>
+		Transient ischemic attack (TIA) &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this neurological condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00656" LinkType="Internal" ObjectID="8C49C8F4-9D66-1A1D-2C493D48574FF96B" Title="Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty/MY00656" />
+		<LinkItem ContentType="Video" DocID="MM00772" LinkType="Internal" ObjectID="861FBD26-FE10-2D51-FB4BC9E72067F5DB" Title="Video: Carotid angioplasty and stenting" Url="http://www.mayoclinic.com/health/carotid-angioplasty-and-stenting/MM00772" />
+		<LinkItem ContentType="Answer" DocID="AN01432" LinkType="Internal" ObjectID="CCA6B427-E7FF-0DBD-13FC2CA56B5DBD8A" Title="Ministroke vs. regular stroke: What&apos;s the difference?" Url="http://www.mayoclinic.com/health/mini-stroke/AN01432" />
+		<LinkItem ContentType="Disease" DocID="DS00525" LinkType="Internal" ObjectID="6C45F5A5-0892-48A6-8CE681D77B4CCCCE" Title="Arteriosclerosis / atherosclerosis" Url="http://www.mayoclinic.com/health/arteriosclerosis-atherosclerosis/DS00525" />
+	</RelatedLinksBox>
+</Disease>

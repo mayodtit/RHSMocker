@@ -1,0 +1,347 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00604
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/primary-biliary-cirrhosis/DS00604
+		</OriginalURL>
+		<UpdateDate>
+			2011-11-16
+		</UpdateDate>
+		<PublicationDate>
+			2005-11-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1857" Title="Gallbladder and bile duct">
+						<Keyword MCVID="1861" Title="Biliary cirrhosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A4AFF83C-2A5D-9994-E3C9FA721C933D2B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				primary biliary cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				biliary cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				pbc
+			</MetaKeyword>
+			<MetaKeyword>
+				symptom of primary biliary cirrhosis
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				bile ducts
+			</MetaKeyword>
+			<MetaKeyword>
+				biliary cirrhosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Primary biliary cirrhosis is a disease in which the bile ducts in your liver are slowly destroyed. Bile, a fluid produced in your liver, plays a role in digesting food and helps rid your body of worn-out red blood cells, cholesterol and toxins. When bile ducts are damaged, as in primary biliary cirrhosis, harmful substances can build up in your liver and sometimes lead to irreversible scarring of liver tissue (cirrhosis). 
+&lt;/p&gt;
+&lt;p&gt;
+Primary biliary cirrhosis is thought to be an autoimmune disease in which the body turns against its own cells, but what triggers primary biliary cirrhosis isn&apos;t clear. 
+&lt;/p&gt;
+&lt;p&gt;
+Primary biliary cirrhosis develops slowly. Medication can slow the progression of the disease, especially if treatment begins early. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of bile duct damage
+" Caption="The bile ducts carry bile from your liver to your small intestine. When bile ducts become damaged, bile can back up into the liver, causing damage to liver cells. This damage can lead to liver failure. 
+" Height="60" Title="Bile duct damage" URI="/images/image_popup/thumbs/r7_biliarysystemthu.jpg" Width="60" />
+				<Image Alt="Illustration of bile duct damage
+" Caption="The bile ducts carry bile from your liver to your small intestine. When bile ducts become damaged, bile can back up into the liver, causing damage to liver cells. This damage can lead to liver failure. 
+" Height="578" Title="Bile duct damage" URI="/images/image_popup/r7_biliarysystem.jpg" Width="400" />
+				<HTML>
+					The bile ducts carry bile from your liver to your small intestine. When bile ducts become damaged, bile can back up into the liver, causing damage to liver cells. This damage can lead to liver ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although some people with primary biliary cirrhosis remain symptom-free for years after they&apos;re diagnosed, others experience a number of signs and symptoms, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Itchy skin&lt;/li&gt;
+	&lt;li&gt;Pain in the upper right portion of the abdomen&lt;/li&gt;
+	&lt;li&gt;Dry eyes&lt;/li&gt;
+	&lt;li&gt;Dry mouth&lt;/li&gt;
+	&lt;li&gt;Yellowing of the skin and eyes (jaundice)&lt;/li&gt;
+	&lt;li&gt;Darkening of the skin that&apos;s not related to sun exposure&lt;/li&gt;
+	&lt;li&gt;Swollen feet and ankles&lt;/li&gt;
+	&lt;li&gt;Accumulation of fluid in the abdomen (ascites)&lt;/li&gt;
+	&lt;li&gt;Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees (xanthomas)&lt;/li&gt;
+	&lt;li&gt;Diarrhea that can be greasy&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It&apos;s not clear what causes primary biliary cirrhosis. Many experts consider primary biliary cirrhosis an autoimmune disease in which the body turns against its own cells. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How primary biliary cirrhosis develops&lt;/strong&gt; &lt;br /&gt;
+The inflammation of primary biliary cirrhosis begins when T lymphocytes (T cells) start accumulating in your liver. T cells are white blood cells that are part of your immune system response. Normally, T cells recognize and help defend against bacteria and fungi. But in primary biliary cirrhosis, the T cells invade and destroy the cells lining the small bile ducts in your liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Inflammation in the smallest ducts spreads, in time, and destroys nearby liver cells. As these cells are destroyed, they&apos;re replaced by scar tissue (fibrosis) that can contribute to cirrhosis. Cirrhosis is scarring of liver tissue that makes it less and less possible for your liver to carry out essential functions. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of bile duct damage
+" Caption="The bile ducts carry bile from your liver to your small intestine. When bile ducts become damaged, bile can back up into the liver, causing damage to liver cells. This damage can lead to liver failure. 
+" Height="60" Title="Bile duct damage" URI="/images/image_popup/thumbs/r7_biliarysystemthu.jpg" Width="60" />
+				<Image Alt="Illustration of bile duct damage
+" Caption="The bile ducts carry bile from your liver to your small intestine. When bile ducts become damaged, bile can back up into the liver, causing damage to liver cells. This damage can lead to liver failure. 
+" Height="578" Title="Bile duct damage" URI="/images/image_popup/r7_biliarysystem.jpg" Width="400" />
+				<HTML>
+					The bile ducts carry bile from your liver to your small intestine. When bile ducts become damaged, bile can back up into the liver, causing damage to liver cells. This damage can lead to liver ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The following factors may increase your risk of primary biliary cirrhosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; The great majority of people with primary biliary cirrhosis are women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Primary biliary cirrhosis is most likely to occur in people 30 to 60 years old.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Researchers suspect primary biliary cirrhosis could be triggered by a bacterial, fungal or parasitic infection, which would explain the massing of white blood cells in the small bile ducts.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As liver damage progresses, people with primary biliary cirrhosis may develop a number of serious problems, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cirrhosis.&lt;/strong&gt; Cirrhosis is liver scarring that makes it difficult for the liver to function. Cirrhosis can occur in the later stages of primary biliary cirrhosis. Ongoing cirrhosis can lead to liver failure, which occurs when your liver is no longer able to function properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Increased pressure in the portal vein (portal hypertension).&lt;/strong&gt; Blood from your intestine, spleen and pancreas enters your liver through a large blood vessel called the portal vein. When scar tissue blocks normal circulation through your liver, blood backs up, much like water behind a dam, leading to increased pressure within the vein. And because blood doesn&apos;t flow normally through your liver, hormones, drugs and other toxins aren&apos;t filtered properly from your bloodstream.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged veins (varices).&lt;/strong&gt; When circulation through the portal vein is slowed or blocked, blood may back up into other veins &amp;mdash; mainly those in your stomach and esophagus. The blood vessels are thin walled, and increased pressure in your veins can cause bleeding in your upper stomach or esophagus. This bleeding is a life-threatening emergency that requires immediate medical care.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver cancer.&lt;/strong&gt; The destruction of healthy liver tissue that occurs in cirrhosis increases your risk of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weak bones (osteoporosis)&lt;strong&gt;.&lt;/strong&gt;&lt;/strong&gt; People with primary biliary cirrhosis have an increased risk of weak, brittle bones that may break more easily.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin deficiencies.&lt;/strong&gt; A lack of bile affects your digestive system&apos;s ability to absorb fats and the fat-soluble vitamins, A, D, E and K. This sometimes leads to deficiencies of these vitamins in advanced cases of primary biliary cirrhosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Memory problems.&lt;/strong&gt; Some people with primary biliary cirrhosis have problems with memory and concentration.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An increased risk of other disease.&lt;/strong&gt; In addition to bile duct and liver damage, people with primary biliary cirrhosis are likely to have other metabolic or immune system disorders, including thyroid problems, limited scleroderma (CREST syndrome) and rheumatoid arthritis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have signs or symptoms that worry you, make an appointment with your family doctor or a general practitioner. If you&apos;re diagnosed with primary biliary cirrhosis, you may be referred to a doctor who specializes in disorders of the digestive system (gastroenterologist) or a doctor who specializes in liver diseases (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because there&apos;s often a lot of ground to cover during your appointment, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins and supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information provided to you during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your time with your doctor. For primary biliary cirrhosis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need to confirm the diagnosis? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;How severe is the damage to my liver?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend for me?&lt;/li&gt;
+	&lt;li&gt;What types of side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my prognosis?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any dietary or activity restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing me?&lt;/li&gt;
+	&lt;li&gt;Are there brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions that come to mind during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over points you want to spend more time on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of symptoms have you been experiencing?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Has anyone in your family ever been diagnosed with primary biliary cirrhosis?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic health conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose primary biliary cirrhosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests to check liver function.&lt;/strong&gt; Liver function tests check the levels of enzymes that may indicate liver disease in general and bile duct injury in particular.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests to check for signs of autoimmune disease.&lt;/strong&gt; An analysis of your blood may reveal anti-mitochondrial antibodies (AMAs) if you have primary biliary cirrhosis. These antibodies almost never occur in people who don&apos;t have the disease, even if they have other liver disorders. For that reason, a positive AMA test is considered a very reliable indicator of the disease. At the same time, a small percentage of people with primary biliary cirrhosis don&apos;t have AMAs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests to examine the liver.&lt;/strong&gt; Imaging tests can be used to create pictures of your liver to look for abnormalities. Imaging tests may include ultrasound, magnetic resonance imaging (MRI) and computerized tomography (CT).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a piece of liver tissue for testing.&lt;/strong&gt; During a liver biopsy, a small sample of liver tissue is removed and examined in a laboratory, either to confirm the diagnosis or to determine the extent (stage) of the disease. Doctors withdraw the tissue through a small incision using a thin needle. Doctors may take more liver biopsies as time goes on to check the progression of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because no cure exists for primary biliary cirrhosis, treatment focuses on slowing the progress of the disease, relieving symptoms and preventing complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating the disease&lt;/strong&gt; &lt;br /&gt;
+Treatments aimed at slowing the disease and prolonging life include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ursodeoxycholic acid (UDCA).&lt;/strong&gt; Also known as ursodiol (Actigall, Urso), UDCA is a bile acid that helps move bile through your liver. Although UDCA doesn&apos;t cure primary biliary cirrhosis, it may prolong life if started early in the disease and is commonly considered the first line of therapy. It&apos;s less likely to help people with advanced liver damage. Side effects of UDCA may include weight gain, hair loss and diarrhea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver transplant.&lt;/strong&gt; When treatments no longer control primary biliary cirrhosis and the liver begins to fail, a liver transplant may help prolong life. A liver transplant is a procedure to remove your diseased liver and replace it with a healthy liver from a donor. Most donated livers come from people who have died. But in some cases, it may be possible to remove a portion of a liver from a living donor. Primary biliary cirrhosis often recurs in the transplanted liver, but it may take several years to develop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Treating the symptoms&lt;/strong&gt; &lt;br /&gt;
+Your doctor may recommend treatments to control the signs and symptoms of primary biliary cirrhosis to make you more comfortable. Treatments may help control symptoms such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Fatigue.&lt;/strong&gt; Treatment for fatigue involves trying to determine what may contribute to your symptoms. Treating the underlying causes may help relieve fatigue. Medications have been studied for fatigue. One medication that has shown promise in studies is modafinil (Provigil). More research is needed to determine its role in primary biliary cirrhosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Itching.&lt;/strong&gt; One option for controlling itching is cholestyramine (Locholest, Prevalite), which is a powder that must be mixed with food or liquids. Though cholestyramine works for most people, the taste is unpleasant. Another option is rifampin (Rifadin), which is taken in pill form. Rifampin doesn&apos;t work for everyone. Itching that can&apos;t be controlled may be treated with a liver transplant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Preventing complications&lt;/strong&gt; &lt;br /&gt;
+Working together, you and your doctor can help prevent some of the complications that can occur with primary biliary cirrhosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increased pressure in the portal vein (portal hypertension).&lt;/strong&gt; Your doctor is likely to screen for portal hypertension and enlarged veins when you&apos;re first diagnosed and every few years thereafter. If you&apos;re diagnosed with portal hypertension or bleeding, treatment may involve medications or surgery.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weak bones (osteoporosis).&lt;/strong&gt; Treatment for bone loss associated with primary biliary cirrhosis often involves calcium and vitamin D supplements. Your doctor may also recommend that you exercise most days of the week to help increase your bone density.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin deficiencies.&lt;/strong&gt; Your doctor may recommend supplements of vitamins A, D, E and K to counter vitamin deficiencies.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Taking good care of your overall health may help you feel better and improve some of the symptoms of primary biliary cirrhosis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Choose reduced-sodium foods.&lt;/strong&gt; Opt for reduced-sodium foods, such as reduced-sodium soups, since sodium contributes to tissue swelling and to accumulating fluid in your abdominal cavity (ascites).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise most days of the week.&lt;/strong&gt; Exercise may reduce your risk of bone loss.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limit alcohol consumption.&lt;/strong&gt; Drink alcohol occasionally, if at all. Your liver processes the alcohol you drink, and the added stress can cause liver damage. If your disease has progressed enough to damage your liver, your doctor may recommend that you not drink alcohol at all.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Check with your doctor before starting new medications or dietary supplements.&lt;/strong&gt; Because your liver isn&apos;t working normally, you&apos;ll likely be more sensitive to the effects of over-the-counter and prescription medications, as well as some dietary supplements, so check with your doctor before taking anything new.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Living with a chronic liver disease with no cure can be frustrating. Each person finds ways to cope with the stress of a chronic disease. In time, you&apos;ll find what works for you. Until then, consider trying to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about your condition.&lt;/strong&gt; Find out everything you want to know about primary biliary cirrhosis. The more you understand about what&apos;s going on in your body, the more active you can be in your own care. In addition to talking with your doctor, look for information at your local library and on websites affiliated with reputable organizations, such as the American Liver Foundation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself.&lt;/strong&gt; Eating well, exercising and getting enough rest can help you feel better. Try to plan ahead for times when you may need more rest.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get help.&lt;/strong&gt; If you have friends or family who want to help, take them up on their offers and let them know what would be most useful to you. Primary biliary cirrhosis can be exhausting, so if someone wants to do your grocery shopping, wash a load of laundry or cook your dinner, accept the help.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek support.&lt;/strong&gt; Strong relationships can play an important role in helping you maintain a positive attitude. If friends or family have a hard time understanding your illness, you may find that a support group can be helpful. Ask your doctor about local support groups for people with primary biliary cirrhosis, or call the American Liver Foundation at 800-GO-LIVER (800-465-4837).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Primary biliary cirrhosis
+	</Title>
+	<Abstract>
+		Primary biliary cirrhosis &amp;mdash; Comprehensive overview covers symptoms, diagnosis, treatment of this chronic liver disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00093" LinkType="Internal" ObjectID="B727321E-E7FF-0DBD-1CADFEB8D4A46579" Title="Liver function tests" Url="http://www.mayoclinic.com/health/liver-function-tests/MY00093" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00349" LinkType="Internal" ObjectID="21329E51-E7FF-0DBD-1B9E2B7D0F8B83AE" Title="Liver transplant" Url="http://www.mayoclinic.com/health/liver-transplant/MY00349" />
+		<LinkItem ContentType="Disease" DocID="DS00580" LinkType="Internal" ObjectID="3441DFC3-FF84-4AF1-B7342DE6A228E064" Title="Limited scleroderma (CREST syndrome)" Url="http://www.mayoclinic.com/health/crest-syndrome/DS00580" />
+	</RelatedLinksBox>
+</Disease>

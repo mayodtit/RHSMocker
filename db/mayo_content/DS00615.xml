@@ -1,0 +1,382 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00615
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/tetralogy-of-fallot/DS00615
+		</OriginalURL>
+		<UpdateDate>
+			2012-02-23
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1474" Title="Congenital heart defect">
+						<Keyword MCVID="4256" Title="Tetralogy of Fallot" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			02527AD2-2A5D-9994-E002D9D18B347695
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				tetralogy of Fallot
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defect
+			</MetaKeyword>
+			<MetaKeyword>
+				congenital heart defects
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in heart
+			</MetaKeyword>
+			<MetaKeyword>
+				hole in the heart
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tetralogy of Fallot (teh-tral-uh-je ov fuh-LOE) is a rare condition caused by a combination of four heart defects that are present at birth. These defects, which affect the structure of the heart, cause oxygen-poor blood to flow out of the heart and into the rest of the body. Infants and children with tetralogy of Fallot usually have blue-tinged skin because their blood doesn&apos;t carry enough oxygen. 
+&lt;/p&gt;
+&lt;p&gt;
+Tetralogy of Fallot is often diagnosed during infancy or soon after. However, tetralogy of Fallot may not be detected until later in life, depending on the severity of the defects and symptoms. With early diagnosis followed by appropriate treatment, most children with tetralogy of Fallot live relatively normal lives, though they&apos;ll need regular medical care and may have restrictions on exercise. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing components of tetralogy of Fallot 
+" Caption="Tetralogy of Fallot is a combination of four congenital abnormalities. The four defects are a ventricular septal defect (VSD), pulmonary stenosis, a misplaced aorta and a thickened right ventricular wall (right ventricular hypertrophy). They usually result in an insufficient amount of oxygenated blood reaching the body. 
+" Height="60" Title="Tetralogy of Fallot" URI="/images/image_popup/thumbs/r7_tetralogythu.jpg" Width="60" />
+				<Image Alt="Illustration showing components of tetralogy of Fallot 
+" Caption="Tetralogy of Fallot is a combination of four congenital abnormalities. The four defects are a ventricular septal defect (VSD), pulmonary stenosis, a misplaced aorta and a thickened right ventricular wall (right ventricular hypertrophy). They usually result in an insufficient amount of oxygenated blood reaching the body. 
+" Height="400" Title="Tetralogy of Fallot" URI="/images/image_popup/r7_tetralogy.jpg" Width="400" />
+				<HTML>
+					Tetralogy of Fallot is a combination of four congenital abnormalities. The four defects are a ventricular septal defect (VSD), pulmonary stenosis, a misplaced aorta and a thickened right ventricular ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tetralogy of Fallot symptoms vary, depending on the extent of obstruction of blood flow out of the right ventricle and into the lungs. Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A bluish coloration of the skin caused by blood low in oxygen (cyanosis)&lt;/li&gt;
+	&lt;li&gt;Shortness of breath and rapid breathing, especially during feeding&lt;/li&gt;
+	&lt;li&gt;Loss of consciousness (fainting)&lt;/li&gt;
+	&lt;li&gt;Clubbing of fingers and toes &amp;mdash; an abnormal, rounded shape of the nail bed&lt;/li&gt;
+	&lt;li&gt;Poor weight gain&lt;/li&gt;
+	&lt;li&gt;Tiring easily during play&lt;/li&gt;
+	&lt;li&gt;Irritability&lt;/li&gt;
+	&lt;li&gt;Prolonged crying&lt;/li&gt;
+	&lt;li&gt;A heart murmur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tet spells&lt;/strong&gt;&lt;br /&gt;
+Sometimes, babies with tetralogy of Fallot will suddenly develop deep blue skin, nails and lips after crying, feeding, having a bowel movement, or kicking his or her legs upon awakening. These episodes are called Tet spells and are caused by a rapid drop in the amount of oxygen in the blood. Toddlers or older children may instinctively squat when they are short of breath. Squatting increases blood flow to the lungs. Tet spells are more common in young infants, around 2 to 4 months old. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek medical help if you notice that your baby has the following symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+	&lt;li&gt;Bluish discoloration of the skin&lt;/li&gt;
+	&lt;li&gt;Passing out or seizures&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+	&lt;li&gt;Unusual irritability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your baby becomes blue (cyanotic), immediately place your child on his or her side and pull the knees up to the chest. This helps increase blood flow to the lungs. Call 911 or your local emergency number immediately. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tetralogy of Fallot occurs during fetal growth, when the baby&apos;s heart is developing. While factors such as poor maternal nutrition, viral illness or genetic disorders may increase the risk of this condition, in most cases the cause of tetralogy of Fallot is unknown. 
+&lt;/p&gt;
+&lt;p&gt;
+The four abnormalities that make up the tetralogy of Fallot include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pulmonary valve stenosis.&lt;/strong&gt; This is a narrowing of the pulmonary valve, the flap that separates the right ventricle of the heart from the pulmonary artery, the main blood vessel leading to the lungs. Constriction of the pulmonary valve reduces blood flow to the lungs. The narrowing may also affect the muscle beneath the pulmonary valve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular septal defect.&lt;/strong&gt; This is a hole in the wall that separates the two lower chambers (ventricles) of the heart. The hole allows deoxygenated blood in the right ventricle &amp;mdash; blood that has circulated through the body and is en route to the lungs to replenish its oxygen supply &amp;mdash; to flow into the left ventricle and mix with oxygenated blood fresh from the lungs. Blood from the left ventricle also flows back to the right ventricle in an inefficient manner. This ability for blood to flow through the ventricular septal defect dilutes the supply of oxygenated blood to the body and eventually can weaken the heart.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Overriding aorta.&lt;/strong&gt; Normally the aorta, the main artery leading out to the body, branches off the left ventricle. In tetralogy of Fallot, the aorta is shifted slightly to the right and lies directly above the ventricular septal defect. In this position the aorta receives blood from both the right and left ventricles, mixing the oxygen-poor blood from the right ventricle with the oxygen-rich blood from the left ventricle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Right ventricular hypertrophy.&lt;/strong&gt; When the heart&apos;s pumping action is overworked, it causes the muscular wall of the right ventricle to enlarge and thicken. Over time this may cause the heart to stiffen, become weak and eventually fail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Rarely, some babies who have tetralogy of Fallot will have a hole between their heart&apos;s upper chambers (atrial septal defect), as well. When this occurs, the condition is known as pentalogy of Fallot. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing components of tetralogy of Fallot 
+" Caption="Tetralogy of Fallot is a combination of four congenital abnormalities. The four defects are a ventricular septal defect (VSD), pulmonary stenosis, a misplaced aorta and a thickened right ventricular wall (right ventricular hypertrophy). They usually result in an insufficient amount of oxygenated blood reaching the body. 
+" Height="60" Title="Tetralogy of Fallot" URI="/images/image_popup/thumbs/r7_tetralogythu.jpg" Width="60" />
+				<Image Alt="Illustration showing components of tetralogy of Fallot 
+" Caption="Tetralogy of Fallot is a combination of four congenital abnormalities. The four defects are a ventricular septal defect (VSD), pulmonary stenosis, a misplaced aorta and a thickened right ventricular wall (right ventricular hypertrophy). They usually result in an insufficient amount of oxygenated blood reaching the body. 
+" Height="400" Title="Tetralogy of Fallot" URI="/images/image_popup/r7_tetralogy.jpg" Width="400" />
+				<HTML>
+					Tetralogy of Fallot is a combination of four congenital abnormalities. The four defects are a ventricular septal defect (VSD), pulmonary stenosis, a misplaced aorta and a thickened right ventricular ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While the exact cause of tetralogy of Fallot is unknown, several factors may increase the risk of a baby being born with this condition. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A viral illness in the mother, such as rubella (German measles), during pregnancy&lt;/li&gt;
+	&lt;li&gt;Maternal alcoholism&lt;/li&gt;
+	&lt;li&gt;Poor nutrition&lt;/li&gt;
+	&lt;li&gt;A mother older than 40&lt;/li&gt;
+	&lt;li&gt;A parent with tetralogy of Fallot&lt;/li&gt;
+	&lt;li&gt;Babies who are also born with Down syndrome or DiGeorge syndrome&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+All babies with tetralogy of Fallot need corrective surgery. Without treatment, your baby may not grow and develop properly. He or she is also at increased risk of serious complications, such as infective endocarditis, an inflammation of the inner lining of the heart caused by a bacterial infection. 
+&lt;/p&gt;
+&lt;p&gt;
+Untreated cases of tetralogy of Fallot usually develop severe complications over time, which may result in death or disability by early adulthood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by seeing your family doctor or a general practitioner. However, you will then be referred to a doctor who specializes in disorders of the heart (cardiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your baby&apos;s diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms your baby is experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the baby&apos;s family history,&lt;/strong&gt; including as much detail from both the maternal and paternal sides of the family.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ask a family member or friend to come with you,&lt;/strong&gt; if possible. Sometimes it can be difficult to remember all of the information provided to you during an appointment. Additionally, learning that your baby has a heart defect is very upsetting news, which may make it harder for you to remember what the doctor says after that. Someone who accompanies you may remember something that you missed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your child&apos;s doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions can help you make the most of your appointment time. For tetralogy of Fallot, some basic questions to ask your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my baby&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes for these symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my child need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the possible complications of surgery?&lt;/li&gt;
+	&lt;li&gt;What&apos;s my child&apos;s prognosis after surgery? Can he or she live a normal life?&lt;/li&gt;
+	&lt;li&gt;My child has other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any activity restrictions that my child will need to follow?&lt;/li&gt;
+	&lt;li&gt;Will he or she be able to play sports? Participate in gym?&lt;/li&gt;
+	&lt;li&gt;Why did this happen?&lt;/li&gt;
+	&lt;li&gt;Will this happen again in future pregnancies?&lt;/li&gt;
+	&lt;li&gt;Is there any way to prevent this from happening?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your baby&apos;s doctor is likely to ask you a number of questions, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first notice your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your child&apos;s symptoms been continuous, or occasional?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;How is your child feeding and sleeping?&lt;/li&gt;
+	&lt;li&gt;Have you noticed fainting spells or episodes when your child&apos;s lips and skin become more blue or dusky?&lt;/li&gt;
+	&lt;li&gt;Is your child vomiting or losing weight?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you&apos;re waiting for your doctor&apos;s appointment and for treatments, here are a few tips to help make your baby more comfortable: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Feed your baby slowly.&lt;/strong&gt; Also give him or her smaller, more frequent meals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Help your child during a Tet spell.&lt;/strong&gt; During a Tet spell, your child&apos;s skin, nails and lips may turn blue after crying, feeding or waking up. If you can remain calm, it can help reduce your child&apos;s anxiety. You can help improve blood circulation to your child&apos;s heart and lungs by gently raising his or her knees to the chest.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your baby is born, your baby&apos;s doctor may suspect tetralogy of Fallot if the baby has blue-tinged skin or if a heart murmur &amp;mdash; an abnormal whooshing sound caused by turbulent blood flow &amp;mdash; is heard in your child&apos;s chest. By using several tests, your doctor can confirm the diagnosis. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; A typical sign of tetralogy of Fallot on an X-ray is a &quot;boot-shaped&quot; heart, because the right ventricle is enlarged.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood test.&lt;/strong&gt; Your child will need a test that measures the number of each type of cell in the blood, called a complete blood count. In tetralogy of Fallot, the number of red blood cells may be abnormally high (erythrocytosis) as the body attempts to increase the oxygen level in the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oxygen level measurement (pulse oximetry).&lt;/strong&gt; This test uses a small sensor that can be placed on a finger or toe to measure the amount of oxygen in the blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiography.&lt;/strong&gt; Echocardiograms use high-pitched sound waves, inaudible to the human ear, to produce an image of the heart. Sound waves bounce off your baby&apos;s heart and produce moving images that can be viewed on a video screen. This test helps diagnose tetralogy of Fallot because it allows the doctor to see whether there is a ventricular septal defect, if the structure of the pulmonary valve is normal, if the right ventricle is functioning properly, and if the aorta is positioned properly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Electrocardiogram.&lt;/strong&gt; An electrocardiogram records the electrical activity in the heart each time it contracts. During this procedure, patches with wires (electrodes) are placed on your baby&apos;s chest, wrists and ankles. The electrodes measure electrical activity, which is recorded on paper. This test helps determine if your baby&apos;s right ventricle is enlarged (ventricular hypertrophy) and if the heart rhythm is regular.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cardiac catheterization.&lt;/strong&gt; During this procedure, your doctor inserts a thin flexible tube (catheter) into an artery or vein in your baby&apos;s groin and threads it up to his or her heart. A dye is injected through the catheter to make your baby&apos;s heart structures visible on X-ray pictures. The catheter also measures pressure and oxygen levels in the chambers of the heart and in the blood vessels.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Surgery is the only effective treatment for tetralogy of Fallot. There are two types of surgery that may be performed, including intracardiac repair or a temporary procedure that uses a shunt. Most babies and children will have intracardiac repair. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Intracardiac repair&lt;/strong&gt;&lt;br /&gt;
+Tetralogy of Fallot treatment for most babies involves a type of open-heart surgery called intracardiac repair. This surgery is typically performed during the first year of life. During this procedure, the surgeon places a patch over the ventricular septal defect to close the hole between the ventricles. He or she also repairs the narrowed pulmonary valve and widens the pulmonary arteries to increase blood flow to the lungs. After intracardiac repair, the oxygen level in the blood increases and your baby&apos;s symptoms will lessen. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Temporary surgery&lt;/strong&gt;&lt;br /&gt;
+Occasionally babies need to undergo a temporary surgery before having intracardiac repair. If your baby was born prematurely or has pulmonary arteries that are underdeveloped (hypoplastic), doctors will create a bypass (shunt) between the aorta and pulmonary artery. This bypass increases blood flow to the lungs. When your baby is ready for intracardiac repair, the shunt is removed. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the surgery&lt;/strong&gt;&lt;br /&gt;
+While most babies do well after intracardiac repair, complications are possible. Possible complications are chronic pulmonary regurgitation, in which blood leaks through the pulmonary valve, and an irregular heartbeat (arrhythmia). Sometimes blood flow to the lungs is still restricted after intracardiac repair. Infants and children with these complications may require another surgery, and in some cases, their pulmonary valves may be replaced by artificial valves. Pulmonary valve replacement sometimes isn&apos;t necessary until decades after the original surgery. In addition, as with any surgery, there&apos;s a risk of infection, unexpected bleeding or blood clots. Arrhythmias are usually treated with medication, but some people may need a pacemaker or implantable defibrillator later in life. Complications can continue throughout childhood, adolescence and adulthood. Your child will need lifelong medical follow-up to monitor for and treat any complications. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Ongoing care&lt;/strong&gt;&lt;br /&gt;
+After surgery your baby will require continuing care. Your doctor will schedule routine checkups with your child to make sure that the procedure was successful and to monitor for any new problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also recommend that your child limit physical activity. However, if surgery was completely successful and there&apos;s no pulmonary valve leakage or obstruction, your child may not have any activity restrictions. 
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, doctors recommend that your child take antibiotics during dental procedures to prevent infections that may cause endocarditis, an inflammation of the lining of the heart. Although, in cases where the heart was completely repaired, your child may not need preventive antibiotics. Preventive antibiotics are, however, recommended specifically for those who have artificial valves or who&apos;ve had repair with prosthetic material. Ask your cardiologist what&apos;s right for your child. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As your child grows, you may have some concerns about how best to care for your child, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preventing infection.&lt;/strong&gt; A child with severe heart defects may need to take preventive antibiotics before certain dental and surgical procedures. Your doctor can help you find out if this is necessary. Maintaining good oral hygiene and getting regular dental checkups are excellent ways to help prevent infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercising&lt;/strong&gt; &lt;strong&gt;and play.&lt;/strong&gt; Parents of children with congenital heart defects often worry about the risks of rough play and vigorous activity even after successful treatment. Although some children may need to limit the amount or type of exercise, many can lead normal or near-normal lives. Decisions about exercise need to be made on a case-by-case basis, so ask your child&apos;s doctor which activities are safe for your child.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you&apos;re an adult with congenital heart disease, you may have concerns, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Employment.&lt;/strong&gt; Having a congenital heart defect generally won&apos;t limit a person&apos;s career options. If an adult has serious heart rhythm problems or the potential for life-threatening complications, careers that can put others at risk may be discouraged, such as flying a plane or driving a bus.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Pregnancy.&lt;/strong&gt; Most women with congenital heart disease can tolerate pregnancy without any problems. However, having a severe defect or complications such as chronic pulmonary regurgitation or arrhythmias can increase your risk of complications during pregnancy. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Experts recommend that anyone with congenital heart disease who is considering starting a family carefully discuss it beforehand with his or her doctor. In some cases, preconception consultations with doctors who specialize in cardiology, genetics and high-risk obstetric care are needed. Some heart medications aren&apos;t safe during pregnancy and may need to be stopped or adjusted before you become pregnant. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+It can be extremely frightening to learn that your child has potentially life-threatening heart defects. Although support groups aren&apos;t for everyone, talking to other parents &amp;mdash; especially ones who&apos;ve already gone through the surgery &amp;mdash; can give you hope, encouragement and people to lean on. Ask your doctor if there are any support groups for parents of children with heart defects in your area. 
+&lt;/p&gt;
+&lt;p&gt;
+Be sure to give yourself a break at times. Ask other family members or friends to help you take care of your child. When your child is in the hospital, see if you can schedule friends and family to visit with your child so that you can go home to take a shower or nap, or to spend some time with your other children. 
+&lt;/p&gt;
+&lt;p&gt;
+To help coordinate your child&apos;s care, you may wish to prepare a brief note with your child&apos;s diagnosis, medications, surgeries and their dates, and your cardiologist&apos;s name and number. This note will provide necessary information to others who may care for your child and will help any new doctor understand your child&apos;s health history. 
+&lt;/p&gt;
+&lt;p&gt;
+If you change health insurance plans, be sure your new plan will cover your child&apos;s care, as some plans may not allow coverage for pre-existing conditions or may require a waiting period. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Tetralogy of Fallot
+	</Title>
+	<Abstract>
+		Tetralogy of Fallot &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this congenital heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="CC00026" LinkType="Internal" ObjectID="0A8B98BD-F7E3-44FB-95D4B71BF1B23E32" Title="Slide show: Common types of congenital heart defects" Url="http://www.mayoclinic.com/health/congenital-heart-defects/CC00026" />
+		<LinkItem ContentType="Disease" DocID="DS01117" LinkType="Internal" ObjectID="52307A36-E7FF-0DBD-19C3D5A648D2D4A7" Title="Congenital heart defects in children" Url="http://www.mayoclinic.com/health/congenital-heart-defects/DS01117" />
+	</RelatedLinksBox>
+</Disease>

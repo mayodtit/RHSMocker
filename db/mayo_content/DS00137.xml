@@ -1,0 +1,470 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00137
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/premature-birth/DS00137
+		</OriginalURL>
+		<UpdateDate>
+			2011-12-29
+		</UpdateDate>
+		<PublicationDate>
+			2000-09-27
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="2042" Title="Pregnancy">
+						<Keyword MCVID="4043" Title="Premature birth" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			DB81ABF4-378D-453B-AFD7BF32AD6F01E7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				premature birth
+			</MetaKeyword>
+			<MetaKeyword>
+				childbirth
+			</MetaKeyword>
+			<MetaKeyword>
+				prematurity
+			</MetaKeyword>
+			<MetaKeyword>
+				preterm labor
+			</MetaKeyword>
+			<MetaKeyword>
+				preterm birth
+			</MetaKeyword>
+			<MetaKeyword>
+				preemie
+			</MetaKeyword>
+			<MetaKeyword>
+				premature baby
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A premature birth is a birth that takes place more than three weeks before the baby is due &amp;mdash; in other words, after less than 37 weeks of pregnancy, which usually lasts about 40 weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Premature birth gives the baby less time to develop in the womb. Premature babies, especially those born earliest, often have complicated medical problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on how early a baby is born, he or she may be: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Late preterm&lt;/strong&gt;, born between 34 and 37 weeks of pregnancy&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Very preterm&lt;/strong&gt;, born at less than 32 weeks of pregnancy&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Extremely preterm&lt;/strong&gt;, born at less than 25 weeks of pregnancy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Most premature births occur in the late preterm stage. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A premature birth means that your baby hasn&apos;t had the usual amount of time to develop in the womb before needing to adapt to life outside the womb. 
+&lt;/p&gt;
+&lt;p&gt;
+The signs that a baby&apos;s gestation has been cut short include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Small size, with a disproportionately large head&lt;/li&gt;
+	&lt;li&gt;Sharper-looking, less rounded features than a full-term baby&apos;s features&lt;/li&gt;
+	&lt;li&gt;Thin, transparent, fragile-looking skin&lt;/li&gt;
+	&lt;li&gt;Fine hair (lanugo) covering much of the body&lt;/li&gt;
+	&lt;li&gt;Low body temperature, especially immediately after birth in the delivery room&lt;/li&gt;
+	&lt;li&gt;Labored breathing or respiratory distress&lt;/li&gt;
+	&lt;li&gt;Lack of reflexes for sucking and swallowing, leading to feeding difficulties&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The following table shows the median weight, length and head circumference of premature babies at different gestational ages.
+&lt;/p&gt;
+&lt;div class=&quot;mctable&quot;&gt;
+&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;3&quot; class=&quot;content&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th colspan=&quot;4&quot;&gt;Weight, length and head circumference by gestational age&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th width=&quot;25%&quot;&gt;Gestational age&lt;/th&gt;&lt;th width=&quot;25%&quot;&gt;Weight, in pounds (kilograms)&lt;/th&gt;&lt;th width=&quot;25%&quot;&gt;Length, in inches (centimeters)&lt;/th&gt;&lt;th width=&quot;25%&quot;&gt;Head circumference, in inches (centimeters)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;40 weeks&lt;/td&gt;
+			&lt;td&gt;7.9 (3.6 kg)&lt;/td&gt;
+			&lt;td&gt;20 (51 cm)&lt;/td&gt;
+			&lt;td&gt;14 (35.5 cm)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;35 weeks&lt;/td&gt;
+			&lt;td&gt;5.6 (2.5 kg)&lt;/td&gt;
+			&lt;td&gt;18.1 (46 cm)&lt;/td&gt;
+			&lt;td&gt;12.6 (32 cm)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;32 weeks&lt;/td&gt;
+			&lt;td&gt;4.2 (1.9 kg)&lt;/td&gt;
+			&lt;td&gt;16.9 (43 cm)&lt;/td&gt;
+			&lt;td&gt;11.8 (30 cm)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;28 weeks&lt;/td&gt;
+			&lt;td&gt;2.5 (1.15 kg)&lt;/td&gt;
+			&lt;td&gt;15 (38 cm)&lt;/td&gt;
+			&lt;td&gt;10.2 (26 cm)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;24 weeks&lt;/td&gt;
+			&lt;td&gt;1.4 (0.65 kg)&lt;/td&gt;
+			&lt;td&gt;12.6 (32 cm)&lt;/td&gt;
+			&lt;td&gt;8.7 (22 cm)&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Premature babies can quickly develop serious complications, such as infection in the bloodstream (sepsis), respiratory distress syndrome and bleeding in the brain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+You&apos;ll be seeing members of the neonatal intensive care unit (NICU) often. Most NICUs have work rounds at a similar time each day, which parents may join. Don&apos;t hesitate to ask questions even when there&apos;s not a regularly scheduled meeting, especially if your baby seems listless, has poor color or refuses the bottle or breast after trouble-free feedings. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, the specific cause of premature birth isn&apos;t clear. Many factors may increase the risk of premature birth, however, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Having a previous premature birth&lt;/li&gt;
+	&lt;li&gt;Pregnancy with twins, triplets or other multiples&lt;/li&gt;
+	&lt;li&gt;An interval of less than six months between pregnancies&lt;/li&gt;
+	&lt;li&gt;Conceiving through in vitro fertilization&lt;/li&gt;
+	&lt;li&gt;Problems with the uterus, cervix or placenta&lt;/li&gt;
+	&lt;li&gt;Smoking cigarettes, drinking alcohol or using illicit drugs&lt;/li&gt;
+	&lt;li&gt;Poor nutrition&lt;/li&gt;
+	&lt;li&gt;Some infections, particularly of the amniotic fluid and lower genital tract&lt;/li&gt;
+	&lt;li&gt;Some chronic conditions, such as high blood pressure and diabetes&lt;/li&gt;
+	&lt;li&gt;Being underweight or overweight before pregnancy&lt;/li&gt;
+	&lt;li&gt;Stressful life events, such as the death of a loved one or domestic violence&lt;/li&gt;
+	&lt;li&gt;Multiple miscarriages or abortions&lt;/li&gt;
+	&lt;li&gt;Physical injury or trauma&lt;/li&gt;
+	&lt;li&gt;Unusual shape of the uterus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For unknown reasons, black women are more likely to experience premature birth than are women of other races. But premature birth can happen to anyone. In fact, many women who have a premature birth have no known risk factors.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While not all premature babies experience complications, being born too early can cause short-term and long-term health problems for preemies. Generally, the earlier a baby is born, the higher the risk of complications. Birth weight plays an important role, too. Some problems may be apparent at birth, while others may not develop for weeks or months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Short-term complications&lt;/strong&gt;&lt;br /&gt;
+In the first weeks, the complications of premature birth may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing problems.&lt;/strong&gt; A premature baby may have trouble breathing due to an immature respiratory system. In some cases, breathing difficulties can prevent other immature organs in the body from receiving enough oxygen. If the baby&apos;s lungs lack surfactant &amp;mdash; a substance that allows the lungs to expand &amp;mdash; he or she may develop respiratory distress syndrome. This condition primarily affects infants born before 35 weeks. Preemies, especially those born between 23 and 32 weeks, may also develop chronic lung disease known as bronchopulmonary dysplasia. In addition, some preemies experience prolonged pauses in their breathing, known as apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart problems.&lt;/strong&gt; The most common heart problems premature babies experience are patent ductus arteriosus (PDA) and low blood pressure (hypotension). PDA, which tends to affect babies born before 30 weeks, is a persistent opening between two major blood vessels leading from the heart. While this heart defect often closes on its own, left untreated it can cause too much blood to flow through the heart and cause heart failure as well as other complications. Low blood pressure may require adjustments in intravenous fluids, medicines, and sometimes blood transfusions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain problems.&lt;/strong&gt; Babies born before 28 weeks are at risk of bleeding in the brain, known as an intraventricular hemorrhage. Most hemorrhages are mild and resolve with little short-term impact. But some babies may have larger brain bleeding which causes permanent brain injury. Larger brain bleeds may lead to fluid accumulation in the brain (hydrocephalus) over a number of weeks. Some babies who develop hydrocephalus will require an operation to relieve the fluid accumulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Temperature control problems.&lt;/strong&gt; Premature babies can lose body heat rapidly; they don&apos;t have the stored body fat of a full-term infant and they can&apos;t generate enough heat to counteract what&apos;s lost through the surface of their bodies. If body temperature dips too low, hypothermia can result. Hypothermia in a preemie can lead to breathing problems and low blood sugar levels. In addition, a preemie may use up all of the energy gained from feedings just to stay warm, not to grow bigger. That&apos;s why smaller preemies require additional heat from a warmer or an incubator until they&apos;re larger and able to maintain their temperature without assistance. After you bring your baby home, you won&apos;t need to keep your house or apartment any warmer than you typically would.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastrointestinal problems.&lt;/strong&gt; Preemies are likely to have immature gastrointestinal systems. The earlier a baby is born, the greater his or her risk is of developing necrotizing enterocolitis (NEC). This potentially serious condition, in which the cells lining the bowel wall are injured, primarily occurs in premature babies after they start feeding. Premature babies who receive only breast milk have a much lower risk of developing NEC.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Blood problems.&lt;/strong&gt; Preemies are at risk of blood problems such as anemia and infant jaundice. Anemia is a common condition in which the body doesn&apos;t make enough red blood cells. While all newborns experience a slow drop in red blood cell count during the first months of life, the decrease may be greater in preemies. More severe anemia may occur if your baby has a lot of blood taken for lab tests. 
+	&lt;/p&gt;
+	&lt;p&gt;
+	Infant jaundice is a yellow discoloration in a newborn baby&apos;s skin and eyes that occurs because the baby&apos;s blood contains an excess of a yellow-colored pigment of red blood cells (bilirubin). Infant jaundice is common in babies born before 38 weeks. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Metabolism problems.&lt;/strong&gt; Premature babies often have problems with their metabolism. Some preemies may develop an abnormally low level of blood sugar (hypoglycemia). This can happen because preemies typically have smaller stores of glycogen (stored glucose) than do full-term babies and because preemies&apos; immature livers have trouble producing glucose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Immune system problems.&lt;/strong&gt; An underdeveloped immune system, common in premature babies, can lead to infection. Infection in a premature baby can quickly spread to the bloodstream causing sepsis, a life-threatening complication. As a result, when a preemie&apos;s condition is getting worse, your baby&apos;s doctor might check for an infection &amp;mdash; even if there&apos;s no fever. Often, in such situations, your baby may be given antibiotics until it&apos;s apparent that there&apos;s no infection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Long-term complications&lt;/strong&gt;&lt;br /&gt;
+In the long term, premature birth may lead to these complications: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Cerebral palsy.&lt;/strong&gt; Cerebral palsy is a disorder of movement, muscle tone or posture that is caused by injury to a preemie&apos;s developing brain either during pregnancy or while the baby is still young and immature. Brain injury from poor circulation, insufficient oxygen supply, undernourishment or infection can all lead to cerebral palsy or other neurological problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Impaired cognitive skills.&lt;/strong&gt; Premature babies are more likely to lag behind their full-term counterparts on various developmental milestones. Upon school age, a child who was born prematurely might be more likely to have learning disabilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vision problems.&lt;/strong&gt; Preemies born before 30 weeks may develop retinopathy of prematurity (ROP), a disease that occurs when blood vessels swell and overgrow in the light-sensitive layer of nerves at the back of the eye (retina). Sometimes the abnormal retinal vessels gradually scar the retina, pulling it out of position. When the retina is pulled away from the back of the eye it&apos;s called retinal detachment, a condition that, if undetected, can impair vision and cause blindness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hearing problems.&lt;/strong&gt; Premature babies are at increased risk of some degree of hearing loss. All babies will have their hearing checked before going home.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dental problems.&lt;/strong&gt; Preemies who have been critically ill are at increased risk of developing dental problems, such as delayed tooth eruption, tooth discoloration and improperly aligned teeth.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Behavioral and psychological problems.&lt;/strong&gt; Children who experienced premature birth are more likely than full-term infants to have certain behavioral and psychological problems, such as attention deficit hyperactivity disorder, depression or generalized anxiety, and difficulties interacting with kids their own age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chronic health issues.&lt;/strong&gt; Premature babies are more likely to have chronic health issues &amp;mdash; some of which may require hospital care &amp;mdash; than are full-term infants. Infections, asthma and feeding problems are more likely to develop or persist. Premature infants are also at increased risk of sudden infant death syndrome (SIDS).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For some premature babies, difficulties may not appear until later in childhood or even adulthood. Not performing well in school is often a prime concern. Some studies suggest that premature babies may face an increased risk of type 2 diabetes and cardiovascular disease in adulthood. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+As the parent of a premature baby in the neonatal intensive care unit (NICU), you&apos;ll interact, on an ongoing basis, with many care providers for your baby. Members of the NICU team caring for your infant may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Neonatal nurse&lt;/strong&gt; &amp;mdash; A registered nurse who has special training in caring for premature and high-risk newborns&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pediatrician&lt;/strong&gt; &amp;mdash; A doctor who specializes in treating children from birth through adolescence&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Neonatologista&lt;/strong&gt; &amp;mdash; A pediatrician who specializes in the diagnosis and treatment of newborn health problems&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pediatric resident&lt;/strong&gt; &amp;mdash; A doctor who is receiving specialized training in treating children&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory therapist&lt;/strong&gt; &amp;mdash; A respiratory care practitioner who assesses respiratory problems in newborns and manages respiratory equipment&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pediatric surgeon&lt;/strong&gt; &amp;mdash; A surgeon who specializes in performing surgery for newborns and children&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Besides these health professionals, you are also an important part of the care provided for your baby. Ideally, you&apos;ll work in collaboration with your baby&apos;s care providers, eventually learning how to hold, feed and care for your baby.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+During your baby&apos;s time in the NICU, don&apos;t hesitate to ask the NICU staff how you can become more involved in your baby&apos;s care. Being hands-on with your baby can give you confidence as a new parent, as well as make the transition home a little easier when your child is ready to leave the hospital.
+&lt;/p&gt;
+&lt;p&gt;
+Uncertainty can be frightening &amp;mdash; as can seeing monitors, respirators and other types of equipment in the NICU. Ask questions about your baby&apos;s condition or write them down and seek answers when you&apos;re ready. For instance, you may want to ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How is my baby&apos;s condition? Has anything changed?&lt;/li&gt;
+	&lt;li&gt;How does this equipment help my baby?&lt;/li&gt;
+	&lt;li&gt;Why are you giving my baby medication?&lt;/li&gt;
+	&lt;li&gt;What types of tests does my baby need?&lt;/li&gt;
+	&lt;li&gt;When can I hold my baby? Will you show me how?&lt;/li&gt;
+	&lt;li&gt;How long will my baby have to continue tube feedings?&lt;/li&gt;
+	&lt;li&gt;When can I try to breast- or bottle-feed my baby?&lt;/li&gt;
+	&lt;li&gt;When will my baby be able to focus his or her eyes?&lt;/li&gt;
+	&lt;li&gt;Who should I contact if I have questions about my baby&apos;s care?&lt;/li&gt;
+	&lt;li&gt;Can I bring in a blanket or family photos to personalize my baby&apos;s incubator?&lt;/li&gt;
+	&lt;li&gt;What can I do to help care for my baby while he or she is in the NICU?&lt;/li&gt;
+	&lt;li&gt;When will my baby be able to come home?&lt;/li&gt;
+	&lt;li&gt;What do I need to know about caring for my baby once we&apos;re home?&lt;/li&gt;
+	&lt;li&gt;How often do we need to come back for follow-up visits?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After your premature baby is moved to the NICU, he or she may undergo a number of tests. Some are ongoing, while others may be performed only if the NICU staff suspect a particular complication.
+&lt;/p&gt;
+&lt;p&gt;
+Possible tests for your premature baby may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Breathing and heart rate monitor.&lt;/strong&gt; Your baby&apos;s breathing and heart rate are monitored on a continuous basis. Blood pressure readings are done frequently, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fluid input and output.&lt;/strong&gt; The NICU team carefully tracks how much fluid your baby takes in through feedings and intravenous fluids and how much fluid your baby loses through wet or soiled diapers, blood draws and other tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Blood samples are collected through a heel stick or a needle inserted into a vein to check calcium, glucose and bilirubin levels in your baby&apos;s blood. A blood sample may also be analyzed to measure the red blood cell count and check for anemia. If your baby&apos;s doctor anticipates that several blood samples will be needed, NICU staff may insert a central umbilical intravenous (IV) line, to avoid having to stick your baby with a needle each time blood is needed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; This test is an ultrasound of the heart to check for problems with your baby&apos;s heart function. Much like a fetal ultrasound, an electrocardiogram uses sound waves to produce moving images on a display monitor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound scan.&lt;/strong&gt; Ultrasound scans may be done to check the brain for bleeding or fluid buildup or to examine the abdominal organs for problems in the gastrointestinal tract.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam.&lt;/strong&gt; An ophthalmologist (eye doctor) may examine your baby&apos;s eyes and vision to check for problems with the retina (retinopathy of prematurity).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your baby develops any complications, more specialized testing may be needed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+At the hospital, the neonatal intensive care unit (NICU) provides round-the-clock care for your premature baby.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Supportive care&lt;/strong&gt;&lt;br /&gt;
+Specialized supportive care for your baby may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Being placed in an incubator.&lt;/strong&gt; Your baby will probably stay in an enclosed plastic bassinet (incubator) that&apos;s kept warm to help your baby maintain normal body temperature. Later on, NICU staff may show you a particular way to hold your baby &amp;mdash; known as &quot;kangaroo&quot; care &amp;mdash; with direct skin-to-skin contact.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitoring of your baby&apos;s vital signs.&lt;/strong&gt; Sensors may be taped to your baby&apos;s body to monitor blood pressure, heart rate, breathing and temperature. Caregivers may also use a ventilator to help your baby breathe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a feeding tube.&lt;/strong&gt; At first your baby may receive fluids and nutrients through an IV tube. Breast milk may be given later through a tube passed through your baby&apos;s nose and into his or her stomach (nasogastric or NG tube). When your baby is strong enough to suck, breast-feeding or bottle-feeding is often possible.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Replenishing fluids.&lt;/strong&gt; Your baby needs a certain amount of fluids each day, depending upon his or her age and medical conditions. The NICU team will closely monitor fluid, sodium and potassium levels to make sure that your baby&apos;s fluid levels stay on target. If fluids are needed, they&apos;ll be delivered through an intravenous (IV) line.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spending time under bilirubin lights.&lt;/strong&gt; To treat infant jaundice, your baby may be placed under a set of lights &amp;mdash; known as bilirubin lights &amp;mdash; for a period of time. The lights help your baby&apos;s system break down excess bilirubin, which builds up because the liver can&apos;t process it all. While under the bilirubin lights, your baby will wear a protective eye mask.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Receiving a bood transfusion.&lt;/strong&gt; Because your preemie may have an underdeveloped ability to make his or her own red blood cells, a blood transfusion may be needed to raise blood volume &amp;mdash; especially if your baby has had several blood samples drawn for various tests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications may be given to your baby to promote maturing and to stimulate normal functioning of the lungs, heart and circulation. Depending on your baby&apos;s condition, medication may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A liquid (surfactant), squirted into the lungs to help them mature&lt;/li&gt;
+	&lt;li&gt;Fine-mist (aerosolized) or IV medication to strengthen breathing and heart rate&lt;/li&gt;
+	&lt;li&gt;Antibiotics if infection is present or if there&apos;s a risk of possible infection&lt;/li&gt;
+	&lt;li&gt;Medicines that increase urine output (duretics) to help the lungs and, sometimes, the circulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+When specific complications arise, sometimes surgery is necessary to treat:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A feeding problem, by placing a central line to deliver IV nutrition&lt;/li&gt;
+	&lt;li&gt;Necrotizing enterocolitis, by removing the damaged part of the intestines&lt;/li&gt;
+	&lt;li&gt;Patent ductus arteriosus, when medications fail to work, by closing a blood vessel near the heart&lt;/li&gt;
+	&lt;li&gt;Retinopathy of prematurity, by using a laser to reverse abnormal blood vessel development and limit further risks to vision&lt;/li&gt;
+	&lt;li&gt;Worsening hydrocephalus, by placing a plastic tube, called a shunt, to drain excess fluid in the brain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Taking your baby home&lt;/strong&gt;&lt;br /&gt;
+Your baby is ready to go home when he or she:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Can breathe without support&lt;/li&gt;
+	&lt;li&gt;Can maintain a stable body temperature&lt;/li&gt;
+	&lt;li&gt;Can breast- or bottle-feed&lt;/li&gt;
+	&lt;li&gt;Is gaining weight steadily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, a child may be allowed to go home before meeting one of these requirements &amp;mdash; as long as the baby&apos;s medical team and family create and agree on a plan for home care and monitoring.
+&lt;/p&gt;
+&lt;p&gt;
+Your baby&apos;s health care team will help you learn how to care for your baby at home. Before discharge from the hospital, your baby&apos;s nurse or a hospital discharge planner may ask you about:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Living arrangements&lt;/li&gt;
+	&lt;li&gt;Other children in the household&lt;/li&gt;
+	&lt;li&gt;Adult relatives and friends to provide help&lt;/li&gt;
+	&lt;li&gt;Primary pediatric care&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of intensive care for a premature baby
+" Caption="In the hospital, your baby may first be monitored unclothed on a warmer bed. Later your baby will probably be in an incubator, an enclosed plastic bassinet that&apos;s kept warm to help your baby maintain a normal body temperature. Your baby will likely receive fluids and nutrients through an intravenous catheter, and later start breast milk or formula feedings through a tube slid through his or her nose or mouth. Sensors may monitor your baby&apos;s blood pressure, heart rate, breathing and temperature, and ventilators may be used to help your baby breathe.
+" Height="60" Title="Intensive care for your premature baby" URI="/images/image_popup/thumbs/r7_prematurethu.jpg" Width="60" />
+				<Image Alt="Illustration of intensive care for a premature baby
+" Caption="In the hospital, your baby may first be monitored unclothed on a warmer bed. Later your baby will probably be in an incubator, an enclosed plastic bassinet that&apos;s kept warm to help your baby maintain a normal body temperature. Your baby will likely receive fluids and nutrients through an intravenous catheter, and later start breast milk or formula feedings through a tube slid through his or her nose or mouth. Sensors may monitor your baby&apos;s blood pressure, heart rate, breathing and temperature, and ventilators may be used to help your baby breathe.
+" Height="400" Title="Intensive care for your premature baby" URI="/images/image_popup/r7_premature.jpg" Width="400" />
+				<HTML>
+					In the hospital, your baby may first be monitored unclothed on a warmer bed. Later your baby will probably be in an incubator, an enclosed plastic bassinet that&apos;s kept warm to help your baby maintain ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When it&apos;s time to bring your baby home, you might feel relieved, excited &amp;mdash; and anxious. Take time to consider ways to prepare for life at home with your baby after you&apos;ve left the hospital: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Understand how to care for your baby.&lt;/strong&gt; Before you leave the hospital, take a course in infant CPR. Ask your baby&apos;s medical team any questions you might have and take notes. Make sure you&apos;re comfortable caring for your baby, especially if you&apos;ll need to administer medications, use special monitors or give your baby supplemental oxygen or other treatments. Discuss symptoms &amp;mdash; such as infant breathing or feeding problems &amp;mdash; that might necessitate a call to your baby&apos;s care provider.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss feedings.&lt;/strong&gt; Ask the medical team about your baby&apos;s need for supplementation in the form of breast milk fortifiers or preterm infant formula. Keep in mind that premature babies usually eat less and may need to be fed more often than full-term babies. Preemies also may be sleepier than full-term babies and sleep through feedings. Find out how much and how often your baby should be eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protect your baby&apos;s health.&lt;/strong&gt; Premature babies are more susceptible than are other newborns to serious infections. Try to minimize your preemie&apos;s exposure to crowded places and make sure everyone who comes into contact with your child washes his or her hands first. Because preemies are especially at risk for a serious infection of the lungs and respiratory tract (respiratory syncytial virus, or RSV), your baby&apos;s doctor might recommend a preventive medication called palivizumab (Synagis), which helps protect your baby from this serious infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Follow a recommended schedule for checkups.&lt;/strong&gt; Discuss your baby&apos;s need for future appointments with your baby&apos;s care provider and any specialists. Your preemie may initially need to see his or her care provider every week or two to have his or her growth, medical needs and care monitored.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay on top of vaccinations.&lt;/strong&gt; While it&apos;s recommended that immunizations be given to medically stable premature babies according to their chronological age, delays in the immunization schedule are common. Work with your baby&apos;s care provider to stay on top of your baby&apos;s need for vaccinations. You may also protect your preemie by ensuring that others in the home are up-to-date on their immunizations, including influenza. Adult caregivers should also ask if they need a booster vaccine to protect the baby from whooping cough (pertussis). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Monitor for developmental delays.&lt;/strong&gt; Your baby&apos;s care provider may also monitor your baby for developmental delays and disabilities in the coming months. Babies who are identified as at risk may receive further evaluation and be referred to early intervention services.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Caring for a premature baby can be physically and emotionally exhausting. You may be anxious about your baby&apos;s health and the long-term effects of premature birth. You may feel angry, guilty or overwhelmed. Some of these suggestions may help during this difficult time:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Learn everything you can about your baby&apos;s condition.&lt;/strong&gt; In addition to talking to your baby&apos;s doctor and other care providers, ask for informational pamphlets and recommendations for good books and reliable websites for more information about preemies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care of yourself.&lt;/strong&gt; Get as much rest as you can and eat healthy foods. You&apos;ll feel stronger and better able to care for your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Establish your milk supply.&lt;/strong&gt; Use a breast pump until your baby is able to breast-feed. Ask the hospital staff for help &amp;mdash; they can show you how to use a breast pump and find the supplies you&apos;ll need to store milk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Accept help from others.&lt;/strong&gt; Allow friends and family to help you. They can care for your other children, prepare food, clean the house or run errands. This helps you save your energy for your baby.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep a journal.&lt;/strong&gt; Record the details of your baby&apos;s progress as well as your own thoughts and feelings. You may want to include pictures of your baby so that you can see how much he or she changes from week to week.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek good listeners for support.&lt;/strong&gt; Talk to your partner or spouse, friends, family, or your baby&apos;s caregivers. The NICU social worker often can be very helpful. If you&apos;re interested, your baby&apos;s caregivers may be able to suggest a support group in your area. Many parents find it particularly helpful to talk to other parents who are caring for a preemie.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Caring for a premature baby is a great challenge. Take it one day at a time. Despite the worries and setbacks, celebrate the surprising resilience and strength of your preemie, and cherish the time you can spend getting to know your son or daughter.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Premature birth
+	</Title>
+	<Abstract>
+		Premature birth &amp;mdash; Comprehensive overview covers symptoms, supportive care, complications and treatments for premature babies.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00128" LinkType="Internal" ObjectID="C58A66A8-E7FF-0DBD-187E5B72D0162C2C" Title="Fetal fibronectin test" Url="http://www.mayoclinic.com/health/fetal-fibronectin/MY00128" />
+		<LinkItem ContentType="Calculator" DocID="PR00099" LinkType="Internal" ObjectID="B0EB2B6A-48BF-4656-AD2A27E956F02A3B" Title="Pregnancy due date calculator" Url="http://www.mayoclinic.com/health/due-date-calculator/PR00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01918" LinkType="Internal" ObjectID="8F6EF8E2-A396-4711-8B11C193FC20B4CE" Title="Cervical cerclage" Url="http://www.mayoclinic.com/health/cervical-cerclage/MY01918" />
+		<LinkItem ContentType="Article" DocID="PR00120" LinkType="Internal" ObjectID="EC47EF57-2A5D-9994-EC289CAA22CD0366" Title="Twin pregnancy: What multiples mean for mom" Url="http://www.mayoclinic.com/health/twin-pregnancy/PR00120" />
+		<LinkItem ContentType="Article" DocID="PR00107" LinkType="Internal" ObjectID="DF1F8E53-CE59-4A8B-9204923F7DA89C84" Title="Bed rest during pregnancy: Get the facts" Url="http://www.mayoclinic.com/health/pregnancy/PR00107" />
+		<LinkItem ContentType="Article" DocID="MY01977" LinkType="Internal" ObjectID="B515ECD6-02E9-74B4-68C4EFCFC8C9288C" Title="Pregnancy and asthma: Managing your symptoms" Url="http://www.mayoclinic.com/health/pregnancy-and-asthma/MY01977" />
+		<LinkItem ContentType="Article" DocID="MY01924" LinkType="Internal" ObjectID="A936A6CB-EBE3-75E1-8149D2118AC8AA6F" Title="Smoking and pregnancy: Understand the risks" Url="http://www.mayoclinic.com/health/smoking-and-pregnancy/MY01924" />
+		<LinkItem ContentType="Article" DocID="MY01923" LinkType="Internal" ObjectID="A93493C6-AD18-6A9C-A4311F65AED90D23" Title="High-risk pregnancy: Know what to expect" Url="http://www.mayoclinic.com/health/high-risk-pregnancy/MY01923" />
+		<LinkItem ContentType="Article" DocID="PR00108" LinkType="Internal" ObjectID="A23350EF-AC01-461C-9E2EB56FD1AFE1C6" Title="Pregnancy nutrition: Healthy-eating basics" Url="http://www.mayoclinic.com/health/pregnancy-nutrition/PR00108" />
+		<LinkItem ContentType="Article" DocID="MY01713" LinkType="Internal" ObjectID="A0779F08-E762-03C0-A85B3065FC5D6156" Title="Home birth: Know the pros and cons" Url="http://www.mayoclinic.com/health/home-birth/MY01713" />
+		<LinkItem ContentType="Article" DocID="DE00003" LinkType="Internal" ObjectID="57914819-EA9E-4C92-AD8F21EE41E73C8D" Title="Oral health: Brush up on dental care basics" Url="http://www.mayoclinic.com/health/dental/DE00003" />
+		<LinkItem ContentType="Article" DocID="HO00140" LinkType="Internal" ObjectID="4CD86433-E40E-43FF-92F50384DA900DB6" Title="Sex during pregnancy: What&apos;s OK, what&apos;s not" Url="http://www.mayoclinic.com/health/sex-during-pregnancy/HO00140" />
+		<LinkItem ContentType="Article" DocID="DA00042" LinkType="Internal" ObjectID="234A6721-523E-4811-B66055BBEEAD8EB0" Title="Pregnancy and diabetes: Why lifestyle counts" Url="http://www.mayoclinic.com/health/pregnancy-and-diabetes/DA00042" />
+		<LinkItem ContentType="Article" DocID="MY01945" LinkType="Internal" ObjectID="1A1EE92E-FB0A-795B-CEB7BDD5607624A1" Title="Placenta: How it works, what&apos;s normal" Url="http://www.mayoclinic.com/health/placenta/MY01945" />
+		<LinkItem ContentType="Article" DocID="PR00111" LinkType="Internal" ObjectID="17A69035-EF4D-4811-985D00A6FCDDB751" Title="Pregnancy weight gain: What&apos;s healthy?" Url="http://www.mayoclinic.com/health/pregnancy-weight-gain/PR00111" />
+		<LinkItem ContentType="Article" DocID="MY01691" LinkType="Internal" ObjectID="0C5B6C3B-A65E-7D18-492171BE49CF8E3D" Title="Family planning: Get the facts about pregnancy spacing" Url="http://www.mayoclinic.com/health/family-planning/MY01691" />
+		<LinkItem ContentType="Disease" DocID="DS01203" LinkType="Internal" ObjectID="A0B15BA1-0800-BC0A-49A143C3527F367B" Title="Placenta accreta" Url="http://www.mayoclinic.com/health/placenta-accreta/DS01203" />
+		<LinkItem ContentType="Disease" DocID="DS01105" LinkType="Internal" ObjectID="6B11E6BD-E7FF-0DBD-1332ED03983B3A84" Title="Miscarriage" Url="http://www.mayoclinic.com/health/pregnancy-loss-miscarriage/DS01105" />
+		<LinkItem ContentType="Disease" DocID="DS00393" LinkType="Internal" ObjectID="256A93D6-5A7F-4D83-A847EE6F829D7FA8" Title="Hydrocephalus" Url="http://www.mayoclinic.com/health/hydrocephalus/DS00393" />
+		<LinkItem ContentType="Disease" DocID="DS00254" LinkType="Internal" ObjectID="1CB17BD3-6668-48C7-85D6CA0C5A7EBD90" Title="Retinal detachment" Url="http://www.mayoclinic.com/health/retinal-detachment/DS00254" />
+		<LinkItem ContentType="Disease" DocID="DS01198" LinkType="Internal" ObjectID="1A2F7204-9495-DCE4-A898AADA3C791575" Title="Incompetent cervix" Url="http://www.mayoclinic.com/health/incompetent-cervix/DS01198" />
+	</RelatedLinksBox>
+</Disease>

@@ -1,0 +1,308 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00217
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/goiter/DS00217
+		</OriginalURL>
+		<UpdateDate>
+			2011-01-08
+		</UpdateDate>
+		<PublicationDate>
+			1999-11-26
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1142" Title="Thyroid disorder">
+						<Keyword MCVID="2472" Title="Goiter" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C536E64D-94D2-4027-8A03FD523178A27E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				goiter
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid gland
+			</MetaKeyword>
+			<MetaKeyword>
+				diffuse goiter
+			</MetaKeyword>
+			<MetaKeyword>
+				nodular goiter
+			</MetaKeyword>
+			<MetaKeyword>
+				iodine
+			</MetaKeyword>
+			<MetaKeyword>
+				pituitary gland
+			</MetaKeyword>
+			<MetaKeyword>
+				hypothalamus
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroid-stimulating hormone
+			</MetaKeyword>
+			<MetaKeyword>
+				TSH
+			</MetaKeyword>
+			<MetaKeyword>
+				thyroiditis
+			</MetaKeyword>
+			<MetaKeyword>
+				Graves&apos; disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Hashimoto&apos;s disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your thyroid is a butterfly-shaped gland located at the base of your neck just below your Adam&apos;s apple. Sometimes the thyroid gland grows larger than normal &amp;mdash; a condition known as goiter. Although goiters are usually painless, a large goiter can cause a cough and make it difficult for you to swallow or breathe. 
+&lt;/p&gt;
+&lt;p&gt;
+The most common cause of goiter worldwide is a lack of iodine in the diet. In the United States, where most people use iodized salt, goiter is more often due to the over- or underproduction of thyroid hormones or to nodules that develop in the gland itself. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment depends on the size of the goiter, your symptoms and the underlying cause. Small goiters that aren&apos;t noticeable and don&apos;t cause problems usually don&apos;t need treatment. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing enlarged thyroid 
+" Caption="Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+" Height="60" Title="Enlarged thyroid" URI="/images/image_popup/thumbs/r7_goiternormalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing enlarged thyroid 
+" Caption="Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+" Height="300" Title="Enlarged thyroid" URI="/images/image_popup/r7_goiternormal.jpg" Width="400" />
+				<HTML>
+					Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Not all goiters cause signs and symptoms. When signs and symptoms do occur they may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A visible swelling at the base of your neck that may be particularly obvious when you shave or put on makeup&lt;/li&gt;
+	&lt;li&gt;A tight feeling in your throat&lt;/li&gt;
+	&lt;li&gt;Coughing&lt;/li&gt;
+	&lt;li&gt;Hoarseness&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Difficulty breathing&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing enlarged thyroid 
+" Caption="Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+" Height="60" Title="Enlarged thyroid" URI="/images/image_popup/thumbs/r7_goiternormalthu.jpg" Width="60" />
+				<Image Alt="Illustration showing enlarged thyroid 
+" Caption="Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+" Height="300" Title="Enlarged thyroid" URI="/images/image_popup/r7_goiternormal.jpg" Width="400" />
+				<HTML>
+					Widespread enlargement of your thyroid can expand the gland well beyond its normal size (outline) and cause a noticeable bulge in your neck. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your thyroid gland produces two main hormones &amp;mdash; thyroxine and triiodothyronine (T-3). These hormones circulate in your bloodstream and help regulate your metabolism. They maintain the rate at which your body uses fats and carbohydrates, help control your body temperature, influence your heart rate, and help regulate the production of proteins. Your thyroid gland also produces calcitonin &amp;mdash; a hormone that helps regulate the amount of calcium in your blood. 
+&lt;/p&gt;
+&lt;p&gt;
+Your pituitary gland and hypothalamus control the rate at which these hormones are produced and released. The process begins when the hypothalamus &amp;mdash; an area at the base of your brain that acts as a thermostat for your whole system &amp;mdash; signals your pituitary gland to make a hormone known as thyroid-stimulating hormone (TSH). Your pituitary gland &amp;mdash; also located at the base of your brain &amp;mdash; releases a certain amount of TSH, depending on how much thyroxine and T-3 are in your blood. Your thyroid gland, in turn, regulates its production of hormones based on the amount of TSH it receives from the pituitary gland. 
+&lt;/p&gt;
+&lt;p&gt;
+Having a goiter doesn&apos;t necessarily mean that your thyroid gland isn&apos;t working normally. Even when it&apos;s enlarged, your thyroid may produce normal amounts of hormones. It might also, however, produce too much or too little thyroxine and T-3. 
+&lt;/p&gt;
+&lt;p&gt;
+A number of factors can cause your thyroid gland to enlarge. Among the most common are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Iodine deficiency.&lt;/strong&gt; Iodine, which is essential for the production of thyroid hormones, is found primarily in seawater and in the soil in coastal areas. In the developing world, people who live inland or at high elevations are often iodine-deficient and can develop goiter when the thyroid enlarges in an effort to obtain more iodine. The initial iodine deficiency may be made even worse by a diet high in hormone-inhibiting foods, such as cabbage, broccoli and cauliflower. Although a lack of dietary iodine is the main cause of goiter in many parts of the world, this is not the case in countries where iodine is routinely added to table salt and other foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Graves&apos; disease.&lt;/strong&gt; Goiter can sometimes occur when your thyroid gland produces too much thyroid hormone (hyperthyroidism). In Graves&apos; disease, antibodies produced by your immune system mistakenly attack your thyroid gland, causing it to produce excess thyroxine. This overstimulation causes the thyroid to swell.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hashimoto&apos;s disease.&lt;/strong&gt; Goiter can also result from an underactive thyroid (hypothyroidism). Like Graves&apos; disease, Hashimoto&apos;s disease is an autoimmune disorder. But instead of causing your thyroid to produce too much hormone, Hashimoto&apos;s damages your thyroid so that it produces too little. Sensing a low hormone level, your pituitary gland produces more TSH to stimulate the thyroid, which then causes the gland to enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Multinodular goiter.&lt;/strong&gt; In this condition, several solid or fluid-filled lumps called nodules develop in both sides of your thyroid, resulting in overall enlargement of the gland.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Solitary thyroid nodules.&lt;/strong&gt; In this case, a single nodule develops in one part of your thyroid gland. Most nodules are noncancerous (benign) and don&apos;t lead to cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Thyroid cancer.&lt;/strong&gt; Thyroid cancer is far less common than benign thyroid nodules. Cancer of the thyroid often appears as an enlargement on one side of the thyroid.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy.&lt;/strong&gt; A hormone produced during pregnancy, human chorionic gonadotropin (HCG), may cause your thyroid gland to enlarge slightly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inflammation.&lt;/strong&gt; Thyroiditis is an inflammatory condition that can cause pain and swelling in the thyroid.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="60" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/thumbs/m7_glandsthu.jpg" Width="60" />
+				<Image Alt="Illustration showing pituitary gland and hypothalamus 
+" Caption="The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+" Height="344" Title="Pituitary gland and hypothalamus" URI="/images/image_popup/m7_glands.jpg" Width="400" />
+				<HTML>
+					The pituitary gland and the hypothalamus are situated within the brain and control hormone production. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Goiters can affect anyone. They may be present at birth and occur at anytime throughout life, although they&apos;re more common after age 50. Some common risk factors for goiter include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A lack of dietary iodine.&lt;/strong&gt; People living in areas where iodine is in short supply and who don&apos;t have access to iodine supplements are at high risk of goiter.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex.&lt;/strong&gt; Because women are more prone to thyroid disorders, they&apos;re also more likely to develop goiters.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your age.&lt;/strong&gt; Your chances of developing a goiter increase with age.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medical history.&lt;/strong&gt; A personal or family history of autoimmune disease increases your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy and menopause.&lt;/strong&gt; For reasons that aren&apos;t entirely clear, thyroid problems are more likely to occur during pregnancy and menopause.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain medications.&lt;/strong&gt; Some medical treatments, including immunosuppressants, antiretrovirals, the heart drug amiodarone (Cordarone, Pacerone, others) and the psychiatric drug lithium (Eskalith, Lithobid, others), increase your risk.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radiation exposure.&lt;/strong&gt; Your risk increases if you&apos;ve had radiation treatments to your neck or chest area or you&apos;ve been exposed to radiation in a nuclear facility, test or accident.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Small goiters that don&apos;t cause physical or cosmetic problems aren&apos;t a concern. But large goiters can make it hard to breathe or swallow and can cause a cough and hoarseness. Goiters that result from other conditions, such as hypothyroidism or hyperthyroidism, can be associated with a number of symptoms, ranging from fatigue and weight gain to unintended weight loss, irritability and trouble sleeping. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with a goiter, you&apos;re likely to have further tests to determine the cause. You might find it helpful to make a list of questions to ask your doctor, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What caused this goiter to develop?&lt;/li&gt;
+	&lt;li&gt;Is it serious?&lt;/li&gt;
+	&lt;li&gt;What can be done to treat the underlying cause?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the main treatment that you&apos;re proposing?&lt;/li&gt;
+	&lt;li&gt;What will happen if I choose to do nothing?&lt;/li&gt;
+	&lt;li&gt;Will the goiter continue to get larger?&lt;/li&gt;
+	&lt;li&gt;Will the treatment you&apos;re suggesting improve the appearance of the goiter?&lt;/li&gt;
+	&lt;li&gt;Will I have to take medication? For how long?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor may discover an enlarged thyroid gland simply by feeling your neck and having you swallow during a routine physical exam. In some cases, your doctor may also be able to feel the presence of nodules. 
+&lt;/p&gt;
+&lt;p&gt;
+Diagnosing goiter may also involve: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A hormone test.&lt;/strong&gt; Blood tests can determine the amount of hormones produced by your thyroid and pituitary glands. If your thyroid is underactive, the level of thyroid hormone will be low. At the same time, the level of thyroid-stimulating hormone (TSH) will be elevated because your pituitary gland tries to stimulate your thyroid gland to produce more thyroid hormone. Goiter associated with an overactive thyroid usually involves a high level of thyroid hormone in the blood and a lower than normal TSH level.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An antibody test.&lt;/strong&gt; Some causes of goiter involve production of abnormal antibodies. A blood test may confirm the presence of these antibodies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasonography.&lt;/strong&gt; A wand-like device (transducer) is held over your neck. Sound waves bounce through your neck and back, forming images on a computer screen. The images reveal the size of your thyroid gland and whether the gland contains nodules that your doctor may not have been able to feel.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A thyroid scan.&lt;/strong&gt; During a thyroid scan, you&apos;ll have a radioactive isotope injected into the vein on the inside of your elbow. You then lie on a table with your head stretched backward while a special camera produces an image of your thyroid on a computer screen. The time needed for the procedure may vary, depending on how long it takes the isotope to reach your thyroid gland. Thyroid scans provide information about the nature and size of your thyroid, but they&apos;re more invasive, time-consuming and expensive than are ultrasound tests.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A biopsy.&lt;/strong&gt; During a fine-needle aspiration biopsy, ultrasound is used to guide a needle into your thyroid to obtain a tissue or fluid sample for testing.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Goiter treatment depends on the size of the goiter, your signs and symptoms, and the underlying cause. Your doctor may recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Observation.&lt;/strong&gt; If your goiter is small and doesn&apos;t cause problems, and your thyroid is functioning normally, your doctor may suggest a wait-and-see approach.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; If you have hypothyroidism, thyroid hormone replacement with levothyroxine (Levothroid, Synthroid) will resolve the symptoms of hypothyroidism as well as slow the release of thyroid-stimulating hormone from your pituitary gland, often decreasing the size of the goiter. For inflammation of your thyroid gland, your doctor may suggest aspirin or a corticosteroid medication to treat the inflammation. For goiters associated with hyperthyroidism, you may need medications to normalize hormone levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Removing all or part of your thyroid gland (total or partial thyroidectomy) is an option if you have a large goiter that is uncomfortable or causes difficulty breathing or swallowing, or in some cases, if you have nodular goiter causing hyperthyroidism. Surgery is also the treatment for thyroid cancer. You may need to take levothyroxine after surgery, depending on the amount of thyroid removed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Radioactive iodine.&lt;/strong&gt; In some cases, radioactive iodine is used to treat an overactive thyroid gland. The radioactive iodine is taken orally and reaches your thyroid gland through your bloodstream, destroying thyroid cells. The treatment results in diminished size of the goiter, but eventually may also cause an underactive thyroid gland. Hormone replacement with the synthetic thyroid hormone levothyroxine then becomes necessary, usually for life.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your goiter is caused by your diet, these suggestions can help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Get enough iodine.&lt;/strong&gt; To ensure that you get enough iodine, use iodized salt or eat seafood or seaweed &amp;mdash; sushi is a good seaweed source &amp;mdash; about twice a week. Shrimp and other shellfish are particularly high in iodine. If you live near the coast, locally grown fruits and vegetables are likely to contain some iodine, too, as are cow&apos;s milk and yogurt. Everyone needs about 150 micrograms of iodine a day, but adequate amounts are especially important for pregnant and lactating women and for infants and children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Reduce iodine consumption.&lt;/strong&gt; Although it&apos;s uncommon, getting too much iodine sometimes leads to goiter. If excess iodine is a problem, avoid iodine-fortified salt, shellfish, seaweed and iodine supplements.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Goiter
+	</Title>
+	<Abstract>
+		Goiter &amp;mdash; Comprehensive overview covers causes, treatment of this enlargement of the thyroid gland.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00986" LinkType="Internal" ObjectID="85005290-7257-4A7E-9FD2B48237018242" Title="Thyroid disease: Can it affect a person&apos;s mood?" Url="http://www.mayoclinic.com/health/thyroid-disease/AN00986" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00709" LinkType="Internal" ObjectID="3B7E2908-9788-8F9C-79689BBDDE8A5263" Title="Thyroidectomy" Url="http://www.mayoclinic.com/health/thyroidectomy/MY00709" />
+	</RelatedLinksBox>
+</Disease>

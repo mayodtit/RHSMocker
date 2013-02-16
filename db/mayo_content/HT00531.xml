@@ -1,0 +1,75 @@
+<HealthTip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HealthTip.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			HealthTip
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			HT00531
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/health-tip/HT00531
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2008-08-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2343" Title="Elbow and arm">
+						<Keyword MCVID="2344" Title="Golfer&apos;s elbow" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			162BC7A7-E7FF-0DBD-1F6FC4B843911D5B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				golf
+			</MetaKeyword>
+			<MetaKeyword>
+				golfer&apos;s elbow
+			</MetaKeyword>
+			<MetaKeyword>
+				golf elbow
+			</MetaKeyword>
+			<MetaKeyword>
+				golfers elbow
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Love to golf? Protect your elbows
+	</Title>
+	<Body>
+		&lt;p&gt;Golfer&apos;s elbow is pain and inflammation on the inner side of the elbow. To keep your game on course, think prevention: 1. Strengthen your forearm muscles. Use light weights or squeeze a tennis ball. 2. Stretch before you golf. Walk or jog for a few minutes to warm up your muscles. Then try a few gentle stretches. 3. Fix your form. Ask an instructor to check your grip and swing technique. 4. Know when to rest. At the first sign of elbow pain, take a break.&lt;/p&gt;
+	</Body>
+</HealthTip>

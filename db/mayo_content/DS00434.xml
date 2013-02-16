@@ -1,0 +1,484 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00434
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/long-qt-syndrome/DS00434
+		</OriginalURL>
+		<UpdateDate>
+			2012-04-20
+		</UpdateDate>
+		<PublicationDate>
+			2002-07-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1466" Title="Rate and rhythm">
+						<Keyword MCVID="1468" Title="Conduction system disease">
+							<Keyword MCVID="4271" Title="Long QT syndrome" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			47C52B5C-DA54-4EF4-864C9B4F3F60A5CB
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				long QT syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				QT syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Q-T
+			</MetaKeyword>
+			<MetaKeyword>
+				LQTS
+			</MetaKeyword>
+			<MetaKeyword>
+				long Q-T syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Q-T syndrome
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Long QT syndrome (LQTS) is a heart rhythm disorder that can potentially cause fast, chaotic heartbeats. These rapid heartbeats may trigger a sudden fainting spell or seizure. In some cases, your heart may beat erratically for so long that it can cause sudden death. 
+&lt;/p&gt;
+&lt;p&gt;
+You can be born with a genetic mutation that puts you at risk of long QT syndrome. In addition, certain medications and medical conditions may cause long QT syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Long QT syndrome is treatable. You may need to limit your physical activity, avoid medications known to cause prolonged Q-T intervals or take medications to prevent a chaotic heart rhythm. Some people with long QT syndrome need surgery or an implantable device. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Many people with long QT syndrome don&apos;t have any signs or symptoms. They may be aware of their condition only from results of an electrocardiogram (ECG) performed for an unrelated reason, because they have a family history of long QT syndrome or because of genetic testing results. 
+&lt;/p&gt;
+&lt;p&gt;
+For people who do experience signs and symptoms of long QT syndrome, the most common long QT symptoms include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Fainting.&lt;/strong&gt; This is the most common sign of long QT syndrome. In people with long QT syndrome, fainting spells (syncope) are caused by the heart temporarily beating in an erratic way. These fainting spells may happen when you&apos;re excited, angry, scared or during exercise. Fainting in people with long QT syndrome can occur without warning, such as losing consciousness after being startled by a ringing telephone.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Signs and symptoms that you&apos;re about to faint include lightheadedness, heart palpitations, irregular heartbeat, weakness and blurred vision. However, in long QT syndrome, such warning signs before fainting are unusual. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seizures.&lt;/strong&gt; If the heart continues to beat erratically, the brain becomes increasingly deprived of oxygen. This can then cause generalized seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sudden death.&lt;/strong&gt; Normally, the heart returns to its normal rhythm. If this doesn&apos;t happen spontaneously and paramedics don&apos;t arrive in time to convert the rhythm back to normal with an external defibrillator, sudden death will occur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of inherited long QT syndrome may start during the first months of life, or as late as middle age. Most people who experience signs or symptoms from long QT syndrome have their first episode by the time they reach age 40. 
+&lt;/p&gt;
+&lt;p&gt;
+Rarely, signs and symptoms of long QT syndrome may occur during sleep or arousal from sleep. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor &lt;/strong&gt;&lt;br /&gt;
+You should see your doctor if you suddenly faint during physical exertion or emotional excitement or after use of a new medication. 
+&lt;/p&gt;
+&lt;p&gt;
+Because long QT syndrome can occur in families, see your doctor to be tested for long QT syndrome if a first-degree relative (parent, sibling or child) has been diagnosed with long QT syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your heart beats about 100,000 times a day to circulate blood throughout your body. To pump blood, your heart&apos;s chambers contract and relax. These actions are controlled by electrical impulses created in the sinus node, a group of cells in the upper right chamber of your heart. These impulses travel through your heart and cause it to beat. 
+&lt;/p&gt;
+&lt;p&gt;
+After each heartbeat, your heart&apos;s electrical system recharges itself in preparation for the next heartbeat. This process is known as repolarization. In long QT syndrome, your heart muscle takes longer than normal to recharge between beats. This electrical disturbance, which often can be seen on an electrocardiogram (ECG), is called a prolonged Q-T interval. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Prolonged Q-T interval&lt;/strong&gt;&lt;br /&gt;
+An electrocardiogram (ECG, also called an EKG) measures electrical impulses as they travel through your heart. Patches with wires attached to your skin measure these impulses, which are displayed on a monitor or printed on paper as waves of electrical activity. 
+&lt;/p&gt;
+&lt;p&gt;
+An ECG measures electrical impulses as five distinct waves. Doctors label these five waves using the letters P, Q, R, S and T. The waves labeled Q through T show electrical activity in your heart&apos;s lower chambers. 
+&lt;/p&gt;
+&lt;p&gt;
+The space between the start of the Q wave and the end of the T wave (Q-T interval) corresponds to the time it takes for your heart to contract and then refill with blood before beginning the next contraction. 
+&lt;/p&gt;
+&lt;p&gt;
+By measuring the Q-T interval, doctors can tell whether it occurs in a normal amount of time. If it takes longer than normal, it&apos;s called a prolonged Q-T interval. The upper limit of a normal Q-T interval takes into account age, sex, and regularity and speed of the heart rate. 
+&lt;/p&gt;
+&lt;p&gt;
+Long QT syndrome results from abnormalities in the heart&apos;s electrical recharging system. However, the heart&apos;s structure is normal. Abnormalities in your heart&apos;s electrical system may be inherited or acquired due to an underlying medical condition or a medication. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Inherited long QT syndrome&lt;/strong&gt;&lt;br /&gt;
+At least 12 genes associated with long QT syndrome have been discovered so far, and hundreds of mutations within these genes have been identified. Mutations in three of these genes account for about 70 to 75 percent of long QT syndrome cases. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors have described two forms of inherited long QT syndrome: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Romano-Ward syndrome.&lt;/strong&gt; This more common form occurs in people who inherit only a single genetic variant from one of their parents.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jervell and Lange-Nielsen syndrome.&lt;/strong&gt; Signs and symptoms of this rare form usually occur earlier and are more severe than in Romano-Ward syndrome. It&apos;s seen in children who are born deaf and have long QT syndrome because they inherited genetic variants from each parent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Additionally, scientists have been investigating a possible link between SIDS and long QT syndrome and have discovered that about 10 percent of babies with SIDS had a genetic defect or mutation for long QT syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Acquired long QT syndrome&lt;/strong&gt;&lt;br /&gt;
+More than 50 medications, many of them common, can lengthen the Q-T interval in otherwise healthy people and cause a form of acquired long QT syndrome known as drug-induced long QT syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+Medications that can lengthen the Q-T interval and upset heart rhythm include certain antibiotics, antidepressants, antihistamines, diuretics, heart medications, cholesterol-lowering drugs, diabetes medications, as well as some antifungal and antipsychotic drugs. 
+&lt;/p&gt;
+&lt;p&gt;
+People who develop drug-induced long QT syndrome may also have some subtle genetic defects in their hearts, making them more susceptible to disruptions in heart rhythm from taking drugs that can cause prolonged Q-T intervals. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="60" Title="Chambers and valves of the heart" URI="/images/image_popup/thumbs/mcdc7_theheartthu.jpg" Width="60" />
+				<Image Alt="Illustration showing chambers and valves of the heart 
+" Caption="A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of your heart. The heart valves, which keep blood flowing in the right direction, are gates at the chamber openings. 
+" Height="479" Title="Chambers and the valves of the heart" URI="/images/image_popup/mcdc7_theheart.jpg" Width="400" />
+				<HTML>
+					A normal heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+People at risk of long QT syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Children, teenagers and young adults with unexplained fainting, unexplained near drownings or other accidents, unexplained seizures, or a history of cardiac arrest&lt;/li&gt;
+	&lt;li&gt;Family members of children, teenagers and young adults with unexplained fainting, unexplained near drownings or other accidents, unexplained seizures, or a history of cardiac arrest&lt;/li&gt;
+	&lt;li&gt;First-degree relatives of people with known long QT syndrome&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;People taking medications known to cause prolonged Q-T intervals&lt;/li&gt;
+	&lt;li&gt;People with low potassium, magnesium or calcium blood levels &amp;mdash; such as those with the eating disorder anorexia nervosa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Long QT syndrome often goes undiagnosed or is misdiagnosed as a seizure disorder, such as epilepsy. However, long QT syndrome may be responsible for some otherwise unexplained deaths in children and young adults. For example, an unexplained drowning of a young person may be the first clue to inherited long QT syndrome in a family. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prolonged Q-T intervals may never cause any problems. However, physical or emotional stress may &quot;trip up&quot; a heart susceptible to prolonged Q-T intervals and cause the heart&apos;s rhythm to spin out of control, triggering life-threatening, irregular heart rhythms (arrhythmias) including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Torsades de pointes &amp;mdash; &apos;twists of the points.&apos;&lt;/strong&gt; This arrhythmia is characterized by your heart&apos;s two lower chambers (ventricles) beating fast, making the waves on an ECG monitor look twisted. When this arrhythmia occurs, less blood is pumped out from your heart. Less blood then reaches your brain, causing you to faint suddenly and, often, without any warning.
+	&lt;/p&gt;
+	&lt;p&gt;
+	If a torsades de pointes episode is short &amp;mdash; lasting less than one minute &amp;mdash; your heart can correct itself seconds later, and you regain consciousness on your own. However, if a torsades de pointes episode persists, it can lead to a life-threatening arrhythmia called ventricular fibrillation. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ventricular fibrillation.&lt;/strong&gt; This condition causes the ventricles to beat so fast that your heart quivers and effectively ceases pumping blood. Unless your heart is shocked back into a normal rhythm by a device called a defibrillator, ventricular fibrillation can lead to brain damage and death. It&apos;s thought that long QT syndrome may explain some cases of sudden death in young people who otherwise appear healthy.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you develop signs and symptoms common to long QT syndrome, call your doctor. After an initial examination, it&apos;s likely that the doctor will refer you to a doctor who specializes in the diagnosis and treatment of heart conditions (cardiologist) or a heart rhythm specialist (electrophysiologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs and symptoms you&apos;ve had,&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including any other health problems and the names of all of your medications. It will also be important to share any family history of heart disease or sudden death with your doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Find a family member or friend who can come with you to the appointment,&lt;/strong&gt; if possible. Someone who accompanies you can help remember what the doctor says.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down the questions&lt;/strong&gt; you want to be sure to ask your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask the doctor at your initial appointment include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for these signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;What tests are needed?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Questions to ask if you are referred to a cardiologist or electrophysiologist include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have long QT syndrome? What type?&lt;/li&gt;
+	&lt;li&gt;What is my risk of complications from this condition?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will you recommend next?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, what are the possible side effects?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending surgery, what type of procedure is most likely to be effective in my case? Why?&lt;/li&gt;
+	&lt;li&gt;What should I expect from my recovery and rehabilitation after surgery?&lt;/li&gt;
+	&lt;li&gt;Will I need frequent exams and lifelong treatment for this condition?&lt;/li&gt;
+	&lt;li&gt;What emergency signs and symptoms of long QT syndrome should I be aware of?&lt;/li&gt;
+	&lt;li&gt;Should I tell my friends, teachers and co-workers that I have this condition?&lt;/li&gt;
+	&lt;li&gt;What activity restrictions will I need to follow?&lt;/li&gt;
+	&lt;li&gt;Could any dietary changes help me manage this condition?&lt;/li&gt;
+	&lt;li&gt;What medicines should I avoid?&lt;/li&gt;
+	&lt;li&gt;What is my long-term outlook with treatment?&lt;/li&gt;
+	&lt;li&gt;Will it be safe for me to become pregnant in the future?&lt;/li&gt;
+	&lt;li&gt;What is the risk that my future children would have this defect?&lt;/li&gt;
+	&lt;li&gt;Should I meet with a genetic counselor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment if you don&apos;t understand something. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+A doctor or cardiologist who sees you or your child for possible long QT syndrome may ask a number of questions, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms gotten worse over time?&lt;/li&gt;
+	&lt;li&gt;Do strong emotions trigger your symptoms, such as excitement, anger or surprise?&lt;/li&gt;
+	&lt;li&gt;Does exercise bring on your symptoms?&lt;/li&gt;
+	&lt;li&gt;Does being startled &amp;mdash; such as by a doorbell or phone ringing &amp;mdash; trigger your symptoms?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include feeling lightheaded or dizzy?&lt;/li&gt;
+	&lt;li&gt;Have you ever fainted?&lt;/li&gt;
+	&lt;li&gt;Have you ever had a seizure?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms include a fluttering sensation in your chest?&lt;/li&gt;
+	&lt;li&gt;Do you gasp in your sleep that you&apos;re aware of?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;Are you aware of any history of heart problems in your family?&lt;/li&gt;
+	&lt;li&gt;Have any first-degree relatives &amp;mdash; parent, sibling or child &amp;mdash; ever died unexpectedly, such as from drowning, or died suddenly without explanation?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including over-the-counter and prescription drugs as well as vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;Have you ever used recreational drugs? If so, which ones?&lt;/li&gt;
+	&lt;li&gt;What is your typical daily diet?&lt;/li&gt;
+	&lt;li&gt;Do you use caffeine? How much?&lt;/li&gt;
+	&lt;li&gt;Do you have any children? Are you planning any future pregnancies?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any first-degree relatives have been diagnosed with heart disease or have died suddenly. Having a first-degree relative who died from an unexpected cause &amp;mdash; such as from SIDS, from drowning or while driving &amp;mdash; is an important clue for your doctor. And in general, knowing as much as possible about your family&apos;s health history will help your doctor determine next steps for your diagnosis and treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+A nonprofit advocacy organization called the Sudden Arrhythmia Death Syndromes (SADS) Foundation can help you prepare and understand your family history as it relates to a possible diagnosis of LQTS. 
+&lt;/p&gt;
+&lt;p&gt;
+If exercise makes your symptoms worse, avoid exerting yourself physically until you&apos;ve been seen by your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your doctor suspects that you have long QT syndrome, you may need to have several tests to confirm the diagnosis. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An electrocardiogram (ECG).&lt;/strong&gt; In this noninvasive test, small probes are taped to your chest to monitor the waves of electrical impulses in your heart. The probes transmit the waves to a computer screen or printout for your doctor to see. You may have this test while at rest or while exercising by running on a treadmill or pedaling a stationary bike.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ambulatory ECG monitoring.&lt;/strong&gt; This test, also called Holter monitoring, is used to monitor your heart for rhythm irregularities during normal activity for an uninterrupted 24-hour period. During the test, electrodes attached to your chest are connected to a portable recorder that attaches to your belt or is carried by a shoulder strap. The recorded information can then be analyzed to check for heart rhythm irregularities, such as prolonged Q-T intervals.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Event ECG recording.&lt;/strong&gt; This is similar to the ambulatory ECG except that you may need to wear a portable ECG recorder for days or weeks as it records your heart rhythms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+While some people with suspected long QT syndrome have a visibly lengthened Q-T interval on an ECG, others don&apos;t, making the condition more difficult to diagnose. Other testing may then be necessary: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A nonexercise (medication) stress test.&lt;/strong&gt; This ECG test is performed while you&apos;re given a medication that stimulates your heart in a way similar to exercise. The medication is given through a vein in your arm and may include epinephrine (adrenaline). Adrenaline is a substance that your body releases in response to stress. In this stress test, doctors monitor the effects of the adrenaline on the way your heart recharges. This test can unmask in some people what&apos;s known as concealed long QT syndrome, which is a normal Q-T interval (recharging time) at rest. In some people with long QT syndrome, fainting spells are triggered by sudden bursts of adrenaline in the body, such as are experienced during intense exercise or emotional upset.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;An electroencephalogram (EEG).&lt;/strong&gt; This test looks for neurological causes of fainting, such as a seizure disorder. The procedure measures the waves of electrical activity the brain produces. Small electrodes attached to your head pick up the electrical impulses from your brain and send them to the EEG machine, which records brain waves.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; A genetic test for long QT syndrome is available and increasingly covered by private and governmental insurance plans. Current genetic tests for long QT syndrome are capable of finding the genetic cause for about 3 out of every 4 cases of long QT syndrome. Therefore, it&apos;s possible to test negative with the genetic test, but still have long QT syndrome. If your genetic cause of long QT syndrome is discovered through a positive genetic test, then family members can be tested to prove definitively whether they inherited the same genetic mutation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;A second opinion.&lt;/strong&gt; You may want to seek a second opinion if your doctor diagnoses you with long QT syndrome. Treatments for long QT syndrome can be life altering, such as avoiding strenuous exercise, taking powerful medications or having surgery. In addition, evidence suggests that misdiagnoses related to this condition are not uncommon &amp;mdash; including diagnosing long QT syndrome when it&apos;s not actually present, and overlooking the condition when it is present.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for inherited long QT syndrome can involve medications, medical devices, surgery or lifestyle changes. The goal of treatment is either to prevent the long QT heart from ever beating out of control or to prevent sudden death. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s often possible to eliminate drug-induced long QT syndrome simply by switching medications, with your doctor&apos;s direction. Some people, however, may need additional treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Medications used to treat long QT syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Beta blockers.&lt;/strong&gt; Examples of these heart drugs include nadolol (Corgard) and propranolol (Inderal, Innopran XL). These drugs slow the heart rate and make the dangerous rhythm associated with long QT syndrome less likely. They work by blunting the way a long QT syndrome-affected heart reacts to adrenaline in times of stress, fear or exertion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mexiletine.&lt;/strong&gt; In people with a form of long QT syndrome called LQT3, taking this anti-arrhythmic drug in combination with propranolol may help shorten the Q-T interval.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Potassium.&lt;/strong&gt; Potassium is a mineral in your body, derived from your diet, that&apos;s important for the health of your heart&apos;s electrical system. Potassium supplements may improve the heart&apos;s recharging system and may be helpful for people with certain forms of long QT syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fish oil.&lt;/strong&gt; Supplementation with heart-healthy fish oil (omega-3 fatty acid) may help stabilize abnormal heart rhythms. You should talk to your doctor before starting fish oil or any other supplements and medications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor may suggest treatment for long QT syndrome even if you don&apos;t experience frequent signs or symptoms of the disorder. 
+&lt;/p&gt;
+&lt;p&gt;
+If you do need treatment, take the medications your doctor prescribes for long QT syndrome as directed. While medications won&apos;t cure the condition, they provide some protection against potentially fatal disruptions of your heart rhythm. You may need to take a medication such as a beta blocker indefinitely. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical devices and surgical procedures&lt;/strong&gt;&lt;br /&gt;
+Your doctor may consider two other treatments for you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;A pacemaker or implantable cardioverter-defibrillator (ICD).&lt;/strong&gt; These devices, which are implanted under the skin of your chest, can stop a potentially fatal arrhythmia. An ICD continuously monitors your heartbeat and will deliver electrical shocks to restore a normal heart rhythm when necessary.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Left cardiac sympathetic denervation surgery.&lt;/strong&gt; In this procedure, specific nerves in your chest are surgically removed. These nerves are part of the body&apos;s sympathetic nervous system, which controls automatic functions in the body including regulation of heart rhythm. Left cardiac sympathetic denervation surgery significantly reduces the risk of sudden death.
+	&lt;/p&gt;
+	&lt;p&gt;
+	This surgery is generally reserved for people considered at high risk of sudden death, people who do not tolerate their medications or have a fainting spell despite their medications, and people who have an implanted ICD. Left cardiac sympathetic denervation surgery may significantly reduce the frequency of ICD shocks. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Lifestyle changes&lt;/strong&gt;&lt;br /&gt;
+In addition to medications or surgery, your doctor may recommend some lifestyle changes to reduce your chances of a long QT syndrome-related fainting spell. These could include avoiding strenuous exercise or contact sports, reducing loud, startling noises, and staying away from situations that could make you excited or angry. 
+&lt;/p&gt;
+&lt;p&gt;
+Work with your doctor to balance these lifestyle recommendations against the clear, heart-healthy benefits of an active lifestyle. In some circumstances, it may be possible to stay fully active in sports, including competitive sports, after carefully reviewing the risks and benefits with your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+If your symptoms are mild or don&apos;t occur very often, your doctor may recommend only lifestyle changes as treatment for your condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once you&apos;ve been diagnosed with long QT syndrome, several steps can help you avoid serious consequences of the illness. These steps include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Don&apos;t overexert yourself.&lt;/strong&gt; You don&apos;t necessarily have to give up sports if you have long QT syndrome. Your doctor may permit recreational activities as long as you have a buddy along in case you have a fainting episode. In general, people with long QT syndrome should never swim alone.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Strenuous exercise may be dangerous and is not recommended for some people with long QT syndrome. However, other people may be at such low risk of complications that they may be able to continue strenuous exercise and competitive sports. Discuss this issue with your doctor carefully. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Know your symptoms.&lt;/strong&gt; Be fully aware of symptoms that can warn you of irregular heart rhythms and decreased blood flow to your brain. Remember, a fainting episode from long QT syndrome is one of the most important warning signs for future, long QT-related spells that could be even more dangerous, even deadly.&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Inform other people.&lt;/strong&gt; Make family, friends, teachers, neighbors and anyone else who has regular contact with you aware of your heart condition. Wear some sort of medical alert identification to notify health care professionals of your condition.
+	&lt;/p&gt;
+	&lt;p&gt;
+	In addition, have plans in place in the case of an emergency cardiac event. Urge family members to learn cardiopulmonary resuscitation (CPR) so that they can provide immediate resuscitation efforts if it ever becomes necessary. In some situations, possession of or rapid access to an automatic external defibrillator (AED) may be appropriate. 
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Control startling events as much as possible.&lt;/strong&gt; Turn down the volume on doorbells and, if possible, turn off the telephone ringer or your cellular phone at night.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Sexual intercourse doesn&apos;t appear to increase the risk of long QT syndrome. Pregnancy and delivery aren&apos;t associated with increased risk of symptoms in women with long QT syndrome. Nonetheless, your doctor will want to monitor you closely both during your pregnancy and after if you have inherited long QT syndrome. Women with long QT syndrome, especially a form called LQT2, are at increased risk during the postpartum period and need careful monitoring. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Long QT syndrome can be a worrisome condition because of its serious potential outcomes. Worrying about possible fatal heart rhythms can obviously cause you and your family a lot of stress. 
+&lt;/p&gt;
+&lt;p&gt;
+Families with inherited long QT syndrome may find it helpful to talk to a cardiologist with expertise in diagnosing and treating long QT syndrome, a genetics counselor, a psychiatrist or psychologist, as well as other families with the condition. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you have inherited long QT syndrome, be careful about which medications you take. Some medications &amp;mdash; including certain appetite suppressants, decongestants and common antibiotics, such as erythromycin &amp;mdash; may trigger dangerous heart rhythms. Ask your doctor what you can and can&apos;t take safely. Street drugs, such as cocaine and amphetamines, pose a serious risk for people with long QT syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, seek medical treatment right away for illnesses that could result in low blood-potassium levels, such as conditions that cause excessive vomiting and diarrhea. Such sicknesses could trigger an episode of long QT syndrome in people at risk. Your doctor may advise you not to take some drugs, such as diuretics, that lower blood-potassium levels. 
+&lt;/p&gt;
+&lt;p&gt;
+For some people &amp;mdash; especially older adults with long QT syndrome who haven&apos;t had signs or symptoms of the condition in decades &amp;mdash; preventive measures may be all the treatment that&apos;s required. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Long QT syndrome
+	</Title>
+	<Abstract>
+		Long QT syndrome &amp;mdash; Comprehensive overview covers causes and treatment of this racing heart condition.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00977" LinkType="Internal" ObjectID="109B6DD1-BA68-DCBF-4EC2DEF73F50ED30" Title="Stress test" Url="http://www.mayoclinic.com/health/stress-test/MY00977" />
+		<LinkItem ContentType="Article" DocID="HB00092" LinkType="Internal" ObjectID="C7A5BBC2-E7FF-0DBD-1E13DE1C190A4C95" Title="Sudden death in young people &amp;mdash; Heart problems often blamed" Url="http://www.mayoclinic.com/health/sudden-death/HB00092" />
+		<LinkItem ContentType="Article" DocID="HB00053" LinkType="Internal" ObjectID="04AD41DA-B4B6-4A0C-94F5E6BEDBB6AB1E" Title="Automated external defibrillators: Do you need an AED?" Url="http://www.mayoclinic.com/health/automated-external-defibrillators/HB00053" />
+		<LinkItem ContentType="Disease" DocID="DS01158" LinkType="Internal" ObjectID="0F4A255E-9C7E-F680-E610EF8AADF137EC" Title="Ventricular fibrillation" Url="http://www.mayoclinic.com/health/ventricular-fibrillation/DS01158" />
+	</RelatedLinksBox>
+</Disease>

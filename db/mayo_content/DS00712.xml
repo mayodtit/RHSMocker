@@ -1,0 +1,360 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00712
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/neurodermatitis/DS00712
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-02
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-05
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="2165" Title="Skin inflammation">
+						<Keyword MCVID="2819" Title="Neurodermatitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			F033F163-2A5D-9994-E4D90B381DE6CFA3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				neurodermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				lichen simplex chronicus
+			</MetaKeyword>
+			<MetaKeyword>
+				scratch dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dry skin
+			</MetaKeyword>
+			<MetaKeyword>
+				itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				pruritus
+			</MetaKeyword>
+			<MetaKeyword>
+				pruritis
+			</MetaKeyword>
+			<MetaKeyword>
+				itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itching skin
+			</MetaKeyword>
+			<MetaKeyword>
+				itch skin
+			</MetaKeyword>
+			<MetaKeyword>
+				skin itch
+			</MetaKeyword>
+			<MetaKeyword>
+				body itch
+			</MetaKeyword>
+			<MetaKeyword>
+				anti-itch
+			</MetaKeyword>
+			<MetaKeyword>
+				itch treatment
+			</MetaKeyword>
+			<MetaKeyword>
+				itch remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				stop itching
+			</MetaKeyword>
+			<MetaKeyword>
+				cause of itching
+			</MetaKeyword>
+			<MetaKeyword>
+				itching remedy
+			</MetaKeyword>
+			<MetaKeyword>
+				cause of itchy skin
+			</MetaKeyword>
+			<MetaKeyword>
+				scratching
+			</MetaKeyword>
+			<MetaKeyword>
+				scratch
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis rash
+			</MetaKeyword>
+			<MetaKeyword>
+				dermitis
+			</MetaKeyword>
+			<MetaKeyword>
+				dermatitis
+			</MetaKeyword>
+			<MetaKeyword>
+				skin condition
+			</MetaKeyword>
+			<MetaKeyword>
+				skin conditions
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				skin disease
+			</MetaKeyword>
+			<MetaKeyword>
+				skin diseases
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problem
+			</MetaKeyword>
+			<MetaKeyword>
+				skin problems
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Neurodermatitis starts with a patch of itchy skin, but scratching it makes the area even itchier. Eventually you may scratch simply out of habit. This cycle of chronic itching and scratching can cause the affected skin to become thick and leathery.
+&lt;/p&gt;
+&lt;p&gt;
+Neurodermatitis &amp;mdash; also known as lichen simplex chronicus &amp;mdash; isn&apos;t serious, but breaking the itch-scratch cycle is challenging.
+&lt;/p&gt;
+&lt;p&gt;
+Successful treatment of neurodermatitis depends on identifying and eliminating factors that may be aggravating the problem. Over-the-counter and prescription creams can help ease neurodermatitis symptoms.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of neurodermatitis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Itchy skin in a single limited area&lt;/li&gt;
+	&lt;li&gt;Leathery or scaly texture to the skin&lt;/li&gt;
+	&lt;li&gt;Raised, rough patch that is red or darker than the rest of your skin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The primary symptom of neurodermatitis is itchy skin &amp;mdash; often a single patch on the neck, wrist, forearm, thigh or ankle. Sometimes neurodermatitis affects genital areas, such as the vulva or scrotum.
+&lt;/p&gt;
+&lt;p&gt;
+The itchiness, which can be very intense, tends to come and go. Eventually you may scratch simply out of habit.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;See your doctor if: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;You catch yourself repeatedly scratching the same patch of skin.&lt;/li&gt;
+	&lt;li&gt;The itch prevents you from sleeping or focusing on your daily routines.&lt;/li&gt;
+	&lt;li&gt;Your skin becomes painful or looks infected.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photo of neurodermatitis 
+" Caption="Neurodermatitis is a skin condition characterized by chronic itching or scaling. You&apos;ll notice raised, rough, itchy areas of skin &amp;mdash; typically on the neck, wrist, forearm, thigh or ankle. 
+" Height="60" Title="Neurodermatitis" URI="/images/image_popup/thumbs/ans7_neurodermthu.jpg" Width="60" />
+				<Image Alt="Photo of neurodermatitis 
+" Caption="Neurodermatitis is a skin condition characterized by chronic itching or scaling. You&apos;ll notice raised, rough, itchy areas of skin &amp;mdash; typically on the neck, wrist, forearm, thigh or ankle. 
+" Height="302" Title="Neurodermatitis" URI="/images/image_popup/ans7_neuroderm.jpg" Width="400" />
+				<HTML>
+					Neurodermatitis is a skin condition characterized by chronic itching or scaling. You&apos;ll notice raised, rough, itchy areas of skin &amp;mdash; typically on the neck, wrist, forearm, thigh or ankle. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The exact cause of neurodermatitis isn&apos;t known. Sometimes neurodermatitis begins with something that simply rubs or irritates the skin, such as tight clothing or a bug bite. As you rub or scratch the area, it gets itchier. The more you scratch, the more it itches.
+&lt;/p&gt;
+&lt;p&gt;
+In some cases, neurodermatitis is associated with other skin conditions &amp;mdash; such as dry skin, eczema or psoriasis. Stress and anxiety can trigger itching, too.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Certain factors may increase your risk of neurodermatitis, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your sex and age.&lt;/strong&gt; Women are much more likely to develop neurodermatitis than are men. The condition is most common between ages 30 and 50.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other skin conditions.&lt;/strong&gt; People with a personal or family history of eczema, psoriasis or similar skin conditions are more likely to develop neurodermatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anxiety disorders.&lt;/strong&gt; Anxiety and stress can trigger the itch associated with neurodermatitis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Persistent scratching can lead to a bacterial skin infection and permanent scars or changes in skin color. Scratching may also disrupt your sleep.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may start by seeing your primary care physician. However, you may then be referred to a doctor who specializes in skin disorders (dermatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and there&apos;s often a lot of ground to cover, it&apos;s a good idea to arrive well prepared. Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. For neurodermatitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my itching?&lt;/li&gt;
+	&lt;li&gt;Are there other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;Will the itching ever stop?&lt;/li&gt;
+	&lt;li&gt;What treatments are available, and which do you recommend?&lt;/li&gt;
+	&lt;li&gt;What side effects can I expect from treatment?&lt;/li&gt;
+	&lt;li&gt;Are there any alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;How long will it take for my skin to return to normal?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. Your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your symptoms start?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous, or do they come and go?&lt;/li&gt;
+	&lt;li&gt;What steps have you taken on your own to manage the itchiness?&lt;/li&gt;
+	&lt;li&gt;Have any of these measures helped?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosis is typically based on your skin&apos;s appearance and a history of itching and scratching. To rule out other causes, your doctor may remove a small sample of your affected skin for testing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To stop the stubborn itch-scratch cycle, you must stop scratching the affected area. Your doctor may recommend one or more of the following treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Depending on the intensity of your symptoms, your doctor may prescribe:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; If over-the-counter steroid creams aren&apos;t enough, your doctor may prescribe stronger versions of these drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antihistamines.&lt;/strong&gt; These anti-allergy drugs can help relieve itching in many people with neurodermatitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Anti-anxiety drugs.&lt;/strong&gt; Because anxiety and stress can trigger neurodermatitis symptoms, anti-anxiety drugs often can help prevent the itchiness associated with the disorder.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antibiotics.&lt;/strong&gt; If you develop a bacterial infection in the rash, your doctor may prescribe an antibiotic lotion or oral antibiotics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;br /&gt;
+&lt;/strong&gt;Talking with a counselor can help you learn how your emotions and behaviors can fuel &amp;mdash; or prevent &amp;mdash; itching and scratching. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To lessen the itch and irritation caused by neurodermatitis, follow these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Try over-the-counter medications.&lt;/strong&gt; Apply an anti-itch cream or lotion to the affected area. A nonprescription hydrocortisone cream can temporarily relieve the itch. A nonprescription oral antihistamine, such as diphenhydramine (Benadryl, others), may be helpful if itching is severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cover the affected area.&lt;/strong&gt; Bandages or dressings can help protect the skin and prevent scratching. This may be especially important if you scratch during your sleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your nails trimmed.&lt;/strong&gt; Short nails may do less damage to the skin, especially if you tend to scratch while you&apos;re asleep.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take cool baths.&lt;/strong&gt; Sprinkle the bath water with baking soda, uncooked oatmeal or colloidal oatmeal &amp;mdash; a finely ground oatmeal that is made for the bathtub (Aveeno, others).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Wear smooth-textured cotton clothing.&lt;/strong&gt; This will help you avoid irritation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose mild soaps without dyes or perfumes.&lt;/strong&gt; Be sure to rinse the soap completely off your body. And after washing, apply an unscented moisturizer to protect your skin.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep stress under control.&lt;/strong&gt; Stress and anxiety can trigger itching.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Neurodermatitis
+	</Title>
+	<Abstract>
+		Neurodermatitis &amp;mdash; Comprehensive overview covers causes, symptoms and treatments.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

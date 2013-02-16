@@ -1,0 +1,201 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00670
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/ct-angiogram/MY00670
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-15
+		</UpdateDate>
+		<PublicationDate>
+			2009-06-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3850" Title="Cardiovascular system">
+						<Keyword MCVID="4375" Title="CT angiogram" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CF30BC83-0F23-9E37-90BFCD3ED56D35F5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ct angiogram
+			</MetaKeyword>
+			<MetaKeyword>
+				ct angiography
+			</MetaKeyword>
+			<MetaKeyword>
+				ct heart scan
+			</MetaKeyword>
+			<MetaKeyword>
+				heart scan
+			</MetaKeyword>
+			<MetaKeyword>
+				computed tomography angiogram
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A computerized tomography (CT) coronary angiogram is an imaging test to look at the arteries that supply your heart muscle with blood. Unlike a traditional coronary angiogram, CT angiograms don&apos;t use a catheter threaded through your blood vessels to your heart. Instead, a coronary CT angiogram relies on a powerful X-ray machine to produce images of your heart and heart vessels. CT angiograms don&apos;t require the recovery time needed with traditional angiograms. Coronary CT angiograms are becoming a common option for people with a variety of heart conditions. 
+&lt;/p&gt;
+&lt;p&gt;
+CT angiograms will expose you to a small amount of radiation. If you have known coronary artery disease, a traditional coronary angiogram may be a better option, since you can also receive treatment for your artery blockages during a traditional coronary angiogram. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A coronary CT angiogram is a test that can check your heart for various conditions, but it&apos;s primarily used to check for narrowed arteries in your heart (coronary artery disease) that could explain chest pain or could put you at risk of a heart attack. 
+&lt;/p&gt;
+&lt;p&gt;
+Coronary CT angiograms are sometimes used in place of traditional coronary angiograms to check for coronary artery disease. A CT angiogram may be better than a traditional angiogram for people who have only a moderate risk of coronary artery disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Typically, when your doctor needs to check for blockages in your heart&apos;s arteries, he or she will perform a coronary angiogram. In a coronary angiogram, a catheter is inserted in an artery in your groin and threaded through your blood vessels to your heart. Dye that&apos;s visible on X-rays is then injected through the catheter, and X-ray images of your heart are taken. Your doctor can see blockages in your heart&apos;s arteries on the images. Because the catheter is near your heart, if blockages are found, your doctor can perform a procedure called angioplasty to open your blockages after a traditional angiogram. 
+&lt;/p&gt;
+&lt;p&gt;
+In a CT angiogram, no catheter has to be placed in your groin, and the dye that&apos;s visible on the CT scan is injected through an intravenous (IV) line that&apos;s placed in your hand or arm. X-ray images are still taken of your heart. However, because no catheter is used, if a blockage in your heart&apos;s arteries is found, you&apos;ll need a separate procedure (a traditional coronary angiogram) to treat your condition. 
+&lt;/p&gt;
+&lt;p&gt;
+A test that&apos;s similar to CT angiogram is a coronary calcium scan. This test uses a special type of computerized tomography to check for calcium in your coronary arteries, which can be a risk factor for coronary artery disease. No dye is injected during a coronary calcium scan. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because CT angiograms use an X-ray machine to take pictures of your heart, you will be exposed to some radiation during the test. The amount of radiation varies depending on the type of machine used. With the most common type of X-ray machines, the radiation you&apos;re exposed to during the test is about the same as the average American is naturally exposed to over three years. The risk that you could develop cancer from the radiation you receive during a CT angiogram is not known exactly, but is very small. 
+&lt;/p&gt;
+&lt;p&gt;
+Because radiation can harm an unborn child, you shouldn&apos;t have a CT angiogram if you&apos;re pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s also possible that you could have an allergic reaction to the dye used in the procedure. Talk to your doctor if you&apos;re concerned about having an allergic reaction. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor should give you instructions about how to prepare for your CT angiogram. Usually, you&apos;ll be asked not to eat anything for four to eight hours before your test. You can drink water, but avoid caffeinated drinks before your test, because they can speed up your heart rate. This can make it difficult for your doctor to get clear pictures of your heart. 
+&lt;/p&gt;
+&lt;p&gt;
+You can drive yourself to the appointment, and you&apos;ll be able to drive home or to work after your test. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+CT angiograms are usually performed in the radiology department of a hospital or an outpatient clinic. 
+&lt;/p&gt;
+&lt;p&gt;
+Just before you begin your scan, you&apos;ll need to remove clothing above your waist, as well as any jewelry. You&apos;ll change into a hospital gown. 
+&lt;/p&gt;
+&lt;p&gt;
+Because your heart&apos;s constantly in motion while it beats, your doctor may give you a medication called a beta blocker, which will slow your heart rate. This will allow the doctor to see your heart more clearly. A technician will insert an intravenous (IV) line in your hand or arm to inject the dye that will make your heart&apos;s arteries visible on the images taken by the CT scanner. You&apos;ll receive some numbing medication before the IV is inserted. Although the actual scanning portion of the test takes less than 15 seconds, it may take up to an hour for the beta blocker to slow your heart rate sufficiently before the CT angiogram begins. 
+&lt;/p&gt;
+&lt;p&gt;
+The technician will place some electrodes on your chest to record your heart rate throughout the exam. When you&apos;re ready to be scanned, you&apos;ll lie on a long table that slides through a short, doughnut-like machine. During the test, an X-ray tube will move rapidly around your chest to take images of your heart from many different angles. You won&apos;t see the tube moving. A technician will operate the machine from a room that&apos;s separated from your exam room by a glass window. There will be an intercom system the technician can use to talk to you. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s important to stay as still as possible and hold your breath during the scanning portion of the exam. Any movement can blur the X-ray images. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+After your CT angiogram is completed, you can return to your normal daily activities. You should be able to drive yourself home or to work. 
+&lt;/p&gt;
+&lt;p&gt;
+The images from your CT angiogram should be ready soon after your test. Either the doctor who performed your test or the doctor who asked you to have a CT angiogram should discuss the results of the test with you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Based on the results of your test, your doctor will discuss with you whether you have a heart condition that needs treatment, whether you&apos;re at risk of developing heart disease, and steps you can take to keep your heart healthy. Treatments may vary, depending on what condition your doctor suspects you have. 
+&lt;/p&gt;
+&lt;p&gt;
+Regardless of the results of your test, it&apos;s a good idea to make lifestyle changes to help protect your heart. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise regularly.&lt;/strong&gt; Exercise helps you reach and maintain a healthy weight and control diabetes, elevated cholesterol and high blood pressure &amp;mdash; all risk factors for heart disease. With your doctor&apos;s OK, aim for 30 to 60 minutes of physical activity most days of the week. Even if you can&apos;t make time for one 30- to 60-minute exercise session, you can still benefit from breaking up your activity into several 10-minute sessions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat healthy foods.&lt;/strong&gt; A heart-healthy diet based on fruits, vegetables and whole grains &amp;mdash; and low in saturated fat, cholesterol and sodium &amp;mdash; can help you control your weight, blood pressure and cholesterol. Eating one or two servings of fish a week also is beneficial.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; Smoking is a major risk factor for heart disease, especially atherosclerosis. Nicotine constricts blood vessels and forces your heart to work harder, and carbon monoxide reduces oxygen in your blood and damages the lining of your blood vessels. If you smoke, quitting is the best way to reduce your risk of heart disease and its complications.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		CT angiogram
+	</Title>
+	<Abstract>
+		Computerized tomography (CT) angiogram &amp;mdash; Overview covers risks and results of this heart disease test.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00327" LinkType="Internal" ObjectID="E25BA260-E7FF-0DBD-1581C13DDA359B5C" Title="Heart scan (coronary calcium scan)" Url="http://www.mayoclinic.com/health/heart-scan/MY00327" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00541" LinkType="Internal" ObjectID="195133F5-B002-FC90-364C46B34EBBF4FA" Title="Coronary angiogram" Url="http://www.mayoclinic.com/health/coronary-angiogram/MY00541" />
+		<LinkItem ContentType="Disease" DocID="DS00505" LinkType="Internal" ObjectID="CE3BC2CF-B4C1-4401-8F0F9E0B7C284538" Title="Pericarditis" Url="http://www.mayoclinic.com/health/pericarditis/DS00505" />
+		<LinkItem ContentType="Disease" DocID="DS01124" LinkType="Internal" ObjectID="639F0664-E7FF-0DBD-11BD0D718F8800D8" Title="Pericardial effusion" Url="http://www.mayoclinic.com/health/pericardial-effusion/DS01124" />
+		<LinkItem ContentType="Disease" DocID="DS01120" LinkType="Internal" ObjectID="4E220F62-E7FF-0DBD-1342984A795DA6B2" Title="Heart disease" Url="http://www.mayoclinic.com/health/heart-disease/DS01120" />
+		<LinkItem ContentType="Disease" DocID="DS00429" LinkType="Internal" ObjectID="17FC3D0E-D6C6-4993-8B2E4BAC64DEF78A" Title="Pulmonary embolism" Url="http://www.mayoclinic.com/health/pulmonary-embolism/DS00429" />
+	</RelatedLinksBox>
+</TestProcedure>

@@ -1,0 +1,274 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00815
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pyloric-stenosis/DS00815
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-16
+		</UpdateDate>
+		<PublicationDate>
+			2006-08-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1119" Title="00 birth to 01 month newborn" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1846" Title="Stomach">
+						<Keyword MCVID="3976" Title="Pyloric stenosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			CEF188F4-E7FF-0DBD-1E8DF3D3B9AA2912
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pyloric stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				spitting up
+			</MetaKeyword>
+			<MetaKeyword>
+				spit up
+			</MetaKeyword>
+			<MetaKeyword>
+				gastric outlet obstruction
+			</MetaKeyword>
+			<MetaKeyword>
+				hypertrophic pyloric stenosis
+			</MetaKeyword>
+			<MetaKeyword>
+				infant pyloric stenosis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pyloric stenosis is an uncommon condition affecting the opening (pylorus) between the stomach and small intestine in infants. The pylorus is a muscular valve that holds food in the stomach until it is ready for the next stage in the digestive process. 
+&lt;/p&gt;
+&lt;p&gt;
+In pyloric stenosis, the pylorus muscles thicken, blocking food from entering the baby&apos;s small intestine. Pyloric stenosis can lead to forceful vomiting, dehydration and weight loss. Babies with this condition may seem to always be hungry. 
+&lt;/p&gt;
+&lt;p&gt;
+Pyloric stenosis can be fixed with surgery. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing enlarged pyloric muscles 
+" Caption="In babies who have pyloric stenosis, the muscles of the pylorus become abnormally large. This prevents food from entering the small intestine. 
+" Height="60" Title="Enlarged pyloric muscles" URI="/images/image_popup/thumbs/r7_pyloric_stenosisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing enlarged pyloric muscles 
+" Caption="In babies who have pyloric stenosis, the muscles of the pylorus become abnormally large. This prevents food from entering the small intestine. 
+" Height="308" Title="Enlarged pyloric muscles" URI="/images/image_popup/r7_pyloric_stenosis.jpg" Width="400" />
+				<HTML>
+					In babies who have pyloric stenosis, the muscles of the pylorus become abnormally large. This prevents food from entering the small intestine. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs of pyloric stenosis usually appear within three to six weeks after birth. Pyloric stenosis is rare in babies older than age 3 months. 
+&lt;/p&gt;
+&lt;p&gt;
+Watch for these signs and symptoms: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Projectile vomiting.&lt;/strong&gt; Pyloric stenosis often causes projectile vomiting &amp;mdash; the forceful ejection of milk or formula up to several feet away. Vomiting occurs within 30 minutes after your baby eats. Vomiting may be mild at first and gradually become more severe as the pylorus opening narrows. The vomit may sometimes contain blood.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Persistent hunger.&lt;/strong&gt; Babies who have pyloric stenosis often want to eat soon after vomiting.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stomach contractions.&lt;/strong&gt; You may notice wave-like contractions (peristalsis) that ripple across your baby&apos;s upper abdomen soon after feeding but before vomiting. This is caused by stomach muscles trying to force food through the narrowed pylorus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Your baby may cry without tears or become lethargic. You may find yourself changing fewer wet diapers or diapers that aren&apos;t as wet as you expect.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in bowel movements.&lt;/strong&gt; Since pyloric stenosis prevents food from reaching the intestines, babies with this condition may be constipated.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weight problems.&lt;/strong&gt; Pyloric stenosis can keep a baby from gaining weight, and sometimes can cause weight loss.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Contact your baby&apos;s doctor if your baby is: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Frequently vomiting after feeding&lt;/li&gt;
+	&lt;li&gt;Projectile vomiting&lt;/li&gt;
+	&lt;li&gt;Less active or seems unusually irritable&lt;/li&gt;
+	&lt;li&gt;Urinating much less frequently or is having noticeably fewer bowel movements&lt;/li&gt;
+	&lt;li&gt;Not gaining weight, or even losing weight&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The causes of pyloric stenosis are unknown, but genetic and environmental factors probably play a role. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Risk factors for pyloric stenosis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Pyloric stenosis occurs more often in males than in females.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Studies found higher rates of this disorder among certain families and also among offspring of mothers who had pyloric stenosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Early antibiotic use.&lt;/strong&gt; Babies given certain antibiotics, such as erythromycin, in the first weeks of life for whooping cough (pertussis) have an increased risk of pyloric stenosis. In addition, babies born to mothers who were given certain antibiotics in late pregnancy also may have an increased risk of pyloric stenosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pyloric stenosis can lead to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Failure to grow&lt;/strong&gt; and develop at a normal, healthy rate.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration&lt;/strong&gt; from frequent vomiting, One effect of dehydration is an electrolyte imbalance. Electrolytes are minerals, such as chloride and potassium, that circulate in the body&apos;s fluids to help regulate many vital functions. When a baby loses more fluid from vomiting than he or she takes in from eating, an imbalance of electrolytes eventually occurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stomach irritation.&lt;/strong&gt; Repeated vomiting can irritate your baby&apos;s stomach. This irritation may even cause mild bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Jaundice.&lt;/strong&gt; Rarely, infants who have pyloric stenosis develop a yellowish discoloration of the skin and eyes (jaundice) caused by a buildup of a substance secreted by the liver called bilirubin.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect that your child has pyloric stenosis, you&apos;re likely to start by seeing your child&apos;s regular doctor. However, you may be referred to a doctor who specializes in treating digestive disorders (gastroenterologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any signs you&apos;ve noticed in your baby,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment. Try to keep track of the times your baby vomits. Is it always after eating? Note if the amount of vomit appears to be most or just part of what the baby has eaten, and if the vomit is forcefully projected.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask your doctor&lt;/strong&gt; &lt;br /&gt;
+Some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my baby&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests does my baby need? Do these tests require any special preparation?&lt;/li&gt;
+	&lt;li&gt;Will surgery stop the symptoms permanently?&lt;/li&gt;
+	&lt;li&gt;Is surgery the only treatment?&lt;/li&gt;
+	&lt;li&gt;What are the risks associated with surgery?&lt;/li&gt;
+	&lt;li&gt;What are the risks associated with the general anesthesia needed for the surgery?&lt;/li&gt;
+	&lt;li&gt;Will there be any dietary restrictions after surgery?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Be ready to answer questions your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your baby first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have the symptoms been continuous or occasional? Do they occur only after eating?&lt;/li&gt;
+	&lt;li&gt;Does your baby seem hungry after vomiting?&lt;/li&gt;
+	&lt;li&gt;Does the vomit come out forcefully?&lt;/li&gt;
+	&lt;li&gt;What was your baby&apos;s last recorded weight?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Often, your baby&apos;s doctor can feel an olive-shaped lump &amp;mdash; the enlarged pyloric muscle &amp;mdash; when examining your baby&apos;s abdomen. The peristaltic waves in the baby&apos;s abdomen are another telltale sign of pyloric stenosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also order blood tests to look for signs of dehydration. 
+&lt;/p&gt;
+&lt;p&gt;
+An ultrasound will usually confirm the diagnosis. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pyloric stenosis is typically treated with a surgical procedure known as pyloromyotomy (pie-lor-o-my-OT-uh-me). The surgeon cuts through the outside layer of the thickened pylorus muscle, allowing the inner lining to bulge out. This opens a channel for food to pass through to the small intestine. 
+&lt;/p&gt;
+&lt;p&gt;
+Results of surgery are generally excellent with few complications. 
+&lt;/p&gt;
+&lt;p&gt;
+Surgery is often scheduled on the same day as the diagnosis. If your baby is dehydrated or has an electrolyte imbalance, he or she will receive fluid replacement before surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Pyloromyotomy is often done using minimally invasive surgery. The surgeon operates through a slender viewing instrument (laparoscope) inserted through a small incision near your baby&apos;s navel. Recovery from the laparoscopic procedure is quicker than is recovery from a traditional open surgery, and the procedure leaves a smaller scar. 
+&lt;/p&gt;
+&lt;p&gt;
+After surgery, your baby may receive IV fluids for a few hours or until he or she can eat. It&apos;s common for some vomiting to occur for a few days after surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Potential complications of surgery include bleeding and infection, but the rate of complications is low. Pyloromyotomy doesn&apos;t increase the risk of future stomach or intestinal problems. 
+&lt;/p&gt;
+&lt;p&gt;
+Most infants return home within 48 hours. Recovery from surgery takes about a week. Your baby may want to feed more often following surgery &amp;mdash; this is normal. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pyloric stenosis
+	</Title>
+	<Abstract>
+		Pyloric stenosis &amp;mdash; Comprehensive overview covers symptoms, treatment of this uncommon digestive condition in infants.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

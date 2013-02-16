@@ -1,0 +1,384 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00508
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/plantar-fasciitis/DS00508
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-15
+		</UpdateDate>
+		<PublicationDate>
+			2003-07-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="2345" Title="Ankle and foot">
+						<Keyword MCVID="2664" Title="Plantar fasciitis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C5D42AB4-5AC4-4CA8-BA3BC6318C19E3CF
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				plantar fasciitis
+			</MetaKeyword>
+			<MetaKeyword>
+				plantar fascia
+			</MetaKeyword>
+			<MetaKeyword>
+				heel pain
+			</MetaKeyword>
+			<MetaKeyword>
+				arch pain
+			</MetaKeyword>
+			<MetaKeyword>
+				fascitis
+			</MetaKeyword>
+			<MetaKeyword>
+				planter
+			</MetaKeyword>
+			<MetaKeyword>
+				fasciatas
+			</MetaKeyword>
+			<MetaKeyword>
+				bone spur
+			</MetaKeyword>
+			<MetaKeyword>
+				bone spurs
+			</MetaKeyword>
+			<MetaKeyword>
+				heel spur
+			</MetaKeyword>
+			<MetaKeyword>
+				plantar fascitis
+			</MetaKeyword>
+			<MetaKeyword>
+				foot pain
+			</MetaKeyword>
+			<MetaKeyword>
+				planter fasciitis
+			</MetaKeyword>
+			<MetaKeyword>
+				feet pain
+			</MetaKeyword>
+			<MetaKeyword>
+				heal pain
+			</MetaKeyword>
+			<MetaKeyword>
+				plantar facitis
+			</MetaKeyword>
+			<MetaKeyword>
+				plantar fasciatis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Plantar fasciitis (PLAN-tur fas-e-I-tis) involves pain and inflammation of a thick band of tissue, called the plantar fascia, that runs across the bottom of your foot and connects your heel bone to your toes. Plantar fasciitis is one of the most common causes of heel pain. 
+&lt;/p&gt;
+&lt;p&gt;
+Plantar fasciitis commonly causes stabbing pain that usually occurs with your very first steps in the morning. Once your foot limbers up, the pain of plantar fasciitis normally decreases, but it may return after long periods of standing or after getting up from a seated position. 
+&lt;/p&gt;
+&lt;p&gt;
+Plantar fasciitis is particularly common in runners. In addition, people who are overweight, women who are pregnant and those who wear shoes with inadequate support are at risk of plantar fasciitis. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing plantar fascia and location of heel pain 
+" Caption="Plantar fasciitis is an inflammation of the fibrous tissue (plantar fascia) along the bottom of your foot that connects your heel bone to your toes. Plantar fasciitis can cause intense heel pain. 
+" Height="60" Title="Plantar fasciitis" URI="/images/image_popup/thumbs/r7_fasciitisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing plantar fascia and location of heel pain 
+" Caption="Plantar fasciitis is an inflammation of the fibrous tissue (plantar fascia) along the bottom of your foot that connects your heel bone to your toes. Plantar fasciitis can cause intense heel pain. 
+" Height="326" Title="Plantar fasciitis" URI="/images/image_popup/r7_fasciitis.jpg" Width="400" />
+				<HTML>
+					Plantar fasciitis is an inflammation of the fibrous tissue (plantar fascia) along the bottom of your foot that connects your heel bone to your toes. Plantar fasciitis can cause intense heel pain. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, the pain associated with plantar fasciitis: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Develops gradually&lt;/li&gt;
+	&lt;li&gt;Affects just one foot, although it can occur in both feet at the same time&lt;/li&gt;
+	&lt;li&gt;Is triggered by &amp;mdash; and is worst with &amp;mdash; the first few steps after awakening, although it can also be triggered by long periods of standing or getting up from a seated position&lt;/li&gt;
+	&lt;li&gt;Feels like a stab in the heel of your foot&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Under normal circumstances, your plantar fascia acts like a shock-absorbing bowstring, supporting the arch in your foot. If tension on that bowstring becomes too great, it can create small tears in the fascia. Repetitive stretching and tearing can cause the fascia to become irritated or inflamed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing plantar fasciitis include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Plantar fasciitis is most common between the ages of 40 and 60.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sex.&lt;/strong&gt; Women are more likely than are men to develop plantar fasciitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Certain types of exercise.&lt;/strong&gt; Activities that place a lot of stress on your heel and attached tissue &amp;mdash; such as long-distance running, ballet dancing and dance aerobics &amp;mdash; can contribute to an earlier onset of plantar fasciitis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Faulty foot mechanics.&lt;/strong&gt; Being flat-footed, having a high arch or even having an abnormal pattern of walking can adversely affect the way weight is distributed when you&apos;re standing and put added stress on the plantar fascia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; Excess pounds put extra stress on your plantar fascia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Occupations that keep you on your feet.&lt;/strong&gt; Factory workers, teachers and others who spend most of their work hours walking or standing on hard surfaces can damage their plantar fascia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Improper shoes.&lt;/strong&gt; Avoid loose, thin-soled shoes, as well as shoes without enough arch support or flexible padding to absorb shock. If you regularly wear high heels, your Achilles tendon &amp;mdash; which is attached to your heel &amp;mdash; can contract and shorten, causing strain on the tissue around your heel.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Ignoring plantar fasciitis may result in chronic heel pain that hinders your regular activities. You may also develop foot, knee, hip or back problems because of the way plantar fasciitis changes your walking. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially consult your family physician, he or she may refer you to a doctor who specializes in foot disorders or sports medicine. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;You may want to write a list that includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Detailed descriptions of your symptoms&lt;/li&gt;
+	&lt;li&gt;Information about medical problems you&apos;ve had&lt;/li&gt;
+	&lt;li&gt;Information about the medical problems of your parents or siblings&lt;/li&gt;
+	&lt;li&gt;All the medications and dietary supplements you take&lt;/li&gt;
+	&lt;li&gt;Questions you want to ask the doctor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+List your questions from most important to least important in case time runs out. For plantar fasciitis, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend?&lt;/li&gt;
+	&lt;li&gt;How soon do you expect my symptoms to improve with treatment?&lt;/li&gt;
+	&lt;li&gt;Is there anything I can do now to help relieve my foot pain?&lt;/li&gt;
+	&lt;li&gt;Am I at risk of long-term complications from this condition?&lt;/li&gt;
+	&lt;li&gt;When should I be seen for a follow-up exam?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend visiting?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. For instance, your doctor may ask:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms, and when did you first notice them?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms tend to occur at a particular time of day?&lt;/li&gt;
+	&lt;li&gt;What types of shoes do you usually wear?&lt;/li&gt;
+	&lt;li&gt;Are you a runner or do you participate in any sports that involve running?&lt;/li&gt;
+	&lt;li&gt;Do you have a physically demanding job?&lt;/li&gt;
+	&lt;li&gt;Have you experienced any injuries to your feet in the past?&lt;/li&gt;
+	&lt;li&gt;Besides your foot, do you feel pain anywhere else?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have you had any recent infections?&lt;/li&gt;
+	&lt;li&gt;Do you have any chronic illnesses?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To make a diagnosis of plantar fasciitis, your doctor reviews your medical history and physically examines your foot. An imaging test might be needed, too. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical exam&lt;br /&gt;
+&lt;/strong&gt;During the physical exam, your doctor checks for points of tenderness in your foot. The location of your pain can help determine if it&apos;s caused by other problems.
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may also check the musculoskeletal and neurological health of your ankle joint and foot by testing your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Reflexes&lt;/li&gt;
+	&lt;li&gt;Muscle strength&lt;/li&gt;
+	&lt;li&gt;Muscle tone&lt;/li&gt;
+	&lt;li&gt;Senses of touch and sight&lt;/li&gt;
+	&lt;li&gt;Coordination&lt;/li&gt;
+	&lt;li&gt;Balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;br /&gt;
+&lt;/strong&gt;Your doctor may suggest an X-ray or magnetic resonance imaging (MRI) to make sure your pain isn&apos;t being caused by another problem, such as a stress fracture or a pinched nerve.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes, an X-ray shows a spur of bone projecting forward from the heel bone. In the past, these bone spurs were often blamed for heel pain and removed surgically. But many people who have bone spurs on their heels have no heel pain.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+About 90 percent of the people who have plantar fasciitis recover with conservative treatments in just a few months.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Medications to ease symptoms of plantar fasciitis may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; NSAIDs, such as ibuprofen (Advil, Motrin, others) and naproxen (Aleve), may ease pain and inflammation, although they won&apos;t treat the underlying problem.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids.&lt;/strong&gt; This type of medication may be delivered through a process called iontophoresis, in which a corticosteroid solution is applied to the skin over the painful area and the medication is absorbed with the aid of a nonpainful electric current. Another delivery method is injection. Multiple injections aren&apos;t recommended because they can weaken your plantar fascia and possibly cause it to rupture, as well as shrink the fat pad covering your heel bone. Ultrasound guidance is sometimes used for more accurate placement of the corticosteroid injection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapies&lt;br /&gt;
+&lt;/strong&gt;Stretching and strengthening exercises or use of specialized devices may provide symptom relief. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Physical therapy.&lt;/strong&gt; A physical therapist can instruct you in a series of exercises to stretch the plantar fascia and Achilles tendon and to strengthen lower leg muscles, which stabilize your ankle and heel. A therapist may also teach you to apply athletic taping to support the bottom of your foot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Night splints.&lt;/strong&gt; Your physical therapist or doctor may recommend wearing a splint that stretches your calf and the arch of your foot while you sleep. This holds the plantar fascia and Achilles tendon in a lengthened position overnight and facilitates stretching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Orthotics.&lt;/strong&gt; Your doctor may prescribe off-the-shelf or custom-fitted arch supports (orthotics) to help distribute pressure to your feet more evenly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical or other procedures&lt;br /&gt;
+&lt;/strong&gt;When more-conservative measures aren&apos;t working, your doctor might recommend: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Extracorporeal shock wave therapy.&lt;/strong&gt; In this procedure, sound waves are directed at the area of heel pain to stimulate healing. It&apos;s usually used for chronic plantar fasciitis that hasn&apos;t responded to more-conservative treatments. This procedure may cause bruises, swelling, pain, numbness or tingling, and has not been shown to be consistently effective.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgery.&lt;/strong&gt; Few people need surgery to detach the plantar fascia from the heel bone. It&apos;s generally an option only when the pain is severe and all else fails. Side effects include a weakening of the arch in your foot.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although some over-the-counter arch supports contain magnets, no reliable evidence indicates that arch supports with magnets relieve heel pain any better than do arch supports without magnets.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Follow these self-care tips to ease pain and discomfort in your foot: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Put your feet up.&lt;/strong&gt; Stay off your feet for several days when the pain is severe.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply ice.&lt;/strong&gt; Hold a cloth-covered ice pack over the area of pain for 15 to 20 minutes three or four times a day or after activity. Or try ice massage. Freeze a water-filled paper cup and roll it over the site of discomfort for about five to seven minutes. Regular ice massage can help reduce pain and inflammation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Decrease your miles.&lt;/strong&gt; You probably won&apos;t have to permanently retire your running or walking shoes, but it&apos;s a good idea to cover shorter distances until pain subsides.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take up a no- or low-impact exercise.&lt;/strong&gt; Swap swimming or bicycling in for walking or jogging. You&apos;ll likely be able to return to your regular activities as heel pain gradually improves. However, some people find that the only way to avoid a recurring problem is to give up high-impact activities, such as running and some forms of dance.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Add arch supports to your shoes.&lt;/strong&gt; Inexpensive over-the-counter arch supports take the tension off the plantar fascia and help absorb shock.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stretch your arches.&lt;/strong&gt; Simple exercises using household objects can stretch your plantar fascia, Achilles tendon and calf muscles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing four foot stretches to prevent heel pain 
+" Caption="Hold each stretch for at least 30 seconds &amp;mdash; don&apos;t bounce &amp;mdash; and do one or two repetitions two to three times a day. Left: Stand as shown, with your back leg straight and heel down. Move your hips forward until you feel a stretch in your calf. Switch legs and repeat. Top right: While sitting, grasp your toes and gently pull them toward you until you feel a stretch in the arch of your foot. Stretch one foot at a time. Bottom right: To strengthen arch muscles, place a towel on the floor, grab the towel with your toes and pull it toward you. Repeat with your other foot. 
+" Height="60" Title="Foot stretches to prevent plantar fasciitis" URI="/images/image_popup/thumbs/mcdc7_foot_stretchesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing four foot stretches to prevent heel pain 
+" Caption="Hold each stretch for at least 30 seconds &amp;mdash; don&apos;t bounce &amp;mdash; and do one or two repetitions two to three times a day. Left: Stand as shown, with your back leg straight and heel down. Move your hips forward until you feel a stretch in your calf. Switch legs and repeat. Top right: While sitting, grasp your toes and gently pull them toward you until you feel a stretch in the arch of your foot. Stretch one foot at a time. Bottom right: To strengthen arch muscles, place a towel on the floor, grab the towel with your toes and pull it toward you. Repeat with your other foot. 
+" Height="381" Title="Foot stretches to prevent plantar fasciitis" URI="/images/image_popup/mcdc7_foot_stretches.jpg" Width="400" />
+				<HTML>
+					Hold each stretch for at least 30 seconds &amp;mdash; don&apos;t bounce &amp;mdash; and do one or two repetitions two to three times a day. Left: Stand as shown, with your back leg straight and heel down. Move ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take some simple steps now to prevent painful steps later: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; This minimizes the stress on your plantar fascia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose supportive shoes.&lt;/strong&gt; Avoid high heels. Buy shoes with a low to moderate heel, good arch support and shock absorbency. Don&apos;t go barefoot, especially on hard surfaces.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t wear worn-out athletic shoes.&lt;/strong&gt; Replace your old athletic shoes before they stop supporting and cushioning your feet. If you&apos;re a runner, buy new shoes after about 500 miles of use.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Plantar fasciitis
+	</Title>
+	<Abstract>
+		Plantar fasciitis &amp;mdash; Comprehensive overview covers causes, prevention, self-care of this common type of heel pain.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01966" LinkType="Internal" ObjectID="AD4BCCFC-DB57-C303-B9028B81FAF97080" Title="Heel spurs: Do they always cause pain?" Url="http://www.mayoclinic.com/health/heel-spurs/AN01966" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00268" LinkType="Internal" ObjectID="767477DF-E7FF-0DBD-14EF84CF2AFF52A8" Title="Cortisone shots" Url="http://www.mayoclinic.com/health/cortisone-shots/MY00268" />
+		<LinkItem ContentType="Answer" DocID="AN02159" LinkType="Internal" ObjectID="2A44C27E-F7FE-9781-D7A855BD43C62CF1" Title="Barefoot running shoes: Better than traditional running shoes?" Url="http://www.mayoclinic.com/health/barefoot-running-shoes/AN02159" />
+	</RelatedLinksBox>
+</Disease>

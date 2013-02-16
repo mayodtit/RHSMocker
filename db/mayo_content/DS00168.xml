@@ -1,0 +1,390 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00168
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bells-palsy/DS00168
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-27
+		</UpdateDate>
+		<PublicationDate>
+			2000-02-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1134" Title="Nervous system">
+					<Keyword MCVID="2322" Title="Nerve">
+						<Keyword MCVID="2323" Title="Bell&apos;s palsy" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			2B73952A-337E-4AB7-95368E5C254B2D65
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Bell&apos;s palsy
+			</MetaKeyword>
+			<MetaKeyword>
+				facial palsy
+			</MetaKeyword>
+			<MetaKeyword>
+				face
+			</MetaKeyword>
+			<MetaKeyword>
+				facial muscle
+			</MetaKeyword>
+			<MetaKeyword>
+				bells palsy
+			</MetaKeyword>
+			<MetaKeyword>
+				facial muscles
+			</MetaKeyword>
+			<MetaKeyword>
+				nerve conduction study
+			</MetaKeyword>
+			<MetaKeyword>
+				facial weakness
+			</MetaKeyword>
+			<MetaKeyword>
+				facial paralysis
+			</MetaKeyword>
+			<MetaKeyword>
+				facial droop
+			</MetaKeyword>
+			<MetaKeyword>
+				droopy face
+			</MetaKeyword>
+			<MetaKeyword>
+				drooping face
+			</MetaKeyword>
+			<MetaKeyword>
+				facial nerve
+			</MetaKeyword>
+			<MetaKeyword>
+				facial expression
+			</MetaKeyword>
+			<MetaKeyword>
+				facial movement
+			</MetaKeyword>
+			<MetaKeyword>
+				bells&apos; palsy
+			</MetaKeyword>
+			<MetaKeyword>
+				bell&apos;s palsey
+			</MetaKeyword>
+			<MetaKeyword>
+				bells palsey
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bell&apos;s palsy causes sudden weakness in your facial muscles. This makes half of your face appear to droop. Your smile is one-sided, and your eye on that side resists closing.
+&lt;/p&gt;
+&lt;p&gt;
+Bell&apos;s palsy, also known as facial palsy, can occur at any age. The exact cause is unknown, but it&apos;s believed to be the result of swelling and inflammation of the nerve that controls the muscles on one side of your face. It may be a reaction that occurs after a viral infection.
+&lt;/p&gt;
+&lt;p&gt;
+For most people, Bell&apos;s palsy is temporary. Symptoms usually start to improve within a few weeks, with complete recovery in about six months. A small number of people continue to have some Bell&apos;s palsy symptoms for life. Rarely, Bell&apos;s palsy can recur. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of Bell&apos;s palsy come on suddenly, and may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Rapid onset of mild weakness to total paralysis on one side of your face &amp;mdash; occurring within hours to days &amp;mdash; making it difficult to smile or close your eye on the affected side&lt;/li&gt;
+	&lt;li&gt;Facial droop and difficulty making facial expressions&lt;/li&gt;
+	&lt;li&gt;Pain around the jaw or in or behind your ear on the affected side&lt;/li&gt;
+	&lt;li&gt;Increased sensitivity to sound on the affected side&lt;/li&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;A decrease in your ability to taste&lt;/li&gt;
+	&lt;li&gt;Changes in the amount of tears and saliva you produce&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In rare cases, Bell&apos;s palsy can affect the nerves on both sides of your face. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Seek immediate medical help if you experience any type of paralysis because you may be having a stroke. Bell&apos;s palsy is not caused by a stroke. See your doctor if you experience facial weakness or drooping, to determine the underlying cause and severity of the illness. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing facial weakness 
+" Caption="Facial weakness or paralysis may cause one corner of your mouth to droop. If you&apos;re experiencing facial weakness or paralysis, you may have trouble closing the eye on the affected side of your face. 
+" Height="60" Title="Facial paralysis" URI="/images/image_popup/thumbs/r7_bellspalsythu.jpg" Width="60" />
+				<Image Alt="Illustration showing facial weakness 
+" Caption="Facial weakness or paralysis may cause one corner of your mouth to droop. If you&apos;re experiencing facial weakness or paralysis, you may have trouble closing the eye on the affected side of your face. 
+" Height="400" Title="Facial paralysis" URI="/images/image_popup/r7_bellspalsy.jpg" Width="400" />
+				<HTML>
+					Facial weakness or paralysis may cause one corner of your mouth to droop. If you&apos;re experiencing facial weakness or paralysis, you may have trouble closing the eye on the affected side of your face. ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although the exact reason Bell&apos;s palsy occurs isn&apos;t clear, it&apos;s often linked to exposure to a viral infection. Viruses that have been linked to Bell&apos;s palsy include the virus that causes:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cold sores and genital herpes (herpes simplex)&lt;/li&gt;
+	&lt;li&gt;Chickenpox and shingles (herpes zoster)&lt;/li&gt;
+	&lt;li&gt;Mononucleosis (Epstein-Barr)&lt;/li&gt;
+	&lt;li&gt;Cytomegalovirus infections&lt;/li&gt;
+	&lt;li&gt;Respiratory illnesses (adenovirus)&lt;/li&gt;
+	&lt;li&gt;German measles (rubella)&lt;/li&gt;
+	&lt;li&gt;Mumps (mumps virus)&lt;/li&gt;
+	&lt;li&gt;Flu (influenza B)&lt;/li&gt;
+	&lt;li&gt;Hand-foot-and-mouth disease (coxsackievirus)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+With Bell&apos;s palsy, the nerve that controls your facial muscles, which passes through a narrow corridor of bone on its way to your face, becomes inflamed and swollen &amp;mdash; usually related to a viral infection. Besides facial muscles, the nerve affects tears, saliva, taste and a small bone in the middle of your ear.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of facial nerve 
+" Caption="The nerve that controls your facial muscles passes through a narrow corridor of bone on its way to your face. 
+" Height="60" Title="Facial nerve" URI="/images/image_popup/thumbs/r7_facialnervethu.jpg" Width="60" />
+				<Image Alt="Illustration of facial nerve 
+" Caption="The nerve that controls your facial muscles passes through a narrow corridor of bone on its way to your face. 
+" Height="434" Title="Facial nerve" URI="/images/image_popup/r7_facialnerve.jpg" Width="399" />
+				<HTML>
+					The nerve that controls your facial muscles passes through a narrow corridor of bone on its way to your face. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bell&apos;s palsy occurs more often in people who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are pregnant, especially during the third trimester, or who are in the first week after giving birth&lt;/li&gt;
+	&lt;li&gt;Have an upper respiratory infection, such as the flu or a cold&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, some people who have recurrent attacks of Bell&apos;s palsy, which is rare, have a family history of recurrent attacks. In those cases, there may be a genetic predisposition to Bell&apos;s palsy.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although a mild case of Bell&apos;s palsy normally disappears within a month, recovery from a case involving total paralysis varies. Complications may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Irreversible damage to your facial nerve&lt;/li&gt;
+	&lt;li&gt;Misdirected regrowth of nerve fibers, resulting in involuntary contraction of certain muscles when you&apos;re trying to move others (synkinesis) &amp;mdash; for example, when you smile, the eye on the affected side may close&lt;/li&gt;
+	&lt;li&gt;Partial or complete blindness of the eye that won&apos;t close, due to excessive dryness and scratching of the cornea, the clear protective covering of the eye&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll likely start by seeing your family doctor or a general practitioner. However, in some cases when you call to set up an appointment, you may be referred immediately to a neurologist. 
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s good to prepare for your appointment. Here&apos;s some information to help you get ready. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing.&lt;/strong&gt; Be sure to include any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information.&lt;/strong&gt; Have you had any major stresses or life changes recently? Sharing this type of information may help your doctor to make a diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications. &lt;/strong&gt;Include the dosage amount of any medications you&apos;re taking, and don&apos;t forget to write down any vitamins or supplements that you&apos;re taking, too.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along, if possible.&lt;/strong&gt; Sometimes it can be difficult to remember all of the information during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions you want to ask&lt;/strong&gt; &lt;strong&gt;your doctor.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Preparing a list of questions will help you make the most of your time with your doctor. For Bell&apos;s palsy, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What&apos;s the most likely cause of my symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes for my symptoms?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is this condition likely temporary or long lasting?&lt;/li&gt;
+	&lt;li&gt;What treatments are available for Bell&apos;s palsy? Which do you recommend?&lt;/li&gt;
+	&lt;li&gt;Are there alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have other health conditions. How can I best manage these conditions together?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take home with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Don&apos;t hesitate to ask any additional questions that occur to you during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Be prepared to answer questions from your doctor, such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you begin having symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+	&lt;li&gt;Have any of your relatives ever had Bell&apos;s palsy or problems with facial paralysis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;br /&gt;
+&lt;/strong&gt;If you have facial pain:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Take over-the-counter pain relievers.&lt;/strong&gt; Aspirin, ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) can help with pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Apply moist heat.&lt;/strong&gt; Putting a washcloth soaked in warm water on your face several times a day may help relieve pain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If your eye won&apos;t close completely, try these tips:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Use your finger to close your eye repeatedly throughout the day.&lt;/li&gt;
+	&lt;li&gt;Use lubricating eyedrops.&lt;/li&gt;
+	&lt;li&gt;Wear eyeglasses during the day to protect your eye.&lt;/li&gt;
+	&lt;li&gt;Wear an eye patch at night.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no specific test for Bell&apos;s palsy. Your doctor will look at your face and ask you to move your facial muscles by closing your eyes, lifting your brow, showing your teeth and frowning, among other movements.
+&lt;/p&gt;
+&lt;p&gt;
+Other conditions &amp;mdash; such as a stroke, infections, Lyme disease and tumors &amp;mdash; can also cause facial muscle weakness, mimicking Bell&apos;s palsy. If it&apos;s not clear why you&apos;re having the symptoms you are, your doctor may recommend other tests, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electromyography (EMG).&lt;/strong&gt; This test can confirm the presence of nerve damage and determine its severity. An EMG measures the electrical activity of a muscle in response to stimulation and the nature and speed of the conduction of electrical impulses along a nerve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging scans.&lt;/strong&gt; X-ray imaging, magnetic resonance imaging (MRI) or computerized tomography (CT) may be needed on occasion to rule out other possible sources of pressure on the facial nerve, such as a tumor or skull fracture.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most people with Bell&apos;s palsy recover fully &amp;mdash; with or without treatment. There&apos;s no one-size-fits-all treatment for Bell&apos;s palsy, but your doctor may suggest medications or physical therapy to help speed your recovery. Surgery is rarely an option for Bell&apos;s palsy.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;br /&gt;
+&lt;/strong&gt;Commonly used medications to treat Bell&apos;s palsy include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Corticosteroids,&lt;/strong&gt; such as prednisone, are powerful anti-inflammatory agents. If they can reduce the swelling of the facial nerve, it will fit more comfortably within the bony corridor that surrounds it. Corticosteroids may work best if they&apos;re started within several days of when your symptoms started.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Antiviral drugs,&lt;/strong&gt; such as acyclovir (Zovirax) or valacyclovir (Valtrex), may stop the progression of the infection if a virus is known to have caused it. This treatment may be offered only if your facial paralysis is severe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Physical therapy&lt;br /&gt;
+&lt;/strong&gt;Paralyzed muscles can shrink and shorten, causing permanent contractures. A physical therapist can teach you how to massage and exercise your facial muscles to help prevent this from occurring.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;br /&gt;
+&lt;/strong&gt;In the past, decompression surgery was used to relieve the pressure on the facial nerve by opening the bony passage that the nerve passes through. Today, decompression surgery isn&apos;t recommended. Facial nerve injury and permanent hearing loss are possible risks associated with this surgery.
+&lt;/p&gt;
+&lt;p&gt;
+In rare cases, plastic surgery may be needed to correct lasting facial nerve problems.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Home treatment may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Protecting the eye you can&apos;t close.&lt;/strong&gt; Using lubricating eyedrops during the day and an eye ointment at night will help keep your eye moist. Wearing glasses or goggles during the day and an eye patch at night can protect your eye from getting poked or scratched.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Taking over-the-counter pain relievers.&lt;/strong&gt; Aspirin, ibuprofen (Advil, Motrin, others) or acetaminophen (Tylenol, others) may help ease your pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Applying moist heat.&lt;/strong&gt; Putting a washcloth soaked in warm water on your face several times a day may help relieve pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Doing your physical therapy exercises.&lt;/strong&gt; Massaging and exercising your face according to your physical therapist&apos;s advice may help relax your facial muscles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although there&apos;s little scientific evidence to support the use of alternative medicine for people with Bell&apos;s palsy, some people with the condition may benefit from the following: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Relaxation techniques. &lt;/strong&gt;Relaxing by using techniques&lt;strong&gt; &lt;/strong&gt;such as meditation and yoga may relieve muscle tension and chronic pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture. &lt;/strong&gt;Placing thin needles into specific point in your skin helps stimulate nerves and muscles, which may offer some relief.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Biofeedback training. &lt;/strong&gt;By teaching you to use your thoughts to control your body, you may help gain better control over your facial muscles.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Vitamin therapy. &lt;/strong&gt;Vitamins B-12, B-6 and zinc may help nerve growth.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bell&apos;s palsy
+	</Title>
+	<Abstract>
+		Bell&apos;s palsy &amp;mdash; Comprehensive overview covers causes, treatment of this usually temporary facial paralysis.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="SlideShow" DocID="BN00033" LinkType="Internal" ObjectID="DF9568B1-2929-495A-B78178FD38A8B131" Title="Slide show: How your brain works" Url="http://www.mayoclinic.com/health/brain/BN00033" />
+	</RelatedLinksBox>
+</Disease>

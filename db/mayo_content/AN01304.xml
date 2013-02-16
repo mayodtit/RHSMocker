@@ -1,0 +1,112 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01304
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/blood-thinners/AN01304
+		</OriginalURL>
+		<UpdateDate>
+			2012-05-04
+		</UpdateDate>
+		<PublicationDate>
+			2006-03-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1145" Title="Cardiovascular system">
+					<Keyword MCVID="1479" Title="Circulatory">
+						<Keyword MCVID="3140" Title="Blood clot" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B7924F4B-2A5D-9994-E93851E2A0E09BD3
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				blood thinners
+			</MetaKeyword>
+			<MetaKeyword>
+				anticoagulants
+			</MetaKeyword>
+			<MetaKeyword>
+				warfarin
+			</MetaKeyword>
+			<MetaKeyword>
+				coumadin
+			</MetaKeyword>
+			<MetaKeyword>
+				blood clots
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Yes. Medications that are commonly called blood thinners &amp;mdash; such as aspirin, warfarin (Coumadin, Jantoven), dabigatran (Pradaxa), rivaroxaban (Xarelto) and heparin &amp;mdash; significantly decrease your risk of blood clotting, but will not decrease the risk to zero. These medications must be taken exactly as directed to work safely and effectively. Taking too little of these medications may not be effective, and taking too much can lead to serious bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, blood thinners may not be able to lessen the strong blood-clotting tendency of an underlying disease, such as cancer. 
+&lt;/p&gt;
+&lt;p&gt;
+Interactions with other medications, food and alcohol are common with blood-thinning medications, especially warfarin. These interactions may decrease the effectiveness of your blood thinner, making you more likely to develop blood clots. If you take a blood thinner, be sure to follow your doctor&apos;s advice on dosing and ask about foods and other medications &amp;mdash; including over-the-counter drugs and herbal supplements &amp;mdash; that may interfere with the blood thinner. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Blood thinners: Can I still get blood clots?
+	</Title>
+	<Abstract>
+		Blood thinners must be taken exactly as directed to prevent blood clots.
+	</Abstract>
+	<Question>
+		If you&apos;re taking a blood thinner, is it still possible for you to get a blood clot?
+	</Question>
+	<QuestionFirstName>
+		Denise
+	</QuestionFirstName>
+	<QuestionState>
+		Texas
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00455" LinkType="Internal" ObjectID="56E57F1F-14D3-4F5D-99755C0AC15D4BCE" Title="Warfarin diet: What foods should I avoid?" Url="http://www.mayoclinic.com/health/warfarin/AN00455" />
+		<LinkItem ContentType="Article" DocID="HB00101" LinkType="Internal" ObjectID="CA0F97CB-E7FF-0DBD-16198A51C9A1D2DE" Title="Warfarin side effects: Watch for interactions" Url="http://www.mayoclinic.com/health/warfarin-side-effects/HB00101" />
+		<LinkItem ContentType="Disease" DocID="DS01005" LinkType="Internal" ObjectID="F7CDC42F-E7FF-0DBD-1377DA69658CAFBB" Title="Deep vein thrombosis (DVT)" Url="http://www.mayoclinic.com/health/deep-vein-thrombosis/DS01005" />
+		<LinkItem ContentType="Disease" DocID="DS00223" LinkType="Internal" ObjectID="D27523B0-5309-466F-B6560F1319E7EB2D" Title="Thrombophlebitis" Url="http://www.mayoclinic.com/health/thrombophlebitis/DS00223" />
+		<LinkItem ContentType="Answer" DocID="HQ01614" LinkType="Internal" ObjectID="70B2F4BD-5FD9-4435-8BE419B346DFAC2A" Title="Warfarin: Any harm in long-term use?" Url="http://www.mayoclinic.com/health/warfarin/HQ01614" />
+		<LinkItem ContentType="Disease" DocID="DS01196" LinkType="Internal" ObjectID="876FB7D4-F866-4917-1B55AD849EC7E466" Title="Membranous nephropathy" Url="http://www.mayoclinic.com/health/membranous-nephropathy/DS01196" />
+	</RelatedLinksBox>
+</Answer>

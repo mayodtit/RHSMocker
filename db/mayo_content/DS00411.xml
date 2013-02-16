@@ -1,0 +1,408 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00411
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/wilsons-disease/DS00411
+		</OriginalURL>
+		<UpdateDate>
+			2011-09-23
+		</UpdateDate>
+		<PublicationDate>
+			2002-01-22
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1299" Title="Nutritional and metabolic disorders">
+					<Keyword MCVID="2226" Title="Metabolic disorders">
+						<Keyword MCVID="2580" Title="Wilson&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+			<Category MCVID="1004" Title="Content Packages">
+				<Keyword MCVID="4452" Title="Ad campaign">
+					<Keyword MCVID="4665" Title="Birth control" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			9D97C9C2-C25F-44D4-BB016D5D76CFB144
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Wilson&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Wilsons disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Wilson&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				copper
+			</MetaKeyword>
+			<MetaKeyword>
+				liver
+			</MetaKeyword>
+			<MetaKeyword>
+				Wilsons
+			</MetaKeyword>
+			<MetaKeyword>
+				Wilson
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilson&apos;s disease is an inherited disorder that causes too much copper to accumulate in your liver, brain and other vital organs. Another term for Wilson&apos;s disease is hepatolenticular degeneration. 
+&lt;/p&gt;
+&lt;p&gt;
+Copper plays a key role in the development of healthy nerves, bones, collagen and the skin pigment melanin. Normally, copper is absorbed from your food, and any excess is excreted through bile &amp;mdash; a substance produced in your liver. 
+&lt;/p&gt;
+&lt;p&gt;
+But in people with Wilson&apos;s disease, copper isn&apos;t eliminated properly and instead accumulates, possibly to a life-threatening level. Left untreated, Wilson&apos;s disease is fatal. When diagnosed early, Wilson&apos;s disease is treatable, and many people with the disorder live normal lives. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilson&apos;s disease causes a wide variety of signs and symptoms that are often mistaken for other diseases and conditions. Signs and symptoms vary depending on what parts of your body are affected by Wilson&apos;s disease. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of Wilson&apos;s disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Clumsiness&lt;/li&gt;
+	&lt;li&gt;Depression&lt;/li&gt;
+	&lt;li&gt;Difficulty speaking&lt;/li&gt;
+	&lt;li&gt;Difficulty swallowing&lt;/li&gt;
+	&lt;li&gt;Difficulty walking&lt;/li&gt;
+	&lt;li&gt;Drooling&lt;/li&gt;
+	&lt;li&gt;Easy bruising&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Involuntary shaking&lt;/li&gt;
+	&lt;li&gt;Joint pain&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Skin rash&lt;/li&gt;
+	&lt;li&gt;Swelling of arms and legs&lt;/li&gt;
+	&lt;li&gt;Yellowing of the skin and eyes (jaundice)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor if you have any signs and symptoms that worry you. 
+&lt;/p&gt;
+&lt;p&gt;
+If a family member has been diagnosed with Wilson&apos;s disease, tell your doctor at your next appointment. Your doctor may recommend tests to determine whether you may have Wilson&apos;s disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilson&apos;s disease occurs when a genetic mutation leads to an accumulation of copper in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the genetic mutation occurs&lt;/strong&gt;&lt;br /&gt;
+The genetic mutation that causes Wilson&apos;s disease is most commonly passed from one generation to the next. Wilson&apos;s disease is inherited as an autosomal recessive trait, which means that to develop the disease you must inherit two copies of the defective gene, one from each parent. If you receive only one abnormal gene, you won&apos;t become ill yourself, but you&apos;re considered a carrier and can pass the gene to your children. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How the genetic mutation causes Wilson&apos;s disease&lt;/strong&gt;&lt;br /&gt;
+The mutation that causes Wilson&apos;s disease causes problems with a protein that&apos;s responsible for moving excess copper out of your liver. 
+&lt;/p&gt;
+&lt;p&gt;
+Your body collects copper from the food you eat during the digestive process. The copper is transported to your liver where liver cells use it for everyday tasks. Most people eat more copper than they need. In these cases, the liver takes what it needs and excretes the rest in bile, a digestive juice made by the liver. 
+&lt;/p&gt;
+&lt;p&gt;
+But in people with Wilson&apos;s disease, the extra copper doesn&apos;t leave your body. Instead, copper builds up in the liver, where it can cause serious and sometimes irreversible damage. In time, excess copper leaves the liver and begins accumulating in and harming other organs, especially the brain, eyes and kidneys. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="60" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/thumbs/r7_autosomalrecessivethu.jpg" Width="60" />
+				<Image Alt="Illustration showing autosomal recessive inheritance pattern 
+" Caption="To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one mutated gene (recessive gene) and one normal gene (dominant gene) for the condition. Two carriers have a 25 percent chance of having an unaffected child with two normal genes (left), a 50 percent chance of having an unaffected child who also is a carrier (middle), and a 25 percent chance of having an affected child with two recessive genes (right). 
+" Height="383" Title="Autosomal recessive inheritance pattern" URI="/images/image_popup/r7_autosomalrecessive.jpg" Width="400" />
+				<HTML>
+					To have an autosomal recessive disorder, you inherit two mutated genes, one from each parent. These disorders are usually passed on by two carriers. Their health is rarely affected, but they have one ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may be at increased risk of Wilson&apos;s disease if one or more of your first-degree relatives have been diagnosed with the condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Ask your doctor whether you should undergo genetic testing to find out if you have Wilson&apos;s disease. Diagnosing the condition as early as possible dramatically increases the chances of successful treatment. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wilson&apos;s disease can cause serious complications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring of the liver (cirrhosis).&lt;/strong&gt; As liver cells try to make repairs to damage done by excess copper, scar tissue forms in the liver. The scar tissue makes it more difficult for the liver to function.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver failure.&lt;/strong&gt; Liver failure can occur suddenly (acute liver failure), or it can develop slowly over many years. If liver failure progresses, a liver transplant may be a treatment option.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Liver cancer.&lt;/strong&gt; Damage to the liver caused by Wilson&apos;s disease may increase the risk of liver cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Persistent neurological problems.&lt;/strong&gt; Neurological problems usually improve with treatment for Wilson&apos;s disease. However, some people may experience persistent neurological difficulty despite treatment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kidney problems.&lt;/strong&gt; Wilson&apos;s disease can damage the kidneys, leading to kidney problems such as kidney stones and an abnormal number of amino acids excreted in the urine (aminoaciduria).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="60" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/thumbs/r7_normcirrhosisthu.jpg" Width="60" />
+				<Image Alt="Illustrations of a normal liver and liver cirrhosis 
+" Caption="A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+" Height="195" Title="Normal liver vs. liver cirrhosis" URI="/images/image_popup/r7_normcirrhosis.jpg" Width="400" />
+				<HTML>
+					A normal liver (left) shows no signs of scarring. In cirrhosis (right), scar tissue replaces normal liver tissue. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="60" Title="Liver cancer" URI="/images/image_popup/thumbs/mcdc7_liver_cancerthu.jpg" Width="60" />
+				<Image Alt="Illustration of liver cancer 
+" Caption="Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+" Height="320" Title="Liver cancer" URI="/images/image_popup/mcdc7_liver_cancer.jpg" Width="400" />
+				<HTML>
+					Liver cancer begins in the cells of the liver. The most common form of liver cancer begins in cells called hepatocytes and is called hepatocellular carcinoma. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;re likely to start by first seeing your family doctor or a general practitioner. If your doctor suspects you may have a liver problem, such as Wilson&apos;s disease, you may be referred to a doctor who specializes in the liver (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How to prepare&lt;/strong&gt;&lt;br /&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared for your appointment. To prepare for your appointment, try to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses, recent life changes or any family history of Wilson&apos;s disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; as well as any vitamins or supplements, that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along,&lt;/strong&gt; if possible. Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Questions to ask&lt;/strong&gt;&lt;br /&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For Wilson&apos;s disease, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do I have Wilson&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Has Wilson&apos;s disease damaged my liver or other organs?&lt;/li&gt;
+	&lt;li&gt;Do I need treatment for Wilson&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;What treatment do you recommend?&lt;/li&gt;
+	&lt;li&gt;What are the side effects of the recommended treatment?&lt;/li&gt;
+	&lt;li&gt;Are there other treatment options?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I avoid alcohol or medications that might harm my liver?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Should I see a genetic counselor?&lt;/li&gt;
+	&lt;li&gt;Should my family members be tested for Wilson&apos;s disease?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing Wilson&apos;s disease can be challenging because its signs and symptoms are often indistinguishable from those of other liver diseases, such as hepatitis. What&apos;s more, many symptoms may evolve over time rather than appear all at once. Behavioral changes that come on gradually can be especially hard to link to Wilson&apos;s. Doctors rely on a combination of symptoms and test results to make the diagnosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Tests and procedures used to diagnose Wilson&apos;s disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood and urine tests.&lt;/strong&gt; Your doctor may recommend blood tests to monitor your liver function and look for copper in your blood. Your blood may also be tested for the level of a protein called ceruloplasmin. This protein, which carries copper in your bloodstream, is usually low in Wilson&apos;s disease. Your doctor may also use urine tests to measure the amount of copper excreted in your urine in a 24-hour period.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brain scans.&lt;/strong&gt; If you have signs and symptoms that indicate Wilson&apos;s disease is affecting your brain, your doctor may recommend tests to create images of your brain. Tests may include computerized tomography (CT) and magnetic resonance imaging (MRI).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eye exam.&lt;/strong&gt; Using a microscope with a high-intensity light source (slit lamp), an ophthalmologist checks your eyes for golden-brown discoloring (Kayser-Fleischer rings). The abnormal appearance is caused by deposits of excess copper in the eyes. Wilson&apos;s disease has also been associated with a type of cataract, called a sunflower cataract, that can be seen on an eye exam.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Removing a sample of liver tissue for testing.&lt;/strong&gt; In a procedure called a liver biopsy, your doctor inserts a thin needle through your skin and into your liver. Your doctor draws out a small sample of liver tissue and sends it to a laboratory to test for excess copper.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic testing.&lt;/strong&gt; A blood test called DNA mutation analysis can identify the genetic mutations that cause Wilson&apos;s disease. This test is available at a limited number of medical centers and is done using a small sample of blood drawn from your arm or collected from a finger prick. It&apos;s recommended when other forms of testing support a diagnosis of Wilson&apos;s disease or when other tests fail to provide conclusive results. Knowing the Wilson&apos;s disease mutations in your family allows doctors to genetically screen siblings and begin treatment before debilitating symptoms arise.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you&apos;ve been diagnosed with Wilson&apos;s disease, your doctor may recommend medications to reduce the amount of copper in your body. Once that is achieved, treatment focuses on preventing copper from building up again. When liver damage is severe, a liver transplant may be necessary. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications that remove excess copper from your body&lt;/strong&gt;&lt;br /&gt;
+Medications called chelating agents prompt your organs to release copper into your bloodstream. The copper is then filtered by your kidneys and released into your urine. 
+&lt;/p&gt;
+&lt;p&gt;
+Treatment for people with signs and symptoms of Wilson&apos;s disease usually begins with a chelating agent. Once your signs and symptoms are under control, your doctor may recommend a lower dose of medication to maintain a safe level of copper in your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Doctors sometimes also recommend chelating agents to people who&apos;ve been diagnosed with Wilson&apos;s disease but don&apos;t have signs and symptoms. For these people, a chelating agent can reduce the risk of liver damage. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of chelating agents depend on the specific medication: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Penicillamine (Cuprimine, Depen).&lt;/strong&gt; Penicillamine can cause serious side effects, including skin problems, bone marrow suppression, worsening of neurological symptoms and birth defects.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Trientine (Syprine).&lt;/strong&gt; Trientine works much like penicillamine but tends to cause fewer side effects. Still, there is a risk that neurological symptoms can worsen when taking trientine, though it&apos;s thought to be a lower risk than is penicillamine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medication to maintain healthy copper levels&lt;/strong&gt;&lt;br /&gt;
+Zinc acetate prevents your body from absorbing copper from the food you eat. Zinc is sometimes used in people who&apos;ve had successful treatment with a chelating agent. In these people, zinc may help maintain a healthy copper level. Zinc is also used in people who&apos;ve been diagnosed with Wilson&apos;s disease but don&apos;t have any signs or symptoms. 
+&lt;/p&gt;
+&lt;p&gt;
+Zinc acetate causes few side effects but can cause upset stomach. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Liver transplant &lt;/strong&gt;&lt;br /&gt;
+For people with severe liver damage, a liver transplant may be necessary. During a liver transplant, a surgeon removes your diseased liver and replaces it with a healthy liver from a donor. Most transplanted livers come from donors who have died. But in some cases a liver can come from a living donor, such as a family member. In that case, the surgeon removes your diseased liver and replaces it with a portion of your family member&apos;s liver. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="60" Title="Living liver transplant" URI="/images/image_popup/thumbs/d7_livinglivertransplantthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a living-donor liver transplant 
+" Caption="A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted in your body. The livers begin regenerating new cells almost immediately. 
+" Height="230" Title="Living liver transplant" URI="/images/image_popup/d7_living_liver_transplant.jpg" Width="400" />
+				<HTML>
+					A small percentage of liver donations come from a living donor, such as a friend or family member. During a living-donor liver transplant, one portion of the donor&apos;s liver is removed and transplanted ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Doctors sometimes recommend limiting the amount of copper you consume in your diet during the first year of your treatment for Wilson&apos;s disease. As your signs and symptoms recede and the copper levels in your body drop, you may be able to include copper-containing foods in your diet. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Copper-containing foods&lt;/strong&gt;&lt;br /&gt;
+Foods that contain high levels of copper include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Copper-containing vitamin and mineral supplements&lt;/li&gt;
+	&lt;li&gt;Liver&lt;/li&gt;
+	&lt;li&gt;Shellfish&lt;/li&gt;
+	&lt;li&gt;Mushrooms&lt;/li&gt;
+	&lt;li&gt;Nuts&lt;/li&gt;
+	&lt;li&gt;Chocolate&lt;/li&gt;
+	&lt;li&gt;Dried fruit&lt;/li&gt;
+	&lt;li&gt;Dried peas, beans and lentils&lt;/li&gt;
+	&lt;li&gt;Avocados&lt;/li&gt;
+	&lt;li&gt;Bran products&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Copper in tap water &lt;/strong&gt;&lt;br /&gt;
+Have your tap water&apos;s copper levels tested if you have copper pipes in your home or if your water comes from a well. Most municipal water systems don&apos;t contain high levels of copper. 
+&lt;/p&gt;
+&lt;p&gt;
+If you have copper pipes, run the tap for several seconds before collecting water for drinking or cooking. Water that sits in the copper pipes can pick up copper particles. Running the water flushes that contaminated water out of the pipes. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Wilson&apos;s disease
+	</Title>
+	<Abstract>
+		Wilson&apos;s disease &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this copper metabolism disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00349" LinkType="Internal" ObjectID="21329E51-E7FF-0DBD-1B9E2B7D0F8B83AE" Title="Liver transplant" Url="http://www.mayoclinic.com/health/liver-transplant/MY00349" />
+		<LinkItem ContentType="Disease" DocID="DS01175" LinkType="Internal" ObjectID="706CA04C-B12E-8FDD-EE0ACE20B7C86597" Title="Dysarthria" Url="http://www.mayoclinic.com/health/dysarthria/DS01175" />
+	</RelatedLinksBox>
+</Disease>

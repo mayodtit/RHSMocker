@@ -1,0 +1,336 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00927
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/pulmonary-fibrosis/DS00927
+		</OriginalURL>
+		<UpdateDate>
+			2011-03-15
+		</UpdateDate>
+		<PublicationDate>
+			2007-03-14
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2195" Title="Chronic lung">
+						<Keyword MCVID="2437" Title="Pulmonary fibrosis" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			16A0DD83-E7FF-0DBD-1E6E0386E28C12B5
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				pulmonary fibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				idiopathic pulmonary fibrosis
+			</MetaKeyword>
+			<MetaKeyword>
+				interstitial lung disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary fibrosis occurs when lung tissue becomes damaged and scarred. This thickened, stiff tissue makes it more difficult for your lungs to work properly. As pulmonary fibrosis worsens, you become progressively more short of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+The scarring associated with pulmonary fibrosis can be caused by a multitude of factors. But in most cases, doctors can&apos;t pinpoint what&apos;s causing the problem. When a cause can&apos;t be found, the condition is termed idiopathic pulmonary fibrosis. 
+&lt;/p&gt;
+&lt;p&gt;
+The lung damage caused by pulmonary fibrosis can&apos;t be repaired, but medications and therapies can sometimes help ease symptoms and improve quality of life. For some people, a lung transplant might be appropriate. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of pulmonary fibrosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shortness of breath (dyspnea)&lt;/li&gt;
+	&lt;li&gt;A dry cough&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Unexplained weight loss&lt;/li&gt;
+	&lt;li&gt;Aching muscles and joints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The course of pulmonary fibrosis &amp;mdash; and the severity of symptoms &amp;mdash; can vary considerably from person to person. Some people become ill very quickly with severe disease. Others have more-moderate symptoms that worsen over months or years.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Pulmonary fibrosis scars and thickens the tissue around and between the air sacs (alveoli) in your lungs. This makes it more difficult for oxygen to pass into your bloodstream. The damage can be caused by many different things &amp;mdash; including airborne toxins in the workplace, certain lung diseases and even some types of medical treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Occupational and environmental factors&lt;/strong&gt;&lt;br /&gt;
+Long-term exposure to a number of toxins and pollutants can damage your lungs. These may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Silica dust&lt;/li&gt;
+	&lt;li&gt;Asbestos fibers&lt;/li&gt;
+	&lt;li&gt;Grain dust&lt;/li&gt;
+	&lt;li&gt;Bird and animal droppings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Radiation treatments&lt;/strong&gt;&lt;br /&gt;
+Some people who receive radiation therapy for lung or breast cancer show signs of lung damage months or sometimes years after the initial treatment. The severity of the damage depends on: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;How much of the lung was exposed to radiation&lt;/li&gt;
+	&lt;li&gt;The total amount of radiation administered&lt;/li&gt;
+	&lt;li&gt;Whether chemotherapy also was used&lt;/li&gt;
+	&lt;li&gt;The presence of underlying lung disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Many drugs can damage your lungs, especially: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chemotherapy drugs.&lt;/strong&gt; Drugs designed to kill cancer cells, such as methotrexate (Trexall) and cyclophosphamide (Cytoxan), can also damage lung tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Heart medications.&lt;/strong&gt; Some drugs used to treat irregular heartbeats, such as amiodarone (Cordarone, Nexterone, Pacerone) or propranolol (Inderol, Inderide, Innopran) may harm lung tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Some antibiotics.&lt;/strong&gt; Nitrofurantoin (Macrobid, Macrodantin, others) and sulfasalazine (Azulfidine) can cause lung damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Medical conditions&lt;/strong&gt;&lt;br /&gt;
+Lung damage can also result from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tuberculosis&lt;/li&gt;
+	&lt;li&gt;Pneumonia&lt;/li&gt;
+	&lt;li&gt;Systemic lupus erythematosus&lt;/li&gt;
+	&lt;li&gt;Rheumatoid arthritis&lt;/li&gt;
+	&lt;li&gt;Sarcoidosis&lt;/li&gt;
+	&lt;li&gt;Scleroderma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Idiopathic pulmonary fibrosis: When the cause isn&apos;t known&lt;/strong&gt;&lt;br /&gt;
+The list of substances and conditions that can lead to pulmonary fibrosis is long. Even so, in most cases, the cause is never found. Pulmonary fibrosis with no known cause is called idiopathic pulmonary fibrosis. 
+&lt;/p&gt;
+&lt;p&gt;
+Researchers have several theories about what might trigger idiopathic pulmonary fibrosis, including viruses and exposure to tobacco smoke. And because one type of idiopathic pulmonary fibrosis runs in families, heredity also is thought to play a role. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing lung anatomy 
+" Caption="Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). 
+" Height="60" Title="Bronchioles and alveoli" URI="/images/image_popup/thumbs/mcdc7_bronchiolesthu.jpg" Width="60" />
+				<Image Alt="Illustration showing lung anatomy 
+" Caption="Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). 
+" Height="552" Title="Bronchioles and alveoli" URI="/images/image_popup/mcdc7_bronchioles.jpg" Width="400" />
+				<HTML>
+					Within your lungs, the main airways (bronchi) branch off into smaller and smaller passageways, the smallest of which are called bronchioles. At the end of the bronchioles are tiny air sacs (alveoli). ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that make you more susceptible to pulmonary fibrosis include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Age.&lt;/strong&gt; Although pulmonary fibrosis has been diagnosed in children and infants, the disorder is much more likely to affect middle-aged and older adults.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Smoking.&lt;/strong&gt; Far more smokers and former smokers develop pulmonary fibrosis than do people who have never smoked.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Your occupation.&lt;/strong&gt; You have an increased risk of developing pulmonary fibrosis if you work in mining, farming or construction or if you&apos;re exposed to pollutants known to damage your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer treatments.&lt;/strong&gt; Having radiation treatments to your chest or using certain chemotherapy drugs makes you more susceptible to pulmonary fibrosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic factors.&lt;/strong&gt; Some types of pulmonary fibrosis appear to run in families, so a genetic component is suspected.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Complications of pulmonary fibrosis may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;High blood pressure in your lungs (pulmonary hypertension).&lt;/strong&gt; Unlike systemic high blood pressure, this condition affects only the arteries in your lungs. It begins when the smallest arteries and capillaries are compressed by scar tissue, causing increased resistance to blood flow in your lungs. This in turn raises pressure within the pulmonary arteries. Pulmonary hypertension is a serious illness that becomes progressively worse and may eventually prove fatal.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Right-sided heart failure (cor pulmonale).&lt;/strong&gt; This serious condition occurs when your heart&apos;s lower right chamber (ventricle) has to pump harder than usual to move blood through partially blocked pulmonary arteries.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Respiratory failure.&lt;/strong&gt; This is often the last stage of chronic lung disease. It occurs when blood-oxygen levels fall dangerously low.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lung cancer.&lt;/strong&gt; Long-standing pulmonary fibrosis also increases your risk of developing lung cancer.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your primary care doctor suspects a serious lung problem, you&apos;re likely to be referred to a pulmonologist, a doctor who specializes in lung disorders.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;&lt;br /&gt;
+Before your appointment, you might want to write a list that answers the following questions:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms and when did they start?&lt;/li&gt;
+	&lt;li&gt;Are you receiving treatment for any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications and supplements have you taken in the past five years?&lt;/li&gt;
+	&lt;li&gt;Do you smoke? If so, how much and for how long?&lt;/li&gt;
+	&lt;li&gt;What are all the occupations you&amp;rsquo;ve ever had, even if only for a few months?&lt;/li&gt;
+	&lt;li&gt;Do any members of your family have a chronic lung disease of any kind?&lt;/li&gt;
+	&lt;li&gt;Have you ever received chemotherapy or radiation treatments for cancer?&lt;/li&gt;
+	&lt;li&gt;Do you have any other medical conditions, especially arthritis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might also want to have a friend or family member accompany you to the appointment. Pulmonary fibrosis is a serious and complex disease. A friend or family member can provide emotional support and help remember information that you may have forgotten or missed.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor will use a stethoscope to listen carefully to your lungs while you breathe. He or she may also suggest one or more of the following tests.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Imaging tests&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Chest X-ray.&lt;/strong&gt; This will usually show the scar tissue typical of pulmonary fibrosis and is useful for following the course of the illness and treatment. Occasionally, the chest X-ray is normal and further tests are required to explain your shortness of breath.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Computerized tomography (CT).&lt;/strong&gt; CT scanners use a computer to combine X-ray images taken from many different angles to produce cross-sectional images of internal structures. A high-resolution CT scan can be particularly helpful in determining the extent of lung damage caused by pulmonary fibrosis. Also, some kinds of fibrosis, like silicosis, have characteristic patterns.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Echocardiogram.&lt;/strong&gt; A sonogram for the heart, an echocardiogram uses sound waves to visualize the heart. It can produce still images of your heart&apos;s structures, as well as videos that show how your heart is functioning. This test can evaluate the amount of pressure occurring in the right side of your heart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary function tests&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spirometry.&lt;/strong&gt; This test requires you to exhale quickly and forcefully through a tube connected to a machine that measures how much air your lungs can hold, and how quickly you can move air in and out of your lungs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oximetry.&lt;/strong&gt; This simple test uses a small device placed on one of your fingers to measure the oxygen saturation in your blood. Oximetry can serve as an easy way to monitor the course of the disease, sometimes more accurately than a chest X-ray can.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise stress test.&lt;/strong&gt; An exercise test on a treadmill or stationary bike may be used to monitor your lung function when you&apos;re active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Tissue sample may be needed&lt;/strong&gt;&lt;br /&gt;
+Often, pulmonary fibrosis can be definitively diagnosed only by examining a small amount of lung tissue (biopsy) in a laboratory. The tissue sample may be obtained in one of these ways:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchoscopy.&lt;/strong&gt; In this procedure, your doctor removes very small tissue samples &amp;mdash; generally no larger than the head of a pin &amp;mdash; using a small, flexible tube (bronchoscope) that&apos;s passed through your mouth or nose into your lungs. The risks of bronchoscopy are generally minor &amp;mdash; most often a temporary sore throat and hoarseness from swallowing the bronchoscope &amp;mdash; but the tissue samples are sometimes too small for an accurate diagnosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bronchoalveolar lavage.&lt;/strong&gt; In this procedure, your doctor injects salt water through a bronchoscope into a section of your lung, and then immediately suctions it out. The solution that&apos;s withdrawn contains cells from your air sacs. Although bronchoalveolar lavage samples a larger area of the lung than other procedures do, it may not provide enough information to diagnose pulmonary fibrosis.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Surgical biopsy.&lt;/strong&gt; Although this is a more invasive procedure with potential complications, it&apos;s often the only way to obtain a large enough tissue sample to make an accurate diagnosis. During the procedure, surgical instruments and a small camera are inserted through two or three small incisions between your ribs. The camera allows your surgeon to view your lungs on a video monitor while removing tissue samples from your lungs.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The lung scarring that occurs in pulmonary fibrosis can&apos;t be reversed, and no current treatment has proved effective in stopping the ultimate progression of the disease. Some treatments, though, may improve symptoms temporarily or slow the disease&apos;s progress. Others help improve quality of life.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+Many people diagnosed with pulmonary fibrosis are initially treated with a corticosteroid (prednisone), sometimes in combination with other drugs that suppress the immune system &amp;mdash; such as methotrexate or cyclosporine. None of these combinations has proved very effective over the long run. Adding N-acetylcysteine, a derivative of a natural amino acid, to prednisone may slow the disease in some people.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Oxygen therapy&lt;/strong&gt;&lt;br /&gt;
+Using oxygen can&apos;t stop lung damage, but it can:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Make breathing and exercise easier&lt;/li&gt;
+	&lt;li&gt;Prevent or lessen complications from low blood-oxygen levels&lt;/li&gt;
+	&lt;li&gt;Reduce blood pressure in the right side of your heart&lt;/li&gt;
+	&lt;li&gt;Improve your sleep and sense of well-being&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You&apos;re most likely to receive oxygen when you sleep or exercise, although some people may use it round-the-clock.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pulmonary rehabilitation&lt;/strong&gt;&lt;br /&gt;
+The aim of pulmonary rehabilitation is not only to treat a disease or even improve daily functioning, but also to help people with pulmonary fibrosis live full, satisfying lives. To that end, pulmonary rehabilitation programs focus on:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Physical exercise, to improve your endurance&lt;/li&gt;
+	&lt;li&gt;Breathing techniques that improve lung efficiency&lt;/li&gt;
+	&lt;li&gt;Emotional support&lt;/li&gt;
+	&lt;li&gt;Nutritional counseling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgery&lt;/strong&gt;&lt;br /&gt;
+Lung transplantation may be an option of last resort for younger people with severe pulmonary fibrosis who haven&apos;t benefited from other treatment options.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Being actively involved in your own treatment and staying as healthy as possible are essential to living with pulmonary fibrosis. For that reason, it&apos;s important to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you have lung disease, the best thing you can do for yourself is to stop smoking. Talk to your doctor about options for quitting, including smoking cessation programs, which use a variety of proven techniques to help people quit. And because secondhand smoke can be just as harmful to your lungs, don&apos;t allow other people to smoke around you.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Eat well.&lt;/strong&gt; People with lung disease may lose weight both because it&apos;s uncomfortable to eat and because of the extra energy it takes to breathe. Yet a nutritionally rich diet that contains adequate calories is essential. A dietitian can give you further guidelines for healthy eating.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; Respiratory infections can worsen symptoms of pulmonary fibrosis. Make sure you receive the pneumonia vaccine and an annual flu shot.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Pulmonary fibrosis
+	</Title>
+	<Abstract>
+		Pulmonary fibrosis &amp;mdash; Comprehensive overview covers symptoms, causes and treatment of this serious lung disease.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00106" LinkType="Internal" ObjectID="C016ACE8-E7FF-0DBD-1F1C3E530B8ACD1B" Title="Lung transplant" Url="http://www.mayoclinic.com/health/lung-transplant/MY00106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+	</RelatedLinksBox>
+</Disease>

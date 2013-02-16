@@ -1,0 +1,258 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00739
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/giardia-infection/DS00739
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-14
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-30
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="3113" Title="GI infections">
+						<Keyword MCVID="3117" Title="Giardia infection" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			625F1132-2A5D-9994-EA84DF7C72C80768
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				giardia
+			</MetaKeyword>
+			<MetaKeyword>
+				giardia infection
+			</MetaKeyword>
+			<MetaKeyword>
+				giardiasis
+			</MetaKeyword>
+			<MetaKeyword>
+				giardia lamblia
+			</MetaKeyword>
+			<MetaKeyword>
+				giardia intestinalis
+			</MetaKeyword>
+			<MetaKeyword>
+				parasite
+			</MetaKeyword>
+			<MetaKeyword>
+				parasite infection
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Giardia infection (giardiasis) is an intestinal infection caused by a microscopic parasite that&apos;s found worldwide, especially in areas with poor sanitation and unsafe water. Giardia infection is marked by abdominal cramps, bloating, nausea and bouts of watery diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+Giardia infection is a waterborne infection and can be caused by parasites found in backcountry streams and lakes, as well as in municipal water supplies, swimming pools, whirlpool spas and wells. Giardia infection can also be transmitted through food and person-to-person contact. 
+&lt;/p&gt;
+&lt;p&gt;
+Giardia infections usually clear up within a few weeks. But you may have intestinal problems long after the parasites are gone. Several drugs are generally effective against giardia parasites, but not everyone responds to them. Prevention is your best defense. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some people with giardia infection never develop signs or symptoms but still carry the parasite and can spread it to others through their stool. For those who do get sick, signs and symptoms usually appear one to two weeks after exposure and may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watery, sometimes foul-smelling diarrhea that may alternate with soft, greasy stools&lt;/li&gt;
+	&lt;li&gt;Fatigue or malaise&lt;/li&gt;
+	&lt;li&gt;Abdominal cramps and bloating&lt;/li&gt;
+	&lt;li&gt;Belching gas with a bad taste&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs and symptoms of giardia infection usually last two to four weeks, but in some people they last longer or recur. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Call your doctor if you have loose stools, abdominal bloating and nausea lasting more than a week, or if you become dehydrated. Be sure to tell your doctor if you&apos;re at risk of giardia infection &amp;mdash; that is, you have a child in child care, you&apos;ve recently traveled to an area in which you know giardia infection is present, or you&apos;ve swallowed water from a lake or stream. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Giardia parasites live in the intestines of people and animals. Before the microscopic parasites are passed in stool, they become encased within hard shells called cysts, which allows them to survive outside the intestines for months. Once inside a host, the cysts dissolve and the parasites are released. 
+&lt;/p&gt;
+&lt;p&gt;
+Infection occurs when you accidentally ingest the parasites. This can occur by swallowing contaminated water, by eating contaminated food or through person-to-person contact. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Swallowing contaminated water&lt;/strong&gt; &lt;br /&gt;
+The most common way to become infected with giardia is after swallowing contaminated water. 
+&lt;/p&gt;
+&lt;p&gt;
+Giardia parasites are found in lakes, ponds, rivers and streams worldwide, as well as in municipal water supplies, wells, cisterns, swimming pools, water parks and spas. Ground and surface water can become contaminated from agricultural runoff, wastewater discharge or animal feces. Children in diapers and people with diarrhea may accidentally contaminate pools and spas. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Eating contaminated food&lt;/strong&gt; &lt;br /&gt;
+Giardia parasites can be transmitted through food &amp;mdash; either because food handlers with giardiasis don&apos;t wash their hands thoroughly or because raw produce is irrigated or washed with contaminated water. Because cooking food kills giardia, food is a less common source of infection than water is, especially in industrialized countries. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Person-to-person contact&lt;/strong&gt; &lt;br /&gt;
+You can contract giardiasis if your hands become contaminated with fecal matter &amp;mdash; parents changing a child&apos;s diapers are especially at risk. So are child care workers and children in child care centers, where outbreaks are increasingly common. The giardia parasite can also spread through anal sex. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The giardia parasite is a very common intestinal parasite. Although anyone can pick up giardia parasites, some people are especially at risk: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Children.&lt;/strong&gt; Giardia infection is far more common in children than it is in adults. Children are more likely to come in contact with feces, especially if they wear diapers, are toilet training or spend time in a child care center. People who live or work with small children are also at higher risk of developing giardia infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;People without access to safe drinking water.&lt;/strong&gt; Giardiasis is rampant wherever sanitation is inadequate or water isn&apos;t safe to drink. You&apos;re at risk if you travel to places where giardiasis is common, especially if you aren&apos;t careful about what you eat and drink. The risk is greatest in rural or wilderness areas.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;People who have anal sex.&lt;/strong&gt; Having anal sex without using a condom puts you at increased risk of giardia infection, as well as sexually transmitted diseases.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Giardia infection is almost never fatal in industrialized countries, but it can cause lingering symptoms and serious complications, especially in infants and children. The most common complications include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dehydration.&lt;/strong&gt; Often a result of severe diarrhea, dehydration occurs when the body doesn&apos;t have enough water to carry out its normal functions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Failure to thrive.&lt;/strong&gt; Chronic diarrhea from giardia infection can lead to malnutrition and harm children&apos;s physical and mental development.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Lactose intolerance.&lt;/strong&gt; Many people with giardia infection develop lactose intolerance &amp;mdash; the inability to properly digest milk sugar. The problem may persist long after the infection has cleared.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially bring your symptoms to the attention of your family doctor, he or she may refer you to a gastroenterologist &amp;mdash; a doctor who specializes in disorders of the digestive system. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you may want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your signs and symptoms begin?&lt;/li&gt;
+	&lt;li&gt;Does anything make them better or worse?&lt;/li&gt;
+	&lt;li&gt;Do you work or live with small children?&lt;/li&gt;
+	&lt;li&gt;What types of medications and dietary supplements do you take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the physical exam, your doctor may ask you to lie down so he or she can gently press on various parts of your abdomen to check for tender areas. He or she may also check your mouth and skin for signs of dehydration. You also may be given instructions about how to bring in a sample of your stool. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+To help diagnose giardiasis, your doctor is likely to test a sample of your stool. For accuracy, you may be asked to submit several samples collected over a period of days. The samples are then examined in a laboratory for the presence of parasites. Stool tests may also be used to monitor the effectiveness of any treatment you receive. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children and adults who have giardia infection without symptoms usually don&apos;t need treatment unless they&apos;re likely to spread the parasites. Many people who do have problems often get better on their own in a few weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+When signs and symptoms are severe or the infection persists, doctors usually treat giardiasis with medications such as: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Metronidazole (Flagyl).&lt;/strong&gt; Metronidazole is the most commonly used antibiotic for giardia infection. Side effects may include nausea and a metallic taste in the mouth. Don&apos;t drink alcohol while taking this medication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tinidazole (Tindamax).&lt;/strong&gt; Tinidazole works as well as metronidazole and has many of the same side effects, but it can be given in a single dose.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nitazoxanide (Alinia).&lt;/strong&gt; Because it comes in a liquid form, nitazoxanide may be easier for children to swallow. Side effects may include nausea, flatulence, yellow eyes and brightly colored yellow urine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There are no consistently recommended medications for giardiasis in pregnancy because of the potential for adverse drug effects to the baby. If your symptoms are mild, your doctor may recommend delaying treatment until after the first trimester. If treatment is necessary, discuss the best available treatment option with your doctor. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No drug can prevent giardia infection. But common-sense precautions can go a long way toward reducing the chances that you&apos;ll become infected or spread the infection to others. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Wash your hands.&lt;/strong&gt; This is the simplest and best way to prevent most kinds of infection. Wash your hands after using the toilet or changing diapers and before eating or preparing food. When soap and water aren&apos;t available, alcohol-based sanitizers are an excellent alternative.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Purify wilderness water.&lt;/strong&gt; Avoid drinking untreated water from shallow wells, lakes, rivers, springs, ponds and streams unless you filter it or boil it for at least 10 minutes at 158 F (70 C) first.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep your mouth closed.&lt;/strong&gt; Try not to swallow water when swimming in pools, lakes or streams.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use bottled water.&lt;/strong&gt; When traveling to parts of the world where the water supply is likely to be unsafe, drink and brush your teeth with bottled water that you open yourself. Don&apos;t use ice, and avoid raw fruits and vegetables, even those you peel yourself.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Practice safer sex.&lt;/strong&gt; If you engage in anal sex, use a condom every time. Avoid oral-anal sex unless you&apos;re fully protected.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Giardia infection (giardiasis)
+	</Title>
+	<Abstract>
+		Giardia infection &amp;mdash; Comprehensive overview covers symptoms, treatment and diagnosis of this waterborne infection.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

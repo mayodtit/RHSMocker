@@ -1,0 +1,118 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01597
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/salt-craving/AN01597
+		</OriginalURL>
+		<UpdateDate>
+			2011-05-07
+		</UpdateDate>
+		<PublicationDate>
+			2007-05-07
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1095" Title="Endocrine system">
+					<Keyword MCVID="1496" Title="Adrenal">
+						<Keyword MCVID="2474" Title="Addison&apos;s disease" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			48294F0F-E7FF-0DBD-1904E6786940CBC7
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				salt craving
+			</MetaKeyword>
+			<MetaKeyword>
+				Addison&apos;s disease
+			</MetaKeyword>
+			<MetaKeyword>
+				addisons disease
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Salt craving can sometimes be caused by a serious underlying medical condition such as: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Adrenal inufficiency&lt;/strong&gt; &lt;br /&gt;
+Adrenal insufficiency (Addison&apos;s disease) can cause a salt craving that&apos;s new, persistent and excessive. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms of Addison&apos;s disease include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Craving salt&lt;/li&gt;
+	&lt;li&gt;Muscle weakness&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Weight loss&lt;/li&gt;
+	&lt;li&gt;Low blood pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bartter syndrome&lt;/strong&gt; &lt;br /&gt;
+In some cases, salt craving is a symptom of a rare kidney disorder called Bartter syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Seek medical attention&lt;/strong&gt; &lt;br /&gt;
+Your husband&apos;s salt cravings should be evaluated by a doctor, especially if other symptoms are present. In the absence of Addison&apos;s disease or Bartter syndrome, eating too much salt isn&apos;t good for you because it can increase your risk of developing high blood pressure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Salt craving: A symptom of Addison&apos;s disease?
+	</Title>
+	<Abstract>
+		Excessive salt craving may indicate an underlying medical condition such as Addison&apos;s disease.
+	</Abstract>
+	<Question>
+		My husband constantly craves salt. What causes this?
+	</Question>
+	<QuestionFirstName>
+		Liz
+	</QuestionFirstName>
+	<QuestionState>
+		Texas
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01583" LinkType="Internal" ObjectID="BDB2CE4B-E7FF-0DBD-1F614641F3A1FE11" Title="Adrenal fatigue: What causes it?" Url="http://www.mayoclinic.com/health/adrenal-fatigue/AN01583" />
+		<LinkItem ContentType="Disease" DocID="DS00361" LinkType="Internal" ObjectID="9C76354B-0F14-4ED1-A2A3358550A16E76" Title="Addison&apos;s disease" Url="http://www.mayoclinic.com/health/addisons-disease/DS00361" />
+	</RelatedLinksBox>
+</Answer>

@@ -1,0 +1,241 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00277
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/postherpetic-neuralgia/DS00277
+		</OriginalURL>
+		<UpdateDate>
+			2012-11-13
+		</UpdateDate>
+		<PublicationDate>
+			2000-12-06
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2370" Title="Shingles">
+							<Keyword MCVID="2797" Title="Postherpetic neuralgia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			65A60A8A-0189-4BF0-BECFCC731699401B
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				postherpetic neuralgia
+			</MetaKeyword>
+			<MetaKeyword>
+				postherpetic
+			</MetaKeyword>
+			<MetaKeyword>
+				PHN
+			</MetaKeyword>
+			<MetaKeyword>
+				shingles
+			</MetaKeyword>
+			<MetaKeyword>
+				chickenpox
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			1
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Postherpetic neuralgia (post-her-PET-ic noo-RAL-jah) is a complication of shingles, which is caused by the chickenpox (herpes zoster) virus. Most cases of shingles clear up within a few weeks. But if the pain lasts long after the shingles rash and blisters have disappeared, it&apos;s called postherpetic neuralgia. 
+&lt;/p&gt;
+&lt;p&gt;
+Postherpetic neuralgia affects your nerve fibers and skin, and the burning pain associated with postherpetic neuralgia can be severe enough to interfere with sleep and appetite. The risk of postherpetic neuralgia increases with age, primarily affecting people older than 60. The area affected also makes a difference. When shingles occurs on the face, for example, the likelihood of postherpetic neuralgia is significantly higher than for other parts of the body. 
+&lt;/p&gt;
+&lt;p&gt;
+Currently, there&apos;s no cure for postherpetic neuralgia, but there are treatment options to ease symptoms. For most people, postherpetic neuralgia improves over time. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of postherpetic neuralgia are generally limited to the area of your skin where the shingles outbreak first occurred &amp;mdash; most commonly in a band around your trunk, usually on just one side of your body. 
+&lt;/p&gt;
+&lt;p&gt;
+Signs and symptoms may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Pain.&lt;/strong&gt; The pain associated with postherpetic neuralgia most commonly has been described as burning, sharp and jabbing, or deep and aching.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensitivity to light touch.&lt;/strong&gt; People who have postherpetic neuralgia often cannot bear even the touch of clothing on the affected skin, a condition called allodynia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Itching and numbness.&lt;/strong&gt; Less commonly, postherpetic neuralgia can produce an itchy feeling or numbness.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Weakness or paralysis.&lt;/strong&gt; In rare cases, you might also experience muscle weakness or paralysis if the nerves involved also control muscle movement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+See a doctor at the first sign of shingles. Often the pain starts before you notice a rash. Your risk of developing postherpetic neuralgia is cut in half if you begin taking antiviral medications within 72 hours of developing the shingles rash. While steroids are sometimes prescribed for a more rapid resolution of the shingles rash and to provide short-term pain relief, their role in preventing postherpetic neuralgia has not been proved. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Once you&apos;ve had chickenpox, the virus that caused it remains in your body for the rest of your life. As you grow older, the virus can reactivate. Sometimes this occurs when your body is stressed &amp;mdash; because of another infection or due to medications that suppress your immune system, for example. The result is shingles. Because you have some immunity against the virus, rather than getting a full body rash, the rash occurs in areas of skin supplied by the nerve where the virus is reactivated. 
+&lt;/p&gt;
+&lt;p&gt;
+Postherpetic neuralgia occurs if your nerve fibers are damaged during an outbreak of shingles. Damaged fibers aren&apos;t able to send messages from your skin to your brain as they normally do. Instead, the messages become confused and exaggerated, causing chronic, often excruciating pain that may persist for months &amp;mdash; or even years. 
+&lt;/p&gt;
+			</HTML>
+			<Flash Height="510" ObjectID="B3668E61-E7FF-0DBD-12395CEE78CBEFDA" URI="/flash/popup/sn6_shingles.swf" Width="410">
+				<Title>
+					Shingles
+				</Title>
+				<Alt />
+				<Caption />
+			</Flash>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+While you may initially talk to your family doctor about your signs and symptoms, he or she may refer you to a nerve specialist (neurologist) or a doctor who specializes in the treatment of chronic pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; &lt;br /&gt;
+Before your appointment, you might want to write a list of answers to the following questions: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What types of symptoms are you experiencing?&lt;/li&gt;
+	&lt;li&gt;When did these problems begin?&lt;/li&gt;
+	&lt;li&gt;Does anything make your symptoms better or worse?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms interfering with daily tasks?&lt;/li&gt;
+	&lt;li&gt;What medications or dietary supplements do you take?&lt;/li&gt;
+	&lt;li&gt;What treatments have you tried in the past for this pain?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+During the exam, your doctor will look at your skin and ask you about your symptoms. He or she may touch your skin in different places, to determine the borders of the affected area and any changes in the sensation of touch and temperature. 
+&lt;/p&gt;
+&lt;p&gt;
+He or she may ask you how the pain is affecting your enjoyment of life, your sleep and your interactions with others. Your doctor may also review in detail medications you may have tried for this pain, including the dosages and any side effects you experienced. It&apos;s helpful if you have collected this information prior to your appointment. Finally, he or she will review your other medical conditions and medications before determining the best course of treatment for you. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In most cases, postherpetic neuralgia can be diagnosed during the office exam. No tests are usually necessary. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There is no single treatment that relieves postherpetic neuralgia in all people. In many cases, it may take a combination of treatments to reduce the pain. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Lidocaine skin patches&lt;/strong&gt; &lt;br /&gt;
+These are small, bandage-like patches that contain the topical, pain-relieving medication lidocaine. These patches can be cut to fit only the affected area. You apply the patches, available by prescription, directly to painful skin to deliver temporary relief. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Capsaicin skin patches&lt;/strong&gt; &lt;br /&gt;
+These patches contain a very high concentration of an extract of chili peppers (capsaicin), which can be effective at relieving the nerve pain of postherpetic neuralgia. Capsaicin is available as a low-concentration cream over-the-counter and can improve pain over several weeks if the application is tolerated &amp;mdash; it causes a burning sensation in many people. The capsaicin skin patch is a much higher concentration and is given only in your doctor&apos;s office by trained personnel after first applying a numbing medication to the affected area. The process takes at least two hours, but a single application is effective in decreasing pain for some people for up to three months. If effective, the application process can be repeated every three months. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Anticonvulsants&lt;/strong&gt; &lt;br /&gt;
+Certain anti-seizure medications can lessen the pain associated with postherpetic neuralgia. These medications stabilize abnormal electrical activity in your nervous system caused by injured nerves. Doctors may prescribe gabapentin (Neurontin, Gralise), pregabalin (Lyrica) or another anticonvulsant to help control burning and pain. Side effects of these drugs include drowsiness, unclear thinking, unsteadiness and swelling in the feet. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Antidepressants&lt;/strong&gt; &lt;br /&gt;
+Certain antidepressants &amp;mdash; such as nortriptyline (Pamelor), amitriptyline, duloxetine (Cymbalta) and venlafaxine (Effexor XR) &amp;mdash; affect key brain chemicals that play a role in both depression and how your body interprets pain. Doctors often prescribe antidepressants for postherpetic neuralgia in smaller doses than they do for depression alone. Common side effects of these medications include drowsiness, dry mouth, lightheadedness and weight gain. Side effects may vary depending on the antidepressant. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Opioid painkillers&lt;/strong&gt; &lt;br /&gt;
+Some people may need prescription-strength pain medications containing tramadol (Ultram, Ryzolt, Conzip), oxycodone (Percocet, Roxicet, Tylox) or morphine. Opioids can cause mild dizziness, drowsiness, confusion and constipation. They can also be addictive. Although this risk is generally low, discuss it with your doctor. Tramadol has been linked to psychological reactions, such as emotional disturbances and suicidal thoughts. These medications should not be combined with alcohol or other drugs and may impair your ability to drive. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You may find that the following over-the-counter medications ease the pain of postherpetic neuralgia: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Capsaicin.&lt;/strong&gt; Capsaicin cream, made from the seeds of hot chili peppers, may relieve pain from postherpetic neuralgia. Capsaicin (Capzasin-P, Zostrix) can cause a burning sensation and irritate your skin, but these side effects usually disappear over time. Capsaicin cream can be very irritating if rubbed on unaffected parts of your body. Follow the application instructions carefully, including wearing gloves for application and washing your hands thoroughly after applying.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Topical analgesics and anesthetics.&lt;/strong&gt; Aspirin mixed into an absorbing cream or nonprescription-strength lidocaine cream may reduce skin hypersensitivity.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The herpes zoster vaccine (Zostavax) has been shown to decrease the risk of shingles by almost 70 percent. The vaccine has been shown to be effective and is approved by the Food and Drug Administration for adults age 50 and older and is recommended for all adults 60 and older regardless of whether they have had shingles in the past. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Postherpetic neuralgia
+	</Title>
+	<Abstract>
+		Postherpetic neuralgia &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of this painful complication of shingles.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01806" LinkType="Internal" ObjectID="E642BDDB-E7FF-0DBD-1CFC3EA0A653AB8C" Title="Shingles vaccine: Can I transmit the vaccine virus to others?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01806" />
+		<LinkItem ContentType="Answer" DocID="AN01738" LinkType="Internal" ObjectID="B48D8752-E7FF-0DBD-122DC8DD080D9C86" Title="Shingles vaccine: Should I get it?" Url="http://www.mayoclinic.com/health/shingles-vaccine/AN01738" />
+		<LinkItem ContentType="Answer" DocID="AN01944" LinkType="Internal" ObjectID="A0758334-E7FF-0DBD-118EB9FDD2AC05AC" Title="Shingles treatment: Does alcohol use affect therapy?" Url="http://www.mayoclinic.com/health/shingles-treatment/AN01944" />
+		<LinkItem ContentType="Disease" DocID="DS00098" LinkType="Internal" ObjectID="0B91C597-DAAE-4416-9ED6314A6B5F5A20" Title="Shingles" Url="http://www.mayoclinic.com/health/shingles/DS00098" />
+	</RelatedLinksBox>
+</Disease>

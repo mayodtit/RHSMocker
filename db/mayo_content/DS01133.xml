@@ -1,0 +1,379 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS01133
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/liver-problems/DS01133
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-16
+		</UpdateDate>
+		<PublicationDate>
+			2009-03-20
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="1841" Title="Liver" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A8C21C70-CC99-DB91-BE417AAA3BEA680D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				liver problems
+			</MetaKeyword>
+			<MetaKeyword>
+				symptoms of liver problems
+			</MetaKeyword>
+			<MetaKeyword>
+				liver problems symptoms
+			</MetaKeyword>
+			<MetaKeyword>
+				signs of liver problems
+			</MetaKeyword>
+			<MetaKeyword>
+				liver disease
+			</MetaKeyword>
+			<MetaKeyword>
+				liver damage
+			</MetaKeyword>
+			<MetaKeyword>
+				liver pain
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Liver problems include a wide range of diseases and conditions that can affect your liver. Your liver is an organ about the size of a football that sits just under your rib cage on the right side of your abdomen. Without your liver, you couldn&apos;t digest food and absorb nutrients, get rid of toxic substances from your body or stay alive. 
+&lt;/p&gt;
+&lt;p&gt;
+Liver problems can be inherited, or liver problems can occur in response to viruses and chemicals. Some liver problems are temporary and go away on their own, while other liver problems can last for a long time and lead to serious complications. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of liver problems showing normal and diseased livers 
+" Caption="Liver problems that can occur include fatty liver disease and cirrhosis. The liver and its cells &amp;mdash; as seen through a microscope &amp;mdash; change dramatically when a normal liver becomes fatty or cirrhotic. 
+" Height="60" Title="Liver problems" URI="/images/image_popup/thumbs/d7_normalfattycirroticthu.jpg" Width="60" />
+				<Image Alt="Image of liver problems showing normal and diseased livers 
+" Caption="Liver problems that can occur include fatty liver disease and cirrhosis. The liver and its cells &amp;mdash; as seen through a microscope &amp;mdash; change dramatically when a normal liver becomes fatty or cirrhotic. 
+" Height="365" Title="Liver problems" URI="/images/image_popup/d7_normalfattycirrotic.jpg" Width="400" />
+				<HTML>
+					Liver problems that can occur include fatty liver disease and cirrhosis. The liver and its cells &amp;mdash; as seen through a microscope &amp;mdash; change dramatically when a normal liver becomes fatty or ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of liver problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Discolored skin and eyes that appear yellowish&lt;/li&gt;
+	&lt;li&gt;Abdominal pain and swelling&lt;/li&gt;
+	&lt;li&gt;Itchy skin that doesn&apos;t seem to go away&lt;/li&gt;
+	&lt;li&gt;Dark urine color&lt;/li&gt;
+	&lt;li&gt;Pale stool color&lt;/li&gt;
+	&lt;li&gt;Bloody or tar-colored stool&lt;/li&gt;
+	&lt;li&gt;Chronic fatigue&lt;/li&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Loss of appetite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt; &lt;br /&gt;
+Make an appointment with your doctor if you have any persistent signs or symptoms that worry you. Seek immediate medical attention if you have abdominal pain that is so severe that you can&apos;t stay still. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="60" Title="The liver" URI="/images/image_popup/thumbs/r7_liverthu.jpg" Width="60" />
+				<Image Alt="Illustration showing the liver, located above the stomach 
+" Caption="The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+" Height="682" Title="The liver" URI="/images/image_popup/r7_liver.jpg" Width="400" />
+				<HTML>
+					The liver is your largest internal organ. About the size of a football, it&apos;s located mainly in the upper right portion of your abdomen, beneath the diaphragm and above your stomach.
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Problems that can occur in the liver include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Acute liver failure&lt;/li&gt;
+	&lt;li&gt;Alcoholic hepatitis&lt;/li&gt;
+	&lt;li&gt;Alpha-1-antitrypsin deficiency&lt;/li&gt;
+	&lt;li&gt;Autoimmune hepatitis&lt;/li&gt;
+	&lt;li&gt;Bile duct obstruction&lt;/li&gt;
+	&lt;li&gt;Chronic liver failure&lt;/li&gt;
+	&lt;li&gt;Cirrhosis&lt;/li&gt;
+	&lt;li&gt;Enlarged liver&lt;/li&gt;
+	&lt;li&gt;Gilbert&apos;s syndrome&lt;/li&gt;
+	&lt;li&gt;Hemochromatosis&lt;/li&gt;
+	&lt;li&gt;Hepatitis A&lt;/li&gt;
+	&lt;li&gt;Hepatitis B&lt;/li&gt;
+	&lt;li&gt;Hepatitis C&lt;/li&gt;
+	&lt;li&gt;Hepatitis D&lt;/li&gt;
+	&lt;li&gt;Hepatitis E&lt;/li&gt;
+	&lt;li&gt;Liver adenoma&lt;/li&gt;
+	&lt;li&gt;Liver cancer&lt;/li&gt;
+	&lt;li&gt;Liver cyst&lt;/li&gt;
+	&lt;li&gt;Liver hemangioma&lt;/li&gt;
+	&lt;li&gt;Liver nodule (focal nodular hyperplasia)&lt;/li&gt;
+	&lt;li&gt;Nonalcoholic fatty liver disease&lt;/li&gt;
+	&lt;li&gt;Parasitic infection&lt;/li&gt;
+	&lt;li&gt;Portal vein thrombosis&lt;/li&gt;
+	&lt;li&gt;Primary biliary cirrhosis&lt;/li&gt;
+	&lt;li&gt;Toxic hepatitis&lt;/li&gt;
+	&lt;li&gt;Wilson&apos;s disease&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Image of liver problems showing normal and diseased livers 
+" Caption="Liver problems that can occur include fatty liver disease and cirrhosis. The liver and its cells &amp;mdash; as seen through a microscope &amp;mdash; change dramatically when a normal liver becomes fatty or cirrhotic. 
+" Height="60" Title="Liver problems" URI="/images/image_popup/thumbs/d7_normalfattycirroticthu.jpg" Width="60" />
+				<Image Alt="Image of liver problems showing normal and diseased livers 
+" Caption="Liver problems that can occur include fatty liver disease and cirrhosis. The liver and its cells &amp;mdash; as seen through a microscope &amp;mdash; change dramatically when a normal liver becomes fatty or cirrhotic. 
+" Height="365" Title="Liver problems" URI="/images/image_popup/d7_normalfattycirrotic.jpg" Width="400" />
+				<HTML>
+					Liver problems that can occur include fatty liver disease and cirrhosis. The liver and its cells &amp;mdash; as seen through a microscope &amp;mdash; change dramatically when a normal liver becomes fatty or ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of liver problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A job that exposes you to other people&apos;s blood and body fluids&lt;/li&gt;
+	&lt;li&gt;Blood transfusion before 1992&lt;/li&gt;
+	&lt;li&gt;Body piercings&lt;/li&gt;
+	&lt;li&gt;Certain herbs and supplements&lt;/li&gt;
+	&lt;li&gt;Certain prescription medications&lt;/li&gt;
+	&lt;li&gt;Diabetes&lt;/li&gt;
+	&lt;li&gt;Heavy alcohol use&lt;/li&gt;
+	&lt;li&gt;High levels of triglycerides in your blood&lt;/li&gt;
+	&lt;li&gt;Injecting drugs using shared needles&lt;/li&gt;
+	&lt;li&gt;Obesity&lt;/li&gt;
+	&lt;li&gt;Tattoos&lt;/li&gt;
+	&lt;li&gt;Unprotected sex&lt;/li&gt;
+	&lt;li&gt;Working with chemicals or toxins without following safety precautions&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If you suspect you have a liver problem, start by seeing your family doctor or a general practitioner. If it&apos;s determined that you may have liver problems, you may be referred to a doctor who specializes in the liver (hepatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Consider taking a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions will help you make the most of your time together. List your questions from most important to least important in case time runs out. For liver problems, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my liver problems?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Are my liver problems temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;Can my liver problems be treated?&lt;/li&gt;
+	&lt;li&gt;Are there treatments to relieve my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Should I stop taking certain medications or supplements?&lt;/li&gt;
+	&lt;li&gt;Should I avoid alcohol?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions at any time during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt; &lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow more time later to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Tests and procedures used to diagnose liver problems include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A group of blood tests called liver function tests can be used to diagnose liver problems. Other blood tests can be done to look for specific liver problems or inherited conditions that affect the liver.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Imaging tests.&lt;/strong&gt; Procedures that create pictures of your liver, such as computerized tomography (CT) scans, magnetic resonance imaging (MRI) and ultrasound, can reveal liver problems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tests of liver tissue.&lt;/strong&gt; A procedure to remove tissue from your liver (liver biopsy) may help in diagnosing liver problems. Liver biopsy is most often done using a long needle inserted through the skin to extract a tissue sample (needle biopsy). The tissue sample is sent to a laboratory where it can be examined under a microscope.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Ultrasound image of a liver tumor 
+" Caption="This ultrasound shows a liver tumor. 
+" Height="60" Title="Ultrasound of liver tumor" URI="/images/image_popup/thumbs/pr7_livertumorthu.jpg" Width="60" />
+				<Image Alt="Ultrasound image of a liver tumor 
+" Caption="This ultrasound shows a liver tumor. 
+" Height="278" Title="Ultrasound of liver tumor" URI="/images/image_popup/pr7_livertumor.jpg" Width="400" />
+				<HTML>
+					This ultrasound shows a liver tumor. 
+...
+				</HTML>
+			</PopupMedia>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="60" Title="Liver biopsy" URI="/images/image_popup/thumbs/mcdc7_liver_biopsythu.jpg" Width="60" />
+				<Image Alt="Illustration of a liver biopsy 
+" Caption="A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver.
+" Height="373" Title="Liver biopsy" URI="/images/image_popup/mcdc7_liver_biopsy.jpg" Width="400" />
+				<HTML>
+					A liver biopsy is a procedure to remove a small sample of liver tissue for laboratory testing. A liver biopsy is commonly performed by inserting a thin needle through your skin and into your liver....
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment for liver problems depends on your diagnosis. Some liver problems can be treated with medications. Others may require surgery. 
+&lt;/p&gt;
+&lt;p&gt;
+Liver transplant may ultimately be required for liver problems that cause liver failure. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some herbal supplements used as alternative medicine treatments can be harmful to your liver. To protect your liver, talk with your doctor about the potential risks before you take: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Black cohosh&lt;/li&gt;
+	&lt;li&gt;Certain Chinese herbs, including ma-huang&lt;/li&gt;
+	&lt;li&gt;Chaparral&lt;/li&gt;
+	&lt;li&gt;Comfrey&lt;/li&gt;
+	&lt;li&gt;Germander&lt;/li&gt;
+	&lt;li&gt;Greater celandine&lt;/li&gt;
+	&lt;li&gt;Kava&lt;/li&gt;
+	&lt;li&gt;Mistletoe&lt;/li&gt;
+	&lt;li&gt;Pennyroyal&lt;/li&gt;
+	&lt;li&gt;Skullcap&lt;/li&gt;
+	&lt;li&gt;Valerian&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Prevent liver problems by protecting your liver. For example: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Drink alcohol in moderation, if at all.&lt;/strong&gt; Limit the amount of alcohol you drink to no more than one drink a day for women and no more than two drinks a day for men.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid risky behavior.&lt;/strong&gt; Get help if you use illicit intravenous drugs. Don&apos;t share needles used to inject drugs. If you choose to have sex, use condoms. If you choose to have tattoos or body piercings, be picky about cleanliness and safety when it comes to selecting a shop.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Get vaccinated.&lt;/strong&gt; If you&apos;re at increased risk of contracting hepatitis or if you&apos;ve already been infected with any form of the hepatitis virus, talk to your doctor about getting the hepatitis B vaccine. A vaccine is also available for hepatitis A.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use medications wisely.&lt;/strong&gt; Only use prescription and nonprescription drugs when you need them and take only the recommended doses. Don&apos;t mix medications and alcohol. Talk to your doctor before mixing herbal supplements or prescription or nonprescription drugs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid contact with other people&apos;s blood and body fluids.&lt;/strong&gt; Hepatitis viruses can be spread by accidental needle sticks or improper cleanup of blood or body fluids. It&apos;s also possible to become infected by sharing razor blades or toothbrushes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take care with aerosol sprays.&lt;/strong&gt; When you use an aerosol cleaner, make sure the room is ventilated, or wear a mask. Take similar protective measures when spraying insecticides, fungicides, paint and other toxic chemicals. Always follow the manufacturer&apos;s instructions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch what gets on your skin.&lt;/strong&gt; When using insecticides and other toxic chemicals, cover your skin with gloves, long sleeves, a hat and a mask.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Choose a healthy diet.&lt;/strong&gt; Choose a plant-based diet with a variety of fruits and vegetables. Limit high-fat foods.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Maintain a healthy weight.&lt;/strong&gt; Obesity can cause a condition called nonalcoholic fatty liver disease, which may include fatty liver, hepatitis and cirrhosis.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Liver problems
+	</Title>
+	<Abstract>
+		Liver problems &amp;mdash; Comprehensive overview covers symptoms, causes, prevention of liver diseases and conditions.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00961" LinkType="Internal" ObjectID="EFEA613D-E7FF-0DBD-137A6EA9AB492248" Title="Acute liver failure" Url="http://www.mayoclinic.com/health/liver-failure/DS00961" />
+		<LinkItem ContentType="Disease" DocID="DS00743" LinkType="Internal" ObjectID="A573D0D5-2A5D-9994-E64633398C62CD9C" Title="Gilbert&apos;s syndrome" Url="http://www.mayoclinic.com/health/gilberts-syndrome/DS00743" />
+		<LinkItem ContentType="Disease" DocID="DS00455" LinkType="Internal" ObjectID="992CA155-2D99-4C3E-BDBF4F4470FE5B8F" Title="Hemochromatosis" Url="http://www.mayoclinic.com/health/hemochromatosis/DS00455" />
+		<LinkItem ContentType="Disease" DocID="DS01125" LinkType="Internal" ObjectID="8D8F4802-E7FF-0DBD-1E2D1859EFC7A7DC" Title="Liver hemangioma" Url="http://www.mayoclinic.com/health/liver-hemangioma/DS01125" />
+		<LinkItem ContentType="Disease" DocID="DS00638" LinkType="Internal" ObjectID="8AC73C2D-2A5D-9994-EFAC339FB6AB515E" Title="Enlarged liver" Url="http://www.mayoclinic.com/health/enlarged-liver/DS00638" />
+		<LinkItem ContentType="Disease" DocID="DS00577" LinkType="Internal" ObjectID="8903EB68-8F95-4135-87D24C6EFF964A6E" Title="Nonalcoholic fatty liver disease" Url="http://www.mayoclinic.com/health/nonalcoholic-fatty-liver-disease/DS00577" />
+		<LinkItem ContentType="Disease" DocID="DS00918" LinkType="Internal" ObjectID="87E122FE-E7FF-0DBD-115C3E28106DCB54" Title="Primary sclerosing cholangitis" Url="http://www.mayoclinic.com/health/primary-sclerosing-cholangitis/DS00918" />
+		<LinkItem ContentType="Disease" DocID="DS00373" LinkType="Internal" ObjectID="810D975F-9E56-4C4C-820C7E031BC945C6" Title="Cirrhosis" Url="http://www.mayoclinic.com/health/cirrhosis/DS00373" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00949" LinkType="Internal" ObjectID="BF094DD4-EB8C-F3AC-12068A1EC5AE889B" Title="Liver biopsy" Url="http://www.mayoclinic.com/health/liver-biopsy/MY00949" />
+		<LinkItem ContentType="Answer" DocID="AN00148" LinkType="Internal" ObjectID="D60E4526-FF0F-4B58-8A2D80962D176998" Title="Liver cysts: A cause of abdominal pain?" Url="http://www.mayoclinic.com/health/liver-cysts/AN00148" />
+	</RelatedLinksBox>
+</Disease>

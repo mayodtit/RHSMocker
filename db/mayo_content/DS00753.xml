@@ -1,0 +1,198 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00753
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/sacral-dimple/DS00753
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-24
+		</UpdateDate>
+		<PublicationDate>
+			2006-05-16
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1158" Title="Skin hair and nails">
+					<Keyword MCVID="1838" Title="Skin">
+						<Keyword MCVID="2880" Title="Sacral dimple" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3875717B-2A5D-9994-EDA7DC60EB92F7FE
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				sacral dimple
+			</MetaKeyword>
+			<MetaKeyword>
+				pilonidal dimple
+			</MetaKeyword>
+			<MetaKeyword>
+				lower back pit
+			</MetaKeyword>
+			<MetaKeyword>
+				lower back sinus
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sacral dimple is an indentation, present at birth, in the skin on the lower back. It&apos;s usually located just above the crease between the buttocks. Most sacral dimples are harmless and don&apos;t require any treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Sacral dimples that are accompanied by a nearby tuft of hair, skin tag or certain types of skin discoloration are sometimes associated with a serious underlying abnormality of the spine or spinal cord. In these instances, your child&apos;s doctor may recommend an imaging test. If an abnormality is discovered, treatment depends on the underlying cause.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing sacral dimple 
+" Caption="A sacral dimple is an indentation in the skin on the lower back &amp;mdash; usually just above the crease between the buttocks. Most sacral dimples are small and shallow. 
+" Height="60" Title="Sacral dimple" URI="/images/image_popup/thumbs/r7_sacraldimplethu.jpg" Width="60" />
+				<Image Alt="Photograph showing sacral dimple 
+" Caption="A sacral dimple is an indentation in the skin on the lower back &amp;mdash; usually just above the crease between the buttocks. Most sacral dimples are small and shallow. 
+" Height="400" Title="Sacral dimple" URI="/images/image_popup/r7_sacraldimple.jpg" Width="400" />
+				<HTML>
+					A sacral dimple is an indentation in the skin on the lower back &amp;mdash; usually just above the crease between the buttocks. Most sacral dimples are small and shallow. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sacral dimple consists of an indentation, or &quot;pit,&quot; in the skin on the lower back, just above the crease between the buttocks.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Photograph showing sacral dimple 
+" Caption="A sacral dimple is an indentation in the skin on the lower back &amp;mdash; usually just above the crease between the buttocks. Most sacral dimples are small and shallow. 
+" Height="60" Title="Sacral dimple" URI="/images/image_popup/thumbs/r7_sacraldimplethu.jpg" Width="60" />
+				<Image Alt="Photograph showing sacral dimple 
+" Caption="A sacral dimple is an indentation in the skin on the lower back &amp;mdash; usually just above the crease between the buttocks. Most sacral dimples are small and shallow. 
+" Height="400" Title="Sacral dimple" URI="/images/image_popup/r7_sacraldimple.jpg" Width="400" />
+				<HTML>
+					A sacral dimple is an indentation in the skin on the lower back &amp;mdash; usually just above the crease between the buttocks. Most sacral dimples are small and shallow. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A sacral dimple is a congenital condition, meaning it&apos;s present at birth. There are no known causes.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Rarely, sacral dimples are associated with a serious underlying abnormality of the spine or spinal cord. Examples include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Spina bifida.&lt;/strong&gt; A very mild form of this condition, called spina bifida occulta, occurs when the spine doesn&apos;t close properly around the spinal cord but the cord remains within the spinal canal. In most cases, spina bifida occulta causes no symptoms.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tethered cord syndrome.&lt;/strong&gt; The spinal cord normally hangs freely within the spinal canal. Tethered cord syndrome is a disorder that occurs when tissue attached to the spinal cord limits its movements. Signs and symptoms may include weakness or numbness in the legs and bladder or bowel incontinence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The risks of these spinal problems increase if the sacral dimple is accompanied by a nearby tuft of hair, skin tag or certain types of skin discoloration.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In general, your child won&apos;t need to see a doctor for a sacral dimple. If you have questions about the sacral dimple, you can also bring these up at your child&apos;s routine office visits. 
+&lt;/p&gt;
+&lt;p&gt;
+Some questions you might want to ask your child&apos;s doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Does my child need any tests to be sure there&apos;s no other cause?&lt;/li&gt;
+	&lt;li&gt;Does the area need any special cleaning or care?&lt;/li&gt;
+	&lt;li&gt;Is any treatment necessary?&lt;/li&gt;
+	&lt;li&gt;Is a sacral dimple ever associated with more serious conditions?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Sacral dimples are present at birth and are evident during an infant&apos;s initial physical exam. In most cases, further testing is unnecessary. However, if the dimple is very large or is accompanied by a nearby tuft of hair, skin tag or certain types of skin discoloration, your doctor may suggest imaging tests to rule out spinal cord problems. 
+&lt;/p&gt;
+&lt;p&gt;
+These tests may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; This noninvasive procedure uses high-frequency sound waves to produce images of structures of the body.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Magnetic resonance imaging (MRI).&lt;/strong&gt; If more detail is needed, your doctor may recommend an MRI, which uses radio waves and a strong magnetic field to create cross-sectional images of the body.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Treatment is unnecessary for a simple sacral dimple.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Sacral dimple
+	</Title>
+	<Abstract>
+		Sacral dimple &amp;mdash; Comprehensive overview covers complications, treatment of this indentation on the lower back.
+	</Abstract>
+	<BenefitSummary />
+</Disease>

@@ -1,0 +1,101 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN01006
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/digestive-system/AN01006
+		</OriginalURL>
+		<UpdateDate>
+			2011-02-19
+		</UpdateDate>
+		<PublicationDate>
+			2005-02-01
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1137" Title="Digestive system">
+					<Keyword MCVID="2937" Title="General" />
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			242762BC-2EB2-4E5D-B0568BC3F5F6C615
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				digestive
+			</MetaKeyword>
+			<MetaKeyword>
+				gum
+			</MetaKeyword>
+			<MetaKeyword>
+				chewing gum
+			</MetaKeyword>
+			<MetaKeyword>
+				digestive system
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+Although chewing gum is designed to be chewed and not swallowed, it generally isn&apos;t harmful if swallowed. Folklore suggests that swallowed gum sits in your stomach for seven years before it can be digested. But this isn&apos;t true. If you swallow gum, it&apos;s true that your body can&apos;t digest it. But the gum doesn&apos;t stay in your stomach. It progresses relatively intact through your digestive system and is excreted in your stool. 
+&lt;/p&gt;
+&lt;p&gt;
+On rare occasions, large amounts of swallowed gum combined with constipation have caused intestinal blockage in children. It&apos;s for this reason that frequent swallowing of chewing gum should be discouraged, especially in children. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Swallowing gum: Is it harmful?
+	</Title>
+	<Abstract>
+		Your body can&apos;t digest chewing gum. So what happens when you swallow it?
+	</Abstract>
+	<Question>
+		My 6-year-old daughter accidentally swallowed a wad of chewing gum. Should I be concerned?
+	</Question>
+	<QuestionFirstName>
+		Julia
+	</QuestionFirstName>
+	<QuestionState>
+		Malaysia
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="NU00189" LinkType="Internal" ObjectID="798C64B2-0E87-4E72-80AF785F035FE2BC" Title="Stomach noise: What makes my stomach growl?" Url="http://www.mayoclinic.com/health/stomach-noise/NU00189" />
+		<LinkItem ContentType="SlideShow" DocID="DG00021" LinkType="Internal" ObjectID="4B925B3C-AF92-4377-94FD4524605D68C4" Title="Slide show: See how your digestive system works" Url="http://www.mayoclinic.com/health/digestive-system/DG00021" />
+		<LinkItem ContentType="Answer" DocID="AN00896" LinkType="Internal" ObjectID="23E568F4-2B23-4E4E-B9ECC092B06F5730" Title="Digestion: How long does it take?" Url="http://www.mayoclinic.com/health/digestive-system/AN00896" />
+	</RelatedLinksBox>
+</Answer>

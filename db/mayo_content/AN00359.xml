@@ -1,0 +1,114 @@
+<Answer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Answer.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Answer
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			AN00359
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/barrel-chest/AN00359
+		</OriginalURL>
+		<UpdateDate>
+			2013-02-06
+		</UpdateDate>
+		<PublicationDate>
+			2002-08-12
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1151" Title="Lungs and respiratory system">
+					<Keyword MCVID="2195" Title="Chronic lung">
+						<Keyword MCVID="2430" Title="COPD" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			47717326-86A6-4154-9079FE8BC353B270
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				barrel chest
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead />
+			<HTML>
+				&lt;p&gt;
+The term &quot;barrel chest&quot; describes a rounded, bulging chest that resembles the shape of a barrel. Barrel chest isn&apos;t a disease, but it may indicate an underlying condition. 
+&lt;/p&gt;
+&lt;p&gt;
+Barrel chest most commonly relates to osteoarthritis as you age. Arthritis can stiffen the joints where the ribs attach to the spine, not unlike what happens to aging finger joints. The ribs become fixed in their most expanded position, causing the appearance of a barrel chest. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people who have chronic obstructive pulmonary disease &amp;mdash; such as emphysema &amp;mdash; develop a slight barrel chest in the later stages of the disease. It occurs because the lungs are chronically overinflated with air, so the rib cage stays partially expanded all the time. This makes breathing less efficient and aggravates shortness of breath. 
+&lt;/p&gt;
+&lt;p&gt;
+Generally, barrel chest itself isn&apos;t treated, but when the cause is severe emphysema, the underlying disease is treated 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Barrel chest: What causes it?
+	</Title>
+	<Abstract>
+		Barrel chest isn&apos;t a disease, but it may indicate an underlying condition.
+	</Abstract>
+	<Question>
+		What causes barrel chest?
+	</Question>
+	<QuestionFirstName>
+		No name
+	</QuestionFirstName>
+	<QuestionState>
+		No state given
+	</QuestionState>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN00708" LinkType="Internal" ObjectID="32BEFE18-8A7A-4254-9C275CBCEF11735A" Title="Emphysema: Does cold weather make it worse?" Url="http://www.mayoclinic.com/health/emphysema/AN00708" />
+		<LinkItem ContentType="Answer" DocID="AN00684" LinkType="Internal" ObjectID="02CE1B11-68EE-4669-AC55DBA8788E9C46" Title="Hyperinflated lungs: What does it mean?" Url="http://www.mayoclinic.com/health/hyperinflated-lungs/AN00684" />
+		<LinkItem ContentType="Disease" DocID="DS00296" LinkType="Internal" ObjectID="C585E4B1-9390-48CE-8A709FFA1BF33DF7" Title="Emphysema" Url="http://www.mayoclinic.com/health/emphysema/DS00296" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00106" LinkType="Internal" ObjectID="C016ACE8-E7FF-0DBD-1F1C3E530B8ACD1B" Title="Lung transplant" Url="http://www.mayoclinic.com/health/lung-transplant/MY00106" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00413" LinkType="Internal" ObjectID="B14D4995-E7FF-0DBD-1E98F85183EE3B1D" Title="Spirometry" Url="http://www.mayoclinic.com/health/spirometry/MY00413" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00309" LinkType="Internal" ObjectID="9AF2EE2C-E7FF-0DBD-1A8FCA94CE9B1305" Title="CT scan" Url="http://www.mayoclinic.com/health/ct-scan/MY00309" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00297" LinkType="Internal" ObjectID="960657DF-E7FF-0DBD-1CFE7479BA34595B" Title="Chest X-rays" Url="http://www.mayoclinic.com/health/chest-x-rays/MY00297" />
+		<LinkItem ContentType="Answer" DocID="AN01974" LinkType="Internal" ObjectID="432B7FD2-A2A2-2EA0-8B6FA7F6B151F721" Title="Air pollution and exercise: Is outdoor exercise risky?" Url="http://www.mayoclinic.com/health/air-pollution-and-exercise/AN01974" />
+		<LinkItem ContentType="Article" DocID="MY01051" LinkType="Internal" ObjectID="C54EEF9A-ECA5-FA6C-BEE95E1CE255ECCE" Title="Palliative care: Symptom relief during illness" Url="http://www.mayoclinic.com/health/palliative-care/MY01051" />
+		<LinkItem ContentType="Article" DocID="HI00062" LinkType="Internal" ObjectID="6DF4F95D-E7FF-0DBD-1306F218EC685233" Title="High blood pressure dangers: Hypertension&apos;s effects on your body" Url="http://www.mayoclinic.com/health/high-blood-pressure/HI00062" />
+		<LinkItem ContentType="Article" DocID="MY00781" LinkType="Internal" ObjectID="5C2B0722-A345-B26A-941F357405C4BA43" Title="Quit-smoking products: Boost your chance of quitting for good" Url="http://www.mayoclinic.com/health/quit-smoking-products/MY00781" />
+		<LinkItem ContentType="Article" DocID="CC00023" LinkType="Internal" ObjectID="055661AE-8008-40C8-A8526ED085B5CCC1" Title="Secondhand smoke: Avoid dangers in the air" Url="http://www.mayoclinic.com/health/secondhand-smoke/CC00023" />
+		<LinkItem ContentType="Disease" DocID="DS00957" LinkType="Internal" ObjectID="EFE89F8B-E7FF-0DBD-1AFD5B761ED9CE9C" Title="Chronic cough" Url="http://www.mayoclinic.com/health/chronic-cough/DS00957" />
+		<LinkItem ContentType="Disease" DocID="DS00307" LinkType="Internal" ObjectID="E730A942-E51B-4419-950BE71044E9F4AF" Title="Nicotine dependence" Url="http://www.mayoclinic.com/health/nicotine-dependence/DS00307" />
+		<LinkItem ContentType="Disease" DocID="DS00430" LinkType="Internal" ObjectID="502E2D0B-7233-4C92-8FC84A836BF3811D" Title="Pulmonary hypertension" Url="http://www.mayoclinic.com/health/pulmonary-hypertension/DS00430" />
+		<LinkItem ContentType="Disease" DocID="DS00967" LinkType="Internal" ObjectID="0AB1073D-E7FF-0DBD-166CDBDA5B87C689" Title="GERD" Url="http://www.mayoclinic.com/health/gerd/DS00967" />
+		<LinkItem ContentType="Disease" DocID="DS00916" LinkType="Internal" ObjectID="87E06ADB-E7FF-0DBD-12B87DD57BBF25D9" Title="COPD" Url="http://www.mayoclinic.com/health/copd/DS00916" />
+	</RelatedLinksBox>
+</Answer>

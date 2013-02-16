@@ -1,0 +1,250 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00982
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/lumbar-puncture/MY00982
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-20
+		</UpdateDate>
+		<PublicationDate>
+			2010-01-23
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3645" Title="Test">
+					<Keyword MCVID="3851" Title="Nervous system">
+						<Keyword MCVID="3066" Title="Lumbar puncture" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			24F2CAC7-F2A4-B0E5-3F6BCF0A979CB03E
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				lumbar puncture
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal tap
+			</MetaKeyword>
+			<MetaKeyword>
+				lumber puncture
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal tap procedure
+			</MetaKeyword>
+			<MetaKeyword>
+				lumbar puncture side effects
+			</MetaKeyword>
+			<MetaKeyword>
+				cerebrospinal fluid analysis
+			</MetaKeyword>
+			<MetaKeyword>
+				spinal fluid analysis
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lumbar puncture (spinal tap) is performed in your lower back, in the lumbar region. During lumbar puncture, a needle is inserted between two lumbar bones (vertebrae) to remove a sample of cerebrospinal fluid &amp;mdash; the fluid that surrounds your brain and spinal cord to protect them from injury. 
+&lt;/p&gt;
+&lt;p&gt;
+A lumbar puncture can help diagnose serious infections, such as meningitis; disorders of the central nervous system, such as Guillain-Barre syndrome and multiple sclerosis; or cancers of the brain or spinal cord. Sometimes doctors use lumbar puncture to inject anesthetic medications or chemotherapy drugs into the cerebrospinal fluid.
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lumbar puncture (spinal tap) 
+" Caption="During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;mdash; to collect cerebrospinal fluid for testing. 
+" Height="60" Title="Lumbar puncture (spinal tap)" URI="/images/image_popup/thumbs/ans7_lumbar_puncturethu.jpg" Width="60" />
+				<Image Alt="Illustration of lumbar puncture (spinal tap) 
+" Caption="During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;mdash; to collect cerebrospinal fluid for testing. 
+" Height="399" Title="Lumbar puncture (spinal tap)" URI="/images/image_popup/ans7_lumbar_puncture.jpg" Width="400" />
+				<HTML>
+					During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lumbar puncture may be done to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Collect cerebrospinal fluid for laboratory analysis&lt;/li&gt;
+	&lt;li&gt;Measure the pressure of your cerebrospinal fluid&lt;/li&gt;
+	&lt;li&gt;Inject spinal anesthetics, chemotherapy drugs or other medications&lt;/li&gt;
+	&lt;li&gt;Inject dye (myelography) or radioactive substances (cisternography) into cerebrospinal fluid to make diagnostic images of the fluid&apos;s flow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Information gathered from a lumbar puncture can help diagnose: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Serious bacterial, fungal and viral infections, including meningitis, encephalitis and syphilis&lt;/li&gt;
+	&lt;li&gt;Bleeding around the brain (subarachnoid hemorrhage)&lt;/li&gt;
+	&lt;li&gt;Certain cancers involving the brain or spinal cord&lt;/li&gt;
+	&lt;li&gt;Certain inflammatory conditions of the nervous system, such as multiple sclerosis and Guillain-Barre syndrome&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Though lumbar puncture is generally recognized as safe, it does carry some risks. These include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Post-lumbar puncture headache.&lt;/strong&gt; About 40 percent of people who have undergone a lumbar puncture develop a headache afterward due to a leak of fluid into nearby tissues. The headache typically starts several hours up to two days after the procedure and may be accompanied by nausea, vomiting and dizziness. Post-lumbar puncture headaches can last from a few hours to a week or more.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Back discomfort or pain.&lt;/strong&gt; You may feel pain or tenderness in your lower back after the procedure. The pain might radiate down the back of your legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; Bleeding may occur near the puncture site or, rarely, into the epidural space.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Brainstem herniation.&lt;/strong&gt; Increased pressure within the skull (intracranial), due to a brain tumor or other space-occupying lesion, can lead to compression of the brainstem after a sample of cerebrospinal fluid is removed. A computerized tomography (CT) scan or MRI prior to a lumbar puncture can be obtained to determine if there is evidence of increased intracranial pressure. This complication is uncommon.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before your lumbar puncture, your doctor asks questions about your medical history, does a physical exam, and orders blood tests to check if you have any bleeding or clotting disorders. Your doctor may also recommend a CT scan to determine if you have any abnormal swelling in or around your brain.
+&lt;/p&gt;
+&lt;p&gt;
+Tell your doctor if you&apos;re taking blood-thinning or other anticoagulant medications. Examples include warfarin (Coumadin, Jantoven), clopidogrel (Plavix), and some over-the-counter pain relievers such as aspirin, ibuprofen (Advil, Motrin, others) or naproxen (Aleve). Also, tell your doctor if you&apos;re allergic to any medications, such as numbing medications (local anesthetics). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Lumbar puncture is usually done in an outpatient facility or a hospital. You&apos;re asked to change into a hospital gown. Then, you lie on your side with your knees drawn up to your chest or sit, leaning forward on a stable surface. These positions flex your back, widening the spaces between your vertebrae and making it easier for your doctor to insert the needle. Your back is washed with antiseptic soap or iodine and covered with a sterile sheet.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A local anesthetic is injected into your lower back to numb the puncture site before the needle is inserted. The local anesthetic will sting briefly as it&apos;s injected.&lt;/li&gt;
+	&lt;li&gt;A thin, hollow needle is inserted between the two lower vertebrae (lumbar region), through the spinal membrane (dura) and into the spinal canal. You may feel pressure in your back during this part of the procedure.&lt;/li&gt;
+	&lt;li&gt;Once the needle is in place, you may be asked to change your position slightly.&lt;/li&gt;
+	&lt;li&gt;The cerebrospinal fluid pressure is measured, a small amount of fluid is withdrawn, and the pressure is measured again. If needed, a drug or substance is injected.&lt;/li&gt;
+	&lt;li&gt;The needle is removed and the puncture site is covered with a bandage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The procedure usually lasts about 45 minutes. Your doctor may suggest lying down after the procedure.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Plan to rest.&lt;/strong&gt; Don&apos;t participate in strenuous activities the day of your procedure. You may return to work if your job doesn&apos;t require you to be physically active. Discuss your activities with your doctor if you have questions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a pain medication.&lt;/strong&gt; A nonprescription, pain-relieving medication that contains acetaminophen can help reduce headache or back pain.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration of lumbar puncture (spinal tap) 
+" Caption="During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;mdash; to collect cerebrospinal fluid for testing. 
+" Height="60" Title="Lumbar puncture (spinal tap)" URI="/images/image_popup/thumbs/ans7_lumbar_puncturethu.jpg" Width="60" />
+				<Image Alt="Illustration of lumbar puncture (spinal tap) 
+" Caption="During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;mdash; to collect cerebrospinal fluid for testing. 
+" Height="399" Title="Lumbar puncture (spinal tap)" URI="/images/image_popup/ans7_lumbar_puncture.jpg" Width="400" />
+				<HTML>
+					During a lumbar puncture (spinal tap) procedure, you typically lie on your side with your knees drawn up to your chest. Then a needle is inserted into your spinal canal &amp;mdash; in your lower back &amp;...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The spinal fluid samples are sent to a laboratory for analysis. Lab technicians check for a number of things when examining spinal fluid, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;General appearance.&lt;/strong&gt; Spinal fluid is normally clear and colorless. If it&apos;s cloudy, yellow or pink in color, it may indicate infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Protein (total protein and the presence of certain proteins).&lt;/strong&gt; Elevated levels of total protein &amp;mdash; greater than 45 milligrams per deciliter (mg/dL) &amp;mdash; may indicate infection or another inflammatory condition. Specific lab values may vary from medical facility to medical facility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;White blood cells.&lt;/strong&gt; Spinal fluid normally contains up to 5 mononuclear leukocytes (white blood cells) per microliter. Increased numbers may indicate infection. Specific lab values may vary from medical facility to medical facility.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sugar (glucose).&lt;/strong&gt; A low glucose level in spinal fluid may indicate infection or another condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Microorganisms.&lt;/strong&gt; The presence of bacteria, viruses, fungi or other microorganisms can indicate infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer cells.&lt;/strong&gt; The presence of abnormal cells in spinal fluid &amp;mdash; such as tumor or immature blood cells &amp;mdash; can indicate certain types of cancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Lab results are combined with information obtained during the test, such as spinal fluid pressure, to help establish a possible diagnosis.
+&lt;/p&gt;
+&lt;p&gt;
+Your health care provider generally gives you the results within a few days, but it could take longer. Ask your doctor when he or she expects to receive the results of your test.
+&lt;/p&gt;
+&lt;p&gt;
+Write down questions that you want to ask your doctor. Don&apos;t hesitate to ask questions or to speak up when you don&apos;t understand something your doctor says. Questions you may want to ask include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Based on the results, what are my next steps?&lt;/li&gt;
+	&lt;li&gt;What kind of follow-up, if any, should I expect?&lt;/li&gt;
+	&lt;li&gt;Are there any factors that might have affected the results of this test, and therefore may have altered the results?&lt;/li&gt;
+	&lt;li&gt;Will I need to repeat the test at some point?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Lumbar puncture (spinal tap)
+	</Title>
+	<Abstract>
+		Lumbar puncture (spinal tap) &amp;mdash; Overview covers definition, risks and results of this procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00536" LinkType="Internal" ObjectID="001C048C-C6B3-471D-CEDCB0E94EC18648" Title="Chemotherapy" Url="http://www.mayoclinic.com/health/chemotherapy/MY00536" />
+		<LinkItem ContentType="Disease" DocID="DS00188" LinkType="Internal" ObjectID="CEC491ED-C3B3-4B39-9E747386136032B4" Title="Multiple sclerosis" Url="http://www.mayoclinic.com/health/multiple-sclerosis/DS00188" />
+		<LinkItem ContentType="Disease" DocID="DS00226" LinkType="Internal" ObjectID="A63631AF-C85E-40BB-A5BD3F9EC09245C7" Title="Encephalitis" Url="http://www.mayoclinic.com/health/encephalitis/DS00226" />
+		<LinkItem ContentType="Disease" DocID="DS00413" LinkType="Internal" ObjectID="8510BDEE-6A0E-41B5-822E98B643884C0E" Title="Guillain-Barre syndrome" Url="http://www.mayoclinic.com/health/guillain-barre-syndrome/DS00413" />
+		<LinkItem ContentType="Disease" DocID="DS00374" LinkType="Internal" ObjectID="7A071D36-0044-43D3-BF62F1558C7745C0" Title="Syphilis" Url="http://www.mayoclinic.com/health/syphilis/DS00374" />
+		<LinkItem ContentType="Disease" DocID="DS00643" LinkType="Internal" ObjectID="79947B40-2A5D-9994-ECA41AE6439DA6E5" Title="Spinal headaches" Url="http://www.mayoclinic.com/health/spinal-headaches/DS00643" />
+		<LinkItem ContentType="Disease" DocID="DS00281" LinkType="Internal" ObjectID="451633E9-4EE0-472F-AF180974A8E009E9" Title="Brain tumor" Url="http://www.mayoclinic.com/health/brain-tumor/DS00281" />
+		<LinkItem ContentType="Disease" DocID="DS00594" LinkType="Internal" ObjectID="2FD98E4A-60C4-44F8-8FD03997D304FECE" Title="Spinal tumor" Url="http://www.mayoclinic.com/health/spinal-tumor/DS00594" />
+		<LinkItem ContentType="Disease" DocID="DS00582" LinkType="Internal" ObjectID="27C87FA4-C560-4F97-B5B680BD5D09F585" Title="Brain aneurysm" Url="http://www.mayoclinic.com/health/brain-aneurysm/DS00582" />
+	</RelatedLinksBox>
+</TestProcedure>

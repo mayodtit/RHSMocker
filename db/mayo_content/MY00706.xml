@@ -1,0 +1,242 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00706
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/cardiac-ablation/MY00706
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-22
+		</UpdateDate>
+		<PublicationDate>
+			2009-06-24
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3781" Title="Cardiovascular">
+						<Keyword MCVID="4389" Title="Cardiac ablation" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3A7B8711-9791-52F2-E2B504985C2BCD1D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				cardiac ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				heart ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				radiofrequency ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				catheter ablation
+			</MetaKeyword>
+			<MetaKeyword>
+				arrhythmia
+			</MetaKeyword>
+			<MetaKeyword>
+				cryoablation
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cardiac ablation is a procedure that can correct heart rhythm problems (arrhythmias). Ablation typically uses catheters &amp;mdash; long, flexible tubes inserted through a vein in your groin and threaded to your heart &amp;mdash; to correct structural problems in your heart that cause an arrhythmia. 
+&lt;/p&gt;
+&lt;p&gt;
+Cardiac ablation works by scarring or destroying tissue in your heart that triggers an abnormal heart rhythm. In some cases, ablation prevents abnormal electrical signals from traveling through your heart and thus stops the arrhythmia. 
+&lt;/p&gt;
+&lt;p&gt;
+Cardiac ablation is sometimes done through open-heart surgery, but it&apos;s often done using catheters, making the procedure less invasive and shortening recovery times. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="60" Title="Illustration showing cardiac catheter ablation" URI="/images/image_popup/thumbs/r7_cathablationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="406" Title="Cardiac catheter ablation" URI="/images/image_popup/r7_cathablation.jpg" Width="400" />
+				<HTML>
+					In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When your heart beats, the electrical impulses that cause it to contract must follow a precise pathway through your heart. Any interruption in these impulses can cause an abnormal heartbeat (arrhythmia), which can sometimes be treated with cardiac ablation. 
+&lt;/p&gt;
+&lt;p&gt;
+Ablation isn&apos;t usually your first treatment option. Ablation is a treatment option for people who: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have tried medications to treat an arrhythmia without success&lt;/li&gt;
+	&lt;li&gt;Have had serious side effects from medications to treat arrhythmias&lt;/li&gt;
+	&lt;li&gt;Have certain types of arrhythmias that respond well to ablation, such as Wolff-Parkinson-White syndrome&lt;/li&gt;
+	&lt;li&gt;Have a high risk of complications from their arrhythmia, such as sudden cardiac arrest&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Cardiac ablation does carry risks, which include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bleeding at the site where your catheter was inserted&lt;/li&gt;
+	&lt;li&gt;Damage to your blood vessels where the catheter may have scraped as it traveled to your heart&lt;/li&gt;
+	&lt;li&gt;Puncture of the heart&lt;/li&gt;
+	&lt;li&gt;Damage to your heart&apos;s electrical system, which could worsen your arrhythmia and require a pacemaker to correct&lt;/li&gt;
+	&lt;li&gt;Blood clots, which could lead to a heart attack or stroke&lt;/li&gt;
+	&lt;li&gt;Narrowing of the veins that carry blood between your lungs and heart (pulmonary vein stenosis)&lt;/li&gt;
+	&lt;li&gt;Damage to your kidneys from dye used during the procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your risk of having these complications may increase if you have diabetes or kidney disease. You also have a greater risk of complications from ablation if you&apos;re 75 or older. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll need to stop eating and drinking about eight to 12 hours before your procedure. If you take any medications, ask your doctor if you should continue taking them before your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor should let you know if you need to follow any other special instructions. In some cases you will be instructed to stop taking medications to treat a heart arrhythmia for a period of days to months before your procedure. If you have an implanted heart device, such as a pacemaker or implantable cardioverter-defibrillator, talk to your doctor to see if you need to take any special precautions. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt;&lt;br /&gt;
+Catheter ablation is performed in the hospital. Before your procedure begins, an intravenous line will be inserted in your forearm or hand, and you&apos;ll be given a sedative to help you relax. 
+&lt;/p&gt;
+&lt;p&gt;
+After your sedative takes effect, your doctor will numb a small area near a vein on your groin, neck or forearm. A needle will be inserted in the vein, and a tube called a sheath will be placed through the needle. The catheter that will be used to perform your ablation will be threaded to your heart through the sheath. A special dye that shows up on X-ray images will be injected through the catheter to help your doctor see the part of your heart that needs to be treated. 
+&lt;/p&gt;
+&lt;p&gt;
+The catheter has special electrodes at the tips that will be used during the procedure. Once your doctor finds the area of abnormal tissue that&apos;s causing your arrhythmia, he or she will aim the catheter tips at the area. Energy will travel through the catheter tips to create a scar or destroy the tissue that triggers your arrhythmia. In some cases, ablation blocks the electrical signals travelling through your heart, to stop the abnormal rhythm and allow signals to travel over a normal pathway instead. The energy used in your procedure can come from: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Radiofrequency (heat)&lt;/li&gt;
+	&lt;li&gt;Lasers&lt;/li&gt;
+	&lt;li&gt;Cryoablation (extreme cold)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Cardiac ablation usually takes three to six hours to complete, but complicated procedures may take longer. During the procedure, it&apos;s possible you&apos;ll feel some minor discomfort when the dye is injected in your catheter or when energy is run through the catheter tips. If you experience any type of severe pain or shortness of breath, you should alert the cardiologist performing the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt;&lt;br /&gt;
+Following your procedure, you&apos;ll be moved to a recovery area where you&apos;ll need to lie still for four to six hours to prevent bleeding at your catheter site. Your heartbeat and blood pressure will be monitored continuously to check for complications of the procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+Depending on your condition, you may be able to go home the same day as your procedure, or you may need to stay in the hospital for one to three days. If you go home the same day, plan to have someone else drive you home after your procedure. 
+&lt;/p&gt;
+&lt;p&gt;
+You may feel a little sore after your procedure, but the soreness shouldn&apos;t last more than a week. Most people are able to return to their normal activities within a few days of having ablation. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="60" Title="Illustration showing cardiac catheter ablation" URI="/images/image_popup/thumbs/r7_cathablationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing cardiac catheter ablation 
+" Caption="In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+" Height="406" Title="Cardiac catheter ablation" URI="/images/image_popup/r7_cathablation.jpg" Width="400" />
+				<HTML>
+					In cardiac catheter ablation, catheters are threaded through the blood vessels to the inner heart, and electrodes at the catheter tips are heated to destroy a small spot of heart tissue. 
+...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Although catheter ablation can be successful, some people need repeat procedures. You may also need to take medications, even after you&apos;ve had ablation. 
+&lt;/p&gt;
+&lt;p&gt;
+To keep your heart healthy, you may need to make lifestyle changes that improve the overall health of your heart, especially to prevent or treat conditions that can cause or worsen arrhythmias, such as high blood pressure. Your doctor may suggest that you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avoid caffeine&lt;/li&gt;
+	&lt;li&gt;Use less salt, which can help lower blood pressure&lt;/li&gt;
+	&lt;li&gt;Increase your physical activity&lt;/li&gt;
+	&lt;li&gt;Quit smoking&lt;/li&gt;
+	&lt;li&gt;Avoid drinking alcohol&lt;/li&gt;
+	&lt;li&gt;Eat heart-healthy foods and maintain a healthy weight&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Cardiac ablation
+	</Title>
+	<Abstract>
+		Cardiac ablation &amp;mdash; Overview covers risks, results of this surgery to correct heart rhythm problems.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS00923" LinkType="Internal" ObjectID="E3378F81-E7FF-0DBD-186727361BBFF2E3" Title="Wolff-Parkinson-White (WPW) syndrome" Url="http://www.mayoclinic.com/health/wolff-parkinson-white-syndrome/DS00923" />
+		<LinkItem ContentType="Disease" DocID="DS00764" LinkType="Internal" ObjectID="4565CA37-E7FF-0DBD-156F88FD6C6ED0B7" Title="Sudden cardiac arrest" Url="http://www.mayoclinic.com/health/sudden-cardiac-arrest/DS00764" />
+		<LinkItem ContentType="Disease" DocID="DS00290" LinkType="Internal" ObjectID="21BBE2B0-128D-4AA2-A5CE215065586678" Title="Heart arrhythmias" Url="http://www.mayoclinic.com/health/heart-arrhythmias/DS00290" />
+	</RelatedLinksBox>
+</TestProcedure>

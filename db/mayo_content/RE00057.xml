@@ -1,0 +1,226 @@
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Recipe.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Recipe
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			RE00057
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/healthy-recipes/RE00057
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-20
+		</UpdateDate>
+		<PublicationDate>
+			2006-10-20
+		</PublicationDate>
+		<ControlWords>
+		</ControlWords>
+		<ObjectID>
+			42F3510B-E7FF-0DBD-1E142544C1EE237D
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				mayocliniccookbook
+			</MetaKeyword>
+			<MetaKeyword>
+				healthy recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				beans
+			</MetaKeyword>
+			<MetaKeyword>
+				recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				legumes
+			</MetaKeyword>
+			<MetaKeyword>
+				meatless recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				vegetarian recipes
+			</MetaKeyword>
+			<MetaKeyword>
+				high-fiber recipes
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source>
+			This recipe is one of 150 recipes collected in &quot;The New Mayo Clinic Cookbook,&quot; published by Mayo Clinic Health Information and Oxmoor House, and winner of the 2005 James Beard award.
+		</Source>
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Title>
+		Recipe: Lima bean ragout with tomatoes and thyme
+	</Title>
+	<Abstract>
+		Lima bean ragout with tomatoes and thyme &amp;mdash; one of many healthy recipes from Mayo Clinic.
+	</Abstract>
+	<ServingInfo Label="Serves">
+		6
+	</ServingInfo>
+	<DietitianTip Label="Dietitian&apos;s tip">
+		&lt;p&gt;
+&lt;strong&gt;Dietitian&apos;s tip:&lt;/strong&gt; Also known as butter beans, fresh lima beans are creamy with a mild flavor. Keep an eye out for them at your farmers market. Fresh fava (broad) beans are a good substitute in this flavorful side dish. 
+&lt;/p&gt;
+	</DietitianTip>
+	<Directions Label="Directions">
+		&lt;p&gt;
+Bring a large saucepan 3/4 full of water to a boil. Add the lima beans and cook until just tender-crisp, about 6 minutes. Transfer with a slotted spoon to a bowl of ice water to stop the cooking. Drain and set aside. 
+&lt;/p&gt;
+&lt;p&gt;
+In a saucepan, heat 1 tablespoon of the olive oil over medium heat. Add the tomato, onion, garlic, bay leaf, thyme and salt. Saute until the vegetables soften, about 5 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+Add the stock and bring to a boil over medium-high heat. Reduce the heat to low, add the cooked lima beans and simmer, uncovered, until heated through, 2 to 3 minutes. Discard the bay leaf and transfer to a serving bowl. Drizzle with the remaining 1 tablespoon olive oil and sprinkle with the chopped parsley. 
+&lt;/p&gt;
+	</Directions>
+	<Ingredients Label="Ingredients">
+		&lt;ul&gt;
+	&lt;li&gt;4 pounds fresh lima beans, shelled, or 2 packages frozen lima beans, thawed&lt;/li&gt;
+	&lt;li&gt;2 tablespoons olive oil&lt;/li&gt;
+	&lt;li&gt;1 tomato, peeled and seeded, then diced&lt;/li&gt;
+	&lt;li&gt;1/2 yellow onion, chopped&lt;/li&gt;
+	&lt;li&gt;3 cloves garlic, minced&lt;/li&gt;
+	&lt;li&gt;1 bay leaf&lt;/li&gt;
+	&lt;li&gt;1 1/2 teaspoons chopped fresh thyme&lt;/li&gt;
+	&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+	&lt;li&gt;1 cup vegetable stock or broth&lt;/li&gt;
+	&lt;li&gt;2 tablespoons chopped fresh flat-leaf (Italian) parsley &lt;/li&gt;
+&lt;/ul&gt;
+	</Ingredients>
+	<ExchangeData>
+		<Dash Label="DASH Eating Plan Servings">
+			<Dairy Label="Dairy foods (low-fat or fat-free)" />
+			<Fats Label="Fats and oils">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Grains Label="Grains and grain products" />
+			<Meat Label="Meats, poultry and fish" />
+			<Nuts_Seeds_Drybeans Label="Nuts, seeds and dry beans">
+				1
+			</Nuts_Seeds_Drybeans>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</Dash>
+		<Diabetes Label="Diabetes Meal Plan Exchanges">
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Freefoods Label="Free foods" />
+			<Fruits Label="Fruits" />
+			<Meat Label="Meat and meat substitutes" />
+			<Milk Label="Milk and milk products" />
+			<NonStarchyVegetables Label="Nonstarchy vegetables">
+				1
+			</NonStarchyVegetables>
+			<Starches Label="Starches">
+				1
+			</Starches>
+			<Sweets Label="Sweets, desserts and other carbohydrates" />
+		</Diabetes>
+		<HWP Label="Mayo Clinic Healthy Weight Pyramid Servings">
+			<Carbs Label="Carbohydrates" />
+			<Fats Label="Fats">
+				1
+			</Fats>
+			<Fruits Label="Fruits" />
+			<Protein_Dairy Label="Protein and dairy">
+				1
+			</Protein_Dairy>
+			<Sweets Label="Sweets" />
+			<Vegetables Label="Vegetables">
+				1
+			</Vegetables>
+		</HWP>
+		<NutrientAnalysis Label="Nutritional Analysis per serving">
+			<Calories Label="Calories">
+				177
+			</Calories>
+			<Carbohydrate Label="Total carbohydrate">
+				26 g
+			</Carbohydrate>
+			<Cholesterol Label="Cholesterol">
+				0 mg
+			</Cholesterol>
+			<Fiber Label="Dietary fiber">
+				6 g
+			</Fiber>
+			<Monounsaturatedfat Label="Monounsaturated fat">
+				4 g
+			</Monounsaturatedfat>
+			<Protein Label="Protein">
+				7 g
+			</Protein>
+			<Saturatedfat Label="Saturated fat">
+				&lt; 1 g
+			</Saturatedfat>
+			<Servingsize Label="Serving size">
+				About 1/2 cup
+			</Servingsize>
+			<Sodium Label="Sodium">
+				157 mg
+			</Sodium>
+			<Sugars Label="Sugars">
+				0 g
+			</Sugars>
+			<TotalFat Label="Total fat">
+				5 g
+			</TotalFat>
+			<TransFat Label="Trans fat">
+				0 g
+			</TransFat>
+		</NutrientAnalysis>
+	</ExchangeData>
+	<Categorization>
+		<Category CategoryLabel="Special diets">
+			Meatless
+		</Category>
+		<Category CategoryLabel="Special diets">
+			High-fiber
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Healthy-carb
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Diabetes meal plan
+		</Category>
+		<Category CategoryLabel="Special diets">
+			DASH diet
+		</Category>
+		<Category CategoryLabel="Main ingredient">
+			Beans and legumes
+		</Category>
+		<Category CategoryLabel="Course">
+			Side dishes
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Weight management
+		</Category>
+		<Category CategoryLabel="Number of servings">
+			Serves 6
+		</Category>
+		<Category CategoryLabel="Meal">
+			Dinner
+		</Category>
+		<Category CategoryLabel="Special diets">
+			Heart-healthy
+		</Category>
+	</Categorization>
+</Recipe>

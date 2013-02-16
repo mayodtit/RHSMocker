@@ -1,0 +1,296 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY02017
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/dermabrasion/MY02017
+		</OriginalURL>
+		<UpdateDate>
+			2012-07-10
+		</UpdateDate>
+		<PublicationDate>
+			2012-05-25
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1127" Title="65 to 80 older" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3967" Title="Life stage">
+						<Keyword MCVID="3968" Title="Adult">
+							<Keyword MCVID="4951" Title="Dermabrasion" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			A17AC65B-B476-506E-F9A111DA92E98CA4
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				dermabrasion
+			</MetaKeyword>
+			<MetaKeyword>
+				skin resurfacing
+			</MetaKeyword>
+			<MetaKeyword>
+				acne scar removal
+			</MetaKeyword>
+			<MetaKeyword>
+				wrinkle removal
+			</MetaKeyword>
+			<MetaKeyword>
+				tattoo removal
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. After dermabrasion, the skin that grows back is usually smoother and younger looking. 
+&lt;/p&gt;
+&lt;p&gt;
+Dermabrasion can decrease the appearance of fine facial lines and improve the look of scars, such as those caused by acne. Dermabrasion can be done alone or in combination with other cosmetic procedures. 
+&lt;/p&gt;
+&lt;p&gt;
+During dermabrasion, your skin will be numbed with anesthetics. You might also have the option of taking a sedative or using general anesthesia, depending on the extent of your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Skin treated with dermabrasion will be sensitive and bright pink for several weeks. The pinkness will likely take about three months to fade. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Before, during and after dermabrasion photos
+" Caption="Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. Immediately after dermabrasion, treated skin will be red and swollen (as shown in the photo on the upper right). The skin that grows back is usually smoother and younger looking (as shown in the bottom photo). 
+" Height="60" Title="Photos before, during and after dermabrasion" URI="/images/image_popup/thumbs/mcdc7_dermabrasionthu.jpg" Width="60" />
+				<Image Alt="Before, during and after dermabrasion photos
+" Caption="Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. Immediately after dermabrasion, treated skin will be red and swollen (as shown in the photo on the upper right). The skin that grows back is usually smoother and younger looking (as shown in the bottom photo). 
+" Height="500" Title="Photos before, during and after dermabrasion" URI="/images/image_popup/mcdc7_dermabrasion.jpg" Width="400" />
+				<HTML>
+					Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. Immediately after dermabrasion, treated skin will be red and swollen (as shown in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermabrasion can be used to treat or remove: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scars caused by acne, surgery or injuries &lt;/li&gt;
+	&lt;li&gt;Fine wrinkles, especially those around the mouth &lt;/li&gt;
+	&lt;li&gt;Sun-damaged skin, including age spots &lt;/li&gt;
+	&lt;li&gt;Tattoos &lt;/li&gt;
+	&lt;li&gt;Uneven skin tone &lt;/li&gt;
+	&lt;li&gt;Swelling and redness of the nose (rhinophyma) &lt;/li&gt;
+	&lt;li&gt;Potentially precancerous skin patches (actinic keratoses) &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermabrasion can cause various side effects, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Redness and swelling.&lt;/strong&gt; After dermabrasion, treated skin will be red and swollen. Swelling will begin to decrease within a few days to one week, but might last for weeks or even months. Your new skin will be sensitive and bright pink for several weeks. The pinkness will likely take about three months to fade. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding.&lt;/strong&gt; After dermabrasion, treated skin might bleed a little. With proper skin care, bleeding will stop on its own. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acne.&lt;/strong&gt; You might notice tiny white bumps (milia) on treated skin. These bumps usually disappear on their own or with the use of soap or an abrasive pad. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged pores.&lt;/strong&gt; Dermabrasion might cause your pores to grow larger. Typically, pores shrink to near normal size after any swelling decreases. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Changes in skin color.&lt;/strong&gt; Dermabrasion often causes treated skin to temporarily become darker than normal (hyperpigmentation), lighter than normal (hypopigmentation) or blotchy. These problems are more common in people who have darker skin and can sometimes be permanent. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infection.&lt;/strong&gt; Rarely, dermabrasion can lead to a bacterial, fungal or viral infection, such as a flare-up of the herpes virus &amp;mdash; the virus that causes cold sores.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Scarring.&lt;/strong&gt; Rarely, dermabrasion that&apos;s done too deeply can cause scarring. Steroid medications can be used to soften the appearance of these scars. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other skin reactions.&lt;/strong&gt; If you often develop allergic skin rashes or other skin reactions, dermabrasion might cause your skin to flare up. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Also, keep in mind that dermabrasion might cause freckles to disappear from treated areas. 
+&lt;/p&gt;
+&lt;p&gt;
+Dermabrasion isn&apos;t for everyone. Your doctor might caution against dermabrasion if you: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Have taken the acne medication isotretinoin (Amnesteem, others) in the past year&lt;/li&gt;
+	&lt;li&gt;Have a personal or family history of ridged areas caused by an overgrowth of scar tissue (keloids)&lt;/li&gt;
+	&lt;li&gt;Have acne or another pus-containing skin condition (pyoderma) &lt;/li&gt;
+	&lt;li&gt;Have recurrent herpes simplex infections&lt;/li&gt;
+	&lt;li&gt;Have burn scars or skin that&apos;s been damaged by radiation treatments&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Before you have dermabrasion, your doctor will likely: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Review your medical history.&lt;/strong&gt; Be prepared to answer questions about current and past medical conditions and any medications you&apos;re taking or have taken recently, as well as any cosmetic procedures you&apos;ve had in the past. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Do a physical exam.&lt;/strong&gt; Your doctor will inspect your skin and the area to be treated. This will help him or her determine what changes can be made and how your physical features &amp;mdash; for example, the tone and thickness of your skin &amp;mdash; might affect your results. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Discuss your expectations.&lt;/strong&gt; Talk with your doctor about your motivations and expectations, as well as the potential risks. Make sure you understand how long it&apos;ll take to heal and what your results might be. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before dermabrasion, you might also need to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Stop using certain medications.&lt;/strong&gt; Before having dermabrasion, your doctor might recommend stopping blood thinners and any medications that cause skin to become darker than normal (hyperpigmentation). &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stop smoking.&lt;/strong&gt; If you smoke, your doctor might ask you to stop smoking for a week or two before and after dermabrasion. Smoking decreases blood flow in the skin and can slow the healing process.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an antiviral medication.&lt;/strong&gt; Your doctor will likely prescribe an antiviral medication before and after treatment to help prevent a viral infection.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take an oral antibiotic.&lt;/strong&gt; If you have acne, your doctor might recommend taking an oral antibiotic around the time of the procedure to help prevent a bacterial infection. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Use a retinoid cream.&lt;/strong&gt; Your doctor might recommend using a retinoid cream (tretinoin) for a few weeks before treatment to promote healing. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid unprotected sun exposure.&lt;/strong&gt; Too much sun up to two months before the procedure can cause permanent irregular pigmentation in treated areas. Discuss sun protection and acceptable sun exposure with your doctor. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Arrange for a ride home.&lt;/strong&gt; If you&apos;ll be sedated or have general anesthesia during dermabrasion, you&apos;ll need help getting home after the procedure. &lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Dermabrasion is typically done in an office-based procedure room or outpatient surgical facility. However, if you&apos;re having extensive work done, dermabrasion might be done in a hospital. 
+&lt;/p&gt;
+&lt;p&gt;
+Before the procedure, a member of your health care team will clean your face, cover your eyes and mark the area to be treated. A topical anesthetic might be rubbed on your skin to decrease sensation. Then your skin will be numbed with local anesthetics. 
+&lt;/p&gt;
+&lt;p&gt;
+You might have the option of taking a sedative or using general anesthesia, depending on the extent of your treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;During the procedure&lt;/strong&gt; &lt;br /&gt;
+During dermabrasion, a member of your health care team will hold your skin taut. Your doctor will move the dermabrader &amp;mdash; a small motorized device with an abrasive wheel or brush for a tip &amp;mdash; across your skin with constant, gentle pressure. He or she will carefully remove the outer layers of skin to reveal new, smoother skin. 
+&lt;/p&gt;
+&lt;p&gt;
+Dermabrasion can take a few minutes to more than an hour, depending on how much skin is being treated. If you have deep scarring or you&apos;re having a large amount of skin treated, you might have dermabrasion done more than once or in stages. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After the procedure&lt;/strong&gt; &lt;br /&gt;
+After dermabrasion, treated skin will be covered with a moist, nonstick dressing. You&apos;ll likely schedule a checkup 24 hours after treatment so that your doctor can examine your skin and change your dressing. 
+&lt;/p&gt;
+&lt;p&gt;
+At home, change your dressing once a day for about five days or as long as your doctor recommends. Then you can begin regularly cleaning the treated area and applying protective ointments, such as petroleum jelly. 
+&lt;/p&gt;
+&lt;p&gt;
+While you&apos;re healing: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Treated skin will be red and swollen. &lt;/li&gt;
+	&lt;li&gt;You&apos;ll likely feel some burning, tingling or aching. &lt;/li&gt;
+	&lt;li&gt;Treated skin might ooze a yellowish liquid. &lt;/li&gt;
+	&lt;li&gt;A scab or crust will form over treated skin as it begins to heal. &lt;/li&gt;
+	&lt;li&gt;The growth of new skin might be itchy. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You might have difficulty eating or speaking if the treated area is close to your mouth. Eating soft foods can reduce stress on your skin. 
+&lt;/p&gt;
+&lt;p&gt;
+To relieve pain after the procedure, your doctor might prescribe pain medication, such as acetaminophen with codeine (Tylenol-Codeine No. 3, others). 
+&lt;/p&gt;
+&lt;p&gt;
+You might prefer to remain at home while you&apos;re healing from dermabrasion. Keep treated areas out of chlorinated water for at least four weeks. Your doctor might recommend avoiding active sports &amp;mdash; especially those involving a ball &amp;mdash; for four to six weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Once new skin completely covers the treated area &amp;mdash; usually after one or two weeks &amp;mdash; you can use cosmetics to conceal any redness. Keep in mind that drinking alcohol might cause a flush of redness in your skin for up to a month after dermabrasion. 
+&lt;/p&gt;
+&lt;p&gt;
+If your treated skin appears to be getting worse &amp;mdash; becomes increasingly red, raised and itchy after it has started to heal &amp;mdash; contact your doctor. These might be signs of scarring. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+After dermabrasion, your new skin will be sensitive and bright pink. Swelling will begin to decrease within a few days to a week, but can last for weeks or even months. The pinkness of your skin will likely take about three months to fade. 
+&lt;/p&gt;
+&lt;p&gt;
+Once the treated area begins to heal, you&apos;ll notice that your skin looks smoother. Protect your skin from the sun to prevent permanent changes in skin color. 
+&lt;/p&gt;
+&lt;p&gt;
+If dark skin coloring is a concern after healing is complete, your doctor might prescribe hydroquinone &amp;mdash; a bleaching agent &amp;mdash; to help even out your skin tone. 
+&lt;/p&gt;
+&lt;p&gt;
+Keep in mind that dermabrasion results might not be permanent. As you age you&apos;ll continue to acquire lines by squinting and smiling. New sun damage can also reverse your results. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Before, during and after dermabrasion photos
+" Caption="Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. Immediately after dermabrasion, treated skin will be red and swollen (as shown in the photo on the upper right). The skin that grows back is usually smoother and younger looking (as shown in the bottom photo). 
+" Height="60" Title="Photos before, during and after dermabrasion" URI="/images/image_popup/thumbs/mcdc7_dermabrasionthu.jpg" Width="60" />
+				<Image Alt="Before, during and after dermabrasion photos
+" Caption="Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. Immediately after dermabrasion, treated skin will be red and swollen (as shown in the photo on the upper right). The skin that grows back is usually smoother and younger looking (as shown in the bottom photo). 
+" Height="500" Title="Photos before, during and after dermabrasion" URI="/images/image_popup/mcdc7_dermabrasion.jpg" Width="400" />
+				<HTML>
+					Dermabrasion is a skin-resurfacing procedure that uses a rapidly rotating device to sand the outer layers of skin. Immediately after dermabrasion, treated skin will be red and swollen (as shown in ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+	</Body>
+	<Title>
+		Dermabrasion
+	</Title>
+	<Abstract>
+		Dermabrasion &amp;mdash; Overview covers definition, risks and results of this skin-resurfacing procedure.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY01066" LinkType="Internal" ObjectID="FDDC7156-A0AA-DD06-F3F4A1310C69F898" Title="Tattoo removal" Url="http://www.mayoclinic.com/health/tattoo-removal/MY01066" />
+		<LinkItem ContentType="TestProcedure" DocID="MY02081" LinkType="Internal" ObjectID="BD3FFCD6-FA5E-7574-57A05B232452C711" Title="Face-lift" Url="http://www.mayoclinic.com/health/face-lift/MY02081" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00298" LinkType="Internal" ObjectID="9608EF6F-E7FF-0DBD-1F64B13BF4F198A0" Title="Blepharoplasty" Url="http://www.mayoclinic.com/health/blepharoplasty/MY00298" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00560" LinkType="Internal" ObjectID="4C6589A4-D708-3450-0D8FE75D27CACA0A" Title="Laser resurfacing" Url="http://www.mayoclinic.com/health/laser-resurfacing/MY00560" />
+		<LinkItem ContentType="Article" DocID="SN00006" LinkType="Internal" ObjectID="F506CE4C-3C14-4BC9-A8C48340F7950C75" Title="Cosmetic surgery: What to know beforehand" Url="http://www.mayoclinic.com/health/cosmetic-surgery/SN00006" />
+		<LinkItem ContentType="Article" DocID="SN00010" LinkType="Internal" ObjectID="C0458A0E-5E5D-428F-9B728F387516C5D9" Title="Wrinkle creams: Your guide to younger looking skin" Url="http://www.mayoclinic.com/health/wrinkle-creams/SN00010" />
+		<LinkItem ContentType="Article" DocID="HA00040" LinkType="Internal" ObjectID="78D032F9-F542-4DE0-B6E3BC5B35E92C02" Title="Aging: What to expect" Url="http://www.mayoclinic.com/health/aging/HA00040" />
+		<LinkItem ContentType="Disease" DocID="DS00568" LinkType="Internal" ObjectID="F62EE382-1FF5-4C71-AC602F42B384F542" Title="Actinic keratosis" Url="http://www.mayoclinic.com/health/actinic-keratosis/DS00568" />
+		<LinkItem ContentType="Disease" DocID="DS00890" LinkType="Internal" ObjectID="C42ABBC4-E7FF-0DBD-19EBF5AAD5773BEC" Title="Wrinkles" Url="http://www.mayoclinic.com/health/wrinkles/DS00890" />
+		<LinkItem ContentType="Disease" DocID="DS00169" LinkType="Internal" ObjectID="62FDAD7E-9D53-461A-9A756767E06D35A2" Title="Acne" Url="http://www.mayoclinic.com/health/acne/DS00169" />
+		<LinkItem ContentType="Disease" DocID="DS00912" LinkType="Internal" ObjectID="62D8CDCA-E7FF-0DBD-171539E5A52B3126" Title="Age spots (liver spots)" Url="http://www.mayoclinic.com/health/age-spots/DS00912" />
+		<LinkItem ContentType="Disease" DocID="DS00653" LinkType="Internal" ObjectID="03CDF835-2A5D-9994-EC3833F14D5BFECC" Title="Acanthosis nigricans" Url="http://www.mayoclinic.com/health/acanthosis-nigricans/DS00653" />
+	</RelatedLinksBox>
+</TestProcedure>

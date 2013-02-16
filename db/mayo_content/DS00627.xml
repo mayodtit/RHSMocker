@@ -1,0 +1,254 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00627
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/bone-spurs/DS00627
+		</OriginalURL>
+		<UpdateDate>
+			2012-03-07
+		</UpdateDate>
+		<PublicationDate>
+			2006-01-03
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1133" Title="Bones joints and muscles">
+					<Keyword MCVID="1412" Title="Bone and joint">
+						<Keyword MCVID="2794" Title="Bone spurs" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			4EE4BE04-2A5D-9994-EB9625D2F477BA09
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				bone spurs
+			</MetaKeyword>
+			<MetaKeyword>
+				bone spur
+			</MetaKeyword>
+			<MetaKeyword>
+				osteophyte
+			</MetaKeyword>
+			<MetaKeyword>
+				osteoarthritis
+			</MetaKeyword>
+			<MetaKeyword>
+				heel spurs
+			</MetaKeyword>
+			<MetaKeyword>
+				heal spurs
+			</MetaKeyword>
+			<MetaKeyword>
+				foot pain
+			</MetaKeyword>
+			<MetaKeyword>
+				heel pain
+			</MetaKeyword>
+			<MetaKeyword>
+				elbow pain
+			</MetaKeyword>
+			<MetaKeyword>
+				ankle pain
+			</MetaKeyword>
+			<MetaKeyword>
+				heels
+			</MetaKeyword>
+			<MetaKeyword>
+				elbows
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone spurs are bony projections that develop along the edges of bones. Also called osteophytes, bone spurs often form where bones meet each other &amp;mdash; in your joints. Bone spurs can also form on the bones of your spine.
+&lt;/p&gt;
+&lt;p&gt;
+The main cause of bone spurs is the wear-and-tear damage associated with osteoarthritis. Most bone spurs cause no symptoms and may go undetected for years. Bone spurs may not require treatment. Decisions about treatment depend on where spurs are located and how they affect your health.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Most bone spurs cause no signs or symptoms. Often you don&apos;t even realize you have bone spurs until an X-ray for another condition reveals the growths. In some cases, though, bone spurs can cause pain and loss of motion in your joints. 
+&lt;/p&gt;
+&lt;p&gt;
+Specific symptoms depend on where the bone spurs are located. Examples include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Knee.&lt;/strong&gt; Bone spurs in your knee may make it painful to extend and bend your leg. The bony growths can get in the way of bones and tendons that keep your knee operating smoothly.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Spine.&lt;/strong&gt; Bone spurs on your vertebrae can narrow the space that contains your spinal cord. These bone spurs can pinch the spinal cord or its nerve roots and may sometimes cause weakness or numbness in your arms or legs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hip.&lt;/strong&gt; Bone spurs can make it painful to move your hip, although the pain is sometimes referred down to your knee. Depending upon the placement, bone spurs also can reduce the range of motion in your hip joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Shoulder.&lt;/strong&gt; Bone spurs can rub on your rotator cuff, a group of muscles and tendons that help control your shoulder movements. This can cause swelling (tendinitis) and tears in your rotator cuff. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Fingers.&lt;/strong&gt; Appearing as hard lumps under your skin, bone spurs can make the joints in your fingers look knobby.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Make an appointment with your doctor if you have pain or swelling in one or more joints or if you have difficulty moving a joint. Early treatment can help prevent or slow further joint damage. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing osteoarthritis of the hip 
+" Caption="The hip joint shown on the left side of the image is normal, but the hip joint shown on the right side of the image shows deterioration of cartilage and the formation of bone spurs due to osteoarthritis. 
+" Height="60" Title="Osteoarthritis of the hip" URI="/images/image_popup/thumbs/mcdc7_hiparthritisthu.jpg" Width="60" />
+				<Image Alt="Illustration showing osteoarthritis of the hip 
+" Caption="The hip joint shown on the left side of the image is normal, but the hip joint shown on the right side of the image shows deterioration of cartilage and the formation of bone spurs due to osteoarthritis. 
+" Height="387" Title="Osteoarthritis of the hip" URI="/images/image_popup/mcdc7_hiparthritis.jpg" Width="400" />
+				<HTML>
+					The hip joint shown on the left side of the image is normal, but the hip joint shown on the right side of the image shows deterioration of cartilage and the formation of bone spurs due to ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Wear-and-tear arthritis (osteoarthritis) is the most common cause of bone spurs. As osteoarthritis breaks down the cartilage cushioning the ends of your bones, your body attempts to repair the loss by creating bone spurs near the damaged area. The extra bone may help increase the amount of surface area for load bearing.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Bone spurs can break off from the larger bone, becoming what doctors call loose bodies. Often bone spurs that have become loose bodies will float in your joint or become embedded in the lining of the joint (synovium). 
+&lt;/p&gt;
+&lt;p&gt;
+Loose bodies can drift into the areas in between the bones that make up your joint, getting in the way and causing intermittent locking &amp;mdash; a sensation that something is preventing you from moving your joint. This joint locking can come and go as the loose bodies move into and out of the way of your joint. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You&apos;ll probably first bring your concerns to the attention of your family doctor. He or she may refer you to a doctor who specializes in the diagnosis and treatment of joint disorders (rheumatologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you get ready for your appointment and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;List any symptoms you&apos;ve been having&lt;/strong&gt; and for how long.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down your key medical information,&lt;/strong&gt; including other conditions with which you&apos;ve been diagnosed, all medications and supplements you&apos;re taking, and any family history of bone or joint disease.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Note any recent injuries&lt;/strong&gt; that may have damaged a joint.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor. Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Below are some basic questions to ask a doctor who is examining you for joint problems. If any additional questions occur to you during your visit, don&apos;t hesitate to ask. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is the most likely cause of my signs and symptoms?&lt;/li&gt;
+	&lt;li&gt;Are there any other possible causes?&lt;/li&gt;
+	&lt;li&gt;What tests do I need to confirm a diagnosis?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend, if any?&lt;/li&gt;
+	&lt;li&gt;How much do you expect my symptoms will improve with treatment?&lt;/li&gt;
+	&lt;li&gt;If you&apos;re recommending medications, are there any possible side effects?&lt;/li&gt;
+	&lt;li&gt;Is surgery an option in my case? Why or why not?&lt;/li&gt;
+	&lt;li&gt;What self-care measures can I take to help manage symptoms?&lt;/li&gt;
+	&lt;li&gt;How often will you see me to monitor my progress?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;br /&gt;
+&lt;/strong&gt;Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to talk about in-depth. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What are your symptoms?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms?&lt;/li&gt;
+	&lt;li&gt;How severe is your pain?&lt;/li&gt;
+	&lt;li&gt;Are you having trouble moving the affected joint or joints?&lt;/li&gt;
+	&lt;li&gt;Are your symptoms affecting your ability to complete daily tasks?&lt;/li&gt;
+	&lt;li&gt;Have you recently had any injuries that may have caused joint damage?&lt;/li&gt;
+	&lt;li&gt;Have you tried any at-home treatments so far? If so, has anything helped?&lt;/li&gt;
+	&lt;li&gt;Have you been diagnosed with any other medical conditions?&lt;/li&gt;
+	&lt;li&gt;What medications are you currently taking, including vitamins and supplements?&lt;/li&gt;
+	&lt;li&gt;What is your typical exercise routine?&lt;/li&gt;
+	&lt;li&gt;Do any of your first-degree relatives &amp;mdash; such as a parent or sibling &amp;mdash; have a history of bone disorders?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+During the physical exam, your doctor may feel around your joint to determine exactly where your pain is coming from. Sometimes your doctor can feel a bone spur, though sometimes bone spurs form in spots that can&apos;t be easily felt.
+&lt;/p&gt;
+&lt;p&gt;
+To confirm a diagnosis, your doctor may order X-rays or other types of imaging tests to get a look at your joints and bones.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your bone spurs are causing pain, your doctor may recommend over-the-counter pain relievers, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve, others). Bone spurs that limit your range of motion or press on nerves may require surgical removal.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Bone spurs
+	</Title>
+	<Abstract>
+		Bone spurs &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of projections along edges of bones.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00130" LinkType="Internal" ObjectID="CAC71B81-E7FF-0DBD-1777D6F6B79B2937" Title="Arthroscopy" Url="http://www.mayoclinic.com/health/arthroscopy/MY00130" />
+		<LinkItem ContentType="Answer" DocID="AN01966" LinkType="Internal" ObjectID="AD4BCCFC-DB57-C303-B9028B81FAF97080" Title="Heel spurs: Do they always cause pain?" Url="http://www.mayoclinic.com/health/heel-spurs/AN01966" />
+	</RelatedLinksBox>
+</Disease>

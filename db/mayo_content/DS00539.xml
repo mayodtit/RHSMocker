@@ -1,0 +1,324 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00539
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/viral-hemorrhagic-fevers/DS00539
+		</OriginalURL>
+		<UpdateDate>
+			2010-08-14
+		</UpdateDate>
+		<PublicationDate>
+			2004-08-17
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1148" Title="Infectious disease">
+					<Keyword MCVID="1592" Title="Viral">
+						<Keyword MCVID="2547" Title="Viral hemorrhagic fevers" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			C65023FF-F803-4E0C-AB468CB9127EB3C9
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				viral hemorrhagic fevers
+			</MetaKeyword>
+			<MetaKeyword>
+				viral hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				VHFs
+			</MetaKeyword>
+			<MetaKeyword>
+				Lassa fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Argentine hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Bolivian hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Brazilian hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Venezuuelan hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Rift Valley fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Crimean-Congo hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				hemorrhagic fever with renal syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				hantavirus pulmonary syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				Ebola
+			</MetaKeyword>
+			<MetaKeyword>
+				Marburg virus
+			</MetaKeyword>
+			<MetaKeyword>
+				yellow fever
+			</MetaKeyword>
+			<MetaKeyword>
+				dengue fever
+			</MetaKeyword>
+			<MetaKeyword>
+				dengue hemorrhagic fever
+			</MetaKeyword>
+			<MetaKeyword>
+				Kyasanur Forest disease
+			</MetaKeyword>
+			<MetaKeyword>
+				Omsk hemorrhagic fever
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Viral hemorrhagic (hem-uh-RAJ-ik) fevers are infectious diseases that interfere with the blood&apos;s natural ability to clot. These diseases can also damage the walls of tiny blood vessels, making them leaky. The internal bleeding that results can range from relatively minor to life-threatening.
+&lt;/p&gt;
+&lt;p&gt;
+Some viral hemorrhagic fevers include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dengue&lt;/li&gt;
+	&lt;li&gt;Ebola&lt;/li&gt;
+	&lt;li&gt;Lassa&lt;/li&gt;
+	&lt;li&gt;Marburg&lt;/li&gt;
+	&lt;li&gt;Yellow fever&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These diseases most commonly occur in tropical areas of the world. When viral hemorrhagic fevers occur in the United States, they&apos;re usually found in people who&apos;ve recently traveled internationally.
+&lt;/p&gt;
+&lt;p&gt;
+Viral hemorrhagic fevers are spread by contact with infected animals, people or insects. No current treatment can cure viral hemorrhagic fevers, and immunizations exist for only a few types. Until additional vaccines are developed, the best approach is prevention.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Signs and symptoms of viral hemorrhagic fevers vary by disease. In general, initial symptoms may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;High fever&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Muscle aches&lt;/li&gt;
+	&lt;li&gt;Weakness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Symptoms can become life-threatening&lt;/strong&gt;&lt;br /&gt;
+Severe cases of some types of viral hemorrhagic fevers may cause bleeding:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Under the skin&lt;/li&gt;
+	&lt;li&gt;In internal organs&lt;/li&gt;
+	&lt;li&gt;From the mouth, eyes or ears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Other signs and symptoms of severe infections can include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Shock&lt;/li&gt;
+	&lt;li&gt;Nervous system malfunctions&lt;/li&gt;
+	&lt;li&gt;Coma&lt;/li&gt;
+	&lt;li&gt;Delirium&lt;/li&gt;
+	&lt;li&gt;Seizures&lt;/li&gt;
+	&lt;li&gt;Kidney failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+The best time to see a doctor is before you travel to a developing country to ensure you&apos;ve received any available vaccinations and pre-travel advice for staying healthy. If you develop signs and symptoms once you return home, consider consulting a doctor who focuses on international medicine or infectious diseases. A specialist may be able to recognize and treat your illness faster. Be sure to let your doctor know what areas you&apos;ve visited.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The viruses that cause viral hemorrhagic fevers live naturally in a variety of animal and insect hosts &amp;mdash; most commonly mosquitoes, ticks, rodents or bats.
+&lt;/p&gt;
+&lt;p&gt;
+Each of these hosts typically lives in a specific geographic area, so each particular disease usually occurs only where that virus&apos;s host normally lives. Some viral hemorrhagic fevers also can be transmitted from person to person.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How is it transmitted?&lt;/strong&gt;&lt;br /&gt;
+The route of transmission varies by specific virus. Some viral hemorrhagic fevers are spread by mosquito or tick bites. Others are transmitted by contact with infected blood or semen. A few varieties are breathed in if you&apos;re around infected rat feces or urine.
+&lt;/p&gt;
+&lt;p&gt;
+If you travel to an area where a particular hemorrhagic fever is common, you may become infected there and then develop symptoms after you return home.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Simply living in or traveling to an area where a particular viral hemorrhagic fever is common will increase your risk of becoming infected with that particular virus. Several other factors can increase your risk even more, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Working with the sick&lt;/li&gt;
+	&lt;li&gt;Slaughtering infected animals&lt;/li&gt;
+	&lt;li&gt;Sharing needles to use intravenous drugs&lt;/li&gt;
+	&lt;li&gt;Having unprotected sex&lt;/li&gt;
+	&lt;li&gt;Working outdoors or in rat-infested buildings&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Viral hemorrhagic fevers can damage your:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Brain&lt;/li&gt;
+	&lt;li&gt;Eyes&lt;/li&gt;
+	&lt;li&gt;Heart&lt;/li&gt;
+	&lt;li&gt;Kidneys&lt;/li&gt;
+	&lt;li&gt;Liver&lt;/li&gt;
+	&lt;li&gt;Lungs&lt;/li&gt;
+	&lt;li&gt;Spleen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In some cases, the damage is severe enough to cause death.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Diagnosing specific viral hemorrhagic fevers in the first few days of illness can be difficult because the initial signs and symptoms &amp;mdash; high fever, muscle aches, headaches and extreme fatigue &amp;mdash; are common to many other diseases.
+&lt;/p&gt;
+&lt;p&gt;
+To reach an accurate diagnosis, your doctor is likely to ask about your medical and travel history and any exposure to rodents or mosquitoes. Be sure to describe international trips in detail, including the countries you visited and the dates, as well as any contact you may have had with possible sources of infection.
+&lt;/p&gt;
+&lt;p&gt;
+Laboratory tests, usually using a sample of your blood, are needed to confirm a diagnosis. Because viral hemorrhagic fevers are particularly virulent and contagious, these tests are usually performed in specially designated laboratories using strict precautions.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Medications&lt;/strong&gt;&lt;br /&gt;
+While no specific treatment exists for most viral hemorrhagic fevers, the antiviral drug ribavirin (Virazole, Rebetol) may help shorten the course of infection and prevent complications in some cases.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Therapy&lt;/strong&gt;&lt;br /&gt;
+Supportive care is essential. To prevent dehydration, you may need fluids to help maintain your balance of electrolytes &amp;mdash; minerals that are critical to nerve and muscle function.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Surgical and other procedures&lt;/strong&gt;&lt;br /&gt;
+Some people may benefit from kidney dialysis, an artificial way of cleaning wastes from your blood when your kidneys fail.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Preventing viral hemorrhagic fevers, especially in developing nations, presents enormous challenges. Many of the social, economic and ecological factors that contribute to the sudden appearance and spread of infectious diseases &amp;mdash; war, displacement, destruction of habitat, lack of sanitation and proper medical care &amp;mdash; are problems that have no easy or quick solutions.
+&lt;/p&gt;
+&lt;p&gt;
+If you live in or travel to areas where viral hemorrhagic fevers are common, you should take precautions to protect yourself from infection.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Get vaccinated&lt;/strong&gt;&lt;br /&gt;
+The yellow fever vaccine is generally considered safe and effective, although in rare cases, serious side effects can occur. Check with the Centers for Disease Control and Prevention about the status of the countries you&apos;re visiting &amp;mdash; some require certificates of vaccination for entry. The yellow fever vaccine isn&apos;t recommended for children under 9 months of age or for pregnant women, especially during the first trimester. Vaccines for several less common types of viral hemorrhagic fevers are currently in development.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Avoid mosquitoes and ticks&lt;/strong&gt;&lt;br /&gt;
+Wear light-colored long pants and long-sleeved shirts or, better yet, permethrin-coated clothing. Don&apos;t apply permethrin directly to the skin. Avoid unnecessary activities at dusk and dawn when mosquitoes are most active and apply mosquito repellent with a 20 to 25 percent concentration of DEET to your skin and clothing. If you&apos;re staying in tented camps or local hotels, use bed nets and mosquito coils.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Guard against rodents&lt;/strong&gt;&lt;br /&gt;
+To prevent rodent infestations in your home:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Keep pet food covered and stored in rodent-proof containers.&lt;/li&gt;
+	&lt;li&gt;Store trash in rodent-proof containers, and clean the containers often.&lt;/li&gt;
+	&lt;li&gt;Dispose of garbage on a regular basis.&lt;/li&gt;
+	&lt;li&gt;Make sure doors and windows have tightfitting screens.&lt;/li&gt;
+	&lt;li&gt;Place woodpiles and stacks of bricks and other materials at least 100 feet from your house.&lt;/li&gt;
+	&lt;li&gt;Mow your grass closely and keep brush trimmed to within 100 feet from your house.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Viral hemorrhagic fevers
+	</Title>
+	<Abstract>
+		Viral hemorrhagic fevers &amp;mdash; Comprehensive overview covers symptoms, treatment, prevention of these sometimes deadly diseases.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Disease" DocID="DS01028" LinkType="Internal" ObjectID="849B8EAB-E7FF-0DBD-1CD3D45919A8254F" Title="Dengue fever" Url="http://www.mayoclinic.com/health/dengue-fever/DS01028" />
+		<LinkItem ContentType="Disease" DocID="DS01011" LinkType="Internal" ObjectID="758C4EB2-E7FF-0DBD-124ED8BC6C2F46A8" Title="Yellow fever" Url="http://www.mayoclinic.com/health/yellow-fever/DS01011" />
+		<LinkItem ContentType="Disease" DocID="DS00996" LinkType="Internal" ObjectID="528017DA-E7FF-0DBD-13A200985711E1EA" Title="Ebola virus and Marburg virus" Url="http://www.mayoclinic.com/health/ebola-virus/DS00996" />
+		<LinkItem ContentType="Article" DocID="HQ00407" LinkType="Internal" ObjectID="8113ABC9-2782-41C3-99A825A54DCDD6B1" Title="Hand-washing: Do&apos;s and don&apos;ts" Url="http://www.mayoclinic.com/health/hand-washing/HQ00407" />
+		<LinkItem ContentType="Disease" DocID="DS00077" LinkType="Internal" ObjectID="A382B0D2-850B-434A-96D0FF7F5B318E3E" Title="Fever" Url="http://www.mayoclinic.com/health/fever/DS00077" />
+	</RelatedLinksBox>
+</Disease>

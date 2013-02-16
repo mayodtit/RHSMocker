@@ -1,0 +1,308 @@
+<TestProcedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TestProcedure.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			TestProcedure
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			MY00089
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/stem-cell-transplant/MY00089
+		</OriginalURL>
+		<UpdateDate>
+			2012-08-22
+		</UpdateDate>
+		<PublicationDate>
+			2006-04-11
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1295" Title="Test or procedure">
+				<Keyword MCVID="3639" Title="Procedure">
+					<Keyword MCVID="3640" Title="Cancer">
+						<Keyword MCVID="3981" Title="Stem cell transplant" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B5C405F3-E7FF-0DBD-17D02B08AB82FD77
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				stem cell transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				BMT
+			</MetaKeyword>
+			<MetaKeyword>
+				PBSCT
+			</MetaKeyword>
+			<MetaKeyword>
+				SCT
+			</MetaKeyword>
+			<MetaKeyword>
+				cord blood transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow
+			</MetaKeyword>
+			<MetaKeyword>
+				leukemia
+			</MetaKeyword>
+			<MetaKeyword>
+				lymphoma
+			</MetaKeyword>
+			<MetaKeyword>
+				hematology
+			</MetaKeyword>
+			<MetaKeyword>
+				blood cancer
+			</MetaKeyword>
+			<MetaKeyword>
+				blood disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				umbilical cord blood transplant
+			</MetaKeyword>
+			<MetaKeyword>
+				stem cell harvest
+			</MetaKeyword>
+			<MetaKeyword>
+				stem cell harvesting
+			</MetaKeyword>
+			<MetaKeyword>
+				stem cell collection
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow harvest
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow harvesting
+			</MetaKeyword>
+			<MetaKeyword>
+				bone marrow collection
+			</MetaKeyword>
+			<MetaKeyword>
+				transplant wait
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stem cell (blood or marrow) transplant is the infusion, or injection, of healthy stem cells into your body to replace damaged or diseased stem cells. A stem cell transplant may be necessary if your bone marrow stops working and doesn&apos;t produce enough healthy stem cells. A stem cell transplant also may be performed if high-dose chemotherapy or radiation therapy is given in the treatment of blood disorders such as leukemia, lymphoma or multiple myeloma. A stem cell transplant can help your body make enough healthy white blood cells, red blood cells or platelets, and reduce your risk of life-threatening infections, anemia and bleeding. 
+&lt;/p&gt;
+&lt;p&gt;
+Although the procedure to replenish your body&apos;s supply of healthy blood-forming cells is generally called a stem cell transplant, it&apos;s also known as a bone marrow transplant, peripheral blood stem cell transplant or an umbilical cord blood transplant, depending on the source of the stem cells. Stem cell transplants can use cells from your own body (autologous stem cell transplant), from a donor (allogeneic stem cell transplant) or from an identical twin (syngeneic transplant). 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Why it&apos;s done
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Stem cell transplants are used to treat people whose stem cells have been damaged by disease or the treatment of a disease, or as a way to have the donor&apos;s immune system fight a blood disorder such as leukemia. Stem cell transplants can benefit people with a variety of both cancerous (malignant) and noncancerous (nonmalignant) diseases. 
+&lt;/p&gt;
+&lt;p&gt;
+A stem cell transplant may help treat blood disorders by: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Killing cancer cells.&lt;/strong&gt; In a stem cell transplant procedure, you&apos;ll first be given powerful drugs (chemotherapy) with or without radiation therapy to kill the cancer cells. Doctors then infuse into your body healthy stem cells that previously have been collected from you or a donor. The new stem cells migrate to your bone marrow and, over time, produce healthy new cells. In addition, the donor cells also have the ability to kill some types of cancer cells. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Helping you recover faster from high doses of chemotherapy and radiation.&lt;/strong&gt; The healthy cells infused in a stem cell transplant also may allow you to recover faster from chemotherapy and radiation, as these cells haven&apos;t been exposed to chemotherapy and radiation.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risks
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stem cell transplant poses many risks of complications, some potentially fatal. The risk can depend on many factors, including the type of blood disorder, the type of transplant, and the age and health of the person. Although some people experience few problems with a transplant, others may develop complications that may require treatment or hospitalization. Some complications could even be life-threatening. 
+&lt;/p&gt;
+&lt;p&gt;
+Complications that can arise with a stem cell transplant include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Graft-versus-host disease (allogeneic transplant only)&lt;/li&gt;
+	&lt;li&gt;Stem cell (graft) failure&lt;/li&gt;
+	&lt;li&gt;Organ injury&lt;/li&gt;
+	&lt;li&gt;Infections&lt;/li&gt;
+	&lt;li&gt;Cataracts&lt;/li&gt;
+	&lt;li&gt;Infertility&lt;/li&gt;
+	&lt;li&gt;New cancers&lt;/li&gt;
+	&lt;li&gt;Death&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your doctor can explain your risk of complications from a stem cell transplant. Together you can weigh the risks and benefits to decide whether a stem cell transplant is right for you. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Graft-versus-host disease: A potential risk when stem cells come from donors&lt;/strong&gt; &lt;br /&gt;
+If you&apos;re undergoing a transplant that will use stem cells from a donor (allogeneic stem cell transplant), you may be at risk of graft-versus-host disease. This condition occurs when a donor&apos;s transplanted stem cells attack your body. Graft-versus-host disease can be mild or severe. It can occur soon after your transplant or months to years later. 
+&lt;/p&gt;
+&lt;p&gt;
+Graft-versus-host disease can affect any organ, commonly the skin (rash, often like sunburn), gut (mouth sores, abdominal pain, diarrhea, nausea or vomiting), liver (jaundice or yellowing of the skin), lungs (blocked airways) or eyes (irritation and light sensitivity). It can lead to chronic disability due to organ injury or infections and can be life-threatening. Your doctor will monitor you closely for signs and symptoms of graft-versus-host disease. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				How you prepare
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Pre-transplant tests and procedures&lt;/strong&gt; &lt;br /&gt;
+You&apos;ll undergo a series of tests and procedures to assess your health and the status of your condition, and to ensure that you&apos;re physically prepared for the transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, a surgeon or radiologist will implant a long thin tube (intravenous catheter) in your chest near your neck. The catheter, often called a central line, usually remains in place for the duration of your treatment. Your doctors will use the central line to infuse the transplanted stem cells and other medications and blood products into your body. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;The conditioning process&lt;/strong&gt; &lt;br /&gt;
+After you complete your pre-transplant tests and procedures, you begin a process known as conditioning. During conditioning, you&apos;ll undergo chemotherapy and possibly radiation to: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Destroy cancer cells&lt;/li&gt;
+	&lt;li&gt;Suppress your immune system so that your body doesn&apos;t reject the transplanted stem cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The type of conditioning process you&apos;ll be given depends on a number of factors, including your disease, overall health and the type of transplant planned. You may have both chemotherapy and radiation or just one of these treatments as part of your conditioning treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+Side effects of the conditioning process can include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea and vomiting&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Hair loss&lt;/li&gt;
+	&lt;li&gt;Mouth sores or ulcers&lt;/li&gt;
+	&lt;li&gt;Infections, such as pneumonia&lt;/li&gt;
+	&lt;li&gt;Bleeding&lt;/li&gt;
+	&lt;li&gt;Infertility or sterility&lt;/li&gt;
+	&lt;li&gt;Anemia&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+	&lt;li&gt;Cataracts&lt;/li&gt;
+	&lt;li&gt;Organ complications, such as heart, liver or lung failure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You may be able to take medications or other measures to reduce such side effects. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&apos;Mini&apos; stem cell transplants&lt;/strong&gt; &lt;br /&gt;
+A mini stem cell transplant, also called reduced-intensity conditioning or a nonmyeloablative (non-my-uh-loh-ab-LAY-tive) transplant, is a type of allogeneic transplant that involves a less intense conditioning option. 
+&lt;/p&gt;
+&lt;p&gt;
+Reduced-intensity conditioning, which includes lower doses of chemotherapy and radiation, kills some cancer cells and somewhat suppresses your immune system. Then, the donor&apos;s cells are infused into your body. Donor cells replace cells in your bone marrow over time. Immune factors in the donor cells may then fight your cancer cells. 
+&lt;/p&gt;
+&lt;p&gt;
+A less intense conditioning regimen may seem attractive because it involves less intense chemotherapy and radiation. However, this kind of transplant isn&apos;t appropriate for all situations. Your doctor will advise you on the most appropriate type of conditioning for your specific situation. This can depend on many factors, including the nature of the blood disorder, and the age and health of the person. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				What you can expect
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;During your stem cell transplant&lt;/strong&gt; &lt;br /&gt;
+Stem cell transplantation involves infusing, or injecting, donor stem cells through your central line into your body after completion of several days of chemotherapy, radiation therapy or both. The infusion usually takes one to five hours. The transplanted stem cells make their way to your bone marrow, where they begin creating new blood cells. It can take a few weeks for new blood cells to be produced and for your blood counts to begin recovering. 
+&lt;/p&gt;
+&lt;p&gt;
+Bone marrow or blood stem cells that have been frozen and thawed contain a preservative that protects the cells. Just before the transplant, you may receive medications to reduce the side effects the preservative may cause. You&apos;ll also likely be given IV fluids (hydration) before and after your transplant to help rid your body of the preservative. Side effects of the preservative may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Nausea&lt;/li&gt;
+	&lt;li&gt;Fever&lt;/li&gt;
+	&lt;li&gt;Diarrhea&lt;/li&gt;
+	&lt;li&gt;Chills&lt;/li&gt;
+	&lt;li&gt;Hives&lt;/li&gt;
+	&lt;li&gt;Red urine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Not everyone experiences side effects from the preservative, and for some people those side effects are minimal. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;After your stem cell transplant&lt;/strong&gt; &lt;br /&gt;
+In the days and weeks after your stem cell transplant, you&apos;ll have blood tests and other tests to monitor your condition. You may need medicine to manage complications, such as nausea and diarrhea. 
+&lt;/p&gt;
+&lt;p&gt;
+After your stem cell transplant, you&apos;ll need to remain under close medical care. If you&apos;re experiencing infections or other complications, you may need to remain in the hospital for several days. Depending on the type of transplant and the risk of complications, you&apos;ll need to remain nearby for several weeks to months to allow close monitoring. 
+&lt;/p&gt;
+&lt;p&gt;
+You may also need periodic transfusions of red blood cells and platelets until your bone marrow begins producing enough of those cells on its own. 
+&lt;/p&gt;
+&lt;p&gt;
+You may be at greater risk of infections or other complications for months to years after your transplant. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Results
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+A stem cell transplant can cure some diseases and put others into remission. Goals of a stem cell transplant depend on your individual situation but usually include controlling or curing your blood disorder, extending your life, and improving your quality of life. 
+&lt;/p&gt;
+&lt;p&gt;
+Some people complete stem cell transplantation with few side effects and complications. Others experience numerous challenging problems, both short and long term. The severity of side effects and the success of the transplant vary from person to person and sometimes can be difficult to predict before the transplant. 
+&lt;/p&gt;
+&lt;p&gt;
+It can be discouraging if significant challenges arise during the transplant process. However, it is sometimes helpful to remember that there are many survivors who also experienced some very difficult days during the transplant process but ultimately had successful transplants and have returned to normal activities with a good quality of life. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Stem cell transplant
+	</Title>
+	<Abstract>
+		Stem cell transplant &amp;mdash; Overview covers definition, risks, results of procedure to replenish stem cells.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN01997" LinkType="Internal" ObjectID="D4044E95-A663-9533-9D7D2EC557CB8C8A" Title="Cord blood banking: What are the options?" Url="http://www.mayoclinic.com/health/cord-blood-banking/AN01997" />
+		<LinkItem ContentType="Video" DocID="MM00787" LinkType="Internal" ObjectID="255D3C99-F208-37DF-CDFEAEEC6D81B5A7" Title="Video: How a stem cell transplant works" Url="http://www.mayoclinic.com/health/stem-cell-transplant/MM00787" />
+		<LinkItem ContentType="Article" DocID="CA00081" LinkType="Internal" ObjectID="E5B1AC99-E7FF-0DBD-1BD6F6EB61E7886E" Title="Stem cells: What they are and what they do" Url="http://www.mayoclinic.com/health/stem-cells/CA00081" />
+	</RelatedLinksBox>
+</TestProcedure>

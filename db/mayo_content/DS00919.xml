@@ -1,0 +1,312 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00919
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/polycythemia-vera/DS00919
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-02
+		</UpdateDate>
+		<PublicationDate>
+			2007-04-02
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1132" Title="Blood and lymphatic system">
+					<Keyword MCVID="1713" Title="Bone marrow">
+						<Keyword MCVID="2736" Title="Polycythemia vera" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			87E17B30-E7FF-0DBD-1BE7B8A63AD8BCD1
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				polycythemia vera
+			</MetaKeyword>
+			<MetaKeyword>
+				myeloproliferative disease
+			</MetaKeyword>
+			<MetaKeyword>
+				myeloproliferative disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				primary polycythemia
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polycythemia vera is a blood disorder in which your bone marrow makes too many red blood cells. Polycythemia vera also may result in production of too many of the other types of blood cells &amp;mdash; white blood cells and platelets. But it&apos;s the excess red blood cells that thicken your blood and cause most of the concerns associated with polycythemia vera.
+&lt;/p&gt;
+&lt;p&gt;
+Polycythemia vera &amp;mdash; also called primary polycythemia &amp;mdash; is rare and usually develops slowly. You may have it for years without noticing signs or symptoms. Often, polycythemia vera is found during a blood test done for some other reason.
+&lt;/p&gt;
+&lt;p&gt;
+Without treatment, polycythemia vera can be life-threatening. However, with proper medical care, many people experience few problems related to this disease.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In its early stages, polycythemia vera usually doesn&apos;t cause any signs or symptoms. However, as the disease progresses, you may experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Headache&lt;/li&gt;
+	&lt;li&gt;Dizziness&lt;/li&gt;
+	&lt;li&gt;Itchiness, especially following a warm bath or shower&lt;/li&gt;
+	&lt;li&gt;Redness of your skin&lt;/li&gt;
+	&lt;li&gt;Shortness of breath&lt;/li&gt;
+	&lt;li&gt;Breathing difficulty when you lie down&lt;/li&gt;
+	&lt;li&gt;Numbness, tingling, burning or weakness in your hands, feet, arms or legs&lt;/li&gt;
+	&lt;li&gt;A feeling of fullness or bloating in your left upper abdomen due to an enlarged spleen&lt;/li&gt;
+	&lt;li&gt;Fatigue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Make an appointment with your doctor for an evaluation if you have any of the signs or symptoms of polycythemia vera.
+&lt;/p&gt;
+&lt;p&gt;
+Because polycythemia vera causes your blood to thicken and slows blood flow, it increases your risk of developing blood clots. If a blood clot occurs in your head, it can cause a stroke. Seek emergency medical care if you have any of the following signs or symptoms of a stroke:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Sudden numbness, weakness, or paralysis of your face, arm or leg &amp;mdash; usually on one side of your body&lt;/li&gt;
+	&lt;li&gt;Sudden difficulty speaking or understanding speech (aphasia)&lt;/li&gt;
+	&lt;li&gt;Sudden blurred, double or decreased vision&lt;/li&gt;
+	&lt;li&gt;Sudden dizziness, loss of balance or loss of coordination&lt;/li&gt;
+	&lt;li&gt;A sudden, severe headache or an unusual headache, which may be accompanied by a stiff neck, facial pain, pain between your eyes, vomiting or altered consciousness&lt;/li&gt;
+	&lt;li&gt;Confusion, or problems with memory, spatial orientation or perception&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polycythemia vera occurs when a mutation in a bone marrow cell causes a problem with blood cell production. Normally, your body carefully regulates the number of each of the three types of blood cells you have. But in polycythemia vera, the mechanism your body uses to control the production of blood cells becomes impaired, and your bone marrow makes too many of some blood cells.
+&lt;/p&gt;
+&lt;p&gt;
+The mutation that causes polycythemia vera is thought to affect a protein switch that tells the cells to grow. Specifically, it&apos;s a mutation in the protein JAK2 (the JAK2 V617F mutation). Most people with polycythemia vera have this mutation. Doctors and researchers don&apos;t yet understand the full role of this mutation and its implications for treating the disease.
+&lt;/p&gt;
+&lt;p&gt;
+It&apos;s not clear what causes the mutation that leads to polycythemia vera. Researchers believe the mutation occurs after conception &amp;mdash; meaning that your mother and father don&apos;t have it &amp;mdash; so it&apos;s acquired, rather than inherited from a parent.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Factors that may increase your risk of developing polycythemia vera include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Increasing age.&lt;/strong&gt; The risk of polycythemia vera increases with age. It is more common in adults older than 60, and it&apos;s rare in people younger than 20.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being male.&lt;/strong&gt; Polycythemia vera affects men more often than women.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having a family history of polycythemia vera.&lt;/strong&gt; Having close relatives with polycythemia vera may increase your risk of the disease.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Possible complications of polycythemia vera include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood clots.&lt;/strong&gt; Polycythemia vera causes your blood to be thicker than normal, which can slow the rate of blood flow through your veins and arteries. Increased blood thickness and decreased blood flow, as well as abnormalities in your platelets, increase your risk of blood clots. Blood clots can cause a stroke, a heart attack, or blockage of an artery in your lungs (pulmonary embolism) or in a vein deep within a muscle (deep vein thrombosis).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Enlarged spleen (splenomegaly).&lt;/strong&gt; Your spleen helps your body fight infection and filter unwanted material, such as old or damaged blood cells. The increased number of blood cells caused by polycythemia vera makes your spleen work harder than normal, which causes it to enlarge.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Skin problems.&lt;/strong&gt; Polycythemia vera may cause your skin to itch, especially after a warm bath or shower, or after sleeping in a warm bed. You may experience a burning or tingling sensation in your skin, particularly on your arms, legs, hands or feet. Your skin may also appear red, especially on your face.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Problems due to high levels of red blood cells.&lt;/strong&gt; Too many red blood cells can lead to a number of other complications, including open sores on the inside lining of your stomach, upper small intestine or esophagus (peptic ulcers) and inflammation in your joints (gout).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other blood disorders.&lt;/strong&gt; In rare cases, polycythemia vera may lead to other blood diseases, including a progressive disorder in which bone marrow is replaced with scar tissue (myelofibrosis), a condition in which stem cells don&apos;t mature or function properly (myelodysplastic syndrome), or cancer of the blood and bone marrow (acute leukemia).&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Start by seeing your family doctor or a general practitioner if you have any signs or symptoms that worry you. If you&apos;ve been diagnosed with polycythemia vera, you may be referred to a doctor who specializes in blood conditions (hematologist). 
+&lt;/p&gt;
+&lt;p&gt;
+Because appointments can be brief, and because there&apos;s often a lot of ground to cover, it&apos;s a good idea to be well prepared. Here&apos;s some information to help you get ready, and what to expect from your doctor. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Be aware of any pre-appointment restrictions.&lt;/strong&gt; At the time you make the appointment, be sure to ask if there&apos;s anything you need to do in advance, such as restrict your diet.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; including any that may seem unrelated to the reason for which you scheduled the appointment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any major stresses or recent life changes.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all medications,&lt;/strong&gt; vitamins or supplements that you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take a family member or friend along.&lt;/strong&gt; Sometimes it can be difficult to absorb all the information provided during an appointment. Someone who accompanies you may remember something that you missed or forgot.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask&lt;/strong&gt; your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Your time with your doctor is limited, so preparing a list of questions can help you make the most of your time together. List your questions from most important to least important in case time runs out. For polycythemia vera, some basic questions to ask your doctor include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What is likely causing my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What are other possible causes for my symptoms or condition?&lt;/li&gt;
+	&lt;li&gt;What kinds of tests do I need?&lt;/li&gt;
+	&lt;li&gt;Is my condition likely temporary or chronic?&lt;/li&gt;
+	&lt;li&gt;What is the best course of action?&lt;/li&gt;
+	&lt;li&gt;What are the alternatives to the primary approach that you&apos;re suggesting?&lt;/li&gt;
+	&lt;li&gt;I have these other health conditions. How can I best manage them together?&lt;/li&gt;
+	&lt;li&gt;Are there any restrictions that I need to follow?&lt;/li&gt;
+	&lt;li&gt;Should I see a specialist? What will that cost, and will my insurance cover it?&lt;/li&gt;
+	&lt;li&gt;Is there a generic alternative to the medicine you&apos;re prescribing for me?&lt;/li&gt;
+	&lt;li&gt;Are there any brochures or other printed material that I can take with me? What websites do you recommend?&lt;/li&gt;
+	&lt;li&gt;What will determine whether I should plan for a follow-up visit?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask other questions during your appointment. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may allow time to cover other points you want to address. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did you first begin experiencing symptoms?&lt;/li&gt;
+	&lt;li&gt;Have your symptoms been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;How severe are your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+&lt;strong&gt;Blood tests&lt;/strong&gt;&lt;br /&gt;
+Doctors most frequently use blood tests to diagnose polycythemia vera. If you have polycythemia vera, blood tests may reveal: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;An increase in the number of red blood cells&lt;/strong&gt; and, in some cases, an increase in platelets or white blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevated hematocrit measurement,&lt;/strong&gt; the percentage of red blood cells that make up total blood volume.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Elevated levels of hemoglobin,&lt;/strong&gt; the iron-rich protein in red blood cells that carries oxygen.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Very low levels of erythropoietin (EPO),&lt;/strong&gt; a hormone that stimulates bone marrow to produce new red blood cells.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Bone marrow aspiration or biopsy&lt;/strong&gt;&lt;br /&gt;
+If your doctor suspects you have polycythemia vera, he or she may recommend a bone marrow aspiration or biopsy to collect a sample of your bone marrow. A bone marrow biopsy involves taking a sample of solid bone marrow material. A bone marrow aspiration is usually done at the same time as a biopsy. During an aspiration, your doctor withdraws a sample of the liquid portion of your marrow. 
+&lt;/p&gt;
+&lt;p&gt;
+If an examination of your bone marrow shows that it&apos;s producing higher than normal numbers of blood cells, it may be a sign of polycythemia vera. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Tests for the gene mutation that causes polycythemia vera&lt;/strong&gt;&lt;br /&gt;
+If you have polycythemia vera, analysis of your bone marrow or blood also may show the mutation in the cells (JAK2 V617F mutation) that&apos;s associated with the disease. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="60" Title="Bone marrow biopsy" URI="/images/image_popup/thumbs/r7_bonemarrowaspirationthu.jpg" Width="60" />
+				<Image Alt="Illustration showing a needle suctioning out liquid bone marrow from the hipbone 
+" Caption="In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac crest. A bone marrow biopsy is often taken at the same time. This second procedure removes a small piece of bone tissue and the enclosed marrow. 
+" Height="400" Title="Bone marrow biopsy" URI="/images/image_popup/r7_bonemarrowaspiration.jpg" Width="400" />
+				<HTML>
+					In a bone marrow aspiration and biopsy, a doctor or nurse uses a thin needle to remove a small amount of liquid bone marrow, usually from a spot in the back of your hipbone called the posterior iliac ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Polycythemia vera is a chronic condition that can&apos;t be cured. Treatment focuses on reducing your amount of blood cells. In many cases, treatment can prevent complications from polycythemia vera and decrease or eliminate the disease&apos;s signs and symptoms.
+&lt;/p&gt;
+&lt;p&gt;
+Treatment may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Taking blood out of your veins.&lt;/strong&gt; Drawing a certain amount of blood out of your veins in a procedure called phlebotomy is usually the first treatment option for people with polycythemia vera. This reduces the number of blood cells and decreases your blood volume, making it easier for your blood to function properly. How often you need phlebotomy depends on the severity of your condition.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medication to decrease blood cells.&lt;/strong&gt; For people with polycythemia vera who aren&apos;t helped by phlebotomy alone, medications, such as hydroxyurea (Droxia, Hydrea) or anagrelide (Agrylin), to suppress your bone marrow&apos;s ability to produce blood cells may be used. Interferon-alpha may be used to stimulate your immune system to fight the overproduction of red blood cells.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Low-dose aspirin.&lt;/strong&gt; Your doctor may recommend that you take a low dose of aspirin to reduce your risk of blood clots. Low-dose aspirin may also help reduce burning pain in your feet or hands.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Therapy to reduce itching.&lt;/strong&gt; If you have bothersome itching, your doctor may prescribe medication, such as antihistamines, or recommend ultraviolet light treatment to relieve your discomfort.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Lifestyle and home remedies
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+You can take steps to help yourself feel better if you&apos;ve been diagnosed with polycythemia vera. Try to:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Exercise.&lt;/strong&gt; Moderate exercise, such as walking, can improve your blood flow, which decreases your risk of blood clots. Leg and ankle stretches and exercises also can improve your blood circulation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid tobacco.&lt;/strong&gt; Using tobacco can cause your blood vessels to narrow, increasing the risk of heart attack or stroke due to blood clots.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be good to your skin.&lt;/strong&gt; To reduce itching, bathe in cool water and pat your skin dry. Avoid hot tubs, heated whirlpools, and hot showers or baths. Try not to scratch, as it can damage your skin and increase the risk of infection. Use lotion to keep your skin moist.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Avoid extreme temperatures.&lt;/strong&gt; Poor blood flow increases your risk of injury from hot and cold temperatures. In cold weather, always wear warm clothing, particularly on your hands and feet. In hot weather, protect yourself from the sun and drink plenty of liquids.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Watch for sores.&lt;/strong&gt; Poor circulation can make it difficult for sores to heal, particularly on your hands and feet. Inspect your feet regularly and tell your doctor about any sores.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Polycythemia vera
+	</Title>
+	<Abstract>
+		Polycythemia vera &amp;mdash; Comprehensive overview covers signs, symptoms, diagnosis, treatment of this blood disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00529" LinkType="Internal" ObjectID="F9C2A5C9-E236-3A87-20857F09DD395018" Title="Hemoglobin test" Url="http://www.mayoclinic.com/health/hemoglobin-test/MY00529" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00381" LinkType="Internal" ObjectID="6E26FB6E-E7FF-0DBD-19857255671C715E" Title="Hematocrit test" Url="http://www.mayoclinic.com/health/hematocrit/MY00381" />
+	</RelatedLinksBox>
+</Disease>

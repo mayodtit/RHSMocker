@@ -1,0 +1,380 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00182
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/down-syndrome/DS00182
+		</OriginalURL>
+		<UpdateDate>
+			2011-04-07
+		</UpdateDate>
+		<PublicationDate>
+			2000-02-21
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1361" Title="Genetics/Birth defects">
+					<Keyword MCVID="2895" Title="Genetic birth defects">
+						<Keyword MCVID="3108" Title="Down syndrome" />
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			E0DEA2FF-04FA-4D85-9326CDE6AD3F96DD
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				Down syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				trisomy
+			</MetaKeyword>
+			<MetaKeyword>
+				trisomy 21
+			</MetaKeyword>
+			<MetaKeyword>
+				extra chromosome
+			</MetaKeyword>
+			<MetaKeyword>
+				chromosome 21
+			</MetaKeyword>
+			<MetaKeyword>
+				Down&apos;s
+			</MetaKeyword>
+			<MetaKeyword>
+				Down&apos;s syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				downs
+			</MetaKeyword>
+			<MetaKeyword>
+				downs syndrome
+			</MetaKeyword>
+			<MetaKeyword>
+				nuchal translucency screening test
+			</MetaKeyword>
+			<MetaKeyword>
+				nuchal fold scan
+			</MetaKeyword>
+			<MetaKeyword>
+				nuchal translucency
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal testing
+			</MetaKeyword>
+			<MetaKeyword>
+				prenatal tests
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Down syndrome is a genetic disorder that causes lifelong mental retardation, developmental delays and other problems. Down syndrome varies in severity, so developmental problems range from moderate to serious. 
+&lt;/p&gt;
+&lt;p&gt;
+Down syndrome is the most common genetic cause of learning disabilities in children. 
+&lt;/p&gt;
+&lt;p&gt;
+Increased understanding of Down syndrome and early interventions make a big difference in the lives of both children and adults with Down syndrome. 
+&lt;/p&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the chromosomes of someone with Down syndrome 
+" Caption="In humans, the egg cells and sperm cells have 23 chromosomes. The rest of your cells normally contain 23 pairs of chromosomes &amp;mdash; one set from your father and one set from your mother. Children with Down syndrome usually have three copies of chromosome 21 &amp;mdash; called trisomy 21 &amp;mdash; instead of two copies. 
+" Height="60" Title="The genetic basis of Down syndrome" URI="/images/image_popup/thumbs/r7_downsyndromethu.jpg" Width="60" />
+				<Image Alt="Illustration showing the chromosomes of someone with Down syndrome 
+" Caption="In humans, the egg cells and sperm cells have 23 chromosomes. The rest of your cells normally contain 23 pairs of chromosomes &amp;mdash; one set from your father and one set from your mother. Children with Down syndrome usually have three copies of chromosome 21 &amp;mdash; called trisomy 21 &amp;mdash; instead of two copies. 
+" Height="240" Title="The genetic basis of Down syndrome" URI="/images/image_popup/r7_downsyndrome.jpg" Width="320" />
+				<HTML>
+					In humans, the egg cells and sperm cells have 23 chromosomes. The rest of your cells normally contain 23 pairs of chromosomes &amp;mdash; one set from your father and one set from your mother. Children ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with Down syndrome have a distinct facial appearance. Though not all children with Down syndrome have the same features, some of the more common features are: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Flattened facial features&lt;/li&gt;
+	&lt;li&gt;Small head&lt;/li&gt;
+	&lt;li&gt;Short neck&lt;/li&gt;
+	&lt;li&gt;Protruding tongue&lt;/li&gt;
+	&lt;li&gt;Upward slanting eyes, unusual for the child&apos;s ethnic group&lt;/li&gt;
+	&lt;li&gt;Unusually shaped ears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Children with Down syndrome may also have: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Poor muscle tone&lt;/li&gt;
+	&lt;li&gt;Broad, short hands with a single crease in the palm&lt;/li&gt;
+	&lt;li&gt;Relatively short fingers&lt;/li&gt;
+	&lt;li&gt;Excessive flexibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Infants with Down syndrome may be of average size, but typically they grow slowly and remain shorter than other children of similar age. In general, developmental milestones, such as sitting and crawling, occur at about twice the age of children without impairment. Children with Down syndrome also have some degree of mental retardation, most often in the mild to moderate range. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Human cells normally contain 23 pairs of chromosomes. One chromosome in each pair comes from your father, the other from your mother. 
+&lt;/p&gt;
+&lt;p&gt;
+Down syndrome results when one of three types of abnormal cell division involving chromosome 21 occurs. All three cell division abnormalities result in extra genetic material from chromosome 21, which is responsible for the characteristic features and developmental problems of Down syndrome. The three genetic variations that can cause Down syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Trisomy 21.&lt;/strong&gt; More than 90 percent of the time, Down syndrome is caused by trisomy 21. A child with trisomy 21 has three copies of chromosome 21 &amp;mdash; instead of the usual two copies &amp;mdash; in all of his or her cells. This form of Down syndrome is caused by abnormal cell division during the development of the sperm cell or the egg cell.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mosaic Down syndrome.&lt;/strong&gt; In this rare form of Down syndrome, children have some cells with an extra copy of chromosome 21. This mosaic of normal and abnormal cells is caused by abnormal cell division after fertilization.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Translocation Down syndrome.&lt;/strong&gt; Down syndrome can also occur when part of chromosome 21 becomes attached (translocated) onto another chromosome, before or at conception. Children with translocation Down syndrome have the usual two copies of chromosome 21, but they also have additional material from chromosome 21 attached to the translocated chromosome. This form of Down syndrome is uncommon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There are no known behavioral or environmental factors that cause Down syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Is it inherited?&lt;/strong&gt;&lt;br /&gt;
+Most of the time, Down syndrome isn&apos;t inherited. It&apos;s caused by a mistake in cell division during the development of the egg, sperm or embryo. 
+&lt;/p&gt;
+&lt;p&gt;
+Translocation Down syndrome is the only form of the disorder that can be passed from parent to child. However, only about 4 percent of children with Down syndrome have translocation. And only about half of these children inherited it from one of their parents. 
+&lt;/p&gt;
+&lt;p&gt;
+When translocations are inherited, the mother or father is a balanced carrier of the translocation, which means he or she has some rearranged genetic material, but no extra genetic material. A balanced carrier has no signs or symptoms of Down syndrome, but he or she can pass the translocation on to children. 
+&lt;/p&gt;
+&lt;p&gt;
+The chance of passing on the translocation depends on the sex of the parent who carries the rearranged chromosome 21: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;If the father is the carrier, the risk is about 3 percent.&lt;/li&gt;
+	&lt;li&gt;If the mother is the carrier, the risk is between 10 and 15 percent.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+			<PopupMedia>
+				<Thumbnail Alt="Illustration showing the chromosomes of someone with Down syndrome 
+" Caption="In humans, the egg cells and sperm cells have 23 chromosomes. The rest of your cells normally contain 23 pairs of chromosomes &amp;mdash; one set from your father and one set from your mother. Children with Down syndrome usually have three copies of chromosome 21 &amp;mdash; called trisomy 21 &amp;mdash; instead of two copies. 
+" Height="60" Title="The genetic basis of Down syndrome" URI="/images/image_popup/thumbs/r7_downsyndromethu.jpg" Width="60" />
+				<Image Alt="Illustration showing the chromosomes of someone with Down syndrome 
+" Caption="In humans, the egg cells and sperm cells have 23 chromosomes. The rest of your cells normally contain 23 pairs of chromosomes &amp;mdash; one set from your father and one set from your mother. Children with Down syndrome usually have three copies of chromosome 21 &amp;mdash; called trisomy 21 &amp;mdash; instead of two copies. 
+" Height="240" Title="The genetic basis of Down syndrome" URI="/images/image_popup/r7_downsyndrome.jpg" Width="320" />
+				<HTML>
+					In humans, the egg cells and sperm cells have 23 chromosomes. The rest of your cells normally contain 23 pairs of chromosomes &amp;mdash; one set from your father and one set from your mother. Children ...
+				</HTML>
+			</PopupMedia>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Some parents have a greater risk of having a baby with Down syndrome. Risk factors include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Advancing maternal age.&lt;/strong&gt; A woman&apos;s chances of giving birth to a child with Down syndrome increase with age because older eggs have a greater risk of improper chromosome division. By age 35, a woman&apos;s risk of conceiving a child with Down syndrome is 1 in 400. By age 45, the risk is 1 in 35. However, most children with Down syndrome are actually born to women under age 35 because younger women have far more babies.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Having had one child with Down syndrome.&lt;/strong&gt; Typically, a woman who has one child with Down syndrome has about a 1 percent chance of having another child with Down syndrome.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Being carriers of the genetic translocation for Down syndrome.&lt;/strong&gt; Both men and women can pass the genetic translocation for Down syndrome on to their children.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with Down syndrome can have a variety of complications, some of which become more prominent as they get older, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Heart defects.&lt;/strong&gt; Approximately half the children with Down syndrome are born with some type of heart defect. These heart problems can be life-threatening and may require surgery in early infancy.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Leukemia.&lt;/strong&gt; Young children with Down syndrome are more likely to develop leukemia than are other children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Infectious diseases.&lt;/strong&gt; Because of abnormalities in their immune systems, those with Down syndrome are much more susceptible to infectious diseases, such as pneumonia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dementia.&lt;/strong&gt; Later in life, people with Down syndrome have a greatly increased risk of dementia. Signs and symptoms of dementia often appear before age 40 in people with Down syndrome. Those who have dementia also have a higher rate of seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sleep apnea.&lt;/strong&gt; Because of soft tissue and skeletal alterations that lead to the obstruction of their airways, children with Down syndrome are at greater risk of obstructive sleep apnea.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Obesity.&lt;/strong&gt; People with Down syndrome have a greater tendency to be obese than does the general population.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other problems.&lt;/strong&gt; Down syndrome may also be associated with other health conditions, including gastrointestinal blockage, thyroid problems, early menopause, seizures, hearing loss, premature aging, skeletal problems and poor vision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Life expectancy&lt;/strong&gt;&lt;br /&gt;
+Life spans have increased dramatically for people with Down syndrome. In 1929, a baby born with Down syndrome often didn&apos;t live to age 10. Today, someone with Down syndrome can expect to live to 50 and beyond, depending on the severity of his or her health problems. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Screening for Down syndrome is offered as a routine part of prenatal care. A mother&apos;s age has traditionally been a factor in the decision to screen for Down syndrome. But now, the American Congress of Obstetricians and Gynecologists recommends offering various screening tests for Down syndrome to all pregnant women, regardless of age. Although screening tests aren&apos;t perfect, they can help you make decisions about more-invasive diagnostic tests and the course of the pregnancy. If your baby is diagnosed before birth with Down syndrome, you&apos;ll also have more time to prepare for caring for a child with special needs. Your health care provider can help you weigh the pros and cons of these tests. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Screening tests during pregnancy&lt;/strong&gt;&lt;br /&gt;
+Various screening tests can help identify whether you have a high risk of carrying a baby with Down syndrome. In the past, blood tests typically have been offered around the 16th week of pregnancy to screen for Down syndrome, spina bifida and various other chromosomal disorders. 
+&lt;/p&gt;
+&lt;p&gt;
+Currently, more women are electing the first trimester combined test, done in two steps during week 11 to 13 of pregnancy. The first trimester combined test includes: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound.&lt;/strong&gt; The doctor uses ultrasound to measure a specific region on the back of a baby&apos;s neck. This is known as a nuchal translucency screening test. When abnormalities are present, more fluid than usual tends to collect in this tissue.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; Results of the ultrasound are paired with blood tests that measure levels of pregnancy-associated plasma protein-A (PAPP-A) and a hormone known as human chorionic gonadotropin (HCG). Abnormal levels of PAPP-A and HCG may indicate a problem with the baby.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If early assessment isn&apos;t your first priority, you can have full integrated testing, which is done in two parts during the first two trimesters of your pregnancy. The results of the two parts are combined to estimate the risk that your baby has Down syndrome. This test can achieve the same level of detection as the first trimester combined test but with a lower false-positive rate, meaning that fewer women are incorrectly identified as carrying a baby with Down syndrome. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;First trimester.&lt;/strong&gt; Part one includes an ultrasound to measure nuchal translucency and a blood test to measure PAPP-A.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Second trimester.&lt;/strong&gt; Done at 15 to 20 weeks of pregnancy, the quad screen measures your blood level of four pregnancy-associated substances, alpha fetoprotein, estriol, HCG and inhibin A.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Of all the women who undergo screening tests for Down syndrome, about 5 percent are identified as being at risk. But the overall risk of Down syndrome among pregnant women is far below 5 percent. So the screening tests, by design, are much better at identifying women who may be at risk of having a baby with Down syndrome than women who actually have a baby with Down syndrome. 
+&lt;/p&gt;
+&lt;p&gt;
+If a screening test indicates a high risk of Down syndrome, a more invasive test may be used to determine whether your baby actually has Down syndrome (diagnostic test). 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests during pregnancy&lt;/strong&gt;&lt;br /&gt;
+If your screening test results are positive or worrisome or you&apos;re at high risk of having a baby with Down syndrome, you might consider further testing to confirm the diagnosis. Diagnostic tests that can identify Down syndrome include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Amniocentesis.&lt;/strong&gt; A sample of the amniotic fluid surrounding the fetus is withdrawn through a needle inserted into the mother&apos;s uterus. This sample is then used to analyze the chromosomes of the fetus. Doctors usually perform this test after 15 weeks of gestation. The test carries a 1 in 200 risk of miscarriage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chorionic villus sampling (CVS).&lt;/strong&gt; Cells taken from the mother&apos;s placenta can be used to analyze the fetal chromosomes. Typically performed between the ninth and 14th week of pregnancy, this test carries a 1 in 100 risk of miscarriage.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Percutaneous umbilical blood sampling (PUBS).&lt;/strong&gt; Blood is taken from a vein in the umbilical cord and examined for chromosomal defects. Doctors generally perform this test after 18 weeks of gestation. This test carries a greater risk of miscarriage than does amniocentesis or chorionic villus sampling. Generally, this test is only done when results of other tests are unclear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;New prenatal tests under study&lt;/strong&gt;&lt;br /&gt;
+Researchers are working on improved ways of detecting genetic problems early on, including: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Preimplantation genetic diagnosis.&lt;/strong&gt; One option that may become available for couples undergoing in vitro fertilization is testing of the embryo for genetic abnormalities before it&apos;s implanted in the womb.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Analysis of circulating fetal DNA.&lt;/strong&gt; Although not widely available, new tests that evaluate fetal DNA circulating in the mother&apos;s blood may create another option for prenatal diagnosis of Down syndrome and other chromosomal abnormalities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic tests for newborns&lt;/strong&gt;&lt;br /&gt;
+After birth, the initial diagnosis of Down syndrome is often based on the baby&apos;s appearance. If your child displays some or all of the characteristics of Down syndrome, your doctor probably will order a test called a chromosomal karyotype. This test is an analysis of your child&apos;s chromosomes. If there&apos;s an extra chromosome 21 present in all or some of the cells, the diagnosis is Down syndrome. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Early intervention for infants and children with Down syndrome can make a difference in realizing their potential abilities and in their quality of life. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Early intervention programs&lt;/strong&gt;&lt;br /&gt;
+Ask your doctor about early intervention programs in your area. These specialized programs &amp;mdash; in which children with Down syndrome are stimulated at an early age with appropriate sensory, motor and cognitive activities &amp;mdash; are available in most states. 
+&lt;/p&gt;
+&lt;p&gt;
+Programs vary from location to location, but they usually involve therapists and special educators whose goal is to help your baby develop motor skills, language, social skills and self-help skills. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Team care&lt;/strong&gt;&lt;br /&gt;
+If your child has Down syndrome, you&apos;ll likely rely on a team of specialists that, depending on your child&apos;s particular needs, will provide your child&apos;s medical care and help him or her develop skills as fully as possible. In addition to your primary care pediatrician, your team may include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A pediatric cardiologist&lt;/li&gt;
+	&lt;li&gt;A pediatric gastroenterologist&lt;/li&gt;
+	&lt;li&gt;A pediatric endocrinologist&lt;/li&gt;
+	&lt;li&gt;A developmental pediatrician&lt;/li&gt;
+	&lt;li&gt;An audiologist&lt;/li&gt;
+	&lt;li&gt;A physical therapist&lt;/li&gt;
+	&lt;li&gt;A speech pathologist&lt;/li&gt;
+	&lt;li&gt;An occupational therapist&lt;/li&gt;
+	&lt;li&gt;A pediatric neurologist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect&lt;/strong&gt;&lt;br /&gt;
+In general, children with Down syndrome usually meet developmental milestones, but it may take them longer than it does a child without Down syndrome. For example, children with Down syndrome may take twice as long to sit, crawl, walk or talk. However, early intervention programs, started as soon as possible, may give children with Down syndrome the best chance of success. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+When you learn your child has Down syndrome, you may experience a range of emotions, including anger, fear, worry, sorrow and guilt. You may not know what to expect, and you may worry about your ability to care for a baby with a disability. The best antidote for fear and worry is information and support. Consider these steps to prepare yourself: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find a team of trusted professionals.&lt;/strong&gt; You&apos;ll need to make important decisions about your child&apos;s education and treatment. Build a team of doctors, teachers and therapists you trust. These professionals can help evaluate the resources in your area and help explain state and federal programs for children with disabilities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out other families who are dealing with the same issues.&lt;/strong&gt; Most communities have support groups for parents of children with Down syndrome. You can also find Internet support groups.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Don&apos;t believe misinformation about Down syndrome.&lt;/strong&gt; Some people believe that children with Down syndrome must be placed in segregated special education schools and that adults with Down syndrome usually live in institutions. Not true. Many people with Down syndrome live with their families or independently, go to mainstream schools, read and write, and have jobs. People with Down syndrome can live fulfilling lives.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to prevent Down syndrome. However, if you&apos;re at high risk of having a child with Down syndrome or you already have one child with Down syndrome, you may wish to consult a genetic counselor before becoming pregnant. 
+&lt;/p&gt;
+&lt;p&gt;
+A genetic counselor can help you understand your chances of having a child with Down syndrome. He or she can also explain the prenatal tests that are available and help you figure out the pros and cons of testing. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Down syndrome
+	</Title>
+	<Abstract>
+		Down syndrome &amp;mdash; Comprehensive overview covers causes, risk factors and diagnosis of this genetic disorder.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Answer" DocID="AN02172" LinkType="Internal" ObjectID="E8001F2F-AB7D-A787-CA28A5F0CD35C53A" Title="Down syndrome blood test: How does it work?" Url="http://www.mayoclinic.com/health/down-syndrome-blood-test/AN02172" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00154" LinkType="Internal" ObjectID="E457E151-E7FF-0DBD-1ACADCF6AE70EE0B" Title="Chorionic villus sampling" Url="http://www.mayoclinic.com/health/chorionic-villus-sampling/MY00154" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00147" LinkType="Internal" ObjectID="DF9E0BE8-E7FF-0DBD-15BB97EE22BD0C3D" Title="Cordocentesis" Url="http://www.mayoclinic.com/health/percutaneous-umbilical-blood-sampling/MY00147" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00127" LinkType="Internal" ObjectID="C589091B-E7FF-0DBD-11CCE1487765D8C8" Title="Quad screen" Url="http://www.mayoclinic.com/health/quad-screen/MY00127" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00126" LinkType="Internal" ObjectID="C5869FD6-E7FF-0DBD-18E549CA275200EC" Title="First trimester screening" Url="http://www.mayoclinic.com/health/first-trimester-screening/MY00126" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00370" LinkType="Internal" ObjectID="53F2A74C-E7FF-0DBD-1EF0DCD38276A3C9" Title="Genetic testing" Url="http://www.mayoclinic.com/health/genetic-testing/MY00370" />
+		<LinkItem ContentType="Article" DocID="MY01403" LinkType="Internal" ObjectID="480AFA5C-FC69-E2EB-186342987BB11520" Title="Prenatal testing: Quick guide to common tests" Url="http://www.mayoclinic.com/health/prenatal-testing/MY01403" />
+	</RelatedLinksBox>
+</Disease>

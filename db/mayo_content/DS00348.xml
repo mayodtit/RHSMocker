@@ -1,0 +1,406 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00348
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/autism/DS00348
+		</OriginalURL>
+		<UpdateDate>
+			2012-10-06
+		</UpdateDate>
+		<PublicationDate>
+			1999-05-10
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1120" Title="02 months to 2 years infant/toddler" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1118" Title="Child">
+					<Keyword MCVID="1121" Title="03 to 5 years preschool" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="1153" Title="Mental health">
+					<Keyword MCVID="3263" Title="Childhood-onset disorders">
+						<Keyword MCVID="2126" Title="Pervasive developmental disorders">
+							<Keyword MCVID="2184" Title="Autism" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			3710611C-2A4D-4E6B-B91023AC481ECA12
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				autism
+			</MetaKeyword>
+			<MetaKeyword>
+				autism spectrum disorders
+			</MetaKeyword>
+			<MetaKeyword>
+				ASD
+			</MetaKeyword>
+			<MetaKeyword>
+				autistic disorder
+			</MetaKeyword>
+			<MetaKeyword>
+				autistic spectrum disorders
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autism is one of a group of serious developmental problems called autism spectrum disorders that appear in early childhood &amp;mdash; usually before age 3. Though symptoms and severity vary, all autism spectrum disorders affect a child&apos;s ability to communicate and interact with others. 
+&lt;/p&gt;
+&lt;p&gt;
+The number of children diagnosed with autism appears to be rising. It&apos;s not clear whether this is due to better detection and reporting of autism or a real increase in the number of cases or both. 
+&lt;/p&gt;
+&lt;p&gt;
+While there is no cure for autism, intensive, early treatment can make a big difference in the lives of many children with the disorder. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Children with autism generally have problems in three crucial areas of development &amp;mdash; social interaction, language and behavior. But because autism symptoms and severity vary greatly, two children with the same diagnosis may act quite differently and have strikingly different skills. In most cases, though, children with severe autism have marked impairments or a complete inability to communicate or interact with other people. 
+&lt;/p&gt;
+&lt;p&gt;
+Some children show signs of autism in early infancy. Other children may develop normally for the first few months or years of life, but then suddenly become withdrawn or aggressive or lose language skills they&apos;ve already acquired.
+&lt;/p&gt;
+&lt;p&gt;
+Though each child with autism is likely to have a unique pattern of behavior, these are some common autism symptoms: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Social skills&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fails to respond to his or her name&lt;/li&gt;
+	&lt;li&gt;Has poor eye contact&lt;/li&gt;
+	&lt;li&gt;Appears not to hear you at times&lt;/li&gt;
+	&lt;li&gt;Resists cuddling and holding&lt;/li&gt;
+	&lt;li&gt;Appears unaware of others&apos; feelings&lt;/li&gt;
+	&lt;li&gt;Seems to prefer playing alone &amp;mdash; retreats into his or her own world&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t ask for help or request things&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Language&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doesn&apos;t speak or has delayed speech&lt;/li&gt;
+	&lt;li&gt;Loses previously acquired ability to say words or sentences&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t make eye contact when making requests&lt;/li&gt;
+	&lt;li&gt;Speaks with an abnormal tone or rhythm &amp;mdash; may use a singsong voice or robot-like speech&lt;/li&gt;
+	&lt;li&gt;Can&apos;t start a conversation or keep one going&lt;/li&gt;
+	&lt;li&gt;May repeat words or phrases verbatim, but doesn&apos;t understand how to use them&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t appear to understand simple questions or directions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Performs repetitive movements, such as rocking, spinning or hand-flapping&lt;/li&gt;
+	&lt;li&gt;Develops specific routines or rituals and becomes disturbed at the slightest change&lt;/li&gt;
+	&lt;li&gt;Moves constantly&lt;/li&gt;
+	&lt;li&gt;May be fascinated by details of an object, such as the spinning wheels of a toy car, but doesn&apos;t understand the &quot;big picture&quot; of the subject&lt;/li&gt;
+	&lt;li&gt;May be unusually sensitive to light, sound and touch, and yet oblivious to pain&lt;/li&gt;
+	&lt;li&gt;Does not engage in imitative or make-believe play&lt;/li&gt;
+	&lt;li&gt;May have odd food preferences, such as eating only a few foods, or craving items that are not food, such as chalk or dirt&lt;/li&gt;
+	&lt;li&gt;May perform activities that could cause self-harm, such as headbanging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Young children with autism also have a hard time sharing experiences with others. When read to, for example, they&apos;re unlikely to point at pictures in the book. This early-developing social skill is crucial to later language and social development.
+&lt;/p&gt;
+&lt;p&gt;
+As they mature, some children with autism become more engaged with others and show fewer disturbances in behavior. Some, usually those with the least severe problems, eventually may lead normal or near-normal lives. Others, however, continue to have difficulty with language or social skills, and the teen years can bring worse behavioral problems.
+&lt;/p&gt;
+&lt;p&gt;
+Most children with autism are slow to gain new knowledge or skills, and some have signs of lower than normal intelligence. Other children with autism have normal to high intelligence. These children learn quickly, yet have trouble communicating, applying what they know in everyday life and adjusting in social situations. A small number of children with autism are savants &amp;mdash; they have exceptional skills in a specific area, such as art, math or music. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;br /&gt;
+&lt;/strong&gt;Babies develop at their own pace, and many don&apos;t follow exact timelines found in some parenting books. But children with autism usually show some signs of delayed development within the first year. If you suspect that your child may have autism, discuss your concerns with your doctor. The symptoms associated with autism can also be associated with other developmental disorders.The earlier that treatment begins, the more effective it will be. 
+&lt;/p&gt;
+&lt;p&gt;
+Your doctor may recommend more developmental tests if your child: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doesn&apos;t respond with a smile or happy expression by 6 months&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t mimic sounds or facial expressions by 9 months&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t babble or coo by 12 months&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t gesture &amp;mdash; such as point or wave &amp;mdash; by 12 months&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t say single words by 16 months&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t say two-word phrases by 24 months&lt;/li&gt;
+	&lt;li&gt;Loses previously acquired language or social skills at any age&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autism has no single, known cause. Given the complexity of the disease, and the fact that symptoms and severity vary, there are probably many causes. Both genetics and environment may play a role.
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Genetic problems&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt; Several genes appear to be involved in autism. Some may make a child more susceptible to the disorder. Others affect brain development or the way that brain cells communicate. Still others may determine the severity of symptoms. Each problem in genes may account for a small number of cases, but taken together, the influence of genes is likely substantial. Some genetic problems seem to be inherited, while others happen spontaneously.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Environmental factors.&lt;/strong&gt; Researchers are currently exploring whether such factors as viral infections, complications during pregnancy and air pollutants play a role in triggering autism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;No link between vaccines and autism&lt;br /&gt;
+&lt;/strong&gt;One of the greatest controversies in autism is centered on whether a link exists between autism and certain childhood vaccines, particularly the measles-mumps-rubella (MMR) vaccine. Despite extensive research, no reliable study has shown a link between autism and the MMR vaccine. 
+&lt;/p&gt;
+&lt;p&gt;
+Avoiding childhood vaccinations can place your child in danger of catching and spreading serious diseases, including whooping cough (pertussis), measles or mumps.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Autism affects children of all races and nationalities, but certain factors increase a child&apos;s risk. They include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Your child&apos;s sex.&lt;/strong&gt; Boys are four to five times more likely to develop autism than girls are.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family history.&lt;/strong&gt; Families who have one child with autism have an increased risk of having another child with the disorder. It&apos;s also not uncommon for the parents or relatives of an autistic child to have minor problems with social or communication skills themselves or to engage in certain autistic behaviors.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other disorders.&lt;/strong&gt; Children with certain medical conditions have a higher than normal risk of having autism. These conditions include fragile X syndrome, an inherited disorder that causes intellectual problems; tuberous sclerosis, a condition in which benign tumors develop in the brain; the neurological disorder Tourette syndrome; and epilepsy, which causes seizures.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parents&apos; ages.&lt;/strong&gt; There may also be a connection between children born to older parents and autism, but more research is necessary to establish this link.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor will look for developmental problems at regular checkups. If your child shows any autism symptoms, he or she will likely be referred to a child psychologist, pediatric neurologist or developmental pediatrician for a thorough clinical evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;br /&gt;
+&lt;/strong&gt;To prepare for your child&apos;s appointment: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a list of any medications,&lt;/strong&gt; including vitamins, herbs and over-the-counter medicines, your child is taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of all the changes that you and others have observed&lt;/strong&gt; in your child&apos;s behavior.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring notes of any observations from other adults and caregivers,&lt;/strong&gt; such as baby sitters, relatives and teachers. If your child has been evaluated by an early intervention or school program, it would be helpful to bring this assessment.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a record of developmental milestones for your child,&lt;/strong&gt; such as a baby book, if you have one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a video of your child&apos;s unusual behaviors or movements,&lt;/strong&gt; if you have one.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Try to remember when your other children began talking and reaching developmental milestones,&lt;/strong&gt; if your child has siblings, and share that information with the doctor.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Be prepared to describe how your child plays and interacts&lt;/strong&gt; with other children, siblings and parents.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bring a family member or friend with you,&lt;/strong&gt; if possible, to help you remember information and for emotional support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Make a list of questions that you want to ask your child&apos;s doctor. Don&apos;t be afraid to ask questions any time you don&apos;t understand something. Questions to ask might include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Why do you think my child does (or doesn&apos;t) have autism?&lt;/li&gt;
+	&lt;li&gt;Is there a way to confirm the diagnosis?&lt;/li&gt;
+	&lt;li&gt;If my child does have autism, is there a way to tell how severe it is?&lt;/li&gt;
+	&lt;li&gt;What changes can I expect to see in my child over time?&lt;/li&gt;
+	&lt;li&gt;What kind of special therapies or care do children with autism need?&lt;/li&gt;
+	&lt;li&gt;How much and what kinds of regular medical care will my child need?&lt;/li&gt;
+	&lt;li&gt;What kind of support is available to families of children with autism?&lt;/li&gt;
+	&lt;li&gt;How can I learn more about autism?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your child&apos;s doctor&lt;br /&gt;
+&lt;/strong&gt;Your child&apos;s doctor is likely to ask you a number of questions. Be ready to answer them to reserve time to go over any points you want to focus on. Your doctor may ask: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;What specific behaviors prompted your visit today?&lt;/li&gt;
+	&lt;li&gt;When did you first notice these symptoms in your child? Have others noticed signs? &lt;/li&gt;
+	&lt;li&gt;Have these behaviors been continuous or occasional?&lt;/li&gt;
+	&lt;li&gt;Does your child have any other symptoms that might seem unrelated to autism, such as stomach problems?&lt;/li&gt;
+	&lt;li&gt;Does anything seem to improve your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;What, if anything, appears to worsen your child&apos;s symptoms?&lt;/li&gt;
+	&lt;li&gt;When did your child first crawl? Walk? Say his or her first word?&lt;/li&gt;
+	&lt;li&gt;Does your child have delayed speech?&lt;/li&gt;
+	&lt;li&gt;What are some of your child&apos;s favorite activities? Is there one that he or she favors?&lt;/li&gt;
+	&lt;li&gt;How does your child interact with you, siblings and other children? Does your child show interest in others, make eye contact, smile or want to play with others?&lt;/li&gt;
+	&lt;li&gt;Have you noticed a change in your child&apos;s level of frustration in social settings?&lt;/li&gt;
+	&lt;li&gt;Does your child have a family history of autism, language delay, Rett syndrome, obsessive-compulsive disorder, or anxiety or other mood disorders?&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your child&apos;s doctor will look for signs of developmental delays at regular checkups. If your child shows some signs of autism, you may be referred to a specialist who treats children with autism. This specialist, working with a team of professionals, can perform a formal evaluation. 
+&lt;/p&gt;
+&lt;p&gt;
+Because autism varies widely in severity, making a diagnosis may be difficult. There isn&apos;t a specific medical test to determine the disorder. Instead, an autism specialist may: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Observe your child and ask how your child&apos;s social skills, language skills and behavior have developed and changed over time&lt;/li&gt;
+	&lt;li&gt;Give your child developmental tests covering speech, language, developmental level, and social and behavioral issues&lt;/li&gt;
+	&lt;li&gt;Present structured social and communication interactions to your child and score the performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Signs of autism often appear early in development when there are obvious delays in language skills and social interactions. Diagnosis is usually made before age 3. Early diagnosis and intervention is most helpful and can improve skill and language development.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Diagnostic criteria for autism&lt;br /&gt;
+&lt;/strong&gt;For your child to be diagnosed with autism, he or she must meet the symptom criteria in the Diagnostic and Statistical Manual of Mental Disorders (DSM) published by the American Psychiatric Association. This manual is used by mental health providers to diagnose mental conditions and by insurance companies to reimburse for treatment. 
+&lt;/p&gt;
+&lt;p&gt;
+To be diagnosed with autism, your child must have six or more of the following symptoms, and two or more of those symptoms must fall under the social skills category.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Social skills&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Has difficulty with nonverbal behaviors, such as making eye contact, making facial expressions or using gestures&lt;/li&gt;
+	&lt;li&gt;Has difficulty forming friendships with peers and seems to prefer playing alone&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t share experiences or emotions with other people, such as sharing achievements or pointing out objects or other interests&lt;/li&gt;
+	&lt;li&gt;Appears unaware of others&apos; feelings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Communication skills&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Doesn&apos;t speak or has delayed speech and doesn&apos;t make an attempt to communicate with gestures or miming&lt;/li&gt;
+	&lt;li&gt;Can&apos;t start a conversation or keep one going&lt;/li&gt;
+	&lt;li&gt;May repeat words or phrases verbatim, but doesn&apos;t understand how to use them&lt;/li&gt;
+	&lt;li&gt;Doesn&apos;t play make-believe or doesn&apos;t imitate the behavior of adults when playing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Behavior&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Develops interests in objects or topics that are abnormal in intensity, detail or focus&lt;/li&gt;
+	&lt;li&gt;Performs repetitive movements, such as rocking, spinning or hand-flapping&lt;/li&gt;
+	&lt;li&gt;Becomes disturbed at the slightest change in routines or rituals&lt;/li&gt;
+	&lt;li&gt;May be fascinated by parts of an object, such as the spinning wheels of a toy car&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+No cure exists for autism, and there is no one-size-fits-all treatment. The range of home-based and school-based treatments and interventions for autism can be overwhelming. 
+&lt;/p&gt;
+&lt;p&gt;
+The goal of treatment is to maximize your child&apos;s ability to function by reducing autism symptoms and supporting development and learning. Your doctor can help identify resources in your area. Treatment options may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Behavior and communication therapies.&lt;/strong&gt; Many programs address the range of social, language and behavioral difficulties associated with autism. Some programs focus on reducing problem behaviors and teaching new skills. Others focus on teaching children how to act in social situations or how to communicate better with other people. Though children don&apos;t always outgrow autism, they may learn to function well.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Educational therapies.&lt;/strong&gt; Children with autism often respond well to highly structured education programs. Successful programs often include a team of specialists and a variety of activities to improve social skills, communication and behavior. Preschool children who receive intensive, individualized behavioral interventions often show good progress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Family therapies.&lt;/strong&gt; Parents and family members can learn how to play and interact with their children in ways that promote social interaction skills, manage problem behaviors, and teach daily living skills and communication.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; No medication can improve the core signs of autism, but certain medications can help control symptoms. For example, antidepressants may be prescribed for anxiety, and antipsychotic drugs are sometimes used to treat severe behavioral problems. Other medications may be prescribed if your child is hyperactive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;Managing other medical conditions&lt;br /&gt;
+&lt;/strong&gt;Children with autism may also have other medical conditions, such as epilepsy, sleep disorders, limited food preferences or stomach problems. Ask your child&apos;s doctor how to best manage these conditions together. Keep all of your child&apos;s health care providers updated on any medications and supplements your child is taking. Some medications and supplements can interact, causing dangerous side effects.
+&lt;/p&gt;
+&lt;p&gt;
+Teens and young adults with autism may have issues with body changes, increased social awareness and transitions. Your health care provider and community advocacy and service organizations can offer help.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Alternative medicine
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Because autism can&apos;t be cured, many parents seek out alternative and complementary therapies, but these treatments have little or no research to support their effectiveness. You could, unintentionally, reinforce negative behaviors. And some alternative treatments can be potentially dangerous. 
+&lt;/p&gt;
+&lt;p&gt;
+Talk with your child&apos;s doctor about the scientific evidence of any therapy that you&apos;re considering for your child. Examples of complementary and alternative therapies include: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Creative therapies.&lt;/strong&gt; Some parents choose to supplement educational and medical intervention with art therapy or music therapy, which focuses on reducing a child&apos;s sensitivity to touch or sound.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Sensory-based therapies.&lt;/strong&gt; These therapies are based on the theory that people with autism have a sensory processing disorder that causes problems tolerating or processing sensory information, such as touch, balance and hearing. Therapists use brushes, squeeze toys, trampolines and other materials to stimulate these senses and organize the sensory system. A sensory processing disorder is not an official diagnosis, and it is not clear if this is even the problem experienced by people with autism. Research has not shown these therapies to be effective, but it&apos;s possible they may offer some benefit when used along with other treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Special diets.&lt;/strong&gt; Several diet strategies have been suggested as possible treatments for autism, but more research is necessary to see if they have any effect on autism signs and symptoms. To find out more, talk to a registered dietitian with expertise in autism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Chelation therapy.&lt;/strong&gt; This treatment is said to remove mercury and other heavy metals from the body. However, there&apos;s no known link between mercury and autism. Chelation therapy for autism is not supported by research evidence and can be very dangerous. In some cases, children treated with chelation therapy have died.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Acupuncture.&lt;/strong&gt; This therapy has been used with the goal of improving autism symptoms. However, the effectiveness of acupuncture for autism has not been supported by research.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Coping and support
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Raising a child with autism can be physically exhausting and emotionally draining. These suggestions may help: 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Find a team of trusted professionals.&lt;/strong&gt; You&apos;ll need to make important decisions about your child&apos;s education and treatment. A team, coordinated by your doctor, may include social workers, teachers and therapists, who can help look at and explain the resources in your area. Make certain this team includes a case manager or service coordinator, who can help access financial services and government programs. &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Take time for yourself and other family members.&lt;/strong&gt; Caring for a child with autism can be a round-the-clock job that puts stress on your personal relationships and your whole family. To avoid burnout, take time out to relax, exercise or enjoy your favorite activities. Try to schedule one-on-one time with your other children and plan date nights with your spouse or partner &amp;mdash; even if it&apos;s just watching a movie together after the children go to bed.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Seek out other families of children with autism.&lt;/strong&gt; Other families struggling with the challenges of autism may have useful advice. Many communities have support groups for parents and siblings of children with autism.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Learn about the disorder.&lt;/strong&gt; There are many myths and misconceptions about autism. Learning the truth can help you better understand your child and his or her attempts to communicate. With time, you&apos;ll likely be rewarded by seeing your child grow and learn and even show affection &amp;mdash; in his or her own way.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Keep organized records of visits and evaluations with service providers.&lt;/strong&gt; Your child may have visits, evaluations and meetings with many people involved in his or her care. Keep an organized file of these meetings and reports to help you decide about treatment options and monitor progress.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stay current on new technologies and therapies.&lt;/strong&gt; Researchers continue to explore new approaches to help children with autism. See the Centers for Disease Control and Prevention website on autism and autism spectrum disorders for helpful materials and links to resources on autism.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Prevention
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+There&apos;s no way to prevent autism. But autism can be treated, and children can improve their language and social skills with treatments. 
+&lt;/p&gt;
+&lt;p&gt;
+If your child is diagnosed with autism, talk to experts about creating a treatment strategy. Keep in mind that you may need to try several different treatments before finding the best combination of therapies for your child. 
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Autism
+	</Title>
+	<Abstract>
+		Autism &amp;mdash; Comprehensive overview covers symptoms, causes, treatment of autism and parenting a child with autism.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="Article" DocID="CC00014" LinkType="Internal" ObjectID="F670F4E4-2C82-44A6-AFB2818FDD6A0AF2" Title="Childhood vaccines: Tough questions, straight answers" Url="http://www.mayoclinic.com/health/vaccines/CC00014" />
+		<LinkItem ContentType="Answer" DocID="AN01519" LinkType="Internal" ObjectID="CED40120-E7FF-0DBD-14A574DE0840D588" Title="Autism treatment: Can special diets help?" Url="http://www.mayoclinic.com/health/autism-treatment/AN01519" />
+		<LinkItem ContentType="Answer" DocID="AN01488" LinkType="Internal" ObjectID="30A2A979-E7FF-0DBD-1300E99DF1B248E8" Title="Autism treatment: Can chelation therapy help?" Url="http://www.mayoclinic.com/health/autism-treatment/AN01488" />
+	</RelatedLinksBox>
+</Disease>

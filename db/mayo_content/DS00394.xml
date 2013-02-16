@@ -1,0 +1,343 @@
+<Disease xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Disease.xsd">
+	<Meta>
+		<Attribution Url="http://www.mayoclinic.com">
+			Content provided by MayoClinic.com
+		</Attribution>
+		<ContentType>
+			Disease
+		</ContentType>
+		<CopyrightOwner DocID="MayoCopyright">
+			33DF435C-58F5-47FE-B83E25C1B9EA9A15
+		</CopyrightOwner>
+		<DocID>
+			DS00394
+		</DocID>
+		<OriginalURL>
+			http://www.mayoclinic.com/health/menorrhagia/DS00394
+		</OriginalURL>
+		<UpdateDate>
+			2011-06-25
+		</UpdateDate>
+		<PublicationDate>
+			2001-12-04
+		</PublicationDate>
+		<ControlWords>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1125" Title="19 to 44 younger" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1000" Title="Age">
+				<Keyword MCVID="1124" Title="Adult">
+					<Keyword MCVID="1126" Title="45 to 64 middle" />
+				</Keyword>
+			</Category>
+			<Category MCVID="1129" Title="Gender">
+				<Keyword MCVID="1131" Title="Women" />
+			</Category>
+			<Category MCVID="1001" Title="Diseases and conditions">
+				<Keyword MCVID="2041" Title="Reproductive system">
+					<Keyword MCVID="4423" Title="Female reproductive stage">
+						<Keyword MCVID="2046" Title="Menstrual cycle">
+							<Keyword MCVID="2171" Title="Menorrhagia" />
+						</Keyword>
+					</Keyword>
+				</Keyword>
+			</Category>
+		</ControlWords>
+		<ObjectID>
+			B7ACC24F-E124-4B69-A0231E7FEB5ECEC8
+		</ObjectID>
+		<MayoVersion>
+			4
+		</MayoVersion>
+		<MetaKeywords>
+			<MetaKeyword>
+				menorrhagia
+			</MetaKeyword>
+			<MetaKeyword>
+				menstrual bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				heavy menstrual bleeding
+			</MetaKeyword>
+			<MetaKeyword>
+				menstruation
+			</MetaKeyword>
+			<MetaKeyword>
+				excessive menstrual bleeding
+			</MetaKeyword>
+		</MetaKeywords>
+		<HasFlash>
+			0
+		</HasFlash>
+		<Source />
+		<TermsOfUse DocID="AM00021" />
+	</Meta>
+	<Body>
+		<Section>
+			<SectionHead>
+				Definition
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Menorrhagia is the medical term for menstrual periods in which bleeding is abnormally heavy or prolonged. Although heavy menstrual bleeding is a common concern among premenopausal women, most women don&apos;t experience blood loss severe enough to be defined as menorrhagia.
+&lt;/p&gt;
+&lt;p&gt;
+With menorrhagia, every period you have causes enough blood loss and cramping that you can&apos;t maintain your usual activities. If you have menstrual bleeding so heavy that you dread your period, talk with your doctor. There are many effective treatments for menorrhagia.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Symptoms
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+The signs and symptoms of menorrhagia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Soaking through one or more sanitary pads or tampons every hour&lt;/strong&gt; for several consecutive hours&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Needing to use double sanitary protection&lt;/strong&gt; to control your menstrual flow&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Needing to wake up to change sanitary protection&lt;/strong&gt; during the night&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Bleeding for a week&lt;/strong&gt; or longer&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Passing large blood clots&lt;/strong&gt; with menstrual flow&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Restricting daily activities&lt;/strong&gt; due to heavy menstrual flow&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Symptoms of anemia,&lt;/strong&gt; such as tiredness, fatigue or shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;When to see a doctor&lt;/strong&gt;&lt;br /&gt;
+Seek medical help before your next scheduled exam if you experience:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Vaginal bleeding so heavy it soaks at least one pad or tampon an hour for more than a few hours&lt;/li&gt;
+	&lt;li&gt;Irregular vaginal bleeding&lt;/li&gt;
+	&lt;li&gt;Any vaginal bleeding after menopause&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Causes
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+In some cases, the cause of heavy menstrual bleeding is unknown, but a number of conditions may cause menorrhagia. Common causes include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Hormonal imbalance.&lt;/strong&gt; In a normal menstrual cycle, a balance between the hormones estrogen and progesterone regulates the buildup of the lining of the uterus (endometrium), which is shed during menstruation. If a hormonal imbalance occurs, the endometrium develops in excess and eventually sheds by way of heavy menstrual bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dysfunction of the ovaries.&lt;/strong&gt; If ovulation does not occur in a menstrual cycle (anovulation), progesterone is not produced. This causes hormonal imbalance and may result in menorrhagia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Uterine fibroids.&lt;/strong&gt; These noncancerous (benign) tumors of the uterus appear during your childbearing years. Uterine fibroids may cause heavier than normal or prolonged menstrual bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Polyps.&lt;/strong&gt; Small, benign growths on the lining of the uterine wall (uterine polyps) may cause heavy or prolonged menstrual bleeding. Polyps of the uterus most commonly occur in women of reproductive age as the result of high hormone levels.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Adenomyosis.&lt;/strong&gt; This condition occurs when glands from the endometrium become embedded in the uterine muscle, often causing heavy bleeding and painful menses. Adenomyosis is most likely to develop if you&apos;re a middle-aged woman who has had children.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Intrauterine device (IUD).&lt;/strong&gt; Menorrhagia is a well-known side effect of using a nonhormonal intrauterine device for birth control. When an IUD is the cause of excessive menstrual bleeding, you may need to remove it.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pregnancy complications.&lt;/strong&gt; A single, heavy, late period may be due to a miscarriage. If bleeding occurs at the usual time of menstruation, however, miscarriage is unlikely to be the cause. An ectopic pregnancy &amp;mdash; implantation of a fertilized egg within the fallopian tube instead of the uterus &amp;mdash; also may cause menorrhagia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cancer.&lt;/strong&gt; Rarely, uterine cancer, ovarian cancer and cervical cancer can cause excessive menstrual bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Inherited bleeding disorders.&lt;/strong&gt; Some blood coagulation disorders &amp;mdash; such as von Willebrand&apos;s disease, a condition in which an important blood-clotting factor is deficient or impaired &amp;mdash; can cause abnormal menstrual bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Medications.&lt;/strong&gt; Certain drugs, including anti-inflammatory medications and anticoagulants, can contribute to heavy or prolonged menstrual bleeding. Improper use of hormone medications also can cause menorrhagia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Other medical conditions.&lt;/strong&gt; A number of other medical conditions, including pelvic inflammatory disease (PID), thyroid problems, endometriosis, and liver or kidney disease, may be associated with menorrhagia.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Risk factors
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Menorrhagia is most often due to a hormonal imbalance that causes menstrual cycles without ovulation. In a normal cycle, the release of an egg from the ovaries stimulates the body&apos;s production of progesterone, the female hormone most responsible for keeping periods regular. When no egg is released, insufficient progesterone can cause heavy menstrual bleeding. Menstrual cycles without ovulation (anovulatory cycles) are most common among two separate age groups:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Adolescent girls who have recently started menstruating.&lt;/strong&gt; Girls are especially prone to anovulatory cycles in the first year and a half after their first menstrual period (menarche).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Older women approaching menopause.&lt;/strong&gt; Women ages 40 to 50 are at increased risk of hormonal changes that lead to anovulatory cycles.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Complications
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Excessive or prolonged menstrual bleeding can lead to other medical conditions, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;
+	&lt;strong&gt;Iron deficiency anemia.&lt;/strong&gt; In this common type of anemia, your blood is low in hemoglobin, a substance that enables red blood cells to carry oxygen to tissues. Low hemoglobin may be the result of insufficient iron. Menorrhagia may deplete iron levels enough to increase the risk of iron deficiency anemia. Signs and symptoms include pallor, weakness and fatigue.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Although diet plays a role in iron deficiency anemia, the problem is complicated by heavy menstrual periods. Most cases of anemia are mild, but even mild anemia can cause weakness and fatigue. Moderate to severe anemia can also cause shortness of breath, rapid heart rate, lightheadedness and headaches.
+	&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Severe pain.&lt;/strong&gt; Heavy menstrual bleeding often is accompanied by painful menstrual cramps (dysmenorrhea). Sometimes the cramps associated with menorrhagia are severe enough to require prescription medication or a surgical procedure.&lt;/li&gt;
+&lt;/ul&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Preparing for your appointment
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+If your periods are so heavy that they limit your lifestyle, make an appointment with your doctor or other health care provider.
+&lt;/p&gt;
+&lt;p&gt;
+Here&apos;s some information to help you prepare for your appointment and know what to expect from your provider.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Ask if there are any pre-appointment instructions.&lt;/strong&gt; At the time you make the appointment, ask if there&apos;s anything you should do in advance. For example, your doctor may ask you to keep notes about the dates, length and heaviness of your bleeding on a calendar.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down any symptoms you&apos;re experiencing,&lt;/strong&gt; and for how long. In addition to the frequency and volume of your periods, tell your doctor about other symptoms that typically occur around the time of your period, such as breast tenderness or pelvic pain.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down key personal information,&lt;/strong&gt; including any recent changes or stressors in your life. These factors can affect your menstrual cycle.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Make a list of your key medical information,&lt;/strong&gt; including any other conditions for which you&apos;re being treated and the names of any medications, vitamins or supplements you&apos;re taking.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Write down questions to ask your doctor.&lt;/strong&gt; Creating your list of questions in advance can help you make the most of your time with your doctor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+For menorrhagia, some basic questions to ask your doctor include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Are my periods abnormally heavy?&lt;/li&gt;
+	&lt;li&gt;Do I need any tests?&lt;/li&gt;
+	&lt;li&gt;What treatment approach do you recommend trying first?&lt;/li&gt;
+	&lt;li&gt;If the first treatment doesn&apos;t work, what will we try next?&lt;/li&gt;
+	&lt;li&gt;Are there any side effects associated with these treatments?&lt;/li&gt;
+	&lt;li&gt;Will any of these treatments affect my ability to have future children?&lt;/li&gt;
+	&lt;li&gt;Are there any lifestyle changes I can make to help reduce or manage my symptoms?&lt;/li&gt;
+	&lt;li&gt;Do you expect my symptoms will change over time?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In addition to the questions that you&apos;ve prepared to ask your doctor, don&apos;t hesitate to ask questions during your appointment at any time that you don&apos;t understand something.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;What to expect from your doctor&lt;/strong&gt;&lt;br /&gt;
+Your doctor is likely to ask you a number of questions. Being ready to answer them may reserve time to go over any points you want to spend more time on. You may be asked:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;When did your last period start?&lt;/li&gt;
+	&lt;li&gt;At what age did you begin menstruating?&lt;/li&gt;
+	&lt;li&gt;How have your periods changed over time?&lt;/li&gt;
+	&lt;li&gt;Do you experience breast tenderness or pelvic pain during your menstrual cycle?&lt;/li&gt;
+	&lt;li&gt;How long do your periods last?&lt;/li&gt;
+	&lt;li&gt;How frequently do you need to change your tampon or pad when you&apos;re menstruating?&lt;/li&gt;
+	&lt;li&gt;Do you ever need to use double protection &amp;mdash; a tampon and pad at the same time &amp;mdash; during your period?&lt;/li&gt;
+	&lt;li&gt;Do you experience severe cramping during your period?&lt;/li&gt;
+	&lt;li&gt;Do you experience fatigue during your period?&lt;/li&gt;
+	&lt;li&gt;How much do you exercise?&lt;/li&gt;
+	&lt;li&gt;Has your body weight recently changed?&lt;/li&gt;
+	&lt;li&gt;Have you recently experienced significant stress or emotional difficulty?&lt;/li&gt;
+	&lt;li&gt;Are you sexually active?&lt;/li&gt;
+	&lt;li&gt;Are you using any type of birth control?&lt;/li&gt;
+	&lt;li&gt;Do you have any family history of bleeding disorders?&lt;/li&gt;
+	&lt;li&gt;Do your symptoms limit your ability to function? For example, have you ever had to miss school or work because of your period?&lt;/li&gt;
+	&lt;li&gt;Are you currently being treated or have you recently been treated for any other medical conditions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;strong&gt;What you can do in the meantime&lt;/strong&gt;&lt;br /&gt;
+While you wait for your appointment, check with your family members to find out if any relatives have been diagnosed with bleeding disorders. In addition, start jotting down notes about how often and how much you bleed over the course of each month. To track the volume of bleeding, count how many tampons or pads you saturate during an average menstrual period.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Tests and diagnosis
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Your doctor will most likely ask about your medical history and menstrual cycles. You may be asked to keep a diary of bleeding and nonbleeding days, including notes on how heavy your flow was and how much sanitary protection you needed to control it. Your doctor will do a physical exam and may recommend one or more tests or procedures such as:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Blood tests.&lt;/strong&gt; A sample of your blood is evaluated in case excessive blood loss during menstruation has made you anemic. Tests may also be done to check for thyroid disorders or blood-clotting abnormalities.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Pap test.&lt;/strong&gt; Your doctor collects cells from your cervix for microscopic examination to detect infection, inflammation or changes that may be cancerous or may lead to cancer.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometrial biopsy.&lt;/strong&gt; Your doctor may take a sample of tissue from the inside of your uterus to be examined under a microscope.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Ultrasound scan.&lt;/strong&gt; This imaging method uses sound waves to produce images of your uterus, ovaries and pelvis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Based on the results of your initial tests, your doctor may recommend further testing, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Sonohysterogram.&lt;/strong&gt; This ultrasound scan is done after fluid is injected, through a tube, into your uterus by way of your vagina and cervix. This allows your doctor to look for problems in the lining of your uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hysteroscopy.&lt;/strong&gt; A tiny tube with a light is inserted through your vagina and cervix into your uterus, which allows your doctor to see the inside of your uterus.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Dilation and curettage (D&amp;C).&lt;/strong&gt; In this procedure, your doctor opens (dilates) your cervix and then inserts a spoon-shaped instrument (curet) into your uterus to collect tissue from the uterine lining. This tissue is examined in the laboratory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Doctors can be certain of a diagnosis of menorrhagia only after ruling out other menstrual disorders, medical conditions or medications as possible causes or aggravations of this condition.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+		<Section>
+			<SectionHead>
+				Treatments and drugs
+			</SectionHead>
+			<HTML>
+				&lt;p&gt;
+Specific treatment for menorrhagia is based on a number of factors, including:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Your overall health and medical history&lt;/li&gt;
+	&lt;li&gt;The cause and severity of the condition&lt;/li&gt;
+	&lt;li&gt;Your tolerance for specific medications, procedures or therapies&lt;/li&gt;
+	&lt;li&gt;The likelihood that your periods will become less heavy soon&lt;/li&gt;
+	&lt;li&gt;Your future childbearing plans&lt;/li&gt;
+	&lt;li&gt;Effects of the condition on your lifestyle&lt;/li&gt;
+	&lt;li&gt;Your opinion or personal preference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Drug therapy for menorrhagia may include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Iron supplements.&lt;/strong&gt; If the condition is accompanied by anemia, your doctor may recommend that you take iron supplements regularly. If your iron levels are low but you&apos;re not yet anemic, you may be started on iron supplements rather than waiting until you become anemic.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Nonsteroidal anti-inflammatory drugs (NSAIDs).&lt;/strong&gt; NSAIDs, such as ibuprofen (Advil, Motrin, others) or naproxen (Aleve), help reduce menstrual blood loss. NSAIDs have the added benefit of relieving painful menstrual cramps (dysmenorrhea).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral contraceptives.&lt;/strong&gt; Aside from providing effective birth control, oral contraceptives can help regulate menstrual cycles and reduce episodes of excessive or prolonged menstrual bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Oral progesterone.&lt;/strong&gt; When taken for 10 or more days of each menstrual cycle, the hormone progesterone can help correct hormonal imbalance and reduce menorrhagia.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;The hormonal IUD (Mirena).&lt;/strong&gt; This type of intrauterine device releases a type of progestin called levonorgestrel, which makes the uterine lining thin and decreases menstrual blood flow and cramping.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you have menorrhagia from taking hormone medication, you and your doctor may be able to treat the condition by changing or stopping your medication.
+&lt;/p&gt;
+&lt;p&gt;
+You may need surgical treatment for menorrhagia if drug therapy is unsuccessful. Treatment options include:
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Dilation and curettage (D&amp;C).&lt;/strong&gt; In this procedure, your doctor opens (dilates) your cervix and then scrapes or suctions tissue from the lining of your uterus to reduce menstrual bleeding. Although this procedure is common and often treats menorrhagia successfully, you may need additional D&amp;C procedures if menorrhagia recurs.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Operative hysteroscopy.&lt;/strong&gt; This procedure uses a tiny tube with a light (hysteroscope) to view your uterine cavity and can aid in the surgical removal of a polyp that may be causing excessive menstrual bleeding.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometrial ablation.&lt;/strong&gt; Using a variety of techniques, your doctor permanently destroys the entire lining of your uterus (endometrium). After endometrial ablation, most women have little or no menstrual flow. Endometrial ablation reduces your ability to become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Endometrial resection.&lt;/strong&gt; This surgical procedure uses an electrosurgical wire loop to remove the lining of the uterus. Both endometrial ablation and endometrial resection benefit women who have very heavy menstrual bleeding. Like endometrial ablation, this procedure reduces your ability to become pregnant.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Hysterectomy.&lt;/strong&gt; Surgical removal of the uterus and cervix is a permanent procedure that causes sterility and cessation of menstrual periods. Hysterectomy is performed during anesthesia and requires hospitalization. Additional removal of the ovaries (bilateral oophorectomy) may cause premature menopause.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Except for hysterectomy, these surgical procedures are usually done on an outpatient basis. Although you may need a general anesthetic, it&apos;s likely that you can go home later on the same day.
+&lt;/p&gt;
+&lt;p&gt;
+When menorrhagia is a sign of another condition, such as thyroid disease, treating that condition usually results in lighter periods.
+&lt;/p&gt;
+			</HTML>
+		</Section>
+	</Body>
+	<Title>
+		Menorrhagia (heavy menstrual bleeding)
+	</Title>
+	<Abstract>
+		Menorrhagia &amp;mdash; Comprehensive overview covers signs and symptoms, causes, diagnosis and treatment.
+	</Abstract>
+	<BenefitSummary />
+	<RelatedLinksBox>
+		<LinkItem ContentType="TestProcedure" DocID="MY00099" LinkType="Internal" ObjectID="BB71967E-E7FF-0DBD-18F947AE9007E769" Title="Vaginal hysterectomy" Url="http://www.mayoclinic.com/health/vaginal-hysterectomy/MY00099" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00090" LinkType="Internal" ObjectID="B5C638B2-E7FF-0DBD-1C4D44BDBEAADA76" Title="Pap smear" Url="http://www.mayoclinic.com/health/pap-smear/MY00090" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00308" LinkType="Internal" ObjectID="9AEF627C-E7FF-0DBD-155D9E86894EFDCD" Title="Ultrasound" Url="http://www.mayoclinic.com/health/ultrasound/MY00308" />
+		<LinkItem ContentType="TestProcedure" DocID="MY01113" LinkType="Internal" ObjectID="9344F16F-901A-10F5-BB55D7058A31003A" Title="Endometrial ablation" Url="http://www.mayoclinic.com/health/endometrial-ablation/MY01113" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00998" LinkType="Internal" ObjectID="2FE93BB0-B736-D7BE-E8480D69D878499E" Title="Mirena (hormonal IUD)" Url="http://www.mayoclinic.com/health/mirena/MY00998" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00163" LinkType="Internal" ObjectID="0E226CE2-E7FF-0DBD-196F87E5F4E1B54F" Title="Abdominal hysterectomy" Url="http://www.mayoclinic.com/health/hysterectomy/MY00163" />
+		<LinkItem ContentType="TestProcedure" DocID="MY00345" LinkType="Internal" ObjectID="06AC3953-E7FF-0DBD-195336DCB709FF7B" Title="Dilation and curettage (D&amp;amp;C)" Url="http://www.mayoclinic.com/health/dilation-and-curettage/MY00345" />
+		<LinkItem ContentType="Article" DocID="MY01541" LinkType="Internal" ObjectID="B0E6EDFF-F3AC-D8DF-2131098AE401EA43" Title="Menstrual cycle: What&apos;s normal, what&apos;s not" Url="http://www.mayoclinic.com/health/menstrual-cycle/MY01541" />
+		<LinkItem ContentType="Answer" DocID="AN01878" LinkType="Internal" ObjectID="ED255789-E7FF-0DBD-1DB24C7D92711F5A" Title="Blood clots during menstruation: A concern?" Url="http://www.mayoclinic.com/health/blood-clots-during-menstruation/AN01878" />
+		<LinkItem ContentType="Answer" DocID="AN01938" LinkType="Internal" ObjectID="95AA3516-E7FF-0DBD-1EFB3A9248FB591E" Title="Heavy periods: Can folic acid help?" Url="http://www.mayoclinic.com/health/heavy-periods/AN01938" />
+		<LinkItem ContentType="Disease" DocID="DS00567" LinkType="Internal" ObjectID="FCFFE32E-DD9C-4CA8-BFC63EE472B00DAA" Title="Hashimoto&apos;s disease" Url="http://www.mayoclinic.com/health/hashimotos-disease/DS00567" />
+		<LinkItem ContentType="Disease" DocID="DS00289" LinkType="Internal" ObjectID="BCA261E0-0FFD-4933-87C852CF94968FE2" Title="Endometriosis" Url="http://www.mayoclinic.com/health/endometriosis/DS00289" />
+		<LinkItem ContentType="Disease" DocID="DS00699" LinkType="Internal" ObjectID="ADB14E63-2A5D-9994-E8194C14C1828C83" Title="Uterine polyps" Url="http://www.mayoclinic.com/health/uterine-polyps/DS00699" />
+		<LinkItem ContentType="Disease" DocID="DS00636" LinkType="Internal" ObjectID="6F358D77-2A5D-9994-E73AA612A09DDB62" Title="Adenomyosis" Url="http://www.mayoclinic.com/health/Adenomyosis/DS00636" />
+		<LinkItem ContentType="Disease" DocID="DS00078" LinkType="Internal" ObjectID="4F0C9E41-CBE7-4348-B00F94F1F73A3043" Title="Uterine fibroids" Url="http://www.mayoclinic.com/health/uterine-fibroids/DS00078" />
+	</RelatedLinksBox>
+</Disease>
